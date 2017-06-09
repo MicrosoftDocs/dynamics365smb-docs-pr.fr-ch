@@ -1,0 +1,41 @@
+---
+title: QuickBooks Data Migration | Microsoft Docs
+description: Fournit des informations sur l&quot;extension QuickBooks Data Migration
+services: project-madeira
+documentationcenter: 
+author: edupont04
+ms.service: dynamics365-financials
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms. search.keywords: app, add-in, manifest, customize, import, implement
+ms.date: 03/29/2017
+ms.author: edupont
+ms.translationtype: Human Translation
+ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
+ms.openlocfilehash: 860ee6b26071e8264deb68bec3b039f384c7be0f
+ms.contentlocale: fr-ch
+ms.lasthandoff: 05/04/2017
+
+
+---
+# <a name="the-quickbooks-data-migration-extension-for-dynamics-365-for-financials"></a>Extension QuickBooks Data Migration pour Dynamics 365 for Financials
+Cette extension facilite la migration des clients, des fournisseurs, des articles et des comptes de QuickBooks vers [!INCLUDE[d365fin](includes/d365fin_md.md)]. Si votre entreprise utilise QuickBooks aujourd'hui, vous pouvez exporter les informations appropriées puis ouvrir un guide de configuration assistée pour télécharger les données vers [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Pour plus d'informations, voir [Importation des données métier à partir d'autres systèmes financiers](upload-data.md).
+
+## <a name="exporting-data-from-quickbooks"></a>Exportation des données à partir de QuickBooks
+Vous devez avoir exporté une partie ou la totalité de vos clients, fournisseurs, articles en stock et comptes existants vers un fichier IIF (Intuit Interchange Format). L'extension QuickBooks Data Migration inclut un mappage par défaut des données QuickBooks, ce qui vous permet d'utiliser vos données existantes pour tester votre nouvelle société [!INCLUDE[d365fin](includes/d365fin_md.md)]. Le mappage par défaut est suffisant dans l'immense majorité des cas, mais vous pouvez le modifier dans le guide de configuration assistée.  
+Dans QuickBooks, le menu Fichier comprend un utilitaire permettant d'exporter les listes. Pour les besoins de [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez exporter les listes suivantes :
+
+* Liste des clients  
+* Liste des fournisseurs  
+* Liste des articles  
+* Liste des comptes  
+
+Les données exportées sont enregistrées en tant que fichier IIF que vous pouvez ensuite télécharger vers [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+## <a name="see-also"></a>Voir aussi
+[Importation des données métier à partir d'autres systèmes financiers](upload-data.md)  
+[Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide d'extensions](ui-extensions.md)  
+
