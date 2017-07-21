@@ -1,6 +1,6 @@
 ---
-title: "Procédure : créer des interactions sur les contacts et les segments | Microsoft Docs"
-description: "Décrit comment créer des interactions sur les contacts et les segments dans Financials"
+title: "Créer des interactions sur les contacts et les segments| Microsoft Docs"
+description: "Décrit comment créer des interactions pour les communications que vous avez avec vos contacts et segments dans Financials, par exemple le courrier direct."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,27 +10,28 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/15/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: b50d332441bee01158559616fff5d5f5ca381a90
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 42e5357eb78df09437bbd22a288f4e583de27e67
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-create-interactions-on-contacts-and-segments"></a>Procédure : créer des interactions sur les contacts et les segments
 Vous pouvez créer des interactions pour enregistrer toutes les interactions et toutes les communications que vous entretenez avec vos contacts et segments, par exemple le courrier direct.
 
-Pour pouvoir créer des interactions, vous devez configurer des modèles interaction. Pour plus d'informations, reportez vous à [Configurer des modèles interaction](marketing-interactions.md#set-up-interaction-templates).
+Pour pouvoir créer des interactions, vous devez configurer des modèles interaction. Pour plus d'informations, reportez vous à [Configurer des modèles interaction](marketing-interactions.md).
 
 ## <a name="to-create-an-interaction"></a>Pour créer une interaction
 1. Ouvrez le contact, le vendeur, ou l'écriture journal interaction.
 2. Sélectionnez l'action **Créer interaction**.
-3. Renseignez les champs et cliquez sur le bouton **OK**.
+3. Renseignez les champs, puis cliquez sur le bouton **OK**.
 
-**Remarque** : si vous devez effectuer une autre tâche avant de terminer l'interaction, vous pouvez cliquer sur **Annuler** et choisir de terminer l'interaction à une date ultérieure. Cela permet de reporter l'interaction à plus tard.
+> [!NOTE]  
+>   Si vous devez effectuer une autre tâche avant de terminer l'interaction, vous pouvez cliquer sur **Annuler** et choisir de terminer l'interaction à une date ultérieure. Cela permet de reporter l'interaction à plus tard.
 
 ## <a name="to-finish-and-delete-postponed-interactions"></a>Pour terminer et supprimer les interactions reportées
 1. Ouvrez le contact, le vendeur, ou l'écriture journal interaction.
@@ -38,7 +39,7 @@ Pour pouvoir créer des interactions, vous devez configurer des modèles interac
 3. Sélectionnez l'interaction que vous souhaitez terminer, puis sélectionnez l'action **Reprendre**.
 
 ## <a name="to-create-an-interaction-on-a-segment"></a>Pour créer une interaction sur un segment
-1. Sur la page d'accueil, sélectionnez **Segments actifs**, ou dans le coin supérieur droit, sélectionnez l'icône **Page ou état pour la recherche** ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Segments**, puis sélectionnez le lien associé.
+1. Sur la page d'accueil, sélectionnez **Segments actifs**. Sinon, sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Segments**, puis sélectionnez le lien connexe.
 2. Dans la fenêtre **Segment**, dans la section **Interaction**, renseignez les champs pour définir l'interaction à affecter au segment.
 
     Après avoir affecté une interaction au segment, vous pouvez personnaliser l'interaction pour chaque contact au sein du segment, par exemple en sélectionnant un autre modèle interaction sur les lignes de la fenêtre **Segment**.  

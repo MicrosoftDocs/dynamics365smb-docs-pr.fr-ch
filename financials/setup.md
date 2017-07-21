@@ -1,6 +1,6 @@
 ---
-title: Configuration de Financials | Microsoft Docs
-description: Configuration de Financials
+title: "Aperçu des tâches permettant de configurer Dynamics 365 for Financials | Microsoft Docs"
+description: "Décrit les tâches permettant de paramétrer, d'initialiser, et de configurer Dynamics 365 for Financials selon vos besoins."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 04/27/2017
+ms.date: 06/07/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 5be24b9017b105adc6c857655c8de63d67b6aa29
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: e6efc11442a693da00c289866b726345ef97fb39
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -40,9 +40,10 @@ Certaines fonctionnalités (générales ou pour des processus d'entreprise spéc
 | Configurer comment assurer, maintenir et amortir les immobilisations, et comment enregistrer les coûts des immobilisations dans la comptabilité de la société. |[Paramétrage d'immobilisations](fa-setup.md) |
 | Configurer des codes d'identification uniques pour les enregistrements, tel que les fiches, les documents, et les lignes feuille, pour les suivre dans le système. |[Création des souches de numéros](ui-create-number-series.md) |
 | Configurer la fenêtre **Paramétrage courrier SMTP** pour envoyer et recevoir des e-mails à partir des documents dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. |[Procédure : configurer la messagerie](madeira-how-setup-email.md) |
+| Configurez des codes d'identification uniques. |[Procédure : création des souches de numéros](ui-create-number-series.md) |
 
 ## <a name="see-also"></a>Voir aussi
-[Finance](finance.md)  
+[Finances](finance.md)  
 [Ventes](sales-manage-sales.md)  
 [Achats](purchasing-manage-purchasing.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

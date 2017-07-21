@@ -1,6 +1,6 @@
 ---
-title: "Résoudre les problèmes liés à l&quot;inscription en self-service | Microsoft Docs"
-description: "Résoudre les problèmes liés à Azure AD lors de l&quot;inscription."
+title: "Moyens de résoudre des problèmes d'inscription en self-service | Microsoft Docs"
+description: "En savoir plus sur les motifs classiques pour lesquels vous ne pouvez pas terminer l'inscription à Dynamics 365 for Financials, et des manières de les résoudre."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 9bd980c6c6172d736915119806c0ba154b22bc8a
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 1bc036d4e57403d903c292a07a8985dfe939b20d
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -36,7 +36,7 @@ Dans de nombreux cas, vous pouvez effectuer votre inscription à [!INCLUDE[d365f
 | Les adresse e-mail personnelles telles que nancy@gmail.com ne sont pas prises en charge. Vous recevez un message semblable au suivant lors de votre inscription :<br /><br />**Vous avez saisi une adresse e-mail personnelle. Veuillez saisir votre adresse e-mail professionnelle de sorte que nous puissions stocker les données de votre société en toute sécurité.**<br> Ou <br> **Il semble que votre adresse soit une adresse personnelle. Saisissez votre adresse professionnelle de sorte que vous puissions vous mettre en relation avec d'autres utilisateurs de votre société. Et vous ne inquiétez pas. Nous ne partagerons votre adresse avec personne.** |[!INCLUDE[d365fin](includes/d365fin_md.md)] ne prend pas en charge les adresses e-mail fournies par les services de messagerie publics ni les opérateurs de télécommunications. Pour terminer l'inscription, essayez de nouveau en utilisant une adresse e-mail affectée par votre entreprise ou établissement scolaire. Si vous ne parvenez toujours pas à vous inscrire et que vous êtes disposé à effectuer un processus de configuration plus avancé, vous pouvez prendre un nouvel abonnement gratuit Office 365 et utiliser cette adresse e-mail pour vous inscrire. |
 | Adresses e-mail .gov ou .mil. Vous recevez un message semblable au suivant lors de votre inscription :<br /><br />**[!INCLUDE[d365fin](includes/d365fin_md.md)] n'est pas disponible : [!INCLUDE[d365fin](includes/d365fin_md.md)] n'est pas disponible pour les utilisateurs ayant des adresses e-mail .gov ou .mil. pour le moment. Utilisez une autre adresse e-mail professionnelle ou vérifiez ultérieurement.** <br>Ou <br>**Nous ne sommes pas en mesure de terminer votre inscription. Il semble que [!INCLUDE[d365fin](includes/d365fin_md.md)] ne soit pas disponible à l'heure actuelle pour votre entreprise ou établissement scolaire.** |[!INCLUDE[d365fin](includes/d365fin_md.md)] ne prend pas en charge les adresses e-mail .gov ou .mil. |
 | L'inscription en self-service n'est pas activée. Vous recevez un message semblable au suivant lors de votre inscription :<br /><br />**Nous ne sommes pas en mesure de terminer votre inscription. Votre service informatique a désactivé l'inscription à [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour terminer votre inscription, contactez votre service informatique.** <br>Ou <br> **Il semble que votre adresse soit une adresse personnelle. Saisissez votre adresse professionnelle de sorte que vous puissions vous mettre en relation avec d'autres utilisateurs de votre société. Et vous ne inquiétez pas. Nous ne partagerons votre adresse avec personne.** |L'administrateur informatique de votre entreprise a désactivé l'inscription en self-service à [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour terminer votre inscription, contactez votre administrateur informatique et demandez-lui de suivre les instructions sur la page ci-dessous afin d'autoriser les utilisateurs existants à s'inscrire à [!INCLUDE[d365fin](includes/d365fin_md.md)] et d'autoriser les nouveaux utilisateurs à rejoindre votre abonnement existant. Vous pouvez également rencontrer ce problème si vous avez effectué votre inscription à Office 365 par l'intermédiaire d'un partenaire. |
-| L'adresse e-mail n'est pas un ID Office 365 Vous recevez un message semblable au suivant lors de votre inscription :<br /><br />**Nous ne vous trouvons pas sur contoso.com. Utilisez-vous un autre identifiant dans votre entreprise ou établissement scolaire ? Essayez d'effectuer votre inscription avec celui-ci. Si cela ne fonctionne pas, contactez votre service informatique.** |Votre entreprise utilise pour l'inscription à Office 365 et à d'autres services Microsoft des identifiants différents de votre adresse e-mail. Par exemple, votre adresse e-mail peut être Nancy.Smith@contoso.com alors que votre identifiant est nancys@contoso.com. Pour terminer votre inscription, utilisez l'identifiant que votre entreprise vous a affecté pour l'inscription à Office 365 ou à d'autres services Microsoft. Si vous ne connaissez pas cet identifiant, contactez votre administrateur informatique. Si vous ne parvenez toujours pas à vous inscrire et que vous êtes en mesure d'effectuer un processus de configuration plus avancé, vous pouvez prendre un nouvel abonnement gratuit Office 365 et utiliser cette adresse e-mail pour vous inscrire. |
+| L'adresse e-mail n'est pas un ID Office 365. Vous recevez un message semblable au suivant lors de votre inscription :<br /><br />**Nous ne vous trouvons pas sur contoso.com. Utilisez-vous un autre identifiant dans votre entreprise ou établissement scolaire ? Essayez d'effectuer votre inscription avec celui-ci. Si cela ne fonctionne pas, contactez votre service informatique.** |Votre entreprise utilise pour l'inscription à Office 365 et à d'autres services Microsoft des identifiants différents de votre adresse e-mail. Par exemple, votre adresse e-mail peut être Nancy.Smith@contoso.com alors que votre identifiant est nancys@contoso.com. Pour terminer votre inscription, utilisez l'identifiant que votre entreprise vous a affecté pour l'inscription à Office 365 ou à d'autres services Microsoft. Si vous ne connaissez pas cet identifiant, contactez votre administrateur informatique. Si vous ne parvenez toujours pas à vous inscrire et que vous êtes en mesure d'effectuer un processus de configuration plus avancé, vous pouvez prendre un nouvel abonnement gratuit Office 365 et utiliser cette adresse e-mail pour vous inscrire. |
 
 ## <a name="see-also"></a>Voir aussi
 [Bienvenue dans [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  

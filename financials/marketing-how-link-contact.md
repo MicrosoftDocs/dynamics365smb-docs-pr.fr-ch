@@ -1,6 +1,6 @@
 ---
-title: Liaison de contacts avec des clients, des fournisseurs et des comptes bancaires | Microsoft Docs
-description: "Décrit comment lier des contacts avec des clients, des fournisseurs et des comptes bancaires dans Financials"
+title: Liaison de contacts avec des clients et des fournisseurs| Microsoft Docs
+description: "Décrit comment lier un contact avec un client, un fournisseur, ou un compte bancaire de la même société, afin de pouvoir synchroniser les données communes."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 44dff830f293f4a33e6358d816635aa67e8a8de6
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: f5bbadb37a40dbc7b06668d940d2be9569aaa8e8
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---

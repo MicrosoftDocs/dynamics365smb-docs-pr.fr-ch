@@ -1,6 +1,6 @@
 ---
-title: "Procédure : configurer le service de conversion de données bancaires| Microsoft Docs"
-description: "Procédure : configurer le service de conversion de données bancaires"
+title: "Configuration de la conversion données bancaires| Microsoft Docs"
+description: Vous pouvez configurer des comptes bancaires pour suivre les transactions et importer ou exporter des flux bancaires, tels que Yodlee.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 84834fab38217fb161ed16e3215a34978a4c6137
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 6c7dd8051467b044b7fd569367c5af802d30e5c3
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,13 +31,15 @@ Vous pouvez utiliser le service Envestnet Yodlee Bank Feeds au lieu d'importer d
 
 Pour importer ou exporter des fichiers bancaires, vous devez configurer votre propre compte bancaire et les comptes bancaires de vos fournisseurs. Pour plus d'informations, reportez vous à [Procédure: configuration de comptes bancaires](bank-how-setup-bank-accounts.md).
 
-**Remarque** : Le service de conversion de données bancaires peut fixer une limite imposée du nombre de lignes qui peuvent être exportées dans un fichier. Si cette limite est dépassée, vous recevrez un message d'erreur. Il est conseillé que les fichiers de relevé bancaire ne dépassent pas 1 000 lignes, sans quoi le temps de traitement dans le service conversion données bancaires peut augmenter de façon significative.
+> [!NOTE]  
+>   Le service conversion données bancaires peut fixer une limite imposée du nombre de lignes qui peuvent être exportées dans un fichier. Si cette limite est dépassée, vous recevrez un message d'erreur. Il est conseillé que les fichiers de relevé bancaire ne dépassent pas 1 000 lignes, sans quoi le temps de traitement dans le service conversion données bancaires peut augmenter de façon significative.
 
 ## <a name="to-sign-your-company-up-for-the-bank-data-conversion-service"></a>Pour inscrire votre société au service de conversion des données bancaires
-1. Dans le coin supérieur droit, sélectionnez l'icône **Page ou état pour la recherche** ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Paramètres service conv. données banque**, puis sélectionnez le lien associé.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Paramètres service conv. données banque**, puis sélectionnez le lien connexe.  
 2. La fenêtre **Paramètres service conv. données banque** s'ouvre avec trois champs préremplis avec les URL appropriées du fournisseur du service de conversion de données bancaires.
 
-    **Remarque** : Dans la base de données de démonstration CRONUS International Ltd., les champs Nom d'utilisateur et Mot de passe sont préremplis avec les informations de connexion à la démonstration, que vous remplacerez par les informations réelles de votre société en vous inscrivant au service de conversion de données bancaires.
+    > [!NOTE]  
+>   Dans la base de données de démonstration CRONUS International Ltd., les champs Nom d'utilisateur et Mot de passe sont préremplis avec les informations de connexion à la démonstration, que vous remplacerez par les informations réelles de votre société en vous inscrivant au service de conversion de données bancaires.
 3. Dans le champ **URL d'inscription**, cliquez sur le bouton de navigateur pour ouvrir la page d'inscription du fournisseur de service.  
 4. Dans la page d'inscription du fournisseur de services de données bancaires, entrez le nom de l'utilisateur et le mot de passe de l'abonnement de votre société au service, puis suivez le processus d'inscription comme indiqué par le fournisseur de service.
 
@@ -52,13 +54,14 @@ Il est recommandé de protéger les informations de connexion que vous saisissez
 2. Dans la fenêtre **Gestion du chiffrement des données**, activez le chiffrement de vos données.
 
 ## <a name="to-view-or-update-the-list-of-currently-supported-bank-data-formats"></a>Pour afficher ou mettre à jour la liste des formats de données bancaires actuellement pris en charge
-1. Dans le coin supérieur droit, sélectionnez l'icône **Page ou état pour la recherche** ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Paramètres service conv. données banque**, puis sélectionnez le lien associé.
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Paramètres service conv. données banque**, puis sélectionnez le lien connexe.
 2. Dans la fenêtre **Paramètres service conv. données banque**, sélectionnez l'action **Nom banque - Liste conversions données** pour ouvrir la liste des noms de banques représentant les formats de données bancaires pris en charge par le service de conversion.
 3. Sur la page **Nom banque - Liste conversions données**, sélectionnez l'action **Mettre à jour liste noms banque**.
 
 La liste des formats de données bancaires qui sont pris en charge par le service de conversion de données bancaires est désormais mise à jour. Il s'agit de la liste de noms de banques, filtrés par pays/région, que vous pouvez sélectionner dans le champ **Nom banque - Conversion données** de la fenêtre **Fiche compte bancaire**.
 
-**Remarque** : les formats de données bancaires pris en charge sont aussi mis à jour lorsque vous sélectionnez ou entrez une valeur dans le champ **Nom banque - Conversion données** du compte bancaire.
+> [!NOTE]  
+>   Les formats de données bancaires pris en charge sont aussi mis à jour lorsque vous sélectionnez ou entrez une valeur dans le champ **Nom banque - Conversion données** du compte bancaire.
 
 Vous êtes désormais inscrit au service de conversion des données bancaires. Continuez pour refléter les informations de connexion sur chaque compte bancaire qui utilise le service.
 

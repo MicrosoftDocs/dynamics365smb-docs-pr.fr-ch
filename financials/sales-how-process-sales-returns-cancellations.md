@@ -1,6 +1,6 @@
 ---
-title: "Procédure : traiter les retours ou annulations de ventes| Microsoft Docs"
-description: "Procédure : traiter les retours ou annulations de ventes"
+title: Utilisation d'un avoir achat pour traiter les retours ou les annulations de vente | Microsoft Docs
+description: "Décrit comment créer un avoir vente pour traiter un retour, annulation, ou un remboursement pour les articles ou les services qui vous ont déjà été payés."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,29 +10,32 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 03/29/2016
+ms.date: 06/21/2016
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: cf471e0c3a13a954ab7604a8b1d0f715f664722d
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: f08526054e99f742cedfefe036d8903304e54a56
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-process-sales-returns-or-cancellations"></a>Procédure : traiter les retours ou annulations de ventes
 Si votre client souhaite retourner ou obtenir un remboursement pour des articles, ou encore annuler des services, que vous lui avez vendus et pour lesquels vous avez reçu un paiement, vous devez créer et valider un avoir vente qui indique la modification demandée. Pour inclure les informations de facture vente correctes, vous pouvez créer l'avoir vente à partir de la facture vente enregistrée ou utiliser la fonction de copie.  
 
-**Remarque** : si une facture vente validée n'a pas encore été payée, vous pouvez utiliser les fonctions **Corriger** ou **Annuler** sur la facture vente validée pour contrepasser automatiquement les transactions associées. Ces fonctions ne fonctionnent que pour les factures impayées, elles ne prennent pas en charge des retours partiels ou les annulations. Pour plus d'informations, reportez-vous à [Procédure : corriger ou annuler des factures vente impayées](sales-how-correct-cancel-sales-invoice.md).
+> [!NOTE]  
+>   Si une facture vente validée n'a pas encore été payée, vous pouvez utiliser les fonctions **Corriger** ou **Annuler** sur la facture vente validée pour contrepasser automatiquement les transactions associées. Ces fonctions ne fonctionnent que pour les factures impayées, elles ne prennent pas en charge des retours partiels ou les annulations. Pour plus d'informations, reportez-vous à [Procédure : corriger ou annuler des factures vente impayées](sales-how-correct-cancel-sales-invoice.md).
 
 Outre la facture vente validée d'origine, vous pouvez lettrer l'avoir vente à d'autres documents vente, par exemple une autre facture vente validée, parce que le client renvoie également des articles livrés avec cette facture.
 
 Un retour ou un remboursement peut en effet se rapporter uniquement à certains des articles ou des services figurant sur la facture vente initiale. Dans ce cas, vous devez modifier les informations des lignes de l'avoir vente. Lors de la validation de l'avoir vente, les documents vente affectés par la modification sont contrepassés et un paiement de remboursement peut être créé pour le client.  
 
-Vous pouvez envoyer l'avoir vente validé au client pour confirmer le retour ou l'annulation et communiquer que la valeur associée sera remboursée, par exemple lorsque les articles sont renvoyés.  
+Vous pouvez envoyer l'avoir vente validé au client pour confirmer le retour ou l'annulation et communiquer que la valeur associée sera remboursée, par exemple lorsque les articles sont renvoyés.
+
+La validation de l'avoir rétablira également tous les frais annexes affectés au document validé, afin que les écritures valeur de l'article soient identiques à celles précédant l'affectation des frais annexes.
 
 ## <a name="to-create-a-sales-credit-memo-from-a-posted-sales-invoice"></a>Pour créer un avoir vente à partir d'une facture vente validée
-1. Dans le coin supérieur droit, sélectionnez l'icône **Page ou état pour la recherche** ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Factures vente enregistrées**, puis sélectionnez le lien associé.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Factures vente enregistrées**, puis sélectionnez le lien connexe.  
 2. Dans la fenêtre **Factures vente enregistrées**, sélectionnez la facture vente validée que vous souhaitez contrepasser, puis sélectionnez l'action **Créer un avoir correctif**.
 
     L'en-tête avoir vente affiche des informations sur la facture vente validée. Vous pouvez les modifier, par exemple avec de nouvelles informations qui reflètent l'accord de retour.  
@@ -54,7 +57,7 @@ La boîte de dialogue **Valider et envoyer la confirmation** s'ouvre et indique 
 Les documents vente validés auxquels vous avez lettré l'avoir sont à présent contrepassés, et un remboursement peut être créé pour le client. L'avoir vente est supprimé et remplacé par un nouveau document dans la liste des avoirs vente validés.
 
 ## <a name="to-create-a-sales-credit-memo-from-scratch"></a>Pour créer un avoir vente à partir de zéro
-1. Dans le coin supérieur droit, sélectionnez l'icône **Page ou état pour la recherche** ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Factures vente enregistrées**, puis sélectionnez le lien associé.
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Feuille règlement**, puis sélectionnez le lien connexe.
 2. Sélectionnez l'action **Nouveau** pour ouvrir un nouvel avoir vente vierge.
 3. Dans le champ **Client**, entrez le nom d'un client existant.
 4. Sélectionnez l'action **Copier document**.

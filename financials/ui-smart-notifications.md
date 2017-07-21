@@ -1,6 +1,6 @@
 ---
-title: Notifications intelligentes | Microsoft Docs
-description: Avec les notifications intelligentes, vous recevez des conseils et des recommandations.
+title: "Utiliser des notifications intelligentes et spécifier quand elles doivent s'afficher | Microsoft Docs"
+description: "Vous pouvez recevoir des notifications qui vous informent sur les modifications de statut ou les événements, par exemple, un solde échu ou un stock bas."
 services: project-madeira
 documentationcenter: 
 author: bholtorf
@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/24/2016
+ms.date: 10/24/2017
 ms.author: bholtorf
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 96fd7894545855dd2572e100d674415ca19104db
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 3d0a8668b3448b3e7654b702dc28751dc01d2911
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,7 +31,7 @@ Lorsque vous utilisez [!INCLUDE[d365fin](includes/d365fin_md.md)] pour la premi�
 En outre, certaines notification vous permettent de spécifier les conditions dans lesquelles elles sont envoyées. Par exemple, si vous souhaitez être informé lorsque le stock diminue, mais uniquement pour les articles que vous achetez à un certain fournisseur.  
 L'activation ou la désactivation des notifications et la spécification des conditions s'appliquent uniquement à vous.  
 
-1. Dans le coin supérieur droit, sélectionnez l'icône **Page ou état pour la recherche** ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Mes notifications**, puis sélectionnez le lien associé.
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), saisissez **Mes notifications**, puis sélectionnez le lien connexe.
 2. Pour activer ou désactiver une notification, sélectionnez ou désactivez la case à cocher **Activé**.
 3. Pour spécifier les conditions qui déclenchent une notification, cliquez sur le lien **Afficher les détails du filtre**, puis renseignez les champs.  
 

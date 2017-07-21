@@ -1,6 +1,6 @@
 ---
-title: "Procédure : configurer des acheteurs| Microsoft Docs"
-description: "Si plusieurs acheteurs travaillent dans votre société, vous pouvez les planifier pour l&quot;analyse statistique."
+title: Configurer des acheteurs d'articles et les affecter aux fournisseurs| Microsoft Docs
+description: "Si plusieurs acheteurs ou agents d'achat travaillent dans votre société, vous pouvez les planifier pour l'analyse statistique."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,22 +13,22 @@ ms.search.keywords: purchasing agent
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 0c57a73b1079d579a79a764a083bc663847c4549
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 98b9dfce0b0a9723992fe3de77a1130ca2b05e7a
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 ---
 # <a name="how-to-set-up-purchasers"></a>Procédure : configurer des acheteurs
 Si plusieurs acheteurs travaillent dans votre société, vous pouvez les configurer dans une fenêtre et leur attribuer un code. Vous pouvez ensuite utiliser ces codes pour établir des statistiques et filtrer les informations des états imprimés.
 
 ## <a name="to-set-up-purchasers"></a>Pour configurer des acheteurs
-1. Dans le coin supérieur droit, sélectionnez l'icône **Page ou état pour la recherche** ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Vendeurs/Acheteurs**, puis sélectionnez le lien associé.
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Vendeur/Acheteur**, puis sélectionnez le lien connexe.
 2. Dans la fenêtre **Vendeur/Acheteur**, sélectionnez l'action **Nouveau**.
 3. Dans la fenêtre **Fiche vendeur/acheteur**, renseignez les champs comme nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-purchasers-to-vendors"></a>Pour affecter des acheteurs à des fournisseurs
-1. Dans le coin supérieur droit, sélectionnez l'icône **Page ou état pour la recherche** ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Fournisseurs**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Comptes bancaires**, puis sélectionnez le lien connexe.
 2. Ouvrez la fiche du fournisseur auquel un acheteur est affecté.
 3. Dans le champ **Code acheteur**, sélectionnez le code acheteur approprié, puis fermez la fenêtre.
 

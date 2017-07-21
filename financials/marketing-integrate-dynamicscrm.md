@@ -1,6 +1,6 @@
 ---
-title: "Gestion de vos relations client à l&quot;aide de Dynamics 365 for Sales à partir de Dynamics 365 for Financials | Microsoft Docs"
-description: "Si vous utilisez Dynamics 365 for Sales pour la communication avec le client, vous pouvez utiliser Dynamics 365 for Financials pour le traitement des commandes et les finances et avoir une intégration transparente dans le processus allant du prospect à l&quot;encaissement"
+title: "Gérer les clients à l'aide de Dynamics 365 for Sales| Microsoft Docs"
+description: "Vous pouvez utiliser Dynamics 365 for Sales depuis Dynamics 365 for Financials pour mapper les données et avoir une intégration et une synchronisation parfaites dans le processus allant du prospect à l'encaissement."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map
-ms.date: 03/05/2017
+ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: c0291cc316b49e1f1f4f2196745914daca158f61
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 2f182d48a3d2c083507564b553fbe22ad7a2e661
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 ---
 # <a name="managing-your-customer-relationships-using-dynamics-365-for-sales-from-inside-dynamics-365-for-financials"></a>Gestion de vos relations client à l'aide de Dynamics 365 for Sales à partir de Dynamics 365 for Financials
@@ -23,16 +23,19 @@ Si vous utilisez Dynamics 365 for Sales pour la communication avec le client, vo
 
 Lorsque votre application est configurée pour l'intégration à Dynamics 365 for Sales, vous avez accès aux données des ventes à partir de [!INCLUDE[d365fin](includes/d365fin_md.md)] et inversement dans certains cas. L'intégration vous permet d'utiliser et de synchroniser les types de données communs aux deux services, par exemple clients, contacts et informations de vente, et mettre à jour les données dans les deux emplacements.  
 
-**Remarque ** : dans la version actuelle de [!INCLUDE[d365fin](includes/d365fin_md.md)], Dynamics 365 for Sales est appelé Dynamics CRM. Par souci de simplicité, la suite de cet article utilise la terminologie utilisée dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+> [!NOTE]  
+>   Dans la version actuelle de [!INCLUDE[d365fin](includes/d365fin_md.md)], Dynamics 365 for Sales est appelé Dynamics CRM. Par souci de simplicité, la suite de cet article utilise la terminologie utilisée dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Par exemple, les commerciaux dans Dynamics CRM peuvent utiliser les tarifs à partir de [!INCLUDE[d365fin](includes/d365fin_md.md)] lorsqu'ils créent une commande vente. Lorsque ils ajoutent l'article à la ligne commande vente dans Dynamics CRM, ils peuvent également visualiser le niveau de stock (disponibilité) de l'article à partir de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ces données sont publiées dans le cadre du guide de configuration assistée, **Paramètres de la connexion à Dynamics CRM**.  
 
-**Remarque** : Cette fonctionnalité nécessite que votre expérience soit définie sur **Suite**. Pour plus d'informations, voir [Personnalisation de votre expérience [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).  
+> [!NOTE]  
+>   Cette fonctionnalité nécessite que votre expérience soit définie sur **Suite**. Pour plus d'informations, voir [Personnalisation de votre expérience [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).  
 
 ## <a name="setting-up-the-connection"></a>Configuration de la connexion
 À partir de la page d'accueil, vous pouvez accéder au guide de configuration assistée **Paramètres de la connexion à Dynamics CRM** qui vous aide à configurer la connexion. Une fois cette opération effectuée, vous disposez d'un couplage facile des enregistrements Dynamics CRM avec les enregistrements [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-**Remarque** : la section suivante explique la configuration assistée, mais vous pouvez effectuer les mêmes tâches manuellement dans la fenêtre **Paramétrage de la connexion CRM**.
+> [!NOTE]  
+>   La section suivante explique la configuration assistée, mais vous pouvez effectuer les mêmes tâches manuellement dans la fenêtre **Paramétrage de la connexion CRM**.
 
 Dans le guide de configuration assistée, vous pouvez choisir les données à synchroniser entre les deux services. Vous pouvez également spécifier où vous souhaitez importer votre solution Dynamics CRM existante. Dans ce cas, vous devez indiquer les informations d'identification d'un compte utilisateur.
 
@@ -67,7 +70,8 @@ Dans certains domaines, la fonctionnalité vous demande de coupler certains ense
 * Prix des articles et des ressources  
   * Coupler d'abord des groupes tarifs client avec Dynamics CRM  
 
-**Remarque** : si vous utilisez des tarifs en devises étrangères, assurez-vous de coupler des devises avec les devises de transaction Dynamics CRM.
+> [!NOTE]  
+>   Si vous utilisez des tarifs en devises étrangères, assurez-vous de coupler des devises avec les devises de transaction Dynamics CRM.
 
 Les commandes vente Dynamics CRM dépendent d'informations supplémentaires comme les clients, les unités de mesure, les devis, les groupes tarifs client, les articles et/ou les ressources. Pour que les commandes vente Dynamics CRM fonctionnent de façon transparente, vous devez d'abord coupler des clients, des unités de mesure, des devises, des groupes tarifs client, des articles et/ou des ressources.
 
@@ -81,7 +85,7 @@ Dans la fenêtre **Paramétrage de la connexion CRM**, vous pouvez obtenir des d
 ## <a name="see-also"></a>Voir aussi
 [Gestion des relations](marketing-relationship-management.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Personnalisation de votre [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)  
+[Personnalisation de votre expérience [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)  
 [Procédure : gérer les utilisateurs et les autorisations](ui-how-users-permissions.md)    
 [Intégrer l'organisation et les utilisateurs dans Dynamics 365 (en ligne)](https://www.microsoft.com/en-US/Dynamics/crm-customer-center/onboard-your-organization-and-users-to-dynamics-365-online.aspx)  
 

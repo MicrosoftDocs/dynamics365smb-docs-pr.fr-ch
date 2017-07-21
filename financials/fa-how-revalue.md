@@ -1,6 +1,6 @@
 ---
-title: "Procédure : réévaluer des immobilisations| Microsoft Docs"
-description: "Décrit comment réévaluer et valider une immobilisation."
+title: "Réévaluer des immobilisations| Microsoft Docs"
+description: "Apprenez comment modifier la valeur des immobilisations, enregistrer de nouveaux montants comme dépréciation ou réévaluation, et valider les coûts d'acquisition supplémentaires."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/28/2016
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 189499fea8b51697013711c8d8d09ab164ad85c5
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: e578b2d22cf715407fee0b796b1ea49ef592057d
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -29,36 +29,39 @@ Lorsque la valeur d'une immobilisation a diminué, vous validez une ligne feuill
 L'actualisation permet d'ajuster plusieurs valeurs immobilisation, par exemple, en fonction de modifications générales de niveau de prix. Le traitement par lots **Réévaluer immobilisations** permet de modifier divers montants, tels que les montants de dépréciation et de réévaluation.
 
 ## <a name="to-post-an-appreciation-from-the-fixed-asset-gl-journal"></a>Pour valider une réévaluation à partir d'une feuille comptabilisation immobilisation
-1. Dans le coin supérieur droit, sélectionnez l'icône **Page ou état pour la recherche** ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Feuille comptabilisation immobilisation**, puis sélectionnez le lien associé.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille comptabilisation immobilisation**, puis sélectionnez le lien connexe.  
 2. Créez une feuille comptable initiale et complétez les champs, le cas échéant.
 3. Dans le champ **Type compta. immo**, sélectionnez **Réévaluation**.
 4. Sélectionnez l'action **Insérer contrepartie immo.**. Une seconde ligne feuille est créée pour le compte contrepartie qui est configuré pour la validation de la réévaluation.
 
-    **Remarque** : l'étape 4 ne fonctionne que si vous avez configuré ce qui suit : dans la fenêtre **Fiche groupe compta. immo.** pour le groupe de validation de l'immobilisation, le champ **Compte réévaluation** contient le compte débit général et le champ **Compte contrepartie réévaluation** contient le compte général auquel vous souhaitez valider les écritures contrepartie pour réévaluation. Pour en savoir plus, voir la section « Pour configurer des groupes de validation d'immobilisation » dans [Procédure : configurer des informations d'immobilisation générales pour les immobilisations](fa-how-setup-general.md).  
+    > [!NOTE]  
+>   L'étape 4 ne fonctionne que si vous avez configuré ce qui suit : dans la fenêtre **Fiche groupe compta. immo.** pour le groupe de validation de l'immobilisation, le champ **Compte réévaluation** contient le compte débit général et le champ **Compte contrepartie réévaluation** contient le compte général auquel vous souhaitez valider les écritures contrepartie pour réévaluation. Pour en savoir plus, voir la section « Pour configurer des groupes de validation d'immobilisation » dans [Procédure : configurer des informations d'immobilisation générales pour les immobilisations](fa-how-setup-general.md).  
 5. Sélectionnez l'action **Valider**.
 
 ## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>Pour valider une dépréciation à partir d'une feuille comptabilisation immobilisation
-1. Dans le coin supérieur droit, sélectionnez l'icône **Page ou état pour la recherche** ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Feuille comptabilisation immobilisation**, puis sélectionnez le lien associé.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille comptabilisation immobilisation**, puis sélectionnez le lien connexe.  
 2. Créez une feuille comptable initiale et complétez les champs, le cas échéant.
 3. Dans le champ **Type compta. immo**, sélectionnez **Dépréciation**.
 4. Sélectionnez l'action **Insérer contrepartie immo.**. Une seconde ligne feuille est créée pour le compte contrepartie qui est configuré pour la validation de la dépréciation.
 
-    **Remarque** : l'étape 4 ne fonctionne que si vous avez configuré ce qui suit : dans la fenêtre **Fiche groupe compta. immo.** pour le groupe de validation de l'immobilisation, le champ **Compte dépréciation** contient le compte crédit général et le champ **Compte dépense dépréciation** contient le compte général auquel vous souhaitez valider les écritures contrepartie pour dépréciation. Pour en savoir plus, voir la section « Pour configurer des groupes de validation d'immobilisation » dans [Procédure : configurer des informations d'immobilisation générales pour les immobilisations](fa-how-setup-general.md).
+    > [!NOTE]  
+>   L'étape 4 ne fonctionne que si vous avez configuré ce qui suit : dans la fenêtre **Fiche groupe compta. immo.** pour le groupe de validation de l'immobilisation, le champ **Compte dépréciation** contient le compte crédit général et le champ **Compte dépense dépréciation** contient le compte général auquel vous souhaitez valider les écritures contrepartie pour dépréciation. Pour en savoir plus, voir la section « Pour configurer des groupes de validation d'immobilisation » dans [Procédure : configurer des informations d'immobilisation générales pour les immobilisations](fa-how-setup-general.md).
 5. Sélectionnez l'action **Valider**.
 
 ## <a name="to-perform-general-revaluation-of-fixed-assets"></a>Pour exécuter une réévaluation générale des immobilisations
 L'actualisation permet d'ajuster plusieurs valeurs immobilisation, par exemple, en fonction de modifications générales de niveau de prix. Le traitement par lots **Réévaluer immobilisations** permet de modifier divers montants, tels que les montants de dépréciation et de réévaluation. La case **Autoriser actualisation** dans la fenêtre **Loi d'amortissement** doit être cochée.
 
-1. Dans le coin supérieur droit, sélectionnez l'icône **Page ou état pour la recherche** ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Réévaluer immobilisations**, puis sélectionnez le lien associé.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Actualiser immobilisations**, puis sélectionnez le lien connexe.  
 2. Renseignez les champs selon vos besoins.
 3. Cliquez sur le bouton **OK**.
 
     Les lignes de réévaluation sont créées conformément à vos paramètres à l'étape 2. Les lignes sont créées dans la feuille immobilisation ou la feuille compta. immo., selon votre modèle et la configuration par lot dans la fenêtre **Param. feuille immo.**. Pour en savoir plus, voir [Procédure : configurer des informations générales sur les immobilisations](fa-how-setup-general.md).
-4. Dans le coin supérieur droit, sélectionnez l'icône **Page ou état pour la recherche** ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Feuille comptabilisation immobilisation**, puis sélectionnez le lien associé.  
+4. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille comptabilisation immobilisation**, puis sélectionnez le lien connexe.  
 5. Sélectionnez la feuille avec les immobilisations que vous souhaitez réévaluer, puis sélectionnez l'action **Écritures comptables**.  
 6. Vérifiez les écritures créées, puis sélectionnez l'action **Valider** pour valider la feuille.
 
-    **Astuce** : si les taux de réévaluation sont définis uniquement pour une simulation, vous pouvez créer une loi d'amortissement spécifique pour les stocker. Ainsi, ces écritures n'affectent aucune autre loi d'amortissement.
+    > [!TIP]  
+>   Si les taux de réévaluation sont définis uniquement pour une simulation, vous pouvez créer une loi d'amortissement spécifique pour les stocker. Ainsi, ces écritures n'affectent aucune autre loi d'amortissement.
 
    ## <a name="to-post-additional-acquisition-costs"></a>Pour valider les coûts d'acquisition supplémentaires
    Vous pouvez valider le coût d'acquisition supplémentaire d'une immobilisation de la même manière que son coût d'acquisition d'origine : à partir d'une facture achat ou d'une feuille immobilisation. Pour en savoir plus, voir [Procédure : acquérir les immobilisations](fa-how-acquire.md).  
@@ -90,7 +93,7 @@ Si vous avez coché la case **Amort. jusqu'à date compta.** sur la facture avan
 
 Si vous avez coché la case **Amortir coût acquisition** sur la facture avant que cette dernière soit validée, le calcul suivant est effectué :  
 
-*Le coût d'acquisition supplémentaire est amorti de ((150 x 100) / 4 800) / 100 * 480 = 15*
+*Le coût d'acquisition supplémentaire est amorti de ((150 x 100) / 4 800) / 100 x 480 = 15*
 
 La base d'amortissement est maintenant égale à *5 280 = (4 800 + 480)* et l'amortissement cumulé équivaut à *165 = (100 + 50 + 15)*, soit 45 jours d'amortissement du coût d'acquisition total. Cela signifie que l'immobilisation sera totalement amortie au cours de sa durée de vie estimée à quatre ans.  
 
@@ -110,14 +113,14 @@ Si vous n'avez pas coché la case **Amort. jusqu'à date compta.**, l'actif perd
 
 *Valeur comptable : (4 800 + 480 - 100 - 15) = 5 165*
 
-*Montant de l'amortissement pour septembre 2 000 : 5 165 * 15 / 1 395 = 55,54*  
+*Montant de l'amortissement pour septembre 2 000 : 5 165 x 15 / 1 395 = 55,54*  
 
 *Amortissement total = 100 + 15 + 55,54 = 170,54*
 
 ## <a name="see-also"></a>Voir aussi
 [Immobilisations](fa-manage.md)  
 [Paramétrage d'immobilisations](fa-setup.md)  
-[Finance](finance.md)  
+[Finances](finance.md)  
 [Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

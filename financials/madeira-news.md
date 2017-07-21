@@ -1,6 +1,6 @@
 ---
 title: "Nouveautés de Dynamics 365 for Financials| Microsoft Docs"
-description: "Nouveautés de Dynamics 365 for Financials"
+description: "Décrit les toutes dernières nouveautés et mises à jour de Dynamics 365 for Financials."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: news
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 26fe803ea4d4b503b8123f4a06e3017c1d5f077f
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 2a54dfe38195a27c4c1cb155e48760d19fb36f03
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
+
 
 ---
-
 # <a name="whats-new-in-dynamics-365-for-financials"></a>Nouveautés de Dynamics 365 for Financials
 Bienvenue dans [!INCLUDE[d365fin](includes/d365fin_md.md)]! Si ce n'est pas encore fait, inscrivez-vous à la version d'évaluation. Nous vous présenterons ensuite les bases de ce que vous pouvez réaliser grâce à [!INCLUDE[d365fin](includes/d365fin_md.md)], avant de vous laisser faire vos premiers pas par vous-même. Lorsque vous êtes prêt, vous pouvez ouvrir une société vierge et effectuer vos propres configurations.  
 
@@ -54,7 +54,7 @@ Dans cette mise à jour de [!INCLUDE[d365fin](includes/d365fin_md.md)] de nouvel
 ### <a name="more-flexibility-in-your-sales-processes"></a>Plus de flexibilité dans les processus de vente
 Cette mise à jour ajoute plus de flexibilité dans les processus de vente :
 - Vous pouvez désormais configurer des articles non stockés (les articles que vous proposez aux clients, mais que vous n'avez pas en stock). Pour en savoir plus, voir [Procédure : utiliser des articles non stockés](inventory-how-work-nonstock-items.md).
-- Vous pouvez à présent marquer un article pour une livraison directe sur une commande vente et immédiatement créer une commande achat correspondante. Ainsi, vous pouvez vendre un article à un client, l'acheter au fournisseur, et le faire livrer directement par votre fournisseur à votre client. Pour plus d'informations, voir [Procédure : acheter des produits pour une vente](purchasing-how-purchase-products-sale.md).
+- Vous pouvez à présent marquer un article pour une livraison directe sur une commande vente et immédiatement créer une commande achat correspondante. Ainsi, vous pouvez vendre un article à un client, l'acheter au fournisseur, et le faire livrer directement par votre fournisseur à votre client. Pour plus d'informations, voir [Procédure : acheter des articles pour une vente](purchasing-how-purchase-products-sale.md).
 
 ### <a name="categorize-items-in-your-inventory"></a>Classer les articles par catégorie dans votre stock
 Avec cette mise à jour, vous pouvez créer une hiérarchie des catégories d'articles et affecter des attributs à chaque catégorie. Pour plus d'informations, voir [Procédure : catégoriser des articles](inventory-how-categorize-items.md).
@@ -91,14 +91,14 @@ Cette mise à jour ajoute des actions au tableau de bord de fournisseur dans le 
 Le complément Outlook dispose à présent du calendrier Outlook. Dans un rendez-vous de calendrier, vous pouvez ouvrir le complément [!INCLUDE[d365fin](includes/d365fin_md.md)] et obtenir un aperçu du client associé avec le rendez-vous. Ensuite, vous pouvez créer et envoyer une facture pour les services fournis lors de la réunion, toutes ces opérations s'effectuent directement dans le calendrier Outlook. Pour plus d'informations, reportez-vous à [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] en tant que boîte de réception professionnelle dans Outlook](madeira-outlook.md).  
 
 ### <a name="appsource-marketplace-for-extensions"></a>Marketplace AppSource pour les extensions
-Des extensions [!INCLUDE[d365fin](includes/d365fin_md.md)] sont désormais disponibles dans le marketplace AppSource sur [AppSource.microsoft.com](https://appsource.microsoft.com/). Vous pouvez rechercher les extensions sur le marché. Vous pouvez visualiser des informations, notamment des supports marketing, des captures d'écran, des vidéos et des liens vers des informations supplémentaires. Pour plus d'informations, reportez-vous à [Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md).  
+Des extensions [!INCLUDE[d365fin](includes/d365fin_md.md)] sont désormais disponibles dans le marketplace AppSource sur [AppSource.microsoft.com](https://appsource.microsoft.com/). Vous pouvez rechercher les extensions sur le marché. Vous pouvez visualiser des informations, notamment des supports marketing, des captures d'écran, des vidéos et des liens vers des informations supplémentaires. Pour plus d'informations, voir [Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md).  
 
 ### <a name="shipping-agents-and-item-attributes"></a>Transporteurs et attributs d'article
 Vous pouvez ajouter des attributs à vos articles de stock qui facilitent la recherche de produits pour vos clients. Pour en savoir plus, voir [Procédure : utiliser les attributs d'article](inventory-how-work-item-attributes.md).  
 
 ### <a name="new-extensions-made-available"></a>Nouvelles extensions disponibles
 Avec cette mise à jour, vous avez le choix entre encore plus d'extensions dans la fenêtre **Gestion des extensions**.
-Pour plus d'informations, voir Extensions [[!INCLUDE[d365fin](includes/d365fin_md.md)] par d'autres fournisseurs](ui-extensions-other.md).  
+Pour plus d'informations, voir [Extensions [!INCLUDE[d365fin](includes/d365fin_md.md)] par d'autres fournisseurs](ui-extensions-other.md).  
 
 ### <a name="manage-your-customer-relationships-using-microsoft-dynamics-crm-from-inside-included365finincludesd365finmdmd"></a>Gérer vos relations client à l'aide de Microsoft Dynamics CRM à partir de[!INCLUDE[d365fin](includes/d365fin_md.md)]
 Nous avons ajouté un nouveau guide de configuration assistée à la page d'accueil Gestionnaire d'activité qui vous guide dans le processus de configuration pour vous connecter à Dynamics CRM. Une fois cette opération effectuée, vous disposez d'un couplage facile des enregistrements Dynamics CRM avec les enregistrements [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, voir [Gérer vos relations client à l'aide de Microsoft Dynamics CRM à partir de [!INCLUDE[d365fin](includes/d365fin_md.md)] ](marketing-integrate-dynamicscrm.md).
@@ -107,7 +107,7 @@ Nous avons ajouté un nouveau guide de configuration assistée à la page d'accu
 Dans cette mise à jour de [!INCLUDE[d365fin](includes/d365fin_md.md)] de nouvelles fonctionnalités ont été ajoutées comme [annoncé dans le blog](https://community.dynamics.com/business/b/financials/archive/2016/06/01/new-and-updated-capabilities-in-the-first-update-of-project-quot-madeira-quot).  
 
 ### <a name="new-extensions-made-available"></a>Nouvelles extensions disponibles
-Consultez la fenêtre **Gestion des extensions** : la mise à jour ajoute de nouvelles extensions, notamment Sana Commerce pour [!INCLUDE[d365fin](includes/d365fin_md.md)] qui fournit des fonctionnalités de commerce B2B et ChargeLogic Payments qui fournit des fonctionnalités de traitement de cartes de crédit et de paiement. Les extensions ne sont pas installées automatiquement, mais la fenêtre **Gestion des extensions** vous aidera à installer celles que vous souhaitez utiliser. Pour plus d'informations, voir Extensions [[!INCLUDE[d365fin](includes/d365fin_md.md)] par d'autres fournisseurs](ui-extensions-other.md).  
+Consultez la fenêtre **Gestion des extensions** : la mise à jour ajoute de nouvelles extensions, notamment Sana Commerce pour [!INCLUDE[d365fin](includes/d365fin_md.md)] qui fournit des fonctionnalités de commerce B2B et ChargeLogic Payments qui fournit des fonctionnalités de traitement de cartes de crédit et de paiement. Les extensions ne sont pas installées automatiquement, mais la fenêtre **Gestion des extensions** vous aidera à installer celles que vous souhaitez utiliser. Pour plus d'informations, voir [Extensions [!INCLUDE[d365fin](includes/d365fin_md.md)] par d'autres fournisseurs](ui-extensions-other.md).  
 
 ### <a name="filter-on-unprocessed-incoming-documents"></a>Filtrer les documents entrants non traités
 Nous avons également modifié des fonctionnalités essentielles dans la mise à jour du mois : la liste des documents entrants est maintenant filtrée pour afficher uniquement les écritures qui n'ont pas été utilisés pour créer des documents validés. Pour plus d'informations, voir [Gérer les documents entrants](across-income-documents.md).  

@@ -1,6 +1,6 @@
 ---
-title: Champs obligatoires | Microsoft Docs
-description: En savoir plus sur les champs obligatoires.
+title: "Champs obligatoires pour exécuter les processus | Microsoft Docs"
+description: "En savoir plus sur les champs marqués avec un astérisque rouge, ce qui indique qu'ils sont requis et doivent être renseignés pour exécuter les processus."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.date: 05/12/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 999a5ba260121c378f80a86703df194d27a5f25c
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: b93a0a7deeab263e457b9bd1da1e7d1264cf2e71
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---

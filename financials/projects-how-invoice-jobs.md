@@ -1,6 +1,6 @@
 ---
-title: "Procédure : facturer des projets| Microsoft Docs"
-description: "Décrit comment facturer des clients pour les coûts au fur et à mesure de l&quot;avancée du projet."
+title: "Créez une facture vente projet pour facturer un projet| Microsoft Docs"
+description: "Décrit comment facturer des clients pour les coûts au fur et à mesure de l'avancée du projet."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project invoice
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 28fae2b706873420761f7ce6330df25b280aea44
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 2fdc8f99fa81a0eecd55438bba33b1a93335a416
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -25,14 +25,15 @@ Au cours du projet, les coûts provenant de l'utilisation de ressources, de mati
 
 Vous pouvez facturer l'ensemble du projet à partir de la fenêtre **Lignes tâche projet** ou facturer uniquement les lignes facturables sélectionnées dans la fenêtre **Lignes planning**. La facturation peut avoir lieu une fois le projet terminé ou à certains intervalles au cours du projet sur la base d'une prévision de facture.
 
-**Remarque** : Si vous sélectionnez **Facturable** dans le champ **Type ligne projet** dans les documents d'achat pour les achats associés au projet, les lignes planning projet prêtes pour facturation sont créées. Pour en savoir plus, reportez-vous à [Procédure : Gérer des fournitures d'un projet](projects-how-manage-project-supplies.md).
+> [!NOTE]  
+>   Si vous sélectionnez **Facturable** dans le champ **Type ligne projet** dans les documents d'achat pour les achats associés au projet, les lignes planning projet prêtes pour facturation sont créées. Pour en savoir plus, reportez-vous à [Procédure : Gérer des fournitures d'un projet](projects-how-manage-project-supplies.md).
 
 ## <a name="to-create-and-post-a-job-sales-invoice"></a>Pour créer et valider une facture vente projet
 Vous pouvez créer une facture pour un projet ou pour une ou plusieurs tâches projet pour un client lorsque le travail à facturer est terminé ou lorsque la date de facturation dépendante d'une prévision de facture est atteinte.
 
 Dans la fenêtre **Projets**, vous pouvez facturer un client en sélectionnant le projet, puis en cliquant sur **Créer une facture vente projet**. La procédure suivante explique comment utiliser un traitement par lots pour facturer plusieurs projets.  
 
-1. Dans le coin supérieur droit, sélectionnez l'icône **Page ou état pour la recherche** ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Projet Créer facture vente**, puis sélectionnez le lien associé.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Projet Créer facture vente**, puis sélectionnez le lien connexe.  
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Définissez des filtres si vous souhaitez limiter le nombre de projets que le traitement par lots va traiter.
 4. Pour créer les factures, cliquez sur le bouton **OK**.  
@@ -40,7 +41,7 @@ Dans la fenêtre **Projets**, vous pouvez facturer un client en sélectionnant l
 ## <a name="to-create-multiple-job-sales-invoices-from-job-planning-lines"></a>Pour créer plusieurs factures vente projet à partir de lignes planning projet
 Vous pouvez créer une facture à partir des lignes planning projet et indiquer à ce moment-là la quantité de l'article, la ressource ou le compte général sur lequel vous souhaitez facturer.
 
-1. Dans le coin supérieur droit, sélectionnez l'icône **Page ou état pour la recherche** ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Projets**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Projets**, puis choisissez le lien associé.
 2. Ouvrez le projet approprié.
 3. Sélectionnez une tâche projet pour laquelle le champ **Type tâche projet** contient **Validation** puis, cliquez sur **Lignes planning projet**.  
 4. Dans une ligne planning projet, dans le champ **Qté à transférer à facturer**, saisissez la quantité de l'article, la ressource, le type de compte général sur lequel vous souhaitez facturer.  
@@ -54,12 +55,13 @@ Vous pouvez créer une facture à partir des lignes planning projet et indiquer 
     La fenêtre **Facture vente** s'ouvre et affiche la quantité que vous avez transférée à la facture.  
 9. Apportez les modifications supplémentaires, puis cliquez sur **Valider**.
 
-**Remarque** : La procédure ci-dessus permet également de créer, de consulter, puis de valider un avoir vente associé à un projet.
+> [!NOTE]  
+>   La procédure ci-dessus permet également de créer, de consulter, puis de valider un avoir vente associé à un projet.
 
 ## <a name="to-calculate-and-post-job-completion-entries"></a>Pour calculer et valider les écritures d'achèvement du projet
 À la fin des activités d'un projet (validation et facturation comprises), vous devez le mettre à jour pour définir le **Statut** du projet sur **Terminé**. Ensuite, vous devez contrepasser tous les travaux en cours validés antérieurement dans la comptabilité.
 
-1. Dans le coin supérieur droit, sélectionnez l'icône **Page ou état pour la recherche** ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Projets**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Projets**, puis choisissez le lien associé.  
 2. Sélectionnez un projet ouvert, puis cliquez sur **Modifier**.
 3. Dans le champ **Statut**, sélectionnez **Terminé**.
 4. Suivez les étapes d'aide pour calculer et valider les travaux en cours. Sinon, suivez les étapes 5 et 6 pour le faire manuellement.  
@@ -74,7 +76,7 @@ Vous pouvez créer une facture à partir des lignes planning projet et indiquer 
 
 ## <a name="see-also"></a>Voir aussi
 [Gérer des projets](projects-manage-projects.md)  
-[Finance](finance.md)  
+[Finances](finance.md)  
 [Achats](purchasing-manage-purchasing.md)         
 [Ventes](sales-manage-sales.md)      
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -1,6 +1,6 @@
 ---
-title: Personnalisation utilisateur| Microsoft Docs
-description: "Décrit comment les utilisateurs peuvent changer la façon dont les éléments de l&quot;interface utilisateur sont affichés."
+title: Personnalisation de l'affichage des informations pour un compte utilisateur | Microsoft Docs
+description: "Décrit comment personnaliser l'apparence de Financials pour votre compte d'utilisateur."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,17 +13,18 @@ ms.search.keywords: customize, personalize
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: c1b4fe89265f551810aebc0a874ac84e645128e1
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 754ce16624db4d939da98baf2da74f14bd383920
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="user-personalization"></a>Personnalisation utilisateur
 Vous pouvez modifier la façon dont certains éléments de l'interface utilisateur sont affichés dans votre version de [!INCLUDE[d365fin](includes/d365fin_md.md)] pour mieux répondre à vos besoins.
 
-**Remarque** : les personnalisations s'appliquent à votre compte utilisateur uniquement. Les autres utilisateurs ne les voient pas.
+> [!NOTE]  
+>   Les personnalisations s'appliquent à votre compte utilisateur uniquement. Les autres utilisateurs ne les voient pas.
 
 ## <a name="to-add-or-remove-a-column"></a>Pour ajouter ou supprimer une colonne
 Sur les listes et les lignes de document, toutes les informations de colonne disponibles ne sont pas affichées par défaut. Vous pouvez ajouter ou supprimer des colonnes avec la fonction **Choisir les colonnes**.

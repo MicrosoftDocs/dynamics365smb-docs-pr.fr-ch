@@ -1,6 +1,6 @@
 ---
-title: "Paramétrage des opérations bancaires| Microsoft Docs"
-description: "Paramétrage des opérations bancaires dans Dynamics 365 for Financials"
+title: "Paramétrer des opérations bancaires| Microsoft Docs"
+description: "Utilisez les fiches compte bancaire pour suivre vos comptes bancaires et paramétrer le flux bancaire, telles que Yodlee, pour échanger des données."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
-ms.date: 05/12/2016
+ms.date: 06/02/2016
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: b8f0586f2b013ca8478d77293d5a23c5fc27824e
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ef549db1af519084b79f85d8815fa89ff707067d
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---

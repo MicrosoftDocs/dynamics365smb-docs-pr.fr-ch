@@ -1,6 +1,6 @@
 ---
-title: "Analyse de la trésorerie dans votre société| Microsoft Docs"
-description: "Décrit comment utiliser les graphiques Cycle trésorerie, Revenus et dépenses, Trésorerie et Prévision de trésorerie pour analyser les mouvements de trésorerie passés et futurs, entrants et sortants de votre société."
+title: "Analyse des trésoreries| Microsoft Docs"
+description: "Décrit comment utiliser les graphiques Cycle trésorerie, Revenus et dépenses, Trésorerie et Prévision de trésorerie pour analyser les flux de trésorerie passés et futurs, entrants et sortants de votre société."
 services: project-madeira
 documentationcenter: 
 author: bholtorf
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
-ms.date: 03/24/2017
+ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 9e2777bb50702df486a87ed1830f84f51a6434be
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ebf31708fcd95b6d4746f1a3616b0eb104055514
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---

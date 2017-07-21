@@ -1,6 +1,6 @@
 ---
-title: "Exportation de données vers Excel à partir de Dynamics 365 for Financials | Microsoft Docs"
-description: "En savoir plus sur l&quot;exportation des données de Dynamics 365 for Financials vers Excel."
+title: "Exporter vos données Financials vers Excel| Microsoft Docs"
+description: "Vous pouvez exporter états financiers et vos données de veille économique de Dynamics 365 for vers Excel, ou ouvrir vos données Financials dans Excel."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.date: 02/22/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 94b2bbcd3db4b5071221b6f24e0f960355db3af1
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 054288659215df61a99564ab856bfb5f72ee7f39
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="exporting-your-data-to-excel-from-dynamics-365-for-financials"></a>Exportation de vos données de Dynamics 365 for Financials vers Excel
+# <a name="exporting-your-business-data-to-excel"></a>Exportation de vos données métier vers Excel
 Si vous souhaitez travailler avec vos données à partir de [!INCLUDE[d365fin](includes/d365fin_md.md)] dans Excel, vous pouvez ouvrir toutes les listes et les utiliser dans Excel. De même, si vous souhaitez annuler votre abonnement à [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], vous pouvez exporter vos données vers Excel afin de pouvoir les transférer par la suite.
 
 ## <a name="opening-lists-in-excel"></a>Ouverture de listes dans Excel
@@ -60,12 +60,13 @@ Nous recommandons également d'exporter des données à partir des pages suivant
 * Contacts  
 * Vendeurs  
 
-**Remarque** : Si vous avez défini plusieurs sociétés dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], vous devez exporter les données appropriées de chaque société.
+> [!NOTE]  
+>   Si vous avez défini plusieurs sociétés dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], vous devez exporter les données appropriées de chaque société.
 
 ## <a name="see-also"></a>Voir aussi
-[Annulation de votre abonnement à [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](madeira-cancel.md)  
-[Importation de données métier à partir d'autres systèmes financiers](upload-data.md)  
-[Finance](finance.md)  
+[Annuler pour votre abonnement [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](madeira-cancel.md)  
+[Importation des données métier à partir d'autres systèmes financiers](upload-data.md)  
+[Finances](finance.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

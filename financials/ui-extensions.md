@@ -1,7 +1,6 @@
 ---
-title: "Personnalisation de Dynamics 365 for Financials à l&quot;aide des extensions | Microsoft Docs"
-description: "Personnalisation de Dynamics 365 for Financials à l&quot;aide des extensions"
-services: project-madeira
+title: "Installation d'extensions pour personnaliser Dynamics 365 for Financials | Microsoft Docs"
+description: "En savoir plus sur l'ajout des fonctionnalités et la personnalisation de Dynamics 365 for Financials en installant des extensions."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -9,14 +8,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms. search.keywords: app, add-in, manifest, customize
-ms.date: 04/24/2017
+ms.search.keywords: app, add-in, manifest, customize
+ms.date: 07/05/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 1de01d9944489f862dfc6db145c1542c3d0dd2e3
+ms.sourcegitcommit: 85d15de13739e944ff8817b402b37ae1c7e1b144
+ms.openlocfilehash: 6bf7d2024ff9f0254e1d885580126fb16c0c6fce
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -29,13 +28,15 @@ Si une autre extension proposant une intégration à un autre service de paiemen
 
 La fenêtre **Gestion des extensions** vous permet de gérer les extensions. Vous pouvez accéder à cette fenêtre à partir de la page d'accueil. Sinon, sélectionnez l'icône **Page ou état pour la recherche** ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche") dans le coin supérieur droit, entrez **Extension**, puis sélectionnez le lien associé.  
 
-**Remarque** : si vous voulez accéder à une extension mais que vous ne pouvez pas trouver sa fonctionnalité, vérifiez la fenêtre **Gestion des extensions**, si l'extension n'est pas répertoriée, vous pouvez la configurer comme décrit dans la section suivante.  
+> [!NOTE]  
+>   Si vous voulez accéder à une extension mais que vous ne pouvez pas trouver sa fonctionnalité, vérifiez la fenêtre **Gestion des extensions**, si l'extension n'est pas répertoriée, vous pouvez la configurer comme décrit dans la section suivante.  
 
 ## <a name="installing-an-extension"></a>Installation d'une extension
-Vous pouvez obtenir de nouvelles extensions depuis le marché à l'adresse [AppSource.microsoft.com](https://appsource.microsoft.com/). Ici, vous trouverez toutes les extensions disponibles pour [!INCLUDE[d365fin](includes/d365fin_md.md)], et vous pourrez obtenir des applications, des extensions et des packs de contenu pour d'autres produits Microsoft. Définissez les filtres appropriés, observez les informations pour chaque extension et obtenez une extension pour votre [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-**Remarque** : connectez-vous au site [AppSource.microsoft.com](https://appsource.microsoft.com/) à l'aide du compte de messagerie électronique que vous utilisez pour [!INCLUDE[d365fin](includes/d365fin_md.md)]. Utilisez le même compte de messagerie électronique pour d'autres services et produits pour une expérience agréable.  
+Vous pouvez obtenir de nouvelles extensions depuis le marché à l'adresse [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1). Ici, vous trouverez toutes les extensions disponibles pour [!INCLUDE[d365fin](includes/d365fin_md.md)], et vous pourrez obtenir des applications, des extensions et des packs de contenu pour d'autres produits Microsoft. Définissez les filtres appropriés, observez les informations pour chaque extension et obtenez une extension pour votre [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+> [!NOTE]  
+>   Connectez-vous au site [AppSource.microsoft.com](https://appsource.microsoft.com/) à l'aide du compte de messagerie électronique que vous utilisez pour [!INCLUDE[d365fin](includes/d365fin_md.md)]. Utilisez le même compte de messagerie électronique pour d'autres services et produits pour une expérience agréable.  
 
-Vous pouvez également accéder au marché à partir de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dans la fenêtre **Gestion des extensions**, vous pouvez voir les extensions actuellement installées, et vous pouvez ouvrir la page **Marché des extensions** qui affiche les extensions [!INCLUDE[d365fin](includes/d365fin_md.md)] actuellement disponibles dans AppSource. Si vous optez pour le lien *Plus d'applications*, vous êtes dirigé vers le site [AppSource.microsoft.com](https://appsource.microsoft.com/).  
+Vous pouvez également accéder au marché à partir de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dans la fenêtre **Gestion des extensions**, vous pouvez voir les extensions actuellement installées, et vous pouvez ouvrir la page **Marché des extensions** qui affiche les extensions [!INCLUDE[d365fin](includes/d365fin_md.md)] actuellement disponibles dans AppSource. Si vous optez pour le lien *Plus d'applications*, vous êtes dirigé vers le site [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).  
 
 Si vous choisissez une extension, vous pouvez consulter une documentation relative à ses fonctionnalités, et accéder au service d'aide de l'extension pour en savoir plus. Lorsque vous choisissez d'obtenir une extension, vous devez être d'accord avec les conditions d'utilisation. Si vous obtenez l'extension à partir du site Web AppSource, vous serez connecté à [!INCLUDE[d365fin](includes/d365fin_md.md)] pour terminer l'installation.  
 
@@ -57,9 +58,15 @@ Microsoft fournit les extensions suivantes :
 * [Extension Importer le fichier de paie de Quickbooks](ui-extensions-quickbooks-payroll.md)  
 * [Extension WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
 * [Extension GetAddress.io UK Postcodes](ui-extensions-getaddressio.md)
+* [Extension QuickBooks Online Data Migration](ui-extensions-quickbooks-online-data-migration.md)
+* [Portail Comptable](ui-extensions-accountant-portal.md)  
+* [Analyseur Image](ui-extensions-image-analyzer.md)
+
+> [!NOTE]  
+>  Les nouvelles extensions ne sont pas disponibles dans AppSource juste après l'annonce d'une mise à jour. Vous pouvez vous tenir informé sur les extensions sur le site [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).
 
 ## <a name="see-also"></a>Voir aussi
-[Procédure : configurer le service de flux de la Envestnet Yodlee Bank](bank-how-setup-bank-statement-service.md)  
+[Procédure: configurer le service de flux de la Envestnet Yodlee Bank](bank-how-setup-bank-statement-service.md)  
 [Procédure : activer les paiements client via Paypal](sales-how-enable-payment-service-extensions.md)  
 [Migrer des données métier à partir d'autres systèmes financiers](upload-data.md)  
 [Configurer l'extension GetAddress.io UK Postal Code](uk-setup-postal-code-service.md)  
@@ -67,3 +74,4 @@ Microsoft fournit les extensions suivantes :
 [Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

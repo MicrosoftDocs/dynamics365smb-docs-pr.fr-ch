@@ -1,6 +1,6 @@
 ---
-title: Configuration des achats| Microsoft Docs
-description: "Définition des achats"
+title: "Aperçu des tâches permettant de paramétrer vos achats | Microsoft Docs"
+description: "Décrit les tâches permettant de définir les stratégies d'approvisionnement de votre société et de déterminer vos processus d'achat."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: procurement, supply, vendor order
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: dbefd446d58395ce6aeb85bbb0e29be343acba0b
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: bc4578131489baa66d31e8c25b4815b87f992fdf
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -33,7 +33,6 @@ Les configurations relatives à la finance, telles que les modes de règlement e
 | --- | --- |
 | Créer une fiche fournisseur pour chaque fournisseur auquel vous achetez des biens. |[Procédure : enregistrer de nouveaux fournisseurs](purchasing-how-register-new-vendors.md) |
 | Entrer les différents remises et prix spéciaux que vous accordent les fournisseurs en fonction de l'article, des quantités et/ou de la date. |[Procédure : enregistrer des accords sur les prix d'achat, les remises et les paiements](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
-|Découvrir comment [!INCLUDE[d365fin](includes/d365fin_md.md)] optimise automatiquement votre marge pour les transactions lorsque vous enregistrez des accords prix spéciaux/remise.|[Avancé : Calcul du meilleur prix](advanced-best-price-calculation.md) |
 | Octroyer une priorité aux fournisseurs. |[Procédure : octroyer une priorité à des fournisseurs](purchasing-how-prioritize-vendors.md) |
 | Configurer les acheteurs. |[Procédure : configurer des acheteurs](purchasing-how-setup-purchasers.md) |
 

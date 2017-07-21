@@ -1,6 +1,6 @@
 ---
-title: "Taxe sur les ventes et groupes de taxes aux États-Unis et au Canada | Microsoft Docs"
-description: "En savoir plus sur la manière dont la Sales Tax est configurée, et sur le fonctionnement des groupes taxes, des zones de recouvrement, des autorités de recouvrement et des spécifications de taxe."
+title: "Paramétrage des groupes taxes, zones de recouvrement et autorités de recouvrement aux États-Unis et au Canada | Microsoft Docs"
+description: "En savoir plus sur la manière dont la taxe sur les ventes est configurée, et sur le fonctionnement des groupes taxes, des zones de recouvrement (états, pays, villes et localités), des autorités de recouvrement et des spécifications de taxe."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,14 +13,14 @@ ms.search.keywords: local
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: ff1981a428a2cd3b3864b7f0cc795a1abeab7a10
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 763bb1b954b30734b0f81f121a6534c83442321a
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="sales-tax-and-tax-groups-in-the-us-and-canada"></a>Taxe sur les ventes et groupes de taxes aux États-Unis et au Canada
+# <a name="reporting-sales-tax-in-the-us-and-canada"></a>Déclaration de la taxe sur les ventes aux États-Unis et au Canada
 Lorsque vous commencez à utiliser [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez exécuter un guide de configuration assistée afin de rapidement et facilement configurer les informations relatives à la Sales Tax pour votre société, vos clients et vos fournisseurs. En quelques minutes, vous êtes prêt à créer des documents vente et des documents achat pour lesquels la Sales Tax est calculée correctement. Ceci est expliqué [dans notre billet de blog](https://madeira.microsoft.com/blog/sales-tax-setup-made-easy).
 Si vous passez à la section Ma société vierge, nous vous recommandons de commencer par utiliser chacun des guides de configuration assistée, y compris celui qui concerne la Sales Tax. Si vous préférez configurer la Sales Tax par vous-même, cet article explique ce que vous devez prendre en compte.  
 

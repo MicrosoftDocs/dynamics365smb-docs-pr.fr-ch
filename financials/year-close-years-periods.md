@@ -1,6 +1,6 @@
 ---
-title: "Clôture des exercices et des périodes| Microsoft Docs"
-description: "Explique comment clôturer un exercice et des périodes comptables."
+title: "Aperçu des tâches permettant de clôturer un exercice fiscal et des périodes comptables | Microsoft Docs"
+description: "Décrit les tâches permettant de clôturer un exercice fiscal ou une période comptable, par exemple, en vérifiant que les documents et les feuilles sont validés et en vérifiant les soldes bancaires."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 03/29/2017
+ms.date: 06/07/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 211bebe03d270a0efabe87d131ae45f1617feaa7
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 0f753e84a9318cdd3a58ed192437206659b6a2ad
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,6 +31,7 @@ Le tableau suivant fournit un aperçu des tâches que vous devez généralement 
 | Obtenir un aperçu des activités qui sont généralement effectuées à la fin d'une période, telles que la validation de tous les documents et toutes les feuilles, ou l'exécution de tableaux d'analyse. |[Clôture périodes](year-how-complete-period-end-processes.md) |
 | Mettre à jour les taux de change devise des écritures client, fournisseur et compte bancaire validées. |[Procédure : mettre à jour les taux de change des devises](finance-how-update-currencies.md) |
 | Ventiler des coûts et des bénéfices dans des comptes et des axes. |[Répartition des coûts et du revenu](year-allocate-costs-income.md) |
+| Préparer la déclaration des montants de taxe sur la valeur ajoutée que vous avez recueillis sur les ventes au site Web des autorités fiscales. |[Procédure : Déclarer la TVA aux autorités fiscales](finance-how-report-vat.md)|
 | Imprimer des états pour vérifier les soldes des comptes généraux, des comptes client, des comptes fournisseur et des comptes bancaires avant de clôturer une période. |[Préparation des états préalables à la clôture](year-prepare-preclose-reports.md) |
 | Clôturer des périodes et l'exercice comptables, transférer des soldes de comptes de gestion dans des comptes de bilan et valider l'écriture de clôture d'exercice. |[Clôture plans](year-close-books.md) |
 | Imprimer des états qui peuvent vous aider à créer des états financiers. |[Préparation des états de clôture](year-prepare-close-statement.md) |

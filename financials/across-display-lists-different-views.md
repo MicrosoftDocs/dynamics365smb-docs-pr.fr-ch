@@ -1,6 +1,6 @@
 ---
-title: "Affichage de listes dans différentes vues | Microsoft Docs"
-description: "Affichage de listes dans différentes vues"
+title: "Ajuster la quantité de détails affichée dans les listes | Microsoft Docs"
+description: "Vous pouvez afficher les listes dans des vues détaillées qui fournissent plus d'informations, ou en tant que vignettes faciles à analyser visuellement."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalization
-ms.date: 09/08/2016
+ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 0b5ce8ff631061dd2fafb685efb638947f8b6752
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: a93843c39c38692fb6a7703b5befedfbc78007a7
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="displaying-lists-in-different-views"></a>Affichage de listes dans différentes vues
+# <a name="displaying-lists-in-different-ways"></a>Affichage de listes de différentes manières
 Dans le coin droit de toute liste de [!INCLUDE[d365fin](includes/d365fin_md.md)] vous trouverez les icônes qui vous permettent de sélectionner l'affichage de la liste. Vous pouvez afficher une liste comme une liste détaillée, ce qui correspond à la vue standard. Mais vous pouvez également sélectionner la vue sous forme de mosaïques, qui affiche moins de détail de l'enregistrement spécifique et empile les écritures sous forme de mosaïques. Cette vue est très utile pour obtenir une vue d'ensemble de plusieurs écritures. Elle est particulièrement utile sur les périphériques de petite taille, car elle permet d'appuyer plus facilement sur chaque écriture.
 
 ## <a name="items-list"></a>Liste des articles

@@ -1,6 +1,6 @@
 ---
-title: Gestion des segments | Microsoft Docs
-description: "Décrit comment gérer les segments pour les contacts dans Financials"
+title: "Gérer les segments et sélectionner les contacts à inclure| Microsoft Docs"
+description: "Décrit les tâches pour créer un segment pour sélectionner un groupe de contacts en fonction de critères spécifiques, par exemple, les contacts dans un secteur que vous souhaitez cibler."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 430199404ebab6d72f2f7748bb90e5ed3cd223c4
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 2ca2e771e4f7ec141cd152e1f643efad2db1b7dc
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -34,7 +34,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | --- | --- |
 | Créer des segments qui vous permettent de sélectionner un groupe de contacts. Par exemple, un courrier direct. |[Procédure : créer des segments](marketing-how-create-segment.md) |
 | Gérer les contacts affectés aux segments. |[Procédure : ajouter des contacts à des segments](marketing-add-contact-segment.md) |
-| En savoir plus sur l'utilisation des interactions et des segments, y compris la journalisation. |[Interaction et segments](marketing-interaction-segments.md) |
+| En savoir plus sur l'utilisation des interactions et des segments, y compris la journalisation. |[Gestion des interactions et des segments](marketing-interaction-segments.md) |
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion des opportunités de ventes](marketing-manage-sales-opportunities.md)  

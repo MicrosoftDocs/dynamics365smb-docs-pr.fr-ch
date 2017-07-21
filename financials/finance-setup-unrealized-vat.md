@@ -13,10 +13,10 @@ ms.search.keywords: cash, VAT, unrealized, cash-based
 ms.date: 04/20/2017
 ms.author: bholtorf
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: f87da12abcd2fd513a1579dd9362159687baaab8
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: c22e17c931fcb262abe2d2059af89ec6f930ecb5
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -28,7 +28,7 @@ Si vous utilisez des méthodes comptables basées sur la trésorerie, vous pouve
 Vous pouvez choisir de calculer et de valider les montants de TVA dans un compte général temporaire lorsqu'une facture est validée, puis de les valider dans le compte général approprié et de les inclure dans des déclarations de TVA lorsque le paiement réel de la facture est validé. Pour cela, vous devez définir des paramètres validation TVA.
 
 Pour utiliser les comptes pour la TVA sur encaissement, procédez comme suit :
-1. Dans le coin supérieur droit, sélectionnez l'icône **Page ou état pour la recherche** ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche") et entrez **Paramètres comptabilité**. 
+1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche") et entrez **Paramètres comptabilité**. 
 2. Sur la page **Paramètres comptabilité**, sous le raccourci **Général**, sélectionnez **Afficher plus**, puis activez la case à cocher **TVA sur encaissement**.
 3. Fermez la page.
 4. Sélectionnez l'icône **Page ou état pour la recherche** ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche") et entrez **Paramètres compta. TVA**. 
@@ -46,10 +46,12 @@ Pour utiliser les comptes pour la TVA sur encaissement, procédez comme suit :
 
 6. Dans le champ **Cpte TVA/encaissement vente**, choisissez le compte de la TVA sur encaissement vente.
 
-    **Remarque** : le montant de la TVA est validé sur ce compte jusqu'à ce que le paiement de la facture soit validé. Le montant est alors transféré sur le compte pour la TVA vente.
+    > [!NOTE]  
+>   Le montant de la TVA est validé sur ce compte jusqu'à ce que le paiement de la facture soit validé. Le montant est alors transféré sur le compte pour la TVA vente.
 7. Dans le champ **Cpte TVA/décaissement achat**, entrez le compte général de la TVA sur décaissement achat.
 
-    **Remarque** : le montant de la TVA est validé sur ce compte jusqu'à ce que le paiement de la facture soit validé. Le montant est alors transféré sur le compte pour la TVA vente.
+    > [!NOTE]  
+>   Le montant de la TVA est validé sur ce compte jusqu'à ce que le paiement de la facture soit validé. Le montant est alors transféré sur le compte pour la TVA vente.
 
 ## <a name="see-also"></a>Voir aussi
 [Configuration de la TVA](finance-setup-vat.md)

@@ -1,6 +1,6 @@
 ---
-title: "Utilisation des états Power BI dans les vues de liste dans Dynamics 365 for Financials | Microsoft Docs"
-description: "Vous pouvez ajouter des états Power BI qui vont fournir des informations supplémentaires sur les données dans les listes dans Financials."
+title: "Afficher des états Power BI personnalisés| Microsoft"
+description: "Vous pouvez utiliser des états Power BI pour obtenir des informations supplémentaires sur les données dans les listes dans Financials."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,20 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 02/02/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 3c58c71a9ebc3df4e55202f50e856a715d64854f
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 53c588f65232656d2362873347c6c7dc0d412449
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="using-power-bi-reports-in-your-list-views-in-dynamics-365-for-financials"></a>Utilisation des états Power BI dans les vues de liste dans Dynamics 365 for Financials
+# <a name="viewing-list-data-in-power-bi-reports-in-dynamics-365-for-financials"></a>Affichage des données de liste dans les états Power BI dans Dynamics 365 for Financials
 [!INCLUDE[d365fin](includes/d365fin_md.md)] inclut un élément de contrôle Récapitulatif sur un certain nombre de pages Liste des clés fournissant des informations supplémentaires sur les données de la liste. Lorsque vous vous déplacez entre les lignes de la liste, l'état est mis à jour et filtré pour l'écriture sélectionnée. Vous pouvez créer des états personnalisés pour qu'ils s'affichent dans ce contrôle, mais il y a certaines règles à suivre lors de la création des états pour s'assurer qu'ils adoptent le comportement souhaité.  
 
-**Remarque** : Vous devez disposer d'un compte valide avec [!INCLUDE[d365fin](includes/d365fin_md.md)] et avec Power BI. En outre, vous devez télécharger [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/). Pour plus d'informations voir [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] comme source de données Power BI](across-how-use-financials-data-source-powerbi.md).  
+> [!NOTE]  
+>   Vous devez disposer d'un compte valide avec [!INCLUDE[d365fin](includes/d365fin_md.md)] et avec Power BI. En outre, vous devez télécharger [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/). Pour plus d'informations, voir [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] comme source de données Power BI](across-how-use-financials-data-source-powerbi.md).  
 
 ## <a name="report-data-set"></a>Ensemble de données d'état
 Lorsque vous créez l'état dans Power BI Desktop, spécifiez la source de données ou le service Web qui contient les données concernant la liste que vous souhaitez associer à l'état. Par exemple, si vous souhaitez créer un état pour la liste Ventes, assurez-vous que l'ensemble des données contient les informations liées aux ventes.  
@@ -49,7 +50,8 @@ De même, si vous souhaitez que l'arrière-plan de l'état se fonde avec la coul
 ## <a name="reports-with-multiple-pages"></a>États avec plusieurs pages
 Avec Power BI, vous pouvez créer un seul état avec plusieurs pages. Les visuels que vous souhaitez visualiser dans les pages de liste [!INCLUDE[d365fin](includes/d365fin_md.md)] doivent se trouver sur la première page de l'état dans Power BI.  
 
-**Remarque :** Le contrôle Récapitulatif État Power BI affiche uniquement la première page de votre état, pour afficher d'autres pages, vous devez développer l'état et utiliser les onglets situés en bas pour accéder aux autres pages.  
+> [!NOTE]  
+>  Le contrôle Récapitulatif État Power BI affiche uniquement la première page de votre état, pour afficher d'autres pages, vous devez développer l'état et utiliser les onglets situés en bas pour accéder aux autres pages.  
 
 ## <a name="saving-your-report"></a>Enregistrement de votre état
 
@@ -73,6 +75,6 @@ Vérifiez que la taille de l'état est configurée sur 325 pixels x 310 pixels. 
 ## <a name="see-also"></a>Voir aussi
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] comme source de données Power BI](across-how-use-financials-data-source-powerbi.md)  
 [Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)    
-[Configuration [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)    
-[Finance](finance.md)  
+[Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)    
+[Finances](finance.md)  
 

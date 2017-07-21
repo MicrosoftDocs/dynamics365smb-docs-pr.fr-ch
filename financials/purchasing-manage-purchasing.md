@@ -1,6 +1,6 @@
 ---
-title: Achats| Microsoft Docs
-description: "Décrit comment gérer les activités d&quot;achat."
+title: "Aperçu des tâches permettant de gérer vos achats | Microsoft Docs"
+description: "Décrit les tâches permettant de gérer vos processus d'achat ou d'approvisionnement, y compris le fonctionnement des factures achat et des commandes achat."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: procurement, supply, vendor order
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 4ba8ea773fa4024cfcaccd00b80bdbbfe81be8b7
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 653cd9b5e9651f2039ab18f3e7a26b299238d817
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -36,7 +36,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | Pour | Voir |
 | --- | --- |
 | Créer une facture achat pour enregistrer votre accord avec un fournisseur pour acheter des biens selon certaines conditions de livraison et de paiement. |[Procédure : enregistrer des achats](purchasing-how-record-purchases.md) |
-| Créer une facture achat pour toutes les lignes ou pour les lignes sélectionnées sur une facture vente. |[Procédure : acheter des produits pour une vente](purchasing-how-purchase-products-sale.md) |
+| Créer une facture achat pour toutes les lignes ou pour les lignes sélectionnées sur une facture vente. |[Procédure : acheter des articles pour une vente](purchasing-how-purchase-products-sale.md) |
 | Effectuer une action sur une facture achat enregistrée impayée pour créer automatiquement un avoir et soit annuler la facture achat, soit la recréer pour que vous puissiez y apporter des corrections. |[Procédure : corriger ou annuler des factures vente impayées](purchasing-how-correct-cancel-unpaid-purchase-invoices.md) |
 | Créer un avoir achat pour rembourser une facture achat validée spécifique pour indiquer les produits que vous retournez au fournisseur et le montant règlement que vous récupérez. |[Procédure : traiter les retours ou annulations d'achats](purchasing-how-register-new-vendors.md) |
 | Créer une fiche fournisseur pour chaque fournisseur auquel vous achetez des biens. |[Procédure : enregistrer de nouveaux fournisseurs](purchasing-how-register-new-vendors.md) |

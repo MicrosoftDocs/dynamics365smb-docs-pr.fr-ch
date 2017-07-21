@@ -1,6 +1,6 @@
 ---
-title: Interactions et segments | Microsoft Docs
-description: "Décrit comment utiliser les segments sur les contacts dans Financials"
+title: Effectuer le suivi des segments et des interactions correspondantes| Microsoft Docs
+description: "En savoir plus sur la création de segments pour définir des groupes de contacts et spécifier des interactions pour des segments."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 39e7f95cb98364a9a4fce44165ae7f9f3e5b7383
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 899bdda7448810b029216c66402b739004193a61
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="interactions-and-segments"></a>Interactions et segments
+# <a name="managing-interactions-for-segments"></a>Gestion des interactions pour des segments
 La fenêtre **Segment** est un type de feuille activité dans laquelle vous pouvez effectuer les opérations suivantes :
 
-* Création de segments
+* Création de segments.
 * Enregistrement des critères de segmentation utilisés pour sélectionner des contacts.
 * Journalisation du segment et enregistrement des interactions impliquant les contacts du segment.
 

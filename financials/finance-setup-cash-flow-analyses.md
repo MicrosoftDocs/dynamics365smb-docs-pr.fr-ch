@@ -1,6 +1,6 @@
 ---
-title: "Configuration d&quot;une analyse de trésorerie| Microsoft Docs"
-description: "Décrit comment configurer les graphiques Cycle trésorerie, Revenus et dépenses, Trésorerie et Prévision de trésorerie pour analyser les mouvements de trésorerie passés et futurs, entrants et sortants de votre société."
+title: "Configuration d'une analyse de trésorerie| Microsoft Docs"
+description: "Configurez les graphiques du tableau de bord Comptes pour aider à analyser le flux de trésorerie dans vos activités, y compris les dépenses et les recettes, liquidités, et les règlements entrants moins les règlements sortants."
 services: project-madeira
 documentationcenter: 
 author: bholtorf
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: e07f32dcc3a50e07c5dea48600f7e3dbcd6088a9
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ffc0a1c8a513556de2a40fc37db7af9be779225c
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -61,7 +61,8 @@ Le graphique **Prévision de trésorerie** utilise les comptes de trésorerie, l
 
 Les prévisions de trésorerie peuvent utiliser Cortana Intelligence pour inclure des documents contenant une date d'échéance future. Le résultat est une prévision plus complète. La connexion à Cortana Intelligence est déjà configurée pour vous. Vous devez juste l'activer. Lorsque vous vous connectez à [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], une notification s'affiche dans une barre bleue et inclut un lien vers le paramétrage par défaut de trésorerie. La notification s'affiche une seule fois. Si vous la fermez, mais décidez d'activer Cortana Intelligence, vous pouvez utiliser le guide de configuration assistée ou un processus manuel.  
 
-**Remarque :** sinon, vous pouvez utiliser votre propre service Web prévisionnel. Pour plus d'informations, voir [Créer et utiliser votre propre service Web prévisionnel pour des prévisions de trésorerie](#AnchorText).  
+> [!NOTE]  
+>   Sinon, vous pouvez utiliser votre propre service Web prévisionnel. Pour plus d'informations, voir [Créer et utiliser votre propre service Web prévisionnel pour des prévisions de trésorerie](#AnchorText).  
 
 Pour utiliser le guide de configuration assistée :  
 
@@ -75,7 +76,8 @@ Pour utiliser une procédure manuelle :
 2. Développez le raccourci **Cortana Intelligence**, puis cochez la case **Cortana Intelligence activé**.  
 3. Dans la page d'accueil, choisissez **Prévision de trésorerie** au-dessus du graphique, puis **Recalculer la prévision**.  
 
-**Astuce :** tenez compte de la durée des périodes utilisée par le service lors de ses calculs. Plus vous fournissez de données, plus les prévisions seront précises. En outre, soyez prudent en ce qui concerne les grands écarts entre les périodes. Cela aura également un impact sur les prévisions. Si Cortana Intelligence ne trouve pas suffisamment de données ou si les données varient considérablement, le service ne fera pas de prévisions.  
+> [!TIP]  
+>   Tenez compte de la durée des périodes utilisée par le service lors de ses calculs. Plus vous fournissez de données, plus les prévisions seront précises. En outre, soyez prudent en ce qui concerne les grands écarts entre les périodes. Cela aura également un impact sur les prévisions. Si Cortana Intelligence ne trouve pas suffisamment de données ou si les données varient considérablement, le service ne fera pas de prévisions.  
 
 ## <a name="AnchorText"> </a>Créer et utiliser votre propre service Web prévisionnel pour des prévisions de trésorerie
 Vous pouvez aussi utiliser votre propre service Web prévisionnel basé sur un modèle public intitulé **Modèle de prévision pour Microsoft Dynamics 365 for Financials**. Ce modèle prévisionnel est disponible en ligne dans la galerie Cortana Intelligence. Pour utiliser le modèle, procédez comme suit :  
@@ -85,7 +87,7 @@ Vous pouvez aussi utiliser votre propre service Web prévisionnel basé sur un m
 3. Utilisez votre compte Microsoft pour enregistrer un espace de travail, puis copiez le modèle.  
 4. Exécutez le modèle, et publiez-le comme service Web.  
 5. Notez l'URL d'API et la clé d'API. Vous allez utiliser ces informations d'identification pour une configuration de trésorerie.  
-6. Dans le coin supérieur droit, sélectionnez l'icône **Page ou état pour la recherche** ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Paramètres trésorerie**, puis sélectionnez le lien associé.  
+6. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Paramètres trésorerie**, puis sélectionnez le lien connexe.  
 7. Développez le raccourci **Cortana Intelligence**, puis complétez les champs.  
 
 ## <a name="see-also"></a>Voir aussi

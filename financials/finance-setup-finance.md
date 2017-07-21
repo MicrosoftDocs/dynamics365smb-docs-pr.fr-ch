@@ -1,6 +1,6 @@
 ---
-title: Configuration de Finance| Microsoft Docs
-description: Configuration de Finance
+title: Configurer les processus financiers| Microsoft Docs
+description: "En savoir plus sur les tâches pour paramétrer les finances de votre société afin de les adapter à votre comptabilité ou vos audits."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 04/27/2017
+ms.date: 06/07/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 87b4f85333fdf1660493f2a77009f0c763f03d59
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 52fd9ae967dab9c6f90733e1ea25b6c875374243
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -27,19 +27,19 @@ Toutefois, il existe quelques éléments que vous devez configurer vous-même. P
 
 Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.
 
-| Pour | Voir |
+| À | Voir |
 | --- | --- |
-| Choisissez la méthode pour payer vos fournisseurs. |[Modes de règlement](finance-payment-methods.md) |
+| Choisissez la méthode pour payer vos fournisseurs. |[Définition des modes de règlement](finance-payment-methods.md) |
+| Spécifiez les groupes comptabilisation qui mappent des entités telles que les clients, les fournisseurs, les éléments, les ressources et les documents vente et achat dans des comptes généraux. |[Configuration de groupes comptabilisation](finance-posting-groups.md)|
 | Définir les périodes fiscales. |[Procédure : ouverture d'un nouvel exercice comptable](finance-how-open-new-fiscal-year.md) |
-| Configurez ou mettez à jour des devises supplémentaires si vous effectuez des transactions internationales. |[Procédure : mettre à jour les taux de change des devises](finance-how-update-currencies.md) |
-| Configurez des codes d'identification uniques. |[Création des souches de numéros](ui-create-number-series.md) |
-| Ajouter des axes analytiques pour un veille économique enrichie. |[Configuration des axes analytiques](finance-setup-dimensions.md) |
+| Définissez comment déclarer les montants de taxe sur la valeur ajoutée que vous avez recueillis sur les ventes aux autorités fiscales. |[Procédure : Déclarer la TVA aux autorités fiscales](finance-how-report-vat.md)|
+| Configurez comment mettre à jour des devises supplémentaires si vous effectuez des transactions internationales. |[Procédure : mettre à jour les taux de change des devises](finance-how-update-currencies.md) |
 | Ajouter de nouveaux comptes au plan comptable existant. |[Configuration du plan comptable](finance-setup-chart-accounts.md) |
 | Configurez les graphiques de veille économique pour analyser la trésorerie. |[Configuration d'une analyse de trésorerie](finance-setup-cash-flow-analyses.md) |
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion des comptes bancaires](bank-manage-bank-accounts.md)  
-[Axes analytiques](finance-dimensions.md)  
+[Utilisation des axes analytiques](finance-dimensions.md)  
 [Importation des données métier à partir d'autres systèmes financiers](upload-data.md)  
 [Analyse de la trésorerie dans votre société](finance-analyze-cash-flow.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

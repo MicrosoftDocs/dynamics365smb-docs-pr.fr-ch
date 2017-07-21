@@ -1,6 +1,6 @@
 ---
-title: "Procédure : enregistrer de nouveaux fournisseurs| Microsoft Docs"
-description: "Apprendre à ajouter des fournisseurs dans Financials."
+title: "Créer une fiche fournisseur pour enregistrer de nouveaux fournisseurs | Microsoft Docs"
+description: "Apprendre comment créer une fiche fournisseur pour enregistrer un nouveau fournisseur."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: supplier
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 3420a91200b64ea0672d5757a0104c6806fc607f
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 78710d796ed73d7b4c2505f6cbb8c7d5f41d7320
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -27,7 +27,8 @@ Avant de pouvoir enregistrer de nouveaux fournisseurs, vous devez configurer div
 
 Les fiches fournisseur contiennent les informations requises pour acheter des produits au fournisseur. Pour plus d'informations, reportez-vous à [Procédure : enregistrer des achats](purchasing-how-record-purchases.md) et à [Procédure : enregistrer de nouveaux articles](inventory-how-register-new-items.md).
 
-**Remarque** : si des modèles fournisseur existent pour différents types de fournisseurs, une fenêtre s'affiche lorsque vous créez une fiche fournisseur à partir de laquelle vous pouvez sélectionner un modèle approprié. Si un seul modèle fournisseur existe, les nouvelles fiches fournisseur utiliseront toujours ce modèle.
+> [!NOTE]  
+>   Si des modèles fournisseur existent pour différents types de fournisseurs, une fenêtre s'affiche lorsque vous créez une fiche fournisseur à partir de laquelle vous pouvez sélectionner un modèle approprié. Si un seul modèle fournisseur existe, les nouvelles fiches fournisseur utiliseront toujours ce modèle.
 
 ## <a name="to-create-a-new-vendor-card"></a>Pour créer une fiche fournisseur
 1. Sur la page d'accueil, sélectionnez **Fournisseurs** pour ouvrir la liste des fournisseur existants.  
@@ -45,7 +46,7 @@ Si vous souhaitez utiliser cette fiche fournisseur comme modèle lorsque vous cr
 ## <a name="to-save-the-vendor-card-as-a-template"></a>Pour enregistrer la fiche fournisseur en tant que modèle
 1. Dans la fenêtre **Fiche fournisseur**, sélectionnez l'action **Sauvegarder comme modèle**. La fenêtre **Modèle fournisseur** s'ouvre et affiche la fiche fournisseur comme modèle.
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Pour réutiliser les axes analytiques dans les modèles **, sélectionnez l'action **Axes analytiques**. La fenêtre **Modèles axe** s'ouvre et affiche tous les codes axe qui sont définis pour le fournisseur.
+3. Pour réutiliser les axes analytiques dans les modèles, sélectionnez l'action **Axes analytiques**. La fenêtre **Modèles axe** s'ouvre et affiche tous les codes axe qui sont définis pour le fournisseur.
 4. Modifiez ou entrez les codes axe s'appliquant aux nouvelles fiches fournisseur créées à l'aide du modèle.
 5. Lorsque vous avez terminé le nouveau modèle fournisseur, cliquez sur le bouton **OK**.  
    Le modèle fournisseur est ajouté à la liste des modèles fournisseur. Vous pouvez ainsi l'utiliser pour créer des fiches fournisseur.

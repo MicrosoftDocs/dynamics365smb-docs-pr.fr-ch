@@ -1,6 +1,6 @@
 ---
-title: "Procédure : utiliser un service OCR pour convertir des fichiers PDF et image en documents électroniques| Microsoft Docs"
-description: "Cette rubrique décrit comment utiliser le service OCR pour convertir des fichiers PDF et image en documents électroniques"
+title: "Utilisez OCR pour convertir les fichiers PDF en factures électroniques| Microsoft Docs"
+description: "Décrit la manière dont vous pouvez utiliser un service OCR pour convertir des fichiers PDF ou image entrant en documents électroniques dans Financials."
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 03/22/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 7be94659e8f00021446314acf6558ae01b158971
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 020aeed82d6147641936dee2d7b860791c76d2ee
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,7 +31,7 @@ Comme le service OCR est basé sur la reconnaissance optique, il est probable qu
 Le trafic des fichiers entrants et sortants du service OCR est traité par une écriture de la file projets dédiée, qui est créée automatiquement lorsque vous activez la connexion au service correspondant. Pour plus d'informations, reportez vous à [Procédure : configurer des documents entrants](across-how-setup-income-documents.md).
 
 ## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-from-the-incoming-documents-window"></a>Pour envoyer un fichier PDF ou image au service OCR à partir de la fenêtre **Documents entrants**
-1. Dans le coin supérieur droit, sélectionnez l'icône **Page ou état pour la recherche** ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Documents entrants**, puis sélectionnez le lien associé.
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Documents entrants**, puis sélectionnez le lien connexe.
 2. Créez un enregistrement de document entrant et joignez le fichier. Pour plus d'informations, reportez vous à [Procédure : créer des enregistrements document entrant](across-how-create-income-document-records.md).  
 3. Dans la fenêtre **Documents entrants**, sélectionnez une ou plusieurs lignes, puis sélectionnez l'action **Envoyer à la file d'attente des travaux**.
 
@@ -45,14 +45,16 @@ La valeur du champ **Statut OCR** passe à **Envoyé**, à condition qu'il n'exi
 
 Puisqu'aucun enregistrement de document entrant n'existe pour le fichier, un enregistrement est automatiquement créé dans la fenêtre **Documents entrants** lorsque vous recevez le document électronique du service OCR. Pour plus d'informations, reportez vous à [Procédure : créer des enregistrements document entrant](across-how-create-income-document-records.md).
 
-**Remarque** : Si vous utilisez une tablette ou un téléphone, vous pouvez envoyer le fichier au service OCR dès que vous avez pris une photo du document, ou vous pouvez créer un document entrant directement. Pour plus d'informations, voir la section « Créer des enregistrements document entrants en prenant une photo » dans [Procédure : créer des enregistrements document entrants](across-how-create-income-document-records.md).
+> [!NOTE]  
+>   Si vous utilisez une tablette ou un téléphone, vous pouvez envoyer le fichier au service OCR dès que vous avez pris une photo du document, ou vous pouvez créer un document entrant directement. Pour plus d'informations, voir la section « Créer des enregistrements document entrants en prenant une photo » dans [Procédure : créer des enregistrements document entrants](across-how-create-income-document-records.md).
 
 ## <a name="to-receive-the-resulting-electronic-document-from-the-ocr-service"></a>Réceptionner le document électronique résultant du service ORC.
 Le document électronique qui est créé par le service OCR à partir du fichier PDF ou image est automatiquement réceptionné dans la fenêtre **Documents entrants** par l'entrée de la file d'attente des travaux qui est configurée lorsque vous activez le service OCR.
 
 Si vous n'utilisez pas de file d'attente des travaux, ou si vous souhaitez recevoir un document OCR finalisé avant l'échéance indiquée par la file d'attente des travaux, vous pouvez choisir le bouton **Recevoir du service OCR**. Cela vous permettra d'obtenir tous les documents finalisés par le service OCR.
 
-**Remarque**: si le service OCR est configuré de telle façon qu'une vérification manuelle des documents traités est exigée, le champ **Statut OCR** affichera donc **En attente de vérification**. Dans ce cas, procédez comme suit pour vous connecter au site Web du service OCR et vérifier manuellement un document OCR.
+> [!NOTE]  
+>   Si le service OCR est configuré de telle façon qu'une vérification manuelle des documents traités est exigée, le champ **Statut OCR** affichera donc **En attente de vérification**. Dans ce cas, procédez comme suit pour vous connecter au site Web du service OCR et vérifier manuellement un document OCR.
 
 1. Dans le champ **Statut OCR**, sélectionnez le lien hypertexte **En attente de vérification**. Sinon, optez pour la mosaïque **En attente de vérification** de la page d'accueil.
 2. Sur le site Web du service OCR, connectez-vous à l'aide des identifiants de votre compte de service OCR. Il s'agit des identifiants que vous avez également utilisés lors de la configuration de ce service. Pour en savoir plus, consultez la section « Configurer un service OCR » dans [Procédure : configurer les documents entrants](across-how-setup-income-documents.md).
@@ -71,7 +73,8 @@ Désormais, vous pouvez poursuivre la création d'enregistrements de documents p
 ## <a name="to-create-a-purchase-invoice-from-an-electronic-document-received-from-the-ocr-service"></a>Pour créer une facture achat à partir d'un document électronique réceptionné depuis le service OCR
 La procédure suivante décrit comment créer un enregistrement facture achat à partir d'une facture fournisseur reçue en pièce jointe provenant du service OCR. La procédure est identique lorsque vous créez, par exemple, une ligne feuille comptabilité à partir d'un justificatif de frais.
 
-**Remarque**: les champs **Description** et **N°** des lignes document créées ne seront pas complétées tant que vous n'aurez pas mappé tout d'abord le texte trouvé sur le document OCR avec les deux champs dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vous pouvez le faire en tant que références externes article, pour les lignes document de type Article, ou en tant que mappages de texte à compte, pour les lignes document ou les feuilles comptabilité de type Compte général. Pour en savoir plus, voir l'info-bulle pour l'action **Références externes** sur les fiches article et la procédure associée [Procédure : mapper le texte sur les paiements récurrents vers les comptes pour rapprochement automatique](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
+> [!NOTE]  
+>   Les champs **Description** et **N°** des lignes document créées ne seront pas complétées tant que vous n'aurez pas mappé tout d'abord le texte trouvé sur le document OCR avec les deux champs dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vous pouvez le faire en tant que références externes article, pour les lignes document de type Article, ou en tant que mappages de texte à compte, pour les lignes document ou les feuilles comptabilité de type Compte général. Pour en savoir plus, voir l'info-bulle pour l'action **Références externes** sur les fiches article et la procédure associée [Procédure : mapper le texte sur les paiements récurrents vers les comptes pour rapprochement automatique](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
 
 Pour les documents entrants, vous utilisez généralement l'action **Mapper le texte avec le compte** pour définir qu'un certain texte sur une facture fournisseur en provenance du service OCR est mappé avec un certain compte fournisseur. En outre, toute partie de la description du document entrant qui existe comme texte de mappage signifie que le champ **N°** sur le document résultant ou les lignes feuille de type Compte général sont complétées par le fournisseur en question.
 
@@ -100,7 +103,7 @@ Comme le service OCR est basé sur la reconnaissance optique, il est probable qu
 
 La fenêtre **Correction des données OCR**, que vous ouvrez à partir de la fenêtre **Document entrant**, affiche les champs du raccourci **Informations financières** dans deux colonnes, une avec les données OCR modifiables et une avec les données OCR en lecture seule. Lorsque vous sélectionnez le bouton **Envoyer des commentaires OCR**, le contenu de la fenêtre **Correction des données OCR** est envoyé au service OCR. La prochaine fois que le service traite les fichiers PDF ou image contenant les données en question, vos corrections seront intégrées pour éviter les mêmes erreurs.
 
-1. Dans le coin supérieur droit, sélectionnez l'icône **Page ou état pour la recherche** ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Documents entrants**, puis sélectionnez le lien associé.
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Documents entrants**, puis sélectionnez le lien connexe.
 2. Ouvrez un enregistrement de document entrant contenant les données reçues du service OCR, que vous souhaitez corriger.
 3. Dans la fenêtre **Document entrant**, sélectionnez l'action **Corriger les données OCR**.
 4. Dans la fenêtre, **Correction des données OCR**, remplacez les données de la colonne modifiable pour chaque champ dont la valeur est incorrecte.

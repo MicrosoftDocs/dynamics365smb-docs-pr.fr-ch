@@ -1,6 +1,6 @@
 ---
-title: PayPal Payments Standard| Microsoft Docs
-description: Fournit des informations sur l&quot;extension PayPal Payments Standard
+title: Utilisation de l'extension PayPal Payments Standard | Microsoft Docs
+description: "Décrit comment utiliser l'extension pour permettre aux clients d'effectuer des paiements avec Paypal."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms. search.keywords: app, add-in, manifest, customize
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: fdd5df534c0ffd1ae325e0959fe01b1d0f00974a
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: fcbba8ecb2d63ab780a54aa4784a30b7fa5020fa
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -38,7 +38,7 @@ Le service PayPal Payments Standard fournit les avantages suivants :
 Pour plus d'informations, reportez-vous à [Procédure : activer les paiements client via Paypal](sales-how-enable-payment-service-extensions.md).
 
 ## <a name="see-also"></a>Voir aussi
-[Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide d'extensions](ui-extensions.md)  
-[Setting Up Sales](sales-setup-sales.md)  
+[Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md)  
+[Définition des ventes](sales-setup-sales.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

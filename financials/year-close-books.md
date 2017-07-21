@@ -1,6 +1,6 @@
 ---
-title: "Clôture plans| Microsoft Docs"
-description: "Explique les processus associés à la clôture des livres pour un exercice ou une période comptable."
+title: "Aperçu des tâches pour clôturer les livres | Microsoft Docs"
+description: "En savoir plus sur le processus de clôture des livres d'un exercice ou d'une période fiscale, et ce qui a lieu après la clôture à la fin d'un exercice."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,14 +13,14 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 03/29/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: a8d379c971d9b21b0eac552f8c7f68926090f037
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 870f1c6a7f93195e0308a646402d642f6cadd219
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="closing-books"></a>Clôture plans
+# <a name="closing-the-books"></a>Clôture des livres
 Après vous être assuré que tous vos comptes sont à jour et avoir ventilé les coûts et les bénéfices, vous pouvez clôturer les livres d'un exercice ou d'une période comptable.
 
 Vous n'êtes pas obligé de clôturer un exercice mais cela vous aidera à travailler plus facilement dans le système parce que vous serez en mesure de bénéficier des options de filtrage commodes à votre disposition. Vous ne devrez pas vous préoccuper de la perte de détails de transactions lors de la clôture parce que tous les détails sont conservés, même après la clôture de l'année.

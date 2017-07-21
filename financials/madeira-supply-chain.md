@@ -1,6 +1,6 @@
 ---
-title: "Chaîne d&quot;approvisionnement| Microsoft Docs"
-description: "En savoir plus sur les principaux concepts et processus de chaîne d&quot;approvisionnement"
+title: "Fonctionnalité de chaîne d'approvisionnement prise en charge par Financials| Microsoft Docs"
+description: "Obtenez un aperçu des produits et renseignez-vous sur les concepts et processus principaux de chaîne d'approvisionnement qui font partie de la solution ERP."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: product overview, ERP
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 4ed8437f5d1b7628f256bb435de8ba13bd64a8f9
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 3bae84075dc505aa9318590b1fac06e4844ffafe
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="supply-chain"></a>Chaîne d'approvisionnement
+# <a name="overview-of-supply-chain-functionality"></a>Aperçu de la fonctionnalité de chaîne d'approvisionnement
 [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge les processus courants de chaîne d'approvisionnement, mais limités aux besoins des sociétés de vente en gros et de distribution sans gestion des entrepôts.
 
 Outre les documents facture vente, vous pouvez gérer votre traitement de la commande avec des commandes vente vous autorisant à expédier certains articles de la quantité commandée, par exemple, parce que la quantité totale n'est pas immédiatement disponible. Vous pouvez faire livrer des articles directement d'un fournisseur à un client en liant la commande vente à la commande achat associée.
@@ -36,7 +36,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | Pour | Voir |
 | --- | --- |
 | Enregistrer les nouveaux clients, effectuer les offres de vente, vendre les produits sur les commandes ou les factures, par exemple sous forme de livraisons directes, et gérer les retours vente. |[Ventes](sales-manage-sales.md) |
-| Enregistrer les nouveaux fournisseurs, acheter des produits sur les commandes ou les factures, par exemple initiés à partir d'une facture vente, et gérer les retours achat. |[Achats](purchasing-manage-purchasing.md) |
+| Enregistrer les nouveaux fournisseurs, acheter des articles sur les commandes ou les factures, par exemple initiés à partir d'une facture vente, et gérer les retours achat. |[Achats](purchasing-manage-purchasing.md) |
 | Enregistrer de nouveaux produits physiques ou services, ajuster les quantités en stock, et gérer la valeur stock en validant les coûts ajustés en comptabilité. |[Stock](inventory-manage-inventory.md) |
 
 ## <a name="see-also"></a>Voir aussi

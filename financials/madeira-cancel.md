@@ -1,6 +1,6 @@
 ---
-title: "Annulation de Dynamics 365 for Financials | Microsoft Docs"
-description: "Décrit comment annuler votre expérience Dynamics 365 for Financials."
+title: "Annulation de Dynamics 365 for Financials| Microsoft Docs"
+description: "Décrit comment supprimer votre expérience Dynamics 365 for Financials."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,18 +10,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: remove, delete
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 7cac3c42b47358e35b35891f42300b209bf37ec3
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 4dc1a0d643aa9b1a2e1fe5b870881dc43c1ed2a1
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="canceling-dynamics-365-for-financials"></a>Annulation de Dynamics 365 for Financials
-Vous vous êtes abonné à [!INCLUDE[d365fin](includes/d365fin_md.md)] et vous pouvez annuler cet abonnement à tout moment. De même, vous pouvez choisir de réinitialiser la société que vous utilisez dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour un aperçu rapide, voir [le blog [!INCLUDE[d365fin](includes/d365fin_md.md)]] (https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel).  
+# <a name="unsubscribe-remove-or-reset-included365finincludesd365finmdmd"></a>Annuler un abonnement, supprimer, ou réinitialiser [!INCLUDE[d365fin](includes/d365fin_md.md)]
+Vous vous êtes abonné à [!INCLUDE[d365fin](includes/d365fin_md.md)] et vous pouvez annuler cet abonnement à tout moment. De même, vous pouvez choisir de réinitialiser la société que vous utilisez dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour un aperçu rapide, voir [le blog [!INCLUDE[d365fin](includes/d365fin_md.md)]](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel).  
 
 ## <a name="unsubscribing-by-removing-included365finincludesd365finmdmd-from-your-office-365-experience"></a>Annuler un abonnement en supprimant [!INCLUDE[d365fin](includes/d365fin_md.md)] de votre expérience Office 365
 Si vous vous êtes abonné à [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide d'un compte professionnel Office 365 existant, vous devez demander à votre administrateur Office 365 de supprimer la licence [!INCLUDE[d365fin](includes/d365fin_md.md)] de votre compte utilisateur.  
@@ -32,7 +32,8 @@ Si vous vous êtes abonné à [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'a
 
 ## <a name="resetting-your-included365finincludesd365finmdmd-experience"></a>Réinitialisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Si vous avez ajouté des données à votre aperçu [!INCLUDE[d365fin](includes/d365fin_md.md)] et que vous souhaitez recommencer à zéro, vous pouvez créer une société avant de réinitialiser la première société. Si vous ouvrez la page **Sociétés**, vous pouvez créer une copie de votre société actuelle, vous déconnecter et vous connecter à votre nouvelle société, puis réinitialiser la société d'origine.  
-**Remarque** : lorsque vous réinitialisez une société que vous partagez avec d'autres collaborateurs de votre entreprise, vous devez vous assurer que personne d'autre n'est connecté lorsque vous réinitialisez la société.  
+> [!NOTE]  
+>   Lorsque vous réinitialisez une société que vous partagez avec d'autres collaborateurs de votre entreprise, vous devez vous assurer que personne d'autre n'est connecté lorsque vous réinitialisez la société.  
 
 ## <a name="removing-included365finincludesd365finmdmd-from-your-app-launcher"></a>Supprimer [!INCLUDE[d365fin](includes/d365fin_md.md)] de votre lanceur d'applications
 Si vous souhaitez masquer [!INCLUDE[d365fin](includes/d365fin_md.md)] de votre lanceur d'applications, vous pouvez simplement le désactiver. Cela ne supprime pas les données, et n'annule pas votre abonnement.  

@@ -1,6 +1,6 @@
 ---
-title: "Procédure : rapprocher des comptes bancaires séparément| Microsoft Docs"
-description: "Procédure : rapprocher des comptes bancaires séparément"
+title: "Rapprocher des comptes bancaires séparément| Microsoft Docs"
+description: "Décrit la manière dont la valeur du stock fait l'objet d'un rapprochement avec la comptabilité."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,20 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 916f655f9dba80f7c227519372633913b11641ea
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 12620b1afa4630441889777bce30cb81317a848b
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-reconcile-bank-accounts-separately"></a>Procédure : rapprocher des comptes bancaires séparément
 Pour rapprocher des comptes bancaires dans [!INCLUDE[d365fin](includes/d365fin_md.md)] avec des relevés reçus de la banque, vous devez renseigner les lignes de la fenêtre **Rapprochement bancaire**.
 
-**Remarque** : vous pouvez également rapprocher des comptes bancaires dans la fenêtre **Feuille rapprochement paiement**. Toutes les écritures comptables compte bancaire ouvertes associées au client lettré ou à des écritures comptables fournisseur sont clôturées lorsque vous sélectionnez l'action **Valider les paiements et rapprocher les comptes bancaires**. Cela signifie que le compte bancaire est automatiquement rapproché pour les paiements que vous validez avec le journal. Pour plus d'informations, reportez-vous à [Procédure : rapprocher les paiements à l'aide de l'application automatique](receivables-how-reconcile-payments-auto-application.md).
+> [!NOTE]  
+>   Vous pouvez également rapprocher des comptes bancaires dans la fenêtre **Feuille rapprochement paiement**. Toutes les écritures comptables compte bancaire ouvertes associées au client lettré ou à des écritures comptables fournisseur sont clôturées lorsque vous sélectionnez l'action **Valider les paiements et rapprocher les comptes bancaires**. Cela signifie que le compte bancaire est automatiquement rapproché pour les paiements que vous validez avec le journal. Pour plus d'informations, reportez-vous à [Procédure : rapprocher les paiements à l'aide de l'application automatique](receivables-how-reconcile-payments-auto-application.md).
 
 Pour activer l'importation des relevés bancaires en tant que flux bancaires, vous devez d'abord configurer et activer le service de flux de la Envestnet Yodlee Bank, puis associer vos comptes bancaires aux comptes bancaires connexes en ligne. Pour plus d'informations, reportez-vous à [Procédure: configurer le service de flux de la Envestnet Yodlee Bank](bank-how-setup-bank-statement-service.md).
 
@@ -38,10 +39,11 @@ Vous pouvez renseigner le volet **Lignes relevé bancaire** de la fenêtre **Rap
 
 Lorsque la valeur du champ **Solde final** du volet **Lignes relevé bancaire** est égale à la valeur du champ **Solde à simuler** du volet **Écritures comptables compte bancaire**, vous pouvez sélectionner l'action **Valider** pour rapprocher les écritures comptables compte bancaire lettrées. Toutes les écritures comptables compte bancaire non lettrées restent dans la fenêtre, ce qui indique que les paiements traités pour le compte bancaire ne sont pas répercutés sur le dernier relevé bancaire, ou que certains paiements ont été réceptionnés par chèque.
 
-**Remarque** : si les lignes de relevé bancaire sont liées à des écritures comptables chèque, vous ne pouvez pas utiliser les fonctions de mise en correspondance. Au lieu de cela, vous devez sélectionner l'action **Lettrer écritures**, puis sélectionner l'écriture comptable chèque appropriée avec laquelle mettre en correspondance la ligne de relevé bancaire.
+> [!NOTE]  
+>   Si les lignes de relevé bancaire sont liées à des écritures comptables chèque, vous ne pouvez pas utiliser les fonctions de mise en correspondance. Au lieu de cela, vous devez sélectionner l'action **Lettrer écritures**, puis sélectionner l'écriture comptable chèque appropriée avec laquelle mettre en correspondance la ligne de relevé bancaire.
 
 ## <a name="to-fill-bank-reconciliation-lines-by-importing-a-bank-statement"></a>Pour renseigner les lignes rapprochement bancaire en important un relevé bancaire
-1. Dans le coin supérieur droit, sélectionnez l'icône **Page ou état pour la recherche** ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Rapprochement bancaire**, puis sélectionnez le lien associé.
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Rapprochement bancaire**, puis sélectionnez le lien connexe.
 2. Sélectionnez l'action **Nouveau**.
 3. Dans le champ **N° compte bancaire**, sélectionnez le compte bancaire approprié. Les écritures comptables compte bancaire qui existent pour le compte bancaire s'affichent le volet **Écritures comptables compte bancaire**.
 4. Dans le champ **Date relevé**, saisissez la date du relevé de banque.

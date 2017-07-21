@@ -1,6 +1,6 @@
 ---
 title: "Importer vos données métier existantes dans Financials | Microsoft Docs"
-description: "Décrit comment importer vos propres données dans Dynamics 365 for Financials."
+description: "Vous pouvez migrer les données des clients, des fournisseurs, et du stock, par exemple, d'Excel, QuickBooks, ou Dynamics GP vers Financials."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: migrate, initialize, implement
-ms.date: 04/27/2017
+ms.date: 07/05/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 001dccf7935f38dd2f409e4fea31598a279472d4
+ms.sourcegitcommit: 2a38dc36cb9ff609c5582acd489841b20013d4bc
+ms.openlocfilehash: dd6eb5a6b19bf4c8fd92674a48e8cd29ce912eee
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,16 +31,21 @@ Par exemple, si votre fichier inclut les clients et les fournisseurs, vous pouve
 
 La configuration assistée comprend une option permettant de modifier la configuration par défaut du transfert, mais nous vous recommandons de vous attaquer à cette configuration avancée si vous êtes familier des tables de base de données. Pour l'immense majorité des sociétés, le mappage par défaut à partir de QuickBooks ou Dynamics GP vers [!INCLUDE[d365fin](includes/d365fin_md.md)] transfère les informations que vous souhaitez.  
 
+Pour plus d'informations, voir [Migration de données QuickBooks](ui-extensions-quickbooks-data-migration.md) ou [Migration de données Dynamics GP](ui-extensions-dynamicsgp-data-migration.md).
+
 ## <a name="importing-data-from-configuration-packages"></a>Importation des données à partir des packages configuration
 [!INCLUDE[d365fin](includes/d365fin_md.md)] inclut un package de configuration que vous pouvez exporter vers Excel et y installe vos données. Vous pouvez alors importer les données à nouveau à partir d'Excel. Le package se compose de 27 tables, notamment des données de base telles que les clients, les fournisseurs, les articles, et les comptes, d'autres tables de configuration de base telles que les méthodes d'expédition, et les tables de transactions telles que l'en-tête vente et les lignes.  
 
 > [!NOTE]  
->  L'utilisation des packages de configuration est une fonctionnalité avancée, et il est préférable de contacter votre administrateur. Pour plus d'informations, voir [Importation des données à partir du logiciel de comptabilité hérité à l'aide d'un package de configuration](across-import-data-configuration-packages.md).  
+>   L'utilisation des packages de configuration est une fonctionnalité avancée, et il est préférable de contacter votre administrateur. Pour plus d'informations, voir [Importation des données à partir du logiciel de comptabilité hérité à l'aide d'un package de configuration](across-import-data-configuration-packages.md).  
 
 ## <a name="see-also"></a>Voir aussi
 [Finance](finance.md)  
 [Importation des données à partir du logiciel de comptabilité hérité à l'aide d'un package de configuration](across-import-data-configuration-packages.md)  
-[Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide d'extensions](ui-extensions.md)   
-[Configuration [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)
+[Extension QuickBooks Data Migration](ui-extensions-quickbooks-data-migration.md)  
+[Extension Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md)  
+[Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md)   
+[Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

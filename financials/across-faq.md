@@ -1,6 +1,6 @@
 ---
-title: Forum Aux Questions| Microsoft Docs
-description: "Questions les plus fréquentes sur l&quot;inscription à Dynamics 365 for Financials et son utilisation."
+title: FAQ concernant l'utilisation de Financials| Microsoft Docs
+description: "Répond à des questions communes sur la manière de se connecter à Financials, et comment démarrer."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
-ms.date: 03/22/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 58ba70311a035afd08bc5b4d0193fc34b132a39f
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: f4c4180c1ea70d8ef17136d56cc0f21e50f4f302
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -35,7 +35,7 @@ Non. Par contre, si vous souhaitez faire l'expérience de [!INCLUDE[d365fin](inc
 [!INCLUDE[d365fin](includes/d365fin_md.md)] est entièrement intégré à Office 365, ce qui vous permet de naviguer librement entre les applications Office 365 et [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide du lanceur d'application. Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez ouvrir les données dans Excel, imprimer des rapports à l'aide de Word, et vous pouvez travailler sur vos données [!INCLUDE[d365fin](includes/d365fin_md.md)] dans Outlook, par exemple. Pour plus d'informations, reportez-vous à [Utilisation de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] en tant que boîte de réception professionnelle dans Outlook](madeira-outlook.md).  
 
 ## <a name="can-i-cancel-my-subscription"></a>Puis-je annuler mon inscription ?
-Oui, mais en fonction de la manière dont vous avez effectué votre inscription à [!INCLUDE[d365fin](includes/d365fin_md.md)], vos données peuvent être conservées ou supprimées. Pour plus d'informations, reportez-vous à [Annulation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](madeira-cancel.md).  
+Oui, mais en fonction de la manière dont vous avez effectué votre inscription à [!INCLUDE[d365fin](includes/d365fin_md.md)], vos données peuvent être conservées ou supprimées. Pour plus d'informations, voir [Annulation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](madeira-cancel.md).  
 
 ## <a name="where-do-i-go-if-i-have-questions"></a>Où aller si j'ai des questions ?
 Si vous avez des questions à propos de [!INCLUDE[d365fin](includes/d365fin_md.md)] et que vous ne trouvez pas les réponses dans cette documentation, vous pouvez demander à la communauté Dynamics 365 for Financials. Pour plus d'informations, voir [Communauté Dynamics 365, édition Business](https://community.dynamics.com/business). En outre, notre équipe d'assistance publie des conseils et des astuces. Pour plus d'informations, voir [Blog de support Dynamics 365 for Financials](https://blogs.msdn.microsoft.com/dyn365finsupport).  

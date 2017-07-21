@@ -1,6 +1,6 @@
 ---
-title: "Procédure : octroyer une priorité à des fournisseurs| Microsoft Docs"
-description: "Procédure : octroyer une priorité à des fournisseurs"
+title: "Affecter un niveau de priorité à un fournisseur | Microsoft Docs"
+description: "Vous pouvez affecter des numéros à vos fournisseurs pour les classer par ordre de priorité et faciliter des propositions de paiement dans Financials."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: supplier, payment priority
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: ae80ae9ecc15838b59999ded775c7fa0063c8a54
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 2c91b28daf27ddd2b698ffe4338bbf92fd1f9adf
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -26,7 +26,7 @@ ms.lasthandoff: 05/04/2017
 Tout d'abord, vous devez attribuer une priorité à vos fournisseurs en leur affectant des numéros.
 
 ## <a name="to-prioritize-vendors"></a>Pour octroyer une priorité à des fournisseurs
-1. Dans le coin supérieur droit, sélectionnez l'icône **Page ou état pour la recherche** ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Fournisseurs**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Comptes bancaires**, puis sélectionnez le lien connexe.
 2. Sélectionnez le fournisseur approprié, puis sélectionnez **Modifier**.
 3. Dans le champ **Priorité**, entrez un numéro.
 

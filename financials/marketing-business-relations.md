@@ -1,6 +1,6 @@
 ---
-title: Configuration des relations d&quot;affaires pour des contacts | Microsoft Docs
-description: "Décrit les relations d&quot;affaires pour les contacts dans Financials"
+title: "Définir les codes des relations d'affaires dans les contacts| Microsoft Docs"
+description: "Utilisez les relations d'affaires dans Financials pour vous aider avec le marketing et désigner les rapports établis avec vos prospects, clients, notamment les banques ou les prestataires de services."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, prospect, contact, client, customer
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: f6719ac45f298d6c952427c871eaf818cb7480c3
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 7d0f189ac233ea4da72136858a343dfaa7e88883
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -25,12 +25,13 @@ Les relations d'affaires vous permettent d'indiquer les rapports établis avec v
 
 L'utilisation des relations d'affaires sur les contacts processus en deux étapes. Tout d'abord, vous définissez le code relation d'affaires. Vous ne devez effectuer cette étape qu'une seule fois pour chaque relation d'affaires. Une fois que vous disposez d'un code relation d'affaires, vous pouvez commencer à affecter le code aux sociétés contact.
 
-**Remarque** : si vous prévoyez de synchroniser vos contacts avec des fournisseurs, des clients ou des comptes bancaires dans d'autres parties de l'application, vous pouvez configurer pour eux une relation d'affaires.
+> [!NOTE]  
+>   Si vous souhaitez synchroniser vos contacts avec des fournisseurs, des clients ou des comptes bancaires dans d'autres parties de l'application, vous pouvez configurer une relation d'affaires.
 
 ## <a name="to-define-a-business-relation-code"></a>Pour définir un code relation d'affaires
 Le code relation d'affaires définit une catégorie ou un type de relation d'affaires, telles que BANQUE ou Avocat. Vous pouvez disposer de plusieurs codes relation d'affaires. Pour définir la relation d'affaires, vous utilisez la fenêtre **Relations d'affaires**.
 
-1. Dans le coin supérieur droit, sélectionnez l'icône **Page ou état pour la recherche** ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Relations d'affaires**, puis sélectionnez le lien associé.
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Relations d'affaires**, puis sélectionnez le lien connexe.
 2. Sélectionnez l'action **Nouveau**, et entrez un code et une désignation. Vous pouvez saisir pour le code un maximum de 11 caractères, et toute combinaison de chiffres et des lettres.
 
 ## <a name="AssignBusRelContact"></a> Pour affecter des relations d'affaires à un contact

@@ -1,6 +1,6 @@
 ---
-title: "Procédure : exécuter des traitements par lots | Microsoft Docs"
-description: Apprendre le fonctionnement du traitement par lots dans Dynamics 365 for Financials.
+title: "Créer et exécuter un traitement par lots| Microsoft Docs"
+description: "Vous exécutez des traitements par lots pour traiter les données et mettre à jour les informations, par exemple, pour élaborer des activités périodiques de comptabilité, ou effectuer des calculs."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,10 +13,10 @@ ms.search.keywords: task, process
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 1f4678ce0cfb18a746374226bb33020f70bf874d
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 6844d5fe3efba5349eef166161c5956116bc7fc0
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -26,7 +26,7 @@ Un traitement par lots est une routine qui traite les données par lots, par exe
 Un traitement par lots est similaire à un état, sauf qu'il utilise les résultats obtenus pour mettre à jour les informations directement plutôt que d'imprimer les résultats.
 
 ## <a name="to-run-a-batch-job"></a>Pour exécuter un traitement par lots
-1. Pour ouvrir le formulaire de sélection du traitement par lots concerné, dans le coin supérieur droit, sélectionnez l'icône **Page ou état pour la recherche** ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez le nom du traitement par lots, puis sélectionnez le lien connexe.
+1. Pour ouvrir le formulaire de sélection du traitement par lots concerné, sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez le nom du traitement par lots, puis sélectionnez le lien connexe.
 2. Si un raccourci **Options** est disponible pour le traitement par lots, renseignez-en les champs pour déterminer les tâches effectuées par le traitement par lots.
 3. La fenêtre peut inclure un ou plusieurs raccourcis avec des filtres que vous pouvez utiliser pour limiter les données incluses dans le traitement par lots. Pour cela, entrez des critères dans les filtres suggérés ou ajoutez des filtres supplémentaires.
 4. Pour démarrer le traitement par lots, cliquez sur le bouton **OK**.

@@ -1,6 +1,6 @@
 ---
-title: "Préparation à la configuration des contacts| Microsoft Docs"
-description: "Décrit comment se préparer à la configuration de contacts dans Financials"
+title: Configurer les informations pour les contacts| Microsoft Docs
+description: "Décrit les tâches pour spécifier les informations et les codes, par exemple, sur les secteurs d'activité et les relations d'affaires, avant de paramétrer des contacts."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 399fc41da9ff8168eea8aabd593ffd6123d8d501
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 3de30e72853689df84d3807def1334db88776680
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="preparing-for-setting-up-contacts"></a>Préparation à la configuration des contacts
+# <a name="preparing-to-set-up-contacts"></a>Préparation pour configurer des contacts
 Lors de la création de contacts, vous pouvez saisir des informations spécifiques, telles que le secteur d'activité des sociétés contact et votre relation d'affaires avec elles.
 
 Avant de créer des contacts et d'enregistrer les détails de vos relations d'affaires, vous devez configurer les différents codes que vous utiliserez pour affecter ces informations aux sociétés et personnes contact. Les codes peuvent être configurés pour les groupes de distribution, les secteurs d'activité, les relations d'affaires, les sources Web, les niveaux hiérarchiques et les responsabilités.
@@ -32,11 +32,11 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | Pour | Voir |
 | --- | --- |
 | Configurer les rapport établis avec vos contacts, tels que les clients potentiels, les banques, les consultants et les prestataires de services. |[Configuration des relations d'affaires sur des sociétés contact](marketing-business-relations.md) |
-| Configurer le secteur auquel les contacts appartiennent, par exemple le marché de détail et l'industrie automobile. |[Configuration des secteurs d'activité sur des sociétés contact](marketing-industry-groups.md) |
-| Configurer les groupes distribution qui permettent d'identifier les groupes contacts qui doivent recevoir les mêmes informations. |[Configuration des groupes de distribution sur des sociétés contact](marketing-mailing-groups.md) |
+| Configurer le secteur auquel les contacts appartiennent, par exemple le marché de détail et l'industrie automobile. |[Procédure : Configurer des secteurs d'activité dans les sociétés contact](marketing-industry-groups.md) |
+| Configurer les groupes distribution qui permettent d'identifier les groupes contacts qui doivent recevoir les mêmes informations. |[Procédure : Configurer des groupes de distribution dans les sociétés contact](marketing-mailing-groups.md) |
 | Configurer les responsabilités de vos personnes contact. |[Configurer des responsabilités sur les contacts](marketing-job-responsibilities.md) |
-| Configurer les niveaux hiérarchiques que vous voulez utiliser sur vos personnes contact. |[Configuration des niveaux hiérarchiques sur les contacts](marketing-organizational-levels.md) |
-| Configurer les recherches Web (moteurs de recherche et sites Web) que vous pouvez utiliser pour rechercher des données sur les contacts sur Internet. |[Configuration des recherches Web sur des contacts](marketing-web-sources.md) |
+| Configurer les niveaux hiérarchiques que vous voulez utiliser sur vos personnes contact. |[Procédure : Configurer des niveaux hiérarchiques sur les contacts](marketing-organizational-levels.md) |
+| Configurer les recherches Web (moteurs de recherche et sites Web) que vous pouvez utiliser pour rechercher des données sur les contacts sur Internet. |[Procédure : Configurer des recherches Web sur des contacts](marketing-web-sources.md) |
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion de contacts](marketing-contacts.md)  

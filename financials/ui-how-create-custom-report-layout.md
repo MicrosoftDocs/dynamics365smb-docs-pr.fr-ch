@@ -1,6 +1,6 @@
 ---
-title: "Procédure : créer une présentation de rapport ou de document personnalisée | Microsoft Docs"
-description: "Apprenez à concevoir la présentation d&quot;un état."
+title: "Créer des présentations personnalisées pour les états et les documents| Microsoft Docs"
+description: "Découvrez comment créer vos propres présentations personnalisées qui vous permettent de personnaliser l'apparence d'un rapport lorsqu'il est consulté, imprimé ou enregistré."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,22 +13,23 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 79c1e5c1ea01077e2e5012ba07618760ccf2a4af
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 551e838c2896470f9ee620f4ca09a6af3377b458
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-create-a-custom-report-or-document-layout"></a>Procédure : créer une présentation de rapport ou de document personnalisée
 Par défaut, un rapport aura une présentation de rapport intégrée, qui peut être soit une présentation de rapport RDLC ou une présentation de rapport Word, ou les deux. Vous ne pouvez pas modifier les présentations intégrées. Cependant, vous pouvez créer vos propres présentations personnalisées qui vous permettent de modifier l'apparence d'un rapport lorsqu'il est consulté, imprimé ou enregistré. Vous pouvez créer plusieurs présentations de rapport personnalisées pour le même rapport, puis faire basculer la présentation utilisée par un rapport selon vos besoins.
 
-**Remarque** : dans [!INCLUDE[d365fin](includes/d365fin_md.md)], le terme « état » couvre également les documents externes, tels que les factures vente et les confirmations de commande que vous envoyez à des clients comme fichiers PDF.
+> [!NOTE]  
+>   Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], le terme « état » couvre également les documents externes, tels que les factures vente et les confirmations de commande que vous envoyez à des clients comme fichiers PDF.
 
 Pour créer une présentation personnalisée, vous pouvez effectuer une copie d'une présentation personnalisée existante ou ajouter une nouvelle présentation personnalisée, qui est le plus souvent basée sur une présentation intégrée. Lorsque vous ajoutez une nouvelle présentation personnalisée, vous pouvez choisir d'ajouter un type de présentation de rapport RDLC, un type de présentation de rapport Word, ou les deux. La nouvelle présentation personnalisée est automatiquement basée sur la présentation intégrée pour le rapport s'il y en a une disponible. S'il n'y a pas de présentation intégrée pour le type, alors une nouvelle présentation vide est créée, que vous devrez modifier et concevoir entièrement. Pour plus d'informations sur les présentations de rapport RDLC et Word, les présentations intégrées et personnalisées, et plus encore, reportez-vous à [Gérer la présentation des états](ui-manage-report-layouts.md).  
 
 ## <a name="to-create-a-custom-layout"></a>Pour créer une présentation personnalisée
-1. Dans le coin supérieur droit, sélectionnez l'icône **Page ou état pour la recherche** ![Page ou état pour la recherche](media/ui-search/search_small.png "Search for Page or Report icon"), entrez **Sélection présentation état**, puis sélectionnez le lien connexe.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Search for Page or Report icon"), entrez **Sélection présentation état**, puis sélectionnez le lien connexe.  
    La fenêtre **Sélection présentation état** répertorie tous les états disponibles dans la société spécifiée dans le champ Société en haut de la fenêtre.
 2. Définissez le champ **Société** sur la société pour laquelle vous souhaitez créer la présentation de rapport.
 3. Sélectionnez la ligne de l'état pour lequel vous souhaitez créer la présentation, puis sélectionnez **Présentations personnalisées**.  

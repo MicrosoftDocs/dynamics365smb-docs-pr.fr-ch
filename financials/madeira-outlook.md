@@ -1,6 +1,6 @@
 ---
-title: "Utilisation de Dynamics 365 for Financials en tant que boîte de réception professionnelle dans Outlook | Microsoft Docs"
-description: "Utilisation de Dynamics 365 for Financials en tant que boîte de réception professionnelle dans Outlook"
+title: Utilisation de Dynamics 365 for Financials avec Outlook| Microsoft Docs
+description: "Dynamics 365 for Financials bénéficie d'une intégration complète à Office 365 ce qui vous permet de gérer tous vos interactions et message d'affaires avec les clients et les fournisseurs directement dans Outlook."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: a872c8817c412953a64cb1adb8f8234f2801e8fa
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 1944d7633c5f19a42ae8bbe022b8ef026e9515cd
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -24,7 +24,7 @@ ms.lasthandoff: 05/04/2017
 [!INCLUDE[d365fin](includes/d365fin_md.md)] vous permet désormais de gérer les interactions commerciales avec vos clients et fournisseurs, directement dans Microsoft Outlook. Avec le complément Outlook de [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez afficher des informations financières associées à des clients et des fournisseurs, ainsi que créer et envoyer des documents financiers, comme des devis et des factures.  
 
 ## <a name="get-the-add-in"></a>Obtenir le complément
-Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], l'une des étapes de la configuration assistée de mise en route s'effectue dans la fenêtre **Dirigez votre entreprise dans Office 365**. Dans cette fenêtre, lorsque vous cliquez sur le bouton **Configurer dans Outlook**, vous devez spécifier votre nom utilisateur et mot de passe Office 365 Le complément [!INCLUDE[d365fin](includes/d365fin_md.md)] est alors automatiquement ajouté à votre Outlook.  
+Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], l'une des étapes de la configuration assistée de mise en route s'effectue dans la fenêtre **Dirigez votre entreprise dans Office 365**. Dans cette fenêtre, lorsque vous cliquez sur le bouton **Configurer dans Outlook**, vous devez spécifier votre nom utilisateur et mot de passe Office 365. Le complément [!INCLUDE[d365fin](includes/d365fin_md.md)] est alors automatiquement ajouté à votre Outlook.  
 
 Ensuite, lorsque vous ouvrez Outlook, vous voyez des messages électroniques dans Financials Admin. Le nouveau complément est ajouté au ruban Outlook, et dans Outlook Web Access il apparaît dans le ruban des compléments, situé juste au-dessus du corps du message. Le complément lui-même est mis à jour régulièrement, et vous êtes informé qu'une nouvelle version est prête dans Outlook.  
 
@@ -61,7 +61,7 @@ Dans les deux cas, si [!INCLUDE[d365fin](includes/d365fin_md.md)] n'est toujours
 
 ## <a name="see-also"></a>Voir aussi
 [Bienvenue dans [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
-[Finance](finance.md)  
+[Finances](finance.md)  
 [Ventes](sales-manage-sales.md)  
 [Achats](purchasing-manage-purchasing.md)  
 

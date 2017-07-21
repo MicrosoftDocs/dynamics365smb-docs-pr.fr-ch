@@ -1,6 +1,6 @@
 ---
-title: "Procédure : créer des opportunités de vente | Microsoft Docs"
-description: "Décrit comment créer des opportunités de vente sur les contacts dans Financials"
+title: "Créer des opportunités de vente| Microsoft Docs"
+description: "Décrit comment créer des opportunités avec un commercial ou un contact dans Financials."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 387f79fcdbc0aef9a8b920e9df008b60445bd622
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 3137ed6aeaa235e2f2b4db7fdfb7dd7b8570c886
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -28,7 +28,7 @@ Utilisez la fenêtre **Liste des opportunités** pour créer des opportunités. 
 Pour pouvoir créer des opportunités, vous devez configurer les cycles de vente opportunité. Pour plus d'informations reportez-vous à [Procédure : configurer des cycles et des étapes de vente opportunité](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="to-create-an-opportunity-from-a-salesperson"></a>Pour créer une opportunité à partir d'un vendeur
-1. Dans le coin supérieur droit, sélectionnez l'icône **Page ou état pour la recherche** ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Vendeurs**, puis sélectionnez le lien associé.
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Vendeurs**, puis sélectionnez le lien connexe.
 2. Sélectionnez dans la liste le vendeur pour lequel vous souhaitez créer une opportunité.
 3. Sélectionnez l'action **Opportunités**, puis sélectionnez **Liste**.
 4. Sélectionnez **Nouveau**, puis renseignez les champs appropriés. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -36,7 +36,7 @@ Pour pouvoir créer des opportunités, vous devez configurer les cycles de vente
 
 
 ## <a name="to-create-an-opportunity-from-a-contact"></a>Pour créer une opportunité à partir d'un contact
-1. Dans le coin supérieur droit, sélectionnez l'icône **Page ou état pour la recherche** ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Contacts**, puis sélectionnez le lien associé.
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Contacts**, puis sélectionnez le lien connexe.
 2. Sélectionnez dans la liste le contact pour lequel vous souhaitez créer une opportunité.
 3. Exécutez l'une des opérations suivantes :
    * Choisissez l'action **Créer opportunité**.

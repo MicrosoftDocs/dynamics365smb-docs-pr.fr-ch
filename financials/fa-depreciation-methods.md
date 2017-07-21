@@ -1,6 +1,6 @@
 ---
-title: "Méthodes d&quot;amortissement| Microsoft Docs"
-description: "Décrit les sept méthodes permettant d&quot;amortir des immobilisations."
+title: "Méthodes d'amortissement| Microsoft Docs"
+description: "En savoir plus sur les différentes méthodes pour amortir ou déprécier des immobilisations."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: a5a43c6d53bdff7c30133d88c66e33996476f580
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 6a32ddc5fd8202507b66a30fabd2cbd6b5ab91eb
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,10 +31,12 @@ Huit méthodes d'amortissement sont disponibles :
 * Paramétrable  
 * Manuel  
 
-  **Remarque :** utilisez cette méthode pour les immobilisations qui ne font pas l'objet d'un amortissement, par exemple les terrains. Vous devez saisir l'amortissement dans la feuille validation immobilisation. Le traitement par lots **Calculer amortissement** ignore les immobilisations qui utilisent cette méthode d'amortissement.  
+  > [!NOTE]  
+>   Utilisez cette méthode pour les immobilisations qui ne font pas l'objet d'un amortissement, par exemple les terrains. Vous devez saisir l'amortissement dans la feuille validation immobilisation. Le traitement par lots **Calculer amortissement** ignore les immobilisations qui utilisent cette méthode d'amortissement.  
 * Règle de la demi-année  
 
-  **Remarque :** lorsque vous utilisez cette méthode, le montant de l'amortissement d'une immobilisation ne varie pas d'une année à l'autre.  
+  > [!NOTE]  
+>    Lorsque vous utilisez cette méthode, le montant de l'amortissement d'une immobilisation ne varie pas d'une année à l'autre.  
 
 ## <a name="straight-line-depreciation"></a>Amortissement linéaire
 Lorsque vous utilisez la méthode linéaire, vous devez indiquer l'une des options suivantes dans la loi d'amortissement immobilisation :  
@@ -222,7 +224,7 @@ Avec une méthode paramétrable, vous utilisez la fenêtre **Tables d'amortissem
 
 La formule de calcul des montants d'amortissement est la suivante :  
 
-Montant de l'amortissement = (% amortissement x nombre de jours d'amortissement x base amortissement )/(100) x 360  
+Montant de l'amortissement = (% amortissement x nombre de jours d'amortissement x base amortissement )/(100 x 360)  
 
 ### <a name="depreciation-based-on-number-of-units"></a>Amortissement basé sur un nombre d'unités
 Cette méthode paramétrable peut également être utilisée pour calculer un amortissement sur la base d'un nombre d'unités, par exemple dans le cas de machines de production dont la durée de vie est préétablie. Dans la fenêtre **Tables d'amortissement**, vous saisissez le nombre d'unités pouvant être produites au cours de chaque période (mois, trimestre, année ou période comptable).  
@@ -230,7 +232,7 @@ Cette méthode paramétrable peut également être utilisée pour calculer un am
 ### <a name="to-set-up-user-defined-depreciation-methods"></a>Pour définir des méthodes d'amortissement paramétrables
 Dans la fenêtre **Table amortissement**, vous pouvez configurer des méthodes d'amortissement paramétrables. Par exemple, vous pouvez définir l'amortissement en fonction du nombre d'unités.  
 
-1. Dans le coin supérieur droit, sélectionnez l'icône **Page ou état pour la recherche** ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Tables d'amortissement**, puis sélectionnez le lien associé.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), saisissez **Tables d'amortissement**, puis sélectionnez le lien connexe.  
 2. Dans la fenêtre **Liste des tables amortissement**, sélectionnez l'action **Nouveau**.  
 3. Dans la fenêtre **Fiche table amortissement**, renseignez les champs comme nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
@@ -282,7 +284,8 @@ Cette méthode d'amortissement peut être utilisée en combinaison avec les mét
 
 Lorsque vous appliquez la règle de la demi-année, une immobilisation a un amortissement de six mois lors du premier exercice comptable, quelle que soit la valeur du champ **Date début amortissement**.  
 
-**Remarque :** avec la règle de la demi-année, la durée de vie restante estimée pour l'immobilisation à la fin de l'exercice comptable indique toujours une demi-année. Par conséquent, pour que la méthode Utiliser règle de la demi-année soit appliquée correctement, le champ **Date fin amortissement** de la fenêtre **Plan amortissement** doit toujours contenir une date antérieure de six mois à la date fin de l'exercice comptable au cours duquel l'immobilisation sera complètement amortie.  
+> [!NOTE]  
+>   Avec la règle de la demi-année, la durée de vie restante estimée pour l'immobilisation à la fin de l'exercice comptable indique toujours une demi-année. Par conséquent, pour que la méthode Utiliser règle de la demi-année soit appliquée correctement, le champ **Date fin amortissement** de la fenêtre **Plan amortissement** doit toujours contenir une date antérieure de six mois à la date fin de l'exercice comptable au cours duquel l'immobilisation sera complètement amortie.  
 
 ### <a name="example---half-year-convention-depreciation"></a>Exemple - Amortissement selon la règle de la demi-année
 Une immobilisation a un coût d'acquisition de 100 000 DS. Le champ **Date début amortissement** indique la valeur 01/03/10. La durée de vie est estimée à cinq ans, ce qui implique que le champ **Date fin amortissement** doit impérativement être paramétré sur la valeur 30/06/15. Le traitement par lots **Calculer amortissement** est exécuté tous les ans. Cet exemple est basé sur un exercice comptable.  
@@ -297,7 +300,7 @@ Les écritures comptables immobilisation se présentent comme suit :
 | 31/12/12 |Amortissements |360 |-20 000,00 |50,000.00 |
 | 31/12/13 |Amortissements |360 |-20 000,00 |30,000.00 |
 | 31/12/14 |Amortissements |360 |-20 000,00 |10,000.00 |
-| 31/12/15 |Amortissements |180 |-10 000,00 |  0.00 |
+| 31/12/15 |Amortissements |180 |-10 000,00 |0.00 |
 
 * Date début amortissement  
 
@@ -343,14 +346,16 @@ Si vous disposez de trois lois d'amortissement, A1, A2 et A3, et que vous souhai
 
 Lorsque vous saisissez une écriture pour A1 dans la feuille validation immobilisation et sélectionnez le champ **Utiliser liste duplication**, le programme duplique l'écriture pour les lois A2 et A3 dans la feuille immobilisation lors de la validation de l'écriture.  
 
-**Remarque :** vous ne pouvez pas utiliser la feuille d'origine comme destination de la duplication. Si vous validez des écritures dans la feuille validation immobilisation, vous pouvez les dupliquer dans la feuille immobilisation ou dans la feuille validation immobilisation en utilisant une autre feuille.  
+> [!NOTE]  
+>   Vous ne pouvez pas utiliser la feuille d'origine comme destination de la duplication. Si vous validez des écritures dans la feuille validation immobilisation, vous pouvez les dupliquer dans la feuille immobilisation ou dans la feuille validation immobilisation en utilisant une autre feuille.  
 
-**Remarque** : vous ne pouvez pas utiliser la même souche de numéros dans la feuille validation immobilisation et la feuille immobilisation. Lorsque vous validez des écritures dans la feuille validation immobilisation, vous devez laisser le champ **N° document** vide. Si vous saisissez un numéro dans le champ, il est copié dans la feuille immobilisation. Vous devez modifier manuellement le numéro de document avant de pouvoir valider la feuille.  
+> [!NOTE]  
+>   Vous ne pouvez pas utiliser la même souche de numéros dans la feuille validation immobilisation et la feuille immobilisation. Lorsque vous validez des écritures dans la feuille validation immobilisation, vous devez laisser le champ **N° document** vide. Si vous saisissez un numéro dans le champ, il est copié dans la feuille immobilisation. Vous devez modifier manuellement le numéro de document avant de pouvoir valider la feuille.  
 
 ## <a name="see-also"></a>Voir aussi
 [Immobilisations](fa-manage.md)  
 [Paramétrage d'immobilisations](fa-setup.md)  
-[Finance](finance.md)  
+[Finances](finance.md)  
 [Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

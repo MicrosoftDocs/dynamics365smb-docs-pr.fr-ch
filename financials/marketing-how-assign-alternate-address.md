@@ -1,6 +1,6 @@
 ---
-title: "Procédure : configurer des adresses secondaires pour des contacts | Microsoft Docs"
-description: "Décrit comment configurer des adresses secondaires pour des contacts dans Financials"
+title: Affecter une autre adresse de contact| Microsoft Docs
+description: "Décrit comment affecter une adresse secondaire à vos contacts ou prospects, où ils reçoivent parfois des informations."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 0ce913952b98058759215160ce4a42ce25f8fe55
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: d7c73b353a2f4dc00dd648ae312a7b8adfb7fcc2
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---

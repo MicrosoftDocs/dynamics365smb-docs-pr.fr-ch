@@ -1,6 +1,6 @@
 ---
-title: "Procédure : comment gérer des enregistrements document entrant| Microsoft Docs"
-description: "Procédure : créer des enregistrements document entrant"
+title: "Définir les documents originaux à afficher | Microsoft Docs"
+description: "Ajustez la vue par défaut des documents entrants, tels que des factures électroniques, afin d'améliorer votre vue d'ensemble des enregistrements traités et non-traités."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,24 +10,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 05/12/2016
+ms.date: 06/02/2016
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 821efd8c95d05fc5d93c79dd75942f61daa91683
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: d840981dcceb54c74ac70ed0ddd05b3d3fa9bfc8
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-manage-many-incoming-document-records"></a>Procédure : gérer de nombreux enregistrements document entrant
 Lors de la création ou du traitement des enregistrements document, le nombre de lignes dans la fenêtre **Documents entrants** peut croître de telle façon que vous perdez la vue d'ensemble. Par conséquent, vous pouvez définir les enregistrements de documents entrants sur Traité afin de les supprimer de la vue par défaut. Lorsque vous choisissez l'action **Afficher tout**, vous pouvez afficher les enregistrements traités et non traités.
 
-**Remarque** : vous ne pouvez pas modifier les informations, joindre des fichiers, ni exécuter d'autres processus sur des enregistrements de documents entrants définis à Traité. Vous devez d'abord définir le paramètre à Non traité.
+> [!NOTE]  
+>   Vous ne pouvez pas modifier les informations, joindre des fichiers, ni exécuter d'autres processus sur des enregistrements de documents entrants définis à Traité. Vous devez d'abord définir le paramètre à Non traité.
 
 La case **Traité** est automatiquement cochée sur les champ est sélectionné sur les enregistrements de documents entrants qui ont été traités, mais vous pouvez également cocher ou décocher cette case manuellement. En fonction de votre processus entreprise, un enregistrement de document entrant peut être traité si un document connexe a été créé pour celui-ci ou qu'un fichier a été joint.
 
-**Remarque** : lorsque vous ouvrez la fenêtre **Documents entrants** avec l'action **Mes documents entrants** sur le Tableau de bord, seuls les enregistrements de documents entrants non traités sont affichés par défaut. Dans cette rubrique, il s'agit de « la vue par défaut ».
+> [!NOTE]  
+>   Lorsque vous ouvrez la fenêtre **Documents entrants** avec l'action **Mes documents entrants** sur le Tableau de bord, seuls les enregistrements de documents entrants non traités sont affichés par défaut. Dans cette rubrique, il s'agit de « la vue par défaut ».
 
 ## <a name="to-remove-incoming-document-records-from-the-default-view"></a>Pour supprimer les enregistrements de documents entrants de la vue par défaut
 1. Dans la fenêtre **Documents entrants**, sélectionnez une ou plusieurs lignes pour les enregistrements de documents entrants que vous souhaitez supprimer de la vue par défaut.
@@ -35,7 +37,8 @@ La case **Traité** est automatiquement cochée sur les champ est sélectionné 
 
 Les enregistrements de documents entrants sont supprimés de la vue par défaut, et la case **Traité** est sélectionnée sur les lignes correspondantes.
 
-**Remarque** : vous pouvez également effectuer cette action pour un enregistrement spécifique dans la fenêtre **Fiche document entrant**.
+> [!NOTE]  
+>   Vous pouvez également effectuer cette action pour un enregistrement spécifique dans la fenêtre **Fiche document entrant**.
 
 ## <a name="to-view-all-incoming-document-records"></a>Pour afficher tous les enregistrements de documents entrants
 1. Dans la fenêtre **Documents entrants**, sélectionnez l'action **Afficher tout**.
@@ -47,7 +50,8 @@ Tous les enregistrements de documents entrants sont affichés, y compris ceux po
 2. Sélectionnez un ou plusieurs lignes pour les enregistrements de documents entrants que vous souhaitez voir apparaître dans la vue par défaut.
 3. Sélectionnez l'action **Défini sur Non traité**.  
 
-**Remarque** : vous pouvez également effectuer cette action pour un enregistrement spécifique dans la fenêtre **Fiche document entrant**.
+> [!NOTE]  
+>   Vous pouvez également effectuer cette action pour un enregistrement spécifique dans la fenêtre **Fiche document entrant**.
 
 ## <a name="see-also"></a>Voir aussi
 [Traiter les documents entrants](across-process-income-documents.md)  

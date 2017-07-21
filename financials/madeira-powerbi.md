@@ -1,6 +1,6 @@
 ---
-title: Utilisation des packs de contenu Dynamics 365 for Financials pour Power BI | Microsoft Docs
-description: "Il est facile d&quot;obtenir des informations exploitables de vos données Financials grâce à Power BI et aux packs de contenu Financials."
+title: "Packs de contenu Dynamics 365 for Financials et Power BI | Microsoft Docs"
+description: "Il est facile d'obtenir des informations exploitables, de la veille économique et des KPI de vos données Financials grâce à Power BI et aux packs de contenu Financials."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 70e3e166f344d373750c969bd5816a8e67589e53
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 537effab2f406d619c5000efad12754db678e8b8
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -30,7 +30,8 @@ Les packs de contenu sont pré-configurés pour fonctionner avec les données de
 * Épinglez cette vue personnalisée au tableau de bord pour continuer à effectuer le suivi.  
   Le tableau de bord et les états sous-jacents sont actualisés au quotidien. Vous pouvez contrôler le programme de réactualisation et en modifier la fréquence sur l'ensemble de données.  
 
-**Remarque** : vous pouvez également générer vos propres états et tableaux de bord dans Power BI selon vos données [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, voir [Utilisation de Dynamics 365 for Financials comme source de données Power BI](across-how-use-financials-data-source-powerbi.md).  
+> [!NOTE]  
+>   Vous pouvez également générer vos propres états et tableaux de bord dans Power BI selon vos données [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, voir [Connexion de vos données métier à Power BI](across-how-use-financials-data-source-powerbi.md).  
 
 ## <a name="accessing-included365finincludesd365finmdmd-in-power-bi"></a>Accéder à [!INCLUDE[d365fin](includes/d365fin_md.md)] dans Power BI
 Pour afficher vos données [!INCLUDE[d365fin](includes/d365fin_md.md)] dans Power BI, vous devez disposer des éléments suivants :  
@@ -74,7 +75,8 @@ Le tableau de bord [!INCLUDE[d365fin](includes/d365fin_md.md)] affiche les état
 * SalesOrdersBySalesPerson  
 * TopCustomerOverview  
 
-**Remarque** : si vous modifiez le nom de l'un de ces services Web, les données ne s'affichent pas dans Power BI.  
+> [!NOTE]  
+>   Si vous modifiez le nom de l'un de ces services Web, les données ne s'affichent pas dans Power BI.  
 Si vous souhaitez ajouter et utiliser d'autres données dans Power BI, vous devez trouver les tables dans [!INCLUDE[d365fin](includes/d365fin_md.md)], les exposer comme services Web, puis les ajouter au pack de contenu. Il s'agit d'un scénario avancé, et nous vous recommandons de commencer avec les données déjà disponibles dans Power BI.  
 
 ## <a name="troubleshooting"></a>Incident
@@ -98,7 +100,8 @@ Si vous obtenez un message d'erreur de type échec de la connexion lorsque vous 
     Vérifiez votre compte utilisateur dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vérifiez que vous avez utilisé la bonne clé d'accès rapide au service Web comme mot de passe, puis essayez de nouveau.  
 * L'instance de [!INCLUDE[d365fin](includes/d365fin_md.md)] à laquelle vous essayez de vous connecter n'est pas dotée d'un certificat SSL valide. Dans ce cas, vous obtiendrez un message d'erreur plus détaillé (« impossible d'établir une relation SSL fiable »).
 
-    **Remarque** : les certificats auto-signés ne sont pas pris en charge.  
+    > [!NOTE]  
+>   Les certificats auto-signés ne sont pas pris en charge.  
 
 **« Oups »**  
 Si une boîte de dialogue d'erreur « Oups » s'affiche une fois que vous avez passé la boîte de dialogue d'authentification, cela est généralement causé par un problème qui survient lors de la connexion aux données du pack de contenu.

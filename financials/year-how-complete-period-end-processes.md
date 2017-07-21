@@ -1,6 +1,6 @@
 ---
-title: "Clôture périodes | Microsoft Docs"
-description: "Explique les processus permettant de clôturer une période."
+title: "Activités facultatives pour les périodes de clôture | Microsoft Docs"
+description: "Cette rubrique décrit les processus et les activités facultatifs pour la clôture des périodes comptables dans Financials."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments
-ms.date: 03/21/2017
+ms.date: 06/02/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 1d0af3dbc94c32447facfbd24747ddc140cc1691
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 678cebc065594ed0ed6fea897676f109ff2c1dce
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="closing-periods"></a>Clôture périodes
+# <a name="overview-of-tasks-to-close-accounting-periods"></a>Aperçu des tâches de clôture des périodes comptables
 [!INCLUDE[d365fin](includes/d365fin_md.md)] ne vous oblige pas à clôturer les périodes. Toutefois, il existe de nombreuses activités de clôture de période (fin de mois) que vous pouvez effectuer. Cette rubrique présente un aperçu des activités et des processus facultatifs pour les périodes de clôture.  
 
 ## <a name="general-ledger"></a>Écritures comptables

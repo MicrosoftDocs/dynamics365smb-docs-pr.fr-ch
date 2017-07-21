@@ -1,6 +1,6 @@
 ---
 title: WorldPay Payments Standard| Microsoft Docs
-description: Fournit des informations sur l&quot;extension WorldPay Payments Standard
+description: Fournit des informations sur l'extension WorldPay Payments Standard
 services: project-madeira
 documentationcenter: 
 author: bholtorf
@@ -15,7 +15,7 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
 ms.openlocfilehash: a4a110fec7f656fd2132daaf6ddda492e9a4ab67
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -26,6 +26,6 @@ Si vous activez l'extension, et envoyez une facture vente ou une commande vente 
 L'activation des extensions de service de paiement est gratuite dans [!INCLUDE[d365fin](includes/d365fin_md.md)], toutefois, vous devez contacter le service de paiement pour obtenir un compte. Pour plus d'informations, reportez-vous à [Procédure : activer les paiements client via les services de paiement](sales-how-enable-payment-service-extensions.md).
 
 ## <a name="see-also"></a>Voir aussi
-[Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide d'extensions](ui-extensions.md)  
-[Setting Up Sales](sales-setup-sales.md)  
+[Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md)  
+[Définition des ventes](sales-setup-sales.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

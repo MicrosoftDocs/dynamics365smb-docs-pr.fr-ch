@@ -1,6 +1,6 @@
 ---
-title: "Procédure : créer des enregistrements document entrant| Microsoft Docs"
-description: "Procédure : créer des enregistrements document entrant"
+title: "Créer des enregistrements de documents entrants| Microsoft Docs"
+description: "Vous pouvez créer des enregistrements de documents entrants, tels que des factures électroniques, et gérer des tâches OCR, du commerce électronique, et de l'échange de documents."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 05/12/2016
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 38ea48e8a948df0fc3894e91d8393d2d14b2fd5a
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 36e1acc3125e325a9fca8fdd9ce797ac50c065c1
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -30,13 +30,14 @@ Avant d'utiliser la fonctionnalité Documents entrants, vous devez exécuter la 
 ## <a name="to-approve-or-reject-an-incoming-document"></a>Approbation ou rejet d'un document entrant
 Si vous souhaitez autoriser des utilisateurs à créer des factures ou des lignes feuille comptabilité à partir d'enregistrements document entrant, sauf s'ils sont approbateurs, vous pouvez configurer des approbateurs qui doivent approuver les enregistrements avant de pouvoir être traités.
 
-1. Dans le coin supérieur droit, sélectionnez l'icône **Page ou état pour la recherche** ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Documents entrants**, puis sélectionnez le lien associé.
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Documents entrants**, puis sélectionnez le lien connexe.
 2. Sélectionnez la ligne contenant le document à approuver ou rejeter, puis sélectionnez l'action **Approuver** or **Rejeter**.
 
 Si vous approuvez l'enregistrement document entrant, la case à cocher **Lancé** de la ligne document entrant est activée. L'utilisateur chargé de créer, par exemple, des factures achat peut continuer à traiter l'enregistrement.
 
 ## <a name="to-create-an-incoming-document-record-by-taking-a-photo"></a>Pour créer un enregistrement de document entrant en prenant une photo
-**Remarque** : la procédure suivante s'applique uniquement aux tablettes et téléphones clients [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> [!NOTE]  
+>   La procédure suivante s'applique uniquement aux clients disposant de tablettes et de téléphones équipés de [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 1. Dans la barre d'application, sélectionnez la mosaïque **Créer le document entrant à partir de l'appareil photo**, puis passez à l'étape 4.
 2. Sinon, dans la barre d'application, cliquez sur le bouton Options, choisissez **Documents entrants**, puis **Tous**.
@@ -46,7 +47,8 @@ Si vous approuvez l'enregistrement document entrant, la case à cocher **Lancé*
 Un enregistrement de document entrant est créé, avec l'image jointe.
 
 ## <a name="to-attach-an-image-to-an-incoming-document-record-by-taking-a-photo"></a>Pour joindre une image à un enregistrement de document entrant en prenant une photo
-**Remarque** : la procédure suivante s'applique uniquement aux tablettes et téléphones clients [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> [!NOTE]  
+>   La procédure suivante s'applique uniquement aux clients disposant de tablettes et de téléphones équipés de [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 1. Dans la barre d'application, cliquez sur le bouton Options, choisissez **Documents entrants**, puis **Tous**.
 2. Ouvrez la fiche de l'enregistrement de document entrant existant.
@@ -56,7 +58,7 @@ Un enregistrement de document entrant est créé, avec l'image jointe.
 L'image est jointe à l'enregistrement de document entrant.
 
 ## <a name="to-create-an-incoming-document-record-manually"></a>Pour créer un enregistrement document entrant manuellement
-1. Dans le coin supérieur droit, sélectionnez l'icône **Page ou état pour la recherche** ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Documents entrants**, puis sélectionnez le lien associé.
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Documents entrants**, puis sélectionnez le lien connexe.
 2. Choisissez l'action **Créer à partir d'un fichier**.  
 3. Dans la fenêtre **Insérer un fichier**, sélectionnez un fichier, puis choisissez **Ouvrir**.
 

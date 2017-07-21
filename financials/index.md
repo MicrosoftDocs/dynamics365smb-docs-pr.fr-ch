@@ -1,6 +1,6 @@
 ---
 title: "Bienvenue dans Dynamics 365 for Financials | Microsoft Docs"
-description: "Dynamics 365 for Financials est une solution de gestion d&quot;entreprise pour les PME qui automatise et simplifie les processus entreprise et vous aide à gérer votre entreprise. L&quot;inscription est facile, et vous pouvez migrer des données métiers existantes de votre système existant."
+description: "Dynamics 365 for Financials est une solution de gestion d'entreprise pour les PME qui automatise et simplifie les processus entreprise et vous aide à gérer votre entreprise. L'inscription est facile, et vous pouvez migrer des données métiers existantes de votre système existant."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 04/27/2017
-ms.author: jswymer
+ms.date: 06/02/2017
+ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 0e3d1a290a541cdf9289bd607b70abc21f9c8120
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 1a7fbf443c6fb3f9276e3f6a5d3ea196b7fb2cb7
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="welcome-to-included365finlongincludesd365finlongmdmd"></a>Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] !
+# <a name="welcome-to-included365finlongincludesd365finlongmdmd"></a>Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] est une solution de gestion d'entreprise pour les PME qui automatise et simplifie les processus entreprise et vous aide à gérer votre entreprise. L'inscription est facile, et vous pouvez migrer des données métiers existantes de votre système existant.
 L'inscription à la version préliminaire de [!INCLUDE[d365fin](includes/d365fin_md.md)] vous a donné accès à une société de démonstration. La société de démonstration contient des exemples de données, mais vous pouvez créer vos propres documents vente, par exemple, ou ouvrir un compte bancaire.  
 
@@ -33,16 +33,17 @@ Pour obtenir des astuces rapides, consultez :
 * [Définir des filtres](ui-enter-criteria-filters.md)  
 * [Trier des données dans des listes](ui-sorting.md)  
 
-Pour plus d'informations, voir [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  
+Pour plus d'informations, reportez-vous à [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  
 
 Lorsque vous êtes prêt à passer à l'étape supérieure, et que vous voulez en savoir plus sur les processus d'entreprise pris en charge par [!INCLUDE[d365fin](includes/d365fin_md.md)], consultez [Business Functionality](madeira-business-functionality.md). Pour obtenir une vue d'ensemble des fonctionnalités actuelles et à venir, jetez un œil à notre feuille de route sur [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68).  
 
 ## <a name="the-home-pages"></a>Les pages d'accueil
 La page d'accueil utilise une conception centrée sur le rôle pour vous permettre d'accéder rapidement aux outils de processus d'entreprise et d'intelligence dont vous avez besoin dans le cadre de votre travail. Par exemple, un comptable peut surveiller des paiements et des approbations, et afficher des graphiques de performances financières. Consultez les différentes pages d'accueil en sélectionnant l'icône **Paramètres** ![Paramètres](media/ui-experience/settings_icon_small.png "Icône Paramètres du tableau de bord") dans le coin supérieur droit, en sélectionnant **Mes paramètres**, puis le tableau de bord à explorer. Connectez-vous à nouveau pour appliquer la modification. Pour plus d'informations, reportez-vous à [Modification du Tableau de bord](change-role.md).  
 
-Chaque page d'accueil fournit un bouton **Configuration et extensions**. Ici vous avez accès à la liste de configuration assistée qui peut vous aider à démarrer en définissant les zones sélectionnés rapidement. Si une zone n'est pas couverte par une configuration assistée, sélectionnez l'option **Programme d'installation manuelle** pour accéder aux fenêtres de paramétrage dans lesquelles vous pouvez renseigner les champs de configuration pour toutes les zones manuellement. Pour plus d'informations sur le paramétrage de clients, voir également [Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
+Chaque page d'accueil fournit un bouton **Configuration et extensions**. Ici vous avez accès à la liste de configuration assistée qui peut vous aider à démarrer en définissant les zones sélectionnés rapidement. Si une zone n'est pas couverte par une configuration assistée, sélectionnez l'option **Programme d'installation manuelle** pour accéder aux fenêtres de paramétrage dans lesquelles vous pouvez renseigner les champs de configuration pour toutes les zones manuellement. Pour plus d'informations, reportez-vous à [Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
-**Remarque :** la liste des guides de configuration, des extensions et des services disponibles diffèrent selon l'expérience de l'utilisateur que vous choisissez pour votre société. L'expérience **Basique** donne accès à moins d'options que l'expérience **Suite**. La première fois que vous vous connectez, vous utilisez l'expérience Basique. Pour plus d'informations, voir [Personnalisation de votre expérience [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).  
+> [!NOTE]  
+>   La liste des guides de configuration, des extensions et des services disponibles diffèrent selon l'expérience de l'utilisateur que vous choisissez pour votre société. L'expérience **Basique** donne accès à moins d'options que l'expérience **Suite**. La première fois que vous vous connectez, vous utilisez l'expérience Basique. Pour plus d'informations, voir [Personnalisation de votre expérience [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).  
 
 Dans la fenêtre **Configuration assistée**, vous découvrirez l'expérience  **Suite** :
 
@@ -72,9 +73,9 @@ Pour créer une société pour tester des éléments, allez dans le menu **Mes p
 
 ## <a name="see-also"></a>Voir aussi
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Configuration [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
-[Finance](finance.md)  
-[Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide d'extensions](ui-extensions.md)  
+[Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+[Finances](finance.md)  
+[Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] en tant que boîte de réception professionnelle dans Outlook](madeira-outlook.md)  
 [Obtention de [!INCLUDE[d365fin](includes/d365fin_md.md)] sur votre périphérique mobile](install-mobile-app.md)  
 [Documentation Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  

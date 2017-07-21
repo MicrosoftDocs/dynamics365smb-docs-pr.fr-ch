@@ -1,6 +1,6 @@
 ---
-title: "Procédure : catégoriser des articles| Microsoft Docs"
-description: "Décrit comment organiser les articles par catégorie."
+title: "Organiser les articles en catégories| Microsoft Docs"
+description: "Pour vous aider à rechercher et à trouver des articles, vous pouvez affecter des attributs d'article et organiser les articles en catégories."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: category, search, attribute, facet
-ms.date: 04/20/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 06f50a356ddc3a501c28fe34891213b55a12e3fd
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: da87c427033d58d92a6a5222bc323c68c4bc3f4e
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -26,17 +26,19 @@ Pour conserver un aperçu de vos articles et pour vous aider à trier et à trou
 Pour trouver les articles par caractéristique, vous pouvez affecter des attributs d'article aux articles et également aux catégories d'article. Pour en savoir plus, voir [Procédure : utiliser les attributs d'article](inventory-how-work-item-attributes.md).
 
 ## <a name="to-create-an-item-category"></a>Pour créer une catégorie d'article
-1. Dans le coin supérieur droit, sélectionnez l'icône **Page ou état pour la recherche** ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Catégories article**, puis sélectionnez le lien associé.
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Catégories article**, puis sélectionnez le lien connexe.
 2. Dans la fenêtre **Catégories d'article**, sélectionnez l'action **Nouveau**.
 3. Dans la fenêtre **Fiche catégorie d'article**, sur le raccourci **Général**, complétez les champs suivants : [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Sur le raccourci **Attributs**, précisez tout attribut d'article pour la catégorie d'article. Pour en savoir plus, voir la section « Assigner des attributs d'article à une catégorie d'article » dans [Procédure : utiliser les attributs d'article](inventory-how-work-item-attributes.md).
 
-**Remarque** : si la catégorie d'article dispose d'une catégorie d'article parent, comme indiqué par le champ **Catégorie parent**, tout attribut d'article assigné à cette catégorie d'article parent est pré-rempli dans le raccourci **Attributs**.
+> [!NOTE]  
+>   Si la catégorie d'article dispose d'une catégorie d'article parent, comme indiqué par le champ **Catégorie parent**, tout attribut d'article assigné à cette catégorie d'article parent est pré-rempli dans le raccourci **Attributs**.
 
-**Remarque** : les attributs d'article que vous assignez à une catégorie d'article s'appliqueront automatiquement à l'article auquel la catégorie d'article est assignée.
+> [!NOTE]  
+>   Les attributs d'article que vous assignez à une catégorie d'article s'appliqueront automatiquement à l'article auquel la catégorie d'article est assignée.
 
 ## <a name="to-assign-an-item-category-to-an-item"></a>Pour assigner une catégorie d'article à un article
-1. Dans le coin supérieur droit, sélectionnez l'icône **Page ou état pour la recherche** ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Articles**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Articles**, puis sélectionnez le lien connexe.
 2. Ouvrez la fiche pour l'article que vous souhaitez assigner à une catégorie d'article.
 3. Sélectionnez le bouton de recherche dans le champ **Code catégorie article** et sélectionnez une catégorie d'article existante. Sinon, sélectionnez l'action **Nouveau** pour créer tout d'abord une nouvelle catégorie d'article comme expliqué dans la section « Créer une catégorie d'article ».
 

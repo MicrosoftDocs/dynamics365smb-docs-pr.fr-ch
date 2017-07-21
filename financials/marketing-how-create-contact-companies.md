@@ -1,6 +1,6 @@
 ---
-title: "Créer des sociétés contact | Microsoft Docs"
-description: "Décrit comment créer des sociétés contacts dans Financials"
+title: "Créer des sociétés contact| Microsoft Docs"
+description: "Décrit comment créer un contact pour chaque nouvelle société ou société prospect avec laquelle vous collaborez ou entretenez des relations."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 02/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: bd8dfb8abc9387ad6b9c500f25feb181878b6cfe
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 6a1141c352dd93657d32bb83067ce32077901a47
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="create-contact-companies"></a>Création de sociétés contact
+# <a name="how-to-create-contact-companies"></a>Procédure : créer des sociétés contact
 Vous pouvez créer un contact pour chaque nouvelle société avec laquelle vous êtes en contact, par exemple un client, un fournisseur, un prospect, une banque, un cabinet d'avocats, un consultant, et ainsi de suite.
 
 Il existe deux méthodes permettant de créer un contact : à partir de zéro ou à partir d'un client, d'un fournisseur ou d'un compte bancaire existant.
@@ -28,7 +28,7 @@ Il existe deux méthodes permettant de créer un contact : à partir de zéro o
 Avant de créer un contact, vous pouvez vérifier les paramètres dans la fenêtre **Paramètres Marketing**. Pour plus d'informations, voir [Paramétrage de la Gestion des relations](marketing-setup-marketing.md).
 
 ## <a name="create-a-company-contact-from-scratch"></a>Créer un contact société à partir de zéro
-1. Dans le coin supérieur droit, sélectionnez l'icône **Page ou état pour la recherche** ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Contacts**, puis sélectionnez le lien associé.
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Contacts**, puis sélectionnez le lien connexe.
 2. Sélectionnez l'action **Nouveau**.
 3. Dans le champ **N°**, saisissez le numéro du contact.
 
@@ -36,12 +36,13 @@ Avant de créer un contact, vous pouvez vérifier les paramètres dans la fenêt
 4. Définissez **Type** à **Société**.
 5. Renseignez les autres champs selon vos besoins.
 
-## <a name="create-a-company-contact-from-a-customer-vendor-or-bank-account"></a>Créer un contact société à partir d'un client, d'un fournisseur ou d'un compte bancaire
+## <a name="to-create-a-company-contact-from-a-customer-vendor-or-bank-account"></a>Pour créer un contact société à partir d'un client, d'un fournisseur ou d'un compte bancaire
 Si vous avez configuré plusieurs clients, fournisseurs et comptes bancaires, vous pouvez créer des contacts sur la base des données existantes. Lorsque vous créez un contact de cette façon, les informations de contact sont synchronisées avec les informations du client, du fournisseur ou du compte bancaire.
 
-**Remarque** : avant de créer des sociétés contact de cette manière, vous devez spécifier un code relation d'affaires pour les clients, les fournisseurs, ainsi que des comptes bancaires dans la fenêtre **Paramètres marketing**. Si vous devez créer des contacts à partir de comptes bancaires, vous devez également spécifier des souches de numéros pour les comptes bancaires dans la fenêtre **Paramètres comptabilité**.
+> [!NOTE]  
+>   Avant de créer des sociétés contact de cette manière, vous devez spécifier un code relation d'affaires pour les clients, les fournisseurs, ainsi que des comptes bancaires dans la fenêtre **Paramètres marketing**. Si vous devez créer des contacts à partir de comptes bancaires, vous devez également spécifier des souches de numéros pour les comptes bancaires dans la fenêtre **Paramètres comptabilité**.
 
-1. Dans le coin supérieur droit, sélectionnez l'icône **Page ou état pour la recherche** ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez l'un des choix suivants, selon l'élément à partir duquel vous souhaitez créer des contacts, puis sélectionnez le lien associé.
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez l'un des choix suivants, selon l'élément à partir duquel vous souhaitez créer des contacts, puis sélectionnez le lien connexe.
    * **Créer contacts à partir des clients**
    * **Créer contacts à partir des fournisseurs**
    * **Créer contacts à partir des cptes banc**
@@ -50,7 +51,8 @@ Si vous avez configuré plusieurs clients, fournisseurs et comptes bancaires, vo
 
     Les numéros de contact suivants de la souche de numéros sont affectés aux nouveaux contacts. La relation d'affaires des fournisseurs qui est spécifiée dans la fenêtre **Paramètres Marketing** est affectée aux contacts nouvellement créés.
 
-**Conseil** :vous pouvez également créer un client, un fournisseur ou un compte bancaire à partir d'un contact. Pour plus d'informations, reportez-vous à [Créer un client, un fournisseur ou un compte bancaire à partir d'un contact](marketing-how-create-contacts-new-customers-vendors-bank-accounts.md).
+> [!TIP]  
+>   Vous pouvez également créer un client, un fournisseur ou un compte bancaire à partir d'un contact. Pour plus d'informations, reportez-vous à [Créer un client, un fournisseur ou un compte bancaire à partir d'un contact](marketing-how-create-contacts-new-customers-vendors-bank-accounts.md).
 
 ## <a name="see-also"></a>Voir aussi
 [Synchronisation des contacts avec les clients, les fournisseurs et les comptes bancaires](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  

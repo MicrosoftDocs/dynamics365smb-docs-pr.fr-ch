@@ -1,6 +1,6 @@
 ---
-title: "Fonctionnalités marché | Microsoft Docs"
-description: "En savoir plus sur les fonctionnalités communes aux différents secteurs d&quot;activité dans Dynamics 365 for Financials"
+title: "Utilisation des Fonctionnalités communes aux différents secteurs d'activité | Microsoft Docs"
+description: "En savoir plus sur les fonctionnalités utilisées dans différents secteurs d'activité dans Dynamics 365 for Financials."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,10 +13,10 @@ ms.search.keywords: feature overview, functionality
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: ced9a91de3599b276c277ad96b513eb8e7f0553b
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 50205c6831d3ed7e419711484de4ac5da886fe5b
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -29,10 +29,10 @@ Le tableau suivant répertorie ces secteurs d'activité généraux avec des lien
 | --- | --- |
 | Affecter des codes d'identification uniques aux enregistrements, tels que les comptes généraux, les comptes client et fournisseur, les factures et les documents. Un système de numérotation bien conçu facilite également la gestion et l'analyse de la société et permet de réduire les erreurs de saisie des données. |[Création des souches de numéros](ui-create-number-series.md) |
 | Définir des codes texte standard de façon à étendre le texte standard en ajoutant des lignes supplémentaires et définir des conditions d'utilisation des lignes supplémentaires. |[Procédure : définir du texte étendu](ui-how-define-ext-text.md) |
-| Modifiez [!INCLUDE[d365fin](includes/d365fin_md.md)] en installant des extensions qui ajoutent des fonctionnalités, modifient le comportement de l'application, ou vous permettent d'accéder à de nouveaux services en ligne. |[Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide d'extensions](ui-extensions.md) |
+| Modifiez [!INCLUDE[d365fin](includes/d365fin_md.md)] en installant des extensions qui ajoutent des fonctionnalités, modifient le comportement de l'application, ou vous permettent d'accéder à de nouveaux services en ligne. |[Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md) |
 | Apprendre à utiliser Les feuilles comptabilité, qui permettent de valider dans les comptes généraux et d'autres comptes tels que les comptes bancaires, client, fournisseur et immobilisations. |[Gestion des feuilles comptabilité](ui-work-general-journals.md) |
 | Communiquer le contenu des documents commerciaux rapidement à vos partenaires commerciaux, comme les informations de paiement sur les documents vente aux clients. |[Procédure : envoyer des documents par e-mail](ui-how-send-documents-email.md) |
-| Ventiler une écriture d'une feuille comptabilité dans différents comptes lorsque vous validez la feuille. |[Procédure : utiliser les clés de ventilation dans les feuilles de comptabilité](ui-how-use-allocation-keys-general-journals.md) |
+| Ventiler une écriture d'une feuille comptabilité dans différents comptes lorsque vous validez la feuille. |[Procédure : ventiler des coûts et des bénéfices](year-allocate-costs-income.md) |
 | Planifier un état à exécuter à une date et une heure spécifiques. |[Planifier un état à exécuter](ui-schedule-report.md) |
 | Gérer les différents types de présentations d'état. |[Gestion des présentations de rapport](ui-manage-report-layouts.md) |
 | Demander et accorder l'approbation pour créer ou modifier certains documents et fiches. |[Utilisation des flux d'approbation](across-how-use-approval-workflows.md) |

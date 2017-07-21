@@ -1,6 +1,6 @@
 ---
-title: "Gestion des opportunités de vente | Microsoft Docs"
-description: "Décrit la gestion des opportunités de vente dans Financials"
+title: "Gérer les opportunités de vente et les prospects| Microsoft Docs"
+description: "Décrit la gestion d'un prospect ou d'une opportunité de ventes entrant dans Financials, et l'association de l'opportunité à un vendeur pour effectuer le suivi des ventes potentielles."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 7f5ca868556074bc0054c5efb4275daca39e2e6a
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 11de49ec0ffc1ff847839a913fbe538930145221
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---

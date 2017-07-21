@@ -1,6 +1,6 @@
 ---
-title: Synchronisation des contacts avec les clients, les fournisseurs et les comptes bancaires | Microsoft Docs
-description: "Décrit la synchronisation des contacts avec les clients, les fournisseurs et les comptes bancaires dans Financials"
+title: Synchronisation de contacts avec des clients et des fournisseurs| Microsoft Docs
+description: "Vous couplez ou synchronisez les coordonnées des contacts qui sont également des clients, des fournisseurs, ou des comptes bancaires, afin de mettre uniquement à jour les informations à un emplacement."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, CRM, integration, couple
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: b28cd00659b077403e3174ac69c32ad5d9a8bf83
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: dbb29d9d53618eec69817455d4304da2a6bfe466
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -42,7 +42,8 @@ Lorsque le contact est synchronisé avec le client, le fournisseur ou le compte 
 * Si vous supprimez un contact lié à un client, un fournisseur ou un compte bancaire, seule le contact est effacé. Le client, le fournisseur ou le bancaire est conservé.
 * Si vous supprimez un client, un fournisseur ou un compte bancaire lié à un contact, le contact est conservé.
 
-**Remarque** : certaines informations, par exemple concernant la facturation et la validation, n'apparaissent pas sur la fiche contact. Par conséquent, vous pouvez les ajouter manuellement sur la fiche client, la fiche fournisseur ou la fiche compte bancaire lorsque vous créez des contacts en tant que clients, fournisseurs ou comptes bancaires.
+> [!NOTE]  
+>   Certaines informations, par exemple concernant la facturation et la validation, n'apparaissent pas sur la fiche contact. Par conséquent, vous pouvez les ajouter manuellement sur la fiche client, la fiche fournisseur ou la fiche compte bancaire lorsque vous créez des contacts en tant que clients, fournisseurs ou comptes bancaires.
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion de contacts](marketing-contacts.md)  

@@ -1,6 +1,6 @@
 ---
-title: Utilisation de Dynamics 365 for Financials dans Microsoft Flow | Microsoft Docs
-description: "Vous pouvez rendre vos données financières disponibles sous forme de source de données dans Power Apps."
+title: "Connecter vos données avec Flow| Microsoft Docs"
+description: "Vous pouvez rendre vos données Financials disponibles sous forme de données sources et spécifier une URL OData de vos services Web pour générer un flux de travail automatisé."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -9,20 +9,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: workflow, Odata, Power App, SOAP
-ms.date: 03/15/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 76d24ed80adb08083c6167040be8cc6a4bcc3167
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 277dda7c954380138af1ecabc02d77121f35aac7
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="using-dynamics-365-for-financials-in-microsoft-flow"></a>Utilisation de Dynamics 365 for Financials dans Microsoft Flow
+# <a name="using-included365finincludesd365finmdmd-in-an-automated-workflow"></a>Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] dans un flux automatisé
 Vous pouvez utiliser vos données [!INCLUDE[d365fin](includes/d365fin_md.md)] en tant que partie du flux de travail dans Microsoft Flow.  
 
-**Remarque** : Vous devez disposer d'un compte valide avec [!INCLUDE[d365fin](includes/d365fin_md.md)] et avec Flow.  
+> [!NOTE]  
+>   Vous devez disposer d'un compte valide avec [!INCLUDE[d365fin](includes/d365fin_md.md)] et avec Flow.  
 
 ## <a name="to-add-included365finincludesd365finmdmd-as-a-data-source-in-flow"></a>Pour ajouter [!INCLUDE[d365fin](includes/d365fin_md.md)] comme source de données dans Flow
 1. Dans votre navigateur, accédez à [flow.microsoft.com](https://flow.microsoft.com/en-us/), puis connectez-vous.
@@ -47,8 +48,8 @@ Vous pouvez utiliser vos données [!INCLUDE[d365fin](includes/d365fin_md.md)] en
 
 ## <a name="see-also"></a>Voir aussi
 [Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Importation de données métier à partir d'autres systèmes financiers](upload-data.md)  
+[Importation des données métier à partir d'autres systèmes financiers](upload-data.md)  
 [Procédure : gérer les utilisateurs et les autorisations](ui-how-users-permissions.md)    
-[Configuration [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
-[Finance](finance.md)  
+[Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+[Finances](finance.md)  
 

@@ -1,6 +1,6 @@
 ---
 title: Bienvenue | Microsoft Docs
-description: "Se préparer aux activités commerciales."
+description: "Décrit les guides de configuration assistée, les vidéos, les rubriques d'aide, et les pages et fenêtres à utiliser pour vous préparer à faire des affaires dans Dynamics 365 for Financials."
 documentationcenter: 
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
@@ -12,10 +12,10 @@ ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 03/21/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: fe2a7eb24acf0830a8ebaadafa695e7a34023198
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 9e13c2a994ecf4805f585df9c55199f041e80950
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 ---
 # <a name="getting-ready-for-doing-business"></a>Préparation aux activités commerciales
@@ -23,9 +23,10 @@ Félicitations, vous venez de créer votre première société dans [!INCLUDE[d3
 
 Pour vous aider à vous préparer pour vos activités commerciales, vous pouvez visiter la fenêtre **Assistance professionnelle** dans laquelle vous pouvez lancer des guides de configuration assistée, des vidéos ou des rubriques d'aide pour les tâches de configuration sélectionnées. Vous pouvez accéder à la fenêtre à partir du graphique du tableau de bord **Gestionnaire d'activité** en choisissant la liste déroulante **Assistance professionnelle** et en cliquant sur **Afficher les paramètres et ressources d'aide**. Lorsque vous actualisez la page, le graphique est remplacé par les paramètres et les ressources d'aide.
 
-Dans la page d'accueil, au bas du volet de navigation, vous trouverez le menu **Configuration et extensions**. Développez le bouton **Accueil** pour afficher le volet de navigation. Vous avez alors accès à une liste de configurations assistées pour vous aider à démarrer. Une fois que vous avez effectué la migration des données telles que les fournisseurs, les clients et les articles de votre système financier existant, vous êtes prêt à commencer. Mais en fonction de vos besoins, demandez-vous si l'autre configuration assistée peut vous aider. Si une zone n'est pas couverte par une configuration assistée, sélectionnez l'option **Programme d'installation manuelle** pour accéder aux fenêtres de paramétrage dans lesquelles vous pouvez renseigner les champs de configuration pour toutes les zones manuellement. Pour plus d'informations sur le paramétrage de clients, voir également [Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
+Dans la page d'accueil, au bas du volet de navigation, vous trouverez le menu **Configuration et extensions**. Développez le bouton **Accueil** pour afficher le volet de navigation. Vous avez alors accès à une liste de configurations assistées pour vous aider à démarrer. Une fois que vous avez effectué la migration des données telles que les fournisseurs, les clients et les articles de votre système financier existant, vous êtes prêt à commencer. Mais en fonction de vos besoins, demandez-vous si l'autre configuration assistée peut vous aider. Si une zone n'est pas couverte par une configuration assistée, sélectionnez l'option **Programme d'installation manuelle** pour accéder aux fenêtres de paramétrage dans lesquelles vous pouvez renseigner les champs de configuration pour toutes les zones manuellement. Pour plus d'informations, reportez-vous à [Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
-**Remarque :** la liste des guides de configuration, des extensions et des services disponibles diffèrent selon l'expérience de l'utilisateur que vous choisissez pour votre société. L'expérience **Basique** donne accès à moins d'options que l'expérience **Suite**. La première fois que vous vous connectez, vous utilisez l'expérience Basique. Pour plus d'informations, voir [Personnalisation de votre expérience [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
+> [!NOTE]  
+>   La liste des guides de configuration, des extensions et des services disponibles diffèrent selon l'expérience de l'utilisateur que vous choisissez pour votre société. L'expérience **Basique** donne accès à moins d'options que l'expérience **Suite**. La première fois que vous vous connectez, vous utilisez l'expérience Basique. Pour plus d'informations, voir [Personnalisation de votre expérience [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
 
 Dans la fenêtre **Configuration assistée**, vous découvrirez l'expérience **Basique** :
 

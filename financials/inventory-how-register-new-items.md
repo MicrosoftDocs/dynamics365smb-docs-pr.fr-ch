@@ -1,6 +1,6 @@
 ---
-title: "Procédure : enregistrer de nouveaux articles| Microsoft Docs"
-description: "Créez des fiches pour les nouveaux produits physiques que vous vendez à partir du stock en pièces, ou pour les services que vous vendez sous formes d&quot;heures."
+title: "Créer des fiches article pour des biens ou des services| Microsoft Docs"
+description: "Vous créez des fiches article pour les services que vous vendez en heures et pour les marchandises physiques, comme les éléments d'assemblage, les produits finis, les composants, ou les matières premières que vous vendez de votre stock."
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 582e006291e51e19d80304d24ae055ce6ac8d698
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 719e11f2c8fee3d7e5dd3736754700b68f57379c
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -28,7 +28,8 @@ La fiche article peut être de type **Stock** ou **Service** pour spécifier si 
 
 Un article peut être structuré comme article parent avec les éléments enfants sous-jacents dans une nomenclature. Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], une nomenclature est appelée une nomenclature d'assemblage. Les nomenclatures d'assemblage permettent de structurer les articles parents que vous vendez sous forme de kits constitués des composants du parent ou que vous assemblez pour commande ou stock. Pour plus d'informations, reportez-vous à [Procédure : utiliser les nomenclatures](inventory-how-work-BOMs.md).
 
-**Remarque** : si des modèles article existent pour différents types d'articles, une fenêtre s'affiche automatiquement lorsque vous créez une nouvelle fiche article à partir de laquelle vous pouvez sélectionner un modèle article approprié. Si un seul modèle article existe, les nouvelles fiches article utiliseront toujours ce modèle.
+> [!NOTE]  
+>   Si des modèles article existent pour différents types d'articles, une fenêtre s'affiche automatiquement lorsque vous créez une nouvelle fiche article à partir de laquelle vous pouvez sélectionner un modèle article approprié. Si un seul modèle article existe, les nouvelles fiches article utiliseront toujours ce modèle.
 
 ## <a name="to-create-a-new-item-card"></a>Pour créer une fiche article
 1. Sur la page d'accueil, sélectionnez l'action **Articles** pour ouvrir la liste des article existants.  
@@ -48,7 +49,7 @@ Si vous souhaitez utiliser cette fiche article comme modèle lorsque vous créez
 ## <a name="to-save-the-item-card-as-a-template"></a>Pour enregistrer la fiche article en tant que modèle
 1. Dans la fenêtre **Fiche article**, sélectionnez l'action **Sauvegarder comme modèle**. La fenêtre **Modèle article** s'ouvre et affiche la fiche article comme modèle.
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Pour réutiliser les axes analytiques dans les modèles **, sélectionnez l'action **Axes analytiques**. La fenêtre **Modèles axe** s'ouvre et affiche tous les codes axe qui sont définis pour l'article.
+3. Pour réutiliser les axes analytiques dans les modèles, sélectionnez l'action **Axes analytiques**. La fenêtre **Modèles axe** s'ouvre et affiche tous les codes axe qui sont définis pour l'article.
 4. Modifiez ou entrez les codes axe s'appliquant aux nouvelles fiches article créées à l'aide du modèle.
 5. Lorsque vous avez terminé le nouveau modèle article, cliquez sur le bouton **OK**.
 

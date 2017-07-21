@@ -1,6 +1,6 @@
 ---
-title: "Procédure : gérer les budgets de projets| Microsoft Docs"
-description: "Décrit comment gérer les budgets pour les projets."
+title: "Paramétrer et gérer un budget pour un projet| Microsoft Docs"
+description: "Décrit comment planifier des ressources et prévoir et contrôler les coûts d'un projet en définissant un budget pour chaque projet."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project budget, forecast
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 9a351b581e0312d21b04db43a85243b8a5afb0e3
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 0e480c67ddb2acd5e98799c98cb1cd9d972889df
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -28,7 +28,7 @@ La procédure suivante décrit comment estimer les coûts budgétés lors de la 
 ## <a name="JobBudgetCosts"></a> Pour estimer les coûts budgétés d'un projet
 Lorsqu'un client souhaite connaître le prix d'un projet qui sera facturé en fonction de l'activité, vous devez déterminer les coûts budgétés du projet. Réalisez cette opération dans la fenêtre **Lignes tâche projet**.
 
-1. Dans le coin supérieur droit, sélectionnez l'icône **Page ou état pour la recherche** ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Projets**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Projets**, puis choisissez le lien associé.  
 2. Ouvrez le projet approprié.
 3. Sélectionnez une ligne tâche de type Validation, puis cliquez sur **Lignes planning projet**.
 4. Sur une nouvelle ligne, renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]   
@@ -41,9 +41,11 @@ Reportez-vous aux informations suivantes pour le champ **Type ligne**.
 | **Budget** |Le client ne doit pas payer l'utilisation. L'activité n'est pas transférée à une facture, mais sera encore utilisée dans le calcul de TEC. |
 | **Facturable** |Le client doit payer l'utilisation. L'utilisation est transférée à la facture, sur la base de la quantité spécifiée dans le champ Qté. à transférer à facturer. |
 
-**Remarque** : Le champ **Date planning** de la ligne planning contient la date prévue de l'achèvement et de la validation de l'activité associée à cette ligne planning. C'est aussi la date à laquelle la ligne planning peut être transférée à une facture vente et être validée.  
+> [!NOTE]  
+>   Le champ **Date planning** de la ligne planning contient la date prévue de l'achèvement et de la validation de l'activité associée à cette ligne planning. C'est aussi la date à laquelle la ligne planning peut être transférée à une facture vente et être validée.  
 
-**Remarque** : Quand vous renseignez le champ **Quantité**, toutes les informations prix total et coût total seront désormais calculées et renseignées pour cette ligne planning. Vous pouvez modifier ces informations à tout moment.
+> [!NOTE]  
+>   Quand vous renseignez le champ **Quantité**, toutes les informations prix total et coût total seront désormais calculées et renseignées pour cette ligne planning. Vous pouvez modifier ces informations à tout moment.
 
 Dans la fenêtre **Fiche projet**, vous pouvez désormais voir un résumé des coûts budgétés totaux, des prix budgétés, du coût facturable et du prix facturable pour chaque tâche.
 
@@ -51,7 +53,7 @@ Pour plus d'informations sur l'enregistrement budgété par rapport aux prix et 
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion de projets](projects-manage-projects.md)  
-[Finance](finance.md)  
+[Finances](finance.md)  
 [Achats](purchasing-manage-purchasing.md)         
 [Ventes](sales-manage-sales.md)      
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
