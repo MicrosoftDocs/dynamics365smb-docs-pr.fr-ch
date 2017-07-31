@@ -18,7 +18,6 @@ ms.openlocfilehash: 568bd66c201764cae45ea12a900ea12eabbf0546
 ms.contentlocale: fr-ch
 ms.lasthandoff: 07/07/2017
 
-
 ---
 # <a name="how-to-reconcile-customer-payments-manually"></a>Procédure : rapprocher les paiements client manuellement
 Lorsque vous recevez le règlement d'un client ou que vous effectuez un remboursement, vous devez décider si vous souhaitez lettrer le paiement ou le remboursement pour clôturer une ou plusieurs écritures débit ou crédit. Vous pouvez indiquer le montant que vous souhaitez appliquer. Par exemple, vous pouvez appliquer des paiements partiels aux écritures comptables client. La clôture des écritures comptables client permet de garantir que des informations telles que les statistiques clients, les relevés bancaires et les intérêts de retard sont corrects.
