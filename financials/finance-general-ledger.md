@@ -16,53 +16,52 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 06becfd7e54803fea925e8364719576bef0a8bab
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="understanding-the-general-ledger-and-the-coa"></a>Familiarisation avec les écritures comptables et les COA
-Les écritures comptables stockent vos données financières, et le plan comptable affiche les comptes sur lesquels toutes les écritures comptables sont validées. [!INCLUDE[d365fin](includes/d365fin_md.md)] inclut un plan comptable standard prêt à prendre en charge votre société.
+# <a name="understanding-the-general-ledger-and-the-coa"></a><span data-ttu-id="74206-103">Familiarisation avec les écritures comptables et les COA</span><span class="sxs-lookup"><span data-stu-id="74206-103">Understanding the General Ledger and the COA</span></span>
+<span data-ttu-id="74206-104">Les écritures comptables stockent vos données financières, et le plan comptable affiche les comptes sur lesquels toutes les écritures comptables sont validées.</span><span class="sxs-lookup"><span data-stu-id="74206-104">The general ledger stores your financial data, and the chart of accounts shows the accounts that all general ledger entries are posted to.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="74206-105"> inclut un plan comptable standard prêt à prendre en charge votre société.</span><span class="sxs-lookup"><span data-stu-id="74206-105"> includes a standard chart of accounts that is ready to support your business.</span></span>
 
-## <a name="general-ledger-setup-and-general-posting-setup"></a>Configuration des écritures comptable et configuration de la comptabilisation
-La configuration des écritures comptables est le composant principal des processus financiers car elle définit comment vous validez les données.  
+## <a name="general-ledger-setup-and-general-posting-setup"></a><span data-ttu-id="74206-106">Configuration des écritures comptable et configuration de la comptabilisation</span><span class="sxs-lookup"><span data-stu-id="74206-106">General Ledger Setup and General Posting Setup</span></span>
+<span data-ttu-id="74206-107">La configuration des écritures comptables est le composant principal des processus financiers car elle définit comment vous validez les données.</span><span class="sxs-lookup"><span data-stu-id="74206-107">The setup of the general ledger is at the core of financial processes because it defines how you post data.</span></span>  
 
-Dans la fenêtre **Paramètres comptabilité**, vous spécifiez comment gérer certains problèmes comptables dans votre société, par exemple :  
+<span data-ttu-id="74206-108">Dans la fenêtre **Paramètres comptabilité**, vous spécifiez comment gérer certains problèmes comptables dans votre société, par exemple :</span><span class="sxs-lookup"><span data-stu-id="74206-108">In the **General Ledger Setup** window, you specify how to handle certain accounting issues in your company, such as:</span></span>  
 
-* Les détails arrondi facture  
-* Les formats d'adresse  
-* Les états financiers  
+* <span data-ttu-id="74206-109">Les détails arrondi facture</span><span class="sxs-lookup"><span data-stu-id="74206-109">Invoice rounding details</span></span>  
+* <span data-ttu-id="74206-110">Les formats d'adresse</span><span class="sxs-lookup"><span data-stu-id="74206-110">Address formats</span></span>  
+* <span data-ttu-id="74206-111">Les états financiers</span><span class="sxs-lookup"><span data-stu-id="74206-111">Financial reporting</span></span>  
 
-De même, dans la fenêtre **Paramètres comptabilisation**, vous spécifiez comment vous souhaitez configurer les combinaisons de groupes généraux comptabilisation marché et de groupes généraux comptabilisation produit. Les groupes comptabilisation mappent des entités telles que les clients, les fournisseurs, les éléments, les ressources et les documents vente et achat dans des comptes généraux. Saisissez une ligne pour chaque combinaison de groupes comptabilisation marché et de groupes comptabilisation produit. Pour plus d'informations, voir [Paramètres du groupe comptabilisation](finance-posting-groups.md)  
+<span data-ttu-id="74206-112">De même, dans la fenêtre **Paramètres comptabilisation**, vous spécifiez comment vous souhaitez configurer les combinaisons de groupes généraux comptabilisation marché et de groupes généraux comptabilisation produit.</span><span class="sxs-lookup"><span data-stu-id="74206-112">Similarly, in the **General Posting Setup** window, you specify how you want to set up combinations of general business and general product posting groups.</span></span> <span data-ttu-id="74206-113">Les groupes comptabilisation mappent des entités telles que les clients, les fournisseurs, les éléments, les ressources et les documents vente et achat dans des comptes généraux.</span><span class="sxs-lookup"><span data-stu-id="74206-113">Posting groups map entities like customers, vendors, items, resources, and sales and purchase documents to general ledger accounts.</span></span> <span data-ttu-id="74206-114">Saisissez une ligne pour chaque combinaison de groupes comptabilisation marché et de groupes comptabilisation produit.</span><span class="sxs-lookup"><span data-stu-id="74206-114">You fill in a line for each combination of business posting group and product posting group.</span></span> <span data-ttu-id="74206-115">Pour plus d'informations, voir [Paramètres du groupe comptabilisation](finance-posting-groups.md)</span><span class="sxs-lookup"><span data-stu-id="74206-115">For more information, see [Posting Group Setups](finance-posting-groups.md)</span></span>  
 
-## <a name="the-chart-of-accounts"></a>Le plan comptable
-Le plan comptable affiche tous les comptes généraux. Vous pouvez effectuer les opérations suivantes à partir du plan comptable :  
+## <a name="the-chart-of-accounts"></a><span data-ttu-id="74206-116">Le plan comptable</span><span class="sxs-lookup"><span data-stu-id="74206-116">The Chart of Accounts</span></span>
+<span data-ttu-id="74206-117">Le plan comptable affiche tous les comptes généraux.</span><span class="sxs-lookup"><span data-stu-id="74206-117">The chart of accounts shows all general ledger accounts.</span></span> <span data-ttu-id="74206-118">Vous pouvez effectuer les opérations suivantes à partir du plan comptable :</span><span class="sxs-lookup"><span data-stu-id="74206-118">From the chart of accounts, you can do things like:</span></span>  
 
-* Afficher les états qui affichent les écritures comptables et les soldes.  
-* Clôturer votre exercice comptable.  
-* Ouvrir la fiche compte général pour ajouter ou modifier des paramètres.  
-* Consulter la liste des groupes comptabilisation qui effectuent les validations vers ce compte.  
+* <span data-ttu-id="74206-119">Afficher les états qui affichent les écritures comptables et les soldes.</span><span class="sxs-lookup"><span data-stu-id="74206-119">View reports that show general ledger entries and balances.</span></span>  
+* <span data-ttu-id="74206-120">Clôturer votre exercice comptable.</span><span class="sxs-lookup"><span data-stu-id="74206-120">Close your income statement.</span></span>  
+* <span data-ttu-id="74206-121">Ouvrir la fiche compte général pour ajouter ou modifier des paramètres.</span><span class="sxs-lookup"><span data-stu-id="74206-121">Open the G/L account card to add or change settings.</span></span>  
+* <span data-ttu-id="74206-122">Consulter la liste des groupes comptabilisation qui effectuent les validations vers ce compte.</span><span class="sxs-lookup"><span data-stu-id="74206-122">See a list of posting groups that post to that account.</span></span>  
 
-Vous pouvez ajouter, modifier ou supprimer des comptes généraux. Toutefois, pour éviter les différences, vous ne pouvez pas supprimer un compte général si ses données sont utilisées dans le plan comptable.  
+<span data-ttu-id="74206-123">Vous pouvez ajouter, modifier ou supprimer des comptes généraux.</span><span class="sxs-lookup"><span data-stu-id="74206-123">You can add, change, or delete general ledger accounts.</span></span> <span data-ttu-id="74206-124">Toutefois, pour éviter les différences, vous ne pouvez pas supprimer un compte général si ses données sont utilisées dans le plan comptable.</span><span class="sxs-lookup"><span data-stu-id="74206-124">However, to prevent discrepancies, you can't delete a general ledger account if it's data is used in the chart of accounts.</span></span>  
 
-## <a name="account-categories"></a>Catégories de compte
-Vous pouvez personnaliser la structure de vos états financiers en mappant les comptes généraux aux catégories de comptes.  
+## <a name="account-categories"></a><span data-ttu-id="74206-125">Catégories de compte</span><span class="sxs-lookup"><span data-stu-id="74206-125">Account Categories</span></span>
+<span data-ttu-id="74206-126">Vous pouvez personnaliser la structure de vos états financiers en mappant les comptes généraux aux catégories de comptes.</span><span class="sxs-lookup"><span data-stu-id="74206-126">You can personalize the structure of your financial statements by mapping general ledger accounts to account categories.</span></span>  
 
-La fenêtre **Catégories de compte général** affiche vos catégories et sous-catégories et les comptes généraux que leurs sont affectés. Vous pouvez créer des sous-catégories et affecter ces catégories à des comptes existants.  
+<span data-ttu-id="74206-127">La fenêtre **Catégories de compte général** affiche vos catégories et sous-catégories et les comptes généraux que leurs sont affectés.</span><span class="sxs-lookup"><span data-stu-id="74206-127">The **G/L Account Categories** window shows your categories and subcategories, and the G/L accounts that are assigned to them.</span></span> <span data-ttu-id="74206-128">Vous pouvez créer des sous-catégories et affecter ces catégories à des comptes existants.</span><span class="sxs-lookup"><span data-stu-id="74206-128">You can create new subcategories and assign those categories to existing accounts.</span></span>  
 
-Vous créez un groupe des catégories en effectuant une indentation d'autres sous-catégories sous une ligne de la fenêtre **Catégories de compte général**. Cela vous facilite l'obtention d'une vue d'ensemble, car chaque groupement affiche un solde final. Par exemple, vous pouvez créer des sous-catégories pour différents types d'actifs puis créer des groupes des catégories pour différencier les immobilisations des actifs à court terme, par exemple.  
+<span data-ttu-id="74206-129">Vous créez un groupe des catégories en effectuant une indentation d'autres sous-catégories sous une ligne de la fenêtre **Catégories de compte général**.</span><span class="sxs-lookup"><span data-stu-id="74206-129">You create a category group by indenting other subcategories under a line in the **G/L Account Categories** window.</span></span> <span data-ttu-id="74206-130">Cela vous facilite l'obtention d'une vue d'ensemble, car chaque groupement affiche un solde final.</span><span class="sxs-lookup"><span data-stu-id="74206-130">This makes it easy for you to get an overview, because each grouping shows a total balance.</span></span> <span data-ttu-id="74206-131">Par exemple, vous pouvez créer des sous-catégories pour différents types d'actifs puis créer des groupes des catégories pour différencier les immobilisations des actifs à court terme, par exemple.</span><span class="sxs-lookup"><span data-stu-id="74206-131">For example, you can create subcategories for different types of assets, and then create category groups for fixed assets versus current assets.</span></span>  
 
-Vous pouvez spécifier si les comptes de chaque sous-catégorie doivent être inclus dans des types spécifiques d'états. Les catégories de compte vous aident à définir la présentation de vos états financiers.  
+<span data-ttu-id="74206-132">Vous pouvez spécifier si les comptes de chaque sous-catégorie doivent être inclus dans des types spécifiques d'états.</span><span class="sxs-lookup"><span data-stu-id="74206-132">You can specify whether the accounts in each subcategory must be included in specific types of reports.</span></span> <span data-ttu-id="74206-133">Les catégories de compte vous aident à définir la présentation de vos états financiers.</span><span class="sxs-lookup"><span data-stu-id="74206-133">The account categories help define the layout of your financial statements.</span></span>  
 
-Par exemple, le solde relevé par défaut solde est doté d'une sous-catégorie pour la trésorerie dans Actifs à court terme. Si vous souhaitez que le solde relevé tienne compte du fonds de caisse et du compte chèque, vous pouvez :  
+<span data-ttu-id="74206-134">Par exemple, le solde relevé par défaut solde est doté d'une sous-catégorie pour la trésorerie dans Actifs à court terme.</span><span class="sxs-lookup"><span data-stu-id="74206-134">For example, the default balance statement has a subcategory for Cash under Current Assets.</span></span> <span data-ttu-id="74206-135">Si vous souhaitez que le solde relevé tienne compte du fonds de caisse et du compte chèque, vous pouvez :</span><span class="sxs-lookup"><span data-stu-id="74206-135">If you want the balance statement consider petty cash and checking, you can:</span></span>  
 
-1. Ajouter deux nouvelles sous-catégories. Une pour le fonds de caisse, et l'autre pour le compte chèque.  
-2. Spécifier la définition d'état supplémentaire **Comptes de trésorerie** pour ces sous-catégories.  
-3. Effectuer une indentation sous la sous-catégorie **Trésorerie**.  
+1. <span data-ttu-id="74206-136">Ajouter deux nouvelles sous-catégories.</span><span class="sxs-lookup"><span data-stu-id="74206-136">Add two new subcategories.</span></span> <span data-ttu-id="74206-137">Une pour le fonds de caisse, et l'autre pour le compte chèque.</span><span class="sxs-lookup"><span data-stu-id="74206-137">One for petty cash, and one for your checking account.</span></span>  
+2. <span data-ttu-id="74206-138">Spécifier la définition d'état supplémentaire **Comptes de trésorerie** pour ces sous-catégories.</span><span class="sxs-lookup"><span data-stu-id="74206-138">Specify the additional report definition **Cash Accounts** for these subcategories.</span></span>  
+3. <span data-ttu-id="74206-139">Effectuer une indentation sous la sous-catégorie **Trésorerie**.</span><span class="sxs-lookup"><span data-stu-id="74206-139">Indent them under the **Cash** subcategory.</span></span>  
 
-À la prochaine génération des tableaux d'analyse, votre relevé solde suivant affichera un solde final pour la trésorerie et deux lignes avec les soldes pour le fonds de caisse et le compte chèque.  
+<span data-ttu-id="74206-140">À la prochaine génération des tableaux d'analyse, votre relevé solde suivant affichera un solde final pour la trésorerie et deux lignes avec les soldes pour le fonds de caisse et le compte chèque.</span><span class="sxs-lookup"><span data-stu-id="74206-140">The next time you generate account schedules your balance statement will show a total balance for cash and two lines with balances for petty cash and the checking account.</span></span>  
 
-## <a name="see-also"></a>Voir aussi
-[Finances](finance.md)  
-[Configuration ou modification du plan comptable](finance-setup-chart-accounts.md)  
-[Veille économique](bi.md)  
+## <a name="see-also"></a><span data-ttu-id="74206-141">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="74206-141">See Also</span></span>
+[<span data-ttu-id="74206-142">Finances</span><span class="sxs-lookup"><span data-stu-id="74206-142">Finance</span></span>](finance.md)  
+[<span data-ttu-id="74206-143">Configuration ou modification du plan comptable</span><span class="sxs-lookup"><span data-stu-id="74206-143">Setting Up or Changing the Chart of Accounts</span></span>](finance-setup-chart-accounts.md)  
+[<span data-ttu-id="74206-144">Veille économique</span><span class="sxs-lookup"><span data-stu-id="74206-144">Business Intelligence</span></span>](bi.md)  
 

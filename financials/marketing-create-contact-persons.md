@@ -16,31 +16,30 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 7ce0a022520b161fd0159fceb1cc1ecd3d14f4ec
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="creating-contact-persons"></a>Création de personnes contact
-Vous créez un contact en configurant une fiche contact pour la personne. Vous pouvez créer des personnes contact à partir de sociétés contact existantes ou des personnes contact indépendantes.
+# <a name="creating-contact-persons"></a><span data-ttu-id="89e5d-103">Création de personnes contact</span><span class="sxs-lookup"><span data-stu-id="89e5d-103">Creating Contact Persons</span></span>
+<span data-ttu-id="89e5d-104">Vous créez un contact en configurant une fiche contact pour la personne.</span><span class="sxs-lookup"><span data-stu-id="89e5d-104">You create a contact by setting up a contact card for the person.</span></span> <span data-ttu-id="89e5d-105">Vous pouvez créer des personnes contact à partir de sociétés contact existantes ou des personnes contact indépendantes.</span><span class="sxs-lookup"><span data-stu-id="89e5d-105">You can create contact persons from existing contact companies, or you can create independent contact persons.</span></span>
 
-Par exemple, suite à une réunion avec une société prospect, vous rencontrez l'acheteur. Vous pouvez créer une fiche contact pour cette personne afin que la communication puisse être personnalisée.
+<span data-ttu-id="89e5d-106">Par exemple, suite à une réunion avec une société prospect, vous rencontrez l'acheteur.</span><span class="sxs-lookup"><span data-stu-id="89e5d-106">For example, after meeting with a prospective company, you meet the purchaser.</span></span> <span data-ttu-id="89e5d-107">Vous pouvez créer une fiche contact pour cette personne afin que la communication puisse être personnalisée.</span><span class="sxs-lookup"><span data-stu-id="89e5d-107">You can create a contact card for this person so communication can be more tailored.</span></span>
 
-Vous pourriez également être amené à traduire certaines publications relatives à vos produits, et par conséquent à choisir un traducteur freelance. Vous devez enregistrer ce contact comme personne contact indépendante.
+<span data-ttu-id="89e5d-108">Vous pourriez également être amené à traduire certaines publications relatives à vos produits, et par conséquent à choisir un traducteur freelance.</span><span class="sxs-lookup"><span data-stu-id="89e5d-108">You may also need some publications about your products translated and after some research decide on a freelance translator.</span></span> <span data-ttu-id="89e5d-109">Vous devez enregistrer ce contact comme personne contact indépendante.</span><span class="sxs-lookup"><span data-stu-id="89e5d-109">You should record this contact as an independent contact person.</span></span>
 
-L'enregistrement d'un maximum de détails sur une personne contact permet de s'assurer que tous les groupes de votre société peuvent trouver les informations appropriées.
+<span data-ttu-id="89e5d-110">L'enregistrement d'un maximum de détails sur une personne contact permet de s'assurer que tous les groupes de votre société peuvent trouver les informations appropriées.</span><span class="sxs-lookup"><span data-stu-id="89e5d-110">By recording as many details as possible about a contact person ensures that all groups at your company can find the relevant information.</span></span>
 
-Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent. Ces tâches sont répertoriées dans l'ordre de leur exécution en règle générale.
+<span data-ttu-id="89e5d-111">Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.</span><span class="sxs-lookup"><span data-stu-id="89e5d-111">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span> <span data-ttu-id="89e5d-112">Ces tâches sont répertoriées dans l'ordre de leur exécution en règle générale.</span><span class="sxs-lookup"><span data-stu-id="89e5d-112">These tasks are listed in the order in which they are generally performed.</span></span>
 
-| Pour | Voir |
+| <span data-ttu-id="89e5d-113">Pour</span><span class="sxs-lookup"><span data-stu-id="89e5d-113">To</span></span> | <span data-ttu-id="89e5d-114">Voir</span><span class="sxs-lookup"><span data-stu-id="89e5d-114">See</span></span> |
 | --- | --- |
-| Fournir des informations sur une personne contact. |[Procédure : créer des personnes contact](marketing-how-create-contact-persons.md) |
-| Configurer une adresse secondaire pour un contact. |[Procédure : affecter des adresses secondaires](marketing-how-assign-alternate-address.md) |
-| Décrire la relation d'affaires d'un contact société. |[Procédure : Configurer des responsabilités sur les contacts](marketing-job-responsibilities.md) |
-| Décrire le niveau hiérarchique de vos contacts. |[Procédure : Configurer des niveaux hiérarchiques pour les personnes contact](marketing-organizational-levels.md) |
-| Affecter des groupes de distribution à vos contacts |[Affecter des groupes de distribution à un contact](marketing-mailing-groups.md) |
+| <span data-ttu-id="89e5d-115">Fournir des informations sur une personne contact.</span><span class="sxs-lookup"><span data-stu-id="89e5d-115">Provide information about a contact person.</span></span> |[<span data-ttu-id="89e5d-116">Procédure : créer des personnes contact</span><span class="sxs-lookup"><span data-stu-id="89e5d-116">How to: Create Contact Persons</span></span>](marketing-how-create-contact-persons.md) |
+| <span data-ttu-id="89e5d-117">Configurer une adresse secondaire pour un contact.</span><span class="sxs-lookup"><span data-stu-id="89e5d-117">Set up an alternate address for a contact.</span></span> |[<span data-ttu-id="89e5d-118">Procédure : affecter des adresses secondaires</span><span class="sxs-lookup"><span data-stu-id="89e5d-118">How to: Assign Alternative Addresses</span></span>](marketing-how-assign-alternate-address.md) |
+| <span data-ttu-id="89e5d-119">Décrire la relation d'affaires d'un contact société.</span><span class="sxs-lookup"><span data-stu-id="89e5d-119">Describe the business relationship of a company contact.</span></span> |[<span data-ttu-id="89e5d-120">Procédure : Configurer des responsabilités sur les contacts</span><span class="sxs-lookup"><span data-stu-id="89e5d-120">How to: Set Up Job Responsibilities on Contacts</span></span>](marketing-job-responsibilities.md) |
+| <span data-ttu-id="89e5d-121">Décrire le niveau hiérarchique de vos contacts.</span><span class="sxs-lookup"><span data-stu-id="89e5d-121">Describe the organizational level of your contacts.</span></span> |[<span data-ttu-id="89e5d-122">Procédure : Configurer des niveaux hiérarchiques pour les personnes contact</span><span class="sxs-lookup"><span data-stu-id="89e5d-122">How to: Set Up Organizational Levels for Contact Persons</span></span>](marketing-organizational-levels.md) |
+| <span data-ttu-id="89e5d-123">Affecter des groupes de distribution à vos contacts</span><span class="sxs-lookup"><span data-stu-id="89e5d-123">Assign mailing groups your contacts</span></span> |[<span data-ttu-id="89e5d-124">Affecter des groupes de distribution à un contact</span><span class="sxs-lookup"><span data-stu-id="89e5d-124">Assigning Mailing Groups to a Contact</span></span>](marketing-mailing-groups.md) |
 
-## <a name="see-also"></a>Voir aussi
-[Création de sociétés contact](marketing-create-contact-companies.md)  
-[Création et gestion des contacts](marketing-create-contact-persons.md)  
-[Utilisation de Financials](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="89e5d-125">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="89e5d-125">See Also</span></span>
+[<span data-ttu-id="89e5d-126">Création de sociétés contact</span><span class="sxs-lookup"><span data-stu-id="89e5d-126">Creating Contact Companies</span></span>](marketing-create-contact-companies.md)  
+[<span data-ttu-id="89e5d-127">Création et gestion des contacts</span><span class="sxs-lookup"><span data-stu-id="89e5d-127">Creating and Managing Contacts</span></span>](marketing-create-contact-persons.md)  
+[<span data-ttu-id="89e5d-128">Utilisation de Financials</span><span class="sxs-lookup"><span data-stu-id="89e5d-128">Working with Financials</span></span>](ui-work-product.md)
 

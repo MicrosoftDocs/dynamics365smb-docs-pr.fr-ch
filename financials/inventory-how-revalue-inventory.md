@@ -16,28 +16,27 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 1935f53db068047921e44109cd4b23bbb51f0890
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-revalue-inventory"></a>Procédure : Réévaluer le stock
-Pour réévaluer ou amortir un article ou une écriture comptable article spécifique, vous devez utiliser la feuille réévaluation.
+# <a name="how-to-revalue-inventory"></a><span data-ttu-id="db31a-103">Procédure : Réévaluer le stock</span><span class="sxs-lookup"><span data-stu-id="db31a-103">How to: Revalue Inventory</span></span>
+<span data-ttu-id="db31a-104">Pour réévaluer ou amortir un article ou une écriture comptable article spécifique, vous devez utiliser la feuille réévaluation.</span><span class="sxs-lookup"><span data-stu-id="db31a-104">If you want to appreciate or depreciate an item or a specific item ledger entry, you must use the revaluation journal.</span></span>
 
-## <a name="to-revalue-inventory"></a>Pour réévaluer le stock
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Feuille réévaluation**, puis sélectionnez le lien connexe.
-2. Choisissez l'action **Calculer valeur stock**.
-3. Dans la fenêtre **Calculer valeur stock**, renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Cliquez sur le bouton **OK**.
-5. Sur chaque ligne de la fenêtre **Feuille réévaluation**, indiquez le nouveau coût unitaire dans le champ **Coût unitaire (réévalué)**. Vous pouvez aussi indiquer le nouveau montant total dans le champ **Valeur stock (réévaluée)**.
+## <a name="to-revalue-inventory"></a><span data-ttu-id="db31a-105">Pour réévaluer le stock</span><span class="sxs-lookup"><span data-stu-id="db31a-105">To revalue inventory</span></span>
+1. <span data-ttu-id="db31a-106">Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Feuille réévaluation**, puis sélectionnez le lien connexe.</span><span class="sxs-lookup"><span data-stu-id="db31a-106">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Revaluation Journal**, and then choose the related link.</span></span>
+2. <span data-ttu-id="db31a-107">Choisissez l'action **Calculer valeur stock**.</span><span class="sxs-lookup"><span data-stu-id="db31a-107">Choose the **Calculate Inventory Value** action.</span></span>
+3. <span data-ttu-id="db31a-108">Dans la fenêtre **Calculer valeur stock**, renseignez les champs selon vos besoins.</span><span class="sxs-lookup"><span data-stu-id="db31a-108">In the **Calculate Inventory Value** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. <span data-ttu-id="db31a-109">Cliquez sur le bouton **OK**.</span><span class="sxs-lookup"><span data-stu-id="db31a-109">Choose the **OK** button.</span></span>
+5. <span data-ttu-id="db31a-110">Sur chaque ligne de la fenêtre **Feuille réévaluation**, indiquez le nouveau coût unitaire dans le champ **Coût unitaire (réévalué)**.</span><span class="sxs-lookup"><span data-stu-id="db31a-110">On each line in the **Revaluation Journal** window, in the **Unit Cost (Revalued)** field, enter the new unit cost.</span></span> <span data-ttu-id="db31a-111">Vous pouvez aussi indiquer le nouveau montant total dans le champ **Valeur stock (réévaluée)**.</span><span class="sxs-lookup"><span data-stu-id="db31a-111">Alternatively, enter the new total amount in the **Inventory Value (Revalued)** field.</span></span>
 
-    Les champs appropriés sont automatiquement mis à jour. Remarque : le champ **Montant** affiche la modification réelle de la valeur du stock pour l'écriture comptable article sélectionnée. Il calcule la différence entre les champs **Valeur stock (calculée)** et **Valeur stock (réévaluée)**.
-6. Lorsque vous avez renseigné toutes les lignes de la feuille réévaluation, choisissez l'action **Valider**.
+    <span data-ttu-id="db31a-112">Les champs appropriés sont automatiquement mis à jour.</span><span class="sxs-lookup"><span data-stu-id="db31a-112">The relevant fields are automatically updated.</span></span> <span data-ttu-id="db31a-113">Remarque : le champ **Montant** affiche la modification réelle de la valeur du stock pour l'écriture comptable article sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="db31a-113">Note that the **Amount** field shows the actual change in inventory value for the selected item ledger entry.</span></span> <span data-ttu-id="db31a-114">Il calcule la différence entre les champs **Valeur stock (calculée)** et **Valeur stock (réévaluée)**.</span><span class="sxs-lookup"><span data-stu-id="db31a-114">It calculates the difference between the **Inventory Value (Calculated)** field and the **Inventory Value (Revalued)** field.</span></span>
+6. <span data-ttu-id="db31a-115">Lorsque vous avez renseigné toutes les lignes de la feuille réévaluation, choisissez l'action **Valider**.</span><span class="sxs-lookup"><span data-stu-id="db31a-115">When you have completed all lines in the revaluation journal, choose the **Post** action.</span></span>
 
-Les nouvelles écritures valeur sont alors créées pour refléter les réévaluations que vous avez validées. Vous pouvez visualiser les nouvelles valeurs dans les fiches article concernées.
+<span data-ttu-id="db31a-116">Les nouvelles écritures valeur sont alors créées pour refléter les réévaluations que vous avez validées.</span><span class="sxs-lookup"><span data-stu-id="db31a-116">New value entries are now created to reflect the revaluations that you have posted.</span></span> <span data-ttu-id="db31a-117">Vous pouvez visualiser les nouvelles valeurs dans les fiches article concernées.</span><span class="sxs-lookup"><span data-stu-id="db31a-117">You can see the new values on the respective item cards.</span></span>
 
-## <a name="see-also"></a>Voir aussi
-[Stock](inventory-manage-inventory.md)  
-[Ventes](sales-manage-sales.md)  
-[Achats](purchasing-manage-purchasing.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="db31a-118">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="db31a-118">See Also</span></span>
+[<span data-ttu-id="db31a-119">Stock</span><span class="sxs-lookup"><span data-stu-id="db31a-119">Inventory</span></span>](inventory-manage-inventory.md)  
+[<span data-ttu-id="db31a-120">Ventes</span><span class="sxs-lookup"><span data-stu-id="db31a-120">Sales</span></span>](sales-manage-sales.md)  
+[<span data-ttu-id="db31a-121">Achats</span><span class="sxs-lookup"><span data-stu-id="db31a-121">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+<span data-ttu-id="db31a-122">[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="db31a-122">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 
