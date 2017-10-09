@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: online printing
 ms.date: 03/29/2017
 ms.author: solsen
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 106ad2acf2703e8182033a43a39c693a8b060d8f
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 42fb4adbcc01c443722fe90bb59edafceb34ff06
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/11/2017
+ms.lasthandoff: 09/22/2017
 
 ---
-# <a name="specify-printer-selection-for-reports"></a><span data-ttu-id="7568c-103">Spécifier la sélection de l'imprimante pour les états</span><span class="sxs-lookup"><span data-stu-id="7568c-103">Specify Printer Selection for Reports</span></span>
-<span data-ttu-id="7568c-104">Cette page est vide car vous ne pouvez pas encore configurer d'imprimantes spécifiques pour des états spécifiques.</span><span class="sxs-lookup"><span data-stu-id="7568c-104">This page is empty because you cannot yet set up specific printers for specific reports.</span></span> <span data-ttu-id="7568c-105">Nous essayons de résoudre ce problème.</span><span class="sxs-lookup"><span data-stu-id="7568c-105">We are working on solving this.</span></span>
+# <a name="specify-printer-selection-for-reports"></a><span data-ttu-id="01240-103">Spécifier la sélection de l'imprimante pour les états</span><span class="sxs-lookup"><span data-stu-id="01240-103">Specify Printer Selection for Reports</span></span>
+<span data-ttu-id="01240-104">Cette page est vide car vous ne pouvez pas encore configurer d'imprimantes spécifiques pour des états spécifiques.</span><span class="sxs-lookup"><span data-stu-id="01240-104">This page is empty because you cannot yet set up specific printers for specific reports.</span></span> <span data-ttu-id="01240-105">Nous essayons de résoudre ce problème.</span><span class="sxs-lookup"><span data-stu-id="01240-105">We are working on solving this.</span></span>
 
-<span data-ttu-id="7568c-106">En attendant, si vous souhaitez imprimer un état, vous devez d'abord le télécharger en tant document PDF en choisissant le bouton **Envoyer à**.</span><span class="sxs-lookup"><span data-stu-id="7568c-106">In the meantime, when you want to print a report you have to download the report as a PDF document first by choosing the **Send to** button.</span></span> <span data-ttu-id="7568c-107">Puis, vous devez sélectionner le type d'état pour télécharger le fichier et choisir **Document PDF**.</span><span class="sxs-lookup"><span data-stu-id="7568c-107">Then you select the type of file to download the report as, and here you should pick **PDF Document**.</span></span> <span data-ttu-id="7568c-108">À présent, vous pouvez soit ouvrir le document directement en PDF et l'imprimer, ou l'enregistrer et l'imprimer plus tard.</span><span class="sxs-lookup"><span data-stu-id="7568c-108">Now, you can either open the PDF document right-away and print it, or save it and print it later.</span></span>
+<span data-ttu-id="01240-106">En attendant, si vous souhaitez imprimer un état, vous devez d'abord le télécharger en tant document PDF en choisissant le bouton **Envoyer à**.</span><span class="sxs-lookup"><span data-stu-id="01240-106">In the meantime, when you want to print a report, you have to download the report as a PDF document first by choosing the **Send to** button.</span></span> <span data-ttu-id="01240-107">Puis, vous devez sélectionner le type d'état pour télécharger le fichier et choisir **Document PDF**.</span><span class="sxs-lookup"><span data-stu-id="01240-107">Then you select the type of file to download the report as, and here you should pick **PDF Document**.</span></span> <span data-ttu-id="01240-108">À présent, vous pouvez soit ouvrir le document directement en PDF et l'imprimer, ou l'enregistrer et l'imprimer plus tard.</span><span class="sxs-lookup"><span data-stu-id="01240-108">Now, you can either open the PDF document right-away and print it, or save it and print it later.</span></span>
 
 <!--
 
@@ -45,8 +45,8 @@ The following table describes the combination of values to specify when you set 
 |Print a specific report to a specific printer for a specific user|Specify values in all three fields.|
 -->
 
-## <a name="see-also"></a><span data-ttu-id="7568c-109">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="7568c-109">See Also</span></span>
-<span data-ttu-id="7568c-110">[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="7568c-110">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
-[<span data-ttu-id="7568c-111">Procédure : exécuter des traitements par lots</span><span class="sxs-lookup"><span data-stu-id="7568c-111">How to: Run Batch Jobs</span></span>](ui-how-run-batch-jobs.md)  
-[<span data-ttu-id="7568c-112">Procédure : envoyer des documents par e-mail</span><span class="sxs-lookup"><span data-stu-id="7568c-112">How to: Send Documents by Email</span></span>](ui-how-send-documents-email.md)  
+## <a name="see-also"></a><span data-ttu-id="01240-109">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="01240-109">See Also</span></span>
+<span data-ttu-id="01240-110">[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="01240-110">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+[<span data-ttu-id="01240-111">Procédure : exécuter des traitements par lots</span><span class="sxs-lookup"><span data-stu-id="01240-111">How to: Run Batch Jobs</span></span>](ui-how-run-batch-jobs.md)  
+[<span data-ttu-id="01240-112">Procédure : envoyer des documents par e-mail</span><span class="sxs-lookup"><span data-stu-id="01240-112">How to: Send Documents by Email</span></span>](ui-how-send-documents-email.md)  
 

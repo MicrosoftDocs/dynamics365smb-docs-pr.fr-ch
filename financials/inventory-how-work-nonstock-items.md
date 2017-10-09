@@ -11,11 +11,11 @@ ms.workload: na
 ms.search.keywords: non-inventoriable
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: b51c163dc8eafc462a1fd489d498d44eaeafd24a
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b9256944295880d6ec9dad916eb9632b9d5f7c20
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/11/2017
+ms.lasthandoff: 09/22/2017
 
 ---
 # Procédure : utiliser des articles non stockés
@@ -32,18 +32,18 @@ Un article non stocké a généralement le numéro d'article du fournisseur qui 
 ## Pour créer un article non stocké
 Les fiches article non stocké ont moins d'informations que les fiches article normales, car vous ne les utilisez que pour proposer des devis ainsi que pour d'autres procédures. Pour cette raison, elles doivent être converties en fiches article normales, avant que vous puissiez valider les transactions commerciales pour elles.
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), saisissez **Articles non stockés**, puis sélectionnez le lien connexe.
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Articles non stockés**, puis sélectionnez le lien connexe.
 2. Sélectionnez l'action **Nouveau**.
 3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## Pour configurer comment les numéros d'article non stocké sont convertis en votre propre numérotation
 Pour activer la conversion d'une fiche article non stocké en une fiche article normale, vous devez tout d'abord configurer comment la numérotation de l'article fournisseur est convertie dans votre propre format de numérotation d'article.
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), saisissez **Paramètres art. non stockés**, puis sélectionnez le lien connexe.
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Paramètres art. non stockés**, puis sélectionnez le lien connexe.
 2. Renseignez les champs selon vos besoins.
 
 ## Pour convertir un article non stocké en un article normal
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), saisissez **Articles non stockés**, puis sélectionnez le lien connexe.
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Articles non stockés**, puis sélectionnez le lien connexe.
 2. Ouvrez la fiche pour un article non stocké que vous pouvez convertir en un article normal.
 3. Dans la fenêtre **Fiche article non stocké**, sélectionnez l'action **Créer un article**.
 
@@ -66,6 +66,7 @@ Vous pouvez ensuite remplir ou modifier les champs sur la nouvelle fiche article
 
 ## Voir aussi
 [Procédure : enregistrer de nouveaux articles](inventory-how-register-new-items.md)  
-[Stock](inventory-manage-inventory.md)  
+[Procédure : créer des commandes spéciales](sales-how-to-create-special-orders.md)|  
+[STOCKS ET EN-COURS](inventory-manage-inventory.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
