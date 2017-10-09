@@ -1,8 +1,6 @@
 ---
 title: "Packs de contenu Dynamics 365 for Financials et Power BI | Microsoft Docs"
 description: "Il est facile d'obtenir des informations exploitables, de la veille économique et des KPI de vos données Financials grâce à Power BI et aux packs de contenu Financials."
-services: project-madeira
-documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -10,25 +8,35 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 06/02/2017
+ms.date: 09/05/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 537effab2f406d619c5000efad12754db678e8b8
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: d165efbb6a157c6f95f8f59e6aa0d9b7100daa91
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Activation de vos données commerciales pour Power BI
 Il est facile d'obtenir des informations exploitables de vos données [!INCLUDE[d365fin](includes/d365fin_md.md)] grâce à Power BI et aux packs de contenu [!INCLUDE[d365fin](includes/d365fin_md.md)]. Power BI extrait vos données, puis génère un tableau de bord prêt à l'emploi et des états basés sur ces données.  
 
-Les packs de contenu sont pré-configurés pour fonctionner avec les données de vente et les données financières provenant de la société de démonstration que vous obtenez lorsque vous vous inscrivez à la version préliminaire de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)].  
+Microsoft a publié les packs de contenu suivants :
 
-* Sélectionnez un visuel du tableau de bord pour ouvrir l'un des états sept sous-jacents.  
+| Application | Désignation |
+| --- | --- |
+| Microsoft Dynamics 365 for Financials | Fournit un tableau de bord avec des données financières clés dans le temps, telles que les bénéfices et les dépenses, la marge d'exploitation et le cycle de trésorerie.|
+| Microsoft Dynamics 365 for Financials - CRM | Fournit un tableau de bord avec des données clés sur les opportunités de vente et les contacts.  |
+| Microsoft Dynamics 365 for Financials - Sales | Fournit un tableau de bord avec des données clés sur les ventes et le stock. |
+
+## <a name="using-the-dashboards"></a>Utilisation des tableaux de bord
+Chaque pack de contenu contient des états que vous pouvez afficher :
+
+* Sélectionnez un visuel du tableau de bord pour afficher l'un des états sous-jacents.  
 * Filtrez l'état ou ajoutez les champs que vous souhaitez contrôler.  
 * Épinglez cette vue personnalisée au tableau de bord pour continuer à effectuer le suivi.  
-  Le tableau de bord et les états sous-jacents sont actualisés au quotidien. Vous pouvez contrôler le programme de réactualisation et en modifier la fréquence sur l'ensemble de données.  
+  Vous pouvez actualiser les données manuellement, et vous pouvez configurer un programme d'actualisation. Pour plus d'informations, voir [Configuration d'une actualisation planifiée](https://powerbi.microsoft.com/en-us/documentation/powerbi-refresh-scheduled-refresh/).  
+
+Les packs de contenu sont pré-configurés pour fonctionner avec les données provenant de la société de démonstration que vous obtenez lorsque vous vous connectez à [!INCLUDE[d365fin](includes/d365fin_md.md)]. Lorsque vous installez les applications dans Power BI et que vous vous connectez à vos propres données, certains états peuvent ne pas fonctionner, car ils reposent sur des données dont votre société ne dispose pas. Dans ces cas, vous pouvez simplement supprimer ces états de votre tableau de bord.  
 
 > [!NOTE]  
 >   Vous pouvez également générer vos propres états et tableaux de bord dans Power BI selon vos données [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, voir [Connexion de vos données métier à Power BI](across-how-use-financials-data-source-powerbi.md).  
@@ -50,13 +58,13 @@ Pour accéder à vos données [!INCLUDE[d365fin](includes/d365fin_md.md)] dans P
 | **Nom utilisateur** |Votre nom tel qu'il s'affiche pour votre compte dans [!INCLUDE[d365fin](includes/d365fin_md.md)], par exemple *Jean Dupont*. |
 | **Mot de passe** |Il s'agit de la clé d'accès rapide au service Web pour votre compte d'utilisateur dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. |
 
-Cela signifie que vous devez extraire 3 informations de Financials : l'URL OData et la clé d'accès rapide au service Web pour votre compte utilisateur.  
+Cela signifie que vous devez extraire 2 informations de [!INCLUDE[d365fin](includes/d365fin_md.md)] : l'*URL OData* et la *clé d'accès au service Web* pour votre compte utilisateur.  
 
 ### <a name="getting-the-url"></a>Obtention de l'URL
 Lorsque vous ajoutez [!INCLUDE[d365fin](includes/d365fin_md.md)] à Power BI, vous devez spécifier une URL pour que Power BI puisse accéder aux données de votre société. Dans la page de connexion, l'URL est appelée **URL de flux OData** et doit avoir le format suivant :
 
          https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')  
-Dans cet exemple, *monentreprise* est le nom de votre service Financials, *CRONUS US* est le nom de la société de démonstration et *%20* représente l'espace dans le nom.   
+Dans cet exemple, *monentreprise* est le nom de votre service [!INCLUDE[d365fin](includes/d365fin_md.md)], *CRONUS US* est le nom de la société de démonstration et *%20* représente l'espace dans le nom.   
 Pour obtenir l'URL, dans [!INCLUDE[d365fin](includes/d365fin_md.md)], recherchez et ouvrez la fenêtre **Services Web**. Cette fenêtre répertorie les services Web actuellement disponibles, et vous pouvez copier le lien du champ **URL OData** pour l'un des services Web OData par défaut.  
 
 ### <a name="getting-the-user-name-and-the-web-service-access-key"></a>Affichage du nom d'utilisateur et de la clé d'accès rapide au service Web
@@ -65,15 +73,7 @@ Pour utiliser des données à partir de [!INCLUDE[d365fin](includes/d365fin_md.m
 Pour trouver ces informations, dans [!INCLUDE[d365fin](includes/d365fin_md.md)], recherchez la fenêtre **Utilisateurs**, puis ouvrez la fiche de votre compte d'utilisateur. Sur le raccourci **Général**, copiez la valeur du champ **Nom d'utilisateur** et sur le raccourci **Accès service web**, copiez la valeur du champ **Clé d'accès service web**. Si le champ **Clé d'accès service web** est vide, sélectionnez dans le ruban **Modifier la clé d'accès service web**, sélectionnez le champ **La clé n'expire jamais**, puis cliquez sur le bouton OK. Vous pouvez alors copier la clé.  
 
 ## <a name="getting-data-from-included365finincludesd365finmdmd"></a>Obtention de données de [!INCLUDE[d365fin](includes/d365fin_md.md)]
-Le tableau de bord [!INCLUDE[d365fin](includes/d365fin_md.md)] affiche les états les plus courants que vous utiliserez pour effectuer le suivi de votre activité. Les données sont extraites de votre société [!INCLUDE[d365fin](includes/d365fin_md.md)] en utilisant les services Web pour lire les données en temps réel. Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], la fenêtre **Services Web** répertorie les services Web qui ont été configurés pour vous, y compris les suivants qui sont utilisés par le pack de contenu dans Power BI :  
-
-* ItemSalesAndProfit  
-* ItemSalesByCustomer  
-* powerbifinance  
-* SalesDashboard  
-* SalesOpportunities  
-* SalesOrdersBySalesPerson  
-* TopCustomerOverview  
+Le tableau de bord [!INCLUDE[d365fin](includes/d365fin_md.md)] affiche les états les plus courants que vous utiliserez pour effectuer le suivi de votre activité. Les données sont extraites de votre société [!INCLUDE[d365fin](includes/d365fin_md.md)] en utilisant les services Web pour lire les données en temps réel. Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], la fenêtre **Services web** répertorie les services Web qui ont été créés pour vous.
 
 > [!NOTE]  
 >   Si vous modifiez le nom de l'un de ces services Web, les données ne s'affichent pas dans Power BI.  
@@ -108,19 +108,21 @@ Si une boîte de dialogue d'erreur « Oups » s'affiche une fois que vous avez
 
 * Vérifiez que l'URL suit le motif qui a été spécifié plus tôt :
 
-    https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')  
+    `https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')`  
 * Une erreur courante est de spécifier l'intégralité de l'URL pour un service Web spécifique :
 
-    https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')/powerbifinance  
+    `https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')/powerbifinance`
 * Vous avez peut-être aussi oublié de spécifier le nom de la société :
 
-    https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/  
+    `https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/`
 
 ## <a name="see-also"></a>Voir aussi
+[Veille économique](bi.md)  
 [Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Migrer des données métier à partir d'autres systèmes financiers](upload-data.md)  
 [Utilisation de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] comme source de données Power BI](across-how-use-financials-data-source-powerbi.md)  
 [Utilisation de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] comme source de données PowerApps](across-how-use-financials-data-source-powerapps.md)  
-[Utilisation de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] dans Microsoft Flow](across-how-use-financials-data-source-flow.md)  
+[Utilisation de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] dans Microsoft Flow](across-how-use-financials-data-source-flow.md)   
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

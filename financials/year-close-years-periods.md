@@ -12,20 +12,19 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 06/07/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 0f753e84a9318cdd3a58ed192437206659b6a2ad
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b41328283c732d3d9cb3ff66ef89c13d0bd3b7bf
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="closing-years-and-periods"></a>Clôture des exercices et des périodes
 À la fin d'un exercice comptable, vous devez exécuter un certain nombre de tâches administratives, par exemple vous assurer que tous les documents et les feuilles sont validés veillant, que les données de devise sont à jour, que les livres sont clôturés, et plus. Les tâches réelles dépendent de votre société.
 
-Le tableau suivant fournit un aperçu des tâches que vous devez généralement exécuter pour clôturer un exercice et une période comptables. Ces tâches sont répertoriées dans l'ordre de leur exécution en règle générale.
+Le tableau suivant fournit un aperçu des tâches que vous devez généralement exécuter pour clôturer un exercice et une période comptables. 
 
-| Pour | Voir |
+| À | Voir |
 | --- | --- |
 | Spécifier des plages de date de validation à l'échelle du système et spécifiques à l'utilisateur. En fonction des besoins de votre activité, vous pouvez restreindre les plages de date validation utilisateur au début du traitement de clôture d'exercice ou après ce dernier. |[Procédure : spécifier des périodes de validation](finance-how-specify-posting-periods.md) |
 | Obtenir un aperçu des activités qui sont généralement effectuées à la fin d'une période, telles que la validation de tous les documents et toutes les feuilles, ou l'exécution de tableaux d'analyse. |[Clôture périodes](year-how-complete-period-end-processes.md) |

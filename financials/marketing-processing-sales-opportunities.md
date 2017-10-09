@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 78f9235e0115b75c3c479f789c76710b97a216c3
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-process-sales-opportunities"></a>Procédure : traiter des opportunités de vente
@@ -28,9 +27,9 @@ Les opportunités de vente existantes sont disponibles dans la fenêtre **Liste 
 
 | Pour afficher les opportunités pour | Alors |
 | --- | --- |
-| Tous les vendeurs et contacts |Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), saisissez **Liste des opportunités**, puis sélectionnez le lien connexe. |
-| Un vendeur spécifique |Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Vendeurs**, puis sélectionnez le lien connexe. Sélectionnez le vendeur, sélectionnez l'action **Opportunités**, puis l'action **Liste**. |
-| Un contact spécifique |Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Contacts**, puis sélectionnez le lien connexe. Sélectionnez le contact dans la liste, puis sélectionnez l'action **Opportunités**. |
+| Tous les vendeurs et contacts |Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Liste des opportunités**, puis sélectionnez le lien connexe. |
+| Un vendeur spécifique |Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Vendeurs**, puis sélectionnez le lien connexe. Sélectionnez le vendeur, sélectionnez l'action **Opportunités**, puis l'action **Liste**. |
+| Un contact spécifique |Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Contacts**, puis sélectionnez le lien connexe. Sélectionnez le contact dans la liste, puis sélectionnez l'action **Opportunités**. |
 
 Chacune de ces tâches ouvre la fenêtre **Liste des opportunités**.
 
@@ -66,7 +65,7 @@ Pour supprimer des opportunités clôturées à partir de la fenêtre **Liste de
 
 Pour supprimer des opportunités clôturées à l'aide du traitement par lots **Supprimer les opportunités clôturées**, procédez comme suit :
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), saisissez **Supprimer opportunités**, puis sélectionnez le lien connexe.
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Supprimer opportunités**, puis sélectionnez le lien connexe.
 2. Dans la section **Opportunité**, configurez les filtres qui spécifient les opportunités clôturées à supprimer.
 3. Cliquez sur le bouton **OK**.
 

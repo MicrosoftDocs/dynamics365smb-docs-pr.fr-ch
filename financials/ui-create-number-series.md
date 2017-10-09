@@ -11,12 +11,11 @@ ms.workload: na
 ms.search.keywords: numbers, numbering
 ms.date: 06/02/2017
 ms.author: solsen
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 7cc119c5879400adf63e468259a2c3a275b71cca
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-create-number-series"></a>Procédure : création des souches de numéros
@@ -27,7 +26,7 @@ Pour chaque société que vous configurez, vous devez affecter des codes d'ident
 
 Vous créez un système de numérotation en définissant un ou plusieurs codes pour chaque type de données de base ou de document. Par exemple, vous pouvez définir un code pour la numérotation de clients, un code pour la numérotation des factures vente et un autre code pour la numérotation des documents dans les feuilles comptabilité. Une fois que vous avez défini un code, vous devez définir au moins une ligne souche de numéros. Celle-ci contient des informations telles que les premier et dernier numéros de la souche et la date de début. Vous pouvez définir plusieurs lignes souche de numéros par code souche de numéros, avec une date de début différente pour chaque ligne. Les souches sont utilisées de manière consécutive, chaque souche commençant à la date de début respective.
 
-Vous devez généralement définir votre souche de numéros pour insérer automatiquement le numéro suivant sur des fiches ou des documents que vous créez. Toutefois, vous pouvez également définir une souche de numéros pour permettre la saisie manuelle du nouveau numéro. Vous devez spécifiez cela dans **N° manuels** .
+Vous devez généralement définir votre souche de numéros pour insérer automatiquement le numéro suivant sur des fiches ou des documents que vous créez. Toutefois, vous pouvez également définir une souche de numéros pour permettre la saisie manuelle du nouveau numéro. Vous spécifiez cela grâce à la case à cocher **N° manuels**.
 
 Si vous voulez utiliser plusieurs codes souche de numéros pour un type de données de base (par exemple, si vous voulez utiliser différentes souches de numéros pour diverses catégories d'articles), vous pouvez utiliser des liens de souches de numéros.
 
@@ -36,7 +35,7 @@ Si vous voulez utiliser plusieurs codes souche de numéros pour un type de donn�
 2. Sélectionnez l'action **Nouveau**.
 3. Sur la nouvelle ligne, renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-**ASTUCE** : pour permettre la saisie manuelle d'un numéro sur de nouvelles fiches ou de nouveaux documents, désélectionnez **N° par défaut** et sélectionnez **N° manuels** .
+**CONSEIL** : pour permettre la saisie manuelle de numéros sur des fiches ou des documents, décochez la case **N° par défaut** et cochez la case **N° manuels**.
 
 Désormais, lorsque vous créez une fiche ou un document configuré pour utiliser la souche de numéros en question, vous pouvez renseigner manuellement le champ **N°** avec n'importe quelle valeur.  
 

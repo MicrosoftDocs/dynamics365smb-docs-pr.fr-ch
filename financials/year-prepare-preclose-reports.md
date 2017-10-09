@@ -11,12 +11,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/02/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: ead7f45583b8edbdc00b6d41ae335d4b8adb14cf
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="using-pre-closing-reports"></a>Utilisation d'états préalables à la clôture
@@ -26,7 +25,7 @@ Le tableau suivant décrit un certain nombre d'états qui peuvent être utiles d
 
 | Pour | Afficher ce rapport |
 | --- | --- |
-| Imprimer un état Balance détaillé pour un ou plusieurs comptes bancaires avec des informations supplémentaires sur des écritures individuelles. |Banque : Grand livre |
+| Imprimer un état Balance détaillé pour un ou plusieurs comptes bancaires avec des informations supplémentaires sur des écritures individuelles. |Banque : Grand livre |
 | Imprimer un Grand livre pour les clients sélectionnés. |Clients : Balance |
 | Imprimer un Grand livre avec des informations détaillées sur des écritures individuelles pour les clients sélectionnés et durant une période sélectionnée. |Clients : Grand livre client |
 | Imprimer un Grand livre pour les fournisseurs sélectionnés. |Fourn. : Balance |
@@ -36,7 +35,7 @@ Le tableau suivant décrit un certain nombre d'états qui peuvent être utiles d
 | Imprimer un état Balance comprenant les soldes et les soldes période pour les comptes généraux. |Balance |
 | Imprimer une balance pour une société consolidée. |Balance consolidée |
 
-Pour afficher un état, sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez le nom tel qu'il s'affiche dans la table, puis sélectionnez le lien connexe.
+Pour afficher un état, sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez le nom tel qu'il s'affiche dans la table, puis sélectionnez le lien connexe.
 
 ## <a name="see-also"></a>Voir aussi
 [Clôture des exercices et des périodes](year-close-years-periods.md)  

@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: account linking, direct payment posting, automatic payment processing, reconcile payment, recurring expense, recurring cash receipt
 ms.date: 03/29/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: deb05c6294edeb892606154b38de2aa406abf6a2
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Procédure : Mapper du texte sur les paiements récurrents aux comptes pour un rapprochement automatique
@@ -43,19 +42,19 @@ Sur une ligne feuille rapprochement bancaire dont le paiement a été défini su
 
     > [!NOTE]  
 >   Si aucun autre paiement ni document entrant n'existe avec le texte de mappage en question, le mappage du texte avec le compte surviendra uniquement lorsqu'une seule partie du texte de paiement ou du document entrant existe en tant que texte de mappage.
-5. Dans le champ **N° fournisseur** , saisissez le fournisseur pour lequel des documents entrants contenant le texte de mappage seront créés, ou pour lequel des paiements seront validés. Pour en savoir plus, voir [Procédure : utiliser un service OCR pour convertir des fichiers PDF et image en documents électroniques](across-how-use-ocr-pdf-images-files.md).      
-6. Dans le champ **N° cpte débit** saisissez le numéro de compte dans lequel les paiements contenant le texte de mappage sont validés s'il s'agit de paiements entrants. Pour les paiements entrants, le signe de la valeur du champ **Montant relevé** est positif.
-7. Dans le champ **N° cpte crédit** saisissez le compte dans lequel les paiements contenant le texte de mappage sont validés s'il s'agit de paiements sortants. Pour les paiements sortants, le signe de la valeur du champ **Montant relevé** est négatif.
+5. Dans le champ **N° fournisseur**, entrez le fournisseur pour lequel des documents entrants contenant le texte de mappage seront créés, ou pour lequel des paiements seront validés. Pour en savoir plus, voir [Procédure : utiliser un service OCR pour convertir des fichiers PDF et image en documents électroniques](across-how-use-ocr-pdf-images-files.md).      
+6. Dans le champ **N° cpte débit**, saisissez le numéro de compte dans lequel les paiements contenant le texte de mappage sont validés s'il s'agit de paiements entrants. Pour les paiements entrants, le signe de la valeur du champ **Montant relevé** est positif.
+7. Dans le champ **N° cpte crébit**, saisissez le numéro de compte dans lequel les paiements contenant le texte de mappage sont validés s'il s'agit de paiements sortants. Pour les paiements sortants, le signe de la valeur du champ **Montant relevé** est négatif.
 8. Dans le champ **Type origine solde**, indiquez si le paiement est validé dans un compte général ou dans un compte client ou fournisseur.
 9. Dans le champ **N° origine solde**, indiquez le compte dans lequel le paiement est validé, en fonction de votre sélection dans le champ **Type origine solde**.
 10. Répétez les étapes 4 à 8 pour tout le texte sur les paiements que vous souhaitez mapper à des comptes pour une validation directe sans application.
 
-La prochaine fois que vous importez un fichier de relevé bancaire ou sélectionnez l'action **Lettrer automatiquement** dans la fenêtre **Feuille rapprochement bancaire**, les lignes feuille pour les paiements qui contiennent le texte de mappage spécifié contiendront les comptes mappés dans les champs **Type compte** et **N° compte**. . Le champ **Fiabilité correspondance** contient **Élevée - Correspondance texte et compte**. Ce, à condition que la fonction de lettrage automatique ne puisse fournir qu'une fiabilité de correspondance **Basse** ou **Moyenne**.
+La prochaine fois que vous importez un fichier de relevé bancaire ou sélectionnez l'action **Lettrer automatiquement** dans la fenêtre **Feuille rapprochement bancaire**, les lignes feuille pour les paiements qui contiennent le texte de mappage spécifié contiendront les comptes mappés dans les champs **Type compte** et **N° compte**. Le champ **Fiabilité correspondance** contient **Élevée - Correspondance texte et compte**. Ce, à condition que la fonction de lettrage automatique ne puisse fournir qu'une fiabilité de correspondance **Basse** ou **Moyenne**.
 
 ## <a name="example-text-to-account-mapping-for-fuel-expense"></a>Exemple : mappage de texte à compte pour les frais de carburant
 Pour toujours valider les frais de carburant encourus aux stations service Shell dans le compte général pour l'essence (compte 8510), renseignez une ligne de la fenêtre **Correspondance texte et compte** comme suit.
 
-| Correspondance texte | Cpte débit N° | Cpte crédit N° | Contrepartie Type origine | Contrepartie N° origine |
+| Correspondance texte | N° cpte débit | N° cpte crédit | Type origine solde | N° origine solde |
 | --- | --- | --- | --- | --- |
 | Shell |VIDE |8510 |Compte général |VIDE |
 

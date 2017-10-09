@@ -11,12 +11,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 4e29a08e9b0fd9c20dac12bb32dd1be604ff2dcf
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-transfer-split-or-combine-fixed-assets"></a>Procédure : transférer, fractionner ou regrouper les immobilisations
@@ -28,7 +27,7 @@ Vous pouvez transférer une immobilisation vers un autre département lorsque, p
 1. Définissez une nouvelle immobilisation. Saisissez le nouveau département dans le champ **Code département**.
 2. Affectez une loi d'amortissement d'immobilisation vers la nouvelle immobilisation. Pour en savoir plus, voir [Procédure : acquérir les immobilisations](fa-how-acquire.md).
 3. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuilles reclassement immo.**, puis sélectionnez le lien connexe.
-4. Créez une feuille reclassement lorsque le champ **N° immo.** contient l'immobilisation d'origine, et le champ **Nouveau n° immo.** contient la nouvelle immobilisation à déplacer.  
+4. Créez une feuille reclassement lorsque le champ **N° immo.** contient l'immobilisation initiale, et le champ **Nouveau N° immo.** indique la nouvelle immobilisation à déplacer.  
 5. Sélectionnez l'action **Reclasser**.
 
     Deux lignes sont maintenant créées dans la ligne feuille immobilisation à l'aide du modèle et de la feuille que vous avez indiqués dans la fenêtre **Param. feuille immo.** pour la loi d'amortissement sélectionnée. Pour en savoir plus, voir [Procédure : configurer l'amortissement d'immobilisation](fa-how-setup-depreciation.md).
@@ -44,8 +43,8 @@ Vous pouvez fractionner une immobilisation en plusieurs immobilisations, par exe
 2. Affectez des lois d'amortissement d'immobilisation aux nouvelles immobilisations. Pour en savoir plus, voir [Procédure : acquérir les immobilisations](fa-how-acquire.md).
 3. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuilles reclassement immo.**, puis sélectionnez le lien connexe.
 4. Créez deux lignes feuille reclassement, une pour chaque nouvelle immobilisation.
-5. Sur la première ligne, saisissez la deuxième immobilisation dans le champ **Nouveau n° immo.** et 25 dans le champ **Reclass. coût acq. %**.
-6. Sur la seconde ligne, saisissez la troisième immobilisation dans le champ **Nouveau n° immo.** et 40 dans le champ **Reclass. coût acq. %**.
+5. Sur la première ligne, entrez la deuxième immobilisation dans le champ **Nouveau N° immo.** et 25 dans le champ **Reclass. coût acq. %**.
+6. Sur la deuxième ligne, entrez la troisième immobilisation dans le champ **Nouveau N° immo.** et 40 dans le champ **Reclass. coût acq. %**.
 7. Sur les deux lignes, cochez les cases **Reclass. coût acq.** et **Reclass. amortissement**.   
 8. Sélectionnez l'action **Reclasser**.
 
@@ -57,7 +56,7 @@ Vous pouvez fractionner une immobilisation en plusieurs immobilisations, par exe
 Vous pouvez regrouper plusieurs immobilisations en une, par exemple lorsque vous déplacez les immobilisations distribuées dans un département. Si vous avez validé les coûts d'acquisition et l'amortissement pour l'immobilisation à déplacer, ces valeurs seront regroupées dans l'immobilisation unique.
 
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuilles reclassement immo.**, puis sélectionnez le lien connexe.
-2. Créez une feuille reclassement lorsque le champ **N° immo.** contient l'immobilisation à déplacer/regrouper et le champ **Nouveau n° immo.** contient l'immobilisation avec laquelle elle sera regroupée.
+2. Créez une feuille reclassement lorsque le champ **N° immo.** contient l'immobilisation initiale à déplacer/combiner, et le champ **Nouveau N° immo.** indique la nouvelle immobilisation qui lui sera combinée.
 3. Laissez le champ **Reclass. coût acq. %** vide pour déplacer/regrouper le coût total de l'acquisition.    
 4. Cochez les deux cases **Reclass. coût acq.** et **Reclass. amortissement**.
 5. Sous l'onglet **Actions**, choisissez **Reclasser**.

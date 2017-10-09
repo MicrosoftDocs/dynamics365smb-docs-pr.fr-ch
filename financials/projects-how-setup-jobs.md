@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: project management
 ms.date: 06/06/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: aa7669c5f7762de647346039e0023c93603fbc10
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b0e8a73af6f979cb426db1bffc34d154fc439dce
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-jobs"></a>Procédure : configurer des projets
@@ -26,7 +25,7 @@ Dans la fenêtre **Paramètres projets**, vous devez spécifier comment utiliser
 Sur les fiches projet individuelles, vous devez configurer les prix pour les articles, les ressources et les comptes généraux du projet, puis vous devez configurer des groupes comptabilisation du projet.
 
 ## <a name="to-set-general-information-for-jobs"></a>Pour configurer des informations générales pour les projets
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Paramètres projets**, puis choisissez le lien associé.
+1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Paramètres projets**, puis choisissez le lien associé.
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
@@ -42,7 +41,7 @@ Lorsque la case à cocher **Appliquer le lien d'utilisation** est activée et qu
 > [!NOTE]  
 >   Si la case à cocher **Appliquer le lien d'utilisation de la fiche projet** est activée et que le champ **Type ligne** sur la ligne feuille projet est vide, alors des lignes planning projet de type ligne **Budget** sont créées lorsque vous validez des lignes feuille. Si la case à cocher **Appliquer le lien d'utilisation** de la fiche projet n'est pas activée et que le champ **Type ligne** sur la ligne feuille projet est vide, dans ce cas aucune ligne planning projet n'est créée lorsque vous validez des lignes feuille. Pour plus d'informations, reportez-vous à [Procédure : Enregistrer l'utilisation pour les projets](projects-how-record-job-usage.md).
 
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Paramètres projets**, puis choisissez le lien associé.
+1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Paramètres projets**, puis choisissez le lien associé.
 2. Sélectionnez ou désélectionnez la case à cocher **Appliquer le lien d'utilisation**.
 
 > [!NOTE]  
@@ -51,7 +50,7 @@ Lorsque la case à cocher **Appliquer le lien d'utilisation** est activée et qu
 ## <a name="to-set-up-prices-for-job-resources"></a>Pour paramétrer des prix pour les ressources de projet
 Vous pouvez paramétrer des prix spécifiques pour les ressources d'un projet. Réalisez cette opération dans la fenêtre **Prix ressource projet**.
 
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Projets**, puis choisissez le lien associé.  
+1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Projets**, puis choisissez le lien associé.  
 2. Sélectionnez le projet concerné, puis l'action **Ressource**.
 3. Dans la fenêtre **Prix ressource projet**, renseignez les champs selon vos besoins.
 
@@ -65,7 +64,7 @@ La valeur du champ **Prix unitaire** de la ressource sera utilisée sur les lign
 ## <a name="to-set-up-prices-for-job-items"></a>Pour paramétrer les prix pour les articles
 Vous pouvez paramétrer des prix spécifiques pour les articles d'un projet. Réalisez cette opération dans la fenêtre **Prix article projet**.
 
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Projets**, puis choisissez le lien associé.  
+1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Projets**, puis choisissez le lien associé.  
 2. Sélectionnez le projet concerné, puis cliquez sur **Article**.
 3. Dans la fenêtre **Prix article projet**, renseignez les champs selon vos besoins.
 
@@ -79,7 +78,7 @@ La valeur du champ **Prix unitaire** pour l'article sera utilisée sur les ligne
 ## <a name="to-set-up-prices-for-job-general-ledger-accounts"></a>Pour configurer les prix des comptes généraux projet
 Vous pouvez configurer les prix spécifiques des frais d'un projet. Réalisez cette opération dans la fenêtre **Prix compte général projet**.
 
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Projets**, puis choisissez le lien associé.  
+1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Projets**, puis choisissez le lien associé.  
 2. Sélectionnez le projet concerné, puis cliquez sur **Compte général**.  
 3. Dans la fenêtre **Prix compte général projet**, renseignez les champs selon vos besoins.
 
@@ -93,7 +92,7 @@ L'un des aspects des projets de planification est de décider quels comptes de v
 > [!NOTE]  
 >   Les comptes nécessaires dans la table Plan comptable doivent être configurés avant de créer les groupes comptabilisation. Pour plus d'informations, reportez-vous à [Configuration ou modification du plan comptable](finance-setup-chart-accounts.md).  
 
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Groupes compta. projet**, puis choisissez le lien associé.  
+1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Groupes compta. projet**, puis choisissez le lien associé.  
 2. Cliquez sur **Nouveau**, puis renseignez les champs du compte comme indiqué dans le tableau suivant.  
 
 | Champ de compte | Désignation |
@@ -116,7 +115,7 @@ L'un des aspects des projets de planification est de décider quels comptes de v
 
 ## <a name="see-also"></a>Voir aussi
 [Configurer la gestion de projet](projects-setup-projects.md)  
-[Gérer des projets](projects-manage-projects.md)  
+[Gestion des projets](projects-manage-projects.md)  
 [Finances](finance.md)  
 [Achats](purchasing-manage-purchasing.md)         
 [Ventes](sales-manage-sales.md)      

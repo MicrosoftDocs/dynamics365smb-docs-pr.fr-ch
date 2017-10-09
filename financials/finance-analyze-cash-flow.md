@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
 ms.date: 06/02/2017
 ms.author: bholtorf
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ebf31708fcd95b6d4746f1a3616b0eb104055514
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b11c6ea21b507024e6024b180205e02a60fe9465
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="analyzing-cash-flow-in-your-company"></a>Analyse de la trésorerie dans votre société
@@ -30,7 +29,6 @@ Comme on dit, l'argent est le nerf de la guerre. Les graphiques du tableau de bo
 | Les numéros semblent-ils décalés pour une période ?</br> Devrais-je effectuer des recherches ? |Revenus et dépenses |
 | Quand un excédent ou un déficit de trésorerie peut-il se produire ?</br> Dois-je rembourser la dette, ou emprunter pour prendre en charge les frais suivants ? |Prévisions de la trésorerie |
 
-## <a name="dig-into-the-numbers"></a>Effectuer des recherches approfondies dans les numéros
 Dans le tableau de bord Comptable, sous **Performances financières**, **Cycle trésorerie**, **Trésorerie** et **Revenus et dépenses**, les graphiques offrent des méthodes pour analyser la trésorerie :  
 
 * Consultez les chiffres pour une période à l'aide du curseur de la chronologie.  
@@ -46,7 +44,7 @@ Si vous souhaitez vérifier la prévision, outre les écritures de prévision, v
 * Retire les dépenses et ajoute les recettes.  
 * Ignore les commandes ventes et les commandes achats en double.  
 
-### <a name="to-view-a-cash-flow-worksheet"></a>Pour afficher une feuille d'activité de trésorerie
+## <a name="to-view-a-cash-flow-worksheet"></a>Pour afficher une feuille d'activité de trésorerie
 1. Recherchez **Prévisions de trésorerie**, puis sélectionnez le lien associé.  
 2. Choisissez une prévision de trésorerie, puis sélectionnez l'option **Feuille trésorerie**.  
 3. Sur la page **Feuille trésorerie**, sélectionnez l'action **Proposer lignes feuille activité**.  

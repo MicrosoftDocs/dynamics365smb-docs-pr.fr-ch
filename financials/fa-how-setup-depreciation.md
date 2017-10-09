@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: fbdfc4431056c4851208aa063daf8761b4e70bf1
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-fixed-asset-depreciation"></a>Procédure : configurer un amortissement immobilisation
@@ -54,7 +53,7 @@ Si vous voulez associer une loi d'amortissement à plusieurs immobilisations, vo
 2. Sélectionnez l'immobilisation à laquelle vous souhaitez attribuer une loi d'amortissement, puis sélectionnez l'action **Modifier**.
 3. Dans la fenêtre **Fiche livre d'amortissement**, sélectionnez l'action **Créer plans amortissement**.
 4. Dans la fenêtre **Créer plans amortissement immo.**, renseignez le champ **Loi d'amortissement**.
-5. Choisissez le champ **Copier immo. n°** , puis sélectionnez le numéro de l'immobilisation à utiliser comme base pour créer de nouvelles lois d'amortissement immobilisation.
+5. Choisissez le champ **Copier immo. n°**, puis sélectionnez le numéro de l'immobilisation à utiliser comme base pour créer de nouvelles lois d'amortissement d'immobilisation.
 
     Si vous renseignez ce champ, les champs d'amortissement des nouvelles lois d'amortissement d'immobilisation contiennent les mêmes informations que ceux de la loi d'amortissement d'immobilisation que vous copiez. N'entrez rien dans ce champ si vous souhaitez créer de nouvelles lois d'amortissement d'immobilisation avec des champs d'amortissement vides.  
 6. Sur le raccourci **Immo.**, vous pouvez positionner un filtre afin de sélectionner les immobilisations pour lesquelles vous souhaitez créer des lois d'amortissement immobilisation.

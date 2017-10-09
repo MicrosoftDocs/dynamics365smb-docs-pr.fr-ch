@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: video, library, how to
 ms.date: 06/02/2017
 ms.author: bholtorf
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 6e5f4e0b32b90a19f4f58a1fd792a686c0cb41d0
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="visit-our-video-library"></a>Visitez notre vidéothèque

@@ -1,5 +1,5 @@
 ---
-title: Gestion de projet| Microsoft Docs
+title: "Tâches projet qui utilisent des ressources et des feuilles de temps | Microsoft Docs"
 description: "Décrit comment utiliser les ressources, les feuilles de temps et les projets pour la gestion des projets."
 services: project-madeira
 documentationcenter: 
@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 608817222d087a04293a25913064e7b47f1c78f0
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: e823f58ac796b22a488ab6fd54ed6dc00e262c87
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/04/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="project-management"></a>Gestion de projets
@@ -25,7 +24,8 @@ Le module [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge les tâche
 
 Avant de pouvoir utiliser le module [!INCLUDE[d365fin](includes/d365fin_md.md)] pour gérer les projets, vous devez définir des ressources, des feuilles de temps et des projets. Pour plus d'informations, reportez-vous à [Configuration de la gestion de projet](projects-setup-projects.md).  
 
-**Remarque** : Cette fonctionnalité nécessite que votre expérience soit définie sur **Suite**. Pour plus d'informations, voir [Personnalisation de votre expérience [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
+> [!NOTE]  
+>   Cette fonctionnalité nécessite que votre expérience soit définie sur **Suite**. Pour plus d'informations, voir [Personnalisation de votre expérience [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
 
 Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.
 
@@ -39,13 +39,13 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | Achetez des fournitures pour un projet, sur des commandes achat ou des factures, et enregistrez l'article et le temps d'utilisation. |[Procédure : gérer les fournitures pour un projet](projects-how-manage-project-supplies.md) |
 | En savoir plus sur les travaux en cours (TEC), une fonction qui garantit des tableaux d'analyse appropriés et vous permet d'estimer la valeur financière des projets qui sont en cours. |[Comprendre les méthodes TEC](projects-understanding-wip.md) |
 | Validez la consommation de matières, des ressources, et d'autres frais de travaux en cours (TEC) du projet pour contrôler sa valeur financière et maintenir des états financiers appropriés bien que vous ayez validé des frais de projet avant de facturer le projet. |[Procédure : surveiller la progression et les performances](projects-how-monitor-progress-performance.md) |
-| Enregistrez les coûts du projet (utilisation de ressources, matières et achats associés au projet) sur une base actuelle et facturez le client, soit une fois le projet terminé soit en fonction d'un calendrier de facturation. |[Procédure : facturer des projets](projects-how-invoice-jobs.md) |
+| Enregistrez les coûts du projet (utilisation de ressources, matières et achats associés au projet) sur une base actuelle et facturez le client, soit une fois le projet terminé soit en fonction d'un calendrier de facturation. |[Procédure : Facturer des projets](projects-how-invoice-jobs.md) |
 
 ## <a name="see-also"></a>Voir aussi
 [Configuration de la gestion de projet](projects-setup-projects.md)  
-[Personnalisation de votre [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)      
+[Personnalisation de votre expérience [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)      
 [Achats](purchasing-manage-purchasing.md)         
 [Ventes](sales-manage-sales.md)    
-[Finance](finance.md)  
+[Finances](finance.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

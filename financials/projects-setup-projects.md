@@ -12,18 +12,17 @@ ms.workload: na
 ms.search.keywords: projects
 ms.date: 06/06/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: a01f90d93c12cf429264f525df3a7e42e01d7e33
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: cd42389cdebe3ce480603e07e01cc063f6d1f8bf
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
-# <a name="set-up-project-management"></a>Configurer la gestion de projet
+# <a name="setting-up-project-management"></a>Configuration de la gestion de projet
 Avant de pouvoir utiliser le module [!INCLUDE[d365fin](includes/d365fin_md.md)] pour gérer les projets, vous devez définir des ressources, des feuilles de temps et des projets.
 
-Vous pouvez ensuite créer des projets, planifier des ressources pour des projets ainsi que gérer des budgets et suivre les heures des salariés et des postes avec des feuilles de temps. Pour plus d'informations, reportez-vous à [Gérer des projets](projects-manage-projects.md).  
+Vous pouvez ensuite créer des projets, planifier des ressources pour des projets ainsi que gérer des budgets et suivre les heures des salariés et des postes avec des feuilles de temps. Pour plus d'informations, reportez-vous à [Gestion des projets](projects-manage-projects.md).  
 
 Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.
 
@@ -34,7 +33,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | Vous pouvez créer des fiches projet et préparer les tâches projet. Vous pouvez configurer les articles projet et les ressources de projet et définir les groupes comptabilisation projet. |[Procédure : configurer des projets](projects-how-setup-jobs.md) |
 
 ## <a name="see-also"></a>Voir aussi
-[Gérer des projets](projects-manage-projects.md)  
+[Gestion des projets](projects-manage-projects.md)  
 [Finances](finance.md)  
 [Achats](purchasing-manage-purchasing.md)         
 [Ventes](sales-manage-sales.md)     

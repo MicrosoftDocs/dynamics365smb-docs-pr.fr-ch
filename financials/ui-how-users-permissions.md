@@ -1,8 +1,6 @@
 ---
 title: "Affecter des autorisations d'utilisateur et créez ou modifiez des ensembles d'autorisations | Microsoft Docs"
-description: "Décrit comment ajouter des utilisateurs d'Office 365 à Financials, puis affecte des autorisations, des droits d'accès, et des paramètres de sécurité."
-services: project-madeira
-documentationcenter: 
+description: "Décrit comment ajouter des utilisateurs d'Office 365 à Financials, puis affecte des autorisations, des droits d'accès, et des paramètres de sécurité."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -12,18 +10,17 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 06/27/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 564ef68a1571611efee32db1cf3759cda6a04c80
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: a944a6135feeb81b32d1f7edcb823b9da89cd404
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-manage-users-and-permissions"></a>Procédure : gérer les utilisateurs et les autorisations
-Pour ajouter des utilisateurs dans [!INCLUDE[d365fin](includes/d365fin_md.md)], l'administrateur Office 365 de votre société doit d'abord créer les utilisateurs dans le centre d’administration Office 365. Pour plus d'informations, voir [Ajouter des utilisateurs à Office 365 for business](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc)
+Pour ajouter des utilisateurs dans [!INCLUDE[d365fin](includes/d365fin_md.md)], l'administrateur Office 365 de votre société doit d'abord créer les utilisateurs dans le centre d’administration Office 365. Pour plus d'informations, voir [Ajouter des utilisateurs à Office 365 for business](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc)
 
-Une fois les utilisateurs créés dans Office 365, ils peuvent être importés dans la fenêtre **Utilisateurs** à l'aide de l'option **Récupérer des utilisateurs à partir d'Office 365**. Des ensembles d'autorisations sont affectés aux utilisateurs selon le plan qui leur est affecté dans Office 365.
+Une fois les utilisateurs créés dans Office 365, ils peuvent être importés dans la fenêtre **Utilisateurs** à l'aide de l'option **Récupérer des utilisateurs à partir d'Office 365**. Des ensembles d'autorisations sont affectés aux utilisateurs selon le plan qui leur est affecté dans Office 365.
 
 Vous pouvez ensuite passer à l'affectation des ensembles d'autorisations aux utilisateurs pour définir à quels objets de base de données, et de ce fait, à quels éléments de l'interface utilisateur, ils ont accès et dans quelles sociétés.
 
@@ -37,7 +34,7 @@ Les administrateurs peuvent utiliser la fenêtre **Paramètres utilisateur** pou
 >   Cette fonctionnalité nécessite que votre expérience soit définie sur Suite. Pour plus d'informations, voir [Personnalisation de votre expérience [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
 
 ## <a name="to-assign-permissions-to-a-user"></a>Pour affecter des autorisations à un utilisateur
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Utilisateurs**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Utilisateurs**, puis sélectionnez le lien connexe.
 2. Sélectionnez l'utilisateur auquel affecter des autorisations.
 Tous les ensembles d’autorisations qui sont affectés à l’utilisateur sont affichés dans le récapitulatif **Ensemble d’autorisations utilisateur**.
 3. Sélectionnez l'option **Modifier** pour ouvrir la fenêtre **Fiche utilisateur**.
@@ -46,7 +43,7 @@ Tous les ensembles d’autorisations qui sont affectés à l’utilisateur sont 
 ## <a name="to-group-users-in-user-groups"></a>Pour regrouper des utilisateurs dans des groupes d'utilisateurs
 Vous pouvez définir des groupes d'utilisateurs pour vous aider à gérer les ensembles d'autorisations pour des groupes d'utilisateurs de votre société. Vous pouvez utiliser une fonction pour copier tous les ensembles d'autorisations d'un groupe d'utilisateurs existant vers un nouveau groupe d'utilisateurs. Les membres du groupe d'utilisateurs ne sont pas copiés.
 
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Utilisateurs**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Utilisateurs**, puis sélectionnez le lien connexe.
 2. Sinon, dans la fenêtre **Utilisateurs**, sélectionnez l'option **Groupes d'utilisateurs**.
 3. Dans la fenêtre **Groupes d'utilisateurs**, sélectionnez un groupe d'utilisateurs existant à copier, puis sélectionnez l'option **Copier groupe d'utilisateurs**.
 4. Dans le champ **Nouveau code du groupe d'utilisateurs**, spécifiez le nom du nouveau groupe d'utilisateurs, puis cliquez sur le bouton **OK**.
@@ -61,7 +58,7 @@ Vous pouvez définir des groupes d'utilisateurs pour vous aider à gérer les en
 Si les ensembles d’autorisations qui sont fournis par défaut avec [!INCLUDE[d365fin](includes/d365fin_md.md)] ne sont pas suffisants ou ne sont pas applicables à votre organisation, vous pouvez créer des ensembles d’autorisations. Et si les différentes autorisations d'objet qui définissent un ensemble d'autorisations ne sont pas appropriées, vous pouvez modifier un ensemble d'autorisations. Vous pouvez créer un ensemble d'autorisations manuellement, ou vous pouvez utiliser une fonction d'enregistrements qui stocke vos actions lorsque vous naviguez dans un scénario, puis génère l'ensemble d'autorisations requis.
 
 ### <a name="to-create-or-modify-permission-sets-manually"></a>Pour créer ou modifier des ensembles d'autorisations manuellement
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Utilisateurs**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Utilisateurs**, puis sélectionnez le lien connexe.
 2. Dans la fenêtre **Utilisateurs**, cliquez sur l'option **Ensembles d'autorisations**.
 3. Dans la fenêtre **Ensembles d'autorisations**, cliquez sur l'option **Nouveau**.
 4. Sur une nouvelle ligne, renseignez les champs selon vos besoins.
@@ -83,7 +80,7 @@ Si les ensembles d’autorisations qui sont fournis par défaut avec [!INCLUDE[d
 9. Répétez les étapes 7 et 8 pour ajouter des autorisations pour d'autres objets de l'ensemble d'autorisations.
 
 ### <a name="to-create-or-modify-permission-sets-by-recording-your-actions"></a>Pour créer ou modifier des ensembles d'autorisations en enregistrant vos actions
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Utilisateurs**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Utilisateurs**, puis sélectionnez le lien connexe.
 2. Dans la fenêtre **Utilisateurs**, cliquez sur l'option **Ensembles d'autorisations**.
 3. Dans la fenêtre **Ensembles d'autorisations**, cliquez sur l'option **Nouveau**.
 4. Sur une nouvelle ligne, renseignez les champs selon vos besoins.
@@ -105,13 +102,14 @@ L'utilisateur n'a toutefois pas besoin d'avoir entièrement accès à la table *
 ## <a name="to-set-up-user-time-constraints"></a>Pour configurer des contraintes de temps utilisateur
 Les administrateurs peuvent définir les périodes de temps pendant lesquelles les utilisateurs spécifiés peuvent valider, et spécifier également si le système enregistre la durée pendant laquelle les utilisateurs spécifiés ont ouvert une session. Les administrateurs peuvent également affecter des centres de gestion à des utilisateurs.
 
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Paramètres utilisateur**, puis choisissez le lien associé.
+1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Paramètres utilisateur**, puis choisissez le lien associé.
 2. Dans la fenêtre **Paramètres utilisateur**, sélectionnez l'action **Nouveau**.
 3. Dans le champ **ID utilisateur**, entrez l'ID d'un utilisateur, ou cliquez sur le champ pour visualiser tous les utilisateurs Windows actuels dans le système.
 4. Renseignez les champs selon vos besoins.
 
 ## <a name="see-also"></a>Voir aussi
 [Préparation aux activités commerciales](ui-get-ready-business.md)  
+[Configuration et administration dans Dynamics 365 for Financials](admin-setup-and-administration.md)  
 [Bienvenue dans [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

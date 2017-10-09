@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: a4558787532b1e4713a2a0681bb8acf910519504
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-create-contact-persons"></a>Procédure : créer des personnes contact
@@ -27,7 +26,7 @@ Vous pouvez créer une fiche contact pour chaque contact qui travaille dans les 
 >   Avant de créer un contact, vous pouvez vérifier les paramètres d'**Héritage** dans la fenêtre **Paramètres Marketing**. La configuration des paramètres d'héritage permet de faire en sorte que les informations relatives aux sociétés contact qui sont communes aux personnes contact, telles que les informations adresse, puissent être automatiquement copiées de la société contact à la personne contact chaque fois que vous créez une personne contact pour une société contact enregistrée.
 
 ## <a name="to-create-a-contact-card-for-a-person"></a>Pour créer une fiche contact pour une personne
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Contacts**, puis sélectionnez le lien connexe.
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Contacts**, puis sélectionnez le lien connexe.
 2. Sélectionnez l'action **Nouveau**.
 3. Dans le champ **N°**, saisissez le numéro du contact.
 

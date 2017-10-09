@@ -11,12 +11,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 4a41abe08412b357207cbbc08e8dc5041b12d942
+ms.translationtype: HT
+ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
+ms.openlocfilehash: 2a84fbed87b4d6223e98db0c0bc1f5c5c7d1ba78
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-general-fixed-assets-information"></a>Procédure : configurer des informations générales pour les immobilisations
@@ -106,7 +105,7 @@ Si vous utilisez les immobilisations dans [!INCLUDE[d365fin](includes/d365fin_md
 2. Créez une fiche immobilisation pour chaque immobilisation existante.  
 3. Configurez les lois d'amortissement d'immobilisation.  
 4. Activez l'intégration comptable en procédant comme suit.
-5. Dans la zone **Rechercher**, entrez **Lois d'amortissement**, puis sélectionnez le lien associé.  
+5. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), saisissez **Lois d'amortissement**, puis sélectionnez le lien connexe.  
 6. Sélectionnez la loi d'amortissement appropriée. Sous l'onglet **Accueil**, dans le groupe **Gérer**, choisissez **Modifier** pour ouvrir la fenêtre **Fiche loi d'amortissement**.
 7. Sur le raccourci **Intégration**, assurez-vous que tous les champs sont vides en retirant toutes les coches. Si vous disposez de plusieurs lois d'amortissement, activez l'intégration en comptabilité pour chacune d'elles.  
 8. Dans la feuille immobilisation, entrez les lignes suivantes pour chaque immobilisation :
@@ -114,7 +113,7 @@ Si vous utilisez les immobilisations dans [!INCLUDE[d365fin](includes/d365fin_md
    * Une ligne avec l'amortissement cumulé jusqu'à la fin de l'exercice comptable précédent.
    * Une ligne avec l'amortissement cumulé du début de l'exercice comptable en cours jusqu'à la date à laquelle [!INCLUDE[d365fin](includes/d365fin_md.md)] est défini pour démarrer le calcul de l'amortissement.
 
-Si vous disposez d'autres soldes ouverts, vous pouvez également les saisir maintenant\-, (amortissement, réévaluation, par exemple).  
+Si vous disposez d'autres soldes ouverts, vous pouvez également les saisir maintenant, (dépréciation, réévaluation, par exemple).  
 
 Si les immobilisations ne sont pas intégrées en comptabilité, omettez les étapes 4 à 7.
 

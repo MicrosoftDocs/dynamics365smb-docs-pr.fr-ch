@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: repair, service
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: cdf1183fb5383311dc34d8c2c619a1eddf7e8851
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-fixed-asset-maintenance"></a>Procédure : configurer une maintenance d'immobilisation

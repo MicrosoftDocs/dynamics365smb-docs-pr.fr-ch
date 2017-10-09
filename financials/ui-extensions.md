@@ -9,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 07/05/2017
+ms.date: 07/07/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 85d15de13739e944ff8817b402b37ae1c7e1b144
-ms.openlocfilehash: 6bf7d2024ff9f0254e1d885580126fb16c0c6fce
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 2aefbfade71ed78c89c59597f76c6e6707110d16
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="customizing-dynamics-365-for-financials-using-extensions"></a>Personnalisation de Dynamics 365 for Financials à l'aide des extensions
@@ -51,9 +50,10 @@ Microsoft fournit les extensions suivantes :
 
 * [Extension Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md)  
 * [Extension Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)  
-* [Extension PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)  
+* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
+* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)  
 * [Extension QuickBooks Data Migration](ui-extensions-quickbooks-data-migration.md)  
-* [Extension Prévision des ventes et des stocks](ui-extensions-sales-forecast.md)  
+* [Stock et ventes prévus](ui-extensions-sales-forecast.md)  
 * [Extension Ceridian Payroll](ui-extensions-ceridian-payroll.md)  
 * [Extension Importer le fichier de paie de Quickbooks](ui-extensions-quickbooks-payroll.md)  
 * [Extension WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
@@ -69,7 +69,7 @@ Microsoft fournit les extensions suivantes :
 [Procédure: configurer le service de flux de la Envestnet Yodlee Bank](bank-how-setup-bank-statement-service.md)  
 [Procédure : activer les paiements client via Paypal](sales-how-enable-payment-service-extensions.md)  
 [Migrer des données métier à partir d'autres systèmes financiers](upload-data.md)  
-[Configurer l'extension GetAddress.io UK Postal Code](uk-setup-postal-code-service.md)  
+[Configurer l'extension GetAddress.io UK Postal Code](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)  
 [Extensions [!INCLUDE[d365fin](includes/d365fin_md.md)] par d'autres fournisseurs](ui-extensions-other.md)  
 [Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 

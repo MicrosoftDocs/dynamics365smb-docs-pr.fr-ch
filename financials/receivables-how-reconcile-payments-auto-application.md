@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 03/29/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: b4ff3d64f23a5dfb9800abeedb7374764b060f4d
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-reconcile-payments-using-automatic-application"></a>Procédure : Rapprocher les paiements à l'aide de l'application automatique
@@ -33,7 +32,7 @@ Une fonctionnalité similaire existe pour rapprocher les montants en excédent s
 
 Vous utilisez la fonction **Lettrer automatiquement**, soit automatiquement lorsque vous importez un fichier ou flux bancaire avec transactions de paiement ou lorsque vous l'activez, pour lettrer des paiements à leurs écritures ouvertes associées sur la base d'une correspondance entre les données d'une ligne feuille et celles d'une ou plusieurs écritures ouvertes.
 
-Sur les lignes feuille dans lesquelles un paiement a été lettré automatiquement à une ou plusieurs écritures ouvertes, le champ **Fiabilité correspondance** présente une valeur entre Faible et Élevée pour indiquer la qualité de la correspondance des données sur laquelle le lettrage de paiement suggéré est basée. En outre, les champs **Type compte** and **N° compte** sont renseignés avec les informations sur le client ou le fournisseur auquel le paiement validé est lettré. Si vous définissez un mappage de texte à compte, le lettrage automatique peut entraîner une valeur de fiabilité de correspondance **Élevée – Mappage de texte à compte**.
+Sur les lignes feuille dans lesquelles un paiement a été lettré automatiquement à une ou plusieurs écritures ouvertes, le champ **Fiabilité correspondance** présente une valeur entre Faible et Élevée pour indiquer la qualité de la correspondance des données sur laquelle le lettrage de paiement suggéré est basée. En outre, les champs **Type de compte** et **N° compte** sont renseignés à l'aide des informations sur le client ou le fournisseur auquel le paiement est appliqué. Si vous définissez un mappage de texte à compte, le lettrage automatique peut entraîner une valeur de fiabilité de correspondance **Élevée – Mappage de texte à compte**.
 
 Pour chaque ligne feuille de la fenêtre **Feuille rapprochement bancaire**, vous pouvez ouvrir la fenêtre **Lettrage paiement** pour visualiser toutes les écritures ouvertes candidates au paiement et pour afficher les informations détaillées pour chaque écriture sur la correspondance des données sur laquelle un lettrage de paiement est basé. Ici, vous pouvez appliquer les paiements manuellement ou réappliquer les paiements qui ont été automatiquement appliqués à une écriture incorrecte. Pour plus d'informations, reportez-vous à [Procédure : réviser ou lettrer les paiements après application automatique](receivables-how-review-apply-payments-auto-application.md).
 
@@ -52,7 +51,7 @@ Pour chaque ligne feuille de la fenêtre **Feuille rapprochement bancaire**, vou
 
     La fenêtre **Feuille rapprochement bancaire** est renseignée avec les lignes pour les paiements représentant les transactions bancaires dans le relevé bancaire importé.
 
-    Sur les lignes pour les paiements qui ont été automatiquement lettrés à leurs écritures ouvertes associées, le champ **Fiabilité correspondance** présente une valeur entre **Faible** et **Élevée** pour indiquer la qualité de la correspondance des données sur laquelle le lettrage du paiement suggéré est basé. En outre, les champs **Type compte** and **N° compte** sont renseignés avec les informations sur le client ou le fournisseur auquel le paiement validé est lettré.
+    Sur les lignes pour les paiements qui ont été automatiquement lettrés à leurs écritures ouvertes associées, le champ **Fiabilité correspondance** présente une valeur entre **Faible** et **Élevée** pour indiquer la qualité de la correspondance des données sur laquelle le lettrage du paiement suggéré est basé. En outre, les champs **Type de compte** et **N° compte** sont renseignés à l'aide des informations sur le client ou le fournisseur auquel le paiement est appliqué.
 7. Sélectionnez une feuille journal, puis sélectionnez l'action **Lettrer manuellement** pour réviser, relettrer ou lettrer le paiement manuellement dans la fenêtre **Lettrage paiement**. Pour plus d'informations, reportez-vous à [Procédure : réviser ou lettrer les paiements après application automatique](receivables-how-review-apply-payments-auto-application.md).
 
     Une fois le lettrage manuel terminé, le champ **Fiabilité correspondance** de la ligne feuille que vous avez traitée manuellement contient la valeur **Accepté**.

@@ -1,8 +1,6 @@
 ---
-title: "Bienvenue dans Dynamics 365 for Financials | Microsoft Docs"
-description: "Dynamics 365 for Financials est une solution de gestion d'entreprise pour les PME qui automatise et simplifie les processus entreprise et vous aide à gérer votre entreprise. L'inscription est facile, et vous pouvez migrer des données métiers existantes de votre système existant."
-services: project-madeira
-documentationcenter: 
+title: "Se familiariser avec Dynamics 365 for Financials | Microsoft Docs"
+description: "Découvrez les fonctionnalités et les scénarios de travail dans Dynamics 365 for Financials, une solution de gestion d'entreprise pour les PME."
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -10,14 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 06/02/2017
+ms.date: 08/23/2017
 ms.author: solsen
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 1a7fbf443c6fb3f9276e3f6a5d3ea196b7fb2cb7
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: d44f71f9f52c60a789cfb84f3f7a96daa0f9cab1
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="welcome-to-included365finlongincludesd365finlongmdmd"></a>Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -30,8 +27,8 @@ Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], certains éléments vous seron
 Pour obtenir des astuces rapides, consultez :  
 
 * [Trouver des éléments](ui-search.md)  
-* [Définir des filtres](ui-enter-criteria-filters.md)  
-* [Trier des données dans des listes](ui-sorting.md)  
+* [Recherche, filtrage et tri de listes](ui-enter-criteria-filters.md)  
+* [Saisie de données](ui-enter-data.md)  
 
 Pour plus d'informations, reportez-vous à [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  
 
@@ -60,16 +57,19 @@ Dans la fenêtre **Configuration assistée**, vous découvrirez l'expérience  *
 | Configurer la création d'états |Configure des ensembles de données que vous pouvez utiliser pour créer des rapports puissants à l'aide d'Excel ou de Power BI, par exemple. |
 | Configurer un flux de travail approbation article |Configure la capacité d'envoyer une notification à un approbateur lorsqu'un utilisateur modifie ou crée un article. |
 | Configurer un flux de travail approbation paiement |Configure la capacité d'envoyer une notification à un approbateur lorsqu'un utilisateur soumet des lignes de feuille paiement à l'approbation. |
-| Configurer la connexion à Dynamics CRM |Configure une connexion vers Dynamics CRM, ce qui vous permet de synchroniser les données telles que les contacts et les informations des commandes vente. |
+| Configurer le connecteur Dynamics 365 |Configure une connexion vers Dynamics 365 for Sales, ce qui vous permet de synchroniser les données telles que les contacts et les informations des commandes vente. |
 | Configuration de la Sales Tax |Vous permet de démarrer avec des groupes taxes par défaut et l'affectation de codes zone de recouvrement que vous pouvez affecter à des clients et des fournisseurs afin de calculer automatiquement la taxe de vente dans les documents vente ou achat. |
 
 ## <a name="trying-things-out-in-your-own-company"></a>Faire des essais dans votre propre société
-Vous voulez vous abonner ? Vous pouvez facilement quitter la société de démonstration et créer la vôtre et y travailler. C'est une bonne manière de démarrer un abonnement. Les paramètres sont fournis pour des états financiers ; vous devez juste créer ou importer vos articles, clients et fournisseurs. Après cela, vous pouvez valider des factures et utiliser les outils de veille économique pour analyser votre entreprise. Vous pouvez utiliser votre société pour une version d'évaluation gratuite pendant 30 jours. Si vous vous abonnez à [!INCLUDE[d365fin](includes/d365fin_md.md)] durant cette période, vous êtes déjà prêt à l'utiliser. Vous pouvez continuer le travail commencé durant la période d'essai.  
+Vous voulez vous abonner ? Vous pouvez facilement quitter la société de démonstration et créer la vôtre et y travailler. C'est une bonne manière de démarrer un abonnement. Les paramètres sont fournis pour des états financiers ; vous devez juste créer ou importer vos clients, fournisseurs et produits ou services que vous vendez. Après cela, vous pouvez valider des factures et utiliser les outils de veille économique pour analyser votre entreprise. Vous pouvez utiliser votre société pour une version d'évaluation gratuite pendant 30 jours. Si vous vous abonnez à [!INCLUDE[d365fin](includes/d365fin_md.md)] durant cette période, vous êtes déjà prêt à l'utiliser. Vous pouvez continuer le travail commencé durant la période d'essai.  
 
 Pour créer une société pour tester des éléments, allez dans le menu **Mes paramètres** dans le coin supérieur droit, puis modifiez la société **Ma société**. Déconnectez-vous de [!INCLUDE[d365fin](includes/d365fin_md.md)], puis connectez-vous de nouveau pour appliquer le changement. Un guide de configuration assistée vous aidera à fournir des informations de base concernant votre société. Lorsque cela est effectué, consultez la page d'accueil et recherchez l'option **Configuration assistée**.  
 
 ## <a name="ready-to-subscribe"></a>Prêt à vous abonner ?
-À chaque connexion au cours de la période gratuite, une notification s'affiche dans une barre bleue en haut et indique le temps restant. Si vous décidez de vous inscrire, utilisez le lien de la notification pour contacter Microsoft. Vous pouvez également accéder à [Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=828707).
+À chaque connexion au cours de la période gratuite, une notification s'affiche dans une barre bleue en haut et indique le temps restant. Si vous décidez de vous inscrire, utilisez le lien de la notification pour contacter Microsoft. Vous pouvez également contacter l'équipe [!INCLUDE[d365fin](includes/d365fin_md.md)] Sales à l'adresse [Microsoft Dynamics 365 for Financials](https://go.microsoft.com/fwlink/?linkid=828707).  
+
+## <a name="other-dynamics-365-apps"></a>Autres applications Dynamics 365
+Accédez au contenu sur les autres applications Dynamics 365 en sélectionnez le lien [Dynamics 365](https://docs.microsoft.com/dynamics365) dans la bannière bleue en haut de cette page. Vous pouvez également en savoir plus en visitant le [site Web Dynamics 365](https://www.microsoft.com/en-us/dynamics365/).
 
 ## <a name="see-also"></a>Voir aussi
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
@@ -80,7 +80,7 @@ Pour créer une société pour tester des éléments, allez dans le menu **Mes p
 [Obtention de [!INCLUDE[d365fin](includes/d365fin_md.md)] sur votre périphérique mobile](install-mobile-app.md)  
 [Documentation Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  
 [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
-[Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=828707)  
+[Microsoft Dynamics 365 for Financials](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 

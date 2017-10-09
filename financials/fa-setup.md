@@ -1,7 +1,6 @@
 ---
 title: "Paramétrer les immobilisations| Microsoft Docs"
 description: "En savoir plus sur la série de tâches que vous devez effectuer pour configurer les immobilisations, telles que les machines ou les bâtiments."
-services: project-madeira
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -10,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 06/02/2017
+ms.date: 08/15/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 98cf0364b9983e2bf62fe6a3ce4aa882af3ece14
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 9dea8be0f5b0200f97082dc25dbaa2483ad6c735
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="setting-up-fixed-assets"></a>Paramétrage d'immobilisations
@@ -32,6 +30,9 @@ Le tableau ci-dessous contient des liens vers des informations supplémentaires.
 >   Vous pouvez enregistrer les transactions immobilisation dans les fenêtres **Feuille compta. immo.** ou **Feuille immo.**, selon que les transactions sont destinées pour des rapports financiers ou pour la gestion interne. L'aide pour les immobilisations décrit uniquement la procédure d'utilisation de la fenêtre **Feuille compta. immo.**.  
 
 Lorsque vous activez une activité immobilisation dans la section **Intégration compta.** de la fenêtre **Fiche loi d'amortissement**, la fenêtre **Feuille compta. immo.** sera utilisée pour valider les transactions pour l'activité.
+
+> [!NOTE]  
+>  Cette fonctionnalité nécessite que l'expérience soit définie sur **Suite**. Pour plus d'informations, voir [Personnalisation de votre expérience Financials](ui-experiences.md).  
 
 Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.  
 

@@ -10,20 +10,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
-ms.date: 06/02/2017
+ms.date: 09/14/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ef5c6f4b9106b1b289cc5ed060fc28426fde0ae2
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 7691b7a0aab87309d02833517a91eb9938ee3a32
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-the-envestnet-yodlee-bank-feeds-service"></a>Procédure: configurer le service de flux de la Envestnet Yodlee Bank
 Vous pouvez importer des relevés bancaires électroniques auprès de votre banque pour renseigner rapidement la fenêtre **Feuille rapprochement bancaire** de sorte à pouvoir lettrer les paiements et rapprocher le compte bancaire. Pour plus d'informations, reportez-vous à [Lettrage automatique des paiements et rapprochement des comptes bancaires](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 Le service de flux de la banque Envestnet Yodlee est installé comme une extension de [!INCLUDE[d365fin](includes/d365fin_md.md)] et est prêt à être activé. Pour plus d'informations, voir [Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md).
+
+> [!NOTE]
+> Le service Envestnet Yodlee Bank Feeds n'est pris en charge qu'aux États-Unis, au Canada et au Royaume-Uni.
 
 Une fois que vous avez activé le service de flux bancaire, vous devez lier le compte bancaire au compte bancaire en ligne à partir duquel proviendra le flux. Vous liez des comptes bancaires à des comptes bancaires en ligne dans chacun des scénarios suivants :
 
@@ -58,7 +60,7 @@ Le service de flux bancaire est activé lorsque vous liez un compte bancaire à 
     > [!NOTE]  
 >   Si vous disposez de plusieurs comptes bancaires en ligne dans cette banque, vous devez créer des comptes bancaires supplémentaires pour ceux-ci dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Voir les étapes 8 à 10.  
 
-    Une fois le processus accompli, le nom de la banque s'affiche dans le volet **Mes comptes** de l'onglet **Lié**. Le numéro entre parenthèses indique le nombre de comptes bancaires en ligne ayant été liés.  
+    À la fin du processus, le nom de la banque s'affiche dans le volet **Mes comptes** sur l'onglet **Lié**. Le numéro entre parenthèses indique le nombre de comptes bancaires en ligne ayant été liés.  
 7. Cliquez sur le bouton **OK**.
 
     Si vous liez un seul compte bancaire en ligne, la fenêtre **Fiche compte bancaire archivé** s'ouvre et affiche le nom du compte bancaire en ligne. Dans ce cas, la tâche de liaison de compte bancaire est terminée. Il ne vous reste plus qu'à configurer le compte bancaire. Pour plus d'informations, reportez vous à [Procédure: configuration de comptes bancaires](bank-how-setup-bank-accounts.md).
@@ -80,7 +82,7 @@ Le service de flux bancaire est activé lorsque vous liez un compte bancaire à 
 
     Le service de flux bancaire se prépare à lier votre compte bancaire dans [!INCLUDE[d365fin](includes/d365fin_md.md)] au compte bancaire en ligne connexe.  
 
-    Une fois le processus accompli, le nom de la banque s'affiche dans le volet **Mes comptes** de l'onglet **Lié**. Si la banque a plus d'un compte bancaire, seul le compte bancaire que vous avez sélectionné au cours de l'étape 2 est lié.  
+    Une fois le processus terminé avec succès, le nom de la banque s'affiche dans le volet **Mes comptes** sous l'onglet **Lié** . Si la banque a plusieurs comptes bancaires, seul le compte bancaire que vous avez sélectionné à l'étape 2 est lié.  
 5. Cliquez sur le bouton **OK**.
 
 Dans la fenêtre **Liste des comptes bancaires**, la case **Lié** est cochée.

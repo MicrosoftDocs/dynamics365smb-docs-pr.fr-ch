@@ -1,8 +1,6 @@
 ---
 title: "Aperçu des tâches permettant de configurer Dynamics 365 for Financials | Microsoft Docs"
 description: "Décrit les tâches permettant de paramétrer, d'initialiser, et de configurer Dynamics 365 for Financials selon vos besoins."
-services: project-madeira
-documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,14 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 06/07/2017
+ms.date: 09/01/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: e6efc11442a693da00c289866b726345ef97fb39
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: cbf0f6521db686f4e1a820070969bd0193227015
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="setting-up-dynamics-365-for-financials"></a>Configuration de Dynamics 365 for Financials
@@ -38,15 +35,28 @@ Certaines fonctionnalités (générales ou pour des processus d'entreprise spéc
 | Configurer les règles et les valeurs qui définissent les stratégies de stock de la société, configurer des magasins si vous stockez dans plusieurs entrepôts, et catégoriser les articles pour améliorer les opérations de recherche et de tri. |[Configuration de stock](inventory-setup-inventory.md) |
 | Configurer les ressources, les feuilles de temps et les projets pour la gestion des projets. |[Configuration de la gestion de projet](projects-setup-projects.md) |
 | Configurer comment assurer, maintenir et amortir les immobilisations, et comment enregistrer les coûts des immobilisations dans la comptabilité de la société. |[Paramétrage d'immobilisations](fa-setup.md) |
+|Définir les règles et valeurs générales pour les processus entrepôt et le traitement spécifique au niveau de chaque magasin.|[Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)|
+|Préparer les nomenclatures de production et les gammes pour définir la façon dont les articles finis sont produits, et préparer les postes ou centres de charge pour effectuer les opérations requises.|[Paramétrage de la production](production-configure-production-processes.md)|
 | Configurer des codes d'identification uniques pour les enregistrements, tel que les fiches, les documents, et les lignes feuille, pour les suivre dans le système. |[Création des souches de numéros](ui-create-number-series.md) |
 | Configurer la fenêtre **Paramétrage courrier SMTP** pour envoyer et recevoir des e-mails à partir des documents dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. |[Procédure : configurer la messagerie](madeira-how-setup-email.md) |
 | Configurez des codes d'identification uniques. |[Procédure : création des souches de numéros](ui-create-number-series.md) |
 
+Certaines zones nécessitent que vous soyez un administrateur dans votre abonnement [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, voir [Configuration et administration dans Dynamics 365 for Financials](admin-setup-and-administration.md).  
+
 ## <a name="see-also"></a>Voir aussi
 [Finances](finance.md)  
-[Ventes](sales-manage-sales.md)  
+[Ventes](sales-manage-sales.md)
 [Achats](purchasing-manage-purchasing.md)  
+[STOCKS ET EN-COURS](inventory-manage-inventory.md)    
+[Gestion de projets](projects-manage-projects.md)
+[Immobilisations](fa-manage.md)    
+[Gestion des assemblages](assembly-assemble-items.md)  
+[Production](production-manage-manufacturing.md)  
+[Gestion d'entrepôt](warehouse-manage-warehouse.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Bienvenue dans [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
+[Configuration et administration dans Dynamics 365 for Financials](admin-setup-and-administration.md)  
+[Création de sociétés dans [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)  
+[Bienvenue dans [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

@@ -10,18 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
-ms.date: 06/06/2017
+ms.date: 06/28/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: bb79c8df5b353239802f63fc3c268c83b6eb7859
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: bab124ecc4d98886e41fbee3af00d4913435c993
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-export-payments-to-a-bank-file"></a>Procédure d'exportation de paiements vers un fichier bancaire
-Lorsque vous êtes prêt à effectuer des paiements à vos fournisseurs par l'intermédiaire de la fenêtre **Feuille paiement**, vous pouvez exporter un fichier contenant les informations de paiement sur les lignes feuille. Vous pouvez ensuite transférer le fichier à votre banque électronique qu'elle traite les transferts d'argent associés.
+Lorsque vous êtes prêt à effectuer des paiements à vos fournisseurs ou rembourser vos salariés, vous pouvez exporter un fichier contenant les informations de paiement sur les lignes dans la fenêtre **Feuille paiement**. Vous pouvez ensuite transférer le fichier à votre banque afin qu'elle traite les transferts d'argent concernés.
 
 Dans la version générique de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], un fournisseur global de services pour convertir les données bancaires dans n'importe quel format de fichier que votre banque requiert est paramétré et connecté. Dans les versions nord-américaines, le même service peut être utilisé pour envoyer des fichiers de paiement comme transfert de fonds électronique (EFT), toutefois avec un processus légèrement différent. Voir l'étape 6 de la section « Pour exporter des paiements vers un fichier bancaire ».    
 
@@ -35,10 +34,8 @@ La fenêtre **Registres virement** vous permet d'afficher les fichiers paiement 
 2. Remplissez les lignes feuille paiement, par exemple à l'aide de la fonction **Proposer paiements fournisseur**. Pour plus d'informations, reportez vous à [Procédure : proposer des paiements fournisseur](payables-how-suggest-vendor-payments.md).
 3. Renseignez les champs des lignes feuille paiement si nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-    > [!NOTE]  
->   Si vous utilisez EFT, vous devez sélectionner **Paiement électronique** ou **Paiement électronique-IAT** dans le champ **Mode émission paiement**.
-
-    Différents services d'exportation de fichiers et leurs formats nécessitent des valeurs de configuration différentes dans les fenêtres **Fiche compte bancaire archivé** et **Fiche compte bancaire fourn.**. Vous serez informé si des valeurs de configuration sont manquantes ou fausses alors que vous essayez d'exporter le fichier.
+> [!NOTE]  
+>   Si vous utilisez EFT, vous devez sélectionner **Paiement électronique** ou **Paiement électronique-IAT** dans le champ **Mode émission paiement**. Différents services d'exportation de fichiers et leurs formats nécessitent des valeurs de configuration différentes dans les fenêtres **Fiche compte bancaire archivé** et **Fiche compte bancaire fourn.**. Vous serez informé si des valeurs de configuration sont manquantes ou fausses alors que vous essayez d'exporter le fichier.
 
 4. Lorsque vous avez renseigné toutes les lignes feuille paiement, sélectionnez **Exporter**.
 5. Dans la fenêtre **Exporter paiements électroniques**, renseignez les champs selon vos besoins.
@@ -46,7 +43,7 @@ La fenêtre **Registres virement** vous permet d'afficher les fichiers paiement 
     Chaque message d'erreur est affiché dans le récapitulatif **Erreurs fichier de paiement** dans lequel vous pouvez également choisir un message d'erreur pour afficher les informations détaillées. Vous devez résoudre toutes les erreurs avant que le fichier de paiement ne puisse être exporté.
 
     > [!TIP]  
->   Lorsque vous utilisez le service conversion données bancaires, un message d'erreur courant stipule que le numéro de compte bancaire n'a pas la longueur requise par votre banque. Pour éviter ou résoudre l'erreur, vous devez supprimer la valeur du champ **IBAN** de la fenêtre **Fiche compte bancaire** puis, dans le champ **N° compte bancaire**, saisissez un numéro de compte bancaire au format exigé par votre banque.
+>   Lorsque vous utilisez le service conversion données bancaires, un message d'erreur courant stipule que le numéro de compte bancaire n'a pas la longueur requise par votre banque. Pour éviter ou résoudre l'erreur, vous devez supprimer la valeur du champ **IBAN** de la fenêtre **Fiche compte bancaire** puis, dans le champ **N° compte bancaire**, saisissez le numéro du compte bancaire dans le format requis par votre banque.
 
 6. Dans la fenêtre **Enregistrer sous**, spécifiez l'emplacement où le fichier est exporté, puis choisissez **Enregistrer**.
 
@@ -94,3 +91,4 @@ Vous pouvez réexporter des fichiers paiement à partir de la fenêtre **Registr
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

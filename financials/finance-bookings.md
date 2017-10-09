@@ -1,6 +1,6 @@
 ---
-title: "Facturer vos réservations dans Dynamics 365| Microsoft Docs"
-description: "Apprenez comment vous pouvez effectuer la facturation en vrac des réservations Microsoft dans Dynamics 365 for Financials."
+title: "Facturer vos réservations dans Dynamics 365 | Microsoft Docs"
+description: "Apprenez comment vous pouvez effectuer des facturations en vrac à partir de Microsoft Bookings dans Dynamics 365 for Financials."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,16 +10,15 @@ ms.workload: na
 ms.search.keywords: invoicing, bookings
 ms.date: 06/14/2017
 ms.author: edupont
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 1f1a1645ba27a3b42d67c11f7472c283ca44dbd1
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
-# <a name="bulk-invoicing-for-microsoft-bookings-in-included365finincludesd365finmdmd"></a>Facturation en vrac pour les réservations Microsoft dans [!INCLUDE[d365fin](includes/d365fin_md.md)]
-Si votre société utilise l'application Réservations d'Office 365, vous pouvez effectuer la facturation en vrac des rendez-vous. La page **Réservations non facturées** de [!INCLUDE[d365fin](includes/d365fin_md.md)] fournit une liste des réservations effectuées par la société. Cette page vous permet de rapidement sélectionner les rendez-vous à facturer et de créer des factures provisoires pour les services fournis.  
+# <a name="bulk-invoicing-for-microsoft-bookings-in-included365finincludesd365finmdmd"></a>Facturation en vrac pour Microsoft Bookings dans [!INCLUDE[d365fin](includes/d365fin_md.md)]
+Si votre société utilise l'application Bookings d'Office 365, vous pouvez effectuer la facturation en vrac des rendez-vous. La page **Réservations non facturées** de [!INCLUDE[d365fin](includes/d365fin_md.md)] fournit une liste des réservations effectuées par la société. Cette page vous permet de rapidement sélectionner les rendez-vous à facturer et de créer des factures provisoires pour les services fournis.  
 
 ## <a name="connect-to-bookings"></a>Connexion à Réservations
 Pour connecter votre [!INCLUDE[d365fin](includes/d365fin_md.md)] à Réservations, vous devez indiquer votre société Réservations, quoi synchroniser avec Réservations, la fréquence de la synchronisation et les modèles à utiliser. Vous définissez ces informations sur la page **Paramètres synch. réservations**, que vous pouvez lancer depuis la page **Configuration de la synchronisation Exchange**, que vous pouvez rechercher à l'aide de [Rechercher](ui-search.md).  
@@ -35,5 +34,5 @@ Le prise en charge de la facturation des rendez-vous dans Réservations est plus
 [Finances](finance.md)  
 [Procédure : facturer des ventes](sales-how-invoice-sales.md)  
 [Définition des ventes](sales-setup-sales.md)  
-[Réservations Microsoft](https://products.office.com/en-us/business/scheduling-and-booking-app)  
+[Microsoft Bookings](https://products.office.com/en-us/business/scheduling-and-booking-app)  
 

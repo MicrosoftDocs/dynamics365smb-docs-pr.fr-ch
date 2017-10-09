@@ -1,6 +1,6 @@
 ---
 title: Utilisation de Dynamics 365 for Financials avec Outlook| Microsoft Docs
-description: "Dynamics 365 for Financials bénéficie d'une intégration complète à Office 365 ce qui vous permet de gérer tous vos interactions et message d'affaires avec les clients et les fournisseurs directement dans Outlook."
+description: "Dynamics 365 for Financials bénéficie d'une intégration complète à Office 365, ce qui vous permet de gérer tous vos interactions et messages d'affaires avec les clients et les fournisseurs directement dans Outlook."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -12,23 +12,22 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
 ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 1944d7633c5f19a42ae8bbe022b8ef026e9515cd
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="using-dynamics-365-for-financials-as-your-business-inbox-in-outlook"></a>Utilisation de Dynamics 365 for Financials en tant que boîte de réception professionnelle dans Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] vous permet désormais de gérer les interactions commerciales avec vos clients et fournisseurs, directement dans Microsoft Outlook. Avec le complément Outlook de [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez afficher des informations financières associées à des clients et des fournisseurs, ainsi que créer et envoyer des documents financiers, comme des devis et des factures.  
 
 ## <a name="get-the-add-in"></a>Obtenir le complément
-Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], l'une des étapes de la configuration assistée de mise en route s'effectue dans la fenêtre **Dirigez votre entreprise dans Office 365**. Dans cette fenêtre, lorsque vous cliquez sur le bouton **Configurer dans Outlook**, vous devez spécifier votre nom utilisateur et mot de passe Office 365. Le complément [!INCLUDE[d365fin](includes/d365fin_md.md)] est alors automatiquement ajouté à votre Outlook.  
+Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], l'une des étapes de la configuration assistée de mise en route s'effectue dans la fenêtre **Dirigez votre entreprise dans Office 365**. Dans cette fenêtre, lorsque vous cliquez sur le bouton **Configurer dans Outlook**, vous devez spécifier votre nom utilisateur et mot de passe Office 365. Le complément [!INCLUDE[d365fin](includes/d365fin_md.md)] est alors automatiquement ajouté à votre Outlook.  
 
 Ensuite, lorsque vous ouvrez Outlook, vous voyez des messages électroniques dans Financials Admin. Le nouveau complément est ajouté au ruban Outlook, et dans Outlook Web Access il apparaît dans le ruban des compléments, situé juste au-dessus du corps du message. Le complément lui-même est mis à jour régulièrement, et vous êtes informé qu'une nouvelle version est prête dans Outlook.  
 
-Certaines sociétés utilisant Office 365 n'autorisent pas leurs utilisateurs de déployer des compléments. Vous devez donc vous assurer que vous disposez d'un abonnement à Office 365 qui comprend le service de messagerie et vous autorise à déployer des compléments. Si vous souhaitez quand même essayer le complément, vous pouvez [essayer gratuitement Office 365](https://products.office.com/try).  
+Certaines sociétés utilisant Office 365 n'autorisent pas leurs utilisateurs à déployer des compléments. Ainsi vous devez vous assurer que vous disposez d'un abonnement Office 365 comprenant la messagerie et qui vous permet de déployer des compléments. Si vous souhaitez tout de même essayer le complément, vous pouvez [essayer gratuitement Office 365](https://products.office.com/try).  
 
 ## <a name="using-the-contact-insights-add-in"></a>Utilisation du complément Panorama des contacts
 Imaginons que vous receviez un e-mail d'un client souhaitant obtenir un devis pour certains articles. Directement dans Outlook, vous pouvez ouvrir le complément Financials, qui identifie l'expéditeur comme un client, et ouvre la fiche client de sa société. À partir de ce tableau de bord, vous pouvez afficher des informations générales relatives au client, ainsi que rechercher davantage de détails sur des documents spécifiques. Vous pouvez également effectuer des recherches approfondies dans l'historique des ventes du client. S'il s'agit d'un nouveau client, vous pouvez le créer en tant que tel dans [!INCLUDE[d365fin](includes/d365fin_md.md)] sans quitter Outlook.  
@@ -53,11 +52,11 @@ Dans le complément Liens de document, vous pouvez modifier le document et effec
 ## <a name="adding-the-add-ins-manually"></a>Ajout de compléments manuellement
 Dans certains cas, les compléments ne sont pas ajoutés automatiquement dans Outlook. Même si vous (ou l'un de vos collègues) avez exécuté le guide de configuration assistée pour le compte de la société, [!INCLUDE[d365fin](includes/d365fin_md.md)] ne s'affiche pas forcément dans Outlook. Si vous rencontrez ce problème, vous pouvez ajouter le complément [!INCLUDE[d365fin](includes/d365fin_md.md)] manuellement.  
 
-Premièrement, vous devez vérifier que vous avez accès au complément dans votre compte Office 365. Il vous suffit d'ouvrir Outlook Web Access dans un navigateur, puis d'ajouter `/owa/#path=/options/manageapps` à l'URL dans la barre d'adresse. La page **Gérer les compléments** s'ouvre alors et vous pouvez activer Financials pour Outlook. Ensuite, lorsque vous revenez dans Outlook, [!INCLUDE[d365fin](includes/d365fin_md.md)] devrait être disponible.  
+Premièrement, vous devez vérifier que vous avez accès aux compléments dans votre compte Office 365. Il vous suffit d'ouvrir Outlook Web Access dans un navigateur, puis d'ajouter `/owa/#path=/options/manageapps` à l'URL dans la barre d'adresse. La page **Gérer les compléments** s'ouvre alors et vous pouvez activer Financials pour Outlook. Ensuite, lorsque vous revenez dans Outlook, [!INCLUDE[d365fin](includes/d365fin_md.md)] devrait être disponible.  
 
 De même dans le client de bureau Outlook, vous pouvez vérifier si [!INCLUDE[d365fin](includes/d365fin_md.md)] est répertorié dans la fenêtre **Gérer les compléments**.  
 
-Dans les deux cas, si [!INCLUDE[d365fin](includes/d365fin_md.md)] n'est toujours pas disponible, vous devez vous procurer les fichiers de manifeste macro complémentaire. Pour plus d'informations, contactez l'administrateur Office 365.
+Dans les deux cas, si [!INCLUDE[d365fin](includes/d365fin_md.md)] n'est toujours pas disponible, vous devez vous procurer les fichiers de manifeste macro complémentaire. Pour plus d'informations, contactez votre administrateur Office 365.
 
 ## <a name="see-also"></a>Voir aussi
 [Bienvenue dans [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  

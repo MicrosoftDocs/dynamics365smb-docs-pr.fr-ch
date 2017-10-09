@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.date: 06/06/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 50daaf0a9f0d3beb31a75aa8c554c8833b4d2c8e
+ms.translationtype: HT
+ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
+ms.openlocfilehash: 2085cc744c2ff3761937920cd893faab5a84dada
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-suggest-vendor-payments"></a>Procédure : proposer des paiements fournisseur
@@ -55,7 +54,7 @@ Vous pouvez aussi créer manuellement des lignes de paiement à l'aide de la dat
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion des comptes fournisseur](payables-manage-payables.md)  
-[Exécuter des paiements](payables-make-payments.md)  
+[Effectuer des paiements](payables-make-payments.md)  
 [Utilisation de feuilles comptabilité](ui-work-general-journals.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

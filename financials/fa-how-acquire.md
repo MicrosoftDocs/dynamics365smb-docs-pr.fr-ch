@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: purchase fixed asset
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 903c1a858fe66482cb4404e8b792abade6106489
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-acquire-fixed-assets"></a>Procédure : acquérir des immobilisations
@@ -53,7 +52,7 @@ Vous devez définir à la fois l'immobilisation principale et ses composants en 
 
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Immobilisations**, puis sélectionnez le lien connexe.
 2. Sélectionnez l'immobilisation principale, puis l'action **Composants immo. principale**.
-3. Dans la fenêtre **Composants immo. principale**, sélectionnez le champ **N° immo**. , puis sélectionnez l'immobilisation que vous souhaitez ajouter en tant que composant de l'immobilisation principale.
+3. Dans la fenêtre **Composants immo. principale**, choisissez **N° immo.**., puis sélectionnez l'immobilisation que vous souhaitez ajouter comme composant de l'immobilisation principale.
 4. Fermez la fenêtre.
 5. Répétez les étapes 3 et 4 pour chaque composant de l'immobilisation que vous souhaitez ajouter.
 6. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Paramètres immobilisation**, puis sélectionnez le lien connexe.
@@ -71,7 +70,7 @@ La procédure suivante décrit comment acquérir manuellement une immobilisation
 4. Sélectionnez l'action **Valider**.  
 
 > [!TIP]  
->   Si vous complétez le champ **N° assurance** dans la feuille validation immobilisation lorsque vous validez un coût d'acquisition, [!INCLUDE[d365fin](includes/d365fin_md.md)] valide également le coût d'acquisition de l'immobilisation dans les écritures couverture assurance. Pour en savoir plus, voir [Procédure : assurer des immobilisations](fa-how-insure.md).
+>   Si vous renseignez le champ **N° assurance** dans la feuille validation immobilisation lorsque vous validez un coût d'acquisition, [!INCLUDE[d365fin](includes/d365fin_md.md)] valide également le coût d'acquisition de l'immobilisation dans les écritures assurance. Pour en savoir plus, voir [Procédure : assurer des immobilisations](fa-how-insure.md).
 
 ## <a name="to-cancel-an-acquisition-cost-posting-for-one-fixed-asset"></a>Pour annuler la validation du coût d'une acquisition pour une immobilisation
 Si vous faites une erreur lors de la validation d'un coût d'acquisition, vous pouvez supprimer l'écriture à l'aide du traitement par lots **Annuler écritures immo**, puis valider l'écriture d'acquisition correcte. Les écritures erronées sont transférées vers la fenêtre **Erreur écritures comptables immo.**.

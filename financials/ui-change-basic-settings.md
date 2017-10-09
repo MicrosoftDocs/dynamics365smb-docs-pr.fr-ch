@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
 ms.date: 03/29/2017
 ms.author: solsen
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ed0a6848f07999246566ad740e02abfc561ae130
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b486061fbb497019a56eda803df0b320565ea7bf
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="changing-basic-settings"></a>Modification des paramètres de base
@@ -49,8 +48,11 @@ La date de travail par défaut est généralement la date du jour. Vous pouvez �
 > [!IMPORTANT]  
 >   La date de travail est seulement modifiée jusqu'à ce que vous fermiez la société ou que la date change. Si vous ouvrez une autre société, ou si vous ouvrez la même société le lendemain, et si vous souhaitez toujours utiliser une date qui n'est pas la date programme, il faut à nouveau établir la date de travail.
 
-## <a name="confirmation-dialogs"></a>Boîtes de dialogue de confirmation
-Utilisez les options de cette section si vous souhaitez spécifier des vérifications supplémentaires pour la validation des documents. Ces options sont normalement vérifiées, mais vous pouvez désactiver les cases à cocher pour éviter de recevoir des alertes ou des messages spécifiques.
+## <a name="region"></a>Région
+Le paramètre **Région** détermine la manière dont les dates, heures, nombres et devises sont affichés ou mis en forme.   
+
+## <a name="change-when-i-receive-notifications"></a>Modifier lorsque je reçois des notifications
+Sélectionnez ce lien pour afficher ou modifier les notifications que vous recevez au sujet de certains événements ou modification de statut, lorsque vous êtes sur le point de facturer un client avec des écritures échues, ou lorsque le stock disponible est inférieur à la quantité que vous êtes sur le point de vendre. Pour plus d'informations, voir [Notifications intelligentes](ui-smart-notifications.md).
 
 ## <a name="see-also"></a>Voir aussi
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

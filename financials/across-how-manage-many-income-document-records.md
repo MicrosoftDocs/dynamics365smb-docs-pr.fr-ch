@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 06/02/2016
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: d840981dcceb54c74ac70ed0ddd05b3d3fa9bfc8
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 4256c563edc79ebfbe1bbe9337cf1e8a7e9d9991
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-manage-many-incoming-document-records"></a>Procédure : gérer de nombreux enregistrements document entrant
@@ -35,7 +34,7 @@ La case **Traité** est automatiquement cochée sur les champ est sélectionné 
 1. Dans la fenêtre **Documents entrants**, sélectionnez une ou plusieurs lignes pour les enregistrements de documents entrants que vous souhaitez supprimer de la vue par défaut.
 2. Sélectionnez l'action **Défini sur Traité**.
 
-Les enregistrements de documents entrants sont supprimés de la vue par défaut, et la case **Traité** est sélectionnée sur les lignes correspondantes.
+    Les enregistrements de documents entrants sont supprimés de la vue par défaut, et la case **Traité** est sélectionnée sur les lignes correspondantes.
 
 > [!NOTE]  
 >   Vous pouvez également effectuer cette action pour un enregistrement spécifique dans la fenêtre **Fiche document entrant**.

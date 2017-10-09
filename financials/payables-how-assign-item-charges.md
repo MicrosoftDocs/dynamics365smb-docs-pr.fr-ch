@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: transportation, added cost
 ms.date: 06/06/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: a97f56eeeb61aa94485dc4ec73f19a01e21e055a
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-use-item-charges-to-account-for-additional-trade-costs"></a>Procédure : Utiliser Frais annexes pour comptabiliser les coûts commerciaux supplémentaires
@@ -48,7 +47,7 @@ Utilisez les numéros de frais annexes pour distinguer les différents types de 
 ## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a>Pour affecter des frais annexes directement à la facture achat pour l'article
 Si vous connaissez les frais annexes au moment de valider une facture achat pour l'article, procédez comme suit.
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Factures achat**, puis sélectionnez le lien connexe.
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Factures achat**, puis sélectionnez le lien connexe.
 2. Créez une facture achat. Pour plus d'informations, reportez-vous à [Procédure : enregistrer des achats](purchasing-how-record-purchases.md).
 3. Assurez-vous que la facture achat a une ou plusieurs lignes de type Article.
 4. Sur une nouvelle ligne, dans le champ **Type**, sélectionnez **Frais annexes**.

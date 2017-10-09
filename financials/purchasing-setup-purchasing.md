@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
 ms.date: 03/29/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: bc4578131489baa66d31e8c25b4815b87f992fdf
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 4c6285b1e394e5953fd76953ed2ab45e9b40ec3d
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="setting-up-purchasing"></a>Définition des achats
@@ -31,10 +30,10 @@ Les configurations relatives à la finance, telles que les modes de règlement e
 
 | Pour | Voir |
 | --- | --- |
-| Créer une fiche fournisseur pour chaque fournisseur auquel vous achetez des biens. |[Procédure : enregistrer de nouveaux fournisseurs](purchasing-how-register-new-vendors.md) |
-| Entrer les différents remises et prix spéciaux que vous accordent les fournisseurs en fonction de l'article, des quantités et/ou de la date. |[Procédure : enregistrer des accords sur les prix d'achat, les remises et les paiements](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
-| Octroyer une priorité aux fournisseurs. |[Procédure : octroyer une priorité à des fournisseurs](purchasing-how-prioritize-vendors.md) |
-| Configurer les acheteurs. |[Procédure : configurer des acheteurs](purchasing-how-setup-purchasers.md) |
+| Créer une fiche fournisseur pour chaque fournisseur auquel vous achetez des biens|[Procédure : enregistrer de nouveaux fournisseurs](purchasing-how-register-new-vendors.md) |
+| Entrer les différents remises et prix spéciaux que vous accordent les fournisseurs en fonction de l'article, des quantités et/ou de la date |[Procédure : enregistrer des accords sur les prix d'achat, les remises et les paiements](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
+| Octroyer une priorité aux fournisseurs |[Procédure : octroyer une priorité à des fournisseurs](purchasing-how-prioritize-vendors.md) |
+| Configurer les acheteurs |[Procédure : configurer des acheteurs](purchasing-how-setup-purchasers.md) |
 
 ## <a name="see-also"></a>Voir aussi
 [Achats](purchasing-manage-purchasing.md)  

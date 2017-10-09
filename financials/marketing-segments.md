@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 2ca2e771e4f7ec141cd152e1f643efad2db1b7dc
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: cfb32511dd5ba564572050a3d52058fcc2c2f9d3
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="managing-segments"></a>Gestion des segments
@@ -28,9 +27,9 @@ La création d'un segment est constituée de deux tâches principales :
 * saisie des informations générales sur le segment ; Pour pouvoir sélectionner les contacts dans le segment, vous devez commencer par créer le segment.
 * sélection des contacts à inclure dans le segment.
 
-Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent. Ces tâches sont répertoriées dans l'ordre de leur exécution en règle générale.
+Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent. 
 
-| Pour | Voir |
+| À | Voir |
 | --- | --- |
 | Créer des segments qui vous permettent de sélectionner un groupe de contacts. Par exemple, un courrier direct. |[Procédure : créer des segments](marketing-how-create-segment.md) |
 | Gérer les contacts affectés aux segments. |[Procédure : ajouter des contacts à des segments](marketing-add-contact-segment.md) |

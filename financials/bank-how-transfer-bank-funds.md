@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: bank account transfer, multiple currencies
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 20661cce60bc9007adb9767388bf5af6f9c3acb9
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-transfer-bank-funds"></a>Procédure : Transfert de fonds à la banque
@@ -25,32 +24,32 @@ Vous pouvez avoir à transférer un montant d'un compte bancaire à un autre. Po
 
 ## <a name="to-post-a-transfer-between-bank-accounts-with-the-same-currency-code"></a>Pour valider un transfert entre comptes bancaires avec le même code devise
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille comptabilité**, puis sélectionnez le lien connexe.
-2. Dans une ligne feuille, renseignez les champs **Date comptabilisation** et **N° document**. .
+2. Dans une ligne feuille, renseignez les champs **Date comptabilisation** et **N° document** .
 3. Cliquez sur le champ **Type compte**, sélectionnez le **Compte bancaire**.
-4. Dans le champ **N° compte**, sélectionnez la banque à partir de laquelle vous souhaitez transférer les fonds.
+4. Dans le champ **N° compte**, sélectionnez le compte bancaire à partir duquel vous souhaitez transférer les fonds.
 5. Dans le champ **Montant**, entrez le total à transférer.
 6. Dans le champ **Type compte contrepartie**, sélectionnez **Compte bancaire**.
-7. Dans le champ **N° compte contrepartie**, sélectionnez le compte bancaire vers lequel vous souhaitez transférer les fonds.
+7. Dans le champ **N° compte contrepartie**, sélectionnez le compte bancaire à partir duquel vous souhaitez transférer les fonds.
 8. Validez la feuille.
 
 ## <a name="to-post-a-transfer-between-bank-accounts-with-different-currency-codes"></a>Pour valider des transferts entre comptes bancaires dotés de codes devise différents
 Pour transférer des fonds entre des comptes bancaires qui utilisent des devises différentes, vous devez valider deux lignes feuille comptabilité.
 
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille comptabilité**, puis sélectionnez le lien connexe.
-2. Créez deux lignes feuille, et renseignez les champs **Date comptabilisation** et **N° document** . .
+2. Créez deux lignes feuille, et renseignez les champs **Date comptabilisation** et **N° document**.
 3. Sur la première ligne feuille, dans le champ **Type**, sélectionnez **Compte bancaire**.
 4. Dans le champ **N° compte**, sélectionnez le compte bancaire à partir duquel vous souhaitez transférer les fonds.
 5. Dans le champ **Montant**, saisissez le montant dans la devise du compte bancaire. Entrez les montants de crédit précédés du signe moins. Entrez les montants de débit sans signe moins.
 6. Dans le champ **Type compte contrepartie**, sélectionnez **Compte bancaire**.
-7. Dans le champ **N° compte contrepartie**, sélectionnez le compte bancaire vers lequel vous souhaitez transférer les fonds.
+7. Dans le champ **N° compte contrepartie**, sélectionnez le compte bancaire à partir duquel vous souhaitez transférer les fonds.
 8. Sur la seconde ligne feuille, dans le champ **Type**, sélectionnez **Compte bancaire**.
-9. Dans le champ **N° compte**, sélectionnez le compte bancaire vers lequel vous souhaitez transférer les fonds.
+9. Dans le champ **N° compte**, sélectionnez le compte bancaire à partir duquel vous souhaitez transférer les fonds.
 10. Dans le champ **Montant**, saisissez le montant dans la devise du compte bancaire. Entrez les montants de crédit précédés du signe moins. Entrez les montants de débit sans signe moins.
 11. Dans le champ **Type compte contrepartie**, sélectionnez **Compte bancaire**.  
 12. Dans le champ **N° compte contrepartie**, sélectionnez le compte bancaire à partir duquel vous souhaitez transférer les fonds.
 
     > [!NOTE]  
->   Si les taux de change utilisés dans la feuille sont différents des taux de change qui s'affichent dans la fenêtre **Taux de change devise**, entrez alors une troisième ligne pour les pertes ou gains liés au taux de change. Entrez **Compte général** dans le champ **Type compte**. Entrez le numéro de compte général pour les gains ou les pertes liés au taux de change dans le champ **N° compte** . Saisissez les gains ou les pertes liés au taux de change dans le champ **Montant** avec ou sans signe moins pour les crédits et les débits, respectivement.
+>   Si les taux de change utilisés dans la feuille sont différents des taux de change qui s'affichent dans la fenêtre **Taux de change devise**, entrez alors une troisième ligne pour les pertes ou gains liés au taux de change. Entrez **Compte général** dans le champ **Type compte**. Entrez le numéro de compte général pour les gains ou les pertes liés au taux de change dans le champ **N° compte**. Saisissez les gains ou les pertes liés au taux de change dans le champ **Montant** avec ou sans signe moins pour les crédits et les débits, respectivement.
 13. Validez la feuille.
 
 ## <a name="see-also"></a>Voir aussi

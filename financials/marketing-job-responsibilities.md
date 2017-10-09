@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: task, to-do, relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: fd949573e7bfd1b6ce1fc849625a1a3474013f96
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-job-responsibilities-for-contact-persons"></a>Procédure : Configurer les responsabilités pour les personnes contact
@@ -28,7 +27,7 @@ L'utilisation des responsabilités sur les contacts est un processus en deux ét
 ## <a name="to-define-a-job-responsibility-code"></a>définir un code de responsabilité
 Le code responsabilité définit le type ou la catégorie du projet, par exemple MARKETING ou ACHAT. Vous pouvez disposer de plusieurs codes responsabilité. La fenêtre **Responsabilités** vous permet de définir la responsabilité.
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Responsabilités**, puis sélectionnez le lien connexe.
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Responsabilités**, puis sélectionnez le lien connexe.
 2. Sélectionnez l'action **Nouveau**, et entrez un code et une désignation. Vous pouvez saisir pour le code un maximum de 11 caractères, et toute combinaison de chiffres et des lettres.
 
 ## <a name="to-assign-job-responsibilities-to-a-contact-person"></a>pour affecter des responsabilités à vos contacts

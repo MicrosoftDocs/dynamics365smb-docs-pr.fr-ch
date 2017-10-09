@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: bc1c89b87426b72ce4f9522cb7f0dc31c77acad1
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-mailing-groups-for-contacts"></a>Procédure : Configurer des groupes de distribution pour les contacts
@@ -28,7 +27,7 @@ L'utilisation des groupes de distribution sur les contacts est un processus en d
 ## <a name="to-define-mailing-group-codes"></a>Pour définir des codes groupe de distribution
 Le code groupe de distribution définit le type ou la catégorie du groupe, telles que DÉMÉNAGEMENT pour un déménagement des bureaux, ou CADEAU pour le cadeau de fêtes de fin d'année. Vous pouvez disposer de plusieurs codes secteur d'activité. Pour définir les groupes de distribution, utilisez la fenêtre **Groupes de distribution**.
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Groupes de distribution**, puis sélectionnez le lien connexe.
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Groupes de distribution**, puis sélectionnez le lien connexe.
 2. Sélectionnez l'action **Nouveau**, et entrez un code et une désignation. Vous pouvez saisir pour le code un maximum de 11 caractères, et toute combinaison de chiffres et des lettres.
 
 ## <a name="AssignMailGroupContact"></a> Pour affecter des groupes de distribution à un contact

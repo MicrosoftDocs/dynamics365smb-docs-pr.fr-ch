@@ -9,20 +9,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 04/25/2017
+ms.date: 08/24/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ffeffe725025dc03d2053333f75249679103b6a4
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b15bd0928e797918c7431e595b1bdf500a8d6792
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-use-approval-workflows"></a>Procédure : utilisation des flux d'approbation
 Lorsqu'un enregistrement, tel qu'un document achat ou une fiche client, doit être approuvé par un membre de votre organisation, vous envoyez une approbation demande achat dans le cadre d'un workflow. Selon la configuration du workflow, l'approbateur approprié est informé que l'enregistrement requiert son approbation.
 
-Vous configurez les flux d'approbation dans la fenêtre **Flux de travail**.
+Vous configurez les flux d'approbation dans la fenêtre **Flux de travail**. Pour plus d'informations, reportez-vous à [Paramétrage des workflows](across-set-up-workflows.md).
+
+Outre les flux de travail approbation décrits dans cette rubrique, vous pouvez effectuer diverses autres tâches de flux de travail. Pour plus d'informations, voir [Utilisation des workflows](across-use-workflows.md).
 
 Les flux d'approbation de base pour les documents achat, les documents vente, les feuilles paiement, les fiches client et les fiches article sont prêts à être utilisés dans le cadre de la configuration assistée. Pour en savoir plus, voir [Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)](index.md).
 
@@ -47,17 +48,6 @@ Un client peut souhaiter modifier une commande après sa soumission pour approba
 - Dans la fenêtre qui affiche l'enregistrement, sélectionnez l'action **Annuler demande d'approbation**.
 
 Lorsque la demande d'approbation a été annulée, le statut de l'écriture de l'approbation connexe passe à **Annulé**. Le statut de l’enregistrement est mis à jour d'**Approbation en attente** à **Ouvert**. Le processus d'approbation peut alors redémarrer.
-
-## <a name="to-make-minor-changes-to-approved-records"></a>Pour apporter des modifications minimes à des enregistrements approuvés
-Si vous souhaitez effectuer les modifications minimes à un enregistrement après son approbation, rouvrez l'enregistrement, effectuez les modifications, puis libérez-le. Pour des modifications minimes, effectuez ces opérations avec les boutons **Rouvrir** et **Libérer**
-
-1. Ouvrez la fenêtre qui affiche les enregistrements, par exemple une facture achat, puis sélectionnez l'action **Rouvrir**.
-
-    Le champ **Statut du document** est modifié sur **Ouvrir**.
-2. Effectuez les modifications nécessaires à l'enregistrement, comme l'adresse du fournisseur.
-3. Sélectionnez l'action **Lancer**.
-
-Lorsque vous rouvrez l'enregistrement source, le statut de l'écriture approuvée associée reste Approuvée dans la fenêtre **Écritures approbation**.
 
 ## <a name="to-approve-or-reject-requests-for-approval"></a>Pour approuver ou rejeter les demandes d'approbation
 La tâche suivante est effectuée par un utilisateur d'approbation doté de droits d'approbation.
@@ -98,5 +88,5 @@ La fonction **Envoyer des notifications d'approbations échues** passe en revue 
 [Ventes](sales-manage-sales.md)    
 [Documents entrants](across-income-documents.md)  
 [Achats](purchasing-manage-purchasing.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

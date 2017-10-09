@@ -1,8 +1,6 @@
 ---
 title: "Rappeler ou pénaliser les clients pour les impayés| Microsoft Docs"
 description: "Décrit comment envoyer une relance à un client sur un paiement dû et ajouter des frais, ou des commissions au paiement en raison de retard."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,14 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 06/28/2017
+ms.date: 09/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: f64ad8c9170af52d7650324029a259b267f166b4
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: c0e028d84d868c7aca597ee007a038ccf3fa61a2
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-collect-outstanding-balances"></a>Procédure : collecte des soldes restants
@@ -99,7 +96,7 @@ Si vous créez plus de relances qu'il n'y a de niveaux relance, les conditions u
 |%11|Nom de la société|  
 |%12|Contenu du champ **Frais supplémentaires par ligne** de l'en\-tête de relance|  
 
-Par exemple, si vous saisissez **Vous devez %7 %9 dus au %2.**, la relance résultante contiendra le texte suivant : **Vous devez 1,200.50 DS dus au 02\-02\-2014.**.
+Par exemple, si vous saisissez **Vous devez %9 %7 dus au %2.**, la relance résultante contiendra le texte suivant : **Vous devez 1 200,50 DS dus au 02022014**.
 
 Si vous avez configuré les conditions relance (avec des niveaux et du texte supplémentaires), saisissez l'un des codes sur chaque fiche client. Pour plus d'informations, reportez vous à [Procédure : enregistrer de nouveaux clients](sales-how-register-new-customers.md).
 
@@ -163,11 +160,13 @@ Vous devez créer un code qui représente un calcul d'intérêts de retard. Vous
 
 Les intérêts de retard peuvent être calculés en utilisant la méthode du solde journalier moyen ou celle du solde échu.
 
-Avec la méthode du solde échu, les intérêts représentent simplement un pourcentage du montant échu.
-**Méthode du solde échu** - Frais financiers = Montant échu x (Taux d'intérêt / 100)
+Avec la méthode du solde échu, les intérêts représentent simplement un pourcentage du montant échu :  
 
-Avec la méthode du solde journalier moyen, le nombre de jours de retard de paiement est pris en compte.
-Méthode **Solde journalier moyen** - Frais financiers = Montant échu x (Jours échus/ Période d'intérêts) x (Taux d'intérêt/100)
+    Balance Due method - Finance Charge = Overdue Amount x (Interest Rate / 100)
+
+Avec la méthode du solde journalier moyen, le nombre de jours de retard de paiement est pris en compte :  
+
+    Average Daily Balance method - Finance Charge = Overdue Amount x (Days Overdue / Interest Period) x (Interest Rate/100)
 
 En outre, chaque code de la table Conditions intérêts de retard est lié à une autre table, la table Texte intérêts de retard. Pour chaque ensemble de conditions, vous pouvez définir un texte début et un texte fin à inclure dans la facture d'intérêts.
 
@@ -204,10 +203,8 @@ Une facture d'intérêts ressemble à une facture. Vous pouvez renseigner un en-
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Factures d'intérêts**, puis sélectionnez le lien connexe.  
 2. Cliquez sur **Nouveau**, puis renseignez les champs selon vos besoins.  
 3. Sélectionnez **Proposer lignes fact. intérêts**.
-4. Dans **Proposer lignes fact. intérêts  
-6.  Définissez un filtre sur le raccourci **Écriture comptable client** si vous souhaitez créer des factures d'intérêts uniquement pour certaines écritures.  
-
-7.  Pour démarrer le traitement par lots, cliquez sur le bouton **OK**.  
+4. Dans la fenêtre **Proposer lignes facture intérêts**, définissez un filtre sur le raccourci **Écriture comptable client** si vous souhaitez créer des factures d'intérêts uniquement pour des écritures spécifiques.  
+5.  Pour démarrer le traitement par lots, cliquez sur le bouton **OK**.  
 
 ## <a name="to-update-finance-charge-memo-texts"></a>Pour mettre à jour des textes de factures d'intérêts  
 Dans certains cas, vous pouvez modifier les textes début et fin définis pour les conditions intérêts de retard. Si vous le faites au moment où vous avez créé, mais pas encore émis, les factures d'intérêts, vous pouvez mettre à jour ces factures avec le texte modifié.

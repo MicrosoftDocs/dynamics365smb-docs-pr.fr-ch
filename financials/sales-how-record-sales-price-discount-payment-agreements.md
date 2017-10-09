@@ -1,8 +1,6 @@
 ---
 title: "Paramétrer les prix de vente spéciaux et les remises client | Microsoft Docs"
 description: "Décrit comment définir les accords secondaires de tarifs et de remises à appliquer aux documents vente lors de la vente à différents clients."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,14 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 07/03/2017
+ms.date: 09/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 85d15de13739e944ff8817b402b37ae1c7e1b144
-ms.openlocfilehash: 41558d6eec29a277db3cf8f156ae476faf315238
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 3bb16f6f192e3a3ca29911cf6215fe1f00bfcb68
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-record-special-sales-prices-and-discounts"></a>Procédure : enregistrer les prix de vente spéciaux et les remises
@@ -69,7 +66,7 @@ Une fois que vous avez décidé des clients pouvant faire l'objet de remises fac
 
 La remise facture est désormais configurée et affectée au client concerné. Lorsque vous sélectionnez le code client dans le champ **Code remise facture** dans d'autres fiches client, la même remise facture est affecté à ces clients.
 
-## <a name="sales-invoice-discounts-and-service-charges"></a>Remises facture vente et frais forfaitaires
+## <a name="to-work-with-sales-invoice-discounts-and-service-charges"></a>Utiliser des remises facture vente et des frais forfaitaires
 Lorsque vous utilisez des remises facture, la valeur du montant de la facture détermine celle de la remise accordée.  
 
 Dans la fenêtre **Remises facture client**, vous pouvez également ajouter des frais forfaitaires aux factures supérieures à un montant donné.  
@@ -79,7 +76,7 @@ Pour pouvoir utiliser les remises facture avec les ventes, vous devez saisir cer
 - les clients qui se verront accorder ce type de remise  
 - les pourcentages de remise à utiliser  
 
-Dans la fenêtre Paramètres ventes, vous pouvez indiquer si vous souhaitez que le programme calcule automatiquement les remises facture.  
+Dans la fenêtre **Paramètres ventes**, vous pouvez spécifier si les remises facture doivent être calculées automatiquement.  
 
 Pour chaque client, vous pouvez indiquer si vous accordez des remises facture si la condition est remplie (si le montant facture est suffisamment élevé). Vous pouvez définir des conditions pour les remises facture en devise société pour les clients nationaux et en devise pour les clients étrangers.  
 
@@ -108,9 +105,22 @@ Le meilleur prix est le prix le plus bas autorisé associé à la remise de lign
 2. [!INCLUDE[d365fin](includes/d365fin_md.md)] vérifie si des accords prix/remise s'appliquent à des informations sur le document ou la ligne feuille, puis insère le prix unitaire applicable et le pourcentage remise de ligne, à l'aide des critères suivants :
 
     - Existe-t-il une quantité minimum à respecter dans l'accord de prix/remises ?
-    - Existe-t-il une exigence en matière de devise à respecter dans l'accord de prix/remises ? Si c'est le cas, le prix le plus bas et la remise de ligne la plus élevée pour cette devise sont insérés, même si la devise société permettrait d'offrir un meilleur prix. S'il n'existe aucun accord de prix/remise dans le code devise indiqué, [!INCLUDE[d365fin](includes/d365fin_md.md)] insère le prix le plus bas et la remise de ligne la plus élevée en DS.
+    - Existe-t-il une exigence en matière de devise à respecter dans l'accord de prix/remises ? Si c'est le cas, le prix le plus bas et la remise de ligne la plus élevée pour cette devise sont insérés, même si la devise société permettrait d'offrir un meilleur prix. S'il n'existe aucun accord de prix/remise dans le code devise indiqué, [!INCLUDE[d365fin](includes/d365fin_md.md)] insère le prix le plus bas et la remise de ligne la plus élevée en devise société.
 
 Si aucun prix spécial ne peut être calculé pour l'article de la ligne, alors soit le coût unitaire direct, soit le prix unitaire à partir de la fiche article est inséré.
+
+## <a name="to-copy-sales-prices"></a>Pour copier des prix de vente  
+Pour copier des prix de vente, comme les prix appliqués à un client et qui doivent être appliqués à tout un groupe de clients, vous devez lancer le traitement par lots **Suggérer prix vente**. traitement par lots . Ce traitement est accessible dans la fenêtre **Feuille prix vente**.    
+
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille prix vente**, puis sélectionnez le lien connexe.  
+2.  Sélectionnez l'action **Suggérer prix vente** .  
+3.  Sur le raccourci **Prix vente**, renseignez les champs **Type vente** et **Code vente** avec les prix de vente d'origine à copier.  
+4.  Dans la partie supérieure du formulaire de sélection, indiquez dans les champs **Type vente** et **Code vente** le type et le nom sous lesquels vous souhaitez copier les prix de vente.  
+5.  Pour que le traitement par lots crée des prix, sélectionnez le champ **Créer nouveaux prix**.  
+6.  Choisissez le bouton **OK** pour renseigner les lignes de la fenêtre **Feuille prix vente** avec les nouveaux prix proposés, en précisant qu'ils sont applicables au **type ventes** sélectionné.  
+
+> [!NOTE]  
+>  Ce traitement par lots crée uniquement des propositions ; il n'effectue pas les modifications proposées. Si les propositions vous conviennent et que vous souhaitez les appliquer, c'est-à-dire les insérer dans la table **Prix vente**, vous pouvez utiliser le traitement par lots **Implémenter nouveaux prix**, accessible via l'onglet **Actions**, dans le groupe **Fonctions**, dans la fenêtre **Feuille prix vente**.
 
 ## <a name="see-also"></a>Voir aussi
 [Définition des ventes](sales-setup-sales.md)  

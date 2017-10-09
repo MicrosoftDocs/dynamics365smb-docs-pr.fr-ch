@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: category, search, attribute, facet
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: da87c427033d58d92a6a5222bc323c68c4bc3f4e
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-categorize-items"></a>Procédure : catégoriser des articles
@@ -38,7 +37,7 @@ Pour trouver les articles par caractéristique, vous pouvez affecter des attribu
 >   Les attributs d'article que vous assignez à une catégorie d'article s'appliqueront automatiquement à l'article auquel la catégorie d'article est assignée.
 
 ## <a name="to-assign-an-item-category-to-an-item"></a>Pour assigner une catégorie d'article à un article
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Articles**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Articles**, puis sélectionnez le lien connexe.
 2. Ouvrez la fiche pour l'article que vous souhaitez assigner à une catégorie d'article.
 3. Sélectionnez le bouton de recherche dans le champ **Code catégorie article** et sélectionnez une catégorie d'article existante. Sinon, sélectionnez l'action **Nouveau** pour créer tout d'abord une nouvelle catégorie d'article comme expliqué dans la section « Créer une catégorie d'article ».
 

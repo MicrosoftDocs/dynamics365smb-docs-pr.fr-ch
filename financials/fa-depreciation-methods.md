@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 6a32ddc5fd8202507b66a30fabd2cbd6b5ab91eb
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="depreciation-methods"></a>Méthodes d'amortissement
@@ -58,7 +57,7 @@ La valeur comptable peut être diminuée d'un montant de réévaluation, de dép
 ### <a name="fixed-yearly-percentage"></a>Pourcentage annuel fixe
 Si vous saisissez un pourcentage annuel fixe, le programme utilise la formule suivante pour calculer le montant de l'amortissement :  
 
-Montant de l'amortissement = (% linéaire x base amortissement x nombre de jours d'amortissement )/(100) x 360  
+Montant de l'amortissement = (% linéaire x base amortissement x nombre de jours d'amortissement)/(100 x 360)  
 
 ### <a name="fixed-yearly-amount"></a>Montant annuel fixe
 Si vous saisissez un montant annuel fixe, le programme utilise la formule suivante pour calculer le montant de l'amortissement :  
@@ -205,7 +204,7 @@ Méthode de calcul :
 
 *Montant dégressif : 25 % de 100 000 = 25 000 = 12 500 + 12 500*  
 
-*Montant linéaire = 100 000 / 8 = 12 500 = 6 250 + 6 250*  
+*Montant linéaire = 100 000/8 = 12 500 = 6 250 + 6 250*  
 
 Le montant dégressif est utilisé car il s'agit de la valeur la plus élevée.  
 
@@ -224,7 +223,7 @@ Avec une méthode paramétrable, vous utilisez la fenêtre **Tables d'amortissem
 
 La formule de calcul des montants d'amortissement est la suivante :  
 
-Montant de l'amortissement = (% amortissement x nombre de jours d'amortissement x base amortissement )/(100 x 360)  
+Montant de l'amortissement = (% amortissement x nombre de jours d'amortissement x base amortissement)/(100 x 360)  
 
 ### <a name="depreciation-based-on-number-of-units"></a>Amortissement basé sur un nombre d'unités
 Cette méthode paramétrable peut également être utilisée pour calculer un amortissement sur la base d'un nombre d'unités, par exemple dans le cas de machines de production dont la durée de vie est préétablie. Dans la fenêtre **Tables d'amortissement**, vous saisissez le nombre d'unités pouvant être produites au cours de chaque période (mois, trimestre, année ou période comptable).  

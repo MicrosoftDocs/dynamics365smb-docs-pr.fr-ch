@@ -1,6 +1,6 @@
 ---
 title: "Obtenir un aperçu des disponibilités| Microsoft Docs"
-description: "Vous obtenez des informations sur la disponibilité des articles ou du stock dans tous les magasins, par événement de vente ou d'achat, par période ou par position de l'article sur une nomenclature d'assemblage."
+description: "Vous obtenez des informations sur la disponibilité des articles ou du stock dans tous les magasins, par événement de vente ou d'achat, par période ou par position de l'article sur une nomenclature d'assemblage ou de production."
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -9,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 06/02/2017
+ms.date: 08/15/2017
 ms.author: SorenGP
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 83af1b6b3a234f67ccc26ee9bba7f5e3e6ff6d77
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 17af257627549023212c8c19f708c836c1c4bb7f
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-view-the-availability-of-items"></a>Procédure : voir la disponibilité des articles
@@ -41,7 +40,7 @@ Dans [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)], les chiffres d
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>Pour afficher la disponibilité d'un article en fonction de sa réception ou de sa livraison
 Vous pouvez afficher la disponibilité d'un article en fonction des mouvements de stock attendus dans la fenêtre **Disponibilité par événement**.
 
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Articles**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Articles**, puis sélectionnez le lien connexe.
 2. Ouvrez la fiche d'un article dont vous voulez afficher la disponibilité.
 3. Cliquez sur **Disponibilité article par**, puis sur **Événement**.
 
@@ -51,7 +50,7 @@ Vous pouvez afficher la disponibilité d'un article en fonction des mouvements d
 ## <a name="to-view-the-availability-of-an-item-in-different-periods"></a>Pour afficher la disponibilité d'un article dans différentes périodes
 Vous pouvez visualiser la disponibilité d'un article dans le temps pour les périodes définies dans la fenêtre **Disponibilité art. par période**.
 
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Articles**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Articles**, puis sélectionnez le lien connexe.
 2. Ouvrez la fiche d'un article dont vous voulez afficher la disponibilité.
 3. Cliquez sur **Disponibilité article par**, puis sur **Période**.
 
@@ -61,7 +60,7 @@ Vous pouvez visualiser la disponibilité d'un article dans le temps pour les pé
 ## <a name="to-view-the-availability-of-an-item-at-the-locations-where-it-is-stored"></a>Pour afficher la disponibilité d'un article dans les magasins dans lesquels il est stocké
 Vous pouvez afficher la disponibilité d'un article dans les magasins dans lesquels il est stocké dans la fenêtre **Disponibilité art. par magasin**.
 
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Articles**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Articles**, puis sélectionnez le lien connexe.
 2. Ouvrez la fiche d'un article dont vous voulez afficher la disponibilité.
 3. Cliquez sur **Disponibilité article par**, puis sur **Magasin**.
 
@@ -72,16 +71,16 @@ Vous pouvez afficher la disponibilité d'un article dans les magasins dans lesqu
 ## <a name="to-view-the-availability-of-all-items-by-the-location-where-they-are-stored"></a>Pour afficher la disponibilité de tous les articles en fonction des magasins où ils sont stockés
 Vous pouvez afficher la disponibilité de tous vos articles dans tous vos magasins dans la fenêtre **Articles par magasin**.
 
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Articles**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Articles**, puis sélectionnez le lien connexe.
 2. Cliquez sur **Articles par magasin**.
 
     La fenêtre **Articles par magasin** indique pour tous les articles les quantités disponibles dans chaque magasin.
 3. Sélectionnez la valeur dans le champ **Qté disponible** pour afficher les écritures comptables articles qui constituent la valeur.
 
-## <a name="to-view-the-availability-of-an-item-by-its-use-in-assembly-boms"></a>Pour afficher la disponibilité d'un article en fonction de son utilisation dans les nomenclatures d'assemblage
-Si un article existe dans les nomenclatures d'assemblage, comme article parent ou composant, vous pouvez afficher le nombre d'unités nécessaires dans la fenêtre **Disponibilité article par niveau de nomenclature**. La fenêtre indique le nombre d'unités d'un parent vous pouvez réaliser en fonction de la disponibilité des éléments enfants sur les lignes sous-jacentes. Tout article qui a une nomenclature d'assemblage est affiché dans la fenêtre sous forme de ligne pliante. Vous pouvez développer cette ligne pour afficher les composants sous-jacents et les sous-assemblages de niveau inférieur avec leurs propres nomenclatures.
+## <a name="to-view-the-availability-of-an-item-by-its-use-in-assembly-or-production-boms"></a>Pour afficher la disponibilité d'un article en fonction de son utilisation dans les nomenclatures d'assemblage ou de production
+Si un article existe dans les nomenclatures d'assemblage ou de production, comme article parent ou composant, vous pouvez afficher le nombre d'unités nécessaires dans la fenêtre **Disponibilité article par niveau de nomenclature**. La fenêtre indique le nombre d'unités d'un parent vous pouvez réaliser en fonction de la disponibilité des éléments enfants sur les lignes sous-jacentes. Tout article qui a une nomenclature d'assemblage ou de production est affiché dans la fenêtre sous forme de ligne réductible. Vous pouvez développer cette ligne pour afficher les composants sous-jacents et les sous-assemblages de niveau inférieur avec leurs propres nomenclatures.
 
-Vous pouvez utiliser la fenêtre pour savoir si vous pouvez traiter une commande vente d'un article à une date spécifique, en consultant sa disponibilité actuelle et les quantités que ses composants peuvent fournir. Vous pouvez également utiliser la fenêtre pour identifier les goulets d'étranglement dans des nomenclatures d'assemblage associées.
+Vous pouvez utiliser la fenêtre pour savoir si vous pouvez traiter une commande vente d'un article à une date spécifique, en consultant sa disponibilité actuelle et les quantités que ses composants peuvent fournir. Vous pouvez également utiliser la fenêtre pour identifier les goulets d'étranglement dans des nomenclatures associées.
 
 Sur chaque ligne de la fenêtre pour les articles parents et les éléments enfants, les champs clés suivants indiquent les chiffres de disponibilité. Vous pouvez utiliser ces chiffres pour promettre le nombre d'unités d'un parent que vous pouvez fournir si vous lancez le processus d'assemblage lié.
 
@@ -90,6 +89,7 @@ Sur chaque ligne de la fenêtre pour les articles parents et les éléments enfa
 |**Capable de fabriquer le parent**|Indique le nombre d'unités d'un sous-assemblage de l'article supérieur que vous pouvez effectuer. Ce champ indique combien d'unités de l'article parent immédiat vous pouvez assembler. La valeur est basée sur la disponibilité de l'article sur la ligne.|
 |**Capable de fabriquer le meilleur article**|Indique le nombre d'unités de l'article supérieur que vous pouvez effectuer. Ce champ indique combien d'unités de l'article de la nomenclature sur la ligne supérieure vous pouvez assembler. La valeur est basée sur la disponibilité de l'article sur la ligne.|
 
+### <a name="item-availability-by-bom-level-window"></a>Fenêtre Disponibilité article par niveau de nomenclature
 La fenêtre **Disponibilité article par niveau de nomenclature** affiche les informations de l'article figurant sur la fiche ou la ligne document pour laquelle la fenêtre est ouverte. l'article est toujours indiqué sur la ligne supérieure. Vous pouvez visualiser les informations d'autres articles ou de tous les articles en changeant la valeur du champ **Filtre article**.
 
 > [!NOTE]  
@@ -97,13 +97,28 @@ La fenêtre **Disponibilité article par niveau de nomenclature** affiche les in
 
 Le champ **Goulot d'étranglement** spécifie quel article dans la structure de la nomenclature vous empêche de réaliser une quantité supérieure à la quantité affichée dans le champ **Capable de fabriquer le meilleur article**. Par exemple, l'article goulot d'étranglement peut être un composant achat avec une date de réception prévue qui est trop tardive pour fabriquer des unités supplémentaires de l'élément qui le comporte à la date du champ **Requis par date**.
 
+## <a name="assembly-availability-window"></a>Fenêtre Disponibilité assemblage
+La fenêtre **Disponibilité assemblage** affiche des informations de disponibilité détaillées pour l'élément d'assemblage. Elle s'ouvre :
+
+- Automatiquement à partir d'une ligne commande vente dans les scénario Assembler pour commande lorsque vous entrez une quantité à l'origine d'un problème de disponibilité des composants.
+- Automatiquement à partir d'un en-tête d'ordre d'assemblage lorsque vous entrez une valeur dans le champ Quantité à l'origine d'un problème de disponibilité des composants.
+- Manuellement lorsque vous l'ouvrez à partir d'un ordre d'assemblage. Sur l'onglet Actions , dans le groupe Fonctions, cliquez sur Afficher disponibilité.
+
+Le raccourci **Détails** affiche des informations de disponibilité détaillées pour l'élément d'assemblage, dont la part de la quantité d'ordre d'assemblage pouvant être assemblée d'ici la date d'échéance sur la base de la disponibilité des composants requis. Cela s'affiche dans le champ Capacité d'assembler sur le raccourci Détails .
+
+La valeur du champ **Capacité d'assembler** s'affiche en rouge si la quantité est inférieure à la quantité du champ **Quantité restante** , indiquant ainsi qu'il n'y a pas de suffisamment de composants disponibles pour assembler la quantité totale.
+
+Le raccourci **Lignes** affiche des informations de disponibilité détaillées pour les composants d'assemblage.
+
+Si un ou plusieurs composants d'assemblage ne sont pas disponibles, cela est alors reflété dans le champ **Capacité d'assembler** de la ligne en question comme quantité inférieure à la quantité dans le champ **Quantité restante** sur le raccourci **Détails** .
+
 ## <a name="see-also"></a>Voir aussi
 [Gestion du stock](inventory-manage-inventory.md)  
+[Gestion des assemblages](assembly-assemble-items.md)  
 [Procédure : utiliser les nomenclatures](inventory-how-work-BOMs.md)    
 [Procédure : configurer des magasins](inventory-how-setup-locations.md)  
 [Procédure : transfert de stock entre des magasins](inventory-how-transfer-between-locations.md)  
 [Procédure : vendre des produits](sales-how-sell-products.md)      
-[Chaîne d'approvisionnement](madeira-supply-chain.md)  
 [Utilisation de Financials](ui-work-product.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)
 

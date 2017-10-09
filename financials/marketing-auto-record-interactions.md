@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: marketing, relationship, prospect, contact, client, customer
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 8226961d467dee7b03c22632c6dab008ceecad44
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="recording-interactions-with-contacts-automatically"></a>Enregistrement automatique des interactions avec les contacts
@@ -30,7 +29,7 @@ Vous pouvez configurer l'application de sorte à enregistrer automatiquement les
 * Appeler vos contacts (si vous disposez d'un téléphone TAPI et de l'installation adéquate)
 
 Pour configurer l'enregistrement automatique de ces interactions, vous spécifiez des modèles interaction pour ces documents et ces actions via la fenêtre **Paramètres modèles interaction**.  
-Pour ouvrir la fenêtre **Paramètres modèles interaction**, sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Search for Page or Report icon"), entrez **Paramètres modèles interaction**, puis sélectionnez le lien connexe.
+Pour ouvrir la fenêtre **Paramètres modèles interaction**, choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Paramètres modèles interaction**, puis le lien connexe.
 
 ## <a name="see-also"></a>Voir aussi
 [Enregistrement des interactions avec les contacts](marketing-interactions.md)  

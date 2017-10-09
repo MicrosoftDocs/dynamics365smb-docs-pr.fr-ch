@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
 ms.date: 06/02/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 9070d8d1454b43ccfc25276ac679c099b9e809ab
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="preparing-closing-statements"></a>Préparation des états de clôture
@@ -33,9 +32,9 @@ Le tableau suivant décrit un certain nombre d'états pouvant être utiles dans 
 | Comparer la balance avec un budget. |Comparaison balance/budget |
 | Imprimer un état Balance avec les soldes et les soldes période des comptes généraux calculés pour une série de périodes. |Balance par période |
 | Imprimer un tableau d'analyse pour analyser les chiffres des comptes généraux ou comparer les écritures comptabilité réelles et les écritures budget. |Tableau d'analyse |
-| Vérifier que les écritures comptables client et fournisseur sont équilibrées avec les écritures comptables correspondantes. |Concordance cptes clt/ fourn. |
+| Vérifier que les écritures comptables client et fournisseur sont équilibrées avec les écritures comptables correspondantes. |Concordance cptes clt/fourn. |
 
-Pour afficher un état, sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez le nom tel qu'il s'affiche dans la table, puis sélectionnez le lien connexe.
+Pour afficher un état, sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez le nom tel qu'il s'affiche dans la table, puis sélectionnez le lien connexe.
 
 ## <a name="see-also"></a>Voir aussi
 [Clôture des exercices et des périodes](year-close-years-periods.md)  

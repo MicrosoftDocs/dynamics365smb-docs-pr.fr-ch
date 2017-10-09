@@ -9,14 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/24/2017
+ms.date: 08/17/2017
 ms.author: bholtorf
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 3d0a8668b3448b3e7654b702dc28751dc01d2911
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: ad7ecfa7725aa6696620dc77ab9a6d7a09863b3c
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="smart-notifications"></a>Notifications intelligentes
@@ -27,11 +26,13 @@ Si vous choisissez de voir les détails d'une notification, vous pouvez prendre 
 Les notifications aident les utilisateurs débutants à effectuer des tâches inhabituelles et contribuent à ce que les utilisateurs plus avertis ne ralentissent pas leur productivité.  
 
 ## <a name="turn-on-or-turn-off-notifications-and-control-when-they-are-sent"></a>Activer ou désactiver les notifications, et contrôler le moment de leur envoi
-Lorsque vous utilisez [!INCLUDE[d365fin](includes/d365fin_md.md)] pour la première fois, toutes les notifications sont activées, mais vous pouvez les désactiver, par exemple, si vous n'êtes pas intéressé par un événement ou un statut.   
+Lorsque vous utilisez [!INCLUDE[d365fin](includes/d365fin_md.md)] pour la première fois, toutes les notifications sont activées, mais vous pouvez les désactiver, par exemple, si vous n'êtes pas intéressé par un événement ou un statut.  
+  
 En outre, certaines notification vous permettent de spécifier les conditions dans lesquelles elles sont envoyées. Par exemple, si vous souhaitez être informé lorsque le stock diminue, mais uniquement pour les articles que vous achetez à un certain fournisseur.  
+  
 L'activation ou la désactivation des notifications et la spécification des conditions s'appliquent uniquement à vous.  
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), saisissez **Mes notifications**, puis sélectionnez le lien connexe.
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Mes notifications**, puis sélectionnez le lien connexe.
 2. Pour activer ou désactiver une notification, sélectionnez ou désactivez la case à cocher **Activé**.
 3. Pour spécifier les conditions qui déclenchent une notification, cliquez sur le lien **Afficher les détails du filtre**, puis renseignez les champs.  
 

@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
 ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: cc355c7b4cd51412ec0b5c95398c2d7b50a13f94
+ms.translationtype: HT
+ms.sourcegitcommit: c50aeb38a13569316f3208c27e5e8dc3d7b6d771
+ms.openlocfilehash: fdb60d82c7e8d2215c59d2c087105f42fe37eb84
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="extending-included365finlongincludesd365finlongmdmd"></a>Extension de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -48,6 +47,9 @@ Si vous vous contentez de faire la liste des fonctions et des fonctionnalités d
 + Publiez votre application  
 Avant de publier votre application, nous collaborerons avec vous pour garantir qu'elle tient dans Microsoft AppSource et dans votre propre page de destination ! Nous devons valider votre application pour garantir qu'elle soit bien commercialisée, fiable et à jour.
 Pour plus d'informations sur le processus de validation et la publication de votre application, accédez au document [Publiez votre application.pdf](https://go.microsoft.com/fwlink/?linkid=841517) à partir du centre de téléchargement.
+
+## <a name="learn-more-about-extensions-v20"></a>En savoir plus sur les extensions v2.0
+Les nouveaux outils de développement, qui vous permettent de créer des extensions v2.0, sont actuellement en prévisualisation et seront bientôt activés dans le service Dynamics 365 for Financials. Si vous souhaitez déjà vous familiariser avec les nouveaux outils ou en savoir plus sur les extensions 2.0, consultez [aka.ms/GetStartedWithApps](http://aka.ms/GetStartedWithApps).  
 
 ## <a name="need-help"></a>Besoin d'aide ?
 Si vous souhaitez un accompagnement, vous pouvez contacter un expert du domaine d'application de la liste suivante :

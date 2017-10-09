@@ -9,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement
-ms.date: 03/29/2017
+ms.date: 08/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 60906dde627216903b5ef82e34ce4bc918f3c988
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 5bd635465626c192d8650cbd2a999dd0fbceb15e
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-record-purchases"></a>Procédure : enregistrer des achats
@@ -25,7 +24,7 @@ Vous créez une facture achat ou une commande achat pour enregistrer le coût d'
 > [!NOTE]  
 >   Vous devez utiliser les commandes achat si votre processus de vente exige que vous enregistriez des réceptions partielles d'une quantité de commande, par exemple, si la quantité totale n'était pas disponible auprès du fournisseur. Si vous commercialisez des articles en les livrant directement depuis votre fournisseur auprès de votre client, vous devez également utiliser les commandes achat. Pour plus d'informations, voir [Procédure : effectuer des livraisons directes](sales-how-drop-shipment.md). Pour tous les autres aspects, les commandes achat fonctionnent de la même manière que les factures achat. La procédure suivante se base sur une facture achat. La procédure est identique pour une commande achat.
 
-Lorsque vous recevez des articles de stock, ou lorsque le service acheté est terminé, vous validez la facture ou une commande achat pour mettre à jour le stock et les enregistrements financiers et pour activer le paiement au fournisseur selon les conditions de paiement. Pour plus d'informations, reportez-vous à [Exécuter des paiements](payables-make-payments.md).
+Lorsque vous recevez des articles de stock, ou lorsque le service acheté est terminé, vous validez la facture ou une commande achat pour mettre à jour le stock et les enregistrements financiers et pour activer le paiement au fournisseur selon les conditions de paiement. Pour plus d'informations, reportez-vous à [Effectuer des paiements](payables-make-payments.md).
 
 > [!CAUTION]  
 >   Ne validez pas une facture achat tant que vous n'avez pas reçu les articles et que vous ne connaissez pas le coût total de l'achat, frais supplémentaires compris. Sinon, la valeur du stock et les chiffres du profit peuvent être biaisés.
@@ -58,7 +57,7 @@ Vous pouvez remplir les champs relatifs au fournisseur sur la facture achat de d
 
     > [!NOTE]  
 >   Si vous avez défini des lignes achat récurrentes pour le fournisseur, par exemple un ordre de réapprovisionnement mensuel, vous pouvez insérer ces lignes sur la facture par l'intermédiaire de l'action **Extraire les lignes achat récurrentes**.
-10. Sur le raccourci **Lignes**, dans le champ **N° article**, saisissez le numéro d'un article en stock ou d'un service.
+10. Dans le raccourci **Lignes**, dans le champ **N° article**, entrez le numéro d'un article de stock ou d'un service.
 11. Dans le champ **Quantité**, indiquez le nombre d'articles à acheter.
 
     > [!NOTE]  
@@ -78,6 +77,7 @@ L'achat est désormais visible dans le stock et les enregistrements financiers, 
 ## <a name="see-also"></a>Voir aussi
 [Achats](purchasing-manage-purchasing.md)  
 [Définition des achats](purchasing-setup-purchasing.md)  
+[Procédure : Demander des devis](purchasing-how-request-quotes.md)  
 [Procédure : acheter des articles pour une vente](purchasing-how-purchase-products-sale.md)  
 [Procédure : enregistrer de nouveaux fournisseurs](purchasing-how-register-new-vendors.md)  
 [Procédure : préparer des livraisons directes](sales-how-drop-shipment.md)  

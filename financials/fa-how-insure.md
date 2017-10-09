@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: policy, coverage
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 421d45e7f35ffdc46801fea85221ba453d52c516
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-insure-fixed-assets"></a>Procédure : garantir des immobilisations
@@ -25,7 +24,7 @@ Une police d'assurance pour une immobilisation est représentée par une fiche a
 
 Vous attribuez une immobilisation à une police d'assurance lors de la validation sur les écritures couverture assurance à partir de la fenêtre **Feuille assurance**.
 
-En outre, vous pouvez attribuer une immobilisation à une police d'assurance et créer des écritures comptables de couverture lorsque vous validez son coût d'acquisition. Pour ce faire, validez un coût d'acquisition à partir de la feuille immobilisation où le champ **N° assurance** est renseigné. La case **Compta. assurance auto.** de la fenêtre **Paramètres immobilisations** doit être cochée. Pour en savoir plus, voir la section « Valider manuellement une acquisition d'immobilisation avec la feuille validation immobilisation » dans [Procédure : acquérir des immobilisations](fa-how-acquire.md).
+En outre, vous pouvez attribuer une immobilisation à une police d'assurance et créer des écritures comptables de couverture lorsque vous validez son coût d'acquisition. Pour ce faire, validez un coût d'acquisition à partir de la feuille immobilisation où le champ **N° assurance** rempli. La case **Compta. assurance auto.** de la fenêtre **Paramètres immobilisations** doit être cochée. Pour en savoir plus, voir la section « Valider manuellement une acquisition d'immobilisation avec la feuille validation immobilisation » dans [Procédure : acquérir des immobilisations](fa-how-acquire.md).
 
 Si la case **Compta. assurance auto.** n'est pas cochée dans la fenêtre **Paramètres immobilisations**, la validation des acquisitions à partir de la feuille immobilisation créera des lignes dans la fenêtre **Feuille assurance**, que vous devrez ensuite valider manuellement.
 
@@ -50,7 +49,7 @@ La procédure suivante explique comment créer une ligne feuille assurance manue
 
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuilles assurance**, puis sélectionnez le lien connexe.  
 2. Ouvrez la feuille pertinente, puis complétez les lignes feuille, le cas échéant.  
-3. Pour affecter plusieurs immobilisations à une police d'assurance, créez des lignes feuille avec la même valeur dans le champ **N° assurance** et différentes valeurs dans le champ **N° immo.** .  
+3. Pour affecter plusieurs immobilisations à une police d'assurance, créez des lignes feuille avec la même valeur dans le champ **N° assurance** et d'autres valeurs du champ **N° immo.**.  
 4. Sélectionnez l'action **Valider**.  
 
     > [!NOTE]  

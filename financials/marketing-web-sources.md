@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: internet
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6e78a86ba3d29948b07777d0a346c1ef58d088e6
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b81deefcdf79a93cc988d216f80b08794efb8ab6
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-web-sources-for-contact-companies"></a>Procédure : Configuration de recherches Web pour des sociétés contact
@@ -25,8 +24,8 @@ Vous pouvez utiliser les recherches Web avec vos sociétés contact afin d'iden
 
 L'utilisation des recherches Web au niveau des contacts est un processus en deux étapes. Tout d'abord, vous définissez le code recherche Web. Vous ne devez effectuer cette étape qu'une seule fois pour chaque recherche Web. Une fois que vous disposez d'un code recherche Web, vous pouvez commencer à affecter ce code aux personnes contact.
 
-## <a name="to-define-a-web-source-code"></a>pour définir un code recherche Web
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Recherche Web**, puis sélectionnez le lien connexe.
+## <a name="to-define-a-web-source-code"></a>Pour définir un code recherche Web
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Recherche Web**, puis sélectionnez le lien connexe.
 2. Sélectionnez l'action **Nouveau**.
 3. Renseignez les champs **Code**, **Désignation** et **URL**.
 
@@ -34,7 +33,7 @@ L'utilisation des recherches Web au niveau des contacts est un processus en deux
 
 Répétez ces étapes pour chaque recherche Web à configurer.
 
-## <a name="to-assign-web-sources-to-a-contact-company"></a>pour affecter une recherche Web à une société contact
+## <a name="to-assign-web-sources-to-a-contact-company"></a>Pour affecter une recherche Web à une société contact
 Lorsque vous affectez des recherches Web, vous spécifiez le moteur de recherche et les mots recherchés que l'application doit utiliser pour trouver les données demandées.
 
 1. Ouvrez le contact.

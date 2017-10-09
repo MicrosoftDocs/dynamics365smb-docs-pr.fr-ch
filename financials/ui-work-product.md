@@ -11,12 +11,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 05/29/2017
 ms.author: solsen
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 0a50b92a952c0d4be2b68dc4278cedd9362348f0
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="working-with-included365finincludesd365finlongmdmd"></a>Utilisation de [!INCLUDE[d365fin](includes/d365fin_long_md.md)]
@@ -30,7 +29,7 @@ Le tableau suivant répertorie certaines des fonctionnalités générales et inc
 | --- | --- |
 | En savoir plus sur l'inclusion de symboles et de caractères spéciaux lors de la recherche de données. |[Saisir les critères pour les filtres](ui-enter-criteria-filters.md) |
 | Vérifier quels champs doivent être renseignés. |[Champs obligatoires](ui-mandatory-fields.md) |
-| Utiliser la fonction de recherche pour rechercher une page ou un état spécifique. |[Utilisation de l'icône Page ou état pour la recherche](ui-search.md) |
+| Utiliser la fonction de recherche pour rechercher une page ou un état spécifique. |[Utilisation de l'Page ou état pour la recherche](ui-search.md) |
 | En savoir plus sur la manière de trier les données. |[Tri](ui-sorting.md) |
 | Modifier la façon dont vous affichez les listes, par exemple, des clients, des fournisseurs ou des articles. |[Affichage de listes de différentes manières](across-display-lists-different-views.md) |
 | Modifier l'indicateur coloré sur les piles. |[Procédure : configurer un indicateur coloré sur des piles](ui-how-setup-colored-indicator-cues.md) |

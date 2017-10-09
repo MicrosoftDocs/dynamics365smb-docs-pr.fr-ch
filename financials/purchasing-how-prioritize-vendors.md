@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: supplier, payment priority
 ms.date: 03/29/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 2c91b28daf27ddd2b698ffe4338bbf92fd1f9adf
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-prioritize-vendors"></a>Procédure : octroyer une priorité à des fournisseurs
@@ -26,7 +25,7 @@ ms.lasthandoff: 07/07/2017
 Tout d'abord, vous devez attribuer une priorité à vos fournisseurs en leur affectant des numéros.
 
 ## <a name="to-prioritize-vendors"></a>Pour octroyer une priorité à des fournisseurs
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Comptes bancaires**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Comptes bancaires**, puis sélectionnez le lien connexe.
 2. Sélectionnez le fournisseur approprié, puis sélectionnez **Modifier**.
 3. Dans le champ **Priorité**, entrez un numéro.
 

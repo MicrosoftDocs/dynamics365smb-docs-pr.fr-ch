@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: news
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 2a54dfe38195a27c4c1cb155e48760d19fb36f03
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 00fd623b6323b10a811d64c47b4a24d9a47b9f88
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="whats-new-in-dynamics-365-for-financials"></a>Nouveautés de Dynamics 365 for Financials
@@ -31,7 +30,7 @@ Dans cette page, vous pouvez visualiser les zones qui sont devenues disponibles 
 Comme annoncé dans le blog, vous pouvez désormais utiliser notre service dans votre entreprise. Mais cette mise à jour ajoute également de nouvelles capacités et une nouvelle extension.
 
 ### <a name="project-management"></a>Gestion de projets
-Si vous basculez vers l'expérience Suite, vous pouvez gérer des projets et utiliser des ressources, des feuilles de temps, et des tâches. Lorsque vous vous connectez au rôle de chef de projet pour la première fois, un guide de configuration assistée vous aide à paramétrer la gestion de vos projets. Vous pouvez utiliser des exemples de comptes, de projets, de ressources, etc. dans la société de démonstration pour vous familiariser avec la fonctionnalité. Pour plus d'informations, reportez-vous à [Gérer des projets](projects-manage-projects.md).
+Si vous basculez vers l'expérience Suite, vous pouvez gérer des projets et utiliser des ressources, des feuilles de temps, et des tâches. Lorsque vous vous connectez au rôle de chef de projet pour la première fois, un guide de configuration assistée vous aide à paramétrer la gestion de vos projets. Vous pouvez utiliser des exemples de comptes, de projets, de ressources, etc. dans la société de démonstration pour vous familiariser avec la fonctionnalité. Pour plus d'informations, reportez-vous à [Gestion des projets](projects-manage-projects.md).
 
 ### <a name="fixed-assets"></a>Immobilisations
 Si vous basculez à l'expérience Suite, vous pouvez gérer des immobilisations, notamment l'amortissement et l'assurance. Un paramétrage standard est fourni, mais vous pouvez le modifier à tout moment. Vous pouvez enregistrer les achats d'immobilisations dans des feuilles d'immobilisation dédiées où vous pouvez aussi liquider des immobilisations. Les écritures appropriées sont créées automatiquement. Pour plus d'informations, reportez-vous à [Immobilisations](fa-manage.md).
@@ -45,7 +44,7 @@ Les graphiques du tableau de bord Comptable offrent une analyse qui peut vous ai
 ### <a name="team-members"></a>Membre de l'équipe
 Le tableau de bord **Membre de l'équipe** est un nouveau tableau de bord défini pour le rôle de membre de l'équipe Dynamics 365 afin que les utilisateurs puissent consulter et modifier la plupart des données dans le système. En tant que membre de l'équipe, vous pouvez également utiliser les feuilles de temps et les tâches d'approbation qui sont affectées.
 
-### <a name="synchronize-your-customers-and-services-with-bookings-in-office-365"></a>Synchroniser vos clients et services avec des réservations dans Office 365
+### <a name="synchronize-your-customers-and-services-with-bookings-in-office-365"></a>Synchroniser vos clients et services avec des réservations dans Office 365
 Avec cette mise à jour, vous pouvez automatiquement synchroniser vos enregistrements d'article de service et de client avec la nouvelle application **Réservations** dans Office 365. Vous pouvez créer des clients et des services et réserver des rendez-vous dans Réservations, et ils s'affichent alors dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ainsi, vous pouvez facturer le client automatiquement après le service et vous n'avez pas à saisir les mêmes informations deux fois dans le processus.
 
 ## <a name="september-2016-update"></a>Mise à jour de septembre 2016
@@ -91,7 +90,7 @@ Cette mise à jour ajoute des actions au tableau de bord de fournisseur dans le 
 Le complément Outlook dispose à présent du calendrier Outlook. Dans un rendez-vous de calendrier, vous pouvez ouvrir le complément [!INCLUDE[d365fin](includes/d365fin_md.md)] et obtenir un aperçu du client associé avec le rendez-vous. Ensuite, vous pouvez créer et envoyer une facture pour les services fournis lors de la réunion, toutes ces opérations s'effectuent directement dans le calendrier Outlook. Pour plus d'informations, reportez-vous à [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] en tant que boîte de réception professionnelle dans Outlook](madeira-outlook.md).  
 
 ### <a name="appsource-marketplace-for-extensions"></a>Marketplace AppSource pour les extensions
-Des extensions [!INCLUDE[d365fin](includes/d365fin_md.md)] sont désormais disponibles dans le marketplace AppSource sur [AppSource.microsoft.com](https://appsource.microsoft.com/). Vous pouvez rechercher les extensions sur le marché. Vous pouvez visualiser des informations, notamment des supports marketing, des captures d'écran, des vidéos et des liens vers des informations supplémentaires. Pour plus d'informations, voir [Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md).  
+Les extensions [!INCLUDE[d365fin](includes/d365fin_md.md)] sont maintenant disponibles dans le marché AppSource à l'adresse [AppSource.microsoft.com](https://appsource.microsoft.com/). Vous pouvez rechercher les extensions dans le marché. Vous pouvez visualiser des informations, notamment des supports marketing, des captures d'écran, des vidéos et des liens vers des informations supplémentaires. Pour plus d'informations, voir [Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md).  
 
 ### <a name="shipping-agents-and-item-attributes"></a>Transporteurs et attributs d'article
 Vous pouvez ajouter des attributs à vos articles de stock qui facilitent la recherche de produits pour vos clients. Pour en savoir plus, voir [Procédure : utiliser les attributs d'article](inventory-how-work-item-attributes.md).  
@@ -100,8 +99,8 @@ Vous pouvez ajouter des attributs à vos articles de stock qui facilitent la rec
 Avec cette mise à jour, vous avez le choix entre encore plus d'extensions dans la fenêtre **Gestion des extensions**.
 Pour plus d'informations, voir [Extensions [!INCLUDE[d365fin](includes/d365fin_md.md)] par d'autres fournisseurs](ui-extensions-other.md).  
 
-### <a name="manage-your-customer-relationships-using-microsoft-dynamics-crm-from-inside-included365finincludesd365finmdmd"></a>Gérer vos relations client à l'aide de Microsoft Dynamics CRM à partir de[!INCLUDE[d365fin](includes/d365fin_md.md)]
-Nous avons ajouté un nouveau guide de configuration assistée à la page d'accueil Gestionnaire d'activité qui vous guide dans le processus de configuration pour vous connecter à Dynamics CRM. Une fois cette opération effectuée, vous disposez d'un couplage facile des enregistrements Dynamics CRM avec les enregistrements [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, voir [Gérer vos relations client à l'aide de Microsoft Dynamics CRM à partir de [!INCLUDE[d365fin](includes/d365fin_md.md)] ](marketing-integrate-dynamicscrm.md).
+### <a name="manage-your-customer-relationships-using-microsoft-dynamics-365-for-sales-from-inside-included365finincludesd365finmdmd"></a>Gérer vos relations client à l'aide de Microsoft Dynamics 365 for Sales à partir de [!INCLUDE[d365fin](includes/d365fin_md.md)]
+Nous avons ajouté un nouveau guide de configuration assistée à la page d'accueil Gestionnaire d'activité qui vous guide dans le processus de configuration pour vous connecter à Dynamics 365 for Sales. Une fois cette opération effectuée, vous disposez d'un couplage facile des enregistrements Dynamics 365 for Sales avec les enregistrements [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, voir [Gérer vos relations client à l'aide de Microsoft Dynamics 365 for Sales à partir de [!INCLUDE[d365fin](includes/d365fin_md.md)] ](marketing-integrate-dynamicscrm.md).
 
 ## <a name="may-2016-update"></a>Mise à jour de mai 2016
 Dans cette mise à jour de [!INCLUDE[d365fin](includes/d365fin_md.md)] de nouvelles fonctionnalités ont été ajoutées comme [annoncé dans le blog](https://community.dynamics.com/business/b/financials/archive/2016/06/01/new-and-updated-capabilities-in-the-first-update-of-project-quot-madeira-quot).  

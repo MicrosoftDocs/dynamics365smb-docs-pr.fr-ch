@@ -11,11 +11,11 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 03/21/2017
 ms.author: solsen
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 9e13c2a994ecf4805f585df9c55199f041e80950
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 129cc1326b9a35a41f0c12db51af25de6dc4fa3b
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="getting-ready-for-doing-business"></a>Préparation aux activités commerciales
@@ -39,7 +39,7 @@ Dans la fenêtre **Configuration assistée**, vous découvrirez l'expérience **
 | Conf. macros complémentaires Office |Configure la capacité à utiliser et lancer [!INCLUDE[d365fin](includes/d365fin_md.md)] à partir d'Outlook. |
 | Configurer flux travail appr. |Configure la capacité à notifier automatiquement un approbateur lorsqu'un utilisateur tente de créer ou modifier certaines valeurs dans des documents, des feuilles ou des fiches, par exemple un montant dépassant une limite spécifiée. |
 | Config. identifiant messagerie |Configure la capacité à archiver les correspondances par e-mail dans [!INCLUDE[d365fin](includes/d365fin_md.md)] pour assurer le suivi des interactions. |
-| Configurer la connexion à Dynamics CRM |Configure une connexion vers Dynamics CRM, ce qui vous permet de synchroniser les données telles que les contacts et les informations des commandes vente. |
+| Configurer Dynamics 365 Connector |Configure une connexion vers Dynamics 365 for Sales, ce qui vous permet de synchroniser les données telles que les contacts et les informations des commandes vente. |
 
 Lorsque vous avez exécuté une configuration assisté, elle est marqué comme **Terminée**. Pour exécuter la configuration assistée, vous cliquez sur les trois points (ou menu contextuel), puis vous sélectionnez **Démarrer la configuration**.
 
@@ -51,7 +51,7 @@ Utilisez les flèches pour réduire une partie de la page et faire de la place a
 Sous **Paramètres de la société** vous pouvez afficher et modifier les informations de configuration sur la société actuelle. Un grand nombre de ces informations sont préremplies si vous avez exécuté la configuration assistée **Configurer la société** lors de votre inscription à [!INCLUDE[d365fin](includes/d365fin_md.md)]. Si vous souhaitez modifier le logo de la société, les informations de contact, les paramètres bancaires, ou les informations fiscales, vous pouvez le faire à partir de cette fenêtre.    
 
 ## <a name="adding-users-and-permissions"></a>Ajouter des utilisateurs et des autorisations
-Si vous souhaitez ajouter des utilisateurs, vous pouvez le faire à partir du centre d’administration Office 365. Pour plus d'informations, voir [Ajouter des utilisateurs à Office 365 for business](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Une fois les utilisateurs créés dans Office 365, ils peuvent être importés dans la fenêtre **Utilisateurs** à l'aide de l'option **Récupérer des utilisateurs à partir d'Office 365**. Vous pouvez ensuite affecter des autorisations aux utilisateurs et les organiser en groupes d'utilisateurs. Pour en savoir plus, reportez-vous à [Procédure : gérer les utilisateurs et les autorisations](ui-how-users-permissions.md).  
+Si vous souhaitez ajouter des utilisateurs, vous pouvez le faire à partir du centre d’administration Office 365. Pour plus d'informations, voir [Ajouter des utilisateurs à Office 365 for business](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Une fois les utilisateurs créés dans Office 365, ils peuvent être importés dans la fenêtre **Utilisateurs** à l'aide de l'option **Récupérer des utilisateurs à partir d'Office 365**. Vous pouvez ensuite affecter des autorisations aux utilisateurs et les organiser en groupes d'utilisateurs. Pour en savoir plus, reportez-vous à [Procédure : gérer les utilisateurs et les autorisations](ui-how-users-permissions.md).  
 
 ## <a name="getting-help"></a>Obtenir de l'aide
 Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], des info-bulles vous guident dans l'utilisation des différents processus entreprise. Dans chaque info-bulle, vous trouverez un lien intitulé **En savoir plus** qui vous permet d'accéder à l'aide concernant le produit. Le point d'interrogation dans le coin supérieur droit vous permet également d'accéder à l'aide relative au produit.

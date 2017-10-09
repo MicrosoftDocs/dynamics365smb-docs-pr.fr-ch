@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 53c588f65232656d2362873347c6c7dc0d412449
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="viewing-list-data-in-power-bi-reports-in-dynamics-365-for-financials"></a>Affichage des données de liste dans les états Power BI dans Dynamics 365 for Financials
@@ -64,7 +63,7 @@ Cette section fournit une solution de rechange pour les problèmes les plus cour
 
 **L'utilisateur ne voit pas l'état sur la page Sélectionner un état qu'il veut sélectionner** Si vous ne pouvez pas sélectionner un état, une solution consiste à vérifier son nom pour vous assurer qu'il contient le nom de la page de liste. Vous pouvez aussi effacer le filtre pour obtenir la liste complète des états disponibles dans Power BI.  
 
-**L'état est chargé mais il est vide, non filtré ou filtré incorrectement** Vérifiez que le filtre de l'état contient la bonne clé primaire. Dans la plupart des cas, il s'agit du champ **N°**, mais dans la table **Écriture comptable**, vous devez utiliser le champ **N° écriture** .
+**L'état est chargé mais il est vide, non filtré ou filtré incorrectement** Vérifiez que le filtre de l'état contient la bonne clé primaire. Dans la plupart des cas, il s'agit du champ **N°**, mais dans la table **Écriture comptable**, vous devez utiliser le champ **N° écriture**.
 
 **L'état est chargé, mais il affiche une page non souhaitée** Vérifiez que la page que vous souhaitez afficher est la première page de votre état.  
 
