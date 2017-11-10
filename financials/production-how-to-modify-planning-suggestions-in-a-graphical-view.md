@@ -67,7 +67,6 @@ Pour appliquer les modifications du programme d'approvisionnement, vous devez su
  |Cercle vert avec une icône en forme de disque avec une croix rouge|Commande approvisionnement suggérée avec le message d'action *Annuler*.<br /><br /> -   Modification impossible.<br />-   Visible lorsque le champ **Inclure propositions planning** est sélectionné (graphique vert).|  
  |Cercle vert avec une icône en forme de disque avec une étoile|Commandes approvisionnement suggérées avec le message d'action *Nouveau*.<br /><br /> -   Modification possible.<br />-   Visible lorsque le champ **Inclure propositions planning** est sélectionné (graphique vert).|  
  |Cercle vert avec une icône en forme de disque avec une ou deux flèches|Commandes approvisionnement proposées avec le message d'action *Replanifier*, *Changer qté*, ou *Replan. et changer qté*<br /><br /> -   Modification possible.<br />-   Visible lorsque le champ **Inclure propositions planning** est sélectionné (graphique vert).<br /><br /> Les flèches reflètent la direction de la proposition planning. Par exemple, une flèche gauche conjointement à une flèche vers le haut indique un message d'action *Replanifier & changer qté* qui consiste à replanifier en amont et à augmenter la quantité.|  
- ||  
 
 Lorsque vous accédez au menu déroulant du raccourci **Chronologie**, les fonctions suivantes s'affichent en fonction de votre choix  
 

@@ -50,13 +50,12 @@ Vous pouvez ensuite configurer les colonnes suivantes :
 
 Selon les lignes et les colonnes configurées, le programme totalise le résultat du rapport dans la fenêtre de la matrice **Rapport d'analyse** de ce type :  
 
-|||||  
+| |Ventes mois en cours|Ventes mois précédent|Ventes mois précédent (en %)|  
 |-|-|-|-|  
-||Ventes mois en cours|Ventes mois précédent|Ventes mois précédent (en %)|  
-|Ordinateurs||||  
-|Ecrans||||  
-|Pièces de rechange||||  
-|Total||||  
+|Ordinateurs| | | |  
+|Ecrans| | | |  
+|Pièces de rechange| | | |  
+|Total| | | |  
 
  Vous pouvez, par exemple, définir un jeu de lignes et plusieurs ensembles de présentations colonne afin d'afficher respectivement les rapports mensuel et annuel.
 
