@@ -1,6 +1,6 @@
 ---
 title: "Configurer un prélèvement SEPA | Microsoft Docs"
-description: "Découvrez comment configurer un prélèvement SEPA dans Dynamics 365 for Financials."
+description: "Découvrez comment configurer un prélèvement SEPA dans Dynamics 365 Business edition."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: a5f7a99a3e6bfd9c0146d87af4e3869cda381a67
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 96c851c58decbeb46afcd79a9c5275d16c8072d4
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-set-up-sepa-direct-debit"></a>Procédure : configurer un prélèvement SEPA
@@ -38,7 +38,7 @@ Avant de pouvoir traiter les paiements client par voie électronique en exportan
 2. Sélectionnez l'action **Nouveau**.  
 3. Configurez un mode de règlement. Remplissez les champs relatifs au prélèvement automatique comme indiqué dans le tableau ci-dessous.  
 
-    |Champ|[Description|  
+    |Champ|Désignation|  
     |---------------------------------|---------------------------------------|  
     |**Prélèvement**|Spécifie si le mode de paiement est utilisé pour une collection prélèvement automatique SEPA.|  
     |**Code conditions paiem. prélèvement**|Spécifiez les conditions de paiement, par exemple NE PAS PAYER, qui sont affichées sur les factures vente payées par prélèvement automatique SEPA pour indiquer au client que le paiement sera collecté automatiquement. Vous pouvez également laisser le champ vide.|  
@@ -59,7 +59,7 @@ Avant de pouvoir traiter les paiements client par voie électronique en exportan
 4. Dans la fenêtre **Liste des comptes bancaires client**, sélectionnez le compte bancaire client utilisé pour les prélèvements automatique puis, sous l'onglet **Accueil**, dans le groupe **Processus**, cliquez sur **Mandats prélèvement automatique**.  
 5. Dans la fenêtre **Mandats de prélèvement SEPA**, renseignez les champs comme indiqué dans le tableau suivant.  
 
-    |[Champ|Description]|  
+    |Champ|Désignation|  
     |---------------------------------|---------------------------------------|  
     |**Code compte bancaire client**|Spécifie le compte bancaire à partir duquel les prélèvements automatiques sont collectés. Ce champ est complété automatiquement.|  
     |**Valide à partir de**|Spécifie la date à laquelle le mandat de prélèvement commence.|  
@@ -78,5 +78,5 @@ Avant de pouvoir traiter les paiements client par voie électronique en exportan
 [Recouvrement de paiements par prélèvement automatique SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
 [Procédure : Configurer les définitions d'échange de données](across-how-to-set-up-data-exchange-definitions.md)
 [Procédure : Créer des lignes vente et achat récurrentes](sales-how-work-standard-lines.md)
-[Échange de données en tant que documents électroniques](across-data-exchange.md)
+[Échanger des données par voir électronique](across-data-exchange.md)
 

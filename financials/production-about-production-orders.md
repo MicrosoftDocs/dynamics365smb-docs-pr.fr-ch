@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 339515e73f65c0f0f37405d52c670f0597811934
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: 1ca27811bef8e04fa96ccd920ca9b7327ad4d849
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="about-production-orders"></a>À propos des ordres de fabrication
 Les ordres de fabrication permettent de gérer la conversion de matières achetées en articles fabriqués. La gamme des ordres de fabrication utilise divers centres de charge ou postes de charge de l'atelier.  
 
-Avant de commencer la production, la plupart des sociétés effectuent une planification des approvisionnements, généralement une fois par semaine, pour calculer le nombre d'ordres de fabrication et de commandes achat à exécuter pour répondre à une demande de vente de la semaine en cours. Les commandes achat fournissent les composants requis en fonction de la nomenclature de production pour produire les produits finis. 
+Avant de commencer la production, la plupart des sociétés effectuent une planification des approvisionnements, généralement une fois par semaine, pour calculer le nombre d'ordres de fabrication et de commandes achat à exécuter pour répondre à une demande de vente de la semaine en cours. Les commandes achat fournissent les composants requis en fonction de la nomenclature de production pour produire les produits finis.
 
 Les ordres de fabrication sont les composants centraux de la fonctionnalité de fabrication du programme et contiennent les informations suivantes :  
 
@@ -46,7 +46,6 @@ Les ordres de fabrication sont créés à l'aide d'informations provenant des é
 
 - Articles  
 - Nomenclatures de production
-- Nomenclatures d'élément d'assemblage
 - Gammes  
 - postes de charge ;  
 - centres de charge ;  

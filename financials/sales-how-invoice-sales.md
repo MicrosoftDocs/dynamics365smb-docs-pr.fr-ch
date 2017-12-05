@@ -9,20 +9,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 03/29/2017
+ms.date: 10/11/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: fb4b1ad14dfedaeca38293e0e0b4496300090c17
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 6de2d9c030313cd2d7990faa7b9217bb751fe138
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-invoice-sales"></a>Procédure : facturer des ventes
 Vous créez une facture vente ou une commande vente pour enregistrer votre accord avec un client pour vendre certains produits selon certaines conditions de livraison et de paiement.  
 
-> [!NOTE]  
->   Il existe quelques scénarios où vous devez utiliser une commande vente au lieu d'une facture vente :  
+Il existe quelques scénarios où vous devez utiliser une commande vente au lieu d'une facture vente :  
 
 * Si vous devez expédier uniquement une partie d'une quantité de commande, par exemple, si la quantité totale n'est pas disponible.  
 * Si vous vendez des articles que votre fournisseur fournit directement à votre client (une livraison directe). Pour plus d'informations, voir [Procédure : effectuer des livraisons directes](sales-how-drop-shipment.md).  
@@ -37,7 +36,7 @@ Dans les environnements d'entreprise où le client doit payer avant la livraison
 
 Vous pouvez facilement corriger ou annuler une facture vente validée avant qu'elle ne soit payée. Cela est utile, par exemple, si vous souhaitez corriger une erreur de saisie, ou si le client demande une modification tôt dans le processus de commande. Pour plus d'informations, reportez-vous à [Procédure : corriger ou annuler des factures vente impayées](sales-how-correct-cancel-sales-invoice.md). Si la facture vente validée est payée, vous devez créer un avoir vente pour contrepasser la vente. Pour plus d'informations, reportez-vous à [Procédure : traiter les retours ou annulations de ventes](sales-how-process-sales-returns-cancellations.md).
 
-Les articles peuvent être des articles en stock et des services, représentés par les types **Article - Stock** et **Article - Service** sur les lignes vente. Le processus de facture vente est identique pour les deux types d'article. Pour plus d'informations, reportez vous à [Procédure : enregistrer de nouveaux articles](inventory-how-register-new-items.md).
+Les articles peuvent être des articles en stock et des services, représentés par les types **Article** et **Article** sur la fiche article. Le processus de facture vente est identique pour les deux types d'article. Pour plus d'informations, reportez vous à [Procédure : enregistrer de nouveaux articles](inventory-how-register-new-items.md).
 
 Vous pouvez remplir les champs relatifs au client sur la facture vente de deux façons selon que le client est déjà enregistré ou non. Reportez-vous aux étapes 2 et 3 de la procédure ci-dessous.
 
@@ -67,7 +66,7 @@ Si vous avez défini des lignes vente récurrentes pour le client, tel qu'un ord
 11. Dans le champ **Quantité**, entrez le nombre d'unités du produit, de frais ou de la transaction que la ligne enregistre pour le client.  
 
     > [!NOTE]  
->   Si l'article est de type **Article - Service** ou **Ressource**, la quantité est une unité de temps, telle que les heures, comme indiqué dans le champ **Code unité de la ligne**.  
+>   Si l'article est de type **Service** ou si le champ **Type** contient **Ressource**, la quantité est alors une unité de temps, telle que les heures, comme indiqué dans le champ **Code unité** de la ligne.  
 
     La valeur du champ **Montant ligne** est calculée comme suit : *Prix unitaire* x *Quantité*.  
 
@@ -92,6 +91,6 @@ Les écritures comptables article et client associés sont à présent créés d
 [Définition des ventes](sales-setup-sales.md)  
 [Stock](inventory-manage-inventory.md)  
 [Procédure : envoyer des documents par e-mail](ui-how-send-documents-email.md)  
-[Facturation en vrac à partir de Microsoft Bookings dans Dynamics 365 for Financials](finance-bookings.md)  
+[Facturation en vrac à partir de Microsoft Bookings dans Dynamics 365 Business edition](finance-bookings.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

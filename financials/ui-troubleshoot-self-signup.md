@@ -1,8 +1,6 @@
 ---
 title: "Moyens de résoudre des problèmes d'inscription en self-service | Microsoft Docs"
-description: "En savoir plus sur les motifs classiques pour lesquels vous ne pouvez pas terminer l'inscription à Dynamics 365 for Financials, et des manières de les résoudre."
-services: project-madeira
-documentationcenter: 
+description: "En savoir plus sur les motifs classiques pour lesquels vous ne pouvez pas terminer l'inscription à Dynamics 365 Business edition, et des manières de les résoudre."
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
 ms.topic: article
@@ -12,16 +10,16 @@ ms.workload: na
 ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 1bc036d4e57403d903c292a07a8985dfe939b20d
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c97d406d0213c7b2ade23a2d209adf54bf9dfcae
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="troubleshooting-self-service-sign-up"></a>Dépannage de l'inscription en self-service
 L'inscription à [!INCLUDE[d365fin](includes/d365fin_md.md)] est simple et peut être effectuée très rapidement. Vous pouvez créer un compte gratuit même si vous représentez une société existante. Cet article aborde les problèmes que vous pouvez rencontrer lors de l'inscription.
 
-## <a name="what-email-address-can-i-use-with-financials"></a>Quelle adresse e-mail puis-je utiliser avec Financials ?
+## <a name="what-email-address-can-i-use-with-dynamics-365"></a>Quelle adresse e-mail puis-je utiliser avec Dynamics 365 ?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] exige que vous utilisiez une adresse e-mail professionnelle ou scolaire pour votre inscription. [!INCLUDE[d365fin](includes/d365fin_md.md)] ne prend pas en charge les adresses e-mail fournies par les services de messagerie publics ni les opérateurs de télécommunications. Cela comprend outlook.com, hotmail.com, gmail.com, et d'autres.
 
 Si vous essayez d'effectuer votre inscription à l'aide d'une adresse e-mail personnelle, vous recevez un message vous demandant d'utiliser une adresse professionnelle ou scolaire.
@@ -40,5 +38,4 @@ Dans de nombreux cas, vous pouvez effectuer votre inscription à [!INCLUDE[d365f
 ## <a name="see-also"></a>Voir aussi
 [Bienvenue dans [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
 

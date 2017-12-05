@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/05/2017
+ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 61c89c50b549a802df1973538edb83d3baf328e4
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: e27ceb91b25669a31d95256385cb7e5acd9160bd
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="manufacturing"></a>Production
@@ -24,7 +24,9 @@ Lorsque la demande est planifiée et les matières ont été produites conformé
 
 Une grande partie de l'exécution de la production, du point de vue du système, consiste à valider la production dans la base de données pour indiquer l'avancement ainsi qu'à mettre à jour le stock avec les articles finis. La validation de la production peut être effectuée manuellement en renseignant et en validant les lignes feuille après les opérations de production. La validation peut également être automatisée en utilisant la consommation en amont. Dans ce cas, la consommation de matières est automatiquement validée en même temps que la production lors du changement du statut de l'ordre de fabrication en Terminé.  
 
-Outre la feuille de validation de la production pour plusieurs ordres de fabrication, vous pouvez utiliser la fenêtre **Feuille production** pour valider la consommation et/ou la production d'une ligne O.F.  
+Outre la feuille de validation de la production pour plusieurs ordres de fabrication, vous pouvez utiliser la fenêtre **Feuille production** pour valider la consommation et/ou la production d'une ligne O.F.
+
+Avant de pouvoir commencer à produire des articles, vous devez procéder à divers paramétrages, tels que les centres de charge, les gammes et les nomenclatures de production. Pour plus d'informations, voir [Paramétrage de la production](production-configure-production-processes.md).
 
 Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.   
 

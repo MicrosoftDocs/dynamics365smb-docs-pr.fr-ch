@@ -1,6 +1,6 @@
 ---
-title: Utilisation de Dynamics 365 for Financials avec Outlook | Microsoft Docs
-description: "Vous pouvez utiliser Dynamics 365 for Financials comme boîte de réception professionnelle dans Outlook, car il est intégré à Office 365, cependant, vous pouvez également l'utiliser sans Outlook dans un navigateur ou sur votre périphérique mobile."
+title: Utilisation de Dynamics 365 Business edition sans Outlook | Microsoft Docs
+description: "Vous pouvez utiliser Dynamics 365 Business edition comme boîte de réception professionnelle dans Outlook, car il est intégré à Office 365, cependant, vous pouvez également l'utiliser sans Outlook dans un navigateur ou sur votre périphérique mobile."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,13 +12,13 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 0602/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 29b204502281b728889098ae8d88f928e4f46e20
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 357e7b637d2c67417bf8f3b2a640b97e65d2947a
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="using-dynamics-365-for-financials-without-outlook"></a>Utilisation de Dynamics 365 for Financials avec Outlook
+# <a name="using-dynamics-365-for-finance-and-operations-business-edition-without-outlook"></a>Utilisation de Dynamics 365 for Finance and Operations, Business edition sans Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] bénéficie d'une intégration complète à Office 365, et vous pouvez utiliser [!INCLUDE[d365fin](includes/d365fin_md.md)] comme boîte de réception professionnelle dans Outlook. Si vous n'avez pas Outlook, vous pouvez utiliser [!INCLUDE[d365fin](includes/d365fin_md.md)] dans le navigateur ou sur votre périphérique mobile.  
 
 ## <a name="sending-email"></a>Envoi d'e-mails
@@ -26,8 +26,8 @@ Vous pouvez envoyer des documents tels que des factures en tant qu'e-mails à l'
 
 
 ## <a name="see-also"></a>Voir aussi
-[Bienvenue dans Dynamics 365 for Financials](index.md)  
-[Utilisation de Financials en tant que boîte de réception professionnelle dans Outlook](madeira-outlook.md)  
-[Obtention de Financials sur mon périphérique mobile](install-mobile-app.md)  
+[Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Utiliser Dynamics 365 en tant que boîte de réception professionnelle dans Outlook](madeira-outlook.md)  
+[Obtention de Dynamics 365 sur mon périphérique mobile](install-mobile-app.md)  
 [Procédure : envoyer des documents par e-mail](ui-how-send-documents-email.md)
 

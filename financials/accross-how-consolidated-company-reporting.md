@@ -12,10 +12,10 @@ ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.date: 07/14/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: aba01deb3ab2294b86003957f293224bc89ea376
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 9739f89c45dd63d03235fef4204b2adeb48ac4d3
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 
@@ -29,16 +29,16 @@ Vous pouvez consolider :
 * des sociétés avec plusieurs plans comptables ;  
 * des sociétés qui utilisent plusieurs exercices comptables et devises ;  
 * la totalité ou un pourcentage des informations financières d'une société ;
-* en utilisant plusieurs taux de change dans des comptes généraux individuels. 
+* en utilisant plusieurs taux de change dans des comptes généraux individuels.
 
 En fonction de la complexité de vos entreprises, il existe deux façons de configurer l'état :
 
 * Si les paramètres avancés ne sont pas nécessaires, par exemple l'ajout d'une société que vous détenez en partie, vous pouvez utiliser le guide de configuration assistée **Consolidation de la société** pour configurer rapidement une consolidation. Le guide vous aide à effectuer les étapes de base.
 * Si des paramètres plus avancés sont nécessaires, vous pouvez configurer vous-même la société consolidée et les centres de profit.
 
-## <a name="to-do-a-simple-consolidation-setup"></a>Pour configurer une consolidation simple 
+## <a name="to-do-a-simple-consolidation-setup"></a>Pour configurer une consolidation simple
 Si votre consolidation est simple, car vous détenez en totalité les centres de profit à consolider, le guide de configuration assistée **Consolidation de la société** vous aide à effectuer les étapes suivantes :
-  
+
 * Choisissez si vous souhaitez créer une société consolidée, ou consolider les données dans une société que vous avez déjà créée pour la consolidation. La société ne doit pas contenir de transactions.
 * Affichez un aperçu des résultats. [!INCLUDE[d365fin](includes/d365fin_md.md)] vérifie que les données de base et les transactions peuvent être transférées avec succès vers la société consolidée.
 
@@ -58,20 +58,20 @@ Si des paramètres plus avancés sont nécessaires pour votre consolidation, vou
 
 Si votre centre de profit utilise une devise étrangère, indiquez le taux de change à utiliser dans la consolidation. Vous devez également entrer des informations de consolidation sur les comptes généraux du centre de profit. Ces processus sont décrits dans les sections suivantes.
 
-### <a name="to-prepare-general-ledger-accounts-for-consolidation"></a>Pour préparer les comptes généraux pour la consolidation 
+### <a name="to-prepare-general-ledger-accounts-for-consolidation"></a>Pour préparer les comptes généraux pour la consolidation
 Si le plan comptable du centre de profit diffère de celui de la société consolidée, vous devez préparer les comptes généraux pour la consolidation. Vous pouvez spécifier les comptes sur lesquels valider les débits et crédits et la méthode à utiliser pour convertir des devises dans la société consolidée. Par exemple, cela est utile si vous exécutez souvent l'état.
 
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Plan comptable**, puis sélectionnez le lien connexe.  
 2. Ouvrez la fiche du compte, puis renseignez les champs du raccourci **Consolidation**.
 
 ### <a name="to-specify-exchange-rates-for-consolidations"></a>Pour indiquer des taux de change pour les consolidations
-Si un centre de profit utilise une devise différente de celle de la société consolidée, vous devez spécifier des méthodes de conversion de taux de change pour chaque compte avant la consolidation. Pour chaque compte, la valeur du champ **Consolider la méthode de traduction** détermine le taux de change. Dans chaque fiche centre de profit, dans le champ **Table Taux de change devise**, vous spécifiez si la consolidation utilise les taux de change du centre de profit ou de la société consolidée. Si vous utilisez les taux de change de la société consolidée, vous pouvez les modifier pour un centre de profit. Pour les centres de profit, si le champ **Table Taux de change devise** de la fiche centre de profit contient la valeur **Local**, vous pouvez modifier le taux de change à partir de la fiche centre de profit. Les taux de change sont copiés à partir de la table **Taux de change devise**, mais vous pouvez les modifier avant la consolidation. 
+Si un centre de profit utilise une devise différente de celle de la société consolidée, vous devez spécifier des méthodes de conversion de taux de change pour chaque compte avant la consolidation. Pour chaque compte, la valeur du champ **Consolider la méthode de traduction** détermine le taux de change. Dans chaque fiche centre de profit, dans le champ **Table Taux de change devise**, vous spécifiez si la consolidation utilise les taux de change du centre de profit ou de la société consolidée. Si vous utilisez les taux de change de la société consolidée, vous pouvez les modifier pour un centre de profit. Pour les centres de profit, si le champ **Table Taux de change devise** de la fiche centre de profit contient la valeur **Local**, vous pouvez modifier le taux de change à partir de la fiche centre de profit. Les taux de change sont copiés à partir de la table **Taux de change devise**, mais vous pouvez les modifier avant la consolidation.
 
 Le tableau suivant décrit les méthodes de conversion de taux de change que vous pouvez utiliser pour les comptes.
 
 |Taux de change | Utilisation courante |
 |---|---|
-|Taux moyen (manuel) | Vous calculez manuellement le taux moyen pour la période à consolider. Calculez une moyenne arithmétique ou une estimation au plus près, puis spécifiez le résultat pour chaque centre de profit. Utilisé pour les comptes résultats.| 
+|Taux moyen (manuel) | Vous calculez manuellement le taux moyen pour la période à consolider. Calculez une moyenne arithmétique ou une estimation au plus près, puis spécifiez le résultat pour chaque centre de profit. Utilisé pour les comptes résultats.|
 |Taux de clôture | Utilisé pour les comptes de bilan.|
 |Dernier taux de clôture | Taux valide sur le marché des changes à la date pour laquelle le bilan ou l'exercice comptable est préparé. Entrez ce taux pour chaque centre de profit. Utilisé pour les comptes de bilan.|
 |Taux historique | Taux de change valide au moment de la transaction.|
@@ -83,8 +83,8 @@ Pour spécifier des taux de change pour les centres de profit, procédez comme s
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Centres de profit**, puis sélectionnez le lien connexe.  
 2. Sur la page **Liste des centres de profit**, choisissez le centre de profit, puis choisissez l'action **Taux moyen (manuel)**.   
 3. Sur la page **Modifier taux de change**, la valeur du champ **Montant taux de change lié** est copiée à partir de la table **Taux de change devise**, mais vous pouvez la modifier. Fermez la page.  
-4. Sous l'onglet **Naviguer**, dans le groupe **Taux change**, choisissez **Taux de clôture**.  
-5. Dans le champ **Montant taux de change lié**, saisissez le taux de change. 
+4. Choisissez l'action **Taux de clôture**.  
+5. Dans le champ **Montant taux de change lié**, saisissez le taux de change.
 
 <!-- ### To include or exclude dimensions
 
@@ -104,17 +104,17 @@ Si vous détenez une société en partie, vous pouvez ajouter un pourcentage de 
 
 ### <a name="to-test-the-data-before-you-consolidate"></a>Pour tester les données avant la consolidation
 Vous pouvez tester vos données avant de les transférer vers la société consolidée. [!INCLUDE[d365fin](includes/d365fin_md.md)] recherche des différences dans les informations des centres de profit et de la société consolidée. Par exemple, si les numéros de compte ou les codes axe sont différents. Vous devez corriger les erreurs avant d'exécuter l'état. Vous pouvez tester la base de données ou, si vous importez des données à partir d'un fichier XML, vous pouvez tester le fichier.   
-  
+
 1. Ouvrez la société consolidée.  
 2. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Centres de profit**, puis sélectionnez le lien connexe.  
 3. Exécutez l'une des opérations suivantes :  
-  
+
     * Pour tester un fichier, choisissez l'action **Tester fichier**, entrez le nom du fichier à tester, puis choisissez **Imprimer**.  
     * Pour tester la base de données, choisissez **Tester base de données**.  
 
 ## <a name="to-run-the-consolidation"></a>Pour exécuter la consolidation
 Une fois les données testées, vous pouvez les transférer vers la société consolidée.  
-  
+
 1. Connectez-vous à la société consolidée.  
 2. Dans le **Tableau de bord Comptable**, choisissez l'action **Exécuter la consolidation**.  
 3. Renseignez les champs requis.  
@@ -122,7 +122,7 @@ Une fois les données testées, vous pouvez les transférer vers la société co
 
 ## <a name="to-export-data-from-dynamics-nav-and-import-it-in-included365finincludesd365finmdmd"></a>Pour exporter des données depuis Dynamics NAV et les importer dans [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Si les données d'un centre de profit se trouvent dans une autre base de données, vous devez exporter les données dans un fichier avant de les inclure dans la consolidation. Chaque société doit être exportée séparément. À cette fin, utilisez le traitement par lots **Exporter fichier consolidation**.  
-  
+
 Après l'exécution du traitement par lots, toutes les écritures des comptes généraux sont traitées. Pour chaque combinaison d'axe principal et date sélectionnés, la valeur des champs **Montant** des écritures est totalisée et exportée. La combinaison d'axe principal et date sélectionnés suivante qui a le même numéro de compte est traitée, puis les combinaisons ayant le numéro de compte suivant sont traitées, etc.  
 
 Les écritures exportées contiennent les champs suivants : **N° compte**, **Date comptabilisation** et **Montant**. Si des informations analytiques ont également été exportées, des codes axe et des sections analytiques sont également inclus.  

@@ -1,6 +1,6 @@
 ---
 title: "Configurer l'échange de données | Microsoft Docs"
-description: "Configurez l'infrastructure d'échange de données dans Dynamics 365 for Financials."
+description: "Configurez l'infrastructure d'échange de données dans Dynamics 365 Business edition."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,14 +11,14 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5c0fcfd6ef178c5917a4a07ba81a9bef9b4522aa
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 593904835c55d4ce9b137d0af387ea897603795f
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="setting-up-data-exchange"></a>Configuration de l'échange de données
-Avant de pouvoir envoyer et recevoir des documents électroniques ou importer et exporter des fichiers bancaires, vous devez configurer l'infrastructure d'échange de données pour traiter les fichiers concernés. En outre, vous devez configurer des zones associées, telles que les données de base pour les clients à qui vous envoyez des factures électroniques ou le service conversion données bancaires si vous utilisez le fournisseur externe de services de conversion de vos fichiers bancaires. Pour plus d'informations, voir [Échange de données en tant que documents électroniques](across-data-exchange.md).  
+Avant de pouvoir envoyer et recevoir des documents électroniques ou importer et exporter des fichiers bancaires, vous devez configurer l'infrastructure d'échange de données pour traiter les fichiers concernés. En outre, vous devez configurer des zones associées, telles que les données de base pour les clients à qui vous envoyez des factures électroniques ou le service conversion données bancaires si vous utilisez le fournisseur externe de services de conversion de vos fichiers bancaires. Pour plus d'informations, voir [Échanger des données par voir électronique](across-data-exchange.md).  
 
  Lorsque [!INCLUDE[d365fin](includes/d365fin_md.md)] est configuré pour échanger des données avec les fichiers externes, les utilisateurs peuvent utiliser les paramètres pour les tâches courantes de l'entreprise, comme l'envoi et la réception de documents électroniques et l'importation et l'exportation de fichiers bancaires.  
 
@@ -36,11 +36,11 @@ Avant de pouvoir envoyer et recevoir des documents électroniques ou importer et
 |Configurer et activer un service externe qui vous permet d'importer des relevés bancaires, directement sous forme de flux bancaires.|[Procédure : configurer le service de relevés bancaires](bank-how-setup-bank-statement-service.md)|  
 |Une fois le service de relevés bancaires activé, lier les comptes bancaires dans [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Procédure : configuration de comptes bancaires](bank-how-setup-bank-accounts.md)|  
 |Préparer à configurer une nouvelle définition d'échange de données pour un fichier ou flux de données à l'aide du schéma XML du fichier pour préremplir le raccourci **Définitions de colonnes** de la fenêtre **Définitions échange comptabilité**.|[Procédure : Utiliser des schémas XML pour préparer des définitions d'échange de données](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)|  
-|Configurer l'infrastructure d'échange de données pour permettre aux utilisateurs de recevoir un nouveau format de documents achat, d'envoyer un nouveau format de documents vente, d'importer un nouveau fichier bancaire, ou autre échange de données.|[Procédure : Configurer les définitions d'échange de données](across-how-to-set-up-data-exchange-definitions.md)|  
+|Configurer l'infrastructure d'échange de données pour permettre aux utilisateurs de recevoir un nouveau format de documents achat, d'envoyer un nouveau format de documents vente, d'importer un nouveau fichier bancaire, ou autre échange de données.|[Procédure : configurer les définitions d'échange de données](across-how-to-set-up-data-exchange-definitions.md)|  
 
 ## <a name="see-also"></a>Voir aussi  
-[Échange de données en tant que documents électroniques](across-data-exchange.md)  
-[Échanger des données](across-exchange-data.md)   
+[Échanger des données par voir électronique](across-data-exchange.md)  
+[Échange de données](across-exchange-data.md)   
 [Documents entrants](across-income-documents.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)  
 

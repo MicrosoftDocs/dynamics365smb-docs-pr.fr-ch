@@ -11,14 +11,14 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 111eb2f627f63edd31c6224f0fd664bf68417079
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 1f35debace937a04b8f4174131fd72cde6610b7a
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-set-up-data-exchange-definitions"></a>Procédure : Configurer les définitions d'échange de données
-Vous pouvez configurer [!INCLUDE[d365fin](includes/d365fin_md.md)] pour échanger des données de tables spécifiques avec des données de fichiers externes, par exemple pour recevoir et envoyer des documents électroniques, importer et exporter des données bancaires ou d'autres données, telles que les salaires, les taux de change des devises et les catalogues article. Pour plus d'informations, voir [Échange de données en tant que documents électroniques](across-data-exchange.md).  
+Vous pouvez configurer [!INCLUDE[d365fin](includes/d365fin_md.md)] pour échanger des données de tables spécifiques avec des données de fichiers externes, par exemple pour recevoir et envoyer des documents électroniques, importer et exporter des données bancaires ou d'autres données, telles que les salaires, les taux de change des devises et les catalogues article. Pour plus d'informations, voir [Échanger des données par voir électronique](across-data-exchange.md).  
 
 Afin de vous préparer à créer une définition d'échange de données pour un fichier ou un flux de données, vous pouvez utiliser le schéma XML associé pour les définir les éléments de données à inclure dans le raccourci **Définitions de colonnes**. Consultez l'étape 6 dans la section « Décrire le formatage de lignes et de colonnes dans un fichier ». Pour plus d'informations, voir [Procédure : Utiliser des schémas XML pour préparer des définitions d'échange de données](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
@@ -114,7 +114,7 @@ La création d'une définition d'échange de données implique deux tâches :
     |Champ|Désignation|  
     |---------------------------------|---------------------------------------|  
     |**ID Table**|Indiquez la table qui contient les champs vers lesquels ou à partir desquels des données sont échangées en fonction de la correspondance.|  
-    |**Utiliser comme table intermédiaire**|Spécifiez si la table que vous sélectionnez dans le champ **ID table** est une table intermédiaire de stockage des données importées avant leur mappage vers la table cible.<br /><br /> Vous utilisez généralement une table intermédiaire lorsque la définition d'échange de données est utilisée pour importer et convertir des documents électroniques, tels que des factures fournisseur en factures achat dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, voir [Échange de données en tant que documents électroniques](across-data-exchange.md).|  
+    |**Utiliser comme table intermédiaire**|Spécifiez si la table que vous sélectionnez dans le champ **ID table** est une table intermédiaire de stockage des données importées avant leur mappage vers la table cible.<br /><br /> Vous utilisez généralement une table intermédiaire lorsque la définition d'échange de données est utilisée pour importer et convertir des documents électroniques, tels que des factures fournisseur en factures achat dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, voir [Échanger des données par voir électronique](across-data-exchange.md).|  
     |**Nom**|Saisissez un nom pour les paramètres de correspondance.|  
     |**Codeunit pré-mappage**|Spécifiez le codeunit qui prépare la mise en correspondance entre les champs dans [!INCLUDE[d365fin](includes/d365fin_md.md)] et les données externes.|  
     |**Correspondance Codeunit**|Spécifiez le codeunit qui est utilisé pour mettre en correspondance les colonnes ou les éléments de données XML spécifiés avec les champs dans [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
@@ -153,7 +153,7 @@ La création d'une définition d'échange de données implique deux tâches :
 5. Choisissez le fichier que vous avez enregistré à l'étape 1.  
 
 ## <a name="see-also"></a>Voir aussi  
-[Configurer un échange de données](across-set-up-data-exchange.md)  
+[Configuration de l'échange de données](across-set-up-data-exchange.md)  
 [Procédure : Configurer l'envoi et la réception de documents électroniques](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [Procédure : configurer des virements SEPA](finance-how-to-set-up-sepa-credit-transfer.md)  
 [Procédure : configurer un prélèvement SEPA](finance-how-to-set-up-sepa-direct-debit.md)  

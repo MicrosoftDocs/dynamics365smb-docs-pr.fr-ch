@@ -13,10 +13,10 @@ ms.search.keywords: reimbursement
 ms.date: 06/28/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 8674fcc050e11c9ecb1c423fc5048c1ef630e1ac
+ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
+ms.openlocfilehash: 0e10011c598678134cb7badbd9a3be97751b4424
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/17/2017
 
 ---
 # <a name="how-to-record-and-reimburse-employees-expenses"></a>Procédure : enregistrer et rembourser les frais des employés

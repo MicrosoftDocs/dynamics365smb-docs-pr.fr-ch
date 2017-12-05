@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5a02126430e698d7624dfbae41390cdfb2ea2e0b
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: af4f55a85b0269832c6afba791f2499aebf0979c
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="how-to-set-up-electronic-document-sending-and-receiving"></a>Procédure : Configurer l'envoi et la réception de documents électroniques
@@ -137,7 +137,7 @@ La rubrique contient les procédures suivantes :
     |**Compte général pour lignes non-article**|Spécifie le compte G/L inséré automatiquement dans les lignes d'achat créées à partir de documents électroniques lorsque la ligne de document entrant ne contient pas d'article identifiable. Une ligne document entrant sans GTIN ni numéro d'article du fournisseur sera convertie en ligne achat de type **Compte général** et le champ **N°** de la ligne achat affichera le compte que vous sélectionnez dans le champ **Compte général pour lignes non-article**.<br /><br /> Si vous laissez le champ **Compte général pour lignes non-article** vide et que le document entrant possède des lignes sans articles identifiables, alors le document d'achat ne sera pas créé. Un message d'erreur vous donnera des instructions pour remplir le champ **Compte général pour lignes non-article** avant de pouvoir terminer la tâche.|  
 
 ## <a name="see-also"></a>Voir aussi  
-[Échange de données en tant que documents électroniques](across-data-exchange.md)   
+[Échanger des données par voir électronique](across-data-exchange.md)   
 [Procédure : facturer des ventes](sales-how-invoice-sales.md)   
 [Procédure : enregistrer des achats](purchasing-how-record-purchases.md)
 

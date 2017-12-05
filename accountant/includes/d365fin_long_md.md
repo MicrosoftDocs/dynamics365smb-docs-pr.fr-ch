@@ -1,1 +1,1 @@
-Dynamics 365 for Financials
+Dynamics 365 for Finance and Operations, Business edition

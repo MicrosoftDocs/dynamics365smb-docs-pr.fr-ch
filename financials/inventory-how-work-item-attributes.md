@@ -13,10 +13,10 @@ ms.search.keywords: categories, search words, facets
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: f071cca7df5bb1d3eac6f013784c0ca13e36477c
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: dcc29b913c999fe05272dd709a873635efb5eeb4
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-work-with-item-attributes"></a>Procédure : utilisation des attributs d'article
@@ -25,7 +25,7 @@ Lorsque les clients recherchent des renseignements au sujet d'un article, par co
 Vous pouvez également allouer les attributs d'article aux catégories d'article, qui s'appliquent ensuite aux articles qui utilisent les catégories d'article. Pour plus d'informations, voir [Procédure : catégoriser des articles](inventory-how-categorize-items.md).
 
 > [!Tip]  
-> Si vous joignez des images aux articles, l'extension Analyseur Image peut détecter les attributs dans l'image, et suggérer des attributs que vous pouvez décider d'affecter ou non. L'extension est prête. Vous devez juste l'activer. Pour plus d'informations, voir [Extension d'analyseur Image pour Microsoft Dynamics 365 for Financials](ui-extensions-image-analyzer.md).
+> Si vous joignez des images aux articles, l'extension Analyseur Image peut détecter les attributs dans l'image, et suggérer des attributs que vous pouvez décider d'affecter ou non. L'extension est prête. Vous devez juste l'activer. Pour plus d'informations, voir [Extension d'analyseur Image pour Microsoft Dynamics 365 Business edition](ui-extensions-image-analyzer.md).
 
 ## <a name="to-create-item-attributes"></a>Pour créer des attributs d'article
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Attributs article**, puis sélectionnez le lien connexe.

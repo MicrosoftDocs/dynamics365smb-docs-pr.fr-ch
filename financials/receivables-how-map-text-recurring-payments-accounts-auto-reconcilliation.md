@@ -13,17 +13,14 @@ ms.search.keywords: account linking, direct payment posting, automatic payment p
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: deb05c6294edeb892606154b38de2aa406abf6a2
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 53c65f7f47c189905e277eff1ea86af241aa1b0b
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Procédure : Mapper du texte sur les paiements récurrents aux comptes pour un rapprochement automatique
 Dans la fenêtre **Correspondance texte et compte** à laquelle vous accédez à partir de la fenêtre **Feuille rapprochement bancaire**, vous pouvez configurer des mappages entre le texte des paiements et des comptes de débit, de crédit et de contrepartie spécifiques afin que ces paiements soient validées dans les comptes spécifiés lorsque vous validez la feuille rapprochement bancaire.
-
-> [!NOTE]  
->   La rubrique s'applique également lorsque vous utilisez la fonction **Mapper le texte avec le compte** à partir d'un enregistrement document entrant pour accompagner la conversion des documents électroniques reçus des services externes en documents dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour en savoir plus, voir [Procédure : utiliser un service OCR pour convertir des fichiers PDF et image en documents électroniques](across-how-use-ocr-pdf-images-files.md).   
 
 Une fonctionnalité similaire existe pour rapprocher les montants en excédent sur les lignes feuille rapprochement bancaire de façon ponctuelle. Pour plus d'informations, reportez-vous à [Procédure : rapprocher les paiements qui ne peuvent pas être lettrés automatiquement](receivables-how-reconcile-payments-cannot-apply-auto.md).
 
@@ -41,13 +38,15 @@ Sur une ligne feuille rapprochement bancaire dont le paiement a été défini su
 4. Dans le champ **Correspondance texte**, saisissez n'importe quel texte se produisant sur les paiements que vous souhaitez valider dans les comptes spécifiés sans les appliquer à une écriture ouverte. Vous pouvez entrer jusqu'à 50 caractères.
 
     > [!NOTE]  
->   Si aucun autre paiement ni document entrant n'existe avec le texte de mappage en question, le mappage du texte avec le compte surviendra uniquement lorsqu'une seule partie du texte de paiement ou du document entrant existe en tant que texte de mappage.
-5. Dans le champ **N° fournisseur**, entrez le fournisseur pour lequel des documents entrants contenant le texte de mappage seront créés, ou pour lequel des paiements seront validés. Pour en savoir plus, voir [Procédure : utiliser un service OCR pour convertir des fichiers PDF et image en documents électroniques](across-how-use-ocr-pdf-images-files.md).      
-6. Dans le champ **N° cpte débit**, saisissez le numéro de compte dans lequel les paiements contenant le texte de mappage sont validés s'il s'agit de paiements entrants. Pour les paiements entrants, le signe de la valeur du champ **Montant relevé** est positif.
-7. Dans le champ **N° cpte crébit**, saisissez le numéro de compte dans lequel les paiements contenant le texte de mappage sont validés s'il s'agit de paiements sortants. Pour les paiements sortants, le signe de la valeur du champ **Montant relevé** est négatif.
-8. Dans le champ **Type origine solde**, indiquez si le paiement est validé dans un compte général ou dans un compte client ou fournisseur.
-9. Dans le champ **N° origine solde**, indiquez le compte dans lequel le paiement est validé, en fonction de votre sélection dans le champ **Type origine solde**.
-10. Répétez les étapes 4 à 8 pour tout le texte sur les paiements que vous souhaitez mapper à des comptes pour une validation directe sans application.
+>   Si aucun autre paiement n'existe avec le texte de mappage en question, le mappage du texte avec le compte surviendra uniquement lorsqu'une seule partie du texte de paiement existe en tant que texte de mappage.
+5. Dans le champ **N° fournisseur**, entrez le fournisseur pour lequel les paiements seront validés.
+6. Dans le champ **Type origine solde**, indiquez si le paiement est validé dans un compte général ou dans un compte client ou fournisseur.
+7. Dans le champ **N° origine solde**, indiquez le compte dans lequel le paiement est validé, en fonction de votre sélection dans le champ **Type origine solde**.
+
+    > [!NOTE]
+    > N'utilisez pas les champs **N° cpte débit** et **N° cpte crédit** en relation avec le rapprochement bancaire. Ils sont utilisés pour les documents entrants uniquement. Pour en savoir plus, voir [Procédure : utiliser un service OCR pour convertir des fichiers PDF et image en documents électroniques](across-how-use-ocr-pdf-images-files.md).
+
+8. Répétez les étapes 3 à 7 pour tout le texte sur les paiements que vous souhaitez mapper à des comptes pour une validation directe sans application.
 
 La prochaine fois que vous importez un fichier de relevé bancaire ou sélectionnez l'action **Lettrer automatiquement** dans la fenêtre **Feuille rapprochement bancaire**, les lignes feuille pour les paiements qui contiennent le texte de mappage spécifié contiendront les comptes mappés dans les champs **Type compte** et **N° compte**. Le champ **Fiabilité correspondance** contient **Élevée - Correspondance texte et compte**. Ce, à condition que la fonction de lettrage automatique ne puisse fournir qu'une fiabilité de correspondance **Basse** ou **Moyenne**.
 

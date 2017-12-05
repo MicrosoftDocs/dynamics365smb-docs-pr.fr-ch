@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 166d85bbcf7d97cb513ba668e41fc4a179d8fcc3
+ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
+ms.openlocfilehash: 85cd332e4b62ba73f511989983e1eb9f5147c5fb
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/17/2017
 
 ---
 # <a name="how-to-create-routings"></a>Comment créer des gammes
@@ -28,7 +28,7 @@ En ce qui concerne les nomenclatures de production, les gammes sont affectées �
 
 Pour pouvoir configurer une gamme, les éléments suivants doivent être en place :  
 
-- Des fiches article sont créées pour les articles parents qui participent à la production. Pour plus d'informations, reportez vous à [Procédure : enregistrer de nouveaux produits](inventory-how-register-new-items.md).
+- Des fiches article sont créées pour les articles parents qui participent à la production. Pour plus d'informations, reportez vous à [Procédure : enregistrer de nouveaux articles](inventory-how-register-new-items.md).
 - Les ressources de production sont configurées. Pour plus d'informations, voir [Procédure : configurer les centres de charge et les postes de charge](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-routing"></a>Pour créer une gamme  
@@ -53,7 +53,7 @@ Pour pouvoir configurer une gamme, les éléments suivants doivent être en plac
 12.  Poursuivez le remplissage des lignes pour toutes les opérations intervenant dans la production de l'article en question.  
 13.  Pour copier des lignes à partir d'une gamme existante, choisissez l'action **Copier gamme** pour sélectionner des lignes existantes.  
 14. Certifiez la gamme.  
-15. Vous pouvez désormais lier la nouvelle gamme à la fiche de l'article produit concerné en renseignant le champ **N° gamme**. Pour plus d'informations, reportez vous à [Procédure : enregistrer de nouveaux produits](inventory-how-register-new-items.md).  
+15. Vous pouvez désormais lier la nouvelle gamme à la fiche de l'article produit concerné en renseignant le champ **N° gamme**. Pour plus d'informations, reportez vous à [Procédure : enregistrer de nouveaux articles](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
 >  N'oubliez pas également de recalculer le coût standard de l'article de la fiche **Article** : choisissez l'action **Production**, sélectionnez l'action **Calculer coût standard**, puis sélectionnez l'action **Tous niveaux**.  

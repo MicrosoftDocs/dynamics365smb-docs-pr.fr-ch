@@ -1,6 +1,6 @@
 ---
 title: "Créer des segments| Microsoft Docs"
-description: "Décrit comment créer un segment pour un groupe de contacts dans Financials, par exemple, afin de cibler plusieurs contacts avec un courrier direct."
+description: "Décrit comment créer un segment pour un groupe de contacts dans Dynamics 365 Business edition, par exemple, afin de cibler plusieurs contacts avec un courrier direct."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 0175eb12f30ce2e509b743c93b711ef8197549c6
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: dc915aaf2bb273417d87f6ea8bf1b1f5eb142ff3
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-create-segments"></a>Procédure : créer des segments

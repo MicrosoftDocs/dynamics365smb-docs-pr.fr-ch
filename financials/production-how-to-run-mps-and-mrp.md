@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ffe729c1d0fbbb062394f815281dcf658cbff783
+ms.sourcegitcommit: bd69a3da7a0a5e766a232e8999056ac60109e7b1
+ms.openlocfilehash: 89982479ec539f6bf394d31af8775a0b735588fc
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/02/2017
 
 ---
-# <a name="how-to-run-full-planning-mps-and-mrp"></a>Procédure : exécuter une planification complète et un calcul PDP et MRP
+# <a name="how-to-run-full-planning-mps-or-mrp"></a>Procédure : exécuter une planification complète et un calcul PDP ou MRP
 Les termes « exécution de la feuille planning » ou « exécution d'un calcul MRP » font référence au calcul de la planification de fabrication principale et aux besoins matière sur la base de la demande réelle et prévue. Le système de planification peut calculer la planification de production (PDP) ou la planification des besoins matière (MRP, Material Requirements Planning) à la demande ou calculer les deux simultanément.  
 
--   Le calcul *PDP* est le calcul de la planification de production principale basé sur la demande réelle et la prévision de production. Le calcul PDP est utilisé pour les articles finis disposant de prévisions ou d'une ligne commande vente. Ces articles sont appelés « articles PDP » et identifiés de façon dynamique au début du calcul.  
--   Le calcul *MRP* est le calcul des besoins matière basé sur la demande réelle de composants et la prévision de production au niveau du composant. Le calcul MRP n'est effectué que pour les articles qui ne sont pas des articles PDP. Le but du calcul MRP est de générer des plans formels en phases, par article, afin de fournir le bon article, au bon moment, au bon endroit, et dans la bonne quantité.  
+-   Le calcul PDP est le calcul de la planification de production principale basé sur la demande réelle et la prévision de production. Le calcul PDP est utilisé pour les articles finis disposant de prévisions ou d'une ligne commande vente. Ces articles sont appelés « articles PDP » et identifiés de façon dynamique au début du calcul.  
+-   Le calcul MRP est le calcul des besoins matière basé sur la demande réelle de composants et la prévision de production au niveau du composant. Le calcul MRP n'est effectué que pour les articles qui ne sont pas des articles PDP. Le but du calcul MRP est de générer des plans formels en phases, par article, afin de fournir le bon article, au bon moment, au bon endroit, et dans la bonne quantité.  
 
 Les algorithmes de planification utilisés pour les calculs PDP et MRP sont identiques. Ces algorithmes ont trait à l'ajustement, à la réutilisation d'ordres de réapprovisionnement existant et à des messages d'action. Le processus du système de planification examine ce qui est ou sera nécessaire (demande) et ce qui est disponible ou attendu (approvisionnement). Lorsque ces quantités sont ajustées, [!INCLUDE[d365fin](includes/d365fin_md.md)] génère des messages d'action. Ces messages sont des suggestions de création d'un ordre, de modification d'un ordre (quantité ou date) ou d'annulation d'un ordre. Le terme « ordre » désigne les commandes achat, les ordres d'assemblage, les ordres de fabrication et les ordres de transfert.
 

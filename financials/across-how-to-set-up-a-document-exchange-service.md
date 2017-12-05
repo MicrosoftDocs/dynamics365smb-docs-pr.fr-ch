@@ -11,14 +11,14 @@ ms.search.keywords:
 ms.date: 08/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 1191313565e813a92c13fa07b6278e7263eeaf19
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: c014e3ee7ed580fd893470c0e0b89273eaceb429
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="how-to-set-up-a-document-exchange-service"></a>Procédure : configurer un service d'échange de document
-Utilisez un fournisseur de services externe pour échanger des documents électroniques avec vos partenaires commerciaux. Pour plus d'informations, voir [Échange de données en tant que documents électroniques](across-data-exchange.md).  
+Utilisez un fournisseur de services externe pour échanger des documents électroniques avec vos partenaires commerciaux. Pour plus d'informations, voir [Échanger des données par voir électronique](across-data-exchange.md).  
 
 ## <a name="to-set-up-a-document-exchange-service"></a>Pour configurer un service d'échange de documents  
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Paramètres service Doc. Exch.**, puis sélectionnez le lien connexe.  
@@ -45,6 +45,6 @@ Utilisez un fournisseur de services externe pour échanger des documents électr
 2. Dans la fenêtre **Gestion du chiffrement des données**, activez le chiffrement de vos données. <!--For more information, see [Manage Data Encryption](../manage-data-encryption.md).-->  
 
 ## <a name="see-also"></a>Voir aussi  
-[Configurer un échange de données](across-set-up-data-exchange.md)  
-[Échange de données en tant que documents électroniques](across-data-exchange.md)
+[Configuration de l'échange de données](across-set-up-data-exchange.md)  
+[Échanger des données par voir électronique](across-data-exchange.md)
 

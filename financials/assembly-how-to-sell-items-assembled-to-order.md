@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 74822d77b45f0ba1aaf8b255f611a54d051c1f52
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: b7617a0ac027b6d50c9029f386af3fe293e3bc7d
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-sell-items-assembled-to-order"></a>Procédure : Vente d'articles à assembler pour commande
@@ -50,7 +50,7 @@ Dans cette procédure, vous effectuez la vente d'un article que vous assemblez s
     Vous pouvez également personnaliser la commande en augmentant la quantité d'un article standard dans le kit. Vous pouvez effectuer cette opération en augmentant la valeur du champ **Quantité par** de la ligne d'ordre d'assemblage spécifique.  
 
     > [!NOTE]  
-    >  La fenêtre **Lignes d'assemblage pour commande** contient seulement les champs de base qu'un vendeur est supposé utiliser pour personnaliser la liste de composants, ajouter des numéros de traçabilité ou pour résoudre des problèmes de disponibilité des composants. Pour plus d'informations en matière d'ordre d'assemblage, telles que la date de début d'ordre d'assemblage, sous l'onglet **Accueil**, dans le groupe **Processus**, choisissez **Afficher documents**. Ceci ouvre l'affichage complet de l'ordre d'assemblage lié à la ligne commande vente. Vous ne pouvez pas modifier les contenus de la plupart des champs de l'en-tête d'ordre d'assemblage et vous ne pouvez pas valider les résultats d'assemblage parce que vous devez utiliser la validation d'expédition de la ligne commande vente.  
+    >  La fenêtre **Lignes d'assemblage pour commande** contient seulement les champs de base qu'un vendeur est supposé utiliser pour personnaliser la liste de composants, ajouter des numéros de traçabilité ou pour résoudre des problèmes de disponibilité des composants. Pour plus d'informations en matière d'ordre d'assemblage, telles que la date de début d'ordre d'assemblage, choisissez l'action **Afficher documents**. Ceci ouvre l'affichage complet de l'ordre d'assemblage lié à la ligne commande vente. Vous ne pouvez pas modifier les contenus de la plupart des champs de l'en-tête d'ordre d'assemblage et vous ne pouvez pas valider les résultats d'assemblage parce que vous devez utiliser la validation d'expédition de la ligne commande vente.  
     >   
     >  Sur l'en-tête des ordres d'assemblage associé, seul le champ **Date début** peut être modifié pour permettre aux employés d'assemblage de spécifier une date antérieure à la date d'échéance lorsqu'ils commencent le processus. Tous les champs des lignes de l'ordre d'assemblage associé peuvent être modifiés afin que les magasiniers puissent entrer les chiffres de consommation pendant le processus.  
 

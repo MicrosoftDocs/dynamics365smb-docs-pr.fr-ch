@@ -13,10 +13,10 @@ ms.search.keywords: trade, sell, replenishment
 ms.date: 07/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 85d15de13739e944ff8817b402b37ae1c7e1b144
-ms.openlocfilehash: 980a0646317c2b5c02c0eadcde9ba984c11580c4
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: 6f7202da4290ae3f6093baed4185649c30d6a199
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="how-to-create-recurring-sales-and-purchase-lines"></a>Procédure : Créer des lignes ventes et achat récurrentes
@@ -40,7 +40,7 @@ La procédure suivante indique comment utiliser des lignes ventes standard. Elle
 ## <a name="to-create-multiple-sales-invoices-based-on-standard-sales-lines"></a>Pour créer plusieurs factures vente basées sur des lignes vente standard
 Vous pouvez utiliser le traitement par lots **Créer des factures vente récurrentes** pour créer des factures vente en fonction des lignes vente standard qui sont affectées aux clients et avec des dates comptabilisation comprises entre les dates de début et de fin de validité que vous spécifiez dans le code vente standard.
 
-Dans la fenêtre **Lignes vente récurrentes**, vous pouvez également spécifier un mode et un mandat de prélèvement. Les factures vente qui sont créées avec le traitement par lots **Créer des factures vente récurrentes** incluront ensuite les informations requises pour collecter le paiement pour les factures vente par prélèvement automatique SEPA. Pour plus d'informations, voir Recouvrement de paiements par prélèvement automatique SEPA.
+Dans la fenêtre **Lignes vente récurrentes**, vous pouvez également spécifier un mode et un mandat de prélèvement. Les factures vente qui sont créées avec le traitement par lots **Créer des factures vente récurrentes** incluront ensuite les informations requises pour collecter le paiement pour les factures vente par prélèvement automatique SEPA. Pour plus d'informations, voir [Recouvrement de paiements par prélèvement automatique SEPA](finance-collect-payments-with-sepa-direct-debit.md).
 
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Créer des factures vente récurrentes**, puis sélectionnez le lien connexe.
 2. Dans la fenêtre **Créer des factures vente récurrentes**, renseignez les champs selon les besoins.

@@ -1,6 +1,6 @@
 ---
 title: "Exporter vos données Financials vers Excel| Microsoft Docs"
-description: "Vous pouvez exporter états financiers et vos données de veille économique de Dynamics 365 for Financials vers Excel, ou ouvrir vos données Financials dans Excel."
+description: "Vous pouvez exporter états financiers et vos données de veille économique de Dynamics 365 Business edition vers Excel, ou ouvrir vos données Financials dans Excel."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,10 +13,10 @@ ms.search.keywords: analysis, reporting, financial report, business intelligence
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 054288659215df61a99564ab856bfb5f72ee7f39
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 36d3e31300fbdc3a29f345a331cabbf50875c77f
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Exportation de vos données métier vers Excel
@@ -67,5 +67,5 @@ Nous recommandons également d'exporter des données à partir des pages suivant
 [Importation des données métier à partir d'autres systèmes financiers](upload-data.md)  
 [Finances](finance.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
 

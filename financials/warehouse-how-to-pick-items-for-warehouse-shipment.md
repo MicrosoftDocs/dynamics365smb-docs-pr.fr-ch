@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e4568214469e80dce7ea91ff7574d1be8ca9ac7a
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 5b2658a5b77b1e1ee293b6f99c419c133c535372
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-pick-items-for-warehouse-shipment"></a>Comment prélever des articles pour l'expédition entrepôt
@@ -73,7 +73,7 @@ Une fois l'expédition entrepôt validée, divers champs de la ligne commande ve
 > [!NOTE]
 > Dans les scénarios de combinaison, où une partie de la quantité doit d'abord être assemblée et l'autre doit être expédiée à partir des stocks, deux lignes expédition entrepôt sont créées. L'une est pour la quantité à assembler pour commande et l'autre est destinée à la quantité en stock.
 
-> Dans ce cas, la quantité à assembler pour commande est traitée comme décrite dans cette rubrique, et la quantité en stock est traitée comme toute autre ligne expédition entrepôt normale. Pour plus d'informations sur les scénarios de combinaison, reportez-vous à [Description des processus Assembler pour commande et Assembler pour stock](assembly-assemble-to-order-or-assemble-to-stock.md).
+> Dans ce cas, la quantité à assembler pour commande est traitée comme décrite dans cette rubrique, et la quantité en stock est traitée comme toute autre ligne expédition entrepôt normale. Pour plus d'informations sur les scénarios de combinaison, consultez [Description des processus Assembler pour commande et Assembler pour stock](assembly-assemble-to-order-or-assemble-to-stock.md).
 
 ## <a name="see-also"></a>Voir aussi  
 [Gestion d'entrepôt](warehouse-manage-warehouse.md)  

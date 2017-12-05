@@ -13,10 +13,10 @@ ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, 
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6c7dd8051467b044b7fd569367c5af802d30e5c3
+ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
+ms.openlocfilehash: 0a1c53428b0b64364a237da0932cda86d37d06f9
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/17/2017
 
 ---
 # <a name="how-to-set-up-the-bank-data-conversion-service"></a>Procédure : configurer le service de conversion de données bancaires
@@ -24,7 +24,7 @@ Un fournisseur global de services permettant de convertir les informations de pa
 
 Vous pouvez exporter des lignes de paiement à partir de la fenêtre **Feuille paiement** vers un fichier ou un flux de données que vous téléchargez ensuite vers votre banque pour un traitement automatique. Ainsi, vous n'avez pas à effectuer de paiements électroniques individuels. Pour plus d'informations, reportez-vous à [Procédure : exportation de paiements vers un fichier bancaire](payables-how-export-payments-bank-file.md).
 
-Vous pouvez importer des fichiers de relevé bancaire dans la fenêtre **Feuille rapprochement bancaire** à l'aide du service de conversion de données bancaires pour convertir un fichier que vous recevez de votre banque en flux de données que [!INCLUDE[d365fin](includes/d365fin_md.md)] peut importer. Pour plus d'informations, reportez-vous à [Procédure : lettrage automatique des paiements et rapprochement des comptes bancaires](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+Vous pouvez importer des fichiers de relevé bancaire dans la fenêtre **Feuille rapprochement bancaire** à l'aide du service de conversion de données bancaires pour convertir un fichier que vous recevez de votre banque en flux de données que [!INCLUDE[d365fin](includes/d365fin_md.md)] peut importer. Pour plus d'informations, reportez-vous à [Lettrage automatique des paiements et rapprochement des comptes bancaires](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 Vous pouvez utiliser le service Envestnet Yodlee Bank Feeds au lieu d'importer des relevés bancaires avec le service de conversion de données bancaires. Pour plus d'informations, reportez-vous à [Procédure: configurer le service de flux de la Envestnet Yodlee Bank](bank-how-setup-bank-statement-service.md).
 

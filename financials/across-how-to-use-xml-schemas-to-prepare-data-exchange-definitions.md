@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c4b53c6a87148990102ba9eca235cf139a48396e
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 5b10eaff0d412ee26ead2137a353054c41d05113
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-use-xml-schemas-to-prepare-data-exchange-definitions"></a>Procédure : Utiliser des schémas XML pour préparer des définitions d'échange de données
@@ -46,7 +46,7 @@ Pour activer l'importation/exportation des données dans des fichiers XML à tr
 
 4.  Renseignez les champs comme indiqué dans le tableau suivant.  
 
-    |Champ|[Description]|  
+    |Champ|Désignation|  
     |---------------------------------|---------------------------------------|  
     |**Code**|Indiquez un code pour identifier le schéma XML.|  
     |**Description**|Spécifiez une description du schéma XML.|  

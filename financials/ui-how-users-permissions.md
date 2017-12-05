@@ -1,6 +1,6 @@
 ---
 title: "Affecter des autorisations d'utilisateur et créez ou modifiez des ensembles d'autorisations | Microsoft Docs"
-description: "Décrit comment ajouter des utilisateurs d'Office 365 à Financials, puis affecte des autorisations, des droits d'accès, et des paramètres de sécurité."
+description: "Décrit comment ajouter des utilisateurs d'Office 365 à Dynamics 365 Business edition, puis affecte des autorisations, des droits d'accès, et des paramètres de sécurité."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 06/27/2017
+ms.date: 10/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: a944a6135feeb81b32d1f7edcb823b9da89cd404
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: f1b43879d6dafd238b593c6d17d2322943d75a89
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-manage-users-and-permissions"></a>Procédure : gérer les utilisateurs et les autorisations
@@ -54,53 +54,8 @@ Vous pouvez définir des groupes d'utilisateurs pour vous aider à gérer les en
 7. Pour ajouter de nouveaux ensembles d'autorisations ou des ensembles d'autorisations supplémentaires , dans la fenêtre **Groupe d'utilisateurs**, cliquez sur **Ensembles d'autorisations groupe d'utilisateurs**.
 8. Dans la fenêtre **Ensembles d'autorisations groupe d'utilisateurs**, dans une nouvelle ligne, renseignez les champs selon vos besoins en sélectionnant parmi des ensembles d’autorisations existants.
 
-## <a name="to-create-or-modify-permission-sets"></a>Pour créer ou modifier des ensembles d'autorisations
-Si les ensembles d’autorisations qui sont fournis par défaut avec [!INCLUDE[d365fin](includes/d365fin_md.md)] ne sont pas suffisants ou ne sont pas applicables à votre organisation, vous pouvez créer des ensembles d’autorisations. Et si les différentes autorisations d'objet qui définissent un ensemble d'autorisations ne sont pas appropriées, vous pouvez modifier un ensemble d'autorisations. Vous pouvez créer un ensemble d'autorisations manuellement, ou vous pouvez utiliser une fonction d'enregistrements qui stocke vos actions lorsque vous naviguez dans un scénario, puis génère l'ensemble d'autorisations requis.
-
-### <a name="to-create-or-modify-permission-sets-manually"></a>Pour créer ou modifier des ensembles d'autorisations manuellement
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Utilisateurs**, puis sélectionnez le lien connexe.
-2. Dans la fenêtre **Utilisateurs**, cliquez sur l'option **Ensembles d'autorisations**.
-3. Dans la fenêtre **Ensembles d'autorisations**, cliquez sur l'option **Nouveau**.
-4. Sur une nouvelle ligne, renseignez les champs selon vos besoins.
-5. Sélectionnez l'option **Autorisations**.
-6. Dans la fenêtre **Autorisations**, renseignez les champs de l'en-tête selon vos besoins.
-7. Sur une nouvelle ligne, renseignez les cinq champs pour les différents types d'autorisation comme indiqué dans le tableau suivant.
-
-    |Option|Désignation|
-    |------|-----------|
-    |Vide|Indique que le type d'autorisation n'est pas accordé pour l'objet.|
-    |**Oui**|Indique que le type d'autorisation n'est pas accordé avec un accès direct à l'objet.|
-    |**Indirect**|Indique que le type d'autorisation est accordé avec un accès indirect à l'objet.|
-
-    L'autorisation indirecte à une table signifie que vous ne pouvez pas ouvrir la table et lire directement à partir de celle-ci, mais vous pouvez afficher les données de la table via un autre objet, par exemple une page, à laquelle vous avez un accès direct. Pour plus d'informations, voir la section « Exemple - Autorisation indirecte » de cette rubrique.
-
-8. Dans le champ **Filtre sécurité**, entrez un filtre auquel vous souhaitez appliquer l'autorisation en sélectionnant le champ sur lequel vous souhaitez limiter l'accès utilisateur.
-
-    Par exemple, si vous souhaitez créer un filtre de sécurité afin qu'un utilisateur puisse afficher uniquement les ventes ayant un code vendeur spécifique, sélectionnez le numéro de champ pour le champ **Code vendeur**. Ensuite, dans le champ **Filtre champ**, saisissez la valeur à utiliser pour limiter l'accès. Par exemple, pour qu'un utilisateur puisse uniquement accéder aux ventes d'Angela Barbariol, entrez AB.
-9. Répétez les étapes 7 et 8 pour ajouter des autorisations pour d'autres objets de l'ensemble d'autorisations.
-
-### <a name="to-create-or-modify-permission-sets-by-recording-your-actions"></a>Pour créer ou modifier des ensembles d'autorisations en enregistrant vos actions
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Utilisateurs**, puis sélectionnez le lien connexe.
-2. Dans la fenêtre **Utilisateurs**, cliquez sur l'option **Ensembles d'autorisations**.
-3. Dans la fenêtre **Ensembles d'autorisations**, cliquez sur l'option **Nouveau**.
-4. Sur une nouvelle ligne, renseignez les champs selon vos besoins.
-5. Sélectionnez l'option **Autorisations**.
-6. Dans la fenêtre **Autorisations**, cliquez sur l'option **Démarrer**.
-
-    Un processus d'enregistrement commence à capturer toutes vos actions dans l'interface utilisateur.
-7. Accédez aux différentes fenêtres et activités dans [!INCLUDE[d365fin](includes/d365fin_md.md)] auxquelles vous voulez que les utilisateurs avec cet ensemble d'autorisations puissent accéder. Vous devez exécuter les tâches pour lesquelles vous souhaitez enregistrer des autorisations.
-8. Lorsque vous souhaitez terminer l'enregistrement, revenez dans la fenêtre **Autorisations** et choisissez l'option **Arrêter**.
-9. Cliquez sur le bouton **Oui** pour ajouter les autorisations enregistrées au nouvel ensemble d'autorisations.
-10. Pour chaque objet de la liste enregistrée, indiquez si les utilisateurs peuvent insérer, modifier ou supprimer des enregistrements dans les tables enregistrées. Voir l'étape 7 de la section « Pour créer ou modifier des ensembles d'autorisations manuellement ».
-
-### <a name="example---indirect-permission"></a>Exemple- Autorisation indirecte
-L'autorisation indirecte vous permet d'utiliser un objet uniquement au travers d'un autre objet.
-Par exemple, un utilisateur peut être autorisé à exécuter le codeunit 80 **Ventes-Valider**. Le codeunit **Ventes-Valider** effectue de nombreuses tâches, parmi lesquelles modifier la table 37 (**Ligne vente**). Lorsque l'utilisateur valide un document vente, le codeunit **Ventes-Valider**, [!INCLUDE[d365fin](includes/d365fin_md.md)] vérifie si l'utilisateur est autorisé à modifier la table **Ligne vente**. S'il n'est pas autorisé à le faire, le codeunit ne peut pas effectuer ses tâches et l'utilisateur reçoit un message d'erreur. S'il est autorisé à le faire, le codeunit s'exécute.
-
-L'utilisateur n'a toutefois pas besoin d'avoir entièrement accès à la table **Ligne vente** pour exécuter le codeunit. Si une autorisation indirecte a été accordée à l'utilisateur pour la table **Ligne vente**, alors le codeunit **Ventes-Valider** s'exécute. Lorsqu'une autorisation indirecte est accordée à un utilisateur, celui-ci peut uniquement modifier la table **Ligne vente** en exécutant le codeunit **Ventes-Valider** ou un autre objet autorisé à modifier la table **Ligne vente**. L'utilisateur peut uniquement modifier la table **Ligne vente** lorsqu'il procède à partir des modules pris en charge. L'utilisateur ne peut pas exécuter cette fonctionnalité par inadvertance ou par malveillance en suivant d'autres méthodes.
-
 ## <a name="to-set-up-user-time-constraints"></a>Pour configurer des contraintes de temps utilisateur
-Les administrateurs peuvent définir les périodes de temps pendant lesquelles les utilisateurs spécifiés peuvent valider, et spécifier également si le système enregistre la durée pendant laquelle les utilisateurs spécifiés ont ouvert une session. Les administrateurs peuvent également affecter des centres de gestion à des utilisateurs.
+Les administrateurs peuvent définir les périodes de temps pendant lesquelles les utilisateurs spécifiés peuvent valider, et spécifier également si le système enregistre la durée pendant laquelle les utilisateurs spécifiés ont ouvert une session. Les administrateurs peuvent également affecter des centres de gestion à des utilisateurs. Pour plus d'informations, voir [Procédure : utiliser les centres de gestion](inventory-responsibility-centers.md).
 
 1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Paramètres utilisateur**, puis choisissez le lien associé.
 2. Dans la fenêtre **Paramètres utilisateur**, sélectionnez l'action **Nouveau**.
@@ -109,7 +64,7 @@ Les administrateurs peuvent définir les périodes de temps pendant lesquelles l
 
 ## <a name="see-also"></a>Voir aussi
 [Préparation aux activités commerciales](ui-get-ready-business.md)  
-[Configuration et administration dans Dynamics 365 for Financials](admin-setup-and-administration.md)  
-[Bienvenue dans [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Configuration et administration dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](admin-setup-and-administration.md)  
+[Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Utilisation de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
 

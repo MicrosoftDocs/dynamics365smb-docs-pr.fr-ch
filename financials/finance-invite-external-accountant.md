@@ -1,6 +1,6 @@
 ---
 title: "Ajouter votre comptable externe à votre Financials | Microsoft Docs"
-description: "Découvrez comment vous pouvez inviter votre comptable externe à votre Dynamics 365 for Financials."
+description: "Découvrez comment vous pouvez inviter votre comptable externe à votre Dynamics 365 Business edition."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting
-ms.date: 09/05/2017
+ms.date: 11/10/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b7efbb724f322d371e9e1b725612cb4eb0b3ceb2
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 9769d4b1e34da62290cc97de291462ee2d22c747
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="inviting-your-external-accountant-to-your-included365finincludesd365finmdmd"></a>Invitation de votre comptable externe à votre [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -23,7 +23,7 @@ Si vous utilisez un comptable externe pour gérer votre comptabilité et vos ét
 Une fois que votre comptable a accédé à votre [!INCLUDE[d365fin](includes/d365fin_md.md)], il peut utiliser le tableau de bord **Comptable** qui donne un accès facilité aux fenêtres les plus appropriées pour son travail.  
 
 > [!NOTE]  
->  Cette fonctionnalité nécessite que l'expérience soit définie sur **Suite**. Pour plus d'informations, voir [Personnalisation de votre expérience Financials](ui-experiences.md).  
+>  Cette fonctionnalité nécessite que l'expérience soit définie sur **Suite**. Pour plus d'informations, voir [Personnalisation de votre expérience Dynamics 365](ui-experiences.md).  
 
 ## <a name="invite-your-accountant-to-your-included365finincludesd365finmdmd"></a>Inviter votre comptable à votre [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Dans la dernière version de [!INCLUDE[d365fin](includes/d365fin_md.md)], nous avons simplifié pour vous la façon d'inviter votre comptable externe. Ouvrez simplement la fenêtre **Utilisateurs**, puis choisissez l'action **Inviter un comptable externe** dans le ruban. Un e-mail est préparé pour vous afin de vous permettre d'ajouter l'e-mail professionnel de votre comptable et d'envoyer l'invitation.  
@@ -31,7 +31,10 @@ Dans la dernière version de [!INCLUDE[d365fin](includes/d365fin_md.md)], nous a
 ![Inviter votre comptable](./media/finance-invite-accountant/invite-accountant.png)
 
 > [!TIP]  
->  Pour cela, il faudrait que vous ayez configuré la messagerie SMTP. Vous pouvez le faire manuellement ou demander à votre partenaire [!INCLUDE[d365fin](includes/d365fin_md.md)]. En outre, vous devez être connecté à [!INCLUDE[d365fin](includes/d365fin_md.md)] en tant qu'administrateur utilisateur, pas en tant que chef d'entreprise ou autres utilisateurs.  
+>  Pour cela, il faudrait que vous ayez configuré la messagerie SMTP. Vous pouvez le faire manuellement ou demander à votre partenaire [!INCLUDE[d365fin](includes/d365fin_md.md)]. En outre, vous devez être connecté à [!INCLUDE[d365fin](includes/d365fin_md.md)] en tant qu'administrateur utilisateur, pas en tant que chef d'entreprise ou autres utilisateurs. Enfin, vous devez avoir quitté la société test de sorte que vous ayez un administrateur Azure Active Directory.  
+
+> [!IMPORTANT]  
+>  L'adresse électronique du comptable doit être une adresse professionnelle basée sur Active Directory. Si le comptable utilise un autre type d'adresse électronique, l'invitation ne peut pas être envoyée.  
 
 ### <a name="separate-license"></a>Séparer la licence
 En arrière-plan, le comptable est ajouté à votre abonné Active Directory. Votre administrateur peut vérifier que le comptable accepte l'invitation et que la licence correcte lui est attribuée. Pour cela la procédure dépend du type de compte que vous avez utilisé pour lorsque vous vous êtes connecté à [!INCLUDE[d365fin](includes/d365fin_md.md)]. Cette rubrique est basée sur l'utilisation d'un compte Office 365, qui utilise Microsoft Azure Active Directory.  
@@ -43,6 +46,6 @@ L'un des types de licence de [!INCLUDE[d365fin](includes/d365fin_md.md)] est la 
 ## <a name="see-also"></a>Voir aussi
 [Finances](finance.md)  
 [Procédure : paramétrer la messagerie manuellement ou à l'aide de la configuration assistée](madeira-how-setup-email.md)  
-[Expériences de comptables dans Dynamics 365 for Financials](finance-accounting.md)  
-[Financials pour comptables sur Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
+[Expériences de comptables dans Dynamics 365 Business edition](finance-accounting.md)  
+[Dynamics 365 for Accountants sur Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
 

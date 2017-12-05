@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
-ms.date: 06/02/2017
+ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: f46e95e24ef39a93bc93cfda1b9c575b07273566
+ms.sourcegitcommit: bd69a3da7a0a5e766a232e8999056ac60109e7b1
+ms.openlocfilehash: 83d4d7b10ce9bd09e9947f48eee0c1094815aa1e
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/02/2017
 
 ---
 # <a name="how-to-set-up-bank-accounts"></a>Procédure : configuration de comptes bancaires
@@ -26,6 +26,9 @@ ms.lasthandoff: 09/22/2017
 1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Comptes bancaires**, puis sélectionnez le lien connexe.
 2. Dans la fenêtre **Comptes bancaires**, sélectionnez l'action **Nouveau**.
 3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!NOTE]
+> Pour renseigner le champ **Solde** avec un solde ouvert, vous devez valider une écriture comptable compte bancaire avec le montant en question. Vous pouvez effectuer cette opération en effectuant un rapprochement bancaire. Pour plus d'informations, reportez vous à [Procédure : rapprocher des comptes bancaires séparément](bank-how-reconcile-bank-accounts-separately.md). Sinon, vous pouvez appliquer le solde ouvert dans le cadre de la création des données générales de nouvelles sociétés à l'aide de la configuration assistée **Effectuer migration données métier**. Pour en savoir plus, voir [Bienvenue dans [!INCLUDE[d365fin](includes/d365fin_md.md)](index.md).
 
 ## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Pour configurer votre compte bancaire pour importer ou exporter des fichiers bancaires
 Les champs du raccourci **Transfert** de la fenêtre **Fiche compte bancaire archivé** sont associés à l'importation/exportation des flux et des fichiers bancaires. Pour plus d'informations, reportez-vous à [Procédure : configurer le service de conversion de données bancaires](bank-how-setup-bank-data-conversion-service.md) et [Procédure: configurer le service de flux de la Envestnet Yodlee Bank](bank-how-setup-bank-statement-service.md).
@@ -44,6 +47,9 @@ Les champs du raccourci **Transfert** de la fenêtre **Fiche compte bancaire fou
 2. Ouvrez la fiche d'un fournisseur pour le compte bancaire duquel vous exporterez des fichiers bancaires.
 3. Choisissez l'option **Comptes bancaires**.
 3. Renseignez les champs selon vos besoins dans la fenêtre **Fiche compte bancaire fourn.** du raccourci **Transfert**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+## <a name="to-set-the-opening-balance-on-new-bank-accounts"></a>Pour définir le solde ouvert sur de nouveaux comptes bancaires
+
 
 ## <a name="see-also"></a>Voir aussi
 [Paramétrage des opérations bancaires](bank-setup-banking.md)  

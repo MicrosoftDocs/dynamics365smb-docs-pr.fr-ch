@@ -13,13 +13,13 @@ ms. search.keywords: app, add-in, manifest, customize
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: fcbba8ecb2d63ab780a54aa4784a30b7fa5020fa
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 43511c3c509c495555f4583fdbe982d8b98aa648
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="the-paypal-payments-standard-extension-to-dynamics-365-for-financials"></a>Extension PayPal Payments Standard pour Dynamics 365 for Financials
+# <a name="the-paypal-payments-standard-extension-to-dynamics-365-business-edition"></a>Extension PayPal Payments Standard pour Dynamics 365 Business edition 
 Les clients sont toujours plus exigeants en ce qui concerne le service clientèle, en termes de qualité de produits mais aussi en termes d'options de livraison et de paiement. Le service PayPal Payments Standard vous aide à développer votre service clientèle.
 
 Au lieu de collecter des paiements par l'intermédiaire de transferts bancaires ou de cartes de crédit, vous pouvez proposer à vos clients de vous payer via leur compte Paypal. Lorsque vous envoyez une facture vente ou une commande vente par e-mail, le corps du message et le document PDF en pièce jointe contiennent un lien Paypal. Lorsque le client clique sur le lien, la page de service de leur compte Paypal s'ouvre et affiche les détails de paiement pour la vente. Le client peut ensuite payer la facture comme tout autre paiement Paypal.

@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 4ced0ece340de08598fecff157d59aa708e4e17c
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 70a0773826984bab5c49334a88ea48872a629023
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="design-details-average-cost"></a>Détails de conception : coût moyen
@@ -57,8 +57,8 @@ Le coût moyen d'un article est calculé avec une moyenne pondérée périodique
 
 |**Date de validation**|**Type écriture comptable article**|**Quantité**|**Coût total (réel)**|**N° écriture**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01/01/20|Achats|0|20.00|0|  
-|01/01/20|Achats|0|40.00|2|  
+|01/01/20|Achats|1|20.00|1|  
+|01/01/20|Achats|1|40.00|2|  
 |01/01/20|Vente|-1|-20,00|3|  
 |01/02/20|Vente|-1|-40,00|4|  
 |02/02/20|Achats|1|100,00|5|  
@@ -80,8 +80,8 @@ Le coût moyen d'un article est calculé avec une moyenne pondérée périodique
 
 |**Date de validation**|**Type écriture comptable article**|**Quantité**|**Coût total (réel)**|**N° écriture**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01/01/20|Achats|0|20.00|0|  
-|01/01/20|Achats|0|40.00|2|  
+|01/01/20|Achats|1|20.00|1|  
+|01/01/20|Achats|1|40.00|2|  
 |01/01/20|Vente|-1|-30,00|3|  
 |01/02/20|Vente|-1|-30,00|4|  
 |02/02/20|Achats|1|100,00|5|  
@@ -96,8 +96,8 @@ Le coût moyen d'un article est calculé avec une moyenne pondérée périodique
 
 |**Date de validation**|**Type écriture comptable article**|**Quantité**|**Coût total (réel)**|**N° écriture**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01/01/20|Achats|0|20.00|0|  
-|01/01/20|Achats|0|40.00|2|  
+|01/01/20|Achats|1|20.00|1|  
+|01/01/20|Achats|1|40.00|2|  
 |01/01/20|Vente|-1|-20,00|3|  
 |01/02/20|Vente|-1|-40,00|4|  
 |02/02/20|Achats|1|100,00|5|  
@@ -120,8 +120,8 @@ Le coût moyen d'un article est calculé avec une moyenne pondérée périodique
 
 |**Date de validation**|**Type écriture comptable article**|**Quantité**|**Coût total (réel)**|**N° écriture**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01/01/20|Achats|0|20.00|0|  
-|01/01/20|Achats|0|40.00|2|  
+|01/01/20|Achats|1|20.00|1|  
+|01/01/20|Achats|1|40.00|2|  
 |01/01/20|Vente|-1|-30,00|3|  
 |01/02/20|Vente|-1|-65,00|4|  
 |02/02/20|Achats|1|100,00|5|  
@@ -148,7 +148,7 @@ Le coût moyen d'un article est calculé avec une moyenne pondérée périodique
 
 |Scénario|Date comptabilisation|Type écriture comptable article|Date évaluation|Quantité valorisée|Coût total (réel)|N° écriture comptable article|N° écriture|  
 |--------------|-------------------------------------|-----------------------------------------------|-----------------------------------------|-----------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|0|01/01/20|Achats|01/01/20|2|20.00|0|0|  
+|1|01/01/20|Achats|01/01/20|2|20.00|1|1|  
 |2|15/01/20|(Frais annexes)|01/01/20|2|8,00|1|2|  
 |3|01/02/20|Vente|01/02/20|-1|-14,00|2|3|  
 |4|01/03/20|(Réévaluation)|01/03/20|1|-.4,00|1|4|  
@@ -187,8 +187,8 @@ Le coût moyen d'un article est calculé avec une moyenne pondérée périodique
 
 |Date évaluation|Quantité|Coût total (réel)|N° écriture|  
 |-----------------------------------------|--------------------------------|------------------------------------------------|----------------------------------|  
-|01/01/20|0|10.00|0|  
-|02/01/20|0|20.00|2|  
+|01/01/20|1|10.00|1|  
+|02/01/20|1|20.00|2|  
 |15/02/20|-1|-15,00|3|  
 |16/02/20|-1|-15,00|4|  
 
@@ -198,9 +198,9 @@ Le coût moyen d'un article est calculé avec une moyenne pondérée périodique
 
 |Date évaluation|Quantité|Coût total (réel)|N° écriture|  
 |-----------------------------------------|--------------------------------|------------------------------------------------|----------------------------------|  
-|01/01/20|0|10.00|0|  
-|02/01/20|0|20.00|2|  
-|03/01/20|0|21.00|5|  
+|01/01/20|1|10.00|1|  
+|02/01/20|1|20.00|2|  
+|03/01/20|1|21.00|5|  
 |15/02/20|-1|-17,00|3|  
 |16/02/20|-1|-17,00|4|  
 

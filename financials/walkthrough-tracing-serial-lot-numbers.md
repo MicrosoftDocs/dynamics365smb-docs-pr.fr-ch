@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/22/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 7e76ef1d5622486c3d8055f6e0ccbe3564a96701
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: face4821059b57c32e06dca46ec5144aba4ca528
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="walkthrough-tracing-serial-lot-numbers"></a>Procédure pas à pas : suivi des numéros de série et des numéros de lot
@@ -99,7 +99,7 @@ Ensuite, vous devez créer plusieurs transactions d'achat, de production et de v
 9. Sous l'onglet **Réapprovisionnement** , entrez **1000** dans le champ **N° gamme**.  
 10. Choisissez le champ **N° nomenclature de production**, puis sélectionnez **Avancé**.  
 11. Dans la fenêtre **Liste nomenclatures production**, choisissez la première ligne, **1000**, puis sélectionnez l'action **Modifier**.  
-12. Dans la fenêtre **Nomenclature de production**, modifiez la valeur du champ **Statut**en **Modification en cours**.  
+12. Dans la fenêtre **Nomenclature de production**, modifiez la valeur du champ **Statut** en **Modification en cours**.  
 13. Accédez à une ligne vide, entrez **2000** dans le champ **N°** puis entrez **1** dans le champ **Quantité par**.  
 14. Modifiez la valeur du champ **Statut** en **Validée**.  
 15. Cliquez sur le bouton **OK** pour insérer la nomenclature de production dans la fiche article et fermer la fenêtre **Nomenclature de production**.  
@@ -141,11 +141,10 @@ Ensuite, vous devez créer plusieurs transactions d'achat, de production et de v
 2.  Choisissez le groupe **Nouveau**.  
 3.  Créez un ordre de fabrication lancé en renseignant les champs suivants.  
 
-    ||||  
     |-|-|-|  
     |N° origine|Quantité|N° de série|  
-    |1002|2|NS1|  
-    |1002|2|NS2|  
+    |1002|2|SN1|  
+    |1002|2|SN2|  
 
 4.  Choisissez l'action **Actualiser O.F.**, puis choisissez le bouton **OK** pour remplir la ligne.  
 5.  Pour saisir les numéros de série, choisissez l'action **Lignes traçabilité**.  
@@ -189,7 +188,7 @@ Ensuite, vous devez créer plusieurs transactions d'achat, de production et de v
 
     |Client|Article ;|Qté|N° de série|  
     |--------------|----------|----------|----------------|  
-    |Soleil et étoiles SARL|1002|0|NS1|  
+    |Soleil et étoiles SARL|1002|1|NS1|  
 
 3.  Pour saisir le numéro de série, choisissez l'action **Lignes traçabilité**, puis le numéro figurant dans le champ **N° de série** de la fenêtre **Lignes traçabilité**.  
 4.  Cliquez sur **Valider**, choisissez l'option **Livrer et facturer**, puis cliquez sur le bouton **OK**.  
@@ -201,7 +200,7 @@ Ensuite, vous devez créer plusieurs transactions d'achat, de production et de v
 
     |Client|Article ;|Qté|N° de série|  
     |--------------|----------|----------|----------------|  
-    |Cannon group PLC.|1002|0|NS2|  
+    |Cannon group PLC.|1002|1|NS2|  
 
 7.  Pour saisir le numéro de série, choisissez l'action **Lignes traçabilité**, puis le numéro figurant dans le champ **N° de série** de la fenêtre **Lignes traçabilité**.  
 8.  Cliquez sur **Valider**, choisissez l'option **Livrer et facturer**, puis cliquez sur le bouton **OK**.  

@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: d7c73b353a2f4dc00dd648ae312a7b8adfb7fcc2
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 8149c89e2031a7fd44f9942d7aba213158700dc9
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-set-up-alternative-addresses-for-contacts"></a>Procédure : configurer des adresses secondaires pour des contacts
@@ -41,5 +41,5 @@ Répétez ces étapes pour chaque plage de dates à affecter.
 
 ## <a name="see-also"></a>Voir aussi
 [Création de sociétés contact](marketing-create-contact-companies.md)  
-[Utilisation de Financials](ui-work-product.md)
+[Utilisation de Dynamics 365](ui-work-product.md)
 

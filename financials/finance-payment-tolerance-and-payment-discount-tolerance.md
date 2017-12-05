@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/10/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 434e18ed539a189e8f041c914cfdcdf2c1e0532f
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c6365507992b75d5fa264491bbc85bb1b4a8ed7a
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-work-with-payment-tolerances-and-payment-discount-tolerances"></a>Procédure : Utilisation des écarts de règlement et des écarts d'escompte
@@ -31,7 +31,7 @@ Un document unique comporte le même écart de règlement, qu'il soit lettré se
 
 *date d'escompte < date de règlement dans l'écriture sélectionnée <= date d'écart de règlement*  
 
-Cette règle détermine également la nécessité d'afficher des alertes lorsque vous appliquez l'écart de règlement à plusieurs documents. L'alerte liée à l'écart d'escompte s'affiche pour chaque écriture répondant aux critères de date. Pour plus d'informations, reportez-vous à la section « Exemple 2 - Calculs de l'écart pour plusieurs documents ». 
+Cette règle détermine également la nécessité d'afficher des alertes lorsque vous appliquez l'écart de règlement à plusieurs documents. L'alerte liée à l'écart d'escompte s'affiche pour chaque écriture répondant aux critères de date. Pour plus d'informations, reportez-vous à la section « Exemple 2 - Calculs de l'écart pour plusieurs documents ».
 
 Vous pouvez afficher une alerte en fonction des situations relatives à l'écart.  
 
@@ -95,7 +95,8 @@ Scénarios comportant deux alternatives, A et B. En voici la signification :
 - **A** L'alerte écart d'escompte a été désactivée OU l'alerte est activée, mais l'utilisateur a accepté l'escompte tardif (Valider le solde en tant qu'écart de règlement).  
 - **B** L'alerte est activée et l'utilisateur a choisi de ne pas accepter l'escompte tardif (Laisser le solde ouvert).  
 
-|—|Fact.|Si le champ Ajust.|Max<br /><br /> Ecart de règlement|Date d'escompte|Ecart d'escompte Date|Date de règlement|Règl.|Type d'écart|Toutes les écritures clôturées|Ecart d'escompte <br /> Cpta/CL|Règl.<br /><br /> Ecart<br /><br /> Comptabilité|  
+[!div class="mx-tdBreakAll"]  
+|—|Fact.|Si le champ Ajust.|Ecart règl. max.|Date d'escompte|Ecart d'escompte Date|Date de règlement|Règl.|Type d'écart|Toutes les écritures clôturées|Ecart d'escompte Cpta/CL|Ecart de règlement Comptabilité|  
 |-------|----------|----------------|-----------------------|---------------------|--------------------------|------------------|----------|--------------------|------------------------|------------------------------|----------------------------|  
 |1|1 000|20|5|15/01/03|20/01/03|<=15/01/03|985|Ecart règl.|Oui|0|-5|  
 |2|**1,000**|**20**|**5**|**15/01/03**|**20/01/03**|**<=15/01/03**|**980**|**Aucun**|**Oui**|**0**|**0**|  
@@ -166,7 +167,9 @@ Scénarios comportant deux alternatives, A, B, C ou D. En voici la signification
 - **C** : L'alerte est activée et l'utilisateur a choisi d'accepter l'escompte tardif pour la première facture, mais non pour la deuxième.  
 - **D** : L'alerte est activée et l'utilisateur a choisi de ne pas accepter l'escompte tardif pour la première facture, mais de l'accepter pour la seconde.  
 
-|—|Fact.|Escompte|Ecart règl. max.|Date d'escompte|Ecart d'escompte Date|Date de règlement|Règl.|Type d'écart|Toutes les écritures clôturées|Ecart d'escompte <br /> Cpta/CL|Ecart de règlement<br /><br /> Comptabilité|  
+[!div class="mx-tdBreakAll"]  
+
+|—|Fact.|Escompte|Ecart règl. max.|Date d'escompte|Ecart d'escompte Date|Date règl.|Règl.|Type d'écart|Toutes les écritures clôturées|Ecart d'escompte Cpta/CL|Ecart de règlement Comptabilité|  
 |-------|----------|---------------|-------------------|---------------------|--------------------------|------------------|---------|--------------------|------------------------|------------------------------|------------------------|  
 |1|1 000 <br />1 000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|<=15/01/03|1920|Ecart règl.|Oui|0<br /><br /> 0|-5 <br />-5|  
 |**2**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**15/01/03** <br />**17/01/03**|**20/01/03** <br />**22/01/03**|**<=15/01/03**|**1910**|**Aucun**|**Oui**|**0**<br /><br /> **0**|0 <br />0|  

@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 1e7d9f6e05f12ff826959dee420917f36258b573
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 59ab4fdc2cedb39296985dfaf9c5ac66fd5bf61d
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="creating-contact-persons"></a>Création de personnes contact
@@ -28,9 +28,9 @@ Vous pourriez également être amené à traduire certaines publications relativ
 
 L'enregistrement d'un maximum de détails sur une personne contact permet de s'assurer que tous les groupes de votre société peuvent trouver les informations appropriées.
 
-Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent. 
+Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.
 
-| À | Voir |
+| Pour | Voir |
 | --- | --- |
 | Fournir des informations sur une personne contact. |[Procédure : créer des personnes contact](marketing-how-create-contact-persons.md) |
 | Configurer une adresse secondaire pour un contact. |[Procédure : affecter des adresses secondaires](marketing-how-assign-alternate-address.md) |
@@ -41,5 +41,5 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 ## <a name="see-also"></a>Voir aussi
 [Création de sociétés contact](marketing-create-contact-companies.md)  
 [Création et gestion des contacts]()  
-[Utilisation de Financials](ui-work-product.md)
+[Utilisation de Dynamics 365](ui-work-product.md)
 

@@ -1,8 +1,6 @@
 ---
 title: Configurer des virements SEPA | Microsoft Docs
-description: "Découvrez comment configurer des virements SEPA dans Dynamics 365 for Financials."
-services: project-madeira
-documentationcenter: 
+description: "Découvrez comment configurer des virements SEPA dans Dynamics 365 Business edition."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords: sepa, credit, transfer, payment,
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 88ac086fa0532892af9c770c14134723e0da2eaf
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: afdf20baa9d61d28e18aa08ae175f139fdb31bdd
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-set-up-sepa-credit-transfer"></a>Procédure : configurer des virements SEPA
@@ -67,5 +65,5 @@ Avant de pouvoir traiter le paiement par voie électronique lorsque vous exporte
 [Recouvrement de paiements par prélèvement automatique SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
 [Procédure : configurer les définitions d'échange de données](across-how-to-set-up-data-exchange-definitions.md)  
 [Procédure : Créer des lignes ventes et achat récurrentes](sales-how-work-standard-lines.md)  
-[Échange de données en tant que documents électroniques](across-data-exchange.md)  
+[Échanger des données par voir électronique](across-data-exchange.md)  
 

@@ -12,10 +12,10 @@ ms.search.keywords: stock
 ms.date: 08/15/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 17af257627549023212c8c19f708c836c1c4bb7f
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 986f1b00f1a8db237944ec8579d9401ca85dfd8a
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-view-the-availability-of-items"></a>Procédure : voir la disponibilité des articles
@@ -26,10 +26,10 @@ Vous pouvez afficher la disponibilité de tous les articles par emplacement, et 
 > [!NOTE]  
 >   Les vues de disponibilité par magasin nécessitent la mise à jour de stock dans plusieurs magasins. Pour plus d'informations, reportez-vous à [Procédure : Configurer des magasins](inventory-how-setup-locations.md).
 
-Dans [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)], les chiffres de disponibilité sont affichés dans deux champs de définition différents.
+Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], les chiffres de disponibilité sont affichés dans deux champs de définition différents.
 
 * Le champ **Quantité disponible** affiche la quantité réelle en fonction des écritures comptables articles validées.
-* Le champ **Stock prévisionnel** est calculé et affiche la quantité disponible plus les réceptions planifiées moins les besoins bruts. (Dans [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)], les réceptions planifiées incluent des quantités sur des commandes achat et des ordres de transfert enlogement. Les besoins bruts incluent des quantités sur les commandes vente et les désenlogements transfert.)
+* Le champ **Stock prévisionnel** est calculé et affiche la quantité disponible plus les réceptions planifiées moins les besoins bruts. (Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], les réceptions planifiées incluent des quantités sur des commandes achat et des ordres de transfert enlogement. Les besoins bruts incluent des quantités sur les commandes vente et les désenlogements transfert.)
 
 > [!TIP]  
 >   Le stock prévisionnel disponible s'avère particulièrement utile dans les fenêtres **Disponibilité art. par période** et **Disponibilité article par événement** car ils contiennent l'axe de date.  
@@ -119,6 +119,6 @@ Si un ou plusieurs composants d'assemblage ne sont pas disponibles, cela est alo
 [Procédure : configurer des magasins](inventory-how-setup-locations.md)  
 [Procédure : transfert de stock entre des magasins](inventory-how-transfer-between-locations.md)  
 [Procédure : vendre des produits](sales-how-sell-products.md)      
-[Utilisation de Financials](ui-work-product.md)  
+[Utilisation de Dynamics 365](ui-work-product.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)
 

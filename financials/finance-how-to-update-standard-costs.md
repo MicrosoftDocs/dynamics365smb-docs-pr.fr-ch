@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/09/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 57da88de6a3bbb22cea7c12a2b579206ca5d7766
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 1c23e82736060670673e630f5eaa9de484083872
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-update-standard-costs"></a>Procédure : mise à jour des coûts standard
@@ -45,6 +45,6 @@ Pour plus d'informations, voir [À propos du calcul des coûts standard](finance
 ## <a name="see-also"></a>Voir aussi  
  [À propos du calcul des coûts standard](finance-about-calculating-standard-cost.md)   
  [Gestion des coûts ajustés](finance-manage-inventory-costs.md)   
- [Détails de conception : modes évaluation stock](design-details-costing-methods.md) [[Finance](finance.md)]  
+ [Détails de conception : modes évaluation stock](design-details-costing-methods.md) [[Finance](finance.md)  
  [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

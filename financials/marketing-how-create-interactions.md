@@ -1,6 +1,6 @@
 ---
 title: "Créer des interactions sur les contacts et les segments| Microsoft Docs"
-description: "Décrit comment créer des interactions pour les communications que vous avez avec vos contacts et segments dans Financials, par exemple le courrier direct."
+description: "Décrit comment créer des interactions pour les communications que vous avez avec vos contacts et segments dans Dynamics 365, par exemple le courrier direct."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/15/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 42e5357eb78df09437bbd22a288f4e583de27e67
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 57cbc08ab2e05777fae54018fe714d44b64d14e0
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-create-interactions-on-contacts-and-segments"></a>Procédure : créer des interactions sur les contacts et les segments
@@ -54,5 +54,5 @@ Si vous avez activé la case à cocher **Créer suivi segment**, le programme cr
 [Gestion de contacts](marketing-contacts.md)  
 [Gestion des opportunités de ventes](marketing-manage-sales-opportunities.md)  
 [Paramétrage de la Gestion des relations](marketing-setup-marketing.md)  
-[Utilisation de Financials](ui-work-product.md)
+[Utilisation de Dynamics 365](ui-work-product.md)
 

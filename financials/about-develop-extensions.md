@@ -1,6 +1,6 @@
 ---
-title: "Personnaliser Dynamics 365 for Financials| Microsoft Docs"
-description: "Concevoir, présenter et promouvoir vos applications et extensions Dynamics 365 for Financials."
+title: "Personnaliser Dynamics 365 Business edition | Microsoft Docs"
+description: "Concevoir, présenter et promouvoir vos applications et extensions Dynamics 365 Business edition."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,10 +13,10 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: c50aeb38a13569316f3208c27e5e8dc3d7b6d771
-ms.openlocfilehash: fdb60d82c7e8d2215c59d2c087105f42fe37eb84
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: b0034f678b59f988ed23257f9aa579cc3a8a7628
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="extending-included365finlongincludesd365finlongmdmd"></a>Extension de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -49,7 +49,7 @@ Avant de publier votre application, nous collaborerons avec vous pour garantir q
 Pour plus d'informations sur le processus de validation et la publication de votre application, accédez au document [Publiez votre application.pdf](https://go.microsoft.com/fwlink/?linkid=841517) à partir du centre de téléchargement.
 
 ## <a name="learn-more-about-extensions-v20"></a>En savoir plus sur les extensions v2.0
-Les nouveaux outils de développement, qui vous permettent de créer des extensions v2.0, sont actuellement en prévisualisation et seront bientôt activés dans le service Dynamics 365 for Financials. Si vous souhaitez déjà vous familiariser avec les nouveaux outils ou en savoir plus sur les extensions 2.0, consultez [aka.ms/GetStartedWithApps](http://aka.ms/GetStartedWithApps).  
+Les nouveaux outils de développement, qui vous permettent de créer des extensions v2.0, sont actuellement en prévisualisation et seront bientôt activés dans le service Dynamics 365 Business edition. Si vous souhaitez déjà vous familiariser avec les nouveaux outils ou en savoir plus sur les extensions 2.0, consultez [aka.ms/GetStartedWithApps](http://aka.ms/GetStartedWithApps).  
 
 ## <a name="need-help"></a>Besoin d'aide ?
 Si vous souhaitez un accompagnement, vous pouvez contacter un expert du domaine d'application de la liste suivante :
@@ -70,7 +70,7 @@ Cette [FAQ](https://go.microsoft.com/fwlink/?linkid=841520) répond aux question
 
 ## <a name="further-resources"></a>Autres ressources
 Vous trouverez d'autres ressources pour le développement d'application dans notre [page de rubrique DLP](https://mbspartner.microsoft.com/BFI/Topic/76) page de rubrique DLP. Quelques-unes sont répertoriées ci-dessous :
--   [Enregistrement de l'utilisateur et facturation ultérieure ](http://download.microsoft.com/download/3/2/0/320D0286-8810-4A8F-B7DD-523ED87D441B/FAQ on apps for Dynamics 365 for Financials.pdf)
+-   [Enregistrement de l'utilisateur et facturation ultérieure](http://download.microsoft.com/download/3/2/0/320D0286-8810-4A8F-B7DD-523ED87D441B/FAQ on apps for Dynamics 365 Business edition .pdf)
 
 
 

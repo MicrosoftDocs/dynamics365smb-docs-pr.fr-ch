@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 81781676adf27a4f1c1d478bb2b4bd8248551468
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: f7ee9914d70474e912414ecd4de9a4cf16fa4e45
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="exchanging-data"></a>Échange de données
@@ -37,8 +37,8 @@ Avant de pouvoir envoyer et recevoir des documents électroniques ou importer et
 |Consulter les champs de [!INCLUDE[d365fin](includes/d365fin_md.md)] mappés à des éléments de fichier lorsque vous exportez des fichiers de paiement à l'aide de la fonction Service conversion données bancaires.|[Mappage de champs lors de l'exportation de fichiers de paiement à l'aide du service conversion données bancaires](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)|  
 
 ## <a name="see-also"></a>Voir aussi  
-[Configurer un échange de données](across-set-up-data-exchange.md)  
-[Échange de données en tant que documents électroniques](across-data-exchange.md)  
+[Configuration de l'échange de données](across-set-up-data-exchange.md)  
+[Échanger des données par voir électronique](across-data-exchange.md)  
 [Procédure : facturer des ventes](sales-how-invoice-sales.md)   
 [Procédure : enregistrer des achats](purchasing-how-record-purchases.md)  
 [Documents entrants](across-income-documents.md)  

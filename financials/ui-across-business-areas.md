@@ -1,6 +1,6 @@
 ---
 title: "Utilisation des Fonctionnalités communes aux différents secteurs d'activité | Microsoft Docs"
-description: "En savoir plus sur les fonctionnalités utilisées dans différents secteurs d'activité dans Dynamics 365 for Financials."
+description: "En savoir plus sur les fonctionnalités utilisées dans différents secteurs d'activité dans Dynamics 365 Business edition."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,10 +13,10 @@ ms.search.keywords: feature overview, functionality
 ms.date: 08/21/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 8b33fab6b4aeb3f1f6110d999a69956a76f8defd
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 5a5238c3333551cc00fbb6b81c04309e76013f82
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="general-business-functionality"></a>Fonctionnalités marché
@@ -24,7 +24,7 @@ ms.lasthandoff: 09/22/2017
 
 Le tableau suivant répertorie ces secteurs d'activité généraux avec des liens vers les rubriques qui les décrivent.
 
-| À | Voir |
+| Pour | Voir |
 | --- | --- |
 | Définir des codes texte standard de façon à étendre le texte standard en ajoutant des lignes supplémentaires et définir des conditions d'utilisation des lignes supplémentaires. |[Procédure : définir du texte étendu](ui-how-define-ext-text.md) |
 | Apprendre à utiliser Les feuilles comptabilité, qui permettent de valider dans les comptes généraux et d'autres comptes tels que les comptes bancaires, client, fournisseur et immobilisations. |[Utilisation de feuilles comptabilité](ui-work-general-journals.md) |
@@ -36,7 +36,7 @@ Le tableau suivant répertorie ces secteurs d'activité généraux avec des lien
 | Modifiez [!INCLUDE[d365fin](includes/d365fin_md.md)] en installant des extensions qui ajoutent des fonctionnalités, modifient le comportement de l'application, ou vous permettent d'accéder à de nouveaux services en ligne. |[Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md) |
 |Configurez et utilisez des workflows qui connectent des tâches exécutées par différents utilisateurs ou par le système, telles que la validation automatique. Demander et accorder une approbation pour créer ou valider des documents sont des étapes classiques du workflow.|[Flux de travail](across-workflow.md)|
 |Enregistrez des documents externes dans Financials, ainsi que leurs fichiers joints, puis créez manuellement les documents connexes ou convertissez automatiquement les fichiers en documents électroniques.|[Documents entrants](across-income-documents.md)|
-| Configurer les définitions d'échange de données afin de pouvoir envoyer et recevoir des documents électroniques. |[Échange de données en tant que documents électroniques](across-data-exchange.md) |
+| Configurer les définitions d'échange de données afin de pouvoir envoyer et recevoir des documents électroniques. |[Échanger des données par voir électronique](across-data-exchange.md) |
 
 ## <a name="see-also"></a>Voir aussi
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

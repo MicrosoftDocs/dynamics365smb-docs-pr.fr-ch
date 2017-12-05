@@ -1,6 +1,6 @@
 ---
-title: "Utiliser Financials sur votre périphérique mobile| Microsoft Docs"
-description: "Vous pouvez afficher et modifier vos données Financials sur votre téléphone ou tablette."
+title: "Utiliser Dynamics 365 sur votre périphérique mobile | Microsoft Docs"
+description: "Vous pouvez afficher et modifier vos données Dynamics 365 sur votre téléphone ou tablette."
 documentationcenter: 
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
@@ -12,14 +12,14 @@ ms.search.keywords: phone, tablet
 ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 028c1fcc6f184b0307e1fdfdc7b6a34fee86565d
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 56f2ef7c7b0c604f0966736020dcb9cff546dddd
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 
-# <a name="getting-dynamics-365-for-financials-on-your-mobile-device"></a>Obtention de Dynamics 365 for Financials sur votre périphérique mobile
+# <a name="getting-dynamics-365-for-finance-and-operations-on-your-mobile-device"></a>Obtention de Dynamics 365 for Finance and Operations sur votre périphérique mobile
 Accédez à vos données [!INCLUDE[d365fin](includes/d365fin_md.md)] à partir de votre périphérique mobile. Vous pouvez naviguer dans vos données commerciales, utiliser des fonctionnalités telles que l'envoi vers Excel ou Office 365, l'affichage de graphiques et d'indicateurs de performance clé à jour, l'envoi par e-mail de devis et de factures. Vous pouvez également prendre des photos et les ajouter en pièces jointes grâce à votre appareil photo. Suivez la procédure ci-dessous pour télécharger l'application et démarrer.
 
 ## <a name="to-get-the-app-on-my-mobile-device"></a>Pour bénéficier de l'application sur mon périphérique mobile

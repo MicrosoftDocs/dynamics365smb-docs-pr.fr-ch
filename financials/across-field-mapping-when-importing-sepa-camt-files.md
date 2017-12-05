@@ -11,16 +11,16 @@ ms.search.keywords:
 ms.date: 08/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 95d4104be55bcaf77dffd47e1bec0afcbe95a1da
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 6588f01c557b1c0586097766aa8a6f84d545bc6e
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="field-mapping-when-importing-sepa-camt-files"></a>Mappage de champs lors de l'importation de fichiers SEPA CAMT
 [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge les normes régionales SEPA (Espace unique de paiement en euros) pour importer les relevés bancaires SEPA (format CAMT). Pour plus d'informations, reportez-vous à [Procédure: configurer le service de conversion de données bancaires](bank-how-setup-bank-data-conversion-service.md).  
 
- La norme SEPA CAMT standard présente elle-même des variations locales. Par conséquent, vous pouvez être amené à modifier la définition d'échange de données générique (représentée par le code **SEPA CAMT** dans la fenêtre **Définitions échange comptabilité** pour l'adapter à une variation locale de la norme. Les tables suivantes indiquent la correspondance entre élément et champ pour les tables 81, 273 et 274 dans l'implémentation de SEPA CAMT dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+ La norme SEPA CAMT standard présente elle-même des variations locales. Par conséquent, vous pouvez être amené à modifier la définition d'échange de données générique (représentée par le code **SEPA CAMT** dans la fenêtre **Définitions échange comptabilité**) pour l'adapter à une variation locale de la norme. Les tables suivantes indiquent la correspondance entre élément et champ pour les tables 81, 273 et 274 dans l'implémentation de SEPA CAMT dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
  Pour plus d'informations sur la création ou l'ajustement de définition d'échange de données, reportez\-vous à [Procédure : configurer les définitions d'échange de données](across-how-to-set-up-data-exchange-definitions.md)  
 
@@ -59,8 +59,8 @@ ms.lasthandoff: 09/22/2017
 
  Les articles dans le nœud **Ntry** qui sont importés dans [!INCLUDE[d365fin](includes/d365fin_md.md)] mais ne sont associés à aucun champ sont stockés dans la table **Définition colonne échange comptabilité**. Les utilisateurs peuvent afficher ces éléments des fenêtres **Feuille rapprochement bancaire**, **Lettrage paiement** et **Rapprochement bancaire** en choisissant l'action **Détails lignes de relevé bancaire**. Pour plus d'informations, reportez-vous à [Procédure : rapprocher les paiements à l'aide de l'application automatique](receivables-how-reconcile-payments-auto-application.md).  
 ## <a name="see-also"></a>Voir aussi  
-[Configurer un échange de données](across-set-up-data-exchange.md)  
-[Échange de données en tant que documents électroniques](across-data-exchange.md)  
+[Configuration de l'échange de données](across-set-up-data-exchange.md)  
+[Échanger des données par voir électronique](across-data-exchange.md)  
 [Procédure : configurer le service de conversion de données bancaires](bank-how-setup-bank-data-conversion-service.md)   
 [Procédure : Utiliser des schémas XML pour préparer des définitions d'échange de données](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Procédure : rapprocher les paiements à l'aide du lettrage automatique](receivables-how-reconcile-payments-auto-application.md)  

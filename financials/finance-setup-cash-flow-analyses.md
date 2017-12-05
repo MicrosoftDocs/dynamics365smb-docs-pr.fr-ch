@@ -13,10 +13,10 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ffc0a1c8a513556de2a40fc37db7af9be779225c
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 7d78333c5a7151ad60f07433ba32cfea142a2445
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Configuration d'une analyse de trésorerie
@@ -79,10 +79,10 @@ Pour utiliser une procédure manuelle :
 >   Tenez compte de la durée des périodes utilisée par le service lors de ses calculs. Plus vous fournissez de données, plus les prévisions seront précises. En outre, soyez prudent en ce qui concerne les grands écarts entre les périodes. Cela aura également un impact sur les prévisions. Si Cortana Intelligence ne trouve pas suffisamment de données ou si les données varient considérablement, le service ne fera pas de prévisions.  
 
 ## <a name="AnchorText"> </a>Créer et utiliser votre propre service Web prévisionnel pour des prévisions de trésorerie
-Vous pouvez aussi utiliser votre propre service Web prévisionnel basé sur un modèle public intitulé **Forecasting Model pour Microsoft Dynamics 365 for Financials**. Ce modèle prévisionnel est disponible en ligne dans la galerie Cortana Intelligence. Pour utiliser le modèle, procédez comme suit :  
+Vous pouvez aussi utiliser votre propre service Web prévisionnel basé sur un modèle public intitulé **Modèle de prévision pour Microsoft Dynamics 365 Business edition**. Ce modèle prévisionnel est disponible en ligne dans la galerie Cortana Intelligence. Pour utiliser le modèle, procédez comme suit :  
 
 1. Ouvrez un navigateur et accédez à la [Galerie Cortana Intelligence](https://go.microsoft.com/fwlink/?linkid=828352).  
-2. Recherchez **Forecasting Model pour Microsoft Dynamics 365 for Financials**, puis ouvrez-le dans Azure Machine Learning Studio.  
+2. Recherchez **Modèle de prévision pour pour Microsoft Dynamics 365 Business edition**, puis ouvrez-le dans Azure Machine Learning Studio.  
 3. Utilisez votre compte Microsoft pour enregistrer un espace de travail, puis copiez le modèle.  
 4. Exécutez le modèle, et publiez-le comme service Web.  
 5. Notez l'URL d'API et la clé d'API. Vous allez utiliser ces informations d'identification pour une configuration de trésorerie.  

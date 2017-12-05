@@ -1,20 +1,20 @@
 ---
-title: "Importer vos données métier existantes dans Financials | Microsoft Docs"
-description: "Vous pouvez migrer les données des clients, des fournisseurs, et du stock, par exemple, d'Excel, QuickBooks, ou Dynamics GP vers Financials."
+title: "Importer vos données métier existantes dans Dynamics 365 | Microsoft Docs"
+description: "Vous pouvez migrer les données des clients, des fournisseurs, et du stock, par exemple, d'Excel, QuickBooks, ou Dynamics GP vers Dynamics 365."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: migrate, initialize, implement
-ms.date: 07/05/2017
+ms.search.keywords: QuickBooks, transfer, import, migrate, initialize, implement
+ms.date: 09/25/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2a38dc36cb9ff609c5582acd489841b20013d4bc
-ms.openlocfilehash: dd6eb5a6b19bf4c8fd92674a48e8cd29ce912eee
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 3f1df4bf771586c5e3e4d79d23c26051bf19c763
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a>Importation des données métier à partir d'autres systèmes financiers
@@ -24,13 +24,13 @@ Lorsque vous effectuez votre inscription à [!INCLUDE[d365fin](includes/d365fin_
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] n'inclut pas de modèles pour les comptes, les clients, les fournisseurs ni les articles en stock que vous pouvez choisir d'appliquer lorsque vous importez vos données.  
 
-## <a name="importing-data-from-quickbooks-or-dynamics-gp"></a>Importation des données à partir de QuickBooks ou Dynamics GP
+## <a name="importing-data-from-quickbooks-desktop-quickbooks-online-or-dynamics-gp"></a>Importation des données à partir de QuickBooks Desktop, QuickBooks Online ou Dynamics GP
 Si votre entreprise utilise QuickBooks ou Dynamics GP, vous pouvez exporter les informations appropriées vers un fichier. Vous pouvez ensuite ouvrir le guide de configuration assistée pour transférer les données.
 Par exemple, si votre fichier inclut les clients et les fournisseurs, vous pouvez choisir de transférer uniquement les données client. Vous pouvez alors transférer le reste des informations ultérieurement.  
 
 La configuration assistée comprend une option permettant de modifier la configuration par défaut du transfert, mais nous vous recommandons de vous attaquer à cette configuration avancée si vous êtes familier des tables de base de données. Pour l'immense majorité des sociétés, le mappage par défaut à partir de QuickBooks ou Dynamics GP vers [!INCLUDE[d365fin](includes/d365fin_md.md)] transfère les informations que vous souhaitez.  
 
-Pour plus d'informations, voir [Migration de données QuickBooks](ui-extensions-quickbooks-data-migration.md) ou [Migration de données Dynamics GP](ui-extensions-dynamicsgp-data-migration.md).
+Pour plus d'informations, voir [Migration des données QuickBooks Desktop](ui-extensions-quickbooks-data-migration.md), [Migration des données QuickBooks Online](ui-extensions-quickbooks-online-data-migration.md), ou [Migration des données Dynamics GP](ui-extensions-dynamicsgp-data-migration.md).  
 
 ## <a name="importing-data-from-configuration-packages"></a>Importation des données à partir des packages configuration
 [!INCLUDE[d365fin](includes/d365fin_md.md)] inclut un package de configuration que vous pouvez exporter vers Excel et y installe vos données. Vous pouvez alors importer les données à nouveau à partir d'Excel. Le package se compose de 27 tables, notamment des données de base telles que les clients, les fournisseurs, les articles, et les comptes, d'autres tables de configuration de base telles que les méthodes d'expédition, et les tables de transactions telles que l'en-tête vente et les lignes.  
@@ -41,7 +41,8 @@ Pour plus d'informations, voir [Migration de données QuickBooks](ui-extensions-
 ## <a name="see-also"></a>Voir aussi
 [Finance](finance.md)  
 [Importation des données à partir du logiciel de comptabilité hérité à l'aide d'un package de configuration](across-import-data-configuration-packages.md)  
-[Extension QuickBooks Data Migration](ui-extensions-quickbooks-data-migration.md)  
+[Migration des données QuickBooks Desktop](ui-extensions-quickbooks-data-migration.md)  
+[Extension QuickBooks Online Data Migration](ui-extensions-quickbooks-online-data-migration.md)  
 [Extension Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md)  
 [Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md)   
 [Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)

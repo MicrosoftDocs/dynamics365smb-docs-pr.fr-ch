@@ -1,6 +1,6 @@
 ---
-title: "Nouveautés de Dynamics 365 for Financials| Microsoft Docs"
-description: "Décrit les toutes dernières nouveautés et mises à jour de Dynamics 365 for Financials."
+title: "Nouveautés dans Dynamics 365 Business edition | Microsoft Docs"
+description: "Décrit les toutes dernières nouveautés et mises à jour de Dynamics 365 Business edition."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,20 +13,20 @@ ms.search.keywords: news
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 00fd623b6323b10a811d64c47b4a24d9a47b9f88
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 83637fe211ce764b4b18429ab4c2c79cc06f3d20
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="whats-new-in-dynamics-365-for-financials"></a>Nouveautés de Dynamics 365 for Financials
-Bienvenue dans [!INCLUDE[d365fin](includes/d365fin_md.md)]! Si ce n'est pas encore fait, inscrivez-vous à la version d'évaluation. Nous vous présenterons ensuite les bases de ce que vous pouvez réaliser grâce à [!INCLUDE[d365fin](includes/d365fin_md.md)], avant de vous laisser faire vos premiers pas par vous-même. Lorsque vous êtes prêt, vous pouvez ouvrir une société vierge et effectuer vos propres configurations.  
+# <a name="whats-new-in-dynamics-365-for-finance-and-operations-business-edition"></a>Nouveautés dans Microsoft Dynamics 365 for Finance and Operations, Business edition
+Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]! Si ce n'est pas encore fait, inscrivez-vous à la version d'évaluation. Nous vous présenterons ensuite les bases de ce que vous pouvez réaliser grâce à [!INCLUDE[d365fin](includes/d365fin_md.md)], avant de vous laisser faire vos premiers pas par vous-même. Lorsque vous êtes prêt, vous pouvez ouvrir une société vierge et effectuer vos propres configurations.  
 
-Régulièrement, nous mettrons à jour [!INCLUDE[d365fin](includes/d365fin_md.md)] avec des fonctionnalités supplémentaires dans l'application de base et avec les nouvelles [extensions](ui-extensions.md). Pour obtenir une vue d'ensemble des fonctionnalités actuelles et à venir, jetez un œil à notre [Feuille de route Microsoft Dynamics 365](https://roadmap.dynamics.com/) - et n'oubliez pas de filtrer [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Régulièrement, nous mettrons à jour [!INCLUDE[d365fin](includes/d365fin_md.md)] avec des fonctionnalités supplémentaires dans l'application de base et avec les nouvelles [extensions](ui-extensions.md). Pour obtenir une vue d'ensemble des fonctionnalités actuelles et à venir, jetez un œil à notre [Dynamics 365 Roadmap](https://roadmap.dynamics.com/) - et n'oubliez pas de filtrer [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-Dans cette page, vous pouvez visualiser les zones qui sont devenues disponibles tandis que nous étions toujours dans l'aperçu. Vous trouverez ensuite des mises à jour dans la [Feuille de route Microsoft Dynamics 365](https://roadmap.dynamics.com/).
+Dans cette page, vous pouvez visualiser les zones qui sont devenues disponibles tandis que nous étions toujours dans l'aperçu. Vous trouverez ensuite des mises à jour dans la [Dynamics 365 Roadmap](https://roadmap.dynamics.com/).
 
-## <a name="november-2016-launch-of-included365finlongincludesd365finlongmdmd"></a>Version de novembre 2016[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+## <a name="november-2016-launch-of-included365finlongincludesd365finlongmdmd"></a>Version de novembre 2016 de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Comme annoncé dans le blog, vous pouvez désormais utiliser notre service dans votre entreprise. Mais cette mise à jour ajoute également de nouvelles capacités et une nouvelle extension.
 
 ### <a name="project-management"></a>Gestion de projets
@@ -100,7 +100,7 @@ Avec cette mise à jour, vous avez le choix entre encore plus d'extensions dans 
 Pour plus d'informations, voir [Extensions [!INCLUDE[d365fin](includes/d365fin_md.md)] par d'autres fournisseurs](ui-extensions-other.md).  
 
 ### <a name="manage-your-customer-relationships-using-microsoft-dynamics-365-for-sales-from-inside-included365finincludesd365finmdmd"></a>Gérer vos relations client à l'aide de Microsoft Dynamics 365 for Sales à partir de [!INCLUDE[d365fin](includes/d365fin_md.md)]
-Nous avons ajouté un nouveau guide de configuration assistée à la page d'accueil Gestionnaire d'activité qui vous guide dans le processus de configuration pour vous connecter à Dynamics 365 for Sales. Une fois cette opération effectuée, vous disposez d'un couplage facile des enregistrements Dynamics 365 for Sales avec les enregistrements [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, voir [Gérer vos relations client à l'aide de Microsoft Dynamics 365 for Sales à partir de [!INCLUDE[d365fin](includes/d365fin_md.md)] ](marketing-integrate-dynamicscrm.md).
+Nous avons ajouté un nouveau guide de configuration assistée à la page d'accueil Gestionnaire d'activité qui vous guide dans le processus de configuration pour vous connecter à Dynamics 365 for Sales. Une fois cette opération effectuée, vous disposez d'un couplage facile des enregistrements Dynamics 365 for Sales avec les enregistrements [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, voir [Gérer vos relations client à l'aide de Microsoft Dynamics 365 for Sales à partir de [!INCLUDE[d365fin](includes/d365fin_md.md)]](marketing-integrate-dynamicscrm.md).
 
 ## <a name="may-2016-update"></a>Mise à jour de mai 2016
 Dans cette mise à jour de [!INCLUDE[d365fin](includes/d365fin_md.md)] de nouvelles fonctionnalités ont été ajoutées comme [annoncé dans le blog](https://community.dynamics.com/business/b/financials/archive/2016/06/01/new-and-updated-capabilities-in-the-first-update-of-project-quot-madeira-quot).  
@@ -129,5 +129,5 @@ Scénarios clés à essayer par vous-même :
 ## <a name="see-also"></a>Voir aussi
 [Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Feuille de route Dynamics 365](https://roadmap.dynamics.com/)  
+[Dynamics 365 Roadmap](https://roadmap.dynamics.com/)  
 

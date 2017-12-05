@@ -1,6 +1,6 @@
 ---
 title: "Rechercher des documents sans pièces jointes| Microsoft Docs"
-Description: "Vous pouvez rechercher des écritures comptables pour des documents achat et vente validés qui n'ont pas de documents électroniques entrants, tels que les factures importées."
+Description: You can search for general ledger entries for posted purchase and sales documents that do not have incoming electronic documents, such as imported invoices.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 263146eca72e4c83b4ad6887a84844e7aa15dd87
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 8219b8a054901f81785ef1376c6f86763560cc31
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-find-posted-documents-without-incoming-document-records"></a>Procédure : Rechercher des enregistrements validés sans enregistrements document entrant
@@ -41,5 +41,5 @@ Si un enregistrement document entrant approprié n'existe pas dans la fenêtre *
 [Traiter les documents entrants](across-process-income-documents.md)  
 [Documents entrants](across-income-documents.md)  
 [Achats](purchasing-manage-purchasing.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
 

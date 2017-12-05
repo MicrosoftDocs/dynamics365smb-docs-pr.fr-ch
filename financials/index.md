@@ -1,6 +1,6 @@
 ---
-title: "Se familiariser avec Dynamics 365 for Financials | Microsoft Docs"
-description: "Découvrez les fonctionnalités et les scénarios de travail dans Dynamics 365 for Financials, une solution de gestion d'entreprise pour les PME."
+title: "Découvrir Dynamics 365 Business edition | Microsoft Docs"
+description: "Découvrez les fonctionnalités et les scénarios de travail dans Dynamics 365 Business edition, une solution de gestion d'entreprise pour les PME."
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 08/23/2017
+ms.date: 09/14/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d44f71f9f52c60a789cfb84f3f7a96daa0f9cab1
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 0bd6edbefbfa46ec7214f806bf28e7a523930740
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="welcome-to-included365finlongincludesd365finlongmdmd"></a>Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -42,7 +42,7 @@ Chaque page d'accueil fournit un bouton **Configuration et extensions**. Ici vou
 > [!NOTE]  
 >   La liste des guides de configuration, des extensions et des services disponibles diffèrent selon l'expérience de l'utilisateur que vous choisissez pour votre société. L'expérience **Basique** donne accès à moins d'options que l'expérience **Suite**. La première fois que vous vous connectez, vous utilisez l'expérience Basique. Pour plus d'informations, voir [Personnalisation de votre expérience [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).  
 
-Dans la fenêtre **Configuration assistée**, vous découvrirez l'expérience  **Suite** :
+Dans la fenêtre **Configuration assistée**, vous découvrirez l'expérience **Suite** :
 
 | Configuration assistée | Désignation |
 | --- | --- |
@@ -66,10 +66,12 @@ Vous voulez vous abonner ? Vous pouvez facilement quitter la société de démo
 Pour créer une société pour tester des éléments, allez dans le menu **Mes paramètres** dans le coin supérieur droit, puis modifiez la société **Ma société**. Déconnectez-vous de [!INCLUDE[d365fin](includes/d365fin_md.md)], puis connectez-vous de nouveau pour appliquer le changement. Un guide de configuration assistée vous aidera à fournir des informations de base concernant votre société. Lorsque cela est effectué, consultez la page d'accueil et recherchez l'option **Configuration assistée**.  
 
 ## <a name="ready-to-subscribe"></a>Prêt à vous abonner ?
-À chaque connexion au cours de la période gratuite, une notification s'affiche dans une barre bleue en haut et indique le temps restant. Si vous décidez de vous inscrire, utilisez le lien de la notification pour contacter Microsoft. Vous pouvez également contacter l'équipe [!INCLUDE[d365fin](includes/d365fin_md.md)] Sales à l'adresse [Microsoft Dynamics 365 for Financials](https://go.microsoft.com/fwlink/?linkid=828707).  
+À chaque connexion au cours de la période gratuite, une notification s'affiche dans une barre bleue en haut et indique le temps restant. Si vous décidez de vous inscrire, utilisez le lien de la notification pour contacter Microsoft. Vous pouvez également contacter l'équipe [!INCLUDE[d365fin](includes/d365fin_md.md)] Sales à l'adresse [Microsoft Dynamics 365 Business edition](https://go.microsoft.com/fwlink/?linkid=828707).  
 
 ## <a name="other-dynamics-365-apps"></a>Autres applications Dynamics 365
-Accédez au contenu sur les autres applications Dynamics 365 en sélectionnez le lien [Dynamics 365](https://docs.microsoft.com/dynamics365) dans la bannière bleue en haut de cette page. Vous pouvez également en savoir plus en visitant le [site Web Dynamics 365](https://www.microsoft.com/en-us/dynamics365/).
+Accédez au contenu sur les autres applications Dynamics 365 en sélectionnez le lien [Dynamics 365](https://docs.microsoft.com/dynamics365) dans la bannière bleue en haut de cette page. Vous pouvez également en savoir plus en visitant le [site Web Dynamics 365](https://www.microsoft.com/en-us/dynamics365/).  
+
+Si vous êtes comptable, vous pouvez vous inscrire à [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] et disposer d'une intégration transparente à [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, consultez [Bienvenue dans Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).
 
 ## <a name="see-also"></a>Voir aussi
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
@@ -80,7 +82,7 @@ Accédez au contenu sur les autres applications Dynamics 365 en sélectionnez l
 [Obtention de [!INCLUDE[d365fin](includes/d365fin_md.md)] sur votre périphérique mobile](install-mobile-app.md)  
 [Documentation Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  
 [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
-[Microsoft Dynamics 365 for Financials](https://go.microsoft.com/fwlink/?linkid=828707)  
+[Microsoft Dynamics 365 for Finance and Operations, Business edition](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 

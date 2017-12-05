@@ -1,6 +1,6 @@
 ---
 title: Personnalisation de l'affichage des informations pour un compte utilisateur | Microsoft Docs
-description: "Décrit comment personnaliser l'apparence de Financials pour votre compte d'utilisateur."
+description: "Décrit comment personnaliser l'apparence de Dynamics 365 pour votre compte d'utilisateur."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: customize, personalize
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 754ce16624db4d939da98baf2da74f14bd383920
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: e986d20ff368c07f3b1fd02223f3485b090673e1
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="user-personalization"></a>Personnalisation utilisateur

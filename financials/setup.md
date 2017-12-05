@@ -1,6 +1,6 @@
 ---
-title: "Aperçu des tâches permettant de configurer Dynamics 365 for Financials | Microsoft Docs"
-description: "Décrit les tâches permettant de paramétrer, d'initialiser, et de configurer Dynamics 365 for Financials selon vos besoins."
+title: "Aperçu des tâches permettant de configurer Dynamics 365 Business edition | Microsoft Docs"
+description: "Décrit les tâches permettant de paramétrer, d'initialiser, et de configurer Dynamics 365 Business edition selon vos besoins."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,13 +11,13 @@ ms.search.keywords: configure, initialize
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: cbf0f6521db686f4e1a820070969bd0193227015
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 68a4563aab0edc6a0ac5b8cbcc5e053c449f20f8
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="setting-up-dynamics-365-for-financials"></a>Configuration de Dynamics 365 for Financials
+# <a name="setting-up-included365finlongincludesd365finlongmdmd"></a>Configuration de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] comprend des configurations standard pour la plupart des processus entreprise, mais vous pouvez les modifier pour les adapter aux besoins de votre société.
 
 Par exemple, votre plan comptable est prérempli avec un certain nombre de comptes de validation prêts à l'emploi. Vous pouvez, bien évidemment, modifier le plan comptable pour l'adapter à vos besoins. Pour plus d'informations, reportez-vous à [Finances](finance.md).
@@ -41,7 +41,7 @@ Certaines fonctionnalités (générales ou pour des processus d'entreprise spéc
 | Configurer la fenêtre **Paramétrage courrier SMTP** pour envoyer et recevoir des e-mails à partir des documents dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. |[Procédure : configurer la messagerie](madeira-how-setup-email.md) |
 | Configurez des codes d'identification uniques. |[Procédure : création des souches de numéros](ui-create-number-series.md) |
 
-Certaines zones nécessitent que vous soyez un administrateur dans votre abonnement [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, voir [Configuration et administration dans Dynamics 365 for Financials](admin-setup-and-administration.md).  
+Certaines zones nécessitent que vous soyez un administrateur dans votre abonnement [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, voir [Configuration et administration dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](admin-setup-and-administration.md).  
 
 ## <a name="see-also"></a>Voir aussi
 [Finances](finance.md)  
@@ -52,9 +52,9 @@ Certaines zones nécessitent que vous soyez un administrateur dans votre abonnem
 [Immobilisations](fa-manage.md)    
 [Gestion des assemblages](assembly-assemble-items.md)  
 [Production](production-manage-manufacturing.md)  
-[Gestion d'entrepôt](warehouse-manage-warehouse.md)  
+[Gestion d’entrepôt](warehouse-manage-warehouse.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Configuration et administration dans Dynamics 365 for Financials](admin-setup-and-administration.md)  
+[Configuration et administration dans [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-setup-and-administration.md)  
 [Création de sociétés dans [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)  
 [Bienvenue dans [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
 

@@ -1,6 +1,6 @@
 ---
 title: Bienvenue | Microsoft Docs
-description: "Décrit les guides de configuration assistée, les vidéos, les rubriques d'aide, et les pages et fenêtres à utiliser pour vous préparer à faire des affaires dans Dynamics 365 for Financials."
+description: "Décrit les guides de configuration assistée, les vidéos, les rubriques d'aide, et les pages et fenêtres à utiliser pour vous préparer à faire des affaires dans Dynamics 365 Business edition."
 documentationcenter: 
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
@@ -12,10 +12,10 @@ ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 03/21/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 129cc1326b9a35a41f0c12db51af25de6dc4fa3b
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: e6a467f526b8bb1c55af686817ed3e419b214dbb
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="getting-ready-for-doing-business"></a>Préparation aux activités commerciales
@@ -59,7 +59,7 @@ Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], des info-bulles vous guident d
 En fonction de la migration de vos données, vous pouvez maintenant passer à la création de documents vente ou achat. Utilisez la section **Ma société** de votre page **Accueil** pour créer rapidement un devis, une facture vente, une commande vente, une facture achat, ou un enregistrement de paiement.
 
 ## <a name="see-also"></a>Voir aussi
-[Bienvenue dans [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
+[Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Procédure : gérer les utilisateurs et les autorisations](ui-how-users-permissions.md)
 

@@ -1,6 +1,6 @@
 ---
 title: "Créer des sociétés en utilisant le guide de configuration assistée | Microsoft Docs"
-description: "Il est facile de créer une nouvelle société vide dans Dynamics 365 for Financials. Un guide de configuration assistée vous aide à l'aide de procédures, et vous pouvez importer les données métier existantes."
+description: "Il est facile de créer une nouvelle société vide dans Dynamics 365 Business edition. Un guide de configuration assistée vous aide à l'aide de procédures, et vous pouvez importer les données métier existantes."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords: company, setup wizard
 ms.date: 07/14/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
-ms.openlocfilehash: 3ff3c7af87033595d64e583b62b0e0242b22d2f1
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c4152a77fcd3e5995aaf09c17b0a3a2c227aa2fa
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="creating-new-companies-in-included365finlongincludesd365finlongmdmd"></a>Création de sociétés dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -44,10 +44,10 @@ Lorsque vous vous connectez à une nouvelle société, l'Assistant **Configurati
 
 Par exemple, l'adresse de votre société est incluse dans les factures et autres documents, vos coordonnées bancaires sont utilisées pour les paiements, et le mode d'évaluation du stock est utilisé pour calculer les prix, ainsi que pour l'évaluation du stock.  
 
-Une fois les bases en place, vous pouvez configurer les zones de base restantes. Maintenant, vous êtes prêt à ajouter des données métier, telles que les clients et les fournisseurs. Pour plus d'informations, voir [Configuration de Dynamics 365 for Financials](setup.md).  
+Une fois les bases en place, vous pouvez configurer les zones de base restantes. Maintenant, vous êtes prêt à ajouter des données métier, telles que les clients et les fournisseurs. Pour plus d'informations, voir [Configuration de Dynamics 365 Business edition](setup.md).  
 
 ## <a name="see-also"></a>Voir aussi
-[Configuration de Dynamics 365 for Financials](setup.md)  
+[Configuration de Dynamics 365 Business edition](setup.md)  
 [Importation des données métier à partir d'autres systèmes financiers](upload-data.md)  
 [Modification des paramètres de base](ui-change-basic-settings.md)  
 [Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  

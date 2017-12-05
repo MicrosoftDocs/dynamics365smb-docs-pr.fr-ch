@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c41e8c59ced776591b1740930effa2420803eb65
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: eb9a20547c7eef346fa199eaa136211dcdd09dab
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="how-to-send-electronic-documents"></a>Procédure : envoyer des documents électroniques
@@ -55,6 +55,6 @@ La version générique de [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en c
 [Procédure : Configurer l'envoi et la réception de documents électroniques](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [Procédure : configurer un service d'échange de document](across-how-to-set-up-a-document-exchange-service.md)  
 [Procédure : configurer les définitions d'échange de données](across-how-to-set-up-data-exchange-definitions.md)  
-[Échange de données en tant que documents électroniques](across-data-exchange.md)  
+[Échanger des données par voir électronique](across-data-exchange.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)  
 

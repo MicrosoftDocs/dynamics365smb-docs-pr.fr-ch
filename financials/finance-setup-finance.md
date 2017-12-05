@@ -13,10 +13,10 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 08/10/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b63e2e65f92edbbe10bcb5e2c340db31b1acda28
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 2d8863ba9037f6470232372dedd4536664fd3404
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="setting-up-finance"></a>Configuration de Finance
@@ -26,7 +26,7 @@ Toutefois, il existe quelques éléments que vous devez configurer vous-même. P
 
 Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.
 
-| À | Voir |
+| Pour | Voir |
 | --- | --- |
 | Choisissez la méthode pour payer vos fournisseurs. |[Définition des modes de règlement](finance-payment-methods.md) |
 | Spécifiez les groupes comptabilisation qui mappent des entités telles que les clients, les fournisseurs, les éléments, les ressources et les documents vente et achat dans des comptes généraux. |[Configuration de groupes comptabilisation](finance-posting-groups.md)|
@@ -40,7 +40,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | Configurer l'état intracommunautaire et envoyer-le à une administration | [Procédure : configurer et enregistrer un état intracommunautaire](finance-how-setup-report-intrastat.md)|
 
 ## <a name="see-also"></a>Voir aussi
-[Finances](finance.md)]  
+[Finances](finance.md)  
 [Gestion des comptes bancaires](bank-manage-bank-accounts.md)  
 [Utilisation des axes analytiques](finance-dimensions.md)  
 [Importation des données métier à partir d'autres systèmes financiers](upload-data.md)  

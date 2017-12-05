@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: a811c565a8eb0ce774d35d15776e65b6dce6a31a
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 32f67c058570f03d4aa1c84d9bb32289b1f07bec
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="design-details-codeunit-408-dimension-management"></a>Détails de conception : Codeunit 408 Gestion des axes analytiques
@@ -175,7 +175,7 @@ Codeunit 408 Gestion des axes analytiques est une bibliothèque de fonctions qui
 
  TestNewDimValue  
 
- MoveDimBufToItemBudgetDim. (Supprimé, car la table ItemBudgetDim est supprimée.  
+ MoveDimBufToItemBudgetDim. (Supprimé, car la table ItemBudgetDim est supprimée.)  
 
  GetServContractDim  
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/04/2017
+ms.date: 09/19/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 8a7af6821affcef2c81499e904f2ed9520086323
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 99ca93d4fd67ec424e54961ad5623c9986e5fe7c
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-set-up-work-centers-and-machine-centers"></a>Procédure : configurer les centres de charge et les postes de charge
@@ -65,7 +65,7 @@ La procédure suivante décrit essentiellement comment configurer un centre de c
     > [!NOTE]  
     > Si vous choisissez d'utiliser Jours, n'oubliez pas qu'1 jour = 24 heures et non 8 (heures de travail).
 
-13.  Dans le champ **Capacité**, indiquez si le centre de charge a plusieurs postes ou personnes travaillant simultanément. Si votre installation de **Nom du produit** n'inclut pas la fonctionnalité Poste de charge, la valeur de ce champ doit être **1**).  
+13.  Dans le champ **Capacité**, indiquez si le centre de charge a plusieurs postes ou personnes travaillant simultanément. Si votre installation de [!INCLUDE[d365fin](includes/d365fin_md.md)] n'inclut pas la fonctionnalité de poste de charge, la valeur de ce champ doit être **1**.  
 14.  Dans le champ **Rendement**, entrez le pourcentage de la production standard prévue qui est réalisé par le centre de charge. Si vous entrez **100**, cela signifie que la production réelle du centre de charge est identique à la production standard.  
 15. Activez la case à cocher **Calendrier consolidé** si vous utilisez également des postes de charge. Ainsi, les écritures calendrier sont générées à partir des calendriers de poste de charge.  
 16.  Dans le champ **Code calendrier usine**, sélectionnez un calendrier usine. Pour plus d'informations, voir [Procédure : créer des calendriers usine](production-how-to-create-work-center-calendars.md).  
@@ -79,6 +79,24 @@ Si différents postes de charge (tels que 210 Table d'emballage 1, 310 Cabine de
 Toutefois, lorsqu'un centre de charge combine des postes de charge identiques (tels que 210 Table d'emballage 1 et 220 Table d'emballage 2), il convient de prendre en compte ce centre de charge en tant que somme des postes de charge affectés. Le centre de charge est donc répertorié avec une capacité zéro. La capacité commune est affectée au centre de charge lorsque vous activez le champ **Calendrier consolidé**.
 
 Lorsque les capacités des centres de charge n'ajoutent en rien à la capacité totale, vous pouvez paramétrer Rendement = 0.
+
+## <a name="to-set-up-a-capacity-constrained-machine-or-work-center"></a>Pour configurer un centre de charge ou un poste de charge à la capacité critique
+Vous devez configurer les ressources de production que vous considérez comme critique et de l'accepter comme une charge limitée au lieu de la charge illimitée par défaut que d'autres ressources de production acceptent. Une capacité critique peut être un centre de charge ou un poste de charge que vous avez identifié comme étant un goulot d'étranglement et pour lequel vous souhaitez établir une charge limitée.
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] ne prend pas en charge le contrôle détaillé d'atelier. Il prévoit une utilisation des ressources faisable via une planification approximative, mais il ne crée ni ne met à jour automatiquement des plannings détaillés sur la base des priorités ou des règles d'optimisation.
+
+Dans la fenêtre **Capacités critiques**, vous pouvez effectuer un paramétrage qui évite la surcharge de ressources spécifiques et permet de s'assurer qu'aucune capacité n'est laissée non affectée si elle peut augmenter le délai d'exécution d'un ordre de fabrication. Dans le champ **Seuil (% capacité totale)**, vous pouvez ajouter un seuil aux ressources afin de réduire la répartition des opérations. Cela permet au système de planifier la charge sur le dernier jour possible en dépassant légèrement le pourcentage de charge critique si ceci peut réduire le nombre d'opérations qui sont divisées.
+
+Lors de la planification avec des ressources avec contraintes de capacité, le système veille à ce qu'aucune ressource ne soit chargée au-dessus de sa capacité définie (charge critique). Ceci est effectué en affectant chaque opération à l'emplacement du temps disponible le plus proche. Si le créneau n'est pas assez long pour effectuer toute l'opération, l'opération est répartie en au moins deux parties placées dans les créneaux disponibles les plus proches.
+
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Capacités critiques**, puis sélectionnez le lien connexe.
+2. Sélectionnez l'action **Nouveau**.
+3. Renseignez les champs selon vos besoins.
+
+> [!NOTE]
+> Les opérations de postes ou de centres de charge qui sont configurées comme ressources contraintes sont toujours planifiées en série. Cela signifie que même si une ressource contrainte a plusieurs capacités, ces capacités ne peuvent être planifiées que dans l'ordre, pas en parallèle, comme c'est le cas si le poste ou le centre de charge n'a pas été défini en tant que ressource contrainte. Dans une ressource contrainte, le champ Capacité du centre ou du poste de charge est supérieur à 1.
+
+> En cas de répartition des opérations, le temps de préparation n'est affecté qu'une fois car on suppose qu'un certain ajustement manuel est effectué pour optimiser le planning.
 
 ## <a name="see-also"></a>Voir aussi  
 [Procédure : créer des calendriers usine](production-how-to-create-work-center-calendars.md)  

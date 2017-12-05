@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 278515fc479a72957fb52dad71ce2f98d354ee32
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: af1aef6ec730083c49b17ae8c0c9e39c7f663244
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-publish-a-web-service"></a>Procédure de publication d'un service Web
@@ -44,27 +44,13 @@ Une fois le service Web publié, il est accessible aux parties externes. Vous po
 
 #### <a name="to-verify-the-availability-of-a-web-service"></a>Vérification de la disponibilité d'un service Web  
 
-1.  Dans votre navigateur, indiquez l'URL appropriée. Le tableau suivant présente les types d'URL champ que vous pouvez entrer. Pour les services Web SOAP, utilisez le format suivant pour votre URI.  
+1.  Dans votre navigateur, indiquez l'URL appropriée. Le tableau suivant présente les types d'URL champ que vous pouvez entrer.  
 
-    <table>
-    <tr>
-    <th>Type de service Web</th>
-    <th>Syntaxe</th>
-    <th>Exemple :</th>
-    </tr>
-    <tr>
-    <td>SOAP</td>
-    <td>https://*Server*:*SOAPWebServicePort*/*ServerInstance*/WS/*CompanyName*/salesDocuments/</td>
-    <td>https://mycompany.financials.dynamics.com:7047/MS/WS/MyCompany/Page/salesDocuments?tenant=mycompany.financials.dynamics.com</td>
-    </tr>
-    <tr>
-    <td>OData</td>
-    <td>https://*Server*:*ODataWebServicePort*/*ServerInstance*/OData/Company('*CompanyName*')</td>
-    <td>https://MyCompany.financials.dynamics.com:7048/MS/OData/Company('MyCompany')/salesDocuments?tenant=MyCompany.financials.dynamics.com
-
-         The company name is case-sensitive.</td>
-    </tr>
-    </table>
+    >    [!div class="mx-tdBreakAll"]
+    >    |Type de service Web|Syntaxe|Exemple :|  
+    >    |----------------|------|-------|
+    >    |SOAP |https://*Server*:*SOAPWebServicePort*/*ServerInstance*/WS/*CompanyName*/salesDocuments/ |https://mycompany.financials.dynamics.com:7047/MS/WS/MyCompany/Page/salesDocuments?tenant=mycompany.financials.dynamics.com |  
+    >    |OData |https://*Server*:*ODataWebServicePort*/*ServerInstance*/OData/Company('*CompanyName*')|[https://MyCompany.financials.dynamics.com:7048/MS/OData/Company('MyCompany')/salesDocuments?tenant=MyCompany.financials.dynamics.com](https://MyCompany.financials.dynamics.com:7048/MS/OData/Company('MyCompany')/salesDocuments?tenant=MyCompany.financials.dynamics.com) <br />    Le nom de la société respecte la casse.|
 
 2.  Examinez les informations affichées dans le navigateur. Vérifiez que vous pouvez visualiser le nom du service Web que vous avez créé.  
 

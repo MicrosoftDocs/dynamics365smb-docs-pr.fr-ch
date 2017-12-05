@@ -13,10 +13,10 @@ ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
 ms.date: 06/28/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 00792adb8b4c7deccee262982cd532423884c8f5
+ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
+ms.openlocfilehash: c8766d42b579397e63676c1d46fb8a03cbe24aae
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/17/2017
 
 ---
 # <a name="making-payments"></a>Effectuer des paiements
@@ -30,7 +30,7 @@ Une fois les paiements effectués au niveau de votre banque, vous devez les lett
 
 Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.
 
-| À | Voir |
+| Pour | Voir |
 | --- | --- |
 |Utilisez la fenêtre **Feuille paiement**, qui est fondée sur la feuille comptabilité, pour valider les paiements aux fournisseurs ou aux salariés.|[Utilisation de feuilles comptabilité](ui-work-general-journals.md)|
 | Utiliser une fonction pour proposer des paiements fournisseur en fonction de critères sélectionnés, tels que la date d'échéance, la possibilité d'escompte et vos liquidités. |[Procédure : proposer des paiements fournisseur](payables-how-suggest-vendor-payments.md) |

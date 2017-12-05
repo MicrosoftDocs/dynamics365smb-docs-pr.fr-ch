@@ -1,6 +1,6 @@
 ---
-title: "Fonctionnalité métier prise en charge par Financials | Microsoft Docs"
-Description: "Fournit une fonctionnalité d'aperçu de toutes les fonctionnalités commerciales et des départements qui sont pris en charge par les domaines de l'application, comme les finances, le stock, et la gestion de projets."
+title: "Fonctionnalité d'entreprise prise en charge par Dynamics 365 Business edition | Microsoft Docs"
+Description: Provides a feature overview of all the business functions and departments that are supported by application areas, such as Finance, Inventory, and Project Management.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,13 +13,13 @@ ms.search.keywords: feature overview
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5438d1808bff9509d1a938f601139d3faeab2a82
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: f71c19abdc225b92a76a98992a2e3d78769b6dc5
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="overview-of-business-functionality"></a>Aperçu de la fonctionnalité d'affaires
+# <a name="overview-of-business-functionality-in-dynamics-365-for-finance-and-operations-business-edition"></a>Présentation de la fonctionnalité d'entreprise dans Dynamics 365 for Finance and Operations, Business edition
 [!INCLUDE[d365fin](includes/d365fin_md.md)] fournit des fonctionnalités pour les processus entreprise communs dans des PME, surtout au sein de sociétés de vente en gros et de services professionnels.
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] comprend des configurations standard pour la plupart des processus entreprise, mais vous pouvez modifier la configuration pour l'adapter aux besoins de votre activité. À partir de votre page d'accueil, vous pouvez accéder aux guides de configuration assistée qui vous permettent de configurer certains scénarios et d'ajouter des fonctionnalités à [!INCLUDE[d365fin](includes/d365fin_md.md)]. Plusieurs modules de fonctionnalités d'entreprise doivent être créés manuellement. Pour plus d'informations, reportez-vous à [Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
@@ -43,7 +43,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |Assurer un flux efficace des marchandises reçues et expédiées.|[Gestion d'entrepôt](warehouse-manage-warehouse.md)|
 |Planifier des appels de service et configurer des commandes service et assurer le suivi des pièces et fournitures de réparation.|[Gestion des services](service-service.md)|
 |Configurez et utilisez des workflows qui connectent des tâches exécutées par différents utilisateurs ou par le système, telles que la validation automatique. Demander et accorder une approbation pour créer ou valider des documents sont des étapes classiques du workflow.|[Flux de travail](across-workflow.md)|
-|Activez des utilisateurs pour l'échange de données avec des sources externes lors de tâches quotidiennes, telles que les envoyer/recevoir des documents électroniques, importer/exporter des fichiers bancaires, et mettre à jour des taux de change des devises.|[Échange de données en tant que documents électroniques](across-data-exchange.md)|
+|Activez des utilisateurs pour l'échange de données avec des sources externes lors de tâches quotidiennes, telles que les envoyer/recevoir des documents électroniques, importer/exporter des fichiers bancaires, et mettre à jour des taux de change des devises.|[Échanger des données par voir électronique](across-data-exchange.md)|
 |Enregistrez des documents externes dans [!INCLUDE[d365fin](includes/d365fin_md.md)], ainsi que leurs fichiers joints, puis créez manuellement des documents connexes ou convertissez automatiquement les fichiers en documents électroniques.|[Documents entrants](across-income-documents.md)|
 
 

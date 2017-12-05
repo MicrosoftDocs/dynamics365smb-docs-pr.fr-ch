@@ -1,6 +1,6 @@
 ---
-title: "Paramétrage de la messagerie | Microsoft Docs"
-description: "Décrit l'utilisation du serveur SMTP de la société pour envoyer et recevoir des e-mails dans Financials. Décrit également comment utiliser les paramètres du serveur de messagerie créés lors de l'abonnement à Office 365."
+title: "Configurer un courrier électronique dans Dynamics 365 Business edition | Microsoft Docs"
+description: "Décrit l'utilisation du serveur SMTP de la société pour envoyer et recevoir des e-mails dans Dynamics 365. Décrit également comment utiliser les paramètres du serveur de messagerie créés lors de l'abonnement à Office 365."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,10 +12,10 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: aedd27545da932155d453bf6aa476a4e9f898fc6
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 59d97a3bd838c80e66d62ed16c2bcb1c525938c4
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-set-up-email-manually-or-using-the-assisted-setup"></a>Procédure : paramétrer la messagerie manuellement ou à l'aide de la configuration assistée

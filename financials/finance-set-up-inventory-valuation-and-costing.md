@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: aa5ee6d9942390a2b4ad0aa8787172b0f7b141d0
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 86fd8f6b15b8a2f868db2938278df6147a092725
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="setting-up-inventory-valuation-and-costing"></a>Configuration de l'évaluation du stock
@@ -39,6 +39,6 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 
 ## <a name="see-also"></a>Voir aussi  
 [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  
-[Utilisation de Financials](ui-work-product.md)  
+[Utilisation de Dynamics 365](ui-work-product.md)  
 [Finances](finance.md)  
 

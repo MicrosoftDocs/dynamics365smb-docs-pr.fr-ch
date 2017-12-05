@@ -1,6 +1,6 @@
 ---
 title: "Utiliser des états financiers et des aperçus dans Excel | Microsoft Docs"
-description: "En savoir plus sur la manière dont vous pouvez ouvrir des états financiers dans Microsoft Excel à partir de Dynamics 365 for Financials pour une meilleure analyse."
+description: "En savoir plus sur la manière dont vous pouvez ouvrir des états financiers dans Microsoft Excel à partir de Dynamics 365 Business edition pour une meilleure analyse."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords: accountant, accounting, financial report
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e32ece2d472adaca58ad5d4dc3446b407e431b63
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: e58d412b9fb182a8a8f640593f78decf0e6aecc1
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Analyse des états financiers dans Microsoft Excel
@@ -45,5 +45,5 @@ Le module complémentaire vous permet d'obtenir des données actualisées à par
 [Finances](finance.md)  
 [Configuration de Finance](finance-setup-finance.md)  
 [Les écritures comptables et le plan comptable](finance-general-ledger.md)  
-[Utilisation de Financials](ui-work-product.md)  
+[Utilisation de Dynamics 365](ui-work-product.md)  
 

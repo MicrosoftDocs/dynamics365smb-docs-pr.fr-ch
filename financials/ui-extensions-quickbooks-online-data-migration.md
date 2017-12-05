@@ -1,8 +1,6 @@
 ---
 title: Utilisation de l'extension QuickBooks Data Migration | Microsoft Docs
-description: "Décrit comment utiliser l'extension pour migrer des clients, des fournisseurs, des articles, et des comptes de QuickBooks Online à Financials."
-services: project-madeira
-documentationcenter: 
+description: "Décrit comment utiliser l'extension pour migrer des clients, des fournisseurs, des articles, et des comptes de QuickBooks Online à Dynamics 365."
 author: bholtorf
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,14 +11,14 @@ ms. search.keywords: extension, migrate, data, QuickBooks, import
 ms.date: 05/24/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: fe87a108d132ff25f0c93a51df58bb88fb12f421
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: e73db91a37fd5aee249de032d231df2c5e36b4ba
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 
-# <a name="the-quickbooks-online-data-migration-extension-for-dynamics-365-for-financials"></a>Extension QuickBooks Online Data Migration pour Dynamics 365 for Financials
+# <a name="the-quickbooks-online-data-migration-extension-for-dynamics-365-business-edition"></a>Extension QuickBooks Online Data Migration pour Dynamics 365 Business edition
 Cette extension est incluse dans le guide d'installation facilité **Migration des données** pour vous aider à migrer les données métier pertinentes de QuickBooks Online vers [!INCLUDE[d365fin](includes/d365fin_md.md)]. Par exemple, c'est utile si votre activité se développe, et que vous avez décidé de mettre à niveau votre application de gestion d'entreprise en commençant à utiliser [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## <a name="what-data-can-i-import-from-quickbooks-online"></a>Quelles données puis-je importer de QuickBooks Online ?
@@ -29,7 +27,7 @@ Vous pouvez importer les données suivantes de QuickBooks Online vers [!INCLUDE[
 * Clients
 * Fournisseurs
 * Articles
-* Plan comptable 
+* Plan comptable
 * Commencer la transaction de solde en comptabilité
 * Quantités disponibles pour les articles de stock
 * Ouvrir des documents pour les clients et les fournisseurs, par exemple des factures, des avoirs, et des paiements
@@ -41,7 +39,7 @@ Nous effectuons une migration uniquement pour les montants complets dans les doc
 
 ## <a name="before-you-start"></a>Avant de commencer
 Une grande partie du processus de migration consiste à spécifier les comptes vers lesquels migrer les transactions. Il est judicieux de planifier ce mappage avant d'exécuter la migration de données. Par exemple, les comptes où vous validez des transactions :  
-  
+
 * La vente d'articles ou de services à un client.
 * L'achat d'articles ou de service auprès d'un fournisseur.  
 * Ajustements des écritures comptables.  

@@ -1,6 +1,6 @@
 ---
-title: "Packs de contenu Dynamics 365 for Financials et Power BI | Microsoft Docs"
-description: "Il est facile d'obtenir des informations exploitables, de la veille économique et des KPI de vos données Financials grâce à Power BI et aux packs de contenu Financials."
+title: "Packs de contenu Dynamics 365 Business edition et Power BI | Microsoft Docs"
+description: "Il est facile d'obtenir des informations exploitables, de la veille économique et des KPI de vos données Dynamics 365 grâce à Power BI et à Dynamics 365 Content Packs."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -11,10 +11,10 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.date: 09/05/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d165efbb6a157c6f95f8f59e6aa0d9b7100daa91
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: f9a85074f2bc3ed2bff6022b9c248d3568a04e93
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Activation de vos données commerciales pour Power BI
@@ -44,7 +44,7 @@ Les packs de contenu sont pré-configurés pour fonctionner avec les données pr
 ## <a name="accessing-included365finincludesd365finmdmd-in-power-bi"></a>Accéder à [!INCLUDE[d365fin](includes/d365fin_md.md)] dans Power BI
 Pour afficher vos données [!INCLUDE[d365fin](includes/d365fin_md.md)] dans Power BI, vous devez disposer des éléments suivants :  
 
-* Accès à [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, voir [Financials](http://go.microsoft.com/fwlink/?LinkID=759714).  
+* Accès à [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, voir [Communauté Dynamics 365 Business edition](http://go.microsoft.com/fwlink/?LinkID=759714).  
 * Accès à Power BI. Pour plus d'informations, reportez-vous à [Power BI](https://powerbi.microsoft.com).
 
 Sur le site Power BI, vous trouverez des informations supplémentaires relatives à la [connexion aux services avec les packs de contenu pour Power BI](http://go.microsoft.com/fwlink/?LinkID=760850).  

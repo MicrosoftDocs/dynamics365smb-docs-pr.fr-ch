@@ -1,6 +1,6 @@
 ---
 title: "Recherche de pages ou d'états à l'aide de la fonction Page ou état pour la recherche| Microsoft Docs"
-description: "Pour rechercher des pages et des états dans Dynamics 365 for Financials, vous pouvez utiliser la fonctionnalité Page ou état pour la recherche."
+description: "Pour rechercher des pages et des états dans Dynamics 365 Business edition, vous pouvez utiliser la fonctionnalité Page ou état pour la recherche."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,10 +13,10 @@ ms.search.keywords: find
 ms.date: 03/29/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: c38f22bec1101a8373b7b5dab246942f49412afc
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 0fd2995e254d053c6ac66ae6ab9153d2dfe9a4a7
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="searching-for-a-page-or-report"></a>Recherche d'une page ou d'un état

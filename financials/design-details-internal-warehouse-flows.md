@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9ba5203013af329f1d59432a5e5800fe486658cc
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 957c8889d943ed412af7555271897b52c0759969
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Détails de conception : flux d'entrepôt internes
@@ -104,7 +104,7 @@ Circulation des articles entre les emplacements dans les centres d'une société
 1.  Le chef atelier lance l'ordre de fabrication. Les articles utilisant la méthode de consommation **Aval** et aucun code lien gamme sont déduits de l'emplacement atelier ouvert.  
 2.  Le chef atelier choisit le bouton **Créer prélèvement entrepôt** sur l'ordre de fabrication. Un document prélèvement entrepôt est créé pour les articles avec les méthodes de consommation **Manuelle**, **Prélèvement + Amont** et **Prélèvement + Aval**. Ces articles sont placés dans l'emplacement des consommations.  
 3.  Le gestionnaire d'entrepôt affecte les prélèvements à un magasinier.  
-4.  Le magasinier prélève les articles des emplacements appropriés et les place dans l'emplacement des consommations ou dans l'emplacement spécifié sur le prélèvement entrepôt, qui peut être un emplacement de centre de charge ou du poste de charge).  
+4.  Le magasinier prélève les articles des emplacements appropriés et les place dans l'emplacement des consommations ou dans l'emplacement spécifié sur le prélèvement entrepôt, qui peut être un emplacement de centre de charge ou du poste de charge.  
 5.  Le magasinier enregistre le prélèvement. La quantité est soustraite des emplacements prélèvement et ajoutée à l'emplacement de consommation. Le champ **Qté prélevée** sur la liste des composants de tous les articles prélevés est mis à jour.  
 
     > [!NOTE]  
