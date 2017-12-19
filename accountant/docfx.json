@@ -2,16 +2,17 @@
   "build": {
     "content": [
       {
-        "files": [
+        "files":  [
           "**/*.md",
           "**/**.yml"
-        ],
+	],
         "exclude": [
           "**/obj/**",
           "**/includes/**",
           "README.md",
           "LICENSE",
-          "LICENSE-CODE"
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
         ]
       }
     ],
@@ -31,14 +32,13 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "searchScope": ["Financials"],
+      "searchScope": ["Accountant"],
       "uhfHeaderId": "MSDocsHeader-Dynamics365",
-      "titleSuffix": "Finance and Operations, Business",
-      "breadcrumb_path": "/dynamics365/financials/breadcrumb/toc.json",      
-      "ms.service": "dynamics365-financials"
-      },
+      "titleSuffix": "Accountant Hub",
+      "breadcrumb_path": "/dynamics365/financials/breadcrumb/toc.json"
+    },
     "fileMetadata": {},
     "template": [],
-    "dest": "financialssmb"
+    "dest": "d365accountant"
   }
 }
