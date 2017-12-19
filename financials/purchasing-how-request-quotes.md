@@ -12,10 +12,10 @@ ms.search.keywords: rfq
 ms.date: 08/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: fe51ade7a46ab7a8fdf77419a0098ac47fe2e5d1
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: df1793d811dea11c01ff5e7d90a9f52b9e987c13
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-request-quotes"></a>Procédure : Demander des devis
@@ -31,7 +31,7 @@ Lorsque vous avez accepté le devis du fournisseur, vous pouvez le convertir en 
 
 1. Ouvrez une demande de prix est prête à être convertie, puis sélectionnez l'action **Créer commande**.
 
-La demande de prix est supprimée de la base de données. Une facture achat ou une commande vente basée sur les informations de la demande de prix et dans laquelle vous pouvez traiter l'achat est créée. Dans le champ **N° devis** de la facture achat ou de la commande achat, vous pouvez visualiser le numéro de la demande de prix à partir de laquelle elle a été réalisée.
+La demande de prix est supprimée de la base de données. Une facture achat ou une commande achat basée sur les informations de la demande de prix et dans laquelle vous pouvez traiter l'achat est créée. Dans le champ **N° devis** de la facture achat ou de la commande achat, vous pouvez visualiser le numéro de la demande de prix à partir de laquelle elle a été réalisée.
 
 ## <a name="see-also"></a>Voir aussi
 [Achats](purchasing-manage-purchasing.md)  

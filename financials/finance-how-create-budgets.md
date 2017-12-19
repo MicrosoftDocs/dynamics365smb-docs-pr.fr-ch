@@ -1,6 +1,6 @@
 ---
-title: "Création de budgets| Microsoft Docs"
-description: "Décrit la création de budgets pour prévoir différentes activités financières et affecter des axes analytiques à des fins de veille économique."
+title: "Création de budgets comptabilité | Microsoft Docs"
+description: "Décrit la création de budgets comptabilité pour prévoir différentes activités financières et affecter des axes analytiques à des fins de veille économique."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: cda69d70ece090a149a13e5e1f4ed02fa70c49f7
+ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.openlocfilehash: 34642192e74992953b569cabeb5dbeb4112a0f44
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
-# <a name="how-to-create--budgets"></a>Procédure : créer des budgets
+# <a name="how-to-create-gl-budgets"></a>Procédure : créer des budgets comptabilité
 Vous pouvez avoir plusieurs budgets pour des périodes identiques en les créant sous des noms différents. Vous indiquez d'abord le nom du budget et entrez les chiffres correspondants. Le nom du budget est ensuite inclus sur toutes les écritures budget que vous créez.  
 
  Lorsque vous créez un budget, vous pouvez définir quatre axes analytiques par budget. Ces axes analytiques propres au budget sont appelés axes budget. Vous sélectionnez les axes budget pour chaque budget parmi les axes analytiques que vous avez déjà configurés. Les axes budget peuvent être utilisés pour positionner des filtres sur un budget et pour ajouter des informations analytiques aux écritures budget. Pour plus d'informations, reportez-vous à [Utilisation des axes](finance-dimensions.md).
@@ -33,9 +33,8 @@ En comptabilité analytique, vous travaillez avec des budgets de coûts de mani�
  > [!NOTE]  
 >   Cette fonctionnalité nécessite que votre expérience soit définie sur **Suite**. Pour plus d'informations, voir [Personnalisation de votre expérience [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).  
 
-### <a name="to-create-a-new-budget"></a>Pour créer un budget  
-
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Budgets**, puis choisissez le lien associé.  
+## <a name="to-create-a-new-gl-budget"></a>Pour créer un budget comptabilité  
+1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Budgets**, puis choisissez le lien associé.  
 2. Cliquez sur **Modifier la liste**, puis renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Sélectionnez **Modifier budget**.
 4. En haut de la fenêtre **Budget**, renseignez les champs nécessaires pour définir ce qui est affiché.  

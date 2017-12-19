@@ -13,10 +13,10 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 03/29/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: d0cb7491300e9c108af4d1b0e746e65130886c15
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 14c2e5340c64e2b302a0bb04c54911888e995136
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-create-and-modify-a-custom-report-or-document-layout"></a>Procédure : créer et modifier une présentation de rapport ou de document personnalisée
@@ -57,7 +57,7 @@ Pour modifier une présentation de rapport, vous devez d'abord exporter la prés
 
       Si vous modifiez une présentation Word, ouvrez le document de présentation dans Word. Pour modifier les détails, reportez-vous à la section suivante [Apporter des modifications à la présentation de rapport](ui-how-create-custom-report-layout.md#MakeChangesToLayout).
 
-      Les présentations de rapport RDLC sont plus avancées que les présentations de rapport Word. Pour plus d'informations sur la modification d'une présentation de rapport RDLC, voir [Création de présentations de rapport RDLC](https://msdn.microsoft.com/en-us/dynamics-nav/designing-rdlc-report-layouts).
+      Les présentations de rapport RDLC sont plus avancées que les présentations de rapport Word. Pour plus d'informations sur la modification d'une présentation de rapport RDLC, voir [Création de présentations de rapport RDLC](/dynamics-nav/Designing-RDLC-Report-Layouts).
 
       Pensez à enregistrer vos modifications une fois effectuées.
 

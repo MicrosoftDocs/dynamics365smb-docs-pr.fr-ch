@@ -13,10 +13,10 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 06/28/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 203449e8a7f032dbcb7b3d014c3198e0a2e7847a
+ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.openlocfilehash: f5f0640c84a382a62512116f2f3c7c57c7793243
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="finance"></a>Finance
@@ -37,7 +37,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |Gérer les coûts ajustés et de fabrication, générer des états sur les coûts et rapprocher les coûts avec la comptabilité.|[Gestion des coûts ajustés](finance-manage-inventory-costs.md)|
 | Comprendre les écritures comptables et le plan comptable. |[Familiarisation avec les écritures comptables et les COA](finance-general-ledger.md) |
 | Ajouter des axes analytiques pour un veille économique enrichie. |[Utilisation des axes analytiques](finance-dimensions.md) |
-| Création de budgets pour prévoir différentes activités financières et affecter des axes analytiques à des fins de veille économique. |[Procédure : créer des budgets](finance-how-create-budgets.md) |
+| Créer des budgets comptabilité pour prévoir différentes activités financières et affecter des axes analytiques à des fins de veille économique. |[Procédure : créer des budgets comptabilité](finance-how-create-budgets.md) |
 |Enregistrez les revenus ou les frais directement dans la comptabilité sans valider les documents commerciaux appropriés.|[Procédure : Valider les transactions directement vers la comptabilité](finance-how-post-transactions-directly.md)|
 |Valider les écritures contrepassées pour annuler les validations de valeur dans la feuille comptabilité ou les validations de quantité sur des documents achat et vente. |[Procédure : inversion d'une validation](finance-how-reverse-journal-posting.md)|
 |Ventiler une écriture d'une feuille comptabilité dans différents comptes lorsque vous validez la feuille. |[Procédure : ventiler des coûts et des bénéfices](year-allocate-costs-income.md) |

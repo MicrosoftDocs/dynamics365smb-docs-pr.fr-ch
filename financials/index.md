@@ -11,10 +11,10 @@ ms.search.keywords: setup wizard
 ms.date: 09/14/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 0bd6edbefbfa46ec7214f806bf28e7a523930740
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 0173f682ccb09b2b4c02b9d7d74638f6b08e9a93
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="welcome-to-included365finlongincludesd365finlongmdmd"></a>Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -32,7 +32,7 @@ Pour obtenir des astuces rapides, consultez :
 
 Pour plus d'informations, reportez-vous à [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  
 
-Lorsque vous êtes prêt à passer à l'étape supérieure, et que vous voulez en savoir plus sur les processus d'entreprise pris en charge par [!INCLUDE[d365fin](includes/d365fin_md.md)], consultez [Business Functionality](madeira-business-functionality.md). Pour obtenir une vue d'ensemble des fonctionnalités actuelles et à venir, jetez un œil à notre feuille de route sur [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68).  
+Lorsque vous êtes prêt à commencer à travailler et que vous voulez en savoir plus sur les processus d'entreprise pris en charge par [!INCLUDE[d365fin](includes/d365fin_md.md)], consultez [Fonctionnalités d'entreprise](madeira-business-functionality.md). Pour obtenir une vue d'ensemble des fonctionnalités actuelles et à venir, jetez un œil à notre feuille de route sur [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68).  
 
 ## <a name="the-home-pages"></a>Les pages d'accueil
 La page d'accueil utilise une conception centrée sur le rôle pour vous permettre d'accéder rapidement aux outils de processus d'entreprise et d'intelligence dont vous avez besoin dans le cadre de votre travail. Par exemple, un comptable peut surveiller des paiements et des approbations, et afficher des graphiques de performances financières. Consultez les différentes pages d'accueil en sélectionnant l'icône **Paramètres** ![Paramètres](media/ui-experience/settings_icon_small.png "Icône Paramètres du tableau de bord") dans le coin supérieur droit, en sélectionnant **Mes paramètres**, puis le tableau de bord à explorer. Connectez-vous à nouveau pour appliquer la modification. Pour plus d'informations, reportez-vous à [Modification du Tableau de bord](change-role.md).  

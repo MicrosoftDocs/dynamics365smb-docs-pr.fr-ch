@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 56d191c465b611c1764cf3c97e507c4952fe6287
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: ab97e9beb67ac5c8e827f44c2976b51af2696109
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-enable-automated-data-capture-systems-adcs"></a>Procédure : activer les systèmes de saisie automatisée (ADCS)
@@ -28,7 +28,7 @@ En fonction des besoins de votre entrepôt, définissez la quantité d'informati
 - Trier les informations.  
 - Messages affichant les confirmations ou erreurs sur les activités effectuées et enregistrées par l'utilisateur de périphérique mobile.
 
-Pour plus d'informations, voir [Configuration d'un système de saisie automatisée](https://msdn.microsoft.com/en-us/library/dd338742.aspx) sur MSDN.
+Pour plus d'informations, voir [Configuration d'un système de saisie automatisée](/dynamics-nav/Configuring-Automated-Data-Capture-System) dans l'Aide destinée aux développeurs et aux professionnels de l'informatique.
 
 ## <a name="to-set-up-a-warehouse-to-use-adcs"></a>Pour configurer le module Gestion d'entrepôt  
 Pour utiliser le système de saisie automatisée, vous devez indiquer quels entrepôts utilisent cette technologie.  
@@ -107,10 +107,10 @@ Après avoir créé un écran, vous devez créer des fonctions et associer une f
 
 Dans l'environnement de développement [!INCLUDE[d365fin](includes/d365fin_md.md)], modifiez le code du champ **Traité par Codeunit** pour créer ou modifier le code visant à exécuter l'action ou la réponse requise.
 
-Pour plus d'informations, voir [Configuration d'un système de saisie automatisée](https://msdn.microsoft.com/en-us/library/dd338742.aspx) sur MSDN.
+Pour plus d'informations, voir [Configuration d'un système de saisie automatisée](/dynamics-nav/Configuring-Automated-Data-Capture-System) dans l'Aide destinée aux développeurs et aux professionnels de l'informatique.
 
 ## <a name="see-also"></a>Voir aussi  
-[Gestion d'entrepôt](warehouse-manage-warehouse.md)  
+[Gestion d’entrepôt](warehouse-manage-warehouse.md)  
 [STOCKS ET EN-COURS](inventory-manage-inventory.md)  
 [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)     
 [Gestion des assemblages](assembly-assemble-items.md)    

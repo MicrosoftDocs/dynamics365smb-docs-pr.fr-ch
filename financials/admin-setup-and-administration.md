@@ -1,6 +1,6 @@
 ---
 title: "Tâches d'administration dans Dynamics 365 | Microsoft Docs"
-description: "Certaines tâches dans [!INCLUDE[d365fin](includes/d365fin_md.md)] requièrent une administration centrale et une configuration. Découvrez quelles sont ces tâches et ce que vous devez faire."
+description: "Certaines tâches dans Dynamics 365 requièrent une administration centrale et une configuration. Découvrez quelles sont ces tâches et ce que vous devez faire."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 09c3460a50088098bfe5c2fb633e76dccbac0794
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: c7e5efe85dddcc7db84b05879f0c71990167c775
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="setup-and-administration-in-dynamics-365-for-financials"></a>Configuration et administration dans Dynamics 365 for Financials
@@ -40,7 +40,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |Configurer un nouveau centre de profit à l'aide de modèles|[Création de sociétés dans [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)|  
 
 ## <a name="see-also"></a>Voir aussi
-[Aperçu de la fonctionnalité d'affaires](madeira-business-functionality.md)  
+[Fonctionnalités d'entreprise](madeira-business-functionality.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Bienvenue dans [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  

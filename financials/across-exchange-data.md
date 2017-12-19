@@ -1,6 +1,6 @@
 ---
 title: "Échanger des données | Microsoft Docs"
-description: "Vous pouvez échanger des données entre [!INCLUDE[d365fin](includes/d365fin_md.md)] et des fichiers ou flux externes en relation avec des tâches courantes d'entreprise, comme l'envoi et la réception de documents électroniques et l'importation et l'exportation de fichiers bancaires."
+description: "Vous pouvez échanger des données entre Dynamics 365 et des fichiers ou flux externes en relation avec des tâches courantes d'entreprise, comme l'envoi et la réception de documents électroniques et l'importation et l'exportation de fichiers bancaires."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/18/2017
+ms.date: 11/17/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: f7ee9914d70474e912414ecd4de9a4cf16fa4e45
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 41f42162499401693f30e37a736c4fe0afe24822
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="exchanging-data"></a>Échange de données
@@ -30,7 +30,8 @@ Avant de pouvoir envoyer et recevoir des documents électroniques ou importer et
 |Envoyer des fichiers PDF ou image à un fournisseur de services ROC, et les recevoir en tant que documents électroniques pouvant être convertis en enregistrements de document dans [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Procédure : utiliser un service OCR pour convertir des fichiers PDF et image en documents électroniques](across-how-use-ocr-pdf-images-files.md)|  
 |Recevoir des documents électroniques, du service OCR ou du service d'échange de document, dans un format standardisé que vous convertissez en enregistrements de document appropriés dans [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Procédure : recevoir et convertir des documents électroniques](purchasing-how-to-receive-and-convert-electronic-documents.md)|  
 |Importer un fichier de relevé bancaire dans la fenêtre **Feuille rapprochement bancaire** comme première étape en rapprochement des paiements ou dans la fenêtre **Rapprochement bancaire** comme première étape de rapprochement des comptes bancaires.|[Procédure: configurer le service de flux de la Envestnet Yodlee Bank](bank-how-setup-bank-statement-service.md)|  
-|Exporter des paiements à partir de la fenêtre **Feuille paiement** vers un fichier bancaire que vous transférez sur votre compte bancaire électronique pour traitement.|[Procédure : exportation de paiements vers un fichier bancaire](payables-how-export-payments-bank-file.md)|  
+|Exporter des paiements à partir de la fenêtre **Feuille paiement** vers un fichier bancaire que vous transférez sur votre compte bancaire électronique pour traitement.|[Procédure : exportation de paiements vers un fichier bancaire](payables-how-export-payments-bank-file.md)|
+|Effectuer des paiements électroniques conformément à la norme de virement SEPA de l'UE.|[Exécution de paiements avec le service de conversion de données bancaires ou un virement SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|  
 |Demander à votre banque de transférer les montants de paiement des comptes bancaires de vos clients vers le compte de votre société en fonction de votre configuration du prélèvement automatique SEPA.|[Procédure : créer des écritures de collection prélèvement automatique SEPA et les exporter vers un fichier bancaire](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)|  
 |Utiliser un fournisseur de services de taux de change des devises pour mettre à jour la fenêtre **Devises**.|[Procédure : mettre à jour les taux de change des devises](finance-how-update-currencies.md)|  
 |Consulter les éléments de fichier mappés aux champs dans [!INCLUDE[d365fin](includes/d365fin_md.md)] lors de l'importation de fichiers de déclaration SEPA CAMT.|[Mappage de champs lors de l'importation de fichiers SEPA CAMT](across-field-mapping-when-importing-sepa-camt-files.md)|  

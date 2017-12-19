@@ -1,5 +1,5 @@
 ---
-title: "Choisir le mode de paiements électroniques | Microsoft Docs"
+title: "Exécuter les paiements avec le service de conversion de données bancaires ou un virement SEPA | Microsoft Docs"
 description: "Traitez les paiements à vos fournisseurs en exportant un fichier avec les informations de paiement provenant des lignes feuille."
 author: SorenGP
 ms.service: dynamics365-financials
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/21/2017
+ms.date: 11/17/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: 20ae505bc76b8971c678de9e2664653aa5032d6e
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 0760b5480b3c2de9bc370526bd87da2c9a492d92
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 12/14/2017
 
 ---
-# <a name="make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer"></a>Exécuter les paiements avec le service de conversion de données bancaires ou un virement SEPA
+# <a name="making-payments-with-bank-data-conversion-service-or-sepa-credit-transfer"></a>Exécution de paiements avec le service de conversion de données bancaires ou un virement SEPA
 Dans la fenêtre **Feuille paiement**, vous pouvez traiter les paiements à vos fournisseurs en exportant un fichier avec les informations de paiement provenant des lignes feuille. Vous pouvez ensuite télécharger le fichier vers votre banque électronique, où sont traités les transferts d'argent associés. [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge le format de virement SEPA, mais dans votre pays/région, d'autres formats de paiements électroniques peuvent être disponibles.   
 
  Pour activer les virements SEPA, vous devez d'abord créer un compte bancaire, un fournisseur, et le lot de feuille général sur laquelle la feuille de paiements est basée. Vous préparez ensuite les paiements aux fournisseurs en renseignant automatiquement la fenêtre **Feuille paiement** avec les paiements dus aux dates comptabilisation spécifiées.  
@@ -33,7 +33,6 @@ Dans la fenêtre **Feuille paiement**, vous pouvez traiter les paiements à vos 
 |Configurez un compte bancaire, un fournisseur et une feuille paiement pour le virement SEPA.|[Procédure : configurer des virements SEPA](finance-how-to-set-up-sepa-credit-transfer.md)|  
 |Renseignez la feuille paiement avec des lignes pour les paiements dus aux fournisseurs, avec la possibilité d'insérer des dates comptabilisation sur la base de la date d'échéance des documents achat associés.|[Gestion des comptes fournisseur](payables-manage-payables.md)|  
 |Exportez les lignes feuille paiement dans un fichier au format virement SEPA.|[Procédure : exportation de paiements vers un fichier bancaire](payables-how-export-payments-bank-file.md)|  
-|Examinez quels les paiements ont été exportés et dans quels fichiers.|Registres virement|  
 |Lorsque le paiement électronique est traité avec succès par la banque, validez les paiements.|[Utilisation de feuilles comptabilité](ui-work-general-journals.md)|  
 
 ## <a name="see-also"></a>Voir aussi  

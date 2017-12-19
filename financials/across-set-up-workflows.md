@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 12/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 59805de35ca1ebe01255eafeb4fff12efacde934
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 6beb70ad41fa32043e9b8afea67d390929533007
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="setting-up-workflows"></a>Paramétrage des workflows
@@ -26,7 +26,7 @@ Vous pouvez configurer et utiliser des workflows qui connectent des tâches de p
 
  Dans la fenêtre **Workflow**, créez un workflow en répertoriant les étapes concernées sur les lignes. Chaque étape comprend un événement de workflow modéré par des conditions d'événement, et une réponse de workflow modérée par des options de réponse. Définissez les étapes de workflow en renseignez les champs des lignes de workflow à partir de listes fixes de valeurs d'événement et de réponse qui sont les scénarios pris en charge par le code d'application.  
 
- Si un scénario d'entreprise requiert un événement ou une réponse de workflow qui n'est pas pris en charge, un partenaire Microsoft doit l'implémenter en personnalisant le code de l'application. Pour plus d'informations, voir [Procédure pas à pas : implémentation de nouveaux événements et réponses de flux de travail](https://msdn.microsoft.com/en-us/library/mt574349.aspx) sur MSDN.
+ Si un scénario d'entreprise requiert un événement ou une réponse de workflow qui n'est pas pris en charge, un partenaire Microsoft doit l'implémenter en personnalisant le code de l'application. Pour plus d'informations, voir [Procédure pas à pas : implémentation de nouveaux événements et réponses de flux de travail](/dynamics_nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses) dans l'Aide destinée aux développeurs et aux professionnels de l'informatique.
 
  Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.  
 
@@ -42,7 +42,7 @@ Vous pouvez configurer et utiliser des workflows qui connectent des tâches de p
 |Utiliser des modèles de workflow pour créer des workflows.|[Procédure : créer des workflows à partir de modèles de workflow](across-how-to-create-workflows-from-workflow-templates.md)|  
 |Partager des workflows avec d'autres bases de données [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Procédure : exporter et importer des flux de travail](across-how-to-export-and-import-workflows.md)|  
 |Apprendre comment configurer un workflow pour des documents vente avec approbation en suivant la procédure de bout en bout.|[Procédure pas à pas : Configuration et utilisation d'un flux d'approbation achat](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
-|Ajouter la prise en charge d'un scénario d'entreprise qui requiert de nouveaux événements ou réponses de workflow en personnalisant le code de l'application.|[Procédure pas à pas : implémentation de nouveaux événements et réponses de flux de travail](https://msdn.microsoft.com/en-us/library/mt574349.aspx) sur MSDN.|  
+|Ajouter la prise en charge d'un scénario d'entreprise qui requiert de nouveaux événements ou réponses de workflow en personnalisant le code de l'application.|[Procédure pas à pas : implémentation de nouveaux événements et réponses de flux de travail](/dynamics_nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses)|  
 
 ## <a name="see-also"></a>Voir aussi  
  [Utilisation des workflows](across-use-workflows.md)   

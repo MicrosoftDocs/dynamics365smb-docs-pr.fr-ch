@@ -13,10 +13,10 @@ ms.search.keywords: service, cost, service order
 ms.date: 08/22/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 3eea1854139de9bdfd5dc992159dbc060c79509d
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 203f6ef7f156bdccaa491fdac761711fd32c317e
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 

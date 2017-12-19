@@ -1,8 +1,6 @@
 ---
 title: "Procédure pas à pas : configuration et facturation d'acomptes | Microsoft Docs"
-description: "Les acomptes sont des paiements qui sont facturés et validés dans une commande acompte vente ou achat avant la facturation finale. Vous pouvez demander un acompte avant de fabriquer les produits commandés ou le paiement avant d'envoyer les articles à un client. Vous utilisez la fonctionnalité d'acomptes dans [!INCLUDE[d365fin](includes/d365fin_md.md)] pour facturer et collecter les acomptes requis des clients ou régler des acomptes aux fournisseurs. Vous pouvez ainsi vous assurer que tous les paiements sont validés sur une facture."
-services: project-madeira
-documentationcenter: 
+description: "Les acomptes sont des paiements qui sont facturés et validés dans une commande acompte vente ou achat avant la facturation finale. Vous pouvez demander un acompte avant de fabriquer les produits commandés ou le paiement avant d'envoyer les articles à un client. Vous utilisez la fonctionnalité d'acomptes dans Dynamics 365 pour facturer et collecter les acomptes requis des clients ou régler des acomptes aux fournisseurs. Vous pouvez ainsi vous assurer que tous les paiements sont validés sur une facture."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 14c4c4a9d4a9ef9149ded77343fa385ae8038f83
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: fbdeb6b9dc8c96b09ded933ec987b8c60098bfcf
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Procédure pas à pas : configuration et facturation d'acomptes

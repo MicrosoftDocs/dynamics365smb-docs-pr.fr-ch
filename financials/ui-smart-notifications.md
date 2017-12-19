@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 08/17/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ad7ecfa7725aa6696620dc77ab9a6d7a09863b3c
+ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.openlocfilehash: bb8b1ecf0f5e8f91598bf96c85ec70f0d385267e
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="smart-notifications"></a>Notifications intelligentes
@@ -25,11 +25,11 @@ Si vous choisissez de voir les détails d'une notification, vous pouvez prendre 
 
 Les notifications aident les utilisateurs débutants à effectuer des tâches inhabituelles et contribuent à ce que les utilisateurs plus avertis ne ralentissent pas leur productivité.  
 
-## <a name="turn-on-or-turn-off-notifications-and-control-when-they-are-sent"></a>Activer ou désactiver les notifications, et contrôler le moment de leur envoi
+## <a name="to-turn-notifications-on-or-off-and-control-when-they-are-sent"></a>Pour activer ou désactiver les notifications, et contrôler le moment de leur envoi
 Lorsque vous utilisez [!INCLUDE[d365fin](includes/d365fin_md.md)] pour la première fois, toutes les notifications sont activées, mais vous pouvez les désactiver, par exemple, si vous n'êtes pas intéressé par un événement ou un statut.  
-  
+
 En outre, certaines notification vous permettent de spécifier les conditions dans lesquelles elles sont envoyées. Par exemple, si vous souhaitez être informé lorsque le stock diminue, mais uniquement pour les articles que vous achetez à un certain fournisseur.  
-  
+
 L'activation ou la désactivation des notifications et la spécification des conditions s'appliquent uniquement à vous.  
 
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Mes notifications**, puis sélectionnez le lien connexe.

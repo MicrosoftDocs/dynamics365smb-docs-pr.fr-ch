@@ -1,8 +1,6 @@
 ---
 title: "Détails de conception - Paramètres entrepôt | Microsoft Docs"
-description: "La fonctionnalité d'entrepôt dans [!INCLUDE[d365fin](includes/d365fin_md.md)] contient différents niveaux de complexité, tels que définis par les autorisations de licence dans les granules proposés. Le niveau de complexité dans une solution entrepôt est en grande partie défini par le paramétrage des emplacements sur les fiches magasin, qui est lui-même contrôlé par licence afin que l'accès aux champs de configuration de l'emplacement soit défini par la licence."
-services: project-madeira
-documentationcenter: 
+description: "La fonctionnalité d'entrepôt dans Dynamics 365 contient différents niveaux de complexité, tels que définis par les autorisations de licence dans les granules proposés. Le niveau de complexité dans une solution entrepôt est en grande partie défini par le paramétrage des emplacements sur les fiches magasin, qui est lui-même contrôlé par licence afin que l'accès aux champs de configuration de l'emplacement soit défini par la licence."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 3c6d60ad75a8bf4f758a5e2fbc0ffa10b8929899
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: cf6a2fbbe92b47c4ac58d16abacaaefbe33309b1
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-warehouse-setup"></a>Détails de conception : paramètres entrepôt
@@ -41,7 +39,7 @@ Le tableau suivant indique les granules requis pour définir les différents niv
 
 |Niveau de complexité|Désignation|Document d'interface utilisateur|Magasin CRONUS|Granule minimum requis|  
 |----------------------|---------------------------------------|-----------------|---------------------------------|---------------------------------|  
-|0|Aucune activité entrepôt dédiée.<br /><br /> Validation recevoir/expédier à partir des commandes.|Commande|BLEU|Stock de base|  
+|1|Aucune activité entrepôt dédiée.<br /><br /> Validation recevoir/expédier à partir des commandes.|Commande|BLEU|Stock de base|  
 |2|Aucune activité entrepôt dédiée.<br /><br /> Validation recevoir/expédier à partir des commandes.<br /><br /> Code emplacement requis.|Commande, avec un code emplacement|ARGENTE|Stock de base/Emplacement|  
 |3 <br /><br /> **REMARQUE** : bien que les paramètres soient appelés **Prélèvement requis** et **Rangement requis**, vous pouvez quand même valider les réceptions et les expéditions directement à partir des documents commerciaux origine dans les magasins où vous cochez ces cases.|Activité entrepôt de base, par commande.<br /><br /> Validation recevoir/expédier à partir des documents rangement/prélèvement stock. <br /><br /> Code emplacement requis.|Rangement stock/mouvement stock/prélèvement stock, avec le code emplacement|(ARGENT + Rangement requis ou Rangement requis)|Stock de base/Emplacement/Rangement/Prélèvement|  
 |4|Activité entrepôt avancée pour plusieurs ordres/commandes.<br /><br /> Validation recevoir/expédier consolidée en fonction des enregistrements de rangement/prélèvement dans l'entrepôt.|Réception entrepôt/Stockage en entrepôt/Prélèvement entrepôt/Expédition entrepôt/Feuille prélèvement|VERT|Stock de base/Réception entrepôt/Rangement/Prélèvement/Expédition entrepôt|  

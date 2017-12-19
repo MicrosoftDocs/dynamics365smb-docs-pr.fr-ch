@@ -13,14 +13,18 @@ ms.search.keywords: feature overview, functionality
 ms.date: 08/21/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 5a5238c3333551cc00fbb6b81c04309e76013f82
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 66a8a2124f1bc4775268b95ba100ada19cbc286d
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="general-business-functionality"></a>Fonctionnalités marché
-[!INCLUDE[d365fin](includes/d365fin_md.md)] fournit des fonctionnalités dédiées pour les domaines d'activité courants, tels que la finance et les ventes. Pour prendre en charge les tâches spécifiques à votre secteur d'activité, vous pouvez utiliser diverses fonctionnalités d'entreprise, comme définir un texte étendu pour les lignes document et organiser les tâches professionnelles en flux de travail.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] fournit des fonctionnalités dédiées pour les domaines d'activité courants, tels que la finance et les ventes. Pour plus d'informations, voir [Fonctionnalités d'entreprise](madeira-business-functionality.md).
+
+Pour prendre en charge ces tâches spécifiques à votre secteur d'activité, vous pouvez utiliser diverses fonctionnalités d'entreprise, comme définir un texte étendu pour les lignes document et organiser les tâches professionnelles en flux de travail.
+
+
 
 Le tableau suivant répertorie ces secteurs d'activité généraux avec des liens vers les rubriques qui les décrivent.
 
@@ -29,7 +33,7 @@ Le tableau suivant répertorie ces secteurs d'activité généraux avec des lien
 | Définir des codes texte standard de façon à étendre le texte standard en ajoutant des lignes supplémentaires et définir des conditions d'utilisation des lignes supplémentaires. |[Procédure : définir du texte étendu](ui-how-define-ext-text.md) |
 | Apprendre à utiliser Les feuilles comptabilité, qui permettent de valider dans les comptes généraux et d'autres comptes tels que les comptes bancaires, client, fournisseur et immobilisations. |[Utilisation de feuilles comptabilité](ui-work-general-journals.md) |
 | Communiquer le contenu des documents commerciaux rapidement à vos partenaires commerciaux, comme les informations de paiement sur les documents vente aux clients. |[Procédure : envoyer des documents par e-mail](ui-how-send-documents-email.md) |
-| Planifier un état à exécuter à une date et une heure spécifiques. |[Planifier un état à exécuter](ui-work-report.md#ScheduleReport) |
+| Planifier un état à exécuter à une date et une heure spécifiques. |[Planification d'un état à exécuter](ui-work-report.md#ScheduleReport) |
 | Gérer les différents types de présentations d'état. |[Gestion des présentations de rapport](ui-manage-report-layouts.md) |
 | Suivre les activités des utilisateurs.|[Enregistrement des modifications dans Financials](across-log-changes.md)|
 |Affecter des autorisations aux utilisateurs, modifier les ensembles d'autorisations, et grouper les utilisateurs par autorisations.|[Procédure : gérer les utilisateurs et les autorisations](ui-how-users-permissions.md)|

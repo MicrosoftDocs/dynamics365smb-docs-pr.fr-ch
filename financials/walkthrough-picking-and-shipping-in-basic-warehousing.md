@@ -1,8 +1,6 @@
 ---
 title: "Procédure pas à pas : Prélèvement et expédition dans les configurations de stockage de base | Microsoft Docs"
-description: "Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], les processus sortants de prélèvement et d'expédition peuvent être effectués de quatre manières, à l'aide de différentes fonctionnalités en fonction du niveau de complexité de l'entrepôt."
-services: project-madeira
-documentationcenter: 
+description: "Dans Dynamics 365, les processus sortants de prélèvement et d'expédition peuvent être effectués de quatre manières, à l'aide de différentes fonctionnalités en fonction du niveau de complexité de l'entrepôt."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 993d3f092db9f423aba9a67d58f53895df0d5c2f
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 2ef41d6b1d224c016da4663d3059717c11611d92
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Procédure pas à pas : Prélèvement et expédition dans les configurations de stockage de base
@@ -69,8 +67,8 @@ Pour exécuter ce processus pas à pas, vous devez :
 
         |Type écriture|Numéro d'article|Code magasin|Code emplacement|Quantité|  
         |----------------|-----------------|-------------------|--------------|--------------|  
-        |Positif (ajust.)|LS-81|ARGENTE|S-01-0001 **Remarque** : l'emplacement par défaut de l'article dans CRONUS|2.0|  
-        |Positif (ajust.)|LS-81|ARGENTE|S-01-0002|2.0|  
+        |Positif (ajust.)|LS-81|ARGENTE|S-01-0001 **Remarque** : l'emplacement par défaut de l'article dans CRONUS|20|  
+        |Positif (ajust.)|LS-81|ARGENTE|S-01-0002|20|  
 
     3.  Choisissez l'action **Valider**, puis cliquez sur le bouton **Oui**.  
 

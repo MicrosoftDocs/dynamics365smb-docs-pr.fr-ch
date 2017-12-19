@@ -24,6 +24,7 @@
 ## [Laisser Dynamics 365 suggérer des valeurs](ui-let-system-suggest-values.md)
 ## [Impression d'un état](ui-work-report.md#PrintReport)
 ## [Vidéos sur les tâches courantes](across-videos.md)
+## [Accessibilité et raccourcis clavier](ui-accessibility.md)
 ## [Langue et paramètres régionaux](about-locale-language.md)  
 ## [Langues de Docs](about-languages.md)
 
@@ -173,7 +174,7 @@
 ### [Inviter votre comptable externe à votre expérience Dynamics 365](finance-invite-external-accountant.md)  
 ## [Familiarisation avec les écritures comptables et les COA](finance-general-ledger.md)
 ## [Utilisation des axes analytiques](finance-dimensions.md)
-## [Procédure : créer des budgets](finance-how-create-budgets.md)
+## [Procédure : créer des budgets comptabilité](finance-how-create-budgets.md)
 ## [Procédure : Valider les transactions directement vers la comptabilité](finance-how-post-transactions-directly.md)
 ## [Procédure : inversion d'une validation](finance-how-reverse-journal-posting.md)
 ## [Procédure : ventiler des coûts et des bénéfices](year-allocate-costs-income.md)

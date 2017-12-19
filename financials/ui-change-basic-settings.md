@@ -13,10 +13,10 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b486061fbb497019a56eda803df0b320565ea7bf
+ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.openlocfilehash: dde3ad30e76c02f58bd31afaa74b81031857462b
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="changing-basic-settings"></a>Modification des paramètres de base
@@ -51,7 +51,7 @@ La date de travail par défaut est généralement la date du jour. Vous pouvez �
 ## <a name="region"></a>Région
 Le paramètre **Région** détermine la manière dont les dates, heures, nombres et devises sont affichés ou mis en forme.   
 
-## <a name="change-when-i-receive-notifications"></a>Modifier lorsque je reçois des notifications
+## <a name="changing-when-i-receive-notifications"></a>Modification lorsque je reçois des notifications
 Sélectionnez ce lien pour afficher ou modifier les notifications que vous recevez au sujet de certains événements ou modification de statut, lorsque vous êtes sur le point de facturer un client avec des écritures échues, ou lorsque le stock disponible est inférieur à la quantité que vous êtes sur le point de vendre. Pour plus d'informations, voir [Notifications intelligentes](ui-smart-notifications.md).
 
 ## <a name="see-also"></a>Voir aussi

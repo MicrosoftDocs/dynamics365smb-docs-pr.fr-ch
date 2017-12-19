@@ -11,16 +11,16 @@ ms.search.keywords: undo, credit memo, return
 ms.date: 09/08/2016
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 46908fb1ae2e0281e730a03e2bcad6e79704d22e
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 33a1c64886fc7b16cddd67ad175539c96f8d48d6
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-process-sales-returns-or-cancellations"></a>Procédure : traiter les retours ou annulations de ventes
 Si votre client souhaite retourner des articles ou obtenir un remboursement pour des articles, ou encore annuler des services, que vous lui avez vendus et pour lesquels vous avez reçu un paiement, vous devez créer et valider un avoir vente qui indique la modification demandée. Pour inclure les informations de facture vente correctes, vous pouvez créer l'avoir vente à partir de la facture vente enregistrée ou vous pouvez créer un avoir vente avec les informations copiées de la facture.
 
-Si vous souhaitez davantage de contrôle sur le processus de retour vente, par exemple les documents entrepôt pour la manutention des articles ou une meilleure vue d'ensemble lors du retour d'articles à partir de plusieurs documents vente avec un retour, vous pouvez créer des retours vente. Un retour vente émet automatiquement l'avoir vente associé et les autres documents relatifs au retour, comme une commande vente de remplacement, le cas échéant. Pour plus d'informations, voir la section « Créer un retour vente à partir d'un ou plusieurs documents vente validés ».
+Si vous souhaitez davantage de contrôle sur le processus de retour vente, par exemple les documents entrepôt pour la manutention des articles ou une meilleure vue d'ensemble lors de la réception d'articles à partir de plusieurs documents vente avec un retour vente, vous pouvez créer des retours vente. Un retour vente émet automatiquement l'avoir vente associé et les autres documents relatifs au retour, comme une commande vente de remplacement, le cas échéant. Pour plus d'informations, voir la section « Créer un retour vente à partir d'un ou plusieurs documents vente validés ».
 
 > [!NOTE]  
 >   Si une facture vente validée n'a pas encore été payée, vous pouvez utiliser les fonctions **Corriger** ou **Annuler** sur la facture vente validée pour contrepasser automatiquement les transactions associées. Ces fonctions ne fonctionnent que pour les factures impayées, elles ne prennent pas en charge des retours partiels ou les annulations. Pour plus d'informations, reportez-vous à [Procédure : corriger ou annuler des factures vente impayées](sales-how-correct-cancel-sales-invoice.md).

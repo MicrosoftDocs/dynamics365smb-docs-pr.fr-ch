@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 0f2f91a9813b07b0868043a4a2a3ed0b3f838536
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 902c98c126ff23659cb103e8eaf351c144b76ea9
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>Procédure de configuration et de publication des services Web KPI sur la base de tableaux d'analyse
@@ -49,8 +49,8 @@ La fenêtre **Tableau d'analyse - Paramètres du service web KPI** vous permet d
 6.  Pour afficher les informations KPI du tableau d'analyse que vous avez définies, choisissez l'action **Tableau d'analyse - Paramètres du service web KPI**.  
 7.  Pour publier le service Web KPI du tableau d'analyse, choisissez l'action **Publier le service web**. Le service Web est ajouté à la liste des services Web publiés dans la fenêtre **Web Services**.  
 
-    > [!NOTE]  
-    >  V-us pouvez également publier le service Web KPI en pointant vers l'objet de page **Tableau d'analyse\-Paramètres du service web KPI** à partir de la fenêtre**Services web**. Pour plus d'informations, voir [Procédure : publication d'un service web](https://msdn.microsoft.com/en-us/library/dd338978.aspx) sur MSDN.  
+> [!NOTE]  
+>  V-us pouvez également publier le service Web KPI en pointant vers l'objet de page **Tableau d'analyse\-Paramètres du service web KPI** à partir de la fenêtre**Services web**. Pour plus d'informations, voir [Procédure : publication d'un service web](across-how-publish-web-service.md).  
 
 ## <a name="see-also"></a>Voir aussi  
 [Veille économique](bi.md)  

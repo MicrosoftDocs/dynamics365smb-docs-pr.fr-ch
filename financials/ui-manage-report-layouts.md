@@ -13,10 +13,10 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 445172287ae09032ff53e02d0e64dc967456a7bb
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 34a25ed48ff16971120b272421560bf1416af60f
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="managing-report-and-document-layouts"></a>Gestion des présentations de rapport et de document
@@ -42,7 +42,7 @@ Une présentation de rapport Word est basé sur un document Word (type de fichie
  ![Exemple de document de présentation de rapport Word pour NAV](media/nav_wordreportlayout_edit_in_word_example.png "NAV_WordReportLayout_Edit_In_Word_Example")  
 
 ## <a name="rdlc-layout-overview"></a>Aperçu de la présentation RDLC
-Les présentations RDLC sont basées sur les présentations de définition de rapport client (types de fichier .rdlc or .rdl). Ces présentations sont créées et modifiées à l'aide du Générateur de rapports SQL Server. Le concept des présentations RDLC est similaire à celui des présentations Word, où la présentation définit le format général de l'état et détermine les champs de l'ensemble de données à inclure. La création de présentations RDLC est plus avancée que les présentations Word. Pour plus d'informations, voir [Création de présentations de rapport RDLC](https://msdn.microsoft.com/en-us/dynamics-nav/designing-rdlc-report-layouts).
+Les présentations RDLC sont basées sur les présentations de définition de rapport client (types de fichier .rdlc or .rdl). Ces présentations sont créées et modifiées à l'aide du Générateur de rapports SQL Server. Le concept des présentations RDLC est similaire à celui des présentations Word, où la présentation définit le format général de l'état et détermine les champs de l'ensemble de données à inclure. La création de présentations RDLC est plus avancée que les présentations Word. Pour plus d'informations, voir [Création de présentations de rapport RDLC](/dynamics-nav/Designing-RDLC-Report-Layouts).
 
 ## <a name="built-in-and-custom-report-layouts"></a>Présentations d'état intégrées et personnalisées
 [!INCLUDE[d365fin](includes/d365fin_md.md)] inclut plusieurs présentations intégrées. Les présentations intégrées sont des présentations prédéfinies conçues pour des états spécifiques. [!INCLUDE[d365fin](includes/d365fin_md.md)]les états comportent une présentation intégrée, RDLC, Word et parfois les deux. Vous ne pouvez pas modifier une présentation d'état intégrée à [!INCLUDE[d365fin](includes/d365fin_md.md)], mais vous pouvez les utilisez comme point de départ pour l'élaboration de vos propres présentations d'état personnalisées.

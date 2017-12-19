@@ -13,10 +13,10 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 08/11/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 192efcf377f6f6d665c775b24aa715aadd50922f
+ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.openlocfilehash: 42c23ca4a15a7242985902b7e95f9d96facdd2c2
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-work-with-account-schedules"></a>Procédure : Utilisation des tableaux d'analyse
@@ -24,7 +24,7 @@ Utilisez les tableaux d'analyse pour obtenir un aperçu des données financière
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] fournit des exemples de tableaux d'analyse que vous pouvez utiliser immédiatement, vous pouvez sinon configurer vos propres lignes et colonnes pour spécifier les chiffres à comparer. Par exemple, vous pouvez créer des tableaux d'analyse pour calculer les marges bénéficiaires dans des axes tels que les départements ou les groupes de clients. Vous pouvez créer autant d'états financiers personnalisés que vous le souhaitez.  
 
-La configuration de tableaux d'analyse exige une compréhension des données financières du plan comptable. Par exemple, vous pouvez afficher les écritures comptables en tant que pourcentages des écritures budget. Cela suppose que les budgets sont créés. Pour plus d'informations, voir [Procédure : Créer des budgets](finance-how-create-budgets.md).
+La configuration de tableaux d'analyse exige une compréhension des données financières du plan comptable. Par exemple, vous pouvez afficher les écritures comptables en tant que pourcentages des écritures budget. Cela suppose que les budgets sont créés. Pour plus d'informations, voir [Procédure : Créer des budgets comptabilité](finance-how-create-budgets.md).
 
 > [!NOTE]  
 >   Cette fonctionnalité nécessite que votre expérience soit définie sur **Suite**. Pour plus d'informations, voir [Personnalisation de votre expérience [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).

@@ -13,16 +13,16 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 86cb193e6a86caef01f57671af2ecd54a2c4a271
+ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.openlocfilehash: 473c21085c54c7f97f34404eeb18683cf4479e41
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="using-dynamics-365-for-finance-and-operations-business-edition-as-your-business-inbox-in-outlook"></a>Utilisation de Dynamics 365 for Finance and Operations, Business edition en tant que boîte de réception professionnelle dans Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] vous permet désormais de gérer les interactions commerciales avec vos clients et fournisseurs, directement dans Microsoft Outlook. Avec le complément Outlook de [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez afficher des informations financières associées à des clients et des fournisseurs, ainsi que créer et envoyer des documents financiers, comme des devis et des factures.  
 
-## <a name="get-the-add-in"></a>Obtenir le complément
+## <a name="getting-the-add-in"></a>Obtention du complément
 Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], l'une des étapes de la configuration assistée de mise en route s'effectue dans la fenêtre **Dirigez votre entreprise dans Office 365**. Dans cette fenêtre, lorsque vous cliquez sur le bouton **Configurer dans Outlook**, vous devez spécifier votre nom utilisateur et mot de passe Office 365. Le complément [!INCLUDE[d365fin](includes/d365fin_md.md)] est alors automatiquement ajouté à votre Outlook.  
 
 Ensuite, lorsque vous ouvrez Outlook, vous voyez des messages électroniques dans Dynamics 365 Admin. Le nouveau complément est ajouté au ruban Outlook, et dans Outlook Web Access il apparaît dans le ruban des compléments, situé juste au-dessus du corps du message. Le complément lui-même est mis à jour régulièrement, et vous êtes informé qu'une nouvelle version est prête dans Outlook.  
@@ -39,10 +39,10 @@ De même, si vous recevez un e-mail d'un fournisseur, vous pouvez utiliser le co
 
 Il arrive parfois que vous souhaitiez visualiser davantage de champs que ceux qui s'affichent dans le complément, par exemple si vous souhaitez renseigner des lignes dans une facture. Afin de vous bénéficier d'un espace de travail plus important, vous pouvez ouvrir le complément dans une fenêtre distincte. Il s'agit toujours d'Outlook, mais vous disposez de davantage d'espace. Au fur et à mesure que vous saisissez des données pour le document dans l'affichage contextuel, les modifications sont automatiquement enregistrées. Lorsque vous avez terminé de saisir les données pour le document, vous pouvez cliquer sur le bouton **OK**. Sélectionner le cadre du complément dans Outlook actualise automatiquement le document avec les modifications que vous avez effectuées dans l'affichage contextuel.  
 
-## <a name="create-invoices-from-your-meeting-appointments"></a>Créer des factures à partir de vos rendez-vous de réunion
+## <a name="creating-invoices-from-your-meeting-appointments"></a>Création de factures à partir de vos rendez-vous de réunion
 Certaines sociétés enregistrent tous les rendez-vous facturables dans le calendrier Outlook. Avec [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez créer la facture du client directement à partir de l'article calendrier : ouvrez le rendez-vous, puis vous pouvez ouvrir le complément [!INCLUDE[d365fin](includes/d365fin_md.md)], rechercher des informations existantes ou créer une facture ou un autre document vente directement ici.  
 
-## <a name="quick-document-lookup"></a>Recherche rapide de document
+## <a name="doing-quick-document-lookup"></a>Recherche rapide de document
 Le complément Liens de document de [!INCLUDE[d365fin](includes/d365fin_md.md)] vous permet d'accéder rapidement aux documents mentionnés dans les e-mails. Le complément est disponible pour un e-mail si un numéro de document est identifié dans le corps du message. Ouvrir le complément vous permet d'accéder rapidement à ce document.  
 
 Par exemple, si vous recevez un e-mail qui mentionne le texte *S-QUO100*, [!INCLUDE[d365fin](includes/d365fin_md.md)] l'identifie comme un devis et vous pouvez donc ouvrir ce document dans Outlook. Dans Outlook, cliquez sur le bouton **Liens de document** situé juste au-dessus du corps du message. Dans Outlook Web App, sélectionnez le texte *S-QUO1001* dans le corps du message.  

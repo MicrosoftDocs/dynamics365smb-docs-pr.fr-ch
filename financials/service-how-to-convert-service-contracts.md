@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 2f62bbae71eac1c0d63df5e352601c0885274066
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 148a566473e4964db3cbc6ee266eccb6b6c6aaa7
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-convert-service-contracts-that-include-vat-amounts"></a>Procédure : convertir les contrats de service incluant des montants TVA

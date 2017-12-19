@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 06/28/2017
+ms.date: 11/17/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
-ms.openlocfilehash: c8766d42b579397e63676c1d46fb8a03cbe24aae
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 6cd7b9922f047d05a2cc37a9157de47221f67a7f
 ms.contentlocale: fr-ch
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="making-payments"></a>Effectuer des paiements
@@ -38,7 +38,8 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | Émettre des chèques pour les paiements fournisseur, sous forme de documents imprimés ou de chèques informatiques. Annuler des chèques avant ou après la validation. |[Procédure : utilisation des chèques](payables-how-work-checks.md) |
 | Payez le fournisseur en liquide ou par chèque et validez le paiement lorsque vous validez la facture. |[Procédure : établir rapidement des factures achat](finance-how-to-settle-purchase-invoices-promptly.md) |
 | Assurez-vous que la banque efface uniquement les chèques et les montants validés en envoyant un fichier contenant des informations de paiement, du chèque et du fournisseur. |[Procédure : exporter des fichiers Positive Pay](finance-how-positive-pay.md) |
-|Exporter des paiements à partir de la fenêtre **Feuille paiement** vers un fichier bancaire que vous téléchargez vers votre banque pour traitement, y compris un transfert électronique de fond (EFT) en Amérique du Nord. |[Procédure : exportation de paiements vers un fichier bancaire](payables-how-export-payments-bank-file.md)|  
+|Exporter des paiements à partir de la fenêtre **Feuille paiement** vers un fichier bancaire que vous téléchargez vers votre banque pour traitement, y compris un transfert électronique de fond (EFT) en Amérique du Nord. |[Procédure : exportation de paiements vers un fichier bancaire](payables-how-export-payments-bank-file.md)|
+|Effectuer des paiements électroniques conformément à la norme de virement SEPA de l'UE.|[Exécution de paiements avec le service de conversion de données bancaires ou un virement SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|    
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion des comptes fournisseur](payables-manage-payables.md)  

@@ -13,16 +13,16 @@ ms.search.keywords: cancel, undo, correct
 ms.date: 08/03/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: fa964bd7ef61454892a574c04db890b32ab338c1
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 114448607d8b99252573912d2df08f91e1d27c76
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-process-purchase-returns-or-cancellations"></a>Procédure : traiter les retours ou annulations d'achats
 Si vous souhaitez retourner des articles à votre fournisseur ou annuler des services que vous avez achetés, vous pouvez créer et valider un avoir achat qui indique la modification demandée par rapport à la facture achat d'origine. Pour inclure les informations de facture achat correctes, vous pouvez créer l'avoir achat à partir de la facture achat enregistrée ou vous pouvez créer un avoir achat avec les informations copiées de la facture.
 
-Si vous souhaitez davantage de contrôle sur le processus de retour achat, par exemple les documents entrepôt pour la manutention des articles ou une meilleure vue d'ensemble lors de la réception d'articles retournés à partir de plusieurs documents achat avec un retour, vous pouvez créer des retours achat. Un retour achat émet automatiquement l'avoir achat associé. Pour plus d'informations, voir la section « Créer un retour achat à partir d'un ou plusieurs documents achat validés ».
+Si vous souhaitez davantage de contrôle sur le processus de retour achat, par exemple les documents entrepôt pour la manutention des articles ou une meilleure vue d'ensemble lors de la réexpédition d'articles à partir de plusieurs documents achat avec un retour achat, vous pouvez créer des retours achat. Un retour achat émet automatiquement l'avoir achat associé. Pour plus d'informations, voir la section « Créer un retour achat à partir d'un ou plusieurs documents achat validés ».
 
 > [!NOTE]  
 >   Si une facture achat validée n'a pas encore été payée, vous pouvez utiliser les fonctions de **Corriger** ou **Annuler** sur la facture achat validée pour contrepasser automatiquement les transactions associées. Ces fonctions ne fonctionnent que pour les factures impayées, elles ne prennent pas en charge des retours partiels ou les annulations. Pour plus d'informations, reportez-vous à [Procédure : corriger ou annuler des factures achat impayées](purchasing-how-correct-cancel-unpaid-purchase-invoices.md).

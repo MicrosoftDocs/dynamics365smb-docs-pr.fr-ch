@@ -12,13 +12,13 @@ ms.search.keywords: user log, user activity, tracking
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: b64a17e69e5112ec0ff822bbacc8ec2772a21231
+ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.openlocfilehash: 9f3db97203e09608ea0776f5571d6179778283b6
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
-# <a name="logging-changes-in-dynamics-365-business-edition"></a>Journalisation des modifications dans Dynamics 365 Business edition 
+# <a name="logging-changes-in-dynamics-365-business-edition"></a>Journalisation des modifications dans Dynamics 365, Business edition 
 Vous pouvez activer le journal des modifications dans [!INCLUDE[d365fin](includes/d365fin_md.md)] afin d'avoir un historique des activités. Le journal est basé sur les modifications apportées aux données dans les tableaux que vous suivez. Dans le journal des modifications, les entrées sont chronologiquement ordonnées et montrent les modifications apportées aux champs des tables spécifiées. Le journal modification regroupe tous les changements apportés à la table.  
 
 ## <a name="working-with-the-change-log"></a>Utilisation du journal des modifications

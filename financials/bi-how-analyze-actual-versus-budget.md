@@ -10,24 +10,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 06/01/2017
+ms.date: 12/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 126c8da9b9ef80e954510fa8e5089906d7dd6f01
+ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.openlocfilehash: e76d590476b1236bf1d82a7f5e4f502ffdd9d02d
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-analyze-actual-amounts-versus-budgeted-amounts"></a>Procédure : analyser les montants réalisés et les montants budgétés
 Lors de la collecte, l'analyse, et le partage des données de votre société, vous voyez les montants réels comparés aux montants budgétés de tous les comptes et pour plusieurs périodes.
 
-Pour analyser les montants budgétés, vous devez d'abord créer des budgets. Pour plus d'informations, voir [Procédure : Créer des budgets](finance-how-create-budgets.md).
+Pour analyser les montants budgétés, vous devez d'abord créer des budgets comptabilité. Pour plus d'informations, voir [Procédure : Créer des budgets comptabilité](finance-how-create-budgets.md).
 
 > [!NOTE]  
 >   Cette fonctionnalité nécessite que votre expérience soit définie sur **Suite**. Pour plus d'informations, voir [Personnalisation de votre expérience [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
 
-## <a name="to-view-a-budget"></a>Pour visualiser un budget
+## <a name="to-view-a-gl-budget"></a>Pour visualiser un budget comptabilité
 Dans un budget doté d'axes, vous pouvez filtrer les écritures et visualiser des budgets spécifiques.
 
 1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Budgets**, puis choisissez le lien associé.
@@ -68,8 +68,8 @@ Au lieu de visualiser les montants budgétés et réalisés de tous les comptes 
 4. Pour voir le détail d'un montant affiché, sélectionnez ce champ.  
 
 ## <a name="see-also"></a>Voir aussi
-[Veille économique](bi.md)
-[Procédure : Utiliser des tableaux d'analyse](bi-how-work-account-schedule.md)  
+[Veille économique](bi.md)  
+[Procédure : Utilisation des tableaux d'analyse](bi-how-work-account-schedule.md)  
 [Finances](finance.md)  
 [Configuration de Finance](finance-setup-finance.md)  
 [Les écritures comptables et le plan comptable](finance-general-ledger.md)  

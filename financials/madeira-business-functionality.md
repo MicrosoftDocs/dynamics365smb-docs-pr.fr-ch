@@ -1,5 +1,5 @@
 ---
-title: "Fonctionnalité d'entreprise prise en charge par Dynamics 365 Business edition | Microsoft Docs"
+title: "Fonctionnalités d'entreprise prises en charge par Dynamics 365, Business edition | Microsoft Docs"
 Description: Provides a feature overview of all the business functions and departments that are supported by application areas, such as Finance, Inventory, and Project Management.
 services: project-madeira
 documentationcenter: 
@@ -13,14 +13,14 @@ ms.search.keywords: feature overview
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: f71c19abdc225b92a76a98992a2e3d78769b6dc5
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 3b68f53f2ca2f1553b0d19a617ae58b25f29acdb
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
-# <a name="overview-of-business-functionality-in-dynamics-365-for-finance-and-operations-business-edition"></a>Présentation de la fonctionnalité d'entreprise dans Dynamics 365 for Finance and Operations, Business edition
-[!INCLUDE[d365fin](includes/d365fin_md.md)] fournit des fonctionnalités pour les processus entreprise communs dans des PME, surtout au sein de sociétés de vente en gros et de services professionnels.
+# <a name="business-functionality"></a>Fonctionnalités d'entreprise
+[!INCLUDE[d365fin](includes/d365fin_md.md)] fournit des fonctionnalités pour les processus entreprise communs dans des PME, surtout au sein de sociétés de vente en gros et de services professionnels. Toutefois, des processus plus complexes, comme l'assemblage, la fabrication, la maintenance et la gestion d'entrepôt suggérée sont également pris en charge. 
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] comprend des configurations standard pour la plupart des processus entreprise, mais vous pouvez modifier la configuration pour l'adapter aux besoins de votre activité. À partir de votre page d'accueil, vous pouvez accéder aux guides de configuration assistée qui vous permettent de configurer certains scénarios et d'ajouter des fonctionnalités à [!INCLUDE[d365fin](includes/d365fin_md.md)]. Plusieurs modules de fonctionnalités d'entreprise doivent être créés manuellement. Pour plus d'informations, reportez-vous à [Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
