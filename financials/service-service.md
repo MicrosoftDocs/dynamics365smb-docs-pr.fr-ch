@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: 066a2857532f062c6dcfe6deccc27423c1431b74
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: eb04273e3e4f28d33e4fe99627ed4fbc44942aa0
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 02/02/2018
 
 ---
 # <a name="service-management"></a><span data-ttu-id="22a26-103">Gestion des services</span><span class="sxs-lookup"><span data-stu-id="22a26-103">Service Management</span></span>
@@ -46,4 +46,7 @@ ms.lasthandoff: 09/27/2017
 <span data-ttu-id="22a26-126">[Gestion des comptes client](receivables-manage-receivables.md) </span><span class="sxs-lookup"><span data-stu-id="22a26-126">[Managing Receivables](receivables-manage-receivables.md) </span></span>  
 <span data-ttu-id="22a26-127">[Projets](projects-how-create-jobs.md) </span><span class="sxs-lookup"><span data-stu-id="22a26-127">[Jobs](projects-how-create-jobs.md) </span></span>  
 <span data-ttu-id="22a26-128">[Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)</span><span class="sxs-lookup"><span data-stu-id="22a26-128">[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] ](index.md)</span></span>
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 
