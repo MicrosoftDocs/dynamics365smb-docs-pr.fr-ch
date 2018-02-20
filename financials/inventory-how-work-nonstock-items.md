@@ -12,61 +12,61 @@ ms.search.keywords: non-inventoriable
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b9256944295880d6ec9dad916eb9632b9d5f7c20
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2969b3168f063e636455dd67457c01ed89a0727d
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# Procédure : utiliser des articles non stockés
-Vous pouvez proposer certains articles à vos clients pour leur rendre service, que vous ne souhaitez pas conserver en stock tant que vous ne commencez pas à les commercialiser. Lorsque vous souhaitez commencer à maintenir de tels articles en stock, vous pouvez les convertir en fiches article normales de deux façons.
+# <a name="work-with-nonstock-items"></a><span data-ttu-id="07241-103">Utiliser des articles non stockés</span><span class="sxs-lookup"><span data-stu-id="07241-103">Work with Nonstock Items</span></span>
+<span data-ttu-id="07241-104">Vous pouvez proposer certains articles à vos clients pour leur rendre service, que vous ne souhaitez pas conserver en stock tant que vous ne commencez pas à les commercialiser.</span><span class="sxs-lookup"><span data-stu-id="07241-104">You can offer certain items to your customers for their convenience, which you do not want to maintain in inventory until you start selling them.</span></span> <span data-ttu-id="07241-105">Lorsque vous souhaitez commencer à maintenir de tels articles en stock, vous pouvez les convertir en fiches article normales de deux façons.</span><span class="sxs-lookup"><span data-stu-id="07241-105">When you want to start maintaining such items in inventory, you can convert them to normal item cards in two ways.</span></span>
 
-* Depuis une fiche article non stocké, créez une nouvelle fiche article basée sur un modèle.
-* Depuis une ligne commande vente de type **Article** avec un champ **N°* vide, sélectionnez un article non stocké. Une fiche article est automatiquement créée pour l'article non stocké.
-
-> [!NOTE]  
->   Vous ne pouvez pas sélectionner d'article non stocké à partir de la fenêtre **Facture vente**. Vous pouvez sélectionner un article non stocké à partir de la fenêtre **Devis**, mais l'article non stocké ne sera pas converti en un article normal lorsque vous utilisez la fonction **Créer commande**.
-
-Un article non stocké a généralement le numéro d'article du fournisseur qui le fournit. Pour activer la conversion d'une fiche article non stocké en une fiche article normale, vous devez tout d'abord configurer comment la numérotation de l'article fournisseur est convertie dans votre propre numérotation d'article.   
-
-## Pour créer un article non stocké
-Les fiches article non stocké ont moins d'informations que les fiches article normales, car vous ne les utilisez que pour proposer des devis ainsi que pour d'autres procédures. Pour cette raison, elles doivent être converties en fiches article normales, avant que vous puissiez valider les transactions commerciales pour elles.
-
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Articles non stockés**, puis sélectionnez le lien connexe.
-2. Sélectionnez l'action **Nouveau**.
-3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-## Pour configurer comment les numéros d'article non stocké sont convertis en votre propre numérotation
-Pour activer la conversion d'une fiche article non stocké en une fiche article normale, vous devez tout d'abord configurer comment la numérotation de l'article fournisseur est convertie dans votre propre format de numérotation d'article.
-
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Paramètres art. non stockés**, puis sélectionnez le lien connexe.
-2. Renseignez les champs selon vos besoins.
-
-## Pour convertir un article non stocké en un article normal
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Articles non stockés**, puis sélectionnez le lien connexe.
-2. Ouvrez la fiche pour un article non stocké que vous pouvez convertir en un article normal.
-3. Dans la fenêtre **Fiche article non stocké**, sélectionnez l'action **Créer un article**.
-
-Une nouvelle fiche article pré-remplie avec les informations de l'article non stocké ainsi qu'un modèle d'article pertinent sont créés. Vous pouvez ensuite remplir ou modifier les champs sur la nouvelle fiche article, le cas échéant. Pour plus d'informations, reportez vous à [Procédure : enregistrer de nouveaux articles](inventory-how-register-new-items.md).
-
-## Pour vendre un article non stocké et le convertir en article normal
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Commandes vente**, puis sélectionnez le lien connexe.
-2. Sélectionnez l'action **Nouveau**. Complétez les champs du raccourci **Général** comme pour toute commande vente. Pour en savoir plus, voir [Procédure : vendre des produits](sales-how-sell-products.md).
-3. Sur une nouvelle ligne vente, dans le champ **Type**, sélectionnez **Article**, mais laissez le champ **N°** vide.
-4. Choisissez l'action **Ligne**, puis l'action **Sélectionner articles non stockés**.
-
-    L'article non stocké est converti en un article normal. Une nouvelle fiche article pré-remplie avec les informations de l'article non stocké ainsi qu'un modèle d'article pertinent sont créés.
-5. Dans la fenêtre **Articles non stockés**, sélectionnez l'article non stocké que vous souhaitez vendre, puis choisissez le bouton **OK**.
-6. Lorsque les lignes commande vente sont renseignées, sélectionnez l'action **Valider**.
-
-Vous pouvez ensuite remplir ou modifier les champs sur la nouvelle fiche article, le cas échéant. Pour plus d'informations, reportez vous à [Procédure : enregistrer de nouveaux articles](inventory-how-register-new-items.md).
+* <span data-ttu-id="07241-106">Depuis une fiche article non stocké, créez une nouvelle fiche article basée sur un modèle.</span><span class="sxs-lookup"><span data-stu-id="07241-106">From a nonstock item card, create a new item card based on a template.</span></span>
+* <span data-ttu-id="07241-107">Depuis une ligne commande vente de type **Article** avec un champ \**N°* vide, sélectionnez un article non stocké.</span><span class="sxs-lookup"><span data-stu-id="07241-107">From a sales order line of type **Item** with an empty \**No* field, select a nonstock item.</span></span> <span data-ttu-id="07241-108">Une fiche article est automatiquement créée pour l'article non stocké.</span><span class="sxs-lookup"><span data-stu-id="07241-108">An item card is automatically created for the nonstock item.</span></span>
 
 > [!NOTE]  
->   Un enregistrement de référence externe article est automatiquement créé pour le fournisseur de l'article entre le numéro article fournisseur et votre nouveau numéro article.
+>   <span data-ttu-id="07241-109">Vous ne pouvez pas sélectionner d'article non stocké à partir de la fenêtre **Facture vente**.</span><span class="sxs-lookup"><span data-stu-id="07241-109">You cannot select a nonstock item from the **Sales Invoice** window.</span></span> <span data-ttu-id="07241-110">Vous pouvez sélectionner un article non stocké à partir de la fenêtre **Devis**, mais l'article non stocké ne sera pas converti en un article normal lorsque vous utilisez la fonction **Créer commande**.</span><span class="sxs-lookup"><span data-stu-id="07241-110">You can select a nonstock item from the **Sales Quote** window, but the nonstock item will not be converted to a normal item when you use the **Make Order** function.</span></span>
 
-## Voir aussi
-[Procédure : enregistrer de nouveaux articles](inventory-how-register-new-items.md)  
-[Procédure : créer des commandes spéciales](sales-how-to-create-special-orders.md)|  
-[STOCKS ET EN-COURS](inventory-manage-inventory.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+<span data-ttu-id="07241-111">Un article non stocké a généralement le numéro d'article du fournisseur qui le fournit.</span><span class="sxs-lookup"><span data-stu-id="07241-111">A nonstock item typically has the item number of the vendor who supplies it.</span></span> <span data-ttu-id="07241-112">Pour activer la conversion d'une fiche article non stocké en une fiche article normale, vous devez tout d'abord configurer comment la numérotation de l'article fournisseur est convertie dans votre propre numérotation d'article.</span><span class="sxs-lookup"><span data-stu-id="07241-112">To enable conversion of a nonstock item card to a normal item card, you must first set up how vendor item numbering is converted to your own item numbering.</span></span>   
+
+## <a name="to-create-a-nonstock-item"></a><span data-ttu-id="07241-113">Pour créer un article non stocké</span><span class="sxs-lookup"><span data-stu-id="07241-113">To create a nonstock item</span></span>
+<span data-ttu-id="07241-114">Les fiches article non stocké ont moins d'informations que les fiches article normales, car vous ne les utilisez que pour proposer des devis ainsi que pour d'autres procédures.</span><span class="sxs-lookup"><span data-stu-id="07241-114">Nonstock item cards have much less information than normal item cards because you only use them to offer on quotes and in other ways.</span></span> <span data-ttu-id="07241-115">Pour cette raison, elles doivent être converties en fiches article normales, avant que vous puissiez valider les transactions commerciales pour elles.</span><span class="sxs-lookup"><span data-stu-id="07241-115">For that reason, they must be converted to normal item cards before you can post sales transactions for them.</span></span>
+
+1. <span data-ttu-id="07241-116">Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Articles non stockés**, puis sélectionnez le lien connexe.</span><span class="sxs-lookup"><span data-stu-id="07241-116">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Nonstock Items**, and then choose the related link.</span></span>
+2. <span data-ttu-id="07241-117">Sélectionnez l'action **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="07241-117">Choose the **New** action.</span></span>
+3. <span data-ttu-id="07241-118">Renseignez les champs selon vos besoins.</span><span class="sxs-lookup"><span data-stu-id="07241-118">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+## <a name="to-set-up-how-nonstock-item-numbers-are-converted-to-your-own-numbering"></a><span data-ttu-id="07241-119">Pour configurer comment les numéros d'article non stocké sont convertis en votre propre numérotation</span><span class="sxs-lookup"><span data-stu-id="07241-119">To set up how nonstock item numbers are converted to your own numbering</span></span>
+<span data-ttu-id="07241-120">Pour activer la conversion d'une fiche article non stocké en une fiche article normale, vous devez tout d'abord configurer comment la numérotation de l'article fournisseur est convertie dans votre propre format de numérotation d'article.</span><span class="sxs-lookup"><span data-stu-id="07241-120">To enable conversion of a nonstock item card to a normal item card, you must first set up how the vendor's item numbering is converted to your own item number format.</span></span>
+
+1. <span data-ttu-id="07241-121">Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Paramètres art. non stockés**, puis sélectionnez le lien connexe.</span><span class="sxs-lookup"><span data-stu-id="07241-121">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Nonstock Item Setup**, and then choose the related link.</span></span>
+2. <span data-ttu-id="07241-122">Renseignez les champs selon vos besoins.</span><span class="sxs-lookup"><span data-stu-id="07241-122">Fill in the fields as necessary.</span></span>
+
+## <a name="to-convert-a-nonstock-item-to-a-normal-item"></a><span data-ttu-id="07241-123">Pour convertir un article non stocké en un article normal</span><span class="sxs-lookup"><span data-stu-id="07241-123">To convert a nonstock item to a normal item</span></span>
+1. <span data-ttu-id="07241-124">Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Articles non stockés**, puis sélectionnez le lien connexe.</span><span class="sxs-lookup"><span data-stu-id="07241-124">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Nonstock Items**, and then choose the related link.</span></span>
+2. <span data-ttu-id="07241-125">Ouvrez la fiche pour un article non stocké que vous pouvez convertir en un article normal.</span><span class="sxs-lookup"><span data-stu-id="07241-125">Open the card for a nonstock item that you want to convert to a normal item.</span></span>
+3. <span data-ttu-id="07241-126">Dans la fenêtre **Fiche article non stocké**, sélectionnez l'action **Créer un article**.</span><span class="sxs-lookup"><span data-stu-id="07241-126">In the **Nonstock Item Card** window, choose the **Create Item** action.</span></span>
+
+<span data-ttu-id="07241-127">Une nouvelle fiche article pré-remplie avec les informations de l'article non stocké ainsi qu'un modèle d'article pertinent sont créés.</span><span class="sxs-lookup"><span data-stu-id="07241-127">A new item card prefilled with information from the nonstock item and a relevant item template is created.</span></span> <span data-ttu-id="07241-128">Vous pouvez ensuite remplir ou modifier les champs sur la nouvelle fiche article, le cas échéant.</span><span class="sxs-lookup"><span data-stu-id="07241-128">You can then fill or edit fields on the new item card as necessary.</span></span> <span data-ttu-id="07241-129">Pour plus d'informations, reportez vous à [Enregistrer de nouveaux articles](inventory-how-register-new-items.md).</span><span class="sxs-lookup"><span data-stu-id="07241-129">For more information, see [Register New Items](inventory-how-register-new-items.md).</span></span>
+
+## <a name="to-sell-a-nonstock-item-and-convert-it-to-a-normal-item"></a><span data-ttu-id="07241-130">Pour vendre un article non stocké et le convertir en article normal</span><span class="sxs-lookup"><span data-stu-id="07241-130">To sell a nonstock item, and convert it to a normal item</span></span>
+1. <span data-ttu-id="07241-131">Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Commandes vente**, puis sélectionnez le lien connexe.</span><span class="sxs-lookup"><span data-stu-id="07241-131">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link.</span></span>
+2. <span data-ttu-id="07241-132">Sélectionnez l'action **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="07241-132">Choose the **New** action.</span></span> <span data-ttu-id="07241-133">Complétez les champs du raccourci **Général** comme pour toute commande vente.</span><span class="sxs-lookup"><span data-stu-id="07241-133">Fill in the fields on the **General** FastTab as for any sales order.</span></span> <span data-ttu-id="07241-134">Pour en savoir plus, voir [Vendre des produits](sales-how-sell-products.md).</span><span class="sxs-lookup"><span data-stu-id="07241-134">For more information, see [Sell Products](sales-how-sell-products.md).</span></span>
+3. <span data-ttu-id="07241-135">Sur une nouvelle ligne vente, dans le champ **Type**, sélectionnez **Article**, mais laissez le champ **N°**</span><span class="sxs-lookup"><span data-stu-id="07241-135">On a new sales line, in the **Type** field, select **Item**, but leave the **No.**</span></span> <span data-ttu-id="07241-136">vide.</span><span class="sxs-lookup"><span data-stu-id="07241-136">field empty.</span></span>
+4. <span data-ttu-id="07241-137">Choisissez l'action **Ligne**, puis l'action **Sélectionner articles non stockés**.</span><span class="sxs-lookup"><span data-stu-id="07241-137">Choose the **Line** action, and then choose the **Select Nonstock Items** action.</span></span>
+
+    <span data-ttu-id="07241-138">L'article non stocké est converti en un article normal.</span><span class="sxs-lookup"><span data-stu-id="07241-138">The nonstock item is converted to a normal item.</span></span> <span data-ttu-id="07241-139">Une nouvelle fiche article pré-remplie avec les informations de l'article non stocké ainsi qu'un modèle d'article pertinent sont créés.</span><span class="sxs-lookup"><span data-stu-id="07241-139">A new item card prefilled with information from the nonstock item and a relevant item template is created.</span></span>
+5. <span data-ttu-id="07241-140">Dans la fenêtre **Articles non stockés**, sélectionnez l'article non stocké que vous souhaitez vendre, puis choisissez le bouton **OK**.</span><span class="sxs-lookup"><span data-stu-id="07241-140">In the **Nonstock Items** window, select the nonstock item that you want to sell, and then choose the **OK** button.</span></span>
+6. <span data-ttu-id="07241-141">Lorsque les lignes commande vente sont renseignées, sélectionnez l'action **Valider**.</span><span class="sxs-lookup"><span data-stu-id="07241-141">When the sales order is complete, choose the **Post** action.</span></span>
+
+<span data-ttu-id="07241-142">Vous pouvez ensuite remplir ou modifier les champs sur la nouvelle fiche article, le cas échéant.</span><span class="sxs-lookup"><span data-stu-id="07241-142">You can then fill or edit fields on the new item card as necessary.</span></span> <span data-ttu-id="07241-143">Pour plus d'informations, reportez vous à [Enregistrer de nouveaux articles](inventory-how-register-new-items.md).</span><span class="sxs-lookup"><span data-stu-id="07241-143">For more information, see [Register New Items](inventory-how-register-new-items.md).</span></span>
+
+> [!NOTE]  
+>   <span data-ttu-id="07241-144">Un enregistrement de référence externe article est automatiquement créé pour le fournisseur de l'article entre le numéro article fournisseur et votre nouveau numéro article.</span><span class="sxs-lookup"><span data-stu-id="07241-144">An Item cross reference record is automatically created for the vendor of the item between the vendor's item number and your new item number.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="07241-145">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="07241-145">See Also</span></span>
+[<span data-ttu-id="07241-146">Enregistrer de nouveaux articles</span><span class="sxs-lookup"><span data-stu-id="07241-146">Register New Items</span></span>](inventory-how-register-new-items.md)  
+<span data-ttu-id="07241-147">[Créer des commandes spéciales](sales-how-to-create-special-orders.md)|</span><span class="sxs-lookup"><span data-stu-id="07241-147">[Create Special Orders](sales-how-to-create-special-orders.md)|</span></span>  
+[<span data-ttu-id="07241-148">STOCKS ET EN-COURS</span><span class="sxs-lookup"><span data-stu-id="07241-148">Inventory</span></span>](inventory-manage-inventory.md)  
+<span data-ttu-id="07241-149">[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="07241-149">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

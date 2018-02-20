@@ -1,1 +1,1 @@
-<span data-ttu-id="a7ebd-101">Dynamics 365 (local)</span><span class="sxs-lookup"><span data-stu-id="a7ebd-101">Dynamics 365 (on-premises)</span></span>
+<span data-ttu-id="ddd6e-101">Dynamics 365 for Finance and Operations, Business edition (sur site)</span><span class="sxs-lookup"><span data-stu-id="ddd6e-101">Dynamics 365 for Finance and Operations, Business edition (on-premises)</span></span>
