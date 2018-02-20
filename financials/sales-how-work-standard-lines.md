@@ -13,13 +13,13 @@ ms.search.keywords: trade, sell, replenishment
 ms.date: 07/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: 6f7202da4290ae3f6093baed4185649c30d6a199
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7c5820db4d8aa65ddeddfd5ee27f0a7e89100abf
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-recurring-sales-and-purchase-lines"></a>Procédure : Créer des lignes ventes et achat récurrentes
+# <a name="create-recurring-sales-and-purchase-lines"></a>Créer des lignes ventes et achat récurrentes
 Si vous devez souvent créer des lignes ventes et des lignes achat comportant des informations similaires, vous pouvez configurer des lignes standard que vous pouvez ensuite insérer dans les documents vente et achat, par exemple, pour les commandes de réapprovisionnement récurrentes.  
 
 La procédure suivante indique comment utiliser des lignes ventes standard. Elle est similaire pour les lignes achat standard.  

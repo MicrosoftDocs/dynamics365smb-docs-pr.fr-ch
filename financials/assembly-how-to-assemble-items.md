@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e1f2cc5bd276fbd5fe1417df56f57dd8454e18e2
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 8ac1f46c7b7f3035c2cfc711671d659a18871bda
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-assemble-items"></a>Comment assembler des articles
+# <a name="assemble-items"></a>Assembler des articles
 Si le champ **Système réappro.** de la fiche client contient **Assemblage**, la méthode par défaut d'approvisionnement de l'article consiste à l'assembler à partir des composants définis et potentiellement par une ressource définie.  
 
-Les composants et les ressources utilisés dans ce type d'élément d'assemblage doivent être définis dans une nomenclature d'assemblage. Pour plus d'informations, reportez-vous à [Procédure : utiliser les nomenclatures](inventory-how-work-BOMs.md).  
+Les composants et les ressources utilisés dans ce type d'élément d'assemblage doivent être définis dans une nomenclature d'assemblage. Pour plus d'informations, reportez-vous à [Utiliser les nomenclatures](inventory-how-work-BOMs.md).  
 
 Les éléments d'assemblage peuvent être configurés pour deux processus d'assemblage différents :  
 
@@ -31,26 +31,26 @@ Les éléments d'assemblage peuvent être configurés pour deux processus d'asse
 
 En règle générale, vous utilisez la fonction **Assembler pour stock** pour les articles que vous souhaitez assembler avant les ventes (par exemple, pour les préparer pour une campagne de kit et les conserver dans le stock jusqu'à ce qu'ils soient commandés). Ces articles sont généralement des articles standard tels que les kits emballés qui ne peuvent pas être personnalisés en fonction des demandes des clients.  
 
-En règle générale, vous utilisez la fonction **Assembler pour commande** pour les articles que vous ne souhaitez pas stocker parce que vous comptez les personnaliser en fonction des demandes des clients ou parce que vous voulez réduire les frais de transport associés au stock en fournissant ces articles en temps voulu. Pour plus d'informations sur le paramétrage des éléments d'assemblage, voir [Procédure : Vente d'articles à assembler pour commande](assembly-how-to-sell-items-assembled-to-order.md).  
+En règle générale, vous utilisez la fonction **Assembler pour commande** pour les articles que vous ne souhaitez pas stocker parce que vous comptez les personnaliser en fonction des demandes des clients ou parce que vous voulez réduire les frais de transport associés au stock en fournissant ces articles en temps voulu. Pour plus d'informations, reportez-vous à [Vente d'articles à assembler pour commande](assembly-how-to-sell-items-assembled-to-order.md).  
 
 Pour plus d'informations sur le paramétrage d'un élément d'assemblage, voir [Description des processus Assembler pour commande et Assembler pour stock](assembly-assemble-to-order-or-assemble-to-stock.md).  
 
-Ces options de configuration sont les paramètres par défaut qui gèrent le traitement initial des ventes et les lignes d'ordre d'assemblage. Vous pouvez les ignorer et fournir l'élément d'assemblage de la manière la plus optimale lors du traitement d'une vente. Pour plus d'informations, consultez [Procédure : vente d'articles en stock dans des flux à assembler pour commande](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md) et [Procédure : vente simultanée d'articles à assembler pour commande et d'articles en stock](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).
+Ces options de configuration sont les paramètres par défaut qui gèrent le traitement initial des ventes et les lignes d'ordre d'assemblage. Vous pouvez les ignorer et fournir l'élément d'assemblage de la manière la plus optimale lors du traitement d'une vente. Pour plus d'informations, consultez [Vente d'articles en stock dans des flux à assembler pour commande](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md) et [Vente simultanée d'articles à assembler pour commande et d'articles en stock](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).
 
 > [!NOTE]  
-> Les composants d'assemblage sont gérés d'une manière spéciale dans les configurations entrepôt de base. Pour plus d'informations, reportez-vous à la section « Traitement des articles à assembler pour commande dans les prélèvements stock » dans [Procédure : prélever des articles avec les prélèvements stock](warehouse-how-to-pick-items-with-inventory-picks.md).   
+> Les composants d'assemblage sont gérés d'une manière spéciale dans les configurations entrepôt de base. Pour plus d'informations, reportez-vous à la section « Traitement des articles à assembler pour commande dans les prélèvements stock » dans [Prélever des articles avec les prélèvements stock](warehouse-how-to-pick-items-with-inventory-picks.md).   
 
 Dans cette procédure, vous allez créer et traiter un ordre d'assemblage pour des articles qui sont assemblés pour stock, autrement dit sans commande vente liée. Les étapes incluent le lancement de l'ordre d'assemblage, le traitement des éventuels problèmes de disponibilité des composants et la validation partielle du résultat d'assemblage.
 
 ## <a name="to-assemble-an-item"></a>Pour assembler un article  
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Ordres d'assemblage**, puis sélectionnez le lien connexe.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Ordres d'assemblage**, puis sélectionnez le lien connexe.  
 2.  Sélectionnez l'action **Nouveau**. La fenêtre **Nouvel ordre d'assemblage** s'ouvre.  
 3.  Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Dans le champ **N° article**, sélectionnez l'élément d'assemblage à traiter. Le champ est filtré pour n'afficher que les articles qui sont configurés pour assemblage, ce qui signifie qu'une nomenclature d'assemblage leur est affectée.  
 5.  Dans le champ **Quantité**, entrez le nombre d'unités de l'article que vous souhaitez assembler.  
 
     > [!NOTE]  
-    >  Si un ou plusieurs composants ne sont pas disponibles afin de répondre à la quantité d'éléments d'assemblage saisie à la date d'échéance définie, la fenêtre **Disponibilité assemblage** s'ouvre automatiquement pour fournir des informations détaillées sur le nombre d'éléments d'assemblage pouvant être assemblés en fonction de la disponibilité des composants. Pour plus d'informations, voir [Procédure : voir la disponibilité des articles](inventory-how-availability-overview.md).  Lorsque vous fermez la fenêtre, l'ordre d'assemblage est créé avec des alertes de disponibilité sur les lignes composant concernées.  
+    >  Si un ou plusieurs composants ne sont pas disponibles afin de répondre à la quantité d'éléments d'assemblage saisie à la date d'échéance définie, la fenêtre **Disponibilité assemblage** s'ouvre automatiquement pour fournir des informations détaillées sur le nombre d'éléments d'assemblage pouvant être assemblés en fonction de la disponibilité des composants. Pour plus d'informations, voir [Voir la disponibilité des articles](inventory-how-availability-overview.md).  Lorsque vous fermez la fenêtre, l'ordre d'assemblage est créé avec des alertes de disponibilité sur les lignes composant concernées.  
 
     Les lignes d'ordre d'assemblage sont remplies automatiquement avec le contenu de la nomenclature d'assemblage et les quantités de ligne en fonction de l'en-tête d'ordre d'assemblage.  
 
@@ -71,7 +71,7 @@ Une fois la validation réussie, l'élément d'assemblage est validé comme prod
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion des assemblages](assembly-assemble-items.md)  
-[Procédure : utiliser les nomenclatures](inventory-how-work-BOMs.md)  
+[Utiliser les nomenclatures](inventory-how-work-BOMs.md)  
 [STOCKS ET EN-COURS](inventory-manage-inventory.md)  
 [Détails de conception : gestion d'entrepôt](design-details-warehouse-management.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

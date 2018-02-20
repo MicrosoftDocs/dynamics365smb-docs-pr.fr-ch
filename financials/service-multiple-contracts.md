@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c4abfbcb3bc182fa14c44c427bc41ebd9d67f6cf
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1f3f30673f8235377a581b398e1281fba92501e5
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="multiple-contracts"></a>Plusieurs contrats
@@ -35,7 +35,7 @@ En gérant un article de service sous plusieurs contrats, vous pouvez effectuer 
 Vous pouvez vous inspirer des exemples suivants d'utilisation de la fonctionnalité de contrats multiples.  
   
 ## <a name="creating-multiple-contracts-per-service-item"></a>Création de plusieurs contrats par article de service  
-Vous pouvez créer manuellement un contrat de service ou un devis contrat pour des articles de service déjà enregistrés dans des contrats non annulés appartenant à un même client. Pour cela, utilisez la procédure standard de création de contrats de service et de devis contrat de service. Pour plus d'informations, voir [Procédure : utiliser des contrats de service et des devis contrat de service](service-how-to-create-service-contracts-and-service-contract-quotes.md).  
+Vous pouvez créer manuellement un contrat de service ou un devis contrat pour des articles de service déjà enregistrés dans des contrats non annulés appartenant à un même client. Pour cela, utilisez la procédure standard de création de contrats de service et de devis contrat de service. Pour plus d'informations, voir [Utiliser des contrats de service et des devis contrat de service](service-how-to-create-service-contracts-and-service-contract-quotes.md).  
   
 Lorsque vous ajoutez un article de service à une ligne contrat déjà enregistrée dans d'autres contrats de service ou devis contrat, un message d'avertissement est affiché indiquant que l'article de service appartient déjà à un ou plusieurs contrats de service ou devis contrat. Si vous confirmez ce message, toutes les informations pertinentes de l'article de service sont copiées dans une ligne contrat nouvellement créée.  
   
@@ -47,5 +47,5 @@ Vous pouvez manuellement créer une commande service pour un article de service 
   
 ## <a name="see-also"></a>Voir aussi  
 [Exécution des contrats de service](service-fulfill-service-contracts.md)  
-[Procédure : créer des commandes service](service-how-to-create-service-orders.md)  
+[Créer commande service](service-how-to-create-service-orders.md)  
 

@@ -13,13 +13,13 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 03/29/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 677b7319baff476671c4c8ade4afed843f936c36
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 0cf867dc453b01b074010ee47c7c4c6560195361
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-change-which-layout-is-currently-used-on-a-report"></a>Procédure : Modification de la présentation actuellement utilisée sur un rapport
+# <a name="change-which-layout-is-currently-used-on-a-report"></a>Modification de la présentation actuellement utilisée sur un rapport
 Un rapport peut être créé avec plus d'une présentation de rapport, que vous pouvez ensuite changer au besoin.
 
 Selon les présentations qui sont disponibles pour un rapport, vous pouvez choisir d'utiliser une présentation de rapport RDLC intégrée, une présentation de rapport Word, ou une présentation personnalisée. Pour plus d'informations sur les présentations de rapport RDLC et Word, les présentations intégrées et personnalisées, et plus encore, reportez-vous à [Gérer la présentation des états](ui-manage-report-layouts.md).

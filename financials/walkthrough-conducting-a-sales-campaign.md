@@ -1,6 +1,6 @@
 ---
 title: "Procédure pas à pas : mise en place d'une campagne de vente | Microsoft Docs"
-description: "Une campagne désigne tout type d'activité impliquant plusieurs contacts. La sélection du public cible de votre campagne représente une étape importante de la configuration. Pour ce faire, dans Dynamics 365, créez un segment ou un groupe de contacts à l'aide de filtres."
+description: "Une campagne désigne tout type d'activité impliquant plusieurs contacts. La sélection du public cible de votre campagne représente une étape importante de la configuration. Pour ce faire, dans Finance and Operations, Business edition, créez un segment ou un groupe de contacts à l'aide de filtres."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 492976f9ab0553b67b73317040878c825eaa1808
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e933115531f9adb0296ad8983be00da480f11f25
 ms.contentlocale: fr-ch
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Procédure pas à pas : mise en place d'une campagne de vente

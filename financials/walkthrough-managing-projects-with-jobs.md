@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b6a61a9c5d2b8c7b3d197780c580c8bcf957560e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2df47e6f5bcd7b02282e45757d94bd6fc0f0981d
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Procédure pas à pas : gestion des projets
@@ -425,7 +425,7 @@ Ce procédure pas à pas se concentre sur la société CRONUS International Ltd.
 
     |Ligne|N° tâche projet|Désignation|Type tâche projet|  
     |----------|------------------|---------------------------------------|-------------------|  
-    |0|1000|Paiement – Acompte|Validation|  
+    |1|1000|Paiement – Acompte|Validation|  
     |2|2000|Utilisation|Comptabilisation|  
     |3|3 000|Paiement – À mi-parcours|Comptabilisation|  
     |4|4 000|Paiement – À la livraison|Validation|  
@@ -481,8 +481,8 @@ Ce procédure pas à pas se concentre sur la société CRONUS International Ltd.
 ## <a name="see-also"></a>Voir aussi  
  [Procédures pas à pas liées au processus entreprise](walkthrough-business-process-walkthroughs.md)   
  [Configuration de la gestion de projet](projects-setup-projects.md)   
- [Procédure : utiliser des ressources](projects-how-use-resources.md)   
- [Procédure : surveiller la progression et les performances](projects-how-monitor-progress-performance.md)   
- [Procédure : Facturer des projets](projects-how-invoice-jobs.md)  
+ [Utiliser des ressources](projects-how-use-resources.md)   
+ [Surveillance de la progression et des performances](projects-how-monitor-progress-performance.md)   
+ [Facturation des projets](projects-how-invoice-jobs.md)  
  [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

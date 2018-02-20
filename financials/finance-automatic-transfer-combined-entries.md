@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: bd80d0a7a701256dfdae3346e899b84eeb990a40
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f4796d9796788d2fbbf5706688aec75a4ed9a6d8
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="automatic-transfer-and-combined-entries"></a>Transfert automatique et écritures combinées
@@ -32,7 +32,7 @@ En comptabilité analytique, vous pouvez transférer les écritures comptables v
 >  Si vous avez coché la case **Transférer automatiquement à partir de la compta** dans la fenêtre **Paramètres comptabilité analytique**, [!INCLUDE[d365fin](includes/d365fin_md.md)] met à jour la comptabilité analytique après chaque validation comptable. Les écritures combinées ne sont pas possibles.  
 
 ## <a name="see-also"></a>Voir aussi  
- [Comment transférer les écritures comptables vers les écritures de coûts](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md)   
+ [Transférer les écritures comptables vers les écritures de coûts](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md)   
  [Critères de transfert des écritures comptables vers les écritures de coûts](finance-criteria-for-transferring-general-ledger-entries-to-cost-entries.md)   
  [Résultats du transfert](finance-results-of-the-transfer.md)   
  [Transfert et validation des écritures de coûts](finance-transfer-and-post-cost-entries.md)  

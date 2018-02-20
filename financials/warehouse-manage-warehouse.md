@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c1ea1c4a5ea4b917243d60981ec35050895f82a7
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5aa3728aa5658f61fd5bb094c7274405f6f9daa2
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="warehouse-management"></a>Gestion d'entrepôt
@@ -32,17 +32,20 @@ Avant d'effectuer des activités entrepôt, vous devez configurer le système po
 
 |**Pour**|**Voir**|  
 |------------|-------------|  
-|Enregistrer la réception d'articles dans les entrepôts, soit avec une commande achat uniquement, dans les configurations d'emplacement simples, soit avec une réception entrepôt, en cas de traitement d'entrepôt partiellement ou entièrement automatisé dans le magasin.|[Procédure : réceptionner des articles](warehouse-how-receive-items.md)|
-|Contourner les processus de rangement et de prélèvement pour expédier un article directement de la réception ou fabrication à l'expédition.|[Comment transborder des articles](warehouse-how-to-cross-dock-items.md)|    
+|Enregistrer la réception d'articles dans les entrepôts, soit avec une commande achat uniquement, dans les configurations d'emplacement simples, soit avec une réception entrepôt, en cas de traitement d'entrepôt partiellement ou entièrement automatisé dans le magasin.|[Réceptionner des articles](warehouse-how-receive-items.md)|
+|Contourner les processus de rangement et de prélèvement pour expédier un article directement de la réception ou fabrication à l'expédition.|[Transborder des articles](warehouse-how-to-cross-dock-items.md)|    
 |Ranger les articles provenant des achats, retours vente, transferts ou de la production en fonction du processus d'entrepôt configuré.|[Rangement des articles](warehouse-put-away-items.md)|
 |Déplacer des articles d'un emplacement à l'autre dans l'entrepôt.|[Déplacement d'articles](warehouse-move-items.md)|
 |Prélever des articles à expédier, transférer ou consommer en assemblage ou production, en fonction du processus d'entrepôt configuré.|[Prélèvement des articles](warehouse-pick-items.md)|
-|Enregistrer l'expédition d'articles à partir des entrepôts, soit avec une commande vente uniquement, dans les configurations d'emplacement simples, soit avec une expédition entrepôt, en cas de traitements d'entrepôt partiellement ou entièrement automatisés dans le magasin.|[Procédure : Expédier des articles](warehouse-how-ship-items.md)|  
+|Enregistrer l'expédition d'articles à partir des entrepôts, soit avec une commande vente uniquement, dans les configurations d'emplacement simples, soit avec une expédition entrepôt, en cas de traitements d'entrepôt partiellement ou entièrement automatisés dans le magasin.|[Expédier des articles](warehouse-how-ship-items.md)|  
 
 ## <a name="see-also"></a>Voir aussi  
- [STOCKS ET EN-COURS](inventory-manage-inventory.md)  
- [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)     
- [Gestion des assemblages](assembly-assemble-items.md)    
+[STOCKS ET EN-COURS](inventory-manage-inventory.md)  
+[Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)     
+[Gestion des assemblages](assembly-assemble-items.md)    
 [Détails de conception : gestion d'entrepôt](design-details-warehouse-management.md)  
- [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

@@ -1,6 +1,6 @@
 ---
-title: "Découvrir Dynamics 365 Business edition | Microsoft Docs"
-description: "Découvrez les fonctionnalités et les scénarios de travail dans Dynamics 365 Business edition, une solution de gestion d'entreprise pour les PME."
+title: "Découvrir Finance and Operations, Business edition | Microsoft Docs"
+description: "Découvrez les fonctionnalités et les scénarios de travail dans Finance and Operations, Business edition, une solution de gestion d'entreprise pour les PME."
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -11,14 +11,14 @@ ms.search.keywords: setup wizard
 ms.date: 09/14/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 0173f682ccb09b2b4c02b9d7d74638f6b08e9a93
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2f17af763663ffc7d10c9730ca433ca1574d6552
 ms.contentlocale: fr-ch
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="welcome-to-included365finlongincludesd365finlongmdmd"></a>Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
-[!INCLUDE[d365fin](includes/d365fin_md.md)] est une solution de gestion d'entreprise pour les PME qui automatise et simplifie les processus entreprise et vous aide à gérer votre entreprise. L'inscription est facile, et vous pouvez migrer des données métiers existantes de votre système existant.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  est une solution de gestion d'entreprise pour les PME qui automatise et simplifie les processus entreprise et vous aide à gérer votre entreprise. L'inscription est facile, et vous pouvez migrer des données métiers existantes de votre système existant.
 L'inscription à la version préliminaire de [!INCLUDE[d365fin](includes/d365fin_md.md)] vous a donné accès à une société de démonstration. La société de démonstration contient des exemples de données, mais vous pouvez créer vos propres documents vente, par exemple, ou ouvrir un compte bancaire.  
 
 ## <a name="get-to-know-included365finincludesd365finmdmd"></a>Découvrir [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -57,7 +57,7 @@ Dans la fenêtre **Configuration assistée**, vous découvrirez l'expérience **
 | Configurer la création d'états |Configure des ensembles de données que vous pouvez utiliser pour créer des rapports puissants à l'aide d'Excel ou de Power BI, par exemple. |
 | Configurer un flux de travail approbation article |Configure la capacité d'envoyer une notification à un approbateur lorsqu'un utilisateur modifie ou crée un article. |
 | Configurer un flux de travail approbation paiement |Configure la capacité d'envoyer une notification à un approbateur lorsqu'un utilisateur soumet des lignes de feuille paiement à l'approbation. |
-| Configurer le connecteur Dynamics 365 |Configure une connexion vers Dynamics 365 for Sales, ce qui vous permet de synchroniser les données telles que les contacts et les informations des commandes vente. |
+| Configurer le connecteur Finance and Operations, Business edition |Configure une connexion vers Dynamics 365 for Sales, ce qui vous permet de synchroniser les données telles que les contacts et les informations des commandes vente. |
 | Configuration de la Sales Tax |Vous permet de démarrer avec des groupes taxes par défaut et l'affectation de codes zone de recouvrement que vous pouvez affecter à des clients et des fournisseurs afin de calculer automatiquement la taxe de vente dans les documents vente ou achat. |
 
 ## <a name="trying-things-out-in-your-own-company"></a>Faire des essais dans votre propre société
@@ -66,22 +66,21 @@ Vous voulez vous abonner ? Vous pouvez facilement quitter la société de démo
 Pour créer une société pour tester des éléments, allez dans le menu **Mes paramètres** dans le coin supérieur droit, puis modifiez la société **Ma société**. Déconnectez-vous de [!INCLUDE[d365fin](includes/d365fin_md.md)], puis connectez-vous de nouveau pour appliquer le changement. Un guide de configuration assistée vous aidera à fournir des informations de base concernant votre société. Lorsque cela est effectué, consultez la page d'accueil et recherchez l'option **Configuration assistée**.  
 
 ## <a name="ready-to-subscribe"></a>Prêt à vous abonner ?
-À chaque connexion au cours de la période gratuite, une notification s'affiche dans une barre bleue en haut et indique le temps restant. Si vous décidez de vous inscrire, utilisez le lien de la notification pour contacter Microsoft. Vous pouvez également contacter l'équipe [!INCLUDE[d365fin](includes/d365fin_md.md)] Sales à l'adresse [Microsoft Dynamics 365 Business edition](https://go.microsoft.com/fwlink/?linkid=828707).  
+À chaque connexion au cours de la période gratuite, une notification s'affiche dans une barre bleue en haut et indique le temps restant. Si vous décidez de vous inscrire, utilisez le lien de la notification pour contacter Microsoft. Vous pouvez également contacter l'équipe commerciale [!INCLUDE[d365fin](includes/d365fin_md.md)]](https://go.microsoft.com/fwlink/?linkid=828707).  
 
-## <a name="other-dynamics-365-apps"></a>Autres applications Dynamics 365
-Accédez au contenu sur les autres applications Dynamics 365 en sélectionnez le lien [Dynamics 365](https://docs.microsoft.com/dynamics365) dans la bannière bleue en haut de cette page. Vous pouvez également en savoir plus en visitant le [site Web Dynamics 365](https://www.microsoft.com/en-us/dynamics365/).  
+## <a name="other-finance-and-operations-business-edition-apps"></a>Autres applications Finance and Operations, Business edition
+Accédez au contenu sur les autres applications Finance and Operations, Business edition en sélectionnez le lien [Finance and Operations, Business edition](https://docs.microsoft.com/dynamics365) dans la bannière bleue en haut de cette page. Vous pouvez également en savoir plus en visitant le site Web [Dynamics 365 for Finance and Operations, Business edition](https://www.microsoft.com/en-us/dynamics365/).  
 
 Si vous êtes comptable, vous pouvez vous inscrire à [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] et disposer d'une intégration transparente à [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, consultez [Bienvenue dans Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).
 
 ## <a name="see-also"></a>Voir aussi
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
-[Finances](finance.md)  
 [Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] en tant que boîte de réception professionnelle dans Outlook](madeira-outlook.md)  
 [Obtention de [!INCLUDE[d365fin](includes/d365fin_md.md)] sur votre périphérique mobile](install-mobile-app.md)  
-[Documentation Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  
-[roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
+[Documentation Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  
+[Feuille de route Finance and Operations, Business edition](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
 [Microsoft Dynamics 365 for Finance and Operations, Business edition](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

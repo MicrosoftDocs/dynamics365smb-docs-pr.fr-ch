@@ -13,10 +13,10 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
-ms.openlocfilehash: dde3ad30e76c02f58bd31afaa74b81031857462b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3b2fb6a1d63e689d54d9b89b1edae0f18607f276
 ms.contentlocale: fr-ch
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="changing-basic-settings"></a>Modification des paramètres de base
@@ -29,7 +29,7 @@ Au centre se trouvent les mosaïques Activités. Les activités affichent les do
 
 Vous pouvez également générer la liste des Clients favoris sur la page d'accueil pour les comptes avec lesquels vous travaillez souvent ou auxquels vous devez accorder une attention particulière. Utilisez les flèches pour réduire une partie de la page et faire de la place afin d'afficher des données spécifiques. Au sommet de la page d'accueil, vous trouverez toutes les actions qui peuvent être appliquées au contenu actuel. Cette zone peut également être réduite et il vous suffit de cliquer ou d'appuyer à l'intérieur de la zone réduite afin de l'afficher à nouveau.
 
-Le Tableau de bord par défaut est **Gestionnaire d'activité**, mais vous pouvez sélectionner un autre Tableau de bord qui correspond mieux à vos besoins mieux. Pour plus d'informations, reportez-vous à [Procédure : changer de Tableau de bord](change-role.md).
+Le Tableau de bord par défaut est **Gestionnaire d'activité**, mais vous pouvez sélectionner un autre Tableau de bord qui correspond mieux à vos besoins mieux. Pour plus d'informations, voir [Changer de tableau de bord](change-role.md).
 
 ## <a name="company"></a>Société
 Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], une société fonctionne comme un conteneur de données. Il peut y avoir plusieurs sociétés dans une seule base de données, mais une seule peut être sélectionnée à la fois.
@@ -56,6 +56,6 @@ Sélectionnez ce lien pour afficher ou modifier les notifications que vous recev
 
 ## <a name="see-also"></a>Voir aussi
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Procédure : changer de Tableau de bord](change-role.md)  
+[Changer de tableau de bord](change-role.md)  
 [Personnalisation de votre expérience [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)  
 

@@ -1,6 +1,6 @@
 ---
 title: "Détails de conception - recherche des croisements analytiques | Microsoft Docs"
-description: "Lorsque vous fermez une fenêtre après avoir modifié un ensemble de dimensions, Dynamics 365 évalue si l'ensemble de dimensions modifié existe. Si l'ensemble n'existe pas, un nouvel ensemble est créé et le code de croisement analytique est retourné."
+description: "Lorsque vous fermez une fenêtre après avoir modifié un ensemble de dimensions, Finance and Operations, Business edition évalue si l'ensemble de dimensions modifié existe. Si l'ensemble n'existe pas, un nouvel ensemble est créé et le code de croisement analytique est retourné."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 64e5191fd2947a8e19595d8c9f1ece4eeff77ec0
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 821ddebee02d1ea922c0c13a181ae0e29e4eb40e
 ms.contentlocale: fr-ch
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Détails de conception : recherche des croisements analytiques

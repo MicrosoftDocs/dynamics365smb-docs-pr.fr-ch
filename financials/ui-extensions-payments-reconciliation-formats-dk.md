@@ -13,10 +13,10 @@ ms. search.keywords: extension, bank, formats
 ms.date: 09/15/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 0718012c9278b337409805d95870d22dac4675ad
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: c2daa9854f371660dd9096c54d85812466dfe46e
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
@@ -100,10 +100,10 @@ Le tableau suivant affiche les combinaisons des modes de règlement FIK et virem
 5. Sélectionnez l'option **Exporter**.  
 
 ## <a name="see-also"></a>Voir aussi .
-[Personnalisation de Dynamics 365 for [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md)  
-[Procédure : créer des écritures de collection prélèvement automatique SEPA et les exporter vers un fichier bancaire](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)  
-[Procédure : configurer un prélèvement SEPA](finance-how-to-set-up-sepa-direct-debit.md)  
-[Procédure : valider des réceptions règlement de prélèvement SEPA](finance-how-to-post-sepa-direct-debit-payment-receipts.md)  
+[Personnalisation de Finance and Operations, Business edition pour [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md)  
+[Créer des écritures de collection prélèvement automatique SEPA et les exporter vers un fichier bancaire](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)  
+[Configurer un prélèvement SEPA](finance-how-to-set-up-sepa-direct-debit.md)  
+[Valider des réceptions règlement de prélèvement SEPA](finance-how-to-post-sepa-direct-debit-payment-receipts.md)  
 [Recouvrement de paiements par prélèvement automatique SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
 [Utilisation de feuilles comptabilité](ui-work-general-journals.md)  
 

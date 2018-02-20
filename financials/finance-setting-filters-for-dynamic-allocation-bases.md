@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 317e924f3297946f3d933cecf21593f0791ebec0
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: cd6aaf4ca0c1de1cea400ce5abe434f7c37040f9
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-filters-for-dynamic-allocation-bases"></a>Définition de filtres pour les bases de ventilation dynamique
@@ -39,6 +39,6 @@ Le mode de ventilation dynamique dépend des valeurs modifiables. Par exemple, l
 
 ## <a name="see-also"></a>Voir aussi  
  [Exemple de scénario : définition des ventilations dynamiques sur la base des articles vendus](finance-scenario-example-defining-dynamic-allocations-based-on-items-sold.md)   
- [Procédure : configurer la source d'affectation et ses cibles](finance-how-to-set-up-allocation-source-and-targets.md)   
+ [Configurer la source d'affectation et ses cibles](finance-how-to-set-up-allocation-source-and-targets.md)   
  [Définition et répartition des coûts](finance-define-and-allocate-costs.md)
 

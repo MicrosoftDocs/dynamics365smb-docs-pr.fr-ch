@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, task
-ms.date: 06/06/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 50ea98d45875fa418d12c5ba378f26208d739126
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ece0a95f83868ac2657fdf41330e7d0a9cce37d6
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-jobs"></a>Procédure : Créer des projets
+# <a name="create-jobs"></a>Créer des projets
 Lorsque vous démarrez un nouveau projet, vous devez créer une fiche projet avec des tâches intégrées et des lignes planning structurées en deux couches.  
 
 La première couche inclut les tâches du projet. Vous devez créer au moins une tâche par projet car toutes les validations font référence à une tâche de projet. Cela permet de configurer les lignes planning projet et de valider la consommation dans le projet.
@@ -31,9 +31,6 @@ La structure de couche permet de séparer le projet en tâches plus petites et a
 > [!NOTE]  
 >   L'action **Nouveau projet** du tableau de bord **Chef de projet** lance une configuration assistée qui vous guide dans les étapes de création d'un projet avec des tâches intégrées et des lignes planning. La procédure suivante décrit comment exécuter les étapes manuellement.
 
-> [!NOTE]  
->   Cette fonctionnalité nécessite que votre expérience soit définie sur **Suite**. Pour plus d'informations, voir [Personnalisation de votre expérience [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
-
 ## <a name="to-create-a-job-card"></a>Pour créer une fiche projet
 Vous devez créer une fiche projet, puis créez des Lignes tâche projet et des lignes planning projet pour ce projet.
 
@@ -42,7 +39,7 @@ Vous devez créer une fiche projet, puis créez des Lignes tâche projet et des 
 3. Pour spécifier le projet avec les informations d'autres projets, cliquez sur **Copier projet**, renseignez les champs selon vos besoins, puis cliquez sur le bouton **OK**.
 
 > [!NOTE]  
->   Si vous utilisez des feuilles de temps dans le projet, vous devez également indiquer une personne responsable. Cette personne peut approuver les feuilles de temps pour les tâches des salariés associées à ce projet. Pour plus d'informations, reportez-vous à [Procédure : Paramétrer des feuilles de temps](projects-how-setup-time-sheets.md).
+>   Si vous utilisez des feuilles de temps dans le projet, vous devez également indiquer une personne responsable. Cette personne peut approuver les feuilles de temps pour les tâches des salariés associées à ce projet. Pour plus d'informations, voir [Paramétrer des feuilles de temps](projects-how-setup-time-sheets.md).
 
 ## <a name="to-create-tasks-for-a-job"></a>Pour créer une tâche pour un projet
 L'une des clés de la création d'un projet consiste à spécifier les différentes tâches impliquées dans le projet. Pour ce faire, ajoutez de nouvelles lignes dans le raccourci **Tâches** de la fenêtre **Fiche projet**, une tâche par ligne. Chaque projet doit avoir au minimum une tâche.

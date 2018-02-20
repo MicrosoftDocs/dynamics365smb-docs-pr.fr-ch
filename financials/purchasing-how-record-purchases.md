@@ -9,32 +9,29 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement
-ms.date: 08/08/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5bd635465626c192d8650cbd2a999dd0fbceb15e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e0d7908509879bec6890b9791e420fc90b0026d2
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-record-purchases"></a>Procédure : enregistrer des achats
+# <a name="record-purchases"></a>Enregistrer des achats
 Vous créez une facture achat ou une commande achat pour enregistrer le coût d'achats et suivre les créances. Si vous devez contrôler un stock, les factures achat et les commandes achat sont également utilisées pour mettre à jour de manière dynamique les niveaux de stock afin que vous puissiez réduire vos coûts et fournir un meilleur service client. Le prix d'achat, notamment les frais de service, et les valeurs de stocks qui résultent de la validation des factures achat ou les commandes achat contribuent aux chiffres du profit et à d'autres KPI financiers sur votre page d'accueil.
 
 > [!NOTE]  
->   Vous devez utiliser les commandes achat si votre processus de vente exige que vous enregistriez des réceptions partielles d'une quantité de commande, par exemple, si la quantité totale n'était pas disponible auprès du fournisseur. Si vous commercialisez des articles en les livrant directement depuis votre fournisseur auprès de votre client, vous devez également utiliser les commandes achat. Pour plus d'informations, voir [Procédure : effectuer des livraisons directes](sales-how-drop-shipment.md). Pour tous les autres aspects, les commandes achat fonctionnent de la même manière que les factures achat. La procédure suivante se base sur une facture achat. La procédure est identique pour une commande achat.
+>   Vous devez utiliser les commandes achat si votre processus de vente exige que vous enregistriez des réceptions partielles d'une quantité de commande, par exemple, si la quantité totale n'était pas disponible auprès du fournisseur. Si vous commercialisez des articles en les livrant directement depuis votre fournisseur auprès de votre client, vous devez également utiliser les commandes achat. Pour plus d'informations, voir [Effectuer des livraisons directes](sales-how-drop-shipment.md). Pour tous les autres aspects, les commandes achat fonctionnent de la même manière que les factures achat. La procédure suivante se base sur une facture achat. La procédure est identique pour une commande achat.
 
 Lorsque vous recevez des articles de stock, ou lorsque le service acheté est terminé, vous validez la facture ou une commande achat pour mettre à jour le stock et les enregistrements financiers et pour activer le paiement au fournisseur selon les conditions de paiement. Pour plus d'informations, reportez-vous à [Effectuer des paiements](payables-make-payments.md).
 
 > [!CAUTION]  
 >   Ne validez pas une facture achat tant que vous n'avez pas reçu les articles et que vous ne connaissez pas le coût total de l'achat, frais supplémentaires compris. Sinon, la valeur du stock et les chiffres du profit peuvent être biaisés.
 
-Vous pouvez facilement corriger ou annuler une facture achat validée avant de payer le fournisseur. Cela est utile si vous souhaitez corriger une erreur de saisie ou si vous souhaitez modifier l'achat assez tôt dans le processus de commande. Pour plus d'informations, reportez-vous à [Procédure : corriger ou annuler des factures achat impayées](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). Si vous avez déjà payé des articles sur la facture achat validée, vous devez créer un avoir achat pour contrepasser l'achat. Pour plus d'informations, reportez-vous à [Procédure : traiter les retours ou annulations d'achats](purchasing-how-process-purchase-returns-cancellations.md).
+Vous pouvez facilement corriger ou annuler une facture achat validée avant de payer le fournisseur. Cela est utile si vous souhaitez corriger une erreur de saisie ou si vous souhaitez modifier l'achat assez tôt dans le processus de commande. Pour plus d'informations, voir [Corriger ou annuler des factures achat impayées](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). Si vous avez déjà payé des articles sur la facture achat validée, vous devez créer un avoir achat pour contrepasser l'achat. Pour plus d'informations, reportez-vous à [Traiter les retours ou annulations d'achats](purchasing-how-process-purchase-returns-cancellations.md).
 
-Les articles peuvent être de type **Stock** ou **Service**. Pour plus d'informations, reportez vous à [Procédure : enregistrer de nouveaux articles](inventory-how-register-new-items.md). Le processus de facture achat est identique pour les deux types d'article.
-
-> [!NOTE]  
->   La fonctionnalité Commande achat nécessite que votre expérience soit définie sur **Suite**. Pour plus d'informations, voir [Personnalisation de votre expérience [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
+Les articles peuvent être de type **Stock** ou **Service**. Pour plus d'informations, reportez vous à [Enregistrer de nouveaux articles](inventory-how-register-new-items.md). Le processus de facture achat est identique pour les deux types d'article.
 
 Vous pouvez remplir les champs relatifs au fournisseur sur la facture achat de deux façons selon que le fournisseur est déjà enregistré ou non.
 
@@ -47,7 +44,7 @@ Vous pouvez remplir les champs relatifs au fournisseur sur la facture achat de d
 4. Dans la boîte de dialogue d'enregistrement du nouveau fournisseur, cliquez sur le bouton **Oui**.
 5. Dans la fenêtre **Sélectionnez un modèle pour un nouveau fournisseur**, sélectionnez un modèle sur lequel baser la nouvelle fiche fournisseur, puis cliquez sur le bouton **OK**.
 6. Une nouvelle fiche fournisseur préremplie avec les informations sur le modèle fournisseur sélectionné s'ouvre. Le champ **Nom** est prérempli avec le nom du nouveau fournisseur que vous avez saisi sur la facture achat.
-7. Renseignez les autres champs de la fiche fournisseur. Pour plus d'informations, reportez vous à [Procédure : enregistrer de nouveaux fournisseurs](purchasing-how-register-new-vendors.md).  
+7. Renseignez les autres champs de la fiche fournisseur. Pour plus d'informations, reportez vous à [Enregistrer de nouveaux fournisseurs](purchasing-how-register-new-vendors.md).  
 8. Une fois que vous avez terminé la fiche fournisseur, cliquez sur le bouton **OK** pour revenir à la fenêtre **Facture achat**.
 
     Plusieurs champs de la fenêtre **Facture achat** sont renseignés avec les informations que vous avez spécifiées sur la nouvelle fiche fournisseur.
@@ -77,9 +74,9 @@ L'achat est désormais visible dans le stock et les enregistrements financiers, 
 ## <a name="see-also"></a>Voir aussi
 [Achats](purchasing-manage-purchasing.md)  
 [Définition des achats](purchasing-setup-purchasing.md)  
-[Procédure : Demander des devis](purchasing-how-request-quotes.md)  
-[Procédure : acheter des articles pour une vente](purchasing-how-purchase-products-sale.md)  
-[Procédure : enregistrer de nouveaux fournisseurs](purchasing-how-register-new-vendors.md)  
-[Procédure : préparer des livraisons directes](sales-how-drop-shipment.md)  
+[Demander des devis](purchasing-how-request-quotes.md)  
+[Acheter des articles pour une vente](purchasing-how-purchase-products-sale.md)  
+[Enregistrer un nouveau fournisseur](purchasing-how-register-new-vendors.md)  
+[Préparer des livraisons directes](sales-how-drop-shipment.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

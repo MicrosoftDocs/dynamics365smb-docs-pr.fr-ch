@@ -1,6 +1,6 @@
 ---
 title: "Paramétrer des modes de règlement| Microsoft Docs"
-Description: "Vous utilisez des modes de règlement, par exemple, les chèques, le transfert bancaire, les espèces, ou Paypal, pour définir la façon dont une facture est payée."
+Description: You use payment methods, for example, check, bank transfer, cash, or PayPal, to define how an invoice will be paid.
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 0c76b481d4a4c49b9cf0db353edaf1e2885fd4d6
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="defining-payment-methods"></a>Définition des modes de règlement
@@ -25,7 +25,7 @@ Les modes de règlement sont liés aux fournisseurs afin d'indiquer la façon do
 
 ## <a name="to-set-up-a-payment-methods"></a>Pour configurer un mode de règlement
 Plusieurs modes de règlement courants sont déjà définis dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vous pouvez définir de nouveaux modes de règlement dans la fenêtre **Modes de règlement**, tous se trouvant avec la fonction de recherche ou en ouvrant le champ **Mode de règlement** d'une fiche fournisseur ou client.
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Mode de règlement**, puis sélectionnez le lien connexe.
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Mode de règlement**, puis sélectionnez le lien connexe.
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-also"></a>Voir aussi

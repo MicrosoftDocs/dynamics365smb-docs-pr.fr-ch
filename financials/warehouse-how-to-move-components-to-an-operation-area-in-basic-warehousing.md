@@ -13,19 +13,19 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 146e113931384e8bc9ba01d5ae7ddb626d18050f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 111d79755a3141bf4e562de3e99ffc2117d12d16
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Procédure : déplacer les composants vers une zone opérations dans les configurations de stockage de base
+# <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Déplacer les composants vers une zone opérations dans les configurations de stockage de base
 Si des opérations de traitement d'articles se produisent dans votre entrepôt, vous pouvez être amené à déplacer des articles entre différents emplacements internes pour satisfaire aux documents origine internes, tels que la production, l'assemblage ou les commandes service dans le magasin.  
 
 > [!NOTE]  
 >  Pour plus d'informations sur le déplacement d'articles d'un emplacement à l'autre sans documents origine, reportez\-vous à Mouvement interne.  
 
-Dans les configurations d'entrepôt avancées, qui correspondent à des magasins qui utilisent le champ de configuration **Prélèv. et rangement suggérés**, vous pouvez utiliser la fenêtre **Feuille mouvement** pour déplacer des articles d'un emplacement à l'autre. Pour plus d'informations, voir [Procédure : déplacer des articles dans les configurations de stockage avancées](warehouse-how-to-move-items-in-advanced-warehousing.md).  
+Dans les configurations d'entrepôt avancées, qui correspondent à des magasins qui utilisent le champ de configuration **Prélèv. et rangement suggérés**, vous pouvez utiliser la fenêtre **Feuille mouvement** pour déplacer des articles d'un emplacement à l'autre. Pour plus d'informations, voir [Déplacer des articles dans les configurations de stockage avancées](warehouse-how-to-move-items-in-advanced-warehousing.md).  
 
 Dans les configurations d'entrepôt de base, où les magasins utilisent les champs de configuration **Emplacement obligatoire** et **Prélèvement requis**, vous pouvez enregistrer des mouvements d'articles vers des zones Opérations internes sur la base de documents origine internes en procédant comme suit :  
 
@@ -44,7 +44,7 @@ Sinon, un magasinier peut le créer en pointant l'ordre d'assemblage lancé en q
 > [!NOTE]  
 >  Si le mouvement concerne un ordre d'assemblage pour lequel l'article est assemblé à une commande vente, vous pouvez définir que le document mouvement de stock est automatiquement créé lorsque vous créez le document prélèvement stock qui prend l'élément d'assemblage terminé et valide l'expédition. Pour configurer cela, sélectionnez le champ **Créer des mouvements automatiquement** dans la fenêtre **Paramètres d'assemblage**  
 >   
->  Pour plus d'informations sur les ordres d'assemblage et les configurations entrepôt de base, reportez-vous à la section « Traitement des articles à assembler pour commande dans les prélèvements stock » dans [Procédure : prélever pour la fabrication et l'assemblage](warehouse-how-to-pick-for-production.md).  
+>  Pour plus d'informations sur les ordres d'assemblage et les configurations entrepôt de base, reportez-vous à la section « Traitement des articles à assembler pour commande dans les prélèvements stock » dans [Prélever pour la fabrication et l'assemblage](warehouse-how-to-pick-for-production.md).  
 
 Cette procédure explique comment créer un mouvement de stock à partir de la fenêtre **Mouvement de stock** en référençant un ordre d'assemblage lancé en tant que document origine. La procédure est la même lorsque vous déplacez les composants pour les ordres de fabrication et les commandes service.  
 

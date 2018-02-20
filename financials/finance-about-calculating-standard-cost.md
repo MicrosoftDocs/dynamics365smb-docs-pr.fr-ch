@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 2e47adde6da02252ee1dd15abb8cbd905579420b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5dc35d82dee8d3a9b93c04de497e7363b7bafb90
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="about-calculating-standard-cost"></a>À propos du calcul des coûts standard
@@ -52,7 +52,7 @@ Les éléments principaux d'un coût constituent le coût direct total d'un arti
 -   Le coût matière direct correspond à un montant facturé pour les matières premières achetées ou le coût de traitement d'un produit semi-fini.  
 -   Le coût matière indirect, ou *frais généraux*, peut correspondre à des éléments tels que les coûts de transport du stock pour l'article fini, une fois que celui-ci est produit.  
 
-La configuration du coût matière pour les articles achetés affectant les coûts directs et indirects dépend du mode d'évaluation du stock que vous avez sélectionné pour l'article concerné. Vous configurez les informations de coût pour chacun des modes d'évaluation du stock sur la fiche article. Pour plus d'informations, reportez vous à [Procédure : enregistrer de nouveaux articles](inventory-how-register-new-items.md).
+La configuration du coût matière pour les articles achetés affectant les coûts directs et indirects dépend du mode d'évaluation du stock que vous avez sélectionné pour l'article concerné. Vous configurez les informations de coût pour chacun des modes d'évaluation du stock sur la fiche article. Pour plus d'informations, reportez vous à [Enregistrer de nouveaux articles](inventory-how-register-new-items.md).
 
 Le coût du rebut (production uniquement) est un facteur supplémentaire à prendre en compte lors du calcul du coût matière total. La mise au rebut d'une certaine quantité de matière première lorsque vous assemblez ou produisez un article entraîne généralement une augmentation de la quantité de composants requis pour produire cet article. Cela conduit à une augmentation du coût matière des composants consommés lors de la production d'un article parent. Vous configurez le coût du rebut pour les matières dans la nomenclature de production ou la gamme.  
 
@@ -98,13 +98,13 @@ Pour mettre à jour ou calculer le coût standard d'éléments d'assemblage, uti
 Le processus de mise à jour ou de calcul des coûts standard comprend généralement les tâches suivantes :  
 
 1.  Mise à jour des coûts aux niveaux des composants et de la capacité. Pour plus d'informations, consultez les traitements par lots **Proposer coût standard article** et **Suggérer le coût standard de la capacité**.  
-2.  Consolidation et calcul multi-niveau des coûts des composants et de capacité pour déterminer le coût d'assemblage ou de fabrication des articles. Pour plus d'informations, consultez la section « Pour calculer le coût standard d'un élément d'assemblage » dans [Procédure : utiliser les nomenclatures](inventory-how-work-BOMs.md).  
+2.  Consolidation et calcul multi-niveau des coûts des composants et de capacité pour déterminer le coût d'assemblage ou de fabrication des articles. Pour plus d'informations, consultez la section « Pour calculer le coût standard d'un élément d'assemblage » dans [Utiliser les nomenclatures](inventory-how-work-BOMs.md).  
 3.  Application des coûts standard entrés lorsque vous exécutez les traitements par lots précédents. Les coûts standard n'entrent en vigueur que lorsqu'ils sont mis en œuvre. Pour plus d'informations, voir le traitement par lots **Appliquer nouv. coût standard**.  
-4.  Application des modifications pour mettre à jour le champ **Coût unitaire** sur la fiche article et effectuer une réévaluation du stock. Pour plus d'informations, voir [Procédure : réévaluer le stock](inventory-how-revalue-inventory.md).
+4.  Application des modifications pour mettre à jour le champ **Coût unitaire** sur la fiche article et effectuer une réévaluation du stock. Pour plus d'informations, voir [Réévaluer le stock](inventory-how-revalue-inventory.md).
 
 ## <a name="see-also"></a>Voir aussi  
  [Détails de conception : modes évaluation stock](design-details-costing-methods.md)   
- [Procédure : utiliser les nomenclatures](inventory-how-work-BOMs.md)   
- [Procédure : mise à jour des coûts standard](finance-how-to-update-standard-costs.md)   
- [Détails de conception : évaluation stock](design-details-inventory-costing.md)
+ [Utiliser les nomenclatures](inventory-how-work-BOMs.md)   
+ [Mise à jour des coûts standard](finance-how-to-update-standard-costs.md)   
+ [Détails de conception : Évaluation stock](design-details-inventory-costing.md)
 

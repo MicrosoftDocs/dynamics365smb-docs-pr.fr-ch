@@ -1,6 +1,6 @@
 ---
 title: Utilisation de l'extension d'analyseur Image | Microsoft Docs
-description: "Cette extension vous permet d'analyser des photos des contacts et des articles permettant de rechercher des attributs, afin de les trouver rapidement dans Dynamics 365."
+description: Cette extension vous permet d'analyser des photos des contacts et des articles permettant de rechercher des attributs, afin de les trouver rapidement dans Finance and Operations, Business edition.
 documentationcenter: 
 author: bholtorf
 ms.service: dynamics365-financials
@@ -12,14 +12,14 @@ ms.search.keywords: API, extension, Cognitive Services, image, computer vision, 
 ms.date: 06/19/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 4329a54114476885285da1d28cd292a4f9684e99
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6b7db51399f965f290e8871c74b30b9925553f83
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="the-image-analyzer-extension-for-microsoft-dynamics-365-business-edition"></a>Extension d'analyseur Image pour Microsoft Dynamics 365 Business edition
+# <a name="the-image-analyzer-extension-for-microsoft-finance-and-operations-business-edition"></a>L'extension d'analyseur Image pour Microsoft Finance and Operations, Business edition
 L'extension d'analyseur Image utilise les analyses d'image puissantes fournies par l'API Vision par ordinateur de Microsoft Cognitive Services pour détecter des attributs dans les images que vous importez pour des articles et des contacts, afin de les examiner et de les affecter facilement. Pour les articles, les attributs peuvent être si l'article est une table ou une voiture et, s'il est rouge ou bleu. Pour les contacts, les attributs peuvent être le sexe ou l'âge.
 
 L'analyseur Image propose des attributs basés sur des balises trouvées par l'API Vision par ordinateur et un niveau de confiance. Par défaut, il propose des attributs uniquement s'il est sûr à au moins 80 % que l'attribut est correct. Vous pouvez définir un autre niveau de confiance, si nécessaire. Pour en savoir plus sur la manière dont les balises et le niveau de confiance sont déterminés, voir [API Vision par ordinateur](https://go.microsoft.com/fwlink/?linkid=851476).  
@@ -92,7 +92,7 @@ Vous pouvez afficher le nombre d'analyses effectué, et le nombre restant, pour 
 2. Désactivez la case à cocher **Activer l'analyseur Image**.  
 
 ## <a name="see-also"></a>Voir aussi
-[Procédure : utilisation des attributs d'article](inventory-how-work-item-attributes.md)  
+[Utiliser les attributs d'article](inventory-how-work-item-attributes.md)  
 [Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md)  
 [Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 

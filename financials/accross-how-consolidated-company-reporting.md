@@ -15,7 +15,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
 ms.openlocfilehash: 9739f89c45dd63d03235fef4204b2adeb48ac4d3
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -53,7 +53,7 @@ Si des paramètres plus avancés sont nécessaires pour votre consolidation, vou
 [!INCLUDE[d365fin](includes/d365fin_md.md)] vous permet de créer une liste de sociétés à consolider, de vérifier les données comptables avant leur consolidation, d'importer des fichiers et de générer des états de consolidation.  
 
 1. Connectez-vous à la société consolidée.
-2. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Centres de profit**, puis sélectionnez le lien connexe.  
+2. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), saisissez **Centres de profit**, puis sélectionnez le lien connexe.  
 3. Sélectionnez **Nouveau**, puis renseignez les champs requis.  
 
 Si votre centre de profit utilise une devise étrangère, indiquez le taux de change à utiliser dans la consolidation. Vous devez également entrer des informations de consolidation sur les comptes généraux du centre de profit. Ces processus sont décrits dans les sections suivantes.
@@ -61,7 +61,7 @@ Si votre centre de profit utilise une devise étrangère, indiquez le taux de ch
 ### <a name="to-prepare-general-ledger-accounts-for-consolidation"></a>Pour préparer les comptes généraux pour la consolidation
 Si le plan comptable du centre de profit diffère de celui de la société consolidée, vous devez préparer les comptes généraux pour la consolidation. Vous pouvez spécifier les comptes sur lesquels valider les débits et crédits et la méthode à utiliser pour convertir des devises dans la société consolidée. Par exemple, cela est utile si vous exécutez souvent l'état.
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Plan comptable**, puis sélectionnez le lien connexe.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Plan comptable**, puis sélectionnez le lien connexe.  
 2. Ouvrez la fiche du compte, puis renseignez les champs du raccourci **Consolidation**.
 
 ### <a name="to-specify-exchange-rates-for-consolidations"></a>Pour indiquer des taux de change pour les consolidations
@@ -80,7 +80,7 @@ Le tableau suivant décrit les méthodes de conversion de taux de change que vou
 
 Pour spécifier des taux de change pour les centres de profit, procédez comme suit :
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Centres de profit**, puis sélectionnez le lien connexe.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), saisissez **Centres de profit**, puis sélectionnez le lien connexe.  
 2. Sur la page **Liste des centres de profit**, choisissez le centre de profit, puis choisissez l'action **Taux moyen (manuel)**.   
 3. Sur la page **Modifier taux de change**, la valeur du champ **Montant taux de change lié** est copiée à partir de la table **Taux de change devise**, mais vous pouvez la modifier. Fermez la page.  
 4. Choisissez l'action **Taux de clôture**.  
@@ -106,7 +106,7 @@ Si vous détenez une société en partie, vous pouvez ajouter un pourcentage de 
 Vous pouvez tester vos données avant de les transférer vers la société consolidée. [!INCLUDE[d365fin](includes/d365fin_md.md)] recherche des différences dans les informations des centres de profit et de la société consolidée. Par exemple, si les numéros de compte ou les codes axe sont différents. Vous devez corriger les erreurs avant d'exécuter l'état. Vous pouvez tester la base de données ou, si vous importez des données à partir d'un fichier XML, vous pouvez tester le fichier.   
 
 1. Ouvrez la société consolidée.  
-2. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Centres de profit**, puis sélectionnez le lien connexe.  
+2. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), saisissez **Centres de profit**, puis sélectionnez le lien connexe.  
 3. Exécutez l'une des opérations suivantes :  
 
     * Pour tester un fichier, choisissez l'action **Tester fichier**, entrez le nom du fichier à tester, puis choisissez **Imprimer**.  

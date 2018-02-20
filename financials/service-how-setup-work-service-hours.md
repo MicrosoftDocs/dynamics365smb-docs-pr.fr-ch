@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 043f1b9044e65e4aba52690f5f62cebcbd397f8d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 630875f80f4107522962c79734284569cbc2b6f7
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-work-hours-and-service-hours"></a>Procédure : configurer des heures de travail et des heures de service
+# <a name="set-up-work-hours-and-service-hours"></a>Configurer des heures de travail et des heures de service
 Généralement, un système de gestion de services suit les heures ressource et les statuts commande service afin de prévoir les besoins en charges de travail et en service. [!INCLUDE[d365fin](includes/d365fin_md.md)] intègre des outils que vous pouvez personnaliser afin d'enregistrer ce type d'informations.  
   
 Après avoir défini les heures de service par défaut de votre société, vous pouvez calculer les temps de réponse aux commandes service ou envoyer des avertissements ou des alertes lors de la réception d'appels de service. La fonctionnalité d'alerte est implémentée conjointement au planificateur de traitements.   

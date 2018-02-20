@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/10/2017
+ms.date: 01/19/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ff83b7e5b61cd265bb3cb1af0bd5db3513c26072
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b31ba087798c3f54e54403ed418019c82ce3091c
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-calculate-order-promising-dates"></a>Comment calculer des dates promesse livraison
+# <a name="calculate-order-promising-dates"></a>Calculer des dates promesse livraison
 Une société doit pouvoir informer ses clients des dates de livraison de commande. La fenêtre **Lignes promesse de livraison** vous permet d'effectuer cette opération à partir d'une ligne commande vente.  
 
 À partir des dates de disponibilité connues et attendues d'un article, [!INCLUDE[d365fin](includes/d365fin_md.md)] calcule immédiatement les dates d'expédition et de livraison, qui peuvent être communiquées au client.  
@@ -39,7 +39,7 @@ Si vous ne spécifiez aucune date livraison demandée sur une ligne de commande 
 ## <a name="about-order-promising"></a>À propos de la promesse de livraison
 La fonctionnalité de configuration des promesses livraison vous permet de promettre la livraison ou l'expédition d'une commande à une date donnée. La date à laquelle un article est disponible afin de le promettre ou de pouvoir le promettre est calculée, et des lignes commande sont créées pour les dates que vous acceptez. Cette fonctionnalité calcule la date la plus proche à laquelle un article est disponible pour la livraison ou l'expédition. Elle crée également des lignes demande, dans le cas où les articles doivent d'abord être achetés, pour les dates que vous acceptez.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] utilise deux concepts essentiels :  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  utilise deux concepts essentiels :  
 
 - Disponible à la vente (DAV)  
 - Simulation de délai (SDD)  
@@ -48,8 +48,10 @@ La fonctionnalité de configuration des promesses livraison vous permet de prome
 La fonction Disponible à la vente (ATP) calcule les dates sur la base du système de réservation. Elle effectue une vérification de la disponibilité des quantités non réservées en stock vis-à-vis de la production, des achats, des transferts et des retours vente planifiés. En fonction de ces informations, [!INCLUDE[d365fin](includes/d365fin_md.md)] calcule automatiquement la date de livraison de la commande du client dans la mesure où les articles sont disponibles (en stock ou avec entrée planifiée).  
 
 ### <a name="capable-to-promise"></a>Simulation de délai  
-La fonction Simulation de délai (CTP) considère un scénario basé sur l'hypothèse où l'article n'est pas en stock et aucune commande n'est programmée. En fonction de ce scénario, [!INCLUDE[d365fin](includes/d365fin_md.md)] calcule la date la plus proche à laquelle cet article sera disponible s'il doit être produit, acheté ou transféré.  
+La fonction Simulation de délai (CTP) considère un scénario basé sur l'hypothèse, qui s'applique uniquement aux quantités d'articles qui ne sont pas en stock ou des commandes planifiées. En fonction de ce scénario, [!INCLUDE[d365fin](includes/d365fin_md.md)] calcule la date la plus proche à laquelle cet article sera disponible s'il doit être produit, acheté ou transféré.
 
+#### <a name="example"></a>Exemple :
+S'il y a une commande de 10 pièces, et que 6 pièces sont disponibles en stock ou dans des commandes planifiées, alors le calcul de simulation de délai est basé sur 4 pièces.
 
 ### <a name="calculations"></a>Calculs  
 Lorsque [!INCLUDE[d365fin](includes/d365fin_md.md)] calcule la date de livraison du client, il effectue deux tâches :  
@@ -62,7 +64,7 @@ Si le client ne demande pas de date de livraison spécifique, la date d'expédit
 - Date d'expédition + Délai entrepôt sortant + Livraison prévue + Durée de traitement = Date  
 - Date d'expédition planifiée + délai d'expédition = date livraison planifiée  
 
-Ensuite, [!INCLUDE[d365fin](includes/d365fin_md.md)] vérifie si la date de livraison calculée est réaliste en calculant en amont dans le temps, pour déterminer quand l'article doit être disponible pour respecter la date confirmée. Ceci est accompli par les formules suivantes :  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] Ensuite,  vérifie si la date de livraison calculée est réaliste en calculant en amont dans le temps, pour déterminer quand l'article doit être disponible pour respecter la date confirmée. Ceci est accompli par les formules suivantes :  
 
 - Date livraison planifiée - délai d'expédition = date expédition planifiée  
 - Date d'expédition planifiée - Délai traitement entrepôt sortant = Date de livraison  
@@ -73,7 +75,7 @@ Sur la base des nouvelles dates et heures, toutes les dates liées sont calculé
 
 Le préparateur de commandes finit le processus CTP en acceptant les dates. Cela signifie qu'une ligne de planning et une écriture de réservation sont créées pour l'article avant les dates calculées pour assurer que la commande est satisfaite.  
 
-En plus de la promesse de livraison externe que vous pouvez effectuer dans la fenêtre **Lignes promesse de livraison**, vous pouvez également promettre des dates de livraison internes ou externes pour les articles de nomenclature. Pour plus d'informations, voir [Procédure : voir la disponibilité des articles](inventory-how-availability-overview.md).
+En plus de la promesse de livraison externe que vous pouvez effectuer dans la fenêtre **Lignes promesse de livraison**, vous pouvez également promettre des dates de livraison internes ou externes pour les articles de nomenclature. Pour plus d'informations, voir [Voir la disponibilité des articles](inventory-how-availability-overview.md).
 
 ## <a name="to-set-up-order-promising"></a>Pour configurer une promesse livraison  
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Paramètres promesses livraison**, puis sélectionnez le lien connexe.  

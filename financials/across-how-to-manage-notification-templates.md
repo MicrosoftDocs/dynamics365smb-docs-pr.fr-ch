@@ -1,6 +1,6 @@
 ---
 title: "Procédure : gérer les modèles de notification | Microsoft Docs"
-description: "Des notifications sont envoyées aux utilisateurs du workflow pour les informer des étapes à suivre ou du statut des étapes du workflow. Vous configurez qui reçoit des notifications et quand, en définissant des utilisateurs approbation, le calendrier de notification des utilisateurs, et les réponses de workflow concernées afin de déterminer les destinataires de notifications. Pour plus d'informations, voir [Configuration de notifications de flux de travail] (across-setting-up-workflow-notifications.md)."
+description: "Des notifications sont envoyées aux utilisateurs du workflow pour les informer des étapes à suivre ou du statut des étapes du workflow. Vous configurez qui reçoit des notifications et quand, en définissant des utilisateurs approbation, le calendrier de notification des utilisateurs, et les réponses de workflow concernées afin de déterminer les destinataires de notifications. Pour plus d'informations, reportez-vous à [Configuration de notifications de flux de travail](across-setting-up-workflow-notifications.md)."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9163bdb48a10d9b36b670e4bc67c696fbade6b37
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 67db510085c5a858c88565087683ffeeb4f77bd1
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-manage-notification-templates"></a>Procédure : Gérer les modèles de notification
+# <a name="manage-notification-templates"></a>Gérer les modèles de notification
 Des notifications sont envoyées aux utilisateurs du workflow pour les informer des étapes à suivre ou du statut des étapes du workflow. Vous configurez qui reçoit des notifications et quand, en définissant des utilisateurs approbation, le calendrier de notification des utilisateurs, et les réponses de workflow concernées afin de déterminer les destinataires de notifications. Pour plus d'informations, reportez-vous à [Configuration de notifications de flux de travail](across-setting-up-workflow-notifications.md).  
 
  Les notifications sont créés à partir de modèles qui définissent leur contenu et leur mise en forme. Vous pouvez exporter le contenu d'un modèle de notification, le modifier, puis l'importer dans le même modèle de notification ou un nouveau. Ceci est décrit dans les procédures suivantes.  
@@ -27,7 +27,7 @@ Des notifications sont envoyées aux utilisateurs du workflow pour les informer 
  La version générique de [!INCLUDE[d365fin](includes/d365fin_md.md)] contient trois modèles de notification : une pour les demandes d'approbation ; une pour les nouveaux enregistrements ; et une pour les demandes d'approbation échues. Les trois modèles de notification prédéfinis prennent en charge l'**e-mail** et la **note** comme méthode de notification. Pour afficher le contenu des trois modèles de notification, consultez la section « Contenu des modèles de notification » dans cette rubrique.
 
 ## <a name="to-create-a-new-notification-template"></a>Créer un modèle de notification  
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Modèles de notification**, puis sélectionnez le lien connexe.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Modèles de notification**, puis sélectionnez le lien connexe.  
 2.  Dans la fenêtre **Modèles de notification**, cliquez sur l'action **Nouveau**.  
 3.  Renseignez les champs comme indiqué dans le tableau suivant.  
 
@@ -40,7 +40,7 @@ Des notifications sont envoyées aux utilisateurs du workflow pour les informer 
     |**Par défaut**|Spécifiez si le modèle de notification sera utilisé par défaut.|  
 
 ## <a name="to-modify-a-notification-template"></a>Modifier un modèle de notification  
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Modèles de notification**, puis sélectionnez le lien connexe.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Modèles de notification**, puis sélectionnez le lien connexe.  
 2.  Dans la fenêtre **Modèles de notification**, sélectionnez le modèle de notification que vous souhaitez modifier.  
 3.  Choisissez l'action **Exporter le contenu d'un modèle**.  
 4.  Dans la fenêtre **Exporter fichier**, choisissez le bouton **Enregistrer**, puis nommez et enregistrez le fichier HTML à l'emplacement approprié.  
@@ -76,10 +76,10 @@ Les valeurs de paramètre sont insérées automatiquement dans les notification 
 
 ## <a name="see-also"></a>Voir aussi  
  [Configuration de notifications de workflow](across-setting-up-workflow-notifications.md)   
- [Procédure : configurer la messagerie](madeira-how-setup-email.md)   
- [Procédure : configurer des utilisateurs de workflow](across-how-to-set-up-workflow-users.md)   
- [Procédure : configurer des utilisateurs d'approbation](across-how-to-set-up-approval-users.md)   
- [Procédure : créer des workflows](across-how-to-create-workflows.md)   
+ [Configurer la messagerie](madeira-how-setup-email.md)   
+ [Configurer des utilisateurs de flux de travail](across-how-to-set-up-workflow-users.md)   
+ [Configurer des utilisateurs d'approbation](across-how-to-set-up-approval-users.md)   
+ [Créer des workflows](across-how-to-create-workflows.md)   
  [Utiliser des files d'attente des travaux pour planifier des tâches](admin-job-queues-schedule-tasks.md)   
  [Flux de travail](across-workflow.md)   
 

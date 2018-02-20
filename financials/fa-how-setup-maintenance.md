@@ -13,13 +13,13 @@ ms.search.keywords: repair, service
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: cdf1183fb5383311dc34d8c2c619a1eddf7e8851
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7ae4abacf22d3610194ea56bbaa997390cb7df0a
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-fixed-asset-maintenance"></a>Procédure : configurer une maintenance d'immobilisation
+# <a name="set-up-fixed-asset-maintenance"></a>Configurer la maintenance d'une immobilisation
 Pour gérer la maintenance des immobilisations, vous devez configurer tout d'abord certaines informations générales de maintenance, un compte de validation pour les coûts de maintenance et les codes de maintenance pour les types de travaux, tels que le service de routine ou la réparation.
 
 ## <a name="to-set-up-general-maintenance-information"></a>Pour configurer les informations générales de maintenance
@@ -42,7 +42,7 @@ Pour valider les coûts de maintenance, vous devez tout d'abord saisir un numér
 2. Renseignez le champ **Compte frais maintenance** pour chaque groupe comptabilisation.
 
 > [!NOTE]  
->   Pour définir que les coûts de maintenance sont attribués aux départements ou projets, configurez une clé d'allocation. Pour en savoir plus, voir [Procédure : configurer des fonctionnalités d'immobilisations](fa-how-setup-general.md).
+>   Pour définir que les coûts de maintenance sont attribués aux départements ou projets, configurez une clé d'allocation. Pour en savoir plus, voir [Configurer des fonctionnalités d'immobilisations](fa-how-setup-general.md).
 
 ## <a name="see-also"></a>Voir aussi
 [Paramétrage d'immobilisations](fa-setup.md)  

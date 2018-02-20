@@ -12,23 +12,23 @@ ms.workload: na
 ms.date: 07/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b573bb55c29de329e5d9a804b49a91687dc369ff
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2aac957fc253f6c7d2f621ea2e5e039733081a19
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="working-with-general-journals"></a>Utilisation de feuilles comptabilité
-La plupart des transactions financières sont validées en comptabilité via les documents commerciaux dédiés, tels que des factures achat et des commandes vente. Pour les activités économiques qui ne sont pas représentés par un document dans [!INCLUDE[d365fin](includes/d365fin_md.md)], comme de plus petits frais ou règlements, vous pouvez créer les transactions associées en validant des lignes de feuille dans la fenêtre **Feuille comptabilité**. Pour plus d'informations, reportez-vous à [Procédure : Valider les transactions directement vers la comptabilité](finance-how-post-transactions-directly.md).
+La plupart des transactions financières sont validées en comptabilité via les documents commerciaux dédiés, tels que des factures achat et des commandes vente. Pour les activités économiques qui ne sont pas représentés par un document dans [!INCLUDE[d365fin](includes/d365fin_md.md)], comme de plus petits frais ou règlements, vous pouvez créer les transactions associées en validant des lignes de feuille dans la fenêtre **Feuille comptabilité**. Pour plus d'informations, reportez-vous à [Valider les transactions directement vers la comptabilité](finance-how-post-transactions-directly.md).
 
-Par exemple, vous pouvez valider les dépenses d'argent propre de vos salariés pour des activités liées à l'entreprise, afin de les rembourser ultérieurement. Pour plus d'informations, voir [Procédure : enregistrer et rembourser les frais des employés](finance-how-record-reimburse-employee-expenses.md).
+Par exemple, vous pouvez valider les dépenses d'argent propre de vos salariés pour des activités liées à l'entreprise, afin de les rembourser ultérieurement. Pour plus d'informations, voir [Enregistrer et rembourser les frais des employés](finance-how-record-reimburse-employee-expenses.md).
 
 Les feuilles comptabilité vous permettent de valider des transactions financières directement dans les comptes généraux et dans d'autres comptes tels que les comptes bancaires, client, fournisseur et salarié. La validation avec une feuille comptabilité crée toujours des écritures dans les comptes généraux. C'est le cas même lorsque, par exemple, vous validez une ligne feuille dans un compte client, parce qu'une écriture est validée dans un compte client de la comptabilité via un groupe comptabilisation.
 
-Les informations que vous saisissez dans une feuille sont temporaires et peuvent être modifiées tant qu'elles sont dans la feuille. Lorsque vous validez la feuille, les informations sont transférées vers des écritures de comptes individuels, où elles ne peuvent pas être modifiées. Toutefois, vous pouvez délettrer des écritures validées et valider des écritures de contrepassation ou de correction. Pour plus d'informations, reportez-vous à [Procédure : inversion d'une validation](finance-how-reverse-journal-posting.md).
+Les informations que vous saisissez dans une feuille sont temporaires et peuvent être modifiées tant qu'elles sont dans la feuille. Lorsque vous validez la feuille, les informations sont transférées vers des écritures de comptes individuels, où elles ne peuvent pas être modifiées. Toutefois, vous pouvez délettrer des écritures validées et valider des écritures de contrepassation ou de correction. Pour plus d'informations, reportez-vous à [Inversion d'une validation](finance-how-reverse-journal-posting.md).
 
 ## <a name="using-journal-templates-and-batches"></a>Utilisation de modèles feuille et feuilles
-Il existe plusieurs modèles feuille. Chaque modèle feuille est représenté par une fenêtre dédiée avec des fonctions particulières et les champs nécessaires pour la prise en charge de ces fonctions, notamment la fenêtre **Feuille rapprochement bancaire** qui permet de traiter les paiements bancaires et la fenêtre **Feuille paiement** qui permet de payer vos fournisseurs ou rembourser vos employés. Pour plus d'informations, voir [Exécuter des paiements](payables-make-payments.md) et [Procédure : Rapprocher des paiements client manuellement](receivables-how-apply-sales-transactions-manually.md).
+Il existe plusieurs modèles feuille. Chaque modèle feuille est représenté par une fenêtre dédiée avec des fonctions particulières et les champs nécessaires pour la prise en charge de ces fonctions, notamment la fenêtre **Feuille rapprochement bancaire** qui permet de traiter les paiements bancaires et la fenêtre **Feuille paiement** qui permet de payer vos fournisseurs ou rembourser vos employés. Pour plus d'informations, voir [Exécuter des paiements](payables-make-payments.md) et [Rapprocher des paiements client manuellement](receivables-how-apply-sales-transactions-manually.md).
 
 Pour chaque modèle feuille, vous pouvez configurer votre propre feuille personnelle sous forme de nom de feuille. Par exemple, vous pouvez définir votre propre nom de feuille pour la feuille paiement dotée de votre présentation et de vos paramètres personnels. Le conseil suivant est un exemple de la manière de personnaliser une feuille.
 
@@ -106,9 +106,9 @@ La procédure suivante est basée sur la fenêtre **Feuille comptabilité**, mai
 Les valeurs dans le champ **N° document** sont modifiées, le cas échéant, pour que le numéro de document sur les lignes feuille individuelles ou groupées soit dans un ordre séquentiel. Une fois que les documents sont renumérotés, vous pouvez procéder à la validation de la feuille.
 
 ## <a name="see-also"></a>Voir aussi
-[Procédure : Valider les transactions directement vers la comptabilité](finance-how-post-transactions-directly.md)  
-[Procédure : inversion d'une validation](finance-how-reverse-journal-posting.md)  
-[Procédure : ventiler des coûts et des bénéfices](year-allocate-costs-income.md)  
+[Valider les transactions directement vers la comptabilité](finance-how-post-transactions-directly.md)  
+[Inversion d'une validation](finance-how-reverse-journal-posting.md)  
+[Répartition des coûts et du revenu](year-allocate-costs-income.md)  
 [Finances](finance.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

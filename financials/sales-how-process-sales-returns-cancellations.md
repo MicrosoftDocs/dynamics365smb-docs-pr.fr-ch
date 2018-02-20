@@ -11,19 +11,19 @@ ms.search.keywords: undo, credit memo, return
 ms.date: 09/08/2016
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 33a1c64886fc7b16cddd67ad175539c96f8d48d6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: eac8f4fdd6a5333662e272c8c71e585cf1fb876a
 ms.contentlocale: fr-ch
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-process-sales-returns-or-cancellations"></a>Procédure : traiter les retours ou annulations de ventes
+# <a name="process-sales-returns-or-cancellations"></a>Traiter les retours ou annulations de ventes
 Si votre client souhaite retourner des articles ou obtenir un remboursement pour des articles, ou encore annuler des services, que vous lui avez vendus et pour lesquels vous avez reçu un paiement, vous devez créer et valider un avoir vente qui indique la modification demandée. Pour inclure les informations de facture vente correctes, vous pouvez créer l'avoir vente à partir de la facture vente enregistrée ou vous pouvez créer un avoir vente avec les informations copiées de la facture.
 
 Si vous souhaitez davantage de contrôle sur le processus de retour vente, par exemple les documents entrepôt pour la manutention des articles ou une meilleure vue d'ensemble lors de la réception d'articles à partir de plusieurs documents vente avec un retour vente, vous pouvez créer des retours vente. Un retour vente émet automatiquement l'avoir vente associé et les autres documents relatifs au retour, comme une commande vente de remplacement, le cas échéant. Pour plus d'informations, voir la section « Créer un retour vente à partir d'un ou plusieurs documents vente validés ».
 
 > [!NOTE]  
->   Si une facture vente validée n'a pas encore été payée, vous pouvez utiliser les fonctions **Corriger** ou **Annuler** sur la facture vente validée pour contrepasser automatiquement les transactions associées. Ces fonctions ne fonctionnent que pour les factures impayées, elles ne prennent pas en charge des retours partiels ou les annulations. Pour plus d'informations, reportez-vous à [Procédure : corriger ou annuler des factures vente impayées](sales-how-correct-cancel-sales-invoice.md).
+>   Si une facture vente validée n'a pas encore été payée, vous pouvez utiliser les fonctions **Corriger** ou **Annuler** sur la facture vente validée pour contrepasser automatiquement les transactions associées. Ces fonctions ne fonctionnent que pour les factures impayées, elles ne prennent pas en charge des retours partiels ou les annulations. Pour plus d'informations, voir [Corriger ou annuler des factures vente impayées](sales-how-correct-cancel-sales-invoice.md).
 
 Un retour ou un remboursement peut en effet se rapporter uniquement à certains des articles ou des services figurant sur la facture vente initiale. Dans ce cas, vous devez modifier les informations des lignes de l'avoir vente ou du retour vente. Lors de la validation de l'avoir vente ou du retour vente, les documents vente affectés par la modification sont contrepassés et un paiement de remboursement peut être créé pour le client. Pour plus d'informations, reportez-vous à [Effectuer des paiements](payables-make-payments.md).  
 
@@ -65,7 +65,7 @@ Pour plus d'informations, voir [Détails de conception : Évaluation stock](des
     Lorsque vous avez créé les lignes avoir vente nécessaires et qu'un ou plusieurs applications sont spécifiées, vous pouvez procéder à la validation de l'avoir vente.   
 8. Sélectionnez l'action **Valider et envoyer**.  
 
-La boîte de dialogue **Valider et envoyer la confirmation** s'ouvre et indique le mode d'envoi par défaut du client. Vous pouvez modifier le mode d'envoi en cliquant sur le bouton de recherche pour le champ **Envoyer le document à**. Pour plus d'informations, reportez vous à [Procédure : configurer des profils d'envoi de documents](sales-how-setup-document-send-profiles.md).  
+La boîte de dialogue **Valider et envoyer la confirmation** s'ouvre et indique le mode d'envoi par défaut du client. Vous pouvez modifier le mode d'envoi en cliquant sur le bouton de recherche pour le champ **Envoyer le document à**. Pour plus d'informations, reportez vous à [Configurer des profils d'envoi de documents](sales-how-setup-document-send-profiles.md).  
 
 Les documents vente validés auxquels vous avez lettré l'avoir sont à présent contrepassés, et un remboursement peut être créé pour le client. L'avoir vente est supprimé et remplacé par un nouveau document dans la liste des avoirs vente validés.
 
@@ -135,7 +135,7 @@ Vous pouvez décider de compenser la vente d'un article au client en remplaçant
 1. Dans la fenêtre **Retour vente** pour un processus de retour actif, sur une ligne vide, entrez une écriture négative pour l'article de remplacement en insérant un montant négatif dans le champ **Quantité**.  
 2. Sélectionnez l'action **Déplacer lignes négatives**.
 3. Dans la fenêtre **Déplacer lignes vente nég.**, renseignez les champs selon vos besoins.
-4. Cliquez sur le bouton **OK**. La ligne négative pour l'article de remplacement est supprimée de la commande retour vente et insérée dans une nouvelle fenêtre **Commande vente**. Pour en savoir plus, voir [Procédure : vendre des produits](sales-how-sell-products.md).
+4. Cliquez sur le bouton **OK**. La ligne négative pour l'article de remplacement est supprimée de la commande retour vente et insérée dans une nouvelle fenêtre **Commande vente**. Pour en savoir plus, voir [Vendre des produits](sales-how-sell-products.md).
 
 ## <a name="to-create-return-related-documents-from-a-sales-return-order"></a>Pour créer des documents associés au retour depuis un retour vente
 Vous pouvez faire en sorte de créer automatiquement tous les documents de vente, de retour achat et de commande achat de remplacement au cours du processus de retour vente. Cela est utile, par exemple, dans les situations où vous voulez gérer des articles bénéficiant des garanties fournies par les fournisseurs.
@@ -153,7 +153,7 @@ Vous pouvez valider ce prix augmenté en tant que frais annexes dans un avoir ou
 
 1. Ouvrez la fenêtre **Retour vente** pour un processus de retour actif.
 2. Sur une nouvelle ligne, dans le champ **Type**, sélectionnez **Frais annexes**.  
-3. Renseignez les champs comme pour n'importe quelle ligne frais annexes. Pour plus d'informations, voir [Procédure : Utiliser Frais annexes pour comptabiliser les coûts commerciaux supplémentaires](payables-how-assign-item-charges.md).  
+3. Renseignez les champs comme pour n'importe quelle ligne frais annexes. Pour plus d'informations, voir [Utiliser Frais annexes pour comptabiliser les coûts commerciaux supplémentaires](payables-how-assign-item-charges.md).  
 
 Lorsque vous validez la commande retour vente, les frais de restockage sont ajoutés au montant de l'écriture vente appropriée. De cette manière, vous pouvez maintenir la précision de l'évaluation stock.  
 
@@ -169,7 +169,7 @@ Vous pouvez valider ce prix réduit en tant que frais annexes dans un avoir ou u
      Vous pouvez créer un numéro frais annexes spécial pour couvrir les rabais sur ventes.  
 6.  Dans le champ **Quantité**, saisissez **1**.  
 7.  Dans le champ **Prix unitaire**, saisissez le montant du rabais sur ventes.  
-8.  Affectez les frais de vente en tant que frais annexes aux articles de l'expédition validée. Pour plus d'informations, voir [Procédure : Utiliser Frais annexes pour comptabiliser les coûts commerciaux supplémentaires](payables-how-assign-item-charges.md). Une fois ce rabais affecté, revenez à la fenêtre **Avoir vente**.  
+8.  Affectez les frais de vente en tant que frais annexes aux articles de l'expédition validée. Pour plus d'informations, voir [Utiliser Frais annexes pour comptabiliser les coûts commerciaux supplémentaires](payables-how-assign-item-charges.md). Une fois ce rabais affecté, revenez à la fenêtre **Avoir vente**.  
 
 Lorsque vous validez la commande retour vente, le rabais sur la vente est ajouté au montant de l'écriture vente appropriée. De cette manière, vous pouvez maintenir la précision de l'évaluation stock.
 
@@ -218,6 +218,6 @@ Vous pouvez également supprimer chacune des commandes retour vente manuellement
 ## <a name="see-also"></a>Voir aussi
 [Ventes](sales-manage-sales.md)  
 [Définition des ventes](sales-setup-sales.md)  
-[Procédure : envoyer des documents par e-mail](ui-how-send-documents-email.md)  
+[Envoyer des documents par e-mail](ui-how-send-documents-email.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

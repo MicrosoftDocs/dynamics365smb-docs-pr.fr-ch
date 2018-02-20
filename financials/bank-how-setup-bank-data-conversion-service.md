@@ -13,22 +13,22 @@ ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, 
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
-ms.openlocfilehash: 0a1c53428b0b64364a237da0932cda86d37d06f9
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: cdbe4f8680dad6dcf605dd98f88bc7750ed8077f
 ms.contentlocale: fr-ch
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-the-bank-data-conversion-service"></a>Procédure : configurer le service de conversion de données bancaires
+# <a name="set-up-the-bank-data-conversion-service"></a>Configurer le service de conversion de données bancaires
 Un fournisseur global de services permettant de convertir les informations de paiement dans n'importe quel format de données que votre banque requiert est connecté et prêt à être activé dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], il s'agit du service de conversion de données bancaires.
 
-Vous pouvez exporter des lignes de paiement à partir de la fenêtre **Feuille paiement** vers un fichier ou un flux de données que vous téléchargez ensuite vers votre banque pour un traitement automatique. Ainsi, vous n'avez pas à effectuer de paiements électroniques individuels. Pour plus d'informations, reportez-vous à [Procédure : exportation de paiements vers un fichier bancaire](payables-how-export-payments-bank-file.md).
+Vous pouvez exporter des lignes de paiement à partir de la fenêtre **Feuille paiement** vers un fichier ou un flux de données que vous téléchargez ensuite vers votre banque pour un traitement automatique. Ainsi, vous n'avez pas à effectuer de paiements électroniques individuels. Pour plus d'informations, reportez-vous à [Exportation de paiements vers un fichier bancaire](payables-how-export-payments-bank-file.md).
 
 Vous pouvez importer des fichiers de relevé bancaire dans la fenêtre **Feuille rapprochement bancaire** à l'aide du service de conversion de données bancaires pour convertir un fichier que vous recevez de votre banque en flux de données que [!INCLUDE[d365fin](includes/d365fin_md.md)] peut importer. Pour plus d'informations, reportez-vous à [Lettrage automatique des paiements et rapprochement des comptes bancaires](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
-Vous pouvez utiliser le service Envestnet Yodlee Bank Feeds au lieu d'importer des relevés bancaires avec le service de conversion de données bancaires. Pour plus d'informations, reportez-vous à [Procédure: configurer le service de flux de la Envestnet Yodlee Bank](bank-how-setup-bank-statement-service.md).
+Vous pouvez utiliser le service Envestnet Yodlee Bank Feeds au lieu d'importer des relevés bancaires avec le service de conversion de données bancaires. Pour plus d'informations, voir [Configurer le service de flux de la Envestnet Yodlee Bank](bank-how-setup-bank-statement-service.md).
 
-Pour importer ou exporter des fichiers bancaires, vous devez configurer votre propre compte bancaire et les comptes bancaires de vos fournisseurs. Pour plus d'informations, reportez vous à [Procédure: configuration de comptes bancaires](bank-how-setup-bank-accounts.md).
+Pour importer ou exporter des fichiers bancaires, vous devez configurer votre propre compte bancaire et les comptes bancaires de vos fournisseurs. Pour plus d'informations, reportez vous à [Configuration de comptes bancaires](bank-how-setup-bank-accounts.md).
 
 > [!NOTE]  
 >   Le service conversion données bancaires peut fixer une limite imposée du nombre de lignes qui peuvent être exportées dans un fichier. Si cette limite est dépassée, vous recevrez un message d'erreur. Il est conseillé que les fichiers de relevé bancaire ne dépassent pas 1 000 lignes, sans quoi le temps de traitement dans le service conversion données bancaires peut augmenter de façon significative.

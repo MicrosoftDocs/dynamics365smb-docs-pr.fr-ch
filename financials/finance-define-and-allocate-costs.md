@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 050b0bd997629ca189cfbe035e361de7a252d079
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 04e5a95b7a926528cc26c254390d08e3bce6ad8a
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="defining-and-allocating-costs"></a>Définition et répartition des coûts
@@ -38,7 +38,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 
 |À|Voir|  
 |--------|---------|  
-|Configurez la source d'affectation et ses cibles.|[Procédure : configurer la source d'affectation et ses cibles](finance-how-to-set-up-allocation-source-and-targets.md)|  
+|Configurez la source d'affectation et ses cibles.|[Configurer la source d'affectation et ses cibles](finance-how-to-set-up-allocation-source-and-targets.md)|  
 |Configurez plusieurs filtres pour les bases de ventilation dynamique.|[Définition de filtres pour les bases de ventilation dynamique](finance-setting-filters-for-dynamic-allocation-bases.md)|  
 |Consultez un exemple sur le mode de définition d'une ventilation statique.|[Exemple de scénario : Définition des ventilations statiques en fonction du ratio d'affectation](finance-scenario-example-defining-static-allocations-based-on-allocation-ratio.md)|  
 |Consultez un exemple sur le mode de définition d'une ventilation dynamique.|[Exemple de scénario : Définition des ventilations dynamiques sur la base des articles vendus](finance-scenario-example-defining-dynamic-allocations-based-on-items-sold.md)|  

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5e6b691eae1663cdc93d851f531306c472291484
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5c942b0e0dcdc025fdeca6373fe30b485a147ad2
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="about-inventory-costing"></a>À propos de l'évaluation des coûts de stock
@@ -36,8 +36,8 @@ La gestion des coûts ajustés fait référence à l'enregistrement et la décla
 |Comprendre le mécanisme d'ajustement des coûts, qui permet d'assurer que les coûts soient rapportés même si les mouvements de stock ont lieu de manière aléatoire.|[Détails de conception : ajustement des coûts](design-details-cost-adjustment.md)|  
 |Apprendre pourquoi les coûts standard sont souvent utilisés par les sociétés de production comme base d'évaluation pour les composants et les produits finis.|[À propos du calcul des coûts standard](finance-about-calculating-standard-cost.md)|  
 |Comprendre la manière donc la valeur du stock est reflétée dans la comptabilité.|[Génération des coûts et rapprochement en comptabilité](finance-report-costs-and-reconcile-with-the-general-ledger.md)|  
-|Apprendre la manière dont les frais annexes, tels que les frais de transport ou d'assurance, peuvent affecter des composantes supplémentaires au coût unitaire d'un article.|[Procédure : Utiliser Frais annexes pour comptabiliser les coûts commerciaux supplémentaires](payables-how-assign-item-charges.md)|  
-|Obtenir des informations sur la manière dont les périodes inventaire permettent à une société de contrôler la valeur du stock dans le temps en définissant des périodes plus courtes qui peuvent être fermées à la validation lorsque la fin de l'exercice comptable approche.|[Procédure : utiliser les périodes inventaire](finance-how-to-work-with-inventory-periods.md)|  
+|Apprendre la manière dont les frais annexes, tels que les frais de transport ou d'assurance, peuvent affecter des composantes supplémentaires au coût unitaire d'un article.|[Utiliser Frais annexes pour comptabiliser les coûts commerciaux supplémentaires](payables-how-assign-item-charges.md)|  
+|Obtenir des informations sur la manière dont les périodes inventaire permettent à une société de contrôler la valeur du stock dans le temps en définissant des périodes plus courtes qui peuvent être fermées à la validation lorsque la fin de l'exercice comptable approche.|[Utiliser les périodes inventaire](finance-how-to-work-with-inventory-periods.md)|  
 |Comprendre tous les mécanismes du moteur d'évaluation, notamment ce qui se produit lorsque vous validez des transactions d'assemblage et de production.|[Détails de conception : évaluation stock](design-details-inventory-costing.md)|
 
 ## <a name="see-also"></a>Voir aussi

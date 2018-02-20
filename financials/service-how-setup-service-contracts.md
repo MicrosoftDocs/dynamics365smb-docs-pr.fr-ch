@@ -13,14 +13,14 @@ ms.search.keywords: service, cost, service order
 ms.date: 08/22/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 203f6ef7f156bdccaa491fdac761711fd32c317e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b221b125a65dbad46b56172bc267a5da382dc765
 ms.contentlocale: fr-ch
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="how-to-set-up-service-contracts"></a>Procédure : configurer des contrats de service
+# <a name="set-up-service-contracts"></a>Configurer des contrats de service
 Avant de pouvoir utiliser les contrats, vous devez définir les éléments suivants : 
 
 * **Groupes contrats de service** : regroupent les contrats de service liés, quelle que soit la nature de cette relation.

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.date: 08/09/2017
+ms.date: 01/25/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 87a55a215f4db857d390033fb6954c06b210be8c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4056d901739ba5cb4eaf1eb38f5cb4089012c941
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="manage-human-resources"></a>Gérer les ressources humaines
@@ -24,17 +24,14 @@ Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez conserver des enre
 
 Vous pouvez également enregistrer les absences des salariés, ce qui vous permet d'analyser les absences enregistrées le cas échéant.
 
-> [!NOTE]  
-> Cette fonctionnalité nécessite que votre expérience soit définie sur **Suite**. Pour plus d'informations, voir [Personnalisation de votre expérience [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
-
 Pour commencer à utiliser la fonctionnalité Ressources humaines, vous devez configurer les salariés, ainsi que d'autres informations de base. Vous pouvez ensuite associer plusieurs codes à un salarié, ce qui vous permet de filtrer les informations et d'afficher des salariés spécifiques.
 
 Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.
 
 | Pour | Voir |
 | --- | --- |
-| Enregistrez les nouveaux salariés ou modifiez les enregistrements pour les salariés existants, et joignez des informations connexes, telles que des contrats et des articles. |[Procédure : Enregistrer les employés](hr-how-register-employees.md) |
-| Enregistrez les absences des salariés et visualisez les statistiques d'indisponibilité par divers filtres. |[Procédure : Gérer les absences des salariés](hr-how-manage-absence.md) |
+| Enregistrez les nouveaux salariés ou modifiez les enregistrements pour les salariés existants, et joignez des informations connexes, telles que des contrats et des articles. |[Enregistrer les employés](hr-how-register-employees.md) |
+| Enregistrez les absences des salariés et visualisez les statistiques d'indisponibilité par divers filtres. |[Gérer les absences des salariés](hr-how-manage-absence.md) |
 
 ## <a name="see-also"></a>Voir aussi
 [Finances](finance.md)  

@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 3ccedd0f5bede5dc692b1fec89d87e708047a622
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 876c91aad4463f499ca70d14ba4c0e649353e37b
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="adding-links-to-websites-documents-or-programs-on-records"></a>Ajout de liens à des sites Web, documents ou programmes sur des enregistrements

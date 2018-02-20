@@ -13,13 +13,13 @@ ms.search.keywords: project management, capacity, staff
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 0c8fee4bb34a6b16d552840462fdc4f4461498df
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 01c640a033c9607c0401ad471d257003e65ca636
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-resources"></a>Procédure : Paramétrer des ressources
+# <a name="set-up-resources"></a>Paramétrer des ressources
 Pour gérer correctement les activités liées aux ressources, vous devez configurer ces dernières, ainsi que les coûts et prix associés. Les prix, remises et règles de facteur coût associés au projet, sont définis dans la fiche projet. Vous pouvez spécifier les coûts et prix pour des ressources individuelles, des groupes de ressources, ou toutes les ressources disponibles de la société.
 
 Lorsque des ressources sont utilisées ou vendues dans le cadre d'un projet, les prix et les coûts qui leur sont associés sont récupérés à l'aide des informations de configuration.
@@ -41,7 +41,7 @@ Vous pouvez combiner plusieurs ressources dans un groupe ressources. Toutes les 
 3. Renseignez les champs selon vos besoins.
 
 ## <a name="to-set-capacity-for-a-resource"></a>Pour définir la capacité d'une ressource
-Pour calculer le temps qu'une ressource peut passer sur des projets, leur capacité doit d'abord être configurée comme temps disponible par période sur le calendrier de travail. Cette configuration est utilisée lorsque vous renseignez les lignes planning projet qui contiennent la ressource. Pour plus d'informations, reportez-vous à [Procédure : Créer des projets](projects-how-create-jobs.md).
+Pour calculer le temps qu'une ressource peut passer sur des projets, leur capacité doit d'abord être configurée comme temps disponible par période sur le calendrier de travail. Cette configuration est utilisée lorsque vous renseignez les lignes planning projet qui contiennent la ressource. Pour plus d'informations, voir [Créer des projets](projects-how-create-jobs.md).
 
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Ressources**, puis sélectionnez le lien connexe.
 2. Ouvrez la fiche ressource appropriée, puis cliquez sur **Capacité ressource**.

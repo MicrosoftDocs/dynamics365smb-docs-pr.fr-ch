@@ -1,5 +1,5 @@
 ---
-title: Changer de Tableau de bord| Microsoft Docs
+title: Changer de tableau de bord| Microsoft Docs
 description: "Vous pouvez sélectionner un autre profil dans Financials pour modifier ce que vous voyez sur votre page Accueil."
 services: project-madeira
 documentationcenter: 
@@ -13,13 +13,13 @@ ms.search.keywords: Profile
 ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 7e49359f29bcb101b2dc16236e9b617962248a67
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 454385cf346510396b7ff154164e4495bb784419
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-change-the-role-center"></a>Procédure : changer de Tableau de bord
+# <a name="change-the-role-center"></a>Changer de tableau de bord
 La page d'accueil est votre principal point d'accès à [!INCLUDE[d365fin](includes/d365fin_md.md)]. Elle vous permet d'obtenir une vue d'ensemble des tâches quotidiennes et de leur statut. Vous pouvez accéder aux tâches que vous effectuez souvent par l'intermédiaire des mosaïques de la zone de contenu, du volet de navigation de gauche, et par l'intermédiaire des actions dans le ruban.
 
 Le contenu de la page d'accueil est basé sur le Tableau de bord sélectionné. Le Tableau de bord standard pour [!INCLUDE[d365fin](includes/d365fin_md.md)] est **Gestionnaire d'activité**, mais vous pouvez modifier ce paramètre et choisir entre plusieurs Tableaux de bord.

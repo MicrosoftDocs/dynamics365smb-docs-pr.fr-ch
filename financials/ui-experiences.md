@@ -1,6 +1,6 @@
 ---
 title: "Choix de l'expérience utilisateur pour masquer ou afficher des fonctions avancées | Microsoft Docs"
-description: "En savoir plus sur ce que signifie le niveau d'expérience Basic et Suite pour l'interface utilisateur, les domaines d'application, et votre société dans Dynamics 365 Business edition."
+description: "En savoir plus sur ce que signifie le niveau d'expérience Basic et Essentiels pour l'interface utilisateur, les domaines d'application, et votre société."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -8,27 +8,25 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Suite, Basic, user interface, application area
-ms.date: 08/22/2017
+ms.search.keywords: essentials, basic, user interface, application area, experience
+ms.date: 01/24/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 361019af4ba1832cd0b9ac39c20bf22e98b38a76
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f019ffbc0c8f02d6facfe58e96de469e90a26a3c
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="customizing-your-included365finlongincludesd365finlongmdmd-experience"></a>Personnalisation de votre expérience [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
-[!INCLUDE[d365fin](includes/d365fin_md.md)] est conçu pour vous aider à gérer vos affaires, sans vous soucier du secteur d'activité dans lequel vous vous trouvez. Au centre de [!INCLUDE[d365fin](includes/d365fin_md.md)], vous trouverez les états financiers ainsi que les processus vente et achat. Vous pouvez y ajouter des expériences en fonction des besoins de votre activité en ajoutant des extensions à partir d'AppSource. Vous pouvez également activer ou désactiver le volume sur l'expérience utilisateur et choisir ce qui convient à votre société. Pour plus d'informations, voir [Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md).
+# <a name="customizing-your-included365finincludesd365finmdmd-experience"></a>Personnalisation de votre expérience [!INCLUDE[d365fin](includes/d365fin_md.md)]
+[!INCLUDE[d365fin](includes/d365fin_md.md)] est conçu pour vous aider à gérer vos affaires, sans vous soucier du secteur d'activité dans lequel vous vous trouvez. Au centre de [!INCLUDE[d365fin](includes/d365fin_md.md)], vous trouverez les états financiers ainsi que les processus vente et achat. Vous pouvez y ajouter des expériences en fonction des besoins de votre activité en ajoutant des extensions à partir d'AppSource ou en modifiant le paramètre Expérience de votre société. Pour plus d'informations, voir [Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md) ou la section *Choisir une expérience utilisateur* ci-après.
 
-## <a name="choosing-a-user-experience"></a>Choisir une expérience utilisateur
+## <a name="choosing-a-user-experience-to-show-or-hide-features"></a>Choix de l'expérience utilisateur pour masquer ou afficher des fonctions
 L'expérience utilisateur détermine le degré de visibilité de la fonctionnalité principale quand vos collègues et vous-même utilisez [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vous pouvez choisir l'expérience utilisateur pour votre société dans la fenêtre **Informations société** du champ **Expérience**.
-
+  
 > [!NOTE]  
->   Ce paramètre s'applique à tous les utilisateurs au sein de votre société.
-
-![Expérience](media/ui-experience/experience.gif)
-
+> Ce paramètre s'applique à tous les utilisateurs au sein de votre société. Les utilisateurs peuvent personnaliser leur propre expérience en modifiant les mises en page et le contenu. Pour plus d'informations, voir [Personnalisation de votre espace de travail et des pages](ui-personalization-user.md).  
+  
 Le tableau suivant répertorie les expériences actuellement disponibles.
 
 | Expérience | Impact sur l'interface utilisateur |
@@ -38,8 +36,8 @@ Le tableau suivant répertorie les expériences actuellement disponibles.
 
 ## <a name="see-also"></a>Voir aussi .
 [Modification des paramètres de base](ui-change-basic-settings.md)  
-[Personnalisation de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] à l'aide des extensions](ui-extensions.md)  
-[Utilisation de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
+[Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md)  
+[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 

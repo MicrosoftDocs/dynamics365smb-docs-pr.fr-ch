@@ -1,6 +1,6 @@
 ---
 title: "Procédure pas à pas : Réception et rangement dans les configurations de stockage de base | Microsoft Docs"
-description: "Dans Dynamics 365, les processus entrants de réception et de rangement peuvent être effectués de quatre manières, à l'aide de différentes fonctionnalités en fonction du niveau de complexité de l'entrepôt."
+description: "Dans Finance and Operations, Business edition, les processus entrants de réception et de rangement peuvent être effectués de quatre manières, à l'aide de différentes fonctionnalités en fonction du niveau de complexité de l'entrepôt."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 52b017591b389c883e8a0bbeb35c1e3a3a9e7377
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b420bc1cc0707824385cda832ac905c016cdd706
 ms.contentlocale: fr-ch
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Procédure pas à pas : Réception et rangement dans les configurations de stockage de base
@@ -134,11 +134,11 @@ Dans la fenêtre **Rangement stock**, vous pouvez gérer toutes les activités e
     Les 40 haut-parleurs sont à présent enregistrés comme rangés dans l'emplacement S-01-0001, et une écriture comptable article positive est créée pour refléter la réception achat validée.  
 
 ## <a name="see-also"></a>Voir aussi  
- [Comment ranger des articles avec le rangement stock](warehouse-how-to-put-items-away-with-inventory-put-aways.md)   
- [Procédure : configurer des entrepôts de base avec les zones d'opérations](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)   
- [Procédure : déplacer les composants vers une zone opérations dans les configurations de stockage de base](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
- [Procédure : Prélever pour la fabrication et l'assemblage](warehouse-how-to-pick-for-production.md)   
- [Procédure : déplacer des articles ad hoc dans les configurations de stockage de base.](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)   
+ [Ranger des articles avec le rangement stock](warehouse-how-to-put-items-away-with-inventory-put-aways.md)   
+ [Configurer des entrepôts de base avec les zones d'opérations](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)   
+ [Déplacer les composants vers une zone opérations dans les configurations de stockage de base](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
+ [Prélever pour la fabrication et l'assemblage](warehouse-how-to-pick-for-production.md)   
+ [Déplacer des articles ad hoc dans les configurations de stockage de base](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)   
  [Détails de conception : flux d'enlogement](design-details-inbound-warehouse-flow.md)   
  [Procédures pas à pas liées au processus entreprise](walkthrough-business-process-walkthroughs.md)  
  [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

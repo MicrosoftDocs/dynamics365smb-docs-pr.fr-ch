@@ -1,6 +1,6 @@
 ---
 title: "Procédure d'utilisation des centres de gestion | Microsoft Docs"
-description: "Les centres de gestion permettent de gérer les centres administratifs. Un centre de gestion peut être un centre de coûts, un centre de profit, un centre d'investissement ou tout autre centre administratif défini par la société."
+description: "Les centres de gestion permettent de gérer les centres administratifs. Un centre de gestion peut être un centre de coût, un centre de profit, un centre d'investissement ou un autre centre administratif défini par la société."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ed7d44650d174b1ce3b7a1140e251858512f5e13
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b1a8eb26783b7e93e9afe04b13298972af83175d
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-responsibility-centers"></a>Procédure : utiliser les centres de gestion
+# <a name="work-with-responsibility-centers"></a>Utiliser les centres de gestion
 Les centres de gestion permettent de gérer les centres administratifs. Un centre de gestion peut être un centre de coûts, un centre de profit, un centre d'investissement ou tout autre centre administratif défini par la société. Un bureau de vente, un département d'achat pour plusieurs emplacements, un bureau de planification d'usine, etc. sont des exemples de centres de gestion. Par exemple, cette fonctionnalité permet aux sociétés de paramétrer des vues spécifiques à l'utilisateur des documents vente et achat associés exclusivement à un centre de gestion particulier.  
 
 L'utilisation de plusieurs magasins avec des centres de gestion permet de gérer les activités commerciales de façon flexible et optimale.

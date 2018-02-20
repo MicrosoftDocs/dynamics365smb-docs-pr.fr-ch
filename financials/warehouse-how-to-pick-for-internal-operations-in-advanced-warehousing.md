@@ -13,22 +13,22 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 8c07bddf7a4667f455f4512871d2a8c743c5014c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 0a18e88ae9bb34b3cf5aa9d4a28e1d087ba9aa40
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-pick-for-assembly-or-production-in-advanced-warehouse-configurations"></a>Procédure : prélever pour l'assemblage ou la fabrication dans les configurations de stockage avancées.
+# <a name="pick-for-assembly-or-production-in-advanced-warehouse-configurations"></a>Prélever pour l'assemblage ou la fabrication dans les configurations de stockage avancées.
 Dans les configurations de stockage avancées, dans lequel le magasin est configuré pour utiliser le prélèvement ainsi que l'expédition, vous pouvez prélever des composants pour les activités de fabrication et d'assemblage à l'aide de la fenêtre **Prélèvement entrepôt**.  
 
-Vous pouvez également utiliser la fenêtre **Feuille mouvement** pour déplacer des articles entre emplacements ad hoc, c'est-à-dire sans référence à un document origine. Pour plus d'informations, voir [Procédure : déplacer des articles dans les configurations de stockage avancées](warehouse-how-to-move-items-in-advanced-warehousing.md).  
+Vous pouvez également utiliser la fenêtre **Feuille mouvement** pour déplacer des articles entre emplacements ad hoc, c'est-à-dire sans référence à un document origine. Pour plus d'informations, voir [Déplacer des articles dans les configurations de stockage avancées](warehouse-how-to-move-items-in-advanced-warehousing.md).  
 
-Pour plus d'informations sur le prélèvement d'articles pour des opérations internes dans les entrepôts de base qui sont configurés uniquement pour le prélèvement, reportez-vous à [Procédure : déplacer les composants vers une zone opérations dans les configurations de stockage de base](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).  
+Pour plus d'informations sur le prélèvement d'articles pour des opérations internes dans les entrepôts de base qui sont configurés uniquement pour le prélèvement, voir [Déplacer les composants vers une zone opérations dans les configurations de stockage de base](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).  
 
 Vous ne pouvez pas créer de toutes pièces un document prélèvement entrepôt car une activité de prélèvement fait toujours partie d'un flux de travail, soit dans un scénario d'extraction, soit dans un scénario de déplacement.  
 
-Vous pouvez créer le document prélèvement entrepôt par déplacement en sélectionnant **Créer prélèvement ent.** dans le document origine, par exemple, un ordre d'assemblage ou une expédition entrepôt lancé. Pour plus d'informations, voir [Procédure : prélever des articles avec les prélèvements entrepôt](warehouse-how-to-pick-items-for-warehouse-shipment.md).  
+Vous pouvez créer le document prélèvement entrepôt par déplacement en sélectionnant **Créer prélèvement ent.** dans le document origine, par exemple, un ordre d'assemblage ou une expédition entrepôt lancé. Pour plus d'informations, voir [Prélever des articles avec les prélèvements entrepôt](warehouse-how-to-pick-items-for-warehouse-shipment.md).  
 
 Sinon, vous pouvez créer le document prélèvement entrepôt par extraction à l'aide de la fenêtre **Feuille prélèvement** pour détecter les demandes de prélèvement, à la fois pour l'expédition et les opérations internes, puis créer les documents prélèvement entrepôt requis.  
 

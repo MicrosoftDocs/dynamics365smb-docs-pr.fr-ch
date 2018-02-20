@@ -13,10 +13,10 @@ ms.search.keywords: procurement, supply, vendor order
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 4c6285b1e394e5953fd76953ed2ab45e9b40ec3d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 626cd19b6d4ed553d740964f1530b581e22b45a6
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-purchasing"></a>Définition des achats
@@ -30,10 +30,10 @@ Les configurations relatives à la finance, telles que les modes de règlement e
 
 | Pour | Voir |
 | --- | --- |
-| Créer une fiche fournisseur pour chaque fournisseur auquel vous achetez des biens|[Procédure : enregistrer de nouveaux fournisseurs](purchasing-how-register-new-vendors.md) |
-| Entrer les différents remises et prix spéciaux que vous accordent les fournisseurs en fonction de l'article, des quantités et/ou de la date |[Procédure : enregistrer des accords sur les prix d'achat, les remises et les paiements](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
-| Octroyer une priorité aux fournisseurs |[Procédure : octroyer une priorité à des fournisseurs](purchasing-how-prioritize-vendors.md) |
-| Configurer les acheteurs |[Procédure : configurer des acheteurs](purchasing-how-setup-purchasers.md) |
+| Créer une fiche fournisseur pour chaque fournisseur auquel vous achetez des biens|[Enregistrer un nouveau fournisseur](purchasing-how-register-new-vendors.md) |
+| Entrer les différents remises et prix spéciaux que vous accordent les fournisseurs en fonction de l'article, des quantités et/ou de la date |[Enregistrer des accords sur les prix d'achat, les remises et les paiements](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
+| Octroyer une priorité aux fournisseurs |[Octroyer une priorité aux fournisseurs](purchasing-how-prioritize-vendors.md) |
+| Configurer les acheteurs |[Configurer les acheteurs](purchasing-how-setup-purchasers.md) |
 
 ## <a name="see-also"></a>Voir aussi
 [Achats](purchasing-manage-purchasing.md)  

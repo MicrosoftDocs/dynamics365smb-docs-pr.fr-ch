@@ -13,13 +13,13 @@ ms.search.keywords: Yodlee, feed, stream, payment process
 ms.date: 09/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
-ms.openlocfilehash: 5f4b675db86bc6fef19a587454e1e513fe6fa83d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: fa5c0c39dbbce40b59d639f810522c66da1a09ab
 ms.contentlocale: fr-ch
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-the-envestnet-yodlee-bank-feeds-service"></a>Procédure: configurer le service de flux de la Envestnet Yodlee Bank
+# <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Configurer le service de flux de la Envestnet Yodlee Bank
 Vous pouvez importer des relevés bancaires électroniques auprès de votre banque pour renseigner rapidement la fenêtre **Feuille rapprochement bancaire** de sorte à pouvoir lettrer les paiements et rapprocher le compte bancaire. Pour plus d'informations, reportez-vous à [Lettrage automatique des paiements et rapprochement des comptes bancaires](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 Le service de flux de la banque Envestnet Yodlee est installé comme une extension de [!INCLUDE[d365fin](includes/d365fin_md.md)] et est prêt à être activé. Pour plus d'informations, voir [Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md).
@@ -63,7 +63,7 @@ Le service de flux bancaire est activé lorsque vous liez un compte bancaire à 
     À la fin du processus, le nom de la banque s'affiche dans le volet **Mes comptes** sur l'onglet **Lié**. Le numéro entre parenthèses indique le nombre de comptes bancaires en ligne ayant été liés.  
 7. Cliquez sur le bouton **OK**.
 
-    Si vous liez un seul compte bancaire en ligne, la fenêtre **Fiche compte bancaire archivé** s'ouvre et affiche le nom du compte bancaire en ligne. Dans ce cas, la tâche de liaison de compte bancaire est terminée. Il ne vous reste plus qu'à configurer le compte bancaire. Pour plus d'informations, reportez vous à [Procédure: configuration de comptes bancaires](bank-how-setup-bank-accounts.md).
+    Si vous liez un seul compte bancaire en ligne, la fenêtre **Fiche compte bancaire archivé** s'ouvre et affiche le nom du compte bancaire en ligne. Dans ce cas, la tâche de liaison de compte bancaire est terminée. Il ne vous reste plus qu'à configurer le compte bancaire. Pour plus d'informations, reportez vous à [Configuration de comptes bancaires](bank-how-setup-bank-accounts.md).
 
     Si plusieurs comptes bancaires en ligne sont liés, la fenêtre **Comptes bancaires liés** s'ouvre et répertorie les comptes bancaires en ligne supplémentaires qui n'ont pas encore été liés à des comptes bancaires dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dans ce cas, suivez l'étape suivante.  
 8. Dans la fenêtre **Comptes bancaires liés**, sélectionnez la ligne correspondant à un compte bancaire en ligne, puis sélectionnez l'action **Lier à un nouveau compte bancaire**.  

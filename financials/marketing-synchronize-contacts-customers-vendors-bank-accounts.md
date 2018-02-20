@@ -13,10 +13,10 @@ ms.search.keywords: relationship, CRM, integration, couple
 ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: dbb29d9d53618eec69817455d4304da2a6bfe466
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2b85c52378a351dbc1a0809ec540b1f53c8074ef
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="synchronizing-contacts-with-customers-vendors-and-bank-accounts"></a>Synchronisation des contacts avec les clients, les fournisseurs et les comptes bancaires
@@ -27,7 +27,7 @@ Pour pouvoir synchroniser vos contacts avec des clients, des fournisseurs ou des
 ## <a name="different-ways-to-synchronize-contacts-with-customers-vendors-and-bank-accounts"></a>Différentes manières de synchroniser les contacts avec les clients, les fournisseurs et les comptes bancaires
 Pour synchroniser vos contacts avec des clients, des fournisseurs ou des comptes bancaires, choisissez l'une des trois méthodes suivantes :
 
-* Liaison de contacts avec des clients, des fournisseurs ou des comptes bancaires existants à partir de la fiche contact. Pour plus d'informations, reportez-vous à [Procédure : liaison de contacts avec des clients, des fournisseurs et des comptes bancaires](marketing-how-link-contact.md).
+* Liaison de contacts avec des clients, des fournisseurs ou des comptes bancaires existants à partir de la fiche contact. Pour plus d'informations, voir [Liaison de contacts avec des clients, des fournisseurs et des comptes bancaires](marketing-how-link-contact.md).
 * Créez des clients, des fournisseurs ou des comptes bancaires à partir du contact. Pour plus d'informations, reportez-vous à [Créer un client, un fournisseur ou un compte bancaire à partir d'un contact](marketing-how-create-contacts-new-customers-vendors-bank-accounts.md).
 * Créez des contacts à partir de clients, fournisseurs ou comptes bancaires. Pour plus d'informations, voir [Créer un contact société à partir d'un client, d'un fournisseur ou d'un compte bancaire](marketing-how-create-contact-companies.md).
 

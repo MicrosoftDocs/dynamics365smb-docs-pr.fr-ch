@@ -13,13 +13,13 @@ ms.search.keywords: payment application, payment processing, match payments
 ms.date: 06/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
-ms.openlocfilehash: 7c13f127f1ca9f9d95878d79afe21488df7868a6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2d59bfc3314a97b3145d17d11755539c82858234
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-reconcile-vendor-payments-manually"></a>Procédure : rapprocher les paiements fournisseur manuellement
+# <a name="reconcile-vendor-payments-manually"></a>Rapprocher les paiements fournisseur manuellement
 Lorsque vous envoyez un règlement à un fournisseur ou recevez un remboursement de sa part, vous devez décider si vous souhaitez lettrer le paiement ou le remboursement avec une ou plusieurs écritures ouvertes. Vous pouvez indiquer le montant exact que vous souhaitez lettrer avec la réception paiement ou le remboursement, puis ne lettrer que partiellement les écritures comptables fournisseur. Vous devez lettrer toutes les écritures comptables fournisseur pour obtenir des statistiques fournisseur et des rapports corrects des états financiers et des intérêts de retard.
 
 > [!NOTE]  
@@ -93,7 +93,7 @@ Vous pouvez également lettrer des paiements fournisseur et des paiements client
 ## <a name="to-apply-vendor-ledger-entries-in-different-currencies-to-one-another"></a>Pour lettrer des écritures comptables fournisseur en devises différentes les unes avec les autres
 Si vous achetez des produits auprès d'un fournisseur dans une devise et que vous effectuez le paiement dans une autre devise, vous pouvez tout de même lettrer la facture avec le paiement.
 
-Si vous lettrez une écriture (Écriture 1) dans une devise avec une autre écriture (Écriture 2) dont la devise est différente, la date de comptabilisation de l'Écriture 1 est utilisée pour trouver le taux de change adéquat et convertir les montants de l'Écriture 2. Le taux de change approprié se trouve dans la fenêtre **Taux de change devise**. Dans ce cas, vous devez activer le lettrage d'écritures comptables fournisseur en devises différentes. Pour plus d'informations, reportez-vous à [Procédure : activer le lettrage d'écritures comptables client en devises différentes](finance-how-enable-application-ledger-entries-different-currencies.md)
+Si vous lettrez une écriture (Écriture 1) dans une devise avec une autre écriture (Écriture 2) dont la devise est différente, la date de comptabilisation de l'Écriture 1 est utilisée pour trouver le taux de change adéquat et convertir les montants de l'Écriture 2. Le taux de change approprié se trouve dans la fenêtre **Taux de change devise**. Dans ce cas, vous devez activer le lettrage d'écritures comptables fournisseur en devises différentes. Pour plus d'informations, voir [Activer le lettrage d'écritures comptables client en devises différentes](finance-how-enable-application-ledger-entries-different-currencies.md)
 
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille paiement**, puis sélectionnez le lien connexe.
 2. Ouvrez la feuille que vous souhaitez, puis renseignez la première ligne vide de la feuille à l'aide d'un code devise.

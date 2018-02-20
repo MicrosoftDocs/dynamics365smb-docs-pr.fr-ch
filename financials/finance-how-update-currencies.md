@@ -1,6 +1,6 @@
 ---
 title: "Mise à jour des taux de change des devises| Microsoft Docs"
-description: "Pour utiliser plusieurs devises dans votre société, vous pouvez définir un code pour chaque devise et utiliser un service externe de taux de change, par exemple Yahoo."
+description: "Pour utiliser plusieurs devises dans votre société, vous pouvez définir un code pour chaque devise et utiliser un service externe de taux de change, par exemple FloatRates."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -9,17 +9,17 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: multiple currencies, Yahoo
-ms.date: 07/02/2017
+ms.search.keywords: multiple currencies
+ms.date: 01/25/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: eecb1c7b7bcb62e8dc7def488f66338855dad030
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 973e2559b5cbf3e21bb735267ac800f87fa5a7f6
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-update-currency-exchange-rates"></a>Procédure : mettre à jour les taux de change des devises
+# <a name="update-currency-exchange-rates"></a>Mettre à jour des taux de change devise
 Vous devez définir un code pour chaque devise utilisée si vous achetez ou vendez dans des devises différentes de votre devise locale, si vous disposez de comptes client ou fournisseur dans d'autres devises, ou si vous enregistrez des transactions comptables dans des devises différentes.  
 
 Les sociétés opérant dans un nombre croissant de pays/régions, il est de plus en plus important qu'elles puissent consulter ou générer des états financiers dans plusieurs devises. Le programme prend en charge l'utilisation de plusieurs devises. Dans le programme, la comptabilité est configurée pour utiliser votre devise société (DS) et une autre devise est configurée comme devise supplémentaire, à laquelle est affecté un taux de change courant.  
@@ -41,11 +41,8 @@ L'utilisation d'une devise report peut faciliter le processus de génération d'
 
 Plusieurs états dans le module Comptabilité sont basés sur les écritures comptables. Pour afficher les données financières dans les états en devise report, sélectionnez simplement le champ **Afficher dans la devise suppl.** dans la fenêtre de l'état comptable approprié.  
 
-> [!NOTE]  
->   Cette fonctionnalité nécessite que votre expérience soit définie sur **Suite**. Pour plus d'informations, voir [Personnalisation de votre expérience [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
-
 ## <a name="to-set-up-a-currency-exchange-rate-service"></a>Configurer un service de taux de change des devises
-Vous pouvez utiliser un service externe pour tenir vos taux de change des devises à jour. Le service Configuration des taux de change devise Yahoo est préinstallé et prêt à être activé.
+Vous pouvez utiliser un service externe pour tenir vos taux de change des devises à jour, par exemple FloatRates.
 
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Services de taux de change devise**, puis sélectionnez le lien connexe.
 2. Sélectionnez l'action **Nouveau**.

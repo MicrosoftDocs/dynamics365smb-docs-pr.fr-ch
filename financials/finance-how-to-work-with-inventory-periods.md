@@ -13,13 +13,13 @@ ms.search.keywords: inventory, periods
 ms.date: 08/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 8f9c289f4fef06ef0b684dd7176630d29b2fc5d3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 8f3d24dda00e3234dfcf7538c7f4fb7fbc008221
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-inventory-periods"></a>Procédure : utiliser les périodes inventaire
+# <a name="work-with-inventory-periods"></a>Utiliser les périodes inventaire
 Les périodes inventaire sont des périodes au cours desquelles vous pouvez valider des modifications de stock. Une période inventaire est définie par la date à laquelle elle se termine. Lorsque vous clôturez une période inventaire, vous ne pouvez pas valider de modifications de stock, qu'elles soient prévues ou facturées, avant cette date fin. Vous ne pouvez pas valider de nouvelles valeurs dans le stock avant la date fin. Si vous avez des écritures article ouvertes dans la période clôturée, ce qui signifie des quantités positives qui n'ont pas encore été lettrées sur des transactions sortantes, vous pouvez encore lettrer des quantités sortantes sur ces écritures, même si la période est clôturée.  
 
 Les sections suivantes décrivent comment :  
@@ -29,7 +29,7 @@ Les sections suivantes décrivent comment :
 * Rouvrir des périodes inventaire.  
 
 ## <a name="to-create-an-inventory-period"></a>Pour créer une période inventaire  
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Périodes inventaire**, puis sélectionnez le lien connexe.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Périodes inventaire**, puis sélectionnez le lien connexe.  
 2. Créez une ligne.  
 3. Dans le champ **Date fin**, entrez la dernière date que vous voulez définir pour la période inventaire. Une fois la période clôturée, vous ne pouvez plus valider de modifications de stock antérieures à cette date.  
 4. Saisissez un nom descriptif dans le champ **Nom**. Cliquez sur le bouton **OK**.  

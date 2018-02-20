@@ -13,17 +13,17 @@ ms.search.keywords: bank account transfer, multiple currencies
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 20661cce60bc9007adb9767388bf5af6f9c3acb9
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d3bd448ef67f742794e3a162bd828e38366775bb
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-transfer-bank-funds"></a>Procédure : Transfert de fonds à la banque
+# <a name="transfer-bank-funds"></a>Transfert de fonds à la banque
 Vous pouvez avoir à transférer un montant d'un compte bancaire à un autre. Pour cela, vous devez valider une transaction dans la feuille comptabilité. La tâche varie selon que les comptes bancaires utilisent la même devise ou des devises différentes.
 
 ## <a name="to-post-a-transfer-between-bank-accounts-with-the-same-currency-code"></a>Pour valider un transfert entre comptes bancaires avec le même code devise
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille comptabilité**, puis sélectionnez le lien connexe.
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Feuille comptabilité**, puis sélectionnez le lien connexe.
 2. Dans une ligne feuille, renseignez les champs **Date comptabilisation** et **N° document** .
 3. Cliquez sur le champ **Type compte**, sélectionnez le **Compte bancaire**.
 4. Dans le champ **N° compte**, sélectionnez le compte bancaire à partir duquel vous souhaitez transférer les fonds.
@@ -35,7 +35,7 @@ Vous pouvez avoir à transférer un montant d'un compte bancaire à un autre. Po
 ## <a name="to-post-a-transfer-between-bank-accounts-with-different-currency-codes"></a>Pour valider des transferts entre comptes bancaires dotés de codes devise différents
 Pour transférer des fonds entre des comptes bancaires qui utilisent des devises différentes, vous devez valider deux lignes feuille comptabilité.
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille comptabilité**, puis sélectionnez le lien connexe.
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Feuille comptabilité**, puis sélectionnez le lien connexe.
 2. Créez deux lignes feuille, et renseignez les champs **Date comptabilisation** et **N° document**.
 3. Sur la première ligne feuille, dans le champ **Type**, sélectionnez **Compte bancaire**.
 4. Dans le champ **N° compte**, sélectionnez le compte bancaire à partir duquel vous souhaitez transférer les fonds.

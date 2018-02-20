@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9555f2810e82711c9cac98cfe002cb99289ce474
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 38a37195932d1f00928c10e86fa19425eb228f5f
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-put-away-production-or-assembly-output"></a>Procédure : rangement du résultat de fabrication ou d'assemblage
+# <a name="put-away-production-or-assembly-output"></a>Rangement du résultat de fabrication ou d'assemblage
 Le mode de rangement de la production dépend du mode de configuration de l'entrepôt en tant qu'emplacement. Pour plus d'informations, voir [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md).  
 
 Dans les configurations de stockage de base où l'emplacement appelle un traitement de rangement, sans appeler de traitement de réception, vous pouvez utiliser le document **Rangement stock** pour organiser et enregistrer le rangement de la production.  
@@ -33,16 +33,16 @@ La première étape dans la création d'un rangement de production consiste à c
 2.  Sur l’ordre de fabrication qui est prêt pour rangement, choisissez l'action **Créer demande d’enlogement**.  
 
 > [!NOTE]  
->  Vous pouvez également créer la demande enlogement entrepôt en sélectionnant le champ **Créer demande d'enlogement** lors de l'actualisation de l'ordre de fabrication. Pour plus d'informations, voir [Procédure : actualiser ou replanifier des ordres de fabrication](production-how-to-replan-refresh-production-orders.md).  
+>  Vous pouvez également créer la demande enlogement entrepôt en sélectionnant le champ **Créer demande d'enlogement** lors de l'actualisation de l'ordre de fabrication. Pour plus d'informations, voir [Actualiser ou replanifier des ordres de fabrication](production-how-to-replan-refresh-production-orders.md).  
 
 ## <a name="to-put-output-away-with-an-inventory-put-away"></a>Pour ranger la production avec un rangement stock  
 1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Rangements stock**, puis sélectionnez le lien connexe.  
-2.  Créez un rangement stock. Pour plus d'informations, voir [Procédure : ranger des articles avec le rangement stock](warehouse-how-to-put-items-away-with-inventory-put-aways.md)
+2.  Créez un rangement stock. Pour plus d'informations, voir [Ranger des articles avec le rangement stock](warehouse-how-to-put-items-away-with-inventory-put-aways.md)
 3.  Pour accéder aux composants de la production de l'O.F., choisissez l'action **Extraire documents origine**, puis sélectionnez l'ordre de fabrication lancé.  
 4.  Renseignez les lignes rangement en fonction des besoins.
 5.  Lorsque les lignes sont prêtes à être validées, choisissez l'action **Valider**. Les écritures entrepôt nécessaires sont alors créées et la production des articles est validée.  
 
-Vous pouvez également créer un **rangement stock** directement à partir de l'ordre de fabrication de lancé. Pour plus d'informations, voir [Procédure : ranger des articles avec le rangement stock](warehouse-how-to-put-items-away-with-inventory-put-aways.md)  
+Vous pouvez également créer un **rangement stock** directement à partir de l'ordre de fabrication de lancé. Pour plus d'informations, voir [Ranger des articles avec le rangement stock](warehouse-how-to-put-items-away-with-inventory-put-aways.md)  
 
 Lorsque vous validez un rangement stock, on suppose que toutes les opérations sont validées en fonction de la gamme standard, à savoir que la quantité produite est validée en fonction de la dernière opération. Vous pouvez utiliser la feuille production pour valider les écarts de quantité produite et les temps d'exécution et de préparation. S'il est nécessaire d'effectuer une validation partielle après la création d'un rangement stock, vous pouvez le faire au niveau des temps de préparation et des quantités pour toutes les opérations, à l'exception de la dernière. Dans ce cas, la dernière opération est contrôlée par le rangement stock.  
 

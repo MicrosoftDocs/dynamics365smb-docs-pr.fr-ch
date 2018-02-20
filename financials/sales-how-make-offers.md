@@ -12,16 +12,16 @@ ms.search.keywords: rfq
 ms.date: 08/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6d1c4a937a8030c2f6dbef578a5d5f168faafc31
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 552fbf283a9149c430ea1ed94bcea4bd22e43fea
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-make-offers"></a>Procédure : créer des offres
-Vous créez un devis pour enregistrer votre proposition à un client pour vendre certains biens selon certaines conditions de livraison et de paiement. Vous pouvez envoyer un devis au client pour communiquer la proposition. Vous pouvez envoyer par e-mail le document en pièce jointe au format PDF. Vous pouvez faire en sorte que le corps du message soit prérempli avec un résumé du devis. Pour plus d'informations, reportez vous à [Procédure : envoyer des documents par e-mail](ui-how-send-documents-email.md).
+# <a name="make-offers"></a>Créer des offres
+Vous créez un devis pour enregistrer votre proposition à un client pour vendre certains biens selon certaines conditions de livraison et de paiement. Vous pouvez envoyer un devis au client pour communiquer la proposition. Vous pouvez envoyer par e-mail le document en pièce jointe au format PDF. Vous pouvez faire en sorte que le corps du message soit prérempli avec un résumé du devis. Pour plus d'informations, voir [Envoyer des documents par e-mail](ui-how-send-documents-email.md).
 
-Lorsque vous négociez avec le client, vous pouvez modifier et renvoyer autant de devis que nécessaire. Lorsque le client accepte le devis, vous convertissez le devis en facture vente ou en commande vente dans laquelle vous traitez la vente. Pour plus d'informations, reportez-vous à [Procédure : facturer des ventes](sales-how-invoice-sales.md) ou à [Procédure : vendre des produits](sales-how-sell-products.md).
+Lorsque vous négociez avec le client, vous pouvez modifier et renvoyer autant de devis que nécessaire. Lorsque le client accepte le devis, vous convertissez le devis en facture vente ou en commande vente dans laquelle vous traitez la vente. Pour plus d'informations, voir [Facturer des ventes](sales-how-invoice-sales.md) ou [Vendre des produits](sales-how-sell-products.md).
 
 Vous pouvez remplir les champs relatifs au client sur le devis de deux façons selon que le client est déjà enregistré ou non. Reportez-vous aux étapes 2 et 3 de la procédure ci-dessous.
 
@@ -33,7 +33,7 @@ Sur la page d'accueil, sélectionnez l'action **Devis**.
 3. Dans le champ **Client**, entrez le nom du nouveau client.
 4. Dans la boîte de dialogue d'enregistrement du nouveau client, cliquez sur le bouton **Oui**.
 5. Dans la fenêtre **Sélectionnez un modèle pour un nouveau client**, sélectionnez un modèle sur lequel baser la nouvelle fiche client, puis cliquez sur le bouton **OK**.
-6. Une nouvelle fiche client affiche des informations sur le modèle client sélectionné. Renseignez les champs restants. Pour plus d'informations, reportez vous à [Procédure : enregistrer de nouveaux clients](sales-how-register-new-customers.md).  
+6. Une nouvelle fiche client affiche des informations sur le modèle client sélectionné. Renseignez les champs restants. Pour plus d'informations, reportez vous à [Enregistrer de nouveaux clients](sales-how-register-new-customers.md).  
 7. Lorsque vous avez terminé la fiche client, cliquez sur le bouton **OK** pour revenir à la fenêtre **Devis**.
 
    Plusieurs champs du devis sont désormais renseignés avec les informations que vous avez spécifiées sur la nouvelle fiche client.  
@@ -46,7 +46,7 @@ Si vous avez défini des lignes vente récurrentes pour le client, tel qu'un ord
 10. Dans le champ **N°**, sélectionnez un enregistrement à valider en fonction de la valeur du champ **Type**.
 
  Laissez le champ **N°** vide dans les cas suivants : - Si la ligne est destinée à un commentaire. Saisissez le commentaire dans le champ **Description**.
- -Si la ligne est destinée à un article non stocké. Sélectionnez l'action **Sélectionner articles non stockés**. Pour en savoir plus, voir [Procédure : utiliser des articles non stockés](inventory-how-work-nonstock-items.md).
+ -Si la ligne est destinée à un article non stocké. Sélectionnez l'action **Sélectionner articles non stockés**. Pour en savoir plus, voir [Utiliser des articles non stockés](inventory-how-work-nonstock-items.md).
 
 11. Dans le champ **Quantité**, entrez le nombre d'unités du produit, de frais ou de la transaction que la ligne enregistre pour le client.
 
@@ -66,14 +66,14 @@ Si vous avez défini des lignes vente récurrentes pour le client, tel qu'un ord
 
     Si vous avez défini des remises facture pour le client, le pourcentage spécifié est automatiquement inséré dans le champ **% remise facture** si les critères sont réunis, et le montant associé est inséré dans le champ **Montant remise facture sans TVA**. Pour plus d'informations, reportez-vous à [Enregistrement des prix de vente, des remises et des accords sur les paiements](sales-how-record-sales-price-discount-payment-agreements.md).
 15. Lorsque les lignes devis sont renseignées, sélectionnez l'action **Envoyer par e-mail**.
-16. Dans la fenêtre **Envoyer e-mail**, renseignez les champs restants et examinez le devis intégré. Pour plus d'informations, reportez vous à [Procédure : envoyer des documents par e-mail](ui-how-send-documents-email.md).
+16. Dans la fenêtre **Envoyer e-mail**, renseignez les champs restants et examinez le devis intégré. Pour plus d'informations, voir [Envoyer des documents par e-mail](ui-how-send-documents-email.md).
 17. Si le client accepte le devis, sélectionnez l'action **Établir facture** ou **Créer commande**.
 
-Le devis est supprimé de la base de données. Une facture vente ou une commande vente basée sur les informations du devis et dans laquelle vous pouvez traiter la vente est créée. Dans le champ **N° devis** de la facture vente ou de la commande vente, vous pouvez visualiser le numéro du devis à partir duquel elle a été réalisée. Pour plus d'informations, reportez-vous à [Procédure : facturer des ventes](sales-how-invoice-sales.md) ou à [Procédure : vendre des produits](sales-how-sell-products.md).
+Le devis est supprimé de la base de données. Une facture vente ou une commande vente basée sur les informations du devis et dans laquelle vous pouvez traiter la vente est créée. Dans le champ **N° devis** de la facture vente ou de la commande vente, vous pouvez visualiser le numéro du devis à partir duquel elle a été réalisée. Pour plus d'informations, voir [Facturer des ventes](sales-how-invoice-sales.md) ou [Vendre des produits](sales-how-sell-products.md).
 
 ## <a name="see-also"></a>Voir aussi
 [Ventes](sales-manage-sales.md)  
 [Définition des ventes](sales-setup-sales.md)  
-[Procédure : envoyer des documents par e-mail](ui-how-send-documents-email.md)  
+[Envoyer des documents par e-mail](ui-how-send-documents-email.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

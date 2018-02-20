@@ -1,5 +1,5 @@
 ---
-title: "Prélèvement SEPA dans Dynamics 365 | Microsoft Docs"
+title: "Prélèvement SEPA dans Finance and Operations, Business edition | Microsoft Docs"
 description: "Vous pouvez collecter les paiements directement à partir du compte bancaire du client en fonction du format SEPA."
 author: SorenGP
 ms.service: dynamics365-financials
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: 0447e6c9f84457589df5cbc1efaecb2de24e7295
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: cf07a08eebe8bfffc99f7351a96526452728552e
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="collecting-payments-with-sepa-direct-debit"></a>Recouvrement de paiements par prélèvement automatique SEPA
@@ -35,10 +35,10 @@ Avec le consentement de votre client, vous pouvez collecter les paiements direct
 
 |**Pour**|**Voir**|  
 |------------|-------------|  
-|Préparez les formats de compte bancaire, les modes de paiement et les accords clients pour le prélèvement automatique SEPA.|[Procédure : configurer un prélèvement SEPA](finance-how-to-set-up-sepa-direct-debit.md)|  
-|Demander à votre banque de transférer les montants de paiement des comptes bancaires de vos clients vers le compte de votre société en fonction de votre configuration du prélèvement automatique SEPA.|[Procédure : créer des écritures de collection prélèvement automatique SEPA et les exporter vers un fichier bancaire](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)|  
-|Paramétrez des codes vente client standard pour les factures de prélèvement automatique et générez des factures vente avec les informations de prélèvement automatique lorsque les factures sont échues.|[Procédure : Créer des lignes ventes et achat récurrentes](sales-how-work-standard-lines.md)|  
-|Valider les paiements effectués comme prélèvements automatiques SEPA.|[Procédure : valider des réceptions règlement de prélèvement SEPA](finance-how-to-post-sepa-direct-debit-payment-receipts.md)|  
+|Préparez les formats de compte bancaire, les modes de paiement et les accords clients pour le prélèvement automatique SEPA.|[Configurer un prélèvement SEPA](finance-how-to-set-up-sepa-direct-debit.md)|  
+|Demander à votre banque de transférer les montants de paiement des comptes bancaires de vos clients vers le compte de votre société en fonction de votre configuration du prélèvement automatique SEPA.|[Créer des écritures de collection prélèvement automatique SEPA et les exporter vers un fichier bancaire](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)|  
+|Paramétrez des codes vente client standard pour les factures de prélèvement automatique et générez des factures vente avec les informations de prélèvement automatique lorsque les factures sont échues.|[Créer des lignes ventes et achat récurrentes](sales-how-work-standard-lines.md)|  
+|Valider les paiements effectués comme prélèvements automatiques SEPA.|[Valider des réceptions règlement de prélèvement SEPA](finance-how-to-post-sepa-direct-debit-payment-receipts.md)|  
 
 ## <a name="see-also"></a>Voir aussi  
 [Gestion des comptes client](receivables-manage-receivables.md)

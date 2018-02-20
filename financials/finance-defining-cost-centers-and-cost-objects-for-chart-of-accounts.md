@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 0a3b89e2d2a59aa3434e747976437f24860be408
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 92ad393733c758304743ec0b63c98c1612e7240b
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="defining-cost-centers-and-cost-objects-for-chart-of-accounts"></a>Définition des centres de coûts et des coûts associés pour le plan comptable
@@ -43,7 +43,7 @@ Pour chaque compte général, vous pouvez définir des sections analytiques par 
 
 ## <a name="see-also"></a>Voir aussi  
 [Comptabilité pour les coûts](finance-manage-cost-accounting.md)  
-[Procédure : configuration des centres de coûts](finance-how-to-set-up-cost-centers.md)   
-[Procédure : configurer les coûts associés](finance-how-to-set-up-cost-objects.md)  
+[Configuration des centres de coûts](finance-how-to-set-up-cost-centers.md)   
+[Configurer les coûts associés](finance-how-to-set-up-cost-objects.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

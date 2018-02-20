@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/22/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 7ee0dc8f0f44e9bb62fc87caf85eaf92d438abe6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: fb65a8b978a0f87b27cc48a634c4ec64d230221d
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-service-invoices-or-credit-memos"></a>Procédure : créer des factures service ou des avoirs
+# <a name="create-service-invoices-or-credit-memos"></a>Créer des factures service ou des avoirs
 La simplicité de facturation des commandes service est une fonctionnalité clé de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vous pouvez envoyer une facture à vos clients à tout moment ou créer des factures périodiquement.  
   
 La fenêtre **Contrat de service** permet de créer une facture directement. Vous pouvez aussi configurer votre système afin qu'un technicien de service sur le terrain puisse créer une facture service qui est non liée à un contrat ou une commande.  
@@ -99,7 +99,7 @@ Un document avoir service est typiquement utilisé lorsqu'un client retourne un 
 4. Sur les lignes avoir, entrez les informations relatives aux articles retournés ou retirés, ou à la compensation qui sera donnée au client.  
 
 ## <a name="see-also"></a>Voir aussi
-[Procédure : valider des factures service](service-how-to-post-service-orders.md)  
+[Valider des factures service](service-how-to-post-service-orders.md)  
 [Paramétrage de la gestion des services](service-setup-service.md)  
 [Validation de service](service-service-posting.md)  
 

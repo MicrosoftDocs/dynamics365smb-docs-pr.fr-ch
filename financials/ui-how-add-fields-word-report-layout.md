@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: fbbddea07a39b6f725c04971466c33ca9252019e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 77f377d6858294aeb54e30fcb178fc9757ac3938
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-add-fields-to-a-word-report-layout"></a>Procédure : Ajouter des champs à une présentation de rapport Word
+# <a name="add-fields-to-a-word-report-layout"></a>Ajouter des champs à une présentation de rapport Word
 Un ensemble de données de rapport peut être constitué de champs affichant des étiquettes, des données et des images. Cette rubrique décrit la procédure pour ajouter des champs d'un ensemble de données de rapport à une présentation de rapport Word pour un rapport. Vous ajoutez des champs à l'aide du composant XML personnalisé Word pour l'état et en ajoutant des contrôles de contenu qui correspondent aux champs de l'ensemble de données d'état. L'ajout de champs requiert que vous ayez des connaissances sur l'ensemble des données de rapport afin que vous puissiez identifier les champs que vous souhaitez ajouter à la présentation.  
   
 > [!NOTE]  
@@ -29,15 +29,15 @@ Un ensemble de données de rapport peut être constitué de champs affichant des
   
 1.  Si ce n'est pas déjà le cas, ouvrez le document de présentation de rapport Word dans Word.  
   
-     Pour plus d'informations, voir [Procédure : créer et modifier une présentation de rapport personnalisée](ui-how-create-custom-report-layout.md).  
+     Pour plus d'informations, voir [Créer et modifier une présentation de rapport personnalisée](ui-how-create-custom-report-layout.md).  
   
 2.  Afficher l'onglet **Développeur** dans le ruban de Microsoft Word.  
   
-     Par défaut, l'onglet **Développeur** n'est pas affiché dans le ruban. Pour plus d'informations, voir [Procédure : afficher l'onglet Développeur sur le ruban](http://go.microsoft.com/fwlink/?LinkID=389631).  
+     Par défaut, l'onglet **Développeur** n'est pas affiché dans le ruban. Pour plus d'informations, voir [Afficher l'onglet Développeur sur le ruban](http://go.microsoft.com/fwlink/?LinkID=389631).  
   
 3.  Sous l'onglet **Développeur**, sélectionnez **Volet de mappage XML**.  
   
-4.  Dans le volet **Mappage XML**, dans la liste déroulante **Partie XML personnalisée**, choisissez la partie XML personnalisée pour le rapport ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, qui est généralement le dernier de la liste. Le nom de la partie XML personnalisée présente le format suivant :  
+4.  Dans le volet **Mappage XML**, dans la liste déroulante **Partie XML personnalisée**, choisissez la partie XML personnalisée pour le rapport ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]-->, qui est généralement le dernier de la liste. Le nom de la partie XML personnalisée présente le format suivant :  
   
      urn:microsoft-dynamics-nav/reports/*report_name*/*ID*  
   
@@ -80,7 +80,7 @@ Un ensemble de données de rapport peut être constitué de champs affichant des
  Les images s'alignent dans le coin supérieur gauche du contrôle de contenu et sont automatiquement redimensionnés proportionnellement conformément à la limite du contrôle de contenu.  
   
 > [!IMPORTANT]  
->  Vous ne pouvez ajouter que des images dont le format est pris en charge par Word (par ex., .bmp, .jpeg et .png). Si vous ajoutez une image dont le format n'est pas pris en charge par Word, vous obtenez une erreur lorsque vous exécutez le rapport à partir du client ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.  
+>  Vous ne pouvez ajouter que des images dont le format est pris en charge par Word (par ex., .bmp, .jpeg et .png). Si vous ajoutez une image dont le format n'est pas pris en charge par Word, vous obtenez une erreur lorsque vous exécutez le rapport à partir du client ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]-->.  
   
 #### <a name="to-add-an-image"></a>Pour ajouter une image  
   
@@ -107,7 +107,7 @@ Le tableau suivant fournit un aperçu simplifié du XML d'une partie XML personn
 |`..</DataItem1>`<br /><br /> `</WordReportXmlPart>`|Élément de clôture.|  
   
 ### <a name="custom-xml-part-in-word"></a>Partie XML personnalisée dans Word  
- Dans Word, vous ouvrez la partie XML personnalisée dans le volet **Mappage XML** puis utilisez le volet pour mapper les éléments aux contrôles de contenu dans le document Word. Le volet **Mappage XML** est accessible depuis l'onglet **Développeur** (pour plus d'informations, voir [Procédure : afficher l'onglet Développeur sur le ruban](http://go.microsoft.com/fwlink/?LinkID=389631)).  
+ Dans Word, vous ouvrez la partie XML personnalisée dans le volet **Mappage XML** puis utilisez le volet pour mapper les éléments aux contrôles de contenu dans le document Word. Le volet **Mappage XML** est accessible depuis l'onglet **Développeur** (pour plus d'informations, voir [Afficher l'onglet Développeur sur le ruban](http://go.microsoft.com/fwlink/?LinkID=389631)).  
   
  Les éléments figurant dans le volet de **Mappage XML** s'affichent dans une structure qui est similaire à la source XML. Les champs d'étiquette sont rassemblés sous un élément **Étiquettes** commun et les données article et colonnes sont organisées dans une structure hiérarchique qui correspond à la source XML, avec les colonnes répertoriées dans l'ordre alphabétique. Les éléments sont identifiés par leur nom tel que défini par la propriété Name dans Report Dataset Designer dans ADD INCLUDE<!--[!INCLUDE[nav_dev_short](../../includes/nav_dev_short_md.md)]-->.  
   
@@ -124,4 +124,4 @@ Le tableau suivant fournit un aperçu simplifié du XML d'une partie XML personn
 -   La langue de l'étiquette qui s'affiche lorsque vous exécutez l'état dépend du paramétrage de langue de l'objet d'état. <!--OnPrem For more information, see [Multiple Document Languages](../FullExperience/Viewing%20the%20Application%20in%20Different%20Languages.md).-->  
   
 ## <a name="see-also"></a>Voir aussi  
- [Procédure : créer et modifier une présentation de rapport personnalisée](ui-how-create-custom-report-layout.md)   
+ [Créer et modifier une présentation de rapport personnalisée](ui-how-create-custom-report-layout.md)   

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/28/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e9eb165c8ccb196f687c11f4cb4353d88c71de3c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b2607dce0b62a3a1433362491692687d4c868d06
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="service-price-management"></a>Configuration de gestion de prix
@@ -67,6 +67,6 @@ Le tableau suivant décrit les calculs.
 |**Minimum**|Cela signifie que vous définissez une limite inférieure à la charge de votre client, quels que soient les coûts réels ou les frais ordinaires. La sélection de cette option signifie que l'ajustement prix service est effectué uniquement si le montant total est inférieur au montant spécifié dans le groupe tarifs service.|  
   
 ## <a name="see-also"></a>Voir aussi  
-[Procédure : configurer la tarification et les frais supplémentaires pour les services](service-how-setup-service-costs-pricing.md)  
+[Configurer la tarification et les frais supplémentaires pour les services](service-how-setup-service-costs-pricing.md)  
 [Paramétrage de la gestion des services](service-setup-service.md)  
 

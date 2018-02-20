@@ -1,6 +1,6 @@
 ---
-title: "Utiliser Invoicing et Dynamics 365 | Microsoft Docs"
-description: "Solution de contournement pour accéder à Microsoft Invoicing lorsque vous vous êtes inscrit à Dynamics 365."
+title: Utiliser Invoicing et Finance and Operations, Business edition | Microsoft Docs
+description: "Solution de contournement pour accéder à Microsoft Invoicing lorsque vous vous êtes inscrit à Dynamics 365 for Finance and Operations, Business edition."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 11/22/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: db76c49d8f453b978e95d65afa14234cf9ccdffe
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: abceec5b1bc588e2842d0f512240c30eccbf6f8e
 ms.contentlocale: fr-ch
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="using-the-same-office-365-account-in-included365finincludesd365finmdmd-and-microsoft-invoicing"></a>Utilisation du même compte Office 365 dans [!INCLUDE[d365fin](includes/d365fin_md.md)] et Microsoft Invoicing
+# <a name="using-the-same-office-365-account-in-included365finincludesd365finlongmdmd-and-microsoft-invoicing"></a>Utilisation du même compte Office 365 dans [!INCLUDE[d365fin](includes/d365fin_long_md.md)] et Microsoft Invoicing
 Lorsque vous êtes inscrit à une version d'évaluation avec [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez passer à une phase d'évaluation de 30 jours, démarrer un abonnement ou encore l'arrêter à l'aide de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dans tous les cas, si vous vous connectez au portail Office, vous verrez une vignette intitulée **Centre d'affaires** sur laquelle vous pouvez cliquer. Cela fait partie de l'abonnement Office 365 Business Premium, tous les utilisateurs ne verront donc pas cette vignette dans le portail Office.  
 
 Si vous accédez au centre d'affaires, vous verrez une section intitulée **Invoicing**. Si vous accédez à cette section, vous verrez un message indiquant que vous ne pouvez pas accéder à Microsoft Invoicing car votre compte est utilisé dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -31,7 +31,7 @@ Vous devrez donc vous connecter à [!INCLUDE[d365fin](includes/d365fin_md.md)] e
 
 ### <a name="to-rename-your-company"></a>Pour renommer votre société
 1.  Connectez-vous à [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-2.  Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Sociétés**, puis sélectionnez le lien connexe.  
+2.  Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Sociétés**, puis sélectionnez le lien connexe.  
 3.  Dans la fenêtre **Sociétés**, sélectionnez le bouton **Modifier la liste**.  
 4.  Remplacez le nom de l'entrée *Ma société* par un autre nom.  
 

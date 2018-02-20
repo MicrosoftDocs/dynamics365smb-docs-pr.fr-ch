@@ -13,13 +13,13 @@ ms.search.keywords: Ceridian, Quickbooks, salary
 ms.date: 06/16/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: d53dfb26a3fea663e68a3b558579a59184e9de26
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 45ac64abac2a604eb4f669dd3c246b59f05f4d31
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-import-payroll-transactions"></a>Procédure d'importation de transactions de paie 
+# <a name="import-payroll-transactions"></a>Importer les transactions de paie
 Pour tenir compte des paiements des salaires et des transactions associées, vous devez importer et valider des transactions financières effectuées par votre fournisseur de paie dans la comptabilité. Pour cela, vous devez commencer par importer un fichier que vous recevez du fournisseur de paie dans la fenêtre **Feuille comptabilité**. Vous devez ensuite mapper les comptes externes du fichier de paie aux comptes généraux appropriés. Enfin, vous devez valider les transactions de paie en fonction du mappage de compte.
 
 > [!NOTE]  
@@ -34,7 +34,7 @@ Pour tenir compte des paiements des salaires et des transactions associées, vou
 >   Dans l'étape à propos du mappage des enregistrements de paie externes dans les comptes généraux, les mappages que vous effectuez seront reconnus la prochaine fois que les mêmes enregistrements seront importés. Cela vous permettra d'économiser du temps car vous n'avez pas à remplir manuellement le champ **N° compte** dans la feuille comptabilité à chaque importation de transactions de paie récurrentes.   
 
     Lorsque vous cliquez sur le bouton **OK** dans le guide de configuration assistée, la fenêtre **Feuille comptabilité** est complétée par des lignes représentant les transactions contenues dans le fichier de paie et par les comptes appropriés des champs **Compte général** en fonction des mappages effectués dans le guide.
-4. Modifiez ou validez les lignes feuille comme pour toute autre transaction comptable générale. Pour plus d'informations, reportez-vous à [Procédure : Valider les transactions directement vers la comptabilité](finance-how-post-transactions-directly.md).   
+4. Modifiez ou validez les lignes feuille comme pour toute autre transaction comptable générale. Pour plus d'informations, reportez-vous à [Valider les transactions directement vers la comptabilité](finance-how-post-transactions-directly.md).   
 
 ## <a name="see-also"></a>Voir aussi
 [Finances](finance.md)  

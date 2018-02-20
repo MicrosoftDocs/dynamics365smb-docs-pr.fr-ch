@@ -1,6 +1,6 @@
 ---
 title: "Configurer un prélèvement SEPA | Microsoft Docs"
-description: "Découvrez comment configurer un prélèvement SEPA dans Dynamics 365 Business edition."
+description: "Découvrez comment configurer un prélèvement SEPA dans Finance and Operations, Business edition."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,16 +11,16 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 96c851c58decbeb46afcd79a9c5275d16c8072d4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 28958f1f090e5adad69cb21d30727fcbd6a7fef8
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-sepa-direct-debit"></a>Procédure : configurer un prélèvement SEPA
+# <a name="set-up-sepa-direct-debit"></a>Configurer un prélèvement SEPA
 Dans la fenêtre **Recouvrements prélèvement**, vous pouvez exporter des instructions vers votre banque électronique pour exécuter un recouvrement par prélèvement automatique depuis le compte bancaire du client vers votre compte bancaire. [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge le format de prélèvement SEPA, mais dans votre pays/région, d'autres formats de paiements électroniques peuvent être disponibles.  
 
-Pour activer l'exportation de formats de fichiers bancaires qui ne sont pas pris en charge en natif dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez configurer une définition d'échange de données à l'aide de l'infrastructure d'échange de données. Pour plus d'informations, reportez vous à [Procédure : configurer les définitions d'échange de données](across-how-to-set-up-data-exchange-definitions.md).  
+Pour activer l'exportation de formats de fichiers bancaires qui ne sont pas pris en charge en natif dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez configurer une définition d'échange de données à l'aide de l'infrastructure d'échange de données. Pour plus d'informations, voir [Configurer les définitions d'échange de données](across-how-to-set-up-data-exchange-definitions.md).  
 
 Avant de pouvoir traiter les paiements client par voie électronique en exportant des instructions de prélèvement automatique dans le format de prélèvement automatique SEPA, vous devez exécuter les étapes de configuration suivantes :  
 
@@ -72,11 +72,11 @@ Avant de pouvoir traiter les paiements client par voie électronique en exportan
 
 6.  Répétez les étapes 1 à 5 pour tous les clients que vous voulez paramétrer pour les prélèvements automatiques SEPA.  
 
- Le mandat de prélèvement est automatiquement inséré dans le champ **ID mandat de prélèvement** lorsque vous créez une facture vente pour le client que vous avez sélectionné à l'étape 2. Pour plus d'informations, voir [Procédure : Créer des lignes vente et achat récurrentes](sales-how-work-standard-lines.md).  
+ Le mandat de prélèvement est automatiquement inséré dans le champ **ID mandat de prélèvement** lorsque vous créez une facture vente pour le client que vous avez sélectionné à l'étape 2. Pour plus d'informations, voir [Créer des lignes vente et achat récurrentes](sales-how-work-standard-lines.md).  
 
 ## <a name="see-also"></a>Voir aussi  
 [Recouvrement de paiements par prélèvement automatique SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
-[Procédure : Configurer les définitions d'échange de données](across-how-to-set-up-data-exchange-definitions.md)
-[Procédure : Créer des lignes vente et achat récurrentes](sales-how-work-standard-lines.md)
+[Configurer les définitions d'échange de données](across-how-to-set-up-data-exchange-definitions.md)
+[Créer des lignes vente et achat récurrentes](sales-how-work-standard-lines.md)
 [Échanger des données par voir électronique](across-data-exchange.md)
 

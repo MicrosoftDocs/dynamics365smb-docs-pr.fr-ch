@@ -13,25 +13,25 @@ ms.search.keywords: bank file export, re-export, bank transfer, AMC, bank data c
 ms.date: 06/28/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: bab124ecc4d98886e41fbee3af00d4913435c993
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: db8f59a71b8a6afa26e878e189f8cb2ef85685e5
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-export-payments-to-a-bank-file"></a>Procédure d'exportation de paiements vers un fichier bancaire
+# <a name="export-payments-to-a-bank-file"></a>Exporter des paiements vers un fichier bancaire
 Lorsque vous êtes prêt à effectuer des paiements à vos fournisseurs ou rembourser vos salariés, vous pouvez exporter un fichier contenant les informations de paiement sur les lignes dans la fenêtre **Feuille paiement**. Vous pouvez ensuite transférer le fichier à votre banque afin qu'elle traite les transferts d'argent concernés.
 
-Dans la version générique de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], un fournisseur global de services pour convertir les données bancaires dans n'importe quel format de fichier que votre banque requiert est paramétré et connecté. Dans les versions nord-américaines, le même service peut être utilisé pour envoyer des fichiers de paiement comme transfert de fonds électronique (EFT), toutefois avec un processus légèrement différent. Voir l'étape 6 de la section « Pour exporter des paiements vers un fichier bancaire ».    
+Dans la version générique de [!INCLUDE[d365fin](includes/d365fin_md.md)], un fournisseur global de services pour convertir les données bancaires dans n'importe quel format de fichier que votre banque requiert est paramétré et connecté. Dans les versions nord-américaines, le même service peut être utilisé pour envoyer des fichiers de paiement comme transfert de fonds électronique (EFT), toutefois avec un processus légèrement différent. Voir l'étape 6 de la section « Pour exporter des paiements vers un fichier bancaire ».    
 
 > [!NOTE]  
->   Pour pouvoir exporter des fichiers de paiement à partir de la feuille paiement, vous devez spécifier le format électronique du compte bancaire concerné, et vous devez activer le service de conversion des données bancaires. Pour plus d'informations, voir [Procédure : configuration de comptes bancaires](bank-how-setup-bank-accounts.md) et [Procédure : configurer le service de conversion de données bancaires](bank-how-setup-bank-data-conversion-service.md). Vous devez aussi cocher la case **Autoriser exportation paiement** dans la fenêtre **Noms feuilles comptabilité**. Pour plus d'informations, voir [Utilisation des feuilles comptabilité](ui-work-general-journals.md).  
+>   Pour pouvoir exporter des fichiers de paiement à partir de la feuille paiement, vous devez spécifier le format électronique du compte bancaire concerné, et vous devez activer le service de conversion des données bancaires. Pour plus d'informations, voir [Configuration de comptes bancaires](bank-how-setup-bank-accounts.md) et [Configurer le service de conversion de données bancaires](bank-how-setup-bank-data-conversion-service.md). Vous devez aussi cocher la case **Autoriser exportation paiement** dans la fenêtre **Noms feuilles comptabilité**. Pour plus d'informations, voir [Utilisation des feuilles comptabilité](ui-work-general-journals.md).  
 
 La fenêtre **Registres virement** vous permet d'afficher les fichiers paiement qui ont été exportés de la feuille paiement. A partir de cette fenêtre, vous pouvez également réexporter des fichiers paiement en cas d'erreurs techniques ou de modifications des fichiers. Notez toutefois que les fichiers EFT exportés ne sont pas affichés dans cette fenêtre et ne peuvent pas être réexportés.  
 
 ## <a name="to-export-payments-to-a-bank-file"></a>Pour exporter des paiements vers un fichier bancaire
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuilles paiement**, puis sélectionnez le lien connexe.
-2. Remplissez les lignes feuille paiement, par exemple à l'aide de la fonction **Proposer paiements fournisseur**. Pour plus d'informations, reportez vous à [Procédure : proposer des paiements fournisseur](payables-how-suggest-vendor-payments.md).
+2. Remplissez les lignes feuille paiement, par exemple à l'aide de la fonction **Proposer paiements fournisseur**. Pour plus d'informations, reportez vous à [Proposer des paiements fournisseur](payables-how-suggest-vendor-payments.md).
 3. Renseignez les champs des lignes feuille paiement si nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
@@ -62,7 +62,7 @@ Ce qui suit décrit une solution de rechange pour exporter des remboursements é
 
 > [!CAUTION]  
 >   Les lignes feuille paiement résultantes ne peuvent être ni validées, ni supprimées ni annulées.
-1. Configurer le client en tant que fournisseur. Nommez-le « Client X pour les remboursements », par exemple. Pour plus d'informations, reportez vous à [Procédure : enregistrer de nouveaux fournisseurs](purchasing-how-register-new-vendors.md).
+1. Configurer le client en tant que fournisseur. Nommez-le « Client X pour les remboursements », par exemple. Pour plus d'informations, reportez vous à [Enregistrer de nouveaux fournisseurs](purchasing-how-register-new-vendors.md).
 2. Sur la ligne feuille paiement pour le client, définissez le champ **Type compte** sur **Client**, et le champ **Type document** sur **Remboursement**.
 3. Exécutez les étapes standard pour l'exportation du paiement comme décrit dans la section « Pour exporter des paiements vers un fichier bancaire ».
 
@@ -89,6 +89,4 @@ Vous pouvez réexporter des fichiers paiement à partir de la fenêtre **Registr
 [Fournisseurs](payables-manage-payables.md)  
 [Définition des achats](purchasing-setup-purchasing.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 

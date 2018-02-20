@@ -13,20 +13,20 @@ ms.search.keywords: direct posting, general ledger
 ms.date: 06/28/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 43065620f34a7ef02e5247e78acf306500f82d90
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6925c2ddb45973e060c7694a83bc03c7fbabcf41
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-post-transactions-directly-to-the-general-ledger"></a>Procédure : Valider les transactions directement vers la comptabilité
+# <a name="post-transactions-directly-to-the-general-ledger"></a>Valider les transactions directement vers la comptabilité
 La plupart des transactions financières sont validées en comptabilité via les documents commerciaux dédiés, tels que des factures achat et des commandes vente. Pour les activités économiques qui ne sont pas représentés par un document dans [!INCLUDE[d365fin](includes/d365fin_md.md)], comme de plus petits frais ou règlements, vous pouvez créer les transactions associées en validant des lignes de feuille dans la fenêtre **Feuille comptabilité**.
 
-Une utilisation classique de la feuille comptabilité est de valider les dépenses des salariés avec leurs fonds propres au cours des activités commerciales, pour un remboursement ultérieur. Pour plus d'informations, voir [Procédure : enregistrer et rembourser les frais des employés](finance-how-record-reimburse-employee-expenses.md).
+Une utilisation classique de la feuille comptabilité est de valider les dépenses des salariés avec leurs fonds propres au cours des activités commerciales, pour un remboursement ultérieur. Pour plus d'informations, voir [Enregistrer et rembourser les frais des employés](finance-how-record-reimburse-employee-expenses.md).
 
 Les feuilles comptabilité valident les transactions financières dans les comptes généraux et d'autres comptes tels que les comptes bancaires, clients, fournisseurs et employés. La validation avec une feuille comptabilité crée toujours des écritures dans les comptes généraux. C'est le cas même lorsque, par exemple, vous validez une ligne feuille dans un compte client, parce qu'une écriture est validée dans un compte client de la comptabilité via un groupe comptabilisation. Vous pouvez personnaliser votre version d'une feuille comptabilité en configurant un nom de feuille ou un modèle feuille. Pour plus d'informations, voir [Utilisation des feuilles comptabilité](ui-work-general-journals.md).
 
-Contrairement aux écritures qui sont validées avec des documents qui nécessitent un processus d'avoir, vous pouvez correctement contrepasser les écritures validées avec la feuille comptabilité. Pour plus d'informations, reportez-vous à [Procédure : inversion d'une validation](finance-how-reverse-journal-posting.md).
+Contrairement aux écritures qui sont validées avec des documents qui nécessitent un processus d'avoir, vous pouvez correctement contrepasser les écritures validées avec la feuille comptabilité. Pour plus d'informations, reportez-vous à [Inversion d'une validation](finance-how-reverse-journal-posting.md).
 
 ## <a name="to-post-a-transaction-directly-to-a-general-ledger-account"></a>Pour valider une transaction directement vers la comptabilité
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuilles comptabilité**, puis sélectionnez le lien connexe.
@@ -40,8 +40,8 @@ Contrairement aux écritures qui sont validées avec des documents qui nécessit
 
 ## <a name="see-also"></a>Voir aussi
 [Utilisation de feuilles comptabilité](ui-work-general-journals.md)  
-[Procédure : enregistrer et rembourser les frais des employés](finance-how-record-reimburse-employee-expenses.md)  
-[Procédure : inversion d'une validation](finance-how-reverse-journal-posting.md)  
+[Enregistrer et rembourser les frais des employés](finance-how-record-reimburse-employee-expenses.md)  
+[Inversion d'une validation](finance-how-reverse-journal-posting.md)  
 [Finances](finance.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

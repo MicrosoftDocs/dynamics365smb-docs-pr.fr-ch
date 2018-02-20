@@ -1,6 +1,6 @@
 ---
-title: "Aperçu des tâches permettant de configurer Dynamics 365 Business edition | Microsoft Docs"
-description: "Décrit les tâches permettant de paramétrer, d'initialiser, et de configurer Dynamics 365 Business edition selon vos besoins."
+title: "Aperçu des tâches permettant de configurer Finance and Operations, Business edition | Microsoft Docs"
+description: "Décrit les tâches permettant de paramétrer, d'initialiser, et de configurer Finance and Operations, Business edition selon vos besoins."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,13 +11,13 @@ ms.search.keywords: configure, initialize
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 7acca4df366752355e5bf28ace6c82fbca196725
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 14d3c2639fcbc6c0a1ecf47fd89a2c0452e06fb9
 ms.contentlocale: fr-ch
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="setting-up-included365finlongincludesd365finlongmdmd"></a>Configuration de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# <a name="setting-up-included365finincludesd365finmdmd"></a>Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] comprend des configurations standard pour la plupart des processus entreprise, mais vous pouvez les modifier pour les adapter aux besoins de votre société.
 
 Par exemple, votre plan comptable est prérempli avec un certain nombre de comptes de validation prêts à l'emploi. Vous pouvez, bien évidemment, modifier le plan comptable pour l'adapter à vos besoins. Pour plus d'informations, reportez-vous à [Finances](finance.md).
@@ -38,10 +38,10 @@ Certaines fonctionnalités (générales ou pour des processus d'entreprise spéc
 |Définir les règles et valeurs générales pour les processus entrepôt et le traitement spécifique au niveau de chaque magasin.|[Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)|
 |Préparer les nomenclatures de production et les gammes pour définir la façon dont les articles finis sont produits, et préparer les postes ou centres de charge pour effectuer les opérations requises.|[Paramétrage de la production](production-configure-production-processes.md)|
 | Configurer des codes d'identification uniques pour les enregistrements, tel que les fiches, les documents, et les lignes feuille, pour les suivre dans le système. |[Création des souches de numéros](ui-create-number-series.md) |
-| Configurer la fenêtre **Paramétrage courrier SMTP** pour envoyer et recevoir des e-mails à partir des documents dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. |[Procédure : configurer la messagerie](madeira-how-setup-email.md) |
-| Configurez des codes d'identification uniques. |[Procédure : création des souches de numéros](ui-create-number-series.md) |
+| Configurer la fenêtre **Paramétrage courrier SMTP** pour envoyer et recevoir des e-mails à partir des documents dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. |[Configurer la messagerie](madeira-how-setup-email.md) |
+| Configurez des codes d'identification uniques. |[Création des souches de numéros](ui-create-number-series.md) |
 
-Certaines zones nécessitent que vous soyez un administrateur dans votre abonnement [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, voir [Configuration et administration dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](admin-setup-and-administration.md).  
+Certaines zones nécessitent que vous soyez un administrateur dans votre abonnement [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, voir [Configuration et administration dans [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-setup-and-administration.md).  
 
 ## <a name="see-also"></a>Voir aussi
 [Finances](finance.md)  
@@ -58,5 +58,6 @@ Certaines zones nécessitent que vous soyez un administrateur dans votre abonnem
 [Création de sociétés dans [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)  
 [Bienvenue dans [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

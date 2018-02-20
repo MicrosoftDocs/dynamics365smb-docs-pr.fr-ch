@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/31/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5de060d742401da62339fb67deff38d0a1e7bddb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 92eae2f24daf8181e39b3d22ea23c31a9ee85347
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-put-items-away-with-inventory-put-aways"></a>Comment ranger des articles avec le rangement stock
+# <a name="put-items-away-with-inventory-put-aways"></a>Ranger des articles avec le rangement stock
 Lorsque votre magasin est configuré pour exiger un traitement des rangements, mais qu'il ne l'est pas pour un traitement des réceptions, vous utilisez le document **Rangement stock** pour enregistrer et valider les informations de rangement et de réception pour vos documents origine. Le document origine entrant peut être une commande achat, un retour vente, un ordre de transfert ou un ordre d'assemblage/de fabrication entrant dont la production est prête à être rangée.  
 
 Vous pouvez créer un rangement stock de trois manières :  
@@ -39,7 +39,7 @@ Pour les commandes achat, de retours vente et d'ordres de transfert enlogement, 
 4. Choisissez l'action **Créer demande d'enlogement**.  
 
 > [!NOTE]  
->  Vous pouvez également créer la demande enlogement entrepôt en sélectionnant le champ **Créer demande d'enlogement** lors de l'actualisation de l'ordre de fabrication. Pour plus d'informations, voir [Procédure : actualiser ou replanifier des ordres de fabrication](production-how-to-replan-refresh-production-orders.md).  
+>  Vous pouvez également créer la demande enlogement entrepôt en sélectionnant le champ **Créer demande d'enlogement** lors de l'actualisation de l'ordre de fabrication. Pour plus d'informations, voir [Actualiser ou replanifier des ordres de fabrication](production-how-to-replan-refresh-production-orders.md).  
 
 Lorsque la demande entrepôt est créée, un employé affecté dans l'entrepôt aux rangements des articles peut voir que le document origine est prêt et peut créer un document rangement stock.  
 
@@ -68,7 +68,7 @@ Maintenant que la demande est créée, le magasinier peut créer un nouveau rang
 2. Dans le champ **Code emplacement** sur les lignes rangement, l'emplacement où les articles doivent être rangés est proposé sur la base d'un emplacement par défaut de l'article. Vous pouvez modifier l'emplacement dans cette fenêtre, si nécessaire.  
 3. Exécutez le rangement et saisissez les informations pour la quantité effectivement rangée dans le champ **Quantité à traiter**.
 
-    S'il s'avère nécessaire de placer les articles d'une ligne dans plusieurs emplacements, notamment parce que l'emplacement indiqué est plein, alors utilisez la fonction **Eclater ligne** sur le raccourci **Lignes**. Pour plus d'informations sur l'éclatement des lignes, reportez\-vous à la rubrique [Procédure : répartir des lignes activité entrepôt](warehouse-how-to-split-warehouse-activity-lines.md).  
+    S'il s'avère nécessaire de placer les articles d'une ligne dans plusieurs emplacements, notamment parce que l'emplacement indiqué est plein, alors utilisez la fonction **Eclater ligne** sur le raccourci **Lignes**. Pour plus d'informations sur l'éclatement des lignes, voir [Répartir des lignes activité entrepôt](warehouse-how-to-split-warehouse-activity-lines.md).  
 4. Une fois le rangement exécuté, choisissez l'action **Valider**.  
 
 Le processus de validation valide la réception, ou la production pour les ordres de fabrication, des lignes document origine qui ont été rangées et, si le magasin utilise des emplacements, la validation crée également des écritures entrepôt pour valider les modifications apportées aux quantités emplacement.

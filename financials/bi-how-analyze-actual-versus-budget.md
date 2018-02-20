@@ -10,27 +10,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 12/01/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
-ms.openlocfilehash: e76d590476b1236bf1d82a7f5e4f502ffdd9d02d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1da2e94fa64d1daa3304b5266d54152563cfa283
 ms.contentlocale: fr-ch
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-analyze-actual-amounts-versus-budgeted-amounts"></a>Procédure : analyser les montants réalisés et les montants budgétés
+# <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Analyser les montants réalisés et les montants budgétés
 Lors de la collecte, l'analyse, et le partage des données de votre société, vous voyez les montants réels comparés aux montants budgétés de tous les comptes et pour plusieurs périodes.
 
-Pour analyser les montants budgétés, vous devez d'abord créer des budgets comptabilité. Pour plus d'informations, voir [Procédure : Créer des budgets comptabilité](finance-how-create-budgets.md).
-
-> [!NOTE]  
->   Cette fonctionnalité nécessite que votre expérience soit définie sur **Suite**. Pour plus d'informations, voir [Personnalisation de votre expérience [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
+Pour analyser les montants budgétés, vous devez d'abord créer des budgets comptabilité. Pour plus d'informations, voir [Créer des budgets comptabilité](finance-how-create-budgets.md).
 
 ## <a name="to-view-a-gl-budget"></a>Pour visualiser un budget comptabilité
 Dans un budget doté d'axes, vous pouvez filtrer les écritures et visualiser des budgets spécifiques.
 
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Budgets**, puis choisissez le lien associé.
+1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Budgets**, puis choisissez le lien associé.
 2. Dans la fenêtre **Budgets**, ouvrez le budget que vous souhaitez visualiser.  
 3. En haut de la fenêtre, renseignez les champs nécessaires pour définir ce qui est affiché. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -46,7 +43,7 @@ Dans un budget doté d'axes, vous pouvez filtrer les écritures et visualiser de
 ## <a name="to-view-actual-and-budgeted-amounts-for-all-accounts"></a>Pour afficher les montants budgétés et réalisés de tous les comptes  
 Vous pouvez afficher des budgets et les comparer aux chiffres réels dans différents modules de [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Plan comptable**, puis sélectionnez le lien connexe.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Plan comptable**, puis sélectionnez le lien connexe.  
 2. Dans la fenêtre **Plan comptable**, choisissez l'action **Réalisé/Budget par compte**.
 3. En haut de la fenêtre, renseignez les champs nécessaires pour définir ce qui est affiché.  
 4. Pour voir le détail d'un montant affiché, sélectionnez ce champ.  
@@ -62,14 +59,14 @@ Les colonnes les plus à gauche contiennent le plan comptable. Sur les cinq colo
 ## <a name="to-view-actual-and-budgeted-amounts-for-several-periods"></a>Pour afficher les montants budgétés et réalisés de plusieurs périodes  
 Au lieu de visualiser les montants budgétés et réalisés de tous les comptes au sein d'une seule période, vous pouvez afficher un certain nombre de périodes pour un seul compte.  
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Plan comptable**, puis sélectionnez le lien connexe.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Plan comptable**, puis sélectionnez le lien connexe.  
 2. Dans la fenêtre **Plan comptable**, sélectionnez le compte général approprié, puis choisissez l'action **Réalisé/Budget compte général**.  
 3. En haut de la fenêtre, renseignez les champs nécessaires pour définir ce qui est affiché.   
 4. Pour voir le détail d'un montant affiché, sélectionnez ce champ.  
 
 ## <a name="see-also"></a>Voir aussi
 [Veille économique](bi.md)  
-[Procédure : Utilisation des tableaux d'analyse](bi-how-work-account-schedule.md)  
+[Utilisation des tableaux d'analyse](bi-how-work-account-schedule.md)  
 [Finances](finance.md)  
 [Configuration de Finance](finance-setup-finance.md)  
 [Les écritures comptables et le plan comptable](finance-general-ledger.md)  

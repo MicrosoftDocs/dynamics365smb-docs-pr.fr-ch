@@ -1,5 +1,5 @@
 ---
-title: "Procédure : Gérer les absences des salariés| Microsoft Docs"
+title: "Gérer les absences des salariés | Microsoft Docs"
 description: "Décrit comment enregistrer les absences des salariés et analyser les statistiques d'indisponibilité."
 services: project-madeira
 documentationcenter: 
@@ -12,13 +12,13 @@ ms.workload: na
 ms.date: 09/08/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 4c5ce7e72c7084995b16b574f3ad670c815ef9ee
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 13461418fd89c8eb743b88b5a2ed98f24a520571
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-manage-employee-absence"></a>Procédure : Gérer les absences des salariés
+# <a name="manage-employee-absence"></a>Gérer les absences des salariés
 Pour gérer l'absence d'un salarié, vous devez l'enregistrer dans la fenêtre **Saisie des absences**. Elle peut alors être affichée de différentes façons à des fins d'analyse ou de génération d'état.
 
 Vous pouvez afficher les absences des salariés dans deux fenêtres différentes :

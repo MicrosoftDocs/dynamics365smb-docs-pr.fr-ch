@@ -1,6 +1,6 @@
 ---
 title: "Procédure pas à pas : Prélèvement et expédition dans les configurations de stockage de base | Microsoft Docs"
-description: "Dans Dynamics 365, les processus sortants de prélèvement et d'expédition peuvent être effectués de quatre manières, à l'aide de différentes fonctionnalités en fonction du niveau de complexité de l'entrepôt."
+description: "Dans Finance and Operations, Business edition, les processus sortants de prélèvement et d'expédition peuvent être effectués de quatre manières, à l'aide de différentes fonctionnalités en fonction du niveau de complexité de l'entrepôt."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 2ef41d6b1d224c016da4663d3059717c11611d92
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 41a23df0e19bda1262dafbfaf89df7518b2b40b6
 ms.contentlocale: fr-ch
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Procédure pas à pas : Prélèvement et expédition dans les configurations de stockage de base
@@ -119,12 +119,12 @@ Dans la fenêtre **Prélèvement stock**, vous pouvez gérer toutes les activit�
     Les 30 haut-parleurs sont à présent enregistrés comme prélevés depuis les emplacements S-01-0001 et S-01-0002, et une écriture comptable article négative est créée pour refléter l'expédition vente validée.  
 
 ## <a name="see-also"></a>Voir aussi  
- [Procédure : prélever des articles avec les prélèvements stock](warehouse-how-to-pick-items-with-inventory-picks.md)   
- [Procédure : prélever des articles pour l'expédition entrepôt](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
- [Procédure : configurer des entrepôts de base avec les zones d'opérations](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)   
- [Procédure : déplacer les composants vers une zone opérations dans les configurations de stockage de base](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
- [Procédure : Prélever pour la fabrication et l'assemblage](warehouse-how-to-pick-for-production.md)   
- [Procédure : déplacer des articles ad hoc dans les configurations de stockage de base.](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)   
+ [Prélever des articles avec les prélèvements stock](warehouse-how-to-pick-items-with-inventory-picks.md)   
+ [Prélever des articles pour l'expédition entrepôt](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
+ [Configurer des entrepôts de base avec les zones d'opérations](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)   
+ [Déplacer les composants vers une zone opérations dans les configurations de stockage de base](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
+ [Prélever pour la fabrication et l'assemblage](warehouse-how-to-pick-for-production.md)   
+ [Déplacer des articles ad hoc dans les configurations de stockage de base](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)   
  [Détails de conception : flux de désenlogement](design-details-outbound-warehouse-flow.md)   
  [Procédures pas à pas liées au processus entreprise](walkthrough-business-process-walkthroughs.md)  
  [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: d87e01cb987a019c6e71b50dcdeae55dc0375146
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d8622d11cd23e506d1b85b18dbe5facb740c7753
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="scenario-example-defining-dynamic-allocations-based-on-items-sold"></a>Exemple de scénario : Définition des ventilations dynamique sur la base des articles vendus
@@ -43,11 +43,11 @@ Cette rubrique explique comment définir les affectations à l'aide du mode de v
 14. Choisissez l'action **Calculer la clé de ventilation** pour calculer la part.  
 
     > [!IMPORTANT]  
-    >  [!INCLUDE[d365fin](includes/d365fin_md.md)] utilise les chiffres de ventes des exercices précédents pour calculer une part de 1596,50 DS avec 100 % alloués pour les packages ÉQUIPEMENT IT. Cela signifie que tous les articles vendus au cours de l'exercice précédent seront affectés au ÉQUIPEMENT IT des coûts associés.  
+    >  [!INCLUDE[d365fin](includes/d365fin_md.md)]  utilise les chiffres de ventes des exercices précédents pour calculer une part de 1596,50 DS avec 100 % alloués pour les packages ÉQUIPEMENT IT. Cela signifie que tous les articles vendus au cours de l'exercice précédent seront affectés au ÉQUIPEMENT IT des coûts associés.  
 
 ## <a name="see-also"></a>Voir aussi  
  [Définition de filtres pour les bases de ventilation dynamique](finance-setting-filters-for-dynamic-allocation-bases.md)   
- [Procédure : configurer la source d'affectation et ses cibles](finance-how-to-set-up-allocation-source-and-targets.md)   
+ [Configurer la source d'affectation et ses cibles](finance-how-to-set-up-allocation-source-and-targets.md)   
  [Définition et répartition des coûts](finance-define-and-allocate-costs.md)   
  [Terminologie en comptabilité analytique](finance-terminology-in-cost-accounting.md)   
  [À propos de la comptabilité analytique](finance-about-cost-accounting.md)

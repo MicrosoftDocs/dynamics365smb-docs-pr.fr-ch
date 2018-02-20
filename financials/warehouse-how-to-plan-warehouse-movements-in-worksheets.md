@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e2cefcc91b823ac4a75d1eb209e892bc56b13de2
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 397b7d3de0355ce6be1be6607e5cfc7f61b5f55d
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-plan-warehouse-movements-in-worksheets"></a>Comment planifier des mouvements entrepôt dans la feuille
+# <a name="plan-warehouse-movements-in-worksheets"></a>Planifier des mouvements entrepôt dans la feuille
 Planifiez les mouvements de la feuille à l'aide de la fonction réapprovisionnement emplacement ou en planifiant manuellement les lignes à créer en tant qu'instructions mouvement.  
 
 ## <a name="to-calculate-a-replenishment-movement"></a>Pour calculer des mouvements de réapprovisionnement  
@@ -28,7 +28,7 @@ Au fur et à mesure que l'entrepôt expédie des articles aux clients, les empla
 1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille mouvement**, puis sélectionnez le lien connexe.  
 2.  Choisissez l'action **Calculer réappro. emplacement**.  
 
-    [!INCLUDE[d365fin](includes/d365fin_md.md)] crée des lignes indiquant précisément le mode de déplacement des articles des emplacements les moins bien classés vers les emplacements les mieux classés.  
+    [!INCLUDE[d365fin](includes/d365fin_md.md)]  crée des lignes indiquant précisément le mode de déplacement des articles des emplacements les moins bien classés vers les emplacements les mieux classés.  
 
     > [!NOTE]  
     >  Un mouvement est proposé selon FEFO lorsque vous activez la fonction **Créer mouvement** si les conditions suivantes sont réunies pour un article :  

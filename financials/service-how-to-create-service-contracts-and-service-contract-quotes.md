@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/29/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ab8ded6ef2b93c2ab038472609093ef7e5ad3d88
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 0d4ad6854c361bf254c6acec44f460afa5e100ba
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-service-contracts-and-service-contract-quotes"></a>Procédure : utiliser des contrats de service et des devis contrat de service
+# <a name="work-with-service-contracts-and-service-contract-quotes"></a>Utiliser des contrats de service et des devis contrat de service
 Vous pouvez créer un contrat de service manuellement ou à partir d'un devis contrat de service. Vous pouvez utiliser un devis contrat de service en tant qu'étape préliminaire d'un contrat de service, dans laquelle votre société fait une offre au client et qui nécessite d'obtenir l'approbation du client pour pouvoir être convertie en contrat de service. Les procédures de création d'un contrat de service ou d'un devis contrat de service sont identiques.  
   
 ## <a name="to-create-a-service-contract-or-service-contract-quote"></a>Pour créer un contrat de service ou un devis contrat de service  
@@ -40,7 +40,7 @@ Une fois les étapes suivantes effectuées, un contrat de service est créé ave
 Pour les contrats détaillés, le montant facturé est calculé de la manière suivante :  
   
 * montant facturé = somme du montant facturé de chaque ligne contrat.  
-* Montant facturé de chaque ligne contrat = (valeur devis / 12) * nombre de mois de la période de début) + (valeur devis / nombre de jours de l'année) * nombre de jours restant dans la période de début).  
+* Montant facturé de chaque ligne contrat = ((valeur devis / 12) * nombre de mois de la période de début) + ((valeur devis / nombre de jours de l'année) * nombre de jours restant dans la période de début).  
 * Si la ligne contrat expire avant la fin de la période de début, la date d'expiration devient la date fin de la période de début de la ligne.  
   
 Pour les contrats non détaillés, le montant facturé est calculé de la manière suivante :  
@@ -199,7 +199,7 @@ Vous pouvez annuler un contrat de service lorsqu'il a expiré ou qu'il a été a
 Vous pouvez archiver à tout moment des contrats de service et des devis contrat pour enregistrer et archiver une copie du contrat ou du devis contrat. [!INCLUDE[d365fin](includes/d365fin_md.md)] archive automatiquement les contrats de service lorsque vous convertissez les devis contrat en contrats de service ou que vous annulez des contrats de service. Vous pouvez archiver un contrat ou un devis vous-même en choisissant l'action **Archiver contrat** sur les pages **Contrats de service** ou **Devis contrat de service**. Vous pouvez consulter vos contrats ou devis archivés en recherchant **Contrats archivés**.
 
 ## <a name="see-also"></a>Voir aussi  
-[Procédure : configurer des contrats de service](service-how-setup-service-contracts.md)  
+[Configurer des contrats de service](service-how-setup-service-contracts.md)  
 [Gestion des services](service-service.md)  
-[Procédure : convertir les contrats de service incluant des montants TVA](service-how-to-convert-service-contracts.md)  
+[Convertir les contrats de service incluant des montants TVA](service-how-to-convert-service-contracts.md)  
 

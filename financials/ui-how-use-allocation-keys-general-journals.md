@@ -1,5 +1,5 @@
 ---
-title: "Procédure : utiliser les clés de ventilation dans les feuilles comptabilité | Microsoft Docs"
+title: "Utiliser les clés de ventilation dans les feuilles comptabilité | Microsoft Docs"
 description: "En savoir plus sur l'utilisation des clés de ventilation dans les feuilles."
 services: project-madeira
 documentationcenter: 
@@ -13,13 +13,13 @@ ms.search.keywords: cost accounting
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: bbacf9b5634d51478dd4d54ac4b587ea9bfaaf99
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6ee3e0f325623666eb720e3cc2656cfd1f6332eb
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-use-allocation-keys-in-general-journals"></a>Comment utiliser les clés de ventilation dans les feuilles de comptabilité
+# <a name="use-allocation-keys-in-general-journals"></a>Utiliser les clés de ventilation dans les feuilles de comptabilité
 Vous pouvez ventiler une écriture dans une feuille comptabilité dans différents comptes lorsque vous validez la feuille. La ventilation peut être effectuée par quantité, pourcentage ou montant.
 
 ## <a name="to-set-up-allocation-keys"></a>Pour définir des clés de ventilation

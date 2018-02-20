@@ -1,6 +1,6 @@
 ---
-title: "Nouveautés dans Dynamics 365 Business edition | Microsoft Docs"
-description: "Décrit les toutes dernières nouveautés et mises à jour de Dynamics 365 Business edition."
+title: "Nouveautés de Finance and Operations, Business edition | Microsoft Docs"
+description: "Décrit les toutes dernières nouveautés et mises à jour de Finance and Operations, Business edition."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,27 +13,27 @@ ms.search.keywords: news
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 83637fe211ce764b4b18429ab4c2c79cc06f3d20
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 78f340d619f622c6bca91bd97f0fcd8ae6b28acd
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="whats-new-in-dynamics-365-for-finance-and-operations-business-edition"></a>Nouveautés dans Microsoft Dynamics 365 for Finance and Operations, Business edition
 Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]! Si ce n'est pas encore fait, inscrivez-vous à la version d'évaluation. Nous vous présenterons ensuite les bases de ce que vous pouvez réaliser grâce à [!INCLUDE[d365fin](includes/d365fin_md.md)], avant de vous laisser faire vos premiers pas par vous-même. Lorsque vous êtes prêt, vous pouvez ouvrir une société vierge et effectuer vos propres configurations.  
 
-Régulièrement, nous mettrons à jour [!INCLUDE[d365fin](includes/d365fin_md.md)] avec des fonctionnalités supplémentaires dans l'application de base et avec les nouvelles [extensions](ui-extensions.md). Pour obtenir une vue d'ensemble des fonctionnalités actuelles et à venir, jetez un œil à notre [Dynamics 365 Roadmap](https://roadmap.dynamics.com/) - et n'oubliez pas de filtrer [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Régulièrement, nous mettrons à jour [!INCLUDE[d365fin](includes/d365fin_md.md)] avec des fonctionnalités supplémentaires dans l'application de base et avec les nouvelles [extensions](ui-extensions.md). Pour obtenir une vue d'ensemble des fonctionnalités actuelles et à venir, jetez un œil à notre [Feuille de route Finance and Operations, Business edition](https://roadmap.dynamics.com/) et n'oubliez pas de filtrer [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-Dans cette page, vous pouvez visualiser les zones qui sont devenues disponibles tandis que nous étions toujours dans l'aperçu. Vous trouverez ensuite des mises à jour dans la [Dynamics 365 Roadmap](https://roadmap.dynamics.com/).
+Dans cette page, vous pouvez visualiser les zones qui sont devenues disponibles tandis que nous étions toujours dans l'aperçu. Vous trouverez ensuite des mises à jour dans la [Feuille de route Finance and Operations, Business edition](https://roadmap.dynamics.com/).
 
 ## <a name="november-2016-launch-of-included365finlongincludesd365finlongmdmd"></a>Version de novembre 2016 de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Comme annoncé dans le blog, vous pouvez désormais utiliser notre service dans votre entreprise. Mais cette mise à jour ajoute également de nouvelles capacités et une nouvelle extension.
 
 ### <a name="project-management"></a>Gestion de projets
-Si vous basculez vers l'expérience Suite, vous pouvez gérer des projets et utiliser des ressources, des feuilles de temps, et des tâches. Lorsque vous vous connectez au rôle de chef de projet pour la première fois, un guide de configuration assistée vous aide à paramétrer la gestion de vos projets. Vous pouvez utiliser des exemples de comptes, de projets, de ressources, etc. dans la société de démonstration pour vous familiariser avec la fonctionnalité. Pour plus d'informations, reportez-vous à [Gestion des projets](projects-manage-projects.md).
+Vous pouvez gérer des projets et utiliser des ressources, des feuilles de temps, et des tâches. Lorsque vous vous connectez au rôle de chef de projet pour la première fois, un guide de configuration assistée vous aide à paramétrer la gestion de vos projets. Vous pouvez utiliser des exemples de comptes, de projets, de ressources, etc. dans la société de démonstration pour vous familiariser avec la fonctionnalité. Pour plus d'informations, reportez-vous à [Gestion des projets](projects-manage-projects.md).
 
 ### <a name="fixed-assets"></a>Immobilisations
-Si vous basculez à l'expérience Suite, vous pouvez gérer des immobilisations, notamment l'amortissement et l'assurance. Un paramétrage standard est fourni, mais vous pouvez le modifier à tout moment. Vous pouvez enregistrer les achats d'immobilisations dans des feuilles d'immobilisation dédiées où vous pouvez aussi liquider des immobilisations. Les écritures appropriées sont créées automatiquement. Pour plus d'informations, reportez-vous à [Immobilisations](fa-manage.md).
+Vous pouvez gérer des immobilisations, notamment l'amortissement et l'assurance. Un paramétrage standard est fourni, mais vous pouvez le modifier à tout moment. Vous pouvez enregistrer les achats d'immobilisations dans des feuilles d'immobilisation dédiées où vous pouvez aussi liquider des immobilisations. Les écritures appropriées sont créées automatiquement. Pour plus d'informations, reportez-vous à [Immobilisations](fa-manage.md).
 
 ### <a name="new-extension-for-migrating-data-from-dynamics-gp"></a>Nouvelle extension pour migrer les données à partir de Dynamics GP
 Si votre entreprise utilise Dynamics GP, vous pouvez utiliser un guide de configuration assistée pour migrer les enregistrements principaux vers [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vous devez avoir exporté vos clients, fournisseurs, articles de stock, et comptes existants à l'aide de la fonctionnalité d'exportation de données dans Dynamics GP. L'extension de migration de données Dynamics GP mappe automatiquement les données exportées afin que vous puissiez récupérer rapidement vos données existantes dans votre société dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, voir [Migration des données Dynamics GP](ui-extensions-dynamicsgp-data-migration.md).
@@ -52,17 +52,17 @@ Dans cette mise à jour de [!INCLUDE[d365fin](includes/d365fin_md.md)] de nouvel
 
 ### <a name="more-flexibility-in-your-sales-processes"></a>Plus de flexibilité dans les processus de vente
 Cette mise à jour ajoute plus de flexibilité dans les processus de vente :
-- Vous pouvez désormais configurer des articles non stockés (les articles que vous proposez aux clients, mais que vous n'avez pas en stock). Pour en savoir plus, voir [Procédure : utiliser des articles non stockés](inventory-how-work-nonstock-items.md).
-- Vous pouvez à présent marquer un article pour une livraison directe sur une commande vente et immédiatement créer une commande achat correspondante. Ainsi, vous pouvez vendre un article à un client, l'acheter au fournisseur, et le faire livrer directement par votre fournisseur à votre client. Pour plus d'informations, voir [Procédure : acheter des articles pour une vente](purchasing-how-purchase-products-sale.md).
+- Vous pouvez désormais configurer des articles non stockés (les articles que vous proposez aux clients, mais que vous n'avez pas en stock). Pour en savoir plus, voir [Utiliser des articles non stockés](inventory-how-work-nonstock-items.md).
+- Vous pouvez à présent marquer un article pour une livraison directe sur une commande vente et immédiatement créer une commande achat correspondante. Ainsi, vous pouvez vendre un article à un client, l'acheter au fournisseur, et le faire livrer directement par votre fournisseur à votre client. Pour plus d'informations, voir [Acheter des articles pour une vente](purchasing-how-purchase-products-sale.md).
 
 ### <a name="categorize-items-in-your-inventory"></a>Classer les articles par catégorie dans votre stock
-Avec cette mise à jour, vous pouvez créer une hiérarchie des catégories d'articles et affecter des attributs à chaque catégorie. Pour plus d'informations, voir [Procédure : catégoriser des articles](inventory-how-categorize-items.md).
+Avec cette mise à jour, vous pouvez créer une hiérarchie des catégories d'articles et affecter des attributs à chaque catégorie. Pour plus d'informations, voir [Catégoriser des articles](inventory-how-categorize-items.md).
 
 ### <a name="send-purchase-orders-to-vendors"></a>Envoyer des commandes achat à des fournisseurs
-Vous pouvez désormais entrer des commandes achat dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, reportez-vous à [Procédure : enregistrer des achats](purchasing-how-record-purchases.md).
+Vous pouvez désormais entrer des commandes achat dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, voir [Enregistrer des achats](purchasing-how-record-purchases.md).
 
 ### <a name="better-quality-incoming-documents"></a>Documents entrants de meilleure qualité
-Vous pouvez désormais corriger facilement les erreurs dans les documents analysés avant de recevoir le document final, ainsi vous formez le service à éviter que ces erreurs ne se propagent. Pour en savoir plus, voir [Procédure : utiliser un service OCR pour convertir des fichiers PDF et image en documents électroniques](across-how-use-ocr-pdf-images-files.md).
+Vous pouvez désormais corriger facilement les erreurs dans les documents analysés avant de recevoir le document final, ainsi vous formez le service à éviter que ces erreurs ne se propagent. Pour en savoir plus, voir [Utiliser un service OCR pour convertir des fichiers PDF et image en documents électroniques](across-how-use-ocr-pdf-images-files.md).
 
 ## <a name="august-2016-update"></a>Mise à jour d'août 2016
 Dans cette mise à jour de [!INCLUDE[d365fin](includes/d365fin_md.md)] de nouvelles fonctionnalités ont été ajoutées comme [annoncé dans le blog](https://community.dynamics.com/business/b/financials/archive/2016/08/29/new-and-updated-capabilities-in-the-august-update-of-project-quot-madeira-quot).
@@ -90,10 +90,10 @@ Cette mise à jour ajoute des actions au tableau de bord de fournisseur dans le 
 Le complément Outlook dispose à présent du calendrier Outlook. Dans un rendez-vous de calendrier, vous pouvez ouvrir le complément [!INCLUDE[d365fin](includes/d365fin_md.md)] et obtenir un aperçu du client associé avec le rendez-vous. Ensuite, vous pouvez créer et envoyer une facture pour les services fournis lors de la réunion, toutes ces opérations s'effectuent directement dans le calendrier Outlook. Pour plus d'informations, reportez-vous à [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] en tant que boîte de réception professionnelle dans Outlook](madeira-outlook.md).  
 
 ### <a name="appsource-marketplace-for-extensions"></a>Marketplace AppSource pour les extensions
-Les extensions [!INCLUDE[d365fin](includes/d365fin_md.md)] sont maintenant disponibles dans le marché AppSource à l'adresse [AppSource.microsoft.com](https://appsource.microsoft.com/). Vous pouvez rechercher les extensions dans le marché. Vous pouvez visualiser des informations, notamment des supports marketing, des captures d'écran, des vidéos et des liens vers des informations supplémentaires. Pour plus d'informations, voir [Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] des extensions sont désormais disponibles dans le marketplace AppSource sur [AppSource.microsoft.com](https://appsource.microsoft.com/). Vous pouvez rechercher les extensions sur le marché. Vous pouvez visualiser des informations, notamment des supports marketing, des captures d'écran, des vidéos et des liens vers des informations supplémentaires. Pour plus d'informations, voir [Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md).  
 
 ### <a name="shipping-agents-and-item-attributes"></a>Transporteurs et attributs d'article
-Vous pouvez ajouter des attributs à vos articles de stock qui facilitent la recherche de produits pour vos clients. Pour en savoir plus, voir [Procédure : utiliser les attributs d'article](inventory-how-work-item-attributes.md).  
+Vous pouvez ajouter des attributs à vos articles de stock qui facilitent la recherche de produits pour vos clients. Pour en savoir plus, voir [Utiliser les attributs d'article](inventory-how-work-item-attributes.md).  
 
 ### <a name="new-extensions-made-available"></a>Nouvelles extensions disponibles
 Avec cette mise à jour, vous avez le choix entre encore plus d'extensions dans la fenêtre **Gestion des extensions**.
@@ -129,5 +129,5 @@ Scénarios clés à essayer par vous-même :
 ## <a name="see-also"></a>Voir aussi
 [Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Dynamics 365 Roadmap](https://roadmap.dynamics.com/)  
+[Feuille de route Finance and Operations, Business edition](https://roadmap.dynamics.com/)  
 

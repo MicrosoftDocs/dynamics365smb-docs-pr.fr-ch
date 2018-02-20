@@ -10,26 +10,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
-ms.date: 06/06/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 9d67198e172b82c20c9d998854a819e39ae523ff
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 545b06fac95994229ec0442c7aacb57cc56001ff
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-use-time-sheets-for-jobs"></a>Procédure : Utiliser des feuilles de temps pour des projets
+# <a name="use-time-sheets-for-jobs"></a>Utiliser des feuilles de temps pour des projets
 Vous devez utiliser le traitement par lots **Créer des feuilles de temps** pour configurer des feuilles de temps pour un nombre donné de périodes ou de semaines. Vous devez disposer d'autorisations pour pouvoir créer des feuilles de temps.
 
 Vous pouvez copier et utiliser vos lignes planning projet dans une feuille de temps. Vous n'avez ainsi à entrer les informations qu'à un seul emplacement et les informations de ligne sont toujours correctes.
 
 Une fois que vous avez approuvé les écritures des feuilles de temps d'un projet, vous pouvez les valider dans la feuille ressource ou projet correspondante.
 
-Avant de pouvoir utiliser des feuilles de temps, vous devez définir des informations générales et spécifier un administrateur et un ou plusieurs approbateurs de feuilles de temps. Pour plus d'informations, reportez-vous à [Procédure : Paramétrer des feuilles de temps](projects-how-setup-time-sheets.md).
-
-> [!NOTE]  
->   Cette fonctionnalité nécessite que votre expérience soit définie sur **Suite**. Pour plus d'informations, voir [Personnalisation de votre expérience [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
+Avant de pouvoir utiliser des feuilles de temps, vous devez définir des informations générales et spécifier un administrateur et un ou plusieurs approbateurs de feuilles de temps. Pour plus d'informations, voir [Paramétrer des feuilles de temps](projects-how-setup-time-sheets.md).
 
 ## <a name="to-create-a-time-sheet"></a>Pour créer une feuille de temps
 Vous pouvez utiliser le traitement par lots **Créer des feuilles de temps** pour configurer des feuilles de temps pour un nombre donné de périodes ou de semaines. Une fois qu'une feuille de temps est créée, son propriétaire peut l'ouvrir et y enregistrer le temps consacré à une tâche.
@@ -96,7 +93,7 @@ L'enregistrement des feuilles de temps est assuré en heures, qui est l'unité d
 Une feuille de temps doit être soumise pour approbation avant de pouvoir être utilisée. Vous pouvez approuver et rejeter chacune des lignes d'une feuille de temps ou les renvoyer à la personne à l'origine de leur soumission pour qu'elle effectue d'autres actions. Une feuille de temps peut être approuvée de deux manières :
 
 * Un administrateur de feuille de temps peut approuver n'importe quelle feuille de temps.
-* La personne qui est indiquée dans le champ **ID utilisateur de l'approbateur de la feuille de temps** d'une fiche ressource peut approuver les feuilles de temps de cette ressource. Pour plus d'informations, reportez-vous à [Procédure : Paramétrer des feuilles de temps](projects-how-setup-time-sheets.md).
+* La personne qui est indiquée dans le champ **ID utilisateur de l'approbateur de la feuille de temps** d'une fiche ressource peut approuver les feuilles de temps de cette ressource. Pour plus d'informations, voir [Paramétrer des feuilles de temps](projects-how-setup-time-sheets.md).
 
 1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille de temps administrateur**, puis choisissez le lien associé.
 2. Sélectionnez une feuille de temps dans la liste.  

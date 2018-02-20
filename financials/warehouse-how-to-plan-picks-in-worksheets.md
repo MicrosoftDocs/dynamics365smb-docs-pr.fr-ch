@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: cb9a8366dbce67f7fdf3f32d55d7c5a289b9db4e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: c46e446c4af97e9699b1e454ff0d63173322f81e
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-plan-picks-in-worksheets"></a>Procédure : planifier des prélèvements dans la feuille
+# <a name="plan-picks-in-worksheets"></a>Planifier des prélèvements dans la feuille
 Lorsque l'entrepôt est configuré pour appeler un traitement de prélèvement et d'expédition, le fonctionnement de l'entrepôt peut être établi de telle sorte que les lignes des documents expédition ne soient pas automatiquement transformées en instructions de prélèvement, mais soient plutôt activées sur la feuille prélèvement.  
 
 > [!NOTE]  
@@ -36,7 +36,7 @@ Si vous triez par date d'échéance, vous pouvez choisir d'effacer de la feuille
 >   
 >  Pour plus d’informations, reportez-vous à la section « Traitement des articles à assembler pour commande dans les expéditions entrepôt » dans Expédition entrepôt.  
 >   
->  Pour plus d'informations sur le prélèvement de composants pour les ordres d'assemblage en général, notamment les situations où l'élément d'assemblage n'est pas dû dans une expédition vente, voir [Procédure : prélever pour l'assemblage ou la production dans les configurations de stockage avancées.](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
+>  Pour plus d'informations sur le prélèvement de composants pour les ordres d'assemblage en général, notamment les situations où l'élément d'assemblage n'est pas dû dans une expédition vente, voir [Prélever pour l'assemblage ou la production dans les configurations de stockage avancées.](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
 
 ## <a name="to-plan-picks-in-the-worksheet"></a>Pour planifier des prélèvements dans la feuille  
 1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille prélèvement**, puis sélectionnez le lien connexe.  

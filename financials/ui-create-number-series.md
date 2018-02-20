@@ -1,6 +1,6 @@
 ---
-title: "Procédure : création des souches de numéros | Microsoft Docs"
-description: "Découvrez comment configurer des souches de numéros qui affectent les codes d'identification uniques aux comptes et aux documents dans Dynamics 365 Business edition."
+title: "Création des souches de numéros | Microsoft Docs"
+description: "Découvrez comment configurer des souches de numéros qui affectent les codes d'identification uniques aux comptes et aux documents dans Finance and Operations, Business edition."
 documentationcenter: 
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
@@ -12,13 +12,13 @@ ms.search.keywords: numbers, numbering
 ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 8605c5273ac69ff7a5b8b8dab59b0856795ed706
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3f50bc1153ccd6b58bc502974c042626ce696078
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-number-series"></a>Procédure : création des souches de numéros
+# <a name="create-number-series"></a>Création des souches de numéros
 Pour chaque société que vous configurez, vous devez affecter des codes d'identification uniques aux éléments tels que les comptes généraux, les comptes client et fournisseur, les factures et d'autres documents. La numérotation est importante, pas uniquement pour l'identification. Un système de numérotation bien conçu facilite la gestion et l'analyse de la société et permet de réduire les erreurs de saisie des données.
 
 > [!NOTE]  

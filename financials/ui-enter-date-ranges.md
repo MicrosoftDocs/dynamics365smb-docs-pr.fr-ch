@@ -1,6 +1,6 @@
 ---
-title: "Définition des plages de dates dans Dynamics 365 Business edition | Microsoft Docs"
-description: "En savoir plus pour obtenir un état affichant les données de périodes spécifiques à l'aide de plages de dates dans Dynamics 365 Business edition."
+title: "Définition des plages de dates dans Finance and Operations, Business edition | Microsoft Docs"
+description: "En savoir plus pour obtenir un état affichant les données de périodes spécifiques à l'aide de plages de dates dans Finance and Operations, Business edition."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,13 +12,13 @@ ms.search.keywords: dates, reporting, filter
 ms.date: 05/29/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: fee6a5d7ce6603829ed98913b7e370a53239ee3e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: da2fea4e095c8211f30aaa7c570a84a005e7cbc8
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="entering-date-ranges-in-dynamics-365-business-edition"></a>Saisie de plages de dates dans Dynamics 365 Business edition 
+# <a name="entering-date-ranges-in-finance-and-operations-business-edition"></a>Saisie de plages de dates dans Finance and Operations, Business edition 
 Vous pouvez définir des filtres contenant une date de début et une date de fin pour afficher uniquement les données contenues dans cette plage de données ou cet intervalle de temps. Des règles spéciales s'appliquent à la définition des plages de dates. Prenons par exemple **Palmarès des clients** :
 
 ![Définition d'une plage de dates dans la page de demande de la liste du palmarès des clients](./media/ui-enter-date-ranges/customer-top10-list.png)

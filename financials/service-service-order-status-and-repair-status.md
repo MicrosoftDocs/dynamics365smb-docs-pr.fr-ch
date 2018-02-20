@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: a1d2177ab417eb932110ea610474b969acf7a26b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 21f4a6fc048688858cad77fb3d306fb39bd5620c
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="service-order-status-and-repair-status"></a>Statut commande service et statut réparation
@@ -63,6 +63,6 @@ Voici ci-après un exemple d'affectation de niveau de priorité :
 Par exemple, si un article de service présente l'état réparation **Initial** (lié au statut commande service **Suspendu**), qu'un autre présente le statut **En cours** (lié au statut commande service **En cours**) et que le troisième présente le statut **Pièce de rechange commandée** (lié au statut commande service **En attente**), le statut commande service est **En cours** car il correspond au niveau de priorité le plus élevé.  
   
 ## <a name="see-also"></a>Voir aussi  
-[Procédure : paramétrer les statuts des commandes service et des réparations](service-order-repair-status.md)  
+[Paramétrer les statuts des commandes service et des réparations](service-order-repair-status.md)  
 [Paramétrage de la gestion des services](service-setup-service.md)  
 

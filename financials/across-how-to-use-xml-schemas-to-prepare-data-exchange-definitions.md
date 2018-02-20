@@ -11,18 +11,18 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 5b10eaff0d412ee26ead2137a353054c41d05113
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 06e0de9409fa26d18f051d84b39d021227a55191
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-use-xml-schemas-to-prepare-data-exchange-definitions"></a>Procédure : Utiliser des schémas XML pour préparer des définitions d'échange de données
+# <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Utiliser des schémas XML pour préparer des définitions d'échange de données
 Pour activer l'importation/exportation des données dans des fichiers XML à travers l'infrastructure d'échange de données de [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez utiliser des schémas XML pour définir les éléments de données à échanger avec [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vous effectuez ce travail dans la fenêtre **Visionneuse de schéma XML** en chargeant le fichier de schéma XML, en sélectionnant les éléments de données appropriés, puis en initialisant soit une définition d'échange de données ou un XMLport.  
 
  Lorsque vous avez défini les éléments de données à inclure en fonction du schéma XML, vous pouvez utiliser l'action **Générer XMLport** pour créer l'objet XMLport.  
 
- Vous pouvez aussi utiliser l'action **Générer définition d'échange de données** pour initialiser une définition d'échange de données basée sur les éléments de données sélectionnés, que vous complétez dans l'infrastructure d'échange de données. Cela crée un enregistrement dans la fenêtre **Définitions échange comptabilité** où vous continuez en définissant quels éléments de la liste des fichiers correspondent à quels champs dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, reportez vous à [Procédure : configurer les définitions d'échange de données](across-how-to-set-up-data-exchange-definitions.md).  
+ Vous pouvez aussi utiliser l'action **Générer définition d'échange de données** pour initialiser une définition d'échange de données basée sur les éléments de données sélectionnés, que vous complétez dans l'infrastructure d'échange de données. Cela crée un enregistrement dans la fenêtre **Définitions échange comptabilité** où vous continuez en définissant quels éléments de la liste des fichiers correspondent à quels champs dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, voir [Configurer les définitions d'échange de données](across-how-to-set-up-data-exchange-definitions.md).  
 
  Cette rubrique contient les procédures suivantes :  
 
@@ -108,7 +108,7 @@ Pour activer l'importation/exportation des données dans des fichiers XML à tr
 
 4.  Dans la fenêtre **Visionneuse de schéma XML**, sous l'onglet **Accueil**, dans le groupe **Processus**, sélectionnez **Générer définition d'échange de données**.  
 
- Une définition d'échange de données est créée dans la fenêtre **Définitions échange comptabilité**, que vous pouvez renseigner en indiquant quels éléments du fichier correspondent à quels champs de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, reportez vous à [Procédure : configurer les définitions d'échange de données](across-how-to-set-up-data-exchange-definitions.md).  
+ Une définition d'échange de données est créée dans la fenêtre **Définitions échange comptabilité**, que vous pouvez renseigner en indiquant quels éléments du fichier correspondent à quels champs de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, voir [Configurer les définitions d'échange de données](across-how-to-set-up-data-exchange-definitions.md).  
 
 > [!NOTE]  
 >  Vous pouvez également utiliser la fonction **Extraire structure de fichiers** de la fenêtre **Définitions échange comptabilité**, qui utilise la fonctionnalité de la fenêtre **Visionneuse de schéma XML** pour préremplir le raccourci **Définitions colonne**.  
@@ -128,8 +128,8 @@ Pour activer l'importation/exportation des données dans des fichiers XML à tr
 6. Importez le nouvel objet XMLport dans l'environnement de développement [!INCLUDE[d365fin](includes/d365fin_md.md)] et compilez-le.
 
 ## <a name="see-also"></a>Voir aussi  
-[Procédure : configurer les définitions d'échange de données](across-how-to-set-up-data-exchange-definitions.md)   
-[Procédure : exportation de paiements vers un fichier bancaire](payables-how-export-payments-bank-file.md)   
+[Configurer les définitions d'échange de données](across-how-to-set-up-data-exchange-definitions.md)   
+[Exporter des paiements vers un fichier bancaire](payables-how-export-payments-bank-file.md)   
 [Recouvrement de paiements par prélèvement automatique SEPA](finance-collect-payments-with-sepa-direct-debit.md)   
 [À propos de l'infrastructure d'échange de données](across-about-the-data-exchange-framework.md)
 

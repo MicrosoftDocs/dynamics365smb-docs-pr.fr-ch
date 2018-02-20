@@ -11,16 +11,16 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 1f35debace937a04b8f4174131fd72cde6610b7a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6d5fecae58ec05f3cb3eda4ee2a43a131b267c92
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-data-exchange-definitions"></a>Procédure : Configurer les définitions d'échange de données
+# <a name="set-up-data-exchange-definitions"></a>Configurer les définitions d'échange de données
 Vous pouvez configurer [!INCLUDE[d365fin](includes/d365fin_md.md)] pour échanger des données de tables spécifiques avec des données de fichiers externes, par exemple pour recevoir et envoyer des documents électroniques, importer et exporter des données bancaires ou d'autres données, telles que les salaires, les taux de change des devises et les catalogues article. Pour plus d'informations, voir [Échanger des données par voir électronique](across-data-exchange.md).  
 
-Afin de vous préparer à créer une définition d'échange de données pour un fichier ou un flux de données, vous pouvez utiliser le schéma XML associé pour les définir les éléments de données à inclure dans le raccourci **Définitions de colonnes**. Consultez l'étape 6 dans la section « Décrire le formatage de lignes et de colonnes dans un fichier ». Pour plus d'informations, voir [Procédure : Utiliser des schémas XML pour préparer des définitions d'échange de données](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
+Afin de vous préparer à créer une définition d'échange de données pour un fichier ou un flux de données, vous pouvez utiliser le schéma XML associé pour les définir les éléments de données à inclure dans le raccourci **Définitions de colonnes**. Consultez l'étape 6 dans la section « Décrire le formatage de lignes et de colonnes dans un fichier ». Pour plus d'informations, voir [Utiliser des schémas XML pour préparer des définitions d'échange de données](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
 Créez des définitions d'échange de données normalement dans la fenêtre **Définition d'échange de données**. Néanmoins, lorsque vous déterminez la définition d'échange de données pour le service d'actualisation des taux de change des devises, démarrez le processus dans la fenêtre simplifiée **Fiche Paramètres de mise à jour des taux de change**.  
 
@@ -81,7 +81,7 @@ La création d'une définition d'échange de données implique deux tâches :
 
 5. Répétez l'étape 4 pour créer une ligne pour chaque type de fichier de données que vous voulez exporter.  
 
-     Planifiez maintenant de décrire le formatage des colonnes du fichier de données en renseignant les champs du raccourci **Définitions des colonnes** comme indiqué dans le tableau suivant. Vous pouvez utiliser la structure du fichier, par exemple un fichier .XSD pour le fichier de données afin de pré remplir le raccourci avec les éléments appropriés. Pour plus d'informations, voir [Procédure : Utiliser des schémas XML pour préparer des définitions d'échange de données](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
+     Planifiez maintenant de décrire le formatage des colonnes du fichier de données en renseignant les champs du raccourci **Définitions des colonnes** comme indiqué dans le tableau suivant. Vous pouvez utiliser la structure du fichier, par exemple un fichier .XSD pour le fichier de données afin de pré remplir le raccourci avec les éléments appropriés. Pour plus d'informations, voir [Utiliser des schémas XML pour préparer des définitions d'échange de données](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
 6. Sur le raccourci **Définitions de colonnes**, sélectionnez **Extraire la structure de fichiers**.  
 7. Dans la fenêtre **Extraire structure de fichiers**, sélectionnez la structure de fichier associée, puis choisissez le bouton **OK**. Les lignes du raccourci **Définitions de colonnes** sont renseignées conformément à la structure du fichier de données.  
@@ -133,7 +133,7 @@ La création d'une définition d'échange de données implique deux tâches :
     |**Libellé champ cible**|Uniquement visible lorsque la case à cocher **Utiliser comme table intermédiaire** est cochée.<br /><br /> Spécifiez le nom du champ dans la table cible auquel la valeur de la colonne **Titre colonne** est mappée lorsque vous utilisez une table intermédiaire pour l'importation des données.|  
     |**Supplémentaires**|Uniquement visible lorsque la case à cocher **Utiliser comme table intermédiaire** est cochée.<br /><br /> Spécifiez que la correspondance doit être ignorée si le champ est vide. Si vous n'activez pas cette case à cocher, une erreur d'exportation aura lieu si le champ est vide.|  
 
- La définition d'échange de données est désormais prête à être activée pour les utilisateurs. Pour plus d'informations, voir [Procédure : configurer l'envoi et la réception de documents électroniques](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Procédure : configurer des virements SEPA](finance-how-to-set-up-sepa-credit-transfer.md), [Procédure : configurer un prélèvement SEPA](finance-how-to-set-up-sepa-direct-debit.md) et [Exécuter les paiements avec le service de conversion de données bancaires ou un virement SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
+ La définition d'échange de données est désormais prête à être activée pour les utilisateurs. Pour plus d'informations, voir [Configurer l'envoi et la réception de documents électroniques](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Configurer des virements SEPA](finance-how-to-set-up-sepa-credit-transfer.md), [Configurer un prélèvement SEPA](finance-how-to-set-up-sepa-direct-debit.md) et [Exécuter les paiements avec le service de conversion de données bancaires ou un virement SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
 
     Lorsque vous avez créé la définition d'échange de données pour un fichier de données spécifique, vous pouvez exporter la définition d'échange de données en tant que fichier XML qui peut être utilisé pour activer rapidement l'importation du fichier de données en question. Ceci est décrit dans la procédure suivante.  
 
@@ -154,9 +154,9 @@ La création d'une définition d'échange de données implique deux tâches :
 
 ## <a name="see-also"></a>Voir aussi  
 [Configuration de l'échange de données](across-set-up-data-exchange.md)  
-[Procédure : Configurer l'envoi et la réception de documents électroniques](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
-[Procédure : configurer des virements SEPA](finance-how-to-set-up-sepa-credit-transfer.md)  
-[Procédure : configurer un prélèvement SEPA](finance-how-to-set-up-sepa-direct-debit.md)  
+[Configurer l'envoi et la réception de documents électroniques](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
+[Configurer des virements SEPA](finance-how-to-set-up-sepa-credit-transfer.md)  
+[Configurer un prélèvement SEPA](finance-how-to-set-up-sepa-direct-debit.md)  
 [Exécuter les paiements avec le service de conversion de données bancaires ou un virement SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
 [Documents entrants](across-income-documents.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)  

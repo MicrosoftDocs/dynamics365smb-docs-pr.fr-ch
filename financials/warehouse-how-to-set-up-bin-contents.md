@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 1f3a90b9bc9cce2e138e490d3064f6d505a088b9
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ec7a0c7c34e164b6ca6c8e65938a8c5e53e65514
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-bin-contents"></a>Procédure : créer le contenu d'un emplacement
+# <a name="create-bin-contents"></a>Créer le contenu d'un emplacement
 Une fois la configuration des emplacements terminée, vous pouvez configurer leur contenu. En d'autres termes, vous pouvez configurer les articles à stocker dans un emplacement donné et définir les règles qui régissent le remplissage de l'emplacement avec un article spécifique. Vous pouvez effectuer cette opération manuellement dans la fenêtre **Contenu emplacement** ou automatiquement dans la fenêtre **Créer feuille contenu emplacement**.
 
 ## <a name="to-create-bin-content-manually"></a>Pour créer le contenu d'emplacement manuellement  
@@ -56,8 +56,8 @@ Lorsque vous avez créé vos emplacements, vous pouvez créer le contenu de chaq
 Dans cette feuille, vous pouvez utiliser des lignes contenu de l'emplacement pour plusieurs emplacements, afin d'obtenir un aperçu convenable des articles que vous placez dans différents emplacements d'une zone, d'une allée, ou d'un casier donné.  
 
 ## <a name="see-also"></a>Voir aussi
-[Procédure : calculer réappro. emplacement](warehouse-how-to-calculate-bin-replenishment.md)    
-[Gestion d'entrepôt](warehouse-manage-warehouse.md)  
+[Calculer réappro. emplacement](warehouse-how-to-calculate-bin-replenishment.md)    
+[Gestion d’entrepôt](warehouse-manage-warehouse.md)  
 [STOCKS ET EN-COURS](inventory-manage-inventory.md)  
 [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)     
 [Gestion des assemblages](assembly-assemble-items.md)    

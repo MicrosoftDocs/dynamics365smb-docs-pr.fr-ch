@@ -1,6 +1,6 @@
 ---
 title: "Détails de conception - Paramètres entrepôt | Microsoft Docs"
-description: "La fonctionnalité d'entrepôt dans Dynamics 365 contient différents niveaux de complexité, tels que définis par les autorisations de licence dans les granules proposés. Le niveau de complexité dans une solution entrepôt est en grande partie défini par le paramétrage des emplacements sur les fiches magasin, qui est lui-même contrôlé par licence afin que l'accès aux champs de configuration de l'emplacement soit défini par la licence."
+description: "La fonctionnalité d'entrepôt dans Finance and Operations, Business edition contient différents niveaux de complexité, tels que définis par les autorisations de licence dans les granules proposés. Le niveau de complexité dans une solution entrepôt est en grande partie défini par le paramétrage des emplacements sur les fiches magasin, qui est lui-même contrôlé par licence afin que l'accès aux champs de configuration de l'emplacement soit défini par la licence."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: cf6a2fbbe92b47c4ac58d16abacaaefbe33309b1
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 77b601fed0f7eac77ff5a87ba9bc04150325927c
 ms.contentlocale: fr-ch
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="design-details-warehouse-setup"></a>Détails de conception : paramètres entrepôt

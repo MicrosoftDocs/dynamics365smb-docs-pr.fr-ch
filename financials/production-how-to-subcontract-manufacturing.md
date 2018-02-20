@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6f8094545431468bd12e231364987e70bda429bb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2796da1b41569c8c950dc844fc31eaf4f0179efa
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-subcontract-manufacturing"></a>Procédure : sous-traiter la production
+# <a name="subcontract-manufacturing"></a>Sous-traiter la production
 La sous-traitance des opérations sélectionnées au fournisseur est courante dans de nombreuses sociétés de production. La sous-traitance peut être occasionnelle ou faire partie intégrante des processus de production.
 
 Le programme fournit plusieurs outils pour gérer le travail de sous-traitance :  
@@ -41,12 +41,12 @@ Vous pouvez utiliser des centres de charge sous-traitants pour des opérations d
 
 Vous pouvez configurer un gamme utilisant un centre de charge externe comme étape opérationnelle standard. Vous pouvez également modifier la gamme pour un ordre de fabrication particulier afin d'inclure une opération externe. Cela peut être nécessaire en cas d'urgence, par exemple pour un serveur défaillant, ou durant une période temporaire de demande accrue, où le travail généralement traité en interne doit être délégué à un sous-traitant.  
 
-Pour plus d'informations, reportez-vous à [Procédure : Créer des gammes](production-how-to-create-routings.md).  
+Pour plus d'informations, reportez-vous à [Créer des gammes](production-how-to-create-routings.md).  
 
 ## <a name="subcontracting-worksheet"></a>Propositions sous-traitance  
 Après le calcul des propositions sous-traitance, le document approprié, en l'occurrence une commande achat, est créé.  
 
-# <a name="how-to-calculate-subcontracting-worksheets-and-create-subcontract-purchase-orders"></a>Procédure : calculer des propositions de sous-traitance et créer des commandes achat de sous-traitance
+# <a name="calculate-subcontracting-worksheets-and-create-subcontract-purchase-orders"></a>Calculer des propositions de sous-traitance et créer des commandes achat de sous-traitance
 La fenêtre **Proposition sous\-traitance** fonctionne comme la **Feuille planning** en calculant les approvisionnements nécessaires \(dans ce cas, les commandes achat\) que vous vérifiez dans la feuille puis créez à l'aide de la fonction **Traiter messages d'action**.  
 
 > [!NOTE]  

@@ -12,20 +12,20 @@ ms.search.keywords: item, finished good, component, raw material, assembly item
 ms.date: 08/31/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e926baa3d5348f9c275d3063b67be57b72f616ee
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 39a701fb0ff705508fdc4ddcec0af661d234e8c8
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-register-new-items"></a>Procédure : enregistrer de nouveaux articles
+# <a name="register-new-items"></a>Enregistrer de nouveaux articles
 Les articles, entre autres produits, sont la base de votre activité, les biens ou les services que vous commercialisez. Chaque article doit être enregistré en tant que fiche article.
 
 Les fiches article contiennent les informations nécessaires à l'achat, le stockage, la vente, la livraison et la comptabilisation des articles.
 
-La fiche article peut être de type **Stock** ou **Service** pour spécifier si l'article est une unité physique ou une unité temporelle de main-d'œuvre. Mis à part certains champs liés à l'aspect physique d'un article, tous les champs d'une fiche article fonctionnent de la même manière pour les articles de stock et les services. Pour plus d'informations sur la vente d'un article , reportez-vous à [Procédure : vendre des produits](sales-how-sell-products.md) ou à [Procédure : facturer les ventes](sales-how-invoice-sales.md).
+La fiche article peut être de type **Stock** ou **Service** pour spécifier si l'article est une unité physique ou une unité temporelle de main-d'œuvre. Mis à part certains champs liés à l'aspect physique d'un article, tous les champs d'une fiche article fonctionnent de la même manière pour les articles de stock et les services. Pour plus d'informations sur la vente d'un article , reportez-vous à [Vendre des produits](sales-how-sell-products.md) ou à [Facturer les ventes](sales-how-invoice-sales.md).
 
-Un article peut être structuré comme article parent avec les éléments enfants sous-jacents dans une nomenclature. Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], une nomenclature peut être une nomenclature d'assemblage ou une nomenclature de production, selon son utilisation. Pour plus d'informations, reportez-vous à [Procédure : utiliser les nomenclatures](inventory-how-work-BOMs.md).
+Un article peut être structuré comme article parent avec les éléments enfants sous-jacents dans une nomenclature. Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], une nomenclature peut être une nomenclature d'assemblage ou une nomenclature de production, selon son utilisation. Pour plus d'informations, reportez-vous à [Utiliser les nomenclatures](inventory-how-work-BOMs.md).
 
 > [!NOTE]  
 >   Si des modèles article existent pour différents types d'articles, une fenêtre s'affiche automatiquement lorsque vous créez une nouvelle fiche article à partir de laquelle vous pouvez sélectionner un modèle article approprié. Si un seul modèle article existe, les nouvelles fiches article utiliseront toujours ce modèle.
@@ -77,7 +77,5 @@ Les fournisseurs s'affichent maintenant dans la fenêtre **Catalogue fournisseur
   [STOCKS ET EN-COURS](inventory-manage-inventory.md)  
   [Achats](purchasing-manage-purchasing.md)  
   [Ventes](sales-manage-sales.md)  
-  [Utilisation de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
-
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+  [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

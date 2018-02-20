@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b03209b5681c264f7d788d3d731d32b60f1709b6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 61ecdcd1c87d267e19047be5424e1c07e832316a
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-reserve-items"></a>Procédure : réserver des articles
+# <a name="reserve-items"></a>Réserver des articles
 Vous pouvez réserver des articles pour les commandes vente, les commandes service, les ordres d'assemblage et les ordres de fabrication. Vous pouvez réserver des articles en stock ou entrants sur les lignes document ou les lignes feuille ouvertes. Vous effectuez le travail dans la fenêtre **Réservation**.
 
 Chaque ligne de la fenêtre **Réservation**, que vous ouvrez pour réserver des articles, donne des informations sur un type de ligne (vente, achat, feuille) ou d'écriture de stock. Les lignes décrivent le nombre d'articles disponibles pour réservation à partir de chaque type de ligne ou d'écriture.
@@ -81,14 +81,14 @@ Vous pouvez parfois avoir à annuler une réservation d'article.
 4.  Confirmez le message qui suit en cliquant sur le bouton **OK**.  
 
 ## <a name="to-reserve-a-specific-serial-or-lot-number"></a>Pour réserver un numéro de série ou de lot particulier  
-À partir des documents sortants pour les articles suivis, comme des commandes vente ou des listes de composants de production, vous pouvez réserver des numéros de série ou de lot spécifiques. Ceci peut s'avérer utile, par exemple, si vous avez besoin des composants de production d'un lot spécifique pour assurer une cohérence avec des lots de production précédents, ou parce qu'un client demande un numéro de série particulier. Pour plus d'informations, voir [Procédure : utiliser les numéros de lot et de série](inventory-how-work-item-tracking.md).
+À partir des documents sortants pour les articles suivis, comme des commandes vente ou des listes de composants de production, vous pouvez réserver des numéros de série ou de lot spécifiques. Ceci peut s'avérer utile, par exemple, si vous avez besoin des composants de production d'un lot spécifique pour assurer une cohérence avec des lots de production précédents, ou parce qu'un client demande un numéro de série particulier. Pour plus d'informations, voir [Utiliser les numéros de lot et de série](inventory-how-work-item-tracking.md).
 
 Il s'agit d'une réservation spécifique, parce que vous réservez à partir de la quantité de l'article X qui appartient au Lot X. Si vous réservez seulement à partir des quantités de l'article X, la réservation est normale, non spécifique. Pour plus d'informations, reportez-vous à [Détails de conception : traçabilité et réservations](design-details-item-tracking-and-reservations.md).
 
 La procédure suivante se base sur une commande vente.    
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Commandes vente**, puis sélectionnez le lien connexe.  
 2. Créez une ligne commande vente d'un article suivi.  
-3. Affectez des numéros de série et de lot à la ligne commande vente. Pour plus d'informations, voir [Procédure : utiliser les numéros de lot et de série](inventory-how-work-item-tracking.md).
+3. Affectez des numéros de série et de lot à la ligne commande vente. Pour plus d'informations, voir [Utiliser les numéros de lot et de série](inventory-how-work-item-tracking.md).
 4. Sur la ligne commande vente, sélectionnez l'action **Réserver**.  
 5. Choisissez le bouton **Oui** pour réserver des numéros de série ou de lot spécifiques.  
 6. Dans la fenêtre **Liste traçabilité**, sélectionnez la combinaison de numéros de série et de lot que vous venez d'affecter.  
@@ -99,6 +99,6 @@ La procédure suivante se base sur une commande vente.
 [STOCKS ET EN-COURS](inventory-manage-inventory.md)  
 [Détails de conception : réservation, chaînage et message d'action](design-details-reservation-order-tracking-and-action-messaging.md)  
 [Détails de conception : traçabilité et réservations](design-details-item-tracking-and-reservations.md)  
-[Procédure : utiliser les numéros de lot et de série](inventory-how-work-item-tracking.md)  
+[Utiliser les numéros de lot et de série](inventory-how-work-item-tracking.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

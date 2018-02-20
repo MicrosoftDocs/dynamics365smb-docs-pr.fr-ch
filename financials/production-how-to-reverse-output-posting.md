@@ -13,18 +13,18 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 7ac453ff87d78e6be0567ba93b58c0f8938f4052
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 73d90f585b86785b9bdb1355a52a682612488182
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-reverse-output-posting"></a>Procédure : contrepasser la validation de production
+# <a name="reverse-output-posting"></a>Contrepasser la validation de production
 Il arrive qu'une validation de production doive être contrepassée. C'est le cas, par exemple, si une erreur de saisie de données a été commise et qu'une quantité de production incorrecte a été validée pour un ordre de fabrication.  
 
 ## <a name="to-reverse-an-output-posting"></a>Pour contrepasser une validation de production  
 1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille production**, puis sélectionnez le lien connexe. Sélectionnez votre lot.  
-2. Renseignez les champs selon vos besoins. Pour plus d'informations, voir [Procédure : valider par lots la production et les temps d'exécution](production-how-to-post-output-quantity.md).
+2. Renseignez les champs selon vos besoins. Pour plus d'informations, voir [Valider par lots la production et les temps d'exécution](production-how-to-post-output-quantity.md).
 3.  Dans le champ **Ecriture lettrage**, sélectionnez l'écriture comptable article associée. Cette action contrepasse les écritures comptables capacité et article.  
 4. Validez la contrepassation en validant la feuille.  
 

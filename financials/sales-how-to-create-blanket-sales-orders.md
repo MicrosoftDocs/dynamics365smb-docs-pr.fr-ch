@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 0b91925a7ec6adb40cdf99d5bcf3398b62c28b3f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 89db93227222d79e535f2d18400330aa30566f2f
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-blanket-sales-orders"></a>Procédure : utiliser des commandes ouvertes vente
+# <a name="work-with-blanket-sales-orders"></a>Utiliser des commandes ouvertes vente
 Une commande ouverte vente représente le cadre d'un accord à long terme entre votre client et vous.
 
 Une commande ouverte est généralement établie quand un client s'est engagé à acheter de grandes quantités à livrer en plusieurs expéditions de plus petite taille au cours d'une période déterminée. Souvent, les commandes ouvertes ne portent que sur un seul article avec des dates de livraison prédéterminées. La principale raison d'utiliser une commande ouverte plutôt qu'une commande vente est que les quantités entrées dans une commande ouverte n'affectent pas la disponibilité de l'article et peuvent donc être utilisées comme une feuille à des fins de surveillance, de précision et de planification.

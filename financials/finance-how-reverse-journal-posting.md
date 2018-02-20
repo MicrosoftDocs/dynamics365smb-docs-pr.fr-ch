@@ -13,18 +13,18 @@ ms.search.keywords: reimbursement
 ms.date: 08/03/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 802171d4f421270cb7e9b4f9dfedec9b9fe5ddc6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 92c0bca970250b8f160ecfc15b086963c8693885
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-reverse-postings"></a>Procédure : inversion d'une validation
+# <a name="reverse-postings"></a>Inversion d'une validation
 Pour annuler une validation feuille erronée, sélectionnez l'écriture et créez une écriture inverse (écritures identiques aux écritures originales mais avec le signe opposé) portant les mêmes numéro de document et date comptabilisation que l'écriture d'origine. Une fois l'écriture contrepassée, créez l'écriture correcte.
 
 Vous pouvez uniquement inverser les écritures validées à partir d'une ligne feuille comptabilité. Une écriture ne peut être contrepassée qu'une fois.
 
-Pour plus d'informations sur la validation d'une feuille comptabilité, voir [Procédure : Valider les transactions directement vers la comptabilité](finance-how-post-transactions-directly.md).
+Pour plus d'informations sur la validation d'une feuille comptabilité, voir [Valider les transactions directement vers la comptabilité](finance-how-post-transactions-directly.md).
 
 Si vous avez effectué une validation de quantité négative incorrecte, comme une commande achat avec, par exemple, un nombre d'articles incorrect et que vous l'avez validée comme étant reçue (mais non facturée), vous pouvez annuler cette validation.
 
@@ -68,7 +68,7 @@ Vous pouvez inverser des écritures dans toutes les fenêtres **Écritures compt
 8.  Corrigez l'écriture dans le champ **Quantité** et publiez à nouveau le retour achat.  
 
 ## <a name="see-also"></a>Voir aussi
-[Procédure : Valider les transactions directement vers la comptabilité](finance-how-post-transactions-directly.md)  
+[Valider les transactions directement vers la comptabilité](finance-how-post-transactions-directly.md)  
 [Utilisation de feuilles comptabilité](ui-work-general-journals.md)  
 [Finances](finance.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: de493a4697c3a5c2fb8581545a29ee832fe1c3dc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f2d95dbb6d0336286f0fb657028970ce8a04cfda
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-manufacturing"></a>Paramétrage de la production
@@ -31,14 +31,14 @@ Une fois que vous avez paramétré la production, vous pouvez planifier et exéc
 |**Pour**|**Voir**|  
 |------------|-------------|  
 |Configurer les fonctionnalités de fabrication, telles que la définition des heures de travail atelier et la sélection des principes de planification.|Page **Paramètres production**.|  
-|Définir une semaine de travail standard dans le département Production en termes d'heures de début et de fin de chaque journée de travail et des équipes associées.|[Procédure : créer des calendriers usine](production-how-to-create-work-center-calendars.md)|  
-|Organiser les exigences et les valeurs fixes des ressources de production en centres de charge ou postes de charge pour régir leur production.|[Procédure : configurer les centres de charge et les postes de charge](production-how-to-set-up-work-and-machine-centers.md)|
-|Organiser les opérations de fabrication dans l'ordre requis et les affecter aux centres ou postes de charge avec les temps de travail nécessaires.|[Procédure : créer des gammes](production-how-to-create-routings.md)|
-|Organiser des composants de production ou des produits semi-finis sous un article parent produit et certifier la nomenclature d'exécution dans les centres de charge.|[Procédure : créer des nomenclatures de production](production-how-to-create-production-boms.md)|
-|Vérifier que la quantité appropriée de composants est disponible lorsque des articles produits sont stockés dans une unité de mesure mais produits dans une autre.|[Procédure : utiliser les unités de lot de fabrication](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)|  
-|Définir des familles d'articles produits ayant des processus de fabrication similaires pour réduire la consommation. Par exemple, quatre pièces du même article et dix pièces d'un autre peuvent être fabriquées simultanément à partir d'une plaque.|[Procédure : utiliser les familles de production](production-how-work-family.md)|
-|Utiliser des tâches standard pour simplifier la création de gammes en associant rapidement des informations supplémentaires aux opérations récurrentes.|[Procédure : configurer des lignes gamme standard](production-how-set-up-standard-routing-lines.md)|  
-|Préparez les centres de charge et les gammes à représenter les opérations de production sous-traitées.|[Procédure : sous-traiter la production](production-how-to-subcontract-manufacturing.md)|  
+|Définir une semaine de travail standard dans le département Production en termes d'heures de début et de fin de chaque journée de travail et des équipes associées.|[Créer des calendriers usine](production-how-to-create-work-center-calendars.md)|  
+|Organiser les exigences et les valeurs fixes des ressources de production en centres de charge ou postes de charge pour régir leur production.|[Configurer les centres de charge et les postes de charge](production-how-to-set-up-work-and-machine-centers.md)|
+|Organiser les opérations de fabrication dans l'ordre requis et les affecter aux centres ou postes de charge avec les temps de travail nécessaires.|[Créer des gammes](production-how-to-create-routings.md)|
+|Organiser des composants de production ou des produits semi-finis sous un article parent produit et certifier la nomenclature d'exécution dans les centres de charge.|[Créer des nomenclatures de production](production-how-to-create-production-boms.md)|
+|Vérifier que la quantité appropriée de composants est disponible lorsque des articles produits sont stockés dans une unité de mesure mais produits dans une autre.|[Utiliser les unités de lot de fabrication](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)|  
+|Définir des familles d'articles produits ayant des processus de fabrication similaires pour réduire la consommation. Par exemple, quatre pièces du même article et dix pièces d'un autre peuvent être fabriquées simultanément à partir d'une plaque.|[Utiliser les familles de production](production-how-work-family.md)|
+|Utiliser des tâches standard pour simplifier la création de gammes en associant rapidement des informations supplémentaires aux opérations récurrentes.|[Configurer des lignes gamme standard](production-how-set-up-standard-routing-lines.md)|  
+|Préparez les centres de charge et les gammes à représenter les opérations de production sous-traitées.|[Sous-traiter la production](production-how-to-subcontract-manufacturing.md)|  
 
 ## <a name="see-also"></a>Voir aussi
 [Production](production-manage-manufacturing.md)    

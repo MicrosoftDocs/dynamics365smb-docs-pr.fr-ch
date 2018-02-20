@@ -1,6 +1,6 @@
 ---
 title: "Moyens de résoudre des problèmes d'inscription en self-service | Microsoft Docs"
-description: "En savoir plus sur les motifs classiques pour lesquels vous ne pouvez pas terminer l'inscription à Dynamics 365 Business edition, et des manières de les résoudre."
+description: "En savoir plus sur les motifs classiques pour lesquels vous ne pouvez pas terminer l'inscription à Finance and Operations, Business edition, et des manières de les résoudre."
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,16 +10,16 @@ ms.workload: na
 ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: c97d406d0213c7b2ade23a2d209adf54bf9dfcae
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 109865854aef62b818baa39c4314874a98f59191
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="troubleshooting-self-service-sign-up"></a>Dépannage de l'inscription en self-service
 L'inscription à [!INCLUDE[d365fin](includes/d365fin_md.md)] est simple et peut être effectuée très rapidement. Vous pouvez créer un compte gratuit même si vous représentez une société existante. Cet article aborde les problèmes que vous pouvez rencontrer lors de l'inscription.
 
-## <a name="what-email-address-can-i-use-with-dynamics-365"></a>Quelle adresse e-mail puis-je utiliser avec Dynamics 365 ?
+## <a name="what-email-address-can-i-use-with-finance-and-operations-business-edition"></a>Quelle adresse e-mail puis-je utiliser avec Finance and Operations, Business edition ?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] exige que vous utilisiez une adresse e-mail professionnelle ou scolaire pour votre inscription. [!INCLUDE[d365fin](includes/d365fin_md.md)] ne prend pas en charge les adresses e-mail fournies par les services de messagerie publics ni les opérateurs de télécommunications. Cela comprend outlook.com, hotmail.com, gmail.com, et d'autres.
 
 Si vous essayez d'effectuer votre inscription à l'aide d'une adresse e-mail personnelle, vous recevez un message vous demandant d'utiliser une adresse professionnelle ou scolaire.

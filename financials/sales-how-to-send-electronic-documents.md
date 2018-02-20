@@ -11,18 +11,18 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: eb9a20547c7eef346fa199eaa136211dcdd09dab
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: fae5e37b8f1fcca84a474b2eac2039f7fc6d8245
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-send-electronic-documents"></a>Procédure : envoyer des documents électroniques
+# <a name="send-electronic-documents"></a>Envoyer des documents électroniques
 La version générique de [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge l'envoi de factures et d'avoirs électroniques au format PEPPOL, qui est pris en charge par les principaux fournisseurs de services d'échange de documents. Un fournisseur de services d'échange de documents affecte des documents électroniques entre partenaires commerciaux. Pour assurer la prise en charge d'autres formats de documents électroniques, vous pouvez utiliser l'infrastructure d'échange de données.  
 
- Dans la version générique de [!INCLUDE[d365fin](includes/d365fin_md.md)], un service d'échange de documents est préconfiguré et prêt à être installé pour votre société. Pour plus d'informations, reportez vous à [Procédure : configurer un service d'échange de document](across-how-to-set-up-a-document-exchange-service.md).  
+ Dans la version générique de [!INCLUDE[d365fin](includes/d365fin_md.md)], un service d'échange de documents est préconfiguré et prêt à être installé pour votre société. Pour plus d'informations, reportez vous à [Configurer un service d'échange de document](across-how-to-set-up-a-document-exchange-service.md).  
 
- Pour envoyer une facture vente en tant que document électronique PEPPOL, sélectionnez l'option **Document électronique** dans la boîte de dialogue **Valider et envoyer** à partir de laquelle vous pouvez également configurer le profil d'envoi de document par défaut du client. Au préalable, vous devez configurer différentes données de base, telles que les informations sur la société, les clients, les articles, et les unités de mesure. Celles-ci sont utilisées pour identifier les partenaires commerciaux et les articles lors de la conversion des données des champs dans [Procédure : configurer l'envoi et la réception de documents électroniques](across-how-to-set-up-electronic-document-sending-and-receiving.md).  
+ Pour envoyer une facture vente en tant que document électronique PEPPOL, sélectionnez l'option **Document électronique** dans la boîte de dialogue **Valider et envoyer** à partir de laquelle vous pouvez également configurer le profil d'envoi de document par défaut du client. Au préalable, vous devez configurer différentes données de base, telles que les informations sur la société, les clients, les articles, et les unités de mesure. Celles-ci sont utilisées pour identifier les partenaires commerciaux et les articles lors de la conversion des données des champs dans [Configurer l'envoi et la réception de documents électroniques](across-how-to-set-up-electronic-document-sending-and-receiving.md).  
 
 ### <a name="to-send-an-electronic-sales-invoice"></a>Envoyer une facture vente électronique  
 
@@ -50,11 +50,11 @@ La version générique de [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en c
     >  Vous pouvez également envoyer une facture vente validée en tant que document électronique. La procédure est la même que celle décrite dans cette rubrique pour les documents vente non validés. Dans la fenêtre **Facture vente enregistrée**, sous l'onglet **Actions**, dans le groupe **Général**, sélectionnez **Journal des activités** pour afficher le statut du document électronique. Pour plus d'informations, voir **Journal des activités**.  
 
 ## <a name="see-also"></a>Voir aussi  
-[Procédure : facturer des ventes](sales-how-invoice-sales.md)  
-[Procédure : configurer des profils d'envoi de documents](sales-how-setup-document-send-profiles.md)  
-[Procédure : Configurer l'envoi et la réception de documents électroniques](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
-[Procédure : configurer un service d'échange de document](across-how-to-set-up-a-document-exchange-service.md)  
-[Procédure : configurer les définitions d'échange de données](across-how-to-set-up-data-exchange-definitions.md)  
+[Facturer des ventes](sales-how-invoice-sales.md)  
+[Configurer des profils d'envoi de documents](sales-how-setup-document-send-profiles.md)  
+[Configurer l'envoi et la réception de documents électroniques](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
+[Configurer un service d'échange de document](across-how-to-set-up-a-document-exchange-service.md)  
+[Configurer les définitions d'échange de données](across-how-to-set-up-data-exchange-definitions.md)  
 [Échanger des données par voir électronique](across-data-exchange.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)  
 

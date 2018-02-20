@@ -13,13 +13,13 @@ ms.search.keywords: transportation, added cost
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: a97f56eeeb61aa94485dc4ec73f19a01e21e055a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5a40482673c8b8110a6036046174a58f5d7be18f
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-use-item-charges-to-account-for-additional-trade-costs"></a>Procédure : Utiliser Frais annexes pour comptabiliser les coûts commerciaux supplémentaires
+# <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Utiliser Frais annexes pour comptabiliser les coûts commerciaux supplémentaires
 Pour une évaluation correcte, vos articles de stock doivent comptabiliser tous les coûts ajoutés, tels que le fret, la manutention, les assurances, et transport, que vous encourez lorsque vous achetez ou vendez des articles. Pour les achats, le coût en magasin d'un article acheté est constitué du prix d'achat au fournisseur et de tous les frais annexes directs pouvant être affectés à chacune des réceptions ou expéditions retour. Pour les ventes, il peut s'avérer aussi fondamental pour votre société de connaître le coût de l'expédition des articles vendus que le coût en magasin des articles achetés.
 
 En plus d'enregistrer les coûts supplémentaires dans votre valeur de stock, vous pouvez utiliser la fonction Frais annexes pour qui suit :
@@ -48,7 +48,7 @@ Utilisez les numéros de frais annexes pour distinguer les différents types de 
 Si vous connaissez les frais annexes au moment de valider une facture achat pour l'article, procédez comme suit.
 
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Factures achat**, puis sélectionnez le lien connexe.
-2. Créez une facture achat. Pour plus d'informations, reportez-vous à [Procédure : enregistrer des achats](purchasing-how-record-purchases.md).
+2. Créez une facture achat. Pour plus d'informations, voir [Enregistrer des achats](purchasing-how-record-purchases.md).
 3. Assurez-vous que la facture achat a une ou plusieurs lignes de type Article.
 4. Sur une nouvelle ligne, dans le champ **Type**, sélectionnez **Frais annexes**.
 5. Dans le champ **Quantité**, saisissez les unités de ces frais annexes qui vous ont été facturées.
@@ -78,7 +78,7 @@ Les frais annexes de la facture achat distincte sont maintenant affectés à l'a
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion des comptes fournisseur](payables-manage-payables.md)  
-[Procédure : enregistrer des achats](purchasing-how-record-purchases.md)  
-[Procédure : facturer des ventes](sales-how-invoice-sales.md)  
+[Enregistrer des achats](purchasing-how-record-purchases.md)  
+[Facturer des ventes](sales-how-invoice-sales.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

@@ -13,17 +13,17 @@ ms.search.keywords:
 ms.date: 08/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ba8c1649094c9606766c4f4e88df5beed9400e53
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7e5d30ec5775030c523b73f90490428531f49fec
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-pick-items-with-inventory-picks"></a>Comment prélever des articles avec les prélèvements stock
+# <a name="pick-items-with-inventory-picks"></a>Prélever des articles avec les prélèvements stock
 Lorsque votre magasin est défini pour exiger un traitement des prélèvements mais pas un traitement des expéditions, vous utilisez la fenêtre **Prélèvement stock** pour enregistrer et valider les informations de prélèvement et d'expédition pour vos documents origine. Le document origine sortant peut être une commande vente, un retour achat, un désenlogement transfert ou un ordre de fabrication dont les composants sont prêts à être prélevés.
 
 > [!NOTE]  
-> Les composants pour les commandes d'assemblage ne peuvent pas être prélevés ni validés avec des prélèvements stock. À la place, utilisez la fenêtre **Mouvement de stock**. Pour plus d'informations, voir [Comment déplacer les composants vers une zone opérations dans le stockage de base](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
+> Les composants pour les commandes d'assemblage ne peuvent pas être prélevés ni validés avec des prélèvements stock. À la place, utilisez la fenêtre **Mouvement de stock**. Pour plus d'informations, voir [Déplacer les composants vers une zone opérations dans le stockage de base](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
 
 >  En cas de prélèvement et d'expédition de quantités de lignes vente assemblées pour commande, vous devez suivre certaines règles en créant les lignes prélèvement stock. Pour plus d’informations, reportez-vous à la section « Traitement des articles à assembler pour commande dans les prélèvements stock ».  
 
@@ -39,7 +39,7 @@ Pour les commandes vente, de retours achat et de désenlogements transfert, vous
 1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Commandes vente**, puis sélectionnez le lien connexe.
 2. Sélectionnez la commande vente que vous voulez lancer, puis sélectionnez l'action **Lancer**.
 
-Pour les ordres de fabrication, vous créez automatiquement la demande entrepôt pour le prélèvement de composants, appelé *consommation* lorsque le statut de l'ordre de fabrication passe à **Lancé** ou lorsque l'ordre de fabrication lancé est créé. Pour plus d'informations, reportez-vous à [Procédure : prélever pour la fabrication ou l'assemblage](warehouse-how-to-pick-for-production.md).
+Pour les ordres de fabrication, vous créez automatiquement la demande entrepôt pour le prélèvement de composants, appelé *consommation* lorsque le statut de l'ordre de fabrication passe à **Lancé** ou lorsque l'ordre de fabrication lancé est créé. Pour plus d'informations, voir [Prélever pour la fabrication ou l'assemblage](warehouse-how-to-pick-for-production.md).
 
 Une fois la demande entrepôt créée, le magasinier affecté aux prélèvements des articles peut voir que le document origine est prêt à être prélevé et peut créer un nouveau document prélèvement sur la base de la demande entrepôt.  
 
@@ -73,7 +73,7 @@ Maintenant que la demande est créée, le magasinier peut créer un nouveau pré
 2. Dans le champ **Code emplacement** sur les lignes prélèvement, l'emplacement à partir duquel les articles doivent être prélevés est proposé sur la base d'un emplacement par défaut de l'article. Vous pouvez modifier l'emplacement dans cette fenêtre, si nécessaire.  
 3. Exécutez le prélèvement et saisissez les informations pour la quantité effectivement rangée dans le champ **Quantité à traiter**.
 
-    S'il s'avère nécessaire de prendre les articles d'une ligne dans plusieurs emplacements, notamment parce qu'ils ne sont pas disponibles dans l'emplacement indiqué, alors utilisez la fonction **Eclater ligne** sur le raccourci **Lignes**. Pour plus d'informations sur l'éclatement des lignes, reportez\-vous à la rubrique [Procédure : répartir des lignes activité entrepôt](warehouse-how-to-split-warehouse-activity-lines.md).  
+    S'il s'avère nécessaire de prendre les articles d'une ligne dans plusieurs emplacements, notamment parce qu'ils ne sont pas disponibles dans l'emplacement indiqué, alors utilisez la fonction **Eclater ligne** sur le raccourci **Lignes**. Pour plus d'informations sur l'éclatement des lignes, voir [Répartir des lignes activité entrepôt](warehouse-how-to-split-warehouse-activity-lines.md).  
 4. Une fois le prélèvement exécuté, choisissez l'action **Valider**.    
 
 Le processus de validation valide l'expédition des lignes du document origine qui ont été prélevées, ou la consommation dans le cas d'ordres de fabrication. Si le magasin utilise des emplacements, la validation crée également des écritures entrepôt pour valider les modifications apportées aux quantités emplacement.  
@@ -87,11 +87,11 @@ Si les articles du prélèvement stock ne sont pas disponibles, vous pouvez supp
 >  Si des numéros de série/lot de lignes prélèvement stock ne sont pas disponibles, vous ne devez pas supprimer les lignes concernées. Au lieu de cela, vous devez remettre le champ **Qté à gérer** à zéro, valider les prélèvements réels, puis supprimer le document prélèvement stock. De cette manière, vous pourrez recréer les lignes prélèvement stock de ces numéros de série/lot de la commande vente ultérieurement.  
 
 ## <a name="handling-assemble-to-order-items-with-inventory-picks"></a>Traitement des articles à assembler pour commande dans les prélèvements stock
-La fenêtre **Prélvmt invent** est également utilisée pour prélever et livrer les ventes lorsque les articles doivent être assemblés avant de pouvoir être livrés. Pour plus d'informations sur le paramétrage des éléments d'assemblage, voir [Procédure : Vente d'articles à assembler pour commande](assembly-how-to-sell-items-assembled-to-order.md).
+La fenêtre **Prélvmt invent** est également utilisée pour prélever et livrer les ventes lorsque les articles doivent être assemblés avant de pouvoir être livrés. Pour plus d'informations, reportez-vous à [Vente d'articles à assembler pour commande](assembly-how-to-sell-items-assembled-to-order.md).
 
 Les articles à expédier ne sont pas physiquement présents dans un emplacement tant qu'ils ne sont pas assemblés et enregistrés comme production dans un emplacement de la zone d'assemblage. Cela signifie que le prélèvement des articles à assembler pour commande en vue de l'expédition est effectué suivant un flux spécial. Depuis un emplacement, les magasiniers extraient des éléments d'assemblage sur le poste d'accueil de livraison puis valident le prélèvement stock. Le prélèvement stock enregistré valide ensuite les résultats d'assemblage, la consommation de composants et l'expédition vente.
 
-Vous pouvez configurer [!INCLUDE[d365fin](includes/d365fin_md.md)] pour créer automatiquement un mouvement stock lors de la création du prélèvement stock pour l'élément d'assemblage. Pour cela, vous devez sélectionner le champ **Créer des mouvements automatiquement** dans la fenêtre **Paramètres d'assemblage**. Pour plus d'informations, voir [Comment déplacer les composants vers une zone opérations dans le stockage de base](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
+Vous pouvez configurer [!INCLUDE[d365fin](includes/d365fin_md.md)] pour créer automatiquement un mouvement stock lors de la création du prélèvement stock pour l'élément d'assemblage. Pour cela, vous devez sélectionner le champ **Créer des mouvements automatiquement** dans la fenêtre **Paramètres d'assemblage**. Pour plus d'informations, voir [Déplacer les composants vers une zone opérations dans le stockage de base](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
 
 Les lignes prélèvement stock pour les articles vente sont créées de différentes manières, selon qu'aucune, certaines ou toutes les quantités des lignes vente sont assemblées pour commande.
 

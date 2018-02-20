@@ -11,14 +11,14 @@ ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
 ms.date: 07/27/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 0823414b222c2f578a6e6c6908f403240cf104d5
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b14df6dbf21e405464431600eb5e743b528edbee
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="frequently-asked-questions"></a>Forum Aux Questions
-Cette section contient des réponses aux questions les plus fréquentes sur l'inscription à [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] et son utilisation.  
+Cette section contient des réponses aux questions les plus fréquentes sur l'inscription à [!INCLUDE[d365fin](includes/d365fin_md.md)] et son utilisation.  
 
 ## <a name="what-email-address-can-i-use-with-included365finincludesd365finmdmd"></a>Quelle adresse e-mail puis-je utiliser avec [!INCLUDE[d365fin](includes/d365fin_md.md)] ?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] exige que vous utilisiez une adresse e-mail professionnelle ou scolaire pour votre inscription. [!INCLUDE[d365fin](includes/d365fin_md.md)] ne prend pas en charge les adresses e-mail fournies par les services de messagerie publics ni les opérateurs de télécommunications. Cela comprend outlook.com, hotmail.com, gmail.com, et d'autres.  
@@ -35,7 +35,7 @@ Non. Par contre, si vous souhaitez faire l'expérience de [!INCLUDE[d365fin](inc
 Oui, mais en fonction de la manière dont vous avez effectué votre inscription à [!INCLUDE[d365fin](includes/d365fin_md.md)], vos données peuvent être conservées ou supprimées. Pour plus d'informations, voir [Annulation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](madeira-cancel.md).  
 
 ## <a name="where-do-i-go-if-i-have-questions"></a>Où aller si j'ai des questions ?
-Si vous avez des questions à propos de [!INCLUDE[d365fin](includes/d365fin_md.md)] et que vous ne trouvez pas les réponses dans cette documentation, vous pouvez demander à la communauté Dynamics 365 Business edition. Pour plus d'informations, voir [Communauté Dynamics 365, Business edition](https://community.dynamics.com/business). En outre, notre équipe d'assistance publie des conseils et des astuces. Pour plus d'informations, voir [Blog Dynamics 365 Business edition](https://blogs.msdn.microsoft.com/dyn365finsupport).  
+Si vous avez des questions à propos de [!INCLUDE[d365fin](includes/d365fin_md.md)] et que vous ne trouvez pas les réponses dans cette documentation, vous pouvez demander à la communauté Finance and Operations, Business edition. Pour plus d'informations, voir [Communauté Dynamics 365 for Finance and Operations, Business edition](https://community.dynamics.com/business). En outre, notre équipe d'assistance publie des conseils et des astuces. Pour plus d'informations, voir [Blog de support Dynamics 365 for Finance and Operations, Business edition](https://blogs.msdn.microsoft.com/dyn365finsupport).  
 
 ## <a name="is-it-possible-to-extend-my-30-day-new-company-trial-period"></a>Est-il possible d'étendre ma période d'essai de 30 jours « Nouvelle société » ?
 Oui. Si vous souhaitez étendre votre période d'essai, contactez Microsoft au 1-888-477-7989 (États-Unis) ou au 1-800-741-9206 (Canada). REMARQUE : Le processus d'extension de la période d'essai peut prendre jusqu'à 2 jours ouvrables.  
@@ -50,6 +50,6 @@ Avez-vous eu connaissance d'une nouvelle fonctionnalité dans la feuille de rout
 [Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] en tant que boîte de réception professionnelle dans Outlook](madeira-outlook.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] sans Outlook](madeira-no-outlook.md)  
-[Procédure : changer de Tableau de bord](change-role.md)  
-[Utilisation de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Changer le tableau de bord](change-role.md)  
+[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

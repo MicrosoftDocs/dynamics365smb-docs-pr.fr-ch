@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 9070d8d1454b43ccfc25276ac679c099b9e809ab
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="preparing-closing-statements"></a>Préparation des états de clôture
@@ -34,7 +34,7 @@ Le tableau suivant décrit un certain nombre d'états pouvant être utiles dans 
 | Imprimer un tableau d'analyse pour analyser les chiffres des comptes généraux ou comparer les écritures comptabilité réelles et les écritures budget. |Tableau d'analyse |
 | Vérifier que les écritures comptables client et fournisseur sont équilibrées avec les écritures comptables correspondantes. |Concordance cptes clt/fourn. |
 
-Pour afficher un état, sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez le nom tel qu'il s'affiche dans la table, puis sélectionnez le lien connexe.
+Pour afficher un état, sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez le nom tel qu'il s'affiche dans la table, puis sélectionnez le lien connexe.
 
 ## <a name="see-also"></a>Voir aussi
 [Clôture des exercices et des périodes](year-close-years-periods.md)  

@@ -1,6 +1,6 @@
 ---
-title: "Configurer des campagnes marketing dans Dynamics 365 | Microsoft Docs"
-description: "Décrit la manière dont vous pouvez configurer et mener des campagnes marketing dans Dynamics 365 afin de vous aider à identifier et attirer des prospects et à fidéliser les clients."
+title: Configurer des campagnes marketing dans Finance and Operations, Business edition| Microsoft Docs
+description: "Décrit la manière dont vous pouvez configurer et mener des campagnes marketing dans Finance and Operations, Business edition afin de vous aider à identifier et attirer des prospects et à fidéliser les clients."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,16 +11,16 @@ ms.search.keywords: marketing, campaign, promo, prospect
 ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 7ca0479ba1872600356ec5b10bf9492fef87a857
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4ca4fc6eee45c69be3de746ce1d799a481d7ea48
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-marketing-campaigns"></a>Gestion de campagnes marketing
 Disposer d'une solide stratégie marketing permet d'identifier, d'attirer et de fidéliser les clients. Une stratégie marketing est composée de diverses campagnes ainsi que d'interactions en relation avec vos activités de vente et de marketing. Lors de la planification d'une campagne, vous devez choisir les contacts à cibler, le type de campagne (salon, courrier direct) et le vendeur chargé de chaque tâche.
 
-Chaque campagne est composée de diverses activités ou actions. Vous pouvez combiner plusieurs tâches, par exemple les tâches qui représentent chacune une étape, dans les activités. Les tâches d'activité sont liées entre elles par une formule de date. Les tâches individuelles peuvent être affectées uniquement à des vendeurs. Les activités peuvent être affectées aux opportunités, vendeurs, groupes de vendeurs et contacts. Pour plus d'informations, voir [Procédure : configurer des cycles de vente opportunité et des étapes de cycle](marketing-how-setup-opportunity-sales-cycles-stages.md).
+Chaque campagne est composée de diverses activités ou actions. Vous pouvez combiner plusieurs tâches, par exemple les tâches qui représentent chacune une étape, dans les activités. Les tâches d'activité sont liées entre elles par une formule de date. Les tâches individuelles peuvent être affectées uniquement à des vendeurs. Les activités peuvent être affectées aux opportunités, vendeurs, groupes de vendeurs et contacts. Pour plus d'informations, voir [Configurer des cycles de vente opportunité et des étapes de cycle](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="defining-individual-campaigns"></a>Définition de campagnes individuelles
 Pour pouvoir créer une campagne, vous devez configurer des *codes statut campagne*. Ceux-ci permettent de gérer vos campagnes en affectant un statut à la campagne. Lorsque vous travaillez sur les étapes d'une campagne, vous pouvez voir où en est la campagne et visualiser l'étape suivante. Vous devez configurer des codes statut campagne dans la fenêtre **Statut campagne**.
@@ -39,16 +39,16 @@ Lorsque vous avez défini votre campagne, que vous avez déterminé les segments
 > [!NOTE]  
 >   Afin que vous puissiez activer les prix vente/remises ligne, vous devez spécifier si le segment entier ou une partie seulement des contacts sont des cibles de la campagne. Si les prix vente/remises ligne couvrent tous les contacts du segment, sélectionnez le champ **Cible campagne** sur le raccourci **Campagne** de la fiche **Segment**.
 
-Si les prix vente/remises ligne ne sont pas offerts à tous les contacts du segment, vous pouvez désélectionner le champ **Cible campagne** pour les contacts appropriés. Si vous ne pouvez pas visualiser ce champ, vous pouvez l'ajouter à votre affichage. Pour plus d'informations, voir [Personnalisation utilisateur](ui-user-personalization.md).
+Si les prix vente/remises ligne ne sont pas offerts à tous les contacts du segment, vous pouvez désélectionner le champ **Cible campagne** pour les contacts appropriés. Si vous ne pouvez pas visualiser ce champ, vous pouvez l'ajouter à votre affichage. Pour plus d'informations, voir [Personnalisation de votre espace de travail](ui-personalization-user.md).
 
 ## <a name="conducting-campaigns"></a>Mise en place de campagnes
 Au cours de la campagne, toutes les interactions avec vos contacts (segments) sont enregistrées afin que vous puissiez obtenir des statistiques et autres informations sur les coûts et taux de réussite la concernant.
 
-Les campagnes sont conduites par les vendeurs, vous devez créer des activités pour représenter chaque tâche et les affecter aux vendeurs appropriés. Pour plus d'informations, voir [Procédure : configurer des cycles de vente opportunité et des étapes de cycle](marketing-how-setup-opportunity-sales-cycles-stages.md).
+Les campagnes sont conduites par les vendeurs, vous devez créer des activités pour représenter chaque tâche et les affecter aux vendeurs appropriés. Pour plus d'informations, voir [Configurer des cycles de vente opportunité et des étapes de cycle](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion de contacts](marketing-contacts.md)  
 [Gestion des segments](marketing-segments.md)  
 [Gestion des opportunités de ventes](marketing-manage-sales-opportunities.md)  
-[Utilisation de Dynamics 365](ui-work-product.md)  
+[Utilisation de Finance and Operations, Business edition](ui-work-product.md)  
 

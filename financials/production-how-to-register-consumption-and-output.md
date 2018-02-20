@@ -1,6 +1,6 @@
 ---
 title: "Procédure d'enregistrement de la consommation et de la production pour un ordre de fabrication | Microsoft Docs"
-description: "Cette tâche d'exécution est réalisée dans la fenêtre **Feuille production**. La feuille combine en une seule feuille les fonctions des feuilles distinctes consommation et production. Vous accédez directement à la feuille combinée depuis un ordre de fabrication lancé. Son objectif principal est de valider manuellement la consommation de composants, la quantité d'articles finis produits et le temps passé dans les opérations."
+description: "Cette tâche d'exécution est réalisée dans la fenêtre **Feuille production** . La feuille combine en une seule feuille les fonctions des feuilles distinctes consommation et production. Vous accédez directement à la feuille combinée depuis un ordre de fabrication lancé. Son objectif principal est de valider manuellement la consommation de composants, la quantité d'articles finis produits et le temps passé dans les opérations."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: a60e63e9741f81aa6efcf8b6a4780b5b464fe440
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 493c6e24a42229bc6e5223319ca66c103ee08f96
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-register-consumption-and-output-for-one-released-production-order-line"></a>Procédure : enregistrer la consommation et la production pour une ligne ordre de fabrication lancé
+# <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Enregistrer la consommation et la production pour une ligne ordre de fabrication lancé
 Cette tâche d'exécution est réalisée dans la fenêtre **Feuille production** . La feuille combine en une seule feuille les fonctions des feuilles distinctes consommation et production. Vous accédez directement à la feuille combinée depuis un ordre de fabrication lancé. Son objectif principal est de valider manuellement la consommation de composants, la quantité d'articles finis produits et le temps passé dans les opérations. Les valeurs sont validées en comptabilité sous l'ordre de fabrication lancé. Les quantités consommées sont validées comme écritures comptables article négatives, les quantités produites sont validées comme écritures comptables article positives et les heures sont validées comme écritures comptables capacité. Ces valeurs validées peuvent également être visualisées au bas de la feuille sous forme de quantités réelles.  
 
 > [!NOTE]  
@@ -32,7 +32,7 @@ Cette tâche d'exécution est réalisée dans la fenêtre **Feuille production**
 1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **O.F. lancés**, puis sélectionnez le lien connexe.  
 2.  Ouvrez une ligne d'O.F. lancé qui est prête à être enregistrée, puis sur le raccourci **Lignes**, choisissez l'action **Ligne**, puis l'action **Feuille production**.  
 
-    La fenêtre **Feuille production** s'ouvre et affiche les lignes feuille pour la ligne O.F. en fonction de les fenêtres **Composant O.F.** et **Gamme O.F.** Ces lignes proviennent de la nomenclature de production et de la gamme affectées à l'article en cours de production. Pour plus d'informations, reportez\-vous à [Procédure : créer des nomenclatures de production](production-how-to-create-routings.md).  
+    La fenêtre **Feuille production** s'ouvre et affiche les lignes feuille pour la ligne O.F. en fonction de les fenêtres **Composant O.F.** et **Gamme O.F.** Ces lignes proviennent de la nomenclature de production et de la gamme affectées à l'article en cours de production. Pour plus d'informations, voir [Créer des nomenclatures de production](production-how-to-create-routings.md).  
 
 3.  Dans le champ **Date comptabilisation** situé en haut de la feuille, vous pouvez entrer une date comptabilisation à appliquer à toutes les lignes. Par défaut, ce champ affiche la date de travail. Il permet d'aligner rapidement les dates comptabilisation de toutes les lignes, si nécessaire.  
 

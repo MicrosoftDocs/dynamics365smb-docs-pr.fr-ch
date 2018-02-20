@@ -13,10 +13,10 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 7d78333c5a7151ad60f07433ba32cfea142a2445
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7fd5d5885439a34ca18ae4ed8d7c0bfb577c0174
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Configuration d'une analyse de trésorerie
@@ -58,7 +58,7 @@ Pour les configurer, recherchez **comptes de trésorerie**, choisissez le lien, 
 ## <a name="set-up-cash-flow-forecasts"></a>Configurer les prévisions de trésorerie
 Le graphique **Prévision de trésorerie** utilise les comptes de trésorerie, les paramétrages de trésorerie et les prévisions de trésorerie. Certains comptes sont fournis, cependant, vous pouvez définir les vôtres à l'aide d'un guide de configuration assistée. Le guide vous aide à spécifier des éléments, tels que la fréquence de mise à jour des prévisions, les comptes sur lesquels les baser, les informations concernant l'échéance de paiement des taxes et s'il convient d'utiliser [Cortana Intelligence](https://www.microsoft.com/en-us/cloud-platform/what-is-cortana-intelligence-suite).  
 
-Les prévisions de trésorerie peuvent utiliser Cortana Intelligence pour inclure des documents contenant une date d'échéance future. Le résultat est une prévision plus complète. La connexion à Cortana Intelligence est déjà configurée pour vous. Vous devez juste l'activer. Lorsque vous vous connectez à [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], une notification s'affiche dans une barre bleue et inclut un lien vers le paramétrage par défaut de trésorerie. La notification s'affiche une seule fois. Si vous la fermez, mais décidez d'activer Cortana Intelligence, vous pouvez utiliser le guide de configuration assistée ou un processus manuel.  
+Les prévisions de trésorerie peuvent utiliser Cortana Intelligence pour inclure des documents contenant une date d'échéance future. Le résultat est une prévision plus complète. La connexion à Cortana Intelligence est déjà configurée pour vous. Vous devez juste l'activer. Lorsque vous vous connectez à [!INCLUDE[d365fin](includes/d365fin_md.md)], une notification s'affiche dans une barre bleue et inclut un lien vers le paramétrage par défaut de trésorerie. La notification s'affiche une seule fois. Si vous la fermez, mais décidez d'activer Cortana Intelligence, vous pouvez utiliser le guide de configuration assistée ou un processus manuel.  
 
 > [!NOTE]  
 >   Sinon, vous pouvez utiliser votre propre service Web prévisionnel. Pour plus d'informations, voir [Créer et utiliser votre propre service Web prévisionnel pour des prévisions de trésorerie](#AnchorText).  
@@ -79,10 +79,10 @@ Pour utiliser une procédure manuelle :
 >   Tenez compte de la durée des périodes utilisée par le service lors de ses calculs. Plus vous fournissez de données, plus les prévisions seront précises. En outre, soyez prudent en ce qui concerne les grands écarts entre les périodes. Cela aura également un impact sur les prévisions. Si Cortana Intelligence ne trouve pas suffisamment de données ou si les données varient considérablement, le service ne fera pas de prévisions.  
 
 ## <a name="AnchorText"> </a>Créer et utiliser votre propre service Web prévisionnel pour des prévisions de trésorerie
-Vous pouvez aussi utiliser votre propre service Web prévisionnel basé sur un modèle public intitulé **Modèle de prévision pour Microsoft Dynamics 365 Business edition**. Ce modèle prévisionnel est disponible en ligne dans la galerie Cortana Intelligence. Pour utiliser le modèle, procédez comme suit :  
+Vous pouvez aussi utiliser votre propre service Web prévisionnel basé sur un modèle public intitulé **Modèle de prévision pour Microsoft Finance and Operations, Business edition**. Ce modèle prévisionnel est disponible en ligne dans la galerie Cortana Intelligence. Pour utiliser le modèle, procédez comme suit :  
 
 1. Ouvrez un navigateur et accédez à la [Galerie Cortana Intelligence](https://go.microsoft.com/fwlink/?linkid=828352).  
-2. Recherchez **Modèle de prévision pour pour Microsoft Dynamics 365 Business edition**, puis ouvrez-le dans Azure Machine Learning Studio.  
+2. Recherchez **Modèle de prévision pour Microsoft Finance and Operations, Business edition**, puis ouvrez-le dans Azure Machine Learning Studio.  
 3. Utilisez votre compte Microsoft pour enregistrer un espace de travail, puis copiez le modèle.  
 4. Exécutez le modèle, et publiez-le comme service Web.  
 5. Notez l'URL d'API et la clé d'API. Vous allez utiliser ces informations d'identification pour une configuration de trésorerie.  

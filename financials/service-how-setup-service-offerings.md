@@ -13,22 +13,22 @@ ms.search.keywords: components, service item, service
 ms.date: 08/22/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 956c211781b26311e927642ecf7d86864d6a2124
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 36bb2a053c2376a2999be9f8ecf39d4cdb628e96
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="how-to-set-up-service-offerings"></a>Procédure : configurer des offres de service
+# <a name="set-up-service-offerings"></a>Configurer des offres de service
 Lorsque vous configurez la gestion des services, vous devez choisir les services que vous allez fournir aux clients et les planifier. Un service correspond à un type de travail exécuté par une ou plusieurs ressources et fourni à un client. Ce peut être un type de réparation informatique. Un article de service correspond à l'équipement ou l'article nécessitant une maintenance : par exemple, un ordinateur à réparer, installé chez un client spécifique. Vous pouvez configurer des services afin de les intégrer au groupe d'articles de réparation ou de maintenance associés.  
   
 Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.  
   
 |**Pour**|**Voir**|  
 |------------|-------------|  
-|Entrer les informations sur les articles de service traités par votre organisation de prestation de services.|[Procédure : créer des articles de service :](service-how-to-create-service-items.md)|  
-|Établir un flux de travail pour le service lorsque les articles de service contiennent plusieurs composants. Bien que les composants soient toujours associés à un article de service, ils peuvent également être basés sur des nomenclatures.|[Procédure : configurer les articles de service et les composants article de service](service-how-setup-service-items.md)|  
+|Entrer les informations sur les articles de service traités par votre organisation de prestation de services.|[Créer des articles de service](service-how-to-create-service-items.md)|  
+|Établir un flux de travail pour le service lorsque les articles de service contiennent plusieurs composants. Bien que les composants soient toujours associés à un article de service, ils peuvent également être basés sur des nomenclatures.|[Configurer les articles de service et les composants article de service](service-how-setup-service-items.md)|  
   
 ## <a name="see-also"></a>Voir aussi  
 [Paramétrage de la gestion des services](service-setup-service.md)   

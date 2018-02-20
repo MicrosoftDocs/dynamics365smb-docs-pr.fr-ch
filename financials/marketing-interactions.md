@@ -13,14 +13,14 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 8dbefb4ef7daf4016c5c577d1e749d2049791c4b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 761502b8c8e4c2b9b1b864e7316ea1130a940bb0
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-interactions-with-contacts"></a>Gestion des interactions avec les contacts
-Dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], les interactions désignent tous les types de communication entre votre société et vos contacts. Par exemple, les communications peuvent s'effectuer par lettre, par e-mail, par télécopie,par téléphone, et ainsi de suite.
+Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], les interactions désignent tous les types de communication entre votre société et vos contacts. Par exemple, les communications peuvent s'effectuer par lettre, par e-mail, par télécopie,par téléphone, et ainsi de suite.
 
 Le module de gestion des relations vous permet d'enregistrer toutes les interactions vente et marketing avec vos contacts afin d'effectuer le suivi des efforts mis en œuvre, et d'améliorer vos futures relations commerciales. La configuration de votre application pour enregistrer les interactions est constituée des tâches suivantes :
 
@@ -35,7 +35,7 @@ Vous pouvez configurer un modèle interaction dans la fenêtre **Modèles intera
 ## <a name="creating-interactions"></a>Création d'interactions
 Il existe deux méthodes d'enregistrement des interactions :
 
-* Créez manuellement des interactions liées à un contact unique ou à un segment. Pour plus d'informations, reportez-vous à [Procédure : créer des interactions sur les contacts et les segments](marketing-how-create-interactions.md).  
+* Créez manuellement des interactions liées à un contact unique ou à un segment. Pour plus d'informations, reportez-vous à [Créer des interactions sur les contacts et les segments](marketing-how-create-interactions.md).  
 * Vous pouvez enregistrer automatiquement les interactions lorsque vous effectuez des opérations dans l'application, telles que l'impression d'une facture ou d'un devis. Pour plus d'informations, reportez-vous à [Enregistrer automatiquement les interactions avec les contacts](marketing-auto-record-interactions.md).
 
 ## <a name="viewing-and-managing-recorded-interactions"></a>Affichage et gestion des interactions enregistrées

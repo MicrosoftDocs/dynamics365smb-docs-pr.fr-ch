@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 7cafdcb9f6002d0732ee86b643b784d96e8c2aa1
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3b52f7c62cc13d27ff4d96ff5b9087d3560d6fbc
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-post-service-orders-and-credit-memos"></a>Procédure : valider des commandes et des avoirs service
+# <a name="post-service-orders-and-credit-memos"></a>Valider des commandes et des avoirs service
 Après avoir créé une commande service, fourni toutes les informations et apporté les éventuelles modifications, vous pouvez valider cette commande. Pour que vous puissiez valider une commande, celle-ci doit contenir au moins une ligne service et une ligne facture service avant. Si la commande contient plusieurs lignes service, toutes les lignes sont validées en même temps.  
 
 Si vous avez un grand nombre de commandes service, vous pouvez gagner du temps en ayant recours à un traitement par lots pour les valider simultanément. Vous pouvez exécuter le traitement par lots à partir d'une commande service.
@@ -99,7 +99,7 @@ La procédure suivante explique comment valider l'expédition des articles ligne
   
 4. Choisissez **Actions**, **Validation**, **Valider**. Dans la fenêtre qui s'affiche, choisissez **Expédier**.  
   
-[!INCLUDE[d365fin](includes/d365fin_md.md)] crée les écritures comptables appropriées (dans les écritures comptables garantie, les écritures comptables article, les écritures comptables service ou la comptabilité). Il génère également le document expédition service validé et met à jour les champs appropriés sur les lignes service de la commande service.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  crée les écritures comptables appropriées (dans les écritures comptables garantie, les écritures comptables article, les écritures comptables service ou la comptabilité). Il génère également le document expédition service validé et met à jour les champs appropriés sur les lignes service de la commande service.  
   
 Si le magasin est configuré pour exiger la gestion d'entrepôt, l'expédition et le déplacement d'articles de ligne service s'exécutent de la même manière que pour d'autres documents origine. La seule différence est que les articles de la ligne service peuvent être consommés en externe ou en interne et nécessitent donc deux fonctions de lancement différentes.  
   
@@ -133,5 +133,5 @@ La procédure suivante décrit la validation de l'expédition directement à par
   
 ## <a name="see-also"></a>Voir aussi  
 [Validation dans la Gestion des services](service-service-posting.md)  
-[Procédure : créer une commande service :](service-how-to-create-service-orders.md)  
+[Créer une commande service](service-how-to-create-service-orders.md)  
 

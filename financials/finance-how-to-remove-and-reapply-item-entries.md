@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5ca921ba6c8ced04899b3a8cc2cd2db91e4d69a3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 12bde7fc508bb29e56ad63d76b526a80b5073f03
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-remove-and-reapply-item-ledger-entries"></a>Procédure : supprimer et relettrer des écritures comptables article
+# <a name="remove-and-reapply-item-ledger-entries"></a>Supprimer et relettrer des écritures comptables article
 Dans la fenêtre **Feuille lettrage**, vous pouvez visualiser et modifier manuellement certaines écritures lettrage article qui sont créées automatiquement lors des mouvements de stock.  
 
 Lorsque vous validez une transaction où des articles entrent ou sortent du stock, un lettrage article est créé entre chaque entrée de stock et sortie du stock. Ces applications déterminent le flux des coûts de biens entrant dans le stock vers des coûts de biens sortant du stock. En raison du mode de calcul du coût unitaire, un lettrage article incorrect peut produire un coût moyen ou un coût unitaire erroné. Pour plus d'informations, voir Détails de conception : traçabilité.
@@ -30,7 +30,7 @@ Vous pouvez être amené à annuler un lettrage ou à relettrer des écritures c
 - Vous avez effectué un lettrage incorrect.
 - Vous devez retourner un article sur lequel une vente a déjà été lettrée.
 
-Si possible, utilisez un document pour relettrer une écriture comptable article. Par exemple, si vous devez procéder à un retour achat d'un article sur lequel une vente a déjà été lettrée, vous pouvez relettrer en créant et validant le document de retour achat à l'aide du lettrage correct dans le champ **Écr. article à lettrer** dans la ligne retour achat. Vous pouvez utiliser la fonction **Affichage de lignes document validées à contrepasser** ou **Copier document** dans le document de retour achat pour faciliter cette opération. Lorsque vous validez le document, l'écriture comptable article est automatiquement relettrée. Pour plus d'informations, reportez-vous à [Procédure : traiter les retours ou annulations d'achats](purchasing-how-process-purchase-returns-cancellations.md).
+Si possible, utilisez un document pour relettrer une écriture comptable article. Par exemple, si vous devez procéder à un retour achat d'un article sur lequel une vente a déjà été lettrée, vous pouvez relettrer en créant et validant le document de retour achat à l'aide du lettrage correct dans le champ **Écr. article à lettrer** dans la ligne retour achat. Vous pouvez utiliser la fonction **Affichage de lignes document validées à contrepasser** ou **Copier document** dans le document de retour achat pour faciliter cette opération. Lorsque vous validez le document, l'écriture comptable article est automatiquement relettrée. Pour plus d'informations, reportez-vous à [Traiter les retours ou annulations d'achats](purchasing-how-process-purchase-returns-cancellations.md).
 
 Si vous ne pouvez pas utiliser un document pour un relettrage, par exemple si vous devez corriger un lettrage fixe, utilisez la fenêtre **Feuille lettrage** pour corriger un lettrage.
 
@@ -75,8 +75,8 @@ Si vous ne pouvez pas utiliser un document pour un relettrage, par exemple si vo
 6.  Si, dans les **Paramètres stock**, le champ **Ajustement automatique des coûts** est défini sur **Toujours**, le traitement par lots d'ajustement des coûts est exécuté automatiquement après que vous avez effectué un relettrage. Sinon, exécutez le traitement par lots **Ajuster coûts - Écr. article** pour être sûr que tous les coûts sont actualisés.  
 
 ## <a name="see-also"></a>Voir aussi  
-[Procédure : clôturer les écritures comptables article ouvertes qui résultent d'un lettrage fixe dans la feuille article](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
- [Procédure : traiter les retours ou annulations d'achats](purchasing-how-process-purchase-returns-cancellations.md)  
+[Clôturer les écritures comptables article ouvertes qui résultent d'un lettrage fixe dans la feuille article](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
+ [Traiter les retours ou annulations d'achats](purchasing-how-process-purchase-returns-cancellations.md)  
  [Gestion des coûts ajustés](finance-manage-inventory-costs.md)   
  [Détails de conception : lettrage article](design-details-item-application.md)  
  [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

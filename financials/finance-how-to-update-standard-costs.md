@@ -13,19 +13,19 @@ ms.search.keywords:
 ms.date: 08/09/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 1c23e82736060670673e630f5eaa9de484083872
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 53716a78d7538e034c097506205a840b1243c4cf
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-update-standard-costs"></a>Procédure : mise à jour des coûts standard
+# <a name="update-standard-costs"></a>Mise à jour des coûts standard
 Vous devez régulièrement mettre à jour les coûts standard des composants et remonter les nouveaux coûts dans l'article parent. Le processus comprend généralement les quatre étapes suivantes :  
 
 1.  Mettre à jour les coûts aux niveaux des composants et de la capacité. Pour plus d'informations, voir le traitement par lots **Proposer coût standard article**.  
 2.  La consolidation et le calcul multi-niveau des coûts des composants et de capacité permettent de déterminer le coût de fabrication ou d'assemblage des articles.  
 3.  Appliquer les coûts standard entrés lorsque vous lancez les traitements par lots précédents. Les coûts standard n'entrent en vigueur que lorsqu'ils sont mis en œuvre. Pour plus d'informations, voir Appliquer nouv. coût standard.  
-4.  Appliquer les modifications pour mettre à jour le champ **Coût unitaire** de la fiche article et effectuer une réévaluation du stock. Pour plus d'informations, voir [Procédure : réévaluer le stock](inventory-how-revalue-inventory.md).  
+4.  Appliquer les modifications pour mettre à jour le champ **Coût unitaire** de la fiche article et effectuer une réévaluation du stock. Pour plus d'informations, voir [Réévaluer le stock](inventory-how-revalue-inventory.md).  
 
 Pour plus d'informations, voir [À propos du calcul des coûts standard](finance-about-calculating-standard-cost.md) .  
 ## <a name="to-update-standard-costs"></a>Pour mettre à jour des coûts standard  

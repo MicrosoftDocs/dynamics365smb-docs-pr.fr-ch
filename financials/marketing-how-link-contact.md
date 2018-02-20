@@ -13,13 +13,13 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: f5bbadb37a40dbc7b06668d940d2be9569aaa8e8
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 094ba95f46d13c5861087bedbe52fb18da9270e9
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-link-contacts-with-customers-vendors-and-bank-accounts"></a>Procédure : liaison de contacts avec des clients, des fournisseurs et des comptes bancaires
+# <a name="link-contacts-with-customers-vendors-and-bank-accounts"></a>Liaison de contacts avec des clients, des fournisseurs et des comptes bancaires
 Si vous disposez d'un contact et d'un client, d'un fournisseur ou d'un compte bancaire pour la même société, vous pouvez lier les deux entités. Lier les deux entités vous permet de synchroniser les données communes afin qu'elles soient identiques aux deux emplacements.
 
 ## <a name="link-a-contact-to-an-existing-customer-vendor-or-bank-account"></a>Lier un contact à un client, un fournisseur ou un compte bancaire existant

@@ -1,6 +1,6 @@
 ---
 title: "Créer des interactions sur les contacts et les segments| Microsoft Docs"
-description: "Décrit comment créer des interactions pour les communications que vous avez avec vos contacts et segments dans Dynamics 365, par exemple le courrier direct."
+description: "Décrit comment créer des interactions pour les communications que vous avez avec vos contacts et segments dans Finance and Operations, Business edition, par exemple le courrier direct."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,13 +13,13 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/15/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 57cbc08ab2e05777fae54018fe714d44b64d14e0
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 93d5bc9fd8189d5a8341faa252de9eac257901d2
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-interactions-on-contacts-and-segments"></a>Procédure : créer des interactions sur les contacts et les segments
+# <a name="create-interactions-on-contacts-and-segments"></a>Créer des interactions sur les contacts et les segments
 Vous pouvez créer des interactions pour enregistrer toutes les interactions et toutes les communications que vous entretenez avec vos contacts et segments, par exemple le courrier direct.
 
 Pour pouvoir créer des interactions, vous devez configurer des modèles interaction. Pour plus d'informations, reportez vous à [Configurer des modèles interaction](marketing-interactions.md).
@@ -54,5 +54,5 @@ Si vous avez activé la case à cocher **Créer suivi segment**, le programme cr
 [Gestion de contacts](marketing-contacts.md)  
 [Gestion des opportunités de ventes](marketing-manage-sales-opportunities.md)  
 [Paramétrage de la Gestion des relations](marketing-setup-marketing.md)  
-[Utilisation de Dynamics 365](ui-work-product.md)
+[Utilisation de Finance and Operations, Business edition](ui-work-product.md)
 

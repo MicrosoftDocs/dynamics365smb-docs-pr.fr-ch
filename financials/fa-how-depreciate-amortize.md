@@ -13,13 +13,13 @@ ms.search.keywords: write down
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 07e80551ca215eb4c2632faa9f534801a1813680
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e9edb717c073a3b94d925ac0cc532824a848daf6
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-depreciate-or-amortize-fixed-assets"></a>Procédure : amortir des immobilisations
+# <a name="depreciate-or-amortize-fixed-assets"></a>Amortir des immobilisations
 L'amortissement permet de ventiler le coût des immobilisations, telles que les machines et le matériel, sur leur durée d'amortissement. Vous devez définir la méthode d'amortissement de chaque immobilisation.  
 
  Vous pouvez valider l'amortissement de deux manières :  
@@ -43,24 +43,24 @@ Une fois par mois, ou à la fréquence de votre choix, vous pouvez lancer le tra
 3. Cliquez sur le bouton **OK**.  
 
     Le traitement par lots calcule l'amortissement et crée des lignes dans la feuille comptabilisation immobilisation.  
-4. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille comptabilisation immobilisation**, puis sélectionnez le lien connexe.  
+4. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Feuille comptabilisation immobilisation**, puis sélectionnez le lien connexe.  
 
     Dans la fenêtre **Feuille compta. immo**, dans le champ **Nbre jours amort.**, vous pouvez voir le nombre de jours d'amortissement calculé.  
 5. Sélectionnez l'action **Valider**.  
 
 ## <a name="to-post-depreciation-manually-from-the-fixed-asset-gl-journal"></a>Pour valider un amortissement manuellement à partir d'une feuille validation immobilisation
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille compta. immo.**, puis sélectionnez le lien connexe.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Feuille compta. immo.**, puis sélectionnez le lien connexe.  
 2. Créez une feuille comptable initiale et complétez les champs, le cas échéant.  
 3. Dans le champ **Type compta. immo**, sélectionnez **Amortissement**.  
-4. Sélectionnez l'action **Insérer contrepartie immo.**. Une seconde ligne feuille est créée pour le compte contrepartie qui est configuré pour la validation de l'amortissement. Pour en savoir plus, voir la section « Pour configurer des groupes de validation d'immobilisation » dans [Procédure : configurer des informations d'immobilisation générales pour les immobilisations](fa-how-setup-general.md).  
+4. Sélectionnez l'action **Insérer contrepartie immo.**. Une seconde ligne feuille est créée pour le compte contrepartie qui est configuré pour la validation de l'amortissement. Pour en savoir plus, voir la section « Pour configurer des groupes de validation d'immobilisation » dans [Configurer des informations d'immobilisation générales pour les immobilisations](fa-how-setup-general.md).  
 5. Sous l'onglet **Accueil**, sélectionnez **Valider** pour valider la feuille.  
 
-Si vous avez défini des clés de ventilation immobilisation pour ventiler des montants entre plusieurs départements ou plusieurs projets, les montants sont alloués lors de la validation. Pour en savoir plus, voir [Procédure : configurer des informations générales sur les immobilisations](fa-how-setup-general.md).  
+Si vous avez défini des clés de ventilation immobilisation pour ventiler des montants entre plusieurs départements ou plusieurs projets, les montants sont alloués lors de la validation. Pour en savoir plus, voir [Configurer des informations générales sur les immobilisations](fa-how-setup-general.md).  
 
 ## <a name="to-calculate-allocations-in-the-fixed-asset-gl-journal"></a>Pour calculer les ventilations dans la feuille validation immobilisation
 Lorsqu'une immobilisation est utilisée par plusieurs départements, vous pouvez affecter automatiquement un amortissement périodique à ces départements d'après une table de ventilation paramétrable.  
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille compta. immo.**, puis sélectionnez le lien connexe.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Feuille compta. immo.**, puis sélectionnez le lien connexe.  
 2. Créez une feuille initiale et complétez les champs, le cas échéant.
 3. Dans le champ **Type compta. immo**, sélectionnez **Ventilation**.  
 4. Sélectionnez l'action **Insérer contrepartie immo.**. Une seconde ligne feuille est créée pour le compte contrepartie qui est configuré pour la validation de la ventilation.  
@@ -76,11 +76,11 @@ Lorsque vous renseignez les lignes feuille à valider dans une loi d'amortisseme
 >   Si le champ **Utiliser liste duplication** est sélectionné, n'utilisez pas de souches de numéros sur la feuille. En effet, les souches de numéros pour la feuille validation immobilisation ne correspondent pas aux souches pour la feuille immobilisation.  
 
 ## <a name="to-post-entries-to-different-depreciation-books"></a>Pour valider des écritures dans plusieurs lois d'amortissement
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille compta. immo.**, puis sélectionnez le lien connexe.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Feuille compta. immo.**, puis sélectionnez le lien connexe.  
 2. Dans la feuille avec laquelle vous souhaitez valider l'amortissement, sélectionnez la case **Utiliser liste duplication**.  
 3. Renseignez les champs restants selon vos besoins.  
 4. Sélectionnez l'action **Valider**.  
-5. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille immobilisation**, puis sélectionnez le lien connexe.  
+5. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Feuille immobilisation**, puis sélectionnez le lien connexe.  
 
     > [!NOTE]  
 >   La fenêtre **Feuille immobilisation** contient de nouvelles lignes pour différentes lois d'amortissement selon la liste de duplication.  

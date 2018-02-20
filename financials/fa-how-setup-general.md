@@ -1,30 +1,28 @@
 ---
 title: Configurer la comptabilisation des immobilisations| Microsoft Docs
 description: "Avant d'utiliser des immobilisations, vous devez paramétrer des comptes généraux par défaut, des groupes de validation, des clés de ventilation, des feuilles et des modèles feuille, ainsi que les codes classe."
-services: project-madeira
-documentationcenter: 
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/02/2017
-ms.author: sgroespe
+ms.date: 29/01/2018
+ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
-ms.openlocfilehash: 2a84fbed87b4d6223e98db0c0bc1f5c5c7d1ba78
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 97ff0418c2e3ffe2ace8412bb889fafd5788510b
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-general-fixed-assets-information"></a>Procédure : configurer des informations générales pour les immobilisations
+# <a name="set-up-general-fixed-assets-information"></a>Configurer des informations générales pour les immobilisations
 Avant de pouvoir gérer les immobilisations, vous devez configurer les comptes généraux par défaut, les clés de ventilation, les modèles feuille et les lots pour la validation et le reclassement des immobilisations. Vous pouvez classer les immobilisations par catégorie, telles que Corporelles et Incorporelles.
 
 ## <a name="to-set-up-general-default-values-for-fixed-assets"></a>Pour configurer des valeurs générales par défaut pour les immobilisations
 Vous définissez le comportement général ou la fonctionnalité immobilisation et configurez les souches de numéros document dans la fenêtre **Paramètres immobilisations**.
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Paramètres immobilisations**, puis sélectionnez le lien connexe.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Paramètres immobilisations**, puis sélectionnez le lien connexe.  
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-up-fixed-asset-posting-groups"></a>Pour configurer des groupes de validation immobilisation
@@ -38,10 +36,10 @@ Les groupes comptabilisation permettent de définir des groupes d'immobilisation
 >   Pour veiller à ce que les comptes de contrepartie pour différentes validations d'immobilisation soient automatiquement insérés lorsque vous sélectionnez l'action **Insérer contrepartie immo.** sur les lignes feuille, procédez comme suit, selon la validation de réévaluation.
 4. Sur le raccourci **Compte contrepartie**, dans le champ **Contrep. réévaluation**, sélectionnez le compte général dans lequel vous souhaitez valider les écritures contrepartie pour la réévaluation.
 
-Pour en savoir plus sur l'utilisation de l'action **Insérer contrepartie immo.** sur les lignes feuille compta. immo., voir, par exemple, [Procédure : réévaluer les immobilisations](fa-how-revalue.md).
+Pour en savoir plus sur l'utilisation de l'action **Insérer contrepartie immo.** sur les lignes feuille compta. immo., voir, par exemple, [Réévaluer les immobilisations](fa-how-revalue.md).
 
 ## <a name="to-set-up-fixed-asset-allocation-keys"></a>Pour configurer les clés de ventilation d'immobilisations
-Vous pouvez ventiler les transactions en départements ou en projets sur la base de clés de ventilation paramétrables. Vous pouvez, par exemple, définir une clé de ventilation pour répartir les coûts d'amortissement des véhicules entre le service administratif pour 35 % et le service commercial pour 65 %. Pour plus d'informations, reportez vous à [Procédure : Répartition des coûts et du revenu](year-allocate-costs-income.md).
+Vous pouvez ventiler les transactions en départements ou en projets sur la base de clés de ventilation paramétrables. Vous pouvez, par exemple, définir une clé de ventilation pour répartir les coûts d'amortissement des véhicules entre le service administratif pour 35 % et le service commercial pour 65 %. Pour plus d'informations, reportez vous à [Répartition des coûts et du revenu](year-allocate-costs-income.md).
 
 Les clés de ventilation s'appliquent à des classes d'immobilisations et non à des immobilisations individuelles.
 
@@ -55,7 +53,7 @@ Un modèle est une présentation de feuille prédéfinie. Le modèle affiche des
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] crée automatiquement un modèle feuille immobilisation la première fois que vous ouvrez la fenêtre **Feuille immobilisation**. Vous pouvez cependant définir d'autres modèles feuille.  
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Modèles feuille immo.**, puis sélectionnez le lien connexe.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Modèles feuille immo.**, puis sélectionnez le lien connexe.  
 2. Renseignez les champs selon vos besoins.
 
 ## <a name="to-set-up-fixed-asset-journal-batches"></a>Pour configurer des lots feuille immobilisation
@@ -74,7 +72,7 @@ Vous pouvez utiliser les feuilles reclassement dédiées lorsque vous devez tran
 ## <a name="to-set-up-fixed-asset-reclassification-journal-batches"></a>Pour configurer les lots feuille reclassement immobilisation
 Vous pouvez définir plusieurs feuilles, c'est-à-dire des feuilles individuelles pour chaque modèle feuille reclassement. Par exemple, chaque employé peut avoir sa propre feuille reclassement dont le nom correspond à ses initiales. Pour en savoir plus, reportez-vous à [Utiliser des feuilles comptabilité](ui-work-general-journals.md).
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Modèles feuille reclass. immo**, puis sélectionnez le lien connexe.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Modèles feuille reclass. immo**, puis sélectionnez le lien connexe.  
 2. Sélectionnez le modèle feuille pertinent, puis l'action **Lots**.
 3. Dans la fenêtre **Lots feuille reclass. immo.**, renseignez les champs selon vos besoins.
 
@@ -103,23 +101,25 @@ Si vous utilisez les immobilisations dans [!INCLUDE[d365fin](includes/d365fin_md
 
 1. Assurez-vous que vous avez suivi les procédures de configuration de base pour les immobilisations.  
 2. Créez une fiche immobilisation pour chaque immobilisation existante.  
-3. Configurez les lois d'amortissement d'immobilisation.  
-4. Activez l'intégration comptable en procédant comme suit.
-5. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), saisissez **Lois d'amortissement**, puis sélectionnez le lien connexe.  
-6. Sélectionnez la loi d'amortissement appropriée. Sous l'onglet **Accueil**, dans le groupe **Gérer**, choisissez **Modifier** pour ouvrir la fenêtre **Fiche loi d'amortissement**.
-7. Sur le raccourci **Intégration**, assurez-vous que tous les champs sont vides en retirant toutes les coches. Si vous disposez de plusieurs lois d'amortissement, activez l'intégration en comptabilité pour chacune d'elles.  
-8. Dans la feuille immobilisation, entrez les lignes suivantes pour chaque immobilisation :
+3. Créez une loi d'amortissement d'une immobilisation pour chaque type d'amortissement (par exemple les états financiers). Pour chaque loi d'amortissement, vous devez définir des conditions, par exemple l'intégration en comptabilité.  
+
+    Activez l'intégration comptable en procédant comme suit. Premièrement, assurez-vous que l'intégration du grand livre est désactivée pour toutes les lois d'amortissement, puis validez les écritures ouvertes, et enfin activez l'intégration en comptabilité.  
+4. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), saisissez **Lois d'amortissement**, puis sélectionnez le lien connexe.  
+5. Sélectionnez la loi d'amortissement appropriée. Sous l'onglet **Accueil**, dans le groupe **Gérer**, choisissez **Modifier** pour ouvrir la fenêtre **Fiche loi d'amortissement**.
+6. Sur le raccourci **Intégration**, assurez-vous que tous les champs sont vides en retirant toutes les coches. Si vous disposez de plusieurs lois d'amortissement, désactivez l'intégration en comptabilité pour chacune d'elles.  
+7. Dans la feuille immobilisation, entrez les lignes suivantes pour chaque immobilisation :
    * Ligne avec le coût d'acquisition.
    * Une ligne avec l'amortissement cumulé jusqu'à la fin de l'exercice comptable précédent.
    * Une ligne avec l'amortissement cumulé du début de l'exercice comptable en cours jusqu'à la date à laquelle [!INCLUDE[d365fin](includes/d365fin_md.md)] est défini pour démarrer le calcul de l'amortissement.
 
-Si vous disposez d'autres soldes ouverts, vous pouvez également les saisir maintenant, (dépréciation, réévaluation, par exemple).  
+    Si vous disposez d'autres soldes ouverts, vous pouvez également les saisir maintenant, (dépréciation, réévaluation, par exemple).  
+8. Une fois que vous avez saisi et validé les lignes feuille pour chaque immobilisation, activez l'intégration en comptabilité dans les lois d'amortissement.
 
-Si les immobilisations ne sont pas intégrées en comptabilité, omettez les étapes 4 à 7.
+Si les immobilisations ne sont pas intégrées en comptabilité, omettez les étapes 6 et 8.
 
 ## <a name="see-also"></a>Voir aussi
 [Paramétrage d'immobilisations](fa-setup.md)  
-[Immobilisations](fa-manage.md)  
+[COMPTES D'IMMOBILISATIONS](fa-manage.md)  
 [Finances](finance.md)  
 [Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

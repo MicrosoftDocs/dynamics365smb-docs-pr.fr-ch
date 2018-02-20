@@ -13,20 +13,20 @@ ms.search.keywords: adjustment, negative, positive, increase, decrease
 ms.date: 11/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: e9d08040932be4fec5ddefb5db69e453c375d3c6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f2ab1e60eb826b93a1b8b7ae354bcadfa0fafd62
 ms.contentlocale: fr-ch
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-count-adjust-and-reclassify-inventory"></a>Procédure : Inventaire, ajustement et reclassement du stock
+# <a name="count-adjust-and-reclassify-inventory"></a>Inventaire, ajustement et reclassement du stock
 Vous devez effectuer un inventaire (c'est-à-dire compter tous les articles disponibles) au moins une fois par exercice pour vérifier si la quantité enregistrée dans la base de données est identique à la quantité réelle en stock dans les entrepôts. Lorsque vous connaissez la quantité physique réelle, vous devez la valider dans la comptabilité dans le cadre de l' évaluation du stock de fin d'exercice.
 
 Bien que vous comptiez tous les articles du stock au moins une fois par an, vous pouvez avoir décidé de compter certains articles plus souvent, parce qu'ils ont plus de valeur ou parce qu'ils sont très demandés et représentent une partie importante de votre activité. Pour cela, vous pouvez affecter des périodes d'inventaire spéciales à ces articles. Pour plus d'informations, reportez-vous à la section « Effectuer un inventaire tournant ».
 
 Pour ajuster les quantités en stock enregistrées, pour inventaire ou à d'autres fins, vous pouvez utiliser une feuille article pour modifier les écritures comptables inventaire directement sans valider les transactions commerciales. Sinon, vous pouvez ajuster pour un article distinct de la fiche article.
 
-Pour modifier les attributs d'écritures comptables article, vous pouvez utiliser la feuille reclassement article. Les attributs courants pour les reclassements incluent les dimensions et les codes campagne de vente, mais vous pouvez également effectuer des « transferts système » en reclassant les codes emplacement et magasin. Des étapes spéciales s'appliquent lorsque vous souhaitez reclasser les numéros de série ou de lot et leurs dates d'expiration. Pour plus d'informations, voir [Procédure : utiliser les numéros de lot et de série](inventory-how-work-item-tracking.md).
+Pour modifier les attributs d'écritures comptables article, vous pouvez utiliser la feuille reclassement article. Les attributs courants pour les reclassements incluent les dimensions et les codes campagne de vente, mais vous pouvez également effectuer des « transferts système » en reclassant les codes emplacement et magasin. Des étapes spéciales s'appliquent lorsque vous souhaitez reclasser les numéros de série ou de lot et leurs dates d'expiration. Pour plus d'informations, voir [Utiliser les numéros de lot et de série](inventory-how-work-item-tracking.md).
 
 > [!NOTE]
 > Dans les configurations d'entrepôt avancées, les articles sont enregistrés dans des emplacements en tant qu'écritures entrepôt, pas en tant qu'écritures comptables article. Par conséquent, vous effectuez l'inventaire, l'ajustement et le reclassement dans des feuilles entrepôt spéciales qui prennent en charge les emplacements. Ensuite, vous utilisez des fonctions spéciales pour synchroniser les écritures entrepôt nouvelles ou modifiées avec leurs écritures comptables article correspondantes pour refléter les modifications des quantités et valeurs en stock. Ceci est décrit dans des procédures spécifiques ci-dessous lorsque cela est approprié.
@@ -99,7 +99,7 @@ Les employés peuvent maintenant poursuivre le comptage du stock et noter les é
     Les champs associés sont mis à jour en conséquence.
 
     > [!NOTE]  
->   Si le décompte fait apparaître des différences dues à des articles validés avec des codes magasin incorrects, n'indiquez pas les différences dans la feuille inventaire. Au lieu de cela, utilisez la feuille reclassement ou un ordre de transfert pour rediriger les articles vers les magasins appropriés. Pour plus d'informations, voir Feuille reclassement article ou Procédure : créer des ordres de transfert.
+>   Si le décompte fait apparaître des différences dues à des articles validés avec des codes magasin incorrects, n'indiquez pas les différences dans la feuille inventaire. Au lieu de cela, utilisez la feuille reclassement ou un ordre de transfert pour rediriger les articles vers les magasins appropriés. Pour plus d'informations, voir Feuille reclassement article ou Créer des ordres de transfert.
 
 2. Pour ajuster les quantités calculées avec les quantités comptées réelles, choisissez **Valider**.
 
@@ -169,10 +169,10 @@ Après avoir effectué un inventaire d'un article dans votre module Distribution
 
 Le stock de l'article est désormais ajusté. La nouvelle quantité s'affiche dans le champ **Stock actuel** de la fenêtre **Ajuster stock** et dans le champ **Stock** de la fenêtre **Fiche article**.
 
-Vous pouvez également utiliser la fonction **Ajuster stock** comme un moyen simple de placer les articles achetés dans le stock si vous n'utilisez pas des factures achat ou des commandes pour enregistrer vos achats. Pour plus d'informations, reportez-vous à [Procédure : enregistrer des achats](purchasing-how-record-purchases.md).
+Vous pouvez également utiliser la fonction **Ajuster stock** comme un moyen simple de placer les articles achetés dans le stock si vous n'utilisez pas des factures achat ou des commandes pour enregistrer vos achats. Pour plus d'informations, reportez-vous à [Enregistrer des achats](purchasing-how-record-purchases.md).
 
 > [!NOTE]  
->   Après avoir ajusté le stock, vous devez le mettre à jour avec la valeur actuelle calculée. Pour plus d'informations, voir [Procédure : réévaluer le stock](inventory-how-revalue-inventory.md).
+>   Après avoir ajusté le stock, vous devez le mettre à jour avec la valeur actuelle calculée. Pour plus d'informations, voir [Réévaluer le stock](inventory-how-revalue-inventory.md).
 
 ### <a name="to-adjust-the-inventory-quantity-of-multiple-items-in-basic-warehouse-configurations"></a>Pour ajuster la quantité en stock de plusieurs articles dans les configurations d'entrepôt de base
 Dans la fenêtre **feuille article**, vous pouvez valider la transaction article directement pour ajuster le stock en fonction des achats, ventes et d'ajustements positifs et négatifs sans utiliser de documents.
@@ -184,7 +184,7 @@ Si vous utilisez fréquemment la feuille article pour comptabiliser des lignes f
 3. Choisissez l'action **Valider** pour créer des ajustements de stock.
 
 > [!NOTE]  
->   Après avoir ajusté le stock, vous devez le mettre à jour avec la valeur actuelle calculée. Pour plus d'informations, voir [Procédure : réévaluer le stock](inventory-how-revalue-inventory.md).
+>   Après avoir ajusté le stock, vous devez le mettre à jour avec la valeur actuelle calculée. Pour plus d'informations, voir [Réévaluer le stock](inventory-how-revalue-inventory.md).
 
 ### <a name="to-adjust-bin-quantities-in-advanced-warehouse-configurations"></a>Pour ajuster les quantités de l'emplacement dans les configurations d'entrepôt avancées  
 Si votre magasin utilise directement le prélèvement et rangement, vous pouvez utiliser la **feuille article entrepôt** pour valider, hors inventaire, tous les ajustements positifs et négatifs au niveau de la quantité article qui sont des gains réels, tels que les articles déjà validés comme étant manquants et qui réapparaissent subitement, ou des pertes réelles, telles que les bris d'articles fragiles.  
@@ -211,7 +211,7 @@ Suivant des intervalles définis par la politique de la société, vous devez va
 ## <a name="to-reclassify-an-items-lot-number"></a>Pour reclasser le numéro de lot d'un article
 Pour modifier les attributs d'écritures comptables article, vous pouvez utiliser la feuille reclassement article. Les attributs courants pour les reclassements incluent les dimensions et les codes campagne de vente, mais vous pouvez également effectuer des « transferts système » en reclassant les codes emplacement et magasin.
 
-Des étapes spéciales s'appliquent lorsque vous souhaitez reclasser les numéros de série ou de lot et leurs dates d'expiration. Pour plus d'informations, voir [Procédure : utiliser les numéros de lot et de série](inventory-how-work-item-tracking.md).
+Des étapes spéciales s'appliquent lorsque vous souhaitez reclasser les numéros de série ou de lot et leurs dates d'expiration. Pour plus d'informations, voir [Utiliser les numéros de lot et de série](inventory-how-work-item-tracking.md).
 
 L'exemple suivant est basé sur un code magasin. Les étapes sont similaires pour d'autres types d'attributs d'article.
 
@@ -221,7 +221,7 @@ L'exemple suivant est basé sur un code magasin. Les étapes sont similaires pou
 4. Dans le champ **Nouveau code magasin**, entrez le nouveau code magasin de l'article.
 5. Sélectionnez l'action **Valider**.
 
-Pour plus d'informations sur le transfert des articles avec un contrôle complet des quantités expédiées et reçues, voir [Procédure : transfert de stock entre des magasins](inventory-how-transfer-between-locations.md).
+Pour plus d'informations sur le transfert des articles avec un contrôle complet des quantités expédiées et reçues, voir [Transfert de stock entre des magasins](inventory-how-transfer-between-locations.md).
 
 ## <a name="see-also"></a>Voir aussi
 [Stock](inventory-manage-inventory.md)

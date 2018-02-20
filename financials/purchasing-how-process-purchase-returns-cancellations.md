@@ -13,19 +13,19 @@ ms.search.keywords: cancel, undo, correct
 ms.date: 08/03/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 114448607d8b99252573912d2df08f91e1d27c76
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9a746de45bc6878d15e879e623c6a65539943be3
 ms.contentlocale: fr-ch
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-process-purchase-returns-or-cancellations"></a>Procédure : traiter les retours ou annulations d'achats
+# <a name="process-purchase-returns-or-cancellations"></a>Traiter les retours ou annulations d'achats
 Si vous souhaitez retourner des articles à votre fournisseur ou annuler des services que vous avez achetés, vous pouvez créer et valider un avoir achat qui indique la modification demandée par rapport à la facture achat d'origine. Pour inclure les informations de facture achat correctes, vous pouvez créer l'avoir achat à partir de la facture achat enregistrée ou vous pouvez créer un avoir achat avec les informations copiées de la facture.
 
 Si vous souhaitez davantage de contrôle sur le processus de retour achat, par exemple les documents entrepôt pour la manutention des articles ou une meilleure vue d'ensemble lors de la réexpédition d'articles à partir de plusieurs documents achat avec un retour achat, vous pouvez créer des retours achat. Un retour achat émet automatiquement l'avoir achat associé. Pour plus d'informations, voir la section « Créer un retour achat à partir d'un ou plusieurs documents achat validés ».
 
 > [!NOTE]  
->   Si une facture achat validée n'a pas encore été payée, vous pouvez utiliser les fonctions de **Corriger** ou **Annuler** sur la facture achat validée pour contrepasser automatiquement les transactions associées. Ces fonctions ne fonctionnent que pour les factures impayées, elles ne prennent pas en charge des retours partiels ou les annulations. Pour plus d'informations, reportez-vous à [Procédure : corriger ou annuler des factures achat impayées](purchasing-how-correct-cancel-unpaid-purchase-invoices.md).
+>   Si une facture achat validée n'a pas encore été payée, vous pouvez utiliser les fonctions de **Corriger** ou **Annuler** sur la facture achat validée pour contrepasser automatiquement les transactions associées. Ces fonctions ne fonctionnent que pour les factures impayées, elles ne prennent pas en charge des retours partiels ou les annulations. Pour plus d'informations, voir [Corriger ou annuler des factures achat impayées](purchasing-how-correct-cancel-unpaid-purchase-invoices.md).
 
 Généralement, vous pouvez créer un avoir achat ou un retour achat en réaction à un avoir que vous a envoyé un fournisseur. L'avoir achat ou le retour achat tient lieu de documentation interne du processus d'avoir aux fins de comptabilité ou pour contrôler l'expédition des articles concernés.
 
@@ -134,7 +134,7 @@ Vous pouvez vous accorder avec le fournisseur pour qu'il compense l'achat d'un a
 1.  Dans la fenêtre **Retour achat** pour un processus de retour actif, sur une ligne vide, entrez une écriture négative pour l'article de remplacement en insérant un montant négatif dans le champ **Quantité**.  
 2. Sélectionnez l'action **Déplacer lignes négatives**.  
 3. Dans la fenêtre **Déplacer lignes achat nég.**, renseignez les champs selon vos besoins.
-4. Cliquez sur le bouton **OK**. La ligne négative est effacée du retour achat et une commande achat est créée. Pour plus d'informations, reportez-vous à [Procédure : enregistrer des achats](purchasing-how-record-purchases.md).  
+4. Cliquez sur le bouton **OK**. La ligne négative est effacée du retour achat et une commande achat est créée. Pour plus d'informations, voir [Enregistrer des achats](purchasing-how-record-purchases.md).  
 
 ## <a name="to-create-a-purchase-allowance"></a>Pour créer un rabais  
 Si vous recevez de votre fournisseur des articles que vous ne souhaitez pas, par exemple s'ils sont légèrement endommagés, ou s'ils ne sont pas de la bonne couleur ou de la bonne taille, le fournisseur peut vous proposer un rabais.  
@@ -150,7 +150,7 @@ Vous pouvez valider ce coût d'achat réduit en tant que frais annexes sur un av
     Vous pouvez créer un numéro de frais annexes spécial afin de couvrir les rabais.  
 6.  Dans le champ **Quantité**, saisissez **1**.  
 7.  Dans le champ **Coût unitaire direct**, saisissez le montant du rabais.  
-8.  Affectez le rabais en tant que frais annexes aux articles de la réception validée. Pour plus d'informations, voir [Procédure : Utiliser Frais annexes pour comptabiliser les coûts commerciaux supplémentaires](payables-how-assign-item-charges.md). Une fois ce rabais affecté, revenez à la fenêtre **Avoir achat**.
+8.  Affectez le rabais en tant que frais annexes aux articles de la réception validée. Pour plus d'informations, voir [Utiliser Frais annexes pour comptabiliser les coûts commerciaux supplémentaires](payables-how-assign-item-charges.md). Une fois ce rabais affecté, revenez à la fenêtre **Avoir achat**.
 
 Lorsque vous validez la commande retour achat, le rabais sur l'achat est ajouté au montant de l'écriture achat appropriée. De cette manière, vous pouvez maintenir la précision de l'évaluation stock.  
 
@@ -183,7 +183,7 @@ Lorsque des expéditions retour sont regroupées sur un avoir et validées, un a
 
 ## <a name="see-also"></a>Voir aussi
 [Achats](purchasing-manage-purchasing.md)  
-[Procédure : enregistrer des achats](purchasing-how-record-purchases.md)  
-[Procédure : corriger ou annuler des factures achat impayées](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
+[Enregistrer des achats](purchasing-how-record-purchases.md)  
+[Corriger ou annuler des factures achat impayées](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

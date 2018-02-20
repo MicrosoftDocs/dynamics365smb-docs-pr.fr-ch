@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 32cbc23b24a8a04a62a246dd50eac8d8a721e2e7
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1e6db49370a1fc2d9a2bb99e55d00ed69908d703
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-on-service-tasks"></a>Procédure : travailler sur des tâches service
+# <a name="work-on-service-tasks"></a>Travailler sur des tâches service
 Après avoir créé une commande ou devis service, enregistré des lignes article de service, et affecté des ressources aux articles de service de la commande ou du devis, vous pouvez commencer la réparation et la maintenance des articles de service.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] inclut une fenêtre **Tâches service** qui offre un aperçu de tous les articles de service nécessitant une attention particulière. Considérez-le comme votre tableau de bord de service : où vous pouvez consulter les commandes en attente, recherchez et enregistrez les pièces de rechange et mettez votre stock à jour.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] Inclut une fenêtre **Tâches service** qui offre un aperçu de tous les articles de service nécessitant une attention particulière. Considérez-le comme votre tableau de bord de service : où vous pouvez consulter les commandes en attente, recherchez et enregistrez les pièces de rechange et mettez votre stock à jour.  
   
 Pour assurer le suivi des modifications et obtenir une vue graphique de vos activités de service, utilisez les outils de statistiques de [!INCLUDE[d365fin](includes/d365fin_md.md)] pour obtenir des diagrammes et analyses rapides générés automatiquement.  
   
@@ -106,7 +106,7 @@ Après avoir réparé un article de service, vous pouvez enregistrer le code pan
 4. Renseignez la ligne complètement. Choisissez la combinaison de codes panne/solution, puis choisissez **OK** pour la copier sur l'article de service. Si une combinaison appropriée est introuvable, vous pouvez créer une combinaison dans la fenêtre.  
 
 ## <a name="see-also"></a>Voir aussi  
-[Procédure : configurer le reporting panne](service-how-setup-fault-reporting.md)
+[Configurer le reporting panne](service-how-setup-fault-reporting.md)
 [Statut affectation et statut réparation](service-allocation-status-and-repair-status.md)  
 [Validation de service](service-service-posting.md)  
 

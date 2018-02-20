@@ -13,10 +13,10 @@ ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
 ms.date: 11/17/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 6cd7b9922f047d05a2cc37a9157de47221f67a7f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6dfdfce56a06c779881eb0a0f9553d19b6abd1ef
 ms.contentlocale: fr-ch
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="making-payments"></a>Effectuer des paiements
@@ -33,12 +33,12 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | Pour | Voir |
 | --- | --- |
 |Utilisez la fenêtre **Feuille paiement**, qui est fondée sur la feuille comptabilité, pour valider les paiements aux fournisseurs ou aux salariés.|[Utilisation de feuilles comptabilité](ui-work-general-journals.md)|
-| Utiliser une fonction pour proposer des paiements fournisseur en fonction de critères sélectionnés, tels que la date d'échéance, la possibilité d'escompte et vos liquidités. |[Procédure : proposer des paiements fournisseur](payables-how-suggest-vendor-payments.md) |
-|Remboursez les frais personnels des salariés pour les activités liées à l'entreprise en effectuant le paiement sur leur compte bancaire.|[Procédure : enregistrer et rembourser les frais des employés](finance-how-record-reimburse-employee-expenses.md)|
-| Émettre des chèques pour les paiements fournisseur, sous forme de documents imprimés ou de chèques informatiques. Annuler des chèques avant ou après la validation. |[Procédure : utilisation des chèques](payables-how-work-checks.md) |
-| Payez le fournisseur en liquide ou par chèque et validez le paiement lorsque vous validez la facture. |[Procédure : établir rapidement des factures achat](finance-how-to-settle-purchase-invoices-promptly.md) |
-| Assurez-vous que la banque efface uniquement les chèques et les montants validés en envoyant un fichier contenant des informations de paiement, du chèque et du fournisseur. |[Procédure : exporter des fichiers Positive Pay](finance-how-positive-pay.md) |
-|Exporter des paiements à partir de la fenêtre **Feuille paiement** vers un fichier bancaire que vous téléchargez vers votre banque pour traitement, y compris un transfert électronique de fond (EFT) en Amérique du Nord. |[Procédure : exportation de paiements vers un fichier bancaire](payables-how-export-payments-bank-file.md)|
+| Utiliser une fonction pour proposer des paiements fournisseur en fonction de critères sélectionnés, tels que la date d'échéance, la possibilité d'escompte et vos liquidités. |[Proposer paiements fournisseur](payables-how-suggest-vendor-payments.md) |
+|Remboursez les frais personnels des salariés pour les activités liées à l'entreprise en effectuant le paiement sur leur compte bancaire.|[Enregistrer et rembourser les frais des employés](finance-how-record-reimburse-employee-expenses.md)|
+| Émettre des chèques pour les paiements fournisseur, sous forme de documents imprimés ou de chèques informatiques. Annuler des chèques avant ou après la validation. |[Utilisation des chèques](payables-how-work-checks.md) |
+| Payez le fournisseur en liquide ou par chèque et validez le paiement lorsque vous validez la facture. |[Établir rapidement des factures achat](finance-how-to-settle-purchase-invoices-promptly.md) |
+| Assurez-vous que la banque efface uniquement les chèques et les montants validés en envoyant un fichier contenant des informations de paiement, du chèque et du fournisseur. |[Exporter un fichier Positive Pay](finance-how-positive-pay.md) |
+|Exporter des paiements à partir de la fenêtre **Feuille paiement** vers un fichier bancaire que vous téléchargez vers votre banque pour traitement, y compris un transfert électronique de fond (EFT) en Amérique du Nord. |[Exporter des paiements vers un fichier bancaire](payables-how-export-payments-bank-file.md)|
 |Effectuer des paiements électroniques conformément à la norme de virement SEPA de l'UE.|[Exécution de paiements avec le service de conversion de données bancaires ou un virement SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|    
 
 ## <a name="see-also"></a>Voir aussi

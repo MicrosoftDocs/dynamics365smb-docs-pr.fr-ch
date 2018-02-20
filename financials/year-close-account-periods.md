@@ -13,17 +13,17 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 06/02/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 859801a5e9d9b900aed6af5fe672f650932b2e79
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e136195c7b89635ca85601cdae5047493c237d09
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-close-accounting-periods"></a>Procédure : clôture des périodes comptables
+# <a name="close-accounting-periods"></a>Clôturer des périodes comptables
 Lorsqu'un exercice comptable est terminé, vous devez clôturer les périodes qui le composent.
 
 ## <a name="to-close-accounting-periods"></a>Pour clôturer des périodes comptables
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Périodes comptables**, puis sélectionnez le lien connexe.
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Périodes comptables**, puis sélectionnez le lien connexe.
 2. Dans la fenêtre **Périodes comptables**, sélectionnez l'action **Clôturer exercice**.
 
     Si plusieurs exercices comptables sont ouverts, le plus ancien est automatiquement sélectionné pour être clôturé. Un message identifiant l'exercice qu'il compte clôturer s'affiche et indique les conséquences de la clôture.
@@ -40,7 +40,7 @@ Une fois qu'un exercice comptable a été clôturé, vous devez clôturer les co
 
 ## <a name="see-also"></a>Voir aussi
 [Clôture plans](year-close-books.md)  
-[Procédure : valider l'écriture de clôture d'exercice](year-how-post-year-end-close-entry.md)  
-[Procédure : ouverture d'un nouvel exercice comptable](finance-how-open-new-fiscal-year.md)  
+[Valider l'écriture de clôture d'exercice](year-how-post-year-end-close-entry.md)  
+[Ouvrir un nouvel exercice comptable](finance-how-open-new-fiscal-year.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 06/13/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: ad073c6958584c31c1dda8470ccb160a49d61911
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ec3210e019da3369971d3aef6a4e38f4dcf1f530
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-#  <a name="how-to-analyze-data-by-dimensions"></a>Procédure : Analyse des données par axe analytique
+#  <a name="analyze-data-by-dimensions"></a>Analyse des données par axe analytique
 En analyse financière, un axe correspond à des données que vous pouvez ajouter à une écriture comme une sorte de marqueur. Ces données permettent de regrouper des écritures dotées de caractéristiques similaires, telles que les clients, les régions, les produits et les commerciaux, et de récupérer facilement ces groupes à des fins d'analyse. Les axes peuvent être utilisés sur des écritures de feuilles, de documents et de budgets. Le terme Axe décrit la manière dont l'analyse est effectuée. Une analyse à deux axes, par exemple, est une analyse des ventes par zone. Cependant, si vous utilisez plus de deux axes analytiques lors de la création d'une écriture, vous pouvez mener une analyse plus complexe, telle que des ventes par campagne de vente, par groupe client et par zone. Pour plus d'informations, reportez-vous à [Utilisation des axes](finance-dimensions.md).
 
 L'analyse de données par axes vous permet d'obtenir un meilleur aperçu de votre activité commerciale, ce qui vous permet d'évaluer les informations, telles que la mesure du bon fonctionnement de votre société, les domaines dans lesquels elle prospère ou non, et ceux dans lesquels il est nécessaire d'affecter davantage de ressources.
@@ -27,13 +27,10 @@ L'analyse de données par axes vous permet d'obtenir un meilleur aperçu de votr
 > [!TIP]
 > Pour analyser rapidement les données transactionnelles par dimensions, vous pouvez filtrer les totaux du plan comptable et les entrées de toutes les fenêtres **Entrées** par dimensions. Recherchez l'action **Définir le filtre axe**.
 
-> [!NOTE]  
->   Cette fonctionnalité nécessite que votre expérience soit définie sur **Suite**. Pour plus d'informations, voir [Personnalisation de votre expérience [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
-
 ## <a name="to-set-up-an-analysis-view"></a>Pour configurer une vue d'analyse :  
 Les vues analytiques affichent une combinaison sélectionnée d'axes analytiques. Vous pouvez stocker et récupérer chaque analyse que vous avez configurée. Les informations de configuration des vues analytiques sont stockées sur des fiches **Vue d'analyse** afin de simplifier une éventuelle analyse ultérieure.  
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Vues d'analyse**, puis sélectionnez le lien connexe.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Vues d'analyse**, puis sélectionnez le lien connexe.  
 2. Dans la fenêtre **Liste des vues d'analyse**, cliquez sur l'action **Nouveau**.
 3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Pour ajouter des codes axe aux quatre codes du raccourci **Axes analytiques**, cliquez sur **Filtre**, renseignez les champs et cliquez sur **OK**.  
@@ -45,7 +42,7 @@ La matrice **Vues analytiques** peut vous permettre de consulter les montants de
 - Les colonnes les plus à gauche contiennent des informations basées sur l'option sélectionnée dans le champ **Afficher lignes** de l'en-tête.  
 - Les colonnes les plus à droite contiennent des informations basées sur l'option sélectionnée dans le champ **Afficher colonnes** de l'en-tête.  
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Vues analytiques**, puis sélectionnez le lien connexe.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Vues analytiques**, puis sélectionnez le lien connexe.  
 2. Sélectionnez la vue d'analyse appropriée et choisissez l'action **Modifier vue d'analyse**.
 3. En haut de la fenêtre **Analyse vente par axe analytique**, renseignez les champs pour définir ce qui est affiché.
 4. 5. Pour visualiser la spécification d'un montant affiché dans la fenêtre matricielle, sélectionnez le montant.  
@@ -64,7 +61,7 @@ Les montants affichés dans la fenêtre **Vues analytiques** offrent une image d
 
 La procédure suivante permet de mettre à jour une vue d'analyse à partir de la fenêtre **Vues analytiques**. Les étapes sont similaires entre les fenêtres **Fiche vue d'analyse** et des fenêtres **Liste des vues d'analyse**.  
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Vues analytiques**, puis sélectionnez le lien connexe.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Vues analytiques**, puis sélectionnez le lien connexe.  
 2. Dans la fenêtre **Vues analytiques**, sélectionnez le champ **Code vue analytique**.  
 3. Sélectionnez la ligne contenant la vue d'analyse appropriée.  
 4. Cliquez sur **Mettre à jour**.  

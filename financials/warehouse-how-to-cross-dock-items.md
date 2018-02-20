@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5e167129e8a8bc5f10a0f9de4c384c06de030bbb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7da190b6859b00ddb56612ae29234932a03b50a1
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-cross-dock-items"></a>Comment transborder des articles
+# <a name="cross-dock-items"></a>Transborder des articles
 La fonctionnalité de transbordement est disponible si le magasin est configuré pour appeler un traitement à la fois de réception entrepôt et de rangement magasin.  
 
 Lorsque vous transbordez des articles, vous les manipulez en effectuant des réceptions et des expéditions, sans jamais les ranger. Vous évitez ainsi les processus de rangement et de prélèvement, et limitez la manipulation physique des articles. Vous pouvez transborder des articles pour des expéditions comme pour des ordres de fabrication. Lorsque vous préparez une expédition ou prélevez des articles pour la production, et que vous utilisez des emplacements, le programme tente d'abord automatiquement de prélever l'article dans un emplacement de transbordement avant d'envisager d'autres emplacements. Vous devez vérifier si les articles dont vous avez besoin sont disponibles dans la zone de transbordement avant de pouvoir accéder à ces articles dans leur zone de stockage habituel.  
@@ -39,9 +39,9 @@ Le programme ne crée pas d'enregistrement distinct concernant les articles tran
 ## <a name="to-set-up-the-warehouse-for-cross-docking"></a>Pour configurer l'entrepôt en vue du transbordement  
 1.  En cas d'utilisation d'emplacements, configurez au moins un emplacement de transbordement. En cas d'utilisation d'un prélèvement et d'un rangement suggérés, configurez une zone de transbordement.  
 
-    Le champ **Emplacement transbordement** d'un emplacement de transbordement est activé. Son type d'emplacement doit correspondre à celui activé dans les champs **Réception** et **Prélèvement**. Pour plus d'informations, voir [Procédure : créer des emplacements](warehouse-how-to-create-individual-bins.md) et [Procédure : configurer des types d'emplacement](warehouse-how-to-set-up-bin-types.md).  
+    Le champ **Emplacement transbordement** d'un emplacement de transbordement est activé. Son type d'emplacement doit correspondre à celui activé dans les champs **Réception** et **Prélèvement**. Pour plus d'informations, voir [Créer des emplacements](warehouse-how-to-create-individual-bins.md) et [Configurer des types d'emplacement](warehouse-how-to-set-up-bin-types.md).  
 
-    Si vous utilisez des zones, créez une zone pour vos emplacements de transbordement, puis sélectionnez le champ **Transborder zone emplacement**. Pour plus d'informations, reportez-vous à [Comment configurer des magasins de sorte qu'ils utilisent des emplacements](warehouse-how-to-set-up-locations-to-use-bins.md).  
+    Si vous utilisez des zones, créez une zone pour vos emplacements de transbordement, puis sélectionnez le champ **Transborder zone emplacement**. Pour plus d'informations, voir [Configurer des magasins de sorte qu'ils utilisent des emplacements](warehouse-how-to-set-up-locations-to-use-bins.md).  
 
 2.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Magasin**, puis sélectionnez le lien connexe.  
 3.  Dans la fenêtre **Magasin**, sélectionnez le magasin que vous souhaitez configurer pour le transbordement, puis choisissez l'action **Modifier**.  
@@ -59,7 +59,7 @@ Le programme ne crée pas d'enregistrement distinct concernant les articles tran
 
 ## <a name="to-cross-dock-items-without-viewing-the-opportunities"></a>Pour transborder des articles sans afficher les opportunités  
 1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Réceptions entrepôt**, puis sélectionnez le lien connexe.  
-2.  Créer des réceptions entrepôt pour un article qui est arrivé et qui pourrait nécessiter un transbordement. Pour plus d'informations, voir [Procédure : réceptionner des articles](warehouse-how-receive-items.md).  
+2.  Créer des réceptions entrepôt pour un article qui est arrivé et qui pourrait nécessiter un transbordement. Pour plus d'informations, voir [Réceptionner des articles](warehouse-how-receive-items.md).  
 3.  Renseignez le champ **Qté à recevoir**, puis choisissez l'action **Calculer transbordement**.  
 
     Les documents origine sortants demandant les articles qui doivent quitter l'entrepôt durant la période indiquée par la formule date sont identifiés.  [!INCLUDE[d365fin](includes/d365fin_md.md)] calcule les quantités pour que vous puissiez effectuer un maximum de transbordements pour éviter de ranger des articles, sans entasser trop d'articles dans la zone de transbordement. La valeur du champ **Qté à transborder** est ainsi la plus petite de ces deux valeurs : la somme de toutes les lignes sortantes demandant l'article avant la fin de la période de prévision des transbordements, moins la quantité d'articles déjà placés dans la zone de transbordement ou la valeur du champ **Qté à recevoir** de la ligne réception. (Vous ne pouvez pas transborder plus d'articles que vous en avez reçus.  
@@ -76,7 +76,7 @@ Le programme ne crée pas d'enregistrement distinct concernant les articles tran
 
 ## <a name="to-cross-dock-items-after-viewing-the-opportunities"></a>Pour transborder des articles après avoir affiché les opportunités  
 1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Réceptions entrepôt**, puis sélectionnez le lien connexe.  
-2.  Créer des réceptions entrepôt pour un article qui est arrivé et qui pourrait nécessiter un transbordement. Pour plus d'informations, voir [Procédure : réceptionner des articles](warehouse-how-receive-items.md).  
+2.  Créer des réceptions entrepôt pour un article qui est arrivé et qui pourrait nécessiter un transbordement. Pour plus d'informations, voir [Réceptionner des articles](warehouse-how-receive-items.md).  
 
     Vous souhaitez afficher les lignes document origine demandant l'article avant de valider la réception.  
 3.  Choisissez l'action **Calculer transbordement**.  
@@ -84,7 +84,7 @@ Le programme ne crée pas d'enregistrement distinct concernant les articles tran
     Dans la fenêtre **Opportunités transbordement**, vous pouvez voir les informations les plus importantes concernant les lignes demandant l'article, comme le type du document, la quantité demandée et la date d'échéance. Ces informations peuvent vous aider à décider de la quantité d'articles à transborder, de l'endroit où placer ces articles dans la zone de transbordement ou de la manière de les regrouper.  
 
 4.  Choisissez l'action **Remplir quantité à transborder** pour savoir comment les quantités figurant dans les lignes réception sont calculées. Lorsque vous modifiez le nombre d'articles dans le champ **Qté à transborder** de chaque ligne, le calcul est mis à jour lorsque vous effectuez des modifications. Cela ne signifie pas que l'expédition ou l'ordre de fabrication concerné reçoit réellement les articles dont le transbordement est proposé, car ces opérations ne sont qu'un simple test. Toutefois, ce processus peut être intéressant à titre d'information si plusieurs unités de mesure sont utilisées.  
-5.  Pour réserver une quantité de l'article pour une ligne commande donnée, placez le curseur sur cette ligne, puis choisissez l'action **Réserver**. Dans la fenêtre **Réservation**, vous pouvez maintenant réserver n'importe quelle quantité disponible de l'article pour cette commande. Cette réservation ne diffère pas des autres réservations, et le fait qu'elle ait été créée au cours d'un transbordement ne lui confère aucune priorité. Pour plus d'informations, voir [Procédure : réserver des articles](inventory-how-to-reserve-items.md).   
+5.  Pour réserver une quantité de l'article pour une ligne commande donnée, placez le curseur sur cette ligne, puis choisissez l'action **Réserver**. Dans la fenêtre **Réservation**, vous pouvez maintenant réserver n'importe quelle quantité disponible de l'article pour cette commande. Cette réservation ne diffère pas des autres réservations, et le fait qu'elle ait été créée au cours d'un transbordement ne lui confère aucune priorité. Pour plus d'informations, voir [Réserver des articles](inventory-how-to-reserve-items.md).   
 6.  Lorsque vous avez fini de refaire les calculs et que la réservation est terminée, sélectionnez le bouton **OK** pour insérer le calcul que vous venez de réviser dans le champ **Qté à transborder** de la ligne réception ou choisissez le bouton **Annuler** pour revenir à la réception entrepôt et y recalculer le transbordement.  
 7.  Validez à présent la réception. Vous pouvez ensuite passer à l'instruction de rangement, comme l'indiquent les étapes 3 à 7 de la section « Pour transborder des articles sans afficher les opportunités ».  
 

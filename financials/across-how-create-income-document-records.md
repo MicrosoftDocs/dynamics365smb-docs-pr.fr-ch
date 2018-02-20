@@ -13,23 +13,23 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 8642f4d904c9a1e7c46846d790fcb2d0837c4cc2
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 444dabfdcfbf91eb81e281f6f6b4b9f3b184462d
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-incoming-document-records"></a>Procédure : créer des enregistrements document entrant
+# <a name="create-incoming-document-records"></a>Créer des enregistrements document entrant
 Dans la fenêtre **Documents entrants**, vous pouvez utiliser différentes fonctions pour examiner les reçus de dépenses, gérer les tâches ROC et convertir les fichiers document entrants, manuellement ou automatiquement, en documents ou lignes feuille appropriés. Les fichiers externes peuvent être joints à n'importe quelle étape du processus, notamment en ce qui concerne les documents validés et au fournisseur, au client qui en résulte, et dans les écritures comptables.
 
 Pour enregistrer un document externe dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous devez d'abord créer ou terminer un enregistrement de document externe. Vous pouvez effectuer cette opération manuellement ou prendre une photo du document externe puis créer l'enregistrement document entrant avec le fichier image joint.
 
-Avant d'utiliser la fonctionnalité Documents entrants, vous devez exécuter la configuration requise. Pour plus d'informations, reportez vous à [Procédure : configurer des documents entrants](across-how-setup-income-documents.md).
+Avant d'utiliser la fonctionnalité Documents entrants, vous devez exécuter la configuration requise. Pour plus d'informations, voir [Configurer des documents entrants](across-how-setup-income-documents.md).
 
 ## <a name="to-approve-or-reject-an-incoming-document"></a>Approbation ou rejet d'un document entrant
 Si vous souhaitez autoriser des utilisateurs à créer des factures ou des lignes feuille comptabilité à partir d'enregistrements document entrant, sauf s'ils sont approbateurs, vous pouvez configurer des approbateurs qui doivent approuver les enregistrements avant de pouvoir être traités.
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Documents entrants**, puis sélectionnez le lien connexe.
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Documents entrants**, puis sélectionnez le lien connexe.
 2. Sélectionnez la ligne contenant le document à approuver ou rejeter, puis sélectionnez l'action **Approuver** or **Rejeter**.
 
 Si vous approuvez l'enregistrement document entrant, la case à cocher **Lancé** de la ligne document entrant est activée. L'utilisateur chargé de créer, par exemple, des factures achat peut continuer à traiter l'enregistrement.
@@ -57,7 +57,7 @@ Si vous approuvez l'enregistrement document entrant, la case à cocher **Lancé*
     L'image est jointe à l'enregistrement de document entrant.
 
 ## <a name="to-create-an-incoming-document-record-manually"></a>Pour créer un enregistrement document entrant manuellement
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Documents entrants**, puis sélectionnez le lien connexe.
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Documents entrants**, puis sélectionnez le lien connexe.
 2. Choisissez l'action **Créer à partir d'un fichier**.  
 3. Dans la fenêtre **Insérer un fichier**, sélectionnez un fichier, puis choisissez **Ouvrir**. Le fichier est automatiquement joint.
 4. Sinon, choisissez l'action **Nouveau**.
@@ -69,5 +69,5 @@ Si vous approuvez l'enregistrement document entrant, la case à cocher **Lancé*
 [Traiter les documents entrants](across-process-income-documents.md)  
 [Documents entrants](across-income-documents.md)  
 [Achats](purchasing-manage-purchasing.md)  
-[Utilisation de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

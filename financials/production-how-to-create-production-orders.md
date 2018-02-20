@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 0c792dbb7d7261e8f8b89ca4f3d39d875142c4eb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3ffbe781830a492256be864bace38bbef3050596
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-production-order-headers"></a>Comment créer des en-têtes O.F.
+# <a name="create-production-order-headers"></a>Créer des en-têtes O.F.
 Vous pouvez créer manuellement un ordre de fabrication. Pour cela, la première étape est de créer un en-tête O.F.
 
 Les ordres de fabrication sont généralement créés automatiquement par une fonction de planification pour répondre à une demande connue. Pour plus d'informations, voir [Planification](production-planning.md).   
@@ -32,11 +32,11 @@ La procédure suivante s'appuie sur un ordre de fabrication planifié ferme. Vou
 3.  Dans le champ **N°**, insérez le numéro suivant de la souche.  
 4.  Dans le champ **Type origine**, sélectionnez la source de l'ordre de fabrication.
 
-    Vous pouvez choisir de produire une famille d'articles. Pour plus d'informations, voir [Procédure : utiliser les familles de production](production-how-work-family.md).
+    Vous pouvez choisir de produire une famille d'articles. Pour plus d'informations, voir [Utiliser les familles de production](production-how-work-family.md).
 5.  Dans le champ **N° origine**, sélectionnez le numéro d'article, la famille, ou l'en-tête vente pour lequel l'ordre de fabrication doit être créé.  
 6.  Renseignez les champs **Quantité** et **Délai** en fonction de vos spécifications.  
 
-Lorsque les exigences de production évoluent, comme les composants ou les opérations, vous pouvez replanifier rapidement l'ordre de fabrication. Pour plus d'informations, voir [Procédure : replanifier ou actualiser directement les ordres de fabrication](production-how-to-replan-refresh-production-orders.md). 
+Lorsque les exigences de production évoluent, comme les composants ou les opérations, vous pouvez replanifier rapidement l'ordre de fabrication. Pour plus d'informations, voir [Replanifier ou actualiser directement des ordres de fabrication](production-how-to-replan-refresh-production-orders.md). 
 
 ## <a name="see-also"></a>Voir aussi  
 [Production](production-manage-manufacturing.md)    

@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c9944bc25131a5cb51015483511bd7d4854f4c1a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: cc24989d2cf770cd88bbde23d483e3859ff4a68a
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-trace-item-tracked-items"></a>Procédure : tracer des articles suivis
+# <a name="trace-item-tracked-items"></a>Tracer des articles - Articles suivis
 Vous pouvez voir où un article suivi a été utilisé, y compris le mode et le moment de réception ou de production, de transfert, de vente, de consommation ou de retour. Vous pouvez également rechercher toutes les instances d'informations d'un numéro de série ou de lot particulier dans la base de données. Vous procédez à l'aide des fonctionnalités Traçabilité et Naviguer.  
 
  Ces fonctions sont particulièrement utiles pour le contrôle qualité, lorsque vous devez déterminer quels clients ont reçus des produits correspondant à un numéro de lot particulier ou le lot dont provenait un composant défectueux.  
@@ -69,7 +69,7 @@ Vous pouvez voir où un article suivi a été utilisé, y compris le mode et le 
 [STOCKS ET EN-COURS](inventory-manage-inventory.md)  
 [Détails de conception : traçabilité](design-details-item-tracking.md)
 [Détails de conception : traçabilité et réservations](design-details-item-tracking-and-reservations.md)  
-[Procédure : réserver des articles](inventory-how-to-reserve-items.md)  
+[Réserver des articles](inventory-how-to-reserve-items.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 [Procédure pas à pas : suivi des numéros de série et des numéros de lot](walkthrough-tracing-serial-lot-numbers.md)
 

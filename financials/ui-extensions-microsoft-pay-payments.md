@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 07/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 6fb27bb277d3ad1b5363da40c26d879663ff616b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e92ac00e08008e8de6a60ec46e0d71500bb03eaa
 ms.contentlocale: fr-ch
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="the-microsoft-pay-extension-to-included365finincludesd365finlongmdmd"></a>Extension Microsoft Pay pour [!INCLUDE[d365fin](includes/d365fin_long_md.md)]
@@ -31,7 +31,7 @@ L'extension Microsoft Pay offre les avantages suivants :
 - Le lien Microsoft Pay peut être incorporé automatiquement ou par l'utilisateur sur chaque document facture.
 - Comme cette fonctionnalité est conçus comme une extension, elle vous donne le contrôle complet et vous permet de l'activer quand et si vos processus d'entreprise le nécessitent.
 
-L'activation des extensions de service de paiement est gratuite dans [!INCLUDE[d365fin](includes/d365fin_md.md)], toutefois, vous devez contacter le service de paiement pour obtenir un compte. Pour plus d'informations, reportez-vous à [Procédure : activer les paiements client via les services de paiement](sales-how-enable-payment-service-extensions.md).
+L'activation des extensions de service de paiement est gratuite dans [!INCLUDE[d365fin](includes/d365fin_md.md)], toutefois, vous devez contacter le service de paiement pour obtenir un compte. Pour plus d'informations, voir [Activer les paiements client via les services de paiement](sales-how-enable-payment-service-extensions.md).
 
 ## <a name="see-also"></a>Voir aussi
 [Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md)  

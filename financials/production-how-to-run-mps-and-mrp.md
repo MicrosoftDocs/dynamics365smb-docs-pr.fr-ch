@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bd69a3da7a0a5e766a232e8999056ac60109e7b1
-ms.openlocfilehash: 89982479ec539f6bf394d31af8775a0b735588fc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 412050e3fd1da21421e0752be6367fa0ead8d636
 ms.contentlocale: fr-ch
-ms.lasthandoff: 10/02/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-run-full-planning-mps-or-mrp"></a>Procédure : exécuter une planification complète et un calcul PDP ou MRP
+# <a name="run-full-planning-mps-or-mrp"></a>Exécuter une planification complète et un calcul PDP ou MRP
 Les termes « exécution de la feuille planning » ou « exécution d'un calcul MRP » font référence au calcul de la planification de fabrication principale et aux besoins matière sur la base de la demande réelle et prévue. Le système de planification peut calculer la planification de production (PDP) ou la planification des besoins matière (MRP, Material Requirements Planning) à la demande ou calculer les deux simultanément.  
 
 -   Le calcul PDP est le calcul de la planification de production principale basé sur la demande réelle et la prévision de production. Le calcul PDP est utilisé pour les articles finis disposant de prévisions ou d'une ligne commande vente. Ces articles sont appelés « articles PDP » et identifiés de façon dynamique au début du calcul.  
@@ -27,7 +27,7 @@ Les termes « exécution de la feuille planning » ou « exécution d'un calc
 
 Les algorithmes de planification utilisés pour les calculs PDP et MRP sont identiques. Ces algorithmes ont trait à l'ajustement, à la réutilisation d'ordres de réapprovisionnement existant et à des messages d'action. Le processus du système de planification examine ce qui est ou sera nécessaire (demande) et ce qui est disponible ou attendu (approvisionnement). Lorsque ces quantités sont ajustées, [!INCLUDE[d365fin](includes/d365fin_md.md)] génère des messages d'action. Ces messages sont des suggestions de création d'un ordre, de modification d'un ordre (quantité ou date) ou d'annulation d'un ordre. Le terme « ordre » désigne les commandes achat, les ordres d'assemblage, les ordres de fabrication et les ordres de transfert.
 
-Les liens créés par le moteur de planification entre la demande et son approvisionnement associé peuvent être suivis dans la fenêtre **Chaînage**. Pour plus d'informations, voir [Procédure : suivre les relations entre l'offre et la demande](production-how-track-demand-supply.md).   
+Les liens créés par le moteur de planification entre la demande et son approvisionnement associé peuvent être suivis dans la fenêtre **Chaînage**. Pour plus d'informations, voir [Suivre les relations entre l'offre et la demande](production-how-track-demand-supply.md).   
 
 Les résultats d'une planification appropriée dépendent de la configuration effectuée au niveau des fiches article, des nomenclatures d'assemblage et des gammes.  
 

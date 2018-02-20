@@ -12,13 +12,13 @@ ms.workload: na
 ms.date: 01/16/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 10484680910a9012e58a333ab3a854cf4af0d09b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 52e5b2b69da1f9a78906563d054d91de2dfe0925
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-extended-item-text"></a>Procédure : configurer du texte d'article étendu
+# <a name="set-up-extended-item-text"></a>Configurer du texte d'article étendu
 Vous pouvez étendre un texte standard pour les articles en ajoutant des lignes supplémentaires et vous pouvez définir des conditions d'utilisation concernant ces lignes supplémentaires. Vous devez effectuer cette opération à partir des fiches article.
 
 ## <a name="to-define-extended-text-for-an-item-description"></a>Pour définir le texte étendu pour une description de l'article

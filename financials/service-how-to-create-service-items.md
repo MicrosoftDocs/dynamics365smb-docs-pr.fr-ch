@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: acd3305694186793ccc5c305573f62c16a718531
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2c9c7796b80d77d3a879ecf9ce2a8af26a0ca5aa
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-service-items"></a>Procédure : créer des articles de service :
+# <a name="create-service-items"></a>Créer des articles de service
 Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], le terme « article de service » fait référence à un équipement ou un article nécessitant une maintenance. Lorsque vous créez une commande service, vous spécifiez les articles nécessitant une maintenance. Dans la commande, vous pouvez lier un article de service à un article en stock ou à un groupe articles de service.    
 
 Lorsque vous recevez un article nécessitant une maintenance, vous pouvez l'enregistrer en tant qu'article de service. Plusieurs méthodes sont possibles. Par exemple, vous pouvez créer un article de service sur la page **Articles de service**, ou dans le cadre d'un autre traitement, par exemple en utilisant une commande service.   
@@ -59,7 +59,7 @@ La procédure suivante explique comment créer des articles de service lorsque v
     Une ligne service de type **Coût** est insérée avec les frais forfaitaires. Les frais forfaitaires s'appliquent à l'article de service sélectionné.
 
 ## <a name="see-also"></a>Voir aussi  
-[Procédure : configurer les articles de service et les composants article de service](service-how-setup-service-items.md)  
+[Configurer les articles de service et les composants article de service](service-how-setup-service-items.md)  
 [Paramétrage de la gestion des services](service-setup-service.md)  
 [Gestion des services](service-service.md)  
 

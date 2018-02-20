@@ -1,6 +1,6 @@
 ---
 title: "Procédure de création de nomenclatures de production | Microsoft Docs"
-description: "Une nomenclature de production contient les données de base qui décrivent les composants et les produits semi-finis utilisés lors de la fabrication d'un article parent. Après la création d'un ordre de fabrication pour cet article parent, sa nomenclature de production gouvernera le calcul de besoins matériels tels que représentés dans la fenêtre **Composants ordre prod**."
+description: "Une nomenclature de production contient les données de base qui décrivent les composants et les produits semi-finis utilisés lors de la fabrication d'un article parent. Après la création d'un ordre de fabrication pour cet article parent, sa nomenclature de production gouvernera le calcul de besoins matériels tels que représentés dans la fenêtre **Composants ordre prod.**."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,21 +13,21 @@ ms.search.keywords:
 ms.date: 09/05/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
-ms.openlocfilehash: 3ebbd34c966ab06fa578336d14a060b0dea44dbc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: a193d1ac19a0474b4a541165ef9f06d21ac7fb7d
 ms.contentlocale: fr-ch
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-production-boms"></a>Comment créer des nomenclatures de production
+# <a name="create-production-boms"></a>Créer des nomenclatures de production
 Une nomenclature de production contient les données de base qui décrivent les composants et les produits semi-finis utilisés lors de la fabrication d'un article parent. Après la création d'un ordre de fabrication pour cet article parent, sa nomenclature de production gouvernera le calcul de besoins matériels tels que représentés dans la fenêtre **Composants ordre prod.**.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] prend également en charge les nomenclatures d'assemblage. Vous utilisez des ordres d'assemblage pour fabriquer des produits finis à partir de composants dans le cadre d'un processus simple qui peut être exécuté par une ou plusieurs ressources de base, qui ne sont pas des postes ou centres de charge, ou sans ressource. Par exemple, un processus d'assemblage peut consister à prélever deux bouteilles de vin et un sachet de café puis à les emballer comme article de cadeau. Pour plus d'informations, voir la section « Nomenclatures d'assemblage ou nomenclatures de production » dans [Procédure : utiliser les nomenclatures](inventory-how-work-BOMs.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]   prend également en charge les nomenclatures d'assemblage. Vous utilisez des ordres d'assemblage pour fabriquer des produits finis à partir de composants dans le cadre d'un processus simple qui peut être exécuté par une ou plusieurs ressources de base, qui ne sont pas des postes ou centres de charge, ou sans ressource. Par exemple, un processus d'assemblage peut consister à prélever deux bouteilles de vin et un sachet de café puis à les emballer comme article de cadeau. Pour plus d'informations, voir la section « Nomenclatures d'assemblage ou nomenclatures de production » dans [Utiliser les nomenclatures](inventory-how-work-BOMs.md).  
 
 Pour pouvoir configurer une gamme, les éléments suivants doivent être en place :  
 
-- Des fiches article sont créées pour les articles parents qui participent à la production. Pour plus d'informations, reportez vous à [Procédure : enregistrer de nouveaux articles](inventory-how-register-new-items.md).
-- Les ressources de production sont configurées. Pour plus d'informations, voir [Procédure : configurer les centres de charge et les postes de charge](production-how-to-set-up-work-and-machine-centers.md).
+- Des fiches article sont créées pour les articles parents qui participent à la production. Pour plus d'informations, reportez vous à [Enregistrer de nouveaux articles](inventory-how-register-new-items.md).
+- Les ressources de production sont configurées. Pour plus d'informations, voir [Configurer les centres de charge et les postes de charge](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-production-bom"></a>Pour créer une nomenclature de production  
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Nomenclature de production**, puis sélectionnez le lien connexe.  
@@ -39,15 +39,15 @@ Pour pouvoir configurer une gamme, les éléments suivants doivent être en plac
 5. Dans le champ **Type**, indiquez si l'article sur la ligne nomenclature est un article ordinaire ou s'il s'agit d'une nomenclature de production. Dans le dernier cas, l'article doit déjà exister en tant que nomenclature de production certifiée.  
 6.  Dans le champ **N°**, consultez et sélectionnez l'article ou la nomenclature de production concernée \(ou entrez l'un ou l'autre\).  
 7.  Dans le champ **Quantité par**, spécifiez le nombre d'unités de l'article intégrant l'article parent, par exemple, les 4 roues d'une voiture.  
-8.  Dans le champ **% rebut**, vous pouvez indiquer le taux fixe de perte de composants lors de la production. Une fois qu'ils sont prêts à être consommés dans un ordre de fabrication lancé, ce taux est ajouté à la quantité prévue dans le champ **Quantité consommée** dans une feuille production. Pour plus d'informations, reportez vous à [Comment enregistrer la consommation et la production](production-how-to-register-consumption-and-output.md).  
+8.  Dans le champ **% rebut**, vous pouvez indiquer le taux fixe de perte de composants lors de la production. Une fois qu'ils sont prêts à être consommés dans un ordre de fabrication lancé, ce taux est ajouté à la quantité prévue dans le champ **Quantité consommée** dans une feuille production. Pour plus d'informations, voir [Comment enregistrer la consommation et la production](production-how-to-register-consumption-and-output.md).  
 
     > [!NOTE]  
     >  ce taux de rebut correspond aux composants perdus au cours de la production durant le prélèvement stock, alors que, sur les lignes gamme, il représente la production perdue avant stockage.  
 
-9.  Dans le champ **Code lien gamme**, vous pouvez entrer un code permettant de lier le composant à une opération spécifique. Pour plus d'informations, voir la section « Pour créer des liens gamme » dans [Procédure : créer des gammes](production-how-to-create-routings.md).
+9.  Dans le champ **Code lien gamme**, vous pouvez entrer un code permettant de lier le composant à une opération spécifique. Pour plus d'informations, voir la section « Pour créer des liens gamme » dans [Créer des gammes](production-how-to-create-routings.md).
 10. Pour copier des lignes à partir d'une nomenclature de production existante, choisissez l'action **Copier nomenclature** pour sélectionner des lignes existantes.  
 11.  Certifiez la nomenclature de production.  
-12.  Vous pouvez désormais joindre la nouvelle nomenclature de production à la fiche de l'article parent en question. Pour plus d'informations, reportez vous à [Procédure : enregistrer de nouveaux articles](inventory-how-register-new-items.md).  
+12.  Vous pouvez désormais joindre la nouvelle nomenclature de production à la fiche de l'article parent en question. Pour plus d'informations, reportez vous à [Enregistrer de nouveaux articles](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
 >  Pour recalculer le coût standard de l'article figurant sur la fiche article, choisissez l'action **Production**, puis l'action **Calculer coût standard**.  
@@ -92,7 +92,7 @@ La relation entre chacun des composants est définie par la formule de calcul. V
 Une nomenclature de production répertorie 70 feuilles de métal dotées des axes suivants : longueur = 0,20 m et largeur = 0,15 m.  Les valeurs suivantes sont saisies : Formule de calcul = Longueur x Largeur, Longueur = 20, Largeur = 15, Quantité par = 70. La quantité est donnée par la valeur Quantité par x Longueur * Largeur, c'est-à-dire Quantité = 70 x 0,20 m x 0,15 m = 2,1 m2.  
 
 ## <a name="see-also"></a>Voir aussi  
-[Procédure : créer des gammes](production-how-to-create-routings.md)   
+[Créer des gammes](production-how-to-create-routings.md)   
 [Paramétrage de la production](production-configure-production-processes.md)  
 [Production](production-manage-manufacturing.md)    
 [Planifié](production-planning.md)   

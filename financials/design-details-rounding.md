@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 39d4bdc430fc74452e7f089c38b28b3214304725
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-rounding"></a>Détails de conception : arrondi
@@ -59,7 +59,7 @@ Des reliquats d'arrondi peuvent se produire lorsque vous évaluez le coût d'une
 |01/02/20|-1|-3,33|2|2|  
 |01/03/20|-1|-3,33|3|3|  
 |01/04/20|-1|-3,33|4|4|  
-|01/01/20|0|-0,01|0|5|  
+|01/01/20|0|-0,01|1|5|  
 
 ## <a name="see-also"></a>Voir aussi  
  [Détails de conception : évaluation stock](design-details-inventory-costing.md)   

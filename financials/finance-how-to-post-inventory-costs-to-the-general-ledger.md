@@ -12,21 +12,21 @@ ms.search.keywords: warehouse, stock
 ms.date: 07/05/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 41c967c323f4bc156733575cf96925d2b64ddafe
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b71ca658374679860fae487c60d52502ce8eb243
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-reconcile-inventory-costs-with-the-general-ledger"></a>Procédure : rapprocher les coûts ajustés avec la comptabilité
+# <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Rapprocher les coûts ajustés avec la comptabilité
 Lorsque vous validez des mouvements de stock, tels que des expéditions vente, des factures achat ou des ajustements de stock, les coûts article modifiés sont enregistrés dans les écritures valeur. Pour refléter ces modifications de la valeur stock dans vos livres financiers, les coûts stocks sont automatiquement validés dans les comptes stock associés dans les écritures comptables. Pour chaque mouvement stock que vous validez, les valeurs appropriées sont validées dans le compte stocks, le compte ajustement et le compte validation stock dans la comptabilité.
 
 La comptabilisation des coûts automatique est définie par le champ **Compta. coûts automatique** dans la fenêtre **Paramètres stock**.
 
-Bien que les coûts soient automatiquement validés en comptabilité, il est malgré tout nécessaire de vous assurer que les coûts des biens sont transmis à la transaction de vente sortante associée, notamment dans les situations où vous vendez des biens avant de facturer l'achat. Il s'agit d'un ajustement des coûts. Le coût des articles est ajusté automatiquement lorsque vous validez des transactions article, mais vous pouvez également les ajuster manuellement. Pour en savoir plus, voir [Procédure : Ajuster coûts article](inventory-how-adjust-item-costs.md).
+Bien que les coûts soient automatiquement validés en comptabilité, il est malgré tout nécessaire de vous assurer que les coûts des biens sont transmis à la transaction de vente sortante associée, notamment dans les situations où vous vendez des biens avant de facturer l'achat. Il s'agit d'un ajustement des coûts. Le coût des articles est ajusté automatiquement lorsque vous validez des transactions article, mais vous pouvez également les ajuster manuellement. Pour en savoir plus, voir [Ajuster coûts article](inventory-how-adjust-item-costs.md).
 
 ## <a name="to-post-inventory-costs-manually"></a>Pour valider des coûts ajustés manuellement
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Valider coûts ajustés**, puis sélectionnez le lien connexe.
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Valider coûts ajustés**, puis sélectionnez le lien connexe.
 2. Validez les coûts ajustés dans la comptabilité manuellement en exécutant le traitement par lots. Lorsque vous exécutez ce dernier, des écritures comptables sont créées, basées sur des écritures valeur. Vous pouvez valider les écritures de façon à ce qu'elles soient récapitulées par groupe comptabilisation.
 
 > [!NOTE]  
@@ -73,8 +73,6 @@ Choisissez le montant dans l'un des champs de Total pour afficher les écritures
 [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  
 [Achats](purchasing-manage-purchasing.md)  
 [Ventes](sales-manage-sales.md)    
-[Utilisation de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)
-
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 

@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/10/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: c6365507992b75d5fa264491bbc85bb1b4a8ed7a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7b8c24469a087c16c2e351b456b015e8fdd65f82
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-payment-tolerances-and-payment-discount-tolerances"></a>Procédure : Utilisation des écarts de règlement et des écarts d'escompte
+# <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Utilisation des écarts de règlement et des écarts d'escompte
 Vous pouvez configurer un écart de règlement de manière à fermer une facture lorsque le paiement ne couvre pas entièrement le montant de la facture. Vous pouvez configurer un écart de règlement pour accorder un escompte après expiration de la date d'escompte.  
 
 Vous pouvez utiliser les écarts de règlement pour qu'un écart de règlement maximum autorisé soit défini pour chaque montant en commande. Si l'écart de règlement est rempli, le montant règlement est analysé. Si le montant règlement est un moins-perçu, alors le montant en commande est totalement clôturé par le moins-perçu. Une écriture comptable détaillée est validée dans l'écriture règlement de sorte qu'il ne subsiste aucun montant ouvert dans l'écriture facture lettrée. Si le montant règlement est un trop-perçu, alors une nouvelle écriture comptable détaillée est validée dans l'écriture règlement de sorte qu'il ne subsiste aucun montant ouvert dans l'écriture règlement.

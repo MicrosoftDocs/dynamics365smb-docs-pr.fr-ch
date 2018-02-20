@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: ba88be99ad8dfcecb78dfb1dd58be2d0645e85ba
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-revaluation"></a>Détails de conception : réévaluation
@@ -76,7 +76,7 @@ La date d'évaluation est définie sur la date de la validation de la consommati
 
 |Date comptabilisation|Article ;|Type écriture|Quantité|N° écriture|  
 |------------------|----------|----------------|--------------|---------------|  
-|15/02/20|CHAÎNE|Production|0|3|  
+|15/02/20|CHAÎNE|Production|1|3|  
 
 **3V** : l'utilisateur exécute le traitement par lots **Ajuster coûts - Écr. article**, qui valide la chaîne comme étant facturée pour indiquer que toute la consommation de matériel a été entièrement facturée. Du point de vue financier, les liens ne font plus partie du stock encours lorsque la production est entièrement facturée et ajustée. Le tableau suivant montre les écritures valeur résultantes.  
 

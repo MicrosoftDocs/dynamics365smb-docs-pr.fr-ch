@@ -13,13 +13,13 @@ ms.search.keywords: purchasing agent
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 98b9dfce0b0a9723992fe3de77a1130ca2b05e7a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 66e6233df8204476e5f856e230e5e3d502d309c4
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-purchasers"></a>Procédure : configurer des acheteurs
+# <a name="set-up-purchasers"></a>Configurer les acheteurs
 Si plusieurs acheteurs travaillent dans votre société, vous pouvez les configurer dans une fenêtre et leur attribuer un code. Vous pouvez ensuite utiliser ces codes pour établir des statistiques et filtrer les informations des états imprimés.
 
 ## <a name="to-set-up-purchasers"></a>Pour configurer des acheteurs

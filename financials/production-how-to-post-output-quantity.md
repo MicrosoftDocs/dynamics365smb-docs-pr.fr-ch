@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ee5ee5d08804439a79f8029eaa25ab7547349a1b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e885149e28c2e09dc244bc5c0a431e7b2fe047a5
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-batch-post-output-and-run-times"></a>Procédure : valider par lots la production et les temps d'exécution
+# <a name="batch-post-output-and-run-times"></a>Valider par lots la production et les temps d'exécution
 La quantité produite représente l'avancée des travaux en prenant en compte la quantité achevée.  
 
 > [!NOTE]
@@ -30,7 +30,7 @@ La quantité produite représente l'avancée des travaux en prenant en compte la
 2. Renseignez les champs en indiquant les données relatives à la fabrication et à la production. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Si l'opération est achevée, sélectionnez le champ **Terminé**.  
 
-    Si l'entrepôt dans lequel les articles doivent être rangés utilise des emplacements mais pas le traitement de rangement,  affectez un code emplacement à la ligne feuille pour indiquer l'endroit où les articles doivent être placés dans l'entrepôt. Pour plus d'informations, voir [Procédure : rangement du résultat de fabrication ou d'assemblage](warehouse-how-to-put-away-production-output.md).  
+    Si l'entrepôt dans lequel les articles doivent être rangés utilise des emplacements mais pas le traitement de rangement,  affectez un code emplacement à la ligne feuille pour indiquer l'endroit où les articles doivent être placés dans l'entrepôt. Pour plus d'informations, voir [Rangement du résultat de fabrication ou d'assemblage](warehouse-how-to-put-away-production-output.md).  
 
 4. Choisissez l'action **Valider** pour valider les opérations. La quantité produite est validée. L'article peut être expédié.  
 

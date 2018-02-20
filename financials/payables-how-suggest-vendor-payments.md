@@ -13,16 +13,16 @@ ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
-ms.openlocfilehash: 2085cc744c2ff3761937920cd893faab5a84dada
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 384bc05b8f775859c9ca6d6ea4241efb63a9e69d
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-suggest-vendor-payments"></a>Procédure : proposer des paiements fournisseur
+# <a name="suggest-vendor-payments"></a>Proposer paiements fournisseur
 Dans la fenêtre **Feuille paiement**, vous pouvez utiliser le traitement par lots **Proposer paiements fournisseur** pour proposer des lignes paiement. Des lignes pour des éléments tels que les paiements échus à courte échéance ou les paiements pour lesquels un escompte est disponible, sont proposées en fonction de vos paramètres.
 
-Pour bénéficier pleinement des lignes proposées, vous devez d'abord attribuer une priorité à vos fournisseurs. Pour plus d'informations, reportez-vous à [Procédure : octroyer une priorité à des fournisseurs](purchasing-how-prioritize-vendors.md).  
+Pour bénéficier pleinement des lignes proposées, vous devez d'abord attribuer une priorité à vos fournisseurs. Pour plus d'informations, voir [Octroyer une priorité à des fournisseurs](purchasing-how-prioritize-vendors.md).  
 
 Les écritures fournisseur qui ne sont pas **En attente** ne sont pas incluses.  
 
@@ -47,7 +47,7 @@ Lorsque vous utilisez le traitement par lots **Proposer paiements fournisseur** 
 
 De plus, si la date comptabilisation calculée se trouve dans le passé, la date de comptabilisation est déplacée à la date de travail, et un message d'avertissement s'affiche.  
 
-Vous pouvez aussi créer manuellement des lignes de paiement à l'aide de la date d'échéance pour calculer la date comptabilisation. Une fois que vous avez appliqué les écritures comptables fournisseur, vous pouvez utiliser l'option **Calculer date comptabilisation** pour mettre à jour la date comptabilisation de la ligne feuille à la date d'échéance de la facture achat associée. Pour plus d'informations, reportez-vous à [Procédure : Lettrer les achats manuellement](payables-how-apply-purchase-transactions-manually.md).  
+Vous pouvez aussi créer manuellement des lignes de paiement à l'aide de la date d'échéance pour calculer la date comptabilisation. Une fois que vous avez appliqué les écritures comptables fournisseur, vous pouvez utiliser l'option **Calculer date comptabilisation** pour mettre à jour la date comptabilisation de la ligne feuille à la date d'échéance de la facture achat associée. Pour plus d'informations, voir [Lettrer les achats manuellement](payables-how-apply-purchase-transactions-manually.md).  
 
 > [!NOTE]  
 >   Si la facture achat est en retard, la date comptabilisation est définie sur la date de travail et la police de la ligne devient rouge.  

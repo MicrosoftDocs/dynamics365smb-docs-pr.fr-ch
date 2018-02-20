@@ -1,6 +1,6 @@
 ---
 title: "Exporter vos données Financials vers Excel| Microsoft Docs"
-description: "Vous pouvez exporter états financiers et vos données de veille économique de Dynamics 365 Business edition vers Excel, ou ouvrir vos données Financials dans Excel."
+description: "Vous pouvez exporter vos états financiers et vos données de veille économique de Finance and Operations, Business edition vers Excel, ou ouvrir vos données Financials dans Excel."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,14 +13,14 @@ ms.search.keywords: analysis, reporting, financial report, business intelligence
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 36d3e31300fbdc3a29f345a331cabbf50875c77f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6f82017a0e5178e39b5c06e4d52c6e35ec84d848
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Exportation de vos données métier vers Excel
-Si vous souhaitez travailler avec vos données à partir de [!INCLUDE[d365fin](includes/d365fin_md.md)] dans Excel, vous pouvez ouvrir toutes les listes et les utiliser dans Excel. De même, si vous souhaitez annuler votre abonnement à [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], vous pouvez exporter vos données vers Excel afin de pouvoir les transférer par la suite.
+Si vous souhaitez travailler avec vos données à partir de [!INCLUDE[d365fin](includes/d365fin_md.md)] dans Excel, vous pouvez ouvrir toutes les listes et les utiliser dans Excel. De même, si vous souhaitez annuler votre abonnement à [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez exporter vos données vers Excel afin de pouvoir les transférer par la suite.
 
 ## <a name="opening-lists-in-excel"></a>Ouverture de listes dans Excel
 Vous pouvez ouvrir des données dans Excel à partir de n'importe quelle feuille ou liste. Il vous suffit d'ouvrir la page que vous souhaitez, puis de cliquer sur **Ouvrir dans Excel**. Par exemple, ouvrez la liste des clients (recherchez **Clients**), puis sélectionnez **Ouvrir dans Excel**. Votre navigateur vous invite alors à ouvrir ou à enregistrer le classeur Excel généré.  
@@ -60,12 +60,12 @@ Nous recommandons également d'exporter des données à partir des pages suivant
 * Vendeurs  
 
 > [!NOTE]  
->   Si vous avez défini plusieurs sociétés dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], vous devez exporter les données appropriées de chaque société.
+>   Si vous avez défini plusieurs sociétés dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous devez exporter les données appropriées de chaque société.
 
 ## <a name="see-also"></a>Voir aussi
-[Annuler pour votre abonnement [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](madeira-cancel.md)  
+[Annuler pour votre abonnement [!INCLUDE[d365fin](includes/d365fin_md.md)]](madeira-cancel.md)  
 [Importation des données métier à partir d'autres systèmes financiers](upload-data.md)  
 [Finances](finance.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)  
-[Utilisation de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

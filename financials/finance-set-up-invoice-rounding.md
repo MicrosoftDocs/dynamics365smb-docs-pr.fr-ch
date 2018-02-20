@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/15/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: f56e94d0914aaacc722381790688faedbb75ffda
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ceebeeac325c00d6aef25d8ca51fcfee1ab4e1d5
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="set-up-invoice-rounding"></a>Configuration de la fonction arrondi facture
@@ -34,18 +34,18 @@ Pour utiliser l'arrondi facture automatique, vous devez :
 > [!NOTE]  
 >  Outre les fonctions d'arrondi facture, vous pouvez arrondir les montants des factures à l'aide des fonctions arrondi montant unité et arrondi montant.  
  
-## <a name="how-to-set-up-general-ledger-accounts-for-invoice-rounding-differences"></a>Procédure : configurer des comptes généraux afin d'autoriser les différences d'arrondi dans les factures
+## <a name="set-up-general-ledger-accounts-for-invoice-rounding-differences"></a>Configurer des comptes généraux afin d'autoriser les différences d'arrondi dans les factures
 Pour utiliser la fonction d'arrondi automatique de facture, vous devez configurer les comptes généraux dans lesquels des différences d'arrondi seront utilisées. Pour cela, vous devez toutefois configurer des groupes comptabilisation produit TVA. Pour plus d'informations, reportez-vous à [Configuration TVA](finance-setup-vat.md).  
   
 ### <a name="to-set-up-general-ledger-accounts-for-invoice-rounding-differences"></a>Pour configurer des comptes généraux afin d'autoriser les différences d'arrondi dans les factures  
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Plan comptable**, puis sélectionnez le lien connexe.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Plan comptable**, puis sélectionnez le lien connexe.  
 2. Sur la page **Plan comptable**, configurez le compte et nommez-le, par exemple **Arrondi facture**. [!INCLUDE[d365fin](includes/d365fin_md.md)] utilise le nom de ce compte comme texte pour les factures arrondies.  
 3. Selon que vous utilisez la TVA ou la taxe de vente, dans les champs **Groupe compta. produit TVA** ou **Groupe compta. produit TVA**, choisissez un groupe comptabilisation pour les montants arrondis. Vous pouvez aussi paramétrer un nouveau code groupe à utiliser pour les arrondis facture.
 4. Laissez les champs **Type compta. TVA** et **Groupe compta. marché TVA** ou **Groupe compta. marché TVA** vides. <!-- Why do we say to leave these blank, when there are a lot of other fields we also leave blank but don't mention? -->  
   
 À présent, vous pouvez affecter le compte arrondi facture aux groupes comptabilisation sur la page **Groupes compta. fournisseur**.  <!-- Why only the vendor posting groups? -->
 
-## <a name="how-to-set-up-rounding-for-foreign-and-local-currencies"></a>Procédure : configuration de règles d'arrondi pour les devises étrangères et société
+## <a name="set-up-rounding-for-foreign-and-local-currencies"></a>Configuration de règles d'arrondi pour les devises étrangères et société
 Avant d'utiliser la fonction d'arrondi automatique, vous devez configurer les règles d'arrondi pour les devises étrangères et société.
 
 ### <a name="to-set-up-rounding-for-foreign-currencies"></a>Pour configurer les règles d'arrondi pour les devises étrangères  
@@ -56,12 +56,12 @@ Avant d'utiliser la fonction d'arrondi automatique, vous devez configurer les r�
 1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Paramètres comptabilité**, puis sélectionnez le lien connexe.  
 2. Sur la page **Paramètres comptabilité**, sous le raccourci **Général**, renseignez les champs **Précis. arrondi fact.** et **Type arrondi facture**.  
 
-## <a name="how-to-activate-the-invoice-rounding-function"></a>Procédure : activer la fonction arrondi facture  
+## <a name="activate-the-invoice-rounding-function"></a>Activer la fonction arrondi facture  
 Vous devez activer la fonction arrondi facture pour que les factures vente et achat soient automatiquement arrondies. Activez séparément la fonction arrondi facture pour les factures vente et les factures achat.
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Paramètres ventes** ou **Paramètres achats**, puis sélectionnez le lien connexe.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Paramètres ventes** ou **Paramètres achats**, puis sélectionnez le lien connexe.  
 2. Sur le raccourci **Général**, sélectionnez la case **Arrondi facture**.  
   
 ## <a name="see-also"></a>Voir aussi  
-[Procédure : facturer des ventes](sales-how-invoice-sales.md)  
-[Procédure : enregistrer des achats](purchasing-how-record-purchases.md)
+[Facturer des ventes](sales-how-invoice-sales.md)  
+[Enregistrer des achats](purchasing-how-record-purchases.md)

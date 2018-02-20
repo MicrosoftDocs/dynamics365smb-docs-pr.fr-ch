@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 899bdda7448810b029216c66402b739004193a61
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 09748a2bc86a945ff26e581738f85bc6d55b777d
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-interactions-for-segments"></a>Gestion des interactions pour des segments
@@ -45,8 +45,8 @@ Dans la fenêtre **Segment**, lorsque vous cliquez sur **Journaliser**, l'applic
 Dans la fenêtre **Segments journalisés**, vous pouvez choisir de créer un suivi segment contenant les mêmes contacts que le segment que vous avez journalisé.
 
 ## <a name="see-also"></a>Voir aussi
-[Procédure : créer des segments](marketing-how-create-segment.md)  
-[Procédure : créer des interactions pour des segments](marketing-how-create-interactions.md)  
+[Création de segments](marketing-how-create-segment.md)  
+[Créer des interactions pour des segments](marketing-how-create-interactions.md)  
 [Gestion des segments](marketing-segments.md)  
 [Enregistrement des interactions avec les contacts](marketing-interactions.md)  
 [Gestion des opportunités de ventes](marketing-manage-sales-opportunities.md)  

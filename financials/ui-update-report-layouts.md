@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c94729c84470267421207a6edaa413116718f715
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 0395cf37d56282684c2a6e4c2066fd9b249f16f0
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="updating-report-or-document-layouts"></a>Mise à jour des présentations de rapport ou de document
@@ -60,7 +60,7 @@ Si aucune erreur ne se produit, la mise à jour est appliquée aux présentation
   
  Le problème le plus courant se pose lorsqu'un champ utilisé sur la présentation a été supprimé de l'ensemble des données de l'état. Dans ce cas, vous pouvez visualiser une ligne du message d'erreur indiquant qu'un article a été supprimé. Pour résoudre ce problème, vous devez modifier la présentation et supprimer le champ en question.  
   
- Pour plus d'informations, voir [Procédure : créer et modifier une présentation de rapport personnalisée](ui-how-create-custom-report-layout.md#ModifyCustomLayout).  
+ Pour plus d'informations, voir [Créer et modifier une présentation de rapport personnalisée](ui-how-create-custom-report-layout.md#ModifyCustomLayout).  
   
  Une fois que vous avez modifié la présentation, essayez de mettre de nouveau à jour la présentation.  
   

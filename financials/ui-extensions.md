@@ -1,6 +1,6 @@
 ---
-title: "Installation d'extensions pour personnaliser Dynamics 365 Business edition | Microsoft Docs"
-description: "En savoir plus sur l'ajout des fonctionnalités et la personnalisation de Dynamics 365 Business edition en installant des extensions."
+title: Installation d'extensions pour personnaliser Finance and Operations, Business edition | Microsoft Docs
+description: "En savoir plus sur l'ajout de fonctionnalités et la personnalisation de Finance and Operations, Business edition en installant des extensions."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,13 +12,13 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.date: 07/07/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
-ms.openlocfilehash: fb13cfe2d5e5a397d33f66b9fd4db14e46dcc5e1
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5deba7ee0f88c47738f3f964b9da912c730a1bd4
 ms.contentlocale: fr-ch
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="customizing-dynamics-365-business-edition-using-extensions"></a>Personnalisation de Dynamics 365, business edition à l'aide d'extensions
+# <a name="customizing-finance-and-operations-business-edition-using-extensions"></a>Personnalisation de Finance and Operations, Business edition à l'aide des extensions
 Vous pouvez modifier [!INCLUDE[d365fin](includes/d365fin_md.md)] en installant des extensions qui ajoutent des fonctionnalités, modifient le comportement de l'application, ou vous permettent d'accéder à de nouveaux services en ligne, par exemple.
 La première fois que vous lancez [!INCLUDE[d365fin](includes/d365fin_md.md)], certaines extensions sont déjà installées. Au fil du temps, davantage d'extensions seront disponibles. Il vous appartient de choisir si vous souhaitez les utiliser ou non.
 
@@ -68,12 +68,13 @@ Microsoft fournit les extensions suivantes :
 >  Les nouvelles extensions ne sont pas disponibles dans AppSource juste après l'annonce d'une mise à jour. Vous pouvez vous tenir informé sur les extensions sur le site [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).
 
 ## <a name="see-also"></a>Voir aussi
-[Procédure: configurer le service de flux de la Envestnet Yodlee Bank](bank-how-setup-bank-statement-service.md)  
-[Procédure : activer les paiements client via Paypal](sales-how-enable-payment-service-extensions.md)  
+[Configurer le service de flux de la Envestnet Yodlee Bank](bank-how-setup-bank-statement-service.md)  
+[Activer les paiements client via Paypal](sales-how-enable-payment-service-extensions.md)  
 [Migration des données métier à partir d'autres systèmes financiers](upload-data.md)  
 [Configuration de l'extension GetAddress.io UK Postal Code](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)  
 [Extensions [!INCLUDE[d365fin](includes/d365fin_md.md)] par d'autres fournisseurs](ui-extensions-other.md)  
 [Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

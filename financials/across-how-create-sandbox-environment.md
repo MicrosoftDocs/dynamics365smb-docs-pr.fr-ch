@@ -11,15 +11,15 @@ ms.search.keywords: sandbox, demo, develop
 ms.date: 08/18/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d7bcb866d5f69e77e5a175d0b73e8ac03cf09d98
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b3ee160e2c38107aea1342b51d729aa172bbbc3e
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
 
-# <a name="how-to-create-a-sandbox-environment"></a>Procédure : créer un environnement Sandbox
+# <a name="create-a-sandbox-environment"></a>Créer un environnement Sandbox
 Un environnement Sandbox (aperçu) est une instance hors production de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Isolé de la production, un environnement Sandbox est l'emplacement où vous pouvez explorer, apprendre, démontrer, développer et tester en toute sécurité le service sans que les données et les paramètres de votre environnement de production en soient affectés.
 
 ## <a name="to-create-a-sandbox-environment"></a>Pour créer un environnement Sandbox
@@ -44,7 +44,7 @@ Dans l'environnement Sandbox, un nouvel abonné a été créé. Cet abonné est 
 > [!NOTE]  
 >  La réinitialisation de l'environnement Sandbox entraîne sa suppression complète et sa recréation avec les données de démonstration par défaut.  
 
-8.  Pour permuter entre vos environnements de production et Sandbox, vous pouvez utiliser le lanceur d'applications Dynamics 365.
+8.  Pour permuter entre vos environnements de production et Sandbox, vous pouvez utiliser le lanceur d'applications Finance and Operations, Business edition.
 ![Menu Dynamics 365 de l'environnement Sandbox](./media/across-sandbox/sandbox-dynamics365-menu.png)
 
 9.  Un administrateur ou un autre utilisateur peut limiter ou même bloquer l'accès de certains utilisateurs à l'environnement Sandbox. Ceci peut être effectué à l'aide des fonctions de sécurité standard du produit, telles que la fiche utilisateur, les groupes d'utilisateurs et les ensembles d'autorisations.

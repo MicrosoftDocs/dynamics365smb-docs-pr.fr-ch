@@ -1,6 +1,6 @@
 ---
 title: "Paramétrage des valeurs du champ proposées | Microsoft Docs"
-description: "Pour éviter des calculs manuels et effectuer les tâches rapidement et précisément, vous pouvez configurer la saisie automatisée de données afin que Dynamics 365 renseigne les champs sélectionnés."
+description: "Pour éviter des calculs manuels et effectuer les tâches rapidement et précisément, vous pouvez configurer la saisie automatisée de données afin que Finance and Operations, Business edition renseigne les champs sélectionnés."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,13 +10,13 @@ ms.workload: na
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 26a66f87f85cac1ff6f6ba6eb4cb90527565f236
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e9134b3d5fc62fb510b27db5fcbaa71e54b2b97a
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="letting-included365finlongincludesd365finlongmdmd-suggest-values"></a>Laisser [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] suggérer des valeurs
+# <a name="letting-included365finincludesd365finmdmd-suggest-values"></a>Laisser [!INCLUDE[d365fin](includes/d365fin_md.md)] suggérer des valeurs
 [!INCLUDE[d365fin](includes/d365fin_md.md)] peut vous aider à effectuer ces tâches plus rapidement et précisément en préremplissant les champs ou en complétant les lignes avec des données que vous devriez sinon calculer et saisir vous-même. Bien qu'une telle saisie de données automatisée soit toujours correcte, vous pouvez la modifier par la suite si vous le souhaitez.
 
 La fonctionnalité qui saisit les valeurs de champ pour vous est en général proposée pour les tâches qui demandent la saisie de volumes importants de données transactionnelles et pour lesquelles vous souhaitez éviter les erreurs et gagner du temps. Cette rubrique contient une sélection de ces fonctionnalités. Davantage de sections seront ajoutées dans les prochaines mises à jour de [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -32,7 +32,7 @@ Lorsque, par exemple, vous saisissez des lignes feuille comptabilité pour plusi
 Pour plus d'informations sur la procédure permettant de configurer un nom de feuille comptabilité personnel, par exemple pour la gestion des frais, reportez-vous à [Utilisation des feuilles comptabilité](ui-work-general-journals.md).
 
 ## <a name="the-automatically-fill-date-received-field-in-the-payment-registration-window"></a>Le champ **Renseigner automatiquement la date de réception** de la fenêtre **Enregistrement de paiement**
-La fenêtre **Enregistrement de paiement** affiche les arriérés de paiement entrants sous la forme de lignes représentant les documents vente pour lesquels un montant doit être payé. Pour plus d'informations sur le lettrage des paiements client, reportez-vous à [Procédure : rapprocher les paiements client manuellement à partir de la liste des documents vente échus](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md).
+La fenêtre **Enregistrement de paiement** affiche les arriérés de paiement entrants sous la forme de lignes représentant les documents vente pour lesquels un montant doit être payé. Pour plus d'informations sur le lettrage des paiements client, reportez-vous à [Rapprocher les paiements client manuellement à partir de la liste des documents vente échus](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md).
 
 Vos tâches principales dans cette fenêtre consistent à cocher la case **Paiement effectué** et à renseigner le champ **Date de réception**. Vous pouvez définir [!INCLUDE[d365fin](includes/d365fin_md.md)] de sorte à saisir automatiquement la date de travail dans le champ **Date de réception** lorsque vous cochez la case **Paiement effectué**.
 
@@ -42,6 +42,6 @@ Vos tâches principales dans cette fenêtre consistent à cocher la case **Paiem
 3. Ouvrez la fenêtre **Enregistrement de paiement** et commencer à traiter les paiements client entrants à l'aide de la fonctionnalité décrite pour la saisie automatique d'une valeur de champ.
 
 ## <a name="see-also"></a>Voir aussi
-[Utilisation de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Finances](finance.md)
 

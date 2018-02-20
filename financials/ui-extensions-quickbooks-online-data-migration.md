@@ -1,6 +1,6 @@
 ---
 title: Utilisation de l'extension QuickBooks Data Migration | Microsoft Docs
-description: "Décrit comment utiliser l'extension pour migrer des clients, des fournisseurs, des articles, et des comptes de QuickBooks Online à Dynamics 365."
+description: "Décrit comment utiliser l'extension pour migrer des clients, des fournisseurs, des articles, et des comptes de QuickBooks Online dans Finance and Operations, Business edition."
 author: bholtorf
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,14 +11,14 @@ ms. search.keywords: extension, migrate, data, QuickBooks, import
 ms.date: 05/24/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: e73db91a37fd5aee249de032d231df2c5e36b4ba
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 8ed245276a6bebd369a3ec32791a9939e8db5aa1
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="the-quickbooks-online-data-migration-extension-for-dynamics-365-business-edition"></a>Extension QuickBooks Online Data Migration pour Dynamics 365 Business edition
+# <a name="the-quickbooks-online-data-migration-extension-for-finance-and-operations-business-edition"></a>L'extension QuickBooks Online Data Migration pour Finance and Operations, Business edition
 Cette extension est incluse dans le guide d'installation facilité **Migration des données** pour vous aider à migrer les données métier pertinentes de QuickBooks Online vers [!INCLUDE[d365fin](includes/d365fin_md.md)]. Par exemple, c'est utile si votre activité se développe, et que vous avez décidé de mettre à niveau votre application de gestion d'entreprise en commençant à utiliser [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## <a name="what-data-can-i-import-from-quickbooks-online"></a>Quelles données puis-je importer de QuickBooks Online ?
@@ -44,7 +44,7 @@ Une grande partie du processus de migration consiste à spécifier les comptes v
 * L'achat d'articles ou de service auprès d'un fournisseur.  
 * Ajustements des écritures comptables.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] nécessite que les comptes généraux aient des numéros de compte. S'assurer que les numéros de compte sont affectés aux comptes dans QuickBooks Online.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  nécessite que les comptes généraux aient des numéros de compte. S'assurer que les numéros de compte sont affectés aux comptes dans QuickBooks Online.
 
 Si les transactions de QuickBooks Online ont des montants de taxe, vous devez créer un compte taxes pour vos administrations fiscales dans [!INCLUDE[d365fin](includes/d365fin_md.md)] avant de pouvoir valider des transactions.
 

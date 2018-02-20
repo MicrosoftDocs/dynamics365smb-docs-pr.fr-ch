@@ -13,10 +13,10 @@ ms.search.keywords: general ledger, transfer, cost entries
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9f1c3573137d7cd15c8b98813da514f8b8f2e1cd
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d479727b8d0cbb4b4ec9f127136f4e0578b8afb7
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="results-of-transferring-general-ledger-entries-to-cost-entries"></a>Résultats du transfert des écritures comptables vers les écritures de coûts
@@ -38,7 +38,7 @@ Pour les écritures de coûts uniques, [!INCLUDE[d365fin](includes/d365fin_md.md
 Dans la table **Registre de coûts**, [!INCLUDE[d365fin](includes/d365fin_md.md)] crée une écriture à l'aide du transfert source depuis la comptabilité. L'écriture enregistre le premier et le dernier numéros des écritures comptables transférées, outre le premier et le dernier numéros des écritures de coûts créées.  
 
 ## <a name="see-also"></a>Voir aussi  
-[Comment transférer les écritures comptables vers les écritures de coûts](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md)   
+[Transférer les écritures comptables vers les écritures de coûts](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md)   
 [Critères de transfert des écritures comptables vers les écritures de coûts](finance-criteria-for-transferring-general-ledger-entries-to-cost-entries.md)   
 [Transfert automatique et écritures combinées](finance-automatic-transfer-combined-entries.md)   
 [Transfert et validation des écritures de coûts](finance-transfer-and-post-cost-entries.md)  

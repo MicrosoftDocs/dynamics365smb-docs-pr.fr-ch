@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/31/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 34960041320f595b504c9f16913db07c1dd3f053
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3e6ab403945df0f3c98ab1d47eefa0633f0172e3
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-receive-items"></a>Procédure : réceptionner des articles
+# <a name="receive-items"></a>Réceptionner des articles
 Lorsque les articles arrivent dans un entrepôt qui n'est pas configuré pour un traitement de réception entrepôt, enregistrez simplement la réception du document d'entreprise associé, comme une commande achat, un retour vente ou un ordre de transfert entrant.
 
 Lorsque les articles arrivent dans un entrepôt configuré pour appeler un traitement de réception entrepôt, vous devez extraire les lignes du document origine lancé ayant déclenché leur réception. En présence d'emplacements, vous pouvez soit accepter l'emplacement par défaut qui est renseigné, soit renseigner l'emplacement de rangement de l'article concerné si cet article n'a jamais été utilisé dans l'entrepôt. Vous devez ensuite renseigner les quantités d'articles reçus et valider la réception.  
@@ -27,7 +27,7 @@ Lorsque les articles arrivent dans un entrepôt configuré pour appeler un trait
 ## <a name="to-receive-items-with-a-purchase-order"></a>Pour recevoir des articles avec une commande achat
 Ce qui suit décrit comment recevoir des articles avec une commande achat. Les étapes sont similaires pour les retours vente et les ordres de transfert.  
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Commandes achat**, puis sélectionnez le lien connexe.
-2. Ouvrez une commande achat existante, ou créez-en une nouvelle. Pour plus d'informations, reportez-vous à [Procédure : enregistrer des achats](purchasing-how-record-purchases.md).
+2. Ouvrez une commande achat existante, ou créez-en une nouvelle. Pour plus d'informations, voir [Enregistrer des achats](purchasing-how-record-purchases.md).
 3. Dans le champ **Qté à recevoir**, indiquez la quantité reçue.
 
     La valeur du champ **Qté reçue** est mise à jour en conséquence. Si c'est une réception partielle, la valeur est inférieure à la valeur dans le champ **Quantité**.

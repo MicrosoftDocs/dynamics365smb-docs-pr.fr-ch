@@ -13,18 +13,18 @@ ms.search.keywords: supplier
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 82089770524e6fb6614f86cada7c5792bedf162f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 73d23013c97189caf5c75f561896b965dfb64837
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-register-new-vendors"></a>Procédure : enregistrer de nouveaux fournisseurs
+# <a name="register-new-vendors"></a>Enregistrer un nouveau fournisseur
 Les fournisseurs fournissent les produits que vous vendez. Chaque fournisseur à qui vous achetez des biens doit être enregistré en tant que fiche fournisseur.
 
 Avant de pouvoir enregistrer de nouveaux fournisseurs, vous devez configurer divers codes achat que vous pouvez sélectionner lorsque vous renseignez les fiches fournisseur. Lorsque toutes les données de base requises sont créées, vous pouvez configurer des éléments supplémentaires sur le fournisseur, comme par exemple attribuer une priorité au fournisseur à des fins de paiement et répertorier les articles que les fournisseurs peuvent fournir. Un autre groupe de tâches de configuration consiste à enregistrer vos accords concernant les remises, les prix et les modes de règlement. Pour plus d'informations, reportez-vous à [Définition des achats](purchasing-setup-purchasing.md).
 
-Les fiches fournisseur contiennent les informations requises pour acheter des produits au fournisseur. Pour plus d'informations, reportez-vous à [Procédure : enregistrer des achats](purchasing-how-record-purchases.md) et à [Procédure : enregistrer de nouveaux articles](inventory-how-register-new-items.md).
+Les fiches fournisseur contiennent les informations requises pour acheter des produits au fournisseur. Pour plus d'informations, voir [Enregistrer des achats](purchasing-how-record-purchases.md) et [Enregistrer de nouveaux articles](inventory-how-register-new-items.md).
 
 > [!NOTE]  
 >   Si des modèles fournisseur existent pour différents types de fournisseurs, une fenêtre s'affiche lorsque vous créez une fiche fournisseur à partir de laquelle vous pouvez sélectionner un modèle approprié. Si un seul modèle fournisseur existe, les nouvelles fiches fournisseur utiliseront toujours ce modèle.
@@ -55,6 +55,6 @@ Si vous souhaitez utiliser cette fiche fournisseur comme modèle lorsque vous cr
 
 ## <a name="see-also"></a>Voir aussi
 [Achats](purchasing-manage-purchasing.md)  
-[Procédure : enregistrer des achats](purchasing-how-record-purchases.md)   
+[Enregistrer des achats](purchasing-how-record-purchases.md)   
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

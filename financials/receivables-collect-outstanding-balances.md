@@ -11,13 +11,13 @@ ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c0e028d84d868c7aca597ee007a038ccf3fa61a2
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 310cad43853f347ac7ab74e186edd82e7c54727e
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-collect-outstanding-balances"></a>Procédure : collecte des soldes restants
+# <a name="collect-outstanding-balances"></a>Collecte des soldes restants
 La gestion des clients comprend le contrôle du règlement des montants à temps. Si des clients ont des paiements dus, vous pouvez commencer par envoyer l'état du Relevé client comme relance. Sinon, vous pouvez émettre de relances.
 
 Vous pouvez utiliser des relances pour rappeler aux clients les soldes échus. Vous pouvez également utiliser les relances pour calculer les intérêts de retard tels que les intérêts ou les frais et les inclure dans la relance. Utilisez les factures d'intérêts pour débiter des clients d'intérêts ou de frais sans leur rappeler les montants échus.  
@@ -98,7 +98,7 @@ Si vous créez plus de relances qu'il n'y a de niveaux relance, les conditions u
 
 Par exemple, si vous saisissez **Vous devez %9 %7 dus au %2.**, la relance résultante contiendra le texte suivant : **Vous devez 1 200,50 DS dus au 02022014**.
 
-Si vous avez configuré les conditions relance (avec des niveaux et du texte supplémentaires), saisissez l'un des codes sur chaque fiche client. Pour plus d'informations, reportez vous à [Procédure : enregistrer de nouveaux clients](sales-how-register-new-customers.md).
+Si vous avez configuré les conditions relance (avec des niveaux et du texte supplémentaires), saisissez l'un des codes sur chaque fiche client. Pour plus d'informations, reportez vous à [Enregistrer de nouveaux clients](sales-how-register-new-customers.md).
 
 ## <a name="to-create-a-reminder-automatically"></a>Pour créer automatiquement une relance
 Une relance est identique à une facture. Lorsque vous créez une relance, un en-tête relance, ainsi qu'une ou plusieurs lignes relance, doivent être renseignés. Vous pouvez utiliser une fonction pour créer des relances pour tous les clients automatiquement.

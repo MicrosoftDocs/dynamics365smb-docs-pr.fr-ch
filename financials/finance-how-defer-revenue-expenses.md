@@ -10,22 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 06/16/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 40db0f3018bcf9575f80aa858bd9febd7bf0846a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7b7b4ce9d2f464d6e2793a21fa5b321846ba9498
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-defer-revenues-and-expenses"></a>Procédure : Échelonner les recettes et les dépenses
+# <a name="defer-revenues-and-expenses"></a>Echelonner les recettes et les dépenses
 Pour identifier une recette ou une dépense dans une période autre que la période de validation de la transaction, vous pouvez utiliser la fonctionnalité pour échelonner automatiquement les recettes et les dépenses selon un calendrier précis.
 
 Pour répartir les recettes et les dépenses sur les périodes comptables concernées, configurez un modèle d'échelonnement pour la ressource, l'article ou le compte général pour lequel/laquelle les recettes ou les dépenses seront validées. Lorsque vous validez le document vente ou achat concerné, les recettes ou les dépenses sont échelonnées sur les périodes comptables concernées, selon un tableau d'échelonnement régi par des paramètres dans le modèle d'échelonnement et la date de validation.
-
-> [!NOTE]  
->   Cette fonctionnalité nécessite que votre expérience soit définie sur **Suite**. Pour plus d'informations, voir [Personnalisation de votre expérience [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
 
 ## <a name="to-set-up-a-gl-account-for-deferral"></a>Pour configurer un compte général pour échelonnement
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Plan comptable**, puis sélectionnez le lien connexe.
@@ -66,7 +63,7 @@ Exemple : la date de comptabilisation est le 06/02/2016. Si vous saisissez « 
 >   Les étapes de cette procédure sont identiques lorsque vous modifiez un calendrier d'échelonnement, pour les dépenses, à partir d'une facture achat.
 
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Factures vente**, puis sélectionnez le lien connexe.
-2. Créez une facture vente pour un article ayant un modèle d'échelonnement attribué. Pour plus d'informations, reportez-vous à [Procédure : facturer des ventes](sales-how-invoice-sales.md).
+2. Créez une facture vente pour un article ayant un modèle d'échelonnement attribué. Pour plus d'informations, reportez-vous à [Facturer des ventes](sales-how-invoice-sales.md).
 
     Notez que dès que vous saisissez l'article (ou la ressource ou le compte général) sur la ligne de facture, le champ **Code d'échelonnement** est complété avec le code du modèle d'échelonnement attribué.
 3. Sélectionnez l'action **Tableau d'échelonnement**.

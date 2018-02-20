@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 29e4380312724b08a7e250a65288d75d27444df0
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 045cabbaab1b7978402524f408caee87ce8e53e2
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="invoicing-prepayments"></a>Facturation d'acomptes
@@ -28,9 +28,9 @@ Les acomptes sont des paiements qui sont facturés et validés dans une commande
 
 |**Pour**|**Voir**|  
 |------------|-------------|  
-|Configurer les groupes de validation d'acompte et les souches de numéros, et configurer les pourcentages d'acompte par défaut pour les clients, fournisseurs et articles.|[Procédure : Configurer des acomptes](finance-set-up-prepayments.md)|
-|Créer une commande, ajuster des montants acompte et émettre une facture pour les montants acompte.|[Procédure : créer des factures d'acompte](finance-how-to-create-prepayment-invoices.md)|  
-|Émettre une facture acompte supplémentaire, pour des articles supplémentaires ou pour un acompte supplémentaire dans la commande originale, ou émettre un avoir acompte.|[Procédure : corriger des acomptes](finance-how-to-correct-prepayments.md)|  
+|Configurer les groupes de validation d'acompte et les souches de numéros, et configurer les pourcentages d'acompte par défaut pour les clients, fournisseurs et articles.|[Configuration des acomptes](finance-set-up-prepayments.md)|
+|Créer une commande, ajuster des montants acompte et émettre une facture pour les montants acompte.|[Créer des factures d'acompte](finance-how-to-create-prepayment-invoices.md)|  
+|Émettre une facture acompte supplémentaire, pour des articles supplémentaires ou pour un acompte supplémentaire dans la commande originale, ou émettre un avoir acompte.|[Corriger des acomptes](finance-how-to-correct-prepayments.md)|  
 
 ## <a name="see-also"></a>Voir aussi  
 [Procédure pas à pas : configuration et facturation d'acomptes](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

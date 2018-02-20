@@ -13,10 +13,10 @@ ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.date: 08/15/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: de6cbcdc8e7ca4aff06461192e2038831ba6b5b3
-ms.openlocfilehash: 973c42642f88024de9d8924b675496015ce60983
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4b4fde6f005c992b63856ec4afadbb689532ac16
 ms.contentlocale: fr-ch
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="how-to-set-up-and-report-intrastat"></a>Procédure : configurer et enregistrer un état intracommunautaire
@@ -44,7 +44,7 @@ Vous pouvez exporter les écritures vers un fichier que vous pouvez envoyer à v
 >  [!Note]
 > Nous vous recommandons de configurer un seul lot de feuilles intracommunautaires par mois.  
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Modèles feuille intracomm.**, puis sélectionnez le lien connexe.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Modèles feuille intracomm.**, puis sélectionnez le lien connexe.  
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Créez un modèle pour chaque formulaire de D.E.B que vous utilisez.  
 3. Pour créer des feuilles, choisissez l'onglet **Naviguer**, puis choisissez **Noms feuilles**.  
 4. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Créez un modèle pour chaque formulaire de D.E.B que vous utilisez.  
@@ -74,7 +74,7 @@ Tous les articles que vous achetez ou vendez doivent avoir un code marchandise.
 Après avoir renseigné la feuille intracommunautaire, vous pouvez imprimer l'état **Liste de contrôle** pour vérifier que toutes les informations de la feuille sont correctes. Ensuite, vous pouvez imprimer un état intracommunautaire en tant que formulaire, ou créer un fichier à envoyer à l'administration fiscale de votre pays/région.  
 
 ### <a name="to-fill-in-intrastat-journals"></a>Pour renseigner des feuilles intracommunautaires  
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille intracomm.**, puis sélectionnez le lien connexe.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Feuille intracomm.**, puis sélectionnez le lien connexe.  
 2. Sur la page **Feuille intracomm.**, dans le champ **Nom de la feuille**, sélectionnez la feuille concernée, puis sélectionnez **OK**.  
 3. Choisissez l'action **Proposer lignes**. Les champs **Date début** et **Date fin** contiennent déjà les dates spécifiées sur la feuille pour la période statistique.  
 4. Dans le champ **% régulation coût**, entrez un pourcentage pour couvrir le transport et l'assurance. Lorsque vous saisissez un pourcentage, la valeur du champ **Valeur statistique** de la feuille augmente proportionnellement.  
@@ -85,7 +85,7 @@ Le traitement par lots récupère toutes les écritures article de la période s
 > [!IMPORTANT]  
 >  Le traitement par lots récupère uniquement les écritures qui contiennent un code pays/région pour lequel un code intracommunautaire a été entré dans la page **Pays/Régions**. Vous devez donc entrer les codes intracommunautaires correspondant aux codes pays pour lesquels vous allez lancer le traitement par lots.  
 
-### <a name="how-to-report-intrastat-on-a-form-or-a-file"></a>Procédure : enregistrer un état intracommunautaire sur un formulaire ou un fichier
+### <a name="report-intrastat-on-a-form-or-a-file"></a>Enregistrer un état intracommunautaire sur un formulaire ou un fichier
 Pour obtenir les informations requises sur le formulaire de D.E.B. à partir des autorités statistiques, vous devez imprimer l'état **D.E.B. : Formulaire**. Avant d'effectuer cette opération, vous devez préparer la feuille intracommunautaire et la renseigner. Si vous avez à la fois des transactions d'achat et de vente, vous devez compléter un formulaire distinct pour chaque type et donc imprimer l'état deux fois.  
 
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille intracomm.**, puis sélectionnez le lien connexe.  
@@ -95,7 +95,7 @@ Pour obtenir les informations requises sur le formulaire de D.E.B. à partir des
 5. Sur le raccourci **Ligne feuille intracomm.**, ajoutez un filtre **Type**, puis spécifiez s'il s'agit d'une **Réception** ou d'une **Expédition**.  
 6. Choisissez **Envoyer à** pour imprimer l'état.  
 
-### <a name="how-to-report-intrastat-in-a-file"></a>Procédure : enregistrer un état intracommunautaire sur un fichier
+### <a name="report-intrastat-in-a-file"></a>Enregistrer un état intracommunautaire sur un fichier
 Vous pouvez envoyer la déclaration d'échanges de biens en tant que fichier. Avant de créer le fichier, vous pouvez imprimer la liste de contrôle contenant les mêmes informations que le fichier.  
 
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille intracomm.**, puis sélectionnez le lien connexe.  
@@ -106,15 +106,13 @@ Vous pouvez envoyer la déclaration d'échanges de biens en tant que fichier. Av
 6. Choisissez **Enregistrer**.  
 7. Sélectionnez l'emplacement d'enregistrement du fichier, entrez son nom, puis choisissez **Enregistrer**.
 
-## <a name="how-to-reorganize-intrastat-journals"></a>Procédure : réorganisation des feuilles intracommunautaires
+## <a name="reorganize-intrastat-journals"></a>Réorganiser les feuilles intracommunautaires
 Parce que vous devez soumettre une D.E.B. chaque mois et créer une feuille pour chaque état, il peut donc exister de nombreuses feuilles. Les lignes feuille ne sont pas supprimées automatiquement. Vous pouvez réorganiser régulièrement les feuilles. Pour cela, il suffit de supprimer les feuilles dont vous n'avez plus besoin. Les lignes de ces feuilles sont également supprimées.  
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille intracomm.**, puis sélectionnez le lien connexe.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Feuille intracomm.**, puis sélectionnez le lien connexe.  
 2. Pour afficher les options, choisissez le champ **Nom de la feuille**.  
 3. Cliquez sur les feuilles à supprimer, puis choisissez **Supprimer**.  
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion financière](finance.md)
-
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 

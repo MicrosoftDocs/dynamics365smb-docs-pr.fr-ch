@@ -9,16 +9,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 08/24/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 000a27efed9ff6c20cffd470e1d5dda0b9387bb6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 68f1af1ec5662e2c13b2695f8b1291734bf9450e
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-use-approval-workflows"></a>Procédure : utilisation des flux d'approbation
+# <a name="use-approval-workflows"></a>Utilisation des flux d'approbation
 Lorsqu'un enregistrement, tel qu'un document achat ou une fiche client, doit être approuvé par un membre de votre organisation, vous envoyez une approbation demande achat dans le cadre d'un workflow. Selon la configuration du workflow, l'approbateur approprié est informé que l'enregistrement requiert son approbation.
 
 Vous configurez les flux d'approbation dans la fenêtre **Flux de travail**. Pour plus d'informations, reportez-vous à [Paramétrage des workflows](across-set-up-workflows.md).
@@ -26,9 +26,6 @@ Vous configurez les flux d'approbation dans la fenêtre **Flux de travail**. Pou
 Outre les flux de travail approbation décrits dans cette rubrique, vous pouvez effectuer diverses autres tâches de flux de travail. Pour plus d'informations, voir [Utilisation des workflows](across-use-workflows.md).
 
 Les flux d'approbation de base pour les documents achat, les documents vente, les feuilles paiement, les fiches client et les fiches article sont prêts à être utilisés dans le cadre de la configuration assistée. Pour en savoir plus, voir [Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md).
-
-> [!NOTE]  
->   Cette fonctionnalité nécessite que votre expérience soit définie sur **Suite**. Pour plus d'informations, voir [Personnalisation de votre expérience [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
 
 ## <a name="to-request-approval-of-a-record"></a>Faire une demande d'approbation d'un enregistrement
 La tâche suivante est effectuée par un utilisateur d'approbation.

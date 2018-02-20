@@ -13,13 +13,13 @@ ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, 
 ms.date: 08/22/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 708569e88d443f1dc4f1d17d8015da98cf186e6d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 87a18af2c88955d4d0b78eb37fea161e3332c4b3
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-configure-service-processes"></a>Procédure : configurer des processus de service
+# <a name="configure-service-processes"></a>Configuration des processus de service
 Voici quelques exemples des paramètres que vous pouvez appliquer aux processus de gestion des services :  
   
 * Certains paramètres généraux pour différents processus, comme les avertissements, les calculs de service suivants pour les articles de service, les frais de démarrage à évaluer, le niveau de reporting panne à utiliser, etc.  
@@ -33,10 +33,10 @@ Voici quelques exemples des paramètres que vous pouvez appliquer aux processus 
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="see-also"></a>Voir aussi  
-[Procédure : configurer le reporting panne](service-how-setup-fault-reporting.md)  
-[Procédure : configurer l'affectation des ressources](service-how-setup-resource-allocation.md)  
-[Procédure : configurer des codes prestations standard](service-how-setup-service-coding.md)  
-[Procédure : configurer des frais supplémentaires pour les services](service-how-setup-service-costs-pricing.md)  
-[Procédure : configurer les processus incident](service-how-setup-troubleshooting.md)  
+[Configurer le reporting panne](service-how-setup-fault-reporting.md)  
+[Configurer l'affectation des ressources](service-how-setup-resource-allocation.md)  
+[Configurer des codes prestations standards](service-how-setup-service-coding.md)  
+[Configurer des frais supplémentaires pour les services](service-how-setup-service-costs-pricing.md)  
+[Configurer les processus incident](service-how-setup-troubleshooting.md)  
 [Gestion des services](service-service.md)  
 

@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: da5928be8280bad2eac379a5f0e5b19ddc2d12bc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d2820513ec95c43464979effd85d5113359886ef
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-restructure-warehouses"></a>Procédure : restructurer les entrepôts
+# <a name="restructure-warehouses"></a>Restructurer les entrepôts
 Vous pouvez souhaiter restructurer votre entrepôt avec de nouveaux codes et caractéristiques emplacement. Ce type d'activité n'intervient que très rarement, mais un reclassement peut s'avérer nécessaire pour mettre à jour une opération ou la rendre plus efficace. Par exemple :  
 
 - Vous pouvez être amené à créer des codes emplacement prenant en charge l'utilisation de la saisie automatisée avec des terminaux de saisie portables.  
@@ -45,12 +45,12 @@ Vous avez à présent vidé les emplacements où les articles se trouvaient aupa
 
 ## <a name="to-restructure-an-advanced-warehouse-that-uses-directed-put-away-and-pick"></a>Pour restructurer un entrepôt avancé qui utilise le prélèvement et le rangement suggérés  
 
-1.  Créez les emplacements à utiliser ultérieurement. Pour plus d'informations, voir [Procédure : créer des emplacements](warehouse-how-to-create-individual-bins.md).  
+1.  Créez les emplacements à utiliser ultérieurement. Pour plus d'informations, voir [Créer emplacements](warehouse-how-to-create-individual-bins.md).  
 2.  Déplacez le contenu des emplacements actuels vers les emplacements que vous venez de créer.  
 
     1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuilles reclassement entrepôt**, puis sélectionnez le lien connexe.  
     2.  Pour les emplacements sans mouvement réel d'articles, créez une ligne pour chacun de vos emplacements actuels dans la **feuille reclassement entrepôt** avec l'ancien code emplacement , **Du code emplacement**, et le nouveau code emplacement , **Du code emplacement**.  
-    3.  Si certains mouvements nécessitent des mouvements physiques réels de la part des employés, utilisez les **feuilles mouvements** pour préparer les instructions mouvement au lieu d'utiliser la feuille reclassement entrepôt. Pour plus d'informations, voir [Procédure : déplacer des articles dans les configurations de stockage avancées](warehouse-how-to-move-items-in-advanced-warehousing.md).  
+    3.  Si certains mouvements nécessitent des mouvements physiques réels de la part des employés, utilisez les **feuilles mouvements** pour préparer les instructions mouvement au lieu d'utiliser la feuille reclassement entrepôt. Pour plus d'informations, voir [Déplacer des articles dans les configurations de stockage avancées](warehouse-how-to-move-items-in-advanced-warehousing.md).  
 
 3.  Lorsque les anciens emplacements sont vidés, reclassez-les en tant qu'emplacements de type **CQ** pour vous assurer qu'ils ne sont pas inclus dans les flux d'articles.  
 
@@ -58,7 +58,7 @@ Vous avez à présent vidé les emplacements où les articles se trouvaient aupa
     2.  Sélectionnez la ligne indiquant l'emplacement, puis, sous l'onglet Naviguer, choisissez l'action **Emplacements**.  
     3.  Dans la fenêtre **Emplacements**, dans le champ **Code type emplacement**, entrez **CQ** pour chacun des anciens emplacements que vous avez vidés à l'étape 3 de la procédure précédente.  
 
-Vous avez à présent supprimé les emplacements du flux entrepôt et les avez reclassés en tant qu'emplacements de type CQ. Pour les emplacements de ce type, aucun des champs d'activité de la fenêtre **Types d'emplacement** n'est sélectionné, par conséquent ils ne sont pas pris en compte par le flux d'articles. Pour plus d'informations, reportez-vous à [Procédure : configurer des types d'emplacement](warehouse-how-to-set-up-bin-types.md).  
+Vous avez à présent supprimé les emplacements du flux entrepôt et les avez reclassés en tant qu'emplacements de type CQ. Pour les emplacements de ce type, aucun des champs d'activité de la fenêtre **Types d'emplacement** n'est sélectionné, par conséquent ils ne sont pas pris en compte par le flux d'articles. Pour plus d'informations, voir [Configurer des types d'emplacement](warehouse-how-to-set-up-bin-types.md).  
 
 ## <a name="to-delete-a-bin"></a>Pour supprimer un emplacement  
 

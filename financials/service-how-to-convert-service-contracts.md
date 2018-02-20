@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 148a566473e4964db3cbc6ee266eccb6b6c6aaa7
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 29023e68808935b49aba663d994bac756d037615
 ms.contentlocale: fr-ch
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-convert-service-contracts-that-include-vat-amounts"></a>Procédure : convertir les contrats de service incluant des montants TVA
+# <a name="convert-service-contracts-that-include-vat-amounts"></a>Convertir les contrats de service incluant des montants TVA
 Étant donné que l'outil de modification du taux de TVA ne peut pas convertir les contrats de service, ces derniers doivent être convertis manuellement. Cette rubrique décrit plusieurs autres méthodes pour convertir les contrats de service.  
 
 > [!NOTE]  
@@ -56,7 +56,7 @@ La procédure suivante indique comment créer des contrats en utilisant leurs da
 ### <a name="to-create-a-new-credit-memo"></a>Pour créer un avoir  
 La procédure suivante décrit comment créer un avoir à l'aide du traitement par lots **Obtenir écr. contrat prépayé**. Les écritures que vous ne souhaitez pas corriger de janvier 2017 à juin 2017 seront supprimées.  
 
-1. Exécutez l'outil de modification du taux de TVA au 1er juillet 2017. Le groupe de comptabilisation du produit général ou le groupe de comptabilisation du produit TVA est modifié. Pour plus d'informations, voir [Procédure : utiliser la TVA sur les ventes et les achats](finance-work-with-vat.md).  
+1. Exécutez l'outil de modification du taux de TVA au 1er juillet 2017. Le groupe de comptabilisation du produit général ou le groupe de comptabilisation du produit TVA est modifié. Pour plus d'informations, voir [Utiliser la TVA sur les ventes et les achats](finance-work-with-vat.md).  
 2. Après avoir exécuté l'outil de modification du taux de TVA, saisissez une date d'expiration pour le contrat de service. Vous pouvez désormais supprimer la ligne du contrat de service et en créer une qui soit identique à la précédente.  
 3. Créez une facture pour la période s'échelonnant de janvier 2017 à décembre 2012 avec le nouveau taux de TVA.  
 4. Pour créer un autre avoir, dans la fenêtre **Avoirs service**, choisissez **Nouveau** pour créer un avoir de service.  
@@ -64,8 +64,8 @@ La procédure suivante décrit comment créer un avoir à l'aide du traitement p
 6. Une fois la conversion terminée, les écritures comptables de TVA et de service seront correctes.  
 
 ## <a name="see-also"></a>Voir aussi  
-[Procédure : utiliser des contrats de service et des devis contrat de service](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
+[Utiliser des contrats de service et des devis contrat de service](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Finances](finance.md)  
-[Procédure : Déclarer la TVA aux autorités fiscales](finance-how-report-vat.md)  
-[Procédure : utiliser la TVA sur les ventes et les achats](finance-work-with-vat.md)  
+[Déclarer la TVA aux autorités fiscales](finance-how-report-vat.md)  
+[Utiliser la TVA sur les ventes et les achats](finance-work-with-vat.md)  
 

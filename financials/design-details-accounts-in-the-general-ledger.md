@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: a9d313a4fee3dedf74cc2f0c635516397e26d8ef
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-accounts-in-the-general-ledger"></a>Détails de conception : comptes de la comptabilité
@@ -96,7 +96,7 @@ Le tableau suivant montre la manière dont les montants à valider en comptabili
 |Coût prévu|Coût total (prévu) - Coût prévu validé en comptabilité|  
 
 ## <a name="see-also"></a>Voir aussi  
- [Détails de conception : stock évaluation stock](design-details-inventory-costing.md)   
+ [Détails de conception : évaluation stock](design-details-inventory-costing.md)   
  [Détails de conception : comptabilisation stock](design-details-inventory-posting.md)   
  [Détails de conception : validation du coût prévu](design-details-expected-cost-posting.md)  
  [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  

@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6dc45cfcff07bfb36f363121298cd0f68b9ce7fe
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b679c2762c67c6d78bcc6be293e6aabde4a58848
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Utiliser des files d'attente des travaux pour planifier des tâches
@@ -25,7 +25,7 @@ La fenêtre **Écritures file d'attente des travaux** répertorie tous les proje
 
 Vous pouvez éventuellement définir un filtre dans le champ **Filtre catégorie de la file d'attente des travaux**. Les catégories de file d'attente des travaux peuvent être utilisées pour regrouper les projets de la liste.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] exécute automatiquement les projets selon le planning spécifié pour chaque écriture file d'attente des travaux. Vous pouvez également démarrer, arrêter et mettre en attente manuellement une écriture file d'attente des travaux.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  exécute automatiquement les projets selon le planning spécifié pour chaque écriture file d'attente des travaux. Vous pouvez également démarrer, arrêter et mettre en attente manuellement une écriture file d'attente des travaux.
 
 ### <a name="log-files"></a>Fichiers journaux
 Les erreurs sont répertoriées dans la fenêtre **Écritures journal file d'attente des travaux** qui est accessible à partir du ruban. Vous pouvez également résoudre les erreurs de la file d'attente des travaux. Les données générées lors de l'exécution d'une file d'attente des travaux sont stockées dans la base de données.  
@@ -35,7 +35,7 @@ Les files d'attente des travaux sont un outil efficace pour planifier le travail
 
  Sinon, vous pouvez planifier des validations à des heures pratiques pour votre organisation. Par exemple, il peut sembler raisonnable dans votre activité d'exécuter certaines routines lorsque la plupart de la saisie de données de la journée est achevée. Vous pouvez obtenir cette opération en configurant la file projets pour exécuter différents états de validation par lots, par exemple, **TPL valider commandes vente**, **TPL valider factures vente**et les états **TPL valider avoirs vente**.  
 
- [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge la validation en arrière\-plan pour les types de document suivants :  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)]  prend en charge la validation en arrière\-plan pour les types de document suivants :  
 
 -   Ventes : commande, retour, avoir et facture vente  
 
@@ -52,7 +52,7 @@ Vous définissez cette utilisation de la file d'attente des travaux dans la fen�
 >  Si vous paramétrez un projet qui valide et imprime des documents et que l'imprimante affiche une boîte de dialogue, par exemple une demande d'informations d'identification ou un alerte à propos de la quantité faible d'encre, votre document est validé mais non imprimé. L'écriture file d'attente de travaux correspondante expire et la valeur du champ **Statut** devient **Erreur**. Par conséquent, nous vous recommandons de ne pas utiliser une configuration de l'imprimante nécessitant une interaction avec les boîtes de dialogue de l'imprimante relatives à la validation en arrière-plan.  
 
 ## <a name="use-the-my-job-queue-part"></a>Utiliser le composant Ma file d'attente des travaux
-Le composant **Ma file d'attente des travaux** répertorie les écritures files d'attente des travaux commencées par un utilisateur, mais qui ne sont pas terminées. Par défaut, le composant n'est pas visible et vous devez donc l'ajouter à votre tableau de bord. Pour plus d'informations, reportez-vous à [Procédure : modifier des tableaux de bord](change-role.md).  
+Le composant **Ma file d'attente des travaux** répertorie les écritures files d'attente des travaux commencées par un utilisateur, mais qui ne sont pas terminées. Par défaut, le composant n'est pas visible et vous devez donc l'ajouter à votre tableau de bord. Pour plus d'informations, reportez-vous à [Modifier des tableaux de bord](change-role.md).  
 
 Dans ce composant, vous pouvez visualiser les documents en cours de traitement ou en attente, pour lesquels votre ID est spécifié dans le champ **Code utilisateur affecté**. Le composant vous permet de suivre toutes les écritures de file projet, y compris celles liées à la validation en arrière-plan. Le composant peut vous indiquer rapidement s’il y a eu une erreur lors de la validation d’un document ou s’il existe des erreurs dans une écriture de file projet. Il vous permet également d'annuler une validation de document en cas de non exécution.  
 
@@ -68,6 +68,6 @@ Lorsqu'une file d'attente des travaux est activée manuellement, elle s'exécute
 L'enregistrement des écritures file d'attente des travaux possède plusieurs champs dont l'objectif est d'exécuter des paramètres dans un codeunit que vous avez indiqué comme devant être exécuté avec une file d'attente des travaux. Cela signifie également que les codeunits devant être exécutés via la file d'attente des travaux doivent être indiqués avec l'enregistrement des écritures file d'attente des travaux en tant que paramètre dans le déclencheur **OnRun**. Un niveau de sécurité supplémentaire est ainsi assuré, car les utilisateurs ne peuvent pas exécuter de codeunits aléatoires via la file d'attente des travaux. Si l'utilisateur doit transmettre des paramètres à un état, il n'a d'autre choix que celui d'inclure l'exécution de l'état dans un codeunit, lequel analyse ensuite les paramètres d'entrée et les intègre dans l'état avant de l'exécuter.  
 
 ## <a name="see-also"></a>Voir aussi  
-[Configuration et administration dans Dynamics 365 for Financials](admin-setup-and-administration.md)  
-[Configuration de Dynamics 365 for Financials](setup.md)  
+[Configuration et administration dans Finance and Operations, Business edition](admin-setup-and-administration.md)  
+[Configuration de Finance and Operations, Business edition](setup.md)  
 

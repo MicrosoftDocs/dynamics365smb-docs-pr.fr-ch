@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9b41bb902d8a2298f438233ca24c5a7bcf7f69d9
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5c802ee014df6c992a9e5b1e975f2cdc981e3a5a
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-items-and-locations-for-directed-put-away-and-pick"></a>Procédure : configurer des articles et des emplacements pour prélèvement et rangement suggérés
+# <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Configurer des articles et des emplacements pour prélèvement et rangement suggérés
 Lorsque vous configurez un entrepôt pour prélèvement et rangement suggérés, vous disposez de nouvelles fonctionnalités pour vous aider à exploiter l'entrepôt le plus efficacement possible. Afin de pouvoir utiliser pleinement cette fonctionnalité, vous devez fournir des informations supplémentaires concernant les articles, permettant ainsi d'exécuter les calculs nécessaires pour suggérer les méthodes les plus efficaces pour gérer les activités de l'entrepôt. Pour plus d'informations, reportez-vous à [Détails de conception : Paramètres entrepôt](design-details-warehouse-setup.md).
 
 ## <a name="to-set-up-an-item-for-directed-put-away-and-pick"></a>Pour configurer l'article pour prélèvement et rangement suggérés  
@@ -44,7 +44,7 @@ A ce stade de la configuration, il n'est pas nécessaire de renseigner d'autres 
 > [!NOTE]  
 >  Lorsque le magasin possède des écritures comptables article ouvertes, vous ne pouvez pas configurer l'entrepôt pour qu'il utilise des emplacements.  
 
-L'étape suivante consiste à définir le type d'emplacement que vous souhaitez exploiter. Pour plus d'informations, reportez-vous à [Procédure : configurer des types d'emplacement](warehouse-how-to-set-up-bin-types.md). Le type d'emplacement définit la manière d'utiliser un emplacement donné lors du traitement de la circulation des articles dans l'entrepôt. Vous pouvez affecter un type d'emplacement à une zone et à un emplacement.  
+L'étape suivante consiste à définir le type d'emplacement que vous souhaitez exploiter. Pour plus d'informations, voir [Configurer des types d'emplacement](warehouse-how-to-set-up-bin-types.md). Le type d'emplacement définit la manière d'utiliser un emplacement donné lors du traitement de la circulation des articles dans l'entrepôt. Vous pouvez affecter un type d'emplacement à une zone et à un emplacement.  
 
 Vous pouvez également définir des codes classe entrepôt si l'entrepôt comprend des articles nécessitant différentes conditions de stockage. Les codes classe entrepôt sont utilisés lors de la suggestion du placement des articles dans des emplacements. Vous affectez des codes classe entrepôt à des groupes de produits, qui sont ensuite affectés à des articles et des points de stock, ou à des zones et des emplacements qui prennent en charge les conditions de stockage requises par ces codes classe entrepôt.  
 
@@ -60,12 +60,12 @@ Lorsque vous modifiez le paramètre d'une zone, tous les emplacements créés pa
 > [!NOTE]  
 >  Si vous ne souhaitez pas utiliser de zones, vous devez néanmoins spécifier un code zone non défini, à l'exception du code.  
 
-L'étape suivante de configuration de l'entrepôt consiste à définir les emplacements. Pour plus d'informations, voir [Procédure : Comment configurer des magasins de sorte qu'ils utilisent des emplacements](warehouse-how-to-set-up-locations-to-use-bins.md).  
+L'étape suivante de configuration de l'entrepôt consiste à définir les emplacements. Pour plus d'informations, voir [Comment configurer des magasins de sorte qu'ils utilisent des emplacements](warehouse-how-to-set-up-locations-to-use-bins.md).  
 
-En outre, vous devez créer des modèles et les périodes d'inventaire de rangement. Pour plus d'informations, voir [Procédure : configurer des modèles rangement](warehouse-how-to-set-up-put-away-templates.md).  
+En outre, vous devez créer des modèles et les périodes d'inventaire de rangement. Pour plus d'informations, voir [Configurer des modèles rangement](warehouse-how-to-set-up-put-away-templates.md).  
 
 ## <a name="see-also"></a>Voir aussi  
-[Gestion d'entrepôt](warehouse-manage-warehouse.md)  
+[Gestion d’entrepôt](warehouse-manage-warehouse.md)  
 [STOCKS ET EN-COURS](inventory-manage-inventory.md)  
 [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)     
 [Gestion des assemblages](assembly-assemble-items.md)    

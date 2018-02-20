@@ -1,6 +1,6 @@
 ---
 title: "Ajouter votre comptable externe à votre Financials | Microsoft Docs"
-description: "Découvrez comment vous pouvez inviter votre comptable externe à votre Dynamics 365 Business edition."
+description: "Découvrez comment vous pouvez inviter votre comptable externe à votre Finance and Operations, Business edition."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -8,22 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting
-ms.date: 11/10/2017
+ms.date: 01/25/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 9769d4b1e34da62290cc97de291462ee2d22c747
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: fde920f4626079d66f285f366114d10807e7821b
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="inviting-your-external-accountant-to-your-included365finincludesd365finmdmd"></a>Invitation de votre comptable externe à votre [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Si vous utilisez un comptable externe pour gérer votre comptabilité et vos états financiers, vous pouvez les inviter à votre [!INCLUDE[d365fin](includes/d365fin_md.md)] afin qu'ils puissent travailler vous et utiliser vos données fiscales.
 
 Une fois que votre comptable a accédé à votre [!INCLUDE[d365fin](includes/d365fin_md.md)], il peut utiliser le tableau de bord **Comptable** qui donne un accès facilité aux fenêtres les plus appropriées pour son travail.  
-
-> [!NOTE]  
->  Cette fonctionnalité nécessite que l'expérience soit définie sur **Suite**. Pour plus d'informations, voir [Personnalisation de votre expérience Dynamics 365](ui-experiences.md).  
 
 ## <a name="invite-your-accountant-to-your-included365finincludesd365finmdmd"></a>Inviter votre comptable à votre [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Dans la dernière version de [!INCLUDE[d365fin](includes/d365fin_md.md)], nous avons simplifié pour vous la façon d'inviter votre comptable externe. Ouvrez simplement la fenêtre **Utilisateurs**, puis choisissez l'action **Inviter un comptable externe** dans le ruban. Un e-mail est préparé pour vous afin de vous permettre d'ajouter l'e-mail professionnel de votre comptable et d'envoyer l'invitation.  
@@ -45,7 +42,7 @@ L'un des types de licence de [!INCLUDE[d365fin](includes/d365fin_md.md)] est la 
 
 ## <a name="see-also"></a>Voir aussi
 [Finances](finance.md)  
-[Procédure : paramétrer la messagerie manuellement ou à l'aide de la configuration assistée](madeira-how-setup-email.md)  
-[Expériences de comptables dans Dynamics 365 Business edition](finance-accounting.md)  
-[Dynamics 365 for Accountants sur Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
+[Paramétrer la messagerie manuellement ou à l'aide de la configuration assistée](madeira-how-setup-email.md)  
+[Expériences de comptable dans Finance and Operations, Business edition ](finance-accounting.md)  
+[Finance and Operations, Business edition pour comptables sur Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
 

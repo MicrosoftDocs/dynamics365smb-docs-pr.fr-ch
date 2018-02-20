@@ -13,10 +13,10 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 06/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e41dcb709ad865ab6cb102834e9d99dc3346a840
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: bb4fcd8aa08fb172ed26620dd0bd416c9e84897d
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="business-intelligence"></a>Veille économique
@@ -31,12 +31,12 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 
 | À | Voir |
 | --- | --- |
-|Afficher les montants réels comparés aux montants budgétés pour tous les comptes et pour plusieurs périodes.|[Procédure : analyser les montants réalisés et les montants budgétés](bi-how-analyze-actual-versus-budget.md)|
-|Créer de nouveaux tableaux d'analyse pour définir les états financiers pour générer des états ou pour les afficher comme graphiques.|[Procédure : Utilisation des tableaux d'analyse](bi-how-work-account-schedule.md)|
-|Analyser vos performances financières en définissant des KPI basés sur les tableaux d'analyse, que vous publiez ensuite comme services Web. Les KPI du tableau d'analyse publié peuvent être affichés sur un site Web ou être importés dans Microsoft Excel à l'aide des services Web OData.|[Procédure de configuration et de publication des services Web KPI sur la base de tableaux d'analyse](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)|
-|Configuration des vues d'analyse pour analyser des données à l'aide d'axes.|[Procédure : Analyse des données par axe analytique](bi-how-analyze-data-dimension.md)|
-|Créer de nouveaux rapports d'analyse pour les ventes, les achats et le stock, et configurer des modèles d'analyse.|[Procédure : créer des rapports d'analyse vente](bi-how-create-analysis-views-reports.md)|
-|Activer la génération d'états financiers généraux par des organisations comptables internationales avec la norme eXtensible Business Reporting Language.|[Procédure : créer des états avec XBRL](bi-create-reports-with-xbrl.md)|
+|Afficher les montants réels comparés aux montants budgétés pour tous les comptes et pour plusieurs périodes.|[Analyser les montants réalisés et les montants budgétés](bi-how-analyze-actual-versus-budget.md)|
+|Créer de nouveaux tableaux d'analyse pour définir les états financiers pour générer des états ou pour les afficher comme graphiques.|[Utilisation des tableaux d'analyse](bi-how-work-account-schedule.md)|
+|Analyser vos performances financières en définissant des KPI basés sur les tableaux d'analyse, que vous publiez ensuite comme services Web. Les KPI du tableau d'analyse publié peuvent être affichés sur un site Web ou être importés dans Microsoft Excel à l'aide des services Web OData.|[Configuration et publication des services Web KPI sur la base de tableaux d'analyse](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)|
+|Configuration des vues d'analyse pour analyser des données à l'aide d'axes.|[Analyse des données par axe analytique](bi-how-analyze-data-dimension.md)|
+|Créer de nouveaux rapports d'analyse pour les ventes, les achats et le stock, et configurer des modèles d'analyse.|[Créer des rapports d'analyse](bi-how-create-analysis-views-reports.md)|
+|Activer la génération d'états financiers généraux par des organisations comptables internationales avec la norme eXtensible Business Reporting Language.|[Création d'états avec XBRL](bi-create-reports-with-xbrl.md)|
 
 ## <a name="see-also"></a>Voir aussi
 [Finances](finance.md)    
@@ -44,4 +44,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 [Clôture des périodes fiscales](year-close-years-periods.md)  
 [Importation à partir d'autres systèmes financiers](upload-data.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

@@ -1,6 +1,6 @@
 ---
 title: "Gérer les opportunités de vente et les prospects| Microsoft Docs"
-description: "Décrit la gestion d'un prospect ou d'une opportunité de ventes entrant dans Dynamics 365, et l'association de l'opportunité à un vendeur pour effectuer le suivi des ventes potentielles."
+description: "Décrit la gestion d'un prospect ou d'une opportunité de ventes entrant dans Finance and Operations, Business edition, et l'association de l'opportunité à un vendeur pour effectuer le suivi des ventes potentielles."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 34c43d54d2472d6aee0fc791824013727e3fd324
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 67e385b6c3f533ab5c63259b9df7e775f2155897
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-sales-opportunities"></a>Gestion des opportunités de ventes
@@ -28,8 +28,8 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 
 | Pour | Voir |
 | --- | --- |
-| Configurer les cycles de vente que vous suivez habituellement et les différentes étapes de chaque cycle de vente opportunité. |[Procédure : configurer des cycles de vente opportunité et des étapes de cycle](marketing-how-setup-opportunity-sales-cycles-stages.md) |
-| Créer des opportunités de vente à partir de vos contacts. |[Procédure : créer des opportunités](marketing-how-create-opportunities.md) |
+| Configurer les cycles de vente que vous suivez habituellement et les différentes étapes de chaque cycle de vente opportunité. |[Configurer des cycles de vente opportunité et des étapes de cycle](marketing-how-setup-opportunity-sales-cycles-stages.md) |
+| Créer des opportunités de vente à partir de vos contacts. |[Créer des opportunités](marketing-how-create-opportunities.md) |
 | Déplacer une opportunité de vente au sein du cycle de vente jusqu'à l'achèvement. |[Traitement des opportunités de vente](marketing-processing-sales-opportunities.md) |
 
 ## <a name="see-also"></a>Voir aussi

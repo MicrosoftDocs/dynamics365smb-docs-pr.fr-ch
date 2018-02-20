@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 06/06/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e823f58ac796b22a488ab6fd54ed6dc00e262c87
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 67410d7d1f6c71e977b5da7c2c81f7bd18746e3f
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="project-management"></a>Gestion de projets
@@ -24,22 +24,19 @@ Le module [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge les tâche
 
 Avant de pouvoir utiliser le module [!INCLUDE[d365fin](includes/d365fin_md.md)] pour gérer les projets, vous devez définir des ressources, des feuilles de temps et des projets. Pour plus d'informations, reportez-vous à [Configuration de la gestion de projet](projects-setup-projects.md).  
 
-> [!NOTE]  
->   Cette fonctionnalité nécessite que votre expérience soit définie sur **Suite**. Pour plus d'informations, voir [Personnalisation de votre expérience [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
-
 Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.
 
 | Pour | Voir |
 | --- | --- |
-| Créez des projets, affectez des tâches aux projets, puis préparez les lignes planning projet. |[Procédure : créer des projets](projects-how-create-jobs.md) |
-| Affectez des ressources aux projets et gérez les prix des ressources. |[Procédure : utiliser des ressources pour des projets](projects-how-use-resources.md) |
-| Créez une feuille de temps avec une tâche projet et des lignes planning intégrées et validez les lignes de la feuille de temps dans une feuille projet. |[Procédure : utiliser des feuilles de temps pour des projets](projects-how-use-time-sheets.md) |
-| Budgétez les ressources à utiliser dans les projets et comparez l'article actuel et l'utilisation des ressources par rapport à l'activité budgétée pour améliorer la qualité et le rendement économique des futurs projets. |[Procédure : gérer les budgets de projets](projects-how-manage-budgets.md) |
-| Consultez et enregistrez l'activité sur les différentes parties de votre projet, qui est automatiquement mis à jour lorsque vous modifiez et transférez des informations entre les lignes planning projet et les feuilles projet ou les factures projet pour validation. |[Procédure : enregistrer l'utilisation pour les projets](projects-how-record-job-usage.md) |
-| Achetez des fournitures pour un projet, sur des commandes achat ou des factures, et enregistrez l'article et le temps d'utilisation. |[Procédure : gérer les fournitures pour un projet](projects-how-manage-project-supplies.md) |
+| Créez des projets, affectez des tâches aux projets, puis préparez les lignes planning projet. |[Créer des projets](projects-how-create-jobs.md) |
+| Affectez des ressources aux projets et gérez les prix des ressources. |[Utiliser des ressources pour des projets](projects-how-use-resources.md) |
+| Créez une feuille de temps avec une tâche projet et des lignes planning intégrées et validez les lignes de la feuille de temps dans une feuille projet. |[Utiliser des feuilles de temps pour des projets](projects-how-use-time-sheets.md) |
+| Budgétez les ressources à utiliser dans les projets et comparez l'article actuel et l'utilisation des ressources par rapport à l'activité budgétée pour améliorer la qualité et le rendement économique des futurs projets. |[Gérer les budgets de projets](projects-how-manage-budgets.md) |
+| Consultez et enregistrez l'activité sur les différentes parties de votre projet, qui est automatiquement mis à jour lorsque vous modifiez et transférez des informations entre les lignes planning projet et les feuilles projet ou les factures projet pour validation. |[Enregistrer l'utilisation pour les projets](projects-how-record-job-usage.md) |
+| Achetez des fournitures pour un projet, sur des commandes achat ou des factures, et enregistrez l'article et le temps d'utilisation. |[Gérer les fournitures pour un projet](projects-how-manage-project-supplies.md) |
 | En savoir plus sur les travaux en cours (TEC), une fonction qui garantit des tableaux d'analyse appropriés et vous permet d'estimer la valeur financière des projets qui sont en cours. |[Comprendre les méthodes TEC](projects-understanding-wip.md) |
-| Validez la consommation de matières, des ressources, et d'autres frais de travaux en cours (TEC) du projet pour contrôler sa valeur financière et maintenir des états financiers appropriés bien que vous ayez validé des frais de projet avant de facturer le projet. |[Procédure : surveiller la progression et les performances](projects-how-monitor-progress-performance.md) |
-| Enregistrez les coûts du projet (utilisation de ressources, matières et achats associés au projet) sur une base actuelle et facturez le client, soit une fois le projet terminé soit en fonction d'un calendrier de facturation. |[Procédure : Facturer des projets](projects-how-invoice-jobs.md) |
+| Validez la consommation de matières, des ressources, et d'autres frais de travaux en cours (TEC) du projet pour contrôler sa valeur financière et maintenir des états financiers appropriés bien que vous ayez validé des frais de projet avant de facturer le projet. |[Surveiller la progression et les performances](projects-how-monitor-progress-performance.md) |
+| Enregistrez les coûts du projet (utilisation de ressources, matières et achats associés au projet) sur une base actuelle et facturez le client, soit une fois le projet terminé soit en fonction d'un calendrier de facturation. |[Facturation des projets](projects-how-invoice-jobs.md) |
 
 ## <a name="see-also"></a>Voir aussi
 [Configuration de la gestion de projet](projects-setup-projects.md)  
@@ -48,4 +45,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 [Ventes](sales-manage-sales.md)    
 [Finances](finance.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

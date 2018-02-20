@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5dea483395e64eb0635879b5c8821428512481ba
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: fea8af85518d608f051be154e551c4c8645ed42a
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-a-production-forecast"></a>Procédure : créer une prévision production
+# <a name="create-a-production-forecast"></a>Créer une prévision production
 Vous pouvez créer des prévisions de vente et de production à l'aide de la fenêtre **Prévision production**.  
 
 La fonctionnalité de prévision permet de créer une demande anticipée ; la demande réelle est créée à partir de commandes vente et fabrication. Lors de la génération de la planification de production principale (PDP), la prévision est ajustée par rapport aux commandes vente et fabrication. L'option *Composant* sur la prévision détermine le type d'exigences à prendre en considération dans le processus d'ajustement. Si la prévision a trait à un article vente, seules les commandes vente ajustent la prévision. Si elle concerne les composants, seule la demande dépendante des composants O.F. ajuste la prévision.  

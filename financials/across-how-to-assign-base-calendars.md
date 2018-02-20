@@ -13,17 +13,17 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d37170cabe2b03200e3d3f5f7b5c2a679eb8f46c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 61ad86f72f86cd9f6e1667dac445bfaa930d339f
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-base-calendars"></a>Comment configurer des calendriers principaux
+# <a name="set-up-base-calendars"></a>Configurer des calendriers principaux
 Vous pouvez affecter un calendrier principal à votre société et à ses partenaires commerciaux, tels que ses clients, ses fournisseurs, ou ses magasins. Les dates de livraison et de réception sur les lignes commande vente, commande achat, ordre de transfert, et ordre de fabrication sont calculées en fonction des jours ouvrés définis dans le calendrier. Lorsque vous paramétrez un nouveau calendrier principal, votre tâche consiste essentiellement à indiquer et à définir les jours chômés à appliquer.  
 
 ## <a name="to-set-up-a-base-calendar"></a>Pour configurer un calendrier principal  
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Calendrier principal**, puis sélectionnez le lien connexe.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Calendrier principal**, puis sélectionnez le lien connexe.  
 2.  Sélectionnez l'action **Nouveau**.  
 3.  Complétez le champ **Code**.  
 4. Choisissez l'action **Gérer modifications calendrier principal**.
@@ -66,7 +66,7 @@ Par exemple, bien qu'un calendrier principal définisse en général tous les sa
 
 La procédure suivante illustre l'exemple d'un magasin. Remarquez que, à ce stade, vous avez déjà affecté un calendrier principal au magasin.
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Magasins**, puis sélectionnez le lien connexe.
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), saisissez **Magasins**, puis sélectionnez le lien connexe.
 2. Ouvrez le magasin que vous voulez mettre à jour, puis sélectionnez le champ **Calendrier personnalisé**. Notez qu'un calendrier doit être sélectionné dans le champ **Code calendrier principal**.
 3. Dans la fenêtre **Écritures calendrier personnalisé** qui s'ouvre, choisissez l'action **Conserver modifications calendrier personnalisé**.
 4. Dans la fenêtre **Modifications calendrier personnalisé**, ajoutez des lignes pour les écritures calendrier personnalisé.
@@ -102,7 +102,7 @@ Les calendriers principaux sont affectés à votre propre société, à vos clie
 -   Sur la fiche **Magasin**, le calendrier principal est affecté sur le raccourci **Entrepôt**.  
 -   Dans la fenêtre **Transporteurs** , le calendrier principal est affecté dans la fenêtre **Prestations transporteur**.  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Clients**, puis sélectionnez le lien connexe.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Clients**, puis sélectionnez le lien connexe.  
 2.  Ouvrez la fiche **Client** pour laquelle vous allez affecter un calendrier principal.  
 3.  Sur le raccourci **Expédition**, dans le champ **Code calendrier principal**, sélectionnez le calendrier principal à affecter.  
 

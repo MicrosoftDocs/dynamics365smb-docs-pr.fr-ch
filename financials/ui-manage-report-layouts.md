@@ -13,10 +13,10 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 34a25ed48ff16971120b272421560bf1416af60f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 86a6451bdb02571480f775debd6c7286f0d8eb67
 ms.contentlocale: fr-ch
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-report-and-document-layouts"></a>Gestion des présentations de rapport et de document
@@ -32,7 +32,7 @@ En particulier, une présentation de rapport configure ce qui suit :
 * Le logo de la société et son emplacement.
 * Paramètres de page généraux, comme les marges et les images d'arrière-plan.
 
-Un [!INCLUDE[d365fin](includes/d365fin_md.md)] peut être créé avec plusieurs présentations de rapport, que vous pouvez ensuite changer au besoin. Vous pouvez utiliser l'une des présentations d'état intégrées ou vous pouvez créer des présentations d'état personnalisées et les affecter à vos états selon vos besoins. Pour plus d'informations, voir [Procédure : créer une présentation de rapport ou de document personnalisée](ui-how-create-custom-report-layout.md).
+Un [!INCLUDE[d365fin](includes/d365fin_md.md)] peut être créé avec plusieurs présentations de rapport, que vous pouvez ensuite changer au besoin. Vous pouvez utiliser l'une des présentations d'état intégrées ou vous pouvez créer des présentations d'état personnalisées et les affecter à vos états selon vos besoins. Pour plus d'informations, voir [Créer une présentation de rapport ou de document personnalisée](ui-how-create-custom-report-layout.md).
 
 Il existe deux types de présentations que vous pouvez utiliser pour les états : Word et RDLC.
 
@@ -45,7 +45,7 @@ Une présentation de rapport Word est basé sur un document Word (type de fichie
 Les présentations RDLC sont basées sur les présentations de définition de rapport client (types de fichier .rdlc or .rdl). Ces présentations sont créées et modifiées à l'aide du Générateur de rapports SQL Server. Le concept des présentations RDLC est similaire à celui des présentations Word, où la présentation définit le format général de l'état et détermine les champs de l'ensemble de données à inclure. La création de présentations RDLC est plus avancée que les présentations Word. Pour plus d'informations, voir [Création de présentations de rapport RDLC](/dynamics-nav/Designing-RDLC-Report-Layouts).
 
 ## <a name="built-in-and-custom-report-layouts"></a>Présentations d'état intégrées et personnalisées
-[!INCLUDE[d365fin](includes/d365fin_md.md)] inclut plusieurs présentations intégrées. Les présentations intégrées sont des présentations prédéfinies conçues pour des états spécifiques. [!INCLUDE[d365fin](includes/d365fin_md.md)]les états comportent une présentation intégrée, RDLC, Word et parfois les deux. Vous ne pouvez pas modifier une présentation d'état intégrée à [!INCLUDE[d365fin](includes/d365fin_md.md)], mais vous pouvez les utilisez comme point de départ pour l'élaboration de vos propres présentations d'état personnalisées.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  inclut plusieurs présentations intégrées. Les présentations intégrées sont des présentations prédéfinies conçues pour des états spécifiques. [!INCLUDE[d365fin](includes/d365fin_md.md)]les états comportent une présentation intégrée, RDLC, Word et parfois les deux. Vous ne pouvez pas modifier une présentation d'état intégrée à [!INCLUDE[d365fin](includes/d365fin_md.md)], mais vous pouvez les utilisez comme point de départ pour l'élaboration de vos propres présentations d'état personnalisées.
 
 Les présentations personnalisées sont des présentations de rapport que vous créez pour modifier l'apparence d'un rapport. Vous créez généralement une présentation personnalisée basée sur une présentation intégrée, mais vous pouvez les créer de A à Z ou à partir d'une copie d'une présentation personnalisée existante. Les présentations personnalisées vous permettent d'avoir plusieurs présentations pour le même rapport, que vous choisissez en fonction de vos besoins. Par exemple, vous pouvez avoir différentes présentations pour chaque société [!INCLUDE[d365fin](includes/d365fin_md.md)] ou vous pouvez avoir plusieurs présentations pour la même société pour des occasions ou événements spécifiques, comme une campagne spéciale ou la période des fêtes.
 
@@ -56,13 +56,13 @@ Les concepts généraux pour les présentations Word et RDLC sont très similair
 
 Le procédure pour paramétrer des présentations de rapport Word et des présentations de rapport RDLC sur les rapports est la même. La principale différence réside dans la manière dont vous modifiez les présentations. Il est souvent plus facile de créer et de modifier des présentations de rapport Word que des présentations de rapport RDLC car vous pouvez utiliser Word. Les présentations de rapport RDLC sont modifiées à l'aide de SQL Server Report builder qui cible plus d'utilisateurs avancés.
 
-Pour plus d'informations sur la manière d'utiliser l'une ou l'autre présentation, reportez-vous à [Procédure : modifier la présentation actuellement utilisée sur un rapport](ui-how-change-layout-currently-used-report.md).
+Pour plus d'informations sur la manière d'utiliser l'une ou l'autre présentation, voir [Modifier la présentation actuellement utilisée sur un rapport](ui-how-change-layout-currently-used-report.md).
 
 ## <a name="see-also"></a>Voir aussi
 [Mise à jour des présentations de rapport ou de document](ui-update-report-layouts.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Procédure : créer et modifier une présentation de rapport ou de document personnalisée](ui-how-create-custom-report-layout.md)  
-[Procédure : importer et exporter une présentation de rapport ou de document personnalisée](ui-how-import-and-export-report-layout.md)  
-[Procédure : envoyer des documents par e-mail](ui-how-send-documents-email.md)  
+[Créer et modifier une présentation de rapport ou de document personnalisée](ui-how-create-custom-report-layout.md)  
+[Importer et exporter une présentation de rapport ou de document personnalisée](ui-how-import-and-export-report-layout.md)  
+[Envoyer des documents par e-mail](ui-how-send-documents-email.md)  
 [Utilisation des états](ui-work-report.md)  
 

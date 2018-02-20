@@ -13,18 +13,18 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: a057da05d6b63ee60e29de70900ffae917d0fee3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3c1771ecc9c63afc0fab335d37684fc4263cc993
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-workflows"></a>Procédure : créer des workflows
+# <a name="create-workflows"></a>Créer des workflows
 Vous pouvez créer des workflows qui connectent des tâches de processus entreprise exécutées par différents utilisateurs. Les tâches du système, telles que la validation automatique, peuvent être incluses comme étapes du workflow, précédées ou suivies des tâches de l'utilisateur. Demander et accorder une approbation pour créer des enregistrements sont des étapes classiques du workflow.  
 
 Dans la fenêtre **Workflow**, créez un workflow en répertoriant les étapes concernées sur les lignes. Chaque étape comprend un événement de workflow modéré par des conditions d'événement, et une réponse de workflow avec des options de réponse. Définissez les étapes de workflow en renseignez les champs des lignes de workflow à partir de listes fixes de valeurs d'événement et de réponse qui sont les scénarios pris en charge par le code d'application.  
 
-Lorsque vous créez des workflows, vous pouvez copier les étapes à partir de workflows existants ou de modèles de workflow. Les modèles de workflow représentent des workflows non modifiables qui existent dans la version générique de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Le code des modèles de workflow ajoutés par Microsoft a le préfixe « MS- », comme dans « MS-PIW ». Pour plus d'informations, reportez\-vous à [Procédure : créer des flux de travail à partir de modèles de flux de travail](across-how-to-create-workflows-from-workflow-templates.md).  
+Lorsque vous créez des workflows, vous pouvez copier les étapes à partir de workflows existants ou de modèles de workflow. Les modèles de workflow représentent des workflows non modifiables qui existent dans la version générique de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Le code des modèles de workflow ajoutés par Microsoft a le préfixe « MS- », comme dans « MS-PIW ». Pour plus d'informations, reportez-vous à la rubrique [Créer des flux de travail à partir de modèles de flux de travail](across-how-to-create-workflows-from-workflow-templates.md).  
 
 Si votre scénario d'entreprise requiert des événements ou réponses de workflow qui ne sont pas pris en charge, un partenaire Microsoft doit les implémenter en personnalisant le code de l'application.  
   
@@ -32,10 +32,10 @@ Si votre scénario d'entreprise requiert des événements ou réponses de workfl
 >  Toutes les notifications relatives aux étapes du workflow sont envoyées à l'aide d'une file projets. Assurez-vous que la file projets dans votre installation est configurée pour traiter les notifications du flux de travail, et que la case à cocher **Démarrer automatiquement à partir de NAS** est activée. Pour plus d'informations, voir [Utiliser des files d'attente des travaux pour planifier des tâches](admin-job-queues-schedule-tasks.md).  
 
 ## <a name="to-create-a-workflow"></a>Pour créer un workflow  
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Flux de travail**, puis sélectionnez le lien connexe.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Flux de travail**, puis sélectionnez le lien connexe.  
 2. Sélectionnez l'action **Nouveau**. La fenêtre **Flux de travail** s'ouvre.  
 3. Dans le champ **Code**, entrez 20 caractères maximum pour identifier le workflow.  
-4. Pour créer le workflow à partir d'un modèle de workflow, dans la fenêtre **Flux de travail**, choisissez l'action **Créer le flux de travail à partir du modèle**. Pour plus d'informations, reportez\-vous à [Procédure : créer des flux de travail à partir de modèles de flux de travail](across-how-to-create-workflows-from-workflow-templates.md).  
+4. Pour créer le workflow à partir d'un modèle de workflow, dans la fenêtre **Flux de travail**, choisissez l'action **Créer le flux de travail à partir du modèle**. Pour plus d'informations, reportez-vous à la rubrique [Créer des flux de travail à partir de modèles de flux de travail](across-how-to-create-workflows-from-workflow-templates.md).  
 5. Dans le champ **Description**, décrivez le workflow.  
 6. Dans le champ **Catégorie**, spécifiez la catégorie à laquelle le workflow appartient.  
 7. Dans le champ **En cas d'événement**, spécifiez l'événement qui doit se produire pour démarrer l'étape du workflow.  
@@ -67,7 +67,7 @@ Si votre scénario d'entreprise requiert des événements ou réponses de workfl
         |----------------------------------|---------------------------------------|  
         |**Formule échéance**|Spécifiez le nombre de jours suite auxquels la demande d'approbation doit être résolue, à compter de la date à laquelle elle a été envoyée.|  
         |**Déléguer après**|Spécifiez si et quand une demande d'approbation est automatiquement déléguée au substitut approprié. Vous pouvez choisir de déléguer automatiquement un, deux ou cinq jours après la date de demande d'approbation.|  
-        |**Type approbateur**|Spécifiez l'approbateur, en fonction des paramètres des utilisateurs d'approbation et de workflow.<br /><br /> Les options possibles sont les suivantes :<br /><br /> -   **Vendeur/Acheteur** indique que l'utilisateur configuré dans le champ **Code vendeur/acheteur** de la fenêtre **Paramètres utilisateur approbation** détermine l'approbateur. Les écritures de demande d'approbation sont ensuite créées en fonction de la valeur du champ **Type limite approbateur**.<br />     Pour plus d'informations, voir [Procédure : configurer des utilisateurs d'approbation](across-how-to-set-up-workflow-users.md).|  
+        |**Type approbateur**|Spécifiez l'approbateur, en fonction des paramètres des utilisateurs d'approbation et de workflow.<br /><br /> Les options possibles sont les suivantes :<br /><br /> -   **Vendeur/Acheteur** indique que l'utilisateur configuré dans le champ **Code vendeur/acheteur** de la fenêtre **Paramètres utilisateur approbation** détermine l'approbateur. Les écritures de demande d'approbation sont ensuite créées en fonction de la valeur du champ **Type limite approbateur**.<br />     Pour plus d'informations, voir [Configurer des utilisateurs d'approbation](across-how-to-set-up-workflow-users.md).|  
         |**Afficher le message de confirmation**|Spécifiez si un message de confirmation apparaît aux utilisateurs après leur demande d'approbation.|  
         |**Type limite approbateur**|Spécifiez les effets des limites d'approbation des approbateurs lorsque les écritures demande d'approbation sont créées pour eux. Un approbateur qualifié est un approbateur pour lequel la limite d'approbation est supérieure à la valeur de la demande.<br /><br /> Les options possibles sont les suivantes :<br /><br /> 1.  **Chaîne d'approbateurs** spécifie que les écritures demande d'approbation sont créées pour tous les approbateurs du demandeur jusqu'au et y compris le premier approbateur qualifié.<br />2.  **Approbateur direct** spécifie qu'une écriture de demandes d'approbation n'est créée que pour l'approbateur immédiat du demandeur, quelle que soit la limite d'approbation de l'approbateur.<br />3.  **Premier approbateur qualifié** spécifie qu'une écriture de demandes d'approbation n'est créée que pour le premier approbateur qualifié du demandeur.<br />|  
     3.  Pour spécifier des options pour une réponse de workflow impliquant la création de lignes feuille, renseignez les champs comme indiqué dans le tableau suivant.  
@@ -91,14 +91,14 @@ Si votre scénario d'entreprise requiert des événements ou réponses de workfl
 >  N'activez pas un workflow tant que vous n'êtes pas sûr qu'il est terminé et que les étapes de workflow concernées peuvent démarrer.  
 
 > [!TIP]  
->  Pour visualiser les relations entre les tables qui sont utilisées dans le flux de travail, choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), et entrez **Flux de travail - Relations de table**.  
+>  Pour visualiser les relations entre les tables qui sont utilisées dans le flux de travail, choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), et entrez **Flux de travail - Relations de table**.  
 
 ## <a name="see-also"></a>Voir aussi  
-[Procédure : créer des workflows à partir de modèles de workflow](across-how-to-create-workflows-from-workflow-templates.md)   
-[Procédure : configurer des utilisateurs d'approbation](across-how-to-set-up-approval-users.md)   
+[Créer des flux de travail à partir de modèles de flux de travail](across-how-to-create-workflows-from-workflow-templates.md)   
+[Configurer des utilisateurs d'approbation](across-how-to-set-up-approval-users.md)   
 [Configuration de notifications de workflow](across-setting-up-workflow-notifications.md)   
-[Procédure : afficher des instances d'étape de workflow archivées](across-how-to-view-archived-workflow-step-instances.md)   
-[Procédure : supprimer des workflows](across-how-to-delete-workflows.md)   
+[Afficher des instances d'étape de workflow archivées](across-how-to-view-archived-workflow-step-instances.md)   
+[Supprimer des workflows](across-how-to-delete-workflows.md)   
 [Procédure pas à pas : Configuration et utilisation d'un flux d'approbation achat](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
 [Paramétrage des workflows](across-set-up-workflows.md)   
 [Utilisation des workflows](across-use-workflows.md)   

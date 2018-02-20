@@ -13,13 +13,13 @@ ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 06/20/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: cce1f5c30b758155056b00e933c9f6cabfd9f1f4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7a23f0ba28ab4c7bc9e028375246ea2e57d32764
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-intercompany"></a>Procédure : configuration des fonctionnalités intersociétés
+# <a name="set-up-intercompany"></a>Configuration des fonctionnalités intersociétés
 Pour envoyer une transaction (ligne feuille vente) à partir d'une société et créer automatiquement la transaction correspondante (ligne feuille achat) dans la société partenaire, les sociétés concernées doivent s'accorder sur un plan de compte et un ensemble d'axes analytiques communs à utiliser pour les transactions intersociétés. Le plan de compte intersociété peut être, par exemple, une version simplifiée du plan de compte de la société mère. Chaque société associe son plan de compte au plan de compte intersociété partagé, ainsi que ses axes analytiques aux axes analytiques intersociétés.  
 
 Vous devez également configurer un code partenaire Intersociétés pour chaque société partenaire, ce qui est convenu par toutes les sociétés, puis les affecter respectivement aux fichiers client et fournisseur en renseignant le champ **Code Partenaire Intersociétés**.  
@@ -40,7 +40,7 @@ Si vous créez des transactions de vente intersociétés incluant des ressources
 ## <a name="to-set-up-intercompany-vendors-and-intercompany-customers"></a>Pour paramétrer des fournisseurs et des clients intersociétés
 1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Comptes bancaires**, puis sélectionnez le lien connexe.
 2. Autrement, accédez au fournisseur du champ **N° fournisseur** dans la fenêtre **Partenaire Intersociétés**.
-3. Ouvrez la fiche d'un fournisseur qui est un partenaire Intersociétés. Pour plus d'informations, reportez vous à [Procédure : enregistrer de nouveaux fournisseurs](purchasing-how-register-new-vendors.md).
+3. Ouvrez la fiche d'un fournisseur qui est un partenaire Intersociétés. Pour plus d'informations, reportez vous à [Enregistrer de nouveaux fournisseurs](purchasing-how-register-new-vendors.md).
 4. Dans le champ **Code Partenaire Intersociétés**, sélectionnez le code partenaire intersociétés approprié.
 5. Répétez les étapes 1 à 4 pour les clients.
 

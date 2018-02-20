@@ -11,13 +11,13 @@ ms.search.keywords: accounting year, fiscal period
 ms.date: 07/17/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 1ae20c24b4a75a897a1bc7bc7f34898539a75449
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: da22c77f35c1a893d3ee80fb6468553670977686
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-open-a-new-fiscal-year-and-create-accounting-periods"></a>Procédure : Ouvrir un nouvel exercice comptable et créer des périodes comptables
+# <a name="open-a-new-fiscal-year-and-create-accounting-periods"></a>Ouvrir un nouvel exercice comptable et créer des périodes comptables
 Avant de pouvoir effectuer une validation dans un exercice comptable, vous devez l'ouvrir et définir ses périodes comptables.  
 
 Pour la plupart des sociétés, l'exercice comptable ne coïncide pas avec l'année civile. Les exercices comptables peuvent être mesurés dans d'autres unités de temps, telles que les mois ou les trimestres. Vous pouvez utiliser la fenêtre **Créer exercice comptable** pour configurer les périodes comptables qui s'adaptent aux besoins de votre activité. Toutefois,   
@@ -34,8 +34,8 @@ Les périodes comptables sont ajoutées à la page avec les champs **Date début
 
 
 ## <a name="see-also"></a>Voir aussi
-[Procédure : spécifier des périodes de validation](finance-how-specify-posting-periods.md)  
-[Procédure : valider l'écriture de clôture d'exercice](year-how-post-year-end-close-entry.md)  
+[Définir des périodes de validation](finance-how-specify-posting-periods.md)  
+[Valider l'écriture de clôture d'exercice](year-how-post-year-end-close-entry.md)  
 [Finances](finance.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

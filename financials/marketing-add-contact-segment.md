@@ -13,13 +13,13 @@ ms.search.keywords: marketing, campaign, promo, prospect, contact, client, custo
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 1385b97ef7d6a27a62cb347521b61f5853a0618c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 02e72507a2118cf279be156774079be70d5ede43
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-add-contacts-to-segments"></a>Procédure : ajouter des contacts à des segments
+# <a name="add-contacts-to-segments"></a>Ajouter des contacts à des segments
 Lorsque vous avez créé un segment et saisi les informations de base le concernant, vous pouvez être amené à ajouter des contacts au segment. Pour ce faire, vous pouvez renseigner manuellement les lignes de la fenêtre **Segment** ou utiliser l'action **Ajouter contacts** (plus simple et plus rapide).
 
 ## <a name="to-add-a-contact-to-a-segment"></a>Pour ajouter un contact à un segment
@@ -54,7 +54,7 @@ Vous pouvez supprimer les contacts sélectionnés dans un segment. Vous pouvez l
 Vous pouvez réduire un segment aussi souvent que vous le souhaitez. Sélectionnez l'action **Annuler dernière action** si vous avez redéfini un segment par erreur et que vous souhaitez revenir à l'étape précédente.
 
 ## <a name="see-also"></a>Voir aussi
-[Procédure : créer un segment](marketing-how-create-segment.md)   
+[Créer un segment](marketing-how-create-segment.md)   
 [Gestion des segments](marketing-segments.md)  
 [Gestion des opportunités de ventes](marketing-manage-sales-opportunities.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

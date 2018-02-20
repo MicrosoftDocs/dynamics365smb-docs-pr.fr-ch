@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c85fa0d5ede1624a650a85d8340112f9ccbef1c4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d84010d0d707ad96970ff9fc24077cb12ad9f9df
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-find-your-warehouse-assignments"></a>Comment trouver vos affectations d'entrepôt
-Pour rechercher les affectations entrepôt, ouvrez la fenêtre correspondant à une article sélectionné. Si des instructions entrepôt ont été créées, les lignes Prélever et Emplacement sont visibles, et vous pouvez commencer à utiliser une affectation. Dans certains entrepôts, le responsable peut affecter des instructions propres à chaque magasinier. Pour plus d'informations, reportez vous à [Procédure : configurer des employés d'entrepôt](warehouse-how-to-set-up-warehouse-employees.md).
+# <a name="find-your-warehouse-assignments"></a>Trouver vos affectations d'entrepôt
+Pour rechercher les affectations entrepôt, ouvrez la fenêtre correspondant à une article sélectionné. Si des instructions entrepôt ont été créées, les lignes Prélever et Emplacement sont visibles, et vous pouvez commencer à utiliser une affectation. Dans certains entrepôts, le responsable peut affecter des instructions propres à chaque magasinier. Pour plus d'informations, voir [Configurer des employés d'entrepôt](warehouse-how-to-set-up-warehouse-employees.md).
 
 ## <a name="to-find-an-instruction-assigned-to-you"></a>Pour rechercher une instruction qui vous est affectée  
 1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Rangements entrepôt**, **Prélèvements entrepôt** ou **Mouvement entrepôt**, puis sélectionnez le lien connexe.

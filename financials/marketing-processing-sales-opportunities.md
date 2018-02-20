@@ -13,13 +13,13 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 78f9235e0115b75c3c479f789c76710b97a216c3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 61c40317e2c45d2978118a7a6459c6a1b04ddd8f
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-process-sales-opportunities"></a>Procédure : traiter des opportunités de vente
+# <a name="process-sales-opportunities"></a>Traiter des opportunités de vente
 Une fois que vous avez créé une opportunité, il existe plusieurs fonctionnalités permettant de gérer l'opportunité et de la faire avancer jusqu'à l'achèvement.
 
 ## <a name="to-view-opportunities"></a>Pour afficher les opportunités

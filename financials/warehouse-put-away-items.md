@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/31/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9ecb54ee063daa054c5503702fcc21c4dc111d99
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: db48432b54e0bd2c303816c8b06f0986f2352a59
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="putting-items-away"></a>Rangement des articles
@@ -32,17 +32,17 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 
 |**Pour**|**Voir**|  
 |------------|-------------|  
-|Valider la réception d'articles directement à partir du document commande entrante et donc enregistrer le rangement, car aucune fonctionnalité entrepôt n'existe.|[Procédure : réceptionner des articles](warehouse-how-receive-items.md)|  
-|Ranger les articles par commande et valider la réception dans la même activité dans une configuration entrepôt de base.|[Comment ranger des articles avec le rangement stock](warehouse-how-to-put-items-away-with-inventory-put-aways.md)|  
-|Ranger les articles de plusieurs commandes dans une configuration entrepôt avancée.|[Comment ranger des articles avec le rangement entrepôt](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)|  
-|Ranger les articles fabriqués ou assemblés dans une configuration de stockage de base ou avancée.|[Procédure : rangement du résultat de fabrication ou d'assemblage](warehouse-how-to-put-away-production-output.md)|
-|Planifier des instructions de rangement optimisées pour plusieurs réceptions entrepôt validées. Dans ce cas, les magasiniers n'ont pas à agir directement sur les réceptions.|[Comment planifier des rangements dans la feuille](warehouse-how-to-plan-put-aways-in-worksheets.md)|  
-|Replacer les articles prélevés techniquement à l'aide d'un prélèvement interne, par exemple dans le cadre d'un ordre de fabrication pour lequel la quantité prévue n'a pas été consommée.|[Procédure : Prélever et ranger sans document origine](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
-|Répartir une ligne rangement pour placer une partie de la quantité rangée dans les emplacements disponibles en raison du remplissage de l'emplacement désigné.|[Procédure : répartir des lignes activité entrepôt](warehouse-how-to-split-warehouse-activity-lines.md)|
-|Accéder immédiatement aux rangements qui vous ont été affectés en tant que magasinier.|[Procédure : trouver vos affectations d'entrepôt](warehouse-how-to-find-your-warehouse-assignments.md)|    
+|Valider la réception d'articles directement à partir du document commande entrante et donc enregistrer le rangement, car aucune fonctionnalité entrepôt n'existe.|[Réceptionner des articles](warehouse-how-receive-items.md)|  
+|Ranger les articles par commande et valider la réception dans la même activité dans une configuration entrepôt de base.|[Ranger des articles avec le rangement stock](warehouse-how-to-put-items-away-with-inventory-put-aways.md)|  
+|Ranger les articles de plusieurs commandes dans une configuration entrepôt avancée.|[Ranger des articles avec le rangement entrepôt](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)|  
+|Ranger les articles fabriqués ou assemblés dans une configuration de stockage de base ou avancée.|[Rangement du résultat de fabrication ou d'assemblage](warehouse-how-to-put-away-production-output.md)|
+|Planifier des instructions de rangement optimisées pour plusieurs réceptions entrepôt validées. Dans ce cas, les magasiniers n'ont pas à agir directement sur les réceptions.|[Planifier des rangements dans la feuille](warehouse-how-to-plan-put-aways-in-worksheets.md)|  
+|Replacer les articles prélevés techniquement à l'aide d'un prélèvement interne, par exemple dans le cadre d'un ordre de fabrication pour lequel la quantité prévue n'a pas été consommée.|[Prélever et ranger sans document origine](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
+|Répartir une ligne rangement pour placer une partie de la quantité rangée dans les emplacements disponibles en raison du remplissage de l'emplacement désigné.|[Répartir des lignes activité entrepôt](warehouse-how-to-split-warehouse-activity-lines.md)|
+|Accéder immédiatement aux rangements qui vous ont été affectés en tant que magasinier.|[Trouver vos affectations d'entrepôt](warehouse-how-to-find-your-warehouse-assignments.md)|    
 
 ## <a name="see-also"></a>Voir aussi  
-[Gestion d'entrepôt](warehouse-manage-warehouse.md)  
+[Gestion d’entrepôt](warehouse-manage-warehouse.md)  
 [STOCKS ET EN-COURS](inventory-manage-inventory.md)  
 [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)     
 [Gestion des assemblages](assembly-assemble-items.md)    

@@ -13,16 +13,16 @@ ms.search.keywords: account linking, direct payment posting, automatic payment p
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 53c65f7f47c189905e277eff1ea86af241aa1b0b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: c5f6f041083e291feca4544f42d43d5ebe3b7e9c
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Procédure : Mapper du texte sur les paiements récurrents aux comptes pour un rapprochement automatique
+# <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Mapper du texte sur les paiements récurrents aux comptes pour un rapprochement automatique
 Dans la fenêtre **Correspondance texte et compte** à laquelle vous accédez à partir de la fenêtre **Feuille rapprochement bancaire**, vous pouvez configurer des mappages entre le texte des paiements et des comptes de débit, de crédit et de contrepartie spécifiques afin que ces paiements soient validées dans les comptes spécifiés lorsque vous validez la feuille rapprochement bancaire.
 
-Une fonctionnalité similaire existe pour rapprocher les montants en excédent sur les lignes feuille rapprochement bancaire de façon ponctuelle. Pour plus d'informations, reportez-vous à [Procédure : rapprocher les paiements qui ne peuvent pas être lettrés automatiquement](receivables-how-reconcile-payments-cannot-apply-auto.md).
+Une fonctionnalité similaire existe pour rapprocher les montants en excédent sur les lignes feuille rapprochement bancaire de façon ponctuelle. Pour plus d'informations, voir [Rapprocher les paiements qui ne peuvent pas être lettrés automatiquement](receivables-how-reconcile-payments-cannot-apply-auto.md).
 
 Les paiements validés basés sur le mappage de texte à compte ne sont pas appliqués aux écritures ouvertes, mais sont simplement validés dans les comptes spécifiés en plus de créer des écritures comptables compte bancaire. Par conséquent, le mappage de texte à compte est approprié pour les recettes ou dépenses récurrentes en liquide, notamment les achats fréquents de carburant pour les voitures ou les frais et intérêts bancaires, qui apparaissent régulièrement sur le relevé bancaire et n'ont pas besoin d'un document d'entreprise lié. Pour en savoir plus, voir « Exemple – Mappage de texte à compte pour les frais de carburant » dans cette rubrique.
 
@@ -33,7 +33,7 @@ Sur une ligne feuille rapprochement bancaire dont le paiement a été défini su
 
 ## <a name="to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Pour associer le texte sur les paiements récurrents aux comptes pour un rapprochement automatique
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille rapprochement bancaire**, puis sélectionnez le lien connexe.
-2. Ouvrez une feuille de rapprochement de paiement. Pour plus d'informations, reportez-vous à [Procédure : rapprocher les paiements à l'aide de l'application automatique](receivables-how-reconcile-payments-auto-application.md).
+2. Ouvrez une feuille de rapprochement de paiement. Pour plus d'informations, voir [Rapprocher les paiements à l'aide du lettrage automatique](receivables-how-reconcile-payments-auto-application.md).
 3. Sélectionnez l'action **Mapper le texte avec le compte**. La fenêtre **Correspondance texte et compte** s'affiche.
 4. Dans le champ **Correspondance texte**, saisissez n'importe quel texte se produisant sur les paiements que vous souhaitez valider dans les comptes spécifiés sans les appliquer à une écriture ouverte. Vous pouvez entrer jusqu'à 50 caractères.
 
@@ -44,7 +44,7 @@ Sur une ligne feuille rapprochement bancaire dont le paiement a été défini su
 7. Dans le champ **N° origine solde**, indiquez le compte dans lequel le paiement est validé, en fonction de votre sélection dans le champ **Type origine solde**.
 
     > [!NOTE]
-    > N'utilisez pas les champs **N° cpte débit** et **N° cpte crédit** en relation avec le rapprochement bancaire. Ils sont utilisés pour les documents entrants uniquement. Pour en savoir plus, voir [Procédure : utiliser un service OCR pour convertir des fichiers PDF et image en documents électroniques](across-how-use-ocr-pdf-images-files.md).
+    > N'utilisez pas les champs **N° cpte débit** et **N° cpte crédit** en relation avec le rapprochement bancaire. Ils sont utilisés pour les documents entrants uniquement. Pour en savoir plus, voir [Utiliser un service OCR pour convertir des fichiers PDF et image en documents électroniques](across-how-use-ocr-pdf-images-files.md).
 
 8. Répétez les étapes 3 à 7 pour tout le texte sur les paiements que vous souhaitez mapper à des comptes pour une validation directe sans application.
 
@@ -63,7 +63,7 @@ Pour toujours valider les frais de carburant encourus aux stations service Shell
 ## <a name="see-also"></a>Voir aussi
 [Gestion des comptes client](receivables-manage-receivables.md)  
 [Ventes](sales-manage-sales.md)  
-[Procédure : configurer le service de flux de la Envestnet Yodlee Bank](bank-how-setup-bank-statement-service.md)  
+[Configurer le service de flux de la Envestnet Yodlee Bank](bank-how-setup-bank-statement-service.md)  
 [Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

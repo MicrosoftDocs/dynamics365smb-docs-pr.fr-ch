@@ -13,21 +13,21 @@ ms.search.keywords:
 ms.date: 08/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 84a5d9eb8757dc82834c17327ffbb510cd15fa1a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b6ab539048f3f802cc4575e023c43632025dccf5
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-shipping-agents"></a>Procédure : configurer des transporteurs
+# <a name="set-up-shipping-agents"></a>Configurer des transporteurs
 Vous pouvez définir un code pour chacun de vos transporteurs et saisir les informations qui les concernent.  
 
-Si vous saisissez une adresse Internet pour le transporteur, et que le transporteur fournit des prestations de traçabilité des colis sur Internet, vous pouvez utiliser la fonction de récépissé automatique. Pour plus d'informations, voir [Procédure : suivre des colis](sales-how-track-packages.md).
+Si vous saisissez une adresse Internet pour le transporteur, et que le transporteur fournit des prestations de traçabilité des colis sur Internet, vous pouvez utiliser la fonction de récépissé automatique. Pour plus d'informations, voir [Suivre des colis](sales-how-track-packages.md).
 
 Lorsque vous configurez des transporteurs dans vos commandes vente, vous pouvez également spécifier les services proposés par chaque transporteur.  
 Pour chaque transporteur, vous pouvez définir un nombre illimité de services et spécifier un délai d'expédition pour chaque service.  
 
-Lorsque vous avez affecté une prestation transporteur à une ligne commande vente, le délai d'expédition de la prestation est inclus dans le calcul de la promesse de livraison, pour cette ligne. Pour plus d'informations, voir [Procédure : calculer des dates promesse livraison](sales-how-to-calculate-order-promising-dates.md).
+Lorsque vous avez affecté une prestation transporteur à une ligne commande vente, le délai d'expédition de la prestation est inclus dans le calcul de la promesse de livraison, pour cette ligne. Pour plus d'informations, voir [Calculer des dates promesse livraison](sales-how-to-calculate-order-promising-dates.md).
 
 ## <a name="to-set-up-a-shipping-agent"></a>Pour configurer des transporteurs  
 1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Transporteurs**, puis sélectionnez le lien connexe.  
@@ -39,8 +39,8 @@ Lorsque vous avez affecté une prestation transporteur à une ligne commande ven
 >  Si vous supprimez le transporteur de la ligne commande, le code prestation transporteur est également supprimé de la ligne. La valeur des champs basée en partie sur la prestation transporteur est ensuite recalculée.  
 
 ## <a name="see-also"></a>Voir aussi
-[Procédure : suivre des colis](sales-how-track-packages.md)    
-[Gestion d'entrepôt](warehouse-manage-warehouse.md)  
+[Suivre des colis](sales-how-track-packages.md)    
+[Gestion d’entrepôt](warehouse-manage-warehouse.md)  
 [STOCKS ET EN-COURS](inventory-manage-inventory.md)  
 [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)     
 [Gestion des assemblages](assembly-assemble-items.md)    

@@ -13,19 +13,19 @@ ms.search.keywords: categories, search words, facets
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: dcc29b913c999fe05272dd709a873635efb5eeb4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2b29fed7bf976c896b3d663f526d9c3a96200100
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-item-attributes"></a>Procédure : utilisation des attributs d'article
+# <a name="work-with-item-attributes"></a>Utiliser les attributs d'article
 Lorsque les clients recherchent des renseignements au sujet d'un article, par courrier ou via une boutique en ligne, ils peuvent effectuer leur recherche en fonction de caractéristiques, telles que la hauteur et l'année du modèle. Pour assurer le service de ce client, vous pouvez affecter des valeurs attribut article de différents types à vos articles, qui peuvent être utilisées pour rechercher les articles.
 
-Vous pouvez également allouer les attributs d'article aux catégories d'article, qui s'appliquent ensuite aux articles qui utilisent les catégories d'article. Pour plus d'informations, voir [Procédure : catégoriser des articles](inventory-how-categorize-items.md).
+Vous pouvez également allouer les attributs d'article aux catégories d'article, qui s'appliquent ensuite aux articles qui utilisent les catégories d'article. Pour plus d'informations, voir [Catégoriser des articles](inventory-how-categorize-items.md).
 
 > [!Tip]  
-> Si vous joignez des images aux articles, l'extension Analyseur Image peut détecter les attributs dans l'image, et suggérer des attributs que vous pouvez décider d'affecter ou non. L'extension est prête. Vous devez juste l'activer. Pour plus d'informations, voir [Extension d'analyseur Image pour Microsoft Dynamics 365 Business edition](ui-extensions-image-analyzer.md).
+> Si vous joignez des images aux articles, l'extension Analyseur Image peut détecter les attributs dans l'image, et suggérer des attributs que vous pouvez décider d'affecter ou non. L'extension est prête. Vous devez juste l'activer. Pour plus d'informations, voir [L'extension d'analyseur Image pour Microsoft Finance and Operations, Business edition](ui-extensions-image-analyzer.md).
 
 ## <a name="to-create-item-attributes"></a>Pour créer des attributs d'article
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Attributs article**, puis sélectionnez le lien connexe.
@@ -58,10 +58,10 @@ Vous pouvez également allouer les attributs d'article aux catégories d'article
 6. Répétez les étapes 4 et 5 pour tous attributs article que vous souhaitez affecter à la catégorie d'article.
 
 > [!NOTE]  
->   Les attributs article pour les catégories d'article seront transmis aux catégories d'article enfant. Cela est indiqué par le champ **Hérité de** sur le raccourci **Attributs**. Pour plus d'informations, voir [Procédure : catégoriser des articles](inventory-how-categorize-items.md).
+>   Les attributs article pour les catégories d'article seront transmis aux catégories d'article enfant. Cela est indiqué par le champ **Hérité de** sur le raccourci **Attributs**. Pour plus d'informations, voir [Catégoriser des articles](inventory-how-categorize-items.md).
 
 ## <a name="to-filter-by-item-attributes"></a>Pour filtrer par attribut d'article
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Articles**, puis sélectionnez le lien connexe.
+1. Cliquez sur l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Articles**, puis sélectionnez le lien connexe.
 2. Dans la fenêtre **Articles**, sélectionnez l'action **Filtrer par attributs**.
 3. Dans la fenêtre **Filtrer les articles par attribut**, cliquez sur le bouton de recherche du champ **Attribut**, puis sélectionnez un attribut article.
 4. Dans le champ **Valeur**, cliquez sur le bouton de recherche et sélectionnez une valeur d'attribut selon laquelle filtrer les articles.
@@ -78,8 +78,8 @@ Vous pouvez également allouer les attributs d'article aux catégories d'article
 Les articles de la fenêtre **Articles** sont filtrés selon les valeurs attribut article spécifiées.
 
 ## <a name="see-also"></a>Voir aussi
-[Procédure : catégoriser des articles](inventory-how-categorize-items.md)    
-[Procédure : enregistrer de nouveaux articles](inventory-how-register-new-items.md)  
-[Stock](inventory-manage-inventory.md)  
+[Catégoriser des articles](inventory-how-categorize-items.md)    
+[Enregistrer de nouveaux articles](inventory-how-register-new-items.md)  
+[STOCKS ET EN-COURS](inventory-manage-inventory.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

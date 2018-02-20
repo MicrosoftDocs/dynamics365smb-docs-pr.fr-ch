@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect, client, customer, campaign, promo
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 941c9dcc1638fd82f945b0ac268854b5f34d4294
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2f258a2bf1852b4cc1741a312c78bedfc06b5c11
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-relationship-management"></a>Paramétrage de la Gestion des relations
@@ -31,7 +31,7 @@ Une partie des données relatives aux sociétés contact sont identiques aux don
 
 Lorsque vous modifiez l'un des champs dans la fiche société contact, le programme modifie automatiquement ce champ dans la fiche personne contact (sauf si vous avez modifié ce champ manuellement).
 
-Pour plus d'informations, reportez-vous à [Procédure : créer des personnes contact](marketing-how-create-contact-persons.md).
+Pour plus d'informations, reportez-vous à [Créer des personnes contact](marketing-how-create-contact-persons.md).
 
 ## <a name="using-predefined-defaults-on-new-contacts"></a>Utilisation de paramètres par défaut prédéfinis sur les nouveaux contacts
 Vous pouvez configurer l'application pour qu'elle affecte automatiquement des codes langue, secteur, vendeur et pays/région par défaut à chaque nouveau contact. Vous pouvez également entrer un code cycle de vente par défaut que le programme affecte automatiquement à chaque nouvelle opportunité.
@@ -41,7 +41,7 @@ Les valeurs héritées des champs sont prioritaires sur les valeurs par défaut 
 <!--You can also setup a default salutation that the program automatically assigns to your contacts. You can use these salutations in your interaction template attachments (for example, Microsoft Word documents). When setting up a default salutation, you can enter a salutation text and a salutation format. For example, if the salutation text is Dear, and the salutation format is Salutation Text + Title + Name, the program will automatically enter Dear Mr. John Smith as a salutation for a contact called John Smith.-->
 
 ## <a name="automatically-recording-interactions"></a>Enregistrement automatique des interactions
-[!INCLUDE[d365fin](includes/d365fin_md.md)] peut enregistrer automatiquement les documents achat et vente en tant qu'interactions (par exemple, commandes, factures, bons de réception, etc.) ou en tant qu'e-mails, appels téléphoniques et bordereaux d'envoi.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  peut enregistrer automatiquement les documents achat et vente en tant qu'interactions (par exemple, commandes, factures, bons de réception, etc.) ou en tant qu'e-mails, appels téléphoniques et bordereaux d'envoi.
 
 Pour plus d'informations, reportez-vous à [Enregistrer automatiquement les interactions avec les contacts](marketing-auto-record-interactions.md).
 
@@ -53,7 +53,7 @@ Pour plus d'informations, reportez-vous à [Procédure de synchronisation des co
 ## <a name="assigning-a-number-series-to-contacts-and-opportunities"></a>Affectation d'une souche de numéros aux contacts et aux opportunités
 Vous pouvez configurer des souches de numéros pour les contacts et les opportunités. Si vous avez configuré une souche de numéros pour les contacts, lorsque vous créez un contact et que vous appuyez ensuite sur Entrée dans le champ N° de la fiche contact, le programme saisit automatiquement le numéro de contact suivant.
 
-Pour plus d'informations sur les souches de numéros, voir [Procédure : création des souches de numéros](ui-create-number-series.md).
+Pour plus d'informations sur les souches de numéros reportez-vous à [Création des souches de numéros](ui-create-number-series.md).
 
 ## <a name="searching-for-duplicate-contacts-when-contacts-are-created"></a>Recherche des doublons lors de la création de contacts
 Vous pouvez configurer le programme pour qu'il recherche automatiquement les doublons chaque fois que vous créez une société contact ou vous pouvez choisir d'effectuer une recherche manuelle lorsque les contacts sont créés. Vous pouvez également configurer le programme pour qu'il mette automatiquement à jour les chaînes de recherche chaque fois que vous modifiez les données de contact ou que vous créez un contact. Vous pouvez choisir le pourcentage de chaînes communes, c'est-à-dire le pourcentage de chaînes qui doivent être identiques dans deux contacts pour que le système les considère comme des doublons.

@@ -13,18 +13,18 @@ ms.search.keywords:
 ms.date: 08/11/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6826c574bf63de70d76a29b45968c68c0b2e2d1f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: a72e6ff0a710f2d555c805e4fa28896683a819e9
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-cash-customers"></a>Procédure : configurer des clients effectuant un achat au comptoir
+# <a name="set-up-cash-customers"></a>Configurer des clients effectuant un achat au comptoir
 Vous ne pouvez pas créer une facture sans numéro de client. Ceci est valable même si vous effectuez une vente au comptoir et que vous n'avez rien à enregistrer dans un compte client.  
 
 ## <a name="to-set-up-a-cash-customer"></a>Pour configurer des clients effectuant un achat en espèces  
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Client**, puis sélectionnez le lien connexe.  
-2.  Créez une fiche **Client**. Pour plus d'informations, reportez vous à [Procédure : enregistrer de nouveaux clients](sales-how-register-new-customers.md).
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Client**, puis sélectionnez le lien connexe.  
+2.  Créez une fiche **Client**. Pour plus d'informations, reportez vous à [Enregistrer de nouveaux clients](sales-how-register-new-customers.md).
 3.  Dans le champ **N°**, , saisissez par exemple **Espèces**.  
 4.  Dans le champ **Nom**, saisissez par exemple **Vente au comptoir**.  
 5.  Sur le raccourcie **Facturation**, renseignez les champs **Groupe compta. client** et **Groupe compta. marché**.  
@@ -38,7 +38,7 @@ Vous ne pouvez pas créer une facture sans numéro de client. Ceci est valable m
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion des comptes client](receivables-manage-receivables.md)  
-[Procédure : enregistrer de nouveaux clients](sales-how-register-new-customers.md)    
+[Enregistrer de nouveaux clients](sales-how-register-new-customers.md)    
 [Finances](finance.md)  
 
 

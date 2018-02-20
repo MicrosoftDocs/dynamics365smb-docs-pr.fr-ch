@@ -11,13 +11,13 @@ ms.workload: na
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: caf3637dac270a3d20283e6c0776634ee1f5613e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: da306187ff3007834e34b727c2c8f4e00dd8829b
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-bills-of-material"></a>Procédure : utiliser les nomenclatures
+# <a name="work-with-bills-of-material"></a>Utiliser les nomenclatures
 Les nomenclatures d'assemblage permettent de structurer les articles parents qui doivent être assemblés ou produits par des ressources ou des postes de charge à partir des composants. Une nomenclature d'assemblage peut également être utilisée pour vendre un article parent sous la forme d'un kit constitué de ses composants.
 
 ## <a name="assembly-boms-or-production-boms"></a>Nomenclatures d'assemblage ou nomenclatures de production
@@ -29,9 +29,9 @@ Les nomenclatures d'assemblage sont décrites dans cette rubrique.
 
 Vous utilisez des ordres de fabrication pour fabriquer des produits finis à partir de composants dans le cadre d'un processus complexe nécessitant une gamme de fabrication et des centres ou postes de charge, qui représentent les capacités de production. Par exemple, un processus de production peut être établi pour découper des plaques d'acier en une opération, les souder lors de l'opération suivante et peindre le produit fini lors de la dernière opération. Pour plus d'informations, voir [Production](production-manage-manufacturing.md).  
 
-Une nomenclature de production contient les données de base qui définissent un article de production et ses composants. Pour les éléments d'assemblage, la nomenclature de production doit être validée et affectée à l'article de production avant de pouvoir être utilisée dans un ordre de fabrication. Lorsque vous entrez l'article produit dans une ligne O.F., manuellement ou en actualisant la commande, le contenu de la nomenclature de production devient les composants O.F. Pour plus d'informations, reportez\-vous à [Procédure : créer des nomenclatures de production](production-how-to-create-production-boms.md).  
+Une nomenclature de production contient les données de base qui définissent un article de production et ses composants. Pour les éléments d'assemblage, la nomenclature de production doit être validée et affectée à l'article de production avant de pouvoir être utilisée dans un ordre de fabrication. Lorsque vous entrez l'article produit dans une ligne O.F., manuellement ou en actualisant la commande, le contenu de la nomenclature de production devient les composants O.F. Pour plus d'informations, reportez-vous à [Créer des nomenclatures de production](production-how-to-create-production-boms.md).  
 
-Le concept de ressources est beaucoup plus avancé dans la production que dans la gestion nomenclature d'assemblage. Les centres de charge et les postes de charge fonctionnent comme des ressources, et les étapes de production sont représentées par les opérations qui sont affectées à ces ressources dans des gammes de production. Pour plus d'informations, reportez\-vous à [Procédure : Créer des gammes](production-how-to-create-routings.md).
+Le concept de ressources est beaucoup plus avancé dans la production que dans la gestion nomenclature d'assemblage. Les centres de charge et les postes de charge fonctionnent comme des ressources, et les étapes de production sont représentées par les opérations qui sont affectées à ces ressources dans des gammes de production. Pour plus d'informations, reportez-vous à [Créer des gammes](production-how-to-create-routings.md).
 
 Les ordres d'assemblage et les ordres de fabrication peuvent être liés directement aux commandes vente. Cependant, vous pouvez uniquement utiliser des ordres d'assemblage pour personnaliser le produit fini directement par rapport à la demande d'un client via la commande vente.
 
@@ -42,13 +42,13 @@ Les nomenclatures d'assemblage contiennent généralement des articles mais peuv
 
 Les nomenclatures d'assemblage peuvent être multi-niveaux, ce qui signifie qu'un composant de la nomenclature d'assemblage peut être un élément d'assemblage proprement dit. Dans ce cas, le champ **Nomencl d'élément d'assemblage** de la ligne nomenclature d'assemblage contient **Oui**.
 
-Des exigences spécifiques s'appliquent aux articles des nomenclatures d'assemblage en ce qui concerne la disponibilité. Pour plus d'informations, reportez-vous à la section « Pour afficher la disponibilité d'un article en fonction de son utilisation dans les nomenclatures d'assemblage » dans [Procédure : voir la disponibilité des articles](inventory-how-availability-overview.md).
+Des exigences spécifiques s'appliquent aux articles des nomenclatures d'assemblage en ce qui concerne la disponibilité. Pour plus d'informations, reportez-vous à la section « Pour afficher la disponibilité d'un article en fonction de son utilisation dans les nomenclatures d'assemblage » dans [Voir la disponibilité des articles](inventory-how-availability-overview.md).
 
 Il y a deux parties pour créer une nomenclature d'assemblage :
 - Configuration d'un nouvel article
 - Définition de la structure de la nomenclature de l'article d'assemblage.
 
-1. Configurez un nouvel article. Pour plus d'informations, reportez vous à [Procédure : enregistrer de nouveaux articles](inventory-how-register-new-items.md).
+1. Configurez un nouvel article. Pour plus d'informations, reportez vous à [Enregistrer de nouveaux articles](inventory-how-register-new-items.md).
 
     Entrez maintenant les composants ou les ressources de la nomenclature d'assemblage.  
 2. Dans la fenêtre **Fiche article** d'un article d'assemblage, sélectionnez l'action **Assemblage**, puis l'action **Nomencl d'élément d'assemblage**.
@@ -80,7 +80,7 @@ Tous les champs de la ligne facture vente pour l'élément d'assemblage sont dé
 ## <a name="to-calculate-the-standard-cost-of-an-assembly-item"></a>Pour calculer le coût standard d'un élément d'assemblage
 Vous calculez le coût unitaire d'un élément d'assemblage en regroupant le coût unitaire de chaque composant et ressource dans la nomenclature d'assemblage de l'article.
 
-Vous pouvez également calculer et mettre à jour le coût standard pour un ou plusieurs articles dans la fenêtre **Feuille coût standard**. Pour plus d'informations, voir [Procédure : mise à jour des coûts standard](finance-how-to-update-standard-costs.md).  
+Vous pouvez également calculer et mettre à jour le coût standard pour un ou plusieurs articles dans la fenêtre **Feuille coût standard**. Pour plus d'informations, voir [Mise à jour des coûts standard](finance-how-to-update-standard-costs.md).  
 
 Le coût unitaire d'une nomenclature d'assemblage équivaut toujours au total des coûts unitaires de ses composants, y compris ceux d'autres nomenclatures d'assemblage, et des ressources.
 
@@ -100,8 +100,8 @@ Le coût unitaire d'une nomenclature d'assemblage équivaut toujours au total de
 Les coûts des articles constituant la nomenclature d'assemblage sont copiés à partir des fiches article du composant. Le coût de chaque article est multiplié par sa quantité, et le coût total est affiché dans le champ **Coût unitaire** sur la fiche article.
 
 ## <a name="see-also"></a>Voir aussi
-[Procédure : enregistrer de nouveaux articles](inventory-how-register-new-items.md)  
-[Procédure : voir la disponibilité des articles](inventory-how-availability-overview.md)     
-[Stock](inventory-manage-inventory.md)  
-[Utilisation de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
+[Enregistrer de nouveaux articles](inventory-how-register-new-items.md)  
+[Voir la disponibilité des articles](inventory-how-availability-overview.md)     
+[STOCKS ET EN-COURS](inventory-manage-inventory.md)  
+[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

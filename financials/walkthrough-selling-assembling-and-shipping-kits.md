@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d87aa7fe44b183a823457be4448c84631cd75db6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 015acdfbbc349477b9e86225f2c971f993215000
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Procédure pas-à-pas : vente, assemblage et expédition de kits
@@ -36,7 +36,7 @@ Les articles d’assemblage sont caractérisés par leur système de réapprovis
 -   Création d’une nomenclature d’assemblage qui répertorie les composants d’assemblage et la ressource incluse dans l’article d’assemblage.  
 
 ### <a name="selling-customized-assembly-items"></a>Vente d’articles d’assemblage personnalisés  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] est flexible et permet d'entrer une quantité en stock et une quantité « assembler pour commande » sur la ligne commande vente. Cette section couvre les tâches suivantes :  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  est flexible et permet d'entrer une quantité en stock et une quantité « assembler pour commande » sur la ligne commande vente. Cette section couvre les tâches suivantes :  
 
 -   Création d’une ligne commande vente purement « assembler pour commande » lorsque la quantité totale n’est pas disponible et doit être réunie avant la livraison.  
 -   Personnalisation des articles « assembler pour commande ».  
@@ -179,10 +179,10 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 
     |**Type**|**N°**|**Quantité par**|  
     |-------------------------------|------------------------------|---------------------------------------|  
-    |Article|80001|0|  
-    |Article|80011|0|  
-    |Article|80209|0|  
-    |Ressource|Linda|0|  
+    |Article|80001|1|  
+    |Article|80011|1|  
+    |Article|80209|1|  
+    |Ressource|Linda|1|  
 
 6.  Créez le second article d’assemblage sur la base des informations suivantes.  
 
@@ -202,10 +202,10 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 
     |**Type**|**N°**|**Quantité par**|  
     |-------------------------------|------------------------------|---------------------------------------|  
-    |Article|80005|0|  
-    |Article|80014|0|  
-    |Article|80210|0|  
-    |Ressource|Linda|0|  
+    |Article|80005|1|  
+    |Article|80014|1|  
+    |Article|80210|1|  
+    |Ressource|Linda|1|  
 
 ### <a name="selling-the-assembly-items"></a>Vente des articles d’assemblage  
 
@@ -237,7 +237,7 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 
     |Type|N°|Quantité par|  
     |----------|---------|------------------|  
-    |Article|80203|0|  
+    |Article|80203|1|  
 
 9. Fermez la fenêtre **Lignes d'assemblage pour commande**.  
 
@@ -432,10 +432,10 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 
 ## <a name="see-also"></a>Voir aussi  
  [Description des processus Assembler pour commande et Assembler pour stock](assembly-assemble-to-order-or-assemble-to-stock.md)   
- [Comment assembler des articles](assembly-how-to-assemble-items.md)   
- [Procédure : prélever des articles pour l'expédition entrepôt](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
- [Procédure : Vente d'articles à assembler pour commande](assembly-how-to-sell-items-assembled-to-order.md)   
- [Comment assembler des articles](assembly-how-to-assemble-items.md)   
+ [Assembler des articles](assembly-how-to-assemble-items.md)   
+ [Prélever des articles pour l'expédition entrepôt](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
+ [Vente d'articles à assembler pour commande](assembly-how-to-sell-items-assembled-to-order.md)   
+ [Assembler des articles](assembly-how-to-assemble-items.md)   
  [Détails de conception : validation d'ordre d'assemblage](design-details-assembly-order-posting.md)   
  [Détails de conception : flux d'entrepôt internes](design-details-internal-warehouse-flows.md)   
  [Détails de conception : flux de désenlogement](design-details-outbound-warehouse-flow.md)   

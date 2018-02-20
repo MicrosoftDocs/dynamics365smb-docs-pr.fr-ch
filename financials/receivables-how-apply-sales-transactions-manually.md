@@ -11,13 +11,13 @@ ms.search.keywords: payment process, cash receipt
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ccef6a35b1632bd94f64c5e9ad56ecd3bacbfd06
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6e00e9cbc1b1dc8674ccf83876809496a563b0be
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-reconcile-customer-payments-manually"></a>Procédure : rapprocher les paiements client manuellement
+# <a name="reconcile-customer-payments-manually"></a>Rapprocher les paiements client manuellement
 Lorsque vous recevez le règlement d'un client ou que vous effectuez un remboursement, vous devez décider si vous souhaitez lettrer le paiement ou le remboursement pour clôturer une ou plusieurs écritures débit ou crédit. Vous pouvez indiquer le montant que vous souhaitez appliquer. Par exemple, vous pouvez appliquer des paiements partiels aux écritures comptables client. La clôture des écritures comptables client permet de garantir que des informations telles que les statistiques clients, les relevés bancaires et les intérêts de retard sont corrects.
 
 > [!NOTE]  
@@ -34,7 +34,7 @@ Vous pouvez lettrer les écritures comptables client de plusieurs manières :
 
 Vous pouvez lettrer les paiements des clients manuellement dans la fenêtre **Feuille règlement**. La feuille règlement est un type de feuille comptabilité, de sorte que vous pouvez l'utiliser pour valider des transactions sur des comptes généraux, bancaires, client, fournisseur et immobilisations. Vous pouvez lettrer le règlement sur une ou plusieurs écritures débit lorsque vous validez le règlement ou lettrer à partir des écritures validées ultérieurement.
 
-Vous pouvez également lettrer les paiements client et fournisseur dans la fenêtre **Feuille rapprochement bancaire** à l'aide des fonctions dédiées à l'importation de relevés bancaires, le lettrage automatique et le rapprochement bancaire. Pour plus d'informations, reportez-vous à [Rapprocher les paiements à l'aide du lettrage automatique](receivables-how-reconcile-payments-auto-application.md). Sinon, vous pouvez rapprocher les paiements client en fonction de la liste des documents vente échus dans la fenêtre **Enregistrement de paiement**. Pour plus d'informations, reportez-vous à [Procédure : Rapprocher les paiements client dans une liste des documents vente échus](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
+Vous pouvez également lettrer les paiements client et fournisseur dans la fenêtre **Feuille rapprochement bancaire** à l'aide des fonctions dédiées à l'importation de relevés bancaires, le lettrage automatique et le rapprochement bancaire. Pour plus d'informations, reportez-vous à [Rapprocher les paiements à l'aide du lettrage automatique](receivables-how-reconcile-payments-auto-application.md). Sinon, vous pouvez rapprocher les paiements client en fonction de la liste des documents vente échus dans la fenêtre **Enregistrement de paiement**. Pour plus d'informations, voir [Rapprocher les paiements client dans une liste des documents vente échus](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
 
 ## <a name="to-fill-and-post-a-cash-receipt-journal"></a>Pour renseigner et valider une feuille règlement
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille règlement**, puis sélectionnez le lien connexe.
@@ -129,7 +129,7 @@ Si vous effectuez une vente à un client dans une devise et recevez le règlemen
 
 Si vous lettrez une écriture (Écriture 1) dans une devise avec une autre écriture (Écriture 2) dont la devise est différente, la date de comptabilisation de l'Écriture 1 est utilisée pour trouver le taux de change adéquat et convertir les montants de l'Écriture 2. Le taux de change approprié se trouve dans la fenêtre **Taux de change devise**.  
 
-Le lettrage d'écritures comptables client en devises différentes doit être activé. Pour en savoir plus, voir [Procédure : activer le lettrage d'écritures comptables client en devises différentes](finance-how-enable-application-ledger-entries-different-currencies.md).  
+Le lettrage d'écritures comptables client en devises différentes doit être activé. Pour plus d'informations, voir [Activer le lettrage d'écritures comptables client en devises différentes](finance-how-enable-application-ledger-entries-different-currencies.md).  
 
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille règlement**, puis sélectionnez le lien connexe.
 2. Ouvrez la feuille que vous souhaitez, puis renseignez la première ligne vide de la feuille à l'aide d'un code devise.

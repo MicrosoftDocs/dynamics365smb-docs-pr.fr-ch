@@ -13,13 +13,13 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 03/29/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 14c2e5340c64e2b302a0bb04c54911888e995136
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 43cb04b4852e305926550b55af8d10ccbf71bd4e
 ms.contentlocale: fr-ch
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-and-modify-a-custom-report-or-document-layout"></a>Procédure : créer et modifier une présentation de rapport ou de document personnalisée
+# <a name="create-and-modify-a-custom-report-or-document-layout"></a>Créer et modifier une présentation de rapport ou de document personnalisée
 Par défaut, un rapport aura une présentation de rapport intégrée, qui peut être soit une présentation de rapport RDLC ou une présentation de rapport Word, ou les deux. Vous ne pouvez pas modifier les présentations intégrées. Cependant, vous pouvez créer vos propres présentations personnalisées qui vous permettent de modifier l'apparence d'un rapport lorsqu'il est consulté, imprimé ou enregistré. Vous pouvez créer plusieurs présentations de rapport personnalisées pour le même rapport, puis faire basculer la présentation utilisée par un rapport selon vos besoins.
 
 > [!NOTE]  
@@ -89,13 +89,13 @@ Si vous créez une présentation de rapport Word de A à Z ou en ajoutant de nou
 2.  Supprimez le texte restant selon vos besoins.  
 
 ### <a name="adding-data-fields"></a>Ajout de champs de données
-L'ajout de champs de données à partir d'un ensemble des données d'état est une fonction plus avancée qui exige des connaissances sur l'ensemble des données d'état. Pour plus d'informations sur l'ajout de champs pour les données, étiquettes et images, voir [Procédure : ajouter des champs à une présentation de rapport Word](ui-how-add-fields-word-report-layout.md).  
+L'ajout de champs de données à partir d'un ensemble des données d'état est une fonction plus avancée qui exige des connaissances sur l'ensemble des données d'état. Pour plus d'informations sur l'ajout de champs pour les données, étiquettes et images, voir [Ajouter des champs à une présentation de rapport Word](ui-how-add-fields-word-report-layout.md).  
 
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion des présentations de rapport](ui-manage-report-layouts.md)  
-[Procédure : Modification de la présentation actuellement utilisée sur un rapport](ui-how-change-layout-currently-used-report.md)  
-[Procédure : importer et exporter une présentation de rapport ou de document personnalisée](ui-how-import-and-export-report-layout.md)  
+[Modification de la présentation actuellement utilisée sur un rapport](ui-how-change-layout-currently-used-report.md)  
+[Importer et exporter une présentation de rapport ou de document personnalisée](ui-how-import-and-export-report-layout.md)  
 [Utilisation des états](ui-work-report.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

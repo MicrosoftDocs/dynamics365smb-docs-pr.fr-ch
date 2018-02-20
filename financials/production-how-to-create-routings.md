@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
-ms.openlocfilehash: 85cd332e4b62ba73f511989983e1eb9f5147c5fb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f941625052bea17e524e7150f1a3a957d2916d54
 ms.contentlocale: fr-ch
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-routings"></a>Comment créer des gammes
+# <a name="create-routings"></a>Créer des gammes
 Les sociétés manufacturières utilisent des gammes pour visualiser et gérer le processus de fabrication.
 
 La gamme est la base de la planification des processus et des capacités, de l'affectation planifiée du matériel en fonction des besoins et des documents de production.  
@@ -28,8 +28,8 @@ En ce qui concerne les nomenclatures de production, les gammes sont affectées �
 
 Pour pouvoir configurer une gamme, les éléments suivants doivent être en place :  
 
-- Des fiches article sont créées pour les articles parents qui participent à la production. Pour plus d'informations, reportez vous à [Procédure : enregistrer de nouveaux articles](inventory-how-register-new-items.md).
-- Les ressources de production sont configurées. Pour plus d'informations, voir [Procédure : configurer les centres de charge et les postes de charge](production-how-to-set-up-work-and-machine-centers.md).
+- Des fiches article sont créées pour les articles parents qui participent à la production. Pour plus d'informations, reportez vous à [Enregistrer de nouveaux articles](inventory-how-register-new-items.md).
+- Les ressources de production sont configurées. Pour plus d'informations, voir [Configurer les centres de charge et les postes de charge](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-routing"></a>Pour créer une gamme  
 1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Gammes**, puis sélectionnez le lien connexe.  
@@ -53,13 +53,13 @@ Pour pouvoir configurer une gamme, les éléments suivants doivent être en plac
 12.  Poursuivez le remplissage des lignes pour toutes les opérations intervenant dans la production de l'article en question.  
 13.  Pour copier des lignes à partir d'une gamme existante, choisissez l'action **Copier gamme** pour sélectionner des lignes existantes.  
 14. Certifiez la gamme.  
-15. Vous pouvez désormais lier la nouvelle gamme à la fiche de l'article produit concerné en renseignant le champ **N° gamme**. Pour plus d'informations, reportez vous à [Procédure : enregistrer de nouveaux articles](inventory-how-register-new-items.md).  
+15. Vous pouvez désormais lier la nouvelle gamme à la fiche de l'article produit concerné en renseignant le champ **N° gamme**. Pour plus d'informations, reportez vous à [Enregistrer de nouveaux articles](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
 >  N'oubliez pas également de recalculer le coût standard de l'article de la fiche **Article** : choisissez l'action **Production**, sélectionnez l'action **Calculer coût standard**, puis sélectionnez l'action **Tous niveaux**.  
 
 ## <a name="to-create-routing-links"></a>Pour créer des liens gamme
-Vous pouvez créer des liens gamme pour lier des composants à des opérations spécifiques afin de conserver leur relation, même si la nomenclature de production ou la gamme sont modifiées. Cela simplifie également la consommation automatique juste-à-temps des composants, à savoir lorsque l'opération liée commence, et non quand l'ordre de fabrication complet est lancé. Pour plus d'informations, voir [Procédure : consommer en aval des composants en fonction de la production réalisée](production-how-to-flush-components-according-to-operation-output.md).  
+Vous pouvez créer des liens gamme pour lier des composants à des opérations spécifiques afin de conserver leur relation, même si la nomenclature de production ou la gamme sont modifiées. Cela simplifie également la consommation automatique juste-à-temps des composants, à savoir lorsque l'opération liée commence, et non quand l'ordre de fabrication complet est lancé. Pour plus d'informations, voir [Consommer en aval des composants en fonction de la production réalisée](production-how-to-flush-components-according-to-operation-output.md).  
 
 Les composants et opérations liés apparaissent dans une structure opératoire logique lorsque vous utilisez la fenêtre **Feuille production** pour la validation production et consommation, ce qui constitue un autre avantage majeur.  
 
@@ -80,14 +80,14 @@ Les composants et opérations liés apparaissent dans une structure opératoire 
 
     Les codes lien gamme sont désormais affectés aux opérations. Ensuite, vous devez créer le lien réel en attribuant les mêmes codes à des composants spécifiques de la nomenclature de production appropriée.  
 
-6.  Ouvrez la **Nomenclature de production** qui contient les composants à lier aux opérations ci-dessus. Pour plus d'informations, reportez\-vous à [Procédure : créer des nomenclatures de production](production-how-to-create-production-boms.md).
+6.  Ouvrez la **Nomenclature de production** qui contient les composants à lier aux opérations ci-dessus. Pour plus d'informations, reportez-vous à [Créer des nomenclatures de production](production-how-to-create-production-boms.md).
 7.  Vérifiez que le statut de la nomenclature est **Modification en cours**.  
 8.  Sur la ligne appropriée de nomenclature de production, dans le champ **Code lien gamme**, sélectionnez le code que vous venez d'affecter à l'opération correspondante.  
 9. Ajoutez ensuite des codes lien gamme à d'autres composants, selon les opérations uniques pour lesquelles ils sont utilisés.  
 10. Définissez le statut de la nomenclature de production sur **Validé**.  
 
     > [!NOTE]  
-    >  Pour activer les liens gamme d'un ordre de fabrication existant, vous devez actualiser l'ordre de fabrication. Pour plus d'informations, voir [Procédure : créer des ordres de fabrication](production-how-to-create-production-orders.md).  
+    >  Pour activer les liens gamme d'un ordre de fabrication existant, vous devez actualiser l'ordre de fabrication. Pour plus d'informations, voir [Créer des ordres de fabrication](production-how-to-create-production-orders.md).  
 
 Les composants sélectionnés seront liés aux opérations sélectionnées lorsque vous créerez ou actualiserez un ordre de fabrication à l'aide de la nomenclature de production et de la gamme concernées. Ceci est visible dans la fenêtre **Composants O.F.** sous l'ordre de fabrication. Ici, vous pouvez également ajouter ou supprimer à tout moment les codes lien gamme définis.
 
@@ -119,7 +119,7 @@ Le principe de la version permet de gérer différentes versions d'une gamme. La
 La validité de la version est définie par le champ **Date début**.  
 
 ## <a name="see-also"></a>Voir aussi  
-[Procédure : créer des nomenclatures de production](production-how-to-create-production-boms.md)  
+[Créer des nomenclatures de production](production-how-to-create-production-boms.md)  
 [Paramétrage de la production](production-configure-production-processes.md)  
 [Production](production-manage-manufacturing.md)    
 [Planifié](production-planning.md)   

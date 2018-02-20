@@ -11,10 +11,10 @@ ms.search.keywords: trade, sell
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 95f235e743ed97b1ac90a6e0583b9bd19dcb7ead
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e01885548d02ce9cd8dd347726a6b18c77837f63
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="sales"></a>Ventes
@@ -28,9 +28,9 @@ Vous pouvez facilement corriger ou annuler une facture vente validée avant qu'e
 
 Les pratiques recommandées en matière de vente et de marketing reposent toutes sur la prise de décisions appropriées au bon moment. La fonctionnalité Marketing de [!INCLUDE[d365fin](includes/d365fin_md.md)] fournit une vue d'ensemble précise et opportune de vos informations de contact afin d'offrir des services à vos prospects de manière plus efficace et d'accroître la satisfaction de la clientèle. Pour plus d'informations, reportez-vous à [Gestion des relations](marketing-relationship-management.md).
 
-Dans les environnements d'entreprise où le client doit payer avant la livraison des produits vendus (par exemple la vente au détail), vous devez attendre la réception du paiement avant de fournir les produits. Dans la plupart des cas, vous traitez les paiements entrants plusieurs semaines après la livraison en lettrant les paiements à leurs factures vente validées et impayées associées. Pour plus d'informations, reportez-vous à [Procédure : rapprocher les paiements à l'aide de l'application automatique](receivables-how-reconcile-payments-auto-application.md).
+Dans les environnements d'entreprise où le client doit payer avant la livraison des produits vendus (par exemple la vente au détail), vous devez attendre la réception du paiement avant de fournir les produits. Dans la plupart des cas, vous traitez les paiements entrants plusieurs semaines après la livraison en lettrant les paiements à leurs factures vente validées et impayées associées. Pour plus d'informations, voir [Rapprocher les paiements à l'aide du lettrage automatique](receivables-how-reconcile-payments-auto-application.md).
 
-Les documents vente peuvent être envoyés sous forme de fichiers PDF joints à l'e-mail. Le corps du message contient alors un extrait du document vente, comme les produits, le montant total et un lien vers le site Paypal. Pour plus d'informations, reportez vous à [Procédure : envoyer des documents par e-mail](ui-how-send-documents-email.md).
+Les documents vente peuvent être envoyés sous forme de fichiers PDF joints à l'e-mail. Le corps du message contient alors un extrait du document vente, comme les produits, le montant total et un lien vers le site Paypal. Pour plus d'informations, voir [Envoyer des documents par e-mail](ui-how-send-documents-email.md).
 
 Pour tous les processus de vente, vous pouvez incorporer un flux de travail d'approbation, par exemple, pour exiger que les ventes en grande quantité à certains clients soient approuvés par le responsable de la comptabilité. Pour plus d'informations, voir [Utilisation des flux de travail](across-use-workflows.md).
 
@@ -38,27 +38,28 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 
 | Pour | Voir |
 | --- | --- |
-| Créer un devis dans lequel vous proposer des biens selon des conditions négociables avant de convertir le devis en facture vente. |[Procédure : créer des offres](sales-how-make-offers.md) |
-| Créer une facture vente pour enregistrer votre accord avec un client pour vendre des biens selon certaines conditions de livraison et de paiement. |[Procédure : facturer des ventes](sales-how-invoice-sales.md) |
-| Traiter une commande vente qui implique un envoi partiel ou un envoi direct. |[Procédure : vendre des produits](sales-how-sell-products.md) |
-|Paramétrez les lignes vente ou achat standard que vous pouvez rapidement insérer dans les documents, par exemple, pour les ordres de réapprovisionnement récurrents.|[Procédure : Créer des lignes ventes et achat récurrentes](sales-how-work-standard-lines.md)|  
-| Lier une commande vente à un bon de commande pour vendre un article qui sera livré directement par votre fournisseur à votre client. |[Procédure : effectuer des livraisons directes](sales-how-drop-shipment.md) |
-|Faites expédier par un fournisseur un article que vous n'avez pas en stock vers votre entrepôt pour pouvoir l'expédier à votre client.|[Procédure : créer des commandes spéciales](sales-how-to-create-special-orders.md)|
-| Effectuer une action sur une facture vente enregistrée impayée pour créer automatiquement un avoir et soit annuler la facture vente, soit la recréer pour que vous puissiez y apporter des corrections. |[Procédure : corriger ou annuler des factures vente impayées](sales-how-correct-cancel-sales-invoice.md) |
-| Créer un avoir vente pour rembourser une facture vente validée spécifique pour indiquer les produits que retourné par le client et le montant règlement que vous remboursez. |[Procédure : traiter les retours ou annulations de ventes](sales-how-process-sales-returns-cancellations.md) |
-|Gérez l'engagement de vos clients à acheter de grandes quantités livrées en plusieurs expéditions sur une certaine période.|[Procédure : utiliser des commandes ouvertes vente](sales-how-to-create-blanket-sales-orders.md)|
-|Vendez les éléments d'assemblage qui ne sont pas disponibles actuellement en créant un ordre d'assemblage associé pour fournir la quantité totale ou partielle de la commande vente.|[Procédure : Vente d'articles à assembler pour commande](assembly-how-to-sell-items-assembled-to-order.md)|
-|Facturez un client une seule fois pour plusieurs livraisons en combinant les expéditions sur une seule facture.|[Procédure : Regroupement de bons de livraison sur une seule facture](sales-how-to-combine-shipments-on-a-single-invoice.md)|
-|Informez vos clients des dates de livraison en calculant, soit la date de simulation de délai, soit la date disponible à la vente.|[Comment calculer des dates promesse livraison](sales-how-to-calculate-order-promising-dates.md)|
+| Créer un devis dans lequel vous proposer des biens selon des conditions négociables avant de convertir le devis en facture vente. |[Créer des offres](sales-how-make-offers.md) |
+| Créer une facture vente pour enregistrer votre accord avec un client pour vendre des biens selon certaines conditions de livraison et de paiement. |[Facturer des ventes](sales-how-invoice-sales.md) |
+| Traiter une commande vente qui implique un envoi partiel ou un envoi direct. |[Vendre des produits](sales-how-sell-products.md) |
+|Paramétrez les lignes vente ou achat standard que vous pouvez rapidement insérer dans les documents, par exemple, pour les ordres de réapprovisionnement récurrents.|[Créer des lignes ventes et achat récurrentes](sales-how-work-standard-lines.md)|  
+| Lier une commande vente à un bon de commande pour vendre un article qui sera livré directement par votre fournisseur à votre client. |[Effectuer des livraisons directes](sales-how-drop-shipment.md) |
+|Faites expédier par un fournisseur un article que vous n'avez pas en stock vers votre entrepôt pour pouvoir l'expédier à votre client.|[Créer des commandes spéciales](sales-how-to-create-special-orders.md)|
+| Effectuer une action sur une facture vente enregistrée impayée pour créer automatiquement un avoir et soit annuler la facture vente, soit la recréer pour que vous puissiez y apporter des corrections. |[Corriger ou annuler des factures vente impayées](sales-how-correct-cancel-sales-invoice.md) |
+| Créer un avoir vente pour rembourser une facture vente validée spécifique pour indiquer les produits que retourné par le client et le montant règlement que vous remboursez. |[Traiter les retours ou annulations de ventes](sales-how-process-sales-returns-cancellations.md) |
+|Gérez l'engagement de vos clients à acheter de grandes quantités livrées en plusieurs expéditions sur une certaine période.|[Utiliser des commandes ouvertes vente](sales-how-to-create-blanket-sales-orders.md)|
+|Vendez les éléments d'assemblage qui ne sont pas disponibles actuellement en créant un ordre d'assemblage associé pour fournir la quantité totale ou partielle de la commande vente.|[Vente d'articles à assembler pour commande](assembly-how-to-sell-items-assembled-to-order.md)|
+|Facturez un client une seule fois pour plusieurs livraisons en combinant les expéditions sur une seule facture.|[Regroupement de bons de livraison sur une seule facture](sales-how-to-combine-shipments-on-a-single-invoice.md)|
+|Informez vos clients des dates de livraison en calculant, soit la date de simulation de délai, soit la date disponible à la vente.|[Calculer des dates promesse livraison](sales-how-to-calculate-order-promising-dates.md)|
 
 ## <a name="see-also"></a>Voir aussi
 [Définition des ventes](sales-setup-sales.md)  
-[Procédure : enregistrer de nouveaux clients](sales-how-register-new-customers.md)  
+[Enregistrer de nouveaux clients](sales-how-register-new-customers.md)  
 [Gestion des comptes client](receivables-manage-receivables.md)  
 [Gestion des comptes fournisseur](payables-manage-payables.md)  
 [Gestion de projets](projects-manage-projects.md)    
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

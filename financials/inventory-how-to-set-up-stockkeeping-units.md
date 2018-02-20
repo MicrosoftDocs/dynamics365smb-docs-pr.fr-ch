@@ -13,18 +13,18 @@ ms.search.keywords:
 ms.date: 08/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e5ac1c791b10c26a3cecd20711e7899bb7eaee3c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: bc323e4dac1b62802e999e2780352634e25e482d
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# Comment configurer des points de stock
+# <a name="set-up-stockkeeping-units"></a>Configurer des points de stock
 Vous pouvez utiliser des points de stock pour enregistrer des informations relatives à vos articles pour un code magasin ou variante donné.  
 
  Les points de stock représentent un supplément des fiches article. Ils ne les remplacent pas, bien qu'ils soient liés à ces documents. Les points de stock vous permettent de différencier des informations relatives à un article pour un magasin donné, comme un entrepôt ou un centre de distribution, ou une variante donnée, comme plusieurs numéros d'étagère et plusieurs informations de réapprovisionnement, pour un même article.  
 
-## Pour configurer un point de stock  
+## <a name="to-set-up-a-stockkeeping-unit"></a>Pour configurer un point de stock  
 
 1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Points de stock**, puis sélectionnez le lien connexe.  
 2.  Sélectionnez l'action **Nouveau**.  
@@ -37,10 +37,10 @@ Pour créer plusieurs points de stock pour un article, utilisez le traitement pa
 > [!NOTE]  
 >  Les informations de la fiche **Point de stock** sont prioritaires par rapport à celles de la fiche **Article**.  
 
-## Voir aussi  
-[Procédure : enregistrer de nouveaux articles](inventory-how-register-new-items.md)  
+## <a name="see-also"></a>Voir aussi  
+[Enregistrer de nouveaux articles](inventory-how-register-new-items.md)  
 [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)  
-[Gestion d'entrepôt](warehouse-manage-warehouse.md)  
+[Gestion d’entrepôt](warehouse-manage-warehouse.md)  
 [STOCKS ET EN-COURS](inventory-manage-inventory.md)  
 [Gestion des assemblages](assembly-assemble-items.md)    
 [Détails de conception : gestion d'entrepôt](design-details-warehouse-management.md)  

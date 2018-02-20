@@ -13,17 +13,17 @@ ms.search.keywords: undo, credit memo, return
 ms.date: 08/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6de89bc0865fbe8617e33288b9c0c8fe7da802ef
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e8e5a4762564d036ac8c0e7bdaf9e13b448d37f4
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-correct-or-cancel-unpaid-sales-invoices"></a>Procédure : corriger ou annuler des factures vente impayées
+# <a name="correct-or-cancel-unpaid-sales-invoices"></a>Corriger ou annuler des factures vente impayées
 Vous pouvez corriger ou annuler une facture vente validée. Cela est utile si vous faites une erreur ou si le client demande une modification.
 
 > [!NOTE]  
->   Une fois la facture vente validée entièrement ou partiellement payée, vous ne pouvez pas la corriger ou l'annuler depuis elle-même. Au lieu de cela, vous devez créer manuellement un avoir vente pour annuler la vente et rembourser le client, géré de manière facultative avec un retour vente. Pour plus d'informations, reportez-vous à [Procédure : traiter les retours ou annulations de ventes](sales-how-process-sales-returns-cancellations.md).
+>   Une fois la facture vente validée entièrement ou partiellement payée, vous ne pouvez pas la corriger ou l'annuler depuis elle-même. Au lieu de cela, vous devez créer manuellement un avoir vente pour annuler la vente et rembourser le client, géré de manière facultative avec un retour vente. Pour plus d'informations, reportez-vous à [Traiter les retours ou annulations de ventes](sales-how-process-sales-returns-cancellations.md).
 
 Dans la fenêtre **Facture vente enregistrée**, vous pouvez sélectionnez l'action **Corriger** ou **Annuler** pour exécuter les actions décrites dans le tableau suivant.
 
@@ -60,6 +60,6 @@ Lorsque vous corrigez ou annulez une facture vente enregistrée, l'avoir vente d
 ## <a name="see-also"></a>Voir aussi
 [Ventes](sales-manage-sales.md)  
 [Définition des ventes](sales-setup-sales.md)  
-[Procédure : envoyer des documents par e-mail](ui-how-send-documents-email.md)  
+[Envoyer des documents par e-mail](ui-how-send-documents-email.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

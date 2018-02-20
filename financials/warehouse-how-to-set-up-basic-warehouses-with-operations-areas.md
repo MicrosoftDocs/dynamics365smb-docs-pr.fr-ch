@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 8fa067c5a6d96d0d992c1488f31aa2929efc6dcc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 31f057f862b72cd21ecb2c1fb59674c6485a960d
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-basic-warehouses-with-operations-areas"></a>Comment configurer des entrepôts de base avec les zones d'opérations
+# <a name="set-up-basic-warehouses-with-operations-areas"></a>Configurer des entrepôts de base avec les zones d'opérations
 Si les zones Opérations internes telles que la production ou l'assemblage existent dans les configurations entrepôt de base dans lesquelles les magasins utilisent le champ de configuration **Emplacement obligatoire** et éventuellement les champs **Prélèvement requis** et **Rangement requis**, vous pouvez utiliser les documents d'entrepôt de base suivants pour enregistrer vos activités entrepôt pour des zones Opérations internes :  
 
 - Fenêtre **Mouvement de stock**.  
@@ -66,9 +66,9 @@ Ce graphique indique comment le champ **Code emplacement** sur les lignes compos
 ![Organigramme Flux d'emplacement](media/binflow.png "BinFlow")    
 
 ## <a name="to-define-a-default-bin-structure-in-the-assembly-area"></a>Pour définir une structure d'emplacement par défaut dans la zone d'assemblage
-Les composants pour les commandes d'assemblage ne peuvent pas être prélevés ni validés avec des prélèvements stock. À la place, utilisez la fenêtre **Mouvement de stock**. Pour plus d'informations, voir [Comment déplacer les composants vers une zone opérations dans le stockage de base](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
+Les composants pour les commandes d'assemblage ne peuvent pas être prélevés ni validés avec des prélèvements stock. À la place, utilisez la fenêtre **Mouvement de stock**. Pour plus d'informations, voir [Déplacer les composants vers une zone opérations dans le stockage de base](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
 
-En cas de prélèvement et d'expédition de quantités de lignes vente assemblées pour commande, vous devez suivre certaines règles en créant les lignes prélèvement stock. Pour plus d'informations, reportez-vous à la section « Traitement des articles à assembler pour commande dans les prélèvements stock » dans [Procédure : prélever des articles avec les prélèvements stock](warehouse-how-to-pick-items-with-inventory-picks.md).
+En cas de prélèvement et d'expédition de quantités de lignes vente assemblées pour commande, vous devez suivre certaines règles en créant les lignes prélèvement stock. Pour plus d'informations, reportez-vous à la section « Traitement des articles à assembler pour commande dans les prélèvements stock » dans [Prélever des articles avec les prélèvements stock](warehouse-how-to-pick-items-with-inventory-picks.md).
 
 Pour plus d'informations, voir [Gestion des assemblages](assembly-assemble-items.md).
 
@@ -110,7 +110,7 @@ La valeur de ce champ est automatiquement insérée dans le champ Code emplaceme
 
 Si **Code empl. exp. ass. pr comm.** est vide, alors le champ **Code empl. depuis assemblage** est utilisé. Si vous laissez les deux champs de configuration vides, le dernier emplacement utilisé incluant une valeur est utilisé dans le champ **Code emplacement** des lignes commande vente.
 
-Le même code emplacement est également copié vers le champ **Code emplacement** de la ligne prélèvement stock qui gère l'expédition de la quantité à assembler pour commande. Pour plus d'informations, reportez-vous à la section « Traitement des articles à assembler pour commande dans les prélèvements stock » dans [Procédure : prélever des articles avec les prélèvements stock](warehouse-how-to-pick-items-with-inventory-picks.md).
+Le même code emplacement est également copié vers le champ **Code emplacement** de la ligne prélèvement stock qui gère l'expédition de la quantité à assembler pour commande. Pour plus d'informations, reportez-vous à la section « Traitement des articles à assembler pour commande dans les prélèvements stock » dans [Prélever des articles avec les prélèvements stock](warehouse-how-to-pick-items-with-inventory-picks.md).
 
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Magasins**, puis sélectionnez le lien connexe.
 2. Ouvrez l'emplacement que vous voulez configurer.
@@ -123,7 +123,7 @@ Les quantités des magasins réservés peuvent encore être réservées. Par con
 
 Par exemple, si un centre de charge est configuré avec un code emplacement dans le champ **Code empl. des consommations**. Les lignes composant O.F. présentant ce code emplacement nécessitent que les composants consommés en aval soient stockés dans cet emplacement. Toutefois, jusqu'à la consommation des composants de cet emplacement, d'autres demandes de composant peuvent y effectuer un prélèvement ou une consommation, car elles sont encore considérées comme du contenu emplacement disponible. Pour vous assurer que le contenu de l'emplacement est uniquement disponible à une demande de composant qui utilise cet emplacement des consommations, vous devez sélectionner le champ **Dédié** sur la ligne de ce code emplacement dans la fenêtre **Emplacements** à laquelle vous accédez à partir de la fiche magasin.
 
-La réservation d'un emplacement fournit la même fonctionnalité permettant d'utiliser les types emplacement, disponible uniquement dans l'entreposage avancé. Pour plus d'informations, reportez-vous à [Procédure : configurer des types d'emplacement](warehouse-how-to-set-up-bin-types.md).
+La réservation d'un emplacement fournit la même fonctionnalité permettant d'utiliser les types emplacement, disponible uniquement dans l'entreposage avancé. Pour plus d'informations, voir [Configurer des types d'emplacement](warehouse-how-to-set-up-bin-types.md).
 
 > [!Caution]
 > Des articles dans des magasins réservés ne sont pas protégés lorsqu'ils sont prélevés et consommés comme composants de production à l'aide de la fenêtre Prélvmt invent.

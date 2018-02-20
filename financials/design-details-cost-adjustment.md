@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c56cd3c44e06f354bd11f24fb0f16b90a1ac7a34
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 8520630e03e26c8c2aab5157fc1efb853552919a
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="design-details-cost-adjustment"></a>Détails de conception : ajustement des coûts
@@ -171,7 +171,7 @@ Si vous avez défini l'ajustement automatique des coûts pour l'appliquer aux va
 Si vous avez défini l'ajustement automatique des coûts pour l'appliquer aux validations qui se produisent à un jour ou une semaine de la date en cours, l'ajustement automatique des coûts ne fonctionne pas, et le coût de l'achat n'est pas transmis à la vente jusqu'à ce que vous exécutiez le traitement par lots **Ajuster &coûts - Écr. article**.  
 
 ## <a name="see-also"></a>Voir aussi
-[Procédure : ajustement des coûts article](inventory-how-adjust-item-costs.md)   
+[Ajuster coûts et prix article](inventory-how-adjust-item-costs.md)   
 [Détails de conception : évaluation stock](design-details-inventory-costing.md)   
 [Détails de conception : rapprochement de comptabilité](design-details-reconciliation-with-the-general-ledger.md)   
 [Détails de conception : comptabilisation stock](design-details-inventory-posting.md)   

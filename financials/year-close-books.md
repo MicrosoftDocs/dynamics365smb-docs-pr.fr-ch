@@ -13,10 +13,10 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 03/29/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 870f1c6a7f93195e0308a646402d642f6cadd219
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3d92f1ca1f36ca74b2da9922d2929ad69c5b31cf
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="closing-the-books"></a>Clôture des livres
@@ -31,7 +31,7 @@ Le processus de clôture d'un livre inclut les tâches principales suivantes :
 
     Un exercice comptable est défini comme une ou plusieurs périodes, telles qu'elles sont définies dans la fenêtre **Périodes comptables**. Un exercice fiscal type contient 12 périodes d'un mois chacune, mais vous pouvez également choisir un autre mode de définition des exercices.
 
-    Pour plus d'informations, reportez vous à [Procédure: Clôturer des périodes comptables](year-close-account-periods.md).
+    Pour plus d'informations, reportez vous à [Clôturer des périodes comptables](year-close-account-periods.md).
 2. Enregistrement des écritures de l'exercice précédent.
 
     Lorsque vous clôturez un exercice fiscal, vous devez saisir un certain nombre de transactions administratives (telles que les articles prépayés ou à payer). Ces transactions sont appelées écritures d'ajustement. Il n'existe pas de règles spécifiques pour la validation de ces écritures et, comme pour les autres écritures, le champ **Écr. exercice précédent** de ces écritures est activé si elles sont validées dans une date d'un exercice comptable clôturé. Même si un exercice comptable a été clôturé, vous pouvez toujours y valider des écritures.
@@ -44,7 +44,7 @@ Le processus de clôture d'un livre inclut les tâches principales suivantes :
 
     Lorsque le traitement par lots Solder les comptes de gestion est terminé, vous validez les écritures générées par le traitement. Si vous n'avez pas spécifié de compte de bénéfices non répartis dans le traitement par lots, saisissez une ligne avec une écriture contrepartie qui valide le revenu net dans le compte général en capitaux propres adéquat dans le bilan. Pour terminer, validez la feuille.
 
-    Pour plus d'informations, reportez-vous à [Procédure : valider une écriture de clôture de fin d'exercice](year-how-post-year-end-close-entry.md).
+    Pour plus d'informations, reportez-vous à [Valider une écriture de clôture d'exercice](year-how-post-year-end-close-entry.md).
 
 ## <a name="what-happens-when-you-close"></a>Ce qui se produit lorsque vous clôturez
 Lorsque vous clôturez en fin d'exercice, le système déplace votre bénéfice des bénéfices calculés vers le compte Réserve. Le système marque également l'exercice comptable comme « clôturé » et toutes les écritures suivantes pour l'exercice clôturé comme « écritures de l'exercice précédent ».
@@ -54,6 +54,6 @@ Le système génère ensuite une écriture de clôture mais ne la valide pas aut
 Vous pouvez valider dans un exercice comptable précédent, même après la clôture des comptes résultats, si vous exécutez de nouveau le traitement par lots Solder les comptes de gestion par la suite.
 
 ## <a name="see-also"></a>Voir aussi
-[Procédure : ouverture d'un nouvel exercice comptable](finance-how-open-new-fiscal-year.md)  
+[Ouvrir un nouvel exercice comptable](finance-how-open-new-fiscal-year.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

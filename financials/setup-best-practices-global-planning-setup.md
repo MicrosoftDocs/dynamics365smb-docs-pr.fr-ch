@@ -1,6 +1,6 @@
 ---
 title: "Pratiques recommandées pour la configuration du planning général | Microsoft Docs"
-description: "Le raccourci **Planning** de la fenêtre **Paramètres production** comporte plusieurs champs permettant de définir les règles globales pour la planification des approvisionnements."
+description: "Le raccourci **Planning** de la fenêtre**Paramètres production** comporte plusieurs champs permettant de définir les règles globales pour la planification des approvisionnements."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: f1a4e3a30d4d665a83ab599ad19dfd3760d744b2
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="setup-best-practices-global-planning-setup"></a>Configurer des recommandations : configuration du planning général

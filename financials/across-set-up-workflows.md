@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 12/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 6beb70ad41fa32043e9b8afea67d390929533007
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 75571a006ab267cfef268e0ff6b62ffd0ffb936b
 ms.contentlocale: fr-ch
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-workflows"></a>Paramétrage des workflows
@@ -32,15 +32,15 @@ Vous pouvez configurer et utiliser des workflows qui connectent des tâches de p
 
 |**Pour**|**Voir**|  
 |------------|-------------|  
-|Configurer des utilisateurs de workflows et des groupes d'utilisateurs.|[Procédure : configurer des utilisateurs de flux de travail](across-how-to-set-up-workflow-users.md)|  
-|Configurer des utilisateurs de workflow qui participent à des workflow d'approbation.|[Procédure : configurer des utilisateurs d'approbation](across-how-to-set-up-approval-users.md)|  
+|Configurer des utilisateurs de workflows et des groupes d'utilisateurs.|[Configurer des utilisateurs de flux de travail](across-how-to-set-up-workflow-users.md)|  
+|Configurer des utilisateurs de workflow qui participent à des workflow d'approbation.|[Configurer des utilisateurs d'approbation](across-how-to-set-up-approval-users.md)|  
 |Spécifier comment les utilisateurs du workflow sont notifiés des étapes du workflow, y compris des demandes d'approbation.|[Configuration de notifications de workflow](across-setting-up-workflow-notifications.md)|  
-|Spécifier quand des utilisateurs reçoivent des notifications et s'il faut regrouper les notifications au cours d'une période afin de réduire le nombre de notifications.|[Procédure : spécifier quand et comment recevoir des notifications](across-how-to-specify-when-and-how-to-receive-notifications.md)|  
-|Configurer la mise en forme et le contenu général de nouveaux e\-mails de notifications du flux de travail, ou exporter, modifier, puis réimporter des modèles existants.|[Procédure : Gérer les modèles de notification](across-how-to-manage-notification-templates.md)|  
-|Configurer un serveur SMTP pour activer une communication entrante et sortante de [!INCLUDE[d365fin](includes/d365fin_md.md)] par e-mail|[Procédure : configurer la messagerie](madeira-how-setup-email.md)|
-|Spécifier les différentes étapes d'un workflow par les événements du workflow de connexion avec des réponses du workflow.|[Procédure : créer des workflows](across-how-to-create-workflows.md)|  
-|Utiliser des modèles de workflow pour créer des workflows.|[Procédure : créer des workflows à partir de modèles de workflow](across-how-to-create-workflows-from-workflow-templates.md)|  
-|Partager des workflows avec d'autres bases de données [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Procédure : exporter et importer des flux de travail](across-how-to-export-and-import-workflows.md)|  
+|Spécifier quand des utilisateurs reçoivent des notifications et s'il faut regrouper les notifications au cours d'une période afin de réduire le nombre de notifications.|[Spécifier quand et comment recevoir des notifications](across-how-to-specify-when-and-how-to-receive-notifications.md)|  
+|Configurer la mise en forme et le contenu général de nouveaux e\-mails de notifications du flux de travail, ou exporter, modifier, puis réimporter des modèles existants.|[Gérer les modèles de notification](across-how-to-manage-notification-templates.md)|  
+|Configurer un serveur SMTP pour activer une communication entrante et sortante de  par e-mail [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Configurer la messagerie](madeira-how-setup-email.md)|
+|Spécifier les différentes étapes d'un workflow par les événements du workflow de connexion avec des réponses du workflow.|[Créer des workflows](across-how-to-create-workflows.md)|  
+|Utiliser des modèles de workflow pour créer des workflows.|[Créer des flux de travail à partir de modèles de flux de travail](across-how-to-create-workflows-from-workflow-templates.md)|  
+|Partager des workflows avec d'autres bases de données [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Exporter et importer des workflows](across-how-to-export-and-import-workflows.md)|  
 |Apprendre comment configurer un workflow pour des documents vente avec approbation en suivant la procédure de bout en bout.|[Procédure pas à pas : Configuration et utilisation d'un flux d'approbation achat](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
 |Ajouter la prise en charge d'un scénario d'entreprise qui requiert de nouveaux événements ou réponses de workflow en personnalisant le code de l'application.|[Procédure pas à pas : implémentation de nouveaux événements et réponses de flux de travail](/dynamics_nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses)|  
 

@@ -1,6 +1,6 @@
 ---
-title: "Configurer un courrier électronique dans Dynamics 365 Business edition | Microsoft Docs"
-description: "Décrit l'utilisation du serveur SMTP de la société pour envoyer et recevoir des e-mails dans Dynamics 365. Décrit également comment utiliser les paramètres du serveur de messagerie créés lors de l'abonnement à Office 365."
+title: "Configurer un courrier électronique dans Finance and Operations, Business edition | Microsoft Docs"
+description: "Décrit l'utilisation du serveur SMTP de la société pour envoyer et recevoir des e-mails dans Finance and Operations, Business edition. Décrit également comment utiliser les paramètres du serveur de messagerie créés lors de l'abonnement à Office 365."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,13 +12,13 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 59d97a3bd838c80e66d62ed16c2bcb1c525938c4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2389c97c37a2b35da01c846b32a81a1c7bbf2bad
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-email-manually-or-using-the-assisted-setup"></a>Procédure : paramétrer la messagerie manuellement ou à l'aide de la configuration assistée
+# <a name="set-up-email-manually-or-using-the-assisted-setup"></a>Paramétrer la messagerie manuellement ou à l'aide de la configuration assistée
 Pour recevoir et envoyer des e-mails dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous devez renseigner les champs de la fenêtre **Paramétrage courrier SMTP**.
 
 > [!NOTE]  
@@ -36,7 +36,7 @@ Vous pouvez configurer la messagerie manuellement ou vous faire aider par la con
 ## <a name="see-also"></a>Voir aussi  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
-[Procédure : envoyer des documents par e-mail](ui-how-send-documents-email.md)  
+[Envoyer des documents par e-mail](ui-how-send-documents-email.md)  
 [Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] en tant que boîte de réception professionnelle dans Outlook](madeira-outlook.md)  
 [Obtention de [!INCLUDE[d365fin](includes/d365fin_md.md)] sur mon périphérique mobile](install-mobile-app.md)

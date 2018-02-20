@@ -1,8 +1,6 @@
 ---
-title: Utilisation de Dynamics 365 Business edition avec Outlook | Microsoft Docs
-description: "Dynamics 365 Business edition bénéficie d'une intégration complète à Office 365, ce qui vous permet de gérer tous vos interactions et messages d'affaires avec les clients et les fournisseurs directement dans Outlook."
-services: project-madeira
-documentationcenter: 
+title: Utiliser Finance and Operations, Business edition avec Outlook| Microsoft Docs
+description: "Ce service bénéficie d'une intégration complète à Office 365, ce qui vous permet de gérer tous vos interactions et messages d'affaires avec les clients et les fournisseurs directement dans Outlook."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -13,19 +11,19 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: de6cbcdc8e7ca4aff06461192e2038831ba6b5b3
-ms.openlocfilehash: 473c21085c54c7f97f34404eeb18683cf4479e41
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3e22e907667127508634ce56b9d40e4b9cad01f5
 ms.contentlocale: fr-ch
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="using-dynamics-365-for-finance-and-operations-business-edition-as-your-business-inbox-in-outlook"></a>Utilisation de Dynamics 365 for Finance and Operations, Business edition en tant que boîte de réception professionnelle dans Outlook
-[!INCLUDE[d365fin](includes/d365fin_md.md)] vous permet désormais de gérer les interactions commerciales avec vos clients et fournisseurs, directement dans Microsoft Outlook. Avec le complément Outlook de [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez afficher des informations financières associées à des clients et des fournisseurs, ainsi que créer et envoyer des documents financiers, comme des devis et des factures.  
+# <a name="using-finance-and-operations-business-edition-as-your-business-inbox-in-outlook"></a>Utilisation de Finance and Operations, Business edition en tant que boîte de réception professionnelle dans Outlook
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  vous permet désormais de gérer les interactions commerciales avec vos clients et fournisseurs, directement dans Microsoft Outlook. Avec le complément Outlook de [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez afficher des informations financières associées à des clients et des fournisseurs, ainsi que créer et envoyer des documents financiers, comme des devis et des factures.  
 
 ## <a name="getting-the-add-in"></a>Obtention du complément
 Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], l'une des étapes de la configuration assistée de mise en route s'effectue dans la fenêtre **Dirigez votre entreprise dans Office 365**. Dans cette fenêtre, lorsque vous cliquez sur le bouton **Configurer dans Outlook**, vous devez spécifier votre nom utilisateur et mot de passe Office 365. Le complément [!INCLUDE[d365fin](includes/d365fin_md.md)] est alors automatiquement ajouté à votre Outlook.  
 
-Ensuite, lorsque vous ouvrez Outlook, vous voyez des messages électroniques dans Dynamics 365 Admin. Le nouveau complément est ajouté au ruban Outlook, et dans Outlook Web Access il apparaît dans le ruban des compléments, situé juste au-dessus du corps du message. Le complément lui-même est mis à jour régulièrement, et vous êtes informé qu'une nouvelle version est prête dans Outlook.  
+Ensuite, lorsque vous ouvrez Outlook, vous voyez un message électronique de l'administrateur Finance and Operations, Business edition. Le nouveau complément est ajouté au ruban Outlook, et dans Outlook Web Access il apparaît dans le ruban des compléments, situé juste au-dessus du corps du message. Le complément lui-même est mis à jour régulièrement, et vous êtes informé qu'une nouvelle version est prête dans Outlook.  
 
 Certaines sociétés utilisant Office 365 n'autorisent pas leurs utilisateurs à déployer des compléments. Ainsi vous devez vous assurer que vous disposez d'un abonnement Office 365 comprenant la messagerie et qui vous permet de déployer des compléments. Si vous souhaitez tout de même essayer le complément, vous pouvez [essayer gratuitement Office 365](https://products.office.com/try).  
 

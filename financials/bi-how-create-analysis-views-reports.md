@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 06/16/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: b2efb52ce874643fffc0af805fc7ff0dac792462
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 378c3d2b0429390c303c723dbfafd07c531b3958
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-#  <a name="how-to-create-analysis-reports"></a>Procédure : créer des rapports d'analyse vente
+#  <a name="create-analysis-reports"></a>Créer des rapports d'analyse
 Les directeurs des ventes doivent analyser de manière régulière les rotations, la marge bénéficiaire brute et d'autres indicateurs de performance des ventes clés. Les acheteurs, eux, s'intéressent plutôt à la dynamique des volumes d'achat, des performances des fournisseurs et des prix d'achat. Par ailleurs, les gestionnaires des stocks et directeurs de la logistique ont besoin d'informations sur la rotation des stocks, d'une analyse des mouvements de stock et de statistiques sur la valeur du stock.  
 
 Vous pouvez utiliser des rapports d'analyse pour créer des états personnalisés basés sur les enregistrements de vos transactions validées, comme les ventes, les achats, les transferts et les ajustements stock. Dans les états personnalisés, les données source, provenant de l'écriture article (comportant des écritures valeur associées), peuvent être combinées, comparées et présentées de plusieurs manières, conformément aux souhaits de l'utilisateur. En ce sens, les rapports d'analyse sont très proches des rapports de tableau croisé dynamique de Microsoft Excel.  
@@ -28,7 +28,7 @@ Vous pouvez créer un état personnalisé consacré à vos comptes principaux, i
 
 Les rapports d'analyse sont constitués des objets à analyser (par exemple, les clients, les groupes de clients, les vendeurs, etc.), représentés sous forme de lignes, et des paramètres d'analyse, qui déterminent la manière dont vous souhaitez analyser les objets, représentés sous forme de colonnes (par exemple, calculs de marge, comparaisons périodiques des volumes et des montants vente, ou comparaisons périodiques des chiffres réels et budgétés).
 
-Outre les rapports d'analyse, vous pouvez créer et afficher des informations similaires dans des vues d'analyse, basées sur des axes analytiques. Pour plus d'informations, reportez vous à [Procédure : analyser des données par axe analytique](bi-how-analyze-data-dimension.md).
+Outre les rapports d'analyse, vous pouvez créer et afficher des informations similaires dans des vues d'analyse, basées sur des axes analytiques. Pour plus d'informations, reportez vous à [Analyser des données par axe analytique](bi-how-analyze-data-dimension.md).
 
 ## <a name="example"></a>Exemple :  
 Vous pouvez configurer les lignes suivantes :  
@@ -41,9 +41,6 @@ Vous pouvez ensuite configurer les colonnes suivantes :
 - Ventes mois en cours  
 - Ventes mois précédent  
 - Ventes mois précédent (en %)  
-
-> [!NOTE]  
->   Cette fonctionnalité nécessite que votre expérience soit définie sur **Suite**. Pour plus d'informations, voir [Personnalisation de votre expérience [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
 
 ## <a name="setting-up-line-and-column-layouts"></a>Configuration des présentations ligne et colonne  
  Dans la fenêtre **Rapport d'analyse**, vous pouvez afficher différentes présentations de ligne et de colonne selon le paramétrage effectué. Configurez vos lignes ou vos modèles de ligne dans la fenêtre **Modèles de ligne d'analyse**. Dans cette fenêtre, vous pouvez définir le nom du rapport et les objets à inclure dans les lignes du rapport. Configurez vos colonnes dans la fenêtre **Modèles de colonne d'analyse**. Dans cette fenêtre, vous pouvez définir le nom du modèle de colonne et les paramètres d'analyse à inclure dans le rapport sous forme de colonnes. Dans la fenêtre **Modèles de colonne d'analyse**, chaque ligne représente une colonne du rapport. Les lignes et les colonnes d'analyse sont indépendantes les unes des autres.  
@@ -66,7 +63,7 @@ Dans un rapport d'analyse, les paramètres d'analyse apparaissent sous forme de 
 
 Un modèle contient un ensemble de lignes représentant les colonnes d'analyse du rapport d'analyse. Pour définir une colonne, attribuez un code type analyse à une ligne. Ce code type analyse détermine le type de données source dans les écritures comptables article sur laquelle l'analyse est basée. Les données source incluent les coûts, le montant vente ou la quantité et leurs écritures valeur associées. Vous pouvez configurer autant de modèles de colonne que nécessaire, puis les utiliser pour créer des rapports d'analyse.    
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Modèles de colonne vente**, puis sélectionnez le lien connexe.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Modèles de colonne vente**, puis sélectionnez le lien connexe.  
 2. Sélectionnez la première ligne vide, puis renseignez les champs selon vos besoins.
 3. Sélectionnez l'action **Colonnes**.  
 4. Dans la fenêtre **Colonnes d'analyse**, renseignez les champs afin d'indiquer les colonnes à inclure dans l'état d'analyse.  
@@ -84,7 +81,7 @@ Dans un rapport d'analyse, les objets de l'analyse figurent sur les lignes. Vous
 
 Les modèles contiennent un ensemble de lignes correspondant aux lignes d'analyse qui apparaissent dans le rapport d'analyse. Une ligne peut indiquer un ou plusieurs articles, clients, fournisseurs ou groupes. Vous pouvez également créer dans une ligne une formule totalisant les autres lignes. Vous pouvez configurer autant de modèles de ligne que nécessaire, puis les utiliser pour créer des rapports d'analyse.    
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Modèles de ligne vente**, puis sélectionnez le lien connexe.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Modèles de ligne vente**, puis sélectionnez le lien connexe.  
 2. Sélectionnez la première ligne vide, puis renseignez les champs selon vos besoins.
 3. Sélectionnez l'option **Lignes**.  
 4. Dans la fenêtre **Ligne d'analyse**, créez des lignes pour les articles, clients, fournisseurs ou vendeurs dont vous voulez voir les chiffres dans votre état d'analyse. Vous devez renseigner les champs **Type**, **Plage** et **Désignation**.  

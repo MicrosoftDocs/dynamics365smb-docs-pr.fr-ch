@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c6d15f43e2a308dc8107e7a58e64f4b98452b1db
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ac292561a5777b760fd8e857d28085af36201e3e
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-undo-assembly-posting"></a>Comment annuler la validation d'assemblage
+# <a name="undo-assembly-posting"></a>Annuler la validation d'assemblage
 Vous pouvez parfois être amené à annuler un ordre d'assemblage validé, par exemple, si la commande a été validée avec des erreurs qui doivent être corrigées, ou parce qu'il n'aurait pas dû être validé en premier et doit être annulé.
 
 Lorsque vous annulez un ordre d'assemblage validé, un ensemble d'écritures comptables article de correction est créé pour contrepasser les écritures d'origine. Chaque écriture production positive pour l'élément d'assemblage est contrepassée par une écriture production négative. Chaque écriture production négative pour un composant d'assemblage est contrepassée par une écriture production positive. Le lettrage des coûts fixes est créé automatiquement entre les écritures de correction et les écritures d'origine afin de garantir une inversion de même coût.  
@@ -39,10 +39,10 @@ De plus, les ordres d'assemblage existants ne peuvent être restaurés que si le
 > [!TIP]  
 >  Pour résoudre les conflits dus à des modifications de ligne, vous pouvez rétablir manuellement les modifications sur les lignes en question avant d'annuler l'ordre d'assemblage validé associé. Sinon, vous pouvez valider l'ordre d'assemblage entièrement et choisir de le recréer lorsque vous annulez la validation.  
 
-La procédure suivante décrit comment annuler les ordres d'assemblage validés où les articles ont été assemblés pour stockage. Si vous souhaitez annuler les ordres d'assemblage validés pour lesquels les articles ont été assemblés pour une commande vente, vous devez exécuter la fonction **Annuler expédition** sur l'expédition validée qui se rapporte à l'ordre d'assemblage validé. Pour plus d'informations, reportez-vous à [Procédure : inversion d'une validation](finance-how-reverse-journal-posting.md). L'annulation de l'ordre d'assemblage validé se produit alors automatiquement de la même manière que celle décrite dans cette rubrique.  
+La procédure suivante décrit comment annuler les ordres d'assemblage validés où les articles ont été assemblés pour stockage. Si vous souhaitez annuler les ordres d'assemblage validés pour lesquels les articles ont été assemblés pour une commande vente, vous devez exécuter la fonction **Annuler expédition** sur l'expédition validée qui se rapporte à l'ordre d'assemblage validé. Pour plus d'informations, reportez-vous à [Inversion d'une validation](finance-how-reverse-journal-posting.md). L'annulation de l'ordre d'assemblage validé se produit alors automatiquement de la même manière que celle décrite dans cette rubrique.  
 
 ## <a name="to-undo-posting-of-an-assembly-order"></a>Pour annuler la validation d'un ordre d'assemblage  
-1.  Pour annuler entièrement ou partiellement l'ordre d'assemblage validé, choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), **Ordres d'assemblage validés**, puis sélectionnez le lien associé.  
+1.  Pour annuler entièrement ou partiellement l'ordre d'assemblage validé, choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png " icône Page ou état pour la recherche"), **Ordres d'assemblage validés**, puis sélectionnez le lien associé.  
 
     La fenêtre **Ordres d'assemblage validés** s'ouvre avec un ou plusieurs ordres d'assemblage qui ont été validés à partir de l'ordre d'assemblage en question. Chaque validation partielle crée un ordre d'assemblage validé distinct.  
 2.  Ouvrez l'ordre d'assemblage validé que vous souhaitez annuler, puis choisissez **Annuler l'assemblage**.  
@@ -57,9 +57,9 @@ Le champ **Contrepassé** de l'en\-tête d'ordre d'assemblage prend la valeur **
 
 ## <a name="see-also"></a>Voir aussi  
 [Gestion des assemblages](assembly-assemble-items.md)  
-[Procédure : inversion d'une validation](finance-how-reverse-journal-posting.md)  
-[Procédure : traiter les retours ou annulations de ventes](sales-how-process-sales-returns-cancellations.md)    
-[Procédure : utiliser les nomenclatures](inventory-how-work-BOMs.md)  
+[Inversion d'une validation](finance-how-reverse-journal-posting.md)  
+[Traiter les retours ou annulations de ventes](sales-how-process-sales-returns-cancellations.md)    
+[Utiliser les nomenclatures](inventory-how-work-BOMs.md)  
 [STOCKS ET EN-COURS](inventory-manage-inventory.md)  
 [Détails de conception : gestion d'entrepôt](design-details-warehouse-management.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

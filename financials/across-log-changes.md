@@ -12,13 +12,13 @@ ms.search.keywords: user log, user activity, tracking
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
-ms.openlocfilehash: 9f3db97203e09608ea0776f5571d6179778283b6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 8f49e3722f95d4e5a2c8eea83d77175581d93277
 ms.contentlocale: fr-ch
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="logging-changes-in-dynamics-365-business-edition"></a>Journalisation des modifications dans Dynamics 365, Business edition 
+# <a name="logging-changes-in-finance-and-operations-business-edition"></a>Journalisation des modifications dans Finance and Operations, Business edition 
 Vous pouvez activer le journal des modifications dans [!INCLUDE[d365fin](includes/d365fin_md.md)] afin d'avoir un historique des activités. Le journal est basé sur les modifications apportées aux données dans les tableaux que vous suivez. Dans le journal des modifications, les entrées sont chronologiquement ordonnées et montrent les modifications apportées aux champs des tables spécifiées. Le journal modification regroupe tous les changements apportés à la table.  
 
 ## <a name="working-with-the-change-log"></a>Utilisation du journal des modifications
@@ -34,6 +34,6 @@ Une fois que vous avez configuré et activé le journal des modifications et mod
 [Modification des paramètres de base](ui-change-basic-settings.md)  
 [Tri](ui-sorting.md)  
 [Utilisation de l'icône Page ou état pour la recherche](ui-search.md)  
-[Procédure : gérer les utilisateurs et les autorisations](ui-how-users-permissions.md)    
+[Gérer les utilisateurs et les autorisations](ui-how-users-permissions.md)    
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

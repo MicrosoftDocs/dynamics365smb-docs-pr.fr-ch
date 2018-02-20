@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 4bc8694fc1da6caab88c3b462e5b50306d08271b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9217d8707ab65d231a6759e86f6f2b2866835bb8
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-modify-planning-suggestions-in-a-graphical-view"></a>Procédure : modifier les propositions planning dans une vue graphique
+# <a name="modify-planning-suggestions-in-a-graphical-view"></a>Modifier les propositions planning dans une vue graphique
 Une activité de planification courante est d'ajouter ou de modifier les lignes feuille planning pour modifier les commandes approvisionnement proposées avant de les valider en exécutant la fonction **Traiter message d'action**. Une alternative à utiliser la feuille planning est d'utiliser une vue graphique.
 
 Dans la fenêtre **Disponibilité article par chronologie**, vous pouvez modifier certaines commandes approvisionnement et suggestions en faisant glisser les articles le long de l'axe des abscisses pour modifier la quantité ou le long de l'axe des ordonnées pour modifier la date d'échéance.  

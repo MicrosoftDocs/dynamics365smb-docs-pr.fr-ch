@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d82961b41266f645f87b79555171891cd2ce828f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1a95163c861cf9691c5f82e4815df6d87a135ed6
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="service-posting"></a>Validation de service
@@ -23,7 +23,7 @@ La fonctionnalité de validation de service vous permet de traiter vos documents
 > [!NOTE]  
 >  La section suivante décrit la validation de service indépendamment de la façon dont les articles sont gérés physiquement dans l'entrepôt.  
 >   
->  Dans un magasin qui n'est pas configuré pour appeler une gestion d'entrepôt, vous effectuez des actions de validation directement dans la fenêtre **Lignes service**. Dans les magasins qui impliquent une gestion d'entrepôt, les actions de validation décrites, à l'exception des actions Expédier et Consommer, sont effectuées indirectement au moyen de différentes fonctions d'expédition de l'entrepôt, selon la configuration. Pour plus d'informations, voir [Procédure : prélever des articles avec les prélèvements stock](warehouse-how-to-pick-items-with-inventory-picks.md).  
+>  Dans un magasin qui n'est pas configuré pour appeler une gestion d'entrepôt, vous effectuez des actions de validation directement dans la fenêtre **Lignes service**. Dans les magasins qui impliquent une gestion d'entrepôt, les actions de validation décrites, à l'exception des actions Expédier et Consommer, sont effectuées indirectement au moyen de différentes fonctions d'expédition de l'entrepôt, selon la configuration. Pour plus d'informations, voir [Prélever des articles avec les prélèvements stock](warehouse-how-to-pick-items-with-inventory-picks.md).  
 
 ## <a name="ship"></a>Expédition  
 La fonction Expédition vous permet d'enregistrer les articles et le temps appropriés entrés dans les lignes d'une commande service après que vous ayez exécuté le service. Une expédition enregistrée est crée et des mises à jour interviennent dans le module Stock, ainsi que d'autres modules dans [!INCLUDE[d365fin](includes/d365fin_md.md)] afin d'indiquer que les articles ont été prélevés sur le stock et envoyés au client. Plus particulièrement, des écritures comptables article, des écritures comptables valeur, des écritures comptables service sont générés ainsi que des écritures comptables garantie.  
@@ -56,6 +56,6 @@ La procédure suivante utilise un exemple de facture service enregistrée ; cet
     La fenêtre **Statistiques commande service** s'ouvre. La fenêtre affiche des informations telles que la quantité, le montant, la TVA, le coût, la marge, et le crédit autorisé du client pour le document validé.
 
 ## <a name="see-also"></a>Voir aussi  
-[Procédure : valider des commandes service](service-how-to-post-service-orders.md)   
-[Procédure : créer des commandes service](service-how-to-create-service-orders.md)
+[Valider des commandes de service](service-how-to-post-service-orders.md)   
+[Créer commande service](service-how-to-create-service-orders.md)
 

@@ -13,24 +13,24 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 0ca92ce0266c6a57d211f9ddb70dc5499f4f9648
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 223eed1ca4e362b8209373fac71d20ab88b2aaff
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-ship-items"></a>Procédure : Expédier des articles
+# <a name="ship-items"></a>Expédier des articles
 Lorsque vous expédiez des articles provenant d'un entrepôt qui n'est pas configuré pour un traitement d'expédition entrepôt, enregistrez simplement l'expédition du document d'entreprise associé, comme une commande vente, une commande service, un retour vente ou un ordre de transfert sortant.
 
 Lorsque vous expédiez des articles à partir d'un entrepôt qui est configuré pour un traitement d'expédition entrepôt, vous ne pouvez expédier des articles que sur la base des documents origine que d'autres centres de la société ont lancés et transmis à l'entrepôt en vue d'une action.
 
 > [!NOTE]
-> Si votre entrepôt utilise le transbordement, et dispose d'emplacements, vous pouvez visualiser pour chaque ligne la quantité d'articles placés dans les emplacements transbordement. Le programme calcule automatiquement ces quantités chaque fois que les champs de l'expédition sont mis à jour. S'il s'agit des articles correspondant à l'expédition que vous préparez, vous pouvez créer un prélèvement pour toutes les lignes, puis terminer l'expédition. Pour plus d'informations, voir [Procédure : transborder des articles](warehouse-how-to-cross-dock-items.md).
+> Si votre entrepôt utilise le transbordement, et dispose d'emplacements, vous pouvez visualiser pour chaque ligne la quantité d'articles placés dans les emplacements transbordement. Le programme calcule automatiquement ces quantités chaque fois que les champs de l'expédition sont mis à jour. S'il s'agit des articles correspondant à l'expédition que vous préparez, vous pouvez créer un prélèvement pour toutes les lignes, puis terminer l'expédition. Pour plus d'informations, voir [Transborder des articles](warehouse-how-to-cross-dock-items.md).
 
 ## <a name="to-ship-items-with-a-sales-order"></a>Pour expédier des articles avec une commande vente
 Ce qui suit décrit comment recevoir des articles avec une commande achat. Les étapes sont similaires pour les retours achat, les commandes service et les ordres de transfert sortants.  
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Commandes vente**, puis sélectionnez le lien connexe.
-2. Ouvrez une commande vente existante, ou créez-en une nouvelle. Pour en savoir plus, voir [Procédure : vendre des produits](sales-how-sell-products.md).
+2. Ouvrez une commande vente existante, ou créez-en une nouvelle. Pour en savoir plus, voir [Vendre des produits](sales-how-sell-products.md).
 3. Dans le champ **Qté à expédier**, indiquez la quantité reçue.
 
     La valeur du champ **Qté expédiée** est mise à jour en conséquence. Si c'est une expédition partielle, la valeur est inférieure à la valeur dans le champ **Quantité**.
@@ -91,15 +91,15 @@ Généralement, un magasinier chargé du prélèvement crée un document prélè
     Les champs **Qté à expédier** et **Statut document** de l'en-tête du document expédition sont mis à jour. Les articles prélevés ne peuvent plus être prélevés pour d'autres expéditions ou pour des opérations internes.
 7. Imprimez les documents expédition, préparez les colis, puis validez l'expédition.
 
-Pour plus d'informations sur le prélèvement pour les expéditions entrepôt, voir [Procédure : prélever des articles pour l'expédition entrepôt](warehouse-how-to-pick-items-for-warehouse-shipment.md).
+Pour plus d'informations sur le prélèvement pour les expéditions entrepôt, voir [Prélever des articles pour l'expédition entrepôt](warehouse-how-to-pick-items-for-warehouse-shipment.md).
 
-Vous pouvez également utiliser la feuille prélèvement pour regrouper plusieurs instructions de prélèvement en une seule instruction (pour plusieurs expéditions) et optimiser ainsi l'efficacité du prélèvement dans l'entrepôt. Pour plus d'informations, voir [Procédure : planifier un prélèvement dans des feuilles](warehouse-how-to-plan-picks-in-worksheets.md).
+Vous pouvez également utiliser la feuille prélèvement pour regrouper plusieurs instructions de prélèvement en une seule instruction (pour plusieurs expéditions) et optimiser ainsi l'efficacité du prélèvement dans l'entrepôt. Pour plus d'informations, voir [Planifier un prélèvement dans des feuilles](warehouse-how-to-plan-picks-in-worksheets.md).
 
 > [!NOTE]
-> Lorsque vous attendez l'arrivée d'articles spécifiques dans l'entrepôt et que vous utilisez la fonctionnalité de transbordement, [!INCLUDE[d365fin](includes/d365fin_md.md)] calcule, pour chaque ligne feuille prélèvement ou expédition, la quantité article figurant dans l'emplacement transbordement. Il met à jour ce champ chaque fois que vous fermez ou ouvrez le document d'expédition ou la feuille. Pour plus d'informations, voir [Procédure : transborder des articles](warehouse-how-to-cross-dock-items.md).
+> Lorsque vous attendez l'arrivée d'articles spécifiques dans l'entrepôt et que vous utilisez la fonctionnalité de transbordement, [!INCLUDE[d365fin](includes/d365fin_md.md)] calcule, pour chaque ligne feuille prélèvement ou expédition, la quantité article figurant dans l'emplacement transbordement. Il met à jour ce champ chaque fois que vous fermez ou ouvrez le document d'expédition ou la feuille. Pour plus d'informations, voir [Transborder des articles](warehouse-how-to-cross-dock-items.md).
 
 ## <a name="see-also"></a>Voir aussi  
-[Gestion d'entrepôt](warehouse-manage-warehouse.md)  
+[Gestion d’entrepôt](warehouse-manage-warehouse.md)  
 [STOCKS ET EN-COURS](inventory-manage-inventory.md)  
 [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)     
 [Gestion des assemblages](assembly-assemble-items.md)    

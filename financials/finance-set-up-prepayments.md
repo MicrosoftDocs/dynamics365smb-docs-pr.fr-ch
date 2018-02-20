@@ -1,26 +1,25 @@
 ---
 title: Configurer des acomptes | Microsoft Docs
 description: "Les acomptes sont des paiements qui sont facturés et validés dans une commande acompte vente ou achat avant la facturation finale. Vous pouvez demander un acompte avant de fabriquer les produits commandés ou demander à ce que le paiement soit effectué avant d'envoyer les articles à un client. La fonctionnalité d'acomptes vous permet de facturer et de collecter les acomptes requis des clients ou de régler des acomptes aux fournisseurs. Vous pouvez ainsi vous assurer que tous les paiements sont validés sur une facture."
-services: project-madeira
 documentationcenter: 
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/07/2017
-ms.author: sgroespe
+ms.date: 15/01/2018
+ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 11aef4cb4b1d40568b63662239a26993782201a3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 66c5d81fd7c3517b42930f53b81e06a3583aeb3d
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-prepayments"></a>Procédure : Configurer des acomptes
-Si vous voulez que vos clients fassent des paiements avant de leur expédier une commande ou si votre fournisseur exige que vous fassiez un paiement avant de vous expédier une commande, vous pouvez utiliser la fonctionnalité Acompte. La fonctionnalité vous permet de facturer et de collecter les acomptes requis des clients ou de régler des acomptes aux fournisseurs, et pour s'assurer que tous les paiements partiels sont validés sur une facture. Pour plus d'informations, consultez [Procédure : créer des factures d'acompte](finance-how-to-create-prepayment-invoices.md).
+# <a name="set-up-prepayments"></a>Configuration des acomptes
+Si vous voulez que vos clients fassent des paiements avant de leur expédier une commande ou si votre fournisseur exige que vous fassiez un paiement avant de vous expédier une commande, vous pouvez utiliser la fonctionnalité Acompte. La fonctionnalité vous permet de facturer et de collecter les acomptes requis des clients ou de régler des acomptes aux fournisseurs, et pour s'assurer que tous les paiements partiels sont validés sur une facture. Pour plus d'informations, consultez [Créer des factures d'acompte](finance-how-to-create-prepayment-invoices.md).
 
 Avant de valider des factures acompte, vous devez configurer les comptes de validation dans le module Comptabilité et configurer des souches de numéros pour les documents acompte.  
 
@@ -35,6 +34,8 @@ Puisque le montant payé par anticipation appartient à l'acheteur jusqu'à ce q
 
     - **Compte acomptes vente**  
     - **Compte acomptes achat**  
+
+Si vous n'avez pas encore configuré de comptes généraux pour les acomptes, vous pouvez le faire dans la fenêtre **Liste des comptes généraux**.  
 
 ## <a name="to-set-up-number-series-for-prepayment-documents"></a>Configurer des souches de numéros pour des documents acompte  
 
@@ -62,7 +63,7 @@ Pour un article, vous pouvez configurer un pourcentage d'acompte par défaut pou
 
 Pour un client ou un fournisseur, vous pouvez configurer un pourcentage d'acompte par défaut pour tous les articles et tous les types de lignes vente. Vous entrez cette valeur dans la fiche client ou fournisseur.
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Clients**, puis sélectionnez le lien connexe.
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Clients**, puis sélectionnez le lien connexe.
 2. Ouvrez la fiche d'un client.
 3. Remplissez le champ **Acompte**.
 4. Répétez les étapes pour d'autres clients ou fournisseurs.  
@@ -79,6 +80,7 @@ Autrement dit, le pourcentage d'acompte figurant dans la fiche client ne s'appli
 ## <a name="see-also"></a>Voir aussi  
 [Facturation d'acomptes](finance-invoice-prepayments.md)  
 [Procédure pas à pas : configuration et facturation d'acomptes](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
+[Familiarisation avec les écritures comptables et les COA](finance-general-ledger.md)  
 [Finances](finance.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

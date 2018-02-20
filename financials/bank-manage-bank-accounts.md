@@ -13,10 +13,10 @@ ms.search.keywords: reconcile
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
-ms.openlocfilehash: 2e8314c6da4da73712787a40204a964922f153f4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 0d126a89064c3e899f864e63647e76f5e59e1666
 ms.contentlocale: fr-ch
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-bank-accounts"></a>Gestion des comptes bancaires
@@ -31,8 +31,8 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | Pour | Voir |
 | --- | --- |
 | Rapprocher des comptes bancaires en relation avec le traitement des paiements dans la fenêtre **Feuille rapprochement bancaire**. |[Lettrage automatique des paiements et rapprochement des comptes bancaires](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
-| Rapprocher des comptes bancaires, y compris les écritures comptables chèque, en tant que tâche distincte dans la fenêtre **Rapprochement bancaire**. |[Procédure : rapprocher des comptes bancaires séparément](bank-how-reconcile-bank-accounts-separately.md) |
-| Valider des transferts entre comptes bancaires dans la même devise ou dans des devises différentes. |[Procédure : transfert de fonds à la banque](bank-how-transfer-bank-funds.md) |
+| Rapprocher des comptes bancaires, y compris les écritures comptables chèque, en tant que tâche distincte dans la fenêtre **Rapprochement bancaire**. |[Rapprocher des comptes bancaires séparément](bank-how-reconcile-bank-accounts-separately.md) |
+| Valider des transferts entre comptes bancaires dans la même devise ou dans des devises différentes. |[Transfert de fonds à la banque](bank-how-transfer-bank-funds.md) |
 
 ## <a name="see-also"></a>Voir aussi
 [Paramétrage des opérations bancaires](bank-setup-banking.md)  
@@ -40,4 +40,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 [Gestion des comptes fournisseur](payables-manage-payables.md)    
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)  
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

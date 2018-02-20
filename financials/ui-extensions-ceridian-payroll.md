@@ -13,16 +13,16 @@ ms. search.keywords: app, add-in, manifest, customize, salary, wage
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 3c67d6bd4d24d5b58462fa05168f2ac764b2c695
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 442459e82ebeb6b5b767b443e49c62ff0d4364d1
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="the-ceridian-payroll-extension-to-dynamics-365-business-edition"></a>Extension Ceridian Payroll pour Dynamics 365 Business edition 
+# <a name="the-ceridian-payroll-extension-to-finance-and-operations-business-edition"></a>L'extension Ceridian Payroll pour Finance and Operations, Business edition 
 Pour tenir compte des paiements des salaires et des transactions associées, vous devez importer et valider des transactions financières effectuées par votre fournisseur de paie dans la comptabilité.
 
-Pour cela, vous devez commencer par importer un fichier que vous recevez du fournisseur de paie dans la fenêtre **Feuille comptabilité**. Vous devez ensuite mapper les comptes externes du fichier de paie aux comptes généraux appropriés. Enfin, vous devez valider les transactions de paie en fonction du mappage de compte. Pour plus d'informations, voir [Procédure : Importer les transactions de paie](finance-how-import-payroll-transactions.md).
+Pour cela, vous devez commencer par importer un fichier que vous recevez du fournisseur de paie dans la fenêtre **Feuille comptabilité**. Vous devez ensuite mapper les comptes externes du fichier de paie aux comptes généraux appropriés. Enfin, vous devez valider les transactions de paie en fonction du mappage de compte. Pour plus d'informations, voir [Importer les transactions de paie](finance-how-import-payroll-transactions.md).
 
 L'extension Ceridian Payroll vous permet d'importer des transactions de paie à partir des services Ceridian HR/Payroll (US) et Ceridian PowerPay (Canada).
 

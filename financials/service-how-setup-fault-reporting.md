@@ -13,17 +13,17 @@ ms.search.keywords:
 ms.date: 08/22/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 19a377f9c4a41bee6aecc182774f884b1ead36ad
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b5ff96bf6b455a8c1817a6243cfba5864cf5aa8e
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="how-to-set-up-fault-reporting"></a>Procédure : configurer le reporting panne
+# <a name="set-up-fault-reporting"></a>Configurer le reporting panne
 Le reporting panne permet d'établir des normes d'enregistrement des informations de panne pour les articles de service. Par exemple, vous pouvez spécifier la nature du problème, les symptômes visibles, le motif du problème et la solution pour le résoudre.  
 
-Les codes panne décrivent les pannes article de service courantes ou les actions effectuées au niveau des articles de service. En fonction du niveau de reporting panne de votre société, il peut être nécessaire de configurer les codes zone panne et symptôme avant les codes panne. Les zones panne décrivent les zones de pannes article de service. Les codes motif panne décrivent le motif des pannes article de service et, si nécessaire, indiquent si les remises garantie et contrat doivent être exclues. Par exemple, vous pouvez être amené à exclure les remises garantie et contrat si le client est responsable de la panne de l'article de service. Vous affectez des codes motif panne aux commandes service. Pour plus d'informations, voir [Procédure : travailler sur des tâches service](service-how-to-work-on-service-tasks.md).  
+Les codes panne décrivent les pannes article de service courantes ou les actions effectuées au niveau des articles de service. En fonction du niveau de reporting panne de votre société, il peut être nécessaire de configurer les codes zone panne et symptôme avant les codes panne. Les zones panne décrivent les zones de pannes article de service. Les codes motif panne décrivent le motif des pannes article de service et, si nécessaire, indiquent si les remises garantie et contrat doivent être exclues. Par exemple, vous pouvez être amené à exclure les remises garantie et contrat si le client est responsable de la panne de l'article de service. Vous affectez des codes motif panne aux commandes service. Pour plus d'informations, voir [Travailler sur des tâches service](service-how-to-work-on-service-tasks.md).  
 
 ## <a name="to-specify-the-overall-level-of-fault-reporting-to-use"></a>Pour spécifier le niveau global du reporting panne à utiliser
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Paramètres services**, puis sélectionnez le lien connexe. 

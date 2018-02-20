@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 4832ef9268629e2f0d82ecb6e7f08e0dc3cdbf0c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4d95f31dd102997ce52f71f06ee9e5356acb8b42
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-view-load-on-work-and-machine-centers"></a>Procédure : afficher la charge des centres de charge et des postes de charge
+# <a name="view-load-on-work-and-machine-centers"></a>Afficher la charge des centres de charge et des postes de charge
 Dans les fenêtres **Fiche centre de charge** et **Fiche poste de charge**, vous pouvez afficher la charge de l'atelier en tant que résultat des ordres de fabrication planifiés et lancés.    
 
 ## <a name="to-view-the-load-on-work-centers"></a>Pour afficher la charge des centres de charge  

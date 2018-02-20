@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 10524be6bcfdc99672496b54903e4f04c33108ce
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 60438f0b6f0d5da60925b5b9c309cc359a8422e3
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="manage-documents"></a>Gérer les documents
@@ -32,5 +32,5 @@ Les commandes service facturées sont habituellement supprimées automatiquement
 Le programme ne supprime pas la commande service automatiquement cependant, si la quantité totale sur la commande a été validée, non pas à partir de la commande service proprement dite, mais à partir de la fenêtre **Facture service**. Ensuite, il se peut que vous deviez supprimer des commandes facturées qui n'ont pas été supprimées. Pour ce faire, exécutez le traitement par lots **Supprimer commandes service facturées**.  
 
 ## <a name="see-also"></a>Voir aussi  
-[Configuration et administration dans Dynamics 365 for Financials](admin-setup-and-administration.md)  
+[Configuration et administration dans Finance and Operations, Business edition](admin-setup-and-administration.md)  
 

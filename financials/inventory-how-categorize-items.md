@@ -13,22 +13,22 @@ ms.search.keywords: category, search, attribute, facet
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: da87c427033d58d92a6a5222bc323c68c4bc3f4e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 64511e0979671d13740bd18d95d53e8e37564583
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-categorize-items"></a>Procédure : catégoriser des articles
+# <a name="categorize-items"></a>Catégoriser des articles
 Pour conserver un aperçu de vos articles et pour vous aider à trier et à trouver les articles, il est utile d'organiser vos articles par catégorie.
 
-Pour trouver les articles par caractéristique, vous pouvez affecter des attributs d'article aux articles et également aux catégories d'article. Pour en savoir plus, voir [Procédure : utiliser les attributs d'article](inventory-how-work-item-attributes.md).
+Pour trouver les articles par caractéristique, vous pouvez affecter des attributs d'article aux articles et également aux catégories d'article. Pour en savoir plus, voir [Utiliser les attributs d'article](inventory-how-work-item-attributes.md).
 
 ## <a name="to-create-an-item-category"></a>Pour créer une catégorie d'article
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Catégories article**, puis sélectionnez le lien connexe.
 2. Dans la fenêtre **Catégories d'article**, sélectionnez l'action **Nouveau**.
 3. Dans la fenêtre **Fiche catégorie d'article**, sur le raccourci **Général**, complétez les champs suivants : [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Sur le raccourci **Attributs**, précisez tout attribut d'article pour la catégorie d'article. Pour en savoir plus, voir la section « Assigner des attributs d'article à une catégorie d'article » dans [Procédure : utiliser les attributs d'article](inventory-how-work-item-attributes.md).
+4. Sur le raccourci **Attributs**, précisez tout attribut d'article pour la catégorie d'article. Pour en savoir plus, voir la section « Assigner des attributs d'article à une catégorie d'article » dans [Utiliser les attributs d'article](inventory-how-work-item-attributes.md).
 
 > [!NOTE]  
 >   Si la catégorie d'article dispose d'une catégorie d'article parent, comme indiqué par le champ **Catégorie parent**, tout attribut d'article assigné à cette catégorie d'article parent est pré-rempli dans le raccourci **Attributs**.
@@ -42,8 +42,8 @@ Pour trouver les articles par caractéristique, vous pouvez affecter des attribu
 3. Sélectionnez le bouton de recherche dans le champ **Code catégorie article** et sélectionnez une catégorie d'article existante. Sinon, sélectionnez l'action **Nouveau** pour créer tout d'abord une nouvelle catégorie d'article comme expliqué dans la section « Créer une catégorie d'article ».
 
 ## <a name="see-also"></a>Voir aussi
-[Procédure : utilisation des attributs d'article](inventory-how-work-item-attributes.md)  
-[Procédure : enregistrer de nouveaux articles](inventory-how-register-new-items.md)  
-[Stock](inventory-manage-inventory.md)  
+[Utiliser les attributs d'article](inventory-how-work-item-attributes.md)  
+[Enregistrer de nouveaux articles](inventory-how-register-new-items.md)  
+[STOCKS ET EN-COURS](inventory-manage-inventory.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

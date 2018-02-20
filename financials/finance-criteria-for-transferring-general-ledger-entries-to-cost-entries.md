@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 59faad50504bff05e6cdb1c78d00553e85faf47e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 67cc593691b4d3fe6a13cd960dce150c1e552da0
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="criteria-for-transferring-general-ledger-entries-to-cost-entries"></a>Critères de transfert des écritures comptables vers les écritures de coûts
@@ -41,7 +41,7 @@ Les écritures comptables ne sont pas transférées si :
 
 ## <a name="see-also"></a>Voir aussi  
 [Comptabilité pour les coûts](finance-manage-cost-accounting.md)  
- [Comment transférer les écritures comptables vers les écritures de coûts](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md)   
+ [Transférer les écritures comptables vers les écritures de coûts](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md)   
  [Transfert et validation des écritures de coûts](finance-transfer-and-post-cost-entries.md)   
  [À propos de la comptabilité analytique](finance-about-cost-accounting.md)  
  [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

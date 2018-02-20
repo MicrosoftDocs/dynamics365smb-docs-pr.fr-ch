@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 143124fd2e458ee756d47d3f8523380cff6826a9
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: a7266eddba4293807a1e7e2a187c5002be771499
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-plan-for-new-demand-order-by-order"></a>Procédure : planifier de nouvelles demandes commande par commande
+# <a name="plan-for-new-demand-order-by-order"></a>Planifier de nouvelles demandes commande par commande
 Cette tâche de planification peut être effectuée dans la fenêtre **Planning commande**, affichant toute nouvelle demande ainsi que les informations de disponibilité et les suggestions d'approvisionnement. Elle fournit la visibilité et les outils nécessaires à la planification efficace des demandes des lignes vente et des lignes composant, puis à la création directe de différents types de commandes approvisionnement.  
 
 Vous pouvez accéder à la fenêtre **Planification commande** de deux manières différentes, en fonction de votre objectif : à partir d'une commande que vous souhaitez planifier spécifiquement ou par lots, car vous souhaitez planifier toutes les nouvelles demandes.  

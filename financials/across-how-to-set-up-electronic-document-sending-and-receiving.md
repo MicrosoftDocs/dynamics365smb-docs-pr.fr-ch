@@ -11,24 +11,24 @@ ms.search.keywords:
 ms.date: 08/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: af4f55a85b0269832c6afba791f2499aebf0979c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f597ce7dc0d4cda526da00d9aac5b1178c5e7a14
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-electronic-document-sending-and-receiving"></a>Procédure : Configurer l'envoi et la réception de documents électroniques
+# <a name="set-up-electronic-document-sending-and-receiving"></a>Configurer l'envoi et la réception de documents électroniques
 Comme alternative à l'envoi par courrier électronique sous forme de fichiers joints, vous pouvez envoyer et recevoir des documents commerciaux par voie électronique. Par document électronique, on entend un fichier conforme aux normes représentant un document commercial comme une facture fournisseur que vous pouvez recevoir et convertir en facture achat dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. L'échange de documents électroniques entre deux partenaires commerciaux est exécuté par un fournisseur externe de services d'échange de documents. La version générique de [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge l'envoi et la réception de factures et d'avoirs électroniques au format PEPPOL, qui est pris en charge par les principaux fournisseurs de services d'échange de documents. Un fournisseur principal de services d'échange de documents est préconfiguré et prêt à être installé pour votre société.  
 
 À partir de fichiers PDF ou image représentant des documents entrants, un service OCR externe (reconnaissance optique de caractères) peut créer des documents électroniques pouvant être convertis en enregistrements de document dans [!INCLUDE[d365fin](includes/d365fin_md.md)], comme pour les documents électroniques PEPPOL. Par exemple, lorsque vous recevez une facture au format PDF de votre fournisseur, vous pouvez l'envoyer au service OCR à partir de la fenêtre **Documents entrants**. Après quelques secondes, vous recevrez le fichier sous forme de facture électronique pouvant être convertie en facture achat pour le fournisseur. Si vous envoyez le fichier au service OCR par courrier électronique, un enregistrement de document entrant est automatiquement créé lorsque vous recevez le document électronique.  
 
-Le format de document électronique **PEPPOL** est préconfiguré pour vous permettre d'envoyer les factures et des avoirs électroniques au format PEPPOL. Au préalable, vous devez configurer différentes données de base, telles que les informations sur la société, les clients, les articles, et les unités de mesure. Ceux-ci sont utilisés pour identifier les partenaires commerciaux et les articles lors de la conversion des données dans des champs dans [!INCLUDE[d365fin](includes/d365fin_md.md)] en éléments figurant dans le fichier document sortant. Enfin, vous devez sélectionner le format dans la fenêtre **Format de document électronique** pour chaque client à qui vous enverrez des documents électroniques PEPPOL. Pour plus d'informations, voir [Procédure : envoyer des documents électroniques](sales-how-to-send-electronic-documents.md).  
+Le format de document électronique **PEPPOL** est préconfiguré pour vous permettre d'envoyer les factures et des avoirs électroniques au format PEPPOL. Au préalable, vous devez configurer différentes données de base, telles que les informations sur la société, les clients, les articles, et les unités de mesure. Ceux-ci sont utilisés pour identifier les partenaires commerciaux et les articles lors de la conversion des données dans des champs dans [!INCLUDE[d365fin](includes/d365fin_md.md)] en éléments figurant dans le fichier document sortant. Enfin, vous devez sélectionner le format dans la fenêtre **Format de document électronique** pour chaque client à qui vous enverrez des documents électroniques PEPPOL. Pour plus d'informations, voir [Envoyer des documents électroniques](sales-how-to-send-electronic-documents.md).  
 
 Les définitions d'échange de données **PEPPOL - Facture** et **PEPPOL – Avoir** sont préconfigurées pour vous permettre de recevoir les factures électroniques et les avoirs au format PEPPOL. Au préalable, vous devez configurer différentes données de base, telles que les informations sur la société, les fournisseurs, les articles, et les unités de mesure. Celles-ci sont utilisées pour identifier les partenaires commerciaux et les articles lors de la conversion des données en fichier document entrant dans des champs dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Enfin, vous devez sélectionner la définition d'échange de données dans la fenêtre **Documents entrants** pour chaque document électronique entrant que vous souhaitez convertir en document achat dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-La définition d'échange de données **OCR - Facture** est préconfigurée pour vous permettre de recevoir des documents électroniques générés par le service OCR. Pour recevoir, par exemple, une facture en tant que document OCR électronique, vous configurez une date principale, puis traitez le document comme lorsque vous recevez un document PEPPOL électronique. Pour en savoir plus, voir [Procédure : utiliser un service OCR pour convertir des fichiers PDF et image en documents électroniques](across-how-use-ocr-pdf-images-files.md).  
+La définition d'échange de données **OCR - Facture** est préconfigurée pour vous permettre de recevoir des documents électroniques générés par le service OCR. Pour recevoir, par exemple, une facture en tant que document OCR électronique, vous configurez une date principale, puis traitez le document comme lorsque vous recevez un document PEPPOL électronique. Pour en savoir plus, voir [Utiliser un service OCR pour convertir des fichiers PDF et image en documents électroniques](across-how-use-ocr-pdf-images-files.md).  
 
-Les services préconfigurés pour l'échange de documents et pour le service OCR doivent être activés avant l'envoi ou la réception. Pour plus d'informations, reportez vous à [Procédure : configurer un service d'échange de document](across-how-to-set-up-a-document-exchange-service.md).  
+Les services préconfigurés pour l'échange de documents et pour le service OCR doivent être activés avant l'envoi ou la réception. Pour plus d'informations, reportez vous à [Configurer un service d'échange de document](across-how-to-set-up-a-document-exchange-service.md).  
 
 La rubrique contient les procédures suivantes :  
 
@@ -95,20 +95,20 @@ La rubrique contient les procédures suivantes :
     |**N° identif. intracomm.**|Spécifiez le numéro d'identification intra-communautaire du client. **Astuce :** choisissez le bouton Analyser pour utiliser le service Web qui vérifie si le numéro existe dans le registre des sociétés du pays.|  
     |**Centre de gestion**|Si le client est configuré avec un centre de gestion, assurez-vous que le champ **Code pays/région** est renseigné.|  
 
-    Vous pouvez configurer chaque client avec une méthode préférée d'envoi de documents commerciaux, afin d'éviter d'avoir à sélectionner une option d'envoi chaque fois que vous envoyez un document au client. Pour plus d'informations, reportez vous à [Procédure : configurer des profils d'envoi de documents](sales-how-setup-document-send-profiles.md).  
+    Vous pouvez configurer chaque client avec une méthode préférée d'envoi de documents commerciaux, afin d'éviter d'avoir à sélectionner une option d'envoi chaque fois que vous envoyez un document au client. Pour plus d'informations, reportez vous à [Configurer des profils d'envoi de documents](sales-how-setup-document-send-profiles.md).  
 
 ### <a name="to-select-the-peppol-electronic-document-format-for-electronic-document-sending"></a>Sélectionner le format de document électronique PEPPOL pour l'envoi d'un document électronique  
 1. Dans la zone **Rechercher**, entrez **Profils d'envoi de documents**, puis choisissez le lien associé.  
-2. Ouvrez un profil existant d'envoi de document, ou créez-en un. Pour plus d'informations, reportez vous à [Procédure : configurer des profils d'envoi de documents](sales-how-setup-document-send-profiles.md).  
+2. Ouvrez un profil existant d'envoi de document, ou créez-en un. Pour plus d'informations, reportez vous à [Configurer des profils d'envoi de documents](sales-how-setup-document-send-profiles.md).  
 3. Dans la fenêtre **Profil d'envoi de documents**, choisissez le **Format électronique**, sélectionnez la ligne associée à PEPPOL, puis sélectionnez **OK**.  
 4. Dans le champ **Document électronique**, sélectionnez **Oui (via le service d'échange de documents)**.  
 
     > [!NOTE]  
-    >  [!INCLUDE[d365fin](includes/d365fin_md.md)] détecte automatiquement si le document est une facture ou un avoir et applique le format PEPPOL en conséquence.  
+    >  [!INCLUDE[d365fin](includes/d365fin_md.md)]  détecte automatiquement si le document est une facture ou un avoir et applique le format PEPPOL en conséquence.  
 
-5. Pour que ce profil d'envoi de document s'applique à tous les clients, activez la case à cocher **Par défaut** sur le raccourci **Général**. Pour que cette opération ne s'applique qu'à des clients spécifiques, renseignez le champ **Profil d'envoi de documents** des fiches article en question. Pour plus d'informations, reportez vous à [Procédure : configurer des profils d'envoi de documents](sales-how-setup-document-send-profiles.md).  
+5. Pour que ce profil d'envoi de document s'applique à tous les clients, activez la case à cocher **Par défaut** sur le raccourci **Général**. Pour que cette opération ne s'applique qu'à des clients spécifiques, renseignez le champ **Profil d'envoi de documents** des fiches article en question. Pour plus d'informations, reportez vous à [Configurer des profils d'envoi de documents](sales-how-setup-document-send-profiles.md).  
 
-    Vous pouvez désormais envoyer le document électronique contenant des données converties. Pour plus d'informations, voir [Procédure : envoyer des documents électroniques](sales-how-to-send-electronic-documents.md).  
+    Vous pouvez désormais envoyer le document électronique contenant des données converties. Pour plus d'informations, voir [Envoyer des documents électroniques](sales-how-to-send-electronic-documents.md).  
 
 ### <a name="to-set-up-vendors-for-electronic-document-receiving"></a>Configurer les fournisseurs pour la réception d'un document électronique  
 1. Dans la zone **Rechercher**, entrez **Fournisseurs**, puis sélectionnez le lien associé.  
@@ -126,7 +126,7 @@ La rubrique contient les procédures suivantes :
 
      Si le document à recevoir est un avoir, sélectionnez **PEPPOLCREDITMEMO**.  
 
-    Vous pouvez désormais recevoir le document électronique en démarrant le processus de conversion de données dans la fenêtre **Documents entrants**. Pour plus d'informations; voir [Procédure : recevoir et convertir des documents électroniques](purchasing-how-to-receive-and-convert-electronic-documents.md).  
+    Vous pouvez désormais recevoir le document électronique en démarrant le processus de conversion de données dans la fenêtre **Documents entrants**. Pour plus d'informations; voir [Recevoir et convertir des documents électroniques](purchasing-how-to-receive-and-convert-electronic-documents.md).  
 
 ### <a name="to-set-up-the-gl-account-to-use-on-new-purchase-invoice-lines-for-non-identifiable-items-and-non-items"></a>Configurer le compte général pour utiliser de nouvelles lignes facture achat pour des articles non identifiables et des non-articles  
 1. Dans la zone **Rechercher**, entrez **Achats**, puis choisissez le lien associé.  
@@ -138,6 +138,6 @@ La rubrique contient les procédures suivantes :
 
 ## <a name="see-also"></a>Voir aussi  
 [Échanger des données par voir électronique](across-data-exchange.md)   
-[Procédure : facturer des ventes](sales-how-invoice-sales.md)   
-[Procédure : enregistrer des achats](purchasing-how-record-purchases.md)
+[Facturer des ventes](sales-how-invoice-sales.md)   
+[Enregistrer des achats](purchasing-how-record-purchases.md)
 

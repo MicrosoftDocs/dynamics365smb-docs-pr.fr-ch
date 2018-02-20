@@ -1,6 +1,6 @@
 ---
 title: "Procédure de configuration des centres de charge et des postes de charge | Microsoft Docs"
-description: "Les fiches **Centre de charge** organisent les exigences et les valeurs fixes des ressources de production, et régissent ainsi la production des centres de charge."
+description: "Les fiches **centre de charge** organisent les exigences et les valeurs fixes des ressources de production, et régissent ainsi la production des centres de charge."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/19/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 99ca93d4fd67ec424e54961ad5623c9986e5fe7c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 45477104c003d60786961f4329c1543a96be5b0c
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-work-centers-and-machine-centers"></a>Procédure : configurer les centres de charge et les postes de charge
+# <a name="set-up-work-centers-and-machine-centers"></a>Configurer les centres de charge et les postes de charge
 L'application distingue trois types de capacité. Ces capacités sont ordonnées de façon hiérarchique. Chaque niveau contient les niveaux subordonnés.  
 
 Le premier niveau correspond au groupe centres de charge. Des centres de charge sont affectés aux groupes centres de charge. Chaque centre de charge ne peut appartenir qu'à un seul groupe centres de charge.
@@ -28,7 +28,7 @@ Vous pouvez affecter plusieurs postes de charge à chaque centre de charge. Un p
 
 La capacité planifiée d'un centre de charge se compose de la disponibilité des postes de charge correspondants et de la disponibilité planifiée du centre de charge. La disponibilité planifiée du groupe centres de charge correspond donc au total de toutes les disponibilités des postes de charge et des centres de charge qui le composent.  
 
-La disponibilité est enregistrée dans les écritures calendrier. Avant de configurer des centres ou postes de charge, vous devez configurer des calendriers usine. Pour plus d'informations, voir [Procédure : créer des calendriers usine](production-how-to-create-work-center-calendars.md).  
+La disponibilité est enregistrée dans les écritures calendrier. Avant de configurer des centres ou postes de charge, vous devez configurer des calendriers usine. Pour plus d'informations, voir [Créer des calendriers usine](production-how-to-create-work-center-calendars.md).  
 
 ## <a name="to-set-up-a-work-center"></a>Pour configurer un centre de charge
 La procédure suivante décrit essentiellement comment configurer un centre de charge. La procédure de configuration d'un calendrier poste de charge est similaire, sauf pour le raccourci **Paramètres gamme**.  
@@ -37,7 +37,7 @@ La procédure suivante décrit essentiellement comment configurer un centre de c
 2.  Sélectionnez l'action **Nouveau**.  
 3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Dans le champ **Groupe centres de charge**, sélectionnez le regroupement de ressources de niveau supérieur sous lequel le centre de charge est organisé, au besoin. Choisissez l'action **Nouveau** dans la liste déroulante.  
-5.  Sélectionnez le champ **Bloqué** pour empêcher le centre de charge d'être utilisé pour quelque traitement que ce soit. Cela signifie que la production ne peut pas être validée pour un article produit dans le centre de charge. Pour plus d'informations, voir [Procédure : valider la production](production-how-to-post-output-quantity.md).
+5.  Sélectionnez le champ **Bloqué** pour empêcher le centre de charge d'être utilisé pour quelque traitement que ce soit. Cela signifie que la production ne peut pas être validée pour un article produit dans le centre de charge. Pour plus d'informations, voir [Valider la production](production-how-to-post-output-quantity.md).
 6.  Dans le champ **Coût unitaire direct**, entrez le coût de production d'une unité de mesure dans le centre de charge, sans intégrer les autres éléments de coût. Ce coût est souvent appelé *frais de main-d'œuvre directs*.  
 7.  Dans le champ **% coût indirect**, entrez les coûts opératoires généraux de l'utilisation du centre de charge sous la forme d'un pourcentage du coût unitaire direct. Ce pourcentage est ajouté au coût direct lors du calcul du coût unitaire.  
 8.  Dans le champ **Frais généraux**, entrez tous les coûts non opératoires, comme les frais de maintenance, du centre de charge sous la forme d'un montant absolu.  
@@ -68,7 +68,7 @@ La procédure suivante décrit essentiellement comment configurer un centre de c
 13.  Dans le champ **Capacité**, indiquez si le centre de charge a plusieurs postes ou personnes travaillant simultanément. Si votre installation de [!INCLUDE[d365fin](includes/d365fin_md.md)] n'inclut pas la fonctionnalité de poste de charge, la valeur de ce champ doit être **1**.  
 14.  Dans le champ **Rendement**, entrez le pourcentage de la production standard prévue qui est réalisé par le centre de charge. Si vous entrez **100**, cela signifie que la production réelle du centre de charge est identique à la production standard.  
 15. Activez la case à cocher **Calendrier consolidé** si vous utilisez également des postes de charge. Ainsi, les écritures calendrier sont générées à partir des calendriers de poste de charge.  
-16.  Dans le champ **Code calendrier usine**, sélectionnez un calendrier usine. Pour plus d'informations, voir [Procédure : créer des calendriers usine](production-how-to-create-work-center-calendars.md).  
+16.  Dans le champ **Code calendrier usine**, sélectionnez un calendrier usine. Pour plus d'informations, voir [Créer des calendriers usine](production-how-to-create-work-center-calendars.md).  
 17.  Dans le champ **File d'attente**, spécifiez le délai fixe qui doit s'écouler avant que le travail attribué ne commence dans le centre de charge. Notez que la file d'attente ainsi définie est ajoutée aux autres éléments de temps non productifs, tels que le temps d'attente et le temps de transfert, définis sur les lignes gamme utilisant ce centre de charge.  
 
 ## <a name="example---different-machine-centers-assigned-to-a-work-center"></a>Exemple - Plusieurs postes de charge sont affectés à un centre de charge
@@ -83,7 +83,7 @@ Lorsque les capacités des centres de charge n'ajoutent en rien à la capacité 
 ## <a name="to-set-up-a-capacity-constrained-machine-or-work-center"></a>Pour configurer un centre de charge ou un poste de charge à la capacité critique
 Vous devez configurer les ressources de production que vous considérez comme critique et de l'accepter comme une charge limitée au lieu de la charge illimitée par défaut que d'autres ressources de production acceptent. Une capacité critique peut être un centre de charge ou un poste de charge que vous avez identifié comme étant un goulot d'étranglement et pour lequel vous souhaitez établir une charge limitée.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] ne prend pas en charge le contrôle détaillé d'atelier. Il prévoit une utilisation des ressources faisable via une planification approximative, mais il ne crée ni ne met à jour automatiquement des plannings détaillés sur la base des priorités ou des règles d'optimisation.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  ne prend pas en charge le contrôle détaillé d'atelier. Il prévoit une utilisation des ressources faisable via une planification approximative, mais il ne crée ni ne met à jour automatiquement des plannings détaillés sur la base des priorités ou des règles d'optimisation.
 
 Dans la fenêtre **Capacités critiques**, vous pouvez effectuer un paramétrage qui évite la surcharge de ressources spécifiques et permet de s'assurer qu'aucune capacité n'est laissée non affectée si elle peut augmenter le délai d'exécution d'un ordre de fabrication. Dans le champ **Seuil (% capacité totale)**, vous pouvez ajouter un seuil aux ressources afin de réduire la répartition des opérations. Cela permet au système de planifier la charge sur le dernier jour possible en dépassant légèrement le pourcentage de charge critique si ceci peut réduire le nombre d'opérations qui sont divisées.
 
@@ -99,7 +99,7 @@ Lors de la planification avec des ressources avec contraintes de capacité, le s
 > En cas de répartition des opérations, le temps de préparation n'est affecté qu'une fois car on suppose qu'un certain ajustement manuel est effectué pour optimiser le planning.
 
 ## <a name="see-also"></a>Voir aussi  
-[Procédure : créer des calendriers usine](production-how-to-create-work-center-calendars.md)  
+[Créer des calendriers usine](production-how-to-create-work-center-calendars.md)  
 [Paramétrage de la production](production-configure-production-processes.md)  
 [Production](production-manage-manufacturing.md)    
 [Planifié](production-planning.md)   

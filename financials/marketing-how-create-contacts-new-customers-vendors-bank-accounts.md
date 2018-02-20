@@ -13,13 +13,13 @@ ms.search.keywords: relationship, client, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 289213b9c44b07387fd0dcf315b9d08750bdd9f7
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 0c4cf74ef7b0b2e48a8608a0859a71b919e46397
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-a-customer-vendor-or-bank-account-from-a-contact"></a>Procédure : créer un client, un fournisseur ou un compte bancaire à partir d'un contact
+# <a name="create-a-customer-vendor-or-bank-account-from-a-contact"></a>Créer un client, un fournisseur ou un compte bancaire à partir d'un contact
 Vous pouvez enregistrer certains de vos contacts existants en tant que clients, fournisseurs ou comptes bancaires. Créer un client, un fournisseur ou un compte bancaire à partir d'un contact vous permet d'utiliser des données existantes. Lorsque vous créez un client, un fournisseur ou un compte bancaire de cette façon, celui-ci est synchronisé avec le contact. Avec la synchronisation les informations communes entre les contacts et les clients, les fournisseurs ou les comptes bancaires sont identiques.
 
 Avant de pouvoir enregistrer des contacts de cette manière, vous devez spécifier un code relation d'affaires pour les clients, les fournisseurs et les comptes bancaires dans la fenêtre **Paramètres marketing**. Si vous devez enregistrer des contacts en tant que comptes bancaires, vous devez également spécifier des souches de numéros pour les comptes bancaires dans la fenêtre **Paramètres comptabilité**.
@@ -33,11 +33,11 @@ Avant de pouvoir enregistrer des contacts de cette manière, vous devez spécifi
 Les informations du contact sont transférées depuis la fiche **Contact** vers la fiche **Compte bancaire**, **Client** ou **Fournisseur**. Vous pouvez ajouter des informations spécifiques à chacune des fiches, telles que des informations sur les factures ou les paiements.
 
 ## <a name="see-also"></a>Voir aussi
-[Procédure : créer des sociétés contact](marketing-create-contact-companies.md)  
-[Procédure : créer des personnes contact](marketing-create-contact-persons.md)  
+[Création de sociétés contact](marketing-create-contact-companies.md)  
+[Création de personnes contact](marketing-create-contact-persons.md)  
 [Paramétrage de la Gestion des relations](marketing-setup-marketing.md)  
 [Synchronisation des contacts avec les clients, les fournisseurs et les comptes bancaires](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
-[Procédure : associer des contacts avec des clients, des fournisseurs ou des comptes bancaires existants](marketing-how-link-contact.md)  
+[Associer des contacts avec des clients, des fournisseurs ou des comptes bancaires existants](marketing-how-link-contact.md)  
 [Affecter des relations d'affaires à un contact](marketing-business-relations.md#AssignBusRelContact)  
-[Utilisation de Dynamics 365](ui-work-product.md)
+[Utilisation de Finance and Operations, Business edition](ui-work-product.md)
 

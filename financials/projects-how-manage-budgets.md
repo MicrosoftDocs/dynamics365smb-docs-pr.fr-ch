@@ -13,16 +13,16 @@ ms.search.keywords: project budget, forecast
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 0e480c67ddb2acd5e98799c98cb1cd9d972889df
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e88eaebf65d950dcbb6c0296be24e68628a9494e
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-manage-job-budgets"></a>Procédure : Gérer les budgets de projets
+# <a name="manage-job-budgets"></a>Gérer les budgets de projets
 Vous pouvez configurer un budget pour chaque projet. Le budget permet de planifier les ressources que vous affectez à un projet. Il peut s'agir d'un budget général avec peu d'écritures ou plus détaillé avec des écritures réparties par niveau d'activité. Vous pouvez alors comparer les montants budgétés avec l'activité réelle telle qu'elle a été enregistrée dans la feuille projet. En surveillant les différences entre l'activité réelle et celle budgétée, vous pouvez contrôler un projet en cours et améliorer la qualité des projets futurs en réduisant le risque de sous-estimation des coûts.
 
-La procédure suivante décrit comment estimer les coûts budgétés lors de la planification. Pour plus d'informations sur l'enregistrement budgété par rapport aux prix et aux coûts réels du projet, voir [Procédure : Enregistrer l'utilisation pour les projets](projects-how-record-job-usage.md).  
+La procédure suivante décrit comment estimer les coûts budgétés lors de la planification. Pour plus d'informations sur l'enregistrement budgété par rapport aux prix et aux coûts réels du projet, voir [Enregistrer l'utilisation pour les projets](projects-how-record-job-usage.md).  
 
 ## <a name="JobBudgetCosts"></a> Pour estimer les coûts budgétés d'un projet
 Lorsqu'un client souhaite connaître le prix d'un projet qui sera facturé en fonction de l'activité, vous devez déterminer les coûts budgétés du projet. Réalisez cette opération dans la fenêtre **Lignes tâche projet**.
@@ -48,7 +48,7 @@ Reportez-vous aux informations suivantes pour le champ **Type ligne**.
 
 Dans la fenêtre **Fiche projet**, vous pouvez désormais voir un résumé des coûts budgétés totaux, des prix budgétés, du coût facturable et du prix facturable pour chaque tâche.
 
-Pour plus d'informations sur l'enregistrement budgété par rapport aux prix et aux coûts réels du projet, voir [Procédure : Enregistrer l'utilisation pour les projets](projects-how-record-job-usage.md).
+Pour plus d'informations sur l'enregistrement budgété par rapport aux prix et aux coûts réels du projet, voir [Enregistrer l'utilisation pour les projets](projects-how-record-job-usage.md).
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion de projets](projects-manage-projects.md)  

@@ -12,13 +12,13 @@ ms.search.keywords: non-inventoriable
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b9256944295880d6ec9dad916eb9632b9d5f7c20
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2969b3168f063e636455dd67457c01ed89a0727d
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# Procédure : utiliser des articles non stockés
+# <a name="work-with-nonstock-items"></a>Utiliser des articles non stockés
 Vous pouvez proposer certains articles à vos clients pour leur rendre service, que vous ne souhaitez pas conserver en stock tant que vous ne commencez pas à les commercialiser. Lorsque vous souhaitez commencer à maintenir de tels articles en stock, vous pouvez les convertir en fiches article normales de deux façons.
 
 * Depuis une fiche article non stocké, créez une nouvelle fiche article basée sur un modèle.
@@ -29,29 +29,29 @@ Vous pouvez proposer certains articles à vos clients pour leur rendre service, 
 
 Un article non stocké a généralement le numéro d'article du fournisseur qui le fournit. Pour activer la conversion d'une fiche article non stocké en une fiche article normale, vous devez tout d'abord configurer comment la numérotation de l'article fournisseur est convertie dans votre propre numérotation d'article.   
 
-## Pour créer un article non stocké
+## <a name="to-create-a-nonstock-item"></a>Pour créer un article non stocké
 Les fiches article non stocké ont moins d'informations que les fiches article normales, car vous ne les utilisez que pour proposer des devis ainsi que pour d'autres procédures. Pour cette raison, elles doivent être converties en fiches article normales, avant que vous puissiez valider les transactions commerciales pour elles.
 
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Articles non stockés**, puis sélectionnez le lien connexe.
 2. Sélectionnez l'action **Nouveau**.
 3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## Pour configurer comment les numéros d'article non stocké sont convertis en votre propre numérotation
+## <a name="to-set-up-how-nonstock-item-numbers-are-converted-to-your-own-numbering"></a>Pour configurer comment les numéros d'article non stocké sont convertis en votre propre numérotation
 Pour activer la conversion d'une fiche article non stocké en une fiche article normale, vous devez tout d'abord configurer comment la numérotation de l'article fournisseur est convertie dans votre propre format de numérotation d'article.
 
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Paramètres art. non stockés**, puis sélectionnez le lien connexe.
 2. Renseignez les champs selon vos besoins.
 
-## Pour convertir un article non stocké en un article normal
+## <a name="to-convert-a-nonstock-item-to-a-normal-item"></a>Pour convertir un article non stocké en un article normal
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Articles non stockés**, puis sélectionnez le lien connexe.
 2. Ouvrez la fiche pour un article non stocké que vous pouvez convertir en un article normal.
 3. Dans la fenêtre **Fiche article non stocké**, sélectionnez l'action **Créer un article**.
 
-Une nouvelle fiche article pré-remplie avec les informations de l'article non stocké ainsi qu'un modèle d'article pertinent sont créés. Vous pouvez ensuite remplir ou modifier les champs sur la nouvelle fiche article, le cas échéant. Pour plus d'informations, reportez vous à [Procédure : enregistrer de nouveaux articles](inventory-how-register-new-items.md).
+Une nouvelle fiche article pré-remplie avec les informations de l'article non stocké ainsi qu'un modèle d'article pertinent sont créés. Vous pouvez ensuite remplir ou modifier les champs sur la nouvelle fiche article, le cas échéant. Pour plus d'informations, reportez vous à [Enregistrer de nouveaux articles](inventory-how-register-new-items.md).
 
-## Pour vendre un article non stocké et le convertir en article normal
+## <a name="to-sell-a-nonstock-item-and-convert-it-to-a-normal-item"></a>Pour vendre un article non stocké et le convertir en article normal
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Commandes vente**, puis sélectionnez le lien connexe.
-2. Sélectionnez l'action **Nouveau**. Complétez les champs du raccourci **Général** comme pour toute commande vente. Pour en savoir plus, voir [Procédure : vendre des produits](sales-how-sell-products.md).
+2. Sélectionnez l'action **Nouveau**. Complétez les champs du raccourci **Général** comme pour toute commande vente. Pour en savoir plus, voir [Vendre des produits](sales-how-sell-products.md).
 3. Sur une nouvelle ligne vente, dans le champ **Type**, sélectionnez **Article**, mais laissez le champ **N°** vide.
 4. Choisissez l'action **Ligne**, puis l'action **Sélectionner articles non stockés**.
 
@@ -59,14 +59,14 @@ Une nouvelle fiche article pré-remplie avec les informations de l'article non s
 5. Dans la fenêtre **Articles non stockés**, sélectionnez l'article non stocké que vous souhaitez vendre, puis choisissez le bouton **OK**.
 6. Lorsque les lignes commande vente sont renseignées, sélectionnez l'action **Valider**.
 
-Vous pouvez ensuite remplir ou modifier les champs sur la nouvelle fiche article, le cas échéant. Pour plus d'informations, reportez vous à [Procédure : enregistrer de nouveaux articles](inventory-how-register-new-items.md).
+Vous pouvez ensuite remplir ou modifier les champs sur la nouvelle fiche article, le cas échéant. Pour plus d'informations, reportez vous à [Enregistrer de nouveaux articles](inventory-how-register-new-items.md).
 
 > [!NOTE]  
 >   Un enregistrement de référence externe article est automatiquement créé pour le fournisseur de l'article entre le numéro article fournisseur et votre nouveau numéro article.
 
-## Voir aussi
-[Procédure : enregistrer de nouveaux articles](inventory-how-register-new-items.md)  
-[Procédure : créer des commandes spéciales](sales-how-to-create-special-orders.md)|  
+## <a name="see-also"></a>Voir aussi
+[Enregistrer de nouveaux articles](inventory-how-register-new-items.md)  
+[Créer des commandes spéciales](sales-how-to-create-special-orders.md)|  
 [STOCKS ET EN-COURS](inventory-manage-inventory.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

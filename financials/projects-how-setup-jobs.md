@@ -13,13 +13,13 @@ ms.search.keywords: project management
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b0e8a73af6f979cb426db1bffc34d154fc439dce
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2c57b2bd4b4c99373d4ce16905fbf626e549bc1f
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-jobs"></a>Procédure : configurer des projets
+# <a name="set-up-jobs"></a>Configuration de projets
 Dans la fenêtre **Paramètres projets**, vous devez spécifier comment utiliser certaines fonctions de projet.
 
 Sur les fiches projet individuelles, vous devez configurer les prix pour les articles, les ressources et les comptes généraux du projet, puis vous devez configurer des groupes comptabilisation du projet.
@@ -39,7 +39,7 @@ Si vous sélectionnez la case à cocher **Appliquer le lien d'utilisation**, vou
 Lorsque la case à cocher **Appliquer le lien d'utilisation** est activée et que le type de ligne planning projet est **Facturable**, Financials crée une ligne planning projet de type **Budget** une fois la ligne feuille validée.
 
 > [!NOTE]  
->   Si la case à cocher **Appliquer le lien d'utilisation de la fiche projet** est activée et que le champ **Type ligne** sur la ligne feuille projet est vide, alors des lignes planning projet de type ligne **Budget** sont créées lorsque vous validez des lignes feuille. Si la case à cocher **Appliquer le lien d'utilisation** de la fiche projet n'est pas activée et que le champ **Type ligne** sur la ligne feuille projet est vide, dans ce cas aucune ligne planning projet n'est créée lorsque vous validez des lignes feuille. Pour plus d'informations, reportez-vous à [Procédure : Enregistrer l'utilisation pour les projets](projects-how-record-job-usage.md).
+>   Si la case à cocher **Appliquer le lien d'utilisation de la fiche projet** est activée et que le champ **Type ligne** sur la ligne feuille projet est vide, alors des lignes planning projet de type ligne **Budget** sont créées lorsque vous validez des lignes feuille. Si la case à cocher **Appliquer le lien d'utilisation** de la fiche projet n'est pas activée et que le champ **Type ligne** sur la ligne feuille projet est vide, dans ce cas aucune ligne planning projet n'est créée lorsque vous validez des lignes feuille. Pour plus d'informations, voir [Enregistrer l'utilisation pour les projets](projects-how-record-job-usage.md).
 
 1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Paramètres projets**, puis choisissez le lien associé.
 2. Sélectionnez ou désélectionnez la case à cocher **Appliquer le lien d'utilisation**.

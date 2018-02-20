@@ -13,18 +13,18 @@ ms.search.keywords: service, service item, service order, repairs, maintenance
 ms.date: 08/22/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 8a31e312fc12d75d4eb75a191b2b82bf9a6ff3c5
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2d617fa06ea18d6e74f473600020f14d8f286d98
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="how-to-set-up-standard-service-codes"></a>Procédure : configurer des codes prestation standard :
+# <a name="set-up-standard-service-codes"></a>Configurer des codes prestation standard
 Lorsque vous exécutez un service courant, il est fréquent que vous deviez créer des documents service qui utilisent des lignes service contenant des informations similaires. Pour faciliter la création de ces lignes, vous pouvez configurer des codes prestation standard avec un ensemble prédéfini de lignes service. Lorsque vous sélectionnez le code sur un document service, les lignes sont saisies automatiquement. Vous pouvez configurer autant de codes prestation standard que vous le souhaitez, et chaque code peut avoir un nombre illimité de lignes service de différents types, notamment l'article, la ressource, le coût ou le texte standard qui lui est associé. Créez des lignes service pour chaque code prestation standard dans la fiche **Code prestation standard**. Vous pouvez ensuite affecter les codes prestation standard à des groupes articles de service dans la page **Codes gpe articles de service standard**. Par la suite, lorsque vous créez un document service, vous pouvez utiliser l'action **Extraire codes prestation std** pour ajouter des lignes service.  
   
 > [!Tip]
->  Vous pouvez utiliser le même concept pour créer des lignes dans les documents achat et vente. Pour plus d'informations, voir [Procédure : Créer des lignes vente et achat récurrentes](sales-how-work-standard-lines.md).    
+>  Vous pouvez utiliser le même concept pour créer des lignes dans les documents achat et vente. Pour plus d'informations, voir [Créer des lignes vente et achat récurrentes](sales-how-work-standard-lines.md).    
   
 ## <a name="to-set-up-a-standard-service-code"></a>Pour configurer un code prestation standard    
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Codes prestation standard**, puis sélectionnez le lien connexe.  

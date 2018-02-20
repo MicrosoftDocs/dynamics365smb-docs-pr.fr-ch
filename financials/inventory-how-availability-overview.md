@@ -12,19 +12,19 @@ ms.search.keywords: stock
 ms.date: 08/15/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 986f1b00f1a8db237944ec8579d9401ca85dfd8a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: dade893e7ff1c14854274565b40a436a5a9b48c8
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-view-the-availability-of-items"></a>Procédure : voir la disponibilité des articles
+# <a name="view-the-availability-of-items"></a>Voir la disponibilité des articles
 Dans le contexte d'une tâche professionnelle, vous pouvez obtenir des informations avancées sur la disponibilité et l'emplacement d'un article, par exemple en discutant avec un client à propos d'une date de livraison.
 
 Vous pouvez afficher la disponibilité de tous les articles par emplacement, et vous pouvez afficher la disponibilité de chaque article par événement, par période, ou par magasin. Un événement désigne tout mouvement de stock prévu, par exemple une expédition vente ou une réception enlogement transfert.
 
 > [!NOTE]  
->   Les vues de disponibilité par magasin nécessitent la mise à jour de stock dans plusieurs magasins. Pour plus d'informations, reportez-vous à [Procédure : Configurer des magasins](inventory-how-setup-locations.md).
+>   Les vues de disponibilité par magasin nécessitent la mise à jour de stock dans plusieurs magasins. Pour plus d'informations, reportez-vous à [Configurer des magasins](inventory-how-setup-locations.md).
 
 Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], les chiffres de disponibilité sont affichés dans deux champs de définition différents.
 
@@ -35,7 +35,7 @@ Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], les chiffres de disponibilité
 >   Le stock prévisionnel disponible s'avère particulièrement utile dans les fenêtres **Disponibilité art. par période** et **Disponibilité article par événement** car ils contiennent l'axe de date.  
 
 > [!NOTE]  
->   Les procédures suivantes décrivent comment afficher des informations avancées sur la disponibilité de la liste des articles et de la fiche article. Vous pouvez également accéder aux informations à partir des lignes de document vente, pour l'article sur la ligne. Pour en savoir plus, voir [Procédure : vendre des produits](sales-how-sell-products.md).
+>   Les procédures suivantes décrivent comment afficher des informations avancées sur la disponibilité de la liste des articles et de la fiche article. Vous pouvez également accéder aux informations à partir des lignes de document vente, pour l'article sur la ligne. Pour en savoir plus, voir [Vendre des produits](sales-how-sell-products.md).
 
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>Pour afficher la disponibilité d'un article en fonction de sa réception ou de sa livraison
 Vous pouvez afficher la disponibilité d'un article en fonction des mouvements de stock attendus dans la fenêtre **Disponibilité par événement**.
@@ -115,10 +115,10 @@ Si un ou plusieurs composants d'assemblage ne sont pas disponibles, cela est alo
 ## <a name="see-also"></a>Voir aussi
 [Gestion du stock](inventory-manage-inventory.md)  
 [Gestion des assemblages](assembly-assemble-items.md)  
-[Procédure : utiliser les nomenclatures](inventory-how-work-BOMs.md)    
-[Procédure : configurer des magasins](inventory-how-setup-locations.md)  
-[Procédure : transfert de stock entre des magasins](inventory-how-transfer-between-locations.md)  
-[Procédure : vendre des produits](sales-how-sell-products.md)      
-[Utilisation de Dynamics 365](ui-work-product.md)  
+[Utiliser les nomenclatures](inventory-how-work-BOMs.md)    
+[Configurer des magasins](inventory-how-setup-locations.md)  
+[Transfert de stock entre des magasins](inventory-how-transfer-between-locations.md)  
+[Vendre des produits](sales-how-sell-products.md)      
+[Utilisation de Finance and Operations, Business edition](ui-work-product.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)
 

@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 99c3ac10460a62ee23294cfd0d8c25709c37901b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f1ced6c90333c1da9cbd148f199debdc70ed5a46
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-plan-put-aways-in-worksheets"></a>Comment planifier des rangements dans la feuille
+# <a name="plan-put-aways-in-worksheets"></a>Planifier des rangements dans la feuille
 Lorsque le magasin appelle un traitement à la fois de rangement et de réception et que vous souhaitez planifier des instructions de rangement pour plusieurs réceptions, vous pouvez utiliser la feuille rangement (dans ce cas, les magasiniers n'ont pas à suivre les instructions créées par le programme pour différentes réceptions validées).  
 
 Pour configurer votre entrepôt afin que les lignes réception soient disponibles dans la feuille rangement dès leur validation, sélectionnez le champ **Utiliser feuille rangement** sur le raccourci **Entrepôt** de la fiche magasin. Pour plus d'informations, voir [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md).  
@@ -58,7 +58,7 @@ Si vous ne sélectionnez pas ce champ, le programme crée automatiquement des in
 
     -   Vous pouvez affecter le rangement à un employé donné.  
     -   Vous pouvez trier les lignes instruction rangement comme dans la feuille ou par classement emplacement. Lorsque vous effectuez un tri sur la base du classement emplacement, les lignes Prélever apparaissent d'abord, étant donné que la plupart des emplacements réception sont classés au niveau 0, et les lignes emplacement apparaissent ensuite, en commençant par les emplacements les moins bien classés. Si vous avez structuré votre entrepôt de façon à ce que les emplacements de même niveau soient les uns à côté des autres et si vous utilisez cette méthode de tri, les magasiniers éviteront un certain nombre d'étapes.  
-    -   Vous pouvez choisir de ne pas afficher les lignes intermédiaires créées lorsque le programme divise une unité en unités plus petites, en sélectionnant le champ **Filtrer déconditionnement**. Pour plus d'informations, voir [Procédure : activer la rupture de charge automatique avec prélèvement et rangement dirigé] (warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
+    -   Vous pouvez choisir de ne pas afficher les lignes intermédiaires créées lorsque le programme divise une unité en unités plus petites, en sélectionnant le champ **Filtrer déconditionnement**. Pour plus d'informations, voir [Activer la rupture de charge automatique avec prélèvement et rangement dirigé] (warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
     -   Vous pouvez faire en sorte que le champ **Quantité à traiter** des instructions rangement ne soit pas renseigné automatiquement.  
     -   Vous pouvez imprimer immédiatement le document.  
 

@@ -1,6 +1,6 @@
 ---
 title: Gestion des relations| Microsoft Docs
-description: "Les fonctions de gestion des relations dans Dynamics 365 prennent en charge vos efforts en matière de vente et vous permettent d'accéder à des informations sur les contacts et les prospects afin de pouvoir servir vos clients efficacement."
+description: "Les fonctions de gestion des relations dans Finance and Operations, Business edition prennent en charge vos efforts en matière de vente et vous permettent d'accéder à des informations sur les contacts et les prospects afin de pouvoir servir vos clients efficacement."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,10 +13,10 @@ ms.search.keywords: contact, prospect, client
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: cf1ba18fff8691fd6b197f83ddbe9a983fe1a340
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d639c37c8eada6921e7df91703d5413dc7772e38
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-relationships"></a>Gestion des relations
@@ -37,4 +37,7 @@ Pour démarrer, reportez-vous aux rubriques suivantes :
 [Paramétrage de la Gestion des relations](marketing-setup-marketing.md)  
 [Gestion des clients et des ventes créés dans Dynamics 365 for Sales](marketing-integrate-dynamicscrm.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

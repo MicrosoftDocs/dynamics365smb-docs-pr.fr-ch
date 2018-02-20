@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 05/12/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 349ad16c943f7efef7ca920f7adad82c8a1c0d5e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9f389fb58252100eb1302d4b546bef58902f3208
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="post-documents-and-journals"></a>Valider des documents et des feuilles
@@ -30,8 +30,8 @@ Le tableau suivant décrit les tâches associées, et inclut des liens vers les 
 | En savoir plus sur la validation de documents achat. |[Validation des achats](ui-post-purchases.md) |
 | En savoir plus sur la validation de documents vente. |[Validation des ventes](ui-post-sales.md) |
 | En savoir plus sur la validation des feuilles comptabilité. |[Utilisation de feuilles comptabilité](ui-work-general-journals.md) |
-| Obtenir un aperçu, dans une fenêtre, des écritures qui seront créées lors de la validation. |[Procédure : résultats de l'aperçu compta.](ui-how-preview-post-results.md) |
-| Obtenir un aperçu, dans un état, des écritures qui seront créées lors de la validation. |[Procédure : afficher des états de test avant la validation](ui-how-view-test-reports-posting.md) |
+| Obtenir un aperçu, dans une fenêtre, des écritures qui seront créées lors de la validation. |[Résultats de l'aperçu compta.](ui-how-preview-post-results.md) |
+| Obtenir un aperçu, dans un état, des écritures qui seront créées lors de la validation. |[Afficher des états de test avant la validation](ui-how-view-test-reports-posting.md) |
 
 ## <a name="see-also"></a>Voir aussi
 [Fonctionnalités marché](ui-across-business-areas.md)  

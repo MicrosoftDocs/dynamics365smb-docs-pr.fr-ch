@@ -13,10 +13,10 @@ ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
 ms.date: 06/02/2016
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ef549db1af519084b79f85d8815fa89ff707067d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 31fec531df5e601355442c7bf7c6e3e99b8362d8
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-banking"></a>Paramétrage des opérations bancaires
@@ -26,9 +26,9 @@ Pour utiliser les services bancaires électroniques pour importer des relevés b
 
 | Pour | Voir |
 | --- | --- |
-| Configurer des fiches compte bancaire pour chacun de vos comptes bancaires, de manière à ce que vous puissiez gérer vos transactions bancaires. |[Procédure : configuration de comptes bancaires](bank-how-setup-bank-accounts.md) |
-| Configurer un service externe qui vous permet d'importer des relevés bancaires sous forme de flux bancaires pour le lettrage des paiements et les rapprochements bancaires. |[Procédure : configurer le service de flux de la Envestnet Yodlee Bank](bank-how-setup-bank-statement-service.md) |
-| Configurer un service externe qui vous permet d'exporter vos paiements vers la banque pour traitement et d'importer des relevés bancaires sous forme de fichiers bancaires pour le lettrage des paiements et les rapprochements bancaires. |[Procédure : configurer le service de conversion de données bancaires](bank-how-setup-bank-data-conversion-service.md) |
+| Configurer des fiches compte bancaire pour chacun de vos comptes bancaires, de manière à ce que vous puissiez gérer vos transactions bancaires. |[Configuration des comptes bancaires](bank-how-setup-bank-accounts.md) |
+| Configurer un service externe qui vous permet d'importer des relevés bancaires sous forme de flux bancaires pour le lettrage des paiements et les rapprochements bancaires. |[Configurer le service de flux de la Envestnet Yodlee Bank](bank-how-setup-bank-statement-service.md) |
+| Configurer un service externe qui vous permet d'exporter vos paiements vers la banque pour traitement et d'importer des relevés bancaires sous forme de fichiers bancaires pour le lettrage des paiements et les rapprochements bancaires. |[Configurer le service de conversion de données bancaires](bank-how-setup-bank-data-conversion-service.md) |
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion des comptes bancaires](bank-manage-bank-accounts.md)  

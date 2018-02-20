@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 3c3a02aa2251b9b6b18576e9f274d018a617b179
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 45afc7249e921b483d9fcb6860401528746f554a
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Génération des coûts et rapprochement en comptabilité
@@ -30,9 +30,9 @@ ms.lasthandoff: 09/22/2017
 |Afficher la valeur en stock des ordres de fabrication sélectionnés dans votre stock d'en-cours, telle que les quantités et valeurs de consommation, d'utilisation des capacités et de production dans les ordres de fabrication en cours.|**Évaluation du stock - État des travaux en cours**|  
 |Afficher la valeur en stock des articles sélectionnés, y compris leur coût réel et prévu à la date spécifiée.|**Éval. stock - Composante coût**|  
 |Utiliser un état pour analyser les raisons des écarts de coûts ou pour obtenir un aperçu du coût des marchandises vendues (CMV).|État **Analyse des coûts**|  
-|Valider périodiquement les écritures valeur des transactions article de l'écriture inventaire dans les comptes généraux associés pour rapprocher les deux comptabilités.|[Procédure : rapprocher les coûts ajustés avec la comptabilité](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
-|Utiliser une fenêtre pour vérifier le rapprochement de l'écriture inventaire et de la comptabilité.|[Procédure : rapprocher les coûts ajustés avec la comptabilité](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
-|Déterminer le montant TEC devant être valider dans les comptes de bilan pour la génération d'états de clôture d'exercice.|[Procédure : surveiller la progression et les performances](projects-how-monitor-progress-performance.md)|
+|Valider périodiquement les écritures valeur des transactions article de l'écriture inventaire dans les comptes généraux associés pour rapprocher les deux comptabilités.|[Rapprocher les coûts ajustés avec la comptabilité](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
+|Utiliser une fenêtre pour vérifier le rapprochement de l'écriture inventaire et de la comptabilité.|[Rapprocher les coûts ajustés avec la comptabilité](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
+|Déterminer le montant TEC devant être valider dans les comptes de bilan pour la génération d'états de clôture d'exercice.|[Surveiller la progression et les performances](projects-how-monitor-progress-performance.md)|
 
 ## <a name="see-also"></a>Voir aussi  
 [Configuration de l'évaluation du stock](finance-set-up-inventory-valuation-and-costing.md)  

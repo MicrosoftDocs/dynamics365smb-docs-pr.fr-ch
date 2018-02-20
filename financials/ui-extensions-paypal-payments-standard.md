@@ -13,13 +13,13 @@ ms. search.keywords: app, add-in, manifest, customize
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 43511c3c509c495555f4583fdbe982d8b98aa648
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 64d1a76c4d35a87ab7af85e3325b786156f5a62f
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="the-paypal-payments-standard-extension-to-dynamics-365-business-edition"></a>Extension PayPal Payments Standard pour Dynamics 365 Business edition 
+# <a name="the-paypal-payments-standard-extension-to-finance-and-operations-business-edition"></a>L'extension PayPal Payments Standard Extension pour Finance and Operations, Business edition 
 Les clients sont toujours plus exigeants en ce qui concerne le service clientèle, en termes de qualité de produits mais aussi en termes d'options de livraison et de paiement. Le service PayPal Payments Standard vous aide à développer votre service clientèle.
 
 Au lieu de collecter des paiements par l'intermédiaire de transferts bancaires ou de cartes de crédit, vous pouvez proposer à vos clients de vous payer via leur compte Paypal. Lorsque vous envoyez une facture vente ou une commande vente par e-mail, le corps du message et le document PDF en pièce jointe contiennent un lien Paypal. Lorsque le client clique sur le lien, la page de service de leur compte Paypal s'ouvre et affiche les détails de paiement pour la vente. Le client peut ensuite payer la facture comme tout autre paiement Paypal.
@@ -34,7 +34,7 @@ Le service PayPal Payments Standard fournit les avantages suivants :
 * Le service PayPal Payments Standard n'implique aucun frais mensuels ni de frais d'installation.
 * Étant donné qu'il s'agit d'une extension, vous pouvez facilement activer le service PayPal Payment Standard si votre activité l'exige et au moment de votre choix.  
 
-Pour plus d'informations, reportez-vous à [Procédure : activer les paiements client via Paypal](sales-how-enable-payment-service-extensions.md).
+Pour plus d'informations, reportez-vous à [Activer les paiements client via Paypal](sales-how-enable-payment-service-extensions.md).
 
 ## <a name="see-also"></a>Voir aussi
 [Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md)  

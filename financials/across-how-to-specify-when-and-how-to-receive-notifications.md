@@ -13,18 +13,18 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: db0e3f159a0d6a793ed5881118ecff6d0bf6a529
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1c514178ef65b78ad74256834b962e7018ac3864
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-specify-when-and-how-to-receive-notifications"></a>Procédure : spécifier quand et comment recevoir des notifications
+# <a name="specify-when-and-how-to-receive-notifications"></a>Spécifier quand et comment recevoir des notifications
 Lorsque vous paramétrez des utilisateurs dans des workflows d'approbation, vous devez spécifier dans les fenêtres **Paramètres de notification** et **Tableau de notification** quand et comment chaque utilisateur reçoit des notifications sur les étapes du workflow d'approbation. Les utilisateurs individuels peuvent également modifier leur paramètre de notification en choisissant le bouton **Changer les paramètres de notification** sur toute notification.  
 
- Avant de pouvoir paramétrer des préférences de notification d'un utilisateur approbation, vous devez configurer l'utilisateur en tant qu'utilisateur approbation. Pour plus d'informations, voir [Procédure : configurer des utilisateurs d'approbation](across-how-to-set-up-approval-users.md).  
+ Avant de pouvoir paramétrer des préférences de notification d'un utilisateur approbation, vous devez configurer l'utilisateur en tant qu'utilisateur approbation. Pour plus d'informations, voir [Configurer des utilisateurs d'approbation](across-how-to-set-up-approval-users.md).  
 
- Définissez la mise en forme et le contenu des notifications en configurant des modèles de notification. Pour plus d'informations, voir [Procédure : gérer les modèles de notification](across-how-to-manage-notification-templates.md).  
+ Définissez la mise en forme et le contenu des notifications en configurant des modèles de notification. Pour plus d'informations, voir [Gérer les modèles de notification](across-how-to-manage-notification-templates.md).  
 
  Pour un grand nombre d'étapes d'approbation du workflow, il s'agit de notifier des utilisateurs qu'un événement s'est produit et qu'ils peuvent agir dessus. Par exemple, sur une étape de workflow, l'événement peut être que l'Utilisateur 1 demande l'approbation d'un nouvel enregistrement. La réponse associée est qu'une notification est envoyée à l'Utilisateur 2, l'approbateur. Sur la prochaine étape de workflow, l'événement peut être que l'Utilisateur 2 approuve l'enregistrement. La réponse associée est qu'une notification est envoyée à l'Utilisateur 3 afin de commencer un processus avec l'enregistrement approuvé. Pour les étapes de workflow concernant des approbations, chaque notification est liée à une écriture d'approbation. Pour plus d'informations, voir [Flux de travail](across-workflow.md).  
 
@@ -59,8 +59,8 @@ Lorsque vous paramétrez des utilisateurs dans des workflows d'approbation, vous
 2.  Dans la fenêtre **Paramètres de notification**, modifiez vos préférences de notification suivant les instructions de la procédure précédente.  
 
 ## <a name="see-also"></a>Voir aussi  
- [Procédure : configurer des utilisateurs d'approbation](across-how-to-set-up-approval-users.md)   
- [Procédure : gérer les modèles de notification](across-how-to-manage-notification-templates.md)   
+ [Configurer des utilisateurs d'approbation](across-how-to-set-up-approval-users.md)   
+ [Gérer les modèles de notification](across-how-to-manage-notification-templates.md)   
  [Configuration de notifications de workflow](across-setting-up-workflow-notifications.md)   
  [Paramétrage des workflows](across-set-up-workflows.md)   
  [Utilisation des workflows](across-use-workflows.md)

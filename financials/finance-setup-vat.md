@@ -13,14 +13,14 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 04/20/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 733405000725ccfca2a1bdd1bb2a893e6f5f3536
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5861071decd1feac9adf53783038f2927be3c930
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="setting-up-to-calculations-and-posting-methods-for-value-added-tax"></a>Configuration des méthodes de calcul et de validation de la taxe sur la valeur ajoutée
+# <a name="setting-up-calculations-and-posting-methods-for-value-added-tax"></a>Configuration des méthodes de calcul et de validation de la taxe sur la valeur ajoutée
 Les clients et les entreprises payent la TVA lorsqu'ils achètent des biens ou des services. Le montant de la TVA à payer peut varier en fonction de plusieurs facteurs. Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous configurez la TVA pour spécifier les taux à utiliser pour calculer les montants de taxe sur la base des éléments suivants : 
 
 * À qui vous vendez  
@@ -40,7 +40,20 @@ Il est recommandé d'utiliser le guide de configuration assistée Paramètres TV
 
 Pour démarrer le guide de configuration assistée, procédez comme suit :
 1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Configuration assistée**.  
-2. Choisissez **Paramètres TVA**.
+2. Choisissez **Configuration TVA**.
+
+## <a name="to-set-up-vat-registration-numbers-for-your-country-or-region"></a>Pour configurer les numéros d'identification intracommunautaire pour votre pays ou région
+Pour garantir que les personnes entrent des numéros d'identification intracommunautaire valides, vous pouvez définir des formats pour les numéros d'identification intracommunautaire utilisés dans des pays ou des régions dans lesquels vous travaillez. [!INCLUDE[d365fin](includes/d365fin_md.md)] affichera un message d'erreur lorsque un employé fait une erreur ou utilise un format incorrect pour le pays ou la région.
+
+Pour configurer des numéros d'identification intracommunautaire, procédez comme suit :
+1. Cliquez sur l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche") et entrez **Pays/Régions**.
+2. Choisissez le pays ou la régions, puis cliquez sur **Formats n° identif. intracomm**.
+3. Dans le champ **Formats**, définissez le format en saisissant un ou plusieurs des caractères suivants :  
+  
+    |----|----| | # | Requiert un numéro à un seul chiffre. | | @ | Requiert une lettre. Ce texte n'est pas sensible à la casse. | | ? | Tout caractère est autorisé. |
+  
+    > [!Tip]
+    > Vous pouvez utiliser d'autres caractères tant qu'ils sont présents dans le format du pays ou de la région. Par exemple, si vous souhaitez inclure un point ou un trait d'union entre des séries de chiffres, vous pouvez définir le format sous la forme ##.####.### ou @@-###-###.  
 
 ## <a name="to-set-up-vat-business-posting-groups"></a>Pour configurer des groupes comptabilisation marché TVA
 Les groupes comptabilisation marché TVA doivent représenter les marchés dans lesquels vous faites des affaires avec les clients et fournisseurs, et définissent comment calculer et valider la TVA dans chaque marché. Des exemples de groupes comptabilisation marché TVA sont **France** et **Union Européenne (UE)**.  
@@ -64,7 +77,7 @@ Pour configurer un groupe comptabilisation marché TVA, procédez comme suit :
 2. Renseignez les champs selon vos besoins.
 
 ## <a name="to-combine-vat-posting-groups-in-vat-posting-setups"></a>Pour regrouper des groupes comptabilisation TVA dans les paramètres comptabilisation TVA
-[!INCLUDE[d365fin](includes/d365fin_md.md)] calcule les montants de TVA sur les ventes et les achats en fonction des paramètres comptabilisation TVA, qui sont des combinaisons de groupes comptabilisation marché et produit TVA. Pour chaque combinaison, vous pouvez spécifier le pourcentage de TVA, le mode calcul TVA et les comptes généraux pour la validation de la TVA pour les achats, les ventes, ainsi que les taxes déductibles. Vous pouvez également indiquer si la TVA doit être recalculée lorsqu'un escompte est appliqué ou reçu.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  calcule les montants de TVA sur les ventes et les achats en fonction des paramètres comptabilisation TVA, qui sont des combinaisons de groupes comptabilisation marché et produit TVA. Pour chaque combinaison, vous pouvez spécifier le pourcentage de TVA, le mode calcul TVA et les comptes généraux pour la validation de la TVA pour les achats, les ventes, ainsi que les taxes déductibles. Vous pouvez également indiquer si la TVA doit être recalculée lorsqu'un escompte est appliqué ou reçu.  
 
 Définissez autant de combinaisons que nécessaire. Si vous voulez regrouper des combinaisons de paramètres comptabilisation TVA avec des attributs similaires, vous pouvez définir un **Identifiant TVA** pour chaque groupe et affecter l'identifiant aux membres du groupe.
 
@@ -201,11 +214,11 @@ Avant de configurer l'outil de modification du taux de TVA, vous devez vous pré
 * Sauvegardez les données.
 
 ### <a name="to-set-up-the-vat-rate-change-tool"></a>Pour configurer l'outil de modification du taux de TVA  
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Paramètres modification taux TVA**, puis sélectionnez le lien connexe.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), saisissez **Paramètres modification taux TVA**, puis sélectionnez le lien connexe.  
 2. Sur les raccourcis **Données principales**, **Feuilles** et **Documents**, sélectionnez la valeur d'un groupe de comptabilisation dans la liste des options pour les champs requis.  
   
 ### <a name="to-set-up-product-posting-group-conversion"></a>Pour paramétrer une conversion du groupe de comptabilisation du produit  
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Paramètres modification taux TVA**, puis sélectionnez le lien connexe.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), saisissez **Paramètres modification taux TVA**, puis sélectionnez le lien connexe.  
 2. Dans la page **Paramètres modification taux TVA**, sous l'onglet **Accueil**, dans le groupe **Processus**, choisissez **Conv. groupe compta. produit TVA** ou **Conv. groupe compta. produit général**.  
 3. Dans le champ **Code début**, saisissez le groupe de comptabilisation actuel.  
 4. Dans le champ **Code fin**, saisissez le nouveau groupe de comptabilisation.  
@@ -219,7 +232,7 @@ Vous utilisez l'outil de modification de la TVA pour gérer les variations du ta
 > [!IMPORTANT]  
 >  Avant d'effectuer la conversion de modification du taux de TVA, vous pouvez tester la conversion. Pour ce faire, suivez la procédure ci-dessous, mais veillez à désactiver les cases à cocher **Effectuer la conversion** et **Outil de modification du taux de TVA terminé**. Lors de la conversion test, le champ **Converti** de la table **Écriture journal modification taux TVA** est supprimé et le champ **Date conversion** de la table **Écriture journal modification taux TVA** est vide. Une fois la conversion terminée, choisissez **Écritures journal modification pour taux de TVA** pour afficher les résultats de la conversion test. Vérifiez chaque écriture avant d'exécuter la conversion. Vérifiez en particulier les transactions qui utilisent un ancien taux de TVA.     
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Modification taux TVA**, puis sélectionnez le lien **Paramètres modification taux TVA**.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), saisissez **Modification taux TVA**, puis sélectionnez le lien **Paramètres modification taux TVA**.  
 2. Vérifiez que vous avez déjà configuré une conversion de groupe comptabilisation produit TVA ou une conversion de groupe comptabilisation produit général.  
 3. Activez la case à cocher **Effectuer la conversion**.  
   
@@ -235,4 +248,4 @@ Vous utilisez l'outil de modification de la TVA pour gérer les variations du ta
 ## <a name="see-also"></a>Voir aussi  
 [Configuration de la TVA sur encaissement](finance-setup-unrealized-vat.md)  
 [Procédure : Déclarer la TVA à l’administration fiscale](finance-how-report-vat.md)  
-[Procédure : utiliser la TVA sur les ventes et les achats](finance-work-with-vat.md)  
+[Utiliser la TVA sur les ventes et les achats](finance-work-with-vat.md)  

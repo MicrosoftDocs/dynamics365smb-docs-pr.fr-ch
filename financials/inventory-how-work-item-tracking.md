@@ -13,20 +13,20 @@ ms.search.keywords:
 ms.date: 08/22/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 326c7931cc0217c72ede62d5516dba5f4ee6fa32
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f9672af6dc4f87f52773a91c587f60c6afe98b8f
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-serial-and-lot-numbers"></a>Procédure : utiliser les numéros de lot et de série
+# <a name="work-with-serial-and-lot-numbers"></a>Utiliser les numéros de lot et de série
 Vous pouvez affecter des numéros de série et de lot à n'importe quel document sortant ou entrant, puis afficher les écritures traçabilité validées dans les écritures comptables articles correspondantes. Vous effectuez le travail dans la fenêtre **Lignes traçabilité**.
 
 La matrice des champs de quantité figurant en haut de la fenêtre **Lignes traçabilité** affiche les quantités et les sommes des numéros traçabilité qui sont définis dans les lignes. Les quantités doivent correspondre à celles de la ligne document dont les champs **Non défini** sont paramétrés sur 0.
 
 En vue de mesurer les performances, le programme collecte les informations de disponibilité dans la fenêtre **Lignes traçabilité**, une fois seulement, lorsque vous ouvrez la fenêtre. Aussi, le programme ne met pas à jour les informations de disponibilité pendant que la fenêtre est ouverte, même si des modifications sont apportées dans le stock ou d'autres documents à ce moment.
 
-Les articles portant des numéros de série ou de lot peuvent être suivis en amont et en aval de leur chaîne d'approvisionnement. Cela est utile pour l'assurance qualité générale et pour les rappels de produit. Pour plus d'informations, voir [Procédure : tracer des articles suivis](inventory-how-to-trace-item-tracked-items.md).
+Les articles portant des numéros de série ou de lot peuvent être suivis en amont et en aval de leur chaîne d'approvisionnement. Cela est utile pour l'assurance qualité générale et pour les rappels de produit. Pour plus d'informations, voir [Tracer des articles suivis](inventory-how-to-trace-item-tracked-items.md).
 
 ## <a name="about-picking-serial-or-lot-numbers-in-the-warehouse"></a>À propos du prélèvement de numéros de série ou de lot dans l'entrepôt
 Le traitement en sortie des numéros de série ou de lot est une tâche fréquente qui est réalisée au cours de différents processus entrepôt.  
@@ -236,7 +236,7 @@ La valeur des champs **N° de série** et **N° lot** ne peut pas être modifié
 Le reclassement de la traçabilité pour un article consiste à remplacer un numéro de lot ou de série par un autre ou à remplacer la date de péremption par une autre. Si vous travaillez avec des lots, vous pouvez fusionner plusieurs lots en un seul. Vous traitez ces tâches à l'aide de la feuille reclassement.
 
 1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille reclassement article**, puis sélectionnez le lien connexe.  
-2.  Renseignez la ligne à l'aide des informations appropriées. Pour plus d'informations, voir [Procédure : Inventaire, ajustement et reclassement du stock](inventory-how-count-adjust-reclassify.md).
+2.  Renseignez la ligne à l'aide des informations appropriées. Pour plus d'informations, voir [Inventaire, ajustement et reclassement du stock](inventory-how-count-adjust-reclassify.md).
 3.  Choisissez l'action **Lignes traçabilité**.  
 4.  Dans le champ **N° de série** ou **N° lot**, sélectionnez le numéro de série/lot actuel.  
 5.  Si vous voulez entrer un nouveau numéro de traçabilité, entrez-le dans le champ **Nouveau n° de série** ou le champ **Nouveau n° lot**. Vous pouvez également fusionner un ou plusieurs lots dans un nouveau lot ou un lot existant.  
@@ -259,10 +259,10 @@ Le reclassement de la traçabilité pour un article consiste à remplacer un num
 8.  Validez la feuille pour lier les nouveaux numéros traçabilité ou dates d'expiration à l'écriture comptable article qui leur est associée.
 
 ## <a name="see-also"></a>Voir aussi
-[Procédure : tracer des articles suivis](inventory-how-to-trace-item-tracked-items.md)   
+[Tracer des articles - Articles suivis](inventory-how-to-trace-item-tracked-items.md)   
 [STOCKS ET EN-COURS](inventory-manage-inventory.md)  
 [Détails de conception : traçabilité](design-details-item-tracking.md)
 [Détails de conception : traçabilité et réservations](design-details-item-tracking-and-reservations.md)  
-[Procédure : réserver des articles](inventory-how-to-reserve-items.md)  
+[Réserver des articles](inventory-how-to-reserve-items.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

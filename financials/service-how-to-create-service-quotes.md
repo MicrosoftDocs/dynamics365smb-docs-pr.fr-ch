@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d5348e7b15eb0337f2a5f829c871dadcf3133b86
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9d4f8d21d0c79adbac238b2d26accc4c08656c77
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-service-quotes"></a>Procédure : créer des devis service
+# <a name="create-service-quotes"></a>Pour créer des devis service
 Vous pouvez considérer les devis service comme la base des commandes service. En réalité, ils sont quasiment identiques. Tous deux contiennent des informations, telles que l'identité du client, le type de commande, l'article nécessitant une maintenance, les informations de facturation et d'expédition et les informations sur la tâche de service réelle.
  
 Vous pouvez utiliser un devis service comme brouillon d'une commande service, et convertir le devis en commande.  
@@ -38,7 +38,7 @@ Vous pouvez utiliser un devis service comme brouillon d'une commande service, et
 7. Enregistrez les coûts estimés dans les lignes service.  
   
 ## <a name="see-also"></a>Voir aussi  
-[Procédure : créer des commandes service](service-how-to-create-service-orders.md)  
-[Procédure : travailler sur des tâches service](service-how-to-work-on-service-tasks.md)  
+[Créer commande service](service-how-to-create-service-orders.md)  
+[Travailler sur des tâches service](service-how-to-work-on-service-tasks.md)  
 
  

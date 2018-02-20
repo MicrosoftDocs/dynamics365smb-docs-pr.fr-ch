@@ -1,6 +1,6 @@
 ---
 title: Utilisation de l'extension QuickBooks Data Migration | Microsoft Docs
-description: "Décrit comment utiliser l'extension pour importer des clients, des fournisseurs, des articles, et des comptes de QuickBooks Desktop à Dynamics 365 for Financials."
+description: "Décrit comment utiliser l'extension pour importer des clients, des fournisseurs, des articles, et des comptes de QuickBooks Desktop dans Finance and Operations, Business edition."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,13 +11,13 @@ ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: fdda803b7cc2f93ae4d7353be28282dc60d904d8
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 14e0aea700bbb46a612d8e462ace22b10faac7e2
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="the-quickbooks-data-migration-extension-for-dynamics-365-business-edition"></a>Extension QuickBooks Data Migration pour Dynamics 365 Business edition
+# <a name="the-quickbooks-data-migration-extension-for-finance-and-operations-business-edition"></a>L'extension QuickBooks Data Migration pour Finance and Operations, Business edition
 Cette extension facilite la migration des clients, des fournisseurs, des articles et des comptes de QuickBooks vers [!INCLUDE[d365fin](includes/d365fin_md.md)]. Si votre entreprise utilise QuickBooks aujourd'hui, vous pouvez exporter les informations appropriées puis ouvrir un guide de configuration assistée pour télécharger les données vers [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 Pour plus d'informations, voir [Importation des données métier à partir d'autres systèmes financiers](upload-data.md).
 

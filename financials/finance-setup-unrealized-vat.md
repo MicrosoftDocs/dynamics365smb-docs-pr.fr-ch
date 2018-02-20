@@ -13,25 +13,25 @@ ms.search.keywords: cash, VAT, unrealized, cash-based
 ms.date: 09/08/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 9a51b767006911a26e4e3a7abd55fbbeda05e0bc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b8bbfac583e1e7ec7eedae9e412b4fd3ac956d0f
 ms.contentlocale: fr-ch
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="how-to-set-up-unrealized-vat-for-cash-based-accounting"></a>Procédure : configurer la TVA sur encaissement pour la comptabilité basée sur la trésorerie
-Si vous utilisez des méthodes comptables basées sur la trésorerie, vous pouvez configurer [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] pour gérer la TVA sur encaissement.
+# <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Configurer la TVA sur encaissement pour la comptabilité basée sur la trésorerie
+Si vous utilisez des méthodes comptables basées sur la trésorerie, vous pouvez configurer [!INCLUDE[d365fin](includes/d365fin_md.md)] pour gérer la TVA sur encaissement.
 
 ## <a name="to-use-general-ledger-accounts-for-unrealized-vat"></a>Pour utiliser les comptes généraux pour la TVA sur encaissement
 Vous pouvez choisir de calculer et de valider les montants de TVA dans un compte général temporaire lorsqu'une facture est validée, puis de les valider dans le compte général approprié et de les inclure dans des déclarations de TVA lorsque le paiement réel de la facture est validé. Pour cela, vous devez définir des paramètres validation TVA.
 
 Pour utiliser les comptes pour la TVA sur encaissement, procédez comme suit :
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche") et entrez **Paramètres comptabilité**. 
+1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche") et entrez **Paramètres comptabilité**.
 2. Sur la page **Paramètres comptabilité**, sous le raccourci **Général**, sélectionnez **Afficher plus**, puis activez la case à cocher **TVA sur encaissement**.
 3. Fermez la page.
-4. Sélectionnez l'icône **Page ou état pour la recherche** ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche") et entrez **Paramètres compta. TVA**. 
-5. Sur la page **Paramètres compta. TVA**, sélectionnez le groupe comptabilisation TVA, puis sélectionnez **Modifier**. 
+4. Sélectionnez l'icône **Page ou état pour la recherche** ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche") et entrez **Paramètres compta. TVA**.
+5. Sur la page **Paramètres compta. TVA**, sélectionnez le groupe comptabilisation TVA, puis sélectionnez **Modifier**.
 6. Dans le champ **Type TVA sur encaissement**, choisissez une option pour spécifier comment ventiler des paiements sur le montant de la facture (hors TVA) et le montant TVA, et comment transférer les montants TVA du compte TVA sur encaissement vers le compte réalisée. Le tableau suivant décrit les options.
 
 | Option | Désignation |
@@ -54,3 +54,4 @@ Pour utiliser les comptes pour la TVA sur encaissement, procédez comme suit :
 
 ## <a name="see-also"></a>Voir aussi
 [Configuration de la TVA](finance-setup-vat.md)
+

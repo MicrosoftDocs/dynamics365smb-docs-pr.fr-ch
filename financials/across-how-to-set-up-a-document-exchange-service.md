@@ -11,17 +11,17 @@ ms.search.keywords:
 ms.date: 08/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: c014e3ee7ed580fd893470c0e0b89273eaceb429
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ac95d7b05eefdb71e9a7da9025c83e50466ad13a
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-a-document-exchange-service"></a>Procédure : configurer un service d'échange de document
+# <a name="set-up-a-document-exchange-service"></a>Configurer un service d'échange de document
 Utilisez un fournisseur de services externe pour échanger des documents électroniques avec vos partenaires commerciaux. Pour plus d'informations, voir [Échanger des données par voir électronique](across-data-exchange.md).  
 
 ## <a name="to-set-up-a-document-exchange-service"></a>Pour configurer un service d'échange de documents  
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Paramètres service Doc. Exch.**, puis sélectionnez le lien connexe.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), saisissez **Paramètres service Doc. Exch.**, puis sélectionnez le lien connexe.  
 2. Renseignez les champs comme indiqué dans le tableau suivant.  
 
     |Champ|Désignation|  

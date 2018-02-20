@@ -1,6 +1,6 @@
 ---
 title: "Procédure pas à pas : configuration et facturation d'acomptes | Microsoft Docs"
-description: "Les acomptes sont des paiements qui sont facturés et validés dans une commande acompte vente ou achat avant la facturation finale. Vous pouvez demander un acompte avant de fabriquer les produits commandés ou le paiement avant d'envoyer les articles à un client. Vous utilisez la fonctionnalité d'acomptes dans Dynamics 365 pour facturer et collecter les acomptes requis des clients ou régler des acomptes aux fournisseurs. Vous pouvez ainsi vous assurer que tous les paiements sont validés sur une facture."
+description: "Les acomptes sont des paiements qui sont facturés et validés dans une commande acompte vente ou achat avant la facturation finale. Vous pouvez demander un acompte avant de fabriquer les produits commandés ou le paiement avant d'envoyer les articles à un client. Vous utilisez la fonctionnalité d'acomptes dans Finance and Operations, Business edition pour facturer et collecter les acomptes requis des clients ou régler des acomptes aux fournisseurs. Vous pouvez ainsi vous assurer que tous les paiements sont validés sur une facture."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: fbdeb6b9dc8c96b09ded933ec987b8c60098bfcf
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: cd74d543168f1f96f55141aace571d6d701e3de1
 ms.contentlocale: fr-ch
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Procédure pas à pas : configuration et facturation d'acomptes
@@ -128,7 +128,7 @@ Susan crée la facture acompte et l'envoie au client.
 
     Le champ **% acompte** de la ligne correspondant à l'article **1100** a pour valeur **40**. Il s'agit du pourcentage que vous avez entré dans la fenêtre **Pourcentages acompte vente** pour l'article **1100** et le client **20000**.  
 
-    Pour plus d'informations, reportez-vous à [Procédure : configuration des acomptes](finance-set-up-prepayments.md).  
+    Pour plus d'informations, reportez\-vous à [Configuration des acomptes](finance-set-up-prepayments.md).  
 8. Sélectionnez l'action **Statistiques**.  
 9. Sur le raccourci **Acompte**, le champ **Montant acompte HT** indique **1 560**. Si vous créez une facture acompte pour la commande dès maintenant, c'est le montant qui s'affiche sur la facture.  
 

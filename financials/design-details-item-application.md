@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: e8b3015cfbf9c474d49d2e3dab6e3397e6ad6c80
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-item-application"></a>Détails de conception : lettrage article
@@ -70,7 +70,7 @@ Le tableau suivant montre l'écriture lettrage article qui est créée lorsque v
 
 |Date comptabilisation|N° écriture article entrant|N° écriture article sortant|Quantité|N° écriture comptable article|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
-|01/01/20|0|0|10|0|  
+|01/01/20|1|0|10|1|  
 
 ## <a name="inventory-decrease"></a>Sortie de stock  
 Lorsque vous validez une sortie de stock, une écriture lettrage article qui lie la sortie de stock à une entrée de stock est créée. Ce lien est créé en utilisant le mode évaluation stock de l'article comme base d'instructions. Pour les articles utilisant les modes évaluation du stock FIFO, standard, et moyen, le lien est basé sur le principe du premier entré, premier sorti. La sortie de stock est lettrée avec l'entrée de stock ayant la date comptabilisation la plus proche. Pour les articles utilisant le mode évaluation stock LIFO, le lien est basé sur le principe du dernier entré, premier sorti. La sortie de stock est lettrée avec l'entrée de stock ayant la date comptabilisation la plus récente.  
@@ -84,8 +84,8 @@ Le tableau suivant montre les deux écritures lettrage article qui résultent de
 
 |Date comptabilisation|N° écriture article entrant|N° écriture article sortant|Quantité|N° écriture comptable article|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
-|01/01/20|0|0|10|0|  
-|03/01/20|0|2|-5|2|  
+|01/01/20|1|0|10|1|  
+|03/01/20|1|2|-5|2|  
 
 ## <a name="fixed-application"></a>Lettrage fixe  
 Vous effectuez un lettrage fixe lorsque vous spécifiez que le coût d'une entrée de stock doit être lettré sur une sortie de stock spécifique ou inversement. Ce lettrage fixe affecte les quantités restantes des écritures, mais le lettrage fixe rétablit également le coût exact de l'écriture d'origine sur laquelle vous lettrez (ou à partir de laquelle vous lettrez).  
@@ -103,7 +103,7 @@ Le tableau suivant montre des écritures comptables article résultant de ce sc�
 
 |**Date de validation**|**Type écriture comptable article**|**Quantité**|**Coût total (réel)**|**N° écriture comptable article**|  
 |----------------------|---------------------------------------------------|------------------|----------------------------------------------------|---------------------------------------------------|  
-|04/01/20|Achats|10|10.00|0|  
+|04/01/20|Achats|10|10.00|1|  
 |05/01/20|Achats|10|20.00|2|  
 |06/01/20|Achat (retour)|-10|-20,00|3|  
 
@@ -113,7 +113,7 @@ Le tableau suivant montre l'écriture lettrage article générée par le lettrag
 
 |Date comptabilisation|N° écriture article entrant|N° écriture article sortant|Quantité|N° écriture comptable article|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
-|06/01/20|0|3|10|3|  
+|06/01/20|1|3|10|3|  
 
 Le coût du second achat, 20,00 DS, est ensuite transmis correctement au retour achat.  
 
@@ -130,8 +130,8 @@ Le tableau suivant montre le résultat du scénario dans les écritures valeur d
 
 |Date comptabilisation|Type écriture comptable article|Quantité valorisée|Coût total (réel)|Écr. article à lettrer|Valorisé par coût moyen|N° écriture comptable article|N° écriture|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01/01/20|Achats|0|200.00||Non|0|0|  
-|01/01/20|Achats|0|1000.00||Non|2|2|  
+|01/01/20|Achats|1|200.00||Non|1|1|  
+|01/01/20|Achats|1|1000.00||Non|2|2|  
 |01/01/20|Achats|-1|-1 000|2|Non|3|3|  
 |01/01/20|Achats|1|100,00||Non|4|4|  
 |01/01/20|Vente|-2|-300,00||Oui|5|5|  
@@ -142,8 +142,8 @@ Le tableau suivant montre le résultat dans les écritures valeur de l'article s
 
 |Date comptabilisation|Type écriture comptable article|Quantité valorisée|Coût total (réel)|Écr. article à lettrer|Valorisé par coût moyen|N° écriture comptable article|N° écriture|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01/01/20|Achats|0|200.00||Non|0|0|  
-|01/01/20|Achats|0|1000.00||Non|2|2|  
+|01/01/20|Achats|1|200.00||Non|1|1|  
+|01/01/20|Achats|1|1000.00||Non|2|2|  
 |01/01/20|Achats|-1|433,33||Oui|3|3|  
 |01/01/20|Achats|1|100,00||Non|4|4|  
 |01/01/20|Vente|-2|866,67||Oui|5|5|  
@@ -169,7 +169,7 @@ Le tableau suivant montre le résultat des étapes 1 à 3 du scénario dans les
 
 |Date comptabilisation|Type écriture comptable article|Quantité valorisée|Coût total (réel)|Écriture article à lettrer|N° écriture comptable article|N° écriture|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01/01/20|Achats|0|1000.00||0|0|  
+|01/01/20|Achats|1|1000.00||1|1|  
 |01/02/20|Vente|-1|1000.00||2|2|  
 |01/03/20|Vente (avoir)|1|1000|2|3|3|  
 
@@ -177,16 +177,16 @@ Le tableau suivant montre l'écriture valeur résultant de l'étape 4 du scéna
 
 |Date comptabilisation|Type écriture comptable article|Quantité valorisée|Coût total (réel)|Écriture article à lettrer|N° écriture comptable article|N° écriture|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01/04/20|(Frais annexes)|0|100.00||0|4|  
+|01/04/20|(Frais annexes)|1|100.00||1|4|  
 
 Le tableau suivant montre l'effet de la contrepassation du coût exact des écritures valeur de l'article.  
 
 |Date comptabilisation|Type écriture comptable article|Quantité valorisée|Coût total (réel)|Écriture article à lettrer|N° écriture comptable article|N° écriture|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01/01/20|Achats|0|1000.00||0|0|  
+|01/01/20|Achats|1|1000.00||1|1|  
 |01/02/20|Vente|-1|1100.00||2|2|  
 |01/03/20|Vente (avoir)|1|1100.00|2|3|3|  
-|01/04/20|(Frais annexes)|0|100.00||0|4|  
+|01/04/20|(Frais annexes)|1|100.00||1|4|  
 
 Lorsque vous exécutez le traitement par lots **Ajuster &coûts - Écr. article**, le coût augmenté de l'écriture achat, dû aux frais annexes, est transmis à l'écriture vente écriture numéro 2. L'écriture vente transfère alors ce coût augmenté à l'écriture vente créditrice (numéro de séquence 3). Le résultat final est que le coût est correctement contrepassé.  
 
@@ -210,8 +210,8 @@ Le tableau suivant montre l'effet du transfert sur les écritures valeur de l'ar
 
 |Date comptabilisation|Type écriture comptable article|Code magasin|Quantité valorisée|Coût total (réel)|N° écriture|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
-|01/01/20|Achats|BLEU|0|10.00|0|  
-|01/01/20|Achats|BLEU|0|20.00|2|  
+|01/01/20|Achats|BLEU|1|10.00|1|  
+|01/01/20|Achats|BLEU|1|20.00|2|  
 |01/02/20|Transfert|BLEU|-1|15,00|3|  
 |01/02/20|Transfert|ROUGE|1|15,00|4|  
 
@@ -225,7 +225,7 @@ Le tableau suivant montre l'effet du transfert sur les écritures valeur de l'ar
 
 |Date comptabilisation|Type écriture comptable article|Code magasin|Quantité valorisée|Coût total (réel)|N° écriture|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
-|01/01/20|Achats|BLEU|0|10.00|0|  
+|01/01/20|Achats|BLEU|1|10.00|1|  
 |01/02/20|Ordre de transfert|BLEU|-1|10,00|2|  
 |01/02/20|Transfert|ROUGE|1|10,00|3|  
 

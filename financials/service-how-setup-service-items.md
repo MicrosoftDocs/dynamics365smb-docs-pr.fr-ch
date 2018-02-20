@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 80071e9fd584ad3232b8ae55169948f9a05d22be
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 068d141ee8490cc34e8b2092b7dcfda36139660d
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-service-items-and-service-item-components"></a>Procédure : configurer les articles de service et les composants article de service
+# <a name="set-up-service-items-and-service-item-components"></a>Configurer les articles de service et les composants article de service
 Pour utiliser les articles de service, vous devez configurer
 
 * les groupes articles de service suivants. 
@@ -63,5 +63,5 @@ Vous pouvez configurer des rayons service qui identifient l'emplacement de stock
 2. Renseignez les champs selon vos besoins.
 
 ## <a name="see-also"></a>Voir aussi
-[Procédure : configurer des codes prestations standard](service-how-setup-service-coding.md)   
-[Procédure : configurer les processus incident](service-how-setup-troubleshooting.md)
+[Configurer des codes prestations standards](service-how-setup-service-coding.md)   
+[Configurer les processus incident](service-how-setup-troubleshooting.md)

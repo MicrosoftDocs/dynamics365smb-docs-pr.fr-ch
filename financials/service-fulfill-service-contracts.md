@@ -13,10 +13,10 @@ ms.search.keywords: contract, agreement, configure
 ms.date: 08/23/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 338fc294813487438073391495035d40635f9202
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6ad29dddb5a3dac2063e06fd973f1e41dc51d08a
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="fulfilling-service-contracts"></a>Exécution des contrats de service 
@@ -29,12 +29,12 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |**Pour**|**Voir**|  
 |------------|-------------|  
 |Gérer un article de service sous plusieurs contrats. | [Plusieurs contrats](service-multiple-contracts.md)|  
-|Créer des contrats de service manuellement ou à partir d'un devis contrat de service.| [Procédure : créer des devis et contrats de service](service-how-to-create-service-contracts-and-service-contract-quotes.md)|
-|Ajuster le montant annuel d'un contrat de service ou d'un devis contrat, afin de facturer le bon montant.|[Procédure : modifier le montant annuel du contrat service ou du devis contrat](service-how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes.md)|
+|Créer des contrats de service manuellement ou à partir d'un devis contrat de service.| [Créer des devis et contrats de service](service-how-to-create-service-contracts-and-service-contract-quotes.md)|
+|Ajuster le montant annuel d'un contrat de service ou d'un devis contrat, afin de facturer le bon montant.|[Modifier le montant annuel du contrat service ou du devis contrat](service-how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes.md)|
 
 ## <a name="see-also"></a>Voir aussi .
 [Services de planification](service-plan-service.md)  
 [Exécution du service](service-deliver-service.md)  
 [Paramétrage de la gestion des services](service-setup-service.md)  
-[Procédure : créer des devis et contrats de service](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
+[Créer des devis et contrats de service](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 

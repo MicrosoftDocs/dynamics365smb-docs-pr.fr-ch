@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/05/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 78170bd2bf64b110d5346855d5592837abf2b73e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ac9813b06da171f2da0e179f3b7d360f4dcae3f5
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-standard-routing-lines"></a>Procédure : configurer des lignes gamme standard
+# <a name="set-up-standard-routing-lines"></a>Configurer des lignes gamme standard
 L'utilisation de tâches standard simplifie la création et la maintenance des gammes. Elles vous permettent d'associer rapidement des informations supplémentaires aux opérations récurrentes.
 
 ## <a name="to-set-up-a-standard-task"></a>Pour configurer une tâche standard
@@ -35,8 +35,8 @@ L'utilisation de tâches standard simplifie la création et la maintenance des g
 3. Sélectionnez une ligne gamme appropriée, choisissez l'action **Opérations**, puis l'action **Outils**, **Qualifications**, **Description** ou **Outils**.
 
 ## <a name="see-also"></a>Voir aussi  
-[Procédure : créer des gammes](production-how-to-create-routings.md)  
-[Procédure : créer des nomenclatures de production](production-how-to-create-production-boms.md)     
+[Créer des gammes](production-how-to-create-routings.md)  
+[Créer des nomenclatures de production](production-how-to-create-production-boms.md)     
 [Paramétrage de la production](production-configure-production-processes.md)   
 [Production](production-manage-manufacturing.md)    
 [Planifié](production-planning.md)   

@@ -13,13 +13,13 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 208c49d0f86ae0a3c8ef4db8008fa2995f77e674
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2bb49ed17db6a4b6f7eafef76c9109e2652fa76b
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-contact-persons"></a>Procédure : créer des personnes contact
+# <a name="create-contact-persons"></a>Création de personnes contact
 Vous pouvez créer une fiche contact pour chaque contact qui travaille dans les sociétés avec lesquelles vous collaborez. Pour chaque société contact, vous pouvez saisir autant de personnes contact que vous le souhaitez. Vous pouvez également créer des fiches contact pour les personnes que vous souhaitez enregistrer en tant que travailleurs indépendants.
 
 > [!TIP]  
@@ -40,8 +40,8 @@ Vous pouvez créer une fiche contact pour chaque contact qui travaille dans les 
 ## <a name="see-also"></a>Voir aussi
 [Paramétrage de la Gestion des relations](marketing-setup-marketing.md)  
 [Affecter des groupes de distribution à un contact](marketing-mailing-groups.md#AssignMailGroupContact)  
-[Procédure : Configurer des responsabilités sur les contacts](marketing-job-responsibilities.md)  
-[Procédure : Configurer des niveaux hiérarchiques pour les personnes contact](marketing-organizational-levels.md)  
+[Configurer des responsabilités sur les contacts](marketing-job-responsibilities.md)  
+[Configurer des niveaux hiérarchiques pour les personnes contact](marketing-organizational-levels.md)  
 [Synchronisation des contacts avec les clients, les fournisseurs et les comptes bancaires](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
-[Utilisation de Dynamics 365](ui-work-product.md)  
+[Utilisation de Finance and Operations, Business edition](ui-work-product.md)  
 

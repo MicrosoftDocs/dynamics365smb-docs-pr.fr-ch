@@ -13,14 +13,14 @@ ms.search.keywords: resource, skill, service, zones
 ms.date: 08/22/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6c20c0b346186adad6e4b125dbd48bd0d3f56ab2
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b16ba9366aefc108f39667678fe8ab70ce421b83
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="how-to-set-up-resource-allocation"></a>Procédure : configurer l'affectation des ressources
+# <a name="set-up-resource-allocation"></a>Configurer l'affectation des ressources
 Pour assurer la bonne exécution d'une tâche service, il est important de trouver une ressource qualifiée. Vous pouvez configurer [!INCLUDE[d365fin](includes/d365fin_md.md)] de manière à affecter facilement une ressource disposant des compétences appropriées pour le travail. Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], ce processus est appelé _affectation de ressources_. Vous pouvez affecter des ressources en fonction de leur compétence, de leur disponibilité, ou selon qu'elles se trouvent dans la même zone service que le client. 
 
 Pour utiliser l'affectation des ressources, vous devez définir :  
@@ -80,10 +80,10 @@ Vous pouvez modifier les codes compétence affectés à des articles, par exempl
     * Supprime les codes compétence ou met à jour leur relation : sélectionnez cette option pour modifier le code compétence de l'article uniquement. Le code compétence des articles de service associés sera réaffecté, c'est-à-dire que le champ **Affecté à partir de** sera mis à jour.  
   
 ## <a name="see-also"></a>Voir aussi
-[Procédure : affecter des ressources](service-how-to-allocate-resources.md)  
-[Procédure : configurer des heures de travail et des heures de service](service-how-setup-work-service-hours.md)  
-[Procédure : configurer le reporting panne](service-how-setup-fault-reporting.md)  
-[Procédure : configurer des codes prestations standard](service-how-setup-service-coding.md)  
+[Affecter des ressources](service-how-to-allocate-resources.md)  
+[Configurer des heures de travail et des heures de service](service-how-setup-work-service-hours.md)  
+[Configurer le reporting panne](service-how-setup-fault-reporting.md)  
+[Configurer des codes prestations standards](service-how-setup-service-coding.md)  
  
 
 

@@ -13,20 +13,20 @@ ms.search.keywords:
 ms.date: 08/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e6be50119da5c617ce6dbf603903266f9ced821e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: c9f2464014f2078f2a86f2e7d8a72873fa4015a8
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-combine-shipments-on-a-single-invoice"></a>Procédure : Regroupement de bons de livraison sur une seule facture
+# <a name="combine-shipments-on-a-single-invoice"></a>Regroupement de bons de livraison sur une seule facture
 Si vous souhaitez facturer plusieurs bons de livraison à la fois, vous pouvez utiliser la fonction de regroupement des bons de livraison.  
 
  Pour créer un regroupement de bons de livraison, plusieurs bons de livraison vente doivent avoir été validés pour le même client dans la même devise. Autrement dit, vous devez avoir renseigné au moins deux commandes vente et les avoir validées comme étant expédiées, mais pas facturées. Vous devez activer la case à cocher **Regrouper les B.L**. sur le raccourci **Expédition** de la fiche **client** pour utiliser la fonctionnalité.  
 
 ## <a name="to-manually-combine-shipments-on-a-single-invoice"></a>Regrouper manuellement les expéditions sur une seule facture  
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Factures vente**, puis sélectionnez le lien connexe.  
-2. Sélectionnez l'action **Nouveau**. Pour plus d'informations, reportez-vous à [Procédure : facturer des ventes](sales-how-invoice-sales.md).
+2. Sélectionnez l'action **Nouveau**. Pour plus d'informations, reportez-vous à [Facturer des ventes](sales-how-invoice-sales.md).
 3. Dans le champ **N° donneur d'ordre** entrez le client facturé pour les articles expédiés.  
 4. Dans le raccourci **Lignes**, sélectionnez l'action **Extraire lignes expédition**.  
 5. Sélectionnez la ligne expédition que vous voulez inclure dans la facture :  

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 13db47dcfcc7eb6d30230490baa5ac961fc825a8
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 132408d095edbfa1a60577cdd19022920088670b
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="pick-items"></a>Prélèvement d'articles
@@ -35,18 +35,18 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 
 |**Pour**|**Voir**|
 |------------|-------------|  
-|Valider l'expédition d'articles directement dans le document commande sortante car aucune fonctionnalité entrepôt n'existe. (Valable également pour les commandes vente, les ordres de transfert sortants et les expéditions retour.)|[Procédure : Expédier des articles](warehouse-how-ship-items.md)|  
-|Prélever les articles par commande et valider l'expédition dans la même activité dans une configuration entrepôt de base.|[Procédure : prélever des articles avec les prélèvements stock](warehouse-how-to-pick-items-with-inventory-picks.md)|
-|Prélever les articles de plusieurs commandes dans une configuration entrepôt avancée.|[Procédure : prélever des articles avec les prélèvements entrepôt](warehouse-how-to-pick-items-for-warehouse-shipment.md)|  
-|Prélever les composants pour la fabrication ou l'assemblage dans une configuration de stockage de base ou avancée.|[Procédure : Prélever pour la fabrication et l'assemblage](warehouse-how-to-pick-for-production.md)|  
-|Planifier des instructions de prélèvement optimisées pour plusieurs expéditions. Dans ce cas, les magasiniers n'ont pas à agir directement sur les expéditions validées.|[Procédure : planifier des prélèvements dans des feuilles](warehouse-how-to-plan-picks-in-worksheets.md)|  
-|Prélever des articles techniquement dans un but spécifique, par exemple une unité de production nécessitant des composants supplémentaires, de sorte que les articles ne quittent pas techniquement l'entrepôt.|[Procédure : Prélever et ranger sans document origine](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
+|Valider l'expédition d'articles directement dans le document commande sortante car aucune fonctionnalité entrepôt n'existe. (Valable également pour les commandes vente, les ordres de transfert sortants et les expéditions retour.)|[Expédier des articles](warehouse-how-ship-items.md)|  
+|Prélever les articles par commande et valider l'expédition dans la même activité dans une configuration entrepôt de base.|[Prélever des articles avec les prélèvements stock](warehouse-how-to-pick-items-with-inventory-picks.md)|
+|Prélever les articles de plusieurs commandes dans une configuration entrepôt avancée.|[Prélever des articles avec les prélèvements entrepôt](warehouse-how-to-pick-items-for-warehouse-shipment.md)|  
+|Prélever les composants pour la fabrication ou l'assemblage dans une configuration de stockage de base ou avancée.|[Prélever pour la fabrication et l'assemblage](warehouse-how-to-pick-for-production.md)|  
+|Planifier des instructions de prélèvement optimisées pour plusieurs expéditions. Dans ce cas, les magasiniers n'ont pas à agir directement sur les expéditions validées.|[Planifier des prélèvements dans la feuille](warehouse-how-to-plan-picks-in-worksheets.md)|  
+|Prélever des articles techniquement dans un but spécifique, par exemple une unité de production nécessitant des composants supplémentaires, de sorte que les articles ne quittent pas techniquement l'entrepôt.|[Prélever et ranger sans document origine](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
 |Sachez comment prélever automatiquement des articles en fonction de leur date d'échéance, par exemple des denrées périssables.|[Prélèvement par FEFO](warehouse-picking-by-fefo.md)|
-|Divisez une ligne prélèvement en plusieurs lignes, par exemple si l'emplacement désigné ne contient pas suffisamment d'articles à prélever.|[Procédure : répartir des lignes activité entrepôt](warehouse-how-to-split-warehouse-activity-lines.md)|
-|Accéder immédiatement aux prélèvements qui vous ont été affectés en tant que magasinier.|[Procédure : trouver vos affectations d'entrepôt](warehouse-how-to-find-your-warehouse-assignments.md)|  
+|Divisez une ligne prélèvement en plusieurs lignes, par exemple si l'emplacement désigné ne contient pas suffisamment d'articles à prélever.|[Répartir des lignes activité entrepôt](warehouse-how-to-split-warehouse-activity-lines.md)|
+|Accéder immédiatement aux prélèvements qui vous ont été affectés en tant que magasinier.|[Trouver vos affectations d'entrepôt](warehouse-how-to-find-your-warehouse-assignments.md)|  
 
 ## <a name="see-also"></a>Voir aussi  
-[Gestion d'entrepôt](warehouse-manage-warehouse.md)  
+[Gestion d’entrepôt](warehouse-manage-warehouse.md)  
 [STOCKS ET EN-COURS](inventory-manage-inventory.md)  
 [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)     
 [Gestion des assemblages](assembly-assemble-items.md)    

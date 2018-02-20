@@ -13,10 +13,10 @@ ms.search.keywords: task, process, report
 ms.date: 07/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: de6cbcdc8e7ca4aff06461192e2038831ba6b5b3
-ms.openlocfilehash: 16c9c8c896e3517f08a7326eef88ebc646834b1a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: c1accaa517efa3fb9958316d2586b06fa8cadb80
 ms.contentlocale: fr-ch
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="working-with-reports"></a>Utilisation des états
@@ -67,10 +67,10 @@ L'écriture de paramètres enregistrés appelée **Options et filtres récemment
 >En tant qu'administrateur, vous pouvez créer et gérer les paramètres enregistrés pour les états pour tous les utilisateurs. Pour plus d'informations, voir [Gestion des paramètres enregistrés dans les états](reports-saving-reusing-settings.md).
 
 ## <a name="changing-the-layout-and-look-of-a-report"></a>Modification de la présentation et de l'apparence d'un état
-Une présentation d'état contrôle les éléments affichés sur un état, leur agencement et leur mise en forme. Si vous souhaitez changer de présentation, voir [Procédure : modification de la présentation actuellement utilisée sur un rapport](ui-how-change-layout-currently-used-report.md). Ou, si vous souhaitez personnaliser votre propre présentation d'état, voir [Procédure : créer et modifier une présentation de rapport personnalisée](ui-how-create-custom-report-layout.md).
+Une présentation d'état contrôle les éléments affichés sur un état, leur agencement et leur mise en forme. Si vous souhaitez changer de présentation, voir [Modification de la présentation actuellement utilisée sur un rapport](ui-how-change-layout-currently-used-report.md). Ou, si vous souhaitez personnaliser votre propre présentation d'état, voir [Créer et modifier une présentation de rapport personnalisée](ui-how-create-custom-report-layout.md).
 
 ## <a name="see-also"></a>Voir aussi
 [Spécifier la sélection de l'imprimante pour les états](ui-specify-printer-selection-reports.md)  
 [Gestion des présentations de rapport et de document](ui-manage-report-layouts.md)  
-[Utilisation de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

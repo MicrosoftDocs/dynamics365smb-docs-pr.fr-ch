@@ -15,14 +15,14 @@ ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 859647435fe3a418761f67c9067314939c734519
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 654c34bc09967247617bda7be070a9c0ec6f635d
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-payables"></a>Gestion des comptes fournisseur
-[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] dispose de ce dont vous avez besoin pour gérer efficacement les comptes fournisseurs.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  dispose de ce dont vous avez besoin pour gérer efficacement les comptes fournisseurs.  
 
 ## <a name="payments"></a>Paiements
 Il est facile de classer les paiements par ordre de priorité, de prendre en compte les pénalités pour les paiements en retard et de gérer les escomptes pour les paiements anticipés.
@@ -46,7 +46,7 @@ Si vous attendez que votre banque confirme le traitement des transactions pour v
 
 * Dans une feuille paiement avec les lignes paiement proposées, vous pouvez trier soit la colonne **Exporté dans fichier paiement** soit la colonne **Montant total exporté**, puis supprimer les propositions de paiement pour les factures ouvertes pour lesquelles les paiements ont déjà été effectués et pour lesquelles vous ne souhaitez pas effectuer de paiements.
 
-    **Remarque** : vous pouvez être amené à ajouter ces colonnes à la liste. Pour plus d'informations, voir [Personnalisation utilisateur](ui-user-personalization.md).  
+    **Remarque** : vous pouvez être amené à ajouter ces colonnes à la liste. Pour plus d'informations, voir [Personnalisation de votre espace de travail](ui-personalization-user.md).  
 * Sinon, dans le traitement par lots **Proposer paiements fournisseur**, où vous spécifiez les paiements à insérer dans la feuille de paiement, vous pouvez spécifier de ne pas insérer de lignes feuille pour les paiements qui ont déjà été exportés en cochant la case **Ignorer les paiements exportés**.
 
 ## <a name="see-also"></a>Voir aussi

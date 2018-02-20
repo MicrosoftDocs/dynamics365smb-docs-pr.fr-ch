@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 12/04/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 60bd652d7a07841601bede9cff77c5b252000347
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4934b5ca71ed93fcd6327d41784443d9faedfc1b
 ms.contentlocale: fr-ch
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="accessibility-and-keyboard-shortcuts-in-included365finincludesd365finmdmd"></a>Accessibilité et raccourcis clavier dans [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -31,7 +31,7 @@ Cette rubrique fournit des informations sur les fonctionnalités qui rendent [!I
 -   Prise en charge des technologies d'assistance courantes  
 
 ##  <a name="Keyboard"></a> Raccourcis clavier du navigateur
- [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge les raccourcis clavier qui sont acceptés par la plupart des navigateurs Web. Les raccourcis clavier décrits ici font référence au type de clavier en usage aux États-Unis. Il se peut que les touches des autres claviers ne correspondent pas exactement aux touches des claviers en usage aux États-Unis.  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)]  prend en charge les raccourcis clavier qui sont acceptés par la plupart des navigateurs Web. Les raccourcis clavier décrits ici font référence au type de clavier en usage aux États-Unis. Il se peut que les touches des autres claviers ne correspondent pas exactement aux touches des claviers en usage aux États-Unis.  
 
 |Pour|Appuyer|  
 |----------------|-----------|  
@@ -55,13 +55,13 @@ Cette rubrique fournit des informations sur les fonctionnalités qui rendent [!I
  Un texte descriptif pour les images est défini avec l'attribut ALT au sein de la balise IMG. Un texte descriptif pour les liens hypertexte est défini avec l'attribut title au sein de la balise A.  
 
 ##  <a name="AssistiveTech"></a> Technologies d'assistance  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge différentes technologies d'assistance, telles que le contraste élevé, les lecteurs d'écran et les logiciels de reconnaissance vocale. Certaines technologies d'assistance ne fonctionnent pas correctement avec certains éléments des pages [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  prend en charge différentes technologies d'assistance, telles que le contraste élevé, les lecteurs d'écran et les logiciels de reconnaissance vocale. Certaines technologies d'assistance ne fonctionnent pas correctement avec certains éléments des pages [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="for-more-accessibility-information"></a>Informations supplémentaires sur l'accessibilité  
 Vous trouverez des informations supplémentaires sur l'accessibilité des produits Microsoft et les technologies d'assistance sur le site [Accessibilité Microsoft](http://go.microsoft.com/fwlink/?LinkId=262160).
 
 ## <a name="see-also"></a>Voir aussi
 [Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Utilisation de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Forum Aux Questions](across-faq.md)  
 

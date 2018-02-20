@@ -13,13 +13,13 @@ ms.search.keywords: VAT, sales, purchases,
 ms.date: 09/08/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 596b5d73e019375aa84b7cb227d305fc29762ae1
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 31b28811529cb4e5296a04c18f1f41d9f452a9be
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-vat-on-sales-and-purchases"></a>Procédure : utiliser la TVA sur les ventes et les achats
+# <a name="work-with-vat-on-sales-and-purchases"></a>Utiliser la TVA sur les ventes et les achats
 Si votre pays ou région vous demande de calculer la TVA sur les transactions de vente et d'achat afin de pouvoir déclarer les montants à une administration fiscale, vous pouvez configurer [!INCLUDE[d365fin](includes/d365fin_md.md)] pour calculer automatiquement la TVA sur les documents vente et achat. Pour plus d'informations, voir [Configuration des méthodes de calcul et de validation de la taxe sur la valeur ajoutée](finance-setup-vat.md).
 
 Il existe, cependant, certaines tâches associées à la TVA que vous pouvez effectuer manuellement. Par exemple, vous devrez peut-être corriger un montant validé si vous découvrez qu'un fournisseur utilise un mode d'arrondi différent.
@@ -125,7 +125,7 @@ Lorsque vous vendez des biens à un client dans un autre pays/une autre région 
     >  Vous pouvez afficher un aperçu ou imprimer le document. Lorsque vous choisissez **Imprimer le certificat d'approvisionnement** et que vous imprimez le document, la case à cocher **Imprimé** est automatiquement sélectionnée. En outre, s'il n'est pas déjà renseigné, le statut du certificat est mis à jour sur **Requis**. Si nécessaire, vous incluez le certificat imprimé à l'expédition.  
 
 ### <a name="to-print-a-certificate-of-supply"></a>Pour imprimer un certificat d'approvisionnement  
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Expéditions vente enregistrées**, puis sélectionnez le lien connexe.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), saisissez **Expéditions vente enregistrées**, puis sélectionnez le lien connexe.  
 2. Sélectionnez l'expédition vente appropriée à un client dans un autre pays/une autre région de l'UE.  
 3. Sélectionnez l'action **Imprimer le certificat d'approvisionnement**.  
 
@@ -143,7 +143,7 @@ Lorsque vous vendez des biens à un client dans un autre pays/une autre région 
 8. Envoyez le certificat d'approvisionnement imprimé au client pour signature.  
 
 ### <a name="to-update-the-status-of-a-certificate-of-supply-for-a-shipment"></a>Pour mettre à jour le statut d'un certificat d'approvisionnement pour une expédition  
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Expéditions vente enregistrées**, puis sélectionnez le lien connexe.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), saisissez **Expéditions vente enregistrées**, puis sélectionnez le lien connexe.  
 2. Sélectionnez l'expédition vente appropriée à un client dans un autre pays/une autre région de l'UE.  
 3. Dans le champ **Statut**, sélectionnez l'option appropriée.  
 

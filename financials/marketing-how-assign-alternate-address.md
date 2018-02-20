@@ -13,13 +13,13 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 8149c89e2031a7fd44f9942d7aba213158700dc9
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e7bac54306953628e8aab21ffab66badf9a1c8fe
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-alternative-addresses-for-contacts"></a>Procédure : configurer des adresses secondaires pour des contacts
+# <a name="set-up-alternative-addresses-for-contacts"></a>Configurer des adresses secondaires pour des contacts
 Vous pouvez affecter une adresse secondaire pour l'envoi de messages et d'informations à vos contacts, par exemple leur résidence secondaire. Vous pouvez aussi affecter une ou plusieurs plages de dates aux adresses secondaires saisies pour vos contacts afin de spécifier les plages de dates de validité de ces adresses.
 
 ## <a name="to-assign-an-alternate-address"></a>Pour affecter une adresse secondaire
@@ -41,5 +41,5 @@ Répétez ces étapes pour chaque plage de dates à affecter.
 
 ## <a name="see-also"></a>Voir aussi
 [Création de sociétés contact](marketing-create-contact-companies.md)  
-[Utilisation de Dynamics 365](ui-work-product.md)
+[Utilisation de Finance and Operations, Business edition](ui-work-product.md)
 

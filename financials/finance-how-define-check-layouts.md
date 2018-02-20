@@ -13,13 +13,13 @@ ms.search.keywords: print check, customize
 ms.date: 06/15/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: a2db2860846cd9b8010222faf580f0c9889e39a4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: dd745186e4518c2005e34e6b2cbbc8925fd8931e
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-define-check-layouts"></a>Procédure : définir les mises en page de chèques
+# <a name="define-check-layouts"></a>Définir les mises en page de chèques
 Vous pouvez concevoir vos chèques de sorte à respecter les normes fixées par les autorités locales. Vous pouvez imprimer des images de chèques en anglais, en français ou en espagnol.
 
 Les chèques sont conçus pour être imprimés aux formats d'image de chèques américains et canadiens, soit au format chèque-talon-chèque, soit au format talon-talon-chèque.
@@ -35,7 +35,7 @@ Les chèques sont conçus pour être imprimés aux formats d'image de chèques a
 | 10401 |Chèque (Talon/Talon/Chèque) |Cet état est conçu pour imprimer des chèques au format talon/talon/chèque. |
 | 10411 |Chèque (Talon/Chèque/Talon) |Cet état est conçu pour imprimer des chèques au format chèque/talon/chèque. |
 
-Une fois que vous avez défini les mises en page de chèques, vous pouvez imprimer des chèques à partir de la fenêtre **Feuille paiement**. Pour plus d'informations, reportez-vous à [Procédure : Utilisation de chèques](payables-how-work-checks.md).
+Une fois que vous avez défini les mises en page de chèques, vous pouvez imprimer des chèques à partir de la fenêtre **Feuille paiement**. Pour plus d'informations, reportez-vous à [Utilisation des chèques](payables-how-work-checks.md).
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion des comptes fournisseur](payables-manage-payables.md)  

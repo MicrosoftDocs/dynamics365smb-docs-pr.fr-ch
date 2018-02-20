@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 11/17/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 0760b5480b3c2de9bc370526bd87da2c9a492d92
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d9388a99585eea4e9e229a2f47982f9f690e3001
 ms.contentlocale: fr-ch
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="making-payments-with-bank-data-conversion-service-or-sepa-credit-transfer"></a>Exécution de paiements avec le service de conversion de données bancaires ou un virement SEPA
@@ -29,15 +29,15 @@ Dans la fenêtre **Feuille paiement**, vous pouvez traiter les paiements à vos 
 
 |**Pour**|**Voir**|  
 |------------|-------------|  
-|Activez la fonctionnalité du service de conversion de données bancaires pour convertir les fichiers de relevé bancaire dans un format que vous pouvez importer, ou pour convertir les fichiers de paiement exportés au format imposé par votre banque.|[Procédure : configurer le service de conversion de données bancaires](bank-how-setup-bank-statement-service.md)|  
-|Configurez un compte bancaire, un fournisseur et une feuille paiement pour le virement SEPA.|[Procédure : configurer des virements SEPA](finance-how-to-set-up-sepa-credit-transfer.md)|  
+|Activez la fonctionnalité du service de conversion de données bancaires pour convertir les fichiers de relevé bancaire dans un format que vous pouvez importer, ou pour convertir les fichiers de paiement exportés au format imposé par votre banque.|[Configurer le service de conversion de données bancaires](bank-how-setup-bank-statement-service.md)|  
+|Configurer un compte bancaire, un fournisseur et une feuille paiement pour le virement SEPA.|[Configurer des virements SEPA](finance-how-to-set-up-sepa-credit-transfer.md)|  
 |Renseignez la feuille paiement avec des lignes pour les paiements dus aux fournisseurs, avec la possibilité d'insérer des dates comptabilisation sur la base de la date d'échéance des documents achat associés.|[Gestion des comptes fournisseur](payables-manage-payables.md)|  
-|Exportez les lignes feuille paiement dans un fichier au format virement SEPA.|[Procédure : exportation de paiements vers un fichier bancaire](payables-how-export-payments-bank-file.md)|  
+|Exportez les lignes feuille paiement dans un fichier au format virement SEPA.|[Exporter des paiements vers un fichier bancaire](payables-how-export-payments-bank-file.md)|  
 |Lorsque le paiement électronique est traité avec succès par la banque, validez les paiements.|[Utilisation de feuilles comptabilité](ui-work-general-journals.md)|  
 
 ## <a name="see-also"></a>Voir aussi  
-[Procédure : configurer le service de conversion de données bancaires](bank-how-setup-bank-statement-service.md)  
-[Procédure : configurer des virements SEPA](finance-how-to-set-up-sepa-credit-transfer.md)  
+[Configurer le service de conversion de données bancaires](bank-how-setup-bank-statement-service.md)  
+[Configurer des virements SEPA](finance-how-to-set-up-sepa-credit-transfer.md)  
 [Gestion des comptes fournisseur](payables-manage-payables.md)   
 [Utilisation de feuilles comptabilité](ui-work-general-journals.md)  
 [Recouvrement de paiements par prélèvement automatique SEPA](finance-collect-payments-with-sepa-direct-debit.md)   

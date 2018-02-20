@@ -1,6 +1,6 @@
 ---
 title: "Activités facultatives pour les périodes de clôture | Microsoft Docs"
-description: "Cette rubrique décrit les processus et les activités facultatifs pour la clôture des périodes comptables dans Dynamics 365."
+description: "Cette rubrique décrit les processus et les activités facultatifs pour la clôture des périodes comptables dans Finance and Operations, Business edition."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,10 +13,10 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ag
 ms.date: 06/19/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 526ae1811768f38b04f961e378454fed79a8426b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 344e294083813d41b415ad07e6e8acdd3fe5047b
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="overview-of-tasks-to-close-accounting-periods"></a>Aperçu des tâches de clôture des périodes comptables
@@ -25,7 +25,7 @@ ms.lasthandoff: 11/10/2017
 ## <a name="general-ledger"></a>Écritures comptables
 * Spécifiez des plages de date de validation à l'échelle du système.  
 
-    Cela spécifie les dates entre lesquelles les validation sont autorisées. En fonction des besoins de votre activité, vous pouvez autoriser la validation au début du traitement de clôture d'exercice ou vers la fin. Pour plus d'informations, reportez vous à [Procédure: spécifier des périodes de validation](finance-how-specify-posting-periods.md).  
+    Cela spécifie les dates entre lesquelles les validation sont autorisées. En fonction des besoins de votre activité, vous pouvez autoriser la validation au début du traitement de clôture d'exercice ou vers la fin. Pour plus d'informations, reportez vous à [Spécifier des périodes de validation](finance-how-specify-posting-periods.md).  
 * Effectuez tous les ajustements comptables nécessaires.  
 * Mettez à jour et validez les feuilles abonnement.  
   <!--* Process Consolidations-->

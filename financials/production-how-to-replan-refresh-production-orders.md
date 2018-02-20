@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 147163d0b75853914e5b4bd3417c3525d29caefc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9b839b26814f730febc384ae1bca432a7c26852f
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-replan-or-refresh-production-orders-directly"></a>Procédure : replanifier ou actualiser directement des ordres de fabrication
+# <a name="replan-or-refresh-production-orders-directly"></a>Replanifier ou actualiser directement des ordres de fabrication
 La fonction **Replanifier** des ordres de fabrication est généralement utilisée après avoir ajouté ou modifié des composants constituant des ordres de fabrication sous-jacents. La fonction calcule les modifications apportées aux composants et aux lignes gamme. Elle inclut les articles situés à des niveaux de nomenclatures de production inférieurs, pour lesquels elle peut générer de nouveaux O.F.  
 
 Sur la base des modifications apportées aux composants et aux lignes gamme, la fonction Replanifier calcule et planifie toutes les nouvelles demandes de l'ordre de fabrication.  
@@ -68,7 +68,7 @@ Vous pouvez soit insérer les lignes O.F. manuellement, soit utiliser la fonctio
 Si vous avez modifié des lignes O.F., des composants ou des lignes gamme, vous devez aussi actualiser les informations de l'ordre de fabrication. Dans la procédure qui suit, les composants d'un ordre de fabrication planifié ferme sont calculés. La procédure est identique pour les lignes gamme.
 
 1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **O.F. planifié ferme**, puis sélectionnez le lien connexe.  
-2.  Sélectionnez l'action **Nouveau**. Pour plus d'informations, voir [Procédure : créer des ordres de fabrication](production-how-to-create-production-orders.md).  
+2.  Sélectionnez l'action **Nouveau**. Pour plus d'informations, voir [Créer des ordres de fabrication](production-how-to-create-production-orders.md).  
 3.  Sélectionnez l'action **Actualiser**.
 4. Dans la fenêtre **Actualiser O.F.**, sélectionnez l'une des options suivantes :
 

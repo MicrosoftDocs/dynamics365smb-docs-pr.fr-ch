@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/05/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 060c58991ae48ba768f5c1c0bd7442228e6bc976
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2e76520cdab388d3430ea50fb8e88f7dce26715a
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-production-families"></a>Procédure : utiliser les familles de production
+# <a name="work-with-production-families"></a>Utiliser les familles de production
 Une famille de production est un groupe d'articles distincts dont la relation repose sur la similitude de leur processus de fabrication. Si vous formez des familles de production, certains articles peuvent être fabriqués plusieurs fois au cours d'une production, ce qui optimise la consommation de matière.
 
 Dans le champ **Quantité** de la fenêtre **Famille**, entrez la quantité à produire lorsque l'ensemble de la famille a été fabriquée une fois.
@@ -35,12 +35,12 @@ Le regroupement d'éléments en familles de production permet de réduire la qua
 
 ## <a name="to-produce-based-on-a-production-familily"></a>Pour produire selon une famille de production
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **O.F. planifiés fermes**, puis sélectionnez le lien connexe.
-2. Créez un ordre de fabrication. Pour plus d'informations, voir [Procédure : créer des ordres de fabrication](production-how-to-create-production-orders.md).
+2. Créez un ordre de fabrication. Pour plus d'informations, voir [Créer des ordres de fabrication](production-how-to-create-production-orders.md).
 3. Dans le champ **Type origine**, sélectionnez **Famille**.  
 4. Dans le champ **N° origine**, sélectionnez la famille de production appropriée.
 
 ## <a name="see-also"></a>Voir aussi
-[Procédure : créer des nomenclatures de production](production-how-to-create-production-boms.md)  
+[Créer des nomenclatures de production](production-how-to-create-production-boms.md)  
 [Paramétrage de la production](production-configure-production-processes.md)  
 [Production](production-manage-manufacturing.md)    
 [Planifié](production-planning.md)   

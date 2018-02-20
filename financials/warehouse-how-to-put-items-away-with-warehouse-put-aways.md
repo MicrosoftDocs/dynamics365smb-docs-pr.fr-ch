@@ -13,18 +13,18 @@ ms.search.keywords:
 ms.date: 08/31/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 28ff0073c75136f31153327a70a8f7c0bb9176aa
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6ccc452db91f7c227e052f60d50f8cc0fdf46fd0
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-put-items-away-with-warehouse-put-aways"></a>Comment ranger des articles avec le rangement entrepôt
+# <a name="put-items-away-with-warehouse-put-aways"></a>Ranger des articles avec le rangement entrepôt
 Lorsque l'entrepôt est configuré pour appeler un traitement de rangement entrepôt et un traitement de réception entrepôt, vous pouvez utiliser la fonction documents rangement entrepôt pour contrôler le rangement des articles.  
 
 Lorsque vous validez une réception entrepôt, les documents origine, tels que commandes achat, enlogement transfert ou commandes retour vente sont mis à jour, la quantité reçue dans les écritures article est validée et les lignes relatives aux articles reçus à la fonction de rangement de l'entrepôt sont transmises. En cas de rangement et de prélèvement internes, des lignes rangement peuvent également être créées dans le cadre du rangement interne.  
 
-En fonction de la configuration de l'entrepôt, ces lignes sont mises à disposition de la feuille rangement ou utilisées pour créer immédiatement des instructions de rangement. Pour plus d'informations, voir [Procédure : planifier des rangements dans la feuille](warehouse-how-to-plan-put-aways-in-worksheets.md).  
+En fonction de la configuration de l'entrepôt, ces lignes sont mises à disposition de la feuille rangement ou utilisées pour créer immédiatement des instructions de rangement. Pour plus d'informations, voir [Planifier des rangements dans la feuille](warehouse-how-to-plan-put-aways-in-worksheets.md).  
 
 Outre les méthodes standard pour créer les rangements entrepôt qui sont décrits dans cette rubrique, vous pouvez créer le rangement à partir de la réception entrepôt validée associée. Cela est utile si vous avez supprimé des lignes rangement ou si vous utilisez le prélèvement et le rangement suggérés et avez décidé de ne pas utiliser la feuille rangement, car vous pouvez créer ou recréer des instructions de rangement à partir des lignes réception validées.  
 
@@ -56,7 +56,7 @@ Outre les méthodes standard pour créer les rangements entrepôt qui sont décr
 
 Dans des magasins qui sont configurés pour utiliser le prélèvement et rangement dirigé, les paramètres suivants sont des conditions préalables à la procédure ci-dessus :  
 
-- Un modèle de rangement est configuré. Pour plus d'informations, voir [Procédure : configurer des modèles rangement](warehouse-how-to-set-up-put-away-templates.md).  
+- Un modèle de rangement est configuré. Pour plus d'informations, voir [Configurer des modèles rangement](warehouse-how-to-set-up-put-away-templates.md).  
 - Le poids, le cubage et les exigences particulières de stockage de l'article ou du point de stock sont définis. Pour plus d'informations, voir Poids brut.  
 - La capacité, le type et le classement des emplacements. Pour plus d'informations, voir Priorité emplacement.  
 

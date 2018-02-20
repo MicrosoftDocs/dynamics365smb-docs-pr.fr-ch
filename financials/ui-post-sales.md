@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 106102d07761673461bc28bbf6452ed05f926112
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 8f0ba4e8bb0770f612594e6af8a47838852a3d25
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="posting-sales"></a>Validation des ventes
@@ -44,7 +44,7 @@ Lorsque la validation est terminée, les lignes vente validées sont supprimées
 
 ## <a name="see-also"></a>Voir aussi
 [Ventes](sales-manage-sales.md)  
-[Procédure : envoyer des documents par e-mail](ui-how-send-documents-email.md)  
+[Envoyer des documents par e-mail](ui-how-send-documents-email.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 

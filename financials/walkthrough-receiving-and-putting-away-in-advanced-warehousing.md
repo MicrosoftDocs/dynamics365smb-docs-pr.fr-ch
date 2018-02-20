@@ -1,6 +1,6 @@
 ---
 title: "Procédure pas à pas : Réception et rangement dans les configurations de stockage avancées | Microsoft Docs"
-description: "Dans Dynamics 365, les processus entrants de réception et de rangement peuvent être effectués de quatre manières, à l'aide de différentes fonctionnalités en fonction du niveau de complexité de l'entrepôt."
+description: "Dans Finance and Operations, Business edition, les processus entrants de réception et de rangement peuvent être effectués de quatre manières, à l'aide de différentes fonctionnalités en fonction du niveau de complexité de l'entrepôt."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 1d5cdff996da2d9886dce0d59d4f38796534972a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 991256bf2737297710d25f5a25854f4803185fc3
 ms.contentlocale: fr-ch
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Procédure pas à pas : Réception et rangement dans les configurations de stockage avancées
@@ -151,8 +151,8 @@ Dans la fenêtre **Rangement entrepôt**, vous pouvez gérer les rangements pour
     Les accessoires reçus sont ensuite rangés dans les emplacements par défaut des articles, et 40 charnières sont placées dans le département d'assemblage. Les articles reçus sont alors disponibles pour le prélèvement pour une demande interne, tel que des ordres d'assemblage, ou une demande externe, telles que des expéditions vente.  
 
 ## <a name="see-also"></a>Voir aussi  
- [Comment ranger des articles avec le rangement entrepôt](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)   
- [Procédure : déplacer des articles dans les configurations de stockage avancées](warehouse-how-to-move-items-in-advanced-warehousing.md)   
+ [Ranger des articles avec le rangement entrepôt](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)   
+ [Déplacer des articles dans les configurations de stockage avancées](warehouse-how-to-move-items-in-advanced-warehousing.md)   
  [Détails de conception : flux d'enlogement](design-details-inbound-warehouse-flow.md)   
  [Procédure pas à pas : Réception et rangement dans les configurations de stockage de base](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)   
  [Procédures pas à pas liées au processus entreprise](walkthrough-business-process-walkthroughs.md)

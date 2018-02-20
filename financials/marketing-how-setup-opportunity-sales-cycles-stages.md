@@ -1,6 +1,6 @@
 ---
 title: "Configurer des cycles de vente opportunité et des étapes de cycle| Microsoft Docs"
-description: "Décrit comment définir des étapes de ventes, du contact initial à la clôture, créer un cycle de vente et l'affecter aux opportunités dans Dynamics 365 Business edition."
+description: "Décrit comment définir des étapes de ventes, du contact initial à la clôture, créer un cycle de vente et l'affecter aux opportunités dans Finance and Operations, Business edition."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,13 +11,13 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: d164dd313352e80b6ce4e6f4ba8408e1e2c093de
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ecff2e9e0705055a514f1726b3223f8196300cb6
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-opportunity-sales-cycles-and-cycle-stages"></a>Procédure : configurer des cycles de vente opportunité et des étapes de cycle
+# <a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a>Configurer des cycles de vente opportunité et des étapes de cycle
 Avant de pouvoir utiliser les opportunités de vente, vous devez configurer les cycles de vente et les étapes correspondantes. Un cycle de vente est composé d'une série d'étapes allant du contact initial à la fermeture d'une vente. Chaque étape peut avoir certaines exigences à respecter, par exemple pour un devis, avant qu'une opportunité puisse accéder à l'étape suivante. Vous pouvez également spécifier si une étape peut être ignorée. Vous pouvez configurer autant de cycles de vente et d'étapes que nécessaire.
 
 Mettre en œuvre des cycles de vente opportunité implique la création d'un cycle de vente, la définition des différentes étapes du cycle, puis l'affectation du cycle à des opportunités. L'affectation de l'activité ou des tâches correspondantes à l'opportunité peut également faire partie de la configuration d'un cycle de vente.
@@ -37,7 +37,7 @@ Répétez ces étapes pour chaque cycle de vente à configurer. Une fois les cyc
 Répétez ces étapes pour définir toutes les étapes du cycle de vente.
 
 ## <a name="to-assign-stage-cycles-to-opportunities"></a>Pour affecter des cycles d'étapes à des opportunités
-Après avoir ajouté le cycle d'étapes opportunité, vous pouvez commencer à ajouter des opportunités de vente, puis affecter le cycle d'étapes aux opportunités en définissant le champ **Code cycle de vente**. Pour plus d'informations, reportez-vous à [Procédure : créer des opportunités de vente](marketing-how-create-opportunities.md).
+Après avoir ajouté le cycle d'étapes opportunité, vous pouvez commencer à ajouter des opportunités de vente, puis affecter le cycle d'étapes aux opportunités en définissant le champ **Code cycle de vente**. Pour plus d'informations, voir [Créer des opportunités de vente](marketing-how-create-opportunities.md).
 
 ## <a name="to-set-up-activities-with-tasks"></a>Pour configurer des activités avec des tâches
 Vous pouvez combiner plusieurs tâches, par exemple les tâches qui représentent chacune une étape, dans les activités. Les tâches d'activité sont liées entre elles par une formule de date. Vous pouvez affecter des activités aux opportunités, aux vendeurs, ou aux contacts.

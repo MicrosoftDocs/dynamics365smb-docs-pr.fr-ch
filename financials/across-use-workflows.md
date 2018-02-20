@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: a42e336dba385cbf24c19702ad64d76b26c15104
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ed9cc92aee8a11a6094456ad24a07ab6c4d47952
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="using-workflows"></a>Utilisation des workflows
@@ -31,11 +31,11 @@ Vous pouvez configurer et utiliser des workflows qui connectent des tâches de p
 
 |**Pour**|**Voir**|  
 |------------|-------------|  
-|Définissez un workflow pour démarrer lorsque le premier événement de point d'entrée se produit.|[Procédure : Activer des workflows](across-how-to-enable-workflows.md)|  
-|Demander l'approbation d'une tâche, en tant qu'approbateur, accepter, décliner ou déléguer des approbations, et envoyer ou afficher des notifications d'approbation.|[Procédure : utilisation des flux d'approbation](across-how-use-approval-workflows.md)|  
-|Créez des étapes de workflow qui limitent l'utilisation d'un certain type d'enregistrement avant qu'un certain événement ne se produise, par exemple que l'enregistrement est approuvé.|[Procédure : restreindre et autoriser l'utilisation d'un enregistrement](across-how-to-restrict-and-allow-usage-of-a-record.md)|  
-|Affichez les instances d'étape du workflow dont le statut est Terminé.|[Procédure : afficher des instances d'étape de workflow archivées](across-how-to-view-archived-workflow-step-instances.md)|  
-|Supprimez un workflow que vous êtes sûr de ne plus utiliser.|[Procédure : supprimer des workflows](across-how-to-delete-workflows.md)|  
+|Définissez un workflow pour démarrer lorsque le premier événement de point d'entrée se produit.|[Activer des workflows](across-how-to-enable-workflows.md)|  
+|Demander l'approbation d'une tâche, en tant qu'approbateur, accepter, décliner ou déléguer des approbations, et envoyer ou afficher des notifications d'approbation.|[Utilisation des flux d'approbation](across-how-use-approval-workflows.md)|  
+|Créez des étapes de workflow qui limitent l'utilisation d'un certain type d'enregistrement avant qu'un certain événement ne se produise, par exemple que l'enregistrement est approuvé.|[Restreindre et autoriser l'utilisation d'un enregistrement](across-how-to-restrict-and-allow-usage-of-a-record.md)|  
+|Affichez les instances d'étape du workflow dont le statut est Terminé.|[Afficher des instances d'étape de workflow archivées](across-how-to-view-archived-workflow-step-instances.md)|  
+|Supprimez un workflow que vous êtes sûr de ne plus utiliser.|[Supprimer des workflows](across-how-to-delete-workflows.md)|  
 
 ## <a name="see-also"></a>Voir aussi  
 [Paramétrage des workflows](across-set-up-workflows.md)   

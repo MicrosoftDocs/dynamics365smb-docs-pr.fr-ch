@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9b3599a3f1a2cfc53d682a153eda8395e892305b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2176baf2947a08785fdf6327b2ebebf35686d04a
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-combine-receipts-on-a-single-invoice"></a>Procédure : Regroupement de bons de réception sur une seule facture
+# <a name="combine-receipts-on-a-single-invoice"></a>Regroupement de bons de réception sur une seule facture
 Si vous voulez facturer plusieurs réceptions achat en une fois, vous pouvez utiliser la fonction **Regroupement des réceptions**.  
 
 Avant de pouvoir regrouper des réceptions achat, plusieurs réceptions achat du même fournisseur doivent être validées dans la même devise. En d'autres termes, vous devez avoir renseigné au moins deux commandes achat et les avoir validées comme reçues, mais non facturées.  
@@ -28,7 +28,7 @@ Lorsque des réceptions achat sont regroupées sur une facture et validées, une
 
 ## <a name="to-combine-receipts"></a>Pour regrouper des réceptions  
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Factures achat**, puis sélectionnez le lien connexe.  
-2. Sélectionnez l'action **Nouveau**. Pour plus d'informations, reportez-vous à [Procédure : enregistrer des achats](purchasing-how-record-purchases.md).  
+2. Sélectionnez l'action **Nouveau**. Pour plus d'informations, voir [Enregistrer des achats](purchasing-how-record-purchases.md).  
 3. Dans le raccourci **Lignes**, sélectionnez l'action **Extraire lignes réception**.  
 4. Sélectionnez plusieurs lignes réception à inclure dans la facture.  
 
