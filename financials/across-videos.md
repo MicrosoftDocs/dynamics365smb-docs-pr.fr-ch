@@ -16,18 +16,18 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 747a3f83d5e0387a557eebaf9ad5d2ef5dcd0673
 ms.contentlocale: fr-ch
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="visit-our-video-library"></a>Visitez notre vidéothèque
 Pour vous aider à commencer rapidement, nous accumulons une bibliothèque de « procédures » vidéo qui expliquent comment effectuer différents processus dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour n'en citer que quelques-unes, la bibliothèque contient des vidéos qui vous expliquent comment :  
 
-* Migrer des données métier depuis d'autres applications financières vers  [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+* Migrer des données métier depuis d'autres applications financières vers [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 * Configurer les axes analytiques pour effectuer le suivi et l'analyse de différents documents et entités
 * Se connecter à [!INCLUDE[d365fin](includes/d365fin_md.md)] avec Microsoft Dynamics 365 for Sales
 * Configurer des flux de travail approbation  
-* Utiliser Power BI avec  [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-* Configurer une messagerie et envoyer des documents directement depuis  [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+* Utiliser Power BI avec [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+* Configurer une messagerie et envoyer des documents directement depuis [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 
 Vous pouvez accéder aux vidéos de plusieurs façons. Si vous utilisez déjà [!INCLUDE[d365fin](includes/d365fin_md.md)], il existe deux façons spécifiques d'accéder à la bibliothèque :
 

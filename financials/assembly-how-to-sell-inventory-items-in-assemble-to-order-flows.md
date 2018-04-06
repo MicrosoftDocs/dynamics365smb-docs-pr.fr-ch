@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 8d7c726cda285100a64a11beffdc7e0f492b93a9
 ms.contentlocale: fr-ch
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="sell-inventory-items-in-assemble-to-order-flows"></a>Vente d'articles en stock dans des flux à assembler pour commande
@@ -35,7 +35,7 @@ Une fonctionnalité identique est disponible lorsque vous vendez des éléments 
 Dans cette procédure, vous remplacez les quantités à assembler pour commande par les quantités en stock sur une ligne commande vente. Les étapes comprennent la vérification des disponibilités existantes, la détection de la quantité de l'ordre d'assemblage associé, puis la réservation de la quantité en stock pour s'assurer qu'elle est prélevée et expédiée pour la commande.  
 
 ## <a name="to-sell-inventory-items-in-assemble-to-order-flows"></a>pour vendre des articles en stock dans des flux à assembler pour commande  
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Commandes vente**, puis sélectionnez le lien connexe.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Commandes vente**, puis sélectionnez le lien connexe.  
 2.  Créez une commande client. Pour en savoir plus, voir [Vendre des produits](sales-how-sell-products.md).  
 3.  Sur une ligne de commande vente pour un article à assembler pour commande, dans le champ **Quantité**, entrez la quantité demandée.  
 4.  Dans le récapitulatif **Détails ligne vente**, déterminez si une partie ou la totalité de la quantité demandée est disponible.  

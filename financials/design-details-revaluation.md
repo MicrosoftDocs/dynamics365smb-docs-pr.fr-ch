@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: ba88be99ad8dfcecb78dfb1dd58be2d0645e85ba
 ms.contentlocale: fr-ch
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-revaluation"></a>Détails de conception : réévaluation
@@ -54,7 +54,7 @@ L'exemple suivant montre à quel moment un article TEC se transforme pour deveni
 
 **1V** : l'utilisateur valide les maillons achetés comme étant facturés et les maillons intègrent le stock, d'un point de vue financier. Le tableau suivant montre les écritures valeur résultantes.  
 
-|Date comptabilisation|Type écriture|Date évaluation|Coût total (réel)|N° séquence écriture comptable article|Numéro de la séquence|  
+|Date comptabilisation|Type écriture|Date évaluation|Coût total (réel)|N° écriture comptable article|Numéro de la séquence|  
 |------------------|----------------|--------------------|----------------------------|---------------------------|---------------|  
 |15/01/20|Coût direct|01/01/20|150,00|1|1|  
 
@@ -66,7 +66,7 @@ L'exemple suivant montre à quel moment un article TEC se transforme pour deveni
 
 Le tableau suivant montre l'écriture valeur résultante.  
 
-|Date comptabilisation|Type écriture|Date évaluation|Coût total (réel)|N° séquence écriture comptable article|Numéro de la séquence|  
+|Date comptabilisation|Type écriture|Date évaluation|Coût total (réel)|N° écriture comptable article|Numéro de la séquence|  
 |------------------|----------------|--------------------|----------------------------|---------------------------|---------------|  
 |01/02/20|Coût direct|01/02/20|-150,00|2|2|  
 
@@ -80,7 +80,7 @@ La date d'évaluation est définie sur la date de la validation de la consommati
 
 **3V** : l'utilisateur exécute le traitement par lots **Ajuster coûts - Écr. article**, qui valide la chaîne comme étant facturée pour indiquer que toute la consommation de matériel a été entièrement facturée. Du point de vue financier, les liens ne font plus partie du stock encours lorsque la production est entièrement facturée et ajustée. Le tableau suivant montre les écritures valeur résultantes.  
 
-|Date comptabilisation|Type écriture|Date évaluation|Coût total (réel)|N° séquence écriture comptable article|Numéro de la séquence|  
+|Date comptabilisation|Type écriture|Date évaluation|Coût total (réel)|N° écriture comptable article|Numéro de la séquence|  
 |------------------|----------------|--------------------|----------------------------|---------------------------|---------------|  
 |15/01/20|Coût direct|01/01/20|150,00|2|2|  
 |01/02/20|Coût direct|01/02/20|-150,00|2|2|  
@@ -110,7 +110,7 @@ L'exemple suivant, basé sur la production de la chaîne dans l'exemple précéd
     3.  Une écriture valeur avec le type d'écriture Écart, qui enregistre la différence entre le coût facturé et le coût standard réévalué.  
 Le tableau suivant montre les écritures valeur résultantes.  
 
-|Étape|Date comptabilisation|Type écriture|Date évaluation|Coût total (prévu)|Coût total (réel)|N° séquence écriture comptable article|Numéro de la séquence|  
+|Étape|Date comptabilisation|Type écriture|Date évaluation|Coût total (prévu)|Coût total (réel)|N° écriture comptable article|Numéro de la séquence|  
 |----------|------------------|----------------|--------------------|------------------------------|----------------------------|---------------------------|---------------|  
 |1.|15/01/20|Coût direct|15/01/20|300,00|  0.00|1|1|  
 |2.|20/01/20|Réévaluation|20/01/20|150,00|  0.00|1|2|  
@@ -147,7 +147,7 @@ L'exemple suivant, qui illustre la réévaluation d'un article qui utilise le mo
 
 Le tableau suivant montre les écritures valeur résultantes.  
 
-|Scénario|Date comptabilisation|Type écriture|Date évaluation|Quantité valorisée|Coût total (réel)|N° séquence écriture comptable article|Numéro de la séquence|  
+|Scénario|Date comptabilisation|Type écriture|Date évaluation|Quantité valorisée|Coût total (réel)|N° écriture comptable article|Numéro de la séquence|  
 |--------------|------------------|----------------|--------------------|---------------------|----------------------------|---------------------------|---------------|  
 ||01/01/20|Achats|01/01/20|6|60,00|1|1|  
 ||01/03/20|Réévaluation|01/03/20|4|-8,00|1|5|  

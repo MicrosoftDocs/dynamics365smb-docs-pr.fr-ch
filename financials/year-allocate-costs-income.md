@@ -15,7 +15,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 3f2a1f762f9380f3cd272e78c4c2f269e9960f38
 ms.contentlocale: fr-ch
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="allocate-costs-and-income"></a>Répartition des coûts et du revenu
@@ -47,7 +47,7 @@ Vous pouvez ventiler une écriture dans une feuille abonnement dans différents 
 11. Validez la feuille.
 
 ## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Pour modifier une clé de ventilation déjà configurée
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Feuille abonnement**, puis sélectionnez le lien connexe.
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille abonnement**, puis sélectionnez le lien connexe.
 2. Dans la fenêtre **Feuille récurrente**, sélectionnez la feuille contenant la ventilation.
 3. Sélectionnez la ligne de la ventilation, puis sélectionnez l'action **Ventilations**.
 4. Modifiez les champs appropriés, puis cliquez sur le bouton **OK**.

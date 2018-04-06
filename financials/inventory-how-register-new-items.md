@@ -12,10 +12,10 @@ ms.search.keywords: item, finished good, component, raw material, assembly item
 ms.date: 08/31/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 39a701fb0ff705508fdc4ddcec0af661d234e8c8
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 9643e71c29adf4b4be1d9d474832e3e29f2c21d8
 ms.contentlocale: fr-ch
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="register-new-items"></a>Enregistrer de nouveaux articles
@@ -33,7 +33,7 @@ Un article peut être structuré comme article parent avec les éléments enfant
 Si vous achetez le même article chez plusieurs fournisseurs, vous pouvez lier ces fournisseurs à la fiche article. Les fournisseurs s'affichent alors dans la fenêtre **Catalogue fournisseur articles**, de sorte que vous pouvez facilement sélectionner un autre fournisseur.
 
 ## <a name="to-create-a-new-item-card"></a>Pour créer une fiche article
-1. Sur la page d'accueil, sélectionnez l'action **Articles** pour ouvrir la liste des article existants.  
+1. Cliquez sur l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Articles**, puis sélectionnez le lien connexe.  
 2. Dans la fenêtre **Articles**, sélectionnez l'action **Nouveau**.
 
     Si un seul modèle article existe, une nouvelle fiche article avec certains champs renseignés à l'aide des informations provenant du modèle s'ouvre.

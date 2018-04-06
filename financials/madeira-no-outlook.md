@@ -12,17 +12,17 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 0602/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 81587638e5a92b48bb1bef406423c23e061f2241
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 29304bbbac28926247dfd6a6304647770dcd8114
 ms.contentlocale: fr-ch
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="using-finance-and-operations-business-edition-without-outlook"></a>Utiliser Finance and Operations, Business edition sans Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] bénéficie d'une intégration complète à Office 365, et vous pouvez utiliser [!INCLUDE[d365fin](includes/d365fin_md.md)] comme boîte de réception professionnelle dans Outlook. Si vous n'avez pas Outlook, vous pouvez utiliser [!INCLUDE[d365fin](includes/d365fin_md.md)] dans le navigateur ou sur votre périphérique mobile.  
 
 ## <a name="sending-email"></a>Envoi d'e-mails
-Vous pouvez envoyer des documents tels que des factures en tant qu'e-mails à l'aide de votre adresse électronique professionnelle. À partir de votre page d'accueil, vous pouvez accéder à un guide de configuration assistée qui vous aide à configurer votre messagerie. Si vous n'utilisez pas de compte de messagerie Office 365, vous devez spécifier les informations techniques relatives à votre serveur de messagerie. Si vous ne disposez pas de ces informations, contactez votre équipe de support informatique.  
+Vous pouvez envoyer des documents tels que des factures en tant qu'e-mails à l'aide de votre adresse électronique professionnelle. À partir de votre tableau de bord, vous pouvez accéder à un guide de configuration assistée qui vous aide à configurer votre messagerie. Si vous n'utilisez pas de compte de messagerie Office 365, vous devez spécifier les informations techniques relatives à votre serveur de messagerie. Si vous ne disposez pas de ces informations, contactez votre équipe de support informatique.  
 
 
 ## <a name="see-also"></a>Voir aussi

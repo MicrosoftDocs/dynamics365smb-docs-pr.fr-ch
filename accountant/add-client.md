@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
 ms.openlocfilehash: 6543eb4210a64802660189e5060975a327d71099
 ms.contentlocale: fr-ch
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="add-clients-to-your-dashboard-in-included365acclongincludesd365acclongmdmd"></a>Ajouter des clients à votre tableau de bord dans [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]
@@ -24,7 +24,7 @@ Vous pouvez ajouter un client à l'aide de la fenêtre **Clients**, que vous pou
 
 ![Ajouter un client](./media/accountant-add-client/manage-client.png)
 
-Les données de la fiche de chaque client sont spécifiées par vous, et vous pouvez les modifier selon vos besoins. Toutefois, le champ **URL client** est indispensable, car il vous permet d'accéder au [!INCLUDE[d365fin](includes/d365fin_md.md)] de chaque client. Utilisez l'action **Tester l'URL client** dans le ruban pour vérifier que vous avez saisi le bon lien. L'URL que vous devez saisir pointe sur la version [!INCLUDE[d365fin](includes/d365fin_md.md)] du client, par exemple *https://mybusiness.financials.dynamics.com*. Cette URL est utilisée lorsque vous choisissez l'option de menu **Atteindre société** du tableau de bord [!INCLUDE[d365acc](includes/d365acc_md.md)].  
+Les données de la fiche de chaque client sont spécifiées par vous, et vous pouvez les modifier selon vos besoins. Toutefois, le champ **URL client** est indispensable, car il vous permet d'accéder au [!INCLUDE[d365fin](includes/d365fin_md.md)] de chaque client. Utilisez l'action **Tester l'URL client** dans le ruban pour vérifier que vous avez saisi le bon lien. L'URL que vous devez saisir pointe sur la version [!INCLUDE[d365fin](includes/d365fin_md.md)] du client, par exemple *https://mybusiness.financials.dynamics.com*. Cette URL est utilisée lorsque vous choisissez l'option de menu **Atteindre société** dans le tableau de bord [!INCLUDE[d365acc](includes/d365acc_md.md)].  
 
 ### <a name="get-invited-to-a-clients-included365finlongincludesd365finlongmdmd"></a>Etre invité dans le [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] d'un client
 Une société qui utilise [!INCLUDE[d365fin](includes/d365fin_md.md)] peut vous inviter dans [!INCLUDE[d365fin](includes/d365fin_md.md)] comme comptable externe. Pour être invité, vous devez leur communiquer l'adresse électronique que vous utilisez avec [!INCLUDE[d365acc](includes/d365acc_md.md)], par exemple *me@accountant.com*. L'administrateur de votre client peut ensuite vous ajouter à leur système en exécutant l'Assistant **Inviter un comptable externe**.  

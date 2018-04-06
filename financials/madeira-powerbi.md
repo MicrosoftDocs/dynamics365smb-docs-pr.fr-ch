@@ -11,10 +11,10 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.date: 09/05/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 61d339e584107d48e22bd4c250085e9468271d7e
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: 8c8a52f20abe27de7063a0879f529086263d0675
 ms.contentlocale: fr-ch
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Activation de vos données commerciales pour Power BI
@@ -53,7 +53,7 @@ Pour accéder à vos données [!INCLUDE[d365fin](includes/d365fin_md.md)] dans P
 
 | Champ | Désignation |
 | --- | --- |
-| **URL de flux OData** |L'URL OData permet à Power BI d'accéder aux données de votre société, par exemple https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('My%2Business'). |
+| **URL de flux OData** |URL OData permettant à Power BI d'accéder aux données de votre société, par exemple https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('My%2Business'). |
 | **Méthode d'authentification** |Sélectionnez **Basique**. |
 | **Nom utilisateur** |Votre nom tel qu'il s'affiche pour votre compte dans [!INCLUDE[d365fin](includes/d365fin_md.md)], par exemple *Jean Dupont*. |
 | **Mot de passe** |Il s'agit de la clé d'accès rapide au service Web pour votre compte d'utilisateur dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. |

@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 39d4bdc430fc74452e7f089c38b28b3214304725
 ms.contentlocale: fr-ch
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-rounding"></a>Détails de conception : arrondi
@@ -42,7 +42,7 @@ Des reliquats d'arrondi peuvent se produire lorsque vous évaluez le coût d'une
 
  Le tableau suivant montre les écritures valeur résultantes.  
 
-|Date comptabilisation|Quantité|Coût total (réel)|N° séquence écriture comptable article|Numéro de la séquence|  
+|Date comptabilisation|Quantité|Coût total (réel)|N° écriture comptable article|Numéro de la séquence|  
 |------------------|--------------|----------------------------|---------------------------|---------------|  
 |01/01/20|3|10|1|1|  
 |01/02/20|-1|-3,33|2|2|  
@@ -53,7 +53,7 @@ Des reliquats d'arrondi peuvent se produire lorsque vous évaluez le coût d'une
 
  Le tableau suivant montre les écritures valeur résultantes.  
 
-|Date comptabilisation|Quantité|Coût total (réel)|N° séquence écriture comptable article|Numéro de la séquence|  
+|Date comptabilisation|Quantité|Coût total (réel)|N° écriture comptable article|Numéro de la séquence|  
 |------------------|--------------|----------------------------|---------------------------|---------------|  
 |01/01/20|3|10|1|1|  
 |01/02/20|-1|-3,33|2|2|  

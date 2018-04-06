@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 9bc177d45efa1e6e772ed70cc66de393e6250def
 ms.contentlocale: fr-ch
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-inventory-posting"></a>Détails de conception : comptabilisation stock
@@ -48,14 +48,14 @@ Chaque mouvement stock, par exemple une réception achat ou une expédition vent
 
  **Ecritures valeur**  
 
-|Date comptabilisation|Type écriture|Coût total (réel)|N° séquence écriture comptable article|Numéro de la séquence|  
+|Date comptabilisation|Type écriture|Coût total (réel)|N° écriture comptable article|Numéro de la séquence|  
 |------------------|----------------|----------------------------|---------------------------|---------------|  
 |01/01/20|Coût direct|70,00|1|1|  
 |01/01/20|Coût indirect|10,00|1|2|  
 
  **Écritures lettrage article**  
 
-|Numéro de la séquence|N° séquence écriture comptable article|N° écriture article entrant|N° écriture article sortant|Quantité|  
+|Numéro de la séquence|N° écriture comptable article|N° écriture article entrant|N° écriture article sortant|Quantité|  
 |---------------|---------------------------|----------------------------|-----------------------------|--------------|  
 |1|1|1|0|10|  
 
@@ -69,13 +69,13 @@ Chaque mouvement stock, par exemple une réception achat ou une expédition vent
 
  **Ecritures valeur**  
 
-|Date comptabilisation|Type écriture|Coût total (réel)|N° séquence écriture comptable article|Numéro de la séquence|  
+|Date comptabilisation|Type écriture|Coût total (réel)|N° écriture comptable article|Numéro de la séquence|  
 |------------------|----------------|----------------------------|---------------------------|---------------|  
 |15/01/20|Coût direct|-80,00|2|3|  
 
  **Écritures lettrage article**  
 
-|Numéro de la séquence|N° séquence écriture comptable article|N° écriture article entrant|N° écriture article sortant|Quantité|  
+|Numéro de la séquence|N° écriture comptable article|N° écriture article entrant|N° écriture article sortant|Quantité|  
 |---------------|---------------------------|----------------------------|-----------------------------|--------------|  
 |2|2|1|2|-10|  
 
@@ -87,7 +87,7 @@ Chaque mouvement stock, par exemple une réception achat ou une expédition vent
 
  **Ecritures valeur**  
 
-|Date comptabilisation|Type écriture|Coût total (réel)|Coût validé en comptabilité|N° séquence écriture comptable article|Numéro de la séquence|  
+|Date comptabilisation|Type écriture|Coût total (réel)|Coût validé en comptabilité|N° écriture comptable article|Numéro de la séquence|  
 |------------------|----------------|----------------------------|-------------------------|---------------------------|---------------|  
 |01/01/20|Coût direct|70,00|70,00|1|1|  
 |01/01/20|Coût indirect|10,00|10,00|1|2|  

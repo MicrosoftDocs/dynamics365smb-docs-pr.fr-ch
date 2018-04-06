@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 08/21/2017
+ms.date: 03/02/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: fa8c8ef711a1a9212da560e0f721870823990710
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 2f05f77658c75007bbb4a9f887472d253736774d
 ms.contentlocale: fr-ch
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="general-business-functionality"></a>Fonctionnalités marché
@@ -24,26 +24,21 @@ ms.lasthandoff: 01/30/2018
 
 Pour prendre en charge ces tâches spécifiques à votre secteur d'activité, vous pouvez utiliser diverses fonctionnalités d'entreprise, comme définir un texte étendu pour les lignes document et organiser les tâches professionnelles en flux de travail.
 
-
-
 Le tableau suivant répertorie ces secteurs d'activité généraux avec des liens vers les rubriques qui les décrivent.
 
-| Pour | Voir |
+| À | Voir |
 | --- | --- |
-| Définir des codes texte standard de façon à étendre le texte standard en ajoutant des lignes supplémentaires et définir des conditions d'utilisation des lignes supplémentaires. |[Définir du texte étendu](ui-how-define-ext-text.md) |
-| Apprendre à utiliser Les feuilles comptabilité, qui permettent de valider dans les comptes généraux et d'autres comptes tels que les comptes bancaires, client, fournisseur et immobilisations. |[Utilisation de feuilles comptabilité](ui-work-general-journals.md) |
-| Communiquer le contenu des documents commerciaux rapidement à vos partenaires commerciaux, comme les informations de paiement sur les documents vente aux clients. |[Envoyer des documents par e-mail](ui-how-send-documents-email.md) |
-| Planifier un état à exécuter à une date et une heure spécifiques. |[Planification d'un état à exécuter](ui-work-report.md#ScheduleReport) |
-| Gérer les différents types de présentations d'état. |[Gestion des présentations de rapport](ui-manage-report-layouts.md) |
-| Suivre les activités des utilisateurs.|[Enregistrement des modifications dans Financials](across-log-changes.md)|
-|Affecter des autorisations aux utilisateurs, modifier les ensembles d'autorisations, et grouper les utilisateurs par autorisations.|[Gérer les utilisateurs et les autorisations](ui-how-users-permissions.md)|
-| Modifiez [!INCLUDE[d365fin](includes/d365fin_md.md)] en installant des extensions qui ajoutent des fonctionnalités, modifient le comportement de l'application, ou vous permettent d'accéder à de nouveaux services en ligne. |[Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md) |
-|Configurez et utilisez des workflows qui connectent des tâches exécutées par différents utilisateurs ou par le système, telles que la validation automatique. Demander et accorder une approbation pour créer ou valider des documents sont des étapes classiques du workflow.|[Flux de travail](across-workflow.md)|
+| Communiquer le contenu des documents commerciaux rapidement à vos partenaires commerciaux, comme les informations de paiement sur les documents vente aux clients. |[Envoi de documents par e-mail](ui-how-send-documents-email.md) |
+| Définir des codes texte standard de façon à étendre le texte standard en ajoutant des lignes supplémentaires et définir des conditions d'utilisation des lignes supplémentaires. |[Définition du texte étendu](ui-how-define-ext-text.md) |
+|Créez des tâches pour vous rappeler le travail à faire. Vous pouvez créer des tâches pour vous-même, mais vous pouvez également affecter des tâches à d'autres personne ou avoir une tâche affectée à vous-même par une autre personne de votre organisation.|[Définition des tâches utilisateur](across-user-tasks.md)|
+|Le système peut vous aider à effectuer ces tâches plus rapidement et précisément en préremplissant les champs ou en complétant les lignes avec des données que vous devriez sinon calculer et saisir vous-même.|[Laisser Finance and Operations, Business edition suggérer des valeurs](ui-let-system-suggest-values.md)|
 |Enregistrez des documents externes dans Financials, ainsi que leurs fichiers joints, puis créez manuellement les documents connexes ou convertissez automatiquement les fichiers en documents électroniques.|[Documents entrants](across-income-documents.md)|
+|Configurez et utilisez des workflows qui connectent des tâches exécutées par différents utilisateurs ou par le système, telles que la validation automatique. Demander et accorder une approbation pour créer ou valider des documents sont des étapes classiques du workflow.|[Flux de travail](across-workflow.md)|
 | Configurer les définitions d'échange de données afin de pouvoir envoyer et recevoir des documents électroniques. |[Échanger des données par voir électronique](across-data-exchange.md) |
 
 ## <a name="see-also"></a>Voir aussi
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Administration](admin-setup-and-administration.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
 ## [!INCLUDE[d365fin](includes/training_link_md.md)]

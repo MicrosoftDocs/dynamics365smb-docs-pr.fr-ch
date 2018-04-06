@@ -13,10 +13,10 @@ ms.search.keywords: online payment
 ms.date: 07/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: cfa15ee7b85f1bd01077493d295f230e836239a7
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: c8f3faa68280a1c6157ab62ca2a19ce964bdbfd4
 ms.contentlocale: fr-ch
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="enable-customer-payments-through-payment-services"></a>Activer les paiements client via les services de paiement
@@ -35,7 +35,7 @@ Les extensions Microsoft Pay, PayPal Payments Standard et WorldPay Payments Stan
 6. Fermez la fenêtre.  
 
 ## <a name="to-select-a-payment-service-on-a-sales-invoice"></a>Pour sélectionner un service de paiement dans une facture vente
-1. Sur la page d'accueil, sélectionnez **Factures vente**.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Factures vente**, puis sélectionnez le lien connexe.  
 2. Ouvrez la facture vente que vous souhaitez payer en utilisant le service de paiement.  
 3. Dans le champ **Service de paiement**, sélectionnez le service de paiement.  
 

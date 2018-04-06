@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: b679c2762c67c6d78bcc6be293e6aabde4a58848
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 712f0de68476a73871672c399bc5be72d511d9c1
 ms.contentlocale: fr-ch
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Utiliser des files d'attente des travaux pour planifier des tâches
@@ -25,7 +25,7 @@ La fenêtre **Écritures file d'attente des travaux** répertorie tous les proje
 
 Vous pouvez éventuellement définir un filtre dans le champ **Filtre catégorie de la file d'attente des travaux**. Les catégories de file d'attente des travaux peuvent être utilisées pour regrouper les projets de la liste.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  exécute automatiquement les projets selon le planning spécifié pour chaque écriture file d'attente des travaux. Vous pouvez également démarrer, arrêter et mettre en attente manuellement une écriture file d'attente des travaux.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] exécute automatiquement les projets selon le planning spécifié pour chaque écriture file d'attente des travaux. Vous pouvez également démarrer, arrêter et mettre en attente manuellement une écriture file d'attente des travaux.
 
 ### <a name="log-files"></a>Fichiers journaux
 Les erreurs sont répertoriées dans la fenêtre **Écritures journal file d'attente des travaux** qui est accessible à partir du ruban. Vous pouvez également résoudre les erreurs de la file d'attente des travaux. Les données générées lors de l'exécution d'une file d'attente des travaux sont stockées dans la base de données.  
@@ -35,7 +35,7 @@ Les files d'attente des travaux sont un outil efficace pour planifier le travail
 
  Sinon, vous pouvez planifier des validations à des heures pratiques pour votre organisation. Par exemple, il peut sembler raisonnable dans votre activité d'exécuter certaines routines lorsque la plupart de la saisie de données de la journée est achevée. Vous pouvez obtenir cette opération en configurant la file projets pour exécuter différents états de validation par lots, par exemple, **TPL valider commandes vente**, **TPL valider factures vente**et les états **TPL valider avoirs vente**.  
 
- [!INCLUDE[d365fin](includes/d365fin_md.md)]  prend en charge la validation en arrière\-plan pour les types de document suivants :  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge la validation en arrière\-plan pour les types de document suivants :  
 
 -   Ventes : commande, retour, avoir et facture vente  
 
@@ -52,7 +52,7 @@ Vous définissez cette utilisation de la file d'attente des travaux dans la fen�
 >  Si vous paramétrez un projet qui valide et imprime des documents et que l'imprimante affiche une boîte de dialogue, par exemple une demande d'informations d'identification ou un alerte à propos de la quantité faible d'encre, votre document est validé mais non imprimé. L'écriture file d'attente de travaux correspondante expire et la valeur du champ **Statut** devient **Erreur**. Par conséquent, nous vous recommandons de ne pas utiliser une configuration de l'imprimante nécessitant une interaction avec les boîtes de dialogue de l'imprimante relatives à la validation en arrière-plan.  
 
 ## <a name="use-the-my-job-queue-part"></a>Utiliser le composant Ma file d'attente des travaux
-Le composant **Ma file d'attente des travaux** répertorie les écritures files d'attente des travaux commencées par un utilisateur, mais qui ne sont pas terminées. Par défaut, le composant n'est pas visible et vous devez donc l'ajouter à votre tableau de bord. Pour plus d'informations, reportez-vous à [Modifier des tableaux de bord](change-role.md).  
+Le composant **Ma file d'attente des travaux** répertorie les écritures files d'attente des travaux commencées par un utilisateur, mais qui ne sont pas terminées. Par défaut, le composant n'est pas visible et vous devez donc l'ajouter à votre tableau de bord. Pour plus d'informations, voir [Modification des paramètres de base](ui-change-basic-settings.md).  
 
 Dans ce composant, vous pouvez visualiser les documents en cours de traitement ou en attente, pour lesquels votre ID est spécifié dans le champ **Code utilisateur affecté**. Le composant vous permet de suivre toutes les écritures de file projet, y compris celles liées à la validation en arrière-plan. Le composant peut vous indiquer rapidement s’il y a eu une erreur lors de la validation d’un document ou s’il existe des erreurs dans une écriture de file projet. Il vous permet également d'annuler une validation de document en cas de non exécution.  
 

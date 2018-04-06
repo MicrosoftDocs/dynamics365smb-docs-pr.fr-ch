@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: f597ce7dc0d4cda526da00d9aac5b1178c5e7a14
 ms.contentlocale: fr-ch
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Configurer l'envoi et la réception de documents électroniques
@@ -104,7 +104,7 @@ La rubrique contient les procédures suivantes :
 4. Dans le champ **Document électronique**, sélectionnez **Oui (via le service d'échange de documents)**.  
 
     > [!NOTE]  
-    >  [!INCLUDE[d365fin](includes/d365fin_md.md)]  détecte automatiquement si le document est une facture ou un avoir et applique le format PEPPOL en conséquence.  
+    >  [!INCLUDE[d365fin](includes/d365fin_md.md)] détecte automatiquement si le document est une facture ou un avoir et applique le format PEPPOL en conséquence.  
 
 5. Pour que ce profil d'envoi de document s'applique à tous les clients, activez la case à cocher **Par défaut** sur le raccourci **Général**. Pour que cette opération ne s'applique qu'à des clients spécifiques, renseignez le champ **Profil d'envoi de documents** des fiches article en question. Pour plus d'informations, reportez vous à [Configurer des profils d'envoi de documents](sales-how-setup-document-send-profiles.md).  
 

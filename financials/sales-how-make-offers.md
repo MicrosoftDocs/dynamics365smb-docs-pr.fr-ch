@@ -12,10 +12,10 @@ ms.search.keywords: rfq
 ms.date: 08/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 552fbf283a9149c430ea1ed94bcea4bd22e43fea
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 66a78ebc362d0e01c0e6df4bd4a2d74568845159
 ms.contentlocale: fr-ch
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="make-offers"></a>Créer des offres
@@ -26,7 +26,7 @@ Lorsque vous négociez avec le client, vous pouvez modifier et renvoyer autant d
 Vous pouvez remplir les champs relatifs au client sur le devis de deux façons selon que le client est déjà enregistré ou non. Reportez-vous aux étapes 2 et 3 de la procédure ci-dessous.
 
 ## <a name="to-create-a-sales-quote"></a>Pour créer un devis
-Sur la page d'accueil, sélectionnez l'action **Devis**.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Devis**, puis sélectionnez le lien connexe.
 2. Dans le champ **Client**, entrez le nom d'un client existant.
 
    D'autres champs de la fenêtre **Devis** contiennent des informations standard sur le client sélectionné. Si le client n'est pas enregistré, procédez comme suit :

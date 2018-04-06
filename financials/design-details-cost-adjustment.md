@@ -1,8 +1,6 @@
 ---
 title: "Détails de conception - Ajustement des coûts | Microsoft Docs"
 description: "L'objet principal de l'ajustement des coûts est de transférer les changements depuis les coûts des sources de coût aux destinataires de coût, selon le mode évaluation stock d'un article, pour fournir une évaluation du stock correcte."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 23/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 8520630e03e26c8c2aab5157fc1efb853552919a
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: d0733c7d96f10969a7d266031e5d1d0d7f83519f
 ms.contentlocale: fr-ch
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-cost-adjustment"></a>Détails de conception : ajustement des coûts
@@ -171,13 +169,20 @@ Si vous avez défini l'ajustement automatique des coûts pour l'appliquer aux va
 Si vous avez défini l'ajustement automatique des coûts pour l'appliquer aux validations qui se produisent à un jour ou une semaine de la date en cours, l'ajustement automatique des coûts ne fonctionne pas, et le coût de l'achat n'est pas transmis à la vente jusqu'à ce que vous exécutiez le traitement par lots **Ajuster &coûts - Écr. article**.  
 
 ## <a name="see-also"></a>Voir aussi
+<<<<<<< HEAD [Ajuster coûts article](inventory-how-adjust-item-costs.md)  
+[Détails de conception : date comptabilisation de l'écriture valeur d'ajustement](design-details-inventory-adjustment-value-entry-posting-date.md)  
+[Détails de conception : évaluation stock](design-details-inventory-costing.md)  
+[Détails de conception : rapprochement de comptabilité](design-details-reconciliation-with-the-general-ledger.md)  
+[Détails de conception : comptabilisation stock](design-details-inventory-posting.md)  
+[Détails de conception : écart](design-details-variance.md)  
+=======
 [Ajuster coûts et prix article](inventory-how-adjust-item-costs.md)   
 [Détails de conception : évaluation stock](design-details-inventory-costing.md)   
 [Détails de conception : rapprochement de comptabilité](design-details-reconciliation-with-the-general-ledger.md)   
 [Détails de conception : comptabilisation stock](design-details-inventory-posting.md)   
 [Détails de conception : écart](design-details-variance.md)   
-[Détails de conception : validation d'ordre d'assemblage](design-details-assembly-order-posting.md)   
-[Détails de conception : validation d'ordre de fabrication](design-details-production-order-posting.md)
+>>>>>>> refs/remotes/origin/Update13 [Détails de conception : validation d'ordre d'assemblage](design-details-assembly-order-posting.md)   
+[Détails de conception : validation d'ordre de fabrication](design-details-production-order-posting.md)  
 [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  
 [Finances](finance.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

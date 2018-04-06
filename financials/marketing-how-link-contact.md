@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 094ba95f46d13c5861087bedbe52fb18da9270e9
 ms.contentlocale: fr-ch
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="link-contacts-with-customers-vendors-and-bank-accounts"></a>Liaison de contacts avec des clients, des fournisseurs et des comptes bancaires

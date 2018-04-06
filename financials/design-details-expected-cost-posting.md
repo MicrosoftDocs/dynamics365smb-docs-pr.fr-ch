@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: eae1608b8768771759ac717c59606c930472d261
 ms.contentlocale: fr-ch
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-expected-cost-posting"></a>Détails de conception : validation du coût prévu
@@ -38,7 +38,7 @@ Les coûts prévus représentent l'estimation, par exemple, du coût d'un articl
 
  **Ecritures valeur**  
 
-|Date comptabilisation|Type écriture|Coût total (prévu)|Coût prévu validé en comptabilité|Coût prévu|N° séquence écriture comptable article|Numéro de la séquence|  
+|Date comptabilisation|Type écriture|Coût total (prévu)|Coût prévu validé en comptabilité|Coût prévu|N° écriture comptable article|Numéro de la séquence|  
 |------------------|----------------|------------------------------|----------------------------------|-------------------|---------------------------|---------------|  
 |01/01/20|Coût direct|95,00|95,00|Oui|1|1|  
 
@@ -60,7 +60,7 @@ Les coûts prévus représentent l'estimation, par exemple, du coût d'un articl
 
  **Ecritures valeur**  
 
-|Date comptabilisation|Coût total (réel)|Coût total (prévu)|Coût validé en comptabilité|Coût prévu|N° séquence écriture comptable article|Numéro de la séquence|  
+|Date comptabilisation|Coût total (réel)|Coût total (prévu)|Coût validé en comptabilité|Coût prévu|N° écriture comptable article|Numéro de la séquence|  
 |------------------|----------------------------|------------------------------|-------------------------|-------------------|---------------------------|---------------|  
 |15/01/20|100,00|-95,00|100,00|Non|1|2|  
 

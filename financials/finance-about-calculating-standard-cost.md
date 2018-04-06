@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 5dc35d82dee8d3a9b93c04de497e7363b7bafb90
 ms.contentlocale: fr-ch
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="about-calculating-standard-cost"></a>À propos du calcul des coûts standard
@@ -106,5 +106,5 @@ Le processus de mise à jour ou de calcul des coûts standard comprend général
  [Détails de conception : modes évaluation stock](design-details-costing-methods.md)   
  [Utiliser les nomenclatures](inventory-how-work-BOMs.md)   
  [Mise à jour des coûts standard](finance-how-to-update-standard-costs.md)   
- [Détails de conception : Évaluation stock](design-details-inventory-costing.md)
+ [Détails de conception : évaluation stock](design-details-inventory-costing.md)
 

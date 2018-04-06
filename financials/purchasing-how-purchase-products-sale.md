@@ -13,10 +13,10 @@ ms.search.keywords: supply planning, sales demand, replenish
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 67e76ea76267c001277be3203c28103c3acb3214
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: bb89654d7bc48ad9746265b15cf0b6270fec2f7c
 ms.contentlocale: fr-ch
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="purchase-items-for-a-sale"></a>Acheter des articles pour une vente
@@ -29,7 +29,7 @@ Avec les commandes vente et les factures vente, vous pouvez utiliser des fonctio
 ## <a name="to-create-one-or-more-purchase-orders-from-a-sales-order"></a>Pour créer une ou plusieurs commandes achat à partir d'une commande vente
 Pour créer une commande achat pour chaque quantité d'article indisponible de la commande vente, vous utilisez la fonction **Créer des commandes achat**.
 
-1. Sur la page d'accueil, sélectionnez la mosaïque **Commandes vente en cours**.
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Commandes vente**, puis sélectionnez le lien connexe.
 2. Ouvrez une commande vente pour laquelle vous souhaitez acheter des articles.
 3. Sélectionnez l'action **Créer des commandes achat**.
 
@@ -52,7 +52,7 @@ Pour créer une facture achat unique pour une ou plusieurs lignes d'un document 
 > [!NOTE]  
 >   Cette fonction crée une facture achat pour la quantité d'articles exacte du document vente sélectionné. Pour modifier la quantité d'achat, vous devez modifier la facture achat après qu'elle soit créée.  
 
-1. Sur la page d'accueil, sélectionnez la mosaïque **Factures vente en cours**.
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Commandes vente**, puis sélectionnez le lien connexe.
 2. Ouvrez une facture vente pour laquelle vous souhaitez acheter des articles.
 3. Sélectionnez une ou plusieurs lignes facture vente que vous souhaitez utiliser dans la facture achat. Pour utiliser toutes les lignes facture vente, sélectionnez-les toutes ou ne sélectionnez aucune ligne.
 4. Sélectionnez l'action **Créer une facture achat**.

@@ -11,16 +11,18 @@ ms.search.keywords:
 ms.date: 12/04/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 4934b5ca71ed93fcd6327d41784443d9faedfc1b
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: a9e622dbf9b9edf5e74386dd5c651d7b585d3b46
 ms.contentlocale: fr-ch
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="accessibility-and-keyboard-shortcuts-in-included365finincludesd365finmdmd"></a>Accessibilité et raccourcis clavier dans [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Cette rubrique fournit des informations sur les fonctionnalités qui rendent [!INCLUDE[d365fin](includes/d365fin_md.md)] accessible aux personnes handicapées. [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge les fonctionnalités d'accessibilité suivantes :  
 
--   Raccourcis clavier  
+-   raccourcis clavier ;
+
+    Pour plus d'informations, reportez-vous à [Raccourcis clavier](keyboard-shortcuts.md)
 
 -   Navigation  
 
@@ -30,18 +32,21 @@ Cette rubrique fournit des informations sur les fonctionnalités qui rendent [!I
 
 -   Prise en charge des technologies d'assistance courantes  
 
-##  <a name="Keyboard"></a> Raccourcis clavier du navigateur
- [!INCLUDE[d365fin](includes/d365fin_md.md)]  prend en charge les raccourcis clavier qui sont acceptés par la plupart des navigateurs Web. Les raccourcis clavier décrits ici font référence au type de clavier en usage aux États-Unis. Il se peut que les touches des autres claviers ne correspondent pas exactement aux touches des claviers en usage aux États-Unis.  
+<!-- moved to separate article
+##  <a name="Keyboard"></a> Keyboard Shortcuts in the browser
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] supports the keyboard shortcuts that are supported by most web browsers. The keyboard shortcuts described here refer to the U.S. keyboard layout. The layout of the keys on other keyboards may not correspond exactly to the keys on a U.S. keyboard.  
 
-|Pour|Appuyer|  
+|To do this|Press|  
 |----------------|-----------|  
-|Pour déplacer le focus sur le contrôle ou l'élément suivant ou précédent d'une page, par exemple les boutons, les champs ou les éléments d'une liste.|Tab, Maj+Tab|  
-|Pour activer ou accéder à l'élément ou au contrôle qui a le focus.|Entrée|  
-|Pour faire défiler les éléments vers le haut ou vers le bas dans une liste.|Flèche haut, Flèche bas|  
-|Pour faire défiler les colonnes d'un élément vers la gauche ou vers la droite dans une liste.|Flèche gauche, Flèche droite|  
-|Pour ouvrir une liste déroulante ou rechercher la valeur d'un champ.|Alt+Flèche bas|  
-|Pour déplacer le focus sur l'élément suivant en dehors de la liste.|Ctrl+Entrée|  
-|Pour visualiser les transactions qui ont généré une valeur calculée dans un champ.|Alt+Flèche vers la droite|  
+|To move focus to the next or previous control or element on a page, such as buttons, fields, or items in a list.|Tab, Shift+Tab|  
+|To enable or access the element or control that is in focus.|Enter|  
+|To scroll items up and down in a list.|Up Arrow, Down Arrow|  
+|To scroll columns of an item left and right in a list.|Left Arrow, Right Arrow|  
+|To open a drop-down list or look up a value for a field.|Alt+Down Arrow|  
+|To move focus to the next element outside the list.|Ctrl + Enter|  
+|To see the transactions that resulted in a calculated value in a field.|Alt+Right Arrow|  
+
+-->
 
 ##  <a name="Navigation"></a> Navigation  
  Vous pouvez naviguer entre les onglets et les actions du ruban, les éléments du volet de navigation et d'autres contrôles sur les pages et états [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide du clavier. Pour déplacer le focus d'un onglet, d'une action ou d'un contrôle vers un autre, appuyez sur la touche Tab pour avancer. Appuyez sur Maj+Tab pur reculer.  
@@ -55,7 +60,7 @@ Cette rubrique fournit des informations sur les fonctionnalités qui rendent [!I
  Un texte descriptif pour les images est défini avec l'attribut ALT au sein de la balise IMG. Un texte descriptif pour les liens hypertexte est défini avec l'attribut title au sein de la balise A.  
 
 ##  <a name="AssistiveTech"></a> Technologies d'assistance  
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  prend en charge différentes technologies d'assistance, telles que le contraste élevé, les lecteurs d'écran et les logiciels de reconnaissance vocale. Certaines technologies d'assistance ne fonctionnent pas correctement avec certains éléments des pages [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge différentes technologies d'assistance, telles que le contraste élevé, les lecteurs d'écran et les logiciels de reconnaissance vocale. Certaines technologies d'assistance ne fonctionnent pas correctement avec certains éléments des pages [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="for-more-accessibility-information"></a>Informations supplémentaires sur l'accessibilité  
 Vous trouverez des informations supplémentaires sur l'accessibilité des produits Microsoft et les technologies d'assistance sur le site [Accessibilité Microsoft](http://go.microsoft.com/fwlink/?LinkId=262160).

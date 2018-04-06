@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/02/2017
+ms.date: 02/23/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 2aac957fc253f6c7d2f621ea2e5e039733081a19
+ms.sourcegitcommit: e6e662ee13db1f9002e1c3e74a0d15e2aa2e2a98
+ms.openlocfilehash: b567b57755df5d887bc20ca8cebfb6d3d4383c37
 ms.contentlocale: fr-ch
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="working-with-general-journals"></a>Utilisation de feuilles comptabilité
@@ -42,7 +42,54 @@ Si vous avez configuré des comptes contrepartie par défaut pour les feuilles s
 >   La TVA est calculée séparément pour le compte principal et le compte contrepartie, afin qu'ils puissent utiliser des taux de pourcentage de TVA différents.
 
 ## <a name="working-with-recurring-journals"></a>Utilisation de feuilles abonnement
-Une feuille récurrente est une feuille comptabilité contenant des champs spécifiques pour la gestion des transactions que vous validez fréquemment avec peu ou pas de modifications. Utilisez ces champs dans le cadre des transactions récurrentes pour valider les montants fixes et variables. Vous pouvez également définir des inversions automatiques d'écritures pour le lendemain de la date de validation et utiliser les clés de répartition avec les écritures récurrentes.
+Une feuille abonnement est une feuille comptabilité contenant des champs spécifiques pour la gestion des transactions que vous validez fréquemment avec peu ou pas de modifications comme le bail, les abonnements, l'électricité et le chauffage. Utilisez ces champs dans le cadre des transactions récurrentes pour valider les montants fixes et variables. Vous pouvez également définir des écritures de contrepassation automatique le lendemain de la date de validation. Vous pouvez également utiliser les clés de ventilation pour répartir les écritures récurrentes entre plusieurs comptes. Pour plus d'informations, reportez-vous à la section « Ventilation des montants feuille abonnement sur plusieurs comptes ».
+
+Avec une feuille abonnement, les écritures qui sont régulièrement validées ne sont saisies qu'une fois. Les comptes, axes, sections analytiques, etc., que vous saisissez restent ainsi dans la feuille après validation. Si des ajustements sont nécessaires, vous pouvez les faire à chaque validation.
+
+### <a name="recurring-method-field"></a>Champ Mode abonnement
+Ce champ détermine la manière dont le montant de la ligne feuille est traité après validation. Par exemple, si vous utilisez le même montant chaque fois que vous validez la ligne, vous pouvez conserver ce montant. Si vous utilisez les mêmes comptes et le même texte pour la ligne mais que le montant varie chaque fois que vous validez, vous pouvez choisir de supprimer le montant après validation.
+
+| À | Voir |
+| --- | --- |
+|Statique|Le montant de la ligne feuille est conservé après validation.|
+|Variable|Le montant de la ligne feuille est supprimé après validation.|
+|Solde|Le montant validé sur le compte de la ligne est ventilé sur les comptes spécifiés pour la ligne de la table Ventilation feuille compta. Le solde du compte est donc positionné à zéro. Pensez à renseigner le champ **% ventilation** dans la fenêtre **Ventilations**. Pour plus d'informations, reportez-vous à la section « Ventilation des montants feuille abonnement sur plusieurs comptes ».|
+|FI Fixe Inverse|Le montant de la ligne feuille est conservé après validation, et une écriture contrepartie est validée le lendemain.|
+|VI Variable Inverse|Le montant de la ligne feuille est supprimé après validation, et une écriture contrepartie est validée le lendemain.|
+|SI Solde Inverse|Le montant validé sur le compte de la ligne est ventilé sur les comptes spécifiés pour la ligne de la fenêtre **Ventilations**. Le solde du compte est défini sur zéro, et une écriture contrepartie est validée le lendemain.|
+
+> [!NOTE]  
+>  Les champs TVA peuvent être renseignés sur la ligne feuille abonnement ou sur la ligne feuille ventilation, mais pas sur les deux. Ils peuvent être renseignés sur la fenêtre **Ventilations** uniquement si les lignes correspondantes de la feuille abonnement ne sont pas renseignées.
+
+### <a name="recurring-frequency-field"></a>Champ Périodicité abonnement
+Ce champ détermine la fréquence de validation de l'écriture de la ligne feuille. Il s'agit d'un champ de formule de date qui doit être renseigné pour les lignes feuille abonnement. Pour plus d'informations reportez-vous à la section « Utilisation de formules date » dans [Saisie de données](ui-enter-data.md).
+
+#### <a name="examples"></a>Exemples
+Si la ligne feuille doit être validée tous les mois, saisissez "1M." Après chaque validation, la date du champ **Date comptabilisation** est mise à jour, elle est remplacée par la même date du mois suivant.
+
+Si vous souhaitez valider une écriture le dernier jour de chaque mois, vous pouvez suivre l'un des deux exemples ci-dessous :
+
+- Validez la première écriture le dernier jour d'un mois en saisissant la formule 1J+1M-1J (1 jour + 1 mois - 1 jour). Avec cette formule, la date de validation est calculée correctement, quel que soit le nombre de jours que comprend le mois.
+
+- Validez la première écriture n'importe quel jour en saisissant la formule : 1M+FM. Avec cette formule, la date de validation sera située après un mois entier + le nombre de jours restants du mois en cours.
+
+### <a name="expiration-date-field"></a>Champ Date expiration
+Ce champ détermine la date à laquelle la ligne est validée pour la dernière fois. La ligne n'est plus validée après cette date.
+
+L'avantage d'utiliser ce champ réside dans le fait que la ligne n'est pas immédiatement supprimée de la feuille et que vous pouvez toujours remplacer la date d'expiration par une date ultérieure afin de pouvoir continuer à utiliser la ligne.
+
+Si le champ est blanc, la ligne est validée à chaque validation, jusqu'à ce qu'elle soit supprimée de la feuille.
+
+### <a name="allocating-recurring-journal-amounts-to-several-accounts"></a>Ventilation des montants feuille abonnement sur plusieurs comptes
+Dans la fenêtre **Feuille abonnement**, vous pouvez choisir l'action **Ventilations** pour visualiser ou gérer la manière dont les montants de la ligne feuille abonnement sont affectés à plusieurs comptes et axes analytiques. Notez qu'une ventilation fonctionne comme une ligne compte contrepartie pour la ligne feuille abonnement.
+
+Tout comme dans une feuille abonnement, vous n'avez à saisir qu'une fois une ventilation. La ventilation reste dans la feuille ventilation après validation, ainsi vous n'avez pas à saisir les montants et les ventilations chaque fois que vous validez la ligne feuille abonnement.
+
+Si le mode récurrent est paramétré sur **Solde** ou sur **Solde inverse**, tous les codes axe analytique de la feuille récurrente sont ignorés lorsque le compte est défini sur zéro. Par conséquent, si vous ventilez une ligne abonnement vers diverses sections analytiques dans la fenêtre **Ventilations**, une seule écriture opposée est créée. De ce fait, si vous ventilez une ligne feuille abonnement qui comporte un code section, vous ne devez pas saisir le même code dans la fenêtre **Ventilations**. Si vous le faites, les sections analytiques sont incorrectes.
+
+####<a name="example-allocating-rent-payments-to-different-departments"></a>Exemple : Ventilation des paiements du loyer entre plusieurs départements
+Vous payez un loyer tous les mois, vous avez saisi le montant du loyer sur le compte règlement d'une ligne feuille abonnement. Dans la fenêtre **Ventilations**, vous pouvez diviser les dépenses entre plusieurs départements (section analytique Département) selon le nombre de mètres carrés occupé par chacun d'eux. Le calcul est basé sur le pourcentage de ventilation de chaque ligne. Vous pouvez saisir divers comptes sur différentes lignes ventilation (si le loyer est aussi divisé entre plusieurs comptes) ou saisir le même compte, mais avec divers codes section de la section analytique Département sur chaque ligne.
+
 
 ## <a name="working-with-standard-journals"></a>Utilisation de feuilles standard
 Lorsque vous créez des lignes feuille dont vous savez que vous risquez de les recréer ultérieurement, vous pouvez les enregistrer en tant que feuille standard avant de valider la feuille. Cette fonctionnalité s'applique aux feuilles article et aux feuilles comptabilité.

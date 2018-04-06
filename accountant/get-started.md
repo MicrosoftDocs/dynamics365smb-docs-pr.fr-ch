@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
 ms.openlocfilehash: 591ca492802166610f00ad5be09badd719fdb64a
 ms.contentlocale: fr-ch
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="get-started-with-included365acclongincludesd365acclongmdmd"></a>Mise en route avec [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]

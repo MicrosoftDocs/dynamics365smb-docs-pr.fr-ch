@@ -1,8 +1,6 @@
 ---
 title: "Détails de conception - Lettrage article | Microsoft Docs"
 description: "Cette rubrique décrit où la quantité et la valeur de stock sont enregistrées lorsque vous validez un mouvement stock."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 07/01/2017
+ms.date: 11/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e8b3015cfbf9c474d49d2e3dab6e3397e6ad6c80
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: a70d1c31d867f3e005f51af0fc1b6352cb23ce91
 ms.contentlocale: fr-ch
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-item-application"></a>Détails de conception : lettrage article
@@ -242,11 +240,12 @@ En raison du mode de calcul du coût unitaire d'un article, un lettrage article 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] propose une fonction pour analyser et corriger des lettrages article. Cela s'effectue dans la fenêtre **Feuille lettrage**.  
 
 ## <a name="see-also"></a>Voir aussi  
-[Détails de conception : évaluation stock](design-details-inventory-costing.md)   
-[Détails de conception : modes évaluation stock](design-details-costing-methods.md)   
+[Détails de conception : problème de lettrage article connu](design-details-inventory-zero-level-open-item-ledger-entries.md)  
+[Détails de conception : évaluation stock](design-details-inventory-costing.md)  
+[Détails de conception : modes évaluation stock](design-details-costing-methods.md)  
 [Détails de conception : coût moyen](design-details-average-cost.md)   
-[Détails de conception : ajustement des coûts](design-details-cost-adjustment.md)
+[Détails de conception : ajustement des coûts](design-details-cost-adjustment.md)  
 [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  
 [Finances](finance.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

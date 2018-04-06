@@ -12,10 +12,10 @@ ms.search.keywords: integration, synchronize, map
 ms.date: 01/25/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 5626472de338f23df287699d65901645b84b49b3
+ms.sourcegitcommit: b4e2e7bc1c2622d329c73ae5bf47b4accff10aa8
+ms.openlocfilehash: cc1ad2ef812c073e570835e4018ce077b3b45494
 ms.contentlocale: fr-ch
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="managing-customers-and-sales-created-in-dynamics-365-for-sales"></a>Gestion des clients et des ventes créés dans Dynamics 365 for Sales
@@ -76,7 +76,14 @@ Les commandes vente Dynamics 365 for Sales dépendent d'informations supplémen
 
 Pour vérifier la progression des projets individuels lors d'une synchronisation complète, accédez au champ **Statut écriture file d'attente des travaux**, **Statut projet Vers la table int.** ou **Statut projet À partir de la table int.** dans la fenêtre **Synchronisation complète CRM. Révision**.
 
-Dans la fenêtre **Paramètres de connexion Dynamics 365 for Sales**, vous pouvez obtenir des détails sur la synchronisation complète à tout moment. À partir de cette fenêtre, vous pouvez aussi ouvrir la fenêtre **Correspondances table intégration** pour afficher les détails des tables dans Finance and Operations, Business edition et dans la solution Dynamics 365 for Sales à synchroniser.
+Dans la fenêtre **Paramètres de connexion Dynamics 365 for Sales**, vous pouvez obtenir des détails sur la synchronisation complète à tout moment. À partir de cette fenêtre, vous pouvez aussi ouvrir la fenêtre **Correspondances table intégration** pour afficher les détails des tables dans Finance and Operations, Business edition et dans la solution Dynamics 365 for Sales à synchroniser.  
+
+## <a name="handling-special-sales-order-data"></a>Gestion des données de commandes vente spéciales
+Les commandes vente dans Dynamics 365 for Sales seront transférées à [!INCLUDE[d365fin](includes/d365fin_md.md)] automatiquement si vous sélectionnez la case à cocher **Créer automatiquement des commandes vente** dans la fenêtre **Paramètres de la connexion Microsoft Dynamics 365 for Sales**. Pour ces commandes vente, le champ **Nom** de la commande d'origine est transféré et associé au champ **Numéro de document externe** de la commande vente dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+Ceci peut également fonctionner si la commande vente d'origine indique les biens hors catalogue, c'est-à-dire les articles ou les ressources qui ne sont enregistrés dans aucun produit. Dans ce cas, vous devez renseigner les champs **Type produit hors catalogue** et **N° produit hors catalogue** de la fenêtre **Paramètres ventes**, de sorte que ces ventes de produits non enregistrées soient mappées à un nombre donné d'articles/de ressources pour l'analyse financière.
+
+Si la désignation de l'article sur la commande vente d'origine est très longue, alors une ligne commande vente supplémentaire de type Commentaire est créée pour stocker le texte intégral de la commande vente dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion des relations](marketing-relationship-management.md)  

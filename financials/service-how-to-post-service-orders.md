@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 3b52f7c62cc13d27ff4d96ff5b9087d3560d6fbc
 ms.contentlocale: fr-ch
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Valider des commandes et des avoirs service
@@ -99,7 +99,7 @@ La procédure suivante explique comment valider l'expédition des articles ligne
   
 4. Choisissez **Actions**, **Validation**, **Valider**. Dans la fenêtre qui s'affiche, choisissez **Expédier**.  
   
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  crée les écritures comptables appropriées (dans les écritures comptables garantie, les écritures comptables article, les écritures comptables service ou la comptabilité). Il génère également le document expédition service validé et met à jour les champs appropriés sur les lignes service de la commande service.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] crée les écritures comptables appropriées (dans les écritures comptables garantie, les écritures comptables article, les écritures comptables service ou la comptabilité). Il génère également le document expédition service validé et met à jour les champs appropriés sur les lignes service de la commande service.  
   
 Si le magasin est configuré pour exiger la gestion d'entrepôt, l'expédition et le déplacement d'articles de ligne service s'exécutent de la même manière que pour d'autres documents origine. La seule différence est que les articles de la ligne service peuvent être consommés en externe ou en interne et nécessitent donc deux fonctions de lancement différentes.  
   

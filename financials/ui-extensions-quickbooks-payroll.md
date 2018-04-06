@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 2b87eaa6bfe53f7b6e119006df9254876f4117a9
 ms.contentlocale: fr-ch
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="the-quickbooks-payroll-file-import-extension-to-finance-and-operations-business-edition"></a>L'extension Quickbooks Payroll File Import pour Finance and Operations, Business edition 

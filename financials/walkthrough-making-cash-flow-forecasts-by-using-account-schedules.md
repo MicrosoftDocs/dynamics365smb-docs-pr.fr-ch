@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 25319bae1d601d6beddca35cf8edc032ac11eda6
 ms.contentlocale: fr-ch
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Procédure pas-à-pas : créer des prévisions de trésorerie à l'aide de tableaux d'analyse
@@ -34,7 +34,7 @@ Cette procédure pas à pas décrit les tâches suivantes :
 ### <a name="prerequisites"></a>Conditions préalables  
 Pour exécuter ce processus pas à pas, vous devez :  
 
-- [!INCLUDE[d365fin](includes/d365fin_md.md)] Installer .  
+- Installer [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 - Les lignes de la feuille d'activité de trésorerie sont enregistrées.  
 
 ## <a name="roles"></a>Rôles  

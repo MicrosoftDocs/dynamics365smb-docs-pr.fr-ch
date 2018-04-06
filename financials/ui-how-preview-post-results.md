@@ -15,14 +15,14 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: ab5be6e74e9dd90b07a765692d1ff9192fe42688
 ms.contentlocale: fr-ch
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="preview-posting-results"></a>Résultats de l'aperçu compta.
 Sur chaque document et feuille qui peuvent être validés, vous pouvez cliquer sur le bouton **Aperçu compta.** pour examiner différents types d'entrées qui seront créées lorsque vous validez le document ou la feuille.
 
 ## <a name="to-preview-gl-entries-that-will-result-from-posting-a-purchase-invoice"></a>Pour afficher un aperçu des écritures comptables qui résulteront de la validation d'une facture achat
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Factures achat**, puis sélectionnez le lien connexe.
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Factures achat**, puis sélectionnez le lien connexe.
 2. Créez une facture achat. Pour plus d'informations, voir [Enregistrer des achats](purchasing-how-record-purchases.md).
 3. Sélectionnez **Aperçu compta.**.
 4. Dans la fenêtre **Aperçu compta.**, sélectionnez **Écriture comptable**, puis sélectionnez **Afficher écritures associées**.  

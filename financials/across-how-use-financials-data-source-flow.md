@@ -12,10 +12,10 @@ ms.search.keywords: workflow, Odata, Power App, SOAP
 ms.date: 01/25/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: ef4d841723b6bb0af37695a8c3ed1d805319be78
+ms.sourcegitcommit: b4e2e7bc1c2622d329c73ae5bf47b4accff10aa8
+ms.openlocfilehash: dde99e50c6984a7ec162b4047e8640e6affb3f25
 ms.contentlocale: fr-ch
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="using-included365finincludesd365finmdmd-in-an-automated-workflow"></a>Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] dans un flux automatisé
@@ -29,9 +29,6 @@ Vous pouvez utiliser vos données [!INCLUDE[d365fin](includes/d365fin_md.md)] en
 2. Choisissez **Mes flux** dans le ruban en haut de la page.
 3. Dans la fenêtre **Mes flux**, cliquez sur l'option **Créer à partir de rien**.
 4. Dans la liste des déclencheurs disponibles, sélectionnez l'un des déclencheurs [!INCLUDE[d365fin](includes/d365fin_md.md)] disponibles :  
-    *Lorsqu'un enregistrement est créé*,  
-    *Lors de la suppression d'un enregistrement*,  
-    *Lorsqu'un enregistrement est modifié*,  
     *Lorsque l'approbation d'un client est exigée*,  
     *Lorsque l'approbation d'un nom feuille comptabilité est exigée*,  
     *Lorsque l'approbation d'une ligne feuille comptabilité est exigée*,  
@@ -39,11 +36,7 @@ Vous pouvez utiliser vos données [!INCLUDE[d365fin](includes/d365fin_md.md)] en
     *Lorsque l'approbation d'un document achat est exigée*,  
     *Lorsque l'approbation d'un document vente est exigée*, ou  
     *Lorsque l'approbation d'un fournisseur est exigée*.
-5. Le flux affiche vous invite à fournir les informations nécessaires pour vous connecter à vos données [!INCLUDE[d365fin](includes/d365fin_md.md)]. Si vous avez sélectionné l'un des déclencheurs suivants : *Lorsqu'un enregistrement est créé*, *Lorsqu'un enregistrement est modifié* ou *Lors de la suppression d'un enregistrement*, vous devez sélectionner un nom de société et un nom de table. Avec un autre déclencheur, seul le nom de la société est nécessaire pour se connecter.
-
-   Flow affiche la liste des sociétés et des tables disponibles à partir de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ces tables, ou points de terminaison, représentent tous les services Web que vous avez publiés à partir de [!INCLUDE[d365fin](includes/d365fin_md.md)].
-
-   Sinon, créer une nouvelle URL de service Web dans [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide de l'option **Créer un ensemble de données** de la page **Services Web**, à l'aide du guide de configuration assistée **Configurer la création d'états** ou en choisissant l'option **Modifier dans Excel** dans n'importe quelle liste.
+5. Flow vous invite à sélectionner une société dans votre abonné [!INCLUDE[d365fin](includes/d365fin_md.md)]. Comme chaque étape de Flow est indépendante de la suivante, vous devrez peut-être définir plusieurs fois la société lorsque vous utilisez un modèle [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 À ce stade, vous êtes connecté à vos données Finance and Operations, Business edition et vous êtes prêt à générer votre flux. Pour plus d'informations, voir [Documentation Flow](https://flow.microsoft.com/documentation/getting-started/).
 

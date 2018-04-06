@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 0041dcd1e1c7b4eda2d000c8c387bc8b751d4212
 ms.contentlocale: fr-ch
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Pratiques de configuration recommandées : méthodes de réapprovisionnement
@@ -50,6 +50,6 @@ Le tableau suivant propose des recommandations pour effectuer son choix parmi ce
  [Détails de conception : lot pour lot](design-details-lot-for-lot.md)   
  [Détails de conception : qté fixe de commande.](design-details-fixed-reorder-qty.md)   
  [Détails de conception : qté maximum.](design-details-maximum-qty.md)   
- [Configurer les modules complexes à l'aide des meilleures pratiques](set-up-complex-application-areas-using-best-practices.md)  
+ [Configurer des domaines d'application complexes à l'aide des meilleures pratiques](set-up-complex-application-areas-using-best-practices.md)  
  [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

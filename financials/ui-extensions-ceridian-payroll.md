@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 442459e82ebeb6b5b767b443e49c62ff0d4364d1
 ms.contentlocale: fr-ch
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="the-ceridian-payroll-extension-to-finance-and-operations-business-edition"></a>L'extension Ceridian Payroll pour Finance and Operations, Business edition 

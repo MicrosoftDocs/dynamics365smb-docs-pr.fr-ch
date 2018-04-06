@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: f1a4e3a30d4d665a83ab599ad19dfd3760d744b2
 ms.contentlocale: fr-ch
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="setup-best-practices-global-planning-setup"></a>Configurer des recommandations : configuration du planning général
@@ -33,6 +33,6 @@ Le raccourci **Planning** de la fenêtre**Paramètres production** comporte plus
 ## <a name="see-also"></a>Voir aussi  
  [Pratiques de configuration recommandées : planification de l'approvisionnement](setup-best-practices-supply-planning.md)   
  [Détails de conception : planification de l'approvisionnement](design-details-supply-planning.md)   
- [Configurer les modules complexes à l'aide des meilleures pratiques](set-up-complex-application-areas-using-best-practices.md)  
+ [Configurer des domaines d'application complexes à l'aide des meilleures pratiques](set-up-complex-application-areas-using-best-practices.md)  
  [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

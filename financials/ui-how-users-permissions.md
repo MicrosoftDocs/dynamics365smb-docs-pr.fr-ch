@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 01/25/2018
+ms.date: 03/08/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 7f02d9718f4697e5d7eb9113d52e8d6572555b52
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: e78504959c5e858b420ac463d0a6adbaccad9481
 ms.contentlocale: fr-ch
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="manage-users-and-permissions"></a>Gérer les utilisateurs et les autorisations
@@ -22,11 +22,9 @@ Pour ajouter des utilisateurs dans [!INCLUDE[d365fin](includes/d365fin_md.md)], 
 
 Une fois les utilisateurs créés dans Office 365, ils peuvent être importés dans la fenêtre **Utilisateurs** à l'aide de l'option **Récupérer des utilisateurs à partir d'Office 365**. Des ensembles d'autorisations sont affectés aux utilisateurs selon le plan qui leur est affecté dans Office 365.
 
-Vous pouvez ensuite passer à l'affectation des ensembles d'autorisations aux utilisateurs pour définir à quels objets de base de données, et de ce fait, à quels éléments de l'interface utilisateur, ils ont accès et dans quelles sociétés.
+Vous pouvez ensuite passer à l'affectation des ensembles d'autorisations aux utilisateurs pour définir à quels objets de base de données, et de ce fait, à quels éléments de l'interface utilisateur, ils ont accès et dans quelles sociétés. Vous pouvez ajouter des utilisateurs aux groupes d'utilisateurs. Cela facilite l'affectation des mêmes ensembles d'autorisations à plusieurs utilisateurs.
 
 Un ensemble d'autorisations est une collection d'autorisations pour des objets spécifiques de la base de données. Tous les utilisateurs doivent être affectés à une ou plusieurs séries d’autorisations avant de pouvoir accéder à [!INCLUDE[d365fin](includes/d365fin_md.md)]. Plusieurs ensembles d’autorisations prédéfinis sont fournis par défaut. Vous pouvez utiliser ces ensembles d'autorisations tels qu'ils ont été définis, modifier les propres ensembles d'autorisations, ou en créer d'autres.
-
-Vous pouvez ajouter des utilisateurs aux groupes d'utilisateurs. Cela facilite l'affectation des mêmes ensembles d'autorisations à plusieurs utilisateurs.
 
 Les administrateurs peuvent utiliser la fenêtre **Paramètres utilisateur** pour définir les périodes de temps pendant lesquelles les utilisateurs spécifiés peuvent valider, et spécifier également si le système enregistre la durée pendant laquelle les utilisateurs spécifiés ont ouvert une session.
 
@@ -42,13 +40,9 @@ Vous pouvez définir des groupes d'utilisateurs pour vous aider à gérer les en
 
 1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Utilisateurs**, puis sélectionnez le lien connexe.
 2. Sinon, dans la fenêtre **Utilisateurs**, sélectionnez l'option **Groupes d'utilisateurs**.
-3. Dans la fenêtre **Groupes d'utilisateurs**, sélectionnez un groupe d'utilisateurs existant à copier, puis sélectionnez l'option **Copier groupe d'utilisateurs**.
-4. Dans le champ **Nouveau code du groupe d'utilisateurs**, spécifiez le nom du nouveau groupe d'utilisateurs, puis cliquez sur le bouton **OK**.
-
-    Au lieu de copier, vous pouvez aussi choisir l'option Nouveau pour créer une ligne pour un groupe d'utilisateurs vide, que vous renseignez ensuite manuellement.
-5. Pour ajouter de nouveaux utilisateurs ou des utilisateurs supplémentaires , dans la fenêtre **Groupe d'utilisateurs**, cliquez sur **Membres du groupe d'utilisateurs**.
-6. Dans la fenêtre **Membres du groupe d'utilisateurs**, dans une nouvelle ligne, renseignez les champs selon vos besoins en sélectionnant des utilisateurs existants.
-7. Pour ajouter de nouveaux ensembles d'autorisations ou des ensembles d'autorisations supplémentaires , dans la fenêtre **Groupe d'utilisateurs**, cliquez sur **Ensembles d'autorisations groupe d'utilisateurs**.
+3. Dans la fenêtre **Groupe d'utilisateurs**, sélectionnez l'action **Membres du groupe d'utilisateurs**.
+6. Dans la fenêtre **Membres du groupe d'utilisateurs**, sélectionnez l'action **Ajouter utilisateurs**.
+7. Pour ajouter de nouveaux ensembles d'autorisations ou des ensembles d'autorisations supplémentaires, dans la fenêtre **Groupes d'utilisateurs**, cliquez sur **Ensembles d'autorisations groupe d'utilisateurs**.
 8. Dans la fenêtre **Ensembles d'autorisations groupe d'utilisateurs**, dans une nouvelle ligne, renseignez les champs selon vos besoins en sélectionnant parmi des ensembles d’autorisations existants.
 
 ## <a name="to-set-up-user-time-constraints"></a>Pour configurer des contraintes de temps utilisateur

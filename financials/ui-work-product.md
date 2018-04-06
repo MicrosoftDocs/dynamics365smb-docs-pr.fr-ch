@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/29/2017
+ms.date: 03/02/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 9cbe892644646fa0ff5704dea500aead0f9dcc2f
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: ae77d44b0c04f7f190e94f07d2e94a2e06eb3921
 ms.contentlocale: fr-ch
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="working-with-included365finincludesd365finmdmd"></a>Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -25,22 +25,29 @@ Par exemple, vous pouvez ajuster la taille et la position de n'importe quelle fe
 
 Le tableau suivant répertorie certaines des fonctionnalités générales et inclut des liens vers les rubriques qui les décrivent.
 
-| Pour | Voir |
+| À | Voir |
 | --- | --- |
-| En savoir plus sur l'inclusion de symboles et de caractères spéciaux lors de la recherche de données. |[Saisir les critères pour les filtres](ui-enter-criteria-filters.md) |
-| Vérifier quels champs doivent être renseignés. |[Champs obligatoires](ui-mandatory-fields.md) |
-| Utiliser la fonction de recherche pour rechercher une page ou un état spécifique. |[Utilisation de l'icône Page ou état pour la recherche](ui-search.md) |
-| En savoir plus sur la manière de trier les données. |[Tri](ui-sorting.md) |
+| Modifier les paramètres de base tels que la société, la date de travail et le tableau de bord. |[Modification des paramètres de base](ui-change-basic-settings.md) |
+| Recherchez une page ou un état spécifique. |[Utilisation de l'icône Page ou état pour la recherche ](ui-search.md) |
+| Filtrer les données dans des vues, des états, ou des fonctions en utilisant des symboles et des caractères spéciaux. |[Saisir les critères pour les filtres](ui-enter-criteria-filters.md) |
+| En savoir plus sur la manière de trier les données. |[Tri des données](ui-sorting.md) |
+| Visualiser ou traiter les données dans des plages de dates spécifiques. |[Saisie de plages de dates](ui-enter-date-ranges.md) |
+| Vérifier quels champs doivent être renseignés. |[Détection de champs obligatoires](ui-mandatory-fields.md) |
+| Modifiez les champs et les actions affichés dans l'interface utilisateur pour correspondre aux processus entreprise de votre société. |[Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md) |
 | Modifier la façon dont vous affichez les listes, par exemple, des clients, des fournisseurs ou des articles. |[Affichage de listes de différentes manières](across-display-lists-different-views.md) |
-| Modifier l'indicateur coloré sur les piles. |[Configurer un indicateur coloré sur des piles](ui-how-setup-colored-indicator-cues.md) |
-| Modifier les paramètres de base tels que la société ou la date de travail. |[Modification des paramètres de base](ui-change-basic-settings.md) |
-| Modifiez le tableau de bord, et la page d'accueil associée, en fonction de votre rôle. |[Changer de tableau de bord](change-role.md) |
-| Modifiez les champs et les actions affichés dans l'interface utilisateur pour correspondre aux processus entreprise de votre société. |[Personnalisation de votre expérience [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md) |
-| Obtenir des états pour afficher les données de plages de dates spécifiques. |[Saisie de plages de dates dans Finance and Operations, Business edition](ui-enter-date-ranges.md) |
+| Modifier l'indicateur coloré sur les piles. |[Configuration d'un indicateur coloré sur des piles](ui-how-setup-colored-indicator-cues.md) |
+|Aperçu, Imprimer, ou enregistrer des états.|[Utilisation des états](ui-work-report.md)|
+| Planifier un état à exécuter à une date et une heure spécifiques. |[Planification d'un état à exécuter](ui-work-report.md#ScheduleReport) |
+| Gérez le contenu et le format des états et des documents, dont les champs de données d'un ensemble de données de rapport apparaissant sur le rapport et la façon ils sont organisés, le style de texte, les images, et plus encore.|[Gestion des présentations de rapport et de document](ui-manage-report-layouts.md) |
+| Apprendre à utiliser Les feuilles comptabilité, qui permettent de valider dans les comptes généraux et d'autres comptes tels que les comptes bancaires, client, fournisseur et immobilisations. |[Utilisation de feuilles comptabilité](ui-work-general-journals.md) |
+|Découvrez comment les paramètres régionaux d'ordinateur affectent l'interface utilisateur et le site d'Aide et comment modifier la langue.|[Modification de la langue et des paramètres régionaux](about-locale-language.md)|
+|En savoir plus sur les fonctions et les capacités qui permettent aux personnes handicapées accéder facilement à [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Accessibilité et raccourcis clavier](ui-accessibility.md)|
+|Visionnez des vidéos sur la fonctionnalité sélectionnée pour vous aider à commencer.|[Vidéos sur les tâches courantes](across-videos.md)|  
 
 ## <a name="see-also"></a>Voir aussi
+[Mise en route](index.md)  
+[Configuration de Finance and Operations, Business edition](setup.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)  
-[Personnalisation de votre expérience [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
 ## [!INCLUDE[d365fin](includes/training_link_md.md)]

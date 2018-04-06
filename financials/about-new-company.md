@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: company, setup wizard
-ms.date: 07/14/2017
+ms.date: 03/02/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: d18845dfb3c904139b1b392619d04611522c6e12
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 10fb70ded1407c95034db6fcf974c37c6e119099
 ms.contentlocale: fr-ch
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="creating-new-companies-in-included365finincludesd365finmdmd"></a>Création de sociétés dans [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -25,14 +25,15 @@ Si vous décidez d'ajouter une société à votre [!INCLUDE[d365fin](includes/d3
 
 L'assistant de configuration offre trois modèles :
 
--   **Évaluation Suite**  
+-   **Évaluation - Exemples de données**  
     Cela crée une société qui est similaire à la société de démonstration avec des exemples de données et des données de configuration.  
--   **Production Suite**  
-    Cela crée une société qui est similaire à **Ma société** avec des données de configuration, mais sans exemples de données.  
--   **Créer**  
+-   **Production - Données de configuration uniquement**  
+    Cela crée une société qui est similaire à **Ma société** avec des données de configuration, mais sans exemples de données.
+-   **Évaluation avancée - Exemple de données complètes** Cela crée une société avec des données de configuration et des exemples de données complètes pour toutes les fonctions, y compris la production et la gestion des services.
+-   **Créer nouveau - Aucune donnée**  
     Cela crée une société vide sans données de configuration.  
 
-Si vous souhaitez démarrer facilement avec une nouvelle société, sélectionnez **Production Suite**, puis importez vos propres données métier, telles que les clients, les articles et les fournisseurs. Choisissez le modèle **Nouveau** si vous souhaitez tout redéfinir à zéro. Dans ce cas, vous pouvez utiliser l'assistant de configuration assistée **Configuration de la société** pour vous aider à commencer par des données de configuration essentielles.  
+Si vous souhaitez démarrer facilement avec une nouvelle société, sélectionnez **Production - Données de configuration uniquement**, puis importez vos propres données métier, telles que les clients, les articles et les fournisseurs. Choisissez le modèle **Nouveau** si vous souhaitez tout redéfinir à zéro. Dans ce cas, vous pouvez utiliser le guide de configuration assistée **Configuration de la société** pour vous aider à commencer par des données de configuration essentielles.  
 
 > [!NOTE]  
 >   Lorsque vous créez une société, cela prend quelques minutes avant de pouvoir y accéder dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. L'état de configuration dans la fenêtre **Sociétés** s'affiche lorsque la nouvelle société est prête pour vous. Ensuite, vous pouvez basculer vers la nouvelle société en utilisant **Mes paramètres**.  
@@ -44,10 +45,11 @@ Lorsque vous vous connectez à une nouvelle société, l'Assistant **Configurati
 
 Par exemple, l'adresse de votre société est incluse dans les factures et autres documents, vos coordonnées bancaires sont utilisées pour les paiements, et le mode d'évaluation du stock est utilisé pour calculer les prix, ainsi que pour l'évaluation du stock.  
 
-Une fois les bases en place, vous pouvez configurer les zones de base restantes. Maintenant, vous êtes prêt à ajouter des données métier, telles que les clients et les fournisseurs. Pour plus d'informations, voir [Configuration de Finance and Operations, Business edition](setup.md).  
+Une fois les bases en place, vous pouvez configurer les zones de base restantes. Maintenant, vous êtes prêt à ajouter des données métier, telles que les clients et les fournisseurs. Pour plus d'informations, reportez-vous à [Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
 ## <a name="see-also"></a>Voir aussi
-[Configuration de Finance and Operations, Business edition](setup.md)  
+[Personnalisation de Finance and Operations, Business edition](ui-customizing-overview.md)  
+[Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Importation des données métier à partir d'autres systèmes financiers](upload-data.md)  
 [Modification des paramètres de base](ui-change-basic-settings.md)  
 [Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  

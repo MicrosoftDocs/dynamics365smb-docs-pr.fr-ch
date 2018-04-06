@@ -1,1 +1,1 @@
-Dynamics 365 for Finance and Operations, Business edition (sur site)
+Dynamics NAV

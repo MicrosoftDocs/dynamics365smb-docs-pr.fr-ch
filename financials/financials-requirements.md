@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 3b6f374f409645d3b91dbc11ab66a97ec57de7d7
 ms.contentlocale: fr-ch
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="minimum-requirements-for-using-finance-and-operations-business-edition"></a>Configuration minimale requise pour l'utilisation de Finance and Operations, Business edition

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 439776669b9978ab622131aac770679ed08900ea
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: 85b5583d18042b05aea264d59ed9484dddeb4d12
 ms.contentlocale: fr-ch
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="planning"></a>Planning
@@ -25,7 +25,7 @@ Les opérations de production nécessaires à la transformation d'entrées en pr
 > [!NOTE]
 > Cette rubrique décrit essentiellement la planification des sociétés impliquées dans la fabrication ou la gestion des assemblages, où les commandes approvisionnement qui en résultent peuvent être des ordres de production, d'assemblage, de transfert ou des commandes achat. L'interface principale de cette tâche de planification est la fenêtre **Feuille planning**.
 
-> [!INCLUDE[d365fin](includes/d365fin_md.md)]  prend également en charge la planification de l'approvisionnement pour les sociétés de vente en gros, où les commandes approvisionnement qui en résultent peuvent être des ordres de transfert et des commandes achat. L'interface principale de cette tâche de planification est la fenêtre **Demande achat**, qui est décrite indirectement dans cette rubrique, car la plupart des fonctionnalités de planification s'appliquent aux deux feuilles.
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] prend également en charge la planification de l'approvisionnement pour les sociétés de vente en gros, où les commandes approvisionnement qui en résultent peuvent être des ordres de transfert et des commandes achat. L'interface principale de cette tâche de planification est la fenêtre **Demande achat**, qui est décrite indirectement dans cette rubrique, car la plupart des fonctionnalités de planification s'appliquent aux deux feuilles.
 
 Avant de planifier et d'exécuter des ordres de fabrication, vous devez configurer des capacités de production, telles que la création des calendriers usine, des gammes, des nomenclatures et des postes de charge. Pour plus d'informations, voir [Paramétrage de la production](production-configure-production-processes.md).
 

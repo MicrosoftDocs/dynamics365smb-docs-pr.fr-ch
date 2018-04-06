@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: dd090720943d0d7271200e087642a80157cbdbbd
 ms.contentlocale: fr-ch
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="create-prepayment-invoices"></a>Créer des factures d'acompte
@@ -27,7 +27,7 @@ Après avoir créé une commande vente ou achat, vous pouvez créer une facture 
 La procédure suivante décrit comment facturer un acompte pour des commandes vente. La procédure est identique pour des commandes achat.  
 
 ## <a name="to-create-a-prepayment-invoice"></a>Pour créer une facture acompte  
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Commandes vente**, puis sélectionnez le lien connexe.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Commandes vente**, puis sélectionnez le lien connexe.  
 2. Créez une commande vente. Pour en savoir plus, voir [Vendre des produits](sales-how-sell-products.md).  
 
     Sur le raccourci **Acompte** le champ **% acompte** est renseigné automatiquement si un pourcentage d'acompte par défaut figure sur la fiche client. Vous pouvez modifier le contenu du champ. Le pourcentage d'acompte est uniquement copié à partir de l'en-tête vers les lignes qui ne copient pas le pourcentage d'acompte par défaut à partir de l'article.  

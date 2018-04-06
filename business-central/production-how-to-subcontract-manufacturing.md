@@ -1,0 +1,106 @@
+---
+title: "Procédure de sous-traitance de la production | Microsoft Docs"
+description: "Une fois que la commande achat a été créée à partir de la feuille sous-traitant, elle peut être validée."
+author: SorenGP
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: 
+ms.date: 03/16/2018
+ms.author: sgroespe
+ms.translationtype: HT
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 9c62f99c4baddedaaff6629c573d898f0fbd7f1a
+ms.contentlocale: fr-ch
+ms.lasthandoff: 03/22/2018
+
+---
+# <a name="subcontract-manufacturing"></a>Sous-traiter la production
+La sous-traitance des opérations sélectionnées au fournisseur est courante dans de nombreuses sociétés de production. La sous-traitance peut être occasionnelle ou faire partie intégrante des processus de production.
+
+Le programme fournit plusieurs outils pour gérer le travail de sous-traitance :  
+
+- Centre de charge avec fournisseur affecté : cette fonctionnalité permet de configurer un centre de charge associé à un fournisseur (sous-traitant). Il s'agit d'un centre de charge sous-traitant. Vous pouvez spécifier un centre de charge sous-traitant sur une opération de gamme, ce qui permet de traiter aisément l'activité sous-traitée. En outre, le coût de l'opération peut être indiqué au niveau de la gamme ou du centre de charge.  
+- Coût du centre de charge basé sur des unités de temps : cette fonctionnalité permet de spécifier si les coûts associés au centre de charge sont basés sur le temps de fabrication ou un coût unitaire. Bien que les sous-traitants utilisent généralement un coût unitaire pour facturer leurs services, le programme peut gérer les deux options (temps de fabrication et coût unitaire).  
+- Propositions sous-traitance : cette fonctionnalité vous permet de rechercher les ordres de fabrication dont les matériaux sont prêts pour envoi à un sous-traitant et de créer automatiquement des commandes achat pour sous-traiter des opérations à partir de gammes d'ordre de fabrication. Ensuite, le programme valide automatiquement les frais de commande achat dans l'ordre de fabrication durant la validation de la commande achat. Seuls les ordres de fabrication dont l'état est lancé sont accessibles et utilisables à partir d'une proposition sous-traitance.  
+
+## <a name="subcontract-work-centers"></a>Centres de charge sous-traitants  
+Les centres de charge sous-traitants sont configurés de la même manière que les centres de charge ordinaires avec des informations supplémentaires. Ils sont affectés à des gammes de la même manière que d'autres centres de charge.  
+
+### <a name="subcontract-work-center-fields"></a>Champs Centres de charge sous-traitants  
+Le champ **N° sous-traitant** désigne le centre de charge comme centre de charge sous-traitant. Vous pouvez entrer le numéro d'un sous-traitant qui fournit le centre de charge. Ce champ permet d'administrer des centres de charge qui ne sont pas internes mais effectuent un traitement sous contrat.  
+
+Si vous sous-traitez avec le fournisseur à un taux différent pour chaque traitement, sélectionnez le champ **Coût unitaire spécifique**. Cela vous permet de configurer un coût sur chaque ligne gamme et vous évite de devoir saisir à nouveau chaque commande achat. Le coût d'une ligne gamme est utilisé dans le cadre du traitement au lieu du coût des champs de coût du centre de charge. La sélection du champ **Coût unitaire spécifique** permet de calculer des coûts pour le fournisseur par opération de gamme.  
+
+Si vous sous-traitez à un coût unique par fournisseur, laissez le champ **Coût unitaire spécifique** vide. Configurez les coûts en renseignant les champs **Coût unitaire direct**, **% coût indirect** et **Frais généraux**.  
+
+### <a name="routings-that-use-subcontract-work-centers"></a>Gammes qui utilisent des centres de charge sous-traitants  
+Vous pouvez utiliser des centres de charge sous-traitants pour des opérations de gamme de la même manière que des centres de charge ordinaires.  
+
+Vous pouvez configurer un gamme utilisant un centre de charge externe comme étape opérationnelle standard. Vous pouvez également modifier la gamme pour un ordre de fabrication particulier afin d'inclure une opération externe. Cela peut être nécessaire en cas d'urgence, par exemple pour un serveur défaillant, ou durant une période temporaire de demande accrue, où le travail généralement traité en interne doit être délégué à un sous-traitant.  
+
+Pour plus d'informations, reportez-vous à [Créer des gammes](production-how-to-create-routings.md).  
+
+## <a name="calculate-subcontracting-worksheets-and-create-subcontract-purchase-orders"></a>Calculer des propositions de sous-traitance et créer des commandes achat de sous-traitance  
+Après le calcul des propositions sous-traitance, le document approprié, en l'occurrence une commande achat, est créé.  
+
+La fenêtre **Proposition sous\-traitance** fonctionne comme la **Feuille planning** en calculant les approvisionnements nécessaires \(dans ce cas, les commandes achat\) que vous vérifiez dans la feuille puis créez à l'aide de la fonction **Traiter messages d'action**.  
+
+> [!NOTE]  
+>  Seuls les ordres de fabrication dont l'état est **Lancé** sont accessibles et utilisables à partir d'une proposition sous-traitance.  
+
+### <a name="to-calculate-the-subcontracting-worksheet"></a>Pour calculer des propositions sous-traitance  
+1.  Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Propositions sous-traitance**, puis choisissez le lien associé.  
+2.  Pour calculer la feuille, choisissez l'action **Générer sous-traitances**.  
+3.  Dans la fenêtre **Générer sous\-traitances**, définissez des filtres pour les opérations de sous\-traitance, ou les centres de charge où celles\-ci sont effectuées, pour ne calculer que les ordres de fabrication appropriés.  
+4.  Cliquez sur le bouton **OK**.  
+
+    Examinez les lignes de la feuille **Propositions sous\-traitance**. Les informations de cette feuille proviennent des lignes de l'ordre de fabrication et de la gamme de l'ordre de fabrication et sont insérées dans la commande achat lors de la création de ce document. Vous pouvez supprimer une ligne de la feuille sans toucher aux informations d'origine, tout comme vous pouvez le faire avec les autres feuilles. Les informations réapparaissent à la prochaine exécution de la fonction **Générer sous-traitances**.  
+
+### <a name="to-create-the-subcontract-purchase-order"></a>Pour créer la commande achat sous-traitance  
+1.  Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Propositions sous-traitance**, puis choisissez le lien associé.  
+2.  Sous l'onglet **Actions**, dans le groupe **Traitement**, choisissez **Traiter messages d'action**.  
+3.  Sélectionnez le champ **Imprimer commandes** pour imprimer la commande achat lors de sa création.  
+4.  Cliquez sur le bouton **OK**.  
+
+Si toutes les opérations de sous-traitance sont adressées au même magasin fournisseur, alors une seule commande achat est créée.  
+
+La ligne proposition transformée en commande achat est supprimée de la feuille. Une fois qu'une commande achat est créée, elle n'apparaît pas de nouveau dans la feuille.  
+
+## <a name="posting-subcontract-purchase-orders"></a>Validation de commandes achat de sous-traitance  
+Une fois les commandes achat de sous-traitant créées, il est possible de les valider. La réception de la commande valide une écriture comptable capacité dans l'ordre de fabrication et la facturation de ce dernier valide le coût direct de la commande achat dans l'ordre de fabrication.  
+
+Lorsque l'achat est validé comme reçu, une écriture feuille production est automatiquement validée pour l'ordre de fabrication. Cela s'applique uniquement si l'opération de sous-traitance est la dernière opération sur la gamme de l'ordre de fabrication.  
+
+> [!CAUTION]  
+>  La validation automatique de la production pour un ordre de fabrication en cours lorsque des articles sous-traités peut ne pas être souhaitée. Les raisons à cela peuvent être une différence entre la quantité produite prévue validée et la quantité réelle, et l"inexactitude de la date validation de la production automatique.  
+>   
+>  Pour éviter que la production prévue d'un ordre de fabrication ne soit validée lorsque les achats de sous-traitance sont réceptionnés, veillez à ce que l'opération sous-traitée ne soit pas la dernière. Sinon, insérez une dernière opération pour la quantité produite finale.
+
+## <a name="to-post-a-subcontract-purchase-order"></a>Pour valider une commande achat sous-traitance  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Commandes achat**, puis sélectionnez le lien connexe.  
+2.  Ouvrez une commande achat créée à partir de la feuille sous-traitant.  
+
+    Sur les lignes commande achat, vous pouvez visualiser les mêmes informations qui étaient dans la feuille. Les champs **N° ordre de fabrication**, **N° ligne O.F.**, **N° opération** et **N° centre de charge** sont renseignés avec les informations de l'ordre de fabrication source.  
+
+3.  Sélectionnez l'action **Valider**.  
+
+Lorsque l'achat est validé comme reçu, une écriture feuille production est automatiquement validée pour l'ordre de fabrication. Cela s'applique uniquement si l'opération de sous-traitance est la dernière opération sur la gamme de l'ordre de fabrication.  
+
+> [!CAUTION]  
+>  La validation automatique de la production pour un ordre de fabrication en cours lorsque des articles sous-traités peut ne pas être souhaitée. Les raisons à cela peuvent être une différence entre la quantité produite prévue validée et la quantité réelle, et l"inexactitude de la date validation de la production automatique.  
+>   
+>  Pour éviter que la production prévue d'un ordre de fabrication ne soit validée lorsque les achats de sous-traitance sont réceptionnés, veillez à ce que l'opération sous-traitée ne soit pas la dernière. Sinon, insérez une dernière opération pour la quantité produite finale.  
+
+Lorsque la commande achat est validée comme facturée, son coût direct est validé dans l'ordre de fabrication.  
+
+## <a name="see-also"></a>Voir aussi  
+[Production](production-manage-manufacturing.md)    
+[Paramétrage de la production](production-configure-production-processes.md)  
+[Planifié](production-planning.md)      
+[STOCKS ET EN-COURS](inventory-manage-inventory.md)  
+[Achats](purchasing-manage-purchasing.md)  
+[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+

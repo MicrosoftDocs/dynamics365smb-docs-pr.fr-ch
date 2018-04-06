@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 015acdfbbc349477b9e86225f2c971f993215000
 ms.contentlocale: fr-ch
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Procédure pas-à-pas : vente, assemblage et expédition de kits
@@ -36,7 +36,7 @@ Les articles d’assemblage sont caractérisés par leur système de réapprovis
 -   Création d’une nomenclature d’assemblage qui répertorie les composants d’assemblage et la ressource incluse dans l’article d’assemblage.  
 
 ### <a name="selling-customized-assembly-items"></a>Vente d’articles d’assemblage personnalisés  
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  est flexible et permet d'entrer une quantité en stock et une quantité « assembler pour commande » sur la ligne commande vente. Cette section couvre les tâches suivantes :  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] est flexible et permet d'entrer une quantité en stock et une quantité « assembler pour commande » sur la ligne commande vente. Cette section couvre les tâches suivantes :  
 
 -   Création d’une ligne commande vente purement « assembler pour commande » lorsque la quantité totale n’est pas disponible et doit être réunie avant la livraison.  
 -   Personnalisation des articles « assembler pour commande ».  

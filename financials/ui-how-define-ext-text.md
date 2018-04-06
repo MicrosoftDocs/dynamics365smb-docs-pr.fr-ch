@@ -9,16 +9,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/16/2017
+ms.date: 03/02/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 52e5b2b69da1f9a78906563d054d91de2dfe0925
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 7f83b9fa8803e3b6611e0167a972c0e54f5eff79
 ms.contentlocale: fr-ch
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
-# <a name="set-up-extended-item-text"></a>Configurer du texte d'article étendu
+# <a name="adding-extended-item-text"></a>Ajout de texte d'article étendu
 Vous pouvez étendre un texte standard pour les articles en ajoutant des lignes supplémentaires et vous pouvez définir des conditions d'utilisation concernant ces lignes supplémentaires. Vous devez effectuer cette opération à partir des fiches article.
 
 ## <a name="to-define-extended-text-for-an-item-description"></a>Pour définir le texte étendu pour une description de l'article
@@ -30,6 +30,10 @@ Vous pouvez étendre un texte standard pour les articles en ajoutant des lignes 
 6. Renseignez les champs **Date début** et **Date fin** si vous souhaitez limiter les dates d'utilisation du texte étendu.
 7. Cochez les cases appropriées pour les types de documents où vous souhaitez imprimer le texte étendu.
 8. Fermez la fenêtre.
+
+## <a name="to-add-an-extended-item-text-on-a-sales-order-line"></a>Pour ajouter un texte d'article étendu à une ligne commande vente
+1. Ouvrez une commande vente avec une ligne vente pour un article qui a étendu le texte défini. Pour en savoir plus, voir [Vendre des produits](sales-how-sell-products.md).
+2. Sélectionnez la ligne en question, puis sélectionnez l'action **Insérer textes étendus**.
 
 ## <a name="see-also"></a>Voir aussi
 [Configuration de stock](inventory-setup-inventory.md)  

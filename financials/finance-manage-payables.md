@@ -18,11 +18,11 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 654c34bc09967247617bda7be070a9c0ec6f635d
 ms.contentlocale: fr-ch
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="managing-payables"></a>Gestion des comptes fournisseur
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  dispose de ce dont vous avez besoin pour gérer efficacement les comptes fournisseurs.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] dispose de ce dont vous avez besoin pour gérer efficacement les comptes fournisseurs.  
 
 ## <a name="payments"></a>Paiements
 Il est facile de classer les paiements par ordre de priorité, de prendre en compte les pénalités pour les paiements en retard et de gérer les escomptes pour les paiements anticipés.

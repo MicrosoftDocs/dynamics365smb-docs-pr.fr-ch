@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
-ms.date: 03/21/2017
+ms.date: 02/19/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 2743061f3581d8938cc020960777f8e8f71b25e1
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: f3ec96ef0f9c69c4942e85e7438f80bc70e6f37d
 ms.contentlocale: fr-ch
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="getting-ready-for-doing-business"></a>Préparation aux activités commerciales
@@ -23,10 +23,10 @@ Félicitations, vous venez de créer votre première société dans [!INCLUDE[d3
 
 Pour vous aider à vous préparer pour vos activités commerciales, vous pouvez visiter la fenêtre **Assistance professionnelle** dans laquelle vous pouvez lancer des guides de configuration assistée, des vidéos ou des rubriques d'aide pour les tâches de configuration sélectionnées. Vous pouvez accéder à la fenêtre à partir du graphique du tableau de bord **Gestionnaire d'activité** en choisissant la liste déroulante **Assistance professionnelle** et en cliquant sur **Afficher les paramètres et ressources d'aide**. Lorsque vous actualisez la page, le graphique est remplacé par les paramètres et les ressources d'aide.
 
-Dans la page d'accueil, au bas du volet de navigation, vous trouverez le menu **Configuration et extensions**. Développez le bouton **Accueil** pour afficher le volet de navigation. Vous avez alors accès à une liste de configurations assistées pour vous aider à démarrer. Une fois que vous avez effectué la migration des données telles que les fournisseurs, les clients et les articles de votre système financier existant, vous êtes prêt à commencer. Mais en fonction de vos besoins, demandez-vous si l'autre configuration assistée peut vous aider. Si une zone n'est pas couverte par une configuration assistée, sélectionnez l'option **Programme d'installation manuelle** pour accéder aux fenêtres de paramétrage dans lesquelles vous pouvez renseigner les champs de configuration pour toutes les zones manuellement. Pour plus d'informations, reportez-vous à [Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
+Sur le tableau de bord, au bas du volet de navigation, vous trouverez le menu **Configuration et extensions**. Développez le bouton **Accueil** pour afficher le volet de navigation. Vous avez alors accès à une liste de configurations assistées pour vous aider à démarrer. Une fois que vous avez effectué la migration des données telles que les fournisseurs, les clients et les articles de votre système financier existant, vous êtes prêt à commencer. Mais en fonction de vos besoins, demandez-vous si l'autre configuration assistée peut vous aider. Si une zone n'est pas couverte par une configuration assistée, sélectionnez l'option **Programme d'installation manuelle** pour accéder aux fenêtres de paramétrage dans lesquelles vous pouvez renseigner les champs de configuration pour toutes les zones manuellement. Pour plus d'informations, reportez-vous à [Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
 > [!NOTE]  
->   La liste des guides de configuration, des extensions et des services disponibles diffèrent selon l'expérience de l'utilisateur que vous choisissez pour votre société. L'expérience **Basique** donne accès à moins d'options que l'expérience **Suite**. La première fois que vous vous connectez, vous utilisez l'expérience Basique. Pour plus d'informations, voir [Personnalisation de votre expérience [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
+>   La liste des guides de configuration, des extensions et des services disponibles diffèrent selon l'expérience de l'utilisateur que vous choisissez pour votre société. L'expérience **Basique** donne accès à moins d'options que l'expérience **Essentiel**. La première fois que vous vous connectez, vous utilisez l'expérience Basique. Pour plus d'informations, voir [Personnalisation de votre expérience [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
 
 Dans la fenêtre **Configuration assistée**, vous découvrirez l'expérience **Basique** :
 
@@ -62,4 +62,7 @@ En fonction de la migration de vos données, vous pouvez maintenant passer à la
 [Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Gérer les utilisateurs et les autorisations](ui-how-users-permissions.md)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

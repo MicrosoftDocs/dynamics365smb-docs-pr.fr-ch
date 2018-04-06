@@ -11,10 +11,10 @@ ms.search.keywords: accountant, accounting, financial report
 ms.date: 09/14/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 594c4cca94ee23904eaadc913f0e29ef0590f3f8
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 8e28d3b8e245c014e6494cee341b49132242ac9f
 ms.contentlocale: fr-ch
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="accountant-experiences-in-included365finlongincludesd365finlongmdmd"></a>Expériences de comptable dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -23,7 +23,7 @@ Chaque entreprise doit tenir ses comptes et valider sa comptabilité. Certaines 
 ## <a name="accountant-role-center"></a>Tableau de bord Comptable
 Le tableau de bord est un tableau de bord avec des vignettes d'activité qui affichent des chiffres essentiels en temps réel et vous permettent d'accéder rapidement aux données. Dans le ruban en haut de la fenêtre, vous avez accès à plusieurs actions, par exemple ouvrir les états et les états financiers les plus couramment utilisés dans Excel. Dans le volet de navigation de gauche, vous pouvez rapidement basculer entre les listes que vous utilisez le plus fréquemment. Si vous développez le menu **Accueil** du volet de navigation, vous verrez d'autres éléments, tels que **Documents validés** avec les divers types de documents que la société a validés.  
 
-Si vous débutez avec [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez lancer une liste de vidéos depuis votre page d'accueil. Vous pouvez également lancer une visite de **Mise en route** qui précise des domaines clé.  
+Si vous débutez avec [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez lancer une liste de vidéos depuis votre Tableau de bord. Vous pouvez également lancer une visite de **Mise en route** qui précise des domaines clé.  
 
 ## <a name="accountant-hub"></a>Accountant Hub
 Si vous êtes un comptable avec plusieurs clients, vous pouvez utiliser [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] pour un meilleur aperçu de vos clients. Depuis cette fenêtre, vous pouvez accéder à l'abonné de chaque client dans [!INCLUDE[d365fin](includes/d365fin_md.md)] et utiliser le tableau de bord Comptable comme décrit ci-dessus. Pour en savoir plus, voir [Bienvenue dans [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index).  

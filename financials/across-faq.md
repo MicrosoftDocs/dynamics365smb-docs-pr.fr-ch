@@ -11,10 +11,10 @@ ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
 ms.date: 07/27/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: b14df6dbf21e405464431600eb5e743b528edbee
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: c94729445defcd88f7ac20e258f71b3c9da2142b
 ms.contentlocale: fr-ch
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="frequently-asked-questions"></a>Forum Aux Questions
@@ -29,7 +29,7 @@ Si vous essayez d'effectuer votre inscription à l'aide d'une adresse e-mail per
 Non. Par contre, si vous souhaitez faire l'expérience de [!INCLUDE[d365fin](includes/d365fin_md.md)] en tant que solution entièrement intégrée à Office 365, vous pouvez vous inscrire pour un essai gratuit d'un mois d'Office 365 [ici](https://products.office.com/try).  
 
 ## <a name="what-is-the-integration-with-office-365-about"></a>Qu'est-ce que l'intégration à Office 365 ?
-[!INCLUDE[d365fin](includes/d365fin_md.md)] est entièrement intégré à Office 365, ce qui vous permet de naviguer librement entre Office 365 et [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide du lanceur d'application. Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez ouvrir les données dans Excel, imprimer des rapports à l'aide de Word, et vous pouvez travailler sur vos données [!INCLUDE[d365fin](includes/d365fin_md.md)] dans Outlook, par exemple. Pour plus d'informations, reportez-vous à [Utilisation de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] en tant que boîte de réception professionnelle dans Outlook](madeira-outlook.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] est entièrement intégré à Office 365, ce qui vous permet de naviguer librement entre Office 365 et [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide du lanceur d'application. Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez ouvrir les données dans Excel, imprimer des rapports à l'aide de Word, et vous pouvez travailler sur vos données [!INCLUDE[d365fin](includes/d365fin_md.md)] dans Outlook, par exemple. Pour plus d'informations, reportez-vous à [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] en tant que boîte de réception professionnelle dans Outlook](madeira-outlook.md).  
 
 ## <a name="can-i-cancel-my-subscription"></a>Puis-je annuler mon inscription ?
 Oui, mais en fonction de la manière dont vous avez effectué votre inscription à [!INCLUDE[d365fin](includes/d365fin_md.md)], vos données peuvent être conservées ou supprimées. Pour plus d'informations, voir [Annulation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](madeira-cancel.md).  
@@ -50,6 +50,9 @@ Avez-vous eu connaissance d'une nouvelle fonctionnalité dans la feuille de rout
 [Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] en tant que boîte de réception professionnelle dans Outlook](madeira-outlook.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] sans Outlook](madeira-no-outlook.md)  
-[Changer le tableau de bord](change-role.md)  
+[Modification des paramètres de base](ui-change-basic-settings.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

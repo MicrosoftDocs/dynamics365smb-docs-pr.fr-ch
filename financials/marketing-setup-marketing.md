@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 2f258a2bf1852b4cc1741a312c78bedfc06b5c11
 ms.contentlocale: fr-ch
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="setting-up-relationship-management"></a>Paramétrage de la Gestion des relations
@@ -41,7 +41,7 @@ Les valeurs héritées des champs sont prioritaires sur les valeurs par défaut 
 <!--You can also setup a default salutation that the program automatically assigns to your contacts. You can use these salutations in your interaction template attachments (for example, Microsoft Word documents). When setting up a default salutation, you can enter a salutation text and a salutation format. For example, if the salutation text is Dear, and the salutation format is Salutation Text + Title + Name, the program will automatically enter Dear Mr. John Smith as a salutation for a contact called John Smith.-->
 
 ## <a name="automatically-recording-interactions"></a>Enregistrement automatique des interactions
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  peut enregistrer automatiquement les documents achat et vente en tant qu'interactions (par exemple, commandes, factures, bons de réception, etc.) ou en tant qu'e-mails, appels téléphoniques et bordereaux d'envoi.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] peut enregistrer automatiquement les documents achat et vente en tant qu'interactions (par exemple, commandes, factures, bons de réception, etc.) ou en tant qu'e-mails, appels téléphoniques et bordereaux d'envoi.
 
 Pour plus d'informations, reportez-vous à [Enregistrer automatiquement les interactions avec les contacts](marketing-auto-record-interactions.md).
 

@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
 ms.openlocfilehash: 32f67c058570f03d4aa1c84d9bb32289b1f07bec
 ms.contentlocale: fr-ch
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-codeunit-408-dimension-management"></a>Détails de conception : Codeunit 408 Gestion des axes analytiques

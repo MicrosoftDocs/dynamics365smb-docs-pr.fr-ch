@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 659b3bebb20e3deb33e6e392c5318810848285a1
 ms.contentlocale: fr-ch
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="create-reports-with-xbrl"></a>Création d'états avec XBRL
@@ -27,7 +27,7 @@ XBRL, qui signifie eXtensible Business Reporting Language, est basé sur le lang
  • des informations non financières ;  
  • des informations de classement de règlementation, tels que les états financiers annuels et trimestriels.  
 
- [!INCLUDE[d365fin](includes/d365fin_md.md)]  permet aux sociétés d'implémenter des données en XBRL, et de bénéficier de la flexibilité et de l'automatisation que ce langage offre en matière de collecte et de partage des données.  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] permet aux sociétés d'implémenter des données en XBRL, et de bénéficier de la flexibilité et de l'automatisation que ce langage offre en matière de collecte et de partage des données.  
 
 ## <a name="extensible-business-reporting-language"></a>Langage XBRL (eXtensible Business Reporting Language)
 Le langage XBRL (e **X**tensible **B**usiness **R**eporting **L**anguage) est basé sur le langage XML pour la génération d'états financiers. Le langage XBRL offre une norme pour la génération de documents financiers de toute sorte. Cette uniformisation de l'information financière profite à tous les acteurs du secteur, comme les sociétés privées et publiques, les experts comptables, les organismes de réglementation, les analystes, les investisseurs, les acteurs des marchés financiers et les sociétés de prêt, ainsi que les professions tierces telles que les développeurs de logiciel et les personnes chargées du traitement des données.  

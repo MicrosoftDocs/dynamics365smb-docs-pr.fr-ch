@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: b31ba087798c3f54e54403ed418019c82ce3091c
 ms.contentlocale: fr-ch
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="calculate-order-promising-dates"></a>Calculer des dates promesse livraison
@@ -39,7 +39,7 @@ Si vous ne spécifiez aucune date livraison demandée sur une ligne de commande 
 ## <a name="about-order-promising"></a>À propos de la promesse de livraison
 La fonctionnalité de configuration des promesses livraison vous permet de promettre la livraison ou l'expédition d'une commande à une date donnée. La date à laquelle un article est disponible afin de le promettre ou de pouvoir le promettre est calculée, et des lignes commande sont créées pour les dates que vous acceptez. Cette fonctionnalité calcule la date la plus proche à laquelle un article est disponible pour la livraison ou l'expédition. Elle crée également des lignes demande, dans le cas où les articles doivent d'abord être achetés, pour les dates que vous acceptez.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  utilise deux concepts essentiels :  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] utilise deux concepts essentiels :  
 
 - Disponible à la vente (DAV)  
 - Simulation de délai (SDD)  
@@ -64,7 +64,7 @@ Si le client ne demande pas de date de livraison spécifique, la date d'expédit
 - Date d'expédition + Délai entrepôt sortant + Livraison prévue + Durée de traitement = Date  
 - Date d'expédition planifiée + délai d'expédition = date livraison planifiée  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] Ensuite,  vérifie si la date de livraison calculée est réaliste en calculant en amont dans le temps, pour déterminer quand l'article doit être disponible pour respecter la date confirmée. Ceci est accompli par les formules suivantes :  
+Ensuite, [!INCLUDE[d365fin](includes/d365fin_md.md)] vérifie si la date de livraison calculée est réaliste en calculant en amont dans le temps, pour déterminer quand l'article doit être disponible pour respecter la date confirmée. Ceci est accompli par les formules suivantes :  
 
 - Date livraison planifiée - délai d'expédition = date expédition planifiée  
 - Date d'expédition planifiée - Délai traitement entrepôt sortant = Date de livraison  
