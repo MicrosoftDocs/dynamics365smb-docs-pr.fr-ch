@@ -15,18 +15,18 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 11c046fbd074f9542e496ad07560005873f84f15
 ms.contentlocale: fr-ch
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
-# <a name="sorting"></a><span data-ttu-id="a0b85-104">Tri</span><span class="sxs-lookup"><span data-stu-id="a0b85-104">Sorting</span></span>
-<span data-ttu-id="a0b85-105">La fonction de tri vous permet d'avoir facilement un aperçu de vos données.</span><span class="sxs-lookup"><span data-stu-id="a0b85-105">The sorting function makes it easy for you to get a quick overview of your data.</span></span> <span data-ttu-id="a0b85-106">Si vous avez de nombreux clients, par exemple, vous pouvez choisir de les trier par **N° client**, **Groupe compta. client**, **Code devise**, **Code pays/région** ou **N° d'enregistrement Sales Tax** pour obtenir l'aperçu que vous souhaitez.</span><span class="sxs-lookup"><span data-stu-id="a0b85-106">If you have many customers, for example, you can choose to sort them by **Customer No.**, **Customer Posting Group**, **Currency Code**, **Country Region Code**, or **Sales Tax Registration No.** to get the overview you need.</span></span>
+# <a name="sorting"></a><span data-ttu-id="201ca-104">Tri</span><span class="sxs-lookup"><span data-stu-id="201ca-104">Sorting</span></span>
+<span data-ttu-id="201ca-105">La fonction de tri vous permet d'avoir facilement un aperçu de vos données.</span><span class="sxs-lookup"><span data-stu-id="201ca-105">The sorting function makes it easy for you to get a quick overview of your data.</span></span> <span data-ttu-id="201ca-106">Si vous avez de nombreux clients, par exemple, vous pouvez choisir de les trier par **N° client**, **Groupe compta. client**, **Code devise**, **Code pays/région** ou **N° d'enregistrement Sales Tax** pour obtenir l'aperçu que vous souhaitez.</span><span class="sxs-lookup"><span data-stu-id="201ca-106">If you have many customers, for example, you can choose to sort them by **Customer No.**, **Customer Posting Group**, **Currency Code**, **Country Region Code**, or **Sales Tax Registration No.** to get the overview you need.</span></span>
 
-<span data-ttu-id="a0b85-107">Choisissez un en-tête de colonne et vous utilisez la petite flèche pour trier par ordre croissant ou décroissant.</span><span class="sxs-lookup"><span data-stu-id="a0b85-107">Choose a column heading and use the small arrow to sort ascending or descending.</span></span>  
+<span data-ttu-id="201ca-107">Choisissez un en-tête de colonne et vous utilisez la petite flèche pour trier par ordre croissant ou décroissant.</span><span class="sxs-lookup"><span data-stu-id="201ca-107">Choose a column heading and use the small arrow to sort ascending or descending.</span></span>  
 
 > [!NOTE]  
->   <span data-ttu-id="a0b85-108">Le tri n'est pas pris en charge sur les images, les champs de type BLOB, les FlowFilters, et les champs n'appartenant pas à une table.</span><span class="sxs-lookup"><span data-stu-id="a0b85-108">Sorting is not supported images, BLOB fields, FlowFilters, and fields that do not belong to a table.</span></span>
+>   <span data-ttu-id="201ca-108">Le tri n'est pas pris en charge sur les images, les champs de type BLOB, les FlowFilters, et les champs n'appartenant pas à une table.</span><span class="sxs-lookup"><span data-stu-id="201ca-108">Sorting is not supported images, BLOB fields, FlowFilters, and fields that do not belong to a table.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="a0b85-109">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="a0b85-109">See Also</span></span>
-<span data-ttu-id="a0b85-110">[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="a0b85-110">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
-[<span data-ttu-id="a0b85-111">Saisir les critères pour les filtres</span><span class="sxs-lookup"><span data-stu-id="a0b85-111">Entering Criteria in Filters</span></span>](ui-enter-criteria-filters.md)
+## <a name="see-also"></a><span data-ttu-id="201ca-109">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="201ca-109">See Also</span></span>
+<span data-ttu-id="201ca-110">[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="201ca-110">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+[<span data-ttu-id="201ca-111">Saisir les critères pour les filtres</span><span class="sxs-lookup"><span data-stu-id="201ca-111">Entering Criteria in Filters</span></span>](ui-enter-criteria-filters.md)
 

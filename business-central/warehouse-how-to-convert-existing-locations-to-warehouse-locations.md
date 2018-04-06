@@ -1,0 +1,54 @@
+---
+title: "Comment convertir des magasins existants en magasins entrepôt | Microsoft Docs"
+description: "Vous pouvez activer un emplacement de manière à ce qu'il utilise les zones et emplacements, et qu'il devienne l'entrepôt."
+services: project-madeira
+documentationcenter: 
+author: SorenGP
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: 
+ms.date: 07/01/2017
+ms.author: sgroespe
+ms.translationtype: HT
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: e519a1628342f7c4711b3266f53ac857d4865e71
+ms.contentlocale: fr-ch
+ms.lasthandoff: 03/22/2018
+
+---
+# <a name="convert-existing-locations-to-warehouse-locations"></a><span data-ttu-id="72533-103">Convertir des magasins existants en magasins entrepôt</span><span class="sxs-lookup"><span data-stu-id="72533-103">Convert Existing Locations to Warehouse Locations</span></span>
+<span data-ttu-id="72533-104">Vous pouvez activer un emplacement de manière à ce qu'il utilise les zones et emplacements, et qu'il devienne l'entrepôt.</span><span class="sxs-lookup"><span data-stu-id="72533-104">You can enable an existing inventory location to use zones and bins and to operate as a warehouse location.</span></span>  
+
+<span data-ttu-id="72533-105">Le traitement par lots qui active un emplacement crée des écritures entrepôt pour l'emplacement ajustement du magasin qui sera affecté à tous les articles stockés dans le magasin.</span><span class="sxs-lookup"><span data-stu-id="72533-105">The batch job to enable a location for warehouse operation creates initial warehouse entries for the warehouse adjustment bin for all items that have inventory in the location.</span></span> <span data-ttu-id="72533-106">Ces écritures sont équilibrées lorsque les écritures inventaire entrepôt sont saisies après chaque traitement par lots.</span><span class="sxs-lookup"><span data-stu-id="72533-106">These initial entries will be balanced when warehouse physical inventory entries are entered after the batch job is run.</span></span>  
+
+<span data-ttu-id="72533-107">Vous pouvez créer des zones et des emplacements avant ou après la conversion.</span><span class="sxs-lookup"><span data-stu-id="72533-107">You can create zones and bins either before or after the conversion.</span></span> <span data-ttu-id="72533-108">Le seul emplacement devant être créé avant la conversion est celui qui sert ensuite d'emplacement ajustement.</span><span class="sxs-lookup"><span data-stu-id="72533-108">The only bin that you must create before the conversion is the one that is to be used as the future adjustment bin.</span></span>  
+
+> [!IMPORTANT]  
+>  <span data-ttu-id="72533-109">Pour supprimer toutes les quantités négatives et les éventuels documents entrepôt ouverts avant de convertir le magasin à des fins de gestion d'entrepôt, exécutez un état pour identifier les articles dont la quantité est négative et les documents entrepôt ouverts pour le magasin.</span><span class="sxs-lookup"><span data-stu-id="72533-109">To clear all negative inventory and any open warehouse documents before you convert the location for warehouse handling, run a report to identify the items with negative inventory and open warehouse documents for the location.</span></span> <span data-ttu-id="72533-110">Pour plus d'informations, reportez\-vous à la rubrique Vérifiez l'inventaire négatif.</span><span class="sxs-lookup"><span data-stu-id="72533-110">For more information, see Check on Negative Inventory.</span></span>  
+
+## <a name="to-enable-an-existing-location-to-operate-as-a-warehouse-location"></a><span data-ttu-id="72533-111">Activation d'un emplacement existant en tant qu'entrepôt</span><span class="sxs-lookup"><span data-stu-id="72533-111">To enable an existing location to operate as a warehouse location</span></span>  
+1.  <span data-ttu-id="72533-112">Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Création entrepôt**, puis sélectionnez le lien connexe.</span><span class="sxs-lookup"><span data-stu-id="72533-112">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Create Warehouse Location**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="72533-113">Dans le champ **Code magasin**, indiquez le magasin que vous souhaitez activer pour un traitement d'entrepôt.</span><span class="sxs-lookup"><span data-stu-id="72533-113">In the **Location Code** field, specify the location that you want to enable for warehouse processing.</span></span>  
+3.  <span data-ttu-id="72533-114">Dans le champ **Code empl. ajustement**, indiquez à quel emplacement du magasin les écritures entrepôt non synchronisées sont enregistrées.</span><span class="sxs-lookup"><span data-stu-id="72533-114">In the **Adjustment Bin Code** field, specify the bin at the location where unsynchronized warehouse entries are stored.</span></span> <span data-ttu-id="72533-115">Pour plus d'informations, reportez-vous à la section « Pour synchroniser les écritures entrepôt ajustées avec les écritures comptables article associées » dans [Inventaire, ajustement et reclassement du stock](inventory-how-count-adjust-reclassify.md).</span><span class="sxs-lookup"><span data-stu-id="72533-115">For more information, see the "To synchronize the adjusted warehouse entries with the related item ledger entries" section in [Count, Adjust, and Reclassify Inventory](inventory-how-count-adjust-reclassify.md).</span></span>  
+
+    <span data-ttu-id="72533-116">À l'aide des écritures comptables article ouvertes de l'emplacement, des lignes feuille entrepôt sont créées qui additionnent les combinaisons N° article, Code variante, Code unité et, si nécessaire, N° lot et N° de série des écritures comptables article.</span><span class="sxs-lookup"><span data-stu-id="72533-116">Using the open item ledger entries for the specified location, warehouse journal lines are created that sum up every combination of Item No., Variant Code, Unit of Measure Code, and, if necessary, Lot No. and Serial No. in the item ledger entries.</span></span> <span data-ttu-id="72533-117">Les lignes feuille entrepôt sont ensuite validées.</span><span class="sxs-lookup"><span data-stu-id="72533-117">The warehouse journal lines are then posted.</span></span> <span data-ttu-id="72533-118">Cette validation crée des écritures entrepôt qui placent le stock dans l'emplacement ajustement entrepôt.</span><span class="sxs-lookup"><span data-stu-id="72533-118">This posting creates warehouse entries that place the inventory in the warehouse adjustment bin.</span></span> <span data-ttu-id="72533-119">Le **code emplacement ajustement** est également défini dans la fiche magasin.</span><span class="sxs-lookup"><span data-stu-id="72533-119">The **Adjustment Bin Code** on the location card is also set.</span></span>  
+
+4.  <span data-ttu-id="72533-120">Pour savoir quels articles ont été ajoutés à l'emplacement ajustement pendant le traitement par lots, vous pouvez exécuter l'état **Emplacement ajust. mag**.</span><span class="sxs-lookup"><span data-stu-id="72533-120">To see which items were added to the adjustment bin during the batch job, run the **Warehouse Adjustment Bin** report.</span></span>  
+5.  <span data-ttu-id="72533-121">Une fois le traitement par lots **Création entrepôt** terminé, vous devez effectuer et valider un inventaire physique entrepôt.</span><span class="sxs-lookup"><span data-stu-id="72533-121">When the **Create Warehouse Location** batch job has completed, perform and post a warehouse physical inventory.</span></span> <span data-ttu-id="72533-122">Pour plus d'informations, voir [Inventaire, ajustement et reclassement du stock](inventory-how-count-adjust-reclassify.md).</span><span class="sxs-lookup"><span data-stu-id="72533-122">For more information, see [Count, Adjust, and Reclassify Inventory](inventory-how-count-adjust-reclassify.md).</span></span>  
+
+> [!NOTE]  
+>  <span data-ttu-id="72533-123">Il est recommandé de lancer le traitement par lots **Création entrepôt** à un moment où il ne risque pas de nuire au fonctionnement habituel du système.</span><span class="sxs-lookup"><span data-stu-id="72533-123">It is recommended that you run the **Create Warehouse Location** batch job at a time when it will not impact the daily work in the system.</span></span> <span data-ttu-id="72533-124">Étant donné que ce processus traite chaque écriture de la table **Écriture comptable article**, il peut durer plusieurs heures si cette table en comporte un grand nombre.</span><span class="sxs-lookup"><span data-stu-id="72533-124">This job processes each entry in the **Item Ledger Entry** table, and if there are a large number of item ledger entries, the job can last several hours.</span></span>  
+
+ <span data-ttu-id="72533-125">Dans le cas de magasins n'ayant pas utilisé de documents Gestion d'entrepôt avant la conversion, vous devez rouvrir et relancer les documents source dont la réception ou l'envoi n'était que partiel avant la conversion.</span><span class="sxs-lookup"><span data-stu-id="72533-125">For those locations that did not use warehouse management documents before the conversion, you must re-open and release any source documents that were partially received or partially shipped before the conversion.</span></span>  
+
+## <a name="see-also"></a><span data-ttu-id="72533-126">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="72533-126">See Also</span></span>  
+[<span data-ttu-id="72533-127">Gestion d'entrepôt</span><span class="sxs-lookup"><span data-stu-id="72533-127">Warehouse Management</span></span>](warehouse-manage-warehouse.md)  
+[<span data-ttu-id="72533-128">STOCKS ET EN-COURS</span><span class="sxs-lookup"><span data-stu-id="72533-128">Inventory</span></span>](inventory-manage-inventory.md)  
+<span data-ttu-id="72533-129">[Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)   </span><span class="sxs-lookup"><span data-stu-id="72533-129">[Setting Up Warehouse Management](warehouse-setup-warehouse.md)   </span></span>  
+<span data-ttu-id="72533-130">[Gestion des assemblages](assembly-assemble-items.md)  </span><span class="sxs-lookup"><span data-stu-id="72533-130">[Assembly Management](assembly-assemble-items.md)  </span></span>  
+[<span data-ttu-id="72533-131">Détails de conception : gestion d'entrepôt</span><span class="sxs-lookup"><span data-stu-id="72533-131">Design Details: Warehouse Management</span></span>](design-details-warehouse-management.md)  
+<span data-ttu-id="72533-132">[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="72533-132">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+

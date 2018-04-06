@@ -1,0 +1,48 @@
+---
+title: "Paiements électroniques, Suisse"
+description: "Les améliorations suisses vous permettent d'envoyer des factures aux clients par voie électronique. Les factures sont présentées et payées directement à l'aide du logiciel bancaire en ligne du client."
+services: project-madeira
+documentationcenter: 
+author: SorenGP
+ms.service: dynamics365-financials
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: 
+ms.date: 07/01/2017
+ms.author: sgroespe
+ms.translationtype: HT
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 5cbcf1172d29ccbfebd1045c0eb7798f1aef2f24
+ms.contentlocale: fr-ch
+ms.lasthandoff: 03/22/2018
+
+---
+# <a name="swiss-electronic-payments"></a><span data-ttu-id="ba530-104">Paiements électroniques, Suisse</span><span class="sxs-lookup"><span data-stu-id="ba530-104">Swiss Electronic Payments</span></span>
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)]<span data-ttu-id="ba530-105"> vous permet d'envoyer des factures aux clients par voie électronique.</span><span class="sxs-lookup"><span data-stu-id="ba530-105"> allows you to send invoices to customers electronically.</span></span> <span data-ttu-id="ba530-106">Les factures sont présentées et payées directement à l'aide du logiciel bancaire en ligne du client.</span><span class="sxs-lookup"><span data-stu-id="ba530-106">The invoices are presented and paid directly using the customer's online banking software.</span></span>  
+
+## <a name="electronic-payment-methods"></a><span data-ttu-id="ba530-107">Modes de paiement électronique</span><span class="sxs-lookup"><span data-stu-id="ba530-107">Electronic Payment Methods</span></span>  
+<span data-ttu-id="ba530-108">Vous pouvez effectuer des paiements électroniques en utilisant les modes suivants :</span><span class="sxs-lookup"><span data-stu-id="ba530-108">You can make electronic payments using the following methods:</span></span>  
+
+- <span data-ttu-id="ba530-109">Einzahlungsschein mit Referenznummer (ESR)</span><span class="sxs-lookup"><span data-stu-id="ba530-109">Einzahlungsschein mit Referenznummer (ESR)</span></span>  
+- <span data-ttu-id="ba530-110">Lastschrift Verfahren (LSV+)</span><span class="sxs-lookup"><span data-stu-id="ba530-110">Lastschrift Verfahren (LSV+)</span></span>  
+- <span data-ttu-id="ba530-111">Virements SEPA</span><span class="sxs-lookup"><span data-stu-id="ba530-111">SEPA credit transfers</span></span>  
+
+## <a name="esr"></a><span data-ttu-id="ba530-112">ESR</span><span class="sxs-lookup"><span data-stu-id="ba530-112">ESR</span></span>  
+<span data-ttu-id="ba530-113">ESR est un service de prélèvement électronique qui utilise des bordereaux de paiement pour prélever de l'argent.</span><span class="sxs-lookup"><span data-stu-id="ba530-113">ESR is an electronic debtor service that uses payment slips to collect money.</span></span> <span data-ttu-id="ba530-114">C'est le système de paiement électronique standard créé par la Poste suisse.</span><span class="sxs-lookup"><span data-stu-id="ba530-114">It is the standard electronic payment system created by Swiss Post.</span></span> <span data-ttu-id="ba530-115">Vous pouvez imprimer des bordereaux de paiement ESR en tant que pièces jointes à une facture, calculer des numéros de référence ESR et importer des fichiers ESR contenant des informations de paiement provenant de banques.</span><span class="sxs-lookup"><span data-stu-id="ba530-115">You can print ESR payment slips as invoice attachments, calculate ESR reference numbers, and import ESR files that have payment information from banks.</span></span> <span data-ttu-id="ba530-116">Pour plus d'informations, voir [Paiements électroniques suisses avec le mode ESR](how-to-print-esr-invoices.md).</span><span class="sxs-lookup"><span data-stu-id="ba530-116">For more information, see [Swiss Electronic Payments Using ESR](how-to-print-esr-invoices.md).</span></span> <span data-ttu-id="ba530-117">Vous pouvez également effectuer des paiements ESR et ESR+ à l'aide de la version de la banque de ce mode de règlement, intitulé Bank-ESR (BESR).</span><span class="sxs-lookup"><span data-stu-id="ba530-117">You can also make ESR and ESR+ payments using the bank’s version of this payment method, which is named Bank-ESR (BESR).</span></span>  
+
+## <a name="lsv"></a><span data-ttu-id="ba530-118">LSV+</span><span class="sxs-lookup"><span data-stu-id="ba530-118">LSV+</span></span>  
+<span data-ttu-id="ba530-119">LSV+ est un service de prélèvement utilisé pour traiter les paiements.</span><span class="sxs-lookup"><span data-stu-id="ba530-119">LSV+ is a direct debit service that is used for processing payments.</span></span> <span data-ttu-id="ba530-120">Les sociétés peuvent lancer des paiements client directement de la banque du client à l'aide du prélèvement.</span><span class="sxs-lookup"><span data-stu-id="ba530-120">Companies can release customer payments directly from the customer's bank using direct debit.</span></span> <span data-ttu-id="ba530-121">Vous pouvez demander et encaisser des paiements clients en utilisant le prélèvement au format banque LSV+ ou au format PostFinance DebitDirect.</span><span class="sxs-lookup"><span data-stu-id="ba530-121">You can request and collect customer payments using direct debit in the LSV+ bank format, or in the DebitDirect PostFinance format.</span></span> <span data-ttu-id="ba530-122">Pour plus d'informations, voir [Paiements électroniques suisses avec le mode LSV+](swiss-electronic-payments-using-lsv-.md).</span><span class="sxs-lookup"><span data-stu-id="ba530-122">For more information, see [Swiss Electronic Payments Using LSV+](swiss-electronic-payments-using-lsv-.md).</span></span>  
+
+## <a name="sepa-credit-transfers"></a><span data-ttu-id="ba530-123">Virements SEPA</span><span class="sxs-lookup"><span data-stu-id="ba530-123">SEPA Credit Transfers</span></span>  
+<span data-ttu-id="ba530-124">Pour exporter des paiements selon la norme SEPA, vous devez utiliser un compte bancaire.</span><span class="sxs-lookup"><span data-stu-id="ba530-124">To export payments according to the SEPA standard, you must use a bank account.</span></span> <span data-ttu-id="ba530-125">Pour vous assurer que les écritures comptables correspondantes sont cohérentes avec celles générées pour des modes de règlement suisses locaux (voir ci-dessus), la valeur dans le champ **Groupe compta. banque** dans la fenêtre **Fiche compte bancaire archivé** doit indiquer le compte général approprié.</span><span class="sxs-lookup"><span data-stu-id="ba530-125">To make sure that the related general ledger entries are consistent with those generated for local Swiss payment methods (see above), the value in the **Bank Acc. Posting Group** field in the **Bank Account Card** window must point to the relevant general ledger account.</span></span> <span data-ttu-id="ba530-126">Pour plus d'informations sur l'exportation des paiements SEPA, voir [Procédure : créer des écritures de collection prélèvement automatique SEPA et les exporter vers un fichier bancaire](../../finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md).</span><span class="sxs-lookup"><span data-stu-id="ba530-126">For more information about how to export SEPA payments, see [Create SEPA Direct Debit Collection Entries and Export to a Bank File](../../finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md).</span></span>  
+
+## <a name="see-also"></a><span data-ttu-id="ba530-127">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="ba530-127">See Also</span></span>  
+ <span data-ttu-id="ba530-128">[Importer des numéros de compensation d'une banque suisse](how-to-import-swiss-bank-clearing-numbers.md) </span><span class="sxs-lookup"><span data-stu-id="ba530-128">[Import Swiss Bank Clearing Numbers](how-to-import-swiss-bank-clearing-numbers.md) </span></span>  
+ <span data-ttu-id="ba530-129">[Paiements électroniques à l'aide de ESR+, Suisse](swiss-electronic-payments-using-esr.md) </span><span class="sxs-lookup"><span data-stu-id="ba530-129">[Swiss Electronic Payments Using ESR](swiss-electronic-payments-using-esr.md) </span></span>  
+ <span data-ttu-id="ba530-130">[Imprimer des factures ESR](how-to-print-esr-invoices.md) </span><span class="sxs-lookup"><span data-stu-id="ba530-130">[Print ESR Invoices](how-to-print-esr-invoices.md) </span></span>  
+ <span data-ttu-id="ba530-131">[Paiements électroniques à l'aide de LSV+, Suisse](swiss-electronic-payments-using-lsv-.md) </span><span class="sxs-lookup"><span data-stu-id="ba530-131">[Swiss Electronic Payments Using LSV+](swiss-electronic-payments-using-lsv-.md) </span></span>  
+ <span data-ttu-id="ba530-132">[Fonctionnalité locale, Suisse](switzerland-local-functionality.md)  ' [Créer des écritures de collection prélèvement automatique SEPA et les exporter vers un fichier bancaire](../../finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)</span><span class="sxs-lookup"><span data-stu-id="ba530-132">[Switzerland Local Functionality](switzerland-local-functionality.md)  ' [Create SEPA Direct Debit Collection Entries and Export to a Bank File](../../finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)</span></span>  
+ [<span data-ttu-id="ba530-133">Effectuer des paiements</span><span class="sxs-lookup"><span data-stu-id="ba530-133">Making Payments</span></span>](../../payables-make-payments.md)
+

@@ -1,0 +1,49 @@
+---
+title: "Aperçu des tâches permettant de fournir un service | Microsoft Docs"
+description: "Décrit les tâches à configurer pour garantir un service de qualité et respecter les engagement vis-à-vis des clients."
+services: project-madeira
+documentationcenter: 
+author: SorenGP
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: service, service items, respond, response
+ms.date: 08/23/2017
+ms.author: sgroespe
+ms.translationtype: HT
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 9a4debcccf673ca4b2f21ac35304e18c2f571d24
+ms.contentlocale: fr-ch
+ms.lasthandoff: 03/22/2018
+
+---
+# <a name="delivering-service"></a><span data-ttu-id="7dbf4-103">Fournir un service</span><span class="sxs-lookup"><span data-stu-id="7dbf4-103">Delivering Service</span></span>
+[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="7dbf4-104"> inclut des fonctionnalités qui vous permettent d'offrir le service correspondant aux contrats créés et les commandes service que vous vous êtes engagé à traiter.</span><span class="sxs-lookup"><span data-stu-id="7dbf4-104"> provides features to help you deliver service according to the contracts that you have created and the service orders that you have committed to fulfilling.</span></span> <span data-ttu-id="7dbf4-105">Grâce au **Tableau d'affectation**, les techniciens de service et agents d'affectation ont facilement accès aux commandes service en attente.</span><span class="sxs-lookup"><span data-stu-id="7dbf4-105">Your service technicians or dispatcher will find outstanding service orders easy to locate when they use the **Dispatch Board**.</span></span> <span data-ttu-id="7dbf4-106">Le **Tableau d'affectation** affiche les commandes en cours et les commandes terminées.</span><span class="sxs-lookup"><span data-stu-id="7dbf4-106">At a glance, the **Dispatch Board** shows which orders are in progress and which orders are complete.</span></span>  
+  
+<span data-ttu-id="7dbf4-107">La fenêtre **Tâches service**, qui affiche vos obligations de service, permet également de consulter les commandes service en attente.</span><span class="sxs-lookup"><span data-stu-id="7dbf4-107">Another way to review pending service orders is to use the **Service Tasks** window.</span></span> <span data-ttu-id="7dbf4-108">Elle indique la position de la commande dans le flux de service et permet de modifier ce statut pour refléter les interactions avec le client.</span><span class="sxs-lookup"><span data-stu-id="7dbf4-108">In this view of your service obligations, you can see where in your service workflow an order is and change that status to reflect interactions with your customer.</span></span>  
+  
+<span data-ttu-id="7dbf4-109">Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.</span><span class="sxs-lookup"><span data-stu-id="7dbf4-109">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>   
+
+<span data-ttu-id="7dbf4-110">Une application de gestion des services doit interagir avec une demande de service du client.</span><span class="sxs-lookup"><span data-stu-id="7dbf4-110">A service management application must interface with a customer request for service.</span></span> <span data-ttu-id="7dbf4-111">Cette demande de service est généralement convertie en commande service.</span><span class="sxs-lookup"><span data-stu-id="7dbf4-111">That service request usually is translated into a service order.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="7dbf4-112"> inclut des outils qui permettent de créer une commande directement en réponse à une demande client ou dans le cadre du traitement du contrat, selon la configuration de votre application.</span><span class="sxs-lookup"><span data-stu-id="7dbf4-112"> provides tools to create an order both directly in response to a customer request or as part of the contract process, if that is how your application is set up.</span></span>  
+  
+<span data-ttu-id="7dbf4-113">Le cas échéant, vous pouvez gérer un programme d'articles de prêt pour vos clients.</span><span class="sxs-lookup"><span data-stu-id="7dbf4-113">If needed, you can manage a loaner program for your customers.</span></span> <span data-ttu-id="7dbf4-114">Vous pouvez également déterminer votre échelle de tarification, mettre les offres de tarification service dans des groupements logiques et créer des ajustements prix.</span><span class="sxs-lookup"><span data-stu-id="7dbf4-114">You can also determine your pricing structure, put service pricing offerings into logical groupings, and create price adjustments.</span></span>  
+  
+<span data-ttu-id="7dbf4-115">Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.</span><span class="sxs-lookup"><span data-stu-id="7dbf4-115">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>   
+  
+|<span data-ttu-id="7dbf4-116">**Pour**</span><span class="sxs-lookup"><span data-stu-id="7dbf4-116">**To**</span></span>|<span data-ttu-id="7dbf4-117">**Voir**</span><span class="sxs-lookup"><span data-stu-id="7dbf4-117">**See**</span></span>|  
+|------------|-------------|  
+|<span data-ttu-id="7dbf4-118">Créer des devis qui sont des brouillons de commandes service, et les convertir en commandes service.</span><span class="sxs-lookup"><span data-stu-id="7dbf4-118">Create quotes that are drafts of service orders, and then convert the quotes to service orders.</span></span>|[<span data-ttu-id="7dbf4-119">Créer des devis service</span><span class="sxs-lookup"><span data-stu-id="7dbf4-119">Create Service Quotes</span></span>](service-how-to-create-service-quotes.md)|
+|<span data-ttu-id="7dbf4-120">Créer des documents contenant des informations sur un service, telles que les réparations et la maintenance, pour les articles de service.</span><span class="sxs-lookup"><span data-stu-id="7dbf4-120">Create documents that contain information about a service, such as repairs and maintenance, on service items.</span></span>|[<span data-ttu-id="7dbf4-121">Créer commande service</span><span class="sxs-lookup"><span data-stu-id="7dbf4-121">Create Service Orders</span></span>](service-how-to-create-service-orders.md)|
+|<span data-ttu-id="7dbf4-122">Planifier la livraison de service à l'aide du **Tableau d'affectation**.</span><span class="sxs-lookup"><span data-stu-id="7dbf4-122">Plan the delivery of service by using the **Dispatch Board**.</span></span> <span data-ttu-id="7dbf4-123">Vous pouvez également utiliser les outils de gestion de projets du département Projets pour la planification.</span><span class="sxs-lookup"><span data-stu-id="7dbf4-123">You can also use project management tools in the Jobs department to help in planning.</span></span>|[<span data-ttu-id="7dbf4-124">Affecter des ressources</span><span class="sxs-lookup"><span data-stu-id="7dbf4-124">Allocate Resources</span></span>](service-how-to-allocate-resources.md)|  
+|<span data-ttu-id="7dbf4-125">Fournir des services aux clients en exécutant des tâches de service.</span><span class="sxs-lookup"><span data-stu-id="7dbf4-125">Deliver service to customers by performing service tasks.</span></span>|[<span data-ttu-id="7dbf4-126">Travailler sur des tâches service</span><span class="sxs-lookup"><span data-stu-id="7dbf4-126">Work on Service Tasks</span></span>](service-how-to-work-on-service-tasks.md)|  
+|<span data-ttu-id="7dbf4-127">Valider les commandes de services en vue de mettre à jour votre comptabilité.</span><span class="sxs-lookup"><span data-stu-id="7dbf4-127">Post service orders for services, so that your accounting is up-to-date.</span></span>|[<span data-ttu-id="7dbf4-128">Valider des commandes et des avoirs service</span><span class="sxs-lookup"><span data-stu-id="7dbf4-128">Post Service Orders and Credit Memos</span></span>](service-how-to-post-service-orders.md)|  
+|<span data-ttu-id="7dbf4-129">Créer et valider des factures pour les services que vous avez fournis.</span><span class="sxs-lookup"><span data-stu-id="7dbf4-129">Create and post invoices for services that you have delivered.</span></span>|[<span data-ttu-id="7dbf4-130">Créer des factures service ou des avoirs</span><span class="sxs-lookup"><span data-stu-id="7dbf4-130">Create Service Invoices or Credit Memos</span></span>](service-how-create-invoices.md)|  
+|<span data-ttu-id="7dbf4-131">Assurer la satisfaction de vos clients en leur prêtant un article pendant que vous réparez le leur.</span><span class="sxs-lookup"><span data-stu-id="7dbf4-131">Keep customers happy by lending them an item while you work on theirs.</span></span>| [<span data-ttu-id="7dbf4-132">Prêter et recevoir des articles de prêt</span><span class="sxs-lookup"><span data-stu-id="7dbf4-132">Lend and Receive Loaner Items</span></span>](service-how-to-lend-receive-loaners.md)|
+  
+## <a name="see-also"></a><span data-ttu-id="7dbf4-133">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="7dbf4-133">See Also</span></span>  
+[<span data-ttu-id="7dbf4-134">Services de planification</span><span class="sxs-lookup"><span data-stu-id="7dbf4-134">Planning Service</span></span>](service-plan-service.md)  
+[<span data-ttu-id="7dbf4-135">Exécution des contrats de service</span><span class="sxs-lookup"><span data-stu-id="7dbf4-135">Fulfilling Service Contracts</span></span>](service-fulfill-service-contracts.md)  
+[<span data-ttu-id="7dbf4-136">Gestion des projets</span><span class="sxs-lookup"><span data-stu-id="7dbf4-136">Managing Projects</span></span>](projects-manage-projects.md)  
+
