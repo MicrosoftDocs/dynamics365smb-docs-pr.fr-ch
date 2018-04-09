@@ -95,7 +95,6 @@ Scénarios comportant deux alternatives, A et B. En voici la signification :
 - **A** L'alerte écart d'escompte a été désactivée OU l'alerte est activée, mais l'utilisateur a accepté l'escompte tardif (Valider le solde en tant qu'écart de règlement).  
 - **B** L'alerte est activée et l'utilisateur a choisi de ne pas accepter l'escompte tardif (Laisser le solde ouvert).  
 
-[!div class="mx-tdBreakAll"]  
 |—|Fact.|Si le champ Ajust.|Ecart règl. max.|Date d'escompte|Ecart d'escompte Date|Date de règlement|Règl.|Type d'écart|Toutes les écritures clôturées|Ecart d'escompte Cpta/CL|Ecart de règlement Comptabilité|  
 |-------|----------|----------------|-----------------------|---------------------|--------------------------|------------------|----------|--------------------|------------------------|------------------------------|----------------------------|  
 |1|1 000|20|5|15/01/03|20/01/03|<=15/01/03|985|Ecart règl.|Oui|0|-5|  
@@ -166,8 +165,6 @@ Scénarios comportant deux alternatives, A, B, C ou D. En voici la signification
 - **B** L'alerte est activée et l'utilisateur a choisi de n'accepter l'escompte tardif pour aucune des factures.  
 - **C** : L'alerte est activée et l'utilisateur a choisi d'accepter l'escompte tardif pour la première facture, mais non pour la deuxième.  
 - **D** : L'alerte est activée et l'utilisateur a choisi de ne pas accepter l'escompte tardif pour la première facture, mais de l'accepter pour la seconde.  
-
-[!div class="mx-tdBreakAll"]  
 
 |—|Fact.|Escompte|Ecart règl. max.|Date d'escompte|Ecart d'escompte Date|Date règl.|Règl.|Type d'écart|Toutes les écritures clôturées|Ecart d'escompte Cpta/CL|Ecart de règlement Comptabilité|  
 |-------|----------|---------------|-------------------|---------------------|--------------------------|------------------|---------|--------------------|------------------------|------------------------------|------------------------|  

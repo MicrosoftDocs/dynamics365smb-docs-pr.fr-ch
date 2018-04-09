@@ -38,7 +38,7 @@ Les extensions Microsoft Pay, PayPal Payments Standard et WorldPay Payments Stan
 3. Dans le champ **Service de paiement**, sélectionnez le service de paiement.  
 
     > [!NOTE]  
-    >   Le champ **Service de paiement** est uniquement disponible si vous avez activé le service de paiement.  
+    > Le champ **Service de paiement** est uniquement disponible si vous avez activé le service de paiement.  
 
 ## <a name="see-also"></a>Voir aussi  
 [Définition des ventes](sales-setup-sales.md)  
