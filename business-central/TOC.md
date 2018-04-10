@@ -1,5 +1,6 @@
-# [Mise en route](index.md)
-## [Configuration minimale requise](financials-requirements.md)
+# [Bienvenue dans Business Central](index.md)
+# [Mise en route](product-get-started.md)
+## [Configuration minimale requise](product-requirements.md)
 ## [Forum Aux Questions](across-faq.md)
 ## [Vidéos sur les tâches courantes](across-videos.md)
 ## [Aperçu de la fonctionnalité d'affaires](across-business-functionality.md)
@@ -348,6 +349,7 @@
 ## [Exécution du service](service-deliver-service.md)
 
 # [Fonctionnalités marché](ui-across-business-areas.md)
+## [Suivre des lignes document](across-how-to-track-document-lines.md)
 ## [Envoi de documents par e-mail](ui-how-send-documents-email.md)
 ## [Ajout de texte d'article étendu](ui-how-define-ext-text.md)
 ## [Définition des tâches utilisateur](across-user-tasks.md)
