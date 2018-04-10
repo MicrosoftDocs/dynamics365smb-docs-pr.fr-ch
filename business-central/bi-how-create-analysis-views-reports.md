@@ -1,8 +1,6 @@
 ---
 title: "Créer des rapports d'analyse| Microsoft Docs"
 description: "Décrit comment créer de nouveaux rapports d'analyse pour les ventes, les achats et le stock, et configurer des modèles d'analyse."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,8 +11,8 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 622323cd0df894c2cb8a55c6fdfe29a81934af05
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: f127cef1af857b5f50f5e14c7376941151b57e91
 ms.contentlocale: fr-ch
 ms.lasthandoff: 03/22/2018
 
@@ -69,9 +67,8 @@ Un modèle contient un ensemble de lignes représentant les colonnes d'analyse d
 4. Dans la fenêtre **Colonnes d'analyse**, renseignez les champs afin d'indiquer les colonnes à inclure dans l'état d'analyse.  
 
     > [!NOTE]  
->   Pour définir une colonne, renseignez le champ **Code type analyse** de tous les types de colonne sauf **Formule**. Configurez les codes type analyse de la fenêtre **Types d'analyse**.  
-
-    **Remarque**. Si vous sélectionnez **Ecritures article** dans le champ **Type écriture comptable**, les chiffres réels à partir de l'écriture comptable article sont copiés. Si vous sélectionnez **Ecritures budget article**, les chiffres budgétés à partir du budget sont copiés.  
+    >   Pour définir une colonne, renseignez le champ **Code type analyse** de tous les types de colonne sauf **Formule**. Configurez les codes type analyse de la fenêtre **Types d'analyse**.  
+    Si vous sélectionnez **Ecritures article** dans le champ **Type écriture comptable**, les chiffres réels à partir de l'écriture comptable article sont copiés. Si vous sélectionnez **Ecritures budget article**, les chiffres budgétés à partir du budget sont copiés.  
 5.  Cliquez sur le bouton **OK** pour enregistrer vos modifications.  
 
 ## <a name="to-set-up-analysis-line-templates"></a>Pour configurer des modèles de ligne d'analyse  

@@ -11,8 +11,8 @@ ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
 ms.date: 07/27/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 72fdb96907c4feeb21cdc40b4b781e75e4f1119c
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: d015f3c2e4b06a7e93b7b4e0fe678c5066afbb8c
 ms.contentlocale: fr-ch
 ms.lasthandoff: 03/22/2018
 
@@ -40,14 +40,14 @@ Si vous avez des questions à propos de [!INCLUDE[d365fin](includes/d365fin_md.m
 ## <a name="is-it-possible-to-extend-my-30-day-new-company-trial-period"></a>Est-il possible d'étendre ma période d'essai de 30 jours « Nouvelle société » ?
 Oui. Si vous souhaitez étendre votre période d'essai, contactez Microsoft au 1-888-477-7989 (États-Unis) ou au 1-800-741-9206 (Canada). REMARQUE : Le processus d'extension de la période d'essai peut prendre jusqu'à 2 jours ouvrables.  
 
-## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-home-page-in-included365finincludesd365finmdmd"></a>Mon administrateur m'a déplacé vers un autre plan pour me donner un autre rôle, mais je vois toujours la même page d'accueil dans [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-role-center-in-included365finincludesd365finmdmd"></a>Mon administrateur m'a déplacé vers un autre plan pour me donner un autre rôle, mais je vois toujours le même tableau de bord dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
 C'est un peu compliqué, mais il semble que votre administrateur n'a pas modifié votre Tableau de bord et a affecté des groupes d'utilisateurs qui correspondent à la nouvelle licence. Votre accès à [!INCLUDE[d365fin](includes/d365fin_md.md)] est essentiellement déterminé par le type de plan (licence) que vous avez - cela définit les autorisations et la page Tableau de bord par défaut. Vous pouvez modifier votre Tableau de bord manuellement dans Mes paramètres, mais si vous êtes passé à un autre plan (du plan Marché au plan Membres de l'équipe, par exemple), vous pouvez voir l'ancien accueil car vos autorisations n'ont pas été modifiées.  
 
 ## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365finmdmd"></a>Pourquoi je ne peux pas trouver cette fonctionnalité dans ma version de [!INCLUDE[d365fin](includes/d365fin_md.md)] ?
 Avez-vous eu connaissance d'une nouvelle fonctionnalité dans la feuille de route ou sur notre blog récemment ? Dans ce cas, votre [!INCLUDE[d365fin](includes/d365fin_md.md)] n'a peut-être pas encore été mis à niveau avec la dernière version. Si la fonctionnalité est publiée en tant qu'extension dans AppSource, c'est qu'il y a un retard entre l'extension étant annoncée et sa disponibilité dans AppSource.
 
 ## <a name="see-also"></a>Voir aussi
-[Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Mise en route](product-get-started.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] en tant que boîte de réception professionnelle dans Outlook](admin-outlook.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] sans Outlook](admin-no-outlook.md)  
 [Modification des paramètres de base](ui-change-basic-settings.md)  

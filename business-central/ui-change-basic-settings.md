@@ -13,8 +13,8 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 03/02/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ee0615cd475d412f7380d6577bfa2965bb0cee9f
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: c7f07bd3cee8d52cccf171dfd229265d65e99cba
 ms.contentlocale: fr-ch
 ms.lasthandoff: 03/22/2018
 
@@ -23,7 +23,7 @@ ms.lasthandoff: 03/22/2018
 Dans la fenêtre **Mes paramètres**, vous pouvez afficher et modifier les paramètres de base de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="role-center"></a>Tableau de bord
-Le Tableau de bord représente la page d'accueil, une page de démarrage conçue pour les exigences du rôle. Le Tableau de bord vous donne un aperçu de l'entreprise, reflétant les informations, les tâches, et les priorités de votre rôle. 
+Le Tableau de bord représente la page d'accueil et est conçu pour les exigences du rôle. Le Tableau de bord vous donne un aperçu de l'entreprise, reflétant les informations, les tâches, et les priorités de votre rôle.
 
 Avec la partie supérieure du Tableau de bord, vous voyez une barre de navigation qui vous donne un accès facile aux entités courantes du rôle, telles que ses clients, fournisseurs, articles, etc.
 
@@ -41,7 +41,7 @@ Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], une société fonctionne comme
 La société par défaut est appelée CRONUS et contient uniquement des données de démonstration.
 
 > [!TIP]  
->   Pour afficher un nom différent pour votre société dans l'application (par exemple sur la page d'accueil Tableau de bord), définissez le champ **Nom** sur la page **Informations société** ou le champ **Nom d'affichage** sur la page **Sociétés**.  
+>   Pour afficher un nom différent pour votre société dans l'application (par exemple sur le Tableau de bord), définissez le champ **Nom** sur la page **Informations société** ou le champ **Nom d'affichage** sur la page **Sociétés**.  
 
 ## <a name="work-date"></a>Date de travail
 La date de travail par défaut est généralement la date du jour. Vous pouvez être amené à modifier temporairement la date de travail pour effectuer des tâches telles que l'exécution de transactions à une date différente de la date actuelle, .

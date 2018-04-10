@@ -12,8 +12,8 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 03/16/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 97be9460746003c2972a4c4d1f23eec9a4f39fab
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: adeb5f554014e64921cccb9dc926552a2321d333
 ms.contentlocale: fr-ch
 ms.lasthandoff: 03/22/2018
 
@@ -26,7 +26,7 @@ Vous pouvez envoyer des documents tels que des factures en tant qu'e-mails à l'
 
 
 ## <a name="see-also"></a>Voir aussi
-[Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Mise en route](product-get-started.md)  
 [Utilisation de Business Central en tant que boîte de réception professionnelle dans Outlook](admin-outlook.md)  
 [Obtention de Business Central sur mon périphérique mobile](install-mobile-app.md)  
 [Envoyer des documents par e-mail](ui-how-send-documents-email.md)

@@ -12,8 +12,8 @@ ms.search.keywords: workflow, Odata, Power App, SOAP
 ms.date: 01/25/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 60ce05760251da39280eb8a4884cb80586c2ab62
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 68355bc0b4afe4fcdd92f9cdb190d4b5c0d845df
 ms.contentlocale: fr-ch
 ms.lasthandoff: 03/22/2018
 
@@ -47,7 +47,7 @@ Par exemple, si la table que vous utilisez comme source de données contient 4 
 
 ## <a name="see-also"></a>Voir aussi
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] dans un flux automatisé](across-how-use-financials-data-source-flow.md)  
-[Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Mise en route](product-get-started.md)  
 [Importation des données métier à partir d'autres systèmes financiers](upload-data.md)  
 [Gérer les utilisateurs et les autorisations](ui-how-users-permissions.md)    
 [Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  

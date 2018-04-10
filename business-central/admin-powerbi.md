@@ -11,8 +11,8 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.date: 09/05/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6b72de70da67a7401bad90bd55d1a31a1ae6d880
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 7b62652e34c15831b44975a7c33b088e2be873e4
 ms.contentlocale: fr-ch
 ms.lasthandoff: 03/22/2018
 
@@ -101,7 +101,7 @@ Si vous obtenez un message d'erreur de type échec de la connexion lorsque vous 
 * L'instance de [!INCLUDE[d365fin](includes/d365fin_md.md)] à laquelle vous essayez de vous connecter n'est pas dotée d'un certificat SSL valide. Dans ce cas, vous obtiendrez un message d'erreur plus détaillé (« impossible d'établir une relation SSL fiable »).
 
     > [!NOTE]  
->   Les certificats auto-signés ne sont pas pris en charge.  
+    >   Les certificats auto-signés ne sont pas pris en charge.  
 
 **« Oups »**  
 Si une boîte de dialogue d'erreur « Oups » s'affiche une fois que vous avez passé la boîte de dialogue d'authentification, cela est généralement causé par un problème qui survient lors de la connexion aux données du pack de contenu.
@@ -118,7 +118,7 @@ Si une boîte de dialogue d'erreur « Oups » s'affiche une fois que vous avez
 
 ## <a name="see-also"></a>Voir aussi
 [Veille économique](bi.md)  
-[Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Mise en route](product-get-started.md)  
 [Migrer des données métier à partir d'autres systèmes financiers](upload-data.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] comme source de données Power BI](across-how-use-financials-data-source-powerbi.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] comme source de données PowerApps](across-how-use-financials-data-source-powerapps.md)  

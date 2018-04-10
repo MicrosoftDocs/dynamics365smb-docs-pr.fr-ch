@@ -12,8 +12,8 @@ ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 02/19/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bc317c6fefbc9f79b668c1332bbaef2fc74ed4da
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 3e517397fb849e84da42492aaeea36def7dd3a28
 ms.contentlocale: fr-ch
 ms.lasthandoff: 03/22/2018
 
@@ -43,12 +43,12 @@ Dans la fenêtre **Configuration assistée**, vous découvrirez l'expérience **
 
 Lorsque vous avez exécuté une configuration assisté, elle est marqué comme **Terminée**. Pour exécuter la configuration assistée, vous cliquez sur les trois points (ou menu contextuel), puis vous sélectionnez **Démarrer la configuration**.
 
-## <a name="role-center-home-page"></a>Page d'accueil du tableau de bord
-Sur la page d'accueil du tableau de bord, vous bénéficiez d'une vue d'ensemble de l'entreprise. Sur la gauche, une barre de navigation vous donne un accès facile aux clients, fournisseurs, articles, etc.. Au centre, vous trouverez les mosaïques **Activités**. Les mosaïques **Activités** affichent les données actuelles. Vous pouvez cliquer ou appuyer sur celles-ci pour accéder facilement au document sélectionné. Les **indicateurs de performance clés** peuvent être configurés de sorte à afficher un graphique sélectionné pour une représentation visuelle, par exemple, de la trésorerie ou des revenus et des dépenses. Vous pouvez également générer la liste des **Clients favoris** sur la page d'accueil du tableau de bord pour les comptes avec lesquels vous travaillez souvent ou auxquels vous devez accorder une attention particulière.
-Utilisez les flèches pour réduire une partie de la page et faire de la place afin d'afficher des données spécifiques. Au sommet de la page d'accueil du tableau de bord, vous trouverez toutes les actions qui peuvent être appliquées au contenu actuel. Cette zone peut également être réduite et il vous suffit de cliquer ou d'appuyer à l'intérieur de la zone réduite afin de l'afficher à nouveau.
+## <a name="role-center"></a>Tableau de bord
+Bénéficiez d'une vue d'ensemble de votre entreprise dans le Tableau de bord. Sur la gauche, une barre de navigation vous donne un accès facile aux clients, fournisseurs, articles, etc.. Au centre, vous trouverez les mosaïques **Activités**. Les mosaïques **Activités** affichent les données actuelles. Vous pouvez cliquer ou appuyer sur celles-ci pour accéder facilement au document sélectionné. Les **indicateurs de performance clés** peuvent être configurés de sorte à afficher un graphique sélectionné pour une représentation visuelle, par exemple, de la trésorerie ou des revenus et des dépenses. Vous pouvez également générer la liste des **Clients favoris** sur le Tableau de bord pour les comptes avec lesquels vous travaillez souvent ou auxquels vous devez accorder une attention particulière.
+Utilisez les flèches pour réduire une partie de la page et faire de la place afin d'afficher des données spécifiques. Au sommet du Tableau de bord, vous trouverez toutes les actions qui peuvent être appliquées au contenu actuel. Cette zone peut également être réduite et il vous suffit de cliquer ou d'appuyer à l'intérieur de la zone réduite afin de l'afficher à nouveau.
 
 > [!TIP]  
-> Vous pouvez revenir à la page d'accueil Tableau de bord en sélectionnant le nom de la société dans l'angle supérieur gauche.
+> Vous pouvez revenir au Tableau de bord en sélectionnant le nom de la société dans l'angle supérieur gauche.
 
 ## <a name="company-information"></a>Informations société
 Sous **Paramètres de la société** vous pouvez afficher et modifier les informations de configuration sur la société actuelle. Un grand nombre de ces informations sont préremplies si vous avez exécuté la configuration assistée **Configurer la société** lors de votre inscription à [!INCLUDE[d365fin](includes/d365fin_md.md)]. Si vous souhaitez modifier le logo de la société, les informations de contact, les paramètres bancaires, ou les informations fiscales, vous pouvez le faire à partir de cette fenêtre.    
@@ -63,7 +63,7 @@ Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], des info-bulles vous guident d
 En fonction de la migration de vos données, vous pouvez maintenant passer à la création de documents vente ou achat. Utilisez la section **Ma société** de votre page **Accueil** pour créer rapidement un devis, une facture vente, une commande vente, une facture achat, ou un enregistrement de paiement.
 
 ## <a name="see-also"></a>Voir aussi
-[Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Mise en route](product-get-started.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Gérer les utilisateurs et les autorisations](ui-how-users-permissions.md)
 

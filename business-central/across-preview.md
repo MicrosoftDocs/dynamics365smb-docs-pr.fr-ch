@@ -11,8 +11,8 @@ ms.search.keywords: preview, trial, sandbox
 ms.date: 01/05/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fa7d084f69765a0b274dc9d4e1f6c1a38752f3b5
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 3e7c5ca600a5f64b44fca419ce33cad868f15595
 ms.contentlocale: fr-ch
 ms.lasthandoff: 03/22/2018
 
@@ -68,6 +68,6 @@ Pour plus d'informations, voir [Utilisation de l'éditeur](https://docs.microsof
 [!INCLUDE[d365fin](includes/d365fin_md.md)] fournit des outils permettant d'implémenter vos propres applications complémentaires et fonctionnalités intégrées pour ajouter de nouvelles expériences de bout en bout propres au secteur d'activité ou pour intégrer des solutions tierces. Par exemple, vous pouvez utiliser une API pour créer un application connectée pour échanger des données entre [!INCLUDE[d365fin](includes/d365fin_md.md)] et votre application de paie. Les applications connectées peuvent également utiliser des extensions pour créer des pages pour le paramétrage, la configuration, ou pour prendre en charge des fonctions spécifiques aux applications. Pour plus d'informations, voir [Développement d'applications pour [!INCLUDE[d365fin](includes/d365fin_md.md)]](https://aka.ms/getstartedwithapps).
 
 ##<a name="see-also"></a>Voir aussi
-[Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Mise en route](product-get-started.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

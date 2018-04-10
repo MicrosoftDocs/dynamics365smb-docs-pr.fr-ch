@@ -11,8 +11,8 @@ ms. search.keywords: app, add-in, manifest, customize, accountant
 ms.date: 09/14/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2bbe5af160a3512c83cc33057252ff6c2eb6a6fc
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 0e7778f0a118280ef18c2ddb61a1c0b0ee7b2452
 ms.contentlocale: fr-ch
 ms.lasthandoff: 03/22/2018
 
@@ -36,7 +36,7 @@ Pour plus d'informations, voir [Expériences de comptable dans Business Central 
 ## <a name="using-the-extension"></a>Utilisation de l'extension
 Cette extension sera désapprouvée dans quelques mois. Nous vous recommandons de ne pas installer cette extension mais de vous inscrire à [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] à l'adresse [Financials pour comptables sur Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants) à la place.
 
-Pour plus d'informations, consultez [Bienvenue dans Dynamics 365 — Accountant Hub](/dynamics365/accountants/index.md).  
+Pour plus d'informations, consultez [Bienvenue dans Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).  
 
 ## <a name="see-also"></a>Voir aussi
 [Expériences de comptables dans Business Central](finance-accounting.md)  

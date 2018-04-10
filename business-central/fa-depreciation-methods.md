@@ -13,8 +13,8 @@ ms.search.keywords: write down
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 25509535a04f94c00bf8ea123e36898d4eb20eb8
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: ebee0f94a64fcb6d3a86a7fe1808fdb643371cfd
 ms.contentlocale: fr-ch
 ms.lasthandoff: 03/22/2018
 
@@ -31,11 +31,11 @@ Huit méthodes d'amortissement sont disponibles :
 * Manuel  
 
   > [!NOTE]  
->   Utilisez cette méthode pour les immobilisations qui ne font pas l'objet d'un amortissement, par exemple les terrains. Vous devez saisir l'amortissement dans la feuille validation immobilisation. Le traitement par lots **Calculer amortissement** ignore les immobilisations qui utilisent cette méthode d'amortissement.  
+  >   Utilisez cette méthode pour les immobilisations qui ne font pas l'objet d'un amortissement, par exemple les terrains. Vous devez saisir l'amortissement dans la feuille validation immobilisation. Le traitement par lots **Calculer amortissement** ignore les immobilisations qui utilisent cette méthode d'amortissement.  
 * Règle de la demi-année  
 
   > [!NOTE]  
->    Lorsque vous utilisez cette méthode, le montant de l'amortissement d'une immobilisation ne varie pas d'une année à l'autre.  
+  >    Lorsque vous utilisez cette méthode, le montant de l'amortissement d'une immobilisation ne varie pas d'une année à l'autre.  
 
 ## <a name="straight-line-depreciation"></a>Amortissement linéaire
 Lorsque vous utilisez la méthode linéaire, vous devez indiquer l'une des options suivantes dans la loi d'amortissement immobilisation :  
@@ -352,9 +352,9 @@ Lorsque vous saisissez une écriture pour A1 dans la feuille validation immobili
 >   Vous ne pouvez pas utiliser la même souche de numéros dans la feuille validation immobilisation et la feuille immobilisation. Lorsque vous validez des écritures dans la feuille validation immobilisation, vous devez laisser le champ **N° document** vide. Si vous saisissez un numéro dans le champ, il est copié dans la feuille immobilisation. Vous devez modifier manuellement le numéro de document avant de pouvoir valider la feuille.  
 
 ## <a name="see-also"></a>Voir aussi
-[Immobilisations](fa-manage.md)  
+[COMPTES D'IMMOBILISATIONS](fa-manage.md)  
 [Paramétrage d'immobilisations](fa-setup.md)  
 [Finances](finance.md)  
-[Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Mise en route](product-get-started.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

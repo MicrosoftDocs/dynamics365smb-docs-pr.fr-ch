@@ -13,8 +13,8 @@ ms.search.keywords: forecast
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b2a1b634a96422ea48ee75b037c3292021513bce
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: d83a40c2abf1cfb30d8666a620327b8d6e8a7ebe
 ms.contentlocale: fr-ch
 ms.lasthandoff: 03/22/2018
 
@@ -58,9 +58,9 @@ Vous pouvez utiliser l'état **Immo. - Valeur projetée** pour calculer l'amorti
 5. Cliquez sur le bouton **Imprimer** ou **Aperçu**.
 
 ## <a name="see-also"></a>Voir aussi
-[Immobilisations](fa-manage.md)  
+[COMPTES D'IMMOBILISATIONS](fa-manage.md)  
 [Paramétrage d'immobilisations](fa-setup.md)  
 [Finances](finance.md)  
-[Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Mise en route](product-get-started.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

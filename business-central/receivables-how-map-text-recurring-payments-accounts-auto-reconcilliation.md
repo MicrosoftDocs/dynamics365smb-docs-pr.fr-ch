@@ -11,8 +11,8 @@ ms.search.keywords: account linking, direct payment posting, automatic payment p
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e63e4c5c7c887b57144212e36ecbe789f2372986
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 3a7b7d9921c1cdc4a0024a3ee8208798d00e0701
 ms.contentlocale: fr-ch
 ms.lasthandoff: 03/22/2018
 
@@ -56,7 +56,7 @@ Pour toujours valider les frais de carburant encourus aux stations service Shell
 | Shell |VIDE |8510 |Compte général |VIDE |
 
 > [!TIP]  
->   Pour plus d'informations sur l'utilisation des champs et des colonnes, reportez-vous à [Utilisation de [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md). Pour plus d'informations sur la recherche de pages spécifiques, reportez-vous à [Rechercher](ui-search.md).
+>   Pour plus d'informations sur l'utilisation des champs et des colonnes, voir [Utilisation de [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md). Pour plus d'informations sur la recherche de pages spécifiques, voir [Rechercher](ui-search.md).
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion des comptes client](receivables-manage-receivables.md)  

@@ -8,11 +8,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 03/12/2018
+ms.date: 03/22/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7d41317f1f5e071c70dfd5ae265b046b3bea4825
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: f669e4b4dd43a6ac32fafc0dc1e408e1b87be98b
 ms.contentlocale: fr-ch
 ms.lasthandoff: 03/22/2018
 
@@ -25,7 +25,7 @@ Par exemple, votre plan comptable est prérempli avec un certain nombre de compt
 À partir de votre tableau de bord, vous pouvez accéder aux guides de configuration assistée qui vous permettent de configurer certains scénarios et d'ajouter des fonctionnalités à [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations sur l'accès à toutes les fenêtres de paramétrage aidées et manuelles, voir [Préparation aux activités commerciales](ui-get-ready-business.md).
 
 > [!NOTE]
-> Vous pouvez configurer une nouvelle société dans [!INCLUDE[d365fin](includes/d365fin_md.md)] avec RapidStart Services, qui est un outil conçu pour réduire les temps de déploiement, améliorer la qualité de l’implémentation, présenter une approche reproductible des implémentations et augmenter la productivité en automatisant et en simplifiant des tâches récurrentes. Pour plus d'informations, voir ## [Configuration d'une société avec RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
+> Vous pouvez configurer une nouvelle société dans [!INCLUDE[d365fin](includes/d365fin_md.md)] avec RapidStart Services, qui est un outil conçu pour réduire les temps de déploiement, améliorer la qualité de l’implémentation, présenter une approche reproductible des implémentations et augmenter la productivité en automatisant et en simplifiant des tâches récurrentes. Pour plus d'informations, voir [Configuration d'une société avec RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
 Certaines fonctionnalités (générales ou pour des processus d'entreprise spécifiques), peuvent être créées manuellement en plus de la configuration assistée. Voici une partie des fonctionnalités qui vous pouvez paramétrer manuellement.
 
@@ -59,9 +59,9 @@ Certaines zones nécessitent que vous soyez un administrateur dans votre abonnem
 [Production](production-manage-manufacturing.md)  
 [Gestion d’entrepôt](warehouse-manage-warehouse.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Configuration et administration dans [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-setup-and-administration.md)  
+[Administration](admin-setup-and-administration.md)  
 [Création de sociétés dans [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)  
-[Bienvenue dans [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
+[Mise en route](product-get-started.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
 ## [!INCLUDE[d365fin](includes/training_link_md.md)]

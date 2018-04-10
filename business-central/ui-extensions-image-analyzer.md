@@ -12,8 +12,8 @@ ms.search.keywords: API, extension, Cognitive Services, image, computer vision, 
 ms.date: 06/19/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e075aedde1bd52a6b852fd92e419aca11367b742
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: b767588b4dae6953371e112fd4e8e5cd4af7b1e0
 ms.contentlocale: fr-ch
 ms.lasthandoff: 03/22/2018
 
@@ -94,5 +94,5 @@ Vous pouvez afficher le nombre d'analyses effectué, et le nombre restant, pour 
 ## <a name="see-also"></a>Voir aussi
 [Utiliser les attributs d'article](inventory-how-work-item-attributes.md)  
 [Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md)  
-[Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Mise en route](product-get-started.md)  
 

@@ -12,8 +12,8 @@ ms.workload: na
 ms.date: 03/02/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0ce84903f1273540e744006cc3b042e12113ab5c
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 26729b9ced13d6727437db91d464d7a42907b0a1
 ms.contentlocale: fr-ch
 ms.lasthandoff: 03/22/2018
 
@@ -45,7 +45,7 @@ Le tableau suivant répertorie certaines des fonctionnalités générales et inc
 |Visionnez des vidéos sur la fonctionnalité sélectionnée pour vous aider à commencer.|[Vidéos sur les tâches courantes](across-videos.md)|  
 
 ## <a name="see-also"></a>Voir aussi
-[Mise en route](index.md)  
+[Mise en route](product-get-started.md)  
 [Configuration de Business Central](setup.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)  
 

@@ -8,11 +8,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 03/08/2018
+ms.date: 03/16/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 602c429733104a792a49f4a7f38e2a3090420c9d
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 6d350a064f134c4c29938005fea966dec7cca142
 ms.contentlocale: fr-ch
 ms.lasthandoff: 03/22/2018
 
@@ -36,7 +36,7 @@ Tous les ensembles d’autorisations qui sont affectés à l’utilisateur sont 
 4. Sur le raccourci **Ensembles d'autorisations utilisateur**, renseignez les champs, le cas échéant sur une nouvelle ligne. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-group-users-in-user-groups"></a>Pour regrouper des utilisateurs dans des groupes d'utilisateurs
-Vous pouvez définir des groupes d'utilisateurs pour vous aider à gérer les ensembles d'autorisations pour des groupes d'utilisateurs de votre société. Vous pouvez utiliser une fonction pour copier tous les ensembles d'autorisations d'un groupe d'utilisateurs existant vers un nouveau groupe d'utilisateurs. Les membres du groupe d'utilisateurs ne sont pas copiés.
+Vous pouvez définir des groupes d'utilisateurs pour vous aider à gérer les ensembles d'autorisations pour des groupes d'utilisateurs de votre société.
 
 1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Utilisateurs**, puis sélectionnez le lien connexe.
 2. Sinon, dans la fenêtre **Utilisateurs**, sélectionnez l'option **Groupes d'utilisateurs**.
@@ -44,6 +44,17 @@ Vous pouvez définir des groupes d'utilisateurs pour vous aider à gérer les en
 6. Dans la fenêtre **Membres du groupe d'utilisateurs**, sélectionnez l'action **Ajouter utilisateurs**.
 7. Pour ajouter de nouveaux ensembles d'autorisations ou des ensembles d'autorisations supplémentaires, dans la fenêtre **Groupes d'utilisateurs**, cliquez sur **Ensembles d'autorisations groupe d'utilisateurs**.
 8. Dans la fenêtre **Ensembles d'autorisations groupe d'utilisateurs**, dans une nouvelle ligne, renseignez les champs selon vos besoins en sélectionnant parmi des ensembles d’autorisations existants.
+
+## <a name="to-copy-a-user-group-and-all-its-permission-sets"></a>Pour copier un groupe d'utilisateurs et tous ses ensembles d'autorisations
+Pour définir rapidement un nouveau groupe d'utilisateurs, vous pouvez copier tous les ensembles d'autorisations d'un groupe d'utilisateurs existant vers un nouveau groupe d'utilisateurs.
+
+Les membres du groupe d'utilisateurs ne sont pas copié vers le nouveau groupe d'utilisateurs. Vous devez les ajouter manuellement ensuite.
+
+1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Utilisateurs**, puis sélectionnez le lien connexe.
+2. Sélectionnez le groupe d'utilisateurs à partir duquel vous souhaitez copier, puis choisissez l'action **Copier groupe d'utilisateurs**.
+3. Dans le champ **Nouveau code du groupe d'utilisateurs**, spécifiez le nom du nouveau groupe, puis cliquez sur le bouton **OK**.
+
+Le nouveau groupe d'utilisateurs est ajouté à la fenêtre **Groupes d'utilisateurs**. Ajoutez ensuite des utilisateurs. Pour plus d'informations, reportez-vous à la section « Pour regrouper des utilisateurs dans des groupes d'utilisateurs ».
 
 ## <a name="to-set-up-user-time-constraints"></a>Pour configurer des contraintes de temps utilisateur
 Les administrateurs peuvent définir les périodes de temps pendant lesquelles les utilisateurs spécifiés peuvent valider, et spécifier également si le système enregistre la durée pendant laquelle les utilisateurs spécifiés ont ouvert une session. Les administrateurs peuvent également affecter des centres de gestion à des utilisateurs. Pour plus d'informations, voir [Utiliser les centres de gestion](inventory-responsibility-centers.md).
@@ -55,7 +66,7 @@ Les administrateurs peuvent définir les périodes de temps pendant lesquelles l
 
 ## <a name="see-also"></a>Voir aussi
 [Préparation aux activités commerciales](ui-get-ready-business.md)  
-[Configuration et administration dans [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-setup-and-administration.md)  
-[Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Administration](admin-setup-and-administration.md)  
+[Mise en route](product-get-started.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

@@ -13,8 +13,8 @@ ms.search.keywords: policy, coverage
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 076fdb197a2fef45f67d4c2738eaac0503c91e51
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: ed03191f683b1b1f9f60351712d51b97ad53e98e
 ms.contentlocale: fr-ch
 ms.lasthandoff: 03/22/2018
 
@@ -59,8 +59,8 @@ Vous pouvez définir des feuilles dans un modèle feuille assurance. Les valeurs
 
 ## <a name="see-also"></a>Voir aussi
 [Paramétrage d'immobilisations](fa-setup.md)  
-[Immobilisations](fa-manage.md)  
+[COMPTES D'IMMOBILISATIONS](fa-manage.md)  
 [Finances](finance.md)  
-[Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Mise en route](product-get-started.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

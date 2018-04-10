@@ -12,8 +12,8 @@ ms.workload: na
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5dd885d32c0ca08bdf51770669ee569c3a7a98ed
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 1127c2d485ae72cc3cb27860a6189f7657756e06
 ms.contentlocale: fr-ch
 ms.lasthandoff: 03/22/2018
 
@@ -34,7 +34,7 @@ L'actualisation permet d'ajuster plusieurs valeurs immobilisation, par exemple, 
 4. Sélectionnez l'action **Insérer contrepartie immo.**. Une seconde ligne feuille est créée pour le compte contrepartie qui est configuré pour la validation de la réévaluation.
 
     > [!NOTE]  
->   L'étape 4 ne fonctionne que si vous avez configuré ce qui suit : dans la fenêtre **Fiche groupe compta. immo.** pour le groupe de validation de l'immobilisation, le champ **Compte réévaluation** contient le compte débit général et le champ **Compte contrepartie réévaluation** contient le compte général auquel vous souhaitez valider les écritures contrepartie pour réévaluation. Pour en savoir plus, voir la section « Pour configurer des groupes de validation d'immobilisation » dans [Configurer des informations d'immobilisation générales pour les immobilisations](fa-how-setup-general.md).  
+    >   L'étape 4 ne fonctionne que si vous avez configuré ce qui suit : dans la fenêtre **Fiche groupe compta. immo.** pour le groupe de validation de l'immobilisation, le champ **Compte réévaluation** contient le compte débit général et le champ **Compte contrepartie réévaluation** contient le compte général auquel vous souhaitez valider les écritures contrepartie pour réévaluation. Pour en savoir plus, voir la section « Pour configurer des groupes de validation d'immobilisation » dans [Configurer des informations d'immobilisation générales pour les immobilisations](fa-how-setup-general.md).  
 5. Sélectionnez l'action **Valider**.
 
 ## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>Pour valider une dépréciation à partir d'une feuille comptabilisation immobilisation
@@ -44,7 +44,7 @@ L'actualisation permet d'ajuster plusieurs valeurs immobilisation, par exemple, 
 4. Sélectionnez l'action **Insérer contrepartie immo.**. Une seconde ligne feuille est créée pour le compte contrepartie qui est configuré pour la validation de la dépréciation.
 
     > [!NOTE]  
->   L'étape 4 ne fonctionne que si vous avez configuré ce qui suit : dans la fenêtre **Fiche groupe compta. immo.** pour le groupe de validation de l'immobilisation, le champ **Compte dépréciation** contient le compte crédit général et le champ **Compte dépense dépréciation** contient le compte général auquel vous souhaitez valider les écritures contrepartie pour dépréciation. Pour en savoir plus, voir la section « Pour configurer des groupes de validation d'immobilisation » dans [Configurer des informations d'immobilisation générales pour les immobilisations](fa-how-setup-general.md).
+    >   L'étape 4 ne fonctionne que si vous avez configuré ce qui suit : dans la fenêtre **Fiche groupe compta. immo.** pour le groupe de validation de l'immobilisation, le champ **Compte dépréciation** contient le compte crédit général et le champ **Compte dépense dépréciation** contient le compte général auquel vous souhaitez valider les écritures contrepartie pour dépréciation. Pour en savoir plus, voir la section « Pour configurer des groupes de validation d'immobilisation » dans [Configurer des informations d'immobilisation générales pour les immobilisations](fa-how-setup-general.md).
 5. Sélectionnez l'action **Valider**.
 
 ## <a name="to-perform-general-revaluation-of-fixed-assets"></a>Pour exécuter une réévaluation générale des immobilisations
@@ -60,10 +60,10 @@ L'actualisation permet d'ajuster plusieurs valeurs immobilisation, par exemple, 
 6. Vérifiez les écritures créées, puis sélectionnez l'action **Valider** pour valider la feuille.
 
     > [!TIP]  
->   Si les taux de réévaluation sont définis uniquement pour une simulation, vous pouvez créer une loi d'amortissement spécifique pour les stocker. Ainsi, ces écritures n'affectent aucune autre loi d'amortissement.
+    >   Si les taux de réévaluation sont définis uniquement pour une simulation, vous pouvez créer une loi d'amortissement spécifique pour les stocker. Ainsi, ces écritures n'affectent aucune autre loi d'amortissement.
 
-   ## <a name="to-post-additional-acquisition-costs"></a>Pour valider les coûts d'acquisition supplémentaires
-   Vous pouvez valider le coût d'acquisition supplémentaire d'une immobilisation de la même manière que son coût d'acquisition d'origine : à partir d'une facture achat ou d'une feuille immobilisation. Pour en savoir plus, voir [Acquérir des immobilisations](fa-how-acquire.md).  
+## <a name="to-post-additional-acquisition-costs"></a>Pour valider les coûts d'acquisition supplémentaires
+Vous pouvez valider le coût d'acquisition supplémentaire d'une immobilisation de la même manière que son coût d'acquisition d'origine : à partir d'une facture achat ou d'une feuille immobilisation. Pour en savoir plus, voir [Acquérir des immobilisations](fa-how-acquire.md).  
 
 Si l'amortissement de l'immobilisation a été calculé, cochez la case **Amortir coût acquisition** pour que le résultat du coût d'acquisition supplémentaire moins la valeur résiduelle soit amorti proportionnellement au montant de l'amortissement de l'immobilisation précédemment acquise. Cette option garantit l'invariabilité de la période d'amortissement.  
 
@@ -117,9 +117,9 @@ Si vous n'avez pas coché la case **Amort. jusqu'à date compta.**, l'actif perd
 *Amortissement total = 100 + 15 + 55,54 = 170,54*
 
 ## <a name="see-also"></a>Voir aussi
-[Immobilisations](fa-manage.md)  
+[COMPTES D'IMMOBILISATIONS](fa-manage.md)  
 [Paramétrage d'immobilisations](fa-setup.md)  
 [Finances](finance.md)  
-[Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Mise en route](product-get-started.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

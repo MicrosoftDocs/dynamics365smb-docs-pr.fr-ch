@@ -10,11 +10,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 03/02/2018
+ms.date: 03/20/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: eb0b77de0be1ac9d86750bf406f0ef2a6e9770df
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: fe75b81e2eae2520c6952cf1751ee4259eb3fb68
 ms.contentlocale: fr-ch
 ms.lasthandoff: 03/22/2018
 
@@ -28,6 +28,7 @@ Le tableau suivant répertorie ces secteurs d'activité généraux avec des lien
 
 | À | Voir |
 | --- | --- |
+|Affichez les documents ouverts, validés ou archivés qui sont liés aux ventes et aux lignes commande achat.|[Suivre des lignes document](across-how-to-track-document-lines.md)|
 | Communiquer le contenu des documents commerciaux rapidement à vos partenaires commerciaux, comme les informations de paiement sur les documents vente aux clients. |[Envoi de documents par e-mail](ui-how-send-documents-email.md) |
 | Définir des codes texte standard de façon à étendre le texte standard en ajoutant des lignes supplémentaires et définir des conditions d'utilisation des lignes supplémentaires. |[Définition du texte étendu](ui-how-define-ext-text.md) |
 |Créez des tâches pour vous rappeler le travail à faire. Vous pouvez créer des tâches pour vous-même, mais vous pouvez également affecter des tâches à d'autres personne ou avoir une tâche affectée à vous-même par une autre personne de votre organisation.|[Définition des tâches utilisateur](across-user-tasks.md)|
