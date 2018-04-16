@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: b1a8eb26783b7e93e9afe04b13298972af83175d
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: cd03233b872773b95119ab8ec42c85c539122e82
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="work-with-responsibility-centers"></a><span data-ttu-id="cc9f2-104">Utiliser les centres de gestion</span><span class="sxs-lookup"><span data-stu-id="cc9f2-104">Work with Responsibility Centers</span></span>
@@ -29,11 +29,11 @@ ms.lasthandoff: 03/22/2018
 <span data-ttu-id="cc9f2-117">Les centres de gestion élargissent la fonction de magasins multiples en permettant aux utilisateurs de gérer les centres administratifs.</span><span class="sxs-lookup"><span data-stu-id="cc9f2-117">Responsibility centers extends the multiple locations functionality by providing users the ability to handle administrative centers.</span></span> <span data-ttu-id="cc9f2-118">Un centre de gestion peut être un centre de coûts, une centre de profit, un centre d'investissement ou tout autre centre administratif défini par la société.</span><span class="sxs-lookup"><span data-stu-id="cc9f2-118">A responsibility center can be a cost center, a profit center, an investment center, or other company-defined administrative center.</span></span> <span data-ttu-id="cc9f2-119">Un bureau de vente, un département d'achat pour plusieurs emplacements, un bureau de planification d'usine, etc. sont des exemples de centres de gestion.</span><span class="sxs-lookup"><span data-stu-id="cc9f2-119">Examples of responsibility centers are a sales office, a purchasing department for several locations, and a plant planning office.</span></span> <span data-ttu-id="cc9f2-120">Par exemple, cette fonctionnalité permet aux sociétés de paramétrer des vues spécifiques à l'utilisateur des documents vente et achat associés exclusivement à un centre de gestion particulier.</span><span class="sxs-lookup"><span data-stu-id="cc9f2-120">Using this functionality, for example, companies can set up user-specific views of sales and purchase documents related exclusively to a particular responsibility center.</span></span>
 
 ## <a name="to-set-up-a-responsibility-center"></a><span data-ttu-id="cc9f2-121">Pour configurer un centre de gestion</span><span class="sxs-lookup"><span data-stu-id="cc9f2-121">To set up a responsibility center</span></span>  
-1.  <span data-ttu-id="cc9f2-122">Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Centres de gestion**, puis sélectionnez le lien connexe.</span><span class="sxs-lookup"><span data-stu-id="cc9f2-122">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Responsibility Centers**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="cc9f2-123">Sélectionnez l'action **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="cc9f2-123">Choose the **New** action.</span></span>  
-3.  <span data-ttu-id="cc9f2-124">Renseignez les champs selon vos besoins.</span><span class="sxs-lookup"><span data-stu-id="cc9f2-124">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. <span data-ttu-id="cc9f2-122">Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Centres de gestion**, puis sélectionnez le lien connexe.</span><span class="sxs-lookup"><span data-stu-id="cc9f2-122">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Responsibility Centers**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="cc9f2-123">Sélectionnez l'action **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="cc9f2-123">Choose the **New** action.</span></span>  
+3. <span data-ttu-id="cc9f2-124">Renseignez les champs selon vos besoins.</span><span class="sxs-lookup"><span data-stu-id="cc9f2-124">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-    <span data-ttu-id="cc9f2-125">Si vous utilisez des centres de gestion pour administrer votre société, il peut être utile de définir un centre de gestion par défaut pour votre société.</span><span class="sxs-lookup"><span data-stu-id="cc9f2-125">If you are using responsibility centers to administer your company, it can be useful to have a default responsibility center for your company.</span></span>
+   <span data-ttu-id="cc9f2-125">Si vous utilisez des centres de gestion pour administrer votre société, il peut être utile de définir un centre de gestion par défaut pour votre société.</span><span class="sxs-lookup"><span data-stu-id="cc9f2-125">If you are using responsibility centers to administer your company, it can be useful to have a default responsibility center for your company.</span></span>
 4. <span data-ttu-id="cc9f2-126">Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Informations société**, puis sélectionnez le lien connexe.</span><span class="sxs-lookup"><span data-stu-id="cc9f2-126">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Company Information**, and then choose the related link.</span></span>
 5. <span data-ttu-id="cc9f2-127">Dans le champ **Centre de gestion**, entrez un code centre de gestion.</span><span class="sxs-lookup"><span data-stu-id="cc9f2-127">In the **Responsibility Center** field, enter a responsibility center code.</span></span>
 

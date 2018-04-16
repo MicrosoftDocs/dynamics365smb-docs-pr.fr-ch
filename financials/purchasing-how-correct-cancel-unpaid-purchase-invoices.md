@@ -13,10 +13,10 @@ ms.search.keywords: undo, credit memo, return
 ms.date: 08/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 41f82da76989cd0e9367b4f19b69546304c6de6d
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: f7d9b5ef0192f0d66d50d4ba51f6e2c4d12a89f5
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="correct-or-cancel-unpaid-purchase-invoices"></a><span data-ttu-id="d2608-103">Corriger ou annuler des factures achat impayées</span><span class="sxs-lookup"><span data-stu-id="d2608-103">Correct or Cancel Unpaid Purchase Invoices</span></span>
@@ -31,7 +31,7 @@ ms.lasthandoff: 03/22/2018
 2. <span data-ttu-id="d2608-115">Sélectionnez la facture achat validée à corriger.</span><span class="sxs-lookup"><span data-stu-id="d2608-115">Select the posted purchase invoice that you want to correct.</span></span>  
 
     > [!NOTE]  
->   <span data-ttu-id="d2608-116">Si la case à cocher **Annulé** est activée, vous ne pouvez pas corriger la facture achat validée car elle l'a déjà été, ou a été annulée.</span><span class="sxs-lookup"><span data-stu-id="d2608-116">If the **Canceled** check box is selected, then you cannot correct the posted purchase invoice because it has already been corrected or canceled.</span></span>
+   >   <span data-ttu-id="d2608-116">Si la case à cocher **Annulé** est activée, vous ne pouvez pas corriger la facture achat validée car elle l'a déjà été, ou a été annulée.</span><span class="sxs-lookup"><span data-stu-id="d2608-116">If the **Canceled** check box is selected, then you cannot correct the posted purchase invoice because it has already been corrected or canceled.</span></span>
 3. <span data-ttu-id="d2608-117">Dans la fenêtre **Facture achat enregistrée** sélectionnez **Corriger**.</span><span class="sxs-lookup"><span data-stu-id="d2608-117">In the **Posted Purchase Invoice** window, choose **Correct**.</span></span>
 
     <span data-ttu-id="d2608-118">Une nouvelle facture achat avec les mêmes informations et dans laquelle vous pouvez apporter une correction est créée.</span><span class="sxs-lookup"><span data-stu-id="d2608-118">A new purchase invoice with the same information is created where you can make the correction.</span></span> <span data-ttu-id="d2608-119">Pour plus d'informations, voir [Enregistrer des achats](purchasing-how-record-purchases.md).</span><span class="sxs-lookup"><span data-stu-id="d2608-119">For more information, see [Record Purchases](purchasing-how-record-purchases.md).</span></span> <span data-ttu-id="d2608-120">La valeur du champ **Annulé** de la facture achat validée initiale devient **Oui**.</span><span class="sxs-lookup"><span data-stu-id="d2608-120">The **Canceled** field on the initial posted purchase invoice is changed to **Yes**.</span></span>
@@ -44,7 +44,7 @@ ms.lasthandoff: 03/22/2018
 2. <span data-ttu-id="d2608-125">Sélectionnez la facture achat validée à annuler.</span><span class="sxs-lookup"><span data-stu-id="d2608-125">Select the posted purchase invoice that you want to cancel.</span></span>
 
     > [!NOTE]  
->   <span data-ttu-id="d2608-126">Si la case à cocher **Annulé** est activée, vous ne pouvez pas annuler la facture achat validée car elle l'a déjà été, ou a été corrigée.</span><span class="sxs-lookup"><span data-stu-id="d2608-126">If the **Canceled** check box is selected, then you cannot cancel the posted purchase invoice because it has already been canceled or corrected.</span></span>
+   >   <span data-ttu-id="d2608-126">Si la case à cocher **Annulé** est activée, vous ne pouvez pas annuler la facture achat validée car elle l'a déjà été, ou a été corrigée.</span><span class="sxs-lookup"><span data-stu-id="d2608-126">If the **Canceled** check box is selected, then you cannot cancel the posted purchase invoice because it has already been canceled or corrected.</span></span>
 3. <span data-ttu-id="d2608-127">Dans la fenêtre **Facture achat enregistrée** sélectionnez **Annuler**.</span><span class="sxs-lookup"><span data-stu-id="d2608-127">In the **Posted Purchase Invoice** window, choose **Cancel**.</span></span>
 
     <span data-ttu-id="d2608-128">Un avoir achat est automatiquement créé et validé pour annuler la facture achat validée initiale.</span><span class="sxs-lookup"><span data-stu-id="d2608-128">A purchase credit memo is automatically created and posted to void the initial posted purchase invoice.</span></span> <span data-ttu-id="d2608-129">La valeur du champ **Annulé** de la facture achat validée initiale devient **Oui**.</span><span class="sxs-lookup"><span data-stu-id="d2608-129">The **Canceled** field on the initial posted purchase invoice is changed to **Yes**.</span></span>

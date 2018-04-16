@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 9d4f8d21d0c79adbac238b2d26accc4c08656c77
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: c736ad945453d0723581b9926e2dc50f7805a53f
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="create-service-quotes"></a><span data-ttu-id="a5173-104">Pour créer des devis service</span><span class="sxs-lookup"><span data-stu-id="a5173-104">Create Service Quotes</span></span>
@@ -30,8 +30,8 @@ ms.lasthandoff: 03/22/2018
 3. <span data-ttu-id="a5173-112">Dans le champ **N°**,</span><span class="sxs-lookup"><span data-stu-id="a5173-112">In the **No.**</span></span> <span data-ttu-id="a5173-113">saisissez le numéro du devis service.</span><span class="sxs-lookup"><span data-stu-id="a5173-113">field, enter a number for the service quote.</span></span> <span data-ttu-id="a5173-114">Si vous avez configuré une souche de numéros pour les devis service dans la fenêtre **Paramètres Gestion des services,** vous pouvez appuyer sur Entrée pour renseigner le numéro devis service suivant.</span><span class="sxs-lookup"><span data-stu-id="a5173-114">Alternatively, if you have set up a number series for service quotes in the **Service Mgt. Setup** window, you can press Enter to select the next available service quote number.</span></span>  
 4. <span data-ttu-id="a5173-115">Dans le champ **N° client**,</span><span class="sxs-lookup"><span data-stu-id="a5173-115">In the **Customer No.**</span></span>  <span data-ttu-id="a5173-116">sélectionnez le client approprié dans la liste.</span><span class="sxs-lookup"><span data-stu-id="a5173-116">field, select the relevant customer from the list.</span></span>  
 
-  > [!Note]  
-  >  <span data-ttu-id="a5173-117">Les champs de client sont automatiquement renseignés avec les informations de la fiche **Client**.</span><span class="sxs-lookup"><span data-stu-id="a5173-117">The customer fields are filled in automatically with information from the **Customer** card.</span></span> <span data-ttu-id="a5173-118">Si une fiche **Client** n'existe pas pour le client et que vous avez configuré un modèle client, vous pouvez créer le client à partir du devis service.</span><span class="sxs-lookup"><span data-stu-id="a5173-118">If a **Customer** card does not exist for the customer, and you have set up a customer template, you can create the customer from the service quote.</span></span> <span data-ttu-id="a5173-119">Renseignez les champs appropriés, puis choisissez l'action **Créer client**.</span><span class="sxs-lookup"><span data-stu-id="a5173-119">Fill in the relevant fields, and then choose the **Create Customer** action.</span></span>  
+   > [!Note]  
+   >  <span data-ttu-id="a5173-117">Les champs de client sont automatiquement renseignés avec les informations de la fiche **Client**.</span><span class="sxs-lookup"><span data-stu-id="a5173-117">The customer fields are filled in automatically with information from the **Customer** card.</span></span> <span data-ttu-id="a5173-118">Si une fiche **Client** n'existe pas pour le client et que vous avez configuré un modèle client, vous pouvez créer le client à partir du devis service.</span><span class="sxs-lookup"><span data-stu-id="a5173-118">If a **Customer** card does not exist for the customer, and you have set up a customer template, you can create the customer from the service quote.</span></span> <span data-ttu-id="a5173-119">Renseignez les champs appropriés, puis choisissez l'action **Créer client**.</span><span class="sxs-lookup"><span data-stu-id="a5173-119">Fill in the relevant fields, and then choose the **Create Customer** action.</span></span>  
   
 5. <span data-ttu-id="a5173-120">Selon les paramètres du raccourci **Champs obligatoires** de la fenêtre **Paramètres Gestion des services**, vous pouvez être amené à renseigner le champ **Type commande service** et le champ **Code vendeur**.</span><span class="sxs-lookup"><span data-stu-id="a5173-120">Depending on the settings on the **Mandatory Fields** FastTab in the **Service Mgt. Setup** window, you may need to fill in the **Service Order Type** field and the **Salesperson Code** field.</span></span>  
 6. <span data-ttu-id="a5173-121">Renseignez les lignes article de service.</span><span class="sxs-lookup"><span data-stu-id="a5173-121">Fill in the service item lines.</span></span>  

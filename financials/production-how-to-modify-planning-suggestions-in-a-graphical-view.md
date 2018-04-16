@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 9217d8707ab65d231a6759e86f6f2b2866835bb8
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 26e144490fb5b33449643fe67bede8a96bc6079c
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a><span data-ttu-id="64612-104">Modifier les propositions planning dans une vue graphique</span><span class="sxs-lookup"><span data-stu-id="64612-104">Modify Planning Suggestions in a Graphical View</span></span>
@@ -59,6 +59,7 @@ ms.lasthandoff: 03/22/2018
 <span data-ttu-id="64612-148">Pour appliquer les modifications du programme d'approvisionnement, vous devez suivre les messages d'action qui en résultent de la feuille planning ou demande achat.</span><span class="sxs-lookup"><span data-stu-id="64612-148">To implement the supply plan changes, you must follow the resulting action messages from the planning or requisition worksheet.</span></span> <span data-ttu-id="64612-149">Pour plus d'informations, voir Traiter msg. action - Planning.</span><span class="sxs-lookup"><span data-stu-id="64612-149">For more information, see Carry Out Action Msg.-Plan..</span></span>
 
 ## <a name="symbols-and-icons-on-the-timeline-fasttab"></a><span data-ttu-id="64612-150">Symboles et icônes sur le raccourci Chronologie</span><span class="sxs-lookup"><span data-stu-id="64612-150">Symbols and Icons on the Timeline FastTab</span></span>
+
  |<span data-ttu-id="64612-151">Symbole/icône</span><span class="sxs-lookup"><span data-stu-id="64612-151">Symbol/Icon</span></span>|<span data-ttu-id="64612-152">Désignation</span><span class="sxs-lookup"><span data-stu-id="64612-152">Description</span></span>|  
  |------------------|---------------------------------------|  
  |<span data-ttu-id="64612-153">Commandes avec</span><span class="sxs-lookup"><span data-stu-id="64612-153">Black cross</span></span>|<span data-ttu-id="64612-154">une croix noire (offre et demande).</span><span class="sxs-lookup"><span data-stu-id="64612-154">Orders (both supply and demand).</span></span><br /><br /> <span data-ttu-id="64612-155">-   Modification impossible.</span><span class="sxs-lookup"><span data-stu-id="64612-155">-   Cannot be modified.</span></span><br /><span data-ttu-id="64612-156">-   Visible lorsque le champ **Afficher le stock prévisionnel** est sélectionné (graphique orange).</span><span class="sxs-lookup"><span data-stu-id="64612-156">-   Visible when the **Show Projected Inventory** field is selected (orange graph).</span></span>|  

@@ -11,10 +11,10 @@ ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 310cad43853f347ac7ab74e186edd82e7c54727e
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 81a6c416b6f40db58a48daf67c7b62c9613bd953
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="collect-outstanding-balances"></a><span data-ttu-id="a7b8d-103">Collecte des soldes restants</span><span class="sxs-lookup"><span data-stu-id="a7b8d-103">Collect Outstanding Balances</span></span>
@@ -47,7 +47,7 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="to-send-the-customer-statement-report"></a><span data-ttu-id="a7b8d-136">Pour envoyer l’état du relevé client</span><span class="sxs-lookup"><span data-stu-id="a7b8d-136">To send the Customer Statement report</span></span>
 1. <span data-ttu-id="a7b8d-137">Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Relevé client**, puis sélectionnez le lien connexe.</span><span class="sxs-lookup"><span data-stu-id="a7b8d-137">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customer Statement**, and then choose the related link.</span></span>
-2. <span data-ttu-id="a7b8d-138">Renseignez les champs selon vos besoins.</span><span class="sxs-lookup"><span data-stu-id="a7b8d-138">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. <span data-ttu-id="a7b8d-138">Renseignez les champs selon vos besoins.</span><span class="sxs-lookup"><span data-stu-id="a7b8d-138">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. <span data-ttu-id="a7b8d-139">Dans **Options sortie**, sélectionnez la manière dont l'état est envoyé au client.</span><span class="sxs-lookup"><span data-stu-id="a7b8d-139">Under **Output Options**, select how to send the report to the customer.</span></span>
 
 > [!NOTE]  

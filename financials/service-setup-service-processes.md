@@ -13,10 +13,10 @@ ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, 
 ms.date: 08/22/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 87a18af2c88955d4d0b78eb37fea161e3332c4b3
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: ecda54c9aa622bb3abd8abd940d25a1666a32956
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="configure-service-processes"></a><span data-ttu-id="bd856-103">Configuration des processus de service</span><span class="sxs-lookup"><span data-stu-id="bd856-103">Configure Service Processes</span></span>
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="to-enter-general-and-mandatory-settings"></a><span data-ttu-id="bd856-112">Pour saisir les paramètres généraux et obligatoires</span><span class="sxs-lookup"><span data-stu-id="bd856-112">To enter general and mandatory settings</span></span>
 1. <span data-ttu-id="bd856-113">Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Paramètres services**, puis sélectionnez le lien connexe.</span><span class="sxs-lookup"><span data-stu-id="bd856-113">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Setup**, and then choose the related link.</span></span>
-2. <span data-ttu-id="bd856-114">Renseignez les champs selon vos besoins.</span><span class="sxs-lookup"><span data-stu-id="bd856-114">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. <span data-ttu-id="bd856-114">Renseignez les champs selon vos besoins.</span><span class="sxs-lookup"><span data-stu-id="bd856-114">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="see-also"></a><span data-ttu-id="bd856-115">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="bd856-115">See Also</span></span>  
 [<span data-ttu-id="bd856-116">Configurer le reporting panne</span><span class="sxs-lookup"><span data-stu-id="bd856-116">Set Up Fault Reporting</span></span>](service-how-setup-fault-reporting.md)  

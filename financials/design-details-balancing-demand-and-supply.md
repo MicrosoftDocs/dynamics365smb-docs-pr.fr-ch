@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: af9569114cfbe2d48be3a7514cc5c2bb48bd48ca
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 75b76e0079b9feb1c8265a248957179d62ea2536
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="design-details-balancing-demand-and-supply"></a><span data-ttu-id="bc70a-103">Détails de conception : équilibrage de la demande et de l'approvisionnement</span><span class="sxs-lookup"><span data-stu-id="bc70a-103">Design Details: Balancing Demand and Supply</span></span>
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/22/2018
 - <span data-ttu-id="bc70a-105">La demande sera satisfaite par une offre suffisante.</span><span class="sxs-lookup"><span data-stu-id="bc70a-105">Any demand will be met by sufficient supply.</span></span>  
 - <span data-ttu-id="bc70a-106">Tout approvisionnement répond à une finalité.</span><span class="sxs-lookup"><span data-stu-id="bc70a-106">Any supply serves a purpose.</span></span>  
 
- <span data-ttu-id="bc70a-107">En général, ces objectifs sont atteints en équilibrant l'approvisionnement avec la demande.</span><span class="sxs-lookup"><span data-stu-id="bc70a-107">Generally, these goals are achieved by balancing supply with demand.</span></span>  
+  <span data-ttu-id="bc70a-107">En général, ces objectifs sont atteints en équilibrant l'approvisionnement avec la demande.</span><span class="sxs-lookup"><span data-stu-id="bc70a-107">Generally, these goals are achieved by balancing supply with demand.</span></span>  
 
 ## <a name="in-this-section"></a><span data-ttu-id="bc70a-108">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="bc70a-108">In This Section</span></span>  
 [<span data-ttu-id="bc70a-109">Détails de conception : demande et approvisionnement</span><span class="sxs-lookup"><span data-stu-id="bc70a-109">Design Details: Demand and Supply</span></span>](design-details-demand-and-supply.md)  

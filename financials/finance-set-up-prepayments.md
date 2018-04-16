@@ -12,10 +12,10 @@ ms.search.keywords:
 ms.date: 15/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 66c5d81fd7c3517b42930f53b81e06a3583aeb3d
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: c0cf2dd3e7b8dc4830dc333a5d0f5550bb22a51b
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="set-up-prepayments"></a><span data-ttu-id="f1753-106">Configuration des acomptes</span><span class="sxs-lookup"><span data-stu-id="f1753-106">Set Up Prepayments</span></span>
@@ -59,7 +59,7 @@ ms.lasthandoff: 03/22/2018
 
 1. <span data-ttu-id="f1753-138">Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Articles**, puis sélectionnez le lien connexe.</span><span class="sxs-lookup"><span data-stu-id="f1753-138">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.</span></span>
 2. <span data-ttu-id="f1753-139">Sélectionnez un article, puis cliquez sur l'action **Pourcentages acompte**.</span><span class="sxs-lookup"><span data-stu-id="f1753-139">Select an item, and then choose the **Prepayment Percentages** action.</span></span>  
-3. <span data-ttu-id="f1753-140">Dans la fenêtre **Pourcentages acompte vente**, renseignez autant de champs que nécessaire.</span><span class="sxs-lookup"><span data-stu-id="f1753-140">In the **Sales Prepayment Percentages** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="f1753-140">Dans la fenêtre **Pourcentages acompte vente**, renseignez autant de champs que nécessaire.</span><span class="sxs-lookup"><span data-stu-id="f1753-140">In the **Sales Prepayment Percentages** window, fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 <span data-ttu-id="f1753-141">Pour un client ou un fournisseur, vous pouvez configurer un pourcentage d'acompte par défaut pour tous les articles et tous les types de lignes vente.</span><span class="sxs-lookup"><span data-stu-id="f1753-141">For a customer or vendor, you can set up one default prepayment percentage for all items and all types of sales lines.</span></span> <span data-ttu-id="f1753-142">Vous entrez cette valeur dans la fiche client ou fournisseur.</span><span class="sxs-lookup"><span data-stu-id="f1753-142">You enter this on the customer or vendor card.</span></span>
 

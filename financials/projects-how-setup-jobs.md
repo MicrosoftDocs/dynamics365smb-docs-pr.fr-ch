@@ -13,10 +13,10 @@ ms.search.keywords: project management
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 2c57b2bd4b4c99373d4ce16905fbf626e549bc1f
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 534c52c5fa47f007f72839408cdfa6df204b6bdb
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="set-up-jobs"></a><span data-ttu-id="a3dbc-103">Configuration de projets</span><span class="sxs-lookup"><span data-stu-id="a3dbc-103">Set Up Jobs</span></span>
@@ -26,7 +26,7 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="to-set-general-information-for-jobs"></a><span data-ttu-id="a3dbc-106">Pour configurer des informations générales pour les projets</span><span class="sxs-lookup"><span data-stu-id="a3dbc-106">To set general information for jobs</span></span>
 1. <span data-ttu-id="a3dbc-107">Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Paramètres projets**, puis choisissez le lien associé.</span><span class="sxs-lookup"><span data-stu-id="a3dbc-107">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs Setup**, and then choose the related link.</span></span>
-2. <span data-ttu-id="a3dbc-108">Renseignez les champs selon vos besoins.</span><span class="sxs-lookup"><span data-stu-id="a3dbc-108">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. <span data-ttu-id="a3dbc-108">Renseignez les champs selon vos besoins.</span><span class="sxs-lookup"><span data-stu-id="a3dbc-108">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
 >   <span data-ttu-id="a3dbc-109">La case à cocher **Appliquer le lien d'utilisation** est assez complexe et est donc expliquée dans la section suivante.</span><span class="sxs-lookup"><span data-stu-id="a3dbc-109">The **Apply Usage Link** check box is rather complex and is therefore explained in the following section.</span></span>

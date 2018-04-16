@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 61ad86f72f86cd9f6e1667dac445bfaa930d339f
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: ec586482ca074a11183a53faf7368ed357a21355
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="set-up-base-calendars"></a><span data-ttu-id="2ae12-104">Configurer des calendriers principaux</span><span class="sxs-lookup"><span data-stu-id="2ae12-104">Set Up Base Calendars</span></span>
@@ -106,12 +106,12 @@ ms.lasthandoff: 03/22/2018
 2.  <span data-ttu-id="2ae12-178">Ouvrez la fiche **Client** pour laquelle vous allez affecter un calendrier principal.</span><span class="sxs-lookup"><span data-stu-id="2ae12-178">Open the **Customer** card for whom you will assign a base calendar.</span></span>  
 3.  <span data-ttu-id="2ae12-179">Sur le raccourci **Expédition**, dans le champ **Code calendrier principal**, sélectionnez le calendrier principal à affecter.</span><span class="sxs-lookup"><span data-stu-id="2ae12-179">On the **Shipping** FastTab, in the **Base Calendar Code** field, select the base calendar that you want to assign.</span></span>  
 
-> [!IMPORTANT]  
->  -   <span data-ttu-id="2ae12-180">Si vous n'affectez aucun calendrier principal aux sociétés, toutes les dates sont calculées comme des jours ouvrés.</span><span class="sxs-lookup"><span data-stu-id="2ae12-180">If you do not assign a base calendar to a company, all dates are calculated as working days.</span></span>  
-> -   <span data-ttu-id="2ae12-181">Si vous n'indiquez pas le magasin sur une ligne commande, toutes les dates sont calculées comme des jours ouvrés.</span><span class="sxs-lookup"><span data-stu-id="2ae12-181">If you enter a blank location on an order line, all dates are calculated as working days.</span></span>  
-> -   <span data-ttu-id="2ae12-182">Le calendrier principal défini pour le fournisseur ou le magasin affecte uniquement la manière dont les dates sont calculées et arrondies en jours ouvrés.</span><span class="sxs-lookup"><span data-stu-id="2ae12-182">Any base calendar defined for the vendor or the location affects how the dates are calculated and rounded to working days.</span></span>
-
-> [!NOTE]  
+> [!IMPORTANT]
+> - <span data-ttu-id="2ae12-180">Si vous n'affectez aucun calendrier principal aux sociétés, toutes les dates sont calculées comme des jours ouvrés.</span><span class="sxs-lookup"><span data-stu-id="2ae12-180">If you do not assign a base calendar to a company, all dates are calculated as working days.</span></span>  
+>   -   <span data-ttu-id="2ae12-181">Si vous n'indiquez pas le magasin sur une ligne commande, toutes les dates sont calculées comme des jours ouvrés.</span><span class="sxs-lookup"><span data-stu-id="2ae12-181">If you enter a blank location on an order line, all dates are calculated as working days.</span></span>  
+>   -   <span data-ttu-id="2ae12-182">Le calendrier principal défini pour le fournisseur ou le magasin affecte uniquement la manière dont les dates sont calculées et arrondies en jours ouvrés.</span><span class="sxs-lookup"><span data-stu-id="2ae12-182">Any base calendar defined for the vendor or the location affects how the dates are calculated and rounded to working days.</span></span>
+> 
+> [!NOTE]
 >  <span data-ttu-id="2ae12-183">Pour créer des écritures calendrier personnalisé, vous devez d'abord affecter un calendrier principal à la société.</span><span class="sxs-lookup"><span data-stu-id="2ae12-183">Before you can make customized calendar entries, you must first assign a base calendar to the company.</span></span>  
 
 ## <a name="see-also"></a><span data-ttu-id="2ae12-184">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="2ae12-184">See Also</span></span>

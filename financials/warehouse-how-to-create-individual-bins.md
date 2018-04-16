@@ -13,20 +13,20 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: f8cd19f97c530397dd6b499157e13340331aa3ba
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: fab392260f07405156c8c9874f141b05d24e681b
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="create-bins"></a><span data-ttu-id="5698c-103">Créer emplacements</span><span class="sxs-lookup"><span data-stu-id="5698c-103">Create Bins</span></span>
 <span data-ttu-id="5698c-104">La méthode la plus efficace pour créer les emplacements de votre entrepôt consiste à générer des groupes d'emplacements identiques dans la feuille de création d'emplacements, mais vous pouvez également créer vos emplacements séparément à partir de la fiche magasin.</span><span class="sxs-lookup"><span data-stu-id="5698c-104">The most effective way to create the bins of your warehouse is to generate groups of similar bins in the bin creation worksheet, but you can also create your bins individually from the location card.</span></span> <span data-ttu-id="5698c-105">Vous pouvez également utiliser une fonction de la fenêtre **Feuille création emplacement** pour créer des emplacements automatiquement.</span><span class="sxs-lookup"><span data-stu-id="5698c-105">You can also use a function in the **Bin Creation Worksheet** window to create bins automatically.</span></span>  
 
 ## <a name="to-create-a-bin-from-the-location-card"></a><span data-ttu-id="5698c-106">Pour créer un emplacement à partir de la fiche magasin</span><span class="sxs-lookup"><span data-stu-id="5698c-106">To create a bin from the location card</span></span>  
-1.  <span data-ttu-id="5698c-107">Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Magasins**, puis sélectionnez le lien connexe.</span><span class="sxs-lookup"><span data-stu-id="5698c-107">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and choose the related link.</span></span>  
-2.  <span data-ttu-id="5698c-108">Sélectionnez le magasin à partir duquel vous souhaitez créer un emplacement, puis choisissez l'action **Emplacements**.</span><span class="sxs-lookup"><span data-stu-id="5698c-108">Select the location that you want to create a bin from, and then choose the **Bins** action.</span></span>  
+1. <span data-ttu-id="5698c-107">Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Magasins**, puis sélectionnez le lien connexe.</span><span class="sxs-lookup"><span data-stu-id="5698c-107">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and choose the related link.</span></span>  
+2. <span data-ttu-id="5698c-108">Sélectionnez le magasin à partir duquel vous souhaitez créer un emplacement, puis choisissez l'action **Emplacements**.</span><span class="sxs-lookup"><span data-stu-id="5698c-108">Select the location that you want to create a bin from, and then choose the **Bins** action.</span></span>  
 3. <span data-ttu-id="5698c-109">Sélectionnez l'action **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="5698c-109">Choose the **New** action.</span></span>
-4. <span data-ttu-id="5698c-110">Renseignez les champs selon vos besoins.</span><span class="sxs-lookup"><span data-stu-id="5698c-110">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+4. <span data-ttu-id="5698c-110">Renseignez les champs selon vos besoins.</span><span class="sxs-lookup"><span data-stu-id="5698c-110">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-create-bins-individually-in-the-bin-creation-worksheet"></a><span data-ttu-id="5698c-111">Pour créer séparément des emplacements dans la feuille de création d'emplacements</span><span class="sxs-lookup"><span data-stu-id="5698c-111">To create bins individually in the bin creation worksheet</span></span>  
 1.  <span data-ttu-id="5698c-112">Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille création emplacement**, puis choisissez le lien associé.</span><span class="sxs-lookup"><span data-stu-id="5698c-112">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bin Creation Worksheet**, and choose the related link.</span></span>  

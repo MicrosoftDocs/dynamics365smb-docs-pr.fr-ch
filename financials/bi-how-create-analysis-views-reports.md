@@ -13,10 +13,10 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 378c3d2b0429390c303c723dbfafd07c531b3958
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: ad5ef973847a8a86556e042596d6424449861eb4
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 #  <a name="create-analysis-reports"></a><span data-ttu-id="3ff6e-103">Créer des rapports d'analyse</span><span class="sxs-lookup"><span data-stu-id="3ff6e-103">Create Analysis Reports</span></span>
@@ -69,10 +69,10 @@ ms.lasthandoff: 03/22/2018
 4. <span data-ttu-id="3ff6e-154">Dans la fenêtre **Colonnes d'analyse**, renseignez les champs afin d'indiquer les colonnes à inclure dans l'état d'analyse.</span><span class="sxs-lookup"><span data-stu-id="3ff6e-154">In the **Analysis Columns** window, fill in the fields to specify the columns that you want to include in your analysis report.</span></span>  
 
     > [!NOTE]  
->   <span data-ttu-id="3ff6e-155">Pour définir une colonne, renseignez le champ **Code type analyse** de tous les types de colonne sauf **Formule**.</span><span class="sxs-lookup"><span data-stu-id="3ff6e-155">To define a column, you must fill in the **Analysis Type Codes** field for all column types except **Formula**.</span></span> <span data-ttu-id="3ff6e-156">Configurez les codes type analyse de la fenêtre **Types d'analyse**.</span><span class="sxs-lookup"><span data-stu-id="3ff6e-156">Set up the analysis type codes in the **Analysis Types** window.</span></span>  
+   >   <span data-ttu-id="3ff6e-155">Pour définir une colonne, renseignez le champ **Code type analyse** de tous les types de colonne sauf **Formule**.</span><span class="sxs-lookup"><span data-stu-id="3ff6e-155">To define a column, you must fill in the **Analysis Type Codes** field for all column types except **Formula**.</span></span> <span data-ttu-id="3ff6e-156">Configurez les codes type analyse de la fenêtre **Types d'analyse**.</span><span class="sxs-lookup"><span data-stu-id="3ff6e-156">Set up the analysis type codes in the **Analysis Types** window.</span></span>  
 
     <span data-ttu-id="3ff6e-157">**Remarque**.</span><span class="sxs-lookup"><span data-stu-id="3ff6e-157">**Note**.</span></span> <span data-ttu-id="3ff6e-158">Si vous sélectionnez **Ecritures article** dans le champ **Type écriture comptable**, les chiffres réels à partir de l'écriture comptable article sont copiés.</span><span class="sxs-lookup"><span data-stu-id="3ff6e-158">In the **Ledger Entry Type** field, if you select **Item Entries**, the actual figures from the item ledger entry are copied.</span></span> <span data-ttu-id="3ff6e-159">Si vous sélectionnez **Ecritures budget article**, les chiffres budgétés à partir du budget sont copiés.</span><span class="sxs-lookup"><span data-stu-id="3ff6e-159">If you select **Item Budget Entries**, the budgeted figures from the budget are copied.</span></span>  
-5.  <span data-ttu-id="3ff6e-160">Cliquez sur le bouton **OK** pour enregistrer vos modifications.</span><span class="sxs-lookup"><span data-stu-id="3ff6e-160">Choose the **OK** button to save your changes.</span></span>  
+5. <span data-ttu-id="3ff6e-160">Cliquez sur le bouton **OK** pour enregistrer vos modifications.</span><span class="sxs-lookup"><span data-stu-id="3ff6e-160">Choose the **OK** button to save your changes.</span></span>  
 
 ## <a name="to-set-up-analysis-line-templates"></a><span data-ttu-id="3ff6e-161">Pour configurer des modèles de ligne d'analyse</span><span class="sxs-lookup"><span data-stu-id="3ff6e-161">To set up analysis line templates</span></span>  
 <span data-ttu-id="3ff6e-162">La procédure suivante se base sur des rapports d'analyse des ventes.</span><span class="sxs-lookup"><span data-stu-id="3ff6e-162">The following procedure is based on analysis reports for sales.</span></span> <span data-ttu-id="3ff6e-163">Les étapes sont similaires aux rapports d'analyse d'achat et d'inventaire.</span><span class="sxs-lookup"><span data-stu-id="3ff6e-163">The steps are similar for purchase and inventory analysis reports.</span></span>
@@ -96,7 +96,7 @@ ms.lasthandoff: 03/22/2018
 
 1. <span data-ttu-id="3ff6e-183">Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Rapports d'analyse vente**, puis sélectionnez le lien connexe.</span><span class="sxs-lookup"><span data-stu-id="3ff6e-183">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Analysis Reports**, and then choose the related link.</span></span>  
 2. <span data-ttu-id="3ff6e-184">Dans la fenêtre **Rapports d'analyse vente**, cliquez sur l'action **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="3ff6e-184">In the **Analysis Report Sale** window, choose the **New** action.</span></span>
-3. <span data-ttu-id="3ff6e-185">Renseignez les champs selon vos besoins.</span><span class="sxs-lookup"><span data-stu-id="3ff6e-185">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="3ff6e-185">Renseignez les champs selon vos besoins.</span><span class="sxs-lookup"><span data-stu-id="3ff6e-185">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. <span data-ttu-id="3ff6e-186">Choisissez l'action **Modifier le rapport d'analyse**.</span><span class="sxs-lookup"><span data-stu-id="3ff6e-186">Choose the **Edit Analysis Report** action.</span></span>
 5. <span data-ttu-id="3ff6e-187">Dans la fenêtre **Rapports d'analyse vente**, cliquez sur l'action **Afficher matrice**.</span><span class="sxs-lookup"><span data-stu-id="3ff6e-187">In the **Sales Analysis Report** window, choose the **Show Matrix** action</span></span>  
 

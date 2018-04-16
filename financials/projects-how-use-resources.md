@@ -13,10 +13,10 @@ ms.search.keywords: project management, capacity, staff
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: f86fed1b300df98ef120e2f91fdd0785670d04f1
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 5c6a83acd120d86d568a140f002189f9af180bb4
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="use-resources-for-jobs"></a><span data-ttu-id="57d83-103">Utiliser des ressources pour des projets</span><span class="sxs-lookup"><span data-stu-id="57d83-103">Use Resources for Jobs</span></span>
@@ -29,7 +29,7 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="to-record-resource-usage-for-a-job"></a><span data-ttu-id="57d83-111">Pour enregistrer l'utilisation des ressources pour un projet</span><span class="sxs-lookup"><span data-stu-id="57d83-111">To record resource usage for a job</span></span>
 1. <span data-ttu-id="57d83-112">Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuilles projet**, puis sélectionnez le lien connexe.</span><span class="sxs-lookup"><span data-stu-id="57d83-112">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Journals**, and then choose the related link.</span></span>
-2. <span data-ttu-id="57d83-113">Ouvrez la feuille projet appropriée, puis complétez les champs selon vos besoins.</span><span class="sxs-lookup"><span data-stu-id="57d83-113">Open a relevant job journal batch, and then fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. <span data-ttu-id="57d83-113">Ouvrez la feuille projet appropriée, puis complétez les champs selon vos besoins.</span><span class="sxs-lookup"><span data-stu-id="57d83-113">Open a relevant job journal batch, and then fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. <span data-ttu-id="57d83-114">Lorsque la feuille est renseignée, cliquez sur **Valider**.</span><span class="sxs-lookup"><span data-stu-id="57d83-114">When the journal is complete, choose the **Post** action.</span></span>
 
 ## <a name="to-adjust-resource-prices"></a><span data-ttu-id="57d83-115">Pour ajuster le prix des ressources</span><span class="sxs-lookup"><span data-stu-id="57d83-115">To adjust resource prices</span></span>

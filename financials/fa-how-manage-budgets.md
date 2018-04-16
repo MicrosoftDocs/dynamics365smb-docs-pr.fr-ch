@@ -13,10 +13,10 @@ ms.search.keywords: forecast
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: aba6d1c433d20c5d2da1234df06503ca97cac061
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 0c798fca44d9c57e38e5bb3f930e773d12b69636
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="manage-budgets-for-fixed-assets"></a><span data-ttu-id="36433-103">Gérer les budgets pour les immobilisations</span><span class="sxs-lookup"><span data-stu-id="36433-103">Manage Budgets for Fixed Assets</span></span>
@@ -39,7 +39,7 @@ ms.lasthandoff: 03/22/2018
 
 1. <span data-ttu-id="36433-122">Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Immobilisations**, puis sélectionnez le lien connexe.</span><span class="sxs-lookup"><span data-stu-id="36433-122">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Fixed Assets**, and then choose the related link.</span></span>
 2. <span data-ttu-id="36433-123">Sélectionnez l'immobilisation à céder, puis sélectionnez l'action **Lois d'amortissement**.</span><span class="sxs-lookup"><span data-stu-id="36433-123">Select the fixed asset to be disposed of, and then choose the **Depreciation Books** action.</span></span>
-3. <span data-ttu-id="36433-124">Dans la fenêtre **Lois d'amortissement immo.**, complétez les champs **Date cession prévue** et **Produit de cession prévu**.</span><span class="sxs-lookup"><span data-stu-id="36433-124">In the **FA Depreciation Books** window, fill in the **Projected Disposal Date** and **Projected Proceeds on Disposal** fields.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="36433-124">Dans la fenêtre **Lois d'amortissement immo.**, complétez les champs **Date cession prévue** et **Produit de cession prévu**.</span><span class="sxs-lookup"><span data-stu-id="36433-124">In the **FA Depreciation Books** window, fill in the **Projected Disposal Date** and **Projected Proceeds on Disposal** fields.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-view-projected-disposal-values"></a><span data-ttu-id="36433-125">Pour visualiser des valeurs de cession prévues</span><span class="sxs-lookup"><span data-stu-id="36433-125">To view projected disposal values</span></span>
 <span data-ttu-id="36433-126">Pour visualiser les valeurs de cession prévues et effectuer le calcul des gains et des pertes, vous pouvez utiliser l'état **Immo. - Valeur projetée**.</span><span class="sxs-lookup"><span data-stu-id="36433-126">To see the projected disposal values and have the gain and loss calculated, you can use the **FA Projected Value** report.</span></span>

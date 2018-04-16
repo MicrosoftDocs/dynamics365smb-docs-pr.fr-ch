@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: c9f2464014f2078f2a86f2e7d8a72873fa4015a8
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 64171b3dd3d165c6204594920a8c0e8a1f852c74
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a><span data-ttu-id="b8b0e-103">Regroupement de bons de livraison sur une seule facture</span><span class="sxs-lookup"><span data-stu-id="b8b0e-103">Combine Shipments on a Single Invoice</span></span>
@@ -31,17 +31,17 @@ ms.lasthandoff: 03/22/2018
 4. <span data-ttu-id="b8b0e-114">Dans le raccourci **Lignes**, sélectionnez l'action **Extraire lignes expédition**.</span><span class="sxs-lookup"><span data-stu-id="b8b0e-114">On the **Lines** FastTab, choose the **Get Shipment Lines** action.</span></span>  
 5. <span data-ttu-id="b8b0e-115">Sélectionnez la ligne expédition que vous voulez inclure dans la facture :</span><span class="sxs-lookup"><span data-stu-id="b8b0e-115">Select the shipment line that you want to include in the invoice:</span></span>  
 
-    - <span data-ttu-id="b8b0e-116">Pour insérer toutes les lignes, sélectionnez-les toutes et sélectionnez le bouton **OK**.</span><span class="sxs-lookup"><span data-stu-id="b8b0e-116">To insert all lines, select all lines and choose the **OK** button.</span></span>  
-    - <span data-ttu-id="b8b0e-117">Pour insérer des lignes spécifiques, sélectionnez-les et sélectionnez le bouton **OK**.</span><span class="sxs-lookup"><span data-stu-id="b8b0e-117">To insert specific lines, select the lines and choose the **OK** button.</span></span> <span data-ttu-id="b8b0e-118">Vous pouvez utiliser la touche Ctrl pour sélectionner plusieurs lignes qui ne sont pas séquentielles.</span><span class="sxs-lookup"><span data-stu-id="b8b0e-118">You can use the Ctrl key to select multiple nonsequential lines.</span></span>  
+   - <span data-ttu-id="b8b0e-116">Pour insérer toutes les lignes, sélectionnez-les toutes et sélectionnez le bouton **OK**.</span><span class="sxs-lookup"><span data-stu-id="b8b0e-116">To insert all lines, select all lines and choose the **OK** button.</span></span>  
+   - <span data-ttu-id="b8b0e-117">Pour insérer des lignes spécifiques, sélectionnez-les et sélectionnez le bouton **OK**.</span><span class="sxs-lookup"><span data-stu-id="b8b0e-117">To insert specific lines, select the lines and choose the **OK** button.</span></span> <span data-ttu-id="b8b0e-118">Vous pouvez utiliser la touche Ctrl pour sélectionner plusieurs lignes qui ne sont pas séquentielles.</span><span class="sxs-lookup"><span data-stu-id="b8b0e-118">You can use the Ctrl key to select multiple nonsequential lines.</span></span>  
 
-    <span data-ttu-id="b8b0e-119">Si une ligne expédition incorrecte a été sélectionnée ou si vous voulez recommencer, supprimez simplement les lignes de la facture, puis exécutez de nouveau la fonction **Extraire lignes expédition**.</span><span class="sxs-lookup"><span data-stu-id="b8b0e-119">If an incorrect shipment line was selected or you want to start over, you can simply delete the lines on the invoice and re-run the **Get Shipment Lines** function.</span></span>  
-7. <span data-ttu-id="b8b0e-120">Pour valider la facture, sélectionnez l'action **Valider**.</span><span class="sxs-lookup"><span data-stu-id="b8b0e-120">To post the invoice, choose the **Post** action.</span></span>  
+     <span data-ttu-id="b8b0e-119">Si une ligne expédition incorrecte a été sélectionnée ou si vous voulez recommencer, supprimez simplement les lignes de la facture, puis exécutez de nouveau la fonction **Extraire lignes expédition**.</span><span class="sxs-lookup"><span data-stu-id="b8b0e-119">If an incorrect shipment line was selected or you want to start over, you can simply delete the lines on the invoice and re-run the **Get Shipment Lines** function.</span></span>  
+6. <span data-ttu-id="b8b0e-120">Pour valider la facture, sélectionnez l'action **Valider**.</span><span class="sxs-lookup"><span data-stu-id="b8b0e-120">To post the invoice, choose the **Post** action.</span></span>  
 
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a><span data-ttu-id="b8b0e-121">Regrouper automatiquement les expéditions sur une seule facture</span><span class="sxs-lookup"><span data-stu-id="b8b0e-121">To automatically combine shipments on a single invoice</span></span>  
 1. <span data-ttu-id="b8b0e-122">Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Regrouper les expéditions**, puis sélectionnez le lien connexe.</span><span class="sxs-lookup"><span data-stu-id="b8b0e-122">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Combine Shipments**, and then choose the related link.</span></span> <span data-ttu-id="b8b0e-123">Le formulaire de sélection du traitement par lots s'ouvre.</span><span class="sxs-lookup"><span data-stu-id="b8b0e-123">The batch job request window opens.</span></span>  
-2. <span data-ttu-id="b8b0e-124">Renseignez les champs selon vos besoins.</span><span class="sxs-lookup"><span data-stu-id="b8b0e-124">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. <span data-ttu-id="b8b0e-124">Renseignez les champs selon vos besoins.</span><span class="sxs-lookup"><span data-stu-id="b8b0e-124">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. <span data-ttu-id="b8b0e-125">Cochez la case **Validation des factures**.</span><span class="sxs-lookup"><span data-stu-id="b8b0e-125">Select the **Post Invoices** check box.</span></span>  
-4.  <span data-ttu-id="b8b0e-126">Cliquez sur le bouton **OK**.</span><span class="sxs-lookup"><span data-stu-id="b8b0e-126">Choose the **OK** button.</span></span>  
+4. <span data-ttu-id="b8b0e-126">Cliquez sur le bouton **OK**.</span><span class="sxs-lookup"><span data-stu-id="b8b0e-126">Choose the **OK** button.</span></span>  
 
 > [!NOTE]  
 >  <span data-ttu-id="b8b0e-127">Vous devez valider manuellement les avoirs si la case à cocher **Valider avoirs** n'a pas été activée pour le traitement par lots.</span><span class="sxs-lookup"><span data-stu-id="b8b0e-127">You will need to manually post the invoices if the **Post Invoices** check box was not selected on the batch job.</span></span>  

@@ -13,10 +13,10 @@ ms.search.keywords: undo, credit memo, return
 ms.date: 08/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: e8e5a4762564d036ac8c0e7bdaf9e13b448d37f4
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 558b01a2d7048b8a5817a61b26e3df61d007815d
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="correct-or-cancel-unpaid-sales-invoices"></a><span data-ttu-id="8b6b4-103">Corriger ou annuler des factures vente impayées</span><span class="sxs-lookup"><span data-stu-id="8b6b4-103">Correct or Cancel Unpaid Sales Invoices</span></span>
@@ -39,7 +39,7 @@ ms.lasthandoff: 03/22/2018
 2. <span data-ttu-id="8b6b4-127">Sélectionnez la facture vente validée à corriger.</span><span class="sxs-lookup"><span data-stu-id="8b6b4-127">Select the posted sales invoice that you want to correct.</span></span>
 
     > [!NOTE]  
->   <span data-ttu-id="8b6b4-128">Si la case à cocher **Annulé** est activée, vous ne pouvez pas corriger la facture vente validée car elle l'a déjà été, ou a été annulée.</span><span class="sxs-lookup"><span data-stu-id="8b6b4-128">If the **Canceled** check box is selected, then you cannot correct the posted sales invoice because it has already been corrected or canceled.</span></span>
+   >   <span data-ttu-id="8b6b4-128">Si la case à cocher **Annulé** est activée, vous ne pouvez pas corriger la facture vente validée car elle l'a déjà été, ou a été annulée.</span><span class="sxs-lookup"><span data-stu-id="8b6b4-128">If the **Canceled** check box is selected, then you cannot correct the posted sales invoice because it has already been corrected or canceled.</span></span>
 3. <span data-ttu-id="8b6b4-129">Dans la fenêtre **Facture vente enregistrée** sélectionnez l'action **Corriger**.</span><span class="sxs-lookup"><span data-stu-id="8b6b4-129">In the **Posted Sales Invoice** window, choose the **Correct** action.</span></span>  
 4. <span data-ttu-id="8b6b4-130">Une nouvelle facture vente avec les mêmes informations et dans laquelle vous pouvez apporter une correction est créée.</span><span class="sxs-lookup"><span data-stu-id="8b6b4-130">A new sales invoice with the same information is created where you can make the correction.</span></span> <span data-ttu-id="8b6b4-131">La valeur du champ **Annulé** de la facture vente validée initiale devient **Oui**.</span><span class="sxs-lookup"><span data-stu-id="8b6b4-131">The **Canceled** field on the initial posted sales invoice is changed to **Yes**.</span></span>
 
@@ -51,7 +51,7 @@ ms.lasthandoff: 03/22/2018
 2. <span data-ttu-id="8b6b4-136">Sélectionnez la facture vente validée à annuler.</span><span class="sxs-lookup"><span data-stu-id="8b6b4-136">Select the posted sales invoice that you want to cancel.</span></span>
 
     > [!NOTE]  
->   <span data-ttu-id="8b6b4-137">Si la case à cocher **Annulé** est activée, vous ne pouvez pas annuler la facture vente validée car elle a déjà été annulée ou corrigée.</span><span class="sxs-lookup"><span data-stu-id="8b6b4-137">If the **Canceled** check box is selected, then you cannot cancel the posted sales invoice because it has already been canceled or corrected.</span></span>
+   >   <span data-ttu-id="8b6b4-137">Si la case à cocher **Annulé** est activée, vous ne pouvez pas annuler la facture vente validée car elle a déjà été annulée ou corrigée.</span><span class="sxs-lookup"><span data-stu-id="8b6b4-137">If the **Canceled** check box is selected, then you cannot cancel the posted sales invoice because it has already been canceled or corrected.</span></span>
 3. <span data-ttu-id="8b6b4-138">Dans la fenêtre **Facture vente enregistrée** sélectionnez l'action **Annuler**.</span><span class="sxs-lookup"><span data-stu-id="8b6b4-138">In the **Posted Sales Invoice** window, choose the **Cancel** action.</span></span>
 
     <span data-ttu-id="8b6b4-139">Un avoir vente est automatiquement créé et validé pour annuler la facture vente validée initiale.</span><span class="sxs-lookup"><span data-stu-id="8b6b4-139">A sales credit memo is automatically created and posted to void the initial posted sales invoice.</span></span> <span data-ttu-id="8b6b4-140">La valeur du champ **Annulé** de la facture vente validée initiale devient **Oui**.</span><span class="sxs-lookup"><span data-stu-id="8b6b4-140">The **Canceled** field on the initial posted sales invoice is changed to **Yes**.</span></span>

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 5b73ac2ca4f1aa3bbb8c6514a8aafa39b3c76f99
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: acace21db7db675c2f7fb3362da49cca3ceb1fde
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="pick-items-for-warehouse-shipment"></a><span data-ttu-id="009d3-103">Prélever des articles pour l'expédition entrepôt</span><span class="sxs-lookup"><span data-stu-id="009d3-103">Pick Items for Warehouse Shipment</span></span>
@@ -72,7 +72,7 @@ ms.lasthandoff: 03/22/2018
 
 > [!NOTE]
 > <span data-ttu-id="009d3-145">Dans les scénarios de combinaison, où une partie de la quantité doit d'abord être assemblée et l'autre doit être expédiée à partir des stocks, deux lignes expédition entrepôt sont créées.</span><span class="sxs-lookup"><span data-stu-id="009d3-145">In combination scenarios, in which a part of the quantity must first be assembled and another must be shipped from inventory, two warehouse shipment lines are created.</span></span> <span data-ttu-id="009d3-146">L'une est pour la quantité à assembler pour commande et l'autre est destinée à la quantité en stock.</span><span class="sxs-lookup"><span data-stu-id="009d3-146">One is for the assemble-to-order quantity, and one is for the inventory quantity.</span></span>
-
+> 
 > <span data-ttu-id="009d3-147">Dans ce cas, la quantité à assembler pour commande est traitée comme décrite dans cette rubrique, et la quantité en stock est traitée comme toute autre ligne expédition entrepôt normale.</span><span class="sxs-lookup"><span data-stu-id="009d3-147">In that case, the assemble-to-order quantity is handled as described in this topic, and the inventory quantity is handled as any other regular warehouse shipment line.</span></span> <span data-ttu-id="009d3-148">Pour plus d'informations sur les scénarios de combinaison, consultez [Description des processus Assembler pour commande et Assembler pour stock](assembly-assemble-to-order-or-assemble-to-stock.md).</span><span class="sxs-lookup"><span data-stu-id="009d3-148">For more information about combination scenarios, see [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md).</span></span>
 
 ## <a name="see-also"></a><span data-ttu-id="009d3-149">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="009d3-149">See Also</span></span>  

@@ -13,10 +13,10 @@ ms.search.keywords: transportation, added cost
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 5a40482673c8b8110a6036046174a58f5d7be18f
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 000785b2d3592f600be5c231f088431ba2769b18
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a><span data-ttu-id="780b8-103">Utiliser Frais annexes pour comptabiliser les coûts commerciaux supplémentaires</span><span class="sxs-lookup"><span data-stu-id="780b8-103">Use Item Charges to Account for Additional Trade Costs</span></span>
@@ -42,7 +42,7 @@ ms.lasthandoff: 03/22/2018
 
 1. <span data-ttu-id="780b8-123">Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Frais annexes**, puis sélectionnez le lien connexe.</span><span class="sxs-lookup"><span data-stu-id="780b8-123">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Charges**, and then choose the related link.</span></span>
 2. <span data-ttu-id="780b8-124">Dans la fenêtre **Frais annexes**, sélectionnez l'action **Nouveau** pour créer ligne.</span><span class="sxs-lookup"><span data-stu-id="780b8-124">In the **Item Charges** window, choose the **New** action to create a new line.</span></span>
-3. <span data-ttu-id="780b8-125">Renseignez les champs selon vos besoins.</span><span class="sxs-lookup"><span data-stu-id="780b8-125">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="780b8-125">Renseignez les champs selon vos besoins.</span><span class="sxs-lookup"><span data-stu-id="780b8-125">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a><span data-ttu-id="780b8-126">Pour affecter des frais annexes directement à la facture achat pour l'article</span><span class="sxs-lookup"><span data-stu-id="780b8-126">To assign an item charge directly to the purchase invoice for the item</span></span>
 <span data-ttu-id="780b8-127">Si vous connaissez les frais annexes au moment de valider une facture achat pour l'article, procédez comme suit.</span><span class="sxs-lookup"><span data-stu-id="780b8-127">If you know the item charge at the time when you post a purchase invoice for the item, follow this procedure.</span></span>
@@ -53,7 +53,7 @@ ms.lasthandoff: 03/22/2018
 4. <span data-ttu-id="780b8-132">Sur une nouvelle ligne, dans le champ **Type**, sélectionnez **Frais annexes**.</span><span class="sxs-lookup"><span data-stu-id="780b8-132">On a new line, in the **Type** field, select **Charge (Item)**.</span></span>
 5. <span data-ttu-id="780b8-133">Dans le champ **Quantité**, saisissez les unités de ces frais annexes qui vous ont été facturées.</span><span class="sxs-lookup"><span data-stu-id="780b8-133">In the **Quantity** field, enter the units of the item charge that you have been invoiced for.</span></span>
 6. <span data-ttu-id="780b8-134">Dans le champ **Coût unitaire direct**, saisissez le montant des frais annexes.</span><span class="sxs-lookup"><span data-stu-id="780b8-134">In the **Direct Unit Cost** field, enter the amount of the item charge.</span></span>
-7. <span data-ttu-id="780b8-135">Renseignez les champs restants selon vos besoins.</span><span class="sxs-lookup"><span data-stu-id="780b8-135">Fill in the remaining fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+7. <span data-ttu-id="780b8-135">Renseignez les champs restants selon vos besoins.</span><span class="sxs-lookup"><span data-stu-id="780b8-135">Fill in the remaining fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     <span data-ttu-id="780b8-136">Dans les étapes suivantes, vous créez l'affectation réelle.</span><span class="sxs-lookup"><span data-stu-id="780b8-136">In the following steps, you will perform the actual assignment.</span></span> <span data-ttu-id="780b8-137">Jusqu'à ce que les frais annexes soient entièrement affectés, la valeur dans le champ **Qté à affecter** est en rouge.</span><span class="sxs-lookup"><span data-stu-id="780b8-137">Until the item charge is fully assigned, the value in the **Qty. to Assign** field is in red font.</span></span>
 8. <span data-ttu-id="780b8-138">Sur le raccourci **Lignes**, cliquez sur l'action **Affectation frais annexes**.</span><span class="sxs-lookup"><span data-stu-id="780b8-138">On the **Lines** tab, choose the **Item Charge Assignment** action.</span></span>

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/05/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 2e76520cdab388d3430ea50fb8e88f7dce26715a
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: c3f6532e63afb6044c538b7c5a7743df3e1eae5d
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="work-with-production-families"></a><span data-ttu-id="9e6f9-103">Utiliser les familles de production</span><span class="sxs-lookup"><span data-stu-id="9e6f9-103">Work with Production Families</span></span>
@@ -31,7 +31,7 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="to-set-up-a-production-family"></a><span data-ttu-id="9e6f9-111">Pour configurer une famille de production</span><span class="sxs-lookup"><span data-stu-id="9e6f9-111">To set up a production family</span></span>
 1. <span data-ttu-id="9e6f9-112">Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Familles**, puis choisissez le lien associé.</span><span class="sxs-lookup"><span data-stu-id="9e6f9-112">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Families**, and then choose the related link.</span></span>
-2. <span data-ttu-id="9e6f9-113">Renseignez les champs selon vos besoins.</span><span class="sxs-lookup"><span data-stu-id="9e6f9-113">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. <span data-ttu-id="9e6f9-113">Renseignez les champs selon vos besoins.</span><span class="sxs-lookup"><span data-stu-id="9e6f9-113">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-produce-based-on-a-production-familily"></a><span data-ttu-id="9e6f9-114">Pour produire selon une famille de production</span><span class="sxs-lookup"><span data-stu-id="9e6f9-114">To produce based on a production familily</span></span>
 1. <span data-ttu-id="9e6f9-115">Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **O.F. planifiés fermes**, puis sélectionnez le lien connexe.</span><span class="sxs-lookup"><span data-stu-id="9e6f9-115">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Firm Planned Prod. Orders**, and then choose the related link.</span></span>

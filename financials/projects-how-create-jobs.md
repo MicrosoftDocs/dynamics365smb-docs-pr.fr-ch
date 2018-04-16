@@ -13,10 +13,10 @@ ms.search.keywords: project management, task
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: ece0a95f83868ac2657fdf41330e7d0a9cce37d6
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 5f17824bcbe9d69174b31f5dffacecf012a4470b
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="create-jobs"></a><span data-ttu-id="58b3b-103">Créer des projets</span><span class="sxs-lookup"><span data-stu-id="58b3b-103">Create Jobs</span></span>
@@ -35,7 +35,7 @@ ms.lasthandoff: 03/22/2018
 <span data-ttu-id="58b3b-115">Vous devez créer une fiche projet, puis créez des Lignes tâche projet et des lignes planning projet pour ce projet.</span><span class="sxs-lookup"><span data-stu-id="58b3b-115">You create a job card and then create job task lines and job planning lines for it.</span></span>
 
 1. <span data-ttu-id="58b3b-116">Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Projets**, puis choisissez le lien associé.</span><span class="sxs-lookup"><span data-stu-id="58b3b-116">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.</span></span>  
-2. <span data-ttu-id="58b3b-117">Cliquez sur **Nouveau**, puis renseignez les champs selon vos besoins.</span><span class="sxs-lookup"><span data-stu-id="58b3b-117">Choose the **New** action, and then fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. <span data-ttu-id="58b3b-117">Cliquez sur **Nouveau**, puis renseignez les champs selon vos besoins.</span><span class="sxs-lookup"><span data-stu-id="58b3b-117">Choose the **New** action, and then fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. <span data-ttu-id="58b3b-118">Pour spécifier le projet avec les informations d'autres projets, cliquez sur **Copier projet**, renseignez les champs selon vos besoins, puis cliquez sur le bouton **OK**.</span><span class="sxs-lookup"><span data-stu-id="58b3b-118">To specify the job with information on other jobs, choose the **Copy Job** action, fill in the fields as necessary, and then choose the **OK** button.</span></span>
 
 > [!NOTE]  

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
-ms.openlocfilehash: e6ca961e4d61708d39a8938247403c927ecebe49
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 174b365c4db8155ed6e67119926aaa5981e4fd53
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="close-an-lsv-collection"></a><span data-ttu-id="5050a-104">Fermer prélèvement LSV</span><span class="sxs-lookup"><span data-stu-id="5050a-104">Close an LSV Collection</span></span>
@@ -26,17 +26,17 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="to-close-an-lsv-collection"></a><span data-ttu-id="5050a-113">Pour fermer un prélèvement LSV</span><span class="sxs-lookup"><span data-stu-id="5050a-113">To close an LSV collection</span></span>  
 
-1.  <span data-ttu-id="5050a-114">Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Liste feuilles LSV**, puis sélectionnez le lien connexe.</span><span class="sxs-lookup"><span data-stu-id="5050a-114">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **LSV Journal List**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="5050a-115">Sélectionnez la ligne feuille requise, puis sélectionnez l'action **Modifier la date comptabilisation**.</span><span class="sxs-lookup"><span data-stu-id="5050a-115">Select the required journal line, and then choose the **Modify Posting Date** action.</span></span> <span data-ttu-id="5050a-116">La valeur du champ **Date de crédit** à l'aide de la valeur suggérée lors du prélèvement LSV.</span><span class="sxs-lookup"><span data-stu-id="5050a-116">This will modify the value in the **Credit Date** field by using the value suggested during the LSV collection.</span></span>  
-3.  <span data-ttu-id="5050a-117">Dans le champ **Nouvelle date**, saisissez la nouvelle date.</span><span class="sxs-lookup"><span data-stu-id="5050a-117">In the **New Date** field, enter the new date.</span></span>  
-4.  <span data-ttu-id="5050a-118">Choisissez l'action **Clôturer le prélèvement**.</span><span class="sxs-lookup"><span data-stu-id="5050a-118">Choose the **Close Collection* action*.</span></span>  
+1. <span data-ttu-id="5050a-114">Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Liste feuilles LSV**, puis sélectionnez le lien connexe.</span><span class="sxs-lookup"><span data-stu-id="5050a-114">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **LSV Journal List**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="5050a-115">Sélectionnez la ligne feuille requise, puis sélectionnez l'action **Modifier la date comptabilisation**.</span><span class="sxs-lookup"><span data-stu-id="5050a-115">Select the required journal line, and then choose the **Modify Posting Date** action.</span></span> <span data-ttu-id="5050a-116">La valeur du champ **Date de crédit** à l'aide de la valeur suggérée lors du prélèvement LSV.</span><span class="sxs-lookup"><span data-stu-id="5050a-116">This will modify the value in the **Credit Date** field by using the value suggested during the LSV collection.</span></span>  
+3. <span data-ttu-id="5050a-117">Dans le champ **Nouvelle date**, saisissez la nouvelle date.</span><span class="sxs-lookup"><span data-stu-id="5050a-117">In the **New Date** field, enter the new date.</span></span>  
+4. <span data-ttu-id="5050a-118">Choisissez l'action **Clôturer le prélèvement**.</span><span class="sxs-lookup"><span data-stu-id="5050a-118">Choose the **Close Collection* action*.</span></span>  
 
-    > [!NOTE]  
-    >  <span data-ttu-id="5050a-119">Les champs du raccourci **Options** pour le traitement par lots **Prélèvement de fin LSV** ne peuvent pas être modifiés, et correspondent à la ligne feuille sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="5050a-119">The fields on the **Options** FastTab for the **LSV Close Collection** batch job cannot be modified, and correspond to the selected journal line.</span></span>  
+   > [!NOTE]  
+   >  <span data-ttu-id="5050a-119">Les champs du raccourci **Options** pour le traitement par lots **Prélèvement de fin LSV** ne peuvent pas être modifiés, et correspondent à la ligne feuille sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="5050a-119">The fields on the **Options** FastTab for the **LSV Close Collection** batch job cannot be modified, and correspond to the selected journal line.</span></span>  
 
-5.  <span data-ttu-id="5050a-120">Cliquez sur le bouton **OK**.</span><span class="sxs-lookup"><span data-stu-id="5050a-120">Choose the **OK** button.</span></span>  
+5. <span data-ttu-id="5050a-120">Cliquez sur le bouton **OK**.</span><span class="sxs-lookup"><span data-stu-id="5050a-120">Choose the **OK** button.</span></span>  
 
-    <span data-ttu-id="5050a-121">Dans la fenêtre **Liste feuilles LSV**, la valeur du champ **Statut LSV** passe de **Modifier** à **Lancé**.</span><span class="sxs-lookup"><span data-stu-id="5050a-121">In the **LSV Journal List** window, the value in the **LSV Status** field is changed from **Edit** to **Released**.</span></span> <span data-ttu-id="5050a-122">Les lignes feuille ne peuvent plus être modifiées.</span><span class="sxs-lookup"><span data-stu-id="5050a-122">The journal lines can no longer be modified.</span></span>  
+   <span data-ttu-id="5050a-121">Dans la fenêtre **Liste feuilles LSV**, la valeur du champ **Statut LSV** passe de **Modifier** à **Lancé**.</span><span class="sxs-lookup"><span data-stu-id="5050a-121">In the **LSV Journal List** window, the value in the **LSV Status** field is changed from **Edit** to **Released**.</span></span> <span data-ttu-id="5050a-122">Les lignes feuille ne peuvent plus être modifiées.</span><span class="sxs-lookup"><span data-stu-id="5050a-122">The journal lines can no longer be modified.</span></span>  
 
 ## <a name="to-reopen-an-lsv-collection"></a><span data-ttu-id="5050a-123">Pour rouvrir un prélèvement LSV</span><span class="sxs-lookup"><span data-stu-id="5050a-123">To reopen an LSV collection</span></span>  
 

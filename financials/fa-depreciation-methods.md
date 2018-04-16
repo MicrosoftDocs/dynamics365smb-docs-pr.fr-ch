@@ -13,10 +13,10 @@ ms.search.keywords: write down
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6a32ddc5fd8202507b66a30fabd2cbd6b5ab91eb
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 0e79dcc4b9015a0b2ec37262048c2c98c192df5e
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="depreciation-methods"></a><span data-ttu-id="9457f-103">Méthodes d'amortissement</span><span class="sxs-lookup"><span data-stu-id="9457f-103">Depreciation Methods</span></span>
@@ -31,11 +31,11 @@ ms.lasthandoff: 03/22/2018
 * <span data-ttu-id="9457f-111">Manuel</span><span class="sxs-lookup"><span data-stu-id="9457f-111">Manual</span></span>  
 
   > [!NOTE]  
->   <span data-ttu-id="9457f-112">Utilisez cette méthode pour les immobilisations qui ne font pas l'objet d'un amortissement, par exemple les terrains.</span><span class="sxs-lookup"><span data-stu-id="9457f-112">Use this method for assets that are not subject to depreciation, for example, land.</span></span> <span data-ttu-id="9457f-113">Vous devez saisir l'amortissement dans la feuille validation immobilisation.</span><span class="sxs-lookup"><span data-stu-id="9457f-113">You must enter depreciation in the fixed asset G/L journal.</span></span> <span data-ttu-id="9457f-114">Le traitement par lots **Calculer amortissement** ignore les immobilisations qui utilisent cette méthode d'amortissement.</span><span class="sxs-lookup"><span data-stu-id="9457f-114">The **Calculate Depreciation** batch job omits fixed assets that use this depreciation method.</span></span>  
+  >   <span data-ttu-id="9457f-112">Utilisez cette méthode pour les immobilisations qui ne font pas l'objet d'un amortissement, par exemple les terrains.</span><span class="sxs-lookup"><span data-stu-id="9457f-112">Use this method for assets that are not subject to depreciation, for example, land.</span></span> <span data-ttu-id="9457f-113">Vous devez saisir l'amortissement dans la feuille validation immobilisation.</span><span class="sxs-lookup"><span data-stu-id="9457f-113">You must enter depreciation in the fixed asset G/L journal.</span></span> <span data-ttu-id="9457f-114">Le traitement par lots **Calculer amortissement** ignore les immobilisations qui utilisent cette méthode d'amortissement.</span><span class="sxs-lookup"><span data-stu-id="9457f-114">The **Calculate Depreciation** batch job omits fixed assets that use this depreciation method.</span></span>  
 * <span data-ttu-id="9457f-115">Règle de la demi-année</span><span class="sxs-lookup"><span data-stu-id="9457f-115">Half-Year Convention</span></span>  
 
   > [!NOTE]  
->    <span data-ttu-id="9457f-116">Lorsque vous utilisez cette méthode, le montant de l'amortissement d'une immobilisation ne varie pas d'une année à l'autre.</span><span class="sxs-lookup"><span data-stu-id="9457f-116">When you use this method, a fixed asset is depreciated by the same amount each year.</span></span>  
+  >    <span data-ttu-id="9457f-116">Lorsque vous utilisez cette méthode, le montant de l'amortissement d'une immobilisation ne varie pas d'une année à l'autre.</span><span class="sxs-lookup"><span data-stu-id="9457f-116">When you use this method, a fixed asset is depreciated by the same amount each year.</span></span>  
 
 ## <a name="straight-line-depreciation"></a><span data-ttu-id="9457f-117">Amortissement linéaire</span><span class="sxs-lookup"><span data-stu-id="9457f-117">Straight-Line Depreciation</span></span>
 <span data-ttu-id="9457f-118">Lorsque vous utilisez la méthode linéaire, vous devez indiquer l'une des options suivantes dans la loi d'amortissement immobilisation :</span><span class="sxs-lookup"><span data-stu-id="9457f-118">When you use the straight-line method, you must specify one of the following options in the fixed asset depreciation book:</span></span>  
@@ -233,7 +233,7 @@ ms.lasthandoff: 03/22/2018
 
 1. <span data-ttu-id="9457f-438">Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), saisissez **Tables d'amortissement**, puis sélectionnez le lien connexe.</span><span class="sxs-lookup"><span data-stu-id="9457f-438">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Depreciation Tables**, and then choose the related link.</span></span>  
 2. <span data-ttu-id="9457f-439">Dans la fenêtre **Liste des tables amortissement**, sélectionnez l'action **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="9457f-439">In the **Depreciation Table List** window, choose the **New** action.</span></span>  
-3. <span data-ttu-id="9457f-440">Dans la fenêtre **Fiche table amortissement**, renseignez les champs comme nécessaire.</span><span class="sxs-lookup"><span data-stu-id="9457f-440">**Depreciation Table Card** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. <span data-ttu-id="9457f-440">Dans la fenêtre **Fiche table amortissement**, renseignez les champs comme nécessaire.</span><span class="sxs-lookup"><span data-stu-id="9457f-440">**Depreciation Table Card** window, fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### <a name="example---user-defined-depreciation"></a><span data-ttu-id="9457f-441">Exemple - Amortissement défini par l'utilisateur</span><span class="sxs-lookup"><span data-stu-id="9457f-441">Example - User-defined Depreciation</span></span>
 <span data-ttu-id="9457f-442">Vous souhaitez utiliser une méthode d'amortissement vous permettant d'amortir des immobilisations de manière accélérée dans le cadre de l'impôt sur le revenu.</span><span class="sxs-lookup"><span data-stu-id="9457f-442">You use a depreciation method that allows you to depreciate assets in an accelerated manner for income tax purposes.</span></span>  
