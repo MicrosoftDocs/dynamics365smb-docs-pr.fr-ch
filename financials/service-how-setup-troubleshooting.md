@@ -25,7 +25,7 @@ Vous pouvez configurer des instructions incident qui aident les conseillers du s
 
 ## <a name="to-set-up-troubleshooting-guidelines"></a>Pour configurer des instructions incident
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Incident**, puis sélectionnez le lien connexe.  
-2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Renseignez les champs selon vos besoins. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-assign-troubleshooting-guidelines-to-items-service-items-or-service-item-groups"></a>Pour affecter des instructions incident à des articles, des articles de service ou des groupes articles de service
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Articles**, **Articles de service** ou **Groupe articles de service**, puis sélectionnez le lien connexe.  

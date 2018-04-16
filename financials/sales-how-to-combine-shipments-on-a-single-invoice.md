@@ -31,17 +31,17 @@ Si vous souhaitez facturer plusieurs bons de livraison à la fois, vous pouvez u
 4. Dans le raccourci **Lignes**, sélectionnez l'action **Extraire lignes expédition**.  
 5. Sélectionnez la ligne expédition que vous voulez inclure dans la facture :  
 
-    - Pour insérer toutes les lignes, sélectionnez-les toutes et sélectionnez le bouton **OK**.  
-    - Pour insérer des lignes spécifiques, sélectionnez-les et sélectionnez le bouton **OK**. Vous pouvez utiliser la touche Ctrl pour sélectionner plusieurs lignes qui ne sont pas séquentielles.  
+   - Pour insérer toutes les lignes, sélectionnez-les toutes et sélectionnez le bouton **OK**.  
+   - Pour insérer des lignes spécifiques, sélectionnez-les et sélectionnez le bouton **OK**. Vous pouvez utiliser la touche Ctrl pour sélectionner plusieurs lignes qui ne sont pas séquentielles.  
 
-    Si une ligne expédition incorrecte a été sélectionnée ou si vous voulez recommencer, supprimez simplement les lignes de la facture, puis exécutez de nouveau la fonction **Extraire lignes expédition**.  
-7. Pour valider la facture, sélectionnez l'action **Valider**.  
+     Si une ligne expédition incorrecte a été sélectionnée ou si vous voulez recommencer, supprimez simplement les lignes de la facture, puis exécutez de nouveau la fonction **Extraire lignes expédition**.  
+6. Pour valider la facture, sélectionnez l'action **Valider**.  
 
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Regrouper automatiquement les expéditions sur une seule facture  
 1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Regrouper les expéditions**, puis sélectionnez le lien connexe. Le formulaire de sélection du traitement par lots s'ouvre.  
-2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Renseignez les champs selon vos besoins. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Cochez la case **Validation des factures**.  
-4.  Cliquez sur le bouton **OK**.  
+4. Cliquez sur le bouton **OK**.  
 
 > [!NOTE]  
 >  Vous devez valider manuellement les avoirs si la case à cocher **Valider avoirs** n'a pas été activée pour le traitement par lots.  

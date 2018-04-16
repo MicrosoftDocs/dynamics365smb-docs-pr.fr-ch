@@ -27,7 +27,7 @@ Pour trouver les articles par caractéristique, vous pouvez affecter des attribu
 ## <a name="to-create-an-item-category"></a>Pour créer une catégorie d'article
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Catégories article**, puis sélectionnez le lien connexe.
 2. Dans la fenêtre **Catégories d'article**, sélectionnez l'action **Nouveau**.
-3. Dans la fenêtre **Fiche catégorie d'article**, sur le raccourci **Général**, complétez les champs suivants : [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Dans la fenêtre **Fiche catégorie d'article**, sur le raccourci **Général**, complétez les champs suivants : [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Sur le raccourci **Attributs**, précisez tout attribut d'article pour la catégorie d'article. Pour en savoir plus, voir la section « Assigner des attributs d'article à une catégorie d'article » dans [Utiliser les attributs d'article](inventory-how-work-item-attributes.md).
 
 > [!NOTE]  

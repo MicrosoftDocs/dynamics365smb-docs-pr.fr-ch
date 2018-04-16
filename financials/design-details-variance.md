@@ -32,15 +32,15 @@ L'écart est défini comme la différence entre le coût réel et le coût stand
 ## <a name="example"></a>Exemple :  
  L'exemple suivant présente la manière de calculer l'écart pour les articles achetés. Il est basé sur le scénario suivant :  
 
-1.  L'utilisateur achète un article à 90,00 LCY, mais le coût standard est de 100,00 LCY. Par conséquent, l'écart achat net est de -10 DS.  
-2.  10,00 DS sont crédités sur le compte écart achat.  
-3.  L'utilisateur valide des frais article de 20,00 LCY. Par conséquent, le coût réel passe à 110 DS, et la valeur de l'écart achat passe à 10 DS.  
-4.  20,00 DS sont débités sur le compte écart achat. Par conséquent, l'écart achat net est de 10 DS.  
-5.  L'utilisateur réévalue l'article de 100,00 LCY à 70,00 LCY. Cela n'affecte pas le calcul d'écart, uniquement la valeur stock.  
+1. L'utilisateur achète un article à 90,00 LCY, mais le coût standard est de 100,00 LCY. Par conséquent, l'écart achat net est de -10 DS.  
+2. 10,00 DS sont crédités sur le compte écart achat.  
+3. L'utilisateur valide des frais article de 20,00 LCY. Par conséquent, le coût réel passe à 110 DS, et la valeur de l'écart achat passe à 10 DS.  
+4. 20,00 DS sont débités sur le compte écart achat. Par conséquent, l'écart achat net est de 10 DS.  
+5. L'utilisateur réévalue l'article de 100,00 LCY à 70,00 LCY. Cela n'affecte pas le calcul d'écart, uniquement la valeur stock.  
 
- Le tableau suivant montre les écritures valeur résultantes.  
+   Le tableau suivant montre les écritures valeur résultantes.  
 
- ![Calcul variance achat](media/design_details_inventory_costing_11_purchase_variance.png "design_details_inventory_costing_11_purchase_variance")  
+   ![Calcul variance achat](media/design_details_inventory_costing_11_purchase_variance.png "design_details_inventory_costing_11_purchase_variance")  
 
 ## <a name="determining-the-standard-cost"></a>Déterminer le coût standard  
  Le coût standard est utilisé pour calculer l'écart et le montant à capitaliser. Dans la mesure où le coût standard peut être modifié dans le temps en raison du calcul de mise à jour manuel, vous avez besoin d'un certain point dans le temps où le coût standard est fixe pour le calcul de l'écart. Ce point est pertinent lorsque l'augmentation de stock est facturée. Pour les articles fabriqués ou assemblés, le point auquel le coût standard est déterminé est lorsque le coût est ajusté.  

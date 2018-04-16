@@ -24,7 +24,7 @@ Vous pouvez spécifier des paramètres de stock généraux dans la fenêtre **Pa
 
 ## <a name="to-set-up-general-inventory-information"></a>Pour définir des informations générales relatives aux stocks
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Paramètres stock**, puis sélectionnez le lien connexe.
-2. Dans la fenêtre **Paramètres stock**, renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Dans la fenêtre **Paramètres stock**, renseignez les champs selon vos besoins. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Vous pouvez inclure un délai entrepôt par défaut pour votre stock dans la fenêtre **Paramètres stock** ou pour votre magasin dans le calcul de la promesse de livraison sur la ligne achat. Pour plus d'informations, voir [Calculer des dates promesse livraison](sales-how-to-calculate-order-promising-dates.md).  
 

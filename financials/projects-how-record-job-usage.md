@@ -34,7 +34,7 @@ Les procédures suivantes décrivent comment enregistrer les prix et les coûts 
 
     Le champ **Quantité restante** indique la quantité qui reste pour terminer le projet et à transférer à la feuille.  
 5. Choisissez l'action **Créer des lignes feuille projet**.
-6. Dans la fenêtre **Projet Transférer la ligne planning projet**, renseignez les champs selon vos besoins, puis cliquez sur le bouton **OK**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+6. Dans la fenêtre **Projet Transférer la ligne planning projet**, renseignez les champs selon vos besoins, puis cliquez sur le bouton **OK**. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Cliquez sur **Ouvrir la feuille projet**.  
 8. Dans la fenêtre **Feuille projet**, sélectionnez la ligne appropriée, puis cliquez sur **Valider**.
 9. Dans la fenêtre **Lignes planning projet**, examinez l'activité enregistrée en observant les champs **Quantité**, **Quantité restante** et **Qté à transférer sur la feuille**.  

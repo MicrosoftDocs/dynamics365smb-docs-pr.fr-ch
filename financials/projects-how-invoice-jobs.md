@@ -33,7 +33,7 @@ Vous pouvez créer une facture pour un projet ou pour une ou plusieurs tâches p
 Dans la fenêtre **Projets**, vous pouvez facturer un client en sélectionnant le projet, puis en cliquant sur **Créer une facture vente projet**. La procédure suivante explique comment utiliser un traitement par lots pour facturer plusieurs projets.  
 
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Projet Créer facture vente**, puis sélectionnez le lien connexe.  
-2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Renseignez les champs selon vos besoins. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Définissez des filtres si vous souhaitez limiter le nombre de projets que le traitement par lots va traiter.
 4. Pour créer les factures, cliquez sur le bouton **OK**.  
 

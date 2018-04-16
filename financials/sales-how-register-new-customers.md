@@ -36,7 +36,7 @@ Avant de pouvoir enregistrer de nouveaux clients, vous devez configurer divers c
     Si plusieurs modèles client existent, une fenêtre s'affiche et vous permet de sélectionner un modèle client. Dans ce cas, suivez les deux étapes suivantes.
 3. Dans la fenêtre **Sélectionnez un modèle pour un nouveau client**, sélectionnez le modèle que vous souhaitez utiliser pour la nouvelle fiche client.
 4. Cliquez sur le bouton **OK**. Une fiche client avec certains champs contenant les informations provenant de ce modèle s'ouvre.  
-5. Renseignez ou modifiez les champs de la fiche client selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. Renseignez ou modifiez les champs de la fiche client selon vos besoins. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Sur le raccourci **Prix vente**, vous pouvez afficher les prix spéciaux ou les remises accordées au client si certains critères sont réunis, par exemple l'article, la quantité minimum commande ou la date de fin. Chaque ligne représente un prix spécial ou une remise ligne. Chaque colonne représente un critère qui doit s'appliquer pour garantir le prix spécial que vous saisissez dans le champ **Prix** ou la remise ligne que vous saisissez dans le champ **% remise ligne**. Pour plus d'informations, reportez-vous à [Enregistrement des prix de vente, des remises et des accords sur les paiements](sales-how-record-sales-price-discount-payment-agreements.md).
 
@@ -46,7 +46,7 @@ Si vous souhaitez utiliser cette fiche client comme modèle lorsque vous créez 
 
 ## <a name="to-save-the-customer-card-as-a-template"></a>Pour enregistrer la fiche client en tant que modèle
 1. Dans la fenêtre **Fiche client**, sélectionnez l'action **Sauvegarder comme modèle**. La fenêtre **Modèle client** s'ouvre et affiche la fiche client comme modèle.
-2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Renseignez les champs selon vos besoins. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Pour réutiliser les axes analytiques dans les modèles, sélectionnez l'action **Axes analytiques**. La fenêtre **Modèles axe** s'ouvre et affiche tous les codes axe qui sont définis pour le client.
 4. Modifiez ou entrez les codes axe s'appliquant aux nouvelles fiches client créées à l'aide du modèle.  
 5. Lorsque vous avez terminé le nouveau modèle client, cliquez sur le bouton **OK**.

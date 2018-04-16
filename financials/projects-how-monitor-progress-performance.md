@@ -41,7 +41,7 @@ Vous pouvez créer une méthode TEC projet qui reflète les besoins de votre org
 > Après avoir utilisé la nouvelle méthode pour créer des écritures TEC, vous ne pouvez pas supprimer la méthode ou la modifier.  
 
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Méthodes TEC projet**, puis sélectionnez le lien connexe.  
-2. Cliquez sur **Nouveau**, puis renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Cliquez sur **Nouveau**, puis renseignez les champs selon vos besoins. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Fermez la fenêtre.   
 4. Pour faire de cette nouvelle méthode la valeur par défaut, sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Paramètres projets**, puis sélectionnez le lien connexe.  
 5. Dans le champ **Méthode TEC par défaut**, choisissez la méthode de la liste.

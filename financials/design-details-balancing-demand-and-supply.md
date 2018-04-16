@@ -25,7 +25,7 @@ Pour comprendre comment fonctionne le système de planification, il est nécessa
 - La demande sera satisfaite par une offre suffisante.  
 - Tout approvisionnement répond à une finalité.  
 
- En général, ces objectifs sont atteints en équilibrant l'approvisionnement avec la demande.  
+  En général, ces objectifs sont atteints en équilibrant l'approvisionnement avec la demande.  
 
 ## <a name="in-this-section"></a>Dans cette section  
 [Détails de conception : demande et approvisionnement](design-details-demand-and-supply.md)  

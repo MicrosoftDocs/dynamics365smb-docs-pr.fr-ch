@@ -42,7 +42,7 @@ Utilisez les numéros de frais annexes pour distinguer les différents types de 
 
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Frais annexes**, puis sélectionnez le lien connexe.
 2. Dans la fenêtre **Frais annexes**, sélectionnez l'action **Nouveau** pour créer ligne.
-3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Renseignez les champs selon vos besoins. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a>Pour affecter des frais annexes directement à la facture achat pour l'article
 Si vous connaissez les frais annexes au moment de valider une facture achat pour l'article, procédez comme suit.
@@ -53,7 +53,7 @@ Si vous connaissez les frais annexes au moment de valider une facture achat pour
 4. Sur une nouvelle ligne, dans le champ **Type**, sélectionnez **Frais annexes**.
 5. Dans le champ **Quantité**, saisissez les unités de ces frais annexes qui vous ont été facturées.
 6. Dans le champ **Coût unitaire direct**, saisissez le montant des frais annexes.
-7. Renseignez les champs restants selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+7. Renseignez les champs restants selon vos besoins. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     Dans les étapes suivantes, vous créez l'affectation réelle. Jusqu'à ce que les frais annexes soient entièrement affectés, la valeur dans le champ **Qté à affecter** est en rouge.
 8. Sur le raccourci **Lignes**, cliquez sur l'action **Affectation frais annexes**.

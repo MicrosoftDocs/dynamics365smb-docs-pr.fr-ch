@@ -55,7 +55,7 @@ Vous pouvez remplir les champs relatifs au client sur la commande vente de deux 
 7. Lorsque vous avez terminé la fiche client, cliquez sur le bouton **OK** pour revenir à la fenêtre **Commande vente**.
 
     Plusieurs champs de la commande vente sont désormais renseignés avec les informations que vous avez spécifiées sur la nouvelle fiche client.
-8. Renseignez les champs restants de la fenêtre **Commande vente**, selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+8. Renseignez les champs restants de la fenêtre **Commande vente**, selon vos besoins. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     Vous êtes maintenant prêt à renseigner les lignes commande vente avec les articles en stock ou les services que vous voulez vendre au client.
 
@@ -64,7 +64,7 @@ Vous pouvez remplir les champs relatifs au client sur la commande vente de deux 
 10. Dans le champ **Quantité**, saisissez le nombre d'articles à vendre.
 
     > [!NOTE]  
->   Pour les articles de type Service, la quantité est une unité de temps, telle que les heures, comme indiqué dans le champ **Code unité de la ligne**.
+    >   Pour les articles de type Service, la quantité est une unité de temps, telle que les heures, comme indiqué dans le champ **Code unité de la ligne**.
 
     Le champ **Montant ligne** est mis à jour pour indiquer la valeur du champ **Prix unitaire** multipliée par la valeur du champ **Quantité**.
 
@@ -79,12 +79,12 @@ Vous pouvez remplir les champs relatifs au client sur la commande vente de deux 
 14. Une nouvelle fiche client affiche des informations sur le modèle client sélectionné. Renseignez les champs restants. Pour plus d'informations, reportez vous à [Enregistrer de nouveaux clients](sales-how-register-new-customers.md).  
 15. Lorsque vous avez terminé la fiche client, cliquez sur le bouton **OK** pour revenir à la fenêtre **Commande vente**.
 
-   Plusieurs champs de la commande vente sont désormais renseignés avec les informations que vous avez spécifiées sur la nouvelle fiche client.  
-16. Renseignez les champs restants de la fenêtre **Commande vente**, selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+    Plusieurs champs de la commande vente sont désormais renseignés avec les informations que vous avez spécifiées sur la nouvelle fiche client.  
+16. Renseignez les champs restants de la fenêtre **Commande vente**, selon vos besoins. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-   Vous êtes maintenant prêt à renseigner les lignes commande vente pour les produits que vous vendez au client ou pour toute transaction avec le client que vous souhaitez enregistrer dans un compte général.   
+    Vous êtes maintenant prêt à renseigner les lignes commande vente pour les produits que vous vendez au client ou pour toute transaction avec le client que vous souhaitez enregistrer dans un compte général.   
 
-   Si vous avez défini des lignes vente récurrentes pour le client, tel qu'un ordre de réapprovisionnement mensuel, vous pouvez insérer ces lignes sur la commande par l'intermédiaire de l'action **Extraire les lignes vente récurrentes**.  
+    Si vous avez défini des lignes vente récurrentes pour le client, tel qu'un ordre de réapprovisionnement mensuel, vous pouvez insérer ces lignes sur la commande par l'intermédiaire de l'action **Extraire les lignes vente récurrentes**.  
 17. Sous le raccourci **Lignes**, dans le champ **Type**, sélectionnez le type de produit, de frais ou de transaction à valider pour le client avec la ligne vente.
 18. Dans le champ **N°**, sélectionnez un enregistrement à valider en fonction de la valeur du champ **Type**.
 
@@ -94,7 +94,7 @@ Vous pouvez remplir les champs relatifs au client sur la commande vente de deux 
 19. Dans le champ **Quantité**, entrez le nombre d'unités du produit, de frais ou de la transaction que la ligne enregistre pour le client.  
 
     > [!NOTE]  
->   Si l'article est de type **Article - Service** ou **Ressource**, la quantité est une unité de temps, telle que les heures, comme indiqué dans le champ **Code unité de la ligne**. Pour plus d'informations, reportez-vous à [Configuration d'unités article](inventory-how-setup-units-of-measure.md).
+    >   Si l'article est de type **Article - Service** ou **Ressource**, la quantité est une unité de temps, telle que les heures, comme indiqué dans le champ **Code unité de la ligne**. Pour plus d'informations, reportez-vous à [Configuration d'unités article](inventory-how-setup-units-of-measure.md).
 
     La valeur du champ **Montant ligne** est calculée comme suit : *Prix unitaire* x *Quantité*.  
 

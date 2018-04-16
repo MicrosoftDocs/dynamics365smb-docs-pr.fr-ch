@@ -32,7 +32,7 @@ Les vues analytiques affichent une combinaison sélectionnée d'axes analytiques
 
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Vues d'analyse**, puis sélectionnez le lien connexe.  
 2. Dans la fenêtre **Liste des vues d'analyse**, cliquez sur l'action **Nouveau**.
-3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Renseignez les champs selon vos besoins. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Pour ajouter des codes axe aux quatre codes du raccourci **Axes analytiques**, cliquez sur **Filtre**, renseignez les champs et cliquez sur **OK**.  
 5. Pour mettre à jour la vue, choisissez l'action **Mettre à jour**.
 

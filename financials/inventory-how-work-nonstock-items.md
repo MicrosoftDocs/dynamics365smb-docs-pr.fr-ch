@@ -34,7 +34,7 @@ Les fiches article non stocké ont moins d'informations que les fiches article n
 
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Articles non stockés**, puis sélectionnez le lien connexe.
 2. Sélectionnez l'action **Nouveau**.
-3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Renseignez les champs selon vos besoins. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-up-how-nonstock-item-numbers-are-converted-to-your-own-numbering"></a>Pour configurer comment les numéros d'article non stocké sont convertis en votre propre numérotation
 Pour activer la conversion d'une fiche article non stocké en une fiche article normale, vous devez tout d'abord configurer comment la numérotation de l'article fournisseur est convertie dans votre propre format de numérotation d'article.

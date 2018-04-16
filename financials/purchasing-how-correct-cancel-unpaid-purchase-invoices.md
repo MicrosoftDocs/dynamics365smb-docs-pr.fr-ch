@@ -31,7 +31,7 @@ Dans la fenêtre **Facture achat enregistrée**, vous pouvez cliquer sur le bout
 2. Sélectionnez la facture achat validée à corriger.  
 
     > [!NOTE]  
->   Si la case à cocher **Annulé** est activée, vous ne pouvez pas corriger la facture achat validée car elle l'a déjà été, ou a été annulée.
+   >   Si la case à cocher **Annulé** est activée, vous ne pouvez pas corriger la facture achat validée car elle l'a déjà été, ou a été annulée.
 3. Dans la fenêtre **Facture achat enregistrée** sélectionnez **Corriger**.
 
     Une nouvelle facture achat avec les mêmes informations et dans laquelle vous pouvez apporter une correction est créée. Pour plus d'informations, voir [Enregistrer des achats](purchasing-how-record-purchases.md). La valeur du champ **Annulé** de la facture achat validée initiale devient **Oui**.
@@ -44,7 +44,7 @@ Dans la fenêtre **Facture achat enregistrée**, vous pouvez cliquer sur le bout
 2. Sélectionnez la facture achat validée à annuler.
 
     > [!NOTE]  
->   Si la case à cocher **Annulé** est activée, vous ne pouvez pas annuler la facture achat validée car elle l'a déjà été, ou a été corrigée.
+   >   Si la case à cocher **Annulé** est activée, vous ne pouvez pas annuler la facture achat validée car elle l'a déjà été, ou a été corrigée.
 3. Dans la fenêtre **Facture achat enregistrée** sélectionnez **Annuler**.
 
     Un avoir achat est automatiquement créé et validé pour annuler la facture achat validée initiale. La valeur du champ **Annulé** de la facture achat validée initiale devient **Oui**.

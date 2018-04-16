@@ -38,7 +38,7 @@ Sur une ligne feuille rapprochement bancaire dont le paiement a été défini su
 4. Dans le champ **Correspondance texte**, saisissez n'importe quel texte se produisant sur les paiements que vous souhaitez valider dans les comptes spécifiés sans les appliquer à une écriture ouverte. Vous pouvez entrer jusqu'à 50 caractères.
 
     > [!NOTE]  
->   Si aucun autre paiement n'existe avec le texte de mappage en question, le mappage du texte avec le compte surviendra uniquement lorsqu'une seule partie du texte de paiement existe en tant que texte de mappage.
+   >   Si aucun autre paiement n'existe avec le texte de mappage en question, le mappage du texte avec le compte surviendra uniquement lorsqu'une seule partie du texte de paiement existe en tant que texte de mappage.
 5. Dans le champ **N° fournisseur**, entrez le fournisseur pour lequel les paiements seront validés.
 6. Dans le champ **Type origine solde**, indiquez si le paiement est validé dans un compte général ou dans un compte client ou fournisseur.
 7. Dans le champ **N° origine solde**, indiquez le compte dans lequel le paiement est validé, en fonction de votre sélection dans le champ **Type origine solde**.
@@ -57,7 +57,7 @@ Pour toujours valider les frais de carburant encourus aux stations service Shell
 | --- | --- | --- | --- | --- |
 | Shell |VIDE |8510 |Compte général |VIDE |
 
-> [!TIP]  
+> [!TIP]
 >   Pour plus d'informations sur l'utilisation des champs et des colonnes, voir [Utilisation de [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md). Pour plus d'informations sur la recherche de pages spécifiques, voir [Rechercher](ui-search.md).
 
 ## <a name="see-also"></a>Voir aussi

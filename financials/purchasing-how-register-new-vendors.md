@@ -36,7 +36,7 @@ Les fiches fournisseur contiennent les informations requises pour acheter des pr
     Si plusieurs modèles de fournisseur existent, une fenêtre s'affiche et vous permet de sélectionner un modèle fournisseur. Dans ce cas, suivez les deux étapes suivantes.
 3. Dans la fenêtre **Sélectionnez un modèle pour un nouveau fournisseur**, sélectionnez le modèle que vous souhaitez utiliser pour la nouvelle fiche fournisseur.
 4. Cliquez sur le bouton **OK**. Une nouvelle fiche fournisseur avec certains champs contenant les informations provenant de ce modèle s'ouvre.
-5. Renseignez ou modifiez les champs de la fiche fournisseur selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. Renseignez ou modifiez les champs de la fiche fournisseur selon vos besoins. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
 >   Si vous ne savez pas l'adresse de facturation qui sera utilisée pour chaque facture d'un fournisseur, ne renseignez pas le champ **Paiement**. Sélectionnez plutôt le numéro du fournisseur à payer après avoir configuré une demande de prix, une commande ou un en-tête facture.
@@ -47,7 +47,7 @@ Si vous souhaitez utiliser cette fiche fournisseur comme modèle lorsque vous cr
 
 ## <a name="to-save-the-vendor-card-as-a-template"></a>Pour enregistrer la fiche fournisseur en tant que modèle
 1. Dans la fenêtre **Fiche fournisseur**, sélectionnez l'action **Sauvegarder comme modèle**. La fenêtre **Modèle fournisseur** s'ouvre et affiche la fiche fournisseur comme modèle.
-2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Renseignez les champs selon vos besoins. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Pour réutiliser les axes analytiques dans les modèles, sélectionnez l'action **Axes analytiques**. La fenêtre **Modèles axe** s'ouvre et affiche tous les codes axe qui sont définis pour le fournisseur.
 4. Modifiez ou entrez les codes axe s'appliquant aux nouvelles fiches fournisseur créées à l'aide du modèle.
 5. Lorsque vous avez terminé le nouveau modèle fournisseur, cliquez sur le bouton **OK**.  

@@ -56,6 +56,6 @@ Bien que les coûts soient automatiquement validés en comptabilité, il est mal
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+## [!INCLUDE [d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE [d365fin](includes/training_link_md.md)]
 

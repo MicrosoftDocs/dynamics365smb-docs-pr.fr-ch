@@ -35,17 +35,17 @@ Le plan des types de coûts a la même fonction que le plan comptable général.
     >  La fonction **Enregistrer les types de coûts dans le plan comptable** met à jour la relation entre le plan comptable et le plan des types de coûts. Le champ **N°** est renseigné et vérifié pour s'assurer que chaque compte général est lié à un seul type de coût. La fonction est automatiquement exécutée avant le transfert des écritures comptables vers la comptabilité analytique.  
 
 ## <a name="to-set-up-new-cost-types-in-the-chart-of-cost-types-window"></a>Pour configurer de nouveaux types de coût dans la fenêtre Plan comptable des types de coûts  
-1.  Ouvrez la fenêtre **Plan comptable des types de coûts** en mode édition.  
-2.  Renseignez les champs comme décrit selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. Ouvrez la fenêtre **Plan comptable des types de coûts** en mode édition.  
+2. Renseignez les champs comme décrit selon vos besoins. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-    > [!NOTE]  
-    >  Vous pouvez configurer et gérer les types de coût, soit dans la fenêtre **Fiche type de coût**, soit dans la fenêtre **Plan comptable des types de coûts**. Dans cette procédure, vous configurez de nouveaux types de coût dans la fenêtre **Plan comptable des types de coûts**.
+   > [!NOTE]  
+   >  Vous pouvez configurer et gérer les types de coût, soit dans la fenêtre **Fiche type de coût**, soit dans la fenêtre **Plan comptable des types de coûts**. Dans cette procédure, vous configurez de nouveaux types de coût dans la fenêtre **Plan comptable des types de coûts**.
 
-3.  Après avoir créé tous les types de coûts, choisissez l'action **Indenter les types de coûts**. Dans la boîte de dialogue, cliquez sur **Oui**.  
-4.  Liez le nouveau type de coût au compte général correspondant.  
+3. Après avoir créé tous les types de coûts, choisissez l'action **Indenter les types de coûts**. Dans la boîte de dialogue, cliquez sur **Oui**.  
+4. Liez le nouveau type de coût au compte général correspondant.  
 
-    > [!IMPORTANT]  
-    >  Si vous avez entré des définitions dans les champs **Totalisation** pour le type de ligne **Fin total** avant d'exécuter la fonction **Indenter les types de coûts**, vous devez les entrer à nouveau car cette fonction remplace les valeurs de tous les champs **Fin total**.  
+   > [!IMPORTANT]  
+   >  Si vous avez entré des définitions dans les champs **Totalisation** pour le type de ligne **Fin total** avant d'exécuter la fonction **Indenter les types de coûts**, vous devez les entrer à nouveau car cette fonction remplace les valeurs de tous les champs **Fin total**.  
 
 ## <a name="to-update-cost-types"></a>Pour mettre à jour les types de coûts  
 1.  Dans la fenêtre **Paramètres comptabilité analytique**, indiquez si vous souhaitez que le plan des types de coûts soit mis à jour automatiquement lorsque le plan comptable est modifié.  

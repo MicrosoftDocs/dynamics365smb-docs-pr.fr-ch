@@ -25,7 +25,7 @@ L'utilisation de tâches standard simplifie la création et la maintenance des g
 ## <a name="to-set-up-a-standard-task"></a>Pour configurer une tâche standard
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Tâches standard**, puis sélectionnez le lien connexe.
 2. Sélectionnez l'action **Nouveau**.
-3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Renseignez les champs selon vos besoins. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Choisissez l'action **Outils**, **Qualifications**, **Description** ou **Outils**.
 5. Dans la fenêtre qui s'ouvre, décrivez la tâche standard en question.
 

@@ -30,7 +30,7 @@ Lorsqu'un client souhaite connaître le prix d'un projet qui sera facturé en fo
 1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Projets**, puis choisissez le lien associé.  
 2. Ouvrez le projet approprié.
 3. Sélectionnez une ligne tâche de type Validation, puis cliquez sur **Lignes planning projet**.
-4. Sur une nouvelle ligne, renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]   
+4. Sur une nouvelle ligne, renseignez les champs selon vos besoins. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]   
 
 Reportez-vous aux informations suivantes pour le champ **Type ligne**.  
 

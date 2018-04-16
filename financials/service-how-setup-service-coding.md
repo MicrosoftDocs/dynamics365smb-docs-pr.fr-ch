@@ -28,12 +28,12 @@ Lorsque vous exécutez un service courant, il est fréquent que vous deviez cré
   
 ## <a name="to-set-up-a-standard-service-code"></a>Pour configurer un code prestation standard    
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Codes prestation standard**, puis sélectionnez le lien connexe.  
-2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-4. Renseignez les lignes service liées à ce code prestation.  
+2. Renseignez les champs selon vos besoins. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. Renseignez les lignes service liées à ce code prestation.  
 
 ## <a name="to-assign-a-standard-service-code-to-a-service-item-group"></a>Pour affecter un code prestation standard à un groupe articles de service
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Groupes articles de service**, puis sélectionnez le lien connexe.  
-2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Renseignez les champs selon vos besoins. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Renseignez les lignes service liées à ce code prestation.  
 
 ## <a name="see-also"></a>Voir aussi

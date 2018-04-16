@@ -27,7 +27,7 @@ Si vous configurez les champs pour la maintenance, vous pouvez valider des frais
 
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Immobilisations**, puis sélectionnez le lien connexe.
 2. Sélectionnez l'immobilisation pour laquelle vous souhaitez définir la couverture d'assurance, puis sélectionnez l'action **Modifier**.
-3. Sur le raccourci **Maintenance**, complétez les champs, comme nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Sur le raccourci **Maintenance**, complétez les champs, comme nécessaire. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-up-maintenance-codes"></a>Pour configurer des codes maintenance
 Lorsque vous validez des coûts de maintenance à partir d'une feuille comptabilité, vous renseignez le champ **Code maintenance** pour enregistrer le type de maintenance effectuée, telle qu'un service de routine ou une réparation.

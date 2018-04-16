@@ -29,7 +29,7 @@ Lorsque vous sélectionnez l'action **Valider et envoyer** dans un document vent
 ## <a name="to-set-up-a-document-sending-profile"></a>Configurer un profil d'envoi de documents
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Profils d'envoi de documents**, puis sélectionnez le lien connexe.
 2. Dans la fenêtre **Profils d'envoi de documents**, sélectionnez l'action **Nouveau**.
-3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Renseignez les champs selon vos besoins. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-specify-a-sending-profile-on-a-customer-card"></a>Spécifier un profil d'envoi pour une fiche client
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Clients**, puis sélectionnez le lien connexe.

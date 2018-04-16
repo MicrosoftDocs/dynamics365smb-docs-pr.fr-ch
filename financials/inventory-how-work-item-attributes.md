@@ -30,7 +30,7 @@ Vous pouvez également allouer les attributs d'article aux catégories d'article
 ## <a name="to-create-item-attributes"></a>Pour créer des attributs d'article
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Attributs article**, puis sélectionnez le lien connexe.
 2. Dans la fenêtre **Attributs d'article**, sélectionnez l'action **Nouveau**.
-3. Dans la fenêtre **Attribut article**, renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Dans la fenêtre **Attribut article**, renseignez les champs selon vos besoins. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
 >   Si vous sélectionnez **Option** dans le champ **Type**, vous pouvez sélectionner l'action **Valeurs attribut article** afin de créer des valeurs pour l'attribut d'article. Pour en savoir plus, voir la section « Pour créer des valeurs pour les attributs d'article de type Option ».  
@@ -38,7 +38,7 @@ Vous pouvez également allouer les attributs d'article aux catégories d'article
 ## <a name="to-create-values-for-item-attributes-of-type-option"></a>Pour créer des valeurs pour les attributs d'article de type Option
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Attributs article**, puis sélectionnez le lien connexe.
 2. Dans la fenêtre **Attributs article**, sélectionnez un attribut d'article de type **Option** pour lequel vous souhaitez créer des valeurs, puis sélectionnez l'option **Valeurs attribut article**.
-3. Dans la fenêtre **Valeurs attribut article**, renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Dans la fenêtre **Valeurs attribut article**, renseignez les champs selon vos besoins. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-item-attributes-to-items"></a>Pour allouer des attributs article à des articles
 1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Articles**, puis sélectionnez le lien connexe.
@@ -67,7 +67,7 @@ Vous pouvez également allouer les attributs d'article aux catégories d'article
 4. Dans le champ **Valeur**, cliquez sur le bouton de recherche et sélectionnez une valeur d'attribut selon laquelle filtrer les articles.
 
     > [!NOTE]  
->   Vous pouvez uniquement sélectionner des valeurs directement pour les attributs article dotés de valeurs fixes, telles que Couleur. Pour modifier des attributs article dotés de valeurs variables, telles que Largeur, vous devez spécifier la valeur attribut article en sélectionnant d'abord une condition. Reportez-vous à l'étape 5.
+   >   Vous pouvez uniquement sélectionner des valeurs directement pour les attributs article dotés de valeurs fixes, telles que Couleur. Pour modifier des attributs article dotés de valeurs variables, telles que Largeur, vous devez spécifier la valeur attribut article en sélectionnant d'abord une condition. Reportez-vous à l'étape 5.
 5. Dans le champ **Valeur** d'un attribut article variable, cliquez sur le bouton de recherche.
 6. Dans la fenêtre **Spécifier la valeur du filtre**, dans le champ **Condition**, cliquez sur la flèche déroulante et sélectionnez une condition.
 7. Dans le champ **Valeur**, saisissez une valeur attribut selon laquelle filtrer les articles.

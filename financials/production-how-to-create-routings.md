@@ -32,26 +32,26 @@ Pour pouvoir configurer une gamme, les éléments suivants doivent être en plac
 - Les ressources de production sont configurées. Pour plus d'informations, voir [Configurer les centres de charge et les postes de charge](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-routing"></a>Pour créer une gamme  
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Gammes**, puis sélectionnez le lien connexe.  
-2.  Sélectionnez l'action **Nouveau**.  
-3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4.  Dans le champ **Type**, sélectionnez **Série** pour calculer la gamme de fabrication en fonction de la valeur de **N° opération** . .   
-    Sélectionnez **Parallèle** pour calculer les opérations en fonction de la valeur de **Numéro de l'opération suivante**. .  
-5.  Pour modifier la gamme, définissez le champ **Statut** sur **Création en cours** ou sur **Modification en cours**. Pour l'activer, définissez le champ **Statut** sur **Validée**.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Gammes**, puis sélectionnez le lien connexe.  
+2. Sélectionnez l'action **Nouveau**.  
+3. Renseignez les champs selon vos besoins. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. Dans le champ **Type**, sélectionnez **Série** pour calculer la gamme de fabrication en fonction de la valeur de **N° opération** . .   
+   Sélectionnez **Parallèle** pour calculer les opérations en fonction de la valeur de **Numéro de l'opération suivante**. .  
+5. Pour modifier la gamme, définissez le champ **Statut** sur **Création en cours** ou sur **Modification en cours**. Pour l'activer, définissez le champ **Statut** sur **Validée**.  
 
-    Renseignez les lignes gamme.
-6.  Dans le champ **N° opération**, entrez le numéro de la première opération \(par exemple, **10**\).  
-7.  Dans le champ **Type**, sélectionnez le type de ressource utilisé, par exemple, **Centre de charge**.  
-8.  Dans le champ **N°**, sélectionnez la ressource à utiliser, ou entrez\-la.  
-9.  Dans le champ **Code lien gamme**, vous pouvez entrer un code permettant de lier le composant à une opération spécifique. Pour plus d'informations, voir la section « Pour créer des liens gamme ».
-10.  Dans les champs **Temps d'exécution** et **Temps de préparation**, entrez les temps opératoires nécessaires pour exécuter l'opération.  
+   Renseignez les lignes gamme.
+6. Dans le champ **N° opération**, entrez le numéro de la première opération \(par exemple, **10**\).  
+7. Dans le champ **Type**, sélectionnez le type de ressource utilisé, par exemple, **Centre de charge**.  
+8. Dans le champ **N°**, sélectionnez la ressource à utiliser, ou entrez\-la.  
+9. Dans le champ **Code lien gamme**, vous pouvez entrer un code permettant de lier le composant à une opération spécifique. Pour plus d'informations, voir la section « Pour créer des liens gamme ».
+10. Dans les champs **Temps d'exécution** et **Temps de préparation**, entrez les temps opératoires nécessaires pour exécuter l'opération.  
 
     > [!NOTE]  
     >  Le temps de préparation est calculé par O.F., tandis que le temps d'exécution est calculé par article produit.  
 
-11.  Dans le champ **Capacités simultanées** , indiquez combien d'unités de la ressource sélectionnée sont utilisées pour exécuter l'opération. Par exemple, deux personnes affectées à une opération de livraison diviseront par deux le temps d'exécution.  
-12.  Poursuivez le remplissage des lignes pour toutes les opérations intervenant dans la production de l'article en question.  
-13.  Pour copier des lignes à partir d'une gamme existante, choisissez l'action **Copier gamme** pour sélectionner des lignes existantes.  
+11. Dans le champ **Capacités simultanées** , indiquez combien d'unités de la ressource sélectionnée sont utilisées pour exécuter l'opération. Par exemple, deux personnes affectées à une opération de livraison diviseront par deux le temps d'exécution.  
+12. Poursuivez le remplissage des lignes pour toutes les opérations intervenant dans la production de l'article en question.  
+13. Pour copier des lignes à partir d'une gamme existante, choisissez l'action **Copier gamme** pour sélectionner des lignes existantes.  
 14. Certifiez la gamme.  
 15. Vous pouvez désormais lier la nouvelle gamme à la fiche de l'article produit concerné en renseignant le champ **N° gamme**. Pour plus d'informations, reportez vous à [Enregistrer de nouveaux articles](inventory-how-register-new-items.md).  
 

@@ -27,7 +27,7 @@ La procédure suivante indique comment utiliser des lignes ventes standard. Elle
 ## <a name="to-set-up-standard-sales-lines"></a>Configurer des lignes ventes standard  
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Codes vente standard**, puis sélectionnez le lien connexe.  
 2. Dans la fenêtre **Lignes vente standard**, cliquez sur l'action **Nouveau**.  
-3. Sur le raccourci **Général**, complétez les champs, comme nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. Sur le raccourci **Général**, complétez les champs, comme nécessaire. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Dans le raccourci **Lignes**, renseignez les champs pour préparer les lignes ventes qui répercutent les lignes standard que vous prévoyez d'utiliser comme lignes récurrentes sur les documents ventes.  
 
 ## <a name="to-insert-standard-sales-lines-on-a-sales-invoice"></a>Pour insérer des lignes vente standard dans une facture vente

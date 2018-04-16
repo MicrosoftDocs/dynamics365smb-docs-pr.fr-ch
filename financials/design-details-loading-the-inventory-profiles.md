@@ -28,15 +28,15 @@ Pour trier les nombreuses sources de demande et d'approvisionnement, le système
 
  Généralement le système de planification tient compte de toutes les commandes approvisionnement après la date de début de la planification comme susceptibles de changer pour répondre à une demande. Toutefois, dès qu'une quantité est validée à partir d'une commande approvisionnement, elle ne peut plus être modifiée par le système de planification. Par conséquent, les différents ordres suivants ne peuvent pas être replanifiés :  
 
--   Ordres de fabrication lancés où la consommation ou la production a été validée.  
+- Ordres de fabrication lancés où la consommation ou la production a été validée.  
 
--   Ordres d'assemblage où la consommation ou la production a été validée.  
+- Ordres d'assemblage où la consommation ou la production a été validée.  
 
--   Transférez les ordres où l'expédition a été validée.  
+- Transférez les ordres où l'expédition a été validée.  
 
--   Commandes achat dans lesquelles la réception a été validée.  
+- Commandes achat dans lesquelles la réception a été validée.  
 
- Outre le chargement des types d'offre et de demande, certains types sont chargés en fonction de règles et de dépendances spéciales décrites ci-après.  
+  Outre le chargement des types d'offre et de demande, certains types sont chargés en fonction de règles et de dépendances spéciales décrites ci-après.  
 
 ## <a name="item-dimensions-are-separated"></a>Les axes article sont distincts  
  Le programme d'approvisionnement doit être calculé par combinaison des dimensions d'article, comme la variante et le magasin. Toutefois, il n'y a pas de raison de calculer des combinaisons théoriques. Seules ces combinaisons contenant une demande et/ou un approvisionnement doivent être calculées.  

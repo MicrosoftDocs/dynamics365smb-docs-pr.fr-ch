@@ -26,9 +26,9 @@ Vous pouvez utiliser des points de stock pour enregistrer des informations relat
 
 ## <a name="to-set-up-a-stockkeeping-unit"></a>Pour configurer un point de stock  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Points de stock**, puis sélectionnez le lien connexe.  
-2.  Sélectionnez l'action **Nouveau**.  
-3.  Renseignez les champs de la fiche. Les champs suivants sont nécessaires : **N° article**, **Code magasin** et/ou **Code variante**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Points de stock**, puis sélectionnez le lien connexe.  
+2. Sélectionnez l'action **Nouveau**.  
+3. Renseignez les champs de la fiche. Les champs suivants sont nécessaires : **N° article**, **Code magasin** et/ou **Code variante**. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 Après avoir configuré le premier point de stock pour un article, la case à cocher **Point de stock** sur la fiche **Article** est activée.  
 

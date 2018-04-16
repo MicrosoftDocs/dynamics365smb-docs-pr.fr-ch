@@ -26,7 +26,7 @@ Cette rubrique décrit également comment configurer des tâches et les activit�
 
 ## <a name="to-set-up-opportunity-sales-cycle-codes"></a>Pour configurer des cycles de vente opportunité
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Cycles de vente**, puis sélectionnez le lien connexe. La fenêtre **Cycles de vente** s'affiche, et répertorie tous les cycles de vente existants.
-2. Sélectionnez l'action **Nouveau**, puis renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Sélectionnez l'action **Nouveau**, puis renseignez les champs selon vos besoins. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Répétez ces étapes pour chaque cycle de vente à configurer. Une fois les cycles de vente opportunité configurés, vous pouvez définir les différentes étapes de chaque cycle.
 

@@ -72,7 +72,7 @@ Une fois l'expédition entrepôt validée, divers champs de la ligne commande ve
 
 > [!NOTE]
 > Dans les scénarios de combinaison, où une partie de la quantité doit d'abord être assemblée et l'autre doit être expédiée à partir des stocks, deux lignes expédition entrepôt sont créées. L'une est pour la quantité à assembler pour commande et l'autre est destinée à la quantité en stock.
-
+> 
 > Dans ce cas, la quantité à assembler pour commande est traitée comme décrite dans cette rubrique, et la quantité en stock est traitée comme toute autre ligne expédition entrepôt normale. Pour plus d'informations sur les scénarios de combinaison, consultez [Description des processus Assembler pour commande et Assembler pour stock](assembly-assemble-to-order-or-assemble-to-stock.md).
 
 ## <a name="see-also"></a>Voir aussi  

@@ -75,14 +75,14 @@ Même si le champ contient un astérisque rouge, vous n'êtes pas forcé de remp
 # <a name="entering-negative-numbers"></a>Saisie de chiffres négatifs
 Vous pouvez saisir des chiffres négatifs de deux manières. Le numéro -20,5 peut être saisi de la manière suivante :  
 
--   -20,5  
+- -20,5  
 
-    Ou
--   20,5-  
+  Ou
+- 20,5-  
 
- Dans les deux cas, le montant est enregistré comme -20,5.  
+  Dans les deux cas, le montant est enregistré comme -20,5.  
 
- Si le dernier caractère de l'expression est **+** ou **-**, l'expression entière est enregistrée avec ce caractère. Par exemple, **10-20+** aboutira à 10 et non -10.  
+  Si le dernier caractère de l'expression est **+** ou **-**, l'expression entière est enregistrée avec ce caractère. Par exemple, **10-20+** aboutira à 10 et non -10.  
 
 ## <a name="entering-dates-and-times"></a>Saisie de dates et d'heures
 Vous pouvez entrer des dates et des heures dans tous les champs affectés spécifiquement à des dates (champs Date). Vous pouvez saisir les dates avec ou sans séparateurs.
@@ -93,15 +93,15 @@ Vous pouvez entrer des dates et des heures dans tous les champs affectés spéci
 ### <a name="entering-dates"></a>Saisie de dates  
  Vous pouvez saisir deux, quatre, six ou huit chiffres dans un champ date :  
 
--   Si vous ne saisissez que deux chiffres, ils sont interprétés comme le jour, et le mois et l'année de la date de travail sont ajoutés.  
+- Si vous ne saisissez que deux chiffres, ils sont interprétés comme le jour, et le mois et l'année de la date de travail sont ajoutés.  
 
--   Si vous saisissez quatre chiffres, ils sont interprétés comme le jour et le mois, et l'année de la date de travail est ajoutée.  
+- Si vous saisissez quatre chiffres, ils sont interprétés comme le jour et le mois, et l'année de la date de travail est ajoutée.  
 
--   Si la date que vous souhaitez saisir est comprise entre le 01/01/1930 et le 31/12/2029, vous pouvez saisir les deux chiffres de l'année ; sinon saisissez les quatre chiffres.  
+- Si la date que vous souhaitez saisir est comprise entre le 01/01/1930 et le 31/12/2029, vous pouvez saisir les deux chiffres de l'année ; sinon saisissez les quatre chiffres.  
 
- Vous pouvez aussi saisir une date sous forme de jour de la semaine suivi par un numéro de semaine et, éventuellement, une année (par exemple, Lun25 ou lun25 signifie le lundi de la semaine 25).  
+  Vous pouvez aussi saisir une date sous forme de jour de la semaine suivi par un numéro de semaine et, éventuellement, une année (par exemple, Lun25 ou lun25 signifie le lundi de la semaine 25).  
 
- Au lieu de saisir une date spécifique, vous pouvez saisir l'un des deux codes suivants.  
+  Au lieu de saisir une date spécifique, vous pouvez saisir l'un des deux codes suivants.  
 
 |Code|Résultat|  
 |--------------|----------------|  
@@ -202,13 +202,13 @@ Vous pouvez entrer des dates et des heures dans tous les champs affectés spéci
 
  Voici quelques exemples d'utilisation de formules date :  
 
--   La formule date du champ périodicité récurrente des feuilles récurrentes détermine la fréquence de validation de l'écriture de la ligne feuille.  
+- La formule date du champ périodicité récurrente des feuilles récurrentes détermine la fréquence de validation de l'écriture de la ligne feuille.  
 
--   La formule date du champ Période de carence pour un niveau de relance précis détermine la période qui doit se passer entre la date d'échéance (ou la date de la relance précédente) avant la création d'une nouvelle relance.  
+- La formule date du champ Période de carence pour un niveau de relance précis détermine la période qui doit se passer entre la date d'échéance (ou la date de la relance précédente) avant la création d'une nouvelle relance.  
 
--   La formule date du champ Calcul date échéance détermine la manière dont la date d'échéance de la relance est calculée.  
+- La formule date du champ Calcul date échéance détermine la manière dont la date d'échéance de la relance est calculée.  
 
- La formule de calcul de la date peut comprendre un maximum de 20 caractères, des chiffres et des lettres. Vous pouvez utiliser les lettres suivantes qui sont des abréviations de spécifications de temps.  
+  La formule de calcul de la date peut comprendre un maximum de 20 caractères, des chiffres et des lettres. Vous pouvez utiliser les lettres suivantes qui sont des abréviations de spécifications de temps.  
 
 |||  
 |-|-|  

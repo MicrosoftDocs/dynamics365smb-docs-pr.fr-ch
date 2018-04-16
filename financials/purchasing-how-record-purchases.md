@@ -48,17 +48,17 @@ Vous pouvez remplir les champs relatifs au fournisseur sur la facture achat de d
 8. Une fois que vous avez terminé la fiche fournisseur, cliquez sur le bouton **OK** pour revenir à la fenêtre **Facture achat**.
 
     Plusieurs champs de la fenêtre **Facture achat** sont renseignés avec les informations que vous avez spécifiées sur la nouvelle fiche fournisseur.
-9. Renseignez les champs restants de la fenêtre **Facture achat**, selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+9. Renseignez les champs restants de la fenêtre **Facture achat**, selon vos besoins. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     Vous êtes maintenant prêt à renseigner les lignes facture achat avec les articles en stock ou les services que vous avez achetés au fournisseur.
 
     > [!NOTE]  
->   Si vous avez défini des lignes achat récurrentes pour le fournisseur, par exemple un ordre de réapprovisionnement mensuel, vous pouvez insérer ces lignes sur la facture par l'intermédiaire de l'action **Extraire les lignes achat récurrentes**.
+   >   Si vous avez défini des lignes achat récurrentes pour le fournisseur, par exemple un ordre de réapprovisionnement mensuel, vous pouvez insérer ces lignes sur la facture par l'intermédiaire de l'action **Extraire les lignes achat récurrentes**.
 10. Dans le raccourci **Lignes**, dans le champ **N° article**, entrez le numéro d'un article de stock ou d'un service.
 11. Dans le champ **Quantité**, indiquez le nombre d'articles à acheter.
 
     > [!NOTE]  
->   Pour les articles de type **Service**, la quantité est une unité de temps, telle que les heures, comme indiqué dans le champ **Code unité** de la ligne.
+    >   Pour les articles de type **Service**, la quantité est une unité de temps, telle que les heures, comme indiqué dans le champ **Code unité** de la ligne.
 
     Le champ **Montant ligne** est mis à jour pour indiquer la valeur du champ **Coût unitaire direct** multipliée par la valeur du champ **Quantité**.
 
@@ -66,7 +66,7 @@ Vous pouvez remplir les champs relatifs au fournisseur sur la facture achat de d
 12. Dans le champ **Montant remise facture**, entrez un montant qui doit être déduit de la valeur indiquée dans le champ **Total TTC** au bas de la facture.
 
     > [!NOTE]  
->   Si vous avez défini des remises facture pour le fournisseur, le pourcentage spécifié est automatiquement inséré dans le champ **% remise facture fournisseur** si les critères sont réunis, et le montant associé est inséré dans le champ **Montant remise facture**.
+    >   Si vous avez défini des remises facture pour le fournisseur, le pourcentage spécifié est automatiquement inséré dans le champ **% remise facture fournisseur** si les critères sont réunis, et le montant associé est inséré dans le champ **Montant remise facture**.
 13. Lorsque vous recevez les articles ou services achetés, sélectionnez **Valider**.
 
 L'achat est désormais visible dans le stock et les enregistrements financiers, et le paiement fournisseur est activé. La facture achat est supprimée de la liste des factures achat et remplacée par un nouveau document dans la liste des factures achat validées.

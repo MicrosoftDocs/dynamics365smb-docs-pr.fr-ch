@@ -26,11 +26,11 @@ Des transactions antidatées ou des ajustement des coûts affectent souvent les 
 
  Pour s'assurer que toutes les écritures de transaction dans une période clôturée sont finales, les conditions suivantes doivent être remplies avant qu'une période d'inventaire ne soit fermée :  
 
--   Toutes les écritures comptables article sortantes de la période doivent être fermées (aucun stock négatif).  
--   Tous les coûts des articles pour la période doivent être ajustés.  
--   Tous les ordres de fabrication lancés et terminés dans la période doivent faire l'objet d'un ajustement des coûts.  
+- Toutes les écritures comptables article sortantes de la période doivent être fermées (aucun stock négatif).  
+- Tous les coûts des articles pour la période doivent être ajustés.  
+- Tous les ordres de fabrication lancés et terminés dans la période doivent faire l'objet d'un ajustement des coûts.  
 
- Lorsque vous fermez une période inventaire, une écriture période d'inventaire est créée à l'aide du numéro du dernier enregistrement article tombant dans la période d'inventaire. En outre, le délai, la date et le code utilisateur de l'utilisateur clôturant la période sont enregistrés dans l'écriture période inventaire. À l'aide des informations associée au dernier historique article de la période précédente, vous pouvez visualiser les mouvements de stock qui ont été validés pour la période inventaire. Il est également possible de rouvrir des périodes inventaire si vous devez valider dans une période clôturée. Lorsque vous rouvrez une période inventaire, une écriture période inventaire est créée.  
+  Lorsque vous fermez une période inventaire, une écriture période d'inventaire est créée à l'aide du numéro du dernier enregistrement article tombant dans la période d'inventaire. En outre, le délai, la date et le code utilisateur de l'utilisateur clôturant la période sont enregistrés dans l'écriture période inventaire. À l'aide des informations associée au dernier historique article de la période précédente, vous pouvez visualiser les mouvements de stock qui ont été validés pour la période inventaire. Il est également possible de rouvrir des périodes inventaire si vous devez valider dans une période clôturée. Lorsque vous rouvrez une période inventaire, une écriture période inventaire est créée.  
 
 ## <a name="see-also"></a>Voir aussi  
  [Détails de conception : Coûts ajustés](design-details-inventory-costing.md) [Gestion des coûts ajustés](finance-manage-inventory-costs.md) [Finance](finance.md)  

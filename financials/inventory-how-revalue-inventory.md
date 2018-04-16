@@ -25,7 +25,7 @@ Pour réévaluer ou amortir un article ou une écriture comptable article spéci
 ## <a name="to-revalue-inventory"></a>Pour réévaluer le stock
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille réévaluation**, puis sélectionnez le lien connexe.
 2. Choisissez l'action **Calculer valeur stock**.
-3. Dans la fenêtre **Calculer valeur stock**, renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Dans la fenêtre **Calculer valeur stock**, renseignez les champs selon vos besoins. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Cliquez sur le bouton **OK**.
 5. Sur chaque ligne de la fenêtre **Feuille réévaluation**, indiquez le nouveau coût unitaire dans le champ **Coût unitaire (réévalué)**. Vous pouvez aussi indiquer le nouveau montant total dans le champ **Valeur stock (réévaluée)**.
 

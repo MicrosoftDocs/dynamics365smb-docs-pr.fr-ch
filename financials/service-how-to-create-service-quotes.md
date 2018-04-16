@@ -30,8 +30,8 @@ Vous pouvez utiliser un devis service comme brouillon d'une commande service, et
 3. Dans le champ **N°**, saisissez le numéro du devis service. Si vous avez configuré une souche de numéros pour les devis service dans la fenêtre **Paramètres Gestion des services,** vous pouvez appuyer sur Entrée pour renseigner le numéro devis service suivant.  
 4. Dans le champ **N° client**,  sélectionnez le client approprié dans la liste.  
 
-  > [!Note]  
-  >  Les champs de client sont automatiquement renseignés avec les informations de la fiche **Client**. Si une fiche **Client** n'existe pas pour le client et que vous avez configuré un modèle client, vous pouvez créer le client à partir du devis service. Renseignez les champs appropriés, puis choisissez l'action **Créer client**.  
+   > [!Note]  
+   >  Les champs de client sont automatiquement renseignés avec les informations de la fiche **Client**. Si une fiche **Client** n'existe pas pour le client et que vous avez configuré un modèle client, vous pouvez créer le client à partir du devis service. Renseignez les champs appropriés, puis choisissez l'action **Créer client**.  
   
 5. Selon les paramètres du raccourci **Champs obligatoires** de la fenêtre **Paramètres Gestion des services**, vous pouvez être amené à renseigner le champ **Type commande service** et le champ **Code vendeur**.  
 6. Renseignez les lignes article de service.  

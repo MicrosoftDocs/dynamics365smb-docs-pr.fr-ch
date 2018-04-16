@@ -32,7 +32,7 @@ En comptabilité analytique, vous travaillez avec des budgets de coûts de mani�
 
 ## <a name="to-create-a-new-gl-budget"></a>Pour créer un budget comptabilité  
 1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Budgets**, puis choisissez le lien associé.  
-2. Cliquez sur **Modifier la liste**, puis renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Cliquez sur **Modifier la liste**, puis renseignez les champs selon vos besoins. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Sélectionnez **Modifier budget**.
 4. En haut de la fenêtre **Budget**, renseignez les champs nécessaires pour définir ce qui est affiché.  
 

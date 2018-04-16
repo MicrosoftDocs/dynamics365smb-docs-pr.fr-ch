@@ -31,21 +31,21 @@ Imaginez que chaque profil de stock contient une chaîne d'événements de deman
   
      Si le délai de l'approvisionnement n'est pas approprié, l'approvisionnement peut être replanifié par exemple comme suit :  
   
-    1.  Si l'approvisionnement est placé avant la demande, l'approvisionnement peut éventuellement être replanifié en sortie pour que le stock soit le plus bas possible.  
-    2.  Si l'approvisionnement est placé après la demande, l'approvisionnement peut éventuellement être replanifié en entrée. Sinon, le système suggère un nouvel approvisionnement.  
-    3.  Si l'approvisionnement satisfait la demande à la date, le système de planification peut continuer à chercher si la quantité de l'approvisionnement peut couvrir la demande.  
+   1. Si l'approvisionnement est placé avant la demande, l'approvisionnement peut éventuellement être replanifié en sortie pour que le stock soit le plus bas possible.  
+   2. Si l'approvisionnement est placé après la demande, l'approvisionnement peut éventuellement être replanifié en entrée. Sinon, le système suggère un nouvel approvisionnement.  
+   3. Si l'approvisionnement satisfait la demande à la date, le système de planification peut continuer à chercher si la quantité de l'approvisionnement peut couvrir la demande.  
   
-     Une fois que le délai est en place, la quantité appropriée à approvisionner peut être calculée comme suit :  
+      Une fois que le délai est en place, la quantité appropriée à approvisionner peut être calculée comme suit :  
   
-    1.  Si la quantité d'approvisionnement est inférieure à la demande, il est possible que la quantité d'approvisionnement puisse être augmentée (ou pas, si limitée par une stratégie de quantité maximum).  
-    2.  Si la quantité d'approvisionnement est supérieure à la demande, il est possible que la quantité d'approvisionnement puisse être diminuée (ou pas, si limitée par une stratégie de quantité minimum).  
+   4. Si la quantité d'approvisionnement est inférieure à la demande, il est possible que la quantité d'approvisionnement puisse être augmentée (ou pas, si limitée par une stratégie de quantité maximum).  
+   5. Si la quantité d'approvisionnement est supérieure à la demande, il est possible que la quantité d'approvisionnement puisse être diminuée (ou pas, si limitée par une stratégie de quantité minimum).  
   
-     A ce stade, l'une de ces deux situations existe :  
+      A ce stade, l'une de ces deux situations existe :  
   
-    1.  La demande actuelle peut être couverte, dans ce cas, elle peut être clôturée et la planification des demandes suivantes peut commencer.  
-    2.  L'approvisionnement a atteint son maximum, en laissant une partie de la quantité de demande non couverte. Dans ce cas, le système de planification peut clôturer l'approvisionnement actif et passer au suivant.  
+   6. La demande actuelle peut être couverte, dans ce cas, elle peut être clôturée et la planification des demandes suivantes peut commencer.  
+   7. L'approvisionnement a atteint son maximum, en laissant une partie de la quantité de demande non couverte. Dans ce cas, le système de planification peut clôturer l'approvisionnement actif et passer au suivant.  
   
- La procédure recommence à la demande suivante et à l'approvisionnement actif ou vice versa. L'approvisionnement actif peut peut-être couvrir cette demande suivante également, ou la demande actuelle n'a pas encore été entièrement couverte.  
+   La procédure recommence à la demande suivante et à l'approvisionnement actif ou vice versa. L'approvisionnement actif peut peut-être couvrir cette demande suivante également, ou la demande actuelle n'a pas encore été entièrement couverte.  
   
 ## <a name="rules-concerning-actions-for-supply-events"></a>Règles en ce qui concerne les actions pour les événements d'approvisionnement  
 Lorsque le système de planification effectue un calcul hiérarchisé dans lequel l'approvisionnement doit répondre à la demande, la demande est considérée comme sûr, c'est-à-dire qu'elle se trouve en dehors du contrôle du système de planification. Cependant, le côté approvisionnement peut être géré. Par conséquent, le système de planification suggère de créer de nouvelles commandes approvisionnement, reprogrammant celles existantes et/ou modifiant la quantité de commande. Si une commande approvisionnement existante devient superflue, le système de planification suggère à l'utilisateur de l'annuler.  

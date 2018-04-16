@@ -30,7 +30,7 @@ Si vous créez des transactions de vente intersociétés incluant des ressources
 
 ## <a name="to-set-up-companies-for-intercompany-transactions"></a>Pour configurer des sociétés pour les transactions intersociétés
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Informations société**, puis sélectionnez le lien connexe.  
-2. Dans la fenêtre **Informations société**, renseignez les champs **Code Partenaire Intersociétés**, **Type de boîte de réception Intersociétés** et **Détails boîte de réception intersociétés**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Dans la fenêtre **Informations société**, renseignez les champs **Code Partenaire Intersociétés**, **Type de boîte de réception Intersociétés** et **Détails boîte de réception intersociétés**. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-intercompany-partners"></a>Pour paramétrer les partenaires intersociétés
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Partenaires Intersociétés**, puis sélectionnez le lien connexe.

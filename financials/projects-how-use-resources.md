@@ -29,7 +29,7 @@ Vous pouvez affecter des ressources aux projets en créant des lignes planning p
 
 ## <a name="to-record-resource-usage-for-a-job"></a>Pour enregistrer l'utilisation des ressources pour un projet
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuilles projet**, puis sélectionnez le lien connexe.
-2. Ouvrez la feuille projet appropriée, puis complétez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Ouvrez la feuille projet appropriée, puis complétez les champs selon vos besoins. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Lorsque la feuille est renseignée, cliquez sur **Valider**.
 
 ## <a name="to-adjust-resource-prices"></a>Pour ajuster le prix des ressources

@@ -89,45 +89,45 @@ L'avoir achat est supprimé et remplacé par un nouveau document dans la liste d
     - utiliser la fonction  **Extraire lignes document enreg. à contrepasser** pour copier une ou plusieurs lignes de document validées à partir d'un ou plusieurs documents validés. Cette fonction inverse toujours exactement les coûts à partir de la ligne de document validée. Cette fonction est décrite dans les étapes suivantes.    
     - Utilisez la fonction **Copier document** pour copier un document existant dans le retour. Cette fonction permet de copier l'ensemble du document. Il peut s'agir d'un document validé ou d'un document non encore validé. Cette fonction ne permet l'inversion de même coût que lorsque la case**Inversion de même coût obligatoire** est cochée dans la fenêtre **Paramètres ventes**.  
 
-4. Sélectionnez l'action **Afficher des lignes document validées à contrepasser**.
-5. Dans le haut de la fenêtre **Lignes document achat enreg.**, cochez la case **Afficher uniquement lignes réversibles** si vous voulez n'afficher que les lignes contenant des quantités qui n'ont pas encore été retournées, ou s'il s'agit de lignes achat, vendues ou consommées. Par exemple, si une quantité de facture achat validée a déjà été retournée, il se peut que vous ne vouliez pas intégrer cette quantité dans un nouveau document retour achat.
+5. Sélectionnez l'action **Afficher des lignes document validées à contrepasser**.
+6. Dans le haut de la fenêtre **Lignes document achat enreg.**, cochez la case **Afficher uniquement lignes réversibles** si vous voulez n'afficher que les lignes contenant des quantités qui n'ont pas encore été retournées, ou s'il s'agit de lignes achat, vendues ou consommées. Par exemple, si une quantité de facture achat validée a déjà été retournée, il se peut que vous ne vouliez pas intégrer cette quantité dans un nouveau document retour achat.
 
     > [!NOTE]  
     >  Ce champ ne fonctionne que pour les lignes réception validées et les lignes facture validées, pas pour les lignes retour validées ni les lignes avoir validées.  
 
     Dans la partie gauche de la fenêtre, les différents types de document sont énumérés, et le nombre entre crochets est le nombre de documents disponibles de chaque type de document.
 
-6. Dans le champ **Filtre de type de document**, sélectionnez le type de lignes document validées que vous souhaitez utiliser.  
-7. Sélectionnez les lignes que vous voulez copier vers le nouveau document.  
+7. Dans le champ **Filtre de type de document**, sélectionnez le type de lignes document validées que vous souhaitez utiliser.  
+8. Sélectionnez les lignes que vous voulez copier vers le nouveau document.  
 
     > [!NOTE]  
     >  Si vous utilisez Ctrl+A pour sélectionner toutes les lignes, toutes les lignes à l'intérieur du filtre que vous avez défini sont copiées mais le filtre **Afficher uniquement quantité réversible** n'est pas pris en considération. Par exemple, supposons que vous ayez filtré les lignes pour un numéro de document particulier comportant deux lignes, dont l'une a déjà été retournée. Même si le champ **Afficher uniquement quantité réversible** est sélectionné, si vous appuyez sur Ctrl+A pour copier toutes les lignes, deux lignes sont copiées au lieu de celle qui n'a pas encore été contrepassée.  
 
-8. Sélectionnez le bouton **OK** pour copier les lignes dans le nouveau document.  
+9. Sélectionnez le bouton **OK** pour copier les lignes dans le nouveau document.  
 
     Les traitements suivants se produisent :  
 
-    -   Pour les lignes document validées du type **Article**, une ligne document est créée qui est une copie de la ligne document validée, avec la quantité qui n'a pas encore été contrepassée. Le champ **Écr. article à lettrer** est renseigné correctement avec le numéro de l'écriture comptable article de la ligne document validée.  
+   - Pour les lignes document validées du type **Article**, une ligne document est créée qui est une copie de la ligne document validée, avec la quantité qui n'a pas encore été contrepassée. Le champ **Écr. article à lettrer** est renseigné correctement avec le numéro de l'écriture comptable article de la ligne document validée.  
 
-    -   Pour les lignes document validées qui ne sont pas du type **Article** (telles que les frais annexes), une ligne document est créée qui est une copie de la ligne document validée originale.  
+   - Pour les lignes document validées qui ne sont pas du type **Article** (telles que les frais annexes), une ligne document est créée qui est une copie de la ligne document validée originale.  
 
-    -   Calcule le champ **Coût unitaire DS** sur la nouvelle ligne à partir des coûts des écritures comptables article correspondantes.  
+   - Calcule le champ **Coût unitaire DS** sur la nouvelle ligne à partir des coûts des écritures comptables article correspondantes.  
 
-    -   Si le document copié est une expédition validée, une réception validée, une réception retour validée ou une expédition retour validée, le prix unitaire est calculé automatiquement à partir de la fiche article.  
+   - Si le document copié est une expédition validée, une réception validée, une réception retour validée ou une expédition retour validée, le prix unitaire est calculé automatiquement à partir de la fiche article.  
 
-    -   Si le document copié est une facture ou un avoir validé, le prix unitaire, les remises facture et les remises ligne sont copiés à partir de la ligne document validée.  
+   - Si le document copié est une facture ou un avoir validé, le prix unitaire, les remises facture et les remises ligne sont copiés à partir de la ligne document validée.  
 
-    -   Si la ligne document validée contient des lignes traçabilité, le champ **Écr. article à lettrer** sur les lignes traçabilité est renseigné à l'aide des numéros d'écriture comptable article appropriés des lignes traçabilité validées.  
+   - Si la ligne document validée contient des lignes traçabilité, le champ **Écr. article à lettrer** sur les lignes traçabilité est renseigné à l'aide des numéros d'écriture comptable article appropriés des lignes traçabilité validées.  
 
      Lors de la copie à partir d'une facture ou d'un avoir enregistré, le programme copie les remises facture et les remises ligne adéquates comme valides au moment de la validation de ce document, de la ligne document validée vers la nouvelle ligne document. Notez toutefois que si l'option **Calculer remise facture** est activée dans la fenêtre **Paramètres achats**, la remise facture est de nouveau calculée lorsque vous validez la nouvelle ligne document. Le montant ligne de la nouvelle ligne peut par conséquent être différent du montant ligne de la ligne document validée, en fonction du nouveau calcul de la remise facture.  
 
-    > [!NOTE]  
-    >  Si une partie de la quantité de la ligne document validée a déjà été contrepassée ou vendue ou consommée, une ligne n'est créée que pour la quantité restant en stock ou qui n'a pas encore été retournée. Si la quantité totale de la ligne document validée a déjà été contrepassée, aucune ligne document n'est créée.  
-    >   
-    >  Si le flux de biens dans le document validé est identique au flux de biens dans le nouveau document, une copie de la ligne document validée originale est simplement créée dans le nouveau document. Le champ **Écriture article à lettrer** n'est pas renseigné parce que, dans ce cas, l'inversion de même coût n'est pas possible. Par exemple, si vous utilisez la fonction **Afficher des lignes document validées à contrepasser** pour afficher une ligne avoir achat validée pour un nouvel avoir achat, seule la ligne avoir validée originale est copiée dans le nouvel avoir.  
+     > [!NOTE]  
+     >  Si une partie de la quantité de la ligne document validée a déjà été contrepassée ou vendue ou consommée, une ligne n'est créée que pour la quantité restant en stock ou qui n'a pas encore été retournée. Si la quantité totale de la ligne document validée a déjà été contrepassée, aucune ligne document n'est créée.  
+     >   
+     >  Si le flux de biens dans le document validé est identique au flux de biens dans le nouveau document, une copie de la ligne document validée originale est simplement créée dans le nouveau document. Le champ **Écriture article à lettrer** n'est pas renseigné parce que, dans ce cas, l'inversion de même coût n'est pas possible. Par exemple, si vous utilisez la fonction **Afficher des lignes document validées à contrepasser** pour afficher une ligne avoir achat validée pour un nouvel avoir achat, seule la ligne avoir validée originale est copiée dans le nouvel avoir.  
 
-8. Dans la fenêtre **Retour achat**, dans le champ **Code motif retour** de chaque ligne, sélectionnez le motif de ce retour.
-9. Sélectionnez l'action **Valider**.
+10. Dans la fenêtre **Retour achat**, dans le champ **Code motif retour** de chaque ligne, sélectionnez le motif de ce retour.
+11. Sélectionnez l'action **Valider**.
 
 ## <a name="to-create-a-replacement-purchase-order-from-a-purchase-return-order"></a>Pour créer une commande achat de remplacement à partir d'un retour achat ouvert
 Vous pouvez vous accorder avec le fournisseur pour qu'il compense l'achat d'un article en remplaçant cet article. L'article de remplacement peut être identique à l'article d'origine ou il peut être différent. Le fournisseur peut vous avoir livré par erreur le mauvais article.  

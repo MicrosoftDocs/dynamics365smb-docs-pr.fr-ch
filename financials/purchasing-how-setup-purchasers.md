@@ -25,7 +25,7 @@ Si plusieurs acheteurs travaillent dans votre société, vous pouvez les configu
 ## <a name="to-set-up-purchasers"></a>Pour configurer des acheteurs
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Vendeur/Acheteur**, puis sélectionnez le lien connexe.
 2. Dans la fenêtre **Vendeur/Acheteur**, sélectionnez l'action **Nouveau**.
-3. Dans la fenêtre **Fiche vendeur/acheteur**, renseignez les champs comme nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Dans la fenêtre **Fiche vendeur/acheteur**, renseignez les champs comme nécessaire. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-purchasers-to-vendors"></a>Pour affecter des acheteurs à des fournisseurs
 1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Comptes bancaires**, puis sélectionnez le lien connexe.

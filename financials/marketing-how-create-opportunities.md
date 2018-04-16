@@ -30,7 +30,7 @@ Pour pouvoir créer des opportunités, vous devez configurer les cycles de vente
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Vendeurs**, puis sélectionnez le lien connexe.
 2. Sélectionnez dans la liste le vendeur pour lequel vous souhaitez créer une opportunité.
 3. Sélectionnez l'action **Opportunités**, puis sélectionnez **Liste**.
-4. Sélectionnez **Nouveau**, puis renseignez les champs appropriés. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+4. Sélectionnez **Nouveau**, puis renseignez les champs appropriés. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 
 

@@ -39,29 +39,29 @@ Selon le type de page et ce qu'elles comportent, vous pouvez :
 
     ![Mode Personnaliser](media/ui_personalize_mode_small.png "Mode Personnaliser")
 
-2.  Accédez à une page à personnaliser.
+2. Accédez à une page à personnaliser.
 
-    Si vous voyez une icône de verrouillage dans la bannière, voir [Pourquoi la page est verrouillée](ui-personalization-locked.md) pour plus de détails.
+   Si vous voyez une icône de verrouillage dans la bannière, voir [Pourquoi la page est verrouillée](ui-personalization-locked.md) pour plus de détails.
 
-3.  Pointez sur une zone à personnaliser, comme un champ ou un en-tête de colonne dans la liste. Tout ce que vous pouvez personnaliser est immédiatement mis en évidence avec une flèche ou un contour.
-<!--
-    -  If a component can be personalized, an arrow head (![Personalization indicator arrow left](media/ui_personalize_arrow_left.png "Personalization indicator arrow left") or ![Personalization indicator arrow down](media/ui_personalize_arrow_down.png "Personalization indicator arrow down")) appears.
-    -   If the component is a part, the extent of the part is indicated by a border.
-    -   The freeze pane in a list is indicated by a vertical line along the entire right-side of the last column of the freeze pane.
-    -->
+3. Pointez sur une zone à personnaliser, comme un champ ou un en-tête de colonne dans la liste. Tout ce que vous pouvez personnaliser est immédiatement mis en évidence avec une flèche ou un contour.
+   <!--
+   -  If a component can be personalized, an arrow head (![Personalization indicator arrow left](media/ui_personalize_arrow_left.png "Personalization indicator arrow left") or ![Personalization indicator arrow down](media/ui_personalize_arrow_down.png "Personalization indicator arrow down")) appears.
+   -   If the component is a part, the extent of the part is indicated by a border.
+   -   The freeze pane in a list is indicated by a vertical line along the entire right-side of the last column of the freeze pane.
+   -->
 
-4.  Utilisez cette table pour faciliter vos modifications :     <table>
-        <tr><th>Ce que vous voulez faire</td><th>Comment procéder</th></tr>
-        <tr><td>Déplacer quelque chose, comme un champ, une colonne d'une liste, une mosaïque ou une section</td><td> Pointez n'importe où sur ce que vous souhaitez déplacer, puis faites-le glisser vers son nouvel emplacement. L'emplacement est indiqué par une ligne verticale ou horizontale épaisse.</td></tr>
-        <tr><td>Supprimer quelque chose</td><td>Sélectionnez la pointe de flèche, puis sélectionnez <b>Supprimer</b>. </td></tr>
-        <tr><td>Ajouter un champ ou une colonne</td><td>Dans la bannière <b>Personnalisation</b>, choisissez <b>Plus</b>, puis sélectionnez <b>Champ</b>.<br /></br>Le volet <b>Ajouter un champ à la page</b> s'ouvre à droite. Il répertorie les champs que vous pouvez ajouter à la page. Les champs marqués comme <b>Placé</b> sont déjà dans la page. Les champs marqués comme <b>Prêt</b> ne sont pas actuellement dans la page.<br /></br>Pour ajouter un champ, faites-le glisser du volet vers l'emplacement que vous souhaitez. L'emplacement est indiqué par une ligne verticale ou horizontale épaisse.</td></tr>
-        <tr><td>Modifier le volet Figer d'une liste en d'autres colonnes</td><td>Sélectionnez la pointe de flèche de la colonne que vous souhaitez être la dernière du volet Figer, puis sélectionnez <b>Définir le volet Figer</b>.<br /><br/>Si vous souhaitez rétablir le volet Figer à son emplacement d'origine, sélectionnez la pointe de flèche de la colonne actuelle du volet Figer, puis sélectionnez <b>Effacer le volet Figer</b>. Remarque : vous ne pouvez pas supprimer ce volet Figer d'origine.</td></tr>
-      </table>
+4. Utilisez cette table pour faciliter vos modifications :     <table>
+       <tr><th>Ce que vous voulez faire</td><th>Comment procéder</th></tr>
+       <tr><td>Déplacer quelque chose, comme un champ, une colonne d'une liste, une mosaïque ou une section</td><td> Pointez n'importe où sur ce que vous souhaitez déplacer, puis faites-le glisser vers son nouvel emplacement. L'emplacement est indiqué par une ligne verticale ou horizontale épaisse.</td></tr>
+       <tr><td>Supprimer quelque chose</td><td>Sélectionnez la pointe de flèche, puis sélectionnez <b>Supprimer</b>. </td></tr>
+       <tr><td>Ajouter un champ ou une colonne</td><td>Dans la bannière <b>Personnalisation</b>, choisissez <b>Plus</b>, puis sélectionnez <b>Champ</b>.<br /></br>Le volet <b>Ajouter un champ à la page</b> s'ouvre à droite. Il répertorie les champs que vous pouvez ajouter à la page. Les champs marqués comme <b>Placé</b> sont déjà dans la page. Les champs marqués comme <b>Prêt</b> ne sont pas actuellement dans la page.<br /></br>Pour ajouter un champ, faites-le glisser du volet vers l'emplacement que vous souhaitez. L'emplacement est indiqué par une ligne verticale ou horizontale épaisse.</td></tr>
+       <tr><td>Modifier le volet Figer d'une liste en d'autres colonnes</td><td>Sélectionnez la pointe de flèche de la colonne que vous souhaitez être la dernière du volet Figer, puis sélectionnez <b>Définir le volet Figer</b>.<br /><br/>Si vous souhaitez rétablir le volet Figer à son emplacement d'origine, sélectionnez la pointe de flèche de la colonne actuelle du volet Figer, puis sélectionnez <b>Effacer le volet Figer</b>. Remarque : vous ne pouvez pas supprimer ce volet Figer d'origine.</td></tr>
+     </table>
 
-    > [!IMPORTANT]  
-    >   Vous ne pouvez pas modifier une liste celle-ci est affichée en tant que mosaïques. Vous devez d'abord basculer la vue de page en vue de liste en sélectionnant l'icône ![Afficher sous forme de liste](media/ui_show_as_list_icon.png "Afficher sous forme de liste").
+   > [!IMPORTANT]  
+   >   Vous ne pouvez pas modifier une liste celle-ci est affichée en tant que mosaïques. Vous devez d'abord basculer la vue de page en vue de liste en sélectionnant l'icône ![Afficher sous forme de liste](media/ui_show_as_list_icon.png "Afficher sous forme de liste").
 
-5.  Vous pouvez continuer à apporter des modifications sur la même page, ou passer à une autre page. Vos modifications sont automatiquement enregistrées au fur et à mesure. Lorsque vous avez terminé, dans la bannière **Personnalisation**, sélectionnez **Terminée**.
+5. Vous pouvez continuer à apporter des modifications sur la même page, ou passer à une autre page. Vos modifications sont automatiquement enregistrées au fur et à mesure. Lorsque vous avez terminé, dans la bannière **Personnalisation**, sélectionnez **Terminée**.
 
 ## <a name="clear-personalization-to-change-a-page-back-to-its-original-layout"></a>Effacer la personnalisation pour rétablir une page à sa disposition initiale
 Vous pouvez souhaiter annuler toutes les modifications de personnalisation apportées à une page au fil du temps, afin que cette page reprenne son aspect d'origine. Pour ce faire, dans la bannière **Personnalisation**, sélectionnez **Plus**, puis **Effacer la personnalisation**.

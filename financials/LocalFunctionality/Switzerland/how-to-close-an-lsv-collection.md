@@ -26,17 +26,17 @@ Lorsque le prélèvement est terminé, le numéro de prélèvement actuel est af
 
 ## <a name="to-close-an-lsv-collection"></a>Pour fermer un prélèvement LSV  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Liste feuilles LSV**, puis sélectionnez le lien connexe.  
-2.  Sélectionnez la ligne feuille requise, puis sélectionnez l'action **Modifier la date comptabilisation**. La valeur du champ **Date de crédit** à l'aide de la valeur suggérée lors du prélèvement LSV.  
-3.  Dans le champ **Nouvelle date**, saisissez la nouvelle date.  
-4.  Choisissez l'action **Clôturer le prélèvement**.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Liste feuilles LSV**, puis sélectionnez le lien connexe.  
+2. Sélectionnez la ligne feuille requise, puis sélectionnez l'action **Modifier la date comptabilisation**. La valeur du champ **Date de crédit** à l'aide de la valeur suggérée lors du prélèvement LSV.  
+3. Dans le champ **Nouvelle date**, saisissez la nouvelle date.  
+4. Choisissez l'action **Clôturer le prélèvement**.  
 
-    > [!NOTE]  
-    >  Les champs du raccourci **Options** pour le traitement par lots **Prélèvement de fin LSV** ne peuvent pas être modifiés, et correspondent à la ligne feuille sélectionnée.  
+   > [!NOTE]  
+   >  Les champs du raccourci **Options** pour le traitement par lots **Prélèvement de fin LSV** ne peuvent pas être modifiés, et correspondent à la ligne feuille sélectionnée.  
 
-5.  Cliquez sur le bouton **OK**.  
+5. Cliquez sur le bouton **OK**.  
 
-    Dans la fenêtre **Liste feuilles LSV**, la valeur du champ **Statut LSV** passe de **Modifier** à **Lancé**. Les lignes feuille ne peuvent plus être modifiées.  
+   Dans la fenêtre **Liste feuilles LSV**, la valeur du champ **Statut LSV** passe de **Modifier** à **Lancé**. Les lignes feuille ne peuvent plus être modifiées.  
 
 ## <a name="to-reopen-an-lsv-collection"></a>Pour rouvrir un prélèvement LSV  
 

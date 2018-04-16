@@ -37,19 +37,19 @@ Vous pouvez importer et exporter une présentation de rapport personnalisée exi
   
 ### <a name="to-import-a-report-layout-file"></a>Pour importer un fichier de présentation de rapport  
   
-1.  Assurez-vous que le fichier approprié qui définit la présentation de rapport est disponible sur votre ordinateur ou réseau.  
+1. Assurez-vous que le fichier approprié qui définit la présentation de rapport est disponible sur votre ordinateur ou réseau.  
   
-     Un fichier de présentation de rapport Word doit avoir une extension de type .docx. Un fichier de présentation de rapport RDLC doit avoir une extension de type .rdlc ou .rdl.  
+    Un fichier de présentation de rapport Word doit avoir une extension de type .docx. Un fichier de présentation de rapport RDLC doit avoir une extension de type .rdlc ou .rdl.  
   
-2.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Sélection présentation état**, puis sélectionnez le lien connexe.  
+2. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Sélection présentation état**, puis sélectionnez le lien connexe.  
   
-3.  Sélectionnez la ligne pour le rapport vers laquelle vous souhaitez importer la présentation de rapport, puis sous l'onglet **Accueil**, dans le groupe **Traitement**, choisissez **Présentations personnalisées**.  
+3. Sélectionnez la ligne pour le rapport vers laquelle vous souhaitez importer la présentation de rapport, puis sous l'onglet **Accueil**, dans le groupe **Traitement**, choisissez **Présentations personnalisées**.  
   
-4.  Dans la fenêtre **Présentations état**, sélectionnez la présentation de rapport vers laquelle vous souhaitez importer le fichier, puis sous l'onglet **Accueil**, dans le groupe **Traitement**, choisissez **Importer présentation**.  
+4. Dans la fenêtre **Présentations état**, sélectionnez la présentation de rapport vers laquelle vous souhaitez importer le fichier, puis sous l'onglet **Accueil**, dans le groupe **Traitement**, choisissez **Importer présentation**.  
   
-5.  Dans la boîte de dialogue **Importer**, sélectionnez le document qui définit la présentation de rapport, puis choisissez **Ouvrir**.  
+5. Dans la boîte de dialogue **Importer**, sélectionnez le document qui définit la présentation de rapport, puis choisissez **Ouvrir**.  
   
- La présentation de rapport personnalisé d'origine est remplacée par la présentation de rapport importée.  
+   La présentation de rapport personnalisé d'origine est remplacée par la présentation de rapport importée.  
   
 ## <a name="see-also"></a>Voir aussi  
  [Créer et modifier une présentation de rapport personnalisée](ui-how-create-custom-report-layout.md)   

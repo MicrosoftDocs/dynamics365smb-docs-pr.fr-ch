@@ -26,7 +26,7 @@ Sur les fiches projet individuelles, vous devez configurer les prix pour les art
 
 ## <a name="to-set-general-information-for-jobs"></a>Pour configurer des informations générales pour les projets
 1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Paramètres projets**, puis choisissez le lien associé.
-2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Renseignez les champs selon vos besoins. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
 >   La case à cocher **Appliquer le lien d'utilisation** est assez complexe et est donc expliquée dans la section suivante.

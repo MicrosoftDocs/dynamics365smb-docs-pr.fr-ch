@@ -99,7 +99,7 @@ Les employés peuvent maintenant poursuivre le comptage du stock et noter les é
     Les champs associés sont mis à jour en conséquence.
 
     > [!NOTE]  
->   Si le décompte fait apparaître des différences dues à des articles validés avec des codes magasin incorrects, n'indiquez pas les différences dans la feuille inventaire. Au lieu de cela, utilisez la feuille reclassement ou un ordre de transfert pour rediriger les articles vers les magasins appropriés. Pour plus d'informations, voir Feuille reclassement article ou Créer des ordres de transfert.
+   >   Si le décompte fait apparaître des différences dues à des articles validés avec des codes magasin incorrects, n'indiquez pas les différences dans la feuille inventaire. Au lieu de cela, utilisez la feuille reclassement ou un ordre de transfert pour rediriger les articles vers les magasins appropriés. Pour plus d'informations, voir Feuille reclassement article ou Créer des ordres de transfert.
 
 2. Pour ajuster les quantités calculées avec les quantités comptées réelles, choisissez **Valider**.
 
@@ -134,7 +134,7 @@ Un inventaire est généralement effectué en fonction d'intervalles réguliers 
 Configurez les périodes d'inventaire que vous souhaitez utiliser, puis affectez-en une à chaque article. Lorsque vous effectuez un inventaire et que vous utilisez **Calculer période d'inventaire** de la feuille inventaire, les lignes des articles sont créées automatiquement.
 
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Périodes inventaire**, puis sélectionnez le lien connexe.  
-2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Renseignez les champs selon vos besoins. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="to-assign-a-counting-period-to-an-item"></a>Pour affecter une période d'inventaire à un article  
 1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Articles**, puis sélectionnez le lien connexe.  
@@ -180,7 +180,7 @@ Dans la fenêtre **feuille article**, vous pouvez valider la transaction article
 Si vous utilisez fréquemment la feuille article pour comptabiliser des lignes feuille identiques ou analogues (par exemple, des lignes en rapport avec la consommation de matériel), vous pouvez utiliser la fenêtre **Feuille article standard** pour simplifier cette tâche récurrente. Pour plus d'informations, reportez-vous à la section « Feuilles standard » de [Utilisation de feuilles comptabilité](ui-work-general-journals.md).
 
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuilles article**, puis sélectionnez le lien connexe.
-2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Renseignez les champs selon vos besoins. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Choisissez l'action **Valider** pour créer des ajustements de stock.
 
 > [!NOTE]  

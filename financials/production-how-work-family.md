@@ -31,7 +31,7 @@ Le regroupement d'éléments en familles de production permet de réduire la qua
 
 ## <a name="to-set-up-a-production-family"></a>Pour configurer une famille de production
 1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Familles**, puis choisissez le lien associé.
-2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Renseignez les champs selon vos besoins. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-produce-based-on-a-production-familily"></a>Pour produire selon une famille de production
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **O.F. planifiés fermes**, puis sélectionnez le lien connexe.

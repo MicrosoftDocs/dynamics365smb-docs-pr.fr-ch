@@ -22,15 +22,16 @@ ms.lasthandoff: 03/22/2018
 <!--NAV # Customizing Dynamics NAV -->
 Il existe différentes méthodes pour personnaliser l'application, afin de donner à vous et vos collègues l'accès aux fonctions, fonctionnalités et données dont vous avez le plus besoin, de la manière la mieux adaptée à vos opérations quotidiennes. L'accessibilité aux modifications dépend de ce que vous faites, comme décrit dans ce tableau.
 
-| Ce que vous pouvez faire    |  Désignation  |  Qui voit les modifications  |  Plus d'informations  |
-|-----|---------------|---------|-------|
-|Installer une extension|Les extensions sont comme de petites applications qui ajoutent des fonctionnalités, modifient le comportement, donnent accès à de nouveaux services en ligne, etc. Par exemple, Microsoft propose une extension qui fournit une intégration à PayPal Payments Standard.|Tous les utilisateurs de toutes les sociétés.|[Personnalisation à l'aide d'extensions](ui-extensions.md)|
-|Changer l'expérience|Un paramètre simple, le paramètre *Expérience*, détermine le nombre de fonctionnalités de base disponibles. Actuellement, il existe deux niveaux : Basique et Essentiel.|Tous les utilisateurs d'une société spécifique.|[Personnalisation de votre expérience [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)|
-|Personnaliser votre espace de travail|Modifiez la mise en page et le contenu de vos pages.|Vous uniquement.|[Personnalisation de votre espace de travail](ui-personalization-user.md)|
+
+|      Ce que vous pouvez faire       |                                                                                                              Désignation                                                                                                               |       Qui voit les modifications       |                                       Plus d'informations                                       |
+|----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------|----------------------------------------------------------------------------------------------|
+|    Installer une extension    | Les extensions sont comme de petites applications qui ajoutent des fonctionnalités, modifient le comportement, donnent accès à de nouveaux services en ligne, etc. Par exemple, Microsoft propose une extension qui fournit une intégration à PayPal Payments Standard. |   Tous les utilisateurs de toutes les sociétés.    |                       [Personnalisation à l'aide d'extensions](ui-extensions.md)                       |
+|   Changer l'expérience    |                                     Un paramètre simple, le paramètre *Expérience*, détermine le nombre de fonctionnalités de base disponibles. Actuellement, il existe deux niveaux : Basique et Essentiel.                                      | Tous les utilisateurs d'une société spécifique. | [Personnalisation de votre expérience [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md) |
+| Personnaliser votre espace de travail |                                                                                              Modifiez la mise en page et le contenu de vos pages.                                                                                              |            Vous uniquement.             |                  [Personnalisation de votre espace de travail](ui-personalization-user.md)                  |
 
 ## <a name="see-also"></a>Voir aussi
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+## [!INCLUDE [d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE [d365fin](includes/training_link_md.md)]
 

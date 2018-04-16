@@ -24,8 +24,8 @@ Le système de planification prend en compte toutes les données d'offre et de d
 
 Pour plus d'informations, voir [Détails de conception : planification de l'approvisionnement](design-details-supply-planning.md).  
 
-> [!NOTE]  
-> Pour tous les champs mentionnés dans cette rubrique, lisez l'info-bulles pour comprendre leur fonction. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+> [!NOTE]
+> Pour tous les champs mentionnés dans cette rubrique, lisez l'info-bulles pour comprendre leur fonction. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="demand-and-supply"></a>Offre et demande  
 La planification comporte deux volets : l'offre et la demande. Ces derniers doivent être équilibrés pour garantir que la demande soit satisfaite rapidement et efficacement.  

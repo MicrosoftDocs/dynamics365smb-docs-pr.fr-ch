@@ -33,7 +33,7 @@ La procédure suivante explique comment renseigner et envoyer une commande vente
 
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Commandes vente**, puis sélectionnez le lien connexe.  
 2. Sélectionnez **Nouveau** pour créer une commande vente. Pour en savoir plus, voir [Vendre des produits](sales-how-sell-products.md).  
-3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Renseignez les champs selon vos besoins. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Vérifiez que le client est un partenaire intersociétés.
 5. Pour envoyer la commande vente avant de la valider, choisissez l'action **Envoi commande vente IC**.
 

@@ -38,14 +38,14 @@ Enfin, si vous avez défini vos emplacements stockage en vrac avec un emplacemen
 
 Lorsque vous calculez un nouvel approvisionnement emplacement, les propositions supprimées seront recréées si elles sont toujours valides.  
 
-> [!NOTE]  
+> [!NOTE]
 >  Si un article répond aux conditions suivantes :  
->   
->  -   l'article a une date d'expiration et  
-> -   Le champ **Prélèvement selon FEFO** sur la fiche magasin doit être sélectionné, et  
-> -   Vous utilisez la fonction **Calculer réappro. emplacement**,  
->   
->  alors les champs **De zone** et **D'emplacement** sont vides, car l'algorithme qui permet de calculer d'où déplacer les articles est déclenché uniquement lorsque vous activez la fonction **Créer mouvement**.  
+> 
+> - l'article a une date d'expiration et  
+>   -   Le champ **Prélèvement selon FEFO** sur la fiche magasin doit être sélectionné, et  
+>   -   Vous utilisez la fonction **Calculer réappro. emplacement**,  
+> 
+>   alors les champs **De zone** et **D'emplacement** sont vides, car l'algorithme qui permet de calculer d'où déplacer les articles est déclenché uniquement lorsque vous activez la fonction **Créer mouvement**.  
 
 ## <a name="see-also"></a>Voir aussi  
 [Gestion d'entrepôt](warehouse-manage-warehouse.md)  

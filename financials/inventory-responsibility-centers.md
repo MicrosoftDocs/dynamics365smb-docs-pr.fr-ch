@@ -29,11 +29,11 @@ Des magasins multiples permettent aux sociétés de gérer leur stock dans plusi
 Les centres de gestion élargissent la fonction de magasins multiples en permettant aux utilisateurs de gérer les centres administratifs. Un centre de gestion peut être un centre de coûts, une centre de profit, un centre d'investissement ou tout autre centre administratif défini par la société. Un bureau de vente, un département d'achat pour plusieurs emplacements, un bureau de planification d'usine, etc. sont des exemples de centres de gestion. Par exemple, cette fonctionnalité permet aux sociétés de paramétrer des vues spécifiques à l'utilisateur des documents vente et achat associés exclusivement à un centre de gestion particulier.
 
 ## <a name="to-set-up-a-responsibility-center"></a>Pour configurer un centre de gestion  
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Centres de gestion**, puis sélectionnez le lien connexe.  
-2.  Sélectionnez l'action **Nouveau**.  
-3.  Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Centres de gestion**, puis sélectionnez le lien connexe.  
+2. Sélectionnez l'action **Nouveau**.  
+3. Renseignez les champs selon vos besoins. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-    Si vous utilisez des centres de gestion pour administrer votre société, il peut être utile de définir un centre de gestion par défaut pour votre société.
+   Si vous utilisez des centres de gestion pour administrer votre société, il peut être utile de définir un centre de gestion par défaut pour votre société.
 4. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Informations société**, puis sélectionnez le lien connexe.
 5. Dans le champ **Centre de gestion**, entrez un code centre de gestion.
 

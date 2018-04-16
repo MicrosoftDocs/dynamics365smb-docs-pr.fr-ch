@@ -52,7 +52,7 @@ Il y a deux parties pour créer une nomenclature d'assemblage :
 
     Entrez maintenant les composants ou les ressources de la nomenclature d'assemblage.  
 2. Dans la fenêtre **Fiche article** d'un article d'assemblage, sélectionnez l'action **Assemblage**, puis l'action **Nomencl d'élément d'assemblage**.
-3. Dans la fenêtre **Nomencl d'élément d'assemblage**, renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Dans la fenêtre **Nomencl d'élément d'assemblage**, renseignez les champs selon vos besoins. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-view-the-components-of-an-assembly-item-indented-according-to-the-bom-structure"></a>Pour afficher les composants d'un article d'assemblage indenté selon la structure de la nomenclature
 Dans la fenêtre **Nomencl d'élément d'assemblage**, vous pouvez ouvrir une fenêtre distincte qui affiche les composants et les ressources indentés selon la position de leur nomenclature sous l'article d'assemblage.

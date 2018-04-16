@@ -39,6 +39,6 @@ Le tableau suivant fournit un aperçu des tâches que vous devez généralement 
 [Ouvrir un nouvel exercice comptable](finance-how-open-new-fiscal-year.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+## [!INCLUDE [d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE [d365fin](includes/training_link_md.md)]
 

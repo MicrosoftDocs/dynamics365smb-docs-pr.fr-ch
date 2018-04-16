@@ -107,17 +107,17 @@ Les documents vente validés auxquels vous avez lettré l'avoir sont à présent
 
     Les traitements suivants se produisent :  
 
-    -   Pour les lignes document validées du type **Article**, une ligne document est créée qui est une copie de la ligne document validée, avec la quantité qui n'a pas encore été contrepassée. Le champ **Écriture article à lettrer** est renseigné correctement avec le numéro de l'écriture comptable article de la ligne document validée.  
+   - Pour les lignes document validées du type **Article**, une ligne document est créée qui est une copie de la ligne document validée, avec la quantité qui n'a pas encore été contrepassée. Le champ **Écriture article à lettrer** est renseigné correctement avec le numéro de l'écriture comptable article de la ligne document validée.  
 
-    -   Pour les lignes document validées qui ne sont pas du type **Article** (telles que les frais annexes), une ligne document est créée qui est une copie de la ligne document validée originale.  
+   - Pour les lignes document validées qui ne sont pas du type **Article** (telles que les frais annexes), une ligne document est créée qui est une copie de la ligne document validée originale.  
 
-    -   Calcule le champ **Coût unitaire DS** sur la nouvelle ligne à partir des coûts des écritures comptables article correspondantes.  
+   - Calcule le champ **Coût unitaire DS** sur la nouvelle ligne à partir des coûts des écritures comptables article correspondantes.  
 
-    -   Si le document copié est une expédition validée, une réception validée, une réception retour validée ou une expédition retour validée, le prix unitaire est calculé automatiquement à partir de la fiche article.  
+   - Si le document copié est une expédition validée, une réception validée, une réception retour validée ou une expédition retour validée, le prix unitaire est calculé automatiquement à partir de la fiche article.  
 
-    -   Si le document copié est une facture ou un avoir validé, le prix unitaire, les remises facture et les remises ligne sont copiés à partir de la ligne document validée.  
+   - Si le document copié est une facture ou un avoir validé, le prix unitaire, les remises facture et les remises ligne sont copiés à partir de la ligne document validée.  
 
-    -   Si la ligne document validée contient des lignes traçabilité, le champ **Écriture article à lettrer** sur les lignes traçabilité est renseigné à l'aide des numéros d'écriture comptable article appropriés des lignes traçabilité validées.  
+   - Si la ligne document validée contient des lignes traçabilité, le champ **Écriture article à lettrer** sur les lignes traçabilité est renseigné à l'aide des numéros d'écriture comptable article appropriés des lignes traçabilité validées.  
 
      Lors de la copie à partir d'une facture ou d'un avoir enregistré, le programme copie les remises facture et les remises ligne adéquates comme valides au moment de la validation de ce document, de la ligne document validée vers la nouvelle ligne document. Notez toutefois que si l'option **Calculer remise facture** est activée dans la fenêtre **Paramètres ventes**, la remise facture est de nouveau calculée lorsque vous validez la nouvelle ligne document. Le montant ligne de la nouvelle ligne peut par conséquent être différent du montant ligne de la ligne document validée, en fonction du nouveau calcul de la remise facture.  
 

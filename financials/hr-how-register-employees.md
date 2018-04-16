@@ -32,7 +32,7 @@ Les procédures suivantes décrivent comment créer une première fiche salarié
 ## <a name="to-set-up-an-employee"></a>Pour configurer un salarié
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Employés**, puis sélectionnez le lien connexe.
 2. Sélectionnez l'action **Nouveau**.
-3. Dans la fenêtre **Fiche salarié**, renseignez les champs comme nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Dans la fenêtre **Fiche salarié**, renseignez les champs comme nécessaire. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-insert-a-picture-of-an-employee"></a>Pour insérer une photo d'un salarié
 Si vous disposez d'une photo d'un salarié au format .bmp, vous pouvez l'insérer sur la fiche de ce dernier.

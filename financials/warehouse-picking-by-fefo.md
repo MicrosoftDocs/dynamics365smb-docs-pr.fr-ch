@@ -24,24 +24,24 @@ First-Expired-First-Out (FEFO) est une méthode de tri qui garantit que les arti
 
  Cette fonctionnalité ne fonctionne que lorsque les critères suivants sont réunis :  
 
--   L'article doit avoir un numéro de série/lot.  
--   Dans la configuration du code de traçabilité article de l'article, le champ **Traçabilité d'entrepôt par numéro de série** ou le champ **Traçabilité d'entrepôt par numéro de lot** doit être sélectionné.  
--   L'article doit être validé dans le stock avec une date d'expiration.  
--   Dans la fiche magasin, la case à cocher **Prélèvement requis** doit être activée.  
--   Dans la fiche magasin, la case à cocher **Prélèvement selon FEFO** doit être activée.  
--   Dans la fiche magasin, le champ **Emplacement obligatoire** doit être sélectionné.  
+- L'article doit avoir un numéro de série/lot.  
+- Dans la configuration du code de traçabilité article de l'article, le champ **Traçabilité d'entrepôt par numéro de série** ou le champ **Traçabilité d'entrepôt par numéro de lot** doit être sélectionné.  
+- L'article doit être validé dans le stock avec une date d'expiration.  
+- Dans la fiche magasin, la case à cocher **Prélèvement requis** doit être activée.  
+- Dans la fiche magasin, la case à cocher **Prélèvement selon FEFO** doit être activée.  
+- Dans la fiche magasin, le champ **Emplacement obligatoire** doit être sélectionné.  
 
- Lorsque tous les critères sont réunis, les articles aux numéros de série/lot à prélever sont triés par ancienneté de prélèvements et mouvements, sauf pour les articles qui utilisent la traçabilité par numéro de série ou de lot.  
+  Lorsque tous les critères sont réunis, les articles aux numéros de série/lot à prélever sont triés par ancienneté de prélèvements et mouvements, sauf pour les articles qui utilisent la traçabilité par numéro de série ou de lot.  
 
 > [!NOTE]  
 >  Si certains articles avec numéros de série/lot utilisent une traçabilité spécifique, ceux-ci sont respectés en premier et, en dessous, les numéros de série/lot non spécifiques restants sont listés selon FEFO.  
 
  Si deux articles avec des numéros de série ou de lot ont la même date de péremption, le programme sélectionne celui avec le plus petit numéro de lot ou de série. Si les numéros de série ou de lot sont identiques, le programme sélectionne l'article enregistré en premier.  
 
-> [!NOTE]  
->  -   Lors du prélèvement des articles avec numéro de série/de lot dans les magasins configurés pour un prélèvement et un rangement suggérés, seules les quantités des emplacements de type *Prélèvement* sont prélevés selon FEFO.  
-> -   Pour activer des mouvements selon FEFO, dans la fenêtre **Mouvement de stock** ou la fenêtre **Feuille mouvement** , vous devez laisser le champ **Depuis emplacement** vide.  
-> -   Si le champ **Validation de péremption stricte** est sélectionné, seuls les articles non expirés sont inclus dans le prélèvement. Cela s'applique même si vous n'utilisez pas de prélèvement selon FEFO.  
+> [!NOTE]
+> - Lors du prélèvement des articles avec numéro de série/de lot dans les magasins configurés pour un prélèvement et un rangement suggérés, seules les quantités des emplacements de type *Prélèvement* sont prélevés selon FEFO.  
+>   -   Pour activer des mouvements selon FEFO, dans la fenêtre **Mouvement de stock** ou la fenêtre **Feuille mouvement** , vous devez laisser le champ **Depuis emplacement** vide.  
+>   -   Si le champ **Validation de péremption stricte** est sélectionné, seuls les articles non expirés sont inclus dans le prélèvement. Cela s'applique même si vous n'utilisez pas de prélèvement selon FEFO.  
 
 ## <a name="see-also"></a>Voir aussi  
 [Prélèvement des articles](warehouse-pick-items.md)   

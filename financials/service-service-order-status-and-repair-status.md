@@ -30,7 +30,7 @@ Le champ **Statut** de la fenêtre **Commande service** et le statut réparation
 * Le statut commande service auquel chaque état réparation est lié. Pour plus d'informations, voir Statut commande service.  
 * Le niveau de priorité de chaque option statut commande service. Pour plus d'informations, voir Priorité.  
   
- Lorsque vous convertissez un devis service en commande service, l'état réparation de chaque article de service de la commande est modifié à **Initial** et le statut de la commande service passe à **Suspendu**.  
+  Lorsque vous convertissez un devis service en commande service, l'état réparation de chaque article de service de la commande est modifié à **Initial** et le statut de la commande service passe à **Suspendu**.  
   
 ## <a name="specifying-service-order-status-for-repair-status"></a>Spécification du statut commande service pour l'état réparation  
 Chaque état réparation est lié à un statut commande service précis. Les options de ce statut commande service sont **Suspendu**, **En cours**, **En attente** et **Terminé**. Neuf options d'état réparation sont disponibles : **Initial**, **En cours**, **Expertisé**, **Service en partie réalisé**, **Devis terminé**, **Attente réponse client**, **Pièce de rechange commandée**, **Pièce de rechange reçue** et **Terminé**.  

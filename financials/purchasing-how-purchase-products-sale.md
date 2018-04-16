@@ -21,6 +21,7 @@ ms.lasthandoff: 03/22/2018
 ---
 # <a name="purchase-items-for-a-sale"></a>Acheter des articles pour une vente
 Avec les commandes vente et les factures vente, vous pouvez utiliser des fonctions vous permettant de créer rapidement des documents achat pour des quantités d'articles manquantes requises par la vente. Vous pouvez utiliser deux fonctions distinctes selon le type document.
+
 |Fonction|Désignation|
 |--------|-----------|
 |**Créer des commandes achat**|Depuis une commande vente, cette fonction crée une commande achat pour chaque fournisseur des articles de la commande vente. Vous pouvez modifier la quantité d'achat avant de créer les commandes achat. Seules les quantités de vente indisponibles sont proposées.
@@ -39,11 +40,11 @@ Pour créer une commande achat pour chaque quantité d'article indisponible de l
 4. Pour acheter une autre quantité que la quantité vendue indisponible, modifiez la valeur dans le champ **Quantité à acheter**.
 
     > [!NOTE]  
->   Vous pouvez également modifier le champ **Quantité à acheter** sur les lignes grisées bien qu'ils représentent des quantités vendues entièrement disponibles.
+   >   Vous pouvez également modifier le champ **Quantité à acheter** sur les lignes grisées bien qu'ils représentent des quantités vendues entièrement disponibles.
 5. Cliquez sur le bouton **OK**.
 
     Une commande achat est créée pour chaque fournisseur des articles de la commande vente, notamment toutes les modifications de quantité que vous avez apportées à la fenêtre **Créer des commandes achat**.
-7. Traitez maintenant la ou les commandes achat, par exemple, en modifiant ou en ajoutant des lignes commande achat. Pour plus d'informations, voir [Enregistrer des achats](purchasing-how-record-purchases.md).
+6. Traitez maintenant la ou les commandes achat, par exemple, en modifiant ou en ajoutant des lignes commande achat. Pour plus d'informations, voir [Enregistrer des achats](purchasing-how-record-purchases.md).
 
 
 ## <a name="to-create-a-purchase-invoice-from-a-sales-order-or-sales-invoice"></a>Pour créer une facture achat à partir d'une commande vente ou une facture vente

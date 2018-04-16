@@ -27,7 +27,7 @@ La quantité produite représente l'avancée des travaux en prenant en compte la
 
 ## <a name="to-post-output-quantities-for-one-or-more-production-order-lines"></a>Pour valider les quantités produites pour une ou plusieurs lignes ordre de fabrication
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille production**, puis sélectionnez le lien connexe.  
-2. Renseignez les champs en indiquant les données relatives à la fabrication et à la production. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Renseignez les champs en indiquant les données relatives à la fabrication et à la production. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Si l'opération est achevée, sélectionnez le champ **Terminé**.  
 
     Si l'entrepôt dans lequel les articles doivent être rangés utilise des emplacements mais pas le traitement de rangement,  affectez un code emplacement à la ligne feuille pour indiquer l'endroit où les articles doivent être placés dans l'entrepôt. Pour plus d'informations, voir [Rangement du résultat de fabrication ou d'assemblage](warehouse-how-to-put-away-production-output.md).  

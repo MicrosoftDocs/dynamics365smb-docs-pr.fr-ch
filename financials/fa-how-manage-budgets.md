@@ -39,7 +39,7 @@ Si vous prévoyez de vendre des immobilisations dans la période correspondant a
 
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Immobilisations**, puis sélectionnez le lien connexe.
 2. Sélectionnez l'immobilisation à céder, puis sélectionnez l'action **Lois d'amortissement**.
-3. Dans la fenêtre **Lois d'amortissement immo.**, complétez les champs **Date cession prévue** et **Produit de cession prévu**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Dans la fenêtre **Lois d'amortissement immo.**, complétez les champs **Date cession prévue** et **Produit de cession prévu**. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-view-projected-disposal-values"></a>Pour visualiser des valeurs de cession prévues
 Pour visualiser les valeurs de cession prévues et effectuer le calcul des gains et des pertes, vous pouvez utiliser l'état **Immo. - Valeur projetée**.

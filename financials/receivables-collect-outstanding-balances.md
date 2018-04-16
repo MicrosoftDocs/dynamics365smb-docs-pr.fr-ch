@@ -47,7 +47,7 @@ Une fois que vous avez créé des factures d'intérêts et effectué toutes les 
 
 ## <a name="to-send-the-customer-statement-report"></a>Pour envoyer l’état du relevé client
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Relevé client**, puis sélectionnez le lien connexe.
-2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Renseignez les champs selon vos besoins. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Dans **Options sortie**, sélectionnez la manière dont l'état est envoyé au client.
 
 > [!NOTE]  

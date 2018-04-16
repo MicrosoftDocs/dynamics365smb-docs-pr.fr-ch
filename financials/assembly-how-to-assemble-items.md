@@ -43,29 +43,29 @@ Ces options de configuration sont les paramètres par défaut qui gèrent le tra
 Dans cette procédure, vous allez créer et traiter un ordre d'assemblage pour des articles qui sont assemblés pour stock, autrement dit sans commande vente liée. Les étapes incluent le lancement de l'ordre d'assemblage, le traitement des éventuels problèmes de disponibilité des composants et la validation partielle du résultat d'assemblage.
 
 ## <a name="to-assemble-an-item"></a>Pour assembler un article  
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Ordres d'assemblage**, puis sélectionnez le lien connexe.  
-2.  Sélectionnez l'action **Nouveau**. La fenêtre **Nouvel ordre d'assemblage** s'ouvre.  
-3.  Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4.  Dans le champ **N° article**, sélectionnez l'élément d'assemblage à traiter. Le champ est filtré pour n'afficher que les articles qui sont configurés pour assemblage, ce qui signifie qu'une nomenclature d'assemblage leur est affectée.  
-5.  Dans le champ **Quantité**, entrez le nombre d'unités de l'article que vous souhaitez assembler.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Ordres d'assemblage**, puis sélectionnez le lien connexe.  
+2. Sélectionnez l'action **Nouveau**. La fenêtre **Nouvel ordre d'assemblage** s'ouvre.  
+3. Renseignez les champs selon vos besoins. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. Dans le champ **N° article**, sélectionnez l'élément d'assemblage à traiter. Le champ est filtré pour n'afficher que les articles qui sont configurés pour assemblage, ce qui signifie qu'une nomenclature d'assemblage leur est affectée.  
+5. Dans le champ **Quantité**, entrez le nombre d'unités de l'article que vous souhaitez assembler.  
 
-    > [!NOTE]  
-    >  Si un ou plusieurs composants ne sont pas disponibles afin de répondre à la quantité d'éléments d'assemblage saisie à la date d'échéance définie, la fenêtre **Disponibilité assemblage** s'ouvre automatiquement pour fournir des informations détaillées sur le nombre d'éléments d'assemblage pouvant être assemblés en fonction de la disponibilité des composants. Pour plus d'informations, voir [Voir la disponibilité des articles](inventory-how-availability-overview.md).  Lorsque vous fermez la fenêtre, l'ordre d'assemblage est créé avec des alertes de disponibilité sur les lignes composant concernées.  
+   > [!NOTE]  
+   >  Si un ou plusieurs composants ne sont pas disponibles afin de répondre à la quantité d'éléments d'assemblage saisie à la date d'échéance définie, la fenêtre **Disponibilité assemblage** s'ouvre automatiquement pour fournir des informations détaillées sur le nombre d'éléments d'assemblage pouvant être assemblés en fonction de la disponibilité des composants. Pour plus d'informations, voir [Voir la disponibilité des articles](inventory-how-availability-overview.md).  Lorsque vous fermez la fenêtre, l'ordre d'assemblage est créé avec des alertes de disponibilité sur les lignes composant concernées.  
 
-    Les lignes d'ordre d'assemblage sont remplies automatiquement avec le contenu de la nomenclature d'assemblage et les quantités de ligne en fonction de l'en-tête d'ordre d'assemblage.  
+   Les lignes d'ordre d'assemblage sont remplies automatiquement avec le contenu de la nomenclature d'assemblage et les quantités de ligne en fonction de l'en-tête d'ordre d'assemblage.  
 
-    > [!NOTE]  
-    >  Si la fenêtre **Disponibilité assemblage** s'est ouverte au moment où vous avez renseigné l'en-tête d'ordre d'assemblage, chaque ligne d'ordre d'assemblage affectée contient **Oui** dans le champ **Alerte dispo.** avec un lien vers les informations de disponibilité détaillées. Pour plus d'informations, voir Vérifier disponibilité. Vous pouvez résoudre un problème de disponibilité des composants en reportant la date début, en remplaçant le composant par un autre article, ou en sélectionnant un substitut disponible s'il est défini.  
+   > [!NOTE]  
+   >  Si la fenêtre **Disponibilité assemblage** s'est ouverte au moment où vous avez renseigné l'en-tête d'ordre d'assemblage, chaque ligne d'ordre d'assemblage affectée contient **Oui** dans le champ **Alerte dispo.** avec un lien vers les informations de disponibilité détaillées. Pour plus d'informations, voir Vérifier disponibilité. Vous pouvez résoudre un problème de disponibilité des composants en reportant la date début, en remplaçant le composant par un autre article, ou en sélectionnant un substitut disponible s'il est défini.  
 
-6.  Dans le champ **Quantité à assembler**, entrez le nombre d'unités de l'élément d'assemblage à valider comme production la prochaine fois que vous validerez l'ordre de assemblage. Cette quantité peut être inférieure à la valeur du champ **Quantité** pour refléter une validation partielle de production.  
+6. Dans le champ **Quantité à assembler**, entrez le nombre d'unités de l'élément d'assemblage à valider comme production la prochaine fois que vous validerez l'ordre de assemblage. Cette quantité peut être inférieure à la valeur du champ **Quantité** pour refléter une validation partielle de production.  
 
-    > [!NOTE]  
-    >  Pour que la validation de la consommation des composants corresponde à la validation de la production d'éléments d'assemblage, les champs de quantité figurant dans les lignes d'ordre d'assemblage sont ajustées automatiquement au niveau de la valeur que vous entrez dans le champ **Quantité à assembler**.  
-7.  Pour les lignes d'ordre d'assemblage de type **Article** ou **Ressource**, dans le champ **Quantité à consommer**, entrez le nombre d'unités à valider en tant qu'unités consommées la prochaine fois que vous validerez l'ordre de assemblage. Par défaut, la quantité prévue à consommer en fonction de la nomenclature d'assemblage et de la quantité définie dans l'en-tête d'ordre d'assemblage est insérée, mais vous pouvez l'augmenter ou la réduire, par exemple pour refléter une surconsommation de composants ou indiquer que des ressources supplémentaires ont été utilisées.  
-8.  Lorsque vous êtes entièrement ou partiellement prêt pour la validation, choisissez l'action **Valider**.  
+   > [!NOTE]  
+   >  Pour que la validation de la consommation des composants corresponde à la validation de la production d'éléments d'assemblage, les champs de quantité figurant dans les lignes d'ordre d'assemblage sont ajustées automatiquement au niveau de la valeur que vous entrez dans le champ **Quantité à assembler**.  
+7. Pour les lignes d'ordre d'assemblage de type **Article** ou **Ressource**, dans le champ **Quantité à consommer**, entrez le nombre d'unités à valider en tant qu'unités consommées la prochaine fois que vous validerez l'ordre de assemblage. Par défaut, la quantité prévue à consommer en fonction de la nomenclature d'assemblage et de la quantité définie dans l'en-tête d'ordre d'assemblage est insérée, mais vous pouvez l'augmenter ou la réduire, par exemple pour refléter une surconsommation de composants ou indiquer que des ressources supplémentaires ont été utilisées.  
+8. Lorsque vous êtes entièrement ou partiellement prêt pour la validation, choisissez l'action **Valider**.  
 
-    > [!NOTE]  
-    >  Si des avertissements sont toujours présents dans des lignes ordre d'assemblage, la validation est bloquée. Un message sur le ou les composants en stock s'affiche.  
+   > [!NOTE]  
+   >  Si des avertissements sont toujours présents dans des lignes ordre d'assemblage, la validation est bloquée. Un message sur le ou les composants en stock s'affiche.  
 
 Une fois la validation réussie, l'élément d'assemblage est validé comme production dans le code magasin et le code emplacement potentiel qui sont définis sur l'ordre de assemblage. Pour les ordres d'assemblage créés manuellement, le magasin peut être copié à partir du champ de configuration **Emplacement par défaut pour les commandes**. Pour les flux d'assemblage pour commande, le code magasin peut être copié à partir de la ligne commande vente.  
 

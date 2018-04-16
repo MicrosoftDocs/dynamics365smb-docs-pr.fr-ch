@@ -31,11 +31,11 @@ Huit méthodes d'amortissement sont disponibles :
 * Manuel  
 
   > [!NOTE]  
->   Utilisez cette méthode pour les immobilisations qui ne font pas l'objet d'un amortissement, par exemple les terrains. Vous devez saisir l'amortissement dans la feuille validation immobilisation. Le traitement par lots **Calculer amortissement** ignore les immobilisations qui utilisent cette méthode d'amortissement.  
+  >   Utilisez cette méthode pour les immobilisations qui ne font pas l'objet d'un amortissement, par exemple les terrains. Vous devez saisir l'amortissement dans la feuille validation immobilisation. Le traitement par lots **Calculer amortissement** ignore les immobilisations qui utilisent cette méthode d'amortissement.  
 * Règle de la demi-année  
 
   > [!NOTE]  
->    Lorsque vous utilisez cette méthode, le montant de l'amortissement d'une immobilisation ne varie pas d'une année à l'autre.  
+  >    Lorsque vous utilisez cette méthode, le montant de l'amortissement d'une immobilisation ne varie pas d'une année à l'autre.  
 
 ## <a name="straight-line-depreciation"></a>Amortissement linéaire
 Lorsque vous utilisez la méthode linéaire, vous devez indiquer l'une des options suivantes dans la loi d'amortissement immobilisation :  
@@ -233,7 +233,7 @@ Dans la fenêtre **Table amortissement**, vous pouvez configurer des méthodes d
 
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), saisissez **Tables d'amortissement**, puis sélectionnez le lien connexe.  
 2. Dans la fenêtre **Liste des tables amortissement**, sélectionnez l'action **Nouveau**.  
-3. Dans la fenêtre **Fiche table amortissement**, renseignez les champs comme nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. Dans la fenêtre **Fiche table amortissement**, renseignez les champs comme nécessaire. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### <a name="example---user-defined-depreciation"></a>Exemple - Amortissement défini par l'utilisateur
 Vous souhaitez utiliser une méthode d'amortissement vous permettant d'amortir des immobilisations de manière accélérée dans le cadre de l'impôt sur le revenu.  

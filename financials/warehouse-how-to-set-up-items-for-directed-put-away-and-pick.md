@@ -51,9 +51,9 @@ Vous pouvez également définir des codes classe entrepôt si l'entrepôt compre
 Vous pouvez maintenant configurer des zones, si vous souhaitez en utiliser dans votre entrepôt. L'utilisation de zones réduit le nombre de champs à renseigner lors de la configuration des emplacements, étant donné que les emplacements créés dans une zone héritent de plusieurs propriétés de cette zone. Les zones peuvent également faciliter l'orientation des nouveaux employés ou des intérimaires dans l'entrepôt. Notez que le flux est contrôlé par des emplacements ; vous pouvez donc choisir d'utiliser plusieurs emplacements et une seule zone.  
 
 ## <a name="to-set-up-a-zone-in-your-warehouse"></a>Pour configurer une zone de l'entrepôt  
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Magasins**, puis sélectionnez le lien connexe.  
-2.  Sélectionnez le magasin dans lequel vous souhaitez paramétrer une zone et ouvrez la fiche magasin, puis choisissez l'action **Zones**.  
-3.  Dans la fenêtre **Zones**, renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Magasins**, puis sélectionnez le lien connexe.  
+2. Sélectionnez le magasin dans lequel vous souhaitez paramétrer une zone et ouvrez la fiche magasin, puis choisissez l'action **Zones**.  
+3. Dans la fenêtre **Zones**, renseignez les champs selon vos besoins. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 Lorsque vous modifiez le paramètre d'une zone, tous les emplacements créés par la suite dans cette zone disposent des nouvelles caractéristiques, mais les emplacements d'origine ne sont pas modifiés.  
 

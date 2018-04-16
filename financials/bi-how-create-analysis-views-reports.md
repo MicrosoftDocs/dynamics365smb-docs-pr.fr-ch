@@ -69,10 +69,10 @@ Un modèle contient un ensemble de lignes représentant les colonnes d'analyse d
 4. Dans la fenêtre **Colonnes d'analyse**, renseignez les champs afin d'indiquer les colonnes à inclure dans l'état d'analyse.  
 
     > [!NOTE]  
->   Pour définir une colonne, renseignez le champ **Code type analyse** de tous les types de colonne sauf **Formule**. Configurez les codes type analyse de la fenêtre **Types d'analyse**.  
+   >   Pour définir une colonne, renseignez le champ **Code type analyse** de tous les types de colonne sauf **Formule**. Configurez les codes type analyse de la fenêtre **Types d'analyse**.  
 
     **Remarque**. Si vous sélectionnez **Ecritures article** dans le champ **Type écriture comptable**, les chiffres réels à partir de l'écriture comptable article sont copiés. Si vous sélectionnez **Ecritures budget article**, les chiffres budgétés à partir du budget sont copiés.  
-5.  Cliquez sur le bouton **OK** pour enregistrer vos modifications.  
+5. Cliquez sur le bouton **OK** pour enregistrer vos modifications.  
 
 ## <a name="to-set-up-analysis-line-templates"></a>Pour configurer des modèles de ligne d'analyse  
 La procédure suivante se base sur des rapports d'analyse des ventes. Les étapes sont similaires aux rapports d'analyse d'achat et d'inventaire.
@@ -96,7 +96,7 @@ Les rapports d'analyse permettent d'analyser la dynamique de vos ventes en fonct
 
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Rapports d'analyse vente**, puis sélectionnez le lien connexe.  
 2. Dans la fenêtre **Rapports d'analyse vente**, cliquez sur l'action **Nouveau**.
-3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Renseignez les champs selon vos besoins. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Choisissez l'action **Modifier le rapport d'analyse**.
 5. Dans la fenêtre **Rapports d'analyse vente**, cliquez sur l'action **Afficher matrice**.  
 

@@ -31,7 +31,7 @@ Vous pouvez enregistrer chaque tâche de maintenance, telle qu'une visite de ser
 
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Immobilisations**, puis sélectionnez le lien connexe.  
 2. Sélectionnez l'immobilisation pour laquelle vous souhaitez enregistrer la maintenance, puis sélectionnez l'action **Saisie de la maintenance**.
-3. Dans la fenêtre **Saisie de la maintenance**, renseignez les champs comme nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. Dans la fenêtre **Saisie de la maintenance**, renseignez les champs comme nécessaire. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-post-maintenance-costs-from-a-fixed-asset-gl-journal"></a>Pour valider les coûts de maintenance à partir d'une feuille comptabilisation immobilisation
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), saisissez **Liste des lois d'amortissement**, puis sélectionnez le lien connexe.  
@@ -43,7 +43,7 @@ Vous pouvez enregistrer chaque tâche de maintenance, telle qu'une visite de ser
 7. Sélectionnez l'action **Insérer contrepartie immo.**. Une seconde ligne feuille est créée pour le compte contrepartie qui est configuré pour la validation de la maintenance.
 
     > [!NOTE]  
->   L'étape 7 ne fonctionne que si vous avez configuré ce qui suit : dans la fenêtre **Fiche groupe compta. immo.** du groupe de validation de l'immobilisation, le champ **Compte maintenance** contient le compte débit général et le champ **Compte contrepartie maintenance** contient le compte général dans lequel vous souhaitez valider les écritures contrepartie pour réévaluation. Pour en savoir plus, voir la section « Pour configurer des groupes de validation d'immobilisation » dans [Configurer des informations d'immobilisation générales pour les immobilisations](fa-how-setup-general.md).
+   >   L'étape 7 ne fonctionne que si vous avez configuré ce qui suit : dans la fenêtre **Fiche groupe compta. immo.** du groupe de validation de l'immobilisation, le champ **Compte maintenance** contient le compte débit général et le champ **Compte contrepartie maintenance** contient le compte général dans lequel vous souhaitez valider les écritures contrepartie pour réévaluation. Pour en savoir plus, voir la section « Pour configurer des groupes de validation d'immobilisation » dans [Configurer des informations d'immobilisation générales pour les immobilisations](fa-how-setup-general.md).
 8. Sélectionnez l'action **Valider**.
 
 ## <a name="to-follow-up-on-fixed-assets-service-visits"></a>Pour effectuer le suivi des visites d'entretien des immobilisations

@@ -106,12 +106,12 @@ Les calendriers principaux sont affectés à votre propre société, à vos clie
 2.  Ouvrez la fiche **Client** pour laquelle vous allez affecter un calendrier principal.  
 3.  Sur le raccourci **Expédition**, dans le champ **Code calendrier principal**, sélectionnez le calendrier principal à affecter.  
 
-> [!IMPORTANT]  
->  -   Si vous n'affectez aucun calendrier principal aux sociétés, toutes les dates sont calculées comme des jours ouvrés.  
-> -   Si vous n'indiquez pas le magasin sur une ligne commande, toutes les dates sont calculées comme des jours ouvrés.  
-> -   Le calendrier principal défini pour le fournisseur ou le magasin affecte uniquement la manière dont les dates sont calculées et arrondies en jours ouvrés.
-
-> [!NOTE]  
+> [!IMPORTANT]
+> - Si vous n'affectez aucun calendrier principal aux sociétés, toutes les dates sont calculées comme des jours ouvrés.  
+>   -   Si vous n'indiquez pas le magasin sur une ligne commande, toutes les dates sont calculées comme des jours ouvrés.  
+>   -   Le calendrier principal défini pour le fournisseur ou le magasin affecte uniquement la manière dont les dates sont calculées et arrondies en jours ouvrés.
+> 
+> [!NOTE]
 >  Pour créer des écritures calendrier personnalisé, vous devez d'abord affecter un calendrier principal à la société.  
 
 ## <a name="see-also"></a>Voir aussi

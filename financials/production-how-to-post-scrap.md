@@ -27,7 +27,7 @@ Si le traitement produit un rebut, vous pouvez entrer ce rebut dans la feuille p
 
 ## <a name="to-post-scrap-manually"></a>Pour valider le rebut manuellement  
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille production**, puis sélectionnez le lien connexe.  
-2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Renseignez les champs selon vos besoins. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Dans le champ **Quantité rebutée**, saisissez la quantité perte.  
 4. Dans le champ **Code rebut**, saisissez le code rebut.  
 5. Choisissez l'action **Valider** pour valider le rebut spécifié par opération.  

@@ -80,8 +80,8 @@ Pour calculer le coût opératoire standard, vous devez déterminer les délais 
 
 Vous configurez les taux établis pour chaque type de délai pour chaque poste de charge ou centre de charge dans une gamme individuelle.  
 
-> [!NOTE]  
-    >  Si les délais d'exécution s'appliquent à chaque unité d'article produit, les délais de configuration s'appliquent pour chaque lot. Aussi, vous devez distribuer au prorata le délai de configuration de la gamme pour chaque opération par rapport à la taille lot. Vous spécifiez la taille lot dans le champ correspondant sur le raccourci **Commandes** de la fiche article.  
+> [!NOTE]
+>  Si les délais d'exécution s'appliquent à chaque unité d'article produit, les délais de configuration s'appliquent pour chaque lot. Aussi, vous devez distribuer au prorata le délai de configuration de la gamme pour chaque opération par rapport à la taille lot. Vous spécifiez la taille lot dans le champ correspondant sur le raccourci **Commandes** de la fiche article.  
 
 Pour spécifier le délai de configuration dans la gamme à des fins de planification, sans toutefois inclure cette dépense dans le calcul des coûts standard, désactivez le champ **Inclure coût préparation** de la fenêtre **Paramètres production**.  
 

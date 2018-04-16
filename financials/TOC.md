@@ -151,7 +151,7 @@
 
 # [Finances](finance.md)
 ## [Gestion des comptes client](receivables-manage-receivables.md)
-###[Lettrage automatique des paiements et rapprochement des comptes bancaires](receivables-apply-payments-auto-reconcile-bank-accounts.md)
+### [Lettrage automatique des paiements et rapprochement des comptes bancaires](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ### [Rapprocher les paiements client manuellement à partir de la liste des documents vente échus](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
 ### [Lettrer les paiements client manuellement](receivables-how-apply-sales-transactions-manually.md)  
 ### [Collecte des soldes restants](receivables-collect-outstanding-balances.md)

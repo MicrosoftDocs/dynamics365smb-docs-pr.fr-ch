@@ -27,7 +27,7 @@ Vous pouvez ensuite créer des lignes de document pour un magasin spécifique, v
 ## <a name="to-create-a-location-card"></a>Pour créer une fiche magasin
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Magasins**, puis sélectionnez le lien connexe.
 2. Sélectionnez l'action **Nouveau**.
-3. Dans la fenêtre **Fiche magasin**, renseignez les champs comme nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Dans la fenêtre **Fiche magasin**, renseignez les champs comme nécessaire. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Répétez les étapes 2 et 3 pour chaque magasin dans lequel vous souhaitez conserver le stock.
 
 > [!NOTE]  
@@ -37,7 +37,7 @@ Vous pouvez ensuite créer des lignes de document pour un magasin spécifique, v
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Magasins**, puis sélectionnez le lien connexe.
 2. Sinon, à partir de n'importe quelle fenêtre **Fiche magasin**, cliquez sur **Acheminements transfert**.
 3. Sélectionnez l'action **Nouveau**.
-4. Dans la fenêtre **Fiche magasin**, renseignez les champs comme nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. Dans la fenêtre **Fiche magasin**, renseignez les champs comme nécessaire. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Vous pouvez à présent transférer des articles en stock entre deux magasins. Pour plus d'informations, voir [Transfert de stock entre des magasins](inventory-how-transfer-between-locations.md).    
 

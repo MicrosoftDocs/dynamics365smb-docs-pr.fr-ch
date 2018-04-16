@@ -33,7 +33,7 @@ Vous pouvez utiliser le traitement par lots **Créer des feuilles de temps** pou
 
 1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuilles de temps**, puis choisissez le lien associé.
 2. Dans la fenêtre **Liste des feuilles de temps**, cliquez sur l'action **Créer des feuilles de temps**.
-3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Renseignez les champs selon vos besoins. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
 >   Les champs **Utiliser la feuille de temps** et **ID utilisateur du propriétaire de la feuille de temps** doivent être renseignés sur la fiche de la ressource de la feuille de temps.
@@ -77,16 +77,16 @@ L'enregistrement des feuilles de temps est assuré en heures, qui est l'unité d
 3. Renseignez les champs d'une ligne selon vos besoins. Saisissez le nombre d'heures utilisées par la ressource chaque jour de la semaine.
 
     > [!TIP]  
->   Vous pouvez consulter dans le récapitulatif **Totalisation réelle/budgétée** la somme des heures des feuilles de temps que vous avez entrées.  
+   >   Vous pouvez consulter dans le récapitulatif **Totalisation réelle/budgétée** la somme des heures des feuilles de temps que vous avez entrées.  
 4. Répétez l'étape 3 pour d'autres types de travaux que la ressource effectue.
 5. Cliquez sur **Envoyer**, puis sur **Toutes les lignes ouvertes** pour envoyer toutes les lignes ou sur **Ligne(s) sélectionnée(s) uniquement** pour envoyer uniquement les lignes qui sont sélectionnées dans la fenêtre **Feuille de temps**.  
 
     > [!NOTE]  
->   Vous ne pouvez toutefois soumettre que des lignes pour lesquelles vous avez entré du temps.  
+   >   Vous ne pouvez toutefois soumettre que des lignes pour lesquelles vous avez entré du temps.  
 6. Pour modifier les informations d'une ligne qui a pour valeur **Soumis**, sélectionnez la ligne en question, puis cliquez sur **Rouvrir**.
 
     > [!NOTE]  
->   Un administrateur peut rejeter une ligne feuille de temps qui est envoyée pour approbation. Si une ligne a le statut **Rejeté**, vous pouvez modifier cette ligne et choisir de nouveau **Soumettre**.  
+   >   Un administrateur peut rejeter une ligne feuille de temps qui est envoyée pour approbation. Si une ligne a le statut **Rejeté**, vous pouvez modifier cette ligne et choisir de nouveau **Soumettre**.  
 7. Cliquez sur le bouton **OK**.
 
 ## <a name="to-approve-or-reject-a-time-sheet"></a>Pour approuver ou rejeter une feuille de temps
@@ -111,7 +111,7 @@ Une fois qu'une feuille de temps est approuvée ou rejetée, elle ne peut plus �
 2. Ouvrez une feuille de temps à partir de la liste.  
 
     > [!NOTE]  
->   Vous ne pouvez rouvrir que les lignes dont le statut est **Approuvé**. Vous ne pouvez pas rouvrir les lignes dont le statut est **Rejeté**. Vous ne pouvez pas rouvrir une feuille de temps qui a été validée.  
+   >   Vous ne pouvez rouvrir que les lignes dont le statut est **Approuvé**. Vous ne pouvez pas rouvrir les lignes dont le statut est **Rejeté**. Vous ne pouvez pas rouvrir une feuille de temps qui a été validée.  
 3. Dans la fenêtre **Feuille de temps**, cliquez sur **Rouvrir**, puis sur **Toutes les lignes soumises** pour rouvrir toutes les lignes ou sur **Ligne(s) sélectionnée(s) uniquement** pour rouvrir toutes les lignes qui sont sélectionnées dans la fenêtre **Feuille de temps**.
 4. Cliquez sur le bouton **OK**. Le statut de la ou des lignes des feuilles de temps devient **Soumis**.  
 
@@ -134,7 +134,7 @@ Une fois que vous avez approuvé les écritures des feuilles de temps d'un proje
 4. Cliquez sur le bouton **OK**. Les écritures de l'activité sont créées dans la feuille projet, dans laquelle vous pouvez modifier les informations selon vos besoins.  
 
     > [!NOTE]  
->   Les informations sur le type de travail et la facturabilité du travail sont copiées à partir de la ligne feuille de temps. Si nécessaire, vous pouvez réduire le nombre d'heures et procéder à une validation partielle. Si vous réduisez la quantité, la prochaine fois que vous cliquerez sur **Proposer des lignes à partir des feuilles de temps**, la ligne qui sera créée contiendra la quantité d'heures restante.  
+   >   Les informations sur le type de travail et la facturabilité du travail sont copiées à partir de la ligne feuille de temps. Si nécessaire, vous pouvez réduire le nombre d'heures et procéder à une validation partielle. Si vous réduisez la quantité, la prochaine fois que vous cliquerez sur **Proposer des lignes à partir des feuilles de temps**, la ligne qui sera créée contiendra la quantité d'heures restante.  
 5. Sélectionnez l'action **Valider**.  
 6. Pour vérifier la validation, cliquez sur **Écritures comptables**. La fenêtre **Écritures comptables projet** s'ouvre et affiche le résultat de la validation de la feuille ressource.
 

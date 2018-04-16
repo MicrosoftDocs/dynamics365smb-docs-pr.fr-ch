@@ -23,10 +23,10 @@ ms.lasthandoff: 03/22/2018
 La méthode la plus efficace pour créer les emplacements de votre entrepôt consiste à générer des groupes d'emplacements identiques dans la feuille de création d'emplacements, mais vous pouvez également créer vos emplacements séparément à partir de la fiche magasin. Vous pouvez également utiliser une fonction de la fenêtre **Feuille création emplacement** pour créer des emplacements automatiquement.  
 
 ## <a name="to-create-a-bin-from-the-location-card"></a>Pour créer un emplacement à partir de la fiche magasin  
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Magasins**, puis sélectionnez le lien connexe.  
-2.  Sélectionnez le magasin à partir duquel vous souhaitez créer un emplacement, puis choisissez l'action **Emplacements**.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Magasins**, puis sélectionnez le lien connexe.  
+2. Sélectionnez le magasin à partir duquel vous souhaitez créer un emplacement, puis choisissez l'action **Emplacements**.  
 3. Sélectionnez l'action **Nouveau**.
-4. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+4. Renseignez les champs selon vos besoins. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-create-bins-individually-in-the-bin-creation-worksheet"></a>Pour créer séparément des emplacements dans la feuille de création d'emplacements  
 1.  Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille création emplacement**, puis choisissez le lien associé.  

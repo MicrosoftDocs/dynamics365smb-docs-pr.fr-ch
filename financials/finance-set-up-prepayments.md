@@ -59,7 +59,7 @@ Pour un article, vous pouvez configurer un pourcentage d'acompte par défaut pou
 
 1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Articles**, puis sélectionnez le lien connexe.
 2. Sélectionnez un article, puis cliquez sur l'action **Pourcentages acompte**.  
-3. Dans la fenêtre **Pourcentages acompte vente**, renseignez autant de champs que nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Dans la fenêtre **Pourcentages acompte vente**, renseignez autant de champs que nécessaire. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Pour un client ou un fournisseur, vous pouvez configurer un pourcentage d'acompte par défaut pour tous les articles et tous les types de lignes vente. Vous entrez cette valeur dans la fiche client ou fournisseur.
 
