@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: kit, kitting
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 42f4d0f07e23bfc8fd2ab79fdf315df21a90c9b3
+ms.sourcegitcommit: 4bc9199b879c23115082b07a81d6da5a0b46e60d
+ms.openlocfilehash: fc1a4063ecf8a43fb879e61fb4aeef3e3ec974ad
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/31/2018
 
 ---
 # <a name="sell-assemble-to-order-items-and-inventory-items-together"></a><span data-ttu-id="66bea-104">Vente simultanée d'articles à assembler pour commande et d'articles en stock</span><span class="sxs-lookup"><span data-stu-id="66bea-104">Sell Assemble-to-Order Items and Inventory Items Together</span></span>
