@@ -1,0 +1,8 @@
+> [!IMPORTANT]
+> <span data-ttu-id="8bb78-101">**Annonce des notes de publication de Dynamics 365 (avril 2018)**</span><span class="sxs-lookup"><span data-stu-id="8bb78-101">**Announcing the Dynamics 365 April '18 release notes**</span></span>
+>
+> <span data-ttu-id="8bb78-102">Vous souhaitez connaître les fonctionnalités à venir et récemment publiées dans nos applications ou notre plateforme d'entreprise ?</span><span class="sxs-lookup"><span data-stu-id="8bb78-102">Wondering about upcoming and recently released capabilities in any of our business apps or platform?</span></span>
+>
+> <span data-ttu-id="8bb78-103">[Téléchargez les notes de publication (avril 2018)](https://go.microsoft.com/fwlink/?linkid=870424).</span><span class="sxs-lookup"><span data-stu-id="8bb78-103">[Download the April '18 release notes](https://go.microsoft.com/fwlink/?linkid=870424).</span></span> <span data-ttu-id="8bb78-104">Nous avons capturé tous les détails, de bout en bout, de haut en bas, dans un fichier PDF unique que vous pouvez utiliser pour la planification.</span><span class="sxs-lookup"><span data-stu-id="8bb78-104">We've captured all the details, end to end, top to bottom, in a single PDF that you can use for planning.</span></span>  
+>
+> <span data-ttu-id="8bb78-105">**Bientôt disponible** : nous continuerons à mettre à jour le fichier PDF des notes de publication dès que des fonctionnalités seront disponibles, et nous les mettrons à votre disposition sur une page Web.</span><span class="sxs-lookup"><span data-stu-id="8bb78-105">**Coming soon**: We'll keep updating the Release notes PDF as features ship, and will also make them available on a web page.</span></span> 
