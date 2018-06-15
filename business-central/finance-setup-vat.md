@@ -11,10 +11,10 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 04/20/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 3ca2883af506af1d98322305ee07a2995470bb2b
+ms.sourcegitcommit: b4dfdeb3cf49867699907c444147060727d3f146
+ms.openlocfilehash: 335738af45c1365da7e45f062b60e30d66082f41
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/09/2018
 
 ---
 
@@ -48,7 +48,9 @@ Pour configurer des numéros d'identification intracommunautaire, procédez comm
 2. Choisissez le pays ou la régions, puis cliquez sur **Formats n° identif. intracomm**.
 3. Dans le champ **Formats**, définissez le format en saisissant un ou plusieurs des caractères suivants :  
 
-    |----|----| | # | Requiert un numéro à un seul chiffre. | | @ | Requiert une lettre. Ce texte n'est pas sensible à la casse. | | ? | Tout caractère est autorisé. |
+* # <a name="--requires-a-single-digit-number"></a>- Requiert un numéro à un seul chiffre.
+* @ - Requiert une lettre. Ce texte n'est pas sensible à la casse.
+* ? - Tout caractère est autorisé.
 
     > [!Tip]
     > Vous pouvez utiliser d'autres caractères tant qu'ils sont présents dans le format du pays ou de la région. Par exemple, si vous souhaitez inclure un point ou un trait d'union entre des séries de chiffres, vous pouvez définir le format sous la forme ##.####.### ou @@-###-###.  

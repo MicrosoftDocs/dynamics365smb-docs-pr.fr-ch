@@ -1,8 +1,6 @@
 ---
 title: "Créer des contacts| Microsoft Docs"
 description: "Décrit comment créer une fiche contact pour chaque nouvelle personne ou nouveau prospect avec lequel vous collaborez ou entretenez des relations professionnelles."
-services: project-madeira
-documentationcenter: 
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/06/2017
+ms.date: 05/09/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5a5f1bc0157309c18f92253803b27ccc29263e84
+ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
+ms.openlocfilehash: 38f42e4d44dd38fe70816035711e00561fd9e777
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/15/2018
 
 ---
 # <a name="create-contact-persons"></a>Création de personnes contact
@@ -43,5 +41,6 @@ Vous pouvez créer une fiche contact pour chaque contact qui travaille dans les 
 [Configurer des responsabilités sur les contacts](marketing-job-responsibilities.md)  
 [Configurer des niveaux hiérarchiques pour les personnes contact](marketing-organizational-levels.md)  
 [Synchronisation des contacts avec les clients, les fournisseurs et les comptes bancaires](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
+[Utiliser des questionnaires profil pour classer les contacts professionnels](marketing-create-contact-profile-questionnaire.md)  
 [Utilisation de Business Central](ui-work-product.md)  
 

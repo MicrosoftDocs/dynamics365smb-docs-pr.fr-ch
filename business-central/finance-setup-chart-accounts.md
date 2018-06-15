@@ -1,8 +1,6 @@
 ---
-title: Configuration du plan comptable| Microsoft Docs
+title: Configuration du plan comptable
 description: "Vous modifiez les comptes par défaut dans le plan comptable, et vous pouvez ajouter de nouveaux comptes."
-services: project-madeira
-documentationcenter: 
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: COA, cha of acc
-ms.date: 06/02/2017
+ms.date: 04/16/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: cce6320e24ba8d73825e7cb71ada262c5af242a7
+ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
+ms.openlocfilehash: 9f84af8bb4ac3be9132ab621906c463cfc9b91ff
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Configuration ou modification du plan comptable
@@ -39,7 +37,8 @@ Cependant, vous pouvez modifier les comptes par défaut, et vous pouvez ajouter 
 [Les écritures comptables et le plan comptable](finance-general-ledger.md)  
 [Gestion des comptes bancaires](bank-manage-bank-accounts.md)  
 [Utilisation des axes analytiques](finance-dimensions.md)  
-[Importation à partir d'autres systèmes financiers](upload-data.md)  
+[Importation de données à partir d'autres systèmes financiers](across-import-data-configuration-packages.md)(across-import-data-configuration-packages.md)  
+[Utilisation des tableaux d'analyse](bi-how-work-account-schedule.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

@@ -1,6 +1,6 @@
 ---
 title: Utilisation de l'extension C5 Data Migration | Microsoft Docs
-description: "Utilisez cette extension pour migrer des clients, des fournisseurs, des articles et des comptes généraux de Microsoft Dynamics C5 2012 vers Financials."
+description: "Utilisez cette extension pour migrer des clients, des fournisseurs, des articles et des comptes généraux de Microsoft Dynamics C5 2012 vers Business Central."
 services: project-madeira
 documentationcenter: 
 author: bholtorf
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
-ms.date: 11/21/2017
+ms.date: 04/09/208
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 7fe6393ad43dbad032512b2d6d45cc8ee0392236
+ms.sourcegitcommit: fa6779ee8fb2bbb453014e32cb7f3cf8dcfa18da
+ms.openlocfilehash: 698bde6949c6053501881d07135586810fc81bdd
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/11/2018
 
 ---
 
@@ -26,7 +26,7 @@ Cette extension facilite la migration de clients, de fournisseurs, d'articles et
 > [!Note]
 > La société dans [!INCLUDE[d365fin](includes/d365fin_md.md)] ne doit pas contenir de données. En outre, après avoir commencé une migration, ne créez pas de clients, de fournisseurs, d'articles, ou de comptes jusqu'à la fin de la migration.
 
-##<a name="what-data-is-migrated"></a>Quelles données sont migrées ?
+## <a name="what-data-is-migrated"></a>Quelles données sont migrées ?
 Les données suivantes sont migrées pour chaque entité :
 
 **Clients**
@@ -86,6 +86,13 @@ Si vous migrez des comptes, les données suivantes sont également migrées :
 > [!Note]
 > S'il existe des transactions ouvertes qui utilisent des devises étrangères, les taux de change pour les devises sont également migrés. Les autres taux de change ne sont pas migrés.
 
+**Plan comptable**  
+* Dimensions standard : département, centre de coût, objectif  
+* Transactions comptables historiques  
+
+> [!Note]
+> Les transactions comptables historiques sont traitées un peu différemment. Lorsque vous migrez des données, vous définissez un paramètre **Période courante**. Ce paramètre spécifie comment traiter les transactions comptables. Les transactions postérieures à cette date sont migrées individuellement. Les transactions antérieures à cette date sont regroupées par compte et migrées en tant que montant unique. Par exemple, supposons qu'il existe des transactions en 2015, 2016, 2017, 2018 et que vous spécifiez le 01 janvier 2017 dans le champ Période courante. Pour chaque compte, les montants des transactions effectuées au plus tard le 31 décembre 2106 sont regroupés sur une ligne feuille comptabilité unique pour chaque compte général. Toutes les transactions postérieures à cette date sont migrées individuellement.
+
 ## <a name="to-migrate-data"></a>Pour migrer des données
 Quelques étapes suffisent pour exporter des données de C5 et les importer dans [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
 
@@ -101,6 +108,13 @@ Utilisez la page **Vue d’ensemble de la migration des données** pour contrôl
 
 > [!Note]
 > Pendant que vous attendez les résultats de la migration, vous devez actualiser la page pour afficher les résultats.
+
+## <a name="how-to-avoid-double-posting"></a>Comment éviter la double validation
+Pour éviter la double validation en comptabilité, les comptes de contrepartie suivants sont utilisés pour les transactions ouvertes :  
+  
+* Pour les fournisseurs, nous utilisons le compte Comptabilité fournisseur dans le groupe comptabilisation fournisseur.  
+* Pour les clients, nous utilisons le compte Comptabilité client dans le groupe comptabilisation client.  
+* Pour les articles, nous créons un paramètre comptabilisation où le compte ajustement est le compte spécifié comme compte stock dans les paramètres comptabilisation stock.  
 
 ## <a name="correcting-errors"></a>Correction des erreur
 Si quelque chose se passe mal et qu'une erreur survient, le champ **Statut** affiche **Terminé avec des erreurs**, et le champ **Nombre d'erreurs** en indique le nombre. Pour afficher la liste des erreurs, vous pouvez ouvrir la page **Erreurs de migration des données** en sélectionnant :  
@@ -119,13 +133,12 @@ Dans la page **Erreurs de migration des données**, pour corriger une erreur vou
 ## <a name="verifying-data-after-migrating"></a>Vérifier les données après avoir effectué une migration
 Si vous souhaitez vérifier que vos données ont été migrées correctement, vous pouvez consulter les pages suivantes dans C5 et [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-|Microsoft Dynamics C5 2012 | [!INCLUDE[d365fin](includes/d365fin_md.md)]|
-|-----|-----|
-|Écritures client| Feuilles comptabilité|
-|Écritures fournisseur| Feuilles comptabilité|
-|Ecritures article| Feuilles article|
-
-Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], le lot des données migrées est nommé **C5MIGRATE**.
+|Microsoft Dynamics C5 2012 | [!INCLUDE[d365fin](includes/d365fin_md.md)]| Traitement par lots à utiliser |
+|-----|-----|-----|
+|Écritures client| Feuilles comptabilité| CUSTMIGR |
+|Écritures fournisseur| Feuilles comptabilité| VENDMIGR|
+|Ecritures article| Feuilles article| ITEMMIGR |
+|Écritures comptables| Feuilles comptabilité| GLACMIGR |
 
 ## <a name="stopping-data-migration"></a>Arrêter la migration des données
 Vous pouvez arrêter de migrer les données en sélectionnant **Arrêter toutes les migrations**. Si vous le faites, toutes les migrations en attente sont également arrêtées.

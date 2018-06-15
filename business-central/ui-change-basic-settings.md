@@ -13,21 +13,21 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 03/02/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: c7f07bd3cee8d52cccf171dfd229265d65e99cba
+ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
+ms.openlocfilehash: f71b0e7d53138be0f89abe4e7935ab7c21437d8e
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/28/2018
 
 ---
 # <a name="changing-basic-settings"></a>Modification des paramètres de base
-Dans la fenêtre **Mes paramètres**, vous pouvez afficher et modifier les paramètres de base de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Dans la fenêtre **Mes paramètres**, vous pouvez afficher et modifier les paramètres de base de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vos modifications affectent uniquement votre espace de travail, et non les espaces de travail des autres utilisateurs.  
 
 ## <a name="role-center"></a>Tableau de bord
-Le Tableau de bord représente la page d'accueil et est conçu pour les exigences du rôle. Le Tableau de bord vous donne un aperçu de l'entreprise, reflétant les informations, les tâches, et les priorités de votre rôle.
+Le tableau de bord représente la page d'accueil, un écran de démarrage conçu pour les exigences d'un rôle spécifique dans une organisation. Selon votre rôle, le tableau de bord donne une vue d'ensemble de l'entreprise, de votre département ou de vos tâches personnelles. Il vous permet également d'accéder à vos tâches quotidiennes et de rechercher les tâches qui vous sont affectées.
 
-Avec la partie supérieure du Tableau de bord, vous voyez une barre de navigation qui vous donne un accès facile aux entités courantes du rôle, telles que ses clients, fournisseurs, articles, etc.
+-   En haut, la navigation vous permet de permuter entre les clients, les fournisseurs, les articles et d'autres listes d'informations importantes. De même, les actions vous permettent de lancer des tâches, comme la création d'une facture vente, directement à partir du tableau de bord.
 
-Ce qui s'affiche dans la zone de contenu principale dépend du Tableau de bord spécifique. Par exemple, dans la plupart des tableaux de bord, vous pouvez trouver des vignettes Activités qui affichent des données actuelles et sur lesquelles vous pouvez cliquer pour un accès facile au document sélectionné. Les indicateurs de performance clés peuvent être configurés de sorte à afficher un graphique sélectionné pour une représentation visuelle, par exemple, de la trésorerie ou des revenus et des dépenses. Certains tableaux de bord permettent de créer une liste d'entités préférées, comme les clients et les fournisseurs, ou afficher la Boîte de réception état.
+-   Au centre, vous trouverez les **Activités**. Les activités affichent les données actuelles et vous pouvez cliquer ou appuyer dessus pour afficher des informations plus détaillées. Les indicateurs de performance clés peuvent être configurés de sorte à afficher un graphique sélectionné pour une représentation visuelle, par exemple, de la trésorerie ou des revenus et des dépenses. Vous pouvez également générer la liste des clients favoris sur la page d'accueil pour les comptes avec lesquels vous travaillez souvent ou auxquels vous devez accorder une attention particulière.
 
 ### <a name="to-change-role-center"></a>Pour modifier le tableau de bord
 Le Tableau de bord par défaut est **Gestionnaire d'activité**, mais vous pouvez sélectionner un autre Tableau de bord qui correspond mieux à vos besoins mieux.
@@ -55,10 +55,16 @@ La date de travail par défaut est généralement la date du jour. Vous pouvez �
 ## <a name="region"></a>Région
 Le paramètre **Région** détermine la manière dont les dates, heures, nombres et devises sont affichés ou mis en forme.   
 
+
+## <a name="language"></a>Langue
+Modifie la langue d'affichage. Ce champ s'affiche uniquement lorsque vous avez le choix entre plusieurs langues. 
+
+La langue initiale est déterminée par l'administrateur ou par les paramètres de votre navigateur lorsque vous vous inscrivez à [!INCLUDE[d365fin](includes/d365fin_md.md)]. La langue définie est utilisée sur tous les appareils à partir desquels vous vous connectez, par exemple un téléphone ou une tablette. 
+
 ## <a name="changing-when-i-receive-notifications"></a>Modification lorsque je reçois des notifications
 Sélectionnez ce lien pour afficher ou modifier les notifications que vous recevez au sujet de certains événements ou modification de statut, lorsque vous êtes sur le point de facturer un client avec des écritures échues, ou lorsque le stock disponible est inférieur à la quantité que vous êtes sur le point de vendre. Pour plus d'informations, voir [Notifications intelligentes](ui-smart-notifications.md).
 
 ## <a name="see-also"></a>Voir aussi
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Personnalisation de votre expérience [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)  
+[Modification des fonctionnalités affichées](ui-experiences.md)  
 

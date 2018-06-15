@@ -10,17 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reconcile
-ms.date: 06/02/2017
+ms.date: 05/15/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bfc83194a1010e3ac628484952bd0c6b1046481b
+ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
+ms.openlocfilehash: dd3068cc1af6a16a43f982d3b48cdec42a7d7eca
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 
 ---
 # <a name="managing-bank-accounts"></a>Gestion des comptes bancaires
-Vous devez rapprocher régulièrement vos écritures comptables banque dans [!INCLUDE[d365fin](includes/d365fin_md.md)] avec les transactions bancaires associées dans les comptes bancaires de votre banque, puis valider le solde sur votre compte bancaire. Vous pouvez effectuer cette tâche soit dans le cadre du traitement des paiements représentés sur un relevé bancaire dans la **Feuille rapprochement bancaire**. Sinon, vous pouvez effectuer la tâche séparément du traitement des paiements, dans la fenêtre **Rapprochement bancaire**, qui prend en charge des écritures comptables chèque. Dans les deux cas, vous renseignez les fenêtres en important le relevé bancaire dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Vous devez rapprocher régulièrement vos écritures comptables banque dans [!INCLUDE[d365fin](includes/d365fin_md.md)] avec les transactions bancaires associées dans les comptes bancaires de votre banque, puis valider le solde sur votre compte bancaire. Vous pouvez effectuer cette tâche soit dans le cadre du traitement des paiements représentés sur un relevé bancaire dans la **Feuille rapprochement bancaire**. Vous pouvez également effectuer la tâche séparément du traitement des paiements, dans la fenêtre **Rapprochement bancaire**, où vous mettez en correspondance (rapprochez) les lignes de relevé bancaire dans le volet gauche avec vos écritures comptables compte bancaire internes dans le volet droit. Dans les deux fenêtres, vous pouvez renseigner les informations de relevé bancaire en important un fichier ou un flux, et vous pouvez utiliser les suggestions de correspondance automatique.
+
+> [!NOTE]  
+> Dans les versions nord-américaines, vous pouvez également effectuer le rapprochement bancaire dans la fenêtre **Feuille rapprochement bancaire**, qui est mieux adaptée pour les chèques et les acomptes, mais ne prend pas en charge l'importation de fichiers de relevé bancaire. Pour utiliser cette fenêtre à la place de la fenêtre **Rapprochement bancaire**, désélectionnez le champ **Rapprochement bancaire avec correspondance auto.** dans la fenêtre **Paramètres comptabilité**. Pour plus d'informations, voir la section « Rapprocher des comptes bancaires » sous Fonctionnalité locale, États-Unis.
 
 Parfois, vous devez transférer les montants entre comptes bancaires dans [!INCLUDE[d365fin](includes/d365fin_md.md)] pour refléter les transferts effectués au niveau de votre banque. Vous effectuez cette tâche dans la fenêtre **Feuille comptabilité**, de différentes manières en fonction de la devise des fonds.
 

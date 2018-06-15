@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 07/01/2017
+ms.date: 05/04/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 90b85a099b2b52930299a27b39ed96be9bade624
+ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
+ms.openlocfilehash: d5606d6e8714c96a675f4d5f4074e431aa818ec7
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/15/2018
 
 ---
 # <a name="design-details-planning-parameters"></a>Détails de conception : paramètres de planification
@@ -76,7 +76,7 @@ Pour obtenir un programme d'approvisionnement rationnel, un gestionnaire régler
 |---------------------------------|---------------------------------------|  
 |**Période de replanification**|Ce champ est utilisé pour déterminer si le message d'action doit replanifier une commande existante ou l'annuler et créer une nouvelle commande. L'ordre existant sera replanifié dans une période de replanification avant l'approvisionnement actif et jusqu'à une période de replanification après la date d'approvisionnement actif.|  
 |**Période de groupement de lots**|Avec la méthode de réapprovisionnement lot pour lot, ce champ est utilisé pour regrouper plusieurs besoins d'approvisionnement dans une commande d'approvisionnement. À partir du premier approvisionnement prévu, le système cumule tous les besoins d'approvisionnement dans la période de groupement de lots suivante en un approvisionnement unique, effectuée lors de la date du premier approvisionnement. La demande effectuée en dehors de la période de groupement de lots n'est pas couverte par cet approvisionnement.|  
-|**Période tampon**|Ce champ permet d'éviter une replanification mineure de l'approvisionnement existant dans le temps. Les modifications de la date approvisionnement jusqu'à une période tampon de la date approvisionnement ne génèrent aucun message d'action.<br /><br /> Par conséquent, un delta positif entre la nouvelle date d'approvisionnement proposée et la date d'approvisionnement d'origine est toujours supérieur à la période tampon.|  
+|**Période tampon**|Ce champ permet d'éviter une replanification mineure de l'approvisionnement existant dans le temps. Les modifications de la date approvisionnement jusqu'à une période tampon de la date approvisionnement ne génèrent aucun message d'action.<br /><br /> La période tampon désigne la période pendant laquelle vous ne souhaitez pas que le système de planification propose de replanifier les commandes approvisionnement existantes en aval. Cela limite le nombre de replanification non significative de l'approvisionnement existant à une date ultérieure si la date replanifiée se situe dans la période tampon.<br /><br /> Par conséquent, un delta positif entre la nouvelle date d'approvisionnement proposée et la date d'approvisionnement d'origine est toujours supérieur à la période tampon.|  
 
 Le temps de la période de replanification, de la période tampon, ainsi que de la période de groupement de lots est basée sur une date d'approvisionnement. L'intervalle de planification est basé sur la date de début de la planification, comme l'indique la figure suivante.  
 

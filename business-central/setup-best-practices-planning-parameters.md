@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 05/04/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6054136dc0722be673b5a7593a371cbec2948e6c
+ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
+ms.openlocfilehash: 78d97c11662f2e05e17e15213406076ae5bba7a6
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/15/2018
 
 ---
 # <a name="setup-best-practices-planning-parameters"></a>Configurer des recommandations : paramètres de planification
@@ -26,8 +26,7 @@ Le raccourci **Planning** de la fiche article est le cœur de la chaîne d'appro
 |-----------------|-------------------|-------------|  
 |Méthode réapprovisionnement||Pour plus d'informations, voir [Pratiques de configuration recommandées : méthodes de réapprovisionnement](setup-best-practices-reordering-policies.md).|  
 |Réserver|Sélectionnez **Jamais** lorsque l'article est planifié en utilisant un point de commande.<br /><br /> À la fabrication, sélectionnez **jamais** pour que le système de planification puisse couvrir toutes les demandes.<br /><br /> Sélectionnez **Facultatif** pour les articles que vous souhaiteriez réserver aux clients prioritaires.<br /><br /> Sélectionnez **toujours** pour les articles non uniques, comme les articles de type divers qui sont entrants pour des besoins spécifiques.|Les réservations contrecarrent généralement l'objectif de la planification, qui est d'équilibrer l'offre et la demande. Par conséquent, qui sont créées pour être planifiés ne doivent généralement pas être réservés.<br /><br /> Si l'utilisateur réserver une quantité en stock pour une demande future, la base de planification est perturbée, et le point de réapprovisionnement ne peut pas être utilisé correctement. Même si le niveau de stock prévisionnel est acceptable par rapport au point de réapprovisionnement, les quantités peuvent ne pas être disponibles en raison de la réservation.|  
-|Période tampon|Définir par rapport à la flexibilité du fournisseur.|Si le fournisseur accepte les modifications de dernière minute des commandes, alors utilisez une plus longue période. Si le fournisseur a besoin de planification ferme, raccourcissez votre période autant que possible.<br /><br /> Pour plus d'informations sur la configuration générale, voir [Détails de conception : paramètres de planification](design-details-planning-parameters.md).|  
-|Quantité tampon||Pour plus d'informations sur la configuration générale, voir [Détails de conception : paramètres de planification](design-details-planning-parameters.md).|  
+|Période tampon|Définir par rapport à la flexibilité du fournisseur.<br /><br /> Une période plus longue vous permet de fournir un meilleur service client, mais nécessite également plus d'actions de replanification.|Si le fournisseur accepte les modifications de dernière minute des commandes, utilisez une période plus longue, mais prévoyez plus d'actions de replanification. Si le fournisseur a besoin de planification ferme, raccourcissez la période autant que possible.<br /><br /> Pour plus d'informations sur le champ **Période tampon**, voir [Détails de conception : paramètres de planification](design-details-planning-parameters.md).|  
 |Inclure stock|Sélectionnez toujours lorsque vous utilisez la méthode du lot pour lot.|Ne sélectionnez pas uniquement dans les situations spéciales, par exemple si les articles de stock ne sont pas vendables.|  
 |Délai de sécurité|Doit être compris entre 1D et 6D.<br /><br /> Définir un délai de sécurité d'au moins un jour pour vous assurer que les approvisionnements sont disponibles un jour avant qu'ils ne soient nécessaires.<br /><br /> Si vous utilisez un nouveau fournisseur, définissez une plus longue période jusqu'à ce que leur performances de livraison soit connue.<br /><br /> À la fabrication, définissez des délais longs de sécurité pour les composants vitaux.|La livraison prévue par le système pour éviter une rupture de stocks arrivera le jour même où la rupture de stocks intervient. Ceci peut être plusieurs heures trop tard, si, par exemple, la demande est nécessaire le matin et l'approvisionnement arrive dans l'après-midi. **Note :** le champ **Délai de sécurité** utilise le calendrier principal. Par conséquent, 14D ne sont pas nécessairement deux semaines.|  
 |Stock de sécurité|Utilisez pour les articles connaissant de grandes fluctuations de demande.<br /><br /> À la fabrication, à utiliser pour des composants critiques.<br /><br /> utiliser pour des articles soumis à des accords de service.|Si le champ **Point de commande** n'est pas renseigné, le stock de sécurité comporte également un point de réapprovisionnent.|  

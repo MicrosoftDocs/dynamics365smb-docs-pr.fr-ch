@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
-ms.date: 07/27/2017
+ms.date: 04/19/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: d015f3c2e4b06a7e93b7b4e0fe678c5066afbb8c
+ms.sourcegitcommit: dc7e739bc2b8ac9e8efce3a0f52acb945352416e
+ms.openlocfilehash: 24b6001df4937df491be8a90fee806cd0f074830
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/19/2018
 
 ---
 # <a name="frequently-asked-questions"></a>Forum Aux Questions
@@ -45,6 +45,15 @@ C'est un peu compliqué, mais il semble que votre administrateur n'a pas modifi�
 
 ## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365finmdmd"></a>Pourquoi je ne peux pas trouver cette fonctionnalité dans ma version de [!INCLUDE[d365fin](includes/d365fin_md.md)] ?
 Avez-vous eu connaissance d'une nouvelle fonctionnalité dans la feuille de route ou sur notre blog récemment ? Dans ce cas, votre [!INCLUDE[d365fin](includes/d365fin_md.md)] n'a peut-être pas encore été mis à niveau avec la dernière version. Si la fonctionnalité est publiée en tant qu'extension dans AppSource, c'est qu'il y a un retard entre l'extension étant annoncée et sa disponibilité dans AppSource.
+
+## <a name="why-are-some-ui-elements-that-i-used-in-dynamics-nav-not-visible-in-included365finincludesd365finmdmd"></a>Pourquoi certains éléments de l'interface utilisateur que j'ai utilisés dans Dynamics NAV ne sont pas visibles dans [!INCLUDE[d365fin](includes/d365fin_md.md)] ?
+Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], le système Domaines d'application et les options Expérience vous permettent d'afficher ou de masquer des parties pertinentes du produit en fonction du plan acheté (Essential ou Premium) et en fonction des besoins de votre entreprise.
+
+Ces fonctionnalités ont été utilisées pour simplifier l'interface utilisateur dans la version standard de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Par exemple, les champs qui ne sont pas souvent utilisés, comme **N° télécopie**, ont été supprimés, et sur les rubans des listes et cartes, les actions en double sont supprimées et les actions les plus utilisées sont indiquées. Quelques fonctions complètes, telles que les commentaires, sont en cours d'optimisation pour le client web et ne sont donc pas disponibles dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+En conséquence, certains éléments de l'interface utilisateur qui sont visibles dans la version standard de Dynamics NAV ne le sont pas dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Les contrôles en question ont actuellement la balise de domaine d'application #Advanced. 
+
+Si vous souhaitez que votre solution [!INCLUDE[d365fin](includes/d365fin_md.md)] contienne les mêmes éléments d'interface utilisateur que votre solution Dynamics NAV, vous devez effectuer quelques actions dans l'environnement de développement pour faire apparaître les contrôles #Advanced, par le biais d'une extension. Pour plus d'informations, voir [Extension des domaines d'application](https://docs.microsoft.com/en-us/dynamics-nav/developer/devenv-extending-application-areas).
 
 ## <a name="see-also"></a>Voir aussi
 [Mise en route](product-get-started.md)  
