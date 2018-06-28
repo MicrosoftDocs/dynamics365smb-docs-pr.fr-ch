@@ -49,5 +49,5 @@ Le tableau suivant répertorie certaines des fonctionnalités générales et inc
 [Fonctionnalités marché](ui-across-business-areas.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

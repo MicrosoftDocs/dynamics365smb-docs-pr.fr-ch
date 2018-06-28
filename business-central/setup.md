@@ -64,5 +64,5 @@ Certaines zones nécessitent que vous soyez un administrateur dans votre abonnem
 [Mise en route](product-get-started.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 
