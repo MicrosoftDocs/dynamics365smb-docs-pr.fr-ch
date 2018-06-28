@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 02/27/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 30079079cc4dff99f23f8660211dc6070457fe1b
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 445b27ca1464283bdbf9dffaabe3bdbc2d805835
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="switzerland-local-functionality"></a><span data-ttu-id="4d430-103">Fonctionnalité locale, Suisse</span><span class="sxs-lookup"><span data-stu-id="4d430-103">Switzerland Local Functionality</span></span>
@@ -34,5 +34,5 @@ ms.lasthandoff: 03/22/2018
 <span data-ttu-id="4d430-113">[Utilisation de [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="4d430-113">[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)</span></span>
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](../../includes/training_link_md.md)]
+ 
 
