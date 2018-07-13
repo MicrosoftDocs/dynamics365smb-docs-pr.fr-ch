@@ -11,10 +11,10 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.date: 07/17/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 975703333b1a675ae78b70d99b1394d370490e9d
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: e7546d2d90567f9d633394dfd585f1dbbab27e46
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 
@@ -76,7 +76,7 @@ Pour déclarer la TVA à une administration par voie électronique, vous devez c
     >   Pour l'état Liste des ventes UE, vous pouvez consulter les transactions incluses dans les lignes de l'état avant d'envoyer l'état. Pour cela, sélectionnez la ligne, puis cliquez sur l'action **Afficher écritures TVA**.  
 4. Pour valider et préparer l'état pour l'envoi, choisissez l'action **Emettre**.  
 
-    >  [!NOTE]  
+    > [!NOTE]  
     >   [!INCLUDE[d365fin](includes/d365fin_md.md)] confirme que l'état est configuré correctement. Si la validation échoue, les erreurs sont affichées sous **Erreurs et avertissements**, de sorte que vous sachiez quoi corriger. Généralement, si le message concerne un paramètre manquant dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez cliquer sur le message pour ouvrir la page contenant les informations à corriger.  
 5. Pour envoyer l'état, sélectionnez l'action **Soumettre**.  
 
@@ -91,10 +91,10 @@ Si vous utilisez une autre méthode pour envoyer l'état, par exemple en exporta
 ## <a name="vat-settlement"></a>Déclaration de TVA
 Périodiquement, vous devez régler la TVA nette aux autorités fiscales. Si vous devez effectuer des déclarations de TVA fréquemment, vous pouvez exécuter le traitement par lots **Calculer et valider décl. TVA** pour clôturer les écritures TVA ouvertes et transférer les montants TVA achat et vente dans le compte de déclaration TVA.
 
-Lors du transfert des montants TVA vers le compte de déclaration, le compte TVA achat est crédité et le compte TVA vente est débité sur la base des montants calculés pour la période spécifiée. Le montant net est crédité ou débité, si le montant achat TVA est supérieur, sur le compte de déclaration TVA. Vous pouvez valider la déclaration immédiatement ou imprimer d'abord une impression test.
+Lors du transfert des montants TVA vers le compte de déclaration, le compte TVA achat est crédité et le compte TVA vente est débité sur la base des montants calculés pour la période spécifiée. Le montant net est crédité ou débité, si le montant achat TVA est supérieur, sur le compte de déclaration TVA. Vous pouvez valider la déclaration immédiatement ou imprimer d'abord une impression test.  
 
->    [!NOTE]  
->    Lorsque vous utilisez le traitement par lots **Calculer et valider décl. TVA**, si vous ne spécifiez pas **Groupe compta. marché TVA** ni **Groupe compta. produit TVA**, les écritures contenant les codes des groupes comptabilisation marché et des groupes comptabilisation produit sont incluses.
+> [!Note]
+> Lorsque vous utilisez le traitement par lots **Calculer et valider décl. TVA**, si vous ne spécifiez pas **Groupe compta. marché TVA** ni **Groupe compta. produit TVA**, les écritures contenant les codes des groupes comptabilisation marché et des groupes comptabilisation produit sont incluses.
 
 ## <a name="configuring-your-own-vat-reports"></a>Configuration de vos propres états de TVA
 Vous pouvez utiliser l'état Liste des ventes UE prédéfini, cependant, vous pouvez également créer vos propres états. Cela nécessite de créer des codeunits. Si vous avez besoin de l'aide à cette fin, contactez un partenaire certifié Microsoft.  
@@ -107,14 +107,14 @@ Le tableau suivant décrit les codeunits que vous devez créer pour votre état.
 |Contenu | Contrôler le format de l'état. Par exemple, si c'est un fichier XML ou JSON. Le format à utiliser dépend des besoins du service Web de votre administration fiscale. |
 |Soumission | Contrôler comment et quand vous envoyez l'état selon les besoins de votre administration fiscale. |
 |Gestionnaire de réponse | Gérer le retour de l'administration fiscale. Par exemple, elle peut envoyer un message e-mail au contact de votre société. |
-|Annuler | Envoyer une annulation d'un état de TVA qui a été envoyé précédemment à votre administration fiscale. |
+|Annuler | Envoyer une annulation d'un état de TVA qui a été envoyé précédemment à votre administration fiscale. |  
 
-> [!NOTE]  
->   Lorsque vous créez des codeunits pour l'état, faites attention à la valeur du champ **Version de la déclaration TVA**. Ce champ doit refléter la version de l'état qui est ou a été requis par l'administration fiscale. Par exemple, vous pouvez saisir **2017** dans le champ pour indiquer que l'état remplit les conditions qui étaient en place cette année. Pour trouver la version en cours, contactez votre administration fiscale.  
-
+> [!Note]
+> Lorsque vous créez des codeunits pour l'état, faites attention à la valeur du champ **Version de la déclaration TVA**. Ce champ doit refléter la version de l'état qui est ou a été requis par l'administration fiscale. Par exemple, vous pouvez saisir **2017** dans le champ pour indiquer que l'état remplit les conditions qui étaient en place cette année. Pour trouver la version en cours, contactez votre administration fiscale.
+ 
 ## <a name="see-also"></a>Voir aussi .
 [Configuration des méthodes de calcul et de validation de la taxe sur la valeur ajoutée](finance-setup-vat.md)  
 [Utiliser la TVA sur les ventes et les achats](finance-work-with-vat.md)  
 [Définition des ventes](sales-setup-sales.md)  
-[Facturer des ventes](sales-setup-sales.md)  
+[Facturer des ventes](sales-how-invoice-sales.md)  
 

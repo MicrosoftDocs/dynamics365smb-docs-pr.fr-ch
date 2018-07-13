@@ -13,15 +13,15 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 73d0044308d619f92e0379cc7b678301c72ce31c
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: 30f93593985140abd49c6cd4f90a992da793b164
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/01/2018
 
 ---
 
 # <a name="viewing-service-statistics"></a>Affichage des statistiques service
-Financials peut fournir des statistiques permettant d'analyser les documents service et d'évaluer la bonne gestion de vos processus de service. Vous pouvez analyser les contrats de service, articles, devis, commandes, factures et avoirs en choisissant l'action **Statistiques**. Pour les articles et contrats de service, vous pouvez également utiliser les champs **Trendscape article de service** ou **Trendscape contrat** pour afficher un résumé des écritures comptables service pour un article de service spécifique.   
+Vous pouvez utiliser des statistiques pour analyser les documents service et évaluer la bonne gestion de vos processus de service. Vous pouvez analyser les contrats de service, articles, devis, commandes, factures et avoirs en choisissant l'action **Statistiques**. Pour les articles et contrats de service, vous pouvez également utiliser les champs **Trendscape article de service** ou **Trendscape contrat** pour afficher un résumé des écritures comptables service pour un article de service spécifique.   
 
 ## <a name="viewing-statistics-for-service-orders"></a>Affichage des statistiques pour les commandes service
 Ces fonctions-ci donnent un aperçu rapide du contenu de l'ensemble de la commande service, des informations sur les lignes service spécifiques, la facturation, la livraison et la consommation, et du solde du client.  

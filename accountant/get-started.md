@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 05/09/2018
+ms.date: 05/15/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: 8901216a843440e922ae4df9d7508b543a6c1322
+ms.sourcegitcommit: 4bc9199b879c23115082b07a81d6da5a0b46e60d
+ms.openlocfilehash: bb700a7c65721efb7c1322420a4929eb7adc4433
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 05/31/2018
 
 ---
 # <a name="get-started-with-include-d365acclongincludesd365acclongmdmd"></a>Mise en route avec [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
@@ -25,7 +25,7 @@ Chaque entreprise doit tenir ses comptes et valider sa comptabilité. Certaines 
 Vous pouvez accéder à [!INCLUDE [d365acc](includes/d365acc_md.md)] en vous connectant à partir de [Dynamics 365 — Accountant Hub sur Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants).  
 
 > [!TIP]
->  Lorsque vous vous connectez à [!INCLUDE [d365acc](includes/d365acc_md.md)], vous devez indiquer votre adresse e-mail professionnelle, par exemple <em>me@accountant.com</em>. Il est recommandé d'utiliser la même adresse e-mail lorsque vous travaillez dans les versions clients de [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)], de sorte que vous puissiez facilement basculer entre les clients. L'adresse électronique du comptable doit être une adresse professionnelle basée sur Active Directory.
+>  Lorsque vous vous inscrivez à [!INCLUDE [d365acc](includes/d365acc_md.md)], vous devez indiquer votre adresse électronique professionnelle, par exemple <em>me@accountant.com</em>. Il est recommandé d'utiliser la même adresse électronique lorsque vous travaillez dans le [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)] de vos clients, de sorte que vous pouvez facilement basculer entre les clients. L'adresse électronique du comptable doit être une adresse professionnelle basée sur Active Directory.
 
 ## <a name="working-with-individual-clients"></a>Utilisation de clients individuels
 Le tableau de bord affiche les informations les plus importantes sur chaque client.  

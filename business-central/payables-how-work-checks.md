@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 04/25/2018
+ms.date: 06/06/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: db28ad9a4adb45514b1d1287d269d8daefe64865
-ms.openlocfilehash: 39b48fbd34b29db56b39712fbd2cbf5dc91fefc6
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: bcd0e21bc40b63c99f37618ae3406395b3c31b10
 ms.contentlocale: fr-ch
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 # <a name="make-check-payments"></a>Effectuer des paiements par chèque
@@ -31,6 +31,8 @@ Vous pouvez payer avec deux types de chèques. Pour les deux types, le champ **T
 > Pour s'assurer que la banque efface uniquement les chèques et les montants validés, vous pouvez envoyer un fichier contenant des informations de paiement, du chèque et du fournisseur. Pour plus d'informations, voir [Exporter des fichiers Positive Pay](finance-how-positive-pay.md).
 
 Votre imprimante doit être correctement configurée pour les formulaires chèque, et vous devez définir la mise en page de chèque à utiliser. Pour plus d'informations, voir [Définir les mises en page de chèques](finance-how-define-check-layouts.md)
+
+Vous pouvez imprimer jusqu'à 10 factures sur une page pour un talon de chèque. Si un chèque s'applique à plus de 10 factures, lorsque vous imprimez le talon, nous annulons le chèque sur la première page et imprimons le mot NUL sur le chèque. Nous imprimons ensuite les factures restantes et le montant total du chèque sur la deuxième page. 
 
 ## <a name="to-pay-a-vendor-invoice-with-a-computer-check"></a>Pour payer une facture fournisseur avec un chèque informatique
 La section suivante décrit comment payer un fournisseur par chèque. La procédure est la même pour rembourser un client par chèque.

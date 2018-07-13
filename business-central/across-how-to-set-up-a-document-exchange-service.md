@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/18/2017
+ms.date: 06/08/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 043034d281eb4b58fab8ab4344987d5d3ca5f494
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: 0e57f02f1689de12e75595a26c489eeda68a4b89
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 # <a name="set-up-a-document-exchange-service"></a>Configurer un service d'échange de document
@@ -37,12 +37,8 @@ Utilisez un fournisseur de services externe pour échanger des documents électr
     |**Jeton**|Entrez la clé OAuth à 3 branches pour le token. Elle est fournie par le fournisseur de services d'échange de documents.|  
     |**Clé secrète du jeton**|Entrez le secret qui protège le token. Elle est fournie par le fournisseur de services d'échange de documents.|  
 
-> [!NOTE]  
->  Il est recommandé de protéger les informations de connexion que vous saisissez dans la fenêtre **Paramètres service VAN**. Vous pouvez chiffrer des données sur le serveur en générant de nouvelles clés de chiffrement ou en important des clés existantes que vous activez sur l'instance de serveur qui est connectée à la base de données. Ceci est décrit dans la procédure suivante.  
-
-## <a name="to-encrypt-your-logon-information"></a>Pour chiffrer les informations de connexion  
-1. Dans la fenêtre **Paramètres service VAN**, sélectionnez l'action **Gestion du chiffrement**.  
-2. Dans la fenêtre **Gestion du chiffrement des données**, activez le chiffrement de vos données. <!--For more information, see [Manage Data Encryption](../manage-data-encryption.md).-->  
+    > [!NOTE]  
+    > Vos données de connexion sont automatiquement chiffrées.
 
 ## <a name="see-also"></a>Voir aussi  
 [Configuration de l'échange de données](across-set-up-data-exchange.md)  

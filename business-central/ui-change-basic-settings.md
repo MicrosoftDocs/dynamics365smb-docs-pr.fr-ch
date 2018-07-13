@@ -1,6 +1,6 @@
 ---
-title: "Affichage et modification des paramètres de base dans Financials| Microsoft Docs"
-description: "Découvrez comment modifier certains des paramètres de base de Financials, par exemple, le Tableau de bord, la société, ou la date de travail."
+title: "Affichage et modification des paramètres de base | Microsoft Docs"
+description: "Découvrez comment modifier certains paramètres de base, par exemple, le tableau de bord, la société ou la date de travail."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,10 +13,10 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 03/02/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
-ms.openlocfilehash: f71b0e7d53138be0f89abe4e7935ab7c21437d8e
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: 30dcd44d84ecca873de7b3a0401325377987324f
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/28/2018
+ms.lasthandoff: 06/01/2018
 
 ---
 # <a name="changing-basic-settings"></a>Modification des paramètres de base

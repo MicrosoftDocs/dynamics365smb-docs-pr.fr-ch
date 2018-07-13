@@ -1,6 +1,6 @@
 ---
 title: "Utilisez OCR pour convertir les fichiers PDF en factures électroniques| Microsoft Docs"
-description: "Décrit la manière dont vous pouvez utiliser un service OCR pour convertir des fichiers PDF ou image entrant en documents électroniques dans Financials."
+description: "Décrit la manière dont vous pouvez utiliser un service OCR pour convertir des fichiers PDF ou image entrants en documents électroniques."
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -12,10 +12,10 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8ae141826b2a957487bbce34fdfde7fd1badd7f8
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: 8a9b5911008c8524490bf895ee3a21394cad4fbe
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/01/2018
 
 ---
 # <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Utiliser un service OCR pour convertir des fichiers PDF et image en documents électroniques

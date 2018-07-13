@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 06/16/2017
+ms.date: 05/31/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: b7e0ad1c632b21a26be01e68178388512d6dbbea
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: baaa62e11f9abfac900d5fe6abb14cec9fafdacf
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="business-intelligence"></a>Veille économique
@@ -32,7 +32,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | À | Voir |
 | --- | --- |
 |Afficher les montants réels comparés aux montants budgétés pour tous les comptes et pour plusieurs périodes.|[Analyser les montants réalisés et les montants budgétés](bi-how-analyze-actual-versus-budget.md)|
-|Créer de nouveaux tableaux d'analyse pour définir les états financiers pour générer des états ou pour les afficher comme graphiques.|[Utilisation des tableaux d'analyse](bi-how-work-account-schedule.md)|
+|Créer de nouveaux tableaux d'analyse pour définir les états financiers pour générer des états ou pour les afficher comme graphiques.|[Préparer la génération d'états financiers avec des tableaux d'analyse et des catégories de compte](bi-how-work-account-schedule.md)|
 |Analyser vos performances financières en définissant des KPI basés sur les tableaux d'analyse, que vous publiez ensuite comme services Web. Les KPI du tableau d'analyse publié peuvent être affichés sur un site Web ou être importés dans Microsoft Excel à l'aide des services Web OData.|[Configuration et publication des services Web KPI sur la base de tableaux d'analyse](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)|
 |Configuration des vues d'analyse pour analyser des données à l'aide d'axes.|[Analyse des données par axe analytique](bi-how-analyze-data-dimension.md)|
 |Créer de nouveaux rapports d'analyse pour les ventes, les achats et le stock, et configurer des modèles d'analyse.|[Créer des rapports d'analyse](bi-how-create-analysis-views-reports.md)|
@@ -40,11 +40,11 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 
 ## <a name="see-also"></a>Voir aussi
 [Finances](finance.md)    
-[Utilisation de Financials comme source de données Power BI](across-how-use-financials-data-source-powerbi.md)  
+[Utilisation de Business Central comme source de données Power BI](across-how-use-financials-data-source-powerbi.md)  
 [Clôture des périodes fiscales](year-close-years-periods.md)  
 [Importation de données à partir d'autres systèmes financiers](across-import-data-configuration-packages.md)(across-import-data-configuration-packages.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

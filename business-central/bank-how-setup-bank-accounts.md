@@ -1,6 +1,6 @@
 ---
 title: Configurer des comptes bancaires| Microsoft Docs
-description: "Vous pouvez rapprocher des comptes bancaires dans Financials des relevés de la banque."
+description: "Vous pouvez rapprocher des comptes bancaires avec les relevés de la banque."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: Yodlee, feed, stream
 ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: cd442975543ffcd48898f2858828b8b293361d1d
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: 68a618ff528589ce9b72a2441cbf3a442cbbb0d8
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/01/2018
 
 ---
 # <a name="set-up-bank-accounts"></a>Configuration des comptes bancaires

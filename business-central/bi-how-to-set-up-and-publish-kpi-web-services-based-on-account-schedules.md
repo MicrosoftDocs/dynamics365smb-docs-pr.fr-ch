@@ -1,29 +1,28 @@
 ---
 title: Configurer et publier les services Web KPI pour les tableaux d'analyse | Microsoft Docs
-description: "La fenêtre **Tableau d'analyse - Paramètres du service web KPI** vous permet de configurer la manière dont les informations KPI du tableau d'analyse sont affichées et sur quels tableaux d'analyse spécifiques baser les KPI."
+description: "Cette rubrique décrit comment afficher les données KPI basées sur des tableaux d'analyse spécifiques."
 services: project-madeira
 documentationcenter: 
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
-ms.author: sgroespe
+ms.date: 05/31/2018
+ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: dc1226724d1f953a3cf14a148e6d229ac0736bd3
+ms.sourcegitcommit: 4bc9199b879c23115082b07a81d6da5a0b46e60d
+ms.openlocfilehash: c15f9c77479780566f8b1e464193b43a20c3315d
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/31/2018
 
 ---
 # <a name="set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>Configuration et publication des services Web KPI sur la base de tableaux d'analyse
 La fenêtre **Tableau d'analyse - Paramètres du service web KPI** vous permet de configurer la manière dont les informations KPI du tableau d'analyse sont affichées et sur quels tableaux d'analyse spécifiques baser les KPI. Lorsque vous sélectionnez le bouton **Publier le service Web**, les informations KPI du tableau d'analyse spécifiées sont ajoutées à la liste des services Web publiés dans la fenêtre **Services web**.  
 
 ## <a name="to-set-up-and-publish-a-kpi-web-service-that-is-based-on-account-schedules"></a>Configuration et de publication d'un service Web KPI sur la base de tableaux d'analyse  
-
 1.  Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Tableau d'analyse - Paramètres du service web KPI**, puis choisissez le lien associé.  
 2.  Sous le raccourci **Général**, renseignez les champs comme indiqué dans le tableau ci-dessous.  
 
@@ -35,7 +34,7 @@ La fenêtre **Tableau d'analyse - Paramètres du service web KPI** vous permet d
     |**Afficher par**|Indiquez l'intervalle de temps dans lequel le KPI du tableau d'analyse est affiché.|  
     |**Nom du service web**|Indiquez le nom du service Web KPI du tableau d'analyse.<br /><br /> Ce nom est affiché dans le champ **Nom de service** dans la fenêtre **Services web**.|  
 
-    Procédez à la spécification d'un ou plusieurs tableaux d'analyse que vous souhaitez publier en tant que service Web KPI en fonction du paramétrage que vous avez fait dans la table précédente.  
+    Spécifiez un ou plusieurs tableaux d'analyse que vous souhaitez publier en tant que service Web KPI en fonction du paramétrage que vous avez fait dans la table précédente.  
 
 3.  Sous le raccourci **Tableaux d'analyse**, renseignez les champs comme indiqué dans le tableau ci-dessous.  
 
@@ -50,7 +49,7 @@ La fenêtre **Tableau d'analyse - Paramètres du service web KPI** vous permet d
 7.  Pour publier le service Web KPI du tableau d'analyse, choisissez l'action **Publier le service web**. Le service Web est ajouté à la liste des services Web publiés dans la fenêtre **Web Services**.  
 
 > [!NOTE]  
->  V-us pouvez également publier le service Web KPI en pointant vers l'objet de page **Tableau d'analyse\-Paramètres du service web KPI** à partir de la fenêtre**Services web**. Pour plus d'informations, voir [Publication d'un service Web](across-how-publish-web-service.md).  
+>  V-us pouvez également publier le service Web KPI en pointant vers l'objet de page **Tableau d'analyse-Paramètres du service web KPI** à partir de la fenêtre **Services web**. Pour plus d'informations, voir [Publication d'un service Web](across-how-publish-web-service.md).  
 
 ## <a name="see-also"></a>Voir aussi  
 [Veille économique](bi.md)  

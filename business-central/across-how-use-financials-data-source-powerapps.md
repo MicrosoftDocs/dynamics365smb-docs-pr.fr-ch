@@ -1,6 +1,6 @@
 ---
 title: "Utilisez vos données pour créer une application | Microsoft Docs"
-description: "Vous pouvez rendre vos données Financials disponibles sous forme de données sources et spécifier une URL OData de vos services Web pour générer une application métier à l'aide de PowerApps."
+description: "Vous pouvez rendre vos données Business Central disponibles sous forme de source de données et spécifier une URL OData de vos services Web pour générer une application métier à l'aide de PowerApps."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,13 +13,13 @@ ms.search.keywords: Odata, Power App, SOAP
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: 0b0329ac5cd90a0f0595a16505ab22234cc34c92
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: 391756b54cb0829c33ed6ddf29c9f64788e23e57
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/01/2018
 
 ---
-# <a name="connecting-to-your-financials-data-to-build-a-business-app-using-powerapps"></a>Connexion à vos données Financials pour générer un application professionnelle à l'aide de PowerApps
+# <a name="connecting-to-your-business-central-data-to-build-a-business-app-using-powerapps"></a>Connexion à vos données Business Central pour générer un application professionnelle à l'aide de PowerApps
 Vous pouvez rendre vos données [!INCLUDE[d365fin](includes/d365fin_md.md)] disponibles sous forme de source de données dans PowerApps.  
 
 > [!NOTE]  
@@ -35,7 +35,7 @@ Vous pouvez rendre vos données [!INCLUDE[d365fin](includes/d365fin_md.md)] disp
 5. Dans la liste des connexions disponibles, cliquez sur **Dynamics 365 Business Central**.
 6. PowerApps affiche une page de connexion qui vous invite à fournir les informations nécessaires pour vous connecter à vos données [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour vous connecter, vous devez spécifier une URL OData, un nom d'utilisateur, un mot de passe et le nom de la société.
 
-   Pour l'*URL OData*, vous pouvez copier l'URL OData V4 de n'importe quel service Web répertorié dans la page **Services Web** dans [!INCLUDE[d365fin](includes/d365fin_md.md)], par exemple `https://mycompany.financials.dynamics.com:7048/MS/ODataV4/`.  
+   Pour l'*URL OData*, vous pouvez copier l'URL OData V4 de n'importe quel service Web répertorié dans la page **Services Web** dans [!INCLUDE[d365fin](includes/d365fin_md.md)], par exemple `https://mycompany.businesscentral.dynamics.com:7048/MS/ODataV4/`.  
 
    Pour le *Nom de la société*, utilisez le nom qui est affiché dans le champ **Nom** de la fenêtre **Informations société** dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Si votre [!INCLUDE[d365fin](includes/d365fin_md.md)] contient plusieurs sociétés, sélectionnez le nom de la société approprié dans la liste de la fenêtre **Sociétés**. Dans les deux cas, assurez-vous que le nom que vous spécifiez dans l'assistant PowerApps correspond exactement au texte affiché dans [!INCLUDE[d365fin](includes/d365fin_md.md)], par exemple `My Company`.
 

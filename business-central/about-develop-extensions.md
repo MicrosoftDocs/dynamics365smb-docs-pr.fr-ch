@@ -13,10 +13,10 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.date: 04/12/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
-ms.openlocfilehash: a86d58c81bdee20ffd33273ca069d9fae640df96
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 69f660f8a19bd1fd9cb39a79d5be7977e68d3a47
 ms.contentlocale: fr-ch
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="extending-included365finlongincludesd365finlongmdmd"></a>Extension de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -83,5 +83,5 @@ Pour plus d'informations sur la création d'une offre [!INCLUDE[d365fin_long](in
 [https://appsource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365-for-financials&page=1)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
-ms.date: 06/02/2017
+ms.date: 06/08/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 98d7215b4d8ae476fbc550ea0057e6f71a00a5fd
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: 5bf6e0c961e35b2fdb23eb1ba470da0f5c098d81
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 # <a name="set-up-the-bank-data-conversion-service"></a>Configurer le service de conversion de données bancaires
@@ -44,11 +44,8 @@ Pour importer ou exporter des fichiers bancaires, vous devez configurer votre pr
 5. Dans la fenêtre **Paramètres service conv. données banque**, dans le champ **Nom d'utilisateur**, entrez la même valeur que vous avez validée comme nom de connexion dans la page du fournisseur de service au cours de l'étape 4.
 6. Dans le champ **Mot de passe**, entrez la même valeur que vous avez saisie dans le champ **Mot de passe** de la page du fournisseur de service au cours de l'étape 4.
 
-## <a name="to-encrypt-your-login-information"></a>Chiffrer les informations de connexion
-Il est recommandé de protéger les informations de connexion que vous saisissez dans la fenêtre **Paramètres service conv. données banque**. Vous pouvez chiffrer des données sur le serveur [!INCLUDE[d365fin](includes/d365fin_md.md)] en générant de nouvelles clés de chiffrement ou en important des clés existantes que vous activez sur l'instance du serveur [!INCLUDE[d365fin](includes/d365fin_md.md)] qui est connectée à la base de données.
-
-1. Dans la fenêtre **Paramètres service conv. données banque**, sélectionnez l'action **Gestion du chiffrement**.
-2. Dans la fenêtre **Gestion du chiffrement des données**, activez le chiffrement de vos données.
+> [!NOTE]  
+> Vos données de connexion sont automatiquement chiffrées.
 
 ## <a name="to-view-or-update-the-list-of-currently-supported-bank-data-formats"></a>Pour afficher ou mettre à jour la liste des formats de données bancaires actuellement pris en charge
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Paramètres service conv. données banque**, puis sélectionnez le lien connexe.

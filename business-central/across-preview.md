@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox
-ms.date: 01/05/2018
+ms.date: 06/28/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 3e7c5ca600a5f64b44fca419ce33cad868f15595
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 0829c825ec0635a20c040fe17cd3e7cfc667ffd7
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="access-to-the-included365finlongincludesd365finlongmdmd-preview"></a>Accéder à la version d'aperçu de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -43,7 +43,7 @@ Pour plus d'informations, voir [Utilisation de l'éditeur](https://docs.microsof
 3.  Choisissez **Créer**. Un onglet s'ouvre pour vous permettre de terminer la configuration de votre environnement Sandbox.
 
     > [!Note]
-    > Si le bloqueur de fenêtres publicitaires est activé dans votre navigateur, modifiez-le pour autoriser les URL provenant de l'adresse *.financials.dynamics.com*.  
+    > Si le bloqueur de fenêtres publicitaires est activé dans votre navigateur, modifiez-le pour autoriser les URL provenant de l'adresse *.businesscentral.dynamics.com*.  
 
 4.  Lorsque l'environnement Sandbox est prêt, une page d'accueil s'affiche.  
 5.  Si vous souhaitez découvrir les scénarios que vous pouvez tester dans un environnement Sandbox, par exemple la procédure de développement d'extensions, choisissez le lien **En savoir plus**. Sinon, sélectionnez **Fermer** pour accéder au tableau de bord de votre instance Sandbox [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -67,7 +67,7 @@ Pour plus d'informations, voir [Utilisation de l'éditeur](https://docs.microsof
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] fournit des outils permettant d'implémenter vos propres applications complémentaires et fonctionnalités intégrées pour ajouter de nouvelles expériences de bout en bout propres au secteur d'activité ou pour intégrer des solutions tierces. Par exemple, vous pouvez utiliser une API pour créer un application connectée pour échanger des données entre [!INCLUDE[d365fin](includes/d365fin_md.md)] et votre application de paie. Les applications connectées peuvent également utiliser des extensions pour créer des pages pour le paramétrage, la configuration, ou pour prendre en charge des fonctions spécifiques aux applications. Pour plus d'informations, voir [Développement d'applications pour [!INCLUDE[d365fin](includes/d365fin_md.md)]](https://aka.ms/getstartedwithapps).
 
-##<a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Voir aussi
 [Mise en route](product-get-started.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

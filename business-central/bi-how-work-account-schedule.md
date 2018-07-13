@@ -8,24 +8,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/16/2018
+ms.date: 05/31/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: f9f5b3a25a24d4d10c80d048153e68030733bf9e
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: 69034b0eb97b595d0fbf5795e1fac34ecd775afe
 ms.contentlocale: fr-ch
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/11/2018
 
 ---
-# <a name="work-with-account-schedules"></a>Utilisation des tableaux d'analyse
-Utilisez les tableaux d'analyse pour obtenir un aperçu des données financières enregistrées dans votre plan comptable. Les tableaux d'analyse analysent les chiffres des comptes généraux et comparent les écritures comptables et les écritures comptables budget. Les résultats s'affichent dans les graphiques du tableau de bord, dans le plan de trésorerie, par exemple.  
+# <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Préparer la génération d'états financiers avec des tableaux d'analyse et des catégories de compte
+Utilisez les tableaux d'analyse pour obtenir un aperçu des données financières enregistrées dans votre plan comptable. Les tableaux d'analyse analysent les chiffres des comptes généraux et comparent les écritures comptables et les écritures comptables budget. Les résultats s'affichent dans les graphiques de votre tableau de bord, comme le graphique Trésorerie, et dans les états, comme les états Comptes de gestion et Bilan.
+
+Vous accédez à ces deux états, par exemple, avec l'action **Relevés financiers** dans les tableaux de bord Gestionnaire d'activité et Comptable.   
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] fournit des exemples de tableaux d'analyse que vous pouvez utiliser immédiatement, vous pouvez sinon configurer vos propres lignes et colonnes pour spécifier les chiffres à comparer. Par exemple, vous pouvez créer des tableaux d'analyse pour calculer les marges bénéficiaires dans des axes tels que les départements ou les groupes de clients. Vous pouvez créer autant d'états financiers personnalisés que vous le souhaitez.  
 
 La configuration de tableaux d'analyse exige une compréhension des données financières du plan comptable. Par exemple, vous pouvez afficher les écritures comptables en tant que pourcentages des écritures budget. Cela suppose que les budgets sont créés. Pour plus d'informations, voir [Créer des budgets comptabilité](finance-how-create-budgets.md).
 
 ## <a name="account-categories-and-account-schedules"></a>Catégories de compte et tableaux d'analyse
-Vous pouvez utiliser les catégories de compte pour modifier la présentation de vos états financiers. Une fois que vous avez configuré vos catégories de compte dans la fenêtre **Catégories de compte général**, et que vous sélectionnez l'action **Générer les tableaux d'analyse**, les tableaux d'analyse sous-jacents pour les états financiers de base sont mis à jour. La prochaine fois que vous exécutez l'un de ces états, par exemple le solde relevé, de nouveaux totaux et des sous-entrées sont ajoutés, en fonction de vos modifications. Pour plus d'informations, reportez-vous à [Les écritures comptables et le plan comptable](finance-general-ledger.md).  
+Vous pouvez utiliser les catégories de compte pour modifier la présentation de vos états financiers. Une fois que vous avez configuré vos catégories de compte dans la fenêtre **Catégories de compte général**, et que vous sélectionnez l'action **Générer les tableaux d'analyse**, les tableaux d'analyse sous-jacents pour les états financiers de base sont mis à jour. La prochaine fois que vous exécuterez l'un de ces états, par exemple l'état Relevé de solde, de nouveaux totaux et des sous-entrées seront ajoutés, en fonction de vos modifications. Pour plus d'informations, consultez la section « Catégories de compte » dans [Description des écritures comptables et du plan comptable](finance-general-ledger.md).  
 
 ## <a name="to-create-new-account-schedules"></a>Pour créer de nouveaux tableaux d'analyse  
  Vous pouvez utiliser des tableaux d'analyse pour analyser les chiffres des comptes généraux ou pour comparer les écritures comptables et les écritures comptables budget. Par exemple, vous pouvez afficher les écritures comptables en tant que pourcentages des écritures budget.
@@ -41,7 +43,12 @@ Vous pouvez utiliser les catégories de compte pour modifier la présentation de
 7. Dans la fenêtre **Présentation colonne**, renseignez les champs requis.
 
 > [!NOTE]  
->   Si vous n'avez affecté aucune présentation colonne par défaut au tableau d'analyse, vous devez configurer les colonnes manuellement.   
+> Si vous n'avez affecté aucune présentation colonne par défaut au tableau d'analyse, vous devez configurer les colonnes manuellement.
+
+### <a name="to-copy-an-existing-account-schedule"></a>Pour copier un tableau d'analyse existant
+Les tableaux d'analyse dans la version standard de [!INCLUDE[d365fin](includes/d365fin_md.md)] sont la base des états financiers standard, qui ne sont peut-être pas adaptés aux besoins de votre entreprise. Pour créer rapidement vos propres états financiers, vous pouvez commencer par copier un tableau d'analyse existant.
+1. Dans la fenêtre **Tableaux d'analyse**, sélectionnez un tableau d'analyse, puis choisissez l'action **Copier le tableau d'analyse**.
+2. Dans la fenêtre **Copier le tableau d'analyse**, renseignez les champs selon vos besoins, puis cliquez sur le bouton **OK**.
 
 ### <a name="to-create-a-column-that-calculates-percentages"></a>Pour créer une colonne qui calcule des pourcentages  
 Il se peut que vous vouliez inclure une colonne dans un tableau d'analyse pour calculer des pourcentages d'un total. Par exemple, si vous avez plusieurs lignes qui ventilent des ventes par dimension, vous pouvez juger utile de disposer d'une colonne indiquant le pourcentage des ventes totales que représente chaque ligne.

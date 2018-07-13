@@ -1,8 +1,6 @@
 ---
 title: "Configurer la validation des transactions intersociétés | Microsoft Docs"
 description: "Créez vos fournisseurs et vos clients intersociétés en tant que partenaires intersociétés, et configurez un plan comptable intersociétés."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 06/20/2017
+ms.date: 06/07/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 418dac3a6d909d3eb07525ab537a94f85016ad19
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: a9e3788687e88a60141e9ffb6b18f1c98a180c59
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 # <a name="set-up-intercompany"></a>Configuration des fonctionnalités intersociétés
@@ -52,20 +50,20 @@ Si votre société est la société parent et contient le plan comptable interso
 Si votre société est une filiale et que vous recevez un fichier XML contenant le tableau de compte commun intersociétés, suivez la procédure « Pour importer le plan comptable intersociété ».  
 
 ### <a name="to-set-up-the-defining-intercompany-chart-of-accounts"></a>Pour configurer la définition du plan comptable intersociété
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Plan comptable IC**, puis sélectionnez le lien connexe.
-2. Dans la fenêtre **Plan comptable IC**, saisissez chaque compte sur une ligne de la fenêtre.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Plan comptable intersociétés**, puis sélectionnez le lien connexe.
+2. Dans la fenêtre **Plan comptable intersociétés**, saisissez chaque compte sur une ligne de la fenêtre.  
 3. Si votre plan comptable intersociété est identique ou semblable à celui que vous utilisez habituellement, vous pouvez renseigner la fenêtre automatiquement en choisissant l'action **Copier à partir du plan comptable**. Vous pouvez modifier au besoin les nouvelles lignes.
 
 ### <a name="to-export-an-intercompany-chart-of-accounts"></a>Pour exporter un plan comptable intersociété
 Pour permettre à vos partenaires Intersociétés d'importer la définition du plan comptable, vous devez l'exporter vers un fichier.      
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Plan comptable IC**, puis sélectionnez le lien connexe.
-2. Dans la fenêtre **Plan comptable IC**, choisissez l'action **Exporter**, puis choisissez le bouton **Enregistrer**.
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Plan comptable intersociétés**, puis sélectionnez le lien connexe.
+2. Dans la fenêtre **Plan comptable intersociétés**, choisissez l'action **Exporter**, puis choisissez le bouton **Enregistrer**.
 3. Indiquez le nom et l'emplacement d'enregistrement du fichier XML, puis cliquez sur le bouton **Enregistrer**.  
 
 ### <a name="to-import-the-intercompany-chart-of-accounts"></a>Pour importer le plan comptable intersociétés  
 Lorsqu'un fichier existe pour la définition du plan comptable intersociété, les partenaires intersociétés peuvent l'importer pour vérifier qu'ils ont les mêmes comptes.  
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Plan comptable IC**, puis sélectionnez le lien connexe.  
-2. Dans la fenêtre **Plan comptable IC**, choisissez l'action **Importer**.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Plan comptable intersociétés**, puis sélectionnez le lien connexe.  
+2. Dans la fenêtre **Plan comptable intersociétés**, choisissez l'action **Importer**.  
 3. Sélectionnez le nom et l'emplacement du fichier XML, puis cliquez sur le bouton **Ouvrir**.  
 
 La fenêtre **Plan comptable IC** est rempli avec les lignes nouvelles ou modifiées du compte général en fonction du plan comptable intersociété dans le fichier. Les lignes existantes non connexes présentes dans la fenêtre ne changent pas.
@@ -75,7 +73,7 @@ Après avoir défini ou importé le plan comptable intersociété que vos parten
 
 Si les comptes du plan comptable intersociétés possèdent les mêmes numéros que les comptes correspondants dans le plan comptable, vous pouvez les mapper automatiquement.
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Plan comptable IC**, puis sélectionnez le lien connexe.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Plan comptable intersociétés**, puis sélectionnez le lien connexe.  
 2. Sélectionnez les lignes à associer automatiquement, puis cliquez sur choisissez l'action **Faire correspondre au compte ayant le même numéro**.  
 3. Pour chaque compte général intersociété qui n'a pas été associé automatiquement, renseignez le champ **N° cpte gén pour corres**.  
 
@@ -106,7 +104,7 @@ Si votre société est une filiale et que vous recevez un fichier XML contenant 
 ### <a name="to-import-the-intercompany-dimensions"></a>Pour importer les axes analytiques intersociétés  
 Lorsqu'un fichier existe pour la définition du plan comptable intersociété, les partenaires intersociétés peuvent l'importer pour vérifier qu'ils ont les mêmes axes analytiques.  
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Axes analytiques intersociétés**, puis sélectionnez le lien connexe.  
-2. Dans la fenêtre **Plan comptable IC**, choisissez l'action **Importer**.  
+2. Dans la fenêtre **Plan comptable intersociétés**, choisissez l'action **Importer**.  
 3. Spécifiez le nom et l'emplacement du fichier XML, puis cliquez sur le bouton **Ouvrir**.  
 
 Les lignes des fenêtres **Axes analytiques intersociétés** et **Sections analytiques intersociétés** sont importées.  
@@ -117,10 +115,10 @@ Après avoir défini ou importé les axes analytiques que vos partenaires inters
 Si certains axes analytiques intersociété possèdent le même code que les axes analytiques correspondants de la liste des axes analytiques de votre société, vous pouvez demander au programme d'associer automatiquement ces comptes.
 
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Axes analytiques intersociétés**, puis sélectionnez le lien connexe.
-2. Dans la fenêtre **Axes analytiques intersociétés**, sélectionnez les lignes à associer automatiquement, puis choisissez l'action **Faire correspondre à l'axe analytique**.
+2. Dans la fenêtre **Axes analytiques intersociétés**, sélectionnez les lignes à associer automatiquement, puis choisissez l'action **Faire correspondre à l'axe analytique ayant le même code**.
 3. Pour chaque axe intersociétés qui n'est pas associé automatiquement, renseignez le champ **Code axe à faire correspondre**.
 4. Choisissez l'action **Sections analytiques intersociétés**.
-5. Dans la fenêtre **Sections analytiques intersociétés**, renseignez le champ **Code section à faire correspondre de chaque section analytique IC**.
+5. Dans la fenêtre **Sections analytiques intersociétés**, renseignez le champ **Code section à faire correspondre**.
 
     Continuez à associer les axes analytiques aux axes analytiques intersociétés en effectuant les mêmes étapes.
 6. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), saisissez **Axes analytiques**, puis sélectionnez le lien connexe.

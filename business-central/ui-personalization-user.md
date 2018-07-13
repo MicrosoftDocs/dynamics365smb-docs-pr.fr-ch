@@ -1,5 +1,5 @@
 ---
-title: Personnalisation de pages dans Financials | Microsoft Docs
+title: Personnalisation des pages | Microsoft Docs
 description: "Découvrez comment personnaliser l'interface utilisateur pour l'adapter à votre méthode de travail."
 services: project-madeira
 documentationcenter: 
@@ -13,10 +13,10 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.date: 07/26/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: 246e6fa65de1d638715d16ee76c0c60a88c44cec
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: ee2623a1233f21ea9aa2950e140dcda9638bd6f4
 ms.contentlocale: fr-ch
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/01/2018
 
 ---
 # <a name="personalizing-your-workspace"></a>Personnalisation de votre espace de travail

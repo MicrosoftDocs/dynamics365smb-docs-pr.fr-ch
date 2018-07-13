@@ -13,10 +13,10 @@ ms.search.keywords: marketing, campaign, promo, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 92173c1df5f105ad9156c34ab7050ef1546127bc
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: b4ed119845ef460ac3235a2e56a18f99e5cc4ee3
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/01/2018
 
 ---
 # <a name="set-up-mailing-groups-for-contacts"></a>Configurer des groupes de distribution pour les contacts.
@@ -44,5 +44,5 @@ Une fois que vous avez affecté des groupes de distribution à vos contacts, vou
 ## <a name="see-also"></a>Voir aussi
 [Création de sociétés contact](marketing-create-contact-companies.md)  
 [Création de personnes contact](marketing-create-contact-persons.md)  
-[Utilisation de Financials](ui-work-product.md)
+[Utilisation de Business Central](ui-work-product.md)
 

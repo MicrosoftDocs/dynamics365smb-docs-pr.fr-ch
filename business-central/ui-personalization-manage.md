@@ -1,5 +1,5 @@
 ---
-title: "Gérer la personnalisation en tant qu'administrateur dans Financials | Microsoft Docs"
+title: "Gérer la personnalisation en tant qu'administrateur dans Business Central | Microsoft Docs"
 description: "Découvrez comment personnaliser l'interface utilisateur pour l'adapter à votre méthode de travail."
 services: project-madeira
 documentationcenter: 
@@ -13,10 +13,10 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.date: 07/26/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: 2d9b45bf21d325e60beadedfc94827d7f3fda075
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: 4914c0b7c269d5f725f33c839eb677455293cea0
 ms.contentlocale: fr-ch
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/01/2018
 
 ---
 # <a name="managing-personalization-as-an-administrator"></a>Gérer la personnalisation en tant qu'administrateur

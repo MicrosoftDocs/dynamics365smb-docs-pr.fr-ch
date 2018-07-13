@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 02/20/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d2301b31308c1300961d78478ce1ada807eddeab
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: 1c98e4473a1c19aac846927e2eab56493f9a0a08
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/01/2018
 
 ---
 # <a name="setting-up-workflows"></a>Paramétrage des workflows
@@ -36,7 +36,7 @@ Vous pouvez configurer et utiliser des workflows qui connectent des tâches de p
 |Configurer des utilisateurs de workflow qui participent à des workflow d'approbation.|[Configurer des utilisateurs d'approbation](across-how-to-set-up-approval-users.md)|  
 |Spécifier comment les utilisateurs du workflow sont notifiés des étapes du workflow, y compris des demandes d'approbation.|[Configuration de notifications de workflow](across-setting-up-workflow-notifications.md)|  
 |Spécifier quand des utilisateurs reçoivent des notifications et s'il faut regrouper les notifications au cours d'une période afin de réduire le nombre de notifications.|[Spécifier quand et comment recevoir des notifications](across-how-to-specify-when-and-how-to-receive-notifications.md)|  
-|Configurer la mise en forme et le contenu général de nouveaux e\-mails de notifications du flux de travail, ou exporter, modifier, puis réimporter des modèles existants.|[Gérer les modèles de notification](across-how-to-manage-notification-templates.md)|  
+|Configurer la mise en forme et le contenu général de nouveaux e-mails de notifications du flux de travail, ou exporter, modifier, puis réimporter des modèles existants.|[Gérer les modèles de notification](across-how-to-manage-notification-templates.md)|  
 |Configurer un serveur SMTP pour activer une communication entrante et sortante de [!INCLUDE[d365fin](includes/d365fin_md.md)] par e-mail|[Configurer la messagerie](admin-how-setup-email.md)|
 |Spécifier les différentes étapes d'un workflow par les événements du workflow de connexion avec des réponses du workflow.|[Créer des workflows](across-how-to-create-workflows.md)|  
 |Utiliser des modèles de workflow pour créer des workflows.|[Créer des flux de travail à partir de modèles de flux de travail](across-how-to-create-workflows-from-workflow-templates.md)|  
@@ -48,5 +48,5 @@ Vous pouvez configurer et utiliser des workflows qui connectent des tâches de p
  [Utilisation des workflows](across-use-workflows.md)   
  [Flux de travail](across-workflow.md)   
  [Procédure pas à pas : configuration et utilisation d'un flux d'approbation achat](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
- [Utilisation de Financials](ui-work-product.md)
+ [Utilisation de Business Central](ui-work-product.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Informations sur la configuration de la gestion du marketing et des contacts| Microsoft Docs
-description: "Vous pouvez configurer la gestion du marketing et des contacts dans Financials pour optimiser les relations avec les prospects ou les clients, et améliorer des campagnes ou des promotions."
+description: "Vous pouvez configurer la gestion du marketing et des contacts dans Business Central pour optimiser les relations avec les prospects ou les clients, et améliorer des campagnes ou des promotions."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect, client, customer, campaign, promo
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 42a279b085130da609c0f448acded6e60297dc9a
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: f4ccc58d0414131276dec3e062cf12e1ae4596db
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/01/2018
 
 ---
 # <a name="setting-up-relationship-management"></a>Paramétrage de la Gestion des relations

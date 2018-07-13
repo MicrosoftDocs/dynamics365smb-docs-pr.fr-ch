@@ -11,10 +11,10 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.translationtype: HT
-ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
-ms.openlocfilehash: 400b4710bd4e9a26db3b392646581f5225a2d245
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: b90577cbab4167894fe79a3e8e8a0c61ce8c70e9
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/28/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 
@@ -47,6 +47,11 @@ Si vous vous êtes inscrit à [!INCLUDE[d365fin](includes/d365fin_md.md)] à par
 Sur la page Confidentialité au travail et à l'école, vous pouvez également fermer votre compte. Toutefois, il est recommandé de vérifier que vous avez exporté et supprimé au préalable toutes les données, car la suppression de votre compte implique que vous n'avez plus accès à [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Vous pouvez toujours marquer des personnes comme bloquées pour des raisons de confidentialité et exporter, modifier ou supprimer des transactions, comme expliqué ailleurs dans cet article.  
+
+## <a name="exporting-data-from-tables-not-classified-by-data-subject"></a>Exportation de données à partir de tables non classées par sujet de données
+Si vous devez exporter des données non classées de manière à pouvoir les exporter automatiquement, par exemple les données de la table Réponses profil, vous devez procéder comme suit : 
+-   Demandez-vous si vous souhaitez ou devez vraiment exporter ces données supplémentaires qui n'ont aucun rapport avec le contact, c'est-à-dire sans relation directe avec lui. 
+-   Ajoutez cette table et cette relation manuellement au package Rapid Start et exportez-les directement à partir du package Rapid Start. Nous générons un package Rapid Start pour vous, afin que vous puissiez le modifier dans de telles situations.
 
 ## <a name="handling-data-about-minors"></a>Gestion des données concernant les mineurs
 Si l'âge d'un contact est inférieur à l'âge de consentement légal défini par les lois de votre région, vous pouvez l'indiquer en activant la case à cocher **Mineur** sur la fiche **Contact**. La case à cocher **Confidentialité bloquée** est alors automatiquement activée. Lorsque vous recevez l'accord du parent ou du tuteur légal du mineur, vous pouvez activer la case à cocher **Accord parental reçu** pour débloquer le contact. Même si vous pouvez traiter les données personnelles des mineurs, vous ne pouvez pas utiliser la fonctionnalité de profilage dans Microsoft Dynamics 365 for Sales.

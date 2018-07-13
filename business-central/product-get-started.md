@@ -1,29 +1,29 @@
 ---
 title: Mise en route | Microsoft Docs
 description: "Découvrez les fonctionnalités et les scénarios de travail dans Business Central, une solution de gestion d'entreprise pour les PME."
-author: SusanneWindfeldPedersen
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 03/21/2018
-ms.author: solsen
+ms.date: 06/20/2018
+ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: 7dda76b03bb4bff5bb75be38710f2c851b106823
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 655f67778ed52794df893cec8965eec990f41b3f
 ms.contentlocale: fr-ch
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Mise en route de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
-[!INCLUDE[d365fin](includes/d365fin_md.md)] est une solution de gestion d'entreprise pour les PME qui automatise et simplifie les processus entreprise et vous aide à gérer votre entreprise. L'inscription est facile, et vous pouvez migrer des données métiers existantes de votre système existant.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] est une solution de gestion d'entreprise pour les PME qui automatise et simplifie les processus entreprise et vous aide à gérer votre entreprise. L'inscription est facile, et vous pouvez migrer des données métiers existantes de votre système existant. Pour vous aider à souscrire un abonnement, recherchez un partenaire [!INCLUDE[d365fin](includes/d365fin_md.md)] [ici](https://www.microsoft.com/en-us/solution-providers/search).  
 
 L'inscription à la version préliminaire de [!INCLUDE[d365fin](includes/d365fin_md.md)] vous a donné accès à une société de démonstration. La société de démonstration contient des exemples de données, mais vous pouvez créer vos propres documents vente, par exemple, ou ouvrir un compte bancaire.  
 
 ## <a name="get-to-know-included365finincludesd365finmdmd"></a>Découvrir [!INCLUDE[d365fin](includes/d365fin_md.md)]
-Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], certains éléments vous seront très familiers, d'autres un peu moins. Dans la société de démonstration, les guides visuels expliquent les fonctionnalités de base et vous permettent de tester des tâches quotidiennes telles que la création d'une facture vente et l'affichage d'un état. Si vous quittez le guide, par exemple, pour explorer [!INCLUDE[d365fin](includes/d365fin_md.md)] par vous-même, mais que vous souhaitez y revenir par la suite, revenez au Tableau de bord et lancez la visite de mise en route.
+Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], certains éléments vous seront très familiers, d'autres un peu moins. Dans la société de démonstration, les guides visuels expliquent les fonctionnalités de base et vous permettent de tester des tâches quotidiennes telles que la création d'une facture vente et l'affichage d'un état. Si vous quittez le guide, par exemple, pour explorer [!INCLUDE[d365fin](includes/d365fin_md.md)] par vous-même, mais que vous souhaitez y revenir par la suite, revenez au Tableau de bord et lancez la visite de mise en route. Si vous avez besoin d'aide, vous pouvez rechercher un partenaire [!INCLUDE[d365fin](includes/d365fin_md.md)] [ici](https://www.microsoft.com/en-us/solution-providers/search).  
 
 > [!TIP]  
 > Vous pouvez revenir au Tableau de bord en sélectionnant le nom de la société dans l'angle supérieur gauche.
@@ -71,8 +71,10 @@ Vous voulez vous abonner ? Vous pouvez facilement quitter la société de démo
 
 Pour créer une société pour tester des éléments, allez dans le menu **Mes paramètres** dans le coin supérieur droit, puis modifiez la société **Ma société**. Déconnectez-vous de [!INCLUDE[d365fin](includes/d365fin_md.md)], puis connectez-vous de nouveau pour appliquer le changement. Un guide de configuration assistée vous aidera à fournir des informations de base concernant votre société. Lorsque cela est effectué, consultez le Tableau de bord et recherchez l'option **Configuration assistée**.  
 
+Sinon, recherchez un partenaire [!INCLUDE[d365fin](includes/d365fin_md.md)] [ici](https://www.microsoft.com/en-us/solution-providers/search).
+
 ## <a name="ready-to-subscribe"></a>Prêt à vous abonner ?
-À chaque connexion au cours de la période gratuite, une notification s'affiche dans une barre bleue en haut et indique le temps restant. Si vous décidez de vous inscrire, utilisez le lien de la notification pour contacter Microsoft. Vous pouvez également contacter l'[[!INCLUDE[d365fin](includes/d365fin_md.md)]équipe commerciale](https://go.microsoft.com/fwlink/?linkid=828707).  
+À chaque connexion au cours de la période gratuite, une notification s'affiche dans une barre bleue en haut et indique le temps restant. Si vous décidez de vous abonner, recherchez un partenaire [!INCLUDE[d365fin](includes/d365fin_md.md)] [ici](https://www.microsoft.com/en-us/solution-providers/search). Vous pouvez également contacter l'[[!INCLUDE[d365fin](includes/d365fin_md.md)]équipe commerciale](https://go.microsoft.com/fwlink/?linkid=828707).  
 
 ## <a name="other-dynamics-365-apps"></a>Autres applications Dynamics 365
 Accédez au contenu sur les autres applications Dynamics 365 en sélectionnez le lien [Dynamics 365](https://docs.microsoft.com/dynamics365) dans la bannière bleue en haut de cette page. Vous pouvez également en savoir plus en visitant le [site Web Dynamics 365 Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/).  
@@ -90,5 +92,5 @@ Si vous êtes comptable, vous pouvez vous inscrire à [!INCLUDE[d365acc_long](in
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

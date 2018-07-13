@@ -8,17 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supply planning, sales demand, replenish
-ms.date: 01/25/2018
+ms.date: 06/19/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: d5ae63043a6f296de22f71c401a5686f970ad3a0
+ms.sourcegitcommit: 3331849cf94c70d0597ae5f37d3109451947c9fc
+ms.openlocfilehash: 322f55f9233e89e6e6b5a710520b3e5931d9c44a
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/20/2018
 
 ---
 # <a name="purchase-items-for-a-sale"></a>Acheter des articles pour une vente
-Avec les commandes vente et les factures vente, vous pouvez utiliser des fonctions vous permettant de créer rapidement des documents achat pour des quantités d'articles manquantes requises par la vente. Vous pouvez utiliser deux fonctions distinctes selon le type document.
+Avec les commandes vente et les factures vente, vous pouvez utiliser des fonctions vous permettant de créer rapidement des documents achat pour des quantités d'articles manquantes requises par la vente. Vous pouvez utiliser deux fonctions distinctes selon le type document.  
+
 |Fonction|Désignation|
 |--------|-----------|
 |**Créer des commandes achat**|Depuis une commande vente, cette fonction crée une commande achat pour chaque fournisseur des articles de la commande vente. Vous pouvez modifier la quantité d'achat avant de créer les commandes achat. Seules les quantités de vente indisponibles sont proposées.

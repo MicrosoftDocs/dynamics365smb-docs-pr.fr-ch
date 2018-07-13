@@ -11,10 +11,10 @@ ms.search.keywords: customization, personalization
 ms.date: 09/08/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fcfbf5d9c66df986e34e68d98888042d83a53481
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: f5225d1f6d0d4ac0020fb073d5df6da83b5c0f5b
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="managing-saved-settings-on-reports"></a>Gestion des paramètres enregistrés dans les états
@@ -22,7 +22,7 @@ En fonction de l'état exécuté, vous pouvez bénéficier d'une page qui vous l
 
 Vous pouvez voir les paramètres enregistrés qui sont à votre disposition pour un état dans la section **Paramètres enregistrés** de la page de demande de l'état.  
 
-## <a name="to-apply-saved-settings-to-a-report"></a>Pour appliquer des paramètres enregistrés à un état
+## <a name="apply-saved-settings-to-a-report"></a>Appliquer des paramètres enregistrés à un état
 1. Ouvrez l'état.
 
    La page de demande de l'état s'affiche.    
@@ -30,7 +30,7 @@ Vous pouvez voir les paramètres enregistrés qui sont à votre disposition pour
 
    La section **Paramètres enregistrés** apparaît uniquement si l'état a été exécuté avant ou s'il y a des écritures de paramètres enregistrées. L'écriture de paramètres enregistrés appelée **Options et filtres récemment utilisés** est toujours disponible. Ces paramètres sont les valeurs d'option et de filtre qui ont été utilisées la dernière fois que vous avez exécuté l'état.
 
-## <a name="administer-saved-report-settings-for-users"></a>Administrer les paramètres d'état enregistrés pour les utilisateurs
+## <a name="create-and-modify-saved-settings-for-all-users"></a>Créer et modifier les paramètres enregistrés pour tous les utilisateurs
 Si vous avez les bonnes autorisations, vous pouvez visualiser, créer et modifier les paramètres enregistrés pour tous les états pour tous les utilisateurs de la société. Vous pouvez attribuer les paramètres enregistrés d'un état à des utilisateurs en particulier ou à tous les utilisateurs de la société.
 
 Vous gérez les paramètres enregistrés à partir de la page 1506 **Paramètres des états**. Pour ouvrir cette page, sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Paramètres de l'état**, puis sélectionnez le lien connexe.

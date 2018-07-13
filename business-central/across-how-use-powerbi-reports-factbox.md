@@ -1,6 +1,6 @@
 ---
 title: "Afficher des états Power BI personnalisés| Microsoft"
-description: "Vous pouvez utiliser des états Power BI pour obtenir des informations supplémentaires sur les données dans les listes dans Financials."
+description: "Vous pouvez utiliser des états Power BI pour obtenir des informations supplémentaires sur les données des listes."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,10 +13,10 @@ ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 49957527ab1b0217dab151463ccf983c5eeac7a1
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: 595e6fb7cc8239ea33cf57aadfd8b0f3419323e5
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/01/2018
 
 ---
 # <a name="viewing-list-data-in-power-bi-reports-in-business-central"></a>Affichage des données de liste des états Power BI dans Business Central 

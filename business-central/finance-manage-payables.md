@@ -1,6 +1,6 @@
 ---
 title: Gestion des comptes fournisseur| Microsoft Docs
-description: "Aperçu de la manière dont Financials vous aide à gérer les comptes fournisseurs, y compris les paiements fournisseur, les créditeurs, les dettes, et le solde dû."
+description: "Aperçu de la manière de gérer les comptes fournisseurs, y compris les paiements fournisseur, les créditeurs, les dettes, et le solde dû."
 services: project-madeira
 documentationcenter: 
 author: bholtorf
@@ -12,13 +12,13 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: article
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 06/02/2017
+ms.date: 06/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b128e567a07f4b0a6abffe8f1c82c740317016ff
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: 1682db5bd62f980e8789613cd2ca4169f98e839d
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/01/2018
 
 ---
 # <a name="managing-payables"></a>Gestion des comptes fournisseur

@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 05/07/2018
+ms.date: 0/07/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: 93eced90155b9172595561bfc5b80c3c49ca11bc
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: c1675921c82ddf00f6a00f94bb38bd594a9a0089
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="administration"></a>Administration
-Les tâches d'administration centrale sont généralement effectuées par une fonction dans la société. La portée de ces tâches peut dépendre de la taille de la société et des responsabilités de l'administrateur. Ces tâches sont notamment la synchronisation de bases de données de gestion de file d'attentes de travaux ou d'e-mails, la configuration utilisateur, la personnalisation d'interface utilisateur, et la gestion des clés de chiffrement.  
+Les tâches d'administration centrale sont généralement effectuées par une fonction dans la société. La portée de ces tâches peut dépendre de la taille de la société et des responsabilités de l'administrateur. Ces tâches sont notamment la gestion de la synchronisation de la base de données des files projets et messages, la configuration des utilisateurs et la personnalisation de l'interface utilisateur.  
 
 Il est important d'entrer des valeurs de configuration correctes dès le début pour garantir le succès de tout nouveau logiciel de gestion. [!INCLUDE[d365fin](includes/d365fin_md.md)] inclut plusieurs guides de configuration qui vous permettent de configurer les données de base. Pour plus d'informations, voir [Configuration de Business Central](setup.md).
 
@@ -52,5 +52,5 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 [Mise en route](product-get-started.md)    
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

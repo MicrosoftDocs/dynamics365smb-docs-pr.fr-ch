@@ -13,10 +13,10 @@ ms.search.keywords: feature overview, functionality
 ms.date: 05/09/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: f35e361d083ce9fd497f76cb3b8417fef233438c
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: f6a8bca975e37adb436f30ef3d16bbc198f26447
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="general-business-functionality"></a>Fonctionnalités marché
@@ -33,7 +33,7 @@ Le tableau suivant répertorie ces secteurs d'activité généraux avec des lien
 | Définir des codes texte standard de façon à étendre le texte standard en ajoutant des lignes supplémentaires et définir des conditions d'utilisation des lignes supplémentaires. |[Définition du texte étendu](ui-how-define-ext-text.md) |
 |Créez des tâches pour vous rappeler le travail à faire. Vous pouvez créer des tâches pour vous-même, mais vous pouvez également affecter des tâches à d'autres personne ou avoir une tâche affectée à vous-même par une autre personne de votre organisation.|[Définition des tâches utilisateur](across-user-tasks.md)|
 |Le système peut vous aider à effectuer ces tâches plus rapidement et précisément en préremplissant les champs ou en complétant les lignes avec des données que vous devriez sinon calculer et saisir vous-même.|[Permettre à Business Central de proposer des valeurs](ui-let-system-suggest-values.md)|
-|Enregistrez des documents externes dans Financials, ainsi que leurs fichiers joints, puis créez manuellement les documents connexes ou convertissez automatiquement les fichiers en documents électroniques.|[Documents entrants](across-income-documents.md)|
+|Enregistrez des documents externes, ainsi que leurs fichiers joints, puis créez manuellement des documents connexes ou convertissez automatiquement les fichiers en documents électroniques.|[Documents entrants](across-income-documents.md)|
 |Configurez et utilisez des workflows qui connectent des tâches exécutées par différents utilisateurs ou par le système, telles que la validation automatique. Demander et accorder une approbation pour créer ou valider des documents sont des étapes classiques du workflow.|[Flux de travail](across-workflow.md)|
 | Configurer les définitions d'échange de données afin de pouvoir envoyer et recevoir des documents électroniques. |[Échanger des données par voir électronique](across-data-exchange.md) |
 
@@ -42,5 +42,5 @@ Le tableau suivant répertorie ces secteurs d'activité généraux avec des lien
 [Administration](admin-setup-and-administration.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 
