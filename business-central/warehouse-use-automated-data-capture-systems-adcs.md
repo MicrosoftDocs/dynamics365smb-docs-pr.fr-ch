@@ -8,8 +8,9 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/18/2017
+ms.date: 08/01/2018
 ms.author: sgroespe
+redirect_url: warehouse-manage-warehouse
 ms.translationtype: HT
 ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
 ms.openlocfilehash: 4b7b4cf17020a122af3d7d9fd9d43fe507a071a1
@@ -94,7 +95,6 @@ Après avoir créé un écran, vous devez créer des fonctions et associer une f
     <xsl:template match="Function[.='F6']">  
       <Function Key1="27" Key2="91" Key3="49" Key4="55" Key5="126" Key6="0"><xsl:value-of select="."/></Function>  
     </xsl:template>  
-
     ```  
 2.  Dans l'environnement de développement [!INCLUDE[d365fin](includes/d365fin_md.md)], ouvrez la table 7702 et ajoutez un code représentant la nouvelle touche. Dans cet exemple, créez une clé nommée **F6**.  
 3.  Ajoutez le code C/AL à la fonction appropriée du codeunit spécifique de l'écran afin de gérer la touche de fonction.  
