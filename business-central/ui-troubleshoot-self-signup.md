@@ -10,10 +10,10 @@ ms.workload: na
 ms.date: 03/16/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
-ms.openlocfilehash: 62bb5421667ad53d619d0529d04cf8803890a6aa
+ms.sourcegitcommit: d7664360941313da6ea0b797ef00df2e9810ad62
+ms.openlocfilehash: de07dac85b9e24f50eb60570630feb6199089ec4
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/02/2018
+ms.lasthandoff: 07/09/2018
 
 ---
 # <a name="troubleshooting-self-service-sign-up"></a>Dépannage de l'inscription en self-service
@@ -37,26 +37,30 @@ Dans de nombreux cas, vous pouvez effectuer votre inscription à [!INCLUDE[d365f
 | Si votre compte Office 365 est enregistré dans un pays pris en charge, et que vous vous inscrivez à [!INCLUDE[d365fin](includes/d365fin_md.md)] depuis un autre pays, vous recevrez un message comme le suivant pendant l'inscription :<br /><br />**L'inscription n'a pas fonctionné. Nous ne prenons pas encore en charge votre pays ou région.**| L'abonnement Office 365 de votre organisation est enregistré dans un pays spécifique dans le portail Administration Office 365. L'expérience d'inscription à [!INCLUDE[d365fin](includes/d365fin_md.md)] utilise la langue et les paramètres régionaux que votre navigateur actuel utilise, et par conséquent, vous pouvez recevoir le message d'erreur même si vous être dans un pays pris en charge. Demander à votre administrateur informatique de vérifier le pays spécifié dans le profil de l'organisation dans le [Portail d'administration Office 365](https://portal.office.com/adminportal/home#/companyprofile). Vous pouvez être amené à utiliser un autre compte pour [!INCLUDE[d365fin](includes/d365fin_md.md)].|
 
 ## <a name="regional-availability"></a>Disponibilité régionale
-[!INCLUDE[d365fin](includes/d365fin_md.md)] est actuellement disponible sur les marchés suivants :
+Pour une liste des marchés actuellement pris en charge, voir la plateforme [Disponibilité internationale de Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/availability) et la page d'arrivée [Fonctionnalités locales](about-localization.md).
 
-| Europe | Amérique du Nord |
+<!-- [!INCLUDE[d365fin](includes/d365fin_md.md)] is currently available in the following markets:
+
+| Europe | North America |
 | --- | --- |
-| Australie | Canada |
-| Autriche | |
-| Belgique | États-Unis |
-| Danemark | |
-| Allemagne | |
-| Finlande | |
+| Australia | Canada |
+| Austria | |
+| Belgium | United States |
+| Denmark | |
+| Germany | |
+| Finland | |
 | France | |
-| Italie | |
-| Pays-Bas | |
-| Nouvelle-Zélande | |
-| Espagne | |
-| Suède | |
-| Suisse | |
-| Anglais (Royaume-Uni) | |
+| Italy | |
+| Netherlands | |
+| New Zealand | |
+| Spain | |
+| Sweden | |
+| Switzerland | |
+| United Kingdom | |
+-->
 
 ## <a name="see-also"></a>Voir aussi
 [Bienvenue dans [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Fonctionnalités locales](about-localization.md)  
 

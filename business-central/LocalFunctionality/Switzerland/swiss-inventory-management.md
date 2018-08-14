@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 03/06/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 179edd19498543844a4760c57cd71bdab6948e41
+ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
+ms.openlocfilehash: 5daae157434867c07bac55310ac1b24ea34df06c
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 07/30/2018
 
 ---
 # <a name="swiss-inventory-management"></a>Gestion des stocks, Suisse
@@ -24,7 +24,7 @@ ms.lasthandoff: 03/22/2018
 
 - Génération d'état détaillé.  Pour plus d'informations, voir État Stock - Statistiques vente et État Stock - Liste.  
 - Possibilité de suivre une facture pour plusieurs expéditions.  
-- Y compris un code d'emplacement de fiche article en tant que code d'emplacement par défaut pour les lignes de vente et les feuilles articles. Pour plus d'informations, reportez-vous à [Configurer des magasins](../../inventory-how-setup-locations.md). 
+- Y compris un code d'emplacement de fiche article en tant que code d'emplacement par défaut pour les lignes de vente et les feuilles articles. Pour plus d'informations, reportez-vous à [Configurer des magasins](../../inventory-how-setup-locations.md).
 
 ## <a name="managing-item-details"></a>Gestion des détails article  
 Les sociétés peuvent avoir différents entrepôts pour différentes catégories de produits. Dans ce cas, vous devez utiliser le code d'emplacement par défaut récupéré à partir de la fiche article. Lorsque vous définissez un code d'emplacement pour un article, il est transféré vers les lignes de vente et les feuilles article en tant que code d'emplacement d'article par défaut. Pour plus d'informations, voir la table Ligne feuille article et Ligne vente.  
@@ -35,7 +35,6 @@ Les informations, telles que le numéro du client, le code adresse destinataire 
 Si plusieurs expéditions ont été validées pour un client, vous pouvez créer une facture regroupée avec la fonction **Extraire lignes expédition**. Pour plus d'informations, voir la fenêtre Extraire lignes expédition. Lorsque vous utilisez cette fonction, le texte créé sur les lignes de facture inclut des informations sur le numéro d'expédition et la date d'expédition. Par exemple, le texte peut paraître comme Expédition N° 102040 sur 25.01.01. Cela vous permet de suivre facilement les factures avec plusieurs expéditions.  
 
 ## <a name="see-also"></a>Voir aussi  
- [Procédure : bloquer des articles de stock pour les ventes ou les achats](how-to-block-inventory-items-for-sales-or-purchases.md)   
  [Copier des articles existants pour créer de nouveaux articles](how-to-copy-existing-items-to-new-items.md)   
  [Désactiver le suivi des coûts article](how-to-deactivate-item-cost-tracking.md)   
  [Fonctionnalité locale, Suisse](switzerland-local-functionality.md)   

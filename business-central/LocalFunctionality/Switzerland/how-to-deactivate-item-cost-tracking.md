@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f618203725ec854f3a66ef2501b16613a0394bd6
+ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
+ms.openlocfilehash: abf481ae651863e5ec290aacb58684980c31edbe
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 07/30/2018
 
 ---
 # <a name="deactivate-item-cost-tracking"></a>Désactiver le suivi des coûts article
@@ -35,9 +35,8 @@ Vous pouvez désactiver le coût de l'article suivant pour un article. Général
     > [!NOTE]  
     >  Vous ne pouvez pas sélectionner la case à cocher **Pas de stock** sur un article pour lequel les écritures comptables article ont déjà été validées.  
 
-4.  Cliquez sur le bouton **OK**.  
+4.  Choisissez le bouton **OK**.  
 
 ## <a name="see-also"></a>Voir aussi  
- [Gestion des stocks, Suisse](swiss-inventory-management.md)   
- [Bloquer des articles de stock pour les ventes ou les achats](how-to-block-inventory-items-for-sales-or-purchases.md)
+ [Gestion des stocks, Suisse](swiss-inventory-management.md)
 

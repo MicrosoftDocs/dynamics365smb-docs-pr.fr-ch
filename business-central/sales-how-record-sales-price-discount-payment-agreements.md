@@ -63,7 +63,7 @@ Une fois que vous avez décidé des clients pouvant faire l'objet de remises fac
 Configurez de nouvelles conditions de remise facture vente.
 
 1. Dans la fenêtre **Fiche client**, sélectionnez l'action **Remises facture**. La fenêtre **Remises facture client** s'ouvre.
-2. Dans le champ **Code devise**, indiquez le code d'une devise à laquelle s'appliquent les conditions de remise facture. Laissez le champ vierge si vous souhaitez configurer des conditions de remise facture en USD.
+2. Dans le champ **Code devise**, indiquez le code d'une devise à laquelle s'appliquent les conditions de remise facture. Laissez le champ vierge si vous souhaitez configurer des conditions de remise facture en devise société.
 3. Dans le champ **Montant minimum**, entrez le montant minimal qu'une facture doit présenter pour faire l'objet de la remise.
 4. Dans le champ **% remise**, entrez la remise facture sous la forme d'un pourcentage du montant de la facture.
 5. Répétez les étapes 5 à 7 pour chaque devise pour laquelle le client recevra une remise facture différente.

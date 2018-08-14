@@ -11,10 +11,10 @@ ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 05/18/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
-ms.openlocfilehash: f0e7b7a560bacb3791524b94d721f413b3c72310
+ms.sourcegitcommit: 42deec3d94209a7963e596e7deb5584fccd6db7f
+ms.openlocfilehash: 2695ebc582ee2c161b566522bffd62f534fbc013
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/28/2018
+ms.lasthandoff: 07/19/2018
 
 ---
 
@@ -91,6 +91,22 @@ Lorsque vous définissez un champ de date, vous pouvez saisir la date manuelleme
 |Entrée|Sélectionner la date active.|
 |Ctrl+Fin<br />(Cmd+Fin)|Fermer le calendrier et supprimer la date actuelle.|
 |Echap|Fermer le calendrier sans sélection, conserver la date actuelle.|
+
+
+## <a name="keyboard-shortcuts-in-the-report-preview"></a>Raccourcis clavier dans l'aperçu de rapports
+
+|Appuyez sur les touches suivantes<br />(dans macOS)|Pour|
+|-----------------|-------|
+|Flèche bas|Faites défiler vers le bas de la page.|  
+|Flèche vers le haut|Faites défiler vers le haut de la page.|
+|Flèche vers la droite|Faites défiler vers la droite lorsque le zoom est appliqué à la page et qu'elle n'est pas entièrement visible. |
+|Flèche vers la gauche|Faites défiler vers la gauche lorsque le zoom est appliqué à la page et qu'elle n'est pas entièrement visible. |
+|Ctrl+0 (zéro)<br />(Cmd+0)|Adapte la page entière à la fenêtre. |
+|Ctrl+Début<br />(Cmd+Accueil)|Accédez à la première page de l'état.|
+|Ctrl+Fin<br />(Cmd+Accueil)|Accédez à la dernière page de l'état.|
+|Page suivante<br />(Fn + Flèche bas)|Accédez à la prochaine page de l'état.|
+|Page Upbr />(Fn+Flèche haut)|Accédez à la page précédente de l'état.|
+
 
 <!--
 ## Keyboard shortcuts in list (shown as tiles)

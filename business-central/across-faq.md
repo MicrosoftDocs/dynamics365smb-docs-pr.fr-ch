@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
-ms.date: 06/28/2018
+ms.date: 07/20/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 9284476557de94e57680bbaa68dfd62ed6d50afc
+ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
+ms.openlocfilehash: 4c20da1a46879ddc342250a0e074b0f8097a64ab
 ms.contentlocale: fr-ch
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 07/30/2018
 
 ---
 # <a name="frequently-asked-questions"></a>Forum Aux Questions
@@ -50,6 +50,10 @@ Avez-vous eu connaissance d'une nouvelle fonctionnalité dans la feuille de rout
 Oui, vous pouvez. Mais pour le moment, vous devez vous adresser à votre revendeur. Si vous ne le connaissez pas, recherchez un partenaire Business Central [ici](https://www.microsoft.com/en-us/solution-providers/search).  
 
 Si vous avez accès à Microsoft CustomerSource, vous pouvez accéder au site Imagine Academy avec la documentation eLearning. Pour plus d'informations sur la procédure d'accès, consultez la page [Formation Microsoft Dynamics 365](/dynamics365/get-started/training/index#dynamics-365-customers).  
+
+## <a name="is-included365finincludesd365finmdmd-available-in-my-country"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] est-il disponible dans mon pays ?
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] est disponible dans sur nombre limité de marchés, mais de nouveaux pays sont ajoutés via la localisation Microsoft ou via la localisation partenaire chaque trimestre. Pour plus d'informations, voir [Pays et traductions pris en charge](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
 
 ## <a name="why-are-some-ui-elements-that-i-used-in-dynamics-nav-not-visible-in-included365finincludesd365finmdmd"></a>Pourquoi certains éléments de l'interface utilisateur que j'ai utilisés dans Dynamics NAV ne sont pas visibles dans [!INCLUDE[d365fin](includes/d365fin_md.md)] ?
 Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], le système Domaines d'application et les options Expérience vous permettent d'afficher ou de masquer des parties pertinentes du produit en fonction du plan acheté (Essential ou Premium) et en fonction des besoins de votre entreprise.

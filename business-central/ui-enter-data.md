@@ -145,7 +145,7 @@ Vous pouvez entrer des dates et des heures dans tous les champs affectés spéci
 |11/12|11-mois en cours-année en cours 12:00:00|  
 |1112 12|11-12-année en cours 12:00:00|  
 |a ou date du jour|date du jour 00:00:00|  
-|heure h|date du jour heure réelle|  
+|a heure|date du jour heure réelle|  
 |a 10:30|date du jour 10:30:00|  
 |a 3:3:3|date du jour 03:03:03|  
 |t ou date de travail|date de travail 00:00:00|  

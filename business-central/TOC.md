@@ -266,6 +266,7 @@
 ## [Transfert de stock entre des magasins](inventory-how-transfer-between-locations.md)
 ## [Réserver des articles](inventory-how-to-reserve-items.md)
 ## [Utiliser les numéros de lot et de série](inventory-how-work-item-tracking.md)
+## [Bloquer les articles](inventory-how-block-items.md)
 ## [Utiliser les centres de gestion](inventory-responsibility-centers.md)
 
 # [Gestion de projets](projects-manage-projects.md)
@@ -390,7 +391,7 @@
 ## [Détails de conception : traçabilité](design-details-item-tracking.md)
 ## [Détails de conception : Ligne validation de feuille comptabilité](design-details-general-journal-post-line.md)
 
-# Fonctionnalités locales
+# [Fonctionnalités locales](about-localization.md)
 ## [Australie](LocalFunctionality/Australia/australia-local-functionality.md)  
 ## [Autriche](LocalFunctionality/Austria/austria-local-functionality.md)
 ## [Belgique](LocalFunctionality/Belgium/belgium-local-functionality.md)
