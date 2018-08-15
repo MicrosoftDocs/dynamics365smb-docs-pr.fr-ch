@@ -7,8 +7,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
-ms.date: 07/20/2018
+ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan, application area, experience
+ms.date: 08/15/2018
 ms.author: edupont
 ms.translationtype: HT
 ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
@@ -56,6 +56,7 @@ Si vous avez accès à Microsoft CustomerSource, vous pouvez accéder au site Im
 [!INCLUDE[d365fin](includes/d365fin_md.md)] est disponible dans sur nombre limité de marchés, mais de nouveaux pays sont ajoutés via la localisation Microsoft ou via la localisation partenaire chaque trimestre. Pour plus d'informations, voir [Pays et traductions pris en charge](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
 
 ## <a name="why-are-some-ui-elements-that-i-used-in-dynamics-nav-not-visible-in-included365finincludesd365finmdmd"></a>Pourquoi certains éléments de l'interface utilisateur que j'ai utilisés dans Dynamics NAV ne sont pas visibles dans [!INCLUDE[d365fin](includes/d365fin_md.md)] ?
+
 Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], le système Domaines d'application et les options Expérience vous permettent d'afficher ou de masquer des parties pertinentes du produit en fonction du plan acheté (Essential ou Premium) et en fonction des besoins de votre entreprise.
 
 Ces fonctionnalités ont été utilisées pour simplifier l'interface utilisateur dans la version standard de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Par exemple, les champs qui ne sont pas souvent utilisés, comme **N° télécopie**, ont été supprimés, et sur les rubans des listes et cartes, les actions en double sont supprimées et les actions les plus utilisées sont indiquées. Quelques fonctions complètes, telles que les commentaires, sont en cours d'optimisation pour le client web et ne sont donc pas disponibles dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
