@@ -29,10 +29,9 @@ Pour bénéficier pleinement des suggestions de paiement, vous devez d'abord att
 
 > [!IMPORTANT]  
 >   Si vous souhaitez profiter d'escomptes et que vous avez saisi un montant disponible, ce montant est d'abord utilisé pour :  
-
-* Les écritures fournisseur échues et prioritaires, par ordre de priorité.  
-* Les écritures fournisseur échues et non prioritaires.  
-* Les écritures fournisseur ouvertes donnant lieu à un escompte, dans l'ordre des numéros des fournisseurs.  
+    * Les écritures fournisseur échues et prioritaires, par ordre de priorité.   
+    * Les écritures fournisseur échues et non prioritaires.  
+    * Les écritures fournisseur ouvertes donnant lieu à un escompte, dans l'ordre des numéros des fournisseurs.  
 
 ## <a name="to-use-the-suggest-vendor-payments-function"></a>Pour utiliser la fonction Proposer paiements fournisseur
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuilles paiement**, puis sélectionnez le lien connexe.  
