@@ -13,18 +13,41 @@ ms.search.keywords: task, process, report
 ms.date: 07/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 01a7a1d254916a8b93744183d3678c2082aec42c
+ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
+ms.openlocfilehash: 560760b1f895ed69c2e7fd80ccf451763e87d19b
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/06/2018
 
 ---
 # <a name="working-with-reports"></a>Utilisation des états
 Un état regroupe des informations en fonction d'un ensemble de critères spécifié, et organise et présente les informations dans un format imprimable et facilement lisible. Il existe de nombreux états accessibles tout au long de l'application. Les états fournissent généralement des informations relatives au contexte de la page où vous vous trouvez. Par exemple, la page **Client** comprend des états pour les 10 principaux clients et les statistiques de vente, et plus encore.
 
-Vous pouvez rechercher des états dans l'onglet **États** des pages sélectionnées, ou vous pouvez utiliser la recherche pour rechercher des états par leur nom. Lorsque vous ouvrez un état, vous voyez d'abord une page qui vous permet de spécifier des informations (des options et des filtres) qui déterminent ce que vous souhaitez inclure dans l'état. Par exemple, selon l'état, vous pouvez spécifier une plage de dates, un enregistrement particulier tel qu'un client, ou effectuer un tri. Voici un exemple :
+Les états sont disponibles sous l'onglet **États** des pages sélectionnées, ou vous pouvez utiliser la fonction de recherche ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche") pour rechercher des états par nom.
+
+
+## <a name="specifying-the-data-to-include-in-the-report"></a>Définition des données à inclure dans l'état
+Lorsque vous ouvrez un état, une page s'affiche généralement pour vous permettre de définir plusieurs options et filtres qui déterminent les éléments à inclure dans l'état. Cette page est appelée la page de demande de l'état. Par exemple, la page de demande de l'état vous permet de créer un état pour un client spécifique, une plage de dates spécifique, ou encore de définir l'ordre des informations dans l'état. Voici un exemple de page de demande de l'état :
 
 ![Options d'état](media/report_options.png "Options d'état")
+
+### <a name="SavedSettings"></a>Utilisation des paramètres enregistrés
+Avec certains états, selon la manière dont ils sont conçus, la page d'état peut inclure la section **Paramètres enregistrés** qui contient une ou plusieurs entrées dans la zone **Utiliser les valeurs par défaut de**. Les entrées de cette zone sont appelées *paramètres enregistrés*. Un paramètre enregistré est fondamentalement un groupe d'options et de filtres prédéfini que vous pouvez appliquer à l'état avant d'en afficher un aperçu ou de l'envoyer vers un fichier. L'écriture de paramètres enregistrés appelée **Options et filtres récemment utilisés** est toujours disponible. Cette écriture permet de faire en sorte que l'état utilise les options et les filtres qui ont été utilisés la dernière fois que vous l'avez regardé.
+
+Le fait d'utiliser les paramètres enregistrés est une façon rapide et fiable de générer de façon cohérente des états qui contiennent les données adéquates. Après avoir défini la zone **Utiliser les valeurs par défaut de** sur une entrée de paramètres enregistrés, vous pouvez modifier les options et les filtres avant d'afficher un aperçu ou d'enregistrer l'état. Vos modifications ne seront pas enregistrées dans l'entrée de paramètres enregistrés que vous avez sélectionnée, mais elles seront sauvegardées dans la zone **Options et filtres récemment utilisés**.
+
+>[!NOTE]
+>Si vous êtes un administrateur, vous pouvez créer et gérer les paramètres enregistrés des états pour tous les utilisateurs. Pour plus d'informations, voir [Gestion des paramètres enregistrés dans les états](reports-saving-reusing-settings.md).
+
+### <a name="setting-options-and-filters"></a>Définition des options et des filtres
+Si vous souhaitez limiter davantage ou localiser les données incluses dans un état, vous pouvez définir des options et des filtres supplémentaires.
+
+Les filtres vous permettent d'afficher les données selon des critères spécifiques. Les filtres sont regroupés selon l'entité à laquelle ils appartiennent, par exemple **Client** dans l'illustration ci-dessus. Vous spécifiez un filtre en définissant la zone **Où** sur le champ de filtre, puis en ajoutant les critères dans la zone **est :**. Par exemple, dans l'illustration ci-dessus, un filtre unique crée un état pour le client dont le **N°** est égal à **01121212**.
+
+Vous pouvez ajouter d'autres filtres en définissant les zones **Ajouter**. Lorsque vous avez plusieurs filtres, seuls les résultats qui répondent aux critères de tous les filtres seront inclus dans l'état.
+
+Selon le champ de type que vous filtrez, vous pouvez spécifier les critères de filtre pour rechercher une correspondance exacte, une correspondance partielle, une plage de valeurs, etc. Pour obtenir de l'aide sur la configuration des filtres, voir :
+-   [filtres](ui-enter-criteria-filters.md#FilterCriteria) ;
+-   [Saisie de plages de dates](ui-enter-date-ranges.md)
 
 ## <a name="previewing-a-report"></a>Affichage de l'aperçu d'un état
 Sélectionnez **Aperçu** pour visualiser l'état dans le navigateur Internet. Pointez une zone de l'état pour afficher la barre de menu.  
@@ -57,14 +80,6 @@ Vous pouvez planifier un état lorsque vous l'ouvrez. Vous devez sélectionner *
 
 ## <a name="PrintReport"></a>Impression d'un état
 Vous pouvez imprimer un état à l'aide du bouton **Imprimer** de la page d'options qui s'affiche lorsque vous ouvrez l'état ou dans la barre de menu dans l'aperçu.
-
-## <a name="using-saved-settings"></a>Utilisation des paramètres enregistrés
-Un état peut inclure une ou plusieurs écritures dans la zone **Paramètres enregistrés**. Les *Paramètres enregistrés* sont fondamentalement un groupe d'options et de filtres prédéfini que vous pouvez appliquer à l'état avant d'en afficher un aperçu ou de l'envoyer vers un fichier. Le fait d'utiliser les paramètres enregistrés est une façon rapide et fiable de générer de façon cohérente des états qui contiennent les données adéquates.
-
-L'écriture de paramètres enregistrés appelée **Options et filtres récemment utilisés** est toujours disponible. Cette écriture permet de faire en sorte que l'état utilise les options et les filtres qui ont été utilisés la dernière fois que vous l'avez regardé.
-
->[!NOTE]
->En tant qu'administrateur, vous pouvez créer et gérer les paramètres enregistrés pour les états pour tous les utilisateurs. Pour plus d'informations, voir [Gestion des paramètres enregistrés dans les états](reports-saving-reusing-settings.md).
 
 ## <a name="changing-the-layout-and-look-of-a-report"></a>Modification de la présentation et de l'apparence d'un état
 Une présentation d'état contrôle les éléments affichés sur un état, leur agencement et leur mise en forme. Si vous souhaitez changer de présentation, voir [Modification de la présentation actuellement utilisée sur un rapport](ui-how-change-layout-currently-used-report.md). Ou, si vous souhaitez personnaliser votre propre présentation d'état, voir [Créer et modifier une présentation de rapport personnalisée](ui-how-create-custom-report-layout.md).

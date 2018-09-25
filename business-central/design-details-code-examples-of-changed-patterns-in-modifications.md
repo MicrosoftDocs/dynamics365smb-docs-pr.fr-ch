@@ -1,6 +1,6 @@
 ---
-title: "Détails de conception - Clôture de la demande et de l'approvisionnement | Microsoft Docs"
-description: "Lorsque les procédures d'équilibre d'approvisionnement ont été réalisées, il existe trois situations de fin possibles."
+title: "Détails de conception - Exemples de code de motifs modifiés dans les modifications | Microsoft Docs"
+description: "Exemples de code montrant les motifs modifiés dans la modification et la migration de code de dimension pour cinq scénarios différents. Elle compare les exemples de code dans les versions antérieures aux exemples de code dans Business Central."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,41 +10,190 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 08/13/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2be48e11d562f469ab9ef5ac156fdeb46ea51107
+ms.sourcegitcommit: ded6baf8247bfbc34063f5595d42ebaf6bb300d8
+ms.openlocfilehash: a20a40e0f2d7198ce8af71298093893f16df5299
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/13/2018
 
 ---
-# <a name="design-details-closing-demand-and-supply"></a>Détails de conception : clôture de la demande et de l'approvisionnement
-Lorsque les procédures d'équilibre d'approvisionnement ont été réalisées, il existe trois situations de fin possibles :  
+# <a name="design-details-code-examples-of-changed-patterns-in-modifications"></a>Détails de conception : exemples de code de motifs modifiés dans les modifications
+Cette rubrique fournit des exemples de code pour montrer les motifs modifiés dans la modification et la migration de code de dimension pour cinq scénarios différents. Elle compare les exemples de code dans les versions antérieures aux exemples de code dans Business Central.
 
--   La quantité et la date requises des événements de demande ont été respectées et leur planification peut être clôturée. L'événement d'approvisionnement est encore ouvert et peut couvrir la demande suivante, donc la procédure de contrepartie peut recommencer avec l'événement d'approvisionnement actif et la demande suivante.  
+## <a name="posting-a-journal-line"></a>Validation d'une ligne feuille  
+Les modifications principales sont répertoriées comme suit :  
+  
+- Les tables analytiques ligne feuille sont supprimées.  
+  
+- Un ID d'ensemble de dimensions est créé dans le champ **ID ensemble de dimensions**.  
+  
+**Versions antérieures**  
+  
+```  
+ResJnlLine."Qty. per Unit of Measure" :=   
+  SalesLine."Qty. per Unit of Measure";  
+  
+TempJnlLineDim.DELETEALL;  
+TempDocDim.RESET;  
+TempDocDim.SETRANGE(  
+  "Table ID",DATABASE::"Sales Line");  
+TempDocDim.SETRANGE(  
+  "Line No.",SalesLine."Line No.");  
+DimMgt.CopyDocDimToJnlLineDim(  
+  TempDocDim,TempJnlLineDim);  
+ResJnlPostLine.RunWithCheck(  
+  ResJnlLine,TempJnlLineDim);  
+  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+  
+ResJnlLine."Qty. per Unit of Measure" :=   
+  SalesLine."Qty. per Unit of Measure";  
+  
+ResJnlLine."Dimension Set ID" :=   
+  SalesLine." Dimension Set ID ";  
+ResJnlPostLine.Run(ResJnlLine);  
+  
+```  
+  
+## <a name="posting-a-document"></a>Validation d'un document  
+ Lorsque vous validez un document dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous ne devez plus copier les dimensions du document.  
+  
+ **Versions antérieures**  
+  
+```  
+DimMgt.MoveOneDocDimToPostedDocDim(  
+  TempDocDim,DATABASE::"Sales Line",  
+  "Document Type",  
+  "No.",  
+  SalesShptLine."Line No.",  
+  DATABASE::"Sales Shipment Line",  
+  SalesShptHeader."No.");  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+SalesShptLine."Dimension Set ID”  
+  := SalesLine."Dimension Set ID”  
+```  
+  
+## <a name="editing-dimensions-from-a-document"></a>Modification des axes analytiques d'un document  
+ Vous pouvez modifier les dimensions d'un document. Par exemple, vous pouvez modifier une ligne commande vente.  
+  
+ **Versions antérieures**  
+  
+```  
+Table 37, function ShowDimensions:  
+TESTFIELD("Document No.");  
+TESTFIELD("Line No.");  
+DocDim.SETRANGE("Table ID",DATABASE::"Sales Line");  
+DocDim.SETRANGE("Document Type","Document Type");  
+DocDim.SETRANGE("Document No.","Document No.");  
+DocDim.SETRANGE("Line No.","Line No.");  
+DocDimensions.SETTABLEVIEW(DocDim);  
+DocDimensions.RUNMODAL;  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+Table 37, function ShowDimensions:  
+"Dimension ID" :=   
+  DimSetEntry.EditDimensionSet(  
+    "Dimension ID");  
+```  
+  
+## <a name="showing-dimensions-from-posted-entries"></a>Affichage des axes analytiques des écritures validées  
+ Vous pouvez afficher les dimensions à partir des écritures validées, comme les lignes d'expédition vente.  
+  
+ **Versions antérieures**  
+  
+```  
+Table 111, function ShowDimensions:  
+TESTFIELD("No.");  
+TESTFIELD("Line No.");  
+PostedDocDim.SETRANGE(  
+  "Table ID",DATABASE::"Sales Shipment Line");  
+PostedDocDim.SETRANGE(  
+  "Document No.","Document No.");  
+PostedDocDim.SETRANGE("Line No.","Line No.");  
+PostedDocDimensions.SETTABLEVIEW(PostedDocDim);  
+PostedDocDimensions.RUNMODAL;  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+Table 111, function ShowDimensions:  
+DimSetEntry.ShowDimensionSet(  
+  "Dimension ID");  
+```  
+  
+## <a name="getting-default-dimensions-for-a-document"></a>Affichage des affectations analytiques pour un document  
+ Vous pouvez obtenir des dimensions par défaut, comme une ligne commande vente.  
+  
+ **Versions antérieures**  
+  
+```  
+Table 37, function CreateDim()  
+SourceCodeSetup.GET;  
+TableID[1] := Type1;  
+No[1] := No1;  
+TableID[2] := Type2;  
+No[2] := No2;  
+TableID[3] := Type3;  
+No[3] := No3;  
+"Shortcut Dimension 1 Code" := '';  
+"Shortcut Dimension 2 Code" := '';  
+DimMgt.GetPreviousDocDefaultDim(  
+  DATABASE::"Sales Header","Document Type",  
+  "Document No.",0,  
+  DATABASE::Customer,  
+  "Shortcut Dimension 1 Code",  
+  "Shortcut Dimension 2 Code");  
+DimMgt.GetDefaultDim(  
+  TableID,No,SourceCodeSetup.Sales,  
+  "Shortcut Dimension 1 Code",  
+  "Shortcut Dimension 2 Code");  
+IF "Line No." <> 0 THEN  
+  DimMgt.UpdateDocDefaultDim(  
+    DATABASE::"Sales Line","Document Type",  
+    "Document No.","Line No.",  
+    "Shortcut Dimension 1 Code",  
+    "Shortcut Dimension 2 Code");  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+Table 37, function CreateDim()  
+SourceCodeSetup.GET;  
+TableID[1] := Type1;  
+No[1] := No1;  
+TableID[2] := Type2;  
+No[2] := No2;  
+TableID[3] := Type3;  
+No[3] := No3;  
+"Shortcut Dimension 1 Code" := '';  
+"Shortcut Dimension 2 Code" := '';  
+GetSalesHeader;  
+"Dimension ID" :=  
+  DimMgt.GetDefaultDimID(  
+    TableID,No,SourceCodeSetup.Sales,  
+    "Shortcut Dimension 1 Code",  
+    "Shortcut Dimension 2 Code",  
+    SalesHeader."Dimension ID",  
+    DATABASE::"Sales Header");
 
--   La commande approvisionnement ne peut pas être modifiée pour couvrir l'ensemble de la demande. L'événement demande est encore ouvert, avec une certaine quantité non couverte qui peut être couverte par l'événement suivant d'approvisionnement. Ainsi, l'événement d'approvisionnement actuel est fermé, donc l'acte d'équilibrage peut recommencer avec la demande actuelle et l'événement d'approvisionnement suivant.  
-
--   L'ensemble de la demande a été couvert ; il n'existe aucune demande suivante (ou il n'y a pas de demande du tout). S'il y a un approvisionnement excédentaire, il peut être diminué (ou annulé), puis être clôturé. Il est possible que des événements d'approvisionnement supplémentaires existent plus loin dans la chaîne, et ils doivent également être annulés.  
-
- Enfin, le système de planification crée un lien de chaînage entre l'approvisionnement et la demande.  
-
-## <a name="creating-the-planning-line-suggested-action"></a>Création de la ligne planning (action suggérée)  
- Si une action quelconque (Nouveau, Changer qté, Replanifier, Replanifier et changer qté ou Annuler) est suggérée pour modifier la commande approvisionnement, le système de planification crée une ligne planning dans la feuille planning. En raison du chaînage, la ligne planification est créée non seulement lorsque l'événement d'approvisionnement est clôturé, mais également si l'événement de demande est clôturé, même si l'événement d'approvisionnement est encore ouvert et qu'il peut être soumis à des modifications supplémentaires lorsque l'événement de demande suivant est traité. Cela signifie qu'après sa création, la ligne de planification peut être modifiée à nouveau.  
-
- Pour réduire l'accès aux bases de données lors du traitement des ordres de fabrication, la ligne de planification peut être maintenue dans trois niveaux, tout en visant à effectuer le niveau de maintenance le moins exigeant :  
-
--   Créer uniquement la ligne planning avec la date d'échéance et la quantité actuelles mais sans gamme et composants.  
-
--   Inclure la gamme : la gamme planifiée est présentée avec le calcul des dates et heures de début et de fin. Ceci est exigeant en termes d'accès aux bases de données. Pour déterminer les dates de fin et d'échéance, il peut être nécessaire de calculer ceci même si l'événement d'approvisionnement n'a pas été clôturé (dans le cas d'une planification en aval).  
-
--   Inclure l'éclatement de la nomenclature : ceci peut attendre juste avant que l'événement approvisionnement soit clôturé.  
-
- Cela conclut les descriptions de la manière dont la demande et l'approvisionnement sont chargés, priorisés et équilibrés par le système de planification. En association avec cette activité de planification des approvisionnements, le système doit veiller à ce que le niveau de stock requis de chaque article soit maintenu en fonction de ses méthodes de réapprovisionnement.  
+```  
 
 ## <a name="see-also"></a>Voir aussi  
- [Détails de conception : équilibrage de la demande et de l'approvisionnement](design-details-balancing-demand-and-supply.md)   
- [Détails de conception : concepts centraux du système de planification](design-details-central-concepts-of-the-planning-system.md)   
- [Détails de conception : planification de l'approvisionnement](design-details-supply-planning.md)
-
+[Détails de conception : écritures d'ensemble de dimensions](design-details-dimension-set-entries.md)   
+[Détails de conception : structure de la table](design-details-table-structure.md)   
+[Détails de conception : Codeunit 408 Gestion des axes analytiques](design-details-codeunit-408-dimension-management.md)

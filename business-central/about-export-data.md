@@ -1,8 +1,6 @@
 ---
 title: "Exporter vos données Business Central vers Excel| Microsoft Docs"
 description: "Vous pouvez exporter vos états financiers et vos données de veille économique de Business Central vers Excel, ou ouvrir vos données dans Excel."
-services: project-madeira
-documentationcenter: 
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.date: 06/02/2017
+ms.date: 08/13/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 3bd7442582fe13809ea04d1f298b7aecbf9b45ed
+ms.sourcegitcommit: ded6baf8247bfbc34063f5595d42ebaf6bb300d8
+ms.openlocfilehash: 0407e0c34578e6487b37f4254f6a600fe99e967a
 ms.contentlocale: fr-ch
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Exportation de vos données métier vers Excel
@@ -26,6 +24,9 @@ Si vous souhaitez travailler avec vos données à partir de [!INCLUDE[d365fin](i
 Vous pouvez ouvrir des données dans Excel à partir de n'importe quelle feuille ou liste. Il vous suffit d'ouvrir la page que vous souhaitez, puis de cliquer sur **Ouvrir dans Excel**. Par exemple, ouvrez la liste des clients (recherchez **Clients**), puis sélectionnez **Ouvrir dans Excel**. Votre navigateur vous invite alors à ouvrir ou à enregistrer le classeur Excel généré.  
 
 Chaque liste inclut un certain nombre de colonnes, et l'exportation vers Excel inclut toutes les colonnes qui sont dans votre vue actuelle. Si vous souhaitez ajouter ou supprimer des colonnes avant d'ouvrir la liste dans Excel, il vous suffit simplement d'ouvrir le menu contextuel de n'importe quelle colonne et d'indiquer ensuite les colonnes que vous souhaitez visualiser. Cette liste de colonnes est différente de la plupart des listes, et elle reflète la structure de la base de données où vos données sont enregistrées. Si vous ne connaissez pas le type de données d'une certaine colonne, vous pouvez l'ajouter à votre affichage, puis décider de la supprimer à nouveau.  
+
+### <a name="edit-data-in-excel"></a>Modifier des données dans Excel
+Votre expérience [!INCLUDE[d365fin](includes/d365fin_md.md)] inclut un complément pour Excel vous permettant de modifier des données dans Excel. Pour plus d'informations, voir [Analyse des états financiers dans Microsoft Excel](finance-analyze-excel.md).  
 
 ## <a name="exporting-data-to-other-finance-systems"></a>Exportation de données vers d'autres systèmes financiers
 Si vous décidez d'annuler votre abonnement à [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez exporter vos données vers Excel et les transférer ensuite dans votre système financier suivant.  
@@ -65,6 +66,7 @@ Nous recommandons également d'exporter des données à partir des pages suivant
 ## <a name="see-also"></a>Voir aussi
 [Annuler pour votre abonnement [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-cancel.md)  
 [Importation des données métier à partir d'autres systèmes financiers](across-import-data-configuration-packages.md)  
+[Analyse des états financiers dans Microsoft Excel](finance-analyze-excel.md)  
 [Finances](finance.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

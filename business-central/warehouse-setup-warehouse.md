@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 08/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4d57e87363830c521a90f00b552146dd09654f68
+ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
+ms.openlocfilehash: caa494729c4408334fadd50903f0d17df330409d
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/06/2018
 
 ---
 # <a name="setting-up-warehouse-management"></a>Configuration de la gestion des entrepôts
@@ -40,8 +40,8 @@ La stratégie de distribution d'une société se reflète dans la configuration 
 |Définir la date et le mode d'inventaire des articles dans les entrepôts à des fins de maintenance ou de génération d'états financiers.|[Inventaire, ajustement ou reclassement du stock](inventory-how-count-adjust-reclassify.md)|
 |Permettez aux magasiniers de diviser une unité plus grande en unités de plus petite taille afin de répondre aux besoins des documents origine.|[Activer la rupture de charge automatique avec prélèvement et rangement dirigé](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)|  
 |Configurer l'entrepôt de manière à ce qu'il suggère automatiquement les articles à prélever qui expirent en premier.|[Activer le prélèvement par FEFO](warehouse-picking-by-fefo.md)|
-|Intégrez les lecteurs de code barres à votre solution de gestion d'entrepôt.|[Utilisation des systèmes de saisie automatisée (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)|  
-|Obtenir des conseils relatifs à la réorganisation des magasins, emplacements ou zones pour générer des activités entrepôt plus efficaces.|[Restructurer les entrepôts](warehouse-how-to-restructure-warehouses.md)|  
+|Obtenir des conseils relatifs à la réorganisation des magasins, emplacements ou zones pour générer des activités entrepôt plus efficaces.|[Restructurer les entrepôts](warehouse-how-to-restructure-warehouses.md)|
+<!-- |Intégrez les lecteurs de code barres à votre solution de gestion d'entrepôt.|[Utilisation des systèmes de saisie automatisée (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)| -->  
 
 ## <a name="see-also"></a>Voir aussi  
 [Gestion d’entrepôt](warehouse-manage-warehouse.md)  
