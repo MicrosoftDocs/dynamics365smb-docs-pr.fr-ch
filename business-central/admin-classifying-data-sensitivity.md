@@ -4,7 +4,7 @@ description: "Vous devez spécifier le type de données que vous stockez sur les
 author: bholtorf
 ms.author: bholtorf
 ms.custom: na
-ms.date: 03/09/2018
+ms.date: 10/01/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
