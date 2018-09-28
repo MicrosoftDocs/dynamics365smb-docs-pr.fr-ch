@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 11/23/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 12fa67c9e0c161d99faab376c440f6299fa8aa52
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9628976ace37f672f86e23b365e49a7ce2f49aea
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-item-application"></a><span data-ttu-id="66fdd-103">Détails de conception : lettrage article</span><span class="sxs-lookup"><span data-stu-id="66fdd-103">Design Details: Item Application</span></span>
@@ -22,7 +22,7 @@ ms.lasthandoff: 03/22/2018
 
 <span data-ttu-id="66fdd-106">De même, un lettrage article est effectué pour lier le destinataire de coût à sa source de coût pour assurer le transfert de coûts en fonction de la méthode d'évaluation du stock.</span><span class="sxs-lookup"><span data-stu-id="66fdd-106">In addition, an item application is made to link the cost recipient to its cost source to provide cost forwarding according to the costing method.</span></span> <span data-ttu-id="66fdd-107">Pour plus d'informations, [Détails de conception : modes évaluation stock](design-details-costing-methods.md).</span><span class="sxs-lookup"><span data-stu-id="66fdd-107">For more information, see [Design Details: Costing Methods](design-details-costing-methods.md).</span></span>  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="66fdd-108"> effectue deux types de lettrage article.</span><span class="sxs-lookup"><span data-stu-id="66fdd-108"> makes two types of item application.</span></span>  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="66fdd-108">effectue deux types de lettrage article.</span><span class="sxs-lookup"><span data-stu-id="66fdd-108"> makes two types of item application.</span></span>  
 
 |<span data-ttu-id="66fdd-109">Type de lettrage</span><span class="sxs-lookup"><span data-stu-id="66fdd-109">Application type</span></span>|<span data-ttu-id="66fdd-110">Désignation</span><span class="sxs-lookup"><span data-stu-id="66fdd-110">Description</span></span>|  
 |----------------------|---------------------------------------|  
@@ -237,7 +237,7 @@ ms.lasthandoff: 03/22/2018
 * <span data-ttu-id="66fdd-524">Vous souhaitez annuler l'application créée automatiquement lors de la validation, en fonction du mode d'évaluation de l'article.</span><span class="sxs-lookup"><span data-stu-id="66fdd-524">You want to overrule the application created automatically when posting, according to the item’s costing method.</span></span>  
 * <span data-ttu-id="66fdd-525">Vous devez retourner un article sur lequel une vente a déjà été appliquée manuellement, sans utiliser la fonction **Afficher des lignes document validées à contrepasser** et vous devez donc annuler l'application.</span><span class="sxs-lookup"><span data-stu-id="66fdd-525">You have to return an item to which a sale has already been manually applied, without using the **Get Posted Document Lines to Reverse** function, and you must therefore undo the application.</span></span>  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="66fdd-526"> propose une fonction pour analyser et corriger des lettrages article.</span><span class="sxs-lookup"><span data-stu-id="66fdd-526"> offers a feature for analyzing and correcting item applications.</span></span> <span data-ttu-id="66fdd-527">Cela s'effectue dans la fenêtre **Feuille lettrage**.</span><span class="sxs-lookup"><span data-stu-id="66fdd-527">This work is performed in the **Application Worksheet** window.</span></span>  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="66fdd-526">propose une fonction pour analyser et corriger des lettrages article.</span><span class="sxs-lookup"><span data-stu-id="66fdd-526"> offers a feature for analyzing and correcting item applications.</span></span> <span data-ttu-id="66fdd-527">Cela s'effectue dans la fenêtre **Feuille lettrage**.</span><span class="sxs-lookup"><span data-stu-id="66fdd-527">This work is performed in the **Application Worksheet** window.</span></span>  
 
 ## <a name="see-also"></a><span data-ttu-id="66fdd-528">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="66fdd-528">See Also</span></span>  
 [<span data-ttu-id="66fdd-529">Détails de conception : problème de lettrage article connu</span><span class="sxs-lookup"><span data-stu-id="66fdd-529">Design Details: Known Item Application Issue</span></span>](design-details-inventory-zero-level-open-item-ledger-entries.md)  

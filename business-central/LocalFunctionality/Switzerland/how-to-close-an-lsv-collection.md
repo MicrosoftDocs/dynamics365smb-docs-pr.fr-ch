@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4772aa7177e1c0bea6efbb3dc2cbbadf223f954d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d340be0bcf21a45a6bc8610f40a7805700885561
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="close-an-lsv-collection"></a><span data-ttu-id="8b8ad-104">Fermer prélèvement LSV</span><span class="sxs-lookup"><span data-stu-id="8b8ad-104">Close an LSV Collection</span></span>

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7fd4ae7c8b4e2edd9d46a0f306bac4a182a52f83
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d9c41de9ed0ec747954018ab571bbe91d83bc0af
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="print-swiss-vat-statements-older-version"></a><span data-ttu-id="94aa5-104">Imprimer les relevés de TVA suisse (ancienne version)</span><span class="sxs-lookup"><span data-stu-id="94aa5-104">Print Swiss VAT Statements (older version)</span></span>

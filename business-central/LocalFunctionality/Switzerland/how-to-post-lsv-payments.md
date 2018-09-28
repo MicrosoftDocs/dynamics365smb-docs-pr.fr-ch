@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 26fa934e00b380b7416417f2a1d37e7bde4a5098
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 4caac9d6afeb55aa62715b8c4a2719cc32074c72
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="post-lsv-payments"></a><span data-ttu-id="4c264-103">Valider les paiements LSV+</span><span class="sxs-lookup"><span data-stu-id="4c264-103">Post LSV+ Payments</span></span>

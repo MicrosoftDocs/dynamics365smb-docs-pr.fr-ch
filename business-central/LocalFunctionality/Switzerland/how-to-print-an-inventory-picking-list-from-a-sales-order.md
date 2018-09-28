@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 048a61e4736f368027a3c1f59199b3c543b5d224
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 755996e96561891388e226fbc4138f26c7b8f212
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="print-an-inventory-picking-list-from-a-sales-order"></a><span data-ttu-id="72ae0-103">Imprimer la liste des prélèvements de stock d'une commande vente</span><span class="sxs-lookup"><span data-stu-id="72ae0-103">Print an Inventory Picking List from a Sales Order</span></span>

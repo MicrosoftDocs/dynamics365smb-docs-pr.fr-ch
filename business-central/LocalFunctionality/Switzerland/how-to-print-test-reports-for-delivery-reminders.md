@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d589c05f4b9805e9c8459d2da6d9099e40186aec
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e30d7e13fec941ba5272d0698e01a14a39693808
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="print-test-reports-for-delivery-reminders"></a><span data-ttu-id="1284e-103">Imprimer des rapports de test pour les relances livraison</span><span class="sxs-lookup"><span data-stu-id="1284e-103">Print Test Reports for Delivery Reminders</span></span>

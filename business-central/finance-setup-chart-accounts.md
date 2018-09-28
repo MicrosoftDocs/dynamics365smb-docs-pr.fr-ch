@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: COA, cha of acc
-ms.date: 04/16/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: 9f84af8bb4ac3be9132ab621906c463cfc9b91ff
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fd943924120667256809fac0300be1c30cfeb493
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a><span data-ttu-id="f052e-103">Configuration ou modification du plan comptable</span><span class="sxs-lookup"><span data-stu-id="f052e-103">Setting Up or Changing the Chart of Accounts</span></span>
-<span data-ttu-id="f052e-104">Le plan comptable affiche les comptes généraux qui stockent vos données financières.</span><span class="sxs-lookup"><span data-stu-id="f052e-104">The chart of accounts shows the ledger accounts that store your financial data.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="f052e-105"> inclut un plan comptable standard prêt à prendre en charge votre société.</span><span class="sxs-lookup"><span data-stu-id="f052e-105"> includes a standard chart of accounts that is ready to support your business.</span></span>
+<span data-ttu-id="f052e-104">Le plan comptable affiche les comptes généraux qui stockent vos données financières.</span><span class="sxs-lookup"><span data-stu-id="f052e-104">The chart of accounts shows the ledger accounts that store your financial data.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="f052e-105">inclut un plan comptable standard prêt à prendre en charge votre société.</span><span class="sxs-lookup"><span data-stu-id="f052e-105"> includes a standard chart of accounts that is ready to support your business.</span></span>
 <span data-ttu-id="f052e-106">Cependant, vous pouvez modifier les comptes par défaut, et vous pouvez ajouter de nouveaux comptes.</span><span class="sxs-lookup"><span data-stu-id="f052e-106">However, you can change the default accounts, and you can add new accounts.</span></span>  
 
 ## <a name="adding-or-changing-accounts"></a><span data-ttu-id="f052e-107">Ajout ou modification de comptes</span><span class="sxs-lookup"><span data-stu-id="f052e-107">Adding or Changing Accounts</span></span>
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/17/2018
 * <span data-ttu-id="f052e-112">Le champ **Autoriser suppr. cpte gén. av.** doit être défini dans la fenêtre **Paramètres comptabilité**, et le compte ne doit pas comporter d'écritures comptables à cette date ou après celle-ci.</span><span class="sxs-lookup"><span data-stu-id="f052e-112">The **Allow G/L Acc. Deletion Before** field must be set in the **General Ledger Setup** window, and the account must not have ledger entries on or after that date.</span></span>  
 * <span data-ttu-id="f052e-113">Si le champ **Vérifier activité cpte général** de la fenêtre **Paramètres comptabilité** est sélectionné, le compte ne doit pas être utilisé dans les groupes comptabilisation ni dans une configuration de la validation.</span><span class="sxs-lookup"><span data-stu-id="f052e-113">If the **Check G/L Account Usage** field in the **General Ledger Setup** window is selected, then the account must not be used in any posting groups or posting setup.</span></span>  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="f052e-114"> vous empêchera de supprimer un compte général qui stocke les données nécessaires au plan comptable.</span><span class="sxs-lookup"><span data-stu-id="f052e-114"> will prevent you from deleting a general ledger account that stores data that is needed in the chart of accounts.</span></span>  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="f052e-114">vous empêchera de supprimer un compte général qui stocke les données nécessaires au plan comptable.</span><span class="sxs-lookup"><span data-stu-id="f052e-114"> will prevent you from deleting a general ledger account that stores data that is needed in the chart of accounts.</span></span>  
 
 ## <a name="see-also"></a><span data-ttu-id="f052e-115">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="f052e-115">See Also</span></span>
 [<span data-ttu-id="f052e-116">Les écritures comptables et le plan comptable</span><span class="sxs-lookup"><span data-stu-id="f052e-116">The General Ledger and the Chart of Accounts</span></span>](finance-general-ledger.md)  

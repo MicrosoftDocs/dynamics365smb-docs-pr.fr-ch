@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: microsoft partner
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: e47877a6cf6e7d9b976b8624786e725b87b0ee1f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: cc628a8f9c4a9727b359877ebe54eef25c947138
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="become-a-reseller-of-included365finlongincludesd365finlongmdmd"></a><span data-ttu-id="b01f1-103">Devenir revendeur [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]</span><span class="sxs-lookup"><span data-stu-id="b01f1-103">Become a Reseller of [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]</span></span>
@@ -24,7 +24,7 @@ ms.lasthandoff: 05/17/2018
 
 <span data-ttu-id="b01f1-105">Si vous vous spécialisez dans les solutions Cloud, Office 365, SharePoint, les solutions du secteur, d'analyse, ERP, CRM, les logiciels de gestion et/ou les logiciels/services d'optimisation des processus entreprise, Business Central représente une nouvelle opportunité.</span><span class="sxs-lookup"><span data-stu-id="b01f1-105">If you specialize in Cloud solutions, Office 365, SharePoint, industry solutions, analytics, ERP, CRM, accounting software, and/or business process optimization software/services, Business Central is a new opportunity.</span></span>   
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="b01f1-106"> peut vous permettre de différencier et d'approfondir les relations client en vous donnant la capacité de fournir une solution de bout en bout de gestion d'entreprise qui connecte les utilisateurs et les processus comme jamais, intégrée dans les outils familiers Microsoft Office que les PME utilisent chaque jour.</span><span class="sxs-lookup"><span data-stu-id="b01f1-106"> can help you differentiate and deepen customer relationships by giving you the capability to deliver an end-to-end business management solution that’s connecting people and processes like never before, embedded within familiar Microsoft Office tools that small and medium businesses use every day.</span></span>  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="b01f1-106">peut vous permettre de différencier et d'approfondir les relations client en vous donnant la capacité de fournir une solution de bout en bout de gestion d'entreprise qui connecte les utilisateurs et les processus comme jamais, intégrée dans les outils familiers Microsoft Office que les PME utilisent chaque jour.</span><span class="sxs-lookup"><span data-stu-id="b01f1-106"> can help you differentiate and deepen customer relationships by giving you the capability to deliver an end-to-end business management solution that’s connecting people and processes like never before, embedded within familiar Microsoft Office tools that small and medium businesses use every day.</span></span>  
 
 ## <a name="get-started"></a><span data-ttu-id="b01f1-107">Démarrer</span><span class="sxs-lookup"><span data-stu-id="b01f1-107">Get started</span></span>
 <span data-ttu-id="b01f1-108">Souscrivez à un abonnement d'aperçu [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'adresse [https://microsoft.com/dynamics365/financials](https://www.microsoft.com/en-us/dynamics365/financials)/</span><span class="sxs-lookup"><span data-stu-id="b01f1-108">Sign up for the [!INCLUDE[d365fin](includes/d365fin_md.md)] Preview at [https://microsoft.com/dynamics365/financials](https://www.microsoft.com/en-us/dynamics365/financials).</span></span>  

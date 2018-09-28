@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a4b9e8d032e95327f1457ec9695df855e175b9a0
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 7b2634ba14ec0429ebc24bcf59f6d9cedeba7754
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="delivery-reminders"></a><span data-ttu-id="f649f-103">relances livraison</span><span class="sxs-lookup"><span data-stu-id="f649f-103">Delivery Reminders</span></span>
@@ -42,7 +42,7 @@ ms.lasthandoff: 03/22/2018
 
 <span data-ttu-id="f649f-128">Vous pouvez également suivre les documents en rapport avec les lignes commande achat et les lignes commande vente.</span><span class="sxs-lookup"><span data-stu-id="f649f-128">You can also track documents in relation to purchase order lines and sales order lines.</span></span>  
 
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)]<span data-ttu-id="f649f-129"> fournit les états suivants :</span><span class="sxs-lookup"><span data-stu-id="f649f-129"> provides the following reports:</span></span>  
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] <span data-ttu-id="f649f-129">fournit les états suivants :</span><span class="sxs-lookup"><span data-stu-id="f649f-129"> provides the following reports:</span></span>  
 
 - <span data-ttu-id="f649f-130">**Relance livraison publiée** - Pour afficher les relances livraison des fournisseurs.</span><span class="sxs-lookup"><span data-stu-id="f649f-130">**Issued Delivery Reminder** - To view the delivery reminders for vendors.</span></span>  
 - <span data-ttu-id="f649f-131">**Relance livraison - Test** - Pour vérifier les relances livraison avant de les valider.</span><span class="sxs-lookup"><span data-stu-id="f649f-131">**Delivery Reminder - Test** - To verify the delivery reminders before you issue them.</span></span>  

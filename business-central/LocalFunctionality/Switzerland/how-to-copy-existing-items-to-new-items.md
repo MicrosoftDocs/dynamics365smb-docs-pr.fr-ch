@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3b0e50c2644058e8248bc49b456aec01db862f82
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0e3d1f31dc6b30d88279fe80449a177bb9e7c7e1
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="copy-existing-items-to-new-items"></a><span data-ttu-id="6d46b-104">Copier des articles existants pour créer de nouveaux articles</span><span class="sxs-lookup"><span data-stu-id="6d46b-104">Copy Existing Items to New Items</span></span>

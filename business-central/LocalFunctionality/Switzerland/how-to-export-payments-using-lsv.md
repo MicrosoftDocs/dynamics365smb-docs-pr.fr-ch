@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 1456847f19b72636cfb95e1e66cca1091959cc07
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 86b500a1bb3ac2c2527f44bdf9e437f121458c62
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="export-payments-using-lsv"></a><span data-ttu-id="75389-104">Exporter des paiements en mode LSV</span><span class="sxs-lookup"><span data-stu-id="75389-104">Export Payments Using LSV</span></span>

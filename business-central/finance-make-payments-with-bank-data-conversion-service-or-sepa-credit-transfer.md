@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 11/17/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 99277cb2daf37fbce4548cf637e8967fa6688dbc
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 1e0c88184d2b453e9eb3d31a2b140fbe9002d849
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="making-payments-with-bank-data-conversion-service-or-sepa-credit-transfer"></a><span data-ttu-id="d7a62-103">Exécution de paiements avec le service de conversion de données bancaires ou un virement SEPA</span><span class="sxs-lookup"><span data-stu-id="d7a62-103">Making Payments with Bank Data Conversion Service or SEPA Credit Transfer</span></span>
-<span data-ttu-id="d7a62-104">Dans la fenêtre **Feuille paiement**, vous pouvez traiter les paiements à vos fournisseurs en exportant un fichier avec les informations de paiement provenant des lignes feuille.</span><span class="sxs-lookup"><span data-stu-id="d7a62-104">In the **Payment Journal** window, you can process payments to your vendors by exporting a file together with the payment information from the journal lines.</span></span> <span data-ttu-id="d7a62-105">Vous pouvez ensuite télécharger le fichier vers votre banque électronique, où sont traités les transferts d'argent associés.</span><span class="sxs-lookup"><span data-stu-id="d7a62-105">You can then upload the file to your electronic bank where the related money transfers are processed.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="d7a62-106"> prend en charge le format de virement SEPA, mais dans votre pays/région, d'autres formats de paiements électroniques peuvent être disponibles.</span><span class="sxs-lookup"><span data-stu-id="d7a62-106"> supports the SEPA Credit Transfer format, but in your country/region, other formats for electronic payments may be available.</span></span>   
+<span data-ttu-id="d7a62-104">Dans la fenêtre **Feuille paiement**, vous pouvez traiter les paiements à vos fournisseurs en exportant un fichier avec les informations de paiement provenant des lignes feuille.</span><span class="sxs-lookup"><span data-stu-id="d7a62-104">In the **Payment Journal** window, you can process payments to your vendors by exporting a file together with the payment information from the journal lines.</span></span> <span data-ttu-id="d7a62-105">Vous pouvez ensuite télécharger le fichier vers votre banque électronique, où sont traités les transferts d'argent associés.</span><span class="sxs-lookup"><span data-stu-id="d7a62-105">You can then upload the file to your electronic bank where the related money transfers are processed.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="d7a62-106">prend en charge le format de virement SEPA, mais dans votre pays/région, d'autres formats de paiements électroniques peuvent être disponibles.</span><span class="sxs-lookup"><span data-stu-id="d7a62-106"> supports the SEPA Credit Transfer format, but in your country/region, other formats for electronic payments may be available.</span></span>   
 
  <span data-ttu-id="d7a62-107">Pour activer les virements SEPA, vous devez d'abord créer un compte bancaire, un fournisseur, et le lot de feuille général sur laquelle la feuille de paiements est basée.</span><span class="sxs-lookup"><span data-stu-id="d7a62-107">To enable SEPA credit transfers, you must first set up a bank account, a vendor, and the general journal batch that the payment journal is based on.</span></span> <span data-ttu-id="d7a62-108">Vous préparez ensuite les paiements aux fournisseurs en renseignant automatiquement la fenêtre **Feuille paiement** avec les paiements dus aux dates comptabilisation spécifiées.</span><span class="sxs-lookup"><span data-stu-id="d7a62-108">You then prepare payments to vendors by automatically filling the **Payment Journal** window with due payments with specified posting dates.</span></span>  
 

@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4b2879f3b913ddc554cbbbe49fedd3bc1434b0ad
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 355a4578b5260fd3dc72ed065cb7b795768e07ae
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="swiss-purchase-documents-and-sales-documents"></a><span data-ttu-id="a7452-103">Documents vente et Documents achat, Suisse</span><span class="sxs-lookup"><span data-stu-id="a7452-103">Swiss Purchase Documents and Sales Documents</span></span>
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)]<span data-ttu-id="a7452-104"> comprend des améliorations suisses propres aux documents d'achat et de vente.</span><span class="sxs-lookup"><span data-stu-id="a7452-104"> includes Swiss enhancements to purchase documents and sales documents.</span></span> <span data-ttu-id="a7452-105">Notamment :</span><span class="sxs-lookup"><span data-stu-id="a7452-105">This includes the following:</span></span>  
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] <span data-ttu-id="a7452-104">comprend des améliorations suisses propres aux documents d'achat et de vente.</span><span class="sxs-lookup"><span data-stu-id="a7452-104"> includes Swiss enhancements to purchase documents and sales documents.</span></span> <span data-ttu-id="a7452-105">Notamment :</span><span class="sxs-lookup"><span data-stu-id="a7452-105">This includes the following:</span></span>  
 
 - <span data-ttu-id="a7452-106">Libellés écriture améliorés pour les écritures comptables, écritures comptables client et fournisseur.</span><span class="sxs-lookup"><span data-stu-id="a7452-106">Enhanced posting descriptions for general ledger entries, customer ledger entries, and vendor ledger entries.</span></span> <span data-ttu-id="a7452-107">Pour plus d'informations, voir la table Écriture comptable, la table Écriture comptable client et la table Écriture comptable fournisseur.</span><span class="sxs-lookup"><span data-stu-id="a7452-107">For more information, see the G/L Entry table, the Cust. Ledger Entry table, and the Vendor Ledger Entry table.</span></span>  
 - <span data-ttu-id="a7452-108">Possibilité d'avoir des sous-titres, des sous-totaux et des totaux de début et de fin dans les devis et les commandes vente.</span><span class="sxs-lookup"><span data-stu-id="a7452-108">The ability to have subtitles, subtotals, and begin and end totals in sales quotes and sales orders.</span></span>  

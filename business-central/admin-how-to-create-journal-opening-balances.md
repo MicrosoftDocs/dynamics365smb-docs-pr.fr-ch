@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/06/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fc8e8f34220643b7cd3fd357aea3807641cee911
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 612eb9cfa5c6cd45bf154f4813efa3b349f44841
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-journal-opening-balances"></a><span data-ttu-id="8dbaa-104">Créer des soldes ouverts feuille</span><span class="sxs-lookup"><span data-stu-id="8dbaa-104">Create Journal Opening Balances</span></span>
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="8dbaa-105"> inclut plusieurs traitements par lots qui sont livrés pour aider au transfert des soldes de compte hérité vers une société nouvellement configurée.</span><span class="sxs-lookup"><span data-stu-id="8dbaa-105"> includes several batch jobs that are provided to help in the transfer of legacy account balances to a newly configured company.</span></span> <span data-ttu-id="8dbaa-106">Vous pouvez facilement transférer ces données avec le journal comptes clients, le journal comptes fournisseurs, la feuille article ou la feuille comptabilisation.</span><span class="sxs-lookup"><span data-stu-id="8dbaa-106">You can easily transfer this data with the customer journal, the vendor journal, the item journal, or the G/L journal.</span></span>
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="8dbaa-105">inclut plusieurs traitements par lots qui sont livrés pour aider au transfert des soldes de compte hérité vers une société nouvellement configurée.</span><span class="sxs-lookup"><span data-stu-id="8dbaa-105"> includes several batch jobs that are provided to help in the transfer of legacy account balances to a newly configured company.</span></span> <span data-ttu-id="8dbaa-106">Vous pouvez facilement transférer ces données avec le journal comptes clients, le journal comptes fournisseurs, la feuille article ou la feuille comptabilisation.</span><span class="sxs-lookup"><span data-stu-id="8dbaa-106">You can easily transfer this data with the customer journal, the vendor journal, the item journal, or the G/L journal.</span></span>
 
 <span data-ttu-id="8dbaa-107">La première étape consiste à créer un package configuration incluant les tables de paramétrage pour ces feuilles.</span><span class="sxs-lookup"><span data-stu-id="8dbaa-107">The first step is to create a configuration package that includes the setup tables for those journals.</span></span> <span data-ttu-id="8dbaa-108">La procédure suivante est basée sur l’hypothèse que cette étape est terminée.</span><span class="sxs-lookup"><span data-stu-id="8dbaa-108">The following procedure assumes that this step is completed.</span></span> <span data-ttu-id="8dbaa-109">Pour plus d'informations, voir [Configurer une société](admin-set-up-company-configuration.md).</span><span class="sxs-lookup"><span data-stu-id="8dbaa-109">For more information, see [Set Up Company Configuration](admin-set-up-company-configuration.md).</span></span> <span data-ttu-id="8dbaa-110">Cette procédure explique les étapes suivantes, comme le lettrage du package qui est fourni par un partenaire.</span><span class="sxs-lookup"><span data-stu-id="8dbaa-110">This procedure describes the subsequent steps, which include applying the package that is provided by a partner.</span></span>  
 

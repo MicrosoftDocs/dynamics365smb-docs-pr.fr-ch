@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 202756985abcd8a8d9b218f63a2ced0fa2621bee
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d15b4a8c4031d795a9cbfabd40f82ee7b2931597
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="print-sales-and-purchase-orders-during-batch-posting"></a><span data-ttu-id="9a3da-103">Imprimer les commandes achat et vente lors d'une validation par lots</span><span class="sxs-lookup"><span data-stu-id="9a3da-103">Print Sales and Purchase Orders During Batch Posting</span></span>

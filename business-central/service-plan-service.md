@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, work hours, configure, price, pricing
-ms.date: 08/23/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0ee163532fbc7588e45b0fba76a3c578f129d4fe
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 2d7fd2c9d1387575254a7014c8a6f18c61c568d3
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="planning-services"></a><span data-ttu-id="de506-103">Services de planification</span><span class="sxs-lookup"><span data-stu-id="de506-103">Planning Services</span></span>
 <span data-ttu-id="de506-104">Grâce à [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez configurer les tâches standard qui permettent de répondre aux besoins du service clientèle.</span><span class="sxs-lookup"><span data-stu-id="de506-104">With [!INCLUDE[d365fin](includes/d365fin_md.md)], you can set up the standard tasks that you need to fulfill your customer service requirements.</span></span> <span data-ttu-id="de506-105">Pour cela, vous devez déterminer quels articles et offres de service sont pris en charge par votre organisation de prestation de services, et à quel prix.</span><span class="sxs-lookup"><span data-stu-id="de506-105">To do this, you must determine what service items and offerings your service organization supports, and at what price.</span></span>   
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="de506-106"> fournit également des outils statistiques permettant d'évaluer les performances et d'identifier les points à améliorer.</span><span class="sxs-lookup"><span data-stu-id="de506-106"> also provides some statistics tools that you can use to determine how well things are going, and identify areas where you can improve.</span></span>
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="de506-106">fournit également des outils statistiques permettant d'évaluer les performances et d'identifier les points à améliorer.</span><span class="sxs-lookup"><span data-stu-id="de506-106"> also provides some statistics tools that you can use to determine how well things are going, and identify areas where you can improve.</span></span>
   
 <span data-ttu-id="de506-107">Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.</span><span class="sxs-lookup"><span data-stu-id="de506-107">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>   
   

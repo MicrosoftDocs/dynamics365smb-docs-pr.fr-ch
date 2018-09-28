@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contact, prospect, client
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 6cc658e5031db7bf227d2839120e7bfddcb32037
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 156a1265e8a10138b44535945aa75319680d280a
 ms.contentlocale: fr-ch
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="managing-relationships"></a><span data-ttu-id="fd59c-103">Gestion des relations</span><span class="sxs-lookup"><span data-stu-id="fd59c-103">Managing Relationships</span></span>
 <span data-ttu-id="fd59c-104">Les fonctionnalités de gestion des relations de [!INCLUDE[d365fin](includes/d365fin_md.md)] vous aident à gérer et prendre en charge vos efforts de vente.</span><span class="sxs-lookup"><span data-stu-id="fd59c-104">The relationship management features of [!INCLUDE[d365fin](includes/d365fin_md.md)] help you manage and support your sales efforts.</span></span> <span data-ttu-id="fd59c-105">Grâce à elles, vous avez accès à des informations complètes et pertinentes qui vous permettent de focaliser vos interactions sur les segments client/contact favoris.</span><span class="sxs-lookup"><span data-stu-id="fd59c-105">With these features, you have access to complete and accurate information so you can focus your interactions on preferred customer/contact segments.</span></span>
 
-<span data-ttu-id="fd59c-106">Les pratiques recommandées en matière de vente et de marketing reposent toutes sur la prise de décisions appropriées au bon moment.</span><span class="sxs-lookup"><span data-stu-id="fd59c-106">Good sales and marketing practices are all about how to make the best decisions at the right time.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="fd59c-107"> fournit une vue d'ensemble précise et opportune de vos informations de contact afin d'offrir des services à vos prospects de manière plus efficace et d'accroître la satisfaction de la clientèle.</span><span class="sxs-lookup"><span data-stu-id="fd59c-107"> provides a precise and timely overview of your contact information so that you can serve your prospective customers more efficiently and increase customer satisfaction.</span></span>
+<span data-ttu-id="fd59c-106">Les pratiques recommandées en matière de vente et de marketing reposent toutes sur la prise de décisions appropriées au bon moment.</span><span class="sxs-lookup"><span data-stu-id="fd59c-106">Good sales and marketing practices are all about how to make the best decisions at the right time.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="fd59c-107">fournit une vue d'ensemble précise et opportune de vos informations de contact afin d'offrir des services à vos prospects de manière plus efficace et d'accroître la satisfaction de la clientèle.</span><span class="sxs-lookup"><span data-stu-id="fd59c-107"> provides a precise and timely overview of your contact information so that you can serve your prospective customers more efficiently and increase customer satisfaction.</span></span>
 
 <span data-ttu-id="fd59c-108">Pour démarrer, reportez-vous aux rubriques suivantes :</span><span class="sxs-lookup"><span data-stu-id="fd59c-108">To get started, see the following topics:</span></span>
 

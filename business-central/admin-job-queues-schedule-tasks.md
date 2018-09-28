@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/01/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: fae1b2937a3c06fc947dd3dbec529826322d035c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8f274fe153cb93c31148269aae994218bd0da497
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a><span data-ttu-id="85cf8-105">Utiliser des files d'attente des travaux pour planifier des tâches</span><span class="sxs-lookup"><span data-stu-id="85cf8-105">Use Job Queues to Schedule Tasks</span></span>
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/22/2018
 
 <span data-ttu-id="85cf8-115">Vous pouvez éventuellement définir un filtre dans le champ **Filtre catégorie de la file d'attente des travaux**.</span><span class="sxs-lookup"><span data-stu-id="85cf8-115">Optionally, you can set a filter in the **Job Queue Category Filter** field.</span></span> <span data-ttu-id="85cf8-116">Les catégories de file d'attente des travaux peuvent être utilisées pour regrouper les projets de la liste.</span><span class="sxs-lookup"><span data-stu-id="85cf8-116">Job queue categories can be used to group jobs in the list.</span></span>
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="85cf8-117"> exécute automatiquement les projets selon le planning spécifié pour chaque écriture file d'attente des travaux.</span><span class="sxs-lookup"><span data-stu-id="85cf8-117"> automatically runs the jobs according to the specified schedules for each job queue entry.</span></span> <span data-ttu-id="85cf8-118">Vous pouvez également démarrer, arrêter et mettre en attente manuellement une écriture file d'attente des travaux.</span><span class="sxs-lookup"><span data-stu-id="85cf8-118">You can also start, stop, and put a job queue entry on hold manually.</span></span>
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="85cf8-117">exécute automatiquement les projets selon le planning spécifié pour chaque écriture file d'attente des travaux.</span><span class="sxs-lookup"><span data-stu-id="85cf8-117"> automatically runs the jobs according to the specified schedules for each job queue entry.</span></span> <span data-ttu-id="85cf8-118">Vous pouvez également démarrer, arrêter et mettre en attente manuellement une écriture file d'attente des travaux.</span><span class="sxs-lookup"><span data-stu-id="85cf8-118">You can also start, stop, and put a job queue entry on hold manually.</span></span>
 
 ### <a name="log-files"></a><span data-ttu-id="85cf8-119">Fichiers journaux</span><span class="sxs-lookup"><span data-stu-id="85cf8-119">Log Files</span></span>
 <span data-ttu-id="85cf8-120">Les erreurs sont répertoriées dans la fenêtre **Écritures journal file d'attente des travaux** qui est accessible à partir du ruban.</span><span class="sxs-lookup"><span data-stu-id="85cf8-120">Errors are listed in the **Job Queue Log Entries** window that you can access from the ribbon.</span></span> <span data-ttu-id="85cf8-121">Vous pouvez également résoudre les erreurs de la file d'attente des travaux.</span><span class="sxs-lookup"><span data-stu-id="85cf8-121">You can also troubleshoot job queue errors.</span></span> <span data-ttu-id="85cf8-122">Les données générées lors de l'exécution d'une file d'attente des travaux sont stockées dans la base de données.</span><span class="sxs-lookup"><span data-stu-id="85cf8-122">Data that is generated when a job queue is run is stored in the database.</span></span>  
@@ -35,7 +35,7 @@ ms.lasthandoff: 03/22/2018
 
  <span data-ttu-id="85cf8-127">Sinon, vous pouvez planifier des validations à des heures pratiques pour votre organisation.</span><span class="sxs-lookup"><span data-stu-id="85cf8-127">Alternatively, you may want to schedule postings for hours when it is convenient for your organization.</span></span> <span data-ttu-id="85cf8-128">Par exemple, il peut sembler raisonnable dans votre activité d'exécuter certaines routines lorsque la plupart de la saisie de données de la journée est achevée.</span><span class="sxs-lookup"><span data-stu-id="85cf8-128">For example, it may make sense in your business to run certain routines when most of the data entry for the day has concluded.</span></span> <span data-ttu-id="85cf8-129">Vous pouvez obtenir cette opération en configurant la file projets pour exécuter différents états de validation par lots, par exemple, **TPL valider commandes vente**, **TPL valider factures vente**et les états **TPL valider avoirs vente**.</span><span class="sxs-lookup"><span data-stu-id="85cf8-129">You can achieve this by setting the job queue up to run various batch post reports, such as the **Batch Post Sales Orders**, **Batch Post Sales Invoices**, and **Batch Post Sales Credit Memos** reports.</span></span>  
 
- [!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="85cf8-130"> prend en charge la validation en arrière\-plan pour les types de document suivants :</span><span class="sxs-lookup"><span data-stu-id="85cf8-130"> supports background posting for the following document types:</span></span>  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="85cf8-130">prend en charge la validation en arrière\-plan pour les types de document suivants :</span><span class="sxs-lookup"><span data-stu-id="85cf8-130"> supports background posting for the following document types:</span></span>  
 
 -   <span data-ttu-id="85cf8-131">Ventes : commande, retour, avoir et facture vente</span><span class="sxs-lookup"><span data-stu-id="85cf8-131">Sales: sales order, return order, credit memo, invoice</span></span>  
 

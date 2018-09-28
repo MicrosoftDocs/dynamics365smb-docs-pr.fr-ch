@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/09/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 463902077313b09391c42f4d44fde11be08bdd02
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 7ee3f25cb08a1224445f10b9dfee61267c24aad2
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="handling-inventory-and-manufacturing-costs"></a><span data-ttu-id="cd6a2-103">Gestion des coûts ajustés et des coûts de fabrication</span><span class="sxs-lookup"><span data-stu-id="cd6a2-103">Handling Inventory and Manufacturing Costs</span></span>

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 59636dee92735f519b54f46c02ff72a1d306f48c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6d534b50b709844d9b1e91a88bbb010c51ef081d
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="issue-delivery-reminders"></a><span data-ttu-id="97326-104">Émettre des relances livraison</span><span class="sxs-lookup"><span data-stu-id="97326-104">Issue Delivery Reminders</span></span>
