@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/06/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7bf300745543ef476c6dfd7d58dc50457e694cdb
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 3b213e85e6b162e875a31f0ab69e3e1f4af9653f
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-a-new-company"></a>Créer une société
@@ -28,7 +28,7 @@ Des exemples de packages de configuration, qui comprennent des fichiers spécifi
 
 ## <a name="to-use-the-sample-basicconfig-configuration-package"></a>Pour utiliser l'exemple de package de configuration BASICCONFIG  
 1. Ouvrez la société CRONUS International Ltd. Pour plus d'informations, voir [Modification des paramètres de base](ui-change-basic-settings.md).
-2. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Packages configuration**, puis sélectionnez le lien connexe.  
+2. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Packages configuration**, puis sélectionnez le lien associé.  
 3. Sélectionnez le package BASICCONFIG dans la liste, puis sélectionnez l'action **Exporter package**.  
 
 Suivez la procédure suivante pour créer une société, puis utilisez le package BASICCONFIG dans le cadre du processus.  

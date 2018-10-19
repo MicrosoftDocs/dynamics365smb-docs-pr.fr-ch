@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: policy, coverage
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: ed03191f683b1b1f9f60351712d51b97ad53e98e
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 16098723fed40fbe26b9ba238e7fe5bf339003f5
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-fixed-asset-insurance"></a>Configurer une assurance immobilisation
@@ -25,32 +25,32 @@ Pour gérer la couverture d'assurance des immobilisations, vous devez tout d'abo
 ## <a name="to-set-up-general-insurance-information"></a>Pour définir des informations générales relatives aux assurances
 Pour utiliser les fonctions d'assurance dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous devez définir certaines informations générales relatives aux assurances.  
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), saisissez **Paramètres immobilisations**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres immobilisations**, puis sélectionnez le lien associé.  
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-set-up-insurance-types"></a>Pour définir des types d'assurance
 Vous pouvez regrouper vos polices d'assurance en catégories (assurances contre le vol, assurances incendie, etc.). Les types d'assurance sont utilisés sur la fiche assurance.
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Types assurance**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Types assurance**, puis sélectionnez le lien associé.  
 2. Renseignez les champs selon vos besoins.
 
 ## <a name="to-set-up-insurance-cards"></a>Pour définir des fiches assurance
 Vous pouvez rassembler des informations sur chaque police d'assurance dans la fiche assurance.  
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Assurance**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Assurance**, puis sélectionnez le lien associé.  
 2. Dans la fenêtre **Assurance**, sélectionnez l'action **Nouveau** pour créer une fiche assurance.  
 3. Renseignez les champs selon vos besoins.
 
 ## <a name="to-set-up-insurance-journal-templates"></a>Pour définir des modèles feuille assurance
 [!INCLUDE[d365fin](includes/d365fin_md.md)] crée automatiquement un modèle feuille assurance la première fois que vous ouvrez la fenêtre **Feuille assurance**. Vous pouvez cependant définir d'autres modèles feuille. Pour plus d'informations, voir [Utilisation des feuilles comptabilité](ui-work-general-journals.md).  
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Modèles feuille assurance**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Modèles feuille assurance**, puis sélectionnez le lien associé.  
 2. Renseignez les champs selon vos besoins.
 
 ## <a name="to-set-up-insurance-journal-batches"></a>Pour définir des noms de feuille assurance
 Vous pouvez définir des feuilles dans un modèle feuille assurance. Les valeurs de la feuille servent de valeurs par défaut si les champs ne sont pas renseignés dans les lignes feuille. Pour en savoir plus, reportez-vous à [Utiliser des feuilles comptabilité](ui-work-general-journals.md)  
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Modèles feuille assurance**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Modèles feuille assurance**, puis sélectionnez le lien associé.  
 2. Sélectionnez un modèle feuille assurance, puis l'action **Lots**.
 3. Dans la fenêtre **Lots feuille assurance**, renseignez les champs selon vos besoins.
 

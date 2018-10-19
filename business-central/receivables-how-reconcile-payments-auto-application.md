@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 05/17/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: 4a22150d1fd0afa296cd10cf3d9e4315107f20b7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8ef6ef563fd34471c4e82398ffa8c1d4e49c5a59
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="reconcile-payments-using-automatic-application"></a>Rapprocher les paiements à l'aide de l'application automatique
@@ -43,7 +43,7 @@ Pour chaque ligne feuille de la fenêtre **Feuille rapprochement bancaire**, vou
 > Vous pouvez lancer l'importation des transactions bancaires en même temps que vous ouvrez la fenêtre **Feuille rapprochement bancaire** pour une feuille rapprochement bancaire existante dans la fenêtre **Feuilles rapprochement bancaire**. La procédure suivante décrit comment importer des transactions bancaires dans la fenêtre **Feuille rapprochement bancaire** après avoir créé une nouvelle feuille.
 
 ## <a name="to-reconcile-payments-using-automatic-application"></a>Pour rapprocher les paiements à l'aide du lettrage automatique
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille rapprochement bancaire**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles rapprochement bancaire**, puis sélectionnez le lien associé.
 2. Pour travailler dans une nouvelle feuille rapprochement bancaire, sélectionnez l'action **Nouvelle feuille**.
 3. Dans la fenêtre **Liste comptes bancaires paiement**, sélectionnez le compte bancaire pour lequel vous voulez rapprocher des paiements, puis cliquez sur le bouton **OK**.
    La fenêtre **Feuille rapprochement bancaire** s'ouvre préparée pour le compte bancaire sélectionné.

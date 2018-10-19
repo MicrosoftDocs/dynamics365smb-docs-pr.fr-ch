@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
-ms.date: 07/17/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
-ms.openlocfilehash: e7546d2d90567f9d633394dfd585f1dbbab27e46
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c75b9eef5716379f6545494c20cbe6c7b34c1edd
 ms.contentlocale: fr-ch
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -26,7 +26,7 @@ Vous pouvez utiliser les états suivants :
 * La déclaration de liste de vente de l'Union européenne (EU) **Liste des ventes UE** répertorie les montants de la taxe sur la valeur ajoutée (TVA) que vous avez collectés pour les ventes aux clients enregistrés dans les pays de l'Union européenne (UE).  
 * L'état **Retour TVA** inclut la TVA pour les ventes et les achats aux clients dans tous les pays utilisant la TVA.
 
-Si vous souhaitez afficher un historique complet des écritures TVA, chaque validation impliquant la TVA crée une écriture dans la page **Écritures TVA**. Ces écritures sont utilisées pour calculer le montant de votre déclaration TVA, tel que paiement et remboursement, pour une période donnée. Pour afficher les écritures TVA, choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Écritures TVA**, puis sélectionnez le lien connexe.
+Si vous souhaitez afficher un historique complet des écritures TVA, chaque validation impliquant la TVA crée une écriture dans la fenêtre **Écritures TVA**. Ces écritures sont utilisées pour calculer le montant de votre déclaration TVA, tel que paiement et remboursement, pour une période donnée. Pour afficher les écritures TVA, choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Écritures TVA**, puis sélectionnez le lien associé.
 
 ## <a name="about-the-ec-sales-list-report"></a>À propos de l'état Liste des ventes UE
 Au Royaume-Uni, toutes les sociétés qui vendent des biens et des services aux clients enregistrés pour la TVA, y compris les clients dans d'autres pays de l'Union européenne (UE), doivent envoyer une version électronique de l'état Liste des ventes de la Communauté européenne (CE) au format XML sur le site Web du service de la fiscalité et des douanes du Royaume-Uni. La liste des ventes de l'Union européenne ne fonctionne que pour les pays de l'UE.
@@ -39,7 +39,7 @@ La déclaration comprend une ligne pour chaque type de transaction avec le clien
 
 Les biens et des services B2B indiquent si vous avez vendu un bien ou un service, et sont contrôlés par le paramètre **Service UE** des paramètres validation TVA. Les marchandises triangulées B2B indiquent si vous vous êtes engagé dans des transactions avec un tiers, et sont contrôlées par le paramètre **Trans. tripartite UE** sur les documents vente, comme des commandes vente, des factures, des avoirs, etc.  
 
-Une fois que l'administration fiscale aura examiné votre état, elle devra envoyer un e-mail au contact de votre société. Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], le contact est spécifié sur la page **Informations société**. Avant de soumettre l'état, assurez-vous qu'un contact est sélectionné.
+Une fois que l'administration fiscale aura examiné votre état, elle devra envoyer un e-mail au contact de votre société. Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], le contact est spécifié sur la fenêtre **Informations société**. Avant de soumettre l'état, assurez-vous qu'un contact est sélectionné.
 
 ## <a name="about-the-vat-return-report"></a>À propos de l'état Retour TVA
 Utilisez cet état pour envoyer les documents relatifs à la TVA sur les ventes et les achats, tels que les commandes d'achat et de vente, les factures et les avoirs. Les informations contenues dans l'état sont au même format que dans la déclaration de l'administration fiscale et douanière.  
@@ -56,19 +56,19 @@ Pour le retour TVA, vous pouvez spécifier les écritures pour :
 
 Pour déclarer la TVA à une administration par voie électronique, vous devez connecter [!INCLUDE[d365fin](includes/d365fin_md.md)] au service Web de l'administration fiscale. Cela suppose que vous configuriez un compte avec votre administration fiscale. Lorsque vous avez un compte, vous pouvez activer une connexion de service que nous fournissons dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Connexions au service**, puis sélectionnez le lien approprié.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Connexions au service**, puis sélectionnez le lien approprié.
 2. Renseignez les champs requis. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
     >   Il est judicieux de tester votre connexion. Pour cela, choisissez la case à cocher **Mode test**, puis préparez et envoyez votre état TVA comme décrit dans la section _Préparer et envoyer un état TVA_. En mode Test, le service vérifie si l'administration fiscale peut recevoir votre état, et le statut de l'état indiquera si l'envoi du test a réussi. Il est important de retenir que ce n'est pas un envoi réel. Pour réellement envoyer l'état, vous devez désactiver la case à cocher **Mode test**, puis répéter le processus d'envoi.
 
 ## <a name="to-set-up-vat-reports-in-included365finincludesd365finmdmd"></a>Pour configurer les états TVA dans [!INCLUDE[d365fin](includes/d365fin_md.md)]
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Paramétrage déclaration TVA**, puis choisissez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramétrage déclaration TVA**, puis sélectionnez le lien associé.  
 2. Pour laisser des utilisateurs modifier et retourner cet état, sélectionnez la case à cocher **Modifier les états soumis**.  
 3. Choisissez la souche de numéros à utiliser pour chaque état.  
 
 ## <a name="to-prepare-and-submit-a-vat-report"></a>Pour préparer et soumettre un état TVA
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Liste des ventes** ou **Retour TVA**, puis choisissez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Liste des ventes UE** ou **Retour TVA**, et sélectionnez le lien associé.  
 2. Sélectionnez **Nouveau**, puis renseignez les champs requis. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Pour générer le contenu de l'état, sélectionnez l'action **Proposer lignes**.  
 
@@ -80,7 +80,7 @@ Pour déclarer la TVA à une administration par voie électronique, vous devez c
     >   [!INCLUDE[d365fin](includes/d365fin_md.md)] confirme que l'état est configuré correctement. Si la validation échoue, les erreurs sont affichées sous **Erreurs et avertissements**, de sorte que vous sachiez quoi corriger. Généralement, si le message concerne un paramètre manquant dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez cliquer sur le message pour ouvrir la page contenant les informations à corriger.  
 5. Pour envoyer l'état, sélectionnez l'action **Soumettre**.  
 
-Une fois que vous envoyez la déclaration, [!INCLUDE[d365fin](includes/d365fin_md.md)] surveille le service et conserve un enregistrement de vos communications. Le champ **Statut** indique l'état de la déclaration en cours. Par exemple, lorsque l'administration traite votre déclaration, le statut de celle-ci passe à **Réussie**. Si l'administration fiscale trouve des erreurs dans la déclaration que vous avez envoyée, le statut de celle-ci est **Échec**. Vous pouvez afficher les erreurs sous **Erreurs et avertissements**, corrigez-les, puis envoyez la déclaration. Pour visualiser une liste de toutes vos déclarations de liste des ventes UE, consultez la page **États de liste des ventes UE**.  
+Une fois que vous envoyez la déclaration, [!INCLUDE[d365fin](includes/d365fin_md.md)] surveille le service et conserve un enregistrement de vos communications. Le champ **Statut** indique l'état de la déclaration en cours. Par exemple, lorsque l'administration traite votre déclaration, le statut de celle-ci passe à **Réussie**. Si l'administration fiscale trouve des erreurs dans la déclaration que vous avez envoyée, le statut de celle-ci est **Échec**. Vous pouvez afficher les erreurs sous **Erreurs et avertissements**, corrigez-les, puis envoyez la déclaration. Pour visualiser une liste de toutes vos déclarations de liste des ventes UE, consultez la fenêtre **États de liste des ventes UE**.  
 
 ## <a name="viewing-communications-with-your-tax-authority"></a>Affichage de l’historique des communications avec votre administration fiscale
 Dans certains pays, vous échangez des messages avec l'administration fiscale lorsque vous envoyez des états. Vous pouvez afficher le premier et le dernier message que vous avez envoyés ou reçus en choisissant **Télécharger le message d’envoi** et les actions **Télécharger le message de réponse**.  

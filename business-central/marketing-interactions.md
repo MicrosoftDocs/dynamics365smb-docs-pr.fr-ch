@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: dd1651c6df11f99c010c1a9725b2cb5069b929e8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6fb3c1a19626c4cfa078f030a387e314ae2e0480
 ms.contentlocale: fr-ch
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="managing-interactions-with-contacts"></a>Gestion des interactions avec les contacts
@@ -30,7 +30,9 @@ Le module de gestion des relations vous permet d'enregistrer toutes les interact
 
 ##  <a name="setting-up-interaction-templates"></a>Configuration de modèles interaction
 Pour pouvoir créer et enregistrer des interactions, vous devez configurer des modèles interaction. Lorsque vous créez des interactions, vous devez spécifier les modèles sur lesquels elles sont basées. Un modèle interaction est un prototype qui définit les caractéristiques de base d'une interaction.
-Vous pouvez configurer un modèle interaction dans la fenêtre **Modèles interaction**.  
+Vous pouvez configurer un modèle interaction dans la fenêtre **Modèles interaction**.
+
+Une fois les données relatives au modèle interaction saisies, vous pouvez créer un document joint, par exemple un document Microsoft Word. Répétez les étapes pour chaque modèle interaction à configurer.  
 
 ## <a name="creating-interactions"></a>Création d'interactions
 Il existe deux méthodes d'enregistrement des interactions :
@@ -50,7 +52,7 @@ Cette fenêtre vous permet d'effectuer les opérations suivantes :
 * Afficher le statut des interactions.
 * Marquer les interactions comme annulées.
 
-Vous pouvez supprimer les écritures journal interaction ayant été annulées. Pour supprimer des écritures journal interaction, sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Supprimer les écritures journal interaction annulées**, puis sélectionnez le lien connexes et renseignez les informations.
+Vous pouvez supprimer les écritures journal interaction ayant été annulées. Pour supprimer des écritures journal interaction, sélectionnez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Supprimer les écritures journal interaction annulées**, puis sélectionnez le lien connexes et renseignez les informations.
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion de contacts](marketing-contacts.md)  

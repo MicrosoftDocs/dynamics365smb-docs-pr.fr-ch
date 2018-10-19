@@ -9,16 +9,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/09/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: a1ab45cb40669beb901da59469a02bd58b86d3ac
-ms.openlocfilehash: 8782fae0935a609cb991fe869907d9cd8fceccd9
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 79e532dd8cba1daf34362f7050d320778b23c85f
 ms.contentlocale: fr-ch
-ms.lasthandoff: 04/09/2018
+ms.lasthandoff: 09/28/2018
 
 ---
-# <a name="the-microsoft-pay-extension-to-included365finincludesd365finlongmdmd"></a>Extension Microsoft Pay pour [!INCLUDE[d365fin](includes/d365fin_long_md.md)]
+# <a name="the-microsoft-pay-extension"></a>Extension Microsoft Pay
 Les clients sont toujours plus exigeants en ce qui concerne le service clientèle, en termes de qualité des produits mais aussi en termes de services de livraison et de paiement. Le service Microsoft Pay vous aide à développer votre service clientèle.
 
 L'extension Microsoft Pay ajoute un lien Microsoft Pay à vos documents vente, de sorte qu'il est facile pour les clients d'effectuer leur règlement à l'aide de Microsoft Pay. Vous pouvez alors envoyer les documents par e-mail pour fournir un meilleure service client et raccourcir le temps nécessaire pour que les paiements des clients parviennent sur votre compte bancaire.

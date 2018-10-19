@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 15676c264736b4547dd32cd7a37b252757f73b2a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: bd2bfb6f124a3a98776be21d179a81d8933cc9ee
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="trace-item-tracked-items"></a>Tracer des articles - Articles suivis
@@ -32,7 +32,7 @@ Vous pouvez voir où un article suivi a été utilisé, y compris le mode et le 
 
 ## <a name="to-trace-item-tracked-items"></a>Pour tracer des articles suivis  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Traçabilité**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Traçabilité**, puis sélectionnez le lien associé.  
 2.  Dans les champs de filtre dans le haut de la fenêtre, entrez les numéros d'article spécifiques ou un filtre pour les numéros d'article que vous voulez suivre.  
 3.  Dans le champ **Afficher composants**, indiquez si vous voulez également voir d'où provenaient les composants des articles. Les options disponibles dans ce champ sont les suivantes.  
 
@@ -61,7 +61,7 @@ Vous pouvez voir où un article suivi a été utilisé, y compris le mode et le 
 
 ## <a name="to-find-item-tracked-items-with-navigate"></a>Pour rechercher des articles suivis avec Naviguer  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Naviguer**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Naviguer**, puis sélectionnez le lien associé.  
 2.  Sur le raccourci **Traçabilité**, dans les champs **N° de série** et **N° lot**, entrez les numéros traçabilité que vous voulez suivre.  
 3.  Sélectionnez l'action **Rechercher** pour rechercher toutes les instances du numéro de série ou de lot dans la base de données.  
 

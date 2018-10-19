@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 08/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0fe05d44acd7fb163996e8a663adb309d229b203
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 847cce9d48b6e5f3c98d1b64eef0d912f6dcf5fd
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-workflow-users"></a>Configurer des utilisateurs de flux de travail
@@ -32,7 +32,7 @@ Les utilisateurs de flux de travail dont la fonction est utilisateurs approbatio
 
 ### <a name="to-set-up-a-workflow-user"></a>Configurer un utilisateur de workflow  
 
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Groupe d'utilisateurs du flux de travail**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Groupe d'utilisateurs du flux de travail**, puis sélectionnez le lien associé.  
 2. Sélectionnez l'action **Nouveau**. La fenêtre **Groupe d'utilisateurs du flux de travail** s'ouvre.  
 3. Dans le champ **Code**, entrez 20 caractères maximum pour identifier le workflow.  
 4. Dans le champ **Description**, décrivez le workflow.  
@@ -40,7 +40,7 @@ Les utilisateurs de flux de travail dont la fonction est utilisateurs approbatio
 
     |Champ|Désignation|  
     |---------------------------------|---------------------------------------|  
-    |**Nom d'utilisateur**|Spécifiez l'utilisateur qui participera aux workflows.<br /><br /> L'utilisateur doit exister dans la fenêtre **Paramètres utilisateur**. Pour en savoir plus, reportez-vous à [Gérer les utilisateurs et les autorisations](ui-how-users-permissions.md).|  
+    |**Nom d'utilisateur**|Spécifiez l'utilisateur qui participera aux workflows.<br /><br /> L'utilisateur doit exister dans la fenêtre **Paramètres utilisateur**. Pour plus d'informations, voir [Gestion des utilisateurs et des autorisations](ui-how-users-permissions.md).|  
     |**N° séquence**|Spécifiez l'ordre dans lequel l'utilisateur du flux de travail s'engage dans un flux par rapport à d'autres utilisateurs. Ce champ peut être utilisé, par exemple, pour indiquer à quel moment l'utilisateur approuve, par rapport à d'autres approbateurs, lorsque vous utilisez l'option **Groupe d'utilisateurs de flux de travail** dans le champ **Type approbateur** de la réponse de flux de travail lié. **CONSEIL :**  pour indiquer qu'une demande d'approbation n'est pas approuvée tant que plusieurs approbateurs de même niveau ne l'ont pas approuvée, quelle que soit la hiérarchie, configurez un groupe d'utilisateurs horizontal en affectant le même numéro de séquence aux approbateurs appropriés.|  
 6. Répétez l'étape 5 pour ajouter des utilisateurs de workflow dans le groupe d'utilisateurs.  
 7. Répétez l'étape 2 à 6 pour ajouter des groupes d'utilisateurs de workflow.  

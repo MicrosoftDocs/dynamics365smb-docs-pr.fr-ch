@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f005baaeed8a3469258db5f2cde594291b384ba2
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 3188b2d711fe983526e5ee87a7a3901b16d6eb35
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Modifier les propositions planning dans une vue graphique
@@ -37,7 +37,7 @@ Lorsque vous choisissez **Enregistrer les modifications** dans la fenêtre **Dis
 La procédure suivante indique comment modifier des propositions d'approvisionnement par glisser-déplacer. Vous pouvez également modifier les champs **Date d'échéance** et **Quantité** sur le raccourci **Modification des événements** et immédiatement visualiser les modifications graphiquement sur le raccourci **Chronologie** de la fenêtre **Feuille planning**.  
 
 ## <a name="to-modify-suggested-supply-orders-in-the-graphical-view"></a>Pour modifier les commandes approvisionnement proposées dans la vue graphique  
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Disponibilité article par chronologie**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Disponibilité article par chronologie**, puis sélectionnez le lien associé.  
 
     La fenêtre **Disponibilité article par chronologie** s'ouvre avec le numéro d'article, le magasin et la variante de l'article, figurant sur la ligne planning sélectionnée, préalablement insérés dans le raccourci **Options**. Le raccourci **Chronologie** affiche une représentation graphique du stock prévisionnel de l'article, y compris les propositions planning.  
 

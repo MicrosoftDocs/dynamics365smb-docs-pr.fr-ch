@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 825e901b4126dc1ba317527862eb459559ecb538
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f930a9a2e303c0dcc0a3604cc43b919690d6f96f
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Procédure pas à pas : Configuration et utilisation d'un flux d'approbation achat
@@ -58,7 +58,7 @@ Vous devez créer un nouvel utilisateur sur l'ordinateur local et dans [!INCLUDE
 7.  Fermez la fenêtre **Utilisateurs et groupes locaux**.  
 
 ### <a name="to-add-alicia-as-a-user-in-included365finincludesd365finmdmd"></a>Pour ajouter Alicia en tant qu'utilisateur dans [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-1.  Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Utilisateurs**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Utilisateurs**, puis sélectionnez le lien associé.  
 2.  Dans la fenêtre **Utilisateurs Windows**, sous l'onglet **Accueil**, dans le groupe **Nouveau**, choisissez **Nouveau**.  
 3.  Dans la fenêtre **Fiche utilisateur**, dans le champ **Nom utilisateur**, saisissez Alicia.  
 4.  Dans le champ **Nom d'utilisateur Windows**, cliquez sur le bouton AssistEdit.  
@@ -72,7 +72,7 @@ Vous devez créer un nouvel utilisateur sur l'ordinateur local et dans [!INCLUDE
 À l'aide de l'utilisateur Windows que vous venez de créer, configurez Alicia en tant qu'utilisateur approbation dont vous êtes l'approbateur. Configurez vos droits d'approbation et spécifiez comment et quand être averti des demandes d'approbation.  
 
 ### <a name="to-set-up-yourself-and-alicia-as-approval-users"></a>Pour configurer votre propre profil et celui d'Alicia en tant qu'utilisateurs approbation  
-1.  Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Paramètres utilisateur approbation**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres utilisateur approbation**, puis sélectionnez le lien associé.  
 2.  Dans la fenêtre **Paramètres utilisateur approbation**, sous l'onglet **Accueil**, dans le groupe **Nouveau**, choisissez **Nouveau**.  
 
     > [!NOTE]  
@@ -103,7 +103,7 @@ Spécifiez comment et quand être averti des demandes d'approbation.
  Créez le flux d'approbation de commande d'achat en copiant les étapes du modèle de Flux de travail approbation commande achat. Laissez les étapes existantes du flux inchangées, puis activez le flux.  
 
 ### <a name="to-create-and-enable-a-purchase-order-approval-workflow"></a>Pour créer et activer un flux d'approbation de commande d'achat  
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Flux de travail**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Flux de travail**, puis sélectionnez le lien associé.  
 2.  Dans la fenêtre **Flux de travail**, sous l'onglet **Actions**, dans le groupe **Général**, choisissez **Créer le flux de travail à partir du modèle**.  
 3.  Sous l'onglet **Actions**, dans le groupe **Général**, choisissez **Créer le flux de travail à partir du modèle**. La fenêtre **Modèles flux de travail** s'ouvre.  
 4.  Sélectionnez le modèle de flux de travail nommé Flux de travail approbation commande achat, puis choisissez le bouton **OK**.  
@@ -115,7 +115,7 @@ Spécifiez comment et quand être averti des demandes d'approbation.
 Assurez-vous que la file projets dans votre installation est configurée pour traiter les notifications du workflow.  
 
 ### <a name="to-start-the-notify-job-queue"></a>Pour lancer la file projets NOTIFY  
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **File d'attente des travaux**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **File d'attente des travaux**, puis choisissez le lien associé.  
 2.  Dans la fenêtre **File d'attente des travaux**, sélectionnez la ligne correspondant à la file projets NOTIFY, puis sous l'onglet **Accueil**, dans le groupe **Processus**, choisissez **Démarrer la file projets**.  
 
 ## <a name="using-the-approval-workflow"></a>Utilisation du flux d'approbation  
@@ -133,7 +133,7 @@ Pour vous connecter à [!INCLUDE[d365fin](includes/d365fin_md.md)] en tant qu'ut
 
 ### <a name="to-request-approval-of-a-purchase-order-as-alicia"></a>Pour demander l'approbation d'une commande achat en tant qu'Alicia  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Commandes achat**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes achat**, puis sélectionnez le lien associé.  
 2.  Sélectionnez la ligne pour ouvrir la commande d'achat 104001, puis sous l'onglet **Accueil**, dans le groupe **Gestion**, choisissez **Modifier**.  
 3.  Dans la fenêtre **Commande achat**, sous l'onglet **Actions**, dans le groupe **Approbation**, choisissez **Envoyer demande d'approbation**.  
 

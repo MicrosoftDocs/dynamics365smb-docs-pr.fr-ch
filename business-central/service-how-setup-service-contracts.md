@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, cost, service order
-ms.date: 08/22/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 954438a19ed4b7aadc707cbb5e646f1752aa37a0
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 35dcecb6b3510101026202cb6548aa936d74b25c
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -29,19 +29,19 @@ Avant de pouvoir utiliser les contrats, vous devez définir les éléments suiva
 * **Modèles client** : permettent de créer des devis pour les contacts ou les clients potentiels qui ne sont pas enregistrés comme clients dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="to-set-up-a-service-contract-group"></a>Pour configurer un groupe de contrats de service  
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Groupes contrats de service**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Groupes contrats de service**, puis sélectionnez le lien associé.  
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Activez la case à cocher **Remise sur cdes contrat seulement** si vous souhaitez que les remises contrat ou service ne soient valides que pour les commandes contrat de service, tels que de maintenance.  
 
 ## <a name="to-set-up-a-service-contract-account-group"></a>Pour configurer un groupe comptes contrats de service  
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Groupes comptes contrat serv.**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Groupes comptes contrat serv.**, puis sélectionnez le lien associé.  
 2. Créez un groupe comptes contrat de service.   
 3. Renseignez les champs **Code** et **Désignation**. Ces champs décrivent le groupe compte service.  
 4. Renseignez le champ **Compte contrat non prépayé**, puis sélectionnez le numéro de compte général du compte non prépayé.  
 5. Dans le champ **Compte contrat non prépayé**, sélectionnez le numéro de compte général du compte non prépayé.  
 
 ## <a name="to-set-up-a-contract-template"></a>Pour configurer un modèle de contrat  
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Modèle contrat de service**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Contrat de service - Modèles**, puis sélectionnez le lien associé.  
 2. Créez un modèle contrat de service.  
 3. Dans le champ **N°**, saisissez le numéro du modèle de contrat.  
   
@@ -51,7 +51,7 @@ Avant de pouvoir utiliser les contrats, vous devez définir les éléments suiva
 5. Sélectionnez l'action **Remises service** pour ajouter des remises contrat.  
 
 ## <a name="to-set-up-a-customer-template"></a>Pour configurer un modèle client  
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Modèles client**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Modèles client**, puis sélectionnez le lien associé.  
 2. Créez une fiche modèle client.  
 3. Sur le raccourci **Général**, tapez un code et une description pour le modèle client respectivement dans les champs **Code** et **Désignation**. 
 4. Pour définir les critères de recherche, renseignez les autres champs tels que **Code pays/région**, **Code secteur** et **Code langue**.  

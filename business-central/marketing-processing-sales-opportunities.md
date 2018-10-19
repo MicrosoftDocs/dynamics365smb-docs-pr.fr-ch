@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c7c7dca1d59b407f119347345cbbdef3f730acbc
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 5b57b47d4ceb08a3836140945387e38887553a99
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="process-sales-opportunities"></a>Traiter des opportunités de vente
@@ -27,9 +27,9 @@ Les opportunités de vente existantes sont disponibles dans la fenêtre **Liste 
 
 | Pour afficher les opportunités pour | Alors |
 | --- | --- |
-| Tous les vendeurs et contacts |Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Liste des opportunités**, puis sélectionnez le lien connexe. |
-| Un vendeur spécifique |Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Vendeurs**, puis sélectionnez le lien connexe. Sélectionnez le vendeur, sélectionnez l'action **Opportunités**, puis l'action **Liste**. |
-| Un contact spécifique |Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Contacts**, puis sélectionnez le lien connexe. Sélectionnez le contact dans la liste, puis sélectionnez l'action **Opportunités**. |
+| Tous les vendeurs et contacts |Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Liste des opportunités**, puis sélectionnez le lien associé. |
+| Un vendeur spécifique |Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Vendeurs**, puis sélectionnez le lien associé. Sélectionnez le vendeur, sélectionnez l'action **Opportunités**, puis l'action **Liste**. |
+| Un contact spécifique |Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Contacts**, puis sélectionnez le lien associé. Sélectionnez le contact dans la liste, puis sélectionnez l'action **Opportunités**. |
 
 Chacune de ces tâches ouvre la fenêtre **Liste des opportunités**.
 
@@ -65,7 +65,7 @@ Pour supprimer des opportunités clôturées à partir de la fenêtre **Liste de
 
 Pour supprimer des opportunités clôturées à l'aide du traitement par lots **Supprimer les opportunités clôturées**, procédez comme suit :
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Supprimer opportunités**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Supprimer opportunités**, puis choisissez le lien associé.
 2. Dans la section **Opportunité**, configurez les filtres qui spécifient les opportunités clôturées à supprimer.
 3. Cliquez sur le bouton **OK**.
 

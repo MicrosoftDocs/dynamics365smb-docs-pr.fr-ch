@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 30a16901fb20ac3361ed61bbe8d6eabc6dfb67cb
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 64bef8820ec10bb293ccda88e7384d5d9e868e1f
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-contact-companies"></a>Création de sociétés contact
@@ -27,7 +27,7 @@ Il existe deux méthodes permettant de créer un contact : à partir de zéro o
 Avant de créer un contact, vous pouvez vérifier les paramètres dans la fenêtre **Paramètres Marketing**. Pour plus d'informations, voir [Paramétrage de la Gestion des relations](marketing-setup-marketing.md).
 
 ## <a name="create-a-company-contact-from-scratch"></a>Créer un contact société à partir de zéro
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Contacts**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Contacts**, puis sélectionnez le lien associé.
 2. Sélectionnez l'action **Nouveau**.
 3. Dans le champ **N°**, saisissez le numéro du contact.
 
@@ -41,7 +41,7 @@ Si vous avez configuré plusieurs clients, fournisseurs et comptes bancaires, vo
 > [!NOTE]  
 >   Avant de créer des sociétés contact de cette manière, vous devez spécifier un code relation d'affaires pour les clients, les fournisseurs, ainsi que des comptes bancaires dans la fenêtre **Paramètres marketing**. Si vous devez créer des contacts à partir de comptes bancaires, vous devez également spécifier des souches de numéros pour les comptes bancaires dans la fenêtre **Paramètres comptabilité**.
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez l'un des choix suivants, selon l'élément à partir duquel vous souhaitez créer des contacts, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez une des actions suivantes, selon l'emplacement à partir duquel vous souhaitez créer des contacts, puis sélectionnez le lien associé.
    * **Créer contacts à partir des clients**
    * **Créer contacts à partir des fournisseurs**
    * **Créer contacts à partir des cptes banc**

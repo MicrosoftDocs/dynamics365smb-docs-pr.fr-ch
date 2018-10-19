@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, accountant
-ms.date: 09/14/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: cb4933268be7f0a571622e6d8eccec6bd9ee2d09
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 26b911718a9741cd070af131aef3d258fd85e1eb
 ms.contentlocale: fr-ch
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
-# <a name="accountant-portal-for-business-central"></a>Portail Comptable pour Business Central
+# <a name="the-accountant-portal-for-business-central-extension"></a>Portail Comptable pour l'extension Business Central
 Cette application fournit un tableau de bord récapitulatif pour chaque client d'un comptable. Le portail affiche les KPI financier ainsi qu'un lien direct vers l'application financière du client.  
 
 Ce tableau de bord est un tableau de bord hautement spécialisé permettant d'avoir un meilleur aperçu de vos clients.  

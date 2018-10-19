@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API templates, configuring templates
-ms.date: 05/16/2018
+ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: 1695a6950dabc1b2f0a2f85ad9e0c565012c92e1
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 2dfa62c765a653986de2069ef26e454928d68ee3
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -32,7 +32,7 @@ Pour utiliser les modèles avec la bibliothèque d'API, vous devez d'abord confi
 
 Pour affecter un modèle à une API, vous devez effectuer les actions suivantes.
 
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Paramètres API**, puis choisissez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Configuration API**, puis sélectionnez le lien associé.
 2. Choisissez **Nouveau**, puis la valeur **Ordre** pour l'enregistrement.  
 Si plusieurs modèles sont sélectionnés pour une API (ID page), les modèles sont appliqués dans l'ordre défini dans la colonne **Ordre**.   
 Lorsque chaque modèle est appliqué, les valeurs de champ définies dans le modèle sont uniquement appliquées aux champs sans valeur déjà définie, soit explicitement dans l'API ou dans un modèle précédemment appliqué dans l'ordre. 

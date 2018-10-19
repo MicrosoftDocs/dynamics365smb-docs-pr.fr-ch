@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6e9dcc286b460460abb3f5d960b6c065651cf31f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 5bede56db06b7bac991f3f910c11e1dae61c7463
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-email-manually-or-using-the-assisted-setup"></a>Paramétrer la messagerie manuellement ou à l'aide de la configuration assistée
@@ -27,7 +27,7 @@ Pour recevoir et envoyer des e-mails dans [!INCLUDE[d365fin](includes/d365fin_md
 Vous pouvez configurer la messagerie manuellement ou vous faire aider par la configuration assistée **Paramétrage d'e-mail**. Pour plus d'informations, voir [Préparation aux activités commerciales](ui-get-ready-business.md).  
 
 ## <a name="to-set-up-email"></a>Pour configurer la messagerie
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Paramétrage courrier SMTP**, puis choisissez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramétrage courrier SMTP**, puis sélectionnez le lien associé.
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Sinon, choisissez l'option **Appliquer les paramètres du serveur Office 365** pour insérer les informations déjà définies pour votre abonnement Office 365.
 4. Lorsque tous les champs sont correctement renseignés, choisissez **Tester paramétrage e-mail**.

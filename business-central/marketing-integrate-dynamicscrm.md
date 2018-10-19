@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map
-ms.date: 07/02/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
-ms.openlocfilehash: 33987f37c170af9982b86baf20f0c3e0682de2cd
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 057db7c39834c7be0fb93589e4fc58d740dd259c
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/02/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="managing-customers-and-sales-created-in-dynamics-365-for-sales"></a>Gestion des clients et des ventes créés dans Dynamics 365 for Sales
@@ -99,7 +99,7 @@ Pour importer une solution Sales existante, le guide d'installation utilise un c
 * Administrateur système  
 * Personnalisateur de solution  
 
-Pour plus d'informations, voir [Créer des utilisateurs dans Microsoft Dynamics 365 (en ligne) et attribuer des rôles de sécurité](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles) et [Gérer les utilisateurs et les autorisations](ui-how-users-permissions.md).  
+Pour plus d'informations, voir [Créer des utilisateurs dans Microsoft Dynamics 365 (online) et attribuer des rôles de sécurité](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles) et [Gestion des utilisateurs et des autorisations](ui-how-users-permissions.md).  
 
 Ce compte est uniquement utilisé lors de la configuration. Une fois la solution importée dans [!INCLUDE[d365fin](includes/d365fin_md.md)], le compte n'est plus nécessaire.
 
@@ -147,7 +147,7 @@ Si la désignation de l'article sur la commande vente d'origine est très longue
 [Gestion des relations](marketing-relationship-management.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Modification des fonctionnalités affichées](ui-experiences.md)  
-[Gérer les utilisateurs et les autorisations](ui-how-users-permissions.md)    
+[Gestion des utilisateurs et des autorisations](ui-how-users-permissions.md)    
 [Intégrer l'organisation et les utilisateurs dans Dynamics 365 (en ligne)](/dynamics365/customer-engagement/admin/onboard-your-organization-and-users-to-dynamics-365-online)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 55d9dbfac8cabefacffa8edd6203cc812f2debee
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 66ac3a70ee4f40ab1b4c86afcc8ad28357c7a543
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="swiss-value-added-tax"></a>Taxe sur la valeur ajoutée, Suisse
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/22/2018
 - Ajustement automatique des montants de TVA pour les factures, en fonction des comptes.  
 - Taux de change de la TVA supplémentaires pour les factures en devises étrangères.  
 
-Pour plus d'informations sur la déclaration et les exigences de codage de TVA en Suisse [Informations sur la TVA en Suisse](http://www.estv.admin.ch/mwst/dokumentation/00130/00947/00948/index.html?lang=fr), en particulier, le document 605.525.01. Ces informations sont disponibles en français, allemand et italien.  
+Pour plus d'informations sur la déclaration et les exigences de codage de TVA en Suisse, voir [Informations sur la TVA en Suisse](https://www.estv.admin.ch/estv/en/home.html). Ces informations sont disponibles en français, allemand et italien.  
 
 ## <a name="vat-amounts-and-vat-exchange-rates"></a>Montants TVA et taux de change TVA  
 Conformément aux lois locales sur la TVA, le montant de base de TVA pour une facture peut être réduit de l'escompte accordé si une remise est accordée. Pour autoriser l'ajustement automatique de TVA pour un escompte sur une facture, le champ **Ajuster pour escompte** est activé par défaut dans la fenêtre **Paramètres comptabilité**. Vous pouvez également activer cette fonction dans les paramètres comptabilisation TVA. Pour plus d'informations, voir la table Paramètres comptabilité et la table Paramètres comptabilisation TVA.  

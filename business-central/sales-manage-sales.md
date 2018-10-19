@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
-ms.openlocfilehash: 6351f2b8a79afa201192addc4960bda6d59448eb
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6c8c3f39d782a33896e531c4bfdf95b589458f99
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/02/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="sales"></a>Ventes
@@ -36,14 +36,15 @@ Pour tous les processus de vente, vous pouvez incorporer un flux de travail d'ap
 
 Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.
 
-| Pour | Voir |
+| À | Voir |
 | --- | --- |
+|Créer une fiche client pour chaque client auquel vous vendez des éléments.|[Enregistrer de nouveaux clients](sales-how-register-new-customers.md)|
 | Créer un devis dans lequel vous proposer des biens selon des conditions négociables avant de convertir le devis en facture vente. |[Créer des devis](sales-how-make-offers.md) |
 | Créer une facture vente pour enregistrer votre accord avec un client pour vendre des biens selon certaines conditions de livraison et de paiement. |[Facturer des ventes](sales-how-invoice-sales.md) |
 | Traiter une commande vente qui implique un envoi partiel ou un envoi direct. |[Vendre des produits](sales-how-sell-products.md) |
 |Paramétrez les lignes vente ou achat standard que vous pouvez rapidement insérer dans les documents, par exemple, pour les ordres de réapprovisionnement récurrents.|[Créer des lignes ventes et achat récurrentes](sales-how-work-standard-lines.md)|  
 | Lier une commande vente à un bon de commande pour vendre un article qui sera livré directement par votre fournisseur à votre client. |[Effectuer des livraisons directes](sales-how-drop-shipment.md) |
-|Faites expédier par un fournisseur un article que vous n'avez pas en stock vers votre entrepôt pour pouvoir l'expédier à votre client.|[Créer des commandes spéciales](sales-how-to-create-special-orders.md)|
+|Faites expédier par un fournisseur un article de catalogue vers votre entrepôt pour pouvoir l'expédier à votre client.|[Créer des commandes spéciales](sales-how-to-create-special-orders.md)|
 | Effectuer une action sur une facture vente enregistrée impayée pour créer automatiquement un avoir et soit annuler la facture vente, soit la recréer pour que vous puissiez y apporter des corrections. |[Corriger ou annuler des factures vente impayées](sales-how-correct-cancel-sales-invoice.md) |
 | Créer un avoir vente pour rembourser une facture vente validée spécifique pour indiquer les produits que retourné par le client et le montant règlement que vous remboursez. |[Traiter les retours ou annulations de ventes](sales-how-process-sales-returns-cancellations.md) |
 |Gérez l'engagement de vos clients à acheter de grandes quantités livrées en plusieurs expéditions sur une certaine période.|[Utiliser des commandes ouvertes vente](sales-how-to-create-blanket-sales-orders.md)|
@@ -61,5 +62,4 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 [Fonctionnalités marché](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

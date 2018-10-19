@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, bank, formats
-ms.date: 09/15/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c8a8ecc8bcd3765e011266f6f0df2c8b75d25ecc
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f7efca344ade972c74bf37a52d30f72fa4740624
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
-# <a name="the-tax-file-formats-dk-extension-for-business-central"></a>L'extension Formats de fichier fiscal (DK) pour Business Central
+# <a name="the-tax-file-formats-dk-extension"></a>Extension Formats de fichier fiscal (DK)
 Si vous avec des transactions commerciales avec des sociétés, des branches internes ou des filiales situées dans d'autres pays de l'UE, vous devez déclarer les informations concernant ces activités au SKAT et à l'Office des statistiques du Danemark. Si vous utilisez les fonctionnalité de déclaration de TVA et d'état intracommunautaire de [!INCLUDE[d365fin](includes/d365fin_md.md)], cette extension vous donne la garantie que le fichier que vous exportez est compatible avec les exigences de ces organisations. L'extension ajoute les codeunits de soumission des lignes d'exportation intracommunautaire et du fichier d'exportation de la déclaration MS-ECSL à la configuration de votre déclaration de TVA, de sorte que vous pouvez exporter les données au nouveau format immédiatement.
 
 L'extension est gratuite, il vous suffit de l'installer.

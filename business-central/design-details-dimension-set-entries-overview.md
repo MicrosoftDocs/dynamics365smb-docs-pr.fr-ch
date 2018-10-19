@@ -8,41 +8,41 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dimension
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 1113f371caf00b693144d0ea6f74aed49bbbc9df
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0a94a47a2c32fc38792fbfc3285e9d0e4659ccf1
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="dimension-set-entries-overview"></a>Aperçu des écritures de l'ensemble de dimensions
 Cette rubrique décrit comment les écritures de l'ensemble de dimensions sont stockées et validées dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-  
+
 ## <a name="dimension-sets"></a>Ensembles de dimensions  
 Un ensemble de dimensions est une combinaison unique de sections analytiques. Il est stocké comme des écritures de l'ensemble de dimensions dans la base de données. Chaque écriture de l'ensemble de dimensions représente une section analytique unique. L'ensemble de dimensions est identifié par un ID courant, qui est affecté à chaque écriture correspondante qui appartient à l'ensemble de dimensions.  
-  
+
 L'exemple suivant présente un ensemble de dimensions constitué de trois écritures. L'ensemble de dimensions est identifié par l'ID 108.  
-  
+
 |ID ensemble de dimensions|Code axe|Code section|Nom de la section analytique|  
 |----------------------|--------------------|--------------------------|--------------------------|  
 |108|ZONE|70|Amérique du Nord|  
 |108|GROUPE COMPTABILISATION MARCHÉ|DÉBUT|Accueil|  
 |108|DÉPARTEMENT|VENTES|Ventes|  
-  
+
 ## <a name="dimension-set-entries"></a>Écritures de l'ensemble de dimensions  
 Les ensembles de dimensions sont stockés dans la table **Écriture de l'ensemble de dimensions** telles des écritures de l'ensemble de dimensions avec le même ID.  
-  
-![Aperçu Ecriture analytique](media/dimensionentrynav7.png "DimensionEntryNAV7")  
-  
+
+![Flux d'écritures d'ensemble de dimensions](media/dimensionentrynav7.png "Flux d'écritures d'ensemble de dimensions")  
+
 Lorsque vous créez une ligne de feuille, un en-tête de document ou une ligne de document, vous pouvez spécifier une combinaison de sections analytiques. Au lieu d'enregistrer explicitement chaque section analytique dans la base de données, un ID d'ensemble de dimensions est affecté à la ligne de feuille, à l'en-tête du document ou à la ligne du document pour spécifier l'ensemble de dimensions.  
-  
+
 Lorsque vous modifiez et fermez la fenêtre **Modifier les écritures de l'ensemble de dimensions**, une vérification est exécutée pour voir si la combinaison de sections analytiques existe comme un ensemble de dimensions dans la table. Si la combinaison se produit dans la table, l'ID d'ensemble de dimensions correspondant est affecté à la ligne de feuille, à l'en-tête du document ou à la ligne du document. Sinon, un nouvel ensemble de dimensions est ajouté à la table, et le nouvel ID d'ensemble de dimensions est affecté à la ligne de feuille, à l'en-tête du document ou à la ligne du document.  
-  
+
 ## <a name="performance-improvement"></a>Amélioration des performances  
 Pour enregistrer les axes analytiques dans la base de données, l'espace de la base de données est conservé et les performances globales sont améliorées.  
-  
+
 ## <a name="see-also"></a>Voir aussi  
 [Détails de conception : recherche des croisements analytiques](design-details-searching-for-dimension-combinations.md)   
 [Détails de conception : structure de la table](design-details-table-structure.md)   

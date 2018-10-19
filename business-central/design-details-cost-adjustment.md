@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 23/23/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ad76465ab30202981fed0d7593b9ce25b2510918
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f8f5959c25800c1a8d5ee7ed88f4e7a8599ce20a
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-cost-adjustment"></a>Détails de conception : ajustement des coûts
@@ -63,7 +63,7 @@ Cette fonction de détection est utilisée pour les scénarios de conversion, la
 
 La fonction Niveau de commande est utilisée pour détecter les ajustements dans la validation d'assemblage. Le graphique suivant montre la structure d'écriture d'ajustement :  
 
-![Structure d'écriture ajustée](media/design_details_assembly_posting_3.png "design_details_assembly_posting_3")  
+![Flux des écritures dans l'ajustement des coûts](media/design_details_assembly_posting_3.png "Flux des écritures dans l'ajustement des coûts")  
 
 Pour plus d'informations, voir [Détails de conception : modes évaluation stock](design-details-assembly-order-posting.md).  
 

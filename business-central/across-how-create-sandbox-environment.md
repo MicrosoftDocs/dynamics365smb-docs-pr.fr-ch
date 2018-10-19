@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 08/18/2017
+ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: d31095d0fc67b342d74bff813fb2eff7e3f82262
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 3110168e904cc6944a5f05a3a4cc7325425d3fe9
 ms.contentlocale: fr-ch
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
@@ -26,7 +26,7 @@ Un environnement Sandbox (aperçu) est une instance hors production de [!INCLUDE
 Vous devez disposer d'un abonnement à [!INCLUDE[d365fin](includes/d365fin_md.md)] pour pouvoir créer un environnement Sandbox. Il ne peut y avoir qu'un environnement Sandbox par abonnement.
 
 1. Connectez-vous à votre instance de production du service [!INCLUDE[d365fin](includes/d365fin_md.md)].
-2. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), saisissez **Environnement Sandbox**, puis sélectionnez le lien connexe.
+2. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Environnement Sandbox**, puis choisissez le lien associé.
 ![Configuration de l'environnement Sandbox](./media/across-sandbox/sandbox-environment-setup.png)
 3. Sélectionnez **Créer**.  
   Un autre onglet de votre navigateur s'ouvre pour vous permettre de terminer la configuration de votre environnement Sandbox.
@@ -40,7 +40,7 @@ Vous devez disposer d'un abonnement à [!INCLUDE[d365fin](includes/d365fin_md.md
 6. En haut du tableau de bord, une notification s'affiche pour vous informer qu'il s'agit d'un environnement Sandbox. Vous pouvez également voir le type de l'environnement dans la barre de titre du client.
 ![Notification du tableau de bord Sandbox](./media/across-sandbox/sandbox-rolecenter-notification.png)  
 Dans l'environnement Sandbox, un nouvel abonné a été créé. Cet abonné est chargé avec les données de démonstration par défaut de la société CRONUS. Aucune donnée n'est copiée ou transférée à partir de l'environnement de production lors de la création de l'environnement Sandbox.
-7.  À tout moment, vous pouvez revenir à la page **Environnement Sandbox** et réinitialiser l'environnement Sandbox.
+7.  À tout moment, vous pouvez revenir à la fenêtre **Environnement Sandbox** et réinitialiser l'environnement Sandbox.
 > [!NOTE]  
 >  La réinitialisation de l'environnement Sandbox entraîne sa suppression complète et sa recréation avec les données de démonstration par défaut.  
 
@@ -58,7 +58,7 @@ Dans un environnement Sandbox, la fonctionnalité Éditeur interne du client peu
 ![Éditeur interne du client](./media/across-sandbox/sandbox-inclient-designer.png)
 
 ### <a name="enable-the-advanced-user-experience"></a>Activer l'expérience utilisateur avancée
-Il est possible d'activer et de tester la fonctionnalité (complète) avancée de [!INCLUDE[d365fin](includes/d365fin_md.md)] dans un abonné Sandbox en définissant le champ **Expérience** sur la page **Informations société**.
+Il est possible d'activer et de tester la fonctionnalité (complète) avancée de [!INCLUDE[d365fin](includes/d365fin_md.md)] dans un abonné Sandbox en définissant le champ **Expérience** sur la fenêtre **Informations société**.
 
 ![Expérience avancée dans l'environnement Sandbox](./media/across-sandbox/sandbox-advanced.png)
 

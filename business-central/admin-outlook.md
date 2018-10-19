@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 03/16/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 7013cfa615174953660aa291abd62fa327e6f3ab
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6923414d6e1fb56a48c3715eaa1c2fa3c4ee9f69
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Utilisation de Business Central en tant que boîte de réception professionnelle dans Outlook
@@ -50,7 +50,7 @@ Dans le complément Liens de document, vous pouvez modifier le document et effec
 ## <a name="adding-the-add-ins-manually"></a>Ajout de compléments manuellement
 Dans certains cas, les compléments ne sont pas ajoutés automatiquement dans Outlook. Même si vous (ou l'un de vos collègues) avez exécuté le guide de configuration assistée pour le compte de la société, [!INCLUDE[d365fin](includes/d365fin_md.md)] ne s'affiche pas forcément dans Outlook. Si vous rencontrez ce problème, vous pouvez ajouter le complément [!INCLUDE[d365fin](includes/d365fin_md.md)] manuellement.  
 
-Premièrement, vous devez vérifier que vous avez accès aux compléments dans votre compte Office 365. Il vous suffit d'ouvrir Outlook Web Access dans un navigateur, puis d'ajouter `/owa/#path=/options/manageapps` à l'URL dans la barre d'adresse. La page **Gérer les compléments** s'ouvre alors et vous pouvez activer [!INCLUDE[d365fin](includes/d365fin_md.md)] pour Outlook. Ensuite, lorsque vous revenez dans Outlook, [!INCLUDE[d365fin](includes/d365fin_md.md)] devrait être disponible.  
+Premièrement, vous devez vérifier que vous avez accès aux compléments dans votre compte Office 365. Il vous suffit d'ouvrir Outlook Web Access dans un navigateur, puis d'ajouter `/owa/#path=/options/manageapps` à l'URL dans la barre d'adresse. La fenêtre **Gérer les compléments** s'ouvre alors et vous pouvez activer [!INCLUDE[d365fin](includes/d365fin_md.md)] pour Outlook. Ensuite, lorsque vous revenez dans Outlook, [!INCLUDE[d365fin](includes/d365fin_md.md)] devrait être disponible.  
 
 De même dans le client de bureau Outlook, vous pouvez vérifier si [!INCLUDE[d365fin](includes/d365fin_md.md)] est répertorié dans la fenêtre **Gérer les compléments**.  
 

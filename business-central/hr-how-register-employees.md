@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.date: 08/11/2017
+ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: 9b36c5692673ddf54be0572c8a2f035f67311d60
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 82191dc19a1a40d8823c8292010e5b01e16f9f64
 ms.contentlocale: fr-ch
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="register-employees"></a>Enregistrer les employés
@@ -30,14 +30,14 @@ Les procédures suivantes décrivent comment créer une première fiche salarié
 > Vous pouvez rembourser les frais engagés par les employés durant leurs activités professionnelles. Pour cela, vous devez renseigner les champs du raccourci **Paiements** dans la fenêtre **Fiche salarié**. Pour plus d'informations, voir [Enregistrer et rembourser les frais des employés](finance-how-record-reimburse-employee-expenses.md).
 
 ## <a name="to-set-up-an-employee"></a>Pour configurer un salarié
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Employés**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Employés**, puis choisissez le lien associé.
 2. Sélectionnez l'action **Nouveau**.
 3. Dans la fenêtre **Fiche salarié**, renseignez les champs comme nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-insert-a-picture-of-an-employee"></a>Pour insérer une photo d'un salarié
 Si vous disposez d'une photo d'un salarié au format .bmp, vous pouvez l'insérer sur la fiche de ce dernier.
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Employés**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Employés**, puis choisissez le lien associé.
 2. Ouvrez la fiche du salarié en question.
 3. Dans le récapitulatif **Photo salarié**, choisissez le bouton déroulant, puis choisissez **Importer**.
 4. Dans la fenêtre **Sélectionner une image à charger**, cliquez sur le bouton **Choisir**.
@@ -50,7 +50,7 @@ Sur la fiche salarié, vous pouvez définir des informations, telles que l'adhé
 
 Vous pouvez utiliser des adresses secondaires pour conserver un historique des déplacements de vos salariés, par exemple s'ils ont été en poste à l'étranger, en voyages d'affaires de longue durée ou s'ils séjournent dans une résidence d'été.
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Employés**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Employés**, puis choisissez le lien associé.
 2. Ouvrez la fiche du salarié en question.
 3. Choisissez l'option **Adresses secondaires**.
 4. Dans la fenêtre **Liste des adresses secondaires**, renseignez les champs selon vos besoins.

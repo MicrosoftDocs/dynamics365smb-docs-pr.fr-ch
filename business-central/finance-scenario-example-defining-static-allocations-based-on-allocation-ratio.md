@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8b4d26e3cb8a1364745dd25ca5341635c49a5718
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 036aa1f317c1b1de7fc1548e03d40eca8c25be89
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="scenario-example-defining-static-allocations-based-on-allocation-ratio"></a>Exemple de scénario : Définition des ventilations statiques en fonction du ratio d'affectation
@@ -29,13 +29,13 @@ Cette rubrique décrit comment définir trois nouveaux coûts associés pour la 
 
 ## <a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a>Pour définir le centre de coûts PROD de la source d'affectation sur le raccourci Général  
 
-1.  Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Affectation des coûts**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Affectation des coûts**, puis choisissez le lien associé.  
 2.  Dans la fenêtre **Affectation des coûts**, sélectionnez l'action **Nouveau**.  
 3.  Dans le champ **ID**, appuyez sur Entrée ou saisissez un ID.  
 4.  Dans le champ **Niveau**, saisissez **1**.  
 5.  Dans les champs **Valide à partir de** et **Valide jusque**, entrez les dates appropriées.  
 6.  Dans le champ **Code centre de coûts**, entrez **PROD**.  
-7.  Dans le champ **Type de crédit\\\/coût**, entrez le type de coût **9903**.  
+7.  Dans le champ **Type de crédit/coût**, entrez le type de coût **9903**.  
 
 ## <a name="to-define-the-allocation-target-cost-objects-on-the-lines-fasttab"></a>Pour définir les coûts associés de la cible d'affectation sur le raccourci Lignes  
 

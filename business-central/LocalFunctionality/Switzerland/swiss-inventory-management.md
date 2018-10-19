@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/06/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
-ms.openlocfilehash: 5daae157434867c07bac55310ac1b24ea34df06c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 012c7c54f1e29b91409dcce92f059c88b55e2e53
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/30/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="swiss-inventory-management"></a>Gestion des stocks, Suisse
@@ -35,8 +35,7 @@ Les informations, telles que le numéro du client, le code adresse destinataire 
 Si plusieurs expéditions ont été validées pour un client, vous pouvez créer une facture regroupée avec la fonction **Extraire lignes expédition**. Pour plus d'informations, voir la fenêtre Extraire lignes expédition. Lorsque vous utilisez cette fonction, le texte créé sur les lignes de facture inclut des informations sur le numéro d'expédition et la date d'expédition. Par exemple, le texte peut paraître comme Expédition N° 102040 sur 25.01.01. Cela vous permet de suivre facilement les factures avec plusieurs expéditions.  
 
 ## <a name="see-also"></a>Voir aussi  
- [Copier des articles existants pour créer de nouveaux articles](how-to-copy-existing-items-to-new-items.md)   
- [Désactiver le suivi des coûts article](how-to-deactivate-item-cost-tracking.md)   
+ [Copier des articles existants pour créer de nouveaux articles](how-to-copy-existing-items-to-new-items.md)  
  [Fonctionnalité locale, Suisse](switzerland-local-functionality.md)   
  [Configurer des magasins](../../inventory-how-setup-locations.md)
 

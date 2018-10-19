@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 42e03563ac3d1d12226df4089e4fe42aa2713a9b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 714ebd289407293f2a9fb8f05cad68330c79ad9a
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="specify-when-and-how-to-receive-notifications"></a>Spécifier quand et comment recevoir des notifications
@@ -30,7 +30,7 @@ Lorsque vous paramétrez des utilisateurs dans des workflows d'approbation, vous
 
 ## <a name="specify-when-and-how-users-receive-notifications"></a>Spécifier quand et comment recevoir des notifications  
 
-1.  Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Paramètres utilisateur approbation**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres utilisateur approbation**, puis sélectionnez le lien associé.  
 2.  Sélectionnez la ligne pour l'utilisateur pour lequel vous souhaitez paramétrer des préférences de notification, puis choisissez l'action **Paramètre de notification**.  
 3.  Dans la fenêtre **Paramètres de notification**, renseignez les champs comme indiqué dans le tableau suivant.  
 
@@ -55,7 +55,7 @@ Lorsque vous paramétrez des utilisateurs dans des workflows d'approbation, vous
     |**Date de notification mensuelle**|Spécifiez à quelle date du mois l'utilisateur reçoit des notifications lorsque la valeur dans le champ **Date du mois** est **Personnalisé**.|  
 
 ## <a name="change-when-and-how-you-receive-notifications"></a>Modifier le moment et le mode de réception des notifications  
-1.  Sur l'une des notifications que vous avez reçue, par e\\\-mail ou par note, sélectionnez le bouton **Modifier les paramètres de notification**.  
+1.  Sur l'une des notifications que vous avez reçue, par e-mail ou par note, sélectionnez le bouton **Modifier les paramètres de notification**.  
 2.  Dans la fenêtre **Paramètres de notification**, modifiez vos préférences de notification suivant les instructions de la procédure précédente.  
 
 ## <a name="see-also"></a>Voir aussi  

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5f66e2f3a40bb3ac680838f1e74416d3876f3979
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e32cbdc9bc5f61a054972be4c5bcc409ada961a0
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="import-and-export-a-report-or-document-layout"></a>Importer et exporter une présentation de rapport ou de document
@@ -27,7 +27,7 @@ Vous pouvez importer et exporter une présentation de rapport personnalisée exi
   
 ### <a name="to-export-a-report-layout-to-a-file"></a>Pour exporter une présentation de rapport vers un fichier  
   
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Sélection présentation état**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Sélection présentation état**, puis sélectionnez le lien associé.  
   
 2.  Sélectionnez la ligne pour le rapport contenant la présentation de rapport personnalisée que vous souhaitez exporter, puis sous l'onglet **Accueil**, dans le groupe **Traitement**, choisissez **Présentations personnalisées**.  
   
@@ -41,7 +41,7 @@ Vous pouvez importer et exporter une présentation de rapport personnalisée exi
   
      Un fichier de présentation de rapport Word doit avoir une extension de type .docx. Un fichier de présentation de rapport RDLC doit avoir une extension de type .rdlc ou .rdl.  
   
-2.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Sélection présentation état**, puis sélectionnez le lien connexe.  
+2.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Sélection présentation état**, puis sélectionnez le lien associé.  
   
 3.  Sélectionnez la ligne pour le rapport vers laquelle vous souhaitez importer la présentation de rapport, puis sous l'onglet **Accueil**, dans le groupe **Traitement**, choisissez **Présentations personnalisées**.  
   

@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect, contact, client, customer
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0a7de9af414851d3bdcfe1a8be4d3de13929bca0
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fd6ff4b937b059980bf7fb6a41f000edc1ab1fcf
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="add-contacts-to-segments"></a>Ajouter des contacts à des segments
 Lorsque vous avez créé un segment et saisi les informations de base le concernant, vous pouvez être amené à ajouter des contacts au segment. Pour ce faire, vous pouvez renseigner manuellement les lignes de la fenêtre **Segment** ou utiliser l'action **Ajouter contacts** (plus simple et plus rapide).
 
 ## <a name="to-add-a-contact-to-a-segment"></a>Pour ajouter un contact à un segment
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Segments**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Segments**, puis sélectionnez le lien associé.  
 2. Sélectionnez le segment, puis sélectionnez l'action **Ajouter contacts**. La fenêtre de traitement par lots **Ajouter contacts** s'affiche.
 3. Dans la section **Contact**, définissez les filtres spécifiant les informations en fonction desquelles vous souhaitez sélectionner des contacts.
 

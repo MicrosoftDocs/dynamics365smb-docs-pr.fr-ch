@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 11/23/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c95432ec1cf24aaaedf0fad5a2746ace9705e2e3
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9d0a5ab6bebdc9723fe8e3621fdda3cb16d5e6e1
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-posting-date-on-adjustment-value-entry"></a>Détails de conception : date comptabilisation de l'écriture valeur d'ajustement
@@ -33,7 +33,7 @@ Tout d'abord, le concept du processus est passé en revue, c'est-à-dire la mani
 
  Examinons ce processus plus en détail. Supposons que nous avons une écriture comptable article de type Vente. L'article a été livré le 5 septembre 2013 et il a été facturé le jour suivant.  
 
-![Écriture comptable article : format de date : JJ MM AAAA](media/helene/TechArticleAdjustcost1.png "TechArticleAdjustcost1")  
+![État des écritures comptables article dans le scénario](media/helene/TechArticleAdjustcost1.png "État des écritures comptables article dans le scénario")  
 
 La première écriture valeur (379) représente l'expédition et utilise la même date comptabilisation que l'écriture comptable article parent.  
 
@@ -41,7 +41,7 @@ La deuxième écriture valeur (381) représente la facture.
 
  La troisième écriture valeur (391) est un ajustement de l'écriture valeur de facturation (381)  
 
- ![Écriture comptable article : format de date : JJ MM AAAA](media/helene/TechArticleAdjustcost2.png "TechArticleAdjustcost2")  
+ ![État des écritures valeur dans le scénario](media/helene/TechArticleAdjustcost2.png "État des écritures valeur dans le scénario")  
 
  Étape 1 : l'écriture valeur d'ajustement à créer a la même date comptabilisation que l'écriture qu'elle ajuste, comme illustré ci-dessus par l'écriture valeur 391.  
 
@@ -53,13 +53,13 @@ Le traitement par lots **Ajuster coûts - Écr. article** détermine si la date 
 
  Périodes inventaire :  
 
-![Ajuster coûts &#45; Données des écritures article](media/helene/TechArticleAdjustcost3.png "TechArticleAdjustcost3")
+![Périodes inventaire dans le scénario](media/helene/TechArticleAdjustcost3.png "Périodes inventaire dans le scénario")
 
  La première date comptabilisation autorisée est le premier jour de la première période ouverte. 1er septembre 2013.  
 
  Paramètres comptabilité :  
 
-![Ajuster coûts &#45; Données des écritures article](media/helene/TechArticleAdjustcost4.png "TechArticleAdjustcost4")
+![Configuration comptabilité dans le scénario](media/helene/TechArticleAdjustcost4.png "Configuration comptabilité dans le scénario")
 
  La première date comptabilisation autorisée est la date indiquée dans le champ Début période validation : 10 septembre 2013.  
 
@@ -69,7 +69,7 @@ Le traitement par lots **Ajuster coûts - Écr. article** détermine si la date 
 
  La date comptabilisation initiale était le 6 septembre, comme illustré à l'étape 1. Toutefois, dans la 2ème étape, le traitement par lots Ajuster coûts - Écr. article identifie que la date comptabilisation autorisée la plus proche est le 10 septembre et affecte donc le 10 septembre à l'écriture valeur d'ajustement ci-dessous.  
 
- ![Ajuster coûts &#45; Données des écritures article](media/helene/TechArticleAdjustcost5.png "TechArticleAdjustcost5")
+ ![État des écritures valeur dans le scénario 2](media/helene/TechArticleAdjustcost5.png "État des écritures valeur dans le scénario 2")
 
  Nous avons passé en revue le concept d'affectation de dates comptabilisation aux écritures valeur créées par le traitement par lots Ajuster coûts - Écr. article.  
 
@@ -82,15 +82,15 @@ Le traitement par lots **Ajuster coûts - Écr. article** détermine si la date 
 
  Dans la section précédente qui décrit le concept d'affectation de dates comptabilisation, l'intention du traitement par lots Ajuster coûts – Écr article est de créer une écriture valeur avec la date comptabilisation du 10 septembre.  
 
-![Ajuster coûts &#45; Données des écritures article](media/helene/TechArticleAdjustcost6.png "TechArticleAdjustcost6")
+![Message d'erreur sur la date comptabilisation](media/helene/TechArticleAdjustcost6.png "Message d'erreur sur la date comptabilisation")
 
  Nous passons aux paramètres utilisateur :  
 
-![Ajuster coûts &#45; Données des écritures article](media/helene/TechArticleAdjustcost7.png "TechArticleAdjustcost7")
+![Configuration des dates comptabilisation autorisées de l'utilisateur](media/helene/TechArticleAdjustcost7.png "Configuration des dates comptabilisation autorisées de l'utilisateur")
 
  L'utilisateur dans ce cas a une plage de dates comptabilisation autorisées allant du 11 au 30 septembre et n'est donc pas autorisé à valider l'écriture valeur d'ajustement avec la date comptabilisation du 10 septembre.  
 
-![Ajuster coûts &#45; Données des écritures article](media/helene/TechArticleAdjustcost8.png "TechArticleAdjustcost8")
+![Aperçu de la configuration de la date comptabilisation impliquée](media/helene/TechArticleAdjustcost8.png "Aperçu de la configuration de la date comptabilisation impliquée")
 
  L'article de la Base de connaissances [952996](https://mbs2.microsoft.com/Knowledgebase/kbdisplay.aspx?WTNTZSMNWUKNTMMYXUPYZQPOUXNXSPSYOQQYYMLUQLOYYMWP) décrit des scénarios supplémentaires associés au message d'erreur indiqué.  
 
@@ -173,9 +173,9 @@ Le traitement par lots **Ajuster coûts - Écr. article** détermine si la date 
 
  Les écritures comptables article et les écritures valeur suivantes ont été validées :  
 
-![Ajuster coûts &#45; Données des écritures article](media/helene/TechArticleAdjustcost9.png "TechArticleAdjustcost9")
+![Aperçu des écritures comptables article et valeur article résultantes 1](media/helene/TechArticleAdjustcost9.png "Aperçu des écritures comptables article et valeur article résultantes 1")
 
- ![Ajuster coûts &#45; Données des écritures article](media/helene/TechArticleAdjustcost10.png "TechArticleAdjustcost10")
+ ![Aperçu des écritures comptables article et valeur article résultantes 2](media/helene/TechArticleAdjustcost10.png "Aperçu des écritures comptables article et valeur article résultantes 2")
 
  Le traitement par lots Ajuster coûts – Écr article a identifié une modification des coûts et ajusté les ajustements négatifs.  
 
@@ -290,7 +290,7 @@ Le traitement par lots **Ajuster coûts - Écr. article** détermine si la date 
 
      Validez la réception et la facture.  
 
-     ![Ajuster coûts &#45; Données des écritures article](media/helene/TechArticleAdjustcost11.png "TechArticleAdjustcost11")
+     ![Aperçu des écritures comptables article et valeur article résultantes 3](media/helene/TechArticleAdjustcost11.png "Aperçu des écritures comptables article et valeur article résultantes 3")
 
 6.  À la date du 3 janvier arrive une facture achat, contenant des frais annexes supplémentaires pour l'achat effectué à l'étape 2. La date de document de cette facture est le 30 décembre, elle est donc validée avec la date comptabilisation du 30 décembre 2013.  
 
@@ -314,11 +314,11 @@ Le traitement par lots **Ajuster coûts - Écr. article** détermine si la date 
 
      Validez la réception et la facture.  
 
-   ![Ajuster coûts &#45; Données des écritures article](media/helene/TechArticleAdjustcost12.png "TechArticleAdjustcost12")
+   ![Aperçu des écritures comptables article et valeur article résultantes 4](media/helene/TechArticleAdjustcost12.png "Aperçu des écritures comptables article et valeur article résultantes 4")
 
  L'état Évaluation du stock est imprimé à la date du 31 décembre 2013  
 
-![Ajuster coûts &#45; Données des écritures article](media/helene/TechArticleAdjustcost13.png "TechArticleAdjustcost13")
+![Contenu du rapport d'évaluation du stock](media/helene/TechArticleAdjustcost13.png "Contenu du rapport d'évaluation du stock")
 
  **Résumé du scénario :**  
 
@@ -355,20 +355,14 @@ Le traitement par lots **Ajuster coûts - Écr. article** détermine si la date 
 
  Dans la version 3 et 4, le traitement par lot analyse toutes les écritures valeur pour détecter s'il existe des écritures valeur dont le coût total (réel) diffère du coût validé en comptabilité. Si une différence est détectée, le montant différent sera validé dans une écriture comptable. Si la comptabilisation des coûts prévus est utilisée, les champs correspondants sont traités de la même manière.  
 
-![Ajuster coûts &#45; Données des écritures article](media/helene/TechArticleAdjustcost14.png "TechArticleAdjustcost14")
+![Coût réel comparé au coût prévu](media/helene/TechArticleAdjustcost14.png "Coût réel comparé au coût prévu")
 
 ### <a name="from-version-50"></a>À partir de la version 5.0 :  
  Il n'est plus nécessaire d'indiquer une date comptabilisation dans le formulaire de demande du traitement par lots Valider coûts ajustés. L'écriture comptable est créée avec la même date comptabilisation que l'écriture valeur associée. Pour exécuter le traitement par lots, la plage de dates comptabilisation autorisées doit autoriser la date comptabilisation de l'écriture comptable créée. Sinon, la plage de dates comptabilisation autorisées doit être temporairement rouverte en modifiant ou en supprimant les dates des champs Début période validation et Fin période validation dans les paramètres comptabilité. Pour éviter les problèmes de rapprochement, la date comptabilisation de l'écriture comptable doit correspondre à la date comptabilisation de l'écriture valeur.  
 
- Le traitement par lots analyse la table 5811 - Valider écriture valeur en comptabilité pour identifier les écritures valeur concernées par la validation en comptabilité. Une fois l'exécution réussie, la table est vidée.  
-
- Vos commentaires sur la manière dont ce processus et la documentation peuvent être davantage développés sont les bienvenus.  
-
- Helene Holmin  
-
- Ingénieur d'escalade Dynamics NAV  
+ Le traitement par lots analyse la table 5811 - Valider écriture valeur en comptabilité pour identifier les écritures valeur concernées par la validation en comptabilité. Une fois l'exécution réussie, la table est vidée.
 
 ## <a name="see-also"></a>Voir aussi  
-[Détails de conception : évaluation stock](design-details-inventory-costing.md)  
+[Détails de conception : Évaluation stock](design-details-inventory-costing.md)  
 [Détails de conception : lettrage article](design-details-item-application.md)  
 

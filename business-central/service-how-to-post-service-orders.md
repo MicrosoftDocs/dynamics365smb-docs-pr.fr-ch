@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 01c30041e9034b87b39d80972865b180dd4a97d2
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 2b62ab8062c5c93bbf67b6949397d18556b8cf78
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Valider des commandes et des avoirs service
@@ -28,9 +28,9 @@ Si vous avez un grand nombre de commandes service, vous pouvez gagner du temps e
 > Avant de valider un document service, il est recommandé d'utiliser l'action **Impression test** pour vérifier toutes les erreurs ou informations manquantes. S'il existe des erreurs, vous devez corriger le problème. Vous pouvez effectuer une nouvelle impression test pour vérifier le correctif, puis valider le document.
   
 ## <a name="to-post-a-service-order"></a>Pour valider des commandes service :    
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Commandes service**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes service**, puis sélectionnez le lien associé.  
 2. Ouvrez la commande service.  
-3. Sur la page **Commande service**, choisissez l'une des actions suivantes.  
+3. Sur la fenêtre **Commande service**, choisissez l'une des actions suivantes.  
   
     |**Fonction**|**Résultat**|  
     |------------------|----------------|  
@@ -53,7 +53,7 @@ Vous ne pouvez valider la consommation que si la ligne contient une quantité qu
 Lors de la validation de la commande, les écritures et les documents validés correspondants sont créés. Les champs appropriés dans le document commande service sont mis à jour.  
 
 ## <a name="to-batch-post-service-orders"></a>Pour valider des commandes service à l'aide d'un traitement par lots
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Commandes service**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes service**, puis sélectionnez le lien associé.  
 2. Sélectionnez l'action **Valider par lot**.  
 3.  Vous pouvez positionner un filtre pour sélectionner des numéros commande service ou un intervalle de numéros commande pour le traitement par lots à effectuer.  
 4.  Cliquez sur **OK** pour démarrer le traitement par lots.  
@@ -61,7 +61,7 @@ Lors de la validation de la commande, les écritures et les documents validés c
 ## <a name="to-post-a-service-credit-memo"></a>Pour valider des avoirs service  
 Après avoir créé un avoir service et l'avoir renseigné, vous pouvez valider l'avoir. S'il y a des erreurs ou l'absence de certaines informations sur l'avoir crédit lors de la validation, le processus est interrompu par un message d'erreur.  
    
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Avoirs service**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Avoirs service**, puis sélectionnez le lien associé.  
 2. Créez un avoir service. Sous l'onglet **Accueil**, dans le groupe **Nouveau**, choisissez **Nouveau**.  
 3. Renseignez les champs suivants.  
 4. Sous l'onglet **Actions**, dans le groupe **Validation**, choisissez **Valider**. Si vous souhaitez imprimer et valider l'avoir simultanément, choisissez plutôt **Valider et imprimer**.  
@@ -74,7 +74,7 @@ Après avoir créé un avoir service et l'avoir renseigné, vous pouvez valider 
 ## <a name="to-post-consumption-from-a-service-order"></a>Pour valider une consommation à partir d'une commande service  
 La procédure suivante décrit comment valider les articles, les heures et/ou coûts ressource utilisés pour une opération de service spécifique que vous n'allez pas facturer au client. Notez que vous ne pouvez valider des articles, des heures et/ou des coûts consommés que pour une expédition validée pour laquelle il n'y a pas de facture ni de consommation validée.  
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Commandes service**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes service**, puis sélectionnez le lien associé.  
 2. Ouvrez la commande service dont vous voulez valider la consommation.  
 3. Choisissez l'article de service. Sélectionnez **Actions**, **Commande**, puis **Lignes service**.  
 4. Recherchez les écritures requises et spécifiez les quantités pour lesquelles vous allez valider la consommation dans le champ **Qté à facturer**. La quantité ne peut pas être supérieure à la quantité déjà expédiée et la quantité restante, mais non facturée après la facturation partielle de cette expédition.  
@@ -91,7 +91,7 @@ Après avoir spécifié les détails d'un service, vous pouvez ajuster et valide
   
 La procédure suivante explique comment valider l'expédition des articles ligne service dans les magasins qui ne sont pas configuré pour appeler une gestion d'entrepôt.  
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Commande service**, puis sélectionnez le lien connexe. 2. Dans la fenêtre de la commande service sélectionnée, choisissez **Actions**, **Commande**,  **Lignes service**.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commande service**, puis sélectionnez le lien associé. 2. Dans la fenêtre de la commande service sélectionnée, choisissez **Actions**, **Commande**,  **Lignes service**.  
 3. Dans la fenêtre **Lignes service**, recherchez les écritures requises, puis spécifiez la quantité à valider dans le champ **Qté à expédier**.  
   
    > [!NOTE]  
@@ -108,7 +108,7 @@ Pour plus d'informations sur la manière d'expédier des articles ligne service 
 ## <a name="to-undo-posted-consumption"></a>Pour annuler une consommation validée  
 Vous pouvez annuler la consommation sur les commandes service. Par exemple, parce qu'elle a été validée par erreur.  
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Expéditions service enreg.**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Expéditions service enreg.**, puis sélectionnez le lien associé.  
 2. Ouvrez l'expédition service validée pour laquelle la consommation erronée a été validée.  
 3. Sélectionnez **Actions**, **Expédition**, puis **Extraire lignes service**.  
 4. Sélectionnez les lignes contenant la consommation incorrecte, puis sélectionnez l'action **Annuler consommation**.  
@@ -126,7 +126,7 @@ Si vous devez travailler sur une commande service pendant longtemps sans la vali
   
 La procédure suivante décrit la validation de l'expédition directement à partir d'une commande service dans des magasins sans configuration de gestion d'entrepôt. Si le magasin est configuré pour appeler une gestion d'entrepôt, la validation d'expédition a lieu dans un autre document entrepôt, en fonction de la configuration du magasin.
   
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Commandes service**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes service**, puis sélectionnez le lien associé.  
 2. Ouvrez la commande service, puis cliquez sur l'action **Lignes service**.  
 4. Dans les lignes que vous allez valider, renseignez les champs **Qté à expédier**, **Qté à facturer** et/ou **Qté à consommer**, en fonction de la manière dont vous allez valider les lignes.  
 5. Sélectionnez l'action **Valider**.

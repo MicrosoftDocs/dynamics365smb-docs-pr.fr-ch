@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/23/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 54d716a069384bf4acdc5c0e24e4e1e292e2be43
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: cea5bb76f8fdb8c9c52a5f341d29a34bcb8f0cdc
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-warehouse-overview"></a>Détails de conception : vue d'ensemble d'entrepôt
@@ -30,7 +30,7 @@ Lorsque les validations article se produisent en dehors du module d'entrepôt, u
 
 La figure suivante présente les flux d'entrepôt courants.  
 
-![Vue d'ensemble des processus entrepôt](media/design_details_warehouse_management_overview.png "design_details_warehouse_management_overview")  
+![Vue d'ensemble des processus entrepôt](media/design_details_warehouse_management_overview.png "Vue d'ensemble des processus entrepôt")  
 
 ## <a name="basic-or-advanced-warehousing"></a>Entreposage de base ou avancé  
 La fonctionnalité d'entrepôt dans [!INCLUDE[d365fin](includes/d365fin_md.md)] peut être implémentée dans différents niveaux de complexité, selon les processus d'une société et le volume de commande. La principale différence est que les activités sont effectuées par commande dans l'entreposage de base, alors qu'elles sont regroupées pour plusieurs commandes dans l'entreposage avancé.  

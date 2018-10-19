@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
-ms.date: 04/09/208
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: fa6779ee8fb2bbb453014e32cb7f3cf8dcfa18da
-ms.openlocfilehash: 698bde6949c6053501881d07135586810fc81bdd
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: a10c05116e97cdf000bd46258a9d67f4c9910c90
 ms.contentlocale: fr-ch
-ms.lasthandoff: 04/11/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
-# <a name="the-c5-data-migration-extension-for-business-central"></a>Extension C5 Data Migration pour Business Central
+# <a name="the-c5-data-migration-extension"></a>Extension C5 Data Migration
 Cette extension facilite la migration de clients, de fournisseurs, d'articles et de vos comptes généraux de Microsoft Dynamics C5 2012 vers [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vous pouvez également migrer des écritures historiques pour des comptes généraux.
 
 > [!Note]
@@ -30,6 +30,7 @@ Cette extension facilite la migration de clients, de fournisseurs, d'articles et
 Les données suivantes sont migrées pour chaque entité :
 
 **Clients**
+* Contacts  
 * Emplacement
 * Pays
 * Axes client (service, centre, objectif)
@@ -47,6 +48,7 @@ Si vous migrez des comptes, les données suivantes sont également migrées :
 * Transactions ouvertes (écritures comptables client)
 
 **Fournisseurs**
+* Contacts
 * Emplacement
 * Pays
 * Axes fournisseur (service, centre, objectif)
@@ -75,6 +77,7 @@ Si vous migrez des comptes, les données suivantes sont également migrées :
 * Unités de mesure
 * Code traçabilité
 * Groupe prix client
+* Nomenclatures d'élément d'assemblage
 
 Si vous migrez des comptes, les données suivantes sont également migrées :
 
@@ -97,32 +100,34 @@ Si vous migrez des comptes, les données suivantes sont également migrées :
 Quelques étapes suffisent pour exporter des données de C5 et les importer dans [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
 
 1. Dans C5, utilisez la fonctionnalité **Exporter la base de données** pour exporter les données. Envoyez ensuite le fichier d'exportation vers un fichier compressé (zippé).  
-2. Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), saisissez **Migration de données**, puis sélectionnez **Migration de données**.  
+2. Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Migration des données**, puis sélectionnez **Migration des données**.  
 3. Exécutez les étapes du guide de configuration assistée. Veillez à choisir **Importer à partir de Microsoft Dynamcis C5 2012** comme source de données.  
 
 > [!Note]
 > Les sociétés ajoutent souvent des champs pour personnaliser C5 pour leur activité spécifique. [!INCLUDE[d365fin](includes/d365fin_md.md)] n'effectue pas la migration de données à partir des champs personnalisés. En outre, la migration échouera si vous avez plus de 10 champs personnalisés.
 
 ## <a name="viewing-the-status-of-the-migration"></a>Affichage du statut de la migration
-Utilisez la page **Vue d’ensemble de la migration des données** pour contrôler la réussite de la migration. La page affiche des informations telles que le nombre d'entités incluses dans la migration, le statut de la migration, ainsi que le nombre d'articles qui ont été migrés et l'état de réussite de leur migration. Elle affiche également le nombre d'erreurs, ce qui vous permet d'étudier ce qui ne s'est pas passé correctement et, si possible, d'accéder facilement à l'entité pour résoudre les problèmes. Pour plus d'informations, voir la section suivante de cette rubrique.  
+Utilisez la fenêtre **Vue d’ensemble de la migration des données** pour contrôler la réussite de la migration. La page affiche des informations telles que le nombre d'entités incluses dans la migration, le statut de la migration, ainsi que le nombre d'articles qui ont été migrés et l'état de réussite de leur migration. Elle affiche également le nombre d'erreurs, ce qui vous permet d'étudier ce qui ne s'est pas passé correctement et, si possible, d'accéder facilement à l'entité pour résoudre les problèmes. Pour plus d'informations, voir la section suivante de cette rubrique.  
 
 > [!Note]
 > Pendant que vous attendez les résultats de la migration, vous devez actualiser la page pour afficher les résultats.
 
 ## <a name="how-to-avoid-double-posting"></a>Comment éviter la double validation
 Pour éviter la double validation en comptabilité, les comptes de contrepartie suivants sont utilisés pour les transactions ouvertes :  
-  
+
 * Pour les fournisseurs, nous utilisons le compte Comptabilité fournisseur dans le groupe comptabilisation fournisseur.  
 * Pour les clients, nous utilisons le compte Comptabilité client dans le groupe comptabilisation client.  
 * Pour les articles, nous créons un paramètre comptabilisation où le compte ajustement est le compte spécifié comme compte stock dans les paramètres comptabilisation stock.  
 
 ## <a name="correcting-errors"></a>Correction des erreur
-Si quelque chose se passe mal et qu'une erreur survient, le champ **Statut** affiche **Terminé avec des erreurs**, et le champ **Nombre d'erreurs** en indique le nombre. Pour afficher la liste des erreurs, vous pouvez ouvrir la page **Erreurs de migration des données** en sélectionnant :  
+Si quelque chose se passe mal et qu'une erreur survient, le champ **Statut** affiche **Terminé avec des erreurs**, et le champ **Nombre d'erreurs** en indique le nombre. Pour afficher la liste des erreurs, vous pouvez ouvrir la fenêtre **Erreurs de migration des données** en sélectionnant :  
 
 * le nombre dans le champ **Nombre d'erreurs** pour l'entité.  
 * l'entité, puis l'action **Afficher les erreurs**.  
 
-Dans la page **Erreurs de migration des données**, pour corriger une erreur vous pouvez sélectionner un message d'erreur, puis **Modifier l'enregistrement** pour ouvrir une page qui affiche les données migrées pour l'entité. Après avoir corrigé une ou plusieurs erreurs, vous pouvez sélectionner **Migrer** pour migrer uniquement les entités que vous avez corrigées, sans entièrement redémarrer la migration.  
+Dans la fenêtre **Erreurs de migration des données**, pour corriger une erreur vous pouvez sélectionner un message d'erreur, puis **Modifier l'enregistrement** pour afficher les données migrées pour l'entité. Si vous avez plusieurs erreurs à résoudre, vous pouvez choisir **Erreurs de correction en bloc** pour modifier les entités dans la liste. Vous devez toujours ouvrir les enregistrements individuellement si l'erreur est due à une écriture associée. Par exemple, un fournisseur ne sera pas migré si une adresse e-mail de l'un de ses contacts a un format non valide.
+
+Après avoir corrigé une ou plusieurs erreurs, vous pouvez sélectionner **Migrer** pour migrer uniquement les entités que vous avez corrigées, sans entièrement redémarrer la migration.  
 
 > [!Tip]
 > Si vous avez corrigé plusieurs erreur, vous pouvez utiliser la fonctionnalité **Sélectionner davantage** pour sélectionner plusieurs lignes à migrer. Sinon, s'il existe des erreurs qu'il n'est pas important de corriger, vous pouvez les sélectionner, puis cliquer sur **Ignorer les sélections**.
@@ -145,5 +150,5 @@ Vous pouvez arrêter de migrer les données en sélectionnant **Arrêter toutes 
 
 ## <a name="see-also"></a>Voir aussi
 [Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md)  
-[Mise en route](product-get-started.md) 
+[Mise en route](product-get-started.md)
 

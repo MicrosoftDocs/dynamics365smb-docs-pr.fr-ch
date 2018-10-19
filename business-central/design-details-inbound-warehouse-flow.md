@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 75f6883961f62b82ec751306693dd29a031b409c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fda754e366dab52ee2632fa9e959c8cd717e25b9
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Détails de conception : flux d'enlogement
@@ -53,7 +53,7 @@ Dans les méthodes A, B et C, les actions de réception et de rangement sont com
 ## <a name="basic-warehouse-configurations"></a>Configurations d'entrepôt de base  
 Le schéma suivant présente les flux d'enlogement par type de document dans les configurations d'entrepôt de base. Les numéros dans le schéma correspondent aux étapes dans les sections suivant le schéma.  
 
-![Flux entrant dans les configurations d'entrepôt de base](media/design_details_warehouse_management_inbound_basic_flow.png "design_details_warehouse_management_inbound_basic_flow")  
+![Flux entrant dans les configurations d'entrepôt de base](media/design_details_warehouse_management_inbound_basic_flow.png "Flux entrant dans les configurations d'entrepôt de base")  
 
 ### <a name="1-release-source-document--create-inventory-put-away"></a>1 : Lancer le document origine / Créer un rangement stock  
 Lorsque les articles sont réceptionnés dans l'entrepôt, l'utilisateur qui est responsable de la réception émet le document d'origine, comme une commande achat ou un ordre de transfert entrant, pour signaler aux magasiniers que les articles reçus peuvent être rangés dans le stock. Sinon, l'utilisateur crée des documents rangement stock pour des lignes commande individuelles, par déplacement, selon les emplacements spécifiés et les quantités à traiter.  
@@ -72,7 +72,7 @@ Des écritures comptables article positives sont créées, les écritures entrep
 ## <a name="advanced-warehouse-configurations"></a>Configurations d'entrepôt avancées  
 Le schéma suivant présente le flux d'enlogement par type de document dans les configurations d'entrepôt avancées. Les numéros dans le schéma correspondent aux étapes dans les sections suivant le schéma.  
 
-![Flux entrant dans les configurations d'entrepôt avancées](media/design_details_warehouse_management_inbound_advanced_flow.png "design_details_warehouse_management_inbound_advanced_flow")  
+![Flux entrant dans les configurations d'entrepôt avancées](media/design_details_warehouse_management_inbound_advanced_flow.png "Flux entrant dans les configurations d'entrepôt avancées")  
 
 ### <a name="1-release-source-document"></a>1 : Lancer le document origine  
 Lorsque les articles sont réceptionnés dans l'entrepôt, l'utilisateur qui est responsable de la réception émet le document d'origine, comme une commande achat ou un ordre de transfert entrant, pour signaler aux magasiniers que les articles reçus peuvent être rangés dans le stock.  

@@ -8,13 +8,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/057/2018
+ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 26729b9ced13d6727437db91d464d7a42907b0a1
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: bb055a2520af17d5b1b9aa2239ade210016bd2ac
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="working-with-included365finincludesd365finmdmd"></a>Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -24,11 +24,11 @@ Par exemple, vous pouvez ajuster la taille et la position de n'importe quelle fe
 
 Le tableau suivant répertorie certaines des fonctionnalités générales et inclut des liens vers les rubriques qui les décrivent.
 
-| À | Voir |
+| Pour | Voir |
 | --- | --- |
 | Modifier les paramètres de base tels que la société, la date de travail et le tableau de bord. |[Modification des paramètres de base](ui-change-basic-settings.md) |
-| Recherchez une page ou un état spécifique. |[Utilisation de l'icône Page ou état pour la recherche ](ui-search.md) |
-| Filtrer les données dans des vues, des états, ou des fonctions en utilisant des symboles et des caractères spéciaux. |[Saisir les critères pour les filtres](ui-enter-criteria-filters.md) |
+| Rechercher une page ou un état spécifique. |[Utilisation de l'icône Page ou état pour la recherche ](ui-search.md) |
+| Filtrer les données dans des vues, des états, ou des fonctions en utilisant des symboles et des caractères spéciaux. |[Recherche, filtrage et tri de données](ui-enter-criteria-filters.md) |
 | En savoir plus sur la manière de trier les données. |[Tri des données](ui-sorting.md) |
 | Visualiser ou traiter les données dans des plages de dates spécifiques. |[Saisie de plages de dates](ui-enter-date-ranges.md) |
 | Vérifier quels champs doivent être renseignés. |[Détection de champs obligatoires](ui-mandatory-fields.md) |
@@ -43,11 +43,15 @@ Le tableau suivant répertorie certaines des fonctionnalités générales et inc
 |En savoir plus sur les fonctions et les capacités qui permettent aux personnes handicapées accéder facilement à [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Accessibilité et raccourcis clavier](ui-accessibility.md)|
 |Visionnez des vidéos sur la fonctionnalité sélectionnée pour vous aider à commencer.|[Vidéos sur les tâches courantes](across-videos.md)|  
 
+## <a name="getting-around-in-business-central"></a>Parcourir Business Central
+Voici une courte vidéo sur la manière de parcourir [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+> [!VIDEO https://www.youtube.com/embed/zqz03iMihx0]
+
 ## <a name="see-also"></a>Voir aussi
 [Mise en route](product-get-started.md)  
 [Configuration de Business Central](setup.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

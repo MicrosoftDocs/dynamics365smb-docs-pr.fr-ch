@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory valuation, costing
-ms.date: 08/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3152e16f5f4ebba4a20d4905def77d45e3f051ab
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9c2bdec641a78a13d75ed8d1b3379a74f7af353a
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="adjust-item-costs"></a>Ajuster coûts et prix article
@@ -37,7 +37,7 @@ Si vous utilisez la méthode de l'évaluation stock moyen, le coût unitaire d'u
 La fonction d'ajustement des coûts traite uniquement les écritures valeur non encore ajustées. Si la fonction est confrontée à une situation où des coûts entrants modifiés doivent être transférés à des écritures sortantes associées, de nouvelles écritures valeur ajustées sont créées, sur la base des informations des écritures valeur d'origine, mais contenant le montant de l'ajustement. La fonction d'ajustement des coûts utilise la date comptabilisation de l'écriture valeur d'origine dans l'écriture ajustée, sauf si la date est comprise dans une période inventaire clôturée. Dans ce cas, le programme utilise la date début de la période d'inventaire ouverte suivante. Si aucune période inventaire n'est utilisée, la date du champ **Début période validation** de la fenêtre **Paramètres comptabilité** définira la date de comptabilisation de l'écriture ajustée.
 
 ## <a name="to-adjust-item-costs-manually"></a>Pour ajuster les coûts article manuellement
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Ajuster coûts : Écr. article**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Ajuster coûts : Écr. article**, puis sélectionnez le lien associé.
 2. Dans la fenêtre **Ajuster coûts - Écr. article**, spécifiez les articles pour lesquels ajuster les coûts.
 3. Cliquez sur le bouton **OK**.
 
@@ -46,7 +46,7 @@ Si vous devez modifier le coût unitaire direct de plusieurs articles, vous pouv
 
  Le traitement par lots modifie la valeur du champ **Prix unitaire** sur la fiche article. Le traitement par lots modifie la valeur du champ de la même manière pour tous les articles (ou pour les articles sélectionnés). Le traitement par lots multiplie la valeur du champ par un facteur appliqué que vous devez indiquer.  
 
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Ajuster coûts/prix article**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Ajuster coûts/prix article**, puis sélectionnez le lien associé.  
 2. Dans le champ **Champ à modifier**, indiquez le champ de l'article ou de la fiche point de stock à modifier.  
 3. Dans le champ **Facteur appliqué**, indiquez le facteur d'ajustement de la valeur. Par exemple, entrez **1,5** pour augmenter la valeur de 50 %.  
 4. Sous le raccourci **Article**, définissez des filtres pour indiquer, par exemple, les articles à traiter avec le traitement par lots.  

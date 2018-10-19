@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5814a1719ccba38967ee64d28fddae617487b43c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f68bd92456ccab6d4bade8f5545d5c715a0c35bd
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Configurer un indicateur coloré sur les piles pour la société ou les utilisateurs individuelles
@@ -29,7 +29,7 @@ Dans la fenêtre **Paramètres pile**, vous configurez des indicateurs pour tout
 Pour configurer l'indicateur, vous pouvez spécifier jusqu'à deux valeurs de seuil qui définissent trois plages de valeurs de données (basse, moyenne et haute) à laquelle vous pouvez appliquer une couleur différente (ou un style différent).  
   
 ### <a name="to-set-up-colored-indicators-on-cues"></a>Pour paramétrer des indicateurs colorés sur des piles  
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Paramètres pile**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres pile**, puis sélectionnez le lien associé.  
   
      La fenêtre **Paramètres pile** s'affiche. La fenêtre liste les indicateurs actuellement paramétrés sur des piles. Les indicateurs qui s'appliquent à tous les utilisateurs de la société ont le champ **Nom d'utilisateur** vide. Les indicateurs s'appliquant à un utilisateur spécifique incluent le nom d'utilisateur dans le champ **Nom d'utilisateur**.  
   

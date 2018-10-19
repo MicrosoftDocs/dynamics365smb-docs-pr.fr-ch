@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoming document
-ms.date: 07/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d1a901cee7a80e9a1690f665df4a79a59fa7bc12
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 19a426c4fc163e66c85f2ec3df19a9619d38106e
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a>Gérer la boîte de réception et la boîte d'envoi intersociétés
@@ -56,9 +56,9 @@ Dans ce cas, vous pouvez configurer le système pour qu'il ignore la boîte de r
 ## <a name="to-import-intercompany-transactions-from-a-file"></a>Pour importer des transactions intersociétés à partir d'un fichier  
 Si l'un de vos partenaires intersociétés ne figure pas dans la même base de données que votre société, vous pouvez recevoir de lui des transactions intersociétés dans un fichier .xml. Vous devez ensuite importer ces transactions dans votre boîte de réception.  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Informations société**, puis sélectionnez le lien connexe.
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Informations société**, puis sélectionnez le lien associé.
 2. Enregistrez le fichier à l'emplacement spécifié dans le champ **Détails sur boîte récep Intersoc.** de la fenêtre **Informations société**.  
-3. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Transactions Boîte de réception Intersociétés**, puis sélectionnez le lien connexe.
+3. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Transactions Boîte de réception Intersociétés**, puis sélectionnez le lien associé.
 4. Dans la fenêtre **Transactions boîte de réception Intersociétés**, choisissez l'action **Importer le fichier de transaction**.  
 5. Dans la fenêtre qui apparaît, sélectionnez le fichier .xml qui contient les transactions, puis cliquez sur le bouton **Ouvrir**.  
 
@@ -67,7 +67,7 @@ Les transactions sont importées dans la boîte de réception. Vous pouvez alors
 ## <a name="to-process-incoming-intercompany-transactions"></a>Pour traiter les transactions intersociétés entrantes  
 Lorsque vos partenaires intersociétés vous envoient des transactions intersociétés, celles-ci arrivent dans votre boîte de réception intersociété. Vous devez évaluer chaque transaction qu'elle contient et prendre les mesures nécessaires.  
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Transactions Boîte de réception Intersociétés**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Transactions Boîte de réception Intersociétés**, puis sélectionnez le lien associé.  
 2. Dans la fenêtre **Transactions boîte de réception Intersociétés**, sélectionnez une ligne, puis choisissez une action **Accepter** pour traiter la ligne.
 3. Dans la fenêtre **Terminer action boîte récep IC**, renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Cliquez sur le bouton **OK**.  
@@ -81,7 +81,7 @@ Pour les lignes que vous avez traitées avec l'action **Renvoyé par le partenai
 ## <a name="to-process-outgoing-intercompany-transactions"></a>Pour traiter les transactions intersociétés sortantes  
 Lorsque vous validez une feuille ou un document intersociété, ou que vous envoyez une confirmation de commande intersociété, les transactions sont envoyées à votre boîte d'envoi intersociété. Pour qu'elles soient envoyées à vos partenaires intersociétés, vous devez ouvrir la boîte d'envoi et les traiter.  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Transactions Boîte d'envoi Intersociétés**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Transactions Boîte d'envoi Intersociétés**, puis sélectionnez le lien associé.  
 2. Dans la fenêtre **Transactions boîte d'envoi Intersociétés**, sélectionnez une ligne, puis choisissez une action **Retourner à la boîte de réception** pour traiter la ligne.
 
 Les lignes que vous avez traitées avec l'action **Envoyer au partenaire Intersociétés** sont transmises à la boîte de réception du partenaire concerné.
@@ -95,7 +95,7 @@ Pour les lignes que vous avez traitées avec l'action **Annuler**, vous devez à
 
 La procédure suivante décrit comment recréer des transactions de boîte de réception. Le processus est le même pour les boîtes d'envoi.
 
-  1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Transactions Boîte de réception Intersociétés**, puis sélectionnez le lien connexe.  
+  1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Transactions boîte de réception IC gérées**, puis sélectionnez le lien associé.  
 
   2.  Dans la fenêtre **Transactions boîte de réception IC gérées**, sélectionnez la ligne contenant la transaction à recréer dans la boîte de réception, puis choisissez l'action **Recréer la transaction boîte de réception**.  
 

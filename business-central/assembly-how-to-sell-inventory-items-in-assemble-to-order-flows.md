@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 08/15/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 97b79683ba6c770912349c772f1f7adb443b94ed
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fe8964f46bd76d23e3f1457ad5627888ec3da012
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="sell-inventory-items-in-assemble-to-order-flows"></a>Vente d'articles en stock dans des flux à assembler pour commande
@@ -35,7 +35,7 @@ Une fonctionnalité identique est disponible lorsque vous vendez des éléments 
 Dans cette procédure, vous remplacez les quantités à assembler pour commande par les quantités en stock sur une ligne commande vente. Les étapes comprennent la vérification des disponibilités existantes, la détection de la quantité de l'ordre d'assemblage associé, puis la réservation de la quantité en stock pour s'assurer qu'elle est prélevée et expédiée pour la commande.  
 
 ## <a name="to-sell-inventory-items-in-assemble-to-order-flows"></a>pour vendre des articles en stock dans des flux à assembler pour commande  
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Commandes vente**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes vente**, puis sélectionnez le lien associé.  
 2.  Créez une commande client. Pour en savoir plus, voir [Vendre des produits](sales-how-sell-products.md).  
 3.  Sur une ligne de commande vente pour un article à assembler pour commande, dans le champ **Quantité**, entrez la quantité demandée.  
 4.  Dans le récapitulatif **Détails ligne vente**, déterminez si une partie ou la totalité de la quantité demandée est disponible.  

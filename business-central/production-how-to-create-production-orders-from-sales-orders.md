@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/04/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 12d11661d740cd56bcd18cf7229887e08baf6dff
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 36e7d2f3d43a966cd97fba3c92f3fd20b6b1c585
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-production-orders-from-sales-orders"></a>Créer des ordres de fabrication à partir de commandes achat
@@ -24,12 +24,12 @@ Vous pouvez créer des ordres de fabrication pour les articles produits directem
 
 ## <a name="to-create-a-production-order-from-a-sales-order"></a>Pour créer un ordre de fabrication à partir d'une commande achat  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Commandes vente**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes vente**, puis sélectionnez le lien associé.  
 2.  Sélectionnez la commande vente pour laquelle vous voulez créer un ordre de fabrication.  
 3.  Sélectionnez l'action **Planification**. Dans la fenêtre **Planification commande vente**, vous pouvez afficher la disponibilité de l'article de commande vente.  
 4.  Sélectionnez l'action **Créer O.F**.  
 5.  Sélectionnez le statut et le type de commande.  
-6.  Choisissez le bouton **oui** pour créer l'ordre de fabrication.
+6.  Cliquez sur le bouton **oui** pour créer l'ordre de fabrication.
 
 Vous pouvez également choisir de créer un ordre de fabrication projet. Pour en savoir plus, voir [Planifier les projets de commandes](production-how-to-plan-project-orders.md).   
 

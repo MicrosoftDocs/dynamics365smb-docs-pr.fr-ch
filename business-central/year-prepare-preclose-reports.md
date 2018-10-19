@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 17b01bdec7f5b785b22ad7c295e1c1c3002a4b70
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 94fe194350eeb7e83ce443452cf876f6e498ca27
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="using-pre-closing-reports"></a>Utilisation d'états préalables à la clôture
@@ -35,7 +35,7 @@ Le tableau suivant décrit un certain nombre d'états qui peuvent être utiles d
 | Imprimer un état Balance comprenant les soldes et les soldes période pour les comptes généraux. |Balance |
 | Imprimer une balance pour une société consolidée. |Balance consolidée |
 
-Pour afficher un état, sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez le nom tel qu'il s'affiche dans la table, puis sélectionnez le lien connexe.
+Pour visualiser un tat, choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez le nom qui s'affiche dans la table, puis sélectionnez le lien associé.
 
 ## <a name="see-also"></a>Voir aussi
 [Clôture des exercices et des périodes](year-close-years-periods.md)  

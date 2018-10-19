@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/18/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b191b5e8fbe0a60a32d32bd2dc1ca0cca07c06e4
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 75f0fd760978b0efc4ab86b8d17a815280a09799
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="service-posting"></a>Validation de service
@@ -49,7 +49,7 @@ Lorsque vous validez une facture service, une expédition service ou un avoir se
 
 La procédure suivante utilise un exemple de facture service enregistrée ; cette même procédure est applicable aux expéditions de service et aux avoirs enregistrés.  
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Facture service enreg.**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Facture service enreg.**, puis sélectionnez le lien associé.  
 2. Ouvrez la facture service enregistrée que vous souhaitez afficher.  
 3. Pour obtenir un aperçu de la facture validée, choisissez l'action **Statistiques**.  
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/07/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3cfc53c1ea3c8d30f65b2d475a8dab052519e81e
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8724bf11537b384ae88960e40f24f1d9dbbbd484
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="prepare-to-migrate-customer-data"></a>Préparer la migration des données client
@@ -44,7 +44,7 @@ Lorsque vous sélectionnez un modèle de données existant, vous devez évaluer 
 > [!TIP]  
 >  Vous pouvez également utiliser des modèles de données afin de créer rapidement des enregistrements. Ils vous permettent de créer des données avec une rapidité et une précision accrues. Pour plus d'informations, reportez vous à [Enregistrer de nouveaux articles](inventory-how-register-new-items.md).
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Modèles configuration**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Modèles configuration**, puis sélectionnez le lien associé.  
 2. Dans la fenêtre **Liste modèles config.**, sélectionnez un modèle de données dans la liste, puis choisissez l'action **Modifier**.  
 
 Si les modèles par défaut ne répondent pas à vos besoins, vous pouvez créer de nouveaux modèles ou ajouter des champs à un modèle existant. Si les modèles par défaut sont suffisants, vous pouvez les utiliser pour créer des enregistrements à partir de modèles de données de base.
@@ -75,7 +75,7 @@ Chaque modèle est constitué d'un en-tête et de lignes. Lorsque vous créez un
 ## <a name="to-export-to-a-template-in-excel"></a>Pour effectuer une exportation vers un modèle dans Excel
 Vous pouvez rapidement créer un classeur Excel qui servira de modèle basé sur la structure d’une table de données de base existante. Vous pouvez alors utiliser ce modèle pour rassembler les données du client sous un format cohérent afin de les importer ultérieurement dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille configuration**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille configuration**, puis sélectionnez le lien associé.
 2. Ajoutez une table dans la liste ou sélectionnez une table existante. Pour plus d'informations, voir [Gérer la configuration de la société dans une feuille](admin-how-to-manage-company-configuration-in-a-worksheet.md).
 3. Définissez les champs de la table à inclure dans le modèle.
 4. Choisissez l'action **Exporter vers modèle**.
@@ -100,11 +100,11 @@ Vous pouvez utiliser la structure de données qui est contenue dans les modèles
 
 Les étapes suivantes illustrent la création d'une fiche article d'un modèle données d'article. Vous pouvez créer un enregistrement à partir de n'importe quel modèle de données en utilisant la même procédure.  
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Modèles configuration**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Modèles configuration**, puis sélectionnez le lien associé.  
 2. Sélectionnez le modèle **Article**, puis cliquez sur l'action **Modifier**. Pour plus d’informations, consultez la section « Pour créer un modèle de données ».
 3. Sélectionnez l'action **Créer instance**. Une fiche article est créée.  
 4. Cliquez sur le bouton **OK**.  
-5. Pour examiner la nouvelle fichier article, sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Articles**, puis sélectionnez le lien connexe.  
+5. Pour vérifier la nouvelle fiche article, choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles**, puis sélectionnez le lien associé.  
 6. Ouvrez la nouvelle fiche article.  
 7. Affichez les différents raccourcis, et vérifiez que les informations les concernant ont été créées correctement.  
 

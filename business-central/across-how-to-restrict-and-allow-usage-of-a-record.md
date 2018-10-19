@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e95d6106fd4908bf13004da11656b9b6d1446ad3
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: addbb1436b49cd3f03697f00541751992d0a773e
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="restrict-and-allow-usage-of-a-record"></a>Restreindre et autoriser l'utilisation d'un enregistrement
@@ -31,7 +31,7 @@ Si vous souhaitez restreindre l'utilisation d'un enregistrement à certaines act
 La procédure suivante explique comment restreindre la validation de commandes d'achat tant qu'elles n'ont pas été approuvées. Le nouveau flux de travail sera basé sur le modèle de Flux de travail approbation facture achat existant.  
 
 ## <a name="to-create-a-workflow-step-that-restricts-posting-of-unapproved-purchase-orders"></a>Pour créer une étape de flux de travail qui limite la validation de commandes d'achat non approuvées  
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Flux de travail**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Flux de travail**, puis sélectionnez le lien associé.  
 2. Dans la fenêtre **Flux de travail**, créez un flux de travail nommé Flux de travail approbation commande achat. Pour plus d'informations, voir [Créer des flux de travail](across-how-to-create-workflows.md).  
 3. Choisissez l'action **Copier à partir du modèle de flux de travail**.  
 4. Cliquez sur le champ **Code flux de travail origine**, puis, dans la fenêtre **Modèles flux de travail**, sélectionnez le modèle Flux de travail approbation facture achat.  

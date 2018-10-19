@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f046690ff69912fb14dfa01851532237f82b1c5d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f9f93fcf80524f18c9ff83b74d64231d1a033bae
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-inventory-posting"></a>Détails de conception : comptabilisation stock
@@ -33,7 +33,7 @@ Chaque mouvement stock, par exemple une réception achat ou une expédition vent
 
  À intervalles réguliers, les écritures valeur créées parmi les écritures comptables d'inventaire sont validées en comptabilité pour rapprocher les deux comptabilités à des fins de contrôle financier. Pour plus d'informations, voir [Détails de conception : rapprochement de comptabilité](design-details-reconciliation-with-the-general-ledger.md).  
 
- ![Flux d'écritures entre le stock et la comptabilité](media/design_details_inventory_costing_1_entry_flow.png "design_details_inventory_costing_1_entry_flow")  
+ ![Flux d'écriture lors du rapprochement du stock avec la comptabilité](media/design_details_inventory_costing_1_entry_flow.png "Flux d'écriture lors du rapprochement du stock avec la comptabilité")  
 
 ## <a name="example"></a>Exemple :  
  L'exemple suivant indique comment les écritures comptables article, les écritures valeur et les écritures lettrage article créent des écritures comptables.  

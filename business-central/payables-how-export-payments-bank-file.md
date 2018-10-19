@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
-ms.date: 04/26/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: db28ad9a4adb45514b1d1287d269d8daefe64865
-ms.openlocfilehash: 68a35c3bbedd0d0f09a9e43269260e98dfa02a59
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 456b7bcad13972943ad130f505b29a926ccaf221
 ms.contentlocale: fr-ch
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="export-payments-to-a-bank-file"></a>Exporter des paiements vers un fichier bancaire
@@ -30,7 +30,7 @@ La fenêtre **Registres virement** vous permet d'afficher les fichiers paiement 
 ## <a name="to-export-payments-to-a-bank-file"></a>Pour exporter des paiements vers un fichier bancaire
 La section suivante décrit comment payer un fournisseur par chèque. La procédure est la même pour rembourser un client par chèque.
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuilles paiement**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles paiement**, puis sélectionnez le lien associé.
 2. Renseignez les lignes feuille paiement. Pour plus d'informations, voir [Enregistrer des paiements et des remboursements](payables-how-post-payments-refunds.md).
 
 > [!NOTE]  
@@ -72,7 +72,7 @@ Vous pouvez réexporter des fichiers paiement à partir de la fenêtre **Registr
 > [!NOTE]  
 >   Les fichiers EFT exportés ne sont pas affichés dans la fenêtre **Registres virement** et ne peuvent pas être réexportés.
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuilles paiement**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Registres virement**, puis sélectionnez le lien associé.
 2. Sélectionnez une exportation de règlement que vous souhaitez réexporter, puis sélectionnez **Réexporter les paiements dans un fichier**.
 
 ## <a name="see-also"></a>Voir aussi

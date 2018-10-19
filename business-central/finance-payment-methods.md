@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: check, bank transfer, cash, PayPal
-ms.date: 06/15/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 996469413f23d6620e0464313b90c5c771f38f86
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9583d69f91963d8ee6a69e7145930c1f6c2df955
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="defining-payment-methods"></a>Définition des modes de règlement
@@ -23,7 +23,7 @@ Les modes de règlement sont liés aux fournisseurs afin d'indiquer la façon do
 
 ## <a name="to-set-up-a-payment-methods"></a>Pour configurer un mode de règlement
 Plusieurs modes de règlement courants sont déjà définis dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vous pouvez définir de nouveaux modes de règlement dans la fenêtre **Modes de règlement**, tous se trouvant avec la fonction de recherche ou en ouvrant le champ **Mode de règlement** d'une fiche fournisseur ou client.
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Mode de règlement**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Modes de règlement**, puis sélectionnez le lien associé.
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-also"></a>Voir aussi

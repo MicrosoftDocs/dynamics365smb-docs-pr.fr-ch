@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 01/12/2018
+ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 62eee7532e457721430cb31519b5acb23e95bfcb
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8e4033412560e8dc847397c4399e12985490bf78
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="setting-up-inventory"></a>Configuration de stock
@@ -31,7 +31,8 @@ Lorsque vous avez configuré votre stock, vous pouvez gérer différents process
 | Définir la configuration générale de stock, telles que la souche de numéros et comment utiliser des magasins. |[Définir des informations générales relatives aux stocks](inventory-how-setup-general.md) |
 |Configurez un modèle de distribution efficace avec une combinaison de différents magasins et centres de gestion affectés aux partenaires commerciaux ou aux employés.|[Utiliser les centres de gestion](inventory-responsibility-centers.md)|
 | Planifier votre stock dans plusieurs magasins, y compris des acheminements transfert. |[Configurer des magasins](inventory-how-register-new-items.md) |
-| Créer des fiches article pour les articles en stock que vous commercialisez. |[Enregistrer de nouveaux articles](inventory-how-register-new-items.md) |
+| Créez des fiches article pour les articles de stock, hors stock ou service que vous négociez. |[Enregistrer de nouveaux articles](inventory-how-register-new-items.md) |
+|Apprendre comment renseigner le champ **Type** sur les fiches article en fonction de l'objectif commercial.|[À propos des types d'articles](inventory-about-item-types.md)| 
 |Définissez plusieurs unités pour un article afin de pouvoir l'utiliser comme UOM secondaire, par exemple pour les transactions de ventes, d'achat ou de production.|[Configuration d'unités article](inventory-how-setup-units-of-measure.md)|
 |En complément aux fiches article, enregistrer des informations relatives à vos articles dans un magasin spécifique ou d'une variante spécifique.|[Configurer des points de stock](inventory-how-to-set-up-stockkeeping-units.md)|
 | Affecter des articles aux catégories et leur donner des attributs pour vous aider, vous et vos clients, à trouver des articles. |[Catégoriser des articles](inventory-how-categorize-items.md) |

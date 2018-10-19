@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9424a8ba632cf43628ad37dce963e3f1641e593d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 24ca91f224a198ec462081ced06ddfe0e9db6cf4
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Configuration d'une analyse de trésorerie
@@ -30,7 +30,7 @@ Si vous souhaitez de l'aide pour décider quelles opérations effectuer avec vot
 Cette rubrique décrit d'où proviennent les données dans les graphiques et, si nécessaire, quoi faire pour commencer à utiliser les graphiques.  
 
 ## <a name="the-cash-cycle-and-income--expense-charts"></a>Les graphiques Cycle trésorerie et Revenus et dépenses
-Les graphiques **Cycle trésorerie** et **Revenus et dépenses** sont prêts à être utilisés, en fonction du plan comptable et des tableaux d'analyse. Les données sont issues de ces comptes, et les états financiers calculent les relations entre les ventes et les créances. Certains comptes et états financiers sont fournis. Vous pouvez les utiliser tels quels, les modifier, puis en ajouter de nouveaux. Si vous ajoutez des comptes généraux à votre plan comptable, par exemple, en les important de QuickBooks, vous devez les associer aux comptes sur la page **Tableaux d'analyse** pour les noms de tableaux d'analyse :  
+Les graphiques **Cycle trésorerie** et **Revenus et dépenses** sont prêts à être utilisés, en fonction du plan comptable et des tableaux d'analyse. Les données sont issues de ces comptes, et les états financiers calculent les relations entre les ventes et les créances. Certains comptes et états financiers sont fournis. Vous pouvez les utiliser tels quels, les modifier, puis en ajouter de nouveaux. Si vous ajoutez des comptes généraux à votre plan comptable, par exemple, en les important de QuickBooks, vous devez les associer aux comptes sur la fenêtre **Tableaux d'analyse** pour les noms de tableaux d'analyse :  
 
 | Nom tableau d'analyse | Emplacement d'utilisation |
 | --- | --- |
@@ -67,14 +67,14 @@ Pour utiliser le guide de configuration assistée :
 
 1. Dans le tableau de bord Comptable, sous le graphique **Prévisions de trésorerie**, sélectionnez l'action **Ouvrir la configuration assistée**.  
 2. Complétez les champs de chaque étape du guide.  
-3. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Prévision de trésorerie**, puis sélectionnez le lien connexe.
+3. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Prévision de trésorerie**, puis sélectionnez le lien associé.
 4. Dans la fenêtre **Prévision de trésorerie**, choisissez l'action **Recalculer la prévision**.  
 
 Pour utiliser une procédure manuelle :  
 
 1. Dans le tableau de bord Comptable, recherchez **Paramètres trésorerie**, puis sélectionnez le lien associé.  
 2. Développez le raccourci **Cortana Intelligence**, puis cochez la case **Cortana Intelligence activé**.  
-3. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Prévision de trésorerie**, puis sélectionnez le lien connexe.
+3. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Prévision de trésorerie**, puis sélectionnez le lien associé.
 4. Dans la fenêtre **Prévision de trésorerie**, choisissez l'action **Recalculer la prévision**.  
 
 > [!TIP]  
@@ -88,7 +88,7 @@ Vous pouvez aussi utiliser votre propre service Web prévisionnel basé sur un m
 3. Utilisez votre compte Microsoft pour enregistrer un espace de travail, puis copiez le modèle.  
 4. Exécutez le modèle, et publiez-le comme service Web.  
 5. Notez l'URL d'API et la clé d'API. Vous allez utiliser ces informations d'identification pour une configuration de trésorerie.  
-6. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Paramètres trésorerie**, puis sélectionnez le lien connexe.  
+6. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres trésorerie**, puis sélectionnez le lien associé.  
 7. Développez le raccourci **Cortana Intelligence**, puis complétez les champs.  
 
 ## <a name="see-also"></a>Voir aussi

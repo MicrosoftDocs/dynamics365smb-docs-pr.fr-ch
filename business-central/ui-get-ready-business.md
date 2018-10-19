@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
-ms.date: 02/19/2018
+ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: 5508b9336b0e6bffcc47632b95eac3691ab3891c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ddffef784a80227ea28b193779b4aead7c3b691a
 ms.contentlocale: fr-ch
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="getting-ready-for-doing-business"></a>Préparation aux activités commerciales
@@ -26,9 +26,9 @@ Pour vous aider à vous préparer pour vos activités commerciales, vous pouvez 
 Sur le Tableau de bord, dans la barre de navigation située en haut, vous trouverez le menu **Configuration et extensions**. Vous avez alors accès à une liste de configurations assistées pour vous aider à démarrer. Une fois que vous avez effectué la migration des données telles que les fournisseurs, les clients et les articles de votre système financier existant, vous êtes prêt à commencer. Mais en fonction de vos besoins, demandez-vous si l'autre configuration assistée peut vous aider. Si une zone n'est pas couverte par une configuration assistée, sélectionnez l'option **Programme d'installation manuelle** pour accéder aux fenêtres de paramétrage dans lesquelles vous pouvez renseigner les champs de configuration pour toutes les zones manuellement. Pour plus d'informations, reportez-vous à [Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
 > [!NOTE]  
->   La liste des guides de configuration, des extensions et des services disponibles diffèrent selon l'expérience de l'utilisateur que vous choisissez pour votre société. L'expérience **Basique** donne accès à moins d'options que l'expérience **Essentiel**. La première fois que vous vous connectez, vous utilisez l'expérience Basique. Pour plus d'informations, voir [Modification des fonctionnalités affichées](ui-experiences.md).
+>   La liste des guides de configuration, des extensions et des services disponibles diffèrent selon l'expérience de l'utilisateur que vous choisissez pour votre société. L'expérience de type **Essential** donne accès à moins d'options que l'expérience **Premium**. La première fois que vous vous connectez, vous utilisez l'expérience Essential. Pour plus d'informations, voir [Modification des fonctionnalités affichées](ui-experiences.md).
 
-Dans la fenêtre **Configuration assistée**, vous découvrirez l'expérience **Basique** :
+Dans la fenêtre **Configuration assistée**, vous découvrirez l'expérience **Essentiel** :
 
 | Configuration assistée | Désignation |
 | --- | --- |
@@ -54,18 +54,18 @@ Utilisez les flèches pour réduire une partie de la page et faire de la place a
 Sous **Paramètres de la société** vous pouvez afficher et modifier les informations de configuration sur la société actuelle. Un grand nombre de ces informations sont préremplies si vous avez exécuté la configuration assistée **Configurer la société** lors de votre inscription à [!INCLUDE[d365fin](includes/d365fin_md.md)]. Si vous souhaitez modifier le logo de la société, les informations de contact, les paramètres bancaires, ou les informations fiscales, vous pouvez le faire à partir de cette fenêtre.    
 
 ## <a name="adding-users-and-permissions"></a>Ajouter des utilisateurs et des autorisations
-Si vous souhaitez ajouter des utilisateurs, vous pouvez le faire à partir du centre d’administration Office 365. Pour plus d'informations, voir [Ajouter des utilisateurs à Office 365 for business](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Une fois les utilisateurs créés dans Office 365, ils peuvent être importés dans la fenêtre **Utilisateurs** à l'aide de l'option **Récupérer des utilisateurs à partir d'Office 365**. Vous pouvez ensuite affecter des autorisations aux utilisateurs et les organiser en groupes d'utilisateurs. Pour en savoir plus, reportez-vous à [Gérer les utilisateurs et les autorisations](ui-how-users-permissions.md).  
+Si vous souhaitez ajouter des utilisateurs, vous pouvez le faire à partir du centre d’administration Office 365. Pour plus d'informations, voir [Ajouter des utilisateurs à Office 365 for business](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Une fois les utilisateurs créés dans Office 365, ils peuvent être importés dans la fenêtre **Utilisateurs** à l'aide de l'option **Récupérer des utilisateurs à partir d'Office 365**. Vous pouvez ensuite affecter des autorisations aux utilisateurs et les organiser en groupes d'utilisateurs. Pour plus d'informations, voir [Gestion des utilisateurs et des autorisations](ui-how-users-permissions.md).  
 
 ## <a name="getting-help"></a>Obtenir de l'aide
 Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], des info-bulles vous guident dans l'utilisation des différents processus entreprise. Dans chaque info-bulle, vous trouverez un lien intitulé **Obtenir de l'aide** qui vous permet d'accéder à l'aide concernant le produit. Le point d'interrogation dans le coin supérieur droit vous permet également d'accéder à l'aide relative au produit.
 
 ## <a name="next-steps"></a>Étapes suivantes
-En fonction de la migration de vos données, vous pouvez maintenant passer à la création de documents vente ou achat. Utilisez la section **Ma société** de votre page **Accueil** pour créer rapidement un devis, une facture vente, une commande vente, une facture achat, ou un enregistrement de paiement.
+En fonction de la migration de vos données, vous pouvez maintenant passer à la création de documents vente ou achat. Utilisez la section **Ma société** de votre fenêtre **Accueil** pour créer rapidement un devis, une facture vente, une commande vente, une facture achat, ou un enregistrement de paiement.
 
 ## <a name="see-also"></a>Voir aussi
 [Mise en route](product-get-started.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Gérer les utilisateurs et les autorisations](ui-how-users-permissions.md)
+[Gestion des utilisateurs et des autorisations](ui-how-users-permissions.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
  

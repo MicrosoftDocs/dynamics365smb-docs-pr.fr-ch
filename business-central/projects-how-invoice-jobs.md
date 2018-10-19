@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project invoice
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b526879c1b49a90ff0ddcb415ba19f9d0567f7fd
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c646fe080cbdb867d58fb011ec9d94a1d8bd61b3
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="invoice-jobs"></a>Facturation des projets
@@ -32,7 +32,7 @@ Vous pouvez créer une facture pour un projet ou pour une ou plusieurs tâches p
 
 Dans la fenêtre **Projets**, vous pouvez facturer un client en sélectionnant le projet, puis en cliquant sur **Créer une facture vente projet**. La procédure suivante explique comment utiliser un traitement par lots pour facturer plusieurs projets.  
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Projet Créer facture vente**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Projet Créer facture vente**, puis choisissez le lien associé.  
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Définissez des filtres si vous souhaitez limiter le nombre de projets que le traitement par lots va traiter.
 4. Pour créer les factures, cliquez sur le bouton **OK**.  
@@ -40,7 +40,7 @@ Dans la fenêtre **Projets**, vous pouvez facturer un client en sélectionnant l
 ## <a name="to-create-multiple-job-sales-invoices-from-job-planning-lines"></a>Pour créer plusieurs factures vente projet à partir de lignes planning projet
 Vous pouvez créer une facture à partir des lignes planning projet et indiquer à ce moment-là la quantité de l'article, la ressource ou le compte général sur lequel vous souhaitez facturer.
 
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Projets**, puis choisissez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Projets**, puis sélectionnez le lien associé.
 2. Ouvrez le projet approprié.
 3. Sélectionnez une tâche projet pour laquelle le champ **Type tâche projet** contient **Validation** puis, cliquez sur **Lignes planning projet**.  
 4. Dans une ligne planning projet, dans le champ **Qté à transférer à facturer**, saisissez la quantité de l'article, la ressource, le type de compte général sur lequel vous souhaitez facturer.  
@@ -60,7 +60,7 @@ Vous pouvez créer une facture à partir des lignes planning projet et indiquer 
 ## <a name="to-calculate-and-post-job-completion-entries"></a>Pour calculer et valider les écritures d'achèvement du projet
 À la fin des activités d'un projet (validation et facturation comprises), vous devez le mettre à jour pour définir le **Statut** du projet sur **Terminé**. Ensuite, vous devez contrepasser tous les travaux en cours validés antérieurement dans la comptabilité.
 
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Projets**, puis choisissez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Projets**, puis sélectionnez le lien associé.  
 2. Sélectionnez un projet ouvert, puis cliquez sur **Modifier**.
 3. Dans le champ **Statut**, sélectionnez **Terminé**.
 4. Suivez les étapes d'aide pour calculer et valider les travaux en cours. Sinon, suivez les étapes 5 et 6 pour le faire manuellement.  

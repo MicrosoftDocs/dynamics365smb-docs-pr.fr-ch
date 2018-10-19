@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/06/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f9076b4cd565c9d814563549f2afb5b4b5d222da
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ea07eff2d0eb17a76d132484d2210ad0c54053a5
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="prepare-a-configuration-package"></a>Préparer un package configuration
@@ -32,7 +32,7 @@ Vérifiez que vous vous trouvez dans le tableau de bord Responsable de l'implém
 >  Vous pouvez importer un package de configuration qui a été exporté d'une base de données qui a un schéma différent que cette base de donnée cible. Toutefois, tous les tables ou champs du package de configuration manquants dans la base de données cible ne seront pas importés. Les tables avec des clés primaires différentes et des champs avec des types de données différents ne seront pas importés avec succès. Par exemple, si le package de configuration inclut une table **50000, Client** dont la clé primaire est **Code20** et que la base de données dans laquelle vous importez le package inclut la table **50000, Compte bancaire client** dont la clé primaire est **Code20 + Code 20**, les données ne seront pas importées.  
 
 ## <a name="to-create-a-configuration-package"></a>Pour créer un package configuration  
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Packages configuration**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Packages configuration**, puis sélectionnez le lien associé.  
 2. Sélectionnez l'action **Nouveau**.  
 3. Renseignez les champs du raccourci **Général**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Pour exclure les questionnaires de configuration, les modèles de configuration et les tables de feuille configuration du package, activez la case à cocher **Exclure les tables de configuration**. Sinon, ces tables sont automatiquement ajoutées à la liste de tables de package lorsque vous exportez le package.  
@@ -79,7 +79,7 @@ Vous pouvez enregistrer le fichier avec un nom qui est a un sens pour vous, mais
 ### <a name="to-copy-a-configuration-package"></a>Pour copier un package configuration  
 Après avoir créé un package qui répond à la plupart de vos besoins, vous pouvez l’utiliser comme base de création de packages similaires. Ceci peut accélérer la durée d’implémentation et améliorer l’aspect répétitif de RapidStart Services.
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Packages configuration**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Packages configuration**, puis sélectionnez le lien associé.  
 2. Sélectionnez un package dans la liste, puis sélectionnez l'action **Copier package**.  
 3. Dans le champ **Nouveau code package**, entrez un code pour le nouveau package.  
 4. Cochez la case **Copier données** si vous souhaitez également copier les données de la base de données depuis le package existant.  
@@ -88,7 +88,7 @@ Après avoir créé un package qui répond à la plupart de vos besoins, vous po
 ## <a name="to-customize-a-configuration-package"></a>Pour personnaliser un package configuration
 La feuille configuration permet de collecter et de définir les catégories des informations que vous souhaitez utiliser pour configurer une nouvelle société, et réorganiser les tables d’une manière logique. La mise en forme dans la feuille est basée sur une hiérarchie unique : des zones contiennent des groupes, qui contiennent des tables. Les zones et les groupes sont facultatifs, mais nécessaires si vous souhaitez afficher un aperçu du processus de configuration dans le tableau de bord RapidStart Services.
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille configuration**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille configuration**, puis sélectionnez le lien associé.  
 2.  Dans le champ **Type ligne**, choisissez **Zone**. Saisissez un nom descriptif dans le champ **Nom**.  
 3.  Dans le champ **Type ligne**, choisissez **Groupe**. Saisissez un nom descriptif dans le champ **Nom**.  
 4.  Dans le champ **Type ligne**, choisissez **Table**. Dans le champ **ID table**, sélectionnez la table que vous souhaitez inclure dans la feuille.  
@@ -105,7 +105,7 @@ Après avoir défini les tables à traiter dans le cadre de votre configuration,
 > [!NOTE]  
 >  Vous pouvez également créer un package directement, puis ajouter des tables au package. Pour plus d’informations, consultez la section « Pour créer un package configuration ».
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille configuration**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille configuration**, puis sélectionnez le lien associé.
 2. Dans la feuille de configuration, sélectionnez une ligne ou un groupe de lignes que vous souhaitez affecter à un package configuration, puis sélectionnez l'action **Affecter package**.  
 3.  Sélectionnez un package de la liste, ou choisissez l'action **Nouveau** pour créer un package, puis cliquez sur le bouton **OK**.  
 
@@ -115,7 +115,7 @@ Après avoir défini les tables à traiter dans le cadre de votre configuration,
 ## <a name="to-review-or-customize-existing-database-data"></a>Pour vérifier ou personnaliser les données existantes de base de données
 Lors de la création d’un package configuration pour une solution, vous pouvez consulter et personnaliser les données de base de données disponibles pour les adapter aux besoins de votre client. La table de base de données doit être associée à une page.  
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille configuration**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille configuration**, puis sélectionnez le lien associé.
 2. Dans la feuille configuration, identifiez les tables dont vous souhaitez afficher ou personnaliser les données.  
 
     > [!NOTE]  
@@ -128,7 +128,7 @@ Lors de la création d’un package configuration pour une solution, vous pouvez
 Une fois que vous avez contrôlé et testé toutes vos informations de paramétrage, vous pouvez copier des données vers votre environnement de production. Vous créez une société dans la même base de données.
 
 1. Ouvrez et initialisez la nouvelle société.  
-2. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille configuration**, puis sélectionnez le lien connexe.  
+2. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille configuration**, puis sélectionnez le lien associé.  
 3. Sélectionnez l'action **Copier les données de la société**.  
 4. Dans la fenêtre **Copier les données de la société**, choisissez le champ **Copier de**. La fenêtre **Sociétés** s’ouvre.  
 5. Sélectionnez la société depuis laquelle copier des données, puis cliquez sur le bouton **OK**. Une liste de tables sélectionnées dans la feuille configuration s’ouvre. Seules les tables qui contiennent des enregistrements sont incluses dans cette liste.

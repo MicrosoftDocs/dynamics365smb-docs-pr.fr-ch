@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: cab6546e152ad91c1b3264fa8bd10c0fd668636d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9c442957947b2c7a0abc730db824ddbcb29708d6
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-workflows"></a>Créer des workflows
@@ -32,7 +32,7 @@ Si votre scénario d'entreprise requiert des événements ou réponses de workfl
 >  Toutes les notifications relatives aux étapes du workflow sont envoyées à l'aide d'une file projets. Assurez-vous que la file projets dans votre installation est configurée pour traiter les notifications du flux de travail, et que la case à cocher **Démarrer automatiquement à partir de NAS** est activée. Pour plus d'informations, voir [Utiliser des files d'attente des travaux pour planifier des tâches](admin-job-queues-schedule-tasks.md).  
 
 ## <a name="to-create-a-workflow"></a>Pour créer un workflow  
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Flux de travail**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Flux de travail**, puis sélectionnez le lien associé.  
 2. Sélectionnez l'action **Nouveau**. La fenêtre **Flux de travail** s'ouvre.  
 3. Dans le champ **Code**, entrez 20 caractères maximum pour identifier le workflow.  
 4. Pour créer le workflow à partir d'un modèle de workflow, dans la fenêtre **Flux de travail**, choisissez l'action **Créer le flux de travail à partir du modèle**. Pour plus d'informations, reportez-vous à la rubrique [Créer des flux de travail à partir de modèles de flux de travail](across-how-to-create-workflows-from-workflow-templates.md).  
@@ -91,7 +91,7 @@ Si votre scénario d'entreprise requiert des événements ou réponses de workfl
 >  N'activez pas un workflow tant que vous n'êtes pas sûr qu'il est terminé et que les étapes de workflow concernées peuvent démarrer.  
 
 > [!TIP]  
->  Pour visualiser les relations entre les tables qui sont utilisées dans le flux de travail, choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), et entrez **Flux de travail - Relations de table**.  
+>  Pour visualiser les relations entre les tables qui sont utilisées dans le flux de travail, choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), et entrez **Flux de travail - Relations de table**.  
 
 ## <a name="see-also"></a>Voir aussi  
 [Créer des flux de travail à partir de modèles de flux de travail](across-how-to-create-workflows-from-workflow-templates.md)   

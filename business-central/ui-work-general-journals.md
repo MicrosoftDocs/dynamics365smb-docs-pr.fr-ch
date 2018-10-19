@@ -1,31 +1,39 @@
 ---
 title: "Utilisation de feuilles comptabilité pour valider directement dans la comptabilité| Microsoft Docs"
-description: "Découvrez comment utiliser des feuilles comptabilité pour valider des transactions financières dans les comptes généraux et dans d'autres comptes, tels que les comptes bancaires et fournisseur."
-author: SorenGP
+description: "Découvrez comment utiliser les feuilles pour valider des transactions financières dans les comptes généraux et dans d'autres comptes, tels que les comptes bancaires et fournisseur."
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/23/2018
-ms.author: sgroespe
+ms.date: 10/01/2018
+ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 090a0141583795757a0d59b358ba4d553100d976
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 892d96dfa5d0fc960150f127ffa779cf6819c5a2
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="working-with-general-journals"></a>Utilisation de feuilles comptabilité
-La plupart des transactions financières sont validées en comptabilité via les documents commerciaux dédiés, tels que des factures achat et des commandes vente. Pour les activités économiques qui ne sont pas représentés par un document dans [!INCLUDE[d365fin](includes/d365fin_md.md)], comme de plus petits frais ou règlements, vous pouvez créer les transactions associées en validant des lignes de feuille dans la fenêtre **Feuille comptabilité**. Pour plus d'informations, reportez-vous à [Valider les transactions directement vers la comptabilité](finance-how-post-transactions-directly.md).
+
+La plupart des transactions financières sont validées en comptabilité via les documents commerciaux dédiés, tels que des factures achat et des commandes vente. Mais vous pouvez également traiter des activités commerciales comme l'achat, le paiement, ou le remboursement des frais d'un salarié en validant des lignes feuille dans les diverses feuilles de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+
+La plupart des feuilles sont basées sur la *Feuille comptabilité*, et vous pouvez traiter toutes les transactions dans la fenêtre **Feuille comptabilité**. Pour plus d'informations, reportez-vous à [Valider les transactions directement vers la comptabilité](finance-how-post-transactions-directly.md).  
 
 Par exemple, vous pouvez valider les dépenses d'argent propre de vos salariés pour des activités liées à l'entreprise, afin de les rembourser ultérieurement. Pour plus d'informations, voir [Enregistrer et rembourser les frais des employés](finance-how-record-reimburse-employee-expenses.md).
 
+Mais dans de nombreux cas, vous devrez utiliser les feuilles qui sont optimisées pour les types de transactions spécifiques, telles que **Feuille paiement** pour enregistrer les paiements. Pour plus d'informations, voir [Enregistrer les paiements et remboursements dans la feuille paiement](payables-how-post-payments-refunds.md).  
+
 Les feuilles comptabilité vous permettent de valider des transactions financières directement dans les comptes généraux et dans d'autres comptes tels que les comptes bancaires, client, fournisseur et salarié. La validation avec une feuille comptabilité crée toujours des écritures dans les comptes généraux. C'est le cas même lorsque, par exemple, vous validez une ligne feuille dans un compte client, parce qu'une écriture est validée dans un compte client de la comptabilité via un groupe comptabilisation.
+
+[!INCLUDE[journal-showhide-columns-inline-tip](includes/journal-showhide-columns-inline-tip.md)]  
 
 Les informations que vous saisissez dans une feuille sont temporaires et peuvent être modifiées tant qu'elles sont dans la feuille. Lorsque vous validez la feuille, les informations sont transférées vers des écritures de comptes individuels, où elles ne peuvent pas être modifiées. Toutefois, vous pouvez délettrer des écritures validées et valider des écritures de contrepassation ou de correction. Pour plus d'informations, reportez-vous à [Inversion d'une validation](finance-how-reverse-journal-posting.md).
 
 ## <a name="using-journal-templates-and-batches"></a>Utilisation de modèles feuille et feuilles
+
 Il existe plusieurs modèles feuille. Chaque modèle feuille est représenté par une fenêtre dédiée avec des fonctions particulières et les champs nécessaires pour la prise en charge de ces fonctions, notamment la fenêtre **Feuille rapprochement bancaire** qui permet de traiter les paiements bancaires et la fenêtre **Feuille paiement** qui permet de payer vos fournisseurs ou rembourser vos employés. Pour plus d'informations, voir [Exécuter des paiements](payables-make-payments.md) et [Rapprocher des paiements client manuellement](receivables-how-apply-sales-transactions-manually.md).
 
 Pour chaque modèle feuille, vous pouvez configurer votre propre feuille personnelle sous forme de nom de feuille. Par exemple, vous pouvez définir votre propre nom de feuille pour la feuille paiement dotée de votre présentation et de vos paramètres personnels. Le conseil suivant est un exemple de la manière de personnaliser une feuille.
@@ -34,7 +42,7 @@ Pour chaque modèle feuille, vous pouvez configurer votre propre feuille personn
 > Si vous cochez la case **Suggérer le montant contrepartie** de la ligne pour votre nom feuille dans la fenêtre **Noms feuilles comptabilité**, le champ **Montant** dans, par exemple, les lignes feuille comptabilité pour le même numéro de document est automatiquement prérempli avec la valeur nécessaire à la contrepartie dans le document. Pour plus d'informations, voir [Laisser [!INCLUDE[d365fin](includes/d365fin_md.md)] suggérer des valeurs](ui-let-system-suggest-values.md).
 
 ## <a name="understanding-main-accounts-and-balancing-accounts"></a>Compte principaux et comptes contrepartie
-Si vous avez configuré des comptes contrepartie par défaut pour les feuilles sur la page **Feuilles comptabilité**, le compte contrepartie sera renseigné automatiquement lorsque vous renseignez le champ **Numéro du compte**. Sinon, renseignez manuellement les champs **Numéro du compte** et **N° compte contrepartie**. Un montant positif dans le champ **Montant** est débité du compte principal et crédité dans le compte contrepartie. Un montant négatif est crédité sur le compte principal et débité du compte contrepartie.
+Si vous avez configuré des comptes contrepartie par défaut pour les feuilles dans la fenêtre **Feuilles comptabilité**, le compte contrepartie sera renseigné automatiquement lorsque vous renseignez le champ **Numéro du compte**. Sinon, renseignez manuellement les champs **Numéro du compte** et **N° compte contrepartie**. Un montant positif dans le champ **Montant** est débité du compte principal et crédité dans le compte contrepartie. Un montant négatif est crédité sur le compte principal et débité du compte contrepartie.
 
 > [!NOTE]  
 >   La TVA est calculée séparément pour le compte principal et le compte contrepartie, afin qu'ils puissent utiliser des taux de pourcentage de TVA différents.
@@ -85,9 +93,8 @@ Tout comme dans une feuille abonnement, vous n'avez à saisir qu'une fois une ve
 
 Si le mode récurrent est paramétré sur **Solde** ou sur **Solde inverse**, tous les codes axe analytique de la feuille récurrente sont ignorés lorsque le compte est défini sur zéro. Par conséquent, si vous ventilez une ligne abonnement vers diverses sections analytiques dans la fenêtre **Ventilations**, une seule écriture opposée est créée. De ce fait, si vous ventilez une ligne feuille abonnement qui comporte un code section, vous ne devez pas saisir le même code dans la fenêtre **Ventilations**. Si vous le faites, les sections analytiques sont incorrectes.
 
-####<a name="example-allocating-rent-payments-to-different-departments"></a>Exemple : Ventilation des paiements du loyer entre plusieurs départements
+#### <a name="example-allocating-rent-payments-to-different-departments"></a>Exemple : Ventilation des paiements du loyer entre plusieurs départements
 Vous payez un loyer tous les mois, vous avez saisi le montant du loyer sur le compte règlement d'une ligne feuille abonnement. Dans la fenêtre **Ventilations**, vous pouvez diviser les dépenses entre plusieurs départements (section analytique Département) selon le nombre de mètres carrés occupé par chacun d'eux. Le calcul est basé sur le pourcentage de ventilation de chaque ligne. Vous pouvez saisir divers comptes sur différentes lignes ventilation (si le loyer est aussi divisé entre plusieurs comptes) ou saisir le même compte, mais avec divers codes section de la section analytique Département sur chaque ligne.
-
 
 ## <a name="working-with-standard-journals"></a>Utilisation de feuilles standard
 Lorsque vous créez des lignes feuille dont vous savez que vous risquez de les recréer ultérieurement, vous pouvez les enregistrer en tant que feuille standard avant de valider la feuille. Cette fonctionnalité s'applique aux feuilles article et aux feuilles comptabilité.
@@ -96,14 +103,14 @@ Lorsque vous créez des lignes feuille dont vous savez que vous risquez de les r
 >   la procédure suivante traite de la feuille article mais concerne également la feuille comptabilité.
 
 ### <a name="to-save-a-standard-journal"></a>Pour enregistrer une feuille standard
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuilles article**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles articles**, puis sélectionnez le lien associé.
 2. Entrez le code sur une ou plusieurs lignes feuille.
 3. Sélectionnez les lignes feuille à réutiliser.
 4. Choisissez l'action **Enregistrer en tant que feuille standard**.
 5. Dans le formulaire de sélection **Enregistrer en tant que feuille standard**, définissez une feuille article standard, nouvelle ou existante, dans laquelle enregistrer les lignes.
 
     Si vous avez déjà créé une ou plusieurs feuilles article standard et souhaitez en remplacer une avec la nouvelle série de lignes feuille article, dans le champ Code, sélectionnez le code souhaité.
-6. Choisissez le bouton **OK** pour vérifier que vous souhaitez écraser la feuille article standard existante et remplacer tout son contenu.
+6. Cliquez sur le bouton **OK** pour vérifier que vous souhaitez écraser la feuille article standard existante et remplacer tout son contenu.
 7. Sélectionnez le champ **Enregistrer le montant unitaire** si vous souhaitez enregistrer les valeurs dans le champ **Montant unitaire** de la feuille article standard.
 8. Sélectionnez le champ **Enregistrer la quantité** si vous souhaitez que le programme enregistre les valeurs dans le champ **Quantité**.
 9. Cliquez sur le bouton **OK** pour enregistrer la feuille article standard.
@@ -111,7 +118,7 @@ Lorsque vous créez des lignes feuille dont vous savez que vous risquez de les r
 Une fois l'enregistrement de la feuille article standard effectué, la fenêtre Feuille article s'affiche. Vous pouvez alors procéder à la validation tout en sachant que vous pouvez très facilement recréer cette feuille si vous devez valider des lignes identiques ou analogues.
 
 ### <a name="to-reuse-a-standard-journal"></a>Pour réutiliser une feuille standard
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuilles article**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles articles**, puis sélectionnez le lien associé.
 2. Choisissez l'action **Obtenir les feuilles standard**.
 
     La fenêtre Feuilles article standard qui s'ouvre alors contient des codes et des descriptions de toutes les feuilles article standard existantes.
@@ -143,9 +150,9 @@ Cette fonction fonctionne également sur les vues filtrées.
 
 Toute renumérotation des numéros de document respectera les lettrages associés, par exemple un lettrage de paiement qui a été effectué à partir du document de la ligne feuille pour un compte fournisseur. Par conséquent, les champs **ID lettrage** et les champs **N° doc. lettrage** sur les écritures comptables affectées peuvent être mis à jour.
 
-La procédure suivante est basée sur la fenêtre **Feuille comptabilité**, mais s'applique à toutes les autres feuilles qui sont basées sur la feuille comptabilité, tel que la fenêtre **Feuille paiement**.
+La procédure suivante est basée dans la fenêtre **Feuille comptabilité**, mais s'applique à toutes les autres feuilles qui sont basées sur la feuille comptabilité, tel que la fenêtre **Feuille paiement**.
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuilles comptabilité**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles comptabilité**, puis sélectionnez le lien associé.
 2. Lorsque vous êtes prêt à valider la feuille, choisissez l'action **Renuméroter les numéros de document**.
 
 Les valeurs dans le champ **N° document** sont modifiées, le cas échéant, pour que le numéro de document sur les lignes feuille individuelles ou groupées soit dans un ordre séquentiel. Une fois que les documents sont renumérotés, vous pouvez procéder à la validation de la feuille.

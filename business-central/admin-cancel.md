@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: remove, delete
-ms.date: 04/17/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: dc7e739bc2b8ac9e8efce3a0f52acb945352416e
-ms.openlocfilehash: a10f32808eb89509cfeff365d420dd6e2b866d83
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 473b2fb8f20b30ce49265e6891a99291b663f6a8
 ms.contentlocale: fr-ch
-ms.lasthandoff: 04/19/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="unsubscribe-remove-or-reset-included365finincludesd365finmdmd"></a>Annuler un abonnement, supprimer, ou réinitialiser [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -32,13 +32,13 @@ Les comptes utilisateur et les licences sont gérés à partir du [portail Offic
 ## <a name="closing-your-free-trial-of-included365finincludesd365finmdmd"></a>Fermeture de votre version d'évaluation gratuite de [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Si vous vous êtes inscrit à la version d'évaluation gratuite et si vous ne souhaitez pas passer à [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez fermer votre compte à tout moment. Nous vous recommandons d'exporter les données avant de fermer votre compte.  
 
-Pour fermer votre compte, vous devez contacter l'équipe d'annulation [!INCLUDE[d365fin](includes/d365fin_md.md)] en envoyant un e-mail à l'adresse cancelbusinesscentra@microsoft.com. Vous devez indiquer le nom de votre abonné [!INCLUDE[d365fin](includes/d365fin_md.md)] dans le message de façon à ce que nous puissions vous identifier. La méthode la plus facile consiste à copier l'URL de votre page d'accueil [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Pour fermer votre compte, actuellement, vous devez l'équipe d'annulation [!INCLUDE[d365fin](includes/d365fin_md.md)] en envoyant un e-mail à l'adresse cancelbusinesscentra@microsoft.com. Vous devez inclure votre nom d'abonné [!INCLUDE[d365fin](includes/d365fin_md.md)] dans le message de sorte que nous puissions vous identifier. La méthode la plus facile consiste à copier l'URL de votre page d'accueil [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="unsubscribing-from-included365finincludesd365finmdmd-without-office-365"></a>Annuler un abonnement à [!INCLUDE[d365fin](includes/d365fin_md.md)] sans Office 365
-Si vous vous êtes abonné à [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide d'un compte Office 365 non professionnel, vous n'avez pas d'administrateur Office 365. Vous devez alors annuler l'abonnement en contactant l'équipe d'annulation [!INCLUDE[d365fin](includes/d365fin_md.md)] par e-mail à l'adresse cancelbusinesscentra@microsoft.com. Vous devez indiquer le nom de votre abonné [!INCLUDE[d365fin](includes/d365fin_md.md)] dans le message de façon à ce que nous puissions vous identifier. La méthode la plus facile consiste à copier l'URL de votre page d'accueil [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Si vous vous êtes abonné à [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide d'un compte Office 365 non professionnel, vous n'avez pas d'administrateur Office 365. Au lieu de cela, vous devez annuler votre abonnement en contactant l'équipe d'annulation [!INCLUDE[d365fin](includes/d365fin_md.md)] en lui envoyant un e-mail à l'adresse cancelbusinesscentra@microsoft.com. Vous devez inclure votre nom d'abonné [!INCLUDE[d365fin](includes/d365fin_md.md)] dans le message de sorte que nous puissions vous identifier. La méthode la plus facile consiste à copier l'URL de votre page d'accueil [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="resetting-your-included365finincludesd365finmdmd-experience"></a>Réinitialisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]
-Si vous avez ajouté des données à votre version d'évaluation gratuite de [!INCLUDE[d365fin](includes/d365fin_md.md)] et que vous souhaitez recommencer à zéro, vous pouvez créer une société avant de réinitialiser la première société. Si vous ouvrez la page **Sociétés**, vous pouvez créer une copie de votre société actuelle, vous déconnecter et vous connecter à votre nouvelle société, puis réinitialiser la société d'origine.  
+Si vous avez ajouté des données à votre version d'évaluation gratuite de [!INCLUDE[d365fin](includes/d365fin_md.md)] et que vous souhaitez recommencer à zéro, vous pouvez créer une société avant de réinitialiser la première société. Si vous ouvrez la fenêtre **Sociétés**, vous pouvez créer une copie de votre société actuelle, vous déconnecter et vous connecter à votre nouvelle société, puis réinitialiser la société d'origine.  
 > [!NOTE]  
 >   Lorsque vous réinitialisez une société que vous partagez avec d'autres collaborateurs de votre entreprise, vous devez vous assurer que personne d'autre n'est connecté lorsque vous réinitialisez la société.  
 

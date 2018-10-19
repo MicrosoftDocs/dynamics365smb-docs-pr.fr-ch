@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2017
+ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b87f5bfb499c3dac622f33aa16ba9d1a4fc6104d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: cead1a86d50b0fc0e3b2998d748b8edf4a76b735
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="view-test-reports-before-posting"></a>Afficher des états de test avant la validation
@@ -25,7 +25,7 @@ Lorsque vous êtes prêt à valider un document (commande, facture ou avoir, par
 >   La procédure suivante permet de tester un document achat avant validation. Il s'agit de la même fonctionnalité pour les documents vente.
 
 ## <a name="to-print-a-test-report-before-posting-a-purchase-invoice"></a>Pour réaliser une impression test avant de valider une facture achat
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Factures achat**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Factures achat**, puis sélectionnez le lien associé.
 2. Ouvrez la facture achat à tester.
 3. Sélectionnez l'option **Impression test**.  
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: f4ccc58d0414131276dec3e062cf12e1ae4596db
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ac38294ce65d767133e70880b6104c7325d9bb3a
 ms.contentlocale: fr-ch
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="setting-up-relationship-management"></a>Paramétrage de la Gestion des relations
@@ -24,7 +24,7 @@ Avant de commencer à travailler avec vos contacts et prospects marketing, vous 
 
 La gestion de vos contacts et la mise en place d'une stratégie visant à identifier, attirer et fidéliser les clients permet d'optimiser votre activité et d'accroître la satisfaction des clients. L'utilisation d'un système de gestion de contacts performant permet également de créer et de maintenir les relations avec vos clients. La communication est la clé de ces relations. Pour assurer la réussite de votre entreprise, il est nécessaire de personnaliser la communication avec les clients, fournisseurs et partenaires commerciaux potentiels et existants en fonction de leurs besoins spécifiques. La première étape consiste à établir une stratégie et à définir la manière dont votre société utilise les informations de contact. Dans la mesure où celles-ci seront consultées par de nombreux groupes différents de votre société, la mise en place d'un système performant permettra d'accroître la productivité.
 
-Vous configurez la gestion du marketing et des contacts à partir de la fenêtre **Paramètres marketing**. Pour ouvrir la fenêtre **Paramètres marketing**, choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Paramètres marketing**, puis le lien connexe.
+Vous configurez la gestion du marketing et des contacts à partir de la fenêtre **Paramètres marketing**. Pour ouvrir la fenêtre **Paramètres marketing**, choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres marketing**, puis sélectionnez le lien associé.
 
 ## <a name="automatically-copying-specific-information-from-the-contact-companies-to-the-contact-persons"></a>Copie automatique des informations spécifiques des sociétés contact vers les personnes contact
 Une partie des données relatives aux sociétés contact sont identiques aux données sur les personnes contact qui travaillent dans ces sociétés, comme l'adresse. Dans la section **Héritage** de la fenêtre **Paramètres marketing**, vous pouvez définir l'application de sorte qu'elle copier automatiquement des champs spécifiques de la fiche société contact vers la fiche personne contact chaque fois que vous créez une personne contact pour une société contact. Par exemple, vous pouvez choisir de copier un code vendeur, les infos adresse (adresse, adresse 2ème ligne, ville, code postal et région), les détails de communication (numéro de télécopie, numéro de télex et numéro de téléphone), et plus encore.

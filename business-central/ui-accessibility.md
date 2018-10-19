@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 12/04/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: ee889296e1a2ef7dcbb8350363fadbf1589844b5
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 65f34ae7fe1665bbe8336e6fe959ac109486531e
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="accessibility-and-keyboard-shortcuts-in-included365finincludesd365finmdmd"></a>Accessibilité et raccourcis clavier dans [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -63,7 +63,7 @@ Cette rubrique fournit des informations sur les fonctionnalités qui rendent [!I
 [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge différentes technologies d'assistance, telles que le contraste élevé, les lecteurs d'écran et les logiciels de reconnaissance vocale. Certaines technologies d'assistance ne fonctionnent pas correctement avec certains éléments des pages [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="for-more-accessibility-information"></a>Informations supplémentaires sur l'accessibilité  
-Vous trouverez des informations supplémentaires sur l'accessibilité des produits Microsoft et les technologies d'assistance sur le site [Accessibilité Microsoft](http://go.microsoft.com/fwlink/?LinkId=262160).
+Vous trouverez des informations supplémentaires sur l'accessibilité des produits Microsoft et les technologies d'assistance sur le site [Accessibilité Microsoft](https://go.microsoft.com/fwlink/?LinkId=262160).
 
 ## <a name="see-also"></a>Voir aussi
 [Mise en route](product-get-started.md)  

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/31/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8c0fd365ddcacf08a3fa49d70d5ebd0233ff5014
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b31591784c927f67f541d997f54e97ef696f63bb
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Ranger des articles avec le rangement stock
@@ -31,11 +31,11 @@ Vous pouvez créer un rangement stock de trois manières :
 ## <a name="to-request-an-inventory-put-away-by-releasing-the-source-document"></a>Pour demander un rangement stock en lançant le document d'origine
 Pour les commandes achat, de retours vente et d'ordres de transfert enlogement, vous créez la demande entrepôt en lançant l'ordre. Ce qui suit décrit comment faire cela pour une commande achat.  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Commandes achat**, puis sélectionnez le lien connexe.
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes achat**, puis sélectionnez le lien associé.
 2. Sélectionnez la commande achat que vous voulez lancer, puis sélectionnez l'action **Lancer**.  
 
     Pour les ordres de fabrication, vous créez la demande entrepôt en créant une demande d'enlogement à partir de l'ordre de fabrication lancé.  
-3.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **O.F. lancés**, puis sélectionnez le lien connexe.  
+3.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **O.F. lancés**, puis sélectionnez le lien associé.  
 4. Choisissez l'action **Créer demande d'enlogement**.  
 
 > [!NOTE]  
@@ -45,12 +45,12 @@ Lorsque la demande entrepôt est créée, un employé affecté dans l'entrepôt 
 
 ## <a name="to-create-an-inventory-put-away-based-on-the-source-document"></a>Pour créer un rangement stock sur la base du document origine
 Maintenant que la demande est créée, le magasinier peut créer un nouveau rangement stock sur la base du document origine lancé.   
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Rangement stock**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Rangement stock**, puis sélectionnez le lien associé.  
 2. Sélectionnez l'action **Nouveau**.  
 3. Dans le champ **Document origine**, sélectionnez le type de document origine que vous rangez.  
 4. Dans le champ **N° origine**, sélectionnez le document origine.  
 5. Sinon, choisissez l'action **Extraire document origine** pour sélectionner le document à partir de la liste des documents origine entrants prêts pour le rangement dans le magasin.  
-6. Choisissez le bouton **OK** pour renseigner les lignes rangement en fonction du document origine sélectionné.  
+6. Cliquez sur le bouton **OK** pour renseigner les lignes rangement en fonction du document origine sélectionné.  
 
 ## <a name="to-create-an-inventory-put-away-from-the-source-document"></a>Pour créer un rangement stock à partir du document origine  
 1.  Dans le document origine, qui peut être une commande achat, un retour vente, un ordre enlogement transfert ou un ordre de fabrication, choisissez l'action **Créer prélèv./rangement stock**.  
@@ -58,7 +58,7 @@ Maintenant que la demande est créée, le magasinier peut créer un nouveau rang
 3. Cliquez sur le bouton **OK**. Un nouveau rangement stock est créé.
 
 ## <a name="to-create-multiple-inventory-put-aways-with-a-batch-job"></a>Pour créer plusieurs rangements stock avec un traitement par lots  
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Créer prélèv./rangement stock**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Créer prélèv./rangement stock**, puis sélectionnez le lien associé.  
 2.  Sur le raccourci **Demande entrepôt** de la fenêtre demande, utilisez les champs **Document origine** et **N° origine** pour opérer un filtrage sur certains types de documents ou des plages de numéros de document.  
 3.  Sur le raccourci **Options**, cochez la case **Créer rangement stock**.
 4.  Cliquez sur le bouton **OK**. Les rangements stock spécifiés sont créés.

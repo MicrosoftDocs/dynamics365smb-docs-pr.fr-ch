@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 01/25/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: f127cef1af857b5f50f5e14c7376941151b57e91
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6f6703976d6ad0011ecb1dba75d918cae00dee95
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 #  <a name="create-analysis-reports"></a>Créer des rapports d'analyse
@@ -61,7 +61,7 @@ Dans un rapport d'analyse, les paramètres d'analyse apparaissent sous forme de 
 
 Un modèle contient un ensemble de lignes représentant les colonnes d'analyse du rapport d'analyse. Pour définir une colonne, attribuez un code type analyse à une ligne. Ce code type analyse détermine le type de données source dans les écritures comptables article sur laquelle l'analyse est basée. Les données source incluent les coûts, le montant vente ou la quantité et leurs écritures valeur associées. Vous pouvez configurer autant de modèles de colonne que nécessaire, puis les utiliser pour créer des rapports d'analyse.    
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Modèles de colonne vente**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Modèles de colonne vente**, puis sélectionnez le lien associé.  
 2. Sélectionnez la première ligne vide, puis renseignez les champs selon vos besoins.
 3. Sélectionnez l'action **Colonnes**.  
 4. Dans la fenêtre **Colonnes d'analyse**, renseignez les champs afin d'indiquer les colonnes à inclure dans l'état d'analyse.  
@@ -78,7 +78,7 @@ Dans un rapport d'analyse, les objets de l'analyse figurent sur les lignes. Vous
 
 Les modèles contiennent un ensemble de lignes correspondant aux lignes d'analyse qui apparaissent dans le rapport d'analyse. Une ligne peut indiquer un ou plusieurs articles, clients, fournisseurs ou groupes. Vous pouvez également créer dans une ligne une formule totalisant les autres lignes. Vous pouvez configurer autant de modèles de ligne que nécessaire, puis les utiliser pour créer des rapports d'analyse.    
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Modèles de ligne vente**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Modèles de ligne vente**, puis sélectionnez le lien associé.  
 2. Sélectionnez la première ligne vide, puis renseignez les champs selon vos besoins.
 3. Sélectionnez l'option **Lignes**.  
 4. Dans la fenêtre **Ligne d'analyse**, créez des lignes pour les articles, clients, fournisseurs ou vendeurs dont vous voulez voir les chiffres dans votre état d'analyse. Vous devez renseigner les champs **Type**, **Plage** et **Désignation**.  
@@ -91,7 +91,7 @@ La procédure suivante se base sur des rapports d'analyse des ventes. Les étape
 
 Les rapports d'analyse permettent d'analyser la dynamique de vos ventes en fonction des indicateurs de performances des ventes clés que vous sélectionnez, par exemple le volume des ventes en matière de montant et de quantité, la marge contributive ou l'évolution des ventes réelles par rapport au budget. Ils peuvent également servir à analyser vos prix de vente moyens et à évaluer les performances de vos commerciaux.  
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Rapports d'analyse vente**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Rapports d'analyse vente**, puis sélectionnez le lien associé.  
 2. Dans la fenêtre **Rapports d'analyse vente**, cliquez sur l'action **Nouveau**.
 3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Choisissez l'action **Modifier le rapport d'analyse**.

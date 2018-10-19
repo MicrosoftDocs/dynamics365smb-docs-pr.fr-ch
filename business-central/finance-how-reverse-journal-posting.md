@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.date: 08/03/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9a4a7001ab5a752bf2e2acdd273d2a584a1e0b8a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: beed335b93ef9211e4fc53c25f97b3fed6137348
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="reverse-postings"></a>Inversion d'une validation
@@ -31,15 +31,15 @@ Si vous avez effectué une validation de quantité négative incorrecte, comme u
 Si vous avez effectué une validation de quantité positive incorrecte, comme une commande retour achat avec, par exemple, un nombre d'articles incorrect et que vous l'avez validée comme étant livrée (mais non facturée), vous pouvez annuler cette validation.   
 
 ## <a name="to-reverse-the-journal-posting-of-a-general-ledger-entry"></a>Pour contrepasser la validation feuille d'une écriture comptable
-Vous pouvez inverser des écritures dans toutes les fenêtres **Écritures comptables**. La procédure suivante se base sur la fenêtre **Écritures comptables**.
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Ecritures comptables**, puis sélectionnez le lien connexe.
+Vous pouvez inverser des écritures dans toutes les fenêtres **Écritures comptables**. La procédure suivante se base dans la fenêtre **Écritures comptables**.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Écritures comptables**, puis sélectionnez le lien associé.
 2. Sélectionnez l'écriture à contrepasser, puis cliquez sur l'action **Contrepasser la transaction**. Notez que cela doit être émis depuis une validation feuille.
 3. Dans la fenêtre **Contrepasser les écritures de transaction**, sélectionnez l'écriture voulue, puis sélectionnez l'action **Contrepasser**.
-4. Choisissez le bouton **Oui** dans le message de confirmation.
+4. Cliquez sur le bouton **Oui** dans le message de confirmation.
 
 ## <a name="to-undo-a-quantity-posting-on-a-posted-purchase-receipt"></a>Pour annuler une validation de quantité sur une réception d'achat enregistrée  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Réceptions achat enregistrées**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Réceptions achat enregistrées**, puis sélectionnez le lien associé.  
 2.  Ouvrez la réception enregistrée à annuler.  
 3.  Sélectionnez la ligne ou les lignes à annuler.  
 4.  Choisissez l'action **Annuler réception**.
@@ -52,7 +52,7 @@ Vous pouvez inverser des écritures dans toutes les fenêtres **Écritures compt
 
 ## <a name="to-undo-and-then-redo-a-quantity-posting-on-a-posted-return-shipment"></a>Pour annuler, puis effectuer à nouveau la validation de quantité sur les expéditions retour enregistrées
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Expéditions retour enreg.**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Expéditions retour enreg.**, puis sélectionnez le lien associé.  
 2.  Ouvrez l'expédition retour validée à annuler.
 3. Sélectionnez la ligne ou les lignes à annuler.  
 
@@ -63,14 +63,14 @@ Vous pouvez inverser des écritures dans toutes les fenêtres **Écritures compt
     Retournez à présent au retour achat pour une nouvelle validation.  
 
 5.  Dans la fenêtre **Expédition retour enregistrée**, notez le numéro situé dans le champ **N° retour** .  
-6.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Retours achat**, puis sélectionnez le lien connexe.  
+6.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Retours achat**, et sélectionnez le lien associé.  
 7.  Ouvrez la commande retour concernée, puis sélectionnez l'action **Rouvrir**.  
 8.  Corrigez l'écriture dans le champ **Quantité** et publiez à nouveau le retour achat.  
 
 ## <a name="to-post-a-negative-entry"></a>Pour valider une écriture négative  
 Vous pouvez utiliser le champ **Correction** pour valider un débit négatif au lieu d'un crédit, ou pour valider un crédit négatif au lieu d'un débit sur un compte. Pour répondre aux exigences légales, ce champ est visible par défaut sur toutes les feuilles. Les champs **Montant débit** et **Montant crédit** comprennent l'écriture initiale et l'écriture corrigée. Ces champs n'ont aucune incidence sur le solde du compte.  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuilles comptabilité**, puis sélectionnez le lien connexe  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles comptabilité**, puis sélectionnez le lien associé  
 2.  Dans le champ **Nom de la feuille**, sélectionnez le nom de feuille requis.  
 3.  Entrez les informations dans les champs pertinents.  
 4.  Dans la ligne feuille que vous souhaitez activer pour les écritures négatives, sélectionnez la case à cocher **Correction**.  

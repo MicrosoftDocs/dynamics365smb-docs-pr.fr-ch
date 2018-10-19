@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier, payment priority
-ms.date: 03/29/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f7834f0f99b775125425eb7209c3c648de4ccd1f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: cb3556c9bd8fb893448d61c4e8f18131b96a9841
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="prioritize-vendors"></a>Octroyer une priorité aux fournisseurs
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/22/2018
 Tout d'abord, vous devez attribuer une priorité à vos fournisseurs en leur affectant des numéros.
 
 ## <a name="to-prioritize-vendors"></a>Pour octroyer une priorité à des fournisseurs
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Comptes bancaires**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Fournisseurs**, puis sélectionnez le lien associé.
 2. Sélectionnez le fournisseur approprié, puis sélectionnez **Modifier**.
 3. Dans le champ **Priorité**, entrez un numéro.
 

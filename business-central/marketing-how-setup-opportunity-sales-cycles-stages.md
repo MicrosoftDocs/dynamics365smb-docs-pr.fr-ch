@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a883598c4f8a3bb9593ec2a3b976d169887308da
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 34262b070ea19b5f109c9194d6a91ef048132e6b
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a>Configurer des cycles de vente opportunité et des étapes de cycle
@@ -25,7 +25,7 @@ Mettre en œuvre des cycles de vente opportunité implique la création d'un cyc
 Cette rubrique décrit également comment configurer des tâches et les activités, et comment affecter des tâches aux activités. Pour plus d'informations, reportez-vous à la section « Pour configurer des activités avec des tâches ».
 
 ## <a name="to-set-up-opportunity-sales-cycle-codes"></a>Pour configurer des cycles de vente opportunité
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Cycles de vente**, puis sélectionnez le lien connexe. La fenêtre **Cycles de vente** s'affiche, et répertorie tous les cycles de vente existants.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Cycles de vente**, puis sélectionnez le lien associé. La fenêtre **Cycles de vente** s'affiche, et répertorie tous les cycles de vente existants.
 2. Sélectionnez l'action **Nouveau**, puis renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Répétez ces étapes pour chaque cycle de vente à configurer. Une fois les cycles de vente opportunité configurés, vous pouvez définir les différentes étapes de chaque cycle.
@@ -42,7 +42,7 @@ Après avoir ajouté le cycle d'étapes opportunité, vous pouvez commencer à a
 ## <a name="to-set-up-activities-with-tasks"></a>Pour configurer des activités avec des tâches
 Vous pouvez combiner plusieurs tâches, par exemple les tâches qui représentent chacune une étape, dans les activités. Les tâches d'activité sont liées entre elles par une formule de date. Vous pouvez affecter des activités aux opportunités, aux vendeurs, ou aux contacts.
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Cycles de vente**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Activités**, puis choisissez le lien associé.
 2. Sélectionnez l'action **Nouveau**, puis renseignez les champs selon vos besoins.
 3. Sur le raccourci **Lignes**, renseignez les champs nécessaires pour définir une ou plusieurs tâches dans l'activité.
 
@@ -52,7 +52,7 @@ Lorsque vous avez créé une tâche, vous pouvez l'affecter à une opportunité 
 > [!NOTE]  
 >   Cette procédure explique comment affecter des tâches d'activité à des opportunités. les étapes sont similaires lorsque vous affectez des tâches aux vendeurs et aux contacts.
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Opportunités**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Opportunités**, puis choisissez le lien associé.
 2. Sélectionnez une opportunité, puis cliquez sur **Tâches**.
 3. Dans la fenêtre **Liste des tâches**, sélectionnez l'action **Créer Tâche**.
 4.  Dans la fenêtre **Créer Tâche**, renseignez les champs selon vos besoins.

@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
-ms.date: 03/30/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ed2ffa433c2bee2b29971aacd25430d2148ecc56
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 75ee26e612627f7d24e47db87cb520d56a331ef6
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="send-documents-by-email"></a>Envoyer des documents par e-mail
@@ -32,7 +32,7 @@ Si le champ **E-mail** de la fenêtre **Envoyer le document à** est défini sur
 La procédure suivante décrit comment définir l'état **Ventes : Facture** à utiliser pour les corps de message spécifiques à un document lorsque vous envoyez par e-mail des factures vente validées.
 
 ## <a name="to-set-up-a-document-specific-email-body-for-sales-invoices"></a>Pour configurer corps de message spécifique à un document pour les factures vente
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Sélection des états - Ventes**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Sélection des états - Ventes**, puis sélectionnez le lien associé.
 2. Dans la fenêtre **Sélection des états : Ventes**, dans le champ **Utilisation**, sélectionnez **Facture**
 3. Sur une nouvelle ligne, dans le champ **ID état**, sélectionnez, par exemple, l'état standard 1306.
 4. Cochez la case **Utiliser pour le corps du message e-mail**.
@@ -48,7 +48,7 @@ Désormais, lorsque vous sélectionnez, par exemple, l'action **Envoyer** dans l
 La procédure suivante décrit comment envoyer une facture vente validée en tant que message e-mail avec le document en pièce jointe sous forme de fichier PDF et avec un corps de message spécifique au document.
 
 ## <a name="to-send-documents-by-email"></a>Pour envoyer des documents par e-mail
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Factures vente enregistrées**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Factures vente enregistrées**, puis sélectionnez le lien associé.
 2. Sélectionnez la facture vente validée appropriée, puis cliquez sur **Envoyer**. La fenêtre **Envoyer le document à** s'affiche.
 3. Dans le champ **E-mail**, sélectionnez **Oui (Afficher une invite pour le réglage des paramètres)**. Pour plus d'informations, reportez vous à [Configurer des profils d'envoi de documents](sales-how-setup-document-send-profiles.md).
 4. Cliquez sur le bouton **OK**. La fenêtre **Envoyer e-mail** s'affiche.

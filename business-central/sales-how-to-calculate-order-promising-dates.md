@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 01/19/2019
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 09bb0425a8908b17939ebfa52258353e12f577f8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b51486a1daed9f6896424c1eefb55688aec8d16e
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="calculate-order-promising-dates"></a>Calculer des dates promesse livraison
@@ -78,7 +78,7 @@ Le préparateur de commandes finit le processus CTP en acceptant les dates. Cela
 En plus de la promesse de livraison externe que vous pouvez effectuer dans la fenêtre **Lignes promesse de livraison**, vous pouvez également promettre des dates de livraison internes ou externes pour les articles de nomenclature. Pour plus d'informations, voir [Voir la disponibilité des articles](inventory-how-availability-overview.md).
 
 ## <a name="to-set-up-order-promising"></a>Pour configurer une promesse livraison  
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Paramètres promesses livraison**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres promesses livraison**, puis sélectionnez le lien associé.  
 2. Entrez un numéro et un code unité de temps dans le champ **Décalage (durée)**. Sélectionnez l'une des options suivantes.  
 
     |Code|Désignation|  
@@ -96,14 +96,14 @@ En plus de la promesse de livraison externe que vous pouvez effectuer dans la fe
 
 ### <a name="to-enter-inbound-warehouse-handling-time-in-the-inventory-setup-window"></a>Pour entrer un délai d'enlogement dans la fenêtre Paramètres stocks  
 Si vous le souhaitez, vous pouvez inclure un délai entrepôt par défaut pour votre stock ou pour votre magasin dans le calcul de la promesse de livraison sur la ligne achat.    
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Paramètres stock**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres stock**, puis sélectionnez le lien associé.  
 2. Sur le raccourci **Général**, dans le champ **Délai enlogement**, indiquez le nombre de jours que vous souhaitez inclure dans le calcul de la promesse de livraison.  
 
 > [!NOTE]  
 >  Si vous avez renseigné le champ **Délai enlogement** dans la **fiche magasin** pour votre magasin, ce champ est utilisé en tant que délai d'enlogement par défaut.  
 
 ### <a name="to-enter-inbound-warehouse-handling-time-on-location-cards"></a>Pour entrer des délais d'enlogement dans les fiches magasin  
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Magasin**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Magasin**, puis choisissez le lien associé.  
 2.  Ouvrez la fiche magasin appropriée.  
 3.  Sur le raccourci **Entrepôt**, dans le champ **Délai enlogement**, indiquez le nombre de jours que vous souhaitez inclure dans le calcul de la promesse de livraison.  
 
@@ -113,14 +113,14 @@ Si vous le souhaitez, vous pouvez inclure un délai entrepôt par défaut pour v
 ### <a name="to-enter-outbound-warehouse-handling-time-in-the-inventory-setup-window"></a>Pour entrer un délai d'enlogement sortant dans la fenêtre Paramètres stocks  
 Vous pouvez configurer un délai de désenlogement par défaut pour le stock, à inclure dans le calcul des promesses de livraison dans les lignes vente.
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Paramètres stock**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres stock**, puis sélectionnez le lien associé.  
 2. Sur le raccourci **Général**, dans le champ **Délai enlogement sortant**, indiquez le nombre de jours que vous souhaitez inclure dans le calcul de la promesse de livraison.  
 
 > [!NOTE]  
 >  Si vous avez renseigné le champ **Délai enlogement sortant** dans la fiche magasin pour votre magasin, ce champ est utilisé en tant que délai d'enlogement sortant par défaut.  
 
 ### <a name="to-enter-outbound-warehouse-handling-time-on-location-cards"></a>Pour entrer un délai de désenlogement sortant dans les fiches magasin  
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Magasins**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Magasins**, puis choisissez le lien associé.  
 2.  Ouvrez la fiche magasin appropriée.  
 3.  Sur le raccourci **Entrepôt**, dans le champ **Délai enlogement sortant**, indiquez le nombre de jours que vous souhaitez inclure dans le calcul de la promesse de livraison.  
 
@@ -129,19 +129,19 @@ Vous pouvez configurer un délai de désenlogement par défaut pour le stock, à
 
 ## <a name="to-make-an-item-critical"></a>Pour affecter le statut critique à un article  
 Avant qu'un article puisse être inclus dans le calcul de la promesse de livraison, il doit être signalé comme critique. Cette configuration garantit que les articles non critiques ne génèrent pas de calculs inutiles de promesse de livraison.   
-1.  Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Articles**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles**, puis sélectionnez le lien associé.  
 2.  Ouvrez la fiche article appropriée.  
 3.  Sur le raccourci **Planifié**, sélectionnez le champ **Critique**.  
 
 ## <a name="to-calculate-an-order-promising-date"></a>Pour calculer une date promesse livraison  
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Commandes vente**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commande vente**, puis sélectionnez le lien associé.  
 2.  Ouvrez la commande vente appropriée et sélectionnez les lignes de commande vente que vous souhaitez que le programme calcule.  
 3.  Choisissez l'action **Promesse de livraison**, puis sélectionnez l'action **Lignes promesse de livraison**.  
 4.  Sélectionnez une ligne, puis l'une des options suivantes :  
 
     - Choisissez **Disponible à la vente** si vous souhaitez calculer la date la plus proche à laquelle l'article sera disponible pour ce qui est du stock, des réceptions planifiées, et des besoins bruts.  
     - Choisissez **Simulation de délai** si vous savez que l'article est actuellement en rupture de stock et que vous souhaitez calculer la date la plus proche à laquelle cet article sera disponible grâce à l'émission de demandes de réapprovisionnement.  
-5.  Choisissez le bouton **Accepter** pour accepter la date d'expédition disponible la plus proche.  
+5.  Cliquez sur le bouton **Accepter** pour accepter la date d'expédition disponible la plus proche.  
 
 ## <a name="see-also"></a>Voir aussi  
 [Ventes](sales-manage-sales.md)  

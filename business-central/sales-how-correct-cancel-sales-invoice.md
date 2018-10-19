@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 08/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 2843f17350eeb09b594f68590bf61fbf812fa644
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 96430c92bf4fecbe98b53d09c06c82a5828b7326
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="correct-or-cancel-unpaid-sales-invoices"></a>Corriger ou annuler des factures vente impayées
@@ -33,7 +33,7 @@ Dans la fenêtre **Facture vente enregistrée**, vous pouvez sélectionnez l'act
 Lorsque vous corrigez ou annulez une facture vente enregistrée, l'avoir vente de correction est appliqué à toutes les écritures comptables de la comptabilité et de l'inventaire créées lors de la validation de la facture vente initiale. Cette action contrepasse la facture vente validée dans vos enregistrements financiers et laisse l'avoir vente validé de correction pour votre piste d'audit.
 
 ## <a name="to-correct-a-posted-sales-invoice"></a>Pour corriger une facture vente validée
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Factures vente enregistrées**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Factures vente enregistrées**, puis sélectionnez le lien associé.  
 2. Sélectionnez la facture vente validée à corriger.
 
     > [!NOTE]  
@@ -45,7 +45,7 @@ Lorsque vous corrigez ou annulez une facture vente enregistrée, l'avoir vente d
 5. Sélectionnez l'action **Afficher un avoir correctif** pour afficher l'avoir vente validé qui annule la facture vente validée initiale.
 
 ## <a name="to-cancel-a-posted-sales-invoice"></a>Pour annuler une facture vente validée
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Factures vente enregistrées**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Factures vente enregistrées**, puis sélectionnez le lien associé.  
 2. Sélectionnez la facture vente validée à annuler.
 
     > [!NOTE]  

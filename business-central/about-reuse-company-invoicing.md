@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 11/22/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: ddd86615679e6231418b479a440b7555a3e1c50f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 917887deae163a76b233e1635344e537806f6215
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="using-the-same-office-365-account-in-included365finincludesd365finlongmdmd-and-microsoft-invoicing"></a>Utilisation du même compte Office 365 dans [!INCLUDE[d365fin](includes/d365fin_long_md.md)] et Microsoft Invoicing
@@ -31,7 +31,7 @@ Vous devrez donc vous connecter à [!INCLUDE[d365fin](includes/d365fin_md.md)] e
 
 ### <a name="to-rename-your-company"></a>Pour renommer votre société
 1.  Connectez-vous à [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-2.  Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Sociétés**, puis sélectionnez le lien connexe.  
+2.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Sociétés**, puis sélectionnez le lien associé.  
 3.  Dans la fenêtre **Sociétés**, sélectionnez le bouton **Modifier la liste**.  
 4.  Remplacez le nom de l'entrée *Ma société* par un autre nom.  
 

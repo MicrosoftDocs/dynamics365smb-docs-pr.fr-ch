@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 75e170f10927844ca37a001812e78e062e88c451
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8e0668e39891f6e0924afd8d9ec3ee39af95e587
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="work-with-blanket-sales-orders"></a>Utiliser des commandes ouvertes vente
@@ -30,7 +30,7 @@ Vous pouvez utiliser une commande ouverte vente, par exemple, lorsqu'un client a
 > Les commandes ouvertes achat fonctionnent de la même manière que les commandes ouvertes vente. Cette documentation ne couvre pas les commandes ouvertes achat.
 
 ## <a name="to-create-a-blanket-sales-order"></a>Pour créer une commande vente ouverte.  
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Commandes ouvertes vente**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes ouvertes vente**, puis sélectionnez le lien associé.  
 2. Sélectionnez l'action **Nouveau**.  
 3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Laissez vide le champ **Date commande**. Lors de la création de commandes vente séparées depuis la commande ouverte, la date commande de la commande vente est définie comme égale à la date du jour.
@@ -58,7 +58,7 @@ Ce qui suit s'applique aux commandes vente après leur création à partir de co
 ## <a name="to-view-the-status-of-a-blanket-purchase-order"></a>Pour visualiser le statut d'une commande ouverte achat  
 Vous pouvez visualiser le statut d'une commande ouverte vente dans la fenêtre **Statistiques Commande ouverte achat**. Ceci peut s'avérer utile lorsque vous commencez à facturer une commande créée à partir de la commande ouverte achat.  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Commandes ouvertes vente**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commande achat ouverte**, puis sélectionnez le lien associé.  
 2.  Sélectionnez une commande ouverte achat, puis sélectionnez l'action **Statistiques**.  
 3.  Dans la fenêtre **Statistiques Commande ouverte achat**, sur le raccourci **Général**, vous pouvez visualiser des informations récapitulatives concernant l'intégralité de la commande. Elles se basent sur la quantité totale des **champs Quantité** sur les lignes commande ouverte achat.  
 
@@ -70,7 +70,7 @@ Vous pouvez visualiser le statut d'une commande ouverte vente dans la fenêtre *
 ## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Pour afficher des lignes de commande vente ouverte non validées et validées   
 Le lien entre la commande ouverte vente et la commande vente d'origine, et n'importe quel autre document vente, est conservé après validation en tant que liste des lignes facture validées et non validées de commande vente.  
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Commandes ouvertes vente**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes ouvertes vente**, puis sélectionnez le lien associé.
 2. Ouvrez la commande vente ouverte que vous souhaitez afficher.
 3. Pour visualiser les écritures non validées, sélectionnez la ligne en question, sélectionnez l'action **Ligne**, puis l'action **Lignes non validées**. Choisissez l'une des options suivantes.  
 

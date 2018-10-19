@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/16/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a7918a962f3349c68cd7245e9b12f83975aee5ac
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9092100816c58fe2882c61214a5008e27591d4f5
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="put-away-production-or-assembly-output"></a>Rangement du résultat de fabrication ou d'assemblage
@@ -29,14 +29,14 @@ Dans les configurations de stockage avancées où l'emplacement nécessite un tr
 La première étape dans la création d'un rangement de production consiste à créer la demande enlogement entrante. Cette demande indique à l'entrepôt que la production de l'O.F ou de l'assemblage est prête à être rangée.
 
 ## <a name="to-create-the-inbound-warehouse-request"></a>Pour créer la demande d'enlogement  
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **O.F. lancé**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **O.F. lancé**, puis sélectionnez le lien associé.  
 2.  Sur l’ordre de fabrication qui est prêt pour rangement, choisissez l'action **Créer demande d’enlogement**.  
 
 > [!NOTE]  
 >  Vous pouvez également créer la demande enlogement entrepôt en sélectionnant le champ **Créer demande d'enlogement** lors de l'actualisation de l'ordre de fabrication. Pour plus d'informations, voir [Actualiser ou replanifier des ordres de fabrication](production-how-to-replan-refresh-production-orders.md).  
 
 ## <a name="to-put-output-away-with-an-inventory-put-away"></a>Pour ranger la production avec un rangement stock  
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Rangements stock**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Rangement stock**, puis sélectionnez le lien associé.  
 2.  Créez un rangement stock. Pour plus d'informations, voir [Ranger des articles avec le rangement stock](warehouse-how-to-put-items-away-with-inventory-put-aways.md)
 3.  Pour accéder aux composants de la production de l'O.F., choisissez l'action **Extraire documents origine**, puis sélectionnez l'ordre de fabrication lancé.  
 4.  Renseignez les lignes rangement en fonction des besoins.
@@ -49,7 +49,7 @@ Lorsque vous validez un rangement stock, on suppose que toutes les opérations s
 Si vous devez juste validé le temps d'exécution ou de préparation de la dernière opération, définissez la quantité produite de la dernière opération sur 0. Vous pouvez également choisir de ne pas valider la dernière ligne en la supprimant  
 
 ## <a name="to-put-output-away-with-a-warehouse-internal-put-away"></a>Pour ranger la production dans le cadre d'un rangement interne ou d'un mouvement
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Prélèvement interne entrepôt**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Rangement interne entrepôt**, puis sélectionnez le lien associé.  
 2. Sélectionnez l'action **Nouveau**.
 3. Renseignez l'en-tête d'un nouveau rangement interne en y indiquant au moins le **code magasin**.  
 4. Renseignez une ligne pour chaque article à déplacer vers l'entrepôt. Vous ne devez renseigner que les champs **N° article** et **Quantité**.  
@@ -64,7 +64,7 @@ Si vous devez juste validé le temps d'exécution ou de préparation de la derni
 >  Lorsque l'entrepôt est configuré pour utiliser un prélèvement et un rangement suggérés, l'entrepôt est relié au centre de fabrication via les emplacements de fabrication par défaut : les emplacements enlogement et désenlogement et l'emplacement atelier ouvert que vous pouvez définir sur le raccourci **Emplacements** de la fiche magasin. Lorsque vous validez la production d'un O.F.,la production est placée automatiquement dans l' **emplacement désenlogement**. Suivez la procédure décrite ci-dessus pour ranger la production, mais au lieu d'utiliser l'emplacement par défaut de l'article, vous devez déplacer ou ranger les articles de l' **emplacement désenlogement** dans l'emplacement par défaut de l'article.  
 
 ## <a name="to-manually-specify-a-bin-to-store-items-from-production-output"></a>Pour spécifier manuellement un emplacement devant stocker des articles issus de l'unité de production  
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille mouvement**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille mouvement**, puis sélectionnez le lien associé.  
 2.  Renseignez l'en-tête et créez une ligne pour chaque article à déplacer vers l'entrepôt.  
 3.  Renseignez les champs **Du code emplacement** et **Du code emplacement**, puis entrez la quantité dans le champ **Quantité**.  
 4.  Pour compléter les lignes de la feuille en y indiquant l'ensemble du contenu emplacement ou le contenu emplacement filtré des emplacements du magasin, choisissez l'action **Extraire contenu emplacement**.  

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e05bcfbfee3f07beb32a8f145eb7dd4b1888edcf
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c656787a2de965fee90bd24922a443bc3d24bb8a
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Modifier le montant annuel du contrat service ou du devis contrat
@@ -22,7 +22,7 @@ Vous pouvez modifier le montant annuel du contrat service ou du devis contrat af
 
 ## <a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a>Pour modifier le montant annuel du contrat service ou du devis contrat  
 
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Contrats de service** ou **Devis contrat de service**, puis choisissez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Contrats de services** ou **Devis contrat de service**, puis sélectionnez le lien associé.  
 2. Choisissez le contrat ou le devis contrat.  
 3. Choisissez l'action **Ouvrir contrat** pour ouvrir le contrat ou le devis contrat et le modifier.  
 4. Choisissez la case à cocher **Autoriser montants non soldés** si vous souhaitez modifier le montant annuel et répartir la différence du montant annuel manuellement dans les lignes de contrat. Autrement, décochez la case pour répartir automatiquement la différence du montant annuel dans les lignes contrat après avoir modifié le montant annuel.  
@@ -53,7 +53,7 @@ La case à cocher **Autoriser montants non soldés** n'est pas activé dans le c
 
 |Article ;|Coût ligne|Valeur ligne|% remise ligne|Montant remise ligne|Montant ligne|Marge|  
 |----------|---------------|----------------|---------------------|--------------------------|-----------------|------------|  
-|Article 1|30,00|40,00|  0.00|  0.00|40,00|10,00|  
+|Article 1|30,00|40,00|0.00|0.00|40,00|10,00|  
 |Article 2|40,00|50,00|10,00|5,00|45,00|5,00|  
 |Article 3|50,00|70,00|10,00|7,00|63,00|13,00|  
 
@@ -99,7 +99,7 @@ La case à cocher **Autoriser montants non soldés** n'est pas activé dans le c
 |Article ;|Coût ligne|Valeur ligne|% remise ligne|Montant remise ligne|Montant ligne|Marge|  
 |----------|---------------|----------------|---------------------|--------------------------|-----------------|------------|  
 |Article 1|15,00|17,00|3,00|0,51|25,00|1,49|  
-|Article 2|20,00|23,00|Aucune|  0.00|55,10|3,00|  
+|Article 2|20,00|23,00|Aucune|0.00|55,10|3,00|  
 |Article 3|24,00|27,00|3,00|0,81|112,70|2,19|  
 
 La valeur du champ **Montant annuel** est égale à celle du champ **Montant annuel calculé** qui est toujours égale à la somme des montants ligne. Dans ce cas, il est égal à ce qui suit : 16,49 + 23,00 + 26,19 = 65,68.  
@@ -126,7 +126,7 @@ La case à cocher **Autoriser montants non soldés** n'est pas activé dans le c
 |Article ;|Coût ligne|Valeur ligne|% remise ligne|Montant remise ligne|Montant ligne|Marge|  
 |----------|---------------|----------------|---------------------|--------------------------|-----------------|------------|  
 |Article 1|15,00|17,00|3,00|0,51|25,00|1,49|  
-|Article 2|20,00|23,00|Aucune|  0.00|55,10|3,00|  
+|Article 2|20,00|23,00|Aucune|0.00|55,10|3,00|  
 |Article 3|24,00|27,00|3,00|0,81|112,70|2,19|  
 
 La valeur du champ **Montant annuel** est égale à celle du champ **Montant annuel calculé** qui est toujours égale à la somme des montants ligne. Dans ce cas, il est égal à ce qui suit : 16,49 + 23,00 + 26,19 = 65,68.  
@@ -163,7 +163,7 @@ La case à cocher **Autoriser montants non soldés** n'est pas activé dans le c
 
 |Article ;|Coût ligne|Valeur ligne|% remise ligne|Montant remise ligne|Montant ligne|Marge|  
 |----------|---------------|----------------|---------------------|--------------------------|-----------------|------------|  
-|Article 1|20,00|25,00|  0.00|  0.00|25,00|5,00|  
+|Article 1|20,00|25,00|0.00|0.00|25,00|5,00|  
 |Article 2|50,00|58,00|5,00|2,90|55,10|5,10|  
 |Article 3|100,00|115,00|2,00|2,30|112,70|« %12,70 ».|  
 

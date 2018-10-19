@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/29/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8d7fe65a719c7337e0c72435b4ee157c829f7f78
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 816482c6966f3b492cd79b67ac39a33a11cd3d88
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="pick-items-with-inventory-picks"></a>Prélever des articles avec les prélèvements stock
@@ -36,7 +36,7 @@ Vous pouvez créer un prélèvement stock de trois manières :
 ## <a name="to-request-an-inventory-pick-by-releasing-the-source-document"></a>Pour demander un prélèvement stock en lançant le document origine  
 Pour les commandes vente, de retours achat et de désenlogements transfert, vous créez la demande entrepôt en lançant l'ordre. Ce qui suit décrit comment faire cela pour une commande vente.
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Commandes vente**, puis sélectionnez le lien connexe.
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes vente**, puis sélectionnez le lien associé.
 2. Sélectionnez la commande vente que vous voulez lancer, puis sélectionnez l'action **Lancer**.
 
 Pour les ordres de fabrication, vous créez automatiquement la demande entrepôt pour le prélèvement de composants, appelé *consommation* lorsque le statut de l'ordre de fabrication passe à **Lancé** ou lorsque l'ordre de fabrication lancé est créé. Pour plus d'informations, voir [Prélever pour la fabrication ou l'assemblage](warehouse-how-to-pick-for-production.md).
@@ -45,12 +45,12 @@ Une fois la demande entrepôt créée, le magasinier affecté aux prélèvements
 
 ## <a name="to-create-an-inventory-pick-based-on-the-source-document"></a>Pour créer un prélèvement stock en fonction du document origine
 Maintenant que la demande est créée, le magasinier peut créer un nouveau prélèvement stock sur la base du document origine lancé.
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Prélèvements stock**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Prélèvements stock**, puis sélectionnez le lien associé.  
 2.  Sélectionnez l'action **Nouveau**.  
 3. Dans le champ **Document origine**, sélectionnez le type de document origine relatif au prélèvement.  
 4. Dans le champ **N° origine**, sélectionnez le document origine.  
 5. Sinon, choisissez l'action **Extraire document origine** pour sélectionner le document à partir de la liste des documents origine sortants prêts pour le prélèvement dans le magasin.  
-6. Choisissez le bouton **OK** pour renseigner les lignes prélèvement en fonction du document origine sélectionné.  
+6. Cliquez sur le bouton **OK** pour renseigner les lignes prélèvement en fonction du document origine sélectionné.  
 
 ## <a name="to-create-an-inventory-pick-from-the-source-document"></a>Pour créer un prélèvement stock à partir du document origine  
 1.  Dans le document origine, qui peut être une commande vente, un retour achat, un désenlogement transfert ou un ordre de fabrication, choisissez l'action **Créer prélèv./rangement stock**.
@@ -58,7 +58,7 @@ Maintenant que la demande est créée, le magasinier peut créer un nouveau pré
 3.  Cliquez sur le bouton **OK**. Un nouveau prélèvement stock sera créé.
 
 ## <a name="to-create-multiple-inventory-picks-with-a-batch-job"></a>Pour créer plusieurs prélèvements stock avec un traitement par lots  
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Créer prélèv./rangement stock**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Créer prélèv./rangement stock**, puis sélectionnez le lien associé.  
 2.  Sur le raccourci **Demande entrepôt**, utilisez les champs **Document origine** et **N° origine** pour opérer un filtrage sur certains types de documents ou des plages de numéros de document. Par exemple, vous pouvez créer des prélèvements uniquement pour des commandes vente.  
 3. Dans le raccourci **Options**, cochez la case **Créer rangement stock. prélèvement**.
 4. Cliquez sur le bouton **OK**. Les prélèvements stock spécifiés sont créés.
@@ -69,7 +69,7 @@ Maintenant que la demande est créée, le magasinier peut créer un nouveau pré
 >  Dans les configurations de stockage de base, les articles qui sont assemblés aux commandes vente sont prélevés de la commande vente associée, comme expliqué dans cette rubrique. Pour plus d’informations, reportez\-vous à la section « Traitement des articles à assembler pour commande dans les prélèvements stock » dans Prélèvement stock.  
 
 ## <a name="to-record-the-inventory-picks"></a>Pour enregistrer les prélèvements stock  
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Prélvmt invent**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Prélèvement stock**, puis sélectionnez le lien associé.  
 2. Dans le champ **Code emplacement** sur les lignes prélèvement, l'emplacement à partir duquel les articles doivent être prélevés est proposé sur la base d'un emplacement par défaut de l'article. Vous pouvez modifier l'emplacement dans cette fenêtre, si nécessaire.  
 3. Exécutez le prélèvement et saisissez les informations pour la quantité effectivement rangée dans le champ **Quantité à traiter**.
 

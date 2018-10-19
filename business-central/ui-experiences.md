@@ -1,6 +1,6 @@
 ---
 title: "Choix de l'expérience utilisateur pour masquer ou afficher des fonctions avancées | Microsoft Docs"
-description: "En savoir plus sur ce que signifie le niveau d'expérience Basic et Essentiel pour l'interface utilisateur, les domaines d'application, et votre société."
+description: "En savoir plus sur ce que signifie le niveau d'expérience Essentiel et Premium pour l'interface utilisateur, les domaines d'application, et votre société."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-business-central
@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 07/31/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
-ms.openlocfilehash: f8dd92a5a7398ddce64dd4fce0ce9323014a29a0
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b24ef5c8750bef5ac2b5475a48a5807838162c69
 ms.contentlocale: fr-ch
-ms.lasthandoff: 08/06/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="changing-which-features-are-displayed"></a>Modification des fonctionnalités affichées
@@ -31,8 +31,7 @@ Le tableau suivant répertorie les expériences actuellement disponibles.
 
 | Expérience | Impact sur l'interface utilisateur |
 | --- | --- |
-| **Basique** |Affiche uniquement les actions et les champs de base relatifs aux fonctionnalités d'entreprise les plus courantes, telles que les ventes, les achats, les stocks et les finances. |
-| **Essentiel** |Affiche tous les champs et actions pour toutes les fonctionnalités d'entreprise communes.|
+| **Essential** |Affiche tous les champs et actions pour toutes les fonctionnalités d'entreprise communes.|
 | **Premium** |Affiche tous les champs et actions pour toutes les fonctionnalités d'entreprise, y compris la fabrication et la gestion des services.|
 
 > [!NOTE]  
@@ -50,15 +49,18 @@ Vous pouvez ensuite définir les fonctions et fenêtres spécifiques de l'expér
 Si vous avez modifié les plans des utilisateurs dans le centre d'administration Office 365, par exemple en affectant plus d'utilisateurs au plan Premium, vous devez refléter les modifications dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 1. Connectez-vous en tant qu'administrateur.
-2. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Utilisateurs**, puis sélectionnez le lien connexe.
+2. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Utilisateurs**, puis sélectionnez le lien associé.
 3. Dans la fenêtre **Utilisateurs**, sélectionnez l'option **Actualiser tous les groupes d'utilisateurs**.
 
 Toutes les nouvelles informations relatives aux plans des utilisateurs et aux groupes d'utilisateurs qui leur sont affectés sont maintenant mises à jour en fonction des modifications du plan.
 
 ### <a name="to-select-the-premium-experience"></a>Pour sélectionner l'expérience Premium
 Vous pouvez maintenant sélectionner la nouvelle expérience.
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Informations société**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Informations société**, puis sélectionnez le lien associé.
 2. Dans la fenêtre **Informations société**, dans le raccourci **Expérience utilisateur**, sélectionnez Premium dans le champ **Expérience**.
+
+## <a name="help-assumes-premium-experience"></a>L'aide implique l'expérience Premium
+Tous les descriptions de fonctions de la documentation utilisateur de [!INCLUDE[d365fin](includes/d365fin_md.md)] assument l'expérience **Premium**, ce qui signifie que les descriptions couvrent la portée complète des éléments de l'interface utilisateur. Une note textuelle est insérée dans les rubriques d'aide de haut niveau pour les zones de la fonctionnalité de fabrication et de gestion du service indiquant qu'elles requièrent l'expérience **Premium**.
 
 ## <a name="see-also"></a>Voir aussi .
 [Création de sociétés](about-new-company.md)  

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2992c2a9cbd2142e69cfb59294791ec31ce4dcb1
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fafe6aa28b61960ea028755f3308155aa1633b60
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Procédure pas à pas : planification manuelle des approvisionnements
@@ -69,7 +69,7 @@ The **Order Planning** window can be accessed from several different locations o
 
 ### <a name="to-use-the-order-planning-window"></a>Pour utiliser la fenêtre Planification commande :  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Planification commande**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Planification commande**, puis sélectionnez le lien associé.  
 
      À la première ouverture de la fenêtre **Planning commande**, une planification doit être calculée pour afficher la nouvelle demande depuis le dernier calcul.  
 
@@ -227,7 +227,7 @@ The **Order Planning** window can be accessed from several different locations o
 
      Le message indique que tous les articles requis sont à présent approvisionnés. Vérifiez les ordres de fabrication planifiés fermes qui ont été créés.  
 
-13. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **O.F. planifiés fermes**, puis sélectionnez le lien connexe.  
+13. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **O.F. planifiés fermes**, puis sélectionnez le lien associé.  
 
      Dans la fenêtre **O. F. planifiés fermes**, passez en revue la planification des heures de début et de fin de chaque commande par rapport à la structure produit. Les composants de niveau inférieur sont produits en premier. Par conséquent, vous devez planifier des commandes multi-niveaux conformément aux instructions de ce flux de planification.  
 

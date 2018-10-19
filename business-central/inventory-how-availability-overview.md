@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 08/15/2017
+ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b3626db626e3c07498ad2a45733acf205d0ec906
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 440a6bdb3203ba1f4a9eddec3a9a88a47ce7917f
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="view-the-availability-of-items"></a>Voir la disponibilité des articles
@@ -40,7 +40,7 @@ Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], les chiffres de disponibilité
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>Pour afficher la disponibilité d'un article en fonction de sa réception ou de sa livraison
 Vous pouvez afficher la disponibilité d'un article en fonction des mouvements de stock attendus dans la fenêtre **Disponibilité par événement**.
 
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Articles**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles**, puis sélectionnez le lien associé.
 2. Ouvrez la fiche d'un article dont vous voulez afficher la disponibilité.
 3. Cliquez sur **Disponibilité article par**, puis sur **Événement**.
 
@@ -50,7 +50,7 @@ Vous pouvez afficher la disponibilité d'un article en fonction des mouvements d
 ## <a name="to-view-the-availability-of-an-item-in-different-periods"></a>Pour afficher la disponibilité d'un article dans différentes périodes
 Vous pouvez visualiser la disponibilité d'un article dans le temps pour les périodes définies dans la fenêtre **Disponibilité art. par période**.
 
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Articles**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles**, puis sélectionnez le lien associé.
 2. Ouvrez la fiche d'un article dont vous voulez afficher la disponibilité.
 3. Cliquez sur **Disponibilité article par**, puis sur **Période**.
 
@@ -60,7 +60,7 @@ Vous pouvez visualiser la disponibilité d'un article dans le temps pour les pé
 ## <a name="to-view-the-availability-of-an-item-at-the-locations-where-it-is-stored"></a>Pour afficher la disponibilité d'un article dans les magasins dans lesquels il est stocké
 Vous pouvez afficher la disponibilité d'un article dans les magasins dans lesquels il est stocké dans la fenêtre **Disponibilité art. par magasin**.
 
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Articles**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles**, puis sélectionnez le lien associé.
 2. Ouvrez la fiche d'un article dont vous voulez afficher la disponibilité.
 3. Cliquez sur **Disponibilité article par**, puis sur **Magasin**.
 
@@ -71,7 +71,7 @@ Vous pouvez afficher la disponibilité d'un article dans les magasins dans lesqu
 ## <a name="to-view-the-availability-of-all-items-by-the-location-where-they-are-stored"></a>Pour afficher la disponibilité de tous les articles en fonction des magasins où ils sont stockés
 Vous pouvez afficher la disponibilité de tous vos articles dans tous vos magasins dans la fenêtre **Articles par magasin**.
 
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Articles**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles**, puis sélectionnez le lien associé.
 2. Cliquez sur **Articles par magasin**.
 
     La fenêtre **Articles par magasin** indique pour tous les articles les quantités disponibles dans chaque magasin.

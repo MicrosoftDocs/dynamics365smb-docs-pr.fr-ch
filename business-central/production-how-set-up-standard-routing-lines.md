@@ -10,27 +10,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/05/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a9ade86e4cce957967afa12f18e3e7ec0168b2b0
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e597f0847a5d1991e26b1fed4596815889f950d0
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-standard-routing-lines"></a>Configurer des lignes gamme standard
 L'utilisation de tâches standard simplifie la création et la maintenance des gammes. Elles vous permettent d'associer rapidement des informations supplémentaires aux opérations récurrentes.
 
 ## <a name="to-set-up-a-standard-task"></a>Pour configurer une tâche standard
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Tâches standard**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Tâches standard**, puis choisissez le lien associé.
 2. Sélectionnez l'action **Nouveau**.
 3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Choisissez l'action **Outils**, **Qualifications**, **Description** ou **Outils**.
 5. Dans la fenêtre qui s'ouvre, décrivez la tâche standard en question.
 
 ## <a name="to-add-a-standard-task-to-an-operation"></a>Pour ajouter une tâche standard à une opération
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Gammes**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Gammes**, puis sélectionnez le lien associé.
 2. Ouvrez la gamme appropriée.
 3. Sélectionnez une ligne gamme appropriée, choisissez l'action **Opérations**, puis l'action **Outils**, **Qualifications**, **Description** ou **Outils**.
 

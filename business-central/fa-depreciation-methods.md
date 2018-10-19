@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: ebee0f94a64fcb6d3a86a7fe1808fdb643371cfd
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 5e8aa531697dcdc6f629312c0569c5628b3f5755
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="depreciation-methods"></a>Méthodes d'amortissement
@@ -231,7 +231,7 @@ Cette méthode paramétrable peut également être utilisée pour calculer un am
 ### <a name="to-set-up-user-defined-depreciation-methods"></a>Pour définir des méthodes d'amortissement paramétrables
 Dans la fenêtre **Table amortissement**, vous pouvez configurer des méthodes d'amortissement paramétrables. Par exemple, vous pouvez définir l'amortissement en fonction du nombre d'unités.  
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), saisissez **Tables d'amortissement**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Tables d'amortissement**, puis sélectionnez le lien associé.  
 2. Dans la fenêtre **Liste des tables amortissement**, sélectionnez l'action **Nouveau**.  
 3. Dans la fenêtre **Fiche table amortissement**, renseignez les champs comme nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
@@ -316,7 +316,7 @@ Les écritures comptables immobilisation se présentent comme suit :
 | 31/12/12 |Amortissements |360 |-19 200,00 |28,800.00 |
 | 31/12/13 |Amortissements |360 |-11 520,00 |17,280.00 |
 | 31/12/14 |Amortissements |360 |-11 520,00 |5.760,00 Lin. |
-| 31/12/15 |Amortissements |180 |  -5 760,00 |0,00 Lin. |
+| 31/12/15 |Amortissements |180 |-5 760,00 |0,00 Lin. |
 
 * Date début amortissement  
 

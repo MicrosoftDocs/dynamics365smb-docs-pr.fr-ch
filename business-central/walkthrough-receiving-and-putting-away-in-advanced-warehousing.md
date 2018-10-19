@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3c1f7a6d08ac03da0d89bad464784b71249c36a2
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 4eddb7fb118f7e410448cebf4497857532f936db
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Procédure pas à pas : Réception et rangement dans les configurations de stockage avancées
@@ -55,7 +55,7 @@ Pour exécuter ce processus pas à pas, vous devez :
 -   avoir CRONUS International Ltd. installé.  
 -   Devenez magasinier dans un magasin BLANC en procédant comme suit :  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Salariés entrepôt**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Magasiniers**, puis choisissez le lien associé.  
 2.  Choisissez le champ **ID utilisateur** et sélectionnez votre propre compte utilisateur dans la fenêtre **Utilisateurs**.  
 3.  Dans le champ **Code magasin**, entrez BLANC.  
 4.  Sélectionnez le champ **Par défaut**.  
@@ -68,7 +68,7 @@ La configuration de la fenêtre **Fiche magasin** définit les flux d'entrepôt 
 
 ### <a name="to-review-the-location-setup"></a>Examen du paramètre de magasin  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Magasins**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Magasins**, puis choisissez le lien associé.  
 2.  Ouvrez la fiche magasin BLANC.  
 3.  Notez que sur le raccourci **Entrepôt**, la case à cocher **Prélèv. et rangement suggérés** est activée.  
 
@@ -83,7 +83,7 @@ Les commandes achat sont le type de document d'origine entrant le plus répandu.
 
 ### <a name="to-create-the-purchase-orders"></a>Création des commandes achat  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Commandes achat**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes achat**, puis sélectionnez le lien associé.  
 2.  Sélectionnez l'action **Nouveau**.  
 3.  Créez une commande achat pour le fournisseur 10000 à la date de travail (23 janvier) comportant les lignes commande achat suivantes.  
 
@@ -114,7 +114,7 @@ Les commandes achat sont le type de document d'origine entrant le plus répandu.
 Dans la fenêtre **Réception entrepôt**, vous pouvez gérer plusieurs commandes entrantes pour les documents d'origine, tel que des commandes achat.  
 
 ### <a name="to-receive-the-items"></a>Réception des articles  
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Réceptions entrepôt**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Réceptions entrepôt**, puis choisissez le lien associé.  
 2.  Sélectionnez l'action **Nouveau**.  
 3.  Dans le champ **Code magasin**, entrez BLANC.  
 4.  Choisissez l'action **Filtrer pour extr. doc. orig.**.  
@@ -132,7 +132,7 @@ Dans la fenêtre **Réception entrepôt**, vous pouvez gérer plusieurs commande
 Dans la fenêtre **Rangement entrepôt**, vous pouvez gérer les rangements pour un document réception entrepôt spécifique couvrant plusieurs documents origine. Comme pour tous les documents activité entrepôt, chaque article dans le rangement entrepôt est représenté par une ligne Prélever et une ligne Emplacement. Dans la procédure suivante, le code emplacement sur les lignes Prélever est l'emplacement de réception par défaut au magasin BLANC, W-08-0001.  
 
 ### <a name="to-put-the-items-away"></a>Rangement des articles  
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Rangements**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Rangements**, puis sélectionnez le lien associé.  
 2.  Sélectionnez le seul document rangement entrepôt dans la liste, puis sous l'onglet **Accueil**, dans le groupe **Gérer**, sélectionnez **Modifier**.  
 
     Le document rangement entrepôt affiche un total de huit lignes Prélever ou Emplacement pour les quatre lignes commande achat.

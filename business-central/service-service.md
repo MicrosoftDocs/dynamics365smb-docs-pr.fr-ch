@@ -8,16 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: a4ff35d8339326a0cc4a42014c82e081fb940a61
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 06f2f8d56d16ef1177bf49e30795cf41af69b8bd
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="service-management"></a>Gestion des services
+> [!NOTE]
+> La fonctionnalité décrite dans ces rubrique et sous-rubriques n'est visible dans l'interface utilisateur que si vous avez l'expérience **Premium**. Pour plus d'informations, voir [Modification des fonctionnalités affichées](ui-experiences.md).
+
 L'offre d'un service continu aux clients est essentielle à toute transaction commerciale et peut être source de satisfaction et de fidélisation des clients, en complément des revenus. Cependant, gérer et suivre des services n'est pas toujours facile ; [!INCLUDE[d365fin](includes/d365fin_md.md)] inclut un ensemble d'outils qui simplifient ces tâches. Vous pouvez les utiliser dans divers scénarios d'entreprise : systèmes de distribution complexes du service clientèle, environnements de service industriel avec des nomenclatures, affectation d'un nombre important de techniciens de service avec des besoins en gestion des pièces de rechange.  
 
  Ces outils permettent de réaliser ce qui suit :  
@@ -46,5 +49,4 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 [Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

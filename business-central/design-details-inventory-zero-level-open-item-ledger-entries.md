@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 11/23/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e25721b0c79a87f4201314a0f3556f969a110e18
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e114142be1708447931fb475074245b57564f6b3
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-known-item-application-issue"></a>Détails de conception : problème de lettrage article connu
@@ -36,8 +36,6 @@ L'article commence par répertorier les symptômes courants du problème, puis d
      |333|28/01/2018|Vente|Expédition vente|102043|TEST|BLEU|-1|-10|-1|-1|Oui|  
      |334|28/01/2018|Vente|Expédition vente|102043|TEST|BLEU|1|10|1|1|Oui|  
 
-<!--![Why is inventory zero 1](media/helene/TechArticleInventoryZero1.png "Whyisinventoryzero\_1")-->
-
 ## <a name="basics-of-item-application"></a>Notions de base du lettrage article  
  Une écriture lettrage article est créée pour chaque mouvement de stock pour lier le destinataire de coût à sa source de coût afin que le coût puisse être transféré en fonction de la méthode d'évaluation du stock. Pour plus d'informations, voir [Détails de conception : traçabilité](design-details-item-application.md).  
 
@@ -49,21 +47,21 @@ L'article commence par répertorier les symptômes courants du problème, puis d
 
 -   Lettrage de quantité  
 
--   Lettrage de coût  
+-   Coût lettré  
 
 ### <a name="quantity-application"></a>Lettrage de quantité  
  Les lettrages de quantité sont effectués pour tous les mouvements de stock et sont créés automatiquement, ou manuellement dans des processus spécifiques. Lorsqu'ils sont effectués manuellement, les lettrages de quantité sont appelés des lettrages fixes.  
 
  Le schéma suivant décrit la façon dont les lettrages de quantité sont effectués.  
 
-![Raison pour laquelle le stock est nul 2](media/helene/TechArticleInventoryZero2.png "Whyisinventoryzero\_2")
+![Flux de l'ajustement des coûts de l'achat à la vente](media/helene/TechArticleInventoryZero2.png "Flux de l'ajustement des coûts de l'achat à la vente")
 
  En outre, notez que l'écriture comptable article 1 (Achat) est le fournisseur de l'article et la source de coût de l'écriture comptable article lettrée, c'est-à-dire l'écriture comptable article 2 (Vente).  
 
 > [!NOTE]  
 >  Si l'écriture comptable article sortante est évaluée par coût moyen, l'écriture comptable article entrante lettrée n'est pas l'unique source de coût. Elle joue simplement un rôle dans le calcul du coût moyen de la période.  
 
-### <a name="cost-application"></a>Lettrage de coût  
+### <a name="cost-application"></a>Coût lettré  
 Les lettrages de coût sont uniquement créés pour les transactions entrantes lorsque le champ **Écriture article à lettrer** est renseigné pour fournir un lettrage fixe. Cela se produit généralement dans le cadre d'un avoir vente ou d'un scénario d'annulation de l'expédition. Le lettrage de coût garantit que l'article retourne dans le stock avec le même coût que lorsqu'il a été livré.  
 
 Le schéma suivant décrit la façon dont les lettrages de coût sont effectués.  
@@ -72,7 +70,6 @@ Le schéma suivant décrit la façon dont les lettrages de coût sont effectués
 |---------|------------|----------|-------------|------------|--------|-------------|--------|------------------------|-----------------|------------------|----|  
 |333|28/01/2018|Vente|Expédition vente|102043|TEST|BLEU|-1|-10|-1|-1|Oui|  
 |334|28/01/2018|Vente|Expédition vente|102043|TEST|BLEU|1|10|1|1|Oui|  
-<!--![Why is inventory zero 3](media/helene/TechArticleInventoryZero3.png "Whyisinventoryzero\_3")-->
 
  En outre, notez que l'écriture comptable entrante 3 (Retour vente) est un destinataire de coût pour l'écriture comptable article sortante d'origine 2 (Vente).  
 
@@ -81,7 +78,7 @@ Le schéma suivant décrit la façon dont les lettrages de coût sont effectués
 
  Le schéma suivant illustre le flux de coûts.  
 
-![Raison pour laquelle le stock est nul 4](media/helene/TechArticleInventoryZero4.png "Whyisinventoryzero\_4")
+![Flux de l'ajustement des coûts de la vente au retour vente](media/helene/TechArticleInventoryZero4.png "Flux de l'ajustement des coûts de la vente au retour vente")
 
  En outre, notez que le coût est transféré vers l'écriture comptable article 2 (Vente), puis vers l'écriture comptable article 3 (Retour vente) et enfin vers l'écriture comptable article 4 (Vente 2).  
 
@@ -94,7 +91,7 @@ Le schéma suivant décrit la façon dont les lettrages de coût sont effectués
 
  Le schéma suivant illustre la façon dont les lettrages article sont effectués dans les deux scénarios.  
 
-![Raison pour laquelle le stock est nul 6](media/helene/TechArticleInventoryZero6.png "Whyisinventoryzero\_6")  
+![Le flux de l'ajustement des coûts va dans les deux directions](media/helene/TechArticleInventoryZero6.png "Le flux de l'ajustement des coûts va dans les deux directions")  
 
  En outre, notez qu'un lettrage de coût est effectué (représenté par les flèches bleues) pour garantir que l'écriture comptable article 2 (Retour vente) a les mêmes coûts que l'écriture comptable article qu'elle contrepasse, c'est-à-dire l'écriture comptable article 1 (Vente 1). Toutefois, un lettrage de quantité (représenté par les flèches rouges) n'est pas créé.  
 
@@ -115,7 +112,6 @@ Le schéma suivant décrit la façon dont les lettrages de coût sont effectués
 |---------|------------|----------|-------------|------------|--------|-------------|--------|------------------------|-----------------|------------------|----|---------|
 |333|28/01/2018|Vente|Expédition vente|102043|TEST|BLEU|-1|-10|-1|-1|Oui|Non|  
 |334|28/01/2018|Vente|Expédition vente|102043|TEST|BLEU|1|10|1|1|Oui|**Oui**|  
-<!--![Why is inventory zero 7](media/helene/TechArticleInventoryZero7.png "Whyisinventoryzero\_7")-->
 
 -   Dans la fenêtre **Expédition vente enregistrée**, recherchez le champ **Écriture article à lettrer** pour voir si le champ est renseigné, et auquel cas, à quelle écriture comptable article le coût de la réception retour est lettré.  
 

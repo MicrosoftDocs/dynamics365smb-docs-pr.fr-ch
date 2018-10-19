@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report
-ms.date: 07/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
-ms.openlocfilehash: 560760b1f895ed69c2e7fd80ccf451763e87d19b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ceccc02c841044803337ac53f378451d8f315484
 ms.contentlocale: fr-ch
-ms.lasthandoff: 08/06/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="working-with-reports"></a>Utilisation des états
-Un état regroupe des informations en fonction d'un ensemble de critères spécifié, et organise et présente les informations dans un format imprimable et facilement lisible. Il existe de nombreux états accessibles tout au long de l'application. Les états fournissent généralement des informations relatives au contexte de la page où vous vous trouvez. Par exemple, la page **Client** comprend des états pour les 10 principaux clients et les statistiques de vente, et plus encore.
+Un état regroupe des informations en fonction d'un ensemble de critères spécifié, et organise et présente les informations dans un format imprimable et facilement lisible. Il existe de nombreux états accessibles tout au long de l'application. Les états fournissent généralement des informations relatives au contexte de la page où vous vous trouvez. Par exemple, la fenêtre **Client** comprend des états pour les 10 principaux clients et les statistiques de vente, et plus encore.
 
-Les états sont disponibles sous l'onglet **États** des pages sélectionnées, ou vous pouvez utiliser la fonction de recherche ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche") pour rechercher des états par nom.
+Vous pouvez rechercher des états dans l'onglet **États** sur les pages sélectionnées, ou utiliser la recherche ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") pour rechercher les états par nom.
 
 
 ## <a name="specifying-the-data-to-include-in-the-report"></a>Définition des données à inclure dans l'état

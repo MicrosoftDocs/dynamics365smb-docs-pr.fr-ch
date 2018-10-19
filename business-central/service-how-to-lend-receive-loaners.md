@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/28/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 068031b480cb2d43df2c6682de70902ce672581b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9010858c33b7b58b3b4d7f2523785e846e307ff0
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="lend-and-receive-loaners"></a>Prêter et recevoir des articles de prêt
 Vous pouvez prêter aux clients des articles de prêt pour remplacer temporairement les articles de service en cours de maintenance.  
   
 ## <a name="to-lend-a-loaner-item"></a>Pour prêter un article de prêt    
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Commandes service**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes service**, puis sélectionnez le lien associé.  
 2. Ouvrez la fiche de commande service.  
 3. sélectionnez la ligne article de service comportant l'article que vous souhaitez remplacer par un article de prêt.  
 4. Dans le champ **N° article de prêt**, choisissez l'article de prêt concerné.  
@@ -32,7 +32,7 @@ Vous pouvez prêter aux clients des articles de prêt pour remplacer temporairem
 ## <a name="to-receive-a-loaner"></a>Pour recevoir un article de prêt  
 Lorsque vous recevez un article de prêt d'un client, vous devez enregistrer la réception. Pour ce faire, utilisez les fenêtres **Commande service**, **Expédition service enreg.** et **Fiche article de prêt**. Cette procédure explique comment recevoir les articles de prêt dans la fenêtre **Commande service**.  
   
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Commandes service**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes service**, puis sélectionnez le lien associé.  
 2. Ouvrez la commande service.  
 3. Choisissez la ligne article de service contenant l'article de prêt à recevoir.  
 4. Choisissez **Actions**, sélectionnez **Fonctions**, puis choisissez **Réceptionner article de prêt**.  
@@ -40,7 +40,7 @@ Lorsque vous recevez un article de prêt d'un client, vous devez enregistrer la 
 ## <a name="to-register-loaner-comments"></a>Pour enregistrer des commentaires article de prêt  
 Vous pouvez utiliser la fenêtre **Général Feuille commentaires service** pour enregistrer des commentaires sur des articles de prêt enregistrés.  
   
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Articles de prêt**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles de prêt**, puis sélectionnez le lien associé.  
 2. Ouvrez la fiche d'article de prêt.  
 3. Sélectionnez l'action **Commentaires**. La fenêtre **Général Feuille commentaires service** s'ouvre.  
 4. Dans le champ **Date**, saisissez une date.  

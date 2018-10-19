@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, task
-ms.date: 01/25/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: af8102b8f8ea51cbe0831388fab6d6bfc3a45101
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8c7af2db512927f575f62d40265ea2def6b7dc2c
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-jobs"></a>Créer des projets
@@ -34,7 +34,7 @@ La structure de couche permet de séparer le projet en tâches plus petites et a
 ## <a name="to-create-a-job-card"></a>Pour créer une fiche projet
 Vous devez créer une fiche projet, puis créez des Lignes tâche projet et des lignes planning projet pour ce projet.
 
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Projets**, puis choisissez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Projets**, puis sélectionnez le lien associé.  
 2. Cliquez sur **Nouveau**, puis renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Pour spécifier le projet avec les informations d'autres projets, cliquez sur **Copier projet**, renseignez les champs selon vos besoins, puis cliquez sur le bouton **OK**.
 
@@ -44,7 +44,7 @@ Vous devez créer une fiche projet, puis créez des Lignes tâche projet et des 
 ## <a name="to-create-tasks-for-a-job"></a>Pour créer une tâche pour un projet
 L'une des clés de la création d'un projet consiste à spécifier les différentes tâches impliquées dans le projet. Pour ce faire, ajoutez de nouvelles lignes dans le raccourci **Tâches** de la fenêtre **Fiche projet**, une tâche par ligne. Chaque projet doit avoir au minimum une tâche.
 
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Projets**, puis choisissez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Projets**, puis sélectionnez le lien associé.
 2. Ouvrez la fiche projet pour un projet concerné.
 3. Sur le raccourci **Tâches**, renseignez les champs, le cas échéant sur une ligne.
 4. Pour indenter des tâches et créer une hiérarchie, cliquez sur **Tâches**, puis sur **Indenter tâches projet**.
@@ -64,7 +64,7 @@ Une ligne planning projet peut avoir l'un des types suivants :
 
 **Remarque**. Au fur et à mesure de l'ajout d'informations sur les lignes planning projet, le coût est automatiquement mis à jour. Par exemple, le coût, le prix et la remise relatifs aux ressources et aux articles sont initialement calculés sur la base des informations définies dans les fiches ressource et article.
 
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Projets**, puis choisissez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Projets**, puis sélectionnez le lien associé.
 2. Ouvrez la fiche projet appropriée.
 3. Sélectionnez une tâche projet pour laquelle le champ **Type tâche projet** contient **Validation** puis, cliquez sur **Lignes planning projet**.  
 4. Dans la fenêtre **Lignes planning projet**, renseignez les champs, le cas échéant sur une nouvelle ligne.

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3bee6f999a9553bbf8832d3cb65c88080f2d36ef
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 85d58264b14d191389bdf23a792dff7ad30bf9c3
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="scenario-example-defining-dynamic-allocations-based-on-items-sold"></a>Exemple de scénario : Définition des ventilations dynamique sur la base des articles vendus
@@ -27,13 +27,13 @@ Cette rubrique explique comment définir les affectations à l'aide du mode de v
 
 ## <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a>Pour définir les ventilations dynamique en fonction des articles vendus de l'exercice précédent  
 
-1.  Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Affectation des coûts**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Affectations des coûts**, puis choisissez le lien associé.  
 2.  Dans la fenêtre **Affectation des coûts**, sélectionnez l'action **Nouveau**.  
 3.  Dans le champ **ID**, appuyez sur Entrée ou saisissez un ID.  
 4.  Dans le champ **Niveau**, saisissez **1**.  
 5.  Dans les champs **Valide à partir de** et **Valide jusque**, entrez les dates appropriées.  
 6.  Dans le champ **Code centre de coûts**, entrez **VENTES**.  
-7.  Dans le champ **Type de crédit\\\/coût**, entrez le type de coût **9903**.  
+7.  Dans le champ **Type de crédit/coût**, entrez le type de coût **9903**.  
 8.  Dans le champ **Type coût cible**, entrez le type de coût **9903**.  
 9. Dans le champ **Objet de coûts cible**, sélectionnez **Nouveau** pour créer un nouvel objet de coût ÉQUIPEMENT IT et renseigner les champs, le cas échéant. Sélectionnez **ÉQUIPEMENT IT**. Laissez le champ **Centre de coûts cible** vide.  
 10. Dans le champ **Type cible affectation**, sélectionnez **Tous les coûts** pour définir le mode d'affectation de tous les coûts cumulés.  

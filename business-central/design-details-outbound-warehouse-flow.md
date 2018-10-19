@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2f84b46027aa04b50de2a8d4573ce4633fd59fcf
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 068ed0057b6c12beebfa35951b6c1ffbd6ac556b
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Détails de conception : flux de désenlogement
@@ -47,8 +47,6 @@ En outre, les documents origine internes suivants existent qui fonctionnent comm
 |C|Validation du prélèvement et de l'expédition à partir d'un document expédition entrepôt|||X|5/4/6|  
 |J|Validation du prélèvement à partir d'un document prélèvement entrepôt et validation de l'expédition à partir d'un document expédition entrepôt||X|X|5/4/6|  
 
- Pour plus d'informations, reportez\-vous à [Détails de conception : flux de désenlogement]().  
-
  Sélectionner une méthode dépend des pratiques recommandées de la société et de la complexité de son organisation. Dans un environnement par commande avec des processus et une structure d'emplacement simples, la méthode A, de prélèvement et d'expédition à partir de la ligne commande, est appropriée. Dans d'autres sociétés par commande où les articles d'une ligne commande peuvent provenir de plusieurs emplacements et où les magasiniers ne peuvent pas utiliser des documents commande, l'utilisation des différents documents prélèvement est appropriée, la méthode B. Lorsque les processus de prélèvement et d'expédition d'une société impliquent plusieurs traitements de commande et donc requièrent davantage de contrôle et de supervision, la société peut choisir d'utiliser un document expédition entrepôt et un document prélèvement entrepôt afin de séparer les tâches de prélèvement et d'expédition, les méthodes C et D.  
 
  Dans les méthodes A, B et C, les actions de prélèvement et d'expédition sont combinées en une étape lors de la validation du document correspondant comme étant expédié. Dans la méthode D, le prélèvement est d'abord validé, puis l'expédition est validée à une date ultérieure à partir d'un document différent.  
@@ -56,7 +54,7 @@ En outre, les documents origine internes suivants existent qui fonctionnent comm
 ## <a name="basic-warehouse-configurations"></a>Configurations d'entrepôt de base  
  Le schéma suivant présente les flux de désenlogement par type de document dans les configurations d'entrepôt de base. Les numéros dans le schéma correspondent aux étapes dans les sections suivant le schéma.  
 
- ![Flux sortant dans les configurations d'entrepôt de base](media/design_details_warehouse_management_outbound_basic_flow.png "design_details_warehouse_management_outbound_basic_flow")  
+ ![Flux sortant dans les configurations d'entrepôt de base](media/design_details_warehouse_management_outbound_basic_flow.png "Flux sortant dans les configurations d'entrepôt de base")  
 
 ### <a name="1-release-source-document--create-inventory-pick-or-movement"></a>1 : Lancer le document origine / Créer un prélèvement stock ou un mouvement de stock  
  Lorsqu'un utilisateur responsable des documents d'origine, comme un préparateur de commandes ou un gestionnaire de production, est prêt pour l'activité d'entrepôt sortant, il émet le document d'origine pour signaler aux magasiniers que les articles ou les composants vendus peuvent être prélevés et placés dans les emplacements spécifiés. Sinon, l'utilisateur crée des documents de prélèvement ou de mouvement de stock pour les lignes de commande individuelles, en mode de poussée, basés sur les emplacements spécifiés et quantités à gérer.  
@@ -78,7 +76,7 @@ En outre, les documents origine internes suivants existent qui fonctionnent comm
 ## <a name="advanced-warehouse-configurations"></a>Configurations d'entrepôt avancées  
  Le schéma suivant présente le flux de désenlogement par type de document dans les configurations d'entrepôt avancées. Les numéros dans le schéma correspondent aux étapes dans les sections suivant le schéma.  
 
- ![Flux sortant dans les configurations d'entrepôt avancées](media/design_details_warehouse_management_outbound_advanced_flow.png "design_details_warehouse_management_outbound_advanced_flow")  
+ ![Flux sortant dans les configurations d'entrepôt avancées](media/design_details_warehouse_management_outbound_advanced_flow.png "Flux sortant dans les configurations d'entrepôt avancées")  
 
 ### <a name="1-release-source-document"></a>1 : Lancer le document origine  
  Lorsqu'un utilisateur responsable des documents d'origine, comme un préparateur de commandes ou un gestionnaire de production, est prêt pour l'activité d'entrepôt sortant, il émet le document d'origine pour signaler aux magasiniers que les articles ou les composants vendus peuvent être prélevés et placés dans les emplacements spécifiés.  

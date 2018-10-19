@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/23/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c3e091843b6c2f4a5df0a93c5e70df2c20796a4c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 214de72b86e3d32e5161814a7f65079cbb4136b7
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-locations-to-use-bins"></a>Configurer des magasins de sorte qu'ils utilisent des emplacements
@@ -28,7 +28,7 @@ Pour utiliser la fonctionnalité liée au magasin, vous devez d'abord l'activer 
 >  Avant de pouvoir spécifier les codes emplacement sur la fiche magasin, il convient de les créer. Pour plus d'informations, voir [Créer emplacements](warehouse-how-to-create-individual-bins.md).  
 
 ## <a name="to-set-up-a-location-to-use-bins"></a>Pour configurer un magasin de sorte qu'il utilise des emplacements  
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Magasins**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Magasins**, puis choisissez le lien associé.  
 2.  Sélectionnez le magasin dans lequel vous souhaitez utiliser des emplacements.  
 3.  Choisissez l'action **Modifier**.  
 4.  Sur le raccourci **Entrepôt**, cochez la case **Emplacement obligatoire**.  

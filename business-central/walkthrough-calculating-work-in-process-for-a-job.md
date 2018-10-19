@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a8d77f57072be841a521271efa7f0fd643363b8a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 640e2eb135b1329cf6a29e4067d5cff22f54d379
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Procédure pas à pas : calcul des travaux en cours pour un projet
@@ -59,7 +59,7 @@ Avec les projets, vous pouvez planifier l'utilisation des ressources de votre so
 
 ### <a name="to-calculate-wip"></a>Pour calculer les TEC :  
 
-1.  Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Projets**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Projets**, puis sélectionnez le lien associé.  
 2.  Dans la liste **Projets**, sélectionnez le projet **Deerfield**, puis choisissez l'action **Modifier**. La fiche projet s'ouvre en mode édition.  
 
      Les TEC peuvent être calculés en fonction de la méthode sélectionnée dans ce champ : Valeur de coût, Valeur des ventes, Coût des ventes, Pourcentage avancement ou Fin de contrat. Dans cet exemple, CRONUS utilise la méthode Valeur de coût.  
@@ -91,7 +91,7 @@ Avec les projets, vous pouvez planifier l'utilisation des ressources de votre so
 
 ### <a name="to-review-wip-warnings"></a>Pour étudier les avertissements TEC  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Cockpit TEC projet**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Cockpit TEC**, puis choisissez le lien associé.  
 2.  Sélectionnez le projet **Deerfield**, puis l'action **Afficher des avertissements**.  
 3.  Dans la fenêtre **Avertissements TEC projet**, examinez l'avertissement associé au projet.  
 

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/18/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 015a5ff634e179dff4b51d6387a59f78ae666bc7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: a5282d20a1d9add984a70bc63e93fb32c3278f30
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Configurer l'envoi et la réception de documents électroniques
@@ -41,7 +41,7 @@ La rubrique contient les procédures suivantes :
 * Sélectionner le format de document électronique **PEPPOL** pour l'envoi d'un document électronique  
 * Configurer les fournisseurs pour la réception d'un document électronique  
 * Sélectionner la définition d'échange de données **PEPPOL - Facture** pour la réception d'un document électronique  
-* Configurer le compte général pour utiliser de nouvelles lignes facture achat pour des articles non identifiables et des non-articles  
+* Configurer le compte général pour utiliser de nouvelles lignes facture achat pour des articles non identifiables et des non\-articles  
 
 ### <a name="to-set-up-the-company-for-electronic-document-sending-and-receiving"></a>Configurer la société pour l'envoi et la réception de documents électroniques  
 1. Dans la zone **Rechercher**, saisissez **Informations société**, puis sélectionnez le lien associé.  
@@ -83,7 +83,7 @@ La rubrique contient les procédures suivantes :
 
     |Champ|Désignation|  
     |---------------------------------|---------------------------------------|  
-    |**Code norme internationale**|Spécifiez le code de l'unité de mesure exprimé en fonction de la norme UNECERec20 en relation avec l'envoi des documents électroniques.<br /><br /> Par exemple, lorsque vous envoyez des factures électroniques au format PEPPOL, la valeur de ce champ est utilisée pour remplir l'attribut **unitCode** de l'élément **InvoicedQuantity** dans le nœud **InvoiceLine**. **Remarque :** si le champ **Unité** de la ligne vente est vide, la valeur UNECERe20 standard de la « pièce » \(H87\) est insérée par défaut. Pour plus d'informations et pour obtenir une liste des codes unité de mesure valides, reportez-vous à la [Recommandation n° 20 \- Units of Measure used in International Trade (Unités de mesure utilisées sur le marché international)](http://www.unece.org/fileadmin/DAM/cefact/recommendations/rec20/rec20_rev3_Annex2e.pdf).|  
+    |**Code norme internationale**|Spécifiez le code de l'unité de mesure exprimé en fonction de la norme UNECERec20 en relation avec l'envoi des documents électroniques.<br /><br /> Par exemple, lorsque vous envoyez des factures électroniques au format PEPPOL, la valeur de ce champ est utilisée pour remplir l'attribut **unitCode** de l'élément **InvoicedQuantity** dans le nœud **InvoiceLine**. **Remarque :** si le champ **Unité** de la ligne vente est vide, la valeur UNECERe20 standard de la « pièce » \(H87\) est insérée par défaut. Pour plus d'informations et pour obtenir une liste des codes unité de mesure valides, reportez-vous à la [Recommandation n° 20 \- Units of Measure used in International Trade (Unités de mesure utilisées sur le marché international)](https://www.unece.org/fileadmin/DAM/cefact/recommendations/rec20/rec20_rev3_Annex2e.pdf).|  
 
 ### <a name="to-set-up-customers-for-electronic-document-sending"></a>Configurer les clients pour l'envoi d'un document électronique  
 1. Dans la zone **Rechercher**, saisissez **Clients**, puis sélectionnez le lien associé.  

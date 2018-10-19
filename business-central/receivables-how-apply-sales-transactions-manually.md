@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipt
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f514f05f5333bc8f2b473c50324e267d19c70d6f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ca7052fd5353ec93f6544aa7a9056fb492b638e2
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="reconcile-customer-payments-manually"></a>Rapprocher les paiements client manuellement
 Lorsque vous recevez le règlement d'un client ou que vous effectuez un remboursement, vous devez décider si vous souhaitez lettrer le paiement ou le remboursement pour clôturer une ou plusieurs écritures débit ou crédit. Vous pouvez indiquer le montant que vous souhaitez appliquer. Par exemple, vous pouvez appliquer des paiements partiels aux écritures comptables client. La clôture des écritures comptables client permet de garantir que des informations telles que les statistiques clients, les relevés bancaires et les intérêts de retard sont corrects.
 
 > [!NOTE]  
->   Dans la fenêtre **Écritures comptables client**, le rouge signifie que le paiement associé a dépassé sa date d'échéance.
+>   Dans la fenêtre **Écritures comptables client**, le rouge signifie que le paiement associé a dépassé sa date d'échéance. Si les paiements échus deviennent un problème, nous pouvons vous aider à minimiser leur fréquence. Vous pouvez activer l'extension **Prévisions des retards de paiement**, qui utilise un modèle prédictif que nous avons généré dans Azure Machine Learning pour prévoir les délais de paiement. Ces prévisions vous permettent de réduire les créances ouvertes et d'ajuster votre stratégie de collectes. Par exemple, si un retard de paiement est prévu, vous pouvez ajuster les conditions de paiement ou le mode de règlement du client. Pour plus d'informations, consultez [Prévisions de retard de paiement](ui-extensions-late-payment-prediction.md).  
 
 Vous pouvez lettrer les écritures comptables client de plusieurs manières :
 
@@ -34,10 +34,10 @@ Vous pouvez lettrer les écritures comptables client de plusieurs manières :
 
 Vous pouvez lettrer les paiements des clients manuellement dans la fenêtre **Feuille règlement**. La feuille règlement est un type de feuille comptabilité, de sorte que vous pouvez l'utiliser pour valider des transactions sur des comptes généraux, bancaires, client, fournisseur et immobilisations. Vous pouvez lettrer le règlement sur une ou plusieurs écritures débit lorsque vous validez le règlement ou lettrer à partir des écritures validées ultérieurement.
 
-Vous pouvez également lettrer les paiements client et fournisseur dans la fenêtre **Feuille rapprochement bancaire** à l'aide des fonctions dédiées à l'importation de relevés bancaires, le lettrage automatique et le rapprochement bancaire. Pour plus d'informations, voir [Rapprocher les paiements à l'aide du lettrage automatique](receivables-how-reconcile-payments-auto-application.md). Sinon, vous pouvez rapprocher les paiements client en fonction de la liste des documents vente échus dans la fenêtre **Enregistrement de paiement**. Pour plus d'informations, voir [Rapprocher les paiements client dans une liste des documents vente échus](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
+Vous pouvez également lettrer les paiements client et fournisseur dans la fenêtre **Feuille rapprochement bancaire** à l'aide des fonctions dédiées à l'importation de relevés bancaires, le lettrage automatique et le rapprochement bancaire. Pour plus d'informations, voir [Rapprocher les paiements à l'aide du lettrage automatique](receivables-how-reconcile-payments-auto-application.md). Sinon, vous pouvez rapprocher les paiements client en fonction de la liste des documents vente échus dans la fenêtre **Enregistrement de paiement**. Pour plus d'informations, voir [Rapprocher les paiements client dans une liste des documents vente échus](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md).
 
 ## <a name="to-fill-and-post-a-cash-receipt-journal"></a>Pour renseigner et valider une feuille règlement
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille règlement**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille règlement**, puis sélectionnez le lien associé.
 2. Sélectionnez **Modifier journal**.
 3. Sélectionnez le nom de traitement par lots souhaité dans le champ **Nom de la feuille**.
 4. Renseignez le champ **Date comptabilisation**.  
@@ -53,7 +53,7 @@ Vous pouvez également lettrer les paiements client et fournisseur dans la fenê
 12. Validez la feuille.
 
 ## <a name="to-apply-a-payment-to-a-single-customer-ledger-entry"></a>Pour lettrer un paiement avec une seule écriture comptable client
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille règlement**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille règlement**, et sélectionnez le lien associé.
 2. Sélectionnez **Modifier journal**.
 3. Dans la première ligne feuille, saisissez les informations appropriées sur l'écriture à lettrer.
 4. Dans le champ **Type document**, entrez **Paiement**.
@@ -68,7 +68,7 @@ Vous pouvez également lettrer les paiements client et fournisseur dans la fenê
 11. Validez la feuille règlement.
 
 ## <a name="to-apply-a-payment-to-multiple-customer-ledger-entries"></a>Pour lettrer un paiement avec plusieurs écritures client
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille règlement**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille règlement**, puis sélectionnez le lien associé.
 2. Sélectionnez **Modifier journal**.
 3. Dans la première ligne feuille, saisissez les informations appropriées sur l'écriture à lettrer.
 4. Dans le champ **Type document**, entrez **Paiement**.
@@ -84,7 +84,7 @@ Vous pouvez également lettrer les paiements client et fournisseur dans la fenê
 12. Validez la feuille règlement.
 
 ## <a name="to-apply-a-credit-memo-to-a-single-customer-ledger-entry"></a>Pour lettrer un avoir avec une seule écriture comptable client
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Avoirs vente**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Avoirs vente**, puis sélectionnez le lien associé.
 2. Ouvrez l'avoir vente souhaité.
 3. Pour lettrer l'avoir avec une seule écriture comptable client lors de la validation, dans le champ **N° doc. lettrage**, sélectionnez l'écriture avec laquelle lettrer le paiement.
 4. Sur la ligne du champ **Montant à lettrer**, entrez le montant à lettrer avec l'écriture.  
@@ -94,7 +94,7 @@ Vous pouvez également lettrer les paiements client et fournisseur dans la fenê
 6. Valider l'avoir.
 
 ## <a name="to-apply-a-credit-memo-to-multiple-customer-ledger-entries"></a>Pour lettrer un avoir avec plusieurs écritures comptables client
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Avoirs vente**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Avoirs vente**, puis sélectionnez le lien associé.
 2. Ouvrez l'avoir vente souhaité.
 3. Pour lettrer l'avoir avec plusieurs écritures comptables client lors de la validation, sélectionnez l'action **Lettrer écritures**.
 4. Sélectionnez les lignes correspondant aux écritures avec lesquelles l'écriture lettrage doit être lettrée, puis sélectionnez l'action **Lettrer**.
@@ -105,7 +105,7 @@ Vous pouvez également lettrer les paiements client et fournisseur dans la fenê
 7. Valider l'avoir.
 
 ## <a name="to-apply-posted-customer-ledger-entries"></a>Pour lettrer des écritures comptables client validées
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Clients**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Clients**, puis sélectionnez le lien associé.
 2. Ouvrez la fiche du client possédant les écritures que vous souhaitez lettrer.
 3. Sélectionnez l'action **Écritures comptables**, puis sélectionnez la ligne où figure l'écriture qui sera l'écriture lettrage.
 4. Sélectionnez l'action **Lettrer écritures**. La fenêtre **Lettrer écritures client** s'ouvre et affiche les écritures ouvertes de ce client.
@@ -117,7 +117,7 @@ Vous pouvez également lettrer les paiements client et fournisseur dans la fenê
 8. Cliquez sur **OK** pour valider le lettrage.
 
     Si le lettrage validé génère des écritures comptables client lettrées, ces écritures comptables ne sont plus activées dans le champ **Ouvert**.    
-9. Pour afficher les écritures comptables, choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Clients**, puis sélectionnez le lien connexe. Accédez à la fiche du client approprié pour afficher les écritures comptables.  
+9. Pour afficher les écritures comptables, choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Clients**, puis sélectionnez le lien associé. Accédez à la fiche du client approprié pour afficher les écritures comptables.  
 
 Dans la liste écritures comptables, sur la ligne contenant l'écriture comptable totalement lettrée vous constatez que la case **Ouvert** n'est pas cochée.  
 
@@ -131,7 +131,7 @@ Si vous lettrez une écriture (Écriture 1) dans une devise avec une autre écr
 
 Le lettrage d'écritures comptables client en devises différentes doit être activé. Pour plus d'informations, voir [Activer le lettrage d'écritures comptables client en devises différentes](finance-how-enable-application-ledger-entries-different-currencies.md).  
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille règlement**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille règlements**, puis sélectionnez le lien associé.
 2. Ouvrez la feuille que vous souhaitez, puis renseignez la première ligne vide de la feuille à l'aide d'un code devise.
 3. Sélectionnez l'action **Lettrer écritures**.
 4. Sélectionnez la ligne comportant l'écriture à lettrer avec l'écriture de la feuille règlement. Sélectionnez ensuite l'action **Lettrer**, puis sélectionnez l'écriture sur laquelle le lettrage doit être effectué.
@@ -144,7 +144,7 @@ Le lettrage d'écritures comptables client en devises différentes doit être ac
 ## <a name="to-correct-an-application-of-customer-entries"></a>Pour créer un lettrage des écritures client
 Lorsque vous corrigez une application, des écritures de correction (écritures identiques à l'écriture originale mais avec le signe opposé dans le champ du montant) sont créées et validées pour toutes les écritures comportant des validations comptables issues du lettrage, comme les escomptes et les pertes et gains en devise. Les écritures qui sont fermées par l'application sont rouvertes.  
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Clients**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Clients**, puis sélectionnez le lien associé.
 2. Ouvrez la fiche client appropriée.
 3. Sélectionnez l'action **Écritures comptables**.
 4. Sélectionnez l'écriture comptable appropriée, puis sélectionnez l'action **Délettrer les écritures**.

@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, QuickBooks, import
-ms.date: 05/24/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: a53e9b4199a133678dfa8d001875df7dcdc1a37e
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e9b0a481f16d8f0bc1647640b62a81b3ea441028
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
-# <a name="the-quickbooks-online-data-migration-extension-for-business-central"></a>Extension QuickBooks Online Data Migration pour Business Central
+# <a name="the-quickbooks-online-data-migration-extension"></a>L'extension de migration de données QuickBooks Online
 Cette extension est incluse dans le guide d'installation facilité **Migration des données** pour vous aider à migrer les données métier pertinentes de QuickBooks Online vers [!INCLUDE[d365fin](includes/d365fin_md.md)]. Par exemple, c'est utile si votre activité se développe, et que vous avez décidé de mettre à niveau votre application de gestion d'entreprise en commençant à utiliser [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## <a name="what-data-can-i-import-from-quickbooks-online"></a>Quelles données puis-je importer de QuickBooks Online ?
@@ -51,11 +51,11 @@ Si les transactions de QuickBooks Online ont des montants de taxe, vous devez cr
 ## <a name="how-do-i-start-using-the-extension"></a>Comment commencer à utiliser à l'extension ?
 La mise en route est simple. Il vous suffit d'exécuter le guide d'installation assistée **Migration des données**. Voici comment :
 
-1. Choisissez l'icône ![Page ou état pour la recherchei](media/ui-search/search_small.png "cône Page ou état pour la recherche") et entrez **Configuration assistée**, puis **Migrer des données métier**.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Configuration assistée**, puis sélectionnez **Migrer des données métier**.
 2. Suivez les instructions à chaque étape du guide d'installation assistée.
 
 ## <a name="what-do-i-do-after-i-migrate-data"></a>Que faire après une migration des données ?
-Après avoir effectué une migration des données, les transactions ont le statut **Non validé**, vous pouvez les consulter et faire des ajustements. Pour consulter les transactions, accédez à la page où vous les trouveriez normalement. Par exemple, pour examiner les factures vente non validées, accédez à la page **Factures vente**. Pour consulter des feuilles paiement, accédez à la page **Feuilles paiement**.   
+Après avoir effectué une migration des données, les transactions ont le statut **Non validé**, vous pouvez les consulter et faire des ajustements. Pour consulter les transactions, accédez à la page où vous les trouveriez normalement. Par exemple, pour examiner les factures vente non validées, accédez à la fenêtre **Factures vente**. Pour consulter des feuilles paiement, accédez à la fenêtre **Feuilles paiement**.   
 
 Il existe quelques éléments en particulier que vous devez effectuer :
 

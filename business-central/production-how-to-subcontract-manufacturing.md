@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/16/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9c62f99c4baddedaaff6629c573d898f0fbd7f1a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 60628167a50977d7486c86d9730378f8d2527786
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="subcontract-manufacturing"></a>Sous-traiter la production
@@ -52,7 +52,7 @@ La fenêtre **Proposition sous\-traitance** fonctionne comme la **Feuille planni
 >  Seuls les ordres de fabrication dont l'état est **Lancé** sont accessibles et utilisables à partir d'une proposition sous-traitance.  
 
 ### <a name="to-calculate-the-subcontracting-worksheet"></a>Pour calculer des propositions sous-traitance  
-1.  Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Propositions sous-traitance**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Propositions sous-traitance**, puis sélectionnez le lien associé.  
 2.  Pour calculer la feuille, choisissez l'action **Générer sous-traitances**.  
 3.  Dans la fenêtre **Générer sous\-traitances**, définissez des filtres pour les opérations de sous\-traitance, ou les centres de charge où celles\-ci sont effectuées, pour ne calculer que les ordres de fabrication appropriés.  
 4.  Cliquez sur le bouton **OK**.  
@@ -60,7 +60,7 @@ La fenêtre **Proposition sous\-traitance** fonctionne comme la **Feuille planni
     Examinez les lignes de la feuille **Propositions sous\-traitance**. Les informations de cette feuille proviennent des lignes de l'ordre de fabrication et de la gamme de l'ordre de fabrication et sont insérées dans la commande achat lors de la création de ce document. Vous pouvez supprimer une ligne de la feuille sans toucher aux informations d'origine, tout comme vous pouvez le faire avec les autres feuilles. Les informations réapparaissent à la prochaine exécution de la fonction **Générer sous-traitances**.  
 
 ### <a name="to-create-the-subcontract-purchase-order"></a>Pour créer la commande achat sous-traitance  
-1.  Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Propositions sous-traitance**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Propositions sous-traitance**, puis sélectionnez le lien associé.  
 2.  Sous l'onglet **Actions**, dans le groupe **Traitement**, choisissez **Traiter messages d'action**.  
 3.  Sélectionnez le champ **Imprimer commandes** pour imprimer la commande achat lors de sa création.  
 4.  Cliquez sur le bouton **OK**.  
@@ -80,7 +80,7 @@ Lorsque l'achat est validé comme reçu, une écriture feuille production est au
 >  Pour éviter que la production prévue d'un ordre de fabrication ne soit validée lorsque les achats de sous-traitance sont réceptionnés, veillez à ce que l'opération sous-traitée ne soit pas la dernière. Sinon, insérez une dernière opération pour la quantité produite finale.
 
 ## <a name="to-post-a-subcontract-purchase-order"></a>Pour valider une commande achat sous-traitance  
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Commandes achat**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes achat**, puis sélectionnez le lien associé.  
 2.  Ouvrez une commande achat créée à partir de la feuille sous-traitant.  
 
     Sur les lignes commande achat, vous pouvez visualiser les mêmes informations qui étaient dans la feuille. Les champs **N° ordre de fabrication**, **N° ligne O.F.**, **N° opération** et **N° centre de charge** sont renseignés avec les informations de l'ordre de fabrication source.  

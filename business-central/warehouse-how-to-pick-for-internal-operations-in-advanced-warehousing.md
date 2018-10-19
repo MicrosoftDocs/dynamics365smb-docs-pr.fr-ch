@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a2ac3261e90b59a7286c9ab0bc64b6681a134134
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 228755cbc36ae9fbdd0f80be6f778b11fb5b3d6a
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="pick-for-assembly-or-production-in-advanced-warehouse-configurations"></a>Prélever pour l'assemblage ou la fabrication dans les configurations de stockage avancées.
@@ -42,7 +42,7 @@ Pour créer des demandes de prélèvement dans le cadre de scénarios d'extracti
 |Ordre d'assemblage|Remplacez le statut actuel par le statut Lancé.|  
 
 ## <a name="to-pick-components-using-the-pick-worksheet"></a>Pour prélever des composants à partir des feuilles prélèvement  
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille prélèvement**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille prélèvement**, puis sélectionnez le lien associé.  
 2.  Choisissez l'action **Extraire documents entrepôt**, puis sélectionnez les lignes composant de l'ordre de fabrication lancé.  
 3.  Vérifiez les lignes, triez-les pour assurer un prélèvement optimisé et, si nécessaire, combinez les avec d'autres lignes de la feuille pour utiliser au mieux la disponibilité de l'employé.  
 4.  Choisissez l'action **Créer prélèvement**.  

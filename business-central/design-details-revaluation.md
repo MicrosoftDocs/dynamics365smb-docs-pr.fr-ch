@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bfd49fac19f2dfc09d77855cba21f39d4c9858e5
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e7afa7b3a13db29207237cd4980ba7f061b38f9e
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-revaluation"></a>Détails de conception : réévaluation
@@ -41,7 +41,7 @@ Une fois qu'une réévaluation a été validée, vous pouvez valider une entrée
 ### <a name="example"></a>Exemple :  
 L'exemple suivant montre à quel moment un article TEC se transforme pour devenir une partie du stock. L'exemple est basé sur la production d'une chaîne de 150 liens.  
 
-![Stock et réévaluation TEC](media/design_details_inventory_costing_10_revaluation_wip.png "design_details_inventory_costing_10_revaluation_wip")  
+![Stock et réévaluation TEC](media/design_details_inventory_costing_10_revaluation_wip.png "Stock et réévaluation TEC")  
 
 **1Q** : l'utilisateur valide les maillons achetés comme étant reçus. Le tableau suivant montre l'écriture comptable article résultante.  
 
@@ -112,11 +112,11 @@ Le tableau suivant montre les écritures valeur résultantes.
 
 |Étape|Date comptabilisation|Type écriture|Date évaluation|Coût total (prévu)|Coût total (réel)|N° écriture comptable article|Numéro de la séquence|  
 |----------|------------------|----------------|--------------------|------------------------------|----------------------------|---------------------------|---------------|  
-|1.|15/01/20|Coût direct|15/01/20|300,00|  0.00|1|1|  
-|2.|20/01/20|Réévaluation|20/01/20|150,00|  0.00|1|2|  
-|3.a.|15/01/20|Coût direct|15/01/20|-300,00|  0.00|1|3|  
-|3.b.|15/01/20|Réévaluation|20/01/20|-150,00|  0.00|1|4|  
-|3.c.|15/01/20|Ecart|15/01/20|  0.00|450,00|1|5|  
+|1.|15/01/20|Coût direct|15/01/20|300,00|0.00|1|1|  
+|2.|20/01/20|Réévaluation|20/01/20|150,00|0.00|1|2|  
+|3.a.|15/01/20|Coût direct|15/01/20|-300,00|0.00|1|3|  
+|3.b.|15/01/20|Réévaluation|20/01/20|-150,00|0.00|1|4|  
+|3.c.|15/01/20|Ecart|15/01/20|0.00|450,00|1|5|  
 
 ## <a name="determining-if-an-inventory-decrease-is-affected-by-revaluation"></a>Déterminer si une sortie de stock est liée à la réévaluation  
 La date de la validation ou de la réévaluation est utilisée pour déterminer si une sortie de stock est affectée par une réévaluation.  

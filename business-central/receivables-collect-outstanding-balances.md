@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 07/05/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7664360941313da6ea0b797ef00df2e9810ad62
-ms.openlocfilehash: 566594f04a1b189fe2263a945d8bd7d565539930
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 4696fa95b82a0deb0ba9642ef796160f25a57afc
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/09/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="collect-outstanding-balances"></a>Collecte des soldes restants
@@ -49,7 +49,7 @@ Une fois que vous avez créé des factures d'intérêts et effectué toutes les 
 Lorsque vous configurez des conditions d'intérêts de retard et les conditions de relance, pour la pénalité de retard de paiement, vous pouvez spécifier plusieurs taux d'intérêt afin que les frais de pénalité soient calculés sur la base de plusieurs taux d'intérêt à différentes périodes. Si les taux d'intérêt multiples ne sont pas créés, le taux d'intérêt et la période définie dans les fenêtres **Conditions intérêts de retard** et **Conditions de relance** pour l'ensemble de la période de calcul seront utilisés. Pour plus d'informations, reportez vous à [Paramétrer plusieurs taux d'intérêt](finance-how-to-set-up-multiple-interest-rates.md).  
 
 ## <a name="to-send-the-customer-statement-report"></a>Pour envoyer l’état du relevé client
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Relevé client**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Relevé client**, puis sélectionnez le lien associé.
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Dans **Options sortie**, sélectionnez la manière dont l'état est envoyé au client.
 
@@ -59,7 +59,7 @@ Lorsque vous configurez des conditions d'intérêts de retard et les conditions 
 ## <a name="to-set-up-reminder-terms"></a>Pour configurer des conditions de relance
 Si des clients ont des impayés, vous devez décider quand et comment leur envoyer une relance. En outre, vous pouvez être amené à débiter leurs comptes d'intérêts ou de frais. Vous pouvez configurer autant de conditions relance que vous le souhaitez. Vous pouvez définir un nombre illimité de niveaux de relance pour chaque code de condition de relance.
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Conditions de relance**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Conditions de relance**, puis sélectionnez le lien associé.  
 2. Renseignez les champs selon vos besoins.  
 3. Pour utiliser plusieurs combinaisons de conditions de relance, créez un code pour chacun d'eux.
 
@@ -68,7 +68,7 @@ La première fois qu'une relance est créée pour un client, le paramétrage uti
 
 Si vous créez plus de relances qu'il n'y a de niveaux relance, les conditions utilisées seront celles du niveau le plus élevé. Vous pouvez utiliser autant de relances que le champ **Nombre max. de relances** des conditions relance le permet.
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Conditions de relance**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Conditions de relance**, puis sélectionnez le lien associé.  
 2. Dans la fenêtre **Conditions de relance**, cliquez sur la ligne comportant les conditions pour lesquelles configurer des niveaux, puis cliquez sur l'action **Niveaux**.  
 3. Renseignez les champs selon vos besoins.  
 
@@ -109,7 +109,7 @@ Si vous avez configuré les conditions relance (avec des niveaux et du texte sup
 ## <a name="to-create-a-reminder-automatically"></a>Pour créer automatiquement une relance
 Une relance est identique à une facture. Lorsque vous créez une relance, un en-tête relance, ainsi qu'une ou plusieurs lignes relance, doivent être renseignés. Vous pouvez utiliser une fonction pour créer des relances pour tous les clients automatiquement.
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Relances**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Relances**, puis sélectionnez le lien associé.
 2. Dans la fenêtre **Relance**, cliquez sur l'action **Créer relance**.
 3. Dans la fenêtre **Créer relances**, renseignez les champs pour définir comment et pour qui les relances sont créées.
 4. Cliquez sur le bouton **OK**.
@@ -117,7 +117,7 @@ Une relance est identique à une facture. Lorsque vous créez une relance, un en
 ## <a name="to-create-a-reminder-manually"></a>Pour créer une relance manuellement
 Dans la fenêtre **Relance**, vous pouvez renseigner le raccourci **Général** manuellement et ensuite renseigner les lignes automatiquement.
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Relances**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Relances**, puis sélectionnez le lien associé.
 2. Sélectionnez l'action **Nouveau**.
 3. Sur le raccourci **Général**, complétez les champs, comme nécessaire.
 4. Choisissez l'action **Proposer lignes relance**.
@@ -132,7 +132,7 @@ Dans la fenêtre **Relance**, vous pouvez renseigner le raccourci **Général** 
 ## <a name="to-replace-reminder-texts"></a>Pour remplacer les textes relance  
 Vous pouvez déterminer de plusieurs manières le texte devant figurer sur la relance imprimée. Dans certains cas, vous pouvez remplacer les textes début et fin définis pour le niveau actuel par ceux d'un autre niveau.
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Relances**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Relances**, puis sélectionnez le lien associé.
 2. Ouvrez la relance appropriée, puis cliquez sur l'action **Mettre à jour texte relance**.
 3. Dans la fenêtre **Mettre à jour texte relance**, entrez le niveau requis dans le champ **Niveau relance**.
 3. Cliquez sur le bouton **OK** pour que le programme mette à jour les textes début et fin.
@@ -154,7 +154,7 @@ Si les cases à cocher **Comptabiliser intérêts** ou le champ **Compta. frais 
 
 De plus, émettre une facture d'intérêts peut créer des écritures de TVA.
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Relances**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Relances**, puis sélectionnez le lien associé.
 2. Sélectionnez la relance concernée, puis cliquez sur l'action **Émission**.
 3. Dans la fenêtre **Emettre relances**, renseignez les champs selon vos besoins.
 4. Cliquez sur le bouton **OK**.
@@ -178,7 +178,7 @@ Les intérêts de retard peuvent être calculés en utilisant la méthode du sol
 
 En outre, chaque code de la table Conditions intérêts de retard est lié à une autre table, la table Texte intérêts de retard. Pour chaque ensemble de conditions, vous pouvez définir un texte début et un texte fin à inclure dans la facture d'intérêts.
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Conditions intérêts de retard**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Conditions intérêts de retard**, puis sélectionnez le lien associé.  
 2. Renseignez les champs selon vos besoins.  
 3. Pour utiliser plusieurs combinaisons de conditions intérêts de retard, créez un code pour chacun d'eux.
 
@@ -208,7 +208,7 @@ En outre, chaque code de la table Conditions intérêts de retard est lié à un
 ## <a name="to-create-a-finance-charge-memo-manually"></a>Pour créer manuellement des factures d'intérêts  
 Une facture d'intérêts ressemble à une facture. Vous pouvez renseigner un en-tête manuellement et faire renseigner les lignes, ou créer des factures d'intérêts automatiquement pour tous les clients.
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Factures d'intérêts**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Factures d'intérêts**, puis sélectionnez le lien associé.  
 2. Cliquez sur **Nouveau**, puis renseignez les champs selon vos besoins.  
 3. Sélectionnez **Proposer lignes fact. intérêts**.
 4. Dans la fenêtre **Proposer lignes facture intérêts**, définissez un filtre sur le raccourci **Écriture comptable client** si vous souhaitez créer des factures d'intérêts uniquement pour des écritures spécifiques.  
@@ -217,7 +217,7 @@ Une facture d'intérêts ressemble à une facture. Vous pouvez renseigner un en-
 ## <a name="to-update-finance-charge-memo-texts"></a>Pour mettre à jour des textes de factures d'intérêts  
 Dans certains cas, vous pouvez modifier les textes début et fin définis pour les conditions intérêts de retard. Si vous le faites au moment où vous avez créé, mais pas encore émis, les factures d'intérêts, vous pouvez mettre à jour ces factures avec le texte modifié.
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Facture d'intérêts**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Facture d'intérêts**, puis sélectionnez le lien associé.  
 2. ouvrez la facture d'intérêts dont vous souhaitez modifier le texte, puis sélectionnez **MAJ texte fact. d'intérêts**.
 3. Dans la fenêtre **MAJ texte fact. d'intérêts**, vous pouvez définir un filtre pour mettre à jour plusieurs factures d'intérêts.
 4. Cliquez sur le bouton **OK** pour que le programme mette à jour les textes début et fin.  
@@ -237,7 +237,7 @@ Si les cases à cocher **Comptabiliser intérêts** ou le champ **Compta. frais 
 
 De plus, émettre une facture d'intérêts peut créer des écritures de TVA.
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Factures d'intérêts**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Factures d'intérêts**, puis sélectionnez le lien associé.
 2. Sélectionnez la facture concernée, puis cliquez sur l'action **Emettre**.
 3. Dans la fenêtre **Emettre factures d'intérêts**, renseignez les champs selon vos besoins.
 4. Cliquez sur le bouton **OK**.
@@ -246,7 +246,7 @@ La factures d'intérêts est imprimée pour être envoyé à un e-mail spécifi�
 
 ## <a name="to-view-reminder-and-finance-charge-entries"></a>Pour afficher les écritures relance et facture d'intérêts  
 Lorsque vous émettez une relance, une écriture relance est créée dans la fenêtre **Écr. relance/fact. intérêts** pour chaque ligne relance contenant une écriture comptable client. Vous pouvez ensuite obtenir un aperçu des écritures relance créées pour un client spécifique.    
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Clients**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Clients**, puis sélectionnez le lien associé.  
 2. Ouvrez la fiche client appropriée, puis sélectionnez l'action **Écritures comptables**.
 3. Dans la fenêtre **Écritures comptables client**, cliquez sur la ligne de l'écriture comptable pour laquelle vous souhaitez visualiser les écritures relance, puis sélectionnez l'action **Écr. relance/fact. intérêts**.
 

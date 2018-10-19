@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 91928287d24c2b6199ea243bdc00e48e136adcfd
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 77c6711c619d8f54597648a5addcdf831a6ef8a5
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-service-quotes"></a>Pour créer des devis service
@@ -25,7 +25,7 @@ Vous pouvez considérer les devis service comme la base des commandes service. E
 Vous pouvez utiliser un devis service comme brouillon d'une commande service, et convertir le devis en commande.  
   
 ## <a name="to-create-a-service-quote"></a>Pour créer un devis service  
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Devis services**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Devis services**, puis sélectionnez le lien associé.  
 2. Créez un devis service.  
 3. Dans le champ **N°**, saisissez le numéro du devis service. Si vous avez configuré une souche de numéros pour les devis service dans la fenêtre **Paramètres Gestion des services,** vous pouvez appuyer sur Entrée pour renseigner le numéro devis service suivant.  
 4. Dans le champ **N° client**,  sélectionnez le client approprié dans la liste.  

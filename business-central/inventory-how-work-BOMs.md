@@ -8,13 +8,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/04/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f27160f551a002d1d19fa64b86aa637d8fadcf8a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 44648f9d9cfd9ad2e1ea3589031b6560f4a4dcfb
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="work-with-bills-of-material"></a>Utiliser les nomenclatures
@@ -57,7 +57,7 @@ Il y a deux parties pour créer une nomenclature d'assemblage :
 ## <a name="to-view-the-components-of-an-assembly-item-indented-according-to-the-bom-structure"></a>Pour afficher les composants d'un article d'assemblage indenté selon la structure de la nomenclature
 Dans la fenêtre **Nomencl d'élément d'assemblage**, vous pouvez ouvrir une fenêtre distincte qui affiche les composants et les ressources indentés selon la position de leur nomenclature sous l'article d'assemblage.
 
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Articles**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles**, puis sélectionnez le lien associé.
 2. Ouvrez la fiche d'un article d'assemblage. (Le champ **Nomencl d'élément d'assemblage** dans la fenêtre **Articles** contient **Oui**.)
 3. Dans la fenêtre **Fiche article**, sélectionnez l'action **Assemblage**, puis l'action **Nomenclature d'élément d'assemblage**.
 4. Dans la fenêtre **Nomencl d'élément d'assemblage**, sélectionnez l'action **Afficher nomenclature**.

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/10/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: feae398e064a03d01903fcc65c6f4d99be8374a2
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8e4f7c35b53a284fe6f7937298377674bafb0b63
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Utilisation des écarts de règlement et des écarts d'escompte
@@ -44,13 +44,13 @@ Pour plus d'informations, voir la section « Comment activer ou désactiver les
 Le fait de configurer des écarts pour la date ou le montant permet de fermer une facture alors que le règlement ne couvre pas le montant indiqué sur la facture, que ce soit parce que l'échéance de l'escompte est dépassée ou que des marchandises ont été déduites, ou suite à une erreur anodine. Ceci est également vrai pour les remboursements et les avoirs.  
 
 Pour configurer l'écart, vous devez configurer plusieurs comptes écart, spécifier des méthodes de comptabilisation d'écart escompte et d'écart règlement, puis exécuter le traitement par lots **Modifier écart de règlement**.  
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Paramètres comptabilisation**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres comptabilisation**, puis sélectionnez le lien associé.  
 2. Dans la fenêtre **Paramètres comptabilisation**, configurez un compte écart règlement crédit et débit pour les ventes et un autre pour les achats.  
-3. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Groupes compta. client**, puis choisissez le lien associé.    
+3. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Groupes compta. client**, puis sélectionnez le lien associé.    
 4. Dans la fenêtre **Groupes compta. client**, configurez un compte écart règlement débit et un compte écart règlement crédit. Pour plus d'informations, voir [Configuration de groupes comptabilisation](finance-posting-groups.md).  
-5. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Paramètres comptabilisation fournisseur**, puis choisissez le lien associé.  
+5. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres comptabilisation fournisseur**, puis sélectionnez le lien associé.  
 6. Dans la fenêtre **Groupes compta. fournisseur**, configurez un compte écart règlement débit et un compte écart règlement crédit.  
-7. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Paramètres comptabilité**, puis sélectionnez le lien connexe.  
+7. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres comptabilité**, puis sélectionnez le lien associé.  
 8. Ouvrez la fenêtre **Paramètres comptabilité**.  
 9. Sur le raccourci **Application**, renseignez les champs **Validation écart d'escompte**, **Période carence escompte** et **Validation écart de règlement**.   
 10. Choisissez l'action **Modifier écart de règlement**.
@@ -68,7 +68,7 @@ Pour configurer l'écart, vous devez configurer plusieurs comptes écart, spéci
 
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Pour activer ou désactiver les alertes d'écart de règlement
 L'alerte écart règlement apparaît lorsque vous validez un lettrage dont le solde se situe dans l'écart autorisé. Vous pouvez alors choisir comment valider et journaliser le solde.    
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Paramètres comptabilité**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres comptabilité**, puis sélectionnez le lien associé.  
 2. Dans la fenêtre **Paramètres comptabilité**, sur le raccourci **Application**, cochez la case **Alerte écart de règlement** pour activer l'alerte. Pour désactiver l'alerte, désactivez la case à cocher.  
 
 > [!NOTE]  
@@ -77,7 +77,7 @@ L'alerte écart règlement apparaît lorsque vous validez un lettrage dont le so
 ## <a name="to-block-payment-tolerance-for-customers"></a>Pour bloquer l'écart règlement pour des clients  
 Par défaut, un écart règlement est accordé. Pour ne pas accorder un écart règlement à un certain client ou fournisseur, vous devez bloquer l'écart sur la fiche fournisseur ou client appropriée. Ce qui suit décrit comment l'exécuter pour un client. La procédure est identique pour un fournisseur.
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Client** ou **Fournisseur**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Client** ou **Fournisseur**, puis sélectionnez le lien associé.  
 2. Sur le raccourci **Paiements**, cochez la case **Bloquer écart de règlement**.  
 
 > [!NOTE]  
@@ -124,7 +124,7 @@ Montant ouvert par
 
 Règles d'application normales  
 
-![Règles sur les écarts de règlement uniques &#40;before 03&#47;15&#41;](media/singlePmtTolRules(Pre1503).gif "singlePmtTolRules(Pre1503)")  
+![Règles sur les écarts de règlement uniques 1](media/singlePmtTolRules(Pre1503).gif "Règles sur les écarts de règlement uniques 1")  
 
 (1) Si le règlement intervient dans l'une de ces plages de dates, toutes les écritures lettrage peuvent être clôturées avec ou sans écart.  
 
@@ -135,7 +135,7 @@ Montant ouvert par
 
 Règles d'application normales  
 
-![Règles sur les écarts de règlement uniques &#40;grace period&#41;](media/singlePmtTolRules(GracePeriod).gif "singlePmtTolRules(GracePeriod)")  
+![Règles sur les écarts de règlement uniques 2](media/singlePmtTolRules(GracePeriod).gif "Règles sur les écarts de règlement uniques 2")  
 
 (1) Si le règlement intervient dans l'une de ces plages de dates, toutes les écritures lettrage peuvent être clôturées avec ou sans écart.  
 
@@ -146,7 +146,7 @@ Montant ouvert par
 
 Règles d'application normales  
 
-![Règles sur les écarts de règlement uniques &#40;before 01&#47;20&#41;](media/singlePmtTolRules(Post0120).gif "singlePmtTolRules(Post0120)")  
+![Règles sur les écarts de règlement uniques 3](media/singlePmtTolRules(Post0120).gif "Règles sur les écarts de règlement uniques 3")  
 
 (1) Si le règlement intervient dans l'une de ces plages de dates, toutes les écritures lettrage peuvent être clôturées avec ou sans écart.  
 
@@ -207,7 +207,7 @@ Montant ouvert par
 
 Règles d'application normales  
 
-![Règles sur les écarts de règlement multiples &#40;before 03&#47;15&#41;](media/multiplePmtTolRules(Pre1503).gif "multiplePmtTolRules(Pre1503)")  
+![Règles sur les écarts de règlement multiples 1](media/multiplePmtTolRules(Pre1503).gif "Règles sur les écarts de règlement multiples 1")  
 
 (1) Si le règlement intervient dans l'une de ces plages de dates, toutes les écritures lettrage peuvent être clôturées avec ou sans écart.  
 
@@ -218,7 +218,7 @@ Montant ouvert par
 
 Règles d'application normales  
 
-![Règles sur les écarts de règlement multiples &#40;grace period&#41;](media/multiplePmtTolRules(GracePeriodInv1).gif "multiplePmtTolRules(GracePeriodInv1)")  
+![Règles sur les écarts de règlement multiples 2](media/multiplePmtTolRules(GracePeriodInv1).gif "Règles sur les écarts de règlement multiples 2")  
 
 (1) Si le règlement intervient dans l'une de ces plages de dates, toutes les écritures lettrage peuvent être clôturées avec ou sans écart.  
 
@@ -229,7 +229,7 @@ Montant ouvert par
 
 Règles d'application normales  
 
-![Règles sur les écarts de règlement multiples &#40;grace period&#41;](media/multiplePmtTolRules(GracePeriodInv1-2).gif "multiplePmtTolRules(GracePeriodInv1-2)")  
+![Règles sur les écarts de règlement multiples 3](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Règles sur les écarts de règlement multiples 3")  
 
 (1) Si le règlement intervient dans l'une de ces plages de dates, toutes les écritures lettrage peuvent être clôturées avec ou sans écart.  
 
@@ -240,7 +240,7 @@ Montant ouvert par
 
 Règles d'application normales  
 
-![Règles sur les écarts de règlement multiples &#40;grace period&#41;](media/multiplePmtTolRules(GracePeriodInv2).gif "multiplePmtTolRules(GracePeriodInv2)")  
+![Règles sur les écarts de règlement multiples 4](media/multiplePmtTolRules(GracePeriodInv2).gif "Règles sur les écarts de règlement multiples 4")  
 
 (1) Si le règlement intervient dans l'une de ces plages de dates, toutes les écritures lettrage peuvent être clôturées avec ou sans écart.  
 
@@ -251,7 +251,7 @@ Montant ouvert par
 
 Règles d'application normales  
 
-![Règles sur les écarts de règlement multiples &#40;after 01&#47;22&#41;](media/multiplePmtTolRules(Post0122).gif "multiplePmtTolRules(Post0122)")  
+![Règles sur les écarts de règlement multiples 5](media/multiplePmtTolRules(Post0122).gif "Règles sur les écarts de règlement multiples 5")  
 
 (1) Si le règlement intervient dans l'une de ces plages de dates, toutes les écritures lettrage peuvent être clôturées avec ou sans écart.  
 

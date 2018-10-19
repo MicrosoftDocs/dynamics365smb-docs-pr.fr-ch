@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 01/25/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 94d783a806b56e972f16ebe1e0d383582cd72126
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 5176b7c04c09b9357041ec4fed5ed37c385d13ce
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 #  <a name="analyze-data-by-dimensions"></a>Analyse des données par axe analytique
@@ -30,7 +30,7 @@ L'analyse de données par axes vous permet d'obtenir un meilleur aperçu de votr
 ## <a name="to-set-up-an-analysis-view"></a>Pour configurer une vue d'analyse :  
 Les vues analytiques affichent une combinaison sélectionnée d'axes analytiques. Vous pouvez stocker et récupérer chaque analyse que vous avez configurée. Les informations de configuration des vues analytiques sont stockées sur des fiches **Vue d'analyse** afin de simplifier une éventuelle analyse ultérieure.  
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Vues d'analyse**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Vues d'analyse**, puis sélectionnez le lien associé.  
 2. Dans la fenêtre **Liste des vues d'analyse**, cliquez sur l'action **Nouveau**.
 3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Pour ajouter des codes axe aux quatre codes du raccourci **Axes analytiques**, cliquez sur **Filtre**, renseignez les champs et cliquez sur **OK**.  
@@ -42,7 +42,7 @@ La matrice **Vues analytiques** peut vous permettre de consulter les montants de
 - Les colonnes les plus à gauche contiennent des informations basées sur l'option sélectionnée dans le champ **Afficher lignes** de l'en-tête.  
 - Les colonnes les plus à droite contiennent des informations basées sur l'option sélectionnée dans le champ **Afficher colonnes** de l'en-tête.  
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Vues analytiques**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Analyse par dimensions**, puis sélectionnez le lien associé.  
 2. Sélectionnez la vue d'analyse appropriée et choisissez l'action **Modifier vue d'analyse**.
 3. En haut de la fenêtre **Analyse vente par axe analytique**, renseignez les champs pour définir ce qui est affiché.
 4. 5. Pour visualiser la spécification d'un montant affiché dans la fenêtre matricielle, sélectionnez le montant.  
@@ -61,7 +61,7 @@ Les montants affichés dans la fenêtre **Vues analytiques** offrent une image d
 
 La procédure suivante permet de mettre à jour une vue d'analyse à partir de la fenêtre **Vues analytiques**. Les étapes sont similaires entre les fenêtres **Fiche vue d'analyse** et des fenêtres **Liste des vues d'analyse**.  
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Vues analytiques**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Analyse par dimensions**, puis sélectionnez le lien associé.  
 2. Dans la fenêtre **Vues analytiques**, sélectionnez le champ **Code vue analytique**.  
 3. Sélectionnez la ligne contenant la vue d'analyse appropriée.  
 4. Cliquez sur **Mettre à jour**.  

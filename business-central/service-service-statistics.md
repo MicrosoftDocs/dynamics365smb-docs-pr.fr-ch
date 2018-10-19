@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/04/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 30f93593985140abd49c6cd4f90a992da793b164
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 5af0da45b27c70bc2b25fbad22f83479e9543432
 ms.contentlocale: fr-ch
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -87,7 +87,7 @@ Une écriture gain/perte contrat est générée lorsqu'un devis contrat est conv
 |**Gain/Perte contrat (motifs)**|Pour visualiser les écritures gain/perte contrat par code motif.|  
 |**Gain/Perte contrat ctre gest.**|Pour visualiser les écritures gain/perte contrat par centre de gestion.|  
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez le nom de la page à afficher, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez le nom de la page à afficher, puis sélectionnez le lien associé.  
 2. Renseignez les filtres à appliquer. Par exemple, dans la fenêtre **Gain/perte contrat (motifs)**, choisissez une valeur pour **Filtre code motif**.  
 3. Choisissez l'action **Afficher matrice**.
 

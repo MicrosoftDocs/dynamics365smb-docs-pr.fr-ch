@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 4180e40f318e3e735c91f8670ef9a52ee8d72f6e
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b71f12ad075197f1630e681b826ec3dff1f4ddff
 ms.contentlocale: fr-ch
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-production-order-posting"></a>Détails de conception : validation d'ordre de fabrication
@@ -60,11 +60,11 @@ Valider les ordres de fabrication sur le stock en-cours implique la production, 
 
 Le schéma suivant montre les routines de validation impliquées dans le codeunit 22.  
 
-![Routines de validation des ordres de fabrication](media/design_details_inventory_costing_14_production_posting_1.png "design_details_inventory_costing_14_production_posting_1")  
+![Routines de validation des ordres de fabrication](media/design_details_inventory_costing_14_production_posting_1.png "Routines de validation des ordres de fabrication")  
 
 Le schéma suivant montre les associations entre les écritures générées et les objets de coût.  
 
-![Flux d'écritures de fabrication](media/design_details_inventory_costing_14_production_posting_2.png "design_details_inventory_costing_14_production_posting_2")  
+![Flux d'écritures de fabrication](media/design_details_inventory_costing_14_production_posting_2.png "Flux d'écritures de fabrication")  
 
 L'écriture comptable capacité décrit la consommation de la capacité en termes d'unités de temps, alors que l'écriture valeur associée décrit la valeur de la consommation de capacité spécifique.  
 

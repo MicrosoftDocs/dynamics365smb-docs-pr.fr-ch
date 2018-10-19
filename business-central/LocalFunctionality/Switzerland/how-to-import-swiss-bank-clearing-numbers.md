@@ -1,6 +1,6 @@
 ---
 title: "Procédure : Importer des numéros de compensation d'une banque suisse"
-description: "Les numéros de compensation bancaire sont les numéros uniques utilisés pour identifier chaque agence ou succursale bancaire dans l'annuaire bancaire. Ces informations sont nécessaires pour le paiement électronique. Ce fichier peut être téléchargé à partir du site Web [SIX Interbank Clearing](http://go.microsoft.com/fwlink/?LinkId=145121)."
+description: "Les numéros de compensation bancaire sont les numéros uniques utilisés pour identifier chaque agence ou succursale bancaire dans l'annuaire bancaire. Ces informations sont nécessaires pour le paiement électronique. Ce fichier peut être téléchargé à partir du site Web [SIX Interbank Clearing](https://go.microsoft.com/fwlink/?LinkId=145121)."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f27fbc492d0a219c453bac6173a26409fddd34c4
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c6be3692eb69e7532e6ef6fcb245a87ee7cdfe03
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="import-swiss-bank-clearing-numbers"></a>Importer des numéros de compensation d'une banque suisse
-Les numéros de compensation bancaire sont les numéros uniques utilisés pour identifier chaque agence ou succursale bancaire dans l'annuaire bancaire. Ces informations sont nécessaires pour le paiement électronique. Ce fichier peut être téléchargé à partir du site Web [SIX Interbank Clearing](http://go.microsoft.com/fwlink/?LinkId=145121).  
+Les numéros de compensation bancaire sont les numéros uniques utilisés pour identifier chaque agence ou succursale bancaire dans l'annuaire bancaire. Ces informations sont nécessaires pour le paiement électronique. Ce fichier peut être téléchargé à partir du site Web [SIX Interbank Clearing](https://go.microsoft.com/fwlink/?LinkId=145121).  
 
 Vous pouvez importer le fichier BC Bank Master - le fichier officiel des numéros de compensation bancaires suisses - pour mettre à jour les informations relatives au numéro de compensation bancaire dans l'annuaire bancaire. Lorsque vous importez le fichier de numéros de compensation bancaire, les données sont importées dans la table **Annuaire bancaire**, et les données existantes sont remplacées. Après avoir importé le fichier de numéros de compensation bancaire, vous pouvez définir le code établissement mis à jour pour les clients et les fournisseurs. Pour plus d'informations, voir la table Compte bancaire client et la table Compte bancaire fournisseur.  
 

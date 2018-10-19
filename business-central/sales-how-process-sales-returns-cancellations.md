@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 09/08/2016
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 70527f235c4a437d528a13adfc8bd0e0d3a6455c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0945ffb9a8eb9482883d5c524b0d7f7eea46b5b2
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Traiter les retours ou annulations de ventes
@@ -48,7 +48,7 @@ Pour réaliser manuellement la contrepassation exacte, sélectionnez **Écriture
 Pour plus d'informations, voir [Détails de conception : Évaluation stock](design-details-inventory-costing.md).
 
 ## <a name="to-create-a-sales-credit-memo-from-a-posted-sales-invoice"></a>Pour créer un avoir vente à partir d'une facture vente validée
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Factures vente enregistrées**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Factures vente enregistrées**, puis sélectionnez le lien associé.  
 2. Dans la fenêtre **Factures vente enregistrées**, sélectionnez la facture vente validée que vous souhaitez contrepasser, puis sélectionnez l'action **Créer un avoir correctif**.
 
     L'en-tête avoir vente affiche des informations sur la facture vente validée. Vous pouvez les modifier, par exemple avec de nouvelles informations qui reflètent l'accord de retour.  
@@ -70,7 +70,7 @@ La boîte de dialogue **Valider et envoyer la confirmation** s'ouvre et indique 
 Les documents vente validés auxquels vous avez lettré l'avoir sont à présent contrepassés, et un remboursement peut être créé pour le client. L'avoir vente est supprimé et remplacé par un nouveau document dans la liste des avoirs vente validés.
 
 ## <a name="to-create-a-sales-credit-memo-by-copying-a-posted-sales-invoice"></a>Pour créer un avoir vente en copiant une facture vente validée
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Avoirs vente**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Avoirs vente**, puis sélectionnez le lien associé.
 2. Sélectionnez l'action **Nouveau** pour ouvrir un nouvel avoir vente vierge.
 3. Dans le champ **Client**, entrez le nom d'un client existant.
 4. Sélectionnez l'action **Copier document**.
@@ -81,7 +81,7 @@ Les documents vente validés auxquels vous avez lettré l'avoir sont à présent
 9. Remplissez l'avoir vente en vous reportant à la section « Pour créer un avoir vente à partir d'une facture vente validée » de cette rubrique.
 
 ## <a name="to-create-a-sales-return-order-based-on-one-or-more-a-posted-sales-documents"></a>Créer un retour vente à partir d'un ou plusieurs documents vente validés
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Retours vente**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Retours vente**, et sélectionnez le lien associé.
 2. Sélectionnez l'action **Nouveau**.  
 3. Renseignez les champs dans le raccourci **Général** selon les besoins.
 4. Dans le raccourci **Lignes**, renseignez les lignes manuellement, ou copiez des informations d'autres documents pour renseigner les lignes automatiquement :
@@ -161,7 +161,7 @@ Lorsque vous validez la commande retour vente, les frais de restockage sont ajou
 Vous pouvez envoyer un avoir à un client avec une réduction si le client a reçu des articles légèrement endommagés ou avec du retard.  
 Vous pouvez valider ce prix réduit en tant que frais annexes dans un avoir ou un retour et l'affecter à l'expédition validée. Ce qui suit décrit la procédure pour un avoir, mais les mêmes étapes s'appliquent à un retour vente.
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Avoirs vente**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Avoirs vente**, puis sélectionnez le lien associé.
 2. Sélectionnez l'action **Nouveau** pour ouvrir un nouvel avoir vente vierge.
 3. Renseignez l'en-tête avoir avec les informations appropriées sur le client à qui vous accordez un rabais sur ventes.  
 4. Dans le champ **Type** du raccourci **Lignes**, sélectionnez **Frais annexes**.  
@@ -184,7 +184,7 @@ Pour regrouper les réceptions retour, activer la case à cocher **Regrouper les
 
 ### <a name="to-manually-combine-return-receipts"></a>Pour regrouper manuellement des réceptions retour  
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Avoir vente**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Avoir vente**, puis sélectionnez le lien associé.  
 2. Sélectionnez l'action **Nouveau**.
 3. Sur le raccourci **Général**, complétez les champs, comme nécessaire.  
 4. Choisissez l'action **Extraire lignes récept. retour**.  
@@ -200,7 +200,7 @@ Pour regrouper les réceptions retour, activer la case à cocher **Regrouper les
 ### <a name="to-automatically-combine-return-receipts"></a>Pour regrouper automatiquement des réceptions retour  
 Vous pouvez regrouper automatiquement des réceptions retour et avoir la possibilité de valider automatiquement l'avoir à l'aide de la fonction **Regrouper réceptions retour**.  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Regrouper réceptions retour**, puis sélectionnez le lien connexe.
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Regrouper réceptions retour**, puis sélectionnez le lien associé.
 2. Dans la fenêtre **Regrouper réceptions retour**, renseignez les champs pour choisir les réceptions retour appropriées.
 3. Cochez la case **Valider avoirs**. Sinon, vous devrez valider manuellement les avoirs achat qui en résulteront.
 4.  Cliquez sur le bouton **OK**.  
@@ -209,7 +209,7 @@ Vous pouvez regrouper automatiquement des réceptions retour et avoir la possibi
 Lorsque vous facturez des réceptions retour de cette manière, les commandes retour à partir desquelles les réceptions retour ont été validées continuent à exister, même si elles ont été entièrement reçues et facturées.  
 
 Lorsque des réceptions retour sont regroupées sur un avoir et validées, un avoir vente enregistré est créé pour la ou les lignes créditées. Le champ **Quantité facturée** dans le retour vente d'origine est mis à jour sur la base de la quantité facturée.   
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Supprimer les retours vente facturés**, puis sélectionnez le lien.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Supprimer les retours vente facturés**, puis sélectionnez le lien associé.  
 2.  Dans le champ de filtre **N°**, spécifiez les retours vente à supprimer.  
 3.  Cliquez sur le bouton **OK**.  
 

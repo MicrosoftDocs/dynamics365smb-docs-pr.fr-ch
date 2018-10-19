@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, cost, service order
-ms.date: 08/22/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5125a0d0b298487130588146f1307379f465da0e
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 39d917ffcfb342aaea04b3668e032d548ef17ec9
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -28,7 +28,7 @@ Selon les besoins de votre installation, vous pouvez configurer les groupes de p
 ## <a name="to-set-up-a-service-price-group"></a>Pour configurer des groupes tarifs de service
 Vous pouvez configurer des groupes contenant des articles de service qui doivent recevoir le même tarif service spécial. Vous pouvez affecter des groupes prix service à des articles de service sur les lignes article de service. Vous pouvez aussi affecter des groupes prix service aux groupes articles de service.  
 
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Groupes tarifs service**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Groupes tarifs service**, puis sélectionnez le lien associé.  
 2. Créez un groupe tarifs service.  
 3. Renseignez les champs **Code** et **Désignation**.  
 4. Sélectionnez l'action **Configuration**.  
@@ -40,7 +40,7 @@ Vous pouvez configurer des groupes contenant des articles de service qui doivent
 ## <a name="to-set-up-a-service-price-adjustment-group"></a>Pour configurer un groupe ajustement prix service  
 Vous pouvez configurer les groupes ajustement prix afin d'ajuster la tarification service des articles de service. Par exemple, vous pouvez configurer des groupes ajustement prix qui ajustent le prix du fret ou des pièces de rechange.  
   
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Groupes ajustement prix service**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Groupes ajustement prix service**, puis sélectionnez le lien associé.  
 2. Créez un groupe ajustement prix service.  
 3. Renseignez les champs **Code** et **Désignation**.  
 4. Dans le champ **Type**, saisissez le type de l'écriture que vous voulez ajuster.  
@@ -58,11 +58,11 @@ Vous pouvez configurer les groupes ajustement prix afin d'ajuster la tarificatio
 Lorsque vous utilisez des articles de service et des commandes service, vous devrez peut-être enregistrer des frais supplémentaires, tels que les frais de déplacement vers des zones de service spécifiques ou les frais forfaitaires. Lorsque vous créez une commande service, vous pouvez insérer ces coûts, et une ligne avec le type **Coût** sera ajoutée à la commande. Sinon, si vous souhaitez appliquer le coût à toutes les commandes service, vous pouvez configurer un coût par défaut. Par exemple, si vous souhaitez toujours appliquer des frais forfaitaires.
   
 ### <a name="to-set-up-service-costs"></a>Pour configurer des coûts service
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Coûts service**, puis sélectionnez le lien connexe. 
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Coûts service**, puis sélectionnez le lien associé. 
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### <a name="to-specify-a-default-cost-for-service-orders"></a>Pour spécifier un coût par défaut pour les commandes service
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Paramètres services**, puis sélectionnez le lien connexe. 
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres service**, puis sélectionnez le lien associé. 
 2. Dans le champ **Frais forfait. commande service**, sélectionnez le coût service approprié.
 
 ## <a name="see-also"></a>Voir aussi

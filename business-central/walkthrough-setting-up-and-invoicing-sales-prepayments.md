@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9dfee6403b451dc728c0fe37c0a5fff77d8133f6
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ab76136c7f28e322bbc3b52a0fec354c6c13f3ff
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Procédure pas à pas : configuration et facturation d'acomptes
@@ -64,7 +64,7 @@ Les acomptes sont des paiements qui sont facturés et validés dans une commande
 Les procédures suivantes décrivent le mode d'exécution des tâches de Phyllis :  
 
 #### <a name="to-set-up-number-series-for-prepayments"></a>Pour configurer des souches de numéros pour les acomptes  
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Paramètres ventes**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres ventes**, puis sélectionnez le lien associé.  
 2.  Dans la fenêtre **Paramètres ventes**, affichez le raccourci **Numérotation**.  
 3.  Vérifiez que la souche de numéros des factures acompte validées dans le champ **N° fact. acompte enreg.** est identique à celles des factures vente validées (**N° facture enregistrée**) et que la souche de numéros des avoirs acompte validés (**N° avoir acompte enreg.**) est identique à celle des avoirs enregistrés (**N° avoir enregistré**).  
 
@@ -78,11 +78,11 @@ Par défaut, Phyllis requiert que le client 20000 soit facturé avec un acompte 
 Phyllis requiert que tous les clients soient facturés avec un acompte de 20 % pour l'article 1100. Le client 20000 a un mauvais historique de paiements. Par conséquent, elle demande un acompte de 40 % au client 20000 pour l'article 1100. La procédure suivante présente le mode de configuration des pourcentages d'acompte par défaut.  
 
 #### <a name="to-assign-default-prepayment-percentages-to-customers-and-items"></a>Pour affecter des pourcentages d'acompte par défaut aux clients et aux articles  
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Clients**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Clients**, puis sélectionnez le lien associé.  
 2.  Ouvrez la fiche pour le client 20000 (Selangorian).
 3.  Dans le champ **% acompte**, entrez **30**.  
 4.  Cliquez sur le bouton **OK** pour fermer la fiche client.  
-5.  Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Articles**, puis sélectionnez le lien connexe.  
+5.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles**, puis sélectionnez le lien associé.  
 6.  Ouvrez la fiche pour le client 1100.
 7.  Choisissez l'action **Pourcentages acompte**.  
 8.  Renseignez deux lignes de la fenêtre **Pourcentages acompte vente**, comme suit.  
@@ -98,7 +98,7 @@ Phyllis requiert que tous les clients soient facturés avec un acompte de 20 % 
 9. Fermez toutes les fenêtres.  
 
 #### <a name="to-specify-an-account-for-sales-prepayments-in-general-posting-setup"></a>Pour spécifier un compte acomptes vente dans les paramètres comptabilisation  
-1.  Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Paramètres comptabilisation**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres comptabilisation**, puis sélectionnez le lien associé.  
 2.  Sélectionnez la ligne où le champ **Groupe compta. marché** est défini sur **EXPORTATION**, et où le champ **Groupe compta. produit**est défini sur **DÉTAIL**, puis sélectionnez l'action **Modifier**.  
 3.  Dans la fenêtre **Fiche paramètres comptabilisation**, dans le champ **Compte acomptes vente**, spécifiez le compte approprié.  
 4.  Cliquez sur le bouton **OK**.  
@@ -111,7 +111,7 @@ Le client demande à pouvoir payer 35 %, ce que Susan peut accepter. Elle modif
 Susan crée la facture acompte et l'envoie au client.  
 
 #### <a name="to-create-a-sales-order-with-a-prepayment"></a>Pour créer une commande vente avec acompte  
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Commandes vente**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes vente**, puis sélectionnez le lien associé.  
 2.  Sélectionnez l'action **Nouveau**.  
 3.  Dans le champ **N° donneur d'ordre** , sélectionnez **20000**.  
 5.  Acceptez l'avertissement de solde échu qui s'affiche.  
@@ -173,7 +173,7 @@ Le client paie le montant des acomptes. Arnie, qui travaille au département Com
 
 #### <a name="to-apply-a-payment-to-the-prepayment-invoices"></a>Pour lettrer un paiement avec les factures acompte  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuilles règlement**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles règlement**, puis sélectionnez le lien associé.  
 2.  Renseignez une ligne feuille avec les informations suivantes.  
 
     |Nom du champ|Saisissez|  
@@ -202,7 +202,7 @@ Arnie a été informé que les articles de la commande ont été expédiés et q
 
 Arnie peut afficher l'historique pour vérifier que la facture vente a été créée comme prévue.  
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Factures vente enregistrées**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Factures vente enregistrées**, puis sélectionnez le lien associé.  
 
 ## <a name="next-steps"></a>Étapes suivantes  
 Cette procédure pas-à-pas vous a présenté les étapes de configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)] pour la gestion des acomptes. Vous avez configuré des pourcentages d'acompte par défaut pour des clients et des articles et vous avez également utilisé différentes méthodes pour calculer les acomptes d'une commande. Vous avez essayé d'affecter un montant d'acompte total à la commande et vous avez enregistré le montant acompte calculé en tant que pourcentage de l'ensemble de la commande.  

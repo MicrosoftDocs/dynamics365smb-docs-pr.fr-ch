@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 30d515822fd3e1ca3bf5b83e2bbc4e0841bea9cc
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 2a3ff313d9c6e8bac1169daba590d2e38c312d87
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Ajouter des champs à une présentation de rapport Word
@@ -33,7 +33,7 @@ Un ensemble de données de rapport peut être constitué de champs affichant des
   
 2.  Afficher l'onglet **Développeur** dans le ruban de Microsoft Word.  
   
-     Par défaut, l'onglet **Développeur** n'est pas affiché dans le ruban. Pour plus d'informations, voir [Afficher l'onglet Développeur sur le ruban](http://go.microsoft.com/fwlink/?LinkID=389631).  
+     Par défaut, l'onglet **Développeur** n'est pas affiché dans le ruban. Pour plus d'informations, voir [Afficher l'onglet Développeur sur le ruban](https://go.microsoft.com/fwlink/?LinkID=389631).  
   
 3.  Sous l'onglet **Développeur**, sélectionnez **Volet de mappage XML**.  
   
@@ -107,7 +107,7 @@ Le tableau suivant fournit un aperçu simplifié du XML d'une partie XML personn
 |`..</DataItem1>`<br /><br /> `</WordReportXmlPart>`|Élément de clôture.|  
   
 ### <a name="custom-xml-part-in-word"></a>Partie XML personnalisée dans Word  
- Dans Word, vous ouvrez la partie XML personnalisée dans le volet **Mappage XML** puis utilisez le volet pour mapper les éléments aux contrôles de contenu dans le document Word. Le volet **Mappage XML** est accessible depuis l'onglet **Développeur** (pour plus d'informations, voir [Afficher l'onglet Développeur sur le ruban](http://go.microsoft.com/fwlink/?LinkID=389631)).  
+ Dans Word, vous ouvrez la partie XML personnalisée dans le volet **Mappage XML** puis utilisez le volet pour mapper les éléments aux contrôles de contenu dans le document Word. Le volet **Mappage XML** est accessible depuis l'onglet **Développeur** (pour plus d'informations, voir [Afficher l'onglet Développeur sur le ruban](https://go.microsoft.com/fwlink/?LinkID=389631)).  
   
  Les éléments figurant dans le volet de **Mappage XML** s'affichent dans une structure qui est similaire à la source XML. Les champs d'étiquette sont rassemblés sous un élément **Étiquettes** commun et les données article et colonnes sont organisées dans une structure hiérarchique qui correspond à la source XML, avec les colonnes répertoriées dans l'ordre alphabétique. Les éléments sont identifiés par leur nom tel que défini par la propriété Name dans Report Dataset Designer dans ADD INCLUDE<!--[!INCLUDE[nav_dev_short](../../includes/nav_dev_short_md.md)]-->.  
   

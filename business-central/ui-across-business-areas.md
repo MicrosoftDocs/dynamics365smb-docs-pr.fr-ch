@@ -3,20 +3,20 @@ title: "Utilisation des Fonctionnalités communes aux différents secteurs d'act
 description: "En savoir plus sur les fonctionnalités utilisées dans différents secteurs d'activité dans Business Central."
 services: project-madeira
 documentationcenter: 
-author: SusanneWindfeldPedersen
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 05/09/2018
-ms.author: solsen
+ms.date: 10/01/2018
+ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: f6a8bca975e37adb436f30ef3d16bbc198f26447
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 560ea1ce0b93a596afb6c37bda7b438115614606
 ms.contentlocale: fr-ch
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="general-business-functionality"></a>Fonctionnalités marché
@@ -26,11 +26,12 @@ Pour prendre en charge ces tâches spécifiques à votre secteur d'activité, vo
 
 Le tableau suivant répertorie ces secteurs d'activité généraux avec des liens vers les rubriques qui les décrivent.
 
-| Pour | Voir |
+| À | Voir |
 | --- | --- |
+|Ajoutez des informations supplémentaires dans les comptes, les fiches client, ou les commandes vente pour communiquer des accords, tels qu'un prix spécial ou un mode de livraison, pour d'autres utilisateurs.|[Ajouter des commentaires aux fiches et aux documents](across-how-use-comments.md)| 
 |Affichez les documents ouverts, validés ou archivés qui sont liés aux ventes et aux lignes commande achat.|[Suivre des lignes document](across-how-to-track-document-lines.md)|
-| Communiquer le contenu des documents commerciaux rapidement à vos partenaires commerciaux, comme les informations de paiement sur les documents vente aux clients. |[Envoi de documents par e-mail](ui-how-send-documents-email.md) |
-| Définir des codes texte standard de façon à étendre le texte standard en ajoutant des lignes supplémentaires et définir des conditions d'utilisation des lignes supplémentaires. |[Définition du texte étendu](ui-how-define-ext-text.md) |
+| Communiquer le contenu des documents commerciaux rapidement à vos partenaires commerciaux, comme les informations de paiement sur les documents vente aux clients. |[Envoyer des documents par e-mail](ui-how-send-documents-email.md) |
+| Définir des codes texte standard de façon à étendre le texte standard en ajoutant des lignes supplémentaires et définir des conditions d'utilisation des lignes supplémentaires. |[Ajouter un texte d'article étendu](ui-how-define-ext-text.md) |
 |Créez des tâches pour vous rappeler le travail à faire. Vous pouvez créer des tâches pour vous-même, mais vous pouvez également affecter des tâches à d'autres personne ou avoir une tâche affectée à vous-même par une autre personne de votre organisation.|[Définition des tâches utilisateur](across-user-tasks.md)|
 |Le système peut vous aider à effectuer ces tâches plus rapidement et précisément en préremplissant les champs ou en complétant les lignes avec des données que vous devriez sinon calculer et saisir vous-même.|[Permettre à Business Central de proposer des valeurs](ui-let-system-suggest-values.md)|
 |Enregistrez des documents externes, ainsi que leurs fichiers joints, puis créez manuellement des documents connexes ou convertissez automatiquement les fichiers en documents électroniques.|[Documents entrants](across-income-documents.md)|
@@ -42,5 +43,4 @@ Le tableau suivant répertorie ces secteurs d'activité généraux avec des lien
 [Administration](admin-setup-and-administration.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

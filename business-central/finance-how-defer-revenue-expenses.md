@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 01/25/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 23231f1bab8d5cc9bf23cce18e5490e5bab61f8d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 2e7bb4a1e4dff97167c7648d5b1c4c8250d6819b
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="defer-revenues-and-expenses"></a>Echelonner les recettes et les dépenses
@@ -25,7 +25,7 @@ Pour identifier une recette ou une dépense dans une période autre que la péri
 Pour répartir les recettes et les dépenses sur les périodes comptables concernées, configurez un modèle d'échelonnement pour la ressource, l'article ou le compte général pour lequel/laquelle les recettes ou les dépenses seront validées. Lorsque vous validez le document vente ou achat concerné, les recettes ou les dépenses sont échelonnées sur les périodes comptables concernées, selon un tableau d'échelonnement régi par des paramètres dans le modèle d'échelonnement et la date de validation.
 
 ## <a name="to-set-up-a-gl-account-for-deferral"></a>Pour configurer un compte général pour échelonnement
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Plan comptable**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Plan comptable**, puis sélectionnez le lien associé.
 2. Sélectionnez l'action **Nouveau**.
 3. Renseignez les champs comme nécessaire afin de créer un compte général pour les recettes échelonnées. Pour plus d'informations, reportez-vous à [Les écritures comptables et le plan comptable](finance-general-ledger.md).
 4. Répétez les étapes 2 et 3 pour créer un nouveau compte général pour les dépenses échelonnées.
@@ -33,7 +33,7 @@ Pour répartir les recettes et les dépenses sur les périodes comptables concer
 Pour les deux types d'échelonnement, sélectionnez **Bilan** dans le champ **Type** et nommez les comptes en conséquence, comme « Revenus comptabilisés d'avance » pour les recettes différées et « Dépenses impayées » pour les dépenses différées.
 
 ## <a name="to-set-up-a-deferral-template"></a>Pour configurer un modèle d'échelonnement
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Modèles échelonnement**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Modèles échelonnement**, puis sélectionnez le lien associé.
 2. Sélectionnez l'action **Nouveau**.
 3. Renseignez les champs selon vos besoins.
 4. Dans le champ **Méthode de calcul**, précisez comment le champ **Montant** est calculé pour chaque période dans la fenêtre **Tableau d'échelonnement**. Les options suivantes vous sont proposées :
@@ -54,7 +54,7 @@ Pour les deux types d'échelonnement, sélectionnez **Bilan** dans le champ **Ty
 Exemple : la date de comptabilisation est le 06/02/2016. Si vous saisissez « Dépenses échelonnées pour %4 %6 », la description affichée sera « Dépenses échelonnées pour février 2016 ».
 
 ## <a name="to-assign-a-deferral-template-to-an-item"></a>Pour affecter un modèle d'échelonnement à un article
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Modèles échelonnement**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Modèles échelonnement**, puis sélectionnez le lien associé.
 2. Ouvrez la fiche de l'article pour lequel les recettes ou les dépenses doivent être échelonnées selon les périodes comptables lorsque l'article a été vendu ou acheté.
 3. Dans le champ **Modèle échelonnement par défaut**, sélectionnez le modèle d'échelonnement pertinent.
 
@@ -62,7 +62,7 @@ Exemple : la date de comptabilisation est le 06/02/2016. Si vous saisissez « 
 > [!NOTE]  
 >   Les étapes de cette procédure sont identiques lorsque vous modifiez un calendrier d'échelonnement, pour les dépenses, à partir d'une facture achat.
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Factures vente**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Factures vente**, puis sélectionnez le lien associé.
 2. Créez une facture vente pour un article ayant un modèle d'échelonnement attribué. Pour plus d'informations, reportez-vous à [Facturer des ventes](sales-how-invoice-sales.md).
 
     Notez que dès que vous saisissez l'article (ou la ressource ou le compte général) sur la ligne de facture, le champ **Code d'échelonnement** est complété avec le code du modèle d'échelonnement attribué.
@@ -84,7 +84,7 @@ Les écritures comptables à valider vers le compte d'échelonnement spécifié,
 > [!NOTE]  
 >   Les étapes de cette procédure sont identiques lorsque vous prévisualisez l'état Résumé échelonnement achats.
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Résumé échelonnement ventes**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Résumé échelonnement ventes**, puis sélectionnez le lien associé.
 2. Dans la fenêtre **Résumé échelonnement ventes**, dans le champ **Balance au**, saisissez la date à laquelle vous souhaitez voir les recettes échelonnées.
 3. Cliquez sur le bouton **Aperçu**.
 

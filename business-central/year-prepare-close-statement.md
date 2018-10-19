@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 1d4eb3af333bee7c00539c85072b7aa1a74eb441
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 2129b0ea989076e69588c17b0f4a8e72f38a8a9a
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="preparing-closing-statements"></a>Préparation des états de clôture
@@ -34,7 +34,7 @@ Le tableau suivant décrit un certain nombre d'états pouvant être utiles dans 
 | Imprimer un tableau d'analyse pour analyser les chiffres des comptes généraux ou comparer les écritures comptabilité réelles et les écritures budget. |Tableau d'analyse |
 | Vérifier que les écritures comptables client et fournisseur sont équilibrées avec les écritures comptables correspondantes. |Concordance cptes clt/fourn. |
 
-Pour afficher un état, sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez le nom tel qu'il s'affiche dans la table, puis sélectionnez le lien connexe.
+Pour visualiser un tat, choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez le nom qui s'affiche dans la table, puis sélectionnez le lien associé.
 
 ## <a name="see-also"></a>Voir aussi
 [Clôture des exercices et des périodes](year-close-years-periods.md)  

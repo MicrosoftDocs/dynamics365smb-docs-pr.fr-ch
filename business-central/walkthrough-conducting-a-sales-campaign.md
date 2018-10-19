@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/16/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c9dbffe821389fd237823acd110dd7e0c1ed908f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 72b130e1329b5fd1eee97d2c89b7b70fc606a659
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Procédure pas à pas : mise en place d'une campagne de vente
@@ -62,7 +62,7 @@ Une campagne désigne tout type d'activité impliquant plusieurs contacts. La s�
 
 ### <a name="to-set-up-a-campaign"></a>Pour configurer une campagne  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Campagnes**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Campagnes**, puis sélectionnez le lien associé.  
 2.  Choisissez l'action **Nouveau** pour créer une campagne. Dans la fiche campagne, appuyez sur la touche Entrée pour qu'un numéro de campagne soit automatiquement inséré.  
 3.  Dans le champ **Description**, entrez la description de la campagne, par exemple, **Salon FUTURUS**.  
 4.  Choisissez le champ **Code statut**, puis sélectionnez un code statut dans la liste qui s'ouvre dans la fenêtre **Statut campagne**.  
@@ -148,11 +148,11 @@ Une campagne désigne tout type d'activité impliquant plusieurs contacts. La s�
 
 9. Les documents joints sont envoyés. Lorsque le processus est terminé, cliquez sur le bouton **OK** associé au message qui indique que le segment a été journalisé.  
 
-     Les lettres sont automatiquement imprimées et le segment journalisé. Comme le segment a été journalisé, il ne figure plus dans la liste des segments, mais est déplacé dans la liste des segments journalisés. Pour afficher cette liste, choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Segments consignés**, puis sélectionnez le lien connexe.  
+     Les lettres sont automatiquement imprimées et le segment journalisé. Comme le segment a été journalisé, il ne figure plus dans la liste des segments, mais est déplacé dans la liste des segments journalisés. Pour afficher cette liste, choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Segments journalisés**, puis sélectionnez le lien associé.  
 
 10. Une fois le segment enregistré, chaque lettre envoyée est enregistrée en tant qu’interaction, que vous pouvez afficher dans le journal.  
 
-     Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Écritures journal interaction**, puis sélectionnez le lien connexe. Chaque lettre envoyée est associée à une entrée.  
+     Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Écritures journal interaction**, puis sélectionnez le lien associé. Chaque lettre envoyée est associée à une entrée.  
 
 ### <a name="to-send-an-email-message-to-a-contact"></a>Pour envoyer un message électronique à un contact :  
 
@@ -165,7 +165,7 @@ Une campagne désigne tout type d'activité impliquant plusieurs contacts. La s�
 7.  Cochez la case **Créer suivi segment**.  
 8.  Cliquez sur le bouton **OK**.  
 
-     Les lettres sont automatiquement envoyées par courrier électronique et le segment journalisé. Comme le segment a été journalisé, il ne figure plus dans la liste des segments, mais est enregistré dans la liste des segments journalisés. Pour afficher cette liste, choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Segments consignés**, puis sélectionnez le lien connexe.  
+     Les lettres sont automatiquement envoyées par courrier électronique et le segment journalisé. Comme le segment a été journalisé, il ne figure plus dans la liste des segments, mais est enregistré dans la liste des segments journalisés. Pour afficher cette liste, choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Segments journalisés**, puis sélectionnez le lien associé.  
 
 ## <a name="registering-campaign-responses"></a>Enregistrement des réponses de campagne  
  Au cours des semaines suivantes, les prospects répondent à la lettre. Le directeur marketing souhaite assurer le suivi des réponses et enregistre ces interactions.  

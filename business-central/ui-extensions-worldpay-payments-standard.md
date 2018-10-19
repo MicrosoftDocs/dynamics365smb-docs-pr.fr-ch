@@ -9,16 +9,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/22/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8a3f80966531cac7ebc5b3cacbab1ae16071485a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ca48d31490446dd72c5d2f4997c5068a0acfd460
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
-# <a name="the-worldpay-payments-standard-extension-to-included365finincludesd365finlongmdmd"></a>Extension WorldPay Payments Standard pour [!INCLUDE[d365fin](includes/d365fin_long_md.md)]
+# <a name="the-worldpay-payments-standard-extension"></a>Extension WorldPay Payments Standard
 L'extension WorldPay Payments Standard vous permet de fournir aux clients une alternative pratique pour effectuer des paiements par transfert bancaire ou carte de crédit. En outre, les paiements effectués par les services de paiement arrivent habituellement sur votre compte bancaire plus rapidement.
 Si vous activez l'extension, et envoyez une facture vente ou une commande vente par e-mail, le document contient un lien vers le service de paiement dans le corps du message et dans le document PDF joint. Un client peut cliquer sur le lien, puis utiliser le service de paiement pour effectuer les paiements.
 
@@ -28,3 +28,4 @@ L'activation des extensions de service de paiement est gratuite dans [!INCLUDE[d
 [Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md)  
 [Définition des ventes](sales-setup-sales.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+

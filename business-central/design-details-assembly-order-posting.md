@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7f90612764872875077de1dbe250b3d59582372f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 72b668ac5ecf2d6444be68b7c678f8a08bca9796
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-assembly-order-posting"></a>Détails de conception : validation d'ordre d'assemblage
@@ -33,14 +33,14 @@ Les validations feuille suivantes se produisent lors de la validation d'ordre d'
 
 Le schéma suivant montre la structure des écritures comptables article et ressource qui résultent de la validation d'un ordre d'assemblage.  
 
-![Coûts de ressources et opératoires](media/design_details_assembly_posting_1.png "design_details_assembly_posting_1")  
+![Article, ressource et écritures comptables capacité résultant de validation d'ordre d'assemblage](media/design_details_assembly_posting_1.png "Article, ressource et écritures comptables capacité résultant de validation d'ordre d'assemblage")  
 
 > [!NOTE]  
 >  Les postes et centres de charge sont inclus pour illustrer que les écritures comptables capacité sont créées à la fois à partir de la production et de l'assemblage.  
 
 Le schéma suivant montre la manière dont les données d'assemblage circulent dans les écritures comptables au cours de la validation :  
 
-![Flux de données lors de la validation](media/design_details_assembly_posting_2.png "design_details_assembly_posting_2")  
+![Flux d'écritures lié à l'assemblage lors de la validation](media/design_details_assembly_posting_2.png "Flux d'écritures lié à l'assemblage lors de la validation")  
 
 ## <a name="posting-sequence"></a>Séquence de validation  
 La validation d'un ordre d'assemblage se produit dans l'ordre suivant :  
@@ -71,7 +71,7 @@ La fonction de détection du niveau de commande est utilisée pour les scénario
 
 Le graphique suivant montre la structure d'écriture d'ajustement et comment les coûts d'assemblage sont ajustés.  
 
-![Structure d'écriture ajustée](media/design_details_assembly_posting_3.png "design_details_assembly_posting_3")  
+![Flux d'écritures lié à l'assemblage lors de l'ajustement des coûts](media/design_details_assembly_posting_3.png "Flux d'écritures lié à l'assemblage lors de l'ajustement des coûts")  
 
 ### <a name="performing-the-adjustment"></a>Procéder à l'ajustement  
 La répartition des ajustements détectés entre les coûts matière et ressource et les écritures de résultat d'assemblage est effectuée par le traitement par lots **Ajuster coûts : Écr. article**. Il contient la fonction Effectuer un ajustement à plusieurs niveaux, qui se compose des deux éléments suivants :  
@@ -79,7 +79,7 @@ La répartition des ajustements détectés entre les coûts matière et ressourc
 -   Effectuer un ajustement d'ordre d'assemblage : qui transmet le coût d'utilisation des matières et des ressources à l'écriture de résultat d'assemblage. Les lignes 5 et 6 dans l'algorithme ci-dessous sont responsables de cela.  
 -   Effectuer des ajustements à un seul niveau : ce qui transfère les coûts des différents articles en utilisant leur mode d'évaluation du stock. Les lignes 9 et 10 dans l'algorithme ci-dessous sont responsables de cela.  
 
-![Algorithme ajustement d'assemblage](media/design_details_assembly_posting_4.jpg "design_details_assembly_posting_4")  
+![Résumé de l'algorithme d'ajustement des coûts pour validation de l'assemblage](media/design_details_assembly_posting_4.jpg "Résumé de l'algorithme d'ajustement des coûts pour validation de l'assemblage")  
 
 > [!NOTE]  
 >  L'élément Effectuer des ajustements de TEC, dans les lignes 7 et 8, est responsable du transfert du matériel de production et de l'utilisation de la capacité vers la production des ordres de fabrication non terminés. Ceci n'est pas utilisé lors de l'ajustement des coûts d'ordre d'assemblage car le concept de TEC ne s'applique pas à l'assemblage.  

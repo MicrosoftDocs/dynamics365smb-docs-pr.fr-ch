@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/14/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a512e8e4e693a44015bc7675e5126259a5eff92b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 24a2cec78c97d52716c1548f062fa6346bddc5f6
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="planning"></a>Planning
@@ -38,12 +38,12 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |Apprendre à utiliser le système de planification pour détecter la demande et lui donner la priorité et pour proposer un programme d'approvisionnement équilibré.|[À propos de la fonctionnalité Planification](production-about-planning-functionality.md)|
 |Comprendre tous les aspects du système de planification et modifier les algorithmes pour répondre aux exigences de planification dans différents environnements.|[Détails de conception : planification de l'approvisionnement](design-details-supply-planning.md)|
 |Apprendre comment la logique de planification différencie la demande dans les magasins en fonction de la configuration des points de vente de la demande sans code magasin.|[Planification avec/sans magasin](production-planning-with-without-locations.md).|
-|Prévoir la demande de production présentée par les commandes vente et les ordres de fabrication prévus.|[Créer une prévision production](production-how-to-create-a-forecast.md)|  
+|Prévoir la demande présentée par les composants vente et fabrication prévus.|[Créer une prévision de la demande](production-how-to-create-a-forecast.md)|  
 |Créer automatiquement des ordres de fabrication un à un à partir d'une commande vente pour couvrir la demande exacte des lignes commande vente.|[Créer des ordres de fabrication à partir de commandes achat](production-how-to-create-production-orders-from-sales-orders.md)|
 |Créer un ordre de fabrication projet directement à partir d'une commande vente multiligne représentant un projet de production.|[Planifier les O.F. projets](production-how-to-plan-project-orders.md)|
 |Utiliser la fenêtre **Planification commande** pour effectuer la planification manuellement pour des ordres de vente ou de fabrication un niveau de nomenclature de production à la fois.|[Planifier de nouvelles demandes commande par commande](production-how-to-plan-for-new-demand.md)|
 |Utiliser la fenêtre **Feuille planning** pour exécuter les options PDP et MRP pour créer automatiquement un programme d'approvisionnement détaillé à tous les niveaux d'article.|[Exécuter une planification complète et un calcul PDP ou MRP](production-how-to-run-mps-and-mrp.md)|
-|Exécuter la demande achat pour créer automatiquement un programme d'approvisionnement détaillé pour répondre à la demande d'articles réapprovisionnés uniquement par achat ou transfert.|Page **Demande achat**|  
+|Exécuter la demande achat pour créer automatiquement un programme d'approvisionnement détaillé pour répondre à la demande d'articles réapprovisionnés uniquement par achat ou transfert.|Fenêtre **Demandes achat**|  
 |Lancer ou mettre à jour un ordre de fabrication en tant qu'opérations planifiées approximativement dans la planification de production.|[Replanifier ou actualiser directement des ordres de fabrication](production-how-to-replan-refresh-production-orders.md)|
 |Recalculer les calendriers de centre de charge ou de poste de charge en raison de changements de planning.|Section « Pour calculer un calendrier de centre de charge » dans [Configurer des calendriers usine](production-how-to-create-work-center-calendars.md)|
 |Suivre la demande de commande (quantité chaînée), les prévisions, les commandes ouvertes vente ou les paramètres de planification (quantité non chaînée) qui ont donné lieu à la ligne planning en question.|[Suivre les relations entre l'offre et la demande](production-how-track-demand-supply.md)|
@@ -60,5 +60,4 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

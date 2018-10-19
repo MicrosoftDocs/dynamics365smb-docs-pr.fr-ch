@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fd7acef0c0c4a132eb0975f6e145ef861703afba
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 5a10b42849f283cdd77c1f754d039dbcd7515f8a
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="post-scrap-manually"></a>Valider le rebut manuellement
@@ -26,7 +26,7 @@ Si le traitement produit un rebut, vous pouvez entrer ce rebut dans la feuille p
 > La quantité mise au rebut n'augmente pas la quantité produite.  
 
 ## <a name="to-post-scrap-manually"></a>Pour valider le rebut manuellement  
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille production**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille production**, puis sélectionnez le lien associé.  
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Dans le champ **Quantité rebutée**, saisissez la quantité perte.  
 4. Dans le champ **Code rebut**, saisissez le code rebut.  

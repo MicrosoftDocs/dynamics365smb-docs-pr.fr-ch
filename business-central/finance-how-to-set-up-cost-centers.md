@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 92d3e28fc9d7dc5aa9b2c5e25df6a0c965ab725d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 7362518cbade8132fb07f49e7b2e9be67c4bce29
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-cost-centers"></a>Configuration des centres de coûts
@@ -27,7 +27,7 @@ Les centres de coûts sont les départements responsables des coûts et des reve
 
 ## <a name="to-transfer-dimension-values-in-the-general-ledger-to-the-chart-of-cost-centers"></a>Pour transférer des sections analytiques de la comptabilité vers le plan des centres de coûts.  
 1.  Définissez un axe analytique pour être celui de la dimension des centres de coûts dans la fenêtre **Mettre à jour les axes analytiques de comptabilité analytique**. Seules les valeurs de cet axe analytique sont transférées.  
-2.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Plan comptable des centres de coûts**, puis sélectionnez le lien connexe.  
+2.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Plan comptable des centres de coûts**, puis sélectionnez le lien associé.  
 3.  Sous l'onglet **Actions**, dans le groupe **Fonctions**, choisissez **Extraire les centres de coûts de l'axe analytique** pour transférer des sections du plan des centres de coûts. La fonction transfère les sections analytiques que vous avez définis dans l'étape 1.  
 
     > [!NOTE]  

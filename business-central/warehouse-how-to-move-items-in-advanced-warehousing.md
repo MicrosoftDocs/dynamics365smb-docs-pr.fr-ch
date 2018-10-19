@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/23/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: bcfe657407f4060e9f3ce12b8a87e4ff65e3bf79
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 037a1d507ec6705e1cc07db313fb7e78b86fed7e
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="move-items-in-advanced-warehouse-configurations"></a>Déplacer des articles dans les configurations de stockage avancées
@@ -23,12 +23,12 @@ Dans des configurations d'entrepôt avancées, c'est-à-dire des magasins avec p
 ## <a name="to-move-items-with-the-warehouse-movement-worksheet"></a>Pour déplacer des articles avec la feuille mouvement entrepôt
 La fenêtre **Feuille mouvement** a deux fonctions qui peuvent vous aider à renseigner automatiquement les lignes. La première est la fonction **Calculer réappro. emplacement**. Cette fonction utilise les priorités emplacement pour suggérer le réapprovisionnement des emplacements les mieux classés à partir de ceux moins bien classés. La seconde est la fonction de **Extraire contenu emplacement**, qui renseigne les lignes feuille avec tout le contenu des emplacements que vous spécifiez.
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille mouvement**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille mouvement**, puis sélectionnez le lien associé.  
 2.  Renseignez comme il convient les informations de mouvement d'entrepôt dans les lignes de la feuille.  
 3. Choisissez l'action **Créer mouvement** pour créer un document mouvement entrepôt qui pourra être ensuite enregistré lorsque le mouvement sera terminé.  
 
 ### <a name="to-register-the-warehouse-movement"></a>Pour enregistrer le mouvement d'entrepôt  
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Mouvements**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Mouvements**, puis sélectionnez le lien associé.  
 2.  Ouvrez le mouvement entrepôt que vous souhaitez traiter.  
 3.  Sur les lignes dont le type d'action est **Emplacement**, spécifiez où, quoi et quand déplacer l'article concerné en modifiant les champs **Code zone**, **Code emplacement** ou **Qté à traiter**, ou **Date d'échéance** .  
 
@@ -43,7 +43,7 @@ La fenêtre **Feuille mouvement** a deux fonctions qui peuvent vous aider à ren
 ## <a name="to-register-the-movement-of-an-item-that-has-already-occurred"></a>Pour enregistrer un mouvement d'un article déjà terminé  
 Si, en cas d'utilisation d'un prélèvement et d'un rangement suggérés dans le magasin, vous devez déplacer des articles vers d'autres emplacements sans rangement, prélèvement ou mouvement entrepôt préexistant, vous pouvez alors enregistrer l'emplacement exact des articles dans l'entrepôt à l'aide de la fonction **Feuille reclassement entrepôt**.
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille reclassement entrepôt**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille reclassement entrepôt**, puis sélectionnez le lien associé.  
 2.  Renseignez les champs **N° article**, **Du code zone**, **Du code emplacement**, **Vers code zone** et **Du code emplacement**.  
 3.  Sélectionnez l'action **Enregistrer**.  
 

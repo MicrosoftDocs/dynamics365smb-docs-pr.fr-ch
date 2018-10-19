@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 01f094c5325773b2c4e9675412fce7d7a29449bd
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 2244fa1eb4af58eea7381da937bed7fafe3d9f6c
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Configurer un amortissement immobilisation
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/22/2018
 ## <a name="to-create-a-depreciation-book"></a>Pour créer une loi d'amortissement
 Dans une loi d'amortissement immobilisation, vous spécifiez comment les immobilisations sont amorties. Pour prendre en charge plusieurs méthodes d'amortissement, vous pouvez paramétrer plusieurs lois d'amortissement.  
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), saisissez **Lois d'amortissement**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Lois d'amortissement**, puis sélectionnez le lien associé.
 2. Dans la fenêtre **Liste des lois d'amortissement**, sélectionnez l'action **Nouveau**.
 3. Dans la fenêtre **Fiche loi d'amortissement**, renseignez les champs comme nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -35,7 +35,7 @@ Dans une loi d'amortissement immobilisation, vous spécifiez comment les immobil
 5. Répétez les étapes 2 à 4 pour chaque méthode d'amortissement ou méthode de validation que vous souhaitez attribuer à des immobilisations en tant que loi d'amortissement.
 
 ## <a name="to-assign-a-depreciation-book-to-a-fixed-asset"></a>Pour attribuer une loi d'amortissement à une immobilisation
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Immobilisations**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Immobilisations**, puis choisissez le lien associé.
 2. Sélectionnez l'immobilisation pour laquelle vous souhaitez configurer une loi d'amortissement.
 3. Sur le raccourci **Loi d'amortissement**, renseignez les champs, le cas échéant.
 4. Si vous devez assigner plus d'une loi d'amortissement à l'immobilisation, sélectionnez l'action **Ajouter davantage de lois d'amortissement**.
@@ -47,7 +47,7 @@ Dans une loi d'amortissement immobilisation, vous spécifiez comment les immobil
 ## <a name="to-assign-a-depreciation-book-to-multiple-fixed-assets-with-a-batch-job"></a>Pour attribuer une loi d'amortissement à plusieurs immobilisations avec un traitement par lots
 Si vous voulez associer une loi d'amortissement à plusieurs immobilisations, vous pouvez utiliser le traitement par lots **Créer plans amortissement** pour créer des lois d'amortissement d'immobilisation.  
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Immobilisations**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Immobilisations**, puis choisissez le lien associé.
 2. Sélectionnez l'immobilisation à laquelle vous souhaitez attribuer une loi d'amortissement, puis sélectionnez l'action **Modifier**.
 3. Dans la fenêtre **Fiche livre d'amortissement**, sélectionnez l'action **Créer plans amortissement**.
 4. Dans la fenêtre **Créer plans amortissement immo.**, renseignez le champ **Loi d'amortissement**.
@@ -60,7 +60,7 @@ Si vous voulez associer une loi d'amortissement à plusieurs immobilisations, vo
 ## <a name="to-set-up-depreciation-posting-types"></a>Pour configurer les types de validation amortissement
 Pour chaque loi d'amortissement, vous devez définir la manière dont vous souhaitez que [!INCLUDE[d365fin](includes/d365fin_md.md)] gère les différents types de validation. Par exemple, vous devez indiquer s'il s'agit d'un débit ou d'un crédit et si le type de validation doit être inclus dans la base d'amortissement.  
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), saisissez **Lois d'amortissement**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Lois d'amortissement**, puis sélectionnez le lien associé.  
 2. Sélectionnez la loi d'amortissement que vous souhaitez configurer, puis sélectionnez l'action **Type paramètre compta. immo.**.
 3. Dans la fenêtre **Type paramètre compta. immo.**, renseignez les champs, le cas échéant.
 
@@ -72,7 +72,7 @@ Il est recommandé de ne pas modifier les paramètres des lois d'amortissement p
 ## <a name="to-set-up-default-templates-and-batches-for-fixed-asset-depreciation"></a>Pour configurer les modèles par défaut et les lots pour l'amortissement immobilisation
 Pour chaque loi d'amortissement, vous définissez une configuration par défaut de modèles et de feuilles. Vous devez utiliser ces valeurs par défaut pour dupliquer les lignes d'une feuille vers une autre, créer des lignes feuille à l'aide du traitement par lots **Calculer amortissement** ou **Actualiser immobilisations**, dupliquer des coûts d'acquisition dans la feuille assurance.  
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), saisissez **Lois d'amortissement**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Lois d'amortissement**, puis sélectionnez le lien associé.  
 2. Sélectionnez la loi d'amortissement pour laquelle vous souhaitez définir les feuilles par défaut, puis sélectionnez l'action **Configuration feuille immo.**.  
 3. Pour avoir une configuration par défaut pour chaque utilisateur, choisissez le champ **Code utilisateur** à sélectionner à partir de la fenêtre **Utilisateurs**.  
 4. Dans les autres champs, sélectionnez le modèle feuille ou la feuille qui doit être utilisé(e) par défaut.  

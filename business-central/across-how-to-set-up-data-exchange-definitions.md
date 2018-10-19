@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/21/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 4828da068f1e17d031300948e930c9685a2f274d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 7c4ea5244379c5a7fcf45f1b3ea2b3a3b36280bb
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-data-exchange-definitions"></a>Configurer les définitions d'échange de données
@@ -92,8 +92,8 @@ La création d'une définition d'échange de données implique deux tâches :
     |**N° colonne**|Spécifiez le numéro qui indique la position de la colonne sur la ligne du fichier.<br /><br /> Pour les fichiers XML, spécifiez le numéro qui indique le type d'élément dans le fichier contenant les données.|  
     |**Nom**|Spécifiez le nom de la colonne.<br /><br /> Pour les fichiers XML, spécifiez le balisage qui indique les données à échanger.|  
     |**Type de données**|Spécifiez si les données à échanger sont de type **Texte**, **Date** ou **Décimale**.|  
-    |**Format données**|Spécifiez le format des données, le cas échéant. Par exemple, **MM/JJ/AAAA** si le type de données est **Date**. **Remarque :** pour l'exportation, spécifiez le format de données en fonction de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour l'importation, spécifiez le format de données en fonction du .NET Framework. Pour plus d'informations, voir [Standard Date and Time Format Strings](http://go.microsoft.com/fwlink/?LinkID=323466).|  
-    |**Culture mise en forme données**|Spécifiez la culture du format de données, le cas échéant. Par exemple, **en-US** si le type de données est **Décimale** pour être sûr que la virgule est utilisée comme séparateur de .000, conformément au format américain. Pour plus d'informations, voir [Standard Date and Time Format Strings](http://go.microsoft.com/fwlink/?LinkID=323466). **Remarque** : ce champ ne s'applique qu'aux importations.|  
+    |**Format données**|Spécifiez le format des données, le cas échéant. Par exemple, **MM/JJ/AAAA** si le type de données est **Date**. **Remarque :** pour l'exportation, spécifiez le format de données en fonction de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour l'importation, spécifiez le format de données en fonction du .NET Framework. Pour plus d'informations, voir [Standard Date and Time Format Strings](https://go.microsoft.com/fwlink/?LinkID=323466).|  
+    |**Culture mise en forme données**|Spécifiez la culture du format de données, le cas échéant. Par exemple, **en-US** si le type de données est **Décimale** pour être sûr que la virgule est utilisée comme séparateur de .000, conformément au format américain. Pour plus d'informations, voir [Standard Date and Time Format Strings](https://go.microsoft.com/fwlink/?LinkID=323466). **Remarque** : ce champ ne s'applique qu'aux importations.|  
     |**Longueur**|Spécifiez la longueur de la ligne de longueur fixe qui comporte la colonne si le fichier de données est de type **Texte fixe**.|  
     |**Description**|Entrez une description de la colonne, à titre d'information.|  
     |**Chemin**|Indiquez la position de l'élément dans le schéma XML lié.|  

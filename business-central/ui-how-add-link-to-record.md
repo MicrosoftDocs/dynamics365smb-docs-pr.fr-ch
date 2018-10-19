@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a513f6e62c4ef8dcf9e484d0211feb3e857dc0f7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c2e70ad534a28cf5062e9e54a2dfbd3af6afaa39
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="adding-links-to-websites-documents-or-programs-on-records"></a>Ajout de liens à des sites Web, documents ou programmes sur des enregistrements
@@ -45,11 +45,11 @@ Un autre exemple est lorsque vous recevez des factures imprimées de fournisseur
 
 Pour supprimer un lien, dans la fenêtre **Liens**, vous pouvez sélectionner **…**, puis **Supprimer**.
 
-Si vous supprimez un enregistrement, par exemple, une ligne commande vente, une commande vente ou une fiche client, tous les liens contenus dans l'enregistrement sont supprimés. En revanche, si vous supprimez des enregistrements à l'aide d'un traitement par lots, par exemple, le traitement par lots **Supprimer cdes vente facturées**, les liens sont conservés dans la base de données. Pour supprimer les liens de la base de données, exécutez le codeunit **Supprimer les liens enregistrement orphelins**. Pour ce faire, sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Supprimer les liens enregistrement orphelins**, puis sélectionnez le lien connexe.   
+Si vous supprimez un enregistrement, par exemple, une ligne commande vente, une commande vente ou une fiche client, tous les liens contenus dans l'enregistrement sont supprimés. En revanche, si vous supprimez des enregistrements à l'aide d'un traitement par lots, par exemple, le traitement par lots **Supprimer cdes vente facturées**, les liens sont conservés dans la base de données. Pour supprimer les liens de la base de données, exécutez le codeunit **Supprimer les liens enregistrement orphelins**. Pour cela, choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Supprimer les liens enregistrement orphelins**, puis sélectionnez le lien associé.   
 
 <!-- ### To run delete orphaned record links  
 
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Data Deletion**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Deletion**, and then choose the related link.  
 
 2.  In the **Data Deletion** window, choose **Tasks**, and then choose **Delete Orphaned Record Links**.  -->
 

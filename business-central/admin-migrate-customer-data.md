@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/07/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ce50ff8213e85a8343a93eb80bbbc381eaa8e350
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0a1a2a100fbbd0d21c3934802b624e370592bd9e
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="migrate-customer-data"></a>Migrer des données client
@@ -40,7 +40,7 @@ Avant de commencer, vérifiez que vous vous trouvez dans le tableau de bord Resp
 > Les tables dont les clés primaires sont différents et les champs dont les types de données sont différents ne seront pas importés avec succès. Par exemple, si le package de configuration inclut une table **Client 50000** dont la clé primaire est **Code20** et que la base de données dans laquelle vous importez le package inclut la table **Compte bancaire client 50000** dont la clé primaire est **Code20 + Code 20**, les données ne seront pas importées.  
 
 1. Ouvrez la nouvelle société.  
-2. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Packages configuration**, puis sélectionnez le lien connexe.  
+2. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Packages configuration**, puis sélectionnez le lien associé.  
 3. Sélectionnez l'action **Importer package**. Accédez au fichier de package .rapidstart à importer, puis sélectionnez l'action **Ouvrir**. Lors de l'importation, le contenu du package est décompressé et l'enregistrement de package est créé.  
 
     Lorsque l'importation est terminée, vous pouvez visualiser le nombre de tables de configuration qui ont été importées dans le champ **Nombre de tables**.  
@@ -57,7 +57,7 @@ Si la sélection de tables ne répond pas à vos besoins, vous pouvez créer un 
 ## <a name="to-create-a-data-migration-file"></a>Pour créer un fichier de migration de données
 Vous pouvez créer de nouveaux fichiers de migration de données et les personnaliser pour prendre en charge les processus de l'entreprise. Notez qu'un fichier peut uniquement être utilisé pour migrer un champ dont la propriété **FieldClass** est définie sur **Normal**.  
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Package configuration**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Package configuration**, puis sélectionnez le lien associé.  
 2. Sélectionnez et ouvrez le package que vous souhaitez utiliser pour migrer les données, puis sélectionnez l'action **Extraire tables**. La fenêtre **Extraire tables package** s’ouvre.  
 3. Dans le champ **TableID**, entrez un numéro de table ou sélectionnez une table dans la liste, par exemple, la table 18, **Client**. Le champ **Nom table** est automatiquement renseigné.  
 4. Sélectionnez la nouvelle table de migration, puis sous l'onglet **Tables**, choisissez l'action **Champs**. La fenêtre **Champs migration** s'ouvre.  
@@ -73,7 +73,7 @@ Une nouvelle table de migration est créée.
 ## <a name="to-export-data-migration-files"></a>Pour exporter les fichiers de migration de données
 Lorsque vous avez déterminé les tables vers lesquelles vous souhaitez transférer les données client, vous exportez les fichiers.  
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Packages configuration**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Packages configuration**, puis sélectionnez le lien associé.  
 2. Sélectionnez et ouvrez le package à utiliser pour l’exportation.
 3. Sélectionnez la ou les tables que vous souhaitez exporter, puis sélectionnez l'action **Exporter vers Excel**.
 4. Enregistrez le fichier Excel exporté.  
@@ -94,7 +94,7 @@ Lorsque vous appliquez les données que vous avez importées d'Excel ou d'un pac
 
 Dans les procédures suivantes, vous devez rechercher à l'avance les valeurs que vous souhaitez conserver lors du processus de migration. Pour effectuer la procédure suivante, vous avez besoin des fichiers de migration des données (.xlsx) que vous avez exportés depuis [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, consultez la section « Pour exporter les fichiers de migration de données ».
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Packages configuration**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Packages configuration**, puis sélectionnez le lien associé.
 2. Ouvrez le package pour la société concernée.  
 3. Sélectionnez la table pour laquelle vous souhaitez associer des valeurs, puis, sous l'onglet **Tables**, sélectionnez l'action **Champs**.  
 4. Pour chaque champ à associer, choisissez l'action **Correspondance**.  
@@ -112,7 +112,7 @@ L'exemple suivant illustre comment [!INCLUDE[d365fin](includes/d365fin_md.md)] m
 3. Lorsque vous appliquez des données, le mappage que vous avez fourni pour le champ **Code** dans la table **Vendeur/Acheteur** est également pris en compte lors du traitement des champs **Code vendeur** et **Code acheteur**.
 
 ## <a name="to-add-additional-values-to-included365finincludesd365finmdmd"></a>Pour ajouter des valeurs supplémentaires à [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Packages configuration**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Packages configuration**, puis sélectionnez le lien associé.  
 2. Sélectionnez la table pour laquelle vous souhaitez ajouter des valeurs supplémentaires, puis sous l'onglet **Tables**, sélectionnez l'action **Champs**.  
 3. Pour les champs pour lesquels vous souhaitez que [!INCLUDE[d365fin](includes/d365fin_md.md)] autorise des valeurs supplémentaires lors de la migration, cochez la case **Créer codes manquants**.  
 4. Importez les données client. Pour plus d'informations, consultez la section « Pour importer les données client ».

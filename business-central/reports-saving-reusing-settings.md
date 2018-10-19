@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customization, personalization
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
-ms.openlocfilehash: 2a7ab137a9bf8ec3580e718053f8e67320e3af5a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6027ba17868aca0a6571e059c9d157c542d12823
 ms.contentlocale: fr-ch
-ms.lasthandoff: 08/06/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="managing-saved-settings-on-reports"></a>Gestion des paramètres enregistrés dans les états
@@ -35,12 +35,12 @@ Si vous avez les bonnes autorisations, vous pouvez visualiser, créer et modifie
 
 ## <a name="create-and-modify-saved-settings-for-all-users"></a>Créer et modifier les paramètres enregistrés pour tous les utilisateurs
 Vous gérez les paramètres enregistrés à partir de la page **1560 Paramètres des états**. Deux méthodes sont disponibles pour ouvrir cette page :
--   Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Paramètres de l'état**, puis sélectionnez le lien connexe.
+-   Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres de l'état**, puis sélectionnez le lien associé.
 -   Ouvrez un état, sélectionnez la fonction de recherche en regard de la zone **Utiliser les valeurs par défaut de :**, puis choisissez **Sélectionner dans la liste complète**.
 
 La page affiche toutes les entrées de paramètres enregistrés existants pour tous les utilisateurs. Si un nom d'utilisateur est indiqué dans la colonne **Affecté à**, seul cet utilisateur peut utiliser les paramètres enregistrés pour l'état associé. Si la colonne **Partager avec tous les utilisateurs** est cochée, tous les utilisateurs peuvent utiliser les paramètres enregistrés pour l'état.
 
-Dans la page **Paramètres de l'état**, vous pouvez :
+Dans la fenêtre **Paramètres de l'état**, vous pouvez :
 -   Sélectionner **Nouveau** pour créer une nouvelle entrée de paramètres enregistrés.
 -   Sélectionner une entrée de paramètres enregistrés dans la liste, puis choisir **Copier** pour créer une copie.
 -   Sélectionner une entrée de paramètres enregistrés dans la liste, puis choisir **Modifier** pour la modifier.

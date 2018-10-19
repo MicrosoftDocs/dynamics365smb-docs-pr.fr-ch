@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fefde17c8e8063b7b1f373196bab29ff1caec452
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6617cb324873c2c129e4d26907dc43fde1c3c0e6
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-work-hours-and-service-hours"></a>Configurer des heures de travail et des heures de service
@@ -29,7 +29,7 @@ Lorsque vous travaillez sur une commande service, vous pouvez mettre à jour son
 ## <a name="to-set-up-default-service-hours"></a>Pour configurer des heures de service par défaut  
 La fenêtre **Heures de service par défaut** permet de configurer les heures de travail service habituelles de votre société. Ces heures de service sont utilisées pour calculer la date et l'heure de réponse des commandes et des devis service, et envoyer des alertes relatives au délai de réponse. Les heures de service par défaut sont utilisées pour les contrats de service si vous ne spécifiez pas d'heures de service spéciales pour un contrat.  
   
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Heures de service par défaut**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Heures de service par défaut**, puis sélectionnez le lien associé.  
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
   
 > [!IMPORTANT]  
@@ -38,7 +38,7 @@ La fenêtre **Heures de service par défaut** permet de configurer les heures de
 ## <a name="to-set-up-work-hour-templates"></a>Pour configurer des modèles heure de travail
 Vous pouvez utiliser la fenêtre **Modèle heure de travail** pour configurer des modèles contenant les heures de travail habituelles de votre société. Par exemple, vous pouvez créer des modèles pour les techniciens à temps plein et à temps partiel. Vous pouvez utiliser des modèles heure de travail lorsque vous ajoutez de la capacité à des ressources.  
   
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Modèles heure de travail**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Modèles heure de travail**, puis sélectionnez le lien associé.  
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
   
 > [!Note]
@@ -49,7 +49,7 @@ Vous pouvez utiliser la fenêtre **Heures de service** pour configurer des heure
   
 Si vous ne configurez pas d'heures de service spécifiques pour le contrat de service, les heures de service par défaut des contrats de service sont utilisées.  
   
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Contrats de service**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Contrats de service**, puis sélectionnez le lien associé.  
 2. Ouvrez le contrat de service pour lequel vous voulez configurer des heures de service spécifiques, puis sélectionnez **Heures de service**.  
 4. Pour configurer des heures de service en fonction des heures de service par défaut, sélectionnez l'action **Copier heures de service par défaut**.  
 5. Modifiez les champs des écritures heures de service. Insérez ou supprimer des écritures pour configurer les heures de service du contrat. Les champs **Jour**, **Heure début** et **Heure fin** sont obligatoires pour chaque ligne.  

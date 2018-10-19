@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5b47a898b7e1d574abaf521e917f780fd105c4a8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fa9f014519994ccd69200d8a015efb77bfbcb4fc
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-loading-the-inventory-profiles"></a>Détails de conception : chargement des profils de stock
@@ -82,7 +82,7 @@ Pour trier les nombreuses sources de demande et d'approvisionnement, le système
  Le stock de sécurité est une quantité en stock mise de côté pour compenser les incertitudes de la demande pendant le délai de réapprovisionnement. Toutefois, il peut être consommé s'il s'avère nécessaire de l'utiliser pour répondre à une demande. Le système de planification assure dans ce cas le remplacement rapide du stock de sécurité en suggérant un ordre d'approvisionnement permettant le réapprovisionnement de la quantité du stock de sécurité à sa date de consommation. Cette ligne planning affiche une icône d'avertissement Exception qui indique au gestionnaire que le stock de sécurité est partiellement ou entièrement consommé via une commande d'exception de la quantité manquante.  
 
 ## <a name="forecast-demand-is-reduced-by-sales-orders"></a>La demande de prévision est réduite par les commandes vente  
- La prévision de production exprime une future demande anticipée. Lorsqu'une demande réelle est saisie, généralement comme commandes vente pour les articles produits, elle consomme la prévision.  
+ La prévision de la demande exprime une future demande anticipée. Lorsqu'une demande réelle est saisie, généralement comme commandes vente pour les articles produits, elle consomme la prévision.  
 
  La prévision proprement dite n'est pas réellement réduite par les commandes vente ; elle reste la même. Cependant, les quantités prévues utilisées dans le calcul de planification sont réduites (par les quantités de commande vente) avant que la quantité restante, le cas échéant, soit saisie dans le profil du stock de demande. Lorsque le système de planification examine les vente réelles pendant une période, les commandes vente ouvertes et les écritures comptables article des ventes expédiées sont incluses, à moins que elles ne proviennent d'une commande ouverte.  
 

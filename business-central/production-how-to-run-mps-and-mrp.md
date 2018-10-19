@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/26/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 41a8ba231eb6fb9eaebe2168294ded0b0378fd81
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 4fe4c7eaf412bd6219b51a06f989c5a8508c4410
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Exécuter une planification complète et un calcul PDP ou MRP
 Les termes « exécution de la feuille planning » ou « exécution d'un calcul MRP » font référence au calcul de la planification de fabrication principale et aux besoins matière sur la base de la demande réelle et prévue. Le système de planification peut calculer la planification de production (PDP) ou la planification des besoins matière (MRP, Material Requirements Planning) à la demande ou calculer les deux simultanément.  
 
--   Le calcul PDP est le calcul de la planification de production principale basé sur la demande réelle et la prévision de production. Le calcul PDP est utilisé pour les articles finis disposant de prévisions ou d'une ligne commande vente. Ces articles sont appelés « articles PDP » et identifiés de façon dynamique au début du calcul.  
--   Le calcul MRP est le calcul des besoins matière basé sur la demande réelle de composants et la prévision de production au niveau du composant. Le calcul MRP n'est effectué que pour les articles qui ne sont pas des articles PDP. Le but du calcul MRP est de générer des plans formels en phases, par article, afin de fournir le bon article, au bon moment, au bon endroit, et dans la bonne quantité.  
+-   Le calcul PDP est le calcul de la planification de production principale basé sur la demande réelle et la prévision de la demande. Le calcul PDP est utilisé pour les articles finis disposant de prévisions ou d'une ligne commande vente. Ces articles sont appelés « articles PDP » et identifiés de façon dynamique au début du calcul.  
+-   Le calcul MRP est le calcul des besoins matière basé sur la demande réelle de composants et la prévision de la demande au niveau du composant. Le calcul MRP n'est effectué que pour les articles qui ne sont pas des articles PDP. Le but du calcul MRP est de générer des plans formels en phases, par article, afin de fournir le bon article, au bon moment, au bon endroit, et dans la bonne quantité.  
 
 Les algorithmes de planification utilisés pour les calculs PDP et MRP sont identiques. Ces algorithmes ont trait à l'ajustement, à la réutilisation d'ordres de réapprovisionnement existant et à des messages d'action. Le processus du système de planification examine ce qui est ou sera nécessaire (demande) et ce qui est disponible ou attendu (approvisionnement). Lorsque ces quantités sont ajustées, [!INCLUDE[d365fin](includes/d365fin_md.md)] génère des messages d'action. Ces messages sont des suggestions de création d'un ordre, de modification d'un ordre (quantité ou date) ou d'annulation d'un ordre. Le terme « ordre » désigne les commandes achat, les ordres d'assemblage, les ordres de fabrication et les ordres de transfert.
 
@@ -35,7 +35,7 @@ Les résultats d'une planification appropriée dépendent de la configuration ef
 
 -   **Calculer planning régénératif** : cette fonction traite ou régénère la planification matières. Ce processus commence par supprimer toutes les commandes approvisionnement actuellement chargées. Tous les articles figurant dans la base de données son replanifiés.  
 -   **Calculer planning par écart** : cette fonction traite une planification par écart. Dans une planification par écart, les articles sont considérés comme le résultat de deux types de modifications :  
-    - **Modifications de demande/d'approvisionnement :** ces modifications sont celles apportées aux quantités sur des commandes vente, des prévisions de production, des ordres d'assemblage, des ordres de fabrication ou des commandes achat. Une modification de niveau de stock non planifiée est également considérée comme une modification de quantité.  
+    - **Modifications de demande/d'approvisionnement :** ces modifications sont celles apportées aux quantités sur des commandes vente, des prévisions de demande, des ordres d'assemblage, des ordres de fabrication ou des commandes achat. Une modification de niveau de stock non planifiée est également considérée comme une modification de quantité.  
     - **Modifications de paramètres de planification :** ces modifications sont celles apportées au stock de sécurité, au point de commande, à la gamme, à la nomenclature et au calcul de la fréquence de vérification ou du délai de fabrication.  
 -   **Extraire messages d'action :** cette fonction fait office d'outil de planification à court terme en émettant des messages d'action pour avertir l'utilisateur de toute modification introduite depuis le dernier calcul du planning régénératif ou du planning par écart.  
 
@@ -47,13 +47,13 @@ Avec chaque méthode planifiée, [!INCLUDE[d365fin](includes/d365fin_md.md)] gé
 >  Vous pouvez exécuter la fonction Planning d'extraction de messages d'action entre un planning par écart et un planning régénératif pour visualiser instantanément l'impact de changements de planification, mais celui-ci n'est pas destiné à remplacer les processus de planning par écart ou de planning régénératif.  
 
 ## <a name="to-calculate-the-planning-worksheet"></a>Pour calculer la feuille planning  
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuilles planning**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles planning**, puis sélectionnez le lien associé.  
 2.  Choisissez l'action **Calculer planning régénératif** pour ouvrir la fenêtre **Calculer planning**.  
 3.  Sous le raccourci **Options**, renseignez les champs comme indiqué dans le tableau ci-dessous.  
 
     |Champ|Désignation|  
     |---------------------------------|---------------------------------------|  
-    |**PDP**|Sélectionnez pour lancer le calcul d'une planification de production. Les articles avec des commandes vente ou des prévisions de production ouvertes sont pris en considération.|  
+    |**PDP**|Sélectionnez pour lancer le calcul d'une planification de production. Les articles avec des commandes vente ou des prévisions de demande ouvertes sont pris en considération.|  
     |**MRP**|Sélectionnez pour lancer le calcul de la planification des besoins matière. Les articles avec des besoins dépendants sont pris en compte. En général, les PDP et les MRP sont exécutés simultanément. Pour les exécuter simultanément, le champ **Calcul PDP/MRP combiné** doit être sélectionné sur le raccourci **Planification** de la fenêtre **Paramètres production**.|  
     |**Date début**|Cette date permet d'évaluer la disponibilité des articles. Si la quantité disponible d'un article est inférieure au point de commande, le système planifie en aval un ordre de réapprovisionnement à partir de cette date. Si la quantité disponible d'un article est inférieure à son stock de sécurité (à partir de la date début), le système planifie en amont un ordre de réapprovisionnement dû à la date début planning.|  
     |**Date fin**|Il s'agit de la date fin de l'horizon de planification. Ni la demande ni l'approvisionnement ne sont pris en compte au-delà de cette date. Si le regroupement pour un article s'étend au-delà de la date fin, l'horizon de planification effectif pour cet article équivaut à la date commande + le regroupement.<br /><br /> L'horizon de planification est la durée d'extension de la planification. Si l'horizon est trop court, les articles dont le temps de fabrication est plus long ne sont pas commandés à temps. Si l'horizon est trop long, trop de temps est consacré à l'examen et au traitement d'informations qui changent probablement avant que ce soit nécessaire. Vous pouvez définir un horizon de planification pour la production et un autre, plus long, pour les achats, même si ce n'est pas obligatoire. Un horizon de planification pour les achats et la production doit être défini pour couvrir le temps de fabrication cumulé des composants.|  

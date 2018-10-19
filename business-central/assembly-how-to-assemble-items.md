@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 08/15/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c5e23bdd507cd4b08cede911fa8572458b91eb94
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 00830a8b1c55e67642f39378a13d34bd53d67a86
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="assemble-items"></a>Assembler des articles
@@ -43,14 +43,14 @@ Ces options de configuration sont les paramètres par défaut qui gèrent le tra
 Dans cette procédure, vous allez créer et traiter un ordre d'assemblage pour des articles qui sont assemblés pour stock, autrement dit sans commande vente liée. Les étapes incluent le lancement de l'ordre d'assemblage, le traitement des éventuels problèmes de disponibilité des composants et la validation partielle du résultat d'assemblage.
 
 ## <a name="to-assemble-an-item"></a>Pour assembler un article  
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Ordres d'assemblage**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Ordres d'assemblage**, puis sélectionnez le lien associé.  
 2.  Sélectionnez l'action **Nouveau**. La fenêtre **Nouvel ordre d'assemblage** s'ouvre.  
 3.  Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Dans le champ **N° article**, sélectionnez l'élément d'assemblage à traiter. Le champ est filtré pour n'afficher que les articles qui sont configurés pour assemblage, ce qui signifie qu'une nomenclature d'assemblage leur est affectée.  
 5.  Dans le champ **Quantité**, entrez le nombre d'unités de l'article que vous souhaitez assembler.  
 
     > [!NOTE]  
-    >  Si un ou plusieurs composants ne sont pas disponibles afin de répondre à la quantité d'éléments d'assemblage saisie à la date d'échéance définie, la fenêtre **Disponibilité assemblage** s'ouvre automatiquement pour fournir des informations détaillées sur le nombre d'éléments d'assemblage pouvant être assemblés en fonction de la disponibilité des composants. Pour plus d'informations, voir [Voir la disponibilité des articles](inventory-how-availability-overview.md).  Lorsque vous fermez la fenêtre, l'ordre d'assemblage est créé avec des alertes de disponibilité sur les lignes composant concernées.  
+    >  Si un ou plusieurs composants ne sont pas disponibles afin de répondre à la quantité d'éléments d'assemblage saisie à la date d'échéance définie, la fenêtre **Disponibilité assemblage** s'ouvre automatiquement pour fournir des informations détaillées sur le nombre d'éléments d'assemblage pouvant être assemblés en fonction de la disponibilité des composants. Pour plus d'informations, voir [Voir la disponibilité des articles](inventory-how-availability-overview.md). Lorsque vous fermez la fenêtre, l'ordre d'assemblage est créé avec des alertes de disponibilité sur les lignes composant concernées.  
 
     Les lignes d'ordre d'assemblage sont remplies automatiquement avec le contenu de la nomenclature d'assemblage et les quantités de ligne en fonction de l'en-tête d'ordre d'assemblage.  
 

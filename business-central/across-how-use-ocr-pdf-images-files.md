@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 8a9b5911008c8524490bf895ee3a21394cad4fbe
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: eb61eeb0a044a270a8ead5464919ce537cb356b5
 ms.contentlocale: fr-ch
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Utiliser un service OCR pour convertir des fichiers PDF et image en documents électroniques
@@ -30,7 +30,7 @@ Comme le service OCR est basé sur la reconnaissance optique, il est probable qu
 Le trafic des fichiers entrants et sortants du service OCR est traité par une écriture de la file projets dédiée, qui est créée automatiquement lorsque vous activez la connexion au service correspondant. Pour plus d'informations, voir [Configurer des documents entrants](across-how-setup-income-documents.md).
 
 ## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-from-the-incoming-documents-window"></a>Pour envoyer un fichier PDF ou image au service OCR à partir de la fenêtre **Documents entrants**
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Documents entrants**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Documents entrants**, puis sélectionnez le lien associé.
 2. Créez un enregistrement de document entrant et joignez le fichier. Pour plus d'informations, voir [Créer des enregistrements document entrant](across-how-create-income-document-records.md).  
 3. Dans la fenêtre **Documents entrants**, sélectionnez une ou plusieurs lignes, puis sélectionnez l'action **Envoyer à la file d'attente des travaux**.
 
@@ -109,7 +109,7 @@ Comme le service OCR est basé sur la reconnaissance optique, il est probable qu
 
 La fenêtre **Correction des données OCR**, que vous ouvrez à partir de la fenêtre **Document entrant**, affiche les champs du raccourci **Informations financières** dans deux colonnes, une avec les données OCR modifiables et une avec les données OCR en lecture seule. Lorsque vous sélectionnez le bouton **Envoyer des commentaires OCR**, le contenu de la fenêtre **Correction des données OCR** est envoyé au service OCR. La prochaine fois que le service traite les fichiers PDF ou image contenant les données en question, vos corrections seront intégrées pour éviter les mêmes erreurs.
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Documents entrants**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Documents entrants**, puis sélectionnez le lien associé.
 2. Ouvrez un enregistrement de document entrant contenant les données reçues du service OCR, que vous souhaitez corriger.
 3. Dans la fenêtre **Document entrant**, sélectionnez l'action **Corriger les données OCR**.
 4. Dans la fenêtre, **Correction des données OCR**, remplacez les données de la colonne modifiable pour chaque champ dont la valeur est incorrecte.

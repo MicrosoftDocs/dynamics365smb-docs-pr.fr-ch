@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 08/17/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c064bc8a5aaff42a75b10b133225f9d2cb87d786
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fa37e68f0544325e75e3869c61e00cde0d71a520
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="smart-notifications"></a>Notifications intelligentes
@@ -32,7 +32,7 @@ En outre, certaines notification vous permettent de spécifier les conditions da
 
 L'activation ou la désactivation des notifications et la spécification des conditions s'appliquent uniquement à vous.  
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Mes notifications**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Mes notifications**, puis choisissez le lien associé.
 2. Pour activer ou désactiver une notification, sélectionnez ou désactivez la case à cocher **Activé**.
 3. Pour spécifier les conditions qui déclenchent une notification, cliquez sur le lien **Afficher les détails du filtre**, puis renseignez les champs.  
 

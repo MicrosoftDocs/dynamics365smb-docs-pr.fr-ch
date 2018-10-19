@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/14/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d100ec6888fbd2e8fa55ce0facef8645a079dc76
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 429002d1eb6bfa487e5a21e54964ce33de175441
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Regroupement de bons de livraison sur une seule facture
@@ -25,7 +25,7 @@ Si vous souhaitez facturer plusieurs bons de livraison à la fois, vous pouvez u
  Pour créer un regroupement de bons de livraison, plusieurs bons de livraison vente doivent avoir été validés pour le même client dans la même devise. Autrement dit, vous devez avoir renseigné au moins deux commandes vente et les avoir validées comme étant expédiées, mais pas facturées. Vous devez activer la case à cocher **Regrouper les B.L**. sur le raccourci **Expédition** de la fiche **client** pour utiliser la fonctionnalité.  
 
 ## <a name="to-manually-combine-shipments-on-a-single-invoice"></a>Regrouper manuellement les expéditions sur une seule facture  
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Factures vente**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Factures vente**, puis sélectionnez le lien associé.  
 2. Sélectionnez l'action **Nouveau**. Pour plus d'informations, reportez-vous à [Facturer des ventes](sales-how-invoice-sales.md).
 3. Dans le champ **N° donneur d'ordre** entrez le client facturé pour les articles expédiés.  
 4. Dans le raccourci **Lignes**, sélectionnez l'action **Extraire lignes expédition**.  
@@ -38,7 +38,7 @@ Si vous souhaitez facturer plusieurs bons de livraison à la fois, vous pouvez u
 7. Pour valider la facture, sélectionnez l'action **Valider**.  
 
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Regrouper automatiquement les expéditions sur une seule facture  
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Regrouper les expéditions**, puis sélectionnez le lien connexe. Le formulaire de sélection du traitement par lots s'ouvre.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Regrouper les expéditions**, puis choisissez le lien associé. Le formulaire de sélection du traitement par lots s'ouvre.  
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Cochez la case **Validation des factures**.  
 4.  Cliquez sur le bouton **OK**.  
@@ -51,7 +51,7 @@ Lorsque des bons de livraison sont regroupés sur une facture et validés, une F
 
 Lorsque vous facturez des livraisons de cette manière, les commandes à partir desquelles les livraisons ont été validées continuent à exister, même si elles ont été entièrement validées et facturées.   
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Supprimer cdes vente facturées**, puis sélectionnez le lien.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Supprimer cdes vente facturées**, puis sélectionnez le lien associé.  
 2. Dans le champ de filtre **N°**, les commandes vente à supprimer.  
 3. Cliquez sur le bouton **OK**.  
 

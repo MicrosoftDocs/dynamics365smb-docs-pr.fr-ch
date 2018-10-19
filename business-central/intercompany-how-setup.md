@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 06/07/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
-ms.openlocfilehash: a9e3788687e88a60141e9ffb6b18f1c98a180c59
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 437828c497b6e80f3eea7536fca363ce67bc9d5e
 ms.contentlocale: fr-ch
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-intercompany"></a>Configuration des fonctionnalités intersociétés
@@ -27,16 +27,16 @@ Si vous créez ou recevez des lignes intersociétés contenant des articles, vou
 Si vous créez des transactions de vente intersociétés incluant des ressources, vous devez renseigner le champ **N° cte gén achat parten IC** de la fiche ressource de chaque ressource concernée. Il s'agit du numéro du compte général interentreprise sur lequel le montant de cette ressource va être validé dans la société partenaire. Pour plus d'informations, voir .  
 
 ## <a name="to-set-up-companies-for-intercompany-transactions"></a>Pour configurer des sociétés pour les transactions intersociétés
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Informations société**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Informations société**, puis sélectionnez le lien associé.  
 2. Dans la fenêtre **Informations société**, renseignez les champs **Code Partenaire Intersociétés**, **Type de boîte de réception Intersociétés** et **Détails boîte de réception intersociétés**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-intercompany-partners"></a>Pour paramétrer les partenaires intersociétés
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Partenaires Intersociétés**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Partenaires intersociété**, puis sélectionnez le lien associé.
 2. Sélectionnez l'action **Nouveau**.
 3. Dans la fenêtre **Partenaire Intersociétés**, renseignez les champs comme nécessaire.
 
 ## <a name="to-set-up-intercompany-vendors-and-intercompany-customers"></a>Pour paramétrer des fournisseurs et des clients intersociétés
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Comptes bancaires**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Fournisseurs**, puis sélectionnez le lien associé.
 2. Autrement, accédez au fournisseur du champ **N° fournisseur** dans la fenêtre **Partenaire Intersociétés**.
 3. Ouvrez la fiche d'un fournisseur qui est un partenaire Intersociétés. Pour plus d'informations, reportez vous à [Enregistrer de nouveaux fournisseurs](purchasing-how-register-new-vendors.md).
 4. Dans le champ **Code Partenaire Intersociétés**, sélectionnez le code partenaire intersociétés approprié.
@@ -50,19 +50,19 @@ Si votre société est la société parent et contient le plan comptable interso
 Si votre société est une filiale et que vous recevez un fichier XML contenant le tableau de compte commun intersociétés, suivez la procédure « Pour importer le plan comptable intersociété ».  
 
 ### <a name="to-set-up-the-defining-intercompany-chart-of-accounts"></a>Pour configurer la définition du plan comptable intersociété
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Plan comptable intersociétés**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Plan comptable intersociétés**, puis sélectionnez le lien associé.
 2. Dans la fenêtre **Plan comptable intersociétés**, saisissez chaque compte sur une ligne de la fenêtre.  
 3. Si votre plan comptable intersociété est identique ou semblable à celui que vous utilisez habituellement, vous pouvez renseigner la fenêtre automatiquement en choisissant l'action **Copier à partir du plan comptable**. Vous pouvez modifier au besoin les nouvelles lignes.
 
 ### <a name="to-export-an-intercompany-chart-of-accounts"></a>Pour exporter un plan comptable intersociété
 Pour permettre à vos partenaires Intersociétés d'importer la définition du plan comptable, vous devez l'exporter vers un fichier.      
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Plan comptable intersociétés**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Plan comptable intersociétés**, puis sélectionnez le lien associé.
 2. Dans la fenêtre **Plan comptable intersociétés**, choisissez l'action **Exporter**, puis choisissez le bouton **Enregistrer**.
 3. Indiquez le nom et l'emplacement d'enregistrement du fichier XML, puis cliquez sur le bouton **Enregistrer**.  
 
 ### <a name="to-import-the-intercompany-chart-of-accounts"></a>Pour importer le plan comptable intersociétés  
 Lorsqu'un fichier existe pour la définition du plan comptable intersociété, les partenaires intersociétés peuvent l'importer pour vérifier qu'ils ont les mêmes comptes.  
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Plan comptable intersociétés**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Plan comptable intersociétés**, puis sélectionnez le lien associé.  
 2. Dans la fenêtre **Plan comptable intersociétés**, choisissez l'action **Importer**.  
 3. Sélectionnez le nom et l'emplacement du fichier XML, puis cliquez sur le bouton **Ouvrir**.  
 
@@ -73,7 +73,7 @@ Après avoir défini ou importé le plan comptable intersociété que vos parten
 
 Si les comptes du plan comptable intersociétés possèdent les mêmes numéros que les comptes correspondants dans le plan comptable, vous pouvez les mapper automatiquement.
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Plan comptable intersociétés**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Plan comptable intersociétés**, puis sélectionnez le lien associé.  
 2. Sélectionnez les lignes à associer automatiquement, puis cliquez sur choisissez l'action **Faire correspondre au compte ayant le même numéro**.  
 3. Pour chaque compte général intersociété qui n'a pas été associé automatiquement, renseignez le champ **N° cpte gén pour corres**.  
 
@@ -82,7 +82,7 @@ Lorsque vous créez une ligne vente ou achat intersociété à envoyer comme tra
 
 Ensuite, si vous indiquez un compte général dans le champ **N° compte contrepartie** d'une ligne intersociété avec **Partenaire Intersociétés** dans le champ **Type de compte**, le champ **Compte général par défaut des partenaires IC** est renseigné automatiquement.  
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Plan comptable**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Plan comptable**, puis sélectionnez le lien associé.  
 2. Sur la ligne d'un compte général utilisé pour les transactions intersociétés, dans le champ **Compte général par défaut de partenaire IC**, entrez le compte général intersociété que votre partenaire utilisera lors de la validation du compte général de la ligne.  
 3. Répétez l'étape 3 pour chaque compte que vous entrez souvent dans le champ **N° compte contrepartie** d'une ligne dans la feuille ou le document intersociétés.
 
@@ -94,7 +94,7 @@ Si votre société est la société parent et contient l'ensemble de définition
 Si votre société est une filiale et que vous recevez un fichier XML contenant les axes analytiques intersociétés qui serviront de référence commune au groupe, suivez la procédure « Importer des axes analytiques intersociétés ».
 
 ### <a name="to-define-the-intercompany-dimensions"></a>Pour définir les axes analytiques intersociétés
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Axes analytiques intersociétés**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Axes analytiques intersociétés**, puis sélectionnez le lien associé.  
 2. Dans la fenêtre **Axes analytiques intersociétés**, entrez chaque axe analytique sur une ligne.
 
     Si vos axes analytiques intersociétés sont identiques ou semblables aux axes analytiques de votre société, vous pouvez renseigner la fenêtre automatiquement en utilisant la fonction **Copier à partir des axes analytiques**, puis modifier les lignes ainsi obtenues.  
@@ -103,7 +103,7 @@ Si votre société est une filiale et que vous recevez un fichier XML contenant 
 
 ### <a name="to-import-the-intercompany-dimensions"></a>Pour importer les axes analytiques intersociétés  
 Lorsqu'un fichier existe pour la définition du plan comptable intersociété, les partenaires intersociétés peuvent l'importer pour vérifier qu'ils ont les mêmes axes analytiques.  
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Axes analytiques intersociétés**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Axes analytiques intersociétés**, puis sélectionnez le lien associé.  
 2. Dans la fenêtre **Plan comptable intersociétés**, choisissez l'action **Importer**.  
 3. Spécifiez le nom et l'emplacement du fichier XML, puis cliquez sur le bouton **Ouvrir**.  
 
@@ -114,14 +114,14 @@ Après avoir défini ou importé les axes analytiques que vos partenaires inters
 
 Si certains axes analytiques intersociété possèdent le même code que les axes analytiques correspondants de la liste des axes analytiques de votre société, vous pouvez demander au programme d'associer automatiquement ces comptes.
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Axes analytiques intersociétés**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Axes analytiques intersociétés**, puis sélectionnez le lien associé.
 2. Dans la fenêtre **Axes analytiques intersociétés**, sélectionnez les lignes à associer automatiquement, puis choisissez l'action **Faire correspondre à l'axe analytique ayant le même code**.
 3. Pour chaque axe intersociétés qui n'est pas associé automatiquement, renseignez le champ **Code axe à faire correspondre**.
 4. Choisissez l'action **Sections analytiques intersociétés**.
 5. Dans la fenêtre **Sections analytiques intersociétés**, renseignez le champ **Code section à faire correspondre**.
 
     Continuez à associer les axes analytiques aux axes analytiques intersociétés en effectuant les mêmes étapes.
-6. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), saisissez **Axes analytiques**, puis sélectionnez le lien connexe.
+6. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Dimensions**, puis choisissez le lien associé.
 7. Dans la fenêtre **Axes analytiques intersociétés**, sélectionnez les lignes à associer automatiquement, puis choisissez l'action **Faire correspondre à l'axe IC ayant le même code**.
 8. Pour chaque axe intersociétés qui n'est pas associé automatiquement, renseignez le champ **Code section analytique axe IC à faire correspondre**.
 9. Choisissez l'action **Sections analytiques intersociétés**.

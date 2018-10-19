@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 11/29/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 3b2dc6a8911659c931b9c7d7fcf35cc471c022ef
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 76a531f7072b1d4082af3c1e82bb78dc2d44ddc3
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="count-adjust-and-reclassify-inventory"></a>Inventaire, ajustement et reclassement du stock
@@ -44,7 +44,7 @@ Vous pouvez effectuer l'inventaire physique de l'une des manières suivantes en 
 -   Si votre magasin utilise le prélèvement et rangement suggérés (configuration d'entrepôt avancée), vous utilisez d'abord la fenêtre **Feuille inventaire entrepôt**, puis vous utilisez la fenêtre **Feuille article** pour exécuter la fonction **Calculer ajustement entrepôt**.
 
 ### <a name="to-calculate-the-expected-inventory-in-basic-warehouse-configurations"></a>Pour calculer le stock prévu dans les configurations d'entrepôt de base
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuilles inventaire**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles inventaire**, puis sélectionnez le lien associé.
 2. Choisissez l'action **Calculer stock**.
 3. Dans la fenêtre **Calculer stock**, indiquez les conditions à utiliser pour créer les lignes feuille, par exemple si vous souhaitez inclure les articles pour lesquels aucun stock n'est enregistré.
 4. Définissez des filtres si vous souhaitez uniquement calculer le stock pour certains articles, emplacements, magasins ou axes.
@@ -54,20 +54,20 @@ Vous pouvez effectuer l'inventaire physique de l'une des manières suivantes en 
 >   Les écritures article sont traitées en fonction des informations que vous avez indiquées, et les lignes sont créées dans la feuille inventaire. Notez que le champ **Qté (constatée)** est renseigné automatiquement avec la même quantité que le champ **Qté (calculée)**. Avec cette fonction, vous n'avez pas besoin d'entrer le stock disponible pour les articles dont le nombre correspond à la quantité calculée. Toutefois, si la quantité comptée diffère de ce qui est saisi dans le champ **Qté (calculée)**, vous devez la remplacer par la quantité réellement comptée.
 
 ### <a name="to-calculate-the-expected-inventory-in-advanced-warehouse-configurations"></a>Pour calculer le stock prévu dans les configurations d'entrepôt avancées
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Feuille article**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille article**, puis sélectionnez le lien associé.  
 2.  Sélectionnez l'action **Calculer ajustement entrepôt**.  
 3.  Renseignez le formulaire de sélection du traitement par lots en y indiquant votre magasin et les numéros des articles que vous souhaitez compter.
 4. Cliquez sur le bouton **OK**, puis validez les éventuels ajustements.
 
     Si vous n'effectuez pas cette opération avant d'exécuter l'inventaire entrepôt, les résultats que vous validez dans la feuille inventaire et dans l'écriture article dans la deuxième partie de la procédure seront les résultats de l'inventaire combinés avec d'autres ajustements entrepôt pour les articles comptés.  
-5.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Feuille inventaire entrepôt**, puis sélectionnez le lien connexe.  
+5.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille inventaire entrepôt**, puis sélectionnez le lien associé.  
 6. Choisissez l'action **Calculer stock**. Le formulaire de sélection du traitement par lots **Calculer stock entrepôt** s'ouvre.  
 7.  Positionnez les filtres permettant de limiter les articles comptés dans la feuille, puis sélectionnez le bouton **OK**.
 
     Le programme crée une ligne pour chaque emplacement répondant aux exigences des filtres. A ce stade, vous pouvez encore supprimer certaines lignes, mais si vous souhaitez valider les résultats en tant qu'inventaire, vous devez compter l'article dans tous les emplacements le contenant.  
 
      Si le temps dont vous disposez vous permet uniquement de compter l'article dans certains emplacements, vous pouvez noter les différences, les enregistrer, puis les valider dans la feuille article à l'aide de la fonction **Calculer ajustement entrepôt**.  
-8.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Liste d'inventaire entrepôt**, puis sélectionnez le lien connexe.  
+8.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Liste d'inventaire entrepôt**, puis sélectionnez le lien associé.  
 9.  Ouvrez la page de sélection de l'état, puis imprimez les listes sur lesquelles vous souhaitez que les employés enregistrent la quantité des articles qu'ils comptent dans chaque emplacement.  
 10. Une fois le décompte effectué, saisissez les quantités comptées dans le champ **Qté (constatée)** de la feuille inventaire entrepôt.  
 
@@ -103,12 +103,12 @@ Les employés peuvent maintenant poursuivre le comptage du stock et noter les é
 
     Les écritures comptables article et les écritures comptables inventaire sont créées. Ouvrez la fiche article pour visualiser les écritures comptables inventaire ainsi obtenues.
 
-3. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Articles**, puis sélectionnez le lien connexe.
+3. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles**, puis sélectionnez le lien associé.
 4. Pour vérifier l'inventaire de stock, ouvrez la fiche article en question, puis choisissez **Écritures comptables inventaire**.
 
 ### <a name="to-enter-and-post-the-actual-counted-inventory-in-advanced-warehouse-configurations"></a>Pour saisir et valider le stock réel compté dans les configurations d'entrepôt avancées
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Feuille article**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille article**, puis sélectionnez le lien associé.  
 2.  Sélectionnez l'action **Calculer ajustement entrepôt**.  
 3.  Sélectionnez les articles que vous avez compté au cours de l'inventaire que vous venez de réaliser, et tous les autres articles nécessitant un ajustement, puis choisissez le bouton **OK**.  
 
@@ -131,24 +131,24 @@ Un inventaire est généralement effectué en fonction d'intervalles réguliers 
 
 Configurez les périodes d'inventaire que vous souhaitez utiliser, puis affectez-en une à chaque article. Lorsque vous effectuez un inventaire et que vous utilisez **Calculer période d'inventaire** de la feuille inventaire, les lignes des articles sont créées automatiquement.
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Périodes inventaire**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Périodes inventaire**, puis sélectionnez le lien associé.  
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="to-assign-a-counting-period-to-an-item"></a>Pour affecter une période d'inventaire à un article  
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Articles**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles**, puis sélectionnez le lien associé.  
 2. Sélectionnez l'article auquel vous souhaitez affecter une période d'inventaire.  
 3. Dans le champ **Code période inventaire stock**, sélectionnez la période d'inventaire appropriée.  
 4. Cliquez sur le bouton **Oui** pour modifier le code et la calculer la première période d'inventaire de l'article. La prochaine fois que vous choisissez de calculer une période d'inventaire dans la feuille inventaire, l'article s'affichera en tant que ligne dans la fenêtre **Sélection article inventaire**. Vous pouvez ensuite commencer à compter l'article sur une base périodique.
 
 ### <a name="to-initiate-a-count-based-on-counting-periods-in-basic-warehouse-configurations"></a>Pour lancer un décompte selon des périodes d'inventaire dans les configurations d'entrepôt de base
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille inventaire**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille inventaire**, puis sélectionnez le lien associé.
 2. Choisissez l'action **Calculer la période d'inventaire**.
 
     La fenêtre **Sélection article inventaire** qui s'ouvre affiche les articles auxquels des périodes d'inventaire ont été affectés et qui doivent être comptés en fonction de leurs périodes d'inventaire.
 3. Effectuer l'inventaire physique. Pour plus d'informations, voir la section « Pour effectuer un inventaire physique ».
 
 ### <a name="to-initiate-a-count-based-on-counting-periods-in-advanced-warehouse-configurations"></a>Pour lancer un décompte selon des périodes d'inventaire dans les configurations d'entrepôt avancées
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Feuille inventaire entrepôt**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille inventaire entrepôt**, puis sélectionnez le lien associé.  
 2. Choisissez l'action **Calculer la période d'inventaire**.
 
     La fenêtre **Sélection article inventaire** qui s'ouvre affiche les articles auxquels des périodes d'inventaire ont été affectés et qui doivent être comptés en fonction de leurs périodes d'inventaire.
@@ -160,7 +160,7 @@ Configurez les périodes d'inventaire que vous souhaitez utiliser, puis affectez
 ## <a name="to-adjust-the-inventory-of-one-item"></a>Pour ajuster le stock d'un article
 Après avoir effectué un inventaire d'un article dans votre module Distribution - Stocks, vous pouvez utiliser la fonction **Ajuster stock** pour enregistrer la quantité réelle en stock.
 
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Articles**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles**, puis sélectionnez le lien associé.
 2. Sélectionnez l'article pour lequel vous souhaitez ajuster le stock, puis sélectionnez l'action **Ajuster stock**.
 3. Dans le champ **Nouveau stock**, entrez la quantité en stock que vous souhaitez enregistrer pour l'article.
 4. Cliquez sur le bouton **OK**.
@@ -177,7 +177,7 @@ Dans la fenêtre **feuille article**, vous pouvez valider la transaction article
 
 Si vous utilisez fréquemment la feuille article pour comptabiliser des lignes feuille identiques ou analogues (par exemple, des lignes en rapport avec la consommation de matériel), vous pouvez utiliser la fenêtre **Feuille article standard** pour simplifier cette tâche récurrente. Pour plus d'informations, reportez-vous à la section « Feuilles standard » de [Utilisation de feuilles comptabilité](ui-work-general-journals.md).
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuilles article**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles articles**, puis sélectionnez le lien associé.
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Choisissez l'action **Valider** pour créer des ajustements de stock.
 
@@ -189,7 +189,7 @@ Si votre magasin utilise directement le prélèvement et rangement, vous pouvez 
 
 A la différence de la validation des ajustements dans la feuille article stock, l'utilisation de la feuille article entrepôt permet d'obtenir un autre niveau d'ajustement des enregistrements de quantité encore plus précis, à tout moment. Par conséquent, l'entrepôt dispose toujours d'un enregistrement complet indiquant le nombre d'articles disponibles et leur lieu de stockage, mais les enregistrements ajustement ne sont pas immédiatement validés dans l'écriture article. Au cours de l'enregistrement, le programme crédite ou débite l'emplacement de l'ajustement quantité, et crée une écriture de compensation dans l'emplacement ajustement entrepôt (emplacement virtuel sans articles réels). Cet emplacement a été défini dans le **Code emplacement ajustement stock** sur la fiche magasin.
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Feuille article entrepôt**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille article entrepôt**, puis sélectionnez le lien associé.  
 2.  Renseignez les informations d'ent-ête.  
 3.  Renseignez le champ **N° article** de la ligne.  
 4.  Saisissez l'emplacement dans lequel vous placez les articles supplémentaires ou dans lequel des articles sont manquants.  
@@ -199,7 +199,7 @@ A la différence de la validation des ajustements dans la feuille article stock,
 ## <a name="to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries"></a>Pour synchroniser les écritures entrepôt ajustées avec les écritures comptables article associées
 Suivant des intervalles définis par la politique de la société, vous devez valider les enregistrements des emplacements ajustement entrepôt dans l'écriture article. Certaines sociétés choisissent de valider quotidiennement les ajustements dans l'écriture article, alors que d'autres préfèrent effectuer une simulation de manière moins fréquente.
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Feuille article**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille article**, puis sélectionnez le lien associé.  
 2.  Renseignez les champs de chaque ligne feuille.  
 3.  Sélectionnez l'action **Calculer ajustement entrepôt** et renseignez les filtres selon vos besoins dans la fenêtre de demande de traitement par lots. Les ajustements sont calculés uniquement pour les écritures de l'emplacement ajustement qui répondent aux exigences des filtres.  
 4.  Sur le raccourci **Options**, entrez manuellement un numéro dans le champ **N° document**. Étant donné qu'aucune souche de numéros n'a été configurée pour ce traitement par lots, utilisez le modèle de numéros configuré par l'entrepôt ou saisissez la date suivie de vos initiales.  
@@ -213,7 +213,7 @@ Des étapes spéciales s'appliquent lorsque vous souhaitez reclasser les numéro
 
 L'exemple suivant est basé sur un code magasin. Les étapes sont similaires pour d'autres types d'attributs d'article.
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuilles reclassement article**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles reclassement article**, puis sélectionnez le lien associé.
 2. Dans la fenêtre **Feuilles reclassement article**, renseignez les champs selon vos besoins.
 3. Dans le champ **Code magasin**, entrez le code magasin actuel de l'article.
 4. Dans le champ **Nouveau code magasin**, entrez le nouveau code magasin de l'article.

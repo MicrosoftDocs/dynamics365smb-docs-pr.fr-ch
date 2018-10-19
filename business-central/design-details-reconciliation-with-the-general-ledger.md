@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 813af57a2e1de62ce038990116f9cf92f741a78d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 67392093b4643b6083514859655ce3adc61d1d5b
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Détails de conception : rapprochement de comptabilité
@@ -84,16 +84,16 @@ Le tableau suivant montre la manière dont le centre de charge est paramétré s
     1. Les comptes d'attente sont supprimés. (Vente)  
     2. Le coût des biens vendus (COGS) est validé. (Vente)  
 
-        ![Résultats de la validation des ventes dans les comptes généraux](media/design_details_inventory_costing_3_gl_posting_sales.png "design_details_inventory_costing_3_GL_posting_sales")  
+        ![Résultats de la validation ventes sur les comptes généraux](media/design_details_inventory_costing_3_gl_posting_sales.png "Résultats de la validation ventes sur les comptes généraux")  
 5. L'utilisateur valide la consommation de 150 liens, qui est le nombre de liens utilisés pour produire une chaîne. (Consommation, Matière)  
 
-    ![Résultats de la validation des matières dans les comptes généraux](media/design_details_inventory_costing_3_gl_posting_material.png "design_details_inventory_costing_3_GL_posting_material")  
+    ![Résultats de la validation des matières sur les comptes généraux](media/design_details_inventory_costing_3_gl_posting_material.png "Résultats de la validation des matières sur les comptes généraux")  
 6. Le centre de charge est utilisé 60 minutes pour produire la chaîne. L'utilisateur valide le coût de conversion. (Consommation, Capacité)  
 
     1. Les coûts directs sont validés. (Consommation, Capacité)  
     2. Les coûts indirects sont calculés et validés. (Consommation, Capacité)  
 
-        ![Résultats de la validation de la capacité dans les comptes généraux](media/design_details_inventory_costing_3_gl_posting_capacity.png "design_details_inventory_costing_3_GL_posting_capacity")  
+        ![Résultats de la validation de la capacité sur les comptes généraux](media/design_details_inventory_costing_3_gl_posting_capacity.png "Résultats de la validation de la capacité sur les comptes généraux")  
 7. L'utilisateur valide le coût prévu d'une chaîne. (Production)  
 8. L'utilisateur termine l'ordre de fabrication et exécute le traitement par lots **Ajuster &coûts - Écr. article**. (Production)  
 
@@ -102,7 +102,7 @@ Le tableau suivant montre la manière dont le centre de charge est paramétré s
     3. Le coût indirect (frais généraux) est transféré du compte des coûts indirects vers le compte stock. (Production)  
     4. Cela a pour résultat une quantité d'écart de 157,00 LCY. Les écarts sont uniquement calculés pour les articles de coût standard. (Production)  
 
-        ![Résultats de la validation de la production dans les comptes généraux](media/design_details_inventory_costing_3_gl_posting_output.png "design_details_inventory_costing_3_GL_posting_output")  
+        ![Résultats de la validation de production sur les comptes généraux](media/design_details_inventory_costing_3_gl_posting_output.png "Résultats de la validation de production sur les comptes généraux")  
 
         > [!NOTE]  
         >  Pour des raisons de simplicité, un seul compte écart est affiché. En réalité, cinq comptes différents existent :  
@@ -115,7 +115,7 @@ Le tableau suivant montre la manière dont le centre de charge est paramétré s
 
 9. L'utilisateur réévalue la chaîne de 150,00 LCY à 140,00 LCY. (Ajustement/Réévaluation/Arrondi/Transfert)  
 
-    ![Résultats de la validation de l'ajustement dans les comptes généraux](media/design_details_inventory_costing_3_gl_posting_adjustment.png "design_details_inventory_costing_3_GL_posting_adjustment")  
+    ![Résultats de la validation de l'ajustement sur les comptes généraux](media/design_details_inventory_costing_3_gl_posting_adjustment.png "Résultats de la validation de l'ajustement sur les comptes généraux")  
 
 Pour plus d'informations sur les relations entre les types de compte et les différents types d'écritures valeur, voir [Détails de conception : comptes de la comptabilité](design-details-accounts-in-the-general-ledger.md).  
 

@@ -9,20 +9,20 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2017
+ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 04dff9168c432a93504c3154475ad76b7e2c1cf9
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: de5623e6dad677a8fb5f07824c17cb42632cff37
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="preview-posting-results"></a>Résultats de l'aperçu compta.
 Sur chaque document et feuille qui peuvent être validés, vous pouvez cliquer sur le bouton **Aperçu compta.** pour examiner différents types d'entrées qui seront créées lorsque vous validez le document ou la feuille.
 
 ## <a name="to-preview-gl-entries-that-will-result-from-posting-a-purchase-invoice"></a>Pour afficher un aperçu des écritures comptables qui résulteront de la validation d'une facture achat
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Factures achat**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Factures achat**, puis sélectionnez le lien associé.
 2. Créez une facture achat. Pour plus d'informations, voir [Enregistrer des achats](purchasing-how-record-purchases.md).
 3. Sélectionnez **Aperçu compta.**.
 4. Dans la fenêtre **Aperçu compta.**, sélectionnez **Écriture comptable**, puis sélectionnez **Afficher écritures associées**.  

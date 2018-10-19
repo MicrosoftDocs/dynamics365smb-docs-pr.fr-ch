@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 23a9cd7a8a7f579f63937ac4fc28e6d4958f3f9a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f0bdc88cb2d52ed8e1558fb140f904f792e539ff
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="close-accounting-periods"></a>Clôturer des périodes comptables
 Lorsqu'un exercice comptable est terminé, vous devez clôturer les périodes qui le composent.
 
 ## <a name="to-close-accounting-periods"></a>Pour clôturer des périodes comptables
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Périodes comptables**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Périodes comptables**, puis sélectionnez le lien associé.
 2. Dans la fenêtre **Périodes comptables**, sélectionnez l'action **Clôturer exercice**.
 
     Si plusieurs exercices comptables sont ouverts, le plus ancien est automatiquement sélectionné pour être clôturé. Un message identifiant l'exercice qu'il compte clôturer s'affiche et indique les conséquences de la clôture.

@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e2256067a3a7abf253276b61a26b075c04bf8e70
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: dd1bfde6dcffffa65ab58591d891a9f8b179a7eb
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="view-load-on-work-and-machine-centers"></a>Afficher la charge des centres de charge et des postes de charge
 Dans les fenêtres **Fiche centre de charge** et **Fiche poste de charge**, vous pouvez afficher la charge de l'atelier en tant que résultat des ordres de fabrication planifiés et lancés.    
 
 ## <a name="to-view-the-load-on-work-centers"></a>Pour afficher la charge des centres de charge  
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Centres de charge**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Centres de charge**, puis sélectionnez le lien associé.  
 2.  Ouvrez la fiche **Centre de charge** appropriée dans la liste, puis choisissez l'action **Charge**.  
 
 Les champs **Afficher par** et **Afficher en tant que** sur le raccourci **Options** permettent de sélectionner la période demandée.  

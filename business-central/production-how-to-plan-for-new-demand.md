@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7a519025bd7bed4bb2974c3e7fb5f044ac35dcf4
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e2e937aee7defcc5226a3238652f88261004920c
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Planifier de nouvelles demandes commande par commande
@@ -26,16 +26,16 @@ Vous pouvez accéder à la fenêtre **Planification commande** de deux manières
 
 
 ## <a name="to-plan-for-new-production-order-demand"></a>Pour planifier un nouvelle demande d'ordre de fabrication  
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **O.F. planifiés**, puis sélectionnez le lien connexe. (Vous pouvez exécuter cette procédure pour des ordres de fabrication planifiés, planifiés fermes ou lancés).
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **O.F. planifiés**, puis sélectionnez le lien associé. (Vous pouvez exécuter cette procédure pour des ordres de fabrication planifiés, planifiés fermes ou lancés).
 2.  Ouvrez l'ordre de fabrication que vous souhaitez planifier, puis choisissez l'action **Planning**.  
 3.  Dans la fenêtre **Planning commande**, choisissez l'action **Calculer planning**.  
 
 La fenêtre affiche les lignes planning filtrées par la vue de filtre **Demande de production**, c'est-à-dire toutes les lignes composant insatisfaites de tous les ordres de fabrication existants. Les demandes de l'ordre de fabrication ne sont pas affichées, car il est nécessaire d'effectuer la planification d'un ordre de fabrication avec un aperçu de la demande des éventuelles lignes composant précédentes. Les lignes planning de l'ordre de fabrication du contexte sont développées.  
 
 ## <a name="to-plan-for-any-new-demand"></a>Pour planifier toute nouvelle demande  
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Planification commande**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Planification commande**, puis sélectionnez le lien associé.  
 2.  Dans la fenêtre **Planning commande**, choisissez l'action **Calculer planning**.
-3.  Choisissez le bouton **Afficher (+)** devant la date dans le champ **Date demande** pour afficher les lignes de planification sous-jacentes qui représentent les lignes de demande dont la disponibilité n'est pas suffisante.  
+3.  Cliquez sur le bouton **Afficher (+)** devant la date dans le champ **Date demande** pour afficher les lignes de planification sous-jacentes qui représentent les lignes de demande dont la disponibilité n'est pas suffisante.  
 4.  Pour chaque ligne planning développée, c'est-à-dire ligne demande, les valeurs s'affichent dans des champs d'information en bas de la fenêtre.  
 
     |Option|Désignation|  
@@ -82,10 +82,10 @@ La fenêtre affiche les lignes planning filtrées par la vue de filtre **Demande
     Ces deux champs sont étroitement liés, comme l'indique le champ **Délai de sécurité par défaut**, qui se trouve dans la fenêtre **Paramètres production**. Par défaut, la date d'échéance correspond à la date demande, mais vous pouvez la modifier à votre convenance.  
 
 > [!NOTE]  
->   Si vous entrez une date ultérieure à la date demande, un message vous l'indique.  
+>  Si vous entrez une date ultérieure à la date demande, un message vous l'indique.  
 
 ## <a name="to-make-supply-orders"></a>Pour créer des commandes approvisionnement  
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **O.F. planifiés**, puis sélectionnez le lien connexe. Vous pouvez exécuter cette procédure pour un ordre de fabrication planifié, planifié ferme ou lancé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **O.F. planifiés**, puis sélectionnez le lien associé. Vous pouvez exécuter cette procédure pour un ordre de fabrication planifié, planifié ferme ou lancé.  
 2.  Ouvrez l'ordre de fabrication que vous souhaitez planifier, puis choisissez l'action **Planning**.  
 3.  Positionnez le curseur sur la ligne planning souhaitée, puis choisissez l'action **Créer commandes**.  
 4.  Dans la fenêtre **Créer des commandes approvisionnement**, sur le raccourci **Planning commande**, dans le champ **Créer commandes pour**, sélectionnez l'une des options suivantes.  
@@ -101,7 +101,7 @@ La fenêtre affiche les lignes planning filtrées par la vue de filtre **Demande
     > [!NOTE]  
     >  Les paramètres que vous avez entrés en dernier dans la fenêtre **Créer des commandes approvisionnement** seront enregistrés dans votre code utilisateur pour qu'ils soient conservés pour vos prochaines utilisations de la fenêtre.  
 
-6.  Choisissez le bouton **OK** pour créer les commandes approvisionnement ou les lignes demande achat proposées.  
+6.  Cliquez sur le bouton **OK** pour créer les commandes approvisionnement ou les lignes demande achat proposées.  
 
 Vous venez d'effectuer les planifications nécessaires pour les demandes insatisfaites en créant les commandes approvisionnement correspondantes. Les processus particuliers liés à l'utilisation de la fenêtre **Planning commande** dépendent de l'organisation interne de chaque société.  
 

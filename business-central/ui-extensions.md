@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 07/09/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7664360941313da6ea0b797ef00df2e9810ad62
-ms.openlocfilehash: 0baa6494bb9d41514122b06037020140a8c2c79f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e3c0dfdc1eb1739a1d756fcb359c99e51ceec1e7
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/09/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="customizing-business-central-using-extensions"></a>Personnalisation de Business Central à l'aide d'extensions
@@ -25,7 +25,7 @@ La première fois que vous lancez [!INCLUDE[d365fin](includes/d365fin_md.md)], c
 Par exemple, Microsoft propose une extension qui fournit une intégration à PayPal Payments Standard. Cette extension est installée par défaut.
 Si une autre extension proposant une intégration à un autre service de paiement devenait disponible, vous pouvez installer cette nouvelle extension et choisir lequel des deux services vous souhaitez utiliser.  
 
-La fenêtre **Gestion des extensions** vous permet de gérer les extensions. Vous pouvez accéder à cette fenêtre à partir de la page d'accueil. Sinon, sélectionnez l'icône **Page ou état pour la recherche** ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche") dans le coin supérieur droit, entrez **Extension**, puis sélectionnez le lien associé.  
+La fenêtre **Gestion des extensions** vous permet de gérer les extensions. Vous pouvez accéder à cette fenêtre à partir de la page d'accueil. Sinon, choisissez l'icône **Page ou état pour la recherche** ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") dans le coin supérieur droit, saisissez **Extension**, puis sélectionnez le lien associé.  
 
 > [!NOTE]  
 >   Si vous voulez accéder à une extension mais que vous ne pouvez pas trouver sa fonctionnalité, vérifiez la fenêtre **Gestion des extensions**, si l'extension n'est pas répertoriée, vous pouvez la configurer comme décrit dans la section suivante.  
@@ -35,7 +35,7 @@ Vous pouvez obtenir de nouvelles extensions depuis le marché à l'adresse [AppS
 > [!NOTE]  
 >   Connectez-vous au site [AppSource.microsoft.com](https://appsource.microsoft.com/) à l'aide du compte de messagerie électronique que vous utilisez pour [!INCLUDE[d365fin](includes/d365fin_md.md)]. Utilisez le même compte de messagerie électronique pour d'autres services et produits pour une expérience agréable.  
 
-Vous pouvez également accéder au marché à partir de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dans la fenêtre **Gestion des extensions**, vous pouvez voir les extensions actuellement installées, et vous pouvez ouvrir la page **Marché des extensions** qui affiche les extensions [!INCLUDE[d365fin](includes/d365fin_md.md)] actuellement disponibles dans AppSource. Si vous optez pour le lien *Plus d'applications*, vous êtes dirigé vers le site [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).  
+Vous pouvez également accéder au marché à partir de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dans la fenêtre **Gestion des extensions**, vous pouvez voir les extensions actuellement installées, et vous pouvez ouvrir la fenêtre **Marché des extensions** qui affiche les extensions [!INCLUDE[d365fin](includes/d365fin_md.md)] actuellement disponibles dans AppSource. Si vous optez pour le lien *Plus d'applications*, vous êtes dirigé vers le site [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).  
 
 Si vous choisissez une extension, vous pouvez consulter une documentation relative à ses fonctionnalités, et accéder au service d'aide de l'extension pour en savoir plus. Lorsque vous choisissez d'obtenir une extension, vous devez être d'accord avec les conditions d'utilisation. Si vous obtenez l'extension à partir du site Web AppSource, vous serez connecté à [!INCLUDE[d365fin](includes/d365fin_md.md)] pour terminer l'installation.  
 
@@ -64,6 +64,7 @@ Microsoft fournit les extensions suivantes :
 * [Paiements et rapprochements (DK)](ui-extensions-payments-reconciliation-formats-dk.md)  
 * [C5 Data Migration](ui-extensions-c5-data-migration.md)  
 * [Informations commerciales essentielles](ui-extensions-essential-business-insights.md)  
+* [Prévisions de retard de paiement](ui-extensions-late-payment-prediction.md  )
 
 > [!NOTE]  
 >  Les nouvelles extensions ne sont pas disponibles dans AppSource juste après l'annonce d'une mise à jour. Vous pouvez vous tenir informé sur les extensions sur le site [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).

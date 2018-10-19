@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, KPI, work in process, work in progress
-ms.date: 07/04/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 95a14b122c5e6b878ec8d7f8314c81de957853b7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 065f6cc5dc11af1a9cddf2b3eed2b20e99912960
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="monitor-job-progress-and-performance"></a>Surveiller la progression et les performances
@@ -38,23 +38,23 @@ Vous pouvez créer une méthode TEC projet qui reflète les besoins de votre org
 > [!NOTE]
 > Après avoir utilisé la nouvelle méthode pour créer des écritures TEC, vous ne pouvez pas supprimer la méthode ou la modifier.  
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Méthodes TEC projet**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Méthodes TEC projet**, puis choisissez le lien associé.  
 2. Cliquez sur **Nouveau**, puis renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Fermez la fenêtre.   
-4. Pour faire de cette nouvelle méthode la valeur par défaut, sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Paramètres projets**, puis sélectionnez le lien connexe.  
+4. Pour faire de cette nouvelle méthode la valeur par défaut, choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres projets**, puis sélectionnez le lien associé.  
 5. Dans le champ **Méthode TEC par défaut**, choisissez la méthode de la liste.
 
 ## <a name="to-define-a-wip-method-for-a-job"></a>Pour définir une méthode TEC pour un projet
 Lorsque vous créez un projet, vous devez spécifier la méthode TEC projet qui s'applique. Dans certains cas, quelle méthode TEC projet utilisable a été paramétrée pour vous par défaut.
 
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Projets**, puis choisissez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Projets**, puis sélectionnez le lien associé.
 2. Sélectionnez l'action **Nouveau**. Pour plus d'informations, voir [Créer des projets](projects-how-create-jobs.md).  
 3. Dans la fenêtre **Fiche projet**, dans le champ **Méthode TEC**, sélectionnez une méthode TEC dans la liste. Si une méthode par défaut a été définie, vous pouvez sélectionner une autre option si nécessaire.  
 
 ## <a name="to-calculate-wip"></a>Pour calculer les TEC :
 Vous pouvez déterminer le montant TEC devant être validé dans les comptes de bilan pour la génération d'états de clôture d'exercice. Pour ce faire, utilisez le traitement par lots **Projet Calculer TEC**.  
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Méthodes TEC projet**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Projet Calculer TEC**, puis choisissez le lien associé.  
 2. Cliquez sur **Calculer TEC**.
 3. Dans la fenêtre **Projet Calculer TEC**, renseignez les champs comme nécessaire.
 4. Cliquez sur le bouton **OK**.  
@@ -65,7 +65,7 @@ Vous pouvez déterminer le montant TEC devant être validé dans les comptes de 
 ## <a name="to-post-wip"></a>Pour valider les TEC
 Quand vous avez calculé les TEC, vous pouvez les valider pour équilibrer les comptes bilan pour le reporting de fin de période. Pour ce faire, utilisez le traitement par lots **Projet Valider TEC en comptabilité**.
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Méthodes TEC projet**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône de ![l'ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Projet Valider TEC en comptabilité**, puis sélectionnez le lien associé.  
 2. Dans la fenêtre **Projet Valider TEC en comptabilité**, renseignez les champs selon vos besoins.  
 3. Cliquez sur le bouton **OK**.
 
@@ -77,7 +77,7 @@ Cela vous permet de suivre vos estimations initiales, de les comparer aux résul
 > [!NOTE]  
 >   Les écritures article créent des écritures comptables article et diminuent les articles en stock. Le traitement par lots **Valider coûts ajustés** permet de transférer le coût du stock à la comptabilité. Les écritures ressource créent des écritures comptables ressource.  
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuilles projet**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles activité projet**, puis sélectionnez le lien associé.  
 2. Sélectionnez une feuille projet appropriée, puis cliquez sur l'action **Calc. activité restante**.  
 3. Dans la fenêtre **Projet Calc. activité restante**, entrez le numéro et la date de comptabilisation du document devant être insérés dans la feuille, puis sélectionnez le bouton **OK**.  
 4. Mettez à jour la feuille avec toutes les modifications qui peuvent être nécessaires.  
@@ -86,7 +86,7 @@ Cela vous permet de suivre vos estimations initiales, de les comparer aux résul
 ## <a name="to-view-job-ledger-entries"></a>Pour visualiser des écritures comptables projet
 Toutes les écritures liées à des projets sont enregistrées dans des historiques des transactions projet et sont numérotées de manière séquentielle à partir de 1. L'historique des transactions projet permet d'obtenir un aperçu de toutes les écritures comptables projet.    
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuilles projet**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Hist. transactions projet**, puis sélectionnez le lien associé.
 2. Sélectionnez un historique approprié, puis cliquez sur **Écritures projet**
 
 Dans la fenêtre **Écritures comptables projet** vous pouvez passer en revue les écritures associées à un projet.  

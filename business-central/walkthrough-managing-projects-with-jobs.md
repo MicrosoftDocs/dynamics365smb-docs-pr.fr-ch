@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d84006db69beee153aeecdd38ecfcae197c1ad9f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 11c1f56847102ed5f1b323a54bdcfb263c0fdda9
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Procédure pas à pas : gestion des projets
@@ -76,7 +76,7 @@ Ce procédure pas à pas se concentre sur la société CRONUS International Ltd.
 
 ### <a name="to-prepare-the-sample-data"></a>Pour préparer les exemples de données  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Ressources**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Ressources**, puis sélectionnez le lien associé.  
 2.  Choisissez l'action **Nouveau** pour créer une fiche ressource.  
 3.  Sous le raccourci **Général**, entrez les informations suivantes :  
 
@@ -99,7 +99,7 @@ Ce procédure pas à pas se concentre sur la société CRONUS International Ltd.
 
 ### <a name="to-create-a-job-journal-batch"></a>Pour créer un nom feuille projet  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuilles projet**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles activité projet**, puis sélectionnez le lien associé.  
 2.  Dans la fenêtre **Feuille projet**, choisissez le champ **Nom de la feuille**. La fenêtre **Noms feuilles projet** s’ouvre.  
 3.  Choisissez l'action **Nouveau** pour créer une ligne avec les informations suivantes :  
 
@@ -114,7 +114,7 @@ Ce procédure pas à pas se concentre sur la société CRONUS International Ltd.
 
 ### <a name="to-set-up-a-job"></a>Pour configurer un projet  
 
-1.  Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Projets**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Projets**, puis sélectionnez le lien associé.  
 2.  Choisissez l'action **Nouveau** pour créer une fiche.  
 3.  Sous le raccourci **Général**, entrez les informations suivantes :  
 
@@ -235,7 +235,7 @@ Ce procédure pas à pas se concentre sur la société CRONUS International Ltd.
 
 ### <a name="to-calculate-remaining-usage"></a>Pour calculer l'activité restante  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuilles projet**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles activité projet**, puis sélectionnez le lien associé.  
 2.  Dans le champ **Nom feuille** de la fenêtre **Feuille projet**, ouvrez la liste **Noms feuilles projet**. Sélectionnez le nom de la feuille projet **Tricia**.  
 3.  Choisissez l'action **Calc. activité restante**.  
 4.  Dans la fenêtre **Projet Calc. activité restante**, sous le raccourci **Tâche projet**, dans le champ **N° projet**, sélectionnez le numéro de projet concerné (en général, J00010).  
@@ -251,7 +251,7 @@ Ce procédure pas à pas se concentre sur la société CRONUS International Ltd.
 
 ### <a name="to-create-a-job-sales-invoice"></a>Pour créer une facture vente projet  
 
-1.  Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Projets**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Projets**, puis sélectionnez le lien associé.  
 2.  Sélectionnez le projet que vous avez créé précédemment, puis choisissez l'action **Créer une facture vente projet**.  
 3.  Sous le raccourci **Tâche projet**, désactivez tout filtre associé à **N° tâche projet** pour facturer le projet. Sélectionnez le projet concerné dans le champ **N° de projet**.  
 4.  Sur le raccourci **Options**, renseignez la date de validation et indiquez si vous souhaitez créer une facture par tâche ou une seule facture pour l'ensemble des tâches.  
@@ -261,7 +261,7 @@ Ce procédure pas à pas se concentre sur la société CRONUS International Ltd.
 
 ### <a name="to-post-a-new-sales-invoice"></a>Pour valider une nouvelle facture vente  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Factures vente**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Factures vente**, puis sélectionnez le lien associé.  
 2.  Ouvrez la facture pour le client N°  01445544. Vous pouvez voir les informations entrées à partir des lignes planning.  
 3.  Sélectionnez l'action **Valider**. Cliquez sur **Oui** pour confirmer la validation.  
 
@@ -275,7 +275,7 @@ Ce procédure pas à pas se concentre sur la société CRONUS International Ltd.
 
 ### <a name="to-open-the-statistics-window"></a>Pour ouvrir la fenêtre Statistiques  
 
-1.  Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Projets**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Projets**, puis sélectionnez le lien associé.  
 2.  Sélectionnez l'action **Statistiques**. Vous pouvez consulter des informations détaillées sur les prix, les coûts et les profits d'un projet dans la devise locale et dans une devise étrangère.  
 3.  Cliquez sur le bouton **Fermer** pour fermer la fenêtre **Statistiques projet**.  
 
@@ -284,7 +284,7 @@ Ce procédure pas à pas se concentre sur la société CRONUS International Ltd.
 
 ### <a name="to-manage-fixed-pricing-in-jobs"></a>Pour gérer un prix fixe dans des projets  
 
-1.  Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Projets**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Projets**, puis sélectionnez le lien associé.  
 2.  Sélectionnez le numéro de projet **Guildford**, puis choisissez l'action **Lignes tâche projet**.  
 3.  Sélectionnez la ligne 1120, puis, dans le champ **Planifié (coût total)**, cliquez avec le bouton droit sur le montant et sélectionnez **Détail**.  
 
@@ -306,7 +306,7 @@ Ce procédure pas à pas se concentre sur la société CRONUS International Ltd.
 
 ### <a name="to-enter-hours-in-the-job-journal"></a>Pour entrer des heures dans la Feuille projet  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuilles projet**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles activité projet**, puis sélectionnez le lien associé.  
 2.  Dans une nouvelle ligne, entrez les informations suivantes :  
 
     -   **Type ligne** : **(vide)**  
@@ -353,7 +353,7 @@ Ce procédure pas à pas se concentre sur la société CRONUS International Ltd.
 
      Les modifications sont automatiquement entrées dans la ligne de la tâche projet n° 1120. Dans le coût total du travail planifié, les cinq heures de travail supplémentaires effectuées par Tricia ont été ajoutées au planning.  
 
-12. Choisissez le bouton **Fermer** pour fermer la fenêtre.  
+12. Cliquez sur le bouton **Fermer** pour fermer la fenêtre.  
 13. Cliquez avec le bouton droit sur le montant indiqué dans le champ **Contrat (coût total)**, puis sélectionnez **Détail** pour afficher les informations.  
 
      Dans le prix total du contrat, seules les 30 heures contractuelles d'origine sont incluses car c'est ce qui a été convenu avec le client.  
@@ -365,7 +365,7 @@ Ce procédure pas à pas se concentre sur la société CRONUS International Ltd.
 
 ### <a name="to-copy-a-job"></a>Pour copier un projet  
 
-1.  Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Projets**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Projets**, puis sélectionnez le lien associé.  
 2.  Choisissez l'action **Nouveau** pour créer un projet. Entrez les informations suivantes :  
 
     -   **Description** : **Installation de 10 salles de conférence**  
@@ -390,7 +390,7 @@ Ce procédure pas à pas se concentre sur la société CRONUS International Ltd.
 
 ### <a name="to-set-up-a-new-account"></a>Pour configurer un nouveau compte  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Plan comptable**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Plan comptable**, puis sélectionnez le lien associé.  
 2.  Dans la fenêtre **Plan comptable**, choisissez l'action **Nouveau** pour créer une fiche.  
 3.  Dans la fiche **Nouveau compte général**, entrez les informations suivantes :  
 

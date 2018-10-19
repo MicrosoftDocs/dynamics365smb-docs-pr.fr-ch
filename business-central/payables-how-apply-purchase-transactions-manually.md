@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment application, payment processing, match payments
-ms.date: 06/15/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f6b0ab4131f26a91953b28991276d3a19a8918ad
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f7e67357a0ba5e4a57a98d74831b2b3a392cff7d
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="reconcile-vendor-payments-manually"></a>Rapprocher les paiements fournisseur manuellement
@@ -39,7 +39,7 @@ Vous pouvez lettrer les paiements fournisseur manuellement à leurs documents ac
 Vous pouvez également lettrer des paiements fournisseur et des paiements client après que les paiements apparaissent en tant que des transactions bancaires négatives au niveau de votre banque. Dans la fenêtre **Feuille rapprochement bancaire**, vous pouvez utiliser les fonctions pour l'importation de relevés bancaires, le lettrage automatique, et le rapprochement bancaire. Pour plus d'informations, voir [Rapprocher les paiements à l'aide du lettrage automatique](receivables-how-reconcile-payments-auto-application.md).
 
 ## <a name="to-apply-a-payment-to-a-single-or-multiple-vendor-ledger-entries"></a>Pour lettrer un paiement à une seule ou à plusieurs écritures comptable fournisseur
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille paiement**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille paiement**, puis sélectionnez le lien associé.
 2. Dans la fenêtre **Feuille paiement**, dans la première ligne feuille, saisissez les informations appropriées sur l'écriture règlement.
 3. Pour lettrer une seule écriture comptable fournisseur :
    1. Dans le champ **N° doc. lettrage**, sélectionnez le champ permettant d'ouvrir la fenêtre **Lettrer écritures fournisseur**.
@@ -57,7 +57,7 @@ Vous pouvez également lettrer des paiements fournisseur et des paiements client
 6. Sélectionnez l'action **Valider** pour valider la feuille paiement.
 
 ## <a name="to-apply-a-credit-memo-to-a-single-or-multiple-vendor-ledger-entries"></a>Pour lettrer un avoir à une seule ou à plusieurs écritures comptables fournisseur
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille paiement**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Avoir achat**, puis sélectionnez le lien associé.
 2. Ouvrez l'avoir à lettrer.
 3. Entrez les informations nécessaires dans l'en-tête.
 4. Pour lettrer une seule écriture comptable fournisseur, dans le raccourci **Lettrage**, dans le champ **N° doc. lettrage**, sélectionnez l'écriture sur laquelle lettrer le crédit puis, dans le champ **Montant à lettrer**, entrez le montant à lettrer sur l'écriture.
@@ -74,7 +74,7 @@ Vous pouvez également lettrer des paiements fournisseur et des paiements client
 7. Cliquez sur le bouton **Valider** pour valider l'avoir achat.
 
 ## <a name="to-apply-posted-vendor-ledger-entries"></a>Pour lettrer des écritures comptables fournisseur validées
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Comptes bancaires**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Fournisseurs**, puis sélectionnez le lien associé.
 2. Ouvrez le fournisseur approprié possédant des écritures déjà validées.
 3. Sélectionnez l'action **Écritures comptables**, puis sélectionnez l'action **Lettrer écritures**.
 4. Dans la fenêtre **Lettrer écritures fournisseur**, les écritures ouvertes de ce fournisseur s'affichent.
@@ -95,7 +95,7 @@ Si vous achetez des produits auprès d'un fournisseur dans une devise et que vou
 
 Si vous lettrez une écriture (Écriture 1) dans une devise avec une autre écriture (Écriture 2) dont la devise est différente, la date de comptabilisation de l'Écriture 1 est utilisée pour trouver le taux de change adéquat et convertir les montants de l'Écriture 2. Le taux de change approprié se trouve dans la fenêtre **Taux de change devise**. Dans ce cas, vous devez activer le lettrage d'écritures comptables fournisseur en devises différentes. Pour plus d'informations, voir [Activer le lettrage d'écritures comptables client en devises différentes](finance-how-enable-application-ledger-entries-different-currencies.md)
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille paiement**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille paiement**, puis sélectionnez le lien associé.
 2. Ouvrez la feuille que vous souhaitez, puis renseignez la première ligne vide de la feuille à l'aide d'un code devise.
 3. Sélectionnez l'action **Lettrer écritures**.
 4. Sélectionnez la ligne comportant l'écriture à lettrer avec l'écriture de la feuille paiement. Sélectionnez ensuite l'action **Lettrer**, puis sélectionnez l'écriture sur laquelle le lettrage doit être effectué.
@@ -108,7 +108,7 @@ Si vous lettrez une écriture (Écriture 1) dans une devise avec une autre écr
 ## <a name="to-unapply-an-application-of-vendor-entries"></a>Pour délettrer un lettrage des écritures fournisseur
 Lorsque vous délettrez un lettrage erroné, des écritures de correction (écritures identiques à l'écriture originale mais avec le signe opposé dans le champ du montant) sont créées et validées pour toutes les écritures comportant des validations comptables issues du lettrage, comme les escomptes et les pertes et gains en devise. Les écritures qui sont fermées par l'application sont rouvertes.
 
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Comptes bancaires**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Fournisseurs**, puis sélectionnez le lien associé.
 2. Ouvrez la fiche fournisseur appropriée.
 3. Sélectionnez l'action **Écritures comptables**.
 4. Sélectionnez l'écriture comptable appropriée, puis sélectionnez l'action **Délettrer les écritures**.

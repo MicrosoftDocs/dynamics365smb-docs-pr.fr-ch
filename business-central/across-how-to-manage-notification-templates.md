@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d6c7637527c9a93024ee62dbdd32ba63d665661d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 31a6cd72e7e7c3fda27803a995b7282c8a2c3751
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="manage-notification-templates"></a>Gérer les modèles de notification
@@ -27,7 +27,7 @@ Des notifications sont envoyées aux utilisateurs du workflow pour les informer 
  La version générique de [!INCLUDE[d365fin](includes/d365fin_md.md)] contient trois modèles de notification : une pour les demandes d'approbation ; une pour les nouveaux enregistrements ; et une pour les demandes d'approbation échues. Les trois modèles de notification prédéfinis prennent en charge l'**e-mail** et la **note** comme méthode de notification. Pour afficher le contenu des trois modèles de notification, consultez la section « Contenu des modèles de notification » dans cette rubrique.
 
 ## <a name="to-create-a-new-notification-template"></a>Créer un modèle de notification  
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Modèles de notification**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Modèles de notification**, puis sélectionnez le lien associé.  
 2.  Dans la fenêtre **Modèles de notification**, cliquez sur l'action **Nouveau**.  
 3.  Renseignez les champs comme indiqué dans le tableau suivant.  
 
@@ -40,7 +40,7 @@ Des notifications sont envoyées aux utilisateurs du workflow pour les informer 
     |**Par défaut**|Spécifiez si le modèle de notification sera utilisé par défaut.|  
 
 ## <a name="to-modify-a-notification-template"></a>Modifier un modèle de notification  
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Modèles de notification**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Modèles de notification**, puis sélectionnez le lien associé.  
 2.  Dans la fenêtre **Modèles de notification**, sélectionnez le modèle de notification que vous souhaitez modifier.  
 3.  Choisissez l'action **Exporter le contenu d'un modèle**.  
 4.  Dans la fenêtre **Exporter fichier**, choisissez le bouton **Enregistrer**, puis nommez et enregistrez le fichier HTML à l'emplacement approprié.  

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/04/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0fd098170ac96b03f6f1da64b8de23b3f500c565
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0b274e23b03c06c395df6b91033174425cda679b
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-routings"></a>Créer des gammes
@@ -32,7 +32,7 @@ Pour pouvoir configurer une gamme, les éléments suivants doivent être en plac
 - Les ressources de production sont configurées. Pour plus d'informations, voir [Configurer les centres de charge et les postes de charge](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-routing"></a>Pour créer une gamme  
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Gammes**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Gammes**, puis sélectionnez le lien associé.  
 2.  Sélectionnez l'action **Nouveau**.  
 3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Dans le champ **Type**, sélectionnez **Série** pour calculer la gamme de fabrication en fonction de la valeur de **N° opération** . .   
@@ -63,7 +63,7 @@ Vous pouvez créer des liens gamme pour lier des composants à des opérations s
 
 Les composants et opérations liés apparaissent dans une structure opératoire logique lorsque vous utilisez la fenêtre **Feuille production** pour la validation production et consommation, ce qui constitue un autre avantage majeur.  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Gammes**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Gammes**, puis sélectionnez le lien associé.  
 2.  Ouvrez la gamme contenant les opérations que vous voulez lier.  
 
     Vérifiez que le statut de la gamme est **Modification en cours**.  
@@ -94,7 +94,7 @@ Les composants sélectionnés seront liés aux opérations sélectionnées lorsq
 ## <a name="to-assign-personnel-tools-and-quality-measures-to-routing-operations"></a>Pour affecter des qualifications, des outils et des contrôles qualité à des opérations gamme.
 Si vous avez besoin de personnes ayant des qualifications, un savoir-faire particulier, ou bénéficiant d'une autorisation spéciale pour une opération, vous pouvez affecter ces personnes à l'opération. En outre, vous pouvez affecter des outils et des exigences de qualité à l'opération. Cette procédure décrit l'affectation de qualifications. Les étapes sont similaires pour d'autres types d'informations sur l'opération.
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Gammes**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Gammes**, puis sélectionnez le lien associé.  
 2.  Ouvrez la gamme appropriée.  
 3.  Sur le raccourci **Lignes**, sélectionnez la ligne à traiter, puis choisissez l'action **Qualifications**.  
 4.  Renseignez les champs de la fenêtre **Qualifications gamme**.  
@@ -103,7 +103,7 @@ Si vous avez besoin de personnes ayant des qualifications, un savoir-faire parti
 ## <a name="to-create-a-new-versions-of-a-routing"></a>Pour créer une nouvelle version d'une gamme  
 Le principe de la version permet de gérer différentes versions d'une gamme. La structure d'une version de gamme correspond à la structure de la gamme composée d'un en-tête et de lignes version de gamme. La différence de base est définie par la date début.  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Gammes**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Gammes**, puis sélectionnez le lien associé.  
 2.  Sélectionnez la gamme à copier, puis choisissez l'action **Versions**.  
 3. Dans la fenêtre **Versions de gamme**, sélectionnez l'action **Nouveau**.
 4. Renseignez les champs selon vos besoins.

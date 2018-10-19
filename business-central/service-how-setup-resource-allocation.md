@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: resource, skill, service, zones
-ms.date: 08/22/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6dc4a059cb3bca46910a4a4be43a5940a5652c8f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 7ce128aa32d650cf756117ab46987167d9a3781a
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -30,29 +30,29 @@ Pour utiliser l'affectation des ressources, vous devez définir :
 * Si les compétences ressource et les zones doivent être affichées, et si un avertissement doit être affiché si une ressource non qualifiée ou une ressource qui ne figure pas dans la zone du client est sélectionnée.  
 
 ## <a name="to-set-up-skills"></a>Pour configurer des compétences
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Compétences**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Compétences**, puis sélectionnez le lien associé.  
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-assign-skills-to-service-items-and-resources"></a>Pour affecter des compétences aux articles de service et aux ressources
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Articles de service** ou **Ressources**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles de service** ou **Ressources**, puis sélectionnez le lien associé.  
 2. Ouvrez la fiche de l'article de service ou de la ressource, puis sélectionnez l'une des options suivantes :  
   
     * Pour les articles de service, sélectionnez **Compétences ressource**.  
     * Pour les ressources, sélectionnez **Compétences**.  
 
 ## <a name="to-set-up-zones"></a>Pour configurer des zones
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Zones**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Zones**, puis sélectionnez le lien associé.  
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-assign-zones-to-customers-and-resources"></a>Pour affecter des zones aux clients et aux ressources 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Clients** ou **Ressources**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Clients** ou **Ressources**, puis sélectionnez le lien associé.  
 2. Ouvrez la fiche de l'article de service ou de la ressource, puis sélectionnez l'une des options suivantes :  
   
     * Pour les clients, sélectionnez une zone dans le champ **Code zone service**.  
     * Pour les ressources, sélectionnez l'action **Zones service**.  
 
 ## <a name="to-specify-what-to-show-when-a-resource-is-chosen"></a>Pour spécifier les éléments à afficher lorsqu'une ressource est sélectionnée
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Paramètres services**, puis sélectionnez le lien connexe. 
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres service**, puis sélectionnez le lien associé. 
 2. Dans le champ **Compétences ressources**, sélectionnez l'une des options décrites dans le tableau suivant.  
   
     |**Options**|**Description**|  
@@ -64,14 +64,14 @@ Pour utiliser l'affectation des ressources, vous devez définir :
 ## <a name="to-update-resource-capacity"></a>Pour mettre à jour la capacité ressource  
 Vous devrez peut-être modifier la capacité des ressources.  
   
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Capacité ressource**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Capacité ressource**, puis sélectionnez le lien associé.  
 2. Sélectionnez la ressource, puis l'action **Paramétrage capacité ressource**.  
 3. Apportez les modifications, puis sélectionnez **Mettre à jour la capacité**.  
 
 ## <a name="to-update-skills-for-items-service-items-or-service-item-groups"></a>Pour mettre à jour les compétences pour des articles, des articles de service ou des groupes d'articles de service
 Vous pouvez modifier les codes compétence affectés à des articles, par exemple de **PC** à **PCS**, pour un article, un article de service ou pour tous les articles d'un groupe articles de service.  
   
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Articles**, **Articles de service** ou **Gpe articles de service**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles**, **Article de service** ou **Groupe articles de service**, puis sélectionnez le lien associé.  
 2. Sélectionnez l'entité à mettre à jour, puis sélectionnez l'action **Compétences ressource**.  
 3. Sur la ligne contenant le code à modifier, dans le champ **Code compétence**, sélectionnez le code compétence.  
 4.  Si des articles de service sont associés à l'article, une boîte de dialogue incluant les deux options suivantes s'ouvre :  

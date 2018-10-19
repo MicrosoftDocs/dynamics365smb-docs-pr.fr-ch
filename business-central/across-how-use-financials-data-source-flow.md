@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: workflow, Odata, Power App, SOAP
-ms.date: 05/09/2018
+ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
-ms.openlocfilehash: b8c9f05335c76884ba0d61451b0730d64bd1bfce
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f7ae293942318c682202a84f0a54ae8b0516c77b
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/30/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="using-included365finincludesd365finmdmd-in-an-automated-workflow"></a>Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] dans un flux automatisé
@@ -70,7 +70,7 @@ Pour résoudre les problèmes avec Microsoft Flow, voir [Résolution des problè
 [Mise en route](product-get-started.md)  
 [Flux de travail](across-workflow.md)  
 [Importation des données métier à partir d'autres systèmes financiers](across-import-data-configuration-packages.md)  
-[Gérer les utilisateurs et les autorisations](ui-how-users-permissions.md)   
+[Gestion des utilisateurs et des autorisations](ui-how-users-permissions.md)   
 [Gérer les flux de travail [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](across-use-workflows.md)  
 [Paramètres utilisateur approbation](across-how-to-set-up-approval-users.md)  
 [Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  

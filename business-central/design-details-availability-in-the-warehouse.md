@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 698404dab1b3888d073eb3c23268d3b009a4f577
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 90d25c9c5c5687109387c548a273f4457691e151
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Détails de conception : disponibilité dans l'entrepôt
@@ -44,7 +44,7 @@ Le système doit conserver un contrôle constant de la disponibilité des articl
 
  Le schéma suivant montre les différents éléments du calcul.  
 
- ![Disponible à prélever, avec le chevauchement Réserver](media/design_details_warehouse_management_availability_2.png "design_details_warehouse_management_availability_2")  
+ ![Disponible pour prélever avec chevauchement de réservation](media/design_details_warehouse_management_availability_2.png "Disponible pour prélever avec chevauchement de réservation")  
 
 ## <a name="quantity-available-to-reserve"></a>Quantité disponible à réserver  
  Dans la mesure où les concepts de la valeur et de la réservation d'emplacement coexistent, le nombre d'articles disponibles pour réserver doit être aligné avec les affectations aux documents de désenlogement.  
@@ -69,7 +69,7 @@ Le système doit conserver un contrôle constant de la disponibilité des articl
 
  Le schéma suivant montre les différents éléments du calcul.  
 
- ![Disponible pour réserver, par affectations entrepôt](media/design_details_warehouse_management_availability_3.png "design_details_warehouse_management_availability_3")  
+ ![Disponible pour réserver par ventilation entrepôt](media/design_details_warehouse_management_availability_3.png "Disponible pour réserver par ventilation entrepôt")  
 
 ## <a name="see-also"></a>Voir aussi  
  [Détails de conception : gestion d'entrepôt](design-details-warehouse-management.md)

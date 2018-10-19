@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/07/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a1333567069d24bc5eff48d668dca8b480b85914
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0282f0ae3ca2b11ff8cd01adf69054d8c805e7ae
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="gather-customer-setup-values"></a>Collecter les valeurs de configuration client
@@ -47,9 +47,9 @@ Vous pouvez utiliser un questionnaire pour vous aider à déterminer la portée 
 -   Paramètres entrepôt  
 
 > [!NOTE]  
->  Pour afficher la liste complète des tables de configuration, choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Paramètres**, puis sélectionnez le lien connexe. Pour déterminer la portée de la migration des données d'enregistrements, utilisez la fonctionnalité de migration. Pour plus d'informations, voir [Migration des données client](admin-migrate-customer-data.md).  
+>  Pour visualiser la liste complète des tables de configuration, choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres**, puis sélectionnez le lien associé. Pour déterminer la portée de la migration des données d'enregistrements, utilisez la fonctionnalité de migration. Pour plus d'informations, voir [Migration des données client](admin-migrate-customer-data.md).  
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Questionnaire configuration**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Questionnaire configuration**, puis sélectionnez le lien associé.  
 2. Sélectionnez l'action **Nouveau**. La fenêtre **Questionnaire config.** s'ouvre.  
 3. Sélectionnez l'action **Zones question**. La fenêtre **Zones question** s'ouvre.  
 4. Sélectionnez l'action **Nouveau**. La fenêtre **Zones question config.** s'ouvre.  
@@ -72,7 +72,7 @@ Utilisez le questionnaire de configuration pour structurer et documenter une dis
 >  Vous pouvez également créer votre propre de questionnaire de configuration afin qu'il corresponde à vos besoins.  
 
 1. Ouvrez la société pour laquelle vous souhaitez remplir le questionnaire.
-2. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Questionnaire de configuration**, puis sélectionnez le lien connexe.  
+2. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Questionnaire configuration**, puis sélectionnez le lien associé.  
 3. Sélectionnez le questionnaire pour la société, puis choisissez l'action **Exporter vers Excel**, ou éventuellement l'action **Exporter vers un fichier XML**.
 4. Demandez au client de remplir le questionnaire de configuration en saisissant les réponses dans le classeur Excel. Il existe des feuilles pour chacune des zones question qui ont été créées pour le questionnaire.   
 5. Sélectionnez l'action **Importer d'Excel**, puis sélectionnez le fichier .xlsx avec les réponses du client.  
@@ -105,7 +105,7 @@ Une fois la validation terminée, les données peuvent être appliquées à la b
 ## <a name="to-apply-answers-from-the-configuration-questionnaire"></a>Pour appliquer des réponses à partir du questionnaire de configuration
 Après avoir importé et validé les informations à partir d'un questionnaire de configuration, vous pouvez transférer ou appliquer les données de configuration dans les tables correspondantes de la base de données [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Questionnaire de configuration**, puis sélectionnez le lien connexe. La fenêtre **Questionnaire config.** s'ouvre.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Questionnaire configuration**, puis sélectionnez le lien associé. La fenêtre **Questionnaire config.** s'ouvre.  
 2. Sélectionnez un questionnaire de configuration dans la liste, puis sélectionnez l'action **Modifier la liste**.  
 3. Vous pouvez appliquer les réponses de deux manières différentes.  
 
@@ -113,7 +113,7 @@ Après avoir importé et validé les informations à partir d'un questionnaire d
 - Pour appliquer les réponses d'une **Zone question** spécifique, sélectionnez l'action **Zones question**, sélectionnez une **Zone question** dans la liste, puis sélectionnez l'action **Appliquer réponses**.  
 
 ### <a name="to-verify-that-answers-have-been-applied-successfully"></a>Pour vérifier que les réponses ont été correctement appliquées  
-1. Vérifiez les fenêtres de paramétrage des différents modules de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour localiser la fenêtre, choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez le nom de la fenêtre de configuration, puis sélectionnez le lien connexe.  
+1. Vérifiez les fenêtres de paramétrage des différents modules de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour rechercher la fenêtre, choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez le nom de la fenêtre de configuration, puis sélectionnez le lien associé.  
 2. Vérifiez que les champs ont été renseignés à l'aide des données appropriées à partir des diverses zones de questions du questionnaire de configuration.  
 
 Vous avez maintenant effectué le paramétrage à l'aide des informations commerciales et des règles du client.

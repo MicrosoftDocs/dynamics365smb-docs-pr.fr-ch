@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/18/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6f30a7c08db374b7f5571b8e48d4b91a2bb7ddc2
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 80112e892c72283254d3894e6ce4102cc9350e0b
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-bank-data-conversion-service"></a>Mappage de champs lors de l'exportation de fichiers de paiement à l'aide du service conversion données bancaires
 Lorsque vous exportez des fichiers de paiement à l'aide de la fonction Service conversion données bancaires, les données que vous exportées sont exposées au fournisseur du service conversion données bancaires. Le fournisseur de service est responsable de la confidentialité de ces données. Pour plus d'informations sur la manière dont fonctionne la fonction Service conversion données bancaires, reportez\-vous à [À propos de l'infrastructure d'échange de données](across-about-the-data-exchange-framework.md).  
 
 > [!CAUTION]  
->  Lorsque vous exportez des fichiers de paiement à l'aide de la fonction Service conversion données bancaires, certaines de vos données commerciales seront exposées au fournisseur de service. Le fournisseur de service, AMC Consult A/S, est responsable de la confidentialité de ces données. Pour plus d'informations, reportez\-vous à [Politique de confidentialité AMC](http://go.microsoft.com/fwlink/?LinkId=510158).  
+>  Lorsque vous exportez des fichiers de paiement à l'aide de la fonction Service conversion données bancaires, certaines de vos données commerciales seront exposées au fournisseur de service. Le fournisseur de service, AMC Consult A/S, est responsable de la confidentialité de ces données. Pour plus d'informations, reportez\-vous à [Politique de confidentialité AMC](https://go.microsoft.com/fwlink/?LinkId=510158).  
 
 Le tableau suivant répertorie les champs de [!INCLUDE[d365fin](includes/d365fin_md.md)] à partir desquels les données peuvent être exportées au fournisseur de service.  
 

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 07/03/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 021eac95fe22cfb37a6eaf851a5da11fd3ce9d30
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ea247c762749c108ede8679bb622f71d2dd67f51
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="record-special-purchase-prices-and-discounts"></a>Enregistrer les prix d'achat spéciaux et les remises
@@ -34,7 +34,7 @@ En ce qui concerne les remises, vous pouvez définir et utiliser deux types de r
 Dans la mesure où les remises ligne achat et les prix achat sont basés sur une combinaison article/fournisseur, vous pouvez également effectuer cette configuration à partir de la fiche article dans laquelle sont définies les règles et valeurs. Pour plus d'informations, reportez vous à [Enregistrer de nouveaux articles](inventory-how-register-new-items.md).
 
 ## <a name="to-set-up-a-special-purchase-price-for-a-vendor"></a>Pour configurer un prix d'achat spécial pour un fournisseur
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Comptes bancaires**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Fournisseurs**, puis sélectionnez le lien associé.
 2. Ouvrez la fiche fournisseur appropriée, puis sélectionnez l'action **Prix**.
 
     Le champ **Type d'achat** est prérempli avec **Fournisseur** et le champ **Code achat** est prérempli avec le numéro du fournisseur.
@@ -42,7 +42,7 @@ Dans la mesure où les remises ligne achat et les prix achat sont basés sur une
 4. Remplissez une ligne pour chaque combinaison pour laquelle le fournisseur vous accorde une remise ligne achat.
 
 ## <a name="to-set-up-a-line-discount-for-a-vendor"></a>Pour configurer une remise ligne pour un fournisseur
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Comptes bancaires**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Fournisseurs**, puis sélectionnez le lien associé.
 2. Ouvrez la fiche fournisseur appropriée, puis sélectionnez l'action **Remises ligne**.
 
     Le champ **Type d'achat** est prérempli avec **Fournisseur** et le champ **Code achat** est prérempli avec le numéro du fournisseur.
@@ -52,7 +52,7 @@ Dans la mesure où les remises ligne achat et les prix achat sont basés sur une
 ## <a name="to-set-up-an-invoice-discount-for-a-vendor"></a>Pour configurer une remise facture pour un fournisseur
 Une fois que vos fournisseurs vous ont informé des remises facture qu'ils accordent, entrez le code remise facture sur la fiche fournisseur et configurez les conditions pour chaque code.
 
-1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Comptes bancaires**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Fournisseurs**, puis sélectionnez le lien associé.
 2. Ouvrez la fiche fournisseur d'un fournisseur pouvant faire l'objet de remises facture.
 3. Dans le champ **Code remise facture**, sélectionnez un code pour les conditions de remise facture appropriées à utiliser pour calculer les remises facture pour le fournisseur.
 
@@ -61,7 +61,7 @@ Une fois que vos fournisseurs vous ont informé des remises facture qu'ils accor
 
     Configurez de nouvelles conditions de remise facture pour les achats.
 4. Dans la fenêtre **Fiche fournisseur**, sélectionnez l'action **Remises facture**. La fenêtre **Remises facture fournisseur** s'ouvre.
-5. Dans le champ **Code devise**, indiquez le code d'une devise à laquelle s'appliquent les conditions de remise facture. Laissez le champ vierge si vous souhaitez configurer des conditions de remise facture en devise société.
+5. Dans le champ **Code devise**, indiquez le code d'une devise à laquelle s'appliquent les conditions de remise facture. Laissez le champ vierge si vous souhaitez configurer des conditions de remise facture en EUR.
 6. Dans le champ **Montant minimum**, entrez le montant minimal qu'une facture doit présenter pour faire l'objet de la remise.
 7. Dans le champ **% remise**, entrez la remise facture sous la forme d'un pourcentage du montant de la facture.
 8. Répétez les étapes 5 à 7 pour chaque devise pour laquelle le fournisseur recevra une remise facture différente.
@@ -73,7 +73,7 @@ Lorsque vous validez une facture achat qui comprend une ou plusieurs remises, vo
 
 Avant cela, vous devez avoir configuré les comptes nécessaires pour valider des montants remise dans le plan comptable. Vous devez également vérifier que vous avez entré les numéros de compte corrects dans les paramètres comptabilisation des champs **Compte remise ligne achat** et **Compte remise fact. achat**.
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Paramètres achats**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres achats**, puis sélectionnez le lien associé.
 2. Dans le champ **Comptabilisation remise**, sélectionnez l'un des principes de validation des remises suivants.
 
 |**Principe de validation des remises**|**Remise facture**|**Remise ligne**|  

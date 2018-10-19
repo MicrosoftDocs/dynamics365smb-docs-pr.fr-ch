@@ -1,7 +1,6 @@
 ---
 title: "Lettrer des paiements avec des documents vente échus | Microsoft Docs"
 description: "Vous lettrez les montants payés par les clients avec des documents vente associés et validez le paiement pour mettre à jour le client, la comptabilité, et les écritures comptables bancaires."
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,35 +8,38 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts, customer payment
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: cd2496fef564004cabebc4c3010c0d3164fd28dc
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6207e13540e2eed5f7707c551c2772aed33c5540
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="reconcile-customer-payments-manually-from-a-list-of-unpaid-sales-documents"></a>Rapprocher les paiements client manuellement à partir de la liste des documents vente échus
-Lorsque vos clients ont effectué des paiements sur votre compte bancaire électronique, vous devez lettrer chaque montant payé avec le document vente associé, puis valider le paiement pour mettre à jour les écritures client, comptables et banque.
+Lorsque vos clients ont effectué des paiements sur votre compte bancaire électronique, vous devez lettrer chaque montant payé avec le document vente associé, puis valider le paiement pour mettre à jour les écritures client, comptables et banque. Selon les besoins de votre entreprise, vous pouvez être payé et enregistrer ce paiement de diverses manières : manuellement, automatiquement, et via des services de paiement.  
 
 > [!NOTE]  
 >   Vous pouvez effectuer les mêmes tâches, y compris les paiements fournisseur dans la fenêtre **Feuille rapprochement bancaire** à l'aide des fonctions dédiées à l'importation de relevés bancaires, au lettrage automatique et au rapprochement bancaire. Pour plus d'informations, voir [Rapprocher les paiements à l'aide du lettrage automatique](receivables-how-reconcile-payments-auto-application.md).
 
-La fenêtre **Enregistrement de paiement** est conçue pour vous aider à réaliser les tâches de contrepartie des comptes internes à l'aide des chiffres réels pour vous assurer que les paiements sont collectés de façon efficace auprès des clients. Cet outil de traitement des paiements vous permet de vérifier et valider rapidement les paiements individuels ou forfaitaires, de traiter les paiements escomptés, et de rechercher des documents impayés spécifiques pour lesquels un paiement est effectué.
+La fenêtre **Enregistrer les paiements client** est conçue pour vous aider à réaliser les tâches de contrepartie des comptes internes à l'aide des chiffres réels pour vous assurer que les paiements sont collectés de façon efficace auprès des clients. Cet outil de traitement des paiements vous permet de vérifier et valider rapidement les paiements individuels ou forfaitaires, de traiter les paiements escomptés, et de rechercher des documents impayés spécifiques pour lesquels un paiement est effectué.
 
 Les paiements pour des clients différents qui ont des dates d'échéance différentes doivent être validés en tant que paiements individuels. Les paiements pour le même client qui ont la même date d'échéance peuvent être validés comme paiement forfaitaire. Cela est utile, par exemple, lorsqu'un client a effectué un paiement unique qui couvre plusieurs factures vente.
 
 ## <a name="to-set-up-the-payment-registration-journal"></a>Pour configurer la feuille enregistrement de paiement
-Étant donné que vous pouvez valider différents types de règlement dans différents comptes de contrepartie, vous devez sélectionner un compte de contrepartie dans la fenêtre **Paramétrage de l'enregistrement de paiement** avant de commencer le traitement des paiements client. Si vous validez toujours sur le même compte contrepartie, vous pouvez définir ce compte par défaut et éviter cette étape chaque fois que vous ouvrez la fenêtre **Enregistrement de paiement**.  
+Étant donné que vous pouvez valider différents types de règlement dans différents comptes de contrepartie, vous devez sélectionner un compte de contrepartie dans la fenêtre **Paramétrage de l'enregistrement de paiement** avant de commencer le traitement des paiements client. Si vous validez toujours sur le même compte contrepartie, vous pouvez définir ce compte par défaut et éviter cette étape chaque fois que vous ouvrez la fenêtre **Enregistrer les paiements client**.  
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Paramétrage de l'enregistrement de paiement**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramétrage de l'enregistrement de paiement**, puis sélectionnez le lien associé.
 
-    Sinon, dans la fenêtre **Enregistrement de paiement**, sélectionnez l'action **Configuration**.    
+    Sinon, dans la fenêtre **Enregistrer les paiements client**, sélectionnez l'action **Configuration**.    
 2. Renseignez les champs de la fenêtre **Paramétrage de l'enregistrement de paiement**. Choisissez un champ pour lire une brève description du champ ou du lien des informations connexes.  
 
-## <a name="to-reconcile-payments-individually"></a>Pour rapprocher les paiements individuellement
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Enregistrement de paiement**, puis sélectionnez le lien connexe.  
+## <a name="to-register-customer-payments-individually"></a>Pour enregistrer les paiements client individuellement
+
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Enregistrer les paiements client**, puis sélectionnez le lien associé.  
+ 
+    La page **Enregistrer les paiements client** affiche tous les documents validés pour lesquels un paiement peut être enregistré. La même page est également disponible dans la liste **Clients** et la fiche client dans laquelle elle sera automatiquement filtrée pour le client spécifié.  
 2. Cochez la case **Paiement effectué** de la ligne représentant le document validé pour lequel un paiement a été effectué.
 
     Si la case **Renseigner automatiquement la date de réception** est cochée dans la fenêtre **Paramétrage de l'enregistrement de paiement**, la date de travail est entrée dans le champ **Date de réception**.  
@@ -53,7 +55,7 @@ Les informations de paiement saisies sont validées pour les documents représen
 Les écritures de paiement sont validées dans les comptes général, bancaire, et client. Chaque paiement est lettré au document vente validé lié.  
 
 ## <a name="to-reconcile-lump-payments"></a>Pour rapprocher des paiements forfaitaires
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Enregistrement de paiement**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Enregistrement de paiement**, puis sélectionnez le lien associé.
 2. Cochez la case **Paiement effectué** pour les lignes représentant les documents validés pour le même client pour lequel un paiement forfaitaire a été effectué.  
 
     > [!NOTE]  
@@ -88,7 +90,7 @@ Les procédures suivantes expliquent quatre méthodes différentes permettant de
 * Le montant règlement est supérieur au montant escompté ouvert. Vous validez les paiements tels quels. Seul le montant ouvert est validé. Le montant supplémentaire est crédité au client.  
 
 ### <a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-and-where-the-payment-date-is-before-the-discount-date"></a>Pour traiter un montant règlement égal au montant escompté, et lorsque la date d'échéance est antérieure à la date d'escompte
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Enregistrement de paiement**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Enregistrement de paiement**, puis sélectionnez le lien associé.  
 2. Saisissez le montant du paiement dans le champ **Montant reçu**. Le montant est égal au montant du champ **Montant restant après remise**.
 
     La case **Paiement effectué** est automatiquement cochée, et le champ **Date de réception** contient la date de travail.    
@@ -97,7 +99,7 @@ Les procédures suivantes expliquent quatre méthodes différentes permettant de
 5. Sélectionnez l'action **Valider les paiements** pour valider l'intégralité du paiement sur les comptes général, bancaire et client.
 
 ### <a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-but-where-the-payment-date-is-after-the-discount-date"></a>Pour traiter un montant règlement égal au montant escompté, mais lorsque la date d'échéance est postérieure à la date d'escompte
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Enregistrement de paiement**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Enregistrement de paiement**, puis sélectionnez le lien associé.  
 2. Saisissez le montant du paiement dans le champ **Montant reçu**. Le montant est égal au montant du champ **Montant restant après remise**.
 
     La case **Paiement effectué** est automatiquement cochée, et le champ **Date de réception** contient la date de travail.
@@ -115,7 +117,7 @@ Les procédures suivantes expliquent quatre méthodes différentes permettant de
 Le document connexe reste ouvert.
 
 ### <a name="to-process-a-payment-that-is-lower-than-the-remaining-discounted-amount"></a>Pour traiter un paiement inférieur au montant escompté ouvert
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Enregistrement de paiement**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Enregistrement de paiement**, puis sélectionnez le lien associé.  
 2. Saisissez le montant du paiement dans le champ **Montant reçu**. Le montant est inférieur au montant du champ **Montant restant après remise**.
 
     La case **Paiement effectué** est automatiquement cochée, et le champ **Date de réception** contient la date de travail.  
@@ -126,7 +128,7 @@ Le document connexe reste ouvert.
 Le document connexe reste ouvert.
 
 ### <a name="to-process-a-payment-that-is-more-than-the-remaining-discounted-amount"></a>Pour traiter un paiement supérieur au montant escompté ouvert
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Enregistrement de paiement**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Enregistrement de paiement**, puis sélectionnez le lien associé.  
 2. Saisissez le montant du paiement dans le champ **Montant reçu**. Le montant est supérieur au montant du champ **Montant restant après remise**.  
 
     La case **Paiement effectué** est automatiquement cochée, et le champ **Date de réception** contient la date de travail.    
@@ -148,7 +150,7 @@ Dans la fenêtre **Recherche de documents**, vous pouvez rechercher parmi les do
 
 La procédure suivante explique comment trouver un document spécifique à l'aide de deux critères de recherche.  
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Enregistrement de paiement**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Enregistrement de paiement**, puis sélectionnez le lien associé.
 2. Avec le pointeur sur n'importe quelle ligne, sélectionnez l'action **Rechercher des documents**.
 3. Dans la fenêtre **Recherche de document**, entrez une valeur de recherche dans le champ **N° document**.  
 
@@ -169,14 +171,13 @@ Si un paiement avec la banque n'est représenté par aucun document dans [!INCLU
 ## <a name="to-record-or-post-a-payment-without-a-related-document"></a>Pour enregistrer ou valider un paiement sans document connexe
 Si un paiement avec la banque n'est représenté par aucun document dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez ouvrir une ligne feuille comptabilité préremplie depuis la fenêtre **Enregistrement de paiement** pour valider le paiement directement dans le compte contrepartie sans lettrer le paiement avec un document. Sinon, vous pouvez enregistrer le paiement dans la feuille jusqu'à ce que l'origine du paiement soit clarifiée.  
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Enregistrement de paiement**, puis sélectionnez le lien connexe.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Enregistrement de paiement**, puis sélectionnez le lien associé.  
 
-Enregistrez un paiement non documenté.  
-
-1. Sélectionnez l'action **Feuille comptabilité**.  
+    Enregistrez un paiement non documenté.  
+2. Sélectionnez l'action **Feuille comptabilité**.  
 
     La fenêtre **Feuille comptabilité** s'affiche avec une ligne préremplie où figure le compte contrepartie du nom de feuille défini dans la fenêtre **Paramétrage de l'enregistrement de paiement**.  
-2. Renseignez les autres champs de la ligne feuille comptabilité, tel que le montant et le numéro de client ou d'autres informations du relevé bancaire. Pour plus d'informations, reportez-vous à [Valider les transactions directement vers la comptabilité](finance-how-post-transactions-directly.md).  
+3. Renseignez les autres champs de la ligne feuille comptabilité, tel que le montant et le numéro de client ou d'autres informations du relevé bancaire. Pour plus d'informations, reportez-vous à [Valider les transactions directement vers la comptabilité](finance-how-post-transactions-directly.md).  
 
 Vous pouvez soit valider la ligne feuille mettre à jour le total sur le compte contrepartie. Sinon, vous pouvez laisser la ligne feuille non validée et ajouter par exemple une note indiquant que le paiement a besoin d'une autre analyse.  
 
