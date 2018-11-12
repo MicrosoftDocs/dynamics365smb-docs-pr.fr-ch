@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/12/2018
 ms.author: sgroespe
 ms.translationtype: HT
 ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
@@ -25,12 +25,12 @@ ms.lasthandoff: 03/22/2018
 Un système de traçabilité doit permettre à une société de traiter facilement les numéros de série et les numéros de lot, en considérant chaque marchandise comme étant unique : date et lieu de réception, lieu de stockage, date et lieu de vente. [!INCLUDE[d365fin](includes/d365fin_md.md)] a progressivement étendu sa prise en charge de ce besoin de l'entreprise et fournit actuellement des fonctionnalités à l'échelle de l'application, ainsi qu'une base solide pour le développement d'extensions.  
 
 ## <a name="in-this-section"></a>Dans cette section  
-* [Détails de conception : création de traçabilité](design-details-item-tracking-design.md)  
-* [Détails de conception : structure de validation de traçabilité](design-details-item-tracking-posting-structure.md)  
-* [Détails de conception : comparaison entre écritures traçabilité actives et historiques](design-details-active-versus-historic-item-tracking-entries.md)  
-* [Détails de conception : fenêtre Lignes traçabilité](design-details-item-tracking-lines-window.md)  
-* [Détails de conception : disponibilité traçabilité](design-details-item-tracking-availability.md)  
-* [Détails de conception : traçabilité et planification d'article](design-details-item-tracking-and-planning.md)  
-* [Détails de conception : traçabilité et réservations](design-details-item-tracking-and-reservations.md)  
-* [Détails de conception : traçabilité dans l'entrepôt](design-details-item-tracking-in-the-warehouse.md)
+[Détails de conception : création de traçabilité](design-details-item-tracking-design.md)  
+[Détails de conception : structure de validation de traçabilité](design-details-item-tracking-posting-structure.md)  
+[Détails de conception : comparaison entre écritures traçabilité actives et historiques](design-details-active-versus-historic-item-tracking-entries.md)  
+[Détails de conception : fenêtre Lignes traçabilité](design-details-item-tracking-lines-window.md)  
+[Détails de conception : disponibilité traçabilité](design-details-item-tracking-availability.md)  
+[Détails de conception : traçabilité et planification d'article](design-details-item-tracking-and-planning.md)  
+[Détails de conception : traçabilité et réservations](design-details-item-tracking-and-reservations.md)  
+[Détails de conception : traçabilité dans l'entrepôt](design-details-item-tracking-in-the-warehouse.md)
 
