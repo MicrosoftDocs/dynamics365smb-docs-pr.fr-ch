@@ -63,7 +63,7 @@ Vous pouvez copier autant de lignes que vous pouvez faire défiler dans la vue. 
 ## <a name="must-i-have-the-exact-same-number-of-columns-when-pasting-rows"></a>Dois-je avoir exactement le même nombre de colonnes en collant des lignes ?
 Oui. Que vous copiiez depuis [!INCLUDE[d365fin](includes/d365fin_md.md)], d'Excel, ou d'un autre tableau d'origine, les lignes que vous collez doivent avoir les mêmes colonnes correspondantes - ni plus ni moins.
 
-## <a name="why-do-i-get-errors-when-pasting-rows"></a>Pourquoi est-ce que j'obtiens des erreurs en collant des lignes ? 
+## <a name="why-do-i-get-errors-when-pasting-rows"></a>Pourquoi est-ce que j'obtiens des erreurs en collant des lignes ?
 Lorsque vous collez dans [!INCLUDE[d365fin](includes/d365fin_md.md)], chaque ligne est vérifiée pour s'assurer que les valeurs de chaque colonne sont valides. Si une colonne contient une valeur qui n'est pas valide, le collage arrêté, et un message d'erreur s'affiche. Pour éviter cela, assurez-vous que les colonnes ont des valeurs valides avant de les coller.
 
 
