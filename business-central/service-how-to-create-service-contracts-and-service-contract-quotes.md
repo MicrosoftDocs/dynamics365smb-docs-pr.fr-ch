@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e66e5f2e6881ddb0d0919a0544b451e2aab1fc43
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8f27a27941130a56f8ad1c1c5ef22d3e448e455b
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Utiliser des contrats de service et des devis contrat de service
@@ -25,7 +25,7 @@ Vous pouvez créer un contrat de service manuellement ou à partir d'un devis co
 ## <a name="to-create-a-service-contract-or-service-contract-quote"></a>Pour créer un contrat de service ou un devis contrat de service  
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Contrats de services** ou **Devis contrat de service**, puis sélectionnez le lien associé.  
 2. Pour créer un contrat de service ou un devis contrat de service.  
-3. Renseignez le champ **N°** . Une boîte de dialogue s'ouvre, vous demandant si vous souhaitez renseigner les données communes à partir d'un modèle contrat. Si vous souhaitez créer un tel contrat de service ou devis contrat de service, sélectionnez le bouton **Oui**. La fenêtre **Liste des modèles contrat de service** s'ouvre.  
+3. Renseignez le champ **N°** . Une boîte de dialogue s'ouvre, vous demandant si vous souhaitez renseigner les données communes à partir d'un modèle contrat. Si vous souhaitez créer un tel contrat de service ou devis contrat de service, sélectionnez le bouton **Oui**. La page **Liste des modèles contrat de service** s'ouvre.  
 4. Sélectionnez le modèle approprié, puis choisissez **OK** afin de l'utiliser pour créer le contrat de service ou le devis contrat de service.  
 5. Dans le champ **N° client**, choisissez le client.  
 6. Si vous ne souhaitez pas qu'une différence du montant annuel soit répartie automatiquement, choisissez la case à cocher **Autoriser montants non soldés**. Les valeurs des champs **Montant annuel** et **Montant annuel calculé** ne sont pas automatiquement égalisées. Si vous souhaitez que le programme répartisse automatiquement toutes les différences de montant annuel qui peuvent survenir suite à une modification du contrat de service, ne sélectionnez pas la case à cocher **Autoriser montants non soldés**.  
@@ -66,17 +66,17 @@ Vous pouvez utiliser un avoir service contrat lorsqu'un client annule un contrat
      Le raccourci **Facturation** affiche des informations copiées à partir de la fiche **Client**. Si vous souhaitez valider l'avoir pour un autre client que celui indiqué sur le raccourci **Général**, entrez le numéro de ce client dans le champ **N° client facturé** .  
 
     > [!NOTE]  
-    >  Vous pouvez comparer l'avoir avec le document validé initialement dans la fenêtre **Factures service enreg.**. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Factures service enreg.**, puis sélectionnez le lien associé.  
+    >  Vous pouvez comparer l'avoir avec le document validé initialement sur la page **Factures service enreg.**. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Factures service enreg.**, puis sélectionnez le lien associé.  
 
 5. Renseignez les champs **Date comptabilisation** et **Date document**.  
 6. Sur les lignes avoir, entrez les informations relatives aux articles retournés ou retirés, ou à la réduction qui est envoyée. Vous pouvez également utiliser le traitement par lots **Obtenir écr. contrat prépayé**.  
 
- Pour créer automatiquement un avoir lorsque les lignes du contrat sont retirées d'un contrat de service, dans la fenêtre **Contrat de Service**, sur le raccourci **Détails de la facture**, sélectionnez la case à cocher **Avoirs automatiques**.  
+ Pour créer automatiquement un avoir lorsque les lignes du contrat sont retirées d'un contrat de service, sur la page **Contrat de Service**, sur le raccourci **Détails de la facture**, sélectionnez la case à cocher **Avoirs automatiques**.  
 
- Pour créer manuellement un avoir lorsque les lignes du contrat sont retirées d'un contrat de service, dans la fenêtre **Contrat de Service**, sous l'onglet **Actions**, dans le groupe **Fonctions**, choisissez **Avoir**.  
+ Pour créer manuellement un avoir lorsque les lignes du contrat sont retirées d'un contrat de service, sur la page **Contrat de Service**, sous l'onglet **Actions**, dans le groupe **Fonctions**, choisissez **Avoir**.  
 
 ## <a name="updating-and-evaluating-contracts"></a>Mise à jour et évaluation des contrats
-Vous devez parfois modifier les conditions d'un contrat après sa création. Dans la plupart des cas, vous devez ouvrir le contrat approprié dans la fenêtre **Contrat service** et le modifier de manière appropriée.  
+Vous devez parfois modifier les conditions d'un contrat après sa création. Dans la plupart des cas, vous devez ouvrir le contrat approprié sur la page **Contrat service** et le modifier de manière appropriée.  
 
 Vous pouvez modifier le statut du contrat, initialement défini sur **Verrouillé**, ajouter et supprimer des lignes contrat et annuler un contrat. Pour connaître l'état de votre activité mesurée en termes de gains et pertes, vous pouvez effectuer une analyse commerciale rapide avec la fonctionnalité Trendscape contrat.
 
@@ -97,12 +97,12 @@ Vous pouvez supprimer des lignes du contrat de service lorsque vous supprimez du
 2. Ouvrez le contrat de service dont vous voulez supprimer des lignes.  
 3. Choisissez l'action **Ouvrir contrat** pour ouvrir le contrat de service et le modifier.  
 4. Choisissez la ligne contrat à supprimer. Renseignez le champ **Date expiration contrat** avec la date à compter de laquelle vous souhaitez supprimer la ligne. Par exemple, vous pourriez saisir la date à laquelle l'article de service est tombé en panne.  
-5. Choisissez l'action **Supprimer lignes contrat**. La fenêtre **Supprimer lignes contrat** s'ouvre.  
+5. Choisissez l'action **Supprimer lignes contrat**. La page **Supprimer lignes contrat** s'ouvre.  
 6. Remplissez les filtres par défaut : **N° contrat**, **N° article de service** et **Type contrat**. Si nécessaire, vous pouvez appliquer des filtres supplémentaires ou modifier les filtres existants.  
 7. Renseignez les champs du raccourci **Options**. Dans le champ **Action**, sélectionnez **Supprimer lignes**.  
 
 > [!NOTE]  
->  Si le contrat n'est pas détaillé, vous devez mettre à jour la valeur du champ **Montant annuel** du raccourci **Détail facture** de la fenêtre **Contrat de service** afin d'indiquer que l'article de service a disparu du contrat.  
+>  Si le contrat n'est pas détaillé, vous devez mettre à jour la valeur du champ **Montant annuel** du raccourci **Détail facture** de la page **Contrat de service** afin d'indiquer que l'article de service a disparu du contrat.  
 >   
 >  Si le contrat est détaillé et prépayé, et que vous avez validé des factures pour le contrat, vous pouvez créer un avoir pour ce contrat. Sous l'onglet de **Actions** , dans le groupe **Fonctions**, choisissez **Créer avoir**. Cela n'est pas nécessaire si la case à cocher **Avoirs automatiques** sur le raccourci **Détails facture** est sélectionnée. Dans ce cas un avoir est créé automatiquement lorsque vous supprimez une ligne contrat.
 
@@ -126,12 +126,12 @@ Vous pouvez ajouter des remises contrat sur des services pour les devis contrat 
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Devis contrat de service**, et sélectionnez le lien associé.  
 2. Choisissez le devis auquel ajouter des remises.  
-3. Choisissez l'action **Remises service**. La fenêtre **Remise contrat/service** s'affiche.  
+3. Choisissez l'action **Remises service**. La page **Remise contrat/service** s'affiche.  
 4. Pour créer une remise contrat, choisissez l'action **Nouveau**.  
 5. Renseignez les champs de la ligne selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].  
 
 > [!Tip]  
->  Pour ajouter des remises contrat directement à un contrat service, exécutez la procédure décrite dans la fenêtre **Liste des contrats de service**.  
+>  Pour ajouter des remises contrat directement à un contrat service, exécutez la procédure décrite sur la page **Liste des contrats de service**.  
 
 ## <a name="to-change-the-owner-of-a-service-contract"></a>Pour changer le propriétaire d'un contrat de service  
 Vous pouvez devoir changer le propriétaire d'un contrat de service. Si un article de service dans un contrat de service est enregistré dans plusieurs contrats non annulés et détenus par le même client, le propriétaire de tous les contrats de service qui comprennent cet article de service et de tous les articles de service inclus dans ces contrats est mis à jour automatiquement.  
@@ -146,7 +146,7 @@ Vous pouvez devoir changer le propriétaire d'un contrat de service. Si un artic
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Contrats de service**, puis sélectionnez le lien associé. Ouvrez le contrat de service dont vous voulez modifier le propriétaire.  
 2. Choisissez l'action **Ouvrir contrat** pour ouvrir le contrat et le modifier.  
-3. Choisissez l'action **Modifier client**. La fenêtre **Modifier le client du contrat** s'ouvre.  
+3. Choisissez l'action **Modifier client**. La page **Modifier le client du contrat** s'ouvre.  
 4. Dans les champs **N° contrat** et **N° article de service**, vous pouvez voir les numéros du contrat et de l'article de service du client sélectionné. Si le client possède plusieurs contrats contenant plusieurs articles de service, la valeur de ces champs est **Multiple**. Pour visualiser la liste des contrats ou des articles de service correspondants, sélectionnez ces valeurs de champ.  
 5. Dans le champ **Nouveau n° client** , choisissez le nouveau client.  
 6. Dans le champ **Nouveau code destinataire**, choisissez l'adresse.  
@@ -165,7 +165,7 @@ Vous pouvez mettre à jour les tarifs des contrats de service en indiquant un po
 ## <a name="to-post-prepaid-contract-entries"></a>Pour valider des écritures contrat prépayé  
 Si vous utilisez des contrats de service prépayés, vous devez valider régulièrement les écritures contrat prépayé, de manière à transférer les paiements prépayés du compte contrat prépayé sur les comptes contrats ordinaires.  
 
-Avant de pouvoir valider les écritures contrat prépayé, vous devez spécifier une souche de numéros dans le champ **N° doc. prépayé validation** de la fenêtre **Paramètres Gestion des services**.  
+Avant de pouvoir valider les écritures contrat prépayé, vous devez spécifier une souche de numéros dans le champ **N° doc. prépayé validation** de la page **Paramètres Gestion des services**.  
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Valider écr. contrat prépayé**, puis sélectionnez le lien associé.  
 2. Dans le champ **Dernière date compta.**, entrez une date. Le traitement par lots valide les écritures comptables service dont la date comptabilisation est antérieure à cette date.  
@@ -190,13 +190,13 @@ Vous pouvez annuler un contrat de service lorsqu'il a expiré ou qu'il a été a
 3. Choisissez l'action **Ouvrir contrat** pour ouvrir le contrat de service et le modifier.  
 4. Dans le champ **Code motif annulation**, choisissez le code motif adéquat. Pour ajouter des codes motif, cliquez sur l'action **Avancé**.  
 
-     Si le champ **Utiliser motif annulation contrat** est activé dans la fenêtre **Paramètres Gestion des services**, vous devez indiquer un code motif annulation lorsque vous annulez des contrats.  
+     Si le champ **Utiliser motif annulation contrat** est activé sur la page **Paramètres Gestion des services**, vous devez indiquer un code motif annulation lorsque vous annulez des contrats.  
 
 5. Dans le champ **Statut**, choisissez **Annulé**.  
 6. S'il existe des factures, des avoirs ou des écritures prépayées ouvertes non validées pour le contrat, un message de confirmation apparaît. Dans la zone de message, choisissez **Non** pour revenir au contrat et valider les documents, ou **Oui** pour poursuivre l'annulation du contrat.  
 
 ## <a name="filing-a-service-contract-or-contract-quote"></a>Remplir un contrat de service ou un devis contrat  
-Vous pouvez archiver à tout moment des contrats de service et des devis contrat pour enregistrer et archiver une copie du contrat ou du devis contrat. [!INCLUDE[d365fin](includes/d365fin_md.md)] archive automatiquement les contrats de service lorsque vous convertissez les devis contrat en contrats de service ou que vous annulez des contrats de service. Vous pouvez archiver un contrat ou un devis vous-même en choisissant l'action **Archiver contrat** sur les fenêtres **Contrats de service** ou **Devis contrat de service**. Vous pouvez consulter vos contrats ou devis archivés en recherchant **Contrats archivés**.
+Vous pouvez archiver à tout moment des contrats de service et des devis contrat pour enregistrer et archiver une copie du contrat ou du devis contrat. [!INCLUDE[d365fin](includes/d365fin_md.md)] archive automatiquement les contrats de service lorsque vous convertissez les devis contrat en contrats de service ou que vous annulez des contrats de service. Vous pouvez archiver un contrat ou un devis vous-même en choisissant l'action **Archiver contrat** sur les pages **Contrats de service** ou **Devis contrat de service**. Vous pouvez consulter vos contrats ou devis archivés en recherchant **Contrats archivés**.
 
 ## <a name="see-also"></a>Voir aussi  
 [Configurer des contrats de service](service-how-setup-service-contracts.md)  

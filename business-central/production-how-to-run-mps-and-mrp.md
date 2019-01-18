@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 4fe4c7eaf412bd6219b51a06f989c5a8508c4410
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3cb3c77600ef8e83612bb144f1ddfc3abed0eff1
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Exécuter une planification complète et un calcul PDP ou MRP
@@ -27,7 +27,7 @@ Les termes « exécution de la feuille planning » ou « exécution d'un calc
 
 Les algorithmes de planification utilisés pour les calculs PDP et MRP sont identiques. Ces algorithmes ont trait à l'ajustement, à la réutilisation d'ordres de réapprovisionnement existant et à des messages d'action. Le processus du système de planification examine ce qui est ou sera nécessaire (demande) et ce qui est disponible ou attendu (approvisionnement). Lorsque ces quantités sont ajustées, [!INCLUDE[d365fin](includes/d365fin_md.md)] génère des messages d'action. Ces messages sont des suggestions de création d'un ordre, de modification d'un ordre (quantité ou date) ou d'annulation d'un ordre. Le terme « ordre » désigne les commandes achat, les ordres d'assemblage, les ordres de fabrication et les ordres de transfert.
 
-Les liens créés par le moteur de planification entre la demande et son approvisionnement associé peuvent être suivis dans la fenêtre **Chaînage**. Pour plus d'informations, voir [Suivre les relations entre l'offre et la demande](production-how-track-demand-supply.md).   
+Les liens créés par le moteur de planification entre la demande et son approvisionnement associé peuvent être suivis sur la page **Chaînage**. Pour plus d'informations, voir [Suivre les relations entre l'offre et la demande](production-how-track-demand-supply.md).   
 
 Les résultats d'une planification appropriée dépendent de la configuration effectuée au niveau des fiches article, des nomenclatures d'assemblage et des gammes.  
 
@@ -48,17 +48,17 @@ Avec chaque méthode planifiée, [!INCLUDE[d365fin](includes/d365fin_md.md)] gé
 
 ## <a name="to-calculate-the-planning-worksheet"></a>Pour calculer la feuille planning  
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles planning**, puis sélectionnez le lien associé.  
-2.  Choisissez l'action **Calculer planning régénératif** pour ouvrir la fenêtre **Calculer planning**.  
+2.  Choisissez l'action **Calculer planning régénératif** pour ouvrir la page **Calculer planning**.  
 3.  Sous le raccourci **Options**, renseignez les champs comme indiqué dans le tableau ci-dessous.  
 
     |Champ|Désignation|  
     |---------------------------------|---------------------------------------|  
     |**PDP**|Sélectionnez pour lancer le calcul d'une planification de production. Les articles avec des commandes vente ou des prévisions de demande ouvertes sont pris en considération.|  
-    |**MRP**|Sélectionnez pour lancer le calcul de la planification des besoins matière. Les articles avec des besoins dépendants sont pris en compte. En général, les PDP et les MRP sont exécutés simultanément. Pour les exécuter simultanément, le champ **Calcul PDP/MRP combiné** doit être sélectionné sur le raccourci **Planification** de la fenêtre **Paramètres production**.|  
+    |**MRP**|Sélectionnez pour lancer le calcul de la planification des besoins matière. Les articles avec des besoins dépendants sont pris en compte. En général, les PDP et les MRP sont exécutés simultanément. Pour les exécuter simultanément, le champ **Calcul PDP/MRP combiné** doit être sélectionné sur le raccourci **Planification** de la page **Paramètres production**.|  
     |**Date début**|Cette date permet d'évaluer la disponibilité des articles. Si la quantité disponible d'un article est inférieure au point de commande, le système planifie en aval un ordre de réapprovisionnement à partir de cette date. Si la quantité disponible d'un article est inférieure à son stock de sécurité (à partir de la date début), le système planifie en amont un ordre de réapprovisionnement dû à la date début planning.|  
     |**Date fin**|Il s'agit de la date fin de l'horizon de planification. Ni la demande ni l'approvisionnement ne sont pris en compte au-delà de cette date. Si le regroupement pour un article s'étend au-delà de la date fin, l'horizon de planification effectif pour cet article équivaut à la date commande + le regroupement.<br /><br /> L'horizon de planification est la durée d'extension de la planification. Si l'horizon est trop court, les articles dont le temps de fabrication est plus long ne sont pas commandés à temps. Si l'horizon est trop long, trop de temps est consacré à l'examen et au traitement d'informations qui changent probablement avant que ce soit nécessaire. Vous pouvez définir un horizon de planification pour la production et un autre, plus long, pour les achats, même si ce n'est pas obligatoire. Un horizon de planification pour les achats et la production doit être défini pour couvrir le temps de fabrication cumulé des composants.|  
-    |**Arrêter et afficher la première erreur**|Sélectionnez si vous souhaitez arrêter l'exécution de la planification dès qu'elle rencontre une erreur. Au même moment, un message affiche des informations sur la première erreur. S'il y a une erreur, seules les lignes planning traitées avant la détection de l'erreur apparaissent dans la feuille planning. Si vous ne sélectionnez pas ce champ, le traitement par lots **Calculer planning** se poursuivra jusqu'à son achèvement, ce qui signifie que des erreurs éventuelles ne l'interrompent pas. Si des erreurs existent, un message s'affichera un message après le traitement avec des informations sur le nombre d'articles affectés. La fenêtre **Journal des erreurs de planning** affiche ensuite des informations supplémentaires sur l'erreur et des liens vers les fiches article concernées.|  
-    |**Utiliser prévisions**|Sélectionnez la prévision à inclure en tant que demande lors de l'exécution du traitement par lots de planification. La prévision par défaut est configurée sur le raccourci **Planning** dans la fenêtre **Paramètres production**.|  
+    |**Arrêter et afficher la première erreur**|Sélectionnez si vous souhaitez arrêter l'exécution de la planification dès qu'elle rencontre une erreur. Au même moment, un message affiche des informations sur la première erreur. S'il y a une erreur, seules les lignes planning traitées avant la détection de l'erreur apparaissent dans la feuille planning. Si vous ne sélectionnez pas ce champ, le traitement par lots **Calculer planning** se poursuivra jusqu'à son achèvement, ce qui signifie que des erreurs éventuelles ne l'interrompent pas. Si des erreurs existent, un message s'affichera un message après le traitement avec des informations sur le nombre d'articles affectés. La page **Journal des erreurs de planning** affiche ensuite des informations supplémentaires sur l'erreur et des liens vers les fiches article concernées.|  
+    |**Utiliser prévisions**|Sélectionnez la prévision à inclure en tant que demande lors de l'exécution du traitement par lots de planification. La prévision par défaut est configurée sur le raccourci **Planning** sur la page **Paramètres production**.|  
     |**Exclure prévisions avant**|Définissez la part de la prévision sélectionnée à inclure dans le planning exécuté en entrant une date avant laquelle une demande prévue n'est pas incluse, ce qui permet d'exclure les informations anciennes.|  
     |**Respecter les paramètres de planning pour les alertes d'exception**|Ce champ est sélectionné par défaut.<br /><br /> L'approvisionnement pour les lignes planning avec les alertes n'est normalement pas modifié en fonction des paramètres de planification. Au lieu de cela, le système de planification propose uniquement un approvisionnement pour couvrir la quantité de demande exacte. Cependant, vous pouvez définir certains paramètres de planification pour les lignes planning à respecter avec certains alertes.<br /><br />|  
 
@@ -66,7 +66,7 @@ Avec chaque méthode planifiée, [!INCLUDE[d365fin](includes/d365fin_md.md)] gé
 5.  Cliquez sur le bouton **OK**. Le traitement par lot est exécuté, puis la feuille planning est renseignée à l'aide des lignes planning.  
 
 ## <a name="to-perform-action-messages"></a>Pour traiter les messages d'action  
-1.  Dans la fenêtre **Feuille planning**, sélectionnez l'action **Traiter message d'action**.  
+1.  Sur la page **Feuille planning**, sélectionnez l'action **Traiter messages d'action**.  
 2.  Sur le raccourci **Options**, spécifiez comment créer des approvisionnements. Renseignez les champs comme indiqué dans le tableau suivant.  
 
     |Champ|Désignation|  

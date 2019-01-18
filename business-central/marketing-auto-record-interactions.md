@@ -13,10 +13,10 @@ ms.search.keywords: marketing, relationship, prospect, contact, client, customer
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 28891eb7cef2faba6004cbf97480c438c58df892
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 996bf575d463be365b0bbcdbeef319491065b873
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="recording-interactions-with-contacts-automatically"></a>Enregistrement automatique des interactions avec les contacts
@@ -28,8 +28,8 @@ Vous pouvez configurer l'application de sorte à enregistrer automatiquement les
 * Envoyer des e-mails à vos contacts.
 * Appeler vos contacts (si vous disposez d'un téléphone TAPI et de l'installation adéquate)
 
-Pour configurer l'enregistrement automatique de ces interactions, vous spécifiez des modèles interaction pour ces documents et ces actions via la fenêtre **Paramètres modèles interaction**.  
-Pour ouvrir la fenêtre **Paramètres modèles interaction**, choisissez l'icône de ![l'ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres modèles interaction**, puis sélectionnez le lien associé.
+Pour configurer l'enregistrement automatique de ces interactions, vous spécifiez des modèles interaction pour ces documents et ces actions via la page **Paramètres modèles interaction**.  
+Pour ouvrir la page **Paramètres modèles interaction**, choisissez l'icône de ![l'ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres modèles interaction**, puis sélectionnez le lien associé.
 
 ## <a name="see-also"></a>Voir aussi
 [Enregistrement des interactions avec les contacts](marketing-interactions.md)  

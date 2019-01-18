@@ -13,10 +13,10 @@ ms.search.keywords: UOM
 ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b920a3edfab41409cd8d7cf3f5e463f66268e953
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 376e34074c6ee216b7a9062a42404a8123758598
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-item-units-of-measure"></a>Configuration d'unités article
@@ -30,7 +30,7 @@ Si un article est stocké dans une unité mais produit dans une autre, un ordre 
 ## <a name="to-set-up-a-unit-of-measure"></a>Pour configurer une unité
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles**, puis sélectionnez le lien associé.
 2. Ouvrez la fiche article pour laquelle vous souhaitez configurer des unités de remplacement.
-3. Choisissez l'action **Unités de mesure**. La fenêtre **Unités article** s'ouvre.
+3. Choisissez l'action **Unités de mesure**. La page **Unités article** s'ouvre.
 4. Si le champ **Unité de base** de la fiche article est renseigné, cette unité est déjà installée.
 5. Sélectionnez l'action **Nouveau**. Une nouvelle ligne vide est insérée.
 6. Dans le champ **Code**, entrez le nom de l'unité. Sinon, sélectionnez le champ pour choisir parmi les codes unité figurant dans la base de données.
@@ -49,12 +49,12 @@ Lorsque vous vendez des articles à des clients étrangers, vous pouvez être am
 5. Répétez les étapes 2 à 4 pour les codes unité et les langues pour lesquels vous souhaitez indiquer des traductions.
 
 ## <a name="to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions"></a>Pour entrer un code unité par défaut pour des transactions de ventes et d'achat
-Si vous utilisez habituellement d'autres unités que l'unité de base pour vos achats et vos ventes, vous pouvez indiquer des unités distinctes. Pour cela, vous devez configurer les unités de mesure dans la fenêtre **Unités article**.
+Si vous utilisez habituellement d'autres unités que l'unité de base pour vos achats et vos ventes, vous pouvez indiquer des unités distinctes. Pour cela, vous devez configurer les unités sur la page **Unités article**.
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles**, puis sélectionnez le lien associé.
 2. Ouvrez la fiche article appropriée pour laquelle vous souhaitez indiquer un code unité par défaut pour les achats et les ventes.
-3. Pour les ventes, sur le raccourci **Facturation**, dans le champ **Unité de vente**, ouvrez la fenêtre **Unités article**.
-4. Pour les achats, sur le raccourci **Réapprovisionnement**, dans le champ **Unité d'achat**, ouvrez la fenêtre **Unités article**.
+3. Pour les ventes, sur le raccourci **Facturation**, dans le champ **Unité de vente**, ouvrez la page **Unités article**.
+4. Pour les achats, sur le raccourci **Réapprovisionnement**, dans le champ **Unité d'achat**, ouvrez la page **Unités article**.
 5. Sélectionnez le code que vous souhaitez configurer comme unité par défaut pour les ventes ou les achats respectivement, puis cliquez sur le bouton **OK**.
 
 ## <a name="see-also"></a>Voir aussi

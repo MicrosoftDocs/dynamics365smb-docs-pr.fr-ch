@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b2d32111fe1b5510f7c1dc2412627d5df9e7ccc3
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2bd235844f191c52f3f5d3e34b43c4fdf75fb464
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Procédure pas-à-pas : vente, assemblage et expédition de kits
@@ -82,7 +82,7 @@ Avant d'exécuter cette procédure pas à pas, veuillez suivre les instructions 
 -   Devenez magasinier dans un magasin BLANC en procédant comme suit :  
 
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Magasiniers**, puis choisissez le lien associé.  
-2.  Choisissez le champ **ID utilisateur** et sélectionnez votre propre compte utilisateur dans la fenêtre **Utilisateurs**.  
+2.  Choisissez le champ **ID utilisateur** et sélectionnez votre propre compte utilisateur sur la page **Utilisateurs**.  
 3.  Dans le champ **Code magasin**, entrez BLANC.  
 4.  Sélectionnez le champ **Par défaut**.  
 
@@ -101,7 +101,7 @@ Préparez le magasin BLANC pour l’assemblage en procédant comme suit :
 Supprimez le délai par défaut pour les processus internes en procédant comme suit :  
 
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres production**, puis sélectionnez le lien associé.  
-2.  Dans la fenêtre **Paramètres production**, sous le raccourci **Planning**, supprimez la valeur dans le champ **Délai de sécurité par défaut**.  
+2.  Sur la page **Paramètres production**, sous le raccourci **Planning**, supprimez la valeur dans le champ **Délai de sécurité par défaut**.  
 
 Créez les composants de stock pour assemblage en suivant la section « Préparation d’exemples de données » dans cette procédure pas à pas.  
 
@@ -140,8 +140,8 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 
     |**N° article**|**Code zone**|**Code emplacement**|**Quantité**|  
     |-----------------------------------|---------------------------------------|--------------------------------------|------------------------------------|  
-    |80001|PRELEVEMT|W-01-0001|2.0|  
-    |80005|PRELEVEMT|W-01-0001|2.0|  
+    |80001|PRELEVEMT|W-01-0001|20|  
+    |80005|PRELEVEMT|W-01-0001|20|  
     |80011|PRELEVEMT|W-01-0001|20|  
     |80014|PRELEV.|W-01-0001|20|  
     |80203|PRELEV.|W-01-0001|20|  
@@ -151,10 +151,10 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 
     Ensuite, synchronisez les nouvelles écritures entrepôt avec le stock.  
 
-5.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles articles**, puis sélectionnez le lien associé. La fenêtre  **Feuille article** s'ouvre.  
+5.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles articles**, puis sélectionnez le lien associé. La page **Feuille article** s'ouvre.  
 6.  Sous l'onglet **Actions**, dans le groupe **Fonctions**, sélectionnez **Calculer ajustement entrepôt**.  
-7.  Dans la fenêtre **Calculer ajustement entrepôt**, cliquez sur le bouton **OK** .  
-8.  Dans la fenêtre **Feuille article**, sous l’onglet **Actions**, dans le groupe **Fonctions**, sélectionnez **Valider**, puis cliquez sur le bouton **Oui**.  
+7.  Sur la page **Calculer ajustement entrepôt**, cliquez sur le bouton **OK** .  
+8.  Sur la page **Feuille article**, sous l’onglet **Actions**, dans le groupe **Fonctions**, sélectionnez **Valider**, puis cliquez sur le bouton **Oui**.  
 
 ### <a name="creating-the-assembly-items"></a>Création des articles d’assemblage  
 
@@ -221,7 +221,7 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
     > [!NOTE]  
     >  Le problème de disponibilité suivant existe pour la ligne commande vente pour le kit B :  
     >   
-    >  -   Le composant d’assemblage 80210 n’est pas disponible. Cela signifie que les trois unités spécifiées de kit B ne peuvent pas être assemblées, indiquées par **0** dans le champ **Capacité d'assembler** dans la fenêtre **Disponibilité assemblage**.  
+    >  -   Le composant d’assemblage 80210 n’est pas disponible. Cela signifie que les trois unités spécifiées de kit B ne peuvent pas être assemblées, indiquées par **0** dans le champ **Capacité d'assembler** sur la page **Disponibilité assemblage**.  
     >   
     >  Le problème de disponibilité suivant existe pour la ligne commande vente pour le kit A :  
     >   
@@ -231,7 +231,7 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 
 4.  Sélectionnez la ligne commande vente pour trois unités de kit B.  
 5.  Sur le raccourci **Lignes**, sélectionnez **Ligne**, puis **Assembler pour commande** et **Lignes d'assemblage pour commande**.  
-6.  Dans la fenêtre **Lignes Assembler pour commande**, sur la ligne d'ordre d'assemblage pour l'article 80014, entrez **2** dans le champ **Quantité par**.  
+6.  Sur la page **Lignes Assembler pour commande**, sur la ligne d'ordre d'assemblage pour l'article 80014, entrez **2** dans le champ **Quantité par**.  
 7.  Sur la ligne d'ordre d'assemblage pour l'article 80210, choisissez le champ **N°** , puis sélectionnez l'article 80209 à la place.  
 8.  Créez une ligne ordre d’assemblage à l’aide des informations suivantes.  
 
@@ -239,7 +239,7 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
     |----------|---------|------------------|  
     |Article|80203|1|  
 
-9. Fermez la fenêtre **Lignes d'assemblage pour commande**.  
+9. Fermez la page **Lignes d'assemblage pour commande**.  
 
     Ensuite, mettez à jour le prix unitaire du kit B en fonction de la personnalisation que vous venez d’exécuter. Prenez note de la valeur actuelle dans le champ **Prix unitaire HT**.  
 
@@ -247,7 +247,7 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 11. Cliquez sur le bouton **Oui**. Prenez note de la valeur augmentée dans le champ **Prix unitaire HT**.  
 12. Sélectionnez la ligne commande vente pour 15 unités de kit A.  
 13. Sur le raccourci **Lignes**, sélectionnez **Ligne**, puis **Assembler pour commande** et **Lignes d'assemblage pour commande**.  
-14. Dans la fenêtre **Lignes Assembler pour commande**, créez une ligne ordre d’assemblage à l’aide des informations suivantes.  
+14. Sur la page **Lignes Assembler pour commande**, créez une ligne ordre d'assemblage à l'aide des informations suivantes.  
 
     |Type|N°|Quantité par|  
     |----------|---------|------------------|  
@@ -264,9 +264,9 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille planning**, puis sélectionnez le lien associé.  
 2.  Sous l’onglet **Action**, dans le groupe **Fonctions**, choisissez **Calculer planning régénératif**.  
-3.  Dans la fenêtre **Calculer planning**, définissez les filtres suivants.  
+3.  Sur la page **Calculer planning**, définissez les filtres suivants.  
 
-    |Date début|Date fin|N°|  
+    |Date de début|Date de fin|N°|  
     |-------------------|-----------------|---------|  
     |23-01-2014|27-01-2014|Kit A - PC de base|  
 
@@ -275,7 +275,7 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
     Une nouvelle ligne planning est créée pour l'ordre d'assemblage nécessaire de dix unités, dû le 27 janvier. Elle n'a besoin d'aucune modification ; vous pouvez créer la commande.  
 
 5.  Sous l'onglet **Actions**, dans le groupe **Fonctions**, choisissez **Traiter messages d'action**.  
-6.  Dans la fenêtre **Traiter messages d’action**, choisissez le champ **Ordre d’assemblage**, puis sélectionnez **Créer des ordres d’assemblage**.  
+6.  Sur la page **Traiter messages d’action**, choisissez le champ **Ordre d'assemblage**, puis sélectionnez **Créer des ordres d'assemblage**.  
 7.  Cliquez sur le bouton **OK**.  
 
 ### <a name="assembling-and-shipping-the-first-ato-quantity"></a>Assemblage et expédition de la première quantité « assembler pour commande »  
@@ -311,14 +311,14 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 
     Revenez à l’exécution des tâches d’expédition.  
 
-8.  Rouvrez la fenêtre **Expédition entrepôt**.  
+8.  Rouvrez la page **Expédition entrepôt**.  
 
     Notez que le champ **Qté prélevée** est toujours blanc sur toutes les lignes. Ceci est dû au fait que vous n’avez toujours pas prélevé les articles à expédier, mais uniquement les composants nécessaires pour assembler les quantités « assembler pour commande ».  
 
     Révisez l’ordre d’assemblage lié.  
 
 9. Sélectionnez la ligne expédition pour trois unités de kit B.  
-10. Sur le raccourci **Lignes**, sélectionnez **Ligne**, puis **Assembler pour commande**. La fenêtre **Ordre d'assemblage** s'ouvre.  
+10. Sur le raccourci **Lignes**, sélectionnez **Ligne**, puis **Assembler pour commande**. La page **Ordre d'assemblage** s'ouvre.  
 
     Notez que plusieurs champs de l’ordre d’assemblage ne sont pas disponibles parce que la commande est liée à une commande vente.  
 
@@ -330,7 +330,7 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 
     Le champ **Quantité à assembler** est modifiable et permet de prendre en charge des situations où vous voulez expédier partiellement une quantité en stock au lieu d’assembler plus d’unités à la commande. Pour plus d'informations, voir la section « Scénarios de combinaison » dans [Description des processus Assembler pour commande et Assembler pour stock](assembly-assemble-to-order-or-assemble-to-stock.md).  
 
-12. Fermez la fenêtre **Ordre d'assemblage** pour revenir à la fenêtre **Expédition entrepôt**.  
+12. Fermez la page **Ordre d'assemblage** pour revenir à la page **Expédition entrepôt**.  
 13. Sur la ligne expédition pour trois unités du kit B, dans le champ **Qté à expédier**, entrez **3**.  
 14. Sous l’onglet **Actions**, dans le groupe **Validation**, choisissez **Valider expédition**, puis sélectionnez **Expédier**.  
 
@@ -356,11 +356,11 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
     Ensuite, enregistrez que l’ordre d’assemblage est terminé.  
 
 3.  Sous l’onglet **Naviguer**, dans le groupe **Entrepôt**, choisissez **Ligne expédition entrepôt Assembler pour commande**.  
-4.  Dans la fenêtre **Ligne expédition entrepôt Assembler pour commande**, dans le champ **Qté à expédier**, entrez **5**, puis fermez la fenêtre.  
+4.  Sur la page **Ligne expédition entrepôt Assembler pour commande**, dans le champ **Qté à expédier**, entrez **5**, puis fermez la page.  
 
-    Remarquez dans la fenêtre **Ordre d'assemblage** que les champs **Quantité à assembler** et **Quantité à consommer** sont renseignés par les quantités de sortie et les quantités consommées qui seront validées avec l’expédition.  
+    Remarquez dans la page **Ordre d'assemblage** que les champs **Quantité à assembler** et **Quantité à consommer** sont renseignés par les quantités de sortie et les quantités consommées qui seront validées avec l'expédition.  
 
-5.  Fermez la fenêtre **Ordre d’assemblage**.  
+5.  Fermez la page **Ordre d'assemblage**.  
 
 ### <a name="assembling-the-ats-quantity"></a>Assemblage de la quantité « assembler pour stock »  
 
@@ -415,9 +415,9 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 
     Revenez à l’expédition entrepôt pour effectuer la dernière tâche.  
 
-8.  Rouvrez la fenêtre **Expédition entrepôt**.  
+8.  Rouvrez la page **Expédition entrepôt**.  
 
-    Dans la fenêtre **Expédition entrepôt**, sur la ligne pour dix unités de kit A, notez que les champs **Qté à expédier** et **Qté prélevée** contiennent désormais la valeur **10**.  
+    Sur la page **Expédition entrepôt**, sur la ligne pour dix unités de kit A, notez que les champs **Qté à expédier** et **Qté prélevée** contiennent désormais la valeur **10**.  
 
 9. Sous l’onglet **Actions**, dans le groupe **Validation**, choisissez **Valider expédition**, puis sélectionnez **Expédier**.  
 

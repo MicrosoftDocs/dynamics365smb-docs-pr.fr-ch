@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d52c54b18ccb7794f7556919e20b23df65c95acd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e00b99c963669bb8a8577d8277082e5656d45d66
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Gérer la configuration de la société dans une feuille
@@ -33,7 +33,7 @@ Les procédures suivantes expliquent comment ajouter et personnaliser les inform
 2.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille configuration**, puis sélectionnez le lien associé.  
 
 ## <a name="to-add-a-table-to-the-worksheet"></a>Pour ajouter une table à la feuille  
-1.  Dans la fenêtre **Feuille config.**, sélectionnez l'action **Modifier la liste**.  
+1.  Sur la page **Feuille config.**, sélectionnez l'action **Modifier la liste**.  
 2.  Sur la première ligne, dans le champ **Type ligne**, sélectionnez **Table**.  
 4.  Dans le champ **ID table**, sélectionnez la table que vous souhaitez ajouter à votre configuration.  
 5.  Dans le champ **ID page**, entrez l’ID de la page associée à la table. Pour les tables standard, cette valeur est automatiquement insérée. Pour les tables personnalisées, vous devez fournir l'ID.
@@ -53,7 +53,7 @@ Les procédures suivantes expliquent comment ajouter et personnaliser les inform
 10. Pour supprimer les informations de table en doublon, qui peuvent résulter de l'action **Extraire tables associées**, sélectionnez l'action **Supprimer les lignes en doublon**. Cette action supprime les tables en doublon ayant le même code de lot.  
 
 ## <a name="to-add-multiple-tables-to-the-configuration-worksheet"></a>Pour ajouter plusieurs tables à la feuille configuration  
-1. Sélectionnez l'action **Extraire tables**. La fenêtre de traitement par lots **Extraire table config.** s'ouvre.  
+1. Sélectionnez l'action **Extraire tables**. La page de traitement par lots **Extraire table config.** s'ouvre.  
 2. Sur le raccourci **Options**, spécifiez les types de tables à ajouter à la configuration, comme décrit dans le tableau suivant.
 
     |Option|Désignation|  
@@ -73,7 +73,7 @@ Les procédures suivantes expliquent comment ajouter et personnaliser les inform
     > - La relation est conditionnelle.  
     > Exemple : si vous obtenez des tables liées pour la table **Client**, la table **Magasin** n'est pas ajoutée, car elle est uniquement liée conditionnellement à la table **Client**, à savoir si le champ **Code magasin** dans la table **Client** est renseigné.  
     > - La table liée est filtrée.  
-    > Exemple : un champ dans la table liée a une clause WHERE. La raison en est que les informations des relations associées sont stockées dans la table virtuelle **Champ** et ne sont pas disponibles dans des fenêtres telles que la feuille de configuration, pour des raisons de performances.  
+    > Exemple : un champ dans la table liée a une clause WHERE. La raison en est que les informations des relations associées sont stockées dans la table virtuelle **Champ** et ne sont pas disponibles sur des pages telles que la feuille de configuration, pour des raisons de performances.  
     > Vous devez ajouter des tables associées avec ces relations complexes manuellement en suivant l'étape 4 dans la section « Pour ajouter une table à la feuille ».
 
 7. Pour supprimer des tables dans la liste des tables résultantes, sélectionnez une table à supprimer, puis sélectionnez l'action **Supprimer**.  

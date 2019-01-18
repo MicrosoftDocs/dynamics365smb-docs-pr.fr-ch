@@ -8,26 +8,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 05/15/2018
+ms.date: 11/23/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 4bc9199b879c23115082b07a81d6da5a0b46e60d
-ms.openlocfilehash: 00e0d0a131b586d3aee39b3d08064defff81814a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c7f0af8d3535f558567cd40c841909cd151ce313
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/31/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="add-clients-to-your-dashboard-in-include-d365acclongincludesd365acclongmdmd"></a>Ajouter des clients à votre tableau de bord dans [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
 
-Vous pouvez ajouter un client à l'aide de la fenêtre **Clients**, que vous pouvez ouvrir en cliquant sur l'action **Gérer les clients** dans le ruban. Il suffit de sélectionner **Nouveau**, puis de renseigner les champs.  
+Vous pouvez ajouter un client à l'aide de la page **Clients**, que vous pouvez ouvrir en cliquant sur l'action **Gérer les clients** dans le ruban. Il suffit de sélectionner **Nouveau**, puis de renseigner les champs.  
 
-![Ajouter un client](./media/accountant-add-client/manage-client.png)
+> [!div class="mx-imgBorder"]
+> ![Ajouter un client](./media/accountant-add-client/manage-client.png)
 
 Les données de la fiche de chaque client sont spécifiées par vous, et vous pouvez les modifier selon vos besoins. Toutefois, le champ **URL client** est indispensable, car il vous permet d'accéder au [!INCLUDE [d365fin](includes/d365fin_md.md)] de chaque client. Utilisez l'action **Valider l'URL client** dans le ruban pour vérifier que vous avez saisi le bon lien. L'URL que vous devez saisir pointe vers l'instance [!INCLUDE [d365fin](includes/d365fin_md.md)] du client et inclut son adresse de domaine. Par exemple, s'il a spécifié un domaine tel que MyBusiness.com, le lien vers son instance [!INCLUDE [d365fin](includes/d365fin_md.md)] est *https://businesscentral.dynamics.com/mybusiness.com?redirectedfromsignup=1*.  
 
 > [!NOTE]
->  Avant la mise à jour de mai 2018, l'URL spécifiée avait un format différent avec le nom de la société du client au début. Avec la mise à jour de mai 2018, le format est ```https://businesscentral.dynamics.com/clientdomain?redirectedfromsignup=1```, où ```clientdomain``` représente le domaine de votre client.  
+>  Avant la mise à jour de mai 2018, l'URL spécifiée avait un format différent avec le nom de la société du client au début. Dans la version actuelle de [!INCLUDE [d365fin](includes/d365fin_md.md)], le format est ```https://businesscentral.dynamics.com/clientdomain?redirectedfromsignup=1```, où ```clientdomain``` représente le domaine de votre client.  
 
 L'URL du client est ensuite utilisée lorsque vous choisissez l'option de menu **Atteindre société** dans le tableau de bord [!INCLUDE [d365acc](includes/d365acc_md.md)].  
 

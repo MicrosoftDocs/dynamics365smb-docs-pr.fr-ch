@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b31591784c927f67f541d997f54e97ef696f63bb
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 410439c6a7b0aacc31f1a191b9b4540d0aa6a5e8
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Ranger des articles avec le rangement stock
@@ -24,7 +24,7 @@ Lorsque votre magasin est configuré pour exiger un traitement des rangements, m
 
 Vous pouvez créer un rangement stock de trois manières :  
 
-- Créez le rangement en deux étapes en créant d'abord une demande entrepôt à partir du document origine, qui signale à l'entrepôt que le document origine est prêt pour rangement. Le rangement stock peut ensuite être créé à partir de la fenêtre **Rangement stock** sur la base du document origine.  
+- Créez le rangement en deux étapes en créant d'abord une demande entrepôt à partir du document origine, qui signale à l'entrepôt que le document origine est prêt pour rangement. Le rangement stock peut ensuite être créé à partir de la page **Rangement stock** sur la base du document origine.  
 - Créez le rangement stock directement à partir du document origine proprement dit.  
 - Créez des rangements stock pour plusieurs documents simultanément en utilisant un traitement par lots.  
 
@@ -59,13 +59,13 @@ Maintenant que la demande est créée, le magasinier peut créer un nouveau rang
 
 ## <a name="to-create-multiple-inventory-put-aways-with-a-batch-job"></a>Pour créer plusieurs rangements stock avec un traitement par lots  
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Créer prélèv./rangement stock**, puis sélectionnez le lien associé.  
-2.  Sur le raccourci **Demande entrepôt** de la fenêtre demande, utilisez les champs **Document origine** et **N° origine** pour opérer un filtrage sur certains types de documents ou des plages de numéros de document.  
+2.  Sur le raccourci **Demande entrepôt** de la page demande, utilisez les champs **Document origine** et **N° origine** pour opérer un filtrage sur certains types de documents ou des plages de numéros de document.  
 3.  Sur le raccourci **Options**, cochez la case **Créer rangement stock**.
 4.  Cliquez sur le bouton **OK**. Les rangements stock spécifiés sont créés.
 
 ## <a name="to-record-the-inventory-put-away"></a>Pour enregistrer les rangements stock  
-1. Ouvrez un document rangement déjà créé en en sélectionnant un dans **Rangements stock**.  
-2. Dans le champ **Code emplacement** sur les lignes rangement, l'emplacement où les articles doivent être rangés est proposé sur la base d'un emplacement par défaut de l'article. Vous pouvez modifier l'emplacement dans cette fenêtre, si nécessaire.  
+1. Ouvrez un document rangement déjà créé en en sélectionnant un sur la page **Rangements stock**.  
+2. Dans le champ **Code emplacement** sur les lignes rangement, l'emplacement où les articles doivent être rangés est proposé sur la base d'un emplacement par défaut de l'article. Vous pouvez modifier l'emplacement sur la page, si nécessaire.  
 3. Exécutez le rangement et saisissez les informations pour la quantité effectivement rangée dans le champ **Quantité à traiter**.
 
     S'il s'avère nécessaire de placer les articles d'une ligne dans plusieurs emplacements, notamment parce que l'emplacement indiqué est plein, alors utilisez la fonction **Eclater ligne** sur le raccourci **Lignes**. Pour plus d'informations sur l'éclatement des lignes, voir [Répartir des lignes activité entrepôt](warehouse-how-to-split-warehouse-activity-lines.md).  

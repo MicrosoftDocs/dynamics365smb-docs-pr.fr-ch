@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 7dbdc368350687c9ac8ab78d13312aa059f1c385
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5540c45eefb1272c5dfa5c790586f6b33b4f4848
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="sell-items-assembled-to-order"></a>Vente d'articles à assembler pour commande
@@ -38,24 +38,24 @@ Dans cette procédure, vous effectuez la vente d'un article que vous assemblez s
 5.  Dans le champ **Quantité**, entrez le nombre d'unités à vendre.  
 
     > [!NOTE]  
-    >  Si un ou plusieurs composants de la quantité d'éléments d'assemblage demandée ne sont pas disponibles, une fenêtre détaillée d'avertissement de disponibilité s'ouvre. Pour plus d'informations, voir Disponibilité assemblage.  
+    >  Si un ou plusieurs composants de la quantité d'éléments d'assemblage demandée ne sont pas disponibles, une page détaillée d'avertissement de disponibilité s'ouvre. Pour plus d'informations, voir Disponibilité assemblage.  
 
     Un ordre d'assemblage est maintenant automatiquement créé et est lié à la ligne commande vente. La date d'échéance de cet ordre d'assemblage est synchronisée avec la date d'expédition de la ligne commande vente.  
 
     La quantité à vendre est copiée dans le champ **Quantité à assembler pour commande**, ce qui indique que d'après la configuration la quantité totale de la ligne vente doit être assemblée à la commande. Vous pouvez réduire la quantité à assembler pour commande, par exemple si vous savez que certains articles sont déjà disponibles. Pour plus d’informations, voir [Vente d'articles en stock dans des flux à assembler pour commande](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
 
 6.  Pour indiquer que le client souhaite un article supplémentaire dans un kit, sur le raccourci **Lignes**, sélectionnez l'action **Ligne**, sélectionnez l'action **Assembler pour commande**, puis sélectionnez l'action **Lignes d'assemblage pour commande** pour visualiser et modifier les composants d'assemblage standard. Sinon, choisissez le champ **Quantité à assembler pour commande**.  
-7.  Dans la fenêtre **Lignes d'assemblage pour commande**, créez une nouvelle ligne de type **Article** pour le contenu du kit supplémentaire demandé. La ligne représente un composant supplémentaire d'assemblage.  
+7.  Sur la page **Lignes d'assemblage pour commande**, créez une nouvelle ligne de type **Article** pour le contenu du kit supplémentaire demandé. La ligne représente un composant supplémentaire d'assemblage.  
 
     Vous pouvez également personnaliser la commande en augmentant la quantité d'un article standard dans le kit. Vous pouvez effectuer cette opération en augmentant la valeur du champ **Quantité par** de la ligne d'ordre d'assemblage spécifique.  
 
     > [!NOTE]  
-    >  La fenêtre **Lignes d'assemblage pour commande** contient seulement les champs de base qu'un vendeur est supposé utiliser pour personnaliser la liste de composants, ajouter des numéros de traçabilité ou pour résoudre des problèmes de disponibilité des composants. Pour plus d'informations en matière d'ordre d'assemblage, telles que la date de début d'ordre d'assemblage, choisissez l'action **Afficher documents**. Ceci ouvre l'affichage complet de l'ordre d'assemblage lié à la ligne commande vente. Vous ne pouvez pas modifier les contenus de la plupart des champs de l'en-tête d'ordre d'assemblage et vous ne pouvez pas valider les résultats d'assemblage parce que vous devez utiliser la validation d'expédition de la ligne commande vente.  
+    >  La page **Lignes d'assemblage pour commande** contient seulement les champs de base qu'un vendeur est supposé utiliser pour personnaliser la liste de composants, ajouter des numéros de traçabilité ou pour résoudre des problèmes de disponibilité des composants. Pour plus d'informations en matière d'ordre d'assemblage, telles que la date de début d'ordre d'assemblage, choisissez l'action **Afficher documents**. Ceci ouvre l'affichage complet de l'ordre d'assemblage lié à la ligne commande vente. Vous ne pouvez pas modifier les contenus de la plupart des champs de l'en-tête d'ordre d'assemblage et vous ne pouvez pas valider les résultats d'assemblage parce que vous devez utiliser la validation d'expédition de la ligne commande vente.  
     >   
     >  Sur l'en-tête des ordres d'assemblage associé, seul le champ **Date début** peut être modifié pour permettre aux employés d'assemblage de spécifier une date antérieure à la date d'échéance lorsqu'ils commencent le processus. Tous les champs des lignes de l'ordre d'assemblage associé peuvent être modifiés afin que les magasiniers puissent entrer les chiffres de consommation pendant le processus.  
 
 8.  Examinez les problèmes de disponibilité des composants ou réagissez face à eux. Par exemple, sélectionnez un article de substitution disponible ou définissez une date d'échéance ultérieure.  
-9. Fermez la fenêtre **Lignes d'assemblage pour commande**. L'ordre d'assemblage lié est maintenant prêt à commencer à assembler les articles personnalisés au plus tard à la date d'échéance.  
+9. Fermez la page **Lignes d'assemblage pour commande**. L'ordre d'assemblage lié est maintenant prêt à commencer à assembler les articles personnalisés au plus tard à la date d'échéance.  
 10. Sur la commande vente, choisissez l'action **Lancer** pour informer le département d’assemblage que le processus d’assemblage peut démarrer.  
 11. Dans le département d'assemblage, suivez la procédure d'assemblage des articles qui sont vendus au cours de cette procédure. Pour plus d'informations, voir [Assembler des articles](assembly-how-to-assemble-items.md).  
 

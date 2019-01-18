@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 36e7d2f3d43a966cd97fba3c92f3fd20b6b1c585
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4d4aaa82077d3628bbf75a9bc169d73ecc651884
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-production-orders-from-sales-orders"></a>Créer des ordres de fabrication à partir de commandes achat
@@ -26,7 +26,7 @@ Vous pouvez créer des ordres de fabrication pour les articles produits directem
 
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes vente**, puis sélectionnez le lien associé.  
 2.  Sélectionnez la commande vente pour laquelle vous voulez créer un ordre de fabrication.  
-3.  Sélectionnez l'action **Planification**. Dans la fenêtre **Planification commande vente**, vous pouvez afficher la disponibilité de l'article de commande vente.  
+3.  Sélectionnez l'action **Planification**. Sur la page **Planification commande vente**, vous pouvez afficher la disponibilité de l'article de commande vente.  
 4.  Sélectionnez l'action **Créer O.F**.  
 5.  Sélectionnez le statut et le type de commande.  
 6.  Cliquez sur le bouton **oui** pour créer l'ordre de fabrication.

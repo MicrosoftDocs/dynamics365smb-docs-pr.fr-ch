@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 1456847f19b72636cfb95e1e66cca1091959cc07
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 753b1fb7dcade062228e1d14d5bb9a19ffd0703a
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="export-payments-using-lsv"></a>Exporter des paiements en mode LSV
@@ -25,9 +25,9 @@ Vous pouvez exporter ou écrire des fichiers Lastschrift Verfahren (LSV +) conte
 ## <a name="to-export-payments-using-lsv"></a>Pour exporter des paiements en mode LSV  
 
 1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Liste feuilles LSV**, puis sélectionnez le lien connexe.  
-2.  Dans la fenêtre **Liste feuilles LSV**, sélectionnez la feuille LSV nécessaire.  
+2.  Dans la page **Liste feuilles LSV**, sélectionnez la feuille LSV nécessaire.  
 3.  Choisissez l'action **Écrire le fichier LSV**.  
-4.  Dans la fenêtre **Écrire le fichier LSV**, sur le raccourci **Options**, renseignez les champs comme indiqué dans le tableau suivant.  
+4.  Dans la page **Écrire le fichier LSV**, sur le raccourci **Options**, renseignez les champs comme indiqué dans le tableau suivant.  
 
     |Champ|Désignation|  
     |---------------------------------|---------------------------------------|  

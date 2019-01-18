@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f9f93fcf80524f18c9ff83b74d64231d1a033bae
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 80c2912836d8f11a8e3cf869b9412ad9ed66ca54
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-inventory-posting"></a>Détails de conception : comptabilisation stock
@@ -29,7 +29,7 @@ Chaque mouvement stock, par exemple une réception achat ou une expédition vent
 
  En rapport avec les validations de quantité, les écritures lettrage article existent pour lier l'entrée de stock avec la sortie de stock. Cela permet au moteur d'évaluation de transférer les cous des augmentations aux diminutions liées et vice versa. Pour plus d'informations, voir [Détails de conception : traçabilité](design-details-item-application.md).  
 
- Les écritures comptables article, les écritures valeur, ainsi que les écritures lettrage article sont créées suite à la validation d'une ligne feuille article, soit indirectement lors de la validation d'une ligne commande, soit directement dans la fenêtre feuille article.  
+ Les écritures comptables article, les écritures valeur, ainsi que les écritures lettrage article sont créées suite à la validation d'une ligne feuille article, soit indirectement lors de la validation d'une ligne commande, soit directement sur la page feuille article.  
 
  À intervalles réguliers, les écritures valeur créées parmi les écritures comptables d'inventaire sont validées en comptabilité pour rapprocher les deux comptabilités à des fins de contrôle financier. Pour plus d'informations, voir [Détails de conception : rapprochement de comptabilité](design-details-reconciliation-with-the-general-ledger.md).  
 

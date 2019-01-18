@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0a1a2a100fbbd0d21c3934802b624e370592bd9e
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 69630c095da4072f31f678895ee73ab74cc8cdad
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="migrate-customer-data"></a>Migrer des données client
 Vous pouvez migrer des données client existantes d'un système ERP existant vers [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des outils de migration de données de RapidStart Services. Vous pouvez utiliser des fichiers Excel comme supports d’informations. Vous pouvez également déplacer manuellement les données en les entrant directement dans la société.
 
-Les fenêtres **Aperçu migration** et **Feuille config.** permettent d’accéder aux fonctionnalités et aux vues pour exécuter toutes les tâches associées à la migration des données. Il est recommandé de migrer une table à la fois, afin de gérer les dépendances dans vos données. Lors de la migration, vous toucherez également aux tables de données principales, contenant des informations relatives aux clients, fournisseurs, articles, contacts et à la comptabilité.  
+Les pages **Aperçu migration** et **Feuille config.** permettent d’accéder aux fonctionnalités et aux vues pour exécuter toutes les tâches associées à la migration des données. Il est recommandé de migrer une table à la fois, afin de gérer les dépendances dans vos données. Lors de la migration, vous toucherez également aux tables de données principales, contenant des informations relatives aux clients, fournisseurs, articles, contacts et à la comptabilité.  
 
 ## <a name="to-import-configuration-packages"></a>Pour importer des packages de configuration
 Lorsque vous créez une société, vous pouvez importer les paramètres d'une société dans la nouvelle la société. Vous importez les paramètres à partir d'un fichier .rapidstart, qui fournit le contenu du package sous un format compressé. Un ensemble correspondant de tables de migration de données par défaut sont importées. L'ensemble de données contient des tables de données principales et les tables de données de configuration. Lors d'une migration de données, la première tâche consiste à déterminer si la configuration de la migration par défaut répond aux besoins de la nouvelle société.
@@ -58,9 +58,9 @@ Si la sélection de tables ne répond pas à vos besoins, vous pouvez créer un 
 Vous pouvez créer de nouveaux fichiers de migration de données et les personnaliser pour prendre en charge les processus de l'entreprise. Notez qu'un fichier peut uniquement être utilisé pour migrer un champ dont la propriété **FieldClass** est définie sur **Normal**.  
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Package configuration**, puis sélectionnez le lien associé.  
-2. Sélectionnez et ouvrez le package que vous souhaitez utiliser pour migrer les données, puis sélectionnez l'action **Extraire tables**. La fenêtre **Extraire tables package** s’ouvre.  
+2. Sélectionnez et ouvrez le package que vous souhaitez utiliser pour migrer les données, puis sélectionnez l'action **Extraire tables**. La page **Extraire tables package** s’ouvre.  
 3. Dans le champ **TableID**, entrez un numéro de table ou sélectionnez une table dans la liste, par exemple, la table 18, **Client**. Le champ **Nom table** est automatiquement renseigné.  
-4. Sélectionnez la nouvelle table de migration, puis sous l'onglet **Tables**, choisissez l'action **Champs**. La fenêtre **Champs migration** s'ouvre.  
+4. Sélectionnez la nouvelle table de migration, puis sous l'onglet **Tables**, choisissez l'action **Champs**. La page **Champs migration** s'ouvre.  
 5. Désactivez la case à cocher **Inclure champ** pour tout champ que vous ne souhaitez pas importer, puis choisissez l'action **Définir inclus** ou **Effacer inclus**.  
 
 > [!IMPORTANT]  
@@ -100,7 +100,7 @@ Dans les procédures suivantes, vous devez rechercher à l'avance les valeurs qu
 4. Pour chaque champ à associer, choisissez l'action **Correspondance**.  
 5. Dans le champ **Ancienne valeur**, saisissez la valeur que vous souhaitez modifier. Dans le champ **Nouvelle valeur**, saisissez la valeur dont vous souhaitez qu'elle remplace l'ancienne valeur. Cliquez sur le bouton **OK**.  
 6. Importez les données client. Pour plus d'informations, consultez la section « Pour importer les données client ».
-7. Dans le champ **N° d'erreurs de lot**, vérifiez si des erreurs ont été signalées. S'il y en a, examinez les erreurs de près. La fenêtre **Enregistrements package config.** s’ouvre.
+7. Dans le champ **N° d'erreurs de lot**, vérifiez si des erreurs ont été signalées. S'il y en a, examinez les erreurs de près. La page **Enregistrements package config.** s'ouvre.
 8. Choisissez l'action **Afficher erreur**. Vous recevrez l'erreur suivante : **<option> n'est pas une option valide. Les options valides sont <valid option list>**. Cliquez sur le bouton **OK**.  
 9. Pour appliquer le mappage que vous avez paramétré, sélectionnez l'action **Appliquer données**.  
 
@@ -134,7 +134,7 @@ Lorsque vous avez exporté une table de migration, l'étape suivante consiste à
 
 Pour obtenir de l'aide concernant XML, activez l'onglet **Développeur** du ruban Excel, puis sélectionnez l'action **Source** pour afficher le schéma XML de votre table de migration représentée dans Excel.
 
-La procédure suivante est basée sur une feuille de calcul Excel que vous avez créée pour la migration. Pour plus d'informations, reportez vous à la Procédure : exporter des tables de migration.
+La procédure suivante est basée sur une feuille de calcul Excel que vous avez créée pour la migration. Pour plus d'informations, consultez la section « Pour exporter les fichiers de migration de données ».
 
 > [!IMPORTANT]  
 > Ne modifiez pas les colonnes dans les feuilles de calcul Excel. Si elles sont déplacées, modifiées ou supprimées, la feuille de calcul ne peut pas être importée dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -151,7 +151,7 @@ Vous êtes maintenant prêt à importer les fichiers de migration de données qu
 ## <a name="to-import-customer-data"></a>Pour importer les données client
 Lorsque les données client ont été entrées dans les fichiers de migration de données de format Excel, vous importez ces fichiers dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-1. Ouvrez la fenêtre **Fiche package config**.
+1. Ouvrez la page **Fiche package config**.
 2. Sélectionnez la table pour laquelle vous souhaitez importer des données, puis sous l'onglet **Tables**, sélectionnez l'action **Importer d'Excel**.
 3. Recherchez et ouvrez le fichier à partir duquel vous voulez importer les données dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
@@ -163,21 +163,21 @@ Les données client doivent être validées avant d'appliquer les enregistrement
 > [!NOTE]  
 >  Le plus souvent, les données invalides ne sont pas créées dans la base de données. Toutefois, l'application peut de temps à autre être bloquée si une table migration importée comporte des erreurs.  
 
-1. Dans la fenêtre **Aperçu migration**, examinez le champ **Nombre de erreurs de migration** pour vérifier si des erreurs se sont produites lors de l'importation.  
+1. Sur la page **Aperçu migration**, examinez le champ **Nombre de erreurs de migration** pour vérifier si des erreurs se sont produites lors de l'importation.  
 2. S’il existe des erreurs, sélectionnez la table de migration, puis sous l'onglet **Tables**, sélectionnez l'action **Erreurs**. Le champ à cocher **Non valide** est sélectionné pour chaque enregistrement qui comporte une erreur.  
 3. Pour examiner les erreurs, sélectionnez une ligne, puis choisissez l'action **Afficher erreur**.  
 
     Le champ **Texte erreur** indique le motif de l'erreur. Le champ **Légende champ** comprend le libellé du champ qui contient l'erreur.  
-4.  Pour corriger une erreur ou effectuer une mise à jour, dans la fenêtre **Aperçu migration**, choisissez l'action **Enregistrement de migration**, puis dans la fenêtre **Enregistrement de migration**, corrigez l'enregistrement contenant l'erreur.  
+4.  Pour corriger une erreur ou effectuer une mise à jour, sur la page **Aperçu migration**, choisissez l'action **Enregistrement de migration**, puis sur la page **Enregistrement de migration**, corrigez l'enregistrement contenant l'erreur.  
 
-Lorsque vous effectuez une correction, l'enregistrement est supprimé de la liste des enregistrements dans la fenêtre **Erreurs de migration des données**.  
+Lorsque vous effectuez une correction, l'enregistrement est supprimé de la liste des enregistrements sur la page **Erreurs de migration des données**.  
 
 Vous êtes maintenant prêt à appliquer les informations du client dans la base de données.  
 
 ## <a name="to-apply-customer-data"></a>Pour appliquer des données client
 Lorsque vous avez importé tous les enregistrements de migration de données valides et sans erreurs, vous pouvez les appliquer à la base de données de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-1. Ouvrez la fenêtre **Packages configuration**.  
+1. Ouvrez la page **Packages configuration**.  
 2. Sélectionnez la table pour le fichier de migration des données à appliquer, puis sélectionnez l'action **Appliquer données**.
 
 Vous pouvez consulter le nombre d'enregistrements de base de données qui ont été créés dans le champ **Nombre enregistrements base de données**. Vous pouvez vérifier que les enregistrements corrects ont été créés en cliquant sur le lien dans le champ **Nombre enregistrements base de données**.  

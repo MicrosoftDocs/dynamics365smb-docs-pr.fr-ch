@@ -1,6 +1,6 @@
 ---
 title: "Configurer des recommandations - Paramètres de planification | Microsoft Docs"
-description: "Le raccourci **Planning** de la fiche article est le cœur de la chaîne d'approvisionnement de la société. Définir des paramètres appropriés de planification est très important pour une gestion rentable des stocks et un service client de haute qualité."
+description: "Le raccourci Planning de la fiche article est le cœur de la chaîne d'approvisionnement de la société. Définir des paramètres appropriés de planification est très important pour une gestion rentable des stocks et un service client de haute qualité."
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: 78d97c11662f2e05e17e15213406076ae5bba7a6
+ms.sourcegitcommit: b8a5f4dcfa9a4e3f728c8de3786e7d5716ac82c7
+ms.openlocfilehash: 69344bcc4004ce29a58e8475235a97cf9196605d
 ms.contentlocale: fr-ch
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 10/04/2018
 
 ---
 # <a name="setup-best-practices-planning-parameters"></a>Configurer des recommandations : paramètres de planification

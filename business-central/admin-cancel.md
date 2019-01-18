@@ -11,10 +11,10 @@ ms.search.keywords: remove, delete
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 473b2fb8f20b30ce49265e6891a99291b663f6a8
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 3da4de9eee04f240d88d4128fefe273999f20cfc
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="unsubscribe-remove-or-reset-included365finincludesd365finmdmd"></a>Annuler un abonnement, supprimer, ou réinitialiser [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -38,7 +38,7 @@ Pour fermer votre compte, actuellement, vous devez l'équipe d'annulation [!INCL
 Si vous vous êtes abonné à [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide d'un compte Office 365 non professionnel, vous n'avez pas d'administrateur Office 365. Au lieu de cela, vous devez annuler votre abonnement en contactant l'équipe d'annulation [!INCLUDE[d365fin](includes/d365fin_md.md)] en lui envoyant un e-mail à l'adresse cancelbusinesscentra@microsoft.com. Vous devez inclure votre nom d'abonné [!INCLUDE[d365fin](includes/d365fin_md.md)] dans le message de sorte que nous puissions vous identifier. La méthode la plus facile consiste à copier l'URL de votre page d'accueil [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="resetting-your-included365finincludesd365finmdmd-experience"></a>Réinitialisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]
-Si vous avez ajouté des données à votre version d'évaluation gratuite de [!INCLUDE[d365fin](includes/d365fin_md.md)] et que vous souhaitez recommencer à zéro, vous pouvez créer une société avant de réinitialiser la première société. Si vous ouvrez la fenêtre **Sociétés**, vous pouvez créer une copie de votre société actuelle, vous déconnecter et vous connecter à votre nouvelle société, puis réinitialiser la société d'origine.  
+Si vous avez ajouté des données à votre version d'évaluation gratuite de [!INCLUDE[d365fin](includes/d365fin_md.md)] et que vous souhaitez recommencer à zéro, vous pouvez créer une société avant de réinitialiser la première société. Si vous ouvrez la page **Sociétés**, vous pouvez créer une copie de votre société actuelle, vous déconnecter et vous connecter à votre nouvelle société, puis réinitialiser la société d'origine.  
 > [!NOTE]  
 >   Lorsque vous réinitialisez une société que vous partagez avec d'autres collaborateurs de votre entreprise, vous devez vous assurer que personne d'autre n'est connecté lorsque vous réinitialisez la société.  
 

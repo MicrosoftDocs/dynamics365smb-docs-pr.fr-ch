@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: dd1bfde6dcffffa65ab58591d891a9f8b179a7eb
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 5a740651cd2413415076f2a29726793f0c36db02
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="view-load-on-work-and-machine-centers"></a>Afficher la charge des centres de charge et des postes de charge
-Dans les fenêtres **Fiche centre de charge** et **Fiche poste de charge**, vous pouvez afficher la charge de l'atelier en tant que résultat des ordres de fabrication planifiés et lancés.    
+Sur les pages **Fiche centre de charge** et **Fiche poste de charge**, vous pouvez afficher la charge de l'atelier en tant que résultat des ordres de fabrication planifiés et lancés.    
 
 ## <a name="to-view-the-load-on-work-centers"></a>Pour afficher la charge des centres de charge  
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Centres de charge**, puis sélectionnez le lien associé.  

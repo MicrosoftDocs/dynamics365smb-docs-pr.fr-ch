@@ -14,10 +14,10 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fa9f014519994ccd69200d8a015efb77bfbcb4fc
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 10d41fd87408a4dfe8d1b5de368c1a32a45e489b
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-loading-the-inventory-profiles"></a>Détails de conception : chargement des profils de stock
@@ -45,7 +45,7 @@ Pour trier les nombreuses sources de demande et d'approvisionnement, le système
  Le système de planification contrôle cela en s'exécutant via le profil de stock. Lorsqu'une nouvelle combinaison est trouvée, le programme crée un enregistrement de contrôle interne qui contient les informations de combinaison réelles. Le programme insère le point de stock comme enregistrement de contrôle, ou boucle externe. Par conséquent, les paramètres de planification appropriés en fonction d'une combinaison de variante et de magasin sont définis, et le programme peut passer à la boucle interne.  
 
 > [!NOTE]  
->  Le programme ne requiert pas que l'utilisateur saisisse un enregistrement de points de stock en entrant la demande et/ou l'approvisionnement pour une combinaison particulière de variante et de magasin. Par conséquent, si un point de stock n'existe pas pour une combinaison donnée, le programme crée son propre bilan de point de stock temporaire sur les données de fiche article. Si Magasin obligatoire a la valeur Oui dans la fenêtre Paramètres stock, un point de stock doit être créé ou Mag. composant par déf doit avoir la valeur Oui. Pour plus d'informations, voir [Détails de conception : demande à un magasin vide.](design-details-demand-at-blank-location.md).  
+>  Le programme ne requiert pas que l'utilisateur saisisse un enregistrement de points de stock en entrant la demande et/ou l'approvisionnement pour une combinaison particulière de variante et de magasin. Par conséquent, si un point de stock n'existe pas pour une combinaison donnée, le programme crée son propre bilan de point de stock temporaire sur les données de fiche article. Si Magasin obligatoire a la valeur Oui sur la page Paramètres stock, un point de stock doit être créé ou Mag. composant par déf doit avoir la valeur Oui. Pour plus d'informations, voir [Détails de conception : demande à un magasin vide.](design-details-demand-at-blank-location.md).  
 
 ## <a name="seriallot-numbers-are-loaded-by-specification-level"></a>Les numéros de série/lot sont chargés en fonction du niveau de détail  
  Les attributs sous forme de numéros de série/lot sont chargés dans le profil de stock avec l'offre et la demande auxquels ils sont affectés.  

@@ -13,16 +13,16 @@ ms.search.keywords: project invoice
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c646fe080cbdb867d58fb011ec9d94a1d8bd61b3
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 73894bb8c7193d96ca1f4c4f7c8b8394b1f26f5f
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="invoice-jobs"></a>Facturation des projets
 Au cours du projet, les coûts provenant de l'utilisation de ressources, de matières, et d'achats associés au projet peuvent s'accumuler. Au fur et à mesure de la progression du projet, ces transactions sont validées dans la feuille projet. Il est important que tous les coûts enregistrés dans la feuille projet avant de facturer le client.
 
-Vous pouvez facturer l'ensemble du projet à partir de la fenêtre **Lignes tâche projet** ou facturer uniquement les lignes facturables sélectionnées dans la fenêtre **Lignes planning**. La facturation peut avoir lieu une fois le projet terminé ou à certains intervalles au cours du projet sur la base d'une prévision de facture.
+Vous pouvez facturer l'ensemble du projet à partir de la page **Lignes tâche projet** ou facturer uniquement les lignes facturables sélectionnées sur la page **Lignes planning**. La facturation peut avoir lieu une fois le projet terminé ou à certains intervalles au cours du projet sur la base d'une prévision de facture.
 
 > [!NOTE]  
 >   Si vous sélectionnez **Facturable** dans le champ **Type ligne projet** dans les documents d'achat pour les achats associés au projet, les lignes planning projet prêtes pour facturation sont créées. Pour en savoir plus, voir [Gérer des fournitures d'un projet](projects-how-manage-project-supplies.md).
@@ -30,7 +30,7 @@ Vous pouvez facturer l'ensemble du projet à partir de la fenêtre **Lignes tâc
 ## <a name="to-create-and-post-a-job-sales-invoice"></a>Pour créer et valider une facture vente projet
 Vous pouvez créer une facture pour un projet ou pour une ou plusieurs tâches projet pour un client lorsque le travail à facturer est terminé ou lorsque la date de facturation dépendante d'une prévision de facture est atteinte.
 
-Dans la fenêtre **Projets**, vous pouvez facturer un client en sélectionnant le projet, puis en cliquant sur **Créer une facture vente projet**. La procédure suivante explique comment utiliser un traitement par lots pour facturer plusieurs projets.  
+Sur la page **Projets**, vous pouvez facturer un client en sélectionnant le projet, puis en cliquant sur **Créer une facture vente projet**. La procédure suivante explique comment utiliser un traitement par lots pour facturer plusieurs projets.  
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Projet Créer facture vente**, puis choisissez le lien associé.  
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -45,13 +45,13 @@ Vous pouvez créer une facture à partir des lignes planning projet et indiquer 
 3. Sélectionnez une tâche projet pour laquelle le champ **Type tâche projet** contient **Validation** puis, cliquez sur **Lignes planning projet**.  
 4. Dans une ligne planning projet, dans le champ **Qté à transférer à facturer**, saisissez la quantité de l'article, la ressource, le type de compte général sur lequel vous souhaitez facturer.  
 5. Cliquez sur **Créer facture vente**.
-6. Dans la fenêtre **Projet Créer facture vente**, saisissez la date de validation et si vous souhaitez créer une facture ou ajouter cette facture à une facture existante.
+6. Sur la page **Projet Créer facture vente**, saisissez la date de validation et si vous souhaitez créer une facture ou ajouter cette facture à une facture existante.
 7. Cliquez sur le bouton **OK**.  
 
     Dans la ligne planning projet, dans le champ **Qté à transférer à facturer**, vous pouvez visualiser la quantité.
-8. Dans la fenêtre **Lignes planning projet**, cliquez sur **Avoirs/Factures vente**.
+8. Sur la page **Lignes planning projet**, cliquez sur **Avoirs/Factures vente**.
 
-    La fenêtre **Facture vente** s'ouvre et affiche la quantité que vous avez transférée à la facture.  
+    La page **Facture vente** s'ouvre et affiche la quantité que vous avez transférée à la facture.  
 9. Apportez les modifications supplémentaires, puis cliquez sur **Valider**.
 
 > [!NOTE]  
@@ -65,11 +65,11 @@ Vous pouvez créer une facture à partir des lignes planning projet et indiquer 
 3. Dans le champ **Statut**, sélectionnez **Terminé**.
 4. Suivez les étapes d'aide pour calculer et valider les travaux en cours. Sinon, suivez les étapes 5 et 6 pour le faire manuellement.  
 5. Cliquez sur **Calculer TEC**.
-6. Dans la fenêtre **Projet Calculer TEC**, renseignez les champs comme nécessaire.  
+6. Sur la page **Projet Calculer TEC**, renseignez les champs comme nécessaire.  
 
      Les écritures TEC projet créées par le traitement par lots auront la case **Projet terminé** cochée pour indiquer qu'il s'agit d'écritures d’achèvement.  
 7. Cliquez sur **Projet Valider TEC en comptabilité**.
-8. Dans la fenêtre **Projet Valider TEC en comptabilité**, renseignez les champs selon vos besoins.  
+8. Sur la page **Projet Valider TEC en comptabilité**, renseignez les champs selon vos besoins.  
 
      Les écritures comptabilité TEC projet créées par le traitement par lots verront la case **Projet terminé** cochée pour indiquer qu'il s'agit d'écritures d’achèvement.
 

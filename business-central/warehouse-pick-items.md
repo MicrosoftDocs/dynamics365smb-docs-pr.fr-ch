@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4258d6b2edea44dbf86b649ffb4c515473421a55
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 6a51a509ae1281d7c6bfe19e5276b516982a5fa5
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="pick-items"></a>Prélèvement d'articles
@@ -27,9 +27,9 @@ Si vous décidez d'organiser et d'enregistrer votre activité de prélèvement a
 > [!NOTE]
 > Bien que le paramétrage soit appelé **Prélèvement requis**, vous pouvez quand même valider les expéditions directement à partir des documents commerciaux origine où vous cochez cette case.
 
-Si votre magasin est configuré pour nécessiter un traitement des prélèvements, mais pas un traitement des expéditions, vous utilisez la fenêtre **Prélèvement stock** pour organiser les informations de prélèvement, les imprimer, entrer le résultat du prélèvement effectif et valider les informations de prélèvement, ce qui valide les informations d'expédition des articles. Dans le cas du prélèvement de composants pour un ordre de fabrication, la validation du prélèvement valide également la consommation.
+Si votre magasin est configuré pour nécessiter un traitement des prélèvements, mais pas un traitement des expéditions, vous utilisez la page **Prélèvement stock** pour organiser les informations de prélèvement, les imprimer, entrer le résultat du prélèvement effectif et valider les informations de prélèvement, ce qui valide les informations d'expédition des articles. Dans le cas du prélèvement de composants pour un ordre de fabrication, la validation du prélèvement valide également la consommation.
 
-Si votre emplacement est configuré pour qu'il exige le traitement des prélèvements et celui des expéditions (ce qui implique que vous avez activé les champs **Prélèvement requis** et **Expédition requise** dans la fiche magasin), vous utilisez la fenêtre **Prélèvement entrepôt** pour gérer le prélèvement. Le prélèvement entrepôt fonctionne de manière similaire au prélèvement stock, si ce n'est qu'au lieu de valider les informations de prélèvement, vous enregistrez le prélèvement. Ce processus d'enregistrement ne valide pas l'expédition, mais assure simplement la disponibilité des articles pour expédition. En tant qu'administrateur entrepôt, vous pouvez utiliser des feuilles prélèvement pour organiser les informations de prélèvement avant de créer des instructions de prélèvement entrepôt.
+Si votre emplacement est configuré pour qu'il exige le traitement des prélèvements et celui des expéditions (ce qui implique que vous avez activé les champs **Prélèvement requis** et **Expédition requise** dans la fiche magasin), vous utilisez la page **Prélèvement entrepôt** pour gérer le prélèvement. Le prélèvement entrepôt fonctionne de manière similaire au prélèvement stock, si ce n'est qu'au lieu de valider les informations de prélèvement, vous enregistrez le prélèvement. Ce processus d'enregistrement ne valide pas l'expédition, mais assure simplement la disponibilité des articles pour expédition. En tant qu'administrateur entrepôt, vous pouvez utiliser des feuilles prélèvement pour organiser les informations de prélèvement avant de créer des instructions de prélèvement entrepôt.
 
 Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.   
 

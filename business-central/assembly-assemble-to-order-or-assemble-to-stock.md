@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e09bc15f21acbcdf55908064b9867728a7870fb4
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 1000447ed0f547fea9fc349900631b0a5f0ce107
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Description des processus Assembler pour commande et Assembler pour stock
@@ -38,7 +38,7 @@ En règle générale, vous utilisez *l'assemblage pour commande* pour les articl
 
 Dans le processus d'assemblage pour commande, l'article est assemblé en réponse à une commande vente et via un lien un-un entre l'ordre d'assemblage et la commande vente.  
 
-Lorsque vous entrez un article à assembler pour commande sur une ligne vente, un ordre d'assemblage est automatiquement créé avec un en-tête basé sur la ligne vente et avec des lignes qui reposent sur la nomenclature d'assemblage de l'article multipliée par la quantité de commande. Vous pouvez utiliser la fenêtre **Lignes Assembler pour commande** pour visualiser les lignes d'ordre d'assemblage liées afin de vous aider dans la personnalisation de l'élément d'assemblage et l'établissement d'une date de livraison qui est basée sur les informations de disponibilité des composants. Pour plus d'informations, reportez-vous à [Vente d'articles à assembler pour commande](assembly-how-to-sell-items-assembled-to-order.md).  
+Lorsque vous entrez un article à assembler pour commande sur une ligne vente, un ordre d'assemblage est automatiquement créé avec un en-tête basé sur la ligne vente et avec des lignes qui reposent sur la nomenclature d'assemblage de l'article multipliée par la quantité de commande. Vous pouvez utiliser la page **Lignes Assembler pour commande** pour visualiser les lignes d'ordre d'assemblage liées afin de vous aider dans la personnalisation de l'élément d'assemblage et l'établissement d'une date de livraison qui est basée sur les informations de disponibilité des composants. Pour plus d'informations, reportez-vous à [Vente d'articles à assembler pour commande](assembly-how-to-sell-items-assembled-to-order.md).  
 
 > [!NOTE]  
 >  Bien que cette tâche ne fasse pas partie du processus par défaut, vous pouvez vendre des quantités de stock avec les quantités à assembler pour commande. Pour plus d’informations, voir [Vente d'articles en stock dans des flux à assembler pour commande](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  

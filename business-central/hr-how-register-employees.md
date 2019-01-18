@@ -13,10 +13,10 @@ ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 82191dc19a1a40d8823c8292010e5b01e16f9f64
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 74750011c638cf3733e20d7ab996887108bc2159
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="register-employees"></a>Enregistrer les employés
@@ -24,15 +24,15 @@ Pour utiliser la fonctionnalité Ressources humaines, vous devez d'abord enregis
 
 Vous pouvez modifier les informations d'un salarié à tout moment. La mise à jour des enregistrements relatifs à vos salariés simplifie les tâches de gestion du personnel. Par exemple, si l'adresse d'un salarié change, vous pouvez l'enregistrer sur sa fiche salarié.
 
-Les procédures suivantes décrivent comment créer une première fiche salarié et comment affecter deux types d'informations à un salarié. En outre, vous pouvez affecter diverses autres informations connexes, telles que les qualifications et les motifs d'indisponibilité. Pour affecter les informations concernant les salariés vous devez choisir un champ ou une action dans la fenêtre **Fiche salarié**.
+Les procédures suivantes décrivent comment créer une première fiche salarié et comment affecter deux types d'informations à un salarié. En outre, vous pouvez affecter diverses autres informations connexes, telles que les qualifications et les motifs d'indisponibilité. Pour affecter les informations concernant les salariés vous devez choisir un champ ou une action sur la page **Fiche salarié**.
 
 > [!NOTE]  
-> Vous pouvez rembourser les frais engagés par les employés durant leurs activités professionnelles. Pour cela, vous devez renseigner les champs du raccourci **Paiements** dans la fenêtre **Fiche salarié**. Pour plus d'informations, voir [Enregistrer et rembourser les frais des employés](finance-how-record-reimburse-employee-expenses.md).
+> Vous pouvez rembourser les frais engagés par les employés durant leurs activités professionnelles. Pour cela, vous devez renseigner les champs du raccourci **Paiements** sur la page **Fiche salarié**. Pour plus d'informations, voir [Enregistrer et rembourser les frais des employés](finance-how-record-reimburse-employee-expenses.md).
 
 ## <a name="to-set-up-an-employee"></a>Pour configurer un salarié
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Employés**, puis choisissez le lien associé.
 2. Sélectionnez l'action **Nouveau**.
-3. Dans la fenêtre **Fiche salarié**, renseignez les champs comme nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Sur la page **Fiche employé**, renseignez les champs comme nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-insert-a-picture-of-an-employee"></a>Pour insérer une photo d'un salarié
 Si vous disposez d'une photo d'un salarié au format .bmp, vous pouvez l'insérer sur la fiche de ce dernier.
@@ -40,7 +40,7 @@ Si vous disposez d'une photo d'un salarié au format .bmp, vous pouvez l'insére
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Employés**, puis choisissez le lien associé.
 2. Ouvrez la fiche du salarié en question.
 3. Dans le récapitulatif **Photo salarié**, choisissez le bouton déroulant, puis choisissez **Importer**.
-4. Dans la fenêtre **Sélectionner une image à charger**, cliquez sur le bouton **Choisir**.
+4. Sur la page **Sélectionner une image à charger**, cliquez sur le bouton **Choisir**.
 5. Sélectionnez le fichier et choisissez **Ouvrir**.
 
 La photo est maintenant insérée dans le récapitulatif **Photo salarié**.
@@ -53,7 +53,7 @@ Vous pouvez utiliser des adresses secondaires pour conserver un historique des d
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Employés**, puis choisissez le lien associé.
 2. Ouvrez la fiche du salarié en question.
 3. Choisissez l'option **Adresses secondaires**.
-4. Dans la fenêtre **Liste des adresses secondaires**, renseignez les champs selon vos besoins.
+4. Sur la page **Liste des adresses secondaires**, renseignez les champs selon vos besoins.
 5. Répétez l'étape 4 pour chaque adresse secondaire.
 
 ## <a name="see-also"></a>Voir aussi

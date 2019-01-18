@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ebd644745ed7d914bdccfe59ecc3924ed1b542a5
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 75cf101f7f67bdd54d6e364468fd5e4354a089af
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="ship-items"></a>Expédier des articles
@@ -50,22 +50,22 @@ Généralement, l'employé chargé de l'expédition crée une expédition entrep
 
     > [!NOTE]  
     >  Pour expédier des articles portant des codes classe entrepôt différents du code classe de l'emplacement indiqué dans le champ **Code emplacement** de l'en-tête du document, vous devez supprimer la valeur du champ **Code emplacement** de l'en-tête avant d'extraire les lignes des documents origine des articles.  
-3.  Choisissez l'action **Extraire documents origine**. La fenêtre **Documents origine** s'ouvre.
+3.  Choisissez l'action **Extraire documents origine**. La page **Documents origine** s'ouvre.
 
-    À partir d'une expédition entrepôt nouvelle ou ouverte, vous pouvez utiliser la fenêtre **Filtres pour extr. doc. orig.** afin d'extraire les lignes du document origine lancé qui définissent les articles à recevoir ou à expédier.
+    À partir d'une expédition entrepôt nouvelle ou ouverte, vous pouvez utiliser la page **Filtres pour extr. doc. orig.** afin d'extraire les lignes du document origine lancé qui définissent les articles à recevoir ou à expédier.
 
     1. Choisissez l'action **Filtrer pour extr. doc. orig.**.  
     2. Pour configurer un nouveau filtre, entrez un code descriptif dans le champ **Code**, puis choisissez l'action **Modifier**.  
     3. Définissez le type de ligne document origine que vous souhaitez extraire en renseignant les champs de filtre appropriés.  
     4. Sélectionnez l'action **Exécuter**.  
 
-    Toutes les lignes du document origine lancé qui correspondent aux critères du filtre sont à présent insérées dans la fenêtre **Expédition entrepôt** à partir de laquelle vous avez activé la fonction filtre.  
+    Toutes les lignes du document origine lancé qui correspondent aux critères du filtre sont à présent insérées sur la page **Expédition entrepôt** à partir de laquelle vous avez activé la fonction filtre.  
 
-    Les combinaisons de filtres que vous définissez sont stockées dans la fenêtre **Filtres pour extr. doc. orig.** jusqu'à la prochaine utilisation. Le nombre de combinaisons de filtres est illimité. Vous pouvez modifier les critères à tout moment en choisissant l'action **Modifier**.
+    Les combinaisons de filtres que vous définissez sont stockées sur la page **Filtres pour extr. doc. orig.** jusqu'à la prochaine utilisation. Le nombre de combinaisons de filtres est illimité. Vous pouvez modifier les critères à tout moment en choisissant l'action **Modifier**.
 
 4.  Sélectionnez le document origine pour lequel vous souhaitez expédier des articles, puis sélectionnez le bouton **OK**.  
 
-Les lignes des documents origine s'affichent dans la fenêtre **Expédition entrepôt**. Le champ **Qté à expédier** est renseigné avec la quantité restante pour chaque ligne, mais vous pouvez modifier cette quantité selon vos besoins. Si vous avez supprimé la valeur du champ **Code emplacement** du raccourci **Général** avant d'accéder aux lignes, vous devez alors renseigner un code emplacement approprié sur chaque ligne expédition.  
+Les lignes des documents origine s'affichent sur la page **Expédition entrepôt**. Le champ **Qté à expédier** est renseigné avec la quantité restante pour chaque ligne, mais vous pouvez modifier cette quantité selon vos besoins. Si vous avez supprimé la valeur du champ **Code emplacement** du raccourci **Général** avant d'accéder aux lignes, vous devez alors renseigner un code emplacement approprié sur chaque ligne expédition.  
 
 > [!NOTE]  
 >  Vous ne pouvez pas expédier un nombre d'articles supérieur au nombre figurant dans le champ **Qté ouverte** de la ligne document origine. Pour expédier des articles supplémentaires, récupérez un autre document origine contenant une ligne pour l'article concerné en utilisant la fonction filtre afin d'obtenir les documents origine où figure cet article.  
@@ -76,7 +76,7 @@ Lorsque vous disposez des lignes à expédier, vous pouvez lancer le processus q
 Généralement, un magasinier chargé du prélèvement crée un document prélèvement, ou ouvre un document prélèvement déjà créé.
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Expéditions entrepôt**, puis choisissez le lien associé.
 2. Sélectionnez l'expédition entrepôt que vous souhaitez prélever, puis sélectionnez l'action **Créer prélèvement**.
-3. Renseignez les champs du formulaire de sélection, puis cliquez sur le bouton **OK**. Le document prélèvement entrepôt spécifié est créé.
+3. Renseignez les champs de la page de demande, puis cliquez sur le bouton **OK**. Le document prélèvement entrepôt spécifié est créé.
 
     Sinon, ouvrez un prélèvement entrepôt existant.
 4. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Prélèvements**, puis sélectionnez le lien associé. Sélectionnez le prélèvement entrepôt que vous souhaitez utiliser.

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d45b76e137dd2e8da752be489d16ac536da265e1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 55cefad889557df37d8869926ee7e200cd145d03
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-shop-calendars"></a>Paramétrer des calendriers usine
@@ -39,7 +39,7 @@ Même si vos centres de charge n'ont pas recours à diverses équipes, entrez au
 2.  Sur une ligne blanche, entrez le numéro d'identification du calendrier usine dans le champ **Code**.  
 3.  Dans le champ **Désignation**, entrez la désignation du calendrier usine.  
 4.  Choisissez l'action **Jours ouvrés**.
-5.  Dans la fenêtre **Jours ouvrés calendrier usine**, définissez une semaine de travail complète, avec les heures de début et de fin pour chaque jour.  
+5.  Sur la page **Jours ouvrés calendrier usine**, définissez une semaine de travail complète, avec les heures de début et de fin pour chaque jour.  
 
     Dans le champ **Code équipe**, sélectionnez l'une des équipes que vous avez défini précédemment. Ajoutez une ligne pour chaque jour ouvré et chaque équipe. Par exemple :  
 
@@ -55,10 +55,10 @@ Même si vos centres de charge n'ont pas recours à diverses équipes, entrez au
 
     Les jours non définis dans le calendrier usine, comme le samedi et le dimanche, sont considérés comme des jours chômés : une capacité disponible nulle leur est attribuée dans le calendrier de centre de charge.  
 
-    Une fois tous les jours ouvrés de la semaine définis, fermez la fenêtre **Jours ouvrés calendrier usine** et passez aux jours fériés.  
+    Une fois tous les jours ouvrés de la semaine définis, fermez la page **Jours ouvrés calendrier usine** et passez aux jours fériés.  
 
-6.  Dans la fenêtre **Calendriers usine**, sélectionnez le calendrier usine, puis choisissez l'action **Jours fériés**.
-7. Dans la fenêtre **Jours fériés calendrier usine**, définissez les jours fériés de l'année en indiquant la date et l'heure de début, l'heure de fin et la description de chaque jour férié sur une ligne distincte. Par exemple :  
+6.  Sur la page **Calendriers usine**, sélectionnez le calendrier usine, puis choisissez l'action **Jours fériés**.
+7. Sur la page **Jours fériés calendrier usine**, définissez les jours fériés de l'année en indiquant la date et l'heure de début, l'heure de fin et la description de chaque jour férié sur une ligne distincte. Par exemple :  
 
     04/07/14 0:00:00 23:59:00 Vacances d'été  
     05/07/14 0:00:00 23:59:00 Vacances d'été  
@@ -74,12 +74,12 @@ Le calendrier usine peut ensuite être attribué à un centre de charge pour cal
 2. Ouvrez le centre de charge que vous voulez mettre à jour.  
 3. Dans le champ **Code calendrier usine**, sélectionnez le calendrier usine à utiliser comme base pour le calendrier du centre de charge.  
 4. Sélectionnez l'action **Calendrier**.  
-5. Dans la fenêtre **Calendrier centre de charge**, choisissez l'action **Afficher matrice**.  
+5. Sur la page **Calendrier centre de charge**, choisissez l'action **Afficher matrice**.  
 
-    Le côté gauche de la fenêtre de matrice répertorie les centres de charge configurés. Le côté droit contient un calendrier horaire indiquant les capacités disponibles pour chaque jour ouvré dans l'unité de mesure choisie, par exemple, **480** (minutes). Chaque ligne correspond au calendrier d'un centre de charge.  
+    Le côté gauche de la page de matrice répertorie les centres de charge configurés. Le côté droit contient un calendrier horaire indiquant les capacités disponibles pour chaque jour ouvré dans l'unité de mesure choisie, par exemple, **480** (minutes). Chaque ligne correspond au calendrier d'un centre de charge.  
 
     > [!NOTE]  
-    >  Vous pouvez également choisir d'afficher les valeurs de capacité pour chaque semaine ou mois en modifiant la sélection dans le champ **Afficher par** de la fenêtre **Calendrier centre de charge**.  
+    >  Vous pouvez également choisir d'afficher les valeurs de capacité pour chaque semaine ou mois en modifiant la sélection dans le champ **Afficher par** de la page **Calendrier centre de charge**.  
 
     Le nouveau calendrier usine doit d'abord être calculé pour être répercuté dans une ligne du centre de charge sélectionné.  
 
@@ -97,13 +97,13 @@ Vous venez de créer ou de mettre à jour les écritures calendrier. Elles indiq
 Le calendrier de centre de charge calculé définit ensuite la période de disponibilité et la quantité de la capacité du centre de charge. Il contrôle la planification détaillée des opérations effectuées dans le centre de charge.  
 
 ## <a name="to-record-work-center-absence"></a>Pour enregistrer les absences du centre de charge  
-1.  Dans la fenêtre **Calendrier centre de charge**, choisissez l'action **Afficher matrice**.
-2. Dans la fenêtre **Matrice Calendrier centre de charge**, sélectionnez le centre de charge et le jour de calendrier correspondant au moment où l'absence doit être enregistrée, puis choisissez l'action **Indisponibilité**.  
-3.  Dans la fenêtre **Indisponibilité**, définissez les heures de début et de fin, et la description de l'absence du jour. Par exemple :  
+1.  Sur la page **Calendrier centre de charge**, choisissez l'action **Afficher matrice**.
+2. Sur la page **Matrice Calendrier centre de charge**, sélectionnez le centre de charge et le jour de calendrier correspondant au moment où l'absence doit être enregistrée, puis choisissez l'action **Indisponibilité**.  
+3.  Sur la page **Indisponibilité**, définissez les heures de début et de fin, et la description de l'absence du jour. Par exemple :  
 
     25/01/01 08:00 10:00 Maintenance  
 
-4.  Choisissez l'action **Mettre à jour**, puis fermez la fenêtre **Indisponibilité**.  
+4.  Choisissez l'action **Mettre à jour**, puis fermez la page **Indisponibilité**.  
 
 La capacité du jour sélectionné est réduite conformément aux heures d'absence enregistrées.  
 

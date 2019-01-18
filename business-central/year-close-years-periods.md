@@ -13,10 +13,10 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7b125edfcfd5e03882568b8ab6eb264418f15bef
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 8ecd532a043ad53b7a1d5d6c38e87a7102407003
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="closing-years-and-periods"></a>Clôture des exercices et des périodes
@@ -26,6 +26,7 @@ Le tableau suivant fournit un aperçu des tâches que vous devez généralement 
 
 | À | Voir |
 | --- | --- |
+| Définissez votre exercice comptable, et séparer-le en périodes dans lesquelles rapporter le résultat financier. | [Utilisation des périodes et exercices comptables](finance-accounting-periods-and-fiscal-years.md)|
 | Spécifier des plages de date de validation à l'échelle du système et spécifiques à l'utilisateur. En fonction des besoins de votre activité, vous pouvez restreindre les plages de date validation utilisateur au début du traitement de clôture d'exercice ou après ce dernier. |[Définir des périodes de validation](finance-how-specify-posting-periods.md) |
 | Obtenir un aperçu des activités qui sont généralement effectuées à la fin d'une période, telles que la validation de tous les documents et toutes les feuilles, ou l'exécution de tableaux d'analyse. |[Clôture périodes](year-how-complete-period-end-processes.md) |
 | Mettre à jour les taux de change devise des écritures client, fournisseur et compte bancaire validées. |[Mettre à jour des taux de change devise](finance-how-update-currencies.md) |

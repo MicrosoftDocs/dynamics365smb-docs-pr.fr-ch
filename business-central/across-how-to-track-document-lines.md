@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 39a44f4b608bca436adedb16c800c96a046d5644
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2325aafc22db4ab737e63a261b836076cc3fde20
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="track-document-lines"></a>Suivre des lignes document
@@ -28,7 +28,7 @@ La procédure suivante décrit comment effectuer le suivi à partir d'une ligne 
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes vente**, puis sélectionnez le lien associé.  
 2.  Ouvrez la commande vente à partir de laquelle vous souhaitez effectuer le suivi.  
 3.  Sélectionnez une ligne, puis choisissez l'action **Traçabilité ligne document**.
-4. Dans la fenêtre **Traçabilité ligne document**, sélectionnez le document que vous voulez afficher, puis choisissez l'action **Afficher** pour afficher la ligne associée.
+4. Sur la page **Traçabilité ligne document**, sélectionnez le document que vous voulez afficher, puis choisissez l'action **Afficher** pour afficher la ligne associée.
 5. Pour afficher le document entier pour la ligne document sélectionnée, choisissez l'action **Afficher document**.
 
 ## <a name="see-also"></a>Voir aussi

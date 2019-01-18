@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e114142be1708447931fb475074245b57564f6b3
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0bb558fe24d8c5bc717ef72e8c94ba0154a06a55
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-known-item-application-issue"></a>Détails de conception : problème de lettrage article connu
@@ -102,7 +102,7 @@ Le schéma suivant décrit la façon dont les lettrages de coût sont effectués
 
  Pour le scénario 1, identifiez le problème comme suit :  
 
--   Dans la fenêtre **Avoir vente enregistré** ou **Réception retour enregistrée**, recherchez le champ **Écriture article à lettrer** pour voir si le champ est renseigné, et auquel cas, à quelle écriture comptable article le coût de la réception retour est lettré.  
+-   Sur la page **Avoir vente enregistré** ou **Réception retour enregistrée**, recherchez le champ **Écriture article à lettrer** pour voir si le champ est renseigné, et auquel cas, à quelle écriture comptable article le coût de la réception retour est lettré.  
 
  Pour le scénario 2, identifiez le problème de l'une des manières suivantes :  
 
@@ -113,10 +113,10 @@ Le schéma suivant décrit la façon dont les lettrages de coût sont effectués
 |333|28/01/2018|Vente|Expédition vente|102043|TEST|BLEU|-1|-10|-1|-1|Oui|Non|  
 |334|28/01/2018|Vente|Expédition vente|102043|TEST|BLEU|1|10|1|1|Oui|**Oui**|  
 
--   Dans la fenêtre **Expédition vente enregistrée**, recherchez le champ **Écriture article à lettrer** pour voir si le champ est renseigné, et auquel cas, à quelle écriture comptable article le coût de la réception retour est lettré.  
+-   Sur la page **Expédition vente enregistrée**, recherchez le champ **Écriture article à lettrer** pour voir si le champ est renseigné, et auquel cas, à quelle écriture comptable article le coût de la réception retour est lettré.  
 
 > [!NOTE]  
->  Les lettrages de coût ne peuvent pas être identifiés dans la fenêtre **Écritures article lettrées**, car cette fenêtre affiche uniquement les lettrages de quantité.  
+>  Les lettrages de coût ne peuvent pas être identifiés sur la page **Écritures article lettrées**, car cette page affiche uniquement les lettrages de quantité.  
 
  Pour les deux scénarios, identifiez le lettrage de coût concerné comme suit :  
 
@@ -138,7 +138,7 @@ Le schéma suivant décrit la façon dont les lettrages de coût sont effectués
  En outre, notez que le coût de l'écriture comptable article entrante 334 est lettré à l'écriture comptable article sortante 333.  
 
 ## <a name="workaround-for-the-issue"></a>Solution de contournement du problème  
- Dans la fenêtre **Feuille article**, validez les lignes suivantes pour l'article concerné :  
+ Sur la page **Feuille article**, validez les lignes suivantes pour l'article concerné :  
 
 -   Un ajustement positif pour clôturer l'écriture comptable article sortante ouverte.  
 

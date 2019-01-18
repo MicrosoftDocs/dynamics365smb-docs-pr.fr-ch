@@ -1,6 +1,6 @@
 ---
 title: "Comment trouver vos affectations d'entrepôt | Microsoft Docs"
-description: "Pour rechercher les affectations entrepôt, ouvrez la fenêtre correspondant à une article sélectionné. Si des instructions entrepôt ont été créées, les lignes Prélever et Emplacement sont visibles, et vous pouvez commencer à utiliser une affectation. Dans certains entrepôts, le responsable peut affecter des instructions propres à chaque magasinier."
+description: "Pour rechercher les affectations entrepôt, ouvrez la page correspondant à une article sélectionné. Si des instructions entrepôt ont été créées, les lignes Prélever et Emplacement sont visibles, et vous pouvez commencer à utiliser une affectation. Dans certains entrepôts, le responsable peut affecter des instructions propres à chaque magasinier."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,22 +13,22 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 012e050722f97d43a8ee59fde2566969245e4ca9
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8dafcb427cac506209e0858791f4c47a98d72a2e
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="find-your-warehouse-assignments"></a>Trouver vos affectations d'entrepôt
-Pour rechercher les affectations entrepôt, ouvrez la fenêtre correspondant à une article sélectionné. Si des instructions entrepôt ont été créées, les lignes Prélever et Emplacement sont visibles, et vous pouvez commencer à utiliser une affectation. Dans certains entrepôts, le responsable peut affecter des instructions propres à chaque magasinier. Pour plus d'informations, voir [Configurer des employés d'entrepôt](warehouse-how-to-set-up-warehouse-employees.md).
+Pour rechercher les affectations entrepôt, ouvrez la page correspondant à une article sélectionné. Si des instructions entrepôt ont été créées, les lignes Prélever et Emplacement sont visibles, et vous pouvez commencer à utiliser une affectation. Dans certains entrepôts, le responsable peut affecter des instructions propres à chaque magasinier. Pour plus d'informations, voir [Configurer des employés d'entrepôt](warehouse-how-to-set-up-warehouse-employees.md).
 
 ## <a name="to-find-an-instruction-assigned-to-you"></a>Pour rechercher une instruction qui vous est affectée  
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Rangements entrepôt**, **Prélèvements entrepôt** ou **Mouvement entrepôt**, puis sélectionnez le lien associé.
 
-    Les trois fenêtres affichent les affectations de l'ensemble des entrepôts.  
+    Les trois pages affichent les affectations de l'ensemble des entrepôts.  
 
 2. Triez les articles par magasin. Vous pouvez maintenant visualiser les instructions qui vous ont été affectées.  
-3. Sélectionnez l'une des lignes comprenant vos initiales dans le champ **Code utilisateur affecté**, puis sélectionnez le bouton **OK**. L'affectation rangement s'affiche dans la fenêtre ; vos initiales se trouvent dans le champ **Code utilisateur affecté** du raccourci **Général**.  
+3. Sélectionnez l'une des lignes comprenant vos initiales dans le champ **Code utilisateur affecté**, puis sélectionnez le bouton **OK**. L'affectation rangement s'affiche sur la page ; vos initiales se trouvent dans le champ **Code utilisateur** affecté du raccourci **Général**.  
 
 Vous pouvez utiliser le champ **Code utilisateur affecté** de l'en-tête pour demander des affectations travail, si le responsable de l'entrepôt n'affecte aucune instruction particulière aux employés. Saisissez simplement votre code utilisateur dans l'en-tête entrepôt avant d'utiliser une instruction. Vos collègues peuvent ensuite utiliser d'autres instructions. Cette opération permet ainsi d'éviter de faire deux fois le même travail.  
 

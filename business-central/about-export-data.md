@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.date: 10/01/2018
+ms.date: 11/21/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 33ccc1dbe9654245129bdbd760896054c10cd2f1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b0f53eaa777fb944e0c4b55402b895373c7843a1
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Exportation de vos données métier vers Excel
@@ -22,6 +22,9 @@ Si vous souhaitez travailler avec vos données à partir de [!INCLUDE[d365fin](i
 
 ## <a name="opening-lists-in-excel"></a>Ouverture de listes dans Excel
 Vous pouvez ouvrir des données dans Excel à partir de n'importe quelle feuille ou liste. Il vous suffit d'ouvrir la page que vous souhaitez, puis de cliquer sur **Ouvrir dans Excel**. Par exemple, ouvrez la liste des clients (recherchez **Clients**), puis sélectionnez **Ouvrir dans Excel**. Votre navigateur vous invite alors à ouvrir ou à enregistrer le classeur Excel généré.  
+
+> [!NOTE]
+> Utilisez cette option si vous ne souhaitez pas effectuer et publier des modifications à nouveau dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Chaque liste inclut un certain nombre de colonnes, et l'exportation vers Excel inclut toutes les colonnes qui sont dans votre vue actuelle. Si vous souhaitez ajouter ou supprimer des colonnes avant d'ouvrir la liste dans Excel, il vous suffit simplement d'ouvrir le menu contextuel de n'importe quelle colonne et d'indiquer ensuite les colonnes que vous souhaitez visualiser. Cette liste de colonnes est différente de la plupart des listes, et elle reflète la structure de la base de données où vos données sont enregistrées. Si vous ne connaissez pas le type de données d'une certaine colonne, vous pouvez l'ajouter à votre affichage, puis décider de la supprimer à nouveau.  
 
@@ -39,7 +42,7 @@ Bien entendu, vous pouvez exporter toutes les pages, mais il peut y en avoir tro
 * Banques  
 * Articles  
 
-Si vous souhaitez exporter toutes vos transactions financières également, le volume de données est alors très important et l'exportation prend alors souvent plusieurs minutes. Les transactions financières sont affichées dans la fenêtre **Écritures comptables**.  
+Si vous souhaitez exporter toutes vos transactions financières également, le volume de données est alors très important et l'exportation prend alors souvent plusieurs minutes. Les transactions financières sont affichées sur la page **Écritures comptables**.  
 
 Nous recommandons également d'exporter des données à partir des pages suivantes :  
 

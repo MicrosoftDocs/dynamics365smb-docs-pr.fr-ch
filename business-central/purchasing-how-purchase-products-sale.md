@@ -11,10 +11,10 @@ ms.search.keywords: supply planning, sales demand, replenish
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a268ec469f7781e77d7e4438a3b18c95e9304d4d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5b766f4d11b66a88f1884f8315b5856021190b34
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="purchase-items-for-a-sale"></a>Acheter des articles pour une vente
@@ -35,7 +35,7 @@ Pour créer une commande achat pour chaque quantité d'article indisponible de l
 2. Ouvrez une commande vente pour laquelle vous souhaitez acheter des articles.
 3. Sélectionnez l'action **Créer des commandes achat**.
 
-    La fenêtre **Créer des commandes achat** s'ouvre affichant une ligne pour chaque article différent sur la commande vente. Les lignes des deux des quantités vendues entièrement disponibles et des quantités vendues indisponibles (grisées) sont affichées par défaut. Vous pouvez choisir l'action **Afficher non disponible** pour afficher uniquement les lignes des quantités vendues indisponibles.
+    La page **Créer des commandes achat** s'ouvre affichant une ligne pour chaque article différent sur la commande vente. Les lignes des deux des quantités vendues entièrement disponibles et des quantités vendues indisponibles (grisées) sont affichées par défaut. Vous pouvez choisir l'action **Afficher non disponible** pour afficher uniquement les lignes des quantités vendues indisponibles.
 
     Le champ **Quantité à acheter** indique la quantité vendue indisponible par défaut.
 4. Pour acheter une autre quantité que la quantité vendue indisponible, modifiez la valeur dans le champ **Quantité à acheter**.
@@ -44,7 +44,7 @@ Pour créer une commande achat pour chaque quantité d'article indisponible de l
     >   Vous pouvez également modifier le champ **Quantité à acheter** sur les lignes grisées bien qu'ils représentent des quantités vendues entièrement disponibles.
 5. Cliquez sur le bouton **OK**.
 
-    Une commande achat est créée pour chaque fournisseur des articles de la commande vente, notamment toutes les modifications de quantité que vous avez apportées à la fenêtre **Créer des commandes achat**.
+    Une commande achat est créée pour chaque fournisseur des articles de la commande vente, notamment toutes les modifications de quantité que vous avez apportées à la page **Créer des commandes achat**.
 7. Traitez maintenant la ou les commandes achat, par exemple, en modifiant ou en ajoutant des lignes commande achat. Pour plus d'informations, voir [Enregistrer des achats](purchasing-how-record-purchases.md).
 
 

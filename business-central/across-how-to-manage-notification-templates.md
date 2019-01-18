@@ -1,6 +1,6 @@
 ---
 title: "Procédure : gérer les modèles de notification | Microsoft Docs"
-description: "Des notifications sont envoyées aux utilisateurs du workflow pour les informer des étapes à suivre ou du statut des étapes du workflow. Vous configurez qui reçoit des notifications et quand, en définissant des utilisateurs approbation, le calendrier de notification des utilisateurs, et les réponses de workflow concernées afin de déterminer les destinataires de notifications. Pour plus d'informations, reportez-vous à [Configuration de notifications de flux de travail](across-setting-up-workflow-notifications.md)."
+description: "Des notifications sont envoyées aux utilisateurs du workflow pour les informer des étapes à suivre ou du statut des étapes du workflow. Vous configurez qui reçoit des notifications et quand, en définissant des utilisateurs approbation, le calendrier de notification des utilisateurs, et les réponses de workflow concernées afin de déterminer les destinataires de notifications."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/08/2018
 ms.author: sgroespe
+redirect_url: across-how-to-specify-when-and-how-to-receive-notifications
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 31a6cd72e7e7c3fda27803a995b7282c8a2c3751
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6c84e5e9e0284249ee7be3f92a82cca2a2fbb3d5
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="manage-notification-templates"></a>Gérer les modèles de notification
@@ -28,7 +29,7 @@ Des notifications sont envoyées aux utilisateurs du workflow pour les informer 
 
 ## <a name="to-create-a-new-notification-template"></a>Créer un modèle de notification  
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Modèles de notification**, puis sélectionnez le lien associé.  
-2.  Dans la fenêtre **Modèles de notification**, cliquez sur l'action **Nouveau**.  
+2.  Sur la page **Modèles de notification**, cliquez sur l'action **Nouveau**.  
 3.  Renseignez les champs comme indiqué dans le tableau suivant.  
 
     |Champ|Désignation|  
@@ -41,9 +42,9 @@ Des notifications sont envoyées aux utilisateurs du workflow pour les informer 
 
 ## <a name="to-modify-a-notification-template"></a>Modifier un modèle de notification  
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Modèles de notification**, puis sélectionnez le lien associé.  
-2.  Dans la fenêtre **Modèles de notification**, sélectionnez le modèle de notification que vous souhaitez modifier.  
+2.  Sur la page **Modèles de notification**, sélectionnez le modèle de notification que vous souhaitez modifier.  
 3.  Choisissez l'action **Exporter le contenu d'un modèle**.  
-4.  Dans la fenêtre **Exporter fichier**, choisissez le bouton **Enregistrer**, puis nommez et enregistrez le fichier HTML à l'emplacement approprié.  
+4.  Sur la page **Exporter fichier**, choisissez le bouton **Enregistrer**, puis nommez et enregistrez le fichier HTML à l'emplacement approprié.  
 5.  Effectuez un clic droit sur le fichier, choisissez **Ouvrir avec**, puis choisissez le programme approprié.  
 
     > [!NOTE]  
@@ -51,14 +52,14 @@ Des notifications sont envoyées aux utilisateurs du workflow pour les informer 
 6.  Modifiez le contenu du modèle de notification en ajoutant, modifiant ou supprimant des variables de paramètre afin de définir le contenu souhaité, puis sauvegardez-le. Pour plus d'information, consultez la section « Contenu des modèles de notification ».  
 
     Continuez pour importer le contenu modifié dans le même modèle de notification ou dans un nouveau.  
-7.  Pour modifier le modèle de notification que vous avez exporté, dans la fenêtre **Modèles de notification**, choisissez le modèle sélectionné lors que l'étape 2.  
+7.  Pour modifier le modèle de notification que vous avez exporté, sur la page **Modèles de notification**, choisissez le modèle sélectionné lors que l'étape 2.  
 
     Vous pouvez également importer le contenu de modèle modifié dans un nouveau modèle de notification. Pour ce faire, suivez la procédure « Créer un modèle de notification », puis sélectionnez un nouveau modèle de notification.  
 8.  Choisissez l'action **Importer le contenu d'un modèle**.  
 9. Si vous modifiez un modèle de notification existant, choisissez le bouton **Oui** sur le message qui vous demande de remplacer le modèle existant.  
-10. Dans la fenêtre **Sélectionner un fichier à importer**, choisissez le fichier HTML que vous avez modifié au cours de l'étape 6, puis choisissez le bouton **Ouvrir**.  
+10. Sur la page **Sélectionner un fichier à importer**, choisissez le fichier HTML que vous avez modifié au cours de l'étape 6, puis choisissez le bouton **Ouvrir**.  
 
-Le nouveau modèle de notification ou le modèle existant situé dans la fenêtre **Modèles de notification** est désormais mis à jour avec le contenu modifié.  
+Le nouveau modèle de notification ou le modèle existant situé sur la page **Modèles de notification** est désormais mis à jour avec le contenu modifié.  
 
 ### <a name="content-of-the-notification-templates"></a>Contenu des modèles de notification  
 Les trois types de modèles de notification, **Nouvel enregistrement**, **Approbation** et **Échu**, ont des contenus différents.  

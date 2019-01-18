@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: addbb1436b49cd3f03697f00541751992d0a773e
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a95eaa2f0933c6724b1e9158c675ad1a27e0ba2a
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="restrict-and-allow-usage-of-a-record"></a>Restreindre et autoriser l'utilisation d'un enregistrement
@@ -32,9 +32,9 @@ La procédure suivante explique comment restreindre la validation de commandes d
 
 ## <a name="to-create-a-workflow-step-that-restricts-posting-of-unapproved-purchase-orders"></a>Pour créer une étape de flux de travail qui limite la validation de commandes d'achat non approuvées  
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Flux de travail**, puis sélectionnez le lien associé.  
-2. Dans la fenêtre **Flux de travail**, créez un flux de travail nommé Flux de travail approbation commande achat. Pour plus d'informations, voir [Créer des flux de travail](across-how-to-create-workflows.md).  
+2. Sur la page **Flux de travail**, créez un flux de travail nommé Flux de travail approbation commande achat. Pour plus d'informations, voir [Créer des flux de travail](across-how-to-create-workflows.md).  
 3. Choisissez l'action **Copier à partir du modèle de flux de travail**.  
-4. Cliquez sur le champ **Code flux de travail origine**, puis, dans la fenêtre **Modèles flux de travail**, sélectionnez le modèle Flux de travail approbation facture achat.  
+4. Cliquez sur le champ **Code flux de travail origine**, puis, sur la page **Modèles flux de travail**, sélectionnez le modèle Flux de travail approbation facture achat.  
 
      Remarquez que les deux premières étapes du flux de travail concernent la restriction, puis l'autorisation de l'utilisation des factures d'achat. Modifiez la condition d'événement de la première étape du nouveau flux de travail pour indiquer qu'il s'applique aux commandes d'achat.  
 5. Dans le raccourci **Étapes du flux de travail**, cliquez sur le champ **Conditions d'événement**, puis, pour le filtre **Type document**, sélectionnez **Commande**.  

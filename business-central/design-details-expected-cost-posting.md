@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 50ac9cbb946fedc687eb5ea1373c99d68f3d322b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ae88a455552c7194422d07e6e666bd81b7eab101
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-expected-cost-posting"></a>Détails de conception : validation du coût prévu
@@ -27,12 +27,12 @@ Les coûts prévus représentent l'estimation, par exemple, du coût d'un articl
 > [!NOTE]  
 >  Les coûts prévus sont gérés uniquement pour des transactions article. Les coûts prévus ne sont pas pour des types de transaction négligeables, tels que la capacité et les frais annexes.  
 
- Si seulement la partie de quantité d'une entrée de stock a été validée, la valeur du stock de la comptabilité ne change pas, sauf si vous avez sélectionné la case à cocher **Compta. coûts prévus** dans la fenêtre **Paramètres stock**. Dans ce cas, le coût prévu est validé dans les comptes d'attente au moment de la réception. Une fois que la réception a été entièrement facturée, les comptes d'attente sont ensuite équilibrés et le coût réel est validé dans le compte stock.  
+ Si seulement la partie de quantité d'une entrée de stock a été validée, la valeur du stock de la comptabilité ne change pas, sauf si vous avez sélectionné la case à cocher **Compta. coûts prévus** sur la page **Paramètres stock**. Dans ce cas, le coût prévu est validé dans les comptes d'attente au moment de la réception. Une fois que la réception a été entièrement facturée, les comptes d'attente sont ensuite équilibrés et le coût réel est validé dans le compte stock.  
 
  Pour prendre en charge le travail de rapprochement et de traçabilité, l'écriture valeur facturée montre que le montant du coût prévu validé pour équilibrer les comptes d'attente.  
 
 ## <a name="example"></a>Exemple :  
- L'exemple suivant indique le coût prévu si la case à cocher **Compta. coûts automatique** et la case à cocher **Compta. coûts prévus** sont sélectionnées dans la fenêtre **Paramètres stock**.  
+ L'exemple suivant indique le coût prévu si la case à cocher **Compta. coûts automatique** et la case à cocher **Compta. coûts prévus** sont sélectionnées sur la page **Paramètres stock**.  
 
  Vous validez une commande achat comme reçue. Le coût prévu est 95,00 DS.  
 

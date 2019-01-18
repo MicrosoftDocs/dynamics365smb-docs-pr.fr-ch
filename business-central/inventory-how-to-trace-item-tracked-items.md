@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: bd2bfb6f124a3a98776be21d179a81d8933cc9ee
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: bf16f61e5c3d6ee6af045ded8ec80e426ae6c20a
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="trace-item-tracked-items"></a>Tracer des articles - Articles suivis
@@ -24,16 +24,16 @@ Vous pouvez voir où un article suivi a été utilisé, y compris le mode et le 
 
  Ces fonctions sont particulièrement utiles pour le contrôle qualité, lorsque vous devez déterminer quels clients ont reçus des produits correspondant à un numéro de lot particulier ou le lot dont provenait un composant défectueux.  
 
- Dans la fenêtre **Traçabilité**, vous pouvez effectuer une traçabilité en aval et en amont dans une série de mouvements de stock validés pour le numéro de lot ou de série.  
+ Sur la page **Traçabilité**, vous pouvez effectuer une traçabilité en aval et en amont dans une série de mouvements de stock validés pour le numéro de lot ou de série.  
 
- Dans la fenêtre **Naviguer**, vous ne pouvez pas voir la séquence de transactions, mais vous pouvez afficher tous les enregistrements des numéros de série ou de lot, à la fois les écritures validées et les enregistrements ouverts.  
+ Sur la page **Naviguer**, vous ne pouvez pas voir la séquence de transactions, mais vous pouvez afficher tous les enregistrements des numéros de série ou de lot, à la fois les écritures validées et les enregistrements ouverts.  
 
- Les deux fonctions peuvent être utilisées en association en transférant un numéro de série ou de lot suivi dans la fenêtre **Naviguer** pour terminer un scénario complet de suivi. Pour plus d'informations, voir [Procédure pas à pas : suivi des numéros de série et des numéros de lot](walkthrough-tracing-serial-lot-numbers.md).  
+ Les deux fonctions peuvent être utilisées en association en transférant un numéro de série ou de lot suivi sur la page **Naviguer** pour terminer un scénario complet de suivi. Pour plus d'informations, voir [Procédure pas à pas : suivi des numéros de série et des numéros de lot](walkthrough-tracing-serial-lot-numbers.md).  
 
 ## <a name="to-trace-item-tracked-items"></a>Pour tracer des articles suivis  
 
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Traçabilité**, puis sélectionnez le lien associé.  
-2.  Dans les champs de filtre dans le haut de la fenêtre, entrez les numéros d'article spécifiques ou un filtre pour les numéros d'article que vous voulez suivre.  
+2.  Dans les champs de filtre dans le haut de la page, entrez les numéros d'article spécifiques ou un filtre pour les numéros d'article que vous voulez suivre.  
 3.  Dans le champ **Afficher composants**, indiquez si vous voulez également voir d'où provenaient les composants des articles. Les options disponibles dans ce champ sont les suivantes.  
 
     |Champ|Désignation|  
@@ -46,13 +46,13 @@ Vous pouvez voir où un article suivi a été utilisé, y compris le mode et le 
 
     |Champ|Désignation|  
     |----------------------------------|---------------------------------------|  
-    |**Utilisation->origine**|Cette méthode suit l'article à partir de l'endroit où il a été utilisé jusqu'à l'endroit d'où il vient. Par exemple, si un article fabriqué a été vendu à un client, la fenêtre **Traçabilité** présente ce dernier en montrant d'abord la ligne expédition vente, que vous pouvez développer pour voir l'ordre de fabrication dont il provenait.|  
-    |**Origine->utilisation**|cette méthode suit l'article à partir de l'endroit dont il provient dans le stock jusqu'à l'endroit où il a été utilisé. Par exemple, si un article fabriqué a été vendu à un client, la fenêtre **Traçabilité** présente ce dernier en montrant d'abord l'ordre de fabrication terminé, que vous pouvez développer pour voir les lignes expédition vente où l'article a été utilisé.|  
+    |**Utilisation->origine**|Cette méthode suit l'article à partir de l'endroit où il a été utilisé jusqu'à l'endroit d'où il vient. Par exemple, si un article fabriqué a été vendu à un client, la page **Traçabilité** présente ce dernier en montrant d'abord la ligne expédition vente, que vous pouvez développer pour voir l'ordre de fabrication dont il provenait.|  
+    |**Origine->utilisation**|cette méthode suit l'article à partir de l'endroit dont il provient dans le stock jusqu'à l'endroit où il a été utilisé. Par exemple, si un article fabriqué a été vendu à un client, la page **Traçabilité** présente ce dernier en montrant d'abord l'ordre de fabrication terminé, que vous pouvez développer pour voir les lignes expédition vente où l'article a été utilisé.|  
 
 5.  Sélectionnez l'action **Suivi** pour exécuter le suivi.  
 
 > [!NOTE]  
->  Si vous avez reçu le même lot sur plusieurs transactions, la fenêtre **Traçabilité** peut ne pas afficher toutes les transactions. Seules les transactions lettrées sont indiquées.  
+>  Si vous avez reçu le même lot sur plusieurs transactions, la page **Traçabilité** peut ne pas afficher toutes les transactions. Seules les transactions lettrées sont indiquées.  
 
 > [!NOTE]  
 >  Si l'historique d'une transaction supplémentaire dans une ligne traçabilité a déjà été suivi par une autre ligne au-dessus de celle-ci, la case à cocher **Déjà tracé** est activée. Pour une vue plus simple, ces lignes sous-jacentes ne s'affichent pas.  

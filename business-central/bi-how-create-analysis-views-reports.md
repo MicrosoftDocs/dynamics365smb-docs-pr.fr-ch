@@ -11,10 +11,10 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6f6703976d6ad0011ecb1dba75d918cae00dee95
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ecee2f3b5be33bb12f6ca742c0a28720fee6e427
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 #  <a name="create-analysis-reports"></a>Créer des rapports d'analyse
@@ -41,9 +41,9 @@ Vous pouvez ensuite configurer les colonnes suivantes :
 - Ventes mois précédent (en %)  
 
 ## <a name="setting-up-line-and-column-layouts"></a>Configuration des présentations ligne et colonne  
- Dans la fenêtre **Rapport d'analyse**, vous pouvez afficher différentes présentations de ligne et de colonne selon le paramétrage effectué. Configurez vos lignes ou vos modèles de ligne dans la fenêtre **Modèles de ligne d'analyse**. Dans cette fenêtre, vous pouvez définir le nom du rapport et les objets à inclure dans les lignes du rapport. Configurez vos colonnes dans la fenêtre **Modèles de colonne d'analyse**. Dans cette fenêtre, vous pouvez définir le nom du modèle de colonne et les paramètres d'analyse à inclure dans le rapport sous forme de colonnes. Dans la fenêtre **Modèles de colonne d'analyse**, chaque ligne représente une colonne du rapport. Les lignes et les colonnes d'analyse sont indépendantes les unes des autres.  
+ Sur la page **Rapport d'analyse**, vous pouvez afficher différentes présentations de ligne et de colonne selon le paramétrage effectué. Configurez vos lignes ou vos modèles de ligne sur la page **Modèles de ligne d'analyse**. Sur la page, vous pouvez définir le nom du rapport et les objets à inclure dans les lignes du rapport. Configurez vos colonnes sur la page **Modèles de colonne d'analyse**. Sur cette page, vous pouvez définir le nom du modèle de colonne et les paramètres d'analyse à inclure dans le rapport sous forme de colonnes. Sur la page **Modèles de colonne d'analyse**, chaque ligne représente une colonne du rapport. Les lignes et les colonnes d'analyse sont indépendantes les unes des autres.  
 
-Selon les lignes et les colonnes configurées, le programme totalise le résultat du rapport dans la fenêtre de la matrice **Rapport d'analyse** de ce type :  
+Selon les lignes et les colonnes configurées, le programme totalise le résultat du rapport sur la page de la matrice **Rapport d'analyse** de ce type :  
 
 | |Ventes mois en cours|Ventes mois précédent|Ventes mois précédent (en %)|  
 |-|-|-|-|  
@@ -64,10 +64,10 @@ Un modèle contient un ensemble de lignes représentant les colonnes d'analyse d
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Modèles de colonne vente**, puis sélectionnez le lien associé.  
 2. Sélectionnez la première ligne vide, puis renseignez les champs selon vos besoins.
 3. Sélectionnez l'action **Colonnes**.  
-4. Dans la fenêtre **Colonnes d'analyse**, renseignez les champs afin d'indiquer les colonnes à inclure dans l'état d'analyse.  
+4. Sur la page **Colonnes d'analyse**, renseignez les champs afin d'indiquer les colonnes à inclure dans l'état d'analyse.  
 
     > [!NOTE]  
-    >   Pour définir une colonne, renseignez le champ **Code type analyse** de tous les types de colonne sauf **Formule**. Configurez les codes type analyse de la fenêtre **Types d'analyse**.  
+    >   Pour définir une colonne, renseignez le champ **Code type analyse** de tous les types de colonne sauf **Formule**. Configurez les codes type analyse sur la page **Types d'analyse**.  
     Si vous sélectionnez **Ecritures article** dans le champ **Type écriture comptable**, les chiffres réels à partir de l'écriture comptable article sont copiés. Si vous sélectionnez **Ecritures budget article**, les chiffres budgétés à partir du budget sont copiés.  
 5.  Cliquez sur le bouton **OK** pour enregistrer vos modifications.  
 
@@ -81,7 +81,7 @@ Les modèles contiennent un ensemble de lignes correspondant aux lignes d'analys
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Modèles de ligne vente**, puis sélectionnez le lien associé.  
 2. Sélectionnez la première ligne vide, puis renseignez les champs selon vos besoins.
 3. Sélectionnez l'option **Lignes**.  
-4. Dans la fenêtre **Ligne d'analyse**, créez des lignes pour les articles, clients, fournisseurs ou vendeurs dont vous voulez voir les chiffres dans votre état d'analyse. Vous devez renseigner les champs **Type**, **Plage** et **Désignation**.  
+4. Sur la page **Ligne d'analyse**, créez des lignes pour les articles, clients, fournisseurs ou vendeurs dont vous voulez voir les chiffres dans votre état d'analyse. Vous devez renseigner les champs **Type**, **Plage** et **Désignation**.  
 
 > [!NOTE]  
 >   Lorsque vous voulez créer plusieurs lignes distinctes pour chaque article, client, etc., vous pouvez également sélectionner l'option d'insertion appropriée pour renseigner tous les champs pertinents de la ligne. Si vous le souhaitez, vous pouvez alors modifier les lignes manuellement. Pour insérer des lignes, choisissez **Insérer des articles** ou **Insérer des groupes articles**.  
@@ -92,13 +92,13 @@ La procédure suivante se base sur des rapports d'analyse des ventes. Les étape
 Les rapports d'analyse permettent d'analyser la dynamique de vos ventes en fonction des indicateurs de performances des ventes clés que vous sélectionnez, par exemple le volume des ventes en matière de montant et de quantité, la marge contributive ou l'évolution des ventes réelles par rapport au budget. Ils peuvent également servir à analyser vos prix de vente moyens et à évaluer les performances de vos commerciaux.  
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Rapports d'analyse vente**, puis sélectionnez le lien associé.  
-2. Dans la fenêtre **Rapports d'analyse vente**, cliquez sur l'action **Nouveau**.
+2. Sur la page **Rapports d'analyse vente**, cliquez sur l'action **Nouveau**.
 3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Choisissez l'action **Modifier le rapport d'analyse**.
-5. Dans la fenêtre **Rapports d'analyse vente**, cliquez sur l'action **Afficher matrice**.  
+5. Sur la page **Rapports d'analyse vente**, cliquez sur l'action **Afficher matrice**.  
 
 > [!NOTE]  
->   Si vous le souhaitez, vous pouvez mettre au point des combinaisons de modèles de ligne et de colonne pour créer des états et leur affecter des noms uniques. Dans ce cas, en sélectionnant le nom d'un état, vous n'aurez pas à sélectionner des modèles de ligne et de colonne dans la fenêtre **Rapport d'analyse vente**. Une fois que vous avez choisi un nom de rapport, vous pouvez changer individuellement les modèles de ligne et de colonne et ensuite sélectionner une nouvelle fois le nom du rapport afin de restaurer la combinaison d'origine.
+>   Si vous le souhaitez, vous pouvez mettre au point des combinaisons de modèles de ligne et de colonne pour créer des états et leur affecter des noms uniques. Dans ce cas, en sélectionnant le nom d'un état, vous n'aurez pas à sélectionner des modèles de ligne et de colonne sur la page **Rapport d'analyse vente**. Une fois que vous avez choisi un nom de rapport, vous pouvez changer individuellement les modèles de ligne et de colonne et ensuite sélectionner une nouvelle fois le nom du rapport afin de restaurer la combinaison d'origine.
 
 ## <a name="see-also"></a>Voir aussi
 [Veille économique](bi.md)  

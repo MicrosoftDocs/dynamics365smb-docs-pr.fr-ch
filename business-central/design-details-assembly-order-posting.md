@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 72b668ac5ecf2d6444be68b7c678f8a08bca9796
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: a3c8910ad937ec4283ce0803f787a4fe6aed071d
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-assembly-order-posting"></a>Détails de conception : validation d'ordre d'assemblage
@@ -53,7 +53,7 @@ Le tableau suivant indique la séquence d'actions.
 |Action|Désignation|  
 |------------|-----------------|  
 |Initialiser la validation|1. Effectuer une vérification préliminaire.<br />2. Ajoutez le numéro de validation et modifiez l'en\-tête d'ordre d'assemblage.<br />3. Lancez l'ordre d'assemblage.|  
-|Comptabilisation|<ol><li>Créer l'en-tête d'ordre d'assemblage validé.</li><li>Copier les lignes commentaire.</li><li>Validez les lignes ordre d'assemblage (consommation) :<br /><br /> <ol><li>Créer une fenêtre statut pour calculer la consommation d'assemblage.</li><li>Obtenir la quantité restante sur laquelle la ligne feuille article est basée.</li><li>Réinitialisez les quantités consommées et les quantités d'assemblage.</li><li>Pour les lignes ordre d'assemblage de type Article :<br /><br /> <ol><li>Renseignez les champs dans la ligne feuille article.</li><li>Transférez les réservations vers la ligne feuille article.</li><li>Validez la ligne feuille article pour créer les écritures comptables article.</li><li>Créer les lignes feuille entrepôt et les valider.</li></ol></li><li>Pour les lignes ordre d'assemblage de type Ressource :<br /><br /> <ol><li>Renseignez les champs dans la ligne feuille article.</li><li>Validez la ligne feuille article. Cela crée des écritures comptables de capacité.</li><li>Créer et valider la ligne feuille ressources.</li></ol></li><li>Transférez des valeurs de champ de l'ordre d'assemblage dans une ligne d'ordre d'assemblage validé nouvellement créée.</li></ol></li><li>Validez l'en-tête d'ordre d'assemblage (résultat) :<br /><br /> <ol><li>Renseignez les champs dans la ligne feuille article.</li><li>Transférez les réservations vers la ligne feuille article.</li><li>Validez la ligne feuille article pour créer les écritures comptables article.</li><li>Créer les lignes feuille entrepôt et les valider.</li><li>Réinitialisez les quantités d'assemblage et les quantités restantes.</li></ol></li></ol>|  
+|Comptabilisation|<ol><li>Créer l'en-tête d'ordre d'assemblage validé.</li><li>Copier les lignes commentaire.</li><li>Validez les lignes ordre d'assemblage (consommation) :<br /><br /> <ol><li>Créer une page statut pour calculer la consommation d'assemblage.</li><li>Obtenir la quantité restante sur laquelle la ligne feuille article est basée.</li><li>Réinitialisez les quantités consommées et les quantités d'assemblage.</li><li>Pour les lignes ordre d'assemblage de type Article :<br /><br /> <ol><li>Renseignez les champs dans la ligne feuille article.</li><li>Transférez les réservations vers la ligne feuille article.</li><li>Validez la ligne feuille article pour créer les écritures comptables article.</li><li>Créer les lignes feuille entrepôt et les valider.</li></ol></li><li>Pour les lignes ordre d'assemblage de type Ressource :<br /><br /> <ol><li>Renseignez les champs dans la ligne feuille article.</li><li>Validez la ligne feuille article. Cela crée des écritures comptables de capacité.</li><li>Créer et valider la ligne feuille ressources.</li></ol></li><li>Transférez des valeurs de champ de l'ordre d'assemblage dans une ligne d'ordre d'assemblage validé nouvellement créée.</li></ol></li><li>Validez l'en-tête d'ordre d'assemblage (résultat) :<br /><br /> <ol><li>Renseignez les champs dans la ligne feuille article.</li><li>Transférez les réservations vers la ligne feuille article.</li><li>Validez la ligne feuille article pour créer les écritures comptables article.</li><li>Créer les lignes feuille entrepôt et les valider.</li><li>Réinitialisez les quantités d'assemblage et les quantités restantes.</li></ol></li></ol>|  
 
 > [!IMPORTANT]  
 >  Contrairement à la sortie de production, qui est validée au coût prévu, le résultat d'assemblage est validé au coût réel.  

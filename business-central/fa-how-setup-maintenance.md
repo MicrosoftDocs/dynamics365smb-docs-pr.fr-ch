@@ -13,10 +13,10 @@ ms.search.keywords: repair, service
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: aef3d672bf01425a36bdd599e18d9ee9dac73b2d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7fa3763f50549d418b0189604c170448b70c01b9
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-fixed-asset-maintenance"></a>Configurer la maintenance d'une immobilisation
@@ -33,10 +33,10 @@ Si vous configurez les champs pour la maintenance, vous pouvez valider des frais
 Lorsque vous validez des coûts de maintenance à partir d'une feuille comptabilité, vous renseignez le champ **Code maintenance** pour enregistrer le type de maintenance effectuée, telle qu'un service de routine ou une réparation.
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Maintenance**, puis sélectionnez le lien associé.
-2. Dans la fenêtre **Maintenance**, configurez les codes pour les différents types de travaux de maintenance.
+2. Sur la page **Maintenance**, configurez les codes pour les différents types de travaux de maintenance.
 
 ## <a name="to-set-up-maintenance-expense-accounts"></a>Pour configurer des comptes frais de maintenance
-Pour valider les coûts de maintenance, vous devez tout d'abord saisir un numéro de compte dans la fenêtre **Groupes compta. immo**.
+Pour valider les coûts de maintenance, vous devez tout d'abord saisir un numéro de compte sur la page **Groupes compta. immo**.
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Groupes compta. immo.**, puis sélectionnez le lien associé.
 2. Renseignez le champ **Compte frais maintenance** pour chaque groupe comptabilisation.

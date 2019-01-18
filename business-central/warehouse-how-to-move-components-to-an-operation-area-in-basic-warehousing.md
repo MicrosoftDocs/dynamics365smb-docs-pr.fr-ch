@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2b0c576386a88db335a932da9c0bc1141289c57d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: afbc3bbfa0ef8d655ef66aab219bcd7bcfb930b2
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Déplacer les composants vers une zone opérations dans les configurations de stockage de base
@@ -25,39 +25,39 @@ Si des opérations de traitement d'articles se produisent dans votre entrepôt, 
 > [!NOTE]  
 >  Pour plus d'informations sur le déplacement d'articles d'un emplacement à l'autre sans documents origine, reportez\-vous à Mouvement interne.  
 
-Dans les configurations d'entrepôt avancées, qui correspondent à des magasins qui utilisent le champ de configuration **Prélèv. et rangement suggérés**, vous pouvez utiliser la fenêtre **Feuille mouvement** pour déplacer des articles d'un emplacement à l'autre. Pour plus d'informations, voir [Déplacer des articles dans les configurations de stockage avancées](warehouse-how-to-move-items-in-advanced-warehousing.md).  
+Dans les configurations d'entrepôt avancées, qui correspondent à des magasins qui utilisent le champ de configuration **Prélèv. et rangement suggérés**, vous pouvez utiliser la page **Feuille mouvement** pour déplacer des articles d'un emplacement à l'autre. Pour plus d'informations, voir [Déplacer des articles dans les configurations de stockage avancées](warehouse-how-to-move-items-in-advanced-warehousing.md).  
 
 Dans les configurations d'entrepôt de base, où les magasins utilisent les champs de configuration **Emplacement obligatoire** et **Prélèvement requis**, vous pouvez enregistrer des mouvements d'articles vers des zones Opérations internes sur la base de documents origine internes en procédant comme suit :  
 
--   À l'aide de la fenêtre **Mouvement de stock**.  
--   Avec la fenêtre **Prélèvement stock**.  
+-   À l'aide de la page **Mouvement de stock**.  
+-   Avec la page **Prélèvement stock**.  
 
 > [!NOTE]  
->  Les prélèvements stock valident également les écritures comptables article négatives en tant que consommation et ne sont pris en charge que pour les composants de production. Pour plus d'informations, voir la fenêtre Feuille prélèvement.  
+>  Les prélèvements stock valident également les écritures comptables article négatives en tant que consommation et ne sont pris en charge que pour les composants de production. Pour plus d'informations, voir la page Feuille prélèvement.  
 
-Pour obtenir des informations détaillées sur des mouvements de stock, reportez\-vous à la fenêtre Mouvement de stock.  
+Pour obtenir des informations détaillées sur des mouvements de stock, reportez-vous à la page Mouvement de stock.  
 
 Deux différents rôles peuvent créer le mouvement de stock d'origine. Un ouvrier d'assemblage, par exemple, peut le créer à partir d'un ordre d'assemblage lancé de façon à ce qu'il s'affiche sur la liste du travail à accomplir du magasinier. Pour créer un mouvement de stock pour les lignes d'ordre d'assemblage prêtes à voir des composants déplacés dans leurs emplacements spécifiés, l'ouvrier d'assemblage utilise la fonction **Créer mouvement de stock** .  
 
 Sinon, un magasinier peut le créer en pointant l'ordre d'assemblage lancé en question. Ceci est décrit dans la procédure suivante.  
 
 > [!NOTE]  
->  Si le mouvement concerne un ordre d'assemblage pour lequel l'article est assemblé à une commande vente, vous pouvez définir que le document mouvement de stock est automatiquement créé lorsque vous créez le document prélèvement stock qui prend l'élément d'assemblage terminé et valide l'expédition. Pour configurer cela, sélectionnez le champ **Créer des mouvements automatiquement** dans la fenêtre **Paramètres d'assemblage**  
+>  Si le mouvement concerne un ordre d'assemblage pour lequel l'article est assemblé à une commande vente, vous pouvez définir que le document mouvement de stock est automatiquement créé lorsque vous créez le document prélèvement stock qui prend l'élément d'assemblage terminé et valide l'expédition. Pour configurer cela, sélectionnez le champ **Créer des mouvements automatiquement** sur la page **Paramètres d'assemblage**  
 >   
 >  Pour plus d'informations sur les ordres d'assemblage et les configurations entrepôt de base, reportez-vous à la section « Traitement des articles à assembler pour commande dans les prélèvements stock » dans [Prélever pour la fabrication et l'assemblage](warehouse-how-to-pick-for-production.md).  
 
-Cette procédure explique comment créer un mouvement de stock à partir de la fenêtre **Mouvement de stock** en référençant un ordre d'assemblage lancé en tant que document origine. La procédure est la même lorsque vous déplacez les composants pour les ordres de fabrication et les commandes service.  
+Cette procédure explique comment créer un mouvement de stock à partir de la page **Mouvement de stock** en référençant un ordre d'assemblage lancé en tant que document origine. La procédure est la même lorsque vous déplacez les composants pour les ordres de fabrication et les commandes service.  
 
 ## <a name="to-move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Pour déplacer les composants vers une zone opérations dans les configurations de stockage de base  
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Mouvement de stock**, puis sélectionnez le lien correspondant.  
 2.  Sur le raccourci **Général**, renseignez le champ **N°**. . Vous pouvez appuyer sur la touche Entrée pour effectuer une sélection parmi la souche de numéros.  
 3.  Dans le champ **Code magasin** , entrez le magasin où le mouvement a lieu.  
 4.  Choisissez l'action **Extraire documents origine**. Sinon, renseignez le champ **Document origine** , et cliquez ensuite sur le bouton **AssistEdit** dans le champ **N° origine** .  
-5.  Dans la fenêtre **Documents origine** , sélectionnez l'ordre d'assemblage pour lequel vous souhaitez déplacer des composants, puis choisissez le bouton **OK** .  
+5.  Sur la page **Documents origine** , sélectionnez l'ordre d'assemblage pour lequel vous souhaitez déplacer des composants, puis choisissez le bouton **OK** .  
 
-    Pour chaque composant nécessaire pouvant être déplacé, une ligne prélèvement et une ligne d'emplacement sont générées dans la fenêtre **Mouvements de stock** . Tous les champs à l'exception du champ **Qté à traiter** sont préremplis en fonction des lignes document origine. Le champ **Qté à traiter** est défini sur zéro jusqu'à ce que vous entriez la quantité que vous avez réellement déplacée.  
+    Pour chaque composant nécessaire pouvant être déplacé, une ligne prélèvement et une ligne d'emplacement sont générées sur la page **Mouvements de stock** . Tous les champs à l'exception du champ **Qté à traiter** sont préremplis en fonction des lignes document origine. Le champ **Qté à traiter** est défini sur zéro jusqu'à ce que vous entriez la quantité que vous avez réellement déplacée.  
 
-    Vous pouvez modifier le code emplacement de la ligne prélèvement mais uniquement en fonction de la disponibilité. Si vous choisissez le bouton **AssistEdit** dans le champ **Code emplacement** sur une ligne prélèvement, la fenêtre **Contenu emplacement** s'ouvre et affiche uniquement les emplacements où le composant est disponible.  
+    Vous pouvez modifier le code emplacement de la ligne prélèvement mais uniquement en fonction de la disponibilité. Si vous choisissez le bouton **AssistEdit** dans le champ **Code emplacement** sur une ligne prélèvement, la page **Contenu emplacement** s'ouvre et affiche uniquement les emplacements où le composant est disponible.  
 
     Vous ne pouvez pas modifier le code emplacement sur une ligne d'emplacement. Seul le code emplacement qui est défini sur la ligne composant du document origine est accepté. Cela se base sur le principe que le rôle demandant un composant, qui est un ouvrier d'assemblage dans cette procédure, sait où doit être placé le composant. Si vous souhaitez placer les composants dans un autre emplacement, vous devez d'abord modifier le code emplacement de la ligne composant puis recréer les lignes mouvement de stock.  
 6.  Dans le champ **Qté à traiter**, entrez la quantité totale ou partielle que vous avez réellement déplacée. La valeur sur les lignes prélèvement et emplacement doit être la même. Sinon, vous ne pouvez pas enregistrer le mouvement.  

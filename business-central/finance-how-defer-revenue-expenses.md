@@ -13,10 +13,10 @@ ms.search.keywords: postpone
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2e7bb4a1e4dff97167c7648d5b1c4c8250d6819b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9a21f4e54dc5afd8144d0990a9f9bcc30401a82c
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="defer-revenues-and-expenses"></a>Echelonner les recettes et les dépenses
@@ -36,12 +36,12 @@ Pour les deux types d'échelonnement, sélectionnez **Bilan** dans le champ **Ty
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Modèles échelonnement**, puis sélectionnez le lien associé.
 2. Sélectionnez l'action **Nouveau**.
 3. Renseignez les champs selon vos besoins.
-4. Dans le champ **Méthode de calcul**, précisez comment le champ **Montant** est calculé pour chaque période dans la fenêtre **Tableau d'échelonnement**. Les options suivantes vous sont proposées :
+4. Dans le champ **Méthode de calcul**, précisez comment le champ **Montant** est calculé pour chaque période sur la page **Tableau d'échelonnement**. Les options suivantes vous sont proposées :
 
    * **Linéaire** : les montants d'échelonnement périodique sont calculés selon le nombre de périodes, réparties en fonction de la durée de la période.
    * **Égal par période** : les montants d'échelonnement périodique sont calculés selon le nombre de périodes, réparties de façon uniforme sur les périodes.
    * **Jours par période** : les montants d'échelonnement périodique sont calculés selon le nombre de jours dans la période.
-   * **Défini par l'utilisateur** : les sommes d'échelonnement périodique ne sont pas calculées. Vous devez renseigner manuellement le champ **Montant** pour chaque période dans la fenêtre Tableau d'échelonnement. Pour en savoir plus, voir la section « Pour modifier un tableau d'échelonnement à partir d'une facture vente ».
+   * **Défini par l'utilisateur** : les sommes d'échelonnement périodique ne sont pas calculées. Vous devez renseigner manuellement le champ **Montant** pour chaque période sur la page Tableau d'échelonnement. Pour en savoir plus, voir la section « Pour modifier un tableau d'échelonnement à partir d'une facture vente ».
 5. Dans le champ **Description période**, spécifiez une description affichée sur les écritures pour la validation de l'échelonnement. Vous pouvez saisir les codes d'espace réservé suivants pour les valeurs générales, qui seront insérés automatiquement lorsque la description de la période s'affiche.
 
    * %1 = le numéro du jour de la date de comptabilisation de la période
@@ -67,7 +67,7 @@ Exemple : la date de comptabilisation est le 06/02/2016. Si vous saisissez « 
 
     Notez que dès que vous saisissez l'article (ou la ressource ou le compte général) sur la ligne de facture, le champ **Code d'échelonnement** est complété avec le code du modèle d'échelonnement attribué.
 3. Sélectionnez l'action **Tableau d'échelonnement**.
-4. Dans la fenêtre **Tableau d'échelonnement**, modifiez les paramètres sur l'en-tête ou les valeurs des lignes, par exemple afin d'échelonner le montant sur une autre période comptable.
+4. Sur la page **Tableau d'échelonnement**, modifiez les paramètres sur l'en-tête ou les valeurs des lignes, par exemple afin d'échelonner le montant sur une autre période comptable.
 5. Sélectionnez l'action **Calculer tableau**.
 6. Cliquez sur le bouton **OK**. Le tableau d'échelonnement est mis à jour pour la facture vente. Le modèle d'échelonnement associé reste inchangé.
 
@@ -75,8 +75,8 @@ Exemple : la date de comptabilisation est le 06/02/2016. Si vous saisissez « 
 > [!NOTE]  
 >   Les étapes de cette procédure sont identiques lorsque vous prévisualisez la manière dont les échelonnements des dépenses sont validés.
 
-1. Dans la fenêtre **Facture vente enregistrée** sélectionnez l'action **Aperçu compta.**.
-2. Dans la fenêtre **Aperçu compta.**, sélectionnez l'action **Écriture comptable**, puis sélectionnez l'action **Afficher écritures associées**.
+1. Sur la page **Facture vente enregistrée** sélectionnez l'action **Aperçu compta.**.
+2. Sur la page **Aperçu compta.**, sélectionnez l'action **Écriture comptable**, puis sélectionnez l'action **Afficher écritures associées**.
 
 Les écritures comptables à valider vers le compte d'échelonnement spécifié, par exemple, les Revenus comptabilisés d'avance, sont désignées par la description que vous avez saisie dans le champ **Description de la période** du modèle d'échelonnement, par exemple « Dépenses échelonnées pour février 2016 ».
 
@@ -85,7 +85,7 @@ Les écritures comptables à valider vers le compte d'échelonnement spécifié,
 >   Les étapes de cette procédure sont identiques lorsque vous prévisualisez l'état Résumé échelonnement achats.
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Résumé échelonnement ventes**, puis sélectionnez le lien associé.
-2. Dans la fenêtre **Résumé échelonnement ventes**, dans le champ **Balance au**, saisissez la date à laquelle vous souhaitez voir les recettes échelonnées.
+2. Sur la page **Résumé échelonnement ventes**, dans le champ **Balance au**, saisissez la date à laquelle vous souhaitez voir les recettes échelonnées.
 3. Cliquez sur le bouton **Aperçu**.
 
 ## <a name="see-also"></a>Voir aussi

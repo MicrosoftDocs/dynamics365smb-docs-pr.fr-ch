@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 22c79e4a878f474b29831d86b613a80184395d99
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a52a95bf3fc96b89e664041e3d2b289b6042c046
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="configure-new-companies"></a>Configurer de nouvelles sociétés
@@ -38,7 +38,7 @@ Toutes les tables que vous avez désignées pour les inclure à la nouvelle soci
 ## <a name="to-apply-package-data"></a>Pour appliquer les données de package  
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille configuration**, et sélectionnez le lien associé.  
 2. Sélectionnez une table pour laquelle vous souhaitez modifier les données, puis sélectionnez l'action **Appliquer données**. Cliquez sur le bouton **Oui** pour confirmer l'application.
-3. Pour confirmer que les données se trouvent maintenant dans la base de données et que l’application a réussi, revenez à la fenêtre **Feuille config** et sélectionnez l'action **Données base de données**.  
+3. Pour confirmer que les données se trouvent maintenant dans la base de données et que l’application a réussi, revenez à la page **Feuille config** et sélectionnez l'action **Données base de données**.  
 
 > [!NOTE]  
 >  Après l’application des données, vous pouvez uniquement les visualiser dans la base de données. Elles ne se trouvent plus dans le package.  
@@ -46,9 +46,9 @@ Toutes les tables que vous avez désignées pour les inclure à la nouvelle soci
 ## <a name="to-modify-and-apply-package-data"></a>Pour modifier et appliquer les données de package  
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille configuration**, et sélectionnez le lien associé.  
 2. Sélectionnez une table pour laquelle vous souhaitez modifier les données, puis sélectionnez l'action **Données package**.  
-3. Dans la fenêtre **Enregistrements package config.**, effectuez vos modifications. Par exemple, vous pouvez supprimer des options qui ne s’appliquent pas.  
+3. Sur la page **Enregistrements package config.**, effectuez vos modifications. Par exemple, vous pouvez supprimer des options qui ne s’appliquent pas.  
 4. Sélectionnez l'action **Appliquer données**, puis le bouton **OK**.  
-5. Pour confirmer que les données se trouvent maintenant dans la base de données et que l’application a réussi, revenez à la fenêtre **Feuille config** et sélectionnez l'action **Données base de données**.  
+5. Pour confirmer que les données se trouvent maintenant dans la base de données et que l’application a réussi, revenez à la page **Feuille config** et sélectionnez l'action **Données base de données**.  
 
 ## <a name="to-locate-and-identify-a-configuration-error"></a>Pour trouver et identifier une erreur de configuration  
 Il existe certains types d’erreurs qui surviennent lorsque vous appliquez des données à une base de données. L’erreur la plus commune est que les tables associées requises ne soient pas incluses. Vous corrigez ces erreurs dans la feuille de configuration.
@@ -58,7 +58,7 @@ Il existe certains types d’erreurs qui surviennent lorsque vous appliquez des 
 
     Toute table présentant des erreurs est mise en surbrillance. Le nombre d’erreurs de package est affiché dans le champ **Nombre erreurs package**.  
 
-3. Choisissez le champ **Nombre erreurs package** pour ouvrir la fenêtre **Enregistrements package config.**, qui répertorie les enregistrements contenant des erreurs.  
+3. Choisissez le champ **Nombre erreurs package** pour ouvrir la page **Enregistrements package config.**, qui répertorie les enregistrements contenant des erreurs.  
 
 ### <a name="to-fix-an-error"></a>Pour corriger une erreur  
 1. Ouvrez la société basée sur votre package configuration.  

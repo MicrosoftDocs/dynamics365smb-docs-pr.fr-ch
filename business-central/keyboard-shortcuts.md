@@ -11,17 +11,17 @@ ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3df0235b477d2dc1085ed0b2a622d0e1b96c8a78
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 549f66a584e7994cba6d7b99ee25a04c8cb8960b
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
 # <a name="keyboard-shortcuts"></a>Raccourcis clavier
-Cet article fournit un aperçu de certaines combinaisons de touches de raccourcis que vous pouvez utiliser avec lorsque vous utilisez [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
+Cet article fournit un aperçu de certaines combinaisons de touches de raccourcis que vous pouvez utiliser avec lorsque vous utilisez [!INCLUDE[prodshort](includes/prodshort.md)].
 
-[Aide-mémoire des raccourcis clavier imprimable](keyboard-shortcuts-cheatsheet.md)
+[Référence sur les raccourcis clavier imprimable](keyboard-shortcuts-cheatsheet.md)
 
 ## <a name="overview"></a>Aperçu
 Les raccourcis clavier facilitent l'accessibilité et la navigation dans différentes zones et éléments d'une page.
@@ -35,14 +35,17 @@ La plupart des raccourcis sont identiques, que le système d'exploitation soit W
 ##  <a name="Keyboard"></a> Raccourcis clavier généraux
 Le tableau suivant décrit les raccourcis clavier pour naviguer et accéder à différents éléments d'une page, tels que des actions, des listes déroulantes, des recherches, etc. Pour en savoir plus sur les raccourcis clavier pour naviguer entre les enregistrements au sein d'une la liste, consultez la prochaine section.
 
-|Appuyez sur les touches suivantes|Pour|  
+|Appuyez sur les touches suivantes<br />(dans macOS)|Pour|  
 |----------------|-----------|  
-|Alt+Q|Ouvrez la zone **Dites-moi ce que vous voulez faire** qui peut vous aider à rechercher une page, un état, une action sur la page actuelle, ou un article dans la documentation.|
+|Alt+Q<br />(Ctrl+Alt+Q)|Ouvrez la zone **Dites-moi ce que vous voulez faire** qui peut vous aider à rechercher une page, un état, une action sur la page actuelle, ou un article dans la documentation.|
+|Alt+Flèche vers le haut|Afficher l'info-bulle pour un champ ou un en-tête de colonne d'une table. Si le champ a des erreurs de validation, appuyez sur « Alt+Flèche vers le haut » pour afficher l'erreur de validation. Appuyez sur « Échap » ou « Alt+Flèche vers le haut » pour fermer l'info-bulle.|
 |Tab|Déplacer le focus sur le contrôle ou l'élément suivant d'une page, par exemple les actions, les boutons, les champs ou les en-têtes d'une liste.|
 |MAJ+Tab|Déplacer le focus sur le contrôle ou l'élément précédent d'une page, par exemple les actions, les boutons, les champs ou les en-têtes d'une liste.|   
 |Entrée|Activer ou accéder à l'élément ou au contrôle qui a le focus.|   
 |Alt+Flèche bas|Ouvrir une liste déroulante ou rechercher la valeur d'un champ.|    
 |Alt+Flèche vers la droite|Visualiser les transactions qui ont généré une valeur calculée dans un champ.|  
+|F5|Actualiser les données sur la page actuelle.|Utilisez cette fonction pour vous assurer que les données sont à jour sur la page avec les modifications que d'autres ont effectués pendant que vous travaillez.|
+|Ctrl+F5|Rechargez l'application [!INCLUDE[prodshort](includes/prodshort.md)].|C'est similaire à sélectionner l'actualisation/rechargement du navigateur.|
 |Echap|Fermer la page actuelle ou la liste déroulante.|
 
 
@@ -126,7 +129,7 @@ Lorsque vous définissez un champ de date, vous pouvez saisir la date manuelleme
 |Flèche vers le haut|Faites défiler vers le haut de la page.|
 |Flèche vers la droite|Faites défiler vers la droite lorsque le zoom est appliqué à la page et qu'elle n'est pas entièrement visible. |
 |Flèche vers la gauche|Faites défiler vers la gauche lorsque le zoom est appliqué à la page et qu'elle n'est pas entièrement visible. |
-|Ctrl+0 (zéro)<br />(Cmd+0)|Adapte la page entière à la fenêtre. |
+|Ctrl+0 (zéro)<br />(Cmd+0)|Adapte la page entière à la page. |
 |Ctrl+Début<br />(Cmd+Accueil)|Accédez à la première page de l'état.|
 |Ctrl+Fin<br />(Cmd+Accueil)|Accédez à la dernière page de l'état.|
 |Page suivante<br />(Fn + Flèche bas)|Accédez à la prochaine page de l'état.|

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 90d25c9c5c5687109387c548a273f4457691e151
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5fd4bedcef6fcec79b1b2c8744c7c08d8170d97e
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Détails de conception : disponibilité dans l'entrepôt
@@ -32,7 +32,7 @@ Le système doit conserver un contrôle constant de la disponibilité des articl
 ## <a name="quantity-available-to-pick"></a>Quantité disponible pour prélèvement  
  Si, par exemple, l'algorithme de prélèvement ne prend pas en compte les quantités d'article réservées pour une expédition de commande vente en attente, ces articles peuvent être prélevés pour une autre commande vente expédiée à une date antérieure, ce qui empêche de satisfaire les premières ventes. Pour éviter cette situation, l'algorithme de prélèvement soustrait les quantités qui sont réservées pour d'autres documents sortants, quantités figurant dans les documents de prélèvement existants, et quantités qui sont prélevées mais pas encore livrées ni consommées.  
 
- Le résultat est affiché dans le champ **Qté disponible à prélever** de la fenêtre **Feuille prélèvement**, où le champ est calculé dynamiquement. La valeur est également calculée lorsque les utilisateurs créent les prélèvements entrepôt directement pour les documents sortants. Ces documents sortants peuvent être des commandes vente, une consommation de production ou des désenlogements transfert, dans lesquels le résultat est visible dans les champs quantité liés, tels que **Qté à traiter**.  
+ Le résultat est affiché dans le champ **Qté disponible à prélever** de la page **Feuille prélèvement**, où le champ est calculé dynamiquement. La valeur est également calculée lorsque les utilisateurs créent les prélèvements entrepôt directement pour les documents sortants. Ces documents sortants peuvent être des commandes vente, une consommation de production ou des désenlogements transfert, dans lesquels le résultat est visible dans les champs quantité liés, tels que **Qté à traiter**.  
 
 > [!NOTE]  
 >  En ce qui concerne la priorité des réservations, la quantité à réserver est soustraite de la quantité disponible à prélever. Par exemple, si la quantité disponible dans les emplacements prélèvement est 5 unités, mais que 100 unités sont dans les emplacements de rangement, alors, lorsque vous tentez de réserver plus de 5 unités pour une autre commande, un message d'erreur s'affiche, car la quantité supplémentaire doit être disponible dans les emplacements prélèvement.  
@@ -58,9 +58,9 @@ Le système doit conserver un contrôle constant de la disponibilité des articl
 -   Quantité dans les emplacements avant assemblage  
 -   Quantité dans les emplacements ajustement  
 
- Le résultat est affiché dans le champ **Quantité totale disponible** de la fenêtre **Réservation**.  
+ Le résultat est affiché dans le champ **Quantité totale disponible** de la page **Réservation**.  
 
- Sur une ligne réservation, la quantité qui ne peut pas être réservée, parce qu'elle est affectée dans l'entrepôt, est affichée dans le champ **Qté affectée à l'entrepôt** de la fenêtre **Réservation**.  
+ Sur une ligne réservation, la quantité qui ne peut pas être réservée, parce qu'elle est affectée dans l'entrepôt, est affichée dans le champ **Qté affectée à l'entrepôt** de la page **Réservation**.  
 
 ### <a name="calculating-the-quantity-available-to-reserve"></a>Calcul de la quantité disponible à réserver  
  La quantité disponible à réserver est calculée de la façon suivante :  

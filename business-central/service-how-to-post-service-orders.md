@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2b62ab8062c5c93bbf67b6949397d18556b8cf78
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a6554708a40b50275a88a0c414be51cc99ccda85
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Valider des commandes et des avoirs service
@@ -30,7 +30,7 @@ Si vous avez un grand nombre de commandes service, vous pouvez gagner du temps e
 ## <a name="to-post-a-service-order"></a>Pour valider des commandes service :    
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes service**, puis sélectionnez le lien associé.  
 2. Ouvrez la commande service.  
-3. Sur la fenêtre **Commande service**, choisissez l'une des actions suivantes.  
+3. Sur la page **Commande service**, choisissez l'une des actions suivantes.  
   
     |**Fonction**|**Résultat**|  
     |------------------|----------------|  
@@ -91,13 +91,13 @@ Après avoir spécifié les détails d'un service, vous pouvez ajuster et valide
   
 La procédure suivante explique comment valider l'expédition des articles ligne service dans les magasins qui ne sont pas configuré pour appeler une gestion d'entrepôt.  
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commande service**, puis sélectionnez le lien associé. 2. Dans la fenêtre de la commande service sélectionnée, choisissez **Actions**, **Commande**,  **Lignes service**.  
-3. Dans la fenêtre **Lignes service**, recherchez les écritures requises, puis spécifiez la quantité à valider dans le champ **Qté à expédier**.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commande service**, puis sélectionnez le lien associé. 2. Sur la page de la commande service sélectionnée, choisissez **Actions**, **Commande**, **Lignes service**.  
+3. Sur la page **Lignes service**, recherchez les écritures requises, puis spécifiez la quantité à valider dans le champ **Qté à expédier**.  
   
    > [!NOTE]  
    >  La valeur de la quantité à expédier varie selon que vous voulez valider l'expédition entièrement ou partiellement. Si vous décidez d'expédier entièrement, la valeur renseignée dans le champ **Qté à expédier** doit être égale à celle renseignée dans le champ **Quantité**. Si vous validez une expédition partielle, vous devez spécifier la quantité que vous voulez expédier initialement. Si vous avez déjà expédié une partie du service en commande, prenez note de la valeur dans le champ **Qté expédiée**. La quantité maximale que vous pouvez entrer dans le champ **Qté à expédier** est le nombre d'unités qui n'ont pas encore été expédiées.  
   
-4. Choisissez **Actions**, **Validation**, **Valider**. Dans la fenêtre qui s'affiche, choisissez **Expédier**.  
+4. Choisissez **Actions**, **Validation**, **Valider**. Sur la page qui s'affiche, choisissez **Expédier**.  
   
 [!INCLUDE[d365fin](includes/d365fin_md.md)] crée les écritures comptables appropriées (dans les écritures comptables garantie, les écritures comptables article, les écritures comptables service ou la comptabilité). Il génère également le document expédition service validé et met à jour les champs appropriés sur les lignes service de la commande service.  
   

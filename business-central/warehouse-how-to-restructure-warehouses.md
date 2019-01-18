@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8a04784a354a3f44c3a12c75d16ebc166e7a8c47
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 06233abf9eef229ac86ee31857352af1de5e34e2
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="restructure-warehouses"></a>Restructurer les entrepôts
@@ -56,9 +56,9 @@ Vous avez à présent vidé les emplacements où les articles se trouvaient aupa
 
     1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Magasins**, puis choisissez le lien associé.  
     2.  Sélectionnez la ligne indiquant l'emplacement, puis, sous l'onglet Naviguer, choisissez l'action **Emplacements**.  
-    3.  Dans la fenêtre **Emplacements**, dans le champ **Code type emplacement**, entrez **CQ** pour chacun des anciens emplacements que vous avez vidés à l'étape 3 de la procédure précédente.  
+    3.  Sur la page **Emplacements**, dans le champ **Code type emplacement**, entrez **CQ** pour chacun des anciens emplacements que vous avez vidés à l'étape 3 de la procédure précédente.  
 
-Vous avez à présent supprimé les emplacements du flux entrepôt et les avez reclassés en tant qu'emplacements de type CQ. Pour les emplacements de ce type, aucun des champs d'activité de la fenêtre **Types d'emplacement** n'est sélectionné, par conséquent ils ne sont pas pris en compte par le flux d'articles. Pour plus d'informations, voir [Configurer des types d'emplacement](warehouse-how-to-set-up-bin-types.md).  
+Vous avez à présent supprimé les emplacements du flux entrepôt et les avez reclassés en tant qu'emplacements de type CQ. Pour les emplacements de ce type, aucun des champs d'activité de la page **Types d'emplacement** n'est sélectionné, par conséquent ils ne sont pas pris en compte par le flux d'articles. Pour plus d'informations, voir [Configurer des types d'emplacement](warehouse-how-to-set-up-bin-types.md).  
 
 ## <a name="to-delete-a-bin"></a>Pour supprimer un emplacement  
 
@@ -69,7 +69,7 @@ Vous avez à présent supprimé les emplacements du flux entrepôt et les avez r
 
 Si vous sélectionnez le bouton **Oui**, l'emplacement est supprimé pour ne plus être utilisé, mais le code emplacement de toutes les écritures entrepôt reste le même.  
 
-Pour renommer un emplacement de façon à ce que tous les enregistrements associés à cet emplacement soient également renommés, y compris les enregistrements comprennent le contenu des emplacements, les lignes activité entrepôt, les lignes activité entrepôt enregistrées, les lignes feuille entrepôt, les lignes réception entrepôt, les lignes réception entrepôt validées, les lignes expédition entrepôt, les lignes expédition entrepôt validées et les écritures entrepôt, vous pouvez utiliser la fenêtre **Emplacements**.  
+Pour renommer un emplacement de façon à ce que tous les enregistrements associés à cet emplacement soient également renommés, y compris les enregistrements comprennent le contenu des emplacements, les lignes activité entrepôt, les lignes activité entrepôt enregistrées, les lignes feuille entrepôt, les lignes réception entrepôt, les lignes réception entrepôt validées, les lignes expédition entrepôt, les lignes expédition entrepôt validées et les écritures entrepôt, vous pouvez utiliser la page **Emplacements**.  
 
 ## <a name="to-rename-a-bin-and-change-the-bin-code-in-all-records"></a>Pour renommer un emplacement et modifier le code emplacement de tous les enregistrements  
 

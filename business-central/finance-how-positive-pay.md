@@ -13,10 +13,10 @@ ms.search.keywords: check, clearing
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: dc63da7f3363ef45028a0b185c27aa468e02db6d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 61f3d3fcd093c9fca4e23481ff3b527714b85379
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="export-a-positive-pay-file"></a>Exporter un fichier Positive Pay
@@ -28,17 +28,17 @@ Pour vous assurer que votre banque efface uniquement les chèques et les montant
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Comptes bancaires**, puis sélectionnez le lien associé.
 2. Ouvrez la fiche de la banque pour laquelle vous souhaitez utiliser Positive Pay.
 3. Dans le champ **Code exportation Positive Pay**, entrez POSPAYBANK.
-4. Fermez la fenêtre.
+4. Fermez la page.
 
 ## <a name="to-export-a-positive-pay-file"></a>Pour exporter un fichier Positive Pay
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Comptes bancaires**, puis sélectionnez le lien associé.
 2. Sélectionnez le compte bancaire pour lequel vous voulez exporter un fichier Positive Pay.
 3. Choisissez l'option **Exportation Positive Pay**.
 
-    La fenêtre **Exportation Positive Pay** s'ouvre et affiche les paiements qui ont été effectués pour le compte bancaire depuis la dernière date de téléchargement, comme indiqué dans les champs **Date dernier téléchargement** et **Heure dernier téléchargement**.
+    La page **Exportation Positive Pay** s'ouvre et affiche les paiements qui ont été effectués pour le compte bancaire depuis la dernière date de téléchargement, comme indiqué dans les champs **Date dernier téléchargement** et **Heure dernier téléchargement**.
 4. Dans le champ **Date limite téléchargement**, spécifiez une date avant laquelle les paiements ne sont pas inclus dans le fichier exporté.
 5. Sélectionnez l'option **Exporter**.
-6. Dans la fenêtre **Exporter fichier**, choisissez le bouton **Enregistrer**, puis enregistrez le fichier à l'emplacement approprié.
+6. Sur la page **Exporter fichier**, choisissez le bouton **Enregistrer**, puis enregistrez le fichier à l'emplacement approprié.
 7. Téléchargez le fichier sur votre site bancaire électronique.
 8. Notez ou copiez le numéro de confirmation qui s'affiche lorsque le téléchargement du fichier est terminé.
 
@@ -48,7 +48,7 @@ Pour afficher les enregistrements Positive Pay exportés
 2. Sélectionnez le compte bancaire pour lequel vous voulez afficher l'enregistrement d'exportation de Positive Pay.
 3. Choisissez l'option **Écritures Positive Pay**.
 
-    Dans la fenêtre **Écritures Positive Pay**, vous pouvez afficher tous les enregistrements d'exportation de Positive Pay pour le compte bancaire.
+    Sur la page **Écritures Positive Pay**, vous pouvez afficher tous les enregistrements d'exportation de Positive Pay pour le compte bancaire.
 4. Dans le champ **Numéro de confirmation**, entrez, pour chaque enregistrement d'exportation, le numéro de confirmation que vous recevez lorsque le téléchargement du fichier vers la banque est terminé.
 5. Pour afficher les lignes de paiement associées, choisissez l'option **Détails écriture Positive Pay**.
 
@@ -58,7 +58,7 @@ Pour réexporter les fichiers Positive Pay
 2. Sélectionnez le compte bancaire pour lequel vous voulez réeexporter les fichiers Positive Pay.
 3. Choisissez l'option **Écritures Positive Pay**.
 4. Sélectionnez la ligne du fichier d'exportation Positive Pay à réexporter.
-5. Dans la fenêtre **Écritures Positive Pay**, choisissez l'option **Réexporter Positive Pay dans un fichier**.
+5. Sur la page **Écritures Positive Pay**, choisissez l'option **Réexporter Positive Pay dans un fichier**.
 
 ## <a name="see-also"></a>Voir aussi
 [Finances](finance.md)  

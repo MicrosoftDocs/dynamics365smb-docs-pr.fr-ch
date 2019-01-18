@@ -11,10 +11,10 @@ ms.search.keywords: undo, credit memo, return
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 96430c92bf4fecbe98b53d09c06c82a5828b7326
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a74dcd8e2d0409ca7385ea8a47a78dd9a74561b6
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="correct-or-cancel-unpaid-sales-invoices"></a>Corriger ou annuler des factures vente impayées
@@ -23,7 +23,7 @@ Vous pouvez corriger ou annuler une facture vente validée. Cela est utile si vo
 > [!NOTE]  
 >   Une fois la facture vente validée entièrement ou partiellement payée, vous ne pouvez pas la corriger ou l'annuler depuis elle-même. Au lieu de cela, vous devez créer manuellement un avoir vente pour annuler la vente et rembourser le client, géré de manière facultative avec un retour vente. Pour plus d'informations, reportez-vous à [Traiter les retours ou annulations de ventes](sales-how-process-sales-returns-cancellations.md).
 
-Dans la fenêtre **Facture vente enregistrée**, vous pouvez sélectionnez l'action **Corriger** ou **Annuler** pour exécuter les actions décrites dans le tableau suivant.
+Sur la page **Facture vente enregistrée**, vous pouvez sélectionnez l'action **Corriger** ou **Annuler** pour exécuter les actions décrites dans le tableau suivant.
 
 | Action | Description |
 | --- | --- |
@@ -38,7 +38,7 @@ Lorsque vous corrigez ou annulez une facture vente enregistrée, l'avoir vente d
 
     > [!NOTE]  
     >   Si la case à cocher **Annulé** est activée, vous ne pouvez pas corriger la facture vente validée car elle l'a déjà été, ou a été annulée.
-3. Dans la fenêtre **Facture vente enregistrée** sélectionnez l'action **Corriger**.  
+3. Sur la page **Facture vente enregistrée** sélectionnez l'action **Corriger**.  
 4. Une nouvelle facture vente avec les mêmes informations et dans laquelle vous pouvez apporter une correction est créée. La valeur du champ **Annulé** de la facture vente validée initiale devient **Oui**.
 
     Un avoir vente est automatiquement créé et validé pour annuler la facture vente validée initiale.
@@ -50,7 +50,7 @@ Lorsque vous corrigez ou annulez une facture vente enregistrée, l'avoir vente d
 
     > [!NOTE]  
     >   Si la case à cocher **Annulé** est activée, vous ne pouvez pas annuler la facture vente validée car elle a déjà été annulée ou corrigée.
-3. Dans la fenêtre **Facture vente enregistrée** sélectionnez l'action **Annuler**.
+3. Sur la page **Facture vente enregistrée** sélectionnez l'action **Annuler**.
 
     Un avoir vente est automatiquement créé et validé pour annuler la facture vente validée initiale. La valeur du champ **Annulé** de la facture vente validée initiale devient **Oui**.
 4. Sélectionnez l'action **Afficher un avoir correctif** pour afficher l'avoir vente validé qui annule la facture vente validée initiale.

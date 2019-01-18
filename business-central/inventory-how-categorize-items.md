@@ -13,10 +13,10 @@ ms.search.keywords: category, search, attribute, facet
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c62d26dc9dc444359c0d8b5a9354b29132857de1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5b684df40599a730054e333f1bdf2e526c840e0b
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="categorize-items"></a>Catégoriser des articles
@@ -26,8 +26,8 @@ Pour trouver les articles par caractéristique, vous pouvez affecter des attribu
 
 ## <a name="to-create-an-item-category"></a>Pour créer une catégorie d'article
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Catégories article**, puis sélectionnez le lien associé.
-2. Dans la fenêtre **Catégories d'article**, sélectionnez l'action **Nouveau**.
-3. Dans la fenêtre **Fiche catégorie d'article**, sur le raccourci **Général**, complétez les champs suivants : [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Sur la page **Catégories d'article**, sélectionnez l'action **Nouveau**.
+3. Sur la page **Fiche catégorie d'article**, sur le raccourci **Général**, complétez les champs suivants : [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Sur le raccourci **Attributs**, précisez tout attribut d'article pour la catégorie d'article. Pour en savoir plus, voir la section « Assigner des attributs d'article à une catégorie d'article » dans [Utiliser les attributs d'article](inventory-how-work-item-attributes.md).
 
 > [!NOTE]  

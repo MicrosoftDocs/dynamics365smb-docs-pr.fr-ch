@@ -13,14 +13,14 @@ ms.search.keywords: project management
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f629216f08ae10667fac1726c97c4d55a90d3a88
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: fc4c413fcb02cda2e0eb2b8caf7af721a26dfe1b
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-jobs"></a>Configuration de projets
-Dans la fenêtre **Paramètres projets**, vous devez spécifier comment utiliser certaines fonctions de projet.
+Sur la page **Paramètres projets**, vous devez spécifier comment utiliser certaines fonctions de projet.
 
 Sur les fiches projet individuelles, vous devez configurer les prix pour les articles, les ressources et les comptes généraux du projet, puis vous devez configurer des groupes comptabilisation du projet.
 
@@ -48,25 +48,25 @@ Lorsque la case à cocher **Appliquer le lien d'utilisation par défaut** est ac
 >   Vous pouvez modifier le paramètre de la case à cocher **Appliquer le lien d'utilisation par défaut** sur les différentes fiches projet. Dans ce cas, le paramètre pour ce projet remplace la valeur par défaut globale décrite précédemment.
 
 ## <a name="to-set-up-prices-for-job-resources"></a>Pour paramétrer des prix pour les ressources de projet
-Vous pouvez paramétrer des prix spécifiques pour les ressources d'un projet. Réalisez cette opération dans la fenêtre **Prix ressource projet**.
+Vous pouvez paramétrer des prix spécifiques pour les ressources d'un projet. Réalisez cette opération sur la page **Prix ressource projet**.
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Projets**, puis sélectionnez le lien associé.  
 2. Sélectionnez le projet concerné, puis l'action **Ressource**.
-3. Dans la fenêtre **Prix ressource projet**, renseignez les champs selon vos besoins.
+3. Sur la page **Prix ressource projet**, renseignez les champs selon vos besoins.
 
 Les informations complémentaires contenues dans les champs **N° tâche projet**, **Type travail**, **Code devise**, **% remise ligne** et **Facteur coût unitaire** serviront sur les lignes planning projet et les feuilles activité lorsque cette ressource sera entrée et ajoutée au projet.  
 
 La valeur du champ **Prix unitaire** de la ressource sera utilisée sur les lignes planning du projet et les feuilles projet lorsque cette ressource, une ressource affectée au groupe de ressources ou une ressource quelconque est entrée.  
 
 > [!NOTE]  
->   Ce prix remplace toujours les prix paramétrés dans les tables **Prix ressource/Prix groupe ressources** existantes.
+>   Ce prix remplace toujours les prix paramétrés sur la page **Prix ressource/Prix groupe ressources** existante.
 
 ## <a name="to-set-up-prices-for-job-items"></a>Pour paramétrer les prix pour les articles
-Vous pouvez paramétrer des prix spécifiques pour les articles d'un projet. Réalisez cette opération dans la fenêtre **Prix article projet**.
+Vous pouvez paramétrer des prix spécifiques pour les articles d'un projet. Réalisez cette opération sur la page **Prix article projet**.
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Projets**, puis sélectionnez le lien associé.  
 2. Sélectionnez le projet concerné, puis cliquez sur **Article**.
-3. Dans la fenêtre **Prix article projet**, renseignez les champs selon vos besoins.
+3. Sur la page **Prix article projet**, renseignez les champs selon vos besoins.
 
 Les informations facultatives des champs **N° tâche projet**, **Code devise** et **% remise ligne** serviront sur les lignes planning du projet et les feuilles projet lorsque cet article sera entré ou ajouté au projet.  
 
@@ -76,11 +76,11 @@ La valeur du champ **Prix unitaire** pour l'article sera utilisée sur les ligne
 >   Ce prix remplace toujours le prix client habituel (mécanisme du « meilleur prix ») des articles. Pour utiliser les mécanismes des prix client habituels, ne créez pas de prix article projet pour le projet.
 
 ## <a name="to-set-up-prices-for-job-general-ledger-accounts"></a>Pour configurer les prix des comptes généraux projet
-Vous pouvez configurer les prix spécifiques des frais d'un projet. Réalisez cette opération dans la fenêtre **Prix compte général projet**.
+Vous pouvez configurer les prix spécifiques des frais d'un projet. Réalisez cette opération sur la page **Prix compte général projet**.
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Projets**, puis sélectionnez le lien associé.  
 2. Sélectionnez le projet concerné, puis cliquez sur **Compte général**.  
-3. Dans la fenêtre **Prix compte général projet**, renseignez les champs selon vos besoins.
+3. Sur la page **Prix compte général projet**, renseignez les champs selon vos besoins.
 
 Les informations complémentaires contenues dans les champs **N° tâche projet**, **Code devise**, **% remise ligne**, **Facteur coût unitaire** et **Coût unitaire** serviront sur les lignes planning projet et les feuilles projet lorsque ce compte général sera entré et ajouté à un projet.  
 

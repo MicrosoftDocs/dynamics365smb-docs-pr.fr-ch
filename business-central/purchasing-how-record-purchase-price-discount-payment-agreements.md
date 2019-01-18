@@ -11,10 +11,10 @@ ms.search.keywords: special price, alternate price, pricing
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ea247c762749c108ede8679bb622f71d2dd67f51
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0a718c45256a1e7cc7fbde794491814f1c26dd4a
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="record-special-purchase-prices-and-discounts"></a>Enregistrer les prix d'achat spéciaux et les remises
@@ -60,7 +60,7 @@ Une fois que vos fournisseurs vous ont informé des remises facture qu'ils accor
     >   Les codes remise facture sont représentés par les fiches fournisseur existantes. Cela vous permet d'affecter rapidement les conditions de remise facture aux fournisseurs en sélectionnant le nom d'autres fournisseurs qui bénéficient des mêmes conditions.
 
     Configurez de nouvelles conditions de remise facture pour les achats.
-4. Dans la fenêtre **Fiche fournisseur**, sélectionnez l'action **Remises facture**. La fenêtre **Remises facture fournisseur** s'ouvre.
+4. Sur la page **Fiche fournisseur**, sélectionnez l'action **Remises facture**. La page **Remises facture fournisseur** s'ouvre.
 5. Dans le champ **Code devise**, indiquez le code d'une devise à laquelle s'appliquent les conditions de remise facture. Laissez le champ vierge si vous souhaitez configurer des conditions de remise facture en EUR.
 6. Dans le champ **Montant minimum**, entrez le montant minimal qu'une facture doit présenter pour faire l'objet de la remise.
 7. Dans le champ **% remise**, entrez la remise facture sous la forme d'un pourcentage du montant de la facture.
@@ -88,7 +88,7 @@ Si vous avez défini des conditions pour les remises facture avec des fournisseu
 
  Avant d'utiliser les remises facture pour les achats, vous devez spécifier les fournisseurs qui vous offriront les remises.  
 
- Vous pouvez associer les pourcentages remise à des montants de facture spécifiques dans les fenêtres **Remises facture fournisseur**. Vous pouvez entrer le nombre de pourcentages de votre choix dans chaque fenêtre. Chaque fournisseur peut disposer de sa propre fenêtre ou vous pouvez associer plusieurs fournisseurs à une même fenêtre.  
+ Vous pouvez associer les pourcentages remise à des montants de facture spécifiques sur les pages **Remises facture fournisseur**. Vous pouvez entrer le nombre de pourcentages de votre choix sur chaque page. Chaque fournisseur peut disposer de sa propre page ou vous pouvez associer plusieurs fournisseurs à une même page.  
 
  En plus du pourcentage de remise, vous pouvez lier un montant de frais forfaitaires au montant d'une facture.  
 
@@ -97,7 +97,7 @@ Si vous avez défini des conditions pour les remises facture avec des fournisseu
  Vous avez la possibilité de choisir si [!INCLUDE[d365fin](includes/d365fin_md.md)] doit calculer automatiquement les montants de facture pour les devis, les commandes ouvertes, les commandes, les factures ou les avoirs.  
 
 > [!TIP]  
->  Avant de saisir ces informations dans le programme, il est conseillé de préparer la structure de la remise à utiliser. Ainsi, vous pouvez visualiser plus facilement les fournisseurs pouvant être liés à la même fenêtre de remise facture. Plus le nombre de fenêtres à configurer est faible, plus vous pouvez saisir rapidement les informations de base.
+>  Avant de saisir ces informations dans le programme, il est conseillé de préparer la structure de la remise à utiliser. Ainsi, vous pouvez visualiser plus facilement les fournisseurs pouvant être liés à la même page de remise facture. Plus le nombre de page à configurer est faible, plus vous pouvez saisir rapidement les informations de base.
 
 ## <a name="best-price-calculation"></a>Calcul du meilleur prix
 Lorsque vous avez enregistré des prix spéciaux et des remises de ligne pour les ventes et les achats, [!INCLUDE[d365fin](includes/d365fin_md.md)] s'assure que votre marge pour l'article est toujours optimale en calculant automatiquement le meilleur prix dans les documents achat et vente, sur le projet et les lignes feuille article.

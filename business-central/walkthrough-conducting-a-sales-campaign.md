@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 72b130e1329b5fd1eee97d2c89b7b70fc606a659
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1922c9c2112006b302851301224818f803d9f4e2
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Procédure pas à pas : mise en place d'une campagne de vente
@@ -65,7 +65,7 @@ Une campagne désigne tout type d'activité impliquant plusieurs contacts. La s�
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Campagnes**, puis sélectionnez le lien associé.  
 2.  Choisissez l'action **Nouveau** pour créer une campagne. Dans la fiche campagne, appuyez sur la touche Entrée pour qu'un numéro de campagne soit automatiquement inséré.  
 3.  Dans le champ **Description**, entrez la description de la campagne, par exemple, **Salon FUTURUS**.  
-4.  Choisissez le champ **Code statut**, puis sélectionnez un code statut dans la liste qui s'ouvre dans la fenêtre **Statut campagne**.  
+4.  Choisissez le champ **Code statut**, puis sélectionnez un code statut dans la liste qui s'ouvre sur la page **Statut campagne**.  
 5.  Renseignez les champs **Date début** et **Date fin** de la campagne en fonction des besoins.  
 
 ## <a name="selecting-the-target-audience"></a>Sélection du public cible  
@@ -83,16 +83,16 @@ Une campagne désigne tout type d'activité impliquant plusieurs contacts. La s�
 
      Utilisez des filtres pour ajouter des contacts en fonction des critères correspondant le mieux à vos besoins. Par exemple, vous pouvez choisir de filtrer la responsabilité du contact, les relations d'affaires ou le secteur d'activité de la société. Pour cette procédure pas à pas, choisissez le filtre **Responsabilité** pour sélectionner les contacts.  
 
-4.  Dans la fenêtre **Segment**, sélectionnez l'action **Ajouter contacts**pour ouvrir le filtre **Ajouter contacts**.  
+4.  Sur la page **Segment**, sélectionnez l'action **Ajouter contacts**pour ouvrir le filtre **Ajouter contacts**.  
 5.  Sur le raccourci **Responsabilité**, sélectionnez le filtre **Achat** comme **Code responsabilité**, puis choisissez le bouton **OK**.  
 
-     La fenêtre **Segment** inclut désormais une liste de contacts basée sur le filtre entré. Sur le raccourci **Général**, dans le champ **Nbre de lignes**, vous pouvez visualiser en un clin d'œil le nombre de contacts répondant à ces critères.  
+     La page **Segment** inclut désormais une liste de contacts basée sur le filtre entré. Sur le raccourci **Général**, dans le champ **Nbre de lignes**, vous pouvez visualiser en un clin d'œil le nombre de contacts répondant à ces critères.  
 
     > [!NOTE]  
     >  Vous pouvez enregistrer vos critères de segmentation pour qu'il soient réutilisés ultérieurement.
 
-    1.  Dans la fenêtre **Segment**, sélectionnez l'action **Segment**, puis l'action **Enregistrer critères**.  
-    2.  Dans la fenêtre **Critères segment enregistrés**, entrez un code pour le segment. Dans le champ **Description**, entrez la description des critères segment.
+    1.  Sur la page **Segment**, sélectionnez l'action **Segment**, puis l'action **Enregistrer critères**.  
+    2.  Sur la page **Critères segment enregistrés**, entrez un code pour le segment. Dans le champ **Description**, entrez la description des critères segment.
     3.  Cliquez sur le bouton **OK**.  
 
 ## <a name="mining-the-data"></a>Exploration de données  
@@ -100,15 +100,15 @@ Une campagne désigne tout type d'activité impliquant plusieurs contacts. La s�
 
 ### <a name="to-remove-contacts-from-the-segment"></a>Pour supprimer des contacts du segment  
 
-1.  Dans la fenêtre **Segment**, sélectionnez l'action **Contacts** ,puis l'action **Réduire les contacts** afin d'ouvrir la fenêtre **Réduire les contacts**.  
+1.  Sur la page **Segment**, sélectionnez l'action **Contacts** ,puis l'action **Réduire les contacts** afin d'ouvrir la page **Réduire les contacts**.  
 2.  Sur le raccourci **Relation d'affaires**, sélectionnez le filtre **PROS** comme **Code relation d'affaires**, puis choisissez le bouton **OK**.  
 
-     La fenêtre **Segment** inclut désormais une liste réduite de contacts. Dans le champ **Nbre de lignes**, vous pouvez visualiser le nombre de contacts répondant à ces critères.  
+     La page **Segment** inclut désormais une liste réduite de contacts. Dans le champ **Nbre de lignes**, vous pouvez visualiser le nombre de contacts répondant à ces critères.  
 
     > [!NOTE]  
     >  Si vous devez annuler la suppression d'un groupe de contacts, utilisez la fonction **Annuler dernière action**. En d'autres termes, vous pouvez annuler la dernière segmentation.  
     >   
-    >  Dans la fenêtre **Segment**, sélectionnez l'action **Segment**, puis l'action **Annuler dernière action**.  
+    >  Sur la page **Segment**, sélectionnez l'action **Segment**, puis l'action **Annuler dernière action**.  
     >   
     >  Les contacts que vous venez de supprimer sont rajoutés à la liste des contacts.  
 
@@ -117,7 +117,7 @@ Une campagne désigne tout type d'activité impliquant plusieurs contacts. La s�
 
 ### <a name="to-link-a-segment-to-the-campaign"></a>Pour associer un segment à une campagne  
 
-1.  Dans la fenêtre **Segment**, dans le raccourci **Campagne**, sélectionnez le champ **N° campagne** pour sélectionner la campagne à laquelle vous souhaitez lier le segment, par exemple, **CP0001**.  
+1.  Sur la page **Segment**, dans le raccourci **Campagne**, sélectionnez le champ **N° campagne** pour sélectionner la campagne à laquelle vous souhaitez lier le segment, par exemple, **CP0001**.  
 2.  Puisque ce segment représente la cible de la campagne, sélectionnez la case à cocher **Cible campagne**.  
 
 ## <a name="sending-letters-and-email-messages-to-contacts"></a>Envoi de lettres et de messages électroniques à des contacts  
@@ -132,7 +132,7 @@ Une campagne désigne tout type d'activité impliquant plusieurs contacts. La s�
     > [!NOTE]  
     >  Ce modèle est constitué de plusieurs documents joints, chacun dans une langue différente. Les exemples de langue sont l'anglais et le danois.  
 
-4.  Choisissez le champ **Code langue (par défaut)** pour ouvrir la fenêtre **Langues interaction segment**. Sélectionnez un code langue et cliquez sur le bouton **OK**.  
+4.  Choisissez le champ **Code langue (par défaut)** pour ouvrir la page **Langues interaction segment**. Sélectionnez un code langue et cliquez sur le bouton **OK**.  
 5.  Vous pouvez afficher le document dans la langue sélectionnée. Choisissez l'action **Document joint**, puis sélectionnez l'action **Ouvrir**.  
 
      Pour répondre au message demandant l’autorisation de lancer Word, sélectionnez l’option **Autoriser pour cette session client**.  
@@ -160,7 +160,7 @@ Une campagne désigne tout type d'activité impliquant plusieurs contacts. La s�
 2.  Dans le champ **Sujet (par défaut)**, entrez le texte exemple suivant : **Merci de votre visite au salon**.  
 3.  Dans le champ **Type correspondance**, sélectionnez **E-mail**.  
 4.  Spécifiez les paramètres de langue, comme dans la procédure précédente.  
-5.  Sélectionnez l'action **Journal**. La fenêtre **Journaliser segment** s’affiche.  
+5.  Sélectionnez l'action **Journal**. La page **Journaliser segment** s’affiche.  
 6.  Cochez la case **Envoyer les documents joints** pour imprimer les documents joints envoyés par courrier électronique.  
 7.  Cochez la case **Créer suivi segment**.  
 8.  Cliquez sur le bouton **OK**.  
@@ -174,12 +174,12 @@ Une campagne désigne tout type d'activité impliquant plusieurs contacts. La s�
 
 ### <a name="to-register-campaign-responses"></a>Pour enregistrer les réponses de la campagne  
 
-1.  Dans la fenêtre **Segment**, affichez le raccourci **Interaction**.  
+1.  Sur la page **Segment**, affichez le raccourci **Interaction**.  
 2.  Cliquez sur le champ **Code modèle interaction** .  
 
      Aucun modèle d'interaction n'existe pour l'enregistrement des réponses à la campagne. Par conséquent, créez un nouveau modèle.  
 
-3.  Dans la fenêtre **Modèles d'interaction**, cliquez sur l'action **Nouveau**.  
+3.  Sur la page **Modèles interaction**, cliquez sur l'action **Nouveau**.  
 4.  Dans le champ **Code**, entrez **RESP**. Dans le champ **Description**, entrez **Réponses à la campagne**.  
 5.  Cliquez sur le bouton **OK**.  
 6.  Sélectionnez ce modèle d'interaction dans le champ **Code modèle interaction**, puis confirmez le message demandant si vous souhaitez mettre à jour les lignes segment associées au même code modèle interaction.  
@@ -190,10 +190,10 @@ Une campagne désigne tout type d'activité impliquant plusieurs contacts. La s�
 9. Sélectionnez le champ **Réponse campagne** et acceptez le message qui s'affiche.  
 
      Journalisez le segment pour vous assurer que les interactions sont enregistrées.  
-10. Dans la fenêtre **Segment**, sélectionnez l'action **journal**.  
-11. Dans la fenêtre **Journaliser segment**, désactivez la case à cocher **Envoyer les documents joints**, puis choisissez le bouton **OK** et acceptez le message qui s'affiche.  
+10. Sur la page **Segment**, sélectionnez l'action **journal**.  
+11. Sur la page **Journaliser segment**, désactivez la case à cocher **Envoyer les documents joints**, puis choisissez le bouton **OK** et acceptez le message qui s'affiche.  
 
-     Une fois le segment journalisé, une écriture pour la campagne est automatiquement créée pour enregistrer cette action dans la fenêtre **Ecritures campagne**.  
+     Une fois le segment journalisé, une écriture pour la campagne est automatiquement créée pour enregistrer cette action sur la page **Ecritures campagne**.  
 
 ## <a name="see-also"></a>Voir aussi  
 [Gestion des relations](marketing-relationship-management.md)  

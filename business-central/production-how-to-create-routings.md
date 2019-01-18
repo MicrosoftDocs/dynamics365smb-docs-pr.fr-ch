@@ -1,6 +1,6 @@
 ---
 title: "Procédure de création de gammes | Microsoft Docs"
-description: "Une gamme contient les données de base qui capturent les exigences du traitement correspondant à un article produit donné. Après la création d'un ordre de fabrication pour cet article, sa gamme gouvernera le calendrier des opérations tels que représenté dans la fenêtre **Gamme O.F.** sous l'ordre de fabrication."
+description: "Une gamme contient les données de base qui capturent les exigences du traitement correspondant à un article produit donné. Après la création d'un ordre de fabrication pour cet article, sa gamme gouvernera le calendrier des opérations tels que représenté sur la page **Gamme O.F.** sous l'ordre de fabrication."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0b274e23b03c06c395df6b91033174425cda679b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d6f64c04f6451701bbbac23e82678c5649a7df56
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-routings"></a>Créer des gammes
@@ -24,7 +24,7 @@ Les sociétés manufacturières utilisent des gammes pour visualiser et gérer l
 
 La gamme est la base de la planification des processus et des capacités, de l'affectation planifiée du matériel en fonction des besoins et des documents de production.  
 
-En ce qui concerne les nomenclatures de production, les gammes sont affectées à l'article fini produit. Une gamme contient les données de base qui capturent les exigences du traitement correspondant à un article produit donné. Après la création d'un ordre de fabrication pour cet article, sa gamme gouvernera le calendrier des opérations tels que représenté dans la fenêtre **Gamme O.F.** sous l'ordre de fabrication.  
+En ce qui concerne les nomenclatures de production, les gammes sont affectées à l'article fini produit. Une gamme contient les données de base qui capturent les exigences du traitement correspondant à un article produit donné. Après la création d'un ordre de fabrication pour cet article, sa gamme gouvernera le calendrier des opérations tels que représenté sur la page **Gamme O.F.** sous l'ordre de fabrication.  
 
 Pour pouvoir configurer une gamme, les éléments suivants doivent être en place :  
 
@@ -61,7 +61,7 @@ Pour pouvoir configurer une gamme, les éléments suivants doivent être en plac
 ## <a name="to-create-routing-links"></a>Pour créer des liens gamme
 Vous pouvez créer des liens gamme pour lier des composants à des opérations spécifiques afin de conserver leur relation, même si la nomenclature de production ou la gamme sont modifiées. Cela simplifie également la consommation automatique juste-à-temps des composants, à savoir lorsque l'opération liée commence, et non quand l'ordre de fabrication complet est lancé. Pour plus d'informations, voir [Consommer en aval des composants en fonction de la production réalisée](production-how-to-flush-components-according-to-operation-output.md).  
 
-Les composants et opérations liés apparaissent dans une structure opératoire logique lorsque vous utilisez la fenêtre **Feuille production** pour la validation production et consommation, ce qui constitue un autre avantage majeur.  
+Les composants et opérations liés apparaissent dans une structure opératoire logique lorsque vous utilisez la page **Feuille production** pour la validation production et consommation, ce qui constitue un autre avantage majeur.  
 
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Gammes**, puis sélectionnez le lien associé.  
 2.  Ouvrez la gamme contenant les opérations que vous voulez lier.  
@@ -89,7 +89,7 @@ Les composants et opérations liés apparaissent dans une structure opératoire 
     > [!NOTE]  
     >  Pour activer les liens gamme d'un ordre de fabrication existant, vous devez actualiser l'ordre de fabrication. Pour plus d'informations, voir [Créer des ordres de fabrication](production-how-to-create-production-orders.md).  
 
-Les composants sélectionnés seront liés aux opérations sélectionnées lorsque vous créerez ou actualiserez un ordre de fabrication à l'aide de la nomenclature de production et de la gamme concernées. Ceci est visible dans la fenêtre **Composants O.F.** sous l'ordre de fabrication. Ici, vous pouvez également ajouter ou supprimer à tout moment les codes lien gamme définis.
+Les composants sélectionnés seront liés aux opérations sélectionnées lorsque vous créerez ou actualiserez un ordre de fabrication à l'aide de la nomenclature de production et de la gamme concernées. Ceci est visible sur la page **Composants O.F.** sous l'ordre de fabrication. Ici, vous pouvez également ajouter ou supprimer à tout moment les codes lien gamme définis.
 
 ## <a name="to-assign-personnel-tools-and-quality-measures-to-routing-operations"></a>Pour affecter des qualifications, des outils et des contrôles qualité à des opérations gamme.
 Si vous avez besoin de personnes ayant des qualifications, un savoir-faire particulier, ou bénéficiant d'une autorisation spéciale pour une opération, vous pouvez affecter ces personnes à l'opération. En outre, vous pouvez affecter des outils et des exigences de qualité à l'opération. Cette procédure décrit l'affectation de qualifications. Les étapes sont similaires pour d'autres types d'informations sur l'opération.
@@ -97,15 +97,15 @@ Si vous avez besoin de personnes ayant des qualifications, un savoir-faire parti
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Gammes**, puis sélectionnez le lien associé.  
 2.  Ouvrez la gamme appropriée.  
 3.  Sur le raccourci **Lignes**, sélectionnez la ligne à traiter, puis choisissez l'action **Qualifications**.  
-4.  Renseignez les champs de la fenêtre **Qualifications gamme**.  
-5.  Cliquez sur le bouton **OK** pour quitter la fenêtre. Les valeurs saisies sont copiées et affectées à l'opération.    
+4.  Renseignez les champs de la page **Qualifications gamme**.  
+5.  Cliquez sur le bouton **OK** pour quitter la page. Les valeurs saisies sont copiées et affectées à l'opération.    
 
 ## <a name="to-create-a-new-versions-of-a-routing"></a>Pour créer une nouvelle version d'une gamme  
 Le principe de la version permet de gérer différentes versions d'une gamme. La structure d'une version de gamme correspond à la structure de la gamme composée d'un en-tête et de lignes version de gamme. La différence de base est définie par la date début.  
 
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Gammes**, puis sélectionnez le lien associé.  
 2.  Sélectionnez la gamme à copier, puis choisissez l'action **Versions**.  
-3. Dans la fenêtre **Versions de gamme**, sélectionnez l'action **Nouveau**.
+3. Sur la page **Versions de gamme**, sélectionnez l'action **Nouveau**.
 4. Renseignez les champs selon vos besoins.
 5.  Dans le champ **Code version**, saisissez le numéro d'identification unique de la version. Ce champ admet n'importe quelle combinaison de chiffres et de lettres.  
 

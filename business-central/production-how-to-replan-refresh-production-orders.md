@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 605de1d0acbbe345c3568fd4328d3e649feaef9f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2fec578da84a190535e5ebf74972aee8ff7e3b7a
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Replanifier ou actualiser directement des ordres de fabrication
@@ -41,7 +41,7 @@ Vous pouvez soit insérer les lignes O.F. manuellement, soit utiliser la fonctio
 4.  Ajoutez un composant qui soit un article produit ou un sous-ensemble.  
 5.  Dans l'ordre de fabrication, choisissez l'action **Replanifier**.  
 
-    Dans la fenêtre **Replanifier O.F.**, définissez la procédure et les éléments à replanifier.  
+    Sur la page **Replanifier O.F.**, définissez la procédure et les éléments à replanifier.  
 6.  Dans le champ **Direction**, sélectionnez l'une des options suivantes.  
 
     |Option|Désignation|  
@@ -68,7 +68,7 @@ Si vous avez modifié des lignes O.F., des composants ou des lignes gamme, vous 
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **O.F. planifié ferme**, puis sélectionnez le lien associé.  
 2.  Sélectionnez l'action **Nouveau**. Pour plus d'informations, voir [Créer des ordres de fabrication](production-how-to-create-production-orders.md).  
 3.  Sélectionnez l'action **Actualiser**.
-4. Dans la fenêtre **Actualiser O.F.**, sélectionnez l'une des options suivantes :
+4. Sur la page **Actualiser O.F.**, sélectionnez l'une des options suivantes :
 
     |Option|Désignation|  
     |----------------------------------|---------------|---------------------------------------|  

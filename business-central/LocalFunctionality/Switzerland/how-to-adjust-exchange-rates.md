@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: cb399bc04180c0eeed678d2e291778d12457d785
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6fa9440a0273fd781bb88a6e8d4b65c18349bbfe
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="adjust-exchange-rates"></a>Ajuster taux de change
@@ -27,7 +27,7 @@ Si ces taux ne correspondent pas aux taux de change utilisés dans les factures 
 Vous pouvez exécuter ce traitement par lots aussi souvent que vous le souhaitez, cependant assurez-vous que vous l'exécutez toujours avant de créer une déclaration TVA.  
 
 > [!NOTE]  
->  Lorsque vous utilisez une devise report, assurez-vous que le champ **Ajustement tx de change TVA** dans la fenêtre **Paramètres comptabilité** est défini sur **Aucun ajustement**.  
+>  Lorsque vous utilisez une devise report, assurez-vous que le champ **Ajustement tx de change TVA** dans la page **Paramètres comptabilité** est défini sur **Aucun ajustement**.  
 
 Pour plus d'informations sur la TVA et les devises étrangères, voir le site Web [ESTV](https://go.microsoft.com/fwlink/?LinkId=285999).  
 
@@ -35,7 +35,7 @@ Pour plus d'informations sur la TVA et les devises étrangères, voir le site We
 
 1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Devises**, puis sélectionnez le lien connexe.  
 2.  Sélectionnez l'option **Taux de change**.  
-3.  Dans la fenêtre **Taux de change devise**, saisissez le taux de TVA officiel par période pour chaque devise dans les champs **Montant taux change TVA** et **Montant taux change TVA lié**.  
+3.  Dans la page **Taux de change devise**, saisissez le taux de TVA officiel par période pour chaque devise dans les champs **Montant taux change TVA** et **Montant taux change TVA lié**.  
 4.  Cliquez sur le bouton **OK**.  
 5.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Ajuster taux de change**, puis sélectionnez le lien connexe.  
 6.  Sous le raccourci **Options**, renseignez les champs comme indiqué dans le tableau ci-dessous.   

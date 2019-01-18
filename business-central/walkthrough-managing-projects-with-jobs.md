@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 11c1f56847102ed5f1b323a54bdcfb263c0fdda9
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1f228296cfa750670e1270a100755e67885c783a
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Procédure pas à pas : gestion des projets
@@ -84,7 +84,7 @@ Ce procédure pas à pas se concentre sur la société CRONUS International Ltd.
     - **Nom** : **Tricia**  
     - **Type** : **Personne**  
 
-4.  Dans le champ **Unité de base**, choisissez l'action **Nouveau** pour ouvrir la fenêtre **Unité ressource**. Dans le champ **Code**, sélectionnez **Heure**. Cliquez sur le bouton **OK**.  
+4.  Dans le champ **Unité de base**, choisissez l'action **Nouveau** pour ouvrir la page **Unité ressource**. Dans le champ **Code**, sélectionnez **Heure**. Choisissez le bouton **OK**.  
 5.  Sur le raccourci **Facturation**, entrez les informations suivantes :  
 
     -   **Coût unitaire direct** : **5**  
@@ -100,14 +100,14 @@ Ce procédure pas à pas se concentre sur la société CRONUS International Ltd.
 ### <a name="to-create-a-job-journal-batch"></a>Pour créer un nom feuille projet  
 
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles activité projet**, puis sélectionnez le lien associé.  
-2.  Dans la fenêtre **Feuille projet**, choisissez le champ **Nom de la feuille**. La fenêtre **Noms feuilles projet** s’ouvre.  
+2.  Sur la page **Feuille projet**, choisissez le champ **Nom de la feuille**. La page **Noms feuilles projet** s’ouvre.  
 3.  Choisissez l'action **Nouveau** pour créer une ligne avec les informations suivantes :  
 
     -   **Nom** : **Tricia**  
     -   **Description** : **Tricia**  
     -   **Souches de n°** : **JJNL-GEN**  
 
-4.  Cliquez sur le bouton **OK** pour fermer toutes les fenêtres.  
+4.  Cliquez sur le bouton **OK** pour fermer toutes les pages.  
 
 ## <a name="setting-up-a-job"></a>Configuration d'un projet  
  Dans ce cas, CRONUS a décroché un contrat avec un client, Progressive Home Furnishings, pour la conception d'une salle de conférence/repas. Le client est basé aux États-Unis et le projet nécessitera l'utilisation d'un logiciel spécial. Le chef de projet conclut un accord avec le client et crée un projet en relation avec cet accord.  
@@ -135,26 +135,26 @@ Ce procédure pas à pas se concentre sur la société CRONUS International Ltd.
 ### <a name="to-customize-pricing"></a>Pour personnaliser la tarification  
 
 1.  Dans la fiche projet, choisissez l'action **Ressource**.  
-2.  Dans la fenêtre **Prix ressource projet**, entrez les informations suivantes :  
+2.  Sur la page **Prix ressource projet**, entrez les informations suivantes :  
 
     -   **Code** : **Tricia**  
     -   **Prix unitaire** : **20**  
 
-3.  Cliquez sur le bouton **OK** pour fermer la fenêtre.  
+3.  Cliquez sur le bouton **OK** pour fermer la page.  
 4.  Sélectionnez l'action **Article**.  
-5.  Dans la fenêtre **Prix article projet**, entrez les informations suivantes et le prix personnalisé :  
+5.  Sur la page **Prix article projet**, entrez les informations suivantes et le prix personnalisé :  
 
     1.  **N° article** : **80201 (programme graphique)**  
     2.  **Prix unitaire** : **200**  
 
-6.  Cliquez sur le bouton **OK** pour fermer la fenêtre.  
+6.  Cliquez sur le bouton **OK** pour fermer la page.  
 7.  Choisissez l'option **Compte général**.  
-8.  Dans la fenêtre **Prix compte général projet**, entrez les informations suivantes en majorant les frais de déplacement que le client a accepté de payer de 25 % :  
+8.  Sur la page **Prix compte général projet**, entrez les informations suivantes en majorant les frais de déplacement que le client a accepté de payer de 25 % :  
 
     1.  **Compte général** : **8430 (déplacement)**  
     2.  **Facteur coût unitaire** : **1,25**  
 
-9. Cliquez sur le bouton **OK** pour fermer la fenêtre.  
+9. Cliquez sur le bouton **OK** pour fermer la page.  
 
  Les dernières étapes de la configuration d'un projet consistent à ajouter les tâches projet et les lignes planning qui font partie de chaque tâche. Les lignes planning déterminent ce qui est facturé au client.  
 
@@ -209,7 +209,7 @@ Ce procédure pas à pas se concentre sur la société CRONUS International Ltd.
     -   **Quantité** : **2**  
     -   **Coût unitaire** : **400**  
 
-2.  Cliquez sur le bouton **OK** pour fermer la fenêtre. Les totaux sont mis à jour dans la fenêtre **Lignes tâche projet**.  
+2.  Cliquez sur le bouton **OK** pour fermer la page. Les totaux sont mis à jour sur la page **Lignes tâche projet**.  
 3.  Sélectionnez la ligne 1020, puis cliquez sur **Lignes planning projet**. Entrez les informations suivantes :  
 
      **Ligne 1**  
@@ -228,7 +228,7 @@ Ce procédure pas à pas se concentre sur la société CRONUS International Ltd.
     -   **N°** : **80201 (programme graphique)**  
     -   **Quantité** : **1**  
 
-4.  Cliquez sur le bouton **OK** pour fermer la fenêtre. Les totaux sont mis à jour dans la fenêtre **Lignes tâche projet**.  
+4.  Cliquez sur le bouton **OK** pour fermer la page. Les totaux sont mis à jour sur la page **Lignes tâche projet**.  
 
 ## <a name="calculating-remaining-usage"></a>Calcul de l'activité restante  
  Tricia, qui fait partie de l'équipe du projet, travaille depuis quelque temps sur le projet et souhaite enregistrer les heures et l'activité qu'elle y a consacrées. Elle n'a pas consacré plus de temps que ce qui avait été convenu à l'avance avec le client. Elle utilise le traitement par lots **Calc. activité restante** pour calculer l'activité restante pour le projet dans une feuille projet. Pour chaque tâche, le traitement par lots calcule la différence entre l'activité planifiée des articles, des ressources et des dépenses générales et l'activité réelle validée dans les écritures comptables projet. L'activité restante est ensuite affichée dans la feuille projet à partir de laquelle elle peut la valider.  
@@ -236,15 +236,15 @@ Ce procédure pas à pas se concentre sur la société CRONUS International Ltd.
 ### <a name="to-calculate-remaining-usage"></a>Pour calculer l'activité restante  
 
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles activité projet**, puis sélectionnez le lien associé.  
-2.  Dans le champ **Nom feuille** de la fenêtre **Feuille projet**, ouvrez la liste **Noms feuilles projet**. Sélectionnez le nom de la feuille projet **Tricia**.  
+2.  Dans le champ **Nom feuille** de la page **Feuille projet**, ouvrez la liste **Noms feuilles projet**. Sélectionnez le nom de la feuille projet **Tricia**.  
 3.  Choisissez l'action **Calc. activité restante**.  
-4.  Dans la fenêtre **Projet Calc. activité restante**, sous le raccourci **Tâche projet**, dans le champ **N° projet**, sélectionnez le numéro de projet concerné (en général, J00010).  
+4.  Sur la page **Projet Calc. activité restante**, sous le raccourci **Tâche projet**, dans le champ **N° projet**, sélectionnez le numéro de projet concerné (en général, J00010).  
 5.  Sur le raccourci **Options**, tapez **J00001** dans le champ **N° document**. Cela facilite le suivi ultérieur de la validation.  
 6.  Entrez la date du jour comme date de validation.  
 7.  Cliquez sur le bouton **OK**. Cela entraîne la génération des lignes feuille projet dérivées des lignes planning créées par Prakash pour le projet.  
-8.  Cliquez sur le bouton **OK** dans la fenêtre de confirmation. Les lignes générées sont ajoutées à la feuille projet.  
+8.  Cliquez sur le bouton **OK** sur la page de confirmation. Les lignes générées sont ajoutées à la feuille projet.  
 9. Assurez-vous que tous les numéros de document sont J00001, puis choisissez l'action **Valider**. Cliquez sur **Oui** pour confirmer la validation.  
-10. Les lignes sont à présent validées. Cliquez sur le bouton **OK** pour fermer les fenêtres.  
+10. Les lignes sont à présent validées. Cliquez sur le bouton **OK** pour fermer les pages.  
 
 ## <a name="creating-and-posting-a-job-sales-invoice"></a>Création et validation d'une facture vente projet  
  Ensuite, Tricia peut créer une facture pour l'ensemble du projet ou une partie du projet. Elle peut également joindre la facture à une autre destinée au même client pour le même projet. Dans ce cas, elle facture l'ensemble du projet, car celui-ci est à présent terminé.  
@@ -255,7 +255,7 @@ Ce procédure pas à pas se concentre sur la société CRONUS International Ltd.
 2.  Sélectionnez le projet que vous avez créé précédemment, puis choisissez l'action **Créer une facture vente projet**.  
 3.  Sous le raccourci **Tâche projet**, désactivez tout filtre associé à **N° tâche projet** pour facturer le projet. Sélectionnez le projet concerné dans le champ **N° de projet**.  
 4.  Sur le raccourci **Options**, renseignez la date de validation et indiquez si vous souhaitez créer une facture par tâche ou une seule facture pour l'ensemble des tâches.  
-5.  Cliquez sur le bouton **OK** pour créer la facture, puis cliquez sur le bouton **OK** dans la fenêtre de confirmation.  
+5.  Cliquez sur le bouton **OK** pour créer la facture, puis cliquez sur le bouton **OK** sur la page de confirmation.  
 
  Une fois que Tricia a créé la facture, elle peut y accéder à partir de **Ventes et marketing** sous **Traitement des commandes** et en poursuivre le traitement.  
 
@@ -269,15 +269,15 @@ Ce procédure pas à pas se concentre sur la société CRONUS International Ltd.
 
 1.  Ouvrez le projet, puis choisissez l'action **Lignes planning projet**.  
 2.  Sélectionnez l'une des lignes planning qui ont été facturées, puis choisissez l'action **Facture vente/Avoir**.
-3. Dans la fenêtre **Factures projet**, choisissez l'action **Ouvrir la facture vente/l'avoir**.  
+3. Sur la page **Factures projet**, choisissez l'action **Ouvrir la facture vente/l'avoir**.  
 
- Tricia se pose une question concernant les prix, les coûts et les marges en relation avec ce projet particulier. Par conséquent, elle peut accéder à ces informations dans la fenêtre **Statistiques**.  
+ Tricia se pose une question concernant les prix, les coûts et les marges en relation avec ce projet particulier. Par conséquent, elle peut accéder à ces informations sur la page **Statistiques**.  
 
-### <a name="to-open-the-statistics-window"></a>Pour ouvrir la fenêtre Statistiques  
+### <a name="to-open-the-statistics-page"></a>Pour ouvrir la page Statistiques  
 
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Projets**, puis sélectionnez le lien associé.  
 2.  Sélectionnez l'action **Statistiques**. Vous pouvez consulter des informations détaillées sur les prix, les coûts et les profits d'un projet dans la devise locale et dans une devise étrangère.  
-3.  Cliquez sur le bouton **Fermer** pour fermer la fenêtre **Statistiques projet**.  
+3.  Cliquez sur le bouton **Fermer** pour fermer la page **Statistiques projet**.  
 
 ## <a name="handling-fixed-prices"></a>Gestion de prix fixes  
  L'installation de salles de conférence a été confiée à CRONUS. En tant que chef de projet, Prakash souhaite disposer d'une bonne vue d'ensemble des tâches liées au projet ainsi que des coûts budgétisés et exposés associés à chacune d'elle. Il souhaite, en outre, connaître le prix total convenu pour le projet et les montants déjà facturés à ce stade. Il a conclu un accord avec le client concernant le prix fixe du projet.  
@@ -290,7 +290,7 @@ Ce procédure pas à pas se concentre sur la société CRONUS International Ltd.
 
      Les lignes planning projet permettent à Prakash de déterminer qu'il aura besoin de Tricia pendant 30 heures à ce stade du projet. Il convient d'un prix fixe avec le client.  
 
-4.  Dans la fenêtre **Lignes tâche projet**, sélectionnez la ligne 1120, puis choisissez l'action **Lignes planning projet**.  
+4.  Sur la page **Lignes tâche projet**, sélectionnez la ligne 1120, puis choisissez l'action **Lignes planning projet**.  
 5.  Choisissez **Nouveau** pour créer une ligne avec les informations suivantes :  
 
     -   **Type ligne** : **Planifié et contrat**  
@@ -298,9 +298,9 @@ Ce procédure pas à pas se concentre sur la société CRONUS International Ltd.
     -   **N°.**: **Tricia**  
     -   **Quantité** : **30**  
 
-7.  Cliquez sur le bouton **OK** pour fermer la fenêtre.  
-8.  Dans le champ **Planifié (coût total)**, cliquez avec le bouton droit sur le champ, puis choisissez de nouveau **Détail** dans la fenêtre **Lignes tâche projet**. Affichez les modifications apportées au planning. Vous pouvez voir que 30 heures ont été ajoutées au planning.  
-9. Cliquez sur le bouton **OK** pour fermer les fenêtres.  
+7.  Cliquez sur le bouton **OK** pour fermer la page.  
+8.  Dans le champ **Planifié (coût total)**, cliquez avec le bouton droit sur le champ, puis choisissez de nouveau **Détail** sur la page **Lignes tâche projet**. Affichez les modifications apportées au planning. Vous pouvez voir que 30 heures ont été ajoutées au planning.  
+9. Cliquez sur le bouton **OK** pour fermer les pages.  
 
  Une fois Tricia ajoutée au planning pour cette ligne tâche, celle-ci va consacrer 25 heures au projet. Elle entre ces heures dans la feuille projet.  
 
@@ -322,8 +322,8 @@ Ce procédure pas à pas se concentre sur la société CRONUS International Ltd.
 
      Quelques jours plus tard, Tricia consacre 10 heures supplémentaires au projet. Elle a désormais presté un total de 35 heures. Comme l'accord porte sur 30 heures de prestation avec le client, seules 5 heures lui seront facturées. Tricia ajoutera manuellement au planning les cinq heures de travail supplémentaires qu'elle a effectuées.  
 
-4.  Dans la fenêtre **Feuille projet**, choisissez l'action **Calc. activité restante**.  
-5.  Dans la fenêtre **Projet Calc. activité restante**, entrez les informations suivantes dans le raccourci **Options** :  
+4.  Sur la page **Feuille projet**, choisissez l'action **Calc. activité restante**.  
+5.  Sur la page **Projet Calc. activité restante**, dans le raccourci **Options**, entrez les informations suivantes :  
 
     -   **N° document** : **J00003**  
     -   **Date comptabilisation** : **(date du jour)**  
@@ -346,14 +346,14 @@ Ce procédure pas à pas se concentre sur la société CRONUS International Ltd.
 
      En utilisant **Planifié** comme type de ligne, des mises à jour doivent être apportées aux coûts et aux prix prévus, mais aucune mise à jour des coûts et du prix contractuels facturés au client n'est nécessaire.  
 
-8.  Sélectionnez l'action **Valider**. Cliquez sur le bouton **OK** pour fermer la fenêtre.  
+8.  Sélectionnez l'action **Valider**. Cliquez sur le bouton **OK** pour fermer la page.  
 9. Ouvrez la liste **Projets**.  
 10. Sélectionnez le projet GUILDFORD, puis choisissez l'action **Lignes tâche projet**.  
 11. Sélectionnez la ligne 1120, puis, dans le champ **Planifié (coût total)**, cliquez avec le bouton droit sur le montant. Choisissez **Détail** pour afficher les informations.  
 
      Les modifications sont automatiquement entrées dans la ligne de la tâche projet n° 1120. Dans le coût total du travail planifié, les cinq heures de travail supplémentaires effectuées par Tricia ont été ajoutées au planning.  
 
-12. Cliquez sur le bouton **Fermer** pour fermer la fenêtre.  
+12. Cliquez sur le bouton **Fermer** pour fermer la page.  
 13. Cliquez avec le bouton droit sur le montant indiqué dans le champ **Contrat (coût total)**, puis sélectionnez **Détail** pour afficher les informations.  
 
      Dans le prix total du contrat, seules les 30 heures contractuelles d'origine sont incluses car c'est ce qui a été convenu avec le client.  
@@ -361,7 +361,7 @@ Ce procédure pas à pas se concentre sur la société CRONUS International Ltd.
 ## <a name="copying-jobs"></a>Copie de projets  
  Prakash a conclu un accord avec un client, Selagorian Ltd, pour l'installation de 10 salles de conférence. Cet accord est similaire à un projet antérieur. Il gagnera par conséquent du temps en copiant ce projet antérieur.  
 
- Dans la fenêtre **Copier projet**, vous pouvez sélectionner le projet et les lignes tâche à copier. Vous pouvez également choisir de copier les écritures comptables projet source, ce qui a pour effet de créer des lignes planning basées sur une activité réelle, ou copier les lignes planning du projet source, ce qui a pour effet de copier les lignes planning originales dans le nouveau projet. Vous pouvez ensuite choisir la ligne planning ou le type de ligne écriture comptable à inclure en ne sélectionnant que ce qui convient pour ce nouveau projet. Enfin, vous pouvez sélectionner le projet dans lequel vous voulez copier, puis définir si les prix et quantités doivent également être copiés.  
+ Sur la page **Copier projet**, vous pouvez sélectionner le projet et les lignes tâche à copier. Vous pouvez également choisir de copier les écritures comptables projet source, ce qui a pour effet de créer des lignes planning basées sur une activité réelle, ou copier les lignes planning du projet source, ce qui a pour effet de copier les lignes planning originales dans le nouveau projet. Vous pouvez ensuite choisir la ligne planning ou le type de ligne écriture comptable à inclure en ne sélectionnant que ce qui convient pour ce nouveau projet. Enfin, vous pouvez sélectionner le projet dans lequel vous voulez copier, puis définir si les prix et quantités doivent également être copiés.  
 
 ### <a name="to-copy-a-job"></a>Pour copier un projet  
 
@@ -372,7 +372,7 @@ Ce procédure pas à pas se concentre sur la société CRONUS International Ltd.
     -   **N° client facturé** : **20000**  
 
 3.  Choisissez l'action **Copier tâches projet à partir de**.  
-4.  Dans la fenêtre **Copier les tâches projet**, entrez les informations suivantes :  
+4.  Sur la page **Copier les tâches projet**, entrez les informations suivantes :  
 
     -   **N° projet** : **Guildford**  
     -   **N° tâche projet de** : **1000**  
@@ -381,7 +381,7 @@ Ce procédure pas à pas se concentre sur la société CRONUS International Ltd.
     -   **Nº projet** : **Guildford Installation de 10 salles de conférence**  
     -   Sélectionnez les champs **Copier axes** et **Copier quantité**.  
 
-5.  Cliquez sur le bouton **OK** pour copier le projet, puis cliquez sur le bouton **OK** pour fermer la fenêtre de confirmation.  
+5.  Cliquez sur le bouton **OK** pour copier le projet, puis cliquez sur le bouton **OK** pour fermer la page de confirmation.  
 
      Si vous comparez les prix, les lignes tâche projet et les lignes planning projet des deux projets, vous pouvez constater que la copie des informations a réussi.  
 
@@ -391,14 +391,14 @@ Ce procédure pas à pas se concentre sur la société CRONUS International Ltd.
 ### <a name="to-set-up-a-new-account"></a>Pour configurer un nouveau compte  
 
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Plan comptable**, puis sélectionnez le lien associé.  
-2.  Dans la fenêtre **Plan comptable**, choisissez l'action **Nouveau** pour créer une fiche.  
+2.  Sur la page **Plan comptable**, choisissez l'action **Nouveau** pour créer une fiche.  
 3.  Dans la fiche **Nouveau compte général**, entrez les informations suivantes :  
 
     -   **N°** : **6630**  
     -   **Nom** : **Paiement du projet**  
 
-4.  Sur le raccourci **Validation**, dans le champ **Groupe compta. produit**, sélectionnez **DIVERS**. Cliquez sur le bouton **OK** pour fermer la fenêtre.  
-5.  Dans la fenêtre **Plan comptable**, sélectionnez **Paiement du projet n°6630**, puis choisissez l'action **Indenter plan comptable**. Choisissez **Oui** pour confirmer.  
+4.  Sur le raccourci **Validation**, dans le champ **Groupe compta. produit**, sélectionnez **DIVERS**. Cliquez sur le bouton **OK** pour fermer la page.  
+5.  Sur la page **Plan comptable**, sélectionnez **Paiement du projet n°6630**, puis choisissez l'action **Indenter plan comptable**. Choisissez **Oui** pour confirmer.  
 
  Les procédures suivantes expliquent comment créer un projet, définir un prix et configurer un paiement en plusieurs versements. Dans les lignes tâche projet, vous pouvez créer des lignes spécifiques dédiées au paiement en plusieurs versements. Tout le travail consacré au projet ajouté au planning sera entré dans les lignes activité. Pour chaque ligne tâche paiement sur les lignes planning, le type de ligne est Contrat, ce qui signifie que le client sera facturé. Entrez une nouvelle ligne pour l'acompte. Dans la ligne tâche activité, vous pouvez entrer les informations relatives aux articles et ressources utilisés dans ce projet, qui allongeront le planning, telles que les heures de travail des salariés et les articles consommés pour le projet.  
 
@@ -417,7 +417,7 @@ Ce procédure pas à pas se concentre sur la société CRONUS International Ltd.
     -   **Code** : **Tricia**  
     -   **Prix unitaire** : **10**  
 
-     Cliquez sur le bouton **OK** pour fermer la fenêtre.  
+     Cliquez sur le bouton **OK** pour fermer la page.  
 
 4.  Sur la fiche **Projet**, choisissez l'action **Lignes tâche projet**.  
 
@@ -427,10 +427,10 @@ Ce procédure pas à pas se concentre sur la société CRONUS International Ltd.
     |----------|------------------|---------------------------------------|-------------------|  
     |1|1000|Paiement – Acompte|Validation|  
     |2|2000|Utilisation|Comptabilisation|  
-    |3|3 000|Paiement – À mi-parcours|Comptabilisation|  
-    |4|4 000|Paiement – À la livraison|Validation|  
+    |3|3 000|Paiement – À mi-parcours|Validation|  
+    |4|4000|Paiement – À la livraison|Validation|  
 
-5.  Dans la fenêtre **Lignes tâche projet**, sélectionnez la tâche 1000, puis choisissez l'action **Lignes planning projet**.  
+5.  Sur la page **Lignes tâche projet**, sélectionnez la tâche 1000, puis choisissez l'action **Lignes planning projet**.  
 6.  Créez une ligne planning avec les informations suivantes :  
 
     -   **Type ligne** : **Contrat**  
@@ -440,20 +440,20 @@ Ce procédure pas à pas se concentre sur la société CRONUS International Ltd.
     -   **Quantité** : **1**  
     -   **Prix unitaire** : **5000**  
 
-     Cliquez sur le bouton **OK** pour fermer la fenêtre.  
+     Cliquez sur le bouton **OK** pour fermer la page.  
 
-7.  Dans la fenêtre **Lignes tâche projet**, sélectionnez la **tâche 2000** et ouvrez les **Lignes planning projet** correspondantes.  
+7.  Sur la page **Lignes tâche projet**, sélectionnez la **tâche 2000** et ouvrez les **Lignes planning projet** correspondantes.  
 
      Le tableau suivant décrit les lignes planning que vous allez créer.  
 
     |Ligne|Type ligne|Date planning|Type|N°|Quantité|  
     |----------|---------------|-------------------|----------|---------|--------------|  
     |1|Planifié|(date du jour)|Ressource|Tricia|120|  
-    |2|Planifié|(date du jour)|Article ;|70 104|10|  
+    |2|Planifié|(date du jour)|Article|70104|10|  
 
-     Cliquez sur le bouton **OK** pour fermer la fenêtre. Dans la fenêtre **Lignes tâche projet**, vous pouvez voir que les montants planifiés ont été mis à jour.  
+     Cliquez sur le bouton **OK** pour fermer la page. Sur la page **Lignes tâche projet**, vous pouvez voir que les montants planifiés ont été mis à jour.  
 
-8.  Dans la fenêtre **Lignes tâche projet**, sélectionnez la **tâche 3000**.  
+8.  Sur la page **Lignes tâche projet**, sélectionnez la **tâche 3000**.  
 9. Créez une ligne planning avec les informations suivantes :  
 
     -   **Type ligne** : **Contrat**  
@@ -463,7 +463,7 @@ Ce procédure pas à pas se concentre sur la société CRONUS International Ltd.
     -   **Quantité** : **1**  
     -   **Prix unitaire** : **5000**  
 
-     Cliquez sur le bouton **OK** pour fermer la fenêtre.  
+     Cliquez sur le bouton **OK** pour fermer la page.  
 
 10. Créez une écriture de ligne planning similaire pour la tâche projet 4000.  
 
@@ -471,8 +471,8 @@ Ce procédure pas à pas se concentre sur la société CRONUS International Ltd.
 
 ### <a name="to-create-an-invoice"></a>Pour créer une facture  
 
-1.  Dans la fenêtre **Lignes tâche projet**, sélectionnez la ligne 1000, puis choisissez l'action **Créer facture vente**.  
-2.  Dans la fenêtre **Créer facture vente**, indiquez la date du jour comme date de validation, spécifiez **Par tâche**, puis cliquez sur le bouton **OK** pour créer une facture avec les informations par défaut. Cliquez sur le bouton **OK** pour fermez la fenêtre de confirmation.  
+1.  Sur la page **Lignes tâche projet**, sélectionnez la ligne 1000, puis choisissez l'action **Créer facture vente**.  
+2.  Sur la page **Créer facture vente**, indiquez la date du jour comme date de validation, spécifiez **Par tâche**, puis cliquez sur le bouton **OK** pour créer une facture avec les informations par défaut. Cliquez sur le bouton **OK** pour fermez la page de confirmation.  
 3.  Choisissez l'action **Facture vente/avoir**. Sur la facture vente, vous pouvez voir que seul l'acompte est inclus dans la facture. Vous pouvez à présent envoyer cette dernière au client comme convenu.  
 
 ## <a name="next-steps"></a>Étapes suivantes  

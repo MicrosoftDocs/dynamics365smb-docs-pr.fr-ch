@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0282f0ae3ca2b11ff8cd01adf69054d8c805e7ae
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9231f63266ba030bbf4b3ca41641d5210bcd49b8
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="gather-customer-setup-values"></a>Collecter les valeurs de configuration client
@@ -32,7 +32,7 @@ Lorsque le client remplit le questionnaire, vous importez le fichier dans la nou
 ## <a name="to-create-a-configuration-questionnaire"></a>Pour créer un questionnaire de configuration
 Vous pouvez utiliser un questionnaire pour vous aider à déterminer la portée et les besoins de la configuration. Vous pouvez créer un questionnaire ou modifier un questionnaire existant en y ajoutant de nouvelles questions ou zones de questions.  
 
- Vous pouvez créer des questionnaires uniquement pour les tables de type paramétrage. Par exemple, vous pouvez utiliser cet outil pour entrer des informations dans les fenêtres suivantes :  
+ Vous pouvez créer des questionnaires uniquement pour les tables de type paramétrage. Par exemple, vous pouvez utiliser cet outil pour entrer des informations dans les pages suivantes :  
 
 -   Informations société  
 -   Paramètres immobilisations  
@@ -50,9 +50,9 @@ Vous pouvez utiliser un questionnaire pour vous aider à déterminer la portée 
 >  Pour visualiser la liste complète des tables de configuration, choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres**, puis sélectionnez le lien associé. Pour déterminer la portée de la migration des données d'enregistrements, utilisez la fonctionnalité de migration. Pour plus d'informations, voir [Migration des données client](admin-migrate-customer-data.md).  
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Questionnaire configuration**, puis sélectionnez le lien associé.  
-2. Sélectionnez l'action **Nouveau**. La fenêtre **Questionnaire config.** s'ouvre.  
-3. Sélectionnez l'action **Zones question**. La fenêtre **Zones question** s'ouvre.  
-4. Sélectionnez l'action **Nouveau**. La fenêtre **Zones question config.** s'ouvre.  
+2. Sélectionnez l'action **Nouveau**. La page **Questionnaire config.** s'ouvre.  
+3. Sélectionnez l'action **Zones question**. La page **Zones question** s'ouvre.  
+4. Sélectionnez l'action **Nouveau**. La page **Zones question config.** s'ouvre.  
 5. Dans le champ **ID table**, sélectionnez l'ID de la table pour laquelle vous souhaitez collecter des informations. Le champ **Nom table** est automatiquement renseigné.  
 6. Sélectionnez l'action **Mettre à jour questions**. Chaque champ de la table est ajouté au questionnaire avec un point d'interrogation à la suite de son étiquette.
 
@@ -94,10 +94,10 @@ Une tâche de validation courante consiste à vérifier qu'aucune chaîne de car
 > [!NOTE]  
 >  En général, la validation du questionnaire de configuration est un processus manuel. Toutefois, il existe également des vérifications pour les incohérences de formatage des paramètres régionaux. En outre, des erreurs seront détectées si la structure de la base de données [!INCLUDE[d365fin](includes/d365fin_md.md)] ne correspond pas à celle de la base de données de migration.  
 
-1. Dans la fenêtre **Questionnaire configuration**, sélectionnez le questionnaire approprié, puis sélectionnez l'action **Zones question**.  
+1. Sur la page **Questionnaire configuration**, sélectionnez le questionnaire approprié, puis sélectionnez l'action **Zones question**.  
 2. Ouvrez la zone de question appropriée.  
 3. Pour chaque question, vérifiez que la valeur du champ **Réponse** correspond au format indiqué dans le champ **Option de réponse**. Par exemple, assurez-vous que l'adresse d'une société est au format texte.  
-4. Si vous détectez des erreurs, vous pouvez les résoudre et apporter les corrections nécessaires dans Excel en exportant le questionnaire, puis en le réimportant. Vous pouvez également corriger les erreurs directement dans [!INCLUDE[d365fin](includes/d365fin_md.md)] tandis que vous passez en revue les réponses dans la fenêtre **Zone question config**.  
+4. Si vous détectez des erreurs, vous pouvez les résoudre et apporter les corrections nécessaires dans Excel en exportant le questionnaire, puis en le réimportant. Vous pouvez également corriger les erreurs directement dans [!INCLUDE[d365fin](includes/d365fin_md.md)] tandis que vous passez en revue les réponses sur la page **Zone question config**.  
 5. Répétez ces étapes pour chaque zone question.  
 
 Une fois la validation terminée, les données peuvent être appliquées à la base de données.  
@@ -105,7 +105,7 @@ Une fois la validation terminée, les données peuvent être appliquées à la b
 ## <a name="to-apply-answers-from-the-configuration-questionnaire"></a>Pour appliquer des réponses à partir du questionnaire de configuration
 Après avoir importé et validé les informations à partir d'un questionnaire de configuration, vous pouvez transférer ou appliquer les données de configuration dans les tables correspondantes de la base de données [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Questionnaire configuration**, puis sélectionnez le lien associé. La fenêtre **Questionnaire config.** s'ouvre.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Questionnaire configuration**, puis sélectionnez le lien associé. La page **Questionnaire config.** s'ouvre.  
 2. Sélectionnez un questionnaire de configuration dans la liste, puis sélectionnez l'action **Modifier la liste**.  
 3. Vous pouvez appliquer les réponses de deux manières différentes.  
 
@@ -113,7 +113,7 @@ Après avoir importé et validé les informations à partir d'un questionnaire d
 - Pour appliquer les réponses d'une **Zone question** spécifique, sélectionnez l'action **Zones question**, sélectionnez une **Zone question** dans la liste, puis sélectionnez l'action **Appliquer réponses**.  
 
 ### <a name="to-verify-that-answers-have-been-applied-successfully"></a>Pour vérifier que les réponses ont été correctement appliquées  
-1. Vérifiez les fenêtres de paramétrage des différents modules de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour rechercher la fenêtre, choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez le nom de la fenêtre de configuration, puis sélectionnez le lien associé.  
+1. Vérifiez les pages de paramétrage des différents modules de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour rechercher la page, choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez le nom de la page de configuration, puis sélectionnez le lien associé.  
 2. Vérifiez que les champs ont été renseignés à l'aide des données appropriées à partir des diverses zones de questions du questionnaire de configuration.  
 
 Vous avez maintenant effectué le paramétrage à l'aide des informations commerciales et des règles du client.

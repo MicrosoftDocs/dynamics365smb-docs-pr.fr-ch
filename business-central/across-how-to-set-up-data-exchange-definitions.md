@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 7c4ea5244379c5a7fcf45f1b3ea2b3a3b36280bb
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5d90eefb7fe765681a50b906f237e48b67beb935
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-data-exchange-definitions"></a>Configurer les définitions d'échange de données
@@ -22,7 +22,7 @@ Vous pouvez configurer [!INCLUDE[d365fin](includes/d365fin_md.md)] pour échange
 
 Afin de vous préparer à créer une définition d'échange de données pour un fichier ou un flux de données, vous pouvez utiliser le schéma XML associé pour les définir les éléments de données à inclure dans le raccourci **Définitions de colonnes**. Consultez l'étape 6 dans la section « Décrire le formatage de lignes et de colonnes dans un fichier ». Pour plus d'informations, voir [Utiliser des schémas XML pour préparer des définitions d'échange de données](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
-Créez des définitions d'échange de données normalement dans la fenêtre **Définition d'échange de données**. Néanmoins, lorsque vous déterminez la définition d'échange de données pour le service d'actualisation des taux de change des devises, démarrez le processus dans la fenêtre simplifiée **Fiche Paramètres de mise à jour des taux de change**.  
+Créez des définitions d'échange de données normalement sur la page **Définition d'échange de données**. Néanmoins, lorsque vous déterminez la définition d'échange de données pour le service d'actualisation des taux de change des devises, démarrez le processus sur la page simplifiée **Fiche Paramètres de mise à jour des taux de change**.  
 
 > [!NOTE]  
 >  Si le fichier converti est au format XML, le terme *« colonne »* de cette rubrique doit être interprété comme *« élément XML contenant des données »*.  
@@ -36,8 +36,8 @@ Cette rubrique couvre les procédures suivantes :
 ## <a name="to-create-a-data-exchange-definition"></a>Créer une définition d'échange de données  
 La création d'une définition d'échange de données implique deux tâches :  
 
-1. Dans la fenêtre **Définition d'échange de données**, décrivez la mise en forme des lignes et des colonnes du fichier.  
-2. Dans la fenêtre **Correspondance échange de données**, associez les colonnes du fichier de données avec les champs de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+1. Sur la page **Définition d'échange de données**, décrivez la mise en forme des lignes et des colonnes du fichier.  
+2. Sur la page **Correspondance échange de données**, associez les colonnes du fichier de données avec les champs de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
      Ceci est décrit dans les procédures suivantes.  
 
@@ -84,7 +84,7 @@ La création d'une définition d'échange de données implique deux tâches :
      Planifiez maintenant de décrire le formatage des colonnes du fichier de données en renseignant les champs du raccourci **Définitions des colonnes** comme indiqué dans le tableau suivant. Vous pouvez utiliser la structure du fichier, par exemple un fichier .XSD pour le fichier de données afin de pré remplir le raccourci avec les éléments appropriés. Pour plus d'informations, voir [Utiliser des schémas XML pour préparer des définitions d'échange de données](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
 6. Sur le raccourci **Définitions de colonnes**, sélectionnez **Extraire la structure de fichiers**.  
-7. Dans la fenêtre **Extraire structure de fichiers**, sélectionnez la structure de fichier associée, puis choisissez le bouton **OK**. Les lignes du raccourci **Définitions de colonnes** sont renseignées conformément à la structure du fichier de données.  
+7. Sur la page **Extraire structure de fichiers**, sélectionnez la structure de fichier associée, puis choisissez le bouton **OK**. Les lignes du raccourci **Définitions de colonnes** sont renseignées conformément à la structure du fichier de données.  
 8. Dans le raccourci **Définitions des colonnes**, modifiez ou renseignez les champs comme indiqué dans le tableau ci-dessous.  
 
     |Champ|Désignation|  
@@ -105,10 +105,10 @@ La création d'une définition d'échange de données implique deux tâches :
  L'étape suivante de la création de la définition d'échange de données consiste à choisir les correspondances entre les colonnes ou les éléments XML du fichier de données et les champs de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 > [!NOTE]  
->  La correspondance spécifique dépend de l'objectif commercial du fichier de données à échanger et des variations locales. Même le standard bancaire SEPA a des variations locales. [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge en natif l'importation de fichiers de relevé bancaire SEPA CAMT. Ceci est représenté par le code d'enregistrement de définition d'échange de données **SEPA CAMT** dans la fenêtre **Définitions d'échange de données**. Pour plus d'informations sur le mappage de champs spécifique de cette prise en charge de SEPA CAMT, voir [Mappage de champs lors de l'importation de fichiers SEPA CAMT](across-field-mapping-when-importing-sepa-camt-files.md).  
+>  La correspondance spécifique dépend de l'objectif commercial du fichier de données à échanger et des variations locales. Même le standard bancaire SEPA a des variations locales. [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge en natif l'importation de fichiers de relevé bancaire SEPA CAMT. Ceci est représenté par le code d'enregistrement de définition d'échange de données **SEPA CAMT** sur la page **Définitions d'échange de données**. Pour plus d'informations sur le mappage de champs spécifique de cette prise en charge de SEPA CAMT, voir [Mappage de champs lors de l'importation de fichiers SEPA CAMT](across-field-mapping-when-importing-sepa-camt-files.md).  
 
 #### <a name="to-map-columns-in-the-data-file-to-fields-in-included365finincludesd365finmdmd"></a>Pour mapper les colonnes du fichier de données aux champs de [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-1. Sur le raccourci **Définitions de lignes**, sélectionnez la ligne pour laquelle vous souhaitez associer les colonnes avec les champs, puis sélectionnez **Correspondance champ**. La fenêtre **Correspondance échange de données** s'ouvre.  
+1. Sur le raccourci **Définitions de lignes**, sélectionnez la ligne pour laquelle vous souhaitez associer les colonnes avec les champs, puis sélectionnez **Correspondance champ**. La page **Correspondance échange de données** s'ouvre.  
 2. Dans le raccourci **Général**, spécifiez les paramètres de mappage en renseignant les champs comme indiqué dans le tableau ci-dessous.  
 
     |Champ|Désignation|  
@@ -124,8 +124,8 @@ La création d'une définition d'échange de données implique deux tâches :
 
     |Champ|Désignation|  
     |---------------------------------|---------------------------------------|  
-    |**N° colonne**|Spécifiez la colonne dans le fichier de données pour laquelle vous souhaitez définir une fiche.<br /><br /> Vous pouvez uniquement sélectionner les colonnes qui sont représentées par des lignes sur le raccourci **Définitions colonne** de la fenêtre **Définition d'échange de données**.|  
-    |**ID champ**|Spécifiez à quel champ correspond la colonne dans le champ **N° colonne** .<br /><br /> Vous pouvez uniquement choisir parmi des champs existant dans la table que vous avez spécifiée dans le champ **Table** du Raccourci **General**.|  
+    |**N° colonne**|Spécifiez la colonne dans le fichier de données pour laquelle vous souhaitez définir une fiche.<br /><br /> Vous pouvez uniquement sélectionner les colonnes qui sont représentées par des lignes sur le raccourci **Définitions colonne** de la page **Définition d'échange de données**.|  
+    |**ID de champ**|Spécifiez à quel champ correspond la colonne dans le champ **N° colonne** .<br /><br /> Vous pouvez uniquement choisir parmi des champs existant dans la table que vous avez spécifiée dans le champ **Table** du Raccourci **General**.|  
     |**Supplémentaires**|Indiquez que la fiche sera ignorée si le champ est vide. **Remarque :** si vous n'activez pas cette case à cocher, une erreur d'exportation aura lieu si le champ est vide. **Remarque** : ce champ ne s'applique qu'aux exportations.|  
     |**ID table cible**|Uniquement visible lorsque la case à cocher **Utiliser comme table intermédiaire** est cochée.<br /><br /> Spécifiez la table à laquelle la valeur du champ **Titre colonne** est mappée lorsque vous utilisez une table intermédiaire pour l'importation des données.|  
     |**Libellé table cible**|Uniquement visible lorsque la case à cocher **Utiliser comme table intermédiaire** est cochée.<br /><br /> Spécifiez le nom de la table dans le champ **ID table cible**, qui est la table à laquelle la valeur du champ **Titre colonne** est mappée, lorsque vous utilisez une table intermédiaire pour l'importation des données.|  
@@ -148,7 +148,7 @@ Lorsque vous avez créé la définition d'échange de données pour un fichier d
 ### <a name="to-import-an-existing-data-exchange-definition"></a>Importer une définition d'échange de données existante  
 1. Enregistrez le fichier XML qui représente la définition d'échange de données dans un emplacement approprié.  
 2. Dans la zone **Rechercher**, entrez **Définitions d'échange de données**, puis sélectionnez le lien associé.  
-3. Sélectionnez l'action **Nouveau**. La fenêtre **Définition d'échange de données** s'ouvre.  
+3. Sélectionnez l'action **Nouveau**. La page **Définition d'échange de données** s'ouvre.  
 4. Choisissez l'action **Importer définition d'échange de données**.  
 5. Choisissez le fichier que vous avez enregistré à l'étape 1.  
 

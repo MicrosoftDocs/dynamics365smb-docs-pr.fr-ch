@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 00830a8b1c55e67642f39378a13d34bd53d67a86
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 89f878f4049b09cbaa413bc38b97039a07646d9d
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="assemble-items"></a>Assembler des articles
@@ -44,18 +44,18 @@ Dans cette procédure, vous allez créer et traiter un ordre d'assemblage pour d
 
 ## <a name="to-assemble-an-item"></a>Pour assembler un article  
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Ordres d'assemblage**, puis sélectionnez le lien associé.  
-2.  Sélectionnez l'action **Nouveau**. La fenêtre **Nouvel ordre d'assemblage** s'ouvre.  
+2.  Sélectionnez l'action **Nouveau**. La page **Nouvel ordre d'assemblage** s'ouvre.  
 3.  Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Dans le champ **N° article**, sélectionnez l'élément d'assemblage à traiter. Le champ est filtré pour n'afficher que les articles qui sont configurés pour assemblage, ce qui signifie qu'une nomenclature d'assemblage leur est affectée.  
 5.  Dans le champ **Quantité**, entrez le nombre d'unités de l'article que vous souhaitez assembler.  
 
     > [!NOTE]  
-    >  Si un ou plusieurs composants ne sont pas disponibles afin de répondre à la quantité d'éléments d'assemblage saisie à la date d'échéance définie, la fenêtre **Disponibilité assemblage** s'ouvre automatiquement pour fournir des informations détaillées sur le nombre d'éléments d'assemblage pouvant être assemblés en fonction de la disponibilité des composants. Pour plus d'informations, voir [Voir la disponibilité des articles](inventory-how-availability-overview.md). Lorsque vous fermez la fenêtre, l'ordre d'assemblage est créé avec des alertes de disponibilité sur les lignes composant concernées.  
+    >  Si un ou plusieurs composants ne sont pas disponibles afin de répondre à la quantité d'éléments d'assemblage saisie à la date d'échéance définie, la page **Disponibilité assemblage** s'ouvre automatiquement pour fournir des informations détaillées sur le nombre d'éléments d'assemblage pouvant être assemblés en fonction de la disponibilité des composants. Pour plus d'informations, voir [Voir la disponibilité des articles](inventory-how-availability-overview.md). Lorsque vous fermez la page, l'ordre d'assemblage est créé avec des alertes de disponibilité sur les lignes composant concernées.  
 
     Les lignes d'ordre d'assemblage sont remplies automatiquement avec le contenu de la nomenclature d'assemblage et les quantités de ligne en fonction de l'en-tête d'ordre d'assemblage.  
 
     > [!NOTE]  
-    >  Si la fenêtre **Disponibilité assemblage** s'est ouverte au moment où vous avez renseigné l'en-tête d'ordre d'assemblage, chaque ligne d'ordre d'assemblage affectée contient **Oui** dans le champ **Alerte dispo.** avec un lien vers les informations de disponibilité détaillées. Pour plus d'informations, voir Vérifier disponibilité. Vous pouvez résoudre un problème de disponibilité des composants en reportant la date début, en remplaçant le composant par un autre article, ou en sélectionnant un substitut disponible s'il est défini.  
+    >  Si la page **Disponibilité assemblage** s'est ouverte au moment où vous avez renseigné l'en-tête d'ordre d'assemblage, chaque ligne d'ordre d'assemblage affectée contient **Oui** dans le champ **Alerte dispo.** avec un lien vers les informations de disponibilité détaillées. Pour plus d'informations, voir Vérifier disponibilité. Vous pouvez résoudre un problème de disponibilité des composants en reportant la date début, en remplaçant le composant par un autre article, ou en sélectionnant un substitut disponible s'il est défini.  
 
 6.  Dans le champ **Quantité à assembler**, entrez le nombre d'unités de l'élément d'assemblage à valider comme production la prochaine fois que vous validerez l'ordre de assemblage. Cette quantité peut être inférieure à la valeur du champ **Quantité** pour refléter une validation partielle de production.  
 

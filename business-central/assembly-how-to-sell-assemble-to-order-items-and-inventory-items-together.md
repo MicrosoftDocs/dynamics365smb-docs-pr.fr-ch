@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 42f4d0f07e23bfc8fd2ab79fdf315df21a90c9b3
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 2f71dbbb4e7e4af19829f08243371bea1998b093
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="sell-assemble-to-order-items-and-inventory-items-together"></a>Vente simultanée d'articles à assembler pour commande et d'articles en stock
@@ -31,7 +31,7 @@ Une flexibilité similaire existe lorsque vous vendez des articles à assembler 
 >  La procédure suivante n'inclut pas les étapes standard de commande vente que vous devez suivre avant de créer un ordre d'assemblage pour les quantités indisponibles.
 
 ## <a name="to-sell-assemble-to-order-items-and-inventory-items-together"></a>Pour vendre des articles à assembler pour commande et des articles de stock ensemble  
-1.  Sur une ligne de commande vente pour un article qui est configuré pour un assemblage pour stock, entrez une quantité dans le champ **Quantité** qui est supérieure au stock. La fenêtre **Vérifier disponibilité** s'affiche. Pour plus d'informations, voir [Voir la disponibilité des articles](inventory-how-availability-overview.md).
+1.  Sur une ligne de commande vente pour un article qui est configuré pour un assemblage pour stock, entrez une quantité dans le champ **Quantité** qui est supérieure au stock. La page **Vérifier disponibilité** s'affiche. Pour plus d'informations, voir [Voir la disponibilité des articles](inventory-how-availability-overview.md).
 2.  Notez le champ **Quantité totale** (une valeur négative), que vous entrerez dans l'étape suivante.  
 3.  Dans le champ **Quantité à assembler pour commande**, entrez la valeur de l'étape précédente.  
 4.  Exécutez toutes les modifications dans les composants d'assemblage. Pour plus d'informations, reportez-vous à [Vente d'articles à assembler pour commande](assembly-how-to-sell-items-assembled-to-order.md).  

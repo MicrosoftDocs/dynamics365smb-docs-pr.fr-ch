@@ -11,10 +11,10 @@ ms.search.keywords: planning, design
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a108de9d4fe537f2d014c705583b910dc7be66a7
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 72b22b1370fcd5d2a92b9ed3c6c645d279ee72f3
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-planning-parameters"></a>Détails de conception : paramètres de planification
@@ -40,9 +40,9 @@ Les propositions de commande sont généralement lancées seulement lorsque la q
 Le champ **Intervalle de planification** est utilisé par les stratégies de point de commande (**Qté fixe de commande** et **Qté maximum**), où le niveau de stock est vérifié après chaque intervalle de planification. Le premier intervalle de planification débute à la date de début de la planification.  
 
 > [!NOTE]  
->  Lors du calcul des intervalles de planification, le système de planification ignore les calendriers de travail définis dans le champ **Code calendrier principal** des fenêtres **Informations société** et **Fiche magasin**.  
+>  Lors du calcul des intervalles de planification, le système de planification ignore les calendriers de travail définis dans le champ **Code calendrier principal** des pages **Informations société** et **Fiche magasin**.  
 
-Le délai de sécurité par défaut, dans la fenêtre **Paramètres production** doit être défini à au moins un jour. La date d'échéance de la demande peut être connue, mais pas l'heure d'échéance. La planification planifie en amont pour répondre à la demande brute et, si aucun délai de sécurité n'est défini, les marchandises peuvent arriver trop tard pour répondre à la demande.  
+Le délai de sécurité par défaut, sur la page **Paramètres production** doit être défini à au moins un jour. La date d'échéance de la demande peut être connue, mais pas l'heure d'échéance. La planification planifie en amont pour répondre à la demande brute et, si aucun délai de sécurité n'est défini, les marchandises peuvent arriver trop tard pour répondre à la demande.  
 
 Trois champs de période de réapprovisionnement supplémentaires, **Période de replanification**, **Période de groupement de lots** et **Période tampon**, jouent également un rôle en définissant quand commander à nouveau. Pour plus d'informations, reportez-vous à la section « Optimiser quand et combien réapprovisionner ».  
 
@@ -100,7 +100,7 @@ Dans les exemples suivants, les flèches noires représentent l'approvisionnemen
 
 ![Période tampon, période de groupement de lots et Modifier la quantité](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Période tampon, période de groupement de lots et Modifier la quantité")  
 
-**Valeurs par défaut :** la valeur par défaut du champ **Intervalle de planification** et des trois champs de période de réapprovisionnement est vide. Pour tous les champs, sauf le champ **Période tampon**, cela signifie 0D (zéro jours). Si le champ **Période tampon** est vide, la valeur globale du champ **Période tampon par défaut** de la fenêtre **Paramètres production** sera utilisée.  
+**Valeurs par défaut :** la valeur par défaut du champ **Intervalle de planification** et des trois champs de période de réapprovisionnement est vide. Pour tous les champs, sauf le champ **Période tampon**, cela signifie 0D (zéro jours). Si le champ **Période tampon** est vide, la valeur globale du champ **Période tampon par défaut** de la page **Paramètres production** sera utilisée.  
 
 ## <a name="modify-the-supply-orders"></a>Modifiez les commandes approvisionnement  
 Lorsque la quantité de la proposition de commande a été calculée, un ou plusieurs modificateurs de commande peuvent l'ajuster. Par exemple, la quantité maximum commande est supérieure ou égale à la quantité minimum commande, qui est supérieure ou égale au multiple de commande.  

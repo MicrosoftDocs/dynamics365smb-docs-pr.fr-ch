@@ -1,6 +1,6 @@
 ---
 title: "Procédure : créer des devis service | Microsoft Docs"
-description: "Utilisez la fenêtre **Devis service** pour créer des documents dans lesquels vous saisissez des informations sur un service, tel que réparation et maintenance, pour des articles de service à la demande du client. Vous pouvez utiliser un devis service comme brouillon d'une commande service, et convertir le devis en commande."
+description: "Utilisez la page **Devis service** pour créer des documents dans lesquels vous saisissez des informations sur un service, tel que réparation et maintenance, pour des articles de service à la demande du client. Vous pouvez utiliser un devis service comme brouillon d'une commande service, et convertir le devis en commande."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 77c6711c619d8f54597648a5addcdf831a6ef8a5
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1486be71b0b848aa48996f4161f8987322a09e32
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-service-quotes"></a>Pour créer des devis service
@@ -27,13 +27,13 @@ Vous pouvez utiliser un devis service comme brouillon d'une commande service, et
 ## <a name="to-create-a-service-quote"></a>Pour créer un devis service  
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Devis services**, puis sélectionnez le lien associé.  
 2. Créez un devis service.  
-3. Dans le champ **N°**, saisissez le numéro du devis service. Si vous avez configuré une souche de numéros pour les devis service dans la fenêtre **Paramètres Gestion des services,** vous pouvez appuyer sur Entrée pour renseigner le numéro devis service suivant.  
+3. Dans le champ **N°**, saisissez le numéro du devis service. Si vous avez configuré une souche de numéros pour les devis service sur la page **Paramètres Gestion des services,** vous pouvez appuyer sur Entrée pour renseigner le numéro devis service suivant.  
 4. Dans le champ **N° client**,  sélectionnez le client approprié dans la liste.  
 
   > [!Note]  
   >  Les champs de client sont automatiquement renseignés avec les informations de la fiche **Client**. Si une fiche **Client** n'existe pas pour le client et que vous avez configuré un modèle client, vous pouvez créer le client à partir du devis service. Renseignez les champs appropriés, puis choisissez l'action **Créer client**.  
   
-5. Selon les paramètres du raccourci **Champs obligatoires** de la fenêtre **Paramètres Gestion des services**, vous pouvez être amené à renseigner le champ **Type commande service** et le champ **Code vendeur**.  
+5. Selon les paramètres du raccourci **Champs obligatoires** de la page **Paramètres Gestion des services**, vous pouvez être amené à renseigner le champ **Type commande service** et le champ **Code vendeur**.  
 6. Renseignez les lignes article de service.  
 7. Enregistrez les coûts estimés dans les lignes service.  
   

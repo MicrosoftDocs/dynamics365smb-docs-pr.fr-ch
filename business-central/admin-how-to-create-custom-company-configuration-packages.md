@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e26174fcf723e13ef5a9ed0b386006c0439e1c7a
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 868972e4d53d858834ba5985a3de3ffa1d4dcc6b
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="create-custom-company-configuration-packages"></a>Créer des packages configuration de société personnalisés
@@ -46,7 +46,7 @@ Pour visualiser la liste complète des tables de configuration, choisissez l'ic�
 2.  Créez une société pour le modèle solution ou secteur d'activité. Pour plus d’informations, voir [Créer une société](admin-how-to-create-a-new-company.md).  
 3.  Configurez la nouvelle société en tenant compte de vos besoins. Renseignez toutes les tables de configuration nécessaires.  
 4.  Ouvrez la nouvelle société.
-5. Ouvrez la fenêtre **Feuille configuration**.  
+5. Ouvrir la page **Feuille configuration**.  
 6.  Ajoutez les tables que vous souhaitez transférer vers une autre société à la feuille. Affectez les lignes feuille au package.  
 7.  Créez un questionnaire pour les tables de configuration les plus souvent utilisées.  
 8.  Créez des modèles de configuration pour faciliter la création de données de base, telles que les clients ou les articles.  

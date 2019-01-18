@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/13/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a87f25d2419454bb785a7e239dd6f3eb4fc4d19d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 43213f5d9e3056bdaa073624cd247e14b9925c1b
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="transferring-and-posting-cost-entries"></a>Transfert et validation des écritures de coûts
@@ -25,13 +25,78 @@ Avant de définir des affectations de coûts, vous devez comprendre comment les 
 -   Transfert automatique des écritures comptables.  
 -   Validation manuelle de coûts pour les écritures de coûts, les frais internes et les affectations manuelles.  
 -   Validation automatique de l'affectation de coûts réels.  
--   Transfert des écritures budgétées vers les écritures réelles.  
+-   Transfert des écritures budgétées vers les écritures réelles.
 
-|**Pour**|**Voir**|  
-|------------|-------------|  
-|Familiarisation avec les critères de transfert des écritures de coûts à partir des écritures comptables.|[Critères de transfert des écritures comptables vers les écritures de coûts](finance-criteria-for-transferring-general-ledger-entries-to-cost-entries.md)|  
-|Transférez les écritures comptables vers les écritures de coûts avec un traitement par lots.|[Transférer les écritures comptables vers les écritures de coûts](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md)|  
-|Affichez les résultats du transfert.|[Résultats du transfert](finance-results-of-the-transfer.md)|  
+## <a name="criteria-for-transferring-general-ledger-entries-to-cost-entries"></a>Critères de transfert des écritures comptables vers les écritures de coûts
+Il est important de comprendre les critères pour le transfert des écritures comptables aux écritures de coûts. Lors du transfert, le traitement par lots pour **Transférer les écritures comptables vers CA** applique les critères suivants pour déterminer si les écritures comptables sont transférées et comment.  
+
+Les écritures comptables sont transférées si :  
+
+-   Les écritures ont des sections analytiques correspondant à un centre de coûts ou à un coût associé.  
+-   Les écritures ont des sections analytiques correspondant à un centre de coûts et à un coût associé. Pour ces écritures, le centre de coûts est prioritaire. Vous pouvez ainsi éviter qu'un type de coût apparaisse à la fois dans un coût associé et dans un centre de coûts, ce qui le comptabiliserait deux fois dans les statistiques.  
+-   Le numéro de document dans les écritures est vide. C'est pourquoi, il s'affichera avec le numéro de document 0000 dans les écritures de coûts.  
+-   Les écritures sont transférées vers un type de coût qui autorise les écritures combinées. Ces écritures sont transférées ainsi sur une base mensuelle ou journalière.  
+
+Les écritures comptables ne sont pas transférées si :  
+
+-   Les écritures ont des sections analytiques ne correspondant ni à un centre de coûts ni à un coût associé.  
+-   Les écritures sont égales à zéro.  
+-   Les écritures ont un compte général qui a été supprimé.  
+-   Les écritures ont un compte général qui n'est pas du type **Comptes de gestion**.  
+-   Les écritures ont un compte général sans type de coût affecté.  
+-   La date de validation des écritures est antérieure à **Date début pour transfert comptabilité**.  
+-   Les écritures ont été validées avec une date de clôture. Il s'agit généralement des écritures qui redéfinissent le solde des comptes de gestion sur la fin de l'exercice.
+
+## <a name="transferring-general-ledger-entries-to-cost-entries"></a>Transfert des écritures comptables vers les écritures de coûts
+Vous pouvez transférer les écritures comptables aux écritures de coûts.  
+
+Avant d'exécuter le transfert des écritures comptables vers des écritures de coûts, vous devez vous y préparer pour éviter toute validation manuelle de correction.  
+
+### <a name="to-prepare-the-transfer"></a>Pour préparer le transfert  
+
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres comptabilité analytique**, puis sélectionnez le lien associé.  
+2.  Sur la page **Paramètres comptabilité analytique**, vérifiez que le champ **Date début pour transfert comptabilité** est défini sur la valeur appropriée.  
+3.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Plan comptable des types de coûts**, puis sélectionnez le lien associé.  
+4.  Sur la page **Fiche type de coût**, vérifiez que le champ **Plage compte général** est lié correctement de sorte que chaque type de coût récupère les écritures de la comptabilité.  
+5.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Plan comptable**, puis sélectionnez le lien associé.  
+6.  Pour chaque compte général approprié, sur la page **Fiche compte général**, dans le raccourci Comptabilité analytique, vérifiez que le champ **N° type coût** est lié correctement à un type de coût. Pour plus d'informations, voir [Configuration du contrôle de gestion](finance-set-up-cost-accounting.md).  
+7.  Vérifiez que toutes les écritures comptables appropriées comprennent des sections analytiques correspondant à un centre de coûts et à un coût associé.  
+
+### <a name="to-transfer-general-ledger-entries-to-cost-entries"></a>Pour transférer les écritures comptables vers les écritures de coûts  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Transférer les écritures comptables vers CA**, puis sélectionnez le lien associé.  
+2.  Cliquez sur le bouton **Oui** pour démarrer le transfert. Le processus transfère toutes les écritures comptables qui n'ont pas déjà été transférées.  
+
+    Lors du transfert, le processus crée des connexions dans les écritures des tables **Écriture de coûts** et **Registre de coûts**. Cela permet d'identifier l'origine des écritures de coûts.
+
+## <a name="automatic-transfer-and-combined-entries"></a>Transfert automatique et écritures combinées
+En comptabilité analytique, vous pouvez transférer les écritures comptables vers un type de coût à l'aide d'une validation combinée. Vous pouvez spécifier si un type de coût reçoit des écritures combinées dans le champ **Combiner écritures** dans la définition du type de coût. Le tableau suivant décrit les différentes options.  
+
+|Combiner écritures|Désignation|  
+|---------------------|-----------------|  
+|Aucun|Chaque écriture comptable est transférée individuellement vers le type de coût correspondant.|  
+|Jour|Les écritures comptables, dont la date de validation est identique, sont transférées en une seul écriture vers le type de coût correspondant.|  
+|Mois|Toutes les écritures comptables du même mois calendaire sont transférées en une seul écriture vers le type de coût correspondant.|  
+
+> [!IMPORTANT]  
+>  Si vous avez coché la case **Transférer automatiquement à partir de la compta** sur la page **Paramètres comptabilité analytique**, [!INCLUDE[d365fin](includes/d365fin_md.md)] met à jour la comptabilité analytique après chaque validation comptable. Les écritures combinées ne sont pas possibles.
+
+## <a name="results-of-transferring-general-ledger-entries-to-cost-entries"></a>Résultats du transfert des écritures comptables vers les écritures de coûts
+Lors du transfert des écritures comptables vers les écritures de coûts, [!INCLUDE[d365fin](includes/d365fin_md.md)] crée des connexions dans les écritures dans les tables **Écriture comptable**, **Écriture de coûts** et **Registre de coûts** pour assurer le suivi des connexions entre les écritures de coûts et les écritures comptables.  
+
+### <a name="general-ledger-entries"></a>Écritures comptables  
+Pour chaque écriture comptable transférée vers la comptabilité analytique, [!INCLUDE[d365fin](includes/d365fin_md.md)] renseigne le champ **N° écriture**  
+
+### <a name="cost-entries"></a>Écritures de coûts  
+Pour chaque écriture de coûts, [!INCLUDE[d365fin](includes/d365fin_md.md)] garde le numéro de l'écriture comptable correspondante dans le champ **N° séquence compta.** de la table **Écriture de coûts**.  
+
+Pour les écritures de coûts combinées, [!INCLUDE[d365fin](includes/d365fin_md.md)] garde le numéro de la dernière écriture comptable, à savoir l'écriture avec le numéro le plus élevé.  
+
+Le champ **Compte général** de la table **Écriture de coûts** contient le numéro du compte général, d'où provient l'écriture de coûts.  
+
+Pour les écritures de coûts uniques, [!INCLUDE[d365fin](includes/d365fin_md.md)] transfère le texte de validation depuis l'écriture comptable vers le champ de texte **Description**. Pour les écritures combinées, le champ de texte indique que ces écritures sont transférées en tant qu'écritures combinées. Par exemple, pour une écriture combinée pour octobre 2013, le texte peut être **Écritures combinées, octobre 2013**.  
+
+### <a name="cost-register"></a>Registre de coûts  
+Dans la table **Registre de coûts**, [!INCLUDE[d365fin](includes/d365fin_md.md)] crée une écriture à l'aide du transfert source depuis la comptabilité. L'écriture enregistre le premier et le dernier numéros des écritures comptables transférées, outre le premier et le dernier numéros des écritures de coûts créées.
 
 ## <a name="see-also"></a>Voir aussi  
  [À propos de la comptabilité analytique](finance-about-cost-accounting.md)   

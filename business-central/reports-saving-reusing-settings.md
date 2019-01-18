@@ -11,10 +11,10 @@ ms.search.keywords: customization, personalization
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6027ba17868aca0a6571e059c9d157c542d12823
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 9fd086831c0d145570d87c33c62a003c166aca87
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="managing-saved-settings-on-reports"></a>Gestion des paramètres enregistrés dans les états
@@ -40,7 +40,7 @@ Vous gérez les paramètres enregistrés à partir de la page **1560 Paramètres
 
 La page affiche toutes les entrées de paramètres enregistrés existants pour tous les utilisateurs. Si un nom d'utilisateur est indiqué dans la colonne **Affecté à**, seul cet utilisateur peut utiliser les paramètres enregistrés pour l'état associé. Si la colonne **Partager avec tous les utilisateurs** est cochée, tous les utilisateurs peuvent utiliser les paramètres enregistrés pour l'état.
 
-Dans la fenêtre **Paramètres de l'état**, vous pouvez :
+Dans la page **Paramètres de l'état**, vous pouvez :
 -   Sélectionner **Nouveau** pour créer une nouvelle entrée de paramètres enregistrés.
 -   Sélectionner une entrée de paramètres enregistrés dans la liste, puis choisir **Copier** pour créer une copie.
 -   Sélectionner une entrée de paramètres enregistrés dans la liste, puis choisir **Modifier** pour la modifier.

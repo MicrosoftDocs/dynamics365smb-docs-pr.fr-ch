@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 59264fada4455f3f0a40ba225d45159d2fb77194
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 652a151ff50c8492b3dc7df5d17c04ff2d00faad
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Procédure pas-à-pas : créer des prévisions de trésorerie à l'aide de tableaux d'analyse
@@ -51,7 +51,7 @@ Un tableau d'analyse est composé d'un nom de tableau d'analyse de trésorerie a
 ### <a name="to-set-up-a-new-account-schedule-name"></a>Pour configurer un nouveau nom de tableau d'analyse  
 
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Tableaux d'analyse**, puis sélectionnez le lien associé.  
-2.  Dans la fenêtre **Noms tableaux d'analyse**, choisissez **Nouveau** pour créer un nom pour le tableau d'analyse de trésorerie.  
+2.  Sur la page **Noms tableaux d'analyse**, choisissez **Nouveau** pour créer un nom pour le tableau d'analyse de trésorerie.  
 3.  Dans le champ **Nom**, entrez **Prévision**.  
 4.  Dans le champ **Description**, entrez **Prévision de trésorerie**.  
 5.  Laissez vierges les champs **Présentation colonne par déf.** et **Nom vue d'analyse** .  
@@ -61,8 +61,8 @@ Après la configuration d'un nom de tableau d'analyse, Ken définit chaque ligne
 
 ### <a name="to-set-up-account-schedule-lines"></a>Pour configurer les lignes du tableau d'analyse  
 
-1.  Dans la fenêtre **Noms tableaux d'analyse**, sélectionnez le nouveau nom du tableau d’analyse **Prévision** que vous venez de créer. Sous l'onglet **Accueil**, dans le groupe **Processus**, choisissez **Modifier tableau d'analyse**.  
-2.  Dans la fenêtre **Tableau d'analyse**, entrez chaque ligne, comme indiqué dans le tableau suivant.  
+1.  Sur la page **Noms tableaux d'analyse**, sélectionnez le nouveau nom du tableau d’analyse **Prévision** que vous venez de créer. Sous l'onglet **Accueil**, dans le groupe **Processus**, choisissez **Modifier tableau d'analyse**.  
+2.  Sur la page **Tableau d'analyse**, entrez chaque ligne, comme indiqué dans le tableau suivant.  
 
     > [!NOTE]  
     >  À l’aide de la fonction **Insérer des comptes CF**,vous pouvez sélectionner rapidement les comptes de trésorerie à partir du plan comptable de trésorerie et les copier vers les lignes du tableau d’analyse.  
@@ -79,12 +79,12 @@ Ken est désormais prêt à affecter la présentation de colonne au nom de table
 
 ### <a name="to-assign-the-column-layout-to-the-account-schedule-name"></a>Pour affecter la présentation de colonne au nom de tableau d'analyse  
 
-1.  Dans la fenêtre **Noms tableaux d'analyse**, sélectionnez **Prévision** dans le champ **Nom**.  
+1.  Sur la page **Noms tableaux d'analyse**, sélectionnez **Prévision** dans le champ **Nom**.  
 2.  Dans le champ **Présentation colonne par déf.**, sélectionnez la présentation de colonne **Trésorerie** pour la définir par défaut.  
 
 ### <a name="to-view-and-print-the-cash-flow-forecast"></a>Pour afficher et imprimer les prévisions de trésorerie  
-1.  Dans la fenêtre **Noms tableaux d'analyse**, choisissez l'action **Aperçu** pour afficher les prévisions de trésorerie.  
-2.  Dans la fenêtre **Aperçu tableau d'analyse**, vous pouvez sélectionner un montant, puis afficher les écritures de prévisions de trésorerie qui constituent ce montant. En outre, vous pouvez afficher la formule qui est utilisée pour calculer le montant. Vous pouvez également filtrer les montants par date et par axe analytique.  
+1.  Sur la page **Noms tableaux d'analyse**, choisissez l'action **Aperçu** pour afficher les prévisions de trésorerie.  
+2.  Sur la page **Aperçu tableau d'analyse**, vous pouvez sélectionner un montant, puis afficher les écritures de prévisions de trésorerie qui constituent ce montant. En outre, vous pouvez afficher la formule qui est utilisée pour calculer le montant. Vous pouvez également filtrer les montants par date et par axe analytique.  
 3.  Choisissez l'action **Imprimer** pour imprimer les prévisions de trésorerie.  
 
 ## <a name="see-also"></a>Voir aussi  

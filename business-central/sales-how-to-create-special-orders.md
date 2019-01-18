@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 36c68048c384f4ccfef6c811ac288b306351ce2f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3f5521102ebcf4ad6b5bcb88c862106fd6b85f3f
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-special-orders"></a>Créer des commandes spéciales
@@ -32,9 +32,9 @@ Pour pouvoir utiliser cette fonction, vous devez d'abord configurer les fiches c
     Vous devez maintenant créer une commande achat à partir d'une demande achat.  
 4. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Demande achat**, puis sélectionnez le lien associé.  
 5. Choisissez l'action **Commande spéciale**, puis choisissez l'option **Extraire commandes vente**.  
-6.  Dans la fenêtre **Extraire commandes vente**, affichez les résultats dans lesquels le **N° document** correspond au numéro de commande vente. Cliquez sur le bouton **OK**. Une ligne demande achat est créée pour l'article.  
+6.  Sur la page **Extraire commandes vente**, affichez les résultats dans lesquels le **N° document** correspond au numéro de commande vente. Cliquez sur le bouton **OK**. Une ligne demande achat est créée pour l'article.  
 7.  Dans la ligne demande achat, sélectionnez **Nouveau** dans le champ **Message d'action**.  
-8.  Dans la fenêtre **Demande achat**, sélectionnez l'action **Traiter messages d'action**. La fenêtre **Traiter messages d'action - Demande** s'affiche. Cliquez sur le bouton **OK**.  
+8.  Sur la page **Demande achat**, sélectionnez l'action **Traiter messages d'action**. La page **Traiter messages d'action - Demande** s'affiche. Choisissez le bouton **OK**.  
 
     Le message qui s'affiche indique que les commandes achat ont été créées. Cliquez sur le bouton **OK**.  
 

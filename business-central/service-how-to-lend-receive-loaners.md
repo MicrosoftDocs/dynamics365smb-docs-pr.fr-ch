@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 9010858c33b7b58b3b4d7f2523785e846e307ff0
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 65a28156827551d19b8a4b23f6773c4a957e7895
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="lend-and-receive-loaners"></a>Prêter et recevoir des articles de prêt
@@ -30,7 +30,7 @@ Vous pouvez prêter aux clients des articles de prêt pour remplacer temporairem
 5. Cliquez sur le bouton **Oui** pour confirmer le prêt.  
 
 ## <a name="to-receive-a-loaner"></a>Pour recevoir un article de prêt  
-Lorsque vous recevez un article de prêt d'un client, vous devez enregistrer la réception. Pour ce faire, utilisez les fenêtres **Commande service**, **Expédition service enreg.** et **Fiche article de prêt**. Cette procédure explique comment recevoir les articles de prêt dans la fenêtre **Commande service**.  
+Lorsque vous recevez un article de prêt d'un client, vous devez enregistrer la réception. Pour ce faire, utilisez les pages **Commande service**, **Expédition service enreg.** et **Fiche article de prêt**. Cette procédure explique comment recevoir les articles de prêt sur la page **Commande service**.  
   
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes service**, puis sélectionnez le lien associé.  
 2. Ouvrez la commande service.  
@@ -38,11 +38,11 @@ Lorsque vous recevez un article de prêt d'un client, vous devez enregistrer la 
 4. Choisissez **Actions**, sélectionnez **Fonctions**, puis choisissez **Réceptionner article de prêt**.  
 
 ## <a name="to-register-loaner-comments"></a>Pour enregistrer des commentaires article de prêt  
-Vous pouvez utiliser la fenêtre **Général Feuille commentaires service** pour enregistrer des commentaires sur des articles de prêt enregistrés.  
+Vous pouvez utiliser la page **Général Feuille commentaires service** pour enregistrer des commentaires sur des articles de prêt enregistrés.  
   
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles de prêt**, puis sélectionnez le lien associé.  
 2. Ouvrez la fiche d'article de prêt.  
-3. Sélectionnez l'action **Commentaires**. La fenêtre **Général Feuille commentaires service** s'ouvre.  
+3. Sélectionnez l'action **Commentaires**. La page **Général Feuille commentaires service** s'ouvre.  
 4. Dans le champ **Date**, saisissez une date.  
 5. Entrez le commentaire dans le champ **Commentaire**. Vous pouvez saisir un maximum de 80 caractères. Si vous souhaitez saisir un texte supplémentaire, passez à la ligne suivante. Vous pouvez renseigner autant de lignes que nécessaire.  
   

@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 9dfe8a2b30a2a11969d8d7937998611613602ae7
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: be73736f4c56ea78ef2bb2b736b76db0569312ec
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="about-calculating-standard-cost"></a>À propos du calcul des coûts standard
@@ -81,7 +81,7 @@ Vous configurez les taux établis pour chaque type de délai pour chaque poste d
 > [!NOTE]  
 >  Si les délais d'exécution s'appliquent à chaque unité d'article produit, les délais de configuration s'appliquent pour chaque lot. Aussi, vous devez distribuer au prorata le délai de configuration de la gamme pour chaque opération par rapport à la taille lot. Vous spécifiez la taille lot dans le champ correspondant sur le raccourci **Commandes** de la fiche article.  
 
-Pour spécifier le délai de configuration dans la gamme à des fins de planification, sans toutefois inclure cette dépense dans le calcul des coûts standard, désactivez le champ **Inclure coût préparation** de la fenêtre **Paramètres production**.  
+Pour spécifier le délai de configuration dans la gamme à des fins de planification, sans toutefois inclure cette dépense dans le calcul des coûts standard, désactivez le champ **Inclure coût préparation** de la page **Paramètres production**.  
 
 Sur une base mono-niveau, il s'agit du coût de main-d'œuvre requis pour produire l'article produit fini et spécifié dans la gamme de l'article produit. Sur une base multi-niveau, il s'agit du coût opératoire spécifié pour chaque article produit individuellement inclus dans la nomenclature de l'article parent.  
 

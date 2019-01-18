@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 420aac30c9b9a76c8874e6697cfa0e105bb1744a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b09a740ccd0054418c597285ebe65827827ad9de
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="pick-items-for-warehouse-shipment"></a>Prélever des articles pour l'expédition entrepôt
@@ -26,9 +26,9 @@ Vous ne pouvez pas créer de toutes pièces un document prélèvement entrepôt 
 
 Vous pouvez créer des documents prélèvement entrepôt en mode extraction en ouvrant un document expédition entrepôt vide, détecter les documents origine qui sont lancés à l'expédition, puis créer des lignes prélèvement entrepôt pour ces expéditions. Vous pouvez utiliser les fonctions **Obtenir documents origine** ou **Utiliser filtre pour obtenir documents origine** pour détecter les documents origine qui sont prêts à l'expédition.
 
-Sinon, vous pouvez utiliser la fenêtre **Feuille prélèvement** pour extraire et créer les lignes prélèvement en mode lots. Pour plus d'informations, voir [Planifier des prélèvements dans des feuilles](warehouse-how-to-plan-picks-in-worksheets.md).  
+Sinon, vous pouvez utiliser la page **Feuille prélèvement** pour extraire et créer les lignes prélèvement en mode lots. Pour plus d'informations, voir [Planifier des prélèvements dans des feuilles](warehouse-how-to-plan-picks-in-worksheets.md).  
 
-Vous pouvez également créer des documents prélèvement entrepôt en mode pousser à partir de la fenêtre **Expédition entrepôt** en sélectionnant **Créer prélèvement**.  
+Vous pouvez également créer des documents prélèvement entrepôt en mode pousser à partir de la page **Expédition entrepôt** en sélectionnant **Créer prélèvement**.  
 
 > [!NOTE]  
 >  Le prélèvement pour l'expédition entrepôt des articles assemblés à la commande vente en cours d'expédition suit les mêmes étapes que les prélèvements entrepôt ordinaires pour l'expédition, comme décrit dans cette rubrique. Cependant, le nombre de lignes prélèvement par quantité à livrer peut grandement varier car le prélèvement entrepôt concerne les composants et non l'élément d'assemblage.  
@@ -52,7 +52,7 @@ Vous pouvez également créer des documents prélèvement entrepôt en mode pous
 
 4.  Lorsque vous avez effectué le prélèvement et placé les articles dans la zone ou l'emplacement d'expédition, choisissez l'action **Enregistrer prélèvement**.  
 
-La personne responsable de l'expédition peut alors apporter les articles au quai de chargement et valider l'expédition, dont le document origine lié, dans la fenêtre **Expédition entrepôt** . Pour plus d'informations, voir [Expédier des articles](warehouse-how-ship-items.md).   
+La personne responsable de l'expédition peut alors apporter les articles au quai de chargement et valider l'expédition, dont le document origine lié, sur la page **Expédition entrepôt** . Pour plus d'informations, voir [Expédier des articles](warehouse-how-ship-items.md).   
 
 En plus de prélever les documents origine, comme indiqué dans cette rubrique, vous pouvez prendre et placer les articles entre les emplacements sans faire référence aux documents origine. Pour plus d'informations, voir [Prélever et ranger sans document origine](warehouse-how-to-create-put-aways-from-internal-put-aways.md).  
 
@@ -63,7 +63,7 @@ Pour d'autres lignes expédition entrepôt, la valeur du champ **Qté à expédi
 
 Lorsque les travailleurs chargés de l’assemblage finissent d’assembler les pièces ou l’ensemble de la quantité à assembler pour commande, ils l’enregistrent dans le champ **Qté à expédier** de la ligne expédition entrepôt dans les configurations avancées et sélectionnent ensuite l'action **Valider expédition**. Le résultat est que les résultats d'assemblage correspondants sont validés, y compris la consommation de composants. Une expédition vente pour la quantité est validée pour la commande vente.
 
-À partir de l'ordre d'assemblage, vous pouvez choisir **Ligne expédition entrepôt Assembler pour commande** pour accéder à la ligne expédition entrepôt. Ceci peut être utile pour les travailleurs qui n'utilisent pas généralement la fenêtre **Expédition entrepôt**.
+À partir de l'ordre d'assemblage, vous pouvez choisir **Ligne expédition entrepôt Assembler pour commande** pour accéder à la ligne expédition entrepôt. Ceci peut être utile pour les travailleurs qui n'utilisent pas généralement la page **Expédition entrepôt**.
 
 Une fois l'expédition entrepôt validée, divers champs de la ligne commande vente sont mis à jour pour afficher la progression dans l'entrepôt. Les champs suivants sont également mis à jour pour afficher le nombre de quantités à assembler pour commande qui restent à être assemblées et expédiées :
 

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2865d938c9bde4a64898e48d0381ed73b8c94d6e
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a82ce6867a86dcc5ba09949b7e7611550d744a83
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-bin-types"></a>Configurer des types d'emplacement
@@ -26,7 +26,7 @@ Il existe six types. Votre entrepôt peut fonctionner avec la totalité de ces s
 
 ## <a name="to-set-up-the-bin-types-you-want-to-use"></a>Pour configurer les types d'emplacement que vous souhaitez utiliser  
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Types emplacement**, puis choisissez le lien associé.  
-2.  Dans la fenêtre **Types emplacement**, créez un code à 10 caractères pour chaque type d'emplacement.  
+2.  Sur la page **Types emplacement**, créez un code à 10 caractères pour chaque type d'emplacement.  
 3.  Sélectionnez les activités qui peuvent être effectuées avec chaque type d'emplacement.  
 
 > [!NOTE]  

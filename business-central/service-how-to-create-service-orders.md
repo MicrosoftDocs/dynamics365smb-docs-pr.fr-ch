@@ -1,6 +1,6 @@
 ---
 title: "Procédure : créer des commandes service | Microsoft Docs"
-description: "Utilisez la fenêtre **Commande service** pour créer des documents dans lesquels vous saisissez des informations sur un service, tel que réparation et maintenance, pour des articles de service à la demande du client."
+description: "Utilisez la page **Commande service** pour créer des documents dans lesquels vous saisissez des informations sur un service, tel que réparation et maintenance, pour des articles de service à la demande du client."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 92cfc39fffeb616e69dcd4b32a83b44197c6fa27
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: feef01ffa2afa33a91b5db26c94842699c215dab
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-service-orders"></a>Créer commande service
-Utilisez la fenêtre **Commande service** pour créer des documents dans lesquels vous saisissez des informations sur un service, tel que réparation et maintenance, pour des articles de service à la demande du client.  
+Utilisez la page **Commande service** pour créer des documents dans lesquels vous saisissez des informations sur un service, tel que réparation et maintenance, pour des articles de service à la demande du client.  
 
 Lorsque vous créez une commande service, vous ne devez renseigner que certains champs. Certains champs sont facultatifs et la beaucoup d'entre eux sont renseignés automatiquement lorsque vous renseignez les champs associés.  
 
@@ -29,11 +29,11 @@ Lorsque vous créez une commande service, vous ne devez renseigner que certains 
 2. Créez une nouvelle commande service.  
 3. Dans le champ **N°**, saisissez le numéro de la commande service.  
 
-     Si vous avez configuré une souche de numéros pour les commandes de service dans la fenêtre **Paramètres Gestion des services,** vous pouvez appuyer sur Entrée pour renseigner le numéro de commande service suivant.  
+     Si vous avez configuré une souche de numéros pour les commandes de service sur la page **Paramètres Gestion des services,** vous pouvez appuyer sur Entrée pour renseigner le numéro de commande service suivant.  
 
 4. Dans le champ **N° client**, sélectionnez le client approprié dans la liste. Les champs client pertinents sont automatiquement renseignés avec les informations de la table **Client**.  
 
-5. Selon les paramètres du raccourci **Champs obligatoires** de la fenêtre **Paramètres Gestion des services**, vous pouvez être amené à renseigner le champ **Type commande service** et le champ **Code vendeur**.  
+5. Selon les paramètres du raccourci **Champs obligatoires** de la page **Paramètres Gestion des services**, vous pouvez être amené à renseigner le champ **Type commande service** et le champ **Code vendeur**.  
 6. De manière optionnelle, renseignez les autres champs.  
 7. Enregistrez les lignes article de service.  
 
@@ -45,7 +45,7 @@ Vous pouvez créer automatiquement des commandes service pour la maintenance des
 3. Sur le raccourci **Options** , renseignez les champs **Date début** et **Date fin** avec la date début et la date fin pour la période pour laquelle vous souhaitez créer les commandes contrat de service. Le traitement par lots crée des commandes service qui incluent les articles de service des contrats de service dont les dates service suivantes sont comprises dans cette période.  
 
     > [!NOTE]  
-    >  Le nombre de jours que vous pouvez utiliser comme plage de dates à chaque utilisation de ce traitement par lots est limité. Vous définissez cette limite dans le champ **Nbre jours max. cde contrat** de la fenêtre **Paramètres Gestion des services**.  
+    >  Le nombre de jours que vous pouvez utiliser comme plage de dates à chaque utilisation de ce traitement par lots est limité. Vous définissez cette limite dans le champ **Nbre jours max. cde contrat** de la page **Paramètres Gestion des services**.  
 
 4. Dans le champ **Action**, sélectionnez **Créer commande service**.  
 
@@ -65,9 +65,9 @@ Vous pouvez vérifier si un article dont vous avez besoin pour une commande est 
 2. Exécutez l'une des opérations suivantes :  
 
     * Pour une commande définie, choisissez la commande, puis sélectionnez l'action **Aperçu demande**.  
-    * Pour toutes les commandes, choisissez **Afficher document**. La fenêtre **Commande service** s'ouvre.  
+    * Pour toutes les commandes, choisissez **Afficher document**. La page **Commande service** s'ouvre.  
 
-3. Dans la fenêtre **Aperçu demande**, développez le regroupement d'articles et afficher des informations sur la disponibilité de l'article. Par exemple, vous pouvez visualiser le nombre d'articles en stock. Vous pouvez également consulter si l'article d'une commande en attente est disponible, c'est-à-dire Type origine = achat, ou la date à laquelle il le sera ou s'il a été réservé.
+3. Sur la page **Aperçu demande**, développez le regroupement d'articles et afficher des informations sur la disponibilité de l'article. Par exemple, vous pouvez visualiser le nombre d'articles en stock. Vous pouvez également consulter si l'article d'une commande en attente est disponible, c'est-à-dire Type origine = achat, ou la date à laquelle il le sera ou s'il a été réservé.
 
 ## <a name="to-reserve-an-item-for-a-service-order"></a>Pour réserver un article pour une commande service
 Si vous voulez avoir l'assurance qu'un article est disponible pour une commande service, vous pouvez réserver l'article.
@@ -75,8 +75,8 @@ Si vous voulez avoir l'assurance qu'un article est disponible pour une commande 
 1. Dans la zone **Rechercher**, entrez **Commandes service**, puis sélectionnez le lien associé.  
 2. Cliquez sur la commande service, puis choisissez **Modifier**.  
 3. Sélectionnez **Actions**, **Commande**, puis **Lignes service**.  
-4. Sur la fenêtre **Lignes service**, sélectionnez l'article à réserver, puis sélectionnez l'action **Réserver**.  
-5. Sur la fenêtre **Réservation**, choisissez **Réserver à partir de la ligne courante**.
+4. Sur la page **Lignes service**, sélectionnez l'article à réserver, puis sélectionnez l'action **Réserver**.  
+5. Sur la page **Réservation**, choisissez **Réserver à partir de la ligne courante**.
 
 ## <a name="to-insert-lines-based-on-standard-service-codes"></a>Pour insérer des lignes selon les codes prestation standard  
 Si vous avez configuré des codes prestation standard et les avez associés à des groupes articles de service, vous pouvez insérer les lignes standard liées aux codes prestation standard sur des documents service. Pour plus d'informations, voir [Configurer des codes prestation standard](service-how-setup-service-coding.md).   
@@ -85,21 +85,21 @@ Si vous avez configuré des codes prestation standard et les avez associés à d
 2. Créez une nouvelle commande service.  
 3. Renseignez les champs selon vos besoins.  
 4. Renseignez les lignes article de service avec les informations requises.  
-5. Choisissez la ligne contenant l'article de service pour lequel vous souhaitez créer des lignes service, puis choisissez **Extraire codes prestation std**. La fenêtre **Codes gpe articles de service standard** s'affiche avec les codes standard pour le groupe articles de service spécifié sur la ligne.  
+5. Choisissez la ligne contenant l'article de service pour lequel vous souhaitez créer des lignes service, puis choisissez **Extraire codes prestation std**. La page **Codes gpe articles de service standard** s'affiche avec les codes standard pour le groupe articles de service spécifié sur la ligne.  
 6. Choisissez le code approprié, puis choisissez le bouton **OK** pour entrer les lignes service standard.  
 
 > [!NOTE]  
->  Si le champ **Code gpe articles de service** de la ligne article de service du document est vide, cela signifie que l'article de service n'appartient à aucun groupe articles de service. Dans ce cas, la fenêtre **Codes gpe articles de service standard** contient la liste de tous les codes prestation standard. Vous devez sélectionner dans la liste les lignes service standard à insérer dans le document. Vous pouvez également sélectionner dans la liste des codes prestation standard affectés à un groupe articles de service spécifique. Pour afficher la liste, sélectionnez le code approprié dans le champ **Code gpe articles de service** dans la fenêtre **Codes gpe articles de service standard**.  
+>  Si le champ **Code gpe articles de service** de la ligne article de service du document est vide, cela signifie que l'article de service n'appartient à aucun groupe articles de service. Dans ce cas, la page **Codes gpe articles de service standard** contient la liste de tous les codes prestation standard. Vous devez sélectionner dans la liste les lignes service standard à insérer dans le document. Vous pouvez également sélectionner dans la liste des codes prestation standard affectés à un groupe articles de service spécifique. Pour afficher la liste, sélectionnez le code approprié dans le champ **Code gpe articles de service** sur la page **Codes gpe articles de service standard**.  
 
 ## <a name="to-register-internal-or-public-comments"></a>Pour enregistrer des commentaires internes ou publics
 Vous pouvez ajouter des commentaires qui sont imprimés sur les commandes service et devis service pour fournir des informations supplémentaires. Vous pouvez saisir un maximum de 80 caractères, espaces compris. Si vous souhaitez saisir un texte supplémentaire, choisissez une autre ligne. Pour enregistrer un commentaire, sélectionnez une ligne, puis choisissez l'action **Commentaires**.  
 
 ## <a name="to-delete-invoiced-service-orders"></a>Pour supprimer des commandes service facturées  
-Les commandes sont habituellement supprimées automatiquement après avoir été entièrement facturées. Lors de la validation d'une facture, une écriture correspondante est générée dans la fenêtre **Factures service enreg.**. Vous pouvez afficher le document validé dans la fenêtre **Facture service enreg.**.  
+Les commandes sont habituellement supprimées automatiquement après avoir été entièrement facturées. Lors de la validation d'une facture, une écriture correspondante est générée sur la page **Factures service enreg.**. Vous pouvez afficher le document validé sur la page **Facture service enreg.**.  
 
-Le programme ne supprime pas la commande service automatiquement cependant, si la quantité totale sur la commande a été validée, non pas à partir de la commande service proprement dite, mais à partir de la fenêtre **Facture service**. Ensuite, il se peut que vous deviez supprimer des commandes facturées qui n'ont pas été supprimées. Pour ce faire, exécutez le traitement par lots **Supprimer commandes service facturées**.  
+Le programme ne supprime pas la commande service automatiquement cependant, si la quantité totale sur la commande a été validée, non pas à partir de la commande service proprement dite, mais à partir de la page **Facture service**. Ensuite, il se peut que vous deviez supprimer des commandes facturées qui n'ont pas été supprimées. Pour ce faire, exécutez le traitement par lots **Supprimer commandes service facturées**.  
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Supprimer commandes service facturées**, puis sélectionnez le lien associé. La fenêtre de demande du traitement par lots **Supprimer commandes service facturées** s'ouvre.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Supprimer commandes service facturées**, puis sélectionnez le lien associé. La page de demande du traitement par lots **Supprimer commandes service facturées** s'ouvre.  
 2. Pour sélectionner les commandes à supprimer, vous pouvez positionner des filtres dans les champs **N°**, **N° client** et **N° client facturé**. .  
 3. Cliquez sur **OK**.  
 

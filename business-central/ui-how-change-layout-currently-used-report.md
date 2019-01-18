@@ -13,10 +13,10 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 98a2e773dbde6ba4ba0493e2b0dc7b632bbea4d0
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a68c26e94aa4adda7c1f546e57331a741dcfe94b
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="change-which-layout-is-currently-used-on-a-report"></a>Modification de la présentation actuellement utilisée sur un rapport
@@ -26,8 +26,8 @@ Selon les présentations qui sont disponibles pour un rapport, vous pouvez chois
 
 ## <a name="to-change-the-layout-that-is-used-on-a-report"></a>Pour modifier la présentation qui est utilisée dans un état
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Sélection présentation état**, puis sélectionnez le lien associé.  
-   La fenêtre **Sélection présentation état** répertorie tous les états disponibles pour la société spécifiée dans le champ Société en haut de la fenêtre. Le champ Présentation sélectionnée spécifie la présentation qui est actuellement utilisée sur l'état.
-2. Définissez le champ **Société** en haut de la fenêtre sur la société qui inclut le rapport.
+   La page **Sélection présentation état** répertorie tous les états disponibles pour la société spécifiée dans le champ Société en haut de la page. Le champ Présentation sélectionnée spécifie la présentation qui est actuellement utilisée sur l'état.
+2. Définissez le champ **Société** en haut de la page sur la société qui inclut le rapport.
 3. Pour modifier la présentation utilisée par un état, sur la ligne correspondant à l'état dans la liste, définissez le champ **Présentation sélectionnée** sur l'une des options suivantes :
    * RDLC (intégré), utilise la présentation d'état RDLC intégrée sur l'état.
    * Word (intégré), utilise la présentation d'état Word intégrée sur l'état.
@@ -40,10 +40,10 @@ Selon les présentations qui sont disponibles pour un rapport, vous pouvez chois
 Si vous avez sélectionné une présentation de rapport RDLC ou Word intégrée, aucune action supplémentaire n'est requise et la présentation sera utilisée la prochaine fois que le rapport sera exécuté.
 
 ## <a name="to-specify-a-custom-layout-on-a-report"></a>Pour spécifier une présentation personnalisé sur un état
-1. Vous spécifiez la présentation personnalisée à utiliser dans l'état à partir de la fenêtre **Présentations état personnalisées**. Si la fenêtre **Présentations état personnalisées** n'est pas ouverte, cliquez sur le bouton de consultation du champ **Description présentation état**.
-2. Dans la fenêtre **Présentations état personnalisées**, sélectionnez la ligne de la présentation personnalisée que vous souhaitez utiliser, puis fermez la fenêtre.
+1. Vous spécifiez la présentation personnalisée à utiliser dans l'état à partir de la page **Présentations état personnalisées**. Si la page **Présentations état personnalisées** n'est pas ouverte, cliquez sur le bouton de consultation du champ **Description présentation état**.
+2. Sur la page **Présentations état personnalisées**, sélectionnez la ligne de la présentation personnalisée que vous souhaitez utiliser, puis fermez la page.
 
-La fenêtre **Sélection présentation état** s'affiche à nouveau. Le nom de la présentation personnalisée sélectionnée s'affiche dans le champ **Description présentation personnalisée**. La présentation personnalisée sera utilisée la prochaine fois que vous exécuterez l'état.
+La page **Sélection présentation état** s'affiche à nouveau. Le nom de la présentation personnalisée sélectionnée s'affiche dans le champ **Description présentation personnalisée**. La présentation personnalisée sera utilisée la prochaine fois que vous exécuterez l'état.
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion des présentations de rapport](ui-manage-report-layouts.md)  

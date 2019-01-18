@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e32cbdc9bc5f61a054972be4c5bcc409ada961a0
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 27818c45c68f37c052a39eeaeaf0fe6c2c871af9
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="import-and-export-a-report-or-document-layout"></a>Importer et exporter une présentation de rapport ou de document
@@ -31,7 +31,7 @@ Vous pouvez importer et exporter une présentation de rapport personnalisée exi
   
 2.  Sélectionnez la ligne pour le rapport contenant la présentation de rapport personnalisée que vous souhaitez exporter, puis sous l'onglet **Accueil**, dans le groupe **Traitement**, choisissez **Présentations personnalisées**.  
   
-3.  Dans la fenêtre **Présentations état**, sélectionnez la présentation de rapport que vous souhaitez exporter vers un fichier, puis sous l'onglet **Accueil**, dans le groupe **Traitement**, choisissez **Exporter présentation**.  
+3.  Sur la page **Présentations état**, sélectionnez la présentation de rapport que vous souhaitez exporter vers un fichier, puis sous l'onglet **Accueil**, dans le groupe **Traitement**, choisissez **Exporter présentation**.  
   
 4.  Dans la boîte de dialogue **Exporter fichier**, sélectionnez **Enregistrer**, puis enregistrez le fichier à un emplacement sur votre ordinateur ou réseau.  
   
@@ -45,7 +45,7 @@ Vous pouvez importer et exporter une présentation de rapport personnalisée exi
   
 3.  Sélectionnez la ligne pour le rapport vers laquelle vous souhaitez importer la présentation de rapport, puis sous l'onglet **Accueil**, dans le groupe **Traitement**, choisissez **Présentations personnalisées**.  
   
-4.  Dans la fenêtre **Présentations état**, sélectionnez la présentation de rapport vers laquelle vous souhaitez importer le fichier, puis sous l'onglet **Accueil**, dans le groupe **Traitement**, choisissez **Importer présentation**.  
+4.  Sur la page **Présentations état**, sélectionnez la présentation de rapport vers laquelle vous souhaitez importer le fichier, puis sous l'onglet **Accueil**, dans le groupe **Traitement**, choisissez **Importer présentation**.  
   
 5.  Dans la boîte de dialogue **Importer**, sélectionnez le document qui définit la présentation de rapport, puis choisissez **Ouvrir**.  
   

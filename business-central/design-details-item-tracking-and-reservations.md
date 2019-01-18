@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 40ca8e4a86a74f449a980f06060488cdb117d3c7
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 1670b102aa0eba91952391ac3daa563a651de859
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Détails de conception : traçabilité et réservations
@@ -44,15 +44,15 @@ La principale différence entre la réservation spécifique et la réservation n
 |**Spécifique**|Numéro de série ou de lot.|Numéro de série ou de lot.|  
 |**Non spécifique**|Numéro de série ou de lot.|Aucun numéro de série ou de lot|  
   
-Lorsque vous réservez des quantités en stock à partir d'une ligne document sortant pour un article ayant des numéros de suivi article affectés et étant configuré pour un suivi d'article spécifique, la fenêtre **Réservation** vous conduit à travers différents flux de travail en fonction de votre besoin de numéros de série ou de lot.  
+Lorsque vous réservez des quantités en stock à partir d'une ligne document sortant pour un article ayant des numéros de suivi article affectés et étant configuré pour un suivi d'article spécifique, la page **Réservation** vous conduit à travers différents flux de travail en fonction de votre besoin de numéros de série ou de lot.  
   
 ## <a name="specific-reservation"></a>Réservation spécifique  
-Lorsque vous choisissez **Reserve** depuis la ligne document sortant, une boîte de dialogue s'affiche vous demandant si vous souhaitez réserver des numéros de série ou de lot spécifiques. Si vous choisissez **Oui**, la liste s'affiche avec tous les numéros de série ou de lot affectés à la ligne document. La fenêtre **Réservation** s'ouvre après que vous avez sélectionné l'un des numéros de série ou de lot, et vous pouvez alors réserver parmi les numéros de série ou de lot sélectionnés comme d'habitude.  
+Lorsque vous choisissez **Reserve** depuis la ligne document sortant, une boîte de dialogue s'affiche vous demandant si vous souhaitez réserver des numéros de série ou de lot spécifiques. Si vous choisissez **Oui**, la liste s'affiche avec tous les numéros de série ou de lot affectés à la ligne document. La page **Réservation** s'ouvre après que vous avez sélectionné l'un des numéros de série ou de lot, et vous pouvez alors réserver parmi les numéros de série ou de lot sélectionnés comme d'habitude.  
   
-Si certains des numéros traçabilité spécifiques que vous essayez de réserver sont contenus dans des réservations non spécifiques, un message au bas de la fenêtre **Réservation** vous indique quelle part de la quantité réservée totale se trouve dans des réservations non spécifiques et si elle est toujours disponible.  
+Si certains des numéros traçabilité spécifiques que vous essayez de réserver sont contenus dans des réservations non spécifiques, un message au bas de la page **Réservation** vous indique quelle part de la quantité réservée totale se trouve dans des réservations non spécifiques et si elle est toujours disponible.  
   
 ## <a name="nonspecific-reservation"></a>Réservation non spécifique  
-Si vous choisissez **Non** dans la boîte de dialogue qui s'affiche, la fenêtre **Réservation** s'ouvre et vous permet de réserver parmi tous les numéros de série ou de lot dans le stock.  
+Si vous choisissez **Non** dans la boîte de dialogue qui s'affiche, la page **Réservation** s'ouvre et vous permet de réserver parmi tous les numéros de série ou de lot dans le stock.  
   
 En raison de la structure du système de réservation, quand vous placez une réservation non spécifique pour un article suivi, le système doit sélectionner les écritures comptables de l'article spécifique à réserver. Comme les écritures comptables article indiquent les numéros traçabilité, la réservation réserve indirectement des numéros de série ou de lot spécifiques, même si vous n'en aviez pas l'intention. Pour gérer cette situation, le système de réservation essaie de remanier les écritures de réservation non spécifiques avant la validation.  
   
@@ -81,7 +81,7 @@ Par exemple, le besoin apparaît lorsqu'un préparateur de commandes a d'abord e
 ### <a name="reserve-specific-serial-or-lot-numbers"></a>Réserver des numéros de série ou de lot particuliers  
 Dans ce scénario commercial, la fonctionnalité Lien tardif garantit qu'un utilisateur qui tente de réserver un numéro de série ou de lot particulier actuellement non spécifiquement réservé peut le faire. Une réservation non spécifique est remaniée au moment de la réservation pour libérer le numéro de série ou de lot de la demande spécifique.  
   
-Le remaniement se produit automatiquement, mais une aide intégrée est affichée au bas de la fenêtre **Réservation** et indique le texte suivant :  
+Le remaniement se produit automatiquement, mais une aide intégrée est affichée au bas de la page **Réservation** et indique le texte suivant :  
   
 **XX de la Total Reserved Quantity ne sont pas spécifiques et peuvent être disponibles.**  
   

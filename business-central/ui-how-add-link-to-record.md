@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c2e70ad534a28cf5062e9e54a2dfbd3af6afaa39
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8927d2ca670b3faa38cd03ea10ae524e595721ad
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="adding-links-to-websites-documents-or-programs-on-records"></a>Ajout de liens à des sites Web, documents ou programmes sur des enregistrements
@@ -26,7 +26,7 @@ Un autre exemple est lorsque vous recevez des factures imprimées de fournisseur
 
 1.  Ouvrez l'enregistrement auquel vous voulez ajouter le lien, par exemple une fiche client ou une commande vente. Pour associer le lien à une ligne spécifique, par exemple une ligne feuille, sélectionnez la ligne.  
 
-2.  Choisissez l'action **Liens** pour ouvrir les fenêtres **Liens** qui affichent tous les liens actuels qui sont ajoutés à l'enregistrement.
+2.  Choisissez l'action **Liens** pour ouvrir les pages **Liens** qui affichent tous les liens actuels qui sont ajoutés à l'enregistrement.
 
 3. Pour ajouter un nouveau lien, choisissez **+nouveau**.
 
@@ -43,7 +43,7 @@ Un autre exemple est lorsque vous recevez des factures imprimées de fournisseur
 
 ## <a name="to-delete-a-link-from-a-record"></a>Pour supprimer un lien dans un enregistrement  
 
-Pour supprimer un lien, dans la fenêtre **Liens**, vous pouvez sélectionner **…**, puis **Supprimer**.
+Pour supprimer un lien, sur la page **Liens**, vous pouvez sélectionner **…**, puis **Supprimer**.
 
 Si vous supprimez un enregistrement, par exemple, une ligne commande vente, une commande vente ou une fiche client, tous les liens contenus dans l'enregistrement sont supprimés. En revanche, si vous supprimez des enregistrements à l'aide d'un traitement par lots, par exemple, le traitement par lots **Supprimer cdes vente facturées**, les liens sont conservés dans la base de données. Pour supprimer les liens de la base de données, exécutez le codeunit **Supprimer les liens enregistrement orphelins**. Pour cela, choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Supprimer les liens enregistrement orphelins**, puis sélectionnez le lien associé.   
 
@@ -51,7 +51,7 @@ Si vous supprimez un enregistrement, par exemple, une ligne commande vente, une 
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Deletion**, and then choose the related link.  
 
-2.  In the **Data Deletion** window, choose **Tasks**, and then choose **Delete Orphaned Record Links**.  -->
+2.  On the **Data Deletion** page, choose **Tasks**, and then choose **Delete Orphaned Record Links**.  -->
 
 ## <a name="see-also"></a>Voir aussi  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

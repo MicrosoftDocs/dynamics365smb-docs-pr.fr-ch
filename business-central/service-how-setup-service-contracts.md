@@ -13,10 +13,10 @@ ms.search.keywords: service, cost, service order
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 35dcecb6b3510101026202cb6548aa936d74b25c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a965721aef3769aa1e794c0edb9ffa48faf99541
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -45,7 +45,7 @@ Avant de pouvoir utiliser les contrats, vous devez définir les éléments suiva
 2. Créez un modèle contrat de service.  
 3. Dans le champ **N°**, saisissez le numéro du modèle de contrat.  
   
-     Si vous avez configuré une souche de numéros pour les modèles contrat dans la fenêtre **Paramètres Gestion des services**, vous pouvez appuyer sur la touche Entrée pour que le programme saisisse le numéro modèle contrat suivant. Renseignez les autres champs, si nécessaire.  
+     Si vous avez configuré une souche de numéros pour les modèles contrat sur la page **Paramètres Gestion des services**, vous pouvez appuyer sur la touche Entrée pour que le programme saisisse le numéro modèle contrat suivant. Renseignez les autres champs, si nécessaire.  
   
 4. Dans le raccourci **Facture**, renseignez les champs **Code gpe cptes contrat serv.**, **Période de facturation**, etc. Renseignez les autres champs, si nécessaire.  
 5. Sélectionnez l'action **Remises service** pour ajouter des remises contrat.  

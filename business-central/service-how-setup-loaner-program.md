@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 197a5805d55546bbbff1cffc9a12d7cc91017fcd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 46e60bcb217178d94eda195045df0db33873a190
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-a-loaner-program"></a>Configuration d'un programme d'articles de prêt
@@ -28,7 +28,7 @@ Vous devez parfois fournir un article de prêt à un client afin qu'il puisse s'
 ## <a name="to-set-up-a-loaner"></a>Pour configurer un article de prêt  
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles de prêt**, puis sélectionnez le lien associé.  
 2. Créez une fiche article de prêt. 
-3. Dans le champ **N°**, saisissez le numéro de l'article de prêt. Si vous avez configuré une souche de numéros pour les articles de prêt dans la fenêtre **Paramètres Gestion des services**, vous pouvez appuyer sur la touche Entrée pour que le programme insère le numéro article de prêt suivant.  
+3. Dans le champ **N°**, saisissez le numéro de l'article de prêt. Si vous avez configuré une souche de numéros pour les articles de prêt sur la page **Paramètres Gestion des services**, vous pouvez appuyer sur la touche Entrée pour que le programme insère le numéro article de prêt suivant.  
 4. Renseignez les champs **Désignation**, **Désignation 2** et **N° de série**.  
 5. Dans le champ **Code unité**, sélectionnez l'unité appropriée.  
   

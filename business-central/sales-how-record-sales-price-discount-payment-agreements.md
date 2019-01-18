@@ -11,10 +11,10 @@ ms.search.keywords: special price, alternate price, pricing
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ad6a72c7a0cd523ec9215df1093c69864f866028
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 92b853c0d897ac5d93cbabc435b71bbf420d28a5
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Enregistrer les prix de vente spéciaux et les remises
@@ -62,7 +62,7 @@ Une fois que vous avez décidé des clients pouvant faire l'objet de remises fac
 
 Configurez de nouvelles conditions de remise facture vente.
 
-1. Dans la fenêtre **Fiche client**, sélectionnez l'action **Remises facture**. La fenêtre **Remises facture client** s'ouvre.
+1. Sur la page **Fiche client**, sélectionnez l'action **Remises facture**. La page **Remises facture client** s'ouvre.
 2. Dans le champ **Code devise**, indiquez le code d'une devise à laquelle s'appliquent les conditions de remise facture. Laissez le champ vierge si vous souhaitez configurer des conditions de remise facture en EUR.
 3. Dans le champ **Montant minimum**, entrez le montant minimal qu'une facture doit présenter pour faire l'objet de la remise.
 4. Dans le champ **% remise**, entrez la remise facture sous la forme d'un pourcentage du montant de la facture.
@@ -73,23 +73,23 @@ La remise facture est désormais configurée et affectée au client concerné. L
 ## <a name="to-work-with-sales-invoice-discounts-and-service-charges"></a>Utiliser des remises facture vente et des frais forfaitaires
 Lorsque vous utilisez des remises facture, la valeur du montant de la facture détermine celle de la remise accordée.  
 
-Dans la fenêtre **Remises facture client**, vous pouvez également ajouter des frais forfaitaires aux factures supérieures à un montant donné.  
+Dans la page **Remises facture client**, vous pouvez également ajouter des frais forfaitaires aux factures supérieures à un montant donné.  
 
 Pour pouvoir utiliser les remises facture avec les ventes, vous devez saisir certaines informations dans le programme. Vous devez décider des éléments suivants  
 
 - les clients qui se verront accorder ce type de remise  
 - les pourcentages de remise à utiliser  
 
-Dans la fenêtre **Paramètres ventes**, vous pouvez spécifier si les remises facture doivent être calculées automatiquement.  
+Sur la page **Paramètres ventes**, vous pouvez spécifier si les remises facture doivent être calculées automatiquement.  
 
 Pour chaque client, vous pouvez indiquer si vous accordez des remises facture si la condition est remplie (si le montant facture est suffisamment élevé). Vous pouvez définir des conditions pour les remises facture en devise société pour les clients nationaux et en devise pour les clients étrangers.  
 
-Vous liez les pourcentages de remise à des montants de facture spécifiques dans les fenêtres **Remises facture client**. Vous pouvez entrer le nombre de pourcentages de votre choix dans chaque fenêtre. Chaque client peut avoir sa propre fenêtre, ou vous pouvez lier plusieurs clients à la même fenêtre.  
+Vous pouvez associer les pourcentages remise à des montants de facture spécifiques sur les pages **Remises facture client**. Vous pouvez entrer le nombre de pourcentages de votre choix sur chaque page. Chaque client peut avoir sa propre page, ou vous pouvez lier plusieurs clients à la même page.  
 
 En plus du pourcentage de remise (ou à sa place), vous pouvez lier un montant de frais forfaitaires au montant d'une facture.  
 
 > [!TIP]  
->  Avant de saisir ces informations dans le programme, il est conseillé de préparer la structure de la remise que vous souhaitez utiliser. Ainsi, vous pouvez visualiser plus facilement les clients pouvant être liés à la même fenêtre de remise facture. Plus le nombre de fenêtres à configurer est faible, plus vous pouvez saisir rapidement les informations de base.  
+>  Avant de saisir ces informations dans le programme, il est conseillé de préparer la structure de la remise que vous souhaitez utiliser. Ainsi, vous pouvez visualiser plus facilement les clients pouvant être liés à la même page de remise facture. Plus le nombre de pages à configurer est faible, plus vous pouvez saisir rapidement les informations de base.  
 
 ## <a name="best-price-calculation"></a>Calcul du meilleur prix
 Lorsque vous avez enregistré des prix spéciaux et des remises de ligne pour les ventes et les achats, [!INCLUDE[d365fin](includes/d365fin_md.md)] s'assure que votre marge pour l'article est toujours optimale en calculant automatiquement le meilleur prix dans les documents achat et vente, sur le projet et les lignes feuille article.
@@ -114,17 +114,17 @@ Le meilleur prix est le prix le plus bas autorisé associé à la remise de lign
 Si aucun prix spécial ne peut être calculé pour l'article de la ligne, alors soit le coût unitaire direct, soit le prix unitaire à partir de la fiche article est inséré.
 
 ## <a name="to-copy-sales-prices"></a>Pour copier des prix de vente  
-Pour copier des prix de vente, comme les prix appliqués à un client et qui doivent être appliqués à tout un groupe de clients, vous devez lancer le traitement par lots **Suggérer prix vente**. traitement par lots . Ce traitement est accessible dans la fenêtre **Feuille prix vente**.    
+Pour copier des prix de vente, comme les prix appliqués à un client et qui doivent être appliqués à tout un groupe de clients, vous devez lancer le traitement par lots **Suggérer prix vente**. traitement par lots . Ce traitement est accessible sur la page **Feuille prix vente**.    
 
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille prix vente**, puis sélectionnez le lien associé.  
 2.  Sélectionnez l'action **Suggérer prix vente** .  
 3.  Sur le raccourci **Prix vente**, renseignez les champs **Type vente** et **Code vente** avec les prix de vente d'origine à copier.  
-4.  Dans la partie supérieure du formulaire de sélection, indiquez dans les champs **Type vente** et **Code vente** le type et le nom sous lesquels vous souhaitez copier les prix de vente.  
+4.  Dans la partie supérieure de la page de demande, indiquez dans les champs **Type vente** et **Code vente** le type et le nom sous lesquels vous souhaitez copier les prix de vente.  
 5.  Pour que le traitement par lots crée des prix, sélectionnez le champ **Créer nouveaux prix**.  
-6.  Cliquez sur le bouton **OK** pour renseigner les lignes dans la fenêtre **Feuille prix vente** avec les nouveaux prix proposés, en précisant qu'ils sont applicables au **type ventes** sélectionné.  
+6.  Choisissez le bouton **OK** pour renseigner les lignes de la page **Feuille prix vente** avec les nouveaux prix proposés, en précisant qu'ils sont applicables au **type ventes** sélectionné.  
 
 > [!NOTE]  
->  Ce traitement par lots crée uniquement des propositions ; il n'effectue pas les modifications proposées. Si les propositions vous conviennent et que vous souhaitez les appliquer, c'est-à-dire les insérer dans la table **Prix vente**, vous pouvez utiliser le traitement par lots **Implémenter nouveaux prix**, accessible via l'onglet **Actions**, dans le groupe **Fonctions**, dans la fenêtre **Feuille prix vente**.
+>  Ce traitement par lots crée uniquement des propositions ; il n'effectue pas les modifications proposées. Si les propositions vous conviennent et que vous souhaitez les appliquer, c'est-à-dire les insérer dans la table **Prix vente**, vous pouvez utiliser le traitement par lots **Implémenter nouveaux prix**, accessible via l'onglet **Actions**, dans le groupe **Fonctions**, sur la page **Feuille prix vente**.
 
 ## <a name="see-also"></a>Voir aussi
 [Définition des ventes](sales-setup-sales.md)  

@@ -12,14 +12,14 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 5bede56db06b7bac991f3f910c11e1dae61c7463
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9eb056bc98298a31833d205862d2d9bfeba04218
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-email-manually-or-using-the-assisted-setup"></a>Paramétrer la messagerie manuellement ou à l'aide de la configuration assistée
-Pour recevoir et envoyer des e-mails dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous devez renseigner les champs de la fenêtre **Paramétrage courrier SMTP**.
+Pour recevoir et envoyer des e-mails dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous devez renseigner les champs sur la page **Paramétrage courrier SMTP**.
 
 > [!NOTE]  
 >   Au lieu de saisir les détails du serveur SMTP, vous pouvez utiliser une fonction pour les saisir à l'aide des informations de votre abonnement Office 365.
@@ -31,7 +31,7 @@ Vous pouvez configurer la messagerie manuellement ou vous faire aider par la con
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Sinon, choisissez l'option **Appliquer les paramètres du serveur Office 365** pour insérer les informations déjà définies pour votre abonnement Office 365.
 4. Lorsque tous les champs sont correctement renseignés, choisissez **Tester paramétrage e-mail**.
-5. Une fois le test réussi, fermez la fenêtre.
+5. Une fois le test réussi, fermez la page.
 
 ## <a name="see-also"></a>Voir aussi  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

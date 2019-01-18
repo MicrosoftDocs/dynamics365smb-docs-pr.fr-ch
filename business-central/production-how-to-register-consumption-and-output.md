@@ -1,6 +1,6 @@
 ---
 title: Enregistrer la consommation et la production pour un ordre de fabrication | Microsoft Docs
-description: "Cette tâche d'exécution est réalisée dans la fenêtre **Feuille production** . La feuille combine en une seule feuille les fonctions des feuilles distinctes consommation et production. Vous accédez directement à la feuille combinée depuis un ordre de fabrication lancé. Son objectif principal est de valider manuellement la consommation de composants, la quantité d'articles finis produits et le temps passé dans les opérations."
+description: "Cette tâche d'exécution est réalisée sur la page **Feuille production** . La feuille combine en une seule feuille les fonctions des feuilles distinctes consommation et production. Vous accédez directement à la feuille combinée depuis un ordre de fabrication lancé. Son objectif principal est de valider manuellement la consommation de composants, la quantité d'articles finis produits et le temps passé dans les opérations."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 03c9439bde3a8e5b1c1caaeae362fcd6609f7a63
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 673f2800c3c65af3fd50e08b0d042e6812bb29f4
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Enregistrer la consommation et la production pour une ligne ordre de fabrication lancé
-Cette tâche d'exécution est réalisée dans la fenêtre **Feuille production** . La feuille combine en une seule feuille les fonctions des feuilles distinctes consommation et production. Vous accédez directement à la feuille combinée depuis un ordre de fabrication lancé. Son objectif principal est de valider manuellement la consommation de composants, la quantité d'articles finis produits et le temps passé dans les opérations. Les valeurs sont validées en comptabilité sous l'ordre de fabrication lancé. Les quantités consommées sont validées comme écritures comptables article négatives, les quantités produites sont validées comme écritures comptables article positives et les heures sont validées comme écritures comptables capacité. Ces valeurs validées peuvent également être visualisées au bas de la feuille sous forme de quantités réelles.  
+Cette tâche d'exécution est réalisée sur la page **Feuille production** . La feuille combine en une seule feuille les fonctions des feuilles distinctes consommation et production. Vous accédez directement à la feuille combinée depuis un ordre de fabrication lancé. Son objectif principal est de valider manuellement la consommation de composants, la quantité d'articles finis produits et le temps passé dans les opérations. Les valeurs sont validées en comptabilité sous l'ordre de fabrication lancé. Les quantités consommées sont validées comme écritures comptables article négatives, les quantités produites sont validées comme écritures comptables article positives et les heures sont validées comme écritures comptables capacité. Ces valeurs validées peuvent également être visualisées au bas de la feuille sous forme de quantités réelles.  
 
 > [!NOTE]  
 >  Parce que les données relatives à la consommation sont traitées avec celles relatives à la production, cette feuille permet d'afficher les opérations et les composants liés dans une structure opératoire logique. les composants sont indentés sous l'opération à laquelle ils correspondent. Vous devrez pour cela utiliser des codes lien gamme.  
@@ -32,7 +32,7 @@ Cette tâche d'exécution est réalisée dans la fenêtre **Feuille production**
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **O.F. lancés**, puis sélectionnez le lien associé.  
 2.  Ouvrez une ligne d'O.F. lancé qui est prête à être enregistrée, puis sur le raccourci **Lignes**, choisissez l'action **Ligne**, puis l'action **Feuille production**.  
 
-    La fenêtre **Feuille production** s'ouvre et affiche les lignes feuille pour la ligne O.F. en fonction de les fenêtres **Composant O.F.** et **Gamme O.F.** Ces lignes proviennent de la nomenclature de production et de la gamme affectées à l'article en cours de production. Pour plus d'informations, voir [Créer des nomenclatures de production](production-how-to-create-routings.md).  
+    La page **Feuille production** s'ouvre et affiche les lignes feuille pour la ligne O.F. en fonction des pages **Composant O.F.** et **Gamme O.F.** Ces lignes proviennent de la nomenclature de production et de la gamme affectées à l'article en cours de production. Pour plus d'informations, voir [Créer des nomenclatures de production](production-how-to-create-routings.md).  
 
 3.  Dans le champ **Date comptabilisation** situé en haut de la feuille, vous pouvez entrer une date comptabilisation à appliquer à toutes les lignes. Par défaut, ce champ affiche la date de travail. Il permet d'aligner rapidement les dates comptabilisation de toutes les lignes, si nécessaire.  
 
@@ -45,7 +45,7 @@ Cette tâche d'exécution est réalisée dans la fenêtre **Feuille production**
 
     À l'ouverture de la feuille, celle-ci comporte les quantités à valider. Si aucune donnée n'a été validée jusque-là, tous les champs de quantité affichent par défaut les quantités prévues issues de l'O.F. Si des validations partielles ont eu lieu, les champs de quantité des lignes affichent les quantités restantes. Les quantités et délais déjà validés pour la commande apparaissent au bas de la feuille en tant qu'entrées réelles.  
 
-    Vous pouvez définir les quantités devant figurer dans le champ **Quantité produite** lors de la première ouverture de la feuille. Pour ce faire, utilisez le champ **Quantité produite prédéfinie** du raccourci **Général** de la fenêtre **Paramètres production**.
+    Vous pouvez définir les quantités devant figurer dans le champ **Quantité produite** lors de la première ouverture de la feuille. Pour ce faire, utilisez le champ **Quantité produite prédéfinie** du raccourci **Général** de la page **Paramètres production**.
 
 5.  Entrez maintenant les quantités de consommation et production appropriées dans les champs modifiables.  
 
@@ -58,13 +58,13 @@ Cette tâche d'exécution est réalisée dans la fenêtre **Feuille production**
 S'il reste des valeurs à valider, la feuille les indiquera la prochaine fois que vous l'ouvrirez. Les valeurs validées sont affichées sous forme de valeurs réelles au bas de la feuille.  
 
 > [!NOTE]  
->  Si un article consommé est bloqué, la feuille ne valide pas les quantités produites correspondantes. Si un poste ou un centre de charge est bloqué, la feuille ne valide ni les quantités produites ni les temps opératoires de la ligne de sortie considérée.  
+>   si un article consommé est bloqué, la feuille ne valide pas les quantités produites correspondantes. Si un poste ou un centre de charge est bloqué, la feuille ne valide ni les quantités produites ni les temps opératoires de la ligne de sortie considérée.  
 
 > [!NOTE]  
 >  si vous fermez la feuille sans la valider, les modifications apportées seront perdues.  
 
 > [!WARNING]  
->  La fenêtre **Feuille production** ne peut pas être utilisée par deux utilisateurs simultanément. Cela signifie que si l'utilisateur 2 ouvre la fenêtre et entre des données alors que l'utilisateur 1 travaille déjà dans la fenêtre, l'utilisateur 2 peut perdre des données lorsque l'utilisateur 1 ferme la fenêtre.  
+>  La page **Feuille production** ne peut pas être utilisée par deux utilisateurs simultanément. Cela signifie que si l'utilisateur 2 ouvre la page et entre des données alors que l'utilisateur 1 travaille déjà sur la page, l'utilisateur 2 peut perdre des données lorsque l'utilisateur 1 ferme la page.  
 
 ## <a name="see-also"></a>Voir aussi  
 [Production](production-manage-manufacturing.md)    

@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 67f4e18a8a6de3d2be4c7bbe580da1091f75e82b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f75dab84229aa08c35eddf057805003b69124481
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -36,14 +36,14 @@ Vous aurez souvent besoin de consulter la liste des commandes service ou des dev
 6. Pour obtenir la liste des documents appartenant à un certain contrat, client ou zone, renseignez le champ **Filtre contrat/Filtre client/Filtre zone** puis appuyez sur **Entrée**.  
 7. Cliquez sur une ligne qui correspond à une commande service ou le devis service, puis sélectionnez l'action **Afficher document**.  
 
-    La fenêtre **Commande service** ou **Devis service** s'ouvre et vous pouvez utiliser le document. Pour revenir à la fenêtre **Tableau d'affectation**, choisissez **OK**.
+    La page **Commande service** ou **Devis service** s'ouvre et vous pouvez utiliser le document. Pour revenir à la page **Tableau d'affectation**, choisissez **OK**.
 
 ## <a name="to-allocate-a-resource-using-resource-or-resource-group-availability"></a>Pour affecter une ressource à l'aide de la disponibilité ressource ou groupe ressources    
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Tableau d'affectation**, et choisissez le lien associé.  
 2. Choisissez la commande service, puis sélectionnez l'action **Affectations ressources**.  
 3. Choisissez l'écriture comportant la tâche service à laquelle vous souhaitez affecter une ressource.  
 4. Choisissez **Disponibilité ressource** ou l'action **Disponibilité groupe ressources**.  
-5. Dans la fenêtre **Disponibilité ressource serv.**, choisissez **Afficher matrice**.  
+5. Sur la page **Disponibilité ressource serv.**, choisissez **Afficher matrice**.  
 6. Choisissez une ressource à affecter. Votre sélection peut varier en fonction de la qualification de la ressource pour la tâche, si elle se trouve dans la zone client et/ou si elle a été choisie par le client.  
 7. Spécifiez une date à laquelle la ressource dispose de suffisamment d'heures disponibles pour la tâche, cette date doit être proche de la date de réponse de la commande service.  
 8. Dans le champ **Qté à affecter**, saisissez le nombre d'heures pendant lesquelles vous souhaitez affecter la ressource à la tâche service.  
@@ -63,7 +63,7 @@ Après avoir créé et renseigné une commande service ou un devis service, vous
 2. Cliquez sur la commande service, puis choisissez **Modifier**.  
 3. Choisissez la ligne article de service correspondant à la tâche service à laquelle vous souhaitez affecter une ressource.  
 4. Choisissez **Affectations ressources**.
-5. Dans la fenêtre **Affectations ressources**, choisissez une écriture affectation non active avec la tâche service à laquelle vous souhaitez affecter la ressource. Si l'écriture affectation non active n'existe pas, vous pouvez en créer une en choisissant **Nouveau**.  
+5. Sur la page **Affectations ressources**, choisissez une écriture affectation non active avec la tâche service à laquelle vous souhaitez affecter la ressource. Si l'écriture affectation non active n'existe pas, vous pouvez en créer une en choisissant **Nouveau**.  
 7. Spécifiez la tâche service en renseignant le champ **N° article de service** de la ligne.  
 8. Dans le champ **N° de ressource**, choisissez la ressource. Si la ressource appartient à un groupe ressources, le numéro du groupe ressources est inséré automatiquement dans le champ **N° groupe ressources**. .  
 9. Renseignez les champs **Date affectation** et **Heures affectées**. La **statut** du champ est **Actif**. Cela signifie que la ressource est affectée à la tâche service.  
@@ -82,7 +82,7 @@ Vous pouvez réaffecter des ressources directement à partir d'une commande serv
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes service**, puis sélectionnez le lien associé.  
 2. Ouvrez la commande service.  
 3. Sélectionnez la ligne article de service correspondant à la tâche service à laquelle vous souhaitez affecter une ressource.  Choisissez **Actions**, sélectionnez **Ligne**, puis **Affectations ressource**.  
-4. Dans la fenêtre **Affectations ressources**, sélectionnez une écriture affectation avec la tâche service à laquelle vous souhaitez réaffecter la ressource. Sélectionnez la ressource concernée dans le champ **N° de ressource**. Ce numéro remplace le numéro ressource qui figurait dans le champ.  
+4. Sur la page **Affectations ressources**, sélectionnez une écriture affectation avec la tâche service à laquelle vous souhaitez réaffecter la ressource. Sélectionnez la ressource concernée dans le champ **N° de ressource**. Ce numéro remplace le numéro ressource qui figurait dans le champ.  
 5. Appuyez sur la touche Enter. La boîte de dialogue qui s'ouvre vous demande de confirmer la réaffectation de cette écriture. Renseignez le champ **Code motif** si nécessaire et cliquez sur le bouton **Oui** pour confirmer la réaffectation.  
 6. Renseignez les champs **Date affectation** et **Heures affectées**. L'écriture contient maintenant la nouvelle ressource et son statut est **Actif**.
 
@@ -90,8 +90,8 @@ Vous pouvez réaffecter des ressources directement à partir d'une commande serv
 Si la ressource affectée à une tâche service ne peut pas accomplir le travail, vous devez la réaffecter. Généralement, vous réaffectez des ressources aux tâches service à l'aide du **tableau d'affectation**.  
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Tableau d'affectation**, puis choisissez le lien associé.  
-2. Dans le champ **Filtre affectation**, sélectionnez **Réaffectation nécessaire**. La fenêtre **Tableau d'affectation** affiche maintenant uniquement les commandes service comprenant des tâches service qui doivent être réaffectées.  
-3. sélectionnez la commande service concernée. Sous l'onglet **Naviguer**, dans le groupe **Planification**, choisissez **Affectations ressources**. La fenêtre **Affectations ressources** s'ouvre.  
+2. Dans le champ **Filtre affectation**, sélectionnez **Réaffectation nécessaire**. La page **Tableau d'affectation** affiche maintenant uniquement les commandes service comprenant des tâches service qui doivent être réaffectées.  
+3. sélectionnez la commande service concernée. Sous l'onglet **Naviguer**, dans le groupe **Planification**, choisissez **Affectations ressources**. La page **Affectations ressources** s'ouvre.  
 4. Sélectionnez l'écriture affectation comprenant la tâche service à laquelle vous souhaitez réaffecter une ressource.  
 5. Sélectionnez la ressource concernée dans le champ **N° de ressource**. Ce numéro remplace le numéro ressource qui figurait dans le champ.  
 6. Appuyez sur la touche Entrée. La boîte de dialogue **Motifs des écritures de réaffection** s'ouvre, et vous êtes invité à réaffecter ou non cette écriture. Renseignez le champ **Code motif** si nécessaire et cliquez sur le bouton **Oui** pour confirmer la réaffectation.  
@@ -105,9 +105,9 @@ Si la ressource affectée à une tâche service ne peut pas accomplir le travail
     > * Si vous réaffectez une commande service issue d'un devis, le statut des écritures affectation enregistrées pour le devis passe toujours à **Terminé** lorsque vous réaffectez les articles de service de la commande service.  
 
 ## <a name="to-register-resource-hours"></a>Pour enregistrer les heures ressource  
-Lorsque vous utilisez des articles de service de commandes service, vous devez enregistrer les heures ressource utilisées pour le service. La procédure suivante vous explique comment enregistrer les heures ressource dans la fenêtre **Feuille activité article de service**.  
+Lorsque vous utilisez des articles de service de commandes service, vous devez enregistrer les heures ressource utilisées pour le service. La procédure suivante vous explique comment enregistrer les heures ressource sur la page **Feuille activité article de service**.  
 
-Vous pouvez utiliser la même procédure pour enregistrer les heures dans la fenêtre **Lignes service** que vous pouvez ouvrir dans la fenêtre Commande de service. Ouvrez la fiche service appropriée et choisissez **Actions**, **Commande**, puis **Lignes service**.  
+Vous pouvez utiliser la même procédure pour enregistrer les heures sur la page **Lignes service** que vous pouvez ouvrir sur la page Commande de service. Ouvrez la fiche service appropriée et choisissez **Actions**, **Commande**, puis **Lignes service**.  
 
 Si la même ressource travaille sur tous les articles de service de la commande service, vous pouvez enregistrer le nombre total d'heures ressource pour un seul article de service, puis vous pouvez répartir les lignes ressource pour affecter les heures ressource aux autres articles de service.
 
@@ -118,11 +118,11 @@ Si la même ressource travaille sur tous les articles de service de la commande 
 ## <a name="to-assign-a-resource-to-all-service-items-in-an-order"></a>Pour affecter une ressource à tous les articles de service d'une commande
 Si la même ressource, par exemple, un technicien, travaille sur tous les articles de service de la commande service, vous pouvez enregistrer le nombre total d'heures ressource pour un seul article de service et répartir la ligne ressource pour diviser les heures ressource sur les lignes ressource des autres articles de service.  
 
-La procédure suivante explique comment répartir des lignes ressource dans la fenêtre **Lignes facture service**.  
+La procédure suivante explique comment répartir des lignes ressource sur la page **Lignes facture service**.  
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes service**, puis sélectionnez le lien associé.  
 2. Ouvrez la commande service.  
-3. Sur le raccourci **Lignes**, sélectionnez **Actions**, **Commande**, puis **Lignes service**. La fenêtre **Lignes de service** s'ouvre.  
+3. Sur le raccourci **Lignes**, sélectionnez **Actions**, **Commande**, puis **Lignes service**. La page **Lignes de service** s'ouvre.  
 4. sélectionnez la ligne ressource à répartir. La valeur du champ **Quantité** est répartie entre tous les articles de service de la commande.  
 5. Sous l'onglet **Actions**, choisissez l'action **Répartir ligne ressource**. Choisissez **Oui** pour confirmer.  
 

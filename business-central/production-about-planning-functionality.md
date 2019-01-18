@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d16e9405cea366e11ee6319b06052fe0a2b76676
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c6f298a12cda4e06aeaa28eb3143b7a22ff12d10
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="about-planning-functionality"></a>À propos de la fonctionnalité Planification
@@ -73,7 +73,7 @@ Les les modificateurs d'ordre suivants existent pour l'article ou la fiche point
 -   Qté maximum commande  
 -   Commandé par  
 
-Les champs de paramètres de planning figurant dans la fenêtre **Paramètres production** sont les suivants :  
+Les champs de paramètres de planning figurant sur la page **Paramètres production** sont les suivants :  
 
 -   Code plus bas niv. dyn.  
 -   Prévision de la demande actuelle  
@@ -94,8 +94,8 @@ Dans la plupart des commandes approvisionnement, comme les ordres de fabrication
 Cela spécifie si l'approvisionnement représenté par la ligne O.F. est pris en compte par le système de planification lors du calcul des messages d'action.
 Si le champ affiche l'option **Illimitée**, le système de planification inclut la ligne lors du calcul des messages d'action. S'il est paramétré sur **Aucune**, la ligne est ferme et définitive, et le système de planification n'inclut pas la ligne dans le calcul des messages d'action.
 
-### <a name="warning"></a>Alerte
-Le champ d'informations **Alerte** dans la fenêtre **Feuille planning** vous informe lorsqu'une ligne planning est créée pour une situation inhabituelle avec un texte. L'utilisateur peut cliquer sur ce texte pour lire des informations supplémentaires. Les types d'alerte suivants existent :
+### <a name="warning"></a>Avertissement
+Le champ d'informations **Alerte** sur la page **Feuille planning** vous informe lorsqu'une ligne planning est créée pour une situation inhabituelle avec un texte. L'utilisateur peut cliquer sur ce texte pour lire des informations supplémentaires. Les types d'alerte suivants existent :
 
 - Urgence
 - Exception

@@ -11,10 +11,10 @@ ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 4696fa95b82a0deb0ba9642ef796160f25a57afc
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3dfc2d9edbb72de196238748ab90ce8dd4990adb
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="collect-outstanding-balances"></a>Collecte des soldes restants
@@ -23,7 +23,7 @@ La gestion des clients comprend le contrôle du règlement des montants à temps
 Vous pouvez utiliser des relances pour rappeler aux clients les soldes échus. Vous pouvez également utiliser les relances pour calculer les intérêts de retard tels que les intérêts ou les frais et les inclure dans la relance. Utilisez les factures d'intérêts pour débiter des clients d'intérêts ou de frais sans leur rappeler les montants échus.
 
 ## <a name="reminders"></a>Relances
-Avant de pouvoir créer des relances, vous devez configurer des conditions relance et les affecter à vos clients. Chaque code condition relance prédéfinit des niveaux de relance. Chaque niveau de relance inclut des règles relatives à l'émission de la relance, par exemple, le nombre de jours après l'échéance de la facture ou la date de la relance précédente après lequel elle doit être émise. Le contenu de la fenêtre **Conditions intérêts de retard** détermine si les intérêts sont calculés dans la relance.  
+Avant de pouvoir créer des relances, vous devez configurer des conditions relance et les affecter à vos clients. Chaque code condition relance prédéfinit des niveaux de relance. Chaque niveau de relance inclut des règles relatives à l'émission de la relance, par exemple, le nombre de jours après l'échéance de la facture ou la date de la relance précédente après lequel elle doit être émise. Le contenu de la page **Conditions intérêts de retard** détermine si les intérêts sont calculés dans la relance.  
 
 Vous pouvez exécuter périodiquement le traitement par lots **Création de relances** afin de créer des relances pour tous les clients ayant des soldes échus. Vous pouvez également créer manuellement une relance pour un client spécifique et demander à ce que les lignes soient calculées et renseignées automatiquement.  
 
@@ -46,7 +46,7 @@ Une fois que vous avez créé les factures d'intérêts, vous pouvez les modifie
 Une fois que vous avez créé des factures d'intérêts et effectué toutes les modifications requises, vous pouvez effectuer des impressions test ou émettre des factures d'intérêts; en général par e-mail.
 
 ## <a name="multiple-interest-rates"></a>Taux d'intérêt multiples
-Lorsque vous configurez des conditions d'intérêts de retard et les conditions de relance, pour la pénalité de retard de paiement, vous pouvez spécifier plusieurs taux d'intérêt afin que les frais de pénalité soient calculés sur la base de plusieurs taux d'intérêt à différentes périodes. Si les taux d'intérêt multiples ne sont pas créés, le taux d'intérêt et la période définie dans les fenêtres **Conditions intérêts de retard** et **Conditions de relance** pour l'ensemble de la période de calcul seront utilisés. Pour plus d'informations, reportez vous à [Paramétrer plusieurs taux d'intérêt](finance-how-to-set-up-multiple-interest-rates.md).  
+Lorsque vous configurez des conditions d'intérêts de retard et les conditions de relance, pour la pénalité de retard de paiement, vous pouvez spécifier plusieurs taux d'intérêt afin que les frais de pénalité soient calculés sur la base de plusieurs taux d'intérêt à différentes périodes. Si les taux d'intérêt multiples ne sont pas créés, le taux d'intérêt et la période définie sur les pages **Conditions intérêts de retard** et **Conditions de relance** pour l'ensemble de la période de calcul seront utilisés. Pour plus d'informations, reportez vous à [Paramétrer plusieurs taux d'intérêt](finance-how-to-set-up-multiple-interest-rates.md).  
 
 ## <a name="to-send-the-customer-statement-report"></a>Pour envoyer l’état du relevé client
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Relevé client**, puis sélectionnez le lien associé.
@@ -69,19 +69,19 @@ La première fois qu'une relance est créée pour un client, le paramétrage uti
 Si vous créez plus de relances qu'il n'y a de niveaux relance, les conditions utilisées seront celles du niveau le plus élevé. Vous pouvez utiliser autant de relances que le champ **Nombre max. de relances** des conditions relance le permet.
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Conditions de relance**, puis sélectionnez le lien associé.  
-2. Dans la fenêtre **Conditions de relance**, cliquez sur la ligne comportant les conditions pour lesquelles configurer des niveaux, puis cliquez sur l'action **Niveaux**.  
+2. Sur la page **Conditions de relance**, cliquez sur la ligne comportant les conditions pour lesquelles configurer des niveaux, puis cliquez sur l'action **Niveaux**.  
 3. Renseignez les champs selon vos besoins.  
 
-    Pour chaque niveau de relance, vous pouvez spécifier des conditions particulières, qui peuvent inclure des frais supplémentaires en devise société (DS) et en devise étrangère. Vous pouvez définir plusieurs frais supplémentaires en devise étrangère pour chaque code de la fenêtre **Niveaux relance**.
+    Pour chaque niveau de relance, vous pouvez spécifier des conditions particulières, qui peuvent inclure des frais supplémentaires en devise société (DS) et en devise étrangère. Vous pouvez créer plusieurs frais supplémentaires en devise pour chaque code de la page **Niveaux relance**.
 4. Sélectionnez l'action **Devises**.
-5. Dans la fenêtre **Devises niveau relance**, définissez un code de niveau pour chaque relance et le numéro du niveau de rappel correspondant, une devise et des frais supplémentaires.
+5. Sur la page **Devises niveau relance**, définissez un code de niveau pour chaque relance et le numéro du niveau de rappel correspondant, une devise et des frais supplémentaires.
 
     > [!NOTE]  
-    > Lorsque vous créez une relance en devise, les conditions devise définies ici permettront de créer des relances. Si aucune condition devise n'a été définie, les conditions devise société définies dans la fenêtre **Niveaux relance** seront utilisées et converties dans la devise appropriée.
+    > Lorsque vous créez une relance en devise, les conditions devise définies ici permettront de créer des relances. Si aucune condition devise n'a été définie, les conditions devise société définies sur la page **Niveaux relance** seront utilisées et converties dans la devise appropriée.
 
     Pour chaque niveau relance, vous pouvez indiquer le texte à imprimer avant (**Texte début**) ou après (**Texte fin**) les écritures de la relance.
 
-6. Choisissez les actions **Texte de début** ou **Texte de fin** respectivement, puis renseignez la fenêtre **Texte relance**.
+6. Choisissez les actions **Texte de début** ou **Texte de fin** respectivement, puis renseignez la page **Texte relance**.
 7. Pour insérer automatiquement des valeurs correspondantes dans le texte de relance résultant, entrez les espaces réservés suivants dans le champ **Texte**.  
 
 |Paramètre substituable|Valeur|  
@@ -110,12 +110,12 @@ Si vous avez configuré les conditions relance (avec des niveaux et du texte sup
 Une relance est identique à une facture. Lorsque vous créez une relance, un en-tête relance, ainsi qu'une ou plusieurs lignes relance, doivent être renseignés. Vous pouvez utiliser une fonction pour créer des relances pour tous les clients automatiquement.
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Relances**, puis sélectionnez le lien associé.
-2. Dans la fenêtre **Relance**, cliquez sur l'action **Créer relance**.
-3. Dans la fenêtre **Créer relances**, renseignez les champs pour définir comment et pour qui les relances sont créées.
-4. Cliquez sur le bouton **OK**.
+2. Sur la page **Relance**, cliquez sur l'action **Créer relance**.
+3. Sur la page **Créer relances**, renseignez les champs pour définir comment et pour qui les relances sont créées.
+4. Choisissez le bouton **OK**.
 
 ## <a name="to-create-a-reminder-manually"></a>Pour créer une relance manuellement
-Dans la fenêtre **Relance**, vous pouvez renseigner le raccourci **Général** manuellement et ensuite renseigner les lignes automatiquement.
+Sur la page **Relance**, vous pouvez renseigner le raccourci **Général** manuellement et ensuite renseigner les lignes automatiquement.
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Relances**, puis sélectionnez le lien associé.
 2. Sélectionnez l'action **Nouveau**.
@@ -134,21 +134,21 @@ Vous pouvez déterminer de plusieurs manières le texte devant figurer sur la re
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Relances**, puis sélectionnez le lien associé.
 2. Ouvrez la relance appropriée, puis cliquez sur l'action **Mettre à jour texte relance**.
-3. Dans la fenêtre **Mettre à jour texte relance**, entrez le niveau requis dans le champ **Niveau relance**.
+3. Sur la page **Mettre à jour texte relance**, entrez le niveau requis dans le champ **Niveau relance**.
 3. Cliquez sur le bouton **OK** pour que le programme mette à jour les textes début et fin.
 
 ## <a name="to-issue-a-reminder"></a>Pour émettre une relance
 Après avoir créé les relances et effectué toutes les modifications souhaitées, vous pouvez lancer les impressions test ou émettre les relances.
 
-Lorsque vous émettez une relance, les données sont transférées dans une fenêtre séparée pour les relances émises. Les écritures relance sont simultanément validées. Si des intérêts ou des frais supplémentaires ont été calculés, les écritures sont validées dans les écritures client et dans la comptabilité.
+Lorsque vous émettez une relance, les données sont transférées dans une page séparée pour les relances émises. Les écritures relance sont simultanément validées. Si des intérêts ou des frais supplémentaires ont été calculés, les écritures sont validées dans les écritures client et dans la comptabilité.
 
-Lorsqu'une relance est émise, les écritures sont validées selon les spécifications de la fenêtre **Conditions de relance**. Cette spécification détermine si les intérêts et les frais supplémentaires sont validés sur le compte client et dans la comptabilité. La configuration dans la fenêtre **Groupes compta. client** détermine les comptes qui seront utilisés.
+Lorsqu'une relance est émise, les écritures sont validées selon les spécifications de la page **Conditions de relance**. Cette spécification détermine si les intérêts et les frais supplémentaires sont validés sur le compte client et dans la comptabilité. La configuration sur la page **Groupes compta. client** détermine les comptes qui seront utilisés.
 
-Pour chaque écriture comptable client de la facture d'intérêts, une écriture est créée dans la fenêtre **Ecr. relance/fact. intérêts**.
+Pour chaque écriture comptable client de la facture d'intérêts, une écriture est créée sur la page **Ecr. relance/fact. intérêts**.
 
-Si les cases à cocher **Comptabiliser intérêts** ou le champ **Compta. frais supplémentaires** de la table **Conditions de relance** sont activées, les écritures suivantes sont aussi créées :
+Si les cases à cocher **Comptabiliser intérêts** ou le champ **Compta. frais supplémentaires** de la page **Conditions de relance** sont activées, les écritures suivantes sont aussi créées :
 
-- Une écriture dans la fenêtre **Écritures comptables client**,
+- Une écriture sur la page **Écritures comptables client**,
 - Une écriture client sur le compte général approprié,
 - Une écriture intérêts et/ou une écriture frais supplémentaires sur le compte général approprié.
 
@@ -156,7 +156,7 @@ De plus, émettre une facture d'intérêts peut créer des écritures de TVA.
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Relances**, puis sélectionnez le lien associé.
 2. Sélectionnez la relance concernée, puis cliquez sur l'action **Émission**.
-3. Dans la fenêtre **Emettre relances**, renseignez les champs selon vos besoins.
+3. Sur la page **Emettre relances**, renseignez les champs selon vos besoins.
 4. Cliquez sur le bouton **OK**.
 
 La relance est imprimée pour être envoyé à un e-mail spécifié en tant que document joint PDF.
@@ -182,15 +182,15 @@ En outre, chaque code de la table Conditions intérêts de retard est lié à un
 2. Renseignez les champs selon vos besoins.  
 3. Pour utiliser plusieurs combinaisons de conditions intérêts de retard, créez un code pour chacun d'eux.
 
-    Pour chaque condition intérêts de retard, vous pouvez spécifier des conditions particulières, qui peuvent inclure des frais supplémentaires en devise société (DS) et en devise étrangère. Vous pouvez définir des frais supplémentaires en devise pour chaque code de la fenêtre **Conditions intérêts de retard**.
+    Pour chaque condition intérêts de retard, vous pouvez spécifier des conditions particulières, qui peuvent inclure des frais supplémentaires en devise société (DS) et en devise étrangère. Vous pouvez définir des frais supplémentaires en devise pour chaque code sur la page **Conditions intérêts de retard**.
 4. Sélectionnez l'action **Devises**.
-5. Dans la fenêtre **Devises condition intérêts**, définissez pour chaque condition un code devise et des frais supplémentaires.
+5. Sur la page **Devises condition intérêts**, définissez pour chaque condition un code devise et des frais supplémentaires.
 
     > [!NOTE]  
-    > Lorsque vous créez des intérêts de retard en devise, les conditions intérêts devise définies ici serviront à créer des factures d'intérêts. Si aucune condition intérêts de retard en devise n'est définie, les conditions intérêts de retard en devise société définies dans la table **Conditions intérêts de retard** seront utilisées, puis converties dans la devise souhaitée.
+    > Lorsque vous créez des intérêts de retard en devise, les conditions intérêts devise définies ici serviront à créer des factures d'intérêts. Si aucune condition intérêts de retard en devise n'est définie, les conditions intérêts de retard en devise société définies sur la page **Conditions intérêts de retard** seront utilisées, puis converties dans la devise souhaitée.
 
     Pour chaque condition intérêts, vous pouvez spécifier le texte à imprimer avant (**Texte début**) ou après (**Texte fin**) les écritures de la facture d'intérêts.  
-6. Choisissez les actions **Texte de début** ou **Texte de fin** respectivement, puis renseignez la fenêtre **Texte intérêts de retard**.
+6. Choisissez les actions **Texte de début** ou **Texte de fin** respectivement, puis renseignez la page **Texte intérêts de retard**.
 7. Pour insérer automatiquement des valeurs correspondantes dans le texte facture d'intérêts résultant, entrez les espaces réservés suivants dans le champ **Texte**.
 
 |Paramètre substituable|Valeur|  
@@ -211,7 +211,7 @@ Une facture d'intérêts ressemble à une facture. Vous pouvez renseigner un en-
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Factures d'intérêts**, puis sélectionnez le lien associé.  
 2. Cliquez sur **Nouveau**, puis renseignez les champs selon vos besoins.  
 3. Sélectionnez **Proposer lignes fact. intérêts**.
-4. Dans la fenêtre **Proposer lignes facture intérêts**, définissez un filtre sur le raccourci **Écriture comptable client** si vous souhaitez créer des factures d'intérêts uniquement pour des écritures spécifiques.  
+4. Sur la page **Proposer lignes facture intérêts**, définissez un filtre sur le raccourci **Écriture comptable client** si vous souhaitez créer des factures d'intérêts uniquement pour des écritures spécifiques.  
 5.  Pour démarrer le traitement par lots, cliquez sur le bouton **OK**.  
 
 ## <a name="to-update-finance-charge-memo-texts"></a>Pour mettre à jour des textes de factures d'intérêts  
@@ -219,19 +219,19 @@ Dans certains cas, vous pouvez modifier les textes début et fin définis pour l
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Facture d'intérêts**, puis sélectionnez le lien associé.  
 2. ouvrez la facture d'intérêts dont vous souhaitez modifier le texte, puis sélectionnez **MAJ texte fact. d'intérêts**.
-3. Dans la fenêtre **MAJ texte fact. d'intérêts**, vous pouvez définir un filtre pour mettre à jour plusieurs factures d'intérêts.
+3. Sur la page **MAJ texte fact. d'intérêts**, vous pouvez définir un filtre pour mettre à jour plusieurs factures d'intérêts.
 4. Cliquez sur le bouton **OK** pour que le programme mette à jour les textes début et fin.  
 
 ## <a name="to-issue-finance-charge-memos"></a>Pour émettre des factures d'intérêts
 Une fois que vous avez créé des factures d'intérêts et effectué toutes les modifications requises, vous pouvez effectuer des impressions test ou émettre des factures d'intérêts.
 
-Lorsqu'une relance est émise, les écritures sont validées selon les spécifications de la fenêtre **Conditions intérêts de retard**. Cette spécification détermine si les intérêts et les frais supplémentaires sont validés sur le compte client et dans la comptabilité. La configuration dans la fenêtre **Groupes compta. client** détermine les comptes qui seront utilisés.
+Lorsqu'une relance est émise, les écritures sont validées selon les spécifications sur la page **Conditions intérêts de retard**. Cette spécification détermine si les intérêts et les frais supplémentaires sont validés sur le compte client et dans la comptabilité. La configuration sur la page **Groupes compta. client** détermine les comptes qui seront utilisés.
 
-Pour chaque écriture comptable client de la facture d'intérêts, une écriture est créée dans la fenêtre **Ecr. relance/fact. intérêts**.
+Pour chaque écriture comptable client de la facture d'intérêts, une écriture est créée sur la page **Ecr. relance/fact. intérêts**.
 
-Si les cases à cocher **Comptabiliser intérêts** ou le champ **Compta. frais supplémentaires** de la table **Conditions intérêts de retard** sont activées, les écritures suivantes sont aussi créées :
+Si les cases à cocher **Comptabiliser intérêts** ou le champ **Compta. frais supplémentaires** de la page **Conditions intérêts de retard** sont activées, les écritures suivantes sont aussi créées :
 
-- Une écriture dans la fenêtre **Écritures comptables client**,
+- Une écriture sur la page **Écritures comptables client**,
 - Une écriture client sur le compte général approprié,
 - Une écriture intérêts et/ou une écriture frais supplémentaires sur le compte général approprié.
 
@@ -239,16 +239,16 @@ De plus, émettre une facture d'intérêts peut créer des écritures de TVA.
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Factures d'intérêts**, puis sélectionnez le lien associé.
 2. Sélectionnez la facture concernée, puis cliquez sur l'action **Emettre**.
-3. Dans la fenêtre **Emettre factures d'intérêts**, renseignez les champs selon vos besoins.
+3. Sur la page **Emettre factures d'intérêts**, renseignez les champs selon vos besoins.
 4. Cliquez sur le bouton **OK**.
 
 La factures d'intérêts est imprimée pour être envoyé à un e-mail spécifié en tant que document joint PDF.
 
 ## <a name="to-view-reminder-and-finance-charge-entries"></a>Pour afficher les écritures relance et facture d'intérêts  
-Lorsque vous émettez une relance, une écriture relance est créée dans la fenêtre **Écr. relance/fact. intérêts** pour chaque ligne relance contenant une écriture comptable client. Vous pouvez ensuite obtenir un aperçu des écritures relance créées pour un client spécifique.    
+Lorsque vous émettez une relance, une écriture relance est créée sur la page **Écr. relance/fact. intérêts** pour chaque ligne relance contenant une écriture comptable client. Vous pouvez ensuite obtenir un aperçu des écritures relance créées pour un client spécifique.    
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Clients**, puis sélectionnez le lien associé.  
 2. Ouvrez la fiche client appropriée, puis sélectionnez l'action **Écritures comptables**.
-3. Dans la fenêtre **Écritures comptables client**, cliquez sur la ligne de l'écriture comptable pour laquelle vous souhaitez visualiser les écritures relance, puis sélectionnez l'action **Écr. relance/fact. intérêts**.
+3. Sur la page **Écritures comptables client**, cliquez sur la ligne de l'écriture comptable pour laquelle vous souhaitez visualiser les écritures relance, puis sélectionnez l'action **Écr. relance/fact. intérêts**.
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion des comptes client](receivables-manage-receivables.md)  

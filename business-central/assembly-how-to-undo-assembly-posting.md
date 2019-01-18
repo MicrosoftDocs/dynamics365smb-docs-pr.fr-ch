@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 4b9fa6fb99ec68982a2869be2085de0588d76c85
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 83545421ec7539b214788d08d4f4b33c4bdb71d7
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="undo-assembly-posting"></a>Annuler la validation d'assemblage
@@ -44,7 +44,7 @@ La procédure suivante décrit comment annuler les ordres d'assemblage validés 
 ## <a name="to-undo-posting-of-an-assembly-order"></a>Pour annuler la validation d'un ordre d'assemblage  
 1.  Pour annuler un ordre d'assemblage validé entièrement ou partiellement, choisissez l'icone ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Ordres d'assemblage validés**, puis sélectionnez le lien associé.  
 
-    La fenêtre **Ordres d'assemblage validés** s'ouvre avec un ou plusieurs ordres d'assemblage qui ont été validés à partir de l'ordre d'assemblage en question. Chaque validation partielle crée un ordre d'assemblage validé distinct.  
+    La page **Ordres d'assemblage validés** s'ouvre avec un ou plusieurs ordres d'assemblage qui ont été validés à partir de l'ordre d'assemblage en question. Chaque validation partielle crée un ordre d'assemblage validé distinct.  
 2.  Ouvrez l'ordre d'assemblage validé que vous souhaitez annuler, puis choisissez **Annuler l'assemblage**.  
 
     Si l'ordre d'assemblage validé que vous souhaitez annuler est lié à un ordre d'assemblage entièrement validé qui est maintenant supprimé, vous avez la possibilité de le recréer, généralement parce que vous voulez le retraiter.  

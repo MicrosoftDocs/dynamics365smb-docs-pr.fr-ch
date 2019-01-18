@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: dea237fa837b34e565d9df6156ae6bbfb8508ee6
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 53bf1355c9f7b1d5727e6e63f89a7d2db56cfc48
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="put-items-away-with-warehouse-put-aways"></a>Ranger des articles avec le rangement entrepôt
@@ -72,7 +72,7 @@ La priorité emplacement est prise en compte lorsque plusieurs emplacements corr
     Si le champ **Statut document** est blanc, la réception n'a pas été rangée. Sinon, le champ indique que la réception est partiellement rangée ou entièrement rangée.  
 
 4.  Si la réception est partiellement rangée ou n'est pas rangée du tout, choisissez l'action **Créer rangement**.  
-5.  Renseignez le formulaire de sélection du traitement par lots pour créer le rangement comme vous le souhaitez, puis sélectionnez le bouton **OK**.   
+5.  Renseignez la page de demande de traitement par lots pour créer le rangement comme vous le souhaitez, puis sélectionnez le bouton **OK**.   
 
 ## <a name="see-also"></a>Voir aussi  
 [Gestion d'entrepôt](warehouse-manage-warehouse.md)  

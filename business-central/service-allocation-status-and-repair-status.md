@@ -13,21 +13,21 @@ ms.search.keywords: resources, allocation, status, repairs
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 014ede5232017bb090fa6cd33816064a6c4b99b8
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 932abf3ee69f429c322fe82e150fa7a8f4aef8e8
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Statut affectation et statut réparation des articles de service
-L'état réparation des articles de service et l'état affectation des écritures affectation des articles de service sont liés dans le module Gestion des services. L'état affectation change lorsque vous modifiez l'état réparation de l'article de service en **Terminé** ou **Service en partie réalisé**, et lorsque vous convertissez un devis service en commande service. L'état réparation de l'article de service change lorsque vous annulez l'affectation de l'article de service, ou que vous réaffectez l'article à une autre ressource. Vous pouvez visualiser l'état réparation des articles de service dans la fenêtre **Tâches service** et vous pouvez mettre à jour l'état réparation dans le champ **Code état réparation** de la fenêtre **Feuille activité article de service**. Vous pouvez visualiser l'état affectation dans le champ **Statut** de la fenêtre **Affectations ressources**.  
+L'état réparation des articles de service et l'état affectation des écritures affectation des articles de service sont liés dans le module Gestion des services. L'état affectation change lorsque vous modifiez l'état réparation de l'article de service en **Terminé** ou **Service en partie réalisé**, et lorsque vous convertissez un devis service en commande service. L'état réparation de l'article de service change lorsque vous annulez l'affectation de l'article de service, ou que vous réaffectez l'article à une autre ressource. Vous pouvez visualiser l'état réparation des articles de service sur la page **Tâches service** et vous pouvez mettre à jour l'état réparation dans le champ **Code état réparation** de la page **Feuille activité article de service**. Vous pouvez visualiser l'état affectation dans le champ **Statut** de la page **Affectations ressources**.  
   
 ## <a name="changing-repair-status"></a>Modification de l'état réparation  
 Lorsque vous modifiez l'état réparation d'un article de service sur une ligne article de service, lune recherche est effectuée d' une écriture affectation équivalente pour cet article de service, présentant le statut **Actif**. Si une écriture de ce type est détectée, le statut est mis à jour de l'une des manières suivantes :  
   
 * Si vous modifiez l'état réparation en **Terminé**, l'état affectation est modifié de **Active** en **Terminée**.  
 * Si vous modifiez l'état réparation en **Service en partie réalisé**, càd une partie du service a été effectuée, ou en **Expertisé**, càd aucun service n'a été effectué, l'état affectation est transformé de **Active** en **Réaffectation nécessaire**.  
-* Lors de la création d'une écriture affectation commande service, qui indique qu'aucune ressource n'a été affectée, le champ **Statut** dans la fenêtre **Affectation ressources** passe sur **Non actif**.  
+* Lors de la création d'une écriture affectation commande service, qui indique qu'aucune ressource n'a été affectée, le champ **Statut** sur la page **Affectation ressources** passe sur **Non actif**.  
 * Le statut de l'écriture affectation est défini sur **Annulé** lorsque vous réaffectez l'article de service appelé dans l'écriture affectation commande service, ce qui indique la ressource ou le groupe de ressources affecté n'a pas tenté la tâche service.  
   
 L'état affectation indique la fin du processus de maintenance ou le besoin d'une autre ressource pour terminer la maintenance de l'article de service.  

@@ -5,16 +5,14 @@ author: bholtorf
 ms.service: dynamics365-business-central
 ms.author: bholtorf
 ms.custom: na
-ms.date: 10/01/2018
+ms.date: 11/06/2018
 ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
 ms.topic: article
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ec3efb324420956763c9db272c12c22241b86e55
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 313ebe68ae1963e22bc17d53a7c41ae8f090de60
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 
@@ -31,7 +29,7 @@ Le tableau suivant donne des exemples des types de demandes auxquelles vous pouv
 |Type requête|Description et réponse suggérée|
 |-----|-----|
 |Demandes de portabilité|Un sujet des données peut faire une demande de portabilité des données, ce qui signifie que vous devez exporter les données personnelles du sujet des données à partir de vos systèmes et les fournir dans un format couramment utilisé et structuré. Pour répondre à ces demandes, vous pouvez utiliser l'**Utilitaire de confidentialité des données** pour exporter les données personnelles vers un fichier Excel ou un package de configuration RapidStart. À l'aide d'Excel, vous pouvez modifier les données personnelles et les enregistrer dans un format couramment utilisé et lisible par machine, par exemple .csv ou .xml. Pour les packages de configuration RapidStart, vous pouvez configurer les tables de données principales et leurs tables associées contenant des données personnelles. <br><br> **Remarque :** lorsque vous exportez des données, vous spécifiez un niveau de sensibilité minimal. L'exportation inclut le niveau de sensibilité minimal et tous les niveaux de sensibilité au-dessus de celui-ci. Par exemple, si vous choisissez d'exporter des données classées comme personnelles, l'exportation inclut également les données classées comme sensibles. <br><br>Lors de l'exportation des données associées à un sujet de données, l'**Utilité de confidentialité des données** recherche des relations directes entre le sujet de données et les données qui lui sont associées. Les relations indirectes entre les données associées au sujet de données et les autres données ne sont pas exportées automatiquement par l'**Utilité de confidentialité des données**. Par exemple, la table Contact a directement associé les données Réponses profil contact, et la table Réponses profil contact est ensuite associée aux données Questions profil. Si vous souhaitez exporter également les questions de profil, vous devez ajouter manuellement cette table en tant que ligne avec les filtres appropriés dans le package de configuration créé par l'**Utilité de confidentialité des données**.|
-|Demandes de suppression|Un sujet des données peut demander la suppression de ses données personnelles. Il existe plusieurs méthodes de suppression des données personnelles à l'aide des fonctions de personnalisation, mais la décision et l'implémentation vous incombent. Dans certains cas, vous pouvez choisir de modifier directement vos données, par exemple en supprimant un contact et en exécutant le traitement par lots Supprimer l'interaction annulée pour supprimer les interactions du contact. <br><br> **Remarque :** si vous avez spécifié une date dans le champ **Autoriser suppr. doc. av.** des fenêtres **Paramètres ventes** ou **Paramètres achats**, vous devrez peut-être modifier la date afin de pouvoir supprimer les documents vente et achat validés que vous avez imprimés et dont les dates comptabilisation sont au plus tard à cette date.|
+|Demandes de suppression|Un sujet des données peut demander la suppression de ses données personnelles. Il existe plusieurs méthodes de suppression des données personnelles à l'aide des fonctions de personnalisation, mais la décision et l'implémentation vous incombent. Dans certains cas, vous pouvez choisir de modifier directement vos données, par exemple en supprimant un contact et en exécutant le traitement par lots Supprimer l'interaction annulée pour supprimer les interactions du contact. <br><br> **Remarque :** si vous avez spécifié une date dans le champ **Autoriser suppr. doc. av.** des pages **Paramètres ventes** ou **Paramètres achats**, vous devrez peut-être modifier la date afin de pouvoir supprimer les documents vente et achat validés que vous avez imprimés et dont les dates comptabilisation sont au plus tard à cette date.|
 |Demandes de correction|Un sujet des données peut demander la correction des données personnelles incorrectes. Plusieurs méthodes sont possibles. Dans certains cas, vous pouvez exporter des listes vers Excel afin de modifier en bloc plusieurs enregistrements et importer les données mises à jour. Pour plus d'informations, voir [Exportation de vos données métier vers Excel](about-export-data.md). Vous pouvez également modifier manuellement les champs contenant des données personnelles, par exemple modifier les informations sur un client dans la fiche Client. Toutefois, les enregistrements de transaction comme les écritures comptables générales, client et de taxe sont essentiels à l'intégrité du système de planification des ressources de l'entreprise. Si vous stockez des données personnelles dans les enregistrements de transaction, pensez à utiliser les fonctions de personnalisation pour modifier ces données personnelles.|
 
 ## <a name="restrict-data-processing-for-a-data-subject"></a>Restreindre le traitement des données pour un sujet des données

@@ -13,10 +13,10 @@ ms.search.keywords: posting setup, initialize
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4237bba8b7b3464242cacfcdbba954c321e5e04a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 732b69df44681d3cc63391bc87c0645ed7e5e1a5
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="setting-up-posting-groups"></a>Configuration de groupes comptabilisation
@@ -32,21 +32,21 @@ Les tables suivantes décrivent les groupes comptabilisation dans chaque catégo
 
 | Groupes comptabilisation généraux | Désignation |
 | --- | --- |
-| Groupes comptabilisation marché |Affectez ce groupe aux clients et aux fournisseurs pour spécifier à qui vous vendez, et à qui vous achetez. Définissez cela dans la fenêtre **Groupes compta. marché**. Lorsque vous effectuez cette opération, vous devez prendre en compte le nombre de groupes nécessaires pour répartir les ventes et les achats. Par exemple, les groupes clients et fournisseurs peuvent être répartis par zone géographique ou par type d'activité. |
-| Groupes comptabilisation produit |Affectez ce groupe à des articles et des ressources pour spécifier les éléments que vous vendez, et que vous achetez. Définissez cela dans la fenêtre **Groupes compta. produit**. Lorsque vous effectuez cette opération, vous devez considérer le nombre de groupes nécessaires pour répartir les ventes par article et ressource, et pour répartir les achats par article. Par exemple, divisez ces groupes par Matières premières, Vte détail, Ressources, Capacités, etc. |
-| Paramètres comptabilisation |Combinez les groupes comptabilisation marché et produit, puis choisissez les comptes à valider. Pour chaque combinaison de groupes comptabilisation marché et produit, vous pouvez affecter un ensemble de comptes généraux. Par exemple, vous pouvez valider la vente d'un même article dans différents comptes ventes de la comptabilité car différents groupes comptabilisation marché sont affectés aux clients. Définissez cela dans la fenêtre **Paramètres comptabilisation**. |
+| Groupes comptabilisation marché |Affectez ce groupe aux clients et aux fournisseurs pour spécifier à qui vous vendez, et à qui vous achetez. Définissez cela sur la page **Groupes compta. marché**. Lorsque vous effectuez cette opération, vous devez prendre en compte le nombre de groupes nécessaires pour répartir les ventes et les achats. Par exemple, les groupes clients et fournisseurs peuvent être répartis par zone géographique ou par type d'activité. |
+| Groupes comptabilisation produit |Affectez ce groupe à des articles et des ressources pour spécifier les éléments que vous vendez, et que vous achetez. Définissez cela sur la page **Groupes compta. produit**. Lorsque vous effectuez cette opération, vous devez considérer le nombre de groupes nécessaires pour répartir les ventes par article et ressource, et pour répartir les achats par article. Par exemple, divisez ces groupes par Matières premières, Vte détail, Ressources, Capacités, etc. |
+| Paramètres comptabilisation |Combinez les groupes comptabilisation marché et produit, puis choisissez les comptes à valider. Pour chaque combinaison de groupes comptabilisation marché et produit, vous pouvez affecter un ensemble de comptes généraux. Par exemple, vous pouvez valider la vente d'un même article dans différents comptes ventes de la comptabilité car différents groupes comptabilisation marché sont affectés aux clients. Définissez cela sur la page **Paramètres comptabilisation**. |
 
 | Groupes comptabilisation spécifiques | Désignation |
 | --- | --- |
-| Groupes compta. client |Définissez les comptes à utiliser lorsque vous validez des transactions Comptabilité client. Si vous utilisez un stock conjointement avec des clients, le groupe comptabilisation marché affecté au client et le groupe comptabilisation produit affecté à l'article en stock déterminent les comptes dans lesquels les écritures lignes commande vente valident. Définissez cela dans la fenêtre **Groupes compta. client**. |
-| Groupes compta. fournisseur |Définissez où valider les transactions des comptes fournisseur, des comptes frais forfaitaires, et des comptes d'escompte. Cela est similaire aux groupes comptabilisation client. Définissez cela dans la fenêtre **Groupes compta. fournisseur**. |
-| Groupes compta. stock |Définissez les comptes stock de bilan. Ils offrent également un bon moyen d'organiser vos stocks, vous pouvez ainsi séparer des articles par groupe comptabilisation lors de la génération d'états. Définissez cela dans la fenêtre **Groupes compta. stock**. |
-| Groupes compta. banque |Définissez des comptes bancaires. Par exemple, cela peut simplifier les processus de traçabilité des transactions et des rapprochements bancaires. Définissez cela dans la fenêtre **Groupes compta. banque**. |
-| Groupes comptabilisation immobilisations |Définissez des comptes pour les différents types de dépenses et frais, tels que les coûts d'acquisition, les montants d'amortissement cumulés, les coûts d'acquisition sur cession, l'amortissement cumulé sur cession, les gains sur cession, les pertes sur cession, les frais de maintenance et les frais d'amortissement. Définissez cela dans la fenêtre **Groupes compta. immo.**. |
+| Groupes compta. client |Définissez les comptes à utiliser lorsque vous validez des transactions Comptabilité client. Si vous utilisez un stock conjointement avec des clients, le groupe comptabilisation marché affecté au client et le groupe comptabilisation produit affecté à l'article en stock déterminent les comptes dans lesquels les écritures lignes commande vente valident. Définissez cela sur la page **Groupes compta. client**. |
+| Groupes compta. fournisseur |Définissez où valider les transactions des comptes fournisseur, des comptes frais forfaitaires, et des comptes d'escompte. Cela est similaire aux groupes comptabilisation client. Définissez cela sur la page **Groupes compta. fournisseur**. |
+| Groupes compta. stock |Définissez les comptes stock de bilan. Ils offrent également un bon moyen d'organiser vos stocks, vous pouvez ainsi séparer des articles par groupe comptabilisation lors de la génération d'états. Définissez cela sur la page **Groupes compta. stock**. |
+| Groupes compta. banque |Définissez des comptes bancaires. Par exemple, cela peut simplifier les processus de traçabilité des transactions et des rapprochements bancaires. Définissez cela sur la page **Groupes compta. banque**. |
+| Groupes comptabilisation immobilisations |Définissez des comptes pour les différents types de dépenses et frais, tels que les coûts d'acquisition, les montants d'amortissement cumulés, les coûts d'acquisition sur cession, l'amortissement cumulé sur cession, les gains sur cession, les pertes sur cession, les frais de maintenance et les frais d'amortissement. Définissez cela sur la page **Groupes compta. immo.** |
 
 | Groupe compta. TVA | Désignation |
 | --- | --- |
-| Groupes compta. marché TVA |Déterminez la manière de calculer et de valider la taxe de vente pour les clients et les fournisseurs. Définissez cela dans la fenêtre **Groupes compta. marché TVA**. Lorsque vous le faites, pensez au nombre de groupes dont vous avez besoin. De nombreux facteurs peuvent entrer en jeu, notamment la législation locale, et le fait de travailler sur le marché national et international. |
+| Groupes compta. marché TVA |Déterminez la manière de calculer et de valider la taxe de vente pour les clients et les fournisseurs. Définissez cela sur la page **Groupes compta. marché TVA**. Lorsque vous le faites, pensez au nombre de groupes dont vous avez besoin. De nombreux facteurs peuvent entrer en jeu, notamment la législation locale, et le fait de travailler sur le marché national et international. |
 | Groupes compta. produit TVA |Indiquez les calculs TVA nécessaires pour les types d'articles ou de ressources que vous achetez ou vendez. |
 | Paramètres compta. TVA |Combinez des groupes compta. marché et des groupes compta. produit TVA. Lorsque vous renseignez une ligne dans une feuille comptabilité, une ligne achat, ou une ligne vente, nous allons consulter la combinaison pour identifier les comptes à utiliser. |
 
@@ -73,7 +73,7 @@ Lors de la création d'un document vente, l'en-tête vente utilise les informati
 Votre paramétrage détermine quand la validation a lieu. Par exemple, la synchronisation est affectée au moment où vous exécutez des activités périodiques, par exemple : valider coûts ajustés et ajuster coût écritures article.
 
 ## <a name="copying-posting-setup-lines"></a>Copie de lignes paramètres validation
-Plus il y a de groupes comptabilisation produit et marché, plus la fenêtre Paramètres comptabilisation contient de lignes. Cela peut entraîner la nécessité d'entrer un grand nombre de données pour configurer les paramètres comptabilisation pour la société. S'il peut y avoir un grand nombre de combinaisons différentes de groupes comptabilisation marché et produit, différentes combinaisons peuvent encore valider dans les mêmes comptes généraux. Pour limiter le nombre de saisies manuelles, copiez les comptes généraux à partir d'une ligne existante dans la fenêtre **Paramètres comptabilisation**.
+Plus il y a de groupes comptabilisation produit et marché, plus la page Paramètres comptabilisation contient de lignes. Cela peut entraîner la nécessité d'entrer un grand nombre de données pour configurer les paramètres comptabilisation pour la société. S'il peut y avoir un grand nombre de combinaisons différentes de groupes comptabilisation marché et produit, différentes combinaisons peuvent encore valider dans les mêmes comptes généraux. Pour limiter le nombre de saisies manuelles, copiez les comptes généraux à partir d'une ligne existante sur la page **Paramètres comptabilisation**.
 
 ## <a name="see-also"></a>Voir aussi .
 [Les écritures comptables et le plan comptable](finance-general-ledger.md)  

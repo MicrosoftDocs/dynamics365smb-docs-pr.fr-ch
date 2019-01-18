@@ -11,14 +11,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e2cbddbfe4d184468b778455d4b75f49b0f23b67
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2ed7c083b4315f374a81ec5f97ce5e872c11f071
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Recevoir et convertir des documents électroniques
-La version générique de [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge la réception de factures et d'avoirs électroniques au format PEPPOL, qui est pris en charge par les principaux fournisseurs de services d'échange de documents. Pour recevoir une facture d'un fournisseur en tant que document électronique PEPPOL, traitez le document dans la fenêtre Documents entrants pour le convertir en facture achat ou en ligne feuille comptabilité dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
+La version générique de [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge la réception de factures et d'avoirs électroniques au format PEPPOL, qui est pris en charge par les principaux fournisseurs de services d'échange de documents. Pour recevoir une facture d'un fournisseur en tant que document électronique PEPPOL, traitez le document sur la page Documents entrants pour le convertir en facture achat ou en ligne feuille comptabilité dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
  Outre la réception de documents électroniques directement des partenaires commerciaux, vous pouvez recevoir des documents électroniques d'un service OCR qui a converti vos fichiers PDF ou image en documents électroniques.  
 
@@ -33,7 +33,7 @@ La version générique de [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en c
 > [!NOTE]  
 >  Lorsque vous convertissez des documents électroniques reçus du service ROC en documents ou lignes feuille dans [!INCLUDE[d365fin](includes/d365fin_md.md)], plusieurs lignes du document source seront résumées sur une ligne. La ligne unique sera de type Compte général et les champs **Description** et **N°** (compte général) seront vides. La valeur du champ **Montant** est égal au montant total hors TVA de toutes les lignes du document source.  
 >   
->  Pour vous assurer que les champs **Description** et **N°** sont remplis, vous pouvez choisir le bouton **Mapper le texte avec le compte** dans la fenêtre **Documents entrants** pour définir qu'un texte de facture donné doit toujours être associé à un compte de débit ou crédit donné dans la comptabilité. Ultérieurement, le champ **Description** des lignes document ou feuille créées à partir d'un document électronique pour ce fournisseur ou client sera renseigné avec le texte spécifié et le champ **N°** (compte général) avec le compte en question.  
+>  Pour vous assurer que les champs **Description** et **N°** sont remplis, vous pouvez choisir le bouton **Mapper le texte avec le compte** sur la page **Documents entrants** pour définir qu'un texte de facture donné doit toujours être associé à un compte de débit ou crédit donné dans la comptabilité. Ultérieurement, le champ **Description** des lignes document ou feuille créées à partir d'un document électronique pour ce fournisseur ou client sera renseigné avec le texte spécifié et le champ **N°** (compte général) avec le compte en question.  
 >   
 >  Au lieu de créer un mappage à un compte général, vous pouvez également créer un mappage à un compte bancaire. Ceci est utile, par exemple, pour les documents électroniques des dépenses qui sont déjà payées lorsque vous souhaitez créer une ligne feuille comptabilité qui est prête à être validée sur un compte bancaire.  
 
@@ -45,11 +45,11 @@ La version générique de [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en c
 
 2.  Sélectionnez la ligne de l'enregistrement du document entrant qui représente une nouvelle facture électronique entrante, puis sous l'onglet **Accueil**, dans le groupe **Gérer**, sélectionnez **Modifier**.  
 
-     Dans la fenêtre **Fiche document entrant**, le fichier XML est joint, et la plupart des champs sont préremplis avec les informations de la facture électronique. Pour plus d'informations, voir [Créer des enregistrements document entrant](across-how-create-income-document-records.md).  
+     Sur la page **Fiche document entrant**, le fichier XML est joint, et la plupart des champs sont préremplis avec les informations de la facture électronique. Pour plus d'informations, voir [Créer des enregistrements document entrant](across-how-create-income-document-records.md).  
 
 3.  Dans le champ **Type échange de données**, sélectionnez **PEPPOL - Facture** ou **OCR - Facture** selon la source du document électronique.  
 
-4.  Pour mapper le texte de la facture fournisseur à un compte débit spécifique, sous l'onglet **Actions**, dans le groupe **Général**, choisissez **Mapper le texte avec le compte**, puis renseignez la fenêtre **Feuille activité correspondance texte et compte**.  
+4.  Pour mapper le texte de la facture fournisseur à un compte débit spécifique, sous l'onglet **Actions**, dans le groupe **Général**, choisissez **Mapper le texte avec le compte**, puis renseignez la page **Feuille activité correspondance texte et compte**.  
 
 5.  Sous l'onglet **Actions**, dans le groupe **Général**, sélectionnez **Créer un document**.  
 

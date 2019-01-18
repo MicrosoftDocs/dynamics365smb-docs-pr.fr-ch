@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f6ef554270c9e2bdef8074b65ba6e3f0de4bd45c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e0674c0c308cd83de8a6977e05445c22009f513c
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Planifier des rangements dans la feuille
@@ -29,12 +29,12 @@ Si vous ne sélectionnez pas ce champ, le programme crée automatiquement des in
 > [!NOTE]  
 >  s: Quel que soit l'état du champ **Utiliser feuille rangement** de la fiche magasin, vous pouvez toujours insérer des lignes instruction rangement, c'est à dire des lignes réception enregistrée, dans la feuille rangement en procédant comme suit :  
 >   
->  1.  Dans la fenêtre **Rangement entrepôt**, appuyez sur Ctrl+D pour supprimer l'instruction rangement, ou sélectionnez les lignes à traiter dans la feuille et supprimez-les.  
+>  1.  Sur la page **Rangement entrepôt**, appuyez sur Ctrl+D pour supprimer l'instruction rangement, ou sélectionnez les lignes à traiter dans la feuille et supprimez-les.  
 > 2.  Poursuivez l'opération dans tous les rangements concernés jusqu'à ce que vous ayez supprimé les lignes que vous souhaitez utiliser dans la feuille. Sélectionnez maintenant **Rangement** et continuez la planification.  
 
 ## <a name="to-plan-instructions-in-the-put-away-worksheet"></a>Pour planifier des instructions dans la feuille rangement  
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille rangement**, puis sélectionnez le lien associé.  
-2.  Choisissez l'action **Extraire documents entrepôt**. La fenêtre **Sélection rangement** s'ouvre.  
+2.  Choisissez l'action **Extraire documents entrepôt**. La page **Sélection rangement** s'ouvre.  
 
     Vous pouvez visualiser toutes les réceptions enregistrées et tous les rangements internes enregistrés qui ont été envoyés vers la fonction rangement, y compris ceux pour lesquels des instructions rangement ont déjà été créées. Les documents dont les lignes rangement ont été entièrement rangées et enregistrées n'apparaissent pas dans cette liste.  
 
@@ -54,7 +54,7 @@ Si vous ne sélectionnez pas ce champ, le programme crée automatiquement des in
     > [!NOTE]  
     >  s: Les lignes supprimées sont uniquement supprimées dans cette feuille ; elles ne sont pas supprimées de la liste de sélection des rangements.  
 
-7.  Choisissez l'action **Créer rangement**. La fenêtre **Créer document** s'ouvre, où vous pouvez ajouter des informations supplémentaires au rangement que vous créez, telles que :  
+7.  Choisissez l'action **Créer rangement**. La page **Créer document** s'ouvre, où vous pouvez ajouter des informations supplémentaires au rangement que vous créez, telles que :  
 
     -   Vous pouvez affecter le rangement à un employé donné.  
     -   Vous pouvez trier les lignes instruction rangement comme dans la feuille ou par classement emplacement. Lorsque vous effectuez un tri sur la base du classement emplacement, les lignes Prélever apparaissent d'abord, étant donné que la plupart des emplacements réception sont classés au niveau 0, et les lignes emplacement apparaissent ensuite, en commençant par les emplacements les moins bien classés. Si vous avez structuré votre entrepôt de façon à ce que les emplacements de même niveau soient les uns à côté des autres et si vous utilisez cette méthode de tri, les magasiniers éviteront un certain nombre d'étapes.  

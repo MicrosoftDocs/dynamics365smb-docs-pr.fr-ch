@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a52997195a95ff43eb049025b7b8ab3038381039
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b728815592975091a683eb96f87b1a632da62567
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Détails de conception : flux d'entrepôt internes
@@ -28,12 +28,12 @@ Circulation des articles entre les emplacements dans les centres d'une société
  Dans une configuration entrepôt de base, la circulation des articles entre les emplacements dans les centres de la société lors du prélèvement des composants, du rangement des articles finis pour les ordres de fabrication ou les ordres d'assemblage et les mouvements ad-hoc, tels que les réapprovisionnements emplacement, sans relation avec les documents origine.  
 
 ### <a name="flows-to-and-from-production"></a>Flux entrants et sortants de la production  
- La principale intégration entre les ordres de fabrication et les activités d'entrepôt de base est représentée par la capacité de prélever des composants de production à l'aide de la fenêtre **Prélèvement stock** ou **Mouvement de stock**.  
+ La principale intégration entre les ordres de fabrication et les activités d'entrepôt de base est représentée par la capacité de prélever des composants de production à l'aide de la page **Prélèvement stock** ou **Mouvement de stock**.  
 
 > [!NOTE]  
->  Dans la fenêtre **Prélèvement stock**, la consommation de composants est validée lors de la validation du prélèvement. À l'aide de la fenêtre **Mouvement de stock**, seuls les ajustements d'emplacement sont enregistrés, aucune validation dans la comptabilité article n'a lieu.  
+>  Sur la page **Prélèvement stock**, la consommation de composants est validée lors de la validation du prélèvement. À l'aide de la page **Mouvement de stock**, seuls les ajustements d'emplacement sont enregistrés, aucune validation dans la comptabilité article n'a lieu.  
 
- En plus de la gestion de composants, l'intégration est représentée par la capacité de ranger les articles fabriqués à l'aide de la fenêtre **Rangement stock**.  
+ En plus de la gestion de composants, l'intégration est représentée par la capacité de ranger les articles fabriqués à l'aide de la page **Rangement stock**.  
 
  Les champs **To-Production Bin Code**, **From-Production Bin Code**, et **Open Shop Floor Bin Code** de la fiche magasin ou des fiches poste/centre de charge définissent les flux par défaut depuis ou vers les zones de production.  
 
@@ -42,13 +42,13 @@ Circulation des articles entre les emplacements dans les centres d'une société
 ### <a name="flows-to-and-from-assembly"></a>Flux entrants et sortants de l'assemblage  
  La principale intégration entre les ordres d'assemblage et les activités d'entrepôt de base est représentée par la capacité de déplacer les composants d'assemblage vers la zone d'assemblage.  
 
- Lorsqu'aucune fonctionnalité entrepôt spécifique n'existe pour le stockage des éléments d'assemblage, le code d'emplacement sur l'ordre d'assemblage peut être défini sur un emplacement de stockage par défaut. La validation de l'ordre d'assemblage fonctionne alors comme la validation d'un rangement. L'activité entrepôt pour déplacer des éléments d'assemblage dans l'entrepôt peut être gérée dans la fenêtre **Mouvement interne**, sans rapport avec l'ordre d'assemblage.  
+ Lorsqu'aucune fonctionnalité entrepôt spécifique n'existe pour le stockage des éléments d'assemblage, le code d'emplacement sur l'ordre d'assemblage peut être défini sur un emplacement de stockage par défaut. La validation de l'ordre d'assemblage fonctionne alors comme la validation d'un rangement. L'activité entrepôt pour déplacer des éléments d'assemblage dans l'entrepôt peut être gérée sur la page **Mouvement interne**, sans rapport avec l'ordre d'assemblage.  
 
  Les flux d'assemblage suivants existent.  
 
 |Flux de travail|Désignation|  
 |----------|---------------------------------------|  
-|Assembler pour stock|Les composants sont nécessaires sur un ordre d'assemblage dans lequel la production est stockée dans l'entrepôt.<br /><br /> Ce flux d'entrepôt est géré dans la fenêtre **Mouvement de stock**. Une ligne prélèvement spécifie où prélever les composants. Une ligne d'emplacement spécifie où placer les composants.|  
+|Assembler pour stock|Les composants sont nécessaires sur un ordre d'assemblage dans lequel la production est stockée dans l'entrepôt.<br /><br /> Ce flux d'entrepôt est géré sur la page **Mouvement de stock**. Une ligne prélèvement spécifie où prélever les composants. Une ligne d'emplacement spécifie où placer les composants.|  
 |Assembler pour commande|Les composants sont nécessaires sur un ordre d'assemblage qui est lié à une commande vente expédiée lors de l'assemblage de l'article vendu.|  
 
 > [!NOTE]  
@@ -60,26 +60,26 @@ Circulation des articles entre les emplacements dans les centres d'une société
 >  Le champ **Code empl. exp. ass. pr comm.** fonctionne comme emplacement après assemblage dans les scénarios assembler pour commande.  
 
 ### <a name="ad-hoc-movements"></a>Mouvements ad hoc  
- Dans l'entreposage de base, un mouvement d'articles d'un emplacement à un autre sans relation avec les documents origine est effectué dans la fenêtre **Mouvement interne** qui fonctionne conjointement avec la fenêtre **Mouvement de stock**.  
+ Dans l'entreposage de base, un mouvement d'articles d'un emplacement à un autre sans relation avec les documents origine est effectué sur la page **Mouvement interne** qui fonctionne conjointement avec la page **Mouvement de stock**.  
 
- Il existe un autre moyen de déplacer des articles ad hoc entre les emplacements : il suffit de valider les écritures positives dans le champ **Nouveau code emplacement** de la fenêtre **Feuille reclassement article**.  
+ Il existe un autre moyen de déplacer des articles ad hoc entre les emplacements : il suffit de valider les écritures positives dans le champ **Nouveau code emplacement** de la page **Feuille reclassement article**.  
 
 ## <a name="internal-flows-in-advanced-warehousing"></a>Flux internes dans l'entreposage avancé  
  Dans les configurations d'entrepôt avancées, la circulation des articles entre les emplacements dans les centres de la société lors du prélèvement des composants, du rangement des articles finis pour les ordres de fabrication et du prélèvement des composants pour les ordres d'assemblage. En outre, les flux internes se produisent en tant que mouvements ad-hoc, tels que les réapprovisionnements emplacement, sans relation avec les documents origine.  
 
 ### <a name="flows-to-and-from-production"></a>Flux entrants et sortants de la production  
- La principale intégration entre les ordres de fabrication et les activités d'entrepôt avancées est représentée par la capacité de prélever des composants de production, dans la fenêtre **Prélèvement entrepôt** et dans la fenêtre, **Feuille prélèvement**, et par la capacité de ranger des articles fabriqués à l'aide de la fenêtre **Rangement interne entrepôt**.  
+ La principale intégration entre les ordres de fabrication et les activités d'entrepôt avancées est représentée par la capacité de prélever des composants de production, sur la page **Prélèvement entrepôt** et sur la page, **Feuille prélèvement**, et par la capacité de ranger des articles fabriqués à l'aide de la page **Rangement interne entrepôt**.  
 
- Un autre point d'intégration dans la production est fourni via la fenêtre **Mouvement entrepôt**, ainsi que la fenêtre Feuille mouvement, ce qui vous permet de placer des composants et de prendre des articles fabriqués pour des ordres de fabrication lancés.  
+ Un autre point d'intégration dans la production est fourni via la page **Mouvement entrepôt**, ainsi que la page Feuille mouvement, ce qui vous permet de placer des composants et de prendre des articles fabriqués pour des ordres de fabrication lancés.  
 
  Les champs **To-Production Bin Code**, **From-Production Bin Code**, et **Open Shop Floor Bin Code** de la fiche magasin ou des fiches poste/centre de charge définissent les flux par défaut depuis ou vers les zones de production.  
 
  Pour plus d'informations sur la manière dont la consommation de composants est vidée des emplacements des consommations ou des emplacements atelier ouverts, reportez-vous à la section « Consommation des composants de production dans l'entrepôt » de cette rubrique.  
 
 ### <a name="flows-to-and-from-assembly"></a>Flux entrants et sortants de l'assemblage  
- La principale intégration entre les ordres d'assemblage et les activités d'entrepôt avancées est représentée par la capacité de prélever des composants d'assemblage, aussi bien à l'aide de la fenêtre **Prélèvement entrepôt** que de la fenêtre **Feuille prélèvement**. Cette fonctionnalité est identique au prélèvement des composants pour les ordres de fabrication.  
+ La principale intégration entre les ordres d'assemblage et les activités d'entrepôt avancées est représentée par la capacité de prélever des composants d'assemblage, aussi bien à l'aide de la page **Prélèvement entrepôt** que de la page **Feuille prélèvement**. Cette fonctionnalité est identique au prélèvement des composants pour les ordres de fabrication.  
 
- Lorsqu'aucune fonctionnalité entrepôt spécifique n'existe pour le stockage des éléments d'assemblage, le code d'emplacement sur l'ordre d'assemblage peut être défini sur un emplacement de stockage par défaut. La validation de l'ordre d'assemblage fonctionne alors comme la validation d'un rangement. L'activité entrepôt pour déplacer des éléments d'assemblage dans l'entrepôt peut être gérée dans la fenêtre **Feuille mouvement** ou la fenêtre **Rangement interne entrepôt**, sans rapport avec l'ordre d'assemblage.  
+ Lorsqu'aucune fonctionnalité entrepôt spécifique n'existe pour le stockage des éléments d'assemblage, le code d'emplacement sur l'ordre d'assemblage peut être défini sur un emplacement de stockage par défaut. La validation de l'ordre d'assemblage fonctionne alors comme la validation d'un rangement. L'activité entrepôt pour déplacer des éléments d'assemblage dans l'entrepôt peut être gérée sur la page **Feuille mouvement** ou la page **Rangement interne entrepôt**, sans rapport avec l'ordre d'assemblage.  
 
 > [!NOTE]  
 >  Si les articles sont assemblés pour commande, l'expédition entrepôt de la commande vente liée déclenche un prélèvement entrepôt de tous les composants d'assemblage impliqués, et non seulement de l'article vendu, comme lors de l'expédition d'articles en stock.  
@@ -87,7 +87,7 @@ Circulation des articles entre les emplacements dans les centres d'une société
  Les champs **To-Assembly Bin Code** **From-Assembly Bin Code** de la fiche magasin définissent les flux par défaut depuis et vers les champs d'assemblage.  
 
 ### <a name="ad-hoc-movements"></a>Mouvements ad hoc  
- Dans l'entreposage avancé, un mouvement d'articles d'un emplacement à un autre sans relation avec les documents origine est géré dans la fenêtre **Feuille mouvement** et enregistré dans la fenêtre Mouvement entrepôt.  
+ Dans l'entreposage avancé, un mouvement d'articles d'un emplacement à un autre sans relation avec les documents origine est géré sur la page **Feuille mouvement** et enregistré sur la page Mouvement entrepôt.  
 
 ## <a name="flushing-production-components-in-the-warehouse"></a>Consommation des composants de production dans l'entrepôt  
  Si cela est paramétré dans la fiche article, les composants prélevés avec des prélèvements entrepôt sont validés comme étant consommés par l'ordre de fabrication lorsque le prélèvement entrepôt est enregistré. En utilisant la méthode **Prélèvement + Aval** et la méthode de consommation **Prélèvement + Amont**, l'enregistrement de prélèvement déclenche la validation des consommations associées lorsque la première opération commence ou lorsque la dernière opération finit, respectivement.  

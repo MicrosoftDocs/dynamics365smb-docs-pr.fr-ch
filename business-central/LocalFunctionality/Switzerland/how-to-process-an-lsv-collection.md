@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f68c2c4b2b3747d341e7d99372b2e8f056a06bf1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f447e0c20081cf64709e14cbe524d80fd8075b1c
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="process-an-lsv-collection"></a>Traiter un prélèvement LSV
-Vous pouvez utiliser **Feuilles LSV** pour créer et traiter les paiements des clients Lastschrift Verfahren (LSV+). Vous pouvez enregistrer les paiements dans la feuille règlement, créer un fichier LSV, puis imprimer l'ordre de prélèvement. Pour plus d'informations, voir la fenêtre Feuille règlement et [Exporter des paiements en mode LSV](how-to-export-payments-using-lsv.md).  
+Vous pouvez utiliser **Feuilles LSV** pour créer et traiter les paiements des clients Lastschrift Verfahren (LSV+). Vous pouvez enregistrer les paiements dans la feuille règlement, créer un fichier LSV, puis imprimer l'ordre de prélèvement. Pour plus d'informations, voir la page Feuille règlement et [Exporter des paiements en mode LSV](how-to-export-payments-using-lsv.md).  
 
 Lorsque vous lancez le traitement par lots **Proposition de prélèvement LSV**, chaque prélèvement proposé est enregistrée sur une ligne feuille LSV, et les factures ouvertes sont transférées aux feuilles LSV. Pour plus d'informations, voir la table Feuille LSV.  
 
@@ -30,7 +30,7 @@ Vous pouvez afficher, modifier ou supprimer les lignes paiement proposées. Si v
 
 1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Liste feuilles LSV**, puis sélectionnez le lien connexe.  
 2.  Sélectionnez l'action **Nouveau**.  
-3.  Dans la fenêtre **Liste feuilles LSV**, renseignez les champs requis comme indiqué dans le tableau suivant.  
+3.  Dans la page **Liste feuilles LSV**, renseignez les champs requis comme indiqué dans le tableau suivant.  
 
     |Champ|Désignation|  
     |---------------------------------|---------------------------------------|  
@@ -38,7 +38,7 @@ Vous pouvez afficher, modifier ou supprimer les lignes paiement proposées. Si v
     |**Description de la feuille LSV**|Permet de saisir une description pour l'écriture.|
 
 4.  Sélectionnez l'écriture feuille LSV requise, puis sélectionnez l'action **Proposition de prélèvement LSV** pour créer les paiements de prélèvement automatique par LSV+.  
-5.  Dans la fenêtre **Proposition de prélèvement LSV**, sur le raccourci **Options**, renseignez les champs comme indiqué dans le tableau suivant.  
+5.  Dans la page **Proposition de prélèvement LSV**, sur le raccourci **Options**, renseignez les champs comme indiqué dans le tableau suivant.  
 
     |Champ|Désignation|  
     |---------------------------------|---------------------------------------|  
@@ -49,13 +49,13 @@ Vous pouvez afficher, modifier ou supprimer les lignes paiement proposées. Si v
 
 6.  Cliquez sur le bouton **OK**.  
 
-Toutes les lignes sont été transférées à la feuille LSV. Après avoir effectué le prélèvement LSV, vous pouvez visualiser, vérifier ou modifier les paiements proposés dans la fenêtre **Feuille LSV**. Pour plus d'informations, voir la table Ligne feuille LSV.  
+Toutes les lignes sont été transférées à la feuille LSV. Après avoir effectué le prélèvement LSV, vous pouvez visualiser, vérifier ou modifier les paiements proposés dans la page **Feuille LSV**. Pour plus d'informations, voir la table Ligne feuille LSV.  
 
 ## <a name="to-manage-suggested-payments"></a>Pour gérer les paiements proposés  
 
-1.  Dans la fenêtre **Liste feuilles LSV**, sélectionnez l'écriture feuille requise, puis sélectionnez l'action **Ligne feuille LSV**.  
+1.  Dans la page **Liste feuilles LSV**, sélectionnez l'écriture feuille requise, puis sélectionnez l'action **Ligne feuille LSV**.  
 
-    Vous pouvez visualiser et modifier les paiements proposés dans cette fenêtre. Vous pouvez saisir les paiements requis manuellement. Pour les nouvelles lignes feuille, le champ **Statut LSV** est défini sur **Ouvrir** pour indiquer que la facture est impayée.  
+    Vous pouvez visualiser et modifier les paiements proposés dans cette page. Vous pouvez saisir les paiements requis manuellement. Pour les nouvelles lignes feuille, le champ **Statut LSV** est défini sur **Ouvrir** pour indiquer que la facture est impayée.  
 
 3.  Cliquez sur le bouton **OK**.  
 

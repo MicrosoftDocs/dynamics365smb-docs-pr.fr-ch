@@ -10,13 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost types, general ledger, accounts
-ms.date: 10/01/2018
+ms.date: 11/13/2018
 ms.author: sgroespe
+redirect_url: finance-set-up-cost-accounting
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 37800664c79e501f1cf5dc41c12be6197fcb6bfd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2846967648f5c0e0b6015c7990a941642fc27323
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-cost-types"></a>Configuration des types de coûts
@@ -34,12 +35,12 @@ Le plan des types de coûts a la même fonction que le plan comptable général.
     > [!IMPORTANT]  
     >  La fonction **Enregistrer les types de coûts dans le plan comptable** met à jour la relation entre le plan comptable et le plan des types de coûts. Le champ **N°** est renseigné et vérifié pour s'assurer que chaque compte général est lié à un seul type de coût. La fonction est automatiquement exécutée avant le transfert des écritures comptables vers la comptabilité analytique.  
 
-## <a name="to-set-up-new-cost-types-in-the-chart-of-cost-types-window"></a>Pour configurer de nouveaux types de coût dans la fenêtre Plan comptable des types de coûts  
-1.  Ouvrez la fenêtre **Plan comptable des types de coûts** en mode édition.  
+## <a name="to-set-up-new-cost-types-in-the-chart-of-cost-types-page"></a>Pour configurer de nouveaux types de coût sur la page Plan comptable des types de coûts  
+1.  Ouvrez la page **Plan comptable des types de coûts** en mode édition.  
 2.  Renseignez les champs comme décrit selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
-    >  Vous pouvez configurer et gérer les types de coût, soit dans la fenêtre **Fiche type de coût**, soit dans la fenêtre **Plan comptable des types de coûts**. Dans cette procédure, vous configurez de nouveaux types de coût dans la fenêtre **Plan comptable des types de coûts**.
+    >  Vous pouvez configurer et gérer les types de coût, soit sur la page **Fiche type de coût**, soit sur la page **Plan comptable des types de coûts**. Dans cette procédure, vous configurez de nouveaux types de coût sur la page **Plan comptable des types de coûts**.
 
 3.  Après avoir créé tous les types de coûts, choisissez l'action **Indenter les types de coûts**. Dans la boîte de dialogue, cliquez sur **Oui**.  
 4.  Liez le nouveau type de coût au compte général correspondant.  
@@ -48,7 +49,7 @@ Le plan des types de coûts a la même fonction que le plan comptable général.
     >  Si vous avez entré des définitions dans les champs **Totalisation** pour le type de ligne **Fin total** avant d'exécuter la fonction **Indenter les types de coûts**, vous devez les entrer à nouveau car cette fonction remplace les valeurs de tous les champs **Fin total**.  
 
 ## <a name="to-update-cost-types"></a>Pour mettre à jour les types de coûts  
-1.  Dans la fenêtre **Paramètres comptabilité analytique**, indiquez si vous souhaitez que le plan des types de coûts soit mis à jour automatiquement lorsque le plan comptable est modifié.  
+1.  Sur la page **Paramètres comptabilité analytique**, indiquez si vous souhaitez que le plan des types de coûts soit mis à jour automatiquement lorsque le plan comptable est modifié.  
 2.  Dans le champ **Aligner compte général**, vous pouvez choisir les options suivantes.  
 
 - **Pas d'alignement** - Il n'existe aucune modification correspondante dans le plan des types de coûts lorsque vous modifiez le plan comptable.  
@@ -57,7 +58,6 @@ Le plan des types de coûts a la même fonction que le plan comptable général.
 
 ## <a name="see-also"></a>Voir aussi  
 [Comptabilité pour les coûts](finance-manage-cost-accounting.md)  
-[Définition de la relation entre les types de coûts et les comptes généraux](finance-defining-the-relationship-between-cost-types-and-general-ledger-accounts.md)   
 [Définition des centres de coûts et des coûts associés pour le plan comptable](finance-defining-cost-centers-and-cost-objects-for-chart-of-accounts.md)   
 [Soldes entre le type de coût, un centre de coûts et les coûts associés](finance-balances-between-cost-type-cost-center-and-cost-object.md)   
 [Paramétrage du contrôle de gestion](finance-set-up-cost-accounting.md)   

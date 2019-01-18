@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: 
 ms.date: 10/01/2018
 ms.author: sgroespe
+redirect_url: admin-how-to-create-custom-company-configuration-packages
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 80924de4105cd605aa1698fa322493ecdb7a237c
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 88b555066b3c41a8b162166f6d137eb8dc33f6de
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="review-and-customize-existing-database-data"></a>Vérifier et personnaliser les données existantes de base de données
@@ -31,7 +32,7 @@ Lors de la création d’un package configuration pour une solution, vous pouvez
 
 2.  Sous l’onglet **Actions**, dans le groupe **Afficher**, choisissez **Données de base de données**.  
 
-     La fenêtre [!INCLUDE[d365fin](includes/d365fin_md.md)] pour la page s’ouvre.  
+     La page [!INCLUDE[d365fin](includes/d365fin_md.md)] pour la page s’ouvre.  
 
 3.  Révisez les informations disponibles. Modifiez-les selon vos besoins en supprimant les enregistrements qui ne sont pas appropriés ou en ajoutant de nouveaux enregistrements.  
 

@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e7b5bb42d17791b699bced46b027c43104029ef4
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: afbc6454fd133cfc5d2a40ffc12220b9cbf0f6dd
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Détails de conception : concepts centraux du système de planification
 Les fonctions de planification se trouvent dans un traitement par lots qui sélectionne d'abord les articles appropriés et la période à planifier. Puis, en fonction du code de bas niveau de chaque article (ligne nomenclature), le traitement par lots appelle une unit de code, qui calcule un programme d'approvisionnement en équilibrant les séries approvisionnement-demande et en suggérant des actions possibles à mener pour l'utilisation. Les mesures suggérées apparaissent sous forme de lignes dans la feuille planning ou dans la demande achat.  
 
-![Contenu de la fenêtre Feuille planning](media/NAV_APP_supply_planning_1_planning_worksheet.png "Contenu de la fenêtre Feuille planning")  
+![Contenu de la page Feuille planning](media/NAV_APP_supply_planning_1_planning_worksheet.png "Contenu de la page Feuille planning")  
 
 Le gestionnaire d'une société, par exemple un acheteur ou un gestionnaire de production, est censé être l'utilisateur du système de planification. Le système de planification aide l'utilisateur en effectuant les calculs étendus mais relativement simples d'une planification. L'utilisateur peut alors se consacrer à résoudre les problèmes plus difficiles, par exemple lorsque les choses diffèrent de la normale.  
 
@@ -53,7 +53,7 @@ Pour plus d'informations, voir [Détails de conception : traiter les commandes 
 ## <a name="dynamic-order-tracking-pegging"></a>Chaînage dynamique (Origine des besoins)  
 Le chaînage dynamique, avec sa création simultanée des messages d'action dans la feuille planning, ne fait pas partie du système de planification des approvisionnements dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Cette fonction lie, en temps réel, la demande et des montants qui pourraient les couvrir, chaque fois qu'une nouvelle demande ou un approvisionnement est créé ou modifié.  
 
-Par exemple, si l'utilisateur entre ou modifie une commande vente, le système chaînage dynamique recherche immédiatement un approvisionnement approprié pour couvrir la demande. Cela peut être à partir du stock ou d'une commande approvisionnement prévue (telle qu'une commande achat ou un ordre de fabrication). Lorsqu'une source d'approvisionnement est trouvée, le système crée un lien entre la demande et l'approvisionnement, et l'affiche dans des fenêtres en lecture seule qui sont consultées depuis les lignes document associées. Lorsque l'approvisionnement approprié est introuvable, le système de suivi de commande dynamique crée des messages d'action dans la feuille de planification avec des suggestions de plan d'approvisionnement reflétant l'équilibre dynamique. Par conséquent, le système chaînage dynamique offre un système de planification de base qui peut être utile au gestionnaire et à d'autres rôles dans la chaîne d'approvisionnement interne.  
+Par exemple, si l'utilisateur entre ou modifie une commande vente, le système chaînage dynamique recherche immédiatement un approvisionnement approprié pour couvrir la demande. Cela peut être à partir du stock ou d'une commande approvisionnement prévue (telle qu'une commande achat ou un ordre de fabrication). Lorsqu'une source d'approvisionnement est trouvée, le système crée un lien entre la demande et l'approvisionnement, et l'affiche sur des pages en lecture seule qui sont consultées depuis les lignes document associées. Lorsque l'approvisionnement approprié est introuvable, le système de suivi de commande dynamique crée des messages d'action dans la feuille de planification avec des suggestions de plan d'approvisionnement reflétant l'équilibre dynamique. Par conséquent, le système chaînage dynamique offre un système de planification de base qui peut être utile au gestionnaire et à d'autres rôles dans la chaîne d'approvisionnement interne.  
 
 Par conséquent, le chaînage dynamique peut être considéré comme un outil qui aide l'utilisateur à déterminer s'il faut accepter les suggestions de commande approvisionnement. Du côté de l'approvisionnement, un utilisateur peut visualiser quelle demande a créé l'approvisionnement, et du côté de la demande, quel approvisionnement doit couvrir la demande.  
 
@@ -158,7 +158,7 @@ Un lien ordre pour ordre entre l'offre et la demande est un autre type d'attribu
 ### <a name="specific-attributes"></a>Attributs spécifiques  
 Certains attributs de la demande sont spécifiques et doivent correspondre exactement à un approvisionnement correspondant. Les deux attributs spécifiques suivants existent :  
 
--   Numéros de série/lot demandés qui nécessitent une application spécifique (si la case à cocher **NS - Traçabilité spéc.** ou **N° lot - Traçabilité spéc.** est sélectionnée dans la fenêtre **Fiche code traçabilité** pour le code de traçabilité utilisé par l'article.)  
+-   Numéros de série/lot demandés qui nécessitent une application spécifique (si la case à cocher **NS - Traçabilité spéc.** ou **N° lot - Traçabilité spéc.** est sélectionnée sur la page **Fiche code traçabilité** pour le code de traçabilité utilisé par l'article.)  
 -   Les liens avec les commandes approvisionnement créées manuellement ou automatiquement pour une demande spécifique (liens ordre pour ordre).  
 
 Pour les attributs, le système de planification applique les règles suivantes :  
@@ -211,7 +211,7 @@ La première colonne dans la feuille planning concerne les champs d'avertissemen
 
 L'approvisionnement pour les lignes planning avec les alertes n'est normalement pas modifié en fonction des paramètres de planification. Au lieu de cela, le système de planification propose uniquement un approvisionnement pour couvrir la quantité de demande exacte. Cependant, le système peut être configuré pour respecter certains paramètres de planification pour les lignes planning avec certaines alertes. Pour plus d'informations, reportez-vous à la description de ces options pour le traitement par lots **Calc. planning - F. planning** et le traitement par lots **Calculer planning - F. demande** respectivement.  
 
-Les informations d'avertissement sont affichées dans la fenêtre **Untracked Planning Elements**, qui est également utilisée pour afficher les liens de suivi de commande vers des entités réseau hors commande. Les types d'alerte suivants existent :  
+Les informations d'avertissement sont affichées sur la page **Éléments planning non chaînés**, qui est également utilisée pour afficher les liens de suivi de commande vers des entités réseau hors commande. Les types d'alerte suivants existent :  
 
 -   Urgence  
 -   Exception  
@@ -252,7 +252,7 @@ L'avertissement Attention est affiché dans trois situations :
 ## <a name="error-logs"></a>Journaux des erreurs  
 Dans la page de demande Calculer planning, l'utilisateur peut sélectionner le champ **Arrêter et afficher la première erreur** pour arrêter l'exécution de la planification quand il rencontre la première erreur. Au même moment, un message affiche des informations sur l'erreur. S'il y a une erreur, seules les lignes planning traitées avant la détection de l'erreur apparaissent dans la feuille planning.  
 
-Si le champ n'est pas activé, le traitement par lots Calculer planning se poursuit jusqu'à ce qu'il soit terminé. Les erreurs éventuelles n'interrompent pas le traitement par lots. S'il y a une ou plusieurs erreurs, une fois l'exécution du programme terminée, celui-ci affiche un message indiquant le nombre d'articles concernés par les erreurs. La fenêtre **Journal des erreurs de planning** s'ouvre ensuite pour afficher des informations supplémentaires sur l'erreur et pour fournir des liens vers les documents ou les fiches paramètres concernés.  
+Si le champ n'est pas activé, le traitement par lots Calculer planning se poursuit jusqu'à ce qu'il soit terminé. Les erreurs éventuelles n'interrompent pas le traitement par lots. S'il y a une ou plusieurs erreurs, une fois l'exécution du programme terminée, celui-ci affiche un message indiquant le nombre d'articles concernés par les erreurs. La page **Journal des erreurs de planning** s'ouvre ensuite pour afficher des informations supplémentaires sur l'erreur et pour fournir des liens vers les documents ou les fiches paramètres concernés.  
 
 ![Messages d'erreur dans la feuille planning](media/NAV_APP_supply_planning_1_error_log.png "Messages d'erreur dans la feuille planning")  
 
@@ -264,10 +264,10 @@ Le champ peut être manuellement défini par l'utilisateur, cependant, dans cert
 Pour plus d'informations sur l'utilisation de ce champ, voir [Détails de conception : transferts de planification](design-details-transfers-in-planning.md).  
 
 ## <a name="order-planning"></a>Planification commande  
-L'outil de base de planification de l'approvisionnement représenté par la fenêtre **Planification commande** est conçu pour la prise de décision manuelle. Il ne tient compte d'aucun paramètre de planification et n'est donc pas traité ultérieurement dans ce document. Pour plus d'informations sur la fonction Planification commande, reportez-vous à l'aide de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+L'outil de base de planification de l'approvisionnement représenté par la page **Planification commande** est conçu pour la prise de décision manuelle. Il ne tient compte d'aucun paramètre de planification et n'est donc pas traité ultérieurement dans ce document. Pour plus d'informations sur la fonction Planification commande, reportez-vous à l'aide de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 > [!NOTE]  
->  Il n'est pas recommandé d'utiliser la Planification commande si la société utilise déjà les feuilles planning ou demande. Les commandes approvisionnement créées via la fenêtre **Planning commande** peuvent être modifiées ou supprimées pendant les planifications automatisées. En effet, la planification automatisée utilise les paramètres de planification qui n'ont peut-être pas été pris en compte par l'utilisateur ayant créé la planification manuelle dans la fenêtre Planning commande.  
+>  Il n'est pas recommandé d'utiliser la Planification commande si la société utilise déjà les feuilles planning ou demande. Les commandes approvisionnement créées via la page **Planning commande** peuvent être modifiées ou supprimées pendant les planifications automatisées. En effet, la planification automatisée utilise les paramètres de planification qui n'ont peut-être pas été pris en compte par l'utilisateur ayant créé la planification manuelle sur la page Planning commande.  
 
 ##  <a name="finite-loading"></a>Chargement limité  
 [!INCLUDE[d365fin](includes/d365fin_md.md)] est un système ERP standard, et non un système d'affectation ou de gestion d'atelier. Il prévoit une utilisation des ressources faisable via une planification approximative, mais il ne crée ni ne met à jour automatiquement des plannings détaillés sur la base des priorités ou des règles d'optimisation.  

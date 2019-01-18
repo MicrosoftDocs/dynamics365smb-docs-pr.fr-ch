@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/07/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8724bf11537b384ae88960e40f24f1d9dbbbd484
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: dbc38deef740c6da31f93feb788b8dc5d62f25fe
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="prepare-to-migrate-customer-data"></a>Préparer la migration des données client
@@ -45,32 +45,46 @@ Lorsque vous sélectionnez un modèle de données existant, vous devez évaluer 
 >  Vous pouvez également utiliser des modèles de données afin de créer rapidement des enregistrements. Ils vous permettent de créer des données avec une rapidité et une précision accrues. Pour plus d'informations, reportez vous à [Enregistrer de nouveaux articles](inventory-how-register-new-items.md).
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Modèles configuration**, puis sélectionnez le lien associé.  
-2. Dans la fenêtre **Liste modèles config.**, sélectionnez un modèle de données dans la liste, puis choisissez l'action **Modifier**.  
+2. Sur la page **Modèles configuration**, sélectionnez un modèle de données dans la liste, puis choisissez l'action **Modifier**.  
 
 Si les modèles par défaut ne répondent pas à vos besoins, vous pouvez créer de nouveaux modèles ou ajouter des champs à un modèle existant. Si les modèles par défaut sont suffisants, vous pouvez les utiliser pour créer des enregistrements à partir de modèles de données de base.
 
-## <a name="to-create-a-data-template"></a>Pour créer un modèle de données
+## <a name="to-create-a-new-data-template"></a>Pour créer un modèle de données
 Vous pouvez créer un nouveau modèle de données si les modèles par défaut ne répondent pas aux besoins de votre société. Si vous en créez plusieurs, il peut être utile d'adopter une convention de dénomination pour le champ **Code**.
 
 Chaque modèle est constitué d'un en-tête et de lignes. Lorsque vous créez un modèle, vous pouvez spécifier les champs à toujours appliquer aux données d’un certain type. Par exemple, vous pouvez créer différents modèles client pour appliquer différents types de client. Lorsque vous créez le client à l’aide d’un modèle, vous pouvez utiliser les données du modèle pour prérenseigner certains champs.
 
-### <a name="to-create-a-data-template-header"></a>Pour créer un en-tête de modèle de données
-1. Ouvrez la fenêtre **Liste modèles config**.
+### <a name="to-copy-an-existing-data-template"></a>Pour copier un modèle de données existant
+Vous pouvez rapidement créer un modèle de données en copiant ces informations à partir d'un modèle de données existant, que vous modifiez par la suite.
+
+1. Ouvrez la page **Modèles configuration**.
 2. Sélectionnez l'action **Nouveau**.
+3. Complétez le champ **Code**.
+4. Choisissez l'action **Copier le modèle de configuration**.
+5. Sur la page **Modèles configuration**, sélectionnez un modèle existant à copier, puis choisissez le bouton **OK**.
+
+L'ID table, le nom de la table, et les lignes du modèle de données existant sont insérés dans le nouveau modèle.
+
+### <a name="to-create-a-data-template-header-manually"></a>Pour créer un en-tête de modèle de données manuellement
+1. Ouvrez la page **Modèles configuration**.
+2. Sélectionnez l'action **Nouveau**.
+3. Complétez le champ **Code**.
 3. Dans le champ **ID table**, entrez la table à laquelle ce modèle s'applique. Le champ **Nom table** est automatiquement renseigné lorsque le champ **ID table** est défini.
 
-### <a name="to-create-a-data-template-line"></a>Pour créer une ligne de modèle de données
-1. Sur la première ligne, sélectionnez le champ **Nom champ**. La fenêtre **Liste des champs** affiche la liste des champs de la table.
+### <a name="to-create-a-data-template-line-manually"></a>Pour créer une ligne de modèle de données manuellement
+1. Sur la première ligne, sélectionnez le champ **Nom champ**. La page **Liste des champs** affiche la liste des champs de la table.
 2. Sélectionnez un champ, puis cliquez sur le bouton **OK**. Le champ **Légende champ** est renseigné avec le nom du champ.
 3. Dans le champ **Valeur par défaut**, entrez une valeur appropriée. Dans certains cas, vous pouvez utiliser une valeur qui n’est pas une valeur disponible dans la base de données. Dans ce cas, vous pouvez cocher la case **Ignorer vérification relation** pour permettre le lettrage de données sans erreur.
 
     > [!TIP]  
     > Dans la mesure où le champ **Valeur par défaut** ne permet pas de rechercher les options de champ [!INCLUDE[d365fin](includes/d365fin_md.md)] correspondantes, vous copiez et collez la valeur requise de la page associée vers le modèle.
 
-    > Activez la case à cocher **Obligatoire**. La case est à titre d’information uniquement. Elle vous indique que les informations doivent être entrées dans le champ par l’utilisateur, mais aucune logique métier n’est appliquée. Par exemple, il n’est pas possible de facturer et valider une commande si les groupes comptabilisation n’ont pas été paramétrés. Étant donné que les groupes comptabilisation sont nécessaires, vous pouvez cocher la case **Obligatoire** pour ces champs.
+4. Activez la case à cocher **Obligatoire** si les utilisateurs doivent renseigner le champ en question.
 
-3. Dans le champ **Référence**, entrez les informations relatives au champ comme vous le souhaitez.
-4. Cliquez sur le bouton **OK**.
+    > [!NOTE]
+    > La case est à titre d’information uniquement. Aucune logique système n'est mise en vigueur. Par exemple, les utilisateurs ne peuvent pas valider une facture si les groupes comptabilisation n’ont pas été paramétrés. Vous pouvez activer la case à cocher **Obligatoire** concernant ces champs pour que l'utilisateur les renseigne et ainsi éviter une erreur de validation ultérieurement.
+5. Dans le champ **Référence**, entrez les informations relatives au champ comme vous le souhaitez.
+6. Cliquez sur le bouton **OK**.
 
 ## <a name="to-export-to-a-template-in-excel"></a>Pour effectuer une exportation vers un modèle dans Excel
 Vous pouvez rapidement créer un classeur Excel qui servira de modèle basé sur la structure d’une table de données de base existante. Vous pouvez alors utiliser ce modèle pour rassembler les données du client sous un format cohérent afin de les importer ultérieurement dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -87,7 +101,7 @@ Vous pouvez désormais entrer des données client dans la feuille de calcul Exce
 > L’erreur suivante peut se produire lorsque vous exécutez une version anglaise d’Excel, mais que les paramètres régionaux sont configurés pour une langue autre que l’anglais : « Ancien format ou bibliothèque de type non valide ». Pour corriger cette erreur, assurez-vous que le module linguistique de la langue autre que l’anglais est installé.
 
 ## <a name="to-import-from-a-template-in-excel"></a>Pour effectuer une importation à partir d’un modèle dans Excel
-1. Dans la fenêtre **Feuille config**, sélectionnez l'action **Importer depuis modèle**.
+1. Sur la page **Feuille configuration**, sélectionnez l'action **Importer depuis modèle**.
 3. Accédez au modèle de feuille que vous avez créé, puis sélectionnez l'action **Ouvrir**.
 4. Pour ajouter les données client collectées à la base de données, choisissez l'action **Appliquer données**.
 
@@ -117,8 +131,8 @@ Vous pouvez appliquer un modèle de données à un enregistrement qui figure dan
 La procédure suivante se base sur une nouvelle fiche article.  
 
 1. Créez un client. Pour plus d'informations, reportez vous à [Enregistrer de nouveaux clients](sales-how-register-new-customers.md).
-2. Dans la fenêtre **Fiche client**, sélectionnez l'action **Appliquer modèle**.  
-3. Dans la fenêtre **Modèles client**, sélectionnez l'un des modèles, puis cliquez sur le bouton **OK**.  
+2. Sur la page **Fiche client**, sélectionnez l'action **Appliquer modèle**.  
+3. Sur la page **Modèles client**, sélectionnez l'un des modèles, puis cliquez sur le bouton **OK**.  
 
 Les valeurs par défaut du modèle client choisi sont insérées dans la fiche client.
 

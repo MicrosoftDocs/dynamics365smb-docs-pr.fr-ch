@@ -16,10 +16,10 @@ ms.date: 10/01/2018
 ms.author: bholtorf
 redirect_url: finance-set-up-cost-accounting
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 1682db5bd62f980e8789613cd2ca4169f98e839d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: abf7e9cf01c8d394a022e384584e32e78c754639
 ms.contentlocale: fr-ch
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="managing-payables"></a>Gestion des comptes fournisseur
@@ -36,10 +36,10 @@ Vous pouvez appliquer des paiements pour clôturer les factures lorsque vous val
 [!INCLUDE[d365fin](includes/d365fin_md.md)] peut proposer différents paiements aux fournisseurs, tels que les paiements arrivant à échéance ou les paiements donnant lieu à un escompte. La proposition de paiement peut tenir compte du montant que vous avez défini comme fonds disponibles pour le paiement, ainsi que de la possibilité d'escompte lors du paiement.
 
 ## <a name="issue-checks"></a>Émettre des chèques
-[!INCLUDE[d365fin](includes/d365fin_md.md)] vous permet d'émettre des chèques aux fournisseurs manuellement et par voie électronique. Vous pouvez effectuer les deux dans la fenêtre **Feuilles paiement**, dans laquelle vous pouvez également annuler des chèques et afficher des écritures comptables chèque.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] vous permet d'émettre des chèques aux fournisseurs manuellement et par voie électronique. Vous pouvez effectuer les deux sur la page **Feuilles paiement**, sur laquelle vous pouvez également annuler des chèques et afficher des écritures comptables chèque.
 
 ## <a name="export-payments-to-a-bank-file"></a>Exporter des paiements vers un fichier bancaire
-Lorsque vous êtes prêt à régler un fournisseur, dans la fenêtre **Feuille paiement**, vous pouvez exporter un fichier contenant les informations de paiement sur les lignes feuille. Vous pouvez ensuite transférer le fichier à votre banque électronique afin qu'elle traite les transferts d'argent.
+Lorsque vous êtes prêt à régler un fournisseur, sur la page **Feuille paiement**, vous pouvez exporter un fichier contenant les informations de paiement sur les lignes feuille. Vous pouvez ensuite transférer le fichier à votre banque électronique afin qu'elle traite les transferts d'argent.
 
 Si vous ne souhaitez pas valider une ligne feuille paiement pour un paiement exporté, par exemple parce que vous attendez la confirmation de la banque que la transaction a été traitée, vous pouvez simplement supprimer la ligne feuille. Par la suite, lorsque vous créez une ligne feuille paiement pour payer le montant ouvert de la facture, le champ **Montant total exporté** affiche la quantité du montant ayant déjà été exportée. En outre, vous pouvez rechercher des informations détaillées concernant le total exporté en cliquant sur le bouton **Écritures reg. virement**.
 

@@ -11,14 +11,14 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 11/19/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b66a33d652d4229a32ed4672774e5b2bc2ed8833
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 353662322e36a564f30bc911f056817cafa7440c
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="changing-basic-settings"></a>Modification des paramètres de base
-Dans la fenêtre [**Mes paramètres**](https://businesscentral.dynamics.com?page=9176 "Accédez directement à votre page Paramètres utilisateurs dans Business Central") la fenêtre, vous pouvez visualiser et modifier les paramètres de base pour [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vos modifications affectent uniquement votre espace de travail, et non les espaces de travail des autres utilisateurs.  
+Sur la page [**Mes paramètres**](https://businesscentral.dynamics.com?page=9176 "Accédez directement à votre page Paramètres utilisateurs dans Business Central"), vous pouvez visualiser et modifier les paramètres de base pour [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vos modifications affectent uniquement votre espace de travail, et non les espaces de travail des autres utilisateurs.  
 
 ## <a name="role-center"></a> Tableau de bord
 Le tableau de bord représente la page d'accueil, un écran de démarrage conçu pour les exigences d'un rôle spécifique dans une organisation. Selon votre rôle, le tableau de bord donne une vue d'ensemble de l'entreprise, de votre département ou de vos tâches personnelles. Il vous permet également d'accéder à vos tâches quotidiennes et de rechercher les tâches qui vous sont affectées.
@@ -30,7 +30,7 @@ Le tableau de bord représente la page d'accueil, un écran de démarrage conçu
 ### <a name="to-change-role-center"></a>Pour modifier le tableau de bord
 Le Tableau de bord par défaut est **Gestionnaire d'activité**, mais vous pouvez sélectionner un autre Tableau de bord qui correspond mieux à vos besoins mieux.
 1. Dans le coin supérieur droit, sélectionnez l'icône **Paramètres** ![Paramètres](media/ui-experience/settings_icon_small.png "Icône Paramètres du tableau de bord"), puis sélectionnez **Mes paramètres**.
-2. Dans la fenêtre **Mes paramètres**, dans le champ **Tableau de bord** , sélectionnez le Tableau de bord que vous souhaitez définir comme standard. Par exemple, sélectionnez **Comptable**.
+2. Sur la page **Mes paramètres**, dans le champ **Tableau de bord** , sélectionnez le Tableau de bord que vous souhaitez définir comme standard. Par exemple, sélectionnez **Comptable**.
 3. Cliquez sur le bouton **OK**.
 
 ## <a name="company"></a>Société
@@ -39,7 +39,7 @@ Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], une société fonctionne comme
 La société par défaut est appelée CRONUS et contient uniquement des données de démonstration.
 
 > [!TIP]  
->   Pour afficher un nom différent pour votre société dans l'application (par exemple sur le Tableau de bord), définissez le champ **Nom** sur la fenêtre **Informations société** ou le champ **Nom d'affichage** sur la fenêtre **Sociétés**.  
+>   Pour afficher un nom différent pour votre société dans l'application (par exemple sur le Tableau de bord), définissez le champ **Nom** sur la page **Informations société** ou le champ **Nom d'affichage** sur la page **Sociétés**.  
 
 ## <a name="work-date"></a>Date de travail
 La date de travail par défaut est généralement la date du jour. Vous pouvez être amené à modifier temporairement la date de travail pour effectuer des tâches telles que l'exécution de transactions à une date différente de la date actuelle, .

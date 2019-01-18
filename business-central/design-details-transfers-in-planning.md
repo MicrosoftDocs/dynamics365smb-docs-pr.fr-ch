@@ -13,10 +13,10 @@ ms.search.keywords: design, transfer, sku, locations, warehouse
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fc3f1c3d8a8baab17695c22afb00c35413504ce8
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: dbf1658893d5210c38994302ae817afa7349884a
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-transfers-in-planning"></a>Détails de conception : transferts de planification
@@ -33,7 +33,7 @@ Un ordre de transfert ressemble aux autres ordres du programme. Toutefois, en co
 
 L'un aspect fondamental qui distingue les transferts dans la planification entre les commandes achat et les ordres de fabrication est qu'une ligne transfert représente la demande et l'approvisionnement en même temps. La partie sortante, qui est expédiée à partir de l'ancien magasin, est la demande. La partie entrante, qui doit être reçue au nouveau magasin, est un approvisionnement à ce magasin.  
 
-![Contenu de la fenêtre Ordre de transfert](media/nav_app_supply_planning_7_transfers3.png "Contenu de la fenêtre Ordre de transfert")  
+![Contenu de la page Ordre de transfert](media/nav_app_supply_planning_7_transfers3.png "Contenu de la page Ordre de transfert")  
 
 Cela signifie que lorsque le système traite le côté approvisionnement du transfert, il doit effectuer une modification semblable du côté de la demande.  
 
@@ -64,7 +64,7 @@ Le code de niveau de transfert est un champ interne qui est automatiquement calc
 
 Le code de niveau de transfert est de 0 pour les points de stock avec système de réapprovisionnement Purchase ou Prod. Order et est -1 pour le premier niveau de transfert, -2 pour le deuxième et ainsi de suite. Dans la chaîne de transfert décrite précédemment, les niveaux sont donc -1 pour ROUGE et -2 pour VERT, comme l'indiquent la figure suivante.  
 
-![Contenu de la fenêtre Fiche point de stock](media/nav_app_supply_planning_7_transfers6.gif "Contenu de la fenêtre Fiche point de stock")  
+![Contenu de la page Fiche point de stock](media/nav_app_supply_planning_7_transfers6.gif "Contenu de la page Fiche point de stock")  
 
 Lors de la mise à jour d'un point de stock, le système de planification détecte si les points de stock avec transfert du système de réapprovisionnement sont configurés avec des références circulaires.  
 
@@ -135,7 +135,7 @@ Dans cet exemple, cela signifie que :
 * Date fin + Traitement entrant = Date de réception  
 
 ## <a name="safety-lead-time"></a>Délai de sécurité  
-Le champ Délai de sécurité par défaut de la fenêtre Paramètres production et le champ associé Délai de sécurité de la fiche article ne sont pas pris en compte dans le calcul d'un ordre de transfert. Toutefois, ce délai de sécurité influence toujours le programme entier comme il affecte l'ordre de réapprovisionnement (achat ou production) au début de la chaîne de transfert lorsque les articles sont mis dans le magasin à partir duquel ils seront transférés.  
+Le champ Délai de sécurité par défaut de la page Paramètres production et le champ associé Délai de sécurité de la fiche article ne sont pas pris en compte dans le calcul d'un ordre de transfert. Toutefois, ce délai de sécurité influence toujours le programme entier comme il affecte l'ordre de réapprovisionnement (achat ou production) au début de la chaîne de transfert lorsque les articles sont mis dans le magasin à partir duquel ils seront transférés.  
 
 ![Éléments de la date d'échéance de transfert](media/nav_app_supply_planning_7_transfers14.png "Éléments de la date d'échéance de transfert")  
 

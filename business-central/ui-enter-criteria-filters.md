@@ -11,10 +11,10 @@ ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f1ee115c258c25d8b695a0394dbaa11247b9b8ab
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f0cdb045d314a630e795ec744f2f4470d930835a
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="sorting-searching-and-filtering-lists"></a>Tri, recherche et filtrage de listes
@@ -123,7 +123,7 @@ Un volet filtre est divisé en trois sections : **Vues**, **Filtrer la liste pa
   Pour ajouter un filtre, sélectionnez **+ Filtre**, sélectionnez l'un des axes prédéfinis, puis ajoutez les critères de filtre dans la zone.
 
   > [!NOTE]
-  > Les filtres de la section **Filtrer les totaux par** sont contrôlés par les FlowFilters de la conception de page. Pour des informations techniques, voir [FlowFilters](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
+  > Les filtres de la section **Filtrer les totaux par** sont contrôlés par les FlowFilters sur la conception de page. Pour des informations techniques, voir [FlowFilters](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
 
 
 ### <a name="entering-filter-criteria-in-the-filter-pane"></a>Saisie de critères de filtre dans le volet Filtre

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d589c05f4b9805e9c8459d2da6d9099e40186aec
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e83d3d039af77772626b75052acb17abf4fb3dd7
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="print-test-reports-for-delivery-reminders"></a>Imprimer des rapports de test pour les relances livraison
@@ -27,8 +27,8 @@ Un rapport de test est un document qui vous permet d'examiner et de modifier une
 ## <a name="to-print-test-reports-before-issuing-delivery-reminders"></a>Pour imprimer des rapports de test pour les relances livraison  
 
 1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Relance livraison**, puis sélectionnez le lien connexe.  
-2.  Dans la fenêtre **Liste relances livraison**, cliquez sur l'action **Relance livraison - Test**.  
-3.  Dans la fenêtre **Relance livraison - Test**, définissez un filtre pour imprimer uniquement les relances livraison sélectionnées.  
+2.  Dans la page **Liste relances livraison**, cliquez sur l'action **Relance livraison - Test**.  
+3.  Dans la page **Relance livraison - Test**, définissez un filtre pour imprimer uniquement les relances livraison sélectionnées.  
 4.  Sélectionnez **Imprimer** pour imprimer l'état, ou le bouton **Aperçu** pour l'afficher à l'écran.  
 
 ## <a name="see-also"></a>Voir aussi  

@@ -13,17 +13,17 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d66ad263235d7f123f731263b0f13a009a1e20fd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7184143303dd1a8b04d8d740d83f35f1fa19485a
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="plan-warehouse-movements-in-worksheets"></a>Planifier des mouvements entrepôt dans la feuille
 Planifiez les mouvements de la feuille à l'aide de la fonction réapprovisionnement emplacement ou en planifiant manuellement les lignes à créer en tant qu'instructions mouvement.  
 
 ## <a name="to-calculate-a-replenishment-movement"></a>Pour calculer des mouvements de réapprovisionnement  
-Au fur et à mesure que l'entrepôt expédie des articles aux clients, les emplacements les mieux classés contiennent de moins en moins d'articles. Pour remplir ces emplacements prélèvement avec des articles issus d'autres emplacements, exécutez la fonction **Calculer réappro. emplacement** de la fenêtre **Feuille mouvements**.
+Au fur et à mesure que l'entrepôt expédie des articles aux clients, les emplacements les mieux classés contiennent de moins en moins d'articles. Pour remplir ces emplacements prélèvement avec des articles issus d'autres emplacements, exécutez la fonction **Calculer réappro. emplacement** sur la page **Feuille mouvements**.
 
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille mouvement**, puis sélectionnez le lien associé.  
 2.  Choisissez l'action **Calculer réappro. emplacement**.  
@@ -47,8 +47,8 @@ Au fur et à mesure que l'entrepôt expédie des articles aux clients, les empla
 Vous pouvez également utiliser la feuille mouvements pour planifier d'autres mouvements de stock dans l'entrepôt. Par exemple, lorsque vous souhaitez placer des articles dans un emplacement pour contrôler la qualité, utilisez la feuille mouvements pour planifier cette action et créez un mouvement pour élaborer des instructions destinées à un employé.  
 
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille mouvement**, puis sélectionnez le lien associé.  
-2.  Choisissez l'action **Extraire contenu emplacement**. Utilisez le formulaire de sélection pour filtrer les emplacements et les articles que vous souhaitez voir figurer sur les lignes de la feuille mouvement.  
-3.  Renseignez les champs pertinents du formulaire de sélection du traitement par lots. Pour visualiser, par exemple, le contenu emplacement de tous les emplacements d'une zone donnée au niveau de l'emplacement, renseignez le champ **Code zone**. Pour extraire les lignes de chaque emplacement qui contient un article spécifique, renseignez le champ **N° article**.  
+2.  Choisissez l'action **Extraire contenu emplacement**. Vous pouvez utiliser la page de demande pour filtrer les emplacements et les articles que vous souhaitez voir figurer sur les lignes de la feuille mouvement.  
+3.  Renseignez les champs pertinents de la page de demande de traitement par lots. Pour visualiser, par exemple, le contenu emplacement de tous les emplacements d'une zone donnée au niveau de l'emplacement, renseignez le champ **Code zone**. Pour extraire les lignes de chaque emplacement qui contient un article spécifique, renseignez le champ **N° article**.  
 
     > [!NOTE]  
     >  Vous ne pouvez pas déplacer manuellement des articles vers ou depuis un emplacement de type RECEPTIONNER, car les articles dans ce type d'emplacement doivent être enregistrés comme étant rangés avant de faire partie du stock disponible.  
@@ -60,7 +60,7 @@ Vous pouvez également utiliser la feuille mouvements pour planifier d'autres mo
     >   
     >  -   L'article a une date de péremption.  
     > -   La case à cocher **Prélèvement selon FEFO** sur la fiche magasin doit être cochée.  
-    > -   La case à cocher **Emplacement obligatoire** de la fiche magasin est cochée.  
+    > -   La case à cocher **Emplacement obligatoire** de la fiche magasin est activée.  
     > -   Les champs **De zone** et **D'emplacement** sont vides.  
 
 5.  Complétez certaines des lignes extraites de manière à indiquer les changements à apporter. Pour chaque article à déplacer, vous devez renseigner les champs **N° article**, **Du code emplacement**, **Vers code emplacement** et **Quantité**.  

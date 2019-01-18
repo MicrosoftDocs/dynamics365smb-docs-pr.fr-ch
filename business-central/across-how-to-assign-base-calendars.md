@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 5ff369b1d9ef8bb4986d4be0d885d4088205f570
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2b1820a65fd1e9cd4e41828caddd737e79a2a45b
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-base-calendars"></a>Configurer des calendriers principaux
@@ -27,7 +27,7 @@ Vous pouvez affecter un calendrier principal à votre société et à ses parten
 2.  Sélectionnez l'action **Nouveau**.  
 3.  Complétez le champ **Code**.  
 4. Choisissez l'action **Gérer modifications calendrier principal**.
-5. Dans la fenêtre **Modifications calendrier principal**, utilisez le champ **Système abonnement** pour sélectionner une date ou un jour spécifique comme jour chômé récurrent. Vous pouvez choisir l'option **Abonnement annuel** ou **Abonnement hebdomadaire**.  
+5. Sur la page **Modifications calendrier principal**, utilisez le champ **Système abonnement** pour sélectionner une date ou un jour spécifique comme jour chômé récurrent. Vous pouvez choisir l'option **Abonnement annuel** ou **Abonnement hebdomadaire**.  
 
     Si vous sélectionnez **Abonnement annuel**, vous devez également entrer la date appropriée dans le champ **Date**.  
 
@@ -37,7 +37,7 @@ Lorsque vous créez une écriture, le champ **Jour chômé** est sélectionné. 
  Lorsque vous affichez de nouveau la fiche calendrier principal, vous observerez que les écritures jour chômé que vous avez créées ont été mises à jour. Ces écritures s'affichent désormais en rouge et le champ **Jour chômé** est sélectionné.  
 
 > [!NOTE]  
->  Lorsque vous paramétrez un nouveau calendrier principal, vous pouvez sélectionner des lignes dans un calendrier et les copier. Pour cela, utilisez la fenêtre **Modifications calendrier principal** correspondante.  
+>  Lorsque vous paramétrez un nouveau calendrier principal, vous pouvez sélectionner des lignes dans un calendrier et les copier. Pour cela, utilisez la page **Modifications calendrier principal** correspondante.  
 
 > [!IMPORTANT]  
 >  Le calendrier principal défini pour le fournisseur ou le magasin affecte uniquement la manière dont les dates sont calculées et arrondies en jours ouvrés.
@@ -57,7 +57,7 @@ Le calendrier principal défini pour le fournisseur ou le magasin affecte unique
 > [!Important]
 > Si votre magasin utilise un calendrier sensiblement différent de celui de vos fournisseurs, il est important de créer des calendriers spécifiques pour ces fournisseurs, pour calculer les délais fournisseur optimaux. Pour plus d'informations sur le paramétrage des calendriers fournisseur, voir la section « Pour affecter un calendrier principal ».
 
-La valeur du champ **Délai de réappro.** est copiée à partir de la fiche article ou de la fiche point de stock, si le délai est défini pour l'article, ou dans la fenêtre **Catalogue fournisseur articles**, si le délai est défini pour le fournisseur.
+La valeur du champ **Délai de réappro.** est copiée à partir de la fiche article ou de la fiche point de stock, si le délai est défini pour l'article, ou sur la page **Catalogue fournisseur articles**, si le délai est défini pour le fournisseur.
 
 ## <a name="to-customize-a-calendar"></a>Pour personnaliser un calendrier
 Lorsque vous personnalisez un calendrier principal pour votre société ou pour l'un de ses partenaires commerciaux, votre tâche consiste essentiellement à modifier le statut des jours ouvrés et chômés.
@@ -68,7 +68,7 @@ La procédure suivante illustre l'exemple d'un magasin. Remarquez que, à ce sta
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Magasins**, puis choisissez le lien associé.
 2. Ouvrez le magasin que vous voulez mettre à jour, puis sélectionnez le champ **Calendrier personnalisé**. Notez qu'un calendrier doit être sélectionné dans le champ **Code calendrier principal**.
-3. Dans la fenêtre **Écritures calendrier personnalisé** qui s'ouvre, choisissez l'action **Conserver modifications calendrier personnalisé**.
+3. Sur la page **Écritures calendrier personnalisé** qui s'ouvre, choisissez l'action **Conserver modifications calendrier personnalisé**.
 4. Dans la fenêtre **Modifications calendrier personnalisé**, ajoutez des lignes pour les écritures calendrier personnalisé.
 
     Lorsque vous entrez une ligne, la case à cocher **Jour chômé** est activé. Vous pouvez désactiver cette case à cocher pour passer au statut Jour ouvré.
@@ -77,9 +77,9 @@ La procédure suivante illustre l'exemple d'un magasin. Remarquez que, à ce sta
 
     Si vous sélectionnez **Abonnement annuel**, vous devez également entrer la date appropriée dans le champ **Date**. Si vous sélectionnez **Abonnement hebdomadaire**, vous devez également sélectionner le jour de la semaine approprié dans le champ **Jour**. Si vous ne remplissez pas ce champ, vous devez compléter le champ **Date**. Le champ **Jour** est renseigné automatiquement. Cette opération se révèle utile si vous souhaitez marquer une date comme un jour chômé ou ouvré.
 
-5. Cliquez sur le bouton **OK**.
+5. Choisissez le bouton **OK**.
 
-Dans la fenêtre **Écritures calendrier personnalisé**, vous constaterez que les écritures de date sont mises à jour conformément aux modifications apportées.
+Sur la page **Écritures calendrier personnalisé**, vous constaterez que les écritures de date sont mises à jour conformément aux modifications apportées.
 
 Sur la fiche Magasin, le champ **Calendrier personnalisé** affiche **Oui**, indiquant ainsi que le calendrier personnalisé a été configuré.
 
@@ -100,7 +100,7 @@ Les calendriers principaux sont affectés à votre propre société, à vos clie
 -   Sur les fiches **Informations société** et **Client**, le calendrier principal est affecté sur le raccourci **Expédition** .  
 -   Sur la fiche **Fournisseur**, le calendrier principal est affecté sur le raccourci **Réception**.  
 -   Sur la fiche **Magasin**, le calendrier principal est affecté sur le raccourci **Entrepôt**.  
--   Dans la fenêtre **Transporteurs** , le calendrier principal est affecté dans la fenêtre **Prestations transporteur**.  
+-   Sur la page **Transporteurs** , le calendrier principal est affecté sur la page **Prestations transporteur**.  
 
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Clients**, puis sélectionnez le lien associé.  
 2.  Ouvrez la fiche **Client** pour laquelle vous allez affecter un calendrier principal.  

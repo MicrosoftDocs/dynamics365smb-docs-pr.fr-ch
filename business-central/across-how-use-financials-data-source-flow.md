@@ -9,17 +9,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: workflow, Odata, Power App, SOAP
-ms.date: 10/01/2018
+ms.date: 10/16/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f7ae293942318c682202a84f0a54ae8b0516c77b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6f79bd9a5e3f79d4366a1a43411fe39942ac4e4f
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="using-included365finincludesd365finmdmd-in-an-automated-workflow"></a>Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] dans un flux automatisé
-Vous pouvez utiliser vos données [!INCLUDE[d365fin](includes/d365fin_md.md)] en tant que partie du flux de travail dans Microsoft Flow.  
+Vous pouvez utiliser vos données [!INCLUDE[d365fin](includes/d365fin_md.md)] en tant que partie du flux de travail dans Microsoft Flow.
+
+> [!NOTE]
+> En plus de Microsoft Flow, vous pouvez utiliser la fonctionnalité de flux de travail dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Remarquez que bien qu'ils soient deux systèmes de flux de travail distincts, tous les modèles Flow que vous créez dans Microsoft Flow est ajouté à la liste des modèles de flux de travail dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, voir [Flux de travail](across-workflow.md).  
 
 > [!NOTE]  
 >   Vous devez disposer d'un compte valide avec [!INCLUDE[d365fin](includes/d365fin_md.md)] et avec Flow.  
@@ -28,7 +31,7 @@ Vous pouvez utiliser vos données [!INCLUDE[d365fin](includes/d365fin_md.md)] en
 1. Dans votre navigateur, accédez à [flow.microsoft.com](https://flow.microsoft.com/en-us/), puis connectez-vous.
 2. Choisissez **Mes flux** dans le ruban en haut de la page.
 3. Il existe 2 façons de créer un flux ; **Créer à partir d'un modèle** et **Créer à partir de rien**. Un modèle est un flux prédéfini créé pour vous.  Pour utiliser un modèle, il suffit de le sélectionner et de créer une connexion pour chaque service qu'il utilise. Un modèle vide vous permet de créer un flux complètement nouveau.
-4. Pour créer à partir de rien, dans la fenêtre **Mes flux**, cliquez sur l'option **Créer à partir de rien**.
+4. Pour créer à partir de rien, sur la page **Mes flux**, cliquez sur l'option **Créer à partir de rien**.
 5. Recherchez un connecteur **Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]**.
 6. Dans la liste des déclencheurs disponibles, sélectionnez l'un des déclencheurs [!INCLUDE[d365fin](includes/d365fin_md.md)] disponibles :  
     *Lorsque l'approbation d'un client est exigée*,  
@@ -58,9 +61,6 @@ Vous pouvez utiliser vos données [!INCLUDE[d365fin](includes/d365fin_md.md)] en
     *Demander l'approbation pour les noms feuille comptabilité Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]*,  
     *Demander l'approbation pour les lignes feuille comptabilité Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]*.  
 11. Flow vous invite à sélectionner une société dans votre abonné [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. Comme chaque étape du flux est indépendante de la suivante, vous devrez peut-être définir plusieurs fois la société lorsque vous utilisez un modèle [!INCLUDE[d365fin_md](includes/d365fin_md.md)] Flow.
-
-> [!NOTE]  
-> Le modèle [!INCLUDE[d365fin_md](includes/d365fin_md.md)] Flow s'intègre avec le moteur de flux de travail principal dans [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. Cela signifie que chaque fois que vous utilisez l'un de ces modèles pour créer un flux, un flux correspondant est créé au sein de [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. En outre, la personne créant le flux doit être configurée comme approbateur le guide de configuration assistée. Pour plus d'informations, voir [Flux de travail](across-workflow.md).
 
 Pour plus d'informations, voir [Documentation Flow](https://docs.microsoft.com/en-us/flow/getting-started).
 

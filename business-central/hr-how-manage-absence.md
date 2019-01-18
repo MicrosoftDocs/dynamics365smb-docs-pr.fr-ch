@@ -12,19 +12,19 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: 09866f6774af5b2d9644015e986772052146d901
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9391da5eb5fb06bfcaaf8ee2503f694801888d2f
 ms.contentlocale: fr-ch
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="manage-employee-absence"></a>Gérer les absences des salariés
-Pour gérer l'absence d'un salarié, vous devez l'enregistrer dans la fenêtre **Saisie des absences**. Elle peut alors être affichée de différentes façons à des fins d'analyse ou de génération d'état.
+Pour gérer l'absence d'un salarié, vous devez l'enregistrer sur la page **Saisie des absences**. Elle peut alors être affichée de différentes façons à des fins d'analyse ou de génération d'état.
 
-Vous pouvez afficher les absences des salariés dans deux fenêtres différentes :
+Vous pouvez afficher les absences des salariés sur deux pages différentes :
 
-* La fenêtre **Saisie des absences** est la fenêtre dans laquelle vous enregistrez les absences de tous les salariés, avec une ligne par absence.
-* La fenêtre **Absences salarié** affiche les absences d'un seul salarié. Les informations affichées sont celles que vous avez entrées dans la fenêtre **Saisie des absences**, filtrées pour ce salarié.
+* La page **Saisie des absences** est la fenêtre dans laquelle vous enregistrez les absences de tous les salariés, avec une ligne par absence.
+* La page **Absences salarié** affiche les absences d'un seul salarié. Les informations affichées sont celles que vous avez entrées sur la page **Saisie des absences**, filtrées pour ce salarié.
 
 Pour obtenir des statistiques significatives, vous devez toujours utiliser la même unité de mesure (heure ou jour) lors de l'enregistrement des absences des salariés.
 
@@ -34,7 +34,7 @@ Vous pouvez enregistrer les absences des salariés quotidiennement ou à un autr
 1. Dans le coin supérieur droit, sélectionnez l'icône **Page ou état pour la recherche**, entrez **Saisie des absences**, puis sélectionnez le lien connexe.
 2. Sélectionnez l'action **Nouveau**.
 3. Renseignez une ligne pour chaque absence salarié que vous souhaitez enregistrer.
-4. Fermez la fenêtre.
+4. Fermez la page.
 
     > [!Tip]
     > Pour obtenir des statistiques pertinentes, utilisez toujours la même unité de mesure, heure ou journée, lors de l'enregistrement des absences.
@@ -43,30 +43,30 @@ Vous pouvez enregistrer les absences des salariés quotidiennement ou à un autr
 1. Dans le coin supérieur droit, sélectionnez l'icône **Page ou état pour la recherche**, entrez **Employés**, puis sélectionnez le lien connexe.
 2. Sélectionnez l'employé concerné, puis cliquez sur **Absences**.
 
-    La fenêtre **Absences salariés** affiche toutes les absences et les dates de début et de fin.
+    La page **Absences salariés** affiche toutes les absences et les dates de début et de fin.
 
 ## <a name="to-view-an-employees-absence-by-categories"></a>Pour afficher les absences d'un salarié par catégorie
 1. Dans le coin supérieur droit, sélectionnez l'icône **Page ou état pour la recherche**, entrez **Employés**, puis sélectionnez le lien connexe.
 2. Sélectionnez l'employé concerné, puis cliquez sur **Absences par catégories**.
-3. Dans la fenêtre **Absences salariés par cat.**, renseignez les champs selon vos besoins, puis cliquez sur **Afficher matrice**.
+3. Sur la page **Absences salariés par cat.**, renseignez les champs selon vos besoins, puis cliquez sur **Afficher matrice**.
 
-    La fenêtre **Matrice Abs. Salariés par Cat.** s'ouvre et affiche toutes les absences, classées par motif d'absence.
+    La page **Matrice Abs. Salariés par Cat.** s'ouvre et affiche toutes les absences, classées par motif d'absence.
 
 ## <a name="to-view-all-employee-absences-by-category"></a>Pour afficher toutes les absences des salariés par catégorie
 1. Dans le coin supérieur droit, sélectionnez l'icône **Page ou état pour la recherche**, entrez **Saisie des absences**, puis sélectionnez le lien connexe.
-2. Dans la fenêtre **Saisie des absences**, cliquez sur **Détail par catégorie**.
-3. Dans la fenêtre **Détail absences par catégorie**, définissez un filtre dans le champ **Filtre n° salarié** afin de visualiser les absences d'un individu ou d'un groupe de salariés.
+2. Sur la page **Saisie des absences**, cliquez sur **Détail par catégorie**.
+3. Sur la page **Détail absences par catégorie**, définissez un filtre dans le champ **Filtre n° salarié** afin de visualiser les absences d'un individu ou d'un groupe de salariés.
 4. Choisissez l'action **Afficher matrice**.
 
-    La fenêtre **Détail absences par catégorie** s'ouvre et affiche les absences des salariés par motif d'absence.
+    La page **Détail absences par catégorie** s'ouvre et affiche les absences des salariés par motif d'absence.
 
 ## <a name="to-view-all-employee-absences-by-period"></a>Pour afficher toutes les absences des salariés par période
 1. Dans le coin supérieur droit, sélectionnez l'icône **Page ou état pour la recherche**, entrez **Saisie des absences**, puis sélectionnez le lien connexe.
-   Dans la fenêtre **Saisie des absences**, cliquez sur **Détail par période**.
-2. Dans la fenêtre **Détail absences par période**, définissez un filtre dans le champ **Filtre motif absence** afin de visualiser les absences des salariés liées à un motif particulier.
+   Sur la page **Saisie des absences**, cliquez sur **Détail par période**.
+2. Sur la page **Détail absences par période**, définissez un filtre dans le champ **Filtre motif absence** afin de visualiser les absences des salariés liées à un motif particulier.
 3. Choisissez l'action **Afficher matrice**.
 
-    La fenêtre **Détail absences par période** s'ouvre et affiche les absences des salariés réparties par période.
+    La page **Détail absences par période** s'ouvre et affiche les absences des salariés réparties par période.
 
 ## <a name="see-also"></a>Voir aussi
 [Gérer les ressources humaines](hr-manage-human-resources.md)  

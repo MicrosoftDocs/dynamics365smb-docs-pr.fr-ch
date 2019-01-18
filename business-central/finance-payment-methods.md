@@ -1,30 +1,40 @@
 ---
 title: "Paramétrer des modes de règlement| Microsoft Docs"
-description: "Vous utilisez des modes de règlement, par exemple, les chèques, le transfert bancaire, les espèces, ou Paypal, pour définir la façon dont une facture est payée."
-author: edupont04
+description: "Vous utilisez des modes de règlement, par exemple, les chèques, le transfert bancaire, les espèces, ou Paypal, pour définir la façon dont les factures vente et achat sont payées."
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: check, bank transfer, cash, PayPal
-ms.date: 10/01/2018
-ms.author: edupont
+ms.date: 11/22/2018
+ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 9583d69f91963d8ee6a69e7145930c1f6c2df955
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8cac52a1cdd4e614c6e2ef8c027e5cf499926f9d
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="defining-payment-methods"></a>Définition des modes de règlement
-Les modes de règlement définissent la manière dont une facture doit être payée. Vous pouvez configurer autant de modes de règlement que nécessaire. Parmi les exemples de modes de règlement on trouve BANQUE, TRÉSORERIE, CHÈQUE, ou COMPTE.
-Les modes de règlement sont liés aux fournisseurs afin d'indiquer la façon dont une facture d'un fournisseur spécifique doit être payée.
+Les modes de règlement définissent le mode de paiement que vous souhaitez voir vos clients utiliser, et comment vous souhaitez payer les fournisseurs. Le mode peut varier pour chaque client ou fournisseur. Les exemples de modes de règlement courants sont **virement**, **espèces**, **chèque** ou **dépôt**. 
 
-## <a name="to-set-up-a-payment-methods"></a>Pour configurer un mode de règlement
-Plusieurs modes de règlement courants sont déjà définis dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vous pouvez définir de nouveaux modes de règlement dans la fenêtre **Modes de règlement**, tous se trouvant avec la fonction de recherche ou en ouvrant le champ **Mode de règlement** d'une fiche fournisseur ou client.
+Vous pouvez affecter un mode de règlement aux clients et aux fournisseurs pour que le même mode soit toujours utilisé dans les documents achat et vente que vous créez pour eux. Si nécessaire, vous pouvez modifier le mode du document vente ou achat. Par exemple, si vous souhaitez payer une facture achat donnée en espèces plutôt que par le chèque. Cela ne modifie pas le mode de règlement par défaut affecté au fournisseur.
+
+Les mêmes modes de règlement sont utilisés pour les documents vente et achat. Par exemple, un mode de règlement _espèces_ est utilisé lorsque vous effectuez des paiements et lorsque vous recevez les. [!INCLUDE[d365fin](includes/d365fin_md.md)] sait que lorsque vous créez une facture vente vous pensez recevoir le paiement, et inversement pour les factures achat. 
+
+Les avoirs pour les retours, cependant, sont des exceptions parce que le règlement s'effectue dans le sens inverse, de vous à votre client et de votre fournisseur à vous. Par conséquent, un mode de règlement par défaut n'est pas affecté aux avoirs. Il existe, cependant, une solution si vous avez spécifié des conditions de paiement pour le client ou le fournisseur. Bien que le champ **Calculer escompte sur les avoirs** ne soit pas prévu pour cela, si vous activez la case à cocher sur la page **Conditions de paiement**, un mode de règlement par défaut est ajouté lorsque vous créez un avoir.
+
+## <a name="to-set-up-a-payment-method"></a>Pour configurer un mode de règlement
+[!INCLUDE[d365fin](includes/d365fin_md.md)] fournit des modes de règlement que les entreprises utilisent souvent. Vous pouvez cependant en ajouter autant que nécessaire.
+
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Modes de règlement**, puis sélectionnez le lien associé.
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+## <a name="to-assign-a-payment-method-to-a-customer-or-vendor"></a>Pour affecter un mode de règlement à un client ou fournisseur
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Client** ou **Fournisseur**, puis sélectionnez le lien associé.
+2. Dans le champ **Mode de règlement**, choisissez le mode à utiliser par défaut pour le client ou le fournisseur.
 
 ## <a name="see-also"></a>Voir aussi
 [Finances](finance.md)  

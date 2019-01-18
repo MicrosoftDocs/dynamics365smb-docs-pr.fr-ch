@@ -13,10 +13,10 @@ ms.search.keywords: postpone
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f1311d566a8166a8a8720bb09789f42c65a1b6e7
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 4cf8738c7bab09f7bcf900baae54731b6772e7e9
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="create-gl-budgets"></a>Créer des budgets comptabilité
@@ -34,11 +34,11 @@ En comptabilité analytique, vous travaillez avec des budgets de coûts de mani�
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Budgets**, puis choisissez le lien associé.  
 2. Cliquez sur **Modifier la liste**, puis renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Sélectionnez **Modifier budget**.
-4. En haut de la fenêtre **Budget**, renseignez les champs nécessaires pour définir ce qui est affiché.  
+4. En haut de la page **Budget**, renseignez les champs nécessaires pour définir ce qui est affiché.  
 
-    Seules les écritures contenant le nom du budget entré dans le champ **Nom budget** s'affichent. Étant donné que le nom du budget vient juste d'être créé, aucune écriture ne correspond au filtre. Par conséquent, la fenêtre est vide.  
-5. Pour entrer un montant, choisissez la cellule appropriée de la matrice. La fenêtre **Écritures budget** s'ouvre.  
-6. Créez une ligne et renseignez le champ **Montant**. Fermez la fenêtre **Écritures budget**.  
+    Seules les écritures contenant le nom du budget entré dans le champ **Nom budget** s'affichent. Étant donné que le nom du budget vient juste d'être créé, aucune écriture ne correspond au filtre. Par conséquent, la page est vide.  
+5. Pour entrer un montant, choisissez la cellule appropriée de la matrice. La page **Écritures budget** s'ouvre.  
+6. Créez une ligne et renseignez le champ **Montant**. Fermez la page **Écritures budget**.  
 7. Répétez les étapes 5 et 6 jusqu'à ce que vous ayez entré tous les montant du budget.  
 
 > [!NOTE]  

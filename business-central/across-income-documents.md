@@ -13,10 +13,10 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 4d3112b4c7e574306bbff9dd50ad50eb32ecdb69
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 989fff07cb0608b8dbf6611a39163fc3cfe31459
 ms.contentlocale: fr-ch
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="incoming-documents"></a>Documents entrants
@@ -24,22 +24,22 @@ Certaines transactions d'entreprise ne sont pas enregistrées dans [!INCLUDE[d36
 
 À partir de fichiers PDF ou image représentant des documents entrants, un service OCR externe (reconnaissance optique de caractères) peut générer des documents électroniques qui peuvent ensuite être convertis en enregistrements de document au sein de [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Dans la fenêtre **Documents entrants**, vous pouvez utiliser différentes fonctions pour examiner les reçus de dépenses, gérer les tâches ROC et convertir les fichiers document entrants, manuellement ou automatiquement, en documents ou lignes feuille appropriés. Les fichiers externes peuvent être joints à n'importe quelle étape du processus, notamment en ce qui concerne les documents validés et au fournisseur, au client qui en résulte, et dans les écritures comptables.
+Sur la page **Documents entrants**, vous pouvez utiliser différentes fonctions pour examiner les reçus de dépenses, gérer les tâches ROC et convertir les fichiers document entrants, manuellement ou automatiquement, en documents ou lignes feuille appropriés. Les fichiers externes peuvent être joints à n'importe quelle étape du processus, notamment en ce qui concerne les documents validés et au fournisseur, au client qui en résulte, et dans les écritures comptables.
 
 Le processus de document entrant est composé des activités principales suivantes :
 
-* Enregistrez les documents externes dans [!INCLUDE[d365fin](includes/d365fin_md.md)] en créant des lignes dans la fenêtre **Documents entrants** de l'une des manières suivantes :
+* Enregistrez les documents externes dans [!INCLUDE[d365fin](includes/d365fin_md.md)] en créant des lignes sur la page **Documents entrants** de l'une des manières suivantes :
   * Manuellement, à l'aide de fonctions simples, à partir d'un PC ou d'un périphérique mobile, de l'une des manières suivantes :
-    * Utilisez le bouton **Créer à partir d'un fichier**, puis renseignez les champs appropriés dans la fenêtre **Document entrant**. Le fichier est automatiquement joint.  
-    * Utilisez le bouton **Nouveau**, renseignez les champs appropriés dans la fenêtre **Document entrant**, puis joignez manuellement le fichier associé.
+    * Utilisez le bouton **Créer à partir d'un fichier**, puis renseignez les champs appropriés sur la page **Document entrant**. Le fichier est automatiquement joint.  
+    * Utilisez le bouton **Nouveau**, renseignez les champs appropriés sur la page **Document entrant**, puis joignez manuellement le fichier associé.
     * À partir d'une tablette ou d'un téléphone, utilisez le bouton **Créer à partir de l'appareil photo** pour créer un enregistrement de document entrant, puis envoyez l'image au service OCR, par exemple.
-  * Automatiquement en recevant le document du service OCR en tant que document électronique après avoir envoyé par e-mail le fichier PDF ou image associé au service OCR. Le raccourci **Informations financières** est automatiquement renseigné dans la fenêtre **Document entrant**.
+  * Automatiquement en recevant le document du service OCR en tant que document électronique après avoir envoyé par e-mail le fichier PDF ou image associé au service OCR. Le raccourci **Informations financières** est automatiquement renseigné sur la page **Document entrant**.
 * Utilisez le service ROC pour convertir des fichiers PDF ou image en documents électroniques pouvant être convertis en enregistrements de document dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
 * Créez des documents ou des lignes feuille comptabilité à partir d'enregistrements document entrants en saisissant les informations telles que vous les lisez à partir des fichiers document entrants.
 * Joignez des fichiers document entrant à des documents vente et achat de tout statut, notamment au fournisseur, client, et écritures comptables qui résultent de la validation.
-* Affichez les enregistrements document entrant et leurs pièces jointes à partir de tout document achat et vente ou de toute écriture, ou recherchez toutes les écritures comptables sans enregistrement document entrant dans la fenêtre **Plan comptable**.
+* Affichez les enregistrements document entrant et leurs pièces jointes à partir de tout document achat et vente ou de toute écriture, ou recherchez toutes les écritures comptables sans enregistrement document entrant sur la page **Plan comptable**.
 
-| Pour | Voir |
+| À | Voir |
 | --- | --- |
 | Configurer la fonctionnalité Documents entrants et le service OCR. |[Configurer des documents entrants](across-how-setup-income-documents.md) |
 | Créer des enregistrements document entrant, joindre des fichiers, utiliser le service OCR pour convertir des fichiers PDF en documents électroniques, convertir les documents électroniques en enregistrements de document, auditer les enregistrements document entrant à partir de documents vente et achat validés. |[Traitement des documents entrants](across-process-income-documents.md) |

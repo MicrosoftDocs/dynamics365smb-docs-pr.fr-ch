@@ -14,10 +14,10 @@ ms.date: 11/13/2018
 ms.author: sgroespe
 redirect_url: finance-set-up-cost-accounting
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3eb90611939dce2134d9413812918c2afb82c083
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 616fcbe937e556c17e8beb79f68bc961ea8bbe18
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-cost-objects"></a>Configurer les coûts associés
@@ -27,7 +27,7 @@ Les coûts associés sont les projets, les biens ou les services d'une société
 * Créez un nouveau plan des coûts associés, qui est indépendant de la comptabilité ou ajoutez un nouveau coût associé à un plan existant des coûts associés. Vous devez créer chaque coût associé individuellement.  
 
 ## <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>Pour transférer des sections analytiques depuis la comptabilité vers le plan comptable des coûts associés  
-1.  Définissez un axe analytique pour être celui des coûts associés dans la fenêtre **Actualiser axes analytiques CA**. Seules les valeurs de cet axe analytique sont transférées.  
+1.  Définissez un axe analytique pour être celui des coûts associés sur la page **Actualiser axes analytiques CA**. Seules les valeurs de cet axe analytique sont transférées.  
 2.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Plan comptable des coûts associés**, puis sélectionnez le lien associé.  
 3.  Choisissez l'action **Extraire les coûts associés de l'axe analytique** pour transférer des sections analytiques du plan comptable de coûts associés. La fonction transfère les axes analytiques que vous avez définis dans l'étape 1.  
 
@@ -36,10 +36,10 @@ Les coûts associés sont les projets, les biens ou les services d'une société
 
 Le plan comptable de coûts associés comprend désormais toutes les sections analytiques spécifiées provenant de la comptabilité. Il inclut les titres et les sous-totaux.  
 
-## <a name="to-create-new-cost-objects-in-the-chart-of-cost-objects-window"></a>Pour créer de nouveaux coûts associés dans la fenêtre Plan comptable des coûts associés  
-Vous pouvez configurer et gérer les coûts associés, soit dans la fenêtre **Fiche coûts associés**, soit dans la fenêtre **Plan comptable des coûts associés**. Dans cette procédure, vous configurez de nouveaux coûts associés dans la fenêtre **Plan comptable des coûts associés**.  
+## <a name="to-create-new-cost-objects-in-the-chart-of-cost-objects-page"></a>Pour créer de nouveaux coûts associés sur la page Plan comptable des coûts associés  
+Vous pouvez configurer et gérer les coûts associés, soit sur la page **Fiche coûts associés**, soit sur la page **Plan comptable des coûts associés**. Dans cette procédure, vous configurez de nouveaux coûts associés sur la page **Plan comptable des coûts associés**.  
 
-1.  Ouvrez la fenêtre **Plan comptable des coûts associés** en mode édition.  
+1.  Ouvrez la page **Plan comptable des coûts associés** en mode édition.  
 2.  Dans le champ **Code**, entrez le code coût associé. Tous les coûts associés doivent avoir un code.  
 3.  Dans le champ **Nom**, saisissez le nom du coût associé.  
 4.  Sélectionnez la flèche déroulante dans le champ **Type ligne** pour spécifier l'objectif du coût associé.  

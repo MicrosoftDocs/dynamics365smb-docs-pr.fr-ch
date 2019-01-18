@@ -11,10 +11,10 @@ ms.search.keywords: contacts, profiles
 ms.author: edupont
 ms.date: 10/01/2018
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6a69a5de1ac0d6e2d238415204ec95fad9af7b9b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: edd2cae058d31e8f65d43ef14a5a96a294adf8d1
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -42,7 +42,7 @@ Après avoir créé un questionnaire, vous devez créer des évaluations contact
 > Si vous entrez une question dont la réponse est automatique, choisissez <STRONG>Ligne</STRONG>, puis <STRONG>Questionnaire</STRONG> pour entrer les critères de réponse automatique.
 
 ## <a name="the-automatic-classification-of-contacts"></a>Classification automatique des contacts
-Vous pouvez configurer le programme pour qu'il classe automatiquement les contacts en fonction des données client, fournisseur et contact. Pour cela, configurez des questions profil à réponse automatique dans la fenêtre **Paramètres questionnaires profil**.  
+Vous pouvez configurer le programme pour qu'il classe automatiquement les contacts en fonction des données client, fournisseur et contact. Pour cela, configurez des questions profil à réponse automatique sur la page **Paramètres questionnaires profil**.  
 
 > [!NOTE]
 > Vous ne pouvez affecter une classification basée sur les données contact qu'aux contacts enregistrés en tant que clients. De même, seuls les contacts enregistrés en tant que fournisseurs peuvent se voir affecter une classification basée sur les données fournisseur. La classification automatique n'est pas mise à jour automatiquement. Par conséquent, vous pouvez être amené à mettre à jour les questionnaires profil après avoir mis à jour les données client, fournisseur ou contact dont ils dépendent.  
@@ -79,7 +79,7 @@ Vous pouvez classer vos contacts en fonction du montant de leurs achats :
 </tbody>
 </table>
 
-Pour cela, renseignez la fenêtre **Paramètres questionnaires profil** comme suit :
+Pour cela, renseignez la page **Paramètres questionnaires profil** comme suit :
 
 
 <table>
@@ -93,7 +93,7 @@ Pour cela, renseignez la fenêtre **Paramètres questionnaires profil** comme su
 <thead>
 <tr class="header">
 <th><strong>Type</strong></th>
-<th><strong>Désignation</strong></th>
+<th><strong>Description</strong></th>
 <th><strong>Classification automatique</strong></th>
 <th><strong>Valeur début</strong></th>
 <th><strong>Valeur fin</strong></th>
@@ -104,34 +104,34 @@ Pour cela, renseignez la fenêtre **Paramètres questionnaires profil** comme su
 <td><p>Question</p></td>
 <td><p>Classification ABC</p></td>
 <td><p>Cochez la ligne appropriée.</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="even">
 <td><p>Réponse</p></td>
 <td><p>A</p></td>
-<td><p> </p></td>
+<td><p> </p></td>
 <td><p>500,000</p></td>
-<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="odd">
 <td><p>Réponse</p></td>
 <td><p>B</p></td>
-<td><p> </p></td>
+<td><p> </p></td>
 <td><p>100,000</p></td>
-<td><p>499 999</p></td>
+<td><p>499,999</p></td>
 </tr>
 <tr class="even">
 <td><p>Réponse</p></td>
 <td><p>C</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p>99 999</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+<td><p>99,999</p></td>
 </tr>
 </tbody>
 </table>
 
-Renseignez ensuite la fenêtre **Questionnaire profil** comme suit :
+Renseignez ensuite la page **Questionnaire profil** comme suit :
 <table>
 <colgroup>
 <col style="width: 50%" />

@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: de5623e6dad677a8fb5f07824c17cb42632cff37
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 18c650a9f4c7fe1fa8daf8d9bac0949d90e3fc4f
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="preview-posting-results"></a>Résultats de l'aperçu compta.
@@ -25,8 +25,8 @@ Sur chaque document et feuille qui peuvent être validés, vous pouvez cliquer s
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Factures achat**, puis sélectionnez le lien associé.
 2. Créez une facture achat. Pour plus d'informations, voir [Enregistrer des achats](purchasing-how-record-purchases.md).
 3. Sélectionnez **Aperçu compta.**.
-4. Dans la fenêtre **Aperçu compta.**, sélectionnez **Écriture comptable**, puis sélectionnez **Afficher écritures associées**.  
-   La fenêtre **Aperçu des écritures comptables** affiche les écritures qui seront créés lorsque vous validez la facture achat.
+4. Sur la page **Aperçu compta.**, sélectionnez **Écriture comptable**, puis sélectionnez **Afficher écritures associées**.  
+   La page **Aperçu des écritures comptables** affiche les écritures qui seront créés lorsque vous validez la facture achat.
 
 ## <a name="see-also"></a>Voir aussi
 [Valider des documents et des feuilles](ui-post-documents-journals.md)  

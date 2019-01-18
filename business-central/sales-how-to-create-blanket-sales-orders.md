@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8e0668e39891f6e0924afd8d9ec3ee39af95e587
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4989933a0034e5d496e09824ad0ca621a2373825
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-blanket-sales-orders"></a>Utiliser des commandes ouvertes vente
@@ -42,7 +42,7 @@ Vous pouvez utiliser une commande ouverte vente, par exemple, lorsqu'un client a
 2.  Lorsque vous êtes prêt à créer les commandes, sélectionnez **Créer commande**, puis **Oui**. Un message s'affiche, vous informant que la commande ouverte a été associée à un numéro de commande. Remarquez que la commande ouverte n'a pas été supprimée.  
 3.  Cliquez sur le bouton **OK**.  
 4.  Pour afficher les résultats des étapes précédentes, sélectionnez l'action **Ligne**, l'action **Lignes non validées**, puis l'action **Commandes**.  
-5.  Dans la fenêtre **Lignes vente**Lignes vente, sélectionnez la commande vente appropriée, sélectionnez l'action **Ligne**, sélectionnez Ligne, puis sélectionnez l'action **Afficher document**.  
+5.  Sur la page **Lignes vente**Lignes vente, sélectionnez la commande vente appropriée, sélectionnez l'action **Ligne**, sélectionnez Ligne, puis sélectionnez l'action **Afficher document**.  
 
 Ce qui suit s'applique aux commandes vente après leur création à partir de commandes vente ouvertes :  
 
@@ -53,14 +53,14 @@ Ce qui suit s'applique aux commandes vente après leur création à partir de co
 - Si les commandes vente ne sont pas créées directement depuis la commande ouverte mais ont trait à celle\-ci, il est possible de créer un lien entre une commande vente et une commande ouverte en entrant le numéro de commande ouverte associé dans le champ **N° commande ouverte** sur la ligne de commande vente.  
 - Une fois la commande vente créée pour la quantité totale d'une ligne commande ouverte, aucune autre commande vente ne peut être créée pour la même ligne. Les utilisateurs ne peuvent plus entrer de quantité dans le champ **Qté à expédier**. Toutefois, si des quantités supplémentaires doivent être ajoutées à une commande ouverte, il est possible d'augmenter la valeur du champ **Quantité** et de créer des commandes supplémentaires.  
 - La commande ouverte vente facturée reste dans le système jusqu'à ce qu'elle soit supprimée, soit en supprimant les commandes ouvertes individuelles, soit en exécutant le traitement par lots **Suppr. cdes vente ouv. fact.**.  
-- Si un client est également enregistré comme contact dans le module Marketing et si vous avez spécifié un code modèle interaction pour les commandes vente ouvertes dans la fenêtre **Paramètres Marketing**, lorsque vous sélectionnez **Imprimer** pour imprimer la commande vente ouverte, une interaction est enregistrée automatiquement dans la table Écriture journal interaction.
+- Si un client est également enregistré comme contact dans le module Marketing et si vous avez spécifié un code modèle interaction pour les commandes vente ouvertes sur la page **Paramètres Marketing**, lorsque vous sélectionnez **Imprimer** pour imprimer la commande vente ouverte, une interaction est enregistrée automatiquement dans la table Écriture journal interaction.
 
 ## <a name="to-view-the-status-of-a-blanket-purchase-order"></a>Pour visualiser le statut d'une commande ouverte achat  
-Vous pouvez visualiser le statut d'une commande ouverte vente dans la fenêtre **Statistiques Commande ouverte achat**. Ceci peut s'avérer utile lorsque vous commencez à facturer une commande créée à partir de la commande ouverte achat.  
+Vous pouvez visualiser le statut d'une commande ouverte vente sur la page **Statistiques Commande ouverte achat**. Ceci peut s'avérer utile lorsque vous commencez à facturer une commande créée à partir de la commande ouverte achat.  
 
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commande achat ouverte**, puis sélectionnez le lien associé.  
 2.  Sélectionnez une commande ouverte achat, puis sélectionnez l'action **Statistiques**.  
-3.  Dans la fenêtre **Statistiques Commande ouverte achat**, sur le raccourci **Général**, vous pouvez visualiser des informations récapitulatives concernant l'intégralité de la commande. Elles se basent sur la quantité totale des **champs Quantité** sur les lignes commande ouverte achat.  
+3.  Sur la page **Statistiques Commande ouverte achat**, sur le raccourci **Général**, vous pouvez visualiser des informations récapitulatives concernant l'intégralité de la commande. Elles se basent sur la quantité totale des **champs Quantité** sur les lignes commande achat ouverte.  
 
     - Sur le raccourci **Facturation**, vous pouvez visualiser des informations récapitulatives concernant l'intégralité de la quantité dans les champs **Qté à facturer** des lignes commande ouverte achat.  
     - Sur le raccourci **Expédition**, vous pouvez visualiser des informations récapitulatives concernant l'intégralité de la quantité dans les champs **Qté à recevoir** des lignes commande ouverte achat.  
@@ -120,7 +120,7 @@ Le lien entre la commande ouverte vente et la commande vente d'origine, et n'imp
     <td>Avoirs validés associés à la ligne sélectionnée.</td>
     </tr>
     </table>
-5. Dans la fenêtre **Lignes vente**, sélectionnez l'action **Afficher document** pour afficher l'écriture.
+5. Sur la page **Lignes vente**, sélectionnez l'action **Afficher document** pour afficher l'écriture.
 
 ## <a name="see-also"></a>Voir aussi
 [Ventes](sales-manage-sales.md)  

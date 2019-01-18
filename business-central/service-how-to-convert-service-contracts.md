@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ac8340eae21d4af2ad8853c1e6412f410953480c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3c34f2b456df88b043b7b90a739f363b892dd48d
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="convert-service-contracts-that-include-vat-amounts"></a>Convertir les contrats de service incluant des montants TVA
@@ -49,7 +49,7 @@ La procédure suivante décrit comment créer un avoir, qui comprend uniquement 
 ### <a name="to-create-contract-expiration-dates-in-contract-lines"></a>Pour créer des dates d'expiration de contrats sur les lignes correspondantes  
 La procédure suivante indique comment créer des contrats en utilisant leurs dates d'expiration dans les lignes correspondantes.  
 
-1. Dans la fenêtre **Contrat de service**, définissez la date d'expiration du contrat sur **30.06.2017**.  
+1. Sur la page **Contrat de service**, définissez la date d'expiration du contrat sur **30.06.2017**.  
 2. Choisissez l'action **Créer avoir** pour créer automatiquement un avoir de juillet 2017 à décembre 2017.  
 3. Étant donné que le contrat expire, vous devez créer un contrat pour la période avec le nouveau taux de TVA du 1er juillet 2017 au 31 décembre 2017.  
 
@@ -59,7 +59,7 @@ La procédure suivante décrit comment créer un avoir à l'aide du traitement p
 1. Exécutez l'outil de modification du taux de TVA au 1er juillet 2017. Le groupe de comptabilisation du produit général ou le groupe de comptabilisation du produit TVA est modifié. Pour plus d'informations, voir [Utiliser la TVA sur les ventes et les achats](finance-work-with-vat.md).  
 2. Après avoir exécuté l'outil de modification du taux de TVA, saisissez une date d'expiration pour le contrat de service. Vous pouvez désormais supprimer la ligne du contrat de service et en créer une qui soit identique à la précédente.  
 3. Créez une facture pour la période s'échelonnant de janvier 2017 à décembre 2012 avec le nouveau taux de TVA.  
-4. Pour créer un autre avoir, dans la fenêtre **Avoirs service**, choisissez **Nouveau** pour créer un avoir de service.  
+4. Pour créer un autre avoir, sur la page **Avoirs service**, choisissez **Nouveau** pour créer un avoir de service.  
 5. Choisissez l'action **Obtenir écr. contrat prépayé**.  
 6. Une fois la conversion terminée, les écritures comptables de TVA et de service seront correctes.  
 

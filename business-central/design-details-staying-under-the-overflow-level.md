@@ -14,10 +14,10 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e532893b1823ef84256403fb7bf5ef9fabd59f2e
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: a4a35cec571f1a0c7644fe937553d87007a9567e
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-staying-under-the-overflow-level"></a>Détails de conception : rester sous le niveau de dépassement de capacité
@@ -60,7 +60,7 @@ Quantité pour la ligne planning = Quantité d'approvisionnement actif – (Stoc
 -   Si la quantité de la ligne planning est égale ou inférieure à 0, le message d'action est Annuler  
 
 ### <a name="composing-the-warning-message"></a>Composition du message d'avertissement  
-Dans le cas d'un dépassement de capacité, la fenêtre **Éléments planning non chaînés** affiche un message d'avertissement avec les informations suivantes :  
+Dans le cas d'un dépassement de capacité, la page **Éléments planning non chaînés** affiche un message d'avertissement avec les informations suivantes :  
 
 -   Le niveau de stock prévisionnel qui a déclenché l'alerte  
 -   Niveau de dépassement de capacité calculé  

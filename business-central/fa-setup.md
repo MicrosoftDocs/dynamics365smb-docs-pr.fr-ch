@@ -12,10 +12,10 @@ ms.search.keywords: machinery, buildings
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: fac857ae94152104ea6640782a5f315424b739e7
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3e610461a78ec2a4cebb60350236e17fe3d7e9cf
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="setting-up-fixed-assets"></a>Paramétrage d'immobilisations
@@ -27,9 +27,9 @@ Avant de pouvoir utiliser les immobilisations, vous devez définir les élément
 Le tableau ci-dessous contient des liens vers des informations supplémentaires. Après avoir défini ces éléments, vous pouvez démarrer diverses activités. Pour plus d'informations, reportez-vous à [Immobilisations](fa-manage.md).  
 
 > [!NOTE]  
->   Vous pouvez enregistrer les transactions immobilisation dans les fenêtres **Feuille compta. immo.** ou **Feuille immo.**, selon que les transactions sont destinées pour des rapports financiers ou pour la gestion interne. L'aide pour les immobilisations décrit uniquement la procédure d'utilisation de la fenêtre **Feuille compta. immo.**.  
+>   Vous pouvez enregistrer les transactions immobilisation sur les pages **Feuille compta. immo.** ou **Feuille immo.**, selon que les transactions sont destinées pour des rapports financiers ou pour la gestion interne. L'aide pour les immobilisations décrit uniquement la procédure d'utilisation de la page **Feuille compta. immo.**.  
 
-Lorsque vous activez une activité immobilisation dans la section **Intégration compta.** de la fenêtre **Fiche loi d'amortissement**, la fenêtre **Feuille compta. immo.** sera utilisée pour valider les transactions pour l'activité.
+Lorsque vous activez une activité immobilisation dans la section **Intégration compta.** sur la page **Fiche loi d'amortissement**, la page **Feuille compta. immo.** sera utilisée pour valider les transactions pour l'activité.
 
 Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.  
 

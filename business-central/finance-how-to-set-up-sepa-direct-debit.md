@@ -12,14 +12,14 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-collect-payments-with-sepa-direct-debit
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0ba40eb247c1edb2b4d8c7437bf60790545799ee
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c5d14102299140fd93ec586d0ef6165d1408505d
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-sepa-direct-debit"></a>Configurer un prélèvement SEPA
-Dans la fenêtre **Recouvrements prélèvement**, vous pouvez exporter des instructions vers votre banque électronique pour exécuter un recouvrement par prélèvement automatique depuis le compte bancaire du client vers votre compte bancaire. [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge le format de prélèvement SEPA, mais dans votre pays/région, d'autres formats de paiements électroniques peuvent être disponibles.  
+Sur la page **Recouvrements prélèvement**, vous pouvez exporter des instructions vers votre banque électronique pour exécuter un recouvrement par prélèvement automatique depuis le compte bancaire du client vers votre compte bancaire. [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge le format de prélèvement SEPA, mais dans votre pays/région, d'autres formats de paiements électroniques peuvent être disponibles.  
 
 Pour activer l'exportation de formats de fichiers bancaires qui ne sont pas pris en charge en natif dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez configurer une définition d'échange de données à l'aide de l'infrastructure d'échange de données. Pour plus d'informations, voir [Configurer les définitions d'échange de données](across-how-to-set-up-data-exchange-definitions.md).  
 
@@ -47,7 +47,7 @@ Avant de pouvoir traiter les paiements client par voie électronique en exportan
     > [!NOTE]  
     >  N'entrez pas de valeur dans le champ **N° compte contrepartie**.  
 
-4. Cliquez sur le bouton **OK** pour fermer la fenêtre **Modes de règlement**.  
+4. Cliquez sur le bouton **OK** pour fermer la page **Modes de règlement**.  
 5. Dans la zone **Rechercher**, saisissez **Clients**, puis sélectionnez le lien associé.  
 6. Ouvrez la fiche du client que vous voulez paramétrer pour la collection prélèvement automatique SEPA.  
 7. Sélectionnez le champ **Code mode de règlement**, puis le code mode de règlement que vous avez spécifié à l'étape 3.  
@@ -57,8 +57,8 @@ Avant de pouvoir traiter les paiements client par voie électronique en exportan
 1. Dans la zone **Rechercher**, saisissez **Clients**, puis sélectionnez le lien associé.  
 2. Ouvrez la fiche du client que vous voulez paramétrer pour les prélèvements automatiques SEPA.  
 3. Choisissez l'option **Comptes bancaires**.  
-4. Dans la fenêtre **Liste des comptes bancaires client**, sélectionnez le compte bancaire client utilisé pour les prélèvements automatique puis, sous l'onglet **Accueil**, dans le groupe **Processus**, cliquez sur **Mandats prélèvement automatique**.  
-5. Dans la fenêtre **Mandats de prélèvement SEPA**, renseignez les champs comme indiqué dans le tableau suivant.  
+4. Sur la page **Liste des comptes bancaires client**, sélectionnez le compte bancaire client utilisé pour les prélèvements automatique puis, sous l'onglet **Accueil**, dans le groupe **Processus**, cliquez sur **Mandats prélèvement automatique**.  
+5. Sur la page **Mandats de prélèvement SEPA**, renseignez les champs comme indiqué dans le tableau suivant.  
 
     |Champ|Désignation|  
     |---------------------------------|---------------------------------------|  

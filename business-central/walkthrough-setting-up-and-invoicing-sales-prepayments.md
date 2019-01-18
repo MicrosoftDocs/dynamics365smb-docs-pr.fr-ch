@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ab76136c7f28e322bbc3b52a0fec354c6c13f3ff
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 81176d2dc4cb5223d20ea553390b591d47bd5a85
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Procédure pas à pas : configuration et facturation d'acomptes
@@ -65,11 +65,11 @@ Les procédures suivantes décrivent le mode d'exécution des tâches de Phyllis
 
 #### <a name="to-set-up-number-series-for-prepayments"></a>Pour configurer des souches de numéros pour les acomptes  
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres ventes**, puis sélectionnez le lien associé.  
-2.  Dans la fenêtre **Paramètres ventes**, affichez le raccourci **Numérotation**.  
+2.  Sur la page **Paramètres ventes**, affichez le raccourci **Numérotation**.  
 3.  Vérifiez que la souche de numéros des factures acompte validées dans le champ **N° fact. acompte enreg.** est identique à celles des factures vente validées (**N° facture enregistrée**) et que la souche de numéros des avoirs acompte validés (**N° avoir acompte enreg.**) est identique à celle des avoirs enregistrés (**N° avoir enregistré**).  
 
 #### <a name="to-block-shipments-for-unpaid-prepayment"></a>Pour bloquer les expéditions pour un acompte impayé  
-1.  Dans la fenêtre **Paramètres ventes**, sur le raccourci **Général**, cochez la case **Vérifier les acomptes lors de la validation**.
+1.  Sur la page **Paramètres ventes**, sur le raccourci **Général**, cochez la case **Vérifier les acomptes lors de la validation**.
 
     Vous ne pouvez pas expédier ou facturer une commande dont le montant d'acompte n'est pas réglé.  
 
@@ -85,7 +85,7 @@ Phyllis requiert que tous les clients soient facturés avec un acompte de 20 % 
 5.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles**, puis sélectionnez le lien associé.  
 6.  Ouvrez la fiche pour le client 1100.
 7.  Choisissez l'action **Pourcentages acompte**.  
-8.  Renseignez deux lignes de la fenêtre **Pourcentages acompte vente**, comme suit.  
+8.  Renseignez deux lignes de la page **Pourcentages acompte vente**, comme suit.  
 
     |**Type vente**|**Code vente**|**N° article**|**% acompte**|  
     |--------------------|--------------------|------------------|----------------------|  
@@ -95,12 +95,12 @@ Phyllis requiert que tous les clients soient facturés avec un acompte de 20 % 
     > [!IMPORTANT]  
     >  En fonction de votre pays/région, vous devez également spécifier un code groupe taxes sur le raccourci **Facturation** pour les articles 1000 et 1100.  
 
-9. Fermez toutes les fenêtres.  
+9. Fermez toutes les pages.  
 
 #### <a name="to-specify-an-account-for-sales-prepayments-in-general-posting-setup"></a>Pour spécifier un compte acomptes vente dans les paramètres comptabilisation  
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres comptabilisation**, puis sélectionnez le lien associé.  
 2.  Sélectionnez la ligne où le champ **Groupe compta. marché** est défini sur **EXPORTATION**, et où le champ **Groupe compta. produit**est défini sur **DÉTAIL**, puis sélectionnez l'action **Modifier**.  
-3.  Dans la fenêtre **Fiche paramètres comptabilisation**, dans le champ **Compte acomptes vente**, spécifiez le compte approprié.  
+3.  Sur la page **Fiche paramètres comptabilisation**, dans le champ **Compte acomptes vente**, spécifiez le compte approprié.  
 4.  Cliquez sur le bouton **OK**.  
 
 ## <a name="creating-an-order-that-requires-a-prepayment"></a>Création d'une commande nécessitant un acompte  
@@ -126,7 +126,7 @@ Susan crée la facture acompte et l'envoie au client.
 
 7. Vérifiez que le champ **% acompte** de la ligne correspondant à l'article **1000** a pour valeur **30**. La valeur par défaut a été prise dans l'en-tête vente, qui a été renseigné à partir de la fiche client.  
 
-    Le champ **% acompte** de la ligne correspondant à l'article **1100** a pour valeur **40**. Il s'agit du pourcentage que vous avez entré dans la fenêtre **Pourcentages acompte vente** pour l'article **1100** et le client **20000**.  
+    Le champ **% acompte** de la ligne correspondant à l'article **1100** a pour valeur **40**. Il s'agit du pourcentage que vous avez entré sur la page **Pourcentages acompte vente** pour l'article **1100** et le client **20000**.  
 
     Pour plus d'informations, reportez\-vous à [Configuration des acomptes](finance-set-up-prepayments.md).  
 8. Sélectionnez l'action **Statistiques**.  
@@ -136,14 +136,14 @@ Susan crée la facture acompte et l'envoie au client.
 
     > [!IMPORTANT]  
     >  En fonction de votre pays/région, l'étape suivante peut ne pas s'appliquer.  
-10. Remplacez le montant du champ **Montant acompte HT** par **2000**, puis fermez la fenêtre.  
+10. Remplacez le montant du champ **Montant acompte HT** par **2 000**, puis fermez la page.  
 11. Consultez le champ **% acompte** des lignes vente : le montant a été recalculé, il est désormais de **40,81625**.  
 
     Le nouveau calcul inclut toutes les lignes dont le pourcentage d'acompte est supérieur à 0.  
 
     À présent, le client demande si le pourcentage de l'acompte peut être fixé à 35 %. Le chef de Susan accepte la modification.  
 
-12. Dans la fenêtre **Commande vente**, dans le champ **% acompte**, entrez **35**.  
+12. Sur la page **Commande vente**, dans le champ **% acompte**, entrez **35**.  
 13. Dans l'avertissement qui s'affiche, cliquez sur le bouton **Oui** . Un taux de 35 % sera appliqué comme pourcentage du paiement de l'ensemble de la commande.  
 14. Vérifiez que les lignes ont été mises à jour en conséquence.  
 
@@ -152,7 +152,7 @@ Après avoir entré la valeur d'acompte correcte sur la commande, Susan crée la
 
 #### <a name="to-create-a-prepayment-invoice"></a>Pour créer une facture acompte  
 
-1.  Dans la fenêtre **Commande vente** sélectionnez l'action **Valider facture acompte**.  
+1.  Sur la page **Commande vente** sélectionnez l'action **Valider facture acompte**.  
 
 > [!NOTE]  
 >  Susan pourrait sélectionner **Valider et imprimer facture acompte** et envoyer par courrier la facture au client.  
@@ -162,7 +162,7 @@ Le jour suivant, le client appelle Susan et modifie sa commande. Il souhaite deu
 
 #### <a name="to-create-an-additional-prepayment-invoice"></a>Pour créer une facture acompte supplémentaire  
 
-1.  Dans la fenêtre **Commande vente** sélectionnez l'action **Rouvrir**.  
+1.  Sur la page **Commande vente**, sélectionnez l'action **Rouvrir**.  
 2.  Sur la ligne de l'article **1100**, dans le champ **Quantité**, entrez **2**.  
 
     Faites défiler pour afficher les champs d'acompte. Le champ **Montant acompte HT** affiche à présent **630** et le champ **Montant fact. acompte HT** indique **315**. Ceci indique qu'il existe un montant d'acompte supplémentaire qui n'a pas encore été facturé.  
@@ -182,7 +182,7 @@ Le client paie le montant des acomptes. Arnie, qui travaille au département Com
     |**Type compte**|**Client**|  
     |**N° compte**|**20000**|  
 3. Sélectionnez l'action **Lettrer écritures**.  
-4.  Dans la fenêtre **Lettrer écritures client**, sélectionnez la première facture acompte, puis, sélectionnez **Set Applies-to ID**.  
+4.  Sur la page **Lettrer écritures client**, sélectionnez la première facture acompte, puis, sélectionnez **Set Applies-to ID**.  
 5.  Répétez l'étape précédente pour le deuxième acompte.  
 6.  Cliquez sur le bouton **OK**.  
 

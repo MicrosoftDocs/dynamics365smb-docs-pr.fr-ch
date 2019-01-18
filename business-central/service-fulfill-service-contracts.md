@@ -13,16 +13,16 @@ ms.search.keywords: contract, agreement, configure
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5abf0941b90df29bf5175886fbce5782857b5888
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 167610e56db0d6de5a1f84a57c132a842a30b010
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="fulfilling-service-contracts"></a>Exécution des contrats de service 
 Pour configurer une activité de gestion des services, vous pouvez mettre en place des accords contractuels standard entre vous et vos clients afin de décrire le niveau de service et les attentes en matière de services. Vous pouvez créer des modèles de contrat dans lesquels figurent les informations nécessaires (client, date de début du contrat, période de facturation, etc.).  
   
-Après avoir configuré le modèle, vous pouvez personnaliser le contrat qui en résulte afin d'assurer le suivi des heures de service ou d'autres éléments en fonction du client. Vous pouvez également configurer un contrat manuellement à partir d'un devis contrat de service. Enfin, vous pouvez ajuster la tarification de vos services afin de suivre les remises auxquelles un client spécifique a droit, en spécifiant le montant correspondant dans la fenêtre **Contrat service**.  
+Après avoir configuré le modèle, vous pouvez personnaliser le contrat qui en résulte afin d'assurer le suivi des heures de service ou d'autres éléments en fonction du client. Vous pouvez également configurer un contrat manuellement à partir d'un devis contrat de service. Enfin, vous pouvez ajuster la tarification de vos services afin de suivre les remises auxquelles un client spécifique a droit, en spécifiant le montant correspondant sur la page **Contrat service**.  
 
 Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.   
   

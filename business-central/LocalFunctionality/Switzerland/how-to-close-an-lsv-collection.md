@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4772aa7177e1c0bea6efbb3dc2cbbadf223f954d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f7222773e1ef17cc45b73684ddc1222128951974
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="close-an-lsv-collection"></a>Fermer prélèvement LSV
@@ -34,9 +34,9 @@ Lorsque le prélèvement est terminé, le numéro de prélèvement actuel est af
     > [!NOTE]  
     >  Les champs du raccourci **Options** pour le traitement par lots **Prélèvement de fin LSV** ne peuvent pas être modifiés, et correspondent à la ligne feuille sélectionnée.  
 
-5.  Cliquez sur le bouton **OK**.  
+5.  Choisissez le bouton **OK**.  
 
-    Dans la fenêtre **Liste feuilles LSV**, la valeur du champ **Statut LSV** passe de **Modifier** à **Lancé**. Les lignes feuille ne peuvent plus être modifiées.  
+    Dans la page **Liste feuilles LSV**, la valeur du champ **Statut LSV** passe de **Modifier** à **Lancé**. Les lignes feuille ne peuvent plus être modifiées.  
 
 ## <a name="to-reopen-an-lsv-collection"></a>Pour rouvrir un prélèvement LSV  
 

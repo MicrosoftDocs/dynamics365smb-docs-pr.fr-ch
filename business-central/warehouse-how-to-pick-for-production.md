@@ -1,6 +1,6 @@
 ---
 title: "Comment prélever pour la fabrication dans les configurations de stockage de base | Microsoft Docs"
-description: "Lorsque l'entrepôt appelle un traitement de prélèvement sans appeler de traitement d'expédition, vous pouvez utiliser la fenêtre **Prélèvement stock** pour organiser et enregistrer le prélèvement des composants."
+description: "Lorsque l'entrepôt appelle un traitement de prélèvement sans appeler de traitement d'expédition, vous pouvez utiliser la page **Prélèvement stock** pour organiser et enregistrer le prélèvement des composants."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,20 +13,20 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fe294cd56c01e1440ff04f7146fada64774f4e8b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 33531bf23b8ae03a38ff176f31de3b7395ace052
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="pick-for-production-or-assembly"></a>Prélever pour la fabrication et l'assemblage
 Le mode de rangement de vos composants de prélèvement pour les ordres de fabrication ou d'assemblage dépend de la configuration du stockage en tant qu'emplacement. Pour plus d'informations, voir [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md).
 
-Dans les configurations de stockage de base où l'emplacement requiert un traitement de prélèvement sans appeler de traitement d'expédition, vous pouvez utiliser la fenêtre **Prélèvement stock** pour organiser et enregistrer le prélèvement des composants.  
+Dans les configurations de stockage de base où l'emplacement requiert un traitement de prélèvement sans appeler de traitement d'expédition, vous pouvez utiliser la page **Prélèvement stock** pour organiser et enregistrer le prélèvement des composants.  
 
-Dans les configurations de stockage de base, vous devez prélever les ordres d'assemblage à l'aide de la fenêtre **Mouvement de stock**. Pour plus d'informations, reportez-vous à la section « Traitement d'un article à assembler pour commande dans les prélèvements stock » dans [Prélever des articles avec les prélèvements stock](warehouse-how-to-pick-items-with-inventory-picks.md).  
+Dans les configurations de stockage de base, vous devez prélever les ordres d'assemblage à l'aide de la page **Mouvement de stock**. Pour plus d'informations, reportez-vous à la section « Traitement d'un article à assembler pour commande dans les prélèvements stock » dans [Prélever des articles avec les prélèvements stock](warehouse-how-to-pick-items-with-inventory-picks.md).  
 
-Dans les configurations d'entrepôt avancées où les magasins requièrent des prélèvements et des expéditions, vous utilisez la fenêtre **Prélèvement entrepôt** pour ajouter des composants aux ordres de fabrication.
+Dans les configurations d'entrepôt avancées où les magasins requièrent des prélèvements et des expéditions, vous utilisez la page **Prélèvement entrepôt** pour ajouter des composants aux ordres de fabrication.
 
 > [!NOTE]  
 >  Les différences importantes suivantes existent entre les prélèvements de stock et les mouvements de stock :  
@@ -37,7 +37,7 @@ Dans les configurations d'entrepôt avancées où les magasins requièrent des p
 Si une condition préalable du système pour le prélèvement ou le déplacement de composants pour les documents d'origine est qu'une demande de désenlogement existe pour informer la zone d'entrepôt du besoin de composant. La demande désenlogement est créée lorsque le statut de l'ordre de fabrication devient Lancé ou lorsqu'un ordre de fabrication lancé est créé.  
 
 ## <a name="to-pick-components-in-basic-warehouse-configurations"></a>Pour prélever les composants pour les configurations de stockage de base
-Dans les configurations de stockage de base, dans lesquelles le magasin est configuré pour utiliser uniquement le prélèvement ainsi que l'expédition, vous pouvez prélever des composants pour les activités de fabrication et d'assemblage à l'aide de la fenêtre **Prélèvement entrepôt**. Pour plus d'informations, voir [Prélever des articles avec les prélèvements stock](warehouse-how-to-pick-items-with-inventory-picks.md).
+Dans les configurations de stockage de base, dans lesquelles le magasin est configuré pour utiliser uniquement le prélèvement ainsi que l'expédition, vous pouvez prélever des composants pour les activités de fabrication et d'assemblage à l'aide de la page **Prélèvement entrepôt**. Pour plus d'informations, voir [Prélever des articles avec les prélèvements stock](warehouse-how-to-pick-items-with-inventory-picks.md).
 
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Prélèvements stock**, puis sélectionnez le lien associé.  
 2.  Pour accéder aux composants de l'ordre de fabrication, choisissez l'action **Extraire documents origine**, puis sélectionnez l'ordre de fabrication lancé.  
@@ -46,15 +46,15 @@ Dans les configurations de stockage de base, dans lesquelles le magasin est conf
 
 Vous pouvez également créer un **Prélèvement de stock** directement à partir de la commande de fabrication lancée. Choisissez l'action **Créer prélèv./rangement stock**, cochez la case **Créer prélèvement stock**, puis choisissez le bouton **OK**.
 
-Vous pouvez également utiliser la fenêtre **Mouvement de stock** pour déplacer des articles entre emplacements ad hoc, c'est-à-dire sans référence à un document origine.
+Vous pouvez également utiliser la page **Mouvement de stock** pour déplacer des articles entre emplacements ad hoc, c'est-à-dire sans référence à un document origine.
 Pour plus d'informations, voir [Déplacer les composants vers une zone opérations dans les configurations de stockage de base](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
 
 ### <a name="handling-assemble-to-order-items-with-inventory-picks"></a>Traitement des articles à assembler pour commande dans les prélèvements stock
-La fenêtre **Prélvmt invent** est également utilisée pour prélever et livrer les ventes lorsque les articles doivent être assemblés avant de pouvoir être livrés. Pour plus d'informations, reportez-vous à [Vente d'articles à assembler pour commande](assembly-how-to-sell-items-assembled-to-order.md).
+La page **Prélvmt invent** est également utilisée pour prélever et livrer les ventes lorsque les articles doivent être assemblés avant de pouvoir être livrés. Pour plus d'informations, reportez-vous à [Vente d'articles à assembler pour commande](assembly-how-to-sell-items-assembled-to-order.md).
 
 Les articles à expédier ne sont pas physiquement présents dans un emplacement tant qu'ils ne sont pas assemblés et enregistrés comme production dans un emplacement de la zone d'assemblage. Cela signifie que le prélèvement des articles à assembler pour commande en vue de l'expédition est effectué suivant un flux spécial. Depuis un emplacement, les magasiniers extraient des éléments d'assemblage sur le poste d'accueil de livraison puis valident le prélèvement stock. Le prélèvement stock enregistré valide ensuite les résultats d'assemblage, la consommation de composants et l'expédition vente.
 
-Vous pouvez configurer [!INCLUDE[d365fin](includes/d365fin_md.md)] pour créer automatiquement un mouvement stock lors de la création du prélèvement stock pour l'élément d'assemblage. Pour cela, vous devez sélectionner le champ **Créer des mouvements automatiquement** dans la fenêtre **Paramètres d'assemblage**. Pour plus d'informations, voir [Déplacer les composants vers une zone opérations dans le stockage de base](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
+Vous pouvez configurer [!INCLUDE[d365fin](includes/d365fin_md.md)] pour créer automatiquement un mouvement stock lors de la création du prélèvement stock pour l'élément d'assemblage. Pour cela, vous devez sélectionner le champ **Créer des mouvements automatiquement** sur la page **Paramètres d'assemblage**. Pour plus d'informations, voir [Déplacer les composants vers une zone opérations dans le stockage de base](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
 
 Les lignes prélèvement stock pour les articles vente sont créées de différentes manières, selon qu'aucune, certaines ou toutes les quantités des lignes vente sont assemblées pour commande.
 
@@ -64,22 +64,22 @@ Dans les ventes assembler pour commande où la quantité totale de la ligne comm
 
 Si un flux de résultats d'assemblage est paramétré pour le magasin, la valeur du champ **Code empl. exp. ass. pr comm.** ou la valeur du champ **Code empl. depuis assemblage**, de cette commande, est insérée dans le champ **Code emplacement** de la ligne prélèvement stock.
 
-Si aucun code magasin n'est spécifié sur la ligne commande vente et qu'aucun flux résultats d'assemblage n'est paramétré pour le magasin, le champ **Code emplacement** de la ligne prélèvement stock est vide. Le magasinier doit ouvrir la fenêtre **Contenu emplacement** et sélectionner l'emplacement où les articles d'assemblage sont assemblés.
+Si aucun code magasin n'est spécifié sur la ligne commande vente et qu'aucun flux résultats d'assemblage n'est paramétré pour le magasin, le champ **Code emplacement** de la ligne prélèvement stock est vide. Le magasinier doit ouvrir la page **Contenu emplacement** et sélectionner l'emplacement où les articles d'assemblage sont assemblés.
 
 Dans les scénarios de combinaison, où une partie de la quantité doit d'abord être assemblée et l'autre doit être prélevée des stocks, un minimum de deux lignes prélèvement stock sont créées. Une ligne prélèvement est calculée pour la quantité à assembler pour commande. L'autre ligne prélèvement dépend des magasins dans lesquels les emplacements peuvent satisfaire la quantité restante du stock. Les codes emplacement sur les deux lignes sont renseignés de différentes manières comme indiqué pour les deux types vente différents respectivement. Pour plus d'informations, voir la section « Scénarios de combinaison » dans [Description des processus Assembler pour commande et Assembler pour stock](assembly-assemble-to-order-or-assemble-to-stock.md).
 
 ## <a name="to-pick-components-in-advanced-warehouse-configurations"></a>Pour prélever les composants pour les configurations de stockage avancées
-Dans les configurations de stockage avancées, dans lequel le magasin est configuré pour utiliser le prélèvement ainsi que l'expédition, vous pouvez prélever des composants pour les activités de fabrication et d'assemblage à l'aide de la fenêtre **Prélèvement entrepôt**. Pour plus d'informations, voir [Prélever des articles avec les prélèvements entrepôt](warehouse-how-to-pick-items-for-warehouse-shipment.md).
+Dans les configurations de stockage avancées, dans lequel le magasin est configuré pour utiliser le prélèvement ainsi que l'expédition, vous pouvez prélever des composants pour les activités de fabrication et d'assemblage à l'aide de la page **Prélèvement entrepôt**. Pour plus d'informations, voir [Prélever des articles avec les prélèvements entrepôt](warehouse-how-to-pick-items-for-warehouse-shipment.md).
 
-Vous pouvez également utiliser la fenêtre **Feuille mouvement** pour déplacer des articles entre emplacements ad hoc, c'est-à-dire sans référence à un document origine. Pour plus d'informations, voir [Déplacer des articles dans les configurations de stockage avancées](warehouse-how-to-move-items-in-advanced-warehousing.md).  
+Vous pouvez également utiliser la page **Feuille mouvement** pour déplacer des articles entre emplacements ad hoc, c'est-à-dire sans référence à un document origine. Pour plus d'informations, voir [Déplacer des articles dans les configurations de stockage avancées](warehouse-how-to-move-items-in-advanced-warehousing.md).  
 
 Vous ne pouvez pas créer de toutes pièces un document prélèvement entrepôt car une activité de prélèvement fait toujours partie d'un flux de travail, soit dans un scénario d'extraction, soit dans un scénario de déplacement.  
 
 Vous pouvez créer le document prélèvement entrepôt par déplacement en sélectionnant l'action **Créer prélèvement ent.** dans le document origine, par exemple, un ordre d'assemblage ou une expédition entrepôt lancé. Pour plus d'informations, voir [Prélever des articles avec les prélèvements entrepôt](warehouse-how-to-pick-items-for-warehouse-shipment.md).  
 
-Sinon, vous pouvez créer le document prélèvement entrepôt par extraction à l'aide de la fenêtre **Feuille prélèvement** pour détecter les demandes de prélèvement, à la fois pour l'expédition et les opérations internes, puis créer les documents prélèvement entrepôt requis.  
+Sinon, vous pouvez créer le document prélèvement entrepôt par extraction à l'aide de la page **Feuille prélèvement** pour détecter les demandes de prélèvement, à la fois pour l'expédition et les opérations internes, puis créer les documents prélèvement entrepôt requis.  
 
-La procédure suivante explique un scénario d'extraction dans lequel vous prélevez des composants d'un ordre de fabrication lancé via la fenêtre **Feuille prélèvement**. Cette procédure s'applique également aux ordres d'assemblage.  
+La procédure suivante explique un scénario d'extraction dans lequel vous prélevez des composants d'un ordre de fabrication lancé via la page **Feuille prélèvement**. Cette procédure s'applique également aux ordres d'assemblage.  
 
 Pour créer des demandes de prélèvement dans le cadre de scénarios d'extraction et de déplacement, il faut que les documents origine en question soient lancés. Lancez les documents origine des opérations internes en procédant comme suit.  
 
@@ -94,8 +94,8 @@ Pour créer des demandes de prélèvement dans le cadre de scénarios d'extracti
 2.  Choisissez l'action **Extraire documents entrepôt**, puis sélectionnez les lignes composant de l'ordre de fabrication lancé.  
 3.  Vérifiez les lignes, triez-les pour assurer un prélèvement optimisé et, si nécessaire, combinez les avec d'autres lignes de la feuille pour utiliser au mieux la disponibilité de l'employé.  
 4.  Choisissez l'action **Créer prélèvement**.  
-5.  Définissez le mode de création des documents prélèvement entrepôt et la manière de trier les lignes prélèvement en renseignant les champs de la fenêtre **Créer prélèvement** .  
-6.  Cliquez sur le bouton **OK**.
+5.  Définissez le mode de création des documents prélèvement entrepôt et la manière de trier les lignes prélèvement en renseignant les champs de la page **Créer prélèvement** .  
+6.  Choisissez le bouton **OK**.
 
 Les documents prélèvement entrepôt sont maintenant créés avec des lignes prélèvement pour chaque composant requis dans l'opération interne.
 

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ea07eff2d0eb17a76d132484d2210ad0c54053a5
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ea4a7671788ba5c4bd251a83dab1f2616cfbe706
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="prepare-a-configuration-package"></a>Préparer un package configuration
@@ -36,10 +36,10 @@ Vérifiez que vous vous trouvez dans le tableau de bord Responsable de l'implém
 2. Sélectionnez l'action **Nouveau**.  
 3. Renseignez les champs du raccourci **Général**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Pour exclure les questionnaires de configuration, les modèles de configuration et les tables de feuille configuration du package, activez la case à cocher **Exclure les tables de configuration**. Sinon, ces tables sont automatiquement ajoutées à la liste de tables de package lorsque vous exportez le package.  
-5. Sélectionnez l'action **Extraire tables**. La fenêtre de traitement par lots **Extraire tables package** s'ouvre.  
-6. Choisissez le champ **Sélectionner des tables**. La fenêtre **Sélection de config.** s’ouvre.  
+5. Sélectionnez l'action **Extraire tables**. La page de traitement par lots **Extraire tables package** s'ouvre.  
+6. Choisissez le champ **Sélectionner des tables**. La page **Sélection de config.** s’ouvre.  
 7. Choisissez l'action **Sélectionner tout** pour ajouter toutes les tables au package, ou activez la case à cocher **Sélectionné** pour chaque table dans la liste à ajouter.
-8. Cliquez sur le bouton **OK**. Le nombre de tables que vous avez sélectionnées s’affiche dans le champ **Sélectionner des tables**. Spécifiez les options supplémentaires, puis cliquez sur le bouton **OK**. Les tables [!INCLUDE[d365fin](includes/d365fin_md.md)] sont ajoutées aux lignes de la fenêtre **Package config**.  
+8. Cliquez sur le bouton **OK**. Le nombre de tables que vous avez sélectionnées s’affiche dans le champ **Sélectionner des tables**. Spécifiez les options supplémentaires, puis cliquez sur le bouton **OK**. Les tables [!INCLUDE[d365fin](includes/d365fin_md.md)] sont ajoutées aux lignes de la page **Package config.**.  
 
     > [!NOTE]  
     >  Vous pouvez également le faire dans la feuille configuration. Sélectionnez les tables que vous souhaitez inclure dans le package, puis choisissez l'action **Affecter package**.
@@ -64,13 +64,13 @@ Une fois que vous avez redéfini la liste des champs à inclure à partir d’un
 ### <a name="to-include-a-template-for-application-to-a-table"></a>Pour inclure un modèle à appliquer dans une table  
 Pour certaines tables (par exemple, une telle table qui contiendra les données de base), vous pouvez spécifier un modèle à appliquer aux données. Le modèle peut inclure les champs obligatoires que vous souhaitez appliquer à toutes les données de base que vous ne souhaitez pas voir varier. Par exemple, vous pouvez créer un modèle qui peut être utilisé pour les données client. Le modèle peut contenir tous les champs obligatoires, qui permet d’importer des informations standard de manière cohérente. Les informations qui ne peuvent pas être normalisées (par exemple, le nom du client), sont traitées lorsque vous importez des données client.
 
-1. Dans la fenêtre **Fiche package config.**, sélectionnez une table, puis cliquez sur le champ **Modèle données**. Une liste de modèles s’affiche en fonction de la table.
+1. Sur la page **Fiche package config.**, sélectionnez une table, puis cliquez sur le champ **Modèle données**. Une liste de modèles s’affiche en fonction de la table.
 2. Sélectionnez un modèle et cliquez sur le bouton **OK**.  
 
 Une fois le package terminé, suivez la procédure suivante pour enregistrer le package dans un fichier. Vous pouvez ensuite donner le package à un client ou à un partenaire.
 
 ### <a name="to-save-and-export-a-configuration-package"></a>Pour enregistrer et exporter un package configuration  
-- Dans la fenêtre **Fiche package config.**, choisissez l'action **Exporter package**.  
+- Sur la page **Fiche package config.**, choisissez l'action **Exporter package**.  
 
 Le package est créé dans un fichier .rapidstart, qui fournit le contenu du package sous un format compressé. Des questionnaires de configuration, des modèles de configuration et la feuille de configuration sont ajoutés automatiquement au package, à moins que vous ne décidiez de les exclure.  
 
@@ -121,7 +121,7 @@ Lors de la création d’un package configuration pour une solution, vous pouvez
     > [!NOTE]  
     >  Assurez-vous que chaque table dispose d’un ID page qui lui est affecté. Pour les tables [!INCLUDE[d365fin](includes/d365fin_md.md)] standard, cette valeur est automatiquement insérée. Pour les tables personnalisées, vous devez fournir l'ID.
 
-3. Choisissez l'action **Données base de données**. La fenêtre de la page associée s’ouvre.
+3. Choisissez l'action **Données base de données**. La page de la page associée s'ouvre.
 4. Révisez les informations disponibles. Modifiez-les selon vos besoins en supprimant les enregistrements qui ne sont pas appropriés ou en ajoutant de nouveaux enregistrements.    
 
 ## <a name="to-copy-data-from-a-test-environment-to-a-production-environment"></a>Pour copier des données d'un environnement de test vers un environnement de production  
@@ -130,9 +130,9 @@ Une fois que vous avez contrôlé et testé toutes vos informations de paramétr
 1. Ouvrez et initialisez la nouvelle société.  
 2. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille configuration**, puis sélectionnez le lien associé.  
 3. Sélectionnez l'action **Copier les données de la société**.  
-4. Dans la fenêtre **Copier les données de la société**, choisissez le champ **Copier de**. La fenêtre **Sociétés** s’ouvre.  
+4. Sur la page **Copier les données de la société**, choisissez le champ **Copier de**. La page **Sociétés** s'ouvre.  
 5. Sélectionnez la société depuis laquelle copier des données, puis cliquez sur le bouton **OK**. Une liste de tables sélectionnées dans la feuille configuration s’ouvre. Seules les tables qui contiennent des enregistrements sont incluses dans cette liste.
-6. Sélectionnez les tables à partir desquelles vous souhaitez copier des données, puis choisissez l'action **Copier données**. Dans la fenêtre **Copier les données de la société**, choisissez **OK**.  
+6. Sélectionnez les tables à partir desquelles vous souhaitez copier des données, puis choisissez l'action **Copier données**. Sur la page **Copier les données de la société**, choisissez **OK**.  
 
 ## <a name="see-also"></a>Voir aussi  
 [Collecter les valeurs de configuration client](admin-gather-customer-setup-values.md)  

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 640e2eb135b1329cf6a29e4067d5cff22f54d379
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 95264e2f011ab22a4c83343e933bfcf69b38948a
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Procédure pas à pas : calcul des travaux en cours pour un projet
@@ -45,7 +45,7 @@ Avec les projets, vous pouvez planifier l'utilisation des ressources de votre so
 ## <a name="calculating-wip"></a>Calcul TEC  
  CRONUS a accepté un projet à long terme qui s'est étendu sur plusieurs périodes de report. Tricia, membre de l'équipe projet, calcule les travaux en cours (TEC) pour vérifier que le rapport financier de la société sera exact.  
 
- Au cours de cette procédure, Tricia sélectionne un groupe de tâches spécifique qui sera inclus dans le calcul TEC. Dans la fenêtre **Lignes tâche projet**, elle peut spécifier ces lignes dans la colonne **Total TEC**.  
+ Au cours de cette procédure, Tricia sélectionne un groupe de tâches spécifique qui sera inclus dans le calcul TEC. Sur la page **Lignes tâche projet**, elle peut spécifier ces lignes dans la colonne **Total TEC**.  
 
  Le tableau suivant décrit trois options.  
 
@@ -77,10 +77,10 @@ Avec les projets, vous pouvez planifier l'utilisation des ressources de votre so
     |1310|Exclu|  
 
 5.  Choisissez l'action **TEC**, puis l'action **Calculer TEC**.  
-6.  Dans la fenêtre **Projet Calculer TEC**, vous pouvez sélectionner un projet pour lequel vous souhaitez effectuer le calcul TEC. Dans le raccourci **Projet**, sélectionnez **Deerfield** dans le champ **N°** .  
+6.  Dans la page **Projet Calculer TEC**, vous pouvez sélectionner un projet pour lequel vous souhaitez effectuer le calcul TEC. Dans le raccourci **Projet**, sélectionnez **Deerfield** dans le champ **N°** .  
 7.  Dans le champ **Date comptabilisation**, entrez une date postérieure à la date de travail.
 8.  Dans le champ **N° document** , saisissez **1**. Cela crée un document auquel vous pourrez vous référer ultérieurement à des fins de traçabilité.  
-9. Pour lancer le traitement par lots, cliquez sur le bouton **OK**. Un message s'affiche. Cliquez sur le bouton **OK** pour continuer. Fermez la fenêtre **Lignes tâche projet**.  
+9. Pour lancer le traitement par lots, cliquez sur le bouton **OK**. Un message s'affiche. Cliquez sur le bouton **OK** pour continuer. Fermez la page **Lignes tâche projet**.  
 
     > [!NOTE]  
     >  Le message déclare qu'il y a des avertissements associés au calcul TEC. Vous les examinerez dans la procédure suivante.  
@@ -93,7 +93,7 @@ Avec les projets, vous pouvez planifier l'utilisation des ressources de votre so
 
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Cockpit TEC**, puis choisissez le lien associé.  
 2.  Sélectionnez le projet **Deerfield**, puis l'action **Afficher des avertissements**.  
-3.  Dans la fenêtre **Avertissements TEC projet**, examinez l'avertissement associé au projet.  
+3.  Sur la page **Avertissements TEC projet**, examinez l'avertissement associé au projet.  
 
  Après la fin de la période comptable, Tricia doit recalculer les TEC afin d'inclure le travail accompli jusqu'à cette date.  
 
@@ -101,10 +101,10 @@ Avec les projets, vous pouvez planifier l'utilisation des ressources de votre so
 
 1.  Sur la fiche **Projet**, choisissez l'action **Écritures TEC** pour afficher le calcul TEC.  
 
-     La fenêtre **Ecritures TEC projet** affiche les dernières écritures TEC calculées pour un projet, même si les TEC n'ont pas encore été validés en comptabilité.  
+     La page **Ecritures TEC projet** affiche les dernières écritures TEC calculées pour un projet, même si les TEC n'ont pas encore été validés en comptabilité.  
 
-2.  Vous pouvez suivre les étapes de la procédure qui explique comment calculer les TEC dans le but de recalculer les TEC. Lors de chaque calcul TEC, une écriture est créée dans la fenêtre **Ecritures TEC projet**.  
-3.  Fermez la fenêtre.  
+2.  Vous pouvez suivre les étapes de la procédure qui explique comment calculer les TEC dans le but de recalculer les TEC. Lors de chaque calcul TEC, une écriture est créée sur la page **Écritures TEC projet**.  
+3.  Fermez la page.  
 
 > [!NOTE]  
 >  Seuls les travaux en cours et les réceptions sont calculés. Il n'est pas validé dans la comptabilité. Pour ce faire, exécutez le traitement par lots **Valider TEC en compta.** à l'issue du calcul.
@@ -116,18 +116,18 @@ Avec les projets, vous pouvez planifier l'utilisation des ressources de votre so
 
 1.  Dans la liste **Projets**, sélectionnez le projet **Deerfield**.  
 2.  Choisissez l'action **TEC**, puis l'action **Valider TEC en compta**.  
-3.  Dans la fenêtre **Projet Valider TEC en comptabilité**, sur le raccourci **Projet**, sélectionnez **Deerfield** dans le champ **N°** .  
+3.  Sur la page **Projet Valider TEC en comptabilité**, sur le raccourci **Projet**, sélectionnez **Deerfield** dans le champ **N°**. .  
 4.  Sur le raccourci **Options**, dans le champ **N° document contrepassation**, entrez **1**.  
 5.  Cliquez sur le bouton **OK** pour valider les TEC en comptabilité.  
-6.  Cliquez sur le bouton **OK** pour fermez la fenêtre de confirmation.  
+6.  Cliquez sur le bouton **OK** pour fermez la page de confirmation.  
 
-     Après avoir renseigné la validation, vous pouvez visualiser les informations la concernant dans la fenêtre **Écritures comptabilité TEC**.  
+     Après avoir renseigné la validation, vous pouvez visualiser les informations la concernant sur la page **Écritures comptabilité TEC**.  
 
 7.  Dans la liste **Projets**, sélectionnez le projet **Deerfield**, puis choisissez l'action **Écritures compta. TEC**.  
 
-     Dans la fenêtre **Ecritures compta. TEC projet**, vérifiez que les TEC ont été validés en comptabilité.  
+     Sur la page **Ecritures compta. TEC projet**, vérifiez que les TEC ont été validés en comptabilité.  
 
-8.  Fermez la fenêtre.  
+8.  Fermez la page.  
 9. Ouvrez la fiche **Projet** pour le projet **Deerfield**.  
 10. Sur le raccourci **TEC et Réception**, vous remarquez que dans la colonne **Validé**, le champ **Montant compta coûts récep.** est à présent rempli, ce qui indique que les TEC ont bien été validés en comptabilité.  
 11. Cliquez sur le bouton **OK** pour fermer la fiche.  
@@ -139,16 +139,16 @@ Avec les projets, vous pouvez planifier l'utilisation des ressources de votre so
 
 1.  Dans la liste **Projets**, sélectionnez le projet **Deerfield**.  
 2.  Choisissez l'action **TEC**, puis l'action **Valider TEC en compta**.  
-3.  Dans la fenêtre **Projet Valider TEC en comptabilité**, sur le raccourci **Projet**, sélectionnez **Deerfield** dans le champ **N°** .  
+3.  Sur la page **Projet Valider TEC en comptabilité**, sur le raccourci **Projet**, sélectionnez **Deerfield** dans le champ **N°**. .  
 4.  Sur le raccourci **Options**, dans le champ **N° document contrepassation**, entrez **1**.  
 5.  Dans le champ **Date validation contrepassation**, saisissez la date validation originale. La date doit correspondre à celle utilisée initialement pour calculer les TEC.  
 6.  Sélectionnez le champ **Contrepasser uniquement** . Cela permettra de contrepasser les TEC précédemment validés, sans valider de nouveaux TEC en comptabilité.  
-7.  Cliquez sur le bouton **OK** pour exécuter le traitement par lots, puis sur le bouton **OK** pour fermer la fenêtre de confirmation.  
+7.  Cliquez sur le bouton **OK** pour exécuter le traitement par lots, puis sur le bouton **OK** pour fermer la page de confirmation.  
 8.  Ouvrez la fiche **Projet** correspondant à **Deerfield**.  
 9. Sur le raccourci **TEC et Réception** , vérifiez qu'il n'y a pas d'écritures TEC validées.  
-10. Fermez cette fenêtre.  
+10. Fermez cette page.  
 11. Dans la liste **Projets**, sélectionnez le projet **Deerfield**, choisissez l'action **TEC**, puis l'action **Écritures compta. TEC**. La case du champ **Contre-passé** des écritures TEC est sélectionnée.  
-12. Fermez cette fenêtre.  
+12. Fermez cette page.  
 13. Ouvrez les **Lignes tâche projet** pour le projet, incluez les sections du projet qui auraient dû faire partie du calcul des TEC, puis recalculez et validez le nouveau résultat en comptabilité.  
 
     > [!NOTE]  

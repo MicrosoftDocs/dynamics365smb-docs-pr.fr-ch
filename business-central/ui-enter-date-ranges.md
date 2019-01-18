@@ -12,17 +12,19 @@ ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8717d60a8449ca300eaf9c1a5c4b137ea1a1a247
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 54466c381bbeb3653a239920c00dd6f45536d9e3
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 
 # <a name="working-with-calendar-dates-and-times"></a>Utilisation de dates civiles et les heures
+
 [!INCLUDE[d365fin](includes/d365fin_long_md.md)] offre plusieurs méthodes principales de saisie des dates et des heures, y compris des fonctions puissantes qui accélèrent la saisie de données, ou vous permettent de saisir des expressions de calendrier complexes. Il existe différents emplacements tout au long de l'application où vous pouvez entrer des dates et des heures dans les champs. Par exemple, dans une commande client, vous pouvez également définir la date d'expédition. En filtrant les données de liste ou d'état, vous pouvez entrer des dates et des heures pour désigner uniquement les données que vous intéressent.
 
 ## <a name="check-your-region-and-language-settings"></a>Vérifiez les paramètres de zone et de langue
+
 La page [**Mes paramètres**](https://businesscentral.dynamics.com?page=9176 "Accéder directement à votre page de paramètres utilisateurs dans Business Central") spécifie **Région** et **Langue** que vous utilisez dans l'application. Ces paramètres ont une incidence sur la manière dont vous saisissez des dates et des heures. 
 
 -   Le paramètre **Région** détermine la manière dont les dates, heures, nombres et devises sont affichés ou mis en forme.
@@ -35,7 +37,9 @@ La page [**Mes paramètres**](https://businesscentral.dynamics.com?page=9176 "Ac
 <!-- 
 The following sections describe how you can enter dates, times, datetimes, durations, date ranges, and how you use date formulas.
 -->
+
 ## <a name="entering-dates"></a>Saisie de dates
+
 Dans un champ de date, vous pouvez saisir une date à l'aide du format standard pour votre paramètre de zone. Les différentes régions peuvent utiliser différents séparateurs entre les jours, mois et années. Par exemple, certaines régions utilisent les tirets (mm-jj-aaaa) et d'autres les barres obliques (mm/jj/aaaa). Cependant, vous pouvez utiliser tous les séparateurs, même un espace, et la date est modifiée automatiquement pour utiliser les séparateurs correspondant à votre région.
 
 Notez que le format des dates affichées sur les états imprimés ou les documents envoyés par e-mail n'est pas influencé par votre choix personnel de paramètre d'une zone.
@@ -43,16 +47,15 @@ Notez que le format des dates affichées sur les états imprimés ou les documen
 Pour travailler plus productivement avec des dates et des heures, vous pouvez utiliser les méthodes ou les formats décrits dans les sections suivantes. 
 
 ### <a name="picking-dates-from-the-calendar"></a>Choisir des dates dans le calendrier
+
 Tout champ affichant une icône de calendrier peut être paramétré à l'aide du sélecteur de date civile. Pour afficher le sélecteur de date civile, activer l'icône de calendrier ou appuyer sur le raccourci clavier Ctrl+Début dans le champ.
 
 ![Champs de date](media/ui-date-field.png "Exemple d'un champ de date")
 
 Voir aussi [Raccourcis clavier du sélecteur de date civile](keyboard-shortcuts.md#calendarshortcuts)
 
-### <a name="today"></a>Aujourd'hui
-Entrez le mot pour `today`, dans la langue définie par le paramètre **Langue**, qui définit la date à la date actuelle. Au lieu de saisir le mot entier, vous pouvez saisir une partie du mot, en commençant par le début par exemple `tod` ou `t`, tant que ce n'est pas également le début d'un autre mot.
-
 ### <a name="day-week-year-pattern"></a>Modèle jour\-semaine\-année
+
 Vous pouvez saisir une date comme un jour de la semaine suivi d'un numéro de semaine et, éventuellement, une année. Par exemple, `Mon25` ou `mon25` signifie le lundi de la semaine 25. Si vous ne saisissez pas une année, l'année de la date de travail est utilisée.
 
 Au lieu de saisir le mot entier du jour de la semaine, vous pouvez saisir une partie du mot, en commençant du début. Dans le cas de conflits (par exemple avec `s` qui peut être samedi ou dimanche), les jours sont évalués en fonction de le paramètre d'une zone. L'entrée est d'abord évaluée par rapport à la `workdate` et `today`, ne l'oubliez pas en abrégeant. Par exemple, `t` signifie déjà aujourd'hui, ce qui ne peut pas être mardi ou jeudi.
@@ -60,6 +63,7 @@ Au lieu de saisir le mot entier du jour de la semaine, vous pouvez saisir une pa
 Le schéma de numéros de semaine est toujours ISO 8601, où la semaine 1 est la semaine avec le 4 janvier dans celle-ci, ou la semaine avec le premier jeudi de l'exercice.
 
 ### <a name="digit-patterns"></a>Modèles de chiffres
+
 Vous pouvez saisir deux, quatre, six ou huit chiffres dans un champ date :
 
 -   Si vous ne saisissez que deux chiffres, ils sont interprétés comme le jour, et le mois et l'année de la date de travail sont ajoutés.
@@ -68,21 +72,34 @@ Vous pouvez saisir deux, quatre, six ou huit chiffres dans un champ date :
 
 -   Si la date que vous souhaitez saisir est comprise entre le 01/01/1930 et le 31/12/2029, vous pouvez saisir les deux chiffres de l'année ; sinon saisissez les quatre chiffres.
 
+### <a name="today"></a>Aujourd'hui
+
+Entrez le mot pour `today`, dans la langue définie par le paramètre **Langue**, qui définit la date à la date actuelle. Au lieu de saisir le mot entier, vous pouvez saisir une partie du mot, en commençant par le début par exemple `tod` ou `t`, tant que ce n'est pas également le début d'un autre mot.
+
+### <a name="period"></a>Période.
+
+Pour filtrer une période comptable spécifique, dans un champ de date saisissez la lettre `p`, ou le mot `period`, suivi par un numéro qui identifie la période comptable, comme `period4` ou `p2`. La période comptable est relative à l'exercice comptable de la date de travail en cours défini dans votre tableau de bord. Par exemple, si la date de travail est **03/21/20**, alors `p1` ou simplement `p` filtre la première période comptable de l'exercice comptable 2020 (par exemple `01/01/20..01/31/20`). `p15` filtre la quinzième période comptable depuis le début de l'exercice comptable 2020 (par exemple `03/01/21..03/31/21`). 
+
+Les périodes comptables sont définies sur la page **Périodes comptables**. Pour visualiser ou modifier les périodes comptables, ouvrez la page [ici](https://businesscentral.dynamics.com/?page=100).
+
 ### <a name="current-work-date"></a>Date de travail actuelle
-La fonction de date de travail vous permet d'enregistrer les transactions en utilisant une date qui est différente de la date du jour.
+
+La fonction de date de travail vous permet d'enregistrer des transactions en utilisant une date qui est différente de la date du jour.
 
 Le mot « date de travail », dans la langue définie par le paramètre **Langue**, définit la date à laquelle la date de travail configurée actuellement est spécifiée sur la page [**Mes paramètres**](https://businesscentral.dynamics.com?page=9176 "Accéder directement à votre page de paramètres utilisateurs dans Business Central"). Au lieu de saisir le mot entier, vous pouvez saisir une partie du mot, en commençant du début, comme "t" pour travail.
 
 Si vous ne définissez pas de date de travail, la date actuelle sera utilisée comme date de travail. Vous souhaiterez peut-être utiliser une date de travail si vous avez beaucoup de transactions avec une date différente de la date d'aujourd'hui.
 
-Voir aussi [Modification des paramètres de base, comme la date de travail](ui-change-basic-settings.md#work-date)
+Voir aussi [Modification des paramètres de base, comme la date de travail](ui-change-basic-settings.md#work-date).
 
 ### <a name="closing-date"></a>Date de clôture
+
 Lorsque vous clôturez un exercice comptable, vous pouvez utiliser des dates de clôture pour indiquer qu'une écriture est une écriture de clôture. Techniquement, une date de clôture se trouve entre deux dates, par exemple le 31 décembre et le 1er janvier.
 
 Pour spécifier qu'une date est une date de clôture, placez un `C` devant cette date, comme `C123101`. Ceci peut être utilisé avec tous les modèles de date.
 
 ### <a name="examples"></a>Exemples
+
 Le tableau suivant affiche des exemples de dates à l'aide de tous les formats. Il considère les paramètres de région selon lesquels format les dates : **year.month.day.**, une semaine commençant lundi, et l'anglais.
 
 |**Écriture**      |**Interprétation**      |
@@ -96,6 +113,7 @@ Le tableau suivant affiche des exemples de dates à l'aide de tous les formats. 
 |`11`|année date travail.mois date travail.11.|
 |`1112`|année date travail.11.12.|
 |`t` ou `today`|date du jour|
+|`p4`|plage de dates qui comprend la quatrième la période comptable, par exemple `04/01/20..04/30/20`|
 |`w` ou `workdate`|date de travail|
 |`m` ou `Monday`|Lundi de la semaine de date de travail|
 |`tu` ou `Tuesday`|Mardi de la semaine de date de travail|
@@ -106,16 +124,16 @@ Le tableau suivant affiche des exemples de dates à l'aide de tous les formats. 
 |`t-1`|Mardi de la semaine 1 de l'année de date de travail|
 
 ##  <a name="BKMK_SettingDateRanges"></a> Définition des plages
+
 Sous Listes, totaux et états, vous pouvez définir des filtres sur les dates, heures et dates/heures contenant une valeur de début et éventuellement une valeur de fin pour afficher uniquement les données contenues dans cette plage. Les règles standard s'appliquent à la définition des plages de dates.
 
 |**Signification**|**Exemple d'expression (Date)**|**Données incluses dans le filtre**|
 |-----------|---------------------|--------------------|
-|Intervalle|`12 15 00..01 15 01`  \n`..12 15 00`|Enregistrements dont les dates sont comprises entre le 15/12/00 et le 15/01/01 inclusivement.  \nEnregistrements dont les dates sont le 12/15/00 ou avant.|
+|Intervalle|`12 15 00..01 15 01`<br /><br />`..12 15 00`<br /><br />`p1..p4`|Enregistrements dont les dates sont comprises entre le 15/12/00 et le 15/01/01 inclusivement.<br /><br />Enregistrements dont les dates sont le 12/15/00 ou avant.<br /><br />Plage de dates qui comprend la deuxième, la troisième et la quatrième période comptable, par exemple `01/01/20..04/30/20`.|
 |Et/ou|`12 15 00|12 16 00`|Enregistrement dont les dates sont le 12/15/00 ou 12/16/00. Si des enregistrements comportent des dates pendant ces deux jours, ils sont tous affichés.|
 |Combinaison|`12 15 00|12 01 00..12 10 00`  \n`..12 14 00|12 30 00..`|Enregistrements avec pour dates le 15/12/00 ou entre le 01/12/00 et le 10/12/00 inclus.  \nEnregistrements avec dates le 14/12/00 ou avant, ou le 30/12/00 ou après, c'est-à-dire tous les enregistrements exceptés ceux avec des dates comprises entre le 15/12/00 et le 29/12/00 inclusivement.|
 
 Vous pouvez utiliser l'un des formats valides dans les filtres Plage de dates. Par exemple, `mon14 3..t 4p` appliqué pour un champ Date/heure débouche sur un filtre à partir de 3h du matin le lundi de la semaine 14 de l'année de date de travail en cours, incluse, jusqu'à aujourd'hui à 16h, inclus.
-
 
 ## <a name="using-date-formulas"></a>Utilisation de formules date
 Une formule date est une combinaison abrégée de lettres et de nombres qui spécifie comment calculer les dates. Vous pouvez entrer des formules date dans différents champs ou filtres de calcul de date.

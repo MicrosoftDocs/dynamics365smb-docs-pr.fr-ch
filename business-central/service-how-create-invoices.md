@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: bdb2f5d98d22f861ce3fed0d8c72ae7992a80fdb
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a0c8cc9444c1b6979843beff55cc9e792ec188d0
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-service-invoices-or-credit-memos"></a>Créer des factures service ou des avoirs
 La simplicité de facturation des commandes service est une fonctionnalité clé de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vous pouvez envoyer une facture à vos clients à tout moment ou créer des factures périodiquement.  
   
-La fenêtre **Contrat de service** permet de créer une facture directement. Vous pouvez aussi configurer votre système afin qu'un technicien de service sur le terrain puisse créer une facture service qui est non liée à un contrat ou une commande.  
+La page **Contrat de service** permet de créer une facture directement. Vous pouvez aussi configurer votre système afin qu'un technicien de service sur le terrain puisse créer une facture service qui est non liée à un contrat ou une commande.  
 
 ## <a name="to-invoice-a-service-contract-from-the-service-contract-page"></a>Pour facturer un contrat de service à partir de la page Contrat de service   
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Créer factures contrat service**, puis sélectionnez le lien associé.  
@@ -62,7 +62,7 @@ Typiquement, après avoir validé une facture service avec l'option **Facturer**
 3. Renseignez le champ **N°** .  
   
     > [!NOTE]  
-    >  Si vous avez configuré une souche de numéros pour les factures service dans la fenêtre **Paramètres Gestion des services**, vous pouvez appuyer sur Entrée pour sélectionner le numéro de facture service suivant disponible.  
+    >  Si vous avez configuré une souche de numéros pour les factures service sur la page **Paramètres Gestion des services**, vous pouvez appuyer sur Entrée pour sélectionner le numéro de facture service suivant disponible.  
   
 4. Dans le champ **N° client**, entrez le numéro d'un client. Sélectionnez le client approprié dans la liste.  
   
@@ -87,7 +87,7 @@ Vous pouvez facturer le client pour les services fournis sur différentes comman
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Factures service**, puis sélectionnez le lien associé.  
 2. Renseignez les champs de la ligne selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-3. Choisissez l'action **Extraire lignes expédition**. La fenêtre **Extraire lignes expédition service** affiche toutes les lignes expédiées mais non facturées pour le client.  
+3. Choisissez l'action **Extraire lignes expédition**. La page **Extraire lignes expédition service** affiche toutes les lignes expédiées mais non facturées pour le client.  
 4. Choisissez les lignes du service à facturer, puis choisissez **OK** pour ajouter les lignes expédition service à la facture.  
 
 ## <a name="to-create-a-service-credit-memo"></a>Pour créer un avoir service  

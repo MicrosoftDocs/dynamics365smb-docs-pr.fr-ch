@@ -13,27 +13,27 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0f1800674e6f5561dc48eadde132f56b06500f98
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: aa7e25f8e1d837dde55ac05812306634c4ac37bf
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="reserve-items"></a>Réserver des articles
-Vous pouvez réserver des articles pour les commandes vente, les commandes service, les ordres d'assemblage et les ordres de fabrication. Vous pouvez réserver des articles en stock ou entrants sur les lignes document ou les lignes feuille ouvertes. Vous effectuez le travail dans la fenêtre **Réservation**.
+Vous pouvez réserver des articles pour les commandes vente, les commandes service, les ordres d'assemblage et les ordres de fabrication. Vous pouvez réserver des articles en stock ou entrants sur les lignes document ou les lignes feuille ouvertes. Vous effectuez le travail sur la page **Réservation**.
 
-Chaque ligne de la fenêtre **Réservation**, que vous ouvrez pour réserver des articles, donne des informations sur un type de ligne (vente, achat, feuille) ou d'écriture de stock. Les lignes décrivent le nombre d'articles disponibles pour réservation à partir de chaque type de ligne ou d'écriture.
+Chaque ligne de la page **Réservation**, que vous ouvrez pour réserver des articles, donne des informations sur un type de ligne (vente, achat, feuille) ou d'écriture de stock. Les lignes décrivent le nombre d'articles disponibles pour réservation à partir de chaque type de ligne ou d'écriture.
 
 ## <a name="to-reserve-items-for-sales"></a>Pour réserver des articles pour des ventes
 Ce qui suit décrit comment réserver des articles pour une commande vente. Les étapes sont similaires à celles des commandes achat, service et ordre d'assemblage.  
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes vente**, puis sélectionnez le lien associé.  
-2.  Dans une commande vente, sur le raccourci **Lignes**, sélectionnez l'action **Réserver**. La fenêtre **Réservation** s'ouvre.  
+2.  Dans une commande vente, sur le raccourci **Lignes**, sélectionnez l'action **Réserver**. La page **Réservation** s’affiche.  
 3. sélectionnez la ligne à partir de laquelle vous souhaitez réserver des articles.  
 4. Choisissez l'une des actions suivantes.  
 
     |**Fonction.**|**Description**|
     |------------------|---------------------|  
-    |**Réservation automatique**|Permet de réserver automatiquement des articles dans la fenêtre **Réservation**.|  
+    |**Réservation automatique**|Permet de réserver automatiquement des articles sur la page **Réservation**.|  
     |**Réserver à partir de la ligne courante**|Permet de réserver des articles sur la ligne du document que vous avez sélectionnée.|  
     |**Annuler la réservation de la ligne courante**|Permet d'annuler la réservation d'articles sur la ligne du document que vous avez sélectionnée.|
 
@@ -48,7 +48,7 @@ La procédure suivante s'appuie sur un ordre de fabrication planifié ferme.
 2. Ouvrez l'O.F. planifié ferme pour lequel vous souhaitez réserver des articles parents.  
 3. Sélectionnez la ligne ordre de fabrication concernée.  
 4. Sur le raccourci **Lignes**, choisissez l'action **Réserver**.
-5. Dans la fenêtre **Réservation**, sélectionnez la ligne **Ligne vente, commande**, puis sélectionnez l'action **Réserver à partir de la ligne courante**.  
+5. Sur la page **Réservation**, sélectionnez la ligne **Ligne vente, commande**, puis sélectionnez l'action **Réserver à partir de la ligne courante**.  
 
 La quantité entrée dans la ligne O.F. planifié ferme est désormais réservée.
 
@@ -62,22 +62,22 @@ La procédure suivante s'appuie sur un ordre de fabrication planifié ferme.
 4. Sur le raccourci **Lignes**, choisissez **Ligne**, puis **Composants**.  
 5. Sélectionnez la ligne de composant appropriée.  
 6. Dans le raccourci **Lignes**, choisissez l'action **Réserver**.  
-7. Dans la fenêtre **Réservation**, sélectionnez une ligne, puis sélectionnez l'action **Réserver à partir de la ligne courante**.  
+7. Sur la page **Réservation**, sélectionnez une ligne, puis sélectionnez l'action **Réserver à partir de la ligne courante**.  
 
 La quantité entrée dans la ligne de composant production planifié ferme est désormais réservée.
 
 ## <a name="to-change-a-reservation"></a>Pour modifier une réservation  
 Vous pouvez être parfois amené à modifier une réservation d'article.   
 1. À partir de la ligne document à partir de laquelle vous avez fait la réservation, dans le raccourci **Lignes**, choisissez l'action **Réserver**.  
-2. Dans la fenêtre **Réservation**, choisissez l'action **Écritures réservation**.
-3. Dans la fenêtre **Écritures réservation**, mettez à jour le champ **Quantité** de la ligne à modifier.
+2. Sur la page **Réservation**, choisissez l'action **Écritures réservation**.
+3. Sur la page **Écritures réservation**, mettez à jour le champ **Quantité** de la ligne à modifier.
 4. Confirmez le message qui suit en cliquant sur le bouton **OK**.
 
 ## <a name="to-cancel-a-reservation"></a>Pour annuler des réservations  
 Vous pouvez parfois avoir à annuler une réservation d'article.   
 1. À partir de la ligne document à partir de laquelle vous souhaitez annuler une réservation, dans le raccourci **Lignes**, choisissez l'action **Réserver**.  
-2. Dans la fenêtre **Réservation**, choisissez l'action **Écritures réservation**.  
-3.  Dans la fenêtre **Réservation**, choisissez l'action **Annuler la réservation**.  
+2. Sur la page **Réservation**, choisissez l'action **Écritures réservation**.  
+3.  Sur la page **Écritures réservation**, choisissez l'action **Annuler la réservation**.  
 4.  Confirmez le message qui suit en cliquant sur le bouton **OK**.  
 
 ## <a name="to-reserve-a-specific-serial-or-lot-number"></a>Pour réserver un numéro de série ou de lot particulier  
@@ -91,8 +91,8 @@ La procédure suivante se base sur une commande vente.
 3. Affectez des numéros de série et de lot à la ligne commande vente. Pour plus d'informations, voir [Utiliser les numéros de lot et de série](inventory-how-work-item-tracking.md).
 4. Sur la ligne commande vente, sélectionnez l'action **Réserver**.  
 5. Cliquez sur le bouton **Oui** pour réserver des numéros de série ou de lot spécifiques.  
-6. Dans la fenêtre **Liste traçabilité**, sélectionnez la combinaison de numéros de série et de lot que vous venez d'affecter.  
-7. Cliquez sur le bouton **OK** pour ouvrir une fenêtre **Réservation** affichant uniquement l'approvisionnement portant le numéro de traçabilité spécifié. S'il y a des réservations non spécifiques sur l'un des numéros traçabilité que vous avez spécifiés pour cette ligne, vous êtes informé que la quantité a déjà été réservée.  
+6. Sur la page **Liste traçabilité**, sélectionnez la combinaison de numéros de série et de lot que vous venez d'affecter.  
+7. Cliquez sur le bouton **OK** pour ouvrir une page **Réservation** affichant uniquement l'approvisionnement portant le numéro de traçabilité spécifié. S'il y a des réservations non spécifiques sur l'un des numéros traçabilité que vous avez spécifiés pour cette ligne, vous êtes informé que la quantité a déjà été réservée.  
 8. Sélectionnez l'action **Réservation automatique** ou **Réserver à partir de la ligne courante** pour créer la réservation sur les numéros traçabilité spécifiques.
 
 ## <a name="see-also"></a>Voir aussi

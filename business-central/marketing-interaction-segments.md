@@ -13,14 +13,14 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 1962bd9d74f7b4d9600de11f85d1e312f6fb8c09
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1fcec3051fdabae818528742fba5d9ca57a721c8
 ms.contentlocale: fr-ch
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="managing-interactions-for-segments"></a>Gestion des interactions pour des segments
-La fenêtre **Segment** est un type de feuille activité dans laquelle vous pouvez effectuer les opérations suivantes :
+La page **Segment** est un type de feuille activité dans laquelle vous pouvez effectuer les opérations suivantes :
 
 * Création de segments.
 * Enregistrement des critères de segmentation utilisés pour sélectionner des contacts.
@@ -35,14 +35,14 @@ Il existe plusieurs méthodes de création de segments :
 * Vous pouvez réutiliser des critères de segmentation enregistrés.
 
 ## <a name="interactions"></a>Interactions
-Dans la fenêtre **Segment**, vous pouvez créer simultanément des interactions pour plusieurs contacts. Par exemple, vous pouvez fusionner un segment avec un document Microsoft Word de manière à envoyer une lettre à tous les contacts inclus dans le segment.
+Sur la page **Segment**, vous pouvez créer simultanément des interactions pour plusieurs contacts. Par exemple, vous pouvez fusionner un segment avec un document Microsoft Word de manière à envoyer une lettre à tous les contacts inclus dans le segment.
 
 Vous pouvez définir des données sur l'interaction pour le segment qui apparaît dans l'en-tête **Segment**. Par exemple, vous pouvez choisir le modèle interaction à utiliser pour tous les contacts, saisir une désignation, définir un type correspondance, et ainsi de suite. Vous pouvez cependant modifier ces données dans la ligne segment de chaque contact, par exemple en saisissant une désignation différente pour un contact. Si vous fusionnez un segment avec un document Microsoft Word, vous pouvez personnaliser le document à envoyer à un ou à plusieurs contacts inclus dans le segment, par exemple en ajoutant au document des commentaires spécifiques.
 
 ## <a name="logging"></a>Journalisation
-Dans la fenêtre **Segment**, lorsque vous cliquez sur **Journaliser**, l'application enregistre les interactions dans la fenêtre **Ecriture journal interaction** et journalise le segment. Une fois le segment journalisé, il n'apparaît plus que dans la fenêtre **Segments journalisés**.
+Sur la page **Segment**, lorsque vous cliquez sur **Journaliser**, l'application enregistre les interactions sur la page **Ecriture journal interaction** et journalise le segment. Une fois le segment journalisé, il n'apparaît plus que sur la page **Segments journalisés**.
 
-Dans la fenêtre **Segments journalisés**, vous pouvez choisir de créer un suivi segment contenant les mêmes contacts que le segment que vous avez journalisé.
+Sur la page **Segments journalisés**, vous pouvez choisir de créer un suivi segment contenant les mêmes contacts que le segment que vous avez journalisé.
 
 ## <a name="see-also"></a>Voir aussi
 [Création de segments](marketing-how-create-segment.md)  

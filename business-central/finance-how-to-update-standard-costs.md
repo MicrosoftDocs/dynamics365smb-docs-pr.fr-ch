@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c59977f847a020fbcda490893dbe15ed88ac1e5a
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 88e715ddd2c60c3eb780ffe71d80676fdea00209
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="update-standard-costs"></a>Mise à jour des coûts standard
@@ -40,7 +40,7 @@ Pour plus d'informations, voir [À propos du calcul des coûts standard](finance
     5. Exécutez le traitement par lots **Calculer coût std multi-niv.**.
     6.  Vérifiez les résultats et apportez des modifications si nécessaire.
     7.  Exécutez le traitement par lots **Appliquer nouv. coût standard**.  
-4.  Vérifiez et validez la fenêtre **Feuille réévaluation** renseignée avec les entrées des étapes précédentes de ce processus.  
+4.  Vérifiez et validez la page **Feuille réévaluation** renseignée avec les entrées des étapes précédentes de ce processus.  
 
 ## <a name="see-also"></a>Voir aussi  
  [À propos du calcul des coûts standard](finance-about-calculating-standard-cost.md)   

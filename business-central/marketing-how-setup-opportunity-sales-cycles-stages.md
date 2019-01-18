@@ -11,10 +11,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 34262b070ea19b5f109c9194d6a91ef048132e6b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 319a59c865b7883cf7de5c35d9ebce5c30de0f76
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a>Configurer des cycles de vente opportunité et des étapes de cycle
@@ -25,13 +25,13 @@ Mettre en œuvre des cycles de vente opportunité implique la création d'un cyc
 Cette rubrique décrit également comment configurer des tâches et les activités, et comment affecter des tâches aux activités. Pour plus d'informations, reportez-vous à la section « Pour configurer des activités avec des tâches ».
 
 ## <a name="to-set-up-opportunity-sales-cycle-codes"></a>Pour configurer des cycles de vente opportunité
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Cycles de vente**, puis sélectionnez le lien associé. La fenêtre **Cycles de vente** s'affiche, et répertorie tous les cycles de vente existants.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Cycles de vente**, puis sélectionnez le lien associé. La page **Cycles de vente** s'affiche, et répertorie tous les cycles de vente existants.
 2. Sélectionnez l'action **Nouveau**, puis renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Répétez ces étapes pour chaque cycle de vente à configurer. Une fois les cycles de vente opportunité configurés, vous pouvez définir les différentes étapes de chaque cycle.
 
 ## <a name="to-define-opportunity-sales-cycle-stages"></a>Pour définir les étapes du cycle de vente opportunité
-1. Dans la fenêtre **Cycles de vente**, sélectionnez le cycle de vente opportunité pour lequel vous souhaitez définir des étapes, puis sélectionnez l'action **Etapes**. La fenêtre **Etapes cycle de vente** s'affiche.
+1. Sur la page **Cycles de vente**, sélectionnez le cycle de vente opportunité pour lequel vous souhaitez définir des étapes, puis sélectionnez l'action **Etapes**. La page **Etapes cycle de vente** s'affiche.
 2. Sélectionnez l'action **Nouveau** pour intégrer une nouvelle étape dans le cycle de vente.
 
 Répétez ces étapes pour définir toutes les étapes du cycle de vente.
@@ -54,13 +54,13 @@ Lorsque vous avez créé une tâche, vous pouvez l'affecter à une opportunité 
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Opportunités**, puis choisissez le lien associé.
 2. Sélectionnez une opportunité, puis cliquez sur **Tâches**.
-3. Dans la fenêtre **Liste des tâches**, sélectionnez l'action **Créer Tâche**.
-4.  Dans la fenêtre **Créer Tâche**, renseignez les champs selon vos besoins.
+3. Sur la page **Liste des tâches**, sélectionnez l'action **Créer Tâche**.
+4.  Sur la page **Créer Tâche**, renseignez les champs selon vos besoins.
 
     Remarquez dans le champ **Opportunité**, que celui est automatiquement affecté à l'opportunité en question.
-5. Cliquez sur le bouton **OK**.
-6. Dans la fenêtre **Liste des tâches**, sélectionnez la nouvelle tâche, puis sélectionner l'action **Affecter activités**.
-7. Dans la fenêtre **Affecter activités**, renseignez les champs selon vos besoins, puis cliquez sur le bouton **OK**.
+5. Choisissez le bouton **OK**.
+6. Sur la page **Liste des tâches**, sélectionnez la nouvelle tâche, puis sélectionner l'action **Affecter activités**.
+7. Sur la page **Affecter activités**, renseignez les champs selon vos besoins, puis cliquez sur le bouton **OK**.
 
 ## <a name="see-also"></a>Voir aussi
 [Traitement des opportunités de vente](marketing-processing-sales-opportunities.md)  

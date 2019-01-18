@@ -11,24 +11,24 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: fae1b2937a3c06fc947dd3dbec529826322d035c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ad0f99509ff1a191c62dd1c3a6d569c9884ea851
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Utiliser des files d'attente des travaux pour planifier des tâches
 Des files d'attente des travaux dans [!INCLUDE[d365fin](includes/d365fin_md.md)] permettent aux utilisateurs de planifier et d'exécuter des états et codeunits spécifiques. Vous pouvez définir des projets à exécuter une fois, ou sur une base récurrente. Par exemple, vous pouvez être amené à exécuter l'état **Vendeurs : Statistiques ventes** chaque semaine pour suivre les ventes hebdomadaires d'un vendeur, ou vous pouvez être amené à exécuter le codeunit **Traiter file att. e-mails serv** chaque jour pour vérifier si des e mails adressés aux clients concernant leurs commandes service sont envoyés en temps utile.  
 
 ## <a name="add-jobs-to-the-job-queue"></a>Ajouter des projets à la file d'attente des travaux
-La fenêtre **Écritures file d'attente des travaux** répertorie tous les projets existants. Si vous ajoutez une nouvelle écriture file d'attente des travaux que vous voulez planifier, vous devez spécifier des informations sur le type d'objet à exécuter, par exemple un état ou un codeunit et le nom et l'ID de l'objet que vous voulez exécuter. Vous pouvez également ajouter des paramètres pour spécifier le comportement de la file d'attente des travaux. Par exemple, vous pouvez ajouter un paramètre pour envoyer uniquement des commandes vente validées. Vous devez être autorisé à exécuter l'état ou le codeunit spécifié, sans quoi une erreur est renvoyée lors de l'exécution de la file projets.  
+La page **Écritures file d'attente des travaux** répertorie tous les projets existants. Si vous ajoutez une nouvelle écriture file d'attente des travaux que vous voulez planifier, vous devez spécifier des informations sur le type d'objet à exécuter, par exemple un état ou un codeunit et le nom et l'ID de l'objet que vous voulez exécuter. Vous pouvez également ajouter des paramètres pour spécifier le comportement de la file d'attente des travaux. Par exemple, vous pouvez ajouter un paramètre pour envoyer uniquement des commandes vente validées. Vous devez être autorisé à exécuter l'état ou le codeunit spécifié, sans quoi une erreur est renvoyée lors de l'exécution de la file projets.  
 
 Vous pouvez éventuellement définir un filtre dans le champ **Filtre catégorie de la file d'attente des travaux**. Les catégories de file d'attente des travaux peuvent être utilisées pour regrouper les projets de la liste.
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] exécute automatiquement les projets selon le planning spécifié pour chaque écriture file d'attente des travaux. Vous pouvez également démarrer, arrêter et mettre en attente manuellement une écriture file d'attente des travaux.
 
 ### <a name="log-files"></a>Fichiers journaux
-Les erreurs sont répertoriées dans la fenêtre **Écritures journal file d'attente des travaux** qui est accessible à partir du ruban. Vous pouvez également résoudre les erreurs de la file d'attente des travaux. Les données générées lors de l'exécution d'une file d'attente des travaux sont stockées dans la base de données.  
+Les erreurs sont répertoriées sur la page **Écritures journal file d'attente des travaux** qui est accessible à partir du ruban. Vous pouvez également résoudre les erreurs de la file d'attente des travaux. Les données générées lors de l'exécution d'une file d'attente des travaux sont stockées dans la base de données.  
 
 ### <a name="background-posting-with-job-queues"></a>Validation en arrière-plan avec les files d'attente des travaux
 Les files d'attente des travaux sont un outil efficace pour planifier le travail des processus métier en arrière-plan. Par exemple, il peut y avoir une circonstance selon laquelle plusieurs utilisateurs essaient de valider des commandes vente en même temps, mais uniquement une commande peut être traitée à la fois. En configurant une routine de validation en arrière-plan, vous pouvez placer les validations dans une file d'attente pour les traiter en arrière-plan.  
@@ -46,7 +46,7 @@ Les files d'attente des travaux sont un outil efficace pour planifier le travail
 > [!NOTE]  
 >  Lorsque vous planifiez un document pour validation et que le processus de validation débute, la routine de validation est automatiquement configurée pour expirer dans les deux heures si elle arrête de répondre pour une raison quelconque.  
 
-Vous définissez cette utilisation de la file d'attente des travaux dans la fenêtre **Paramètres ventes** ou la fenêtre **Achats**, respectivement. Sur le raccourci **Validation arrière-plan**, activez la case à cocher **Valider les documents via file projets**, puis entrez les informations appropriées. Vous pouvez aussi utiliser le champ **Code catégorie de la file d'attente des travaux** pour exécuter toutes les écritures file d'attente des travaux avec ce code. Par exemple, vous pouvez utiliser une catégorie **SalesPost** qui filtre toutes les commandes vente correspondant à n'importe quelle file d'attente des travaux ayant le même code catégorie.  
+Vous définissez cette utilisation de la file d'attente des travaux sur la page **Paramètres ventes** ou la page **Achats**, respectivement. Sur le raccourci **Validation arrière-plan**, activez la case à cocher **Valider les documents via file projets**, puis entrez les informations appropriées. Vous pouvez aussi utiliser le champ **Code catégorie de la file d'attente des travaux** pour exécuter toutes les écritures file d'attente des travaux avec ce code. Par exemple, vous pouvez utiliser une catégorie **SalesPost** qui filtre toutes les commandes vente correspondant à n'importe quelle file d'attente des travaux ayant le même code catégorie.  
 
 > [!IMPORTANT]  
 >  Si vous paramétrez un projet qui valide et imprime des documents et que l'imprimante affiche une boîte de dialogue, par exemple une demande d'informations d'identification ou un alerte à propos de la quantité faible d'encre, votre document est validé mais non imprimé. L'écriture file d'attente de travaux correspondante expire et la valeur du champ **Statut** devient **Erreur**. Par conséquent, nous vous recommandons de ne pas utiliser une configuration de l'imprimante nécessitant une interaction avec les boîtes de dialogue de l'imprimante relatives à la validation en arrière-plan.  

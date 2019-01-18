@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fda754e366dab52ee2632fa9e959c8cd717e25b9
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9e7990c907360a1ba7fb445e3eeefeb026315f9e
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Détails de conception : flux d'enlogement
@@ -62,7 +62,7 @@ Lorsque les articles sont réceptionnés dans l'entrepôt, l'utilisateur qui est
 Lorsque le document d'origine entrant est émis, une demande d'entrepôt entrant est automatiquement créée. Elle contient des références au type et au numéro du document origine et n'est pas visible à l'utilisateur.  
 
 ### <a name="3-create-inventory-put-away"></a>3 : Créer rangement stock  
-Dans la fenêtre **Rangement stock**, le magasinier extrait, en mode extraction, les lignes document origine en attente en fonction des demandes enlogement. Sinon, les lignes rangement stock sont déjà créées, par déplacement, par l'utilisateur responsable du document origine.  
+Sur la page **Rangement stock**, le magasinier extrait, en mode extraction, les lignes document origine en attente en fonction des demandes enlogement. Sinon, les lignes rangement stock sont déjà créées, par déplacement, par l'utilisateur responsable du document origine.  
 
 ### <a name="4-post-inventory-put-away"></a>4 : Valider rangement stock  
 Sur chaque ligne pour les articles qui ont été rangés, entièrement ou partiellement, le magasinier renseigne le champ **Quantité**, puis valide le rangement stock. Les documents origine associé au rangement stock sont validés comme étant reçus.  
@@ -81,7 +81,7 @@ Lorsque les articles sont réceptionnés dans l'entrepôt, l'utilisateur qui est
 Lorsque le document d'origine entrant est émis, une demande d'entrepôt entrant est automatiquement créée. Elle contient des références au type et au numéro du document origine et n'est pas visible à l'utilisateur.  
 
 ### <a name="3-create-warehouse-receipt"></a>3 : Créer une réception entrepôt  
-Dans la fenêtre **Réception entrepôt**, l'utilisateur qui est responsable de recevoir des articles extrait les lignes document origine en attente en fonction de la demande enlogement. Plusieurs lignes document origine peuvent être combinées dans un document réception entrepôt.  
+Sur la page **Réception entrepôt**, l'utilisateur qui est responsable de recevoir des articles extrait les lignes document origine en attente en fonction de la demande enlogement. Plusieurs lignes document origine peuvent être combinées dans un document réception entrepôt.  
 
 L'utilisateur renseigne le champ **Qté à traiter** et sélectionne la zone et à l'emplacement de réception, si nécessaire.  
 
@@ -106,7 +106,7 @@ Lorsque tous les stockages sont planifiés et affectés aux magasiniers, l'utili
 Le magasinier qui effectue les stockages crée un document de stockage en entrepôt, sur le mode de l'extraction, basé sur le reçu entrepôt validé. Sinon, le document rangement entrepôt est créé et affecté à un magasinier par déplacement.  
 
 ### <a name="9-register-warehouse-put-away"></a>9 : Enregistrer rangement entrepôt  
-Sur chaque ligne pour les articles qui ont été rangés, entièrement ou partiellement, le magasinier renseigne le champ **Quantité** dans la fenêtre **Rangement entrepôt**, puis enregistre le rangement entrepôt.  
+Sur chaque ligne pour les articles qui ont été rangés, entièrement ou partiellement, le magasinier renseigne le champ **Quantité** sur la page **Rangement entrepôt**, puis enregistre le rangement entrepôt.  
 
 Les écritures d'entrepôt sont créées, et les lignes de stockage en entrepôt sont supprimées, si entièrement traitées. Le document de stockage en entrepôt reste ouvert jusqu'à ce que la quantité totale du reçu entrepôt validé soit enregistrée. Le champ **Qté rangement** sur les lignes d'ordre de réception entrepôt est mis à jour.  
 

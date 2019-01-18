@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 32128cab221db491731ba66a53a56635e5dc00ee
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2486e653c19be631386cea9ea2d98ad97b7ff8a8
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="swiss-electronic-payments"></a>Paiements électroniques, Suisse
@@ -36,7 +36,7 @@ ESR est un service de prélèvement électronique qui utilise des bordereaux de 
 LSV+ est un service de prélèvement utilisé pour traiter les paiements. Les sociétés peuvent lancer des paiements client directement de la banque du client à l'aide du prélèvement. Vous pouvez demander et encaisser des paiements clients en utilisant le prélèvement au format banque LSV+ ou au format PostFinance DebitDirect. Pour plus d'informations, voir [Paiements électroniques suisses avec le mode LSV+](swiss-electronic-payments-using-lsv-.md).  
 
 ## <a name="sepa-credit-transfers"></a>Virements SEPA  
-Pour exporter des paiements selon la norme SEPA, vous devez utiliser un compte bancaire. Pour vous assurer que les écritures comptables correspondantes sont cohérentes avec celles générées pour des modes de règlement suisses locaux (voir ci-dessus), la valeur dans le champ **Groupe compta. banque** dans la fenêtre **Fiche compte bancaire archivé** doit indiquer le compte général approprié. Pour plus d'informations sur l'exportation des paiements SEPA, voir [Procédure : créer des écritures de collection prélèvement automatique SEPA et les exporter vers un fichier bancaire](../../finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md).  
+Pour exporter des paiements selon la norme SEPA, vous devez utiliser un compte bancaire. Pour vous assurer que les écritures comptables correspondantes sont cohérentes avec celles générées pour des modes de règlement suisses locaux (voir ci-dessus), la valeur dans le champ **Groupe compta. banque** de la page **Fiche compte bancaire archivé** doit indiquer le compte général approprié. Pour plus d'informations sur l'exportation des paiements SEPA, voir [Procédure : créer des écritures de collection prélèvement automatique SEPA et les exporter vers un fichier bancaire](../../finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md).  
 
 ## <a name="see-also"></a>Voir aussi  
  [Importer des numéros de compensation d'une banque suisse](how-to-import-swiss-bank-clearing-numbers.md)   

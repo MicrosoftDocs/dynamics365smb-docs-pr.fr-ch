@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4b2879f3b913ddc554cbbbe49fedd3bc1434b0ad
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b51837e01f65241433272a3349ff3e771f593251
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="swiss-purchase-documents-and-sales-documents"></a>Documents vente et Documents achat, Suisse
@@ -41,7 +41,7 @@ Vous pouvez spécifier un article comme variante de la ligne devis. Cela vous pe
 Pour les factures achat et les factures vente, le montant facture est retranché du montant remise, puis arrondi. Le facture totale est également arrondie s'il existe une remise. Pour plus d'informations, voir la table Paramètres comptabilité.  
 
 ## <a name="shipment-documents"></a>Documents d'expédition  
-Dans la fenêtre **Paramètres ventes**, le champ **Expédition sur Livrer et facturer** est utilisé pour désactiver l'impression de documents d'expédition supplémentaires pour les factures d'achat et les factures de vente. Lorsque vous validez une commande, une expédition validée et une facture enregistrée sont automatiquement créées. Si la facture imprimée est également utilisée comme document expédition, la documentation supplémentaire d'expédition n'a pas besoin d'être imprimée. Vous pouvez désactiver l'impression de documents d'expédition supplémentaires pour les factures d'achat et les factures de vente en désactivant le champ **Expédition sur Livrer et facturer** dans la fenêtre **Paramètres vente**. Pour plus d'informations, voir la table Paramètres ventes.  
+Dans la page **Paramètres ventes**, le champ **Expédition sur Livrer et facturer** est utilisé pour désactiver l'impression de documents d'expédition supplémentaires pour les factures d'achat et les factures de vente. Lorsque vous validez une commande, une expédition validée et une facture enregistrée sont automatiquement créées. Si la facture imprimée est également utilisée comme document expédition, la documentation supplémentaire d'expédition n'a pas besoin d'être imprimée. Vous pouvez désactiver l'impression de documents d'expédition supplémentaires pour les factures d'achat et les factures de vente en désactivant le champ **Expédition sur Livrer et facturer** dans la page **Paramètres vente**. Pour plus d'informations, voir la table Paramètres ventes.  
 
 ## <a name="see-also"></a>Voir aussi  
  [Importer les codes postaux suisses](how-to-import-swiss-post-codes.md)   

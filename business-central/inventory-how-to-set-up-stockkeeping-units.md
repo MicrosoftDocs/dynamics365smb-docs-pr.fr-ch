@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/15/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3c368af3347c72f2cf355876ed5574151095f993
+ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
+ms.openlocfilehash: d5582e1857481d32ad146d0732f4c60d1b678c74
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/20/2018
 
 ---
 # <a name="set-up-stockkeeping-units"></a>Configurer des points de stock
@@ -35,7 +35,11 @@ Après avoir configuré le premier point de stock pour un article, la case à co
 Pour créer plusieurs points de stock pour un article, utilisez le traitement par lots **Créer point de stock**.  
 
 > [!NOTE]  
->  Les informations de la fiche **Point de stock** sont prioritaires par rapport à celles de la fiche **Article**.  
+>  Les informations de la fiche **Point de stock** sont prioritaires par rapport à celles de la fiche **Article**.
+
+> [!Warning]
+> Si le point de stock est expédié à la fabrication, le champ **Coût standard** n'est pas utilisé lors de la facturation et de l'ajustement du coût réel de l'article fabriqué. Celui utilisé est plutôt le champ **Coût standard** de la fiche article sous-jacente. En outre, tous les écarts sont calculés par rapport aux coûts totaux de l'article.<br /><br />
+> Étant donné qu'il n'est pas possible d'affecter les nomenclatures de production et la gamme aux points de stock, le calcul du coût unitaire et le calcul lié des coûts totaux ne sont également pas disponibles sur les points de stock. Pour plus d'informations, voir [À propos du calcul des coûts standard](finance-about-calculating-standard-cost.md)
 
 ## <a name="see-also"></a>Voir aussi  
 [Enregistrer de nouveaux articles](inventory-how-register-new-items.md)  

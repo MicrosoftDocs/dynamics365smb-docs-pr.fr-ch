@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: be0a80ea66dea634a37cb187408c7142d70af011
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5c6cebdb3bdadc9a8b3830a1ff0cb9fb4649e863
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="quote-an-assemble-to-order-sale"></a>Établissement d'un devis de vente Assembler pour commande
@@ -36,8 +36,8 @@ Lorsque vous vendez tout autre type d'article, vous pouvez également créer un 
     >  Vous ne devez pas établir un devis pour une quantité partielle. Par conséquent, vous devez entrer la même quantité que vous avez saisie dans le champ **Quantité** de la ligne devis.  
 
 4.  Sur le raccourci **Lignes**, sélectionnez **Ligne**, puis **Assembler pour commande** et **Lignes d'assemblage pour commande**. Sinon, choisissez le champ **Quantité à assembler pour commande** sur la ligne.  
-5.  Dans la fenêtre **Lignes d'assemblage pour commande**, vérifiez ou modifiez les lignes d'assemblage pour commande en fonction du devis demandé par le client. Des informations supplémentaires sont disponibles en choisissant **Afficher document** pour ouvrir la commande devis ouverte complète. Vous ne pouvez pas modifier le contenu de la plupart des champs, et vous ne pouvez pas valider.  
-6.  Lorsque vous avez ajusté les lignes d'ordre d'assemblage en fonction du devis, fermez la fenêtre **Lignes d'assemblage pour commande** pour revenir à la fenêtre **Devis**.  
+5.  Sur la page **Lignes d'assemblage pour commande**, vérifiez ou modifiez les lignes d'assemblage pour commande en fonction du devis demandé par le client. Des informations supplémentaires sont disponibles en choisissant **Afficher document** pour ouvrir la commande devis ouverte complète. Vous ne pouvez pas modifier le contenu de la plupart des champs, et vous ne pouvez pas valider.  
+6.  Lorsque vous avez ajusté les lignes d'ordre d'assemblage en fonction du devis, fermez la page **Lignes d'assemblage pour commande** pour revenir à la page **Devis**.  
 7.  Si le client accepte le devis, créez une commande vente pour l'élément d'assemblage qui a fait l'objet du devis. Pour plus d'informations, voir [Créer des devis](sales-how-make-offers.md). Le devis d'assemblage associé et toutes les personnalisations sont liées à cette nouvelle commande vente à préparer pour l'assemblage de l'article ou des articles à vendre.  
 
 ## <a name="see-also"></a>Voir aussi  

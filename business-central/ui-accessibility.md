@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 65f34ae7fe1665bbe8336e6fe959ac109486531e
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: bdb9eab2c23d8f1eacafd77433f621275c3dfdf1
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="accessibility-and-keyboard-shortcuts-in-included365finincludesd365finmdmd"></a>Accessibilité et raccourcis clavier dans [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -51,7 +51,7 @@ Cette rubrique fournit des informations sur les fonctionnalités qui rendent [!I
 ##  <a name="Navigation"></a> Navigation  
  Vous pouvez naviguer entre les onglets et les actions du ruban, les éléments de la barre de navigation et d'autres contrôles sur les pages et états [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide du clavier. Pour déplacer le focus d'un onglet, d'une action ou d'un contrôle vers un autre, appuyez sur la touche Tab pour avancer. Appuyez sur Maj+Tab pur reculer.  
 
- À l'aide de l'ordre de tabulation, vous pouvez également permuter entre la fenêtre principale du navigateur et les boîtes de dialogue de demande de confirmation, par exemple, ou la fenêtre de connexion.  
+ À l'aide de l'ordre de tabulation, vous pouvez également permuter entre la page principale du navigateur et les boîtes de dialogue de demande de confirmation, par exemple, ou la page de connexion.  
 
 ##  <a name="Headings"></a> En-têtes  
  La source HTML du contenu [!INCLUDE[d365fin](includes/d365fin_md.md)] utilise des balises pour aider les utilisateurs de la technologie d'assistance à comprendre la structure et le contenu de la page. Par exemple, sur les pages de liste, les colonnes sont définies dans les balises TH et les en-têtes de colonne sont définies avec l'attribut TITLE au sein de la balise. Les légendes des éléments, tels que les raccourcis, récapitulatifs et champs sont incluses dans les balises d'en-tête (H1, H2, H3 et H4).  

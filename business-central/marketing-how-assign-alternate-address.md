@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+redirect_url: marketing-setup-contacts
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3b6ed1ffe162f0bdb4d1af1dd84c34c6f0de91bb
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4f036800f7d9e83fdeacb827bb195f1f36b6a38e
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-alternative-addresses-for-contacts"></a>Configurer des adresses secondaires pour des contacts
@@ -24,16 +25,16 @@ Vous pouvez affecter une adresse secondaire pour l'envoi de messages et d'inform
 
 ## <a name="to-assign-an-alternate-address"></a>Pour affecter une adresse secondaire
 1. Ouvrez le contact.
-2. Sélectionnez l'action **Adresse secondaire**, puis sélectionnez **Fiche**. La fenêtre **Liste adresses sec. contact** s'ouvre.
-3. Entrez une nouvelle adresse secondaire et renseignez les champs de la fenêtre **Adresse secondaire du contact**.
+2. Sélectionnez l'action **Adresse secondaire**, puis sélectionnez **Fiche**. La page **Liste adresses sec. contact** s'ouvre.
+3. Entrez une nouvelle adresse secondaire et renseignez les champs de la page **Adresse secondaire du contact**.
 
 Répétez ces étapes pour chaque adresse secondaire à affecter. Pour chaque adresse secondaire, vous pouvez indiquer une ou plusieurs plages de dates.
 
-Vous pouvez également affecter des adresses secondaires à partir de la fenêtre Liste des contacts en suivant la même procédure.
+Vous pouvez également affecter des adresses secondaires à partir de la page de liste des contacts en suivant la même procédure.
 
 ## <a name="to-assign-an-alternate-address-date-range"></a>Pour affecter des plages de dates pour les adresses secondaires
 1. Ouvrez le contact.
-2. Sélectionnez l'action **Adresse secondaire**, puis sélectionnez **Plage de dates**. La fenêtre **Plage dates adr. sec. contact** s'ouvre.
+2. Sélectionnez l'action **Adresse secondaire**, puis sélectionnez **Plage de dates**. La page **Plage dates adr. sec. contact** s'ouvre.
 3. Sélectionnez l'action **Nouveau**.
 4. Dans le champ **Code adresse contact secondaire**, sélectionnez une adresse secondaire pour ce contact, puis renseignez les champs **Date de début** et **Date de fin** .
 

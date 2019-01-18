@@ -13,10 +13,10 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 24ca91f224a198ec462081ced06ddfe0e9db6cf4
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: fbac12ea35916a1ae577341054f4b80522de9df8
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Configuration d'une analyse de trésorerie
@@ -30,7 +30,7 @@ Si vous souhaitez de l'aide pour décider quelles opérations effectuer avec vot
 Cette rubrique décrit d'où proviennent les données dans les graphiques et, si nécessaire, quoi faire pour commencer à utiliser les graphiques.  
 
 ## <a name="the-cash-cycle-and-income--expense-charts"></a>Les graphiques Cycle trésorerie et Revenus et dépenses
-Les graphiques **Cycle trésorerie** et **Revenus et dépenses** sont prêts à être utilisés, en fonction du plan comptable et des tableaux d'analyse. Les données sont issues de ces comptes, et les états financiers calculent les relations entre les ventes et les créances. Certains comptes et états financiers sont fournis. Vous pouvez les utiliser tels quels, les modifier, puis en ajouter de nouveaux. Si vous ajoutez des comptes généraux à votre plan comptable, par exemple, en les important de QuickBooks, vous devez les associer aux comptes sur la fenêtre **Tableaux d'analyse** pour les noms de tableaux d'analyse :  
+Les graphiques **Cycle trésorerie** et **Revenus et dépenses** sont prêts à être utilisés, en fonction du plan comptable et des tableaux d'analyse. Les données sont issues de ces comptes, et les états financiers calculent les relations entre les ventes et les créances. Certains comptes et états financiers sont fournis. Vous pouvez les utiliser tels quels, les modifier, puis en ajouter de nouveaux. Si vous ajoutez des comptes généraux à votre plan comptable, par exemple, en les important de QuickBooks, vous devez les associer aux comptes sur la page **Tableaux d'analyse** pour les noms de tableaux d'analyse :  
 
 | Nom tableau d'analyse | Emplacement d'utilisation |
 | --- | --- |
@@ -68,14 +68,14 @@ Pour utiliser le guide de configuration assistée :
 1. Dans le tableau de bord Comptable, sous le graphique **Prévisions de trésorerie**, sélectionnez l'action **Ouvrir la configuration assistée**.  
 2. Complétez les champs de chaque étape du guide.  
 3. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Prévision de trésorerie**, puis sélectionnez le lien associé.
-4. Dans la fenêtre **Prévision de trésorerie**, choisissez l'action **Recalculer la prévision**.  
+4. Sur la page **Prévision de trésorerie**, choisissez l'action **Recalculer la prévision**.  
 
 Pour utiliser une procédure manuelle :  
 
 1. Dans le tableau de bord Comptable, recherchez **Paramètres trésorerie**, puis sélectionnez le lien associé.  
 2. Développez le raccourci **Cortana Intelligence**, puis cochez la case **Cortana Intelligence activé**.  
 3. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Prévision de trésorerie**, puis sélectionnez le lien associé.
-4. Dans la fenêtre **Prévision de trésorerie**, choisissez l'action **Recalculer la prévision**.  
+4. Sur la page **Prévision de trésorerie**, choisissez l'action **Recalculer la prévision**.  
 
 > [!TIP]  
 >   Tenez compte de la durée des périodes utilisée par le service lors de ses calculs. Plus vous fournissez de données, plus les prévisions seront précises. En outre, soyez prudent en ce qui concerne les grands écarts entre les périodes. Cela aura également un impact sur les prévisions. Si Cortana Intelligence ne trouve pas suffisamment de données ou si les données varient considérablement, le service ne fera pas de prévisions.  

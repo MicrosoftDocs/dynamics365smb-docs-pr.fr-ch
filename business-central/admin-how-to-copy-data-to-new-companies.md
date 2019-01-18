@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c8f020547cb48e288c1e1defac14993fab6bb21f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8fc06a83a4bbf6acb5da076e21169819a6bb07de
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="copy-data-to-new-companies"></a>Copier des données vers les nouvelles sociétés
@@ -26,7 +26,7 @@ Vous pouvez copier des valeurs couramment utilisées d’une société existante
 1. Ouvrez la nouvelle société.  
 2. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille configuration**, puis sélectionnez le lien associé.  
 3. Sélectionnez **Copier les données de la société**.  
-4. Dans la fenêtre **Copier données société**, sélectionnez une société à copier dans le champ **Copier de**, puis cliquez sur le bouton **OK**.  
+4. Sur la page **Copier données société**, sélectionnez une société à copier dans le champ **Copier de**, puis cliquez sur le bouton **OK**.  
 5. Sélectionnez une table dans l’un des package configuration que vous avez importés, puis sélectionnez l'action **Copier données**.
 
 ## <a name="see-also"></a>Voir aussi

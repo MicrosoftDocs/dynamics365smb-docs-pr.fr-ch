@@ -13,10 +13,10 @@ ms.search.keywords: policy, coverage
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 16098723fed40fbe26b9ba238e7fe5bf339003f5
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1acb95e72ded81520272b250138005d36759d634
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-fixed-asset-insurance"></a>Configurer une assurance immobilisation
@@ -38,11 +38,11 @@ Vous pouvez regrouper vos polices d'assurance en catégories (assurances contre 
 Vous pouvez rassembler des informations sur chaque police d'assurance dans la fiche assurance.  
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Assurance**, puis sélectionnez le lien associé.  
-2. Dans la fenêtre **Assurance**, sélectionnez l'action **Nouveau** pour créer une fiche assurance.  
+2. Sur la page **Assurance**, sélectionnez l'action **Nouveau** pour créer une fiche assurance.  
 3. Renseignez les champs selon vos besoins.
 
 ## <a name="to-set-up-insurance-journal-templates"></a>Pour définir des modèles feuille assurance
-[!INCLUDE[d365fin](includes/d365fin_md.md)] crée automatiquement un modèle feuille assurance la première fois que vous ouvrez la fenêtre **Feuille assurance**. Vous pouvez cependant définir d'autres modèles feuille. Pour plus d'informations, voir [Utilisation des feuilles comptabilité](ui-work-general-journals.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] crée automatiquement un modèle feuille assurance la première fois que vous ouvrez la page **Feuille assurance**. Vous pouvez cependant définir d'autres modèles feuille. Pour plus d'informations, voir [Utilisation des feuilles comptabilité](ui-work-general-journals.md).  
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Modèles feuille assurance**, puis sélectionnez le lien associé.  
 2. Renseignez les champs selon vos besoins.
@@ -52,7 +52,7 @@ Vous pouvez définir des feuilles dans un modèle feuille assurance. Les valeurs
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Modèles feuille assurance**, puis sélectionnez le lien associé.  
 2. Sélectionnez un modèle feuille assurance, puis l'action **Lots**.
-3. Dans la fenêtre **Lots feuille assurance**, renseignez les champs selon vos besoins.
+3. Sur la page **Noms feuilles assurance**, renseignez les champs selon vos besoins.
 
 > [!NOTE]  
 >   Les numéros remplissent une fonction spéciale dans les noms de feuille. Si un nom de feuille ou de modèle feuille indique un numéro, ce numéro est incrémenté automatiquement de 1 à chaque fois que la feuille est validée. Par exemple, si vous saisissez HH1 dans le champ **Nom**, la feuille prend le nom HH2 après validation de la feuille HH1.

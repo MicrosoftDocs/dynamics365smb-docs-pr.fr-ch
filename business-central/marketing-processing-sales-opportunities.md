@@ -13,17 +13,17 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 5b57b47d4ceb08a3836140945387e38887553a99
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2eab68abd4c02aa6d42daf751640f47a8fb11d23
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="process-sales-opportunities"></a>Traiter des opportunités de vente
 Une fois que vous avez créé une opportunité, il existe plusieurs fonctionnalités permettant de gérer l'opportunité et de la faire avancer jusqu'à l'achèvement.
 
 ## <a name="to-view-opportunities"></a>Pour afficher les opportunités
-Les opportunités de vente existantes sont disponibles dans la fenêtre **Liste des opportunités**. Il existe différentes manières d'accéder à cette fenêtre pour le traitement des opportunités de vente :
+Les opportunités de vente existantes sont disponibles sur la page **Liste des opportunités**. Il existe différentes manières d'accéder à cette page pour le traitement des opportunités de vente :
 
 | Pour afficher les opportunités pour | Alors |
 | --- | --- |
@@ -31,12 +31,12 @@ Les opportunités de vente existantes sont disponibles dans la fenêtre **Liste 
 | Un vendeur spécifique |Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Vendeurs**, puis sélectionnez le lien associé. Sélectionnez le vendeur, sélectionnez l'action **Opportunités**, puis l'action **Liste**. |
 | Un contact spécifique |Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Contacts**, puis sélectionnez le lien associé. Sélectionnez le contact dans la liste, puis sélectionnez l'action **Opportunités**. |
 
-Chacune de ces tâches ouvre la fenêtre **Liste des opportunités**.
+Chacune de ces tâches ouvre la page **Liste des opportunités**.
 
 ## <a name="to-close-opportunities"></a>Pour clôturer des opportunités
 Vous pouvez clôturer des opportunités lorsque les négociations sont terminées. Lorsque vous clôturez une opportunité, vous pouvez spécifiez si elle a réussi ou échoué, et préciser les motifs de la clôture. Pour spécifier un motif, vous devez configurer des codes opportunité clôturée.
 
-1. Dans la fenêtre **Liste des opportunités**, sélectionnez l'opportunité, puis sélectionner l'action **Clôturer**. La fenêtre **Terminer opportunité** s'affiche.
+1. Sur la page **Liste des opportunités**, sélectionnez l'opportunité, puis sélectionner l'action **Clôturer**. La page **Terminer opportunité** s'affiche.
 2. Renseignez les champs appropriés, puis cliquez sur le bouton **OK**.
 
    Les champs **Code fin opportunité** et **Date clôture** sont obligatoires. Vous devez les renseigner avant de cliquer sur le bouton **OK**.
@@ -46,22 +46,22 @@ Vous pouvez clôturer des opportunités lorsque les négociations sont terminée
 ## <a name="to-create-quotes-for-opportunities"></a>Pour créer des devis pour des opportunités
 Vous pouvez créer des devis pour les contacts qui ne sont pas enregistrés en tant que clients.
 
-1. Dans la fenêtre **Liste des opportunités**, sélectionnez l'opportunité, puis sélectionner l'action **Créer devis**. La fenêtre **Devis** s'affiche.
+1. Sur la page **Liste des opportunités**, sélectionnez l'opportunité, puis sélectionner l'action **Créer devis**. La page **Devis** s'affiche.
 2. Renseignez les champs de votre choix.
 
 ## <a name="to-create-sales-orders-for-opportunities"></a>Pour créer des commandes vente pour les opportunités
 Vous pouvez effectuer des commandes vente à partir des devis que vous avez créés pour vos opportunités. Pour pouvoir créer des commandes vente pour vos contacts, vous devez créer le contact en tant que client. Pour plus d'informations, reportez-vous à [Créer un client, un fournisseur ou un compte bancaire à partir d'un contact](marketing-how-create-contacts-new-customers-vendors-bank-accounts.md).
 
-1. Dans la fenêtre **Liste des opportunités**, recherchez l'opportunité pour laquelle vous avez créée un devis vente.
-2. Sélectionnez l'option **Créer devis**. La fenêtre **Devis** s'ouvre et affiche le devis que vous avez affecté à l'opportunité.
+1. Sur la page **Liste des opportunités**, recherchez l'opportunité pour laquelle vous avez créée un devis vente.
+2. Sélectionnez l'option **Créer devis**. La page **Devis** s'ouvre et affiche le devis que vous avez affecté à l'opportunité.
 3. Renseignez les autres champs, puis sélectionnez l'action **Créer commande**.
 
 Lorsque vous traitez des opportunités de vente, vous pouvez être amené à créer un devis pour le contact auquel est liée l'opportunité.
 
 ## <a name="to-delete-opportunities"></a>Pour supprimer des opportunités
-Vous pouvez supprimer des opportunités, par exemple après avoir conclu un marché. Toutefois, vous pouvez uniquement supprimer des opportunités clôturées. Il existe deux méthodes permettant de supprimer des opportunités clôturées. Vous pouvez supprimer des opportunités clôturées une par une à partir de la fenêtre **Liste des opportunités**, ou vous pouvez exécuter le traitement par lots **Supprimer les opportunités clôturées** afin de supprimer plusieurs opportunités sur la base de critères spécifiés.
+Vous pouvez supprimer des opportunités, par exemple après avoir conclu un marché. Toutefois, vous pouvez uniquement supprimer des opportunités clôturées. Il existe deux méthodes permettant de supprimer des opportunités clôturées. Vous pouvez supprimer des opportunités clôturées une par une à partir de la page **Liste des opportunités**, ou vous pouvez exécuter le traitement par lots **Supprimer les opportunités clôturées** afin de supprimer plusieurs opportunités sur la base de critères spécifiés.
 
-Pour supprimer des opportunités clôturées à partir de la fenêtre **Liste des opportunités**, sélectionnez l'opportunité, puis sélectionnez l'action **Supprimer**.
+Pour supprimer des opportunités clôturées à partir de la page **Liste des opportunités**, sélectionnez l'opportunité, puis sélectionnez l'action **Supprimer**.
 
 Pour supprimer des opportunités clôturées à l'aide du traitement par lots **Supprimer les opportunités clôturées**, procédez comme suit :
 
@@ -69,12 +69,12 @@ Pour supprimer des opportunités clôturées à l'aide du traitement par lots **
 2. Dans la section **Opportunité**, configurez les filtres qui spécifient les opportunités clôturées à supprimer.
 3. Cliquez sur le bouton **OK**.
 
-Une fois que vous avez supprimé une opportunité, elle ne s'affiche plus dans la fenêtre **Liste des opportunités**.
+Une fois que vous avez supprimé une opportunité, elle ne s'affiche plus sur la page **Liste des opportunités**.
 
 ## <a name="to-move-an-opportunity-through-sales-cycle-stages"></a>Pour faire avancer une opportunité au fil des étapes du cycle de vente
 Si une opportunité suit un cycle de vente, vous pouvez la faire avancer ou reculer au fil des différentes étapes, par exemple la faire passer à l'étape suivante ou précédente, et même ignorer une étape.
 
-1. Dans la fenêtre **Liste des opportunités**, sélectionnez l'action **Mettre à jour**. La fenêtre **Mise à jour opportunité** s'affiche.
+1. Sur la page **Liste des opportunités**, sélectionnez l'action **Mettre à jour**. La fenêtre **Mise à jour opportunité** s'affiche.
 2. Utilisez le champ **Type action** pour faire avancer l'opportunité au fil des étapes du cycle de vente :
    * **Suivant** fait avancer l'opportunité d'une étape.
    * **Ignorer** fait avancer l'opportunité d'une ou de plusieurs étapes dans le cycle de vente, que vous spécifiez dans le champ **Présentation**. Vous pouvez uniquement ignorer les étapes qui ont été configurées de sorte à l'autoriser.

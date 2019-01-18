@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6b1b23c062fdb1c4558a292c7aa454ae24ff3c71
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4827e25d97127faf691b96df9868320bb47dee39
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="archive-documents"></a>Archiver des documents
@@ -27,7 +27,7 @@ Vous pouvez configurer l'archivage automatique des commandes vente et achat, des
 
 La procédure suivante décrit comment configurer l'archivage automatique des documents vente. La procédure est identique pour les documents achat.
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres ventes**, puis sélectionnez le lien associé.
-2. Dans la fenêtre **Paramètres ventes**, renseignez les champs comme suit.
+2. Sur la page **Paramètres ventes**, renseignez les champs comme suit.
 
 |Champ|Désignation|
 |-----|-----------|
@@ -42,7 +42,7 @@ La procédure suivante décrit comment archiver une commande vente. La procédur
 2.  Ouvrez une commande vente que vous souhaitez archiver.  
 3.  Sélectionnez l'action **Archiver document**.
 
-La commande vente est archivée. Vous pouvez l'afficher dans la fenêtre **Commandes vente archivées**. Vous pouvez également l'utiliser pour recréer la commande vente d'origine.
+La commande vente est archivée. Vous pouvez l'afficher sur la page **Commandes vente archivées**. Vous pouvez également l'utiliser pour recréer la commande vente d'origine.
 
 ## <a name="to-recreate-a-sales-order-from-the-archive"></a>Pour recréer une commande vente à partir de l'archive
 La procédure suivante décrit comment recréer une commande vente. La procédure est identique pour les commandes, les commandes ouvertes, les retours et les devis.
@@ -50,14 +50,14 @@ La procédure suivante décrit comment recréer une commande vente. La procédur
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes vente archivées**, et sélectionnez le lien associé.
 2.  Sélectionnez la commande vente archivée que vous voulez recréer, puis sélectionnez l'action **Restaurer**.  
 
-La commande vente est créée et ajoutée à la fenêtre **Commandes vente**.
+La commande vente est créée et ajoutée à la page **Commandes vente**.
 
 ## <a name="to-delete-archived-sales-orders"></a>Pour supprimer des commandes vente archivées
 La procédure suivante décrit comment supprimer des commandes vente archivées. La procédure est identique pour les autres documents achat et vente archivés.
 
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Supprimer versions cde vente archivées**, et sélectionnez le lien associé.  
-2.  Dans la fenêtre **Supprimer versions cde vente archivées**, sélectionnez les filtres appropriés.  
-3.  Cliquez sur le bouton **OK**.
+2.  Sur la page **Supprimer versions cde vente archivées**, sélectionnez les filtres appropriés.  
+3.  Choisissez le bouton **OK**.
 
 ## <a name="see-also"></a>Voir aussi
 [Suivre des lignes document](across-how-to-track-document-lines.md)  

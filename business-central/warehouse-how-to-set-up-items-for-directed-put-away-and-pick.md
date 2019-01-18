@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 37c8f69f7cac8155bf45ab02dc8908249a0ace71
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0f69cfc3257de42aacf01c26090230350f83dfba
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Configurer des articles et des emplacements pour prélèvement et rangement suggérés
@@ -27,9 +27,9 @@ Lorsque vous configurez un entrepôt pour prélèvement et rangement suggérés,
 2.  Ouvrez la fiche de l'article que vous souhaitez configurer pour prélèvement et rangement suggérés.
 3. Sur le raccourci **Entrepôt** de la fiche article, renseignez les champs pour définir la façon dont l'article doit être traité dans l'entrepôt.  
 4.  Choisissez l'action **Unités de mesure**.
-5. Dans la fenêtre **Unités de mesure**, renseignez les champs dans ce formulaire pour définir les différentes unités selon lesquelles l'article peut faire l'objet d'une transaction. Vous devez également remplir dans ce formulaire la hauteur, la largeur, la longueur, le cubage et le poids de l'unité.
+5. Sur la page **Unités de mesure**, renseignez les champs dans ce formulaire pour définir les différentes unités selon lesquelles l'article peut faire l'objet d'une transaction. Vous devez également remplir dans ce formulaire la hauteur, la largeur, la longueur, le cubage et le poids de l'unité.
 6. Choisissez l'action **Contenu emplacement**.
-7. Dans la fenêtre **Contenu emplacement**, définissez le magasin et l'emplacement auxquels l'article doit être associé. Le champ **Par défaut** n'est pas utilisé lorsque l'emplacement est configuré pour prélèvement et rangement suggérés.  
+7. Sur la page **Contenu emplacement**, définissez le magasin et l'emplacement auxquels l'article doit être associé. Le champ **Par défaut** n'est pas utilisé lorsque l'emplacement est configuré pour prélèvement et rangement suggérés.  
 
 ## <a name="to-activate-directed-put-away-and-pick-functionality"></a>Pour activer les fonctionnalités de prélèvement et de rangement suggérés  
 Les prélèvement et rangement suggérés permettent d'accéder à des fonctionnalités de configuration entrepôt évoluées qui peuvent améliorer considérablement votre efficacité et la fiabilité de vos données. Pour pouvoir utiliser cette fonctionnalité, vous devez tout d'abord définir divers paramètres dans votre entrepôt.  
@@ -53,7 +53,7 @@ Vous pouvez maintenant configurer des zones, si vous souhaitez en utiliser dans 
 ## <a name="to-set-up-a-zone-in-your-warehouse"></a>Pour configurer une zone de l'entrepôt  
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Magasins**, puis choisissez le lien associé.  
 2.  Sélectionnez le magasin dans lequel vous souhaitez paramétrer une zone et ouvrez la fiche magasin, puis choisissez l'action **Zones**.  
-3.  Dans la fenêtre **Zones**, renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3.  Renseignez les champs nécessaires sur la page **Zones**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 Lorsque vous modifiez le paramètre d'une zone, tous les emplacements créés par la suite dans cette zone disposent des nouvelles caractéristiques, mais les emplacements d'origine ne sont pas modifiés.  
 

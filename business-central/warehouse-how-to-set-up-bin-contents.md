@@ -13,30 +13,30 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b92e6a5227fc2e1c60498ef2aafaae55deaedab8
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6aa07d1f37c15901951ab5b81b771838abf95126
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-bin-contents"></a>Créer le contenu d'un emplacement
-Une fois la configuration des emplacements terminée, vous pouvez configurer leur contenu. En d'autres termes, vous pouvez configurer les articles à stocker dans un emplacement donné et définir les règles qui régissent le remplissage de l'emplacement avec un article spécifique. Vous pouvez effectuer cette opération manuellement dans la fenêtre **Contenu emplacement** ou automatiquement dans la fenêtre **Créer feuille contenu emplacement**.
+Une fois la configuration des emplacements terminée, vous pouvez configurer leur contenu. En d'autres termes, vous pouvez configurer les articles à stocker dans un emplacement donné et définir les règles qui régissent le remplissage de l'emplacement avec un article spécifique. Vous pouvez effectuer cette opération manuellement sur la page **Contenu emplacement** ou automatiquement sur la page **Créer feuille contenu emplacement**.
 
 ## <a name="to-create-bin-content-manually"></a>Pour créer le contenu d'emplacement manuellement  
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Magasins**, puis choisissez le lien associé.  
 2.  Sélectionnez le magasin à partir duquel vous souhaitez créer un contenu d'emplacement, puis choisissez l'action **Emplacements**.  
 3.  Sélectionnez l'emplacement à partir duquel vous souhaitez créer un contenu, puis choisissez l'action **Contenus**.  
-4.  Pour chaque article que vous souhaitez stocker dans l'emplacement, renseignez une ligne de la fenêtre **Contenu emplacement** avec les informations appropriées. Certains champs sont déjà renseignés avec des informations relatives à l'emplacement.  
+4.  Pour chaque article que vous souhaitez stocker dans l'emplacement, renseignez une ligne de la page **Contenu emplacement** avec les informations appropriées. Certains champs sont déjà renseignés avec des informations relatives à l'emplacement.  
 5.  Renseignez d'abord le champ **N° article**, puis, si vous utilisez un prélèvement et un rangement suggérés, renseignez les autres champs tels que **Code unité**, **Qté max** et **Qté min**.  
 
 Sélectionnez le champ **Fixe** si nécessaire. Si l'emplacement doit être utilisé comme emplacement par défaut pour l'article, sélectionnez le champ **Emplacement par défaut**.  
 
-Si vous utilisez un prélèvement et un rangement suggérés et que vous avez saisi, via la fiche article, les dimensions exactes des unités de mesure de chaque article,la quantité maximale que vous avez saisie dans la fenêtre **Contenu emplacement** est comparée aux capacités physiques de l'emplacement. Les quantités minimales et maximales sont alors utilisées lors du calcul du réapprovisionnement de l'emplacement et des rangements proposés.  
+Si vous utilisez un prélèvement et un rangement suggérés et que vous avez saisi, via la fiche article, les dimensions exactes des unités de mesure de chaque article,la quantité maximale que vous avez saisie sur la page **Contenu emplacement** est comparée aux capacités physiques de l'emplacement. Les quantités minimales et maximales sont alors utilisées lors du calcul du réapprovisionnement de l'emplacement et des rangements proposés.  
 
 Si vous sélectionnez le champ **Fixe**, vous associez l'article à l'emplacement de manière statique, ce qui signifie que [!INCLUDE[d365fin](includes/d365fin_md.md)] essaie de placer cet article dans l'emplacement si l'espace libre est suffisant et conserve l'enregistrement qui associe l'article de manière statique à l'emplacement, même lorsque la quantité à l'emplacement est égale à 0. Il est possible de placer d'autres articles dans l'emplacement, même si un article a été associé à cet emplacement.  
 
 > [!NOTE]  
->  Vous pouvez configurer simultanément plusieurs contenus emplacement dans la fenêtre **Feuille création contenu emplacement**.  
+>  Vous pouvez configurer simultanément plusieurs contenus emplacement sur la page **Feuille création contenu emplacement**.  
 
 ## <a name="to-create-bin-content-with-a-worksheet"></a>Pour créer le contenu d'un emplacement avec une feuille  
 Lorsque vous avez créé vos emplacements, vous pouvez créer le contenu de chaque emplacement dans la feuille de création de contenu d'emplacement.

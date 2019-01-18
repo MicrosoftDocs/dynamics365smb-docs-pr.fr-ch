@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 9c442957947b2c7a0abc730db824ddbcb29708d6
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b8085f02f30d28ed1362ee6cea32d398c86b1694
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-workflows"></a>Créer des workflows
 Vous pouvez créer des workflows qui connectent des tâches de processus entreprise exécutées par différents utilisateurs. Les tâches du système, telles que la validation automatique, peuvent être incluses comme étapes du workflow, précédées ou suivies des tâches de l'utilisateur. Demander et accorder une approbation pour créer des enregistrements sont des étapes classiques du workflow.  
 
-Dans la fenêtre **Workflow**, créez un workflow en répertoriant les étapes concernées sur les lignes. Chaque étape comprend un événement de workflow modéré par des conditions d'événement, et une réponse de workflow avec des options de réponse. Définissez les étapes de workflow en renseignez les champs des lignes de workflow à partir de listes fixes de valeurs d'événement et de réponse qui sont les scénarios pris en charge par le code d'application.  
+Sur la page **Workflow**, créez un workflow en répertoriant les étapes concernées sur les lignes. Chaque étape comprend un événement de workflow modéré par des conditions d'événement, et une réponse de workflow avec des options de réponse. Définissez les étapes de workflow en renseignez les champs des lignes de workflow à partir de listes fixes de valeurs d'événement et de réponse qui sont les scénarios pris en charge par le code d'application.  
 
 Lorsque vous créez des workflows, vous pouvez copier les étapes à partir de workflows existants ou de modèles de workflow. Les modèles de workflow représentent des workflows non modifiables qui existent dans la version générique de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Le code des modèles de workflow ajoutés par Microsoft a le préfixe « MS- », comme dans « MS-PIW ». Pour plus d'informations, reportez-vous à la rubrique [Créer des flux de travail à partir de modèles de flux de travail](across-how-to-create-workflows-from-workflow-templates.md).  
 
@@ -33,25 +33,25 @@ Si votre scénario d'entreprise requiert des événements ou réponses de workfl
 
 ## <a name="to-create-a-workflow"></a>Pour créer un workflow  
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Flux de travail**, puis sélectionnez le lien associé.  
-2. Sélectionnez l'action **Nouveau**. La fenêtre **Flux de travail** s'ouvre.  
+2. Sélectionnez l'action **Nouveau**. La page **Flux de travail** s'ouvre.  
 3. Dans le champ **Code**, entrez 20 caractères maximum pour identifier le workflow.  
-4. Pour créer le workflow à partir d'un modèle de workflow, dans la fenêtre **Flux de travail**, choisissez l'action **Créer le flux de travail à partir du modèle**. Pour plus d'informations, reportez-vous à la rubrique [Créer des flux de travail à partir de modèles de flux de travail](across-how-to-create-workflows-from-workflow-templates.md).  
+4. Pour créer le flux de travail à partir d'un modèle de flux de travail, dans la page **Flux de travail**, choisissez l'action **Créer le flux de travail à partir du modèle**. Pour plus d'informations, reportez-vous à la rubrique [Créer des flux de travail à partir de modèles de flux de travail](across-how-to-create-workflows-from-workflow-templates.md).  
 5. Dans le champ **Description**, décrivez le workflow.  
 6. Dans le champ **Catégorie**, spécifiez la catégorie à laquelle le workflow appartient.  
 7. Dans le champ **En cas d'événement**, spécifiez l'événement qui doit se produire pour démarrer l'étape du workflow.  
 
-    Lorsque vous choisissez le champ, la fenêtre **Événements de flux de travail** s'ouvre pour vous permettre de choisir parmi tous les événements de workflow qui existent.  
+    Lorsque vous choisissez le champ, la page **Événements de flux de travail** s'ouvre pour vous permettre de choisir parmi tous les événements de flux de travail qui existent.  
 8. Dans le champ **Condition**, spécifiez une ou plusieurs conditions qui doivent être remplies pour que l'événement dans le champ **En cas d'événement** puisse se produire.  
 
-    Lorsque vous sélectionnez le champ, la fenêtre **Conditions d'événement** s'ouvre pour vous permettre de choisir dans une liste de champs de filtre pouvant être utilisés comme conditions pour l'événement en question. Vous pouvez ajouter des champs de filtre à utiliser comme conditions d'événement. Définissez des filtres de condition d'événement comme vous définissez des filtres sur les pages de demande d'état.  
+    Lorsque vous sélectionnez le champ, la page **Conditions d'événement** s'ouvre pour vous permettre de choisir dans une liste de champs de filtre pouvant être utilisés comme conditions pour l'événement en question. Vous pouvez ajouter des champs de filtre à utiliser comme conditions d'événement. Définissez des filtres de condition d'événement comme vous définissez des filtres sur les pages de demande d'état.  
 
-    Si l'événement de workflow est la modification d'un champ spécifique d'un enregistrement, la fenêtre **Conditions d'événement** s'ouvre avec des options pour sélectionner le champ et le type de modification.  
+    Si l'événement de flux de travail est la modification d'un champ spécifique d'un enregistrement, la page **Conditions d'événement** s'ouvre avec des options pour sélectionner le champ et le type de modification.  
 
-    1.  Pour spécifier une modification de champ pour l'événement, dans la fenêtre **Conditions d'événement**, dans le champ **Champ**, sélectionnez le champ qui est modifié.  
+    1.  Pour spécifier une modification de champ pour l'événement, sur la page **Conditions d'événement**, dans le champ **Champ**, sélectionnez le champ qui est modifié.  
     2.  Dans le champ **Opérateur**, sélectionnez **Diminué**, **Augmenté** ou **Modifié**.  
 9. Dans le champ **Alors, réponse**, spécifiez la réponse qui suivra lorsque l'événement de workflow se produira.  
 
-     Lorsque vous choisissez le champ, la fenêtre **Réponses de flux de travail** s'ouvre pour vous permettre de choisir parmi toutes les réponses de workflow qui existent et de définir des options de réponse pour la réponse sélectionnée.  
+     Lorsque vous choisissez le champ, la page **Réponses de flux de travail** s'ouvre pour vous permettre de choisir parmi toutes les réponses de flux de travail qui existent et de définir des options de réponse pour la réponse sélectionnée.  
 10. Dans le raccourci **Options pour la réponse sélectionnée**, spécifiez les options pour la réponse de workflow, en sélectionnant des valeurs dans les différents champs qui s'affichent, comme suit :  
 
     1.  Pour spécifier des options pour une réponse de workflow impliquant l'envoi d'une notification, renseignez les champs comme indiqué dans le tableau suivant.  
@@ -67,7 +67,7 @@ Si votre scénario d'entreprise requiert des événements ou réponses de workfl
         |----------------------------------|---------------------------------------|  
         |**Formule échéance**|Spécifiez le nombre de jours suite auxquels la demande d'approbation doit être résolue, à compter de la date à laquelle elle a été envoyée.|  
         |**Déléguer après**|Spécifiez si et quand une demande d'approbation est automatiquement déléguée au substitut approprié. Vous pouvez choisir de déléguer automatiquement un, deux ou cinq jours après la date de demande d'approbation.|  
-        |**Type approbateur**|Spécifiez l'approbateur, en fonction des paramètres des utilisateurs d'approbation et de workflow.<br /><br /> Les options possibles sont les suivantes :<br /><br /> -   **Vendeur/Acheteur** indique que l'utilisateur configuré dans le champ **Code vendeur/acheteur** de la fenêtre **Paramètres utilisateur approbation** détermine l'approbateur. Les écritures de demande d'approbation sont ensuite créées en fonction de la valeur du champ **Type limite approbateur**.<br />     Pour plus d'informations, voir [Configurer des utilisateurs d'approbation](across-how-to-set-up-workflow-users.md).|  
+        |**Type approbateur**|Spécifiez l'approbateur, en fonction des paramètres des utilisateurs d'approbation et de workflow.<br /><br /> Les options possibles sont les suivantes :<br /><br /> -   **Vendeur/Acheteur** indique que l'utilisateur configuré dans le champ **Code vendeur/acheteur** de la page **Paramètres utilisateur approbation** détermine l'approbateur. Les écritures de demande d'approbation sont ensuite créées en fonction de la valeur du champ **Type limite approbateur**.<br />     Pour plus d'informations, voir [Configurer des utilisateurs d'approbation](across-how-to-set-up-workflow-users.md).|  
         |**Afficher le message de confirmation**|Spécifiez si un message de confirmation apparaît aux utilisateurs après leur demande d'approbation.|  
         |**Type limite approbateur**|Spécifiez les effets des limites d'approbation des approbateurs lorsque les écritures demande d'approbation sont créées pour eux. Un approbateur qualifié est un approbateur pour lequel la limite d'approbation est supérieure à la valeur de la demande.<br /><br /> Les options possibles sont les suivantes :<br /><br /> 1.  **Chaîne d'approbateurs** spécifie que les écritures demande d'approbation sont créées pour tous les approbateurs du demandeur jusqu'au et y compris le premier approbateur qualifié.<br />2.  **Approbateur direct** spécifie qu'une écriture de demandes d'approbation n'est créée que pour l'approbateur immédiat du demandeur, quelle que soit la limite d'approbation de l'approbateur.<br />3.  **Premier approbateur qualifié** spécifie qu'une écriture de demandes d'approbation n'est créée que pour le premier approbateur qualifié du demandeur.<br />|  
     3.  Pour spécifier des options pour une réponse de workflow impliquant la création de lignes feuille, renseignez les champs comme indiqué dans le tableau suivant.  

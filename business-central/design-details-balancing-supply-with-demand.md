@@ -14,10 +14,10 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 51555bbfbd7fec6ca46bc1b2e6b02382288a41bc
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 037ba35395ba84d4f943b0a45a7fb43c24b34385
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-balancing-supply-with-demand"></a>Détails de conception : équilibrage de l'approvisionnement avec la demande
@@ -59,7 +59,7 @@ En général, tous les approvisionnements ont une flexibilité de planification 
 
     -   Il représente le stock (toujours au jour zéro).  
     -   Elle a un ordre pour ordre lié à une autre demande.  
-    -   Il se trouve hors de la fenêtre de replanification définie avant l'intervalle de planification.  
+    -   Il se trouve hors de la page de replanification définie avant l'intervalle de planification.  
     -   Il existe un approvisionnement plus proche qui peut être utilisé.  
     -   Par ailleurs, l'utilisateur peut choisir de ne pas replanifier pour les raisons suivantes :  
     -   La commande approvisionnement a déjà été liée à une autre demande à une date précédente.  
@@ -68,7 +68,7 @@ En général, tous les approvisionnements ont une flexibilité de planification 
 -   **Replanifier dans** : La date à partir d'une commande approvisionnement existante peut être replanifiée dans, sauf dans les conditions suivantes :  
 
     -   Elle est directement liée à une autre demande.  
-    -   Il se trouve hors de la fenêtre de replanification définie avant l'intervalle de planification.  
+    -   Il se trouve hors de la page de replanification définie avant l'intervalle de planification.  
 
 > [!NOTE]  
 >  Lors de la planification d'un article utilisant un point de commande, la commande approvisionnement peut toujours être planifiée si nécessaire. Ceci est courant dans les commandes approvisionnement planifiées déclenchées par un point de commande.  

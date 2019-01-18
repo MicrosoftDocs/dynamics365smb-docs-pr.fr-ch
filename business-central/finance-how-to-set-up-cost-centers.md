@@ -14,10 +14,10 @@ ms.date: 11/13/2018
 ms.author: sgroespe
 redirect_url: finance-set-up-cost-accounting
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 7362518cbade8132fb07f49e7b2e9be67c4bce29
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 252ebf514635ada8e07bfb1e950d0cff156d0bfc
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-cost-centers"></a>Configuration des centres de coûts
@@ -27,7 +27,7 @@ Les centres de coûts sont les départements responsables des coûts et des reve
 -   Créez un nouveau plan du centre de coûts, qui est indépendant de la comptabilité ou ajoutez un nouveau centre de coûts à un plan existant du centre de coûts. Vous devez créer chaque centre de coûts individuellement.  
 
 ## <a name="to-transfer-dimension-values-in-the-general-ledger-to-the-chart-of-cost-centers"></a>Pour transférer des sections analytiques de la comptabilité vers le plan des centres de coûts.  
-1.  Définissez un axe analytique pour être celui de la dimension des centres de coûts dans la fenêtre **Mettre à jour les axes analytiques de comptabilité analytique**. Seules les valeurs de cet axe analytique sont transférées.  
+1.  Définissez un axe analytique pour être celui de la dimension des centres de coûts sur la page **Mettre à jour les axes analytiques de comptabilité analytique**. Seules les valeurs de cet axe analytique sont transférées.  
 2.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Plan comptable des centres de coûts**, puis sélectionnez le lien associé.  
 3.  Sous l'onglet **Actions**, dans le groupe **Fonctions**, choisissez **Extraire les centres de coûts de l'axe analytique** pour transférer des sections du plan des centres de coûts. La fonction transfère les sections analytiques que vous avez définis dans l'étape 1.  
 
@@ -36,10 +36,10 @@ Les centres de coûts sont les départements responsables des coûts et des reve
 
 Le plan des centres de coûts comprend désormais toutes les sections analytiques spécifiées provenant de la comptabilité. Il inclut les titres et les sous-totaux.  
 
-## <a name="to-create-new-cost-centers-in-the-chart-of-cost-centers-window"></a>Pour créer de nouveaux centres de coût dans la fenêtre Plan comptable des centres de coûts  
-Vous pouvez configurer et gérer les centres de coût, soit dans la fenêtre **Fiche centre de coût**, soit dans la fenêtre **Plan comptable des centres de coûts**. Dans cette procédure, vous configurez de nouveaux centres de coût dans la fenêtre **Plan comptable des centres de coûts**.  
+## <a name="to-create-new-cost-centers-in-the-chart-of-cost-centers-page"></a>Pour créer de nouveaux centres de coût sur la page Plan comptable des centres de coûts  
+Vous pouvez configurer et gérer les centres de coût, soit sur la page **Fiche centre de coût**, soit sur la page **Plan comptable des centres de coûts**. Dans cette procédure, vous configurez de nouveaux centres de coût sur la page **Plan comptable des centres de coûts**.  
 
-1. Ouvrez la fenêtre **Plan comptable des centres de coûts** en mode édition.  
+1. Ouvrez la page **Plan comptable des centres de coûts** en mode édition.  
 2. Dans le champ **Code**, entrez le code centre de coûts. Tous les centres de coûts doivent avoir un code.  
 3. Dans le champ **Nom**, saisissez le nom du centre de coûts.  
 4. Sélectionnez la flèche déroulante dans le champ **Type ligne** pour spécifier l'objectif du centre de coûts.  

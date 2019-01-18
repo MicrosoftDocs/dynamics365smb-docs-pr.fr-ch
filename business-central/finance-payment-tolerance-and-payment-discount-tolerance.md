@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8e4f7c35b53a284fe6f7937298377674bafb0b63
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: abbfa389e38e60b7b5470f1f390d370f8d43c6b5
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Utilisation des écarts de règlement et des écarts d'escompte
@@ -45,16 +45,16 @@ Le fait de configurer des écarts pour la date ou le montant permet de fermer un
 
 Pour configurer l'écart, vous devez configurer plusieurs comptes écart, spécifier des méthodes de comptabilisation d'écart escompte et d'écart règlement, puis exécuter le traitement par lots **Modifier écart de règlement**.  
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres comptabilisation**, puis sélectionnez le lien associé.  
-2. Dans la fenêtre **Paramètres comptabilisation**, configurez un compte écart règlement crédit et débit pour les ventes et un autre pour les achats.  
+2. Sur la page **Paramètres comptabilisation**, configurez un compte écart règlement crédit et débit pour les ventes et un autre pour les achats.  
 3. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Groupes compta. client**, puis sélectionnez le lien associé.    
-4. Dans la fenêtre **Groupes compta. client**, configurez un compte écart règlement débit et un compte écart règlement crédit. Pour plus d'informations, voir [Configuration de groupes comptabilisation](finance-posting-groups.md).  
+4. Sur la page **Groupes compta. client**, configurez un compte écart règlement débit et un compte écart règlement crédit. Pour plus d'informations, voir [Configuration de groupes comptabilisation](finance-posting-groups.md).  
 5. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres comptabilisation fournisseur**, puis sélectionnez le lien associé.  
-6. Dans la fenêtre **Groupes compta. fournisseur**, configurez un compte écart règlement débit et un compte écart règlement crédit.  
+6. Sur la page **Groupes compta. fournisseur**, configurez un compte écart règlement débit et un compte écart règlement crédit.  
 7. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres comptabilité**, puis sélectionnez le lien associé.  
-8. Ouvrez la fenêtre **Paramètres comptabilité**.  
+8. Ouvrez la page **Paramètres comptabilité**.  
 9. Sur le raccourci **Application**, renseignez les champs **Validation écart d'escompte**, **Période carence escompte** et **Validation écart de règlement**.   
 10. Choisissez l'action **Modifier écart de règlement**.
-11. Dans la fenêtre **Modifier écart de règlement**, renseignez les champs **% écart de règlement** et **Montant écart règlement max.**, puis cliquez sur le bouton **OK**.
+11. Sur la page **Modifier écart de règlement**, renseignez les champs **% écart de règlement** et **Montant écart règlement max.**, puis cliquez sur le bouton **OK**.
 
 > [!IMPORTANT]  
 >  Vous n'avez configuré l'écart que pour la devise société. Si vous souhaitez que [!INCLUDE[d365fin](includes/d365fin_md.md)] gère l'écart pour les paiements, les avoirs et les remboursements en devise étrangère, vous devez exécuter le traitement par lots **Modifier écart de règlement** avec une valeur dans le champ **Code devise**.  
@@ -69,10 +69,10 @@ Pour configurer l'écart, vous devez configurer plusieurs comptes écart, spéci
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Pour activer ou désactiver les alertes d'écart de règlement
 L'alerte écart règlement apparaît lorsque vous validez un lettrage dont le solde se situe dans l'écart autorisé. Vous pouvez alors choisir comment valider et journaliser le solde.    
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres comptabilité**, puis sélectionnez le lien associé.  
-2. Dans la fenêtre **Paramètres comptabilité**, sur le raccourci **Application**, cochez la case **Alerte écart de règlement** pour activer l'alerte. Pour désactiver l'alerte, désactivez la case à cocher.  
+2. Sur la page **Paramètres comptabilité**, sur le raccourci **Application**, cochez la case **Alerte écart de règlement** pour activer l'alerte. Pour désactiver l'alerte, désactivez la case à cocher.  
 
 > [!NOTE]  
->  L'option par défaut de la fenêtre **Alerte écart de règlement** est **Laisser le solde ouvert**. L'option par défaut de la fenêtre **Alerte écart d'escompte** est **Ne pas accepter d'escompte tardif**.
+>  L'option par défaut de la page **Alerte écart de règlement** est **Laisser le solde ouvert**. L'option par défaut de la page **Alerte écart d'escompte** est **Ne pas accepter d'escompte tardif**.
 
 ## <a name="to-block-payment-tolerance-for-customers"></a>Pour bloquer l'écart règlement pour des clients  
 Par défaut, un écart règlement est accordé. Pour ne pas accorder un écart règlement à un certain client ou fournisseur, vous devez bloquer l'écart sur la fiche fournisseur ou client appropriée. Ce qui suit décrit comment l'exécuter pour un client. La procédure est identique pour un fournisseur.
@@ -86,7 +86,7 @@ Par défaut, un écart règlement est accordé. Pour ne pas accorder un écart r
 ## <a name="example-1---tolerance-calculations-for-a-single-document"></a>Exemple 1 - Calculs de l'écart pour un seul document
 Voici quelques exemples de scénarios illustrant les calculs et comptabilisations d'écart qui sont effectués dans différentes situations.  
 
-La fenêtre **Configuration comptabilité** contient le paramétrage suivant :
+La page **Configuration comptabilité** contient le paramétrage suivant :
 - Période carence escompte : 5D  
 - Ecart de règlement max : 5  
 
@@ -155,7 +155,7 @@ Règles d'application normales
 ## <a name="example-2---tolerance-calculations-for-multiple-documents"></a>Exemple 2 - Calculs de l'écart pour plusieurs documents
 Voici quelques exemples de scénarios illustrant les calculs et comptabilisations d'écart qui sont effectués dans différentes situations. Ces exemples se limitent aux scénarios permettant à toutes les écritures du module d'être clôturées.  
 
-La fenêtre **Configuration comptabilité** contient le paramétrage suivant :
+La page **Configuration comptabilité** contient le paramétrage suivant :
 - Période carence escompte 5D  
 - Ecart de règlement max 5  
 

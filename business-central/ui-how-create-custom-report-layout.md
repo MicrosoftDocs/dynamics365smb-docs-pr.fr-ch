@@ -13,10 +13,10 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 77995eab6166a33d8a98a821d40aceaea9f4bc00
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 39e4c310e3de5f16066408b96b54042c44c753fd
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-and-modify-a-custom-report-or-document-layout"></a>Créer et modifier une présentation de rapport ou de document personnalisée
@@ -30,18 +30,18 @@ Pour créer une présentation personnalisée, vous pouvez effectuer une copie d'
 ## <a name="to-create-a-custom-layout"></a>Pour créer une présentation personnalisée
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Sélection présentation état**, puis sélectionnez le lien associé.
 
-    La fenêtre **Sélection présentation état** répertorie tous les états disponibles dans la société spécifiée dans le champ **Société** en haut de la fenêtre.
+    La page **Sélection présentation état** répertorie tous les états disponibles pour la société spécifiée dans le champ **Société** en haut de la page.
 2. Définissez le champ **Société** sur la société pour laquelle vous souhaitez créer la présentation de rapport.
 3. Sélectionnez la ligne de l'état pour lequel vous souhaitez créer la présentation, puis sélectionnez l'action **Présentations personnalisées**.  
-   La fenêtre **Présentations état personnalisées** s'affiche et répertorie toutes les présentations personnalisées disponibles pour l'état sélectionné.
+   La page **Présentations état personnalisées** s'affiche et répertorie toutes les présentations personnalisées disponibles pour l'état sélectionné.
 4. Si vous souhaitez créer une copie d'une présentation personnalisée existante, sélectionnez cette dernière, puis sélectionnez l'action **Copier**.  
-   La copie de la présentation personnalisée s'affiche dans la fenêtre **Présentations état personnalisées**. Le terme *Copie* figure dans le champ **Description**.
+   La copie de la présentation personnalisée s'affiche sur la page **Présentations état personnalisées**. Le terme *Copie* figure dans le champ **Description**.
 5. Si vous voulez ajouter une nouvelle présentation personnalisée basée sur une présentation intégrée, procédez comme suit :  
-   1. Sélectionnez l'action **Nouveau**. La fenêtre **Insérer présentation intégrée pour un état** s'affiche. Les champs **ID** et **Nom** sont automatiquement renseignés.
+   1. Sélectionnez l'action **Nouveau**. La page **Insérer présentation intégrée pour un état** s'affiche. Les champs **ID** et **Nom** sont automatiquement renseignés.
    2. Pour ajouter un type de présentation de rapport Word, cochez la case **Insérer présentation Word**.
    3. Pour ajouter un type de présentation de rapport RDLC, cochez la case **Insérer présentation RDLC**.
-   4. Cliquez sur le bouton **OK**.  
-      Les nouvelles présentations personnalisées s'affichent dans la fenêtre **Présentations état personnalisées**. Si une nouvelle présentation est basée sur une présentation intégrée, les termes **Copie d'une présentation intégrée** figurent dans le champ **Description**. S'il n'y avait aucune présentation intégrée pour l'état, les termes **Nouvelle présentation** figurent dans le champ **Description** de la nouvelle présentation, ce qui indique que la présentation personnalisée est vide.
+   4. Choisissez le bouton **OK**.  
+      Les nouvelles présentations personnalisées s'affichent sur la page **Présentations état personnalisées**. Si une nouvelle présentation est basée sur une présentation intégrée, les termes **Copie d'une présentation intégrée** figurent dans le champ **Description**. S'il n'y avait aucune présentation intégrée pour l'état, les termes **Nouvelle présentation** figurent dans le champ **Description** de la nouvelle présentation, ce qui indique que la présentation personnalisée est vide.
 6. Par défaut, le champ **Nom de la société** est vide, ce qui signifie que la présentation personnalisée est disponible pour l'état dans toutes les sociétés. Afin que la présentation personnalisée soit disponible pour une société spécifique uniquement, sélectionnez **Modifier**, puis définissez le champ **Nom de la société** sur la société que vous souhaitez.
 
 La présentation personnalisée a été créée. Vous pouvez à présent modifier la présentation personnalisée selon vos besoins.
@@ -50,8 +50,8 @@ La présentation personnalisée a été créée. Vous pouvez à présent modifie
 Pour modifier une présentation de rapport, vous devez d'abord exporter la présentation de rapport sous forme de fichier dans un emplacement sur votre ordinateur ou le réseau, puis ouvrir le document exporté et effectuer les modifications. Lorsque vous avez terminé d'apporter les modifications, vous importez la présentation de rapport.
 
 ### <a name="to-modify-a-custom-layout"></a>Pour modifier une présentation personnalisée
-1.  Vous exportez une présentation personnalisée à partir de la fenêtre **Présentations état personnalisées**. Si cette fenêtre n'est pas déjà ouverte, recherchez et ouvrez la fenêtre **Sélection présentation état**, sélectionnez l'état dont vous souhaitez modifier la présentation, puis choisissez l'action **Présentations personnalisées**.  
-2.  Dans la fenêtre **Présentations état personnalisées**, sélectionnez la présentation à modifier, choisissez l'action **Exporter présentation**, puis choisissez **Enregistrer** ou **Enregistrer sous** pour enregistrer le document de présentation d'état dans un emplacement sur votre ordinateur ou réseau.  
+1.  Vous exportez une présentation personnalisée à partir de la page **Présentations état personnalisées**. Si cette page n'est pas déjà ouverte, recherchez et ouvrez la page **Sélection présentation état**, sélectionnez l'état dont vous souhaitez modifier la présentation, puis choisissez l'action **Présentations personnalisées**.  
+2.  Sur la page **Présentations état personnalisées**, sélectionnez la présentation à modifier, choisissez l'action **Exporter présentation**, puis choisissez **Enregistrer** ou **Enregistrer sous** pour enregistrer le document de présentation d'état dans un emplacement sur votre ordinateur ou réseau.  
 
 3.  Ouvrez le document de présentation d'état que vous avez enregistré, puis apportez les modifications.
 
@@ -61,7 +61,7 @@ Pour modifier une présentation de rapport, vous devez d'abord exporter la prés
 
       Pensez à enregistrer vos modifications une fois effectuées.
 
-4.  Retournez à la fenêtre **Présentations état personnalisées**, sélectionnez la présentation d'état que vous avez exportée et modifiée, puis choisissez l'action **Importer présentation**.  
+4.  Retournez à la page **Présentations état personnalisées**, sélectionnez la présentation d'état que vous avez exportée et modifiée, puis choisissez l'action **Importer présentation**.  
 
 5. Dans la boîte de dialogue **Importer**, sélectionnez **Choisir** pour rechercher et sélectionner le document de présentation d'état, puis choisissez **Ouvrir**.
 
@@ -71,7 +71,11 @@ Pour apporter des modifications générales de mise en forme et de disposition (
 Si vous créez une présentation de rapport Word de A à Z ou en ajoutant de nouveaux champs de données, commencez par ajouter un tableau comprenant des lignes et colonnes qui finiront par contenir les champs de données.
 
 > [!TIP]  
->  Affiche les quadrillages de façon à visualiser les contours des cellules de la table. Pensez à masquer les quadrillages lorsque vous avez terminé l'édition. Pour masquer ou afficher des quadrillages dans la table, sélectionnez la table, puis sous **Mise en page** sous l'onglet **Table**, sélectionnez **Afficher les quadrillages**.  
+>  Affiche les quadrillages de façon à visualiser les contours des cellules de la table. Pensez à masquer les quadrillages lorsque vous avez terminé l'édition. Pour masquer ou afficher des quadrillages dans la table, sélectionnez la table, puis sous **Mise en page** sous l'onglet **Table**, sélectionnez **Afficher les quadrillages**. 
+
+### <a name="embedding-fonts-in-word-layouts-for-consistency"></a>Incorporation de polices dans des présentations Word pour des raisons de cohérence 
+
+Pour vous assurer que les états affichent et impriment toujours avec les polices prévues, quel que soit l'emplacement où les utilisateurs ouvrent ou impriment des états, vous pouvez incorporer des polices au document Word. Toutefois, sachez qu'incorporer des polices peut augmenter de façon significative la taille des fichiers Word. Pour plus d'informations sur l'incorporation de polices à Word, voir [Incorporer des polices à Word, PowerPoint ou Excel](https://support.office.com/en-us/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc). 
 
 ###  <a name="RemoveField"></a> Suppression des champs d'étiquette et de données dans les présentations Word  
  L'étiquette les champs de données d'un état sont contenus dans des contrôles de contenu dans Word. La figure ci-après illustre un contrôle de contenu lorsqu'il est sélectionné dans le document Word.  
@@ -90,6 +94,8 @@ Si vous créez une présentation de rapport Word de A à Z ou en ajoutant de nou
 
 ### <a name="adding-data-fields"></a>Ajout de champs de données
 L'ajout de champs de données à partir d'un ensemble des données d'état est une fonction plus avancée qui exige des connaissances sur l'ensemble des données d'état. Pour plus d'informations sur l'ajout de champs pour les données, étiquettes et images, voir [Ajouter des champs à une présentation de rapport Word](ui-how-add-fields-word-report-layout.md).  
+
+### 
 
 
 ## <a name="see-also"></a>Voir aussi

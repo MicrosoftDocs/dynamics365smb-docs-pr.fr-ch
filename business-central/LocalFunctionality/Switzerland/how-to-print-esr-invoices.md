@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: cda530f1b731937c44c615cc3e0dd739c4a76754
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9f345827f1cc705727f80d21a00839f221044059
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="print-esr-invoices"></a>Imprimer des factures ESR
@@ -40,7 +40,7 @@ La procédure suivante décrit comment imprimer des factures vente ESR, mais les
     |Champ|Désignation|  
     |---------------------------------|---------------------------------------|  
     |**Nombre de copies**|Saisissez le nombre requis de copies de rapport.|  
-    |**Banque ESR**|Sélectionnez le code banque ESR qui doit être imprimé dans l'état.<br /><br /> Si la valeur de ce champ est <Blank> et que le code mode de règlement ESR n'est pas défini dans la fenêtre **Configuration ESR**, la banque principale ESR sélectionnée dans la fenêtre **Configuration ESR** sera imprimée.|  
+    |**Banque ESR**|Sélectionnez le code banque ESR qui doit être imprimé dans l'état.<br /><br /> Si la valeur de ce champ est <Blank> et que le code mode de règlement ESR n'est pas défini dans la page **Configuration ESR**, la banque principale ESR sélectionnée dans la page **Configuration ESR** sera imprimée.|  
     |**LogInteraction**|Spécifiez si les interactions avec vos contacts sont enregistrées.|  
     |**Système ESR**|Sélectionnez le système ESR via lequel vous pouvez envoyer des coupons ESR aux clients. Pour utiliser le système ESR utilisé par la banque que vous avez spécifié dans le champ **Banque ESR**, sélectionnez **En fonction de la banque ESR**.|  
 

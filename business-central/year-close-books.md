@@ -13,10 +13,10 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2f376460c8c0896586228774ac9d71f13302f5bc
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6894fad3654f204d79144946776b36dcb2d43665
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="closing-the-books"></a>Clôture des livres
@@ -29,7 +29,7 @@ Le processus de clôture d'un livre inclut les tâches principales suivantes :
 
 1. Clôture de la période comptable.
 
-    Un exercice comptable est défini comme une ou plusieurs périodes, telles qu'elles sont définies dans la fenêtre **Périodes comptables**. Un exercice fiscal type contient 12 périodes d'un mois chacune, mais vous pouvez également choisir un autre mode de définition des exercices.
+    Un exercice comptable est défini comme une ou plusieurs périodes, telles qu'elles sont définies sur la page **Périodes comptables**. Un exercice fiscal type contient 12 périodes d'un mois chacune, mais vous pouvez également choisir un autre mode de définition des exercices.
 
     Pour plus d'informations, reportez vous à [Clôturer des périodes comptables](year-close-account-periods.md).
 2. Enregistrement des écritures de l'exercice précédent.

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e946bab348aeee1b65b85165b2d9d553736813ba
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e82aa86668da5999117eea636ee29d8fde2cc09e
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-service-items-and-service-item-components"></a>Configurer les articles de service et les composants article de service
@@ -39,11 +39,11 @@ Vous pouvez affecter des groupes articles de service à des articles sur la fich
 7. Sélectionnez le champ **Créer article de service** si vous souhaitez enregistrer les articles du groupe en tant qu'articles de service lorsqu'ils sont vendus.  
 
 ## <a name="to-set-up-service-item-components"></a>Pour configurer des composants article de service
-Un article de service peut être constitué de plusieurs composants pouvant être remplacés par des pièces de rechange lors de la maintenance de l'article. Vous pouvez configurer ces composants dans la fenêtre **Liste composants art. service**. En outre, si vous souhaitez configurer des composants pour des articles de service qui sont des nomenclatures, vous pouvez copier les articles de nomenclature et les créer en tant que composants article de service.
+Un article de service peut être constitué de plusieurs composants pouvant être remplacés par des pièces de rechange lors de la maintenance de l'article. Vous pouvez configurer ces composants dans la page **Liste composants art. service**. En outre, si vous souhaitez configurer des composants pour des articles de service qui sont des nomenclatures, vous pouvez copier les articles de nomenclature et les créer en tant que composants article de service.
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles de service**, puis sélectionnez le lien associé.
 2. Ouvrez l'article de service pour lequel vous voulez configurer des composants.  
-3. Sélectionnez l'action **Composants**. La fenêtre **Liste composants art. service** s'ouvre.  
+3. Sélectionnez l'action **Composants**. La page **Liste composants art. service** s'ouvre.  
 4. Ajouter un nouveau composant.  
 5. Dans le champ **Type**, choisissez **Article de service** si le composant est lui-même un article de service enregistré. Sinon, choisissez **Article**.  
 6. Dans le champ **N°**, choisissez l'article ou l'article de service qui est un composant de l'article de service.  
@@ -51,13 +51,13 @@ Un article de service peut être constitué de plusieurs composants pouvant êtr
 ## <a name="to-set-up-service-item-components-from-a-bom"></a>Pour configurer des composants article de service à partir de nomenclatures
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles de service**, puis sélectionnez le lien associé.  
 2. Ouvrez l'article de service pour lequel vous voulez configurer des composants à partir d'une nomenclature.  
-3. Sélectionnez l'action **Composants**. La fenêtre **Liste composants art. service** s'ouvre.  
+3. Sélectionnez l'action **Composants**. La page **Liste composants art. service** s'ouvre.  
 4. Choisissez l'action **Copier à partir de nomenclature**.  
 
     Si l'article auquel est lié l'article de service est une nomenclature, les composants pour tous les articles de la nomenclature sont créés automatiquement.  
 
 ## <a name="to-set-up-a-service-shelf"></a>Pour configurer un rayon service
-Vous pouvez configurer des rayons service qui identifient l'emplacement de stockage de vos articles de service. Vous pouvez affecter des rayons service à des articles de service dans les fenêtres **Commande service** et **Feuille activité article de service**.  
+Vous pouvez configurer des rayons service qui identifient l'emplacement de stockage de vos articles de service. Vous pouvez affecter des rayons service à des articles de service dans les pages **Commande service** et **Feuille activité article de service**.  
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Rayons service**, puis sélectionnez le lien associé.
 2. Renseignez les champs selon vos besoins.

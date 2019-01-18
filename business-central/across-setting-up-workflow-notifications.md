@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/08/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7664360941313da6ea0b797ef00df2e9810ad62
-ms.openlocfilehash: 1a8fd4f75fc1562985412b7e478066aa425c9425
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 53b063598cf21ca5b5de72d953995b48a17d64a2
 ms.contentlocale: fr-ch
-ms.lasthandoff: 07/09/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="setting-up-workflow-notifications"></a>Configuration de notifications de flux de travail
@@ -30,17 +30,17 @@ Pour un grand nombre de réponses de workflow, il s'agit de notifier un utilisat
 
 Vous pouvez configurer différents aspects des notifications du workflow dans les emplacements suivants :  
 
-1.  Pour des workflows d'approbation, configurez les destinataires des notifications du workflow en renseignant une ligne dans la fenêtre **Paramètres utilisateur approbation** pour chaque utilisateur qui fait partie du workflow. Par exemple, si l'utilisateur 2 est spécifié dans le champ **ID Approbateur** sur la ligne de l'utilisateur 1, alors la notification de demande d'approbation est envoyée à l'utilisateur 1. Pour plus d'informations, voir [Configurer des utilisateurs d'approbation](across-how-to-set-up-approval-users.md).  
-2.  Vous définissez quand et comment les utilisateurs reçoivent des notifications de workflow en renseignant la fenêtre **Tableau de notification** pour chaque utilisateur du workflow. Pour plus d'informations, voir [Spécifier quand et comment recevoir des notifications](across-how-to-specify-when-and-how-to-receive-notifications.md).  
-3.  Vous configurez le contenu général et la mise en forme des notifications, y compris les notifications concernant les réponses de workflow échues, en configurant des modèles de notification dans la fenêtre **Modèles de notification**. Vous pouvez utiliser les modèles par défaut fournis avec [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-4.  Vous configurez un contenu spécifique et des règles d'une notification de workflow lorsque vous créez le workflow en question. Pour effectuer cette opération, sélectionnez les options dans la fenêtre **Options réponse de flux de travail** pour la réponse de workflow qui représente la notification. Pour plus d'informations, reportez-vous à l'étape 9 dans [Créer des workflows](across-how-to-create-workflows.md).  
+1.  Pour des flux de travail d'approbation, configurez les destinataires des notifications du flux de travail en renseignant une ligne sur la page **Paramètres utilisateur approbation** pour chaque utilisateur qui fait partie du flux de travail. Par exemple, si l'utilisateur 2 est spécifié dans le champ **ID Approbateur** sur la ligne de l'utilisateur 1, alors la notification de demande d'approbation est envoyée à l'utilisateur 1. Pour plus d'informations, voir [Configurer des utilisateurs d'approbation](across-how-to-set-up-approval-users.md).  
+2.  Vous configurez quand et comment les utilisateurs reçoivent des notifications de flux de travail en renseignant la page **Tableau de notification** pour chaque utilisateur du flux de travail. Pour plus d'informations, voir [Spécifier quand et comment recevoir des notifications](across-how-to-specify-when-and-how-to-receive-notifications.md).  
+3.  Si vus le souhaitez, vous pouvez personnaliser le contenu des e-mails de notification en modifiant l'état 1320, notification par e-mail. Pour plus d'informations, voir [Créer et modifier une présentation de rapport ou de document personnalisée](ui-how-create-custom-report-layout.md).  
+4.  Vous configurez un contenu spécifique et des règles d'une notification de workflow lorsque vous créez le workflow en question. Pour effectuer cette opération, sélectionnez les options sur la page **Options réponse de flux de travail** pour la réponse de flux de travail qui représente la notification. Pour plus d'informations, reportez-vous à l'étape 9 dans [Créer des workflows](across-how-to-create-workflows.md).  
 
 ## <a name="see-also"></a>Voir aussi  
  [Configurer des utilisateurs d'approbation](across-how-to-set-up-approval-users.md)   
  [Configurer des utilisateurs de flux de travail](across-how-to-set-up-workflow-users.md)   
  [Spécifier quand et comment recevoir des notifications](across-how-to-specify-when-and-how-to-receive-notifications.md)   
  [Créer des workflows](across-how-to-create-workflows.md)   
- [Gérer les modèles de notification](across-how-to-manage-notification-templates.md)   
+ [Créer et modifier une présentation de rapport ou de document personnalisée](ui-how-create-custom-report-layout.md)   
  [Utiliser des files d'attente des travaux pour planifier des tâches](admin-job-queues-schedule-tasks.md)   
  [Configurer la messagerie](admin-how-setup-email.md)   
  [Procédure pas à pas : Configuration et utilisation d'un flux d'approbation achat](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   

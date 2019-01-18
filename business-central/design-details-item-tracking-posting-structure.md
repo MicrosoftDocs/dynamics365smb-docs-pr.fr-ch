@@ -13,10 +13,10 @@ ms.search.keywords: design, item tracking, posting, inventory
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bde0b129455dbdd7cbc91bd50b6d993abf727100
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: b2cb135991a067b86b7c5579e0386ffd199aefcf
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-item-tracking-posting-structure"></a>Détails de conception : structure de validation de traçabilité
@@ -24,7 +24,7 @@ Pour s'aligner sur la fonctionnalité d'évaluation du stock et obtenir une solu
   
 Les numéros traçabilité sur les entités réseau de commande et les entités réseau sans rapport avec les commandes sont spécifiés dans la table **Ecriture réservation** (T337). Des numéros traçabilité qui sont liés aux informations historiques sont récupérés directement à partir des écritures comptables article qui sont associées à la transaction en question. Cela signifie que les écritures comptables article reflètent la spécification de suivi d'article de la ligne de commande validée.  
   
-La fenêtre **Lignes traçabilité** extrait les informations de T337 et les écritures comptables article et les affiche par le biais de la table temporaire, **Spécification traçabilité** (T336). T336 contient également les données temporaires dans la **Fenêtre lignes traçabilité** pour les quantités de traçabilité article restant à facturer.  
+La page **Lignes traçabilité** extrait les informations de T337 et les écritures comptables article et les affiche par le biais de la table temporaire, **Spécification traçabilité** (T336). T336 contient également les données temporaires dans la **page lignes traçabilité** pour les quantités de traçabilité article restant à facturer.  
   
 ## <a name="one-to-many-relation"></a>Relation un-à-plusieurs  
 La table **Lien écriture article**, qui sert à lier une ligne document validée avec ses écritures comptables article correspondantes, est composée de deux parties principales :  

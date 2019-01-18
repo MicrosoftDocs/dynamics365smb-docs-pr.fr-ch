@@ -13,17 +13,17 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c7c76ce91b58d6cdba09652c54696dc38a87f950
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f5db99544cea6cb4f34789a4b2a5cae602cc1f75
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-manufacturing-batch-units-of-measure"></a>Utiliser les unités de lot de fabrication
 Si un article est stocké dans une unité mais produit dans une autre, un ordre de fabrication utilisant une unité de lot de fabrication est créé pour calculer la quantité correcte des composants durant le traitement par lots **Actualiser O.F.**. Une situation dans laquelle un article fabriqué est stocké en pièces mais produit en tonnes est un exemple d'un calcul d'unité de lot de fabrication.  
 
 ## <a name="to-create-a-production-bom-using-a-batch-unit-of-measure"></a>Pour créer une nomenclature de production à l'aide d'une unité de lot  
-1.  L'unité de lot de fabrication est configurée comme unité alternative dans la fenêtre **Unités article** pour l'article à produire. L'unité de lot ne remplace pas l'unité de base pour l'article.  
+1.  L'unité de lot de fabrication est configurée comme unité alternative sur la page **Unités article** pour l'article à produire. L'unité de lot ne remplace pas l'unité de base pour l'article.  
 2.  Créez une nomenclature de production pour l'article configuré avec l'unité de lot de fabrication. Pour plus d'informations, reportez-vous à [Créer des nomenclatures de production](production-how-to-create-production-boms.md).  
 3.  Dans le champ **Code unité**, sélectionnez l'unité de lot de fabrication.  
 4.  Pour chaque ligne de nomenclature de production, dans le champ **Quantité par**, entrez la quantité de cet article composant requise pour créer cette unité de lot.  

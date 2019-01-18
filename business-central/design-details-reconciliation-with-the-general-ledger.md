@@ -13,10 +13,10 @@ ms.search.keywords: design, reconciliation, general ledger, inventory
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 67392093b4643b6083514859655ce3adc61d1d5b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9655a65fe6a5e6f90ba2c0f1a00c6c8f2cc977ad
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Détails de conception : rapprochement de comptabilité
@@ -35,7 +35,7 @@ Les dates comptabilisation des écritures comptables sont fixées à la date com
 Lorsque vous exécutez ce traitement par lots **Valider coûts ajustés**, il se peut que vous receviez des erreurs en raison d'une configuration manquante ou d'une configuration de dimension incompatible. Si le traitement par lots détecte des erreurs dans la configuration de dimension, il les ignore et utilise les dimensions de l'écriture valeur. Pour toute autre erreur, le traitement par lots ignore la validation des écritures valeur et les répertorie à la fin de l'état dans la section intitulée **Écritures ignorées**. Pour valider ces écritures, vous devez d'abord corriger les erreurs. Pour afficher la liste des erreurs avant d'exécuter le traitement par lot de validation, vous pouvez générer l'état **Valider coûts ajust. - Test**. Cet état répertorie toutes les erreurs détectées durant un test de validation. Vous pouvez corriger les erreurs, puis exécuter le traitement par lots de validation des coûts ajustés sans ignorer aucune entrée.  
 
 ## <a name="automatic-cost-posting"></a>Compta. coûts automatique  
-Pour configurer l'ajustement des coûts à exécuter automatiquement lorsque vous validez une transaction de stock, activez la case à cocher **Compta. coûts automatique** de la fenêtre **Paramètres stock**. La date comptabilisation de l'écriture comptable est identique à la date comptabilisation de l'écriture comptable article.  
+Pour configurer l'ajustement des coûts à exécuter automatiquement lorsque vous validez une transaction de stock, activez la case à cocher **Compta. coûts automatique** de la page **Paramètres stock**. La date comptabilisation de l'écriture comptable est identique à la date comptabilisation de l'écriture comptable article.  
 
 ## <a name="account-types"></a>Types de compte  
 Lors du rapprochement, les valeurs d'inventaire sont validées sur le compte du stock dans le bilan. Le même montant, mais avec le signe opposé, est validé sur le compte contrepartie approprié. Généralement, le compte d'équilibre est un compte de gestion de revenu. Néanmoins, lorsque vous validez des coûts directs liés à la consommation ou la production, le compte contrepartie est un compte de bilan. Le type de l'écriture comptable article et de l'écriture de valeur détermine sur quel compte général publier.  
@@ -45,7 +45,7 @@ Le type d'écriture indique le compte général à valider. Ceci est déterminé
 ### <a name="example"></a>Exemple :  
 L'exemple suivant présente une chaîne de vélo qui est fabriquée à partir des liens achetés. Cet exemple montre la manière dont les différents types de compte général sont utilisés pour un scénario courant.  
 
-La case à cocher **Compta. coûts prévus** de la fenêtre **Paramètres stock** est activée et la configuration suivante est définie.  
+La case à cocher **Compta. coûts prévus** de la page **Paramètres stock** est activée et la configuration suivante est définie.  
 
 Le tableau suivant montre la manière dont le lien est paramétré sur la fiche article.  
 

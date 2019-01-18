@@ -11,23 +11,23 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0e251cd1aa071484cbf235feee6f0e891f27020e
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c30c0efc931b5970ff426141fa0dc3129d827306
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-service-items"></a>Créer des articles de service
 Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], le terme « article de service » fait référence à un équipement ou un article nécessitant une maintenance. Lorsque vous créez une commande service, vous spécifiez les articles nécessitant une maintenance. Dans la commande, vous pouvez lier un article de service à un article en stock ou à un groupe articles de service.    
 
-Lorsque vous recevez un article nécessitant une maintenance, vous pouvez l'enregistrer en tant qu'article de service. Plusieurs méthodes sont possibles. Par exemple, vous pouvez créer un article de service dans la fenêtre **Articles de service**, ou dans le cadre d'un autre traitement, par exemple en utilisant une commande service.   
+Lorsque vous recevez un article nécessitant une maintenance, vous pouvez l'enregistrer en tant qu'article de service. Plusieurs méthodes sont possibles. Par exemple, vous pouvez créer un article de service sur la page **Articles de service**, ou dans le cadre d'un autre traitement, par exemple en utilisant une commande service.   
 
 ## <a name="to-create-a-service-item"></a>Pour créer un article de service  
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles de service**, puis sélectionnez le lien associé.
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-create-service-items-within-a-service-order"></a>Pour créer des articles de service dans des commandes service  
-Lorsque vous recevez des articles que vous souhaitez enregistrer comme articles de service, vous pouvez les créer en tant que tels dans la fenêtre **Commande service** ou **Devis service**.  
+Lorsque vous recevez des articles que vous souhaitez enregistrer comme articles de service, vous pouvez les créer en tant que tels sur la page **Commande service** ou **Devis service**.  
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes service**, puis sélectionnez le lien associé.  
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -36,7 +36,7 @@ Lorsque vous recevez des articles que vous souhaitez enregistrer comme articles 
     Un numéro est affecté à l'article de service et une fiche article de service est créée. Le champ **N° article de service** est rempli par le numéro du nouvel article de service.
 
 ## <a name="to-create-a-service-item-when-shipping-items"></a>Pour créer un article de service lors de l'expédition d'articles  
-Si vous expédiez des articles en validant les commandes service ou les factures service, ces articles sont enregistrés automatiquement en tant qu' articles de service si la condition suivante est remplie. Les articles doivent appartenir à un groupe articles de service et la case à cocher **Créer article de service** doit être activée. Si ces articles portent des numéros de série enregistrés dans la fenêtre Lignes traçabilité, cette information est copiée automatiquement dans le champ **N° de série** de la fiche article de service, lorsque les articles de service sont créés.  
+Si vous expédiez des articles en validant les commandes service ou les factures service, ces articles sont enregistrés automatiquement en tant qu' articles de service si la condition suivante est remplie. Les articles doivent appartenir à un groupe articles de service et la case à cocher **Créer article de service** doit être activée. Si ces articles portent des numéros de série enregistrés sur la page Lignes traçabilité, cette information est copiée automatiquement dans le champ **N° de série** de la fiche article de service, lorsque les articles de service sont créés.  
 
 La procédure suivante explique comment créer des articles de service lorsque vous expédiez des articles de commandes service.  
 
@@ -44,7 +44,7 @@ La procédure suivante explique comment créer des articles de service lorsque v
 2. Ouvrez la commande service.  
 3. Sélectionnez l'action **Valider** ou **Valider et imprimer**.  
 4. Choisissez l'action **Expédier** ou **Livrer et facturer**.  
-5. Les articles de service sont automatiquement créés pour les articles de la commande pour autant qu'ils appartiennent à un groupe articles de service que vous avez configuré pour créer des articles de service. Si vous avez enregistré des numéros de série précis dans la fenêtre **Lignes traçabilité**, ceux-ci sont affectés à ces articles de service.  
+5. Les articles de service sont automatiquement créés pour les articles de la commande pour autant qu'ils appartiennent à un groupe articles de service que vous avez configuré pour créer des articles de service. Si vous avez enregistré des numéros de série précis sur la page **Lignes traçabilité**, ceux-ci sont affectés à ces articles de service.  
 
 > [!NOTE]  
 >  Si un article est une nomenclature et que vous ayez éclaté cette nomenclature, les articles de la nomenclature éclatée sont traités comme des articles normaux. Des articles de service sont créés à partir des mêmes conditions (groupe articles de service et numéro de série). En outre, si le programme crée un article de service pour un article nomenclature éclatée composé d'autres composants nomenclature, ces articles sont créés comme composants d'article de service de l'article de service de la nomenclature éclatée.  

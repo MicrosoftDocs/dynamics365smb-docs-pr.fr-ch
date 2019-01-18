@@ -1,1 +1,1 @@
-Il s'agit d'une toute nouvelle fonctionnalité qui est toujours en cours d'élaboration. La fonctionnalité, et le contenu de cette page, peuvent faire l'objet de modifications. Pour découvrir les nouveautés à venir, [téléchargez les notes de publication (printemps 2018)](http://download.microsoft.com/download/1/C/0/1C0A4DB7-9CE8-4D25-AC7F-65579E713BA8/ReleaseNotes_Dynamics365_03192018.pdf).
+Il s'agit d'une toute nouvelle fonctionnalité qui est toujours en cours d'élaboration. La fonctionnalité, et le contenu de cette page, peuvent faire l'objet de modifications.

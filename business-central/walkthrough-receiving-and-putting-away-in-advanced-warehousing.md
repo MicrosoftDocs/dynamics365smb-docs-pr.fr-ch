@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 4eddb7fb118f7e410448cebf4497857532f936db
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 651ec85ead0859b5be34e624c47331292958e4db
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Procédure pas à pas : Réception et rangement dans les configurations de stockage avancées
@@ -32,7 +32,7 @@ Pour plus d'informations, reportez\-vous à [Détails de conception : flux d'en
 La procédure pas à pas suivante illustre la méthode D dans la table précédente.  
 
 ## <a name="about-this-walkthrough"></a>À propos de cette procédure pas à pas  
-Pour les configurations de stockage avancées, lorsqu'un magasin est défini pour exiger un traitement des réceptions en plus du traitement des réceptions, vous utilisez la fenêtre **Réception entrepôt** pour enregistrer et valider la réception d'articles sur plusieurs commandes entrantes. Lorsque la réception entrepôt est validée, un ou plusieurs documents rangement entrepôt sont créés pour indiquer aux magasiniers de prendre l'article reçu et de le placer aux emplacements affichés en fonction de la configuration de l'emplacement ou des autres emplacements. Le placement spécifique des articles est enregistré lorsque le rangement entrepôt est validé. Le document origine entrant peut être une commande achat, un retour vente, un enlogement transfert ou un ordre d'assemblage de fabrication dont la production est prête à être rangée. Si la réception est créée à partir d'une commande entrante, il est possible d'extraire plusieurs documents origine entrant pour la réception. Grâce à cette méthode, vous pouvez enregistrer plusieurs articles provenant de différentes commandes entrantes avec une réception.  
+Pour les configurations de stockage avancées, lorsqu'un magasin est défini pour exiger un traitement des réceptions en plus du traitement des réceptions, vous utilisez la page **Réception entrepôt** pour enregistrer et valider la réception d'articles sur plusieurs commandes entrantes. Lorsque la réception entrepôt est validée, un ou plusieurs documents rangement entrepôt sont créés pour indiquer aux magasiniers de prendre l'article reçu et de le placer aux emplacements affichés en fonction de la configuration de l'emplacement ou des autres emplacements. Le placement spécifique des articles est enregistré lorsque le rangement entrepôt est validé. Le document origine entrant peut être une commande achat, un retour vente, un enlogement transfert ou un ordre d'assemblage de fabrication dont la production est prête à être rangée. Si la réception est créée à partir d'une commande entrante, il est possible d'extraire plusieurs documents origine entrant pour la réception. Grâce à cette méthode, vous pouvez enregistrer plusieurs articles provenant de différentes commandes entrantes avec une réception.  
 
 Cette procédure pas à pas présente les tâches suivantes.  
 
@@ -56,7 +56,7 @@ Pour exécuter ce processus pas à pas, vous devez :
 -   Devenez magasinier dans un magasin BLANC en procédant comme suit :  
 
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Magasiniers**, puis choisissez le lien associé.  
-2.  Choisissez le champ **ID utilisateur** et sélectionnez votre propre compte utilisateur dans la fenêtre **Utilisateurs**.  
+2.  Choisissez le champ **ID utilisateur** et sélectionnez votre propre compte utilisateur sur la page **Utilisateurs**.  
 3.  Dans le champ **Code magasin**, entrez BLANC.  
 4.  Sélectionnez le champ **Par défaut**.  
 
@@ -64,7 +64,7 @@ Pour exécuter ce processus pas à pas, vous devez :
 Ellen, responsable d'entrepôt chez CRONUS International Ltd., crée deux commandes achat pour des articles accessoires des fournisseurs 10000 et 20000 qui doivent être approvisionnées à l'entrepôt BLANC. Lorsque les livraisons arrivent à l'entrepôt, Sammy, qui est chargé de réceptionner les articles des fournisseurs 10000 et 20000, utilise un filtre pour créer des lignes réception pour les commandes achat provenant des deux fournisseurs. Sammy valide les articles comme étant reçus dans le stock dans une réception entrepôt et rend les articles disponibles pour la vente ou les autres demandes. Jean, le magasinier, prélève les articles depuis l'emplacement de réception et les range. Il range toutes les unités dans leurs emplacements par défaut, à l'exception de 40 des 100 charnières reçues, qu'il range dans le département d'assemblage en fractionnant la ligne rangement. Lorsque Jean enregistre le rangement, le contenu d'un emplacement est mis à jour et les articles sont rendus disponibles pour le prélèvement de l'entrepôt.  
 
 ## <a name="reviewing-the-white-location-setup"></a>Examen de la configuration du magasin BLANC  
-La configuration de la fenêtre **Fiche magasin** définit les flux d'entrepôt de la société.  
+La configuration de la page **Fiche magasin** définit les flux d'entrepôt de la société.  
 
 ### <a name="to-review-the-location-setup"></a>Examen du paramètre de magasin  
 
@@ -111,7 +111,7 @@ Les commandes achat sont le type de document d'origine entrant le plus répandu.
     Les articles envoyés par les fournisseurs 10000 et 20000 sont arrivés à l'entrepôt BLANC. Sammy commence alors le processus de traitement des réceptions achat.  
 
 ## <a name="receiving-the-items"></a>Réception des articles  
-Dans la fenêtre **Réception entrepôt**, vous pouvez gérer plusieurs commandes entrantes pour les documents d'origine, tel que des commandes achat.  
+Sur la page **Réception entrepôt**, vous pouvez gérer plusieurs commandes entrantes pour les documents d'origine, tel que des commandes achat.  
 
 ### <a name="to-receive-the-items"></a>Réception des articles  
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Réceptions entrepôt**, puis choisissez le lien associé.  
@@ -122,14 +122,14 @@ Dans la fenêtre **Réception entrepôt**, vous pouvez gérer plusieurs commande
 6.  Dans le champ **Désignation**, entrez **Fournisseurs 10000 et 20000**.  
 7.  Sélectionnez l'option **Modifier**.  
 8.  Dans le raccourci **Achats**, dans le champ **Filtre n° fournisseur**, entrez **10000&#124;20000**.  
-9. Sélectionnez l'action **Exécuter**. La réception entrepôt est renseignée avec quatre lignes représentant les lignes commande achat pour les fournisseurs spécifiés. Le champ **Qté à recevoir** est renseigné parce que vous n'avez pas activé la case à cocher **Ne pas remplir qté à traiter** dans la fenêtre **Filtres pour extr. doc. orig.**.  
+9. Sélectionnez l'action **Exécuter**. La réception entrepôt est renseignée avec quatre lignes représentant les lignes commande achat pour les fournisseurs spécifiés. Le champ **Qté à recevoir** est renseigné parce que vous n'avez pas activé la case à cocher **Ne pas remplir qté à traiter** sur la page **Filtres pour extr. doc. orig.**.  
 10. Éventuellement, si vous souhaitez utiliser un filtre en procédant de la manière décrite précédemment dans cette section, choisissez l'action **Extraire document origine**, puis sélectionnez les commandes achat des fournisseurs en question.  
 11. Choisissez l'action **Valider réception**, puis cliquez sur le bouton **Oui**.  
 
     Des écritures comptables article positives sont créées et reflètent les réceptions achat validées d'accessoires des fournisseurs 10000 et 20000, et les articles sont prêts à être rangés dans l'entrepôt depuis l'emplacement de réception.  
 
 ## <a name="putting-the-items-away"></a>Rangement des articles  
-Dans la fenêtre **Rangement entrepôt**, vous pouvez gérer les rangements pour un document réception entrepôt spécifique couvrant plusieurs documents origine. Comme pour tous les documents activité entrepôt, chaque article dans le rangement entrepôt est représenté par une ligne Prélever et une ligne Emplacement. Dans la procédure suivante, le code emplacement sur les lignes Prélever est l'emplacement de réception par défaut au magasin BLANC, W-08-0001.  
+Sur la page **Rangement entrepôt**, vous pouvez gérer les rangements pour un document réception entrepôt spécifique couvrant plusieurs documents origine. Comme pour tous les documents activité entrepôt, chaque article dans le rangement entrepôt est représenté par une ligne Prélever et une ligne Emplacement. Dans la procédure suivante, le code emplacement sur les lignes Prélever est l'emplacement de réception par défaut au magasin BLANC, W-08-0001.  
 
 ### <a name="to-put-the-items-away"></a>Rangement des articles  
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Rangements**, puis sélectionnez le lien associé.  
@@ -139,7 +139,7 @@ Dans la fenêtre **Rangement entrepôt**, vous pouvez gérer les rangements pour
 
     Il est indiqué au magasinier que 40 charnières doivent être amenées au département d'assemblage, et il procède à la répartition de la ligne Emplacement individuelle pour spécifier une seconde ligne Emplacement pour l'emplacement W-02-0001 dans le département d'assemblage, où il place cette partie des charnières reçues.  
 
-3.  Sélectionnez la seconde ligne de la fenêtre **Rangement entrepôt**, la ligne d'emplacement pour l'article 70200.  
+3.  Sélectionnez la seconde ligne de la page **Rangement entrepôt**, la ligne d'emplacement pour l'article 70200.  
 4.  Dans le champ **Qté à traiter**, changez la valeur 100 en 60.  
 5.  Sur le raccourci **Lignes**, choisissez **Fonctions**, puis sélectionnez **Eclater ligne**. Une nouvelle ligne est insérée pour l'article 70200 et 40 est indiqué dans le champ **Qté à traiter**.  
 6.  Dans le champ **Code emplacement**, entrez W-02-0001. Le champ **Code zone** est renseigné automatiquement.  

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f68bd92456ccab6d4bade8f5545d5c715a0c35bd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 33b0271c85d97abb8cd4a65c8c9ab9ddd354674b
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Configurer un indicateur coloré sur les piles pour la société ou les utilisateurs individuelles
@@ -24,20 +24,20 @@ En tant qu'administrateur, vous pouvez définir des piles apparaissant sur les T
   
 L'indicateur apparait sous forme d'une barre de couleur le long de la bordure supérieure de la mosaïque Pile. Il offre un signal visuel du statut de l'activité de la pile, ce qui peut indiquer des conditions favorables ou défavorables pour inviter l'utilisateur à prendre des mesures. Par exemple, si une pile affiche les factures vente en cours, vous pouvez définir l'indicateur pour qu'il apparaisse vert (favorable) lorsque le nombre total des factures vente en cours est inférieur à 10, et apparaisse rouge (défavorable) lorsque le total est supérieur à 20.  
   
-Dans la fenêtre **Paramètres pile**, vous configurez des indicateurs pour toutes les piles disponibles dans la base de données de la société. Vous pouvez configurer les indicateurs à appliquer à tous les utilisateurs de la société ou à un utilisateur individuel uniquement. Les paramètres d'indicateur dans la fenêtre **Paramètres pile** agissent en tant que paramètres d'indicateur par défaut. Si la fenêtre **Utilisateur final paramètres pile** est rendue disponible aux utilisateurs, alors ils peuvent personnaliser les paramètres d'indicateurs que vous définissez dans la fenêtre **Paramètres pile**.  
+Sur la page **Paramètres pile**, vous configurez des indicateurs pour toutes les piles disponibles dans la base de données de la société. Vous pouvez configurer les indicateurs à appliquer à tous les utilisateurs de la société ou à un utilisateur individuel uniquement. Les paramètres d'indicateur sur la page **Paramètres pile** agissent en tant que paramètres d'indicateur par défaut. Si la page **Utilisateur final paramètres pile** est rendue disponible aux utilisateurs, alors ils peuvent personnaliser les paramètres d'indicateurs que vous définissez sur la page **Paramètres pile**.  
   
 Pour configurer l'indicateur, vous pouvez spécifier jusqu'à deux valeurs de seuil qui définissent trois plages de valeurs de données (basse, moyenne et haute) à laquelle vous pouvez appliquer une couleur différente (ou un style différent).  
   
 ### <a name="to-set-up-colored-indicators-on-cues"></a>Pour paramétrer des indicateurs colorés sur des piles  
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres pile**, puis sélectionnez le lien associé.  
   
-     La fenêtre **Paramètres pile** s'affiche. La fenêtre liste les indicateurs actuellement paramétrés sur des piles. Les indicateurs qui s'appliquent à tous les utilisateurs de la société ont le champ **Nom d'utilisateur** vide. Les indicateurs s'appliquant à un utilisateur spécifique incluent le nom d'utilisateur dans le champ **Nom d'utilisateur**.  
+     La page **Paramètres pile** s'affiche. La page liste les indicateurs actuellement paramétrés sur des piles. Les indicateurs qui s'appliquent à tous les utilisateurs de la société ont le champ **Nom d'utilisateur** vide. Les indicateurs s'appliquant à un utilisateur spécifique incluent le nom d'utilisateur dans le champ **Nom d'utilisateur**.  
   
     > [!NOTE]  
     >  Si vous avez configuré un indicateur à l'échelle de la société et si un utilisateur modifie l'indicateur ultérieurement, une écriture distincte pour l'indicateur s'affiche dans la liste pour cet utilisateur.  
   
 2. Choisissez l'action **Modifier la liste**.  
-3. Pour configurer un indicateur pour une pile qui ne figure pas dans la fenêtre, choisissez l'action **Nouveau**, puis renseignez les champs tel que décrit ci-après. Si vous souhaitez modifier un indicateur existant, passez à l'étape suivante.  
+3. Pour configurer un indicateur pour une pile qui ne figure pas sur la page, choisissez l'action **Nouveau**, puis renseignez les champs tel que décrit ci-après. Si vous souhaitez modifier un indicateur existant, passez à l'étape suivante.  
   
     |  Champ  |  Désignation  |    
     |---------|---------------|  

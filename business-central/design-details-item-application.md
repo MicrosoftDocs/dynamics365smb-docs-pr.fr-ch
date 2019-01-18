@@ -11,10 +11,10 @@ ms.search.keywords: design, items, ledger entries, posting, inventory
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 12fa67c9e0c161d99faab376c440f6299fa8aa52
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5165cb97d73562d9614a955269ebdcbdc2ff33e4
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-item-application"></a>Détails de conception : lettrage article
@@ -189,7 +189,7 @@ Le tableau suivant montre l'effet de la contrepassation du coût exact des écri
 Lorsque vous exécutez le traitement par lots **Ajuster &coûts - Écr. article**, le coût augmenté de l'écriture achat, dû aux frais annexes, est transmis à l'écriture vente écriture numéro 2. L'écriture vente transfère alors ce coût augmenté à l'écriture vente créditrice (numéro de séquence 3). Le résultat final est que le coût est correctement contrepassé.  
 
 > [!NOTE]  
->  Si vous travaillez sur des retours ou des avoirs et que vous avez configuré le champ **Coût retour identique obligatoire** soit dans la fenêtre **Paramètres achats**, soit dans la fenêtre **Paramètres ventes**, en fonction de votre situation, puis [!INCLUDE[d365fin](includes/d365fin_md.md)] renseigne automatiquement ces champs lorsque vous utilisez la fonction **Copier document**. Si vous utilisez la fonction **Affichage de lignes document validées à contrepasser**, les champs sont toujours renseignés automatiquement.  
+>  Si vous travaillez sur des retours ou des avoirs et que vous avez configuré le champ **Coût retour identique obligatoire** soit sur la page **Paramètres achats**, soit sur la page **Paramètres ventes**, en fonction de votre situation, puis [!INCLUDE[d365fin](includes/d365fin_md.md)] renseigne automatiquement ces champs lorsque vous utilisez la fonction **Copier document**. Si vous utilisez la fonction **Affichage de lignes document validées à contrepasser**, les champs sont toujours renseignés automatiquement.  
 
 > [!NOTE]  
 >  Si vous validez une transaction avec un lettrage fixe et si l'écriture comptable article que vous lettrez doit être clôturée, ce qui signifie que la quantité restante est égale à zéro, l'ancien lettrage est automatiquement annulé et l'écriture comptable article est réappliquée à l'aide du lettrage fixe que vous avez spécifié.  
@@ -237,11 +237,11 @@ En raison du mode de calcul du coût unitaire d'un article, un lettrage article 
 * Vous souhaitez annuler l'application créée automatiquement lors de la validation, en fonction du mode d'évaluation de l'article.  
 * Vous devez retourner un article sur lequel une vente a déjà été appliquée manuellement, sans utiliser la fonction **Afficher des lignes document validées à contrepasser** et vous devez donc annuler l'application.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] propose une fonction pour analyser et corriger des lettrages article. Cela s'effectue dans la fenêtre **Feuille lettrage**.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] propose une fonction pour analyser et corriger des lettrages article. Cela s'effectue sur la page **Feuille lettrage**.  
 
 ## <a name="see-also"></a>Voir aussi  
 [Détails de conception : problème de lettrage article connu](design-details-inventory-zero-level-open-item-ledger-entries.md)  
-[Détails de conception : évaluation stock](design-details-inventory-costing.md)  
+[Détails de conception : Évaluation stock](design-details-inventory-costing.md)  
 [Détails de conception : modes évaluation stock](design-details-costing-methods.md)  
 [Détails de conception : coût moyen](design-details-average-cost.md)   
 [Détails de conception : ajustement des coûts](design-details-cost-adjustment.md)  

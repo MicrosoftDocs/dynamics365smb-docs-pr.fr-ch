@@ -11,39 +11,20 @@ ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f5c679a962b8eab2742c5224ea86c7329c4a2a09
+ms.sourcegitcommit: 400865a0e94ea04c534a56fcb25eb8dc039411e1
+ms.openlocfilehash: 39c32033f377654abda42dedff4a0a2edafa6621
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/01/2018
 
 ---
 
-# <a name="pc-keyboard-shortcuts-quick-reference"></a>Référence rapide de raccourcis clavier PC
+# <a name="keyboard-shortcuts-quick-reference"></a>Référence rapide de raccourcis clavier
 
-
-|||||  
-|----------------|-----------|----------------|-----------|    
-|**Général**||**Naviguer et sélectionner des lignes**||
-|Alt+Q|Ouvrez **Dites-moi ce que vous voulez faire**|Ctrl+A|Sélectionner tout|
-|Tab|Déplacer le focus sur le contrôle suivant|Accueil/fin|Aller au premier/dernier champ|
-|MAJ+Tab|Déplacer le focus sur le contrôle précédent|Ctrl+Accueil/Fin|Aller à la première/dernière ligne|   
-|Alt+Flèche bas|Ouvrir un menu déroulant ou une recherche|Ctrl+Haut/Bas|Naviguer sans perdre la sélection|
-|Alt+Flèche vers la droite|Voir les transactions pour la valeur calculée|Ctrl+Espace|Basculer la sélection de ligne| 
-|Echap|Fermer la page actuelle ou la liste déroulante.|Maj+Ctrl+Accueil/Fin|Étendre la sélection à la première/dernière ligne| 
-|||Ctrl+Enter|Focus hors de la liste|
-|||||
-|**Copier et coller**||**Recherche, filtre, et tri**||
-|Ctrl+A|Sélectionner tout|F3|Basculer la recherche|
-|Ctrl+Accueil/Fin|Sélectionnez la première/dernière ligne de la liste|Shift+F3|Basculer le volet Filtre ; focus sur les filtres de champ|
-|Accueil/fin|Aller au premier/dernier champ|Ctrl+Shift+F3|Basculer les filtres de totaux : focus sur les filtres de totaux|
-|Ctrl/Shift+Clic|Ajoutez la ou les lignes à la sélection |Alt+F3|Filtrer la valeur sélectionnée de cellules|
-|Ctrl+Haut/Bas|Déplacer le focus à la ligne au-dessus/au dessous|Maj+Alt+F3|Ajouter un filtre au champ sélectionnée|
-|Ctrl+Espace|Étendez la sélection pour inclure la ligne active|Ctrl+Alt+Maj+F3|Réinitialiser les filtres|
-|Maj+Haut/Bas|Ajouter une ligne au-dessus/au dessous de la sélection|**Aperçu d'état**||
-|Maj+Haut/Bas de page|Ajouter toutes les lignes visibles au-dessus/dessous de la sélection actuelle|Haut/Bas|Faire défiler vers le haut et le bas de la page
-|Ctrl+C|Copier les lignes|Droite/Gauche|Faire défiler vers la droite/la gauche |
-|Ctrl+V|Coller les lignes|Ctrl+0 (zéro)|Ajuster la page à la fenêtre |
-|F8|Copier le champ au-dessus dans la ligne actuelle|Ctrl+Accueil/Fin|Aller à la première/dernière page|
-|||Haut/Bas de page|Aller à la page précédente/suivante|
-
+||||  
+|----------------|-----------|----------------| 
+|**Général**|Alt+Q<br />Alt+Haut<br />Tab<br />MAJ+Tab<br />Alt+Flèche bas<br />Alt+Flèche vers la droite<br />F5/Ctrl+F5<br />Echap|Ouvrir **Dites-moi**<br />Ouvrir une info-bulle ou une erreur de validation<br />Déplacer le focus sur le contrôle suivant<br />Déplacer le focus sur le contrôle précédent<br />Ouvrir un menu déroulant ou une recherche<br />Voir les transactions pour la valeur calculée<br />Actualiser/recharger la page<br />Fermer la page actuelle ou la liste déroulante.|
+|**Naviguer et sélectionner des lignes**| Accueil/fin<br />Ctrl+Accueil/Fin <br />Ctrl+Haut/Bas<br />Ctrl+A <br />Ctrl+Espace<br />Ctrl/Shift+Clic<br />Ctrl+Shift+Accueil/Fin<br />Maj+Haut/Bas<br />Maj+Haut/Bas de page<br />Ctrl+Enter| Aller au premier/dernier champ<br />Aller à la première/dernière ligne<br />Naviguer sans perdre la sélection<br />Sélectionner tout<br />Basculer la sélection de ligne<br /> Ajoutez la ou les lignes à la sélection<br />Étendre la sélection à la première/dernière ligne<br />Ajouter une ligne au-dessus/au dessous de la sélection<br />Ajouter toutes les lignes visibles au-dessus/dessous de la sélection<br />Focus hors de la liste|
+|**Copier et coller**|Ctrl+C<br />Ctrl+V<br />F8|Copier les lignes<br />Coller lignes<br />Copier le champ au-dessus dans la ligne actuelle|
+|**Recherche, filtre, et tri**|F3<br />Shift+F3<br />Ctrl+Shift+F3<br />Alt+F3<br />Maj+Alt+F3<br />Ctrl+Alt+Maj+F3|Basculer la recherche<br />Basculer le volet Filtre ; focus sur les filtres de champ<br />Basculer le volet Filtre ; focus sur les filtres de totaux<br />Filtrer la valeur sélectionnée de cellules<br />Ajouter un filtre au champ sélectionnée<br />Réinitialiser les filtres|
+|**Aperçu d'état**|Haut/Bas<br />Droite/Gauche<br />Ctrl+Accueil/Fin<br />Haut/Bas de page|Faire défiler vers le haut et le bas de la page<br />Faire défiler vers la droite/la gauche <br />Aller à la première/dernière page<br />Aller à la page précédente/suivante|
 

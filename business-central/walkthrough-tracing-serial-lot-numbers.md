@@ -13,18 +13,18 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c426e8cb53833fd521f4ecad7def166534b0befe
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 13638a1bc96bc61fb2d2b3d925a861f1085fe275
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-tracing-serial-lot-numbers"></a>Procédure pas à pas : suivi des numéros de série et des numéros de lot
 En cas de produit défectueux, vous devez identifier les erreurs et empêcher les articles concernés d'être vendus. Si des articles défectueux ont déjà été expédiés, vous devez procéder au suivi des destinataires et, au besoin, de rappeler les articles.  
 
-Dans la gestion des défauts, la première chose à faire est de rechercher d'où venaient les articles défectueux et où ils ont été utilisés. Pour ce faire, vous pouvez vous baser sur des données historiques et, pour faciliter votre travail, vous pouvez rechercher l'article en utilisant l'option **Traçabilité**.  
+Dans la gestion des défauts, la première chose à faire est de rechercher d'où venaient les articles défectueux et où ils ont été utilisés. Pour ce faire, vous pouvez vous baser sur des données historiques et, pour faciliter votre travail, vous pouvez rechercher l'article en utilisant la page **Traçabilité**.  
 
-Ensuite, déterminez si les articles suivis sont planifiés dans des documents en cours, comme des commandes vente non validées ou des feuilles consommation. Cela s'effectue dans la fenêtre **Naviguer**. Vous pouvez utiliser la fonction Naviguer pour rechercher tous les types d'enregistrements de données de base.  
+Ensuite, déterminez si les articles suivis sont planifiés dans des documents en cours, comme des commandes vente non validées ou des feuilles consommation. Cela s'effectue sur la page **Naviguer**. Vous pouvez utiliser la fonction Naviguer pour rechercher tous les types d'enregistrements de données de base.  
 
 ## <a name="about-this-walkthrough"></a>À propos de cette procédure pas à pas  
 Cette procédure pas à pas explique comment identifier les articles défectueux, leur fournisseur et l'endroit où ils sont utilisés afin que vous puissiez les bloquer ou les rappeler.  
@@ -59,7 +59,7 @@ Dans le département des ventes, le contrôleur qualité sait que le vélo de co
 
 Les résultats de cette première tâche de traçabilité permettent d'identifier les cadres défectueux et le fournisseur qui les a vendus. Ensuite, mais toujours dans la même procédure de traçabilité générale, le contrôleur qualité doit trouver tous les vélos de course vendus qui sont équipés d'un cadre provenant du lot défectueux, de manière à pouvoir stopper ou rappeler ces commandes. Enfin, le contrôleur qualité doit trouver des documents ouverts dans lesquels le lot défectueux est utilisé afin d'empêcher d'autres transactions.  
 
-Les deux premières tâches de gestion des défauts sont exécutées dans la fenêtre **Traçabilité**. La dernière tâche est réalisée dans la fenêtre **Naviguer** en association avec la fenêtre **Traçabilité**.  
+Les deux premières tâches de gestion des défauts sont exécutées sur la page **Traçabilité**. La dernière tâche est réalisée sur la page **Naviguer** en association avec la page **Traçabilité**.  
 
 ## <a name="prepare-sample-data"></a>Préparation d'exemples de données  
 Vous devez créer les nouveaux articles suivants :  
@@ -80,7 +80,7 @@ Ensuite, vous devez créer plusieurs transactions d'achat, de production et de v
     |Cadre de course|PCS|MAT PREM|VAT25|MAT PREM|LOTALL|  
 
     > [!NOTE]  
-    >  Pour entrer l’unité de base, cliquez sur le bouton **Nouveau**, puis sélectionnez **PSC** dans la fenêtre **Unités article**.  
+    >  Pour entrer l’unité de base, cliquez sur le bouton **Nouveau**, puis sélectionnez **PSC** sur la page **Unités article**.  
 
 4.  Tous les autres champs contiennent des données par défaut acceptables ou ne doivent pas être remplis.  
 5.  Cliquez sur le bouton **OK** pour créer la première fiche article, 2000.  
@@ -92,17 +92,17 @@ Ensuite, vous devez créer plusieurs transactions d'achat, de production et de v
     |Vélo de course|PCS|DÉTAIL|VAT25|TERMINÉ|O. F.|SNALL|  
 
     > [!NOTE]  
-    >  Pour entrer l’unité de base, cliquez sur le bouton **Nouveau**, puis sélectionnez **PSC** dans la fenêtre **Unités article**.  
+    >  Pour entrer l’unité de base, cliquez sur le bouton **Nouveau**, puis sélectionnez **PSC** sur la page **Unités article**.  
 
     Ensuite, définissez les paramètres production de l'article.
 
 9. Sous l'onglet **Réapprovisionnement** , entrez **1000** dans le champ **N° gamme**.  
 10. Choisissez le champ **N° nomenclature de production**, puis sélectionnez **Avancé**.  
-11. Dans la fenêtre **Liste nomenclatures production**, choisissez la première ligne, **1000**, puis sélectionnez l'action **Modifier**.  
-12. Dans la fenêtre **Nomenclature de production**, modifiez la valeur du champ **Statut** en **Modification en cours**.  
+11. Sur la page **Liste nomenclatures production**, choisissez la première ligne, **1000**, puis sélectionnez l'action **Modifier**.  
+12. Sur la page **Nomenclature de production**, modifiez la valeur du champ **Statut** en **Modification en cours**.  
 13. Accédez à une ligne vide, entrez **2000** dans le champ **N°** puis entrez **1** dans le champ **Quantité par**.  
 14. Modifiez la valeur du champ **Statut** en **Validée**.  
-15. Cliquez sur le bouton **OK** pour insérer la nomenclature de production dans la fiche article et fermer la fenêtre **Nomenclature de production**.  
+15. Cliquez sur le bouton **OK** pour insérer la nomenclature de production dans la fiche article et fermer la page **Nomenclature de production**.  
 
     Ensuite, acheter des cadres de course de Custom Metals Incorporated.  
 
@@ -116,7 +116,7 @@ Ensuite, vous devez créer plusieurs transactions d'achat, de production et de v
     |2000|10|LOT1|  
 
 4.  Pour saisir le numéro de lot, choisissez l'action **Lignes traçabilité**.  
-5.  Dans la fenêtre **Lignes traçabilité**, renseignez les champs **N° lot** et **Quantité (Base)**, puis fermez la fenêtre.  
+5.  Sur la page **Lignes traçabilité**, renseignez les champs **N° lot** et **Quantité (Base)**, puis fermez la page.  
 6.  Dans le champ **N° facture fournisseur**, entrez une valeur.  
 7.  Cliquez sur **Valider**, choisissez l'option **Réceptionner et facturer**, puis cliquez sur le bouton **OK**.  
 
@@ -130,7 +130,7 @@ Ensuite, vous devez créer plusieurs transactions d'achat, de production et de v
     |2000|11|LOT2|  
 
 11. Pour entrer le numéro de lot, dans le raccourci **Lignes**, dans le groupe **Ligne**, choisissez l'action **Lignes traçabilité**.  
-12. Dans la fenêtre **Lignes traçabilité**, renseignez les champs **N° lot** et **Quantité (Base)**, puis fermez la fenêtre.  
+12. Sur la page **Lignes traçabilité**, renseignez les champs **N° lot** et **Quantité (Base)**, puis fermez la page.  
 13. Dans le champ **N° facture fournisseur**, entrez une valeur.  
 14. Cliquez sur **Valider**, choisissez l'option **Réceptionner et facturer**, puis cliquez sur le bouton **OK**.  
 
@@ -148,13 +148,13 @@ Ensuite, vous devez créer plusieurs transactions d'achat, de production et de v
 
 4.  Choisissez l'action **Actualiser O.F.**, puis choisissez le bouton **OK** pour remplir la ligne.  
 5.  Pour saisir les numéros de série, choisissez l'action **Lignes traçabilité**.  
-6.  Dans la fenêtre **Lignes traçabilité**, renseignez les champs **N° série** et **Quantité (Base)**, puis fermez la fenêtre.  
+6.  Sur la page **Lignes traçabilité**, renseignez les champs **N° série** et **Quantité (Base)**, puis fermez la page.  
 
     Ensuite, validez la consommation des cadres de course dans le LOT1.  
-7.  Dans la fenêtre **O.F. lancé**, choisissez l'action **Feuille production**.  
-8.  Dans la fenêtre **Feuille production**, sélectionnez la ligne consommation pour l'article 2000, choisissez l'action **Lignes traçabilité**.
-9. Dans la fenêtre **Lignes traçabilité**, sélectionnez le champ **N° lot**, choisissez **LOT1**, puis sélectionnez le bouton **OK** button.  
-10. Ne modifiez pas les autres valeurs par défaut dans la fenêtre **Feuille production**, et sélectionnez l'action **Valider**.  
+7.  Sur la page **O.F. lancé**, choisissez l'action **Feuille production**.  
+8.  Sur la page **Feuille production**, sélectionnez la ligne consommation pour l'article 2000, choisissez l'action **Lignes traçabilité**.
+9. Sur la page **Lignes traçabilité**, sélectionnez le champ **N° lot**, choisissez **LOT1**, puis sélectionnez le bouton **OK** button.  
+10. Ne modifiez pas les autres valeurs par défaut sur la page **Feuille production**, et sélectionnez l'action **Valider**.  
 
     Ensuite, deux produisez vélos de course supplémentaires, SN4 et SN3.  
 
@@ -168,13 +168,13 @@ Ensuite, vous devez créer plusieurs transactions d'achat, de production et de v
     |1002|2|SN4|  
 
 14. Choisissez l'action **Actualiser O.F.** pour remplir la ligne.  
-15. Pour saisir les numéros de série, choisissez l'action **Lignes traçabilité**, puis les numéros figurant sur deux lignes dans le champ **N° de série** de la fenêtre **Lignes traçabilité**.  
+15. Pour saisir les numéros de série, choisissez l'action **Lignes traçabilité**, puis les numéros figurant sur deux lignes dans le champ **N° de série** de la page **Lignes traçabilité**.  
 
     Ensuite, validez plus de consommation des cadres de course dans le LOT1.  
-16. Dans la fenêtre **O.F. lancé**, choisissez l'action **Feuille production**.  
-17. Dans la fenêtre **Feuille production**, sélectionnez la ligne consommation pour l'article 2000, choisissez l'action **Lignes traçabilité**.
-18. Dans la fenêtre **Lignes traçabilité**, sélectionnez le champ **N° lot**, choisissez **LOT1**, puis sélectionnez le bouton **OK** button.  
-19. Ne modifiez pas les autres valeurs par défaut dans la fenêtre **Feuille production**, et sélectionnez l'action **Valider**.  
+16. Sur la page **O.F. lancé**, choisissez l'action **Feuille production**.  
+17. Sur la page **Feuille production**, sélectionnez la ligne consommation pour l'article 2000, choisissez l'action **Lignes traçabilité**.
+18. Sur la page **Lignes traçabilité**, sélectionnez le champ **N° lot**, choisissez **LOT1**, puis sélectionnez le bouton **OK** button.  
+19. Ne modifiez pas les autres valeurs par défaut sur la page **Feuille production**, et sélectionnez l'action **Valider**.  
 
     Vous avez créé quatre vélos de course, SN1 à SN4, et utilisé quatre des dix cadres de course du LOT1, deux pour chaque ordre de fabrication.  
 
@@ -190,7 +190,7 @@ Ensuite, vous devez créer plusieurs transactions d'achat, de production et de v
     |--------------|----------|----------|----------------|  
     |Soleil et étoiles SARL|1002|1|NS1|  
 
-3.  Pour saisir le numéro de série, choisissez l'action **Lignes traçabilité**, puis le numéro figurant dans le champ **N° de série** de la fenêtre **Lignes traçabilité**.  
+3.  Pour saisir le numéro de série, choisissez l'action **Lignes traçabilité**, puis le numéro figurant dans le champ **N° de série** de la page **Lignes traçabilité**.  
 4.  Cliquez sur **Valider**, choisissez l'option **Livrer et facturer**, puis cliquez sur le bouton **OK**.  
 
     Ensuite, vendez le vélo de course portant le SN2 au Cannon Group PLC.  
@@ -202,7 +202,7 @@ Ensuite, vous devez créer plusieurs transactions d'achat, de production et de v
     |--------------|----------|----------|----------------|  
     |Cannon group PLC.|1002|1|NS2|  
 
-7.  Pour saisir le numéro de série, choisissez l'action **Lignes traçabilité**, puis le numéro figurant dans le champ **N° de série** de la fenêtre **Lignes traçabilité**.  
+7.  Pour saisir le numéro de série, choisissez l'action **Lignes traçabilité**, puis le numéro figurant dans le champ **N° de série** de la page **Lignes traçabilité**.  
 8.  Cliquez sur **Valider**, choisissez l'option **Livrer et facturer**, puis cliquez sur le bouton **OK**.  
 
     Enfin, vendez séparément quelques cadres de course. Cannon Group PLC commande également quatre cadres de course distincts pour leur propre chaîne de montage.  
@@ -214,7 +214,7 @@ Ensuite, vous devez créer plusieurs transactions d'achat, de production et de v
     |--------------|----------|----------|----------------|  
     |Cannon group PLC.|2000|5|LOT1|  
 
-11. Pour saisir le numéro de série, dans le raccourci **Lignes**, dans le groupe **Ligne**, sélectionnez l'action **Lignes traçabilité**, puis le numéro dans le champ **N° de série** de la fenêtre **Lignes traçabilité**.  
+11. Pour saisir le numéro de série, dans le raccourci **Lignes**, dans le groupe **Ligne**, sélectionnez l'action **Lignes traçabilité**, puis le numéro dans le champ **N° de série** de la page **Lignes traçabilité**.  
 
     > [!NOTE]  
     >  Ne validez pas la dernière commande vente pour les cinq cadres de course.  
@@ -226,7 +226,7 @@ Ensuite, vous devez créer plusieurs transactions d'achat, de production et de v
 
 ### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>Pour déterminer de quel lot le cadre défectueux provient et qui la fournit  
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Traçabilité**, puis sélectionnez le lien associé.  
-2.  Dans la fenêtre **Traçabilité**, entrez **SN1** dans le champ **Filtre n° de série**, puis entrez **1002** dans le champ **Filtre article**.  
+2.  Sur la page **Traçabilité**, entrez **SN1** dans le champ **Filtre n° de série**, puis entrez **1002** dans le champ **Filtre article**.  
 3.  Conservez les paramètres par défaut de **Article suivi uniquement** dans le champ **Afficher composants** et conservez la méthode de suivi par défaut **Utilisation \- Origine** dans **Méthode de suivi**.  
 4.  Choisissez l'action **Suivi**.  
 
@@ -248,16 +248,16 @@ Ensuite, vous devez créer plusieurs transactions d'achat, de production et de v
     > [!NOTE]  
     >  Ne modifiez plus le résultat de la traçabilité, car vous allez l'utiliser dans la prochaine section.  
 
-     La première tâche de gestion des défauts à l'aide de la fenêtre **Traçabilité** est à présent terminée. Le contrôleur qualité doit maintenant déterminer si d'autres documents validés ont traité des cadres de course du LOT1.  
+     La première tâche de gestion des défauts à l'aide de la page **Traçabilité** est à présent terminée. Le contrôleur qualité doit maintenant déterminer si d'autres documents validés ont traité des cadres de course du LOT1.  
 
 ## <a name="tracing-from-origin-to-usage"></a>Traçabilité de l'origine à l'activité  
  Le contrôleur qualité a déterminé que les cadres de course défectueux provenaient du LOT1. Il doit maintenant retrouver les autres vélos de course équipés d'un cadre provenant du lot défectueux afin de pouvoir stopper ou rappeler ces vélos.  
 
- Une manière de préparer cette tâche de suivi dans la fenêtre **Traçabilité** est d'entrer manuellement LOT1 dans le champ **Filtre n° lot** et 2000 dans le champ **Filtre article**. Toutefois, cette procédure pas-à-pas utilisera la fonction **Opposé suivi - Ligne d'origine** .  
+ Une manière de préparer cette tâche de suivi sur la page **Traçabilité** est d'entrer manuellement LOT1 dans le champ **Filtre n° lot** et 2000 dans le champ **Filtre article**. Toutefois, cette procédure pas-à-pas utilisera la fonction **Opposé suivi - Ligne d'origine** .  
 
 ### <a name="to-find-all-usage-of-the-faulty-lot"></a>Pour trouver toutes les activités du lot défectueux  
 
-1.  Dans la fenêtre **Traçabilité**, sélectionnez la ligne de la réception achat (la dernière ligne de suivi), choisissez **Opposé suivi - Ligne d'origine**.  
+1.  Sur la page **Traçabilité**, sélectionnez la ligne de la réception achat (la dernière ligne de suivi), choisissez **Opposé suivi - Ligne d'origine**.  
 
     Le résultat du suivi est maintenant basé sur le filtres de la ligne de suivi pour la réception achat, LOT1 et article 2000, et sur la méthode de suivi **Origine - Activité**.  
 
@@ -271,17 +271,17 @@ Ensuite, vous devez créer plusieurs transactions d'achat, de production et de v
 
     Au même moment, il constate dans les trois dernières lignes de suivi que deux autres articles, SN3 et SN4, ont été fabriqués avec les cadres de course du LOT1. Il bloque ces articles dans le stock.  
 
-    Ainsi se termine la deuxième tâche de gestion des défauts à l'aide de la fenêtre **Traçabilité**. Étant donné que la fenêtre **Traçabilité** est basée uniquement sur des écritures validées, le contrôleur qualité doit poursuivre jusqu'à la fenêtre **Naviguer** pour vérifier que le LOT1 n'est pas utilisé dans des documents qui ne sont pas validés.  
+    Ainsi se termine la deuxième tâche de gestion des défauts à l'aide de la page **Traçabilité**. Étant donné que la page **Traçabilité** est basée uniquement sur des écritures validées, le contrôleur qualité doit poursuivre jusqu'à la page **Naviguer** pour vérifier que le LOT1 n'est pas utilisé dans des documents qui ne sont pas validés.  
 
 ## <a name="finding-all-records-of-a-seriallot-number"></a>Rechercher tous les enregistrements d'un numéro de série/lot  
- La fenêtre **Traçabilité** a permis au contrôleur qualité de constater que le LOT1 contenait les cadres de course défectueux, d'en découvrir le fournisseur ainsi que la transaction validée dans laquelle ils avaient été utilisés. Il doit maintenant déterminer si le LOT1 apparaît dans des documents ouverts en intégrant les résultats du suivi dans la fenêtre **Naviguer** dans laquelle il peut faire une recherche sur l'ensemble des enregistrements de base de données.  
+ La page **Traçabilité** a permis au contrôleur qualité de constater que le LOT1 contenait les cadres de course défectueux, d'en découvrir le fournisseur ainsi que la transaction validée dans laquelle ils avaient été utilisés. Il doit maintenant déterminer si le LOT1 apparaît dans des documents ouverts en intégrant les résultats du suivi dans la page **Naviguer** dans laquelle il peut faire une recherche sur l'ensemble des enregistrements de base de données.  
 
 ### <a name="to-find-all-occurrences-of-lot1-in-non-posted-records-such-as-open-orders"></a>Pour rechercher toutes les occurrences du LOT1 dans les enregistrements non validés, comme les commandes ouvertes  
 
-1.  Dans la fenêtre **Traçabilité**, sélectionnez la première ligne de suivi, c'est-à-dire la réception achat du LOT1.  
+1.  Sur la page **Traçabilité**, sélectionnez la première ligne de suivi, c'est-à-dire la réception achat du LOT1.  
 2.  Sélectionnez l'action **Naviguer**.  
 
-    La fenêtre **Naviguer** contient déjà des filtres de recherche basés sur le résultat du suivi du LOT1. Le contrôleur qualité constate que la majorité des enregistrements se rapportent à des documents déjà identifiés dans la fenêtre **Traçabilité**. Par exemple, la dernière ligne de la fenêtre Naviguer de type O.F. fait référence aux deux O.F. lancés qui ont consommé les cadres de course du LOT1.  
+    La page **Naviguer** contient déjà des filtres de recherche basés sur le résultat du suivi du LOT1. Le contrôleur qualité constate que la majorité des enregistrements se rapportent à des documents déjà identifiés sur la page **Traçabilité**. Par exemple, la dernière ligne de la fenêtre Naviguer de type O.F. fait référence aux deux O.F. lancés qui ont consommé les cadres de course du LOT1.  
 
     Toutefois, la seconde ligne de la fenêtre Naviguer de type **Ligne vente** est une ligne document non validée. Par conséquent, le contrôleur qualité continue ses recherches.  
 
@@ -289,7 +289,7 @@ Ensuite, vous devez créer plusieurs transactions d'achat, de production et de v
 
     Dans ce cas, le contrôleur qualité constate une ligne vente ouverte pour les cadres de course défectueux. Il suggère immédiatement au département des ventes l'annulation de cette commande et la création d'un autre O.F., basé sur des cadres de course non défectueux.  
 
- Ainsi se termine la procédure pas à pas sur l'utilisation de la fenêtre **Naviguer** pour la gestion des défauts en association avec la fenêtre **Traçabilité**.  
+ Ainsi se termine la procédure pas à pas sur l'utilisation de la page **Naviguer** pour la gestion des défauts en association avec la page **Traçabilité**.  
 
 ## <a name="see-also"></a>Voir aussi
 [Utiliser les numéros de lot et de série](inventory-how-work-item-tracking.md)  

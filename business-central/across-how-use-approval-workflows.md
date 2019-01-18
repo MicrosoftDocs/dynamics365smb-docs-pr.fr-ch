@@ -12,16 +12,16 @@ ms.search.keywords: reject, delegate, request
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 4a153d8cd4ceccea2d7d410702df4ba2ec760cf9
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3b4b4a6d544b594f439b675b88176d942d8cf325
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="use-approval-workflows"></a>Utilisation des flux d'approbation
 Lorsqu'un enregistrement, tel qu'un document achat ou une fiche client, doit être approuvé par un membre de votre organisation, vous envoyez une approbation demande achat dans le cadre d'un workflow. Selon la configuration du workflow, l'approbateur approprié est informé que l'enregistrement requiert son approbation.
 
-Vous configurez les flux d'approbation dans la fenêtre **Flux de travail**. Pour plus d'informations, reportez-vous à [Paramétrage des workflows](across-set-up-workflows.md).
+Vous configurez les flux d'approbation sur la page **Flux de travail**. Pour plus d'informations, reportez-vous à [Paramétrage des workflows](across-set-up-workflows.md).
 
 Outre les flux de travail approbation décrits dans cette rubrique, vous pouvez effectuer diverses autres tâches de flux de travail. Pour plus d'informations, voir [Utilisation des workflows](across-use-workflows.md).
 
@@ -30,7 +30,7 @@ Les flux d'approbation de base pour les documents achat, les documents vente, le
 ## <a name="to-request-approval-of-a-record"></a>Faire une demande d'approbation d'un enregistrement
 La tâche suivante est effectuée par un utilisateur d'approbation.
 
-1. Dans la fenêtre qui affiche l'enregistrement, sélectionnez l'action **Envoyer demande d'approbation**.
+1. Sur la page qui affiche l'enregistrement, sélectionnez l'action **Envoyer demande d'approbation**.
 2. Pour afficher toutes vos demandes d'approbation, choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Écritures demande d'approbation**, puis sélectionnez le lien associé.  
 
 Le statut de l’écriture approbation passe de **Créé** à **Ouvert**. Le statut de l'enregistrement, par exemple une facture achat, est mis à jour du statut **Ouvert** à **Approbation en attente** et reste verrouillé au traitement jusqu'à ce que tous les approbateurs aient approuvé l'enregistrement.
@@ -42,14 +42,14 @@ La tâche suivante est effectuée par un utilisateur d'approbation doté de droi
 
 Un client peut souhaiter modifier une commande après sa soumission pour approbation. Dans ce cas, vous pouvez annuler le processus d'approbation et apporter les modifications nécessaires à la commande avant de refaire une demande d'approbation.
 
-- Dans la fenêtre qui affiche l'enregistrement, sélectionnez l'action **Annuler demande d'approbation**.
+- Sur la page qui affiche l'enregistrement, sélectionnez l'action **Annuler demande d'approbation**.
 
 Lorsque la demande d'approbation a été annulée, le statut de l'écriture de l'approbation connexe passe à **Annulé**. Le statut de l’enregistrement est mis à jour d'**Approbation en attente** à **Ouvert**. Le processus d'approbation peut alors redémarrer.
 
 ## <a name="to-approve-or-reject-requests-for-approval"></a>Pour approuver ou rejeter les demandes d'approbation
 La tâche suivante est effectuée par un utilisateur d'approbation doté de droits d'approbation.
 
-Vous pouvez traiter les demandes d'approbation dans la fenêtre **Demandes à approuver**, par exemple, afin d'approuver plusieurs demandes à la fois. Sinon, vous pouvez traiter chaque demande sur l'enregistrement connexe, par exemple la fenêtre **Facture achat**, en sélectionnant le lien dans la notification que vous recevez.
+Vous pouvez traiter les demandes d'approbation sur la page **Demandes à approuver**, par exemple, afin d'approuver plusieurs demandes à la fois. Sinon, vous pouvez traiter chaque demande sur l'enregistrement connexe, par exemple la page **Facture achat**, en sélectionnant le lien dans la notification que vous recevez.
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Demandes à approuver**, puis sélectionnez le lien associé.
 2. Sélectionnez une ou plusieurs lignes pour l'enregistrement ou les enregistrements que vous voulez approuver ou rejeter.
@@ -79,7 +79,7 @@ Vous devez rappeler régulièrement aux utilisateurs du workflow d'approbation q
 La fonction **Envoyer des notifications d'approbations échues** passe en revue toutes les demandes d'approbation ouvertes qui sont actuellement échues. Chaque approbateur ayant au moins une écriture approbation échue reçoit une notification avec la liste de toutes leurs demandes d'approbation échues. La notification est également envoyée à leur approbateur et à tous les demandeurs des approbations échues. Cela est utile si l'écriture d'approbation échue doit être déléguée à un remplaçant.
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Demandes approbation échues**, puis sélectionnez le lien associé.
-2. Dans la fenêtre **Demandes approbations échues**, sélectionnez l'action **Envoyer les notifications d'approbation échues**.
+2. Sur la page **Demandes approbations échues**, sélectionnez l'action **Envoyer les notifications d'approbation échues**.
 
 ## <a name="see-also"></a>Voir aussi
 [Ventes](sales-manage-sales.md)    

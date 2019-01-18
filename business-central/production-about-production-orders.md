@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7172c271d2bd25d79294a637dec83a8a0fb834dc
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1c534f16c1e69840912e42c30bbcae2d6496b373
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="about-production-orders"></a>À propos des ordres de fabrication
@@ -40,7 +40,7 @@ Les ordres de fabrication sont les points de départ pour :
 -   la traçabilité de la fabrication terminée.  
 
 ## <a name="production-order-creation"></a>Création des ordres de fabrication  
-Il est possible de créer des ordres de fabrication un par un manuellement dans la fenêtre **Ordre de fabrication** ou de les générer dans les fenêtres **Commande vente Planning** ou **Planning commande**. La fenêtre **Feuille planning** permet de générer plusieurs ordres.  
+Il est possible de créer des ordres de fabrication un par un manuellement sur la page **Ordre de fabrication** ou de les générer sur les pages **Commande vente Planning** et/ou **Planning commande**. La page **Feuille planning** permet de générer plusieurs ordres.  
 
 Les ordres de fabrication sont créés à l'aide d'informations provenant des éléments suivants :  
 
@@ -54,8 +54,8 @@ Les ordres de fabrication sont créés à l'aide d'informations provenant des é
 Les ordres de fabrication sont automatiquement réservés et tracés sur leur source quand ils sont :  
 
 -   créés dans la fenêtre **Feuille planning** ;  
--   créés avec la fonction Commande dans la fenêtre **Planification commande vente** ;  
--   créés dans la fenêtre **Planification commande** ;  
+-   Créés avec la fonction Commande sur la page **Planification commande vente** ;  
+-   Créés sur la page **Planification commande** ;  
 -   utilisés avec la fonction **Replanification** des ordres de fabrication.  
 
 Pour plus d'informations, voir [Suivre les relations entre l'offre et la demande](production-how-track-demand-supply.md).
@@ -63,7 +63,7 @@ Pour plus d'informations, voir [Suivre les relations entre l'offre et la demande
 Les ordres de fabrication créés par d'autres moyens ne sont pas automatiquement réservés et tracés.   
 
 ## <a name="production-order-status"></a>Statut de l'ordre de fabrication  
-Le statut de l'ordre de fabrication contrôle la manière dont l'ordre de fabrication se comporte dans le programme. La forme et le contenu de la production sont dictés par le statut de l'ordre. Les ordres de fabrication s'affichent dans différentes fenêtres en fonction de leur statut. Vous ne pouvez pas modifier le statut d'un ordre de fabrication manuellement ; vous devez utiliser la fonction **Modifier statut**.  
+Le statut de l'ordre de fabrication contrôle la manière dont l'ordre de fabrication se comporte dans le programme. La forme et le contenu de la production sont dictés par le statut de l'ordre. Les ordres de fabrication sont affichés sur différentes pages en fonction de leur statut. Vous ne pouvez pas modifier le statut d'un ordre de fabrication manuellement ; vous devez utiliser la fonction **Modifier statut**.  
 
 ### <a name="simulated-production-order"></a>O.F. simulé  
 L'ordre de fabrication simulé est unique en raison des caractéristiques suivantes :  

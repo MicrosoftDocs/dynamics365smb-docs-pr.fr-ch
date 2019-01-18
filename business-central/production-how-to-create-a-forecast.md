@@ -1,6 +1,6 @@
 ---
 title: "Procédure de création d'une prévision demande | Microsoft Docs"
-description: "Vous pouvez créer des prévisions de vente et de production à l'aide de la fenêtre **Prévision demande**."
+description: "Vous pouvez créer des prévisions de vente et de production à l'aide de la page **Prévision demande**."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d0f4d314a33c86d169d6e2dae0b859b879702e5d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b7937bf83074dcbe9cd2bf501d4a5f67c1712511
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-a-demand-forecast"></a>Créer une prévision de la demande
-Vous pouvez créer des prévisions de vente et de production à l'aide de la fenêtre **Prévision demande**.  
+Vous pouvez créer des prévisions de vente et de production à l'aide de la page **Prévision demande**.  
 
 La fonctionnalité de prévision permet de créer une demande anticipée ; la demande réelle est créée à partir de commandes vente et fabrication. Lors de la génération de la planification de production principale (PDP), la prévision est ajustée par rapport aux commandes vente et fabrication. L'option *Composant* sur la prévision détermine le type d'exigences à prendre en considération dans le processus d'ajustement. Si la prévision a trait à un article vente, seules les commandes vente ajustent la prévision. Si elle concerne les composants, seule la demande dépendante des composants O.F. ajuste la prévision.  
 
@@ -34,7 +34,7 @@ La fonctionnalité de prévision du programme permet de générer des prévision
 
 Dès lors, le plus souvent, le gestionnaire de production modifie la prévision de vente pour l'adapter aux conditions de production, tout en satisfaisant à la prévision de vente.  
 
-Vous créez des prévisions manuellement dans la fenêtre **Prévision demande**. Plusieurs prévisions peuvent exister dans le système, qui se différencient par leur nom et leur type. Vous pouvez copier et modifier les prévisions si nécessaire. Notez qu'il ne peut y avoir qu'une seule prévision valide à la fois en relation avec le planning.  
+Vous créez des prévisions manuellement sur la page **Prévision demande**. Plusieurs prévisions peuvent exister dans le système, qui se différencient par leur nom et leur type. Vous pouvez copier et modifier les prévisions si nécessaire. Notez qu'il ne peut y avoir qu'une seule prévision valide à la fois en relation avec le planning.  
 
 La prévision consiste en un certain nombre d'enregistrements indiquant un numéro d'article, une date prévision et une quantité prévision. La prévision d'un article couvre une période qui est définie par la date prévision et la date prévision de l'enregistrement prévision suivant. Du point de vue du planning, la quantité prévue doit être disponible au début de la période de demande.  
 
@@ -46,7 +46,7 @@ La prévision composant peut être considérée comme une prévision d'option en
 Comme la prévision composant sert à définir des options pour un article parent, la valeur de prévision composant doit être inférieure ou égale à la quantité de vente d'article prévue. Si la valeur de prévision composant est supérieure à la prévision de vente d'article, le système traite la différence entre ces deux types de prévision comme une demande indépendante.  
 
 ## <a name="forecasting-periods"></a>Périodes de prévision  
- La période de prévision est valide de la date début jusqu'à la date de début de la prévision suivante. La fenêtre d'intervalle de temps offre plusieurs choix pour insérer la demande à une date spécifique dans une période. Il est donc recommandé de ne pas modifier l'étendue de la période de prévision à moins de déplacer toutes les écritures de prévision à la date début de cette période.  
+ La période de prévision est valide de la date début jusqu'à la date de début de la prévision suivante. La page d'intervalle de temps offre plusieurs choix pour insérer la demande à une date spécifique dans une période. Il est donc recommandé de ne pas modifier l'étendue de la période de prévision à moins de déplacer toutes les écritures de prévision à la date début de cette période.  
 
 ## <a name="forecast-by-locations"></a>Prévision par magasin  
 Vous pouvez indiquer dans les paramètres production si vous souhaitez filtrer les prévisions en fonction du magasin lors du calcul d'une planification. Notez cependant que si les prévisions basées sur le magasin sont consultées isolément, il se peut que la prévision globale ne soit pas représentative.
@@ -64,10 +64,10 @@ Vous pouvez indiquer dans les paramètres production si vous souhaitez filtrer l
     > [!NOTE]  
     >  Vous devez choisir l'intervalle de temps que vous voulez utiliser pour les prévisions futures de façon à ce qu'il soit toujours cohérent. Lorsque vous entrez une quantité prévision, elle vaut dès le premier jour de l'intervalle de temps que vous sélectionnez. Par exemple, si vous sélectionnez un mois, vous devez entrer la quantité prévision au premier jour du mois. Si vous sélectionnez un trimestre, vous devez entrer la quantité prévision au premier jour du premier mois du trimestre.  
 
-8.  Dans le champ **Afficher en tant que**, sélectionnez la manière dont seront affichées les quantités prévision pour l'intervalle de temps. Si vous sélectionnez **Solde période**, le solde période est affiché pour l'intervalle de temps. Si vous sélectionnez **Solde au**, la fenêtre affiche le solde au dernier jour de l'intervalle de temps.  
+8.  Dans le champ **Afficher en tant que**, sélectionnez la manière dont seront affichées les quantités prévision pour l'intervalle de temps. Si vous sélectionnez **Solde période**, le solde période est affiché pour l'intervalle de temps. Si vous sélectionnez **Solde au**, la page affiche le solde au dernier jour de l'intervalle de temps.  
 
 > [!NOTE]  
->  Vous pouvez également modifier une prévision existante. Dans la fenêtre **Matrice Prévision demande**, choisissez l'action **Copier prévision demande** et renseignez la fenêtre **Prévision demande** à l'aide de la prévision existante. Vous pouvez alors modifier les quantités en fonction des besoins.  
+>  Vous pouvez également modifier une prévision existante. Sur la page **Matrice Prévision demande**, choisissez l'action **Copier prévision demande** et renseignez la page **Prévision demande** à l'aide de la prévision existante. Vous pouvez alors modifier les quantités en fonction des besoins.  
 
 ## <a name="see-also"></a>Voir aussi  
 [Paramétrage de la production](production-configure-production-processes.md)  

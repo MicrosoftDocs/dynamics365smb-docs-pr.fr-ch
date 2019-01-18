@@ -13,10 +13,10 @@ ms.search.keywords: VAT, sales, purchases,
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0abbc8f6d7aa80a7a89296568d9a4ecb0ead0f5f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9d6f3cf74582283e633d9c3347def5289aeb8f88
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Utiliser la TVA sur les ventes et les achats
@@ -39,7 +39,7 @@ Si le champ n'est pas sélectionné, le programme renseigne les champs **Prix un
 
 Vous pouvez configurer les paramètres par défaut de **Prix TTC** pour tous les documents vente relatifs à un client dans le champ **Prix TTC** sur la fiche **Client**. Vous pouvez également configurer des prix article pour inclure ou exclure la TVA. Normalement, les prix article contenus dans la fiche article sont les prix hors TVA. Le programme utilise les informations du champ **Prix TTC** de la fiche **Article** pour déterminer le prix unitaire pour les documents vente.  
 
-Le tableau suivant montre comment le programme calcule les montants de prix unitaire pour un document vente lorsque vous n'avez pas configuré de prix dans la fenêtre **Prix vente** :  
+Le tableau suivant montre comment le programme calcule les montants de prix unitaire pour un document vente lorsque vous n'avez pas configuré de prix sur la page **Prix vente** :  
 
 |**Le prix inclut le champ TVA sur la fiche client.**|**Prix incluant le champ TVA dans l'en-tête vente**|**Action exécutée**|  
 |-----------------------------------------------|----------------------------------------------------|--------------------------|  
@@ -56,8 +56,8 @@ Bien que vous ayez configuré une ou plusieurs combinaisons pour traiter la TVA 
 Si un escompte a été calculé sur la base d'un montant facture TTC, vous remboursez la partie escompte du montant TVA lorsque l'escompte est accordé. Remarque : vous devez activer le champ **Ajustement des escomptes** à la fois dans les paramètres comptabilité (en général) et dans les paramètres comptabilisation TVA, pour des combinaisons particulières de groupes comptabilisation marché TVA et de groupes comptabilisation produit TVA.  
 
 #### <a name="to-manually-enter-vat-in-sales-documents"></a>Pour entrer la TVA manuellement dans des documents vente  
-1. dans la fenêtre **Paramètres comptabilité**, spécifier une **Différence TVA max. autorisée** entre le montant calculé par le programme et le montant calculé manuellement.  
-2. Dans la fenêtre **Paramètres ventes**, activez le champ **Autoriser différence TVA**.  
+1. Dans la page **Paramètres comptabilité**, spécifiez une **Différence TVA max. autorisée** entre le montant calculé par le programme et le montant calculé manuellement.  
+2. Dans la page **Paramètres ventes**, activez le champ **Autoriser différence TVA**.  
 
 #### <a name="to-adjust-vat-for-a-sales-document"></a>Pour ajuster la TVA pour un document vente  
 1. Ouvrez la commande vente appropriée.  
@@ -71,11 +71,11 @@ Si un escompte a été calculé sur la base d'un montant facture TTC, vous rembo
 Vous pouvez également ajuster les montants TVA dans les feuilles comptabilité, vente et achat. Par exemple, vous devrez peut-être le faire lorsque vous entrez une facture fournisseur dans votre feuille et qu'il y a une différence entre le montant de TVA calculé par [!INCLUDE[d365fin](includes/d365fin_md.md)] et le montant de TVA figurant sur la facture que vous avez reçue du fournisseur.  
 
 #### <a name="before-you-manually-enter-vat-on-a-general-journal"></a>Avant de saisir manuellement la TVA dans une feuille de comptabilité  
-1. dans la fenêtre **Paramètres comptabilité**, spécifier une **Différence TVA max. autorisée** entre le montant calculé par le programme et le montant calculé manuellement.  
-2. Dans la fenêtre **Modèles feuille comptabilité**, activez la case à cocher **Autoriser différence TVA** pour la feuille appropriée.  
+1. Dans la page **Paramètres comptabilité**, spécifiez une **Différence TVA max. autorisée** entre le montant calculé par le programme et le montant calculé manuellement.  
+2. Sur la page **Modèles feuille comptabilité**, activez la case à cocher **Autoriser différence TVA** pour la feuille appropriée.  
 
 #### <a name="before-you-manually-enter-vat-on-sales-and-purchase-journals"></a>Avant d'entrer manuellement la TVA dans les feuilles vente et achat  
-1. Dans la fenêtre **Paramètres achats**, activez la case à cocher **Autoriser différence TVA**.  
+1. Sur la page **Paramètres achats**, activez la case à cocher **Autoriser différence TVA**.  
 2. Après avoir effectué la configuration décrite ci-avant, vous pouvez ajuster la valeur du champ **Montant TVA** de la ligne feuille comptabilité ou du champ **Montant TVA contrepartie** de la ligne feuille achat ou vente. [!INCLUDE[d365fin](includes/d365fin_md.md)] vérifie que la différence n'est pas supérieure à la valeur maximale spécifiée.  
   
     > [!NOTE]  
@@ -117,7 +117,7 @@ Lorsque vous vendez des biens à un client dans un autre pays/une autre région 
    Lorsque vous mettez à jour le champ **Statut** sur **Requis**, **Reçu** ou **Non reçu**, un certificat est créé.  
   
     > [!TIP]  
-    >  Vous pouvez utiliser la fenêtre **Certificats d'approvisionnement** pour obtenir une vue du statut de toutes les expéditions validées pour lesquelles un certificat d'approvisionnement a été créé.  
+    >  Vous pouvez utiliser la page **Certificats d'approvisionnement** pour obtenir une vue du statut de toutes les expéditions validées pour lesquelles un certificat d'approvisionnement a été créé.  
 
 5. Sélectionnez **Imprimer le certificat d'approvisionnement**.  
   
@@ -130,15 +130,15 @@ Lorsque vous vendez des biens à un client dans un autre pays/une autre région 
 3. Sélectionnez l'action **Imprimer le certificat d'approvisionnement**.  
 
     > [!NOTE]  
-    >  Sinon, vous pouvez imprimer un certificat à partir de la fenêtre **Certificat d'approvisionnement**.  
+    >  Sinon, vous pouvez imprimer un certificat à partir de la page **Certificat d'approvisionnement**.  
 
 4. Pour inclure des informations des lignes dans le document expédition sur le certificat d'approvisionnement, sélectionnez la case à cocher **Imprimer détails de ligne**.  
 5. Activez la case à cocher **Créer des certificats d'approvisionnement s'ils n'ont pas encore été créés** pour que [!INCLUDE[d365fin](includes/d365fin_md.md)] crée des certificats pour les expéditions validées qui n'en ont pas au moment de l'exécution. Lorsque vous activez la case à cocher, de nouveaux certificats sont créés pour toutes les expéditions validées qui n'ont pas de certificats compris dans la plage sélectionnée.  
 6. Par défaut, les paramètres de filtrage concernent le document d'expédition que vous avez sélectionné. Renseignez les informations de filtre pour sélectionner un certificat d'approvisionnement spécifique à imprimer.  
-7. Dans la fenêtre **Certificat d'approvisionnement**, sélectionnez l'action **Imprimer** pour imprimer l'état ou l'action **Aperçu** pour l'afficher à l'écran.  
+7. Dans la page **Certificat d'approvisionnement**, sélectionnez l'action **Imprimer** pour imprimer l'état ou l'action **Aperçu** pour l'afficher à l'écran.  
 
     > [!Note]  
-    > Le champ **Statut Certificat d'approvisionnement** et le champ **Imprimé** sont mis à jour pour la livraison dans la fenêtre **Certificats d'approvisionnement**.  
+    > Le champ **Statut Certificat d'approvisionnement** et le champ **Imprimé** sont mis à jour pour la livraison sur la page **Certificats d'approvisionnement**.  
 
 8. Envoyez le certificat d'approvisionnement imprimé au client pour signature.  
 
@@ -153,7 +153,7 @@ Lorsque vous vendez des biens à un client dans un autre pays/une autre région 
 
    Si le client ne retourne pas le certificat d'approvisionnement signé, choisissez **Non reçu**. Vous devez envoyer au client une nouvelle facture qui inclut la TVA, parce que la facture initiale ne sera pas acceptée par l'administration fiscale.  
 
-Pour afficher un groupe de certificats, vous commencez à partir de la fenêtre **Certificats d'approvisionnement**, puis mettez à jour les informations concernant le statut des certificats en attente à mesure que vous les recevez de la part de vos clients. Ceci peut être utile si vous souhaitez rechercher tous les certificats ayant un certain statut, par exemple, **Requis**, si vous souhaitez mettre à jour leur statut en **Non reçu**.  
+Pour afficher un groupe de certificats, vous commencez à partir de la page **Certificats d'approvisionnement**, puis mettez à jour les informations concernant le statut des certificats en attente à mesure que vous les recevez de la part de vos clients. Ceci peut être utile si vous souhaitez rechercher tous les certificats ayant un certain statut, par exemple, **Requis**, si vous souhaitez mettre à jour leur statut en **Non reçu**.  
 
 ### <a name="to-update-the-status-of-a-group-of-certificates-of-supply"></a>Pour mettre à jour le statut d'un groupe de certificats d'approvisionnement  
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Certificats d'approvisionnement**, puis sélectionnez le lien associé.  
@@ -166,7 +166,7 @@ Pour afficher un groupe de certificats, vous commencez à partir de la fenêtre 
    Vous pouvez modifier la date pour tenir compte de la date à laquelle vous avez reçu le certificat d'approvisionnement signé. Vous pouvez également ajouter un lien vers le certificat signé à l'aide des liaisons de document standard de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
     > [!NOTE]  
-    >  Vous ne pouvez pas créer un nouveau certificat d'approvisionnement dans la fenêtre **Certificat d'approvisionnement** lorsque vous y accédez à l'aide de cette procédure. Pour créer un certificat pour une expédition qui n'a pas été configurée pour en exiger, ouvrez l'expédition vente validée et utilisez l'une des deux procédures décrites ci-dessus :  
+    >  Vous ne pouvez pas créer un nouveau certificat d'approvisionnement sur la page **Certificat d'approvisionnement** lorsque vous y accédez à l'aide de cette procédure. Pour créer un certificat pour une expédition qui n'a pas été configurée pour en exiger, ouvrez l'expédition vente validée et utilisez l'une des deux procédures décrites ci-dessus :  
     >   
     > * Pour créer manuellement un certificat d'approvisionnement.  
     > * Pour imprimer un certificat d'approvisionnement.

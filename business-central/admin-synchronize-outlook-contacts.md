@@ -11,10 +11,10 @@ ms.search.keywords: contacts, Office 365
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: fa6779ee8fb2bbb453014e32cb7f3cf8dcfa18da
-ms.openlocfilehash: b535255be4b751744ae8c459bdc3d87cd1271dee
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5e4bd35edea680c46cb0df753b50916b1aeb93be
 ms.contentlocale: fr-ch
-ms.lasthandoff: 04/11/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook"></a>Synchroniser les contacts de Business Central avec les contacts de Microsoft Outlook
@@ -23,9 +23,9 @@ Vous pouvez voir les mêmes contacts dans [!INCLUDE[d365fin](includes/d365fin_md
 Un dossier dédié dans Outlook facilite la recherche des contacts, et vous pouvez définir un filtre pour synchroniser uniquement les contacts de [!INCLUDE[d365fin](includes/d365fin_md.md)] que vous souhaitez voir dans Outlook. Une fois que la synchronisation des contacts est configurée, vous pouvez démarrer manuellement la synchronisation ou configurer la synchronisation automatique des contacts à des intervalles planifiés.  
 
 ## <a name="set-up-synchronization"></a>Configurer la synchronisation
-Vous configurez le mode de synchronisation des contacts avec Outlook dans la fenêtre **Configuration de la synchronisation Exchange** de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Au préalable, votre profil utilisateur dans [!INCLUDE[d365fin](includes/d365fin_md.md)] doit spécifier votre compte de messagerie Office 365. Vous pouvez le vérifier dans la section **Office 365 Authentification** de votre profil utilisateur dans la liste **Utilisateurs**.  
+Vous configurez le mode de synchronisation des contacts avec Outlook sur la page **Configuration de la synchronisation Exchange** de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Au préalable, votre profil utilisateur dans [!INCLUDE[d365fin](includes/d365fin_md.md)] doit spécifier votre compte de messagerie Office 365. Vous pouvez le vérifier dans la section **Office 365 Authentification** de votre profil utilisateur dans la liste **Utilisateurs**.  
 
-Ensuite, dans la fenêtre **Configuration de la synchronisation Exchange**, vous pouvez valider que la connexion à Exchange fonctionne avant de configurer la synchronisation des contacts. Ouvrez la fenêtre **Paramètres synch. contacts** et démarrez la synchronisation. Appliquez éventuellement un filtre pour définir les contacts à synchroniser entre [!INCLUDE[d365fin](includes/d365fin_md.md)] et Outlook. Par exemple, vous pouvez définir un filtre par nom, type, société ou autre. Vous pouvez également modifier le nom par défaut du dossier avec lequel les contacts seront synchronisés dans Outlook. Le nom par défaut est *Business Central*.  
+Ensuite, sur la page **Configuration de la synchronisation Exchange**, vous pouvez valider que la connexion à Exchange fonctionne avant de configurer la synchronisation des contacts. Ouvrez la page **Paramètres synch. contacts** et démarrez la synchronisation. Appliquez éventuellement un filtre pour définir les contacts à synchroniser entre [!INCLUDE[d365fin](includes/d365fin_md.md)] et Outlook. Par exemple, vous pouvez définir un filtre par nom, type, société ou autre. Vous pouvez également modifier le nom par défaut du dossier avec lequel les contacts seront synchronisés dans Outlook. Le nom par défaut est *Business Central*.  
 
 Une fois que cette synchronisation a été configurée, les modifications apportées au contact dans Outlook ou dans [!INCLUDE[d365fin](includes/d365fin_md.md)] sont synchronisées avec l'autre.  
 

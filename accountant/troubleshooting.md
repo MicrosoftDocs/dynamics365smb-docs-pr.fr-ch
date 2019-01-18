@@ -11,10 +11,10 @@ ms.search.keywords: accountant, accounting, troubleshoot
 ms.date: 10/23/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
-ms.openlocfilehash: e4f739e13123054527bf3116aec2c8c4133537e6
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0ebd99e9097e4c701038f3b8be7a07d1e80a4b31
 ms.contentlocale: fr-ch
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="troubleshooting-include-d365acclongincludesd365acclongmdmd"></a>Dépannage de [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
@@ -44,7 +44,7 @@ Il peut y avoir quelques raisons à cela, notamment :
   Votre client peut avoir plusieurs centres de profit ou plusieurs sociétés dans [!INCLUDE [d365fin](includes/d365fin_md.md)], et votre invitation n'inclut pas toujours toutes les sociétés. Communiquez avec votre client pour vous assurer que vous avez accès aux sociétés dans lesquelles le client souhaite que vous travailliez.  
 
 ## <a name="why-doesnt-the-data-refresh-in-my-dashboard"></a>Pourquoi les données ne s'actualisent-elles pas sur mon tableau de bord ?
-Lorsque vous ajoutez un client ou que vous demandez une actualisation des données, [!INCLUDE [d365acc](includes/d365acc_md.md)] récupère les données. Mais vous devez actualiser la fenêtre vous-même, par exemple en choisissant l'action « Afficher à nouveau toutes les sociétés », actualisez la fenêtre du navigateur, quittez le tableau de bord puis retournez-y, ou similaire. C'est un problème connu auquel nous travaillons pour l'améliorer dans une mise à jour ultérieure.  
+Lorsque vous ajoutez un client ou que vous demandez une actualisation des données, [!INCLUDE [d365acc](includes/d365acc_md.md)] récupère les données. Mais vous devez actualiser la page vous-même, par exemple en choisissant l'action « Afficher à nouveau toutes les sociétés », actualisez la page du navigateur, quittez le tableau de bord puis retournez-y, ou similaire. C'est un problème connu auquel nous travaillons pour l'améliorer dans une mise à jour ultérieure.  
 
 ## <a name="see-also"></a>Voir aussi
 [Mise en route avec [!INCLUDE[d365acc](includes/d365acc_md.md)]](get-started.md)  

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/01/2018
+ms.date: 10/16/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8e63e507411f41c67caa94834f4d99861bd1ae77
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 854cadb176bc79a8506ccff3c13a1e579eb43e85
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Préparer la génération d'états financiers avec des tableaux d'analyse et des catégories de compte
@@ -26,35 +26,59 @@ Vous accédez à ces deux états, par exemple, avec l'action **Relevés financie
 
 La configuration de tableaux d'analyse exige une compréhension des données financières du plan comptable. Par exemple, vous pouvez afficher les écritures comptables en tant que pourcentages des écritures budget. Cela suppose que les budgets sont créés. Pour plus d'informations, voir [Créer des budgets comptabilité](finance-how-create-budgets.md).
 
-## <a name="account-categories-and-account-schedules"></a>Catégories de compte et tableaux d'analyse
-Vous pouvez utiliser les catégories de compte pour modifier la présentation de vos états financiers. Une fois que vous avez configuré vos catégories de compte dans la fenêtre **Catégories de compte général**, et que vous sélectionnez l'action **Générer les tableaux d'analyse**, les tableaux d'analyse sous-jacents pour les états financiers de base sont mis à jour. La prochaine fois que vous exécuterez l'un de ces états, par exemple l'état Relevé de solde, de nouveaux totaux et des sous-entrées seront ajoutés, en fonction de vos modifications. Pour plus d'informations, consultez la section « Catégories de compte » dans [Description des écritures comptables et du plan comptable](finance-general-ledger.md).  
+## <a name="account-schedules"></a>Tableaux d'analyse
+Les tableaux d'analyse permettent de réorganiser des comptes répertoriés dans le plan comptable de manière à présenter des informations sur ces comptes. Vous pouvez configurer différentes présentations pour définir les informations que vous souhaitez extraire du plan comptable. L'une des fonctions principales des tableaux d'analyse est de fournir un emplacement pour les calculs ne pouvant être effectués directement dans le plan comptable, tels que la création de sous-totaux pour les groupes de comptes, qui peuvent être inclus dans de nouveaux totaux, puis utilisé dans d'autres totaux. Par exemple, les utilisateurs peuvent créer des tableaux d'analyse pour calculer les marges bénéficiaires dans des axes tels que les départements ou les groupes client. De plus, les écritures comptables et les écritures comptables budget peuvent être filtrées, par exemple, par solde période ou par montant débit.
 
-## <a name="to-create-new-account-schedules"></a>Pour créer de nouveaux tableaux d'analyse  
- Vous pouvez utiliser des tableaux d'analyse pour analyser les chiffres des comptes généraux ou pour comparer les écritures comptables et les écritures comptables budget. Par exemple, vous pouvez afficher les écritures comptables en tant que pourcentages des écritures budget.
+Vous pouvez également comparer deux ou plusieurs tableaux d'analyse et présentations colonne à l'aide de formules. Ce type de comparaison permet de :
+
+* créer des états financiers personnalisé ;
+* créer autant de tableaux d'analyse que nécessaire, chacun étant doté d'un nom unique ;
+* configurer différentes présentations d'états et imprimer les états avec les chiffre actuels.
+
+## <a name="account-categories"></a>Catégories de compte
+Vous pouvez utiliser les catégories de compte pour modifier la présentation de vos états financiers. Une fois que vous avez configuré vos catégories de compte sur la page **Catégories de compte général**, et que vous sélectionnez l'action **Générer les tableaux d'analyse**, les tableaux d'analyse sous-jacents pour les états financiers de base sont mis à jour. La prochaine fois que vous exécuterez l'un de ces états, par exemple l'état Relevé de solde, de nouveaux totaux et des sous-entrées seront ajoutés, en fonction de vos modifications. Pour plus d'informations, consultez la section « Catégories de compte » dans [Description des écritures comptables et du plan comptable](finance-general-ledger.md).  
+
+## <a name="to-create-a-new-account-schedule"></a>Pour créer un tableau d'analyse  
+Vous pouvez utiliser des tableaux d'analyse pour analyser les chiffres des comptes généraux ou pour comparer les écritures comptables et les écritures comptables budget. Par exemple, vous pouvez afficher les écritures comptables en tant que pourcentages des écritures budget.
+
+Les tableaux d'analyse dans la version standard de [!INCLUDE[d365fin](includes/d365fin_md.md)] sont la base des états financiers standard, qui ne sont peut-être pas adaptés aux besoins de votre entreprise. Pour créer rapidement vos propres états financiers, vous pouvez commencer par copier un tableau d'analyse existant. Reportez-vous à l'étape 3 ci-dessous.
+
+La page **Aperçu tableau d'analyse** vous permet de consulter l'état financier défini par le tableau d'analyse. Dans l'exemple suivant, il est important de comprendre que ce que vous créez en tant que lignes et colonnes de tableau d'analyse peut uniquement être vu et validé sur la page **Aperçu tableau d'analyse**, que vous ouvrez à partir d'un tableau d'analyse en choisissant l'action **Aperçu**. La page **Tableau d'analyse** elle-même est uniquement une zone de configuration.  
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Tableaux d'analyse**, puis sélectionnez le lien associé.  
-2. Dans la fenêtre **Noms tableaux d'analyse**, choisissez **Nouveau** pour créer un nom pour le tableau d'analyse.
-3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Choisissez l'action **Modifier tableau d'analyse**.
-5. Dans la fenêtre **Tableau d'analyse**, renseignez les champs requis.  
+2. Sur la page **Tableaux d'analyse**, choisissez **Nouveau** pour créer un nom pour le tableau d'analyse.
+3. Sinon, choisissez l'action **Copier le tableau d'analyse**, renseignez les deux champs, puis cliquez sur le bouton **OK**.
+4. Renseignez les champs selon vos besoins. Dans le champ **Présentation colonne par déf.** sélectionnez une présentation existante. Vous pouvez la modifier ultérieurement au besoin.
 
-    Une fois que vous avez créé un tableau d'analyse et configuré ses lignes, vous devez configurer ses colonnes. Vous pouvez le faire manuellement ou utiliser une présentation colonne prédéfinie.
-6. Choisissez l'action **Modifier paramètres présentation colonne**.
-7. Dans la fenêtre **Présentation colonne**, renseignez les champs requis.
+    Vous utilisez les présentations de colonne pour définir des colonnes pour divers paramètres par lesquels les données financières dans les lignes sont affichées. Par exemple, vous pouvez créer une présentation de colonne de manière à comparer le solde période et le solde pour une même période de l'exercice actuel et du précédent, avec quatre colonnes. Pour plus d'informations, voir la section « Pour modifier une présentation de colonne ».
 
-> [!NOTE]  
-> Si vous n'avez affecté aucune présentation colonne par défaut au tableau d'analyse, vous devez configurer les colonnes manuellement.
+5. Choisissez l'action **Modifier tableau d'analyse**.
+6. Créez une ligne pour chaque élément financier que vous souhaitez voir apparaître dans l'état, par exemple une ligne pour des actifs à court terme et une autre pour les immobilisations. Pour obtenir de l'inspiration, visualisez les tableaux d'analyse existants de la société de démonstration CRONUS.
+7. Choisissez l'action **Aperçu** pour visualiser l'état financier qui en résulte.
+8. Sur la page **Aperçu tableau d'analyse**, dans le champ **Nom présentation colonne**, sélectionnez une autre présentation de colonne pour afficher les données financières selon d'autres paramètres.
+9. Choisissez le bouton **OK**.
 
-### <a name="to-copy-an-existing-account-schedule"></a>Pour copier un tableau d'analyse existant
-Les tableaux d'analyse dans la version standard de [!INCLUDE[d365fin](includes/d365fin_md.md)] sont la base des états financiers standard, qui ne sont peut-être pas adaptés aux besoins de votre entreprise. Pour créer rapidement vos propres états financiers, vous pouvez commencer par copier un tableau d'analyse existant.
-1. Dans la fenêtre **Tableaux d'analyse**, sélectionnez un tableau d'analyse, puis choisissez l'action **Copier le tableau d'analyse**.
-2. Dans la fenêtre **Copier le tableau d'analyse**, renseignez les champs selon vos besoins, puis cliquez sur le bouton **OK**.
+Vous avez désormais défini la base du tableau d'analyse, les lignes de données financières à afficher, et une présentation existante de colonnes pour afficher les données sur les lignes selon divers paramètres. Si la présentation de colonne par défaut que vous avez sélectionnée dans l'étape 4 ne convient pas à votre objectif, suivez la procédure suivante.
+
+### <a name="to-edit-a-column-layout"></a>Pour modifier une présentation de colonne
+Les présentations de colonne vous permettent de définir les colonnes devant être incluses dans l'état résultant. Par exemple, vous pouvez créer une présentation de manière à comparer le solde période et le solde pour une même période de l'exercice actuel et du précédent.
+
+> [!NOTE]
+> Une version imprimée/aperçu/enregistrée du tableau d'analyse peut afficher un maximum de cinq colonnes. Si le tableau d'analyse est uniquement destiné pour l'analyse de la page **Aperçu tableau d'analyse**, vous pouvez créer autant de colonnes que vous le souhaitez.
+
+1. Sur la page **Tableaux d'analyse**, sélectionnez le tableau d'analyse approprié, puis cliquez sur l'action **Modifier paramètres présentation colonne**.
+2. Sur la page **Présentations colonne**, créez une ligne pour chaque colonne en fonction de laquelle les données financières sont affichées dans l'état financier. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Choisissez le bouton **OK**.
+4. Ouvrez la page **Aperçu tableau d'analyse** de temps en temps pour vérifier que la nouvelle présentation de colonne fonctionne comme prévu.
+
+> [!NOTE]
+> Les colonnes que vous définissez sur chaque ligne représentent les colonnes 3 et supérieures de la page **Aperçu tableau d'analyse**. Les deux premières colonnes, **N° ligne** et **Description**, sont fixes.  
 
 ### <a name="to-create-a-column-that-calculates-percentages"></a>Pour créer une colonne qui calcule des pourcentages  
 Il se peut que vous vouliez inclure une colonne dans un tableau d'analyse pour calculer des pourcentages d'un total. Par exemple, si vous avez plusieurs lignes qui ventilent des ventes par dimension, vous pouvez juger utile de disposer d'une colonne indiquant le pourcentage des ventes totales que représente chaque ligne.
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Tableaux d'analyse**, puis sélectionnez le lien associé.
-2. Dans la fenêtre **Noms tableaux d'analyse**, sélectionnez le tableau d'analyse.  
+2. Sur la page **Noms tableaux d'analyse**, sélectionnez le tableau d'analyse.  
 3. Choisissez l'action **Modifier tableau d'analyse** pour configurer une ligne de tableau d'analyse et calculer le total sur lequel le pourcentage sera basé.  
 4. Insérez une ligne juste au-dessus de la première ligne pour laquelle vous voulez afficher un pourcentage.  
 5. Renseignez les champs de la ligne comme suit : dans le champ **Type totalisation**, entrez **Base de pourcentage**. Dans le champ **Totalisation**, saisissez une formule pour le total sur lequel le pourcentage sera basé. Par exemple, si la ligne 11 contient le total des ventes, saisissez **11**.  
@@ -66,15 +90,15 @@ Il se peut que vous vouliez inclure une colonne dans un tableau d'analyse pour c
 Vous pouvez utiliser un tableau d'analyse pour créer un état comparant les chiffres de la comptabilité et les chiffres budgétés.
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Tableaux d'analyse**, puis sélectionnez le lien associé.
-2. Dans la fenêtre **Noms tableaux d'analyse**, sélectionnez le tableau d'analyse.  
+2. Sur la page **Noms tableaux d'analyse**, sélectionnez le tableau d'analyse.  
 3. Choisissez l'action **Modifier tableau d'analyse**  
-4. Dans la fenêtre **Tableau d'analyse**, sélectionnez le nom du tableau d'analyse souhaité dans le champ **Nom**.
+4. Sur la page **Tableau d'analyse**, sélectionnez le nom du tableau d'analyse souhaité dans le champ **Nom**.
 5. Choisissez l'option **Insérer comptes**.  
 6. Sélectionnez les comptes à inclure dans votre relevé, puis cliquez sur le bouton **OK**.
 
     Ces comptes sont à présent insérés dans le tableau d'analyse. Si vous le souhaitez, vous pouvez aussi modifier la présentation colonne.  
 7. Sélectionnez l'action **Présentation**.  
-8. Sur le raccourci **Filtres axe**, définissez le filtre budget sur le nom du filtre désiré.  
+8. Sur la page **Aperçu tableau d'analyse**, sur le raccourci **Filtres axe**, définissez le filtre budget sur le nom du filtre désiré.  
 9. Cliquez sur le bouton **OK**.  
 
 Vous pouvez maintenant copier et coller votre budget dans un classeur.  
@@ -85,7 +109,6 @@ Votre tableau d'analyse peut comparer les résultats de différentes périodes c
 Une période comptable ne doit pas correspondre au calendrier, mais chaque exercice doit avoir le même nombre de périodes comptables, même si chaque période peut varier.   
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] utilise la formule de période pour calculer le montant de la période de comparaison en fonction de la période représentée dans le filtre date du formulaire de sélection de l'état. La période de comparaison est basée sur la période de la date de début du filtre de date. Les abréviations utilisées pour les spécifications de période sont les suivantes :
-
 
 <table>
 <colgroup>

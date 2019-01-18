@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 75f0fd760978b0efc4ab86b8d17a815280a09799
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: b5dba16cae1e767c867544cfae21e12ac7d0f933
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="service-posting"></a>Validation de service
@@ -23,7 +23,7 @@ La fonctionnalité de validation de service vous permet de traiter vos documents
 > [!NOTE]  
 >  La section suivante décrit la validation de service indépendamment de la façon dont les articles sont gérés physiquement dans l'entrepôt.  
 >   
->  Dans un magasin qui n'est pas configuré pour appeler une gestion d'entrepôt, vous effectuez des actions de validation directement dans la fenêtre **Lignes service**. Dans les magasins qui impliquent une gestion d'entrepôt, les actions de validation décrites, à l'exception des actions Expédier et Consommer, sont effectuées indirectement au moyen de différentes fonctions d'expédition de l'entrepôt, selon la configuration. Pour plus d'informations, voir [Prélever des articles avec les prélèvements stock](warehouse-how-to-pick-items-with-inventory-picks.md).  
+>  Dans un magasin qui n'est pas configuré pour appeler une gestion d'entrepôt, vous effectuez des actions de validation directement sur la page **Lignes service**. Dans les magasins qui impliquent une gestion d'entrepôt, les actions de validation décrites, à l'exception des actions Expédier et Consommer, sont effectuées indirectement au moyen de différentes fonctions d'expédition de l'entrepôt, selon la configuration. Pour plus d'informations, voir [Prélever des articles avec les prélèvements stock](warehouse-how-to-pick-items-with-inventory-picks.md).  
 
 ## <a name="ship"></a>Expédition  
 La fonction Expédition vous permet d'enregistrer les articles et le temps appropriés entrés dans les lignes d'une commande service après que vous ayez exécuté le service. Une expédition enregistrée est crée et des mises à jour interviennent dans le module Stock, ainsi que d'autres modules dans [!INCLUDE[d365fin](includes/d365fin_md.md)] afin d'indiquer que les articles ont été prélevés sur le stock et envoyés au client. Plus particulièrement, des écritures comptables article, des écritures comptables valeur, des écritures comptables service sont générés ainsi que des écritures comptables garantie.  
@@ -42,10 +42,10 @@ L'option expédier et consommer vous permet d'enregistrer et de valider des arti
 > [!NOTE]  
 >  La procédure de validation de service vous permet d'effectuer une validation partielle. Vous pouvez créer une expédition ou une facture partielle en renseignant les champs **Qté à expédier** et **Qté à facturer** sur des lignes service de commandes de service avant la validation. Notez que vous ne pouvez pas créer de facture pour quelque chose qui n'a pas été expédié. Cela signifie que, avant de pouvoir facturer, vous devez avoir enregistré une expédition ou choisir d'expédier et de facturer en même temps.  
 
-Une fois la validation terminée, vous pouvez visualiser les documents service validés depuis les fenêtres correspondantes (**Expédition service enreg.** et **Facture service enreg.**). Vous pouvez visualiser les écritures validées créées dans diverses fenêtres contenant des écritures validées (**Écritures comptables**, **Écritures comptables article**, **Écritures entrepôt**, **Écritures comptables service**, **Écritures comptables projet**, **Écritures comptables garantie**, etc.).  
+Une fois la validation terminée, vous pouvez visualiser les documents service validés depuis les pages correspondantes (**Expédition service enreg.** et **Facture service enreg.**). Vous pouvez visualiser les écritures validées créées sur diverses pages contenant des écritures validées (**Écritures comptables**, **Écritures comptables article**, **Écritures entrepôt**, **Écritures comptables service**, **Écritures comptables projet**, **Écritures comptables garantie**, etc.).  
 
 ## <a name="to-view-information-about-a-posted-service-document"></a>Pour visualiser les informations relatives aux documents service validés  
-Lorsque vous validez une facture service, une expédition service ou un avoir service, les informations du document sont transférées respectivement dans les fenêtres **Facture service enreg.**, **Expédition service enreg.**, ou **Avoir service enreg.**. Vous ne pouvez rien entrer, modifier ni supprimer dans ces fenêtres. Vous pouvez imprimer un bon de livraison, une facture, ou un avoir à partir de ces fenêtres.  
+Lorsque vous validez une facture service, une expédition service ou un avoir service, les informations du document sont transférées respectivement sur les pages **Facture service enreg.**, **Expédition service enreg.** ou **Avoir service enreg.** Vous ne pouvez rien entrer, modifier ni supprimer sur ces pages. Vous pouvez imprimer un bon de livraison, une facture ou un avoir à partir de ces pages.  
 
 La procédure suivante utilise un exemple de facture service enregistrée ; cette même procédure est applicable aux expéditions de service et aux avoirs enregistrés.  
 
@@ -53,7 +53,7 @@ La procédure suivante utilise un exemple de facture service enregistrée ; cet
 2. Ouvrez la facture service enregistrée que vous souhaitez afficher.  
 3. Pour obtenir un aperçu de la facture validée, choisissez l'action **Statistiques**.  
 
-    La fenêtre **Statistiques commande service** s'ouvre. La fenêtre affiche des informations telles que la quantité, le montant, la TVA, le coût, la marge, et le crédit autorisé du client pour le document validé.
+    La page **Statistiques commande service** s'ouvre. La page affiche des informations telles que la quantité, le montant, la TVA, le coût, la marge et le crédit autorisé du client pour le document validé.
 
 ## <a name="see-also"></a>Voir aussi  
 [Valider des commandes de service](service-how-to-post-service-orders.md)   

@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f8f5959c25800c1a8d5ee7ed88f4e7a8599ce20a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ace9e09a1f57310e93bb86422c492383690bc04b
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-cost-adjustment"></a>Détails de conception : ajustement des coûts
@@ -71,7 +71,7 @@ Pour plus d'informations, voir [Détails de conception : modes évaluation stoc
 Vous pouvez exécuter l'ajustement des coûts de deux manières :  
 
 * Manuellement, en exécutant le traitement par lots **Ajuster &coûts - Écr. article**. Vous pouvez exécuter ce traitement par lots pour tous les articles ou pour certains articles ou catégories d'article uniquement. Ce traitement par lots effectue un ajustement des coûts pour les articles du stock pour lesquels une transaction entrante a été réalisée, tel qu'un achat. Pour les articles qui utilisent le mode évaluation stock moyen, le traitement par lots effectue également un ajustement si les transactions sortantes sont créées.  
-* Automatiquement, en ajustant les coûts chaque fois que vous validez un mouvement de stock et que vous clôturez un ordre de fabrication. L'ajustement des coûts est effectué uniquement pour l'article ou les articles spécifiques affectés par la validation. Ceci est configuré lorsque vous cochez la case **Ajustement automatique des coûts** dans la fenêtre **Paramètres stock**.  
+* Automatiquement, en ajustant les coûts chaque fois que vous validez un mouvement de stock et que vous clôturez un ordre de fabrication. L'ajustement des coûts est effectué uniquement pour l'article ou les articles spécifiques affectés par la validation. Ceci est configuré lorsque vous cochez la case **Ajustement automatique des coûts** sur la page **Paramètres stock**.  
 
 C'est une bonne pratique d'exécuter l'ajustement des coûts automatiquement lors de la validation car les coûts unitaires sont plus fréquemment mis à jour et donc plus justes. L'inconvénient est que les performances de la base de données peut être affectées en exécutant l'ajustement des coûts si souvent.  
 
@@ -79,7 +79,7 @@ Comme il est important de mettre le coût unitaire d'un article à jour, il est 
 
 Que l'exécution de l'ajustement des coûts soit manuel ou automatique, le processus d'ajustement et ses conséquences sont les mêmes. [!INCLUDE[d365fin](includes/d365fin_md.md)] calcule la valeur de la transaction entrante et affecte également ce coût à toutes les transactions sortantes, telles que les ventes ou les consommations, qui ont été lettrées sur la transaction entrante. L'ajustement des coûts crée des écritures valeur qui contiennent des montants d'ajustement et des montants qui compensent l'arrondi.  
 
-Les nouvelles écritures valeur ajustement et arrondi ont la date comptabilisation de la facture associée. Les exceptions sont si les écritures valeur tombent dans une période comptable ou une période inventaire clôturée ou si la date comptabilisation est antérieure à la date du champ **Début période validation** dans la fenêtre **Paramètres comptabilité**. Si cela se produit, le traitement par lots affecte la date comptabilisation comme la première date de la période ouverte suivante.  
+Les nouvelles écritures valeur ajustement et arrondi ont la date comptabilisation de la facture associée. Les exceptions sont si les écritures valeur tombent dans une période comptable ou une période inventaire clôturée ou si la date comptabilisation est antérieure à la date du champ **Début période validation** sur la page **Paramètres comptabilité**. Si cela se produit, le traitement par lots affecte la date comptabilisation comme la première date de la période ouverte suivante.  
 
 ## <a name="adjust-cost---item-entries-batch-job"></a>Traitement par lots Ajuster coûts - Écr. article  
 Lorsque vous exécutez le traitement par lots **Ajuster &coûts - Écr. article**, vous avez la possibilité d'exécuter le traitement par lots pour tous les articles ou pour certains articles ou catégories uniquement.  
@@ -143,7 +143,7 @@ Ultérieurement, vous validez des frais annexes achat associés de 2,00 DS fact
 |15/01/20|[Compte variation stock]|7 290||2,00|8|  
 
 ## <a name="automatic-cost-adjustment"></a>Ajustement automatique des coûts  
-Pour configurer l'ajustement des coûts à exécuter automatiquement lorsque vous validez une transaction de stock, utilisez le champ **Ajustement automatique des coûts** de la fenêtre **Paramètres stock**. Ce champ vous permet de sélectionner jusqu'où dans le passé vous voulez que l'ajustement automatique des coûts soit effectué. Les options possibles sont les suivantes.  
+Pour configurer l'ajustement des coûts à exécuter automatiquement lorsque vous validez une transaction de stock, utilisez le champ **Ajustement automatique des coûts** sur la page **Paramètres stock**. Ce champ vous permet de sélectionner jusqu'où dans le passé vous voulez que l'ajustement automatique des coûts soit effectué. Les options possibles sont les suivantes.  
 
 |Option|Désignation|  
 |----------------------------------|---------------------------------------|  

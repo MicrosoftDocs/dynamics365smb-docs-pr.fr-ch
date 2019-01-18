@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6ddda815d211440dfd18982bcec5b8ae15aafc4c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: db6b7ce34061ff8cb7c657549ea65afa93976ede
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-delivery-reminder-terms-levels-and-text"></a>Configurer les conditions, niveaux et textes de relance livraison.
@@ -46,7 +46,7 @@ Pour plus d'informations, voir [Relances livraison](delivery-reminders.md).
 
 ## <a name="to-add-delivery-reminder-levels-to-a-delivery-reminder-term"></a>Pour ajouter des niveaux de relance livraison à une seule condition de relance livraison  
 
-1.  Dans la fenêtre **Conditions de relance livraison**, sélectionnez la condition pour laquelle vous souhaitez configurer des niveaux, puis choisissez l'action **Niveaux**.  
+1.  Dans la page **Conditions de relance livraison**, sélectionnez la condition pour laquelle vous souhaitez configurer des niveaux, puis choisissez l'action **Niveaux**.  
 2.  Sélectionnez l'action **Nouveau**.  
 3.  Renseignez les champs comme indiqué dans le tableau suivant.  
 
@@ -63,7 +63,7 @@ La procédure suivante décrit comment configurer des messages texte de début, 
 
 ## <a name="to-set-up-delivery-reminder-text-messages"></a>Pour configurer des messages textuels de relance livraison  
 
-1.  Dans la fenêtre **Niveaux de relance livraison**, sélectionnez un niveau, puis sélectionnez l'action **Texte de début**.  
+1.  Dans la page **Niveaux de relance livraison**, sélectionnez un niveau, puis sélectionnez l'action **Texte de début**.  
 2.  Sélectionnez l'action **Nouveau**.  
 3.  Dans le champ **Description**, entrez le message texte de début de la relance livraison.  
 4.  Cliquez sur le bouton **OK**.  

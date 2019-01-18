@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 068ed0057b6c12beebfa35951b6c1ffbd6ac556b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d2ea80352352cfac83ebce97fee9d4f312e00348
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Détails de conception : flux de désenlogement
@@ -66,7 +66,7 @@ En outre, les documents origine internes suivants existent qui fonctionnent comm
  Lorsque le document d'origine sortant est émis, une demande d'entrepôt sortant est automatiquement créée. Elle contient des références au type et au numéro du document origine et n'est pas visible à l'utilisateur.  
 
 ### <a name="3-create-inventory-pick-or-movement"></a>3 : Créer un prélèvement stock ou un mouvement de stock  
- Dans la fenêtre **Prélèvement stock** ou **Mouvement de stock**, le magasinier extrait, en mode extraction, les lignes document origine en attente en fonction des demandes désenlogement. Sinon, les lignes prélèvement stock sont déjà créées, par déplacement, par l'utilisateur responsable du document origine.  
+ Sur la page **Prélèvement stock** ou **Mouvement de stock**, le magasinier extrait, en mode extraction, les lignes document origine en attente en fonction des demandes désenlogement. Sinon, les lignes prélèvement stock sont déjà créées, par déplacement, par l'utilisateur responsable du document origine.  
 
 ### <a name="4-post-inventory-pick-or-register-inventory-movement"></a>4: Valider un prélèvement stock ou enregistrer un mouvement de stock  
  Sur chaque ligne pour les articles qui ont été prélevées ou déplacés, entièrement ou partiellement, le magasinier renseigne le champ **Quantité**, puis valide le prélèvement stock ou enregistre le mouvement de stock. Les documents origine associé au prélèvement stock sont validés comme étant expédiés ou consommés. Les documents origine liés aux mouvements de stock ne sont pas validés.  
@@ -85,7 +85,7 @@ En outre, les documents origine internes suivants existent qui fonctionnent comm
  Lorsque le document d'origine entrant est émis, une demande d'entrepôt sortant est automatiquement créée. Elle contient des références au type et au numéro du document origine et n'est pas visible à l'utilisateur.  
 
 ### <a name="3-create-warehouse-shipment"></a>3 : Créer expédition entrepôt  
- Dans la fenêtre **Expédition entrepôt**, le responsable de l'expédition extrait les lignes document origine en attente en fonction de la demande désenlogement. Plusieurs lignes document origine peuvent être combinées dans un document expédition entrepôt.  
+ Sur la page **Expédition entrepôt**, le responsable de l'expédition extrait les lignes document origine en attente en fonction de la demande désenlogement. Plusieurs lignes document origine peuvent être combinées dans un document expédition entrepôt.  
 
 ### <a name="4-release-shipment--create-warehouse-pick"></a>4 : Lancer l'expédition / Créer un prélèvement entrepôt  
  Le responsable de l'expédition lance l'expédition entrepôt, afin que les magasiniers puissent créer ou coordonner des prélèvements entrepôt pour l'expédition en question.  
@@ -109,7 +109,7 @@ En outre, les documents origine internes suivants existent qui fonctionnent comm
  Le magasinier qui effectue des prélèvements crée un document de prélèvement entrepôt, sur le mode de l'extraction, basé sur le document origine émis. Sinon, le document prélèvement entrepôt est créé et affecté au magasinier par déplacement.  
 
 ### <a name="9-register-warehouse-pick"></a>9 : Enregistrer un prélèvement entrepôt  
- Sur chaque ligne pour les articles qui ont été prélevés, entièrement ou partiellement, le magasinier renseigne le champ **Quantité** dans la fenêtre **Prélèvement entrepôt**, puis enregistre le prélèvement entrepôt.  
+ Sur chaque ligne pour les articles qui ont été prélevés, entièrement ou partiellement, le magasinier renseigne le champ **Quantité** sur la page **Prélèvement entrepôt**, puis enregistre le prélèvement entrepôt.  
 
  Les écritures d'entrepôt sont créées, et les lignes de prélèvement entrepôt sont supprimées, si entièrement traitées. Le document de prélèvement entrepôt reste ouvert jusqu'à ce que la quantité totale de l'expédition entrepôt associée soit validée. Le champ **Qté prélevée** sur les lignes expédition entrepôt est mis à jour en conséquence.  
 

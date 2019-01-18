@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5e732e27921f632c3e15b1d832d7295d32f4b8a2
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: aa0d6b76bdf4a7078d7b2e3846d1bdfa3cf08528
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="putting-items-away"></a>Rangement des articles
@@ -24,9 +24,9 @@ L'activité entrepôt consistant à ranger les articles une fois reçus ou fabri
 
 Si vous décidez d'organiser et d'enregistrer vos informations de rangement avec des documents entrepôt, activez le champ **Rangement requis** dans la fiche magasin. Ceci indique à l'application que, lorsque vous avez des articles qui entrent dans l'entrepôt via un document origine entrant, vous souhaitez que le rangement de ces articles soit contrôlé par le système. Un document origine entrant peut être une commande achat, un retour vente, un enlogement transfert ou un ordre de fabrication dont la fabrication est prête à être rangée.  
 
-Si votre magasin est configuré pour nécessiter un traitement des rangements, mais pas un traitement des réceptions, vous utilisez la fenêtre **Rangement stock** pour organiser les informations de rangement, les imprimer, entrer le résultat du rangement effectif et valider les informations de rangement, ce qui valide les informations de réception pour le document source. En cas d'ordre de fabrication, le processus de validation valide la production de l'ordre et termine l'ordre de fabrication.
+Si votre magasin est configuré pour nécessiter un traitement des rangements, mais pas un traitement des réceptions, vous utilisez la page **Rangement stock** pour organiser les informations de rangement, les imprimer, entrer le résultat du rangement effectif et valider les informations de rangement, ce qui valide les informations de réception pour le document source. En cas d'ordre de fabrication, le processus de validation valide la production de l'ordre et termine l'ordre de fabrication.
 
-Si votre magasin est configuré pour exiger à la fois le traitement des réceptions et des rangements, de sorte que vous ayez activé les deux champs **Réception requise** et **Rangement requis** dans la fiche magasin, le rangement des articles exige un processus différent. Dans ce cas, vous utilisez la fenêtre **Rangement entrepôt** pour traiter le rangement. Le rangement entrepôt fonctionne comme le rangement stock, si ce n'est qu'au lieu de valider les informations, vous enregistrez le rangement. Remarquez que l'enregistrement du rangement entrepôt ne valide pas la réception des articles. Il met simplement à jour le contenu de l'emplacement. En tant qu'administrateur entrepôt, vous pouvez utiliser des feuilles rangement pour organiser les informations de rangement avant de créer des instructions de rangement entrepôt.
+Si votre magasin est configuré pour exiger à la fois le traitement des réceptions et des rangements, de sorte que vous ayez activé les deux champs **Réception requise** et **Rangement requis** dans la fiche magasin, le rangement des articles exige un processus différent. Dans ce cas, vous utilisez la page **Rangement entrepôt** pour traiter le rangement. Le rangement entrepôt fonctionne comme le rangement stock, si ce n'est qu'au lieu de valider les informations, vous enregistrez le rangement. Remarquez que l'enregistrement du rangement entrepôt ne valide pas la réception des articles. Il met simplement à jour le contenu de l'emplacement. En tant qu'administrateur entrepôt, vous pouvez utiliser des feuilles rangement pour organiser les informations de rangement avant de créer des instructions de rangement entrepôt.
 
 Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.   
 

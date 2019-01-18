@@ -12,10 +12,10 @@ ms.search.keywords: non-inventoriable
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: feef36443adef82329fe47573dd05cc6941b9d87
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c65d498fb63668a6cd83f61303ae99c54d0a2452
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-catalog-items"></a>Utiliser des articles de catalogue
@@ -25,8 +25,8 @@ Vous pouvez proposer certains articles à vos clients pour leur rendre service, 
 * Depuis une ligne commande vente de type **Article** avec un champ **N°** vide, sélectionnez un article de catalogue. Une fiche article est ensuite automatiquement créée pour l'article de catalogue.
 
 > [!NOTE]  
-> Vous ne pouvez pas sélectionner d'article de catalogue à partir de la fenêtre **Facture vente**.<br /><br />
-> Vous pouvez sélectionner un article de catalogue à partir de la fenêtre **Devis**, mais l'article de catalogue ne sera pas converti en un article normal lorsque vous utilisez la fonction **Créer commande**.
+> Vous ne pouvez pas sélectionner d'article de catalogue à partir de la page **Facture vente**.<br /><br />
+> Vous pouvez sélectionner un article de catalogue à partir de la page **Devis**, mais l'article de catalogue ne sera pas converti en un article normal lorsque vous utilisez la fonction **Créer commande**.
 
 Un article de catalogue a généralement le numéro d'article du fournisseur qui le fournit. Pour activer la conversion d'une fiche article de catalogue en une fiche article normale, vous devez tout d'abord configurer comment la numérotation de l'article fournisseur est convertie dans votre propre numérotation d'article.   
 
@@ -49,7 +49,7 @@ Pour activer la conversion d'une fiche article de catalogue en une fiche article
 ## <a name="to-convert-a-catalog-item-to-a-normal-item"></a>Pour convertir un article de catalogue en un article normal
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles de catalogue**, puis sélectionnez le lien associé.
 2. Ouvrez la fiche pour un article de catalogue que vous pouvez convertir en un article normal.
-3. Dans la fenêtre **Fiche article de catalogue**, sélectionnez l'action **Créer un article**.
+3. Sur la page **Fiche article de catalogue**, sélectionnez l'action **Créer un article**.
 
 Une nouvelle fiche article pré-remplie avec les informations de l'article de catalogue ainsi qu'un modèle d'article pertinent sont créés. Vous pouvez ensuite remplir ou modifier les champs sur la nouvelle fiche article, le cas échéant. Pour plus d'informations, reportez vous à [Enregistrer de nouveaux articles](inventory-how-register-new-items.md).
 
@@ -60,7 +60,7 @@ Une nouvelle fiche article pré-remplie avec les informations de l'article de ca
 4. Choisissez l'action **Ligne**, puis l'action **Sélectionner articles de catalogue**.
 
     L'article de catalogue est converti en un article normal. Une nouvelle fiche article pré-remplie avec les informations de l'article de catalogue ainsi qu'un modèle d'article pertinent sont créés.
-5. Dans la fenêtre **Articles de catalogue**, sélectionnez l'article de catalogue que vous souhaitez vendre, puis choisissez le bouton **OK**.
+5. Sur la page **Articles de catalogue**, sélectionnez l'article de catalogue que vous souhaitez vendre, puis choisissez le bouton **OK**.
 6. Lorsque les lignes commande vente sont renseignées, sélectionnez l'action **Valider**.
 
 Vous pouvez ensuite remplir ou modifier les champs sur la nouvelle fiche article, le cas échéant. Pour plus d'informations, reportez vous à [Enregistrer de nouveaux articles](inventory-how-register-new-items.md).

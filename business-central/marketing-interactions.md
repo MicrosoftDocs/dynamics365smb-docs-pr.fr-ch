@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6fb3c1a19626c4cfa078f030a387e314ae2e0480
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6fa95883e30b7912ed2b6b22f40cbcd5af339f31
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="managing-interactions-with-contacts"></a>Gestion des interactions avec les contacts
@@ -30,7 +30,7 @@ Le module de gestion des relations vous permet d'enregistrer toutes les interact
 
 ##  <a name="setting-up-interaction-templates"></a>Configuration de modèles interaction
 Pour pouvoir créer et enregistrer des interactions, vous devez configurer des modèles interaction. Lorsque vous créez des interactions, vous devez spécifier les modèles sur lesquels elles sont basées. Un modèle interaction est un prototype qui définit les caractéristiques de base d'une interaction.
-Vous pouvez configurer un modèle interaction dans la fenêtre **Modèles interaction**.
+Vous pouvez configurer un modèle interaction sur la page **Modèles interaction**.
 
 Une fois les données relatives au modèle interaction saisies, vous pouvez créer un document joint, par exemple un document Microsoft Word. Répétez les étapes pour chaque modèle interaction à configurer.  
 
@@ -41,13 +41,13 @@ Il existe deux méthodes d'enregistrement des interactions :
 * Vous pouvez enregistrer automatiquement les interactions lorsque vous effectuez des opérations dans l'application, telles que l'impression d'une facture ou d'un devis. Pour plus d'informations, reportez-vous à [Enregistrer automatiquement les interactions avec les contacts](marketing-auto-record-interactions.md).
 
 ## <a name="viewing-and-managing-recorded-interactions"></a>Affichage et gestion des interactions enregistrées
-Dans la fenêtre **Écritures journal interaction**, vous pouvez afficher toutes les interactions enregistrées qui n'ont pas été supprimées. Vous pouvez ouvrir cette fenêtre de plusieurs façons :
+Sur la page **Écritures journal interaction**, vous pouvez afficher toutes les interactions enregistrées qui n'ont pas été supprimées. Vous pouvez ouvrir cette page de plusieurs façons :
 
 * À l'aide de l'icône **Page ou état pour la recherche** pour effectuer des recherches sur **Écritures journal interaction**.
 * En sélectionnant l'action **Écritures journal interaction** sur un contact ou un segment.
-  La fenêtre **Écriture journal interaction** répertorie les interactions que vous créez manuellement et celles que l'application enregistre automatiquement.
+  La page **Écriture journal interaction** répertorie les interactions que vous créez manuellement et celles que l'application enregistre automatiquement.
 
-Cette fenêtre vous permet d'effectuer les opérations suivantes :
+Vous pouvez effectuer les actions suivantes sur cette page :
 
 * Afficher le statut des interactions.
 * Marquer les interactions comme annulées.

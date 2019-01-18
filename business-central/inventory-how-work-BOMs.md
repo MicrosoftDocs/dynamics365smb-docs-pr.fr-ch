@@ -11,10 +11,10 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 44648f9d9cfd9ad2e1ea3589031b6560f4a4dcfb
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 587817f68dd731c1ea3e23617e405d0c9493fdd6
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-bills-of-material"></a>Utiliser les nomenclatures
@@ -51,16 +51,16 @@ Il y a deux parties pour créer une nomenclature d'assemblage :
 1. Configurez un nouvel article. Pour plus d'informations, reportez vous à [Enregistrer de nouveaux articles](inventory-how-register-new-items.md).
 
     Entrez maintenant les composants ou les ressources de la nomenclature d'assemblage.  
-2. Dans la fenêtre **Fiche article** d'un article d'assemblage, sélectionnez l'action **Assemblage**, puis l'action **Nomencl d'élément d'assemblage**.
-3. Dans la fenêtre **Nomencl d'élément d'assemblage**, renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Sur la page **Fiche article** d'un article d'assemblage, sélectionnez l'action **Assemblage**, puis l'action **Nomencl d'élément d'assemblage**.
+3. Renseignez les champs nécessaires sur la page **Nomenclature d'élément d'assemblage**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-view-the-components-of-an-assembly-item-indented-according-to-the-bom-structure"></a>Pour afficher les composants d'un article d'assemblage indenté selon la structure de la nomenclature
-Dans la fenêtre **Nomencl d'élément d'assemblage**, vous pouvez ouvrir une fenêtre distincte qui affiche les composants et les ressources indentés selon la position de leur nomenclature sous l'article d'assemblage.
+Sur la page **Nomenclature d'élément d'assemblage**, vous pouvez ouvrir une page distincte qui affiche les composants et les ressources indentés selon la position de leur nomenclature sous l'article d'assemblage.
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles**, puis sélectionnez le lien associé.
-2. Ouvrez la fiche d'un article d'assemblage. (Le champ **Nomencl d'élément d'assemblage** dans la fenêtre **Articles** contient **Oui**.)
-3. Dans la fenêtre **Fiche article**, sélectionnez l'action **Assemblage**, puis l'action **Nomenclature d'élément d'assemblage**.
-4. Dans la fenêtre **Nomencl d'élément d'assemblage**, sélectionnez l'action **Afficher nomenclature**.
+2. Ouvrez la fiche d'un article d'assemblage. (Le champ **Nomenclature d'élément d'assemblage** sur la page **Articles** contient **Oui**.)
+3. Sur la page **Fiche article**, sélectionnez l'action **Assemblage**, puis l'action **Nomenclature d'élément d'assemblage**.
+4. Sur la page **Nomenclature d'élément d'assemblage**, sélectionnez l'action **Afficher nomenclature**.
 
 ## <a name="to-replace-the-assembly-item-with-its-components-on-document-lines"></a>Pour remplacer l'article d'assemblage par ses composants dans les lignes document
 Dans n'importe quel document vente et achat qui contient un élément d'assemblage, vous pouvez utiliser une fonction spéciale pour remplacer la ligne de l'élément d'assemblage par de nouvelles lignes pour ses composants. Cette option est utile, par exemple, si vous souhaitez vendre des composants sous forme de kit représentant l'élément d'assemblage.
@@ -75,19 +75,19 @@ La procédure suivante se base sur une facture vente. Les mêmes étapes s'appli
 
 Tous les champs de la ligne facture vente pour l'élément d'assemblage sont désactivés sauf les champs **Article** et **Description**. Les lignes facture vente renseignées sont insérées pour les composants et les éventuelles ressources qui composent l'élément d'assemblage.
 
-**Remarque** : La fonction Éclater nomenclature est également disponible dans la fenêtre **Nomenclature d'élément d'assemblage**.
+**Remarque** : La fonction Éclater nomenclature est également disponible sur la page **Nomenclature d'élément d'assemblage**.
 
 ## <a name="to-calculate-the-standard-cost-of-an-assembly-item"></a>Pour calculer le coût standard d'un élément d'assemblage
 Vous calculez le coût unitaire d'un élément d'assemblage en regroupant le coût unitaire de chaque composant et ressource dans la nomenclature d'assemblage de l'article.
 
-Vous pouvez également calculer et mettre à jour le coût standard pour un ou plusieurs articles dans la fenêtre **Feuille coût standard**. Pour plus d'informations, voir [Mise à jour des coûts standard](finance-how-to-update-standard-costs.md).  
+Vous pouvez également calculer et mettre à jour le coût standard pour un ou plusieurs articles sur la page **Feuille coût standard**. Pour plus d'informations, voir [Mise à jour des coûts standard](finance-how-to-update-standard-costs.md).  
 
 Le coût unitaire d'une nomenclature d'assemblage équivaut toujours au total des coûts unitaires de ses composants, y compris ceux d'autres nomenclatures d'assemblage, et des ressources.
 
 1. Dans le coin supérieur droit, sélectionnez l'icône **Page ou état pour la recherche**, entrez **Articles**, puis sélectionnez le lien connexe.
-2. Ouvrez la fiche d'un article d'assemblage. (Le champ **Nomencl d'élément d'assemblage** dans la fenêtre **Articles** contient **Oui**.)
-3. Dans la fenêtre **Fiche article**, sélectionnez l'action **Assemblage**, puis l'action **Nomenclature d'élément d'assemblage**.
-4. Dans la fenêtre **Nomenclature d'élément d'assemblage**, sélectionnez l'action **Calculer coût standard**.
+2. Ouvrez la fiche d'un article d'assemblage. (Le champ **Nomenclature d'élément d'assemblage** sur la page **Articles** contient **Oui**.)
+3. Sur la page **Fiche article**, sélectionnez l'action **Assemblage**, puis l'action **Nomenclature d'élément d'assemblage**.
+4. Sur la page **Nomenclature d'élément d'assemblage**, sélectionnez l'action **Calculer coût standard**.
 5. Sélectionnez l'une des options suivantes, puis choisissez le bouton **OK**.
 
 |Option |Désignation |

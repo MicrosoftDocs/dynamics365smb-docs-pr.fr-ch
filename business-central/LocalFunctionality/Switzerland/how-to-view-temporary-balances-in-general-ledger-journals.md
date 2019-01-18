@@ -13,23 +13,23 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 59ab00dcad72445de6a4c5a35326bc4aa06c27a0
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f89b0bbbe705bc0e71da8e480176956de515e45a
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="view-temporary-balances-in-general-ledger-journals"></a>Afficher les soldes temporaires dans les feuilles comptabilisation immobilisation
 Lorsque vous entrez une nouvelle transaction dans la feuille comptabilité, vous pouvez afficher les soldes temporaires qui indiquent comment les soldes du compte général sont affectés en validant la feuille. Vous pouvez consulter les détails de solde du compte et le compteur pour la ligne feuille active. Vous pouvez également afficher les valeurs non validées pour la feuille.  
 
-Si vous utilisez des comptes généraux en devise étrangère en général, le solde dans le compte général est également renseigné. Cela vous permet d'analyser les entrées qui seront publiées et à décider si vous souhaitez publier les entrées. Pour plus d'informations, voir la fenêtre **Feuille comptabilité** et la table **Ligne feuille comptabilité**.  
+Si vous utilisez des comptes généraux en devise étrangère en général, le solde dans le compte général est également renseigné. Cela vous permet d'analyser les entrées qui seront publiées et à décider si vous souhaitez publier les entrées. Pour plus d'informations, voir la page **Feuille comptabilité** et la table **Ligne feuille comptabilité**.  
 
 ## <a name="to-view-temporary-balances-in-general-ledger-journals"></a>Pour afficher les soldes temporaires dans les feuilles comptabilisation immobilisation  
 
 1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuilles comptabilité**, puis sélectionnez le lien connexe.  
 2.  Sélectionnez l'écriture dans la feuille comptabilité requise, puis cliquez sur l'action **Solde**.  
 
-    Dans la fenêtre **Afficher - Solde temporaire compte général**, dans le raccourci **Général**, vous pouvez visualiser la manière dont les soldes de compte général sont affectés en validant la feuille.  
+    Dans la page **Afficher - Solde temporaire compte général**, dans le raccourci **Général**, vous pouvez visualiser la manière dont les soldes de compte général sont affectés en validant la feuille.  
 
 3.  Cliquez sur le bouton **Fermer**.  
 

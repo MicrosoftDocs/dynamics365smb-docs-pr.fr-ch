@@ -13,23 +13,23 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e10a823d856dd02311b990da5d22fe7f87730d51
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 04b1e87cb41df19559d85cf02eabbf6aaec0011a
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Configurer des entrepôts de base avec les zones d'opérations
 Si les zones Opérations internes telles que la production ou l'assemblage existent dans les configurations entrepôt de base dans lesquelles les magasins utilisent le champ de configuration **Emplacement obligatoire** et éventuellement les champs **Prélèvement requis** et **Rangement requis**, vous pouvez utiliser les documents d'entrepôt de base suivants pour enregistrer vos activités entrepôt pour des zones Opérations internes :  
 
-- Fenêtre **Mouvement de stock**.  
-- Fenêtre**Prélèvement stock**.  
-- Fenêtre **Rangement stock.**
+- Page **Liste de mouvement de stock**.  
+- Page **Liste des prélèvements stock**.  
+- Page **Liste des rangements stock**.
 
 > [!NOTE]
 > Bien que les paramètres soient appelés **Prélèvement requis** et **Rangement requis**, vous pouvez quand même valider les réceptions et les expéditions directement à partir des documents commerciaux origine dans les magasins où vous cochez ces cases.  
 
-Pour utiliser ces fenêtres avec des opérations internes, par exemple pour prélever et déplacer des composants vers la production, vous devez effectuer tout ou partie des étapes de configuration suivantes, en fonction du contrôle que vous souhaitez exercer :  
+Pour utiliser ces pages avec des opérations internes, par exemple pour prélever et déplacer des composants vers la production, vous devez effectuer tout ou partie des étapes de configuration suivantes, en fonction du contrôle que vous souhaitez exercer :  
 
 - Activer les documents de prélèvement stock, de mouvement de stock et de rangement.  
 - Définir les structures d'emplacement par défaut pour les composants et les produits finis s'écoulant depuis ou vers les ressources opérationnelles.  
@@ -59,14 +59,14 @@ Les procédures suivantes sont basées sur la configuration d'activités entrep�
 
 5. Sur le raccourci **Emplacements**, dans le champ **Code empl. après production**, entrez le code de l'emplacement dans la zone de production où les produits finis terminés sont extraits par défaut si le processus implique une activité entrepôt. Dans les configurations entrepôt de base, l'activité est enregistrée en tant que rangement stock ou mouvement de stock.  
 
-désormais, les lignes composant O.F. présentant ce code emplacement par défaut nécessitent que les composants consommés en aval soient stockés dans cet emplacement. Toutefois, jusqu'à la consommation des composants de cet emplacement, d'autres demandes de composant peuvent y effectuer un prélèvement ou une consommation, car elles sont encore considérées comme du contenu emplacement disponible. Pour vous assurer que le contenu de l'emplacement est uniquement disponible à une demande de composant qui utilise cet emplacement des consommations, vous devez sélectionner le champ **Dédié** sur la ligne de ce code emplacement dans la fenêtre **Emplacements** à laquelle vous accédez à partir de la fiche magasin.
+désormais, les lignes composant O.F. présentant ce code emplacement par défaut nécessitent que les composants consommés en aval soient stockés dans cet emplacement. Toutefois, jusqu'à la consommation des composants de cet emplacement, d'autres demandes de composant peuvent y effectuer un prélèvement ou une consommation, car elles sont encore considérées comme du contenu emplacement disponible. Pour vous assurer que le contenu de l'emplacement est uniquement disponible à une demande de composant qui utilise cet emplacement des consommations, vous devez sélectionner le champ **Dédié** sur la ligne de ce code emplacement sur la page **Emplacements** à laquelle vous accédez à partir de la fiche magasin.
 
 Ce graphique indique comment le champ **Code emplacement** sur les lignes composant O.F. est renseigné en fonction de votre configuration.  
 
 ![Organigramme Flux d'emplacement](media/binflow.png "BinFlow")    
 
 ## <a name="to-define-a-default-bin-structure-in-the-assembly-area"></a>Pour définir une structure d'emplacement par défaut dans la zone d'assemblage
-Les composants pour les commandes d'assemblage ne peuvent pas être prélevés ni validés avec des prélèvements stock. À la place, utilisez la fenêtre **Mouvement de stock**. Pour plus d'informations, voir [Déplacer les composants vers une zone opérations dans le stockage de base](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
+Les composants pour les commandes d'assemblage ne peuvent pas être prélevés ni validés avec des prélèvements stock. À la place, utilisez la page **Mouvement de stock**. Pour plus d'informations, voir [Déplacer les composants vers une zone opérations dans le stockage de base](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
 
 En cas de prélèvement et d'expédition de quantités de lignes vente assemblées pour commande, vous devez suivre certaines règles en créant les lignes prélèvement stock. Pour plus d'informations, reportez-vous à la section « Traitement des articles à assembler pour commande dans les prélèvements stock » dans [Prélever des articles avec les prélèvements stock](warehouse-how-to-pick-items-with-inventory-picks.md).
 
@@ -119,14 +119,14 @@ Le même code emplacement est également copié vers le champ **Code emplacement
 ## <a name="to-create-dedicated-component-bins"></a>Pour créer des emplacements composants dédiés
 Vous pouvez spécifier que les quantités d'un emplacement soient protégées des prélèvements d'autres demandes que la demande de leurs objectifs actuels.
 
-Les quantités des magasins réservés peuvent encore être réservées. Par conséquent, les quantités figurant dans des magasins réservés sont incluses dans le champ **Quantité totale disponible** de la fenêtre **Réservation**.
+Les quantités des magasins réservés peuvent encore être réservées. Par conséquent, les quantités figurant dans des magasins réservés sont incluses dans le champ **Quantité totale disponible** de la page **Réservation**.
 
-Par exemple, si un centre de charge est configuré avec un code emplacement dans le champ **Code empl. des consommations**. Les lignes composant O.F. présentant ce code emplacement nécessitent que les composants consommés en aval soient stockés dans cet emplacement. Toutefois, jusqu'à la consommation des composants de cet emplacement, d'autres demandes de composant peuvent y effectuer un prélèvement ou une consommation, car elles sont encore considérées comme du contenu emplacement disponible. Pour vous assurer que le contenu de l'emplacement est uniquement disponible à une demande de composant qui utilise cet emplacement des consommations, vous devez sélectionner le champ **Dédié** sur la ligne de ce code emplacement dans la fenêtre **Emplacements** à laquelle vous accédez à partir de la fiche magasin.
+Par exemple, si un centre de charge est configuré avec un code emplacement dans le champ **Code empl. des consommations**. Les lignes composant O.F. présentant ce code emplacement nécessitent que les composants consommés en aval soient stockés dans cet emplacement. Toutefois, jusqu'à la consommation des composants de cet emplacement, d'autres demandes de composant peuvent y effectuer un prélèvement ou une consommation, car elles sont encore considérées comme du contenu emplacement disponible. Pour vous assurer que le contenu de l'emplacement est uniquement disponible à une demande de composant qui utilise cet emplacement des consommations, vous devez sélectionner le champ **Dédié** sur la ligne de ce code emplacement sur la page **Emplacements** à laquelle vous accédez à partir de la fiche magasin.
 
 La réservation d'un emplacement fournit la même fonctionnalité permettant d'utiliser les types emplacement, disponible uniquement dans l'entreposage avancé. Pour plus d'informations, voir [Configurer des types d'emplacement](warehouse-how-to-set-up-bin-types.md).
 
 > [!Caution]
-> Des articles dans des magasins réservés ne sont pas protégés lorsqu'ils sont prélevés et consommés comme composants de production à l'aide de la fenêtre Prélvmt invent.
+> Des articles dans des magasins réservés ne sont pas protégés lorsqu'ils sont prélevés et consommés comme composants de production à l'aide de la page Prélvmt invent.
 
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Magasins**, puis choisissez le lien associé. Sélectionnez le magasin que vous voulez mettre à jour.  
 2.  Choisissez l'action **Emplacements**.  
