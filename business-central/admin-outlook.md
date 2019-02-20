@@ -8,22 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 10/01/2018
+ms.date: 12/10/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 6ced619dc9a43f7db0b4d78bf3de08a6dac27653
+ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
+ms.openlocfilehash: a91f2d34cd023994dcd8eb67a9360d50d2cf3747
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/11/2018
 
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Utilisation de Business Central en tant que boîte de réception professionnelle dans Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] vous permet désormais de gérer les interactions commerciales avec vos clients et fournisseurs, directement dans Microsoft Outlook. Avec le complément Outlook de [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez afficher des informations financières associées à des clients et des fournisseurs, ainsi que créer et envoyer des documents financiers, comme des devis et des factures.  
 
 ## <a name="getting-the-add-in"></a>Obtention du complément
-Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], l'une des étapes de la configuration assistée de mise en route s'effectue sur la page **Dirigez votre entreprise dans Office 365**. Sur cette page, lorsque vous cliquez sur le bouton **Configurer dans Outlook**, vous devez spécifier votre nom utilisateur et mot de passe Office 365. Le complément [!INCLUDE[d365fin](includes/d365fin_md.md)] est alors automatiquement ajouté à votre Outlook.  
+Il pouvez aisément démarrer avec le module complémentaire [!INCLUDE[d365fin](includes/d365fin_md.md)] for Outlook. Dans le guide de configuration assistée **Configurer votre boîte de réception professionnelle dans Outlook**, vous pouvez configurer la connexion pour vous-même ou pour votre organisation. Si votre organisation utilise Office 365, vous devez indiquer vos nom d'utilisateur et mot de passe Office 365. Si votre organisation n'utilise pas Office 365, vous devez spécifier des informations sur le serveur Exchange que vous utilisez. Le complément [!INCLUDE[d365fin](includes/d365fin_md.md)] est alors automatiquement ajouté à votre Outlook.  
 
-Ensuite, lorsque vous ouvrez Outlook, vous voyez un message électronique dans Business Central Admin. Le nouveau complément est ajouté au ruban Outlook, et dans Outlook Web Access, il apparaît dans le ruban des compléments, situé juste au-dessus du corps du message. Le complément lui-même est mis à jour régulièrement, et vous êtes informé qu'une nouvelle version est prête dans Outlook.  
+Ensuite, lorsque vous ouvrez Outlook, vous voyez un message électronique dans Dynamics 365 Business Central Admin. Les nouveaux modules complémentaires sont ajoutés au ruban Outlook, et dans l'application Outlook Web, les modules complémentaires [!INCLUDE[d365fin](includes/d365fin_md.md)] apparaissent au-dessus ou au dessous du corps du message. Les modules complémentaires sont mis à jour régulièrement, et vous êtes informé qu'une nouvelle version est prête dans Outlook.  
 
 Certaines sociétés utilisant Office 365 n'autorisent pas leurs utilisateurs à déployer des compléments. Ainsi vous devez vous assurer que vous disposez d'un abonnement Office 365 comprenant la messagerie et qui vous permet de déployer des compléments. Si vous souhaitez tout de même essayer le complément, vous pouvez [essayer gratuitement Office 365](https://products.office.com/try).  
 
@@ -57,7 +57,10 @@ De même dans le client de bureau Outlook, vous pouvez vérifier si [!INCLUDE[d3
 Dans les deux cas, si [!INCLUDE[d365fin](includes/d365fin_md.md)] n'est toujours pas disponible, vous devez vous procurer les fichiers de manifeste macro complémentaire. Pour plus d'informations, contactez votre administrateur Office 365.
 
 ## <a name="see-also"></a>Voir aussi
+
 [Mise en route](product-get-started.md)  
+[Obtention de Business Central sur mon périphérique mobile](install-mobile-app.md)  
+[Envoyer des documents par e-mail](ui-how-send-documents-email.md)  
 [Finances](finance.md)  
 [Ventes](sales-manage-sales.md)  
 [Achats](purchasing-manage-purchasing.md)  

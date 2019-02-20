@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/27/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4f74d8cb6c2c42b3b928a59655bf3ced62d59258
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: 86268549bbf5d133b2d077b69507cf1b6a3617a3
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 # <a name="accounting-for-costs"></a>Comptabilité pour les coûts
@@ -26,10 +26,12 @@ La comptabilité analytique vous permet de cerner les coûts liés à l'exploita
 |--------|---------|  
 |Familiarisez-vous avec la terminologie utilisée en comptabilité analytique.|[Terminologie en comptabilité analytique](finance-terminology-in-cost-accounting.md)|  
 |Maîtrisez les principes de la comptabilité analytique.|[À propos de la comptabilité analytique](finance-about-cost-accounting.md)|  
-|Découvrez les processus de paramétrage de la comptabilité analytique.|[Paramétrage du contrôle de gestion](finance-set-up-cost-accounting.md)|  
-|Découvrez les processus de transfert des écritures comptables vers les écritures de coûts.|[Transfert et validation des écritures de coûts](finance-transfer-and-post-cost-entries.md)|  
-|Découvrez les processus de définition et d'affectation des coûts.|[Définition et répartition des coûts](finance-define-and-allocate-costs.md)|  
-|Découvrez les processus de création des budgets de coûts.|[Création des budgets des coûts](finance-create-cost-budgets.md)|  
+|Configurez le système de comptabilité analytique.|[Paramétrage du contrôle de gestion](finance-set-up-cost-accounting.md)|  
+|Transférez des écritures comptables vers les écritures de coûts.|[Transfert et validation des écritures de coûts](finance-transfer-and-post-cost-entries.md)|  
+|Affecter des coûts.|[Définition et répartition des coûts](finance-define-and-allocate-costs.md)|  
+|Découvrez les processus de création des budgets de coûts.|[Création des budgets des coûts](finance-create-cost-budgets.md)|
+|Annulez des écritures de coûts à partir du registre du budget des coûts.|[Suppression des écritures budget des coûts](finance-how-to-delete-cost-budget-entries.md)| 
+
 
 ## <a name="see-also"></a>Voir aussi  
 [Finances](finance.md)  

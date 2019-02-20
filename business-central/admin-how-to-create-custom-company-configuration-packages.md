@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 12/07/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 868972e4d53d858834ba5985a3de3ffa1d4dcc6b
+ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
+ms.openlocfilehash: a51628085e640cc2e5f022272eccb89d5cec38b7
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 12/11/2018
 
 ---
 # <a name="create-custom-company-configuration-packages"></a>Créer des packages configuration de société personnalisés
@@ -39,11 +39,10 @@ Autrement, vous pouvez créer un package qui inclut les tables qui définissent 
 -   Paramètres comptabilisation TVA  
 -   Paramètres compta. stock  
 
-Pour visualiser la liste complète des tables de configuration, choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres**, puis sélectionnez le lien associé.  
+Pour visualiser la liste complète des tables de configuration, choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Configuration manuelle**, puis sélectionnez le lien associé.  
 
 ## <a name="to-create-a-custom-company-configuration-package"></a>Pour créer un package configuration de société personnalisé  
-1.  Créez une [!INCLUDE[d365fin](includes/d365fin_md.md)]. ***Lien NON POSSIBLE pour aider à la « création d'un abonné »***.   
-2.  Créez une société pour le modèle solution ou secteur d'activité. Pour plus d’informations, voir [Créer une société](admin-how-to-create-a-new-company.md).  
+1.  Créez une nouvelle société. Pour plus d'informations, voir [Création de sociétés dans Business Central](about-new-company.md).  
 3.  Configurez la nouvelle société en tenant compte de vos besoins. Renseignez toutes les tables de configuration nécessaires.  
 4.  Ouvrez la nouvelle société.
 5. Ouvrir la page **Feuille configuration**.  

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 01/22/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 6a51a509ae1281d7c6bfe19e5276b516982a5fa5
+ms.sourcegitcommit: 5d6d2d9527e81a92987f6b8fcdbe8e087c3c537a
+ms.openlocfilehash: 6e9c21dcec2932bcc2b93648289699d6d062bf78
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 01/22/2019
 
 ---
 # <a name="pick-items"></a>Prélèvement d'articles
@@ -38,7 +38,8 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |Valider l'expédition d'articles directement dans le document commande sortante car aucune fonctionnalité entrepôt n'existe. (Valable également pour les commandes vente, les ordres de transfert sortants et les expéditions retour.)|[Expédier des articles](warehouse-how-ship-items.md)|  
 |Prélever les articles par commande et valider l'expédition dans la même activité dans une configuration entrepôt de base.|[Prélever des articles avec les prélèvements stock](warehouse-how-to-pick-items-with-inventory-picks.md)|
 |Prélever les articles de plusieurs commandes dans une configuration entrepôt avancée.|[Prélever des articles avec les prélèvements entrepôt](warehouse-how-to-pick-items-for-warehouse-shipment.md)|  
-|Prélever les composants pour la fabrication ou l'assemblage dans une configuration de stockage de base ou avancée.|[Prélever pour la fabrication et l'assemblage](warehouse-how-to-pick-for-production.md)|  
+|Prélever les composants pour la fabrication ou l'assemblage dans une configuration entrepôt de base.|[Prélever pour la fabrication ou l'assemblage dans les configurations de stockage de base.](warehouse-how-to-pick-for-production.md)|
+|Prélever les composants pour la fabrication ou l'assemblage dans une configuration entrepôt avancée.|[Prélever pour la fabrication ou l'assemblage dans les configurations de stockage avancées.](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)|  
 |Planifier des instructions de prélèvement optimisées pour plusieurs expéditions. Dans ce cas, les magasiniers n'ont pas à agir directement sur les expéditions validées.|[Planifier des prélèvements dans la feuille](warehouse-how-to-plan-picks-in-worksheets.md)|  
 |Prélever des articles techniquement dans un but spécifique, par exemple une unité de production nécessitant des composants supplémentaires, de sorte que les articles ne quittent pas techniquement l'entrepôt.|[Prélever et ranger sans document origine](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
 |Sachez comment prélever automatiquement des articles en fonction de leur date d'échéance, par exemple des denrées périssables.|[Prélèvement par FEFO](warehouse-picking-by-fefo.md)|

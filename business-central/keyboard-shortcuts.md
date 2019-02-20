@@ -11,10 +11,10 @@ ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 549f66a584e7994cba6d7b99ee25a04c8cb8960b
+ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
+ms.openlocfilehash: 5b7c5282a89a1dfb39f3e94feab8e00d2373f8af
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -52,7 +52,7 @@ Le tableau suivant décrit les raccourcis clavier pour naviguer et accéder à d
 ## <a name="keyboard-shortcuts-in-lists"></a>Raccourcis clavier dans les listes
 
 Le tableau suivant décrit les raccourcis clavier que vous pouvez utiliser dans une page de liste. L'action de raccourci est légèrement différente selon que la page est affichée dans la vue de liste ou la vue en mosaïque.
-<!-- 
+<!--
 > [!Note]
 > In the table that follows, the term *actionable field* refers to a field on which you can do something, like change a value or link to another page. In general, the shortcuts will skip over fields that display information that you cannot change from the list (in other words, fields that are read-only).
 -->
@@ -61,7 +61,7 @@ Le tableau suivant décrit les raccourcis clavier que vous pouvez utiliser dans 
 
 |Appuyez sur les touches suivantes<br />(dans macOS)|Pour procéder dans une vue de liste |Pour procéder dans une vue en mosaïque |Remarques|
 |-----------------|-------|-------|-------|
-|Flèche vers le haut|Accédez au champ de la ligne du dessus au sein de la même colonne| Accédez au champ de la vignette du dessus au sein de la même colonne  |  | 
+|Flèche vers le haut|Accédez au champ de la ligne du dessus au sein de la même colonne| Accédez au champ de la vignette du dessus au sein de la même colonne  |  |
 |Flèche bas|Accédez au champ de la ligne du dessous au sein de la même colonne |Accédez au champ de la vignette du dessous au sein de la même colonne | |
 |Flèche vers la droite|Dans une liste en lecture seule, accédez au prochain champ à droite de la même ligne.<br /><br />Dans une liste modifiable, allez à droite dans le champ actuel.| Accédez à la prochaine vignette à droite de la même ligne. ||
 |Flèche vers la gauche|Dans une liste en lecture seule, accédez au champ précédent à gauche de la même ligne. <br /><br />Dans une liste modifiable, allez à gauche dans le champ actuel.| Accédez à la vignette précédente à gauche de la même ligne. ||
@@ -71,7 +71,7 @@ Le tableau suivant décrit les raccourcis clavier que vous pouvez utiliser dans 
 |Fin<br />(Fn+flèche droite)|Accéder au dernier champ de la ligne.|Accéder à la dernière vignette de la ligne.||
 |Page précédente<br />(Fn + Flèche haut)|Fait défiler pour afficher l'ensemble de lignes au-dessus des lignes actuelles de la vue. |Fait défiler pour afficher l'ensemble de vignettes au-dessus des vignettes actuelles de la vue. ||
 |Page suivante<br />(Fn + Flèche bas)|Fait défiler pour afficher l'ensemble de lignes sous des lignes actuelles de la vue.|Fait défiler pour afficher l'ensemble de vignettes sous des vignettes actuelles de la vue.||
-|Entrée<br />(Fn + Flèche bas)|Ouvrez l'enregistrement associé à ce champ.|Ouvre l'enregistrement.| Approprié uniquement si une page Fiche est associée à l'enregistrement.|
+|Entrée|Ouvrez l'enregistrement associé à ce champ.|Ouvre l'enregistrement.| Approprié uniquement si une page Fiche est associée à l'enregistrement.|
 |Ctrl+Enter|Déplacer le focus sur l'élément suivant en dehors de la liste.|Déplacer le focus sur l'élément suivant en dehors de la liste.||
 
 ### <a name="CopyRows"></a>Sélectionner, imprimer et coller
@@ -104,7 +104,7 @@ Le tableau suivant décrit les raccourcis clavier que vous pouvez utiliser dans 
 |Maj+Alt+F3|Ouvre le volet Filtre et ajoute un filtre sur la colonne sélectionnée dans la liste. Le focus est sur le nouveau champ filtre ce qui permet de commencer à saisir les critères de filtre immédiatement.<br /><br /> Cela correspond à sélectionner **Filtrer** de l'en-tête de colonne. er menu. Affiche le volet Filtre, ajoute le filtre, définit le focus pour que l'utilisateur puisse saisir une valeur sur laquelle appliquer un filtre.<br /><br />S'il existe déjà un filtre sur le champ, un nouveau filtre est ajouté. |
 |Ctrl+Shift+Alt+F3|Réinitialise les filtres. Cela correspond à choisir **Réinitialiser les filtres** dans le volet Filtre, et s'applique aux champs et aux filtres de totaux.<br /><br /> Les filtres reviennent aux filtres par défaut de la fenêtre actuelle. Si la fenêtre actuelle est **Tous**, il s'agit de l'équivalent à revenir à une vue non filtrée avec tous les enregistrements. |
 |Ctrl+Enter|Retourne à la liste du volet Filtre.|
- 
+
 ## <a name="a-namecalendarshortcuts-keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"/> Raccourcis clavier du calendrier (sélecteur de date)
 Lorsque vous définissez un champ de date, vous pouvez saisir la date manuellement ou ouvrir un calendrier (sélecteur de date) qui vous permet de sélectionner la date souhaitée. Le tableau suivant décrit les raccourcis clavier du calendrier.
 

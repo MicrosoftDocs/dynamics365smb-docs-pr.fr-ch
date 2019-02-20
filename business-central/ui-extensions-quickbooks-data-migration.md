@@ -11,10 +11,10 @@ ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 30944a42746d9538e245f8970a8cb76423bc9c59
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: e5cb755b6a15070410c42328ccf08b784928f3ca
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 
@@ -45,10 +45,14 @@ Une grande partie du processus de migration consiste à spécifier les comptes v
 - La vente d'articles ou de services à un client  
 - L'achat d'articles ou de service auprès d'un fournisseur  
 - Ajustements des écritures comptables  
-Business Central nécessite que les comptes généraux aient des numéros de compte. S'assurer que les numéros de compte sont affectés aux comptes dans QuickBooks Online.
-Si les transactions de QuickBooks Online ont des montants de taxe, vous devez créer un compte taxes pour vos administrations fiscales dans Business Central avant de pouvoir valider des transactions.
 
-Afin d'obtenir vos données de l'application QuickBooks Desktop vous devez télécharger l'outil d'exportation de données Microsoft.  Les instructions de l'outils sont dans l'Assistant Migration de données dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. L'outil se connectera à votre application QuickBooks et exporter les données applicables à un fichier *.zip.  
+Business Central nécessite que les comptes généraux aient des numéros de compte. S'assurer que les numéros de compte sont affectés aux comptes dans QuickBooks.
+Si les transactions de QuickBooks ont des montants de taxe, vous devez créer un compte taxes pour vos administrations fiscales dans Business Central avant de pouvoir valider des transactions.
+
+Afin d'obtenir vos données de l'application QuickBooks Desktop vous devez télécharger l'outil d'exportation de données Microsoft.  Les instructions de l'outils sont dans l'Assistant Migration de données dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. L'outil se connectera à votre application QuickBooks et exporter les données applicables à un fichier .zip.  
+
+> [!NOTE]
+> Actuellement, l'outil d'exportation de données fonctionne uniquement avec QuickBooks 2017 et 2018.
 
 ## <a name="finding-the-quickbooks-data-migration-extension"></a>Recherche de l'extension QuickBooks Data Migration
 L'extension QuickBooks Data Migration est installée et prête à être utilisée comme partie intégrante du guide de configuration assistée Migration des données. Si vous êtes prêt à commencer, et que vous avez export vos donnes de QuickBooks, choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Configuration assistée**, puis sélectionnez le lien associé. Choisissez **Migrer des données métier**, puis suivez les étapes du guide.  

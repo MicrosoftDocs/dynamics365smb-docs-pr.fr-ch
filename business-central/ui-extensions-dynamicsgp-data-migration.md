@@ -12,14 +12,14 @@ ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 357be92799a016b21a123692f7ed612d66005017
+ms.sourcegitcommit: 34a6789780fb3d55c0a97b29408dca659992f781
+ms.openlocfilehash: 1441e15785b159f7a8c13ee59c8ebea4c32512dc
 ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 01/30/2019
 
 ---
 # <a name="the-dynamics-gp-data-migration-extension"></a>Extension Dynamics GP Data Migration 
-Cette extension permet de migrer des clients, des fournisseurs, des articles en stock, des comptes généraux, des transactions fournisseurs ouvertes et des transactions clients ouvertes de Dynamics GP vers [!INCLUDE[prodshort](includes/prodshort.md)]. Si votre entreprise utilise Dynamics GP aujourd'hui, vous pouvez exporter les enregistrements appropriés, puis ouvrir un guide de configuration assistée pour ajouter les données vers [!INCLUDE[prodshort](includes/prodshort.md)]. Pour plus d'informations, voir [Importation des données métier à partir d'autres systèmes financiers](across-import-data-configuration-packages.md).
+Cette extension permet de migrer des clients, des fournisseurs, des articles en stock, des comptes généraux, des transactions fournisseurs ouvertes et des transactions clients ouvertes de Dynamics GP vers [!INCLUDE[prodshort](includes/prodshort.md)]. Si votre entreprise utilise Dynamics GP aujourd'hui, vous pouvez exporter les enregistrements appropriés, puis ouvrir un guide de configuration assistée pour ajouter les données vers [!INCLUDE[prodshort](includes/prodshort.md)]. L'extension de migration fonctionne pour toutes les versions prises en charge de Microsoft Dynamics GP. Pour plus d'informations, voir [Importation des données métier à partir d'autres systèmes financiers](across-import-data-configuration-packages.md).
 
 ## <a name="exporting-data-from-dynamics-gp"></a>Exportation de données à partir de Dynamics GP
 Vous devez avoir exporté certains ou tous vos clients, fournisseurs, articles de stock, et comptes généraux à l'aide de la fonctionnalité pour l'exportation de données dans Dynamics GP. Lorsque vous sélectionnez les données à exporter, les types suivants peuvent être sélectionnés :

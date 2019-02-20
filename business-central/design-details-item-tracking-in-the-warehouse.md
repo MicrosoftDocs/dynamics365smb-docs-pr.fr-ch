@@ -1,6 +1,6 @@
 ---
-title: "Détails de conception - Disponibilité traçabilité | Microsoft Docs"
-description: "Cette rubrique décrit comment les personnes qui traitent les commandes peuvent se baser sur la disponibilité des numéros de série ou de lot."
+title: "Détails de conception - Traçabilité dans l'entrepôt | Microsoft Docs"
+description: "La gestion de numéro de série et de numéro de lot est surtout une tâche d'entrepôt, et donc tous les documents entrepôt enlogement et désenlogement ont une fonctionnalité standard pour affecter et sélectionner des numéros traçabilité. Toutefois, comme le système de réservation est basé sur les écritures comptables article, les documents activité entrepôt qui enregistrent uniquement les écritures entrepôt ne sont pas totalement pris en charge."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,40 +10,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item, tracking, serial number, lot number, outbound documents
-ms.date: 10/01/2018
+ms.date: 01/15/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: fcdfc219f94462048474acdef259f671e1c8a402
+ms.sourcegitcommit: 5d6d2d9527e81a92987f6b8fcdbe8e087c3c537a
+ms.openlocfilehash: e780dba122374bd80e48ca6bbc74b7540e034ac6
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/22/2019
 
 ---
-# <a name="design-details-item-tracking-availability"></a>Détails de conception : disponibilité traçabilité
-Les pages **Lignes traçabilité** et **Disponibilité traçabilité** fournissent des informations de disponibilité dynamique pour les numéros de série ou de lot. L'objectif de cela est d'augmenter la transparence pour les utilisateurs dans les documents sortants, tels que des commandes vente, en leur indiquant les numéros de série ou le nombre d'unités d'un numéro de lot qui sont affectés actuellement à d'autres documents ouverts. Cela réduit l'incertitude qui est due à la double attribution et assure aux préparateurs de commande que les numéros de suivi d'article et les dates qu'ils promettent sur les commandes vente non validées peuvent être réalisés. Pour plus d'informations, reportez-vous à [Détails de conception : page Lignes traçabilité](design-details-item-tracking-lines-window.md).  
+# <a name="design-details-item-tracking-in-the-warehouse"></a>Détails de conception : traçabilité dans l'entrepôt
+La gestion de numéro de série et de numéro de lot est surtout une tâche d'entrepôt, et donc tous les documents entrepôt enlogement et désenlogement ont une fonctionnalité standard pour affecter et sélectionner des numéros traçabilité.  
 
-Lorsque vous ouvrez la page **Lignes traçabilité**, les données de disponibilité sont récupérées à partir du tableau **Écriture comptable article** et du tableau **Ecriture réservation** sans aucun filtre de date. Lorsque vous choisissez le champ **N° de série** ou le champ **N° lot**, la page **Disponibilité traçabilité** s'ouvre et affiche un résumé des informations de suivi article dans le tableau **Ecriture réservation**. Le résumé contient les informations suivantes sur chaque numéro de série ou de lot dans la ligne traçabilité :  
+Toutefois, comme le système de réservation est basé sur les écritures comptables article, les documents activité entrepôt qui enregistrent uniquement les écritures entrepôt ne sont pas totalement pris en charge. Comme les réservations et les numéros traçabilité peuvent uniquement être traités au niveau du magasin, pas au niveau de l'emplacement et de la zone, la page **Lignes traçabilité** ne peut pas être ouverte à partir des documents activité entrepôt. Cela s'applique également à la page **Réservation**.  
 
-|Champ|Désignation|  
-|---------------------------------|---------------------------------------|  
-|**Quantité totale**|Quantité totale du numéro de série/lot actuellement en stock.|  
-|**Quantité totale demandée**|Quantité totale du numéro de série/lot actuellement demandé dans tous les documents.|  
-|**Quantité suspendue actuelle**|La quantité qui est saisie dans l'instance active de la page **Lignes traçabilité**, mais n'est pas encore consignée dans la base de données.|  
-|**Quantité totale disponible**|La quantité de numéros de série ou de numéro de lot qui est disponible pour l'utilisateur à la demande.<br /><br /> Cette quantité est calculée d'autres champs de la page comme suit :<br /><br /> quantité totale – (quantité totale demandée + quantité suspendue actuelle).|  
+Une fois qu'un numéro de série ou un numéro de lot a été ajouté à un article d'un entrepôt, il peut être déplacé et reclassé librement au sein de l'entrepôt à l'aide d'une structure de traçabilité distincte, qui n'est pas liée au système de réservation. Les champs **N° de série** et **N° lot** sont consultés directement dans les lignes document entrepôt. Lorsque le numéro de série ou de lot participe ultérieurement à une validation sortante, il est synchronisé avec le système de réservation en tant que partie d'ajustement d'emplacement ordinaire. Pour plus d'informations, voir [Détails de conception : intégration avec le stock](design-details-integration-with-inventory.md).  
 
-> [!NOTE]  
->  Vous pouvez également visualiser les informations du tableau précédent à l'aide de la fonction **Sélectionner écritures** de la page **Lignes traçabilité**.  
-
-Pour préserver les performances de la base de données, les données de disponibilité ne sont récupérées qu'une fois depuis la base de données lorsque vous ouvrez la page **Lignes traçabilité** et utilisez la fonction **Actualiser disponibilité** sur la page.  
-
-## <a name="calculation-formula"></a>Formule de calcul  
-Comme indiqué dans le tableau précédent, la disponibilité d'un numéro de série ou de lot spécifique est calculée comme suit :  
-
-* quantité totale disponible = quantité du stock – (toutes les demandes + quantité pas encore consignée dans la base de données)  
-
-> [!IMPORTANT]  
->  Cette formule implique que le calcul de disponibilité de numéro de série ou de lot ne considère que le stock et ignore les reçus prévus. Par conséquent, l'approvisionnement qui n'a pas encore été validé dans le stock n'affecte pas la disponibilité de la traçabilité, contrairement à la disponibilité d'un article normal, où les réceptions projetées sont incluses.  
+Cependant, le système de réservation prend en compte les activités entrepôt pour calculer la disponibilité. Par exemple, des articles qui sont affectés aux prélèvements ou enregistrés comme prélevés, ne peuvent pas être réservés. Pour plus d'informations, voir [Détails de conception : disponibilité de l'entrepôt](design-details-availability-in-the-warehouse.md).
 
 ## <a name="see-also"></a>Voir aussi  
-[Détails de conception : traçabilité](design-details-item-tracking.md)
+[Détails de conception : traçabilité](design-details-item-tracking.md)  
+[Détails de conception : intégration avec le stock](design-details-integration-with-inventory.md)  
+[Détails de conception : Disponibilité de l'entrepôt](design-details-availability-in-the-warehouse.md)  
+[Détails de conception : création de traçabilité](design-details-item-tracking-design.md)
 

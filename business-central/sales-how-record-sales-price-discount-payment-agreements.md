@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 10/01/2018
+ms.date: 11/28/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 92b853c0d897ac5d93cbabc435b71bbf420d28a5
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: b0af8e6d6dd477ebabbfc1fa05e8d57378eee226
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Enregistrer les prix de vente spéciaux et les remises
@@ -114,16 +114,30 @@ Le meilleur prix est le prix le plus bas autorisé associé à la remise de lign
 Si aucun prix spécial ne peut être calculé pour l'article de la ligne, alors soit le coût unitaire direct, soit le prix unitaire à partir de la fiche article est inséré.
 
 ## <a name="to-copy-sales-prices"></a>Pour copier des prix de vente  
-Pour copier des prix de vente, comme les prix appliqués à un client et qui doivent être appliqués à tout un groupe de clients, vous devez lancer le traitement par lots **Suggérer prix vente**. traitement par lots . Ce traitement est accessible sur la page **Feuille prix vente**.    
+Pour copier des prix de vente, comme les prix appliqués à un client et qui doivent être appliqués à tout un groupe de clients, vous devez lancer le traitement par lots **Suggérer prix vente**. traitement par lots . Vous pouvez ajouter une action au traitement par lots sur la page **Feuille prix vente**.    
 
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille prix vente**, puis sélectionnez le lien associé.  
 2.  Sélectionnez l'action **Suggérer prix vente** .  
 3.  Sur le raccourci **Prix vente**, renseignez les champs **Type vente** et **Code vente** avec les prix de vente d'origine à copier.  
 4.  Dans la partie supérieure de la page de demande, indiquez dans les champs **Type vente** et **Code vente** le type et le nom sous lesquels vous souhaitez copier les prix de vente.  
-5.  Pour que le traitement par lots crée des prix, sélectionnez le champ **Créer nouveaux prix**.  
-6.  Choisissez le bouton **OK** pour renseigner les lignes de la page **Feuille prix vente** avec les nouveaux prix proposés, en précisant qu'ils sont applicables au **type ventes** sélectionné.  
+5.  Pour que le traitement par lots crée des prix, activez la case à cocher **Créer nouveaux prix**.  
+6.  Choisissez le bouton **OK** pour renseigner les lignes de la page **Feuille prix vente** avec les nouveaux prix proposés, en précisant qu'ils sont applicables au type vente sélectionné.  
 
 > [!NOTE]  
+>  Ce traitement par lots crée uniquement des propositions ; il n'effectue pas les modifications proposées. Si les propositions vous conviennent et que vous souhaitez les appliquer, c'est-à-dire les insérer sur la page **Prix vente**, choisissez l'action **Implémenter des modifications de prix**, sur la page **Feuille prix vente**.
+
+## <a name="to-bulk-update-item-prices"></a>Pour mettre à jour en bloc des prix d'articles   
+Si vous souhaitez mettre à jour en bloc des prix article, tels que l'augmentation de tous les prix article par un certain pourcentage, vous devez exécuter **Suggérer prix article**. traitement par lots . Vous pouvez rechercher un lien vers le traitement par lots sur la page **Feuille prix vente**.     
+
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille prix vente**, puis sélectionnez le lien associé.   
+2.  Sélectionnez l'action **Suggérer prix article** .   
+3.  Sur le raccourci **Article**, renseignez le champ **N°**, **Groupe comptabilisation de stock** ou d'autres champs avec les prix article d'origine à mettre à jour.   
+4.  Dans la partie supérieure de la page de demande, indiquez dans les champs **Type vente** et **Code vente** le type et le nom sous lesquels vous souhaitez copier les prix de vente.
+5.  Si vous souhaitez que le traitement par lots ajuste automatiquement le prix article proposés, saisissez l'ajustement dans le champ **Facteur appliqué**. Par exemple, vous devez entrer 1,15 dans **Facteur appliqué** pour une augmentation de 15 % des prix unitaires.  
+6.  Pour que le traitement par lots crée des prix, sélectionnez le champ **Créer nouveaux prix**.   
+7.  Choisissez le bouton **OK** pour renseigner les lignes de la page **Feuille prix vente** avec les nouveaux prix proposés, en précisant qu'ils sont applicables au l'**article** sélectionné.   
+
+> [!NOTE]   
 >  Ce traitement par lots crée uniquement des propositions ; il n'effectue pas les modifications proposées. Si les propositions vous conviennent et que vous souhaitez les appliquer, c'est-à-dire les insérer dans la table **Prix vente**, vous pouvez utiliser le traitement par lots **Implémenter nouveaux prix**, accessible via l'onglet **Actions**, dans le groupe **Fonctions**, sur la page **Feuille prix vente**.
 
 ## <a name="see-also"></a>Voir aussi

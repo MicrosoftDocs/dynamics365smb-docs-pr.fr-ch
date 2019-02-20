@@ -11,15 +11,15 @@ ms.search.keywords: sandbox, demo, develop
 ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 6a13eca9f8ad83b82e4b281c9564bdfd0c66f4fb
+ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
+ms.openlocfilehash: 81eb819295a8d2b03f9c53ecd98053d0b1041faa
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/11/2018
 
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
 
-# <a name="create-a-sandbox-environment"></a>Créer un environnement Sandbox
+# <a name="creating-a-sandbox-environment"></a>Créeation d'un environnement Sandbox
 Un environnement Sandbox (aperçu) est une instance hors production de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Isolé de la production, un environnement Sandbox est l'emplacement où vous pouvez explorer, apprendre, démontrer, développer et tester en toute sécurité le service sans que les données et les paramètres de votre environnement de production en soient affectés.
 
 ## <a name="to-create-a-sandbox-environment"></a>Pour créer un environnement Sandbox

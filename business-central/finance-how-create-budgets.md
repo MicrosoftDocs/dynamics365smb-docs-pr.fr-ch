@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 10/01/2018
+ms.date: 01/07/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 4cf8738c7bab09f7bcf900baae54731b6772e7e9
+ms.sourcegitcommit: a98027c3ef3171491f84197897f93cbed4e288c2
+ms.openlocfilehash: ca0648c3c3ccbfb02c910a063e6ac199e7b4b6d4
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 01/07/2019
 
 ---
 # <a name="create-gl-budgets"></a>Créer des budgets comptabilité
@@ -42,9 +42,16 @@ En comptabilité analytique, vous travaillez avec des budgets de coûts de mani�
 7. Répétez les étapes 5 et 6 jusqu'à ce que vous ayez entré tous les montant du budget.  
 
 > [!NOTE]  
->  Sur le raccourci **Filtres**, vous pouvez filtrer les informations sur le budget selon le nombre d'axes budget configurés sous le nom du budget.   
+>  Sur le raccourci **Filtres**, vous pouvez filtrer les informations sur le budget selon le nombre d'axes budget configurés sous le nom du budget.
+
+## <a name="exporting-and-importing-gl-budgets-with-excel"></a>Exportation et importation de budgets comptables vers Excel
+Comme pour la majorité des autres pages, vous pouvez exporter des données des pages de budget vers Excel pour les traiter ou les analyser ultérieurement. Pour plus d'informations, voir [Exportation de vos données métier vers Excel](about-export-data.md).
+
+> [!NOTE]
+> Le plan comptable, sur lequel les budgets comptables sont basés, comportent des lignes de compte de type En-tête qui contiennent le total des lignes sous ceux-ci. Lorsque vous exportez un budget comptable, les données de toutes les lignes sont exportées quel que soit le type de compte. Cependant, seules les données sur les lignes du type de compte Validation peuvent être réimportées. En conséquence : <br /><br /> **Lorsque vous importez un budget comptable, toutes les valeurs qui existaient sur les lignes d'en-têtes seront supprimées.** <br /><br /> Cette fonctionnalité permet d'éviter des totaux erronés après l'importation de données créées ou modifiées dans Excel.<br /><br /> **Scénario** : Vous savez que le nouveau coût des salaires budgétisé sera de 1 200 000 en devise société. Vous souhaitez que le département Paies budgétise trois lignes spécifiques (du type de compte Validation) pour les salariés à temps plein, les salariés à temps partiel et les intérimaires. Les trois lignes sont regroupées sous une ligne d'en-tête Paies.<br /><br />Vous saisissez 1 200 000 sur la ligne d'en-tête, exportez le budget vers Excel, puis envoyez-le au département Paies, en leur indiquant de distribuer les 1 200 000 en devise société.<br /><br /> Le département Paies distribue le montant des trois comptes de validation. Lorsque vous réimportez le budget comptable, les trois comptes sont renseignés avec les nouvelles données Excel, pour une somme de 1 200 000 en devise société, et la ligne d'en-tête est vide.
 
 ## <a name="see-also"></a>Voir aussi
+[Exportation de vos données métier vers Excel](about-export-data.md)  
 [Finances](finance.md)  
 [Veille économique](bi.md)  
 [Configuration de Finance](finance-setup-finance.md)  

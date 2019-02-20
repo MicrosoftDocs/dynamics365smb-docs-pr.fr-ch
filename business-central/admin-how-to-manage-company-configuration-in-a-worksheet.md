@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 12/07/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: e00b99c963669bb8a8577d8277082e5656d45d66
+ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
+ms.openlocfilehash: 1ba27ee0ac252bbe1fd47b900654980df5b18fdf
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/11/2018
 
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Gérer la configuration de la société dans une feuille
@@ -107,6 +107,22 @@ Après avoir ajouté toutes les tables nécessaires à un package configuration,
 
     > [!NOTE]  
     >  Les tables restent dans le package même si elles soient supprimées de la feuille.  
+
+## <a name="to-review-and-customize-existing-database-data"></a>Pour vérifier et personnaliser les données existantes de base de données
+Lors de la création d’un package configuration pour une solution, vous pouvez consulter et personnaliser les données de base de données disponibles pour les adapter aux besoins de votre client. La table de base de données doit être associée à une page.  
+
+## <a name="to-customize-data-in-the-database"></a>Pour personnaliser des données dans la base de données  
+
+1.  Sur la page **Feuille de configuration**, identifiez les tables dont vous souhaitez afficher ou personnaliser les données.  
+
+    > [!NOTE]  
+    >  Assurez-vous que chaque table dispose d’un ID page qui lui est affecté. Pour les tables [!INCLUDE[d365fin](includes/d365fin_md.md)] standard, cette valeur est automatiquement insérée. Pour les tables personnalisées, vous devez fournir l'ID.  
+
+2.  Choisissez l'action **Données base de données**.  
+
+     La page [!INCLUDE[d365fin](includes/d365fin_md.md)] pour la page s’ouvre.  
+
+3.  Révisez les informations disponibles. Modifiez-les selon vos besoins en supprimant les enregistrements qui ne sont pas appropriés ou en ajoutant de nouveaux enregistrements.
 
 ## <a name="see-also"></a>Voir aussi  
 [Configurer une société](admin-set-up-company-configuration.md)  

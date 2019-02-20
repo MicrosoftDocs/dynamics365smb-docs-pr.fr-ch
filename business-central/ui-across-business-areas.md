@@ -13,10 +13,10 @@ ms.search.keywords: feature overview, functionality
 ms.date: 11/21/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 790af74199922a1ce711b1262f2756f5c7788fb2
+ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
+ms.openlocfilehash: 6a42e8039d4b13deac72caf178f67113e582ed36
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 12/11/2018
 
 ---
 # <a name="general-business-functionality"></a>Fonctionnalités marché
@@ -35,6 +35,7 @@ Le tableau suivant répertorie ces secteurs d'activité généraux avec des lien
 | Définir des codes texte standard de façon à étendre le texte standard en ajoutant des lignes supplémentaires et définir des conditions d'utilisation des lignes supplémentaires. |[Ajouter un texte d'article étendu](ui-how-define-ext-text.md) |
 |Créez des tâches pour vous rappeler le travail à faire. Vous pouvez créer des tâches pour vous-même, mais vous pouvez également affecter des tâches à d'autres personne ou avoir une tâche affectée à vous-même par une autre personne de votre organisation.|[Définition des tâches utilisateur](across-user-tasks.md)|
 |Joindre des images, des documents, et autres types de fichiers à toutes les fiches, telles que la fiche article et la fiche projet, et joindre des fichiers à tous les types documents vente et achat.|[Joindre des fichiers aux fiches et aux documents](across-attach-document-master-data.md)|
+|Utilisez vos données Business Central dans Excel.|[Exportation de vos données métier vers Excel](about-export-data.md)| 
 |Le système peut vous aider à effectuer ces tâches plus rapidement et précisément en préremplissant les champs ou en complétant les lignes avec des données que vous devriez sinon calculer et saisir vous-même.|[Permettre à Business Central de proposer des valeurs](ui-let-system-suggest-values.md)|
 |Enregistrez des documents externes, ainsi que leurs fichiers joints, puis créez manuellement des documents connexes ou convertissez automatiquement les fichiers en documents électroniques.|[Documents entrants](across-income-documents.md)|
 |Configurez et utilisez des workflows qui connectent des tâches exécutées par différents utilisateurs ou par le système, telles que la validation automatique. Demander et accorder une approbation pour créer ou valider des documents sont des étapes classiques du workflow.|[Flux de travail](across-workflow.md)|

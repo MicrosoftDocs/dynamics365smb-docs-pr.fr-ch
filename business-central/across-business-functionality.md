@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
-ms.date: 10/01/2018
+ms.date: 01/22/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 1ad174966d8e56eff13d496a7174483fa9f572ee
+ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
+ms.openlocfilehash: d00f8228d5a617ddf601bb1d4ffaf9f42f13e74a
 ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 01/22/2019
 
 ---
 # <a name="business-functionality"></a>Fonctionnalités d'entreprise
@@ -22,9 +22,7 @@ ms.lasthandoff: 03/22/2018
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] comprend des configurations standard pour la plupart des processus entreprise, mais vous pouvez modifier la configuration pour l'adapter aux besoins de votre activité. À partir de votre tableau de bord, vous pouvez accéder aux guides de configuration assistée qui vous permettent de configurer certains scénarios et d'ajouter des fonctionnalités à [!INCLUDE[d365fin](includes/d365fin_md.md)]. Plusieurs modules de fonctionnalités d'entreprise doivent être créés manuellement. Pour plus d'informations, reportez-vous à [Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
-Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.
-
-| Pour | Voir |
+| À | Voir |
 | --- | --- |
 |Effectuer et collecter des paiements, gérer votre trésorerie, échelonner des revenus, préparer la clôture d'exercice et gérer les immobilisations.|[Finances](finance.md)|
 |Obtenir l'analyse des performances de vos activités commerciales par les budgets, des tableaux d'analyse, et des vues d'analyse.|[Veille économique](bi.md)|

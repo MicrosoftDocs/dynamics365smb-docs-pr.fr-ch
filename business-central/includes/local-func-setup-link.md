@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> En fonction de votre pays ou région, un paramétrage supplémentaire peut être nécessaire. Pour plus d'informations, voir la liste des articles associés dans la section [Voir aussi](#see-also).  

@@ -9,10 +9,10 @@ ms.date: 11/06/2018
 ms.reviewer: na
 ms.topic: article
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 313ebe68ae1963e22bc17d53a7c41ae8f090de60
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: f7a217bd61b185586c71d5982d783840dd7ffd2e
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 
@@ -47,8 +47,8 @@ Sur la page Confidentialité au travail et à l'école, vous pouvez également f
 Vous pouvez toujours marquer des personnes comme bloquées pour des raisons de confidentialité et exporter, modifier ou supprimer des transactions, comme expliqué ailleurs dans cet article.  
 
 ## <a name="exporting-data-from-tables-not-classified-by-data-subject"></a>Exportation de données à partir de tables non classées par sujet de données
-Si vous devez exporter des données non classées de manière à pouvoir les exporter automatiquement, par exemple les données de la table Réponses profil, vous devez procéder comme suit : 
--   Demandez-vous si vous souhaitez ou devez vraiment exporter ces données supplémentaires qui n'ont aucun rapport avec le contact, c'est-à-dire sans relation directe avec lui. 
+Si vous devez exporter des données non classées de manière à pouvoir les exporter automatiquement, par exemple les données de la table Réponses profil, vous devez procéder comme suit :
+-   Demandez-vous si vous souhaitez ou devez vraiment exporter ces données supplémentaires qui n'ont aucun rapport avec le contact, c'est-à-dire sans relation directe avec lui.
 -   Ajoutez cette table et cette relation manuellement au package Rapid Start et exportez-les directement à partir du package Rapid Start. Nous générons un package Rapid Start pour vous, afin que vous puissiez le modifier dans de telles situations.
 
 ## <a name="handling-data-about-minors"></a>Gestion des données concernant les mineurs

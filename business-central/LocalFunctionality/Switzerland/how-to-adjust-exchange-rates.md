@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 12/19/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 6fa9440a0273fd781bb88a6e8d4b65c18349bbfe
+ms.sourcegitcommit: aa1e7b13cf6cc56df1a6922a9b123e7cc19580c6
+ms.openlocfilehash: 9d5f3cf7aa65a4a60133545d355fe17ac6a16685
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/19/2018
 
 ---
 # <a name="adjust-exchange-rates"></a>Ajuster taux de change
@@ -51,5 +51,6 @@ Pour plus d'informations sur la TVA et les devises étrangères, voir le site We
 ## <a name="see-also"></a>Voir aussi  
  [Taxe sur la valeur ajoutée, Suisse](swiss-value-added-tax.md)   
  [Taux de TVA pour la Suisse](vat-rates-for-switzerland.md)   
-[Mettre à jour des taux de change devise](../../finance-how-update-currencies.md)
+[Mettre à jour des taux de change devise](../../finance-how-update-currencies.md)  
+[Configurer une devise report supplémentaire](../../finance-how-setup-additional-currencies.md)
 

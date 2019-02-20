@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/26/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 5d90eefb7fe765681a50b906f237e48b67beb935
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: 0a8172f0c8770235291e7b9a29663f15932f38b4
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 # <a name="set-up-data-exchange-definitions"></a>Configurer les définitions d'échange de données
@@ -50,7 +50,7 @@ La création d'une définition d'échange de données implique deux tâches :
     |---------------------------------|---------------------------------------|  
     |**Code**|Saisissez un code pour identifier la définition d'échange de données.|  
     |**Nom**|Saisissez un nom pour la définition d'échange de données.|  
-    |**Type de fichier**|Spécifiez le type de fichier pour lequel la définition d'échange de données est utilisée. Vous pouvez sélectionner trois types de fichier :<br /><br /> -   **XML** : chaînes multicouches de contenu et de balisage entourées de balises indiquant la fonction.<br />-   **Texte variable** : les enregistrements ont une longueur variable et sont séparés par un caractère, comme une virgule ou un point virgule. Également appelé *fichier délimité*.<br />-   **Texte fixe** : enregistrements de même longueur, utilisant les caractères du clavier et chaque enregistrement est sur une ligne distincte. Également appelé *fichier de longueur fixe*.|  
+    |**Type de fichier**|Spécifiez le type de fichier pour lequel la définition d'échange de données est utilisée. Vous pouvez sélectionner quatre types de fichiers :<br /><br /> -   **XML** : chaînes multicouches de contenu et de balisage entourées de balises indiquant la fonction.<br />-   **Texte variable** : les enregistrements ont une longueur variable et sont séparés par un caractère, comme une virgule ou un point virgule. Également appelé *fichier délimité*.<br />-   **Texte fixe** : enregistrements de même longueur, utilisant les caractères du clavier et chaque enregistrement est sur une ligne distincte. Également appelé *fichier de longueur fixe*.<br />- **Json** : chaînes multicouches de contenu dans JavaScript.|  
     |**Type**|Spécifiez pour quel type d'activité la définition d'échange de données est utilisée, par exemple **Exportation de paiement**.|  
     |**Codeunit gestion données**|Spécifiez le codeunit qui transfère les données dans et hors des tables de [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
     |**Codeunit validation**|Spécifiez le codeunit utilisé pour valider les données par rapport aux règles d'entreprise prédéfinies.|  

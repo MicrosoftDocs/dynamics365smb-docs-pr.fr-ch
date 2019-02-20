@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 11/08/2018
+ms.date: 01/24/2019
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 46a37fb00319647ea1c4b4630e4d9369687dd7cf
-ms.openlocfilehash: 26057b4838681b4b6036c4a56aab4fd6d49ac1dd
+ms.sourcegitcommit: c129dd63b3aabeeac15c6684f961e04bd2b08a2a
+ms.openlocfilehash: 9b45c50d2c3e1f1b7eab8cb8269445d61523011b
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/12/2018
+ms.lasthandoff: 01/24/2019
 
 ---
 # <a name="administration"></a>Administration
@@ -45,6 +45,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |Afficher des pages, des codeunits et des requêtes comme des services Web.|[Publication d'un service Web](across-how-publish-web-service.md)|
 |Dans le cadre de la création d'applications connectées entre [!INCLUDE[d365fin](includes/d365fin_md.md)] et des solutions tierces via les API REST, définissez des modèles qui sont utilisés pour remplir les propriétés vides d'une entité lorsque vous créez une action POST via une API.|[Configuration des modèles d'API](admin-configuring-api-template.md)|
 |Chiffrez des données sur [!INCLUDE[d365fin](includes/d365fin_md.md)] Server en générant de nouvelles clés ou en important des clés existantes que vous activez sur le serveur.|[Gestion du chiffrement des données](admin-manage-data-encryption.md)|
+|Connectez Dynamics 365 for Sales à [!INCLUDE[d365fin](includes/d365fin_md.md)] pour obtenir l'intégration transparente entre les relations client et le traitement des commandes dans le processus allant du prospect à l'encaissement.|[Intégration à Dynamics 365 for Sales](marketing-integrate-dynamicscrm.md)|
 
 ## <a name="see-also"></a>Voir aussi
 [Fonctionnalités d'entreprise](across-business-functionality.md)  
