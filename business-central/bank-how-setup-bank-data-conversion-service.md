@@ -29,7 +29,7 @@ Vous pouvez utiliser le service Envestnet Yodlee Bank Feeds au lieu d'importer d
 Pour importer ou exporter des fichiers bancaires, vous devez configurer votre propre compte bancaire et les comptes bancaires de vos fournisseurs. Pour plus d'informations, reportez vous à [Configuration de comptes bancaires](bank-how-setup-bank-accounts.md).
 
 > [!NOTE]  
->   Le service conversion données bancaires peut fixer une limite imposée du nombre de lignes qui peuvent être exportées dans un fichier. Si cette limite est dépassée, vous recevrez un message d'erreur. Il est conseillé que les fichiers de relevé bancaire ne dépassent pas 1 000 lignes, sans quoi le temps de traitement dans le service conversion données bancaires peut augmenter de façon significative.
+> Le service conversion données bancaires peut fixer une limite imposée du nombre de lignes qui peuvent être exportées dans un fichier. Si cette limite est dépassée, vous recevrez un message d'erreur. Il est conseillé que les fichiers de relevé bancaire ne dépassent pas 1 000 lignes, sans quoi le temps de traitement dans le service conversion données bancaires peut augmenter de façon significative.
 
 ## <a name="to-sign-your-company-up-for-the-bank-data-conversion-service"></a>Pour inscrire votre société au service de conversion des données bancaires
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres service conv. données banque**, puis sélectionnez le lien associé.  
