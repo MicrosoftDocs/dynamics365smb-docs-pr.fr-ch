@@ -11,10 +11,10 @@ ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, 
 ms.date: 10/02/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: f46d085eac89743c095b5fd7d73353a5ff248f65
+ms.sourcegitcommit: 63ad387abc0e244602840771bef6ed2ac09f0799
+ms.openlocfilehash: 48fb943e03e2dff3d1ed583872cb989944495f7f
 ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 02/26/2019
 
 ---
 # <a name="set-up-the-bank-data-conversion-service"></a><span data-ttu-id="1d963-103">Configurer le service de conversion de données bancaires</span><span class="sxs-lookup"><span data-stu-id="1d963-103">Set Up the Bank Data Conversion Service</span></span>
@@ -29,7 +29,7 @@ ms.lasthandoff: 11/26/2018
 <span data-ttu-id="1d963-112">Pour importer ou exporter des fichiers bancaires, vous devez configurer votre propre compte bancaire et les comptes bancaires de vos fournisseurs.</span><span class="sxs-lookup"><span data-stu-id="1d963-112">To import or export bank files, you must set up your own bank account and your vendors' bank accounts.</span></span> <span data-ttu-id="1d963-113">Pour plus d'informations, reportez vous à [Configuration de comptes bancaires](bank-how-setup-bank-accounts.md).</span><span class="sxs-lookup"><span data-stu-id="1d963-113">For more information, see [Set Up Bank Accounts](bank-how-setup-bank-accounts.md).</span></span>
 
 > [!NOTE]  
->   <span data-ttu-id="1d963-114">Le service conversion données bancaires peut fixer une limite imposée du nombre de lignes qui peuvent être exportées dans un fichier.</span><span class="sxs-lookup"><span data-stu-id="1d963-114">The bank data conversion service may impose a limit on the number of lines that can be exported in one file.</span></span> <span data-ttu-id="1d963-115">Si cette limite est dépassée, vous recevrez un message d'erreur.</span><span class="sxs-lookup"><span data-stu-id="1d963-115">You will receive an error message if the limit is exceeded.</span></span> <span data-ttu-id="1d963-116">Il est conseillé que les fichiers de relevé bancaire ne dépassent pas 1 000 lignes, sans quoi le temps de traitement dans le service conversion données bancaires peut augmenter de façon significative.</span><span class="sxs-lookup"><span data-stu-id="1d963-116">It is recommended that bank statement files do not exceed 1000 lines as the processing time in the bank data conversion service may otherwise increase significantly.</span></span>
+> <span data-ttu-id="1d963-114">Le service conversion données bancaires peut fixer une limite imposée du nombre de lignes qui peuvent être exportées dans un fichier.</span><span class="sxs-lookup"><span data-stu-id="1d963-114">The bank data conversion service may impose a limit on the number of lines that can be exported in one file.</span></span> <span data-ttu-id="1d963-115">Si cette limite est dépassée, vous recevrez un message d'erreur.</span><span class="sxs-lookup"><span data-stu-id="1d963-115">You will receive an error message if the limit is exceeded.</span></span> <span data-ttu-id="1d963-116">Il est conseillé que les fichiers de relevé bancaire ne dépassent pas 1 000 lignes, sans quoi le temps de traitement dans le service conversion données bancaires peut augmenter de façon significative.</span><span class="sxs-lookup"><span data-stu-id="1d963-116">It is recommended that bank statement files do not exceed 1000 lines as the processing time in the bank data conversion service may otherwise increase significantly.</span></span>
 
 ## <a name="to-sign-your-company-up-for-the-bank-data-conversion-service"></a><span data-ttu-id="1d963-117">Pour inscrire votre société au service de conversion des données bancaires</span><span class="sxs-lookup"><span data-stu-id="1d963-117">To sign your company up for the bank data conversion service</span></span>
 1. <span data-ttu-id="1d963-118">Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres service conv. données banque**, puis sélectionnez le lien associé.</span><span class="sxs-lookup"><span data-stu-id="1d963-118">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Data Conv. Service Setup**, and then choose the related link.</span></span>  
