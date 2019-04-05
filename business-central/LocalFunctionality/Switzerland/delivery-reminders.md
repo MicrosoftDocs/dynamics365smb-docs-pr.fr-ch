@@ -1,23 +1,23 @@
 ---
 title: relances livraison
-description: "Les relances livraison sont utilisées pour suivre les envois des fournisseurs en retard et pour rappeler aux fournisseurs les livraisons en retard."
+description: Les relances livraison sont utilisées pour suivre les envois des fournisseurs en retard et pour rappeler aux fournisseurs les livraisons en retard.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 7b2634ba14ec0429ebc24bcf59f6d9cedeba7754
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a4b9e8d032e95327f1457ec9695df855e175b9a0
-ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827284"
 ---
 # <a name="delivery-reminders"></a>relances livraison
 Les relances livraison sont utilisées pour suivre les envois des fournisseurs en retard et pour rappeler aux fournisseurs les livraisons en retard. Pour créer des relances livraison, vous devez configurer ce qui suit :  
@@ -57,4 +57,3 @@ Pour plus d'informations, voir [Imprimer des rapports de test pour les relances 
  [Créer manuellement des relances livraison](how-to-create-delivery-reminders-manually.md)   
  [Émettre des relances livraison](how-to-issue-delivery-reminders.md)   
  [Imprimer des rapports de test pour les relances livraison](how-to-print-test-reports-for-delivery-reminders.md)
-

@@ -1,23 +1,23 @@
 ---
-title: "Procédure : Affecter des codes de relance livraison à des fournisseurs"
-description: "Afin que vous puissiez activer les relances livraison pour les achats en retard, vous devez affecter des conditions de relance livraison à des fournisseurs."
+title: 'Procédure : Affecter des codes de relance livraison à des fournisseurs'
+description: Afin que vous puissiez activer les relances livraison pour les achats en retard, vous devez affecter des conditions de relance livraison à des fournisseurs.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 55d364650b9ac3942ad8e643ff3cac693a39261e
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 396364de0f6bb90b503845ab85add02552243de4
-ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827286"
 ---
 # <a name="assign-delivery-reminder-codes-to-vendors"></a>Affecter des codes de relance livraison à des fournisseurs
 Afin que vous puissiez activer les relances livraison pour les achats en retard, vous devez affecter des conditions de relance livraison à des fournisseurs. Pour plus d'informations, voir [Relances livraison](delivery-reminders.md).  
@@ -36,4 +36,3 @@ Afin que vous puissiez activer les relances livraison pour les achats en retard,
  [Configurer les conditions, niveaux et textes de relance livraison.](how-to-set-up-delivery-reminder-terms-levels-and-text.md)   
  [Créer manuellement des relances livraison](how-to-create-delivery-reminders-manually.md)   
  [Émettre des relances livraison](how-to-issue-delivery-reminders.md)
-

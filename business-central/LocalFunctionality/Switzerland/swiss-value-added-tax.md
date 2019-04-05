@@ -1,23 +1,23 @@
 ---
-title: "Taxe sur la valeur ajoutée, Suisse"
-description: "Les améliorations comprennent les fonctions spéciales de déclaration de TVA en Suisse."
+title: Taxe sur la valeur ajoutée, Suisse
+description: Les améliorations comprennent les fonctions spéciales de déclaration de TVA en Suisse.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/15/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 7db6bce91246e2b76240f6641790ff44294c3522
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827265"
 ---
 # <a name="swiss-value-added-tax"></a>Taxe sur la valeur ajoutée, Suisse
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] inclut les améliorations suivantes à la déclaration de TVA en Suisse :  
@@ -41,4 +41,3 @@ Des informations supplémentaires, telles que le taux de TVA et le montant en de
  [Taux de TVA pour la Suisse](vat-rates-for-switzerland.md)   
  [Créer et imprimer une déclaration de TVA, Suisse](how-to-create-and-print-a-swiss-vat-statement.md)   
  [Fonctionnalité locale, Suisse](switzerland-local-functionality.md)   
-

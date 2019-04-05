@@ -1,23 +1,23 @@
 ---
-title: "Procédure : Copier des articles existants pour créer de nouveaux articles"
-description: "Vous pouvez regroupez des articles avec des paramètres similaires dans un catalogue article. Lorsque vous ajoutez un nouvel article, pour gagner du temps, vous pouvez utiliser **Copier article** pour copier un article existant et l'utiliser comme modèle pour un nouvel article."
+title: 'Procédure : Copier des articles existants pour créer de nouveaux articles'
+description: Vous pouvez regroupez des articles avec des paramètres similaires dans un catalogue article. Lorsque vous ajoutez un nouvel article, pour gagner du temps, vous pouvez utiliser **Copier article** pour copier un article existant et l'utiliser comme modèle pour un nouvel article.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 5bb1b96fb56878d4c120e5e5d804e5eb75be810e
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827263"
 ---
 # <a name="copy-existing-items-to-new-items"></a>Copier des articles existants pour créer de nouveaux articles
 Vous pouvez regroupez des articles avec des paramètres similaires dans un catalogue article. Lorsque vous ajoutez un nouvel article, pour gagner du temps, vous pouvez utiliser la fonction **Copier article** pour copier un article existant et l'utiliser comme modèle pour un nouvel article.  
@@ -42,4 +42,3 @@ Vous pouvez regroupez des articles avec des paramètres similaires dans un catal
 
 ## <a name="see-also"></a>Voir aussi  
 [Configuration de stock](../../inventory-setup-inventory.md)
-

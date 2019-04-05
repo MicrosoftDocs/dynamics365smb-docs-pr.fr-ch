@@ -1,23 +1,23 @@
 ---
 title: "Procédure : Imprimer la liste des prélèvements de stock d'une commande vente"
-description: "Vous pouvez imprimer une liste des prélèvements de stock directement à partir d'une commande vente."
+description: Vous pouvez imprimer une liste des prélèvements de stock directement à partir d'une commande vente.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 755996e96561891388e226fbc4138f26c7b8f212
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 048a61e4736f368027a3c1f59199b3c543b5d224
-ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827303"
 ---
 # <a name="print-an-inventory-picking-list-from-a-sales-order"></a>Imprimer la liste des prélèvements de stock d'une commande vente
 Vous pouvez imprimer une liste des prélèvements de stock directement à partir d'une commande vente. La liste des prélèvements affiche la liste des articles avec les informations suivantes :  
@@ -41,4 +41,3 @@ La liste des prélèvements inclut uniquement les articles dont la quantité d'e
  [Documents vente et Documents achat, Suisse](swiss-purchase-documents-and-sales-documents.md)   
  [Importer les codes postaux suisses](how-to-import-swiss-post-codes.md)   
  [Imprimer les commandes achat et vente lors d'une validation par lots](how-to-print-sales-and-purchase-orders-during-batch-posting.md)
-

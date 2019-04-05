@@ -1,23 +1,23 @@
 ---
-title: "Procédure : Créer et imprimer une déclaration de TVA, Suisse"
-description: "Selon les informations spécifiées dans la page Paramètres compta. TVA, Business Central peut créer automatiquement une nouvelle configuration de relevé de TVA pour le report TVA réalisé. Avant de continuer avec les procédures de cette rubrique, assurez-vous que vous avez configuré les paramètres comptabilisation TVA ayant des valeurs spécifiées pour les champs de chiffre d'affaires ventes et achats."
+title: 'Procédure : Créer et imprimer une déclaration de TVA, Suisse'
+description: Selon les informations spécifiées dans la page Paramètres compta. TVA, Business Central peut créer automatiquement une nouvelle configuration de relevé de TVA pour le report TVA réalisé. Avant de continuer avec les procédures de cette rubrique, assurez-vous que vous avez configuré les paramètres comptabilisation TVA ayant des valeurs spécifiées pour les champs de chiffre d'affaires ventes et achats.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
 ms.openlocfilehash: cb555b9fccc4a39acd629878818dd0301e1b034b
-ms.contentlocale: fr-ch
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827305"
 ---
 # <a name="create-and-print-a-swiss-vat-statement"></a>Créer et imprimer une déclaration de TVA, Suisse
 Selon les informations spécifiées dans la page **Paramètres compta. TVA**, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] peut créer automatiquement une nouvelle configuration de relevé de TVA pour le report TVA réalisé. Avant de continuer avec les procédures de cette rubrique, assurez-vous que vous avez configuré les paramètres comptabilisation TVA ayant des valeurs spécifiées pour les champs de chiffre d'affaires ventes et achats.  
@@ -53,4 +53,3 @@ Selon les informations spécifiées dans la page **Paramètres compta. TVA**, [!
 
 ## <a name="see-also"></a>Voir aussi  
  [Taxe sur la valeur ajoutée, Suisse](swiss-value-added-tax.md)
-

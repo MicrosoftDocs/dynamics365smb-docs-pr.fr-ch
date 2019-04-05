@@ -1,23 +1,23 @@
 ---
 title: "Procédure : Imprimer les commandes achat et vente lors d'une validation par lots"
-description: "Une fois les commandes vente et achat validées par lots, vous pouvez imprimer les documents validés correspondants."
+description: Une fois les commandes vente et achat validées par lots, vous pouvez imprimer les documents validés correspondants.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: b13e55ad615dc31e17d479e011cf81b544ef5a3e
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827268"
 ---
 # <a name="print-sales-and-purchase-orders-during-batch-posting"></a>Imprimer les commandes achat et vente lors d'une validation par lots
 Une fois les commandes vente et achat validées par lots, vous pouvez imprimer les documents validés correspondants.  
@@ -34,4 +34,3 @@ La procédure suivante décrit comment imprimer des commandes vente, mais les m�
 
 ## <a name="see-also"></a>Voir aussi  
 [Facturer des ventes](../../sales-how-invoice-sales.md)
-

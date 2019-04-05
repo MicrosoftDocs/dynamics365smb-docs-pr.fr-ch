@@ -1,23 +1,23 @@
 ---
-title: "Procédure : Exporter des paiements en mode LSV"
-description: "Vous pouvez exporter ou écrire des fichiers Lastschrift Verfahren (LSV +) contenant des informations sur les paiements après la fermeture du prélèvement LSV. Vous pouvez envoyer les fichiers générés à la banque sur un disque, ou utiliser un transfert de fichiers électronique tel que votre logiciel de banque en ligne ou un portail Internet."
+title: 'Procédure : Exporter des paiements en mode LSV'
+description: Vous pouvez exporter ou écrire des fichiers Lastschrift Verfahren (LSV +) contenant des informations sur les paiements après la fermeture du prélèvement LSV. Vous pouvez envoyer les fichiers générés à la banque sur un disque, ou utiliser un transfert de fichiers électronique tel que votre logiciel de banque en ligne ou un portail Internet.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 753b1fb7dcade062228e1d14d5bb9a19ffd0703a
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827283"
 ---
 # <a name="export-payments-using-lsv"></a>Exporter des paiements en mode LSV
 Vous pouvez exporter ou écrire des fichiers Lastschrift Verfahren (LSV +) contenant des informations sur les paiements après la fermeture du prélèvement LSV. Vous pouvez envoyer les fichiers générés à la banque sur un disque, ou utiliser un transfert de fichiers électronique tel que votre logiciel de banque en ligne ou un portail Internet.  
@@ -41,4 +41,3 @@ Vous pouvez exporter ou écrire des fichiers Lastschrift Verfahren (LSV +) conte
  [Traiter un prélèvement LSV](how-to-process-an-lsv-collection.md)   
  [Fermer prélèvement LSV](how-to-close-an-lsv-collection.md)   
  [Valider les paiements LSV+](how-to-post-lsv-payments.md)
-

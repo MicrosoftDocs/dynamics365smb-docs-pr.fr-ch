@@ -1,23 +1,23 @@
 ---
-title: "Procédure : Imprimer des factures ESR"
-description: "Vous pouvez imprimer un bordereau paiement Einzahlungsschein mit Referenznummer (ESR) de plusieurs façons."
+title: 'Procédure : Imprimer des factures ESR'
+description: Vous pouvez imprimer un bordereau paiement Einzahlungsschein mit Referenznummer (ESR) de plusieurs façons.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 9f345827f1cc705727f80d21a00839f221044059
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827277"
 ---
 # <a name="print-esr-invoices"></a>Imprimer des factures ESR
 Vous pouvez imprimer un bordereau paiement Einzahlungsschein mit Referenznummer (ESR) des façons suivantes :  
@@ -51,4 +51,3 @@ Vous pouvez également réimprimer l'état ESR de la facture vente ou l'état du
 ## <a name="see-also"></a>Voir aussi  
  [Paiements électroniques à l'aide de ESR+, Suisse](swiss-electronic-payments-using-esr.md)   
  [Importer des paiements ESR](how-to-import-esr-payments.md)
-

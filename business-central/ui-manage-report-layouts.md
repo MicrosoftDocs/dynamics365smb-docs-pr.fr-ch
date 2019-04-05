@@ -1,8 +1,8 @@
 ---
-title: "Présentations d'état intégrées et personnalisées pour les états et les documents | Microsoft Docs"
-description: "Utilisez des présentations d'états pour personnaliser les documents, par exemple, pour personnaliser la police, le logo, ou la mise en page des fichiers PDF que vous envoyez aux clients."
+title: Présentations d'état intégrées et personnalisées pour les états et les documents | Microsoft Docs
+description: Utilisez des présentations d'états pour personnaliser les documents, par exemple, pour personnaliser la police, le logo, ou la mise en page des fichiers PDF que vous envoyez aux clients.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 10/01/2018
 ms.author: solsen
+ms.openlocfilehash: 64c2c714afc3e052d3323dbcbddce4ee3ab5c98d
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3a8f17e86241a49ec65233b42ac0fb647462a8ab
-ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852416"
 ---
 # <a name="managing-report-and-document-layouts"></a>Gestion des présentations de rapport et de document
 Une présentation de rapport contrôle le contenu et le format du rapport, dont les champs de données d'un ensemble de données de rapport apparaissant sur le rapport et la façon ils sont organisés, le style de texte, les images, et plus encore. À partir de [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez modifier la présentation utilisée sur un rapport, créer une nouvelle présentation ou modifier les présentations existantes.
@@ -37,7 +37,7 @@ Un [!INCLUDE[d365fin](includes/d365fin_md.md)] peut être créé avec plusieurs 
 Il existe deux types de présentations que vous pouvez utiliser pour les états : Word et RDLC.
 
 ## <a name="word-report-layout-overview"></a>Aperçu de la présentation d'état Word
-Une présentation de rapport Word est basé sur un document Word (type de fichier .docx). Les présentations d'état Word vous permettent de concevoir des présentations d'état à l'aide de Microsoft Word 2013 ou une version ultérieure. Une présentation d'état Word détermine le contenu de l'état, contrôle la manière dont les éléments de contenu sont organisés ainsi que leur apparence. Un document de présentation de rapport Word utilisera généralement des tableaux pour organiser le contenu, dans lequel les cellules peuvent contenir des champs de données, du texte ou des images.
+Une présentation de rapport Word est basé sur un document Word (type de fichier .docx). Les présentations d'état Word vous permettent de concevoir des présentations d'état à l'aide de Microsoft Word 2013 ou une version ultérieure. Une présentation d'état Word détermine le contenu de l'état, contrôle la manière dont les éléments de contenu sont organisés ainsi que leur apparence. Un document de présentation de rapport Word utilisera généralement des tableaux pour organiser le contenu, dans lequel les cellules peuvent contenir des champs de données, du texte ou des images.
 
  ![Exemple de document de présentation de rapport Word pour NAV](media/nav_wordreportlayout_edit_in_word_example.png "NAV_WordReportLayout_Edit_In_Word_Example")  
 
@@ -64,5 +64,4 @@ Pour plus d'informations sur la manière d'utiliser l'une ou l'autre présentati
 [Créer et modifier une présentation de rapport ou de document personnalisée](ui-how-create-custom-report-layout.md)  
 [Importer et exporter une présentation de rapport ou de document personnalisée](ui-how-import-and-export-report-layout.md)  
 [Envoyer des documents par e-mail](ui-how-send-documents-email.md)  
-[Utilisation des états](ui-work-report.md)  
-
+[Utilisation des états et des traitements par lots](ui-work-report.md)  

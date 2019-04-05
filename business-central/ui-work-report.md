@@ -1,8 +1,8 @@
 ---
-title: "Planification d'un état à exécuter à une date et une heure spécifiques | Microsoft Docs"
-description: "En savoir plus sur l'entrée d'un état dans une file d'attente de projets et la planification de son traitement à une date et à une heure spécifiques."
+title: Planification d'un état à exécuter à une date et une heure spécifiques | Microsoft Docs
+description: En savoir plus sur l'entrée d'un état dans une file d'attente de projets et la planification de son traitement à une date et à une heure spécifiques.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,15 +12,20 @@ ms.workload: na
 ms.search.keywords: task, process, report
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: 98d51b10d3ca415a463b58405cb3c4f2449b75ad
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 706464cf1b9a264f7575156c7835540ce3c254b0
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852439"
 ---
-# <a name="working-with-reports"></a>Utilisation des états
+# <a name="working-with-reports-and-batch-jobs"></a>Utilisation des états et des traitements par lots
 Un état regroupe des informations en fonction d'un ensemble de critères spécifié, et organise et présente les informations dans un format imprimable et facilement lisible. Il existe de nombreux états accessibles tout au long de l'application. Les états fournissent généralement des informations relatives au contexte de la page où vous vous trouvez. Par exemple, la page **Client** comprend des états pour les 10 principaux clients et les statistiques de vente, et plus encore.
+
+Les traitements par lots sont plus ou moins identiques aux états mais ils ont pour objectif d'exécuter un processus. Par exemple, le traitement par lots **Créer des relances** crée des relances pour les clients avec des paiements échus.  
+
+> [!NOTE]
+> Cette rubrique fait référence surtout aux « états », mais des informations similaires s'appliquent aux traitements par lots.
 
 Vous pouvez rechercher des états dans l'onglet **États** sur les pages sélectionnées, ou utiliser la recherche ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") pour rechercher les états par nom.
 
@@ -29,6 +34,10 @@ Vous pouvez rechercher des états dans l'onglet **États** sur les pages sélect
 Lorsque vous ouvrez un état, une page s'affiche généralement pour vous permettre de définir plusieurs options et filtres qui déterminent les éléments à inclure dans l'état. Cette page est appelée la page de demande de l'état. Par exemple, la page de demande de l'état vous permet de créer un état pour un client spécifique, une plage de dates spécifique, ou encore de définir l'ordre des informations dans l'état. Voici un exemple de page de demande de l'état :
 
 ![Options d'état](media/report_options.png "Options d'état")
+
+> [!Caution]
+> La section **Afficher résultats** sur une page de demande fournit une capacité de filtrage générique pour les états. Ces filtres sont optionnels.<br /><br /> Certains états ignoreront ces filtres, ce qui signifie que quel que soit le filtre défini dans la section **Afficher résultats**, la sortie de l'état est identique. Il est impossible de fournir une liste des champs ignorés dans quels états, vous devez expérimenter avec des filtres lorsque les vous utiliserez.<br /><br />
+**Exemple** : Lorsque vous utilisez le traitement par lots **Créer relance**, un filtre pour le champ **Écritures comptables client** de **Niveau dernière relance émise** sera ignoré car les filtres sont fixes pour ce traitement par lots.
 
 ### <a name="SavedSettings"></a>Utilisation des paramètres enregistrés
 Avec certains états, selon la manière dont ils sont conçus, la page d'état peut inclure la section **Paramètres enregistrés** qui contient une ou plusieurs entrées dans la zone **Utiliser les valeurs par défaut de**. Les entrées de cette zone sont appelées *paramètres enregistrés*. Un paramètre enregistré est fondamentalement un groupe d'options et de filtres prédéfini que vous pouvez appliquer à l'état avant d'en afficher un aperçu ou de l'envoyer vers un fichier. L'écriture de paramètres enregistrés appelée **Options et filtres récemment utilisés** est toujours disponible. Cette écriture permet de faire en sorte que l'état utilise les options et les filtres qui ont été utilisés la dernière fois que vous l'avez regardé.
@@ -47,7 +56,7 @@ Vous pouvez ajouter d'autres filtres en définissant les zones **Ajouter**. Lors
 
 Selon le champ de type que vous filtrez, vous pouvez spécifier les critères de filtre pour rechercher une correspondance exacte, une correspondance partielle, une plage de valeurs, etc. Pour obtenir de l'aide sur la configuration des filtres, voir :
 -   [filtres](ui-enter-criteria-filters.md#FilterCriteria) ;
--   [Saisie de plages de dates](ui-enter-date-ranges.md)
+-   [Utilisation de dates civiles et les heures](ui-enter-date-ranges.md)
 
 ## <a name="previewing-a-report"></a>Affichage de l'aperçu d'un état
 Sélectionnez **Aperçu** pour visualiser l'état dans le navigateur Internet. Pointez une zone de l'état pour afficher la barre de menu.  
@@ -88,4 +97,3 @@ Une présentation d'état contrôle les éléments affichés sur un état, leur 
 [Spécifier la sélection de l'imprimante pour les états](ui-specify-printer-selection-reports.md)  
 [Gestion des présentations de rapport et de document](ui-manage-report-layouts.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

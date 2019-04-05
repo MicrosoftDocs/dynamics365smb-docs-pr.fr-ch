@@ -1,7 +1,7 @@
 ---
-title: "Créer et gérer des articles de catalogue | Microsoft Docs"
-description: "Décrit comment commercialiser des articles de votre liste de fournisseurs d'articles mais pas dans votre propre liste d'articles."
-documentationcenter: 
+title: Créer et gérer des articles de catalogue | Microsoft Docs
+description: Décrit comment commercialiser des articles de votre liste de fournisseurs d'articles mais pas dans votre propre liste d'articles.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: non-inventoriable
-ms.date: 10/01/2018
+ms.date: 03/12/2019
 ms.author: sgroespe
+ms.openlocfilehash: 780aabb1bcd37cfd912f84da7b956a146a918eef
+ms.sourcegitcommit: 3291f0d92c1f2af3bbbefb90d53af4db72fe1a93
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: c65d498fb63668a6cd83f61303ae99c54d0a2452
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "836150"
 ---
 # <a name="work-with-catalog-items"></a>Utiliser des articles de catalogue
 Vous pouvez proposer certains articles à vos clients pour leur rendre service, que vous ne souhaitez pas gérer dans votre système tant que vous ne commencez pas à les commercialiser. Lorsque vous souhaitez commencer à gérer de tels articles dans votre système, vous pouvez les convertir en fiches article normales de deux façons.
@@ -66,11 +66,10 @@ Une nouvelle fiche article pré-remplie avec les informations de l'article de ca
 Vous pouvez ensuite remplir ou modifier les champs sur la nouvelle fiche article, le cas échéant. Pour plus d'informations, reportez vous à [Enregistrer de nouveaux articles](inventory-how-register-new-items.md).
 
 > [!NOTE]  
->   Un enregistrement de référence externe article est automatiquement créé pour le fournisseur de l'article entre le numéro article fournisseur et votre nouveau numéro article.
+>   Un enregistrement de référence externe article est automatiquement créé pour le fournisseur de l'article entre le numéro article fournisseur et votre nouveau numéro article. Pour plus d'informations, voir [Utiliser les références externes article](inventory-how-use-item-cross-refs.md).
 
 ## <a name="see-also"></a>Voir aussi
 [Enregistrer de nouveaux articles](inventory-how-register-new-items.md)  
 [Créer des commandes spéciales](sales-how-to-create-special-orders.md)|  
-[STOCKS ET EN-COURS](inventory-manage-inventory.md)  
+[Inventaire](inventory-manage-inventory.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

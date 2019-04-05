@@ -1,8 +1,8 @@
 ---
-title: "Créer et exécuter un traitement par lots| Microsoft Docs"
-description: "Vous exécutez des traitements par lots pour traiter les données et mettre à jour les informations, par exemple, pour élaborer des activités périodiques de comptabilité, ou effectuer des calculs."
+title: Créer et exécuter un traitement par lots| Microsoft Docs
+description: Vous exécutez des traitements par lots pour traiter les données et mettre à jour les informations, par exemple, pour élaborer des activités périodiques de comptabilité, ou effectuer des calculs.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: task, process
 ms.date: 10/01/2018
 ms.author: solsen
+ms.openlocfilehash: 260cd7761b130bbe3748de3cc109a9f4f56c1384
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 7357ae501c4b53ae66869bbbc1ce415a3996f542
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853273"
 ---
 # <a name="run-batch-jobs"></a>Exécuter des traitements par lots
 Un traitement par lots est une routine qui traite les données par lots, par exemple le traitement par lots **Ajuster taux de change**. Certains traitements par lots exécutent des activités périodiques de comptabilité, telles que la clôture des comptes de gestion à la fin d'un exercice comptable. De nombreux traitements par lots exécutent des calculs, telles que le calcul des intérêts de retard, l'ajustement du taux de change et le calcul des prix unitaires.
@@ -31,6 +31,5 @@ Un traitement par lots est similaire à un état, sauf qu'il utilise les résult
 4. Pour démarrer le traitement par lots, cliquez sur le bouton **OK**.
 
 ## <a name="see-also"></a>Voir aussi
-[Recherche, filtrage et tri de données](ui-enter-criteria-filters.md)  
+[Tri, recherche et filtrage de listes](ui-enter-criteria-filters.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,6 +1,6 @@
 ---
-title: "Aperçu des tâches permettant de paramétrer Business Central | Microsoft Docs"
-description: "Décrit les tâches permettant de paramétrer, d'initialiser et de configurer Business Central selon vos besoins."
+title: Aperçu des tâches permettant de paramétrer Business Central | Microsoft Docs
+description: Décrit les tâches permettant de paramétrer, d'initialiser et de configurer Business Central selon vos besoins.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: configure, initialize
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: 3085ef58adf25ae7212ac17894fa54e5c2f8794e
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 2c766654faad241f57cd4a99648bb349e4258857
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852094"
 ---
 # <a name="setting-up-included365finincludesd365finmdmd"></a>Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] comprend des configurations standard pour la plupart des processus entreprise, mais vous pouvez les modifier pour les adapter aux besoins de votre société.
@@ -40,10 +40,20 @@ Certaines fonctionnalités (générales ou pour des processus d'entreprise spéc
 | Configurer comment assurer, maintenir et amortir les immobilisations, et comment enregistrer les coûts des immobilisations dans la comptabilité de la société. |[Paramétrage d'immobilisations](fa-setup.md) |
 |Définir les règles et valeurs générales pour les processus entrepôt et le traitement spécifique au niveau de chaque magasin.|[Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)|
 |Préparer les nomenclatures de production et les gammes pour définir la façon dont les articles finis sont produits, et préparer les postes ou centres de charge pour effectuer les opérations requises.|[Paramétrage de la production](production-configure-production-processes.md)|
+|Définir les services, les symptômes, et les codes panne standard et configurer les articles de service, les ressources, et la documentation nécessaires pour fournir le service à vos clients.|[Paramétrage de la gestion des services](service-setup-service.md)|
 |Consultez les meilleures pratiques pour définir des articles pour les coûts de stock et la planification de l'approvisionnement.|[Configuration des modules complexes à l'aide des meilleures pratiques](set-up-complex-application-areas-using-best-practices.md)|
-|Configurer un serveur SMTP pour activer une communication entrante et sortante de [!INCLUDE[d365fin](includes/d365fin_md.md)] par e-mail.| [Paramétrage de la messagerie manuellement ou à l'aide de la configuration assistée](admin-how-setup-email.md)|
+|Améliorez la qualité de l'implémentation et raccourcissez le temps de déploiement en utilisant une panoplie d'outils pour configurer une nouvelle société à l'aide d'assistants, de modèles, de feuilles de calcul, et des questionnaires client.|[Configuration d'une société avec RapidStart Services](admin-set-up-a-company-with-rapidstart.md)|
+|Transférez les clients, les fournisseurs, le stock, les informations de comptes bancaires d'un autre système dans [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Importation des données métier à partir d'autres systèmes financiers](across-import-data-configuration-packages.md).|
+|Utilisez les complément Outlook de Business Central, vous pouvez afficher des informations financières associées à des clients et des fournisseurs ou créer et envoyer des documents financiers, comme des devis et des factures.|[Utilisation de Business Central en tant que boîte de réception professionnelle dans Outlook](admin-outlook.md)|
+|Obtenez un aperçu de vos données Business Central avec Power BI et les packs de contenu Business Central.|[Activation de vos données commerciales pour Power BI](admin-powerbi.md)|
+|Utilisez vos données Business Central en tant que partie du flux de travail dans Microsoft Flow.|[Utilisation de Business Central dans un flux automatisé](across-how-use-financials-data-source-flow.md)|
+|Rendez vos données Business Central disponibles sous forme de source de données dans PowerApps.|[Connexion à vos données Business Central pour générer un application professionnelle à l'aide de PowerApps](across-how-use-financials-data-source-powerapps.md)|
+|Utilisez des guides dédiés de migration Quickbooks.|[Changement d'une application QuickBooks à Business Central](across-quickbooks-to-business-edition.md)|
+|Accédez à vos données Business Central à partir de votre périphérique mobile.|[Obtention de Business Central sur votre périphérique mobile](install-mobile-app.md)|
+|Effectuez la facturation en vrac des rendez-vous créés dans Bookings.|[Facturation en vrac pour Microsoft Bookings](finance-bookings.md)|
+|Configurer un serveur SMTP pour activer une communication entrante et sortante de [!INCLUDE[d365fin](includes/d365fin_md.md)] par e-mail.| [Paramétrer la messagerie manuellement ou à l'aide de la configuration assistée](admin-how-setup-email.md)|
 | Configurer des codes d'identification uniques pour les enregistrements, tel que les fiches, les documents, et les lignes feuille, pour les suivre dans le système. |[Création des souches de numéros](ui-create-number-series.md) |
-|Configurez et affecter un calendrier principal à votre société et à ses partenaires commerciaux, tels que ses clients, ses fournisseurs ou ses magasins. Les dates de livraison et de réception sur les lignes commande vente, commande achat, ordre de transfert, et ordre de fabrication sont ensuite calculées en fonction des jours ouvrés définis dans le calendrier.|[Paramétrage de calendriers principaux](across-how-to-assign-base-calendars.md)|  
+|Configurez et affecter un calendrier principal à votre société et à ses partenaires commerciaux, tels que ses clients, ses fournisseurs ou ses magasins. Les dates de livraison et de réception sur les lignes commande vente, commande achat, ordre de transfert, et ordre de fabrication sont ensuite calculées en fonction des jours ouvrés définis dans le calendrier.|[Configurer des calendriers principaux](across-how-to-assign-base-calendars.md)|  
 
 Certaines zones nécessitent que vous soyez un administrateur dans votre abonnement [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, voir [Administration](admin-setup-and-administration.md).  
 
@@ -64,5 +74,3 @@ Certaines zones nécessitent que vous soyez un administrateur dans votre abonnem
 [Mise en route](product-get-started.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
-

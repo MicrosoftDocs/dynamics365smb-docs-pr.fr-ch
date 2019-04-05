@@ -1,23 +1,22 @@
 ---
-title: "Procédure de saisie de données dans les champs | Microsoft Docs"
-description: "Il existe un grand nombre de fonctions générales qui vous permettent d’entrer des données de façon rapide et simple. Les fonctions générales d’entrée des données sont décrites dans cette rubrique."
+title: Procédure de saisie de données dans les champs | Microsoft Docs
+description: Il existe un grand nombre de fonctions générales qui vous permettent d’entrer des données de façon rapide et simple. Les fonctions générales d’entrée des données sont décrites dans cette rubrique.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: f1bd2fb92f787d52c5bbab8c2210b9d424c1ffd5
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 4354e28522d359cf9fa6178c4a1919831dcc52db
-ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852508"
 ---
-
 # <a name="entering-data"></a>Saisie de données
 Il existe un grand nombre de fonctions générales qui vous permettent d’entrer des données de façon rapide et simple. Les fonctions générales de saisie de données sont décrites dans cet article.  
 
@@ -126,8 +125,8 @@ Vous pouvez entrer des dates et des heures dans tous les champs affectés spéci
 |0530|05:30:00|  
 |5:30:5|05:30:05|  
 |053005|05:30:05|  
-|5:30:5,50|05:30:05,5|  
-|053005050|05:30:05,05|  
+|5:30:5,50|05:30:05.5|  
+|053005050|05:30:05.05|  
 
  Vous devez saisir deux chiffres par unité temporelle si vous n'utilisez pas de séparateur.  
 
@@ -145,7 +144,7 @@ Vous pouvez entrer des dates et des heures dans tous les champs affectés spéci
 |11/12|11-mois en cours-année en cours 12:00:00|  
 |1112 12|11-12-année en cours 12:00:00|  
 |a ou date du jour|date du jour 00:00:00|  
-|a heure|date du jour heure réelle|  
+|heure h|date du jour heure réelle|  
 |a 10:30|date du jour 10:30:00|  
 |a 3:3:3|date du jour 03:03:03|  
 |t ou date de travail|date de travail 00:00:00|  
@@ -258,6 +257,5 @@ Vous pouvez entrer des dates et des heures dans tous les champs affectés spéci
 <!--OnPrem > [!CAUTION]  
 >  If the location uses a base calendar, then the date formula that you enter in, for example, the **Shipping Time** field is interpreted according to the calendar working days. For example, a 1W means seven working days. For more information, see Base Calendar Card.-->  
 ## <a name="see-also"></a>Voir aussi  
- [Recherche, filtrage et tri de données](ui-enter-criteria-filters.md)  
+ [Tri, recherche et filtrage de listes](ui-enter-criteria-filters.md)  
  [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,23 +1,23 @@
 ---
-title: "Procédure : Importer les codes postaux suisses"
-description: "Vous pouvez réimporter le dernier fichier des codes postaux et l'utiliser pour mettre la table Code postal à jour. Le fichier Code postal peut être téléchargé du site Web de la Poste suisse. Après avoir importé le dernier code postal, vous pouvez définir des codes postaux pour des clients ou des fournisseurs."
+title: 'Procédure : Importer les codes postaux suisses'
+description: Vous pouvez réimporter le dernier fichier des codes postaux et l'utiliser pour mettre la table Code postal à jour. Le fichier Code postal peut être téléchargé du site Web de la Poste suisse. Après avoir importé le dernier code postal, vous pouvez définir des codes postaux pour des clients ou des fournisseurs.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
 ms.openlocfilehash: 13fa83e1cc2f75c8a7de6790ff745d6686e8308f
-ms.contentlocale: fr-ch
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827285"
 ---
 # <a name="import-swiss-post-codes"></a>Importer les codes postaux suisses
 Vous pouvez réimporter le dernier fichier des codes postaux et l'utiliser pour mettre la table **Code postal** à jour. Le fichier Code postal peut être téléchargé du site Web de la [Poste suisse](https://go.microsoft.com/fwlink/?LinkId=150292). Après avoir importé le dernier code postal, vous pouvez définir des codes postaux pour des clients ou des fournisseurs. Pour plus d'informations, reportez vous à [Enregistrer de nouveaux fournisseurs](../../purchasing-how-register-new-vendors.md).  
@@ -49,4 +49,3 @@ La procédure suivante décrit comment définir les codes postaux pour les clien
  [Imprimer la liste des prélèvements de stock d'une commande vente](how-to-print-an-inventory-picking-list-from-a-sales-order.md)   
  [Imprimer les commandes achat et vente lors d'une validation par lots](how-to-print-sales-and-purchase-orders-during-batch-posting.md)   
  [Enregistrer un nouveau fournisseur](../../purchasing-how-register-new-vendors.md)  
-

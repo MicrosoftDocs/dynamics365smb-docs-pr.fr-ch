@@ -1,1 +1,1 @@
-Dynamics 365 — Accountant Hub
+Dynamics 365 — Accountant Hub

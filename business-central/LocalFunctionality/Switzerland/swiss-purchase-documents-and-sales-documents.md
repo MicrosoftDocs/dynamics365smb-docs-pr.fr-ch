@@ -1,23 +1,23 @@
 ---
 title: Documents vente et Documents achat, Suisse
-description: "Les améliorations suisses comprennent des fonctions spéciales propres aux documents d'achat et de vente."
+description: Les améliorations suisses comprennent des fonctions spéciales propres aux documents d'achat et de vente.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: b51837e01f65241433272a3349ff3e771f593251
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827249"
 ---
 # <a name="swiss-purchase-documents-and-sales-documents"></a>Documents vente et Documents achat, Suisse
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] comprend des améliorations suisses propres aux documents d'achat et de vente. Notamment :  
@@ -48,4 +48,3 @@ Dans la page **Paramètres ventes**, le champ **Expédition sur Livrer et factur
  [Imprimer la liste des prélèvements de stock d'une commande vente](how-to-print-an-inventory-picking-list-from-a-sales-order.md)   
  [Imprimer les commandes achat et vente lors d'une validation par lots](how-to-print-sales-and-purchase-orders-during-batch-posting.md)   
  [Fonctionnalité locale, Suisse](switzerland-local-functionality.md)
-

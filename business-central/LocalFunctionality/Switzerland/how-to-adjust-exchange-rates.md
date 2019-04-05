@@ -1,23 +1,23 @@
 ---
-title: "Procédure : Ajuster les taux de change devise"
-description: "Si vous avez des ventes imposables en devise étrangère, vous devez utiliser le taux officiel pour la conversion de devise TVA telle que définie par l'administration fiscale."
+title: 'Procédure : Ajuster les taux de change devise'
+description: Si vous avez des ventes imposables en devise étrangère, vous devez utiliser le taux officiel pour la conversion de devise TVA telle que définie par l'administration fiscale.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 12/19/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: aa1e7b13cf6cc56df1a6922a9b123e7cc19580c6
 ms.openlocfilehash: 9d5f3cf7aa65a4a60133545d355fe17ac6a16685
-ms.contentlocale: fr-ch
-ms.lasthandoff: 12/19/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827309"
 ---
 # <a name="adjust-exchange-rates"></a>Ajuster taux de change
 Si vous avez des ventes imposables en devise étrangère, vous devez utiliser le taux officiel pour la conversion de devise TVA telle que définie par l'administration fiscale.  
@@ -53,4 +53,3 @@ Pour plus d'informations sur la TVA et les devises étrangères, voir le site We
  [Taux de TVA pour la Suisse](vat-rates-for-switzerland.md)   
 [Mettre à jour des taux de change devise](../../finance-how-update-currencies.md)  
 [Configurer une devise report supplémentaire](../../finance-how-setup-additional-currencies.md)
-

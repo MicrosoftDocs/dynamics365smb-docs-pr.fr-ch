@@ -1,6 +1,6 @@
 ---
-title: "Copier et coller des données"
-description: "Copier des champs et des lignes depuis des pages Business Central et les coller à d'autres emplacements."
+title: Copier et coller des données
+description: Copier des champs et des lignes depuis des pages Business Central et les coller à d'autres emplacements.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,15 +10,14 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: 6f731940714a754275611026749afa4d79a94443
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e924eeb10e98b81035837ca498ec4f1a7b28bf60
-ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853086"
 ---
-
-# <a name="copying-and-pasting-in-included365finincludesd365finmdmd"></a>Copier et coller dans [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="copying-and-pasting"></a>Copier et coller
 Vous pouvez copier une ou plusieurs lignes dans une liste ou un champ unique sur une page, puis collez ce que vous avez copié dans la même page, une autre page, ou un document externe (comme Microsoft Excel et un e-mail Outlook). En raccourci, pour copier, appuyez sur CTRL+C (cmd+C dans macOS) sur votre clavier. Pour coller, appuyez sur CTRL+V (cmd+V dans macOS).
 
 Plusieurs autres raccourcis clavier permettent de copier et coller afin de faire gagner du temps pendant la saisie des données. Pour plus d'informations sur ceux-ci, reportez-vous à [Raccourcis clavier](keyboard-shortcuts.md#CopyRows).
@@ -72,4 +71,3 @@ Lorsque vous collez dans [!INCLUDE[d365fin](includes/d365fin_md.md)], chaque lig
 [Mise en route](product-get-started.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Forum Aux Questions](across-faq.md)  
-

@@ -1,25 +1,25 @@
 ---
-title: "Procédure pas à pas : suivi des numéros de série et des numéros de lot | Microsoft Docs"
-description: "En cas de produit défectueux, vous devez identifier les erreurs et empêcher les articles concernés d'être vendus. Si des articles défectueux ont déjà été expédiés, vous devez procéder au suivi des destinataires et, au besoin, de rappeler les articles."
+title: 'Procédure pas à pas : suivi des numéros de série et des numéros de lot | Microsoft Docs'
+description: En cas de produit défectueux, vous devez identifier les erreurs et empêcher les articles concernés d'être vendus. Si des articles défectueux ont déjà été expédiés, vous devez procéder au suivi des destinataires et, au besoin, de rappeler les articles.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
+ms.openlocfilehash: e6354b57e14af89c0c998447ff09d43e3902d0b4
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
-ms.openlocfilehash: a37561ebf8b9572f69e0ce3c3b83613b98a1098f
-ms.contentlocale: fr-ch
-ms.lasthandoff: 01/31/2019
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853178"
 ---
-# <a name="walkthrough-tracing-serial-lot-numbers"></a>Procédure pas à pas : suivi des numéros de série et des numéros de lot
+# <a name="walkthrough-tracing-seriallot-numbers"></a>Procédure pas à pas : suivi des numéros de série et des numéros de lot
 
 **Remarque** : Ce guide pas-à-pas doit être effectué sur une société de démonstration avec l'option **Évaluation complète - Renseigner des exemples de données**, disponible dans l'environnement sandbox. Pour plus d’informations, voir [Création d'un environnement Sandbox](across-how-create-sandbox-environment.md).
 
@@ -50,7 +50,7 @@ Cette procédure pas à pas présente les tâches effectuées par les rôles uti
 Pour exécuter ce processus pas à pas, vous devez :  
 
 -   La société [!INCLUDE[d365fin](includes/d365fin_md.md)].  
--   Créer des articles et plusieurs transactions commerciales en suivant la section « Préparation d'exemples de données », plus loin dans cette procédure pas à pas.  
+-   Pour créer des articles et plusieurs transactions commerciales en suivant [Préparation d'exemples de données](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data).  
 
 ## <a name="story"></a>Scénario  
 Ricardo, le contrôleur qualité, se charge d'un retour vente de l'article 1002, vélo de course. Le client, Selangorian Ltd., s'est plaint de fissures au niveau des joints de soudure. Les ingénieurs du contrôle qualité ont confirmé que le cadre du vélo renvoyé est défectueux. Le contrôleur qualité doit maintenant déterminer :  
@@ -298,4 +298,3 @@ Ensuite, vous devez créer plusieurs transactions d'achat, de production et de v
 [Utiliser les numéros de lot et de série](inventory-how-work-item-tracking.md)  
 [Tracer des articles - Articles suivis](inventory-how-to-trace-item-tracked-items.md)  
 [Procédures pas à pas liées au processus entreprise](walkthrough-business-process-walkthroughs.md)  
-

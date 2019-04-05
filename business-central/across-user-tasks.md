@@ -1,6 +1,6 @@
 ---
-title: "Affectation et gestion des tâches | Microsoft Docs"
-description: "Découvrez comment affecter des tâches à des utilisateurs, y compris votre comptable, dans Business Central"
+title: Affectation et gestion des tâches | Microsoft Docs
+description: Découvrez comment affecter des tâches à des utilisateurs, y compris votre comptable, dans Business Central
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.workload: na
 ms.search.keywords: tasks, work
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: 492eeda86a392320c8b8205d3faa76416a9cf6fb
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: b225eb16a3cfa0d70f03fde01051c8ea6a956454
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852370"
 ---
-# <a name="defining-user-tasks"></a>Définition des tâches utilisateur
+# <a name="define-user-tasks"></a>Définir les tâches utilisateur
 Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez créer des tâches pour vous rappeler le travail à faire. Vous pouvez créer des tâches pour vous-même, mais vous pouvez également affecter des tâches à d'autres personne ou avoir une tâche affectée à vous-même par une autre personne de votre organisation.  
 
 ## <a name="managing-user-tasks"></a>Gestion des tâches utilisateur
@@ -41,4 +41,3 @@ Si vous souhaitez supprimer des tâches en bloc ou individuellement, vous pouvez
 ## <a name="see-also"></a>Voir aussi
 [Recherche d'une page ou d'un état](ui-search.md)  
 [Expériences de comptable dans [!INCLUDE[d365fin](includes/d365fin_md.md)]](finance-accounting.md)  
-

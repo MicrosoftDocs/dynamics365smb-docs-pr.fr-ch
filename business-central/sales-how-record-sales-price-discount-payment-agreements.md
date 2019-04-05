@@ -1,6 +1,6 @@
 ---
-title: "Paramétrer les prix de vente spéciaux et les remises client | Microsoft Docs"
-description: "Décrit comment définir les accords secondaires de tarifs et de remises à appliquer aux documents vente lors de la vente à différents clients."
+title: Paramétrer les prix de vente spéciaux et les remises client | Microsoft Docs
+description: Décrit comment définir les accords secondaires de tarifs et de remises à appliquer aux documents vente lors de la vente à différents clients.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
 ms.date: 11/28/2018
 ms.author: sgroespe
+ms.openlocfilehash: 7a0034bfbbd62ccf3278febea0ad9d083d7482bc
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
-ms.openlocfilehash: b0af8e6d6dd477ebabbfc1fa05e8d57378eee226
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/29/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853227"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Enregistrer les prix de vente spéciaux et les remises
 Vous devez définir les différents accords de prix et de remise qui s'appliquent lors de la vente à différents clients de sorte que les valeurs et règles convenues s'appliquent aux documents vente crées pour les clients.
 
-Lorsque vous avez enregistré des prix spéciaux et des remises de ligne pour les ventes et les achats, [!INCLUDE[d365fin](includes/d365fin_md.md)] s'assure que votre marge pour l'article est toujours optimale en calculant automatiquement le meilleur prix dans les documents achat et vente, sur le projet et les lignes feuille article. Pour plus d'informations, voir la section « Calcul du meilleur prix ».
+Lorsque vous avez enregistré des prix spéciaux et des remises de ligne pour les ventes et les achats, [!INCLUDE[d365fin](includes/d365fin_md.md)] s'assure que votre marge pour l'article est toujours optimale en calculant automatiquement le meilleur prix dans les documents achat et vente, sur le projet et les lignes feuille article. Pour plus d'informations, voir [Calcul du meilleur prix](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
 En ce qui concerne les prix, un prix de vente spécial peut être inséré sur les lignes vente s'il existe une certaine combinaison de client, d'article, de quantité minimum, d'unité de mesure ou de date de début/date de fin.
 
@@ -144,4 +144,3 @@ Si vous souhaitez mettre à jour en bloc des prix article, tels que l'augmentati
 [Définition des ventes](sales-setup-sales.md)  
 [Ventes](sales-manage-sales.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

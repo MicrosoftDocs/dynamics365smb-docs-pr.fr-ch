@@ -1,23 +1,23 @@
 ---
-title: "Procédure : Imprimer les relevés de TVA suisse (ancienne version)"
-description: "La Déclaration TVA suisse est l'état de calcul standard pour la réalisation de la TVA. Vous pouvez imprimer cet état et l'utiliser avec la déclaration de taxe trimestrielle."
+title: 'Procédure : Imprimer les relevés de TVA suisse (ancienne version)'
+description: La Déclaration TVA suisse est l'état de calcul standard pour la réalisation de la TVA. Vous pouvez imprimer cet état et l'utiliser avec la déclaration de taxe trimestrielle.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: b8a5f4dcfa9a4e3f728c8de3786e7d5716ac82c7
 ms.openlocfilehash: 9b240cb7238ff0d57df17a102312ab7fe944905d
-ms.contentlocale: fr-ch
-ms.lasthandoff: 10/04/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827313"
 ---
 # <a name="print-swiss-vat-statements-older-version"></a>Imprimer les relevés de TVA suisse (ancienne version)
 
@@ -58,4 +58,3 @@ La **Déclaration TVA suisse** est l'état de calcul standard pour la réalisati
 ## <a name="see-also"></a>Voir aussi  
  [Taxe sur la valeur ajoutée, Suisse](swiss-value-added-tax.md)   
  [Taux de TVA pour la Suisse](vat-rates-for-switzerland.md)
-

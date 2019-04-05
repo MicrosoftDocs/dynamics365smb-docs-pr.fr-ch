@@ -1,23 +1,23 @@
 ---
-title: "Procédure : Traiter un prélèvement LSV"
-description: "Vous pouvez utiliser Feuilles LSV pour créer et traiter les paiements des clients Lastschrift Verfahren (LSV+). Vous pouvez enregistrer les paiements dans la feuille règlement, créer un fichier LSV, puis imprimer l'ordre de prélèvement."
+title: 'Procédure : Traiter un prélèvement LSV'
+description: Vous pouvez utiliser Feuilles LSV pour créer et traiter les paiements des clients Lastschrift Verfahren (LSV+). Vous pouvez enregistrer les paiements dans la feuille règlement, créer un fichier LSV, puis imprimer l'ordre de prélèvement.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
 ms.openlocfilehash: 9a05a80e5a49fb7c0e65f98cbad55a5a46ec7767
-ms.contentlocale: fr-ch
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827300"
 ---
 # <a name="process-an-lsv-collection"></a>Traiter un prélèvement LSV
 Vous pouvez utiliser la page **Feuille LSV** pour créer et traiter les paiements des clients Lastschrift Verfahren (LSV+). Vous pouvez enregistrer les paiements dans la feuille règlement, créer un fichier LSV, puis imprimer l'ordre de prélèvement. Pour plus d'informations, voir la page Feuille règlement et [Exporter des paiements en mode LSV](how-to-export-payments-using-lsv.md).  
@@ -64,4 +64,3 @@ Toutes les lignes sont été transférées à la feuille LSV. Après avoir effec
  [Fermer prélèvement LSV](how-to-close-an-lsv-collection.md)   
  [Valider des paiements LSV+](how-to-post-lsv-payments.md)   
  [Exporter des paiements en mode LSV](how-to-export-payments-using-lsv.md)
-

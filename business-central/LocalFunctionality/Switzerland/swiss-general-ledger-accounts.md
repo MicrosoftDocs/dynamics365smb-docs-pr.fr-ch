@@ -1,23 +1,23 @@
 ---
-title: "Comptes généraux, Suisse"
-description: "Les améliorations suisses comprennent des fonctions spéciales liées aux comptes généraux."
+title: Comptes généraux, Suisse
+description: Les améliorations suisses comprennent des fonctions spéciales liées aux comptes généraux.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 371bd99bdf2844289102ef5dac6ed516d3bdd4f7
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827261"
 ---
 # <a name="swiss-general-ledger-accounts"></a>Comptes généraux, Suisse
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] inclut les améliorations suisses apportées aux fonctions spéciales liées aux comptes généraux.
@@ -46,4 +46,3 @@ Avant de valider une feuille comptabilité, vous pouvez prévisualiser l'effet q
 ## <a name="see-also"></a>Voir aussi  
  [Afficher les soldes temporaires dans les feuilles comptabilisation immobilisation](how-to-view-temporary-balances-in-general-ledger-journals.md)   
  [Fonctionnalité locale, Suisse](switzerland-local-functionality.md)
-

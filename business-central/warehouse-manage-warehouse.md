@@ -1,23 +1,23 @@
 ---
-title: "Activités entrepôt | Microsoft Docs"
-description: "Entre la réception des biens et leur expédition, une série d'activités entrepôt internes a lieu pour assurer un flux efficace dans l'entrepôt, ainsi que pour organiser et mettre à jour les stocks de la société."
+title: Activités entrepôt | Microsoft Docs
+description: Entre la réception des biens et leur expédition, une série d'activités entrepôt internes a lieu pour assurer un flux efficace dans l'entrepôt, ainsi que pour organiser et mettre à jour les stocks de la société.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: a7b8ebe9ea06d7f39ac2bc70a83eca09a8739a56
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 604f7e55067efaebed412683ed51ce8717562688
-ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852232"
 ---
 # <a name="warehouse-management"></a>Gestion d'entrepôt
 Entre la réception des biens et leur expédition, une série d'activités entrepôt internes a lieu pour assurer un flux efficace dans l'entrepôt, ainsi que pour organiser et mettre à jour les stocks de la société.
@@ -27,6 +27,8 @@ Les activités entrepôt courantes, incluent le rangement d'articles, leur dépl
 Dans les entrepôts importants, vous pouvez séparer ces tâches de traitement par département et gérer l'intégration par un flux suggéré. Dans les installations plus simples, le flux est moins formalisé et vous pouvez exécuter les activités entrepôt avec les rangements et prélèvements stock. Pour plus d'informations sur les configurations entrepôt de base et avancées, voir [Détails de conception : vue d'ensemble d'entrepôt](design-details-warehouse-overview.md).
 
 Avant d'effectuer des activités entrepôt, vous devez configurer le système pour la complexité de traitement d'entrepôt appropriée. Pour plus d'informations, voir [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md).
+
+Les tâches d'inventaire, d'ajustement et de reclassement liées au stock et de reclassement des articles impliquent des tâches en entrepôt qui doivent être effectuées sur les écritures entrepôt avant qu'elles puissent être synchronisées avec les écritures comptables articles correspondantes. Pour plus d'informations, voir [Inventaire, ajustement et reclassement du stock](inventory-how-count-adjust-reclassify.md).
 
  Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.   
 
@@ -47,5 +49,3 @@ Avant d'effectuer des activités entrepôt, vous devez configurer le système po
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
-

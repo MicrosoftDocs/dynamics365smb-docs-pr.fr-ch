@@ -1,23 +1,23 @@
 ---
 title: Planification de l'approvisionnement| Microsoft Docs
-description: "Préparez un programme exécutable détaillé ainsi que la planification de production de l'assemblage final pour la demande de vente et de production."
+description: Préparez un programme exécutable détaillé ainsi que la planification de production de l'assemblage final pour la demande de vente et de production.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 41fb80f39edc87aabce18c5ef39e799148eb0058
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 849ea09fb84e2cf52971b582920debf89ca7c2b0
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852209"
 ---
 # <a name="planning"></a>Planning
 Les opérations de production nécessaires à la transformation d'entrées en produits finis doivent être planifiées de manière quotidienne ou hebdomadaire en fonction du volume et de la nature des produits. [!INCLUDE[d365fin](includes/d365fin_md.md)] fournit des fonctionnalités permettant de répondre à la demande réelle et anticipée des ventes, de l'assemblage et de la production, et inclut des fonctionnalités pour une planification de la distribution basée sur les points de stock et les transferts d'emplacement.
@@ -45,7 +45,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |Utiliser la page **Feuille planning** pour exécuter les options PDP et MRP pour créer automatiquement un programme d'approvisionnement détaillé à tous les niveaux d'article.|[Exécuter une planification complète et un calcul PDP ou MRP](production-how-to-run-mps-and-mrp.md)|
 |Exécuter la demande achat pour créer automatiquement un programme d'approvisionnement détaillé pour répondre à la demande d'articles réapprovisionnés uniquement par achat ou transfert.|Page **Demande achat**|  
 |Lancer ou mettre à jour un ordre de fabrication en tant qu'opérations planifiées approximativement dans la planification de production.|[Replanifier ou actualiser directement des ordres de fabrication](production-how-to-replan-refresh-production-orders.md)|
-|Recalculer les calendriers de centre de charge ou de poste de charge en raison de changements de planning.|Section « Pour calculer un calendrier de centre de charge » dans [Configurer des calendriers usine](production-how-to-create-work-center-calendars.md)|
+|Recalculer les calendriers de centre de charge ou de poste de charge en raison de changements de planning.|[Pour calculer un calendrier de centre de charge](production-how-to-create-work-center-calendars.md#to-calculate-a-work-center-calendar)|
 |Suivre la demande de commande (quantité chaînée), les prévisions, les commandes ouvertes vente ou les paramètres de planification (quantité non chaînée) qui ont donné lieu à la ligne planning en question.|[Suivre les relations entre l'offre et la demande](production-how-track-demand-supply.md)|
 |Afficher le stock disponible prévu sous différents types d'affichage et voir quels besoins bruts, réceptions de commandes planifiées et autres événements l'influencent dans le temps.|[Voir la disponibilité des articles](inventory-how-availability-overview.md)|  
 |Effectuer des activités de planification sélectionnées, comme la modification ou l'ajout de lignes feuille planning, dans une vue graphique du programme d'approvisionnement.|[Modifier les propositions planning dans une vue graphique](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)|
@@ -60,4 +60,3 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

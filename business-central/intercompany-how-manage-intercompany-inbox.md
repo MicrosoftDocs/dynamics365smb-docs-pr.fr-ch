@@ -1,8 +1,8 @@
 ---
 title: Traiter les transactions IC entrantes et sortantes | Microsoft Docs
-description: "Les transactions intersociétés que vous recevez de vos partenaires intersociétés sont stockées dans la boîte de réception Intersociétés où vous pouvez les traiter manuellement ou automatiquement."
+description: Les transactions intersociétés que vous recevez de vos partenaires intersociétés sont stockées dans la boîte de réception Intersociétés où vous pouvez les traiter manuellement ou automatiquement.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: c7bf0c1c22d2f43220d9b101a1a54757add900e9
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 8432eea92738682bbdab55f8c3f6dae16f401149
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853296"
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a>Gérer la boîte de réception et la boîte d'envoi intersociétés
 Toutes les transactions intersociétés que vous recevez par voie électronique de vos partenaires intersociétés sont stockées dans la boîte de réception Intersociétés.  
@@ -43,7 +43,7 @@ Vous pouvez utiliser le champ **Afficher la source de la transaction** pour filt
 #### <a name="returned-from-intercompany-partner"></a>Renvoyé par le partenaire Intersociétés  
  Si la transaction a été rejetée par votre partenaire Intersociétés, vous n'avez pas d'autre choix que d'annuler la transaction dans la boîte de réception. Vous devez créer des lignes de correction ou contrepasser la feuille ou le document de votre société.  
 
-## <a name="re-creating-inbox-entries"></a>Recréation d'écritures boîte de réception  
+## <a name="recreating-inbox-entries"></a>Recréation d'écritures boîte de réception  
  Si vous acceptez une transaction de votre boîte de réception, mais que vous avez supprimé la feuille ou le document au lieu de le valider, vous pouvez recréer l'écriture boîte de réception et l'accepter à nouveau.  
 
 ## <a name="getting-an-overview-of-intercompany-transactions-for-a-period"></a>Affichage d'un aperçu des transactions intersociétés sur une période donnée  
@@ -105,4 +105,3 @@ La procédure suivante décrit comment recréer des transactions de boîte de r�
 [Configuration de Finance](finance-setup-finance.md)  
 [Utilisation de feuilles comptabilité](ui-work-general-journals.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,6 +1,6 @@
 ---
-title: "À propos de la recherche et du filtrage dans Business Central"
-description: "Réponses aux questions posées fréquemment sur la recherche et le filtre."
+title: À propos de la recherche et du filtrage dans Business Central
+description: Réponses aux questions posées fréquemment sur la recherche et le filtre.
 author: mikebcMSFT
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,15 +10,14 @@ ms.workload: na
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
 ms.date: 10/01/2018
 ms.author: mikebc
+ms.openlocfilehash: a4bcdca8ecff80d8d47bf9c198cd69a71f09cd2a
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 5d6d2d9527e81a92987f6b8fcdbe8e087c3c537a
-ms.openlocfilehash: 099a2a800cb71e7a0b8dd02901928b43dfa199ca
-ms.contentlocale: fr-ch
-ms.lasthandoff: 01/22/2019
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852071"
 ---
-
-# <a name="about-searching-and-filtering-in-included365finincludesd365finmdmd"></a>À propos de la recherche et du filtrage dans [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="searching-and-filtering-faq"></a>FAQ sur la recherche et le filtrage
 Cet article répond à des questions courantes que vous pouvez avoir à propos de la recherche et du filtrage.
 
 ## <a name="is-there-a-difference-between-searching-and-filtering"></a>Existe-t-il une différence entre la recherche et le filtrage ?
@@ -30,7 +29,7 @@ Oui.
 La recherche et le filtre ont été fortement optimisés pour les utilisateurs qui préfèrent l'interaction sans souris pour utiliser efficacement leurs données. Il existe un grand choix de touches de raccourci qui peuvent être utilisées dans l'ordre pour travailler à grande vitesse. Pour plus d'informations, reportez-vous à [Raccourcis clavier](keyboard-shortcuts.md#KeyboardFilter).
 
 ## <a name="is-the-filter-pane-available-on-all-lists"></a>Le volet Filtre est-il disponible sur toutes les listes ?
-Le volet Filtre est disponible sur les pages où la liste est le principal contenu sur la page, tels que des feuilles de calcul et des pages de liste, y compris les listes accessibles depuis la barre de navigation. Le volet Filtre n'est pas encore disponible pour les listes intégrées, telles que les lignes vente sur les commandes vente, ou pour les listes avec des colonnes dynamiques (souvent appelées pages matricielles). 
+Le volet Filtre est disponible sur les pages où la liste est le principal contenu sur la page, tels que des feuilles de calcul et des pages de liste, y compris les listes accessibles depuis la barre de navigation. Le volet Filtre n'est pas encore disponible pour les listes intégrées, telles que les lignes vente sur les commandes vente, ou pour les listes avec des colonnes dynamiques (souvent appelées pages matricielles).
 
 ## <a name="how-can-i-save-my-filters"></a>Comment enregistrer mes filtres ?
 
@@ -57,4 +56,3 @@ En tant qu'administrateur local, vous développez le délai des recherches en mo
 ## <a name="see-also"></a>Voir aussi .
 [Mise en route](product-get-started.md)  
 [Tri, recherche et filtrage dans les listes](ui-enter-criteria-filters.md)
-

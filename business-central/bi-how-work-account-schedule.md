@@ -1,6 +1,6 @@
 ---
-title: "Générer des états financiers à l'aide de tableaux d'analyse"
-description: "Décrit comment utiliser des tableaux d'analyse pour créer différentes vues et différents états pour l'analyse des données de performances financières."
+title: Générer des états financiers à l'aide de tableaux d'analyse
+description: Décrit comment utiliser des tableaux d'analyse pour créer différentes vues et différents états pour l'analyse des données de performances financières.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/16/2018
+ms.date: 03/01/2019
 ms.author: edupont
+ms.openlocfilehash: 6c6ffd488dc903c2a1142727ce205975e27091b2
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 854cadb176bc79a8506ccff3c13a1e579eb43e85
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852531"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Préparer la génération d'états financiers avec des tableaux d'analyse et des catégories de compte
 Utilisez les tableaux d'analyse pour obtenir un aperçu des données financières enregistrées dans votre plan comptable. Les tableaux d'analyse analysent les chiffres des comptes généraux et comparent les écritures comptables et les écritures comptables budget. Les résultats s'affichent dans les graphiques de votre tableau de bord, comme le graphique Trésorerie, et dans les états, comme les états Comptes de gestion et Bilan.
@@ -36,7 +36,7 @@ Vous pouvez également comparer deux ou plusieurs tableaux d'analyse et présent
 * configurer différentes présentations d'états et imprimer les états avec les chiffre actuels.
 
 ## <a name="account-categories"></a>Catégories de compte
-Vous pouvez utiliser les catégories de compte pour modifier la présentation de vos états financiers. Une fois que vous avez configuré vos catégories de compte sur la page **Catégories de compte général**, et que vous sélectionnez l'action **Générer les tableaux d'analyse**, les tableaux d'analyse sous-jacents pour les états financiers de base sont mis à jour. La prochaine fois que vous exécuterez l'un de ces états, par exemple l'état Relevé de solde, de nouveaux totaux et des sous-entrées seront ajoutés, en fonction de vos modifications. Pour plus d'informations, consultez la section « Catégories de compte » dans [Description des écritures comptables et du plan comptable](finance-general-ledger.md).  
+Vous pouvez utiliser les catégories de compte pour modifier la présentation de vos états financiers. Une fois que vous avez configuré vos catégories de compte sur la page **Catégories de compte général**, et que vous sélectionnez l'action **Générer les tableaux d'analyse**, les tableaux d'analyse sous-jacents pour les états financiers de base sont mis à jour. La prochaine fois que vous exécuterez l'un de ces états, par exemple l'état Relevé de solde, de nouveaux totaux et des sous-entrées seront ajoutés, en fonction de vos modifications. Pour plus d'informations, voir [Catégories de compte](finance-general-ledger.md#account-categories).  
 
 ## <a name="to-create-a-new-account-schedule"></a>Pour créer un tableau d'analyse  
 Vous pouvez utiliser des tableaux d'analyse pour analyser les chiffres des comptes généraux ou pour comparer les écritures comptables et les écritures comptables budget. Par exemple, vous pouvez afficher les écritures comptables en tant que pourcentages des écritures budget.
@@ -50,7 +50,7 @@ La page **Aperçu tableau d'analyse** vous permet de consulter l'état financier
 3. Sinon, choisissez l'action **Copier le tableau d'analyse**, renseignez les deux champs, puis cliquez sur le bouton **OK**.
 4. Renseignez les champs selon vos besoins. Dans le champ **Présentation colonne par déf.** sélectionnez une présentation existante. Vous pouvez la modifier ultérieurement au besoin.
 
-    Vous utilisez les présentations de colonne pour définir des colonnes pour divers paramètres par lesquels les données financières dans les lignes sont affichées. Par exemple, vous pouvez créer une présentation de colonne de manière à comparer le solde période et le solde pour une même période de l'exercice actuel et du précédent, avec quatre colonnes. Pour plus d'informations, voir la section « Pour modifier une présentation de colonne ».
+    Vous utilisez les présentations de colonne pour définir des colonnes pour divers paramètres par lesquels les données financières dans les lignes sont affichées. Par exemple, vous pouvez créer une présentation de colonne de manière à comparer le solde période et le solde pour une même période de l'exercice actuel et du précédent, avec quatre colonnes. Pour plus d'informations, voir [Pour modifier une présentation de colonne](bi-how-work-account-schedule.md#to-edit-a-column-layout).
 
 5. Choisissez l'action **Modifier tableau d'analyse**.
 6. Créez une ligne pour chaque élément financier que vous souhaitez voir apparaître dans l'état, par exemple une ligne pour des actifs à court terme et une autre pour les immobilisations. Pour obtenir de l'inspiration, visualisez les tableaux d'analyse existants de la société de démonstration CRONUS.
@@ -199,4 +199,3 @@ Pour effectuer des calculs basés par périodes, vous devez entrer une formule d
 [Configuration de Finance](finance-setup-finance.md)  
 [Les écritures comptables et le plan comptable](finance-general-ledger.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

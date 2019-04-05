@@ -1,8 +1,8 @@
 ---
 title: Personnalisation des pages | Microsoft Docs
-description: "Découvrez comment personnaliser l'interface utilisateur pour l'adapter à votre méthode de travail."
+description: Découvrez comment personnaliser l'interface utilisateur pour l'adapter à votre méthode de travail.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,15 +12,16 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: 65bd6d24395990d2b92b7eeea0c7b208f7311eef
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: df4c40e38b3f7784f9f7603cddbfd9ac8681d952
-ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852324"
 ---
 # <a name="personalizing-your-workspace"></a>Personnalisation de votre espace de travail
-<!--NAV in the Web client--> Vous pouvez *personnaliser* votre espace de travail pour l'adapter à vos habitudes et préférences en modifiant les pages afin qu'elles n'affichent que les informations dont vous avez besoin, où vous avez en besoin. Les modifications de personnalisation que vous apportez n'affectent que ce que vous voyez, pas ce que voient les autres utilisateurs.
+<!--NAV in the Web client-->
+Vous pouvez *personnaliser* votre espace de travail pour l'adapter à vos habitudes et préférences en modifiant les pages afin qu'elles n'affichent que les informations dont vous avez besoin, où vous avez en besoin. Les modifications de personnalisation que vous apportez n'affectent que ce que vous voyez, pas ce que voient les autres utilisateurs.
 
 Selon le type de page et ce qu'elles comportent, vous pouvez :
 
@@ -29,7 +30,10 @@ Selon le type de page et ce qu'elles comportent, vous pouvez :
 -   Modifier le volet Figer des colonnes dans une liste. Le volet Figer verrouille une ou plusieurs colonnes du côté gauche de la liste, de sorte qu'elles soient toujours visibles, même lorsque vous faites défiler la liste horizontalement.
 -   Ajuster la largeur des colonnes d'une liste.
 -   Déplacer et supprimer des piles (mosaïques).
--   Déplacer et supprimer des sections. Les sections sont des subdivisions ou des zones d'une page qui contiennent des éléments comme des champs multiples, une autre page, un graphique, ou des mosaïques.  
+-   Déplacer et supprimer des sections. Les sections sont des subdivisions ou des zones d'une page qui contiennent des éléments comme des champs multiples, une autre page, un graphique, ou des mosaïques.
+
+> [!NOTE]
+> Outre ce que les utilisateurs peuvent personnaliser, les administrateurs et les super utilisateurs peuvent remplacer les personnalisations des utilisateurs et définir les fonctionnalités accessibles dans toutes les sociétés ou des sociétés spécifiques. Pour plus d'informations, voir [Personnalisation de Business Central](ui-customizing-overview.md). 
 
 ## <a name="to-personalize-a-page"></a>Pour personnaliser une page
 
@@ -79,4 +83,3 @@ Pour vous aider à mieux comprendre la personnalisation, voici quelques points c
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Modification des paramètres de base](ui-change-basic-settings.md)  
 [Modification des fonctionnalités affichées](ui-experiences.md)  
-

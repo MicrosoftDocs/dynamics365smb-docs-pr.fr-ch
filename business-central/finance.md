@@ -1,8 +1,8 @@
 ---
-title: "Gestion financière| Microsoft Docs"
-description: "En savoir plus sur les tâches pour paramétrer les finances de votre société afin de les adapter à votre comptabilité ou vos audits."
+title: Gestion financière| Microsoft Docs
+description: En savoir plus sur les tâches pour paramétrer les finances de votre société afin de les adapter à votre comptabilité ou vos audits.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 10/01/2018
+ms.date: 03/11/2019
 ms.author: edupont
+ms.openlocfilehash: d095e710d33882cc39772c35a495b39e08e0c729
+ms.sourcegitcommit: 2b2c3b488a610a5d3b51fc8218c40b0b732fddf3
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: e4cda1f4770117065d1650a0c51dbd46fdf8baac
-ms.contentlocale: fr-ch
-ms.lasthandoff: 05/17/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "832543"
 ---
 # <a name="finance"></a>Finance
 [!INCLUDE[d365fin](includes/d365fin_md.md)] comprend une configuration standard de la plupart des processus financiers, mais vous pouvez modifier la configuration pour l'adapter à votre activité. Pour plus d'informations, reportez-vous à [Configuration de Finance](finance-setup-finance.md).
@@ -33,7 +33,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |Faire en sorte que vos clients envoient leur règlement avant la livraison ou envoyer le paiement à vos fournisseurs avant qu'ils n'effectuent la livraison.|[Facturation d'acomptes](finance-invoice-prepayments.md)|
 | Rapprocher des comptes bancaires et transférer des fonds entre comptes bancaires. |[Gestion des comptes bancaires](bank-manage-bank-accounts.md) |
 |Configurer les partenaires intersociétés et traiter les transactions, manuellement ou automatiquement, entre les personnes morales dans la même société.|[Gestion des transactions intersociétés](intercompany-manage.md)|
-|Combine des écritures comptables de plusieurs sociétés dans une « société consolidée » virtuelle pour l'analyse financière.|[Consolidation des données financières de plusieurs sociétés](finance-consolidated-company-reporting.md)|
+|Combiner des écritures comptables de plusieurs sociétés dans une société consolidée virtuelle pour l'analyse financière.|[Consolidation des données financières de plusieurs sociétés](finance-consolidated-company-reporting.md)|
 |Analyser les coûts de fonctionnement de votre activité en affectant les coûts réels et budgétés des opérations, des départements, des produits et des projets relatifs aux centres de coûts.|[Comptabilité pour les coûts](finance-manage-cost-accounting.md)|
 |Gérer les coûts ajustés et de fabrication, générer des états sur les coûts et rapprocher les coûts avec la comptabilité.|[Gestion des coûts ajustés](finance-manage-inventory-costs.md)|
 | Comprendre les écritures comptables et le plan comptable. |[Familiarisation avec les écritures comptables et les COA](finance-general-ledger.md) |
@@ -58,10 +58,8 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 [Achats](purchasing-manage-purchasing.md)  
 [Clôture des périodes fiscales](year-close-years-periods.md)  
 [Gestion des projets](projects-manage-projects.md)    
-[Importation de données à partir d'autres systèmes financiers](across-import-data-configuration-packages.md)(across-import-data-configuration-packages.md)  
+[Importation de données à partir d'autres systèmes financiers](across-import-data-configuration-packages.md)  
 [Utilisation de feuilles comptabilité](ui-work-general-journals.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
-

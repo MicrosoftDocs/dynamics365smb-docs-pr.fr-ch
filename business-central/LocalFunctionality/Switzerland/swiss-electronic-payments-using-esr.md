@@ -1,23 +1,23 @@
 ---
-title: "Paiements électroniques à l'aide de ESR+, Suisse"
-description: "La méthode de paiement électronique Einzahlungsschein mit Referenznummer (ESR) est un service de prélèvement électronique qui permet au client de facturer les factures ouvertes en francs suisses (CHF) et en euros (EUR), et de comptabiliser efficacement les paiements entrants."
+title: Paiements électroniques à l'aide de ESR+, Suisse
+description: La méthode de paiement électronique Einzahlungsschein mit Referenznummer (ESR) est un service de prélèvement électronique qui permet au client de facturer les factures ouvertes en francs suisses (CHF) et en euros (EUR), et de comptabiliser efficacement les paiements entrants.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: ab67507bf814c3e4f3590e4d127491466552a41d
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: dbd03106bca19c2b6d19fc92d36b839ea856acd1
-ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827272"
 ---
 # <a name="swiss-electronic-payments-using-esr"></a>Paiements électroniques à l'aide de ESR+, Suisse
 La méthode de paiement électronique Einzahlungsschein mit Referenznummer (ESR) est un service de prélèvement électronique qui permet au client de facturer les factures ouvertes en francs suisses (CHF) et en euros (EUR), et de comptabiliser efficacement les paiements entrants. Le numéro de référence, ou la ligne de code, contient toutes les données de comptabilité pertinentes.  
@@ -47,4 +47,3 @@ Lorsque vous configurez des souches de numéros pour les factures, vous devez su
  [Importation de paiements ESR](how-to-import-esr-payments.md)   
  [Paiements électroniques à l'aide de LSV+, Suisse](swiss-electronic-payments-using-lsv-.md)   
  [Effectuer des paiements](../../payables-make-payments.md)
-

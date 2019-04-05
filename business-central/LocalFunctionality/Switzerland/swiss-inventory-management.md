@@ -1,23 +1,23 @@
 ---
 title: Gestion des stocks, Suisse
-description: "Les améliorations comprennent les fonctions spéciales de gestion des stocks en Suisse."
+description: Les améliorations comprennent les fonctions spéciales de gestion des stocks en Suisse.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: b85a88efc3f27e3bb16b94c818f0d4d2fd6b24a3
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827267"
 ---
 # <a name="swiss-inventory-management"></a>Gestion des stocks, Suisse
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] comprend les améliorations apportées à la gestion des stocks en Suisse. Notamment :  
@@ -38,4 +38,3 @@ Si plusieurs expéditions ont été validées pour un client, vous pouvez créer
  [Copier des articles existants pour créer de nouveaux articles](how-to-copy-existing-items-to-new-items.md)  
  [Fonctionnalité locale, Suisse](switzerland-local-functionality.md)   
  [Configurer des magasins](../../inventory-how-setup-locations.md)
-

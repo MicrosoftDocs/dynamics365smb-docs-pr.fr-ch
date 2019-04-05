@@ -190,7 +190,7 @@
     <Node Name="" DisplayName="Procédure : Utiliser Frais annexes pour comptabiliser les coûts commerciaux supplémentaires" Page="payables-how-assign-item-charges.html"/>
     <Node Name="" DisplayName="Procédure : enregistrer et rembourser les frais des employés" Page="finance-how-record-reimburse-employee-expenses.html"/>
     <Node Name="" DisplayName="Procédure : Échelonner les recettes et les dépenses" Page="finance-how-defer-revenue-expenses.html"/>
-    <Node Name="" DisplayName="Procédure d'importation de transactions de paie " Page="finance-how-import-payroll-transactions.html"/>
+    <Node Name="" DisplayName="Procédure d'importation de transactions de paie" Page="finance-how-import-payroll-transactions.html"/>
     <Node Name="" DisplayName="Procédure : Déclarer la TVA aux autorités fiscales" Page="finance-how-report-vat.html"/>
     <Node Name="" DisplayName="Procédure : utiliser la TVA sur les ventes et les achats" Page="finance-work-with-vat.html"/>
     <Node Name="" DisplayName="Procédure : convertir les contrats de service incluant des montants TVA" Page="service-how-to-convert-service-contracts.html"/>
@@ -398,7 +398,7 @@
     <Node Name="" DisplayName="Espagne" Page="LocalFunctionality/Spain/spain-local-functionality.html"/>
     <Node Name="" DisplayName="Suède" Page="LocalFunctionality/Sweden/sweden-local-functionality.html"/>
     <Node Name="" DisplayName="Suisse" Page="LocalFunctionality/Switzerland/switzerland-local-functionality.html"/>
-    <Node Name="" DisplayName="Anglais (Royaume-Uni)" Page="LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.html"/>
+    <Node Name="" DisplayName="Royaume-Uni" Page="LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.html"/>
     <Node Name="" DisplayName="États-Unis" Page="LocalFunctionality/UnitedStates/united-states-local-functionality.html"/>
   </Node>
 </Node>

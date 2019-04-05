@@ -1,23 +1,23 @@
 ---
-title: "Procédure : créer manuellement des relances livraison"
-description: "Dans Business Central, vous pouvez créer des relances livraison lorsqu'un achat n'a pas été envoyé comme prévu. Vous pouvez créer une relance livraison unique manuellement, ou vous pouvez générer des relances livraison pour toutes les livraisons échues."
+title: 'Procédure : créer manuellement des relances livraison'
+description: Dans Business Central, vous pouvez créer des relances livraison lorsqu'un achat n'a pas été envoyé comme prévu. Vous pouvez créer une relance livraison unique manuellement, ou vous pouvez générer des relances livraison pour toutes les livraisons échues.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 47f646f21495951f1eb7382fb91e4b69e9dd6129
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827245"
 ---
 # <a name="create-delivery-reminders-manually"></a>Créer manuellement des relances livraison
 Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], vous pouvez créer des relances livraison lorsqu'un achat n'a pas été envoyé comme prévu. Vous pouvez créer une relance livraison unique manuellement, ou vous pouvez générer des relances livraison pour toutes les livraisons échues. Pour plus d'informations, voir [Générer des relances livraison](how-to-generate-delivery-reminders.md).
@@ -57,4 +57,3 @@ Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], vous pouvez créer des r
  [Affecter des codes de relance livraison à des fournisseurs](how-to-assign-delivery-reminder-codes-to-vendors.md)   
  [Émettre des relances livraison](how-to-issue-delivery-reminders.md)   
  [Imprimer des rapports de test pour les relances livraison](how-to-print-test-reports-for-delivery-reminders.md)
-

@@ -1,23 +1,23 @@
 ---
-title: "Paiements électroniques, Suisse"
-description: "Les améliorations suisses vous permettent d'envoyer des factures aux clients par voie électronique. Les factures sont présentées et payées directement à l'aide du logiciel bancaire en ligne du client."
+title: Paiements électroniques, Suisse
+description: Les améliorations suisses vous permettent d'envoyer des factures aux clients par voie électronique. Les factures sont présentées et payées directement à l'aide du logiciel bancaire en ligne du client.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 2486e653c19be631386cea9ea2d98ad97b7ff8a8
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827279"
 ---
 # <a name="swiss-electronic-payments"></a>Paiements électroniques, Suisse
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] vous permet d'envoyer des factures aux clients par voie électronique. Les factures sont présentées et payées directement à l'aide du logiciel bancaire en ligne du client.  
@@ -45,4 +45,3 @@ Pour exporter des paiements selon la norme SEPA, vous devez utiliser un compte b
  [Paiements électroniques à l'aide de LSV+, Suisse](swiss-electronic-payments-using-lsv-.md)   
  [Fonctionnalité locale, Suisse](switzerland-local-functionality.md)  ' [Créer des écritures de collection prélèvement automatique SEPA et les exporter vers un fichier bancaire](../../finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)  
  [Effectuer des paiements](../../payables-make-payments.md)
-

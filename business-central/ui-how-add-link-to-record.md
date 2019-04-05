@@ -1,23 +1,23 @@
 ---
-title: "Procédure de liaison d'un enregistrement à des informations ou programmes externes | Microsoft Docs"
-description: "Joignez un lien hypertexte pointant vers un document ou un site Web à un enregistrement spécifique, tel qu'une fiche client ou un document."
+title: Procédure de liaison d'un enregistrement à des informations ou programmes externes | Microsoft Docs
+description: Joignez un lien hypertexte pointant vers un document ou un site Web à un enregistrement spécifique, tel qu'une fiche client ou un document.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: 3fbd9fa2e68ab84c7abb82bdef42b10e9e2cc93e
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 8927d2ca670b3faa38cd03ea10ae524e595721ad
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853319"
 ---
-# <a name="adding-links-to-websites-documents-or-programs-on-records"></a>Ajout de liens à des sites Web, documents ou programmes sur des enregistrements
+# <a name="add-links-to-websites-documents-or-programs-on-records"></a>Ajouter des liens à des sites Web, documents ou programmes sur des enregistrements
 Sur un enregistrement spécifique, comme une fiche client, un document ou une commande vente, vous pouvez ajouter un lien à un document, site Web ou programme externe. Vous pouvez aussi sélectionner un lien qui ouvre un e-mail vierge adressé à un destinataire précis. La page Fiche de certains enregistrements comme les fiches client ou fournisseur, dispose d'un champ **Page d'accueil** dans lequel vous pouvez entrer une adresse Internet (URL). Pour insérer d'autres liens, vous pouvez utiliser la méthode décrite dans cet article.
 
 Un autre exemple est lorsque vous recevez des factures imprimées de fournisseurs. Vous pouvez les numériser et les enregistrer au format .pdf sur un site SharePoint. Ensuite, vous pouvez créer un lien d'une facture achat dans [!INCLUDE[d365fin_md](includes/d365fin_md.md)] vers la facture correspondante sur SharePoint. Vous pouvez aussi créer un lien depuis une fiche article vers la page correspondante du catalogue en ligne de votre fournisseur.
@@ -55,4 +55,3 @@ Si vous supprimez un enregistrement, par exemple, une ligne commande vente, une 
 
 ## <a name="see-also"></a>Voir aussi  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

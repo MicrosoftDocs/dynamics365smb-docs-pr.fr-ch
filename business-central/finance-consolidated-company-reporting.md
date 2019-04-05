@@ -1,7 +1,7 @@
 ---
-title: "Consolider les données de plusieurs sociétés | Microsoft Docs"
-description: "Obtenez une vue récapitulative de la santé financière de vos entreprises."
-documentationcenter: 
+title: Consolider les données de plusieurs sociétés | Microsoft Docs
+description: Obtenez une vue récapitulative de la santé financière de vos entreprises.
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,16 +9,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.date: 10/01/2018
+ms.date: 03/11/2019
 ms.author: bholtorf
+ms.openlocfilehash: feda9d1f681c40746db488027fdd8ae1d06a4d94
+ms.sourcegitcommit: 2b2c3b488a610a5d3b51fc8218c40b0b732fddf3
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4208616e0d4d865a2cc113cd888abde8285dc202
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "832612"
 ---
-
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Consolidation des données financières de plusieurs sociétés
 Si vous avez plusieurs sociétés dans [!INCLUDE[d365fin](includes/d365fin_md.md)], l'état Balance consolidé du tableau de bord Comptable peut vous donner un aperçu de leur santé financière dans leur ensemble.  
 
@@ -56,7 +55,10 @@ Si des paramètres plus avancés sont nécessaires pour votre consolidation, vou
 
 1. Connectez-vous à la société consolidée.
 2. Choisissez l'icône de ![l'ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Centres de profit**, puis sélectionnez le lien associé.  
-3. Sélectionnez **Nouveau**, puis renseignez les champs requis.  
+3. Sélectionnez **Nouveau**, puis renseignez les champs requis. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!IMPORTANT]
+> Lorsque vous renseignez les champs **Date début** et **Date de fin**, assurez-vous de vous conformer aux règles GAAP concernant les périodes fiscales du centre de profit par rapport à la société mère.
 
 Si votre centre de profit utilise une devise étrangère, indiquez le taux de change à utiliser dans la consolidation. Vous devez également entrer des informations de consolidation sur les comptes généraux du centre de profit. Ces processus sont décrits dans les sections suivantes.
 
@@ -120,7 +122,31 @@ Une fois les données testées, vous pouvez les transférer vers la société co
 1. Connectez-vous à la société consolidée.  
 2. Dans le **Tableau de bord Comptable**, choisissez l'action **Exécuter la consolidation**.  
 3. Renseignez les champs requis.  
-4. Dans le champ **Où**, choisissez **Nom de la société**, puis choisissez la société consolidée dans le champ **est**.  
+4. Dans le champ **Où**, choisissez **Nom de la société**, puis choisissez la société consolidée dans le champ **est**.
+
+## <a name="to-eliminate-repeated-transactions"></a>Pour éliminer les transactions répétées
+Après que vous avez consolidé toutes les sociétés, vous devez rechercher toutes les transactions enregistrées dans plusieurs sociétés, puis valider les écritures d'élimination pour les supprimer.
+
+Le traitement d'éliminations de consolidation est un processus manuel. Vous pouvez procéder comme suit :
+1. Recherchez des transactions qui doivent être ajustées potentiellement et entrez les lignes feuille comptabilité pour les éliminer.
+2. Exécutez le rapport **Éliminations consolidation compta.** pour évaluer l'effet des lignes feuille comptabilité avant la validation.
+3. Validez les transactions d'ajustement.
+
+L'état **Éliminations consolidation compta.** affiche une tentative de balance où vous pouvez simuler les conséquences de l'élimination des écritures en comparant les écritures de la société consolidée aux éliminations entrées dans la feuille comptabilité.
+
+Pour qu'un centre de profit puisse être inclus dans un état, il doit être défini sur la page **Centres de profit** et le champ **Consolider** doit être sélectionné.
+
+Chaque compte s'affiche individuellement sur une ligne, selon la structure du plan comptable. Un compte n'est pas affiché si tous les montants de la ligne sont égaux à 0. Les informations suivantes sont données pour chaque compte :
+
+* Numéro de compte
+* Nom du compte.
+* Si vous avez sélectionné un ou plusieurs codes centre de profit dans le champ **Code centre de profit** de la page de demande, un total excluant les éliminations et les centres de profit sélectionnés est affiché pour la société consolidée. Si le champ **Code centre de profit** n'est pas renseigné, un total excluant les éliminations est affiché pour la société consolidée.
+* Si vous avez sélectionné un code centre de profit dans le champ **Code centre de profit** de la page de demande, un total est affiché pour les écritures importées à partir du centre de profit. Si le champ **Code centre de profit** n'est pas renseigné, un total est affiché pour les éliminations validées dans la société consolidée.
+* Le total de la société consolidée, avec tous les centres de profit et toutes les éliminations validées.
+* Les éliminations à effectuer dans la société consolidée, c'est-à-dire les écritures de la feuille comptabilité sélectionnée sur la page de demande.
+* Le texte de validation copié à partir de la feuille comptabilité.
+* Le total de la société consolidée après les éliminations, si elles sont validées.
+
 
 ## <a name="to-export-and-import-consolidated-data-between-databases"></a>Pour exporter et importer des données consolidées entre des bases de données
 Si les données d'un centre de profit se trouvent dans une autre base de données, vous devez exporter les données dans un fichier avant de les inclure dans la consolidation. Chaque société doit être exportée séparément. À cette fin, utilisez le traitement par lots **Exporter fichier consolidation**.  
@@ -138,4 +164,3 @@ Les écritures exportées contiennent les champs suivants : **N° compte**, **D
 [Gestion des transactions intersociétés](intercompany-manage.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Exportation de vos données métier vers Excel](about-export-data.md)
-

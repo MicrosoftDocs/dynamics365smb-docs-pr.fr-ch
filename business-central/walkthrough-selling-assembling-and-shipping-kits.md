@@ -1,23 +1,23 @@
 ---
-title: "Procédure pas-à-pas : vente, assemblage et expédition de kits | Microsoft Docs"
-description: "Pour prendre en charge un stock juste-à-temps (JIT) et permettre la personnalisation des produits conformément aux demandes client, il est possible de créer des ordres d’assemblage et de les lier automatiquement dès que la ligne commande vente est créée. Le lien entre la demande vente et l’approvisionnement d’assemblage permet aux préparateurs de commandes vente de personnaliser l’article d’assemblage et de proposer des dates de livraison en fonction de la disponibilité des composants. En outre, la consommation et le résultat d’assemblage sont validés automatiquement avec l’expédition de la commande vente liée."
+title: 'Procédure pas-à-pas : vente, assemblage et expédition de kits | Microsoft Docs'
+description: Pour prendre en charge un stock juste-à-temps (JIT) et permettre la personnalisation des produits conformément aux demandes client, il est possible de créer des ordres d’assemblage et de les lier automatiquement dès que la ligne commande vente est créée. Le lien entre la demande vente et l’approvisionnement d’assemblage permet aux préparateurs de commandes vente de personnaliser l’article d’assemblage et de proposer des dates de livraison en fonction de la disponibilité des composants. En outre, la consommation et le résultat d’assemblage sont validés automatiquement avec l’expédition de la commande vente liée.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
+ms.openlocfilehash: 4cbefdb46c6ba09dad64650123d6459135aa7afe
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
-ms.openlocfilehash: b1c0f2549420bec5efc8f224f88f46d8c5874968
-ms.contentlocale: fr-ch
-ms.lasthandoff: 01/31/2019
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852715"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Procédure pas-à-pas : vente, assemblage et expédition de kits
 
@@ -27,7 +27,7 @@ Pour prendre en charge un stock juste-à-temps (JIT) et permettre la personnalis
 
 La fonctionnalité spéciale permet de gérer l’expédition des quantités « assembler pour commande », dans des configurations d’entrepôt de base et avancées. Lorsque les travailleurs chargés de l’assemblage finissent d’assembler les pièces ou l’ensemble de la quantité à assembler pour commande, ils l’enregistrent dans le champ **Qté à expédier** de la ligne expédition entrepôt dans les configurations avancées et sélectionnent ensuite **Valider expédition**. Par conséquent, le résultat d’assemblage correspondant est validé, y compris la consommation de composants liée, et une expédition vente de la quantité est validée pour la commande vente liée. Cette procédure pas à pas présente le processus entrepôt avancé.  
 
-Dans les configurations entrepôt de base, lorsqu’une quantité à assembler pour commande est prête à être expédiée, le magasinier responsable valide un prélèvement stock pour les lignes de commande. Cela crée un mouvement stock pour les composants et valide la sortie d’assemblage et l’expédition de la commande. Pour plus d’informations, reportez\-vous à la section « Traitement des articles à assembler pour commande dans les prélèvements stock » dans Prélèvement stock.  
+Dans les configurations entrepôt de base, lorsqu’une quantité à assembler pour commande est prête à être expédiée, le magasinier responsable valide un prélèvement stock pour les lignes de commande. Cela crée un mouvement stock pour les composants et valide la sortie d’assemblage et l’expédition de la commande. Pour plus d’informations, reportez-vous à [Traitement des articles à assembler pour commande dans les prélèvements stock](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).  
 
 ## <a name="about-this-walkthrough"></a>À propos de cette procédure pas à pas  
 Cette procédure pas à pas présente les tâches suivantes :  
@@ -106,7 +106,7 @@ Supprimez le délai par défaut pour les processus internes en procédant comme 
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres production**, puis sélectionnez le lien associé.  
 2.  Sur la page **Paramètres production**, sous le raccourci **Planning**, supprimez la valeur dans le champ **Délai de sécurité par défaut**.  
 
-Créez les composants de stock pour assemblage en suivant la section « Préparation d’exemples de données » dans cette procédure pas à pas.  
+Créez le stock des composants d'assemblage en suivant [Préparation d'exemples de données](walkthrough-selling-assembling-and-shipping-kits.md#setting-up-the-sample-data).  
 
 ## <a name="story"></a>Scénario  
 Le 23 janvier, Susan, préparatrice de commandes vente, accepte une commande de The Device Shop pour trois unités de kit B, c’est-à-dire un article « assembler pour commande ». Les trois unités sont personnalisées et doivent contenir la carte graphique élevée et un bloc de RAM supplémentaire. Les lecteurs de disque sont mis à niveau vers DWD car les lecteurs de CD ne sont pas disponibles. Susan sait que les unités peuvent être assemblées immédiatement, c’est pourquoi elle laisse la date d’expédition suggérée du 23 janvier.  
@@ -135,7 +135,7 @@ Sammy emballe les dix unités « assembler pour stock » avec les cinq unités
 
 Lorsque la commande vente est validée ultérieurement comme étant entièrement facturée, la commande vente et les ordres d’assemblage liés sont supprimés.  
 
-## <a name="setting-up-the-sample-data"></a>Configuration des exemples de données  
+## <a name="prepare-sample-data"></a>Préparation d'exemples de données  
 
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles article entrepôt**, puis sélectionnez le lien associé.  
 2.  Choisissez le champ **Nom de la feuille**, puis sélectionnez la feuille par défaut.  
@@ -443,4 +443,3 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
  [Détails de conception : flux d'entrepôt internes](design-details-internal-warehouse-flows.md)   
  [Détails de conception : flux de désenlogement](design-details-outbound-warehouse-flow.md)   
  [Procédure pas à pas : planification automatique des approvisionnements](walkthrough-planning-supplies-automatically.md)
-

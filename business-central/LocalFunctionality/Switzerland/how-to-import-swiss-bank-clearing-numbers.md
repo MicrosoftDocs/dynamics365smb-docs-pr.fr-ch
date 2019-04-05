@@ -1,23 +1,23 @@
 ---
 title: "Procédure : Importer des numéros de compensation d'une banque suisse"
-description: "Les numéros de compensation bancaire sont les numéros uniques utilisés pour identifier chaque agence ou succursale bancaire dans l'annuaire bancaire. Ces informations sont nécessaires pour le paiement électronique. Ce fichier peut être téléchargé à partir du site Web SIX Interbank Clearing."
+description: Les numéros de compensation bancaire sont les numéros uniques utilisés pour identifier chaque agence ou succursale bancaire dans l'annuaire bancaire. Ces informations sont nécessaires pour le paiement électronique. Ce fichier peut être téléchargé à partir du site Web SIX Interbank Clearing.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
 ms.openlocfilehash: 9c3be847165129894228a04bca9dbbc67b7091a4
-ms.contentlocale: fr-ch
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827253"
 ---
 # <a name="import-swiss-bank-clearing-numbers"></a>Importer des numéros de compensation d'une banque suisse
 Les numéros de compensation bancaire sont les numéros uniques utilisés pour identifier chaque agence ou succursale bancaire dans l'annuaire bancaire. Ces informations sont nécessaires pour le paiement électronique. Ce fichier peut être téléchargé à partir du site Web [SIX Interbank Clearing](https://go.microsoft.com/fwlink/?LinkId=145121).  
@@ -47,4 +47,3 @@ La procédure suivante décrit comment définir des numéros d'établissement po
 ## <a name="see-also"></a>Voir aussi  
  [Paiements électroniques, Suisse](swiss-electronic-payments.md)   
  [Configuration des comptes bancaires](../../bank-how-setup-bank-accounts.md)
-

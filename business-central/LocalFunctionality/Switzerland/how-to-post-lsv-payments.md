@@ -1,23 +1,23 @@
 ---
-title: "Procédure : Valider les paiements LSV+"
-description: "Vous pouvez valider les paiements après avoir reçu l'avis de paiement Lastschrift Verfahren (LSV+) de la banque."
+title: 'Procédure : Valider les paiements LSV+'
+description: Vous pouvez valider les paiements après avoir reçu l'avis de paiement Lastschrift Verfahren (LSV+) de la banque.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: d7646d77b5e266e58f9022f4cf9e7130e7dd0559
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827311"
 ---
 # <a name="post-lsv-payments"></a>Valider les paiements LSV+
 Vous pouvez valider les paiements après avoir reçu l'avis de paiement Lastschrift Verfahren (LSV+) de la banque.  
@@ -49,4 +49,3 @@ Vous pouvez valider les paiements après avoir reçu l'avis de paiement Lastschr
  [Traiter un prélèvement LSV](how-to-process-an-lsv-collection.md)   
  [Fermer prélèvement LSV](how-to-close-an-lsv-collection.md)   
  [Exporter des paiements en mode LSV](how-to-export-payments-using-lsv.md) 
-

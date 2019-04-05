@@ -1,8 +1,8 @@
 ---
-title: "Transactions entre sociétés de la même organisation | Microsoft Docs"
-description: "Avec la fonctionnalité intersociétés, vous pouvez simplifier les processus et les transactions entre sociétés appartenant à la même organisation."
+title: Transactions entre sociétés de la même organisation | Microsoft Docs
+description: Avec la fonctionnalité intersociétés, vous pouvez simplifier les processus et les transactions entre sociétés appartenant à la même organisation.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 10/01/2018
+ms.date: 03/18/2018
 ms.author: sgroespe
+ms.openlocfilehash: 1d707aeec37b3c6c0ee027d0266e9cc386fb5d3a
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8c68e4bd69c854ecd99cfb833c941066d9a805da
-ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852117"
 ---
 # <a name="managing-intercompany-transactions"></a>Gestion des transactions intersociétés
 Votre organisation peut comprendre plusieurs sociétés mais pourrait ne pas disposer du nombre équivalent d'équipes comptables et administratives. La fonctionnalité Intersociétés vous permet de commercer avec vos filiales et vos organisations partenaires internes de la même manière qu'avec vos fournisseurs et vos clients externes. Vous n'entrez les informations de transaction intersociétés qu'une seule fois dans les documents appropriés. Vous pouvez continuer à utiliser les fonctionnalités que vous connaissez bien, telles que la gestion des clients et des fournisseurs. Les fonctionnalités de mappage pour le plan comptable et les dimensions permettent de veiller à ce que les informations apparaissent aux bons endroits.  
@@ -35,6 +35,8 @@ Lorsque vous entrez une transaction, vous ne devez pas spécifier les comptes po
 
  Après avoir paramétré vos partenaires commerciaux comme clients et fournisseurs dans le système et leur avoir affecté des codes partenaire intersociété, vous pouvez échanger des documents achat et vente intersociété, notamment des articles et des frais annexes. La fonctionnalité Intersociétés permet l'exécution de transactions intersociétés entre plusieurs bases de données ; par exemple, dans différents pays/régions, ainsi que l'utilisation de plusieurs devises, plans comptables, dimensions et numérotations d'articles.  
 
+La consolidation des données financières peut être particulièrement appropriée en association avec des processus intersociétés. Pour plus d'informations, voir [Consolidation des données financières de plusieurs sociétés](finance-consolidated-company-reporting.md).
+
 Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.
 
  |À |Voir|
@@ -50,5 +52,3 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
-

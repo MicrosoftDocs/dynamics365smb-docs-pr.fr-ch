@@ -1,7 +1,7 @@
 ---
 title: Installation d'extensions pour personnaliser Business Central | Microsoft Docs
-description: "En savoir plus sur l'ajout des fonctionnalités et la personnalisation de Business Central en installant des extensions."
-documentationcenter: 
+description: En savoir plus sur l'ajout des fonctionnalités et la personnalisation de Business Central en installant des extensions.
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
 ms.date: 11/27/2018
 ms.author: edupont
+ms.openlocfilehash: f093a9ce2a654d5ee693ee91f32e87f6546279d1
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
-ms.openlocfilehash: 8b68012cc6032d14071ec0eb30c0efaf947344a0
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/29/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852462"
 ---
 # <a name="customizing-business-central-using-extensions"></a>Personnalisation de Business Central à l'aide d'extensions
 Vous pouvez modifier [!INCLUDE[d365fin](includes/d365fin_md.md)] en installant des extensions qui ajoutent des fonctionnalités, modifient le comportement de l'application, ou vous permettent d'accéder à de nouveaux services en ligne, par exemple.
@@ -48,17 +48,17 @@ Certaines extensions sont fournies par Microsoft, et d'autres sont fournies par 
 
 Microsoft fournit les extensions suivantes :  
 
-* [Extension Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md)  
+* [Migration de données Dynamics GP](ui-extensions-dynamicsgp-data-migration.md)  
 * [Extension Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)  
 * [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)  
 * [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)  
 * [Extension QuickBooks Data Migration](ui-extensions-quickbooks-data-migration.md)  
-* [Stock et ventes prévus](ui-extensions-sales-forecast.md)  
+* [Stock prévu et ventes prévues](ui-extensions-sales-forecast.md)  
 * [Extension Ceridian Payroll](ui-extensions-ceridian-payroll.md)  
 * [Extension Importer le fichier de paie de Quickbooks](ui-extensions-quickbooks-payroll.md)  
-* [Extension WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)  
+* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)  
 * [Extension GetAddress.io UK Postcodes](ui-extensions-getaddressio.md)  
-* [Extension QuickBooks Online Data Migration](ui-extensions-quickbooks-online-data-migration.md)  
+* [Migration des données QuickBooks Online](ui-extensions-quickbooks-online-data-migration.md)  
 * [Portail Comptable](ui-extensions-accountant-portal.md)  
 * [Analyseur Image](ui-extensions-image-analyzer.md)  
 * [Paiements et rapprochements (DK)](ui-extensions-payments-reconciliation-formats-dk.md)  
@@ -71,6 +71,7 @@ Microsoft fournit les extensions suivantes :
 
 ## <a name="see-also"></a>Voir aussi
 [Extension de Dynamics 365 Business Central](about-develop-extensions.md)  
+[Extensions Business Central par d'autres fournisseurs](ui-extensions-other.md)  
 [Configurer le service de flux de la Envestnet Yodlee Bank](bank-how-setup-bank-statement-service.md)  
 [Activer les paiements client via Paypal](sales-how-enable-payment-service-extensions.md)  
 [Migration des données métier à partir d'autres systèmes financiers](across-import-data-configuration-packages.md)  
@@ -79,4 +80,3 @@ Microsoft fournit les extensions suivantes :
 [Mise en route](product-get-started.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-
