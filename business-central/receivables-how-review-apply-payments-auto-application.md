@@ -1,8 +1,8 @@
 ---
-title: "Vérifier les paiements lettrés automatiquement et relettrer des paiements manuellement | Microsoft Docs"
-description: "Après le lettrage automatique des paiements, vous pouvez consulter toutes les écritures d'un paiement et relettrer manuellement celles qui ont été mal lettrées."
+title: Vérifier les paiements lettrés automatiquement et relettrer des paiements manuellement | Microsoft Docs
+description: Après le lettrage automatique des paiements, vous pouvez consulter toutes les écritures d'un paiement et relettrer manuellement celles qui ont été mal lettrées.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 4ac7d32decd6c6ba7161398836f70c847f4b4436
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821098"
 ---
 # <a name="review-or-apply-payments-manually-after-automatic-application"></a>Réviser ou lettrer les paiements manuellement après un lettrage automatique
 Pour chaque ligne feuille représentant un paiement sur la page **Feuille rapprochement bancaire**, vous pouvez ouvrir la page **Lettrage paiement** pour afficher toutes les écritures ouvertes candidates au paiement et les informations détaillées pour chaque écriture sur la correspondance des données sur laquelle un lettrage de paiement est basé. Ici, vous pouvez appliquer les paiements manuellement ou réappliquer les paiements qui ont été automatiquement appliqués à une écriture incorrecte. Pour plus d'informations sur le lettrage automatique, voir [Rapprocher les paiements à l'aide du lettrage automatique](receivables-how-reconcile-payments-auto-application.md).
@@ -55,4 +55,3 @@ La page **Lettrage paiement** se ferme puis, dans la fenêtre **Feuille rapproch
 [Gestion des comptes client](receivables-manage-receivables.md)  
 [Ventes](sales-manage-sales.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,24 +1,24 @@
 ---
-title: "Détails de conception - Qté maximum | Microsoft Docs"
-description: "La stratégie Quantité maximum est une manière de mettre à jour le stock à l'aide d'un point de commande."
+title: Détails de conception - Qté maximum | Microsoft Docs
+description: La stratégie Quantité maximum est une manière de mettre à jour le stock à l'aide d'un point de commande.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 21ae51ecf28458f9b09be6461243f31641a0aaef
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820452"
 ---
 # <a name="design-details-maximum-qty"></a>Détails de conception : qté maximum.
 La stratégie Quantité maximum est une manière de mettre à jour le stock à l'aide d'un point de commande.  
@@ -43,4 +43,3 @@ La stratégie Quantité maximum est une manière de mettre à jour le stock à l
  [Détails de conception : paramètres de planification](design-details-planning-parameters.md)   
  [Détails de conception : gestion des méthodes de réapprovisionnement](design-details-handling-reordering-policies.md)   
  [Détails de conception : planification de l'approvisionnement](design-details-supply-planning.md)
-

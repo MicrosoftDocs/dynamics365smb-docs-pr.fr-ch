@@ -1,23 +1,23 @@
 ---
-title: "Procédure de configuration des articles de prêt | Microsoft Docs"
-description: "Vous pouvez configurer les articles de prêt que vous pouvez prêter aux clients afin de remplacer les articles de service lors de leur maintenance."
+title: Procédure de configuration des articles de prêt | Microsoft Docs
+description: Vous pouvez configurer les articles de prêt que vous pouvez prêter aux clients afin de remplacer les articles de service lors de leur maintenance.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 46e60bcb217178d94eda195045df0db33873a190
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820400"
 ---
 # <a name="set-up-a-loaner-program"></a>Configuration d'un programme d'articles de prêt
 Vous devez parfois fournir un article de prêt à un client afin qu'il puisse s'en servir quand une équipe du service clientèle effectue une réparation. Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez configurer un programme d'articles de prêt, prêter des articles à vos clients et suivre les réceptions lorsque les clients retournent les articles. En outre, vous pouvez ajouter des commentaires sur les articles de prêt de deux manières :  
@@ -36,5 +36,4 @@ Vous devez parfois fournir un article de prêt à un client afin qu'il puisse s'
 [Prêter et recevoir des articles de prêt](service-how-to-lend-receive-loaners.md)  
 [Paramétrage de la gestion des services](service-setup-service.md)  
 [Exécution du service](service-deliver-service.md)  
-
 

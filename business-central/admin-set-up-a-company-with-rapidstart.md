@@ -1,23 +1,23 @@
 ---
-title: "Configurer une société avec RapidStart Services | Microsoft Docs"
-description: "Vous pouvez configurer une nouvelle société dans Business Central avec RapidStart Services, qui est un outil conçu pour réduire les temps de déploiement, améliorer la qualité de l’implémentation, présenter une approche reproductible des implémentations et augmenter la productivité en automatisant et en simplifiant des tâches récurrentes."
+title: Configurer une société avec RapidStart Services | Microsoft Docs
+description: Vous pouvez configurer une nouvelle société dans Business Central avec RapidStart Services, qui est un outil conçu pour réduire les temps de déploiement, améliorer la qualité de l’implémentation, présenter une approche reproductible des implémentations et augmenter la productivité en automatisant et en simplifiant des tâches récurrentes.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 12/07/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
 ms.openlocfilehash: d7476674407dd505fafa8e82f3bfecc3aa5a5fee
-ms.contentlocale: fr-ch
-ms.lasthandoff: 12/11/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820264"
 ---
 # <a name="setting-up-a-company-with-rapidstart-services"></a>Configuration d'une société avec RapidStart Services
 Vous pouvez configurer une nouvelle société dans [!INCLUDE[d365fin](includes/d365fin_md.md)] avec RapidStart Services, qui est un outil conçu pour réduire les temps de déploiement, améliorer la qualité de l’implémentation, présenter une approche reproductible des implémentations et augmenter la productivité en automatisant et en simplifiant des tâches récurrentes.  
@@ -52,4 +52,3 @@ Vous pouvez utiliser les composants suivants pour accélérer la configuration d
 [Administration](admin-setup-and-administration.md)  
 [Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Configurer des domaines d'application complexes à l'aide des meilleures pratiques](set-up-complex-application-areas-using-best-practices.md)   
-

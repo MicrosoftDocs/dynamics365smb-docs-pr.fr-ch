@@ -1,23 +1,23 @@
 ---
 title: Comment bloquer les ventes aux articles clients depuis les ventes ou les achats
-description: "Dans Business Central, un article peut être signalé comme bloqué pour la vente, bloqué pour l'achat ou bloqué dans tous les cas."
+description: Dans Business Central, un article peut être signalé comme bloqué pour la vente, bloqué pour l'achat ou bloqué dans tous les cas.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 268d098318b77cb89a369e8edc14729a44bedae6
-ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821003"
 ---
 # <a name="block-customers"></a>Bloquer des clients
 Vous pouvez bloquer un client, par exemple à cause de son insolvabilité, afin que le client ne puisse pas être ajouté aux documents vente ou afin d'empêcher que d'autres transactions soient validées pour ce client.
@@ -42,4 +42,3 @@ Le tableau suivant décrit les différentes options de blocage.
 [Enregistrer de nouveaux clients](sales-how-register-new-customers.md)  
 [Collecte des soldes restants](receivables-collect-outstanding-balances.md)  
 [Gestion des comptes client](receivables-manage-receivables.md)  
-

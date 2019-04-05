@@ -1,23 +1,22 @@
 ---
-title: "Documents électroniques dans Business Central | Microsoft Docs"
-description: "Présentation de l'envoi et de la réception de documents électroniques dans Business Central."
+title: Documents électroniques dans Business Central | Microsoft Docs
+description: Présentation de l'envoi et de la réception de documents électroniques dans Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 147a7e41d490167fceb76ff89de1f6c628223914
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821650"
 ---
-
 # <a name="exchanging-data-electronically"></a>Échanger des données par voir électronique
 Vous pouvez utiliser la structure d'échange de données pour échanger des documents commerciaux, des fichiers bancaires, des taux de change devise et tous autres fichiers de données avec vos partenaires commerciaux.
 
@@ -63,4 +62,3 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 [Échange de données](across-exchange-data.md)  
 [Documents entrants](across-income-documents.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)
-

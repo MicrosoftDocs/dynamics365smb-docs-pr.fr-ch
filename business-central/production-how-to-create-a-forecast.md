@@ -1,23 +1,23 @@
 ---
-title: "Procédure de création d'une prévision demande | Microsoft Docs"
-description: "Vous pouvez créer des prévisions de vente et de production à l'aide de la page **Prévision demande**."
+title: Procédure de création d'une prévision demande | Microsoft Docs
+description: Vous pouvez créer des prévisions de vente et de production à l'aide de la page **Prévision demande**.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: b7937bf83074dcbe9cd2bf501d4a5f67c1712511
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821343"
 ---
 # <a name="create-a-demand-forecast"></a>Créer une prévision de la demande
 Vous pouvez créer des prévisions de vente et de production à l'aide de la page **Prévision demande**.  
@@ -77,4 +77,3 @@ Vous pouvez indiquer dans les paramètres production si vous souhaitez filtrer l
 [Détails de conception : planification de l'approvisionnement](design-details-supply-planning.md)   
 [Pratiques de configuration recommandées : planification de l'approvisionnement](setup-best-practices-supply-planning.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

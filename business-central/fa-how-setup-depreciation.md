@@ -1,6 +1,6 @@
 ---
-title: "Paramétrer l'amortissement| Microsoft Docs"
-description: "Vous spécifiez dans une loi d'amortissement comment vous souhaitez amortir ou déprécier les immobilisations."
+title: Paramétrer l'amortissement| Microsoft Docs
+description: Vous spécifiez dans une loi d'amortissement comment vous souhaitez amortir ou déprécier les immobilisations.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: d417db84cf45356925cf52a36ba08e478b8ee6b9
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821027"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Configurer un amortissement immobilisation
  Vous pouvez utiliser plusieurs méthodes d'amortissement pour préparer les états financiers et les déclarations de revenus. De nombreuses sociétés de grande taille utilisent la méthode de l'amortissement linéaire dans leurs états financiers car elle permet généralement la déclaration des bénéfices supérieurs. Toutefois, dans le cadre de l'impôt sur le revenu, la plupart des entreprises utilise une méthode d'amortissement accélérée. Pour en savoir plus, voir [Méthodes d'amortissement](fa-depreciation-methods.md).
@@ -83,4 +83,3 @@ Pour chaque loi d'amortissement, vous définissez une configuration par défaut 
 [Finances](finance.md)  
 [Mise en route](product-get-started.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

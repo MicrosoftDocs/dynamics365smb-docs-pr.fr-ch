@@ -1,7 +1,7 @@
 ---
 title: Utilisation de Business Central sans Outlook | Microsoft Docs
-description: "Vous pouvez utiliser Business Central comme boîte de réception professionnelle dans Outlook, car il est intégré à Office 365. Cependant, vous pouvez également l'utiliser sans Outlook dans un navigateur ou sur votre périphérique mobile."
-documentationcenter: 
+description: Vous pouvez utiliser Business Central comme boîte de réception professionnelle dans Outlook, car il est intégré à Office 365. Cependant, vous pouvez également l'utiliser sans Outlook dans un navigateur ou sur votre périphérique mobile.
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: 49ed0eea3af363b368693b9df34bb6284ccc47ce
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: adeb5f554014e64921cccb9dc926552a2321d333
-ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821449"
 ---
 # <a name="using-business-central-without-outlook"></a>Utilisation de Business Central sans Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] bénéficie d'une intégration complète à Office 365, et vous pouvez utiliser [!INCLUDE[d365fin](includes/d365fin_md.md)] comme boîte de réception professionnelle dans Outlook. Si vous n'avez pas Outlook, vous pouvez utiliser [!INCLUDE[d365fin](includes/d365fin_md.md)] dans le navigateur ou sur votre périphérique mobile.  
@@ -30,4 +30,3 @@ Vous pouvez envoyer des documents tels que des factures en tant qu'e-mails à l'
 [Utilisation de Business Central en tant que boîte de réception professionnelle dans Outlook](admin-outlook.md)  
 [Obtention de Business Central sur mon périphérique mobile](install-mobile-app.md)  
 [Envoyer des documents par e-mail](ui-how-send-documents-email.md)
-

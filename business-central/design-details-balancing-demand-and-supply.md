@@ -1,23 +1,23 @@
 ---
-title: "Détails de conception - Équilibrage la demande et de l'approvisionnement | Microsoft Docs"
-description: "Pour comprendre comment fonctionne le système de planification, il est nécessaire de comprendre les objectifs priorisés du système de planification, dont les plus importants sont de s'assurer que toute demande est satisfaite par suffisamment d'approvisionnement et n'importe quel approvisionnement atteint un but."
+title: Détails de conception - Équilibrage la demande et de l'approvisionnement | Microsoft Docs
+description: Pour comprendre comment fonctionne le système de planification, il est nécessaire de comprendre les objectifs priorisés du système de planification, dont les plus importants sont de s'assurer que toute demande est satisfaite par suffisamment d'approvisionnement et n'importe quel approvisionnement atteint un but.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/14/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: ec4746addfa3fad5d43ffe5579f7fd172e257dfb
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820402"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Détails de conception : équilibrage de la demande et de l'approvisionnement
 Pour comprendre comment fonctionne le système de planification, il est nécessaire de comprendre les objectifs priorisés du système de planification, dont les plus importants sont de s'assurer que :  
@@ -293,4 +293,3 @@ Cela conclut les descriptions de la manière dont la demande et l'approvisionnem
  [Détails de conception : concepts centraux du système de planification](design-details-central-concepts-of-the-planning-system.md)   
  [Détails de conception : gestion des méthodes de réapprovisionnement](design-details-handling-reordering-policies.md)   
  [Détails de conception : planification de l'approvisionnement](design-details-supply-planning.md)
-

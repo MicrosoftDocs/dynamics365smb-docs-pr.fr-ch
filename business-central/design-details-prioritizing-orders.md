@@ -1,8 +1,8 @@
 ---
-title: "Détails de conception - Affecter une priorité aux commandes | Microsoft Docs"
-description: "Découvrez comment affecter une priorité pour répondre à la demande et l'approvisionnement."
+title: Détails de conception - Affecter une priorité aux commandes | Microsoft Docs
+description: Découvrez comment affecter une priorité pour répondre à la demande et l'approvisionnement.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: design, priority, prioritize, order, sku, demand, supply
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
+ms.openlocfilehash: 1d58a02bdfe4810d1116d20866d3b435bc7341bc
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6e09ad64750493f99210d47516410d8471a83011
-ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821633"
 ---
 # <a name="design-details-prioritizing-orders"></a>Détails de conception : Affecter une priorité aux commandes
 Dans un point de stock donné, la date demandée ou disponible représente la priorité la plus élevée ; la demande du jour doit être traitée avant la demande de la semaine suivante. Mais en plus de cette priorité générale, le système de planification suggère également que le type de demande doit être rempli avant de répondre à une autre demande. De même, il suggère que la source d'approvisionnement soit lettrée avant d'appliquer d'autres sources d'approvisionnement. Ceci est effectué en fonction des priorités de la commande.  
@@ -60,4 +60,3 @@ Outre les priorités accordées par le type d'offre et de demande, l'état actue
 [Détails de conception : équilibrage de la demande et de l'approvisionnement](design-details-balancing-demand-and-supply.md)   
 [Détails de conception : concepts centraux du système de planification](design-details-central-concepts-of-the-planning-system.md)   
 [Détails de conception : planification de l'approvisionnement](design-details-supply-planning.md)
-

@@ -1,8 +1,8 @@
 ---
-title: "Configuration d'une analyse de trésorerie| Microsoft Docs"
-description: "Configurez les graphiques du tableau de bord Comptes pour aider à analyser le flux de trésorerie dans vos activités, y compris les dépenses et les recettes, liquidités, et les règlements entrants moins les règlements sortants."
+title: Configuration d'une analyse de trésorerie| Microsoft Docs
+description: Configurez les graphiques du tableau de bord Comptes pour aider à analyser le flux de trésorerie dans vos activités, y compris les dépenses et les recettes, liquidités, et les règlements entrants moins les règlements sortants.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
 ms.date: 01/18/2019
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: c129dd63b3aabeeac15c6684f961e04bd2b08a2a
 ms.openlocfilehash: 24fad5d816260764a3eb2c476e5bff86268790a1
-ms.contentlocale: fr-ch
-ms.lasthandoff: 01/24/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820795"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Configuration d'une analyse de trésorerie
 Si vous souhaitez de l'aide pour décider quelles opérations effectuer avec votre trésorerie, consultez les graphiques dans le tableau de bord Comptable :  
@@ -73,7 +73,7 @@ Pour utiliser le guide de configuration assistée :
 Pour utiliser une procédure manuelle :  
 
 1. Dans le tableau de bord Comptable, recherchez **Paramètres trésorerie**, puis sélectionnez le lien associé.  
-2. Développez le raccourci **Cortana Intelligence**, puis cochez la case **Cortana Intelligence activé**.  
+2. Affichez l'organisateur **Cortana Intelligence**, puis activez la case à cocher **Cortana Intelligence Activé**.  
 3. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Prévision de trésorerie**, puis sélectionnez le lien associé.
 4. Sur la page **Prévision de trésorerie**, choisissez l'action **Recalculer la prévision**.  
 
@@ -89,10 +89,9 @@ Vous pouvez aussi utiliser votre propre service Web prévisionnel basé sur un m
 4. Exécutez le modèle, et publiez-le comme service Web.  
 5. Notez l'URL d'API et la clé d'API. Vous allez utiliser ces informations d'identification pour une configuration de trésorerie.  
 6. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres trésorerie**, puis sélectionnez le lien associé.  
-7. Développez le raccourci **Cortana Intelligence**, puis complétez les champs.  
+7. Développez l'organisateur **Cortana Intelligence** et renseignez les champs.  
 
 ## <a name="see-also"></a>Voir aussi
 [Analyse de la trésorerie dans votre société](finance-analyze-cash-flow.md)  
 [Configuration de Finance](finance-setup-finance.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

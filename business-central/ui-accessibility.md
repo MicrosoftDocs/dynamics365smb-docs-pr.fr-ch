@@ -1,21 +1,21 @@
 ---
-title: "Fonctionnalités d'assistance"
-description: "Raccourcis clavier et autres fonctionnalités d'assistance."
+title: Fonctionnalités d'assistance
+description: Raccourcis clavier et autres fonctionnalités d'assistance.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: bdb9eab2c23d8f1eacafd77433f621275c3dfdf1
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820450"
 ---
 # <a name="accessibility-and-keyboard-shortcuts-in-included365finincludesd365finmdmd"></a>Accessibilité et raccourcis clavier dans [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Cette rubrique fournit des informations sur les fonctionnalités qui rendent [!INCLUDE[d365fin](includes/d365fin_md.md)] accessible aux personnes handicapées. [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge les fonctionnalités d'accessibilité suivantes :  
@@ -69,4 +69,3 @@ Vous trouverez des informations supplémentaires sur l'accessibilité des produi
 [Mise en route](product-get-started.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Forum Aux Questions](across-faq.md)  
-

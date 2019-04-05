@@ -1,6 +1,6 @@
 ---
-title: "Aperçu des tâches permettant de gérer les paiements aux fournisseurs| Microsoft Docs"
-description: "Décrit les tâches permettant de gérer les paiements aux fournisseurs ou aux créditeurs, y compris la validation de lignes paiement et d'obtenir un aperçu du solde échu."
+title: Aperçu des tâches permettant de gérer les paiements aux fournisseurs| Microsoft Docs
+description: Décrit les tâches permettant de gérer les paiements aux fournisseurs ou aux créditeurs, y compris la validation de lignes paiement et d'obtenir un aperçu du solde échu.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 12/07/2018
+ms.date: 02/08/2019
 ms.author: edupont
+ms.openlocfilehash: f2ff92af7dbf6c751cde795d3546d90c8d76a62b
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 1ad5e15ef1214fb37250dcd4b04d13ab073ac21a
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820551"
 ---
 # <a name="making-payments"></a>Effectuer des paiements
 
@@ -40,7 +40,6 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |Effectuer des paiements électroniques en exportant des paiements vers un fichier bancaire que vous transférez vers votre banque pour traitement, y compris un transfert électronique de fond (EFT) en Amérique du Nord. |[Effectuer des paiements électroniques](payables-how-export-payments-bank-file.md)|
 |Effectuer des paiements électroniques conformément à la norme de virement SEPA de l'UE.|[Exécution de paiements avec le service de conversion de données bancaires ou un virement SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|
 | Payez un fournisseur en liquide ou par chèque et validez le paiement lorsque vous validez la facture. |[Établir rapidement des factures achat](finance-how-to-settle-purchase-invoices-promptly.md) |
-|Remboursez les frais personnels des salariés pour les activités liées à l'entreprise en effectuant le paiement sur leur compte bancaire.|[Enregistrer et rembourser les frais des employés](finance-how-record-reimburse-employee-expenses.md)|
 | Assurez-vous que la banque efface uniquement les chèques et les montants validés en envoyant un fichier contenant des informations de paiement, du chèque et du fournisseur. |[Exporter un fichier Positive Pay](finance-how-positive-pay.md) |
 
 ## <a name="see-also"></a>Voir aussi
@@ -48,4 +47,3 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 [Achats](purchasing-manage-purchasing.md)  
 [Gestion des comptes client](receivables-manage-receivables.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

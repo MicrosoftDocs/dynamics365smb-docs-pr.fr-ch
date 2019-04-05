@@ -1,23 +1,23 @@
 ---
-title: "Création des budgets des coûts | Microsoft Docs"
-description: "Cette rubrique décrit l'emplacement où créer et analyser les budgets des coûts."
+title: Création des budgets des coûts | Microsoft Docs
+description: Cette rubrique décrit l'emplacement où créer et analyser les budgets des coûts.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 4c50c2b6a81eccfe07d41c2527547b7694aca4e7
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820737"
 ---
 # <a name="creating-cost-budgets"></a>Création des budgets des coûts
 La budgétisation en comptabilité analytique ressemble à la budgétisation en comptabilité générale. Un budget de coûts est créé en fonction des types de coûts, tel qu'un budget est créé pour les écritures comptables en fonction des comptes généraux.  
@@ -40,4 +40,3 @@ Vous utilisez les pages suivantes pour créer et analyser les budgets de coûts.
 [Terminologie en comptabilité analytique](finance-terminology-in-cost-accounting.md)   
 [Définition et répartition des coûts](finance-define-and-allocate-costs.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

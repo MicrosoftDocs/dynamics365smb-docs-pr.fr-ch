@@ -1,8 +1,8 @@
 ---
-title: "Vidéos de présentation de l'utilisation de Business Central | Microsoft Docs"
-description: "Permet d'accéder aux vidéos de mise en route qui illustrent comment effectuer des tâches courantes."
+title: Vidéos de présentation de l'utilisation de Business Central | Microsoft Docs
+description: Permet d'accéder aux vidéos de mise en route qui illustrent comment effectuer des tâches courantes.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: video, library, how to
 ms.date: 10/01/2018
 ms.author: bholtorf
+ms.openlocfilehash: 71e92f587ac5697b96aca937e6a6d4b00dc41902
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: b9f8ba9113cdac79dfd8b20d99c194e834578a8e
-ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821514"
 ---
 # <a name="visit-our-video-library"></a>Visitez notre vidéothèque
 Nous vous remercions de votre patience pendant que nous recréons notre bibliothèque de vidéos de « procédure ». En raison des améliorations récentes de [!INCLUDE[d365fin](includes/d365fin_md.md)], nous devons reproduire notre contenu afin qu'il reflète précisément le produit. 
@@ -35,18 +35,17 @@ Vous pouvez accéder aux vidéos de plusieurs façons. Lorsque vous démarrez [!
 > [!Tip]  
 > Les vidéos de la bibliothèque s'affichent dans un cadre qui peut sembler petit. Pour agrandir le cadre, choisissez l'icône de double flèche dans le coin supérieur droit. Ensuite, les vidéos s'afficheront dans un cadre plus grand jusqu'à ce que vous le réduisiez à nouveau.
 
-Vous pouvez également afficher nos vidéos de « procédure », ainsi que bien d'autres contenus, sur la chaîne YouTube que nous avons créée pour [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour visiter la chaîne maintenant, [cliquez ici](https://go.microsoft.com/fwlink/?linkid=851533).
+Vous pouvez également afficher nos vidéos de « procédures », ainsi que bien d'autres contenus, sur la chaîne YouTube que nous avons créée pour [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour visiter la chaîne maintenant, [cliquez ici](https://go.microsoft.com/fwlink/?linkid=851533).
 
 ## <a name="content-that-is-coming-soon"></a>Contenu bientôt disponible
 Pour n'en citer que quelques-unes, les vidéos que nous mettons à jour expliquent comment :  
 
 * Migrer des données métier depuis d'autres applications financières vers [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 * Configurer les axes analytiques pour effectuer le suivi et l'analyse de différents documents et entités
-* Se connecter à [!INCLUDE[d365fin](includes/d365fin_md.md)] avec Microsoft Dynamics 365 for Sales
+* Connectez-vous à [!INCLUDE[d365fin](includes/d365fin_md.md)] avec Microsoft Dynamics 365 for Sales
 * Configurer des flux de travail approbation  
 * Utiliser Power BI avec [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 * Configurer une messagerie et envoyer des documents directement depuis [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 
 ## <a name="see-also"></a>Voir aussi
 [Mise en route](product-get-started.md)
-

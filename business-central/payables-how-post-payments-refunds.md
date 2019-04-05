@@ -1,6 +1,6 @@
 ---
-title: "Lettrer des paiements à des documents connexes et les valider| Microsoft Docs"
-description: "Décrit comment enregistrer les paiements effectués aux fournisseurs et les remboursements effectués aux clients."
+title: Lettrer des paiements à des documents connexes et les valider| Microsoft Docs
+description: Décrit comment enregistrer les paiements effectués aux fournisseurs et les remboursements effectués aux clients.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, customer refund, creditor, debt, balance due, AP
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: 7b3065dd0528588fec4c05e4e9c391a3beb1cc9a
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 605c4ad4043d8b7c4b5603a4821e683f63d4a33d
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821243"
 ---
 # <a name="record-payments-and-refunds-in-the-payment-journal"></a>Enregistrer les paiements et remboursements dans la feuille paiement
 
@@ -25,9 +25,9 @@ La feuille paiement est une feuille comptabilité qui est optimisée pour effect
 
 - Lettrer des paiements dans des factures ou des avoirs
 
-    Si vous renseignez le champ **N° doc. lettrage** avec la facture ou l'avoir qui doit être payé ou remboursé, le document en question est défini sur Payé lorsque vous validez la feuille. C'est ce qu'on appelle « lettré ». Outre le lettrage lors de la validation du paiement, vous pouvez utiliser la page **Lettrer écritures fournisseur** et **Lettrer écritures client** après avoir validé le paiement. Pour plus d'informations, voir [Rapprocher les paiements fournisseur manuellement](payables-how-apply-purchase-transactions-manually.md), par exemple.  
+    Si vous renseignez le champ **N° doc. lettrage** avec la facture ou l'avoir qui doit être payé ou remboursé, le document en question est défini sur Payé lorsque vous validez la feuille. C'est ce qu'on appelle « lettré ». Outre le lettrage lors de la validation du paiement, vous pouvez utiliser la page **Lettrer écritures fournisseur** et **Lettrer écritures client** après avoir validé le paiement. Pou plus d'informations, voir par exemple [Rapprocher des paiements fournisseur avec la feuille paiement ou à partir des écritures comptables fournisseur](payables-how-apply-purchase-transactions-manually.md).  
 
-- Obtenir des suggestions de paiements aux fournisseurs ou aux salariés 
+- Obtenir des suggestions de paiements aux fournisseurs ou aux salariés
 
     Les fonctions **Proposer paiements fournisseur** et **Proposer paiements aux salariés** peuvent vous aider à renseigner automatiquement les lignes feuille paiement en fonction de la priorité des fournisseurs et des dates d'échéance. Pour plus d'informations, reportez vous à [Proposer des paiements fournisseur](payables-how-suggest-vendor-payments.md). Avec cette fonction, le champ **N° doc. lettrage** est toujours renseigné.  
 
@@ -35,7 +35,7 @@ La feuille paiement est une feuille comptabilité qui est optimisée pour effect
 
     Outre l'enregistrement du paiement, vous pouvez également utiliser la page **Feuille paiement** pour générer le paiement à des fins de traitement par votre banque. Pour plus d'informations, voir [Effectuer des paiements par chèque](payables-how-work-checks.md) et [Effectuer des paiements électroniques](payables-how-export-payments-bank-file.md).  
 
-## <a name="to-make-payments-in-the-payment-journal"></a>Pour effectuer des paiements dans la feuille paiement 
+## <a name="to-make-payments-in-the-payment-journal"></a>Pour effectuer des paiements dans la feuille paiement
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles paiement**, puis sélectionnez le lien associé.
 2. Ouvrez la feuille dédiée aux paiements.
@@ -57,4 +57,3 @@ La feuille paiement est une feuille comptabilité qui est optimisée pour effect
 [Utilisation de feuilles comptabilité](ui-work-general-journals.md)  
 [Personnalisation de votre espace de travail](ui-personalization-user.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

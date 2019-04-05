@@ -1,6 +1,6 @@
 ---
-title: "Référence rapide de raccourcis clavier"
-description: "Feuille de référence imprimable contenant les raccourcis clavier les plus populaires."
+title: Référence rapide de raccourcis clavier
+description: Feuille de référence imprimable contenant les raccourcis clavier les plus populaires.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,13 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
 ms.openlocfilehash: f0a88ccadd5107130150e5cadda3e3e5d1cee4bf
-ms.contentlocale: fr-ch
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820637"
 ---
-
 # <a name="keyboard-shortcuts-quick-reference"></a>Référence rapide de raccourcis clavier
 
 ||||  
@@ -27,4 +26,3 @@ ms.lasthandoff: 12/04/2018
 |**Copier et coller**|Ctrl+C<br />Ctrl+V<br />F8|Copier les lignes<br />Coller lignes<br />Copier le champ au-dessus dans la ligne actuelle|
 |**Recherche, filtre, et tri**|F3<br />Shift+F3<br />Ctrl+Shift+F3<br />Alt+F3<br />Maj+Alt+F3<br />Ctrl+Alt+Maj+F3|Basculer la recherche<br />Basculer le volet Filtre ; focus sur les filtres de champ<br />Basculer le volet Filtre ; focus sur les filtres de totaux<br />Filtrer la valeur sélectionnée de cellules<br />Ajouter un filtre au champ sélectionnée<br />Réinitialiser les filtres|
 |**Aperçu d'état**|Haut/Bas<br />Droite/Gauche<br />Ctrl+Accueil/Fin<br />Haut/Bas de page|Faire défiler vers le haut et le bas de la page<br />Faire défiler vers la droite/la gauche <br />Aller à la première/dernière page<br />Aller à la page précédente/suivante|
-

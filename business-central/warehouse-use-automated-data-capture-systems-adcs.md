@@ -1,21 +1,21 @@
 ---
-title: "Utiliser des systèmes de saisie automatisée (ADCS) | Microsoft Docs"
-description: "Vous pouvez utiliser votre système de saisie automatisée pour enregistrer le mouvement des articles de l'entrepôt et certaines activités de la feuille, notamment les ajustements de quantité de la feuille article entrepôt et les inventaires."
+title: Utiliser des systèmes de saisie automatisée (ADCS) | Microsoft Docs
+description: Vous pouvez utiliser votre système de saisie automatisée pour enregistrer le mouvement des articles de l'entrepôt et certaines activités de la feuille, notamment les ajustements de quantité de la feuille article entrepôt et les inventaires.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/04/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
 ms.openlocfilehash: a2b30b3eec747104f3351aed0d0d9787d2fc4e9f
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820963"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Utilisation des systèmes de saisie automatisée (ADCS)
 
@@ -119,4 +119,3 @@ Pour plus d'informations, voir [Configuration d'un système de saisie automatis�
 [Gestion des assemblages](assembly-assemble-items.md)    
 [Détails de conception : gestion d'entrepôt](design-details-warehouse-management.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,23 +1,23 @@
 ---
 title: Configuration de gestion de prix | Microsoft Docs
-description: "Cette rubrique décrit comment appliquer le meilleur prix à des commandes service, configurer des accords prix service personnalisés pour des clients, améliorer le rendement des salariés de la maintenance et accélérer le processus de facturation."
+description: Cette rubrique décrit comment appliquer le meilleur prix à des commandes service, configurer des accords prix service personnalisés pour des clients, améliorer le rendement des salariés de la maintenance et accélérer le processus de facturation.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
+ms.openlocfilehash: eb3d9b075f7209634cdc8b6f88a24409f18811e7
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 75c50a7044e3494df5aadb90caa1c008a6ac101c
-ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821246"
 ---
 # <a name="service-price-management"></a>Configuration de gestion de prix
 La fonctionnalité de gestion de la tarification des services vous permet d'appliquer le meilleur prix à des commandes service, de configurer des accords prix service personnalisés pour des clients, d'améliorer le rendement des salariés de la maintenance et d'accélérer le processus de facturation.  
@@ -69,4 +69,3 @@ Le tableau suivant décrit les calculs.
 ## <a name="see-also"></a>Voir aussi  
 [Configurer la tarification et les frais supplémentaires pour les services](service-how-setup-service-costs-pricing.md)  
 [Paramétrage de la gestion des services](service-setup-service.md)  
-

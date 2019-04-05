@@ -1,6 +1,6 @@
 ---
-title: "Utiliser Business Central sur votre périphérique mobile| Microsoft Docs"
-description: "Vous pouvez afficher et modifier vos données Business Central sur votre téléphone ou tablette."
+title: Utiliser Business Central sur votre périphérique mobile| Microsoft Docs
+description: Vous pouvez afficher et modifier vos données Business Central sur votre téléphone ou tablette.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -10,14 +10,13 @@ ms.workload: na
 ms.search.keywords: phone, tablet
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 8e69b29eff604a78151b6a6f3ad3564abb04a5b2
 ms.openlocfilehash: 4f38251e53e40d57829f7b00592d8b2920e2dea1
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820940"
 ---
-
 # <a name="getting-business-central-on-your-mobile-device"></a>Obtention de Business Central sur votre périphérique mobile
 Accédez à vos données [!INCLUDE[d365fin](includes/d365fin_md.md)] à partir de votre périphérique mobile. Vous pouvez naviguer dans vos données commerciales, utiliser des fonctionnalités telles que l'envoi vers Excel ou Office 365, l'affichage de graphiques et d'indicateurs de performance clé à jour, l'envoi par e-mail de devis et de factures. Vous pouvez également prendre des photos et les ajouter en pièces jointes grâce à votre appareil photo. Suivez la procédure ci-dessous pour télécharger l'application et démarrer.
 
@@ -33,4 +32,3 @@ Vous êtes désormais en mesure d'accéder à [!INCLUDE[d365fin](includes/d365fi
 ## <a name="see-also"></a>Voir aussi
 [Mise en route](product-get-started.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

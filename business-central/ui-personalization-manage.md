@@ -1,8 +1,8 @@
 ---
-title: "Gérer la personnalisation en tant qu'administrateur dans Business Central | Microsoft Docs"
-description: "Découvrez comment personnaliser l'interface utilisateur pour l'adapter à votre méthode de travail."
+title: Gérer la personnalisation en tant qu'administrateur dans Business Central | Microsoft Docs
+description: Découvrez comment personnaliser l'interface utilisateur pour l'adapter à votre méthode de travail.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: ad3b4cf3be7031ab1c7c4699bed6020fe09bd2d1
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 15d7e4aac7989f95f7becc8aa8ed96381a7dc2de
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820972"
 ---
 # <a name="managing-personalization-as-an-administrator"></a>Gérer la personnalisation en tant qu'administrateur
 <!--NAV in the Web client--> Les utilisateurs peuvent personnaliser leur espace de travail en fonction de leurs propres préférences. En tant qu'administrateur, vous pouvez contrôler et gérer la personnalisation en désactivant la capacité des utilisateurs à personnaliser des pages et en effaçant toutes les personnalisations de page effectuées par les utilisateurs.
 
 ## <a name="disable-personalization-for-a-profile"></a>Désactiver la personnalisation pour un profil
 Vous pouvez empêcher tous les utilisateurs appartenant à un profil spécifique de personnaliser leurs pages.
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Profils**, puis sélectionnez le lien associé.
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Liste des profils**, puis sélectionnez le lien associé.
 2.  Sélectionnez dans la liste le profil à modifier.
 3. Activez la case à cocher **Désactiver la personnalisation**, puis cliquez sur le bouton **OK**.
 
@@ -41,7 +41,7 @@ La page **Supprimer la personnalisation utilisateur** permet d'effacer les perso
     La page répertorie toutes les pages qui ont été personnalisées et l'utilisateur auquel elles appartiennent.
 
     >[!NOTE]
-    > Une coche dans la colonne **Legacy Personalization** indique si la personnalisation a été effectuée dans une ancienne version de [!INCLUDE[d365fin](includes/d365fin_md.md)], qui a traité la personnalisation de manière différente. Les utilisateurs qui essaient de personnaliser ces pages sont empêchés de le faire, à moins qu'ils ne choisissent de déverrouiller la page. Pour plus d'informations, voir [Pourquoi la personnalisation d'une page est bloquée](ui-personalization-locked.md).
+    > Une coche dans la colonne **Personnalisation héritée** indique si la personnalisation a été effectuée dans une ancienne version de [!INCLUDE[d365fin](includes/d365fin_md.md)], qui a traité la personnalisation de manière différente. Les utilisateurs qui essaient de personnaliser ces pages sont empêchés de le faire, à moins qu'ils ne choisissent de déverrouiller la page. Pour plus d'informations, voir [Pourquoi la personnalisation d'une page est bloquée](ui-personalization-locked.md).
 
 2. Sélectionnez l'écriture à supprimer, puis sélectionnez l'action **Supprimer**.
 
@@ -66,4 +66,3 @@ La page **Fiche de personnalisation utilisateur** permet d'effacer la personnali
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Modification des paramètres de base](ui-change-basic-settings.md)  
 [Modification des fonctionnalités affichées](ui-experiences.md)  
-

@@ -1,23 +1,23 @@
 ---
-title: "Détails de conception - Compta. stock | Microsoft Docs"
-description: "Chaque mouvement stock, par exemple une réception achat ou une expédition vente, valide deux écritures de différents types."
+title: Détails de conception - Compta. stock | Microsoft Docs
+description: Chaque mouvement stock, par exemple une réception achat ou une expédition vente, valide deux écritures de différents types.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 80c2912836d8f11a8e3cf869b9412ad9ed66ca54
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821224"
 ---
 # <a name="design-details-inventory-posting"></a>Détails de conception : comptabilisation stock
 Chaque mouvement stock, par exemple une réception achat ou une expédition vente, valide deux écritures de différents types.  
@@ -133,4 +133,3 @@ Pour plus d'informations, voir [Détails de conception : modes évaluation stoc
  [Détails de conception : Ajustement des coûts](design-details-cost-components.md) [Gestion des composants des coûts](finance-manage-inventory-costs.md)  
  [Finances](finance.md)  
  [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

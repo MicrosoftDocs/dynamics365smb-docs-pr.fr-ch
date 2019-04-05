@@ -1,6 +1,6 @@
 ---
 title: Annulation de Business Central | Microsoft Docs
-description: "Décrit comment annuler ou supprimer votre expérience Business Central."
+description: Décrit comment annuler ou supprimer votre expérience Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: remove, delete
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 3da4de9eee04f240d88d4128fefe273999f20cfc
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821293"
 ---
 # <a name="unsubscribe-remove-or-reset-included365finincludesd365finmdmd"></a>Annuler un abonnement, supprimer, ou réinitialiser [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Si vous souhaitez ne plus utiliser [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez fermer votre compte ou faire supprimer la licence de votre compte. La procédure à suivre est différente si vous utilisez actuellement la version d'évaluation gratuite ou si vous disposez d'un abonnement mensuel dans le cadre d'un compte Office 365.  
@@ -51,4 +51,3 @@ Si vous souhaitez masquer [!INCLUDE[d365fin](includes/d365fin_md.md)] de votre l
 [Exportation de vos données métier vers Excel](about-export-data.md)  
 [Portail Office](https://portal.office.com)  
 [Combien de temps dure la période d'essai et comment annuler ?](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel)  
-

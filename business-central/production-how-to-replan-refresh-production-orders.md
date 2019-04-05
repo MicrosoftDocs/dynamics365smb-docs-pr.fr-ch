@@ -1,21 +1,21 @@
 ---
-title: "Procédure de replanification ou d'actualisation directe des ordres de fabrication | Microsoft Docs"
-description: "Les lignes O.F. affichent les articles à produire à l'aide de l'ordre de fabrication."
+title: Procédure de replanification ou d'actualisation directe des ordres de fabrication | Microsoft Docs
+description: Les lignes O.F. affichent les articles à produire à l'aide de l'ordre de fabrication.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 2fec578da84a190535e5ebf74972aee8ff7e3b7a
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821358"
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Replanifier ou actualiser directement des ordres de fabrication
 La fonction **Replanifier** des ordres de fabrication est généralement utilisée après avoir ajouté ou modifié des composants constituant des ordres de fabrication sous-jacents. La fonction calcule les modifications apportées aux composants et aux lignes gamme. Elle inclut les articles situés à des niveaux de nomenclatures de production inférieurs, pour lesquels elle peut générer de nouveaux O.F.  
@@ -93,4 +93,3 @@ Si vous avez modifié des lignes O.F., des composants ou des lignes gamme, vous 
 [Détails de conception : planification de l'approvisionnement](design-details-supply-planning.md)   
 [Pratiques de configuration recommandées : planification de l'approvisionnement](setup-best-practices-supply-planning.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

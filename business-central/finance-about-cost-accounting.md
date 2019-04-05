@@ -1,23 +1,23 @@
 ---
-title: "À propos de la comptabilité analytique | Microsoft Docs"
-description: "La comptabilité analytique vous permet de cerner les coûts liés à l'exploitation d'un activié."
+title: À propos de la comptabilité analytique | Microsoft Docs
+description: La comptabilité analytique vous permet de cerner les coûts liés à l'exploitation d'un activié.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: d7eafb21bbcf6c4b446f02b3a33ff6349c2d415d
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5a6e53e18d99b6256d0c519fe716e5d8bbe3a90a
-ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821308"
 ---
 # <a name="about-cost-accounting"></a>À propos de la comptabilité analytique
 La comptabilité analytique vous permet de cerner les coûts liés à l'exploitation d'un activité. Les informations sur la comptabilité analytique sont conçues pour analyser :  
@@ -75,4 +75,3 @@ La plupart des états et des statistiques reposent sur les écritures de coûts 
  [Finances](finance.md)   
  [Terminologie en comptabilité analytique](finance-terminology-in-cost-accounting.md)  
  [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,21 +1,21 @@
 ---
-title: "Détails de conception - Codeunit 12 Modifications dans les procédures de validation de feuille comptabilité | Microsoft Docs"
-description: "Les modifications suivantes ont été mises en œuvre dans cette version de Business Central."
+title: Détails de conception - Codeunit 12 Modifications dans les procédures de validation de feuille comptabilité | Microsoft Docs
+description: Les modifications suivantes ont été mises en œuvre dans cette version de Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 6f28cf8e465a6c9f29ddf7bd1ac5db54896802cd
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 09e52a35909c21eaaf9d2eab37b19dc947a2a8dd
-ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820626"
 ---
 # <a name="codeunit-12-changes-changes-in-general-journal-post-procedures"></a>Codeunit 12 modifications : modifications dans les procédures de validation de feuille comptabilité
 Les modifications suivantes ont été mises en œuvre dans cette version de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -190,4 +190,3 @@ Les modifications suivantes ont été mises en œuvre dans cette version de [!IN
 
 ## <a name="see-also"></a>Voir aussi  
  [Détails de conception : modifications du codeunit 12 : variables globales de mappage pour la ligne de validation de feuille comptabilité](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)
-

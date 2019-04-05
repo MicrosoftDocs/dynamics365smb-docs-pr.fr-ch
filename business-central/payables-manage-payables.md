@@ -1,6 +1,6 @@
 ---
-title: "Aperçu des tâches permettant de gérer la comptabilité fournisseur| Microsoft Docs"
-description: "Décrit les tâches permettant de gérer la comptabilité fournisseur, par exemple, le paiement des créditeurs ou le lettrage de paiements sortants dans la comptabilité pour clôturer des factures ou des avoirs."
+title: Aperçu des tâches permettant de gérer la comptabilité fournisseur| Microsoft Docs
+description: Décrit les tâches permettant de gérer la comptabilité fournisseur, par exemple, le paiement des créditeurs ou le lettrage de paiements sortants dans la comptabilité pour clôturer des factures ou des avoirs.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 11/15/2018
+ms.date: 02/08/2019
 ms.author: edupont
+ms.openlocfilehash: 89678ee0055992a03d4f56ecedf15350f7ad348e
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 9bc4eaf292c20c1525c499cde715964eb6e6631f
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820305"
 ---
 # <a name="managing-payables"></a>Gestion des comptes fournisseur
 
@@ -31,12 +31,8 @@ Le tableau suivant décrit une série de tâches associées aux comptes fourniss
 | --- | --- |
 | Générez les paiements fournisseurs ou les remboursements salariés dus, préparez les paiements par chèque, et exportez les paiements vers un fichier bancaire lors de la validation. |[Effectuer des paiements](payables-make-payments.md) |
 | Lettrer les paiements fournisseur automatiquement aux factures achat impayées en important un fichier de relevé bancaire. |[Lettrage automatique des paiements et rapprochement des comptes bancaires](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
-|Configurez des mappages entre le texte des paiements et des comptes de débit, de crédit et de contrepartie spécifiques afin que ces paiements soient validés dans les comptes spécifiés lorsque vous validez la feuille rapprochement bancaire.|[Mapper du texte sur les paiements récurrents aux comptes pour un rapprochement automatique](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)|
-| Lettrer les paiements fournisseur aux factures achat impayées manuellement. |[Rapprocher les paiements fournisseur manuellement](payables-how-apply-purchase-transactions-manually.md) |
-|Lettrez les paiements (entrants ou sortants) qui ont été enregistrés en tant que transactions sur votre compte bancaire en ligne à leurs écritures comptables ouvertes client, fournisseur et compte bancaire. La liste est générée à partir d'un flux ou d'un fichier bancaire.|[Rapprocher les paiements à l'aide de l'application automatique](receivables-how-reconcile-payments-auto-application.md)|
-|Gérer manuellement les paiements vers votre compte bancaire qui ne peuvent pas être lettrés automatiquement, par exemple, parce qu'aucun document n'existe auquel le paiement peut être lettré ou le document connexe a un montant différent du montant de la transaction en raison d'une différence de devise.|[Rapprocher les paiements qui ne peuvent pas être lettrés automatiquement](receivables-how-reconcile-payments-cannot-apply-auto.md)|
+| Lettrer les paiements fournisseur aux factures achat impayées manuellement. |[Rapprocher des paiements fournisseur avec la feuille paiement ou à partir des écritures comptables fournisseur](payables-how-apply-purchase-transactions-manually.md) |
 |Pour une évaluation de stock correcte, affectez les coûts articles ajoutés, tels que le fret, la manutention, les assurances, et transport, que vous encourez lorsque vous achetez.|[Utiliser Frais annexes pour comptabiliser les coûts commerciaux supplémentaires](payables-how-assign-item-charges.md)|
-|Si vous devez payer le fournisseur en liquide ou par chèque, vous pouvez valider le paiement lorsque vous validez la facture.|[Établir rapidement des factures achat](finance-how-to-settle-purchase-invoices-promptly.md)|
 |Remboursez les frais personnels des salariés pour les activités liées à l'entreprise en effectuant le paiement sur leur compte bancaire.|[Enregistrer et rembourser les frais des employés](finance-how-record-reimburse-employee-expenses.md)|
 
 ## <a name="see-also"></a>Voir aussi
@@ -47,4 +43,3 @@ Le tableau suivant décrit une série de tâches associées aux comptes fourniss
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

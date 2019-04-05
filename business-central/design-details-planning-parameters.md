@@ -1,6 +1,6 @@
 ---
-title: "Détails de conception - Paramètres de planification | Microsoft Docs"
-description: "Cette rubrique décrit les différents paramètres de planification que vous pouvez utiliser dans Business Central."
+title: Détails de conception - Paramètres de planification | Microsoft Docs
+description: Cette rubrique décrit les différents paramètres de planification que vous pouvez utiliser dans Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: aeafdd37a40d393fbb62501d67b14f3e351ea254
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 72b22b1370fcd5d2a92b9ed3c6c645d279ee72f3
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820985"
 ---
 # <a name="design-details-planning-parameters"></a>Détails de conception : paramètres de planification
 Cette rubrique décrit les différents paramètres de planification que vous pouvez utiliser dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -26,10 +26,10 @@ La façon dont le système de planification contrôle l'approvisionnement d'arti
 |-------------|---------------|  
 |Définir si l'article doit être planifié|Méthode de réapprovisionnement = Vide|  
 |Définir la date de réapprovisionnement|Intervalle de planification<br /><br /> Point de commande<br /><br /> Délai de sécurité|  
-|Définir la quantité à réapprovisionner|Stock de sécurité<br /><br /> Méthode de réapprovisionnement :<br /><br /> -   Qté fixe de commande plus Quantité de réappro.<br />-   Qté maximum plus Stock maximum<br />-   Commande<br />-   Lot pour lot|  
+|Définir la quantité à réapprovisionner|Stock de sécurité<br /><br /> Méthode de réapprovisionnement :<br /><br /> -   Qté fixe de commande plus Quantité de réappro.<br />-   Qté maximum plus Stock maximum<br />-   Ordre<br />-   Lot pour lot|  
 |Optimisez quand et combien réapprovisionner|Période de replanification<br /><br /> Période de groupement de lots<br /><br /> Période tampon|  
 |Modifiez les commandes approvisionnement|Qté minimum commande<br /><br /> Qté maximum commande<br /><br /> Commandé par|  
-|Délimiter l'article planifié|Mode de lancement :<br /><br /> -   Fabrication sur stock<br />-   Fabrication à la commande|  
+|Délimiter l'article planifié|Mode de lancement :<br /><br /> -   Fabrication sur stock.<br />-   Fabrication à la commande.|  
 
 ## <a name="define-if-the-item-will-be-planned"></a>Définir si l'article doit être planifié  
 Pour inclure un article/point de stock dans le processus de planification, il doit avoir une méthode de réapprovisionnement sinon il doit être planifié manuellement, par exemple, avec la fonction Order Planning.  
@@ -44,7 +44,7 @@ Le champ **Intervalle de planification** est utilisé par les stratégies de poi
 
 Le délai de sécurité par défaut, sur la page **Paramètres production** doit être défini à au moins un jour. La date d'échéance de la demande peut être connue, mais pas l'heure d'échéance. La planification planifie en amont pour répondre à la demande brute et, si aucun délai de sécurité n'est défini, les marchandises peuvent arriver trop tard pour répondre à la demande.  
 
-Trois champs de période de réapprovisionnement supplémentaires, **Période de replanification**, **Période de groupement de lots** et **Période tampon**, jouent également un rôle en définissant quand commander à nouveau. Pour plus d'informations, reportez-vous à la section « Optimiser quand et combien réapprovisionner ».  
+Trois champs de période de réapprovisionnement supplémentaires, **Période de replanification**, **Période de groupement de lots** et **Période tampon**, jouent également un rôle en définissant quand commander à nouveau. Pour plus d'informations, reportez-vous [Optimiser le délai et la quantité de commande](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
 
 ## <a name="define-how-much-to-reorder"></a>Définir la quantité à réapprovisionner  
 Si le système de planification détecte un besoin de réapprovisionnement, la méthode de réapprovisionnement sélectionnée est utilisée pour déterminer quand et combien commander.  
@@ -57,7 +57,7 @@ Indépendamment de la méthode de réapprovisionnement, le système de planifica
 4. S'il y a plus de demande brute due avant la date de fin de la proposition commande planifiée en aval, et si cette demande amène le stock disponible projeté calculé actuellement en dessous du stock de sécurité, la quantité commandée est augmentée pour compenser le déficit. La commande approvisionnement suggérée est alors planifiée en amont à partir de la date d'échéance de la demande brute qui aurait entamé le stock de sécurité.  
 5. Si le champ **Intervalle de planification** n'est pas renseigné, seule la demande brute à la même date d'échéance sera ajoutée.  
 
-     Les champs de période de réapprovisionnement suivants jouent également un rôle dans la définition de la quantité à réapprovisionner : **Période de replanification**, **Période de groupement de lots** et **Période tampon**. Pour plus d'informations, reportez-vous à la section « Optimiser quand et combien réapprovisionner ».  
+     Les champs de période de réapprovisionnement suivants jouent également un rôle dans la définition de la quantité à réapprovisionner : **Période de replanification**, **Période de groupement de lots** et **Période tampon**. Pour plus d'informations, reportez\-vous [Optimiser le délai et la quantité de commande](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
 
 ### <a name="reordering-policies"></a>Méthodes de réapprovisionnement  
 Les méthodes de réapprovisionnement suivantes affectent la quantité en cours de réapprovisionnement.  
@@ -118,4 +118,3 @@ Si l'option **Fabrication à la commande** est utilisée, le système de planifi
 [Détails de conception : gestion des méthodes de réapprovisionnement](design-details-handling-reordering-policies.md)   
 [Détails de conception : équilibrage de la demande et de l'approvisionnement](design-details-balancing-demand-and-supply.md)   
 [Détails de conception : concepts centraux du système de planification](design-details-central-concepts-of-the-planning-system.md)
-

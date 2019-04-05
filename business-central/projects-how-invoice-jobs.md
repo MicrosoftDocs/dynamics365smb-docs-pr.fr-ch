@@ -1,8 +1,8 @@
 ---
-title: "Créez une facture vente projet pour facturer un projet| Microsoft Docs"
-description: "Décrit comment facturer des clients pour les coûts au fur et à mesure de l'avancée du projet."
+title: Créez une facture vente projet pour facturer un projet| Microsoft Docs
+description: Décrit comment facturer des clients pour les coûts au fur et à mesure de l'avancée du projet.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: project invoice
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 73894bb8c7193d96ca1f4c4f7c8b8394b1f26f5f
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820381"
 ---
 # <a name="invoice-jobs"></a>Facturation des projets
 Au cours du projet, les coûts provenant de l'utilisation de ressources, de matières, et d'achats associés au projet peuvent s'accumuler. Au fur et à mesure de la progression du projet, ces transactions sont validées dans la feuille projet. Il est important que tous les coûts enregistrés dans la feuille projet avant de facturer le client.
@@ -79,4 +79,3 @@ Vous pouvez créer une facture à partir des lignes planning projet et indiquer 
 [Achats](purchasing-manage-purchasing.md)         
 [Ventes](sales-manage-sales.md)      
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

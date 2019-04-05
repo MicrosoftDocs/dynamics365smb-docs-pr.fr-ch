@@ -1,8 +1,8 @@
 ---
-title: "Configurer la tarification et les coûts des services | Microsoft Docs"
-description: "Découvrez comment configurer les prix et les frais supplémentaires des services."
+title: Configurer la tarification et les coûts des services | Microsoft Docs
+description: Découvrez comment configurer les prix et les frais supplémentaires des services.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,14 +12,13 @@ ms.workload: na
 ms.search.keywords: service, cost, service order
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 39d917ffcfb342aaea04b3668e032d548ef17ec9
-ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820918"
 ---
-
 # <a name="set-up-pricing-and-additional-costs-for-services"></a>Configurer la tarification et les frais supplémentaires pour les services
 Les fonctions de tarification de [!INCLUDE[d365fin](includes/d365fin_md.md)] permettent de configurer et de personnaliser votre application afin d'appliquer et d'ajuster la tarification des articles de service, réparations et commandes. Les décisions en matière de tarification sont alors facilement transmises au processus de facturation.  
   
@@ -68,4 +67,3 @@ Lorsque vous utilisez des articles de service et des commandes service, vous dev
 ## <a name="see-also"></a>Voir aussi
 [Paramétrage de la gestion des services](service-setup-service.md)  
 [Gestion des services](service-service.md)  
-

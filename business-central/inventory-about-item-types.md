@@ -1,23 +1,23 @@
 ---
 title: Comprendre les types d'articles | Microsoft Docs
-description: "Vous pouvez ajuster l'évaluation du stock d'un article à l'aide des méthodes FIFO ou d'évaluation stock moyen, par exemple, lorsque les coûts article sont modifiés pour des motifs autres que les transactions."
+description: Vous pouvez ajuster l'évaluation du stock d'un article à l'aide des méthodes FIFO ou d'évaluation stock moyen, par exemple, lorsque les coûts article sont modifiés pour des motifs autres que les transactions.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/18/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 2240840e977bcd1186c74972ce0457deb03058a0
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821646"
 ---
 # <a name="about-item-types"></a>À propos des types d'articles
 Dans le champ **Type** de la page **Fiche article**, vous pouvez sélectionner ce pourquoi l'article est utilisé dans votre activité et donc la manière dont il est géré dans le système. Trois options existent :
@@ -52,4 +52,3 @@ Les trois types d'article prennent en charge les fonctions suivantes respectivem
 [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  
 [STOCKS ET EN-COURS](inventory-manage-inventory.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

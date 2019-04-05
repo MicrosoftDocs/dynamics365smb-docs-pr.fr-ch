@@ -1,21 +1,21 @@
 ---
-title: "Procédure pas à pas : Réception et rangement dans les configurations de stockage de base | Microsoft Docs"
-description: "Dans Business Central, les processus entrants de réception et de rangement peuvent être effectués de quatre manières, à l'aide de différentes fonctionnalités en fonction du niveau de complexité de l'entrepôt."
+title: 'Procédure pas à pas : Réception et rangement dans les configurations de stockage de base | Microsoft Docs'
+description: Dans Business Central, les processus entrants de réception et de rangement peuvent être effectués de quatre manières, à l'aide de différentes fonctionnalités en fonction du niveau de complexité de l'entrepôt.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
 ms.openlocfilehash: 2f92a8977905f5507fdcfd26613d422ebf6c23b2
-ms.contentlocale: fr-ch
-ms.lasthandoff: 01/31/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821438"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Procédure pas à pas : Réception et rangement dans les configurations de stockage de base
 
@@ -44,7 +44,7 @@ Cette procédure pas à pas présente les tâches suivantes.
 
 -   Configuration du magasin ARGENT pour le rangement stock.  
 -   Configuration du magasin ARGENT pour la gestion d'emplacement.  
--   Définissez un emplacement par défaut pour l'article LS-81. (LS-75 est déjà défini dans CRONUS.)  
+-   Définissez un emplacement par défaut pour l'article LS-81. (LS-75 est déjà défini dans CRONUS).  
 -   Créez une commande achat pour le fournisseur 10000 pour 40 haut-parleurs.  
 -   Vérifier que les emplacements de rangement sont prédéfinis par la configuration.  
 -   Lancement de la commande achat pour l'activité entrepôt.  
@@ -145,4 +145,3 @@ Sur la page **Rangement stock**, vous pouvez gérer toutes les activités entrep
  [Détails de conception : flux d'enlogement](design-details-inbound-warehouse-flow.md)   
  [Procédures pas à pas liées au processus entreprise](walkthrough-business-process-walkthroughs.md)  
  [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,6 +1,6 @@
 ---
-title: "Valider des documents et des feuilles intersociétés | Microsoft Docs"
-description: "Utiliser des documents intersociétés pour valider des transactions avec vos partenaires intersociétés."
+title: Valider des documents et des feuilles intersociétés | Microsoft Docs
+description: Utiliser des documents intersociétés pour valider des transactions avec vos partenaires intersociétés.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 1573335edd2c3a52074b4a15ab66f86d4f2616ce
-ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821099"
 ---
 # <a name="work-with-intercompany-documents-and-journals"></a>Utiliser les documents et les feuilles intersociétés
 Les documents ou les feuilles intersociétés permettent de valider les transactions effectuées avec vos partenaires intersociétés. Lorsque vous validez un document ou une ligne feuille intersociétés dans votre société, le programme crée le document ou la ligne feuille correspondant dans votre boîte d'envoi intersociétés : vous pouvez le transmettre au partenaire concerné. Celui-ci peut ensuite valider la transaction correspondante dans sa société sans avoir à réentrer les données.
@@ -58,4 +58,3 @@ Les écritures associées sont validées dans votre société et une feuille ave
 [Configuration de Finance](finance-setup-finance.md)  
 [Utilisation de feuilles comptabilité](ui-work-general-journals.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

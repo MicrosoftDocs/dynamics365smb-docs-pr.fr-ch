@@ -1,23 +1,23 @@
 ---
-title: "Configurer une société | Microsoft Docs"
-description: "Le processus d'implémentation commence avec les éléments requis par la solution Business Central. Vous regroupez toutes ces informations dans des packages configuration."
+title: Configurer une société | Microsoft Docs
+description: Le processus d'implémentation commence avec les éléments requis par la solution Business Central. Vous regroupez toutes ces informations dans des packages configuration.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: c96d0c5f188b3fb0df0c5d4578a0bdeed7fc7599
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 518acdc1733a526f1b0b4c5caa3a7644d762b72c
-ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821075"
 ---
 # <a name="set-up-company-configuration"></a>Configurer une société
 Le processus d’implémentation commence avec le partenaire Microsoft. Le partenaire est responsable des réflexions sur les détails de la configuration et de la création d’un package qu’un client peut facilement appliquer. Avant de créer une nouvelle société, vous devez en planifier la méthode de configuration. Vous devez prendre en compte les données de configuration de base et les types de données requis par la solution [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vous regroupez toutes ces informations dans des packages configuration.
@@ -40,4 +40,3 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 ## <a name="see-also"></a>Voir aussi  
 [Configuration d'une société avec RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)
-

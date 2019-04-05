@@ -1,23 +1,23 @@
 ---
-title: "Configurer les prélèvements et rangements suggérés | Microsoft Docs"
-description: "Lorsque vous configurez un entrepôt pour prélèvement et rangement suggérés, vous disposez de nouvelles fonctionnalités pour vous aider à exploiter l'entrepôt le plus efficacement possible."
+title: Configurer les prélèvements et rangements suggérés | Microsoft Docs
+description: Lorsque vous configurez un entrepôt pour prélèvement et rangement suggérés, vous disposez de nouvelles fonctionnalités pour vous aider à exploiter l'entrepôt le plus efficacement possible.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 0f69cfc3257de42aacf01c26090230350f83dfba
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821319"
 ---
 # <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Configurer des articles et des emplacements pour prélèvement et rangement suggérés
 Lorsque vous configurez un entrepôt pour prélèvement et rangement suggérés, vous disposez de nouvelles fonctionnalités pour vous aider à exploiter l'entrepôt le plus efficacement possible. Afin de pouvoir utiliser pleinement cette fonctionnalité, vous devez fournir des informations supplémentaires concernant les articles, permettant ainsi d'exécuter les calculs nécessaires pour suggérer les méthodes les plus efficaces pour gérer les activités de l'entrepôt. Pour plus d'informations, reportez-vous à [Détails de conception : Paramètres entrepôt](design-details-warehouse-setup.md).
@@ -71,4 +71,3 @@ En outre, vous devez créer des modèles et les périodes d'inventaire de rangem
 [Gestion des assemblages](assembly-assemble-items.md)    
 [Détails de conception : gestion d'entrepôt](design-details-warehouse-management.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

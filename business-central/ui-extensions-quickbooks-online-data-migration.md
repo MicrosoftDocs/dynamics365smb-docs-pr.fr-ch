@@ -1,6 +1,6 @@
 ---
 title: Utilisation de l'extension QuickBooks Data Migration | Microsoft Docs
-description: "Décrit comment utiliser l'extension pour migrer des clients, des fournisseurs, des articles, et des comptes de QuickBooks Online à Business Central."
+description: Décrit comment utiliser l'extension pour migrer des clients, des fournisseurs, des articles, et des comptes de QuickBooks Online dans Business Central.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,19 +10,18 @@ ms.workload: na
 ms. search.keywords: extension, migrate, data, QuickBooks, import
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: e158f1e92bdf7ebeab0eb4d538d2a141a590b7cd
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820538"
 ---
-
-# <a name="the-quickbooks-online-data-migration-extension"></a>L'extension de migration de données QuickBooks Online
+# <a name="the-quickbooks-online-data-migration-extension"></a>Extension de migration des données QuickBooks Online
 Cette extension est incluse dans le guide d'installation facilité **Migration des données** pour vous aider à migrer les données métier pertinentes de QuickBooks Online vers [!INCLUDE[d365fin](includes/d365fin_md.md)]. Par exemple, c'est utile si votre activité se développe, et que vous avez décidé de mettre à niveau votre application de gestion d'entreprise en commençant à utiliser [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## <a name="what-data-can-i-import-from-quickbooks-online"></a>Quelles données puis-je importer de QuickBooks Online ?
-Vous pouvez importer les données suivantes de QuickBooks Online vers [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
+Vous pouvez importer les données suivantes de QuickBooks Online vers [!INCLUDE[d365fin](includes/d365fin_md.md)] :  
 
 * Clients
 * Fournisseurs
@@ -66,4 +65,3 @@ Il existe quelques éléments en particulier que vous devez effectuer :
 ## <a name="see-also"></a>Voir aussi
 [Importation des données métier à partir d'autres systèmes financiers](across-import-data-configuration-packages.md)  
 [Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md)  
-

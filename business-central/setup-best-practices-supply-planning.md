@@ -1,23 +1,23 @@
 ---
-title: "Configurer des recommandations - Planification de l’approvisionnement | Microsoft Docs"
-description: "La planification des approvisionnements est un domaine d'activité critique. Lorsqu'elle est configurée et utilisée correctement, la planification des approvisionnements évite les rupture de stocks et minimise les coûts de commande et de stockage."
+title: Configurer des recommandations - Planification de l’approvisionnement | Microsoft Docs
+description: La planification des approvisionnements est un domaine d'activité critique. Lorsqu'elle est configurée et utilisée correctement, la planification des approvisionnements évite les rupture de stocks et minimise les coûts de commande et de stockage.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 9b3b6dc26c7af1d2104c5509ba98ba75927cbcad
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8858758c6b4b680e13d54f0222201c67a03dafa3
-ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820611"
 ---
 # <a name="setup-best-practices-supply-planning"></a>Pratiques de configuration recommandées : planification de l'approvisionnement
 La planification des approvisionnements est un domaine d'activité critique. Lorsqu'elle est configurée et utilisée correctement, la planification des approvisionnements évite les rupture de stocks et minimise les coûts de commande et de stockage.  
@@ -37,4 +37,3 @@ La planification des approvisionnements est un domaine d'activité critique. Lor
  [Détails de conception : paramètres de planification](design-details-planning-parameters.md)   
  [Configurer des domaines d'application complexes à l'aide des meilleures pratiques](set-up-complex-application-areas-using-best-practices.md)  
  [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

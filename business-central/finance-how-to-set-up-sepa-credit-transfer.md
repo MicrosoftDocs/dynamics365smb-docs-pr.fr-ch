@@ -1,6 +1,6 @@
 ---
 title: Configurer des virements SEPA | Microsoft Docs
-description: "Découvrez comment configurer des virements SEPA dans Business Central."
+description: Découvrez comment configurer des virements SEPA dans Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.keywords: sepa, credit, transfer, payment,
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer
+ms.openlocfilehash: 6c35fdb6e5e37eb521b6d51050a552e52b66ec5d
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 103ebe376d3384eab119617b903f9a803f248462
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820545"
 ---
 # <a name="set-up-sepa-credit-transfer"></a>Configurer des virements SEPA
 Sur la page **Feuille paiement**, vous pouvez exporter des paiements vers un fichier pour le charger sur votre banque électronique afin de traiter les transferts d'argent liés. [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge le format de virement SEPA, mais dans votre pays/région, d'autres formats de paiements électroniques peuvent être disponibles.  
@@ -65,4 +65,3 @@ Avant de pouvoir traiter le paiement par voie électronique lorsque vous exporte
 [Configurer les définitions d'échange de données](across-how-to-set-up-data-exchange-definitions.md)  
 [Créer des lignes ventes et achat récurrentes](sales-how-work-standard-lines.md)  
 [Échanger des données par voir électronique](across-data-exchange.md)  
-

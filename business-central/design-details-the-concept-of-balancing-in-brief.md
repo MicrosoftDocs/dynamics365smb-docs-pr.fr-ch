@@ -1,24 +1,24 @@
 ---
-title: "Détails de conception - Le concept d'équilibrage en bref | Microsoft Docs"
-description: "La demande est faite par les clients d'une société. L'approvisionnement est ce que la société peut créer et supprimer pour établir l'équilibre. Le système de planification commence avec la demande indépendante et effectue une traçabilité en amont jusqu'à l'approvisionnement."
+title: Détails de conception - Le concept d'équilibrage en bref | Microsoft Docs
+description: La demande est faite par les clients d'une société. L'approvisionnement est ce que la société peut créer et supprimer pour établir l'équilibre. Le système de planification commence avec la demande indépendante et effectue une traçabilité en amont jusqu'à l'approvisionnement.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
+ms.openlocfilehash: ccf9857752fffd873e171880274a5a039c69bdec
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c6c7adb07337643360baa9cacf4eff659e7557c3
-ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820764"
 ---
 # <a name="design-details-the-concept-of-balancing-in-brief"></a>Détails de conception : Le concept d'équilibrage en bref
 La demande est faite par les clients d'une société. L'approvisionnement est ce que la société peut créer et supprimer pour établir l'équilibre. Le système de planification commence avec la demande indépendante et effectue une traçabilité en amont jusqu'à l'approvisionnement.  
@@ -33,4 +33,3 @@ La demande est faite par les clients d'une société. L'approvisionnement est ce
  [Détails de conception : équilibrage de la demande et de l'approvisionnement](design-details-balancing-demand-and-supply.md)   
  [Détails de conception : concepts centraux du système de planification](design-details-central-concepts-of-the-planning-system.md)   
  [Détails de conception : planification de l'approvisionnement](design-details-supply-planning.md)
-

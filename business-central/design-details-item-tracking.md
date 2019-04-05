@@ -1,23 +1,23 @@
 ---
-title: "Détails de conception - Traçabilité | Microsoft Docs"
-description: "Cette rubrique donne un aperçu des détails de conception pour la traçabilité."
+title: Détails de conception - Traçabilité | Microsoft Docs
+description: Cette rubrique donne un aperçu des détails de conception pour la traçabilité.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/12/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 1dce0ea658a2083c3d896fe6324751f63aabce06
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820419"
 ---
 # <a name="design-details-item-tracking"></a>Détails de conception : traçabilité
 Étant donné que le flux de biens dans la chaîne d'approvisionnement moderne devient de plus en plus complexe, la capacité à effectuer le suivi des articles est de plus en plus importante pour les sociétés concernées. La surveillance du flux de transaction d'un article est une obligation légale dans le secteur de l'approvisionnement médical et chimique, mais d'autres sociétés peuvent souhaiter contrôler les produits avec des garanties ou des dates d'expiration pour des raisons de service client.  
@@ -33,4 +33,3 @@ Un système de traçabilité doit permettre à une société de traiter facileme
 [Détails de conception : traçabilité et planification d'article](design-details-item-tracking-and-planning.md)  
 [Détails de conception : traçabilité et réservations](design-details-item-tracking-and-reservations.md)  
 [Détails de conception : traçabilité dans l'entrepôt](design-details-item-tracking-in-the-warehouse.md)
-

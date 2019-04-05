@@ -1,23 +1,23 @@
 ---
-title: "Procédure d'ajout de champs à une présentation de rapport Word | Microsoft Docs"
-description: "Décrit comment ajouter des champs d'un ensemble de données de rapport à une présentation de rapport Word existante pour un rapport."
+title: Procédure d'ajout de champs à une présentation de rapport Word | Microsoft Docs
+description: Décrit comment ajouter des champs d'un ensemble de données de rapport à une présentation de rapport Word existante pour un rapport.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/22/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 78c689aafe31cdec7be1e1740422f781352bbd3c
 ms.openlocfilehash: 5293b5298a2084c8cd36ae4dcc60beda75f5014e
-ms.contentlocale: fr-ch
-ms.lasthandoff: 10/25/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821489"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Ajouter des champs à une présentation de rapport Word
 Un ensemble de données de rapport peut être constitué de champs affichant des étiquettes, des données et des images. Cette rubrique décrit la procédure pour ajouter des champs d'un ensemble de données de rapport à une présentation de rapport Word pour un rapport. Vous ajoutez des champs à l'aide du composant XML personnalisé Word pour l'état et en ajoutant des contrôles de contenu qui correspondent aux champs de l'ensemble de données d'état. L'ajout de champs requiert que vous ayez des connaissances sur l'ensemble des données de rapport afin que vous puissiez identifier les champs que vous souhaitez ajouter à la présentation.  
@@ -125,4 +125,3 @@ Le tableau suivant fournit un aperçu simplifié du XML d'une partie XML personn
   
 ## <a name="see-also"></a>Voir aussi  
  [Créer et modifier une présentation de rapport personnalisée](ui-how-create-custom-report-layout.md)   
-

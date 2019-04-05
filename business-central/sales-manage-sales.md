@@ -1,6 +1,6 @@
 ---
-title: "Aperçu des tâches permettant de gérer la comptabilité fournisseur | Microsoft Docs"
-description: "Décrit comment gérer les activités des ventes."
+title: Aperçu des tâches permettant de gérer la comptabilité fournisseur | Microsoft Docs
+description: Décrit comment gérer les activités des ventes.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: trade, sell
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 6c8c3f39d782a33896e531c4bfdf95b589458f99
-ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821212"
 ---
 # <a name="sales"></a>Ventes
 Vous créez une facture vente ou une commande vente pour enregistrer votre accord avec un client pour vendre certains produits selon certaines conditions de livraison et de paiement.
@@ -62,4 +62,3 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 [Fonctionnalités marché](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

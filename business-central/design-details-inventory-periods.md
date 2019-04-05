@@ -1,23 +1,23 @@
 ---
-title: "Détails de conception - Périodes inventaire | Microsoft Docs"
-description: "Des transactions antidatées ou des ajustement des coûts affectent souvent les soldes et les évaluations du stock pour des périodes comptables qui peuvent être considérées comme clôturées. Ceci peut avoir des effets négatifs sur la précision des rapports, notamment dans des sociétés internationales. La fonction Périodes inventaire permet d'éviter ces problèmes en ouvrant ou en clôturant des périodes d'inventaire pour limiter la validation dans une période définie."
+title: Détails de conception - Périodes inventaire | Microsoft Docs
+description: Des transactions antidatées ou des ajustement des coûts affectent souvent les soldes et les évaluations du stock pour des périodes comptables qui peuvent être considérées comme clôturées. Ceci peut avoir des effets négatifs sur la précision des rapports, notamment dans des sociétés internationales. La fonction Périodes inventaire permet d'éviter ces problèmes en ouvrant ou en clôturant des périodes d'inventaire pour limiter la validation dans une période définie.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 57f0fa4f62a4c8f52eb1e3e6def8907190f3db8e
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: c4c699204cf8c9e85f38f844a57c8da2e8e8e332
-ms.contentlocale: fr-ch
-ms.lasthandoff: 06/01/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821272"
 ---
 # <a name="design-details-inventory-periods"></a>Détails de conception : périodes inventaire
 Des transactions antidatées ou des ajustement des coûts affectent souvent les soldes et les évaluations du stock pour des périodes comptables qui peuvent être considérées comme clôturées. Ceci peut avoir des effets négatifs sur la précision des rapports, notamment dans des sociétés internationales. La fonction Périodes inventaire permet d'éviter ces problèmes en ouvrant ou en clôturant des périodes d'inventaire pour limiter la validation dans une période définie.  
@@ -35,4 +35,3 @@ Des transactions antidatées ou des ajustement des coûts affectent souvent les 
 ## <a name="see-also"></a>Voir aussi  
  [Détails de conception : Coûts ajustés](design-details-inventory-costing.md) [Gestion des coûts ajustés](finance-manage-inventory-costs.md) [Finance](finance.md)  
  [Utilisation de Business Central](ui-work-product.md)
-

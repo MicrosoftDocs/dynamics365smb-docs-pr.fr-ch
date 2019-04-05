@@ -1,23 +1,23 @@
 ---
-title: "Procédure d'utilisation de l'unité de lot de fabrication | Microsoft Docs"
-description: "Si un article est stocké dans une unité mais produit dans une autre, l'ordre de fabrication doit utiliser une unité de lot de fabrication pour calculer la quantité correcte des composants. Une situation dans laquelle un article fabriqué est stocké en pièces mais produit en tonnes est un exemple d'un calcul d'unité de lot de fabrication."
+title: Procédure d'utilisation de l'unité de lot de fabrication | Microsoft Docs
+description: Si un article est stocké dans une unité mais produit dans une autre, l'ordre de fabrication doit utiliser une unité de lot de fabrication pour calculer la quantité correcte des composants. Une situation dans laquelle un article fabriqué est stocké en pièces mais produit en tonnes est un exemple d'un calcul d'unité de lot de fabrication.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: f5db99544cea6cb4f34789a4b2a5cae602cc1f75
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820227"
 ---
 # <a name="work-with-manufacturing-batch-units-of-measure"></a>Utiliser les unités de lot de fabrication
 Si un article est stocké dans une unité mais produit dans une autre, un ordre de fabrication utilisant une unité de lot de fabrication est créé pour calculer la quantité correcte des composants durant le traitement par lots **Actualiser O.F.**. Une situation dans laquelle un article fabriqué est stocké en pièces mais produit en tonnes est un exemple d'un calcul d'unité de lot de fabrication.  
@@ -54,4 +54,3 @@ Sur le raccourci **Lignes**, choisissez l'action **Ligne**, puis l'action **Comp
 [STOCKS ET EN-COURS](inventory-manage-inventory.md)  
 [Achats](purchasing-manage-purchasing.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

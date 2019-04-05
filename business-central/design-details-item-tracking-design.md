@@ -1,6 +1,6 @@
 ---
-title: "Détails de conception - Création de traçabilité | Microsoft Docs"
-description: "Cette rubrique décrit la conception associée à la traçabilité dans Business Central."
+title: Détails de conception - Création de traçabilité | Microsoft Docs
+description: Cette rubrique décrit la conception associée à la traçabilité dans Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, item, tracking, tracing
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 99534c3cf5c683c1e1d1fe3e6b5940a757fbebca
-ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820881"
 ---
 # <a name="design-details-item-tracking-design"></a>Détails de conception : création de traçabilité
 Dans la première version de traçabilité dans [!INCLUDE[d365fin](includes/d365fin_md.md)] 2.60, les numéros de série ou les numéros de lot ont été enregistrés directement sur les écritures comptables article. Ce design a fourni des informations de disponibilité complète et un suivi unique des écritures historiques, mais il a manqué de flexibilité et de fonctionnalité.  
@@ -26,7 +26,7 @@ Depuis [!INCLUDE[d365fin](includes/d365fin_md.md)] 3.60, la fonctionnalité de t
 
 Ce dernier design incorpore les écritures de suivi d'article dans les calculs de disponibilité totaux dans tout le système, y compris la planification, la fabrication, et l'entreposage. L'ancien concept d'indiquer les numéros de série et de lot des écritures comptables article est réintroduit pour assurer un accès simple aux données historiques pour la traçabilité. En relation avec les améliorations de traçabilité dans [!INCLUDE[d365fin](includes/d365fin_md.md)] 3.60, le système de réservation a été étendu aux entités réseau sans rapport avec les commandes, telles que les feuilles, les factures et les avoirs.  
 
-Avec l'ajout de numéros de série ou de lot, le système de réservation gère les attributs d'article permanents tout en gérant également les liens intermittents entre l'approvisionnement et la demande sous la forme d'écritures de suivi de commande et d'écritures de réservation. Il existe une autre caractéristique qui différencie les numéros de série ou de lot des données de réservation conventionnelles : leur validation peut être effectuée partiellement ou en totalité. Par conséquent, le tableau **Reservation Entry** (T337) s'exécute à présent avec un tableau lié, le tableau **Tracking Specification** (T336), qui gère et affiche l'ajout à travers les quantités de suivi article validées. Pour plus d'informations, voir [Détails de conception : comparaison entre écritures traçabilité actives et historiques](design-details-active-versus-historic-item-tracking-entries.md).  
+Avec l'ajout de numéros de série ou de lot, le système de réservation gère les attributs d'article permanents tout en gérant également les liens intermittents entre l'approvisionnement et la demande sous la forme d'écritures de suivi de commande et d'écritures de réservation. Il existe une autre caractéristique qui différencie les numéros de série ou de lot des données de réservation conventionnelles : leur validation peut être effectuée partiellement ou en totalité. Par conséquent, le tableau **Écriture réservation** (T337) s'exécute à présent avec un tableau lié, le tableau **Spécification traçabilité** (T336), qui gère et affiche l'ajout à travers les quantités de suivi article validées. Pour plus d'informations, voir [Détails de conception : comparaison entre écritures traçabilité actives et historiques](design-details-active-versus-historic-item-tracking-entries.md).  
 
 Le schéma suivant explique la conception de la fonctionnalité de traçabilité dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
@@ -45,4 +45,3 @@ Pour plus d'informations, reportez-vous à [Détails de conception : structure 
 
 ## <a name="see-also"></a>Voir aussi  
 [Détails de conception : traçabilité](design-details-item-tracking.md)
-

@@ -1,23 +1,23 @@
 ---
-title: "Comment ranger des articles avec le rangement entrepôt | Microsoft Docs"
-description: "Lorsque l'entrepôt est configuré pour appeler un traitement de rangement entrepôt et un traitement de réception entrepôt, vous pouvez utiliser la fonction documents rangement entrepôt pour contrôler le rangement des articles."
+title: Comment ranger des articles avec le rangement entrepôt | Microsoft Docs
+description: Lorsque l'entrepôt est configuré pour appeler un traitement de rangement entrepôt et un traitement de réception entrepôt, vous pouvez utiliser la fonction documents rangement entrepôt pour contrôler le rangement des articles.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 53bf1355c9f7b1d5727e6e63f89a7d2db56cfc48
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821134"
 ---
 # <a name="put-items-away-with-warehouse-put-aways"></a>Ranger des articles avec le rangement entrepôt
 Lorsque l'entrepôt est configuré pour appeler un traitement de rangement entrepôt et un traitement de réception entrepôt, vous pouvez utiliser la fonction documents rangement entrepôt pour contrôler le rangement des articles.  
@@ -81,4 +81,3 @@ La priorité emplacement est prise en compte lorsque plusieurs emplacements corr
 [Gestion des assemblages](assembly-assemble-items.md)    
 [Détails de conception : gestion d'entrepôt](design-details-warehouse-management.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

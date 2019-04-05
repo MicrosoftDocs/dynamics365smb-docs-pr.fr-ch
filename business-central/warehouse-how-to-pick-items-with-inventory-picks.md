@@ -1,23 +1,23 @@
 ---
-title: "Comment prélever des articles avec les prélèvements stock | Microsoft Docs"
-description: "Si un magasin est défini pour exiger un traitement des prélèvements mais pas un traitement des expéditions, vous utilisez les documents prélèvement stock pour enregistrer et valider les informations de prélèvement et d'expédition pour vos documents origine."
+title: Comment prélever des articles avec les prélèvements stock | Microsoft Docs
+description: Si un magasin est défini pour exiger un traitement des prélèvements mais pas un traitement des expéditions, vous utilisez les documents prélèvement stock pour enregistrer et valider les informations de prélèvement et d'expédition pour vos documents origine.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 4537dbb31768ff681dd71775c3813d23caba599b
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821496"
 ---
 # <a name="pick-items-with-inventory-picks"></a>Prélever des articles avec les prélèvements stock
 Lorsque votre magasin est défini pour exiger un traitement des prélèvements mais pas un traitement des expéditions, vous utilisez la page **Prélèvement stock** pour enregistrer et valider les informations de prélèvement et d'expédition pour vos documents origine. Le document origine sortant peut être une commande vente, un retour achat, un désenlogement transfert ou un ordre de fabrication dont les composants sont prêts à être prélevés.
@@ -112,4 +112,3 @@ Dans les scénarios de combinaison, où une partie de la quantité doit d'abord 
 [Gestion des assemblages](assembly-assemble-items.md)    
 [Détails de conception : gestion d'entrepôt](design-details-warehouse-management.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

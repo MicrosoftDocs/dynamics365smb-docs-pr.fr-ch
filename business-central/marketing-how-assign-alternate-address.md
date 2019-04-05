@@ -1,8 +1,8 @@
 ---
 title: Affecter une autre adresse de contact| Microsoft Docs
-description: "Décrit comment affecter une adresse secondaire à vos contacts ou prospects, où ils reçoivent parfois des informations."
+description: Décrit comment affecter une adresse secondaire à vos contacts ou prospects, où ils reçoivent parfois des informations.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
+ms.openlocfilehash: d069a22603a969220a62e2c7458cb6259cfbc630
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4f036800f7d9e83fdeacb827bb195f1f36b6a38e
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820502"
 ---
 # <a name="set-up-alternative-addresses-for-contacts"></a>Configurer des adresses secondaires pour des contacts
 Vous pouvez affecter une adresse secondaire pour l'envoi de messages et d'informations à vos contacts, par exemple leur résidence secondaire. Vous pouvez aussi affecter une ou plusieurs plages de dates aux adresses secondaires saisies pour vos contacts afin de spécifier les plages de dates de validité de ces adresses.
@@ -43,4 +43,3 @@ Répétez ces étapes pour chaque plage de dates à affecter.
 ## <a name="see-also"></a>Voir aussi
 [Création de sociétés contact](marketing-create-contact-companies.md)  
 [Utilisation de Business Central](ui-work-product.md)
-

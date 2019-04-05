@@ -1,6 +1,6 @@
 ---
-title: "Créer une facture vente ou une commande vente | Microsoft Docs"
-description: "Décrit comment créer une facture vente ou une commande vente, enregistrer votre contrat avec un client pour vendre des produits dans des conditions spécifiques."
+title: Créer une facture vente ou une commande vente | Microsoft Docs
+description: Décrit comment créer une facture vente ou une commande vente, enregistrer votre contrat avec un client pour vendre des produits dans des conditions spécifiques.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
 ms.date: 10/17/2018
 ms.author: sgroespe
+ms.openlocfilehash: c7f689a078051516f6db14b311f5f97481808a8f
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: a5fe5e467d693fc98f604cfc85be47488374541a
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820410"
 ---
 # <a name="invoice-sales"></a>Facturer des ventes
 Vous créez une facture vente ou une commande vente pour enregistrer votre accord avec un client pour vendre certains produits selon certaines conditions de livraison et de paiement.  
@@ -95,7 +95,7 @@ Selon les besoins de votre entreprise, vous pouvez être payé et enregistrer ce
 
 Vous pouvez traiter les paiements directement depuis la fiche client. Utilisez l'action **Enregistrer les paiements client** pour obtenir un aperçu des factures impayées de ce client. Ensuite, marquez la facture comme payée entièrement ou partiellement. Ce rapprochement des paiements traite les paiements de vos clients en faisant correspondre les montants perçus sur votre compte bancaire avec les factures vente impayées associées, puis valide les paiements. Pour plus d'informations, reportez-vous à [Pour rapprocher les paiements individuellement](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-register-customer-payments-individually).  
 
-Dans les environnements d'entreprise où le client paie un certain temps après la livraison, conformément aux conditions de paiement, une facture vente validée reste ouverte (impayée) jusqu'à ce que le département Comptabilité client vérifie la réception du paiement et lettre le paiement à la facture vente validée. Cela peut être effectué manuellement ou automatiquement. Pour plus d'informations, voir [Rapprocher les paiements client manuellement](receivables-how-apply-sales-transactions-manually.md) et [Rapprocher les paiements à l'aide de l'application automatique](receivables-how-reconcile-payments-auto-application.md).  
+Dans les environnements d'entreprise où le client paie un certain temps après la livraison, conformément aux conditions de paiement, une facture vente validée reste ouverte (impayée) jusqu'à ce que le département Comptabilité client vérifie la réception du paiement et lettre le paiement à la facture vente validée. Cela peut être effectué manuellement ou automatiquement. Pour plus d'informations, consultez [Rapprocher des paiements clients avec la Feuille règlement ou les Écritures comptables client](receivables-how-apply-sales-transactions-manually.md) et [Rapprocher les paiements à l'aide de l'application automatique](receivables-how-reconcile-payments-auto-application.md).  
 
 Dans les environnements d'entreprise où le client paie immédiatement, par exemple par PayPal ou en espèces, le paiement est enregistré immédiatement lorsque vous validez la facture vente, c'est-à-dire la facture vente validée est clôturée comme entièrement lettrée. Vous sélectionnez la méthode appropriée dans le champ **Code mode de règlement** de la commande vente. Voir l'étape 8. Pour les paiements électroniques, tels que PayPal, vous devez également renseigner le champ **Service de paiement**. Pour plus d'informations, voir [Activer les paiements client via les services de paiement](sales-how-enable-payment-service-extensions.md).  
 
@@ -104,8 +104,7 @@ Vous pouvez même créer des factures à paiement direct pour les clients non en
 ## <a name="see-also"></a>Voir aussi
 [Ventes](sales-manage-sales.md)  
 [Définition des ventes](sales-setup-sales.md)  
-[STOCKS ET EN-COURS](inventory-manage-inventory.md)  
+[Inventaire](inventory-manage-inventory.md)  
 [Envoyer des documents par e-mail](ui-how-send-documents-email.md)  
 [Facturation en vrac à partir de Microsoft Bookings dans Business Central](finance-bookings.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

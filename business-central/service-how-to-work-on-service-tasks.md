@@ -1,23 +1,23 @@
 ---
-title: "Procédure : travailler sur des tâches service | Microsoft Docs"
-description: "Après avoir créé une commande ou devis service, enregistré des lignes article de service, et affecté des ressources aux articles de service de la commande ou du devis, vous pouvez commencer la réparation et la maintenance des articles de service."
+title: 'Procédure : travailler sur des tâches service | Microsoft Docs'
+description: Après avoir créé une commande ou devis service, enregistré des lignes article de service, et affecté des ressources aux articles de service de la commande ou du devis, vous pouvez commencer la réparation et la maintenance des articles de service.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 973bc19e9d6e2efd28c56b0db70e4f53148f636e
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820744"
 ---
 # <a name="work-on-service-tasks"></a>Travailler sur des tâches service
 Après avoir créé une commande ou devis service, enregistré des lignes article de service, et affecté des ressources aux articles de service de la commande ou du devis, vous pouvez commencer la réparation et la maintenance des articles de service.  
@@ -109,4 +109,3 @@ Après avoir réparé un article de service, vous pouvez enregistrer le code pan
 [Configurer le reporting panne](service-how-setup-fault-reporting.md)
 [Statut affectation et statut réparation](service-allocation-status-and-repair-status.md)  
 [Validation de service](service-service-posting.md)  
-

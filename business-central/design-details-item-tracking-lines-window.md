@@ -1,8 +1,8 @@
 ---
-title: "Détails de conception - page Lignes traçabilité | Microsoft Docs"
-description: "Découvrez comment gérer le flux de numéros de série et de lot dans votre stock."
+title: Détails de conception - page Lignes traçabilité | Microsoft Docs
+description: Découvrez comment gérer le flux de numéros de série et de lot dans votre stock.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: design, inventory, item, tracking, serial number, lot number
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 48a1a5524e3fb91bf8915ee3260f41080be3ccb6
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820335"
 ---
 # <a name="design-details-item-tracking-lines-page"></a>Détails de conception : page Lignes traçabilité
-Les enregistrements de traçabilité et de réservation sont créés dans le système de réservation, et leur disponibilité est calculée de façon dynamique. Les données qui sont saisies sur la page **Lignes traçabilité** sont gérées dans une version temporaire de la table **Spécification traçabilité**. Lorsque la page est fermée, les données actives sont validées dans le tableau **Reservation Entry** et les données historiques sont validées dans le tableau **Tracking Specification**. Pour plus d'informations, voir [Détails de conception : comparaison entre écritures traçabilité actives et historiques](design-details-active-versus-historic-item-tracking-entries.md).  
+Les enregistrements de traçabilité et de réservation sont créés dans le système de réservation, et leur disponibilité est calculée de façon dynamique. Les données qui sont saisies sur la page **Lignes traçabilité** sont gérées dans une version temporaire de la table **Spécification traçabilité**. Lorsque la page est fermée, les données actives sont validées dans le tableau **Écriture réservation** et les données historiques sont validées dans le tableau **Spécification traçabilité**. Pour plus d'informations, voir [Détails de conception : comparaison entre écritures traçabilité actives et historiques](design-details-active-versus-historic-item-tracking-entries.md).  
   
-Les recherches sur les champs **N° de série** et **N° lot** montrent une disponibilité sur la base des deux tables **Écriture comptable article** et **Ecriture réservation**, sans le filtre date. La matrice des champs de quantité figurant dans l'en-tête de la page **Lignes traçabilité** affiche de façon dynamique les quantités et les sommes des numéros traçabilité qui sont saisis dans les lignes de la page. Les quantités doivent être égales à celles qui figurent dans la ligne document, comme l'indique la valeur **0** dans les champs **Non défini** de l'en-tête de la page.  
+Les recherches sur les champs **N° de série** et **N° lot** montrent une disponibilité sur la base des deux tables **Écriture comptable article** et **Écriture réservation**, sans le filtre date. La matrice des champs de quantité figurant dans l'en-tête de la page **Lignes traçabilité** affiche de façon dynamique les quantités et les sommes des numéros traçabilité qui sont saisis dans les lignes de la page. Les quantités doivent être égales à celles qui figurent dans la ligne document, comme l'indique la valeur **0** dans les champs **Non défini** de l'en-tête de la page.  
   
 Pour coordonner le flux des numéros de série et de lot par le stock, les règles suivantes existent pour saisir des données sur la page **Lignes traçabilité** :  
   

@@ -1,8 +1,8 @@
 ---
-title: "Lettrer des écritures dans des devises différentes| Microsoft Docs"
-description: "Vous pouvez lettrer des écritures comptables dans différentes devises si vous effectuez une vente à un client dans une devise et recevez le règlement dans une autre devise."
+title: Lettrer des écritures dans des devises différentes| Microsoft Docs
+description: Vous pouvez lettrer des écritures comptables dans différentes devises si vous effectuez une vente à un client dans une devise et recevez le règlement dans une autre devise.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: multiple currencies, payment, reconcile
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 6d58c088c776a953cb76d102b7deeb3b8d69b42a
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821330"
 ---
 # <a name="enable-application-of-ledger-entries-in-different-currencies"></a>Activer le lettrage d'écritures comptables client en devises différentes
 Si vous achetez des produits auprès d'un fournisseur dans une devise et que vous payez ces produits dans une autre devise, vous pouvez lettrer le paiement avec l'achat.
@@ -51,4 +51,3 @@ Si vous lettrez des écritures dans différentes devises, vous devez configurer 
 [Gestion des comptes fournisseur](payables-manage-payables.md)  
 [Gestion des comptes client](receivables-manage-receivables.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

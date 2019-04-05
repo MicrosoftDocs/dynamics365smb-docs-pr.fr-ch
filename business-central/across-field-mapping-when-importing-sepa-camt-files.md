@@ -1,21 +1,21 @@
 ---
 title: Mappage de champs lors de l'importation de fichiers SEPA CAMT | Microsoft Docs
-description: "Dans les marchés européens, vous pouvez importer des fichiers de relevé bancaire selon les normes régionales SEPA (Espace unique de paiement en euros)."
+description: Dans les marchés européens, vous pouvez importer des fichiers de relevé bancaire selon les normes régionales SEPA (Espace unique de paiement en euros).
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: e2fcfb5e896f6da2f953ad15fb46bcd9b34be047
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820455"
 ---
 # <a name="field-mapping-when-importing-sepa-camt-files"></a>Mappage de champs lors de l'importation de fichiers SEPA CAMT
 [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge les normes régionales SEPA (Espace unique de paiement en euros) pour importer les relevés bancaires SEPA (format CAMT). Pour plus d'informations, voir [Configurer le service de conversion de données bancaires](bank-how-setup-bank-data-conversion-service.md).  
@@ -64,4 +64,3 @@ ms.lasthandoff: 11/26/2018
 [Configurer le service de conversion de données bancaires](bank-how-setup-bank-data-conversion-service.md)   
 [Utiliser des schémas XML pour préparer des définitions d'échange de données](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Rapprocher les paiements à l'aide de l'application automatique](receivables-how-reconcile-payments-auto-application.md)  
-

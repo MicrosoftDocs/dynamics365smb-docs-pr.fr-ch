@@ -1,21 +1,21 @@
 ---
-title: "Utiliser les nomenclatures pour gérer les composants| Microsoft Docs"
-description: "Vous créez une nomenclature d'assemblage ou une nomenclature de production pour spécifier les composants ou ressources nécessaires pour assembler l'article que la nomenclature représente."
-documentationcenter: 
+title: Utiliser les nomenclatures pour gérer les composants| Microsoft Docs
+description: Vous créez une nomenclature d'assemblage ou une nomenclature de production pour spécifier les composants ou ressources nécessaires pour assembler l'article que la nomenclature représente.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: c838fe39720cd8eaee654fe8933aa1a46ffdfbaf
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 587817f68dd731c1ea3e23617e405d0c9493fdd6
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820993"
 ---
 # <a name="work-with-bills-of-material"></a>Utiliser les nomenclatures
 Les nomenclatures d'assemblage permettent de structurer les articles parents qui doivent être assemblés ou produits par des ressources ou des postes de charge à partir des composants. Une nomenclature d'assemblage peut également être utilisée pour vendre un article parent sous la forme d'un kit constitué de ses composants.
@@ -42,7 +42,7 @@ Les nomenclatures d'assemblage contiennent généralement des articles mais peuv
 
 Les nomenclatures d'assemblage peuvent être multi-niveaux, ce qui signifie qu'un composant de la nomenclature d'assemblage peut être un élément d'assemblage proprement dit. Dans ce cas, le champ **Nomencl d'élément d'assemblage** de la ligne nomenclature d'assemblage contient **Oui**.
 
-Des exigences spécifiques s'appliquent aux articles des nomenclatures d'assemblage en ce qui concerne la disponibilité. Pour plus d'informations, reportez-vous à la section « Pour afficher la disponibilité d'un article en fonction de son utilisation dans les nomenclatures d'assemblage » dans [Voir la disponibilité des articles](inventory-how-availability-overview.md).
+Des exigences spécifiques s'appliquent aux articles des nomenclatures d'assemblage en ce qui concerne la disponibilité. Pour plus d'informations, voir [Pour afficher la disponibilité d'un article en fonction de son utilisation dans les nomenclatures d'assemblage](inventory-how-availability-overview.md#to-view-the-availability-of-an-item-by-its-use-in-assembly-or-production-boms).
 
 Il y a deux parties pour créer une nomenclature d'assemblage :
 - Configuration d'un nouvel article
@@ -104,4 +104,3 @@ Les coûts des articles constituant la nomenclature d'assemblage sont copiés à
 [Voir la disponibilité des articles](inventory-how-availability-overview.md)     
 [STOCKS ET EN-COURS](inventory-manage-inventory.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

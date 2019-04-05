@@ -1,6 +1,6 @@
 ---
-title: "Détails de conception - Planification de l'approvisionnement | Microsoft Docs"
-description: "Cette rubrique donne un aperçu des concepts et principes qui sont utilisés avec les fonctionnalités de planification de l'approvisionnement dans Business Central."
+title: Détails de conception - Planification de l'approvisionnement | Microsoft Docs
+description: Cette rubrique donne un aperçu des concepts et principes qui sont utilisés avec les fonctionnalités de planification de l'approvisionnement dans Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, supply, planning, reordering, replenishment
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 92496f25d354dd766acd8d301546a5bf4f36c1e3
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2b506561b35cab1fafd4cac05a71de988761cac8
-ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820440"
 ---
 # <a name="design-details-supply-planning"></a>Détails de conception : planification de l'approvisionnement
 Cette documentation fournit une analyse technique détaillée des concepts et principes qui sont utilisés dans les fonctions Supply Planning dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -31,4 +31,3 @@ Elle explique comment le système de planification fonctionne et comment modifie
 [Détails de conception : tableau d'affectation de planification](design-details-planning-assignment-table.md)  
 [Détails de conception : demande à un magasin vide.](design-details-demand-at-blank-location.md)  
 [Détails de conception : transferts de planification](design-details-transfers-in-planning.md)
-

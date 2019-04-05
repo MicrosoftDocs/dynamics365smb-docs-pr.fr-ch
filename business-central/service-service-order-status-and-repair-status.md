@@ -1,23 +1,23 @@
 ---
-title: "Statut commande service et statut réparation | Microsoft Docs"
-description: "Le champ Statut de la page Commande service et le statut réparation de l'article de service, qui est représenté par le champ Code du statut de réparation sur la page Commande service ont une certaine relation dans le module Service management. Le statut commande service reflète l'état réparation de tous les articles de service de la commande service."
+title: Statut commande service et statut réparation | Microsoft Docs
+description: Le champ Statut de la page Commande service et le statut réparation de l'article de service, qui est représenté par le champ Code du statut de réparation sur la page Commande service ont une certaine relation dans le module Service management. Le statut commande service reflète l'état réparation de tous les articles de service de la commande service.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: a7ef1f214bda9c78113b320ddbd331b5a3e7de33
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820564"
 ---
 # <a name="service-order-status-and-repair-status"></a>Statut commande service et statut réparation
 Le champ **Statut** de la page **Commande service** et le statut réparation de l'article de service, qui est représenté par le champ **Code du statut de réparation** sur la page **Commande service** ont une certaine relation dans le module Service management. Le statut commande service reflète l'état réparation de tous les articles de service de la commande service.  
@@ -65,4 +65,3 @@ Par exemple, si un article de service présente l'état réparation **Initial** 
 ## <a name="see-also"></a>Voir aussi  
 [Paramétrer les statuts des commandes service et des réparations](service-order-repair-status.md)  
 [Paramétrage de la gestion des services](service-setup-service.md)  
-

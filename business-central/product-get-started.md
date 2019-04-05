@@ -1,6 +1,6 @@
 ---
 title: Mise en route | Microsoft Docs
-description: "Découvrez les fonctionnalités et les scénarios de travail dans Business Central, une solution de gestion d'entreprise pour les PME."
+description: Découvrez les fonctionnalités et les scénarios de travail dans Business Central, une solution de gestion d'entreprise pour les PME.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: setup wizard
 ms.date: 12/03/2018
 ms.author: edupont
+ms.openlocfilehash: 5386dc4158dbd1e944eac75f4339ca2295a92fd2
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
-ms.openlocfilehash: 15c54c7c6514ce275ff242d620df7404f9f2fee4
-ms.contentlocale: fr-ch
-ms.lasthandoff: 12/04/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820888"
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Mise en route de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] est une solution de gestion d'entreprise pour les PME qui automatise et simplifie les processus entreprise et vous aide à gérer votre entreprise. L'inscription est facile, et vous pouvez migrer des données métiers existantes de votre système existant. Pour vous aider à souscrire un abonnement, recherchez un partenaire [!INCLUDE[d365fin](includes/d365fin_md.md)] [ici](https://www.microsoft.com/en-us/solution-providers/search).  
@@ -61,7 +61,7 @@ Sur la page **Configuration assistée**, vous découvrirez l'expérience **Essen
 | Configurer la création d'états |Configure des ensembles de données que vous pouvez utiliser pour créer des rapports puissants à l'aide d'Excel ou de Power BI, par exemple. |
 | Configurer un flux de travail approbation article |Configure la capacité d'envoyer une notification à un approbateur lorsqu'un utilisateur modifie ou crée un article. |
 | Configurer un flux de travail approbation paiement |Configure la capacité d'envoyer une notification à un approbateur lorsqu'un utilisateur soumet des lignes de feuille paiement à l'approbation. |
-| Paramétrage du connecteur Business Central |Configure une connexion vers Dynamics 365 for Sales, ce qui vous permet de synchroniser les données telles que les contacts et les informations des commandes vente. |
+| Paramétrage du connecteur Business Central |Configure une connexion vers Dynamics 365 for Sales, ce qui vous permet de synchroniser les données telles que les contacts et les informations des commandes vente. |
 | Configuration de la Sales Tax |Vous permet de démarrer avec des groupes taxes par défaut et l'affectation de codes zone de recouvrement que vous pouvez affecter à des clients et des fournisseurs afin de calculer automatiquement la taxe de vente dans les documents vente ou achat. |
 
 ## <a name="trying-things-out-in-your-own-company"></a>Faire des essais dans votre propre société
@@ -83,9 +83,9 @@ Si vous avez des questions supplémentaires, il est préférable d'interroger la
 À chaque connexion au cours de la période gratuite, une notification s'affiche dans une barre bleue en haut et indique le temps restant. Si vous décidez de vous abonner, recherchez un partenaire [!INCLUDE[d365fin](includes/d365fin_md.md)] [ici](https://www.microsoft.com/en-us/solution-providers/search). Vous pouvez également contacter l'[[!INCLUDE[d365fin](includes/d365fin_md.md)]équipe commerciale](https://go.microsoft.com/fwlink/?linkid=828707).  
 
 ## <a name="other-dynamics-365-apps"></a>Autres applications Dynamics 365
-Accédez au contenu sur les autres applications Dynamics 365 en sélectionnez le lien [Dynamics 365](https://docs.microsoft.com/dynamics365) dans la bannière bleue en haut de cette page. Vous pouvez également en savoir plus en visitant le [site Web Dynamics 365 Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/).  
+Accédez au contenu sur les autres applications Dynamics 365 en sélectionnez le lien [Dynamics 365](https://docs.microsoft.com/dynamics365) dans la bannière bleue en haut de cette page. Vous pouvez également en savoir plus en visitant le [site web Dynamics 365 Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/).  
 
-Si vous êtes comptable, vous pouvez vous inscrire à [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] et disposer d'une intégration transparente à [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, consultez [Bienvenue dans Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).
+Si vous êtes comptable, vous pouvez vous inscrire à [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] et disposer d'une intégration transparente à [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour en savoir plus, voir [Bienvenue dans Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).
 
 ## <a name="see-also"></a>Voir aussi
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
@@ -94,9 +94,8 @@ Si vous êtes comptable, vous pouvez vous inscrire à [!INCLUDE[d365acc_long](in
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] en tant que boîte de réception professionnelle dans Outlook](admin-outlook.md)  
 [Obtention de [!INCLUDE[d365fin](includes/d365fin_md.md)] sur votre périphérique mobile](install-mobile-app.md)  
 [Documentation Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/)  
-[Notes de version de Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422)  
-[Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
+[Notes de mise à jour Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422)  
+[Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
  
-

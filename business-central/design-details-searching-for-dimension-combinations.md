@@ -1,21 +1,21 @@
 ---
-title: "Détails de conception - recherche des croisements analytiques | Microsoft Docs"
-description: "Lorsque vous fermez une page après avoir modifié un ensemble de dimensions, Business Central évalue si l'ensemble de dimensions modifié existe. Si l'ensemble n'existe pas, un nouvel ensemble est créé et le code de croisement analytique est retourné."
+title: Détails de conception - recherche des croisements analytiques | Microsoft Docs
+description: Lorsque vous fermez une page après avoir modifié un ensemble de dimensions, Business Central évalue si l'ensemble de dimensions modifié existe. Si l'ensemble n'existe pas, un nouvel ensemble est créé et le code de croisement analytique est retourné.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 02/11/2019
 ms.author: sgroespe
+ms.openlocfilehash: 499ac8e6e42eeafa12ddee650661200ff876805f
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 1814d6e34fc2ab2d0c64a26ba85fa19074be4dda
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821401"
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Détails de conception : recherche des croisements analytiques
 Lorsque vous fermez une page après avoir modifié un ensemble de dimensions, [!INCLUDE[d365fin](includes/d365fin_md.md)] évalue si l'ensemble de dimensions modifié existe. Si l'ensemble n'existe pas, un nouvel ensemble est créé et le code de croisement analytique est retourné.  
@@ -60,7 +60,7 @@ EXIT(DimSet.ID);
 
 ```  
 
- Toutefois, pour préserver la capacité de [!INCLUDE[d365fin](includes/d365fin_md.md)] de renommer un axe et une section analytique, la table 348 **Section analytique** est étendue avec un champ d'entier **ID section analytique**. Ce tableau convertit la paire de champs **Axe analytique** et **Section analytique** sur une valeur entière. Lorsque vous renommez la dimension et la valeur de dimension, la valeur d'entier n'est pas modifiée.  
+ Toutefois, pour préserver la capacité de [!INCLUDE[d365fin](includes/d365fin_md.md)] de renommer un axe et une section analytique, la table 349 **Section analytique** est étendue avec un champ d'entier **ID section analytique**. Ce tableau convertit la paire de champs **Axe analytique** et **Section analytique** sur une valeur entière. Lorsque vous renommez la dimension et la valeur de dimension, la valeur d'entier n'est pas modifiée.  
 
 ```  
 DimSet."Parent ID" := 0;  // 'root'  
@@ -79,4 +79,3 @@ EXIT(DimSet.ID);
  [Détails de conception : structure de la table](design-details-table-structure.md)   
  [Détails de conception : Codeunit 408 Gestion des axes analytiques](design-details-codeunit-408-dimension-management.md)   
  [Détails de conception : exemples de code de motifs modifiés dans les modifications](design-details-code-examples-of-changed-patterns-in-modifications.md)
-

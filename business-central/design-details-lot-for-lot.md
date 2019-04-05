@@ -1,24 +1,24 @@
 ---
-title: "Détails de conception - Lot pour lot | Microsoft Docs"
-description: "Découvrez comment utiliser la méthode lot pour lot pour déterminer la quantité de commande en fonction de la demande."
+title: Détails de conception - Lot pour lot | Microsoft Docs
+description: Découvrez comment utiliser la méthode lot pour lot pour déterminer la quantité de commande en fonction de la demande.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
+ms.openlocfilehash: 7bc65fdb33b94b313b7d2b5b046156ca1d0788a2
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 712068b5fafb8c5334bf48ddfc9242d21c0995e9
-ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820822"
 ---
 # <a name="design-details-lot-for-lot"></a>Détails de conception : lot pour lot
 La méthode lot pour lot est la plus souple, parce que le système réagit uniquement à la demande réelle, de plus il agit sur une demande anticipée à partir de commandes de prévision et de commandes ouvertes, puis détermine la quantité commande en fonction de la demande. La méthode lot pour lot visé cible les articles A et B pour lesquels le stock peut être accepté mais doit être évité.  
@@ -38,4 +38,3 @@ Avec cette méthode, il est également possible de définir un stock de sécurit
 [Détails de conception : paramètres de planification](design-details-planning-parameters.md)   
 [Détails de conception : gestion des méthodes de réapprovisionnement](design-details-handling-reordering-policies.md)   
 [Détails de conception : planification de l'approvisionnement](design-details-supply-planning.md)
-

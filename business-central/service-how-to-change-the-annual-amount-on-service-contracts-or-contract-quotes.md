@@ -1,21 +1,21 @@
 ---
-title: "Procédure : modifier le montant annuel du contrat service ou du devis contrat de service | Microsoft Docs"
-description: "Vous pouvez modifier le montant facturé annuellement sur des contrats de service ou des devis contrat de service."
+title: 'Procédure : modifier le montant annuel du contrat service ou du devis contrat de service | Microsoft Docs'
+description: Vous pouvez modifier le montant facturé annuellement sur des contrats de service ou des devis contrat de service.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: c656787a2de965fee90bd24922a443bc3d24bb8a
-ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820480"
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Modifier le montant annuel du contrat service ou du devis contrat
 Vous pouvez modifier le montant annuel du contrat service ou du devis contrat afin de rectifier le montant qui sera facturé annuellement.  
@@ -118,7 +118,7 @@ A la fin, les lignes contrat contiennent les données suivantes.
 |----------|---------------|----------------|---------------------|--------------------------|-----------------|------------|  
 |Article 1|15,00|17,00|11,41|1,94|15,06|0,06|  
 |Article 2|20,00|23,00|8.65|1.99|21.01|1.01|  
-|Article 3|24.00|27.00|11.37|3.07|23.93|-0,07|  -   remise ligne = Montant remise ligne / Valeur ligne * 100  
+|Article 3|24.00|27.00|11.37|3.07|23.93|-0,07|  -   % remise ligne = Montant remise ligne / Valeur ligne * 100.  
 
 #### <a name="example"></a>Exemple :  
 La case à cocher **Autoriser montants non soldés** n'est pas activé dans le contrat service qui contient trois lignes de contrat avec les informations suivantes.  
@@ -188,4 +188,3 @@ A la fin, les lignes contrat contiennent les données suivantes.
 ## <a name="see-also"></a>Voir aussi  
 [Créer des devis et contrats de service](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Paramétrage de la gestion des services](service-setup-service.md)  
-

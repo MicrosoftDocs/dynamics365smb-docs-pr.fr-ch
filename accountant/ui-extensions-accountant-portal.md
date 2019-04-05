@@ -10,14 +10,14 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, accountant
 ms.date: 10/23/2017
 ms.author: edupont
+ms.openlocfilehash: 523b629014b9a1641ebaba429678e4bd1759631a
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 4bc9199b879c23115082b07a81d6da5a0b46e60d
-ms.openlocfilehash: b885c47a3fd4499b670a89844277a7e34f809f6f
-ms.contentlocale: fr-ch
-ms.lasthandoff: 05/31/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821340"
 ---
-# <a name="accountant-portal-for-dynamics-365-business-central"></a>Portail Comptable pour Dynamics 365 Business Central
+# <a name="accountant-portal-for-dynamics-365-business-central"></a>Portail comptable pour Dynamics 365 Business Central
 Cette application fournit un portail des informations récapitulatives sur chaque client d'un comptable. Le portail affiche les KPI financier ainsi qu'un lien direct vers l'application financière du client.  
 
 Le portail comprend un tableau de bord hautement spécialisé servant du tableau de bord pour avoir un meilleur aperçu de vos clients.  
@@ -31,4 +31,3 @@ Lorsque vous ajoutez l'extension à votre [!INCLUDE [d365fin](includes/d365fin_m
 ## <a name="see-also"></a>Voir aussi
 [Bienvenue dans [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](index.md)  
 [Mise en route avec [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](get-started.md)  
-

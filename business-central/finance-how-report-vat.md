@@ -1,6 +1,6 @@
 ---
-title: "Envoyer les déclarations de TVA destinées à l'administration fiscale | Microsoft Docs"
-description: "Apprendre à préparer les déclarations qui répertorient la TVA des ventes au cours d'une période, ou à partir des ventes et achats, et envoyer la déclaration à l'administration fiscale."
+title: Envoyer les déclarations de TVA destinées à l'administration fiscale | Microsoft Docs
+description: Apprendre à préparer les déclarations qui répertorient la TVA des ventes au cours d'une période, ou à partir des ventes et achats, et envoyer la déclaration à l'administration fiscale.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,13 @@ ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 729524ce2145b4e167fb49671045b298affb862b
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820976"
 ---
-
 # <a name="how-to-report-vat-to-a-tax-authority"></a>Procédure : Déclarer la TVA à l’administration fiscale
 Cette rubrique décrit les états dans [!INCLUDE[d365fin](includes/d365fin_md.md)] que vous pouvez utiliser pour envoyer des informations sur les montants de la taxe sur la valeur ajoutée (TVA) relatifs aux ventes et achats à l'administration fiscale de votre région.
 
@@ -117,4 +116,3 @@ Le tableau suivant décrit les codeunits que vous devez créer pour votre état.
 [Utiliser la TVA sur les ventes et les achats](finance-work-with-vat.md)  
 [Définition des ventes](sales-setup-sales.md)  
 [Facturer des ventes](sales-how-invoice-sales.md)  
-

@@ -1,6 +1,6 @@
 ---
-title: "Recouvrement prélèvement SEPA | Microsoft Docs"
-description: "Créez un recouvrement prélèvement et exportez un fichier XML que vous envoyez ou chargez vers votre banque électronique en vue de son traitement."
+title: Recouvrement prélèvement SEPA | Microsoft Docs
+description: Créez un recouvrement prélèvement et exportez un fichier XML que vous envoyez ou chargez vers votre banque électronique en vue de son traitement.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.keywords: direct-debit, collection, payment, sepa
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-collect-payments-with-sepa-direct-debit
+ms.openlocfilehash: 9a92b4ea321c0f4d8ff11cb8cbd93f3053974cbe
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 87bf5f10e73d3a2da73149b44ff8c99196d20b2a
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820760"
 ---
 # <a name="create-sepa-direct-debit-collection-entries-and-export-to-a-bank-file"></a>Créer des écritures de collection prélèvement automatique SEPA et les exporter vers un fichier bancaire
 Pour demander à la banque de transférer le montant du paiement du compte bancaire du client vers le compte de votre société, vous créez une écriture de collection de prélèvement, qui conserve des informations sur le compte bancaire du client, les factures de vente concernées et le mandat de prélèvement. À partir de l'écriture de collection prélèvement automatique qui en résulte, vous exportez ensuite un fichier XML que vous envoyez ou transférez à votre banque électronique pour traitement. La banque vous communiquera tous les paiements qu'elle n'a pas pu traiter, et vous devez rejeter manuellement les écritures de collection prélèvement automatique en question.  
@@ -68,4 +68,3 @@ Vous pouvez maintenant valider les réceptions de paiement pour les factures ven
 [Configurer un prélèvement SEPA](finance-how-to-set-up-sepa-direct-debit.md)   
 [Valider des réceptions règlement de prélèvement SEPA](finance-how-to-post-sepa-direct-debit-payment-receipts.md)   
 [Recouvrement de paiements par prélèvement automatique SEPA](finance-collect-payments-with-sepa-direct-debit.md)   
-

@@ -1,8 +1,8 @@
 ---
-title: "Détails de conception - Clôture de la demande et de l'approvisionnement | Microsoft Docs"
-description: "Cette rubrique suggère des tâches à effectuer une fois les procédures d'équilibrage d'approvisionnement exécutées."
+title: Détails de conception - Clôture de la demande et de l'approvisionnement | Microsoft Docs
+description: Cette rubrique suggère des tâches à effectuer une fois les procédures d'équilibrage d'approvisionnement exécutées.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: design, planning, example, closing, supply
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
+ms.openlocfilehash: 73ddbe9746d7681d11e61f10037bf26f792acffa
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6cacf967295944ba720c20203700db30d9ec45c4
-ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821363"
 ---
 # <a name="design-details-closing-demand-and-supply"></a>Détails de conception : clôture de la demande et de l'approvisionnement
 Lorsque les procédures d'équilibre d'approvisionnement ont été réalisées, il existe trois situations de fin possibles :  
@@ -44,4 +44,3 @@ Cela conclut les descriptions de la manière dont la demande et l'approvisionnem
 [Détails de conception : équilibrage de la demande et de l'approvisionnement](design-details-balancing-demand-and-supply.md)   
 [Détails de conception : concepts centraux du système de planification](design-details-central-concepts-of-the-planning-system.md)   
 [Détails de conception : planification de l'approvisionnement](design-details-supply-planning.md)
-

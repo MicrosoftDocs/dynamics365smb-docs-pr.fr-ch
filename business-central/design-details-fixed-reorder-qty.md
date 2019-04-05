@@ -1,24 +1,24 @@
 ---
-title: "Détails de conception - Qté fixe de commande | Microsoft Docs"
-description: "La méthode Qté fixe de commande est liée à la planification du stock des articles C courants (coûts de stock faible, faible risque d'obsolescence, et/ou plusieurs articles). Cette méthode est généralement utilisée conjointement avec un point de commande reflétant la demande anticipée lors du délai de l'article."
+title: Détails de conception - Qté fixe de commande | Microsoft Docs
+description: La méthode Qté fixe de commande est liée à la planification du stock des articles C courants (coûts de stock faible, faible risque d'obsolescence, et/ou plusieurs articles). Cette méthode est généralement utilisée conjointement avec un point de commande reflétant la demande anticipée lors du délai de l'article.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: f8d4cfbbdab6285f65611c81aaf728a8c129c729
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821116"
 ---
 # <a name="design-details-fixed-reorder-qty"></a>Détails de conception : qté fixe de commande.
 La méthode Qté fixe de commande est liée à la planification du stock des articles C courants (coûts de stock faible, faible risque d'obsolescence, et/ou plusieurs articles). Cette méthode est généralement utilisée conjointement avec un point de commande reflétant la demande anticipée lors du délai de l'article.  
@@ -53,4 +53,3 @@ La méthode Qté fixe de commande est liée à la planification du stock des art
  [Détails de conception : paramètres de planification](design-details-planning-parameters.md)   
  [Détails de conception : gestion des méthodes de réapprovisionnement](design-details-handling-reordering-policies.md)   
  [Détails de conception : planification de l'approvisionnement](design-details-supply-planning.md)
-

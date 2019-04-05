@@ -1,11 +1,11 @@
 ---
 title: Gestion des comptes fournisseur| Microsoft Docs
-description: "Aperçu de la manière de gérer les comptes fournisseurs, y compris les paiements fournisseur, les créditeurs, les dettes, et le solde dû."
+description: Aperçu de la manière de gérer les comptes fournisseurs, y compris les paiements fournisseur, les créditeurs, les dettes, et le solde dû.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 manager: edupont
-editor: 
+editor: ''
 ms.service: dynamics365-business-central
 ms.workload: na
 ms.tgt_pltfrm: na
@@ -15,12 +15,12 @@ ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.date: 10/01/2018
 ms.author: bholtorf
 redirect_url: finance-set-up-cost-accounting
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: abf7e9cf01c8d394a022e384584e32e78c754639
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820523"
 ---
 # <a name="managing-payables"></a>Gestion des comptes fournisseur
 [!INCLUDE[d365fin](includes/d365fin_md.md)] dispose de ce dont vous avez besoin pour gérer efficacement les comptes fournisseurs.  
@@ -54,4 +54,3 @@ Si vous attendez que votre banque confirme le traitement des transactions pour v
 [Modes de règlement](finance-payment-methods.md)  
 [Finances](finance.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

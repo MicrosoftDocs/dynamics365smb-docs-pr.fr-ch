@@ -1,7 +1,7 @@
 ---
 title: Bienvenue | Microsoft Docs
-description: "Décrit les guides de configuration assistée, les vidéos, les rubriques d'aide, et les pages à utiliser pour vous préparer à faire des affaires dans Business Central."
-documentationcenter: 
+description: Décrit les guides de configuration assistée, les vidéos, les rubriques d'aide, et les pages à utiliser pour vous préparer à faire des affaires dans Business Central.
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 10/01/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 44d81c85b1519c3c916a4e6509121afda5b4d5a2
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820303"
 ---
 # <a name="getting-ready-for-doing-business"></a>Préparation aux activités commerciales
 Félicitations, vous venez de créer votre première société dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -39,7 +39,7 @@ Sur la page **Configuration assistée**, vous découvrirez l'expérience **Essen
 | Conf. macros complémentaires Office |Configure la capacité à utiliser et lancer [!INCLUDE[d365fin](includes/d365fin_md.md)] à partir d'Outlook. |
 | Configurer flux travail appr. |Configure la capacité à notifier automatiquement un approbateur lorsqu'un utilisateur tente de créer ou modifier certaines valeurs dans des documents, des feuilles ou des fiches, par exemple un montant dépassant une limite spécifiée. |
 | Config. identifiant messagerie |Configure la capacité à archiver les correspondances par e-mail dans [!INCLUDE[d365fin](includes/d365fin_md.md)] pour assurer le suivi des interactions. |
-| Paramétrage du connecteur Business Central |Configure une connexion vers Dynamics 365 for Sales, ce qui vous permet de synchroniser les données telles que les contacts et les informations des commandes vente. |
+| Paramétrage du connecteur Business Central |Configure une connexion vers Dynamics 365 for Sales, ce qui vous permet de synchroniser les données telles que les contacts et les informations des commandes vente. |
 
 Lorsque vous avez exécuté une configuration assisté, elle est marqué comme **Terminée**. Pour exécuter la configuration assistée, vous cliquez sur les trois points (ou menu contextuel), puis vous sélectionnez **Démarrer la configuration**.
 
@@ -69,4 +69,3 @@ En fonction de la migration de vos données, vous pouvez maintenant passer à la
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
  
-

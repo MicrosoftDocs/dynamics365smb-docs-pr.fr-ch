@@ -1,7 +1,7 @@
 ---
 title: Afficher des informations exploitables dans les tableaux de bord | Microsoft Docs
-description: "L'extension Informations commerciales essentielles fait défiler une série d'informations commerciales sur les tableaux de bord."
-documentationcenter: 
+description: L'extension Informations commerciales essentielles fait défiler une série d'informations commerciales sur les tableaux de bord.
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,14 +11,13 @@ ms.workload: na
 ms.search.keywords: BI, add-in, insight, headline, data
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 0879d8ff0fbca3b18c36412e0a5fbe2f39372f2a
-ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820772"
 ---
-
 # <a name="the-essential-business-insights-extension"></a>Extension Informations commerciales essentielles
 L'extension Informations commerciales essentielles recherche des faits commerciaux intéressants dans les données de votre société et les affiche sous forme de titres de journaux sur les tableaux de bord. Selon ce que l'extension trouve dans les données, des les informations datent de la semaine, du mois ou du trimestre précédent la date du jour. Les informations se mettent à jour toutes les 10 minutes.  
 
@@ -39,4 +38,3 @@ Le tableau suivant décrit les informations que cette extension fournit à chaqu
 
 ## <a name="see-also"></a>Voir aussi
 [Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md)
-

@@ -1,8 +1,8 @@
 ---
-title: Rapprocher les paiements fournisseur manuellement| Microsoft Docs
-description: "Pour traiter, mettre en correspondance, ou rapprocher des paiements ou des remboursements fournisseur manuellement, vous lettrez le montant dans une ou plusieurs écritures comptables fournisseur ouvertes."
+title: Rapprocher des paiements fournisseur avec la feuille paiement ou à partir des écritures comptables fournisseur | Microsoft Docs
+description: Pour traiter, mettre en correspondance, ou rapprocher des paiements ou des remboursements fournisseur manuellement, vous lettrez le montant dans une ou plusieurs écritures comptables fournisseur ouvertes.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,14 +12,14 @@ ms.workload: na
 ms.search.keywords: payment application, payment processing, match payments
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: e8c740bd32aeceb273f3accbda7b912350c9be12
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: cb62661da68e1fd5255e285288de5089e8547b64
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821144"
 ---
-# <a name="reconcile-vendor-payments-manually"></a>Rapprocher les paiements fournisseur manuellement
+# <a name="reconcile-vendor-payments-with-the-payment-journal-or-from-vendor-ledger-entries"></a>Rapprocher des paiements fournisseur avec la feuille paiement ou à partir des écritures comptables fournisseur
 Lorsque vous envoyez un règlement à un fournisseur ou recevez un remboursement de sa part, vous devez décider si vous souhaitez lettrer le paiement ou le remboursement avec une ou plusieurs écritures ouvertes. Vous pouvez indiquer le montant exact que vous souhaitez lettrer avec la réception paiement ou le remboursement, puis ne lettrer que partiellement les écritures comptables fournisseur. Vous devez lettrer toutes les écritures comptables fournisseur pour obtenir des statistiques fournisseur et des rapports corrects des états financiers et des intérêts de retard.
 
 > [!NOTE]  
@@ -49,7 +49,7 @@ Vous pouvez également lettrer des paiements fournisseur et des paiements client
 
    1. Sélectionnez l'action **Lettrer écritures**.
    2. Sur la page **Lettrer écritures fournisseur**, sélectionnez les lignes contenant les écritures auxquelles lettrer le paiement.
-   3. Sélectionnez l'action **Lettrer**.  
+   3. Sélectionnez l'action **Définir ID lettrage**.  
    4. Sur chaque ligne du champ **Montant à lettrer**, entrez le montant à lettrer à l'écriture.
 
       Si vous n'entrez aucun montant, le programme lettre automatiquement le montant maximal. Au bas de la page **Lettrer écritures fournisseur**, vous voyez le montant dans le champ Montant lettré et vous constatez si le lettrage est équilibré.
@@ -65,7 +65,7 @@ Vous pouvez également lettrer des paiements fournisseur et des paiements client
 
    1. Sélectionnez l'action **Lettrer écritures**.
    2. Sélectionnez les lignes contenant les écritures auxquelles lettrer l'avoir.
-   3. Sélectionnez l'action **Lettrer**.  
+   3. Sélectionnez l'action **Définir ID lettrage**.  
    4. Sur chaque ligne du champ **Montant à lettrer**, entrez le montant à lettrer à l'écriture.
 
        Si vous n'entrez aucun montant, le programme lettre automatiquement le montant maximal. Au bas de la page **Lettrer écritures fournisseur**, vous voyez le montant dans le champ **Montant lettré** et vous constatez si le lettrage est équilibré.
@@ -79,7 +79,7 @@ Vous pouvez également lettrer des paiements fournisseur et des paiements client
 3. Sélectionnez l'action **Écritures comptables**, puis sélectionnez l'action **Lettrer écritures**.
 4. Sur la page **Lettrer écritures fournisseur**, les écritures ouvertes de ce fournisseur s'affichent.
 5. Sélectionnez la ligne où figure l'écriture qui sera lettrée.
-6. Sélectionnez l'action **Lettrer**.
+6. Sélectionnez l'action **Définir ID lettrage**.
 
     Le champ **ID lettrage** affiche trois astérisques si vous travaillez dans un système mono-utilisateur ou votre code utilisateur si vous travaillez dans un système multi-utilisateur.  
 7. Pour chaque ligne du champ **Montant à lettrer**, entrez le montant à lettrer à l'écriture.
@@ -98,7 +98,7 @@ Si vous lettrez une écriture (Écriture 1) dans une devise avec une autre écr
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille paiement**, puis sélectionnez le lien associé.
 2. Ouvrez la feuille que vous souhaitez, puis renseignez la première ligne vide de la feuille à l'aide d'un code devise.
 3. Sélectionnez l'action **Lettrer écritures**.
-4. Sélectionnez la ligne comportant l'écriture à lettrer avec l'écriture de la feuille paiement. Sélectionnez ensuite l'action **Lettrer**, puis sélectionnez l'écriture sur laquelle le lettrage doit être effectué.
+4. Sélectionnez la ligne comportant l'écriture à lettrer avec l'écriture de la feuille paiement. Sélectionnez ensuite l'action **Définir ID lettrage**, puis sélectionnez l'écriture sur laquelle le lettrage doit être effectué.
 5. Cliquez sur le bouton **OK** pour revenir à la feuille de paiement.
 6. Validez la feuille paiement.
 
@@ -123,4 +123,3 @@ Lorsque vous délettrez un lettrage erroné, des écritures de correction (écri
 [Fournisseurs](payables-manage-payables.md)  
 [Achats](purchasing-manage-purchasing.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

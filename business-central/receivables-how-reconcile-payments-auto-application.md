@@ -1,8 +1,8 @@
 ---
 title: Utiliser le lettrage automatique pour rapprocher les paiements | Microsoft Docs
-description: "Décrit comment utiliser la fonction de lettrage automatique pour lettrer les paiements ou les règlements dans leurs écritures ouvertes connexes, et rapprocher les paiements."
+description: Décrit comment utiliser la fonction de lettrage automatique pour lettrer les paiements ou les règlements dans leurs écritures ouvertes connexes, et rapprocher les paiements.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 693373c91fcc2bc8d0ef4eb3acea99dd13d9eaa0
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821537"
 ---
 # <a name="reconcile-payments-using-automatic-application"></a>Rapprocher les paiements à l'aide de l'application automatique
 La page **Feuille rapprochement bancaire** spécifie les paiements (entrants ou sortants) qui ont été enregistrés en tant que transactions sur votre compte bancaire en ligne et que vous pouvez lettrer à leurs écritures comptables ouvertes client, fournisseur et compte bancaire. Vous renseignez les lignes de la feuille en important un relevé bancaire sous forme de fichier ou flux bancaire.
@@ -77,4 +77,3 @@ Vous pouvez comparer la valeur du champ **Solde sur compte bancaire après valid
 [Gestion des comptes client](receivables-manage-receivables.md)  
 [Ventes](sales-manage-sales.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

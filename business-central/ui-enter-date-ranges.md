@@ -1,7 +1,7 @@
 ---
-title: "Entrée des dates et des heures dans Business Central | Microsoft Docs"
-description: "Apprendre comment entrer des dates et des heures avec diverses astuces de productivité telles que la sténographie, les expressions et les plages. Filtrez les listes ou les états à des dates ou périodes spécifiques."
-documentationcenter: 
+title: Entrée des dates et des heures dans Business Central | Microsoft Docs
+description: Apprendre comment entrer des dates et des heures avec diverses astuces de productivité telles que la sténographie, les expressions et les plages. Filtrez les listes ou les états à des dates ou périodes spécifiques.
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,14 +11,13 @@ ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 54466c381bbeb3653a239920c00dd6f45536d9e3
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820813"
 ---
-
 # <a name="working-with-calendar-dates-and-times"></a>Utilisation de dates civiles et les heures
 
 [!INCLUDE[d365fin](includes/d365fin_long_md.md)] offre plusieurs méthodes principales de saisie des dates et des heures, y compris des fonctions puissantes qui accélèrent la saisie de données, ou vous permettent de saisir des expressions de calendrier complexes. Il existe différents emplacements tout au long de l'application où vous pouvez entrer des dates et des heures dans les champs. Par exemple, dans une commande client, vous pouvez également définir la date d'expédition. En filtrant les données de liste ou d'état, vous pouvez entrer des dates et des heures pour désigner uniquement les données que vous intéressent.
@@ -307,7 +306,7 @@ Le tableau suivant répertorie les différents formats de saisie possibles pour 
 |`0530`|05:30:00|
 |`5:30:5`|05:30:05|
 |`053005`|05:30:05|
-|`5:30:5,50`|05:30:050,5|
+|`5:30:5,50`|05:30:05.5|
 |`053005050`|05:30:05.05|
 
 Tenez compte que les millisecondes sont interprétées comme des notation de décimales. Ainsi, par exemple `3`, `30`, et `300` tous signifient 300 millisecondes, alors que `03` signifie `30` et `003` signifie 3 millisecondes.
@@ -372,4 +371,3 @@ Par exemple, si l'unité est « heures », `5` est converti en 5 h.
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md)  
 [Calcul de la date des achats](purchasing-date-calculation-for-purchases.md)  
 [Saisir les critères pour les filtres](ui-enter-criteria-filters.md)  
-

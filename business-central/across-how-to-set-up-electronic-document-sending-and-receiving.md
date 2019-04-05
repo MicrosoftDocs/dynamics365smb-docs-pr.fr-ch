@@ -1,21 +1,21 @@
 ---
-title: "Procédure de configuration de l'envoi et de la réception de documents électroniques | Microsoft Docs"
-description: "Comme alternative à l'envoi par courrier électronique sous forme de fichiers joints, vous pouvez envoyer et recevoir des documents commerciaux par voie électronique."
+title: Procédure de configuration de l'envoi et de la réception de documents électroniques | Microsoft Docs
+description: Comme alternative à l'envoi par courrier électronique sous forme de fichiers joints, vous pouvez envoyer et recevoir des documents commerciaux par voie électronique.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/04/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 42b56cee413dbb08f3421e95afe49c8ea1aaac03
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821434"
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Configurer l'envoi et la réception de documents électroniques
 Comme alternative à l'envoi par courrier électronique sous forme de fichiers joints, vous pouvez envoyer et recevoir des documents commerciaux par voie électronique. Par document électronique, on entend un fichier conforme aux normes représentant un document commercial comme une facture fournisseur que vous pouvez recevoir et convertir en facture achat dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. L'échange de documents électroniques entre deux partenaires commerciaux est exécuté par un fournisseur externe de services d'échange de documents. La version générique de [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge l'envoi et la réception de factures et d'avoirs électroniques au format PEPPOL, qui est pris en charge par les principaux fournisseurs de services d'échange de documents. Un fournisseur principal de services d'échange de documents est préconfiguré et prêt à être installé pour votre société.  
@@ -140,4 +140,3 @@ La rubrique contient les procédures suivantes :
 [Échanger des données par voir électronique](across-data-exchange.md)   
 [Facturer des ventes](sales-how-invoice-sales.md)   
 [Enregistrer des achats](purchasing-how-record-purchases.md)
-

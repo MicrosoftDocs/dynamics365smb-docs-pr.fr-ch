@@ -1,21 +1,21 @@
 ---
-title: "Procédure : créer des articles de service | Microsoft Docs"
-description: "Lorsque vous recevez en maintenance un article non enregistré, vous pouvez l'enregistrer en tant qu'article de service."
+title: 'Procédure : créer des articles de service | Microsoft Docs'
+description: Lorsque vous recevez en maintenance un article non enregistré, vous pouvez l'enregistrer en tant qu'article de service.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: c30c0efc931b5970ff426141fa0dc3129d827306
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820378"
 ---
 # <a name="create-service-items"></a>Créer des articles de service
 Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], le terme « article de service » fait référence à un équipement ou un article nécessitant une maintenance. Lorsque vous créez une commande service, vous spécifiez les articles nécessitant une maintenance. Dans la commande, vous pouvez lier un article de service à un article en stock ou à un groupe articles de service.    
@@ -62,4 +62,3 @@ La procédure suivante explique comment créer des articles de service lorsque v
 [Configurer les articles de service et les composants article de service](service-how-setup-service-items.md)  
 [Paramétrage de la gestion des services](service-setup-service.md)  
 [Gestion des services](service-service.md)  
-

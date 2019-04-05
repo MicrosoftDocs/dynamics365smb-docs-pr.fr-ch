@@ -1,22 +1,22 @@
 ---
-title: "Réévaluer des immobilisations| Microsoft Docs"
-description: "Apprenez comment modifier la valeur des immobilisations, enregistrer de nouveaux montants comme dépréciation ou réévaluation, et valider les coûts d'acquisition supplémentaires."
+title: Réévaluer des immobilisations| Microsoft Docs
+description: Apprenez comment modifier la valeur des immobilisations, enregistrer de nouveaux montants comme dépréciation ou réévaluation, et valider les coûts d'acquisition supplémentaires.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: bdb382f350e3edbb3e76bac1272ba534fcec8ad4
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: d73403090cc2b24f232fc1e5eaae1c7bd6417517
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820958"
 ---
 # <a name="revalue-fixed-assets"></a>Réévaluer les immobilisations
 La réévaluation des immobilisations peut consister en réévaluations, dépréciations ou corrections de valeurs générales.
@@ -34,7 +34,7 @@ L'actualisation permet d'ajuster plusieurs valeurs immobilisation, par exemple, 
 4. Sélectionnez l'action **Insérer contrepartie immo.**. Une seconde ligne feuille est créée pour le compte contrepartie qui est configuré pour la validation de la réévaluation.
 
     > [!NOTE]  
-    >   L'étape 4 ne fonctionne que si vous avez configuré ce qui suit : sur la page **Fiche groupe compta. immo.** du groupe de validation de l'immobilisation, le champ **Compte réévaluation** contient le compte débit général et le champ **Compte contrepartie réévaluation** contient le compte général dans lequel vous souhaitez valider les écritures contrepartie pour réévaluation. Pour en savoir plus, voir la section « Pour configurer des groupes de validation d'immobilisation » dans [Configurer des informations d'immobilisation générales pour les immobilisations](fa-how-setup-general.md).  
+    >   L'étape 4 ne fonctionne que si vous avez configuré ce qui suit : sur la page **Fiche groupe compta. immo.** du groupe de validation de l'immobilisation, le champ **Compte réévaluation** contient le compte débit général et le champ **Compte contrepartie réévaluation** contient le compte général dans lequel vous souhaitez valider les écritures contrepartie pour réévaluation. Pour plus d'informations, reportez vous à [Pour configurer des groupes de validation immobilisation](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).  
 5. Sélectionnez l'action **Valider**.
 
 ## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>Pour valider une dépréciation à partir d'une feuille comptabilisation immobilisation
@@ -44,7 +44,7 @@ L'actualisation permet d'ajuster plusieurs valeurs immobilisation, par exemple, 
 4. Sélectionnez l'action **Insérer contrepartie immo.**. Une seconde ligne feuille est créée pour le compte contrepartie qui est configuré pour la validation de la dépréciation.
 
     > [!NOTE]  
-    >   L'étape 4 ne fonctionne que si vous avez configuré ce qui suit : sur la page **Fiche groupe compta. immo.** pour le groupe de validation de l'immobilisation, le champ **Compte dépréciation** contient le compte crédit général et le champ **Compte dépense dépréciation** contient le compte général auquel vous souhaitez valider les écritures contrepartie pour dépréciation. Pour en savoir plus, voir la section « Pour configurer des groupes de validation d'immobilisation » dans [Configurer des informations d'immobilisation générales pour les immobilisations](fa-how-setup-general.md).
+    >   L'étape 4 ne fonctionne que si vous avez configuré ce qui suit : sur la page **Fiche groupe compta. immo.** pour le groupe de validation de l'immobilisation, le champ **Compte dépréciation** contient le compte crédit général et le champ **Compte dépense dépréciation** contient le compte général auquel vous souhaitez valider les écritures contrepartie pour dépréciation. Pour plus d'informations, reportez vous à [Pour configurer des groupes de validation immobilisation](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
 5. Sélectionnez l'action **Valider**.
 
 ## <a name="to-perform-general-revaluation-of-fixed-assets"></a>Pour exécuter une réévaluation générale des immobilisations
@@ -122,4 +122,3 @@ Si vous n'avez pas coché la case **Amort. jusqu'à date compta.**, l'actif perd
 [Finances](finance.md)  
 [Mise en route](product-get-started.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

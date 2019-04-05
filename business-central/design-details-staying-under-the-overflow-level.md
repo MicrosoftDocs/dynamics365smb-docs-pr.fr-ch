@@ -1,24 +1,24 @@
 ---
-title: "Détails de conception - Rester sous le niveau de dépassement de capacité | Microsoft Docs"
-description: "Lors de l'utilisation de Maximum Qty. et Fixed Reorder Qty., le système de planification se concentre sur le stock prévisionnel dans l'intervalle de planification donné uniquement. Cela signifie que le système de planification peut vous proposer l'approvisionnement superflu lorsqu'une demande négative ou des changements d'approvisionnement positifs se produisent en dehors de l'intervalle de planification donné."
+title: Détails de conception - Rester sous le niveau de dépassement de capacité | Microsoft Docs
+description: Lors de l'utilisation de Maximum Qty. et Fixed Reorder Qty., le système de planification se concentre sur le stock prévisionnel dans l'intervalle de planification donné uniquement. Cela signifie que le système de planification peut vous proposer l'approvisionnement superflu lorsqu'une demande négative ou des changements d'approvisionnement positifs se produisent en dehors de l'intervalle de planification donné.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: a4a35cec571f1a0c7644fe937553d87007a9567e
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821010"
 ---
 # <a name="design-details-staying-under-the-overflow-level"></a>Détails de conception : rester sous le niveau de dépassement de capacité
 Lors de l'utilisation des méthodes Qté maximum et Qté fixe de commande, le système de planification se concentre sur le stock prévisionnel dans l'intervalle de planification donné uniquement. Cela signifie que le système de planification peut vous proposer l'approvisionnement superflu lorsqu'une demande négative ou des changements d'approvisionnement positifs se produisent en dehors de l'intervalle de planification donné. Si, pour cette raison, un approvisionnement superflu est proposé, le système de planification calcule la quantité à soustraire (ou supprimer) de l'approvisionnement pour éviter l'approvisionnement superflu. Cette quantité est appelée « niveau de dépassement de capacité ». Le dépassement de capacité est communiqué comme ligne de planification avec une action **Changer qté (diminuer)** ou **Annuler** et le message d'avertissement suivant :  
@@ -46,7 +46,7 @@ Niveau de dépassement de capacité = Quantité de réappro. + Point de commande
 Si un multiple de commande existe, il ajuste le niveau de dépassement de capacité pour les deux méthodes de réapprovisionnement Qté maximum et Qté fixe de commande.  
 
 ##  <a name="creating-the-planning-line-with-overflow-warning"></a>Création de la ligne planning avec l'avertissement de dépassement capacité  
-Lorsqu'un approvisionnement existant rend le stock prévisionnel supérieur au niveau de dépassement de capacité à la fin d'un intervalle de planification, une ligne de planification est créée. Pour avertir sur le potentiel approvisionnement superflu, la ligne de planification a un message d'avertissement, le champ **Accept Action Message** n'est pas sélectionné, et le message d'action est Cancel ou Change Qty.  
+Lorsqu'un approvisionnement existant rend le stock prévisionnel supérieur au niveau de dépassement de capacité à la fin d'un intervalle de planification, une ligne de planification est créée. Pour avertir sur le potentiel approvisionnement superflu, la ligne de planification a un message d'avertissement, le champ **Accepter message d'action** n'est pas sélectionné, et le message d'action est Cancel ou Change Qty.  
 
 ### <a name="calculating-the-planning-line-quantity"></a>Calcul de la Quantité pour la ligne planning  
 Quantité pour la ligne planning = Quantité d'approvisionnement actif – (Stock prévisionnel – Niveau de dépassement de capacité)  
@@ -111,4 +111,3 @@ Dans ce scénario, un client modifie une commande vente de 70 à 40 pièces ent
 [Détails de conception : paramètres de planification](design-details-planning-parameters.md)   
 [Détails de conception : gestion des méthodes de réapprovisionnement](design-details-handling-reordering-policies.md)   
 [Détails de conception : planification de l'approvisionnement](design-details-supply-planning.md)
-

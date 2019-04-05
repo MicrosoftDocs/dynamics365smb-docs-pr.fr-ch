@@ -1,6 +1,6 @@
 ---
 title: Utilisation de feuilles de temps pour des projets| Microsoft Docs
-description: "Décrit comment créer une feuille de temps pour un projet, copier des lignes planning dans celle-ci, définir les types de travaux, renseigner la feuille de temps, et la soumettre pour approbation."
+description: Décrit comment créer une feuille de temps pour un projet, copier des lignes planning dans celle-ci, définir les types de travaux, renseigner la feuille de temps, et la soumettre pour approbation.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 70d63dcc678a49fa1854b88bc3ca1f9ec8ecc69f
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820582"
 ---
 # <a name="use-time-sheets-for-jobs"></a>Utiliser des feuilles de temps pour des projets
 Vous devez utiliser le traitement par lots **Créer des feuilles de temps** pour configurer des feuilles de temps pour un nombre donné de périodes ou de semaines. Vous devez disposer d'autorisations pour pouvoir créer des feuilles de temps.
@@ -153,4 +153,3 @@ Une fois les feuilles de temps validées, vous pouvez les archiver pour vous y r
 [Achats](purchasing-manage-purchasing.md)         
 [Ventes](sales-manage-sales.md)     
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

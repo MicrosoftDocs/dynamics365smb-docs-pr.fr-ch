@@ -1,23 +1,23 @@
 ---
-title: "Comment prélever pour des opérations internes dans les configurations de stockage avancées | Microsoft Docs"
-description: "Dans les configurations de stockage avancées, dans lequel le magasin est configuré pour utiliser le prélèvement ainsi que l'expédition, vous pouvez prélever des composants pour les activités de fabrication et d'assemblage à l'aide de la page **Prélèvement entrepôt**."
+title: Comment prélever pour des opérations internes dans les configurations de stockage avancées | Microsoft Docs
+description: Dans les configurations de stockage avancées, dans lequel le magasin est configuré pour utiliser le prélèvement ainsi que l'expédition, vous pouvez prélever des composants pour les activités de fabrication et d'assemblage à l'aide de la page **Prélèvement entrepôt**.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/22/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 5d6d2d9527e81a92987f6b8fcdbe8e087c3c537a
 ms.openlocfilehash: bb4941c948c2e4479ec36fdebee11f1d75e62c68
-ms.contentlocale: fr-ch
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820477"
 ---
 # <a name="pick-for-production-or-assembly-in-advanced-warehouse-configurations"></a>Prélever pour la fabrication ou l'assemblage dans les configurations de stockage avancées.
 Dans les configurations de stockage avancées, dans lequel le magasin est configuré pour utiliser le prélèvement ainsi que l'expédition, vous pouvez prélever des composants pour les activités de fabrication et d'assemblage à l'aide de la page **Prélèvement entrepôt**.  
@@ -63,4 +63,3 @@ Ce graphique indique comment le champ **Code emplacement** sur les lignes compos
 [Gestion des assemblages](assembly-assemble-items.md)    
 [Détails de conception : gestion d'entrepôt](design-details-warehouse-management.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

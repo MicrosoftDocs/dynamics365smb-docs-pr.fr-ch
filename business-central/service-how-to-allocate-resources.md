@@ -1,23 +1,22 @@
 ---
 title: Comment affecter des ressources | Microsoft Docs
-description: "Vous pouvez modifier le montant annuel du contrat service ou du devis contrat afin de rectifier le montant qui sera facturé annuellement."
+description: Vous pouvez modifier le montant annuel du contrat service ou du devis contrat afin de rectifier le montant qui sera facturé annuellement.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: f75dab84229aa08c35eddf057805003b69124481
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820382"
 ---
-
 # <a name="allocate-resources"></a>Affecter des ressources
 Les personnes qui fournissent le service représentent l'élément clé de la gestion des services. Vous pouvez configurer [!INCLUDE[d365fin](includes/d365fin_md.md)] pour affecter les personnes aux tâches de manière appropriée. Vous pouvez baser les affectations sur les zones de service dans lesquelles les personnes sont situées ou dans lesquelles le service se produit. En outre, vous pouvez regrouper les ressources lors de la réponse aux demandes de service. Pour plus d'informations, voir [Configurer l'affectation des ressources](service-how-setup-resource-allocation.md).
 
@@ -144,4 +143,3 @@ Vous pouvez annuler des affectations de ressources pour des tâches service sans
 ## <a name="see-also"></a>Voir aussi
 [Configurer l'affectation des ressources](service-how-setup-resource-allocation.md)  
 [Statut affectation et statut réparation](service-allocation-status-and-repair-status.md)  
-

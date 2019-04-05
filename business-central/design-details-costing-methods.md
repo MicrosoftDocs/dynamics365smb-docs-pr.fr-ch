@@ -1,23 +1,23 @@
 ---
-title: "Détails de conception - Modes évaluation | Microsoft Docs"
-description: "Le mode d'évaluation du stock détermine si une valeur réelle ou budgétée est capitalisée et prise en compte dans le calcul des coûts. Au même titre que la date comptabilisation et la séquence, le mode d'évaluation du stock a une incidence sur l'enregistrement du flux des coûts."
+title: Détails de conception - Modes évaluation | Microsoft Docs
+description: Le mode d'évaluation du stock détermine si une valeur réelle ou budgétée est capitalisée et prise en compte dans le calcul des coûts. Au même titre que la date comptabilisation et la séquence, le mode d'évaluation du stock a une incidence sur l'enregistrement du flux des coûts.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: cd83ddd7dcda539327167e34489c227cd1fdb70e
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820263"
 ---
 # <a name="design-details-costing-methods"></a>Détails de conception : modes évaluation stock
 Le mode d'évaluation du stock détermine si une valeur réelle ou budgétée est capitalisée et prise en compte dans le calcul des coûts. Au même titre que la date comptabilisation et la séquence, le mode d'évaluation du stock a une incidence sur l'enregistrement du flux des coûts. Les méthodes suivantes sont prises en charge dans [!INCLUDE[d365fin](includes/d365fin_md.md)] :  
@@ -41,7 +41,7 @@ Le mode d'évaluation du stock détermine si une valeur réelle ou budgétée es
 |Caractéristiques générales|Facile à comprendre|Sur la base des options de période : **Jour**/**Semaine**/**Mois**/**Trimestre**/**Période comptable**.<br /><br /> Peut être calculé par article ou par article/magasin/variante.|Facile à utiliser, mais requiert une maintenance qualifiée.|Requiert une traçabilité à la fois sur les transactions entrante et sortante.<br /><br /> Généralement utilisé pour les articles fabriqués de série.|  
 |Lettrage/Ajustement|Le lettrage effectue le suivi de **la quantité restante**.<br /><br /> L'ajustement transfère les coûts en fonction de l'application de quantité.|Le lettrage effectue le suivi de la **quantité restante**.<br /><br /> Les coûts sont calculés et transférés par **date d'évaluation**.|Le lettrage effectue le suivi de la **quantité restante**.<br /><br /> Le lettrage est basé sur la méthode FIFO.|Tous les lettrages sont fixes.|  
 |Réévaluation|Réévalue uniquement la quantité facturée.<br /><br /> Peut être effectué par article ou par écriture comptable article.<br /><br /> Peut être fait à une date antérieure.|Réévalue uniquement la quantité facturée.<br /><br /> Peut être effectué par article uniquement.<br /><br /> Peut être fait à une date antérieure.|Réévalue les quantités facturées et non facturées.<br /><br /> Peut être effectué par article ou par écriture comptable article.<br /><br /> Peut être fait à une date antérieure.|Réévalue uniquement la quantité facturée.<br /><br /> Peut être effectué par article ou par écriture comptable article.<br /><br /> Peut être fait à une date antérieure.|  
-|Charges diverses de gestion|Si vous antidatez une sortie de stock, les écritures existantes ne sont PAS relettrées pour présenter un flux de coût FIFO correct.|Si vous antidatez une entrée ou une sortie de stock, le coût moyen est recalculé, et toutes les écritures affectées sont ajustées.<br /><br /> Si vous modifiez la période ou un type de calcul, toutes les écritures affectées doivent être ajustées.|Utilisez la page **Standard Worksheet** pour régulièrement mettre à jour et rouler les coûts standard.<br /><br /> N'est PAS pris en charge par le point de stock.<br /><br /> Aucun enregistrement historique n'existe pour les coûts standard.|Vous pouvez utiliser le suivi d'article spécifique sans utiliser le mode d'évaluation spécifique. Alors le coût ne suit PAS le numéro de lot, mais l'acceptation du coût du mode d'évaluation sélectionné.|  
+|Charges diverses de gestion|Si vous antidatez une sortie de stock, les écritures existantes ne sont PAS relettrées pour présenter un flux de coût FIFO correct.|Si vous antidatez une entrée ou une sortie de stock, le coût moyen est recalculé, et toutes les écritures affectées sont ajustées.<br /><br /> Si vous modifiez la période ou un type de calcul, toutes les écritures affectées doivent être ajustées.|Utilisez la page **Feuille standard** pour régulièrement mettre à jour et rouler les coûts standard.<br /><br /> N'est PAS pris en charge par le point de stock.<br /><br /> Aucun enregistrement historique n'existe pour les coûts standard.|Vous pouvez utiliser le suivi d'article spécifique sans utiliser le mode d'évaluation spécifique. Alors le coût ne suit PAS le numéro de lot, mais l'acceptation du coût du mode d'évaluation sélectionné.|  
 
 ## <a name="example"></a>Exemple :  
  Cette section donne des exemples de la manière dont les divers modes d'évaluation affectent la valeur stock.  
@@ -159,4 +159,3 @@ Le mode d'évaluation du stock détermine si une valeur réelle ou budgétée es
  [Détails de conception : Lettrage article](design-details-item-application.md) [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  
  [Finances](finance.md)  
  [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

@@ -1,25 +1,24 @@
 ---
 title: Statistiques service | Microsoft Docs
-description: "Obtenez un aperçu rapide du contenu des documents service comme les commandes, devis, factures ou avoirs, ainsi que les détails des lignes service spécifiques et les articles de service."
+description: Obtenez un aperçu rapide du contenu des documents service comme les commandes, devis, factures ou avoirs, ainsi que les détails des lignes service spécifiques et les articles de service.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 03074e2296c95a2afec9f5852a9c4277efa0a37a
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821668"
 ---
-
 # <a name="viewing-service-statistics"></a>Affichage des statistiques service
 Vous pouvez utiliser des statistiques pour analyser les documents service et évaluer la bonne gestion de vos processus de service. Vous pouvez analyser les contrats de service, articles, devis, commandes, factures et avoirs en choisissant l'action **Statistiques**. Pour les articles et contrats de service, vous pouvez également utiliser les champs **Trendscape article de service** ou **Trendscape contrat** pour afficher un résumé des écritures comptables service pour un article de service spécifique.   
 
@@ -115,4 +114,3 @@ La page **Statistiques avoir service** permet d'obtenir un aperçu statistique d
 [Créer commande service](service-how-to-create-service-orders.md)   
 [Créer des articles de service](service-how-to-create-service-items.md)   
 [Services de planification](service-plan-service.md)  
-

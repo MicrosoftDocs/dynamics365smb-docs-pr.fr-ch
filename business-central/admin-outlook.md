@@ -1,6 +1,6 @@
 ---
 title: Utilisation de Business Central avec Outlook | Microsoft Docs
-description: "Ce service bénéficie d'une intégration complète à Office 365, ce qui vous permet de gérer tous vos interactions et messages d'affaires avec les clients et les fournisseurs directement dans Outlook."
+description: Ce service bénéficie d'une intégration complète à Office 365, ce qui vous permet de gérer tous vos interactions et messages d'affaires avec les clients et les fournisseurs directement dans Outlook.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
 ms.date: 12/10/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
 ms.openlocfilehash: a91f2d34cd023994dcd8eb67a9360d50d2cf3747
-ms.contentlocale: fr-ch
-ms.lasthandoff: 12/11/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820943"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Utilisation de Business Central en tant que boîte de réception professionnelle dans Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] vous permet désormais de gérer les interactions commerciales avec vos clients et fournisseurs, directement dans Microsoft Outlook. Avec le complément Outlook de [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez afficher des informations financières associées à des clients et des fournisseurs, ainsi que créer et envoyer des documents financiers, comme des devis et des factures.  
@@ -64,4 +64,3 @@ Dans les deux cas, si [!INCLUDE[d365fin](includes/d365fin_md.md)] n'est toujours
 [Finances](finance.md)  
 [Ventes](sales-manage-sales.md)  
 [Achats](purchasing-manage-purchasing.md)  
-

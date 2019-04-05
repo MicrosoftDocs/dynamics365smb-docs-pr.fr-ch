@@ -1,23 +1,23 @@
 ---
-title: "Comment prêter des articles de service de substitution | Microsoft Docs"
-description: "Vous pouvez prêter aux clients des articles de prêt pour remplacer temporairement les articles de service en cours de maintenance."
+title: Comment prêter des articles de service de substitution | Microsoft Docs
+description: Vous pouvez prêter aux clients des articles de prêt pour remplacer temporairement les articles de service en cours de maintenance.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 65a28156827551d19b8a4b23f6773c4a957e7895
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821242"
 ---
 # <a name="lend-and-receive-loaners"></a>Prêter et recevoir des articles de prêt
 Vous pouvez prêter aux clients des articles de prêt pour remplacer temporairement les articles de service en cours de maintenance.  
@@ -48,4 +48,3 @@ Vous pouvez utiliser la page **Général Feuille commentaires service** pour enr
   
 ## <a name="see-also"></a>Voir aussi  
 [Configuration d'un programme d'articles de prêt](service-how-setup-loaner-program.md)   
-

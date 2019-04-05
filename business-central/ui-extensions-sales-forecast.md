@@ -1,8 +1,8 @@
 ---
-title: "Utilisation de l'extension Prévisions des ventes et des stocks pour gérer le stock | Microsoft Docs"
-description: "Cette extension vous aide à prévoir les ventes, avoir un aperçu clair des ruptures de stock prévues, et même de vous aider à créer des demandes de réapprovisionnement aux fournisseurs."
+title: Utilisation de l'extension Prévisions des ventes et des stocks pour gérer le stock | Microsoft Docs
+description: Cette extension vous aide à prévoir les ventes, avoir un aperçu clair des ruptures de stock prévues, et même de vous aider à créer des demandes de réapprovisionnement aux fournisseurs.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, budget
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 3ae36c5cb7f1738bded3947c99c197221a621f07
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821338"
 ---
 # <a name="the-sales-and-inventory-forecast-extension"></a>Extension Prévisions des ventes et des stocks
 La gestion des stocks est un compromis entre le service client et la gestion de vos coûts. D'une part, un stock faible exige un capital travail inférieur, mais d'autre part, les ruptures de stock mènent potentiellement à des ventes non concrétisées. L'extension Sales and Inventory Forecast prévoit les ventes potentielles à l'aide des données historiques et donne une présentation claire des ruptures de stock prévues. Selon la prévision, l'extension aide à créer des demandes de réapprovisionnement auprès de vos fournisseurs et vous fait gagner du temps.  
@@ -34,4 +34,3 @@ Vous pouvez également utiliser l'extension pour suggérer quand réapprovisionn
 [Ventes](sales-manage-sales.md)  
 [Stock](inventory-manage-inventory.md)  
 [Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md)  
-

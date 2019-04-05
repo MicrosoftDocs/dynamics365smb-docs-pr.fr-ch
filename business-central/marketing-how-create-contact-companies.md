@@ -1,8 +1,8 @@
 ---
-title: "Créer des sociétés contact| Microsoft Docs"
-description: "Décrit comment créer un contact pour chaque nouvelle société ou société prospect avec laquelle vous collaborez ou entretenez des relations."
+title: Créer des sociétés contact| Microsoft Docs
+description: Décrit comment créer un contact pour chaque nouvelle société ou société prospect avec laquelle vous collaborez ou entretenez des relations.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,19 +13,17 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-create-contact-companies
+ms.openlocfilehash: ff585f1a96d509ef317aaaf3671bc91ca46a430a
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: d607b23f5cd41db8551a61b68be6bf265e85d328
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821674"
 ---
-# <a name="create-contact-companies"></a>Création de sociétés contact
+# <a name="create-contacts"></a>Créez des contacts
 Vous pouvez créer un contact pour chaque nouvelle société avec laquelle vous êtes en contact, par exemple un client, un fournisseur, un prospect, une banque, un cabinet d'avocats, un consultant, et ainsi de suite.
 
 Il existe deux méthodes permettant de créer un contact : à partir de zéro ou à partir d'un client, d'un fournisseur ou d'un compte bancaire existant.
-
-Avant de créer un contact, vous pouvez vérifier les paramètres sur la page **Paramètres Marketing**. Pour plus d'informations, voir [Paramétrage de la Gestion des relations](marketing-setup-marketing.md).
 
 ## <a name="create-a-company-contact-from-scratch"></a>Créer un contact société à partir de zéro
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Contacts**, puis sélectionnez le lien associé.
@@ -61,4 +59,3 @@ Si vous avez configuré plusieurs clients, fournisseurs et comptes bancaires, vo
 [Affecter des groupes de distribution à un contact](marketing-mailing-groups.md#AssignMailGroupContact)  
 [Création de personnes contact](marketing-create-contact-persons.md)  
 [Utilisation de Business Central](ui-work-product.md)
-

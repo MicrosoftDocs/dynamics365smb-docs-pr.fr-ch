@@ -1,8 +1,8 @@
 ---
-title: "Ajuster les coûts article manuellement| Microsoft Docs"
-description: "Vous pouvez ajuster l'évaluation du stock d'un article à l'aide des méthodes FIFO ou d'évaluation stock moyen, par exemple, lorsque les coûts article sont modifiés pour des motifs autres que les transactions."
+title: Ajuster les coûts article manuellement| Microsoft Docs
+description: Vous pouvez ajuster l'évaluation du stock d'un article à l'aide des méthodes FIFO ou d'évaluation stock moyen, par exemple, lorsque les coûts article sont modifiés pour des motifs autres que les transactions.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory valuation, costing
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 6688b89dc9ef05456bca11fc722514b8bd47b05d
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: bb320750002681d11bb3ec4aa196a55884b73da7
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820284"
 ---
 # <a name="adjust-item-costs"></a>Ajuster coûts et prix article
 Le coût d'un article (valeur du stock) que vous achetez et vendez ultérieurement peut changer au cours de sa durée de vie, par exemple parce que des frais de transport sont ajoutés à son coût d'achat après que vous ayez vendu l'article. L'ajustement des coûts est particulièrement utile dans les situations où vous vendez des biens avant de facturer leur achat. Pour toujours connaître la valeur du stock correcte, les coûts article doivent donc être ajustés régulièrement. Cela garantit que les statistiques vente et profit sont à jour et que les indicateurs clés financiers sont corrects. Pour plus d'informations, voir [Détails de conception : modes évaluation stock](design-details-cost-adjustment.md).
 
-En règle générale, la valeur du champ **Coût unitaire** sur la fiche article repose sur le coût standard des articles utilisant le mode évaluation stock standard. Pour les articles utilisant d'autres modes évaluation stock, la valeur repose sur le calcul du stock disponible (coûts facturés et prévus) divisé par la quantité disponible. Pour plus d'informations, voir la section « Comprendre le calcul du coût unitaire ».
+En règle générale, la valeur du champ **Coût unitaire** sur la fiche article repose sur le coût standard des articles utilisant le mode évaluation stock standard. Pour les articles utilisant d'autres modes évaluation stock, la valeur repose sur le calcul du stock disponible (coûts facturés et prévus) divisé par la quantité disponible. Pour plus d'informations, voir [Comprendre le calcul du coût unitaire](inventory-how-adjust-item-costs.md#understanding-unit-cost-calculation).
 
 Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], les coûts article sont automatiquement ajustés chaque fois qu'un mouvement de stock se produit, par exemple lors de la validation d'une facture achat pour un article.
 
@@ -86,4 +86,3 @@ En règle générale, la valeur du champ **Coût unitaire** sur la fiche article
 [Ventes](sales-manage-sales.md)  
 [Achats](purchasing-manage-purchasing.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

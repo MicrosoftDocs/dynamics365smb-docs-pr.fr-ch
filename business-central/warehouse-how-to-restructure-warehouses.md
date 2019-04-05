@@ -1,23 +1,23 @@
 ---
-title: "Comment restructurer des entrepôts | Microsoft Docs"
-description: "Vous pouvez souhaiter restructurer votre entrepôt avec de nouveaux codes et caractéristiques emplacement."
+title: Comment restructurer des entrepôts | Microsoft Docs
+description: Vous pouvez souhaiter restructurer votre entrepôt avec de nouveaux codes et caractéristiques emplacement.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 06233abf9eef229ac86ee31857352af1de5e34e2
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820246"
 ---
 # <a name="restructure-warehouses"></a>Restructurer les entrepôts
 Vous pouvez souhaiter restructurer votre entrepôt avec de nouveaux codes et caractéristiques emplacement. Ce type d'activité n'intervient que très rarement, mais un reclassement peut s'avérer nécessaire pour mettre à jour une opération ou la rendre plus efficace. Par exemple :  
@@ -90,4 +90,3 @@ Pour renommer un emplacement de façon à ce que tous les enregistrements associ
 [Gestion des assemblages](assembly-assemble-items.md)    
 [Détails de conception : gestion d'entrepôt](design-details-warehouse-management.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

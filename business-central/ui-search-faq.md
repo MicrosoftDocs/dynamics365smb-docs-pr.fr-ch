@@ -1,6 +1,6 @@
 ---
 title: Forum Aux Questions sur Tell Me | Microsoft Docs
-description: "Cet article fournit des réponses aux questions que nos partenaires et clients posent souvent sur Tell Me."
+description: Cet article fournit des réponses aux questions que nos partenaires et clients posent souvent sur Tell Me.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 74cd6b136cf5785237640b124472cd26aeff97de
 ms.openlocfilehash: 70ab7fb07cda5ce9d86b3f39dd14321829e85a52
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821244"
 ---
 # <a name="tell-me-faq"></a>FAQ Tell Me
 Cette rubrique répond aux questions que nos utilisateurs avancés posent souvent sur la nouvelle fonction Tell Me, qui a remplacé la fonction Recherche de page précédente connue comme **Recherche de pages et d'états**.
@@ -43,4 +43,3 @@ Les articles de l'aide s'affichent dans la langue spécifiée dans **Mes paramè
 
 ## <a name="see-also"></a>Voir aussi  
 [Recherche de fonctions et d'informations](ui-search.md)
-

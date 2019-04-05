@@ -1,8 +1,8 @@
 ---
-title: "Procédure : utiliser les périodes inventaire | Microsoft Docs"
-description: "Vous pouvez contrôler le délai de validation des modifications du stock en définissant des périodes inventaire."
+title: 'Procédure : utiliser les périodes inventaire | Microsoft Docs'
+description: Vous pouvez contrôler le délai de validation des modifications du stock en définissant des périodes inventaire.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: inventory, periods
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 1aae1d32b86000ea8a5f867f1ee4c07d8bc1ff09
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821359"
 ---
 # <a name="work-with-inventory-periods"></a>Utiliser les périodes inventaire
 Les périodes inventaire sont des périodes au cours desquelles vous pouvez valider des modifications de stock. Une période inventaire est définie par la date à laquelle elle se termine. Lorsque vous clôturez une période inventaire, vous ne pouvez pas valider de modifications de stock, qu'elles soient prévues ou facturées, avant cette date fin. Vous ne pouvez pas valider de nouvelles valeurs dans le stock avant la date fin. Si vous avez des écritures article ouvertes dans la période clôturée, ce qui signifie des quantités positives qui n'ont pas encore été lettrées sur des transactions sortantes, vous pouvez encore lettrer des quantités sortantes sur ces écritures, même si la période est clôturée.  
@@ -71,4 +71,3 @@ Une fois la période inventaire clôturée, vous ne pouvez plus la supprimer. En
 [Finances](finance.md)  
 [STOCKS ET EN-COURS](inventory-manage-inventory.md)  
 [Utilisation de Financials](ui-work-product.md)
-

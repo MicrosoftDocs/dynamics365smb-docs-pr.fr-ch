@@ -1,8 +1,8 @@
 ---
 title: Reclasser les immobilisations| Microsoft Docs
-description: "Vous reclassez une immobilisation pour la transférer vers un autre service, la fractionner, ou la combiner avec d'autres immobilisations."
+description: Vous reclassez une immobilisation pour la transférer vers un autre service, la fractionner, ou la combiner avec d'autres immobilisations.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 81b23fd28426d5241ce24b2a3bd40a5b3ec3379d
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821143"
 ---
 # <a name="transfer-split-or-combine-fixed-assets"></a>Transférer, fractionner ou regrouper les immobilisations
 Vous pouvez utiliser la feuille reclassement immobilisation pour transférer, fractionner et regrouper des immobilisations. Vous visualisez ou imprimez les résultats d'un reclassement immobilisation avec l'état **Immo. - Valeur comptable 02**.
@@ -76,4 +76,3 @@ Vous pouvez regrouper plusieurs immobilisations en une, par exemple lorsque vous
 [Finances](finance.md)  
 [Mise en route](product-get-started.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,8 +1,8 @@
 ---
-title: "Créer une fiche client pour enregistrer de nouveaux clients | Microsoft Docs"
-description: "Décrit comment créer une fiche client pour enregistrer des informations sur chaque nouveau client ou client auquel vous vendez."
+title: Créer une fiche client pour enregistrer de nouveaux clients | Microsoft Docs
+description: Décrit comment créer une fiche client pour enregistrer des informations sur chaque nouveau client ou client auquel vous vendez.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: client
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 06fe745bca016a776d7a1865141110ec82b1d7d7
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820278"
 ---
 # <a name="register-new-customers"></a>Enregistrer de nouveaux clients
 Les clients sont l'origine de vos revenus. Chaque client auquel vous vendez un élément doit être enregistré en tant que fiche client. Les fiches client contiennent les informations nécessaires à la vente de biens au client. Pour plus d'informations, voir [Facturer des ventes](sales-how-invoice-sales.md) et [Enregistrer de nouveaux articles](inventory-how-register-new-items.md).  
@@ -58,4 +58,3 @@ Le modèle client est ajouté à la liste des modèles client. Vous pouvez ainsi
 [Ventes](sales-manage-sales.md)    
 [Définition des ventes](sales-setup-sales.md)    
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

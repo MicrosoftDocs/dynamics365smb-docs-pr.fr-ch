@@ -1,23 +1,23 @@
 ---
-title: "Procédure de planification de projets de commandes | Microsoft Docs"
-description: "Cette tâche de planification est lancée à partir d'une commande vente et utilise la page **Planification commande vente**. Une fois que vous avez créé un O.F. projet, vous pouvez le planifier davantage à l'aide de la page **Planning commande**."
+title: Procédure de planification de projets de commandes | Microsoft Docs
+description: Cette tâche de planification est lancée à partir d'une commande vente et utilise la page **Planification commande vente**. Une fois que vous avez créé un O.F. projet, vous pouvez le planifier davantage à l'aide de la page **Planning commande**.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 4cb63a7dc26e13c7947ba2ae071c3dff87c53e9d
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821518"
 ---
 # <a name="plan-project-orders"></a>Planifier les O.F. projets
 Cette tâche de planification est lancée à partir d'une commande vente et utilise la page **Planification commande vente**. Une fois que vous avez créé un O.F. projet, vous pouvez le planifier davantage à l'aide de la page **Planning commande**.  
@@ -50,4 +50,3 @@ La ligne d'en-tête de commande de la commande projet s'affiche avec toutes les 
 [Détails de conception : planification de l'approvisionnement](design-details-supply-planning.md)   
 [Pratiques de configuration recommandées : planification de l'approvisionnement](setup-best-practices-supply-planning.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,24 +1,24 @@
 ---
-title: "Détails de conception - Équilibrage de l'approvisionnement avec la demande | Microsoft Docs"
-description: "L'élément principal du système de planification implique l'équilibrage de l'approvisionnement et de la demande en proposant des actions utilisateur pour rectifier les commandes approvisionnement en cas de déséquilibre. Cela est opéré par combinaison de variante et magasin."
+title: Détails de conception - Équilibrage de l'approvisionnement avec la demande | Microsoft Docs
+description: L'élément principal du système de planification implique l'équilibrage de l'approvisionnement et de la demande en proposant des actions utilisateur pour rectifier les commandes approvisionnement en cas de déséquilibre. Cela est opéré par combinaison de variante et magasin.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 037ba35395ba84d4f943b0a45a7fb43c24b34385
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820458"
 ---
 # <a name="design-details-balancing-supply-with-demand"></a>Détails de conception : équilibrage de l'approvisionnement avec la demande
 L'élément principal du système de planification implique l'équilibrage de l'approvisionnement et de la demande en proposant des actions utilisateur pour rectifier les commandes approvisionnement en cas de déséquilibre. Cela est opéré par combinaison de variante et magasin.  
@@ -118,4 +118,3 @@ Avant d'équilibrer un approvisionnement par demande, le programme supprime les 
 [Détails de conception : équilibrage de la demande et de l'approvisionnement](design-details-balancing-demand-and-supply.md)   
 [Détails de conception : concepts centraux du système de planification](design-details-central-concepts-of-the-planning-system.md)   
 [Détails de conception : planification de l'approvisionnement](design-details-supply-planning.md)
-

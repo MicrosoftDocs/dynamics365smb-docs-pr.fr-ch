@@ -1,23 +1,23 @@
 ---
 title: Comment planifier des rangements dans la feuille | Microsoft Docs
-description: "Lorsque le magasin appelle un traitement à la fois de rangement et de réception et que vous souhaitez planifier des instructions de rangement pour plusieurs réceptions, vous pouvez utiliser la feuille rangement (dans ce cas, les magasiniers n'ont pas à suivre les instructions créées par le programme pour différentes réceptions validées)."
+description: Lorsque le magasin appelle un traitement à la fois de rangement et de réception et que vous souhaitez planifier des instructions de rangement pour plusieurs réceptions, vous pouvez utiliser la feuille rangement (dans ce cas, les magasiniers n'ont pas à suivre les instructions créées par le programme pour différentes réceptions validées).
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: e0674c0c308cd83de8a6977e05445c22009f513c
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820418"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Planifier des rangements dans la feuille
 Lorsque le magasin appelle un traitement à la fois de rangement et de réception et que vous souhaitez planifier des instructions de rangement pour plusieurs réceptions, vous pouvez utiliser la feuille rangement (dans ce cas, les magasiniers n'ont pas à suivre les instructions créées par le programme pour différentes réceptions validées).  
@@ -58,7 +58,7 @@ Si vous ne sélectionnez pas ce champ, le programme crée automatiquement des in
 
     -   Vous pouvez affecter le rangement à un employé donné.  
     -   Vous pouvez trier les lignes instruction rangement comme dans la feuille ou par classement emplacement. Lorsque vous effectuez un tri sur la base du classement emplacement, les lignes Prélever apparaissent d'abord, étant donné que la plupart des emplacements réception sont classés au niveau 0, et les lignes emplacement apparaissent ensuite, en commençant par les emplacements les moins bien classés. Si vous avez structuré votre entrepôt de façon à ce que les emplacements de même niveau soient les uns à côté des autres et si vous utilisez cette méthode de tri, les magasiniers éviteront un certain nombre d'étapes.  
-    -   Vous pouvez choisir de ne pas afficher les lignes intermédiaires créées lorsque le programme divise une unité en unités plus petites, en sélectionnant le champ **Filtrer déconditionnement**. Pour plus d'informations, voir [Activer la rupture de charge automatique avec prélèvement et rangement dirigé] (warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
+    -   Vous pouvez choisir de ne pas afficher les lignes intermédiaires créées lorsque le programme divise une unité en unités plus petites, en sélectionnant le champ **Filtrer déconditionnement**. Pour plus d'informations, voir [Activer la rupture de charge automatique avec prélèvement et rangement dirigé](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
     -   Vous pouvez faire en sorte que le champ **Quantité à traiter** des instructions rangement ne soit pas renseigné automatiquement.  
     -   Vous pouvez imprimer immédiatement le document.  
 
@@ -71,4 +71,3 @@ Si vous ne sélectionnez pas ce champ, le programme crée automatiquement des in
 [Gestion des assemblages](assembly-assemble-items.md)    
 [Détails de conception : gestion d'entrepôt](design-details-warehouse-management.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

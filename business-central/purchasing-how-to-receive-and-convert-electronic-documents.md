@@ -1,21 +1,21 @@
 ---
-title: "Recevoir et convertir des documents électroniques | Microsoft Docs"
-description: "Vous pouvez recevoir des documents électroniques directement des partenaires commerciaux ou d'un service OCR."
+title: Recevoir et convertir des documents électroniques | Microsoft Docs
+description: Vous pouvez recevoir des documents électroniques directement des partenaires commerciaux ou d'un service OCR.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 2ed7c083b4315f374a81ec5f97ce5e872c11f071
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820549"
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Recevoir et convertir des documents électroniques
 La version générique de [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge la réception de factures et d'avoirs électroniques au format PEPPOL, qui est pris en charge par les principaux fournisseurs de services d'échange de documents. Pour recevoir une facture d'un fournisseur en tant que document électronique PEPPOL, traitez le document sur la page Documents entrants pour le convertir en facture achat ou en ligne feuille comptabilité dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -63,4 +63,3 @@ La version générique de [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en c
 [Configurer l'envoi et la réception de documents électroniques](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [Échanger des données par voir électronique](across-data-exchange.md)   
 [Fonctionnalités marché](ui-across-business-areas.md)  
-

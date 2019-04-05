@@ -1,6 +1,6 @@
 ---
 title: Configurer des attributs d'articles et les affecter aux articles| Microsoft Docs
-description: "Décrit comment configurer les valeurs d'attributs d'articles, par exemple, qui peuvent être utilisées comme mots recherchés, et les affecter aux articles et aux catégories article."
+description: Décrit comment configurer les valeurs d'attributs d'articles, par exemple, qui peuvent être utilisées comme mots recherchés, et les affecter aux articles et aux catégories article.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: categories, search words, facets
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 9441bee71c6025deed419dec59d3bacf3bdf5e41
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: fb063e388828f9ea099388ea07d8d54971088b42
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820554"
 ---
 # <a name="work-with-item-attributes"></a>Utiliser les attributs d'article
 Lorsque les clients recherchent des renseignements au sujet d'un article, par courrier ou via une boutique en ligne, ils peuvent effectuer leur recherche en fonction de caractéristiques, telles que la hauteur et l'année du modèle. Pour assurer le service de ce client, vous pouvez affecter des valeurs attribut article de différents types à vos articles, qui peuvent être utilisées pour rechercher les articles.
@@ -31,7 +31,7 @@ Vous pouvez également allouer les attributs d'article aux catégories d'article
 3. Sur la page **Attribut article**, renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
->   Si vous sélectionnez **Option** dans le champ **Type**, vous pouvez sélectionner l'action **Valeurs attribut article** afin de créer des valeurs pour l'attribut d'article. Pour en savoir plus, voir la section « Pour créer des valeurs pour les attributs d'article de type Option ».  
+>   Si vous sélectionnez **Option** dans le champ **Type**, vous pouvez sélectionner l'action **Valeurs attribut article** afin de créer des valeurs pour l'attribut d'article. Pour en savoir plus, voir [Pour créer des valeurs pour les attributs d'article de type Option](inventory-how-work-item-attributes.md#to-create-values-for-item-attributes-of-type-option).  
 
 ## <a name="to-create-values-for-item-attributes-of-type-option"></a>Pour créer des valeurs pour les attributs d'article de type Option
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Attributs article**, puis sélectionnez le lien associé.
@@ -42,16 +42,16 @@ Vous pouvez également allouer les attributs d'article aux catégories d'article
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles**, puis sélectionnez le lien associé.
 2. Sur la page **Articles**, sélectionnez l'article auquel vous souhaitez affecter des attributs article, puis sélectionnez l'action **Attributs**.
 3. Sur la page **Valeurs attributs article**, sélectionnez l'action **Nouveau**.
-4. Sélectionnez le bouton de recherche dans le champ **Attribut** et sélectionnez un attribut d'article existant. Sinon, sélectionnez l'action **Nouveau** pour créer tout d'abord un nouvel attribut comme expliqué dans la section « Créer des attributs d'article ».
+4. Sélectionnez le bouton de recherche dans le champ **Attribut** et sélectionnez un attribut d'article existant. Sinon, sélectionnez l'action **Nouveau** pour créer tout d'abord un nouvel attribut comme expliqué dans [Créer des attributs d'article](inventory-how-work-item-attributes.md#to-create-item-attributes).
 5. Dans le champ **Valeur**, saisissez la valeur d'attribut article, telle que « 2010 » pour l'attribut **Année modèle**.
-6. Pour les attributs d'article de type **Option**, sélectionnez le bouton de recherche dans le champ **Valeur** et sélectionnez une valeur d'attribut d'article. Sinon, sélectionnez l'action **Nouveau** pour créer tout d'abord une nouvelle valeur d'attribut comme expliqué dans la section « Créer des valeurs pour les attributs d'article de type Option ».
+6. Pour les attributs d'article de type **Option**, sélectionnez le bouton de recherche dans le champ **Valeur** et sélectionnez une valeur d'attribut d'article. Sinon, sélectionnez l'action **Nouveau** pour créer tout d'abord une nouvelle valeur d'attribut comme expliqué dans [Créer des valeurs pour les attributs d'article de type Option](inventory-how-work-item-attributes.md#to-assign-item-attributes-to-items).
 7. Répétez les étapes 4 à 6 pour tous attributs article que vous souhaitez affecter à l'article.
 
 ## <a name="to-assign-item-attributes-to-item-categories"></a>Pour allouer des attributs article aux catégories article
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Catégories article**, puis sélectionnez le lien associé.
 2. Sur la page **Catégories d'article**, sélectionnez la catégorie article à laquelle vous souhaitez affecter des attributs article, puis sélectionnez l'action **Modifier**.
 3. Sur la page **Fiche catégorie article**, sur le raccourci **Attributs**, sélectionnez l'action **Nouveau**.
-4. Sélectionnez le bouton de recherche dans le champ **Attribut** et sélectionnez un attribut d'article existant. Sinon, sélectionnez l'action **Nouveau** pour créer tout d'abord un nouvel attribut comme expliqué dans la section « Créer un attribut article ».
+4. Sélectionnez le bouton de recherche dans le champ **Attribut** et sélectionnez un attribut d'article existant. Sinon, sélectionnez l'action **Nouveau** pour créer tout d'abord un nouvel attribut comme expliqué dans [Créer des attributs d'article](inventory-how-work-item-attributes.md#to-create-item-attributes).
 5. Dans le champ **Valeur par défaut**, cliquez sur le bouton de recherche et sélectionnez une valeur d'attribut d'article.
 6. Répétez les étapes 4 et 5 pour tous attributs article que vous souhaitez affecter à la catégorie d'article.
 
@@ -80,4 +80,3 @@ Les articles de la page **Articles** sont filtrés selon les valeurs attribut ar
 [Enregistrer de nouveaux articles](inventory-how-register-new-items.md)  
 [STOCKS ET EN-COURS](inventory-manage-inventory.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

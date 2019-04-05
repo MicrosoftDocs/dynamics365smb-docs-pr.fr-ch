@@ -1,8 +1,8 @@
 ---
-title: "Spécifier la mise en page d'un chèque| Microsoft Docs"
-description: "Vous pouvez concevoir et imprimer vos chèques dans différents formats pour respecter des normes."
+title: Spécifier la mise en page d'un chèque| Microsoft Docs
+description: Vous pouvez concevoir et imprimer vos chèques dans différents formats pour respecter des normes.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: print check, customize
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 743cf7ecbed4157dc9283a97baa956e69ec0c6b5
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821218"
 ---
 # <a name="define-check-layouts"></a>Définir les mises en page de chèques
 Vous pouvez concevoir vos chèques de sorte à respecter les normes fixées par les autorités locales. Vous pouvez imprimer des images de chèques en anglais, en français ou en espagnol.
@@ -43,4 +43,3 @@ Une fois que vous avez défini les mises en page de chèques, vous pouvez imprim
 [Exécution des processus de clôture d'exercice](year-how-complete-period-end-processes.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)
-

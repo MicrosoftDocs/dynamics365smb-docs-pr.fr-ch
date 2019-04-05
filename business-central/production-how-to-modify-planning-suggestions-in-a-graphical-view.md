@@ -1,23 +1,23 @@
 ---
-title: "Procédure de modification des propositions planning dans une vue graphique | Microsoft Docs"
-description: "Une activité de planification courante est d'ajouter ou de modifier les lignes feuille planning pour modifier les commandes approvisionnement proposées avant de les valider en exécutant la fonction **Traiter message d'action**. Une alternative à utiliser la feuille planning est d'utiliser une vue graphique."
+title: Procédure de modification des propositions planning dans une vue graphique | Microsoft Docs
+description: Une activité de planification courante est d'ajouter ou de modifier les lignes feuille planning pour modifier les commandes approvisionnement proposées avant de les valider en exécutant la fonction **Traiter message d'action**. Une alternative à utiliser la feuille planning est d'utiliser une vue graphique.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 35b8694710f031d99e4cfb6b5e0927266d7559b9
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4de53621a71569579fa05092dca36d8301098ffe
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821294"
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Modifier les propositions planning dans une vue graphique
 Une activité de planification courante est d'ajouter ou de modifier les lignes feuille planning pour modifier les commandes approvisionnement proposées avant de les valider en exécutant la fonction **Traiter message d'action**. Une alternative à utiliser la feuille planning est d'utiliser une vue graphique.
@@ -42,7 +42,7 @@ La procédure suivante indique comment modifier des propositions d'approvisionne
     La page **Disponibilité article par chronologie** s'ouvre avec le numéro d'article, le magasin et la variante de l'article, figurant sur la ligne planning sélectionnée, préalablement insérés dans le raccourci **Options**. Le raccourci **Chronologie** affiche une représentation graphique du stock prévisionnel de l'article, y compris les propositions planning.  
 
 2.  Assurez-vous que le champ **Inclure propositions planning** est sélectionné.  
-3.  Sélectionnez la commande approvisionnement suggérée à modifier. Vous pouvez identifier les éléments modifiables par le cercle vert et l'icône représentant un disque. Pour plus d'informations sur les différents symboles, voir la section « Symboles et icônes sur le raccourci Chronologie ».  
+3.  Sélectionnez la commande approvisionnement suggérée à modifier. Vous pouvez identifier les éléments modifiables par le cercle vert et l'icône représentant un disque. Pour plus d'informations sur les différents symboles, voir [Symboles et icônes sur le raccourci Chronologie](production-how-to-modify-planning-suggestions-in-a-graphical-view.md#symbols-and-icons-on-the-timeline-fasttab).  
 4.  Placez le pointeur sur le cercle vert jusqu'à ce qu'il s'agrandisse et le pointeur prend la forme Déplacement (quatre flèches).  
 5.  Appuyez sur et maintenez enfoncé le bouton de la souris lorsque vous faites glisser le pointeur vers le haut ou le bas pour modifier la quantité. Appuyez sur et maintenez enfoncé le bouton de la souris lorsque vous faites glisser le pointeur à gauche ou à droite pour modifier la date d'échéance.  
 6.  Outre le déplacement d'éléments par glisser-déplacer, vous pouvez modifier les propositions planning à l'aide d'un certain nombre d'options de menu déroulant. Accédez au menu déroulant associé au cercle vert d'un élément d'approvisionnement proposé et sélectionnez l'une des fonctions suivantes  
@@ -99,4 +99,3 @@ Outre les actions de clavier qui ont été citées précédemment, vous pouvez �
 [Détails de conception : planification de l'approvisionnement](design-details-supply-planning.md)   
 [Pratiques de configuration recommandées : planification de l'approvisionnement](setup-best-practices-supply-planning.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

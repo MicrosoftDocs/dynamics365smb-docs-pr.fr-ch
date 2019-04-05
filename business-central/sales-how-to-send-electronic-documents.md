@@ -1,21 +1,21 @@
 ---
-title: "Envoyer des documents électroniques | Microsoft Docs"
-description: "Découvrez comment envoyer des factures par voie électronique."
+title: Envoyer des documents électroniques | Microsoft Docs
+description: Découvrez comment envoyer des factures par voie électronique.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 76940b9133f6aef69c588b12dd4e8940717d0eab
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820248"
 ---
 # <a name="send-electronic-documents"></a>Envoyer des documents électroniques
 La version générique de [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge l'envoi de factures et d'avoirs électroniques au format PEPPOL, qui est pris en charge par les principaux fournisseurs de services d'échange de documents. Un fournisseur de services d'échange de documents affecte des documents électroniques entre partenaires commerciaux. Pour assurer la prise en charge d'autres formats de documents électroniques, vous pouvez utiliser l'infrastructure d'échange de données.  
@@ -57,4 +57,3 @@ La version générique de [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en c
 [Configurer les définitions d'échange de données](across-how-to-set-up-data-exchange-definitions.md)  
 [Échanger des données par voir électronique](across-data-exchange.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)  
-

@@ -1,23 +1,23 @@
 ---
-title: "Détails de conception - Gestion des méthodes de réapprovisionnement | Microsoft Docs"
-description: "Aperçu des tâches pour définir une méthode de réapprovisionnement dans la planification des approvisionnements."
+title: Détails de conception - Gestion des méthodes de réapprovisionnement | Microsoft Docs
+description: Aperçu des tâches pour définir une méthode de réapprovisionnement dans la planification des approvisionnements.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/14/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 42fc4a95c572f3afecc3b3a76ba987edd1fdd011
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821311"
 ---
 # <a name="design-details-handling-reordering-policies"></a>Détails de conception : gestion des méthodes de réapprovisionnement
 Pour qu'un article participe à la planification des approvisionnements, une méthode de regroupement doit être définie. Les quatre méthodes de réapprovisionnement disponibles sont les suivantes :  
@@ -126,7 +126,7 @@ Niveau de dépassement de capacité = Quantité de réappro. + Point de commande
 Si un multiple de commande existe, il ajuste le niveau de dépassement de capacité pour les deux méthodes de réapprovisionnement Qté maximum et Qté fixe de commande.  
 
 ###  <a name="creating-the-planning-line-with-overflow-warning"></a>Création de la ligne planning avec l'avertissement de dépassement capacité  
-Lorsqu'un approvisionnement existant rend le stock prévisionnel supérieur au niveau de dépassement de capacité à la fin d'un intervalle de planification, une ligne de planification est créée. Pour avertir sur le potentiel approvisionnement superflu, la ligne de planification a un message d'avertissement, le champ **Accept Action Message** n'est pas sélectionné, et le message d'action est Cancel ou Change Qty.  
+Lorsqu'un approvisionnement existant rend le stock prévisionnel supérieur au niveau de dépassement de capacité à la fin d'un intervalle de planification, une ligne de planification est créée. Pour avertir sur le potentiel approvisionnement superflu, la ligne de planification a un message d'avertissement, le champ **Accepter message d'action** n'est pas sélectionné, et le message d'action est Cancel ou Change Qty.  
 
 #### <a name="calculating-the-planning-line-quantity"></a>Calcul de la Quantité pour la ligne planning  
 Quantité pour la ligne planning = Quantité d'approvisionnement actif – (Stock prévisionnel – Niveau de dépassement de capacité)  
@@ -298,4 +298,3 @@ Avec cette méthode, il est également possible de définir un stock de sécurit
 [Détails de conception : concepts centraux du système de planification](design-details-central-concepts-of-the-planning-system.md)   
 [Détails de conception : équilibrage de la demande et de l'approvisionnement](design-details-balancing-demand-and-supply.md)   
 [Détails de conception : planification de l'approvisionnement](design-details-supply-planning.md)
-

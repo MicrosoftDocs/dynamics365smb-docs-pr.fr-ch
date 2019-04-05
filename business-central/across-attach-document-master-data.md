@@ -1,26 +1,29 @@
 ---
 title: Joindre des fichiers aux fiches et aux documents | Microsoft Docs
-description: "Vous pouvez joindre des images, des documents, et d'autres types de fichiers à toutes les fiches, telles que la fiche article et la fiche projet, et vous pouvez joindre des fichiers à tous les types documents vente et achat."
+description: Vous pouvez joindre des images, des documents, et autres types de fichiers à toutes les fiches et à tous les types documents vente et achat.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 11/21/2018
+ms.search.keywords: upload, attach, attachments
+ms.date: 02/21/2019
 ms.author: edupont
+ms.openlocfilehash: f05d12481936e8159631e16f596710cfb13b3b6e
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 02a590e3389e2453f146db6bac1c487c039f5177
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821118"
 ---
 # <a name="attaching-files-to-cards-and-documents"></a>Joindre des fichiers aux fiches et aux documents
 Vous pouvez joindre des images, des documents, et autres types de fichiers à toutes les fiches, telles que la fiche article et la fiche projet, et vous pouvez joindre des fichiers à tous les types documents vente et achat.
 
-## <a name="to-attach-a-file-to-a-sales-order"></a>Pour joindre un fichier à une commande vente.
+> [!Note]
+> Généralement la taille de fichier maximale pour les documents joints est le 150 Mo. Cependant, la limite peut être inférieure pour certaines fonctionnalités. 
+
+## <a name="to-attach-a-file-to-a-sales-order"></a>Pour joindre un fichier à une commande vente
 La procédure suivante se base sur une commande vente. Les étapes sont similaires pour tous les autres documents achat et vente et pour toutes les fiches.
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes vente**, puis sélectionnez le lien associé.
@@ -32,4 +35,3 @@ La procédure suivante se base sur une commande vente. Les étapes sont similair
 ## <a name="see-also"></a>Voir aussi
 [Enregistrer de nouveaux articles](inventory-how-register-new-items.md)  
 [Vendre des produits](sales-how-sell-products.md)
-

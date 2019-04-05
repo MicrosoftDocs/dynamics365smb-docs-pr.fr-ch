@@ -1,7 +1,7 @@
 ---
 title: Utilisation de l'extension d'analyseur Image | Microsoft Docs
 description: Cette extension vous permet d'analyser des photos des contacts et des articles permettant de rechercher des attributs, afin de les trouver rapidement dans Business Central.
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,14 +11,13 @@ ms.workload: na
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 803d755a7caa470b97bf606f0f8916d0135d047e
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821351"
 ---
-
 # <a name="the-image-analyzer-extension"></a>Extension d'analyseur Image
 L'extension d'analyseur Image utilise les analyses d'image puissantes fournies par l'API Vision par ordinateur de Microsoft Cognitive Services pour détecter des attributs dans les images que vous importez pour des articles et des contacts, afin de les examiner et de les affecter facilement. Pour les articles, les attributs peuvent être si l'article est une table ou une voiture et, s'il est rouge ou bleu. Pour les contacts, les attributs peuvent être le sexe ou l'âge.
 
@@ -29,7 +28,7 @@ L'analyseur Image est gratuit dans [!INCLUDE[d365fin](includes/d365fin_md.md)], 
 Après avoir activé l'extension, l'analyseur Image fonctionne chaque fois que vous importez une image à un article ou à un contact. Vous pourrez consulter les attributs, le niveau de confiance et les détails immédiatement, et décider de gérer chaque attribut. Si vous avez importé des images avant d'activer l'extension d'analyseur Image, vous devez consulter la fiche article ou contact et choisir l'action **Analyser l'image**.  
 
 ## <a name="privacy-notice"></a>Déclaration de confidentialité
-Cette extension utilise l'API Vision par ordinateur de Microsoft Cognitive Services, qui peut avoir différents niveaux d'engagements en matière de conformité par rapport à [!INCLUDE[d365fin](includes/d365fin_md.md)]. Lorsque vous activez l'extension Analyseur Image, les données client telles qu'une image de contact ou une image d'article sont envoyées à l'API Vision par ordinateur. En installant cette extension, vous acceptez que cet ensemble limité de données soit envoyé à l'API Vision par ordinateur. Notez que vous pouvez désactiver et désinstaller l'extension Analyseur Image à tout moment pour ne plus utiliser cette fonctionnalité. Pour plus d'informations, voir [Microsoft Trust Center](https://go.microsoft.com/fwlink/?linkid=851463).
+Cette extension utilise l'API Vision par ordinateur de Microsoft Cognitive Services, qui peut avoir différents niveaux d'engagements en matière de conformité par rapport à [!INCLUDE[d365fin](includes/d365fin_md.md)]. Lorsque vous activez l'extension Analyseur Image, les données client telles qu'une image de contact ou une image d'article sont envoyées à l'API Vision par ordinateur. En installant cette extension, vous acceptez que cet ensemble limité de données soit envoyé à l'API Vision par ordinateur. Notez que vous pouvez désactiver et désinstaller l'extension Analyseur Image à tout moment pour ne plus utiliser cette fonctionnalité. Pour plus d'informations, voir [Centre de gestion de la confidentialité Microsoft](https://go.microsoft.com/fwlink/?linkid=851463).
 
 ## <a name="requirements"></a>Conditions requises
 Certaines exigences s'appliquent aux images :
@@ -95,4 +94,3 @@ Vous pouvez afficher le nombre d'analyses effectué, et le nombre restant, pour 
 [Utiliser les attributs d'article](inventory-how-work-item-attributes.md)  
 [Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md)  
 [Mise en route](product-get-started.md)  
-

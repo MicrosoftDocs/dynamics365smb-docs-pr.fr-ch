@@ -1,20 +1,20 @@
 ---
-title: "Utilisation de feuilles comptabilité pour valider directement dans la comptabilité| Microsoft Docs"
-description: "Découvrez comment utiliser les feuilles pour valider des transactions financières dans les comptes généraux et dans d'autres comptes, tels que les comptes bancaires et fournisseur."
+title: Utilisation de feuilles comptabilité pour valider directement dans la comptabilité| Microsoft Docs
+description: Découvrez comment utiliser les feuilles pour valider des transactions financières dans les comptes généraux et dans d'autres comptes, tels que les comptes bancaires et fournisseur.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/27/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: ddcda93c59df3f8390dc3852595d4f07f03648f5
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: f715dc4994fb3507d73f44bc9adc689f6d3f71cb
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821047"
 ---
 # <a name="working-with-general-journals"></a>Utilisation de feuilles comptabilité
 
@@ -35,7 +35,7 @@ Les informations que vous saisissez dans une feuille sont temporaires et peuvent
 
 ## <a name="using-journal-templates-and-batches"></a>Utilisation de modèles feuille et feuilles
 
-Il existe plusieurs modèles feuille. Chaque modèle feuille est représenté par une page dédiée avec des fonctions particulières et les champs nécessaires pour la prise en charge de ces fonctions, notamment la page **Feuille rapprochement bancaire** qui permet de traiter les paiements bancaires et la page **Feuille paiement** qui permet de payer vos fournisseurs ou rembourser vos employés. Pour plus d'informations, voir [Exécuter des paiements](payables-make-payments.md) et [Rapprocher des paiements client manuellement](receivables-how-apply-sales-transactions-manually.md).
+Il existe plusieurs modèles feuille. Chaque modèle feuille est représenté par une page dédiée avec des fonctions particulières et les champs nécessaires pour la prise en charge de ces fonctions, notamment la page **Feuille rapprochement bancaire** qui permet de traiter les paiements bancaires et la page **Feuille paiement** qui permet de payer vos fournisseurs ou rembourser vos employés. Pour plus d'informations, consultez [Exécuter des paiements](payables-make-payments.md) et [Rapprocher des paiements clients avec la Feuille règlement ou les Écritures comptables client](receivables-how-apply-sales-transactions-manually.md).
 
 Pour chaque modèle feuille, vous pouvez configurer votre propre feuille personnelle sous forme de nom de feuille. Par exemple, vous pouvez définir votre propre nom de feuille pour la feuille paiement dotée de votre présentation et de vos paramètres personnels. Le conseil suivant est un exemple de la manière de personnaliser une feuille.
 
@@ -49,7 +49,7 @@ Si vous avez configuré des comptes contrepartie par défaut pour les feuilles s
 >   La TVA est calculée séparément pour le compte principal et le compte contrepartie, afin qu'ils puissent utiliser des taux de pourcentage de TVA différents.
 
 ## <a name="working-with-recurring-journals"></a>Utilisation de feuilles abonnement
-Une feuille abonnement est une feuille comptabilité contenant des champs spécifiques pour la gestion des transactions que vous validez fréquemment avec peu ou pas de modifications comme le bail, les abonnements, l'électricité et le chauffage. Utilisez ces champs dans le cadre des transactions récurrentes pour valider les montants fixes et variables. Vous pouvez également définir des écritures de contrepassation automatique le lendemain de la date de validation. Vous pouvez également utiliser les clés de ventilation pour répartir les écritures récurrentes entre plusieurs comptes. Pour plus d'informations, reportez-vous à la section « Ventilation des montants feuille abonnement sur plusieurs comptes ».
+Une feuille abonnement est une feuille comptabilité contenant des champs spécifiques pour la gestion des transactions que vous validez fréquemment avec peu ou pas de modifications comme le bail, les abonnements, l'électricité et le chauffage. Utilisez ces champs dans le cadre des transactions récurrentes pour valider les montants fixes et variables. Vous pouvez également définir des écritures de contrepassation automatique le lendemain de la date de validation. Vous pouvez également utiliser les clés de ventilation pour répartir les écritures récurrentes entre plusieurs comptes. Pour plus d'informations, reportez-vous à [Ventilation des montants feuille abonnement sur plusieurs comptes](ui-work-general-journals.md#allocating-recurring-journal-amounts-to-several-accounts).
 
 Avec une feuille abonnement, les écritures qui sont régulièrement validées ne sont saisies qu'une fois. Les comptes, axes, sections analytiques, etc., que vous saisissez restent ainsi dans la feuille après validation. Si des ajustements sont nécessaires, vous pouvez les faire à chaque validation.
 
@@ -60,7 +60,7 @@ Ce champ détermine la manière dont le montant de la ligne feuille est traité 
 | --- | --- |
 |Statique|Le montant de la ligne feuille est conservé après validation.|
 |Variable|Le montant de la ligne feuille est supprimé après validation.|
-|Solde|Le montant validé sur le compte de la ligne est ventilé sur les comptes spécifiés pour la ligne de la table Ventilation feuille compta. Le solde du compte est donc positionné à zéro. Pensez à renseigner le champ **% ventilation** sur la page **Ventilations**. Pour plus d'informations, reportez-vous à la section « Ventilation des montants feuille abonnement sur plusieurs comptes ».|
+|Solde|Le montant validé sur le compte de la ligne est ventilé sur les comptes spécifiés pour la ligne de la table Ventilation feuille compta. Le solde du compte est donc positionné à zéro. Pensez à renseigner le champ **% ventilation** sur la page **Ventilations**. Pour plus d'informations, reportez-vous à [Ventilation des montants feuille abonnement sur plusieurs comptes](ui-work-general-journals.md#allocating-recurring-journal-amounts-to-several-accounts).|
 |FI Fixe Inverse|Le montant de la ligne feuille est conservé après validation, et une écriture contrepartie est validée le lendemain.|
 |VI Variable Inverse|Le montant de la ligne feuille est supprimé après validation, et une écriture contrepartie est validée le lendemain.|
 |SI Solde Inverse|Le montant validé sur le compte de la ligne est ventilé sur les comptes spécifiés pour la ligne de la page **Ventilations**. Le solde du compte est défini sur zéro, et une écriture contrepartie est validée le lendemain.|
@@ -69,7 +69,7 @@ Ce champ détermine la manière dont le montant de la ligne feuille est traité 
 >  Les champs TVA peuvent être renseignés sur la ligne feuille abonnement ou sur la ligne feuille ventilation, mais pas sur les deux. Ils peuvent être renseignés sur la page **Ventilations** uniquement si les lignes correspondantes de la feuille abonnement ne sont pas renseignées.
 
 ### <a name="recurring-frequency-field"></a>Champ Périodicité abonnement
-Ce champ détermine la fréquence de validation de l'écriture de la ligne feuille. Il s'agit d'un champ de formule de date qui doit être renseigné pour les lignes feuille abonnement. Pour plus d'informations reportez-vous à la section « Utilisation de formules date » dans [Saisie de données](ui-enter-data.md).
+Ce champ détermine la fréquence de validation de l'écriture de la ligne feuille. Il s'agit d'un champ de formule de date qui doit être renseigné pour les lignes feuille abonnement. Pour plus d'informations, voir [Utilisation de formules date](ui-enter-date-ranges.md#using-date-formulas).
 
 #### <a name="examples"></a>Exemples
 Si la ligne feuille doit être validée tous les mois, saisissez "1M." Après chaque validation, la date du champ **Date comptabilisation** est mise à jour, elle est remplacée par la même date du mois suivant.
@@ -164,4 +164,3 @@ Les valeurs dans le champ **N° document** sont modifiées, le cas échéant, po
 [Répartition des coûts et du revenu](year-allocate-costs-income.md)  
 [Finances](finance.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

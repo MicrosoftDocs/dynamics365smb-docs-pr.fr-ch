@@ -1,8 +1,8 @@
 ---
 title: Affecter les frais annexes aux ventes et aux achats| Microsoft Docs
-description: "Si vous voulez que vos articles de stock comptabilisent les coûts ajoutés, tels que le fret, la manutention, les assurances, et transport, que vous encourez lorsque vous achetez ou vendez des articles, vous pouvez utiliser la fonction Frais annexes."
+description: Si vous voulez que vos articles de stock comptabilisent les coûts ajoutés, tels que le fret, la manutention, les assurances, et transport, que vous encourez lorsque vous achetez ou vendez des articles, vous pouvez utiliser la fonction Frais annexes.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: transportation, added cost, landed cost
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 0bf5ab953315048bfa10dc1ffb70c07d8305b4e1
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: e2a7c5f34471bb76aed708d6a6e4ff36feaf39c7
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820765"
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Utiliser Frais annexes pour comptabiliser les coûts commerciaux supplémentaires
 Pour une évaluation correcte, vos articles de stock doivent comptabiliser tous les coûts ajoutés, tels que le fret, la manutention, les assurances, et transport, que vous encourez lorsque vous achetez ou vendez des articles. Pour les achats, le coût en magasin d'un article acheté est constitué du prix d'achat au fournisseur et de tous les frais annexes directs pouvant être affectés à chacune des réceptions ou expéditions retour. Pour les ventes, il peut s'avérer aussi fondamental pour votre société de connaître le coût de l'expédition des articles vendus que le coût en magasin des articles achetés.
@@ -69,7 +69,7 @@ Les frais annexes sont maintenant affectés à la facture achat. Lorsque vous va
 
 ## <a name="to-assign-an-item-charge-from-a-separate-invoice-to-the-purchase-invoice-for-the-item"></a>Pour affecter des frais annexes depuis une facture distincte à la facture achat pour l'article
 Si vous avez reçu une facture des frais annexes après avoir validé la réception achat d'origine, procédez comme suit.
-1. Répétez les étapes 1 à 8 de la section « Pour affecter des frais annexes directement à la facture achat pour l'article ».
+1. Répétez les étapes 1 à 8 de [Pour affecter des frais annexes directement à la facture achat pour l'article](payables-how-assign-item-charges.md#to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item).
 2. Sur la page **Affectation frais annexes**, cliquez sur l'action **Extraire lignes réception**.
 3. Sur la page **Lignes réception achat**, sélectionnez la réception achat validée de l'article auquel vous souhaitez affecter les frais annexes, puis choisissez le bouton **OK**.
 4. Choisissez l'action **Suggérer affectation frais annexes**.
@@ -81,4 +81,3 @@ Les frais annexes de la facture achat distincte sont maintenant affectés à l'a
 [Enregistrer des achats](purchasing-how-record-purchases.md)  
 [Facturer des ventes](sales-how-invoice-sales.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

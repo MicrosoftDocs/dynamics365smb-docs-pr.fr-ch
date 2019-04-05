@@ -1,6 +1,6 @@
 ---
-title: "Procédure de connexion de Power BI à Business Central | Microsoft Docs"
-description: "Il est facile d'obtenir des informations exploitables, de la veille économique et des KPI de vos données Business Central grâce à Power BI et aux packs de contenu Business Central."
+title: Procédure de connexion de Power BI à Business Central | Microsoft Docs
+description: Il est facile d'obtenir des informations exploitables, de la veille économique et des KPI de vos données Business Central grâce à Power BI et aux packs de contenu Business Central.
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -11,32 +11,32 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.date: 10/01/2018
 ms.author: solsen
 redirect_url: admin-powerbi
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 48c57e03f4679ea05792304fe13bdf896be2f1e3
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821547"
 ---
 # <a name="connecting-power-bi-to-dynamics-365-business-central-content-packs"></a>Connexion de Power BI aux packs de contenu Dynamics 365 Business Central
-Il est facile d'obtenir des informations exploitables de vos données [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] Microsoft grâce à Power BI et aux packs de contenu [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] Microsoft. Power BI extrait vos données, puis génère un tableau de bord prêt à l'emploi et des états basés sur ces données.
+Il est facile d'obtenir des informations exploitables de vos données Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] grâce à Power BI et aux packs de contenu Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. Power BI extrait vos données, puis génère un tableau de bord prêt à l'emploi et des états basés sur ces données.
 
-Remarque : vous devez disposer d'un compte valide avec Dynamics 365 et avec Power BI. En outre, vous devez télécharger [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) si vous souhaitez créer vos propres états Power BI. Les packs de contenu Power BI nécessitent des autorisations vers les tables d'où sont extraites les données. Vous trouverez plus d'informations sur les besoins ci-dessous.  
+Vous devez disposer d'un compte valide avec Dynamics 365 et avec Power BI. En outre, vous devez télécharger [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) si vous souhaitez créer vos propres états Power BI. Les packs de contenu Power BI nécessitent des autorisations vers les tables d'où sont extraites les données. Vous trouverez plus d'informations sur les besoins ci-dessous.  
 
 ## <a name="how-to-connect"></a>Pour vous connecter
 1. Sélectionnez **Extraire les données** en bas du volet de navigation gauche.  
 ![Naviguer pour obtenir des données](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
 
-Vous pouvez également démarrer à partir de Dynamics 365 Business Edition. Dans le Tableau de bord, accédez à **Sélection des états** dans le composant du Tableau de bord Power BI. Sélectionnez **Service** ou **Mon organisation** dans le ruban. Lorsque l'une de ces actions est sélectionnée, vous arrivez dans la galerie Organisation de Power BI ou dans la bibliothèque des services de Power BI, qui sera également filtrée pour afficher uniquement les packs de contenu associés à [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
+Vous pouvez également démarrer depuis Dynamics 365 Business Edition. Dans le Tableau de bord, accédez à **Sélection des états** dans le composant du Tableau de bord Power BI. Sélectionnez **Service** ou **Mon organisation** dans le ruban. Lorsque l'une de ces actions est sélectionnée, vous arrivez dans la galerie Organisation de Power BI ou dans la bibliothèque des services de Power BI, qui sera également filtrée pour afficher uniquement les packs de contenu associés à [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
 
 2. Dans la zone **Services**, sélectionnez **Extraire**. Une page s'ouvre alors, elle contient **AppSource** et **Applications pour applications Power BI**.  
 ![Choisir des packs de contenu à partir des services en ligne](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-online-services-get.png)
-3. Sélectionnez **Applications** dans l'onglet **Applications pour applications Power BI** et choisissez le pack de contenu **Microsoft Dynamics 365 Business Central** à utiliser, puis cliquez sur **Obtenir maintenant**.  
-![Sélectionner Dynamics 365 Business Central et sélectionner Obtenir maintenant](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-dynamics365-for-financials-get-it-now.png)
+3. Sélectionnez **Applications** dans l'onglet **Applications pour applications Power BI** et choisissez le pack de contenu **Microsoft Dynamics 365 Business Central** à utiliser, puis cliquez sur **Obtenir maintenant**.  
+![Sélectionnez Dynamics 365 Business Central et sélectionnez Obtenir maintenant](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-dynamics365-for-financials-get-it-now.png)
 4. Quand on vous le demande, indiquez le nom de *votre société* dans [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)]. Il ne s'agit pas du nom complet. Le nom de la société se trouve dans la page Sociétés de votre instance [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)]. 
-![Sélectionner Dynamics 365 Business Central et sélectionner Obtenir maintenant](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-connect-to-d365-finance-and-operations-crm.png)
+![Sélectionnez Dynamics 365 Business Central et sélectionnez Obtenir maintenant](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-connect-to-d365-finance-and-operations-crm.png)
 5. Une fois connecté, un tableau de bord, un état et un ensemble de données sont automatiquement chargés dans votre espace de travail Power BI. Une fois terminé, les mosaïques sont mises à jour avec les données de votre société [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)].
-![Sélectionner Dynamics 365 Business Central et sélectionner Obtenir maintenant](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
+![Sélectionnez Dynamics 365 Business Central et sélectionnez Obtenir maintenant](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
 
 ## <a name="what-now"></a>Et ensuite ?
 
@@ -50,31 +50,31 @@ Pour importer les données [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.m
 
 ## <a name="role-center-reports"></a>États du Tableau de bord
 
-**Microsoft Dynamics 365 Business Central – CRM**
+**Microsoft Dynamics 365 Business Central – CRM**
 - Opportunités ventes
 - Modèle Excel Afficher Société
 - Étiquettes d'état Power BI
 
-**Microsoft Dynamics 365 Business Central – Finance**
+**Microsoft Dynamics 365 Business Central – Finance**
 - PowerBIFinance
 - Modèle Excel Afficher Société
 - Étiquettes d'état Power BI
 
-**Microsoft Dynamics 365 Business Central – Jobs**
+**Microsoft Dynamics 365 Business Central – Projets**
 - Liste des projets
 - Lignes planning projet
 - Lignes tâche projet
 - Étiquettes d'état Power BI
 - Modèle Excel Afficher Société
 
-**Microsoft Dynamics 365 Business Central - Sales**
+**Microsoft Dynamics 365 Business Central - Ventes**
 - Tableau de bord ventes
 - Modèle Excel Afficher Société
 - Étiquettes d'état Power BI
 
 ## <a name="list-page-reports"></a>États Page de liste 
 
-**Microsoft Dynamics 365 Business Central – Customers List**
+**Microsoft Dynamics 365 Business Central – Liste des clients**
 - Ventes d'articles par client
 - Liste des achats d'articles Power BI
 - Liste des ventes d'articles Power BI
@@ -83,13 +83,13 @@ Pour importer les données [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.m
 - ExcelTemplateViewCompany
 - Étiquettes d'état Power BI 
 
-**Microsoft Dynamics 365 Business Central - General Ledger Entries List**
+**Microsoft Dynamics 365 Business Central - Liste des écritures comptables**
 - Liste des montants Power BI GL
 - Montant budgété Power BI GL
 - ExcelTemplateViewCompany
 - Étiquettes d'état Power BI
 
-**Microsoft Dynamics 365 Business Central – Items List**
+**Microsoft Dynamics 365 Business Central – Liste d'articles**
 - Ventes d'articles par client
 - Liste des achats d'articles Power BI
 - Liste des ventes d'articles Power BI
@@ -97,23 +97,23 @@ Pour importer les données [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.m
 - ExcelTemplateViewCompany
 - Étiquettes d'état Power BI
 
-**Microsoft Dynamics 365 Business Central – Jobs List**
+**Microsoft Dynamics 365 Business Central – Liste des projets**
 - Liste des projets Power BI
 - ExcelTemplateViewCompany
 - Étiquettes d'état Power BI
 
-**Microsoft Dynamics 365 Business Central – Purchase Invoices List**
+**Microsoft Dynamics 365 Business Central – Liste de factures achat**
 - Liste des achats Power BI
 - ExcelTemplateViewCompany
 - Étiquettes d'état Power BI
 
-**Microsoft Dynamics 365 Business Central – Sales Orders List**
+**Microsoft Dynamics 365 Business Central – Liste des commandes vente**
 - Liste des ventes Power BI
 - ExcelTemplateViewCompany
 - Étiquettes d'état Power BI
 
 
-**Microsoft Dynamics 365 Business Central – Vendors List**
+**Microsoft Dynamics 365 Business Central – Liste des fournisseurs**
 - Liste des achats d'articles Power BI
 - Liste des ventes d'articles Power BI
 - Liste des fournisseurs Power BI
@@ -138,12 +138,11 @@ Les packs de contenu nécessitent également que vous ayez un compte [!INCLUDE[d
 Si vous entrez un nom de société non valide pendant le processus de connexion, le message d'erreur suivant « La clé ne correspond à aucune ligne de la table » peut s'afficher. Indiquez le nom de société correct, puis reconnectez-vous.
 
 ## <a name="see-also"></a>Voir aussi
-[Mise en route de Power BI](https://docs.microsoft.com/en-us/power-bi/service-get-started)  
+[Mise en route avec Power BI](https://docs.microsoft.com/en-us/power-bi/service-get-started)  
 [Power BI - Concepts de base](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts)  
 [Veille économique](bi.md)  
 [Mise en route](product-get-started.md)  
 [Importation des données métier à partir d'autres systèmes financiers](across-import-data-configuration-packages.md)  
 [Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Finances](finance.md)  
-[Configuration de la génération d'états [!INCLUDE[d365fin](includes/d365fin_md.md)] dans Power BI](across-how-use-financials-data-source-powerbi.md)  
-
+[Report de configuration pour [!INCLUDE[d365fin](includes/d365fin_md.md)] dans Power BI](across-how-use-financials-data-source-powerbi.md)  

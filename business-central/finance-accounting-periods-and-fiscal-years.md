@@ -1,23 +1,23 @@
 ---
-title: "Utilisation des périodes et exercices comptables | Microsoft Docs"
-description: "En savoir plus sur l'utilisation des périodes comptables pour définir le moment où votre société fait état de ses performances financières."
+title: Utilisation des périodes et exercices comptables | Microsoft Docs
+description: En savoir plus sur l'utilisation des périodes comptables pour définir le moment où votre société fait état de ses performances financières.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 08/13/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 6f760f546ea02fbc19473c70eb26d8b4c47c0987
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821644"
 ---
 # <a name="working-with-accounting-periods-and-fiscal-years"></a>Utilisation des périodes et exercices comptables
 Les périodes comptables, également appelées périodes de report, sont des périodes pour lesquelles une société ou une organisation présente ses performances financières, par exemple, en générant leurs comptes de gestion ou leur bilan. Généralement, les périodes comptables sont liées à l'exercice comptable de la société, qui peut contenir plusieurs périodes comptables, telles que des mois ou des trimestres.
@@ -66,7 +66,6 @@ Même si un exercice comptable est clôturé, vous pouvez toujours y valider des
 [Clôture des exercices et des périodes](year-close-years-periods.md)  
 [Procédure d'utilisation des tableaux d'analyse](bi-how-work-account-schedule.md)  
   
-
 
 
 

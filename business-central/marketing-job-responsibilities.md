@@ -1,8 +1,8 @@
 ---
-title: "Configuration des responsabilités pour des contacts| Microsoft Docs"
-description: "Vous pouvez définir un code de responsabilité et l'affecter à un contact pour indiquer les tâches dont votre contact est en charge dans sa société, par exemple, l'informatique ou la production."
+title: Configuration des responsabilités pour des contacts| Microsoft Docs
+description: Vous pouvez définir un code de responsabilité et l'affecter à un contact pour indiquer les tâches dont votre contact est en charge dans sa société, par exemple, l'informatique ou la production.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: task, to-do, relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
+ms.openlocfilehash: 62d8f733dbfdb6b3da78368e553deef1ea208072
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: b580518771ce9b599e5516ecbb1c25cc5dc5d9f4
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820490"
 ---
 # <a name="set-up-job-responsibilities-for-contact-persons"></a>Configurer les responsabilités pour les personnes contact
 Vous pouvez ajouter des informations relatives aux responsabilités des personnes contact afin d'indiquer les tâches dont une personne contact est responsable au sein de sa société, par exemple, l'informatique, la gestion ou la production. Vous pouvez utiliser ces informations lors de la saisie de données sur vos contacts.
@@ -45,7 +45,5 @@ Le nombre de responsabilités affectées au contact s'affiche dans le champ **Nb
 Une fois que vous avez affecté des responsabilités à vos contacts, vous pouvez utiliser ces informations pour sélectionner des contacts pour vos segments. Pour plus d'informations, reportez-vous à [Ajouter des contacts à des segments](marketing-add-contact-segment.md).
 
 ## <a name="see-also"></a>Voir aussi
-[Création de personnes contact](marketing-create-contact-persons.md)  
-[Création de sociétés contact](marketing-create-contact-companies.md)  
+[Création de contacts](marketing-create-contact-companies.md)  
 [Utilisation de Business Central](ui-work-product.md)
-

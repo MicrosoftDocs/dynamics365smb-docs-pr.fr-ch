@@ -1,23 +1,23 @@
 ---
-title: "Comment planifier des mouvements entrepôt dans la feuille | Microsoft Docs"
-description: "Planifiez les mouvements de la feuille à l'aide de la fonction réapprovisionnement emplacement ou en planifiant manuellement les lignes à créer en tant qu'instructions mouvement."
+title: Comment planifier des mouvements entrepôt dans la feuille | Microsoft Docs
+description: Planifiez les mouvements de la feuille à l'aide de la fonction réapprovisionnement emplacement ou en planifiant manuellement les lignes à créer en tant qu'instructions mouvement.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 7184143303dd1a8b04d8d740d83f35f1fa19485a
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821138"
 ---
 # <a name="plan-warehouse-movements-in-worksheets"></a>Planifier des mouvements entrepôt dans la feuille
 Planifiez les mouvements de la feuille à l'aide de la fonction réapprovisionnement emplacement ou en planifiant manuellement les lignes à créer en tant qu'instructions mouvement.  
@@ -74,4 +74,3 @@ Vous pouvez également utiliser la feuille mouvements pour planifier d'autres mo
 [Gestion des assemblages](assembly-assemble-items.md)    
 [Détails de conception : gestion d'entrepôt](design-details-warehouse-management.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

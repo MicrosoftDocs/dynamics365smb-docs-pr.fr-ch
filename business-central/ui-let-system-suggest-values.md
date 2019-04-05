@@ -1,6 +1,6 @@
 ---
-title: "Paramétrage des valeurs du champ proposées | Microsoft Docs"
-description: "Pour éviter des calculs manuels et effectuer les tâches rapidement et précisément, vous pouvez configurer la saisie automatisée de données afin que Business Central renseigne les champs sélectionnés."
+title: Paramétrage des valeurs du champ proposées | Microsoft Docs
+description: Pour éviter des calculs manuels et effectuer les tâches rapidement et précisément, vous pouvez configurer la saisie automatisée de données afin que Business Central renseigne les champs sélectionnés.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 023f67f90b00c53440cb835cd0e3886ced0d3b98
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 74a88d3e81413b4ecf849f500b5b670feea948bf
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820319"
 ---
 # <a name="letting-included365finincludesd365finmdmd-suggest-values"></a>Laisser [!INCLUDE[d365fin](includes/d365fin_md.md)] suggérer des valeurs
 [!INCLUDE[d365fin](includes/d365fin_md.md)] peut vous aider à effectuer ces tâches plus rapidement et précisément en préremplissant les champs ou en complétant les lignes avec des données que vous devriez sinon calculer et saisir vous-même. Bien qu'une telle saisie de données automatisée soit toujours correcte, vous pouvez la modifier par la suite si vous le souhaitez.
@@ -32,7 +32,7 @@ Lorsque, par exemple, vous saisissez des lignes feuille comptabilité pour plusi
 Pour plus d'informations sur la procédure permettant de configurer un nom de feuille comptabilité personnel, par exemple pour la gestion des frais, reportez-vous à [Utilisation des feuilles comptabilité](ui-work-general-journals.md).
 
 ## <a name="the-automatically-fill-date-received-field-on-the-payment-registration-page"></a>Le champ **Renseigner automatiquement la date de réception** sur la page **Enregistrement de paiement**
-La page **Enregistrement de paiement** affiche les arriérés de paiement entrants sous la forme de lignes représentant les documents vente pour lesquels un montant doit être payé. Pour plus d'informations sur le lettrage des paiements client, reportez-vous à [Rapprocher les paiements client manuellement à partir de la liste des documents vente échus](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md).
+La page **Enregistrement de paiement** affiche les arriérés de paiement entrants sous la forme de lignes représentant les documents vente pour lesquels un montant doit être payé. Pour plus d'informations sur le lettrage des paiements client, reportez-vous à [Rapprocher les paiements client à partir d'une liste des documents vente échus](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md).
 
 Vos tâches principales sur la page consistent à cocher la case **Paiement effectué** et à renseigner le champ **Date de réception**. Vous pouvez définir [!INCLUDE[d365fin](includes/d365fin_md.md)] de sorte à saisir automatiquement la date de travail dans le champ **Date de réception** lorsque vous cochez la case **Paiement effectué**.
 
@@ -44,4 +44,3 @@ Vos tâches principales sur la page consistent à cocher la case **Paiement effe
 ## <a name="see-also"></a>Voir aussi
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Finances](finance.md)
-

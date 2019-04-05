@@ -1,23 +1,23 @@
 ---
 title: Comment utiliser des contrats de service et des devis contrat de service | Microsoft Docs
-description: "Vous pouvez créer un contrat de service manuellement ou à partir d'un devis contrat de service. Vous pouvez créer un contrat en fonction d'un devis contrat de service."
+description: Vous pouvez créer un contrat de service manuellement ou à partir d'un devis contrat de service. Vous pouvez créer un contrat en fonction d'un devis contrat de service.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 8f27a27941130a56f8ad1c1c5ef22d3e448e455b
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821665"
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Utiliser des contrats de service et des devis contrat de service
 Vous pouvez créer un contrat de service manuellement ou à partir d'un devis contrat de service. Vous pouvez utiliser un devis contrat de service en tant qu'étape préliminaire d'un contrat de service, dans laquelle votre société fait une offre au client et qui nécessite d'obtenir l'approbation du client pour pouvoir être convertie en contrat de service. Les procédures de création d'un contrat de service ou d'un devis contrat de service sont identiques.  
@@ -202,4 +202,3 @@ Vous pouvez archiver à tout moment des contrats de service et des devis contrat
 [Configurer des contrats de service](service-how-setup-service-contracts.md)  
 [Gestion des services](service-service.md)  
 [Convertir les contrats de service incluant des montants TVA](service-how-to-convert-service-contracts.md)  
-

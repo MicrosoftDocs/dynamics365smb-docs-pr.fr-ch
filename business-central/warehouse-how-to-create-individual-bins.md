@@ -1,23 +1,23 @@
 ---
-title: "Comment créer des emplacements | Microsoft Docs"
-description: "La méthode la plus efficace pour créer les emplacements de votre entrepôt consiste à générer des groupes d'emplacements identiques dans la feuille de création d'emplacements, mais vous pouvez également créer vos emplacements séparément."
+title: Comment créer des emplacements | Microsoft Docs
+description: La méthode la plus efficace pour créer les emplacements de votre entrepôt consiste à générer des groupes d'emplacements identiques dans la feuille de création d'emplacements, mais vous pouvez également créer vos emplacements séparément.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/22/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: c129dd63b3aabeeac15c6684f961e04bd2b08a2a
 ms.openlocfilehash: 7dc7fb43c465cc2098ceacb6f5906303fefd1f9d
-ms.contentlocale: fr-ch
-ms.lasthandoff: 01/24/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820239"
 ---
 # <a name="create-bins"></a>Créer emplacements
 La méthode la plus efficace pour créer les emplacements de votre entrepôt consiste à générer des groupes d'emplacements identiques dans la feuille de création d'emplacements, mais vous pouvez également créer vos emplacements séparément à partir de la fiche magasin. Vous pouvez également utiliser une fonction de la page **Feuille création emplacement** pour créer des emplacements automatiquement.  
@@ -79,4 +79,3 @@ Répétez l'opération pour un autre ensemble d'emplacements jusqu'à ce que vou
 [Gestion des assemblages](assembly-assemble-items.md)    
 [Détails de conception : gestion d'entrepôt](design-details-warehouse-management.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

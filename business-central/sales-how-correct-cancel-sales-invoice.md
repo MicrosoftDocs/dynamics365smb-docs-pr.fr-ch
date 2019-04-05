@@ -1,6 +1,6 @@
 ---
-title: "Corriger ou annuler une facture vente validée| Microsoft Docs"
-description: "Décrit comment corriger, annuler, ou annuler une facture vente enregistrée et lettrer un avoir vente."
+title: Corriger ou annuler une facture vente validée| Microsoft Docs
+description: Décrit comment corriger, annuler, ou annuler une facture vente enregistrée et lettrer un avoir vente.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: undo, credit memo, return
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: a74dcd8e2d0409ca7385ea8a47a78dd9a74561b6
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821332"
 ---
 # <a name="correct-or-cancel-unpaid-sales-invoices"></a>Corriger ou annuler des factures vente impayées
 Vous pouvez corriger ou annuler une facture vente validée. Cela est utile si vous faites une erreur ou si le client demande une modification.
@@ -60,4 +60,3 @@ Lorsque vous corrigez ou annulez une facture vente enregistrée, l'avoir vente d
 [Définition des ventes](sales-setup-sales.md)  
 [Envoyer des documents par e-mail](ui-how-send-documents-email.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

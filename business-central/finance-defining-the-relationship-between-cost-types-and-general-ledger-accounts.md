@@ -1,8 +1,8 @@
 ---
-title: "Définition de la relation entre les types de coûts et les comptes généraux | Microsoft Docs"
-description: "Découvrez comment définir la relation entre le type de coût et le compte général."
+title: Définition de la relation entre les types de coûts et les comptes généraux | Microsoft Docs
+description: Découvrez comment définir la relation entre le type de coût et le compte général.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: cost types, general ledger
 ms.date: 11/13/2018
 ms.author: sgroespe
 redirect_url: finance-transfer-and-post-cost-entries
+ms.openlocfilehash: f80e9b6276d26adffb5e3208ffefbf98d7f7ff96
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7709edb214804f52ee9b495c43b5302e2a23bd6b
-ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820499"
 ---
 # <a name="defining-the-relationship-between-cost-types-and-general-ledger-accounts"></a>Définition de la relation entre les types de coûts et les comptes généraux
 Une relation entre le type de coût et le compte général est créée dans le type de coût et le compte général.  
@@ -50,4 +50,3 @@ Un type de coût risque de ne pas afficher une relation avec les comptes génér
 [Paramétrage du contrôle de gestion](finance-set-up-cost-accounting.md)   
 [À propos de la comptabilité analytique](finance-about-cost-accounting.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

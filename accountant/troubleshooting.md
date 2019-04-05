@@ -1,6 +1,6 @@
 ---
-title: "Procédures de dépannage et solutions aux problèmes | Microsoft Docs"
-description: "Découvrez comment résoudre les problèmes dans Accountant Hub pour Dynamics 365."
+title: Procédures de dépannage et solutions aux problèmes | Microsoft Docs
+description: Découvrez comment résoudre les problèmes dans Accountant Hub pour Dynamics 365.
 author: edupont04
 ms.service: dynamics365-accountant
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, troubleshoot
 ms.date: 10/23/2017
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 0ebd99e9097e4c701038f3b8be7a07d1e80a4b31
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821051"
 ---
 # <a name="troubleshooting-include-d365acclongincludesd365acclongmdmd"></a>Dépannage de [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
@@ -49,4 +49,3 @@ Lorsque vous ajoutez un client ou que vous demandez une actualisation des donné
 ## <a name="see-also"></a>Voir aussi
 [Mise en route avec [!INCLUDE[d365acc](includes/d365acc_md.md)]](get-started.md)  
 [Ajouter des clients à votre tableau de bord dans [!INCLUDE[d365acc](includes/d365acc_md.md)]](add-client.md)  
-

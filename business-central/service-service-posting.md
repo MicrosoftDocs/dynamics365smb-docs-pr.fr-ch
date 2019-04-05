@@ -1,21 +1,21 @@
 ---
 title: Validation de service | Microsoft Docs
-description: "La fonctionnalité de validation de service vous permet de traiter vos documents efficacement et de maintenir une stratégie de service client fructueuse. Vous pouvez créer et mettre à jour des documents validés, et créer des écritures comptables dans le module Service et dans d'autres modules pour garantir une mise à jour correcte."
+description: La fonctionnalité de validation de service vous permet de traiter vos documents efficacement et de maintenir une stratégie de service client fructueuse. Vous pouvez créer et mettre à jour des documents validés, et créer des écritures comptables dans le module Service et dans d'autres modules pour garantir une mise à jour correcte.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: b5dba16cae1e767c867544cfae21e12ac7d0f933
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821393"
 ---
 # <a name="service-posting"></a>Validation de service
 La fonctionnalité de validation de service vous permet de traiter vos documents efficacement et de maintenir une stratégie de service client fructueuse. Vous pouvez créer et mettre à jour des documents validés, et créer des écritures comptables dans le module Service et dans d'autres modules pour garantir une mise à jour correcte.  
@@ -58,4 +58,3 @@ La procédure suivante utilise un exemple de facture service enregistrée ; cet
 ## <a name="see-also"></a>Voir aussi  
 [Valider des commandes de service](service-how-to-post-service-orders.md)   
 [Créer commande service](service-how-to-create-service-orders.md)
-

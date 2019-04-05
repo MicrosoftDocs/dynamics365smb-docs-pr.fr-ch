@@ -1,23 +1,23 @@
 ---
 title: Comment restreindre et autoriser l'utilisation d'un enregistrement | Microsoft Docs
-description: "Si vous souhaitez restreindre l'utilisation d'un enregistrement à certaines activités, par exemple, jusqu'à ce qu'il ait été approuvé, vous pouvez incorporer deux réponses de flux de travail dans un flux de travail qui contrôle l'utilisation de l'enregistrement."
+description: Si vous souhaitez restreindre l'utilisation d'un enregistrement à certaines activités, par exemple, jusqu'à ce qu'il ait été approuvé, vous pouvez incorporer deux réponses de flux de travail dans un flux de travail qui contrôle l'utilisation de l'enregistrement.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: a95eaa2f0933c6724b1e9158c675ad1a27e0ba2a
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820947"
 ---
 # <a name="restrict-and-allow-usage-of-a-record"></a>Restreindre et autoriser l'utilisation d'un enregistrement
 Si vous souhaitez restreindre l'utilisation d'un enregistrement à certaines activités, par exemple, jusqu'à ce qu'il ait été approuvé, vous pouvez incorporer deux réponses de flux de travail dans un flux de travail qui contrôle l'utilisation de l'enregistrement. Une réponse de flux de travail limitera l'utilisation de l'enregistrement telle que définie par l'événement et les conditions du flux de travail. Une autre réponse de flux de travail autorisera l'utilisation de l'enregistrement telle que définie par l'événement et les conditions du flux de travail. Deux réponses existent dans la version générique de [!INCLUDE[d365fin](includes/d365fin_md.md)] à cet effet : **Restreindre l'utilisation d'un enregistrement** et **Autoriser l'utilisation d'un enregistrement**.
@@ -43,4 +43,3 @@ La procédure suivante explique comment restreindre la validation de commandes d
 ## <a name="see-also"></a>Voir aussi  
 [Créer des workflows](across-how-to-create-workflows.md)   
 [Flux de travail](across-workflow.md)   
-

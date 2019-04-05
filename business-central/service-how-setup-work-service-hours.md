@@ -1,23 +1,23 @@
 ---
-title: "Procédure de configuration des heures de travail et des heures de service | Microsoft Docs"
-description: "Vous pouvez spécifier les heures de travail service habituelles de votre société. Ces heures de service sont utilisées pour calculer la date et l'heure de réponse des commandes et des devis service, et envoyer des alertes relatives au délai de réponse."
+title: Procédure de configuration des heures de travail et des heures de service | Microsoft Docs
+description: Vous pouvez spécifier les heures de travail service habituelles de votre société. Ces heures de service sont utilisées pour calculer la date et l'heure de réponse des commandes et des devis service, et envoyer des alertes relatives au délai de réponse.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 223d69df17dad2a1309d333fc64be8b208262530
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821268"
 ---
 # <a name="set-up-work-hours-and-service-hours"></a>Configurer des heures de travail et des heures de service
 Généralement, un système de gestion de services suit les heures ressource et les statuts commande service afin de prévoir les besoins en charges de travail et en service. [!INCLUDE[d365fin](includes/d365fin_md.md)] intègre des outils que vous pouvez personnaliser afin d'enregistrer ce type d'informations.  
@@ -60,4 +60,3 @@ Si vous ne configurez pas d'heures de service spécifiques pour le contrat de se
 [Description du statut d'affectation et l'état réparation](service-allocation-status-and-repair-status.md)  
 [Paramétrage de la gestion des services](service-setup-service.md)  
 [Description des commandes service et de l'état réparation](service-order-repair-status.md)  
-

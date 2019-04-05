@@ -1,23 +1,23 @@
 ---
-title: "Procédure de configuration d'une société avec l’assistant RapidStart | Microsoft Docs"
-description: "Vous pouvez rapidement configurer une nouvelle société que vous avez créée à l’aide de l’assistant de configuration de RapidStart Services."
+title: Procédure de configuration d'une société avec l’assistant RapidStart | Microsoft Docs
+description: Vous pouvez rapidement configurer une nouvelle société que vous avez créée à l’aide de l’assistant de configuration de RapidStart Services.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 63120671100b7caac7f3cb08bd3fbbcd1d29ff5c
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 4dd595fabbf8e4cd2a3eef73a934922dfea92858
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821104"
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Configurer une société avec l'assistant RapidStart
 Vous pouvez rapidement configurer une nouvelle société que vous avez créée à l’aide de l’assistant de configuration de RapidStart Services.
@@ -33,7 +33,7 @@ Dans la procédure suivante, vous avez fourni au client un package configuration
 
     1. Appliquez la configuration en sélectionnant l'action **Appliquer package**. Il importe le package configuration et applique toutes les données de base de données de package simultanément.  
 
-    2. Relisez la configuration après son application. Cette option vous permet d’étudier les détails de la configuration et les questionnaires fournis par le partenaire et d’importer des données de base requises pour votre société. Sélectionnez l'action **Feuille configuration**. Pour plus d'informations, voir la section « Pour remplir le questionnaire de configuration » dans [Collecter les valeurs de configuration client](admin-gather-customer-setup-values.md).  
+    2. Relisez la configuration après son application. Cette option vous permet d’étudier les détails de la configuration et les questionnaires fournis par le partenaire et d’importer des données de base requises pour votre société. Sélectionnez l'action **Feuille configuration**. Pour plus d’informations, voir [Pour remplir le questionnaire de configuration](admin-gather-customer-setup-values.md#to-complete-the-configuration-questionnaire).  
 
 6. Développez le raccourci **Étape 5**. Spécifiez quel Tableau de bord sera la valeur par défaut pour la nouvelle société.  
 
@@ -51,4 +51,3 @@ Vous avez configuré la société, et des données ont été appliquées.
 [Appliquer des configurations aux nouvelles sociétés](admin-apply-configuration-to-new-companies.md)  
 [Configuration d'une société avec RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)
-

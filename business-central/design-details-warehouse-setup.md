@@ -1,21 +1,21 @@
 ---
-title: "Détails de conception - Paramètres entrepôt | Microsoft Docs"
-description: "La fonctionnalité d'entrepôt dans Business Central contient différents niveaux de complexité, tels que définis par les autorisations de licence dans les granules proposés. Le niveau de complexité dans une solution entrepôt est en grande partie défini par le paramétrage des emplacements sur les fiches magasin, qui est lui-même contrôlé par licence afin que l'accès aux champs de configuration de l'emplacement soit défini par la licence."
+title: Détails de conception - Paramètres entrepôt | Microsoft Docs
+description: La fonctionnalité d'entrepôt dans Business Central contient différents niveaux de complexité, tels que définis par les autorisations de licence dans les granules proposés. Le niveau de complexité dans une solution entrepôt est en grande partie défini par le paramétrage des emplacements sur les fiches magasin, qui est lui-même contrôlé par licence afin que l'accès aux champs de configuration de l'emplacement soit défini par la licence.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 0c813187ee6d11fcdb729cb64048386238406528
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821088"
 ---
 # <a name="design-details-warehouse-setup"></a>Détails de conception : paramètres entrepôt
 La fonctionnalité d'entrepôt dans [!INCLUDE[d365fin](includes/d365fin_md.md)] contient différents niveaux de complexité, tels que définis par les autorisations de licence dans les granules proposés. Le niveau de complexité dans une solution entrepôt est en grande partie défini par le paramétrage des emplacements sur les fiches magasin, qui est lui-même contrôlé par licence afin que l'accès aux champs de configuration de l'emplacement soit défini par la licence. En outre, les objets applicatifs de la licence déterminent le document d'interface utilisateur à utiliser pour les activités entrepôt prises en charge.  
@@ -130,4 +130,3 @@ Le modèle rangement peut être affecté à un article et à un magasin. Le mod�
 ## <a name="see-also"></a>Voir aussi  
 [Détails de conception : gestion d'entrepôt](design-details-warehouse-management.md)   
 [Détails de conception : disponibilité dans l'entrepôt](design-details-availability-in-the-warehouse.md)
-

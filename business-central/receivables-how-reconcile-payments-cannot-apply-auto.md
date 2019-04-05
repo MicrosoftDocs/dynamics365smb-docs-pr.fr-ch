@@ -1,6 +1,6 @@
 ---
-title: "Utilisation de la fonction Transférer la différence vers un compte pour rapprocher les paiements | Microsoft Docs'"
-description: "Décrit comment traiter les paiements qui ne peuvent pas être lettrés dans un document, par exemple lorsqu'un taux de change entraîne un changement de montants."
+title: Utilisation de la fonction Transférer la différence vers un compte pour rapprocher les paiements | Microsoft Docs'
+description: Décrit comment traiter les paiements qui ne peuvent pas être lettrés dans un document, par exemple lorsqu'un taux de change entraîne un changement de montants.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts
-ms.date: 10/01/2018
+ms.date: 03/05/2019
 ms.author: sgroespe
+ms.openlocfilehash: 7d952f46d5e688fe1b86077723a0482c91995661
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 519696376cba2e494ad83b3e1bce442de8299884
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821275"
 ---
 # <a name="reconcile-payments-that-cannot-be-applied-automatically"></a>Rapprocher les paiements qui ne peuvent pas être lettrés automatiquement
 Vous serez parfois amené à gérer des paiements sur votre compte bancaire, qui ne peuvent pas être lettrés à un client, un fournisseur ou une écriture comptable compte bancaire ouvertes associées. Les motifs peuvent être qu'il n'existe dans [!INCLUDE[d365fin](includes/d365fin_md.md)] aucun document auquel le paiement puisse être lettré, ou que le document associé dans [!INCLUDE[d365fin](includes/d365fin_md.md)] affiche un montant différent du montant de la transaction, par exemple, en raison du taux de change. Sur la page **Feuille rapprochement bancaire**, tous les montants de transaction pour les paiements qui n'ont pas encore été lettrés s'affichent dans le champ **Différence**, y compris les montants qui ne peuvent pas être lettrés pour des motifs tels que celui qui précède.
@@ -30,7 +30,7 @@ Pour rapprocher de tels paiements, vous pouvez cliquer sur le bouton **Transfér
 > [!TIP]  
 >   Il existe une fonctionnalité similaire permettant de configurer le rapprochement automatique des paiements récurrents qui ne peuvent pas être lettrés aux écritures comptables client, fournisseur ou compte bancaire ouvertes associées. Pour plus d'informations, reportez-vous à [Mapper du texte sur les paiements récurrents aux comptes pour un rapprochement automatique](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
 
-## <a name="to-reconcile-payments-that-cannot-be-applied"></a>Pour rapprocher les paiements qui ne peuvent pas être lettrés
+## <a name="to-reconcile-payments-that-cannot-be-applied-automatically"></a>Pour rapprocher les paiements qui ne peuvent pas être lettrés automatiquement
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles rapprochement bancaire**, puis sélectionnez le lien associé.
 2. Ouvrez une feuille de rapprochement de paiement. Pour plus d'informations, voir [Rapprocher les paiements à l'aide du lettrage automatique](receivables-how-reconcile-payments-auto-application.md).
 3. Sélectionnez l'action **Transférer la différence vers un compte**. La page **Transférer la différence vers un compte** s'ouvre.
@@ -47,4 +47,3 @@ Si la valeur du champ **Différence** était inférieure à la valeur du champ *
 [Gestion des comptes client](receivables-manage-receivables.md)  
 [Ventes](sales-manage-sales.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

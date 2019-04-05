@@ -1,8 +1,8 @@
 ---
-title: "Paramétrage de la gestion des services | Microsoft Docs"
-description: "Aperçu des tâches de paramétrage de la gestion des services en fonction de la manière dont vos partenaires gère leurs services."
+title: Paramétrage de la gestion des services | Microsoft Docs
+description: Aperçu des tâches de paramétrage de la gestion des services en fonction de la manière dont vos partenaires gère leurs services.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,14 +12,13 @@ ms.workload: na
 ms.search.keywords: service, service items, repairs, maintenance, fix
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: c4b8287c8e1c056bd45a30376e96aca1f8f4ddcc
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 772022a8224ff81e332783d95e6cd27500a306fa
-ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820567"
 ---
-
 # <a name="setting-up-service-management"></a>Paramétrage de la gestion des services
 Avant de pouvoir démarrer l'utilisation des fonctionnalités de gestion des services dans [!INCLUDE[d365fin](includes/d365fin_md.md)], il y a quelques éléments à configurer. Par exemple, vous pouvez établir le codage des services standard, les codes symptôme et panne, ainsi que configurer les articles de service et les types d'article de service requis par le service clientèle.  
 
@@ -47,4 +46,3 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 ## <a name="see-also"></a>Voir aussi .
 [Gestion des services](service-service.md)  
 [Mise en route](product-get-started.md)  
-

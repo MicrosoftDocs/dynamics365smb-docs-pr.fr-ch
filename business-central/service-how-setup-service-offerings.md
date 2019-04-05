@@ -1,8 +1,8 @@
 ---
 title: Configurer des offres de service | Microsoft Docs
-description: "Découvrez comment configurer les services que vous proposez à vos clients."
+description: Découvrez comment configurer les services que vous proposez à vos clients.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,14 +12,13 @@ ms.workload: na
 ms.search.keywords: components, service item, service
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 93afb98600552e58640d5aa12fa91efd15afebfb
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 25aea9e2709f0cea32844d60e0dff7ab34c5796b
-ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821205"
 ---
-
 # <a name="set-up-service-offerings"></a>Configurer des offres de service
 Lorsque vous configurez la gestion des services, vous devez choisir les services que vous allez fournir aux clients et les planifier. Un service correspond à un type de travail exécuté par une ou plusieurs ressources et fourni à un client. Ce peut être un type de réparation informatique. Un article de service correspond à l'équipement ou l'article nécessitant une maintenance : par exemple, un ordinateur à réparer, installé chez un client spécifique. Vous pouvez configurer des services afin de les intégrer au groupe d'articles de réparation ou de maintenance associés.  
   

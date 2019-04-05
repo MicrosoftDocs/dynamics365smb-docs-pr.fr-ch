@@ -1,25 +1,24 @@
 ---
 title: Configurer le reporting panne dans la Gestion des services | Microsoft Docs
-description: "Découvrez comment configurer les processus de reporting panne."
+description: Découvrez comment configurer les processus de reporting panne.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 7c25c4858600d959024dcbdba2ce5d0f7e3ad4c8
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820836"
 ---
-
 # <a name="set-up-fault-reporting"></a>Configurer le reporting panne
 Le reporting panne permet d'établir des normes d'enregistrement des informations de panne pour les articles de service. Par exemple, vous pouvez spécifier la nature du problème, les symptômes visibles, le motif du problème et la solution pour le résoudre.  
 
@@ -49,4 +48,3 @@ Pour terminer la configuration du reporting panne, vous pouvez également spéci
 ## <a name="see-also"></a>Voir aussi
 [Paramétrage de la gestion des services](service-setup-service.md)  
 [Gestion des services](service-service.md)  
-

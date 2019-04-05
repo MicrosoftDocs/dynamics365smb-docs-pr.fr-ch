@@ -1,6 +1,6 @@
 ---
-title: "Transfert d'articles entre des magasins entrepôt| Microsoft Docs"
-description: "Décrit comment déplacer un stock d'un emplacement ou d'un entrepôt à un autre soit avec la feuille reclassement soit à l'aide des ordres de transfert."
+title: Transfert d'articles entre des magasins entrepôt| Microsoft Docs
+description: Décrit comment déplacer un stock d'un emplacement ou d'un entrepôt à un autre soit avec la feuille reclassement soit à l'aide des ordres de transfert.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: move, warehouse
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: SorenGP
+ms.openlocfilehash: bf0687d5b3000dde609c1eca29a0f2534d384ada
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: b3cbf41f5c803eb8d992d67e9e880759c247298e
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820670"
 ---
 # <a name="transfer-inventory-between-locations"></a>Transfert de stock entre des magasins
 Vous pouvez transférer des articles en stock entre des magasins en créant des ordres de transfert. Vous pouvez également utiliser la feuille reclassement article.
@@ -25,7 +25,7 @@ Avec des ordres de transfert, vous pouvez expédier un transfert désenlogement 
 Avec la feuille reclassement, il vous suffit de renseigner les champs **Code magasin** et **Nouveau code magasin**. Lorsque vous validez la feuille, les écritures comptables article sont ajustées dans les magasins en question. Avec cette méthode, les activités entrepôt ne sont pas traitées.
 
 > [!NOTE]  
->   Si vous avez des articles stockés dans votre stock sans code magasin, par exemple datant d'une période où vous n'aviez qu'un seul entrepôt, vous ne pouvez pas transférer ces articles en utilisant des ordres de transfert. Au lieu de cela, vous devez utiliser la feuille reclassement pour reclasser les articles à partir d'un code magasin vide ver un code d'emplacement réel.  Pour plus d'informations, voir l'étape 3 dans la section « Pour transférer des articles avec la feuille reclassement article ».
+>   Si vous avez des articles stockés dans votre stock sans code magasin, par exemple datant d'une période où vous n'aviez qu'un seul entrepôt, vous ne pouvez pas transférer ces articles en utilisant des ordres de transfert. Au lieu de cela, vous devez utiliser la feuille reclassement pour reclasser les articles à partir d'un code magasin vide ver un code d'emplacement réel.  Pour plus d'informations, voir l'étape 3 dans [Pour transférer des articles avec la feuille reclassement article](inventory-how-transfer-between-locations.md#to-transfer-items-with-the-item-reclassification-journal).
 
 Pour transférer des articles, des acheminements transfert et magasins doivent être créés. Pour plus d'informations, reportez-vous à [Configurer des magasins](inventory-how-setup-locations.md).
 
@@ -62,4 +62,3 @@ Pour transférer des articles, des acheminements transfert et magasins doivent �
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Modification des fonctionnalités affichées](ui-experiences.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)
-

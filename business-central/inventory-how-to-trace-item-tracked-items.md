@@ -1,23 +1,23 @@
 ---
-title: "Procédure de traçabilité des articles suivis | Microsoft Docs"
-description: "Vous pouvez voir où un article suivi a été utilisé, y compris le mode et le moment de réception ou de production, de transfert, de vente, de consommation ou de retour. Vous pouvez également rechercher toutes les instances d'informations d'un numéro de série ou de lot particulier dans la base de données. Vous procédez à l'aide des fonctionnalités Traçabilité et Naviguer."
+title: Procédure de traçabilité des articles suivis | Microsoft Docs
+description: Vous pouvez voir où un article suivi a été utilisé, y compris le mode et le moment de réception ou de production, de transfert, de vente, de consommation ou de retour. Vous pouvez également rechercher toutes les instances d'informations d'un numéro de série ou de lot particulier dans la base de données. Vous procédez à l'aide des fonctionnalités Traçabilité et Naviguer.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: bf16f61e5c3d6ee6af045ded8ec80e426ae6c20a
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820297"
 ---
 # <a name="trace-item-tracked-items"></a>Tracer des articles - Articles suivis
 Vous pouvez voir où un article suivi a été utilisé, y compris le mode et le moment de réception ou de production, de transfert, de vente, de consommation ou de retour. Vous pouvez également rechercher toutes les instances d'informations d'un numéro de série ou de lot particulier dans la base de données. Vous procédez à l'aide des fonctionnalités Traçabilité et Naviguer.  
@@ -72,4 +72,3 @@ Vous pouvez voir où un article suivi a été utilisé, y compris le mode et le 
 [Réserver des articles](inventory-how-to-reserve-items.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 [Procédure pas à pas : suivi des numéros de série et des numéros de lot](walkthrough-tracing-serial-lot-numbers.md)
-

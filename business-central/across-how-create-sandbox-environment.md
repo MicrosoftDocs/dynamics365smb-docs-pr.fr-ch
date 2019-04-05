@@ -1,6 +1,6 @@
 ---
-title: "Créer un environnement Sandbox | Microsoft Docs"
-description: "Créez un environnement à des fins d'exploration, d'apprentissage, de démonstration, de développement et de test."
+title: Créer un environnement Sandbox | Microsoft Docs
+description: Créez un environnement à des fins d'exploration, d'apprentissage, de démonstration, de développement et de test.
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 10/01/2018
+ms.date: 02/15/2019
 ms.author: solsen
+ms.openlocfilehash: 91db02673c1e408927d9863af9ec6751bc33e480
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
-ms.openlocfilehash: 81eb819295a8d2b03f9c53ecd98053d0b1041faa
-ms.contentlocale: fr-ch
-ms.lasthandoff: 12/11/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821050"
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
 
@@ -27,48 +27,48 @@ Vous devez disposer d'un abonnement à [!INCLUDE[d365fin](includes/d365fin_md.md
 
 1. Connectez-vous à votre instance de production du service [!INCLUDE[d365fin](includes/d365fin_md.md)].
 2. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Environnement Sandbox**, puis choisissez le lien associé.
-![Configuration de l'environnement Sandbox](./media/across-sandbox/sandbox-environment-setup.png)
+<!-- ![Sandbox Environment Setup](./media/across-sandbox/sandbox-environment-setup.png) -->
 3. Sélectionnez **Créer**.  
   Un autre onglet de votre navigateur s'ouvre pour vous permettre de terminer la configuration de votre environnement Sandbox.
 > [!NOTE]  
 >  Si le bloqueur de fenêtres publicitaires est activé dans votre navigateur, modifiez-le pour autoriser les URL provenant de l'adresse *.businesscentral.dynamics.com.   
 
 4. Lorsque l'environnement Sandbox est prêt, vous êtes redirigé vers l'assistant Bienvenue de l'environnement Sandbox.
-![Assistant Bienvenue de l'environnement Sandbox](./media/across-sandbox/sandbox-wizard.png)
+<!-- ![Sandbox Welcome Wizard](./media/across-sandbox/sandbox-wizard.png) -->
 
 5. Sélectionnez **En savoir plus** pour découvrir les scénarios que vous pouvez tester dans un environnement Sandbox. Sinon, sélectionnez **Fermer** pour accéder au tableau de bord de votre instance Sandbox [!INCLUDE[d365fin](includes/d365fin_md.md)].
 6. En haut du tableau de bord, une notification s'affiche pour vous informer qu'il s'agit d'un environnement Sandbox. Vous pouvez également voir le type de l'environnement dans la barre de titre du client.
-![Notification du tableau de bord Sandbox](./media/across-sandbox/sandbox-rolecenter-notification.png)  
+<!-- ![Sandbox RoleCenter Notification](./media/across-sandbox/sandbox-rolecenter-notification.png) --> 
 Dans l'environnement Sandbox, un nouvel abonné a été créé. Cet abonné est chargé avec les données de démonstration par défaut de la société CRONUS. Aucune donnée n'est copiée ou transférée à partir de l'environnement de production lors de la création de l'environnement Sandbox.
-7.  À tout moment, vous pouvez revenir à la page **Environnement Sandbox** et réinitialiser l'environnement Sandbox.
+
+7. À tout moment, vous pouvez revenir à la page **Environnement Sandbox** et réinitialiser l'environnement Sandbox.
 > [!NOTE]  
 >  La réinitialisation de l'environnement Sandbox entraîne sa suppression complète et sa recréation avec les données de démonstration par défaut.  
 
-8.  Pour permuter entre vos environnements de production et Sandbox, vous pouvez utiliser le lanceur d'applications Business Central.
-![Menu Dynamics 365 de l'environnement Sandbox](./media/across-sandbox/sandbox-dynamics365-menu.png)
+8. Pour permuter entre vos environnements de production et Sandbox, vous pouvez utiliser le lanceur d'applications Business Central.
+<!-- ![Sandbox Dynamics365 Menu](./media/across-sandbox/sandbox-dynamics365-menu.png) -->
 
-9.  Un administrateur ou un autre utilisateur peut limiter ou même bloquer l'accès de certains utilisateurs à l'environnement Sandbox. Ceci peut être effectué à l'aide des fonctions de sécurité standard du produit, telles que la fiche utilisateur, les groupes d'utilisateurs et les ensembles d'autorisations.
+9. Un administrateur ou un autre utilisateur peut limiter ou même bloquer l'accès de certains utilisateurs à l'environnement Sandbox. Ceci peut être effectué à l'aide des fonctions de sécurité standard du produit, telles que la fiche utilisateur, les groupes d'utilisateurs et les ensembles d'autorisations.
 
-![Ensembles d'autorisations Sandbox](./media/across-sandbox/sandbox-permission-sets.png)
+<!-- ![Sandbox Permission Sets](./media/across-sandbox/sandbox-permission-sets.png) -->
 
 ## <a name="advanced-functionality-in-the-sandbox-environment"></a>Fonctionnalités avancées de l'environnement Sandbox
-### <a name="the-in-client-designer"></a>Éditeur interne du client
-Dans un environnement Sandbox, la fonctionnalité Éditeur interne du client peut être activée en sélectionnant l'icône de conception ![Éditeur](./media/across-sandbox/sandbox-inclient-design-icon.png) sur une page.
+### <a name="designer"></a>Concepteur
+Dans un environnement Sandbox, la fonctionnalité **Éditeur** peut être activée en sélectionnant l'icône de conception ![Éditeur](./media/across-sandbox/sandbox-inclient-design-icon.png) sur la page.
 
-![Éditeur interne du client](./media/across-sandbox/sandbox-inclient-designer.png)
+<!-- ![In-client Designer](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
 ### <a name="enable-the-advanced-user-experience"></a>Activer l'expérience utilisateur avancée
 Il est possible d'activer et de tester la fonctionnalité (complète) avancée de [!INCLUDE[d365fin](includes/d365fin_md.md)] dans un abonné Sandbox en définissant le champ **Expérience** sur la page **Informations société**.
 
-![Expérience avancée dans l'environnement Sandbox](./media/across-sandbox/sandbox-advanced.png)
+<!-- ![Sandbox Environment Advanced](./media/across-sandbox/sandbox-advanced.png) -->
 
-![Sandbox/Production](./media/across-sandbox/sandbox-production.png)
+<!-- ![Sandbox Production](./media/across-sandbox/sandbox-production.png) -->
 
 Une fois que vous avez activé la fonctionnalité avancée dans un abonné Sandbox, vous avez accès à tous les profils et tableaux de bord standard. Vous pouvez également créer une société d'évaluation qui est entièrement configurée, notamment les données de démonstration et l'accès aux zones avancées du produit.
 
-![Nouvelle société Sandbox](./media/across-sandbox/sandbox-newcompany.png)
+<!-- ![Sandbox New Company](./media/across-sandbox/sandbox-newcompany.png) -->
 
 
 ## <a name="see-also"></a>Voir aussi
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

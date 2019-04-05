@@ -1,8 +1,8 @@
 ---
-title: "Méthodes d'amortissement| Microsoft Docs"
-description: "En savoir plus sur les différentes méthodes pour amortir ou déprécier des immobilisations."
+title: Méthodes d'amortissement| Microsoft Docs
+description: En savoir plus sur les différentes méthodes pour amortir ou déprécier des immobilisations.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 4a6bc27850b84928641f5de7c364fb150fcb4481
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821336"
 ---
 # <a name="depreciation-methods"></a>Méthodes d'amortissement
 Huit méthodes d'amortissement sont disponibles :  
@@ -310,7 +310,7 @@ Les écritures comptables immobilisation se présentent comme suit :
 
 | Date | Type compta. immo. | Jours | Montant | Valeur comptable |
 | --- | --- | --- | --- | --- |
-| 01/11/10 |Coût acquisition |* |10 000,00 |10 000,00 |
+| 01/11/10 |Coût acquisition |* |100 000,00 |100 000,00 |
 | 31/12/10 |Amortissements |60 |-20 000,00 |80,000.00 |
 | 31/12/11 |Amortissements |360 |-32 000,00 |48,000.00 |
 | 31/12/12 |Amortissements |360 |-19 200,00 |28,800.00 |
@@ -357,4 +357,3 @@ Lorsque vous saisissez une écriture pour A1 dans la feuille validation immobili
 [Finances](finance.md)  
 [Mise en route](product-get-started.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

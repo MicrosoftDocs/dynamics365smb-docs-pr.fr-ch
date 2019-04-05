@@ -1,21 +1,21 @@
 ---
-title: "Réception et rangement dans l'entreposage avancé | Microsoft Docs"
-description: "Dans Business Central, les processus entrants de réception et de rangement peuvent être effectués de quatre manières, à l'aide de différentes fonctionnalités en fonction du niveau de complexité de l'entrepôt."
+title: Réception et rangement dans l'entreposage avancé | Microsoft Docs
+description: Dans Business Central, les processus entrants de réception et de rangement peuvent être effectués de quatre manières, à l'aide de différentes fonctionnalités en fonction du niveau de complexité de l'entrepôt.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
 ms.openlocfilehash: 8d9ce13690a1db0e06d3ea204b0c95ac7cb21d33
-ms.contentlocale: fr-ch
-ms.lasthandoff: 01/31/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820608"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Procédure pas à pas : Réception et rangement dans les configurations de stockage avancées
 
@@ -159,4 +159,3 @@ Sur la page **Rangement entrepôt**, vous pouvez gérer les rangements pour un d
  [Détails de conception : flux d'enlogement](design-details-inbound-warehouse-flow.md)   
  [Procédure pas à pas : Réception et rangement dans les configurations de stockage de base](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)   
  [Procédures pas à pas liées au processus entreprise](walkthrough-business-process-walkthroughs.md)
-

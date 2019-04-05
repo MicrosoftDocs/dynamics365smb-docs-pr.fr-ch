@@ -1,8 +1,8 @@
 ---
-title: "Configurer des niveaux hiérarchiques pour les contacts| Microsoft Docs"
-description: "Vous pouvez définir un niveau hiérarchique et l'affecter à vos contacts pour indiquer leur position au sein de leur société, par exemple, la direction générale."
+title: Configurer des niveaux hiérarchiques pour les contacts| Microsoft Docs
+description: Vous pouvez définir un niveau hiérarchique et l'affecter à vos contacts pour indiquer leur position au sein de leur société, par exemple, la direction générale.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: relationship, client, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
+ms.openlocfilehash: be0bde09790c68730167709e1e82562a9a39c4e6
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 44da3ed8f78dd685000e5ec27d43e1bb3a5959ba
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820977"
 ---
 # <a name="set-up-organizational-levels-for-contact-persons"></a>Configurer des niveaux hiérarchiques pour les personnes contact
 Vous pouvez utiliser les niveaux hiérarchiques sur vos contacts pour qu'ils précisent leur position au sein de la société, par exemple, la direction générale. Vous pouvez utiliser ces informations lors de la saisie de données sur vos contacts.
@@ -42,7 +42,5 @@ Une fois que vous avez affecté des niveaux hiérarchiques à vos contacts, vous
 Une fois que vous avez affecté des responsabilités à vos contacts, vous pouvez utiliser ces informations pour sélectionner des contacts pour vos segments. Pour plus d'informations, reportez-vous à [Ajouter des contacts à des segments](marketing-add-contact-segment.md).
 
 ## <a name="see-also"></a>Voir aussi
-[Création de sociétés contact](marketing-create-contact-companies.md)  
-[Création de personnes contact](marketing-create-contact-persons.md)  
+[Création de contacts](marketing-create-contact-companies.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

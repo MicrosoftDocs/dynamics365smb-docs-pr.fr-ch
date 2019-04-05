@@ -1,23 +1,23 @@
 ---
-title: "À propos de l'évaluation du stock | Microsoft Docs"
-description: "La gestion des coûts ajustés fait référence à l'enregistrement et la déclaration des coûts d'exploitation de l'entreprise. Cette activité inclut la déclaration des coûts de fabrication et de stock qui constituent la valeur des articles."
+title: À propos de l'évaluation du stock | Microsoft Docs
+description: La gestion des coûts ajustés fait référence à l'enregistrement et la déclaration des coûts d'exploitation de l'entreprise. Cette activité inclut la déclaration des coûts de fabrication et de stock qui constituent la valeur des articles.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 89769cf8ad8299c32805bf15b1cc447dac8beabc
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8b36555e2853eb46c49aca4c4737e27d39fee929
-ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821074"
 ---
 # <a name="about-inventory-costing"></a>À propos de l'évaluation des coûts de stock
 La gestion des coûts ajustés fait référence à l'enregistrement et la déclaration des coûts d'exploitation de l'entreprise. Cette activité inclut la déclaration des coûts de fabrication et de stock qui constituent la valeur des articles.  
@@ -43,4 +43,3 @@ La gestion des coûts ajustés fait référence à l'enregistrement et la décla
 ## <a name="see-also"></a>Voir aussi
 [Gestion des coûts ajustés](finance-manage-inventory-costs.md)    
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,6 +1,6 @@
 ---
-title: "Corriger ou annuler des factures achat impayées | Microsoft Docs"
-description: "Explique comment corriger ou annuler une facture achat validée et créer automatiquement un avoir achat."
+title: Corriger ou annuler des factures achat impayées | Microsoft Docs
+description: Explique comment corriger ou annuler une facture achat validée et créer automatiquement un avoir achat.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: undo, credit memo, return
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 275b81fa2f4170208b166645a9b8778c1e6406a5
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820741"
 ---
 # <a name="correct-or-cancel-unpaid-purchase-invoices"></a>Corriger ou annuler des factures achat impayées
 Vous pouvez corriger ou annuler une facture achat validée. Cela est utile si vous souhaitez corriger une erreur de saisie, ou si vous souhaitez modifier l'achat assez tôt dans le processus de commande.
@@ -52,4 +52,3 @@ Sur la page **Facture achat enregistrée**, vous pouvez cliquer sur le bouton **
 [Achats](purchasing-manage-purchasing.md)  
 [Enregistrer des achats](purchasing-how-record-purchases.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

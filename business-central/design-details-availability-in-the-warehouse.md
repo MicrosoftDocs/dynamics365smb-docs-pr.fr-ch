@@ -1,23 +1,23 @@
 ---
-title: "Détails de conception - disponibilité dans l'entrepôt | Microsoft Docs"
-description: "Le système doit conserver un contrôle constant de la disponibilité des articles dans l'entrepôt, afin que les commandes sortantes puissent s'écouler efficacement et fournir des livraisons optimales."
+title: Détails de conception - disponibilité dans l'entrepôt | Microsoft Docs
+description: Le système doit conserver un contrôle constant de la disponibilité des articles dans l'entrepôt, afin que les commandes sortantes puissent s'écouler efficacement et fournir des livraisons optimales.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 5fd4bedcef6fcec79b1b2c8744c7c08d8170d97e
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820210"
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Détails de conception : disponibilité dans l'entrepôt
 Le système doit conserver un contrôle constant de la disponibilité des articles dans l'entrepôt, afin que les commandes sortantes puissent s'écouler efficacement et fournir des livraisons optimales.  
@@ -73,4 +73,3 @@ Le système doit conserver un contrôle constant de la disponibilité des articl
 
 ## <a name="see-also"></a>Voir aussi  
  [Détails de conception : gestion d'entrepôt](design-details-warehouse-management.md)
-

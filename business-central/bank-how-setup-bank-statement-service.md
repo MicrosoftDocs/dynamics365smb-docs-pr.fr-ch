@@ -1,8 +1,8 @@
 ---
 title: Configurer le flux de la Yodlee Bank| Microsoft Docs
-description: "Vous pouvez convertir les informations paiement dans n'importe quel format de données que votre banque nécessite et activer l'exportation ou l'importation des fichiers bancaires."
+description: Vous pouvez convertir les informations paiement dans n'importe quel format de données que votre banque nécessite et activer l'exportation ou l'importation des fichiers bancaires.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
-ms.date: 10/01/2018
+ms.date: 02/26/2019
 ms.author: sgroespe
+ms.openlocfilehash: ea1641dd475d28fb02dda354bbf287d508e96854
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 30c0e6ebface6ccfd65cab6bd2ce97a09044ff42
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821595"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Configurer le service de flux de la Envestnet Yodlee Bank
 Vous pouvez importer des relevés bancaires électroniques auprès de votre banque pour renseigner rapidement la page **Feuille rapprochement bancaire** de sorte à pouvoir lettrer les paiements et rapprocher le compte bancaire. Pour plus d'informations, reportez-vous à [Lettrage automatique des paiements et rapprochement des comptes bancaires](receivables-apply-payments-auto-reconcile-bank-accounts.md).
@@ -25,7 +25,8 @@ Vous pouvez importer des relevés bancaires électroniques auprès de votre banq
 Le service de flux de la banque Envestnet Yodlee est installé comme une extension de [!INCLUDE[d365fin](includes/d365fin_md.md)] et est prêt à être activé. Pour plus d'informations, voir [Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md).
 
 > [!NOTE]
-> Le service Envestnet Yodlee Bank Feeds n'est pris en charge qu'aux États-Unis, au Canada et au Royaume-Uni.
+> Le service Envestnet Yodlee Bank Feeds n'est pris en charge qu'aux États-Unis, au Canada et au Royaume-Uni.<br /><br />
+> La fonctionnalité est seulement prise en charge dans la version en ligne de Business Central. Pour utiliser cette fonctionnalité sur site, vous devez obtenir un compte de cobrand d'Envestnet Yodlee.
 
 Une fois que vous avez activé le service de flux bancaire, vous devez lier le compte bancaire au compte bancaire en ligne à partir duquel proviendra le flux. Vous liez des comptes bancaires à des comptes bancaires en ligne dans chacun des scénarios suivants :
 
@@ -46,6 +47,9 @@ Lorsque le service de flux bancaire est activé, vous pouvez configurer un compt
 
 Le service de flux bancaire est activé lorsque vous liez un compte bancaire à son compte bancaire en ligne connexe. Consultez la procédure suivante.  
 
+> [!NOTE]
+> Si vous utilisez le guide de configuration assistée **Configuration de la société**, vous activez le service en activant la case à cocher **Utilisez un service de flux bancaire**. Pour plus d'informations, voir [Création de sociétés dans Business Central](about-new-company.md).
+
 ## <a name="to-create-a-new-linked-bank-account"></a>Pour créer un compte bancaire lié
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Comptes bancaires**, puis sélectionnez le lien associé.
 2. Sélectionnez le compte bancaire approprié, puis sélectionnez **Créer un compte bancaire lié**. La page **Comptes bancaires liés** s'ouvre au bout de quelques instants.
@@ -61,7 +65,7 @@ Le service de flux bancaire est activé lorsque vous liez un compte bancaire à 
     > Si vous disposez de plusieurs comptes bancaires en ligne dans cette banque, vous devez créer des comptes bancaires supplémentaires pour ceux-ci dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Voir les étapes 8 à 10.  
 
     À la fin du processus, le nom de la banque s'affiche dans le volet **Mes comptes** sur l'onglet **Lié**. Le numéro entre parenthèses indique le nombre de comptes bancaires en ligne ayant été liés.  
-7. Cliquez sur le bouton **OK**.
+7. Choisissez le bouton **OK**.
 
     Si vous liez un seul compte bancaire en ligne, la page **Fiche compte bancaire archivé** s'ouvre et affiche le nom du compte bancaire en ligne. Dans ce cas, la tâche de liaison de compte bancaire est terminée. Il ne vous reste plus qu'à configurer le compte bancaire. Pour plus d'informations, reportez vous à [Configuration de comptes bancaires](bank-how-setup-bank-accounts.md).
 
@@ -120,4 +124,3 @@ Toutes les heures, la page **Feuille rapprochement bancaire** affichera les nouv
 [Lettrage automatique des paiements et rapprochement des comptes bancaires](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

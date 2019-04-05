@@ -1,8 +1,8 @@
 ---
-title: "Utiliser les clés de ventilation dans les feuilles comptabilité | Microsoft Docs"
-description: "En savoir plus sur l'utilisation des clés de ventilation dans les feuilles."
+title: Utiliser les clés de ventilation dans les feuilles comptabilité | Microsoft Docs
+description: En savoir plus sur l'utilisation des clés de ventilation dans les feuilles.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: cost accounting
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 29252df5a45d76de7bfbf5f6dd4c1235cfd65e90
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820307"
 ---
 # <a name="use-allocation-keys-in-general-journals"></a>Utiliser les clés de ventilation dans les feuilles de comptabilité
 Vous pouvez ventiler une écriture dans une feuille comptabilité dans différents comptes lorsque vous validez la feuille. La ventilation peut être effectuée par quantité, pourcentage ou montant.
@@ -47,4 +47,3 @@ Vous pouvez ventiler une écriture dans une feuille comptabilité dans différen
 [Utilisation de feuilles comptabilité](ui-work-general-journals.md)  
 [Validation des documents et des feuilles](ui-post-documents-journals.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

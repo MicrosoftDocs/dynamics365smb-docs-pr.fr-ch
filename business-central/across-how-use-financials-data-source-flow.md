@@ -1,7 +1,7 @@
 ---
-title: "Connecter vos données avec Flow| Microsoft Docs"
-description: "Vous pouvez rendre vos données Business Central disponibles sous forme de source de données et spécifier une URL OData de vos services Web pour générer un flux de travail automatisé."
-documentationcenter: 
+title: Connecter vos données avec Flow| Microsoft Docs
+description: Vous pouvez rendre vos données Business Central disponibles sous forme de source de données et spécifier une URL OData de vos services Web pour générer un flux de travail automatisé.
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: workflow, Odata, Power App, SOAP
 ms.date: 10/16/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 6f79bd9a5e3f79d4366a1a43411fe39942ac4e4f
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821416"
 ---
 # <a name="using-included365finincludesd365finmdmd-in-an-automated-workflow"></a>Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] dans un flux automatisé
 Vous pouvez utiliser vos données [!INCLUDE[d365fin](includes/d365fin_md.md)] en tant que partie du flux de travail dans Microsoft Flow.
@@ -64,7 +64,7 @@ Vous pouvez utiliser vos données [!INCLUDE[d365fin](includes/d365fin_md.md)] en
 
 Pour plus d'informations, voir [Documentation Flow](https://docs.microsoft.com/en-us/flow/getting-started).
 
-Pour résoudre les problèmes avec Microsoft Flow, voir [Résolution des problèmes : Intégration à Microsoft Flow](across-troubleshooting-how-use-financials-data-source-flow.md).
+Pour résoudre votre Microsoft Flow, voir [Résolution des problèmes : Intégration à Microsoft Flow](across-troubleshooting-how-use-financials-data-source-flow.md).
 
 ## <a name="see-also"></a>Voir aussi
 [Mise en route](product-get-started.md)  
@@ -75,4 +75,3 @@ Pour résoudre les problèmes avec Microsoft Flow, voir [Résolution des problè
 [Paramètres utilisateur approbation](across-how-to-set-up-approval-users.md)  
 [Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Finances](finance.md)  
-

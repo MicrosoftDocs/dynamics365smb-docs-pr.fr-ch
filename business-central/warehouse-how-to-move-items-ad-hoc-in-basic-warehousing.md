@@ -1,21 +1,21 @@
 ---
-title: "Comment déplacer des articles ad hoc dans les configurations de stockage de base | Microsoft Docs"
-description: "Vous pouvez être amené à déplacer des articles d'un emplacement interne vers un autre (et non vers des emplacements de réception ou d'expédition) sans demande spécifique issue d'un document origine. Vous pouvez exécuter ces mouvements ad hoc, par exemple, pour réorganiser l'entrepôt, pour acheminer des articles vers une zone d'inspection, ou pour déplacer des articles supplémentaires vers et depuis une zone de production sans qu'il existe une relation système avec le document origine de l'ordre de fabrication."
+title: Comment déplacer des articles ad hoc dans les configurations de stockage de base | Microsoft Docs
+description: Vous pouvez être amené à déplacer des articles d'un emplacement interne vers un autre (et non vers des emplacements de réception ou d'expédition) sans demande spécifique issue d'un document origine. Vous pouvez exécuter ces mouvements ad hoc, par exemple, pour réorganiser l'entrepôt, pour acheminer des articles vers une zone d'inspection, ou pour déplacer des articles supplémentaires vers et depuis une zone de production sans qu'il existe une relation système avec le document origine de l'ordre de fabrication.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 7b753f291ebc4fefee523430e1b10d091e86cd0e
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821592"
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Déplacer des articles ad hoc dans les configurations de stockage de base
 Vous pouvez être amené à déplacer des articles d'un emplacement interne vers un autre (et non vers des emplacements de réception ou d'expédition) sans demande spécifique issue d'un document origine. Vous pouvez exécuter ces mouvements ad hoc, par exemple, pour réorganiser l'entrepôt, pour acheminer des articles vers une zone d'inspection, ou pour déplacer des articles supplémentaires vers et depuis une zone de production sans qu'il existe une relation système avec le document origine de l'ordre de fabrication.  
@@ -76,4 +76,3 @@ Au lieu d'utiliser des documents mouvement entrepôt, vous pouvez enregistrer le
 [Gestion des assemblages](assembly-assemble-items.md)    
 [Détails de conception : gestion d'entrepôt](design-details-warehouse-management.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

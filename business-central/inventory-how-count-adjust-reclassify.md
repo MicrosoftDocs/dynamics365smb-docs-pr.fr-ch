@@ -1,6 +1,6 @@
 ---
 title: Inventaire, ajustement et reclassement du stock| Microsoft Docs
-description: "Décrit la manière d'effectuer un inventaire physique, faire des ajustements négatifs ou positifs, et comment modifier des informations, telles que le magasin ou le numéro de lot, sur des écritures comptables article ou des écritures entrepôt."
+description: Décrit la manière d'effectuer un inventaire physique, faire des ajustements négatifs ou positifs, et comment modifier des informations, telles que le magasin ou le numéro de lot, sur des écritures comptables article ou des écritures entrepôt.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: b0d6f0b27e9a49238ba3fa4209c38ee2e6bb7cda
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 392b997b5122d7a1419c6b134a2723644fc82cb2
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820751"
 ---
 # <a name="count-adjust-and-reclassify-inventory"></a>Inventaire, ajustement et reclassement du stock
 Vous devez effectuer un inventaire (c'est-à-dire compter tous les articles disponibles) au moins une fois par exercice pour vérifier si la quantité enregistrée dans la base de données est identique à la quantité réelle en stock dans les entrepôts. Lorsque vous connaissez la quantité physique réelle, vous devez la valider dans la comptabilité dans le cadre de l' évaluation du stock de fin d'exercice.
 
-Bien que vous comptiez tous les articles du stock au moins une fois par an, vous pouvez avoir décidé de compter certains articles plus souvent, parce qu'ils ont plus de valeur ou parce qu'ils sont très demandés et représentent une partie importante de votre activité. Pour cela, vous pouvez affecter des périodes d'inventaire spéciales à ces articles. Pour plus d'informations, reportez-vous à la section « Effectuer un inventaire tournant ».
+Bien que vous comptiez tous les articles du stock au moins une fois par an, vous pouvez avoir décidé de compter certains articles plus souvent, parce qu'ils ont plus de valeur ou parce qu'ils sont très demandés et représentent une partie importante de votre activité. Pour cela, vous pouvez affecter des périodes d'inventaire spéciales à ces articles. Pour plus d'informations, reportez-vous à [Effectuer un inventaire tournant](inventory-how-count-adjust-reclassify.md#to-perform-cycle-counting).
 
 Pour ajuster les quantités en stock enregistrées, pour inventaire ou à d'autres fins, vous pouvez utiliser une feuille article pour modifier les écritures comptables inventaire directement sans valider les transactions commerciales. Sinon, vous pouvez ajuster pour un article distinct de la fiche article.
 
@@ -81,7 +81,7 @@ Vous pouvez effectuer l'inventaire physique de l'une des manières suivantes en 
     -   Si les quantités calculées et les quantités réelles sont différentes, une quantité négative ou positive est enregistrée pour l'emplacement, et la quantité équilibre est validée dans l'emplacement ajustement du magasin.  
     -   Si la quantité calculée est égale à la quantité réelle, le programme enregistre une écriture de 0 pour l'emplacement et l'emplacement ajustement. Les écritures indiquent qu'à la date d'enregistrement, un inventaire entrepôt a été effectué et qu'il n'y avait aucune différence pour l'article au niveau de l'inventaire.  
 
-Lorsque vous enregistrez l'inventaire entrepôt, vous ne validez ni dans l'écriture article ni dans l'écriture inventaire ni dans l'écriture valeur, mais les enregistrements peuvent être utilisés lorsqu'un rapprochement immédiat est nécessaire. Cependant, si vous souhaitez conserver des enregistrements précis des événements entrepôt et que vous avez compté tous les emplacements où les articles étaient enregistrés, validez immédiatement les résultats entrepôt en tant qu'inventaire physique. Pour plus d'informations, voir la section « Pour saisir et valider le stock réel compté dans les configurations d'entrepôt avancées ».
+Lorsque vous enregistrez l'inventaire entrepôt, vous ne validez ni dans l'écriture article ni dans l'écriture inventaire ni dans l'écriture valeur, mais les enregistrements peuvent être utilisés lorsqu'un rapprochement immédiat est nécessaire. Cependant, si vous souhaitez conserver des enregistrements précis des événements entrepôt et que vous avez compté tous les emplacements où les articles étaient enregistrés, validez immédiatement les résultats entrepôt en tant qu'inventaire physique. Pour plus d'informations, voir [Pour saisir et valider le stock réel compté dans les configurations d'entrepôt avancées](inventory-how-count-adjust-reclassify.md#to-enter-and-post-the-actual-counted-inventory-in-advanced-warehouse-configurations).
 
 ### <a name="to-print-the-report-to-be-used-when-counting"></a>Pour imprimer l'état à utiliser lors de l'inventaire
 1. Sur la page **Feuille inventaire** contenant le stock prévu calculé, choisissez l'action **Imprimer**.
@@ -145,14 +145,14 @@ Configurez les périodes d'inventaire que vous souhaitez utiliser, puis affectez
 2. Choisissez l'action **Calculer la période d'inventaire**.
 
     La page **Sélection article inventaire** qui s'ouvre affiche les articles auxquels des périodes d'inventaire ont été affectés et qui doivent être comptés en fonction de leurs périodes d'inventaire.
-3. Effectuer l'inventaire physique. Pour plus d'informations, voir la section « Pour effectuer un inventaire physique ».
+3. Effectuer l'inventaire physique. Pour plus d'informations, voir [Pour effectuer un inventaire entrepôt](inventory-how-count-adjust-reclassify.md#to-perform-a-physical-inventory).
 
 ### <a name="to-initiate-a-count-based-on-counting-periods-in-advanced-warehouse-configurations"></a>Pour lancer un décompte selon des périodes d'inventaire dans les configurations d'entrepôt avancées
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille inventaire entrepôt**, puis sélectionnez le lien associé.  
 2. Choisissez l'action **Calculer la période d'inventaire**.
 
     La page **Sélection article inventaire** qui s'ouvre affiche les articles auxquels des périodes d'inventaire ont été affectés et qui doivent être comptés en fonction de leurs périodes d'inventaire.
-3. Effectuer l'inventaire physique. Pour plus d'informations, voir la section « Pour effectuer un inventaire physique ».  
+3. Effectuer l'inventaire physique. Pour plus d'informations, voir [Pour effectuer un inventaire entrepôt](inventory-how-count-adjust-reclassify.md#to-perform-a-physical-inventory).  
 
     > [!NOTE]  
     >  Vous devez compter l'article dans tous les emplacements contenant cet article. Si vous supprimez certaines des lignes emplacement que le programme a récupérées sur la page **Inventaire entrepôt** , vous ne compterez pas tous les articles dans l'entrepôt. Si vous validez ultérieurement de tels résultats incomplets sur la feuille inventaire, les montants validés sont incorrects.  
@@ -175,7 +175,7 @@ Vous pouvez également utiliser la fonction **Ajuster stock** comme un moyen sim
 ### <a name="to-adjust-the-inventory-quantity-of-multiple-items-in-basic-warehouse-configurations"></a>Pour ajuster la quantité en stock de plusieurs articles dans les configurations d'entrepôt de base
 Sur la page **feuille article**, vous pouvez valider la transaction article directement pour ajuster le stock en fonction des achats, ventes et d'ajustements positifs et négatifs sans utiliser de documents.
 
-Si vous utilisez fréquemment la feuille article pour comptabiliser des lignes feuille identiques ou analogues (par exemple, des lignes en rapport avec la consommation de matériel), vous pouvez utiliser la page **Feuille article standard** pour simplifier cette tâche récurrente. Pour plus d'informations, reportez-vous à la section « Feuilles standard » de [Utilisation de feuilles comptabilité](ui-work-general-journals.md).
+Si vous utilisez fréquemment la feuille article pour comptabiliser des lignes feuille identiques ou analogues (par exemple, des lignes en rapport avec la consommation de matériel), vous pouvez utiliser la page **Feuille article standard** pour simplifier cette tâche récurrente. Pour plus d'informations, voir [Utilisation des feuilles standard](ui-work-general-journals.md#working-with-standard-journals).
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles articles**, puis sélectionnez le lien associé.
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -227,4 +227,3 @@ Pour plus d'informations sur le transfert des articles avec un contrôle complet
 [Ventes](sales-manage-sales.md)  
 [Achats](purchasing-manage-purchasing.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

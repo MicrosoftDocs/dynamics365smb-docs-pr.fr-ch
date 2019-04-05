@@ -1,8 +1,8 @@
 ---
-title: "Détails de conception - Commande | Microsoft Docs"
-description: "Cette rubrique fournit des informations sur les liens commande-à-commande dans un environnement de fabrication à la commande."
+title: Détails de conception - Commande | Microsoft Docs
+description: Cette rubrique fournit des informations sur les liens commande-à-commande dans un environnement de fabrication à la commande.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: design, order
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
+ms.openlocfilehash: 4152dfb744215034383239ea98847fbf7b5751e9
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 38272b0d777c276c372893082680d89fc33e060c
-ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820919"
 ---
 # <a name="design-details-order"></a>Détails de conception : commande
 Dans un environnement de fabrication à la commande, un article est acheté ou produit pour couvrir exclusivement une demande spécifique. Généralement, il se rapporte aux articles A, et la motivation pour choisir cette méthode de réapprovisionnement de commande peut être que la demande n'est pas fréquente, le délai de production est insignifiant ou les attributs requis varient.  
@@ -40,4 +40,3 @@ Contrairement à la plupart des ensemble approvisionnement-demande, les commande
 [Détails de conception : paramètres de planification](design-details-planning-parameters.md)   
 [Détails de conception : gestion des méthodes de réapprovisionnement](design-details-handling-reordering-policies.md)   
 [Détails de conception : planification de l'approvisionnement](design-details-supply-planning.md)
-

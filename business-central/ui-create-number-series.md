@@ -1,7 +1,7 @@
 ---
-title: "Création des souches de numéros | Microsoft Docs"
-description: "Découvrez comment configurer des souches de numéros qui affectent les codes d'identification uniques aux comptes et aux documents dans Business Central."
-documentationcenter: 
+title: Création des souches de numéros | Microsoft Docs
+description: Découvrez comment configurer des souches de numéros qui affectent les codes d'identification uniques aux comptes et aux documents dans Business Central.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: numbers, numbering
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 46131d6ad5f77a02ffe33d24f1210a226c3041c1
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820539"
 ---
 # <a name="create-number-series"></a>Création des souches de numéros
 Pour chaque société que vous configurez, vous devez affecter des codes d'identification uniques aux éléments tels que les comptes généraux, les comptes client et fournisseur, les factures et d'autres documents. La numérotation est importante, pas uniquement pour l'identification. Un système de numérotation bien conçu facilite la gestion et l'analyse de la société et permet de réduire les erreurs de saisie des données.
@@ -75,4 +75,3 @@ Désormais, pour créer un élément nécessitant un numéro, vous pourrez utili
 ## <a name="see-also"></a>Voir aussi
 [Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

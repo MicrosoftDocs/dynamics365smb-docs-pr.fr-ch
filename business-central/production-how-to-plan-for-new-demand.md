@@ -1,23 +1,23 @@
 ---
-title: "Procédure de planification commande par commande | Microsoft Docs"
-description: "Cette tâche de planification peut être effectuée sur la page **Planning commande**, affichant toute nouvelle demande ainsi que les informations de disponibilité et les suggestions d'approvisionnement. Elle fournit la visibilité et les outils nécessaires à la planification efficace des demandes des lignes vente et des lignes composant, puis à la création directe de différents types de commandes approvisionnement."
+title: Procédure de planification commande par commande | Microsoft Docs
+description: Cette tâche de planification peut être effectuée sur la page **Planning commande**, affichant toute nouvelle demande ainsi que les informations de disponibilité et les suggestions d'approvisionnement. Elle fournit la visibilité et les outils nécessaires à la planification efficace des demandes des lignes vente et des lignes composant, puis à la création directe de différents types de commandes approvisionnement.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: cee1e18d0c6c7fd8b37815d44c35f91ef5ef227c
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821030"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Planifier de nouvelles demandes commande par commande
 Cette tâche de planification peut être effectuée sur la page **Planning commande**, affichant toute nouvelle demande ainsi que les informations de disponibilité et les suggestions d'approvisionnement. Elle fournit la visibilité et les outils nécessaires à la planification efficace des demandes des lignes vente et des lignes composant, puis à la création directe de différents types de commandes approvisionnement.  
@@ -119,4 +119,3 @@ Une fois que la planification est terminée sur la page **Planning commande** et
 [Détails de conception : planification de l'approvisionnement](design-details-supply-planning.md)   
 [Pratiques de configuration recommandées : planification de l'approvisionnement](setup-best-practices-supply-planning.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

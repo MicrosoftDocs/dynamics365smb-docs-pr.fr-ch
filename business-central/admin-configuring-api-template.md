@@ -1,8 +1,8 @@
 ---
-title: "Configuration des modèles d'API | Microsoft Docs"
-description: "Décrit la procédure à suivre pour configurer des modèles d'API pour Dynamics 365 Business Central."
+title: Configuration des modèles d'API | Microsoft Docs
+description: Décrit la procédure à suivre pour configurer des modèles d'API pour Dynamics 365 Business Central.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,14 +12,13 @@ ms.workload: na
 ms.search.keywords: API templates, configuring templates
 ms.date: 10/01/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 7420bd1b8c1c246b608910a35a47ac025eec6b8b
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821413"
 ---
-
 # <a name="configuring-api-templates"></a>Configuration des modèles d'API
 La bibliothèque d'API de [!INCLUDE[d365fin_md](includes/d365fin_md.md)] fournit une représentation simplifiée des entités sous-jacentes. Toutes les propriétés de l'application ne sont pas exposées via l'API associée. La page **Paramètres API** permet de définir des modèles qui sont utilisés pour remplir les propriétés vides d'une entité lorsque vous créez une action POST via l'API. 
 

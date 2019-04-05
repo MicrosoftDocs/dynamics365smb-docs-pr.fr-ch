@@ -1,23 +1,23 @@
 ---
 title: "Détails de conception : validation d'ordre d'assemblage | Microsoft Docs"
-description: "La validation d'ordre d'assemblage est basée sur les mêmes principes que la validation des activités similaires des commandes vente et de la consommation de production/production. Cependant, les principes sont combinés du fait que les ordres d'assemblage ont leur propre interface utilisateur de validation, comme celle des commandes vente, alors que la validation des écritures réelle se produit en arrière-plan en tant que validations directes d'article et de feuille ressource, comme pour la consommation de production, la production et la capacité."
+description: La validation d'ordre d'assemblage est basée sur les mêmes principes que la validation des activités similaires des commandes vente et de la consommation de production/production. Cependant, les principes sont combinés du fait que les ordres d'assemblage ont leur propre interface utilisateur de validation, comme celle des commandes vente, alors que la validation des écritures réelle se produit en arrière-plan en tant que validations directes d'article et de feuille ressource, comme pour la consommation de production, la production et la capacité.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: a3c8910ad937ec4283ce0803f787a4fe6aed071d
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820740"
 ---
 # <a name="design-details-assembly-order-posting"></a>Détails de conception : validation d'ordre d'assemblage
 La validation d'ordre d'assemblage est basée sur les mêmes principes que la validation des activités similaires des commandes vente et de la consommation de production/production. Cependant, les principes sont combinés du fait que les ordres d'assemblage ont leur propre interface utilisateur de validation, comme celle des commandes vente, alors que la validation des écritures réelle se produit en arrière-plan en tant que validations directes d'article et de feuille ressource, comme pour la consommation de production, la production et la capacité.  
@@ -118,4 +118,3 @@ La validation de lignes commande vente dont une partie est une quantité en stoc
  [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  
  [Finances](finance.md)  
  [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

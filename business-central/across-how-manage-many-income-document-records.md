@@ -1,8 +1,8 @@
 ---
-title: "Définir les documents originaux à afficher | Microsoft Docs"
-description: "Ajustez la vue par défaut des documents entrants, tels que des factures électroniques, afin d'améliorer votre vue d'ensemble des enregistrements traités et non-traités."
+title: Définir les documents originaux à afficher | Microsoft Docs
+description: Ajustez la vue par défaut des documents entrants, tels que des factures électroniques, afin d'améliorer votre vue d'ensemble des enregistrements traités et non-traités.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 97ca5aab24b04f6c2d0677c6fd9626b93fcd8ca8
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821298"
 ---
 # <a name="manage-many-incoming-document-records"></a>Gérer de nombreux enregistrements document entrant
 Lors de la création ou du traitement des enregistrements document, le nombre de lignes sur la page **Documents entrants** peut croître de telle façon que vous perdez la vue d'ensemble. Par conséquent, vous pouvez définir les enregistrements de documents entrants sur Traité afin de les supprimer de la vue par défaut. Lorsque vous choisissez l'action **Afficher tout**, vous pouvez afficher les enregistrements traités et non traités.
@@ -57,4 +57,3 @@ Tous les enregistrements de documents entrants sont affichés, y compris ceux po
 [Documents entrants](across-income-documents.md)  
 [Achats](purchasing-manage-purchasing.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,23 +1,23 @@
 ---
-title: "Procédure de gestion de la configuration de la société dans une feuille | Microsoft Docs"
-description: "La feuille configuration est l’emplacement principal dans lequel vous pouvez planifier, suivre et effectuer votre travail de configuration. Vous pouvez créer une feuille pour chaque société avec laquelle vous travaillez ou créer une feuille configuration standard qui peut être utilisée pour configurer plusieurs sociétés identiques."
+title: Procédure de gestion de la configuration de la société dans une feuille | Microsoft Docs
+description: La feuille configuration est l’emplacement principal dans lequel vous pouvez planifier, suivre et effectuer votre travail de configuration. Vous pouvez créer une feuille pour chaque société avec laquelle vous travaillez ou créer une feuille configuration standard qui peut être utilisée pour configurer plusieurs sociétés identiques.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 12/07/2018
 ms.author: sgroespe
+ms.openlocfilehash: bd228a418db3b3ee0b3094a0da520dea6139281c
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
-ms.openlocfilehash: 1ba27ee0ac252bbe1fd47b900654980df5b18fdf
-ms.contentlocale: fr-ch
-ms.lasthandoff: 12/11/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821289"
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Gérer la configuration de la société dans une feuille
 La feuille configuration est l’emplacement principal dans lequel vous pouvez planifier, suivre et effectuer votre travail de configuration. Vous pouvez créer une feuille pour chaque société avec laquelle vous travaillez ou créer une feuille configuration standard qui peut être utilisée pour configurer plusieurs sociétés identiques.  
@@ -74,7 +74,7 @@ Les procédures suivantes expliquent comment ajouter et personnaliser les inform
     > Exemple : si vous obtenez des tables liées pour la table **Client**, la table **Magasin** n'est pas ajoutée, car elle est uniquement liée conditionnellement à la table **Client**, à savoir si le champ **Code magasin** dans la table **Client** est renseigné.  
     > - La table liée est filtrée.  
     > Exemple : un champ dans la table liée a une clause WHERE. La raison en est que les informations des relations associées sont stockées dans la table virtuelle **Champ** et ne sont pas disponibles sur des pages telles que la feuille de configuration, pour des raisons de performances.  
-    > Vous devez ajouter des tables associées avec ces relations complexes manuellement en suivant l'étape 4 dans la section « Pour ajouter une table à la feuille ».
+    > Vous devez ajouter des tables associées avec ces relations complexes manuellement en suivant l'étape 4 dans [Pour ajouter une table à la feuille](admin-how-to-manage-company-configuration-in-a-worksheet.md#to-add-a-table-to-the-worksheet).
 
 7. Pour supprimer des tables dans la liste des tables résultantes, sélectionnez une table à supprimer, puis sélectionnez l'action **Supprimer**.  
 
@@ -128,4 +128,3 @@ Lors de la création d’un package configuration pour une solution, vous pouvez
 [Configurer une société](admin-set-up-company-configuration.md)  
 [Configuration d'une société avec RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)
-

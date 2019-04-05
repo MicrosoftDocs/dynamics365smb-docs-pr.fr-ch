@@ -1,21 +1,21 @@
 ---
-title: "Date comptabilisation des écritures valeur"
-description: "Découvrez comment le traitement par lots Ajuster coûts - Écr. article identifie et affecte une date comptabilisation aux écritures valeur que le traitement par lots est sur le point de créer."
+title: Date comptabilisation des écritures valeur
+description: Découvrez comment le traitement par lots Ajuster coûts - Écr. article identifie et affecte une date comptabilisation aux écritures valeur que le traitement par lots est sur le point de créer.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 9d0a5ab6bebdc9723fe8e3621fdda3cb16d5e6e1
-ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820443"
 ---
 # <a name="design-details-posting-date-on-adjustment-value-entry"></a>Détails de conception : date comptabilisation de l'écriture valeur d'ajustement
 Cet article fournit des instructions aux utilisateurs de la fonctionnalité Évaluation stock dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. L'article spécifique donne des informations sur la façon dont le traitement par lots **Ajuster coûts - Écr. article** identifie et affecte une date comptabilisation aux écritures valeur que le traitement par lots est sur le point de créer.  
@@ -365,4 +365,3 @@ Le traitement par lots **Ajuster coûts - Écr. article** détermine si la date 
 ## <a name="see-also"></a>Voir aussi  
 [Détails de conception : Évaluation stock](design-details-inventory-costing.md)  
 [Détails de conception : lettrage article](design-details-item-application.md)  
-

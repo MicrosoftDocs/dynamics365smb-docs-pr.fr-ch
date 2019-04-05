@@ -1,8 +1,8 @@
 ---
-title: "Gérer les interactions avec vos contacts| Microsoft Docs"
-description: "Vous pouvez gérer tous les types de communication ou d'interactions entre votre société et vos contacts. Par exemple, une communication par lettre, par téléphone, lors de réunions, etc."
+title: Gérer les interactions avec vos contacts| Microsoft Docs
+description: Vous pouvez gérer tous les types de communication ou d'interactions entre votre société et vos contacts. Par exemple, une communication par lettre, par téléphone, lors de réunions, etc.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 6fa95883e30b7912ed2b6b22f40cbcd5af339f31
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820898"
 ---
 # <a name="managing-interactions-with-contacts"></a>Gestion des interactions avec les contacts
 Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], les interactions désignent tous les types de communication entre votre société et vos contacts. Par exemple, les communications peuvent s'effectuer par lettre, par e-mail, par télécopie,par téléphone, et ainsi de suite.
@@ -32,7 +32,7 @@ Le module de gestion des relations vous permet d'enregistrer toutes les interact
 Pour pouvoir créer et enregistrer des interactions, vous devez configurer des modèles interaction. Lorsque vous créez des interactions, vous devez spécifier les modèles sur lesquels elles sont basées. Un modèle interaction est un prototype qui définit les caractéristiques de base d'une interaction.
 Vous pouvez configurer un modèle interaction sur la page **Modèles interaction**.
 
-Une fois les données relatives au modèle interaction saisies, vous pouvez créer un document joint, par exemple un document Microsoft Word. Répétez les étapes pour chaque modèle interaction à configurer.  
+Une fois les données relatives au modèle interaction saisies, vous pouvez créer un document joint, par exemple, un document Microsoft Word. Répétez les étapes pour chaque modèle interaction à configurer.  
 
 ## <a name="creating-interactions"></a>Création d'interactions
 Il existe deux méthodes d'enregistrement des interactions :
@@ -58,4 +58,3 @@ Vous pouvez supprimer les écritures journal interaction ayant été annulées. 
 [Gestion de contacts](marketing-contacts.md)  
 [Gestion des opportunités de ventes](marketing-manage-sales-opportunities.md)  
 [Utilisation de Business Central](ui-work-product.md)  
-

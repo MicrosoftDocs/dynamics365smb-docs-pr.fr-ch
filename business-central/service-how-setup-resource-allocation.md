@@ -1,8 +1,8 @@
 ---
 title: Configurer l'affectation des ressources | Microsoft Docs
-description: "Découvrez comment le système peut vous aider à affecter une personne dotée des compétences requises à la fourniture d'un service."
+description: Découvrez comment le système peut vous aider à affecter une personne dotée des compétences requises à la fourniture d'un service.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,14 +12,13 @@ ms.workload: na
 ms.search.keywords: resource, skill, service, zones
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 7ce128aa32d650cf756117ab46987167d9a3781a
-ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820385"
 ---
-
 # <a name="set-up-resource-allocation"></a>Configurer l'affectation des ressources
 Pour assurer la bonne exécution d'une tâche service, il est important de trouver une ressource qualifiée. Vous pouvez configurer [!INCLUDE[d365fin](includes/d365fin_md.md)] de manière à affecter facilement une ressource disposant des compétences appropriées pour le travail. Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], ce processus est appelé _affectation de ressources_. Vous pouvez affecter des ressources en fonction de leur compétence, de leur disponibilité, ou selon qu'elles se trouvent dans la même zone service que le client. 
 
@@ -85,5 +84,4 @@ Vous pouvez modifier les codes compétence affectés à des articles, par exempl
 [Configurer le reporting panne](service-how-setup-fault-reporting.md)  
 [Configurer des codes prestations standards](service-how-setup-service-coding.md)  
  
-
 

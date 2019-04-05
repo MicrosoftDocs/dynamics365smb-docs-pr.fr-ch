@@ -1,23 +1,23 @@
 ---
-title: "Comment expédier des articles | Microsoft Docs"
-description: "En fonction de votre configuration de stockage, vous pouvez enregistrer l'expédition sur le document d'entreprise sortant associé, comme une commande vente, directement, ou vous pouvez utiliser les documents expédition entrepôt qui respectent un flux et s'intègrent à différentes activités entrepôt."
+title: Comment expédier des articles | Microsoft Docs
+description: En fonction de votre configuration de stockage, vous pouvez enregistrer l'expédition sur le document d'entreprise sortant associé, comme une commande vente, directement, ou vous pouvez utiliser les documents expédition entrepôt qui respectent un flux et s'intègrent à différentes activités entrepôt.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 75cf101f7f67bdd54d6e364468fd5e4354a089af
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820572"
 ---
 # <a name="ship-items"></a>Expédier des articles
 Lorsque vous expédiez des articles provenant d'un entrepôt qui n'est pas configuré pour un traitement d'expédition entrepôt, enregistrez simplement l'expédition du document d'entreprise associé, comme une commande vente, une commande service, un retour vente ou un ordre de transfert sortant.
@@ -105,4 +105,3 @@ Vous pouvez également utiliser la feuille prélèvement pour regrouper plusieur
 [Gestion des assemblages](assembly-assemble-items.md)    
 [Détails de conception : gestion d'entrepôt](design-details-warehouse-management.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

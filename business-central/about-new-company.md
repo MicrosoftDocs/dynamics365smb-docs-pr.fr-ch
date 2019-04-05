@@ -1,6 +1,6 @@
 ---
-title: "Créer des sociétés en utilisant le guide de configuration assistée | Microsoft Docs"
-description: "Il est facile de créer une nouvelle société vide dans Business Central. Un guide de configuration assistée vous aide à l'aide de procédures, et vous pouvez importer les données métier existantes."
+title: Créer des sociétés en utilisant le guide de configuration assistée | Microsoft Docs
+description: Il est facile de créer une nouvelle société vide dans Business Central. Un guide de configuration assistée vous aide à l'aide de procédures, et vous pouvez importer les données métier existantes.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: company, setup wizard
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 9831dd53ffa3ba94202a8a15dc0bdaffdb6d2d2d
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821385"
 ---
 # <a name="creating-new-companies-in-included365finincludesd365finmdmd"></a>Création de sociétés dans [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], les conteneurs pour les données métier appartenant à une unité commerciale ou une entité juridique sont désignés en tant que *société*. Lorsque vous vous connectez à [!INCLUDE[d365fin](includes/d365fin_md.md)], une société de démonstration et une société vide vous sont attribuées, *Ma société*. Le basculement entre sociétés est facile - accédez simplement à **Mes paramètres** et passez à l'autre société. Vous pouvez également créer de nouvelles sociétés dans [!INCLUDE[d365fin](includes/d365fin_md.md)], selon les besoins de votre activité. Lorsque vous créez une société, un guide de configuration assistée vous permet d'obtenir les fondements de base. Ensuite, vous pouvez importer des données appropriées à partir de votre système hérité ou d'une autre société dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -53,4 +53,3 @@ Une fois les bases en place, vous pouvez configurer les zones de base restantes.
 [Importation des données métier à partir d'autres systèmes financiers](across-import-data-configuration-packages.md)  
 [Modification des paramètres de base](ui-change-basic-settings.md)  
 [Mise en route](product-get-started.md)  
-

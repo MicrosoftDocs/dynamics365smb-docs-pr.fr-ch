@@ -1,6 +1,6 @@
 ---
-title: "Exporter vos données Business Central vers Excel| Microsoft Docs"
-description: "Vous pouvez exporter vos états financiers et vos données de veille économique de Business Central vers Excel, ou ouvrir vos données dans Excel."
+title: Exporter vos données Business Central vers Excel| Microsoft Docs
+description: Vous pouvez exporter vos états financiers et vos données de veille économique de Business Central vers Excel, ou ouvrir vos données dans Excel.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
 ms.date: 11/21/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: b0f53eaa777fb944e0c4b55402b895373c7843a1
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820208"
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Exportation de vos données métier vers Excel
 Si vous souhaitez travailler avec vos données à partir de [!INCLUDE[d365fin](includes/d365fin_md.md)] dans Excel, vous pouvez ouvrir toutes les listes et les utiliser dans Excel. De même, si vous souhaitez annuler votre abonnement à [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez exporter vos données vers Excel afin de pouvoir les transférer par la suite.
@@ -73,4 +73,3 @@ Nous recommandons également d'exporter des données à partir des pages suivant
 [Finances](finance.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

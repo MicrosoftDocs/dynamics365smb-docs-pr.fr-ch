@@ -1,21 +1,21 @@
 ---
 title: "Procédure pas à pas : configuration et facturation d'acomptes | Microsoft Docs"
-description: "Les acomptes sont des paiements qui sont facturés et validés dans une commande acompte vente ou achat avant la facturation finale. Vous pouvez demander un acompte avant de fabriquer les produits commandés ou le paiement avant d'envoyer les articles à un client. Vous utilisez la fonctionnalité d'acomptes dans Business Central pour facturer et collecter les acomptes requis des clients ou régler des acomptes aux fournisseurs. Vous pouvez ainsi vous assurer que tous les paiements sont validés sur une facture."
+description: Les acomptes sont des paiements qui sont facturés et validés dans une commande acompte vente ou achat avant la facturation finale. Vous pouvez demander un acompte avant de fabriquer les produits commandés ou le paiement avant d'envoyer les articles à un client. Vous utilisez la fonctionnalité d'acomptes dans Business Central pour facturer et collecter les acomptes requis des clients ou régler des acomptes aux fournisseurs. Vous pouvez ainsi vous assurer que tous les paiements sont validés sur une facture.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
 ms.openlocfilehash: 5fb8201f85fe94ac124e80014a4f3ff5073fbf65
-ms.contentlocale: fr-ch
-ms.lasthandoff: 01/31/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821170"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Procédure pas à pas : configuration et facturation d'acomptes
 
@@ -185,7 +185,7 @@ Le client paie le montant des acomptes. Arnie, qui travaille au département Com
     |**Type compte**|**Client**|  
     |**N° compte**|**20000**|  
 3. Sélectionnez l'action **Lettrer écritures**.  
-4.  Sur la page **Lettrer écritures client**, sélectionnez la première facture acompte, puis, sélectionnez **Set Applies-to ID**.  
+4.  Sur la page **Lettrer écritures client**, sélectionnez la première facture acompte, puis, sélectionnez **Définir ID lettrage**.  
 5.  Répétez l'étape précédente pour le deuxième acompte.  
 6.  Cliquez sur le bouton **OK**.  
 
@@ -219,4 +219,3 @@ La fonctionnalité d'acompte de [!INCLUDE[d365fin](includes/d365fin_md.md)] faci
 [Finances](finance.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Procédures pas à pas liées au processus entreprise](walkthrough-business-process-walkthroughs.md)
-

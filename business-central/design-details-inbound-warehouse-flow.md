@@ -1,23 +1,23 @@
 ---
-title: "Détails de conception - Flux d'enlogement entrant | Microsoft Docs"
-description: "Le flux entrant dans un entrepôt commence à l'arrivée des articles dans l'entrepôt du magasin de la société, qu'ils proviennent de sources externes ou d'un autre magasin de la société. Un salarié enregistre les articles, généralement en numérisant un code barre. Depuis le quai de réception, des activités entrepôt sont effectuées à différents niveaux de complexité pour amener les articles dans la zone de stockage."
+title: Détails de conception - Flux d'enlogement entrant | Microsoft Docs
+description: Le flux entrant dans un entrepôt commence à l'arrivée des articles dans l'entrepôt du magasin de la société, qu'ils proviennent de sources externes ou d'un autre magasin de la société. Un salarié enregistre les articles, généralement en numérisant un code barre. Depuis le quai de réception, des activités entrepôt sont effectuées à différents niveaux de complexité pour amener les articles dans la zone de stockage.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 9e7990c907360a1ba7fb445e3eeefeb026315f9e
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820432"
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Détails de conception : flux d'enlogement
 Le flux entrant dans un entrepôt commence à l'arrivée des articles dans l'entrepôt du magasin de la société, qu'ils proviennent de sources externes ou d'un autre magasin de la société. Un salarié enregistre les articles, généralement en numérisant un code barre. Depuis le quai de réception, des activités entrepôt sont effectuées à différents niveaux de complexité pour amener les articles dans la zone de stockage.  
@@ -112,4 +112,3 @@ Les écritures d'entrepôt sont créées, et les lignes de stockage en entrepôt
 
 ## <a name="see-also"></a>Voir aussi  
 [Détails de conception : gestion d'entrepôt](design-details-warehouse-management.md)
-

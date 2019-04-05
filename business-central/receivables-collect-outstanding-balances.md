@@ -1,6 +1,6 @@
 ---
-title: "Rappeler ou pénaliser les clients pour les impayés| Microsoft Docs"
-description: "Décrit comment envoyer une relance à un client sur un paiement dû et ajouter des frais, ou des commissions au paiement en raison de retard."
+title: Rappeler ou pénaliser les clients pour les impayés| Microsoft Docs
+description: Décrit comment envoyer une relance à un client sur un paiement dû et ajouter des frais, ou des commissions au paiement en raison de retard.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: f33d8a851c1c5a8f3c464a44ebd1d6319131af09
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 3dfc2d9edbb72de196238748ab90ce8dd4990adb
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820729"
 ---
 # <a name="collect-outstanding-balances"></a>Collecte des soldes restants
 La gestion des clients comprend le contrôle du règlement des montants à temps. Si des clients ont des paiements dus, vous pouvez commencer par envoyer l'état du Relevé client comme relance. Sinon, vous pouvez émettre de relances.
@@ -99,10 +99,10 @@ Si vous créez plus de relances qu'il n'y a de niveaux relance, les conditions u
 |%11|Nom de la société|  
 |%12|Contenu du champ **Frais supplémentaires par ligne** de l'en-tête de relance|  
 
-Par exemple, si vous saisissez **Vous devez %9 %7 dus au %2.**, la relance résultante contiendra le texte suivant : **Vous devez 1 200,50 DS dus au 02022014**.
+Par exemple, si vous saisissez **Vous devez %9 %7 dus au %2.**, la relance résultante contiendra le texte suivant : Vous devez **1 200,50 USD dus au 02/02/2014.**.
 
 > [!NOTE]
-> La date d'échéance est calculée selon la formule de date que vous saisissez. Pour plus d'informations reportez-vous à la section « Utilisation de formules date » dans [Saisie de plages de dates](ui-enter-date-ranges.md).
+> La date d'échéance est calculée selon la formule de date que vous saisissez. Pour plus d'informations, voir [Utilisation de formules date](ui-enter-date-ranges.md#using-date-formulas).
 
 Si vous avez configuré les conditions relance (avec des niveaux et du texte supplémentaires), saisissez l'un des codes sur chaque fiche client. Pour plus d'informations, reportez vous à [Enregistrer de nouveaux clients](sales-how-register-new-customers.md).
 
@@ -254,4 +254,3 @@ Lorsque vous émettez une relance, une écriture relance est créée sur la page
 [Gestion des comptes client](receivables-manage-receivables.md)  
 [Ventes](sales-manage-sales.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

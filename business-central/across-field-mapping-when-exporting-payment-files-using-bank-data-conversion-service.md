@@ -1,21 +1,21 @@
 ---
 title: Mappage de champ pour exporter des fichiers de paiement bancaire | Microsoft Docs
-description: "Lorsque vous exportez des fichiers de paiement à l'aide de la fonction Service conversion données bancaires, les données que vous exportées sont exposées au fournisseur du service conversion données bancaires."
+description: Lorsque vous exportez des fichiers de paiement à l'aide de la fonction Service conversion données bancaires, les données que vous exportées sont exposées au fournisseur du service conversion données bancaires.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 80112e892c72283254d3894e6ce4102cc9350e0b
-ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821386"
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-bank-data-conversion-service"></a>Mappage de champs lors de l'exportation de fichiers de paiement à l'aide du service conversion données bancaires
 Lorsque vous exportez des fichiers de paiement à l'aide de la fonction Service conversion données bancaires, les données que vous exportées sont exposées au fournisseur du service conversion données bancaires. Le fournisseur de service est responsable de la confidentialité de ces données. Pour plus d'informations sur la manière dont fonctionne la fonction Service conversion données bancaires, reportez\-vous à [À propos de l'infrastructure d'échange de données](across-about-the-data-exchange-framework.md).  
@@ -72,4 +72,3 @@ Le tableau suivant répertorie les champs de [!INCLUDE[d365fin](includes/d365fin
 [Échanger des données par voir électronique](across-data-exchange.md)
 [Configurer le service de conversion de données bancaires](bank-how-setup-bank-data-conversion-service.md)   
 [Exécuter les paiements avec le service de conversion de données bancaires ou un virement SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
-

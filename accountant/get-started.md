@@ -1,18 +1,18 @@
 ---
-title: "Expérience de comptable avec Dynamics 365 | Microsoft Docs"
-description: "En savoir plus sur Accountant Hub pour Dynamics 365."
+title: Expérience de comptable avec Dynamics 365 | Microsoft Docs
+description: En savoir plus sur Accountant Hub pour Dynamics 365.
 author: edupont04
 ms.service: dynamics365-accountant
 ms.topic: article
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 11/23/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 0c4dadb15c9756c49f94839236766432844088c8
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820518"
 ---
 # <a name="get-started-with-include-d365acclongincludesd365acclongmdmd"></a>Mise en route avec [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
@@ -22,7 +22,7 @@ Chaque entreprise doit tenir ses comptes et valider sa comptabilité. Certaines 
 Vous pouvez accéder à [!INCLUDE [d365acc](includes/d365acc_md.md)] en vous connectant à partir de [Dynamics 365 — Accountant Hub sur Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants).  
 
 > [!TIP]
->  Lorsque vous vous inscrivez à [!INCLUDE [d365acc](includes/d365acc_md.md)], vous devez indiquer votre adresse électronique professionnelle, par exemple <em>me@accountant.com</em>. Il est recommandé d'utiliser la même adresse électronique lorsque vous travaillez dans le [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)] de vos clients, de sorte que vous pouvez facilement basculer entre les clients. L'adresse électronique du comptable doit être une adresse professionnelle basée sur Active Directory.
+>  Lorsque vous vous connectez à [!INCLUDE [d365acc](includes/d365acc_md.md)], vous devez indiquer votre adresse électronique professionnelle, comme <em>moi@accountant.com</em>. Il est recommandé d'utiliser la même adresse électronique lorsque vous travaillez dans le [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)] de vos clients, de sorte que vous pouvez facilement basculer entre les clients. L'adresse électronique du comptable doit être une adresse professionnelle basée sur Active Directory.
 
 ## <a name="working-with-individual-clients"></a>Utilisation de clients individuels
 Le tableau de bord affiche les informations les plus importantes sur chaque client.  
@@ -89,5 +89,4 @@ Lorsque vous avez terminé une tâche, marquez-la simplement comme terminée.
 [Bienvenue dans [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](index.md)  
 [Analyse des états financiers dans Microsoft Excel](/dynamics365/business-central/finance-analyze-excel?toc=/dynamics365/accountants/toc.json)  
 [Expériences de comptable dans [!INCLUDE[d365fin](includes/d365fin_md.md)]](/dynamics365/business-central/finance-accounting?toc=/dynamics365/accountants/toc.json)  
-[Dynamics 365 — Accountant Hub sur Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
-
+[Dynamics 365 — Accountant Hub sur Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  

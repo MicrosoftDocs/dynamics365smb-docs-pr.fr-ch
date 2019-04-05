@@ -1,23 +1,23 @@
 ---
-title: "Détails de conception - Traçabilité et réservations | Microsoft Docs"
-description: "Cette rubrique présente la traçabilité et les réservations, et décrit les concepts qui leur sont associés."
+title: Détails de conception - Traçabilité et réservations | Microsoft Docs
+description: Cette rubrique présente la traçabilité et les réservations, et décrit les concepts qui leur sont associés.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 1670b102aa0eba91952391ac3daa563a651de859
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821348"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Détails de conception : traçabilité et réservations
 L'utilisation simultanée de la réservation et de la traçabilité spécifique est rare, parce qu'elles créent toutes les deux un couplage entre l'approvisionnement et la demande. Sauf pour les situations où un client ou un gestionnaire de production demande un lot spécifique, il est rarement judicieux de réserver des articles de stock qui possèdent déjà des numéros traçabilité pour un lettrage spécifique. Bien qu'il soit possible de réserver des articles nécessitant une traçabilité, une fonctionnalité spéciale est nécessaire pour éviter les conflits de disponibilité entre les préparateurs de commandes qui demandent les mêmes articles suivis.  

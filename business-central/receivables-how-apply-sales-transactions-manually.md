@@ -1,6 +1,6 @@
 ---
-title: "Lettrer des écritures comptables client pour rapprocher les paiements | Microsoft Docs"
-description: "Décrit comment lettrer des règlements ou des remboursements client dans une ou plusieurs écritures comptables client ouvertes et rapprocher les paiements client."
+title: Lettrer des écritures comptables client pour rapprocher les paiements | Microsoft Docs
+description: Décrit comment lettrer des règlements ou des remboursements client dans une ou plusieurs écritures comptables client ouvertes et rapprocher les paiements client.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,35 +8,35 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipt
-ms.date: 10/01/2018
+ms.date: 02/08/2019
 ms.author: sgroespe
+ms.openlocfilehash: f18cbb872d01daec391ca0c078f842a5cf89d74d
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 5f685ca69d9cf434e04e0c5205626eb24af3b5be
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821222"
 ---
-# <a name="reconcile-customer-payments-manually"></a>Rapprocher les paiements client manuellement
+# <a name="reconcile-customer-payments-with-the-cash-receipt-journal-or-from-customer-ledger-entries"></a>Rapprocher des paiements clients avec la Feuille règlement ou les Écritures comptables client
 Lorsque vous recevez le règlement d'un client ou que vous effectuez un remboursement, vous devez décider si vous souhaitez lettrer le paiement ou le remboursement pour clôturer une ou plusieurs écritures débit ou crédit. Vous pouvez indiquer le montant que vous souhaitez appliquer. Par exemple, vous pouvez appliquer des paiements partiels aux écritures comptables client. La clôture des écritures comptables client permet de garantir que des informations telles que les statistiques clients, les relevés bancaires et les intérêts de retard sont corrects.
 
-> [!NOTE]  
+> [!TIP]  
 >   Sur la page **Écritures comptables client**, le rouge signifie que le paiement associé a dépassé sa date d'échéance. Si les paiements échus deviennent un problème, nous pouvons vous aider à minimiser leur fréquence. Vous pouvez activer l'extension **Prévisions des retards de paiement**, qui utilise un modèle prédictif que nous avons généré dans Azure Machine Learning pour prévoir les délais de paiement. Ces prévisions vous permettent de réduire les créances ouvertes et d'ajuster votre stratégie de collectes. Par exemple, si un retard de paiement est prévu, vous pouvez ajuster les conditions de paiement ou le mode de règlement du client. Pour plus d'informations, consultez [Prévisions de retard de paiement](ui-extensions-late-payment-prediction.md).  
 
 Vous pouvez lettrer les écritures comptables client de plusieurs manières :
 
-* En entrant des informations sur les pages dédiées, telles que la fenêtre **Feuille règlement** et la page **Feuille rapprochement bancaire**.
-* À partir des documents avoir vente.
-* À partir des écritures comptables client une fois que les documents vente sont validés mais non lettrés.
+* En entrant des informations sur les pages dédiées :
+    * La page **Feuille rapprochement bancaire**. Pour plus d'informations, reportez-vous à [Lettrage automatique des paiements et rapprochement des comptes bancaires](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+    * La page **Enregistrement de paiement**. Pour plus d'informations, voir [Rapprocher les paiements client dans une liste des documents vente échus](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md).
+    * La **Feuille règlement**. Cette dernière est décrite ci-dessous.
+* En renseignant le champ **N° doc. lettrage** sur les documents Avoir vente. Cette dernière est décrite ci-dessous.
+* Grâce à l'action **Définir ID lettrage** d'une écriture comptable client. Cette dernière est décrite ci-dessous.
 
 > [!NOTE]  
 >   Si le champ **Mode de lettrage** de la fiche client contient **Au plus ancien**, les paiements sont automatiquement lettrés avec l'écriture de crédit ouverte la plus ancienne sauf si vous spécifiez une écriture manuellement. Si le mode de lettrage pour un fournisseur est **Manuel**, vous devez toujours lettrer les écritures manuellement.
 
-Vous pouvez lettrer les paiements des clients manuellement sur la page **Feuille règlement**. La feuille règlement est un type de feuille comptabilité, de sorte que vous pouvez l'utiliser pour valider des transactions sur des comptes généraux, bancaires, client, fournisseur et immobilisations. Vous pouvez lettrer le règlement sur une ou plusieurs écritures débit lorsque vous validez le règlement ou lettrer à partir des écritures validées ultérieurement.
-
-Vous pouvez également lettrer les paiements client et fournisseur sur la page **Feuille rapprochement bancaire** à l'aide des fonctions dédiées à l'importation de relevés bancaires, le lettrage automatique et le rapprochement bancaire. Pour plus d'informations, voir [Rapprocher les paiements à l'aide du lettrage automatique](receivables-how-reconcile-payments-auto-application.md). Sinon, vous pouvez rapprocher les paiements client en fonction de la liste des documents vente échus sur la page **Enregistrement de paiement**. Pour plus d'informations, voir [Rapprocher les paiements client dans une liste des documents vente échus](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md).
-
 ## <a name="to-fill-and-post-a-cash-receipt-journal"></a>Pour renseigner et valider une feuille règlement
+La feuille règlement est un type de feuille comptabilité, de sorte que vous pouvez l'utiliser pour valider des transactions sur des comptes généraux, bancaires, client, fournisseur et immobilisations. Vous pouvez lettrer le règlement sur une ou plusieurs écritures débit lorsque vous validez le règlement ou lettrer à partir des écritures validées ultérieurement.
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille règlement**, puis sélectionnez le lien associé.
 2. Sélectionnez **Modifier journal**.
 3. Sélectionnez le nom de traitement par lots souhaité dans le champ **Nom de la feuille**.
@@ -76,7 +76,7 @@ Vous pouvez également lettrer les paiements client et fournisseur sur la page *
 6. Dans le champ **Type compte contrepartie**, entrez **Compte bancaire.**
 7. Dans le champ **Montant**, entrez le paiement complet sous forme de montant négatif.
 8. Pour lettrer le paiement avec plusieurs écritures comptables client lors de la validation, sélectionnez l'action **Lettrer écritures**.  
-9. Sélectionnez les lignes correspondant aux écritures avec lesquelles l'écriture lettrage doit être lettrée, puis sélectionnez l'action **Lettrer**.  
+9. Sélectionnez les lignes correspondant aux écritures avec lesquelles l'écriture lettrage doit être lettrée, puis sélectionnez l'action **Définir ID lettrage**.  
 10. Sur chaque ligne du champ **Montant à lettrer**, entrez le montant que vous souhaitez lettrer à l'écriture. Si vous n'entrez aucun montant, le montant maximal est lettré.
 
     Au bas de la page **Lettrer écritures client**, vous voyez le montant spécifique dans le champ **Montant lettré** et constatez si le lettrage est équilibré.  
@@ -97,7 +97,7 @@ Vous pouvez également lettrer les paiements client et fournisseur sur la page *
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Avoirs vente**, puis sélectionnez le lien associé.
 2. Ouvrez l'avoir vente souhaité.
 3. Pour lettrer l'avoir avec plusieurs écritures comptables client lors de la validation, sélectionnez l'action **Lettrer écritures**.
-4. Sélectionnez les lignes correspondant aux écritures avec lesquelles l'écriture lettrage doit être lettrée, puis sélectionnez l'action **Lettrer**.
+4. Sélectionnez les lignes correspondant aux écritures avec lesquelles l'écriture lettrage doit être lettrée, puis sélectionnez l'action **Définir ID lettrage**.
 5. Sur chaque ligne du champ **Montant à lettrer**, entrez le montant que vous souhaitez lettrer à l'écriture. Si vous n'entrez aucun montant, le montant maximal est lettré.  
 
     Au bas de la page **Lettrer écritures client**, vous voyez le montant spécifique dans le champ **Montant lettré** et constatez si le lettrage est équilibré.  
@@ -109,7 +109,7 @@ Vous pouvez également lettrer les paiements client et fournisseur sur la page *
 2. Ouvrez la fiche du client possédant les écritures que vous souhaitez lettrer.
 3. Sélectionnez l'action **Écritures comptables**, puis sélectionnez la ligne où figure l'écriture qui sera l'écriture lettrage.
 4. Sélectionnez l'action **Lettrer écritures**. La page **Lettrer écritures client** s'ouvre et affiche les écritures ouvertes de ce client.
-5. Sélectionnez les lignes correspondant aux écritures avec lesquelles l'écriture lettrage doit être lettrée, puis sélectionnez l'action **Lettrer** .
+5. Sélectionnez les lignes correspondant aux écritures avec lesquelles l'écriture lettrage doit être lettrée, puis sélectionnez l'action **Définir ID lettrage** .
 6. Pour chaque ligne du champ **Montant à lettrer**, entrez le montant que vous souhaitez lettrer à l'écriture. Si vous n'entrez aucun montant, le montant maximal est lettré.  
 
     Au bas de la page **Lettrer écritures client**, vous voyez le montant spécifique dans le champ **Montant lettré**.  
@@ -134,7 +134,7 @@ Le lettrage d'écritures comptables client en devises différentes doit être ac
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille règlements**, puis sélectionnez le lien associé.
 2. Ouvrez la feuille que vous souhaitez, puis renseignez la première ligne vide de la feuille à l'aide d'un code devise.
 3. Sélectionnez l'action **Lettrer écritures**.
-4. Sélectionnez la ligne comportant l'écriture à lettrer avec l'écriture de la feuille règlement. Sélectionnez ensuite l'action **Lettrer**, puis sélectionnez l'écriture sur laquelle le lettrage doit être effectué.
+4. Sélectionnez la ligne comportant l'écriture à lettrer avec l'écriture de la feuille règlement. Sélectionnez ensuite l'action **Définir ID lettrage**, puis sélectionnez l'écriture sur laquelle le lettrage doit être effectué.
 5. Cliquez sur le bouton **OK** pour revenir à la feuille règlement.
 6. Validez la feuille ventes.  
 
@@ -159,4 +159,3 @@ Lorsque vous corrigez une application, des écritures de correction (écritures 
 [Gestion des comptes client](receivables-manage-receivables.md)  
 [Ventes](sales-manage-sales.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

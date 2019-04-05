@@ -1,8 +1,8 @@
 ---
-title: "Créer une fiche suiveuse pour un projet et spécifier des tâches| Microsoft Docs"
-description: "Pour un nouveau projet, vous créez une fiche projet qui contient les tâches projet et les lignes planning, pour vous aider à gérer la progression et les budgets."
+title: Créer une fiche suiveuse pour un projet et spécifier des tâches| Microsoft Docs
+description: Pour un nouveau projet, vous créez une fiche projet qui contient les tâches projet et les lignes planning, pour vous aider à gérer la progression et les budgets.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: project management, task
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 5db9709500ce20bc09e2dc651ae6b7aa763c0e5f
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820704"
 ---
 # <a name="create-jobs"></a>Créer des projets
 Lorsque vous démarrez un nouveau projet, vous devez créer une fiche projet avec des tâches intégrées et des lignes planning structurées en deux couches.  
@@ -76,4 +76,3 @@ Une ligne planning projet peut avoir l'un des types suivants :
 [Achats](purchasing-manage-purchasing.md)         
 [Ventes](sales-manage-sales.md)      
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

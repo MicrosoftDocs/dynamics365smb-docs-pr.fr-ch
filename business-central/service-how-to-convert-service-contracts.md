@@ -1,21 +1,21 @@
 ---
 title: Comment convertir les contrats de service | Microsoft Docs
-description: "Étant donné que l'outil de modification du taux de TVA ne peut pas convertir les contrats de service, ces derniers doivent être convertis manuellement. Cette rubrique décrit plusieurs autres méthodes pour convertir les contrats de service."
+description: Étant donné que l'outil de modification du taux de TVA ne peut pas convertir les contrats de service, ces derniers doivent être convertis manuellement. Cette rubrique décrit plusieurs autres méthodes pour convertir les contrats de service.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 3c34f2b456df88b043b7b90a739f363b892dd48d
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820546"
 ---
 # <a name="convert-service-contracts-that-include-vat-amounts"></a>Convertir les contrats de service incluant des montants TVA
 Étant donné que l'outil de modification du taux de TVA ne peut pas convertir les contrats de service, ces derniers doivent être convertis manuellement. Cette rubrique décrit plusieurs autres méthodes pour convertir les contrats de service.  
@@ -68,4 +68,3 @@ La procédure suivante décrit comment créer un avoir à l'aide du traitement p
 [Finances](finance.md)  
 [Déclarer la TVA aux autorités fiscales](finance-how-report-vat.md)  
 [Utiliser la TVA sur les ventes et les achats](finance-work-with-vat.md)  
-

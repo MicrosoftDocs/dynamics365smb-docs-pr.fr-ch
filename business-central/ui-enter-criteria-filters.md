@@ -1,6 +1,6 @@
 ---
 title: Tri, recherche et filtrage de listes | Microsoft Docs
-description: "Travaillez efficacement dans les listes en parcourant toutes vos données, en triant les colonnes, et en affinant les résultats en utilisant des symboles de filtre et des raccourcis clavier puissants."
+description: Travaillez efficacement dans les listes en parcourant toutes vos données, en triant les colonnes, et en affinant les résultats en utilisant des symboles de filtre et des raccourcis clavier puissants.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 5d6d2d9527e81a92987f6b8fcdbe8e087c3c537a
 ms.openlocfilehash: c6eb9465d07b702e545347cad5acf0a42f01d1de
-ms.contentlocale: fr-ch
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821297"
 ---
 # <a name="sorting-searching-and-filtering-lists"></a>Tri, recherche et filtrage de listes
 Il existe quelques fonctions que vous pouvez utiliser pour vous aider à analyser, rechercher et limiter des enregistrements d'une liste. Ce sont notamment le tri, la recherche et le filtrage. Vous pouvez en appliquer certaines ou toutes simultanément pour trouver rapidement ou analyser vos données.
@@ -251,7 +251,7 @@ En saisissant des critères de filtre, vous pouvez également saisir des mots av
 > Votre organisation peut utiliser des jetons personnalisés. Pour faire en savoir plus sur l'ensemble complet de jetons disponibles pour vous ou pour ajouter des jetons personnalisés supplémentaires, parlez à votre administrateur. Pour des informations techniques, voir [Ajout de jetons de filtre](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens)
 
 
-### <a name="me-or-userid-records-assigned-to-you"></a>Enregistrements (%me ou %userid) qui vous sont attribués
+### <a name="me-or-userid-records-assigned-to-you"></a>Enregistrements (%me ou %uuserid) qui vous sont attribués
 
 Utilisez `%me` ou `%userid` en filtrant les champs qui contiennent le code utilisateur, par exemple le champ **Affecté au code utilisateur**, pour afficher tous les enregistrements qui vous sont affectés.
 
@@ -287,4 +287,3 @@ Utilisez `%myvendors` dans le champ **N°** fournisseur pour afficher tous les e
 ## <a name="see-also"></a>Voir aussi
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Questions courantes à propos de la recherche et du filtrage](ui-search-filter-faq.md)
-

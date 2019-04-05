@@ -1,8 +1,8 @@
 ---
 title: Traiter les retours ou annulations | Microsoft Docs
-description: "Explique comment créer et valider un avoir achat lorsque vous souhaitez retourner des articles à un fournisseur ou annuler des services achetés."
+description: Explique comment créer et valider un avoir achat lorsque vous souhaitez retourner des articles à un fournisseur ou annuler des services achetés.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cancel, undo, correct
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: eef48d2390a497692b19b0ce6eae6afc654f8d22
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 8f73492e70d4d30a73030953eb235f586954867e
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820534"
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Traiter les retours ou annulations d'achats
 Si vous souhaitez retourner des articles à votre fournisseur ou annuler des services que vous avez achetés, vous pouvez créer et valider un avoir achat qui indique la modification demandée par rapport à la facture achat d'origine. Pour inclure les informations de facture achat correctes, vous pouvez créer l'avoir achat à partir de la facture achat enregistrée ou vous pouvez créer un avoir achat avec les informations copiées de la facture.
 
-Si vous souhaitez davantage de contrôle sur le processus de retour achat, par exemple les documents entrepôt pour la manutention des articles ou une meilleure vue d'ensemble lors de la réexpédition d'articles à partir de plusieurs documents achat avec un retour achat, vous pouvez créer des retours achat. Un retour achat émet automatiquement l'avoir achat associé. Pour plus d'informations, voir la section « Créer un retour achat à partir d'un ou plusieurs documents achat validés ».
+Si vous souhaitez davantage de contrôle sur le processus de retour achat, par exemple les documents entrepôt pour la manutention des articles ou une meilleure vue d'ensemble lors de la réexpédition d'articles à partir de plusieurs documents achat avec un retour achat, vous pouvez créer des retours achat. Un retour achat émet automatiquement l'avoir achat associé. Pour plus d'informations, voir la section [Pour créer un retour achat à partir d'un ou plusieurs documents achat validés](purchasing-how-process-purchase-returns-cancellations.md#to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice).
 
 > [!NOTE]  
 >   Si une facture achat validée n'a pas encore été payée, vous pouvez utiliser les fonctions de **Corriger** ou **Annuler** sur la facture achat validée pour contrepasser automatiquement les transactions associées. Ces fonctions ne fonctionnent que pour les factures impayées, elles ne prennent pas en charge des retours partiels ou les annulations. Pour plus d'informations, voir [Corriger ou annuler des factures achat impayées](purchasing-how-correct-cancel-unpaid-purchase-invoices.md).
@@ -42,7 +42,7 @@ Vous pouvez affecter l'inversion de même coût automatiquement de deux façons.
 
 |Fonction|Désignation|  
 |------------------|---------------------------------------|  
-|Fonction **Afficher des lignes document validées à contrepasser** sur la page **Retour commande achat**|Copie les lignes d'un ou plusieurs documents validés afin de les contrepasser dans le retour achat. Pour plus d'informations, voir la section « Créer un retour achat, et l'avoir achat associé, pour une ou plusieurs factures achat validées ».|  
+|Fonction **Afficher des lignes document validées à contrepasser** sur la page **Retour commande achat**|Copie les lignes d'un ou plusieurs documents validés afin de les contrepasser dans le retour achat. Pour plus d'informations, voir [Pour créer un retour achat à partir d'une ou plusieurs factures achat validées](purchasing-how-process-purchase-returns-cancellations.md#to-create-a-purchase-return-order-based-on-one-or-more-a-posted-purchase-documents).|  
 |Fonction **Copier document** des pages **Avoir achat** et **Retour achat**|Copie l'en-tête et les lignes d'un document validé à contrepasser.<br /><br /> Requiert que la case à cocher **Coût retour identique obligatoire** soit sélectionnée sur la page **Paramètres achats**.|
 
 Pour réaliser manuellement la contrepassation exacte, sélectionnez **Écriture article à lettrer** sur n'importe quelle ligne de document retour, puis sélectionnez le numéro de l'écriture achat initiale. Cela crée un lien entre l'avoir achat ou le retour achat et l'écriture achat initiale, et garantit que l'article est évalué sur le coût unitaire initial.
@@ -78,9 +78,9 @@ L'avoir achat est supprimé et remplacé par un nouveau document dans la liste d
 6. Sélectionnez le champ **N° document** pour ouvrir la page **Factures achat validées**, puis sélectionnez la facture achat validée qui contient les lignes que vous souhaitez contrepasser.
 7. Activez la case à cocher **Recalculer lignes** si vous souhaitez que les lignes facture achat validées copiées soient mises à jour avec les modifications apportées au prix article et au coût unitaire depuis la validation de la facture.
 8. Cliquez sur le bouton **OK**. Les lignes facture copiées sont insérées dans l'avoir achat.
-9. Remplissez l'avoir achat en vous reportant à la section « Pour créer un avoir achat à partir d'une facture achat validée » de cette rubrique.
+9. Remplissez l'avoir achat en vous reportant à [Pour créer un avoir achat à partir d'une facture achat validée](purchasing-how-process-purchase-returns-cancellations.md#to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice).
 
-## <a name="to-create-a-purchase-return-order-based-on-one-or-more-a-posted-purchase-documents"></a>Pour créer un retour achat à partir d'un ou plusieurs documents achat validés
+## <a name="to-create-a-purchase-return-order-based-on-one-or-more-posted-purchase-documents"></a>Pour créer un retour achat à partir d'un ou plusieurs documents achat validés
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Retours achat**, puis sélectionnez le lien associé.  
 2. Sélectionnez l'action **Nouveau**.  
 3. Renseignez les champs dans le raccourci **Général** selon les besoins.
@@ -186,4 +186,3 @@ Lorsque des expéditions retour sont regroupées sur un avoir et validées, un a
 [Enregistrer des achats](purchasing-how-record-purchases.md)  
 [Corriger ou annuler des factures achat impayées](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

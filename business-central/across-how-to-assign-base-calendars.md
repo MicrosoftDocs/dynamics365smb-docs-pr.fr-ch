@@ -1,23 +1,23 @@
 ---
-title: "Procédure de configuration des calendriers principaux | Microsoft Docs"
-description: "Vous pouvez affecter un calendrier principal à votre société et à ses partenaires commerciaux, tels que ses clients, ses fournisseurs, ou ses magasins. Les dates de livraison et de réception sur les lignes commande vente, commande achat, ordre de transfert, et ordre de fabrication sont calculées en fonction des jours ouvrés définis dans le calendrier."
+title: Procédure de configuration des calendriers principaux | Microsoft Docs
+description: Vous pouvez affecter un calendrier principal à votre société et à ses partenaires commerciaux, tels que ses clients, ses fournisseurs, ou ses magasins. Les dates de livraison et de réception sur les lignes commande vente, commande achat, ordre de transfert, et ordre de fabrication sont calculées en fonction des jours ouvrés définis dans le calendrier.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 2b00871f4074af32500678642cae63850956bfce
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 2b1820a65fd1e9cd4e41828caddd737e79a2a45b
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821120"
 ---
 # <a name="set-up-base-calendars"></a>Configurer des calendriers principaux
 Vous pouvez affecter un calendrier principal à votre société et à ses partenaires commerciaux, tels que ses clients, ses fournisseurs, ou ses magasins. Les dates de livraison et de réception sur les lignes commande vente, commande achat, ordre de transfert, et ordre de fabrication sont calculées en fonction des jours ouvrés définis dans le calendrier. Lorsque vous paramétrez un nouveau calendrier principal, votre tâche consiste essentiellement à indiquer et à définir les jours chômés à appliquer.  
@@ -41,9 +41,9 @@ Lorsque vous créez une écriture, le champ **Jour chômé** est sélectionné. 
 
 > [!IMPORTANT]  
 >  Le calendrier principal défini pour le fournisseur ou le magasin affecte uniquement la manière dont les dates sont calculées et arrondies en jours ouvrés.
-Spécifie une formule date pour le délai nécessaire au réapprovisionnement de l'article. Permet de calculer le champ **Date planifiée de réception**, si calcul en aval, et le champ **Date commande**, si calcul en amont. Reportez-vous à la section « Délai de réappro ».
+Spécifie une formule date pour le délai nécessaire au réapprovisionnement de l'article. Permet de calculer le champ **Date planifiée de réception**, si calcul en aval, et le champ **Date commande**, si calcul en amont. Voir [Calcul du délai](across-how-to-assign-base-calendars.md#lead-time-calculation).
 
-## <a name="lead-time-calculation"></a>Délai de réappro.
+## <a name="lead-time-calculation"></a>Calcul du délai
 Le calendrier principal défini pour le fournisseur ou le magasin affecte uniquement la manière dont les dates sont calculées et arrondies en jours ouvrés. En conséquence, les deux champs date sur les lignes commande achat sont calculés comme suit sous différentes conditions.
 
 |Direction de calcul|Calendrier fournisseur défini|Calendrier fournisseur non défini|
@@ -55,7 +55,7 @@ Le calendrier principal défini pour le fournisseur ou le magasin affecte unique
 > Outre le calcul du délai qui affecte la date de réception prévue et la date de commande, comme illustré dans la table ci-dessus, le délai d'activité entrepôt et le délai de sécurité peuvent être ajoutés à des formules pour constituer la valeur du champ **Date réception prévue** comme suit : Date planifiée de réception + Délai de sécurité + Délai enlogement = Date réception prévue.
 
 > [!Important]
-> Si votre magasin utilise un calendrier sensiblement différent de celui de vos fournisseurs, il est important de créer des calendriers spécifiques pour ces fournisseurs, pour calculer les délais fournisseur optimaux. Pour plus d'informations sur le paramétrage des calendriers fournisseur, voir la section « Pour affecter un calendrier principal ».
+> Si votre magasin utilise un calendrier sensiblement différent de celui de vos fournisseurs, il est important de créer des calendriers spécifiques pour ces fournisseurs, pour calculer les délais fournisseur optimaux. Pour plus d'informations sur le paramétrage des calendriers fournisseur, voir [Pour affecter un calendrier principal](across-how-to-assign-base-calendars.md#to-assign-a-base-calendar).
 
 La valeur du champ **Délai de réappro.** est copiée à partir de la fiche article ou de la fiche point de stock, si le délai est défini pour l'article, ou sur la page **Catalogue fournisseur articles**, si le délai est défini pour le fournisseur.
 
@@ -119,4 +119,3 @@ Les calendriers principaux sont affectés à votre propre société, à vos clie
 [Production](production-manage-manufacturing.md)    
 [STOCKS ET EN-COURS](inventory-manage-inventory.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

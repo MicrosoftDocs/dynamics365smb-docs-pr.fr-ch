@@ -1,21 +1,21 @@
 ---
-title: "À propos du calcul des coûts standard | Microsoft Docs"
-description: "Un système de coûts standard détermine le coût unitaire du stock en fonction d'un coût historique ou prévu plausible. L'analyse des données précédentes et futures en termes de coût peut alors offrir une base pour l'estimation des coûts standard."
+title: À propos du calcul des coûts standard | Microsoft Docs
+description: Un système de coûts standard détermine le coût unitaire du stock en fonction d'un coût historique ou prévu plausible. L'analyse des données précédentes et futures en termes de coût peut alors offrir une base pour l'estimation des coûts standard.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: d35fdeae364a113fa1abb1d5828182f761331cee
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: be73736f4c56ea78ef2bb2b736b76db0569312ec
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820818"
 ---
 # <a name="about-calculating-standard-cost"></a>À propos du calcul des coûts standard
 De nombreuses sociétés manufacturières sélectionnent une base d'évaluation du coût standard. Ceci est également vrai pour les sociétés qui effectuent une fabrication légère, comme l'assemblage et le montage. Un système de coûts standard détermine le coût unitaire du stock en fonction d'un coût historique ou prévu plausible. L'analyse des données précédentes et futures en termes de coût peut alors offrir une base pour l'estimation des coûts standard. Ces coûts sont gelés tant que leur modification n'est pas décidée. Le coût réel lié à la production d'un produit peut varier par rapport aux coûts standard estimés. À des fins de contrôle de gestion, le coût réel est comparé au coût standard pour un article spécifique et les différences, ou *écarts*, sont identifiées et analysées.  
@@ -96,7 +96,7 @@ Pour mettre à jour ou calculer le coût standard d'éléments d'assemblage, uti
 Le processus de mise à jour ou de calcul des coûts standard comprend généralement les tâches suivantes :  
 
 1.  Mise à jour des coûts aux niveaux des composants et de la capacité. Pour plus d'informations, consultez les traitements par lots **Proposer coût standard article** et **Suggérer le coût standard de la capacité**.  
-2.  Consolidation et calcul multi-niveau des coûts des composants et de capacité pour déterminer le coût d'assemblage ou de fabrication des articles. Pour plus d'informations, consultez la section « Pour calculer le coût standard d'un élément d'assemblage » dans [Utiliser les nomenclatures](inventory-how-work-BOMs.md).  
+2.  Consolidation et calcul multi-niveau des coûts des composants et de capacité pour déterminer le coût d'assemblage ou de fabrication des articles. Pour plus d'informations, consultez [Pour calculer le coût standard d'un élément d'assemblage](inventory-how-work-boms.md#to-calculate-the-standard-cost-of-an-assembly-item).  
 3.  Application des coûts standard entrés lorsque vous exécutez les traitements par lots précédents. Les coûts standard n'entrent en vigueur que lorsqu'ils sont mis en œuvre. Pour plus d'informations, voir le traitement par lots **Appliquer nouv. coût standard**.  
 4.  Application des modifications pour mettre à jour le champ **Coût unitaire** sur la fiche article et effectuer une réévaluation du stock. Pour plus d'informations, voir [Réévaluer le stock](inventory-how-revalue-inventory.md).
 
@@ -105,4 +105,3 @@ Le processus de mise à jour ou de calcul des coûts standard comprend général
  [Utiliser les nomenclatures](inventory-how-work-BOMs.md)   
  [Mise à jour des coûts standard](finance-how-to-update-standard-costs.md)   
  [Détails de conception : évaluation stock](design-details-inventory-costing.md)
-

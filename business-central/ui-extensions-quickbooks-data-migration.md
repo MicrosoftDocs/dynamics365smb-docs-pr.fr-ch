@@ -1,6 +1,6 @@
 ---
 title: Utilisation de l'extension QuickBooks Data Migration | Microsoft Docs
-description: "Décrit comment utiliser l'extension pour importer des clients, des fournisseurs, des articles, et des comptes de QuickBooks Desktop à Business Central."
+description: Décrit comment utiliser l'extension pour importer des clients, des fournisseurs, des articles, et des comptes de QuickBooks Desktop dans Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,19 +10,18 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
 ms.openlocfilehash: e5cb755b6a15070410c42328ccf08b784928f3ca
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820841"
 ---
-
 # <a name="the-quickbooks-data-migration-extension"></a>Extension QuickBooks Data Migration
 Cette extension facilite la migration des clients, des fournisseurs, des articles et des comptes de QuickBooks vers [!INCLUDE[d365fin](includes/d365fin_md.md)]. Si votre entreprise utilise QuickBooks aujourd'hui, vous pouvez exporter les informations appropriées puis ouvrir un guide de configuration assistée pour télécharger les données vers [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 Pour plus d'informations, voir [Importation des données métier à partir d'autres systèmes financiers](across-import-data-configuration-packages.md).
 
-## <a name="data-from-quickbooks-desktop"></a>Données de QuickBooks Desktop
+## <a name="data-from-quickbooks-desktop"></a>Date début QuickBooks Desktop
  
 Vous pouvez importer les données suivantes de QuickBooks Online vers Business Central :
 
@@ -66,4 +65,3 @@ Vérifiez les soldes de début des comptes du grand livre. QuickBooks ne stocke 
 ## <a name="see-also"></a>Voir aussi
 [Importation des données métier à partir d'autres systèmes financiers](across-import-data-configuration-packages.md)  
 [Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions ](ui-extensions.md)  
-

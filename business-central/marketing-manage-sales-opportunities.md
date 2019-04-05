@@ -1,8 +1,8 @@
 ---
-title: "Gérer les opportunités de vente et les prospects| Microsoft Docs"
-description: "Décrit la gestion d'un prospect ou d'une opportunité de ventes entrant dans Business Central, et l'association de l'opportunité à un vendeur pour effectuer le suivi des ventes potentielles."
+title: Gérer les opportunités de vente et les prospects| Microsoft Docs
+description: Décrit la gestion d'un prospect ou d'une opportunité de ventes entrant dans Business Central, et l'association de l'opportunité à un vendeur pour effectuer le suivi des ventes potentielles.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: cb391e079d65283aef5aff1d4a30d14123065ba5
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2c9ef61555ddf3579172fc1e5b28e8eb4923b4d5
-ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820363"
 ---
 # <a name="managing-sales-opportunities"></a>Gestion des opportunités de ventes
 Tout prospect entrant peut être considéré comme une opportunité de vente. Vous pouvez créer des opportunités et les associer à un vendeur afin de pouvoir suivre les ventes potentielles.
@@ -36,4 +36,3 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 [Ventes](sales-manage-sales.md)  
 [Création et gestion des contacts](marketing-contacts.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

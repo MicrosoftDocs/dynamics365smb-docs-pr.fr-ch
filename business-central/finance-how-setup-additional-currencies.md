@@ -1,8 +1,8 @@
 ---
-title: "Configuration des devises supplémentaires | Microsoft Docs"
-description: "Votre comptabilité est configurée pour utiliser votre devise société (DS) et une autre devise est configurée comme devise supplémentaire, à laquelle est affecté un taux de change courant."
+title: Configuration des devises supplémentaires | Microsoft Docs
+description: Votre comptabilité est configurée pour utiliser votre devise société (DS) et une autre devise est configurée comme devise supplémentaire, à laquelle est affecté un taux de change courant.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: multiple currencies
 ms.date: 01/07/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a98027c3ef3171491f84197897f93cbed4e288c2
 ms.openlocfilehash: 294ed8019b12287e4b4ad59d46e842e4022a637f
-ms.contentlocale: fr-ch
-ms.lasthandoff: 01/07/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820709"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Configurer une devise report supplémentaire
 Les sociétés opérant dans un nombre croissant de pays/régions, il est de plus en plus important qu'elles puissent consulter et générer des états de données financiers dans plusieurs devises.
@@ -125,4 +125,3 @@ En outre, toutes les écritures futures du même type ont des montants enregistr
 [Mettre à jour des taux de change devise](finance-how-update-currencies.md)  
 [Clôture des exercices et des périodes](year-close-years-periods.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

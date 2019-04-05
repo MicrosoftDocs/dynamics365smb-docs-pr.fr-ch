@@ -1,6 +1,6 @@
 ---
 title: Configuration minimale requise pour l'utilisation de Business Central | Microsoft Docs
-description: "Découvrez la configuration système et la version minimale nécessaires à l'utilisation de Business Central."
+description: Découvrez la configuration système et la version minimale nécessaires à l'utilisation de Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: version
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 8e69b29eff604a78151b6a6f3ad3564abb04a5b2
 ms.openlocfilehash: 650fb7c92e5d66d238462911011369201d102ea0
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821198"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Configuration minimale requise pour l'utilisation de Business Central
 Avant d'accéder à [!INCLUDE[d365fin](includes/d365fin_md.md)], nous vous recommandons de vérifier que votre ordinateur ou périphérique mobile répond à la configuration système requise pour le produit. Cet article répertorie les éléments de la configuration requise.  
@@ -24,7 +24,7 @@ Avant d'accéder à [!INCLUDE[d365fin](includes/d365fin_md.md)], nous vous recom
 **Chrome pour Windows et Firefox pour Windows :** [!INCLUDE[d365fin](includes/d365fin_md.md)] est conçu pour fonctionner avec la version actuelle de ces navigateurs pour ordinateurs de bureau.  
 **Safari :** [!INCLUDE[d365fin](includes/d365fin_md.md)] est conçu pour fonctionner avec la version actuelle de Safari sur OSX.  
 **Microsoft Edge :** [!INCLUDE[d365fin](includes/d365fin_md.md)] est conçu pour fonctionner avec la version actuelle de Microsoft Edge.  
-**Internet Explorer :** [!INCLUDE[d365fin](includes/d365fin_md.md)] est conçu pour fonctionner avec Internet Explorer 11 (version 11.0.9600.17239) pour Windows 10 (versions 32 bits et 64 bits). Nous vous recommandons d'effectuer une mise à niveau avec la version la plus récente d'Internet Explorer prise en charge par votre version de Windows.  
+**Internet Explorer :** [!INCLUDE[d365fin](includes/d365fin_md.md)] est conçu pour fonctionner avec Internet Explorer 11 (version 11.0.9600.17239) pour Windows 10 (versions 32 bits et 64 bits). Nous vous recommandons d'effectuer une mise à niveau avec la version la plus récente d'Internet Explorer prise en charge par votre version de Windows.  
 
 ## <a name="mobile-devices"></a>Périphériques mobiles
 **Windows :** [!INCLUDE[d365fin](includes/d365fin_md.md)] pour Windows peut être installé sur des périphériques avec au moins 1 Go de RAM et Windows 10 Familiale, Pro, Entreprise ou Education (éditions 32 bits et 64 bits).  
@@ -42,5 +42,4 @@ Avant d'accéder à [!INCLUDE[d365fin](includes/d365fin_md.md)], nous vous recom
 
 ## <a name="see-also"></a>Voir aussi
 [Mise en route](product-get-started.md)  
-[Configuration système requise pour Dynamics 365 Business Central On-premises](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central)  
-
+[Configuration requise pour Dynamics 365 Business Central on-premises](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central)  

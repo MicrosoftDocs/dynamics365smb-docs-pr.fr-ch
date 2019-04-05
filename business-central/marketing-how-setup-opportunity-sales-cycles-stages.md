@@ -1,6 +1,6 @@
 ---
-title: "Configurer des cycles de vente opportunité et des étapes de cycle| Microsoft Docs"
-description: "Décrit comment définir des étapes de ventes, du contact initial à la clôture, créer un cycle de vente et l'affecter aux opportunités dans Business Central."
+title: Configurer des cycles de vente opportunité et des étapes de cycle| Microsoft Docs
+description: Décrit comment définir des étapes de ventes, du contact initial à la clôture, créer un cycle de vente et l'affecter aux opportunités dans Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: jswymer
+ms.openlocfilehash: 0cd630da56c26ff9b21f94a99217f801bc9d23ba
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 319a59c865b7883cf7de5c35d9ebce5c30de0f76
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821676"
 ---
 # <a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a>Configurer des cycles de vente opportunité et des étapes de cycle
 Avant de pouvoir utiliser les opportunités de vente, vous devez configurer les cycles de vente et les étapes correspondantes. Un cycle de vente est composé d'une série d'étapes allant du contact initial à la fermeture d'une vente. Chaque étape peut avoir certaines exigences à respecter, par exemple pour un devis, avant qu'une opportunité puisse accéder à l'étape suivante. Vous pouvez également spécifier si une étape peut être ignorée. Vous pouvez configurer autant de cycles de vente et d'étapes que nécessaire.
 
 Mettre en œuvre des cycles de vente opportunité implique la création d'un cycle de vente, la définition des différentes étapes du cycle, puis l'affectation du cycle à des opportunités. L'affectation de l'activité ou des tâches correspondantes à l'opportunité peut également faire partie de la configuration d'un cycle de vente.
 
-Cette rubrique décrit également comment configurer des tâches et les activités, et comment affecter des tâches aux activités. Pour plus d'informations, reportez-vous à la section « Pour configurer des activités avec des tâches ».
+Cette rubrique décrit également comment configurer des tâches et les activités, et comment affecter des tâches aux activités. Pour plus d'informations, voir [Pour configurer des activités avec des tâches](marketing-how-setup-opportunity-sales-cycles-stages.md#to-set-up-activities-with-tasks).
 
 ## <a name="to-set-up-opportunity-sales-cycle-codes"></a>Pour configurer des cycles de vente opportunité
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Cycles de vente**, puis sélectionnez le lien associé. La page **Cycles de vente** s'affiche, et répertorie tous les cycles de vente existants.
@@ -66,4 +66,3 @@ Lorsque vous avez créé une tâche, vous pouvez l'affecter à une opportunité 
 [Traitement des opportunités de vente](marketing-processing-sales-opportunities.md)  
 [Ventes](sales-manage-sales.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,8 +1,8 @@
 ---
-title: "Détails de conception - Traçabilité dans l'entrepôt | Microsoft Docs"
-description: "La gestion de numéro de série et de numéro de lot est surtout une tâche d'entrepôt, et donc tous les documents entrepôt enlogement et désenlogement ont une fonctionnalité standard pour affecter et sélectionner des numéros traçabilité. Toutefois, comme le système de réservation est basé sur les écritures comptables article, les documents activité entrepôt qui enregistrent uniquement les écritures entrepôt ne sont pas totalement pris en charge."
+title: Détails de conception - Traçabilité dans l'entrepôt | Microsoft Docs
+description: La gestion de numéro de série et de numéro de lot est surtout une tâche d'entrepôt, et donc tous les documents entrepôt enlogement et désenlogement ont une fonctionnalité standard pour affecter et sélectionner des numéros traçabilité. Toutefois, comme le système de réservation est basé sur les écritures comptables article, les documents activité entrepôt qui enregistrent uniquement les écritures entrepôt ne sont pas totalement pris en charge.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: design, item, tracking, serial number, lot number, outbound documents
 ms.date: 01/15/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 5d6d2d9527e81a92987f6b8fcdbe8e087c3c537a
 ms.openlocfilehash: e780dba122374bd80e48ca6bbc74b7540e034ac6
-ms.contentlocale: fr-ch
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820332"
 ---
 # <a name="design-details-item-tracking-in-the-warehouse"></a>Détails de conception : traçabilité dans l'entrepôt
 La gestion de numéro de série et de numéro de lot est surtout une tâche d'entrepôt, et donc tous les documents entrepôt enlogement et désenlogement ont une fonctionnalité standard pour affecter et sélectionner des numéros traçabilité.  
@@ -33,4 +33,3 @@ Cependant, le système de réservation prend en compte les activités entrepôt 
 [Détails de conception : intégration avec le stock](design-details-integration-with-inventory.md)  
 [Détails de conception : Disponibilité de l'entrepôt](design-details-availability-in-the-warehouse.md)  
 [Détails de conception : création de traçabilité](design-details-item-tracking-design.md)
-

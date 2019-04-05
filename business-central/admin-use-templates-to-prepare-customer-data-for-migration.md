@@ -1,23 +1,23 @@
 ---
-title: "Préparer la migration des données client | Microsoft Docs"
-description: "Une fois que vous avez importé et appliqué les données de configuration dans la nouvelle base de données, vous pouvez commencer la migration des données de base existantes du client (nom et numéro du client et des articles, par exemple). Pour créer ces données avec rapidité et précision dans la nouvelle société, vous devez utiliser des modèles pour structurer les données."
+title: Préparer la migration des données client | Microsoft Docs
+description: Une fois que vous avez importé et appliqué les données de configuration dans la nouvelle base de données, vous pouvez commencer la migration des données de base existantes du client (nom et numéro du client et des articles, par exemple). Pour créer ces données avec rapidité et précision dans la nouvelle société, vous devez utiliser des modèles pour structurer les données.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 11/07/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 7861925cc318a7d23c612bc640e6d7e60bc5eed3
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: dbc38deef740c6da31f93feb788b8dc5d62f25fe
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820214"
 ---
 # <a name="prepare-to-migrate-customer-data"></a>Préparer la migration des données client
 Une fois que vous avez importé et appliqué les données de configuration dans la nouvelle base de données, vous pouvez commencer la migration des données de base existantes du client (nom et numéro du client et des articles, par exemple). Pour créer ces données avec rapidité et précision dans la nouvelle société, vous devez utiliser des modèles pour structurer les données.  
@@ -115,7 +115,7 @@ Vous pouvez utiliser la structure de données qui est contenue dans les modèles
 Les étapes suivantes illustrent la création d'une fiche article d'un modèle données d'article. Vous pouvez créer un enregistrement à partir de n'importe quel modèle de données en utilisant la même procédure.  
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Modèles configuration**, puis sélectionnez le lien associé.  
-2. Sélectionnez le modèle **Article**, puis cliquez sur l'action **Modifier**. Pour plus d’informations, consultez la section « Pour créer un modèle de données ».
+2. Sélectionnez le modèle **Article**, puis cliquez sur l'action **Modifier**. Pour plus d’informations, voir [Pour créer un modèle de données](admin-use-templates-to-prepare-customer-data-for-migration.md#to-create-a-new-data-template).
 3. Sélectionnez l'action **Créer instance**. Une fiche article est créée.  
 4. Cliquez sur le bouton **OK**.  
 5. Pour vérifier la nouvelle fiche article, choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles**, puis sélectionnez le lien associé.  
@@ -140,4 +140,3 @@ Les valeurs par défaut du modèle client choisi sont insérées dans la fiche c
 [Configuration d'une société avec RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)  
 [Enregistrer de nouveaux clients](sales-how-register-new-customers.md)
-

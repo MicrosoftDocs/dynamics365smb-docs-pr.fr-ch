@@ -1,8 +1,8 @@
 ---
-title: "Création de budgets comptabilité | Microsoft Docs"
-description: "Décrit la création de budgets comptabilité pour prévoir différentes activités financières et affecter des axes analytiques à des fins de veille économique."
+title: Création de budgets comptabilité | Microsoft Docs
+description: Décrit la création de budgets comptabilité pour prévoir différentes activités financières et affecter des axes analytiques à des fins de veille économique.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: postpone
 ms.date: 01/07/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a98027c3ef3171491f84197897f93cbed4e288c2
 ms.openlocfilehash: ca0648c3c3ccbfb02c910a063e6ac199e7b4b6d4
-ms.contentlocale: fr-ch
-ms.lasthandoff: 01/07/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821168"
 ---
 # <a name="create-gl-budgets"></a>Créer des budgets comptabilité
 Vous pouvez avoir plusieurs budgets pour des périodes identiques en les créant sous des noms différents. Vous indiquez d'abord le nom du budget et entrez les chiffres correspondants. Le nom du budget est ensuite inclus sur toutes les écritures budget que vous créez.  
@@ -57,4 +57,3 @@ Comme pour la majorité des autres pages, vous pouvez exporter des données des 
 [Configuration de Finance](finance-setup-finance.md)  
 [Les écritures comptables et le plan comptable](finance-general-ledger.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

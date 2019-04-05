@@ -1,8 +1,8 @@
 ---
 title: Utilisation de l'extension C5 Data Migration | Microsoft Docs
-description: "Utilisez cette extension pour migrer des clients, des fournisseurs, des articles et des comptes généraux de Microsoft Dynamics C5 2012 vers Business Central."
+description: Utilisez cette extension pour migrer des clients, des fournisseurs, des articles et des comptes généraux de Microsoft Dynamics C5 2012 vers Business Central.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,14 +12,13 @@ ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
 ms.date: 10/01/2018
 ms.author: bholtorf
+ms.openlocfilehash: e35b4329c8f9b4672591531524c9391e1a8c4868
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 5c89d841cdf0e92af4a3dc497cb9c807798e3924
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821123"
 ---
-
 # <a name="the-c5-data-migration-extension"></a>Extension C5 Data Migration
 Cette extension facilite la migration de clients, de fournisseurs, d'articles et de vos comptes généraux de Microsoft Dynamics C5 2012 vers [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vous pouvez également migrer des écritures historiques pour des comptes généraux.
 
@@ -96,6 +95,9 @@ Si vous migrez des comptes, les données suivantes sont également migrées :
 > [!Note]
 > Les transactions comptables historiques sont traitées un peu différemment. Lorsque vous migrez des données, vous définissez un paramètre **Période courante**. Ce paramètre spécifie comment traiter les transactions comptables. Les transactions postérieures à cette date sont migrées individuellement. Les transactions antérieures à cette date sont regroupées par compte et migrées en tant que montant unique. Par exemple, supposons qu'il existe des transactions en 2015, 2016, 2017, 2018 et que vous spécifiez le 01 janvier 2017 dans le champ Période courante. Pour chaque compte, les montants des transactions effectuées au plus tard le 31 décembre 2106 sont regroupés sur une ligne feuille comptabilité unique pour chaque compte général. Toutes les transactions postérieures à cette date sont migrées individuellement.
 
+## <a name="file-size-requirements"></a>Besoins de taille de fichier
+La plus grande taille de fichier que vous pouvez télécharger dans [!INCLUDE[d365fin](includes/d365fin_md.md)] est de 150 Mo. Si le fichier que vous exportez de C5 est supérieur à cela, envisagez de migrer les données dans plusieurs fichiers. Par exemple, exportez un ou deux types d'entités de C5, tels que les clients et les fournisseurs, dans un fichier, puis exportez les articles vers un autre fichier, etc.. Vous pouvez importer des fichiers individuellement dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
 ## <a name="to-migrate-data"></a>Pour migrer des données
 Quelques étapes suffisent pour exporter des données de C5 et les importer dans [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
 
@@ -148,4 +150,3 @@ Vous pouvez arrêter de migrer les données en sélectionnant **Arrêter toutes 
 ## <a name="see-also"></a>Voir aussi
 [Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md)  
 [Mise en route](product-get-started.md)
-

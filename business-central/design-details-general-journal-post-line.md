@@ -1,6 +1,6 @@
 ---
-title: "Détails de conception - ligne validation de feuille comptabilité | Microsoft Docs"
-description: "Cette rubrique fournit une analyse des concepts et principes qui sont utilisés pour reconcevoir la fonction de ligne validation feuille comptabilité dans Business Central."
+title: Détails de conception - ligne validation de feuille comptabilité | Microsoft Docs
+description: Cette rubrique fournit une analyse des concepts et principes qui sont utilisés pour reconcevoir la fonction de ligne validation feuille comptabilité dans Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, general journal, posting, codeunit 12
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 24df541a8f1d1cf5df3f53a00922ae0d88d7192f
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 87b15502ad06b7eb419ca8c3cbc66ed4d29da7f2
-ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820767"
 ---
 # <a name="design-details-general-journal-post-line"></a>Détails de conception : Ligne validation de feuille comptabilité
 Cette documentation fournit une analyse technique détaillée des concepts et principes qui sont utilisés pour reconcevoir la fonction de ligne validation feuille comptabilité dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. La nouvelle conception rend le codeunit 12 plus simple et plus facile à modifier. La documentation commence par des présentations conceptuelles de la nouvelle conception. Alors il explique l'architecture technique pour indiquer les modifications découlant de la nouvelle conception.  
@@ -29,4 +29,3 @@ Cette documentation fournit une analyse technique détaillée des concepts et pr
 
 ## <a name="see-also"></a>Voir aussi  
 [Utilisation de feuilles comptabilité](ui-work-general-journals.md)
-

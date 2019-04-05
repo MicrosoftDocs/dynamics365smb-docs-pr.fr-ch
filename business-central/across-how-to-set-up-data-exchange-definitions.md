@@ -1,21 +1,21 @@
 ---
-title: "Définir le mode d'échange électronique de documents | Microsoft Docs"
-description: "Vous pouvez utiliser un fournisseur externe de services OCR pour convertir des fichiers PDF ou image en documents électroniques."
+title: Définir le mode d'échange électronique de documents | Microsoft Docs
+description: Vous pouvez utiliser un fournisseur externe de services OCR pour convertir des fichiers PDF ou image en documents électroniques.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/26/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
 ms.openlocfilehash: 0a8172f0c8770235291e7b9a29663f15932f38b4
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821140"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Configurer les définitions d'échange de données
 Vous pouvez configurer [!INCLUDE[d365fin](includes/d365fin_md.md)] pour échanger des données de tables spécifiques avec des données de fichiers externes, par exemple pour recevoir et envoyer des documents électroniques, importer et exporter des données bancaires ou d'autres données, telles que les salaires, les taux de change des devises et les catalogues article. Pour plus d'informations, voir [Échanger des données par voir électronique](across-data-exchange.md).  
@@ -55,7 +55,7 @@ La création d'une définition d'échange de données implique deux tâches :
     |**Codeunit gestion données**|Spécifiez le codeunit qui transfère les données dans et hors des tables de [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
     |**Codeunit validation**|Spécifiez le codeunit utilisé pour valider les données par rapport aux règles d'entreprise prédéfinies.|  
     |**Codeunit lecture/écriture**|Spécifiez le codeunit qui traite les données importées avant la mise en correspondance et les données exportées après la correspondance.|  
-    |**XMLport lecture/écriture**|Spécifiez le XMLport via lequel un fichier de données importé ou un service entre avant la mise en correspondance et via lequel les données exportées sortent lorsqu'elles sont saisies dans un fichier de données ou un service après la mise en correspondance.|  
+    |**XMLport lecture/écriture**|Spécifiez le XMLport via lequel un fichier de données importées ou un service passe avant la correspondance et via lequel des données exportées sortent lors d'une écriture dans un fichier de données ou un service après correspondance.|  
     |**Codeunit gestion données ext.**|Spécifiez le codeunit qui transfère les données externes dans et hors de l'infrastructure d'échange de données.|  
     |**Codeunit retour utilisateur**|Spécifiez le codeunit qui effectue des nettoyages après un mappage, par exemple le marquage des lignes lors de leur importation et la suppression des enregistrements temporaires.|  
     |**Encodage du fichier**|Spécifier l'encodage du fichier. **Remarque** : ce champ ne s'applique qu'aux importations.|  
@@ -160,4 +160,3 @@ Lorsque vous avez créé la définition d'échange de données pour un fichier d
 [Exécuter les paiements avec le service de conversion de données bancaires ou un virement SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
 [Documents entrants](across-income-documents.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)  
-

@@ -1,8 +1,8 @@
 ---
-title: "Paramétrer les ressources, les feuilles de temps et les projets| Microsoft Docs"
-description: "Décrit comment configurer les ressources, les feuilles de temps et les projets pour la gestion des projets."
+title: Paramétrer les ressources, les feuilles de temps et les projets| Microsoft Docs
+description: Décrit comment configurer les ressources, les feuilles de temps et les projets pour la gestion des projets.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: projects
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 6089fa6ceb5198d280fa0c2240967c5728a2a3a9
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d72d7cf8899928e1515b29b49b1642e299679e4a
-ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820921"
 ---
 # <a name="setting-up-project-management"></a>Configuration de la gestion de projet
 Avant de pouvoir utiliser le module [!INCLUDE[d365fin](includes/d365fin_md.md)] pour gérer les projets, vous devez définir des ressources, des feuilles de temps et des projets.
@@ -38,4 +38,3 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 [Achats](purchasing-manage-purchasing.md)         
 [Ventes](sales-manage-sales.md)     
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

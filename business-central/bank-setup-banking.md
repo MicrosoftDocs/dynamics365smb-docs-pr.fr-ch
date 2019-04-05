@@ -1,8 +1,8 @@
 ---
-title: "Paramétrer des opérations bancaires| Microsoft Docs"
-description: "Utilisez les fiches compte bancaire pour suivre vos comptes bancaires et paramétrer le flux bancaire, telles que Yodlee, pour échanger des données."
+title: Paramétrer des opérations bancaires| Microsoft Docs
+description: Utilisez les fiches compte bancaire pour suivre vos comptes bancaires et paramétrer le flux bancaire, telles que Yodlee, pour échanger des données.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 092d8d3f114eac890c97eca520de7b9adbc37108
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9506abc4296b9c414e942c220f6fb40f0884ea32
-ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821265"
 ---
 # <a name="setting-up-banking"></a>Paramétrage des opérations bancaires
 Les fiches compte bancaire vous permettent de gérer tous vos comptes bancaires, dans n'importe quelle devise. Une fois que vous avez configuré les comptes bancaires, vous pouvez également utiliser l'option d'impression de chèque.
@@ -35,4 +35,3 @@ Pour utiliser les services bancaires électroniques pour importer des relevés b
 [Gestion des comptes client](receivables-manage-receivables.md)  
 [Gestion des comptes fournisseur](payables-manage-payables.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

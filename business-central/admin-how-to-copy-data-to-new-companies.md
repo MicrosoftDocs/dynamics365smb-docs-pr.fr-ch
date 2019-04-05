@@ -1,23 +1,23 @@
 ---
-title: "Procédure de copie des données vers les nouvelles sociétés | Microsoft Docs"
-description: "Vous pouvez copier des valeurs couramment utilisées d’une société existante dans une nouvelle société, à partir du moment où ces sociétés figurent dans la même base de données. Par exemple, si vous disposez d'une liste standard de codes symptôme qui est commune à toutes les implémentations de gestion des services, vous pouvez facilement copier ces codes d'une société dans une autre."
+title: Procédure de copie des données vers les nouvelles sociétés | Microsoft Docs
+description: Vous pouvez copier des valeurs couramment utilisées d’une société existante dans une nouvelle société, à partir du moment où ces sociétés figurent dans la même base de données. Par exemple, si vous disposez d'une liste standard de codes symptôme qui est commune à toutes les implémentations de gestion des services, vous pouvez facilement copier ces codes d'une société dans une autre.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 8fc06a83a4bbf6acb5da076e21169819a6bb07de
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821506"
 ---
 # <a name="copy-data-to-new-companies"></a>Copier des données vers les nouvelles sociétés
 Vous pouvez copier des valeurs couramment utilisées d’une société existante dans une nouvelle société, à partir du moment où ces sociétés figurent dans la même base de données. Par exemple, si vous disposez d'une liste standard de codes symptôme qui est commune à toutes les implémentations de gestion des services, vous pouvez facilement copier ces codes d'une société dans une autre.  
@@ -33,4 +33,3 @@ Vous pouvez copier des valeurs couramment utilisées d’une société existante
 [Appliquer des configurations aux nouvelles sociétés](admin-apply-configuration-to-new-companies.md)  
 [Configuration d'une société avec RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)
-

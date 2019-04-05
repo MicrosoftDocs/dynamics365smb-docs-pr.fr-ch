@@ -1,6 +1,6 @@
 ---
-title: "Exporter des paiements vers un fichier de paiement électronique| Microsoft Docs"
-description: "Pour traiter les paiements fournisseur, vous autorisez un service de conversion de données bancaires, exportez un fichier bancaire et téléchargez le fichier sur votre banque électronique pour transférer les fonds."
+title: Exporter des paiements vers un fichier de paiement électronique| Microsoft Docs
+description: Pour traiter les paiements fournisseur, vous autorisez un service de conversion de données bancaires, exportez un fichier bancaire et téléchargez le fichier sur votre banque électronique pour transférer les fonds.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.keywords: bank file export, re-export, bank transfer, AMC, bank data c
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 14015c089e3cd6db19a12fe4eed72d523f3aefc5
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820630"
 ---
 # <a name="export-payments-to-a-bank-file"></a>Exporter des paiements vers un fichier bancaire
 Lorsque vous êtes prêt à effectuer des paiements à vos fournisseurs ou rembourser vos salariés, vous pouvez exporter un fichier contenant les informations de paiement sur les lignes sur la page **Feuille paiement**. Vous pouvez ensuite transférer le fichier à votre banque afin qu'elle traite les transferts d'argent concernés.
@@ -81,4 +81,3 @@ Vous pouvez réexporter des fichiers paiement à partir de la page **Registres v
 [Fournisseurs](payables-manage-payables.md)  
 [Définition des achats](purchasing-setup-purchasing.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

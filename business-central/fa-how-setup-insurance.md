@@ -1,8 +1,8 @@
 ---
-title: "Paramétrer l'assurance immo.| Microsoft Docs"
-description: "Configurez certaines informations générales d'assurance ainsi qu'une fiche assurance par police pour gérer la couverture d'assurance des immobilisations."
+title: Paramétrer l'assurance immo.| Microsoft Docs
+description: Configurez certaines informations générales d'assurance ainsi qu'une fiche assurance par police pour gérer la couverture d'assurance des immobilisations.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: policy, coverage
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 1acb95e72ded81520272b250138005d36759d634
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820773"
 ---
 # <a name="set-up-fixed-asset-insurance"></a>Configurer une assurance immobilisation
 Pour gérer la couverture d'assurance des immobilisations, vous devez tout d'abord configurer certaines informations générales d'assurance ainsi qu'une fiche assurance par police.
@@ -63,4 +63,3 @@ Vous pouvez définir des feuilles dans un modèle feuille assurance. Les valeurs
 [Finances](finance.md)  
 [Mise en route](product-get-started.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

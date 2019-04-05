@@ -1,8 +1,8 @@
 ---
-title: "Aperçu de la ligne validation de feuille comptabilité | Microsoft Docs"
-description: "Cette rubrique décrit les modifications du codeunit 12, **Groupe compta. - Ligne validation**, qui est l'objet d'application majeur pour la validation de la comptabilité et est le seul emplacement pour insérer des écritures comptables, la TVA et les écritures comptables client et fournisseur."
+title: Aperçu de la ligne validation de feuille comptabilité | Microsoft Docs
+description: Cette rubrique décrit les modifications du codeunit 12, **Groupe compta. - Ligne validation**, qui est l'objet d'application majeur pour la validation de la comptabilité et est le seul emplacement pour insérer des écritures comptables, la TVA et les écritures comptables client et fournisseur.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: design, general ledger, post
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: db90633823f12650f796735a9a83bec8edb60cb9
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2667b5d6d11172736a5dd6c3f7c810d42e3f2501
-ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820280"
 ---
 # <a name="general-journal-post-line-overview"></a>Aperçu de la ligne validation de feuille comptabilité
 Codeunit 12, **Groupe compta.-Ligne validation**, est l'objet d'application majeur pour la validation de la comptabilité et est le seul emplacement pour insérer des écritures comptables, la TVA, et les écritures comptables client et fournisseur. Ce codeunit est également utilisé pour toutes les opérations Appliquer, Désappliquer et Inverser.  
@@ -48,4 +48,3 @@ Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], le codeunit 12 présente les a
 ## <a name="see-also"></a>Voir aussi  
 [Détails de conception : Structure de l'interface de validation](design-details-posting-interface-structure.md)   
 [Détails de conception : Structure du moteur de validation](design-details-posting-engine-structure.md)
-

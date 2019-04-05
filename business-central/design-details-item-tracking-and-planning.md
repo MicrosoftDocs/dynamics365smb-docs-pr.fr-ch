@@ -1,8 +1,8 @@
 ---
-title: "Détails de conception - Lettrage article | Microsoft Docs"
-description: "Cette rubrique décrit le lettrage article lorsque vous validez un mouvement de stock."
+title: Détails de conception - Lettrage article | Microsoft Docs
+description: Cette rubrique décrit le lettrage article lorsque vous validez un mouvement de stock.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: design, item, item ledger, costing
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 0fa6bb40ccd17c01c40a7068ff0b081e5be1aa16
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821151"
 ---
 # <a name="design-details-item-application"></a>Détails de conception : lettrage article
 Lorsque vous validez une transaction de stock, la validation de quantité est enregistrée dans les écritures comptables article, la validation de valeur dans les écritures valeur. Pour plus d'informations, voir [Détails de conception : comptabilisation stock](design-details-inventory-posting.md).  
@@ -36,7 +36,7 @@ Les lettrages article peuvent être effectués des manières suivantes.
 |Méthode|Désignation|Type de lettrage|  
 |------------|---------------------------------------|----------------------|  
 |Automatique|Se produit en tant que transfert de coûts général selon le mode évaluation stock|Lettrage de quantité|  
-|Statique|Effectué par l'utilisateur lorsque :<br /><br /> -   Traitement des retours<br />-   Validation de corrections<br />-   Annulation des validations de quantité<br />-   Création de livraisons directes **Remarque :**  Le lettrage fixe peut être effectué manuellement en saisissant un numéro de séquence dans le champ **Écriture article à lettrer** ou à l'aide d'une fonction, telle que **Afficher des lignes document validées à contrepasser**.|Lettrage de quantité<br /><br /> Coût lettré **Remarque :**  L'application coût se produit uniquement avec des transactions entrantes dont le champ **Écriture article à lettrer** est renseigné pour créer un lettrage fixe. Consultez la table suivante.|  
+|Statique|Effectué par l'utilisateur lorsque :<br /><br /> -   Traitement des retours<br />-   Validation de corrections<br />-   Annulation des validations de quantité<br />-   Création de livraisons directes **Remarque :** Le lettrage fixe peut être effectué manuellement en saisissant un numéro de séquence dans le champ **Écriture article à lettrer** ou à l'aide d'une fonction, telle que **Afficher des lignes document validées à contrepasser**.|Lettrage de quantité<br /><br /> Coût lettré **Remarque :**  L'application coût se produit uniquement avec des transactions entrantes dont le champ **Écriture article à lettrer** est renseigné pour créer un lettrage fixe. Consultez la table suivante.|  
   
 La réalisation des applications de quantité ou applications de coût dépend dépend de la direction de la transaction de stock et si l'application d'article est automatique ou fixe, en fonction des processus spécifiques.  
   
@@ -246,4 +246,3 @@ En raison du mode de calcul du coût unitaire d'un article, un lettrage article 
 [Détails de conception : modes évaluation stock](design-details-costing-methods.md)  
 [Détails de conception : coût moyen](design-details-average-cost.md)  
 [Détails de conception : ajustement des coûts](design-details-cost-adjustment.md)  
-

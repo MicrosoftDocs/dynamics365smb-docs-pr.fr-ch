@@ -1,23 +1,23 @@
 ---
-title: "Définition et Répartition des coûts | Microsoft Docs"
-description: "Les affectations de coûts déplacent les coûts et les revenus entre les types de coûts, les centres de coûts et les coûts associés. Vous pouvez définir autant d'affectations que nécessaire."
+title: Définition et Répartition des coûts | Microsoft Docs
+description: Les affectations de coûts déplacent les coûts et les revenus entre les types de coûts, les centres de coûts et les coûts associés. Vous pouvez définir autant d'affectations que nécessaire.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/13/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: d67329ce09b40019d9568abee47cef33e3b60e85
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820428"
 ---
 # <a name="defining-and-allocating-costs"></a>Définition et répartition des coûts
 Les affectations de coûts déplacent les coûts et les revenus entre les types de coûts, les centres de coûts et les coûts associés. Vous pouvez définir autant d'affectations que nécessaire. Chaque affectation comporte les éléments suivants :  
@@ -145,4 +145,3 @@ Cette rubrique explique comment définir les affectations à l'aide du mode de v
  [Comptabilité pour les coûts](finance-manage-cost-accounting.md)   
  [Terminologie en comptabilité analytique](finance-terminology-in-cost-accounting.md)   
  [À propos de la comptabilité analytique](finance-about-cost-accounting.md)
-

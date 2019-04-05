@@ -1,8 +1,8 @@
 ---
-title: "Configurer des lignes standard pour les ventes et achats récurrents| Microsoft"
-description: "Vous pouvez définir des lignes vente et des lignes achat que vous utilisez fréquemment et les insérer dans des documents achat et vente pour remplir rapidement les lignes avec des informations standard."
+title: Configurer des lignes standard pour les ventes et achats récurrents| Microsoft
+description: Vous pouvez définir des lignes vente et des lignes achat que vous utilisez fréquemment et les insérer dans des documents achat et vente pour remplir rapidement les lignes avec des informations standard.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, replenishment
-ms.date: 10/24/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 4285603b736cbd585c839a533d325384ba27cd15
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: f8c8f96e73f6ba119e4345c8ba12c895dd212da3
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821605"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Créer des lignes ventes et achat récurrentes
 Si vous devez souvent créer des lignes ventes et des lignes achat comportant des informations similaires, vous pouvez configurer des lignes standard que vous pouvez ensuite insérer dans les documents vente et achat, par exemple, pour les commandes de réapprovisionnement récurrentes.  
@@ -50,7 +50,7 @@ Si des lignes vente récurrentes existent pour le client, vous pouvez les insér
 4. Sur la page **Lignes vente récurrentes**, cliquez sur le bouton de recherche du champ **Code**, puis sélectionnez un ensemble de lignes vente standard.
 
     > [!NOTE]
-    > Pour utiliser les lignes vente récurrentes définies avec le traitement par lots **Créer des factures vente récurrentes**, vous devez également renseigner les champs **Date début validité** et **Date fin validité** sur la page **Lignes vente récurrentes**. Pour plus d'informations, voir la section « Pour créer plusieurs factures vente basées sur des lignes vente standard ».
+    > Pour utiliser les lignes vente récurrentes définies avec le traitement par lots **Créer des factures vente récurrentes**, vous devez également renseigner les champs **Date début validité** et **Date fin validité** sur la page **Lignes vente récurrentes**. Pour plus d'informations, voir [Pour créer plusieurs factures vente basées sur des lignes vente standard](sales-how-work-standard-lines.md#to-create-multiple-sales-invoices-based-on-standard-sales-lines).
 
 5. Cliquez sur le bouton **OK** pour insérer les lignes vente standard dans la facture, que vous pouvez réutiliser comme tels ou modifier les informations.
 
@@ -70,4 +70,3 @@ Les factures vente sont créées pour les clients ayant le code vente client sta
 ## <a name="see-also"></a>Voir aussi  
 [Ventes](sales-manage-sales.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

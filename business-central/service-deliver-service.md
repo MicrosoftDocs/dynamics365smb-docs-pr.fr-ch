@@ -1,8 +1,8 @@
 ---
-title: "Aperçu des tâches permettant de fournir un service | Microsoft Docs"
-description: "Décrit les tâches à configurer pour garantir un service de qualité et respecter les engagement vis-à-vis des clients."
+title: Aperçu des tâches permettant de fournir un service | Microsoft Docs
+description: Décrit les tâches à configurer pour garantir un service de qualité et respecter les engagement vis-à-vis des clients.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: service, service items, respond, response
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 129d82355771872f4c1385ec2f1dee4965721dd8
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821424"
 ---
 # <a name="delivering-service"></a>Fournir un service
 [!INCLUDE[d365fin](includes/d365fin_md.md)] inclut des fonctionnalités qui vous permettent d'offrir le service correspondant aux contrats créés et les commandes service que vous vous êtes engagé à traiter. Grâce au **Tableau d'affectation**, les techniciens de service et agents d'affectation ont facilement accès aux commandes service en attente. Le **Tableau d'affectation** affiche les commandes en cours et les commandes terminées.  
@@ -46,4 +46,3 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 [Services de planification](service-plan-service.md)  
 [Exécution des contrats de service](service-fulfill-service-contracts.md)  
 [Gestion des projets](projects-manage-projects.md)  
-

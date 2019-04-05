@@ -1,21 +1,21 @@
 ---
-title: "Gérer, supprimer ou compresser des documents | Microsoft Docs"
-description: "Conservez vos données historiques ou supprimez-les."
+title: Gérer, supprimer ou compresser des documents | Microsoft Docs
+description: Conservez vos données historiques ou supprimez-les.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 5cc49d8b17a56c8f19926cf33e63467005d4788c
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821572"
 ---
 # <a name="manage-documents"></a>Gérer les documents
 Un rôle central, par exemple un administrateur d'application, doit régulièrement gérer les documents accumulés au fil du temps en les supprimant ou en les compressant.  
@@ -33,4 +33,3 @@ Le programme ne supprime pas la commande service automatiquement cependant, si l
 
 ## <a name="see-also"></a>Voir aussi  
 [Administration](admin-setup-and-administration.md)  
-

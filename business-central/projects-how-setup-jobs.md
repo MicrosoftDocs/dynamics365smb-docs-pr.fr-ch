@@ -1,8 +1,8 @@
 ---
 title: Configurer des tarifs de projets et des groupes de comptabilisation de projet| Microsoft Docs
-description: "Décrit comment configurer des informations générales de projets, et des prix d'articles de projet, des ressources, ainsi que des comptes généraux et des groupes de comptabilisation projets."
+description: Décrit comment configurer des informations générales de projets, et des prix d'articles de projet, des ressources, ainsi que des comptes généraux et des groupes de comptabilisation projets.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: project management
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: fc4c413fcb02cda2e0eb2b8caf7af721a26dfe1b
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820218"
 ---
 # <a name="set-up-jobs"></a>Configuration de projets
 Sur la page **Paramètres projets**, vous devez spécifier comment utiliser certaines fonctions de projet.
@@ -120,4 +120,3 @@ L'un des aspects des projets de planification est de décider quels comptes de v
 [Achats](purchasing-manage-purchasing.md)         
 [Ventes](sales-manage-sales.md)      
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

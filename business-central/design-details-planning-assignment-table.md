@@ -1,23 +1,23 @@
 ---
-title: "Détails de conception - tableau d'affectation de planification | Microsoft Docs"
-description: "Cette rubrique donne un aperçu de ce qui se produit lorsque vous modifiez la planification d'un article."
+title: Détails de conception - tableau d'affectation de planification | Microsoft Docs
+description: Cette rubrique donne un aperçu de ce qui se produit lorsque vous modifiez la planification d'un article.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 9a1661d71bd28009a0c0b83a50e27cae3c833ea7
-ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821460"
 ---
 # <a name="design-details-planning-assignment-table"></a>Détails de conception : tableau d'affectation de planification
 Tous les articles doivent être planifiés. Cependant, il n'existe aucune raison de calculer une planification pour un article à moins qu'il n'y ait eu une modification de la configuration de l'offre ou de la demande depuis la dernière fois qu'un plan a été calculé.  
@@ -69,4 +69,3 @@ Lors du calcul d'un MPS ou d'un MRP, les restrictions suivantes s'appliquent :
 [Détails de conception : gestion des méthodes de réapprovisionnement](design-details-handling-reordering-policies.md)   
 [Détails de conception : transferts de planification](design-details-transfers-in-planning.md)   
 [Détails de conception : paramètres de planification](design-details-planning-parameters.md)  
-

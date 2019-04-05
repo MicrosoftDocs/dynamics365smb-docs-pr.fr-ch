@@ -1,6 +1,6 @@
 ---
-title: "Faites bénéficier à vos clients de l'expérience de comptable Dynamics 365 | Microsoft Docs"
-description: "Découvrez comment ajouter les clients existants à l'Accountant Hub pour Dynamics 365."
+title: Faites bénéficier à vos clients de l'expérience de comptable Dynamics 365 | Microsoft Docs
+description: Découvrez comment ajouter les clients existants à l'Accountant Hub pour Dynamics 365.
 author: edupont04
 ms.service: dynamics365-accountant
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 11/23/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: c7f0af8d3535f558567cd40c841909cd151ce313
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821106"
 ---
 # <a name="add-clients-to-your-dashboard-in-include-d365acclongincludesd365acclongmdmd"></a>Ajouter des clients à votre tableau de bord dans [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
@@ -33,7 +33,7 @@ Les données de la fiche de chaque client sont spécifiées par vous, et vous po
 L'URL du client est ensuite utilisée lorsque vous choisissez l'option de menu **Atteindre société** dans le tableau de bord [!INCLUDE [d365acc](includes/d365acc_md.md)].  
 
 ### <a name="get-invited-to-a-clients-include-d365finlongincludesd365finlongmdmd"></a>Être invité dans l'instance [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)] d'un client
-Une société qui utilise [!INCLUDE [d365fin](includes/d365fin_md.md)] peut vous inviter dans [!INCLUDE [d365fin](includes/d365fin_md.md)] comme comptable externe. Pour être invité, vous devez lui communiquer l'adresse électronique que vous utilisez avec [!INCLUDE [d365acc](includes/d365acc_md.md)], par exemple <em>me@accountant.com</em>. L'administrateur de votre client peut ensuite vous ajouter à son système en exécutant l'Assistant **Inviter un comptable externe**.  
+Une société qui utilise [!INCLUDE [d365fin](includes/d365fin_md.md)] peut vous inviter dans [!INCLUDE [d365fin](includes/d365fin_md.md)] comme comptable externe. Pour être invité, vous devez lui communiquer l'adresse électronique que vous utilisez avec [!INCLUDE [d365acc](includes/d365acc_md.md)], par exemple <em>moi@accountant.com</em>. L'administrateur de votre client peut ensuite vous ajouter à son système en exécutant l'Assistant **Inviter un comptable externe**.  
 
 Vous recevrez ensuite un e-mail du client avec des liens vers [!INCLUDE [d365fin](includes/d365fin_md.md)]. Le premier lien est une invitation pour obtenir l'accès à la société. Ouvrez le lien et acceptez les étapes qui vous ajoutent au [!INCLUDE [d365fin](includes/d365fin_md.md)] de votre client. Le second lien vous permet d'ajouter ce client à votre tableau de bord dans [!INCLUDE [d365acc](includes/d365acc_md.md)] comme décrit ci-dessus.  
 
@@ -42,4 +42,3 @@ Lorsque vous avez accepté l'invitation, vous êtes connecté et vous pouvez acc
 ## <a name="see-also"></a>Voir aussi
 [Mise en route avec [!INCLUDE[d365acc](includes/d365acc_md.md)]](get-started.md)  
 [Dépannage de [!INCLUDE[d365acc](includes/d365acc_md.md)]](troubleshooting.md)  
-

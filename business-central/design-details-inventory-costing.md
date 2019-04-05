@@ -1,6 +1,6 @@
 ---
-title: "Détails de conception - Coûts ajustés | Microsoft Docs"
-description: "Cette documentation fournit une analyse technique détaillée des concepts et principes qui sont utilisés dans les fonctions Inventory Costing dans Business Central."
+title: Détails de conception - Coûts ajustés | Microsoft Docs
+description: Cette documentation fournit une analyse technique détaillée des concepts et principes qui sont utilisés dans les fonctions Inventory Costing dans Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, inventory, costing
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
 ms.openlocfilehash: 830c14eb96557f8852d0a4758922503fe0179b58
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820889"
 ---
 # <a name="design-details-inventory-costing"></a>Détails de conception : coûts ajustés
 Cette documentation fournit une analyse technique détaillée des concepts et principes qui sont utilisés dans les fonctions Inventory Costing dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -41,4 +41,3 @@ L'évaluation des coûts de stock, aussi appelé gestion des coûts, se charge d
 [Détails de conception : comptes de la comptabilité](design-details-accounts-in-the-general-ledger.md)
 [Détails de conception : évaluation du stock](design-details-inventory-valuation.md)  
 [Détails de conception : réévaluation](design-details-revaluation.md)
-

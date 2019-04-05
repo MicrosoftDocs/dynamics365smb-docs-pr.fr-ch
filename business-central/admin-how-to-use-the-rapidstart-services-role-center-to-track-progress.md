@@ -1,26 +1,26 @@
 ---
-title: "Procédure d'utilisation du tableau de bord Responsable de l'implémentation de RapidStart Services | Microsoft Docs"
-description: "Lorsque vous utilisez RapidStart Services, il est préférable de faire un suivi de votre travail et d’utiliser le tableau de bord Responsable de l'implémentation de RapidStart Services, car il fournit le contexte correct pour votre travail de configuration."
+title: Procédure d'utilisation du tableau de bord Responsable de l'implémentation de RapidStart Services | Microsoft Docs
+description: Lorsque vous utilisez RapidStart Services, il est préférable de faire un suivi de votre travail et d’utiliser le tableau de bord Responsable de l'implémentation de RapidStart Services, car il fournit le contexte correct pour votre travail de configuration.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: c00a3e452e59e27e7edaad1fbefcfc50316254df
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 572dedec9c00369f405bfc6d3eb4031185f7c780
-ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820309"
 ---
 # <a name="use-the-rapidstart-services-implementer-role-center"></a>Utiliser le tableau de bord Responsable de l'implémentation de RapidStart Services
-Lorsque vous utilisez RapidStart Services, il est préférable d’utiliser le tableau de bord Responsable de l'implémentation de RapidStart Services, car il fournit le contexte correct pour votre travail de configuration. Pour plus d'informations, consultez la section « Pour modifier le tableau de bord » dans [Modification des paramètres de base](ui-change-basic-settings.md).
+Lorsque vous utilisez RapidStart Services, il est préférable d’utiliser le tableau de bord Responsable de l'implémentation de RapidStart Services, car il fournit le contexte correct pour votre travail de configuration. Pour plus d'informations, voir [Pour changer de tableau de bord](ui-change-basic-settings.md#to-change-role-center).
 
 À mesure que vous poursuivez votre travail, vous pouvez affecter à chaque table le statut qui reflète où vous en êtes dans la progression. [!INCLUDE[d365fin](includes/d365fin_md.md)] conserve trace du statut des tables dans la section **Activités** du tableau de bord.  
 
@@ -46,4 +46,3 @@ Dans la partie **Zones de configuration**, les statistiques d’achèvement sont
 ## <a name="see-also"></a>Voir aussi  
 [Configuration d'une société avec RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)
-

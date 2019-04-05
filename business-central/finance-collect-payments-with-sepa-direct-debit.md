@@ -1,23 +1,23 @@
 ---
-title: "Prélèvement SEPA dans Business Central | Microsoft Docs"
-description: "Vous pouvez collecter les paiements directement à partir du compte bancaire du client en fonction du format SEPA."
+title: Prélèvement SEPA dans Business Central | Microsoft Docs
+description: Vous pouvez collecter les paiements directement à partir du compte bancaire du client en fonction du format SEPA.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/15/2018
 ms.author: sgroespe
+ms.openlocfilehash: f917bed9eedf3c0aa8227d9c207de5e38f60a791
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: c732702808f807396702cef9ef0a1a22354ead15
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821032"
 ---
-# <a name="collecting-payments-with-sepa-direct-debit"></a>Recouvrement de paiements par prélèvement automatique SEPA
+# <a name="collect-payments-with-sepa-direct-debit"></a>Recouvrement de paiements par prélèvement automatique SEPA
 Avec le consentement de votre client, vous pouvez collecter les paiements directement à partir du compte bancaire du client en fonction du format SEPA.  
 
  Tout d'abord, définissez le format d'exportation du fichier bancaire qui indique à votre banque comment effectuer un prélèvement automatique. Ensuite, paramétrez le mode de paiement du client. Enfin, configurez le mandat de prélèvement qui reflète votre accord avec le client pour collecter leurs paiements pendant une certaine durée.  
@@ -158,4 +158,3 @@ Avant de pouvoir traiter les paiements client par voie électronique en exportan
 
 ## <a name="see-also"></a>Voir aussi  
 [Gestion des comptes client](receivables-manage-receivables.md)
-

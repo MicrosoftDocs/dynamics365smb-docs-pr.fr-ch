@@ -1,8 +1,8 @@
 ---
-title: "Paramétrer les feuilles de temps et leur approbation| Microsoft Docs"
-description: "Vous paramétrez des feuilles de temps pour suivre le temps consacré aux projets et l'utilisation des ressources, vous aider à gérer des projets, à recruter du personnel, et à anticiper vos capacités"
+title: Paramétrer les feuilles de temps et leur approbation| Microsoft Docs
+description: Vous paramétrez des feuilles de temps pour suivre le temps consacré aux projets et l'utilisation des ressources, vous aider à gérer des projets, à recruter du personnel, et à anticiper vos capacités
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 057497cfee69ed91c5d37828ea290749585f93d8
-ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820742"
 ---
 # <a name="set-up-time-sheets"></a>Paramétrer des feuilles de temps
 Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], les feuilles de temps gèrent l'enregistrement des heures sur une base hebdomadaire par incrément de sept jours. Elles permettent de suivre le temps consacré à des projets, et vous pouvez les utiliser pour enregistrer les heures ressource. Avant de pouvoir utiliser des feuilles de temps, vous devez les configurer.
@@ -64,4 +64,3 @@ Lorsque vous créez des feuilles de temps, vous pouvez créer des feuilles de te
 [Achats](purchasing-manage-purchasing.md)         
 [Ventes](sales-manage-sales.md)      
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

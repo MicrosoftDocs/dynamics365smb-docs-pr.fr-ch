@@ -1,6 +1,6 @@
 ---
-title: "Expérience comptable dans Business Central | Microsoft Docs"
-description: "En savoir plus sur le portail Comptable pour Business Central et le tableau de bord Comptable qui prend en charge les comptables internes et externes de la société du client."
+title: Expérience comptable dans Business Central | Microsoft Docs
+description: En savoir plus sur le portail Comptable pour Business Central et le tableau de bord Comptable qui prend en charge les comptables internes et externes de la société du client.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 3a6b49b754eff669e9991e8c4245ef7acd2689db
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821341"
 ---
 # <a name="accountant-experiences-in-included365finlongincludesd365finlongmdmd"></a>Expériences de comptable dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Chaque entreprise doit tenir ses comptes et valider sa comptabilité. Certaines sociétés utilisent un comptable externe, et d'autres ont un comptable dans le personnel. Peu importe le type de comptable que vous êtes, vous pouvez utiliser le tableau de bord **Comptable** comme pages d'accueil de [!INCLUDE[d365fin](includes/d365fin_md.md)]. De là, vous pouvez accéder à toutes les pages nécessaires pour votre travail.  
@@ -40,4 +40,3 @@ Si vous êtes un comptable avec plusieurs clients, vous pouvez utiliser [!INCLUD
 [Inviter votre comptable externe à votre [!INCLUDE[d365fin](includes/d365fin_md.md)]](finance-invite-external-accountant.md)  
 [Bienvenue dans [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index)  
 [Dynamics 365 - Accountant Hub sur Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
-

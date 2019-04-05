@@ -1,23 +1,23 @@
 ---
-title: "Détails de conception - Concepts centraux du système de planification | Microsoft Docs"
-description: "Les fonctions de planification se trouvent dans un traitement par lots qui sélectionne d'abord les articles appropriés et la période à planifier. Il suggère ensuite les actions que l'utilisateur peut effectuer en fonction de la situation demande/approvisionnement et des paramètres de planification des articles."
+title: Détails de conception - Concepts centraux du système de planification | Microsoft Docs
+description: Les fonctions de planification se trouvent dans un traitement par lots qui sélectionne d'abord les articles appropriés et la période à planifier. Il suggère ensuite les actions que l'utilisateur peut effectuer en fonction de la situation demande/approvisionnement et des paramètres de planification des articles.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 06dc378a045f9217cd54a53fef9747fbd9c7ba1b
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: afbc6454fd133cfc5d2a40ffc12220b9cbf0f6dd
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821261"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Détails de conception : concepts centraux du système de planification
 Les fonctions de planification se trouvent dans un traitement par lots qui sélectionne d'abord les articles appropriés et la période à planifier. Puis, en fonction du code de bas niveau de chaque article (ligne nomenclature), le traitement par lots appelle une unit de code, qui calcule un programme d'approvisionnement en équilibrant les séries approvisionnement-demande et en suggérant des actions possibles à mener pour l'utilisation. Les mesures suggérées apparaissent sous forme de lignes dans la feuille planning ou dans la demande achat.  
@@ -237,7 +237,7 @@ Entamer le stock de sécurité est considéré comme une exception car cela ne d
 En règle générale, les propositions de commande exceptionnelles permettent de s'assurer que le stock disponible prévu n'est jamais inférieur au niveau de stock de sécurité. Cela signifie que la quantité proposée est suffisante pour couvrir le stock de sécurité, sans prendre en compte les paramètres de planification. Toutefois, dans certains cas, des modificateurs de commande sont pris en compte.  
 
 > [!NOTE]  
->  Le système de planification peut consommer le stock de sécurité intentionnellement, puis le réapprovisionne immédiatement. Pour plus d'informations, reportez-vous à la section « Le stock de sécurité peut être consommé » dans [Détails de conception : chargement des profils de stock](design-details-loading-the-inventory-profiles.md).
+>  Le système de planification peut consommer le stock de sécurité intentionnellement, puis le réapprovisionne immédiatement. Pour plus d'informations, reportez-vous à [Le stock de sécurité peut être consommé](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).
 
 ### <a name="attention"></a>Attention  
 L'avertissement Attention est affiché dans trois situations :  
@@ -289,4 +289,3 @@ Cela complète la planification des concepts centraux en relation avec la planif
 [Détails de conception : tableau d'affectation de planification](design-details-planning-assignment-table.md)   
 [Détails de conception : gestion des méthodes de réapprovisionnement](design-details-handling-reordering-policies.md)   
 [Détails de conception : équilibrage de la demande et de l'approvisionnement](design-details-balancing-demand-and-supply.md)
-

@@ -1,7 +1,7 @@
 ---
-title: "Créer une facture achat et enregistrer les achats | Microsoft Docs"
-description: "Décrit comment acheter des articles stock ou service en créant et en validant des factures ou des commandes achat."
-documentationcenter: 
+title: Créer une facture achat et enregistrer les achats | Microsoft Docs
+description: Décrit comment acheter des articles stock ou service en créant et en validant des factures ou des commandes achat.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: procurement
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: cc0a5e88342e9f4c7493cf9d3390c248e6dd36b9
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821187"
 ---
 # <a name="record-purchases"></a>Enregistrer des achats
 Vous créez une facture achat ou une commande achat pour enregistrer le coût d'achats et suivre les créances. Si vous devez contrôler un stock, les factures achat et les commandes achat sont également utilisées pour mettre à jour de manière dynamique les niveaux de stock afin que vous puissiez réduire vos coûts et fournir un meilleur service client. Le prix d'achat, notamment les frais de service, et les valeurs d'inventaire qui résultent de la validation des factures achat ou des commandes contribuent aux chiffres du profit et à d'autres KPI financiers sur votre Tableau de bord.
@@ -79,4 +79,3 @@ L'achat est désormais visible dans le stock et les enregistrements financiers, 
 [Enregistrer un nouveau fournisseur](purchasing-how-register-new-vendors.md)  
 [Préparer des livraisons directes](sales-how-drop-shipment.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,8 +1,8 @@
 ---
-title: "Enregistrer l'utilisation facturable et budgétée des ressources de projet| Microsoft Docs"
-description: "Décrit comment enregistrer la consommation ou l'utilisation des articles ou des ressources sur des projets pour faciliter la gestion de projets."
+title: Enregistrer l'utilisation facturable et budgétée des ressources de projet| Microsoft Docs
+description: Décrit comment enregistrer la consommation ou l'utilisation des articles ou des ressources sur des projets pour faciliter la gestion de projets.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: project management, consumption
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: f1b3864eadd616273c3a4a7d061623dab701d01e
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821043"
 ---
 # <a name="record-usage-for-jobs"></a>Enregistrer l'utilisation pour les projets
 Sur la page **Lignes planning projet**, vous pouvez consulter et enregistrer l'activité sur les différentes parties de votre projet, qui est automatiquement mis à jour lorsque vous modifiez et transférez des informations entre les projets et les feuilles projet ou les factures projet. Cela suppose d'avoir paramétré un projet afin que **Appliquer le lien d'utilisation par défaut** soit activé. Pour plus d'informations, voir [Configuration de projets](projects-how-setup-jobs.md).  
@@ -91,4 +91,3 @@ Après avoir validé les lignes feuilles projets, vous pouvez voir les lignes pl
 [Achats](purchasing-manage-purchasing.md)         
 [Ventes](sales-manage-sales.md)      
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

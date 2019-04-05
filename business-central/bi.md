@@ -1,8 +1,8 @@
 ---
-title: "Veille économique| Microsoft Docs"
-description: "Capturez et analysez des données métier, par exemple les chiffres de vente de l'organisation, les achats, les dépenses opérationnelles, les salaires des employés et les budgets, peuvent être des informations précieuses, pour la veille économique ou pour les décisionnaires."
+title: Veille économique| Microsoft Docs
+description: Capturez et analysez des données métier, par exemple les chiffres de vente de l'organisation, les achats, les dépenses opérationnelles, les salaires des employés et les budgets, peuvent être des informations précieuses, pour la veille économique ou pour les décisionnaires.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 702ebfd345c7f2e09f7d84105d7d0a3e76f0550f
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821312"
 ---
 # <a name="business-intelligence"></a>Veille économique
 Les entreprises capturent une énorme quantité de données de par leur activité quotidienne. Ces données, qui reflètent par exemple les chiffres de vente de l'organisation, les achats, les dépenses opérationnelles, les salaires des employés et les budgets, peuvent devenir des informations précieuse, ou veille économique, pour les décisionnaires. [!INCLUDE[d365fin](includes/d365fin_md.md)] contient un certain nombre de fonctionnalités qui vous permettent de collecter, d'analyser et de partager les données de votre société.
@@ -42,9 +42,8 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 [Finances](finance.md)    
 [Utilisation de Business Central comme source de données Power BI](across-how-use-financials-data-source-powerbi.md)  
 [Clôture des périodes fiscales](year-close-years-periods.md)  
-[Importation de données à partir d'autres systèmes financiers](across-import-data-configuration-packages.md)(across-import-data-configuration-packages.md)  
+[Importation de données à partir d'autres systèmes financiers](across-import-data-configuration-packages.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
  
-

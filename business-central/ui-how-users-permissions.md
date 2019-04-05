@@ -1,6 +1,6 @@
 ---
 title: Affecter ou modifier des autorisations d'utilisateur | Microsoft Docs
-description: "Décrit comment ajouter des utilisateurs d'Office 365 à Business Central, puis affecte des autorisations, des droits d'accès, et des paramètres de sécurité."
+description: Décrit comment ajouter des utilisateurs d'Office 365 à Business Central, puis affecte des autorisations, des droits d'accès, et des paramètres de sécurité.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,25 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 11/08/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: e60b7d875ebd0a598908f37a59a49953c61479f1
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
-ms.openlocfilehash: 78e83ee0740531935bd30a5988a72d1421a1fd89
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/29/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821136"
 ---
 # <a name="managing-users-and-permissions"></a>Gestion des utilisateurs et des autorisations
 Pour ajouter des utilisateurs dans [!INCLUDE[d365fin](includes/d365fin_md.md)], l'administrateur Office 365 de votre société doit d'abord créer les utilisateurs dans le centre d’administration Office 365. Pour plus d'informations, voir [Ajouter des utilisateurs à Office 365 for business](https://aka.ms/CreateOffice365Users).
 
-Une fois les utilisateurs créées dans Office 365, ils peuvent être importés sur la page **Utilisateurs** de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Des ensembles d'autorisations sont affectés aux utilisateurs selon le plan qui leur est affecté dans Office 365. Pour des informations détaillées sur la gestion des licences, voir [Guide des licences Microsoft Dynamics 365 Business Central](https://aka.ms/BusinessCentralLicensing).
+Une fois les utilisateurs créées dans Office 365, ils peuvent être importés sur la page **Utilisateurs** de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Des ensembles d'autorisations sont affectés aux utilisateurs selon le plan qui leur est affecté dans Office 365. Pour des informations détaillées sur la gestion des licences, voir [Guide des licences Microsoft Dynamics 365 Business Central](https://aka.ms/BusinessCentralLicensing).
 
 Vous pouvez ensuite passer à l'affectation des ensembles d'autorisations aux utilisateurs pour définir à quels objets de base de données, et de ce fait, à quels éléments de l'interface utilisateur, ils ont accès et dans quelles sociétés. Vous pouvez ajouter des utilisateurs aux groupes d'utilisateurs. Cela facilite l'affectation des mêmes ensembles d'autorisations à plusieurs utilisateurs.
 
 Un ensemble d'autorisations est une collection d'autorisations pour des objets spécifiques de la base de données. Tous les utilisateurs doivent être affectés à une ou plusieurs séries d’autorisations avant de pouvoir accéder à [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Sur la page **Fiche utilisateur**, vous pouvez ouvrir la page **Autorisations effectives** pour connaître les autorisations de l'utilisateur et les ensembles d'autorisations qui lui sont accordés. Vous pouvez également modifier les détails d'autorisation pour les ensembles d'autorisations de type **Défini par l'utilisateur**. Pour plus d'informations, voir la section « Pour afficher ou modifier les autorisations d'un utilisateur ».
+Sur la page **Fiche utilisateur**, vous pouvez ouvrir la page **Autorisations effectives** pour connaître les autorisations de l'utilisateur et les ensembles d'autorisations qui lui sont accordés. Vous pouvez également modifier les détails d'autorisation pour les ensembles d'autorisations de type **Défini par l'utilisateur**. Pour plus d'informations, voir [Pour afficher ou modifier les autorisations d'un utilisateur](ui-how-users-permissions.md#to-get-an-overview-of-a-users-permissions).
 
 Les administrateurs peuvent utiliser la page **Paramètres utilisateur** pour définir les périodes de temps pendant lesquelles les utilisateurs spécifiés peuvent valider, et spécifier également si le système enregistre la durée pendant laquelle les utilisateurs spécifiés ont ouvert une session.
 
@@ -38,7 +38,7 @@ Un autre système qui définit ce à quoi les utilisateurs peuvent accéder est 
 
 Tout nouvel utilisateur créé pour votre abonnement Office 365 est ajouté à la page **Utilisateurs**.
 
-## <a name="to-group-users-in-a-user-group"></a>Pour regrouper des utilisateurs dans un groupe d'utilisateurs
+## <a name="to-group-users-in-user-groups"></a>Pour regrouper des utilisateurs dans des groupes d'utilisateurs
 Vous pouvez définir des groupes d'utilisateurs pour vous aider à gérer les ensembles d'autorisations pour des groupes d'utilisateurs de votre société.
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Groupes d'utilisateurs**, puis sélectionnez le lien associé.
@@ -46,7 +46,7 @@ Vous pouvez définir des groupes d'utilisateurs pour vous aider à gérer les en
 3. Sur la page **Groupe d'utilisateurs**, sélectionnez l'action **Membres du groupe d'utilisateurs**.
 4. Sur la page **Groupe d'utilisateurs**, choisissez l'action **Ajouter des utilisateurs**.
 
-Quand des utilisateurs ou des groupes d'utilisateurs sont créés, vous devez affecter des ensembles d'autorisations à chacun pour définir les objets auxquels un utilisateur peut accéder. Premièrement, vous devez planifier les autorisations appropriées dans les ensembles d'autorisations. Pour plus d'informations, voir la section « Pour créer ou modifier des ensembles d'autorisations ».
+Quand des utilisateurs ou des groupes d'utilisateurs sont créés, vous devez affecter des ensembles d'autorisations à chacun pour définir les objets auxquels un utilisateur peut accéder. Premièrement, vous devez planifier les autorisations appropriées dans les ensembles d'autorisations. Pour plus d'informations, voir [Pour afficher ou modifier les autorisations d'un utilisateur](ui-how-users-permissions.md#to-get-an-overview-of-a-users-permissions).
 
 ## <a name="to-copy-a-user-group-and-all-its-permission-sets"></a>Pour copier un groupe d'utilisateurs et tous ses ensembles d'autorisations
 Pour définir rapidement un nouveau groupe d'utilisateurs, vous pouvez copier tous les ensembles d'autorisations d'un groupe d'utilisateurs existant vers un nouveau groupe d'utilisateurs.
@@ -57,7 +57,7 @@ Les membres du groupe d'utilisateurs ne sont pas copié vers le nouveau groupe d
 2. Sélectionnez le groupe d'utilisateurs à partir duquel vous souhaitez copier, puis choisissez l'action **Copier groupe d'utilisateurs**.
 3. Dans le champ **Nouveau code du groupe d'utilisateurs**, spécifiez le nom du nouveau groupe, puis cliquez sur le bouton **OK**.
 
-Le nouveau groupe d'utilisateurs est ajouté à la page **Groupes d'utilisateurs**. Ajoutez ensuite des utilisateurs. Pour plus d'informations, reportez-vous à la section « Pour regrouper des utilisateurs dans des groupes d'utilisateurs ».  
+Le nouveau groupe d'utilisateurs est ajouté à la page **Groupes d'utilisateurs**. Ajoutez ensuite des utilisateurs. Pour plus d'informations, reportez-vous à [Pour regrouper des utilisateurs dans des groupes d'utilisateurs](ui-how-users-permissions.md#to-group-users-in-a-user-group).  
 
 ## <a name="to-set-up-user-time-constraints"></a>Pour configurer des contraintes de temps utilisateur
 Les administrateurs peuvent définir les périodes de temps pendant lesquelles les utilisateurs spécifiés peuvent valider, et spécifier également si le système enregistre la durée pendant laquelle les utilisateurs spécifiés ont ouvert une session. Les administrateurs peuvent également affecter des centres de gestion à des utilisateurs. Pour plus d'informations, voir [Utiliser les centres de gestion](inventory-responsibility-centers.md).
@@ -68,7 +68,7 @@ Les administrateurs peuvent définir les périodes de temps pendant lesquelles l
 4. Renseignez les champs selon vos besoins.
 
 ## <a name="to-create-or-modify-a-permission-set"></a>Pour créer ou modifier un ensemble d'autorisations
-Les ensembles d'autorisations fonctionnent comme des conteneurs d'autorisations, de sorte que vous puissiez gérer facilement plusieurs autorisations en un enregistrement. Lorsque vous avez créé un ensemble d'autorisations, vous devez ajouter les autorisations réelles. Pour plus d'informations, voir la section « Pour créer ou modifier des autorisations ».
+Les ensembles d'autorisations fonctionnent comme des conteneurs d'autorisations, de sorte que vous puissiez gérer facilement plusieurs autorisations en un enregistrement. Lorsque vous avez créé un ensemble d'autorisations, vous devez ajouter les autorisations réelles. Pour plus d'informations, voir [Pour créer ou modifier des autorisations](ui-how-users-permissions.md#to-create-or-modify-permissions-manually).
 
 > [!NOTE]  
 > Une solution [!INCLUDE[d365fin](includes/d365fin_md.md)] contient souvent plusieurs ensembles d'autorisations prédéfinis qui sont ajoutés par Microsoft ou par votre fournisseur de logiciels. Ces ensembles d'autorisations sont de type **Système** ou **Extension**. Vous ne pouvez pas créer ou modifier ces types d'ensembles d'autorisations ou les autorisations qu'ils contiennent. Cependant, vous pouvez les copier pour définir vos propres ensembles d'autorisations et autorisations. <br /><br />
@@ -91,7 +91,7 @@ Lorsque vous créez des ensembles d'autorisations, vous pouvez utiliser une fonc
 Le nouvel ensemble d'autorisations, contenant toutes les autorisations de l'ensemble d'autorisations copié, est ajouté en tant que nouvelle ligne sur la page **Ensembles d'autorisations**. Notez que les lignes sont triées alphabétiquement dans chaque type.
 
 ## <a name="to-create-or-modify-permissions-manually"></a>Pour créer ou modifier des autorisations manuellement
-Cette procédure explique comment ajouter ou modifier des autorisations manuellement. Vous pouvez aussi avoir des ensembles d'autorisations générés automatiquement suite à vos actions dans l'interface utilisateur. Pour plus d'informations, reportez-vous à la section « Pour créer ou modifier des ensembles d'autorisations en enregistrant vos actions. »
+Cette procédure explique comment ajouter ou modifier des autorisations manuellement. Vous pouvez aussi avoir des ensembles d'autorisations générés automatiquement suite à vos actions dans l'interface utilisateur. Pour plus d'informations, reportez-vous à [Pour créer ou modifier des ensembles d'autorisations en enregistrant vos actions](ui-how-users-permissions.md#to-create-or-modify-permission-sets-by-recording-your-actions).
 
 1. Sur la page **Ensembles d'autorisations**, sélectionnez la ligne d'un ensemble d'autorisations, puis sélectionnez l'action **Autorisations**.
 2. Sur la page **Autorisations**, créez une ligne ou modifiez les champs d'une ligne existante.
@@ -109,6 +109,10 @@ L'autorisation indirecte vous permet d'utiliser un objet uniquement au travers d
 Par exemple, un utilisateur peut être autorisé à exécuter le codeunit 80 (Ventes-Valider). Le codeunit Ventes-Valider effectue de nombreuses tâches, parmi lesquelles modifier la table 37 (Ligne vente). Lorsque l'utilisateur valide un document vente, le codeunit Ventes-Valider, [!INCLUDE[d365fin](includes/d365fin_md.md)] vérifie si l'utilisateur est autorisé à modifier la table Ligne vente. S'il n'est pas autorisé à le faire, le codeunit ne peut pas effectuer ses tâches et l'utilisateur reçoit un message d'erreur. S'il est autorisé à le faire, le codeunit s'exécute.
 
 L'utilisateur n'a toutefois pas besoin d'avoir entièrement accès à la table Ligne vente pour exécuter le codeunit. Si une autorisation indirecte a été accordée à l'utilisateur pour la table Ligne vente, alors le codeunit Ventes-Valider s'exécute. Lorsqu'une autorisation indirecte est accordée à un utilisateur, celui-ci peut uniquement modifier la table Ligne vente en exécutant le codeunit Ventes-Valider ou un autre objet autorisé à modifier la table Ligne vente. L'utilisateur peut uniquement modifier la table Ligne vente lorsqu'il procède à partir des modules pris en charge. L'utilisateur ne peut pas exécuter cette fonctionnalité par inadvertance ou par malveillance en suivant d'autres méthodes.
+
+### <a name="to-limit-a-users-access-to-specific-records-in-a-table"></a>Pour limiter l'accès d'un utilisateur à des enregistrements spécifiques dans une table
+Pour la sécurité au niveau des enregistrements dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous utilisez des filtres de sécurité pour limiter l'accès d'un l'utilisateur aux données dans une table. Vous créez des filtres de sécurité sur les données de la table. Un filtre de sécurité décrit un ensemble d'enregistrements dans une table auxquels un utilisateur a l'autorisation d'accéder. Vous pouvez indiquer, par exemple, qu'un utilisateur peut uniquement lire les enregistrements qui contiennent des informations relatives à un client particulier. Cela signifie que l'utilisateur ne peut pas accéder aux enregistrements qui contiennent des informations sur d'autres clients. Pour plus d'informations, voir [Utilisation des filtres de sécurité](/dynamics365/business-central/dev-itpro/security/security-filters) dans l'aide sur Developer and IT Pro.
+
 
 ## <a name="to-create-or-modify-permission-sets-by-recording-your-actions"></a>Pour créer ou modifier des ensembles d'autorisations en enregistrant vos actions
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Ensembles d'autorisations**, puis sélectionnez le lien associé.
@@ -138,7 +142,7 @@ Vous pouvez affecter des autorisations aux utilisateurs de deux manières :
 2. Sélectionnez l'utilisateur auquel affecter des autorisations.
 Tous les ensembles d’autorisations qui sont affectés à l’utilisateur sont affichés dans le récapitulatif **Ensemble d’autorisations utilisateur**.
 3. Sélectionnez l'option **Modifier** pour ouvrir la page **Fiche utilisateur**.
-4. Sur le raccourci **Ensembles d'autorisations utilisateur**, renseignez les champs, le cas échéant sur une nouvelle ligne. Pour plus d'informations, voir la section « Pour créer ou modifier des ensembles d'autorisations ».
+4. Sur le raccourci **Ensembles d'autorisations utilisateur**, renseignez les champs, le cas échéant sur une nouvelle ligne. Pour plus d'informations, voir [Pour créer ou modifier des ensembles d'autorisations](ui-how-users-permissions.md#to-create-or-modify-a-permission-set).
 
 ### <a name="to-assign-a-permission-set-on-the-permission-set-by-user-page"></a>Pour affecter un ensemble d'autorisations sur la page **Ensemble d'autorisations par utilisateur**  
 La procédure suivante explique comment affecter des ensembles d'autorisations à un utilisateur sur la page **Ensemble d'autorisations par utilisateur**. Les étapes sont similaires sur la page **Ensemble d'autorisations par groupe d'utilisateurs**.
@@ -161,20 +165,20 @@ La procédure suivante explique comment affecter des ensembles d'autorisations �
 
     > [!NOTE]  
     > Seuls les ensembles d'autorisations de type **Défini par l'utilisateur** peuvent être modifiés.<br /><br />
-    > Les lignes du droit source proviennent du plan d'abonnement. Les valeurs d’autorisation du droit sont prioritaires sur les valeurs des autres ensembles d’autorisations si elles ont un rang supérieur. Une valeur dans un ensemble d'autorisations de non droit qui a un rang supérieur à la valeur associée dans le droit sera entourée de parenthèses pour indiquer qu'elle n'est pas effective car elle est outrepassée par le droit. Pour une explication sur le classement, voir la section « Pour créer ou modifier des autorisations ».  
+    > Les lignes du droit source proviennent du plan d'abonnement. Les valeurs d’autorisation du droit sont prioritaires sur les valeurs des autres ensembles d’autorisations si elles ont un rang supérieur. Une valeur dans un ensemble d'autorisations de non droit qui a un rang supérieur à la valeur associée dans le droit sera entourée de parenthèses pour indiquer qu'elle n'est pas effective car elle est outrepassée par le droit. Pour une explication sur le classement, voir [Pour créer ou modifier des autorisations](ui-how-users-permissions.md#to-create-or-modify-permissions-manually).  
 
 4. Pour modifier un ensemble d'autorisations, dans la section **Par ensemble d'autorisations**, sur la ligne d'un ensemble d'autorisations approprié de type **Défini par l'utilisateur**, choisissez l'un des cinq champs de type d'accès et sélectionnez une valeur différente.
 
-5. Pour modifier des autorisations individuelles dans l'ensemble d'autorisations, choisissez la valeur dans le champ **Ensemble d'autorisations** pour ouvrir la page **Autorisations**. Suivez la procédure décrite dans la section « Pour créer ou modifier des autorisations ».  
+5. Pour modifier des autorisations individuelles dans l'ensemble d'autorisations, choisissez la valeur dans le champ **Ensemble d'autorisations** pour ouvrir la page **Autorisations**. Suivez la procédure décrite dans [Pour créer ou modifier des autorisations](ui-how-users-permissions.md#to-create-or-modify-permissions-manually).  
 
 > [!NOTE]  
 > Lorsque vous modifiez un ensemble d'autorisations, les modifications s'appliquent également à d'autres utilisateurs auxquels l'ensemble d'autorisations est affecté.
 
 ## <a name="see-also"></a>Voir aussi
+[Sécurité et protection dans Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection)  
 [Comprendre les utilisateurs, les profils et les tableaux de bord](admin-users-profiles-roles.md)  
 [Préparation aux activités commerciales](ui-get-ready-business.md)  
 [Modification des fonctionnalités affichées](ui-experiences.md)  
 [Administration](admin-setup-and-administration.md)  
 [Ajouter des utilisateurs à Office 365 for business](https://aka.ms/CreateOffice365Users)  
 [Guide des licences Microsoft Dynamics 365 Business Central](https://aka.ms/BusinessCentralLicensing)
-

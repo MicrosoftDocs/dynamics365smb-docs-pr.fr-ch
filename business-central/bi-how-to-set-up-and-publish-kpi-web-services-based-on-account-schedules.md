@@ -1,23 +1,23 @@
 ---
 title: Configurer et publier les services Web KPI pour les tableaux d'analyse | Microsoft Docs
-description: "Cette rubrique décrit comment afficher les données KPI basées sur des tableaux d'analyse spécifiques."
+description: Cette rubrique décrit comment afficher les données KPI basées sur des tableaux d'analyse spécifiques.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 89ea440851c359db7e08d4f0265a647cb9424330
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820861"
 ---
 # <a name="set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>Configuration et publication des services Web KPI sur la base de tableaux d'analyse
 La page **Tableau d'analyse - Paramètres du service web KPI** vous permet de configurer la manière dont les informations KPI du tableau d'analyse sont affichées et sur quels tableaux d'analyse spécifiques baser les KPI. Lorsque vous sélectionnez le bouton **Publier le service Web**, les informations KPI du tableau d'analyse spécifiées sont ajoutées à la liste des services Web publiés sur la page **Services web**.  
@@ -57,4 +57,3 @@ La page **Tableau d'analyse - Paramètres du service web KPI** vous permet de co
 [Configuration de Finance](finance-setup-finance.md)  
 [Les écritures comptables et le plan comptable](finance-general-ledger.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

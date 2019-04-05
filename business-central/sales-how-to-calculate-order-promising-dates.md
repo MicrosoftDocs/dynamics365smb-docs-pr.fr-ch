@@ -1,23 +1,23 @@
 ---
-title: "Procédure : calculer des dates promesse livraison | Microsoft Docs"
-description: "La fonction de configuration des promesses livraison est un outil permettant de calculer la date la plus proche à laquelle un article est disponible pour la livraison ou l'expédition. Cette fonction crée également des lignes demande achat pour les dates que vous acceptez."
+title: 'Procédure : calculer des dates promesse livraison | Microsoft Docs'
+description: La fonction de configuration des promesses livraison est un outil permettant de calculer la date la plus proche à laquelle un article est disponible pour la livraison ou l'expédition. Cette fonction crée également des lignes demande achat pour les dates que vous acceptez.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/23/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 2b1eae5f8562999f3fca227b6de6778ef1c5374e
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820528"
 ---
 # <a name="calculate-order-promising-dates"></a>Calculer des dates promesse livraison
 Une société doit pouvoir informer ses clients des dates de livraison de commande. La page **Lignes promesse de livraison** vous permet d'effectuer cette opération à partir d'une ligne commande vente.  
@@ -147,4 +147,3 @@ Avant qu'un article puisse être inclus dans le calcul de la promesse de livrais
 [Ventes](sales-manage-sales.md)  
 [Calcul de la date des achats](purchasing-date-calculation-for-purchases.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

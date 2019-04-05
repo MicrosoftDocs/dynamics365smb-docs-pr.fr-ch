@@ -1,23 +1,23 @@
 ---
-title: "Procédure : créer des flux de travail à partir de modèles de flux de travail | Microsoft Docs"
-description: "Pour gagner du temps lors de la création de workflows, vous pouvez créer des workflows à partir de modèles de workflow existants."
+title: 'Procédure : créer des flux de travail à partir de modèles de flux de travail | Microsoft Docs'
+description: Pour gagner du temps lors de la création de workflows, vous pouvez créer des workflows à partir de modèles de workflow existants.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 0ae5a7a308568dd8ede10c485564824685963bf4
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821540"
 ---
 # <a name="create-workflows-from-workflow-templates"></a>Créer des flux de travail à partir de modèles de flux de travail
 Pour gagner du temps lors de la création de workflows, vous pouvez créer des workflows à partir de modèles de workflow existants.  
@@ -45,4 +45,3 @@ Sur la page **Workflow**, créez un workflow en répertoriant les étapes concer
  [Paramétrage des workflows](across-set-up-workflows.md)   
  [Utilisation des workflows](across-use-workflows.md)   
  [Flux de travail](across-workflow.md)   
-

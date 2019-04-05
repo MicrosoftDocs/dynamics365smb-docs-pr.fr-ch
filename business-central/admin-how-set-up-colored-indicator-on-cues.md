@@ -1,23 +1,23 @@
 ---
-title: "Spécifier des indicateurs en couleur pour personnaliser les signaux visuels à propos de l'activité d'une pile pour la société ou des utilisateurs individuels | Microsoft Docs"
-description: "En tant qu'administrateur, vous pouvez définir des piles apparaissant sur les Tableaux de bord des utilisateurs comprenant un indicateur qui modifie la couleur en fonction des valeurs de données dans les piles."
+title: Spécifier des indicateurs en couleur pour personnaliser les signaux visuels à propos de l'activité d'une pile pour la société ou des utilisateurs individuels | Microsoft Docs
+description: En tant qu'administrateur, vous pouvez définir des piles apparaissant sur les Tableaux de bord des utilisateurs comprenant un indicateur qui modifie la couleur en fonction des valeurs de données dans les piles.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 33b0271c85d97abb8cd4a65c8c9ab9ddd354674b
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820211"
 ---
 # <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Configurer un indicateur coloré sur les piles pour la société ou les utilisateurs individuelles
 En tant qu'administrateur, vous pouvez définir des piles apparaissant sur les Tableaux de bord des utilisateurs comprenant un indicateur qui modifie la couleur en fonction des valeurs de données dans les piles.  

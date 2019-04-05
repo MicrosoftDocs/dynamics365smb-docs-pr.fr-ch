@@ -1,6 +1,6 @@
 ---
-title: "Utiliser Excel pour importer des données dans Business Central| Microsoft Docs"
-description: "Utilisez le package de configuration par défaut pour ajouter des données client dans Excel et les importer ensuite dans Business Central."
+title: Utiliser Excel pour importer des données dans Business Central| Microsoft Docs
+description: Utilisez le package de configuration par défaut pour ajouter des données client dans Excel et les importer ensuite dans Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: migration, Excel
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: f5ca69c1e542a9b5846c99b03103fd9b2be86499
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820370"
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a>Importation des données métier à partir d'autres systèmes financiers
 Lorsque vous effectuez votre inscription à [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez choisir de créer une société vierge afin d'être en mesure de télécharger vos propres données et de tester votre société [!INCLUDE[d365fin](includes/d365fin_md.md)]. En fonction de la solution financière qu'utilise votre société aujourd'hui, vous pouvez transférer des informations sur les clients, les fournisseurs, le stock et les comptes bancaires.  
@@ -77,8 +77,7 @@ Le package de configuration par défaut prend en charge les tables suivantes :
 ## <a name="see-also"></a>Voir aussi
 [Configuration d'une société avec RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Extension QuickBooks Data Migration](ui-extensions-quickbooks-data-migration.md)  
-[Extension Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md)  
+[Migration de données Dynamics GP](ui-extensions-dynamicsgp-data-migration.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
  
-

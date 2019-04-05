@@ -1,6 +1,6 @@
 ---
-title: "Créer des périodes et des exercices comptables | Microsoft Docs"
-description: "Vous devez ouvrir un exercice comptable et définir ses périodes comptables avant de pouvoir y effectuer une validation."
+title: Créer des périodes et des exercices comptables | Microsoft Docs
+description: Vous devez ouvrir un exercice comptable et définir ses périodes comptables avant de pouvoir y effectuer une validation.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.keywords: accounting year, fiscal period
 ms.date: 11/21/2018
 ms.author: edupont
 redirect_url: finance-accounting-periods-and-fiscal-years
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: cb523f1ee5b8bfafa63fc41284da6450f205967e
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821108"
 ---
 # <a name="open-a-new-fiscal-year-and-create-accounting-periods"></a>Ouvrir un nouvel exercice comptable et créer des périodes comptables
 Avant de pouvoir effectuer une validation dans un exercice comptable, vous devez l'ouvrir et définir ses périodes comptables.  
@@ -39,4 +39,3 @@ Les périodes comptables sont ajoutées à la page avec les champs **Date début
 [Valider l'écriture de clôture d'exercice](year-how-post-year-end-close-entry.md)  
 [Finances](finance.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

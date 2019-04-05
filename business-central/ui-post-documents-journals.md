@@ -1,8 +1,8 @@
 ---
-title: "Aperçu de la validation des documents et des feuilles | Microsoft Docs"
-description: "Décrit la validation des actions et les méthodes vous permettant de valider des documents et des feuilles."
+title: Aperçu de la validation des documents et des feuilles | Microsoft Docs
+description: Décrit la validation des actions et les méthodes vous permettant de valider des documents et des feuilles.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 139cc2d43dbebb3c6c2f386b2977ba67bbe438d6
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820341"
 ---
 # <a name="post-documents-and-journals"></a>Valider des documents et des feuilles
 La validation est une action de comptabilité qui consiste à enregistrer des transactions commerciales dans les divers livres comptables de la société.
@@ -36,5 +36,4 @@ Le tableau suivant décrit les tâches associées, et inclut des liens vers les 
 ## <a name="see-also"></a>Voir aussi
 [Fonctionnalités marché](ui-across-business-areas.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
 

@@ -1,6 +1,6 @@
 ---
-title: "Affichage et modification des paramètres de base | Microsoft Docs"
-description: "Découvrez comment modifier certains paramètres de base, par exemple, le tableau de bord, la société ou la date de travail."
+title: Affichage et modification des paramètres de base | Microsoft Docs
+description: Découvrez comment modifier certains paramètres de base, par exemple, le tableau de bord, la société ou la date de travail.
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
 ms.date: 11/19/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 353662322e36a564f30bc911f056817cafa7440c
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820771"
 ---
 # <a name="changing-basic-settings"></a>Modification des paramètres de base
 Sur la page [**Mes paramètres**](https://businesscentral.dynamics.com?page=9176 "Accédez directement à votre page Paramètres utilisateurs dans Business Central"), vous pouvez visualiser et modifier les paramètres de base pour [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vos modifications affectent uniquement votre espace de travail, et non les espaces de travail des autres utilisateurs.  
@@ -65,4 +65,3 @@ Sélectionnez ce lien pour afficher ou modifier les notifications que vous recev
 ## <a name="see-also"></a>Voir aussi
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Modification des fonctionnalités affichées](ui-experiences.md)  
-

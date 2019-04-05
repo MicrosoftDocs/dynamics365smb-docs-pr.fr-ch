@@ -1,21 +1,21 @@
 ---
-title: "Détails de conception - Coût moyen | Microsoft Docs"
-description: "Le coût moyen d'un article est calculé avec une moyenne pondérée périodique, selon la période coût moyen qui est paramétrée dans Business Central."
+title: Détails de conception - Coût moyen | Microsoft Docs
+description: Le coût moyen d'un article est calculé avec une moyenne pondérée périodique, selon la période coût moyen qui est paramétrée dans Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 97bc83c402cd8bbdc34f05035dfa6c680c2e635e
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821515"
 ---
 # <a name="design-details-average-cost"></a>Détails de conception : coût moyen
 Le coût moyen d'un article est calculé avec une moyenne pondérée périodique, selon la période coût moyen qui est paramétrée dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -212,4 +212,3 @@ Le coût moyen d'un article est calculé avec une moyenne pondérée périodique
  [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  
  [Finances](finance.md)  
  [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

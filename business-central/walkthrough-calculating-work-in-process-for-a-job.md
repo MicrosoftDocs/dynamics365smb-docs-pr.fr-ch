@@ -1,23 +1,23 @@
 ---
-title: "Procédure pas à pas : calcul des travaux en cours pour un projet | Microsoft Docs"
-description: "Avec les projets, vous pouvez planifier l'utilisation des ressources de votre société et suivre les différents coûts pour un projet spécifique. Les projets impliquent la consommation d'heures salarié, d'heures machines, d'articles en stock et d'autres types d'activité devant être suivis au fur et à mesure de l'avancée du projet."
+title: 'Procédure pas à pas : calcul des travaux en cours pour un projet | Microsoft Docs'
+description: Avec les projets, vous pouvez planifier l'utilisation des ressources de votre société et suivre les différents coûts pour un projet spécifique. Les projets impliquent la consommation d'heures salarié, d'heures machines, d'articles en stock et d'autres types d'activité devant être suivis au fur et à mesure de l'avancée du projet.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
 ms.openlocfilehash: 396aefb64b4bc4f4555ae3a512656aa3c66bad20
-ms.contentlocale: fr-ch
-ms.lasthandoff: 01/31/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821302"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Procédure pas à pas : calcul des travaux en cours pour un projet
 
@@ -46,7 +46,7 @@ Avec les projets, vous pouvez planifier l'utilisation des ressources de votre so
  Ce procédure pas à pas se concentre sur la société CRONUS International Ltd., entreprise de conception et de conseil, qui conçoit et équipe de nouvelles infrastructures (telles que des salles de conférence et des bureaux) avec du mobilier, des accessoires et des unités de stockage. La majeure partie du travail à CRONUS est orientée projets et Tricia, membre de l'équipe Projet, utilise les projets pour obtenir un aperçu des projets en cours acceptés par CRONUS, ainsi que des projets terminés. Certains des projets peuvent être très longs et durer plusieurs mois. Tricia peut utiliser un compte TEC pour enregistrer les travaux en cours et suivre les coûts tout au long du projet.  
 
 ## <a name="calculating-wip"></a>Calcul TEC  
- CRONUS a accepté un projet à long terme qui s'est étendu sur plusieurs périodes de report. Tricia, membre de l'équipe projet, calcule les travaux en cours (TEC) pour vérifier que le rapport financier de la société sera exact.  
+ CRONUS a accepté un projet à long terme qui s'est étendu sur plusieurs périodes de reporting. Tricia, membre de l'équipe projet, calcule les travaux en cours (TEC) pour vérifier que le rapport financier de la société sera exact.  
 
  Au cours de cette procédure, Tricia sélectionne un groupe de tâches spécifique qui sera inclus dans le calcul TEC. Sur la page **Lignes tâche projet**, elle peut spécifier ces lignes dans la colonne **Total TEC**.  
 
@@ -166,4 +166,3 @@ Avec les projets, vous pouvez planifier l'utilisation des ressources de votre so
  [Comprendre les méthodes TEC](projects-understanding-wip.md)   
  [Surveillance de la progression et des performances](projects-how-monitor-progress-performance.md)  
  [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

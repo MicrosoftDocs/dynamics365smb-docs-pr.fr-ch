@@ -1,21 +1,21 @@
 ---
-title: "Créer des objets XMLport basés sur des schémas XML | Microsoft Docs"
-description: "Utilisez des schémas XML pour configurer l'infrastructure d'échange de documents."
+title: Créer des objets XMLport basés sur des schémas XML | Microsoft Docs
+description: Utilisez des schémas XML pour configurer l'infrastructure d'échange de documents.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 91f21f3b6382aee410ea1de51f371999ac86281c
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: fbbf44cd7a98598ed25dadeb4d6e3a8d37a0bfb0
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821232"
 ---
 # <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Utiliser des schémas XML pour préparer des définitions d'échange de données
 Pour activer l'importation/exportation des données dans des fichiers XML à travers l'infrastructure d'échange de données de [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez utiliser des schémas XML pour définir les éléments de données à échanger avec [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vous effectuez ce travail sur la page **Visionneuse de schéma XML** en chargeant le fichier de schéma XML, en sélectionnant les éléments de données appropriés, puis en initialisant soit une définition d'échange de données ou un XMLport.  
@@ -69,7 +69,7 @@ Pour activer l'importation/exportation des données dans des fichiers XML à tr
     |Champ|Désignation|  
     |---------------------------------|---------------------------------------|  
     |**Code schéma XML**|Spécifiez le fichier schéma XML que vous avez chargé à l'étape 5 dans la section « Pour charger un fichier schéma XML ».|  
-    |**Nouveau n° XMLport**|Spécifiez le numéro du XMLport qui est créé pour ce schéma XML lorsque vous sélectionnez l'action **Générer XMLport**.|  
+    |**Nouveau n° de XMLport**|Spécifiez le numéro du XMLport qui est créé pour ce schéma XML lorsque vous sélectionnez l'action **Générer XMLport**.|  
 
      Les lignes sont à présent remplies avec des nœuds représentant tous les éléments figurant dans le schéma XML. Les nœuds des éléments qui sont obligatoires selon le schéma XML sont activés par défaut.  
 
@@ -119,11 +119,11 @@ Pour activer l'importation/exportation des données dans des fichiers XML à tr
 
 2.  Sélectionnez le schéma XML approprié, puis sous l'onglet **Accueil**, dans le groupe **Processus**, choisissez **Ouvrir visionneuse de schéma XML**.  
 
-3.  Dans le champ **Nouveau n° XMLport**, spécifiez le numéro qui sera accordé au nouvel objet XMLport lorsqu'il sera généré.  
+3.  Dans le champ **Nouveau n° de XMLport**, spécifiez le numéro qui sera accordé au nouvel objet XMLport lorsqu'il sera généré.  
 
 4.  Assurez-vous que les nœuds appropriés sont sélectionnés. Pour plus d'informations, reportez-vous à la section « Sélectionner ou supprimer des nœuds dans un schéma XML ».  
 
-5.  Sous l'onglet **Accueil**, dans le groupe **Traitement**, choisissez **Générer XMLPort**, puis enregistrez l'objet en tant que fichier .txt dans un emplacement approprié.  
+5.  Sous l'onglet **Accueil**, dans le groupe **Traitement**, choisissez **Générer XMLport**, puis enregistrez l'objet en tant que fichier .txt dans un emplacement approprié.  
 
 6. Importez le nouvel objet XMLport dans l'environnement de développement [!INCLUDE[d365fin](includes/d365fin_md.md)] et compilez-le.
 
@@ -132,4 +132,3 @@ Pour activer l'importation/exportation des données dans des fichiers XML à tr
 [Exporter des paiements vers un fichier bancaire](payables-how-export-payments-bank-file.md)   
 [Recouvrement de paiements par prélèvement automatique SEPA](finance-collect-payments-with-sepa-direct-debit.md)   
 [À propos de l'infrastructure d'échange de données](across-about-the-data-exchange-framework.md)
-

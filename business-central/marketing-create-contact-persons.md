@@ -1,6 +1,6 @@
 ---
-title: "Créer des contacts| Microsoft Docs"
-description: "Décrit les tâches visant à créer une fiche contact pour une personne, par exemple, un prospect ou un fournisseur, afin de définir les relations et personnaliser la communication."
+title: Créer des contacts| Microsoft Docs
+description: Décrit les tâches visant à créer une fiche contact pour une personne, par exemple, un prospect ou un fournisseur, afin de définir les relations et personnaliser la communication.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 12/07/2018
+ms.date: 02/26/2019
 ms.author: jswymer
+redirect_url: marketing-create-contact-companies
+ms.openlocfilehash: 871e2c2fe75d5c14299651ab278aee9140430d19
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
-ms.openlocfilehash: 80ab4bd8fe9a5c74f52a334cf8c4a0a297c01bd9
-ms.contentlocale: fr-ch
-ms.lasthandoff: 12/11/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820541"
 ---
 # <a name="creating-contact-persons"></a>Création de personnes contact
 Vous créez un contact en configurant une fiche contact pour la personne. Vous pouvez créer des personnes contact à partir de sociétés contact existantes ou des personnes contact indépendantes.
@@ -44,8 +45,6 @@ Vous pouvez créer une fiche contact pour chaque contact qui travaille dans les 
 >   Les valeurs des champs que vous avez sélectionnés dans la section **Héritage** de la page **Paramètres Marketing** sont copiées à partir de la société vers les personnes qui travaillent au sein de cette société.
 
 ## <a name="see-also"></a>Voir aussi
-[Création de sociétés contact](marketing-create-contact-companies.md)  
-[Création de personnes contact](marketing-create-contact-persons.md)  
+[Création de contacts](marketing-create-contact-companies.md)  
 [Utiliser des questionnaires profil pour classer les contacts professionnels](marketing-create-contact-profile-questionnaire.md)  
 [Utilisation de Business Central](ui-work-product.md)
-

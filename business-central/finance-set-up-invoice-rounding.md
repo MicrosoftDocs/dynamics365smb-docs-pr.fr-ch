@@ -1,23 +1,23 @@
 ---
 title: Configurer la fonction arrondi facture | Microsoft Docs
-description: "Vous pouvez arrondir les montants des factures lors de la création de celles-ci. De plus, les réglementations ou la douane locale peuvent exiger des factures arrondies d'une certaine manière, par exemple, divisibles par 0,05."
+description: Vous pouvez arrondir les montants des factures lors de la création de celles-ci. De plus, les réglementations ou la douane locale peuvent exiger des factures arrondies d'une certaine manière, par exemple, divisibles par 0,05.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 2cd31544c029d66b838bbbdf27bebdcc73252014
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821028"
 ---
 # <a name="set-up-invoice-rounding"></a>Configuration de la fonction arrondi facture
 Si vous devez arrondir des montants de factures lorsque vous créez des factures, vous pouvez utiliser la fonction d'arrondi automatique. Lorsqu'une facture est arrondie, une ligne supplémentaire contenant le montant arrondi est ajoutée et validée avec les autres lignes facture.
@@ -65,4 +65,3 @@ Vous devez activer la fonction arrondi facture pour que les factures vente et ac
 ## <a name="see-also"></a>Voir aussi  
 [Facturer des ventes](sales-how-invoice-sales.md)  
 [Enregistrer des achats](purchasing-how-record-purchases.md)
-

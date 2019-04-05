@@ -1,22 +1,22 @@
 ---
-title: "Configurer un prélèvement SEPA | Microsoft Docs"
-description: "Découvrez comment configurer des prélèvements SEPA dans Business Central."
+title: Configurer un prélèvement SEPA | Microsoft Docs
+description: Découvrez comment configurer des prélèvements SEPA dans Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-collect-payments-with-sepa-direct-debit
+ms.openlocfilehash: 9e2ef9ec3b454e5a9bb5097ba3ed30c5756d2352
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: c5d14102299140fd93ec586d0ef6165d1408505d
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820487"
 ---
 # <a name="set-up-sepa-direct-debit"></a>Configurer un prélèvement SEPA
 Sur la page **Recouvrements prélèvement**, vous pouvez exporter des instructions vers votre banque électronique pour exécuter un recouvrement par prélèvement automatique depuis le compte bancaire du client vers votre compte bancaire. [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge le format de prélèvement SEPA, mais dans votre pays/région, d'autres formats de paiements électroniques peuvent être disponibles.  
@@ -80,4 +80,3 @@ Avant de pouvoir traiter les paiements client par voie électronique en exportan
 [Configurer les définitions d'échange de données](across-how-to-set-up-data-exchange-definitions.md)
 [Créer des lignes vente et achat récurrentes](sales-how-work-standard-lines.md)
 [Échanger des données par voir électronique](across-data-exchange.md)
-

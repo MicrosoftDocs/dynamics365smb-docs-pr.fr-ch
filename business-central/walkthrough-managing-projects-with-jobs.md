@@ -1,23 +1,23 @@
 ---
-title: "Procédure pas à pas : gestion des projets | Microsoft Docs"
-description: "Cette procédure pas-à-pas présente les fonctionnalités de gestion de projets dans les projets. Les projets vous permettent de planifier l'utilisation des ressources de votre société et de suivre les différents coûts associés à l'utilisation des ressources sur un projet spécifique. Les projets impliquent la consommation d'heures salarié, d'heures machines, d'articles en stock et d'autres types d'activité pouvant faire l'objet d'un suivi au fur et à mesure de l'avancée du projet."
+title: 'Procédure pas à pas : gestion des projets | Microsoft Docs'
+description: Cette procédure pas-à-pas présente les fonctionnalités de gestion de projets dans les projets. Les projets vous permettent de planifier l'utilisation des ressources de votre société et de suivre les différents coûts associés à l'utilisation des ressources sur un projet spécifique. Les projets impliquent la consommation d'heures salarié, d'heures machines, d'articles en stock et d'autres types d'activité pouvant faire l'objet d'un suivi au fur et à mesure de l'avancée du projet.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 1f228296cfa750670e1270a100755e67885c783a
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820437"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Procédure pas à pas : gestion des projets
 Cette procédure pas-à-pas présente les fonctionnalités de gestion de projets dans les projets. Les projets vous permettent de planifier l'utilisation des ressources de votre société et de suivre les différents coûts associés à l'utilisation des ressources sur un projet spécifique. Les projets impliquent la consommation d'heures salarié, d'heures machines, d'articles en stock et d'autres types d'activité pouvant faire l'objet d'un suivi au fur et à mesure de l'avancée du projet.  
@@ -128,7 +128,7 @@ Ce procédure pas à pas se concentre sur la société CRONUS International Ltd.
     -   **Méthode TEC** : **Valeur de coût**  
 
 5.  Sur le raccourci **Durée**, tapez la date du jour dans les champs **Date début** et **Date fin**. Ces dates permettront d'appliquer les conversions de devise lors de la facturation du projet.  
-6.  Sur le raccourci **International**, définissez le code devise sur **USD**. Si vous sélectionnez USD dans le champ **Code devise facture**, le projet sera facturé en dollars américains et planifié dans la devise société de CRONUS uniquement.  
+6.  Sur le raccourci **International**, définissez le code devise sur **USD**. Si vous sélectionnez USD dans le champ **Code devise facture**, le projet sera facturé en dollars américains et planifié dans la devise société de CRONUS.  
 
  Vous pouvez personnaliser la tarification des clients projet par projet, en fonction des accords que vous avez définis. Dans la procédure suivante, le chef de projet indique un coût horaire pour Tricia, définit le prix du logiciel à utiliser et ajoute les frais de déplacement que le client a accepté de payer.  
 
@@ -485,4 +485,3 @@ Ce procédure pas à pas se concentre sur la société CRONUS International Ltd.
  [Surveillance de la progression et des performances](projects-how-monitor-progress-performance.md)   
  [Facturation des projets](projects-how-invoice-jobs.md)  
  [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,6 +1,6 @@
 ---
-title: "Déprécier ou amortir des immobilisations| Microsoft Docs"
-description: "Vous devez définir comment vous allez déprécier ou amortir chacune des immobilisations."
+title: Déprécier ou amortir des immobilisations| Microsoft Docs
+description: Vous devez définir comment vous allez déprécier ou amortir chacune des immobilisations.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 4f11e194d020254a7e5274f2eb08f1719ffa6439
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: cfd4753fc2fd2454e83c5a63e1e0ffe220d2fe17
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820481"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Amortir des immobilisations
 L'amortissement permet de ventiler le coût des immobilisations, telles que les machines et le matériel, sur leur durée d'amortissement. Vous devez définir la méthode d'amortissement de chaque immobilisation.  
@@ -50,7 +50,7 @@ Une fois par mois, ou à la fréquence de votre choix, vous pouvez lancer le tra
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille compta. immo.**, puis sélectionnez le lien associé.  
 2. Créez une feuille comptable initiale et complétez les champs, le cas échéant.  
 3. Dans le champ **Type compta. immo**, sélectionnez **Amortissement**.  
-4. Sélectionnez l'action **Insérer contrepartie immo.**. Une seconde ligne feuille est créée pour le compte contrepartie qui est configuré pour la validation de l'amortissement. Pour en savoir plus, voir la section « Pour configurer des groupes de validation d'immobilisation » dans [Configurer des informations d'immobilisation générales pour les immobilisations](fa-how-setup-general.md).  
+4. Sélectionnez l'action **Insérer contrepartie immo.**. Une seconde ligne feuille est créée pour le compte contrepartie qui est configuré pour la validation de l'amortissement. Pour plus d'informations, reportez vous à [Pour configurer des groupes de validation immobilisation](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
 5. Sous l'onglet **Accueil**, sélectionnez **Valider** pour valider la feuille.  
 
 Si vous avez défini des clés de ventilation immobilisation pour ventiler des montants entre plusieurs départements ou plusieurs projets, les montants sont alloués lors de la validation. Pour en savoir plus, voir [Configurer des informations générales sur les immobilisations](fa-how-setup-general.md).  
@@ -65,7 +65,7 @@ Lorsqu'une immobilisation est utilisée par plusieurs départements, vous pouvez
 5. Sous l'onglet **Accueil**, sélectionnez **Valider** pour valider la feuille.  
 
 ## <a name="use-duplication-lists-to-prepare-to-post-to-multiple-depreciation-books"></a>Utilisez les listes de duplication pour préparer la validation vers plusieurs lois d'amortissement
-Lorsque vous renseignez les lignes feuille à valider dans une loi d'amortissement, vous pouvez dupliquer les lignes dans une autre feuille afin de pouvoir valider dans une autre loi d'amortissement. Pour en savoir plus, voir la section « Pour valider les écritures vers différentes lois d'amortissement ».
+Lorsque vous renseignez les lignes feuille à valider dans une loi d'amortissement, vous pouvez dupliquer les lignes dans une autre feuille afin de pouvoir valider dans une autre loi d'amortissement. Pour en savoir plus, voir [Pour valider les écritures vers différentes lois d'amortissement](fa-how-depreciate-amortize.md#to-post-entries-to-different-depreciation-books).
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Lois d'amortissement**, puis sélectionnez le lien associé.  
 2. Ouvrez la loi d'amortissement, puis cochez la case **Inclure dans liste duplication**.  
@@ -102,4 +102,3 @@ Les lignes copiées sont créées dans la feuille comptabilisation immobilisatio
 [Paramétrage d'immobilisations](fa-setup.md)  
 [Finances](finance.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

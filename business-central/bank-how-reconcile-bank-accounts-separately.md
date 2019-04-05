@@ -1,8 +1,8 @@
 ---
-title: "Rapprocher des comptes bancaires séparément| Microsoft Docs"
-description: "Décrit la manière dont la valeur du stock fait l'objet d'un rapprochement avec la comptabilité."
+title: Rapprocher des comptes bancaires séparément| Microsoft Docs
+description: Décrit la manière dont la valeur du stock fait l'objet d'un rapprochement avec la comptabilité.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: bank account balance, bank statement
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: feb29e3cee1a55833566657a6a007af8854f98f5
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820292"
 ---
 # <a name="reconcile-bank-accounts-separately"></a>Rapprocher des comptes bancaires séparément
 Pour rapprocher des comptes bancaires dans [!INCLUDE[d365fin](includes/d365fin_md.md)] avec des relevés reçus de la banque, vous commencez par renseigner le volet gauche de la page **Rapprochement bancaire** avec les informations de relevé bancaire, puis vous les mettez en correspondance (rapprochez) avec les écritures comptables compte bancaire dans le volet droit. Pour renseigner les lignes de relevé bancaire de manière intelligente, importez un fichier ou flux de relevé bancaire.
@@ -32,7 +32,7 @@ Pour activer l'importation des relevés bancaires en tant que flux bancaires, vo
 
 Les lignes de la page **Rapprochement bancaire** sont réparties sur deux volets. Le volet **Lignes relevé bancaire** indique le volet des transactions bancaires importées ou les écritures comptables comportant des arriérés de paiement. Le volet **Écritures comptables compte bancaire** affiche les écritures comptables dans le compte bancaire.
 
-L'activité de recherche et de lettrage des écritures à rapprocher est appelée *mise en correspondance*. Vous pouvez choisir d'effectuer la correspondance automatiquement à l'aide de la fonction **Match Automatically**. Sinon, vous pouvez sélectionner manuellement des lignes dans les deux volets pour lier chaque ligne relevé bancaire à une ou plusieurs écritures comptables compte bancaire correspondantes, puis utiliser la fonction **Faire correspondre manuellement**. La case **Lettré** est cochée sur les lignes pour lesquelles les écritures correspondent.
+L'activité de recherche et de lettrage des écritures à rapprocher est appelée *mise en correspondance*. Vous pouvez choisir d'effectuer la correspondance automatiquement à l'aide de la fonction **Faire correspondre automatiquement**. Sinon, vous pouvez sélectionner manuellement des lignes dans les deux volets pour lier chaque ligne relevé bancaire à une ou plusieurs écritures comptables compte bancaire correspondantes, puis utiliser la fonction **Faire correspondre manuellement**. La case **Lettré** est cochée sur les lignes pour lesquelles les écritures correspondent.
 
 Vous pouvez renseigner le volet **Lignes relevé bancaire** de la page **Rapprochement bancaire** des manières suivantes :
 
@@ -100,4 +100,3 @@ Les relevés bancaires comportent parfois des montants correspondant à la factu
 [Gestion des comptes bancaires](bank-manage-bank-accounts.md)  
 [Paramétrage des opérations bancaires](bank-setup-banking.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

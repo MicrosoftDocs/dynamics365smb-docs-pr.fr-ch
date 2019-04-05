@@ -1,23 +1,23 @@
 ---
-title: "Transfert et validation des écritures de coûts | Microsoft Docs"
-description: "Avant de définir des affectations de coûts, vous devez comprendre d'où proviennent les écritures de coûts."
+title: Transfert et validation des écritures de coûts | Microsoft Docs
+description: Avant de définir des affectations de coûts, vous devez comprendre d'où proviennent les écritures de coûts.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/13/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 43213f5d9e3056bdaa073624cd247e14b9925c1b
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820217"
 ---
 # <a name="transferring-and-posting-cost-entries"></a>Transfert et validation des écritures de coûts
 Avant de définir des affectations de coûts, vous devez comprendre comment les écritures de coûts proviennent des sources suivantes :  
@@ -103,4 +103,3 @@ Dans la table **Registre de coûts**, [!INCLUDE[d365fin](includes/d365fin_md.md)
  [Paramétrage du contrôle de gestion](finance-set-up-cost-accounting.md)   
  [Définition et répartition des coûts](finance-define-and-allocate-costs.md)   
  [Comptabilité pour les coûts](finance-manage-cost-accounting.md)
-

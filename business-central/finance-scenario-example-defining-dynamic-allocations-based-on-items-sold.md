@@ -1,24 +1,24 @@
 ---
-title: "Exemple de scénario - Définition des ventilations dynamique sur la base des articles vendus | Microsoft Docs"
-description: "Cette rubrique explique comment définir les affectations à l'aide du mode de ventilation dynamique."
+title: Exemple de scénario - Définition des ventilations dynamique sur la base des articles vendus | Microsoft Docs
+description: Cette rubrique explique comment définir les affectations à l'aide du mode de ventilation dynamique.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-define-and-allocate-costs
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 3103583c9781c283479c5f66e90f0e875faf46cc
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820803"
 ---
 # <a name="scenario-example-defining-dynamic-allocations-based-on-items-sold"></a>Exemple de scénario : Définition des ventilations dynamique sur la base des articles vendus
 Cette rubrique explique comment définir les affectations à l'aide du mode de ventilation dynamique. Dans l'exemple, vous modifiez la ventilation dynamique des coûts pour que le centre de coûts VENTES prenne en charge le nouveau ÉQUIPEMENT IT de coûts associés. Les packages ÉQUIPEMENT IT ont des numéros d'articles dont la plage s'échelonne entre 8904-W et 8924-W. Vous pouvez utiliser les chiffres de ventes de l'exercice précédent pour en calculer la part. La ventilation est validée en fonction du type de coût 9903.  
@@ -50,4 +50,3 @@ Cette rubrique explique comment définir les affectations à l'aide du mode de v
 [Définition et répartition des coûts](finance-define-and-allocate-costs.md)  
 [Terminologie en comptabilité analytique](finance-terminology-in-cost-accounting.md)   
 [À propos de la comptabilité analytique](finance-about-cost-accounting.md)
-

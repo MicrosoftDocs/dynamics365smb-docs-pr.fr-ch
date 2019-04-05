@@ -1,6 +1,6 @@
 ---
 title: Partager des contacts entre Business Central et Outlook| Microsoft Docs
-description: "Ce service a une intégration étroite avec Office 365, ce qui vous permet de partager des contacts entre Outlook et Business Central."
+description: Ce service a une intégration étroite avec Office 365, ce qui vous permet de partager des contacts entre Outlook et Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: contacts, Office 365
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 5e4bd35edea680c46cb0df753b50916b1aeb93be
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821554"
 ---
 # <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook"></a>Synchroniser les contacts de Business Central avec les contacts de Microsoft Outlook
 Vous pouvez voir les mêmes contacts dans [!INCLUDE[d365fin](includes/d365fin_md.md)] que dans Outlook si vous configurez la synchronisation des contacts. Par exemple, si vous êtes un vendeur, vous pouvez effectuer une partie de votre travail dans Outlook et l'autre partie dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Si les contacts sont les mêmes dans les deux emplacements, votre travail est plus simple.  
@@ -54,4 +54,3 @@ Dans Outlook, les contacts de [!INCLUDE[d365fin](includes/d365fin_md.md)] sont a
 [Ventes](sales-manage-sales.md)  
 [Achats](purchasing-manage-purchasing.md)  
 [Utilisation des contacts (personnes) dans Outlook sur le Web](https://support.office.com/en-us/article/Using-contacts-People-in-Outlook-on-the-web-1e3438c7-26b2-420c-87de-3cea9d31b5cb?appver=OWB150)  
-

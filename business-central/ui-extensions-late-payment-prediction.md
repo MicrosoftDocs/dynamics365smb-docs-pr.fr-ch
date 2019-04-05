@@ -1,6 +1,6 @@
 ---
-title: "Prévoir des retards de paiement pour les documents vente | Microsoft Docs"
-description: "Utilisez notre modèle prédictif pour prévoir si une facture sera payée à temps."
+title: Prévoir des retards de paiement pour les documents vente | Microsoft Docs
+description: Utilisez notre modèle prédictif pour prévoir si une facture sera payée à temps.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 4e47858bf1f7253f8fb8951fe8ea3cb611138852
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821356"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Extension Prévisions de retard de paiement  
 Une gestion efficace des créances est importante pour la santé financière générale d'une société. L'extension de prévision de retard de paiement peut vous aider à minimiser les créances ouvertes et à ajuster votre stratégie de collectes en prévoyant si les factures vente seront payées à temps. Par exemple, si un retard de paiement est prévu, vous pouvez décider d'ajuster les conditions de paiement ou le mode de règlement du client.
@@ -72,4 +72,3 @@ Si vous créez votre propre modèle dans Azure Machine Learning Studio, sans uti
 [Documentation Azure Machine Learning Studio](https://go.microsoft.com/fwlink/?linkid=861765)  
 [Personnalisation de Business Central à l'aide d'extensions](ui-extensions.md)  
 [Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-

@@ -1,8 +1,8 @@
 ---
 title: Informations sur la configuration de la gestion du marketing et des contacts| Microsoft Docs
-description: "Vous pouvez configurer la gestion du marketing et des contacts dans Business Central pour optimiser les relations avec les prospects ou les clients, et améliorer des campagnes ou des promotions."
+description: Vous pouvez configurer la gestion du marketing et des contacts dans Business Central pour optimiser les relations avec les prospects ou les clients, et améliorer des campagnes ou des promotions.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
-ms.date: 12/07/2018
+ms.date: 02/26/2019
 ms.author: jswymer
+redirect_url: marketing-setup-contacts
+ms.openlocfilehash: e2fa7fc0c5f2e89f592dca84a89e5e5f551b0d28
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 955d436970f922bd7c36ee6d837e75dea9847dd8
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820553"
 ---
 # <a name="setting-up-relationship-management"></a>Paramétrage de la Gestion des relations
 Avant de commencer à travailler avec vos contacts et prospects marketing, vous devez prendre certaines décisions et accomplir certaines étapes afin de configurer la façon dont le module marketing gère certains aspects de vos contacts. Par exemple, vous pouvez décider de synchroniser la fiche contact avec la fiche client, la fiche fournisseur, ou la fiche compte bancaire, spécifier comment les souches de numéros sont définies, ou quelles sont les salutations standard lorsque vous écrivez à vos contacts.
@@ -48,7 +49,7 @@ Pour plus d'informations, reportez-vous à [Enregistrer automatiquement les inte
 ## <a name="synchronizing-contacts-with-customers-and-more"></a>Synchronisation des contacts avec les clients et autres
 Pour synchroniser la fiche contact avec la fiche client, la fiche fournisseur et la fiche compte bancaire, vous devez sélectionner un code relation d'affaires pour les clients, les fournisseurs et les comptes bancaires. Par exemple, vous ne pouvez lier un contact avec un client existant que si vous avez sélectionné un code relation d'affaires pour les clients sur la page **Paramètres marketing**.
 
-Pour plus d'informations, reportez-vous à [Procédure de synchronisation des contacts avec les clients, les fournisseurs et les comptes bancaires](marketing-synchronize-contacts-customers-vendors-bank-accounts.md).
+Pour plus d'informations, reportez-vous à [Procédure de synchronisation des contacts avec les clients, les fournisseurs et les comptes bancaires](marketing-synchronize-contacts-customers-vendors-bank-accounts/Synchronizing Contacts With Customers, Vendors, and Bank Accounts).
 
 ## <a name="assigning-a-number-series-to-contacts-and-opportunities"></a>Affectation d'une souche de numéros aux contacts et aux opportunités
 Vous pouvez configurer des souches de numéros pour les contacts et les opportunités. Si vous avez configuré une souche de numéros pour les contacts, lorsque vous créez un contact et que vous appuyez ensuite sur Entrée dans le champ N° de la fiche contact, le programme saisit automatiquement le numéro de contact suivant.
@@ -61,4 +62,3 @@ Vous pouvez configurer le programme pour qu'il recherche automatiquement les dou
 ## <a name="see-also"></a>Voir aussi
 [Gestion de contacts](marketing-contacts.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

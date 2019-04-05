@@ -1,7 +1,7 @@
 ---
-title: "Créer des fiches article pour des biens ou des services| Microsoft Docs"
-description: "Vous créez des fiches article pour les services que vous vendez en heures et pour les marchandises physiques, comme les éléments d'assemblage, les produits finis, les composants, ou les matières premières que vous vendez de votre stock."
-documentationcenter: 
+title: Créer des fiches article pour des biens ou des services| Microsoft Docs
+description: Vous créez des fiches article pour les services que vous vendez en heures et pour les marchandises physiques, comme les éléments d'assemblage, les produits finis, les composants, ou les matières premières que vous vendez de votre stock.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 4611072a7612feafec5466ee5092ad7938eeb2dc
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820655"
 ---
 # <a name="register-new-items"></a>Enregistrer de nouveaux articles
 Les articles, entre autres produits, sont la base de votre activité, les biens ou les services que vous commercialisez. Chaque article doit être enregistré en tant que fiche article.
@@ -81,4 +81,3 @@ Les fournisseurs s'affichent maintenant sur la page **Catalogue fournisseur arti
 [Achats](purchasing-manage-purchasing.md)  
 [Ventes](sales-manage-sales.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

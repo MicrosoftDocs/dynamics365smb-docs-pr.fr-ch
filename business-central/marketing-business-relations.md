@@ -1,8 +1,8 @@
 ---
-title: "Définir les codes des relations d'affaires dans les contacts| Microsoft Docs"
-description: "Utilisez les relations d'affaires dans Business Central pour vous aider avec le marketing et désigner les rapports établis avec vos prospects, clients, notamment les banques ou les prestataires de services."
+title: Définir les codes des relations d'affaires dans les contacts| Microsoft Docs
+description: Utilisez les relations d'affaires dans Business Central pour vous aider avec le marketing et désigner les rapports établis avec vos prospects, clients, notamment les banques ou les prestataires de services.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: marketing, prospect, contact, client, customer
 ms.date: 10/01/2018
 ms.author: jswymer
-redirect_url: marketing-setup-marketing
+redirect_url: marketing-create-contact-companies
+ms.openlocfilehash: cb600ea688a856f481d84604d6966231fe7f536d
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 33743655f682aae9e02393aa68d04dffd334357b
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821008"
 ---
-# <a name="setting-up-business-relations-on-contact-companies"></a>Configuration des relations d'affaires sur des sociétés contact
+# <a name="setting-up-business-relations-on-contacts"></a>Configuration des relations d'affaires sur des contacts
 Les relations d'affaires vous permettent d'indiquer les rapports établis avec vos contacts, tels que les prospects, les banques, les consultants, les prestataires de services, et ainsi de suite.
 
 L'utilisation des relations d'affaires sur les contacts processus en deux étapes. Tout d'abord, vous définissez le code relation d'affaires. Vous ne devez effectuer cette étape qu'une seule fois pour chaque relation d'affaires. Une fois que vous disposez d'un code relation d'affaires, vous pouvez commencer à affecter le code aux sociétés contact.
@@ -50,6 +50,4 @@ Le nombre de relations d'affaires que vous avez affectées au contact s'affiche 
 Une fois que vous avez affecté des relations d'affaires à vos contacts, vous pouvez utiliser ces informations pour sélectionner des contacts pour vos segments. Pour plus d'informations, reportez-vous à [Ajouter des contacts à des segments](marketing-add-contact-segment.md).
 
 ## <a name="see-also"></a>Voir aussi
-[Création de sociétés contact](marketing-create-contact-companies.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,23 +1,23 @@
 ---
-title: "Procédure de préparation d'un package de configuration | Microsoft Docs"
-description: "Lorsque vous configurez une nouvelle société, les relations de table sont reconnues et traitées. Les données sont importées et lettrées dans le bon ordre. Les tables d’axes analytiques sont également importées si elles sont incluses dans le package configuration."
+title: Procédure de préparation d'un package de configuration | Microsoft Docs
+description: Lorsque vous configurez une nouvelle société, les relations de table sont reconnues et traitées. Les données sont importées et lettrées dans le bon ordre. Les tables d’axes analytiques sont également importées si elles sont incluses dans le package configuration.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: b1dbe67852e197ab52aff58131576ffd6b9c49c4
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: ea4a7671788ba5c4bd251a83dab1f2616cfbe706
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820899"
 ---
 # <a name="prepare-a-configuration-package"></a>Préparer un package configuration
 Lorsque vous configurez une nouvelle société, les relations de table sont reconnues et traitées. Les données sont importées et lettrées dans le bon ordre. Les tables d’axes analytiques sont également importées si elles sont incluses dans le package configuration.  
@@ -93,7 +93,7 @@ La feuille configuration permet de collecter et de définir les catégories des 
 3.  Dans le champ **Type ligne**, choisissez **Groupe**. Saisissez un nom descriptif dans le champ **Nom**.  
 4.  Dans le champ **Type ligne**, choisissez **Table**. Dans le champ **ID table**, sélectionnez la table que vous souhaitez inclure dans la feuille.  
 
-Vous pouvez désormais affecter les tables aux packages configuration spécifiques que vous avez créés ou que vous prévoyez de créer. Pour plus d’informations, consultez la section « Pour affecter une table à un package configuration ».
+Vous pouvez désormais affecter les tables aux packages configuration spécifiques que vous avez créés ou que vous prévoyez de créer. Pour plus d’informations, voir [Pour affecter une table à un package configuration](admin-how-to-prepare-a-configuration-package.md#to-assign-a-table-to-a-configuration-package).
 
 ## <a name="to-work-with-promoted-tables"></a>Pour utiliser les tables promues  
 1. Activez la case à cocher **Table promue** pour indiquer une table qui est souvent utilisée lors du processus de paramétrage par un client typique, par exemple, la table **Compte général**. Lorsqu’une table a cette désignation, un client pourra facilement filtrer sa feuille pour afficher uniquement la liste des tables promues qui nécessitent une attention particulière.  
@@ -103,7 +103,7 @@ Vous pouvez désormais affecter les tables aux packages configuration spécifiqu
 Après avoir défini les tables à traiter dans le cadre de votre configuration, vous pouvez facilement affecter les tables à des packages configuration. Vous pouvez affecter une table à un package uniquement. Dans la procédure suivante, vous affectez le package à partir de la feuille configuration.  
 
 > [!NOTE]  
->  Vous pouvez également créer un package directement, puis ajouter des tables au package. Pour plus d’informations, consultez la section « Pour créer un package configuration ».
+>  Vous pouvez également créer un package directement, puis ajouter des tables au package. Pour plus d’informations, voir [Pour créer un package configuration](admin-how-to-prepare-a-configuration-package.md#to-create-a-configuration-package).
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille configuration**, puis sélectionnez le lien associé.
 2. Dans la feuille de configuration, sélectionnez une ligne ou un groupe de lignes que vous souhaitez affecter à un package configuration, puis sélectionnez l'action **Affecter package**.  
@@ -139,4 +139,3 @@ Une fois que vous avez contrôlé et testé toutes vos informations de paramétr
 [Configurer une société](admin-set-up-company-configuration.md)  
 [Configuration d'une société avec RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)
-

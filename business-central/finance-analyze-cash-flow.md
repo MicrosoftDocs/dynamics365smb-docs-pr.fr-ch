@@ -1,8 +1,8 @@
 ---
-title: "Analyse des trésoreries| Microsoft Docs"
-description: "Décrit comment utiliser les graphiques Cycle trésorerie, Revenus et dépenses, Trésorerie et Prévision de trésorerie pour analyser les flux de trésorerie passés et futurs, entrants et sortants de votre société."
+title: Analyse des trésoreries| Microsoft Docs
+description: Décrit comment utiliser les graphiques Cycle trésorerie, Revenus et dépenses, Trésorerie et Prévision de trésorerie pour analyser les flux de trésorerie passés et futurs, entrants et sortants de votre société.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
 ms.date: 10/01/2018
 ms.author: bholtorf
+ms.openlocfilehash: 686f678c7459c608f0ef0dccb7bf959bf843e5e6
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ac5abf6fe38b60b385ac00d6e0ced982cd59df22
-ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821443"
 ---
 # <a name="analyzing-cash-flow-in-your-company"></a>Analyse de la trésorerie dans votre société
 Comme on dit, l'argent est le nerf de la guerre. Les graphiques du tableau de bord Comptable offrent une analyse qui peut vous aider à prendre des décisions judicieuses sur les opérations à effectuer avec votre trésorerie.  
@@ -53,4 +53,3 @@ Si vous souhaitez vérifier la prévision, outre les écritures de prévision, v
 [Configuration de Finance](finance-setup-finance.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Configuration d'une analyse de trésorerie](finance-setup-cash-flow-analyses.md)  
-

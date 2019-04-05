@@ -1,8 +1,8 @@
 ---
-title: "Paramétrer et gérer un budget pour un projet| Microsoft Docs"
-description: "Décrit comment planifier des ressources et prévoir et contrôler les coûts d'un projet en définissant un budget pour chaque projet."
+title: Paramétrer et gérer un budget pour un projet| Microsoft Docs
+description: Décrit comment planifier des ressources et prévoir et contrôler les coûts d'un projet en définissant un budget pour chaque projet.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: project budget, forecast
 ms.date: 10/17/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: d26a6fd6369d8d10d690246c5d02a04d23bb21ab
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820355"
 ---
 # <a name="manage-job-budgets"></a>Gérer les budgets de projets
 Vous pouvez configurer un budget pour chaque projet. Le budget permet de planifier les ressources que vous affectez à un projet. Il peut s'agir d'un budget général avec peu d'écritures ou plus détaillé avec des écritures réparties par niveau d'activité. Vous pouvez alors comparer les montants budgétés avec l'activité réelle telle qu'elle a été enregistrée dans la feuille projet. En surveillant les différences entre l'activité réelle et celle budgétée, vous pouvez contrôler un projet en cours et améliorer la qualité des projets futurs en réduisant le risque de sous-estimation des coûts.
@@ -41,7 +41,7 @@ Reportez-vous aux informations suivantes pour le champ **Type ligne**.
 | **Facturable** |Le client doit payer l'utilisation. L'activité est transférée à la facture, sur la base de la quantité spécifiée dans le champ Qté à transférer à facturer. |
 
 > [!NOTE]  
-> Le champ **Date livraison planifiée** de la ligne planning contient la date prévue de l'achèvement et de la validation de l'activité associée à cette ligne planning. C'est aussi la date à laquelle la ligne planning peut être transférée à une facture vente et être validée. <br /><br /> Sur la tâche projet sous-jacente de la page **Fiche suiveuse**, les champs **Date début** et **Date fin** contiennent respectivement la valeur du champ **Date livraison planifiée** sur les lignes planning projet les plus récentes et les dernières de la page **Job Planning Lines** associée.
+> Le champ **Date livraison planifiée** de la ligne planning contient la date prévue de l'achèvement et de la validation de l'activité associée à cette ligne planning. C'est aussi la date à laquelle la ligne planning peut être transférée à une facture vente et être validée. <br /><br /> Sur la tâche projet sous-jacente de la page **Fiche suiveuse**, les champs **Date début** et **Date fin** contiennent respectivement la valeur du champ **Date livraison planifiée** sur les lignes planning projet les plus récentes et les dernières de la page **Lignes planning projet** associée.
 
 > [!NOTE]  
 >   Quand vous renseignez le champ **Quantité**, toutes les informations prix total et coût total seront désormais calculées et renseignées pour cette ligne planning. Vous pouvez modifier ces informations à tout moment.
@@ -56,4 +56,3 @@ Pour plus d'informations sur l'enregistrement budgété par rapport aux prix et 
 [Achats](purchasing-manage-purchasing.md)         
 [Ventes](sales-manage-sales.md)      
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

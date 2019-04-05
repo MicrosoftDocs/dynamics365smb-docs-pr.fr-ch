@@ -1,6 +1,6 @@
 ---
-title: "Fonctionnalités d'entreprise prises en charge par Business Central | Microsoft Docs"
-description: "Fournit une fonctionnalité d'aperçu de toutes les fonctionnalités commerciales et des départements qui sont pris en charge par les domaines de l'application, comme les finances, le stock, et la gestion de projets."
+title: Fonctionnalités d'entreprise prises en charge par Business Central | Microsoft Docs
+description: Fournit une fonctionnalité d'aperçu de toutes les fonctionnalités commerciales et des départements qui sont pris en charge par les domaines de l'application, comme les finances, le stock, et la gestion de projets.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: feature overview
 ms.date: 01/22/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
 ms.openlocfilehash: d00f8228d5a617ddf601bb1d4ffaf9f42f13e74a
-ms.contentlocale: fr-ch
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820718"
 ---
 # <a name="business-functionality"></a>Fonctionnalités d'entreprise
 [!INCLUDE[d365fin](includes/d365fin_md.md)] fournit des fonctionnalités pour les processus entreprise communs dans des PME, surtout au sein de sociétés de vente en gros et de services professionnels. Toutefois, des processus plus complexes, comme l'assemblage, la fabrication, la maintenance et la gestion d'entrepôt suggérée sont également pris en charge.
@@ -47,4 +47,3 @@ ms.lasthandoff: 01/22/2019
 [Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Mise en route](product-get-started.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

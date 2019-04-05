@@ -1,8 +1,8 @@
 ---
-title: "Acquérir des immobilisations| Microsoft Docs"
-description: "Vous pouvez paramétrer une immobilisation, attribuer une loi d'amortissement et enregistrer le coût d'acquisition de l'immobilisation."
+title: Acquérir des immobilisations| Microsoft Docs
+description: Vous pouvez paramétrer une immobilisation, attribuer une loi d'amortissement et enregistrer le coût d'acquisition de l'immobilisation.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase fixed asset
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 56062eb42db00408031cff5438cc2b9276011d27
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 2839753f888dfd76e17672c36b15da47a344900f
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820916"
 ---
 # <a name="acquire-fixed-assets"></a>Acquérir des immobilisations
 Pour chaque immobilisation, vous devez créer une fiche contenant des informations la concernant. Vous pouvez configurer des bâtiments ou un équipement de production en tant qu'actif principal avec une liste de composants et vous pouvez les regrouper de différentes façons, comme par catégorie, département ou emplacement. Une loi d'amortissement doit être configurée et assignée à chaque immobilisation avant que vous puissiez l'acquérir.
@@ -29,12 +29,12 @@ La valeur résiduelle est la valeur restante d'une immobilisation qui est devenu
 L'actualisation permet d'ajuster des valeurs en fonction de modifications générales de niveau de prix. Le traitement par lots **Réévaluer immobilisations** permet de calculer les coûts d'acquisition à des coûts de remplacement.
 
 ## <a name="to-create-a-fixed-asset-and-acquire-it-automatically"></a>Pour créer une immobilisation et l'acquérir automatiquement
-La procédure suivante décrit comment créer une immobilisation, puis l'acquérir via la page **Acquisition d'immobilisation assistée** pour créer et valider les lignes feuille validation immobilisation requises. Vous pouvez également créer et valider les lignes feuille manuellement. Pour en savoir plus, voir la section « Pour valider manuellement une acquisition d'immobilisation avec la feuille validation immobilisation ».
+La procédure suivante décrit comment créer une immobilisation, puis l'acquérir via la page **Acquisition d'immobilisation assistée** pour créer et valider les lignes feuille validation immobilisation requises. Vous pouvez également créer et valider les lignes feuille manuellement. Pour en savoir plus, voir [Pour valider manuellement une acquisition d'immobilisation avec la feuille validation immobilisation](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Immobilisations**, puis choisissez le lien associé.  
 2. Sélectionnez l'action **Nouveau**, puis renseignez les champs du raccourci **Général**, le cas échéant. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Sur le raccourci **Loi d'amortissement**, renseignez les champs, le cas échéant. Cette étape attribue une loi d'amortissement à l'immobilisation.  
-4. Si vous devez assigner plus d'une loi d'amortissement à l'immobilisation, sélectionnez l'action **Ajouter davantage de lois d'amortissement**. Pour en savoir plus, voir la section « Assigner une loi d'amortissement à une immobilisation » dans [Définir l'amortissement d'immobilisation](fa-how-setup-depreciation.md).
+4. Si vous devez assigner plus d'une loi d'amortissement à l'immobilisation, sélectionnez l'action **Ajouter davantage de lois d'amortissement**. Pour en savoir plus, voir [Pour attribuer une loi d'amortissement à une immobilisation](fa-how-setup-depreciation.md#to-assign-a-depreciation-book-to-a-fixed-asset).
 
     Lorsque tous les champs obligatoires pour acquérir une immobilisation sont complétés, la notification **Vous êtes sur le point d'acquérir l'immobilisation. Acquérir** s'affiche en haut de la page.
 5. Sélectionnez l'action **Acquérir** dans la notification.
@@ -59,7 +59,7 @@ Vous devez définir à la fois l'immobilisation principale et ses composants en 
 7. Cochez la case **Compta. immo. princip.**.
 
 ## <a name="to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal"></a>Pour valider manuellement une acquisition d'immobilisation avec une feuille validation immobilisation
-La procédure suivante décrit comment acquérir manuellement une immobilisation en créant et en validant des lignes sur la page **Feuille compta. immo.**. Vous pouvez également acquérir automatiquement une immobilisation via la page **Acquisition d'immobilisation assistée**. Pour en savoir plus, voir l'étape 5 de la section « Pour créer une immobilisation et l'acquérir automatiquement ».
+La procédure suivante décrit comment acquérir manuellement une immobilisation en créant et en validant des lignes sur la page **Feuille compta. immo.**. Vous pouvez également acquérir automatiquement une immobilisation via la page **Acquisition d'immobilisation assistée**. Pour en savoir plus, voir l'étape 5 de [Pour créer une immobilisation et l'acquérir automatiquement](fa-how-acquire.md#to-create-a-fixed-asset-and-acquire-it-automatically).
 
 > [!NOTE]  
 >   Vous pouvez également valider le coût d'acquisition en tant qu'avoirs. Dans ce cas, n'oubliez pas que la valeur du champ **Montant** doit comporter un signe moins pour indiquer un avoir.
@@ -91,7 +91,7 @@ Pour annuler les écritures comptables pour plusieurs immobilisations à la fois
 Vous pouvez valider la valeur résiduelle avec le coût d'acquisition à partir d'une feuille comptable immobilisation.    
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Annuler écritures immo.**, puis sélectionnez le lien associé.
-2. Créez la ligne feuille d'acquisition. Pour en savoir plus, voir la section « Pour valider manuellement une acquisition d'immobilisation avec la feuille validation immobilisation ».
+2. Créez la ligne feuille d'acquisition. Pour en savoir plus, voir [Pour valider manuellement une acquisition d'immobilisation avec la feuille validation immobilisation](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
 3. Dans le champ **Valeur résiduelle** de la ligne feuille, saisissez le montant de la valeur résiduelle comme avoir (avec un signe moins).
 4. Sélectionnez l'action **Valider**.
 
@@ -104,4 +104,3 @@ Vous pouvez valider la valeur résiduelle avec le coût d'acquisition à partir 
 [Finances](finance.md)  
 [Mise en route](product-get-started.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

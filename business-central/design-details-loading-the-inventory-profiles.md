@@ -1,24 +1,24 @@
 ---
-title: "Détails de conception - chargement des profils de stock | Microsoft Docs"
-description: "Pour trier les nombreuses sources de demande et d'approvisionnement, le système de planification les organise sur deux chronologies appelées profils de stock."
+title: Détails de conception - chargement des profils de stock | Microsoft Docs
+description: Pour trier les nombreuses sources de demande et d'approvisionnement, le système de planification les organise sur deux chronologies appelées profils de stock.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 10d41fd87408a4dfe8d1b5de368c1a32a45e489b
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820463"
 ---
 # <a name="design-details-loading-the-inventory-profiles"></a>Détails de conception : chargement des profils de stock
 Pour trier les nombreuses sources de demande et d'approvisionnement, le système de planification les organise sur deux chronologies appelées profils de stock.  
@@ -103,4 +103,3 @@ Pour trier les nombreuses sources de demande et d'approvisionnement, le système
  [Détails de conception : concepts centraux du système de planification](design-details-central-concepts-of-the-planning-system.md)   
  [Détails de conception : planification de l'approvisionnement](design-details-supply-planning.md)   
  [Détails de conception : paramètres de planification](design-details-planning-parameters.md)
-

@@ -1,8 +1,8 @@
 ---
-title: "Statut affectation et statut réparation | Microsoft Docs"
-description: "Découvrez la relation entre le statut réparation des articles de service et le statut affectation des écritures d'affectation associées."
+title: Statut affectation et statut réparation | Microsoft Docs
+description: Découvrez la relation entre le statut réparation des articles de service et le statut affectation des écritures d'affectation associées.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: resources, allocation, status, repairs
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 932abf3ee69f429c322fe82e150fa7a8f4aef8e8
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821544"
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Statut affectation et statut réparation des articles de service
 L'état réparation des articles de service et l'état affectation des écritures affectation des articles de service sont liés dans le module Gestion des services. L'état affectation change lorsque vous modifiez l'état réparation de l'article de service en **Terminé** ou **Service en partie réalisé**, et lorsque vous convertissez un devis service en commande service. L'état réparation de l'article de service change lorsque vous annulez l'affectation de l'article de service, ou que vous réaffectez l'article à une autre ressource. Vous pouvez visualiser l'état réparation des articles de service sur la page **Tâches service** et vous pouvez mettre à jour l'état réparation dans le champ **Code état réparation** de la page **Feuille activité article de service**. Vous pouvez visualiser l'état affectation dans le champ **Statut** de la page **Affectations ressources**.  
@@ -71,5 +71,4 @@ Une nouvelle écriture affectation comportant la nouvelle ressource est créée 
 ## <a name="see-also"></a>Voir aussi  
 [Configurer l'affectation des ressources](service-how-setup-resource-allocation.md)  
 [Affecter des ressources](service-how-to-allocate-resources.md)  
-
 

@@ -1,24 +1,24 @@
 ---
-title: "Procédure de configuration des centres de coûts | Microsoft Docs"
-description: "Les centres de coûts sont les départements responsables des coûts et des revenus. Le plan des centres de coûts est semblable aux informations sur l'axe analytique pour la comptabilité."
+title: Procédure de configuration des centres de coûts | Microsoft Docs
+description: Les centres de coûts sont les départements responsables des coûts et des revenus. Le plan des centres de coûts est semblable aux informations sur l'axe analytique pour la comptabilité.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/13/2018
 ms.author: sgroespe
 redirect_url: finance-set-up-cost-accounting
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 252ebf514635ada8e07bfb1e950d0cff156d0bfc
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820416"
 ---
 # <a name="set-up-cost-centers"></a>Configuration des centres de coûts
 Les centres de coûts sont les départements responsables des coûts et des revenus. Le plan des centres de coûts est semblable aux informations sur l'axe analytique pour la comptabilité. Vous pouvez configurer le plan des centres de coûts comme suit :  
@@ -59,4 +59,3 @@ Vous pouvez configurer et gérer les centres de coût, soit sur la page **Fiche 
 [Terminologie en comptabilité analytique](finance-terminology-in-cost-accounting.md)   
 [À propos de la comptabilité analytique](finance-about-cost-accounting.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

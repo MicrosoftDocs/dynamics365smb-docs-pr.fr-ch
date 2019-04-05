@@ -1,8 +1,8 @@
 ---
-title: "Détails de conception - Structure de validation de traçabilité | Microsoft Docs"
-description: "Découvrez comment utiliser les écritures comptables article comme principal opérateur des numéros traçabilité."
+title: Détails de conception - Structure de validation de traçabilité | Microsoft Docs
+description: Découvrez comment utiliser les écritures comptables article comme principal opérateur des numéros traçabilité.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: design, item tracking, posting, inventory
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: b2cb135991a067b86b7c5579e0386ffd199aefcf
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821463"
 ---
 # <a name="design-details-item-tracking-posting-structure"></a>Détails de conception : structure de validation de traçabilité
 Pour s'aligner sur la fonctionnalité d'évaluation du stock et obtenir une solution plus simple et plus robuste, les écritures comptables article sont utilisées comme principal opérateur des numéros de suivi d'article.  
@@ -38,7 +38,7 @@ La fonctionnalité du champ **N° séquence** existant, qui relie une écriture 
 Pour répartir les écritures comptables article lors de la validation, le code dans codeunit 80 et codeunit 90 est encerclé par des boucles qui s'exécutent à travers des variables de bilan temporaire global. Ce code appelle codeunit 22 avec une ligne feuille article. Ces variables sont initialisées lorsque les numéros de suivi des articles existent pour la ligne document. Pour garder un code simple, cette structure de bouclage est toujours utilisée. Si aucun numéro traçabilité n'existe pour la ligne document, un enregistrement unique est inséré, et la boucle ne s'exécute qu'une fois.  
   
 ## <a name="posting-the-item-journal"></a>Validation de la feuille article  
-Des numéros traçabilité sont transférés via des écritures réservation en relation avec l'écriture comptable article, et le bouclage par l'intermédiaire des numéros traçabilité se produit dans le codeunit 22. Ce concept fonctionne de la même manière lorsqu'une ligne feuille article est utilisée indirectement pour valider une commande vente ou achat que lorsqu'une ligne feuille article est utilisée directement. Lorsque la feuille article est utilisée directement, le champ **Source Row ID** pointe vers la ligne feuille article elle-même.  
+Des numéros traçabilité sont transférés via des écritures réservation en relation avec l'écriture comptable article, et le bouclage par l'intermédiaire des numéros traçabilité se produit dans le codeunit 22. Ce concept fonctionne de la même manière lorsqu'une ligne feuille article est utilisée indirectement pour valider une commande vente ou achat que lorsqu'une ligne feuille article est utilisée directement. Lorsque la feuille article est utilisée directement, le champ **Lien origine** pointe vers la ligne feuille article elle-même.  
   
 ## <a name="code-unit-22"></a>Unité de code 22  
 Codeunits 80 et 90 bouclent l'appel du codeunit 22 lors de la validation de facture des numéros traçabilité et lors de la facturation des expéditions ou des réceptions existantes.  

@@ -1,8 +1,8 @@
 ---
 title: Utilisation des documents entrants| Microsoft Docs
-description: "Vous pouvez gérer les documents commerciaux externes entrants, tels que des reçus de paiement ou des fichiers PDF, gérer des tâches OCR, et convertir des fichiers en documents électroniques et enregistrements."
+description: Vous pouvez gérer les documents commerciaux externes entrants, tels que des reçus de paiement ou des fichiers PDF, gérer des tâches OCR, et convertir des fichiers en documents électroniques et enregistrements.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 989fff07cb0608b8dbf6611a39163fc3cfe31459
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820243"
 ---
 # <a name="incoming-documents"></a>Documents entrants
 Certaines transactions d'entreprise ne sont pas enregistrées dans [!INCLUDE[d365fin](includes/d365fin_md.md)] dès le départ. À la place, un document provenant d'entreprise externe arrive dans votre société comme la pièce jointe d'un e-mail, ou une copie papier que vous pouvez scanner pour la classer. Cela est classique dans le cas des commandes, lorsque ces fichiers de documents entrants sont des reçus de paiements pour des dépenses ou de petits achats.
@@ -47,4 +47,3 @@ Le processus de document entrant est composé des activités principales suivant
 ## <a name="see-also"></a>Voir aussi
 [Achats](purchasing-manage-purchasing.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

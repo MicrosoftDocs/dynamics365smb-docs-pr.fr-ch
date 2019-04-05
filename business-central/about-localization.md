@@ -1,6 +1,6 @@
 ---
-title: "Fonctionnalités locales dans Business Central | Microsoft Docs"
-description: "En savoir plus sur la disponibilité et la conformité de la réglementation locaux de Dynamics 365 Business Central."
+title: Fonctionnalités locales dans Business Central | Microsoft Docs
+description: En savoir plus sur la disponibilité locale et la conformité de la réglementation de Dynamics 365 Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: availability, localization
 ms.date: 12/06/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 9d0836083f4e8506efbd077f9b0cd733b6dbf623
 ms.openlocfilehash: c7b581f7524199c33959756e858476aa9bbaac15
-ms.contentlocale: fr-ch
-ms.lasthandoff: 02/01/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821533"
 ---
 # <a name="local-functionality-in-included365finlongincludesd365finlongmdmd"></a>Fonctionnalités locales dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] a une stratégie de localisation combinée comprenant des modèles Microsoft et partenaires. Dans cette section, vous pouvez visualiser des descriptions de la fonctionnalité applicable aux pays où Microsoft fournit la conformité de la réglementation et d'autres fonctionnalités locales.  
@@ -58,4 +58,3 @@ Pour en savoir plus sur les fonctionnalités locales de chaque pays, cliquez sur
 [Conformité](compliance/compliance-overview.md)  
 [Disponibilité internationale de Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/availability)  
 [Développement d'une solution de localisation](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization)  
-

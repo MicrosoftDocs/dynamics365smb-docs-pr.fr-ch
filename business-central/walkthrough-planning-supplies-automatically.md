@@ -1,23 +1,23 @@
 ---
-title: "Procédure pas à pas : planification automatique des approvisionnements | Microsoft Docs"
-description: "Les expressions comme « exécution du planning » et « exécution MRP » se rapportent au calcul du programme directeur de production (PDP) et de la planification des besoins de matières (MRP) en fonction de la demande réelle et projetée."
+title: 'Procédure pas à pas : planification automatique des approvisionnements | Microsoft Docs'
+description: Les expressions comme « exécution du planning » et « exécution MRP » se rapportent au calcul du programme directeur de production (PDP) et de la planification des besoins de matières (MRP) en fonction de la demande réelle et projetée.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
 ms.openlocfilehash: c4239904c17db334cee006d5de08ea8c0e80b750
-ms.contentlocale: fr-ch
-ms.lasthandoff: 01/31/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821580"
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Procédure pas à pas : planification automatique des approvisionnements
 
@@ -50,7 +50,7 @@ Les expressions comme « exécution du planning » et « exécution MRP » s
 ## <a name="prerequisites"></a>Conditions préalables  
  Pour exécuter ce processus pas à pas, vous devez :  
 
--   Utiliser la société fictive CRONUS International Ltd.  
+-   utiliser la société fictive CRONUS International Ltd. ;  
 -   Modifier plusieurs valeurs de paramétrage des articles en suivant les instructions de la section « Préparation d'exemples de données », dans la suite de cette procédure.  
 
 ## <a name="story"></a>Scénario  
@@ -269,4 +269,3 @@ Les expressions comme « exécution du planning » et « exécution MRP » s
  [Procédures pas à pas liées au processus entreprise](walkthrough-business-process-walkthroughs.md)   
  [Procédure pas à pas : planification manuelle des approvisionnements](walkthrough-planning-supplies-manually.md)   
  [Détails de conception : planification de l'approvisionnement](design-details-supply-planning.md)
-

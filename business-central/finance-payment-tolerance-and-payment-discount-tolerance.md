@@ -1,23 +1,23 @@
 ---
-title: "Écart de règlement et écart d'escompte | Microsoft Docs"
-description: "Vous pouvez configurer l'écart de règlement de manière à fermer une facture lorsque le paiement ne couvre pas entièrement le montant de la facture."
+title: Écart de règlement et écart d'escompte | Microsoft Docs
+description: Vous pouvez configurer l'écart de règlement de manière à fermer une facture lorsque le paiement ne couvre pas entièrement le montant de la facture.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 83680cb4583cfe24deca310cb9c74ba9ab7b50f1
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: abbfa389e38e60b7b5470f1f390d370f8d43c6b5
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820262"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Utilisation des écarts de règlement et des écarts d'escompte
 Vous pouvez configurer un écart de règlement de manière à fermer une facture lorsque le paiement ne couvre pas entièrement le montant de la facture. Vous pouvez configurer un écart de règlement pour accorder un escompte après expiration de la date d'escompte.  
@@ -31,14 +31,14 @@ Un document unique comporte le même écart de règlement, qu'il soit lettré se
 
 *date d'escompte < date de règlement dans l'écriture sélectionnée <= date d'écart de règlement*  
 
-Cette règle détermine également la nécessité d'afficher des alertes lorsque vous appliquez l'écart de règlement à plusieurs documents. L'alerte liée à l'écart d'escompte s'affiche pour chaque écriture répondant aux critères de date. Pour plus d'informations, reportez-vous à la section « Exemple 2 - Calculs de l'écart pour plusieurs documents ».
+Cette règle détermine également la nécessité d'afficher des alertes lorsque vous appliquez l'écart de règlement à plusieurs documents. L'alerte liée à l'écart d'escompte s'affiche pour chaque écriture répondant aux critères de date. Pour plus d'informations, reportez-vous à [Exemple 2 - Calculs de l'écart pour plusieurs documents](finance-payment-tolerance-and-payment-discount-tolerance.md#example-2---tolerance-calculations-for-multiple-documents).
 
 Vous pouvez afficher une alerte en fonction des situations relatives à l'écart.  
 
 - La première alerte concerne l'écart d'escompte. Vous êtes informé que vous pouvez accepter un escompte tardif. Vous pouvez ensuite décider s'il faut accepter l'écart sur la date d'escompte.  
 - La seconde alerte concerne l'écart de règlement. Vous êtes informé que toutes les écritures peuvent être clôturées car la différence est inférieure à l'écart de règlement maximum pour les écritures lettrées. Vous pouvez ensuite décider s'il faut accepter l'écart sur la date de règlement.
 
-Pour plus d'informations, voir la section « Comment activer ou désactiver les alertes d'écart de règlement ».     
+Pour plus d'informations, voir [Pour activer ou désactiver l'alerte d'écart de règlement](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).     
 
 ## <a name="to-set-up-tolerances"></a>Pour configurer les écarts  
 Le fait de configurer des écarts pour la date ou le montant permet de fermer une facture alors que le règlement ne couvre pas le montant indiqué sur la facture, que ce soit parce que l'échéance de l'escompte est dépassée ou que des marchandises ont été déduites, ou suite à une erreur anodine. Ceci est également vrai pour les remboursements et les avoirs.  
@@ -60,9 +60,9 @@ Pour configurer l'écart, vous devez configurer plusieurs comptes écart, spéci
 >  Vous n'avez configuré l'écart que pour la devise société. Si vous souhaitez que [!INCLUDE[d365fin](includes/d365fin_md.md)] gère l'écart pour les paiements, les avoirs et les remboursements en devise étrangère, vous devez exécuter le traitement par lots **Modifier écart de règlement** avec une valeur dans le champ **Code devise**.  
 
 > [!NOTE]  
->  Si vous souhaitez recevoir une alerte écart règlement chaque fois que vous validez un lettrage dans l'écart, vous devez activer l'alerte écart règlement. Pour plus d'informations, voir la section « Comment activer ou désactiver les alertes d'écart de règlement ».  
+>  Si vous souhaitez recevoir une alerte écart règlement chaque fois que vous validez un lettrage dans l'écart, vous devez activer l'alerte écart règlement. Pour plus d'informations, voir [Pour activer ou désactiver l'alerte d'écart de règlement](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).  
 >   
->  Pour désactiver l'écart pour un client ou un fournisseur, vous devez bloquer les écarts sur la fiche client ou fournisseur correspondante. Pour plus d'informations, voir la section « Pour bloquer l'écart règlement pour des clients ».  
+>  Pour désactiver l'écart pour un client ou un fournisseur, vous devez bloquer les écarts sur la fiche client ou fournisseur correspondante. Pour plus d'informations, voir [Pour bloquer l'écart règlement pour des clients](finance-payment-tolerance-and-payment-discount-tolerance.md#to-block-payment-tolerance-for-customers).  
 >   
 >  Lorsque vous configurez un écart, [!INCLUDE[d365fin](includes/d365fin_md.md)] vérifie s'il existe des écritures ouvertes et calcule l'écart pour ces écritures.
 
@@ -262,4 +262,3 @@ Règles d'application normales
 [Configuration de Finance](finance-setup-finance.md)  
 [Gestion des comptes client](receivables-manage-receivables.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

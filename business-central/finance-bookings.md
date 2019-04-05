@@ -1,6 +1,6 @@
 ---
-title: "Facturer vos réservations dans Business Central | Microsoft Docs"
-description: "Apprenez comment vous pouvez effectuer des facturations en vrac à partir de Microsoft Bookings dans Business Central."
+title: Facturer vos réservations dans Business Central | Microsoft Docs
+description: Apprenez comment vous pouvez effectuer des facturations en vrac à partir de Microsoft Bookings dans Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: invoicing, bookings
 ms.date: 01/07/2019
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: a98027c3ef3171491f84197897f93cbed4e288c2
 ms.openlocfilehash: 65542f3855eff3a5ed117bff3247adbf05def6e2
-ms.contentlocale: fr-ch
-ms.lasthandoff: 01/07/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821398"
 ---
 # <a name="bulk-invoicing-for-microsoft-bookings-in-included365finincludesd365finmdmd"></a>Facturation en vrac pour Microsoft Bookings dans [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Si votre société utilise l'application Bookings d'Office 365, vous pouvez effectuer la facturation en vrac des rendez-vous. La page **Réservations non facturées** de [!INCLUDE[d365fin](includes/d365fin_md.md)] fournit une liste des réservations effectuées par la société. Cette page vous permet de rapidement sélectionner les rendez-vous à facturer et de créer des factures provisoires pour les services fournis.  
@@ -43,4 +43,3 @@ Le prise en charge de la facturation des rendez-vous dans Réservations est plus
 [Facturer des ventes](sales-how-invoice-sales.md)  
 [Définition des ventes](sales-setup-sales.md)  
 [Microsoft Bookings](https://products.office.com/en-us/business/scheduling-and-booking-app)  
-

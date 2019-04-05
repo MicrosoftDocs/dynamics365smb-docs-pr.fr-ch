@@ -1,6 +1,6 @@
 ---
-title: "Emettre, imprimer et annuler des chèques| Microsoft Docs"
-description: "Décrit comment émettre des chèques à l'aide de la feuille paiement, imprimer des chèques, et annuler ou afficher les écritures comptables chèque dans Business Central."
+title: Emettre, imprimer et annuler des chèques| Microsoft Docs
+description: Décrit comment émettre des chèques à l'aide de la feuille paiement, imprimer des chèques, et annuler ou afficher les écritures comptables chèque dans Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 4dd8f50f4d7767cb70b53a16009b86f135a5f5c6
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820260"
 ---
 # <a name="make-check-payments"></a>Effectuer des paiements par chèque
 Vous pouvez émettre des chèques par voie électronique et manuelle dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ces deux méthodes utilisent la feuille paiement pour émettre des chèques aux fournisseurs. Vous pouvez également annuler des chèques et afficher les écritures comptables chèque.
@@ -78,4 +78,3 @@ Si vous souhaitez examiner les chèques validés, par exemple pour vérifier plu
 [Paramétrage des opérations bancaires](bank-setup-banking.md)  
 [Exporter un fichier Positive Pay](finance-how-positive-pay.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

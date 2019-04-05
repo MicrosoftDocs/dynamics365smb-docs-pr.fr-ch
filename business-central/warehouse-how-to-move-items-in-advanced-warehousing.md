@@ -1,21 +1,21 @@
 ---
-title: "Comment déplacer des articles dans les configurations de stockage avancées | Microsoft Docs"
-description: "Dans des configurations d'entrepôt avancées, c'est-à-dire des magasins avec prélèvement et rangement dirigé, des mouvements entrepôt entre emplacements sont exécutés par un cadre qui prépare des mouvements entrepôt dans la feuille mouvement, puis crée les mouvements entrepôt que les magasiniers doivent exécuter."
+title: Comment déplacer des articles dans les configurations de stockage avancées | Microsoft Docs
+description: Dans des configurations d'entrepôt avancées, c'est-à-dire des magasins avec prélèvement et rangement dirigé, des mouvements entrepôt entre emplacements sont exécutés par un cadre qui prépare des mouvements entrepôt dans la feuille mouvement, puis crée les mouvements entrepôt que les magasiniers doivent exécuter.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: abe6155963054b942e5d70e27737da15bcb82220
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821559"
 ---
 # <a name="move-items-in-advanced-warehouse-configurations"></a>Déplacer des articles dans les configurations de stockage avancées
 Dans des configurations d'entrepôt avancées, c'est-à-dire des magasins avec prélèvement et rangement dirigé, des mouvements entrepôt entre emplacements sont exécutés par un cadre qui prépare des mouvements entrepôt dans la feuille mouvement, puis crée les mouvements entrepôt que les magasiniers doivent exécuter.  
@@ -54,4 +54,3 @@ Si, en cas d'utilisation d'un prélèvement et d'un rangement suggérés dans le
 [Gestion des assemblages](assembly-assemble-items.md)    
 [Détails de conception : gestion d'entrepôt](design-details-warehouse-management.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

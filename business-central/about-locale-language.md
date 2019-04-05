@@ -1,6 +1,6 @@
 ---
-title: "Fonctionnalité multilingue et localisation | Microsoft Docs"
-description: "Découvrez comment la langue et les paramètres régionaux influencent votre expérience dans Business Central."
+title: Fonctionnalité multilingue et localisation | Microsoft Docs
+description: Découvrez comment la langue et les paramètres régionaux influencent votre expérience dans Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: language, locale, localization, culture
 ms.date: 11/19/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 218b1b825501d64bef9d65640f922e690df3108f
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821115"
 ---
 # <a name="changing-language-and-locale"></a>Modification de la langue et des paramètres régionaux
 
@@ -52,4 +52,3 @@ C'est simple - accédez au bas de la page du navigateur et choisissez le symbole
 ## <a name="see-also"></a>Voir aussi  
 [Modification des paramètres de base](ui-change-basic-settings.md)  
 [Mise en route](product-get-started.md)  
-

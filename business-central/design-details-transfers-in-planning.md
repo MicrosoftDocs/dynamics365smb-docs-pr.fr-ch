@@ -1,8 +1,8 @@
 ---
-title: "Détails de conception - Transferts de planification | Microsoft Docs"
-description: "Cette rubrique décrit comment utiliser des ordres de transfert comme source d'approvisionnement lors de la planification des niveaux de stock."
+title: Détails de conception - Transferts de planification | Microsoft Docs
+description: Cette rubrique décrit comment utiliser des ordres de transfert comme source d'approvisionnement lors de la planification des niveaux de stock.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: design, transfer, sku, locations, warehouse
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: dbf1658893d5210c38994302ae817afa7349884a
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821225"
 ---
 # <a name="design-details-transfers-in-planning"></a>Détails de conception : transferts de planification
 Les ordres de transfert sont également une source d'approvisionnement lorsque vous travaillez au niveau des points de stock. Lors de l'utilisation de plusieurs magasins (entrepôts), le système de réapprovisionnement de point de stock peut être défini sur Transfer, ce qui implique que le magasin est réapprovisionné en transférant des biens d'un autre magasin. Dans une situation avec plusieurs entrepôts, les sociétés peuvent avoir une chaîne de transferts où l'approvisionnement vers le magasin VERT est transféré à partir du magasin JAUNE, l'approvisionnement vers JAUNE est transféré depuis ROUGE et ainsi de suite. Au début de la chaîne, il existe un système de réapprovisionnement d'Ordre de fabrication ou d'achat.  
@@ -168,4 +168,3 @@ Si la demande est modifiée de 27 à 22, le système réduira la quantité par
 [Détails de conception : concepts centraux du système de planification](design-details-central-concepts-of-the-planning-system.md)   
 [Détails de conception : équilibrage de la demande et de l'approvisionnement](design-details-balancing-demand-and-supply.md)   
 [Détails de conception : planification de l'approvisionnement](design-details-supply-planning.md)
-

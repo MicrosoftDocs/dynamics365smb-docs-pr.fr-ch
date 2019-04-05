@@ -1,21 +1,21 @@
 ---
-title: "Prélèvement et expédition dans les configurations de stockage de base | Microsoft Docs"
-description: "Dans Business Central, les processus sortants de prélèvement et d'expédition peuvent être effectués de quatre manières, à l'aide de différentes fonctionnalités en fonction du niveau de complexité de l'entrepôt."
+title: Prélèvement et expédition dans les configurations de stockage de base | Microsoft Docs
+description: Dans Business Central, les processus sortants de prélèvement et d'expédition peuvent être effectués de quatre manières, à l'aide de différentes fonctionnalités en fonction du niveau de complexité de l'entrepôt.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
 ms.openlocfilehash: 1b07a3b064f1bc45a183d0a2d27b810312007a22
-ms.contentlocale: fr-ch
-ms.lasthandoff: 01/31/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820476"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Procédure pas à pas : Prélèvement et expédition dans les configurations de stockage de base
 
@@ -70,7 +70,7 @@ Pour exécuter ce processus pas à pas, vous devez :
 
         |Type écriture|Numéro d'article|Code magasin|Code emplacement|Quantité|  
         |----------------|-----------------|-------------------|--------------|--------------|  
-        |Positif (ajust.)|LS-81|ARGENTE|S-01-0001 **Remarque** : l'emplacement par défaut de l'article dans CRONUS|20|  
+        |Positif (ajust.)|LS-81|ARGENTE|S-01-0001 **Note :** l'emplacement par défaut de l'article dans CRONUS.|20|  
         |Positif (ajust.)|LS-81|ARGENTE|S-01-0002|20|  
 
     3.  Choisissez l'action **Valider**, puis cliquez sur le bouton **Oui**.  
@@ -131,4 +131,3 @@ Sur la page **Prélèvement stock**, vous pouvez gérer toutes les activités en
  [Détails de conception : flux de désenlogement](design-details-outbound-warehouse-flow.md)   
  [Procédures pas à pas liées au processus entreprise](walkthrough-business-process-walkthroughs.md)  
  [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

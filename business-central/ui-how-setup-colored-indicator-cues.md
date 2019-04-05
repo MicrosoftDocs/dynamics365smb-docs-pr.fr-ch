@@ -1,8 +1,8 @@
 ---
-title: "Personnaliser les signaux visuels à propos de l'activité d'une pile | Microsoft Docs"
-description: "Configurez un indicateur en couleur sur une vignette de la pile pour fournir un signal visuel personnalisé de l'activité de la pile."
+title: Personnaliser les signaux visuels à propos de l'activité d'une pile | Microsoft Docs
+description: Configurez un indicateur en couleur sur une vignette de la pile pour fournir un signal visuel personnalisé de l'activité de la pile.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: personalize, customize
 ms.date: 10/01/2018
 ms.author: solsen
 redirect_url: admin-how-set-up-colored-indicator-on-cues
+ms.openlocfilehash: 0547091220aa65562766c25fe6a06d456a2c96ad
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 366d762fbfbd2a61253b087577ef2810194e2c35
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820849"
 ---
 # <a name="set-up-a-colored-indicator-on-cues"></a>Configurer un indicateur coloré sur des piles
 Vous pouvez configurer des piles qui apparaissent sur le Tableau de bord pour inclure un indicateur qui modifie la couleur en fonction des valeurs de données dans les piles.
@@ -46,4 +46,3 @@ Le tableau suivant répertorie les couleurs correspondant aux options des champs
 
 ## <a name="see-also"></a>Voir aussi
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

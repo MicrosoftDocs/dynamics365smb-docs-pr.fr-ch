@@ -1,6 +1,6 @@
 ---
 title: Recherche de fonctions et d'informations | Microsoft Docs
-description: "Cette rubrique décrit comment utiliser la recherche pour rechercher des actions, des pages, des états, de la documentation, et des données."
+description: Cette rubrique décrit comment utiliser la recherche pour rechercher des actions, des pages, des états, de la documentation, et des données.
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: d260f7cf5db0bbd7c70320d0bd1d33ee29650616
-ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821148"
 ---
 # <a name="using-tell-me-to-find-features-and-information"></a>Utilisation de la fonction Tell Me pour trouver des fonctions et des informations  
 Cette rubrique décrit les différentes manières que Tell Me peut vous aider à trouver rapidement une action, une page, un état, ou à apprendre comment créer quelque chose dans [!INCLUDE[d365fin](includes/d365fin_md.md)] si vous êtes incertain.  

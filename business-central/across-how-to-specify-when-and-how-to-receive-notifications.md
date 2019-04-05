@@ -1,23 +1,23 @@
 ---
-title: "Procédure : spécifier quand et comment recevoir des notifications | Microsoft Docs"
-description: "Lorsque vous paramétrez des utilisateurs dans des flux de travail d'approbation, vous devez spécifier sur les pages Paramètres de notification et Tableau de notification quand et comment chaque utilisateur reçoit des notifications sur les étapes du flux de travail d'approbation. Les utilisateurs individuels peuvent également modifier leur paramètre de notification en choisissant le bouton Changer les paramètres de notification sur toute notification."
+title: 'Procédure : spécifier quand et comment recevoir des notifications | Microsoft Docs'
+description: Lorsque vous paramétrez des utilisateurs dans des flux de travail d'approbation, vous devez spécifier sur les pages Paramètres de notification et Tableau de notification quand et comment chaque utilisateur reçoit des notifications sur les étapes du flux de travail d'approbation. Les utilisateurs individuels peuvent également modifier leur paramètre de notification en choisissant le bouton Changer les paramètres de notification sur toute notification.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/08/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 8bb1b2815740e3acfeb984c1b7cbad160dcd1016
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821061"
 ---
 # <a name="specify-when-and-how-to-receive-notifications"></a>Spécifier quand et comment recevoir des notifications
 Lorsque vous paramétrez des utilisateurs dans des flux de travail d'approbation, vous devez spécifier sur les pages **Paramètres de notification** et **Tableau de notification** quand et comment chaque utilisateur reçoit des notifications sur les étapes du flux de travail d'approbation. Les utilisateurs individuels peuvent également modifier leur paramètre de notification en choisissant le bouton **Changer les paramètres de notification** sur toute notification.  
@@ -65,4 +65,3 @@ Lorsque vous paramétrez des utilisateurs dans des flux de travail d'approbation
  [Configuration de notifications de workflow](across-setting-up-workflow-notifications.md)   
  [Paramétrage des workflows](across-set-up-workflows.md)   
  [Utilisation des workflows](across-use-workflows.md)
-

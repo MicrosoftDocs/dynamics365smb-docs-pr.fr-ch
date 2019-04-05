@@ -1,23 +1,23 @@
 ---
-title: "Comment configurer des entrepôts de base avec les zones d'opérations | Microsoft Docs"
-description: "Si les zones Opérations internes telles que la production ou l'assemblage existent dans les configurations entrepôt de base dans lesquelles les magasins utilisent le champ de configuration **Emplacement obligatoire** et éventuellement les champs **Prélèvement requis** et **Rangement requis**, vous pouvez utiliser trois documents d'entrepôt de base suivants pour enregistrer vos activités entrepôt pour des zones Opérations internes."
+title: Comment configurer des entrepôts de base avec les zones d'opérations | Microsoft Docs
+description: Si les zones Opérations internes telles que la production ou l'assemblage existent dans les configurations entrepôt de base dans lesquelles les magasins utilisent le champ de configuration **Emplacement obligatoire** et éventuellement les champs **Prélèvement requis** et **Rangement requis**, vous pouvez utiliser trois documents d'entrepôt de base suivants pour enregistrer vos activités entrepôt pour des zones Opérations internes.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: f11719cc9488adf84bca8cd5a23d28caaa75f4bf
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 04b1e87cb41df19559d85cf02eabbf6aaec0011a
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821276"
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Configurer des entrepôts de base avec les zones d'opérations
 Si les zones Opérations internes telles que la production ou l'assemblage existent dans les configurations entrepôt de base dans lesquelles les magasins utilisent le champ de configuration **Emplacement obligatoire** et éventuellement les champs **Prélèvement requis** et **Rangement requis**, vous pouvez utiliser les documents d'entrepôt de base suivants pour enregistrer vos activités entrepôt pour des zones Opérations internes :  
@@ -35,7 +35,7 @@ Pour utiliser ces pages avec des opérations internes, par exemple pour préleve
 - Définir les structures d'emplacement par défaut pour les composants et les produits finis s'écoulant depuis ou vers les ressources opérationnelles.  
 - Créer des emplacements de destination et d'origine dédiés à des ressources opérationnelles spécifiques pour empêcher le prélèvement des articles pour les documents sortants.
 
-Les codes emplacement qui sont paramétrés dans les fiches magasin définissent un flux entrepôt par défaut pour des activités spécifiques, telles que les composants d'un département assemblage. Des fonctionnalités supplémentaires existent pour s'assurer que des articles placés dans un emplacement particulier ne peuvent ni être déplacés vers d'autres activités, ni être prélevés pour ces dernières. Pour plus d'informations, voir la section « Pour créer des emplacements composants dédiés ».
+Les codes emplacement qui sont paramétrés dans les fiches magasin définissent un flux entrepôt par défaut pour des activités spécifiques, telles que les composants d'un département assemblage. Des fonctionnalités supplémentaires existent pour s'assurer que des articles placés dans un emplacement particulier ne peuvent ni être déplacés vers d'autres activités, ni être prélevés pour ces dernières. Pour plus d'informations, voir [Pour créer des emplacements composants dédiés](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md#to-create-dedicated-component-bins).
 
 Les procédures suivantes sont basées sur la configuration d'activités entrepôt de base autour d'une zone de production. Les étapes sont similaires pour d'autres zones Opérations, telles que l'assemblage, la gestion des services et les projets.  
 
@@ -142,4 +142,3 @@ La réservation d'un emplacement fournit la même fonctionnalité permettant d'u
 [Gestion des assemblages](assembly-assemble-items.md)    
 [Détails de conception : gestion d'entrepôt](design-details-warehouse-management.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

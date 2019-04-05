@@ -1,8 +1,8 @@
 ---
-title: "Gérer les immobilisations| Microsoft Docs"
-description: "En savoir plus sur la fonctionnalité d'immobilisations et afficher un aperçu de l'utilisation des immobilisations."
+title: Gérer les immobilisations| Microsoft Docs
+description: En savoir plus sur la fonctionnalité d'immobilisations et afficher un aperçu de l'utilisation des immobilisations.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 9569f01f286008b76667e3a524257ba1aac61f91
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821326"
 ---
 # <a name="fixed-assets"></a>COMPTES D'IMMOBILISATIONS
 Le module Immobilisations dans [!INCLUDE[d365fin](includes/d365fin_md.md)] offre un aperçu des immobilisations et garantit un amortissement périodique correct. Elle vous permet également de connaître les coûts de maintenance, de gérer les polices d'assurance, de valider les transactions d'immobilisations, et de générer des états et des statistiques variés.
@@ -57,4 +57,3 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
  
-

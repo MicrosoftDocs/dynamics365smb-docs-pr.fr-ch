@@ -1,6 +1,6 @@
 ---
-title: "Créer des rapports d'analyse| Microsoft Docs"
-description: "Décrit comment créer de nouveaux rapports d'analyse pour les ventes, les achats et le stock, et configurer des modèles d'analyse."
+title: Créer des rapports d'analyse| Microsoft Docs
+description: Décrit comment créer de nouveaux rapports d'analyse pour les ventes, les achats et le stock, et configurer des modèles d'analyse.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: ecee2f3b5be33bb12f6ca742c0a28720fee6e427
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821364"
 ---
 #  <a name="create-analysis-reports"></a>Créer des rapports d'analyse
 Les directeurs des ventes doivent analyser de manière régulière les rotations, la marge bénéficiaire brute et d'autres indicateurs de performance des ventes clés. Les acheteurs, eux, s'intéressent plutôt à la dynamique des volumes d'achat, des performances des fournisseurs et des prix d'achat. Par ailleurs, les gestionnaires des stocks et directeurs de la logistique ont besoin d'informations sur la rotation des stocks, d'une analyse des mouvements de stock et de statistiques sur la valeur du stock.  
@@ -106,4 +106,3 @@ Les rapports d'analyse permettent d'analyser la dynamique de vos ventes en fonct
 [Configuration de Finance](finance-setup-finance.md)  
 [Les écritures comptables et le plan comptable](finance-general-ledger.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

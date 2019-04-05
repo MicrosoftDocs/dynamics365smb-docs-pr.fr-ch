@@ -1,8 +1,8 @@
 ---
-title: "Clôturer des périodes comptables pour un exercice comptable | Microsoft Docs"
-description: "Décrit comment clôturer les périodes comptables de l'exercice comptable."
+title: Clôturer des périodes comptables pour un exercice comptable | Microsoft Docs
+description: Décrit comment clôturer les périodes comptables de l'exercice comptable.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: c8f086e0dc7479ece62ab28b64f9553ba2d13b82
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820578"
 ---
 # <a name="close-accounting-periods"></a>Clôturer des périodes comptables
 Lorsqu'un exercice comptable est terminé, vous devez clôturer les périodes qui le composent.
@@ -43,4 +43,3 @@ Une fois qu'un exercice comptable a été clôturé, vous devez clôturer les co
 [Valider l'écriture de clôture d'exercice](year-how-post-year-end-close-entry.md)  
 [Ouvrir un nouvel exercice comptable](finance-how-open-new-fiscal-year.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,8 +1,8 @@
 ---
-title: "Afficher des états Power BI personnalisés| Microsoft"
-description: "Vous pouvez utiliser des états Power BI pour obtenir des informations supplémentaires sur les données des listes."
+title: Afficher des états Power BI personnalisés| Microsoft
+description: Vous pouvez utiliser des états Power BI pour obtenir des informations supplémentaires sur les données dans les listes.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: 2be3a29ad88c46f8b96b9f4bed34602da35fbcb7
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 595e6fb7cc8239ea33cf57aadfd8b0f3419323e5
-ms.contentlocale: fr-ch
-ms.lasthandoff: 06/01/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820622"
 ---
 # <a name="viewing-list-data-in-power-bi-reports-in-business-central"></a>Affichage des données de liste des états Power BI dans Business Central 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] inclut un élément de contrôle Récapitulatif sur un certain nombre de pages Liste des clés fournissant des informations supplémentaires sur les données de la liste. Lorsque vous vous déplacez entre les lignes de la liste, l'état est mis à jour et filtré pour l'écriture sélectionnée. Vous pouvez créer des états personnalisés pour qu'ils s'affichent dans ce contrôle, mais il y a certaines règles à suivre lors de la création des états pour s'assurer qu'ils adoptent le comportement souhaité.  
@@ -76,4 +76,3 @@ Vérifiez que la taille de l'état est configurée sur 325 pixels x 310 pixels. 
 [Mise en route](product-get-started.md)    
 [Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)    
 [Finances](finance.md)  
-

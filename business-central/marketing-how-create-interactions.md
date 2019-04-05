@@ -1,8 +1,8 @@
 ---
-title: "Créer des interactions sur les contacts et les segments| Microsoft Docs"
-description: "Décrit comment créer des interactions pour les communications que vous avez avec vos contacts et segments dans Business Central, par exemple le courrier direct."
+title: Créer des interactions sur les contacts et les segments| Microsoft Docs
+description: Décrit comment créer des interactions pour les communications que vous avez avec vos contacts et segments dans Business Central, par exemple le courrier direct.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: fc88c43e7e404c715893e11a10f0ca5fb794163a
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 250e56b8bb2ced4745536092bf7cd4f3fa797dee
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821488"
 ---
 # <a name="create-interactions-on-contacts-and-segments"></a>Créer des interactions sur les contacts et les segments
 Vous pouvez créer des interactions pour enregistrer toutes les interactions et toutes les communications que vous entretenez avec vos contacts et segments, par exemple le courrier direct.
@@ -53,6 +53,4 @@ Si vous avez activé la case à cocher **Créer suivi segment**, le programme cr
 [Enregistrement d'interactions](marketing-interactions.md)  
 [Gestion de contacts](marketing-contacts.md)  
 [Gestion des opportunités de ventes](marketing-manage-sales-opportunities.md)  
-[Paramétrage de la Gestion des relations](marketing-setup-marketing.md)  
 [Utilisation de Business Central](ui-work-product.md)
-

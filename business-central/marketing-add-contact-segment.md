@@ -1,8 +1,8 @@
 ---
-title: "Définir les contacts dans un segment| Microsoft Docs"
-description: "Après avoir créé un segment, vous pouvez y ajouter des contacts, par exemple, dans le cadre d'une campagne marketing visant des clients particuliers."
+title: Définir les contacts dans un segment| Microsoft Docs
+description: Après avoir créé un segment, vous pouvez y ajouter des contacts, par exemple, dans le cadre d'une campagne marketing visant des clients particuliers.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect, contact, client, customer
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: ba4ed0971711a1f7a827ec4ea4e42f2013a51cfd
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820839"
 ---
 # <a name="add-contacts-to-segments"></a>Ajouter des contacts à des segments
 Lorsque vous avez créé un segment et saisi les informations de base le concernant, vous pouvez être amené à ajouter des contacts au segment. Pour ce faire, vous pouvez renseigner manuellement les lignes de la page **Segment** ou utiliser l'action **Ajouter contacts** (plus simple et plus rapide).
@@ -58,4 +58,3 @@ Vous pouvez réduire un segment aussi souvent que vous le souhaitez. Sélectionn
 [Gestion des segments](marketing-segments.md)  
 [Gestion des opportunités de ventes](marketing-manage-sales-opportunities.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

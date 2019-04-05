@@ -1,7 +1,7 @@
 ---
-title: "Paramétrer du contenu d'e-mail spécifique au document | Microsoft Docs"
-description: "Vous pouvez définir le contenu à insérer dans le corps de l'e-mail, par exemple, un lien Paypal. Vous pouvez également joindre des documents aux e-mails."
-documentationcenter: 
+title: Paramétrer du contenu d'e-mail spécifique au document | Microsoft Docs
+description: Vous pouvez définir le contenu à insérer dans le corps de l'e-mail, par exemple, un lien Paypal. Vous pouvez également joindre des documents aux e-mails.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 591ec86980240b8ffcfda0cf51debe571e327299
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: a800f24f86227afc2ab45ffcb6d1aaffd608e69e
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821206"
 ---
 # <a name="send-documents-by-email"></a>Envoyer des documents par e-mail
 Pour communiquer le contenu des documents commerciaux rapidement à vos partenaires commerciaux, par exemple les informations paiement sur les documents vente aux clients, vous pouvez utiliser la fonctionnalité de présentation des états pour définir le contenu spécifique aux documents qui est automatiquement inséré au corps du message. Pour plus d'informations, voir [Gestion des présentations de rapport et de document](ui-manage-report-layouts.md).
@@ -57,7 +57,7 @@ La procédure suivante décrit comment envoyer une facture vente validée en tan
 7. Dans le champ **Document joint**, la facture générée est jointe par défaut en tant que fichier PDF. Cliquez sur le bouton de consultation pour ouvrir le fichier ou pour en joindre un autre.
 8. Dans le champ **Corps**, entrez un message court au destinataire.
 
-    Si le corps d'un message spécifique à un document est configuré sur la page **Sélection des états : Ventes**, le champ **Corps** est renseigné automatiquement. Pour plus d'informations, reportez-vous à la section « Pour configurer le corps d'un message spécifique à un document pour les factures vente » de cette rubrique.
+    Si le corps d'un message spécifique à un document est configuré sur la page **Sélection des états : Ventes**, le champ **Corps** est renseigné automatiquement. Pour plus d'informations, voir [Pour configurer corps de message spécifique à un document pour les factures vente](ui-how-send-documents-email.md#to-set-up-a-document-specific-email-body-for-sales-invoices).
 9. Cliquez sur le bouton **OK** pour envoyer l'e-mail.
 
 > [!NOTE]  
@@ -68,4 +68,3 @@ La procédure suivante décrit comment envoyer une facture vente validée en tan
 [Configurer la messagerie](admin-how-setup-email.md)  
 [Facturer des ventes](sales-how-invoice-sales.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

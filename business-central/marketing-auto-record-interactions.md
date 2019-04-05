@@ -1,8 +1,8 @@
 ---
 title: Configuration de l'enregistrement automatique d'interactions| Microsoft Docs
-description: "Vous pouvez enregistrer automatiquement les interactions client, par exemple, pour les documents ventes, achat et service ou les appels téléphoniques."
+description: Vous pouvez enregistrer automatiquement les interactions client, par exemple, pour les documents ventes, achat et service ou les appels téléphoniques.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: marketing, relationship, prospect, contact, client, customer
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 996bf575d463be365b0bbcdbeef319491065b873
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820917"
 ---
 # <a name="recording-interactions-with-contacts-automatically"></a>Enregistrement automatique des interactions avec les contacts
 Vous pouvez configurer l'application de sorte à enregistrer automatiquement les interactions pour les documents vente, achat et service, les bordereaux d'envoi, les emails, les appels téléphoniques, et notamment :
@@ -34,4 +34,3 @@ Pour ouvrir la page **Paramètres modèles interaction**, choisissez l'icône de
 ## <a name="see-also"></a>Voir aussi
 [Enregistrement des interactions avec les contacts](marketing-interactions.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

@@ -1,21 +1,21 @@
 ---
-title: "Écritures comptables article ouvertes"
-description: "Découvrez pourquoi le niveau de stock est nul alors qu'il existe des écritures comptables article ouvertes."
+title: Écritures comptables article ouvertes
+description: Découvrez pourquoi le niveau de stock est nul alors qu'il existe des écritures comptables article ouvertes.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 0bb558fe24d8c5bc717ef72e8c94ba0154a06a55
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821329"
 ---
 # <a name="design-details-known-item-application-issue"></a>Détails de conception : problème de lettrage article connu
 Cet article traite du problème de niveau de stock nul alors qu'il existe des écritures comptables article ouvertes dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -151,4 +151,3 @@ Le schéma suivant décrit la façon dont les lettrages de coût sont effectués
 ## <a name="see-also"></a>Voir aussi  
 [Détails de conception : lettrage article](design-details-item-application.md)   
 [Détails de conception : évaluation stock](design-details-inventory-costing.md)  
-

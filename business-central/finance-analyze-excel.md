@@ -1,6 +1,6 @@
 ---
-title: "Utiliser des états financiers et des aperçus dans Excel | Microsoft Docs"
-description: "En savoir plus sur la manière dont vous pouvez ouvrir des états financiers dans Microsoft Excel à partir de Business Central pour une meilleure analyse."
+title: Utiliser des états financiers et des aperçus dans Excel | Microsoft Docs
+description: En savoir plus sur la manière dont vous pouvez ouvrir des états financiers dans Microsoft Excel à partir de Business Central pour une meilleure analyse.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: acd894ede7ad497311a793fb7153333a9a35e1cb
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3ef371dda59142f38aa50159ecf305880d34529b
-ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821026"
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Analyse des états financiers dans Microsoft Excel
 Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez visualiser les KPI et obtenir des aperçus de l'état financier de la société. Vous pouvez également ouvrir des listes dans Excel et analyser les données afférentes. De plus, vous pouvez exporter des états financiers volumineux, tels que le bilan ou les comptes de gestion vers Excel, analyser les données et imprimer les états.  
@@ -46,4 +46,3 @@ Le module complémentaire vous permet d'obtenir des données actualisées à par
 [Configuration de Finance](finance-setup-finance.md)  
 [Les écritures comptables et le plan comptable](finance-general-ledger.md)  
 [Utilisation de Business Central](ui-work-product.md)  
-

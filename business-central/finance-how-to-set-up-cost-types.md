@@ -1,8 +1,8 @@
 ---
-title: "Procédure de configuration d'un plan des types de coûts | Microsoft Docs"
-description: "Le plan des types de coûts a la même fonction que le plan comptable général."
+title: Procédure de configuration d'un plan des types de coûts | Microsoft Docs
+description: Le plan des types de coûts a la même fonction que le plan comptable général.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: cost types, general ledger, accounts
 ms.date: 11/13/2018
 ms.author: sgroespe
 redirect_url: finance-set-up-cost-accounting
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 2846967648f5c0e0b6015c7990a941642fc27323
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821495"
 ---
 # <a name="set-up-cost-types"></a>Configuration des types de coûts
 Le plan des types de coûts a la même fonction que le plan comptable général. Vous pouvez configurer le plan des types de coûts comme suit :  
@@ -64,4 +64,3 @@ Le plan des types de coûts a la même fonction que le plan comptable général.
 [Terminologie en comptabilité analytique](finance-terminology-in-cost-accounting.md)   
 [À propos de la comptabilité analytique](finance-about-cost-accounting.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

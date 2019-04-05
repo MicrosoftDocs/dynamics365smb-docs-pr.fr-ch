@@ -1,6 +1,6 @@
 ---
-title: "Créer des contacts| Microsoft Docs"
-description: "Décrit comment créer une fiche contact pour chaque nouvelle personne ou nouveau prospect avec lequel vous collaborez ou entretenez des relations professionnelles."
+title: Créer des contacts| Microsoft Docs
+description: Décrit comment créer une fiche contact pour chaque nouvelle personne ou nouveau prospect avec lequel vous collaborez ou entretenez des relations professionnelles.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-create-contact-persons
+ms.openlocfilehash: 983de37e20b69d6ce5d8630973d8fbac6403a346
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 1bcba95f33a504d5c87fbc27671184d71aa6468f
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820869"
 ---
 # <a name="create-contact-persons"></a>Création de personnes contact
 Vous pouvez créer une fiche contact pour chaque contact qui travaille dans les sociétés avec lesquelles vous collaborez. Pour chaque société contact, vous pouvez saisir autant de personnes contact que vous le souhaitez. Vous pouvez également créer des fiches contact pour les personnes que vous souhaitez enregistrer en tant que travailleurs indépendants.
@@ -37,11 +37,9 @@ Vous pouvez créer une fiche contact pour chaque contact qui travaille dans les 
 >   Les valeurs des champs que vous avez sélectionnés dans la section **Héritage** de la page **Paramètres Marketing** sont copiées à partir de la société vers les personnes qui travaillent au sein de cette société.
 
 ## <a name="see-also"></a>Voir aussi
-[Paramétrage de la Gestion des relations](marketing-setup-marketing.md)  
 [Affecter des groupes de distribution à un contact](marketing-mailing-groups.md#AssignMailGroupContact)  
 [Configurer des responsabilités sur les contacts](marketing-job-responsibilities.md)  
 [Configurer des niveaux hiérarchiques pour les personnes contact](marketing-organizational-levels.md)  
 [Synchronisation des contacts avec les clients, les fournisseurs et les comptes bancaires](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
 [Utiliser des questionnaires profil pour classer les contacts professionnels](marketing-create-contact-profile-questionnaire.md)  
 [Utilisation de Business Central](ui-work-product.md)  
-

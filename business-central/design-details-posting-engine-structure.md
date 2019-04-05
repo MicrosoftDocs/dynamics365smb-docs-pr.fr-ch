@@ -1,23 +1,23 @@
 ---
-title: "Détails de conception- Structure du moteur de validation | Microsoft Docs"
-description: "L'interface de validation et certaines autres fonctions dans le codeunit 12 utilisent des fonctions de moteur de validation pour préparer et insérer l'écriture comptable et les enregistrements d'écriture TVA. Le moteur de validation est également chargé de la création de registre du grand livre."
+title: Détails de conception- Structure du moteur de validation | Microsoft Docs
+description: L'interface de validation et certaines autres fonctions dans le codeunit 12 utilisent des fonctions de moteur de validation pour préparer et insérer l'écriture comptable et les enregistrements d'écriture TVA. Le moteur de validation est également chargé de la création de registre du grand livre.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 58a319db86be7a93467a624b56fafc0da122c7fb
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e37bd2be3d0a30c3274e27d7ccbce7a3e14c30b1
-ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820843"
 ---
 # <a name="design-details-posting-engine-structure"></a>Détails de conception : Structure du moteur de validation
 L'interface de validation et certaines autres fonctions dans le codeunit 12 utilisent des fonctions de moteur de validation pour préparer et insérer l'écriture comptable et les enregistrements d'écriture TVA. Le moteur de validation est également chargé de la création de registre du grand livre.  

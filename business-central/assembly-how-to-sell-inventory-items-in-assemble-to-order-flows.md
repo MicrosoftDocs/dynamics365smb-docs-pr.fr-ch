@@ -1,8 +1,8 @@
 ---
 title: "Procédure : Vente d'articles en stock dans des flux à assembler pour commande | Microsoft Docs"
-description: "Si l'article est configuré pour la fiche d'assemblage pour commande, le processus par défaut de commande vente considère que l'article n'est pas en stock et doit être assemblé pour cette commande vente spécifique. Par conséquent, un ordre d'assemblage lié est automatiquement créé lorsque vous ajoutez l'article à une ligne commande vente."
+description: Si l'article est configuré pour la fiche d'assemblage pour commande, le processus par défaut de commande vente considère que l'article n'est pas en stock et doit être assemblé pour cette commande vente spécifique. Par conséquent, un ordre d'assemblage lié est automatiquement créé lorsque vous ajoutez l'article à une ligne commande vente.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 5b01e3cb4d8ea09d08a546fb0af25dc0879111eb
-ms.contentlocale: fr-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820924"
 ---
 # <a name="sell-inventory-items-in-assemble-to-order-flows"></a>Vente d'articles en stock dans des flux à assembler pour commande
 Si le champ **Stratégie d'assemblage** de la fiche article d'un élément d'assemblage indique **Assembler pour commande**, le processus par défaut de commande vente considère que l'article n'est pas en stock et doit être assemblé pour cette commande vente spécifique. Par conséquent, un ordre d'assemblage lié est automatiquement créé lorsque vous ajoutez l'article à une ligne commande vente. Pour plus d'informations, reportez-vous à [Vente d'articles à assembler pour commande](assembly-how-to-sell-items-assembled-to-order.md). Toutefois, si une partie de la quantité sur commande vente est déjà disponible en stock, alors vous pouvez diminuer la quantité d'ordre d'assemblage en changeant le champ **Quantité à assembler pour commande** de la ligne commande vente.  
@@ -57,4 +57,3 @@ Dans cette procédure, vous remplacez les quantités à assembler pour commande 
 [STOCKS ET EN-COURS](inventory-manage-inventory.md)  
 [Détails de conception : gestion d'entrepôt](design-details-warehouse-management.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

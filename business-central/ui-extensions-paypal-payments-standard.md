@@ -1,8 +1,8 @@
 ---
 title: Utilisation de l'extension PayPal Payments Standard | Microsoft Docs
-description: "Décrit comment utiliser l'extension pour permettre aux clients d'effectuer des paiements avec Paypal."
+description: Décrit comment utiliser l'extension pour permettre aux clients d'effectuer des paiements avec Paypal.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 6aa3eec4afc365789b1fd85d64781593156ba068
-ms.contentlocale: fr-ch
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821169"
 ---
 # <a name="the-paypal-payments-standard-extension"></a>Extension PayPal Payments Standard
 Les clients sont toujours plus exigeants en ce qui concerne le service clientèle, en termes de qualité de produits mais aussi en termes d'options de livraison et de paiement. Le service PayPal Payments Standard vous aide à développer votre service clientèle.
@@ -40,4 +40,3 @@ Pour plus d'informations, reportez-vous à [Activer les paiements client via Pay
 [Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md)  
 [Définition des ventes](sales-setup-sales.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
