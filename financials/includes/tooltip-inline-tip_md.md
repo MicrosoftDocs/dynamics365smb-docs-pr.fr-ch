@@ -1,1 +1,0 @@
-<span data-ttu-id="e7e25-101">Choisissez un champ pour lire une brève description du champ ou du lien vers plus d'informations.</span><span class="sxs-lookup"><span data-stu-id="e7e25-101">Choose a field to read a short description of the field or link to more information.</span></span>

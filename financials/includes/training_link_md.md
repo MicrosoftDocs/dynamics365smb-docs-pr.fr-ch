@@ -1,1 +1,0 @@
-<span data-ttu-id="dd213-101">Obtenir une [formation !](https://docs.microsoft.com/en-us/dynamics365/get-started/training/)</span><span class="sxs-lookup"><span data-stu-id="dd213-101">Get [training!](https://docs.microsoft.com/en-us/dynamics365/get-started/training/)</span></span>
