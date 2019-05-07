@@ -1,51 +1,51 @@
 ---
 title: Configurer des tarifs de projets et des groupes de comptabilisation de projet| Microsoft Docs
 description: Décrit comment configurer des informations générales de projets, et des prix d'articles de projet, des ressources, ainsi que des comptes généraux et des groupes de comptabilisation projets.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management
-ms.date: 10/01/2018
-ms.author: sgroespe
-ms.openlocfilehash: fc4c413fcb02cda2e0eb2b8caf7af721a26dfe1b
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.date: 04/01/2019
+ms.author: edupont
+ms.openlocfilehash: 34dfdb463d3423d823b8f1439361d05296ca3c8a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "820218"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "918872"
 ---
 # <a name="set-up-jobs"></a>Configuration de projets
-Sur la page **Paramètres projets**, vous devez spécifier comment utiliser certaines fonctions de projet.
 
-Sur les fiches projet individuelles, vous devez configurer les prix pour les articles, les ressources et les comptes généraux du projet, puis vous devez configurer des groupes comptabilisation du projet.
+En tant que chef de projet, vous pouvez définir des projets qui définissent chacun des projets que vous gérez dans [!INCLUDE [prodshort](includes/prodshort.md)]. Sur la page **Paramètres projets**, vous devez spécifier comment utiliser certaines fonctions de projet.
+
+Pour chaque projet, vous précisez ensuite les fiches projet individuelles avec des informations concernant les prix pour les articles, les ressources et les comptes généraux du projet, puis vous devez configurer des groupes comptabilisation du projet.
 
 ## <a name="to-set-general-information-for-jobs"></a>Pour configurer des informations générales pour les projets
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres projets**, puis sélectionnez le lien associé.
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-> [!NOTE]  
->   La case à cocher **Appliquer le lien d'utilisation par défaut** est assez complexe et est donc expliquée dans la section suivante.
+> [!NOTE]
+> L'impact du champ **Appliquer le lien d'utilisation par défaut** est assez complexe et est donc expliqué dans la section suivante.
 
-## <a name="to-set-up-job-usage-tracking"></a>Pour configurer un suivi d'activité de projet
+### <a name="to-set-up-job-usage-tracking"></a>Pour configurer un suivi d'activité de projet
+
 Lors de l'exécution d'un projet, vous aurez peut-être besoin de savoir si votre activité est conforme au plan. Pour entreprendre facilement cette action, vous pouvez créer un lien entre vos lignes planning du projet et l'utilisation réelle. Cela vous permet de suivre vos coûts et de voir aisément le travail qui reste à effectuer. Par défaut, le type de ligne planning projet est **Budget**, mais l'utilisation du type de ligne **Budget et Facturable** a des effets similaires.
 
-Si vous sélectionnez la case à cocher **Appliquer le lien d'utilisation par défaut**, vous pouvez alors consulter les informations sur la ligne planning projet. Vous pouvez définir la quantité de ressources, d'articles ou le compte général, puis indiquer la quantité que vous souhaitez transférer vers la feuille projet. Le champ **Quantité restante** dans la ligne planning projet vous aide à déterminer ce qui reste à transférer et à valider dans la feuille projet.
+Si vous sélectionnez le champ **Appliquer le lien d'utilisation par défaut**, vous pouvez alors consulter les informations sur la ligne planning projet. Vous pouvez définir la quantité de ressources, d'articles ou le compte général, puis indiquer la quantité que vous souhaitez transférer vers la feuille projet. Le champ **Quantité restante** dans la ligne planning projet vous aide à déterminer ce qui reste à transférer et à valider dans la feuille projet.
 
-Lorsque la case à cocher **Appliquer le lien d'utilisation par défaut** est activée et que le type de ligne planning projet est **Facturable**, Financials crée une ligne planning projet de type **Budget** une fois la ligne feuille validée.
+> [!TIP]  
+> Vous pouvez activer ou désactiver le suivi de l'utilisation des projets pour un projet spécifique. La valeur du champ **Appliquer le lien d'utilisation** de la fiche projet individuelle remplace le paramètre de la page **Paramètres projets**.  
 
-> [!NOTE]  
->   Si la case à cocher **Appliquer le lien d'utilisation par défaut** est activée et que le champ **Type ligne** sur la ligne feuille projet est vide, alors des lignes planning projet de type ligne **Budget** sont créées lorsque vous validez des lignes feuille. Si la case à cocher **Appliquer le lien d'utilisation par défaut** de la fiche projet n'est pas activée et que le champ **Type ligne** sur la ligne feuille projet est vide, dans ce cas aucune ligne planning projet n'est créée lorsque vous validez des lignes feuille. Pour plus d'informations, voir [Enregistrer l'utilisation pour les projets](projects-how-record-job-usage.md).
+Lorsque la case à cocher **Appliquer le lien d'utilisation par défaut** est activée et que le type de ligne planning projet est défini sur **Facturable**, une ligne planning projet de type **Budget** est créée une fois la ligne feuille projet validée.
+
+> [!IMPORTANT]
+> Si le suivi de l'utilisation des projets, la page **Paramètres projets** est activée ou sur le projet individuel et le champ **Type ligne** sur la ligne feuille projet est vide, alors des lignes planning projet de type ligne **Budget** sont créées lorsque vous validez des lignes feuille.  
+>  
+> Si le suivi de l'utilisation des projets n'est *pas* activé, sur la page **Paramètres projets** ou sur le projet individuel, et si le champ **Type ligne** de la ligne feuille projet est vierge, aucune ligne planning projet n'est créée lorsque vous validez les lignes feuille projet. Pour plus d'informations, voir [Enregistrer l'utilisation pour les projets](projects-how-record-job-usage.md).
 
 1. Choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Paramètres projets**, puis choisissez le lien associé.
-2. Sélectionnez ou désélectionnez la case à cocher **Appliquer le lien d'utilisation par défaut**.
-
-> [!NOTE]  
->   Vous pouvez modifier le paramètre de la case à cocher **Appliquer le lien d'utilisation par défaut** sur les différentes fiches projet. Dans ce cas, le paramètre pour ce projet remplace la valeur par défaut globale décrite précédemment.
+2. Sélectionnez la case à cocher **Appliquer le lien d'utilisation par défaut**.
 
 ## <a name="to-set-up-prices-for-job-resources"></a>Pour paramétrer des prix pour les ressources de projet
 Vous pouvez paramétrer des prix spécifiques pour les ressources d'un projet. Réalisez cette opération sur la page **Prix ressource projet**.
@@ -114,9 +114,11 @@ L'un des aspects des projets de planification est de décider quels comptes de v
 | **Compte ventes récep.** |Compte de revenu contenant les revenus réceptionnés du projet. Il s'agit ordinairement d'un compte de revenu pour crédit. |
 
 ## <a name="see-also"></a>Voir aussi
+
 [Configurer la gestion de projet](projects-setup-projects.md)  
+[Vidéo : Créer un projet dans Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
 [Gestion des projets](projects-manage-projects.md)  
 [Finances](finance.md)  
-[Achats](purchasing-manage-purchasing.md)         
-[Ventes](sales-manage-sales.md)      
+[Achats](purchasing-manage-purchasing.md)  
+[Ventes](sales-manage-sales.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

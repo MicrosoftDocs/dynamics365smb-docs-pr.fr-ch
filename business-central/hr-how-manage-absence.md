@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: SorenGP
-ms.openlocfilehash: 9391da5eb5fb06bfcaaf8ee2503f694801888d2f
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 29b1b29fa1115991b8a8bd569a476e977fba8dce
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "821448"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "911972"
 ---
 # <a name="manage-employee-absence"></a>Gérer les absences des salariés
 Pour gérer l'absence d'un salarié, vous devez l'enregistrer sur la page **Saisie des absences**. Elle peut alors être affichée de différentes façons à des fins d'analyse ou de génération d'état.

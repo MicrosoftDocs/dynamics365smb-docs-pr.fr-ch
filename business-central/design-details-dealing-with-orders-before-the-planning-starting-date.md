@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, frozen, design serial, lot
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
-ms.openlocfilehash: 9fee9eff60b441ef2d4782a77a6fbbbe8b01af03
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 32c523eda09620bd74df53f09bc103a44fbb367a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "821121"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "919789"
 ---
 # <a name="design-details-dealing-with-orders-before-the-planning-starting-date"></a>Détails de conception : traiter les commandes avant la date début de la planification
 Pour éviter qu'un programme d'approvisionnement affiche des suggestions impossibles et donc inutiles, le système de planification considère la période jusqu'à la date de début de la planification comme une zone gelée pour laquelle rien n'est programmé. La règle suivante s'applique à la zone gelée :  

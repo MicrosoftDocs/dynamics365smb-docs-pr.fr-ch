@@ -1,6 +1,6 @@
 ---
 title: Exposer des objets en tant que services Web | Microsoft Docs
-description: Publiez des objets en tant que services Web pour les rendre immédiatement disponibles sur le réseau.
+description: Publiez des objets en tant que services Web afin de les rendre immédiatement disponibles pour votre solution Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: bb9623c00aa038b387179d46e6eb8a869552569e
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 952f2b9dc301b6941d13b4c23ac55f83b781739f
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "820394"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "922446"
 ---
 # <a name="publish-a-web-service"></a>Publier un service Web
 
@@ -28,40 +28,46 @@ Les étapes suivantes expliquent la procédure de création et de publication d'
 
 ### <a name="to-create-and-publish-a-web-service"></a>Création et publication d'un service Web  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Services Web**, puis sélectionnez le lien associé.  
-2.  Sur la page **Services Web**, sélectionnez **Nouveau**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Services Web**, puis sélectionnez le lien associé.  
+2. Sur la page **Services Web**, sélectionnez **Nouveau**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
-    >  Les types valides pour les services Web SOAP sont **Codeunit** et **Page**. Les types valides pour les services Web OData sont **Page** et **Requête**.  
-    De même, si la base de données contient plusieurs sociétés, vous pouvez choisir un ID objet qui est spécifique à l'une des sociétés.  
-    Enfin, le nom de service est visible par les clients de votre service Web et sert de base pour identifier et distinguer les services Web, il doit donc être explicite.
+    > Les types valides pour les services Web SOAP sont **Codeunit** et **Page**. Les types valides pour les services Web OData sont **Page** et **Requête**.  
+    > De même, si la base de données contient plusieurs sociétés, vous pouvez choisir un ID objet qui est spécifique à l'une des sociétés.  
+    > Enfin, le nom de service est visible par les clients de votre service Web et sert de base pour identifier et distinguer les services Web, il doit donc être explicite.
 
-3.  Activez la case à cocher dans la colonne **Publié**.  
+3. Activez la case à cocher dans la colonne **Publié**.  
 
 Lorsque vous publiez le service Web, dans les champs **URL OData** et **URL SOAP**, vous pouvez voir les URL générées pour le service Web. Vous pouvez tester le service Web immédiatement en choisissant les liens figurant dans les champs **URL OData** et **URL SOAP**. Éventuellement, vous pouvez copier la valeur du champ et pour l'enregistrer pour une utilisation ultérieure.  
+
+> [!IMPORTANT]
+> Pour les codeunits publiés en tant que service Web SOAP, les méthodes exposées dans le codeunit doivent être marquées comme `[External]` dans le code.
 
 Une fois le service Web publié, il est accessible aux parties externes. Vous pouvez vérifier la disponibilité de ce service Web à l'aide d'un navigateur, ou vous pouvez sélectionner le lien dans les champs **URL OData** et **URL SOAP** de la page **Services Web**. La procédure suivante indique comment vous pouvez vérifier la disponibilité du service Web pour une utilisation ultérieure.  
 
 ### <a name="to-verify-the-availability-of-a-web-service"></a>Vérification de la disponibilité d'un service Web  
 
-1.  Dans votre navigateur, indiquez l'URL appropriée. Le tableau suivant illustre les types d'URL que vous pouvez entrer pour les différents types de services Web.  
-> [!div class="mx-tdBreakAll"]
-> |Type|Syntaxe|Exemple :|
-> |----------------|------|-------|
-> |SOAP |https://*Server*:*SOAPWebServicePort*/*ServerInstance*/WS/*CompanyName*/salesDocuments/ |https://mycompany.financials.dynamics.com:7047/MS/WS/MyCompany/Page/salesDocuments?tenant=mycompany.financials.dynamics.com |
-> |OData |https://*Server*:*ODataWebServicePort*/*ServerInstance*/OData/Company('*CompanyName*')|[https://MyCompany.financials.dynamics.com:7048/MS/OData/Company('MyCompany')/salesDocuments?tenant=MyCompany.financials.dynamics.com](https://MyCompany.financials.dynamics.com:7048/MS/OData/Company('MyCompany')/salesDocuments?tenant=MyCompany.financials.dynamics.com) <br />    Le nom de la société respecte la casse.|
+1. Dans votre navigateur, indiquez l'URL appropriée. Le tableau suivant illustre les types d'URL que vous pouvez entrer pour les différents types de services Web.  
 
-2.  Examinez les informations affichées dans le navigateur. Vérifiez que vous pouvez visualiser le nom du service Web que vous avez créé.  
+    > [!div class="mx-tdBreakAll"]
+    > |Type|Syntaxe|Exemple :|
+    > |----------------|------|-------|
+    > |SOAP |https://api.businesscentral.dynamics.com/*version*/*tenant*/WS/*CompanyName*/*entity*/ |`https://api.businesscentral.dynamics.com/v1.0/a10b3ee6-d9a2-42fe-926f-946e23bb8ddd/WS/CRONUS%20USA%2C%20Inc./Page/InvoiceDocument`|
+    > |OData V4|https://api.businesscentral.dynamics.com/*version*/*tenant*/ODataV4/Company('*CompanyName*')/*entity*|`https://api.businesscentral.dynamics.com/v1.0/a10b3ee6-d9a2-42fe-926f-946e23bb8ddd/ODataV4/Company('CRONUS%20USA%2C%20Inc.')/InvoiceDocument`<br/>    Le nom de la société respecte la casse.|
+
+2. Examinez les informations affichées dans le navigateur. Vérifiez que vous pouvez visualiser le nom du service Web que vous avez créé.  
 
 Lorsque vous accédez à un service Web, et que vous souhaitez copier des données vers [!INCLUDE[d365fin](includes/d365fin_md.md)], vous devez spécifier le nom de la société. Vous pouvez spécifier la société en tant que membre de l'URI comme l'indiquent les exemples, ou vous pouvez spécifier la société comme partie des paramètres de requête. Par exemple, les URI suivants pointent vers le même service Web OData et qu'ils sont tous deux des URI valides.  
 
-```  
-https://localhost:7048/server/OData/Company('CRONUS International Ltd.')/Customer  
-```  
+```
+https://api.businesscentral.dynamics.com/v1.0/OData/Company('CRONUS International Ltd.')/Customer  
+```
 
-```  
-https://localhost:7048/server/OData/Customer?company='CRONUS International Ltd.'  
-```  
+```
+https://api.businesscentral.dynamics.com/v1.0/OData/Customer?company='CRONUS International Ltd.'  
+```
 
-## <a name="see-also"></a>Voir aussi  
+## <a name="see-also"></a>Voir aussi
+
 [Administration](admin-setup-and-administration.md)  
+[Services Web Business Central pour les développeurs](/dynamics365/business-central/dev-itpro/webservices/web-services)  

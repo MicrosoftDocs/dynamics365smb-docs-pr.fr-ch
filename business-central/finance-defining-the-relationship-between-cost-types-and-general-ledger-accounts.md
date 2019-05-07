@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost types, general ledger
-ms.date: 11/13/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: finance-transfer-and-post-cost-entries
-ms.openlocfilehash: f80e9b6276d26adffb5e3208ffefbf98d7f7ff96
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: c5b4549e330bd9b3369b6fe5b18361f6662291c9
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "820499"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "918045"
 ---
 # <a name="defining-the-relationship-between-cost-types-and-general-ledger-accounts"></a>Définition de la relation entre les types de coûts et les comptes généraux
 Une relation entre le type de coût et le compte général est créée dans le type de coût et le compte général.  

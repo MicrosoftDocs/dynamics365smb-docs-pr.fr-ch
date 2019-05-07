@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item tracking, posting, inventory
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b2cb135991a067b86b7c5579e0386ffd199aefcf
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 884ed0ced1c9e39104cec203bb67346bdf779aeb
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "821463"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "922494"
 ---
 # <a name="design-details-item-tracking-posting-structure"></a>Détails de conception : structure de validation de traçabilité
 Pour s'aligner sur la fonctionnalité d'évaluation du stock et obtenir une solution plus simple et plus robuste, les écritures comptables article sont utilisées comme principal opérateur des numéros de suivi d'article.  

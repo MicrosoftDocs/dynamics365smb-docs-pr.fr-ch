@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: company, setup wizard
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 9831dd53ffa3ba94202a8a15dc0bdaffdb6d2d2d
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: eae262341eb61e40f130caf45bb838a62aa67cf2
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "821385"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "916609"
 ---
 # <a name="creating-new-companies-in-included365finincludesd365finmdmd"></a>Création de sociétés dans [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], les conteneurs pour les données métier appartenant à une unité commerciale ou une entité juridique sont désignés en tant que *société*. Lorsque vous vous connectez à [!INCLUDE[d365fin](includes/d365fin_md.md)], une société de démonstration et une société vide vous sont attribuées, *Ma société*. Le basculement entre sociétés est facile - accédez simplement à **Mes paramètres** et passez à l'autre société. Vous pouvez également créer de nouvelles sociétés dans [!INCLUDE[d365fin](includes/d365fin_md.md)], selon les besoins de votre activité. Lorsque vous créez une société, un guide de configuration assistée vous permet d'obtenir les fondements de base. Ensuite, vous pouvez importer des données appropriées à partir de votre système hérité ou d'une autre société dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="create-new-company"></a>Créer une nouvelle société
-Si vous décidez d'ajouter une société à votre [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez utiliser l'assistant de configuration assistée **Créer une nouvelle société** pour démarrer. L'assistant de configuration est disponible à partir de la page **Sociétés** et depuis la zone de recherche dans le champ **Société** sous **Mes paramètres**.  
+Si vous décidez d'ajouter une société à votre [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez utiliser le guide de configuration assistée **Créer une nouvelle société** pour démarrer. L'assistant de configuration est disponible à partir de la page **Sociétés** et depuis la zone de recherche dans le champ **Société** sous **Mes paramètres**.  
 
 L'assistant de configuration offre trois modèles :
 

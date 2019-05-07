@@ -1,23 +1,19 @@
 ---
 title: Tâches projet qui utilisent des ressources et des feuilles de temps | Microsoft Docs
 description: Décrit comment utiliser les ressources, les feuilles de temps et les projets pour la gestion des projets.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 10/01/2018
-ms.author: sgroespe
-ms.openlocfilehash: 1de8a8feaa7ae9c7d2dd656a525be84cd5424dc6
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.date: 04/01/2019
+ms.author: edupont
+ms.openlocfilehash: dcd68331143cac2572b37e7bf130010d69dc05f4
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "821501"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "921043"
 ---
 # <a name="project-management"></a>Gestion de projets
 Le module [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge les tâches de gestion courantes : configuration d'un projet, planification d'une ressource, spécification des informations nécessaires à la gestion des budgets et à la surveillance de la progression, etc. Vous pouvez suivre les heures machines et salariés sur le projet à l'aide de feuilles de temps. Il offre aux chefs de projet un aperçu pertinent des projets individuels, des affectations des employés, des machines et des autres ressources en cours d'utilisation dans le cadre des projets.
@@ -38,13 +34,18 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | Validez la consommation de matières, des ressources, et d'autres frais de travaux en cours (TEC) du projet pour contrôler sa valeur financière et maintenir des états financiers appropriés bien que vous ayez validé des frais de projet avant de facturer le projet. |[Surveiller la progression et les performances](projects-how-monitor-progress-performance.md) |
 | Enregistrez les coûts du projet (utilisation de ressources, matières et achats associés au projet) sur une base actuelle et facturez le client, soit une fois le projet terminé soit en fonction d'un calendrier de facturation. |[Facturation des projets](projects-how-invoice-jobs.md) |
 
+## <a name="get-started-with-projects"></a>Mise en route des projets
+
+La gestion des projets est suffisamment compliquée en elle-même et découvrir comment créer des projets et gérer le travail en cours dans un nouvel outil peut se révéler tout aussi complexe. Pour vous aider à mettre en route la gestion de projet dans [!INCLUDE [prodshort](includes/prodshort.md)], vous pouvez voir [une vidéo sur la création des projets](https://www.youtube.com/watch?v=VqaPWr7BWmw) sur le canal [!INCLUDE [prodshort](includes/prodshort.md)] YouTube.  
+
 ## <a name="see-also"></a>Voir aussi
+
 [Configuration de la gestion de projet](projects-setup-projects.md)  
-[Modification des fonctionnalités affichées](ui-experiences.md)      
-[Achats](purchasing-manage-purchasing.md)         
-[Ventes](sales-manage-sales.md)    
+[Vidéo : Créer un projet dans Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
+[Modification des fonctionnalités affichées](ui-experiences.md)  
+[Achats](purchasing-manage-purchasing.md)  
+[Ventes](sales-manage-sales.md)  
 [Finances](finance.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 0bb558fe24d8c5bc717ef72e8c94ba0154a06a55
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 46560f0d979401420a6613abb6336bc9e944054c
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "821329"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "925471"
 ---
 # <a name="design-details-known-item-application-issue"></a>Détails de conception : problème de lettrage article connu
 Cet article traite du problème de niveau de stock nul alors qu'il existe des écritures comptables article ouvertes dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  

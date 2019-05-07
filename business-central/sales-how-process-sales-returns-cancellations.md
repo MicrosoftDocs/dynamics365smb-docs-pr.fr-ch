@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 46ea7cb3402f65d897cc8519a062ebbf8fb9b383
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: a116dd3394e8aae36661815d72db3a8b13265bcf
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "820935"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "917782"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Traiter les retours ou annulations de ventes
 Si votre client souhaite retourner des articles ou obtenir un remboursement pour des articles, ou encore annuler des services, que vous lui avez vendus et pour lesquels vous avez reçu un paiement, vous devez créer et valider un avoir vente qui indique la modification demandée. Pour inclure les informations de facture vente correctes, vous pouvez créer l'avoir vente à partir de la facture vente enregistrée ou vous pouvez créer un avoir vente avec les informations copiées de la facture.
 
-Si vous souhaitez davantage de contrôle sur le processus de retour vente, par exemple les documents entrepôt pour la manutention des articles ou une meilleure vue d'ensemble lors de la réception d'articles à partir de plusieurs documents vente avec un retour vente, vous pouvez créer des retours vente. Un retour vente émet automatiquement l'avoir vente associé et les autres documents relatifs au retour, comme une commande vente de remplacement, le cas échéant. Pour plus d'informations, voir la section [Pour créer un retour vente à partir d'un ou plusieurs documents vente validés](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-return-order-based-on-one-or-more-a-posted-sales-documents).
+Si vous souhaitez davantage de contrôle sur le processus de retour vente, par exemple les documents entrepôt pour la manutention des articles ou une meilleure vue d'ensemble lors de la réception d'articles à partir de plusieurs documents vente avec un retour vente, vous pouvez créer des retours vente. Un retour vente émet automatiquement l'avoir vente associé et les autres documents relatifs au retour, comme une commande vente de remplacement, le cas échéant. Pour plus d'informations, voir la section [Pour créer un retour vente à partir d'un ou plusieurs documents vente validés](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-return-order-based-on-one-or-more-posted-sales-documents).
 
 > [!NOTE]  
 >   Si une facture vente validée n'a pas encore été payée, vous pouvez utiliser les fonctions **Corriger** ou **Annuler** sur la facture vente validée pour contrepasser automatiquement les transactions associées. Ces fonctions ne fonctionnent que pour les factures impayées, elles ne prennent pas en charge des retours partiels ou les annulations. Pour plus d'informations, voir [Corriger ou annuler des factures vente impayées](sales-how-correct-cancel-sales-invoice.md).
@@ -40,7 +40,7 @@ Vous pouvez affecter l'inversion de même coût automatiquement de deux façons.
 
 |Fonction|Désignation|  
 |------------------|---------------------------------------|  
-|Fonction**Afficher des lignes document validées à contrepasser** sur la page **Retour vente**|Copie les lignes d'un ou plusieurs documents validés afin de les contrepasser dans le retour vente. Pour plus d'informations, voir la section [Pour créer un retour vente à partir d'une ou plusieurs factures vente validées](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-return-order-based-on-one-or-more-a-posted-sales-documents).|  
+|Fonction**Afficher des lignes document validées à contrepasser** sur la page **Retour vente**|Copie les lignes d'un ou plusieurs documents validés afin de les contrepasser dans le retour vente. Pour plus d'informations, voir la section [Pour créer un retour vente à partir d'un ou plusieurs documents vente validés](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-return-order-based-on-one-or-more-posted-sales-documents).|  
 |Fonction**Copier document** des pages **Avoir vente** et **Retour vente**|Copie l'en-tête et les lignes d'un document validé à contrepasser.<br /><br /> Requiert que la case à cocher **Coût retour identique obligatoire** soit sélectionnée sur la page **Paramètres ventes**.|
 
 Pour réaliser manuellement la contrepassation exacte, sélectionnez **Écriture article à lettrer** sur n'importe quelle ligne de document retour, puis sélectionnez le numéro de l'écriture vente initiale. Cela crée un lien entre l'avoir ou le retour vente et l'écriture vente initiale, et garantit que l'article est évalué sur le coût unitaire initial.

@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: bec47d64f2ba038e1c3b7288ce466e2f212b2b19
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 9110ee79e4d1788f41c8f1960f282cb490a3cc8a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "820350"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "912429"
 ---
 # <a name="changing-which-features-are-displayed"></a>Modification des fonctionnalités affichées
 [!INCLUDE[d365fin](includes/d365fin_md.md)] est conçu pour vous aider à gérer vos affaires, sans vous soucier du secteur d'activité dans lequel vous vous trouvez. Au centre de [!INCLUDE[d365fin](includes/d365fin_md.md)], vous trouverez les états financiers ainsi que les processus vente et achat. Vous pouvez y ajouter des expériences en fonction des besoins de votre activité en ajoutant des extensions à partir d'AppSource ou en modifiant le paramètre Expérience de votre société. Pour plus d'informations, voir [Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md) ou [Choix de l'expérience utilisateur pour masquer ou afficher des fonctions](ui-experiences.md#choosing-a-user-experience-to-show-or-hide-features).

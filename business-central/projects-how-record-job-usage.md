@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, consumption
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f1b3864eadd616273c3a4a7d061623dab701d01e
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: c723625bc54c7b885268946f0e7afdf54be20a2b
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "821043"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "923236"
 ---
 # <a name="record-usage-for-jobs"></a>Enregistrer l'utilisation pour les projets
 Sur la page **Lignes planning projet**, vous pouvez consulter et enregistrer l'activité sur les différentes parties de votre projet, qui est automatiquement mis à jour lorsque vous modifiez et transférez des informations entre les projets et les feuilles projet ou les factures projet. Cela suppose d'avoir paramétré un projet afin que **Appliquer le lien d'utilisation par défaut** soit activé. Pour plus d'informations, voir [Configuration de projets](projects-how-setup-jobs.md).  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e7afa7b3a13db29207237cd4980ba7f061b38f9e
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 2c78322213eaf6e091278e3e5528f82493aba1da
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "820390"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "930227"
 ---
 # <a name="design-details-revaluation"></a>Détails de conception : réévaluation
 Vous pouvez réévaluer le stock en fonction de la base d'évaluation reflétant le plus précisément la valeur de stock. Vous pouvez également antidater une réévaluation, afin que le coût des biens vendus (COGS) soit correctement mis à jour pour les articles qui ont déjà été vendus. Les articles utilisant le mode évaluation stock standard qui n'ont pas été entièrement facturés peuvent également être réévalués.  
@@ -143,7 +143,7 @@ L'exemple suivant, qui illustre la réévaluation d'un article qui utilise le mo
 6.  Le 01/02/20, l'utilisateur valide une vente de 1 unité.  
 7.  Le 01-03-20, l'utilisateur valide une vente de 1 unité.  
 8.  Le 01-04-20, l'utilisateur valide une vente de 1 unité.  
-9. L'utilisateur exécute le traitement par lots **Ajuster &coûts - Écr. article**.  
+9. L'utilisateur exécute le traitement par lots **Ajuster coûts - Écr. article**.  
 
 Le tableau suivant montre les écritures valeur résultantes.  
 

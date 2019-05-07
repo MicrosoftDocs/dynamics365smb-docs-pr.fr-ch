@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 02/21/2019
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 72fcf1b698b464cd21107184cd2bb166a8612cae
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: f86c8a3cd93995aaf52a9e7f95065751f8061fd7
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852301"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "916164"
 ---
 # <a name="frequently-asked-questions"></a>Forum Aux Questions
 
@@ -49,12 +49,15 @@ Si vous avez accès à Microsoft CustomerSource, vous pouvez accéder au site Im
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] est vendu via des partenaires, et vous devriez contacter votre partenaire revendeur pour obtenir de l'aide avec des problèmes techniques. Si votre partenaire [!INCLUDE[d365fin](includes/d365fin_md.md)] ne peut pas résoudre le problème, il déclenchera un ticket d'assistance avec Microsoft.  
 
-Si vous vous êtes inscrit pour une évaluation et que vous n'avez pas encore acheté [!INCLUDE[d365fin](includes/d365fin_md.md)], vous n'avez pas de partenaire revendeur, et vous ne pouvez pas contacter l'équipe de support technique Microsoft.  
-
-Vous pouvez rechercher un revendeur Business Central sur la page [Je recherche un fournisseur de solution](https://go.microsoft.com/fwlink/?linkid=2038145).  
+Pour plus d'informations, reportez-vous à la rubrique [Aide et support](product-help-and-support.md).  
 
 ## <a name="why-does-help-describe-functionality-that-i-cannot-access"></a>Pourquoi l'aide décrit une fonctionnalité à laquelle que je ne peux pas accéder ?
-Si votre paramètre Expérience sur la page **Informations société** est définie sur **Essentiel**, les éléments de l'interface utilisateur pour les fonctionnalités de fabrication et de gestion des services ne sont pas visibles pour vous, car ils requièrent l'expérience **Premium**. Une note textuelle est insérée dans des rubriques d'aide de haut niveau pour ces zones de fonction. Pour plus d'informations, voir [Modification des fonctionnalités affichées](ui-experiences.md).  
+Si votre paramètre Expérience sur la page **Informations société** est définie sur **Essentiel**, les éléments de l'interface utilisateur pour les fonctionnalités de fabrication et de gestion des services ne sont pas visibles pour vous, car ils requièrent l'expérience **Premium**. Une note textuelle est insérée dans des rubriques d'aide de haut niveau pour ces zones de fonction. Pour plus d'informations, voir [Modification des fonctionnalités affichées](ui-experiences.md).
+
+## <a name="where-is-the-save-button"></a>Où trouver le bouton Enregistrer ?
+
+Contrairement à d'autres programmes qui vous sont familiers, il n'y a pas de bouton *Enregistrer* sur ces pages. Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], les modifications que vous apportez à un champ sont automatiquement enregistrées dès que vous passez au champ suivant ou dès que vous fermez la page, dans la mesure où il n'y a pas d'erreurs. Lorsque vous apportez des modifications à un champ et que vous passez à un autre champ, le texte **Enregistrement en cours** apparaît dans l'angle supérieur droit de la page, et devient **Enregistré** si aucune erreur ne survient. En cas d'erreur, le texte indique **Non enregistré**.
+
 
 ## <a name="what-email-address-can-i-use-with-included365finincludesd365finmdmd"></a>Quelle adresse e-mail puis-je utiliser avec [!INCLUDE[d365fin](includes/d365fin_md.md)] ?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] exige que vous utilisiez une adresse e-mail professionnelle ou scolaire pour votre inscription. [!INCLUDE[d365fin](includes/d365fin_md.md)] ne prend pas en charge les adresses e-mail fournies par les services de messagerie publics ni les opérateurs de télécommunications. Cela comprend outlook.com, hotmail.com, gmail.com, et d'autres.  

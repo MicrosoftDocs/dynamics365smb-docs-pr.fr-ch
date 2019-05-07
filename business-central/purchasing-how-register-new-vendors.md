@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c8f8620d21b9e2187e968d4015fd0f12446d30c9
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 9f388b788e8788049ee30567972090984063cad1
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "821383"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "930370"
 ---
 # <a name="register-new-vendors"></a>Enregistrer un nouveau fournisseur
 Les fournisseurs fournissent les produits que vous vendez. Chaque fournisseur à qui vous achetez des biens doit être enregistré en tant que fiche fournisseur.
@@ -54,6 +54,7 @@ Si vous souhaitez utiliser cette fiche fournisseur comme modèle lorsque vous cr
    Le modèle fournisseur est ajouté à la liste des modèles fournisseur. Vous pouvez ainsi l'utiliser pour créer des fiches fournisseur.
 
 ## <a name="see-also"></a>Voir aussi
+[Fusionner l'enregistrement des doublons](sales-how-merge-duplicate-records.md)  
 [Création des souches de numéros](ui-create-number-series.md)  
 [Achats](purchasing-manage-purchasing.md)  
 [Enregistrer des achats](purchasing-how-record-purchases.md)   

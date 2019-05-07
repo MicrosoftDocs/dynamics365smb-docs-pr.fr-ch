@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: tasks, work
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 492eeda86a392320c8b8205d3faa76416a9cf6fb
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 5befadf7a162cc2094fbb1ef426e25d02d50e856
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852370"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "918185"
 ---
 # <a name="define-user-tasks"></a>Définir les tâches utilisateur
 Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez créer des tâches pour vous rappeler le travail à faire. Vous pouvez créer des tâches pour vous-même, mais vous pouvez également affecter des tâches à d'autres personne ou avoir une tâche affectée à vous-même par une autre personne de votre organisation.  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: cb391e079d65283aef5aff1d4a30d14123065ba5
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 19f7c77a115f473238441b8c67417e53c0896625
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "820363"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "915491"
 ---
 # <a name="managing-sales-opportunities"></a>Gestion des opportunités de ventes
 Tout prospect entrant peut être considéré comme une opportunité de vente. Vous pouvez créer des opportunités et les associer à un vendeur afin de pouvoir suivre les ventes potentielles.

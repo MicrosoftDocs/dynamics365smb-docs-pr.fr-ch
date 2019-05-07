@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms. search.keywords: cloud, edge
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bmeier
-ms.openlocfilehash: 932b6f45ed4f8704b48873518ba2b096efc33e7a
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 4bd30c2912c8a690431221e7983f5fe53b543322
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852163"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "920928"
 ---
 # <a name="your-access-to-the-intelligent-cloud-with-includeprodshortincludesprodshortmd"></a>Votre accès au Cloud intelligent avec [!INCLUDE[prodshort](includes/prodshort.md)]
 
@@ -38,7 +38,7 @@ Dans votre société [!INCLUDE[prodshort](includes/prodshort.md)] online, la pag
 En regard des graphiques KPI, vous obtenez des informations sur des domaines de préoccupation potentiels, y compris les paiements dus. Choisissez chaque information pour explorer les données.  
 
 > [!div class="mx-imgBorder"]
-> ![Informations sur le cloud intelligent](media/across-intelligent-cloud/intelligentcloudinsights.png "Affiche la page Informations sur le cloud intelligent dans Business Central")
+> ![Informations sur le cloud intelligent](media/across-intelligent-cloud/intelligentcloudApril19.png "Affiche la page Informations sur le cloud intelligent dans Business Central")
 
 La page se connecte également à Power BI pour encore plus d'informations.
 

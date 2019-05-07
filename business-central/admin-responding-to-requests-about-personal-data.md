@@ -5,15 +5,15 @@ author: bholtorf
 ms.service: dynamics365-business-central
 ms.author: bholtorf
 ms.custom: na
-ms.date: 11/06/2018
+ms.date: 04/01/2019
 ms.reviewer: na
 ms.topic: article
-ms.openlocfilehash: f7a217bd61b185586c71d5982d783840dd7ffd2e
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 3b49df32acdc9530eb56a26538dbc34e245ec1e3
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "821213"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "917397"
 ---
 # <a name="responding-to-requests-about-personal-data"></a>Réponse aux demandes relatives aux données personnelles  
 Les sujets des données peuvent demander plusieurs types d'actions concernant leurs données personnelles. Par exemple, en vertu du Règlement général sur la protection des données (RGPD), les résidents de l'UE ont le droit de demander l'exportation, la suppression et la modification de leurs données personnelles. Cela est appelé *Demande du sujet des données*. Si vous avez classé la sensibilité de vos données et si vous êtes sûr qu'elles sont correctes, un administrateur peut répondre aux demandes à l'aide des options disponibles sous **Confidentialité des données** dans le tableau de bord **Gérer les utilisateurs, les groupes d'utilisateurs et les autorisations** ou, si vous utilisez le client Windows, dans le tableau de bord **Responsable informatique**. Pour plus d'informations sur la classification des données et la classification de la sensibilité des données dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], voir [Classification des données](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) et [Classification de la sensibilité des données](admin-classifying-data-sensitivity.md).  
@@ -51,7 +51,7 @@ Si vous devez exporter des données non classées de manière à pouvoir les exp
 -   Ajoutez cette table et cette relation manuellement au package Rapid Start et exportez-les directement à partir du package Rapid Start. Nous générons un package Rapid Start pour vous, afin que vous puissiez le modifier dans de telles situations.
 
 ## <a name="handling-data-about-minors"></a>Gestion des données concernant les mineurs
-Si l'âge d'un contact est inférieur à l'âge de consentement légal défini par les lois de votre région, vous pouvez l'indiquer en activant la case à cocher **Mineur** sur la fiche **Contact**. La case à cocher **Confidentialité bloquée** est alors automatiquement activée. Lorsque vous recevez l'accord du parent ou du tuteur légal du mineur, vous pouvez activer la case à cocher **Accord parental reçu** pour débloquer le contact. Même si vous pouvez traiter les données personnelles des mineurs, vous ne pouvez pas utiliser la fonctionnalité de profilage dans Microsoft Dynamics 365 for Sales.
+Si l'âge d'un contact est inférieur à l'âge de consentement légal défini par les lois de votre région, vous pouvez l'indiquer en activant la case à cocher **Mineur** sur la fiche **Contact**. La case à cocher **Confidentialité bloquée** est alors automatiquement activée. Lorsque vous recevez l'accord du parent ou du tuteur légal du mineur, vous pouvez activer la case à cocher **Accord parental reçu** pour débloquer le contact. Même si vous pouvez traiter les données personnelles des mineurs, vous ne pouvez pas utiliser la fonctionnalité de profilage dans Dynamics 365 for Sales.
 
 > [!Note]
 > Le journal des modifications peut enregistrer des détails, par exemple quand et par qui la case à cocher **Accord parental reçu** a été activée. Un administrateur peut le configurer en utilisant le guide **Paramètres journal modification** et en activant la case à cocher **Modification du journal pour l'accord parental reçu** sur la fiche **Contact**. Pour plus d'informations, voir [Journalisation des modifications](across-log-changes.md).  

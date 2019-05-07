@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 26fe722a863ada2bcd017e2bc614b976a7119a25
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: f51de349c4b13eaabd185cdb728d59006dfe6db6
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "820325"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "916389"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Activation de vos données commerciales pour Power BI
 Il est facile d'obtenir des informations exploitables de vos données [!INCLUDE[d365fin](includes/d365fin_md.md)] grâce à Power BI et aux packs de contenu [!INCLUDE[d365fin](includes/d365fin_md.md)]. Power BI extrait vos données, puis génère un tableau de bord prêt à l'emploi et des états basés sur ces données.  
@@ -80,21 +80,21 @@ Pour importer les données [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.m
 - Modèle Excel Afficher Société
 - Étiquettes d'état Power BI
 
-**Microsoft Dynamics 365 Business Central – Projets**
+**Microsoft Dynamics 365 Business Central – Jobs**
 - Liste des projets
 - Lignes planning projet
 - Lignes tâche projet
 - Étiquettes d'état Power BI
 - Modèle Excel Afficher Société
 
-**Microsoft Dynamics 365 Business Central - Ventes**
+**Microsoft Dynamics 365 Business Central - Sales**
 - Tableau de bord ventes
 - Modèle Excel Afficher Société
 - Étiquettes d'état Power BI
 
 ## <a name="list-page-reports"></a>États Page de liste
 
-**Microsoft Dynamics 365 Business Central – Liste des clients**
+**Microsoft Dynamics 365 Business Central – Customers List**
 - Ventes d'articles par client
 - Liste des achats d'articles Power BI
 - Liste des ventes d'articles Power BI
@@ -103,13 +103,13 @@ Pour importer les données [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.m
 - ExcelTemplateViewCompany
 - Étiquettes d'état Power BI
 
-**Microsoft Dynamics 365 Business Central - Liste des écritures comptables**
+**Microsoft Dynamics 365 Business Central - General Ledger Entries List**
 - Liste des montants Power BI GL
 - Montant budgété Power BI GL
 - ExcelTemplateViewCompany
 - Étiquettes d'état Power BI
 
-**Microsoft Dynamics 365 Business Central – Liste d'articles**
+**Microsoft Dynamics 365 Business Central – Items List**
 - Ventes d'articles par client
 - Liste des achats d'articles Power BI
 - Liste des ventes d'articles Power BI
@@ -117,23 +117,23 @@ Pour importer les données [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.m
 - ExcelTemplateViewCompany
 - Étiquettes d'état Power BI
 
-**Microsoft Dynamics 365 Business Central – Liste des projets**
+**Microsoft Dynamics 365 Business Central – Jobs List**
 - Liste des projets Power BI
 - ExcelTemplateViewCompany
 - Étiquettes d'état Power BI
 
-**Microsoft Dynamics 365 Business Central – Liste de factures achat**
+**Microsoft Dynamics 365 Business Central – Purchase Invoices List**
 - Liste des achats Power BI
 - ExcelTemplateViewCompany
 - Étiquettes d'état Power BI
 
-**Microsoft Dynamics 365 Business Central – Liste des commandes vente**
+**Microsoft Dynamics 365 Business Central – Sales Orders List**
 - Liste des ventes Power BI
 - ExcelTemplateViewCompany
 - Étiquettes d'état Power BI
 
 
-**Microsoft Dynamics 365 Business Central – Liste des fournisseurs**
+**Microsoft Dynamics 365 Business Central – Vendors List**
 - Liste des achats d'articles Power BI
 - Liste des ventes d'articles Power BI
 - Liste des fournisseurs Power BI

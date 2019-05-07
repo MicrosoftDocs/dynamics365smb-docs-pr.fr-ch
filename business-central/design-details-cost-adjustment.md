@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ace9e09a1f57310e93bb86422c492383690bc04b
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: f5dbe1ec1dfa765ead07b7fcd0dd2c860d055ae1
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "820614"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "916366"
 ---
 # <a name="design-details-cost-adjustment"></a>Détails de conception : ajustement des coûts
 L'objet principal de l'ajustement des coûts est de transférer les changements depuis les coûts des sources de coût aux destinataires de coût, selon le mode évaluation stock d'un article, pour fournir une évaluation du stock correcte.  
@@ -35,7 +35,7 @@ Voici l'autre objectif ou les autres fonctions de l'ajustement des coûts :
 Les coûts de stock doivent être ajustés avant que les écritures valeur associées puissent être rapprochées avec les écritures comptables. Pour plus d'informations, voir [Détails de conception : rapprochement de comptabilité](design-details-reconciliation-with-the-general-ledger.md).  
 
 ## <a name="detecting-the-adjustment"></a>Détection de l'ajustement  
-La tâche de détecter si l'ajustement des coûts doit se produire est surtout effectuée par la routine Item Jnl.-Post Line, tandis que la tâche de calculer et générer des écritures d'ajustement des coûts est effectuée par le traitement par lots **Adjust Cost – Item Entries**.  
+La tâche de détecter si l'ajustement des coûts doit se produire est surtout effectuée par la routine Item Jnl.-Post Line, tandis que la tâche de calculer et générer des écritures d'ajustement des coûts est effectuée par le traitement par lots **Ajuster coûts - Écr. article**.  
 
 Pour pouvoir transférer les coûts, le mécanisme de détection de détermine quelles sources ont changé en termes de coûts et vers quelle destination ces coûts doivent être transférés. Les trois fonctions de détection suivantes sont disponibles dans [!INCLUDE[d365fin](includes/d365fin_md.md)] :  
 
@@ -70,25 +70,25 @@ Pour plus d'informations, voir [Détails de conception : modes évaluation stoc
 ## <a name="manual-versus-automatic-cost-adjustment"></a>Comparaison entre ajustement des coûts automatique et manuel  
 Vous pouvez exécuter l'ajustement des coûts de deux manières :  
 
-* Manuellement, en exécutant le traitement par lots **Ajuster &coûts - Écr. article**. Vous pouvez exécuter ce traitement par lots pour tous les articles ou pour certains articles ou catégories d'article uniquement. Ce traitement par lots effectue un ajustement des coûts pour les articles du stock pour lesquels une transaction entrante a été réalisée, tel qu'un achat. Pour les articles qui utilisent le mode évaluation stock moyen, le traitement par lots effectue également un ajustement si les transactions sortantes sont créées.  
+* Manuellement, en exécutant le traitement par lots **Ajuster coûts - Écr. article**. Vous pouvez exécuter ce traitement par lots pour tous les articles ou pour certains articles ou catégories d'article uniquement. Ce traitement par lots effectue un ajustement des coûts pour les articles du stock pour lesquels une transaction entrante a été réalisée, tel qu'un achat. Pour les articles qui utilisent le mode évaluation stock moyen, le traitement par lots effectue également un ajustement si les transactions sortantes sont créées.  
 * Automatiquement, en ajustant les coûts chaque fois que vous validez un mouvement de stock et que vous clôturez un ordre de fabrication. L'ajustement des coûts est effectué uniquement pour l'article ou les articles spécifiques affectés par la validation. Ceci est configuré lorsque vous cochez la case **Ajustement automatique des coûts** sur la page **Paramètres stock**.  
 
 C'est une bonne pratique d'exécuter l'ajustement des coûts automatiquement lors de la validation car les coûts unitaires sont plus fréquemment mis à jour et donc plus justes. L'inconvénient est que les performances de la base de données peut être affectées en exécutant l'ajustement des coûts si souvent.  
 
-Comme il est important de mettre le coût unitaire d'un article à jour, il est recommandé d'exécuter le traitement par lots pour **Ajuster &coûts - Écr. article** aussi souvent que possible, en dehors des heures de travail. Sinon, utilisez l'ajustement automatique des coûts. Cela garantit que le coût unitaire est mis à jour quotidiennement pour les articles.  
+Comme il est important de mettre le coût unitaire d'un article à jour, il est recommandé d'exécuter le traitement par lots pour **Ajuster coûts - Écr. article** aussi souvent que possible, en dehors des heures de travail. Sinon, utilisez l'ajustement automatique des coûts. Cela garantit que le coût unitaire est mis à jour quotidiennement pour les articles.  
 
 Que l'exécution de l'ajustement des coûts soit manuel ou automatique, le processus d'ajustement et ses conséquences sont les mêmes. [!INCLUDE[d365fin](includes/d365fin_md.md)] calcule la valeur de la transaction entrante et affecte également ce coût à toutes les transactions sortantes, telles que les ventes ou les consommations, qui ont été lettrées sur la transaction entrante. L'ajustement des coûts crée des écritures valeur qui contiennent des montants d'ajustement et des montants qui compensent l'arrondi.  
 
 Les nouvelles écritures valeur ajustement et arrondi ont la date comptabilisation de la facture associée. Les exceptions sont si les écritures valeur tombent dans une période comptable ou une période inventaire clôturée ou si la date comptabilisation est antérieure à la date du champ **Début période validation** sur la page **Paramètres comptabilité**. Si cela se produit, le traitement par lots affecte la date comptabilisation comme la première date de la période ouverte suivante.  
 
 ## <a name="adjust-cost---item-entries-batch-job"></a>Traitement par lots Ajuster coûts - Écr. article  
-Lorsque vous exécutez le traitement par lots **Ajuster &coûts - Écr. article**, vous avez la possibilité d'exécuter le traitement par lots pour tous les articles ou pour certains articles ou catégories uniquement.  
+Lorsque vous exécutez le traitement par lots **Ajuster coûts - Écr. article**, vous avez la possibilité d'exécuter le traitement par lots pour tous les articles ou pour certains articles ou catégories uniquement.  
 
 > [!NOTE]  
 >  Nous vous recommandons de toujours exécuter le traitement par lots pour tous les articles et utilisez uniquement l'option de filtrage pour réduire le temps d'exécution du traitement par lots, ou pour résoudre le coût d'un article donné.  
 
 ### <a name="example"></a>Exemple :  
-L'exemple suivant montre le cas où vous validez un article acheté comme étant reçu et facturé le 01/01/20. Vous validez ultérieurement l'article vendu comme étant expédié et facturé le 01-15-20. Ensuite, vous exécutez les traitements par lots **Ajuster &coûts - Écr. article** et **Valider coûts ajustés**. Les écritures suivantes sont créées.  
+L'exemple suivant montre le cas où vous validez un article acheté comme étant reçu et facturé le 01/01/20. Vous validez ultérieurement l'article vendu comme étant expédié et facturé le 01-15-20. Ensuite, vous exécutez les traitements par lots **Ajuster coûts - Écr. article** et **Valider coûts ajustés**. Les écritures suivantes sont créées.  
 
 **Écritures valeur**  
 
@@ -115,7 +115,7 @@ L'exemple suivant montre le cas où vous validez un article acheté comme étant
 |15/01/20|[Compte stocks]|2 130|-10,00|3|  
 |15/01/20|[Compte variation stock]|7 290|10,00|4|  
 
-Ultérieurement, vous validez des frais annexes achat associés de 2,00 DS facturés le 10/02/20. Vous exécutez le traitement par lots **Ajuster &coûts - Écr. article**, puis le traitement par lots **Valider coûts ajustés**. Le traitement par lots d'ajustement des coûts ajuste le coût de la vente de 2,00 DS en conséquence, et le traitement par lots **Valider coûts ajustés** valide les nouvelles écritures valeur en comptabilité. Le résultat est le suivant.  
+Ultérieurement, vous validez des frais annexes achat associés de 2,00 DS facturés le 10/02/20. Vous exécutez le traitement par lots **Ajuster coûts - Écr. article**, puis le traitement par lots **Valider coûts ajustés**. Le traitement par lots d'ajustement des coûts ajuste le coût de la vente de 2,00 DS en conséquence, et le traitement par lots **Valider coûts ajustés** valide les nouvelles écritures valeur en comptabilité. Le résultat est le suivant.  
 
 **Ecritures valeur**  
 
@@ -166,7 +166,7 @@ L'exemple suivant présente scénario d'ajustement automatique des coûts :
 
 Si vous avez défini l'ajustement automatique des coûts pour l'appliquer aux validations qui se produisent à un mois ou une trimestre de la date en cours, l'ajustement automatique des coûts fonctionne et transmet le coût de l'achat à la vente.  
 
-Si vous avez défini l'ajustement automatique des coûts pour l'appliquer aux validations qui se produisent à un jour ou une semaine de la date en cours, l'ajustement automatique des coûts ne fonctionne pas, et le coût de l'achat n'est pas transmis à la vente jusqu'à ce que vous exécutiez le traitement par lots **Ajuster &coûts - Écr. article**.  
+Si vous avez défini l'ajustement automatique des coûts pour l'appliquer aux validations qui se produisent à un jour ou une semaine de la date en cours, l'ajustement automatique des coûts ne fonctionne pas, et le coût de l'achat n'est pas transmis à la vente jusqu'à ce que vous exécutiez le traitement par lots **Ajuster coûts - Écr. article**.  
 
 ## <a name="see-also"></a>Voir aussi
 [Ajuster coûts et prix article](inventory-how-adjust-item-costs.md)   

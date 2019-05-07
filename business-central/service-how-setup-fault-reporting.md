@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7c25c4858600d959024dcbdba2ce5d0f7e3ad4c8
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 48361c529b682fc3989ceaa2baebcb1f4cb529a4
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "820836"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "913545"
 ---
 # <a name="set-up-fault-reporting"></a>Configurer le reporting panne
 Le reporting panne permet d'établir des normes d'enregistrement des informations de panne pour les articles de service. Par exemple, vous pouvez spécifier la nature du problème, les symptômes visibles, le motif du problème et la solution pour le résoudre.  
@@ -38,7 +38,8 @@ Les codes panne décrivent les pannes article de service courantes ou les action
 Pour terminer la configuration du reporting panne, vous pouvez également spécifier les réparations ou solutions associées à une panne ou un défaut. Pour ce faire, utilisez la page **Relations codes panne/solution**, qui vous permet de configurer des combinaisons de codes pour le groupe d'articles de service de l'article de service à partir duquel vous accédez à la fenêtre, ainsi que le nombre d'occurrences de chacune d'elles.
 
 ## <a name="to-create-fault-and-resolution-code-relationships"></a>Pour créer des relations codes panne/solution
-<!--this needs to go in a working with topic--> Pour pouvoir visualiser, lors de la maintenance des articles, les modes de réparation les plus courants se rapportant à des pannes article particulières, vous devez regrouper des informations sur les relations codes panne/solution. Utilisez le traitement par lots **Insérer relations codes P/S** pour rechercher toutes les combinaisons de codes panne/solution dans des commandes service validées et les enregistrer dans la page **Relations codes panne/solution**.
+<!--this needs to go in a working with topic-->
+ Pour pouvoir visualiser, lors de la maintenance des articles, les modes de réparation les plus courants se rapportant à des pannes article particulières, vous devez regrouper des informations sur les relations codes panne/solution. Utilisez le traitement par lots **Insérer relations codes P/S** pour rechercher toutes les combinaisons de codes panne/solution dans des commandes service validées et les enregistrer dans la page **Relations codes panne/solution**.
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Insérer relations codes P/S**, puis sélectionnez le lien associé.  
 2. Saisissez des dates pour définir la période à inclure dans le traitement par lots.  

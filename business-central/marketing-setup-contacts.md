@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 02/26/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 71c48a677dbc684978271e19d67409dc07143f9d
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: d337da227214c88b8358eb07261f18443d9c5d93
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "820517"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "918162"
 ---
-# <a name="setting-up-contacts"></a>Paramétrage des contacts
+# <a name="set-up-contacts"></a>Configurer les contacts
 Lors de la création de contacts, vous pouvez saisir des informations spécifiques, telles que le secteur d'activité du contact et votre relation d'affaires avec elles.
 
 Avant de créer des contacts et d'enregistrer les détails de vos relations d'affaires, vous devez configurer les différents codes que vous utiliserez pour affecter ces informations aux sociétés et personnes contact. Les codes peuvent être configurés pour les groupes de distribution, les secteurs d'activité, les relations d'affaires, les sources Web, les niveaux hiérarchiques et les responsabilités. Vous pouvez les configurer en choisissant l'action **Nouveau** comme lorsque vous recherchez des listes depuis la fiche contact.  
@@ -151,10 +151,10 @@ Pour synchroniser la fiche contact avec un client, fournisseur, ou la fiche comp
 
 Pour plus d'informations, reportez-vous à [Procédure de synchronisation des contacts avec les clients, les fournisseurs et les comptes bancaires](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).
 
-## <a name="searching-for-duplicate-contacts-when-contacts-are-created"></a>Recherche des doublons lors de la création de contacts
-Vous pouvez configurer le programme pour qu'il recherche automatiquement les doublons chaque fois que vous créez une société contact ou vous pouvez choisir d'effectuer une recherche manuelle lorsque les contacts sont créés. Vous pouvez également configurer le programme pour qu'il mette automatiquement à jour les chaînes de recherche chaque fois que vous modifiez les données de contact ou que vous créez un contact. Vous pouvez choisir le pourcentage de chaînes communes, c'est-à-dire le pourcentage de chaînes qui doivent être identiques dans deux contacts pour que le système les considère comme des doublons.
+## <a name="searching-for-duplicate-contacts"></a>Recherche de doublons de contacts
+Vous pouvez configurer le programme pour qu'il recherche automatiquement les doublons chaque fois que vous créez un contact ou vous pouvez choisir d'effectuer une recherche manuelle lorsque les contacts sont créés. Vous pouvez également configurer le programme pour qu'il mette automatiquement à jour les chaînes de recherche chaque fois que vous modifiez les données de contact ou que vous créez un contact. Vous pouvez choisir le pourcentage de chaînes communes, c'est-à-dire le pourcentage de chaînes qui doivent être identiques dans deux contacts pour que le système les considère comme des doublons. Vous définissez cela à partir de l'organisateur **Doublons** sur la page **Paramètres marketing**.
 
-Vous définissez cela à partir de l'organisateur **Doublons** sur la page **Paramètres marketing**.
+Une fois que vous avez trouvé un doublon de contact, vous pouvez utilisez la page **Fusionner le doublon** pour le fusionner en un enregistrement de contact existant que vous souhaitez conserver. Pour en savoir plus, reportez-vous à la rubrique [Fusionner l'enregistrement des doublons](sales-how-merge-duplicate-records.md).
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion de contacts](marketing-contacts.md)  

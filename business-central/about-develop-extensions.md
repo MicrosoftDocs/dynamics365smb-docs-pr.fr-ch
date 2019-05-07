@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 796f48a719b30ce54752eb8ab02386f964c2e7b8
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: e8e2b011dc07657198ebf42663bd404b7850834a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "853155"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "917014"
 ---
 # <a name="extending-included365finincludesd365finmdmd"></a>Extension de [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Microsoft [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] est une solution de gestion d'entreprise qui aide les sociétés à connecter leurs finances, ventes, services et opérations pour rationnaliser les processus d'entreprise, améliorer les interactions avec le client et prendre de meilleures décisions. [!INCLUDE[d365fin](includes/d365fin_md.md)] est accessible dans le cloud et aux utilisateurs sur différents types d'appareils, et est mis à jour régulièrement. Cette plate-forme d'entreprise moderne vous permet de personnaliser, d'étendre et de créer facilement et rapidement des applications en fonction de vos besoins spécifiques, avec peu ou pas de développement de code.  

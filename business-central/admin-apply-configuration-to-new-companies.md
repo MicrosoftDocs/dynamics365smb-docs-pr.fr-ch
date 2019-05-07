@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c51c3af057e59505ad478b51a40c15605ec0d64b
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 0ed1e040be212f8f59efb5d4b6a41346e6d9b84e
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "821503"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "922592"
 ---
 # <a name="apply-configurations-to-new-companies"></a>Appliquer des configurations aux nouvelles sociétés
 Après avoir créé un package de configuration, l’étape suivante consiste à déployer le package au niveau de votre client pour l’implémentation. Vous utilisez le package de configuration dans une nouvelle société vide.  

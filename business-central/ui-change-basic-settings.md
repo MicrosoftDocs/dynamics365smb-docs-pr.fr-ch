@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 11/19/2018
+ms.date: 04/01/2019
 ms.author: solsen
-ms.openlocfilehash: 353662322e36a564f30bc911f056817cafa7440c
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: d95d2f609129e4bdba35deda726323dbed2ba67a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "820771"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "916237"
 ---
 # <a name="changing-basic-settings"></a>Modification des paramètres de base
 Sur la page [**Mes paramètres**](https://businesscentral.dynamics.com?page=9176 "Accédez directement à votre page Paramètres utilisateurs dans Business Central"), vous pouvez visualiser et modifier les paramètres de base pour [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vos modifications affectent uniquement votre espace de travail, et non les espaces de travail des autres utilisateurs.  
@@ -48,10 +48,21 @@ La date de travail par défaut est généralement la date du jour. Vous pouvez �
 >   Pour entrer rapidement la date de travail dans un champ de date, tapez **t**. Pour entrer la date actuelle dans le champ de date, tapez **a**.
 
 > [!IMPORTANT]  
->   La date de travail est seulement modifiée jusqu'à ce que vous fermiez la société ou que la date change. Si vous ouvrez une autre société, ou si vous ouvrez la même société le lendemain, et si vous souhaitez toujours utiliser une date qui n'est pas la date programme, il faut à nouveau établir la date de travail.
+>   Une fois la date de travail modifiée, si vous vous déconnectez ou si vous changez de société, les données de travail reviennent par défaut à la date de travail. Ainsi, la prochaine fois que vous vous connecterez ou lorsque vous reviendrez à la société d'origine, vous devrez peut-être redéfinir la date de travail. 
 
+### <a name="work-date-indication"></a>Indication de la date de travail
+<!--
+Whenever the work date is not set to the current day (today), there are two indicators on pages that you open for editing:
+
+- A reminder appears at the top of the page that tells you what the work date is set to. The reminder provides a direct link to the work date setting on the **My Settings** page so you change the date if you want. From the reminder, you can also choose to dismiss the reminder for the rest of your session. Unless you change the work date to "today", the reminder will appear the next time you sign in. 
+
+- If you dismiss the reminder, the work date will appear in the title of the page.  
+-->
+Si la date de travail n'est pas définie sur la date actuelle (aujourd'hui), sur toutes les pages sur lesquelles vous pouvez modifier les données, la date de travail actuelle s'affiche dans l'angle supérieur gauche de la page.
+  
 ## <a name="region"></a> Région
-Le paramètre **Région** détermine la manière dont les dates, heures, nombres et devises sont affichés ou mis en forme.   
+
+Le paramètre **Région** détermine la manière dont les dates, heures, nombres et devises sont affichés ou mis en forme.
 
 
 ## <a name="language"></a> Langue

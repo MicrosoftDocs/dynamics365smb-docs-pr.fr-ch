@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 03/11/2019
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: d095e710d33882cc39772c35a495b39e08e0c729
-ms.sourcegitcommit: 2b2c3b488a610a5d3b51fc8218c40b0b732fddf3
+ms.openlocfilehash: 1a2a48f357a553f8cd7836e0dd02ccaf8078c0db
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "832543"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "911567"
 ---
 # <a name="finance"></a>Finance
 [!INCLUDE[d365fin](includes/d365fin_md.md)] comprend une configuration standard de la plupart des processus financiers, mais vous pouvez modifier la configuration pour l'adapter à votre activité. Pour plus d'informations, reportez-vous à [Configuration de Finance](finance-setup-finance.md).
@@ -58,7 +58,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 [Achats](purchasing-manage-purchasing.md)  
 [Clôture des périodes fiscales](year-close-years-periods.md)  
 [Gestion des projets](projects-manage-projects.md)    
-[Importation de données à partir d'autres systèmes financiers](across-import-data-configuration-packages.md)  
+[Importation des données à partir d'autres systèmes financiers](across-import-data-configuration-packages.md)  
 [Utilisation de feuilles comptabilité](ui-work-general-journals.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

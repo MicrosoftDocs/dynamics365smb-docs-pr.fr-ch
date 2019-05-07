@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 11/27/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: f093a9ce2a654d5ee693ee91f32e87f6546279d1
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 869d136498604a61b1f3016efca475b4784c4456
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852462"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "910380"
 ---
 # <a name="customizing-business-central-using-extensions"></a>Personnalisation de Business Central à l'aide d'extensions
 Vous pouvez modifier [!INCLUDE[d365fin](includes/d365fin_md.md)] en installant des extensions qui ajoutent des fonctionnalités, modifient le comportement de l'application, ou vous permettent d'accéder à de nouveaux services en ligne, par exemple.
@@ -62,7 +62,7 @@ Microsoft fournit les extensions suivantes :
 * [Portail Comptable](ui-extensions-accountant-portal.md)  
 * [Analyseur Image](ui-extensions-image-analyzer.md)  
 * [Paiements et rapprochements (DK)](ui-extensions-payments-reconciliation-formats-dk.md)  
-* [C5 Data Migration](ui-extensions-c5-data-migration.md)  
+* [Migration de données C5](ui-extensions-c5-data-migration.md)  
 * [Informations commerciales essentielles](ui-extensions-essential-business-insights.md)  
 * [Prévisions de retard de paiement](ui-extensions-late-payment-prediction.md  )
 

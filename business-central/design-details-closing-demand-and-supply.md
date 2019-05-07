@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, planning, example, closing, supply
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
-ms.openlocfilehash: 73ddbe9746d7681d11e61f10037bf26f792acffa
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: aa2a5e11f8b669a097a472bab1bda8f7fadc565f
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "821363"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "922568"
 ---
 # <a name="design-details-closing-demand-and-supply"></a>Détails de conception : clôture de la demande et de l'approvisionnement
 Lorsque les procédures d'équilibre d'approvisionnement ont été réalisées, il existe trois situations de fin possibles :  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: c6eb9465d07b702e545347cad5acf0a42f01d1de
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 5cd8bce29b1973274cda673e22dd07e6b50f830f
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "821297"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "928084"
 ---
 # <a name="sorting-searching-and-filtering-lists"></a>Tri, recherche et filtrage de listes
 Il existe quelques fonctions que vous pouvez utiliser pour vous aider à analyser, rechercher et limiter des enregistrements d'une liste. Ce sont notamment le tri, la recherche et le filtrage. Vous pouvez en appliquer certaines ou toutes simultanément pour trouver rapidement ou analyser vos données.
@@ -36,7 +36,8 @@ Pour trier une liste, vous pouvez choisir un texte d'en-tête de colonne pour pe
 >   Le tri n'est pas pris en charge sur les images, les champs de type BLOB, les FlowFilters, et les champs n'appartenant pas à une table.  
 
 ## <a name="searching"></a>Recherche
-<!--## Searching by using the Quick Filter --> En haut de chaque page de liste, il existe une icône ![Rechercher une liste](media/ui-search/search-list.png "icône Rechercher une liste") **Rechercher** qui fournit une manière rapide et facile de réduire les enregistrements en une liste et d'afficher uniquement les enregistrements qui contiennent les données que vous souhaitez afficher.
+<!--## Searching by using the Quick Filter -->
+En haut de chaque page de liste, il existe une icône ![Rechercher une liste](media/ui-search/search-list.png "icône Rechercher une liste") **Rechercher** qui fournit une manière rapide et facile de réduire les enregistrements en une liste et d'afficher uniquement les enregistrements qui contiennent les données que vous souhaitez afficher.
 
 Pour rechercher, sélectionnez simplement l'icône de recherche, puis dans la case, entrez le texte souhaité. Vous pouvez saisir des lettres, des chiffres et d'autres symboles.
 
@@ -55,27 +56,6 @@ Cependant, vous pouvez faire une recherche plus précise en utilisant les caract
 
 Le tableau suivant fournit des exemples expliquant comment vous pouvez utiliser la recherche.
 
-
-<!--
-In search criteria you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.-->
-
-<!--
-The Quick Filter provides an easy access to filter data by entering plain text, but does also provide a lot of search criteria options. Depending on whether you enter plain text or text including symbols, the Quick Filter behaves differently.  
-
-* If you enter plain text in the search criteria, the search criteria is interpreted as a case insensitive search that contains certain text.  
-* If you enter text including symbols in the search criteria, the search criteria is interpreted exactly as you entered it, and the search is case sensitive.
--->
-<!--
-
-|Search Criteria|Interpreted as...|Finds...|
-|---------------|----------------|----------|
-|`man`<br />or <br />`Man`|Contains the text; case insensitive|All records with fields that contain the text **man**, regardless of the case.|
-|`'Man'`|Entire text match; case sensitive.|All records with fields that only contain **Man** exactly.|
-|`Man*`|Starts with the text; case sensitive.|All records with fields that start with the text <b>Man</b> exactly.|
-|`@Man*`|Starts with the text; case insensitive.|All records with fields that start with **man**, regardless of the case.|
-|`@*man`|Ends with the text; case insensitive.|All records that end with **man**, regardless of the case.|
--->
-
 |Critères de recherche|Résultat…|
 |---------------|----------|
 |`man`<br />ou <br />`Man`|Tous les enregistrements avec des champs contenant le texte **man**, quelle que soit la casse. Par exemple, **Manchester**, **manuel** ou **Sportsman**. |
@@ -87,7 +67,7 @@ The Quick Filter provides an easy access to filter data by entering plain text, 
 > [!TIP]
 > Vous pouvez appuyer sur F3 pour activer et désactiver la zone de recherche. Pour plus d'informations, reportez-vous à [Raccourcis clavier](keyboard-shortcuts.md#KeyboardFilter).
 
-## <a name="filtering"></a>Filtrage
+## <a name="Filtering"> </a>Filtrage
 Le filtrage fournit une manière plus avancée et plus souple de contrôler les enregistrements affichés dans une liste. Il existe deux différences majeures entre rechercher et filtrer, comme décrit dans le tableau ci-dessous.
 
 || **Recherche** | **Filtrage** |
@@ -98,13 +78,14 @@ Le filtrage fournit une manière plus avancée et plus souple de contrôler les 
 Le filtrage vous permet de visualiser des enregistrements pour des comptes ou les clients, des dates, des montants, ainsi que d'autres informations spécifiques en spécifiant des critères du filtre. Seuls les enregistrements correspondant aux critères sont affichés. Si vous spécifiez des critères pour plusieurs champs, seuls les enregistrements correspondant à tous les critères sont affichés.
 
 ### <a name="working-in-the-filter-pane"></a>Utilisation du volet Filtre
+
+Pour afficher le volet Filtre, sélectionnez ![icône de volet Filtre](media/open-filter-pane-icon.png "icône de volet Filtre") en haut de la liste ou appuyez sur **Maj+F3**. Pour les listes dans le tableau de bord, vous pouvez également choisir la flèche vers le bas en regard du titre de la page dans la barre de navigation au-dessus de la liste, puis choisir **Afficher le volet Filtre** comme indiqué ici :
+
+![Afficher le volet filtre](media/open-filter-pane.png "Afficher le volet filtre")
+
 Le volet Filtre affiche les filtres actuels de la liste, et permet de définir vos propres filtres personnalisés sur un ou plusieurs champs. La figure ci-après indique un exemple de volet Filtre d'une liste des devis.
 
 ![Aperçu du volet Filtre](media/filter-pane-overview.png "Icône de filtre")
-
-Pour afficher le volet Filtre, utilisez le raccourci clavier **Shift+F3**. Pour les listes dans le tableau de bord, vous pouvez également choisir la flèche vers le bas en regard du titre de la page dans la barre de navigation au-dessus de la liste, puis choisir **Afficher le volet Filtre**.
-
-![Afficher le volet filtre](media/open-filter-pane.png "Afficher le volet filtre")
 
 Un volet filtre est divisé en trois sections : **Vues**, **Filtrer la liste par** et **Filtrer les totaux** :
 
@@ -126,7 +107,7 @@ Un volet filtre est divisé en trois sections : **Vues**, **Filtrer la liste pa
   > Les filtres de la section **Filtrer les totaux par** sont contrôlés par les FlowFilters sur la conception de page. Pour des informations techniques, voir [FlowFilters](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
 
 
-### <a name="entering-filter-criteria-in-the-filter-pane"></a>Saisie de critères de filtre dans le volet Filtre
+### <a name="entering-filter-criteria-in-the-filter-pane"></a>Saisie des critères de filtre dans le volet Filtre
 Pour sélectionner un champ à filtrer, procédez comme suit :
   - Dans le volet Filtre, choisissez **+ Champ**. Saisissez le nom du champ à filtrer, ou choisissez un champ dans le menu qui affiche tous les champs de la table.
 
@@ -137,7 +118,7 @@ Vous pouvez maintenant saisir ou sélectionner vos critères de filtre dans la z
 Les colonnes qui ont déjà des filtres sont indiquées par l'![Icône de filtre](media/ui-search/filter-icon.png "Icône de filtre") dans l'en-tête de colonne. Pour supprimer un filtre, sélectionnez l'en-tête de colonne, puis choisissez **Effacer le filtre**.
 
 
-### <a name="entering-filter-criteria-without-the-filter-pane"></a>Saisie de critères de filtre sans le volet Filtre
+### <a name="entering-filter-criteria-without-using-the-filter-pane"></a>Saisie de critères de filtre sans le volet Filtre
 Vous pouvez spécifier des filtres simples directement dans la liste sans utiliser le volet Filtre.
 Avec un champ sélectionné sur une ligne, utilisez le raccourci clavier **Alt+F3** pour afficher uniquement les enregistrements ayant la même valeur. Vous pouvez ensuite sélectionner un autre champ et utiliser le même raccourci pour continuer d'affiner vos filtres. Si le champ sélectionné est déjà filtré, utiliser **Alt+F3** effacera ce filtre.
 

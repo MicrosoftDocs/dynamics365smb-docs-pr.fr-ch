@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 98d51b10d3ca415a463b58405cb3c4f2449b75ad
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 65fcba3f0222b324f132115ea7f1ec53b75d983f
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852439"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "921424"
 ---
 # <a name="working-with-reports-and-batch-jobs"></a>Utilisation des états et des traitements par lots
 Un état regroupe des informations en fonction d'un ensemble de critères spécifié, et organise et présente les informations dans un format imprimable et facilement lisible. Il existe de nombreux états accessibles tout au long de l'application. Les états fournissent généralement des informations relatives au contexte de la page où vous vous trouvez. Par exemple, la page **Client** comprend des états pour les 10 principaux clients et les statistiques de vente, et plus encore.
@@ -50,9 +50,9 @@ Le fait d'utiliser les paramètres enregistrés est une façon rapide et fiable 
 ### <a name="setting-options-and-filters"></a>Définition des options et des filtres
 Si vous souhaitez limiter davantage ou localiser les données incluses dans un état, vous pouvez définir des options et des filtres supplémentaires.
 
-Les filtres vous permettent d'afficher les données selon des critères spécifiques. Les filtres sont regroupés selon l'entité à laquelle ils appartiennent, par exemple **Client** dans l'illustration ci-dessus. Vous spécifiez un filtre en définissant la zone **Où** sur le champ de filtre, puis en ajoutant les critères dans la zone **est :**. Par exemple, dans l'illustration ci-dessus, un filtre unique crée un état pour le client dont le **N°** est égal à **01121212**.
+Les filtres vous permettent d'afficher les données selon des critères spécifiques. Les filtres sont regroupés selon l'entité à laquelle ils appartiennent, par exemple **Client** dans l'illustration ci-dessus. Vous spécifiez un filtre en définissant la zone **Où** sur le champ de filtre, puis en ajoutant les critères dans la zone **est :**.
 
-Vous pouvez ajouter d'autres filtres en définissant les zones **Ajouter**. Lorsque vous avez plusieurs filtres, seuls les résultats qui répondent aux critères de tous les filtres seront inclus dans l'état.
+Vous pouvez ajouter davantage de filtres en renseignant les cases **Et** et **est**. Lorsque vous avez plusieurs filtres, seuls les résultats qui répondent aux critères de tous les filtres seront inclus dans l'état.
 
 Selon le champ de type que vous filtrez, vous pouvez spécifier les critères de filtre pour rechercher une correspondance exacte, une correspondance partielle, une plage de valeurs, etc. Pour obtenir de l'aide sur la configuration des filtres, voir :
 -   [filtres](ui-enter-criteria-filters.md#FilterCriteria) ;

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 9d6f3cf74582283e633d9c3347def5289aeb8f88
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 1665985ba00b291469146536a69a0dcfe9dec85a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "821094"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "919529"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Utiliser la TVA sur les ventes et les achats
 Si votre pays ou région vous demande de calculer la TVA sur les transactions de vente et d'achat afin de pouvoir déclarer les montants à une administration fiscale, vous pouvez configurer [!INCLUDE[d365fin](includes/d365fin_md.md)] pour calculer automatiquement la TVA sur les documents vente et achat. Pour plus d'informations, voir [Configuration des méthodes de calcul et de validation de la taxe sur la valeur ajoutée](finance-setup-vat.md).
@@ -63,7 +63,7 @@ Si un escompte a été calculé sur la base d'un montant facture TTC, vous rembo
 1. Ouvrez la commande vente appropriée.  
 2. Sélectionnez l'action **Statistiques**.  
 3. Sélectionnez le raccourci **Facturation**.  
-  
+
     > [!NOTE]  
     >  Le montant de TVA total de la facture et l'identifiant TVA s'affichent dans les lignes. Vous pouvez ajuster les montants manuellement dans le champ **Montant TVA** des lignes correspondant à chaque identifiant TVA. Lorsque vous modifiez la valeur du champ **Montant TVA**, le programme vérifie que vous n'avez pas modifié la TVA d'une valeur supérieure à celle du montant spécifié comme différence maximale autorisée. Si le montant se situe en dehors de la plage **Différence TVA max. autorisée**, un avertissement s'affiche, indiquant la différence maximale autorisée. Vous ne pouvez pas poursuivre tant que le montant n'est pas ajusté conformément aux paramètres acceptables. Cliquez sur **OK** , puis entrez un autre **Montant TVA** s'inscrivant dans la plage autorisée. Si la différence TVA est inférieure ou égale à la différence maximale autorisée, la TVA est répartie de façon proportionnelle entre les lignes document ayant le même identifiant TVA.  
 
@@ -77,7 +77,7 @@ Vous pouvez également ajuster les montants TVA dans les feuilles comptabilité,
 #### <a name="before-you-manually-enter-vat-on-sales-and-purchase-journals"></a>Avant d'entrer manuellement la TVA dans les feuilles vente et achat  
 1. Sur la page **Paramètres achats**, activez la case à cocher **Autoriser différence TVA**.  
 2. Après avoir effectué la configuration décrite ci-avant, vous pouvez ajuster la valeur du champ **Montant TVA** de la ligne feuille comptabilité ou du champ **Montant TVA contrepartie** de la ligne feuille achat ou vente. [!INCLUDE[d365fin](includes/d365fin_md.md)] vérifie que la différence n'est pas supérieure à la valeur maximale spécifiée.  
-  
+
     > [!NOTE]  
     > Si la différence est supérieure, un avertissement s'affiche, indiquant la différence maximale autorisée. Pour continuer, vous devez ajuster le montant. Sélectionnez **OK**, puis entrez un montant compris dans la plage autorisée. Si la différence de TVA est inférieure ou égale à la valeur maximale autorisée, [!INCLUDE[d365fin](includes/d365fin_md.md)] affiche la différence dans le champ **Différence TVA**.  
 
@@ -115,12 +115,12 @@ Lorsque vous vendez des biens à un client dans un autre pays/une autre région 
     >  Si la configuration de groupes comptabilisation TVA n'a pas la case **Certificat d'approvisionnement requis** cochée, alors un enregistrement est créé et le champ **Statut** est défini sur **Non applicable**. Vous pouvez mettre à jour le champ pour tenir compte des informations correctes de statut. Vous pouvez modifier manuellement le statut de **Non applicable** en **Requis**, et de **Requis** en **Non applicable** selon vos besoins.  
 
    Lorsque vous mettez à jour le champ **Statut** sur **Requis**, **Reçu** ou **Non reçu**, un certificat est créé.  
-  
+
     > [!TIP]  
     >  Vous pouvez utiliser la page **Certificats d'approvisionnement** pour obtenir une vue du statut de toutes les expéditions validées pour lesquelles un certificat d'approvisionnement a été créé.  
 
 5. Sélectionnez **Imprimer le certificat d'approvisionnement**.  
-  
+
     > [!Note]  
     >  Vous pouvez afficher un aperçu ou imprimer le document. Lorsque vous choisissez **Imprimer le certificat d'approvisionnement** et que vous imprimez le document, la case à cocher **Imprimé** est automatiquement sélectionnée. En outre, s'il n'est pas déjà renseigné, le statut du certificat est mis à jour sur **Requis**. Si nécessaire, vous incluez le certificat imprimé à l'expédition.  
 

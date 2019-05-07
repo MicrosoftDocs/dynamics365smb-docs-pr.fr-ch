@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, import, migrate, data, transfer, QuickBooks, customize
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: badf86b9fefad8019b6bee5b8edcbaa1aebf8a6d
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 44c71104ddbc40c803d4b917279dd3cee8c8fc83
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "820571"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "917974"
 ---
 # <a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a>Le passage d'une application QuickBooks à Dynamics 365 Business Central
 De plus en plus de sociétés croissantes passent d'applications financières comme QuickBooks Desktop et QuickBooks Online, qui sont conçues pour les startups et autres petites entreprises, à [!INCLUDE[d365fin](includes/d365fin_md.md)], qui prend en charge également des organisations plus grandes et plus complexes. 

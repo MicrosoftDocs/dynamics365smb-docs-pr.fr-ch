@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 650fb7c92e5d66d238462911011369201d102ea0
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 42e0bd7555b99b8e9ba6748d77817c69eb55d009
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "821198"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "923143"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Configuration minimale requise pour l'utilisation de Business Central
 Avant d'accéder à [!INCLUDE[d365fin](includes/d365fin_md.md)], nous vous recommandons de vérifier que votre ordinateur ou périphérique mobile répond à la configuration système requise pour le produit. Cet article répertorie les éléments de la configuration requise.  
@@ -30,7 +30,7 @@ Avant d'accéder à [!INCLUDE[d365fin](includes/d365fin_md.md)], nous vous recom
 **Windows :** [!INCLUDE[d365fin](includes/d365fin_md.md)] pour Windows peut être installé sur des périphériques avec au moins 1 Go de RAM et Windows 10 Familiale, Pro, Entreprise ou Education (éditions 32 bits et 64 bits).  
 **iOS :** [!INCLUDE[d365fin](includes/d365fin_md.md)] pour iPad et iPhone exige iOS 10.0 ou une version ultérieure.  
 **Android :** [!INCLUDE[d365fin](includes/d365fin_md.md)] pour tablette Android et téléphone Android peut être installé sur des périphériques dotés d'au moins 1 Go de RAM et Android 6.0 ou une version supérieure.  
-**Taille de périphérique :** [!INCLUDE[d365fin](includes/d365fin_md.md)] est pris en charge sur les smartphones avec une taille d'écran minimale de 10,2 cm et les tablettes avec une taille d'écran minimale de 17,8 cm.  
+**Taille de périphérique :** [!INCLUDE[d365fin](includes/d365fin_md.md)] est pris en charge sur les smartphones avec une taille d'écran minimale de 4 pouces et les tablettes avec une taille d'écran minimale de 7 pouces.  
 
 ## <a name="outlook"></a>Outlook
 **Applications Outlook :** pour utiliser [!INCLUDE[d365fin](includes/d365fin_md.md)] comme votre boîte de réception professionnelle dans Outlook, vous devez disposer d'Outlook 2016 ou d'une version ultérieure, d'Outlook Web App, d'OWA pour iPhone, d'OWA pour iPad ou d'OWA pour Android.  

@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b0d6f0b27e9a49238ba3fa4209c38ee2e6bb7cda
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: d8a9ba2f4fc819c1da515a0ace7d8641ec54ffc6
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "820751"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "929420"
 ---
-# <a name="count-adjust-and-reclassify-inventory"></a>Inventaire, ajustement et reclassement du stock
+# <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Comptabiliser, ajuster et reclasser le stock avec les feuilles
 Vous devez effectuer un inventaire (c'est-à-dire compter tous les articles disponibles) au moins une fois par exercice pour vérifier si la quantité enregistrée dans la base de données est identique à la quantité réelle en stock dans les entrepôts. Lorsque vous connaissez la quantité physique réelle, vous devez la valider dans la comptabilité dans le cadre de l' évaluation du stock de fin d'exercice.
 
 Bien que vous comptiez tous les articles du stock au moins une fois par an, vous pouvez avoir décidé de compter certains articles plus souvent, parce qu'ils ont plus de valeur ou parce qu'ils sont très demandés et représentent une partie importante de votre activité. Pour cela, vous pouvez affecter des périodes d'inventaire spéciales à ces articles. Pour plus d'informations, reportez-vous à [Effectuer un inventaire tournant](inventory-how-count-adjust-reclassify.md#to-perform-cycle-counting).
@@ -31,6 +31,10 @@ Pour modifier les attributs d'écritures comptables article, vous pouvez utilise
 
 ## <a name="to-perform-a-physical-inventory"></a>Pour effectuer un inventaire physique
 A la fin de l'exercice comptable, ou plus souvent, vous devez effectuer un inventaire, c'est-à-dire compter les articles réellement disponibles, pour vérifier si la quantité enregistrée correspond à la quantité réelle du stock. S'il existe des différences, vous devez les valider dans les comptes article avant de procéder à l'évaluation du stock.
+
+> [!NOTE]
+> Cette procédure explique comment effectuer un inventaire à l'aide d'une feuille, la page **Feuille inventaire**. Vous pouvez également effectuer la tâche à l'aide de documents, à savoir les pages **Commande de stock physique** et **Enregistrement de stock physique**, qui fournissent davantage de contrôle et de support en répartissant l'inventaire sur plusieurs employés. Pour plus d'informations, reportez-vous à la rubrique [Faire l'inventaire à l'aide de documents](inventory-how-count-inventory-with-documents.md).<br /><br />
+> Vous remarquerez que la fonctionnalité basée sur un document ne peut pas être utilisée pour comptabiliser les articles en magasins et les écritures entrepôt.
 
 Outre la tâche de comptage réelle, le processus complet implique les trois tâches suivantes :
 
@@ -222,6 +226,7 @@ L'exemple suivant est basé sur un code magasin. Les étapes sont similaires pou
 Pour plus d'informations sur le transfert des articles avec un contrôle complet des quantités expédiées et reçues, voir [Transfert de stock entre des magasins](inventory-how-transfer-between-locations.md).
 
 ## <a name="see-also"></a>Voir aussi
+[Faire l'inventaire à l'aide de documents](inventory-how-count-inventory-with-documents.md)  
 [Stock](inventory-manage-inventory.md)
 [Gestion d'entrepôt](warehouse-manage-warehouse.md)    
 [Ventes](sales-manage-sales.md)  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4a6bc27850b84928641f5de7c364fb150fcb4481
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 9c9d01e54aa43cbba722c459a2bf60be26433727
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "821336"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "927844"
 ---
 # <a name="depreciation-methods"></a>Méthodes d'amortissement
 Huit méthodes d'amortissement sont disponibles :  
@@ -71,7 +71,7 @@ Pour cet exemple, l'écriture comptable immobilisation se présente comme suit 
 
 | Date | Type compta. immo. | Jours | Montant | Valeur comptable |
 | --- | --- | --- | --- | --- |
-| 01/01/10 |Coût acquisition |* |10 000,00 |10 000,00 |
+| 01/01/10 |Coût acquisition |* |100 000,00 |100 000,00 |
 | 30/06/10 |Amortissements |180 |-6 250,00 |93,750.00 |
 | 31/12/10 |Amortissements |180 |-6 250,00 |87,500.00 |
 | 30/06/11 |Amortissements |180 |-6 250,00 |81,250.00 |
@@ -99,7 +99,7 @@ Le tableau suivant montre à quoi ressemblent les écritures comptables immobili
 
 | Date | Type compta. immo. | Jours | Montant | Valeur comptable |
 | --- | --- | --- | --- | --- |
-| 01/01/10 |Coûts d'acquisition |* |10 000,00 |10 000,00 |
+| 01/01/10 |Coûts d'acquisition |* |100 000,00 |100 000,00 |
 | 30/06/10 |Amortissements |180 |-12 500,00 |87,500.00 |
 | 31/12/10 |Amortissements |180 |-12 500,00 |75,000.00 |
 | 30/06/11 |Amortissements |180 |-9 375,00 |65,625.00 |
@@ -131,7 +131,7 @@ Une immobilisation a un coût d'acquisition de 100 000 DS. Le champ **% dégre
 
 | Date | Type compta. immo. | Jours | Montant | Valeur comptable |
 | --- | --- | --- | --- | --- |
-| 01/01/10 |Coûts d'acquisition |* |10 000,00 |10 000,00 |
+| 01/01/10 |Coûts d'acquisition |* |100 000,00 |100 000,00 |
 | 30/06/10 |Amortissements |180 |-13 397,46 |86,602.54 |
 | 31/12/10 |Amortissements |180 |-11 602,54 |75,000.00 |
 | 30/06/11 |Amortissements |180 |-10 048,09 |64,951.91 |
@@ -176,7 +176,7 @@ Les écritures comptables immobilisation se présentent comme suit :
 
 | Date | Type compta. immo. | Jours | Montant | Valeur comptable |
 | --- | --- | --- | --- | --- |
-| 01/01/10 |Coûts d'acquisition |* |10 000,00 |10 000,00 |
+| 01/01/10 |Coûts d'acquisition |* |100 000,00 |100 000,00 |
 | 30/06/10 |Amortissements |180 |-12 500,00 |87,500.00 |
 | 31/12/10 |Amortissements |180 |-12 500,00 |75,000.00 |
 | 30/06/11 |Amortissements |180 |-9 375,00 |65,625.00 |
@@ -248,7 +248,7 @@ Le coût d'acquisition est de 100 000 DS et la durée d'amortissement est de c
 
 | Date | Type compta. immo. | Jours | Montant | Valeur comptable |
 | --- | --- | --- | --- | --- |
-| 01/01/10 |Coût acquisition |* |10 000,00 |10 000,00 |
+| 01/01/10 |Coût acquisition |* |100 000,00 |100 000,00 |
 | 31/12/10 |Amortissements |360 |-25 000,00 |75,000.00 |
 | 31/12/11 |Amortissements |360 |-38 000,00 |37,000.00 |
 | 31/12/12 |Amortissements |360 |-37 000,00 |0 |
@@ -263,7 +263,7 @@ Dans l'exemple précédent, les champs **Date premier amortissement** et **Date 
 
 | Date | Type compta. immo. | Jours | Montant | Valeur comptable |
 | --- | --- | --- | --- | --- |
-| 01/01/10 |Coût acquisition |* |10 000,00 |10 000,00 |
+| 01/01/10 |Coût acquisition |* |100 000,00 |100 000,00 |
 | 31/12/10 |Amortissements |270 |-18 750,00 |81,250.00 |
 | 31/12/11 |Amortissements |360 |-38 000,00 |42,250.00 |
 | 31/12/12 |Amortissements |360 |-37 000,00 |6,250.00 |
@@ -293,7 +293,7 @@ Les écritures comptables immobilisation se présentent comme suit :
 
 | Date | Type compta. immo. | Jours | Montant | Valeur comptable |
 | --- | --- | --- | --- | --- |
-| 01/03/10 |Coût acquisition |* |10 000,00 |10 000,00 |
+| 01/03/10 |Coût acquisition |* |100 000,00 |100 000,00 |
 | 31/12/10 |Amortissements |270 |-10 000,00 |90,000.00 |
 | 31/12/11 |Amortissements |360 |-20 000,00 |70,000.00 |
 | 31/12/12 |Amortissements |360 |-20 000,00 |50,000.00 |
@@ -341,9 +341,9 @@ Le montant dégressif est utilisé car il s'agit de la valeur la plus élevée.
 Le montant linéaire est utilisé car il s'agit de la valeur la plus élevée.  
 
 ## <a name="duplicating-entries-to-more-depreciation-books"></a>Duplication des écritures dans davantage de lois d'amortissement
-Si vous disposez de trois lois d'amortissement, A1, A2 et A3, et que vous souhaitiez dupliquer des écritures de A1 vers A2 et A3, vous pouvez activer le champ **Inclure dans liste duplication** sur les fiches loi d'amortissement de A2 et de A3. Cela peut être utile si la loi d'amortissement A1 est intégrée en comptabilité et utilise la feuille validation immobilisation, et si les lois d'amortissement A2 et A3 ne sont pas intégrées en comptabilité et utilisent la feuille immobilisation.  
+Si vous disposez de trois lois d'amortissement, B1, B2 et B3, et que vous souhaitiez dupliquer des écritures de B1 vers B2 et B3, vous pouvez activer le champ **Inclure dans liste duplication** sur les fiches loi d'amortissement de B2 et de B3. Cela peut être utile si la loi d'amortissement B1 est intégrée en comptabilité et utilise la feuille validation immobilisation, et si les lois d'amortissement B2 et B3 ne sont pas intégrées en comptabilité et utilisent la feuille immobilisation.  
 
-Lorsque vous saisissez une écriture pour A1 dans la feuille validation immobilisation et sélectionnez le champ **Utiliser liste duplication**, le programme duplique l'écriture pour les lois A2 et A3 dans la feuille immobilisation lors de la validation de l'écriture.  
+Lorsque vous saisissez une écriture pour B1 dans la feuille validation immobilisation et sélectionnez le champ **Utiliser liste duplication**, le programme duplique l'écriture pour les lois B2 et B3 dans la feuille immobilisation lors de la validation de l'écriture.  
 
 > [!NOTE]  
 >   Vous ne pouvez pas utiliser la feuille d'origine comme destination de la duplication. Si vous validez des écritures dans la feuille validation immobilisation, vous pouvez les dupliquer dans la feuille immobilisation ou dans la feuille validation immobilisation en utilisant une autre feuille.  

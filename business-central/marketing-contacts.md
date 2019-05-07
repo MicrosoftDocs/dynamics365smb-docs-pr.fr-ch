@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 02/26/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: af87183dfd9785bfbe3dd56794682d13a5057ada
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 85975b28dbe19702412a05bb927f3fe59bd8bfc3
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "821229"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "915132"
 ---
 # <a name="creating-and-managing-contacts"></a>Création et gestion des contacts
 Différents groupes de votre société auront des relations d'affaires avec plusieurs sociétés. Par exemple, un vendeur peut rencontrer régulièrement des prospects et enregistrer les résultats de ces visites chaque fin de semaine.
@@ -28,8 +28,9 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 
 | À | Voir |
 | --- | --- |
-| Configurer la gestion des contacts avant de créer des contacts. |[Paramétrage des contacts](marketing-setup-contacts.md) |
-| Créer une fiche contact pour chaque nouvelle personne ou société avec laquelle vous êtes en contact, par exemple, un client ou fournisseur. |[Création de contacts](marketing-create-contact-companies.md) |
+| Configurer la gestion des contacts avant de créer des contacts. |[Configurer les contacts](marketing-setup-contacts.md) |
+| Créer une fiche contact pour chaque nouvelle personne ou société avec laquelle vous êtes en contact, par exemple, un client ou fournisseur. |[Créez des contacts](marketing-create-contact-companies.md) |
+|Résolvez la confusion lorsque deux enregistrements ou plus existent pour le même contact.|[Fusionner l'enregistrement des doublons](sales-how-merge-duplicate-records.md)|
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion des opportunités de ventes](marketing-manage-sales-opportunities.md)  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 55cefad889557df37d8869926ee7e200cd145d03
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 0db2bd47c9581e1dc0aa052d03d3170b7796cd39
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "821482"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "924724"
 ---
 # <a name="set-up-shop-calendars"></a>Paramétrer des calendriers usine
 Les calendriers de centre de charge ou de poste de charge spécifient les jours ouvrés et les heures de travail, les équipes, les jours fériés et les absences déterminant la capacité disponible brute du centre de charge, mesurée en unités de temps, en fonction des valeurs d'efficacité et de capacité définies.
@@ -49,7 +49,7 @@ Même si vos centres de charge n'ont pas recours à diverses équipes, entrez au
     Si vous avez besoin d'un calendrier usine intégrant deux équipes, vous devez le remplir de la manière suivante :  
 
     Lundi 07:00 15:00 1   
-    Lundi 07:00 15:00 2  
+    Lundi 15:00 23:00 2  
     Mardi 07:00 15:00 1  
     Mardi 15:00 23:00 2  
 

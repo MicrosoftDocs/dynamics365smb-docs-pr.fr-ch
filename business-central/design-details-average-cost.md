@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 97bc83c402cd8bbdc34f05035dfa6c680c2e635e
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 8a94244a33ce76584ba506081c9ab6702e48c750
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "821515"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "921231"
 ---
 # <a name="design-details-average-cost"></a>Détails de conception : coût moyen
 Le coût moyen d'un article est calculé avec une moyenne pondérée périodique, selon la période coût moyen qui est paramétrée dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -53,7 +53,7 @@ Le coût moyen d'un article est calculé avec une moyenne pondérée périodique
 ### <a name="example-average-cost-period--day"></a>Exemple : période coût moyen = jour  
  L'exemple suivant montre l'effet du calcul du coût moyen basé sur une période coût moyen d'un jour. Le champ **Type calcul coût moyen** de la page **Paramètres stock** est défini sur **Article**.  
 
- Le tableau suivant montre les écritures comptables pour l'exemple coût article moyen, ARTICLE1, avant que le traitement par lots **Ajuster &coûts - Écr. article** ne s'exécute.  
+ Le tableau suivant montre les écritures comptables pour l'exemple coût article moyen, ARTICLE1, avant que le traitement par lots **Ajuster coûts - Écr. article** ne s'exécute.  
 
 |**Date de validation**|**Type écriture comptable article**|**Quantité**|**Coût total (réel)**|**N° écriture**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
@@ -76,7 +76,7 @@ Le coût moyen d'un article est calculé avec une moyenne pondérée périodique
 |ARTICLE1||BLEU|02/02/20|Non|  
 |ARTICLE1||BLEU|03/02/20|Non|  
 
- Le tableau suivant montre les mêmes écritures comptables une fois le traitement par lots **Ajuster &coûts - Écr. article** exécuté. Le coût moyen par jour est calculé et appliqué aux sorties de stock.  
+ Le tableau suivant montre les mêmes écritures comptables une fois le traitement par lots **Ajuster coûts - Écr. article** exécuté. Le coût moyen par jour est calculé et appliqué aux sorties de stock.  
 
 |**Date de validation**|**Type écriture comptable article**|**Quantité**|**Coût total (réel)**|**N° écriture**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
@@ -92,7 +92,7 @@ Le coût moyen d'un article est calculé avec une moyenne pondérée périodique
 
  Si la période coût moyen est d'un mois, une seule écriture est créée pour chaque combinaison de numéro article, code variante, code magasin et date évaluation.  
 
- Le tableau suivant montre les écritures comptables pour l'exemple coût article moyen, ARTICLE1, avant que le traitement par lots **Ajuster &coûts - Écr. article** ne s'exécute.  
+ Le tableau suivant montre les écritures comptables pour l'exemple coût article moyen, ARTICLE1, avant que le traitement par lots **Ajuster coûts - Écr. article** ne s'exécute.  
 
 |**Date de validation**|**Type écriture comptable article**|**Quantité**|**Coût total (réel)**|**N° écriture**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
@@ -116,7 +116,7 @@ Le coût moyen d'un article est calculé avec une moyenne pondérée périodique
 > [!NOTE]  
 >  La date d'évaluation est définie au dernier jour de la période de coût moyen, qui est dans ce cas le dernier jour du mois.  
 
- Le tableau suivant montre les mêmes écritures comptables une fois le traitement par lots **Ajuster &coûts - Écr. article** exécuté. Le coût moyen par mois est calculé et appliqué aux sorties de stock.  
+ Le tableau suivant montre les mêmes écritures comptables une fois le traitement par lots **Ajuster coûts - Écr. article** exécuté. Le coût moyen par mois est calculé et appliqué aux sorties de stock.  
 
 |**Date de validation**|**Type écriture comptable article**|**Quantité**|**Coût total (réel)**|**N° écriture**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
@@ -176,7 +176,7 @@ Le coût moyen d'un article est calculé avec une moyenne pondérée périodique
 > [!NOTE]  
 >  Un autre motif de cette flexibilité est le lettrage fixe. Pour plus d'informations sur le lettrage fixe, voir [Détails de conception : lettrage article](design-details-item-application.md).  
 
- En raison de cette flexibilité, vous pouvez être amené à recalculer le coût moyen après que la validation associée s'est produite. Par exemple, si vous validez une entrée de stock ou une sortie avec une date évaluation antérieure à une ou plusieurs sorties de stock. Le nouveau calcul du coût moyen se produit automatiquement lorsque vous exécutez le traitement par lots **Ajuster &coûts - Écr. article**, manuellement ou automatiquement.  
+ En raison de cette flexibilité, vous pouvez être amené à recalculer le coût moyen après que la validation associée s'est produite. Par exemple, si vous validez une entrée de stock ou une sortie avec une date évaluation antérieure à une ou plusieurs sorties de stock. Le nouveau calcul du coût moyen se produit automatiquement lorsque vous exécutez le traitement par lots **Ajuster coûts - Écr. article**, manuellement ou automatiquement.  
 
  Vous pouvez modifier la base d'évaluation du stock au cours d'une période comptable en modifiant le champ **Période coût moyen** et le champ **Type calcul coût moyen**. Cependant, cette action doit être menée avec soin et en accord avec un auditeur.  
 

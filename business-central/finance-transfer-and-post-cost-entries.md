@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/13/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 43213f5d9e3056bdaa073624cd247e14b9925c1b
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 12b0db99503bf8ee1b1839a3fe5c6e847f64ffb9
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "820217"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "912302"
 ---
 # <a name="transferring-and-posting-cost-entries"></a>Transfert et validation des écritures de coûts
 Avant de définir des affectations de coûts, vous devez comprendre comment les écritures de coûts proviennent des sources suivantes :  

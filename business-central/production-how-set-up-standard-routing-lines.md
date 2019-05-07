@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7d4f7293a040ad25ce8325552bc6f05f94dd0710
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: e87054e95b08d3da9f3676217252fae3fc495012
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "820235"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "927510"
 ---
 # <a name="set-up-standard-routing-lines"></a>Configurer des lignes gamme standard
 L'utilisation de tâches standard simplifie la création et la maintenance des gammes. Elles vous permettent d'associer rapidement des informations supplémentaires aux opérations récurrentes.

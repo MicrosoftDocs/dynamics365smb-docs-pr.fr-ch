@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 12/03/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 5386dc4158dbd1e944eac75f4339ca2295a92fd2
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 80dcc6b46cdb89c846666963baffa6704daade28
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "820888"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "926008"
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Mise en route de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] est une solution de gestion d'entreprise pour les PME qui automatise et simplifie les processus entreprise et vous aide à gérer votre entreprise. L'inscription est facile, et vous pouvez migrer des données métiers existantes de votre système existant. Pour vous aider à souscrire un abonnement, recherchez un partenaire [!INCLUDE[d365fin](includes/d365fin_md.md)] [ici](https://www.microsoft.com/en-us/solution-providers/search).  
@@ -41,7 +41,7 @@ Lorsque vous êtes prêt à commencer à travailler et que vous voulez en savoir
 ## <a name="the-role-centers"></a>Tableaux de bord
 La page Tableau de bord utilisent une conception centrée sur le rôle pour vous permettre d'accéder rapidement aux outils de processus d'entreprise et d'intelligence dont vous avez besoin dans le cadre de votre travail. Par exemple, un comptable peut surveiller des paiements et des approbations, et afficher des graphiques de performances financières. Consultez les différents Tableaux de bord en sélectionnant l'icône **Paramètres** ![Paramètres](media/ui-experience/settings_icon_small.png "Icône Paramètres du tableau de bord") dans le coin supérieur droit, en sélectionnant **Mes paramètres**, puis le tableau de bord à explorer. Connectez-vous à nouveau pour appliquer la modification. Pour plus d'informations, voir [Modification des paramètres de base](ui-change-basic-settings.md).
 
-Chaque Tableau de bord fournit un bouton **Configuration et extensions**. Ici vous avez accès à la liste de configuration assistée qui peut vous aider à démarrer en définissant les zones sélectionnés rapidement. Si une zone n'est pas couverte par une configuration assistée, sélectionnez l'option **Programme d'installation manuelle** pour accéder aux pages de paramétrage sur lesquelles vous pouvez renseigner les champs de configuration pour toutes les zones manuellement. Pour plus d'informations, reportez-vous à [Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
+Chaque Tableau de bord fournit un bouton **Configuration et extensions**. Ici vous avez accès à la liste des guides de configuration assistée qui peuvent vous aider à démarrer en définissant rapidement les zones sélectionnées. Si une zone n'est pas couverte par une configuration assistée, sélectionnez l'option **Programme d'installation manuelle** pour accéder aux pages de paramétrage sur lesquelles vous pouvez renseigner les champs de configuration pour toutes les zones manuellement. Pour plus d'informations, reportez-vous à [Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
 > [!NOTE]  
 >   La liste des guides de configuration, des extensions et des services disponibles diffèrent selon l'expérience de l'utilisateur que vous choisissez pour votre société. L'expérience de type **Essential** donne accès à moins d'options que l'expérience **Premium**. La première fois que vous vous connectez, vous utilisez l'expérience Essential. Pour plus d'informations, voir [Modification des fonctionnalités affichées](ui-experiences.md).  
@@ -73,7 +73,7 @@ Sinon, recherchez un partenaire [!INCLUDE[d365fin](includes/d365fin_md.md)] [ici
 
 ## <a name="getting-answers-to-questions"></a>Obtenir des réponses aux questions
 
-Si vous ne savez pas comment créer quelque chose dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez espérer trouver la réponse en lisant les info-bulles du champ pour lequel vous avez des doutes, ou en lisant le contenu en ouvrant le lien *En savoir plus* dans une info-bulle. Vous pouvez également accéder à la documentation en cliquant sur le lien associé dans le menu Aide.  
+Si vous ne savez pas comment créer quelque chose dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez espérer trouver la réponse en lisant les info-bulles du champ pour lequel vous avez des doutes, ou en lisant le contenu en ouvrant le lien *En savoir plus* dans une info-bulle (utilisez le raccourci clavier Ctrl+F1). Vous pouvez également accéder à la documentation en cliquant sur le lien associé sur la [page Aide et support](product-help-and-support.md).  
 
 Tous les champs dans [!INCLUDE[d365fin](includes/d365fin_md.md)] sont décrits dans les info-bulles. Vous pouvez accéder aux info-bulles en sélectionnant le nom du champ. Par exemple, sur une page comme **Fiche client**, choisissez simplement le nom du champ pour lire les info-bulles. Dans une liste telle que la liste **Clients**, ou les lignes d'un document tel qu'une commande vente, vous devez choisir le menu déroulant situé à droite du nom de la colonne et sélectionner l'élément de menu **Qu'est-ce-que c'est ?**.  
 
@@ -88,14 +88,16 @@ Accédez au contenu sur les autres applications Dynamics 365 en sélectionnez l
 Si vous êtes comptable, vous pouvez vous inscrire à [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] et disposer d'une intégration transparente à [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour en savoir plus, voir [Bienvenue dans Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).
 
 ## <a name="see-also"></a>Voir aussi
+
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] en tant que boîte de réception professionnelle dans Outlook](admin-outlook.md)  
 [Obtention de [!INCLUDE[d365fin](includes/d365fin_md.md)] sur votre périphérique mobile](install-mobile-app.md)  
+[Ressources pour l'aide et l'assistance technique](product-help-and-support.md)  
 [Documentation Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/)  
 [Notes de mise à jour Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/training_link_md.md)]  

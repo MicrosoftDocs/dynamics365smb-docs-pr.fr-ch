@@ -10,23 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 02/11/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b2e87b2ef999c04cc4c878d4ad087329d644b709
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 688c448f920a032a0f137bab7abdb9de51af1f96
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "820633"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "927533"
 ---
 # <a name="design-details-table-structure"></a>Détails de conception : structure de la table
-Pour comprendre comment le stockage et la validation d'écriture de dimension sont conçus, il est important de comprendre la structure de tableau.  
+Pour comprendre comment les écritures analytiques sont stockées et validées, il est important de comprendre la structure de la table.  
 
-## <a name="new-tables"></a>Nouvelles tables  
- Trois nouveaux tableaux ont été conçus pour gérer les écritures d'ensemble de dimensions.  
-
-### <a name="table-480-dimension-set-entry"></a>Table 480 : Écriture de l'ensemble de dimensions  
- Vous ne pouvez pas modifier cette table. Une fois les données écrites dans la table, vous ne pouvez plus les supprimer ou les modifier.
+## <a name="table-480-dimension-set-entry"></a>Table 480 : Écriture ensemble de dimensions  
+Vous ne pouvez pas modifier cette table. Une fois les données écrites dans la table, vous ne pouvez plus les supprimer ou les modifier.
 
 |N° champ|Nom de champ|Type de données|Commentaire|  
 |---------------|----------------|---------------|-------------|  
@@ -37,8 +34,8 @@ Pour comprendre comment le stockage et la validation d'écriture de dimension so
 |5|**Nom axe analytique**|Texte 30|CalcField. Rechercher dans la table 348.|  
 |6|**Nom de la section analytique**|Texte 30|CalcField. Rechercher dans la table 349.|  
 
-### <a name="table-481-dimension-set-tree-node"></a>Table 481 : Nœud d'arbre ensemble de dimensions  
- Vous ne pouvez pas modifier cette table. Elle est utilisée pour trouver un ensemble de dimensions. Si l'ensemble de dimensions est introuvable, un nouvel ensemble est créé.  
+## <a name="table-481-dimension-set-tree-node"></a>Table 481 : Nœud d'arbre ensemble de dimensions  
+Vous ne pouvez pas modifier cette table. Elle est utilisée pour trouver un ensemble de dimensions. Si l'ensemble de dimensions est introuvable, un nouvel ensemble est créé.  
 
 |N° champ|Nom du champ|Type de données|Commentaires|  
 |---------------|----------------|---------------|-------------|  
@@ -47,8 +44,8 @@ Pour comprendre comment le stockage et la validation d'écriture de dimension so
 |3|**ID ensemble de dimensions**|Entier|Incrémentez automatiquement. Utilisé dans le champ 1 du tableau 480.|  
 |4|**Utilisé**|Booléen|Faux si non utilisé.|  
 
-### <a name="table-482-reclas-dimension-set-buffer"></a>Table 482 : Tampon ensemble de dimensions reclass.  
- La table est utilisée lorsque vous modifiez un code section analytique, par exemple, pour une écriture comptable article en utilisant la page **Feuille reclassement article**.  
+## <a name="table-482-reclas-dimension-set-buffer"></a>Table 482 : Tampon ensemble de dimensions reclass.  
+Cette table est utilisée lorsque vous modifiez un code section analytique, par exemple, pour une écriture comptable article en utilisant la page **Feuille reclassement article**.  
 
 |N° champ|Nom de champ|Type de données|Commentaire|  
 |---------------|----------------|---------------|-------------|  
@@ -61,33 +58,30 @@ Pour comprendre comment le stockage et la validation d'écriture de dimension so
 |7|**Nom de la section analytique**|Texte 30|CalcField. Rechercher dans la table 349.|  
 |8|**Nom nouvelle section analytique**|Texte 30|CalcField. Rechercher dans la table 349.|  
 
-## <a name="modified-tables"></a>Tables modifiées  
- Toutes les tables de transactions et de budget ont été modifiées pour gérer les écritures de l'ensemble de dimensions.  
+## <a name="transaction-and-budget-tables"></a>Transaction et tableaux de budget  
+En plus des autres champs d'axe dans la table, ce champ est important :  
 
-### <a name="changes-to-transaction-and-budget-tables"></a>Modifications de la transaction et des Tableaux de budget  
- Un nouveau champ a été ajouté à toutes les tables de transactions et de budget.  
-
-|N° champ|Nom du champ|Type de données|Commentaires|  
+|N° champ|Nom de champ|Type de données|Commentaire|  
 |---------------|----------------|---------------|-------------|  
 |480|**ID ensemble de dimensions**|Entier|Champ de références 1 dans la table 480.|  
 
-### <a name="changes-to-table-83-item-journal-line"></a>Modifications de la ligne feuille article de la table 83  
- Deux nouveaux champs ont été ajoutés au tableau 83 **Ligne feuille article**.  
+### <a name="table-83-item-journal-line"></a>Table 83 : Ligne feuille article  
+En plus des autres champs d'axe dans la table, ces champs sont importants :  
 
-|N° champ|Nom du champ|Type de données|Commentaires|  
+|N° champ|Nom de champ|Type de données|Commentaire|  
 |---------------|----------------|---------------|-------------|  
 |480|**ID ensemble de dimensions**|Entier|Champ de références 1 dans la table 480.|  
 |481|**ID du nouvel ensemble de dimensions**|Entier|Champ de références 1 dans la table 480.|  
 
-### <a name="changes-to-table-349-dimension-value"></a>Modifications de la section analytique de la table 349  
- Un nouveau champ a été ajouté à la table 349 **Section analytique**.  
+### <a name="table-349-dimension-value"></a>Table 349 : section analytique  
+En plus des autres champs d'axe dans la table, ces champs sont importants :  
 
-|N° champ|Nom du champ|Type de données|Commentaires|  
+|N° champ|Nom de champ|Type de données|Commentaire|  
 |---------------|----------------|---------------|-------------|  
 |12|**ID section analytique**|Entier|Incrémentez automatiquement. Utilisé pour références dans le tableau 480 et le tableau 481.|  
 
-### <a name="tables-that-get-new-field-480-dimension-set-id"></a>Tables qui obtiennent l'ID d'ensemble de dimensions du nouveau champ 480  
- Un nouveau champ, 480, **ID ensemble de dimensions** a été ajouté aux tables suivantes. Pour les tables qui stockent des données validées, le champ fournit seulement un affichage non modifiable des axes analytiques, marqué comme vue détaillée. Pour les tables qui stockent des documents de travail, le champ peut être modifié. Les tables tampon qui sont utilisées en interne n'ont pas besoin de fonctionnalités modifiables ou non modifiables.  
+### <a name="tables-that-contain-the-dimension-set-id-field"></a>Tables qui contiennent le champ ID d'ensemble de dimensions
+ Le champ **ID d'ensembles de dimensions** (480) existe dans les tables suivantes. Pour les tables qui stockent des données validées, le champ fournit seulement un affichage non modifiable des axes analytiques, marqué comme vue détaillée. Pour les tables qui stockent des documents de travail, le champ peut être modifié. Les tables tampon qui sont utilisées en interne n'ont pas besoin de fonctionnalités modifiables ou non modifiables.  
 
  Le champ 480 ne peut pas être modifié dans les tables suivantes.  
 
@@ -143,7 +137,7 @@ Pour comprendre comment le stockage et la validation d'écriture de dimension so
 |6 660|**En-tête réception retour**|  
 |6 661|**Ligne réception retour**|  
 
- Le champ 480 peut être modifié dans les tables suivantes.  
+Le champ 480 peut être modifié dans les tables suivantes.  
 
 |Numéro table|Nom de la table|  
 |---------------|----------------|  
@@ -177,7 +171,7 @@ Pour comprendre comment le stockage et la validation d'écriture de dimension so
 |7 134|**Écriture budget article**|  
 |99 000 829|**Composant planning**|  
 
- Le champ 480 a été ajouté aux tables tampon suivantes.  
+Le champ 480 existe dans les tables suivantes.  
 
 |Numéro table|Nom de la table|  
 |---------------|----------------|  

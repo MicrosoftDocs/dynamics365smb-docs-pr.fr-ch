@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item, item ledger, costing
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0fa6bb40ccd17c01c40a7068ff0b081e5be1aa16
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: ddb2cd65abc96e27486782a1e9c9937858920f7c
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "821151"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "916435"
 ---
 # <a name="design-details-item-application"></a>Détails de conception : lettrage article
 Lorsque vous validez une transaction de stock, la validation de quantité est enregistrée dans les écritures comptables article, la validation de valeur dans les écritures valeur. Pour plus d'informations, voir [Détails de conception : comptabilisation stock](design-details-inventory-posting.md).  
@@ -188,7 +188,7 @@ Le tableau suivant montre l'effet de la contrepassation du coût exact des écri
 |01/03/20|Vente (avoir)|1|1100.00|2|3|3|  
 |01/04/20|(Frais annexes)|1|100.00||1|4|  
   
-Lorsque vous exécutez le traitement par lots **Ajuster &coûts - Écr. article**, le coût augmenté de l'écriture achat, dû aux frais annexes, est transmis à l'écriture vente écriture numéro 2. L'écriture vente transfère alors ce coût augmenté à l'écriture vente créditrice (numéro de séquence 3). Le résultat final est que le coût est correctement contrepassé.  
+Lorsque vous exécutez le traitement par lots **Ajuster coûts - Écr. article**, le coût augmenté de l'écriture achat, dû aux frais annexes, est transmis à l'écriture vente écriture numéro 2. L'écriture vente transfère alors ce coût augmenté à l'écriture vente créditrice (numéro de séquence 3). Le résultat final est que le coût est correctement contrepassé.  
   
 > [!NOTE]  
 >  Si vous travaillez sur des retours ou des avoirs et que vous avez configuré le champ **Coût retour identique obligatoire** soit sur la page **Paramètres achats**, soit sur la page **Paramètres ventes**, en fonction de votre situation, puis [!INCLUDE[d365fin](includes/d365fin_md.md)] renseigne automatiquement ces champs lorsque vous utilisez la fonction **Copier document**. Si vous utilisez la fonction **Affichage de lignes document validées à contrepasser**, les champs sont toujours renseignés automatiquement.  

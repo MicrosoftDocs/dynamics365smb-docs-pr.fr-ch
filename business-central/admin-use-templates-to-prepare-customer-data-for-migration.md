@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7861925cc318a7d23c612bc640e6d7e60bc5eed3
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 165eddfa28f2a48597d64c4480288e9280124fe7
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "820214"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "912452"
 ---
 # <a name="prepare-to-migrate-customer-data"></a>Préparer la migration des données client
 Une fois que vous avez importé et appliqué les données de configuration dans la nouvelle base de données, vous pouvez commencer la migration des données de base existantes du client (nom et numéro du client et des articles, par exemple). Pour créer ces données avec rapidité et précision dans la nouvelle société, vous devez utiliser des modèles pour structurer les données.  

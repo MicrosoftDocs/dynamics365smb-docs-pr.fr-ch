@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/16/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 95a00ec61db3b65b2be729bf0b68da7af960d6ab
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: f41cdfb90ab7ef6cff74205edfa4393c7da5f3d2
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "820883"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "925985"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Besoin de plus de temps pour décider si vous voulez vous abonner ?
 Il est important de prendre la bonne décision en choisissant une application d'entreprise, et nous savons que cela peut prendre du temps d'explorer tous les angles de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Si vous avez besoin de plus de temps pour terminer l'évaluation vous pouvez prolonger la période d'essai de vous-même pour 30 jours de plus. Lorsque la date d'échéance de votre période d'essai approche, nous afficherons une notification pour vous avertir lorsque vous vous connectez. La notification contient un lien vers le guide **Prolonger la période d'évaluation** que vous pouvez utiliser pour prolonger votre période d'essai. Les 30 jours supplémentaires lancent le moment où vous choisissez **Prolonger la version d'évaluation** dans le guide.
