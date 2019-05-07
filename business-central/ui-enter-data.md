@@ -1,6 +1,6 @@
 ---
 title: Procédure de saisie de données dans les champs | Microsoft Docs
-description: Il existe un grand nombre de fonctions générales qui vous permettent d’entrer des données de façon rapide et simple. Les fonctions générales d’entrée des données sont décrites dans cette rubrique.
+description: En savoir plus sur les fonctions générales qui vous permettent de saisir les données dans les champs.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,175 +8,224 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: f1bd2fb92f787d52c5bbab8c2210b9d424c1ffd5
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 00143454cf0b0da9b111f92bcdb7879c7e6743d2
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852508"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "929088"
 ---
-# <a name="entering-data"></a><span data-ttu-id="e865c-104">Saisie de données</span><span class="sxs-lookup"><span data-stu-id="e865c-104">Entering Data</span></span>
-<span data-ttu-id="e865c-105">Il existe un grand nombre de fonctions générales qui vous permettent d’entrer des données de façon rapide et simple.</span><span class="sxs-lookup"><span data-stu-id="e865c-105">There are many general functions that help you enter data  in a quick and easy way.</span></span> <span data-ttu-id="e865c-106">Les fonctions générales de saisie de données sont décrites dans cet article.</span><span class="sxs-lookup"><span data-stu-id="e865c-106">The general functions for entering data are described in this article.</span></span>  
+# <a name="entering-data"></a><span data-ttu-id="5033f-103">Saisie de données</span><span class="sxs-lookup"><span data-stu-id="5033f-103">Entering Data</span></span>
 
-<span data-ttu-id="e865c-107">Les exemples contenus dans cet article utilisent les données de démonstration.</span><span class="sxs-lookup"><span data-stu-id="e865c-107">The examples in this article use the demonstration data.</span></span>
+<span data-ttu-id="5033f-104">Plusieurs fonctions générales vous permettent de saisir vos données de manière plus facile, rapide et précise.</span><span class="sxs-lookup"><span data-stu-id="5033f-104">There are many general features that help you enter data easier, faster, and more accurate.</span></span> <span data-ttu-id="5033f-105">Les fonctions générales de saisie de données sont décrites dans cet article.</span><span class="sxs-lookup"><span data-stu-id="5033f-105">The general features for entering data are described in this article.</span></span>  
 
-## <a name="mandatory-fields"></a><span data-ttu-id="e865c-108">Champs obligatoires</span><span class="sxs-lookup"><span data-stu-id="e865c-108">Mandatory Fields</span></span>
-<span data-ttu-id="e865c-109">Lorsque vous entrez des données sur les pages, certains champs sont marqués par un astérisque rouge.</span><span class="sxs-lookup"><span data-stu-id="e865c-109">When you enter data on pages, certain fields are marked with a red asterisk.</span></span> <span data-ttu-id="e865c-110">L'astérisque rouge signifie que le champ doit être renseigné pour terminer un processus qui utilise ce champ, par exemple, valider une transaction qui utilise la valeur du champ.</span><span class="sxs-lookup"><span data-stu-id="e865c-110">The red asterisk means that the field must be filled to complete a certain process that uses the field, such as posting a transaction that uses the value in the field.</span></span>  
+<!-- The examples in this article use the demonstration data.-->
 
-<span data-ttu-id="e865c-111">Même si le champ contient un astérisque rouge, vous n'êtes pas forcé de remplir le champ avant de poursuivre avec les autres champs ou fermer la page.</span><span class="sxs-lookup"><span data-stu-id="e865c-111">Even though the field contains a red asterisk, you are not forced to fill the field before you continue to other fields or close the page.</span></span> <span data-ttu-id="e865c-112">L'astérisque rouge sert uniquement à rappeler que la fin d'un certain processus restera bloquée.</span><span class="sxs-lookup"><span data-stu-id="e865c-112">The red asterisk only serves as a reminder that you will be blocked from completing a certain process.</span></span>  
+## <a name="keyboard-shortcuts"></a><span data-ttu-id="5033f-106">Raccourcis clavier</span><span class="sxs-lookup"><span data-stu-id="5033f-106">Keyboard Shortcuts</span></span>
 
+<span data-ttu-id="5033f-107">Plusieurs raccourcis clavier vous permettent de travailler sans la souris, et d'accélérer la saisie de vos données, notamment avec des saisies à grande échelle et des tâches de saisie répétitives.</span><span class="sxs-lookup"><span data-stu-id="5033f-107">There are several keyboard shortcuts that let you to work "mouse-free" and speed up your data entry, especially with large scale entries and repetitive typing tasks.</span></span>
 
-## <a name="finding-data-as-you-type"></a><span data-ttu-id="e865c-113">Recherche immédiate</span><span class="sxs-lookup"><span data-stu-id="e865c-113">Finding Data As You Type</span></span>  
- <span data-ttu-id="e865c-114">Lorsque vous commencez à taper des caractères dans un champ, une liste déroulante affiche les valeurs de champ possibles.</span><span class="sxs-lookup"><span data-stu-id="e865c-114">When you start to type characters in a field, a drop-down list is displayed and shows possible field values.</span></span> <span data-ttu-id="e865c-115">La liste change à mesure que vous tapez des caractères, et vous pouvez sélectionner la valeur correcte lorsqu'elle s'affiche.</span><span class="sxs-lookup"><span data-stu-id="e865c-115">The list changes as you type more characters, and you can select the correct value when it is displayed.</span></span>  
+<span data-ttu-id="5033f-108">Pour plus d'informations sur les raccourcis, reportez-vous à la rubrique [Raccourcis clavier](keyboard-shortcuts.md).</span><span class="sxs-lookup"><span data-stu-id="5033f-108">For more information about shortcuts, see [Keyboard Shortcuts](keyboard-shortcuts.md).</span></span> <span data-ttu-id="5033f-109">Certains raccourcis font l'objet de cet article.</span><span class="sxs-lookup"><span data-stu-id="5033f-109">A few of the shortcuts are discussed in this article.</span></span>
 
- <span data-ttu-id="e865c-116">De nombreux champs ont un bouton de Flèche vers le bas que vous pouvez choisir.</span><span class="sxs-lookup"><span data-stu-id="e865c-116">Many fields have a down arrow button that you can choose.</span></span> <span data-ttu-id="e865c-117">sélectionnez la flèche pour obtenir la liste des données disponibles pour le champ.</span><span class="sxs-lookup"><span data-stu-id="e865c-117">You choose the arrow to get a list of data that is available to enter in the field.</span></span> <span data-ttu-id="e865c-118">Selon le type de champ, le bouton peut être associé à l'une deux fonctions suivantes :</span><span class="sxs-lookup"><span data-stu-id="e865c-118">The button has two functions depending on the type of field:</span></span>  
+## <a name="QuickEntry"></a><span data-ttu-id="5033f-110">Accélérer la saisie de données à l'aide de la fonction Saisie rapide</span><span class="sxs-lookup"><span data-stu-id="5033f-110">Accelerating Data Entry Using Quick Entry</span></span>
 
--   <span data-ttu-id="e865c-119">Liste - Affiche les informations d'une autre table que vous pouvez entrer dans le champ.</span><span class="sxs-lookup"><span data-stu-id="e865c-119">Lookup - Displays information from another table that you can enter in the field.</span></span> <span data-ttu-id="e865c-120">Vous pouvez sélectionner un élément à la fois.</span><span class="sxs-lookup"><span data-stu-id="e865c-120">You can select one piece of data at a time.</span></span>  
+<span data-ttu-id="5033f-111">La saisie rapide est une fonction conçue pour saisir les données avec le clavier.</span><span class="sxs-lookup"><span data-stu-id="5033f-111">Quick Entry is a feature designed for data entry when using the keyboard.</span></span> <span data-ttu-id="5033f-112">La fonction Saisie rapide fonctionne sur les champs (comme les pages Fiche) et dans les listes (lignes et colonnes).</span><span class="sxs-lookup"><span data-stu-id="5033f-112">Quick Entry works on fields (like on card pages) and in lists (rows and columns).</span></span> <span data-ttu-id="5033f-113">Cela est utile lors de l'exécution de tâches de saisie répétitives qui exigent de créer plusieurs enregistrements dans la séquence, comme un lot de commandes vente ou l'enregistrement de nouveaux articles.</span><span class="sxs-lookup"><span data-stu-id="5033f-113">It is beneficial when performing repetitive typing tasks that require creating multiple records in sequence, such as a batch of sales orders or registering new items.</span></span>
 
--   <span data-ttu-id="e865c-121">Consulter - Affiche les options qui existent pour le champ.</span><span class="sxs-lookup"><span data-stu-id="e865c-121">Drop-down - Displays the set of options that exist for the field.</span></span> <span data-ttu-id="e865c-122">Vous ne pouvez sélectionner qu'une des options.</span><span class="sxs-lookup"><span data-stu-id="e865c-122">You can select only one of the options.</span></span>  
+<span data-ttu-id="5033f-114">Vous connaissez peut-être déjà l'utilisation de la touche Tab afin de naviguer d'un champ sur une page au champ suivant modifiable.</span><span class="sxs-lookup"><span data-stu-id="5033f-114">You might already be familiar with using the Tab key to navigate from one field on a page to the next editable field.</span></span> <span data-ttu-id="5033f-115">L'inconvénient de l'utilisation de la touche Tab ? Elle passe toujours de façon séquentielle au champ suivant.</span><span class="sxs-lookup"><span data-stu-id="5033f-115">A disadvantage of using Tab is that it always goes sequentially to the next field.</span></span> <!-- even if the field is non-editable or seldom filled it in.--><span data-ttu-id="5033f-116">La fonction Saisie rapide vous permet de modifier ce chemin d'accès.</span><span class="sxs-lookup"><span data-stu-id="5033f-116">Quick Entry lets you change this path.</span></span> <span data-ttu-id="5033f-117">Avec la Saisie rapide, utilisez la touche Entrée pour naviguer uniquement à travers ces champs qui vous intéressent, en ignorant les champs non modifiables et les champs que vous ne renseignez généralement pas.</span><span class="sxs-lookup"><span data-stu-id="5033f-117">With Quick Entry, you use the Enter key to navigate through only those fields that you are interested in, skipping non-editable fields and fields that you typically do not fill in.</span></span> <span data-ttu-id="5033f-118">Vous avez peut-être déjà remarqué ce comportement sur certaines pages.</span><span class="sxs-lookup"><span data-stu-id="5033f-118">You might have already noticed this behavior on some pages.</span></span> <span data-ttu-id="5033f-119">En effet, l'application désigne déjà quels champs inclure lors de l'activation de la touche Entrée et lesquels ignorer.</span><span class="sxs-lookup"><span data-stu-id="5033f-119">This is because the application already designates which fields to include when pressing Enter and which ones to skip.</span></span> <span data-ttu-id="5033f-120">Vous pouvez personnaliser la fonction Saisie rapide en personnalisant votre espace de travail et en optimisant la manière dont vous saisissez les données sur chaque page.</span><span class="sxs-lookup"><span data-stu-id="5033f-120">You can customize Quick Entry by personalizing your workspace and optimizing how you enter data on each page.</span></span>
 
-<!--Onprem ## Copy Fields or Lines  
- Depending on the type of writable document, you can copy individual line fields or whole lines to other lines in the document. Read-only data, such as posted entries, cannot be copied.  
+### <a name="how-quick-entry-works"></a><span data-ttu-id="5033f-121">Fonction Saisie rapide : fonctionnement</span><span class="sxs-lookup"><span data-stu-id="5033f-121">How Quick Entry Works</span></span>
 
- Several database dependencies are used to determine if fields or lines can be copied. One way to determine these dependencies is to view the shortcut menu. The content of the shortcut menu indicates which copy functions are supported by displaying either of these functions:  
+<span data-ttu-id="5033f-122">Chaque champ peut être marqué comme *inclus dans la Saisie rapide* ou *exclus de la Saisie rapide*.</span><span class="sxs-lookup"><span data-stu-id="5033f-122">Every field can be marked as either being *included in Quick Entry* or *excluded from Quick Entry*.</span></span> <span data-ttu-id="5033f-123">Les champs inclus dans la Saisie rapide seront inclus dans le chemin d'accès lorsque vous appuyez sur la touche Entrée ; les champs exclus de la fonction Saisie rapide, ne le seront pas.</span><span class="sxs-lookup"><span data-stu-id="5033f-123">Fields that are included in Quick Entry, will be included in the path when you press Enter; fields that are excluded from Quick Entry, will not.</span></span>
 
--   Copy Cell  
+<span data-ttu-id="5033f-124">Lorsque vous avez fini de saisir les données dans un champ, appuyez simplement sur Entrée pour confirmer les changements et accéder au champ suivant.</span><span class="sxs-lookup"><span data-stu-id="5033f-124">When you are finished entering data in a field, you simply press Enter to confirm the changes and go to the next field.</span></span> <span data-ttu-id="5033f-125">Si vous souhaitez inverser le sens, et accéder au champ précédent, appuyez sur Maj+Entrée.</span><span class="sxs-lookup"><span data-stu-id="5033f-125">If you want to reverse direction, and go the previous field, press Shift+Enter.</span></span> <span data-ttu-id="5033f-126">Pour plus d'informations sur les raccourcis, reportez-vous à [Raccourcis clavier Saisie rapide](keyboard-shortcuts.md#QuickEntry).</span><span class="sxs-lookup"><span data-stu-id="5033f-126">For more information about shortcuts, see [Quick Entry keyboard shortcuts](keyboard-shortcuts.md#QuickEntry).</span></span>
 
--   Copy Rows  
+#### <a name="tips-and-tricks"></a><span data-ttu-id="5033f-127">Conseils et astuces</span><span class="sxs-lookup"><span data-stu-id="5033f-127">Tips and tricks</span></span>
+<span data-ttu-id="5033f-128">Vous trouverez ci-après les informations utiles concernant la fonction Saisie rapide.</span><span class="sxs-lookup"><span data-stu-id="5033f-128">The following provides some useful information about using Quick Entry.</span></span>
 
--   Paste Rows  
+- <span data-ttu-id="5033f-129">Elle est disponible pour tout champ modifiable.</span><span class="sxs-lookup"><span data-stu-id="5033f-129">It is available for any editable fields.</span></span>
+- <span data-ttu-id="5033f-130">Elle fonctionne également à travers les colonnes et les lignes.</span><span class="sxs-lookup"><span data-stu-id="5033f-130">It also works across columns and rows.</span></span>
+- <span data-ttu-id="5033f-131">Elle n'empêche pas d'accéder à d'autres éléments d'une page, comme des actions.</span><span class="sxs-lookup"><span data-stu-id="5033f-131">It does not prevent accessing other elements of a page, such as actions.</span></span> <span data-ttu-id="5033f-132">Ceux-ci restent accessibles en utilisant la touche Tab et la combinaison des touches Maj+Tab.</span><span class="sxs-lookup"><span data-stu-id="5033f-132">These are still accessible by using Tab and Shift+Tab.</span></span>  
+- <span data-ttu-id="5033f-133">Les raccourcis ne doivent pas être développés pour le bon fonctionnement de Saisie rapide.</span><span class="sxs-lookup"><span data-stu-id="5033f-133">FastTabs do not have to be expanded for Quick Entry to work.</span></span> <span data-ttu-id="5033f-134">Si le champ suivant Saisie rapide se situe dans un raccourci réduit, ce raccourci développe automatiquement et se concentre sur le champ désigné.</span><span class="sxs-lookup"><span data-stu-id="5033f-134">If the next Quick Entry field is located in a collapsed FastTab, that FastTab will automatically expand and focus on the designated field.</span></span>
+- <span data-ttu-id="5033f-135">La fonction Saisie rapide fonctionne peut importe si les champs sont obligatoires ou non.</span><span class="sxs-lookup"><span data-stu-id="5033f-135">Quick Entry works irrespective of whether fields are mandatory.</span></span> <span data-ttu-id="5033f-136">Ainsi, il est recommandé de veiller à ce que les champs obligatoires soient inclus dans la fonction Saisie rapide.</span><span class="sxs-lookup"><span data-stu-id="5033f-136">So it is a good idea to ensure that mandatory fields are included in Quick Entry.</span></span>
+- <span data-ttu-id="5033f-137">Par défaut, la plupart des champs sont automatiquement inclus dans la fonction Saisie rapide.</span><span class="sxs-lookup"><span data-stu-id="5033f-137">By default, most fields are automatically included in Quick Entry.</span></span> <span data-ttu-id="5033f-138">Ainsi, à la base, il est fort probable que votre tâche exclura les champs de la fonction Saisie rapide.</span><span class="sxs-lookup"><span data-stu-id="5033f-138">So initially your task will most likely be excluding fields from Quick Entry.</span></span>
 
- For example, database records, such as lines on a sales order, and master data, such as cards on the **Items** page, cannot be duplicated. For this kind of data, the shortcut menu typically has the **Copy Cell** or **Copy Rows**  functions. If the **Paste** function is not available this indicates that you can only paste the data into external documents. Single fields on a sales line, however, can be copied to the same column in other sales lines.  
+### <a name="how-to-change-quick-entry-fields"></a><span data-ttu-id="5033f-139">Comment modifier les champs de saisie rapide</span><span class="sxs-lookup"><span data-stu-id="5033f-139">How to Change Quick Entry Fields</span></span>
 
- Journal lines are very flexible and can be copied freely in the same journal, indicated by the presence of **Paste** on the shortcut menu.  
+<span data-ttu-id="5033f-140">Pour modifier quels champs sont inclus ou exclus de la Saisie rapide sur une page, utilisez la personnalisation.</span><span class="sxs-lookup"><span data-stu-id="5033f-140">To change which fields are included in or excluded from Quick Entry on a page, you use personalization.</span></span>
+
+1. <span data-ttu-id="5033f-141">Commencez la personnalisation en sélectionnant l'icône ![Paramètres](media/ui-experience/settings_icon_small.png "Icône Paramètres du tableau de bord"), puis sélectionnez **Personnaliser**.</span><span class="sxs-lookup"><span data-stu-id="5033f-141">Start personalization by selecting the ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center") icon, and then **Personalize**.</span></span>
+2. <span data-ttu-id="5033f-142">Sélectionnez un champ que vous souhaitez modifier, ou dans des listes, sélectionnez l'en-tête de colonne correspondante, puis choisissez **Inclure dans la saisie rapide** ou **Exclure de la saisie rapide**.</span><span class="sxs-lookup"><span data-stu-id="5033f-142">Select a field that you want change, or in lists, select the corresponding column heading, and then choose either **Include in Quick Entry** or **Exclude from Quick Entry**.</span></span>
+
+<span data-ttu-id="5033f-143">Pour plus d'informations sur la personnalisation, voir [Personnalisation de votre espace de travail et des pages](ui-personalization-user.md).</span><span class="sxs-lookup"><span data-stu-id="5033f-143">For more information about personalization, see [Personalizing Your Workspace](ui-personalization-user.md).</span></span>
+
+## <a name="mandatory-fields"></a><span data-ttu-id="5033f-144">Champs obligatoires</span><span class="sxs-lookup"><span data-stu-id="5033f-144">Mandatory Fields</span></span>
+
+<span data-ttu-id="5033f-145">Lorsque vous entrez des données sur les pages, certains champs sont marqués par un astérisque rouge.</span><span class="sxs-lookup"><span data-stu-id="5033f-145">When you enter data on pages, certain fields are marked with a red asterisk.</span></span> <span data-ttu-id="5033f-146">L'astérisque rouge signifie que le champ doit être renseigné pour terminer un processus qui utilise ce champ, par exemple, valider une transaction qui utilise la valeur du champ.</span><span class="sxs-lookup"><span data-stu-id="5033f-146">The red asterisk means that the field must be filled to complete a certain process that uses the field, such as posting a transaction that uses the value in the field.</span></span>  
+
+<span data-ttu-id="5033f-147">Même si le champ contient un astérisque rouge, vous n'êtes pas forcé de remplir le champ avant de poursuivre avec les autres champs ou fermer la page.</span><span class="sxs-lookup"><span data-stu-id="5033f-147">Even though the field contains a red asterisk, you are not forced to fill the field before you continue to other fields or close the page.</span></span> <span data-ttu-id="5033f-148">L'astérisque rouge sert uniquement à rappeler que la fin d'un certain processus restera bloquée.</span><span class="sxs-lookup"><span data-stu-id="5033f-148">The red asterisk only serves as a reminder that you will be blocked from completing a certain process.</span></span>  
+
+## <a name="finding-data-as-you-type"></a><span data-ttu-id="5033f-149">Recherche immédiate</span><span class="sxs-lookup"><span data-stu-id="5033f-149">Finding Data As You Type</span></span>
+
+ <span data-ttu-id="5033f-150">Lorsque vous commencez à taper des caractères dans un champ, une liste déroulante affiche les valeurs de champ possibles.</span><span class="sxs-lookup"><span data-stu-id="5033f-150">When you start to type characters in a field, a drop-down list is displayed and shows possible field values.</span></span> <span data-ttu-id="5033f-151">La liste change à mesure que vous tapez des caractères, et vous pouvez sélectionner la valeur correcte lorsqu'elle s'affiche.</span><span class="sxs-lookup"><span data-stu-id="5033f-151">The list changes as you type more characters, and you can select the correct value when it is displayed.</span></span>  
+
+ <span data-ttu-id="5033f-152">De nombreux champs ont un bouton de Flèche vers le bas que vous pouvez choisir.</span><span class="sxs-lookup"><span data-stu-id="5033f-152">Many fields have a down arrow button that you can choose.</span></span> <span data-ttu-id="5033f-153">sélectionnez la flèche pour obtenir la liste des données disponibles pour le champ.</span><span class="sxs-lookup"><span data-stu-id="5033f-153">You choose the arrow to get a list of data that is available to enter in the field.</span></span> <span data-ttu-id="5033f-154">Selon le type de champ, le bouton peut être associé à l'une deux fonctions suivantes :</span><span class="sxs-lookup"><span data-stu-id="5033f-154">The button has two functions depending on the type of field:</span></span>  
+
+-   <span data-ttu-id="5033f-155">Liste - Affiche les informations d'une autre table que vous pouvez entrer dans le champ.</span><span class="sxs-lookup"><span data-stu-id="5033f-155">Lookup - Displays information from another table that you can enter in the field.</span></span> <span data-ttu-id="5033f-156">Vous pouvez sélectionner un élément à la fois.</span><span class="sxs-lookup"><span data-stu-id="5033f-156">You can select one piece of data at a time.</span></span>  
+
+-   <span data-ttu-id="5033f-157">Consulter - Affiche les options qui existent pour le champ.</span><span class="sxs-lookup"><span data-stu-id="5033f-157">Drop-down - Displays the set of options that exist for the field.</span></span> <span data-ttu-id="5033f-158">Vous ne pouvez sélectionner qu'une des options.</span><span class="sxs-lookup"><span data-stu-id="5033f-158">You can select only one of the options.</span></span>  
+
+## <a name="copying-and-pasting-fields-and-lines"></a><span data-ttu-id="5033f-159">Copier et coller des champs et des lignes</span><span class="sxs-lookup"><span data-stu-id="5033f-159">Copying and Pasting Fields and Lines</span></span>
+
+<span data-ttu-id="5033f-160">Vous pouvez copier une ou plusieurs lignes dans une liste ou un champ unique sur une page, puis collez ce que vous avez copié dans la même page, une autre page, ou un document externe (comme Microsoft Excel et un e-mail Outlook).</span><span class="sxs-lookup"><span data-stu-id="5033f-160">You can copy one or more rows from a list or a single field on a page, and then paste what you copied into the same page, another page, or an external document (like Microsoft Excel and Outlook email).</span></span> <span data-ttu-id="5033f-161">En raccourci, pour copier, appuyez sur CTRL+C (cmd+C dans macOS) sur votre clavier.</span><span class="sxs-lookup"><span data-stu-id="5033f-161">In short, to copy, you press CTRL+C (cmd+C in macOS) on your keyboard.</span></span> <span data-ttu-id="5033f-162">Pour coller, appuyez sur CTRL+V (cmd+V dans macOS).</span><span class="sxs-lookup"><span data-stu-id="5033f-162">To paste, you press CTRL+V (cmd+V in macOS).</span></span>
+
+<span data-ttu-id="5033f-163">Dans une liste, pour copier le champ dans la même colonne de la ligne précédente, et le coller dans la ligne actuelle, il vous suffit d'appuyer sur F8.</span><span class="sxs-lookup"><span data-stu-id="5033f-163">In a list, to copy the field in the same column of the row above, and paste it into the current row, just press F8.</span></span>
+
+<span data-ttu-id="5033f-164">Pour plus d'informations, reportez-vous à la rubrique [Copier et coller dans Business Central](ui-copy-paste.md).</span><span class="sxs-lookup"><span data-stu-id="5033f-164">For more information, see [Copying and Pasting in Business Central](ui-copy-paste.md).</span></span>
+
+## <a name="Focus"></a><span data-ttu-id="5033f-165">Se concentrer sur les articles de ligne</span><span class="sxs-lookup"><span data-stu-id="5033f-165">Focusing on Line Items</span></span>
+
+<span data-ttu-id="5033f-166">Lorsque vous travaillez sur des documents qui comprennent une pièce des articles de ligne, comme une page de commande vente ou de facture, vous pouvez basculer votre vue pour vous concentrer uniquement sur les articles de ligne, notamment en développant la pièce des articles de ligne de telle sorte qu'elle occupe la plupart de l'espace de travail, masquant les autres parties de la page, hormis la zone des actions en haut.</span><span class="sxs-lookup"><span data-stu-id="5033f-166">When working on documents that include a line items part, like a sales order or invoice page, you can switch your view to focus only on the line items, essentially expanding the line items part so that it occupies pretty much the entire workspace - hiding other parts of the page except the actions area at the top.</span></span> <span data-ttu-id="5033f-167">Cela vous donne un meilleur aperçu des articles de ligne et offre un plus grand espace pour les exploiter.</span><span class="sxs-lookup"><span data-stu-id="5033f-167">This gives you a better overview of the lines items, and provides more room to work on them.</span></span> <span data-ttu-id="5033f-168">Cela est particulièrement utile lorsque vous utilisez de grandes listes d'articles de ligne et lorsque la saisie rapide des données est souhaitée.</span><span class="sxs-lookup"><span data-stu-id="5033f-168">This is particularly beneficial when working with large line item lists and fast data entry is desired.</span></span>
+
+<span data-ttu-id="5033f-169">Un autre avantage est que cela vous offre une fonctionnalité de filtre avancée, comme sur les autres listes, afin que la navigation et la recherche à travers les articles de ligne soient plus simples.</span><span class="sxs-lookup"><span data-stu-id="5033f-169">Another advantage is that it also provides advanced filtering capability, like on other lists, so browsing and searching through line items becomes even easier.</span></span>
+
+### <a name="switch-the-focus-on-and-off"></a><span data-ttu-id="5033f-170">Activer/Désactiver le focus</span><span class="sxs-lookup"><span data-stu-id="5033f-170">Switch the Focus On and Off</span></span>
+
+<span data-ttu-id="5033f-171">Pour vous concentrer sur les articles de ligne, faites votre sélection n'importe où dans la partie des articles de ligne, puis sélectionnez ![icône mode Focalisation](media/focus-mode.png "icône mode Focalisation") dans l'angle supérieur droit ou appuyez sur Ctrl+Maj+F12.</span><span class="sxs-lookup"><span data-stu-id="5033f-171">To focus on lines items, select anywhere in the line item part, and then choose ![Focus Mode icon](media/focus-mode.png "Focus mode icon") in the upper right corner or press Ctrl+Shift+F12.</span></span>
+
+<span data-ttu-id="5033f-172">Pour revenir à la vue normale, sélectionnez ![icône mode Focalisation](media/focus-mode.png "icône mode Focalisation") ou appuyez à nouveau sur Ctrl+Maj+F12.</span><span class="sxs-lookup"><span data-stu-id="5033f-172">To switch back to the normal view, choose ![Focus Mode icon](media/focus-mode.png "Focus mode icon") or press Ctrl+Shift+F12 again.</span></span>
+
+### <a name="filtering-the-line-items"></a><span data-ttu-id="5033f-173">Filtrage des articles de ligne</span><span class="sxs-lookup"><span data-stu-id="5033f-173">Filtering the Line Items</span></span>
+
+<span data-ttu-id="5033f-174">Pour commencer à filtrer, sélectionnez ![icône de volet Filtre](media/open-filter-pane-icon.png "icône de volet Filtre") en haut de la liste ou appuyez sur **Maj+F3** pour ouvrir le volet Filtrer.</span><span class="sxs-lookup"><span data-stu-id="5033f-174">To start filtering, select ![Filter pane icon](media/open-filter-pane-icon.png "Filter pane icon") at the top of the list or press **Shift+F3** to open the filter pane.</span></span> <span data-ttu-id="5033f-175">Vous travaillez avec le volet Filtrer comme vous le faites sur toute autre liste.</span><span class="sxs-lookup"><span data-stu-id="5033f-175">You work with the filter pane as you do on any other list.</span></span> <span data-ttu-id="5033f-176">Pour plus d'informations, reportez-vous à la rubrique [Filtrage](ui-enter-criteria-filters.md#Filtering).</span><span class="sxs-lookup"><span data-stu-id="5033f-176">For more information, see [Filtering](ui-enter-criteria-filters.md#Filtering).</span></span>
+
+<span data-ttu-id="5033f-177">La fonction Filtrage est utile notamment pour afficher et analyser de longs documents.</span><span class="sxs-lookup"><span data-stu-id="5033f-177">Filtering is especially helpful when viewing and analysing longer documents.</span></span> <span data-ttu-id="5033f-178">Par exemple, supposez que vous ouvriez une facture de vente validée et que vous filtriez les articles de ligne pour afficher tous les articles de ligne qui ont une remise individuelle supérieure à 5 % ou que vous filtriez uniquement pour afficher les accessoires de vélo comportant la mention « pro » dans leur nom.</span><span class="sxs-lookup"><span data-stu-id="5033f-178">For example, imagine you open a posted sales invoice and filter the line items to display all line items that have an individual discount above 5%, or filter to display only bike accessories with 'pro' in the name.</span></span>
+
+## <a name="entering-quantities-by-calculation"></a><span data-ttu-id="5033f-179">Saisie de quantités par calcul</span><span class="sxs-lookup"><span data-stu-id="5033f-179">Entering Quantities by Calculation</span></span>
+
+<span data-ttu-id="5033f-180">Lors de la saisie de nombres dans les champs de quantité, tels que le champ **Quantité** d'une ligne feuille article, vous pouvez entrer la formule plutôt que la somme des quantités.</span><span class="sxs-lookup"><span data-stu-id="5033f-180">When entering numbers into quantity fields, such as the **Quantity** field on an item journal line, you can enter the formula instead of the sum quantity.</span></span>  
+
+### <a name="examples"></a><span data-ttu-id="5033f-181">Exemples</span><span class="sxs-lookup"><span data-stu-id="5033f-181">Examples</span></span>  
+
+-   <span data-ttu-id="5033f-182">Si vous entrez 19+19, le champ est renseigné à l'aide du nombre 38.</span><span class="sxs-lookup"><span data-stu-id="5033f-182">If you enter 19+19, the field is calculated to 38.</span></span>  
+
+-   <span data-ttu-id="5033f-183">Si vous entrez 41-9, le champ est renseigné à l'aide du nombre 32.</span><span class="sxs-lookup"><span data-stu-id="5033f-183">If you enter 41-9, the field is calculated to 32.</span></span>  
+
+-   <span data-ttu-id="5033f-184">Si vous entrez 12\*4, le champ est renseigné à l'aide du nombre 48.</span><span class="sxs-lookup"><span data-stu-id="5033f-184">If you enter 12\*4, the field is calculated to 48.</span></span>  
+
+-   <span data-ttu-id="5033f-185">Si vous entrez 12/4, le champ est renseigné à l'aide du nombre 3.</span><span class="sxs-lookup"><span data-stu-id="5033f-185">If you enter 12/4, the field is calculated to 3.</span></span>  
+
+## <a name="entering-negative-numbers"></a><span data-ttu-id="5033f-186">Saisie de chiffres négatifs</span><span class="sxs-lookup"><span data-stu-id="5033f-186">Entering Negative Numbers</span></span>
+
+<span data-ttu-id="5033f-187">Vous pouvez saisir des chiffres négatifs de deux manières.</span><span class="sxs-lookup"><span data-stu-id="5033f-187">You can enter negative numbers in two ways.</span></span> <span data-ttu-id="5033f-188">Le numéro -20,5 peut être saisi de la manière suivante :</span><span class="sxs-lookup"><span data-stu-id="5033f-188">The number -20.5 can be entered as:</span></span>  
+
+-   <span data-ttu-id="5033f-189">-20,5</span><span class="sxs-lookup"><span data-stu-id="5033f-189">-20.5</span></span>  
+
+    <span data-ttu-id="5033f-190">Ou</span><span class="sxs-lookup"><span data-stu-id="5033f-190">or</span></span>
+-   <span data-ttu-id="5033f-191">20,5-</span><span class="sxs-lookup"><span data-stu-id="5033f-191">20.5-</span></span>  
+
+ <span data-ttu-id="5033f-192">Dans les deux cas, le montant est enregistré comme -20,5.</span><span class="sxs-lookup"><span data-stu-id="5033f-192">In both cases, the amount will be recorded in as -20.5.</span></span>  
+
+ <span data-ttu-id="5033f-193">Si le dernier caractère de l'expression est **+** ou **-**, l'expression entière est enregistrée avec ce caractère.</span><span class="sxs-lookup"><span data-stu-id="5033f-193">If the last character of the expression is a **+** or a **-**, the entire expression will be recorded with that sign.</span></span> <span data-ttu-id="5033f-194">Par exemple, **10-20+** aboutira à 10 et non -10.</span><span class="sxs-lookup"><span data-stu-id="5033f-194">An example, **10-20+** will result in 10 and not -10.</span></span>  
+
+## <a name="entering-dates-and-times"></a><span data-ttu-id="5033f-195">Saisie de dates et d'heures</span><span class="sxs-lookup"><span data-stu-id="5033f-195">Entering Dates and Times</span></span>
+
+<span data-ttu-id="5033f-196">Vous pouvez entrer des dates et des heures dans tous les champs affectés spécifiquement à des dates (champs Date).</span><span class="sxs-lookup"><span data-stu-id="5033f-196">You can enter dates and times in all the fields that are specifically assigned to dates (date fields).</span></span> <span data-ttu-id="5033f-197">Vous pouvez saisir les dates avec ou sans séparateurs.</span><span class="sxs-lookup"><span data-stu-id="5033f-197">You can enter dates with or without separators.</span></span>
 
 > [!NOTE]  
->   If you copy a journal line or document line, the fields that are not in your view are not copied to the new line.
+> <span data-ttu-id="5033f-198">Le mode de saisie des dates et heures dépend des paramètres **Région**.</span><span class="sxs-lookup"><span data-stu-id="5033f-198">How you enter dates and times depends on your **Region** settings.</span></span> <span data-ttu-id="5033f-199">Pour plus d'informations, voir [Modification des paramètres de base](ui-change-basic-settings.md).</span><span class="sxs-lookup"><span data-stu-id="5033f-199">For more information, see [Changing Basic Settings](ui-change-basic-settings.md).</span></span>  
 
-#### To copy previous field  
+### <a name="entering-dates"></a><span data-ttu-id="5033f-200">Saisie de dates</span><span class="sxs-lookup"><span data-stu-id="5033f-200">Entering Dates</span></span>
 
--   To enter the value of the field immediately above the active field, select **Copy Previous** from the shortcut menu.-->
+<span data-ttu-id="5033f-201">Pour les champs de date, vous pouvez utiliser le sélecteur de date, qui vous permet de choisir une date depuis un calendrier, ou vous pouvez saisir les dates manuellement.</span><span class="sxs-lookup"><span data-stu-id="5033f-201">For date fields, you can either use the data picker, which lets you select a date from a calender, or you can enter dates manually.</span></span> <span data-ttu-id="5033f-202">Cette section offre un bref aperçu de la manière de saisir les dates.</span><span class="sxs-lookup"><span data-stu-id="5033f-202">This section provides a brief overview of how to enter dates.</span></span> <span data-ttu-id="5033f-203">Pour plus d'informations, reportez-vous à la rubrique [Utilisation de dates civiles et les heures](ui-enter-date-ranges.md).</span><span class="sxs-lookup"><span data-stu-id="5033f-203">For more details, see [Working with Calendar Dates and Times](ui-enter-date-ranges.md).</span></span>
 
-## <a name="entering-quantities-by-calculation"></a><span data-ttu-id="e865c-123">Saisie de quantités par calcul</span><span class="sxs-lookup"><span data-stu-id="e865c-123">Entering Quantities by Calculation</span></span>  
- <span data-ttu-id="e865c-124">Lors de la saisie de nombres dans les champs de quantité, tels que le champ **Quantité** d'une ligne feuille article, vous pouvez entrer la formule plutôt que la somme des quantités.</span><span class="sxs-lookup"><span data-stu-id="e865c-124">When entering numbers into quantity fields, such as the **Quantity** field on an item journal line, you can enter the formula instead of the sum quantity.</span></span>  
+<span data-ttu-id="5033f-204">Pour la saisie manuelle de la date, saisissez deux, quatre, six ou huit chiffres :</span><span class="sxs-lookup"><span data-stu-id="5033f-204">For manually date entry, you can enter two, four, six, or eight digits:</span></span>  
 
-## <a name="examples"></a><span data-ttu-id="e865c-125">Exemples</span><span class="sxs-lookup"><span data-stu-id="e865c-125">Examples</span></span>  
+-   <span data-ttu-id="5033f-205">Si vous ne saisissez que deux chiffres, ils sont interprétés comme le jour, et le mois et l'année de la date de travail sont ajoutés.</span><span class="sxs-lookup"><span data-stu-id="5033f-205">If you enter only two digits, this is interpreted as the day, and it will add the month and the year of the work date.</span></span>  
 
--   <span data-ttu-id="e865c-126">Si vous entrez 19+19, le champ est renseigné à l'aide du nombre 38.</span><span class="sxs-lookup"><span data-stu-id="e865c-126">If you enter 19+19, the field is calculated to 38.</span></span>  
+-   <span data-ttu-id="5033f-206">Si vous saisissez quatre chiffres, ils sont interprétés comme le jour et le mois, et l'année de la date de travail est ajoutée.</span><span class="sxs-lookup"><span data-stu-id="5033f-206">If you enter four digits, this is interpreted as the day and the month, and it will add the year of the work date.</span></span>  
 
--   <span data-ttu-id="e865c-127">Si vous entrez 41-9, le champ est renseigné à l'aide du nombre 32.</span><span class="sxs-lookup"><span data-stu-id="e865c-127">If you enter 41-9, the field is calculated to 32.</span></span>  
+-   <span data-ttu-id="5033f-207">Si la date que vous souhaitez saisir est comprise entre le 01/01/1930 et le 31/12/2029, vous pouvez saisir les deux chiffres de l'année ; sinon saisissez les quatre chiffres.</span><span class="sxs-lookup"><span data-stu-id="5033f-207">If the date you want to enter is in the range 01/01/1930 through 12/31/2029, you can enter the year with two digits; otherwise, enter the year with four digits.</span></span>  
 
--   <span data-ttu-id="e865c-128">Si vous entrez 12\*4, le champ est renseigné à l'aide du nombre 48.</span><span class="sxs-lookup"><span data-stu-id="e865c-128">If you enter 12\*4, the field is calculated to 48.</span></span>  
+<span data-ttu-id="5033f-208">Vous pouvez aussi saisir une date sous forme de jour de la semaine suivi par un numéro de semaine et, éventuellement, une année (par exemple, Lun25 ou lun25 signifie le lundi de la semaine 25).</span><span class="sxs-lookup"><span data-stu-id="5033f-208">You can also enter a date as a weekday followed by a week number and, optionally, a year (for example, Mon25 or mon25 means Monday in week 25).</span></span>  
 
--   <span data-ttu-id="e865c-129">Si vous entrez 12/4, le champ est renseigné à l'aide du nombre 3.</span><span class="sxs-lookup"><span data-stu-id="e865c-129">If you enter 12/4, the field is calculated to 3.</span></span>  
+<span data-ttu-id="5033f-209">Plutôt que de saisir une date spécifique, vous pouvez saisir l'un de ces codes.</span><span class="sxs-lookup"><span data-stu-id="5033f-209">Instead of entering a specific date, you can enter one of these codes.</span></span>  
 
-## <a name="entering-negative-numbers"></a><span data-ttu-id="e865c-130">Saisie de chiffres négatifs</span><span class="sxs-lookup"><span data-stu-id="e865c-130">Entering Negative Numbers</span></span>
-<span data-ttu-id="e865c-131">Vous pouvez saisir des chiffres négatifs de deux manières.</span><span class="sxs-lookup"><span data-stu-id="e865c-131">You can enter negative numbers in two ways.</span></span> <span data-ttu-id="e865c-132">Le numéro -20,5 peut être saisi de la manière suivante :</span><span class="sxs-lookup"><span data-stu-id="e865c-132">The number -20.5 can be entered as:</span></span>  
-
--   <span data-ttu-id="e865c-133">-20,5</span><span class="sxs-lookup"><span data-stu-id="e865c-133">-20.5</span></span>  
-
-    <span data-ttu-id="e865c-134">Ou</span><span class="sxs-lookup"><span data-stu-id="e865c-134">or</span></span>
--   <span data-ttu-id="e865c-135">20,5-</span><span class="sxs-lookup"><span data-stu-id="e865c-135">20.5-</span></span>  
-
- <span data-ttu-id="e865c-136">Dans les deux cas, le montant est enregistré comme -20,5.</span><span class="sxs-lookup"><span data-stu-id="e865c-136">In both cases, the amount will be recorded in as -20.5.</span></span>  
-
- <span data-ttu-id="e865c-137">Si le dernier caractère de l'expression est **+** ou **-**, l'expression entière est enregistrée avec ce caractère.</span><span class="sxs-lookup"><span data-stu-id="e865c-137">If the last character of the expression is a **+** or a **-**, the entire expression will be recorded with that sign.</span></span> <span data-ttu-id="e865c-138">Par exemple, **10-20+** aboutira à 10 et non -10.</span><span class="sxs-lookup"><span data-stu-id="e865c-138">An example, **10-20+** will result in 10 and not -10.</span></span>  
-
-## <a name="entering-dates-and-times"></a><span data-ttu-id="e865c-139">Saisie de dates et d'heures</span><span class="sxs-lookup"><span data-stu-id="e865c-139">Entering Dates and Times</span></span>
-<span data-ttu-id="e865c-140">Vous pouvez entrer des dates et des heures dans tous les champs affectés spécifiquement à des dates (champs Date).</span><span class="sxs-lookup"><span data-stu-id="e865c-140">You can enter dates and times in all the fields that are specifically assigned to dates (date fields).</span></span> <span data-ttu-id="e865c-141">Vous pouvez saisir les dates avec ou sans séparateurs.</span><span class="sxs-lookup"><span data-stu-id="e865c-141">You can enter dates with or without separators.</span></span>
-
-> [!NOTE]  
-> <span data-ttu-id="e865c-142">Le mode de saisie des dates et heures dépend des paramètres **Région**.</span><span class="sxs-lookup"><span data-stu-id="e865c-142">How you enter dates and times depends on your **Region** settings.</span></span> <span data-ttu-id="e865c-143">Pour plus d'informations, voir [Modification des paramètres de base](ui-change-basic-settings.md).</span><span class="sxs-lookup"><span data-stu-id="e865c-143">For more information, see [Changing Basic Settings](ui-change-basic-settings.md).</span></span>  
-
-### <a name="entering-dates"></a><span data-ttu-id="e865c-144">Saisie de dates</span><span class="sxs-lookup"><span data-stu-id="e865c-144">Entering Dates</span></span>  
- <span data-ttu-id="e865c-145">Vous pouvez saisir deux, quatre, six ou huit chiffres dans un champ date :</span><span class="sxs-lookup"><span data-stu-id="e865c-145">In a date field you can enter two, four, six, or eight digits:</span></span>  
-
--   <span data-ttu-id="e865c-146">Si vous ne saisissez que deux chiffres, ils sont interprétés comme le jour, et le mois et l'année de la date de travail sont ajoutés.</span><span class="sxs-lookup"><span data-stu-id="e865c-146">If you enter only two digits, this is interpreted as the day, and it will add the month and the year of the work date.</span></span>  
-
--   <span data-ttu-id="e865c-147">Si vous saisissez quatre chiffres, ils sont interprétés comme le jour et le mois, et l'année de la date de travail est ajoutée.</span><span class="sxs-lookup"><span data-stu-id="e865c-147">If you enter four digits, this is interpreted as the day and the month, and it will add the year of the work date.</span></span>  
-
--   <span data-ttu-id="e865c-148">Si la date que vous souhaitez saisir est comprise entre le 01/01/1930 et le 31/12/2029, vous pouvez saisir les deux chiffres de l'année ; sinon saisissez les quatre chiffres.</span><span class="sxs-lookup"><span data-stu-id="e865c-148">If the date you want to enter is in the range 01/01/1930 through 12/31/2029, you can enter the year with two digits; otherwise, enter the year with four digits.</span></span>  
-
- <span data-ttu-id="e865c-149">Vous pouvez aussi saisir une date sous forme de jour de la semaine suivi par un numéro de semaine et, éventuellement, une année (par exemple, Lun25 ou lun25 signifie le lundi de la semaine 25).</span><span class="sxs-lookup"><span data-stu-id="e865c-149">You can also enter a date as a weekday followed by a week number and, optionally, a year (for example, Mon25 or mon25 means Monday in week 25).</span></span>  
-
- <span data-ttu-id="e865c-150">Au lieu de saisir une date spécifique, vous pouvez saisir l'un des deux codes suivants.</span><span class="sxs-lookup"><span data-stu-id="e865c-150">Instead of entering a specific date, you can enter one of two codes.</span></span>  
-
-|<span data-ttu-id="e865c-151">Code</span><span class="sxs-lookup"><span data-stu-id="e865c-151">Code</span></span>|<span data-ttu-id="e865c-152">Résultat</span><span class="sxs-lookup"><span data-stu-id="e865c-152">Result</span></span>|  
+|<span data-ttu-id="5033f-210">Code</span><span class="sxs-lookup"><span data-stu-id="5033f-210">Code</span></span>|<span data-ttu-id="5033f-211">Résultat</span><span class="sxs-lookup"><span data-stu-id="5033f-211">Result</span></span>|  
 |--------------|----------------|  
-|<span data-ttu-id="e865c-153">a</span><span class="sxs-lookup"><span data-stu-id="e865c-153">t</span></span>|<span data-ttu-id="e865c-154">Il s'agit de la date du jour (la date système de l'ordinateur).</span><span class="sxs-lookup"><span data-stu-id="e865c-154">This is today's date (the system date for the computer).</span></span>|  
-|<span data-ttu-id="e865c-155">t</span><span class="sxs-lookup"><span data-stu-id="e865c-155">w</span></span>|<span data-ttu-id="e865c-156">Il s'agit de la date de travail configurée dans l'application.</span><span class="sxs-lookup"><span data-stu-id="e865c-156">This is the work date that is setup in the application.</span></span> <span data-ttu-id="e865c-157">Pour modifier la date de travail, voir [Modification des paramètres de base](ui-change-basic-settings.md).</span><span class="sxs-lookup"><span data-stu-id="e865c-157">To change the work date, see [Changing Basic Settings](ui-change-basic-settings.md).</span></span> <span data-ttu-id="e865c-158">Vous souhaiterez peut-être utiliser une date de travail si vous avez beaucoup de transactions avec une date différente de la date d'aujourd'hui.</span><span class="sxs-lookup"><span data-stu-id="e865c-158">You may want to use a work date if you have many transactions with a date other than today's date.</span></span>|  
+|<span data-ttu-id="5033f-212">a</span><span class="sxs-lookup"><span data-stu-id="5033f-212">t</span></span>|<span data-ttu-id="5033f-213">Il s'agit de la date du jour (la date système de l'ordinateur).</span><span class="sxs-lookup"><span data-stu-id="5033f-213">This specifies today's date (the system date for the computer).</span></span>|  
+|<span data-ttu-id="5033f-214">p</span><span class="sxs-lookup"><span data-stu-id="5033f-214">p</span></span>|<span data-ttu-id="5033f-215">Cela précise une période comptable où `p`signifie la première période comptable, `p2` indique la seconde période comptable, etc.</span><span class="sxs-lookup"><span data-stu-id="5033f-215">This specifies an accounting period´, where `p`means the first accounting period, `p2` means the second accountin period, and so on.</span></span> |
+|<span data-ttu-id="5033f-216">t</span><span class="sxs-lookup"><span data-stu-id="5033f-216">w</span></span>|<span data-ttu-id="5033f-217">Il s'agit de la date de travail configurée dans l'application.</span><span class="sxs-lookup"><span data-stu-id="5033f-217">This specifies the work date that is setup in the application.</span></span> <span data-ttu-id="5033f-218">Pour modifier la date de travail, voir [Modification des paramètres de base](ui-change-basic-settings.md).</span><span class="sxs-lookup"><span data-stu-id="5033f-218">To change the work date, see [Changing Basic Settings](ui-change-basic-settings.md).</span></span> <span data-ttu-id="5033f-219">Vous souhaiterez peut-être utiliser une date de travail si vous avez beaucoup de transactions avec une date différente de la date d'aujourd'hui.</span><span class="sxs-lookup"><span data-stu-id="5033f-219">You may want to use a work date if you have many transactions with a date other than today's date.</span></span>|
+|<span data-ttu-id="5033f-220">c</span><span class="sxs-lookup"><span data-stu-id="5033f-220">c</span></span>|<span data-ttu-id="5033f-221">Cela spécifie que la date après `c`est une date de clôture, par exemple `C123101`.</span><span class="sxs-lookup"><span data-stu-id="5033f-221">This specifies that the date after `c`is a closing date, for example `C123101`.</span></span>|  
 
-<!--Onprem ## Closing Date  
- When you close a fiscal year, you can use closing dates to indicate that an entry is a closing entry. A closing date technically is between two dates, for example between Dec 31 and Jan 1.  
+## <a name="entering-times"></a><span data-ttu-id="5033f-222">Saisie des heures</span><span class="sxs-lookup"><span data-stu-id="5033f-222">Entering Times</span></span>
 
- To specify that a date is a closing date, put C just before the date: C123101. -->
+<span data-ttu-id="5033f-223">Lorsque vous saisissez des heures, vous pouvez insérer n'importe quel type de séparateur entre les unités, mais cette opération est facultative.</span><span class="sxs-lookup"><span data-stu-id="5033f-223">When you enter times, you can insert any separator sign that you want between the units, but it is not required.</span></span> <span data-ttu-id="5033f-224">Vous n'avez pas besoin d'ajouter la mention « minutes », « secondes » ou « AM/PM ».</span><span class="sxs-lookup"><span data-stu-id="5033f-224">You do not have to write minutes, seconds, or AM/PM.</span></span>  
 
-## <a name="entering-times"></a><span data-ttu-id="e865c-159">Saisie des heures</span><span class="sxs-lookup"><span data-stu-id="e865c-159">Entering Times</span></span>  
- <span data-ttu-id="e865c-160">Lorsque vous saisissez des heures, vous pouvez insérer n'importe quel type de séparateur entre les unités, mais cette opération est facultative.</span><span class="sxs-lookup"><span data-stu-id="e865c-160">When you enter times, you can insert any separator sign that you want between the units, but it is not required.</span></span> <span data-ttu-id="e865c-161">Vous n'avez pas besoin d'ajouter la mention « minutes », « secondes » ou « AM/PM ».</span><span class="sxs-lookup"><span data-stu-id="e865c-161">You do not have to write minutes, seconds, or AM/PM.</span></span>  
+<span data-ttu-id="5033f-225">Le tableau suivant répertorie les différents formats de saisie possibles pour les heures, ainsi que leur interprétation.</span><span class="sxs-lookup"><span data-stu-id="5033f-225">The following table lists the various ways in which times can be entered and how they are interpreted.</span></span>  
 
- <span data-ttu-id="e865c-162">Le tableau suivant répertorie les différents formats de saisie possibles pour les heures, ainsi que leur interprétation.</span><span class="sxs-lookup"><span data-stu-id="e865c-162">The following table lists the various ways in which times can be entered and how they are interpreted.</span></span>  
-
-|<span data-ttu-id="e865c-163">Écriture</span><span class="sxs-lookup"><span data-stu-id="e865c-163">Entry</span></span>|<span data-ttu-id="e865c-164">Interprétation</span><span class="sxs-lookup"><span data-stu-id="e865c-164">Interpretation</span></span>|  
+|<span data-ttu-id="5033f-226">Écriture</span><span class="sxs-lookup"><span data-stu-id="5033f-226">Entry</span></span>|<span data-ttu-id="5033f-227">Interprétation</span><span class="sxs-lookup"><span data-stu-id="5033f-227">Interpretation</span></span>|  
 |---------------|------------------------|  
-|<span data-ttu-id="e865c-165">5</span><span class="sxs-lookup"><span data-stu-id="e865c-165">5</span></span>|<span data-ttu-id="e865c-166">05:00:00</span><span class="sxs-lookup"><span data-stu-id="e865c-166">05:00:00</span></span>|  
-|<span data-ttu-id="e865c-167">5:30</span><span class="sxs-lookup"><span data-stu-id="e865c-167">5:30</span></span>|<span data-ttu-id="e865c-168">05:30:00</span><span class="sxs-lookup"><span data-stu-id="e865c-168">05:30:00</span></span>|  
-|<span data-ttu-id="e865c-169">0530</span><span class="sxs-lookup"><span data-stu-id="e865c-169">0530</span></span>|<span data-ttu-id="e865c-170">05:30:00</span><span class="sxs-lookup"><span data-stu-id="e865c-170">05:30:00</span></span>|  
-|<span data-ttu-id="e865c-171">5:30:5</span><span class="sxs-lookup"><span data-stu-id="e865c-171">5:30:5</span></span>|<span data-ttu-id="e865c-172">05:30:05</span><span class="sxs-lookup"><span data-stu-id="e865c-172">05:30:05</span></span>|  
-|<span data-ttu-id="e865c-173">053005</span><span class="sxs-lookup"><span data-stu-id="e865c-173">053005</span></span>|<span data-ttu-id="e865c-174">05:30:05</span><span class="sxs-lookup"><span data-stu-id="e865c-174">05:30:05</span></span>|  
-|<span data-ttu-id="e865c-175">5:30:5,50</span><span class="sxs-lookup"><span data-stu-id="e865c-175">5:30:5,50</span></span>|<span data-ttu-id="e865c-176">05:30:05.5</span><span class="sxs-lookup"><span data-stu-id="e865c-176">05:30:05.5</span></span>|  
-|<span data-ttu-id="e865c-177">053005050</span><span class="sxs-lookup"><span data-stu-id="e865c-177">053005050</span></span>|<span data-ttu-id="e865c-178">05:30:05.05</span><span class="sxs-lookup"><span data-stu-id="e865c-178">05:30:05.05</span></span>|  
+|<span data-ttu-id="5033f-228">5</span><span class="sxs-lookup"><span data-stu-id="5033f-228">5</span></span>|<span data-ttu-id="5033f-229">05:00:00</span><span class="sxs-lookup"><span data-stu-id="5033f-229">05:00:00</span></span>|  
+|<span data-ttu-id="5033f-230">5:30</span><span class="sxs-lookup"><span data-stu-id="5033f-230">5:30</span></span>|<span data-ttu-id="5033f-231">05:30:00</span><span class="sxs-lookup"><span data-stu-id="5033f-231">05:30:00</span></span>|  
+|<span data-ttu-id="5033f-232">0530</span><span class="sxs-lookup"><span data-stu-id="5033f-232">0530</span></span>|<span data-ttu-id="5033f-233">05:30:00</span><span class="sxs-lookup"><span data-stu-id="5033f-233">05:30:00</span></span>|  
+|<span data-ttu-id="5033f-234">5:30:5</span><span class="sxs-lookup"><span data-stu-id="5033f-234">5:30:5</span></span>|<span data-ttu-id="5033f-235">05:30:05</span><span class="sxs-lookup"><span data-stu-id="5033f-235">05:30:05</span></span>|  
+|<span data-ttu-id="5033f-236">053005</span><span class="sxs-lookup"><span data-stu-id="5033f-236">053005</span></span>|<span data-ttu-id="5033f-237">05:30:05</span><span class="sxs-lookup"><span data-stu-id="5033f-237">05:30:05</span></span>|  
+|<span data-ttu-id="5033f-238">5:30:5,50</span><span class="sxs-lookup"><span data-stu-id="5033f-238">5:30:5,50</span></span>|<span data-ttu-id="5033f-239">05:30:05.5</span><span class="sxs-lookup"><span data-stu-id="5033f-239">05:30:05.5</span></span>|  
+|<span data-ttu-id="5033f-240">053005050</span><span class="sxs-lookup"><span data-stu-id="5033f-240">053005050</span></span>|<span data-ttu-id="5033f-241">05:30:05.05</span><span class="sxs-lookup"><span data-stu-id="5033f-241">05:30:05.05</span></span>|  
 
- <span data-ttu-id="e865c-179">Vous devez saisir deux chiffres par unité temporelle si vous n'utilisez pas de séparateur.</span><span class="sxs-lookup"><span data-stu-id="e865c-179">You must enter two digits for each unit of time if you do not enter a separator.</span></span>  
+ <span data-ttu-id="5033f-242">Vous devez saisir deux chiffres par unité temporelle si vous n'utilisez pas de séparateur.</span><span class="sxs-lookup"><span data-stu-id="5033f-242">You must enter two digits for each unit of time if you do not enter a separator.</span></span>  
 
-## <a name="entering-datetimes"></a><span data-ttu-id="e865c-180">Saisie des dates/heures</span><span class="sxs-lookup"><span data-stu-id="e865c-180">Entering Datetimes</span></span>  
- <span data-ttu-id="e865c-181">Lors de la saisie des dates/heures, vous devez saisir un espace entre la date et l'heure.</span><span class="sxs-lookup"><span data-stu-id="e865c-181">When you enter datetimes you must enter a space between the date and the time.</span></span>  
+## <a name="entering-datetimes"></a><span data-ttu-id="5033f-243">Saisie des dates/heures</span><span class="sxs-lookup"><span data-stu-id="5033f-243">Entering Datetimes</span></span>
 
- <span data-ttu-id="e865c-182">Le tableau suivant répertorie les différents formats de saisie possibles pour les dates/heures, ainsi que leur interprétation.</span><span class="sxs-lookup"><span data-stu-id="e865c-182">The following table lists the various ways in which you can enter datetimes and how they are interpreted.</span></span>  
+<span data-ttu-id="5033f-244">Lors de la saisie des dates/heures, vous devez saisir un espace entre la date et l'heure.</span><span class="sxs-lookup"><span data-stu-id="5033f-244">When you enter datetimes you must enter a space between the date and the time.</span></span>  
 
-|<span data-ttu-id="e865c-183">Écriture</span><span class="sxs-lookup"><span data-stu-id="e865c-183">Entry</span></span>|<span data-ttu-id="e865c-184">Interprétation</span><span class="sxs-lookup"><span data-stu-id="e865c-184">Interpretation</span></span>|  
+<span data-ttu-id="5033f-245">Le tableau suivant répertorie les différents formats de saisie possibles pour les dates/heures, ainsi que leur interprétation.</span><span class="sxs-lookup"><span data-stu-id="5033f-245">The following table lists the various ways in which you can enter datetimes and how they are interpreted.</span></span>  
+
+|<span data-ttu-id="5033f-246">Écriture</span><span class="sxs-lookup"><span data-stu-id="5033f-246">Entry</span></span>|<span data-ttu-id="5033f-247">Interprétation</span><span class="sxs-lookup"><span data-stu-id="5033f-247">Interpretation</span></span>|  
 |---------------|------------------------|  
-|<span data-ttu-id="e865c-185">131202 132455</span><span class="sxs-lookup"><span data-stu-id="e865c-185">131202 132455</span></span>|<span data-ttu-id="e865c-186">13-12-02 13:24:55</span><span class="sxs-lookup"><span data-stu-id="e865c-186">13-12-02 13:24:55</span></span>|  
-|<span data-ttu-id="e865c-187">1-12-02 10</span><span class="sxs-lookup"><span data-stu-id="e865c-187">1-12-02 10</span></span>|<span data-ttu-id="e865c-188">01-12-02 10:00:00</span><span class="sxs-lookup"><span data-stu-id="e865c-188">01-12-02 10:00:00</span></span>|  
-|<span data-ttu-id="e865c-189">1.12.02 5</span><span class="sxs-lookup"><span data-stu-id="e865c-189">1.12.02 5</span></span>|<span data-ttu-id="e865c-190">01/12/02 05:00:00</span><span class="sxs-lookup"><span data-stu-id="e865c-190">01-12-02 05:00:00</span></span>|  
-|<span data-ttu-id="e865c-191">1.12.02</span><span class="sxs-lookup"><span data-stu-id="e865c-191">1.12.02</span></span>|<span data-ttu-id="e865c-192">01/12/02 00:00:00</span><span class="sxs-lookup"><span data-stu-id="e865c-192">01-12-02 00:00:00</span></span>|  
-|<span data-ttu-id="e865c-193">11/12</span><span class="sxs-lookup"><span data-stu-id="e865c-193">11 12</span></span>|<span data-ttu-id="e865c-194">11-mois en cours-année en cours 12:00:00</span><span class="sxs-lookup"><span data-stu-id="e865c-194">11-current month-current year 12:00:00</span></span>|  
-|<span data-ttu-id="e865c-195">1112 12</span><span class="sxs-lookup"><span data-stu-id="e865c-195">1112 12</span></span>|<span data-ttu-id="e865c-196">11-12-année en cours 12:00:00</span><span class="sxs-lookup"><span data-stu-id="e865c-196">11-12-current year 12:00:00</span></span>|  
-|<span data-ttu-id="e865c-197">a ou date du jour</span><span class="sxs-lookup"><span data-stu-id="e865c-197">t or today</span></span>|<span data-ttu-id="e865c-198">date du jour 00:00:00</span><span class="sxs-lookup"><span data-stu-id="e865c-198">today's date 00:00:00</span></span>|  
-|<span data-ttu-id="e865c-199">heure h</span><span class="sxs-lookup"><span data-stu-id="e865c-199">t time</span></span>|<span data-ttu-id="e865c-200">date du jour heure réelle</span><span class="sxs-lookup"><span data-stu-id="e865c-200">today's date actual time</span></span>|  
-|<span data-ttu-id="e865c-201">a 10:30</span><span class="sxs-lookup"><span data-stu-id="e865c-201">t 10:30</span></span>|<span data-ttu-id="e865c-202">date du jour 10:30:00</span><span class="sxs-lookup"><span data-stu-id="e865c-202">today's date 10:30:00</span></span>|  
-|<span data-ttu-id="e865c-203">a 3:3:3</span><span class="sxs-lookup"><span data-stu-id="e865c-203">t 3:3:3</span></span>|<span data-ttu-id="e865c-204">date du jour 03:03:03</span><span class="sxs-lookup"><span data-stu-id="e865c-204">today's date 03:03:03</span></span>|  
-|<span data-ttu-id="e865c-205">t ou date de travail</span><span class="sxs-lookup"><span data-stu-id="e865c-205">w or workdate</span></span>|<span data-ttu-id="e865c-206">date de travail 00:00:00</span><span class="sxs-lookup"><span data-stu-id="e865c-206">the working date 00:00:00</span></span>|  
-|<span data-ttu-id="e865c-207">lu ou lundi</span><span class="sxs-lookup"><span data-stu-id="e865c-207">m or Monday</span></span>|<span data-ttu-id="e865c-208">Lundi de la semaine en cours 00:00:00</span><span class="sxs-lookup"><span data-stu-id="e865c-208">Monday of the current week 00:00:00</span></span>|  
-|<span data-ttu-id="e865c-209">ma ou mardi</span><span class="sxs-lookup"><span data-stu-id="e865c-209">tu or Tuesday</span></span>|<span data-ttu-id="e865c-210">Mardi de la semaine en cours 00:00:00</span><span class="sxs-lookup"><span data-stu-id="e865c-210">Tuesday of the current week 00:00:00</span></span>|  
-|<span data-ttu-id="e865c-211">me ou mercredi</span><span class="sxs-lookup"><span data-stu-id="e865c-211">we or Wednesday</span></span>|<span data-ttu-id="e865c-212">Mercredi de la semaine en cours 00:00:00</span><span class="sxs-lookup"><span data-stu-id="e865c-212">Wednesday of the current week 00:00:00</span></span>|  
-|<span data-ttu-id="e865c-213">je ou jeudi</span><span class="sxs-lookup"><span data-stu-id="e865c-213">th or Thursday</span></span>|<span data-ttu-id="e865c-214">Jeudi de la semaine en cours 00:00:00</span><span class="sxs-lookup"><span data-stu-id="e865c-214">Thursday of the current week 00:00:00</span></span>|  
-|<span data-ttu-id="e865c-215">ve ou vendredi</span><span class="sxs-lookup"><span data-stu-id="e865c-215">f or Friday</span></span>|<span data-ttu-id="e865c-216">Vendredi de la semaine en cours 00:00:00</span><span class="sxs-lookup"><span data-stu-id="e865c-216">Friday of the current week 00:00:00</span></span>|  
-|<span data-ttu-id="e865c-217">sa ou samedi</span><span class="sxs-lookup"><span data-stu-id="e865c-217">s or Saturday</span></span>|<span data-ttu-id="e865c-218">Samedi de la semaine en cours 00:00:00</span><span class="sxs-lookup"><span data-stu-id="e865c-218">Saturday of the current week 00:00:00</span></span>|  
-|<span data-ttu-id="e865c-219">di ou dimanche</span><span class="sxs-lookup"><span data-stu-id="e865c-219">su or Sunday</span></span>|<span data-ttu-id="e865c-220">Dimanche de la semaine en cours 00:00:00</span><span class="sxs-lookup"><span data-stu-id="e865c-220">Sunday of the current week 00:00:00</span></span>|  
-|<span data-ttu-id="e865c-221">ma 10:30</span><span class="sxs-lookup"><span data-stu-id="e865c-221">tu 10:30</span></span>|<span data-ttu-id="e865c-222">Mardi de la semaine en cours 10:30:00</span><span class="sxs-lookup"><span data-stu-id="e865c-222">Tuesday of the current week 10:30:00</span></span>|  
-|<span data-ttu-id="e865c-223">ma 3:3:3</span><span class="sxs-lookup"><span data-stu-id="e865c-223">tu 3:3:3</span></span>|<span data-ttu-id="e865c-224">Mardi de la semaine en cours 03:03:03</span><span class="sxs-lookup"><span data-stu-id="e865c-224">Tuesday of the current week 03:03:03</span></span>|  
+|<span data-ttu-id="5033f-248">131202 132455</span><span class="sxs-lookup"><span data-stu-id="5033f-248">131202 132455</span></span>|<span data-ttu-id="5033f-249">13-12-02 13:24:55</span><span class="sxs-lookup"><span data-stu-id="5033f-249">13-12-02 13:24:55</span></span>|  
+|<span data-ttu-id="5033f-250">1-12-02 10</span><span class="sxs-lookup"><span data-stu-id="5033f-250">1-12-02 10</span></span>|<span data-ttu-id="5033f-251">01-12-02 10:00:00</span><span class="sxs-lookup"><span data-stu-id="5033f-251">01-12-02 10:00:00</span></span>|  
+|<span data-ttu-id="5033f-252">1.12.02 5</span><span class="sxs-lookup"><span data-stu-id="5033f-252">1.12.02 5</span></span>|<span data-ttu-id="5033f-253">01/12/02 05:00:00</span><span class="sxs-lookup"><span data-stu-id="5033f-253">01-12-02 05:00:00</span></span>|  
+|<span data-ttu-id="5033f-254">1.12.02</span><span class="sxs-lookup"><span data-stu-id="5033f-254">1.12.02</span></span>|<span data-ttu-id="5033f-255">01/12/02 00:00:00</span><span class="sxs-lookup"><span data-stu-id="5033f-255">01-12-02 00:00:00</span></span>|  
+|<span data-ttu-id="5033f-256">11/12</span><span class="sxs-lookup"><span data-stu-id="5033f-256">11 12</span></span>|<span data-ttu-id="5033f-257">11-mois en cours-année en cours 12:00:00</span><span class="sxs-lookup"><span data-stu-id="5033f-257">11-current month-current year 12:00:00</span></span>|  
+|<span data-ttu-id="5033f-258">1112 12</span><span class="sxs-lookup"><span data-stu-id="5033f-258">1112 12</span></span>|<span data-ttu-id="5033f-259">11-12-année en cours 12:00:00</span><span class="sxs-lookup"><span data-stu-id="5033f-259">11-12-current year 12:00:00</span></span>|  
+|<span data-ttu-id="5033f-260">a ou date du jour</span><span class="sxs-lookup"><span data-stu-id="5033f-260">t or today</span></span>|<span data-ttu-id="5033f-261">date du jour 00:00:00</span><span class="sxs-lookup"><span data-stu-id="5033f-261">today's date 00:00:00</span></span>|  
+|<span data-ttu-id="5033f-262">heure h</span><span class="sxs-lookup"><span data-stu-id="5033f-262">t time</span></span>|<span data-ttu-id="5033f-263">date du jour heure réelle</span><span class="sxs-lookup"><span data-stu-id="5033f-263">today's date actual time</span></span>|  
+|<span data-ttu-id="5033f-264">a 10:30</span><span class="sxs-lookup"><span data-stu-id="5033f-264">t 10:30</span></span>|<span data-ttu-id="5033f-265">date du jour 10:30:00</span><span class="sxs-lookup"><span data-stu-id="5033f-265">today's date 10:30:00</span></span>|  
+|<span data-ttu-id="5033f-266">a 3:3:3</span><span class="sxs-lookup"><span data-stu-id="5033f-266">t 3:3:3</span></span>|<span data-ttu-id="5033f-267">date du jour 03:03:03</span><span class="sxs-lookup"><span data-stu-id="5033f-267">today's date 03:03:03</span></span>|  
+|<span data-ttu-id="5033f-268">t ou date de travail</span><span class="sxs-lookup"><span data-stu-id="5033f-268">w or workdate</span></span>|<span data-ttu-id="5033f-269">date de travail 00:00:00</span><span class="sxs-lookup"><span data-stu-id="5033f-269">the working date 00:00:00</span></span>|  
+|<span data-ttu-id="5033f-270">lu ou lundi</span><span class="sxs-lookup"><span data-stu-id="5033f-270">m or Monday</span></span>|<span data-ttu-id="5033f-271">Lundi de la semaine en cours 00:00:00</span><span class="sxs-lookup"><span data-stu-id="5033f-271">Monday of the current week 00:00:00</span></span>|  
+|<span data-ttu-id="5033f-272">ma ou mardi</span><span class="sxs-lookup"><span data-stu-id="5033f-272">tu or Tuesday</span></span>|<span data-ttu-id="5033f-273">Mardi de la semaine en cours 00:00:00</span><span class="sxs-lookup"><span data-stu-id="5033f-273">Tuesday of the current week 00:00:00</span></span>|  
+|<span data-ttu-id="5033f-274">me ou mercredi</span><span class="sxs-lookup"><span data-stu-id="5033f-274">we or Wednesday</span></span>|<span data-ttu-id="5033f-275">Mercredi de la semaine en cours 00:00:00</span><span class="sxs-lookup"><span data-stu-id="5033f-275">Wednesday of the current week 00:00:00</span></span>|  
+|<span data-ttu-id="5033f-276">je ou jeudi</span><span class="sxs-lookup"><span data-stu-id="5033f-276">th or Thursday</span></span>|<span data-ttu-id="5033f-277">Jeudi de la semaine en cours 00:00:00</span><span class="sxs-lookup"><span data-stu-id="5033f-277">Thursday of the current week 00:00:00</span></span>|  
+|<span data-ttu-id="5033f-278">ve ou vendredi</span><span class="sxs-lookup"><span data-stu-id="5033f-278">f or Friday</span></span>|<span data-ttu-id="5033f-279">Vendredi de la semaine en cours 00:00:00</span><span class="sxs-lookup"><span data-stu-id="5033f-279">Friday of the current week 00:00:00</span></span>|  
+|<span data-ttu-id="5033f-280">sa ou samedi</span><span class="sxs-lookup"><span data-stu-id="5033f-280">s or Saturday</span></span>|<span data-ttu-id="5033f-281">Samedi de la semaine en cours 00:00:00</span><span class="sxs-lookup"><span data-stu-id="5033f-281">Saturday of the current week 00:00:00</span></span>|  
+|<span data-ttu-id="5033f-282">di ou dimanche</span><span class="sxs-lookup"><span data-stu-id="5033f-282">su or Sunday</span></span>|<span data-ttu-id="5033f-283">Dimanche de la semaine en cours 00:00:00</span><span class="sxs-lookup"><span data-stu-id="5033f-283">Sunday of the current week 00:00:00</span></span>|  
+|<span data-ttu-id="5033f-284">ma 10:30</span><span class="sxs-lookup"><span data-stu-id="5033f-284">tu 10:30</span></span>|<span data-ttu-id="5033f-285">Mardi de la semaine en cours 10:30:00</span><span class="sxs-lookup"><span data-stu-id="5033f-285">Tuesday of the current week 10:30:00</span></span>|  
+|<span data-ttu-id="5033f-286">ma 3:3:3</span><span class="sxs-lookup"><span data-stu-id="5033f-286">tu 3:3:3</span></span>|<span data-ttu-id="5033f-287">Mardi de la semaine en cours 03:03:03</span><span class="sxs-lookup"><span data-stu-id="5033f-287">Tuesday of the current week 03:03:03</span></span>|  
 
-## <a name="entering-duration"></a><span data-ttu-id="e865c-225">Saisie des durées</span><span class="sxs-lookup"><span data-stu-id="e865c-225">Entering Duration</span></span>  
- <span data-ttu-id="e865c-226">Vous devez saisir les durées sous la forme d'un chiffre suivi d'une unité de mesure.</span><span class="sxs-lookup"><span data-stu-id="e865c-226">You enter a duration as a number followed by its unit of measure.</span></span>  
+## <a name="entering-duration"></a><span data-ttu-id="5033f-288">Saisie des durées</span><span class="sxs-lookup"><span data-stu-id="5033f-288">Entering Duration</span></span>
 
- <span data-ttu-id="e865c-227">Voilà quelques exemples.</span><span class="sxs-lookup"><span data-stu-id="e865c-227">Here are some examples.</span></span>  
+<span data-ttu-id="5033f-289">Vous devez saisir les durées sous la forme d'un chiffre suivi d'une unité de mesure.</span><span class="sxs-lookup"><span data-stu-id="5033f-289">You enter a duration as a number followed by its unit of measure.</span></span>  
 
-|<span data-ttu-id="e865c-228">Durée</span><span class="sxs-lookup"><span data-stu-id="e865c-228">Duration</span></span>|<span data-ttu-id="e865c-229">Unité\*\*</span><span class="sxs-lookup"><span data-stu-id="e865c-229">Unit of measure\*\*</span></span>|  
+<span data-ttu-id="5033f-290">Voilà quelques exemples.</span><span class="sxs-lookup"><span data-stu-id="5033f-290">Here are some examples.</span></span>  
+
+|<span data-ttu-id="5033f-291">Durée</span><span class="sxs-lookup"><span data-stu-id="5033f-291">Duration</span></span>|<span data-ttu-id="5033f-292">Unité\*\*</span><span class="sxs-lookup"><span data-stu-id="5033f-292">Unit of measure\*\*</span></span>|  
 |------------------|-------------------------|  
-|<span data-ttu-id="e865c-230">2h</span><span class="sxs-lookup"><span data-stu-id="e865c-230">2h</span></span>|<span data-ttu-id="e865c-231">2 heures</span><span class="sxs-lookup"><span data-stu-id="e865c-231">2 hrs</span></span>|  
-|<span data-ttu-id="e865c-232">6h 30m</span><span class="sxs-lookup"><span data-stu-id="e865c-232">6h 30 m</span></span>|<span data-ttu-id="e865c-233">6 heures 30 minutes</span><span class="sxs-lookup"><span data-stu-id="e865c-233">6 hrs 30 mins</span></span>|  
-|<span data-ttu-id="e865c-234">6,5h</span><span class="sxs-lookup"><span data-stu-id="e865c-234">6.5h</span></span>|<span data-ttu-id="e865c-235">6 heures 30 minutes</span><span class="sxs-lookup"><span data-stu-id="e865c-235">6 hrs 30 mins</span></span>|  
-|<span data-ttu-id="e865c-236">90m</span><span class="sxs-lookup"><span data-stu-id="e865c-236">90m</span></span>|<span data-ttu-id="e865c-237">1 heure 30 minutes</span><span class="sxs-lookup"><span data-stu-id="e865c-237">1 hr 30 mins</span></span>|  
-|<span data-ttu-id="e865c-238">2j 6h 30m</span><span class="sxs-lookup"><span data-stu-id="e865c-238">2d 6h 30m</span></span>|<span data-ttu-id="e865c-239">2 jours 6 heures 30 minutes</span><span class="sxs-lookup"><span data-stu-id="e865c-239">2 days 6 hrs 30 mins</span></span>|  
-|<span data-ttu-id="e865c-240">2j 6h 30m 56s 600ms</span><span class="sxs-lookup"><span data-stu-id="e865c-240">2d 6h 30m 56s 600ms</span></span>|<span data-ttu-id="e865c-241">2 jours 6 h 30 m 56 s 600 ms</span><span class="sxs-lookup"><span data-stu-id="e865c-241">2 days 6 hrs 30 mins 56 secs 600 msecs</span></span>|  
+|<span data-ttu-id="5033f-293">2h</span><span class="sxs-lookup"><span data-stu-id="5033f-293">2h</span></span>|<span data-ttu-id="5033f-294">2 heures</span><span class="sxs-lookup"><span data-stu-id="5033f-294">2 hrs</span></span>|  
+|<span data-ttu-id="5033f-295">6h 30m</span><span class="sxs-lookup"><span data-stu-id="5033f-295">6h 30 m</span></span>|<span data-ttu-id="5033f-296">6 heures 30 minutes</span><span class="sxs-lookup"><span data-stu-id="5033f-296">6 hrs 30 mins</span></span>|  
+|<span data-ttu-id="5033f-297">6,5h</span><span class="sxs-lookup"><span data-stu-id="5033f-297">6.5h</span></span>|<span data-ttu-id="5033f-298">6 heures 30 minutes</span><span class="sxs-lookup"><span data-stu-id="5033f-298">6 hrs 30 mins</span></span>|  
+|<span data-ttu-id="5033f-299">90m</span><span class="sxs-lookup"><span data-stu-id="5033f-299">90m</span></span>|<span data-ttu-id="5033f-300">1 heure 30 minutes</span><span class="sxs-lookup"><span data-stu-id="5033f-300">1 hr 30 mins</span></span>|  
+|<span data-ttu-id="5033f-301">2j 6h 30m</span><span class="sxs-lookup"><span data-stu-id="5033f-301">2d 6h 30m</span></span>|<span data-ttu-id="5033f-302">2 jours 6 heures 30 minutes</span><span class="sxs-lookup"><span data-stu-id="5033f-302">2 days 6 hrs 30 mins</span></span>|  
+|<span data-ttu-id="5033f-303">2j 6h 30m 56s 600ms</span><span class="sxs-lookup"><span data-stu-id="5033f-303">2d 6h 30m 56s 600ms</span></span>|<span data-ttu-id="5033f-304">2 jours 6 h 30 m 56 s 600 ms</span><span class="sxs-lookup"><span data-stu-id="5033f-304">2 days 6 hrs 30 mins 56 secs 600 msecs</span></span>|  
 
- <span data-ttu-id="e865c-242">Vous pouvez également saisir un nombre automatiquement converti en durée.</span><span class="sxs-lookup"><span data-stu-id="e865c-242">You can also enter a number and it is automatically converted to a duration.</span></span> <span data-ttu-id="e865c-243">Le nombre saisi est converti en fonction de l'unité de mesure par défaut spécifiée pour le champ de durée.</span><span class="sxs-lookup"><span data-stu-id="e865c-243">The number you enter is converted according to the default unit of measure that has been specified for the duration field.</span></span>  
+ <span data-ttu-id="5033f-305">Vous pouvez également saisir un nombre automatiquement converti en durée.</span><span class="sxs-lookup"><span data-stu-id="5033f-305">You can also enter a number and it is automatically converted to a duration.</span></span> <span data-ttu-id="5033f-306">Le nombre saisi est converti en fonction de l'unité de mesure par défaut spécifiée pour le champ de durée.</span><span class="sxs-lookup"><span data-stu-id="5033f-306">The number you enter is converted according to the default unit of measure that has been specified for the duration field.</span></span>  
 
- <span data-ttu-id="e865c-244">Pour connaître l'unité de mesure utilisée pour un champ de durée, saisissez un nombre et observez l'unité de mesure dans laquelle il est convertit.</span><span class="sxs-lookup"><span data-stu-id="e865c-244">To see what unit of measure is being used in a duration field, enter a number and see which unit of measure it is converted to.</span></span>  
+ <span data-ttu-id="5033f-307">Pour connaître l'unité de mesure utilisée pour un champ de durée, saisissez un nombre et observez l'unité de mesure dans laquelle il est convertit.</span><span class="sxs-lookup"><span data-stu-id="5033f-307">To see what unit of measure is being used in a duration field, enter a number and see which unit of measure it is converted to.</span></span>  
 
- <span data-ttu-id="e865c-245">Si l'unité est « heures », 5 est converti en 5h.</span><span class="sxs-lookup"><span data-stu-id="e865c-245">The number 5 is converted to 5 hrs, if the unit of measure is hours.</span></span>  
+ <span data-ttu-id="5033f-308">Si l'unité est « heures », 5 est converti en 5h.</span><span class="sxs-lookup"><span data-stu-id="5033f-308">The number 5 is converted to 5 hrs, if the unit of measure is hours.</span></span>  
 
 <!--OnPrem  ##  <a name="BKMK_SettingDateRanges"></a> Setting Date Ranges  
  You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges.  
@@ -192,70 +241,72 @@ ms.locfileid: "852508"
 |**Sample expression**|**Entries included**|  
 |---------------------------|--------------------------|  
 |12 15 00&#124;12 01 00..12 10 00|Entries posted either on 12 15 00 or on dates between and including 12 01 00 and 12 10 00.|  
-|..12 14 00&#124;12 30 00..|Entries posted on 12 14 00 or earlier, or entries posted on 12 30 00 or later - that is, all entries except those posted on dates between and including 12 15 00 and 12 29 00.|  -->
+|..12 14 00&#124;12 30 00..|Entries posted on 12 14 00 or earlier, or entries posted on 12 30 00 or later - that is, all entries except those posted on dates between and including 12 15 00 and 12 29 00.|
 
-## <a name="using-date-formulas"></a><span data-ttu-id="e865c-246">Utilisation de formules date</span><span class="sxs-lookup"><span data-stu-id="e865c-246">Using Date Formulas</span></span>  
- <span data-ttu-id="e865c-247">Une formule date est une combinaison abrégée de lettres et de nombres qui spécifie comment calculer les dates.</span><span class="sxs-lookup"><span data-stu-id="e865c-247">A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates.</span></span> <span data-ttu-id="e865c-248">Vous pouvez entrer des formules date dans divers champs de calcul de date et dans les champs périodicité récurrente des feuilles récurrentes.</span><span class="sxs-lookup"><span data-stu-id="e865c-248">You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.</span></span>  
+## Using Date Formulas
+
+ A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.  
 
 > [!NOTE]  
->  <span data-ttu-id="e865c-249">Dans tous les champs formule de données, un jour est automatiquement inclus pour couvrir le jour de début de la période.</span><span class="sxs-lookup"><span data-stu-id="e865c-249">In all data formula fields, one day is automatically included to cover today as the day when the period starts.</span></span> <span data-ttu-id="e865c-250">Par conséquent, si vous saisissez 1s, par exemple, la période est bien huit jours parce que aujourd'hui est inclus.</span><span class="sxs-lookup"><span data-stu-id="e865c-250">Accordingly, if you enter 1W, for example, then the period is actually eight days because today is included.</span></span> <span data-ttu-id="e865c-251">Pour définir une période de sept jours (une vraie semaine) avec la date début de la période, vous devez saisir 6D ou 1W-1D.</span><span class="sxs-lookup"><span data-stu-id="e865c-251">To specify a period of seven days (one true week) including the period starting date, then you must enter 6D or 1W-1D.</span></span>  
+>  In all data formula fields, one day is automatically included to cover today as the day when the period starts. Accordingly, if you enter 1W, for example, then the period is actually eight days because today is included. To specify a period of seven days (one true week) including the period starting date, then you must enter 6D or 1W-1D.  
 
- <span data-ttu-id="e865c-252">Voici quelques exemples d'utilisation de formules date :</span><span class="sxs-lookup"><span data-stu-id="e865c-252">Here are some examples of how date formulas can be used:</span></span>  
+ Here are some examples of how date formulas can be used:  
 
--   <span data-ttu-id="e865c-253">La formule date du champ périodicité récurrente des feuilles récurrentes détermine la fréquence de validation de l'écriture de la ligne feuille.</span><span class="sxs-lookup"><span data-stu-id="e865c-253">The date formula in the recurring frequency field in recurring journals determines how often the entry on the journal line will be posted.</span></span>  
+-   The date formula in the recurring frequency field in recurring journals determines how often the entry on the journal line will be posted.  
 
--   <span data-ttu-id="e865c-254">La formule date du champ Période de carence pour un niveau de relance précis détermine la période qui doit se passer entre la date d'échéance (ou la date de la relance précédente) avant la création d'une nouvelle relance.</span><span class="sxs-lookup"><span data-stu-id="e865c-254">The date formula in the Grace Period field for a specified reminder level determines the period of time that must pass from the due date (or from the date of the previous reminder) before a reminder will be created.</span></span>  
+-   The date formula in the Grace Period field for a specified reminder level determines the period of time that must pass from the due date (or from the date of the previous reminder) before a reminder will be created.  
 
--   <span data-ttu-id="e865c-255">La formule date du champ Calcul date échéance détermine la manière dont la date d'échéance de la relance est calculée.</span><span class="sxs-lookup"><span data-stu-id="e865c-255">The date formula in the Due Date Calculation field determines how to calculate the due date on the reminder.</span></span>  
+-   The date formula in the Due Date Calculation field determines how to calculate the due date on the reminder.  
 
- <span data-ttu-id="e865c-256">La formule de calcul de la date peut comprendre un maximum de 20 caractères, des chiffres et des lettres.</span><span class="sxs-lookup"><span data-stu-id="e865c-256">The date calculation formula can contain a maximum of 20 characters, both numbers and letters.</span></span> <span data-ttu-id="e865c-257">Vous pouvez utiliser les lettres suivantes qui sont des abréviations de spécifications de temps.</span><span class="sxs-lookup"><span data-stu-id="e865c-257">You can use the following letters, which are abbreviations for time specifications.</span></span>  
-
-|||  
-|-|-|  
-|<span data-ttu-id="e865c-258">C</span><span class="sxs-lookup"><span data-stu-id="e865c-258">C</span></span>|<span data-ttu-id="e865c-259">Courant</span><span class="sxs-lookup"><span data-stu-id="e865c-259">Current</span></span>|  
-|<span data-ttu-id="e865c-260">J</span><span class="sxs-lookup"><span data-stu-id="e865c-260">D</span></span>|<span data-ttu-id="e865c-261">Jour(s)</span><span class="sxs-lookup"><span data-stu-id="e865c-261">Day(s)</span></span>|  
-|<span data-ttu-id="e865c-262">S</span><span class="sxs-lookup"><span data-stu-id="e865c-262">W</span></span>|<span data-ttu-id="e865c-263">Semaine(s)</span><span class="sxs-lookup"><span data-stu-id="e865c-263">Week(s)</span></span>|  
-|<span data-ttu-id="e865c-264">M</span><span class="sxs-lookup"><span data-stu-id="e865c-264">M</span></span>|<span data-ttu-id="e865c-265">Mois</span><span class="sxs-lookup"><span data-stu-id="e865c-265">Month(s)</span></span>|  
-|<span data-ttu-id="e865c-266">T</span><span class="sxs-lookup"><span data-stu-id="e865c-266">Q</span></span>|<span data-ttu-id="e865c-267">Trimestre(s)</span><span class="sxs-lookup"><span data-stu-id="e865c-267">Quarter(s)</span></span>|  
-|<span data-ttu-id="e865c-268">A</span><span class="sxs-lookup"><span data-stu-id="e865c-268">Y</span></span>|<span data-ttu-id="e865c-269">Année(s)</span><span class="sxs-lookup"><span data-stu-id="e865c-269">Year(s)</span></span>|  
-
- <span data-ttu-id="e865c-270">Vous pouvez construire la formule date de trois manières.</span><span class="sxs-lookup"><span data-stu-id="e865c-270">You can construct a date formula in three ways.</span></span>  
-
- <span data-ttu-id="e865c-271">L'exemple suivant indique comment définir un courant plus unité temporelle.</span><span class="sxs-lookup"><span data-stu-id="e865c-271">The following example shows how current plus a time unit.</span></span>  
+ The date calculation formula can contain a maximum of 20 characters, both numbers and letters. You can use the following letters, which are abbreviations for time specifications.  
 
 |||  
 |-|-|  
-|<span data-ttu-id="e865c-272">CS</span><span class="sxs-lookup"><span data-stu-id="e865c-272">CW</span></span>|<span data-ttu-id="e865c-273">Semaine en cours</span><span class="sxs-lookup"><span data-stu-id="e865c-273">Current week</span></span>|  
-|<span data-ttu-id="e865c-274">CM</span><span class="sxs-lookup"><span data-stu-id="e865c-274">CM</span></span>|<span data-ttu-id="e865c-275">Mois en cours</span><span class="sxs-lookup"><span data-stu-id="e865c-275">Current month</span></span>|  
+|C|Current|  
+|D|Day(s)|  
+|W|Week(s)|  
+|M|Month(s)|  
+|Q|Quarter(s)|  
+|Y|Year(s)|  
 
- <span data-ttu-id="e865c-276">L'exemple suivant indique comment définir un chiffre et une unité de temps.</span><span class="sxs-lookup"><span data-stu-id="e865c-276">The following example shows how a number and a time unit.</span></span> <span data-ttu-id="e865c-277">Un chiffre ne peut pas être supérieur à 9999.</span><span class="sxs-lookup"><span data-stu-id="e865c-277">A number cannot be larger than 9999.</span></span>  
+ You can construct a date formula in three ways.  
 
-|||  
-|-|-|  
-|<span data-ttu-id="e865c-278">10J</span><span class="sxs-lookup"><span data-stu-id="e865c-278">10D</span></span>|<span data-ttu-id="e865c-279">10 jours à dater d'aujourd'hui</span><span class="sxs-lookup"><span data-stu-id="e865c-279">10 days from today</span></span>|  
-|<span data-ttu-id="e865c-280">2S</span><span class="sxs-lookup"><span data-stu-id="e865c-280">2W</span></span>|<span data-ttu-id="e865c-281">2 semaines à dater d'aujourd'hui</span><span class="sxs-lookup"><span data-stu-id="e865c-281">2 weeks from today</span></span>|  
-
- <span data-ttu-id="e865c-282">L'exemple suivant indique comment définir une unité de temps et un chiffre.</span><span class="sxs-lookup"><span data-stu-id="e865c-282">The following example shows how a time unit and a number.</span></span>  
-
-|||  
-|-|-|  
-|<span data-ttu-id="e865c-283">J10</span><span class="sxs-lookup"><span data-stu-id="e865c-283">D10</span></span>|<span data-ttu-id="e865c-284">Le dixième jour du mois suivant</span><span class="sxs-lookup"><span data-stu-id="e865c-284">The next 10th day of a month</span></span>|  
-|<span data-ttu-id="e865c-285">JS4</span><span class="sxs-lookup"><span data-stu-id="e865c-285">WD4</span></span>|<span data-ttu-id="e865c-286">Le quatrième jour de la semaine (jeudi)</span><span class="sxs-lookup"><span data-stu-id="e865c-286">The next 4th day of a week (Thursday)</span></span>|  
-
- <span data-ttu-id="e865c-287">L'exemple suivant indique comment combiner ces trois formules.</span><span class="sxs-lookup"><span data-stu-id="e865c-287">The following example shows how you can combine these three forms as needed.</span></span>  
+ The following example shows how current plus a time unit.  
 
 |||  
 |-|-|  
-|<span data-ttu-id="e865c-288">CM+10J</span><span class="sxs-lookup"><span data-stu-id="e865c-288">CM+10D</span></span>|<span data-ttu-id="e865c-289">Mois en cours + 10 jours</span><span class="sxs-lookup"><span data-stu-id="e865c-289">Current month + 10 days</span></span>|  
+|CW|Current week|  
+|CM|Current month|  
 
- <span data-ttu-id="e865c-290">L'exemple ci-dessous illustre comment vous pouvez utiliser le signe moins pour indiquer une date du passé.</span><span class="sxs-lookup"><span data-stu-id="e865c-290">The following example shows how you can use a minus sign to indicate a date in the past.</span></span>  
+ The following example shows how a number and a time unit. A number cannot be larger than 9999.  
 
 |||  
 |-|-|  
-|<span data-ttu-id="e865c-291">-1A</span><span class="sxs-lookup"><span data-stu-id="e865c-291">-1Y</span></span>|<span data-ttu-id="e865c-292">Il y a 1 an à dater d'aujourd'hui</span><span class="sxs-lookup"><span data-stu-id="e865c-292">1 year ago from today</span></span>|  
+|10D|10 days from today|  
+|2W|2 weeks from today|  
 
-<!--OnPrem > [!CAUTION]  
->  If the location uses a base calendar, then the date formula that you enter in, for example, the **Shipping Time** field is interpreted according to the calendar working days. For example, a 1W means seven working days. For more information, see Base Calendar Card.-->  
-## <a name="see-also"></a><span data-ttu-id="e865c-293">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="e865c-293">See Also</span></span>  
- [<span data-ttu-id="e865c-294">Tri, recherche et filtrage de listes</span><span class="sxs-lookup"><span data-stu-id="e865c-294">Sorting, Searching, and Filtering Lists</span></span>](ui-enter-criteria-filters.md)  
- <span data-ttu-id="e865c-295">[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="e865c-295">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+ The following example shows how a time unit and a number.  
+
+|||  
+|-|-|  
+|D10|The next 10th day of a month|  
+|WD4|The next 4th day of a week (Thursday)|  
+
+ The following example shows how you can combine these three forms as needed.  
+
+|||  
+|-|-|  
+|CM+10D|Current month + 10 days|  
+
+ The following example shows how you can use a minus sign to indicate a date in the past.  
+
+|||  
+|-|-|  
+|-1Y|1 year ago from today|
+
+[!CAUTION]  
+>  If the location uses a base calendar, then the date formula that you enter in, for example, the **Shipping Time** field is interpreted according to the calendar working days. For example, a 1W means seven working days. For more information, see Base Calendar Card.-->
+
+## <a name="see-also"></a><span data-ttu-id="5033f-309">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="5033f-309">See Also</span></span>  
+ [<span data-ttu-id="5033f-310">Tri, recherche et filtrage de listes</span><span class="sxs-lookup"><span data-stu-id="5033f-310">Sorting, Searching, and Filtering Lists</span></span>](ui-enter-criteria-filters.md)  
+ <span data-ttu-id="5033f-311">[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="5033f-311">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
