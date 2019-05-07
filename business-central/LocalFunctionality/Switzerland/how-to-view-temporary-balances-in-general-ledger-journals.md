@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f89b0bbbe705bc0e71da8e480176956de515e45a
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 52e710b214df717434a3fc2090f7dfac46c5d77b
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "827251"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "911097"
 ---
 # <a name="view-temporary-balances-in-general-ledger-journals"></a>Afficher les soldes temporaires dans les feuilles comptabilisation immobilisation
 Lorsque vous entrez une nouvelle transaction dans la feuille comptabilité, vous pouvez afficher les soldes temporaires qui indiquent comment les soldes du compte général sont affectés en validant la feuille. Vous pouvez consulter les détails de solde du compte et le compteur pour la ligne feuille active. Vous pouvez également afficher les valeurs non validées pour la feuille.  

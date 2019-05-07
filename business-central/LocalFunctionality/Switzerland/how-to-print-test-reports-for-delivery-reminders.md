@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e83d3d039af77772626b75052acb17abf4fb3dd7
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: aabfee8dddb4655c9c68f41e4cf1f1a5af479f87
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "827299"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "941250"
 ---
 # <a name="print-test-reports-for-delivery-reminders"></a>Imprimer des rapports de test pour les relances livraison
 Après avoir créé les relances livraison et effectué toutes les modifications souhaitées, vous pouvez lancer les impressions test ou émettre les relances livraison.  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b13e55ad615dc31e17d479e011cf81b544ef5a3e
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 4f19be630e7007f72a537dba1d09b33afef3af18
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "827268"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "931019"
 ---
 # <a name="print-sales-and-purchase-orders-during-batch-posting"></a>Imprimer les commandes achat et vente lors d'une validation par lots
 Une fois les commandes vente et achat validées par lots, vous pouvez imprimer les documents validés correspondants.  

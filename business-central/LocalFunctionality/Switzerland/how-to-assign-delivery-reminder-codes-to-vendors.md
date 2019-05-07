@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 55d364650b9ac3942ad8e643ff3cac693a39261e
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 87971c933174a547cc11ca821138e2f8afcb612e
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "827286"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "921599"
 ---
 # <a name="assign-delivery-reminder-codes-to-vendors"></a>Affecter des codes de relance livraison à des fournisseurs
 Afin que vous puissiez activer les relances livraison pour les achats en retard, vous devez affecter des conditions de relance livraison à des fournisseurs. Pour plus d'informations, voir [Relances livraison](delivery-reminders.md).  
