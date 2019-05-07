@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 88e715ddd2c60c3eb780ffe71d80676fdea00209
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: c1f8f0bf70a72944d216f2b948224cd9f706bdff
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "821185"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "934250"
 ---
 # <a name="update-standard-costs"></a>Mise à jour des coûts standard
 Vous devez régulièrement mettre à jour les coûts standard des composants et remonter les nouveaux coûts dans l'article parent. Le processus comprend généralement les quatre étapes suivantes :  

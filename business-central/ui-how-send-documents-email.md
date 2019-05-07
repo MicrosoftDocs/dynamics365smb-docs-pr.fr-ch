@@ -9,19 +9,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 591ec86980240b8ffcfda0cf51debe571e327299
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: fcae17577b448b4271adee299874cf5cad9da79f
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "821206"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "938218"
 ---
 # <a name="send-documents-by-email"></a>Envoyer des documents par e-mail
 Pour communiquer le contenu des documents commerciaux rapidement à vos partenaires commerciaux, par exemple les informations paiement sur les documents vente aux clients, vous pouvez utiliser la fonctionnalité de présentation des états pour définir le contenu spécifique aux documents qui est automatiquement inséré au corps du message. Pour plus d'informations, voir [Gestion des présentations de rapport et de document](ui-manage-report-layouts.md).
 
-Pour activer les emails au sein de [!INCLUDE[d365fin](includes/d365fin_md.md)], démarrez la configuration assistée **Configurer la messagerie** sur le tableau de bord.
+Pour activer les emails au sein de [!INCLUDE[d365fin](includes/d365fin_md.md)], démarrez le guide de configuration assistée **Configurer la messagerie** sur le tableau de bord.
 
 Vous pouvez envoyer en pièce jointe à des e-mails virtuellement tous les types de documents directement à partir de la page qui affiche le document. Outre la pièce jointe, vous pouvez configurer des corps de message spécifique à des documents, avec des informations de base du document précédées d'un texte standard de salutations au destinataire du message et de présentation du document en question. Pour proposer à vos clients de payer les ventes par voie électronique à l'aide d'un service de paiement, comme Paypal par exemple, vous pouvez insérer les informations et le lien hypertexte Paypal dans le corps du message.
 

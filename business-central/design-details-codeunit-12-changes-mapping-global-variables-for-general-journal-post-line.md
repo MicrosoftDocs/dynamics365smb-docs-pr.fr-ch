@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9cb19558c8c441eac188504e798ca36d86b599d5
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: dd0246ada487fd59c51dcef7adb59becdd9ccefd
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "821127"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "933878"
 ---
 # <a name="codeunit-12-changes-mapping-global-variables-for-general-journal-post-line"></a>Codeunit 12 modifications : variables globales de mappage pour la ligne de validation de feuille comptabilité
 Les modifications suivantes ont été mises en œuvre dans cette version de [!INCLUDE[d365fin](includes/d365fin_md.md)].  

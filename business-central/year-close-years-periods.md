@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 8ecd532a043ad53b7a1d5d6c38e87a7102407003
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 13f8d163a15424acdf47849551a16fd1a34f4205
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "820294"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "934156"
 ---
 # <a name="closing-years-and-periods"></a>Clôture des exercices et des périodes
 À la fin d'un exercice comptable, vous devez exécuter un certain nombre de tâches administratives, par exemple vous assurer que tous les documents et les feuilles sont validés veillant, que les données de devise sont à jour, que les livres sont clôturés, et plus. Les tâches réelles dépendent de votre société.

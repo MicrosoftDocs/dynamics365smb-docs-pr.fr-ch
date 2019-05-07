@@ -10,28 +10,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: aaeb98aa5e3c48a92be71546be33b1494a751cb9
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 75f055dcc862f3954aa0c50d6d22643940baa538
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "820320"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "938980"
 ---
-# <a name="creating-contacts"></a>Création de contacts
-Votre société rencontre régulièrement des sociétés prospects qui deviennent généralement des relations d'affaires. Lorsqu'un nouveau contact est établi, ces informations doivent être enregistrées afin que la communication puisse continuer.
+# <a name="create-contacts"></a>Créez des contacts
+Vous rencontrez régulièrement des personnes d'autres sociétés, ce qui peut générer de nouvelles relations commerciales, comme une relation client. À la création d'un tel contact, il convient d'enregistrer le plus d'informations possible sur une fiche contact afin que la communication puisse se poursuivre.
 
-L'affectation d'un maximum de données à propos d'une société spécifique assure une communication efficace. Par exemple, spécifier le secteur d'activité approprié permet de s'assurer que des sociétés spécifiques sont ciblées par une communication donnée. Vous pouvez également définir la relation d'affaires que vous avez avec un contact. Par exemple, un contact peut être un prospect, une banque ou un contractant.
+## <a name="person-or-company"></a>Personne ou société
+Vous pouvez décider de configurer un contact comme une personne ou société, généralement si vous connaissez le nom du contact au moment de la création. Vous y parvenez en complétant le champ **Type** sur la page **Fiche contact**. Vous pouvez également conserver les fiches contact pour une société et une ou plusieurs personnes travaillant au sein de la société. Cela se produit automatiquement lorsque vous complétez le champ **Nom de la société** sur une fiche contact de type **Personne**.
 
-> [!NOTE]
-> Dans le champ **Type** sur la page **Fiche contact**, vous pouvez configurer un contact comme une personne ou société, généralement selon que vous connaissez le nom du contact au moment de la création. La fonctionnalité est la même pour les deux types, sauf pour certains types d'informations supplémentaires qui peuvent être affectés. Vous pouvez modifier la valeur du champ ultérieurement, ou vous pouvez utiliser les champs de l'organisateur **Héritage** sur la page **Paramètres marketing** pour contrôler les données partagées entre une personne et la société associée.
-
-Vous pouvez créer un contact pour chaque nouvelle personne ou société avec laquelle vous êtes en contact, par exemple un client, un fournisseur, un prospect, une banque, un cabinet d'avocats ou un consultant.
-
-Vous pouvez créer un contact de deux manières :
- * Manuellement.
- * À partir d'un client, fournisseur ou compte bancaire existant.
+La fonctionnalité est la même pour les deux types, hormis le fait que les options pour des informations supplémentaires changent selon le type. Par exemple, vous pouvez affecter des responsabilités uniquement à une personne et un groupe d'activité à une société. Cela est indiqué dans l'interface utilisateur en faisant apparaître en gris les champs et les actions qui ne s'appliquent pas. Vous pouvez modifier la valeur du champ **Type** ultérieurement, ou vous pouvez utiliser les champs du raccourci **Héritage** sur la page **Paramètres marketing** pour contrôler les données partagées entre une personne et la société associée. Pour plus d'informations, reportez-vous à la rubrique [Paramétrage des contacts](marketing-setup-contacts.md).
 
 ## <a name="to-create-a-contact-manually"></a>Pour créer un contact manuellement
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Contacts**, puis sélectionnez le lien associé.

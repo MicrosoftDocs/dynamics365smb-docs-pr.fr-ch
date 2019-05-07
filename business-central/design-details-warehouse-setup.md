@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0c813187ee6d11fcdb729cb64048386238406528
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 3b847791283820d8b9996f417e2bae1ca8c0e461
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "821088"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "939385"
 ---
 # <a name="design-details-warehouse-setup"></a>Détails de conception : paramètres entrepôt
 La fonctionnalité d'entrepôt dans [!INCLUDE[d365fin](includes/d365fin_md.md)] contient différents niveaux de complexité, tels que définis par les autorisations de licence dans les granules proposés. Le niveau de complexité dans une solution entrepôt est en grande partie défini par le paramétrage des emplacements sur les fiches magasin, qui est lui-même contrôlé par licence afin que l'accès aux champs de configuration de l'emplacement soit défini par la licence. En outre, les objets applicatifs de la licence déterminent le document d'interface utilisateur à utiliser pour les activités entrepôt prises en charge.  
@@ -44,7 +44,7 @@ Le tableau suivant indique les granules requis pour définir les différents niv
 |3 <br /><br /> **REMARQUE** : bien que les paramètres soient appelés **Prélèvement requis** et **Rangement requis**, vous pouvez quand même valider les réceptions et les expéditions directement à partir des documents commerciaux origine dans les magasins où vous cochez ces cases.|Activité entrepôt de base, par commande.<br /><br /> Validation recevoir/expédier à partir des documents rangement/prélèvement stock. <br /><br /> Code emplacement requis.|Rangement stock/mouvement stock/prélèvement stock, avec le code emplacement|(ARGENT + Rangement requis ou Rangement requis)|Stock de base/Emplacement/Rangement/Prélèvement|  
 |4|Activité entrepôt avancée pour plusieurs ordres/commandes.<br /><br /> Validation recevoir/expédier consolidée en fonction des enregistrements de rangement/prélèvement dans l'entrepôt.|Réception entrepôt/Stockage en entrepôt/Prélèvement entrepôt/Expédition entrepôt/Feuille prélèvement|VERT|Stock de base/Réception entrepôt/Rangement/Prélèvement/Expédition entrepôt|  
 |5|Activité entrepôt avancée pour plusieurs ordres/commandes.<br /><br /> Validation recevoir/expédier consolidée en fonction des enregistrements de rangement/prélèvement dans l'entrepôt.<br /><br /> Code emplacement requis.|Réception entrepôt/Stockage en entrepôt/Prélèvement entrepôt/Expédition entrepôt/Feuille prélèvement/Feuille stockage, avec code d'emplacement|(VERT + Emplacement obligatoire)|Stock de base/Emplacement/Réception entrepôt/Rangement/Prélèvement/Expédition entrepôt|  
-|6 <br /><br /> **Remarque** : ce niveau est appelé « WMS », car il requiert le granule le plus avancé, Warehouse Management Systems.|Activité entrepôt avancée pour plusieurs ordres/commandes<br /><br /> Validation recevoir/expédier consolidée en fonction des enregistrements de rangement/prélèvement dans l'entrepôt<br /><br /> Code emplacement requis.<br /><br /> Le code zone/classe est facultatif.<br /><br /> Magasiniers dirigés par flux de travail<br /><br /> Planification de réapprovisionnement des emplacements<br /><br /> Priorité emplacement<br /><br /> Paramétrage emplacement par capacité<br /><br /> Insertion <!-- Hand-held device integration -->|Réception entrepôt/Rangement entrepôt/Prélèvement entrepôt/Expédition entrepôt/Mouvement entrepôt/Feuille prélèvement/Feuille rangement/Entrepôt interne. Prélèvement/Rangement entrepôt interne, avec code d'emplacement/classe/zone<br /><br /> Différentes feuilles pour la gestion d'emplacement<br /><br /> Écrans ADCS|BLANC|Stock de base/Emplacement/Rangement/Réception entrepôt/Prélèvement/Expédition entrepôt/Systèmes de gestion d'entrepôt/Prélèvement interne et rangements/Paramétrage emplacement/<!-- Automated Data Capture System/ -->Paramétrage emplacement|  
+|6 <br /><br /> **Remarque** : ce niveau est appelé « WMS », car il requiert le granule le plus avancé, Warehouse Management Systems.|Activité entrepôt avancée pour plusieurs ordres/commandes<br /><br /> Validation recevoir/expédier consolidée en fonction des enregistrements de rangement/prélèvement dans l'entrepôt<br /><br /> Code emplacement requis.<br /><br /> Le code zone/classe est facultatif.<br /><br /> Magasiniers dirigés par flux de travail<br /><br /> Planification de réapprovisionnement des emplacements<br /><br /> Priorité emplacement<br /><br /> Paramétrage emplacement par capacité<br /><br /> Insertion  <!-- Hand-held device integration -->|Réception entrepôt/Rangement entrepôt/Prélèvement entrepôt/Expédition entrepôt/Mouvement entrepôt/Feuille prélèvement/Feuille rangement/Entrepôt interne. Prélèvement/Rangement entrepôt interne, avec code d'emplacement/classe/zone<br /><br /> Différentes feuilles pour la gestion d'emplacement<br /><br /> Écrans ADCS|BLANC|Stock de base/Emplacement/Rangement/Réception entrepôt/Prélèvement/Expédition entrepôt/Systèmes de gestion d'entrepôt/Prélèvement interne et rangements/Paramétrage emplacement<!-- Automated Data Capture System/ -->Paramétrage emplacement|  
 
 Pour des exemples d'utilisation des documents de l'interface utilisateur par niveau de complexité entrepôt, voir [Détails de conception : flux d'enlogement](design-details-outbound-warehouse-flow.md).  
 

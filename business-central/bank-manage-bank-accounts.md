@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reconcile
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 62b2bf8987146a69d17bd343f88d31d60a205ffb
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 25e1242541e98cc47e2fcc4f016a860ad08c635d
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "821216"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "939144"
 ---
 # <a name="managing-bank-accounts"></a>Gestion des comptes bancaires
 Vous devez rapprocher régulièrement vos écritures comptables banque dans [!INCLUDE[d365fin](includes/d365fin_md.md)] avec les transactions bancaires associées dans les comptes bancaires de votre banque, puis valider le solde sur votre compte bancaire. Vous pouvez effectuer cette tâche soit dans le cadre du traitement des paiements représentés sur un relevé bancaire dans la **Feuille rapprochement bancaire**. Vous pouvez également effectuer la tâche séparément du traitement des paiements, sur la page **Rapprochement bancaire**, où vous mettez en correspondance (rapprochez) les lignes de relevé bancaire dans le volet gauche avec vos écritures comptables compte bancaire internes dans le volet droit. Sur les deux pages, vous pouvez renseigner les informations de relevé bancaire en important un fichier ou un flux, et vous pouvez utiliser les suggestions de correspondance automatique.

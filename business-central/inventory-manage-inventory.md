@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 03/11/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: dc32b5e210332fe0fd73b6423441cb66a5c171fb
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: a4c4788f7f262dee32f489095bf1ee303ea712c5
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852485"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "939431"
 ---
 # <a name="inventory"></a>STOCKS ET EN-COURS
 Pour chaque produit physique que vous commercialisez, vous devez créer une fiche article de type **Stock**. Les articles que vous proposez aux clients, mais que vous n'avez pas en stock, peuvent être enregistrés comme articles de catalogue. Vous pouvez ensuite les convertir en articles stockés, le cas échéant. Vous pouvez augmenter ou diminuer la quantité d'un article en stock en validant directement les écritures comptables de l'article, par exemple, après un inventaire ou si vous n'enregistrez pas les achats.
@@ -40,7 +40,8 @@ Bien que les coûts soient automatiquement validés en comptabilité, il est mal
 |Conserver un aperçu des articles et simplifier la recherche et le tri des articles en les organisant par catégorie.|[Catégoriser des articles](inventory-how-categorize-items.md)|
 |Affecter des attributs de différents types de valeurs à vos articles pour vous aider à les trier et à les rechercher.|[Utiliser les attributs d'article](inventory-how-work-item-attributes.md)|
 |Créer des fiches article spéciales pour les articles que vous proposez aux clients, mais que vous n'avez pas en stock.|[Utiliser des articles de catalogue](inventory-how-work-nonstock-items.md)|
-|Effectuer un inventaire physique, faire des ajustements négatifs ou positifs, et modifier des informations, telles que le magasin ou le numéro de lot, sur des écritures comptables article.|[Inventaire, ajustement et reclassement du stock](inventory-how-count-adjust-reclassify.md)|
+|Exécutez l'inventaire physique de votre stock avec les pages **Commande de stock physique** et **Enregistrement de stock physique**.|[Faire l'inventaire à l'aide de documents](inventory-how-count-inventory-with-documents.md)|
+|Effectuer un inventaire physique, faire des ajustements négatifs ou positifs, et modifier des informations, telles que le magasin ou le numéro de lot, sur des écritures comptables article.|[Comptabiliser, ajuster et reclasser le stock avec les feuilles](inventory-how-count-adjust-reclassify.md)|
 |Afficher la disponibilité des articles par emplacement, par période, par événement de vente ou d'achat, ou encore en fonction de leur utilisation dans les nomenclatures d'assemblage ou de production.|[Voir la disponibilité des articles](inventory-how-availability-overview.md)|
 |Transférer des articles en stock entre des magasins avec des ordres de transfert pour gérer les activités entrepôt ou avec la feuille reclassement.|[Transfert de stock entre des magasins](inventory-how-transfer-between-locations.md)|
 |Réserver des articles en stock ou entrants pour les commandes vente, les commandes achat, les commandes service, les ordres d'assemblage ou les ordres de fabrication.|[Réserver des articles](inventory-how-to-reserve-items.md)|

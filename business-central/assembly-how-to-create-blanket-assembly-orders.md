@@ -1,6 +1,6 @@
 ---
 title: "Procédure : créer des ordres d'assemblage permanents | Microsoft Docs"
-description: Si le champ **Système réappro.** de la fiche client contient **Assemblage**, la méthode par défaut d'approvisionnement de l'article consiste à l'assembler à partir des composants définis et potentiellement par une ressource définie.
+description: Créez des commandes vente en cours pour les éléments d'assemblage personnalisés avant d'effectuer régulièrement les commandes vente réelles en fonction du contrat commande ouverte.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 12/20/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8796ccf6ce73ded327fad35573a2268e249fb7a7
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 06e760f10ae1b427ebc3fb9540740f126caf2d3c
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "821368"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "934690"
 ---
 # <a name="create-blanket-assembly-orders"></a>Création d'ordres d'assemblage permanents
 Vous pouvez utiliser la gestion nomenclature d'assemblage pour personnaliser un élément d'assemblage sur la demande d'un client au cours du processus de vente. Pour plus d'informations, reportez-vous à [Vente d'articles à assembler pour commande](assembly-how-to-sell-items-assembled-to-order.md).  

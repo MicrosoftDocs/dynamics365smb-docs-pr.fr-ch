@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 75cf101f7f67bdd54d6e364468fd5e4354a089af
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 188cbf7d63795167a0cbbf0b0debf904b153992d
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "820572"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "934204"
 ---
 # <a name="ship-items"></a>Expédier des articles
 Lorsque vous expédiez des articles provenant d'un entrepôt qui n'est pas configuré pour un traitement d'expédition entrepôt, enregistrez simplement l'expédition du document d'entreprise associé, comme une commande vente, une commande service, un retour vente ou un ordre de transfert sortant.

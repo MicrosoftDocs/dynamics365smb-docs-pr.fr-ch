@@ -10,23 +10,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
-ms.date: 02/26/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ea1641dd475d28fb02dda354bbf287d508e96854
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 9fa3911ceeb94d523709d1029db9527b868bc199
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "821595"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "941834"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Configurer le service de flux de la Envestnet Yodlee Bank
 Vous pouvez importer des relevés bancaires électroniques auprès de votre banque pour renseigner rapidement la page **Feuille rapprochement bancaire** de sorte à pouvoir lettrer les paiements et rapprocher le compte bancaire. Pour plus d'informations, reportez-vous à [Lettrage automatique des paiements et rapprochement des comptes bancaires](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
-Le service de flux de la banque Envestnet Yodlee est installé comme une extension de [!INCLUDE[d365fin](includes/d365fin_md.md)] et est prêt à être activé. Pour plus d'informations, voir [Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md).
-
 > [!NOTE]
-> Le service Envestnet Yodlee Bank Feeds n'est pris en charge qu'aux États-Unis, au Canada et au Royaume-Uni.<br /><br />
-> La fonctionnalité est seulement prise en charge dans la version en ligne de Business Central. Pour utiliser cette fonctionnalité sur site, vous devez obtenir un compte de cobrand d'Envestnet Yodlee.
+> Le service Envestnet Yodlee Bank Feeds est pris en charge uniquement dans la version en ligne de Business Central. Pour utiliser cette fonctionnalité sur site, vous devez obtenir un compte de cobrand d'Envestnet Yodlee.<br /><br />
+> Le service Envestnet Yodlee Bank Feeds n'est pris en charge qu'aux États-Unis, au Canada et au Royaume-Uni.
+
+Le service de flux de la banque Envestnet Yodlee est installé comme une extension de [!INCLUDE[d365fin](includes/d365fin_md.md)] en ligne et est prêt à être activé dans les pays pris en charge. Pour plus d'informations, voir [Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md).
 
 Une fois que vous avez activé le service de flux bancaire, vous devez lier le compte bancaire au compte bancaire en ligne à partir duquel proviendra le flux. Vous liez des comptes bancaires à des comptes bancaires en ligne dans chacun des scénarios suivants :
 
@@ -38,7 +38,7 @@ Une fois que vous avez activé le service de flux bancaire, vous devez lier le c
 Lorsque le service de flux bancaire est activé, vous pouvez configurer un compte bancaire de sorte à importer automatiquement de nouveaux relevés bancaires sur la page **Feuille rapprochement bancaire** toutes les deux heures. Les transactions pour les paiements qui ont déjà été validés comme lettrés et/ou rapprochés sur la page **Feuille rapprochement bancaire** ne sont pas importées. Pour en savoir plus, voir la section « Pour activer l'importation automatique des relevés bancaires ».
 
 > [!NOTE]  
-> Si vous utilisez la configuration assistée Configurer la société, certaines étapes des procédures suivantes s'effectuent automatiquement lorsque vous parvenez à la configuration de compte bancaire de la société. Pour plus d'informations, reportez-vous à [Mise en route](product-get-started.md).
+> Si vous utilisez le guide de configuration assistée Configurer la société, certaines étapes des procédures suivantes s'effectuent automatiquement lorsque vous parvenez à la configuration de compte bancaire de la société. Pour plus d'informations, reportez-vous à [Mise en route](product-get-started.md).
 
 ## <a name="to-enable-the-bank-feed-service"></a>Pour activer le service de flux bancaire
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Comptes bancaires**, puis sélectionnez le lien associé.

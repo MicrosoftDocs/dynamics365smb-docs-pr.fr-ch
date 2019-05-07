@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3b4b4a6d544b594f439b675b88176d942d8cf325
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: f7c959a44a7b27df464ce8a4c45567d036dc137f
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "821086"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "941436"
 ---
 # <a name="use-approval-workflows"></a>Utilisation des flux d'approbation
 Lorsqu'un enregistrement, tel qu'un document achat ou une fiche client, doit être approuvé par un membre de votre organisation, vous envoyez une approbation demande achat dans le cadre d'un workflow. Selon la configuration du workflow, l'approbateur approprié est informé que l'enregistrement requiert son approbation.
@@ -25,7 +25,7 @@ Vous configurez les flux d'approbation sur la page **Flux de travail**. Pour plu
 
 Outre les flux de travail approbation décrits dans cette rubrique, vous pouvez effectuer diverses autres tâches de flux de travail. Pour plus d'informations, voir [Utilisation des workflows](across-use-workflows.md).
 
-Les flux d'approbation de base pour les documents achat, les documents vente, les feuilles paiement, les fiches client et les fiches article sont prêts à être utilisés dans le cadre de la configuration assistée. Pour plus d'informations, reportez-vous à [Mise en route](product-get-started.md).
+Les flux d'approbation de base pour les documents achat, les documents vente, les feuilles paiement, les fiches client et les fiches article sont prêts à être utilisés dans le cadre de guides. Pour plus d'informations, reportez-vous à [Mise en route](product-get-started.md).
 
 ## <a name="to-request-approval-of-a-record"></a>Faire une demande d'approbation d'un enregistrement
 La tâche suivante est effectuée par un utilisateur d'approbation.

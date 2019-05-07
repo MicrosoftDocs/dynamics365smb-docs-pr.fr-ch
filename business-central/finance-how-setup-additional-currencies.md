@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: multiple currencies
-ms.date: 01/07/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 294ed8019b12287e4b4ad59d46e842e4022a637f
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 2fde5bd3cd713b0eb6a9fade1ce7916fc952934d
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "820709"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "936881"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Configurer une devise report supplémentaire
 Les sociétés opérant dans un nombre croissant de pays/régions, il est de plus en plus important qu'elles puissent consulter et générer des états de données financiers dans plusieurs devises.

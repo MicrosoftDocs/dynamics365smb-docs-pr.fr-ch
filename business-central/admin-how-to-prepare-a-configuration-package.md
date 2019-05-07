@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b1dbe67852e197ab52aff58131576ffd6b9c49c4
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: fde77f873897d801e6bf06d55d57e9406f352eed
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "820899"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "941649"
 ---
 # <a name="prepare-a-configuration-package"></a>Préparer un package configuration
-Lorsque vous configurez une nouvelle société, les relations de table sont reconnues et traitées. Les données sont importées et lettrées dans le bon ordre. Les tables d’axes analytiques sont également importées si elles sont incluses dans le package configuration.  
+Lorsque vous configurez une nouvelle société, les relations de table sont reconnues et traitées. Les données sont importées et lettrées dans le bon ordre. Les tables d’axes analytiques sont également importées si elles sont incluses dans le package configuration. Pour plus d'informations, voir [Pour importer les données client](admin-migrate-customer-data.md#to-import-customer-data). 
 
 Pour aider votre client à utiliser le package configuration, vous pouvez ajouter un questionnaire ou un ensemble de questionnaires au package. Le questionnaire peut aider le client à comprendre les différentes options de paramétrage. En général, des questionnaires sont créés pour les tables de configuration principales, lorsqu’un client a besoin d’aide supplémentaire sur la manière de sélectionner un paramètre approprié. Pour plus d'informations, voir [Collecter les valeurs de configuration client](admin-gather-customer-setup-values.md).
 

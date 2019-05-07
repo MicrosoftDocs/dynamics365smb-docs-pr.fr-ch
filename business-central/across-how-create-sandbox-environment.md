@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 02/15/2019
+ms.date: 04/01/2019
 ms.author: solsen
-ms.openlocfilehash: 91db02673c1e408927d9863af9ec6751bc33e480
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 113c081e60b825c48cfb85ae3475a713a1a1e215
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "821050"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "937961"
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
 
@@ -38,8 +38,7 @@ Vous devez disposer d'un abonnement à [!INCLUDE[d365fin](includes/d365fin_md.md
 
 5. Sélectionnez **En savoir plus** pour découvrir les scénarios que vous pouvez tester dans un environnement Sandbox. Sinon, sélectionnez **Fermer** pour accéder au tableau de bord de votre instance Sandbox [!INCLUDE[d365fin](includes/d365fin_md.md)].
 6. En haut du tableau de bord, une notification s'affiche pour vous informer qu'il s'agit d'un environnement Sandbox. Vous pouvez également voir le type de l'environnement dans la barre de titre du client.
-<!-- ![Sandbox RoleCenter Notification](./media/across-sandbox/sandbox-rolecenter-notification.png) --> 
-Dans l'environnement Sandbox, un nouvel abonné a été créé. Cet abonné est chargé avec les données de démonstration par défaut de la société CRONUS. Aucune donnée n'est copiée ou transférée à partir de l'environnement de production lors de la création de l'environnement Sandbox.
+<!-- ![Sandbox RoleCenter Notification](./media/across-sandbox/sandbox-rolecenter-notification.png) --> Dans l'environnement Sandbox, un nouvel abonné a été créé. Cet abonné est chargé avec les données de démonstration par défaut de la société CRONUS. Aucune donnée n'est copiée ou transférée à partir de l'environnement de production lors de la création de l'environnement Sandbox.
 
 7. À tout moment, vous pouvez revenir à la page **Environnement Sandbox** et réinitialiser l'environnement Sandbox.
 > [!NOTE]  

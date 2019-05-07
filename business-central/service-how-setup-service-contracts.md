@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, cost, service order
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a965721aef3769aa1e794c0edb9ffa48faf99541
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 697de344a439bb0a91b1f74acc3d8b93d2f6d5d3
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "820703"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "939191"
 ---
 # <a name="set-up-service-contracts"></a>Configurer des contrats de service
 Avant de pouvoir utiliser les contrats, vous devez définir les éléments suivants : 

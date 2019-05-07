@@ -10,19 +10,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: a68c26e94aa4adda7c1f546e57331a741dcfe94b
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: f24f1cd24a31ddbd0b455b876821ae0173a677c3
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "821657"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "969824"
 ---
 # <a name="change-which-layout-is-currently-used-on-a-report"></a>Modification de la présentation actuellement utilisée sur un rapport
 Un rapport peut être créé avec plus d'une présentation de rapport, que vous pouvez ensuite changer au besoin.
 
 Selon les présentations qui sont disponibles pour un rapport, vous pouvez choisir d'utiliser une présentation de rapport RDLC intégrée, une présentation de rapport Word, ou une présentation personnalisée. Pour plus d'informations sur les présentations de rapport RDLC et Word, les présentations intégrées et personnalisées, et plus encore, reportez-vous à [Gérer la présentation des états](ui-manage-report-layouts.md).
+
+> [!TIP]  
+> Les états de document (pas les listes) qui utilisent une mise en page d'état Word sont généralement plus rapides que ceux qui utilisent une mise en page d'état RDLC. Ainsi, si vous avez la possibilité de choisir entre une mise en page d'état Word ou RDLC pour un état de document, utilisez la mise en page d'état Word pour de meilleures performances.  
 
 ## <a name="to-change-the-layout-that-is-used-on-a-report"></a>Pour modifier la présentation qui est utilisée dans un état
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Sélection présentation état**, puis sélectionnez le lien associé.  

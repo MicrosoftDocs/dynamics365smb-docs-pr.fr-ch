@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: solsen
-ms.openlocfilehash: 64c2c714afc3e052d3323dbcbddce4ee3ab5c98d
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: ff9e2087f832d954ae403596744990a243af80c5
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852416"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "934319"
 ---
 # <a name="managing-report-and-document-layouts"></a>Gestion des présentations de rapport et de document
 Une présentation de rapport contrôle le contenu et le format du rapport, dont les champs de données d'un ensemble de données de rapport apparaissant sur le rapport et la façon ils sont organisés, le style de texte, les images, et plus encore. À partir de [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez modifier la présentation utilisée sur un rapport, créer une nouvelle présentation ou modifier les présentations existantes.
@@ -32,7 +32,7 @@ En particulier, une présentation de rapport configure ce qui suit :
 * Le logo de la société et son emplacement.
 * Paramètres de page généraux, comme les marges et les images d'arrière-plan.
 
-Un [!INCLUDE[d365fin](includes/d365fin_md.md)] peut être créé avec plusieurs présentations de rapport, que vous pouvez ensuite changer au besoin. Vous pouvez utiliser l'une des présentations d'état intégrées ou vous pouvez créer des présentations d'état personnalisées et les affecter à vos états selon vos besoins. Pour plus d'informations, voir [Créer une présentation de rapport ou de document personnalisée](ui-how-create-custom-report-layout.md).
+Un état peut être créé avec plusieurs présentations d'état, que vous pouvez ensuite changer au besoin. Vous pouvez utiliser l'une des présentations d'état intégrées ou vous pouvez créer des présentations d'état personnalisées et les affecter à vos états selon vos besoins. Pour plus d'informations, voir [Créer une présentation de rapport ou de document personnalisée](ui-how-create-custom-report-layout.md).
 
 Il existe deux types de présentations que vous pouvez utiliser pour les états : Word et RDLC.
 

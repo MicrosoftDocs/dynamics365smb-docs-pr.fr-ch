@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 4e47858bf1f7253f8fb8951fe8ea3cb611138852
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 54a7ad407ef3322ec1e02de4b20a934163a21a8e
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "821356"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "935818"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Extension Prévisions de retard de paiement  
 Une gestion efficace des créances est importante pour la santé financière générale d'une société. L'extension de prévision de retard de paiement peut vous aider à minimiser les créances ouvertes et à ajuster votre stratégie de collectes en prévoyant si les factures vente seront payées à temps. Par exemple, si un retard de paiement est prévu, vous pouvez décider d'ajuster les conditions de paiement ou le mode de règlement du client.
@@ -55,7 +55,7 @@ On the **Late Payment Prediction Setup** page you can schedule updates to paymen
 ## <a name="building-your-own-predictive-model"></a>Génération de votre propre modèle de prévision
 Vous souhaitez générer votre propre modèle de prévision ? Vous pouvez utiliser Azure Machine Learning Studio pour générer votre propre modèle prédictif et l'utiliser dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour utiliser votre propre modèle, vous devez vous abonner Azure Machine Learning. Pour plus d'informations, voir [Documentation Azure Machine Learning Studio](https://go.microsoft.com/fwlink/?linkid=861765).  
 
-Cependant, nous offrons un moyen plus facile de créer et d'utiliser votre propre modèle de prévision. Vous pouvez partager les données de vos factures avec notre expérience prévisionnelle dans Azure Machine Learning, et laisser notre expérience créer et former un modèle prédictif selon vos données. Pour partager vos données, sur la page **Configuration des prévisions de retard de paiement**, choisissez l'action **Créer mon modèle**. Ensuite, les prévisions seront basées sur votre modèle et vos données, pas les nôtres.  
+Cependant, nous offrons un moyen plus facile de créer et d'utiliser votre propre modèle de prévision. Vous pouvez partager les données de vos factures avec notre [expérience prévisionnelle pour Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2086310) dans Azure Machine Learning, et laisser notre expérience créer et former un modèle prédictif selon vos données. Pour partager vos données, sur la page **Configuration des prévisions de retard de paiement**, choisissez l'action **Créer mon modèle**. Ensuite, les prévisions seront basées sur votre modèle et vos données, pas les nôtres.  
 
 > [!Note]
 >   La qualité du modèle est importante. Lorsque notre expérience prévisionnelle utilise vos données pour former un modèle, elles déterminent la valeur de la qualité du modèle en pourcentage. La qualité du modèle indique la probabilité de précision des prévisions du modèle. Plusieurs facteurs peuvent affecter la qualité d'un modèle. Par exemple, ces facteurs peuvent être qu'il n'y avait pas assez de données, ou que les données n'avaient pas de variation suffisante. Vous pouvez afficher la qualité du modèle que vous utilisez actuellement sur la page **Configuration des prévisions de retard de paiement**. Vous pouvez également spécifier un seuil minimum pour la qualité du modèle. Les modèles avec une valeur de qualité inférieure au seuil ne produiront pas de prévisions.  

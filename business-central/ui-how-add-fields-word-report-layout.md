@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/22/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 5293b5298a2084c8cd36ae4dcc60beda75f5014e
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 5af662dcef893c04ea83f7051c63c53ec5d1e783
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "821489"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "933947"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Ajouter des champs à une présentation de rapport Word
 Un ensemble de données de rapport peut être constitué de champs affichant des étiquettes, des données et des images. Cette rubrique décrit la procédure pour ajouter des champs d'un ensemble de données de rapport à une présentation de rapport Word pour un rapport. Vous ajoutez des champs à l'aide du composant XML personnalisé Word pour l'état et en ajoutant des contrôles de contenu qui correspondent aux champs de l'ensemble de données d'état. L'ajout de champs requiert que vous ayez des connaissances sur l'ensemble des données de rapport afin que vous puissiez identifier les champs que vous souhaitez ajouter à la présentation.  
@@ -37,11 +37,11 @@ Un ensemble de données de rapport peut être constitué de champs affichant des
   
 3.  Sous l'onglet **Développeur**, sélectionnez **Volet de mappage XML**.  
   
-4.  Dans le volet **Mappage XML**, dans la liste déroulante **Partie XML personnalisée**, choisissez la partie XML personnalisée pour le rapport ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]-->, qui est généralement le dernier de la liste. Le nom de la partie XML personnalisée présente le format suivant :  
+4.  Dans le volet **Mappage XML**, dans la liste déroulante **Partie XML personnalisée**, sélectionnez la partie XML personnalisée pour l'état ADD INCLUDE,<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> qui est généralement le dernier dans la liste. Le nom de la partie XML personnalisée présente le format suivant :  
   
      urn:microsoft-dynamics-nav/reports/*report_name*/*ID*  
   
-     *report_name* est le nom qui est affecté au rapport<!--OnPrem as specified by the report's [Name Property-duplicate](../FullExperience/nav_dev_long_md.md)]-->.  
+     *report_name* désigne le nom affecté à l'état.<!--OnPrem as specified by the report's [Name Property-duplicate](../FullExperience/nav_dev_long_md.md)]-->.  
   
      *ID* est le numéro d'identification de l'état.  
   
@@ -80,7 +80,7 @@ Un ensemble de données de rapport peut être constitué de champs affichant des
  Les images s'alignent dans le coin supérieur gauche du contrôle de contenu et sont automatiquement redimensionnés proportionnellement conformément à la limite du contrôle de contenu.  
   
 > [!IMPORTANT]  
->  Vous ne pouvez ajouter que des images dont le format est pris en charge par Word (par ex., .bmp, .jpeg et .png). Si vous ajoutez une image dont le format n'est pas pris en charge par Word, vous obtenez une erreur lorsque vous exécutez le rapport à partir du client ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]-->.  
+>  Vous ne pouvez ajouter que des images dont le format est pris en charge par Word (par ex., .bmp, .jpeg et .png). Si vous ajoutez une image dont le format n'est pas pris en charge par Word, vous obtenez une erreur lorsque vous exécutez l'état à partir du client ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> .  
   
 #### <a name="to-add-an-image"></a>Pour ajouter une image  
   

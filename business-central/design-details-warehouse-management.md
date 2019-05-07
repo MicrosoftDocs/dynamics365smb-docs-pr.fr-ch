@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 37c432a121c8105fbe982a4f8968094105530e3a
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 2f6a84e015ccfd625f3b902281bd8ec59150540f
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "820650"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "937024"
 ---
 # <a name="design-details-warehouse-management"></a>Détails de conception : gestion d'entrepôt
 Cette documentation donne un aperçu des concepts et principes et qui sont utilisés dans les fonctionnalités de Warehouse Management dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Elle explique la conception derrière les fonctions entrepôt centrales et la manière dont l'entreposage s'intègre à d'autres fonctionnalités de chaîne d'approvisionnement.  

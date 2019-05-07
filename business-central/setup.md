@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 10/01/2018
+ms.date: 04/05/2019
 ms.author: edupont
-ms.openlocfilehash: 3085ef58adf25ae7212ac17894fa54e5c2f8794e
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 3139273b09a223c84c452b5fbe2ee8b637a4c493
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852094"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "969847"
 ---
 # <a name="setting-up-included365finincludesd365finmdmd"></a>Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] comprend des configurations standard pour la plupart des processus entreprise, mais vous pouvez les modifier pour les adapter aux besoins de votre société.
@@ -27,7 +27,7 @@ Par exemple, votre plan comptable est prérempli avec un certain nombre de compt
 > [!NOTE]
 > Vous pouvez configurer une nouvelle société dans [!INCLUDE[d365fin](includes/d365fin_md.md)] avec RapidStart Services, qui est un outil conçu pour réduire les temps de déploiement, améliorer la qualité de l’implémentation, présenter une approche reproductible des implémentations et augmenter la productivité en automatisant et en simplifiant des tâches récurrentes. Pour plus d'informations, voir [Configuration d'une société avec RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
-Certaines fonctionnalités (générales ou pour des processus d'entreprise spécifiques), peuvent être créées manuellement en plus de la configuration assistée. Voici une partie des fonctionnalités qui vous pouvez paramétrer manuellement.
+Certaines fonctionnalités (générales ou pour des processus d'entreprise spécifiques), peuvent être créées manuellement en plus du guide de configuration assistée. Voici une partie des fonctionnalités qui vous pouvez paramétrer manuellement.
 
 | Pour | Voir |
 | --- | --- |
@@ -48,7 +48,7 @@ Certaines fonctionnalités (générales ou pour des processus d'entreprise spéc
 |Obtenez un aperçu de vos données Business Central avec Power BI et les packs de contenu Business Central.|[Activation de vos données commerciales pour Power BI](admin-powerbi.md)|
 |Utilisez vos données Business Central en tant que partie du flux de travail dans Microsoft Flow.|[Utilisation de Business Central dans un flux automatisé](across-how-use-financials-data-source-flow.md)|
 |Rendez vos données Business Central disponibles sous forme de source de données dans PowerApps.|[Connexion à vos données Business Central pour générer un application professionnelle à l'aide de PowerApps](across-how-use-financials-data-source-powerapps.md)|
-|Utilisez des guides dédiés de migration Quickbooks.|[Changement d'une application QuickBooks à Business Central](across-quickbooks-to-business-edition.md)|
+|Utilisez des guides dédiés de migration Quickbooks.|[Passage d'une application QuickBooks à Business Central](across-quickbooks-to-business-edition.md)|
 |Accédez à vos données Business Central à partir de votre périphérique mobile.|[Obtention de Business Central sur votre périphérique mobile](install-mobile-app.md)|
 |Effectuez la facturation en vrac des rendez-vous créés dans Bookings.|[Facturation en vrac pour Microsoft Bookings](finance-bookings.md)|
 |Configurer un serveur SMTP pour activer une communication entrante et sortante de [!INCLUDE[d365fin](includes/d365fin_md.md)] par e-mail.| [Paramétrer la messagerie manuellement ou à l'aide de la configuration assistée](admin-how-setup-email.md)|
@@ -58,18 +58,18 @@ Certaines fonctionnalités (générales ou pour des processus d'entreprise spéc
 Certaines zones nécessitent que vous soyez un administrateur dans votre abonnement [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, voir [Administration](admin-setup-and-administration.md).  
 
 ## <a name="see-also"></a>Voir aussi
+
 [Administration](admin-setup-and-administration.md)  
 [Finances](finance.md)  
 [Ventes](sales-manage-sales.md)  
 [Achats](purchasing-manage-purchasing.md)  
-[STOCKS ET EN-COURS](inventory-manage-inventory.md)    
+[Stock](inventory-manage-inventory.md)  
 [Gestion de projets](projects-manage-projects.md)  
-[COMPTES D'IMMOBILISATIONS](fa-manage.md)    
+[Immobilisations](fa-manage.md)  
 [Gestion des assemblages](assembly-assemble-items.md)  
 [Production](production-manage-manufacturing.md)  
 [Gestion d’entrepôt](warehouse-manage-warehouse.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Administration](admin-setup-and-administration.md)  
 [Création de sociétés dans [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)  
 [Mise en route](product-get-started.md)  
 

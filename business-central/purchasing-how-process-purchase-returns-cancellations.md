@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cancel, undo, correct
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: eef48d2390a497692b19b0ce6eae6afc654f8d22
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 78a67f214de9e3d4d1df673a21c5a2c1b3ec1f64
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "820534"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "934388"
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Traiter les retours ou annulations d'achats
 Si vous souhaitez retourner des articles à votre fournisseur ou annuler des services que vous avez achetés, vous pouvez créer et valider un avoir achat qui indique la modification demandée par rapport à la facture achat d'origine. Pour inclure les informations de facture achat correctes, vous pouvez créer l'avoir achat à partir de la facture achat enregistrée ou vous pouvez créer un avoir achat avec les informations copiées de la facture.
@@ -42,7 +42,7 @@ Vous pouvez affecter l'inversion de même coût automatiquement de deux façons.
 
 |Fonction|Désignation|  
 |------------------|---------------------------------------|  
-|Fonction **Afficher des lignes document validées à contrepasser** sur la page **Retour commande achat**|Copie les lignes d'un ou plusieurs documents validés afin de les contrepasser dans le retour achat. Pour plus d'informations, voir [Pour créer un retour achat à partir d'une ou plusieurs factures achat validées](purchasing-how-process-purchase-returns-cancellations.md#to-create-a-purchase-return-order-based-on-one-or-more-a-posted-purchase-documents).|  
+|Fonction **Afficher des lignes document validées à contrepasser** sur la page **Retour commande achat**|Copie les lignes d'un ou plusieurs documents validés afin de les contrepasser dans le retour achat. Pour plus d'informations, voir la section [Pour créer un retour achat à partir d'un ou plusieurs documents achat validés](purchasing-how-process-purchase-returns-cancellations.md#to-create-a-purchase-return-order-based-on-one-or-more-posted-purchase-documents).|  
 |Fonction **Copier document** des pages **Avoir achat** et **Retour achat**|Copie l'en-tête et les lignes d'un document validé à contrepasser.<br /><br /> Requiert que la case à cocher **Coût retour identique obligatoire** soit sélectionnée sur la page **Paramètres achats**.|
 
 Pour réaliser manuellement la contrepassation exacte, sélectionnez **Écriture article à lettrer** sur n'importe quelle ligne de document retour, puis sélectionnez le numéro de l'écriture achat initiale. Cela crée un lien entre l'avoir achat ou le retour achat et l'écriture achat initiale, et garantit que l'article est évalué sur le coût unitaire initial.

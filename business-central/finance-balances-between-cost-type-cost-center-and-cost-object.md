@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: finance-set-up-cost-accounting
-ms.openlocfilehash: d223bdc490c2ac45353d0e7f8aff6816c1ce5f51
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 8b64941b6c17468b598d419053c05e1d32dac7ce
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "821669"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "938241"
 ---
 # <a name="balances-between-cost-type-cost-center-and-cost-object"></a>Soldes entre le type de coût, un centre de coûts et les coûts associés
 Lorsque vous configurez la comptabilité analytique, vous devez vous assurer que toutes les écritures sont affectées à un type de coût, ainsi qu'à un centre de coûts ou des coûts associés. En d'autres termes, un type de coût, un code de centre de coûts ou un coût associé doivent être affectés à chaque écriture de coûts. Cette règle garantit que chaque écriture de coûts s'affiche dans les centres de coûts ou les coûts associés, mais jamais dans les deux à la fois.  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory valuation, costing
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6688b89dc9ef05456bca11fc722514b8bd47b05d
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: dd48be8b92a03d50bc590d579de940599da6aa7e
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "820284"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "941695"
 ---
 # <a name="adjust-item-costs"></a>Ajuster coûts et prix article
 Le coût d'un article (valeur du stock) que vous achetez et vendez ultérieurement peut changer au cours de sa durée de vie, par exemple parce que des frais de transport sont ajoutés à son coût d'achat après que vous ayez vendu l'article. L'ajustement des coûts est particulièrement utile dans les situations où vous vendez des biens avant de facturer leur achat. Pour toujours connaître la valeur du stock correcte, les coûts article doivent donc être ajustés régulièrement. Cela garantit que les statistiques vente et profit sont à jour et que les indicateurs clés financiers sont corrects. Pour plus d'informations, voir [Détails de conception : modes évaluation stock](design-details-cost-adjustment.md).
@@ -28,7 +28,7 @@ Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], les coûts article sont automa
 
 Vous pouvez également utiliser une fonction pour ajuster manuellement les coûts d'un ou de plusieurs articles. Cela est utile, par exemple, si vous savez que les coûts article ont changé pour d'autres raisons que des mouvements de stock.
 
-Les coûts article sont ajustés selon la méthode FIFO ou d'évaluation stock moyen, selon la sélection effectuée dans la configuration assistée **Configurer ma société** ou dans le champ **Mode évaluation stock** sur la fiche article. Pour plus d'informations, reportez vous à [Enregistrer de nouveaux articles](inventory-how-register-new-items.md).  
+Les coûts article sont ajustés selon la méthode FIFO ou d'évaluation stock moyen, selon la sélection effectuée dans le guide de configuration assistée **Configurer ma société** ou dans le champ **Mode évaluation stock** sur la fiche article. Pour plus d'informations, reportez vous à [Enregistrer de nouveaux articles](inventory-how-register-new-items.md).  
 
 Si vous utilisez la méthode de coût FIFO, le coût unitaire d'un article est la valeur réelle de toute réception de l'article. Le stock est évalué avec la supposition que les premiers articles stockés sont ceux vendus en premier.
 

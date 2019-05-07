@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4dae4dbfc06b5040eba09df94fe13e7fce7b1940
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 3a3e42d9468c9f1a8d23afd8284e210fa7145c3c
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "820219"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "953525"
 ---
 # <a name="migrate-customer-data"></a>Migrer des données client
 Vous pouvez migrer des données client existantes d'un système ERP existant vers [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des outils de migration de données de RapidStart Services. Vous pouvez utiliser des fichiers Excel comme supports d’informations. Vous pouvez également déplacer manuellement les données en les entrant directement dans la société.
@@ -101,7 +101,7 @@ Dans les procédures suivantes, vous devez rechercher à l'avance les valeurs qu
 5. Dans le champ **Ancienne valeur**, saisissez la valeur que vous souhaitez modifier. Dans le champ **Nouvelle valeur**, saisissez la valeur dont vous souhaitez qu'elle remplace l'ancienne valeur. Choisissez le bouton **OK**.  
 6. Importez les données client. Pour plus d'informations, voir [Pour importer les données client](admin-migrate-customer-data.md#to-import-customer-data).
 7. Dans le champ **N° d'erreurs de lot**, vérifiez si des erreurs ont été signalées. S'il y en a, examinez les erreurs de près. La page **Enregistrements package config.** s'ouvre.
-8. Choisissez l'action **Afficher erreur**. Vous recevrez l'erreur suivante : **<option> n'est pas une option valide. Les options valides sont <valid option list>**. Cliquez sur le bouton **OK**.  
+8. Choisissez l'action **Afficher erreur**. Vous recevrez l'erreur suivante : **XX n'est pas une option valide. Les options valides sont XX**. Cliquez sur le bouton **OK**.  
 9. Pour appliquer le mappage que vous avez paramétré, sélectionnez l'action **Appliquer données**.  
 
 ### <a name="mapping-example"></a>Exemple de mappage  
@@ -153,7 +153,11 @@ Lorsque les données client ont été entrées dans les fichiers de migration de
 
 1. Ouvrez la page **Fiche package config**.
 2. Sélectionnez la table pour laquelle vous souhaitez importer des données, puis sous l'onglet **Tables**, sélectionnez l'action **Importer d'Excel**.
-3. Recherchez et ouvrez le fichier à partir duquel vous voulez importer les données dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
+3. Localisez et ouvrez le fichier à partir duquel vous souhaitez importer les données.
+4. Sur la page **Aperçu de l’importation du package config.**, passez en revue le contenu qui sera importé.
+
+    La page **Aperçu de l’importation du package config.** fournit un aperçu du contenu du fichier Excel à importer. Elle indique également si un nouveau package configuration est créé ou si celui existant est mis à jour, et en cas de nouveau package configuration, des lignes (tables) sont créées ou celles existantes sont mises à jour.    
+5. Sélectionnez l'option **Importer**.
 
 Les données du fichier sont importées dans les tables de package configuration. Vous pouvez consulter le nombre d'enregistrements package qui ont été importés dans le champ **Nombre enregistrements package**. Le nombre d'erreurs de migration est également indiqué.
 

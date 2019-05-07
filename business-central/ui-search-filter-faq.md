@@ -4,18 +4,16 @@ description: Réponses aux questions posées fréquemment sur la recherche et le
 author: mikebcMSFT
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.reviewer: edupont04
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
-ms.date: 10/01/2018
+ms.date: 04/05/2019
 ms.author: mikebc
-ms.openlocfilehash: a4bcdca8ecff80d8d47bf9c198cd69a71f09cd2a
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 0f9f5db0e7031156848a5bd15c711d3108f3490b
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852071"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "969870"
 ---
 # <a name="searching-and-filtering-faq"></a>FAQ sur la recherche et le filtrage
 Cet article répond à des questions courantes que vous pouvez avoir à propos de la recherche et du filtrage.
@@ -36,7 +34,10 @@ Le volet Filtre est disponible sur les pages où la liste est le principal conte
 Vos filtres et ajustements des filtres prédéfinis sont enregistrés tout au long de la session (lorsque vous restez connecté), même si vous quittez la page. Il n'est actuellement pas possible de sauvegarder définitivement les filtres. Contrairement aux filtres, le texte de recherche n'est pas conservé lorsque vous quitté une page.
 
 ## <a name="is-this-the-same-as-advanced-filters-and-limit-totals-in-microsoft-dynamics-nav"></a>Est-e pareil qu'avec les filtres avancés et les totaux de limite dans Microsoft Dynamics NAV ?
-[!INCLUDE[d365fin](includes/d365fin_md.md)] s'appuie sur ces fonctions populaires et présente une expérience moderne et extrêmement utilisable pour rechercher et analyser vos données. Avec plus de raccourcis clavier et l'introduction de la recherche, [!INCLUDE[d365fin](includes/d365fin_md.md)] surpasse la fonctionnalité fournie dans Dynamics NAV.
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] s'appuie sur ces fonctions populaires et présente une expérience moderne et extrêmement utilisable pour rechercher et analyser vos données. Avec plus de raccourcis clavier et l'introduction de la recherche, [!INCLUDE[d365fin](includes/d365fin_md.md)] surpasse la fonctionnalité fournie dans Dynamics NAV.  
+
+Voir également [Le volet Filtre est-il disponible pour filtrer les états ?](#is-the-filter-pane-available-for-filtering-reports).  
 
 ## <a name="can-i-search-and-filter-using-the-companion-apps-and-outlook-addin"></a>Puis-je rechercher et filtrer à l'aide des applications complémentaires et Outlook AddIn ?
 Sur différentes cibles d’affichage, telles que des appareils mobiles ou dans Outlook, vous pouvez rechercher dans les listes mais ne pouvez pas filtrer sur les différents champs dans la plupart des cas.
@@ -54,5 +55,6 @@ Il existe une limite de temps concernant une opération de recherche. Premièrem
 En tant qu'administrateur local, vous développez le délai des recherches en modifiant le paramètre **Expiration de la recherche** du serveur [!INCLUDE[prodshort](includes/prodshort.md)]. Pour plus d'informations, voir [Configuration de Business Central Server](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-server-instance?#Database) dans l'Aide destinée aux développeurs et aux professionnels de l'informatique Business Central.
 
 ## <a name="see-also"></a>Voir aussi .
+
 [Mise en route](product-get-started.md)  
-[Tri, recherche et filtrage dans les listes](ui-enter-criteria-filters.md)
+[Tri, recherche et filtrage dans les listes](ui-enter-criteria-filters.md)  
