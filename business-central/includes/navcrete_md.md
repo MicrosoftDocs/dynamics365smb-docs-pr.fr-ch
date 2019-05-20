@@ -24,11 +24,11 @@ translation.priority.ht:
 - nl-nl
 - ru-ru
 - sv-se
+ms.openlocfilehash: da38396d06ca99fc3562c91ce07d0ad735e984f7
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
-ms.sourcegitcommit: 54249720d01ebd529c27eed888ed66c59dad2507
-ms.openlocfilehash: 714ef38fca8135bbd02a08eaf6cfbe7a5e258ef7
-ms.contentlocale: fr-ch
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-CH
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1238138"
 ---
-<span data-ttu-id="c791e-101">Microsoft Dynamics NAV 2015</span><span class="sxs-lookup"><span data-stu-id="c791e-101">Microsoft Dynamics NAV 2015</span></span>
+<span data-ttu-id="da4d3-101">Microsoft Dynamics NAV 2015</span><span class="sxs-lookup"><span data-stu-id="da4d3-101">Microsoft Dynamics NAV 2015</span></span>

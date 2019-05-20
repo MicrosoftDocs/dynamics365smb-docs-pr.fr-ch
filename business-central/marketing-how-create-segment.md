@@ -13,26 +13,26 @@ ms.search.keywords: relationship, prospect
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: b857e2da860a677af9a4dc20072f921d8406898d
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "920905"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1238446"
 ---
-# <a name="create-segments"></a><span data-ttu-id="3da68-103">Création de segments</span><span class="sxs-lookup"><span data-stu-id="3da68-103">Create Segments</span></span>
-<span data-ttu-id="3da68-104">Vous pouvez créer des segments pour sélectionner un groupe contacts, par exemple pour créer une interaction concernant plusieurs contacts, comme un courrier direct.</span><span class="sxs-lookup"><span data-stu-id="3da68-104">You can create segments to select a group of contacts, for example, if you want to create an interaction involving several contacts, such as direct mail.</span></span>
+# <a name="create-segments"></a><span data-ttu-id="70e2b-103">Création de segments</span><span class="sxs-lookup"><span data-stu-id="70e2b-103">Create Segments</span></span>
+<span data-ttu-id="70e2b-104">Vous pouvez créer des segments pour sélectionner un groupe contacts, par exemple pour créer une interaction concernant plusieurs contacts, comme un courrier direct.</span><span class="sxs-lookup"><span data-stu-id="70e2b-104">You can create segments to select a group of contacts, for example, if you want to create an interaction involving several contacts, such as direct mail.</span></span>
 
-## <a name="to-create-a-segment"></a><span data-ttu-id="3da68-105">Pour créer un segment</span><span class="sxs-lookup"><span data-stu-id="3da68-105">To create a segment</span></span>
-1. <span data-ttu-id="3da68-106">Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Segments**, puis sélectionnez le lien associé.</span><span class="sxs-lookup"><span data-stu-id="3da68-106">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Segments**, and then choose the related link.</span></span>
-2. <span data-ttu-id="3da68-107">Sélectionnez l'action **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="3da68-107">Choose the **New** action.</span></span>
-3. <span data-ttu-id="3da68-108">Dans la section **Général**, dans le champ **N°**,</span><span class="sxs-lookup"><span data-stu-id="3da68-108">In the **General** section, in the **No.**</span></span> <span data-ttu-id="3da68-109">saisissez le numéro du segment.</span><span class="sxs-lookup"><span data-stu-id="3da68-109">field, enter a number for the segment.</span></span>
+## <a name="to-create-a-segment"></a><span data-ttu-id="70e2b-105">Pour créer un segment</span><span class="sxs-lookup"><span data-stu-id="70e2b-105">To create a segment</span></span>
+1. <span data-ttu-id="70e2b-106">Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Segments**, puis sélectionnez le lien associé.</span><span class="sxs-lookup"><span data-stu-id="70e2b-106">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Segments**, and then choose the related link.</span></span>
+2. <span data-ttu-id="70e2b-107">Sélectionnez l'action **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="70e2b-107">Choose the **New** action.</span></span>
+3. <span data-ttu-id="70e2b-108">Dans la section **Général**, dans le champ **N°**,</span><span class="sxs-lookup"><span data-stu-id="70e2b-108">In the **General** section, in the **No.**</span></span> <span data-ttu-id="70e2b-109">saisissez le numéro du segment.</span><span class="sxs-lookup"><span data-stu-id="70e2b-109">field, enter a number for the segment.</span></span>
 
-    <span data-ttu-id="3da68-110">Sinon, si vous avez configuré une souche de numéros pour les segments sur la page **Paramètres marketing**, vous pouvez appuyer sur Entrée pour sélectionner le prochain numéro de segment disponible.</span><span class="sxs-lookup"><span data-stu-id="3da68-110">Alternatively, if you have set up number series for segments on the **Marketing Setup** page, you can press Enter to select the next available segment number.</span></span>
-4. <span data-ttu-id="3da68-111">Renseignez les autres champs sur cet en-tête.</span><span class="sxs-lookup"><span data-stu-id="3da68-111">Fill in the other fields on the header.</span></span>
+    <span data-ttu-id="70e2b-110">Sinon, si vous avez configuré une souche de numéros pour les segments sur la page **Paramètres marketing**, vous pouvez appuyer sur Entrée pour sélectionner le prochain numéro de segment disponible.</span><span class="sxs-lookup"><span data-stu-id="70e2b-110">Alternatively, if you have set up number series for segments on the **Marketing Setup** page, you can press Enter to select the next available segment number.</span></span>
+4. <span data-ttu-id="70e2b-111">Renseignez les autres champs sur cet en-tête.</span><span class="sxs-lookup"><span data-stu-id="70e2b-111">Fill in the other fields on the header.</span></span>
 
-<span data-ttu-id="3da68-112">Vous pouvez désormais ajouter des contacts au segment.</span><span class="sxs-lookup"><span data-stu-id="3da68-112">You can now add contacts to the segment.</span></span> <span data-ttu-id="3da68-113">Pour plus d'informations, reportez-vous à [Ajouter des contacts à des segments](marketing-add-contact-segment.md).</span><span class="sxs-lookup"><span data-stu-id="3da68-113">For more information, see [Add Contacts to Segments](marketing-add-contact-segment.md).</span></span>
+<span data-ttu-id="70e2b-112">Vous pouvez désormais ajouter des contacts au segment.</span><span class="sxs-lookup"><span data-stu-id="70e2b-112">You can now add contacts to the segment.</span></span> <span data-ttu-id="70e2b-113">Pour plus d'informations, reportez-vous à [Ajouter des contacts à des segments](marketing-add-contact-segment.md).</span><span class="sxs-lookup"><span data-stu-id="70e2b-113">For more information, see [Add Contacts to Segments](marketing-add-contact-segment.md).</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="3da68-114">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="3da68-114">See Also</span></span>
-[<span data-ttu-id="3da68-115">Gestion des segments</span><span class="sxs-lookup"><span data-stu-id="3da68-115">Managing Segments</span></span>](marketing-segments.md)  
-[<span data-ttu-id="3da68-116">Gestion des opportunités de ventes</span><span class="sxs-lookup"><span data-stu-id="3da68-116">Managing Sales Opportunities</span></span>](marketing-manage-sales-opportunities.md)  
-<span data-ttu-id="3da68-117">[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="3da68-117">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+## <a name="see-also"></a><span data-ttu-id="70e2b-114">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="70e2b-114">See Also</span></span>
+[<span data-ttu-id="70e2b-115">Gestion des segments</span><span class="sxs-lookup"><span data-stu-id="70e2b-115">Managing Segments</span></span>](marketing-segments.md)  
+[<span data-ttu-id="70e2b-116">Gestion des opportunités de ventes</span><span class="sxs-lookup"><span data-stu-id="70e2b-116">Managing Sales Opportunities</span></span>](marketing-manage-sales-opportunities.md)  
+<span data-ttu-id="70e2b-117">[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="70e2b-117">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
