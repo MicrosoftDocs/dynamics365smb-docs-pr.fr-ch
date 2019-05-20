@@ -4,20 +4,20 @@ description: Décrit les tâches permettant de définir les stratégies d'approv
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 04/01/2019
+ms.date: 03/29/2017
 ms.author: sgroespe
 ms.openlocfilehash: 4c08d91946857c49365472d9d1665d80db285425
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "927094"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251461"
 ---
 # <a name="setting-up-purchasing"></a>Définition des achats
 Avant de pouvoir gérer les processus achat, vous devez configurer les règles et valeurs qui définissent les stratégies d'achat de la société.

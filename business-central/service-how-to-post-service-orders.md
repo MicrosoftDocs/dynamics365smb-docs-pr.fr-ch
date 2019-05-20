@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 7ebec9a0a93fcbcd2f3e761fdf2410ee4d5a07db
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "918449"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251208"
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Valider des commandes et des avoirs service
 Après avoir créé une commande service, fourni toutes les informations et apporté les éventuelles modifications, vous pouvez valider cette commande. Pour que vous puissiez valider une commande, celle-ci doit contenir au moins une ligne service et une ligne facture service avant. Si la commande contient plusieurs lignes service, toutes les lignes sont validées en même temps.  

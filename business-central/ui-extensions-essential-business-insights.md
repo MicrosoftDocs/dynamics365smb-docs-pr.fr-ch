@@ -12,11 +12,11 @@ ms.search.keywords: BI, add-in, insight, headline, data
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 3848005cc0159a52143903362a8f9b5e0efadfa9
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "930982"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250012"
 ---
 # <a name="the-essential-business-insights-extension"></a>Extension Informations commerciales essentielles
 L'extension Informations commerciales essentielles recherche des faits commerciaux intéressants dans les données de votre société et les affiche sous forme de titres de journaux sur les tableaux de bord. Selon ce que l'extension trouve dans les données, des les informations datent de la semaine, du mois ou du trimestre précédent la date du jour. Les informations se mettent à jour toutes les 10 minutes.  

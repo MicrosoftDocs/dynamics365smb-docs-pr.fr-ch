@@ -11,11 +11,11 @@ ms. search.keywords: extension, migrate, data, QuickBooks, import
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: e84632605c528bd2c968beb6b6bc0dca05c74502
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "927775"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250426"
 ---
 # <a name="the-quickbooks-online-data-migration-extension"></a>Extension de migration des données QuickBooks Online
 Cette extension est incluse dans le guide d'installation facilité **Migration des données** pour vous aider à migrer les données métier pertinentes de QuickBooks Online vers [!INCLUDE[d365fin](includes/d365fin_md.md)]. Par exemple, c'est utile si votre activité se développe, et que vous avez décidé de mettre à niveau votre application de gestion d'entreprise en commençant à utiliser [!INCLUDE[d365fin](includes/d365fin_md.md)].

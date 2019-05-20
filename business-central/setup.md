@@ -11,11 +11,11 @@ ms.search.keywords: configure, initialize
 ms.date: 04/05/2019
 ms.author: edupont
 ms.openlocfilehash: 3139273b09a223c84c452b5fbe2ee8b637a4c493
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "969847"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251024"
 ---
 # <a name="setting-up-included365finincludesd365finmdmd"></a>Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] comprend des configurations standard pour la plupart des processus entreprise, mais vous pouvez les modifier pour les adapter aux besoins de votre société.

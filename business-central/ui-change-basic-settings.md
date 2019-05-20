@@ -11,11 +11,11 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 04/01/2019
 ms.author: solsen
 ms.openlocfilehash: d95d2f609129e4bdba35deda726323dbed2ba67a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "916237"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250998"
 ---
 # <a name="changing-basic-settings"></a>Modification des paramètres de base
 Sur la page [**Mes paramètres**](https://businesscentral.dynamics.com?page=9176 "Accédez directement à votre page Paramètres utilisateurs dans Business Central"), vous pouvez visualiser et modifier les paramètres de base pour [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vos modifications affectent uniquement votre espace de travail, et non les espaces de travail des autres utilisateurs.  

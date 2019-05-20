@@ -13,11 +13,11 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: ac5dd6784da5f86c27ab0b3dffffb08cf7d4149d
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917468"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1248172"
 ---
 # <a name="close-income-statement-accounts"></a>Clôturer les comptes de gestion
 Lorsqu'un exercice comptable est terminé, vous devez clôturer les périodes qui le composent. Vous exécutez pour cela le traitement par lots **Solder les comptes de gestion**. Ce traitement transfère le résultat de l'exercice dans un compte de bilan et clôture les comptes de gestion. Vous créez des lignes dans une feuille, que vous pouvez valider par la suite.

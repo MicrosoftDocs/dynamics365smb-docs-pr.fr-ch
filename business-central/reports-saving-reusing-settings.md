@@ -11,11 +11,11 @@ ms.search.keywords: customization, personalization
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: 3e7b00d54a9c655a77b7b7f4854e59993866427e
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941530"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251253"
 ---
 # <a name="managing-saved-settings-on-reports"></a>Gestion des paramètres enregistrés dans les états
 Lors de l'exécution d'un état, les utilisateurs voient généralement une page qui leur permet de définir certaines options et certains filtres pour modifier les données incluses dans l'état généré. Cette page est appelée la page de demande de l'état. Un état peut inclure un ou plusieurs *paramètres enregistrés* que les utilisateurs peuvent appliquer à l'état à partir de la page de demande. Les *Paramètres enregistrés* sont essentiellement des options et des filtres prédéfinis. Le fait d'utiliser les paramètres enregistrés est une façon rapide et fiable de générer de façon cohérente des états qui contiennent les données adéquates. Pour plus d'informations sur l'utilisation des paramètres enregistrés, voir [Utilisation des paramètres enregistrés](ui-work-report.md#SavedSettings).

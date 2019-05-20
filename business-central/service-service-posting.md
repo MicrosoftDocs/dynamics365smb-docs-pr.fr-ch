@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 767a300019ddca2d37f26148c71c290832b3a41c
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "935604"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251161"
 ---
 # <a name="service-posting"></a>Validation de service
 La fonctionnalité de validation de service vous permet de traiter vos documents efficacement et de maintenir une stratégie de service client fructueuse. Vous pouvez créer et mettre à jour des documents validés, et créer des écritures comptables dans le module Service et dans d'autres modules pour garantir une mise à jour correcte.  

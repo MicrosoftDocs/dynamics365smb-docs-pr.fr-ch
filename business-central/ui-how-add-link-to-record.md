@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/12/2019
 ms.author: jswymer
 ms.openlocfilehash: 602d520043c5192109ccc4e2605ae0e231dafc1e
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "990192"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250357"
 ---
 # <a name="add-links-to-websites-documents-or-programs-on-records"></a>Ajouter des liens à des sites Web, documents ou programmes sur des enregistrements
 Sur un enregistrement spécifique, comme une fiche client, un document ou une commande vente, vous pouvez ajouter un lien à un document, site Web ou programme externe. Vous pouvez aussi sélectionner un lien qui ouvre un e-mail vierge adressé à un destinataire précis. La page Fiche de certains enregistrements comme les fiches client ou fournisseur, dispose d'un champ **Page d'accueil** dans lequel vous pouvez entrer une adresse Internet (URL). Pour insérer d'autres liens, vous pouvez utiliser la méthode décrite dans cet article.  

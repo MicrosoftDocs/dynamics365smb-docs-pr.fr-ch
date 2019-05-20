@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: a620b7ed9d06cdd8adf7b12bea2b55aecea32bcc
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "918926"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251156"
 ---
 # <a name="date-calculation-for-sales"></a>Calcul de la date des ventes
 [!INCLUDE[d365fin](includes/d365fin_md.md)] calcule automatiquement la première date possible à laquelle un article d'une ligne commande vente peut être expédié.

@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: b4482727547c80d41f96c31ba3b4a4e0ac7c1682
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "916893"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250564"
 ---
 # <a name="viewing-service-statistics"></a>Affichage des statistiques service
 Vous pouvez utiliser des statistiques pour analyser les documents service et évaluer la bonne gestion de vos processus de service. Vous pouvez analyser les contrats de service, articles, devis, commandes, factures et avoirs en choisissant l'action **Statistiques**. Pour les articles et contrats de service, vous pouvez également utiliser les champs **Trendscape article de service** ou **Trendscape contrat** pour afficher un résumé des écritures comptables service pour un article de service spécifique.   

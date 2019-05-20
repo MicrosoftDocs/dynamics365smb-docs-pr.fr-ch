@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 82c7e19c2c493df77094bd3b6e4d2e5835a278bb
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "913981"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250794"
 ---
 # <a name="convert-service-contracts-that-include-vat-amounts"></a>Convertir les contrats de service incluant des montants TVA
 Étant donné que l'outil de modification du taux de TVA ne peut pas convertir les contrats de service, ces derniers doivent être convertis manuellement. Cette rubrique décrit plusieurs autres méthodes pour convertir les contrats de service.  

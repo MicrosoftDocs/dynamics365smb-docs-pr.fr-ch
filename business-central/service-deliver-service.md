@@ -13,11 +13,11 @@ ms.search.keywords: service, service items, respond, response
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 5d7180ad4eb26dc0f42432545da5f0abef5e9d02
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "930147"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250997"
 ---
 # <a name="delivering-service"></a>Fournir un service
 [!INCLUDE[d365fin](includes/d365fin_md.md)] inclut des fonctionnalités qui vous permettent d'offrir le service correspondant aux contrats créés et les commandes service que vous vous êtes engagé à traiter. Grâce au **Tableau d'affectation**, les techniciens de service et agents d'affectation ont facilement accès aux commandes service en attente. Le **Tableau d'affectation** affiche les commandes en cours et les commandes terminées.  

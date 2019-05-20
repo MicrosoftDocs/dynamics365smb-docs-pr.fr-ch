@@ -12,11 +12,11 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 869d136498604a61b1f3016efca475b4784c4456
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "910380"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250288"
 ---
 # <a name="customizing-business-central-using-extensions"></a>Personnalisation de Business Central à l'aide d'extensions
 Vous pouvez modifier [!INCLUDE[d365fin](includes/d365fin_md.md)] en installant des extensions qui ajoutent des fonctionnalités, modifient le comportement de l'application, ou vous permettent d'accéder à de nouveaux services en ligne, par exemple.
@@ -49,7 +49,7 @@ Certaines extensions sont fournies par Microsoft, et d'autres sont fournies par 
 Microsoft fournit les extensions suivantes :  
 
 * [Migration de données Dynamics GP](ui-extensions-dynamicsgp-data-migration.md)  
-* [Extension Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)  
+* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)  
 * [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)  
 * [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)  
 * [Extension QuickBooks Data Migration](ui-extensions-quickbooks-data-migration.md)  
@@ -72,7 +72,7 @@ Microsoft fournit les extensions suivantes :
 ## <a name="see-also"></a>Voir aussi
 [Extension de Dynamics 365 Business Central](about-develop-extensions.md)  
 [Extensions Business Central par d'autres fournisseurs](ui-extensions-other.md)  
-[Configurer le service de flux de la Envestnet Yodlee Bank](bank-how-setup-bank-statement-service.md)  
+[Configurer le service Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)  
 [Activer les paiements client via Paypal](sales-how-enable-payment-service-extensions.md)  
 [Migration des données métier à partir d'autres systèmes financiers](across-import-data-configuration-packages.md)  
 [Configuration de l'extension GetAddress.io UK Postal Code](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)  

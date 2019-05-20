@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 7b9bfeea6a4a3f93559d49319257053aef2f7bec
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "934179"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249101"
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Procédure pas à pas : mise en place d'une campagne de vente
 Une campagne désigne tout type d'activité impliquant plusieurs contacts. La sélection du public cible de votre campagne représente une étape importante de la configuration. Pour ce faire, dans [!INCLUDE[d365fin](includes/d365fin_md.md)], créez un segment ou un groupe de contacts à l'aide de filtres.  

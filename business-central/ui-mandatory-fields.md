@@ -12,11 +12,11 @@ ms.workload: na
 ms.date: 04/01/2019
 ms.author: solsen
 ms.openlocfilehash: bc3cedf31aadb69e380b704f4019a86eb7864882
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "935343"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1248103"
 ---
 # <a name="detecting-mandatory-fields"></a>Détection de champs obligatoires
 Lorsque vous entrez des données sur les pages dans [!INCLUDE[d365fin](includes/d365fin_md.md)], certains champs sont marqués par un astérisque rouge. L'astérisque rouge signifie que le champ doit être renseigné pour terminer un processus qui utilise ce champ, par exemple, valider une transaction qui utilise la valeur du champ.

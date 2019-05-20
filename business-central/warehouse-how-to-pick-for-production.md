@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 214ac7824dadca7d63c4ed1b91273a7409850e12
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "923755"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249621"
 ---
 # <a name="pick-for-production-or-assembly-in-basic-warehouse-configurations"></a>Prélever pour la fabrication ou l'assemblage dans les configurations de stockage de base.
 Le mode de rangement de vos composants de prélèvement pour les ordres de fabrication ou d'assemblage dépend de la configuration du stockage en tant qu'emplacement. Pour plus d'informations, voir [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md).

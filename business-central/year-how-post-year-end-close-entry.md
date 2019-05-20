@@ -13,11 +13,11 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: 878079fd02a2d54ae6b878fa54c7006dee779c15
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "914919"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249690"
 ---
 # <a name="post-the-year-end-closing-entry"></a>Valider l'écriture de clôture d'exercice
 Après avoir utilisé le traitement par lots **Solder les comptes de gestion** pour générer les écritures de clôture d'exercice, vous devez ouvrir la feuille spécifiée dans le traitement par lots, puis consulter et valider les écritures.

@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: f4dc7b1f4f946e7b6e3772e84603169e3ace4af7
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "935772"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250538"
 ---
 # <a name="setup-best-practices-global-planning-setup"></a>Configurer des recommandations : configuration du planning général
 Le raccourci **Planning** de la page **Paramètres production** comporte plusieurs champs permettant de définir les règles globales pour la planification des approvisionnements.  

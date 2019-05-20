@@ -12,11 +12,11 @@ ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: fcae17577b448b4271adee299874cf5cad9da79f
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "938218"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249391"
 ---
 # <a name="send-documents-by-email"></a>Envoyer des documents par e-mail
 Pour communiquer le contenu des documents commerciaux rapidement à vos partenaires commerciaux, par exemple les informations paiement sur les documents vente aux clients, vous pouvez utiliser la fonctionnalité de présentation des états pour définir le contenu spécifique aux documents qui est automatiquement inséré au corps du message. Pour plus d'informations, voir [Gestion des présentations de rapport et de document](ui-manage-report-layouts.md).

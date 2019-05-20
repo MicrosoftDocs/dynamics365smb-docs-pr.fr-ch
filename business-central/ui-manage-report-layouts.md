@@ -13,11 +13,11 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 04/01/2019
 ms.author: solsen
 ms.openlocfilehash: ff9e2087f832d954ae403596744990a243af80c5
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "934319"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249667"
 ---
 # <a name="managing-report-and-document-layouts"></a>Gestion des présentations de rapport et de document
 Une présentation de rapport contrôle le contenu et le format du rapport, dont les champs de données d'un ensemble de données de rapport apparaissant sur le rapport et la façon ils sont organisés, le style de texte, les images, et plus encore. À partir de [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez modifier la présentation utilisée sur un rapport, créer une nouvelle présentation ou modifier les présentations existantes.

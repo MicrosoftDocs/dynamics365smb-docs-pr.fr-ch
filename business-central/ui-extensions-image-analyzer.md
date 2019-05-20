@@ -12,11 +12,11 @@ ms.search.keywords: API, extension, Cognitive Services, image, computer vision, 
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: fe1673a5d829c9c71a45383b291405e5a5121ae8
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "932800"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250771"
 ---
 # <a name="the-image-analyzer-extension"></a>Extension d'analyseur Image
 L'extension d'analyseur Image utilise les analyses d'image puissantes fournies par l'API Vision par ordinateur de Microsoft Cognitive Services pour détecter des attributs dans les images que vous importez pour des articles et des contacts, afin de les examiner et de les affecter facilement. Pour les articles, les attributs peuvent être si l'article est une table ou une voiture et, s'il est rouge ou bleu. Pour les contacts, les attributs peuvent être le sexe ou l'âge.

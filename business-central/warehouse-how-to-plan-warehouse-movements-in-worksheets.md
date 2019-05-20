@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 5cc450ef7591cf36eff1307da70cc032442486d3
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "931063"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1248448"
 ---
 # <a name="plan-warehouse-movements-in-worksheets"></a>Planifier des mouvements entrepôt dans la feuille
 Planifiez les mouvements de la feuille à l'aide de la fonction réapprovisionnement emplacement ou en planifiant manuellement les lignes à créer en tant qu'instructions mouvement.  

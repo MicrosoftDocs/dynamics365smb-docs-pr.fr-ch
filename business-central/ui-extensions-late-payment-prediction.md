@@ -11,11 +11,11 @@ ms.search.keywords: customer, payment, invoice, sales, invoice, quote
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 54a7ad407ef3322ec1e02de4b20a934163a21a8e
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "935818"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251346"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Extension Prévisions de retard de paiement  
 Une gestion efficace des créances est importante pour la santé financière générale d'une société. L'extension de prévision de retard de paiement peut vous aider à minimiser les créances ouvertes et à ajuster votre stratégie de collectes en prévoyant si les factures vente seront payées à temps. Par exemple, si un retard de paiement est prévu, vous pouvez décider d'ajuster les conditions de paiement ou le mode de règlement du client.

@@ -13,11 +13,11 @@ ms.search.keywords: design, transfer, sku, locations, warehouse
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 56988064297cac55c48624071a19d510f6126495
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941460"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1248057"
 ---
 # <a name="design-details-transfers-in-planning"></a>Détails de conception : transferts de planification
 Les ordres de transfert sont également une source d'approvisionnement lorsque vous travaillez au niveau des points de stock. Lors de l'utilisation de plusieurs magasins (entrepôts), le système de réapprovisionnement de point de stock peut être défini sur Transfer, ce qui implique que le magasin est réapprovisionné en transférant des biens d'un autre magasin. Dans une situation avec plusieurs entrepôts, les sociétés peuvent avoir une chaîne de transferts où l'approvisionnement vers le magasin VERT est transféré à partir du magasin JAUNE, l'approvisionnement vers JAUNE est transféré depuis ROUGE et ainsi de suite. Au début de la chaîne, il existe un système de réapprovisionnement d'Ordre de fabrication ou d'achat.  

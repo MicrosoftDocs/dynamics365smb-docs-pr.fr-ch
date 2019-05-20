@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 645c11a3d5cfb29dd4e0cbf83086cea58831fe42
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "926596"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1248310"
 ---
 # <a name="put-items-away-with-warehouse-put-aways"></a>Ranger des articles avec le rangement entrepôt
 Lorsque l'entrepôt est configuré pour appeler un traitement de rangement entrepôt et un traitement de réception entrepôt, vous pouvez utiliser la fonction documents rangement entrepôt pour contrôler le rangement des articles.  

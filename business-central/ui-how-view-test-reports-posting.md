@@ -12,11 +12,11 @@ ms.workload: na
 ms.date: 04/01/2019
 ms.author: solsen
 ms.openlocfilehash: 16ce39ef0603e65acbd161c122ed48492290de3c
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "923781"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249184"
 ---
 # <a name="view-test-reports-before-posting"></a>Afficher des états de test avant la validation
 Lorsque vous êtes prêt à valider un document (commande, facture ou avoir, par exemple), vous pouvez vérifier le document pour vous assurer qu'aucun problème ne risque de bloquer la validation.

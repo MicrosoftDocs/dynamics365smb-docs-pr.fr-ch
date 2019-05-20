@@ -13,11 +13,11 @@ ms. search.keywords: app, add-in, manifest, customize, stream, bank account link
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 53ee8bb7ee798c473e1053ea8413be28f9185d1b
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "911734"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1248218"
 ---
 # <a name="the-envestnet-yodlee-bank-feeds-extension"></a>L'extension Envestnet Yodlee Bank Feeds
 Pour rapprocher rapidement des paiements effectués sur vos comptes bancaires, le service Envestnet Yodlee Bank Feeds vous permet de lier votre compte bancaire système à votre compte bancaire en ligne. Cela signifie que le dernier relevé bancaire est automatiquement ou manuellement entré dans votre feuille rapprochement, garantissant que vous traitez toujours les derniers paiements avec un risque minimal d'erreurs.
@@ -34,7 +34,7 @@ Le service Envestnet Yodlee Bank Feeds fournit les avantages suivants :
 * Prend en charge les flux bancaires manuels comme automatiques.
 * Permet la sous-traitance des rapprochements de paiement à un comptable en donnant l'accès aux relevés bancaires.
 
-Pour plus d'informations, voir [Configurer le service de flux de la Envestnet Yodlee Bank](bank-how-setup-bank-statement-service.md).
+Pour plus d'informations, voir [Configurer le service Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
 ## <a name="see-also"></a>Voir aussi
 [Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions ](ui-extensions.md)    

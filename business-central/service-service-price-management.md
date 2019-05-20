@@ -4,20 +4,20 @@ description: Cette rubrique décrit comment appliquer le meilleur prix à des co
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 08/28/2017
 ms.author: bholtorf
 ms.openlocfilehash: a4b5b946d6c1402ad1a27661267c202b703cc1c1
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "927798"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249897"
 ---
 # <a name="service-price-management"></a>Configuration de gestion de prix
 La fonctionnalité de gestion de la tarification des services vous permet d'appliquer le meilleur prix à des commandes service, de configurer des accords prix service personnalisés pour des clients, d'améliorer le rendement des salariés de la maintenance et d'accélérer le processus de facturation.  

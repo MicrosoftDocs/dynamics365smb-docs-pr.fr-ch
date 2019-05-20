@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 0c14ae1300d0e569e04159484da6ffb6e0541947
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "925847"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1248816"
 ---
 # <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Déplacer les composants vers une zone opérations dans les configurations de stockage de base
 Si des opérations de traitement d'articles se produisent dans votre entrepôt, vous pouvez être amené à déplacer des articles entre différents emplacements internes pour satisfaire aux documents origine internes, tels que la production, l'assemblage ou les commandes service dans le magasin.  

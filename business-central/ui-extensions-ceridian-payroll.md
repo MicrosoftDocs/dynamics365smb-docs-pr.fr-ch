@@ -13,11 +13,11 @@ ms. search.keywords: app, add-in, manifest, customize, salary, wage
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 6bf5796a5e438995d039f2e40d7dbec3ccdc8cf1
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "926834"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250152"
 ---
 # <a name="the-ceridian-payroll-extension"></a>Extension Ceridian Payroll
 Pour tenir compte des paiements des salaires et des transactions associées, vous devez importer et valider des transactions financières effectuées par votre fournisseur de paie dans la comptabilité.

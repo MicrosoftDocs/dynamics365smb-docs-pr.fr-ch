@@ -13,11 +13,11 @@ ms.search.keywords: feature overview, functionality
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 063de8e16c01569c4a25e825b8804898a6f80e79
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "939477"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250886"
 ---
 # <a name="general-business-functionality"></a>Fonctionnalités marché
 [!INCLUDE[d365fin](includes/d365fin_md.md)] fournit des fonctionnalités dédiées pour les domaines d'activité courants, tels que la finance et les ventes. Pour plus d'informations, voir [Fonctionnalités d'entreprise](across-business-functionality.md).

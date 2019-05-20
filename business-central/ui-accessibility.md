@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 99b1b5d5f725a598cc8be77f390d1fcf1c1a4033
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "925292"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250380"
 ---
 # <a name="accessibility-and-keyboard-shortcuts-in-included365finincludesd365finmdmd"></a>Accessibilité et raccourcis clavier dans [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Cette rubrique fournit des informations sur les fonctionnalités qui rendent [!INCLUDE[d365fin](includes/d365fin_md.md)] accessible aux personnes handicapées. [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge les fonctionnalités d'accessibilité suivantes :  

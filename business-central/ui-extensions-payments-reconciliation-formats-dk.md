@@ -13,11 +13,11 @@ ms. search.keywords: extension, bank, formats
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: ff09be509c1ab6366dbd852a5c1c6e69f46cc9d5
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "928911"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250748"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>Extension Paiements et rapprochements (DK)
 Réalise des paiements rapides et sans erreur en exportant des fichiers formatés spécifiquement pour les échanges avec votre fournisseur ou votre banque. Ces fichiers accélèrent les processus de paiement et de réconciliation, et éliminent les erreurs qui apparaissent lorsque vous saisissez manuellement des informations sur le site Web d'une banque.  

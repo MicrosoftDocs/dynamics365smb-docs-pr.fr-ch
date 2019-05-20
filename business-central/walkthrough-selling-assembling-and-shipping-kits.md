@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: b717de6bcefc774b3fb92ed440cde9f3597f34ce
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "929760"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249552"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Procédure pas-à-pas : vente, assemblage et expédition de kits
 

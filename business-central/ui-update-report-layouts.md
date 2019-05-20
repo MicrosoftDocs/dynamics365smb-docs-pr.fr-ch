@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: 03eeb13e5087e064e80d444ab373b0407f5a93be
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "914556"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1248149"
 ---
 # <a name="updating-report-or-document-layouts"></a>Mise à jour des présentations de rapport ou de document
 À l'occasion, vous pouvez être amené à mettre à jour une présentation d'état personnalisée qui est utilisée dans un état. Cela est nécessaire si une modification de conception a été apportée à l'ensemble de données de l'état, par exemple, si un champ utilisé dans la présentation a été supprimé de l'ensemble de données de l'état. Si une présentation de rapport requiert une mise à jour, vous obtiendrez un message d'erreur lorsque vous tentez de visualiser, d'imprimer ou d'enregistrer le rapport.  

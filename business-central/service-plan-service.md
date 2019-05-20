@@ -13,11 +13,11 @@ ms.search.keywords: service, work hours, configure, price, pricing
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 6a92b411eebe7e469d19b12dc1afbce9cf2f5dd3
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "930716"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250633"
 ---
 # <a name="planning-services"></a>Services de planification
 Grâce à [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez configurer les tâches standard qui permettent de répondre aux besoins du service clientèle. Pour cela, vous devez déterminer quels articles et offres de service sont pris en charge par votre organisation de prestation de services, et à quel prix.   

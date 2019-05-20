@@ -10,11 +10,11 @@ ms.workload: na
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 6f2357a169684f30dd6e177b1687a387d22e8690
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "920242"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249506"
 ---
 # <a name="letting-included365finincludesd365finmdmd-suggest-values"></a>Laisser [!INCLUDE[d365fin](includes/d365fin_md.md)] suggérer des valeurs
 [!INCLUDE[d365fin](includes/d365fin_md.md)] peut vous aider à effectuer ces tâches plus rapidement et précisément en préremplissant les champs ou en complétant les lignes avec des données que vous devriez sinon calculer et saisir vous-même. Bien qu'une telle saisie de données automatisée soit toujours correcte, vous pouvez la modifier par la suite si vous le souhaitez.

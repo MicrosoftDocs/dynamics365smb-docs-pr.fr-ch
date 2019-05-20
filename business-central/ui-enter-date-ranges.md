@@ -12,11 +12,11 @@ ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: c7e80edfd796056176d37ad12a56c76e64bb44e6
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "932993"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250955"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Utilisation de dates civiles et les heures
 
@@ -99,7 +99,7 @@ Pour spécifier qu'une date est une date de clôture, placez un `C` devant cette
 
 ### <a name="examples"></a>Exemples
 
-Le tableau suivant affiche des exemples de dates à l'aide de tous les formats. Il considère les paramètres de région selon lesquels format les dates : **année.mois.jour.**, une semaine commençant lundi, et l'anglais.
+Le tableau suivant affiche des exemples de dates à l'aide de tous les formats. Il considère les paramètres de région selon lesquels format les dates : **année.mois.jour.**, une semaine commençant lundi, et l'anglais.
 
 |**Écriture**      |**Interprétation**      |
 |---------------|------------------------|

@@ -13,11 +13,11 @@ ms. search.keywords: app, add-in, manifest, customize, budget
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 6f31f95b521135ce51a8bc9c82dd6b48cec103bf
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "916187"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249575"
 ---
 # <a name="the-sales-and-inventory-forecast-extension"></a>Extension Prévisions des ventes et des stocks
 La gestion des stocks est un compromis entre le service client et la gestion de vos coûts. D'une part, un stock faible exige un capital travail inférieur, mais d'autre part, les ruptures de stock mènent potentiellement à des ventes non concrétisées. L'extension Sales and Inventory Forecast prévoit les ventes potentielles à l'aide des données historiques et donne une présentation claire des ruptures de stock prévues. Selon la prévision, l'extension aide à créer des demandes de réapprovisionnement auprès de vos fournisseurs et vous fait gagner du temps.  

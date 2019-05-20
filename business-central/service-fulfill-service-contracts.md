@@ -13,11 +13,11 @@ ms.search.keywords: contract, agreement, configure
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 574509447668d0aab4bba0394029f784eb55ca2e
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "912065"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250242"
 ---
 # <a name="fulfilling-service-contracts"></a>Exécution des contrats de service 
 Pour configurer une activité de gestion des services, vous pouvez mettre en place des accords contractuels standard entre vous et vos clients afin de décrire le niveau de service et les attentes en matière de services. Vous pouvez créer des modèles de contrat dans lesquels figurent les informations nécessaires (client, date de début du contrat, période de facturation, etc.).  

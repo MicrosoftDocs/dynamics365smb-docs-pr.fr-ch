@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: a2ce86f2cbc5e452fe1f5d96b4c117b2a92ca631
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "931737"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1248622"
 ---
 # <a name="restructure-warehouses"></a>Restructurer les entrepôts
 Vous pouvez souhaiter restructurer votre entrepôt avec de nouveaux codes et caractéristiques emplacement. Ce type d'activité n'intervient que très rarement, mais un reclassement peut s'avérer nécessaire pour mettre à jour une opération ou la rendre plus efficace. Par exemple :  

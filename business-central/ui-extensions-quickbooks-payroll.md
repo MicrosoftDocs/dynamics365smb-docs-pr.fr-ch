@@ -13,11 +13,11 @@ ms. search.keywords: app, add-in, manifest, customize, salary, wage
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: c7ac2a17ecc0c2a33ea166968f577ca46e8282ed
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "920550"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249598"
 ---
 # <a name="the-quickbooks-payroll-file-import-extension"></a>Extension Importer le fichier de paie de QuickBooks
 Utilisez l'extension d'importation de fichier de paie de QuickBooks pour importer des transactions paie de QuickBooks vers des comptes de comptabilité générale dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Par exemple, cela est utile lorsque vous passez QuickBooks vers [!INCLUDE[d365fin](includes/d365fin_md.md)], ou si vous externalisez votre paie mais que vous souhaitez également en effectuer le suivi dans [!INCLUDE[d365fin](includes/d365fin_md.md)].

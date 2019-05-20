@@ -13,11 +13,11 @@ ms.search.keywords: service, service items, repairs, maintenance, fix
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: b89a0e097dd17ed81b66ed795f3257194311e7b2
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "911520"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250472"
 ---
 # <a name="setting-up-service-management"></a>Paramétrage de la gestion des services
 Avant de pouvoir démarrer l'utilisation des fonctionnalités de gestion des services dans [!INCLUDE[d365fin](includes/d365fin_md.md)], il y a quelques éléments à configurer. Par exemple, vous pouvez établir le codage des services standard, les codes symptôme et panne, ainsi que configurer les articles de service et les types d'article de service requis par le service clientèle.  

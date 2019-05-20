@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: d97b1bb4c7e079c479eebd47e6919d5ede5b1f55
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "924624"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1248563"
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Ranger des articles avec le rangement stock
 Lorsque votre magasin est configuré pour exiger un traitement des rangements, mais qu'il ne l'est pas pour un traitement des réceptions, vous utilisez le document **Rangement stock** pour enregistrer et valider les informations de rangement et de réception pour vos documents origine. Le document origine entrant peut être une commande achat, un retour vente, un ordre de transfert ou un ordre d'assemblage/de fabrication entrant dont la production est prête à être rangée.  
