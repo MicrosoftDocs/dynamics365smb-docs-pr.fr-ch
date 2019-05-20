@@ -3,22 +3,21 @@ title: Informations sur la configuration de la gestion du marketing et des conta
 description: Vous pouvez configurer la gestion du marketing et des contacts dans Business Central pour optimiser les relations avec les prospects ou les clients, et améliorer des campagnes ou des promotions.
 services: project-madeira
 documentationcenter: ''
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
-ms.date: 04/01/2019
-ms.author: jswymer
-redirect_url: marketing-setup-contacts
-ms.openlocfilehash: 40c7777cc630602b77392e636e4c29c4ec6c0696
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.date: 04/24/2019
+ms.author: sgroespe
+ms.openlocfilehash: 7d294ba1a484af195b962bac827435e57ff5709f
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "934018"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446868"
 ---
 # <a name="setting-up-relationship-management"></a>Paramétrage de la Gestion des relations
 Avant de commencer à travailler avec vos contacts et prospects marketing, vous devez prendre certaines décisions et accomplir certaines étapes afin de configurer la façon dont le module marketing gère certains aspects de vos contacts. Par exemple, vous pouvez décider de synchroniser la fiche contact avec la fiche client, la fiche fournisseur, ou la fiche compte bancaire, spécifier comment les souches de numéros sont définies, ou quelles sont les salutations standard lorsque vous écrivez à vos contacts.
@@ -27,7 +26,7 @@ La gestion de vos contacts et la mise en place d'une stratégie visant à identi
 
 Vous configurez la gestion du marketing et des contacts à partir de la page **Paramètres marketing**. Pour ouvrir la page **Paramètres marketing**, choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres marketing**, puis sélectionnez le lien associé.
 
-## <a name="automatically-copying-specific-information-from-the-contact-companies-to-the-contact-persons"></a>Copie automatique des informations spécifiques des sociétés contact vers les personnes contact
+## <a name="automatically-copying-specific-information-from-contact-companies-to-contact-persons"></a>Copie automatique des informations spécifiques des sociétés contact vers les personnes contact
 Une partie des données relatives aux sociétés contact sont identiques aux données sur les personnes contact qui travaillent dans ces sociétés, comme l'adresse. Dans la section **Héritage** de la page **Paramètres marketing**, vous pouvez définir l'application de sorte qu'elle copier automatiquement des champs spécifiques de la fiche société contact vers la fiche personne contact chaque fois que vous créez une personne contact pour une société contact. Par exemple, vous pouvez choisir de copier un code vendeur, les infos adresse (adresse, adresse 2ème ligne, ville, code postal et région), les détails de communication (numéro de télécopie, numéro de télex et numéro de téléphone), et plus encore.
 
 Lorsque vous modifiez l'un des champs dans la fiche société contact, le programme modifie automatiquement ce champ dans la fiche personne contact (sauf si vous avez modifié ce champ manuellement).

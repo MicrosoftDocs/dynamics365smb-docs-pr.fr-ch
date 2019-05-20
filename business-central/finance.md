@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 04/01/2019
+ms.date: 05/02/2019
 ms.author: edupont
-ms.openlocfilehash: 1a2a48f357a553f8cd7836e0dd02ccaf8078c0db
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: 4f62954b7cc427eac84e78a4cb19a61387d423b3
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "911567"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446983"
 ---
 # <a name="finance"></a>Finance
 [!INCLUDE[d365fin](includes/d365fin_md.md)] comprend une configuration standard de la plupart des processus financiers, mais vous pouvez modifier la configuration pour l'adapter à votre activité. Pour plus d'informations, reportez-vous à [Configuration de Finance](finance-setup-finance.md).
@@ -33,10 +33,10 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |Faire en sorte que vos clients envoient leur règlement avant la livraison ou envoyer le paiement à vos fournisseurs avant qu'ils n'effectuent la livraison.|[Facturation d'acomptes](finance-invoice-prepayments.md)|
 | Rapprocher des comptes bancaires et transférer des fonds entre comptes bancaires. |[Gestion des comptes bancaires](bank-manage-bank-accounts.md) |
 |Configurer les partenaires intersociétés et traiter les transactions, manuellement ou automatiquement, entre les personnes morales dans la même société.|[Gestion des transactions intersociétés](intercompany-manage.md)|
-|Combiner des écritures comptables de plusieurs sociétés dans une société consolidée virtuelle pour l'analyse financière.|[Consolidation des données financières de plusieurs sociétés](finance-consolidated-company-reporting.md)|
 |Analyser les coûts de fonctionnement de votre activité en affectant les coûts réels et budgétés des opérations, des départements, des produits et des projets relatifs aux centres de coûts.|[Comptabilité pour les coûts](finance-manage-cost-accounting.md)|
 |Gérer les coûts ajustés et de fabrication, générer des états sur les coûts et rapprocher les coûts avec la comptabilité.|[Gestion des coûts ajustés](finance-manage-inventory-costs.md)|
 | Comprendre les écritures comptables et le plan comptable. |[Familiarisation avec les écritures comptables et les COA](finance-general-ledger.md) |
+|Combiner des écritures comptables de plusieurs sociétés dans une société consolidée virtuelle pour l'analyse financière.|[Consolidation des données financières de plusieurs sociétés](finance-consolidated-company-reporting.md)|
 | Ajouter des axes analytiques pour un veille économique enrichie. |[Utilisation des axes analytiques](finance-dimensions.md) |
 | Créer des budgets comptabilité pour prévoir différentes activités financières et affecter des axes analytiques à des fins de veille économique. |[Créer des budgets comptabilité](finance-how-create-budgets.md) |
 |Enregistrez les revenus ou les frais directement dans la comptabilité sans valider les documents commerciaux appropriés.|[Valider les transactions directement vers la comptabilité](finance-how-post-transactions-directly.md)|
@@ -47,10 +47,13 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | Identifiez les revenus et les dépenses dans des périodes autres que celles de la validation des transactions. |[Échelonner les recettes et les dépenses](finance-how-defer-revenue-expenses.md)|
 |En savoir plus sur l'utilisation de devises supplémentaires et mettre à jour les taux de change devise automatiquement. |[Mettre à jour des taux de change devise](finance-how-update-currencies.md)|
 | Importez des transactions de paie de votre fournisseur de paie dans les écritures comptables. |[Importer les transactions de paie](finance-how-import-payroll-transactions.md)|
-| Contrôlez le flux de trésorerie entrant et sortant de votre entreprise. |[Analyse des trésoreries dans votre société](finance-analyze-cash-flow.md) |
-| Utiliser des états financiers et des aperçus dans Excel. |[Analyse des états financiers dans Excel](finance-analyze-excel.md) |
-| Préparer la clôture d'un exercice ou d'une période comptable. |[Clôture des exercices et des périodes](year-close-years-periods.md) |
+|Utiliser des fonctions pour calculer la taxe sur la valeur ajoutée (TVA) sur les transactions de vente et d'achat afin de pouvoir déclarer les montants aux autorités fiscales.|[Utiliser la TVA sur les ventes et les achats](finance-work-with-vat.md)|
 |Préparer une déclaration qui répertorie la TVA des ventes, et envoyer la déclaration à l'administration fiscale de l'UE. | [Déclarer la TVA aux autorités fiscales](finance-how-report-vat.md)|
+|Convertir manuellement les contrats de service pour modifier leur taux de TVA.|[Convertir les contrats de service incluant des montants TVA](service-how-to-convert-service-contracts.md)|
+| Contrôlez le flux de trésorerie entrant et sortant de votre entreprise. |[Analyse des trésoreries dans votre société](finance-analyze-cash-flow.md) |
+|Procédure de suivi et de bout en bout sur l'utilisation des tableaux d'analyse pour effectuer des prévisions de trésorerie.|[Procédure pas-à-pas : créer des prévisions de trésorerie à l'aide de tableaux d'analyse](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
+| Utiliser des états financiers et des aperçus dans Excel. |[Analyse des états financiers dans Excel](finance-analyze-excel.md) |
+|Apprendre à utiliser le tableau de bord Comptable, à inviter un comptable externe et à utiliser Accountant Hub pour gérer les comptes de plusieurs clients.|[Expériences de comptables dans Business Central](finance-accounting.md)|  
 
 ## <a name="see-also"></a>Voir aussi
 [Configuration de Finance](finance-setup-finance.md)  

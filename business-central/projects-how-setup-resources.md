@@ -13,11 +13,11 @@ ms.search.keywords: project management, capacity, staff
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: dc3c7f272eb6566178e1599d603a2b83da1de5a3
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "914676"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1253278"
 ---
 # <a name="set-up-resources"></a>Paramétrer des ressources
 Pour gérer correctement les activités liées aux ressources, vous devez configurer ces dernières, ainsi que les coûts et prix associés. Les prix, remises et règles de facteur coût associés au projet, sont définis dans la fiche projet. Vous pouvez spécifier les coûts et prix pour des ressources individuelles, des groupes de ressources, ou toutes les ressources disponibles de la société.

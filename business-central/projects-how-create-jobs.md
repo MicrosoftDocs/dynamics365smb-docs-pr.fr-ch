@@ -9,11 +9,11 @@ ms.search.keywords: project management, task
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 2e2ab155f4d326ab16b7730e64711d5b91343768
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "915638"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1253301"
 ---
 # <a name="create-jobs"></a>Créer des projets
 Lorsque vous démarrez un nouveau projet, vous devez créer une fiche projet avec des tâches intégrées et des lignes planning structurées en deux couches.  

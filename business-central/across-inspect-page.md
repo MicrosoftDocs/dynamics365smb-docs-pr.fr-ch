@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: jswymer
 ms.date: 04/01/2019
-ms.openlocfilehash: eb9d4ec76c0dbbd59763f7622ca51137c9563a91
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.openlocfilehash: e747757ec6942ede0e237e013703ebf6d3df189b
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "969893"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1447029"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Inspection des pages dans Business Central
 
@@ -22,7 +22,7 @@ La fonction Inspection des pages vous permet d'obtenir des détails sur une page
 
 ## <a name="working-with-page-inspection"></a>Utilisation de la fonction Inspection des pages
 
-Pour inspecter une page, dans l'angle supérieur droit, sélectionnez ![Icône Paramètres](media/ui-experience/settings_icon_small.png), puis **Inspecter**. Sinon, vous pouvez utiliser le raccourci clavier **Ctrl+Alt+F1**.
+Vous commencez l'inspection des pages dans la page **Aide et support**. Cliquez sur le point d'interrogation dans le coin supérieur droit, sur **Aide et support**, puis sur **Inspecter les pages et les données**. Sinon, vous pouvez utiliser le raccourci clavier **Ctrl+Alt+F1**.
 
 Le volet **Inspection des pages** s'ouvre sur le côté. La figure suivante illustre le volet **Inspection des pages** sur la page **Commande vente**.
 

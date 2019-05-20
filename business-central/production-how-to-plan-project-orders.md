@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 30fcb660632a529d907ffd675087960ef8ca6674
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "916916"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1253255"
 ---
 # <a name="plan-project-orders"></a>Planifier les O.F. projets
 Cette tâche de planification est lancée à partir d'une commande vente et utilise la page **Planification commande vente**. Une fois que vous avez créé un O.F. projet, vous pouvez le planifier davantage à l'aide de la page **Planning commande**.  

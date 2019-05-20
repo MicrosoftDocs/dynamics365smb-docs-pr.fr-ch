@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: e1f6af964dad89a8a311f315f8885aaa94b92427
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "930513"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252364"
 ---
 # <a name="set-up-shipping-agents"></a>Configurer des transporteurs
 Vous pouvez définir un code pour chacun de vos transporteurs et saisir les informations qui les concernent.  

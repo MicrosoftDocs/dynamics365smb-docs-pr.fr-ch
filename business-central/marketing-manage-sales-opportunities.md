@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 19f7c77a115f473238441b8c67417e53c0896625
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: 3a719e7b2d44a6cf67335b938a0899a52fcde41b
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "915491"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446845"
 ---
 # <a name="managing-sales-opportunities"></a>Gestion des opportunités de ventes
 Tout prospect entrant peut être considéré comme une opportunité de vente. Vous pouvez créer des opportunités et les associer à un vendeur afin de pouvoir suivre les ventes potentielles.
@@ -30,7 +30,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | --- | --- |
 | Configurer les cycles de vente que vous suivez habituellement et les différentes étapes de chaque cycle de vente opportunité. |[Configurer des cycles de vente opportunité et des étapes de cycle](marketing-how-setup-opportunity-sales-cycles-stages.md) |
 | Créer des opportunités de vente à partir de vos contacts. |[Créer des opportunités](marketing-how-create-opportunities.md) |
-| Déplacer une opportunité de vente au sein du cycle de vente jusqu'à l'achèvement. |[Traitement des opportunités de vente](marketing-processing-sales-opportunities.md) |
+| Déplacer une opportunité de vente au sein du cycle de vente jusqu'à l'achèvement. |[Traiter des opportunités de vente](marketing-processing-sales-opportunities.md) |
 
 ## <a name="see-also"></a>Voir aussi
 [Ventes](sales-manage-sales.md)  

@@ -11,11 +11,11 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: 16f334548d9831507970a1b74ba5fa1716611380
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "922103"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1253738"
 ---
 # <a name="personalizing-your-workspace"></a>Personnalisation de votre espace de travail
 
@@ -89,7 +89,7 @@ Pour afficher ou masquer des actions ou des groupes, sélectionnez-les, puis sé
 |------|------------
 |**Supprimer**|Cette option s'affiche si l'action sélectionnée est également affichée ailleurs dans la barre d'actions. En choisissant cette option, vous supprimez l'action de l'emplacement sélectionné afin qu'elle n'apparaisse plus. L'action ou le groupe d'actions reste dans les autres emplacements. |
 |**Masquer**|Cette option s'affiche si l'action ou le groupe d'actions apparaît nulle part ailleurs dans la barre d'actions. Comme **Supprimer**, choisissez cette option pour inciter l'action ou le groupe d'actions à disparaître de la barre d'actions. Toutefois, en mode personnalisation, l'action ou le groupe d'actions est toujours affiché dans l'emplacement actuel, sauf si elle/il apparaît atténué(e).|
-|**Afficher**|Cette option s'affiche si l'action ou le groupe d'actions a été précédemment masqué(e) (atténué(e)). En choisissant cette option, vous permettez à l'action ou au groupe d'actions de figurer dans la barre d'actions.|
+|**Afficher**|Cette option s'affiche si l'action ou le groupe d'actions a été précédemment masqué(e) (atténué(e). En choisissant cette option, vous permettez à l'action ou au groupe d'actions de figurer dans la barre d'actions.|
 
 ### <a name="to-move-actions-and-action-groups"></a>Pour déplacer les actions et groupes d'actions
 

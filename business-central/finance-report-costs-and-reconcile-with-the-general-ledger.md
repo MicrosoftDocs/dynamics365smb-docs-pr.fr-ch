@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 05/02/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7ebdf239e592faedd1502c8fff50dd91e474352f
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: d92d732b99eedb06eb0185d1227252e1ace95334
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917734"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446891"
 ---
 # <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Génération des coûts et rapprochement en comptabilité
 À la fin de la période comptable (mensuelle, annuelle, etc.), une série de tâches de contrôle des coûts et d'audit doivent être effectuées pour déclarer une valeur en stock correcte et équilibrée au département Finances. Outre les tâches habituelles de validation qui transfèrent les écritures valeur de chaque article vers les comptes généraux appropriés, l'auditeur ou le contrôleur responsable de cette tâche critique a accès à plusieurs états et fonctions de suivi, ainsi qu'à un outil de rapprochement.  
@@ -31,7 +31,6 @@ ms.locfileid: "917734"
 |Afficher la valeur en stock des articles sélectionnés, y compris leur coût réel et prévu à la date spécifiée.|**Éval. stock - Composante coût**|  
 |Utiliser un état pour analyser les raisons des écarts de coûts ou pour obtenir un aperçu du coût des marchandises vendues (CMV).|État **Analyse des coûts**|  
 |Valider périodiquement les écritures valeur des transactions article de l'écriture inventaire dans les comptes généraux associés pour rapprocher les deux comptabilités.|[Rapprocher les coûts ajustés avec la comptabilité](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
-|Utiliser une page pour vérifier le rapprochement de l'écriture inventaire et de la comptabilité.|[Rapprocher les coûts ajustés avec la comptabilité](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
 |Déterminer le montant TEC devant être valider dans les comptes de bilan pour la génération d'états de clôture d'exercice.|[Surveiller la progression et les performances](projects-how-monitor-progress-performance.md)|
 
 ## <a name="see-also"></a>Voir aussi  

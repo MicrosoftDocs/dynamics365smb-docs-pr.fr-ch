@@ -13,11 +13,11 @@ ms.search.keywords: service, cost, service order
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 8683d82b4a6f56f415f3b66efa5be11b003fe878
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "926621"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252018"
 ---
 # <a name="set-up-pricing-and-additional-costs-for-services"></a>Configurer la tarification et les frais supplémentaires pour les services
 Les fonctions de tarification de [!INCLUDE[d365fin](includes/d365fin_md.md)] permettent de configurer et de personnaliser votre application afin d'appliquer et d'ajuster la tarification des articles de service, réparations et commandes. Les décisions en matière de tarification sont alors facilement transmises au processus de facturation.  

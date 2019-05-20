@@ -8,11 +8,11 @@ ms.search.keywords: news, release notes, roadmap, whats new
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 74d31e773020351fb5231fb4452ab83bbbb97d69
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "922638"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1253600"
 ---
 # <a name="whats-new-in-dynamics-365-business-central"></a>Nouveautés dans Dynamics 365 Business Central
 
