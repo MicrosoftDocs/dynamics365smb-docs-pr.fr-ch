@@ -13,11 +13,11 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 79504010d6bb4f2afb0f09f866991dd76f6e35b5
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "923709"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245639"
 ---
 # <a name="find-posted-documents-without-incoming-document-records"></a>Rechercher des enregistrements validés sans enregistrements document entrant
 Depuis les pages **Plan comptable** et **Écritures comptables**, vous pouvez utiliser la fonction de recherche pour rechercher les écritures comptables pour des documents achat et vente validés qui n'ont pas d'enregistrement de document entrant, puis les lier de façon centralisée à des enregistrements existants ou en créer de nouveaux avec des fichiers joints.

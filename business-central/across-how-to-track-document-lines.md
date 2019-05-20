@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 2e308fc6bd84e608f641bca1b94b8e6b226a30fb
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "912134"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241159"
 ---
 # <a name="track-document-lines"></a>Suivre des lignes document
 Vous pouvez afficher les documents associés aux lignes commande vente et aux lignes commande achat, notamment à partir des lignes commande archivées. Les documents associés que vous pouvez suivre comprennent les devis, les expéditions, les réceptions et les commandes ouvertes. Cela vous aide à identifier les documents utilisés pour traiter les commandes.  

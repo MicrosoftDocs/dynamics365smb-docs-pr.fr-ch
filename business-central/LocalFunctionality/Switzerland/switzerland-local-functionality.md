@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: soalex
 ms.openlocfilehash: 9128135404f5cf8775763967cf3d3ccd7573b9a1
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "931456"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241417"
 ---
 # <a name="switzerland-local-functionality"></a>Fonctionnalité locale, Suisse
 Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à la version suisse de [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  

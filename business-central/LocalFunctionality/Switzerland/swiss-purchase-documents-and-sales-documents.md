@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 542698a1360f839f0dc22fe00def379a731d7aeb
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "934024"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241240"
 ---
 # <a name="swiss-purchase-documents-and-sales-documents"></a>Documents vente et Documents achat, Suisse
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] comprend des améliorations suisses propres aux documents d'achat et de vente. Notamment :  

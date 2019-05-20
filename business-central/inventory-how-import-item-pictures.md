@@ -12,11 +12,11 @@ ms.search.keywords: product, image
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: fa859d3e350cedb845df47521ee58ba8d2e4aade
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "940647"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243081"
 ---
 # <a name="import-multiple-item-pictures"></a>Importer plusieurs images d'article
 Vous pouvez importer plusieurs images d'articles à la fois. Nommez simplement vos fichiers image avec des noms correspondant à vos numéros d'article, comprimez-les en un fichier ZIP, puis utilisez la page **Importer les images d'articles** pour gérer quelles images d'articles importer.

@@ -13,11 +13,11 @@ ms.search.keywords: incoming document
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 9ef598ec969e406d2e64519c31521d2444849d58
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "910282"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1240272"
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a>Gérer la boîte de réception et la boîte d'envoi intersociétés
 Toutes les transactions intersociétés que vous recevez par voie électronique de vos partenaires intersociétés sont stockées dans la boîte de réception Intersociétés.  

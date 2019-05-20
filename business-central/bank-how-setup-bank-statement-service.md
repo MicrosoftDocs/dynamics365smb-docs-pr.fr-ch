@@ -1,5 +1,5 @@
 ---
-title: Configurer le flux de la Yodlee Bank| Microsoft Docs
+title: Configurer le service Yodlee Bank Feeds| Microsoft Docs
 description: Vous pouvez convertir les informations paiement dans n'importe quel format de données que votre banque nécessite et activer l'exportation ou l'importation des fichiers bancaires.
 services: project-madeira
 documentationcenter: ''
@@ -13,20 +13,20 @@ ms.search.keywords: Yodlee, feed, stream, payment process
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 9fa3911ceeb94d523709d1029db9527b868bc199
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941834"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246668"
 ---
-# <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Configurer le service de flux de la Envestnet Yodlee Bank
+# <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Configurer le service Envestnet Yodlee Bank Feeds
 Vous pouvez importer des relevés bancaires électroniques auprès de votre banque pour renseigner rapidement la page **Feuille rapprochement bancaire** de sorte à pouvoir lettrer les paiements et rapprocher le compte bancaire. Pour plus d'informations, reportez-vous à [Lettrage automatique des paiements et rapprochement des comptes bancaires](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 > [!NOTE]
 > Le service Envestnet Yodlee Bank Feeds est pris en charge uniquement dans la version en ligne de Business Central. Pour utiliser cette fonctionnalité sur site, vous devez obtenir un compte de cobrand d'Envestnet Yodlee.<br /><br />
 > Le service Envestnet Yodlee Bank Feeds n'est pris en charge qu'aux États-Unis, au Canada et au Royaume-Uni.
 
-Le service de flux de la banque Envestnet Yodlee est installé comme une extension de [!INCLUDE[d365fin](includes/d365fin_md.md)] en ligne et est prêt à être activé dans les pays pris en charge. Pour plus d'informations, voir [Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md).
+Le service Envestnet Yodlee Bank Feeds est installé comme une extension de [!INCLUDE[d365fin](includes/d365fin_md.md)] en ligne et est prêt à être activé dans les pays pris en charge. Pour plus d'informations, voir [Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md).
 
 Une fois que vous avez activé le service de flux bancaire, vous devez lier le compte bancaire au compte bancaire en ligne à partir duquel proviendra le flux. Vous liez des comptes bancaires à des comptes bancaires en ligne dans chacun des scénarios suivants :
 
@@ -55,7 +55,7 @@ Le service de flux bancaire est activé lorsque vous liez un compte bancaire à 
 2. Sélectionnez le compte bancaire approprié, puis sélectionnez **Créer un compte bancaire lié**. La page **Comptes bancaires liés** s'ouvre au bout de quelques instants.
 
     > [!NOTE]  
-    > Cette page affiche la page Web réelle du service de flux de la Envestnet Yodlee Bank. La terminologie et la fonctionnalité de la page peuvent ne pas correspondre aux instructions fournies dans cette rubrique.  
+    > Cette page affiche la page Web réelle du service Envestnet Yodlee Bank Feeds. La terminologie et la fonctionnalité de la page peuvent ne pas correspondre aux instructions fournies dans cette rubrique.  
 3. Sur la page **Comptes bancaires en ligne liés**, dans le volet **Lier un compte**, utilisez la fonction de recherche pour trouver la banque qui abrite un ou plusieurs de vos comptes bancaires en ligne.
 4. Choisissez le nom de la banque. Le volet **Connexion** s'ouvre.
 5. Saisissez le nom de l'utilisateur et le mot de passe que vous utilisez pour la connexion à la banque en ligne, puis cliquez sur le bouton **Suivant**.  

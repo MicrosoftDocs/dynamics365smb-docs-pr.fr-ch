@@ -13,11 +13,11 @@ ms.search.keywords: warehouse, stock
 ms.date: 04/01/2019
 ms.author: SorenGP
 ms.openlocfilehash: 7baf0c8798a66e092c256059b77a8c9e78db48da
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "928762"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1240088"
 ---
 # <a name="set-up-general-inventory-information"></a>Définir des informations générales relatives aux stocks
 Vous pouvez spécifier des paramètres de stock généraux sur la page **Paramètres stock**.

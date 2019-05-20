@@ -11,11 +11,11 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: e8744455f41897f00315968cc10f12f18bf042b9
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "919575"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245273"
 ---
 #  <a name="create-analysis-reports"></a>Créer des rapports d'analyse
 Les directeurs des ventes doivent analyser de manière régulière les rotations, la marge bénéficiaire brute et d'autres indicateurs de performance des ventes clés. Les acheteurs, eux, s'intéressent plutôt à la dynamique des volumes d'achat, des performances des fournisseurs et des prix d'achat. Par ailleurs, les gestionnaires des stocks et directeurs de la logistique ont besoin d'informations sur la rotation des stocks, d'une analyse des mouvements de stock et de statistiques sur la valeur du stock.  

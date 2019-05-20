@@ -11,11 +11,11 @@ ms.search.keywords: adjustment, status, negative, positive, increase, decrease
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 24b89662ed772280da8f5f8f08677f644f75922e
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "940657"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1240295"
 ---
 # <a name="count-inventory-using-documents"></a>Faire l'inventaire à l'aide de documents
 Vous pouvez effectuer l'inventaire d'un stock physique de vos articles à l'aide des documents Commande de stock physique et Enregistrement de stock physique. La page **Commande de stock physique** est utilisée pour organiser le projet d'inventaire complet, par exemple un par magasin. La page **Enregistrement de stock physique** est utilisée pour communiquer et capturer le nombre réel d'articles. Vous pouvez créer plusieurs enregistrements pour une commande, par exemple, pour répartir les groupes d'articles vers différents employés.

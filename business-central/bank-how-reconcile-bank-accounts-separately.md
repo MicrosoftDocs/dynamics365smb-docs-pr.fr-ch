@@ -13,11 +13,11 @@ ms.search.keywords: bank account balance, bank statement
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 60b3e0d732125f60b092a0e089cabc2b82ad71ef
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "932047"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245111"
 ---
 # <a name="reconcile-bank-accounts-separately"></a>Rapprocher des comptes bancaires séparément
 Pour rapprocher des comptes bancaires dans [!INCLUDE[d365fin](includes/d365fin_md.md)] avec des relevés reçus de la banque, vous commencez par renseigner le volet gauche de la page **Rapprochement bancaire** avec les informations de relevé bancaire, puis vous les mettez en correspondance (rapprochez) avec les écritures comptables compte bancaire dans le volet droit. Pour renseigner les lignes de relevé bancaire de manière intelligente, importez un fichier ou flux de relevé bancaire.
@@ -28,7 +28,7 @@ Pour rapprocher des comptes bancaires dans [!INCLUDE[d365fin](includes/d365fin_m
 > [!TIP]  
 > Vous pouvez également rapprocher des comptes bancaires sur la page **Feuille rapprochement paiement**. Toutes les écritures comptables compte bancaire ouvertes associées au client lettré ou à des écritures comptables fournisseur sont clôturées lorsque vous sélectionnez l'action **Valider les paiements et rapprocher les comptes bancaires**. Cela signifie que le compte bancaire est automatiquement rapproché pour les paiements que vous validez avec le journal. Pour plus d'informations, voir [Rapprocher les paiements à l'aide du lettrage automatique](receivables-how-reconcile-payments-auto-application.md).
 
-Pour activer l'importation des relevés bancaires en tant que flux bancaires, vous devez d'abord configurer et activer le service de flux de la Envestnet Yodlee Bank, puis associer vos comptes bancaires aux comptes bancaires connexes en ligne. Pour plus d'informations, voir [Configurer le service de flux de la Envestnet Yodlee Bank](bank-how-setup-bank-statement-service.md).
+Pour activer l'importation des relevés bancaires en tant que flux bancaires, vous devez d'abord configurer et activer le service Envestnet Yodlee Bank Feeds, puis associer vos comptes bancaires aux comptes bancaires connexes en ligne. Pour plus d'informations, voir [Configurer le service Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
 Les lignes de la page **Rapprochement bancaire** sont réparties sur deux volets. Le volet **Lignes relevé bancaire** indique le volet des transactions bancaires importées ou les écritures comptables comportant des arriérés de paiement. Le volet **Écritures comptables compte bancaire** affiche les écritures comptables dans le compte bancaire.
 

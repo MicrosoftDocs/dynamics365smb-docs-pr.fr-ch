@@ -11,11 +11,11 @@ ms.search.keywords: company, setup wizard
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: eae262341eb61e40f130caf45bb838a62aa67cf2
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "916609"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245227"
 ---
 # <a name="creating-new-companies-in-included365finincludesd365finmdmd"></a>Création de sociétés dans [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], les conteneurs pour les données métier appartenant à une unité commerciale ou une entité juridique sont désignés en tant que *société*. Lorsque vous vous connectez à [!INCLUDE[d365fin](includes/d365fin_md.md)], une société de démonstration et une société vide vous sont attribuées, *Ma société*. Le basculement entre sociétés est facile - accédez simplement à **Mes paramètres** et passez à l'autre société. Vous pouvez également créer de nouvelles sociétés dans [!INCLUDE[d365fin](includes/d365fin_md.md)], selon les besoins de votre activité. Lorsque vous créez une société, un guide de configuration assistée vous permet d'obtenir les fondements de base. Ensuite, vous pouvez importer des données appropriées à partir de votre système hérité ou d'une autre société dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  

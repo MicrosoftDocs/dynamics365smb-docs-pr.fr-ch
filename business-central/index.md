@@ -10,11 +10,11 @@ ms.workload: na
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: bcfbd42793e67f306b226c02951fc0227bc095a4
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "920453"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241340"
 ---
 # <a name="welcome-to-included365finlongincludesd365finlongmdmd"></a>Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] est une solution de gestion d'entreprise pour les PME qui automatise et simplifie les processus entreprise et vous aide à gérer votre entreprise. Hautement adaptable et riche en fonctionnalités, [!INCLUDE[d365fin](includes/d365fin_md.md)] permet aux entreprises de gérer leurs activités, y compris la finance, la fabrication, l'expédition, la gestion de projets, les services, etc. Celles-ci peuvent facilement ajouter des fonctionnalités adaptées aux types d'opérations exécutés et personnalisées pour une prise en charge des secteurs hautement spécialisés.

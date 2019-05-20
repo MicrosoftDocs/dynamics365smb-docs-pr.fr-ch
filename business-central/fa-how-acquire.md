@@ -13,11 +13,11 @@ ms.search.keywords: purchase fixed asset
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 1532fef560b01a999fbcbc16b279a82193af92ab
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "926384"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247132"
 ---
 # <a name="acquire-fixed-assets"></a>Acquérir des immobilisations
 Pour chaque immobilisation, vous devez créer une fiche contenant des informations la concernant. Vous pouvez configurer des bâtiments ou un équipement de production en tant qu'actif principal avec une liste de composants et vous pouvez les regrouper de différentes façons, comme par catégorie, département ou emplacement. Une loi d'amortissement doit être configurée et assignée à chaque immobilisation avant que vous puissiez l'acquérir.

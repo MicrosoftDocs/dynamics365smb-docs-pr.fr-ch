@@ -13,11 +13,11 @@ ms.search.keywords: relationship, prospect
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 75f055dcc862f3954aa0c50d6d22643940baa538
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "938980"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243307"
 ---
 # <a name="create-contacts"></a>Créez des contacts
 Vous rencontrez régulièrement des personnes d'autres sociétés, ce qui peut générer de nouvelles relations commerciales, comme une relation client. À la création d'un tel contact, il convient d'enregistrer le plus d'informations possible sur une fiche contact afin que la communication puisse se poursuivre.

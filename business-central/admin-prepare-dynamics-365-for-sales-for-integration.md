@@ -13,11 +13,11 @@ ms.search.keywords: sales, crm, integration, integrating
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 991d8432c24b1963da019e3c8b665f9ad009d077
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "940643"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247295"
 ---
 # <a name="integrating-with-dynamics-365-for-sales"></a>Intégration à Dynamics 365 for Sales
 Le rôle de vendeur est souvent considéré comme tourné vers l'extérieur dans une entreprise. Toutefois, il peut être utile pour les vendeurs d'être en mesure de regarder à l'intérieur de l'entreprise et d'observer ce qu'il s'y passe en arrière-plan. En intégrant [!INCLUDE[d365fin](includes/d365fin_md.md)] et [!INCLUDE[crm_md](includes/crm_md.md)], vous pouvez donner à vos vendeurs cet aperçu en leur permettant de visualiser les informations dans [!INCLUDE[d365fin](includes/d365fin_md.md)] pendant qu'ils travaillent dans [!INCLUDE[crm_md](includes/crm_md.md)]. Par exemple, dans le cadre de la préparation d'un devis, il peut s'avérer utile de savoir si vous avez suffisamment de stock pour répondre à la commande. Pour plus d'informations, reportez-vous à la rubrique [Utilisation de Dynamics 365 for Sales depuis Business Central](marketing-integrate-dynamicscrm.md)

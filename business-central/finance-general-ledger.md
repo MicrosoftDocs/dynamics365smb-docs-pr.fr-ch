@@ -13,11 +13,11 @@ ms.search.keywords: analysis, history, track
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: b16c36bb5e6f3d9a6909f1937e793599062114c6
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "914602"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1242736"
 ---
 # <a name="understanding-the-general-ledger-and-the-coa"></a>Familiarisation avec les écritures comptables et les COA
 Les écritures comptables stockent vos données financières, et le plan comptable affiche les comptes sur lesquels toutes les écritures comptables sont validées. [!INCLUDE[d365fin](includes/d365fin_md.md)] inclut un plan comptable standard prêt à prendre en charge votre société.

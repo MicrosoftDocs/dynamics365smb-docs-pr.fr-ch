@@ -4,20 +4,20 @@ description: Les acomptes sont des paiements qui sont facturés et validés dans
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 08/07/2017
 ms.author: sgroespe
 ms.openlocfilehash: dbf1ea7104501fb4bee2fe62eed1039c3c441c16
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "932071"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1238777"
 ---
 # <a name="invoicing-prepayments"></a>Facturation d'acomptes
 Les acomptes sont des paiements qui sont facturés et validés dans une commande acompte vente ou achat avant la facturation finale. Vous pouvez demander un acompte avant de fabriquer les produits commandés ou demander à ce que le paiement soit effectué avant d'envoyer les articles à un client. La fonctionnalité d'acomptes vous permet de facturer et de collecter les acomptes requis des clients ou de régler des acomptes aux fournisseurs. Vous pouvez ainsi vous assurer que tous les paiements sont validés sur une facture.  

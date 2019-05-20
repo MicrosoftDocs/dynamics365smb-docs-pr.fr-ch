@@ -13,11 +13,11 @@ ms.search.keywords: multiple currencies
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: a9fa636fb68a428da3c587e59be1bf76cf976207
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "926953"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1238961"
 ---
 # <a name="update-currency-exchange-rates"></a>Mettre à jour des taux de change devise
 Les sociétés opérant dans un nombre croissant de pays/régions, il est de plus en plus important qu'elles puissent échanger ou générer des états financiers dans plusieurs devises. Vous devez définir un code pour chaque devise utilisée si vous achetez ou vendez dans des devises différentes de votre devise locale, si vous disposez de comptes client ou fournisseur dans d'autres devises, ou si vous enregistrez des transactions comptables dans des devises différentes.

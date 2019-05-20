@@ -12,11 +12,11 @@ ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: finance-collect-payments-with-sepa-direct-debit
 ms.openlocfilehash: 2ca52a5c1e6f009f0a430e5b35b725c832132c6f
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "927047"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1242571"
 ---
 # <a name="set-up-sepa-direct-debit"></a>Configurer un prélèvement SEPA
 Sur la page **Recouvrements prélèvement**, vous pouvez exporter des instructions vers votre banque électronique pour exécuter un recouvrement par prélèvement automatique depuis le compte bancaire du client vers votre compte bancaire. [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge le format de prélèvement SEPA, mais dans votre pays/région, d'autres formats de paiements électroniques peuvent être disponibles.  

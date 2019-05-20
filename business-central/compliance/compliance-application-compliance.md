@@ -12,11 +12,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: soalex
 ms.openlocfilehash: 283fe8bd51cca855f97b682c3b77c3e8805514e6
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "912817"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246902"
 ---
 # <a name="application-compliance"></a>Conformité des applications
 Ce contenu comporte des informations sur la conformité des applications concernant [!INCLUDE[d365fin](../includes/d365fin_md.md)], comme les normes internationales de génération d'états financiers, la fonctionnalité locale, le RGPD et plus encore. La confiance dans une solution de gestion d'entreprise est essentielle à un activité efficace. Avec Business Central, les sociétés importantes ont la possibilité de rationaliser les processus d'entreprise tout en respectant uniformément et de façon rentable les exigences de plus en plus strictes en matière de réglementation et de génération d'états.

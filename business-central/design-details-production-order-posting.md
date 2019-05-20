@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: f15f965237401f668325ab1a10d1e154bf00254f
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "935250"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1240341"
 ---
 # <a name="design-details-production-order-posting"></a>Détails de conception : validation d'ordre de fabrication
 Comme pour la validation d'ordre d'assemblage, les composants consommés et le temps du poste utilisé sont convertis et sortis en tant qu'article produit lorsque l'ordre de fabrication est terminé. Pour plus d'informations, voir [Détails de conception : modes évaluation stock](design-details-assembly-order-posting.md). Toutefois, le flux des coûts des ordres d'assemblage est moins complexe, notamment parce que la validation du coût d'assemblage ne se produit qu'une fois et ne génère donc pas de stock encours.

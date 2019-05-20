@@ -14,11 +14,11 @@ ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
 ms.openlocfilehash: a0ecfe62e70c434ecfd6d698424e20119be13554
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "918879"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246447"
 ---
 # <a name="design-details-handling-projected-negative-inventory"></a>Détails de conception : traitement du stock prévisionnel négatif
 Le point de commande exprime la demande anticipée lors du délai de l'article. Lorsque le point de commande est passé, il est temps de commander plus. Mais le stock prévisionnel doit être suffisamment élevé pour couvrir la demande jusqu'à ce que la commande soit reçue. Par ailleurs, le stock de sécurité doit se charger des fluctuations de la demande jusqu'à un niveau de service ciblé.  

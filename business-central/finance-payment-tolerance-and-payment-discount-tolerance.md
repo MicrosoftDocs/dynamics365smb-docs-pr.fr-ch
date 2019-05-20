@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: def9338cea3a1998aafac671e304c55f83fdece7
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "932733"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1242483"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Utilisation des écarts de règlement et des écarts d'escompte
 Vous pouvez configurer un écart de règlement de manière à fermer une facture lorsque le paiement ne couvre pas entièrement le montant de la facture. Vous pouvez configurer un écart de règlement pour accorder un escompte après expiration de la date d'escompte.  

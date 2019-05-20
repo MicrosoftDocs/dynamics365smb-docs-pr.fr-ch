@@ -11,11 +11,11 @@ ms.search.keywords: cash, VAT, unrealized, cash-based
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 69e4d4f4e924edd7eea45da73a3b0b5f71dd8cc0
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "928808"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243778"
 ---
 # <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Configurer la TVA sur encaissement pour la comptabilité basée sur la trésorerie
 Si vous utilisez des méthodes comptables basées sur la trésorerie, vous pouvez configurer [!INCLUDE[d365fin](includes/d365fin_md.md)] pour gérer la TVA sur encaissement.

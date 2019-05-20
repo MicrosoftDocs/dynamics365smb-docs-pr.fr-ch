@@ -9,11 +9,11 @@ ms.date: 04/01/2019
 ms.reviewer: na
 ms.topic: article
 ms.openlocfilehash: 3b49df32acdc9530eb56a26538dbc34e245ec1e3
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917397"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244924"
 ---
 # <a name="responding-to-requests-about-personal-data"></a>Réponse aux demandes relatives aux données personnelles  
 Les sujets des données peuvent demander plusieurs types d'actions concernant leurs données personnelles. Par exemple, en vertu du Règlement général sur la protection des données (RGPD), les résidents de l'UE ont le droit de demander l'exportation, la suppression et la modification de leurs données personnelles. Cela est appelé *Demande du sujet des données*. Si vous avez classé la sensibilité de vos données et si vous êtes sûr qu'elles sont correctes, un administrateur peut répondre aux demandes à l'aide des options disponibles sous **Confidentialité des données** dans le tableau de bord **Gérer les utilisateurs, les groupes d'utilisateurs et les autorisations** ou, si vous utilisez le client Windows, dans le tableau de bord **Responsable informatique**. Pour plus d'informations sur la classification des données et la classification de la sensibilité des données dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], voir [Classification des données](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) et [Classification de la sensibilité des données](admin-classifying-data-sensitivity.md).  

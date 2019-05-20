@@ -4,20 +4,20 @@ description: Des reliquats d'arrondi peuvent se produire lorsque vous évaluez l
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 07/01/2017
 ms.author: sgroespe
 ms.openlocfilehash: d4a4893ade7d89ad7874fd489cd7a74e4ae914e2
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "921929"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1239467"
 ---
 # <a name="design-details-rounding"></a>Détails de conception : arrondi
 Des reliquats d'arrondi peuvent se produire lorsque vous évaluez le coût d'une sortie de stock qui est mesurée dans une quantité différente de l'entrée de stock correspondante. Les reliquats d'arrondi sont calculés pour tous les modes d'évaluation du stock lorsque vous exécutez le traitement par lots **Ajuster coûts - Écr. article**.  

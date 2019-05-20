@@ -13,11 +13,11 @@ ms.search.keywords: reimbursement
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: f2767fca96e1f3689fc4806d878381d02622f261
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "938606"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243749"
 ---
 # <a name="reverse-postings"></a>Inversion d'une validation
 Pour annuler une validation feuille erronée, sélectionnez l'écriture et créez une écriture inverse (écritures identiques aux écritures originales mais avec le signe opposé) portant les mêmes numéro de document et date comptabilisation que l'écriture d'origine. Une fois l'écriture contrepassée, créez l'écriture correcte.

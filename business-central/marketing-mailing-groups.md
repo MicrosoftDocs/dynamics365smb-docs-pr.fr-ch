@@ -14,11 +14,11 @@ ms.date: 04/01/2019
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
 ms.openlocfilehash: fb9c540819279d042685ad69c790e36e71dcfbed
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "936780"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1238294"
 ---
 # <a name="set-up-mailing-groups-for-contacts"></a>Configurer des groupes de distribution pour les contacts.
 Les groupes distribution vous permettent d'identifier les groupes de contacts qui doivent recevoir les mêmes informations. Par exemple, vous pouvez configurer un groupe de distribution pour les contacts auxquels vous souhaitez envoyer un avis de déménagement, ou un autre groupe auquel envoyer des cadeaux pour les fêtes de fin d'année.

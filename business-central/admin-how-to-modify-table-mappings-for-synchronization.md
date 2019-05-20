@@ -11,11 +11,11 @@ ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: de924baa494ae00c09dcb7657c050f2d9ae3ba87
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "940654"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247459"
 ---
 # <a name="modify-table-mappings-for-synchronization"></a>Modifier les mappages de table pour la synchronisation
 Un mappage de table d'intégration associe une table dans [!INCLUDE[d365fin](includes/d365fin_md.md)] à une table d'intégration pour l'entité [!INCLUDE[crm_md](includes/crm_md.md)]. À chaque entité de [!INCLUDE[crm_md](includes/crm_md.md)] à synchroniser avec les données correspondantes dans [!INCLUDE[d365fin](includes/d365fin_md.md)] doit correspondre un mappage de table d'intégration. Un mappage de table d'intégration comprend plusieurs paramètres qui vous permettent de contrôler comment les enregistrements d'une table [!INCLUDE[d365fin](includes/d365fin_md.md)] et une entité [!INCLUDE[crm_md](includes/crm_md.md)] sont synchronisés par les projets de synchronisation d'intégration correspondants.  

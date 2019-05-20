@@ -13,11 +13,11 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 21042f9eb55413a6627dab830091686e06c34acc
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "915303"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246925"
 ---
 # <a name="business-intelligence"></a>Veille économique
 Les entreprises capturent une énorme quantité de données de par leur activité quotidienne. Ces données, qui reflètent par exemple les chiffres de vente de l'organisation, les achats, les dépenses opérationnelles, les salaires des employés et les budgets, peuvent devenir des informations précieuse, ou veille économique, pour les décisionnaires. [!INCLUDE[d365fin](includes/d365fin_md.md)] contient un certain nombre de fonctionnalités qui vous permettent de collecter, d'analyser et de partager les données de votre société.

@@ -11,11 +11,11 @@ ms.search.keywords: upload, attach, attachments
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: cfed7b7946aaa24544c6ae47dfc9ebc39c00716d
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "934575"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1240899"
 ---
 # <a name="attaching-files-to-cards-and-documents"></a>Joindre des fichiers aux fiches et aux documents
 Vous pouvez joindre des images, des documents, et autres types de fichiers à toutes les fiches, telles que la fiche article et la fiche projet, et vous pouvez joindre des fichiers à tous les types documents vente et achat.

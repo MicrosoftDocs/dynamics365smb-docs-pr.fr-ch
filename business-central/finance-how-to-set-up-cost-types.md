@@ -14,11 +14,11 @@ ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: finance-set-up-cost-accounting
 ms.openlocfilehash: e0bf6a8c7595155785949ed51c765fef0524173b
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "922127"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1240502"
 ---
 # <a name="set-up-cost-types"></a>Configuration des types de coûts
 Le plan des types de coûts a la même fonction que le plan comptable général. Vous pouvez configurer le plan des types de coûts comme suit :  

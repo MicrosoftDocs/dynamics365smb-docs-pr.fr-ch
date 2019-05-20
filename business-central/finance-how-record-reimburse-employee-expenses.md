@@ -13,11 +13,11 @@ ms.search.keywords: reimbursement
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 660cb4d9f2238bffeb1c7eaf49d5d70dbb654f45
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "934047"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244806"
 ---
 # <a name="record-and-reimburse-employees-expenses"></a>Enregistrer et rembourser les frais des employés
 [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge les transactions des employés de la même manière que pour les fournisseurs. Par conséquent, les groupes comptabilisation des salariés existent pour s'assurer que les écritures comptables d'un salarié sont validées dans les comptes appropriés de la comptabilité.

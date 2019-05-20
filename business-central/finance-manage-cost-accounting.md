@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 75bd53acf885a79c1d3ea236240e2e7f2ca66829
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "916697"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1238800"
 ---
 # <a name="accounting-for-costs"></a>Comptabilité pour les coûts
 La comptabilité analytique vous permet de cerner les coûts liés à l'exploitation d'un activité. Pour vous familiariser avec la comptabilité analytique, reportez-vous aux rubriques suivantes.  

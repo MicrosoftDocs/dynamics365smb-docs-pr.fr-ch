@@ -1,1 +1,1 @@
-Dynamics 365 Business Central
+Dynamics 365 Business Central

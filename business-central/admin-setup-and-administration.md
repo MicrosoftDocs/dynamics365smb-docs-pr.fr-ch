@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: c5b76a434403da0d472b1e1fa9430d40ff082220
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "924466"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247207"
 ---
 # <a name="administration"></a>Administration
 Les tâches d'administration centrale sont généralement effectuées par une fonction dans la société. La portée de ces tâches peut dépendre de la taille de la société et des responsabilités de l'administrateur. Ces tâches sont notamment la gestion de la synchronisation de la base de données des files projets et messages, la configuration des utilisateurs et la personnalisation de l'interface utilisateur.  

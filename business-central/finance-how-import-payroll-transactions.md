@@ -11,11 +11,11 @@ ms.search.keywords: Ceridian, Quickbooks, salary
 ms.date: 04/01/2019
 ms.author: SorenGP
 ms.openlocfilehash: c483b50e7f1456c06ace27d3893c04a3d59e6ab8
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "924986"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243840"
 ---
 # <a name="import-payroll-transactions"></a>Importer les transactions de paie
 Pour tenir compte des paiements des salaires et des transactions associées, vous devez importer et valider des transactions financières effectuées par votre fournisseur de paie dans la comptabilité. Pour cela, vous devez commencer par importer un fichier que vous recevez du fournisseur de paie sur la page **Feuille comptabilité**. Vous devez ensuite mapper les comptes externes du fichier de paie aux comptes généraux appropriés. Enfin, vous devez valider les transactions de paie en fonction du mappage de compte.

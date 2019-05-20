@@ -13,11 +13,11 @@ ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 29c7b7656632d2103a16025848a6ddc82650353e
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "937909"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241617"
 ---
 # <a name="viewing-list-data-in-power-bi-reports-in-business-central"></a>Affichage des données de liste des états Power BI dans Business Central 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] inclut un élément de contrôle Récapitulatif sur un certain nombre de pages Liste des clés fournissant des informations supplémentaires sur les données de la liste. Lorsque vous vous déplacez entre les lignes de la liste, l'état est mis à jour et filtré pour l'écriture sélectionnée. Vous pouvez créer des états personnalisés pour qu'ils s'affichent dans ce contrôle, mais il y a certaines règles à suivre lors de la création des états pour s'assurer qu'ils adoptent le comportement souhaité.  

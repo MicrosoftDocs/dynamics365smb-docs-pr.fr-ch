@@ -13,11 +13,11 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 429e276b094a8296daab8e229d60a6dd16246b53
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "915859"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1239973"
 ---
 # <a name="manage-many-incoming-document-records"></a>Gérer de nombreux enregistrements document entrant
 Lors de la création ou du traitement des enregistrements document, le nombre de lignes sur la page **Documents entrants** peut croître de telle façon que vous perdez la vue d'ensemble. Par conséquent, vous pouvez définir les enregistrements de documents entrants sur Traité afin de les supprimer de la vue par défaut. Lorsque vous choisissez l'action **Afficher tout**, vous pouvez afficher les enregistrements traités et non traités.

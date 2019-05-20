@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: c318346c62b7776a550a77a2947173e33d5f17c0
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "940668"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246589"
 ---
 # <a name="setting-up-user-accounts-for-integrating-with-dynamics-365-for-sales"></a>Configuration des comptes d'utilisateur pour intégration à Dynamics 365 for Sales
 Cet article fournit un aperçu de la manière dont la configuration des comptes d'utilisateur requis pour intégrer [!INCLUDE[crm_md](includes/crm_md.md)] à [!INCLUDE[d365fin](includes/d365fin_md.md)].  

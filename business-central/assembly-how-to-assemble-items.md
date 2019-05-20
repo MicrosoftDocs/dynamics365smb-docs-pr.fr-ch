@@ -13,11 +13,11 @@ ms.search.keywords: kit, kitting
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 55d0ed4110796fa9f037e066d56be9efdd6649a4
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "921332"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247382"
 ---
 # <a name="assemble-items"></a>Assembler des articles
 Si le champ **Système réappro.** de la fiche client contient **Assemblage**, la méthode par défaut d'approvisionnement de l'article consiste à l'assembler à partir des composants définis et potentiellement par une ressource définie.  

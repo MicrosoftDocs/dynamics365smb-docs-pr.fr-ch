@@ -12,11 +12,11 @@ ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: finance-collect-payments-with-sepa-direct-debit
 ms.openlocfilehash: 4032fd0708dcb0d420045563354677c049321f7d
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "939073"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1238984"
 ---
 # <a name="create-sepa-direct-debit-collection-entries-and-export-to-a-bank-file"></a>Créer des écritures de collection prélèvement automatique SEPA et les exporter vers un fichier bancaire
 Pour demander à la banque de transférer le montant du paiement du compte bancaire du client vers le compte de votre société, vous créez une écriture de collection de prélèvement, qui conserve des informations sur le compte bancaire du client, les factures de vente concernées et le mandat de prélèvement. À partir de l'écriture de collection prélèvement automatique qui en résulte, vous exportez ensuite un fichier XML que vous envoyez ou transférez à votre banque électronique pour traitement. La banque vous communiquera tous les paiements qu'elle n'a pas pu traiter, et vous devez rejeter manuellement les écritures de collection prélèvement automatique en question.  

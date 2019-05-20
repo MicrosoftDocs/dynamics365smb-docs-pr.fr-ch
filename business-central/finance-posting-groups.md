@@ -13,11 +13,11 @@ ms.search.keywords: posting setup, initialize
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: ee93a04f1dd4f6d7d1796a759baa4c585d943c68
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "939096"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1242529"
 ---
 # <a name="setting-up-posting-groups"></a>Configuration de groupes comptabilisation
 Les groupes comptabilisation mappent des entités telles que les clients, les fournisseurs, les éléments, les ressources et les documents vente et achat dans des comptes généraux. Ils vous font gagner du temps et permettent d'éviter des erreurs lorsque vous validez des transactions. Les valeurs de transaction vont dans les comptes spécifiés dans le groupe comptabilisation pour cette entité particulière. Il vous suffit seulement d'avoir un plan comptable. Pour plus d'informations, reportez-vous à [Configuration du plan comptable](finance-setup-chart-accounts.md).  

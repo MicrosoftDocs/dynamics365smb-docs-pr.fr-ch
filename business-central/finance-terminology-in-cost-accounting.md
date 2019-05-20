@@ -4,20 +4,20 @@ description: Cette rubrique définit les conditions principales qui sont utilis�
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 07/01/2017
 ms.author: sgroespe
 ms.openlocfilehash: 53b696861178957a389e03a09ef4f78552ca0c7f
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "928880"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1238754"
 ---
 # <a name="terminology-in-cost-accounting"></a>Terminologie en comptabilité analytique
 Cette rubrique définit les conditions principales qui sont utilisés en comptabilité analytique.  

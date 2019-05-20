@@ -13,11 +13,11 @@ ms.search.keywords: design, item, tracking, serial number, lot number, outbound 
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: a482e0fed80d5e9380b6c6e0ec03557abbc02953
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917831"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1242115"
 ---
 # <a name="design-details-item-tracking-in-the-warehouse"></a>Détails de conception : traçabilité dans l'entrepôt
 La gestion de numéro de série et de numéro de lot est surtout une tâche d'entrepôt, et donc tous les documents entrepôt enlogement et désenlogement ont une fonctionnalité standard pour affecter et sélectionner des numéros traçabilité.  

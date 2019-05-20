@@ -11,11 +11,11 @@ ms.search.keywords: feature overview
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: f6eebcc59922e44bd5293e1a2bd9ece58777432b
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "911757"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245213"
 ---
 # <a name="business-functionality"></a>Fonctionnalités d'entreprise
 [!INCLUDE[d365fin](includes/d365fin_md.md)] fournit des fonctionnalités pour les processus entreprise communs dans des PME, surtout au sein de sociétés de vente en gros et de services professionnels. Toutefois, des processus plus complexes, comme l'assemblage, la fabrication, la maintenance et la gestion d'entrepôt suggérée sont également pris en charge.

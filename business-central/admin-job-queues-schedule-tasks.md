@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 1cf5b75bc63acfa07a90cda1d03f45579a0aa51d
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "935390"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247272"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Utiliser des files d'attente des travaux pour planifier des tâches
 Des files d'attente des travaux dans [!INCLUDE[d365fin](includes/d365fin_md.md)] permettent aux utilisateurs de planifier et d'exécuter des états et codeunits spécifiques. Vous pouvez définir des projets à exécuter une fois, ou sur une base récurrente. Par exemple, vous pouvez être amené à exécuter l'état **Vendeurs : Statistiques ventes** chaque semaine pour suivre les ventes hebdomadaires d'un vendeur, ou vous pouvez être amené à exécuter le codeunit **Traiter file att. e-mails serv** chaque jour pour vérifier si des e mails adressés aux clients concernant leurs commandes service sont envoyés en temps utile.

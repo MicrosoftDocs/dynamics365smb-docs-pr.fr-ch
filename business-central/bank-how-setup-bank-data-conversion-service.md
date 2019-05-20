@@ -11,11 +11,11 @@ ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, 
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 38c1ee9b37513b270dcad09238df4f841a961d1a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "927557"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245039"
 ---
 # <a name="set-up-the-bank-data-conversion-service"></a>Configurer le service de conversion de données bancaires
 Un fournisseur global de services permettant de convertir les informations de paiement dans n'importe quel format de données que votre banque requiert est connecté et prêt à être activé dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], il s'agit du service de conversion de données bancaires.
@@ -24,7 +24,7 @@ Vous pouvez exporter des lignes de paiement à partir de la page **Feuille paiem
 
 Vous pouvez importer des fichiers de relevé bancaire sur la page **Feuille rapprochement bancaire** à l'aide du service de conversion de données bancaires pour convertir un fichier que vous recevez de votre banque en flux de données que [!INCLUDE[d365fin](includes/d365fin_md.md)] peut importer. Pour plus d'informations, reportez-vous à [Lettrage automatique des paiements et rapprochement des comptes bancaires](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
-Vous pouvez utiliser le service Envestnet Yodlee Bank Feeds au lieu d'importer des relevés bancaires avec le service de conversion de données bancaires. Pour plus d'informations, voir [Configurer le service de flux de la Envestnet Yodlee Bank](bank-how-setup-bank-statement-service.md).
+Vous pouvez utiliser le service Envestnet Yodlee Bank Feeds au lieu d'importer des relevés bancaires avec le service de conversion de données bancaires. Pour plus d'informations, voir [Configurer le service Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
 Pour importer ou exporter des fichiers bancaires, vous devez configurer votre propre compte bancaire et les comptes bancaires de vos fournisseurs. Pour plus d'informations, reportez vous à [Configuration de comptes bancaires](bank-how-setup-bank-accounts.md).
 

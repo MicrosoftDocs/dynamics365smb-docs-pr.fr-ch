@@ -13,11 +13,11 @@ ms.search.keywords: kit, kitting
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 4581e1f21e87190d75aa0048e9f5aabf8dd85fe0
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "932542"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244369"
 ---
 # <a name="sell-assemble-to-order-items-and-inventory-items-together"></a>Vente simultanée d'articles à assembler pour commande et d'articles en stock
 Si le champ **Stratégie d'assemblage** de la fiche article d'un élément d'assemblage indique **Assembler pour stock**, le processus par défaut de commande vente se base sur l'hypothèse que l'article est déjà assemblé et peut être prélevé du stock, s'il est disponible. Par conséquent, aucun ordre d'assemblage n'est automatiquement créé et n'est lié à la ligne commande vente. Toutefois, si une partie (ou la totalité) de la quantité n'est pas disponible, vous avez la possibilité de créer un ordre d'assemblage pour la quantité restante lorsque vous renseignez le champ **Quantité à assembler pour commande** de la ligne commande vente. De cette manière, vous pouvez assembler l'article à commander même s'il est configuré pour être assemblé pour stock par défaut.  

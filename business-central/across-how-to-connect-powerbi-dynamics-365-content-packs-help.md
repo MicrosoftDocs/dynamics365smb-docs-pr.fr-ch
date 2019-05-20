@@ -12,11 +12,11 @@ ms.date: 04/01/2019
 ms.author: solsen
 redirect_url: admin-powerbi
 ms.openlocfilehash: b7e844f64a96ba02c1a5fa0231f7b6992f972677
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "932848"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247413"
 ---
 # <a name="connecting-power-bi-to-dynamics-365-business-central-content-packs"></a>Connexion de Power BI aux packs de contenu Dynamics 365 Business Central
 Il est facile d'obtenir des informations exploitables de vos données Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] grâce à Power BI et aux packs de contenu Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. Power BI extrait vos données, puis génère un tableau de bord prêt à l'emploi et des états basés sur ces données.

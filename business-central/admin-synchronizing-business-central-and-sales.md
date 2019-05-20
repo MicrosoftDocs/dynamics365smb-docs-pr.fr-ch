@@ -11,11 +11,11 @@ ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: e52010384de83d95011cb29a88cad17a5eba817c
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "940652"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247155"
 ---
 # <a name="synchronizing-data-in-business-central-and-dynamics-365-for-sales"></a>Synchronisation des données dans Business Central et Dynamics 365 for Sales
 Lorsque vous intégrez [!INCLUDE[crm_md](includes/crm_md.md)] avec [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez décider si vous souhaitez synchroniser les données dans les champs sélectionnés des enregistrements [!INCLUDE[d365fin](includes/d365fin_md.md)] (tels que les clients, contacts et les vendeurs) avec les enregistrements équivalents dans [!INCLUDE[d365fin](includes/d365fin_md.md)] (tels que les comptes, les contacts et les utilisateurs). Selon le type d'enregistrement, vous pouvez synchroniser les données de [!INCLUDE[crm_md](includes/crm_md.md)] vers [!INCLUDE[d365fin](includes/d365fin_md.md)], ou vice versa. Pour plus d'informations, reportez-vous à la rubrique [Intégration à Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  

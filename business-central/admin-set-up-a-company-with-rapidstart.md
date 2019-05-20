@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 04d665ac1cfcf66c2581d97bac05d636114a5ef4
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "914801"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244340"
 ---
 # <a name="setting-up-a-company-with-rapidstart-services"></a>Configuration d'une société avec RapidStart Services
 Vous pouvez configurer une nouvelle société dans [!INCLUDE[d365fin](includes/d365fin_md.md)] avec RapidStart Services, qui est un outil conçu pour réduire les temps de déploiement, améliorer la qualité de l’implémentation, présenter une approche reproductible des implémentations et augmenter la productivité en automatisant et en simplifiant des tâches récurrentes.  
@@ -45,7 +45,7 @@ Vous pouvez utiliser les composants suivants pour accélérer la configuration d
 |Définir et valider les valeurs de configuration de votre client pour toutes les zones de base, telles que les informations sur la société, la comptabilité, le stock, les ventes ou la fabrication.|[Collecter les valeurs de configuration client](admin-gather-customer-setup-values.md)|  
 |Configurer les enregistrements de données de base à l'aide de modèles pour préparer la migration des données client existantes.|[Préparer la migration des données client](admin-use-templates-to-prepare-customer-data-for-migration.md)|  
 |Définir les tables et les champs, valider les données client existantes et migrer les données vers la base de données [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Migrer des données client](admin-migrate-customer-data.md)|
-|Préparez-vous à réutiliser des configurations d'entreprise dans d'autres sociétés.|[Créer des packages configuration de société personnalisés](admin-how-to-create-custom-company-configuration-packages.md)|
+|Préparer à réutiliser des configurations d'entreprise dans d'autres sociétés.|[Créer des packages configuration de société personnalisés](admin-how-to-create-custom-company-configuration-packages.md)|
 |Rechercher des solutions aux problèmes connus dans le kit d’outils RapidStart Services.|[Conseils : RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)|  
 
 ## <a name="see-also"></a>Voir aussi  

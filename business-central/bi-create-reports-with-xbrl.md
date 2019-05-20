@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 0576f2e7b93040118d2ef31458939d9b9822a6aa
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "922030"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247017"
 ---
 # <a name="create-reports-with-xbrl"></a>Création d'états avec XBRL
 XBRL, qui signifie eXtensible Business Reporting Language, est basé sur le langage XML et est utilisé pour marquer des données financières et permettre aux sociétés de traiter et de partager leurs données de manière efficace et précise. L'initiative XBRL permet la génération d'états financiers généraux par de nombreux éditeurs de logiciels ERP et organisations comptables internationales. L'objectif de cette initiative et de fournir un standard pour la génération d'états d'informations financières uniformes pour les banques, les investisseurs et les autorités gouvernementales. Les rapports commerciaux générés de cette manière peuvent inclure :  

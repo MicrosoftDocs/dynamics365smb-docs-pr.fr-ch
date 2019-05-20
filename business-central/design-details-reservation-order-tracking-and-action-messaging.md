@@ -13,11 +13,11 @@ ms.search.keywords: design, replenishment, reordering
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 23ab86f4a95a7ed21b0209c4f8028dc10e94b265
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "914625"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241555"
 ---
 # <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Détails de conception : réservation, chaînage et message d'action
 Le système de réservation est complet et inclut les fonctionnalités étroitement liées et parallèles du Chaînage et des Messages d'action.  

@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 2a2ff204f2d4b44c84bf1eecfce374b6174432fa
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "927142"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1240734"
 ---
 # <a name="restrict-and-allow-usage-of-a-record"></a>Restreindre et autoriser l'utilisation d'un enregistrement
 Si vous souhaitez restreindre l'utilisation d'un enregistrement à certaines activités, par exemple, jusqu'à ce qu'il ait été approuvé, vous pouvez incorporer deux réponses de flux de travail dans un flux de travail qui contrôle l'utilisation de l'enregistrement. Une réponse de flux de travail limitera l'utilisation de l'enregistrement telle que définie par l'événement et les conditions du flux de travail. Une autre réponse de flux de travail autorisera l'utilisation de l'enregistrement telle que définie par l'événement et les conditions du flux de travail. Deux réponses existent dans la version générique de [!INCLUDE[d365fin](includes/d365fin_md.md)] à cet effet : **Restreindre l'utilisation d'un enregistrement** et **Autoriser l'utilisation d'un enregistrement**.

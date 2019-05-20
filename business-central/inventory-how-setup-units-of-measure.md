@@ -13,11 +13,11 @@ ms.search.keywords: UOM
 ms.date: 04/01/2019
 ms.author: SorenGP
 ms.openlocfilehash: 47d59af91af7c043c98a4db2a5c103b0052e32e2
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "919260"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1239444"
 ---
 # <a name="set-up-item-units-of-measure"></a>Configuration d'unités article
 Vous pouvez définir plusieurs unités pour un article afin que vous puissiez affecter des unités à l'article aux fins suivantes :

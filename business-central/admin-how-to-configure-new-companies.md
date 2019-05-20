@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: ecfa992e5a228225c6ef18ced95e477519ce0fd7
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "925576"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245455"
 ---
 # <a name="configure-new-companies"></a>Configurer de nouvelles sociétés
 Pour configurer une nouvelle société dans votre implémentation de la solution, vous suivez habituellement trois phases. Dans la première phase, vous importez le package configuration, un fichier .rapidstart avec les informations de configuration. Dans la deuxième phase, vous modifiez les informations de configuration, puis vous les appliquez à votre nouvelle société. Dans la phase finale, vous vérifiez et corrigez les erreurs.  

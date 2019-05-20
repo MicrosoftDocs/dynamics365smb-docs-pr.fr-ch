@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 1d16251dbaf515da57e49e22303d970cc77db220
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "928017"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245985"
 ---
 # <a name="generate-delivery-reminders"></a>Générer des relances livraison
 Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], vous pouvez créer des relances livraison lorsqu'un achat n'a pas été envoyé comme prévu. Vous pouvez générer des relances livraison pour toutes les livraisons échues, ou vous pouvez créer une relance livraison unique manuellement. Pour plus d'informations, voir [Créer manuellement des relances livraison](how-to-create-delivery-reminders-manually.md).  

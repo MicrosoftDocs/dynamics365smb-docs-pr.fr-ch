@@ -4,20 +4,20 @@ description: Vous pouvez configurer et utiliser des workflows qui connectent des
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 07/04/2017
 ms.author: sgroespe
 ms.openlocfilehash: e5dee76fa49d66d72c7e20cb9ff5eead63cf37aa
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "928361"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244878"
 ---
 # <a name="using-workflows"></a>Utilisation des workflows
 Vous pouvez configurer et utiliser des workflows qui connectent des tâches de processus entreprise exécutées par différents utilisateurs. Les tâches du système, telles que la validation automatique, peuvent être incluses comme étapes du workflow, précédées ou suivies des tâches de l'utilisateur. Demander et accorder une approbation pour créer des enregistrements sont des étapes classiques du workflow.  

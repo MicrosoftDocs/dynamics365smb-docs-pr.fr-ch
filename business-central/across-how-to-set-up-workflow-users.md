@@ -12,11 +12,11 @@ ms.search.keywords: reject, delegate, request
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 64ac69bfa3a1ad0d5dd3b9c86af4a495fbf10b14
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "923407"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1240640"
 ---
 # <a name="set-up-workflow-users"></a>Configurer des utilisateurs de flux de travail
 Avant de pouvoir créer des flux de travail, vous devez configurer des utilisateurs qui participent aux flux de travail. Cela est nécessaire, par exemple, pour spécifier qui doit recevoir une notification pour agir sur une étape du flux de travail.  

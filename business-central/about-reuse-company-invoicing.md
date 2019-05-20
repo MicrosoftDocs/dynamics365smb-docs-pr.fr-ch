@@ -11,11 +11,11 @@ ms.search.keywords: Invoicing, Office 365
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 0173d64e140cfea91bf7f08d821c2d30cf0eb7b3
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "911283"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241499"
 ---
 # <a name="using-the-same-office-365-account-in-included365finincludesd365finlongmdmd-and-microsoft-invoicing"></a>Utilisation du même compte Office 365 dans [!INCLUDE[d365fin](includes/d365fin_long_md.md)] et Microsoft Invoicing
 Lorsque vous êtes inscrit à une version d'évaluation avec [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez passer à une phase d'évaluation de 30 jours, démarrer un abonnement ou encore l'arrêter à l'aide de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dans tous les cas, si vous vous connectez au portail Office, une vignette intitulée **Microsoft Invoicing** s'affiche : vous pouvez cliquez dessus. Cela fait partie de l'abonnement Office 365 Business Premium, tous les utilisateurs ne verront donc pas cette vignette dans le portail Office.  

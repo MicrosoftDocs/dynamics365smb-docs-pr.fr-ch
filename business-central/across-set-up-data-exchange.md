@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 759a6045440b7f15c7b87d3aff83c2447abd6ce2
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "913193"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244760"
 ---
 # <a name="setting-up-data-exchange"></a>Configuration de l'échange de données
 Avant de pouvoir envoyer et recevoir des documents électroniques ou importer et exporter des fichiers bancaires, vous devez configurer l'infrastructure d'échange de données pour traiter les fichiers concernés. En outre, vous devez configurer des zones associées, telles que les données de base pour les clients à qui vous envoyez des factures électroniques ou le service conversion données bancaires si vous utilisez le fournisseur externe de services de conversion de vos fichiers bancaires. Pour plus d'informations, voir [Échanger des données par voir électronique](across-data-exchange.md).  

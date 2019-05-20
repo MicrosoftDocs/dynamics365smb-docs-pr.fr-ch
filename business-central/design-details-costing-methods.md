@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 1175a7fe058de5f8e7876014d8a71227b7cc46d8
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "923000"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243955"
 ---
 # <a name="design-details-costing-methods"></a>Détails de conception : modes évaluation stock
 Le mode d'évaluation du stock détermine si une valeur réelle ou budgétée est capitalisée et prise en compte dans le calcul des coûts. Au même titre que la date comptabilisation et la séquence, le mode d'évaluation du stock a une incidence sur l'enregistrement du flux des coûts. Les méthodes suivantes sont prises en charge dans [!INCLUDE[d365fin](includes/d365fin_md.md)] :  

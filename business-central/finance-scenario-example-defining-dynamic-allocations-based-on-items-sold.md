@@ -14,11 +14,11 @@ ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: finance-define-and-allocate-costs
 ms.openlocfilehash: 7219e1d56129da66e802aa0b4ea5df946dc34e04
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "932871"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1239605"
 ---
 # <a name="scenario-example-defining-dynamic-allocations-based-on-items-sold"></a>Exemple de scénario : Définition des ventilations dynamique sur la base des articles vendus
 Cette rubrique explique comment définir les affectations à l'aide du mode de ventilation dynamique. Dans l'exemple, vous modifiez la ventilation dynamique des coûts pour que le centre de coûts VENTES prenne en charge le nouveau ÉQUIPEMENT IT de coûts associés. Les packages ÉQUIPEMENT IT ont des numéros d'articles dont la plage s'échelonne entre 8904-W et 8924-W. Vous pouvez utiliser les chiffres de ventes de l'exercice précédent pour en calculer la part. La ventilation est validée en fonction du type de coût 9903.  

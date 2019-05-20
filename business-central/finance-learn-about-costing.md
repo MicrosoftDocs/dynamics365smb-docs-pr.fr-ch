@@ -4,20 +4,20 @@ description: La gestion des coûts ajustés fait référence à l'enregistrement
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 07/01/2017
 ms.author: sgroespe
 ms.openlocfilehash: 9706e072261d89a68527a0801a57f78296bb2cc1
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917155"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1238225"
 ---
 # <a name="about-inventory-costing"></a>À propos de l'évaluation des coûts de stock
 La gestion des coûts ajustés fait référence à l'enregistrement et la déclaration des coûts d'exploitation de l'entreprise. Cette activité inclut la déclaration des coûts de fabrication et de stock qui constituent la valeur des articles.  

@@ -11,11 +11,11 @@ ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: d55d8d5ab916cee6600deaf891702a625d76d7ee
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "940661"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245700"
 ---
 # <a name="view-the-status-of-a-synchronization"></a>Afficher le statut d'une synchronisation
 Vous pouvez visualiser le statut des différents projets de synchronisation qui ont été exécutés pour l'intégration de [!INCLUDE[crm_md](includes/crm_md.md)]. Cela inclut les projets de synchronisation qui ont été exécutés à partir de la file projets et les projets de synchronisation manuels qui ont été exécutés sur les enregistrements à partir du client [!INCLUDE[d365fin](includes/d365fin_md.md)]. Cela est utile lors de la résolution des problèmes de synchronisation, car vous pouvez accéder aux détails sur les erreurs spécifiques qui se produisent.

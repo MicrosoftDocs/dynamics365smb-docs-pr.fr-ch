@@ -11,11 +11,11 @@ ms.search.keywords: invoicing, bookings
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: faa7946dd376dd8e0f89e35cd798a6de45a3248d
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "916614"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1242920"
 ---
 # <a name="bulk-invoicing-for-microsoft-bookings-in-included365finincludesd365finmdmd"></a>Facturation en vrac pour Microsoft Bookings dans [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Si votre société utilise l'application Bookings d'Office 365, vous pouvez effectuer la facturation en vrac des rendez-vous. La page **Réservations non facturées** de [!INCLUDE[d365fin](includes/d365fin_md.md)] fournit une liste des réservations effectuées par la société. Cette page vous permet de rapidement sélectionner les rendez-vous à facturer et de créer des factures provisoires pour les services fournis.  

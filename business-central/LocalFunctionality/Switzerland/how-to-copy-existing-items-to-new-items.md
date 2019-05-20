@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 23a92ed5434ab8b0bd75f7e6ffcaeb93682e927e
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "925154"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241348"
 ---
 # <a name="copy-existing-items-to-new-items"></a>Copier des articles existants pour créer de nouveaux articles
 Vous pouvez regroupez des articles avec des paramètres similaires dans un catalogue article. Lorsque vous ajoutez un nouvel article, pour gagner du temps, vous pouvez utiliser la fonction **Copier article** pour copier un article existant et l'utiliser comme modèle pour un nouvel article.  

@@ -14,11 +14,11 @@ ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: finance-transfer-and-post-cost-entries
 ms.openlocfilehash: 590c1501f9da2c7c343b5c2f3617df873fcd3b7a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "926739"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1242506"
 ---
 # <a name="results-of-transferring-general-ledger-entries-to-cost-entries"></a>Résultats du transfert des écritures comptables vers les écritures de coûts
 Lors du transfert des écritures comptables vers les écritures de coûts, [!INCLUDE[d365fin](includes/d365fin_md.md)] crée des connexions dans les écritures dans les tables **Écriture comptable**, **Écriture de coûts** et **Registre de coûts** pour assurer le suivi des connexions entre les écritures de coûts et les écritures comptables.  

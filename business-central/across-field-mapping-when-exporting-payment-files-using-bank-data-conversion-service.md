@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: a322fe99a76555d438033919a2f6a1ace4e108db
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "922542"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1240922"
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-bank-data-conversion-service"></a>Mappage de champs lors de l'exportation de fichiers de paiement à l'aide du service conversion données bancaires
 Lorsque vous exportez des fichiers de paiement à l'aide de la fonction Service conversion données bancaires, les données que vous exportées sont exposées au fournisseur du service conversion données bancaires. Le fournisseur de service est responsable de la confidentialité de ces données. Pour plus d'informations sur la manière dont fonctionne la fonction Service conversion données bancaires, reportez\-vous à [À propos de l'infrastructure d'échange de données](across-about-the-data-exchange-framework.md).  

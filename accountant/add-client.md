@@ -11,11 +11,11 @@ ms.search.keywords: accountant, accounting, financial report
 ms.date: 11/23/2018
 ms.author: edupont
 ms.openlocfilehash: c7f0af8d3535f558567cd40c841909cd151ce313
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "821106"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1237869"
 ---
 # <a name="add-clients-to-your-dashboard-in-include-d365acclongincludesd365acclongmdmd"></a>Ajouter des clients à votre tableau de bord dans [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]

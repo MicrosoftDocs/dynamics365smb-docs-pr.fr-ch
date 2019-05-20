@@ -13,11 +13,11 @@ ms.search.keywords: design, general ledger, post
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 5fac91190e5a4cea0648f618ea2a9af0afc65fb6
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917591"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246562"
 ---
 # <a name="general-journal-post-line-overview"></a>Aperçu de la ligne validation de feuille comptabilité
 Codeunit 12, **Groupe compta.-Ligne validation**, est l'objet d'application majeur pour la validation de la comptabilité et est le seul emplacement pour insérer des écritures comptables, la TVA, et les écritures comptables client et fournisseur. Ce codeunit est également utilisé pour toutes les opérations Appliquer, Désappliquer et Inverser.  

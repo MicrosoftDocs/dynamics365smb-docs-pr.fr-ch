@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 7e535abbc3fb61a958f63f648cca6694199acdc8
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "921787"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1242437"
 ---
 # <a name="about-item-types"></a>À propos des types d'articles
 Dans le champ **Type** de la page **Fiche article**, vous pouvez sélectionner ce pourquoi l'article est utilisé dans votre activité et donc la manière dont il est géré dans le système. Trois options existent :

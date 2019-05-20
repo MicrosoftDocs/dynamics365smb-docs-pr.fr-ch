@@ -13,11 +13,11 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: 13f8d163a15424acdf47849551a16fd1a34f4205
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "934156"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247781"
 ---
 # <a name="closing-years-and-periods"></a>Clôture des exercices et des périodes
 À la fin d'un exercice comptable, vous devez exécuter un certain nombre de tâches administratives, par exemple vous assurer que tous les documents et les feuilles sont validés veillant, que les données de devise sont à jour, que les livres sont clôturés, et plus. Les tâches réelles dépendent de votre société.

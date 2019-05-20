@@ -13,14 +13,14 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 3a3e42d9468c9f1a8d23afd8284e210fa7145c3c
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "953525"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247178"
 ---
 # <a name="migrate-customer-data"></a>Migrer des données client
-Vous pouvez migrer des données client existantes d'un système ERP existant vers [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des outils de migration de données de RapidStart Services. Vous pouvez utiliser des fichiers Excel comme supports d’informations. Vous pouvez également déplacer manuellement les données en les entrant directement dans la société.
+Vous pouvez migrer les données client existantes d'un système ERP existant vers [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des outils de migration de données de RapidStart Services. Vous pouvez utiliser des fichiers Excel comme supports d’informations. Vous pouvez également déplacer manuellement les données en les entrant directement dans la société.
 
 Les pages **Aperçu migration** et **Feuille config.** permettent d’accéder aux fonctionnalités et aux vues pour exécuter toutes les tâches associées à la migration des données. Il est recommandé de migrer une table à la fois, afin de gérer les dépendances dans vos données. Lors de la migration, vous toucherez également aux tables de données principales, contenant des informations relatives aux clients, fournisseurs, articles, contacts et à la comptabilité.  
 

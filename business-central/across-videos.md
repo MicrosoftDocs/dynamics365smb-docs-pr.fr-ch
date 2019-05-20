@@ -13,11 +13,11 @@ ms.search.keywords: video, library, how to
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 685487de30a50defa5fd3908c3b049e639a12843
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "928587"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244901"
 ---
 # <a name="visit-our-video-library"></a>Visitez notre vidéothèque
 Nous vous remercions de votre patience pendant que nous recréons notre bibliothèque de vidéos de « procédure ». En raison des améliorations récentes de [!INCLUDE[d365fin](includes/d365fin_md.md)], nous devons reproduire notre contenu afin qu'il reflète précisément le produit.

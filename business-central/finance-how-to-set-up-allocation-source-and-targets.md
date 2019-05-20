@@ -14,11 +14,11 @@ ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: finance-define-and-allocate-costs
 ms.openlocfilehash: 2e8040816ed5089188f06f76b2cd8f027ba83766
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "929783"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243587"
 ---
 # <a name="set-up-allocation-source-and-targets"></a>Configurer la source d'affectation et ses cibles
 Chaque affectation comporte une source et au moins une cible. La source d'affectation définit les coûts à affecter. Les cibles d'affectation déterminent où affecter ces coûts.  

@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: cde720526fdad4c9e4352f08f649d6bd3fc51540
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "912378"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1240968"
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Détails de conception : recherche des croisements analytiques
 Lorsque vous fermez une page après avoir modifié un ensemble de dimensions, [!INCLUDE[d365fin](includes/d365fin_md.md)] évalue si l'ensemble de dimensions modifié existe. Si l'ensemble n'existe pas, un nouvel ensemble est créé et le code de croisement analytique est retourné.  

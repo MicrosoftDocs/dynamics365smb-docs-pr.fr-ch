@@ -11,11 +11,11 @@ ms.search.keywords: contacts, profiles
 ms.author: edupont
 ms.date: 04/01/2019
 ms.openlocfilehash: fe02153a89ad5f63855cff5eec5344d601c8663a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "934457"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1240042"
 ---
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Utiliser des questionnaires profil pour classer les contacts professionnels
 Vous pouvez configurer des questionnaires profil à utiliser au moment d'entrer des informations sur les profils de vos contacts. Dans chaque questionnaire, vous pouvez configurer les questions à poser à vos contacts.  

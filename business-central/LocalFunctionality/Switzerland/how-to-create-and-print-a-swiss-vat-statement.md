@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: a297a111edce84d0521220d314fc351c67d4f919
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "927727"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241477"
 ---
 # <a name="create-and-print-a-swiss-vat-statement"></a>Créer et imprimer une déclaration de TVA, Suisse
 Selon les informations spécifiées dans la page **Paramètres compta. TVA**, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] peut créer automatiquement une nouvelle configuration de relevé de TVA pour le report TVA réalisé. Avant de continuer avec les procédures de cette rubrique, assurez-vous que vous avez configuré les paramètres comptabilisation TVA ayant des valeurs spécifiées pour les champs de chiffre d'affaires ventes et achats.  

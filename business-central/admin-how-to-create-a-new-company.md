@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 8b534af530a7ce6d91a71ca7802938fe3573c2c2
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "932095"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1240807"
 ---
 # <a name="create-a-new-company"></a>Créer une société
 Pour utiliser RapidStart Services pour [!INCLUDE[d365fin](includes/d365fin_md.md)], vous devez d'abord créer une société pour laquelle vous souhaitez effectuer une implémentation client. Lorsque vous créez une société, les tables et les pages standard de [!INCLUDE[d365fin](includes/d365fin_md.md)] sont créées, mais elles ne contiennent pas de données.
@@ -35,7 +35,7 @@ Suivez la procédure suivante pour créer une société, puis utilisez le packag
 
 ## <a name="to-create-a-new-company"></a>Création d'une nouvelle société  
 1. Créez une nouvelle société. Pour plus d'informations, voir [Création de sociétés dans [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md).
-2. Dans le tableau de bord Responsable de l'implémentation de RapidStart Services, vous pouvez maintenant importer le package configuration que vous avez exporté de la société CRONUS International Ltd.
+2. Dans le tableau de bord Responsable de l'implémentation de RapidStart Services, vous pouvez maintenant importer le package de configuration que vous avez exporté de la société CRONUS International Ltd.
 
 Une fois que vous avez créé une société, certaines tables se renseignent automatiquement, même si aucun modèle de société n'est appliqué. Par exemple, vous pouvez consulter les codes standard pour les transactions par lots et la validation sur la page **Code origine**. Si vous disposez d'une version locale de [!INCLUDE[d365fin](includes/d365fin_md.md)], consultez cette table en tenant compte d'éventuels problèmes de langue locale.
 

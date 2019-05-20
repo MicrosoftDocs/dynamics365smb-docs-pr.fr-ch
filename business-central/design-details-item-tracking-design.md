@@ -11,11 +11,11 @@ ms.search.keywords: design, item, tracking, tracing
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 90da4a9665de1f5f47ab99aa7567fc5ff65599d2
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "937309"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246785"
 ---
 # <a name="design-details-item-tracking-design"></a>Détails de conception : création de traçabilité
 Dans la première version de traçabilité dans [!INCLUDE[d365fin](includes/d365fin_md.md)] 2.60, les numéros de série ou les numéros de lot ont été enregistrés directement sur les écritures comptables article. Ce design a fourni des informations de disponibilité complète et un suivi unique des écritures historiques, mais il a manqué de flexibilité et de fonctionnalité.  

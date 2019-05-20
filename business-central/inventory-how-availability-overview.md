@@ -12,11 +12,11 @@ ms.search.keywords: stock
 ms.date: 04/01/2019
 ms.author: SorenGP
 ms.openlocfilehash: ab3e23f9d3128045e722bf2677b1b687b2218b10
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "922278"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243323"
 ---
 # <a name="view-the-availability-of-items"></a>Voir la disponibilité des articles
 Dans le contexte d'une tâche professionnelle, vous pouvez obtenir des informations avancées sur la disponibilité et l'emplacement d'un article, par exemple en discutant avec un client à propos d'une date de livraison.

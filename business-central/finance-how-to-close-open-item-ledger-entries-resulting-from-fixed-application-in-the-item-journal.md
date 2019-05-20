@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 7f10b936ffbfcf1a4aa241cf58879560806254ec
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "921020"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1242046"
 ---
 # <a name="close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal"></a>Clôturer les écritures comptables article ouvertes qui résultent d'un lettrage fixe dans la feuille article
 Vous pouvez utiliser le champ **Lettrage à partir écriture** de la page **Feuille article** pour créer manuellement un lettrage fixe entre une transaction entrante et la transaction sortante initiale. Par exemple, pour corriger la transaction sortante ou pour traiter un retour. Pour plus d'informations, voir Lettrage à partir écriture.  

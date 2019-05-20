@@ -11,11 +11,11 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: d314b8ce94c5f8251298f0322acd2cdc4f6b15d5
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "935892"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246759"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Utilisation de Business Central en tant que boîte de réception professionnelle dans Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] vous permet désormais de gérer les interactions commerciales avec vos clients et fournisseurs, directement dans Microsoft Outlook. Avec le complément Outlook de [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez afficher des informations financières associées à des clients et des fournisseurs, ainsi que créer et envoyer des documents financiers, comme des devis et des factures.  

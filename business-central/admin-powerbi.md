@@ -8,27 +8,35 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 04/01/2019
+ms.date: 04/26/2019
 ms.author: edupont
-ms.openlocfilehash: f51de349c4b13eaabd185cdb728d59006dfe6db6
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: a999a9533aa2dd4e8dcadea04e7838305b34ba5b
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "916389"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247527"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Activation de vos données commerciales pour Power BI
 Il est facile d'obtenir des informations exploitables de vos données [!INCLUDE[d365fin](includes/d365fin_md.md)] grâce à Power BI et aux packs de contenu [!INCLUDE[d365fin](includes/d365fin_md.md)]. Power BI extrait vos données, puis génère un tableau de bord prêt à l'emploi et des états basés sur ces données.  
 
 Vous devez disposer d'un compte valide avec Dynamics 365 et avec Power BI. En outre, vous devez télécharger [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) si vous souhaitez créer vos propres états Power BI. Les packs de contenu Power BI nécessitent des autorisations vers les tables d'où sont extraites les données. Vous trouverez plus d'informations sur les besoins ci-dessous.  
 
+> [!IMPORTANT]
+> Les packs de contenu décrits dans cet article sont conçus pour utiliser Azure Active Directory comme mécanisme d'authentification. Si vous utilisez [!INCLUDE [prodshort](includes/prodshort.md)] local et utilisez un autre mécanisme d'authentification, Power BI ne peut pas se connecter à vos données.  
+
 Microsoft a publié les packs de contenu suivants :
 
-| Application | Désignation |
-| --- | --- |
-| Microsoft Business Central | Fournit un tableau de bord avec des données financières clés dans le temps, telles que les bénéfices et les dépenses, la marge d'exploitation et le cycle de trésorerie.|
-| Microsoft Business Central - CRM | Fournit un tableau de bord avec des données clés sur les opportunités de vente et les contacts.  |
-| Microsoft Business Central - Ventes | Fournit un tableau de bord avec des données clés sur les ventes et le stock. |
+- [!INCLUDE [prodlong](includes/prodlong.md)] - CRM  
+- [!INCLUDE [prodlong](includes/prodlong.md)] - Liste des clients  
+- [!INCLUDE [prodlong](includes/prodlong.md)] - Finances  
+- [!INCLUDE [prodlong](includes/prodlong.md)] - Liste des articles  
+- [!INCLUDE [prodlong](includes/prodlong.md)] - Projets  
+- [!INCLUDE [prodlong](includes/prodlong.md)] - Liste des projets  
+- [!INCLUDE [prodlong](includes/prodlong.md)] - Factures achat  
+- [!INCLUDE [prodlong](includes/prodlong.md)] - Ventes  
+- [!INCLUDE [prodlong](includes/prodlong.md)] - Liste des commandes vente  
+- [!INCLUDE [prodlong](includes/prodlong.md)] - Liste des fournisseurs  
 
 ## <a name="using-the-dashboards"></a>Utilisation des tableaux de bord
 Chaque pack de contenu contient des états que vous pouvez afficher :
@@ -47,14 +55,14 @@ Les packs de contenu sont pré-configurés pour fonctionner avec les données pr
 1. Sélectionnez **Extraire les données** en bas du volet de navigation gauche.  
 ![Naviguer pour obtenir des données](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
 
-Vous pouvez également démarrer depuis Dynamics 365 Business Edition. Dans le Tableau de bord, accédez à **Sélection des états** dans le composant du Tableau de bord Power BI. Sélectionnez **Service** ou **Mon organisation** dans le ruban. Lorsque l'une de ces actions est sélectionnée, vous arrivez dans la galerie Organisation de Power BI ou dans la bibliothèque des services de Power BI, qui sera également filtrée pour afficher uniquement les packs de contenu associés à [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
+Vous pouvez également démarrer depuis [!INCLUDE [prodshort](includes/prodshort.md)]. Dans le Tableau de bord, accédez à **Sélection des états** dans le composant du Tableau de bord Power BI. Sélectionnez **Service** ou **Mon organisation** dans le ruban. Lorsque l'une de ces actions est sélectionnée, vous arrivez dans la galerie Organisation de Power BI ou dans la bibliothèque des services de Power BI, qui sera également filtrée pour afficher uniquement les packs de contenu associés à [!INCLUDE[prodshort](includes/prodshort.md)].
 
 2. Dans la zone **Services**, sélectionnez **Extraire**. Une page s'ouvre alors, elle contient **AppSource** et **Applications pour applications Power BI**.  
 ![Choisir des packs de contenu à partir des services en ligne](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-online-services-get.png)
 3. Sélectionnez **Applications** dans l'onglet **Applications pour applications Power BI** et choisissez le pack de contenu **Microsoft Dynamics 365 Business Central** à utiliser, puis cliquez sur **Obtenir maintenant**.  
 ![Sélectionnez Dynamics 365 Business Central et sélectionnez Obtenir maintenant](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-dynamics365-for-financials-get-it-now.png)
 4. Quand on vous le demande, indiquez le nom de *votre société* dans [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)]. Il ne s'agit pas du nom complet. Le nom de la société se trouve dans la page Sociétés de votre instance [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)].  
-![Sélectionnez Dynamics 365 Business Central et sélectionnez Obtenir maintenant](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-connect-to-d365-finance-and-operations-crm.png)
+![Sélectionnez Dynamics 365 Business Central et sélectionnez Obtenir maintenant](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-connect-to-d365-business-central-finance.png)
 5. Une fois connecté, un tableau de bord, un état et un ensemble de données sont automatiquement chargés dans votre espace de travail Power BI. Une fois terminé, les mosaïques sont mises à jour avec les données de votre société [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)].
 ![Sélectionnez Dynamics 365 Business Central et sélectionnez Obtenir maintenant](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
 
@@ -68,7 +76,7 @@ Vous pouvez également démarrer depuis Dynamics 365 Business Edition. Dans le T
 ## <a name="system-requirements"></a>Configuration système requise
 Pour importer les données [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] dans Power BI, vous devez disposer des autorisations sur les services Web utilisés pour récupérer les données. Les services Web obligatoires pour chaque pack de contenu incluent :
 
-## <a name="role-center-reports"></a>États du Tableau de bord
+### <a name="role-center-reports"></a>États du Tableau de bord
 
 **Microsoft Dynamics 365 Business Central – CRM**
 - Opportunités ventes
@@ -92,7 +100,7 @@ Pour importer les données [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.m
 - Modèle Excel Afficher Société
 - Étiquettes d'état Power BI
 
-## <a name="list-page-reports"></a>États Page de liste
+### <a name="list-page-reports"></a>États Page de liste
 
 **Microsoft Dynamics 365 Business Central – Customers List**
 - Ventes d'articles par client

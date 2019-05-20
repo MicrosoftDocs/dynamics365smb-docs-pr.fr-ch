@@ -13,11 +13,11 @@ ms.search.keywords: personalization
 ms.date: 04/01/2019
 ms.author: solsen
 ms.openlocfilehash: 2d20fc0849e90f74924ebc585662a9e461cc2313
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "924891"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244392"
 ---
 # <a name="displaying-lists-in-different-ways"></a>Affichage de listes de différentes manières
 Dans le coin droit de toute liste de [!INCLUDE[d365fin](includes/d365fin_md.md)] vous trouverez les icônes qui vous permettent de sélectionner l'affichage de la liste. Vous pouvez afficher une liste comme une liste détaillée, ce qui correspond à la vue standard. Mais vous pouvez également sélectionner la vue sous forme de mosaïques, qui affiche moins de détail de l'enregistrement spécifique et empile les écritures sous forme de mosaïques. Cette vue est très utile pour obtenir une vue d'ensemble de plusieurs écritures. Elle est particulièrement utile sur les périphériques de petite taille, car elle permet d'appuyer plus facilement sur chaque écriture.

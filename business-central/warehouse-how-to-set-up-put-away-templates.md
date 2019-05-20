@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 9e7ebc9c4736a594b6b7143e5054e3930bbd902a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "925663"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247712"
 ---
 # <a name="set-up-put-away-templates"></a>Configurer des modèles rangement
 A l'aide de la fonctionnalité de prélèvement et de rangement suggérés, l'emplacement le mieux approprié à vos articles à un moment donné est suggéré, en fonction du modèle rangement configuré pour l'entrepôt, des priorités affectées aux emplacements et des quantités minimale et maximale définies pour les emplacements associés.  

@@ -13,11 +13,11 @@ ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 57ac1956c2e7b22a04615c4ebd0ab5b502787a93
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "918857"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1240663"
 ---
 # <a name="how-to-set-up-and-report-intrastat"></a>Procédure : configurer et enregistrer un état intracommunautaire
 Toutes les sociétés de l'Union européenne doivent déclarer leurs échanges avec les autres pays/régions de l'Union européenne. Vous devez déclarer les mouvements de marchandises aux autorités statistiques de votre pays/région mensuellement et la déclaration doit être remise aux autorités fiscales. Cette déclaration est appelée D.E.B. La page **Feuille intracomm.** permet de remplir des déclarations D.E.B. périodiques.  

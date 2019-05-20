@@ -1,6 +1,6 @@
 ---
-title: Procédure de configuration d'une société avec l’assistant RapidStart | Microsoft Docs
-description: Vous pouvez rapidement configurer une nouvelle société que vous avez créée à l’aide de l’assistant de configuration de RapidStart Services.
+title: Procédure de configuration d’une société avec l’assistant RapidStart | Microsoft Docs
+description: Vous pouvez rapidement configurer une nouvelle société que vous avez créée à l’aide de l’Assistant Configuration de RapidStart Services.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -13,19 +13,19 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 3784b8e0cc0c0c07300895ce448ff82f9acc91c9
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "919286"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1239927"
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Configurer une société avec l'assistant RapidStart
-Vous pouvez rapidement configurer une nouvelle société que vous avez créée à l’aide de l’assistant de configuration de RapidStart Services.
+Vous pouvez rapidement configurer une nouvelle société que vous avez créée à l’aide de l’Assistant Configuration de RapidStart Services.
 
-Dans la procédure suivante, vous avez fourni au client un package configuration, qui est ensuite installé sur un ordinateur. Le client ouvre la nouvelle société, qui ne contient aucune donnée client. Le client ou vous-même suivez ensuite les étapes de l’Assistant RapidStart Services, décrites dans cette procédure, pour spécifier des informations de base sur la société. L’Assistant importe le package configuration, puis lettre le package à la société.  
+Dans la procédure suivante, vous avez fourni au client un package configuration, qui est ensuite installé sur un ordinateur. Le client ouvre la nouvelle société, qui ne contient aucune donnée client. Vous ou le client suivez les étapes de l’Assistant RapidStart Services, décrites dans cette procédure, pour spécifier des informations de base sur la société. L’Assistant importe le package configuration, puis lettre le package à la société.  
 
 ## <a name="to-configure-a-new-company"></a>Pour configurer une nouvelle société  
-1. Dans le tableau de bord Responsable de l'implémentation de RapidStart Services, sélectionnez l'action **Assistant RapidStart**.  
+1. Dans le tableau de bord Responsable de l'implémentation de RapidStart Services, choisissez l'action **Assistant RapidStart**.  
 2. Affichez le raccourci **Étape 1**, qui contient des informations générales sur la nouvelle société. Entrez les informations appropriées sur la nouvelle société dans les champs. Il existe un champ que vous devez renseigner : **Nom**. Les autres champs sont facultatifs.  
 3. Affichez le raccourci **Étape 2**, qui contient des informations de communication et de contact pour la nouvelle société. Entrez les informations appropriées sur la nouvelle société dans les champs.
 4. Affichez le raccourci **Étape 3**, qui contient des informations sur le compte bancaire et sur le paiement pour la nouvelle société. Entrez les informations appropriées sur la nouvelle société dans les champs.  

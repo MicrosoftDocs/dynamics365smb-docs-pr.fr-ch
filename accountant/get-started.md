@@ -8,11 +8,11 @@ ms.search.keywords: accountant, accounting, financial report
 ms.date: 11/23/2018
 ms.author: edupont
 ms.openlocfilehash: 0c4dadb15c9756c49f94839236766432844088c8
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "820518"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "1238731"
 ---
 # <a name="get-started-with-include-d365acclongincludesd365acclongmdmd"></a>Mise en route avec [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]

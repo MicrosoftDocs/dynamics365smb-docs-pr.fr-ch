@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 9cc447cd05718eb7cadb6ddb13bbe0e0584b17cd
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917810"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245644"
 ---
 # <a name="swiss-electronic-payments"></a>Paiements électroniques, Suisse
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] vous permet d'envoyer des factures aux clients par voie électronique. Les factures sont présentées et payées directement à l'aide du logiciel bancaire en ligne du client.  

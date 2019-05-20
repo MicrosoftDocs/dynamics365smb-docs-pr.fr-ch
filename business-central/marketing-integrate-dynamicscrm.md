@@ -12,11 +12,11 @@ ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 30396e25dbf251e674744d1ba797c100b5762a46
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "915205"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1238041"
 ---
 # <a name="using-dynamics-365-for-sales-from-business-central"></a>Utilisation de Dynamics 365 for Sales depuis Business Central
 Si vous utilisez Dynamics 365 for Sales for Customer Engagement, bénéficiez de l'intégration parfaite dans le processus allant du prospect à l'encaissement à l'aide de [!INCLUDE[d365fin](includes/d365fin_md.md)] pour les activités principales, telles que le traitement des commandes, la gestion des stocks et de vos finances.

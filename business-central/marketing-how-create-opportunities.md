@@ -13,11 +13,11 @@ ms.search.keywords: relationship, prospect
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: 50b61129a6684cda7a6cb20f4bfb3cf44dcad7cf
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "936521"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1239210"
 ---
 # <a name="create-sales-opportunities"></a>Créer des opportunités de vente
 Vous pouvez créer des opportunités pour les opportunités de vente à partir de vos contacts. Toutes les opportunités doivent être affectées à un vendeur ou un acheteur et doivent avoir un contact.

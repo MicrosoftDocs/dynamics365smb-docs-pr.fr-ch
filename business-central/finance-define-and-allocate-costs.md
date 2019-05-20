@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 79e925efff4b8ce7b779e46fe40e1dfa225716a9
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941764"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1239812"
 ---
 # <a name="defining-and-allocating-costs"></a>Définition et répartition des coûts
 Les affectations de coûts déplacent les coûts et les revenus entre les types de coûts, les centres de coûts et les coûts associés. Vous pouvez définir autant d'affectations que nécessaire. Chaque affectation comporte les éléments suivants :  

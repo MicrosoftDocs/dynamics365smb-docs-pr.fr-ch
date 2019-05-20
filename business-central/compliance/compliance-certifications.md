@@ -12,11 +12,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: soalex
 ms.openlocfilehash: 297b5f2f7a1310395debd44a229e9c7c52cace45
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "920788"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244530"
 ---
 # <a name="certifications"></a>Certifications  
 Ce contenu comprend des informations sur les certifications concernant [!INCLUDE[d365fin](../includes/d365fin_md.md)].  

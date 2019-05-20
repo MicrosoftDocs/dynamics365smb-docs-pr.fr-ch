@@ -13,11 +13,11 @@ ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory 
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: dd48be8b92a03d50bc590d579de940599da6aa7e
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941695"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243366"
 ---
 # <a name="adjust-item-costs"></a>Ajuster coûts et prix article
 Le coût d'un article (valeur du stock) que vous achetez et vendez ultérieurement peut changer au cours de sa durée de vie, par exemple parce que des frais de transport sont ajoutés à son coût d'achat après que vous ayez vendu l'article. L'ajustement des coûts est particulièrement utile dans les situations où vous vendez des biens avant de facturer leur achat. Pour toujours connaître la valeur du stock correcte, les coûts article doivent donc être ajustés régulièrement. Cela garantit que les statistiques vente et profit sont à jour et que les indicateurs clés financiers sont corrects. Pour plus d'informations, voir [Détails de conception : modes évaluation stock](design-details-cost-adjustment.md).

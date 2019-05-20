@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 382a95a579482a56597ffae053c53dab92f3739a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "914448"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245158"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Configurer les définitions d'échange de données
 Vous pouvez configurer [!INCLUDE[d365fin](includes/d365fin_md.md)] pour échanger des données de tables spécifiques avec des données de fichiers externes, par exemple pour recevoir et envoyer des documents électroniques, importer et exporter des données bancaires ou d'autres données, telles que les salaires, les taux de change des devises et les catalogues article. Pour plus d'informations, voir [Échanger des données par voir électronique](across-data-exchange.md).  

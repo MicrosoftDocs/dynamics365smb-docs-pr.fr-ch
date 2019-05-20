@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 3c68b40f22503ced21130f57feec7c06b6b2c9f5
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "924371"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245957"
 ---
 # <a name="about-the-data-exchange-framework-in-included365finincludesd365finmdmd"></a>À propos de l'infrastructure d'échange de données dans [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Le format des fichiers utilisés pour l'échange de données bancaires, les documents électroniques, les taux de change de devises, et d'autres fichiers utilisés avec les systèmes ERP varie selon le fournisseur du fichier de données ou du flux, et selon le pays ou la région. [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge différents formats de fichiers bancaires et différentes normes de service de données. Pour assurer la prise en charge d'autres formats de documents électroniques, vous pouvez utiliser l'infrastructure d'échange de données. Pour plus d'informations, voir [Échanger des données par voir électronique](across-data-exchange.md).    

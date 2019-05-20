@@ -11,11 +11,11 @@ ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: b3fb3d2680cd85da8b2def7e82fbf62c0046fcc3
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "940659"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247436"
 ---
 # <a name="scheduling-a-synchronization-between-business-central-and-dynamics-365-for-sales"></a>Planification d'une synchronisation entre Business Central et Dynamics 365 for Sales
 Vous pouvez synchroniser [!INCLUDE[d365fin](includes/d365fin_md.md)] avec [!INCLUDE[crm_md](includes/crm_md.md)] à des intervalles planifiés en configurant des projets dans la file projets. Les projets de synchronisation permettent de synchroniser les données des enregistrements [!INCLUDE[d365fin](includes/d365fin_md.md)] et [!INCLUDE[crm_md](includes/crm_md.md)] qui ont été précédemment couplés ensemble. Ou bien, pour les enregistrements qui ne sont pas encore couplés, selon la direction et les règles de synchronisation, les projets de synchronisation peuvent créer des enregistrements et les coupler dans le système de destination. Plusieurs projets de synchronisation sont disponibles et prêts à l'emploi. Vous pouvez les visualiser sur la page **Écritures file d'attente des travaux**. Pour plus d'informations, voir [Utiliser des files d'attente des travaux pour planifier des tâches](admin-job-queues-schedule-tasks.md).

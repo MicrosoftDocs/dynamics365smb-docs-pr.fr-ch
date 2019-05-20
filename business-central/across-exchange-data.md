@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: edb3ef5d977994588feb4331cf8f15e6f1b32438
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "932968"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1240853"
 ---
 # <a name="exchanging-data"></a>Échange de données
 Vous pouvez échanger des données entre [!INCLUDE[d365fin](includes/d365fin_md.md)] et des fichiers ou flux externes en relation avec des tâches courantes d'entreprise, comme l'envoi et la réception de documents électroniques et l'importation et l'exportation de fichiers bancaires.  
@@ -29,7 +29,7 @@ Avant de pouvoir envoyer et recevoir des documents électroniques ou importer et
 |Convertir les enregistrements de document vente dans [!INCLUDE[d365fin](includes/d365fin_md.md)] en un format standardisé et envoyez\-les en tant que documents électroniques que vos clients peuvent recevoir dans leur système.|[Envoyer des documents électroniques](sales-how-to-send-electronic-documents.md)|  
 |Envoyer des fichiers PDF ou image à un fournisseur de services ROC, et les recevoir en tant que documents électroniques pouvant être convertis en enregistrements de document dans [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Utiliser un service OCR pour convertir des fichiers PDF et image en documents électroniques](across-how-use-ocr-pdf-images-files.md)|  
 |Recevoir des documents électroniques, du service OCR ou du service d'échange de document, dans un format standardisé que vous convertissez en enregistrements de document appropriés dans [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Recevoir et convertir des documents électroniques](purchasing-how-to-receive-and-convert-electronic-documents.md)|  
-|Préparer l'importation d'un fichier de relevé bancaire dans la page **Feuille rapprochement bancaire** comme première étape en rapprochement des paiements ou dans la page **Rapprochement bancaire** comme première étape de rapprochement des comptes bancaires.|[Configurer le service de flux de la Envestnet Yodlee Bank](bank-how-setup-bank-statement-service.md)|  
+|Préparer l'importation d'un fichier de relevé bancaire dans la page **Feuille rapprochement bancaire** comme première étape en rapprochement des paiements ou dans la page **Rapprochement bancaire** comme première étape de rapprochement des comptes bancaires.|[Configurer le service Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)|  
 |Exporter des paiements à partir de la page **Feuille paiement** vers un fichier bancaire que vous transférez sur votre compte bancaire électronique pour traitement.|[Exporter des paiements vers un fichier bancaire](payables-how-export-payments-bank-file.md)|
 |Effectuer des paiements électroniques conformément à la norme de virement SEPA de l'UE.|[Exécution de paiements avec le service de conversion de données bancaires ou un virement SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|  
 |Demander à votre banque de transférer les montants de paiement des comptes bancaires de vos clients vers le compte de votre société en fonction de votre configuration du prélèvement automatique SEPA.|[Créer des écritures de collection prélèvement automatique SEPA et les exporter vers un fichier bancaire](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)|  

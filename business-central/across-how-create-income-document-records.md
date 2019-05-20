@@ -13,11 +13,11 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 80096474645a3572b9a33ac9e04d40dc0e8cb82e
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "915468"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245980"
 ---
 # <a name="create-incoming-document-records"></a>Créer des enregistrements document entrant
 Sur la page **Documents entrants**, vous pouvez utiliser différentes fonctions pour examiner les reçus de dépenses, gérer les tâches ROC et convertir les fichiers document entrants, manuellement ou automatiquement, en documents ou lignes feuille appropriés. Les fichiers externes peuvent être joints à n'importe quelle étape du processus, notamment en ce qui concerne les documents validés et au fournisseur, au client qui en résulte, et dans les écritures comptables.

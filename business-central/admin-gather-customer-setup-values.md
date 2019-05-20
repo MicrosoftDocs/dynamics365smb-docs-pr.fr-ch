@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 6df4963c18e12efe4ddad68c6050776b45e7614c
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "920814"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245587"
 ---
 # <a name="gather-customer-setup-values"></a>Collecter les valeurs de configuration client
 Vous pouvez utiliser le questionnaire de configuration pour réduire la charge de travail d'implémentation en rationalisant la tâche de configuration de la nouvelle société. Vous pouvez générer le questionnaire de configuration dans [!INCLUDE[d365fin](includes/d365fin_md.md)], puis le fournir à votre client sous forme de fichier Excel ou XML.  

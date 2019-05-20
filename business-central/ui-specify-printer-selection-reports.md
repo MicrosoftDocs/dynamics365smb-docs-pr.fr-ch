@@ -13,11 +13,11 @@ ms.search.keywords: online printing
 ms.date: 04/01/2019
 ms.author: solsen
 ms.openlocfilehash: ea713fe831ce0d4befc81825531d3210f755a4cd
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917928"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247859"
 ---
 # <a name="specify-printer-selection-for-reports"></a>Spécifier la sélection de l'imprimante pour les états
 Cette page est vide car vous ne pouvez pas encore configurer d'imprimantes spécifiques pour des états spécifiques. Nous essayons de résoudre ce problème.

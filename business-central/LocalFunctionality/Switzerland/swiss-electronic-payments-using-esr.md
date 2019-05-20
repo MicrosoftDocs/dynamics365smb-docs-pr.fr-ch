@@ -4,20 +4,20 @@ description: La méthode de paiement électronique Einzahlungsschein mit Referen
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 07/01/2017
 ms.author: sgroespe
 ms.openlocfilehash: a09c843d740e24ceef4a8d387ccf471cf02a8b7b
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "935135"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245044"
 ---
 # <a name="swiss-electronic-payments-using-esr"></a>Paiements électroniques à l'aide de ESR+, Suisse
 La méthode de paiement électronique Einzahlungsschein mit Referenznummer (ESR) est un service de prélèvement électronique qui permet au client de facturer les factures ouvertes en francs suisses (CHF) et en euros (EUR), et de comptabiliser efficacement les paiements entrants. Le numéro de référence, ou la ligne de code, contient toutes les données de comptabilité pertinentes.  

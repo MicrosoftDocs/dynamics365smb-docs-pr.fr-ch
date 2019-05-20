@@ -13,11 +13,11 @@ ms.search.keywords: kit, kitting
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: afd3cc767cacac922352072d816fb1fc193eca8d
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "912279"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244254"
 ---
 # <a name="sell-items-assembled-to-order"></a>Vente d'articles à assembler pour commande
 Si le champ **Stratégie d'assemblage** de la fiche article d'un élément d'assemblage est **Assembler pour commande**, alors l'article n'est pas supposé être en stock et doit être assemblé spécifiquement dans une commande vente. Lorsque vous entrez l'article dans une ligne commande vente, un ordre d'assemblage est automatiquement créé et lié à la commande vente.  

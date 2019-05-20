@@ -11,11 +11,11 @@ ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: 423f5098589a0df5613190517fb933d0181360dd
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "990145"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1240594"
 ---
 # <a name="keyboard-shortcuts"></a>Raccourcis clavier
 Cet article fournit un aperçu de certaines combinaisons de touches de raccourcis que vous pouvez utiliser avec lorsque vous utilisez [!INCLUDE[prodshort](includes/prodshort.md)].

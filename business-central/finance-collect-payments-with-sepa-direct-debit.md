@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 9a2d4c8696eee9ec75de556b984d9ea2a87ad771
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "928245"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1239858"
 ---
 # <a name="collect-payments-with-sepa-direct-debit"></a>Recouvrement de paiements par prélèvement automatique SEPA
 Avec le consentement de votre client, vous pouvez collecter les paiements directement à partir du compte bancaire du client en fonction du format SEPA.  

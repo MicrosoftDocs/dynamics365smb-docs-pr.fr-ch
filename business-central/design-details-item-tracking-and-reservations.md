@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 911e3ebb67aa506055f2738be031443e622f8a1d
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "912895"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246213"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Détails de conception : traçabilité et réservations
 L'utilisation simultanée de la réservation et de la traçabilité spécifique est rare, parce qu'elles créent toutes les deux un couplage entre l'approvisionnement et la demande. Sauf pour les situations où un client ou un gestionnaire de production demande un lot spécifique, il est rarement judicieux de réserver des articles de stock qui possèdent déjà des numéros traçabilité pour un lettrage spécifique. Bien qu'il soit possible de réserver des articles nécessitant une traçabilité, une fonctionnalité spéciale est nécessaire pour éviter les conflits de disponibilité entre les préparateurs de commandes qui demandent les mêmes articles suivis.  

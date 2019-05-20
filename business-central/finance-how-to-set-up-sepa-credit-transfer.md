@@ -12,11 +12,11 @@ ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer
 ms.openlocfilehash: 56f200d00345bfe18d8fcccbee6493785fe6a034
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "929473"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1238248"
 ---
 # <a name="set-up-sepa-credit-transfer"></a>Configurer des virements SEPA
 Sur la page **Feuille paiement**, vous pouvez exporter des paiements vers un fichier pour le charger sur votre banque électronique afin de traiter les transferts d'argent liés. [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge le format de virement SEPA, mais dans votre pays/région, d'autres formats de paiements électroniques peuvent être disponibles.  

@@ -16,11 +16,11 @@ ms.date: 04/01/2019
 ms.author: bholtorf
 redirect_url: finance-set-up-cost-accounting
 ms.openlocfilehash: f7556b204403f0abdb6361a0e1650b90e58810e1
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "931714"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1238892"
 ---
 # <a name="managing-payables"></a>Gestion des comptes fournisseur
 [!INCLUDE[d365fin](includes/d365fin_md.md)] dispose de ce dont vous avez besoin pour gérer efficacement les comptes fournisseurs.  

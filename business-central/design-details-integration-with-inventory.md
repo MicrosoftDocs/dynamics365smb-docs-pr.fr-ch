@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 4ee990616a15beda08a6277b1568f1fc8eef44e8
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917616"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1242092"
 ---
 # <a name="design-details-integration-with-inventory"></a>Détails de conception : intégration avec le stock
 La zone d'application Warehouse Management et la zone d'application Inventory interagissent dans le stock physique et dans l'ajustement de stock ou entrepôt.  

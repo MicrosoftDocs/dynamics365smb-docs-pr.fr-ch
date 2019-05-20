@@ -14,11 +14,11 @@ ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: across-how-to-specify-when-and-how-to-receive-notifications
 ms.openlocfilehash: 562664ad0fd443c3363d103572022e6d819ed357
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "914293"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241797"
 ---
 # <a name="manage-notification-templates"></a>Gérer les modèles de notification
 Des notifications sont envoyées aux utilisateurs du workflow pour les informer des étapes à suivre ou du statut des étapes du workflow. Vous configurez qui reçoit des notifications et quand, en définissant des utilisateurs approbation, le calendrier de notification des utilisateurs, et les réponses de workflow concernées afin de déterminer les destinataires de notifications. Pour plus d'informations, reportez-vous à [Configuration de notifications de flux de travail](across-setting-up-workflow-notifications.md).  

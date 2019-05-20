@@ -13,11 +13,11 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 724d51e561997b98315696d8edd324d1b1b6f905
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917878"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241290"
 ---
 # <a name="create-incoming-document-records-directly-from-documents-and-entries"></a>Créer des enregistrements document entrant directement à partir de documents et d'écritures
 Vous pouvez enregistrer des documents commerciaux externes dans [!INCLUDE[d365fin](includes/d365fin_md.md)] en liant des fichiers document aux enregistrements document entrant associées. Si le document, une facture achat par exemple, n'était pas dès le départ un enregistrement document entrant, vous pouvez toujours créer et le lier à un enregistrement document entrant ultérieurement. Vous pouvez également joindre des fichiers document entrant à des documents achat et vente validés et à des écritures fournisseur, client et comptables à l'aide du récapitulatif **Fichiers document entrant** dans, par exemple, les pages **Factures achat enregistrées** et **Écritures comptables fournisseur**.

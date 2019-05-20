@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 4775af4afa3d1e97ad15aa24a710ec4e27ef554e
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "912647"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1240755"
 ---
 # <a name="set-up-approval-users"></a>Configurer des utilisateurs d'approbation
 Avant de pouvoir créer des flux de travail qui impliquent des étapes d'approbation, vous devez configurer les utilisateurs du flux de travail qui sont impliqués dans les processus d'approbation. Sur la page **Paramètres utilisateur d'approbation**, vous pouvez également définir les limites pour des types spécifiques de demandes et définir des approbateurs remplaçants à qui des demandes d'approbation sont déléguées lorsque l'approbateur initial est absent.  

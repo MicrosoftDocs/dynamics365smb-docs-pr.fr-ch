@@ -4,16 +4,17 @@ description: Vous devez spécifier le type de données que vous stockez sur les 
 author: bholtorf
 ms.author: bholtorf
 ms.custom: na
+ms.date: 03/09/2018
 ms.reviewer: na
-ms.service: dynamics365-business-central
+ms.suite: na
+ms.tgt_pltfrm: na
 ms.topic: article
-ms.date: 04/01/2019
 ms.openlocfilehash: b104f3f4a90c9db08b113f861c6e2b3f93f639c7
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "919766"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1239375"
 ---
 # <a name="classifying-data-sensitivity"></a>Classification de la sensibilité des données
 Pour classer les champs contenant des données sensibles ou personnelles, un partenaire Microsoft peut définir la propriété ```DataClassification``` des champs. Cela nécessite un accès aux tables de base de données, par le biais de l'environnement de développement ou en exécutant un script Windows PowerShell. Pour plus d'informations, voir [Classification des données](https://docs.microsoft.com/en-us/dynamics-nav/classifying-data).  

@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: bac8d19bd48d9b7ad981c75dc54b155c8fe765a5
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "935915"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245065"
 ---
 # <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Utiliser des schémas XML pour préparer des définitions d'échange de données
 Pour activer l'importation/exportation des données dans des fichiers XML à travers l'infrastructure d'échange de données de [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez utiliser des schémas XML pour définir les éléments de données à échanger avec [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vous effectuez ce travail sur la page **Visionneuse de schéma XML** en chargeant le fichier de schéma XML, en sélectionnant les éléments de données appropriés, puis en initialisant soit une définition d'échange de données ou un XMLport.  

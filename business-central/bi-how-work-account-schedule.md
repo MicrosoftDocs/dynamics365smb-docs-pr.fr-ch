@@ -11,11 +11,11 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: e7430c17e090e2b0c3ca13ee7c52cfec749fcc2b
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "918425"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245389"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Préparer la génération d'états financiers avec des tableaux d'analyse et des catégories de compte
 Utilisez les tableaux d'analyse pour obtenir un aperçu des données financières enregistrées dans votre plan comptable. Les tableaux d'analyse analysent les chiffres des comptes généraux et comparent les écritures comptables et les écritures comptables budget. Les résultats s'affichent dans les graphiques de votre tableau de bord, comme le graphique Trésorerie, et dans les états, comme les états Comptes de gestion et Bilan.

@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: a26cafc11479d7065645947f63fa93d28ddb824f
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941788"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246032"
 ---
 # <a name="design-details-assembly-order-posting"></a>Détails de conception : validation d'ordre d'assemblage
 La validation d'ordre d'assemblage est basée sur les mêmes principes que la validation des activités similaires des commandes vente et de la consommation de production/production. Cependant, les principes sont combinés du fait que les ordres d'assemblage ont leur propre interface utilisateur de validation, comme celle des commandes vente, alors que la validation des écritures réelle se produit en arrière-plan en tant que validations directes d'article et de feuille ressource, comme pour la consommation de production, la production et la capacité.  
