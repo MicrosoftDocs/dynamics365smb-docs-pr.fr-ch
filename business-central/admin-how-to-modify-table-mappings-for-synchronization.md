@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: de924baa494ae00c09dcb7657c050f2d9ae3ba87
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c2b2df393afe7cf27964b1540deddf7760747a9d
+ms.sourcegitcommit: 92c7b6c5f0a5d8becbef106ab85258906765bc3e
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247459"
+ms.lasthandoff: 05/13/2019
+ms.locfileid: "1540215"
 ---
 # <a name="modify-table-mappings-for-synchronization"></a>Modifier les mappages de table pour la synchronisation
 Un mappage de table d'intégration associe une table dans [!INCLUDE[d365fin](includes/d365fin_md.md)] à une table d'intégration pour l'entité [!INCLUDE[crm_md](includes/crm_md.md)]. À chaque entité de [!INCLUDE[crm_md](includes/crm_md.md)] à synchroniser avec les données correspondantes dans [!INCLUDE[d365fin](includes/d365fin_md.md)] doit correspondre un mappage de table d'intégration. Un mappage de table d'intégration comprend plusieurs paramètres qui vous permettent de contrôler comment les enregistrements d'une table [!INCLUDE[d365fin](includes/d365fin_md.md)] et une entité [!INCLUDE[crm_md](includes/crm_md.md)] sont synchronisés par les projets de synchronisation d'intégration correspondants.  
@@ -49,7 +49,7 @@ Si vous installez la configuration de synchronisation par défaut, deux modèles
 
      Ce modèle est créé en copiant un modèle de configuration existant pour les clients de l'application. Le compte **CRMCUST** n'est créé que s'il existe un modèle de configuration et que si le champ **Code devise** du modèle est vide. Si un champ du modèle de configuration contient une valeur, celle-ci est utilisée au lieu de la valeur du champ mappé dans le compte [!INCLUDE[crm_md](includes/crm_md.md)]. Par exemple, si le champ **Pays/Région** d'un compte dans [!INCLUDE[crm_md](includes/crm_md.md)] a la valeur *États-Unis* et le champ **Pays/Région** du modèle de configuration a la valeur *Grande-Bretagne*, alors *Grande-Bretagne* est utilisé comme **Pays/Région** pour le client dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
--   Le compte **CRMACCOUNT** permet de créer et de synchroniser de nouveaux comptes dans [!INCLUDE[crm_md](includes/crm_md.md)] sur la base d'un compte dans [!INCLUDE[d365](includes/d365fin_md.md)].  
+-   Le compte **CRMACCOUNT** permet de créer et de synchroniser de nouveaux comptes dans [!INCLUDE[crm_md](includes/crm_md.md)] sur la base d'un compte dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 #### <a name="to-specify-configuration-templates-on-a-table-mapping"></a>Pour spécifier des modèles de configuration dans un mappage de table  
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Mappages de table d'intégration**, puis sélectionnez le lien associé.

@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 30396e25dbf251e674744d1ba797c100b5762a46
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 3cc053158581d4fc9b87dc3e505a23ed809c1c8f
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238041"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620876"
 ---
 # <a name="using-dynamics-365-for-sales-from-business-central"></a>Utilisation de Dynamics 365 for Sales depuis Business Central
 Si vous utilisez Dynamics 365 for Sales for Customer Engagement, bénéficiez de l'intégration parfaite dans le processus allant du prospect à l'encaissement à l'aide de [!INCLUDE[d365fin](includes/d365fin_md.md)] pour les activités principales, telles que le traitement des commandes, la gestion des stocks et de vos finances.
@@ -78,7 +78,11 @@ Les devis activés dans [!INCLUDE[crm_md](includes/crm_md.md)] seront transfér�
 Sinon, vous pouvez convertir manuellement les devis envoyés depuis [!INCLUDE[crm_md](includes/crm_md.md)] à l'aide de l'action **Traiter dans [!INCLUDE[d365fin](includes/d365fin_md.md)]** disponible sur la page **Devis - Dynamics 365 for Sales**.
 Pour ces devis, le champ **Nom** du devis d'origine est transféré et associé au champ **Numéro de document externe** de la commande vente dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. En outre, le champ **Applicable jusqu'à** du devis est transféré et mappé vers le champ **Devis valide jusqu'à** du devis dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-Les devis subissent de nombreuses révisions avant d'être finalisés. Le traitement automatique et manuel des devis dans [!INCLUDE[d365fin](includes/d365fin_md.md)] garantit que les versions précédentes des devis sont archivées avant traitement des nouvelles révisions de devis depuis [!INCLUDE[crm_md](includes/crm_md.md)].  
+Les devis subissent de nombreuses révisions avant d'être finalisés. Le traitement automatique et manuel des devis dans [!INCLUDE[d365fin](includes/d365fin_md.md)] garantit que les versions précédentes des devis sont archivées avant traitement des nouvelles révisions de devis depuis [!INCLUDE[crm_md](includes/crm_md.md)]. 
+
+## <a name="handling-posted-sales-invoices-customer-payments-and-statistics"></a>Gestion des factures vente enregistrées, des paiements client et des statistiques
+Après l'exécution d'une commande vente, les factures associées seront créées. Lorsque vous facturez une commande vente, vous pouvez transférer la facture vente enregistrée dans [!INCLUDE[crm_md](includes/crm_md.md)] si vous sélectionnez **Créer une facture dans [!INCLUDE[crm_md](includes/crm_md.md)]** dans la page Facture vente enregistrée. Les factures enregistrées sont transférées dans [!INCLUDE[crm_md](includes/crm_md.md)] avec le statut **Facturé**. Une fois que le paiement client est reçu pour la facture vente dans [!INCLUDE[d365fin](includes/d365fin_md.md)], le statut de la facture vente sera modifié en **Payé** avec la raison du statut définie sur **Partielle** si elle est partiellement payée, ou **Totale** si elle est totalement payée, lorsque vous exécutez **Mettre à jour les statistiques compte** dans la page du client dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. **Mettre à jour les statistiques compte** actualisera également des valeurs telles que le solde et les ventes totales dans le récapitulatif Statistiques compte [!INCLUDE[d365fin](includes/d365fin_md.md)] dans [!INCLUDE[crm_md](includes/crm_md.md)].
+Sinon, les projets planifiés (statistiques client et POSTEDSALESINV-INV) peuvent exécuter automatiquement ces deux processus en arrière-plan. 
 
 ## <a name="see-also"></a>Voir aussi
 [Préparation pour intégrer à Dynamics 365 for Sales On-premises](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration)  

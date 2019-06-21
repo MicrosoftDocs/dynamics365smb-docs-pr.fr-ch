@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: c318346c62b7776a550a77a2947173e33d5f17c0
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 3163389cb0818133fba9ab8c55b8d0cf662130f1
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246589"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620968"
 ---
 # <a name="setting-up-user-accounts-for-integrating-with-dynamics-365-for-sales"></a>Configuration des comptes d'utilisateur pour intégration à Dynamics 365 for Sales
 Cet article fournit un aperçu de la manière dont la configuration des comptes d'utilisateur requis pour intégrer [!INCLUDE[crm_md](includes/crm_md.md)] à [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -28,7 +28,7 @@ Cet article fournit un aperçu de la manière dont la configuration des comptes 
 Vous devez ajouter votre compte d'utilisateur d'administrateur pour [!INCLUDE[d365fin](includes/d365fin_md.md)] en tant qu'utilisateur dans [!INCLUDE[crm_md](includes/crm_md.md)], puis promouvoir l'utilisateur en tant qu'administrateur dans [!INCLUDE[crm_md](includes/crm_md.md)]. Le compte d'utilisateur d'administrateur doit également avoir le rôle Personnalisateur du système et au moins un autre rôle d'utilisateur non-administratif, tel que Directeur des ventes dans [!INCLUDE[crm_md](includes/crm_md.md)].
 
 ## <a name="setting-up-the-user-account-for-the-integration"></a>Configuration du compte d'utilisateur pour l'intégration
-Vous devez créer un compte d'utilisateur dédié dans votre abonnement Office 365 que [!INCLUDE[d365fin](includes/d365fin_md.md)] et [!INCLUDE[crm_md](includes/crm_md.md)] peuvent utiliser pour synchroniser les données. Ce compte d'utilisateur doit être en mesure de se connecter à [!INCLUDE[crm_md](includes/crm_md.md)], ce qui signifie que cet utilisateur doit avoir une licence pour [!INCLUDE[crm_md](includes/crm_md.md)]. Ce compte doit être également un compte non-interactif dans [!INCLUDE[crm_md](includes/crm_md.md)]. Pour en savoir plus sur la manière de créer des utilisateurs dans [!INCLUDE[crm_md](includes/crm_md.md)], reportez-vous à la rubrique [Gérer la sécurité, les utilisateurs et les équipes](http://go.microsoft.com/fwlink/?LinkID=616518). Une fois la connexion configurée, [!INCLUDE[d365fin](includes/d365fin_md.md)] affectera au compte d'utilisateur les rôles de sécurité nécessaires dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Vous devez créer un compte d'utilisateur dédié dans votre abonnement Office 365 que [!INCLUDE[d365fin](includes/d365fin_md.md)] et [!INCLUDE[crm_md](includes/crm_md.md)] peuvent utiliser pour synchroniser les données. Ce compte utilisateur doit pouvoir se connecter à [!INCLUDE[crm_md](includes/crm_md.md)], ce qui signifie que cet utilisateur doit avoir une licence pour [!INCLUDE[crm_md](includes/crm_md.md)] et au moins un rôle de sécurité doit lui être affecté dans [!INCLUDE[crm_md](includes/crm_md.md)], comme décrit [ici](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-user-account). Pour en savoir plus sur la manière de créer des utilisateurs dans [!INCLUDE[crm_md](includes/crm_md.md)], reportez-vous à la rubrique [Gérer la sécurité, les utilisateurs et les équipes](http://go.microsoft.com/fwlink/?LinkID=616518). Une fois la connexion configurée, [!INCLUDE[d365fin](includes/d365fin_md.md)] affectera au compte utilisateur les rôles de sécurité nécessaires dans [!INCLUDE[d365fin](includes/d365fin_md.md)] et ce compte peut être défini sur le [mode d'accès non interactif](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account) dans [!INCLUDE[crm_md](includes/crm_md.md)]
 
 ![Guide de configuration assistée présentant l'espace pour saisir les identifiants d'utilisateur de synchronisation](media/sync-user-setup.png "Page de l'assistant de configuration assistée de visualisation présentant l'espace pour saisir les identifiants d'utilisateur de synchronisation")
 

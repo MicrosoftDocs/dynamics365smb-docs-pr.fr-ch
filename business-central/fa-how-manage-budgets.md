@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: forecast
-ms.date: 04/01/2019
+ms.date: 05/24/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0e7c7d665dc26a2af365daf6171affb679c22c1a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: dfae781b7ddabd7283868886dd07699bf62be052
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247224"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620922"
 ---
 # <a name="manage-budgets-for-fixed-assets"></a>Gérer les budgets pour les immobilisations
 Vous pouvez paramétrer des immobilisations budgétées. Cela vous permet par exemple d'inclure dans des états des acquisitions et des ventes anticipées.  
@@ -51,7 +51,7 @@ Pour visualiser les valeurs de cession prévues et effectuer le calcul des gains
 ## <a name="to-budget-depreciation"></a>Pour budgéter des amortissements
 Vous pouvez utiliser l'état **Immo. - Valeur projetée** pour calculer l'amortissement à venir. L'état affiche la valeur comptable et l'amortissement cumulé au début et à la fin de la période sélectionnée, ainsi que les modifications apportées durant cette période.
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Immo. - Valeur projetée**, puis choisissez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Valeur projetée de l'immobilisation**, puis choisissez le lien associé.
 2. Renseignez les champs selon vos besoins.
 3. Pour voir les valeurs totales de tous les actifs, décochez la case **Imprimer par immobilisation**.
 4. Ne renseignez pas le raccourci **Immobilisation** pour inclure toutes les immobilisations. Dans le champ **Immo. budgétée**, vous pouvez saisir **Non** afin d'exclure les immobilisations budgétées ou sur **Oui** pour les visualiser.

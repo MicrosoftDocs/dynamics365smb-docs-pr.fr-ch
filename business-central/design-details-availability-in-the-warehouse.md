@@ -10,19 +10,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 06/03/2019
 ms.author: sgroespe
-ms.openlocfilehash: 38218c497f7d3892b19d0b594ff3863004f69ac4
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ab0f0e921fd7a321975330062d19869efc7d8ec7
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246879"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620945"
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Détails de conception : disponibilité dans l'entrepôt
 Le système doit conserver un contrôle constant de la disponibilité des articles dans l'entrepôt, afin que les commandes sortantes puissent s'écouler efficacement et fournir des livraisons optimales.  
 
- La disponibilité varie selon les affectations au niveau de l'emplacement quand des activités entrepôt, par exemple des prélèvements et des mouvements défectueux, se produisent et quand le système de réservation de stock impose des restrictions à respecter. Un algorithme plutôt complexe vérifie que toutes les conditions sont remplies avant d'affecter des quantités aux prélèvements pour les flux sortants.  
+La disponibilité varie selon les affectations au niveau de l'emplacement quand des activités entrepôt, par exemple des prélèvements et des mouvements défectueux, se produisent et quand le système de réservation de stock impose des restrictions à respecter. Un algorithme plutôt complexe vérifie que toutes les conditions sont remplies avant d'affecter des quantités aux prélèvements pour les flux sortants.
+
+Si une ou plusieurs conditions ne sont pas remplies, différents messages d'erreur peuvent être affichés, y compris le message générique « Il n'y a rien à traiter » . Le message « Il n'y a rien à traiter » peut se produire pour plusieurs raisons différentes, à la fois dans des flux entrants et sortants, où une ligne document directement ou indirectement impliquée contient le champ **Qté à traiter**.
+
+> [!NOTE]
+> Des informations seront bientôt publiées ici sur les raisons et les solutions possibles pour le message « Il n'y a rien à traiter » .
 
 ## <a name="bin-content-and-reservations"></a>Contenu et réservations d'emplacement  
  Dans n'importe quelle installation de gestion d'entrepôt, les quantités d'articles ont été créés à la fois en tant qu'écritures entrepôt, dans le module Entrepôt, et en tant qu'écritures comptables article, dans le module Stock. Ces deux types d'écritures contiennent différentes informations à propos de l'endroit où se trouvent les articles et s'ils sont disponibles. Les écritures d'entrepôt définissent la disponibilité d'un article par emplacement et type d'emplacement, qui est appelée contenu d'emplacement. Les écritures comptables article définissent la disponibilité d'un article par sa réservation aux documents sortants.  
@@ -72,4 +77,5 @@ Le système doit conserver un contrôle constant de la disponibilité des articl
  ![Disponible pour réserver par ventilation entrepôt](media/design_details_warehouse_management_availability_3.png "Disponible pour réserver par ventilation entrepôt")  
 
 ## <a name="see-also"></a>Voir aussi  
- [Détails de conception : gestion d'entrepôt](design-details-warehouse-management.md)
+ [Détails de conception : gestion d'entrepôt](design-details-warehouse-management.md)  
+ [Voir la disponibilité des articles](inventory-how-availability-overview.md)

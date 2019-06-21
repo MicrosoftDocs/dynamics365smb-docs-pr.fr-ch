@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 06/03/2019
 ms.author: jswymer
-ms.openlocfilehash: 00143454cf0b0da9b111f92bcdb7879c7e6743d2
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: d0fac96313b41a0e41ea96ab4fedd25565498f12
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252473"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621175"
 ---
 # <a name="entering-data"></a>Saisie de données
 
@@ -39,7 +39,7 @@ Vous connaissez peut-être déjà l'utilisation de la touche Tab afin de navigue
 
 Chaque champ peut être marqué comme *inclus dans la Saisie rapide* ou *exclus de la Saisie rapide*. Les champs inclus dans la Saisie rapide seront inclus dans le chemin d'accès lorsque vous appuyez sur la touche Entrée ; les champs exclus de la fonction Saisie rapide, ne le seront pas.
 
-Lorsque vous avez fini de saisir les données dans un champ, appuyez simplement sur Entrée pour confirmer les changements et accéder au champ suivant. Si vous souhaitez inverser le sens, et accéder au champ précédent, appuyez sur Maj+Entrée. Pour plus d'informations sur les raccourcis, reportez-vous à [Raccourcis clavier Saisie rapide](keyboard-shortcuts.md#QuickEntry).
+Lorsque vous avez fini de saisir les données dans un champ, appuyez simplement sur Entrée pour confirmer les changements et accéder au champ suivant. Si vous souhaitez inverser le sens, et accéder au champ précédent, appuyez sur Maj+Entrée. Pour plus d'informations sur les raccourcis, voir [Raccourcis clavier Saisie rapide pour les champs](keyboard-shortcuts.md#QuickEntry).
 
 #### <a name="tips-and-tricks"></a>Conseils et astuces
 Vous trouverez ci-après les informations utiles concernant la fonction Saisie rapide.
@@ -90,7 +90,7 @@ Lorsque vous travaillez sur des documents qui comprennent une pièce des article
 
 Un autre avantage est que cela vous offre une fonctionnalité de filtre avancée, comme sur les autres listes, afin que la navigation et la recherche à travers les articles de ligne soient plus simples.
 
-### <a name="switch-the-focus-on-and-off"></a>Activer/Désactiver le focus
+### <a name="switching-the-focus-on-and-off"></a>Activation/Désactivation du focus
 
 Pour vous concentrer sur les articles de ligne, faites votre sélection n'importe où dans la partie des articles de ligne, puis sélectionnez ![icône mode Focalisation](media/focus-mode.png "icône mode Focalisation") dans l'angle supérieur droit ou appuyez sur Ctrl+Maj+F12.
 

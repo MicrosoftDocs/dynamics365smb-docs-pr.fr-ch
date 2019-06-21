@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 05/22/2019
 ms.author: edupont
-ms.openlocfilehash: 99b1b5d5f725a598cc8be77f390d1fcf1c1a4033
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 12763990a6d35f1c993e488e476328d1de05338b
+ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250380"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594325"
 ---
-# <a name="accessibility-and-keyboard-shortcuts-in-included365finincludesd365finmdmd"></a>Accessibilité et raccourcis clavier dans [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="accessibility-and-keyboard-shortcuts"></a>Accessibilité et raccourcis clavier
 Cette rubrique fournit des informations sur les fonctionnalités qui rendent [!INCLUDE[d365fin](includes/d365fin_md.md)] accessible aux personnes handicapées. [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge les fonctionnalités d'accessibilité suivantes :  
 
 -   raccourcis clavier ;

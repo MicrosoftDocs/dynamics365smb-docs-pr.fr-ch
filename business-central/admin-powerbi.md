@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/26/2019
 ms.author: edupont
-ms.openlocfilehash: a999a9533aa2dd4e8dcadea04e7838305b34ba5b
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 79fa8f67a1b2d7ced65f002bd04fc69f61811c5e
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247527"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620991"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Activation de vos données commerciales pour Power BI
 Il est facile d'obtenir des informations exploitables de vos données [!INCLUDE[d365fin](includes/d365fin_md.md)] grâce à Power BI et aux packs de contenu [!INCLUDE[d365fin](includes/d365fin_md.md)]. Power BI extrait vos données, puis génère un tableau de bord prêt à l'emploi et des états basés sur ces données.  
 
-Vous devez disposer d'un compte valide avec Dynamics 365 et avec Power BI. En outre, vous devez télécharger [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) si vous souhaitez créer vos propres états Power BI. Les packs de contenu Power BI nécessitent des autorisations vers les tables d'où sont extraites les données. Vous trouverez plus d'informations sur les besoins ci-dessous.  
+Vous devez disposer d'un compte valide avec [!INCLUDE[prodshort](includes/prodshort.md)] et avec Power BI. En outre, vous devez télécharger [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) si vous souhaitez créer vos propres états Power BI. Les packs de contenu Power BI nécessitent des autorisations vers les tables d'où sont extraites les données. Vous trouverez plus d'informations sur les besoins ci-dessous.  
 
 > [!IMPORTANT]
 > Les packs de contenu décrits dans cet article sont conçus pour utiliser Azure Active Directory comme mécanisme d'authentification. Si vous utilisez [!INCLUDE [prodshort](includes/prodshort.md)] local et utilisez un autre mécanisme d'authentification, Power BI ne peut pas se connecter à vos données.  
@@ -28,15 +28,8 @@ Vous devez disposer d'un compte valide avec Dynamics 365 et avec Power BI. En ou
 Microsoft a publié les packs de contenu suivants :
 
 - [!INCLUDE [prodlong](includes/prodlong.md)] - CRM  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Liste des clients  
 - [!INCLUDE [prodlong](includes/prodlong.md)] - Finances  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Liste des articles  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Projets  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Liste des projets  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Factures achat  
 - [!INCLUDE [prodlong](includes/prodlong.md)] - Ventes  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Liste des commandes vente  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Liste des fournisseurs  
 
 ## <a name="using-the-dashboards"></a>Utilisation des tableaux de bord
 Chaque pack de contenu contient des états que vous pouvez afficher :
@@ -88,64 +81,9 @@ Pour importer les données [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.m
 - Modèle Excel Afficher Société
 - Étiquettes d'état Power BI
 
-**Microsoft Dynamics 365 Business Central – Jobs**
-- Liste des projets
-- Lignes planning projet
-- Lignes tâche projet
-- Étiquettes d'état Power BI
-- Modèle Excel Afficher Société
-
 **Microsoft Dynamics 365 Business Central - Sales**
 - Tableau de bord ventes
 - Modèle Excel Afficher Société
-- Étiquettes d'état Power BI
-
-### <a name="list-page-reports"></a>États Page de liste
-
-**Microsoft Dynamics 365 Business Central – Customers List**
-- Ventes d'articles par client
-- Liste des achats d'articles Power BI
-- Liste des ventes d'articles Power BI
-- Tableau de bord ventes
-- Liste des clients Power BI
-- ExcelTemplateViewCompany
-- Étiquettes d'état Power BI
-
-**Microsoft Dynamics 365 Business Central - General Ledger Entries List**
-- Liste des montants Power BI GL
-- Montant budgété Power BI GL
-- ExcelTemplateViewCompany
-- Étiquettes d'état Power BI
-
-**Microsoft Dynamics 365 Business Central – Items List**
-- Ventes d'articles par client
-- Liste des achats d'articles Power BI
-- Liste des ventes d'articles Power BI
-- Tableau de bord ventes
-- ExcelTemplateViewCompany
-- Étiquettes d'état Power BI
-
-**Microsoft Dynamics 365 Business Central – Jobs List**
-- Liste des projets Power BI
-- ExcelTemplateViewCompany
-- Étiquettes d'état Power BI
-
-**Microsoft Dynamics 365 Business Central – Purchase Invoices List**
-- Liste des achats Power BI
-- ExcelTemplateViewCompany
-- Étiquettes d'état Power BI
-
-**Microsoft Dynamics 365 Business Central – Sales Orders List**
-- Liste des ventes Power BI
-- ExcelTemplateViewCompany
-- Étiquettes d'état Power BI
-
-
-**Microsoft Dynamics 365 Business Central – Vendors List**
-- Liste des achats d'articles Power BI
-- Liste des ventes d'articles Power BI
-- Liste des fournisseurs Power BI
-- ExcelTemplateViewCompany
 - Étiquettes d'état Power BI
 
 ## <a name="web-services"></a>Services web
@@ -158,8 +96,7 @@ Le tableau de bord Power BI s'appuie sur les services Web publiés qui sont rép
 Une erreur commune consiste à entrer le nom complet de la société au lieu du nom de la société. Pour trouver le nom de la société, cherchez dans **Sociétés**. Utilisez ensuite le champ **Nom** au moment de saisir le nom de votre société.
 
 ### <a name="incorrect-user-name-and-password"></a>Nom d'utilisateur et mot de passe incorrects  
-Le nom d'utilisateur et le mot de passe utilisés pour la connexion sont identiques à ceux utilisés pour la connexion à votre compte Microsoft Office 365.  
-
+Le nom d'utilisateur et le mot de passe utilisés pour se connecter à Power BI sont identiques à ceux utilisés pour se connecter à votre compte Microsoft Office 365.  
 Les packs de contenu nécessitent également que vous ayez un compte [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] Microsoft. Une fois les informations d'identification saisies, tous les abonnés [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] Microsoft accessibles seront détectés automatiquement. Si vous n'avez pas de compte Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] sous licence ou d'essai, vous recevrez un message d'erreur.
 
 ### <a name="the-key-didnt-match-any-rows-in-the-table"></a>La clé ne correspond à aucune ligne de la table

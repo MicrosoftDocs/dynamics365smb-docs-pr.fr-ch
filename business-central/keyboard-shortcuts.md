@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 423f5098589a0df5613190517fb933d0181360dd
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 11d63e2745ce35067d87e66c6077d51276f90075
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240594"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621221"
 ---
 # <a name="keyboard-shortcuts"></a>Raccourcis clavier
 Cet article fournit un aperçu de certaines combinaisons de touches de raccourcis que vous pouvez utiliser avec lorsque vous utilisez [!INCLUDE[prodshort](includes/prodshort.md)].
@@ -105,8 +105,8 @@ Le tableau suivant décrit les raccourcis clavier que vous pouvez utiliser dans 
 |Maj+Haut<br />(Maj+Fn+Flèche haut)|Étendez la sélection des lignes pour inclure toutes les lignes visibles au-dessus de la sélection actuelle des lignes.|Non applicable.|
 |Maj+Bas<br />(Maj+Fn+Flèche bas)|Étendez la sélection des lignes pour inclure toutes les lignes visibles au-dessous de la sélection actuelle des lignes.|Non applicable.|
 |Ctrl+C<br />(Cmd+C)|Permet de copier les lignes sélectionnées dans le Presse-papiers.|Non applicable.|
-|Ctrl+V<br />(Cmd+V)|Coller lignes sélectionnées du Presse-papiers dans la page actuelle ou le document externe, comme Microsoft Excel ou un e-mail Outlook.<br /><br />Vous pouvez uniquement effectuer ces opérations dans les listes modifiables.|Non applicable.|
-|F8|Copier le champ dans la même colonne de la ligne précédente, et le coller dans la ligne actuelle.<br /><br />Vous pouvez effectuer ces opérations uniquement dans les listes modifiables. L'utilisation de ce raccourci suivi d'une tabulation vous permet de renseigner rapidement les champs dans les lignes articles que vous souhaitez avoir la même valeur que la ligne précédente.|Non applicable.||
+|Ctrl+V<br />(Cmd+V)|Coller lignes sélectionnées du Presse-papiers dans la page actuelle ou le document externe, comme Microsoft Excel ou un e-mail Outlook. Vous pouvez uniquement effectuer ces opérations dans les listes modifiables.|Non applicable.|
+|F8|Copier le champ dans la même colonne de la ligne précédente, et le coller dans la ligne actuelle. Vous pouvez effectuer ces opérations uniquement dans les listes modifiables. L'utilisation de ce raccourci suivi d'une tabulation vous permet de renseigner rapidement les champs dans les lignes articles que vous souhaitez avoir la même valeur que la ligne précédente.|Non applicable.|
 
 ### <a name="KeyboardFilter"></a>Recherche et filtrage de listes
 

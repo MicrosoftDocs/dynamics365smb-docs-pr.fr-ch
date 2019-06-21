@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 57ac1956c2e7b22a04615c4ebd0ab5b502787a93
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: dcce77cae3f582f59ec07469342661ad2f4d9afa
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240663"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621037"
 ---
 # <a name="how-to-set-up-and-report-intrastat"></a>Procédure : configurer et enregistrer un état intracommunautaire
 Toutes les sociétés de l'Union européenne doivent déclarer leurs échanges avec les autres pays/régions de l'Union européenne. Vous devez déclarer les mouvements de marchandises aux autorités statistiques de votre pays/région mensuellement et la déclaration doit être remise aux autorités fiscales. Cette déclaration est appelée D.E.B. La page **Feuille intracomm.** permet de remplir des déclarations D.E.B. périodiques.  
@@ -25,6 +25,7 @@ Toutes les sociétés de l'Union européenne doivent déclarer leurs échanges a
 ## <a name="required-and-optional-setups"></a>Paramètres obligatoires et facultatifs
 Avant d'utiliser la feuille intracommunautaire pour enregistrer des informations intracommunautaires, plusieurs éléments doivent être configurés :  
 
+* **Configuration intracomm.**  : la page Configuration intracomm. permet d'activer la D.E.B. et de définir des valeurs par défaut. Vous pouvez spécifier si vous devez enregistrer la D.E.B. à partir des expéditions (répartitions), des réceptions (arrivées) ou des deux, selon les seuils définis par vos réglementations locales. Vous pouvez également définir des types de transaction par défaut pour les documents classiques et de retour, utilisés pour la nature des états de transaction. 
 * **Modèles de feuilles intracommunautaires** : Vous devez configurer les modèles et les feuilles intracommunautaires que vous utiliserez. Comme l'état intracommunautaire doit être généré mensuellement, vous devez créer 12 feuilles intracommunautaires basées sur le même modèle.  
 * **Codes marchandise** : les autorités douanières et fiscales ont établi des codes numériques pour classer les articles et les services. Vous spécifiez ces codes sur les articles.
 * **Codes nature de transaction** : les pays et les régions ont différents codes pour les types de transactions intracommunautaires, comme l'achat et la vente ordinaires, l'échange de marchandises retournées et l'échange de marchandises non retournées. Configurez tous les codes qui s'appliquent à votre pays/région. Utilisez ces codes dans les documents achat et vente, et lorsque vous traitez des retours.  

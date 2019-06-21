@@ -1,6 +1,6 @@
 ---
-title: Cloud intelligent | Microsoft Docs
-description: Obtenez une copie cloud de vos données afin d'être connecté au cloud intelligent.
+title: Informations intelligentes | Microsoft Docs
+description: Connectez-vous à des informations intelligentes avec Business Central, même à partir de votre solution sur site.
 author: bmeier94
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,20 +9,20 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms. search.keywords: cloud, edge
-ms.date: 04/01/2019
+ms.date: 05/20/2019
 ms.author: bmeier
-ms.openlocfilehash: 4bd30c2912c8a690431221e7983f5fe53b543322
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a625bdb047fe77ca2fb118a41902c5546d38523d
+ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241438"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594171"
 ---
-# <a name="your-access-to-the-intelligent-cloud-with-includeprodshortincludesprodshortmd"></a>Votre accès au Cloud intelligent avec [!INCLUDE[prodshort](includes/prodshort.md)]
+# <a name="intelligent-insights-with-includeprodshortincludesprodshortmd"></a>Informations intelligentes avec [!INCLUDE[prodshort](includes/prodshort.md)]
 
-En tant qu'utilisateur de [!INCLUDE[prodshort](includes/prodshort.md)] online, vous avez un accès complet aux scénarios basés sur le Cloud intelligent, tels que la modification des données dans Excel ou l'application des modifications dans [!INCLUDE[prodshort](includes/prodshort.md)], ou lorsque vous consultez vos données dans Power BI. Toutefois, bien que [!INCLUDE[prodshort](includes/prodshort.md)] est un service basé d'abord sur le cloud, les clients qui doivent exécuter leurs charges de travail entièrement sur site ou sur la périphérie intelligente connectée au cloud peuvent également le faire.  
+En tant qu'utilisateur de [!INCLUDE[prodshort](includes/prodshort.md)] en ligne, vous avez un accès complet aux scénarios basés sur le Cloud intelligent, comme les indicateurs de performance clés basés sur Machine Learning, ou lorsque vous consultez vos données dans Power BI. Toutefois, bien que [!INCLUDE[prodshort](includes/prodshort.md)] est un service basé d'abord sur le cloud, les clients qui doivent exécuter leurs charges de travail entièrement sur site ou sur la périphérie intelligente connectée au cloud peuvent également le faire.  
 
-Si vous êtes intéressé par [!INCLUDE[prodshort](includes/prodshort.md)], vous pouvez vous inscrire à une version d'évaluation gratuite de la solution de déploiement sur le cloud par défaut, ou vous pouvez choisir d'utiliser un partenaire pour déployer [!INCLUDE[prodshort](includes/prodshort.md)] localement sur votre choix de matériel. Vous pouvez ensuite décider de vous connecter au cloud via votre abonné sur le cloud. Par conséquent, les données de votre [!INCLUDE[prodshort](includes/prodshort.md)] déployé localement seront répliquées sur le cloud pour les scénarios de cloud intelligent.  
+Si vous êtes intéressé par [!INCLUDE[prodshort](includes/prodshort.md)], vous pouvez vous inscrire à une version d'évaluation gratuite en ligne, ou vous pouvez choisir de faire appel à un partenaire pour déployer [!INCLUDE[prodshort](includes/prodshort.md)] localement sur le matériel de votre choix. Vous pouvez ensuite décider d'obtenir des informations intelligentes en vous connectant à un abonné dans le cloud. Par conséquent, les données de votre [!INCLUDE[prodshort](includes/prodshort.md)] déployé localement seront répliquées sur le cloud pour les scénarios de cloud intelligent.  
 
 La connexion au cloud intelligent d'une solution locale nécessite que votre administrateur spécifie des informations sur votre base de données. Pour plus d'informations, voir [Connexion au cloud intelligent](/dynamics365/business-central/dev-itpro/administration/about-intelligent-edge) dans le contenu ITPro de [!INCLUDE[prodshort](includes/prodshort.md)].  
 
@@ -42,9 +42,13 @@ En regard des graphiques KPI, vous obtenez des informations sur des domaines de 
 
 La page se connecte également à Power BI pour encore plus d'informations.
 
-## <a name="viewing-intelligent-cloud-insights-on-premises"></a>Affichage des informations sur le cloud intelligent localement
+## <a name="viewing-intelligent-insights-on-premises"></a>Affichage des informations intelligentes localement
 
 Lorsque votre revendeur Dynamics 365 a acquis la bonne licence pour votre solution locale pour se connecter au cloud via [!INCLUDE[prodshort](includes/prodshort.md)], votre administrateur peut configurer la connexion. Une fois cela effectué, vous pouvez afficher les mêmes informations depuis le cloud dans votre application locale. Selon la solution locale, la page **Informations sur le cloud intelligent** peut être intégrée dans la page d'accueil ou être une page séparée comme dans [!INCLUDE[prodshort](includes/prodshort.md)] online et local.  
+
+## <a name="connecting-to-business-central-from-other-dynamics-products"></a>Connexion à Business Central à partir d'autres produits Dynamics
+
+Si vous utilisez l'une des versions locales prises en charge, vous pouvez également vous connecter à Business Central en ligne et obtenir des informations intelligentes localement. Pour plus d'informations, voir [Connexion au cloud intelligent](/dynamics365/business-central/dev-itpro/administration/about-intelligent-edge) dans le contenu ITPro de [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 ## <a name="see-also"></a>Voir aussi
 

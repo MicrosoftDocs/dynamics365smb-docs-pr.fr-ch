@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
-ms.date: 04/01/2019
+ms.date: 05/20/2019
 ms.author: sgroespe
-ms.openlocfilehash: fcae17577b448b4271adee299874cf5cad9da79f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c326b280e6539da69831fd4f9610540f1a1e139e
+ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249391"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594142"
 ---
 # <a name="send-documents-by-email"></a>Envoyer des documents par e-mail
 Pour communiquer le contenu des documents commerciaux rapidement à vos partenaires commerciaux, par exemple les informations paiement sur les documents vente aux clients, vous pouvez utiliser la fonctionnalité de présentation des états pour définir le contenu spécifique aux documents qui est automatiquement inséré au corps du message. Pour plus d'informations, voir [Gestion des présentations de rapport et de document](ui-manage-report-layouts.md).
@@ -54,7 +54,7 @@ La procédure suivante décrit comment envoyer une facture vente validée en tan
 4. Choisissez le bouton **OK**. La page **Envoyer e-mail** s'affiche.
 5. Dans le champ **À :**, entrez une adresse e-mail valide. La valeur par défaut est l'adresse e-mail du client.
 6. Dans le champ **Objet**, saisissez un texte descriptif de l'objet. La valeur par défaut est le nom du client et le numéro de facture.
-7. Dans le champ **Document joint**, la facture générée est jointe par défaut en tant que fichier PDF. Cliquez sur le bouton de consultation pour ouvrir le fichier ou pour en joindre un autre.
+7. Dans le champ **Document joint**, la facture générée est jointe par défaut en tant que fichier PDF.
 8. Dans le champ **Corps**, entrez un message court au destinataire.
 
     Si le corps d'un message spécifique à un document est configuré sur la page **Sélection des états : Ventes**, le champ **Corps** est renseigné automatiquement. Pour plus d'informations, voir [Pour configurer corps de message spécifique à un document pour les factures vente](ui-how-send-documents-email.md#to-set-up-a-document-specific-email-body-for-sales-invoices).

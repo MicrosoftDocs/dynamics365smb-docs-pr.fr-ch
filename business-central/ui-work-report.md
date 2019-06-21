@@ -1,8 +1,6 @@
 ---
 title: Planification d'un état à exécuter à une date et une heure spécifiques | Microsoft Docs
 description: En savoir plus sur l'entrée d'un état dans une file d'attente de projets et la planification de son traitement à une date et à une heure spécifiques.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report
-ms.date: 04/01/2019
+ms.date: 05/16/2019
 ms.author: jswymer
-ms.openlocfilehash: 65fcba3f0222b324f132115ea7f1ec53b75d983f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 508a6406fe11099f19ce46c70147d62ba74278d1
+ms.sourcegitcommit: f4beaa63e2f32e2947de1c794c5619ed40a47301
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250702"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1586167"
 ---
 # <a name="working-with-reports-and-batch-jobs"></a>Utilisation des états et des traitements par lots
 Un état regroupe des informations en fonction d'un ensemble de critères spécifié, et organise et présente les informations dans un format imprimable et facilement lisible. Il existe de nombreux états accessibles tout au long de l'application. Les états fournissent généralement des informations relatives au contexte de la page où vous vous trouvez. Par exemple, la page **Client** comprend des états pour les 10 principaux clients et les statistiques de vente, et plus encore.
@@ -88,7 +86,12 @@ Vous pouvez planifier un état à exécuter à une date et une heure spécifique
 Vous pouvez planifier un état lorsque vous l'ouvrez. Vous devez sélectionner **Planifier** et entrer des informations telles que l'imprimante, ainsi que la date et l'heure. L'état est alors ajouté à la file d'attente des travaux et sera exécuté au moment spécifié. Lorsque l'état a été traité, l'article est supprimé de la file projets. Si vous avez enregistré l'état traité dans un fichier, il est disponible dans la **Boîte de réception état**.
 
 ## <a name="PrintReport"></a>Impression d'un état
-Vous pouvez imprimer un état à l'aide du bouton **Imprimer** de la page d'options qui s'affiche lorsque vous ouvrez l'état ou dans la barre de menu dans l'aperçu.
+Vous pouvez imprimer un état à l'aide du bouton **Imprimer** de la page d'options qui s'affiche lorsque vous ouvrez l'état ou dans la barre de menu dans l'aperçu.  
+
+### <a name="printing-reports-in-thai"></a>Impression d'états en thaïlandais
+Spécifiquement pour la version thaïlandaise de [!INCLUDE[prodshort](includes/prodshort.md)], le bouton **Imprimer** ne peut pas imprimer correctement des états en raison des limitations du service qui génère un fichier PDF imprimable. À la place, vous pouvez ouvrir l'état dans Word puis enregistrer l'état en tant que fichier PDF imprimable.  
+
+Sinon, vous pouvez demander à votre administrateur de créer une présentation état Word pour vos états les plus utilisés. Pour plus d'informations, voir [Gestion des présentations de rapport et de document](ui-manage-report-layouts.md).  
 
 ## <a name="changing-the-layout-and-look-of-a-report"></a>Modification de la présentation et de l'apparence d'un état
 Une présentation d'état contrôle les éléments affichés sur un état, leur agencement et leur mise en forme. Si vous souhaitez changer de présentation, voir [Modification de la présentation actuellement utilisée sur un rapport](ui-how-change-layout-currently-used-report.md). Ou, si vous souhaitez personnaliser votre propre présentation d'état, voir [Créer et modifier une présentation de rapport personnalisée](ui-how-create-custom-report-layout.md).

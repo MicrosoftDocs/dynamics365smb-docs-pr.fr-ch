@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: e52010384de83d95011cb29a88cad17a5eba817c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a2adf188f616f3a9cbb0e0d3135ee79d238c453b
+ms.sourcegitcommit: 92c7b6c5f0a5d8becbef106ab85258906765bc3e
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247155"
+ms.lasthandoff: 05/13/2019
+ms.locfileid: "1540238"
 ---
 # <a name="synchronizing-data-in-business-central-and-dynamics-365-for-sales"></a>Synchronisation des données dans Business Central et Dynamics 365 for Sales
 Lorsque vous intégrez [!INCLUDE[crm_md](includes/crm_md.md)] avec [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez décider si vous souhaitez synchroniser les données dans les champs sélectionnés des enregistrements [!INCLUDE[d365fin](includes/d365fin_md.md)] (tels que les clients, contacts et les vendeurs) avec les enregistrements équivalents dans [!INCLUDE[d365fin](includes/d365fin_md.md)] (tels que les comptes, les contacts et les utilisateurs). Selon le type d'enregistrement, vous pouvez synchroniser les données de [!INCLUDE[crm_md](includes/crm_md.md)] vers [!INCLUDE[d365fin](includes/d365fin_md.md)], ou vice versa. Pour plus d'informations, reportez-vous à la rubrique [Intégration à Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
@@ -38,7 +38,7 @@ Une fois la synchronisation configurée, vous pouvez coupler les enregistrements
 |Synchronisation programmée|Synchronisez tous les changements apportés aux données pour tous les mappages de table.<br /><br /> Vous pouvez synchroniser [!INCLUDE[d365fin](includes/d365fin_md.md)] avec [!INCLUDE[crm_md](includes/crm_md.md)] à des intervalles planifiés en configurant des projets dans la file projets.|[Programmer une synchronisation](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)|  
 
 ## <a name="standard-sales-entity-mapping-for-synchronization"></a>Mappage d'entité Sales standard pour la synchronisation
-Les entités dans [!INCLUDE[crm_md](includes/crm_md.md)], telles que les comptes, sont intégrées aux types d'entités équivalents dans [!INCLUDE[d365fin](includes/d365fin_md.md)], tels que des clients. Pour utiliser les données [!INCLUDE[crm_md](includes/crm_md.md)], vous configurez des liens, appelés couplages entre les entités dans [!INCLUDE[d365fin](includes/d365fin_md.md)] et [!INCLUDE[crm_md](includes/crm_md.md)].
+Les entités dans [!INCLUDE[crm_md](includes/crm_md.md)], telles que des comptes, sont intégrées aux types d'entités équivalents dans [!INCLUDE[d365fin](includes/d365fin_md.md)], tels que des clients. Pour utiliser les données [!INCLUDE[crm_md](includes/crm_md.md)], vous configurez des liens, appelés couplages entre les entités dans [!INCLUDE[d365fin](includes/d365fin_md.md)] et [!INCLUDE[crm_md](includes/crm_md.md)].
 
 Le tableau suivant répertorie le mappage standard entre les entités dans [!INCLUDE[d365fin](includes/d365fin_md.md)] et [!INCLUDE[crm_md](includes/crm_md.md)] que [!INCLUDE[d365fin](includes/d365fin_md.md)] fournit.
 
@@ -46,13 +46,13 @@ Le tableau suivant répertorie le mappage standard entre les entités dans [!INC
 |-------------------------------------------|-----|-------------------------|--------------|
 |Vendeur/Acheteur|Utilisateur|[!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Filtre contact Sales : le **Statut** est **Non**, l'**Utilisateur sous licence** est **Oui**, le Mode utilisateur de l'intégration est **Non**|
 |Client|Compte|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] et [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Filtre compte Sales : le **Type de relation** est **Client** et le **Statut** est **Actif**.|
-|Contact|Contact|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] et [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Filtre contact [!INCLUDE[d365fin](includes/d365fin_md.md)] : le champ **Type** est définit sur **Personne** et le contact est attribué à une société. Filtre contact Sales : le contact est affecté à une société et le type de client parent est **Compte**.|
+|Contact|Contact|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] et [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Filtre contact [!INCLUDE[d365fin](includes/d365fin_md.md)] : le champ **Type** est défini sur **Personne** et le contact est affecté à une société. Filtre contact Sales : le contact est affecté à une société et le type de client parent est **Compte**.|
 |Devise|Devise de transaction|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
 |Unité|Groupe d'unités|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
 |Article ;|Produit|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] et [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Filtre contact Sales : le **Type de produit** est **Stock de vente**|
 |Ressource|Produit|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] et [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Filtre contact Sales : le **Type de produit** est **Services**|
 |Groupe prix client|Liste des prix|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
-|Prix vente|Tarifs produit|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]|Filtre contact [!INCLUDE[d365fin](includes/d365fin_md.md)] : le champ **Code de vente** n'est pas vide ; le champ **Type de vente** est défini sur **Groupe prix client**|
+|Prix vente|Tarifs produit|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]|Filtre contact [!INCLUDE[d365fin](includes/d365fin_md.md)] : le champ **Code de vente** n'est pas vide, le champ **Type de vente** est défini sur **Groupe prix client**|
 |Opportunité|Opportunité|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] et [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]| |
 |En-tête facture vente|Facturer|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
 |Ligne facture vente|Produit facture|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |

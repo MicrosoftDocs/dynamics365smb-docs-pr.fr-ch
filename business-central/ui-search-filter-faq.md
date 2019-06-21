@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.reviewer: edupont04
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
-ms.date: 04/05/2019
+ms.date: 06/03/2019
 ms.author: mikebc
-ms.openlocfilehash: 0f9f5db0e7031156848a5bd15c711d3108f3490b
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: bf595cc54fa6d3d105770893864f655f82e04433
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249077"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620853"
 ---
 # <a name="searching-and-filtering-faq"></a>FAQ sur la recherche et le filtrage
 Cet article répond à des questions courantes que vous pouvez avoir à propos de la recherche et du filtrage.
@@ -27,7 +27,7 @@ Oui.
 La recherche et le filtre ont été fortement optimisés pour les utilisateurs qui préfèrent l'interaction sans souris pour utiliser efficacement leurs données. Il existe un grand choix de touches de raccourci qui peuvent être utilisées dans l'ordre pour travailler à grande vitesse. Pour plus d'informations, reportez-vous à [Raccourcis clavier](keyboard-shortcuts.md#KeyboardFilter).
 
 ## <a name="is-the-filter-pane-available-on-all-lists"></a>Le volet Filtre est-il disponible sur toutes les listes ?
-Le volet Filtre est disponible sur les pages où la liste est le principal contenu sur la page, tels que des feuilles de calcul et des pages de liste, y compris les listes accessibles depuis la barre de navigation. Le volet Filtre n'est pas encore disponible pour les listes intégrées, telles que les lignes vente sur les commandes vente, ou pour les listes avec des colonnes dynamiques (souvent appelées pages matricielles).
+Le volet Filtre est disponible sur les pages où la liste est le principal contenu sur la page, tels que des feuilles de calcul et des pages de liste, y compris les listes accessibles depuis la barre de navigation. Le volet Filtre n'est pas encore disponible pour les listes affichées comme parties, par exemple les récapitulatifs ou les parties de tableau de bord. Lorsqu'une liste est intégrée sur une page, comme des lignes vente dans une commande vente, le volet Filtre est disponible lorsque vous vous focalisez sur cette liste à l'aide du bouton Mode focalisation. Pour en savoir plus, reportez-vous à la rubrique [Concentration sur les articles de ligne](ui-enter-data.md#Focus).
 
 ## <a name="how-can-i-save-my-filters"></a>Comment enregistrer mes filtres ?
 
@@ -54,7 +54,7 @@ Il existe une limite de temps concernant une opération de recherche. Premièrem
 
 En tant qu'administrateur local, vous développez le délai des recherches en modifiant le paramètre **Expiration de la recherche** du serveur [!INCLUDE[prodshort](includes/prodshort.md)]. Pour plus d'informations, voir [Configuration de Business Central Server](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-server-instance?#Database) dans l'Aide destinée aux développeurs et aux professionnels de l'informatique Business Central.
 
-## <a name="see-also"></a>Voir aussi .
+## <a name="see-also"></a>Voir aussi
 
 [Mise en route](product-get-started.md)  
 [Tri, recherche et filtrage dans les listes](ui-enter-criteria-filters.md)  

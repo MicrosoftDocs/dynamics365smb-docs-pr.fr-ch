@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 05/23/2019
 ms.author: sgroespe
-ms.openlocfilehash: b0fdc5b1c0b76db96652e363979e6eb55f3c6c24
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 363cf9d0e7b90557867daaaab6f99378f51b9ef9
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252036"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621152"
 ---
 # <a name="planning"></a>Planning
 Les opérations de production nécessaires à la transformation d'entrées en produits finis doivent être planifiées de manière quotidienne ou hebdomadaire en fonction du volume et de la nature des produits. [!INCLUDE[d365fin](includes/d365fin_md.md)] fournit des fonctionnalités permettant de répondre à la demande réelle et anticipée des ventes, de l'assemblage et de la production, et inclut des fonctionnalités pour une planification de la distribution basée sur les points de stock et les transferts d'emplacement.
@@ -26,9 +26,7 @@ Les opérations de production nécessaires à la transformation d'entrées en pr
 > Cette rubrique décrit essentiellement la planification des sociétés impliquées dans la fabrication ou la gestion des assemblages, où les commandes approvisionnement qui en résultent peuvent être des ordres de production, d'assemblage, de transfert ou des commandes achat. L'interface principale de cette tâche de planification est la page **Feuille planning**.<br /><br />
 > [!INCLUDE[d365fin](includes/d365fin_md.md)] prend également en charge la planification de l'approvisionnement pour les sociétés de vente en gros, où les commandes approvisionnement qui en résultent peuvent être des ordres de transfert et des commandes achat. L'interface principale de cette tâche de planification est la page **Demande achat**, qui est décrite indirectement dans cette rubrique, car la plupart des fonctionnalités de planification s'appliquent aux deux feuilles.
 
-Avant de planifier et d'exécuter des ordres de fabrication, vous devez configurer des capacités de production, telles que la création des calendriers usine, des gammes, des nomenclatures et des postes de charge. Pour plus d'informations, voir [Paramétrage de la production](production-configure-production-processes.md).
-
-La planification peut être considérée comme la préparation des commandes approvisionnement requises dans les départements d'assemblage ou de fabrication pour répondre à la demande. Pour plus d'informations, voir [Gestion des assemblages](assembly-assemble-items.md) et [Production](production-manage-manufacturing.md).
+La planification peut être considérée comme la préparation des commandes approvisionnement requises dans les départements d'achat, d'assemblage ou de fabrication pour répondre à la demande de vente ou d'articles finis. Pour plus d'informations, voir [Achats](purchasing-manage-purchasing.md), [Gestion des assemblages](assembly-assemble-items.md) et [Production](production-manage-manufacturing.md).
 
 Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.   
 

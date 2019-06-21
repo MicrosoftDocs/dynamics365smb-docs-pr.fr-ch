@@ -1,23 +1,18 @@
 ---
-title: Mise à jour des taux de change des devises| Microsoft Docs
-description: Pour utiliser plusieurs devises dans votre société, vous pouvez définir un code pour chaque devise et utiliser un service externe de taux de change.
-services: project-madeira
-documentationcenter: ''
+title: Mettre à jour des taux de change devise| Microsoft Docs
+description: Suivez des montants dans différentes devises à l'aide de codes devise, et laissez Business Central ajuster les taux de change des écritures validées avec un service externe.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: multiple currencies
-ms.date: 04/01/2019
+ms.search.keywords: multiple currencies, adjust exchange rates
+ms.date: 06/04/2019
 ms.author: sgroespe
-ms.openlocfilehash: a9fa636fb68a428da3c587e59be1bf76cf976207
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 2958cf5dd124fd9437217214ea0df28944d07651
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238961"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621106"
 ---
 # <a name="update-currency-exchange-rates"></a>Mettre à jour des taux de change devise
 Les sociétés opérant dans un nombre croissant de pays/régions, il est de plus en plus important qu'elles puissent échanger ou générer des états financiers dans plusieurs devises. Vous devez définir un code pour chaque devise utilisée si vous achetez ou vendez dans des devises différentes de votre devise locale, si vous disposez de comptes client ou fournisseur dans d'autres devises, ou si vous enregistrez des transactions comptables dans des devises différentes.

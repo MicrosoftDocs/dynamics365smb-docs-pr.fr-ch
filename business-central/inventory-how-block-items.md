@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e13d59e939e71a252e08afc26d2fb1ec76b247c9
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8c98e4b893783c795a49e05ab04dc70b03161c6a
+ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238547"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594279"
 ---
 # <a name="block-items-from-sales-or-purchasing"></a>Bloquer des articles pour la vente ou pour l'achat
 Vous pouvez bloquer un article pour la saisie dans des lignes de vente ou d'achat, et vous pouvez le bloquer pour la validation dans n'importe quelle transaction.  
@@ -28,7 +28,10 @@ Le tableau suivant illustre ce qui se produit lorsque les articles sont bloqués
 |--------------------|------------|  
 |**Bloqué à la vente**|Vous ne pouvez pas saisir l'article dans un document vente ou dans une feuille article vente.|  
 |**Bloqué à l'achat**|Vous ne pouvez pas saisir l'article dans un document achat, dans une feuille article d'achat, ou dans les processus de planification achat.|  
-|**Bloqué**|Vous ne pouvez pas utiliser l'article pour une transaction d'article. Pour plus d'informations sur le blocage d'un article pour quelle que raison possible, voir Fiche article.|  
+|**Bloqué**|Vous ne pouvez pas utiliser l'article pour une transaction d'article.|  
+
+> [!NOTE]
+> Les articles bloqués peuvent être retournés. Cela signifie qu'aucun des paramètres ci-dessus ne s'applique lorsque l'article est utilisé sur des commandes retour et des avoirs.
 
 ## <a name="to-block-an-item-from-being-entered-on-sales-lines"></a>Pour bloquer un article pour la saisie sur des lignes vente  
 
