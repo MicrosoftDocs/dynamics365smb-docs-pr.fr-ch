@@ -1,6 +1,6 @@
 ---
 title: Cloud intelligent Base | Microsoft Docs
-description: Utilisez l'extension de Cloud intelligent pour créer une copie cloud de vos données afin d'être connecté au Cloud intelligent.
+description: Utilisez l'extension Base du Cloud intelligent pour connecter votre solution sur site à Business Central en ligne.
 author: edupont04
 manager: edupont
 ms.service: dynamics365-business-central
@@ -11,18 +11,18 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 9139855aa90aa0505f8735660d233475cc42bf91
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 72456035c2412eca65100708890e281f7d49a5be
+ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250222"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594371"
 ---
-# <a name="intelligent-cloud-base-extension"></a><span data-ttu-id="e5961-103">Extension Base du Cloud intelligent</span><span class="sxs-lookup"><span data-stu-id="e5961-103">Intelligent Cloud Base Extension</span></span>
+# <a name="intelligent-cloud-base-extension"></a><span data-ttu-id="64f11-103">Extension Base du Cloud intelligent</span><span class="sxs-lookup"><span data-stu-id="64f11-103">Intelligent Cloud Base Extension</span></span>
 
-<span data-ttu-id="e5961-104">Cette extension vous guide dans le processus de configuration et de gestion de votre environnement de Cloud intelligent.</span><span class="sxs-lookup"><span data-stu-id="e5961-104">This extension will take you through the process to configure and manage your Intelligent Cloud environment.</span></span><span data-ttu-id="e5961-105"> Une fois votre environnement de Cloud intelligent configuré, vous pouvez gérer les réplications de données depuis votre solution sur site vers votre abonné cloud [!INCLUDE[prodshort](includes/prodshort.md)].</span><span class="sxs-lookup"><span data-stu-id="e5961-105"> Once your Intelligent Cloud environment is configured, you will be able to manage data replications from your on-premises solution to your [!INCLUDE[prodshort](includes/prodshort.md)] cloud tenant.</span></span> <span data-ttu-id="e5961-106">Cette extension doit s'exécuter en combinaison avec une extension de réplication de données disponible pour votre solution sur site spécifique.</span><span class="sxs-lookup"><span data-stu-id="e5961-106">This extension will work in conjunction with a data replication extension available for your specific on-premises solution.</span></span><span data-ttu-id="e5961-107"> Pour plus d'informations, voir [Votre accès au Cloud intelligent](about-intelligent-cloud.md).</span><span class="sxs-lookup"><span data-stu-id="e5961-107"> For more information, see [Your Access to the Intelligent Cloud](about-intelligent-cloud.md).</span></span>  
+<span data-ttu-id="64f11-104">Cette extension vous guide dans le processus de configuration et de gestion de votre environnement de Cloud intelligent.</span><span class="sxs-lookup"><span data-stu-id="64f11-104">This extension will take you through the process to configure and manage your Intelligent Cloud environment.</span></span><span data-ttu-id="64f11-105"> Une fois votre environnement de Cloud intelligent configuré, vous pouvez gérer les réplications de données depuis votre solution sur site vers votre abonné cloud [!INCLUDE[prodshort](includes/prodshort.md)].</span><span class="sxs-lookup"><span data-stu-id="64f11-105"> Once your Intelligent Cloud environment is configured, you will be able to manage data replications from your on-premises solution to your [!INCLUDE[prodshort](includes/prodshort.md)] cloud tenant.</span></span> <span data-ttu-id="64f11-106">Cette extension doit s'exécuter en combinaison avec une extension de réplication de données disponible pour votre solution sur site spécifique.</span><span class="sxs-lookup"><span data-stu-id="64f11-106">This extension will work in conjunction with a data replication extension available for your specific on-premises solution.</span></span><span data-ttu-id="64f11-107"> Pour plus d'informations, voir [Informations intelligentes](about-intelligent-cloud.md).</span><span class="sxs-lookup"><span data-stu-id="64f11-107"> For more information, see [Intelligent Insights](about-intelligent-cloud.md).</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="e5961-108">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="e5961-108">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="64f11-108">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="64f11-108">See Also</span></span>
 
-[<span data-ttu-id="e5961-109">Votre accès au Cloud intelligent</span><span class="sxs-lookup"><span data-stu-id="e5961-109">Your Access to the Intelligent Cloud</span></span>](about-intelligent-cloud.md)  
-[<span data-ttu-id="e5961-110">Extension Cloud intelligent Business Central</span><span class="sxs-lookup"><span data-stu-id="e5961-110">Business Central Intelligent Cloud extension</span></span>](ui-extensions-data-replication.md)  
+[<span data-ttu-id="64f11-109">Informations intelligentes</span><span class="sxs-lookup"><span data-stu-id="64f11-109">Intelligent Insights</span></span>](about-intelligent-cloud.md)  
+[<span data-ttu-id="64f11-110">Extension réplication de données</span><span class="sxs-lookup"><span data-stu-id="64f11-110">Data Replication extension</span></span>](ui-extensions-data-replication.md)  
