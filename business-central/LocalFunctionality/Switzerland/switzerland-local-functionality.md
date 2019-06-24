@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: soalex
-ms.openlocfilehash: 9128135404f5cf8775763967cf3d3ccd7573b9a1
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ab4ff824d3580fec45b5f25fb5a77fc276dbbb16
+ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241417"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594150"
 ---
 # <a name="switzerland-local-functionality"></a>Fonctionnalité locale, Suisse
 Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à la version suisse de [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 ## <a name="feature-availability"></a>Disponibilité des fonctions
 
-* TVA et taxes
+* TVA
     * [Créer et imprimer une déclaration de TVA, Suisse](how-to-create-and-print-a-swiss-vat-statement.md) **Désormais disponible**
     * [Imprimer les relevés de TVA suisse (anciennes versions)](how-to-print-swiss-vat-statements-older-version-.md) **Désormais disponible**
     * [Taxe sur la valeur ajoutée, Suisse](swiss-value-added-tax.md) **Désormais disponible**
