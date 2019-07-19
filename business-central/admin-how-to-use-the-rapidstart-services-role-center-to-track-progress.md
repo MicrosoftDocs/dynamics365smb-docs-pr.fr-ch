@@ -1,8 +1,6 @@
 ---
 title: Procédure d'utilisation du tableau de bord Responsable de l'implémentation de RapidStart Services | Microsoft Docs
 description: Lorsque vous utilisez RapidStart Services, il est préférable de suivre votre travail et d’utiliser le tableau de bord Responsable de l'implémentation de RapidStart Services, car il fournit le contexte correct pour votre travail de configuration.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,14 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: cb25c0266fe77454b20b471691e4d930110ac09a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+redirect_url: /dynamics365/business-central/admin-set-up-company-configuration
+ROBOTS: NOINDEX
+ms.openlocfilehash: e1cfcc47d5fb1112c4422be93ab49a345e9a30ec
+ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245181"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "1726923"
 ---
 # <a name="use-the-rapidstart-services-implementer-role-center"></a>Utiliser le tableau de bord Responsable de l'implémentation de RapidStart Services
 Lorsque vous utilisez RapidStart Services, il est préférable d’utiliser le tableau de bord Responsable de l'implémentation de RapidStart Services, car il fournit le contexte correct pour votre travail de configuration. Pour plus d'informations, voir [Pour changer de tableau de bord](ui-change-basic-settings.md#to-change-role-center).

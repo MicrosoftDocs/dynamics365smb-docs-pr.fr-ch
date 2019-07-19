@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 04/01/2019
+ms.date: 06/13/2019
 ms.author: edupont
-ms.openlocfilehash: eae085d430fb7341b8ac62f26033d68d9ea155cf
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 91ade518beb551d7b9c30cef0eef3c5c72b366aa
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1254095"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629956"
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Mise en route de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] est une solution de gestion d'entreprise pour les PME qui automatise et simplifie les processus entreprise et vous aide à gérer votre entreprise. L'inscription est facile, et vous pouvez migrer des données métiers existantes de votre système existant. Pour vous aider à souscrire un abonnement, recherchez un partenaire [!INCLUDE[d365fin](includes/d365fin_md.md)] [ici](https://www.microsoft.com/en-us/solution-providers/search).  
@@ -23,7 +23,7 @@ ms.locfileid: "1254095"
 L'inscription à la version préliminaire de [!INCLUDE[d365fin](includes/d365fin_md.md)] vous a donné accès à une société de démonstration. La société de démonstration contient des exemples de données, mais vous pouvez créer vos propres documents vente, par exemple, ou ouvrir un compte bancaire.  
 
 ## <a name="get-to-know-included365finincludesd365finmdmd"></a>Découvrir [!INCLUDE[d365fin](includes/d365fin_md.md)]
-Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], certains éléments vous seront très familiers, d'autres un peu moins. Dans la société de démonstration, les guides visuels expliquent les fonctionnalités de base et vous permettent de tester des tâches quotidiennes telles que la création d'une facture vente et l'affichage d'un état. Si vous quittez le guide, par exemple, pour explorer [!INCLUDE[d365fin](includes/d365fin_md.md)] par vous-même, mais que vous souhaitez y revenir par la suite, revenez au Tableau de bord et lancez la visite de mise en route. Si vous avez besoin d'aide, vous pouvez rechercher un partenaire [!INCLUDE[d365fin](includes/d365fin_md.md)] [ici](https://www.microsoft.com/en-us/solution-providers/search).  
+Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], certains éléments vous seront très familiers, d'autres un peu moins. Dans la société de démonstration, les guides visuels expliquent les fonctionnalités de base et vous permettent de tester des tâches quotidiennes telles que la création d'une facture vente et l'affichage d'un état. Si vous quittez le guide, par exemple, pour explorer [!INCLUDE[d365fin](includes/d365fin_md.md)] par vous-même, mais que vous souhaitez y revenir par la suite, revenez au Tableau de bord et lancez la visite de mise en route. Si vous souhaitez plus d’assistance, contactez un partenaire [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 > [!TIP]  
 > Vous pouvez revenir au Tableau de bord en sélectionnant le nom de la société dans l'angle supérieur gauche.
@@ -36,7 +36,11 @@ Pour obtenir des astuces rapides, consultez :
 
 Pour plus d'informations, reportez-vous à [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  
 
-Lorsque vous êtes prêt à commencer à travailler et que vous voulez en savoir plus sur les processus d'entreprise pris en charge par [!INCLUDE[d365fin](includes/d365fin_md.md)], consultez [Fonctionnalités d'entreprise](across-business-functionality.md). Pour une présentation des capacités actuelles et à venir, consultez nos notes de mise à jour sur la page [Notes de mise à jour Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422).  
+Lorsque vous êtes prêt à commencer à travailler et que vous voulez en savoir plus sur les processus d'entreprise pris en charge par [!INCLUDE[d365fin](includes/d365fin_md.md)], consultez [Fonctionnalités d'entreprise](across-business-functionality.md).
+
+Avant de pouvoir commencer à utiliser les fonctionnalités, certaines configurations doivent être effectuées. Pour plus d'informations, reportez-vous à [Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md). Notez que certaines étapes de configuration peuvent être effectuées de manière semi-automatique à l'aide de guides de configuration assistés.
+
+Pour une présentation des capacités actuelles et à venir, consultez notre plan de versions sur la page [Plan de versions Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422).  
 
 ## <a name="the-role-centers"></a>Tableaux de bord
 La page Tableau de bord utilisent une conception centrée sur le rôle pour vous permettre d'accéder rapidement aux outils de processus d'entreprise et d'intelligence dont vous avez besoin dans le cadre de votre travail. Par exemple, un comptable peut surveiller des paiements et des approbations, et afficher des graphiques de performances financières. Consultez les différents Tableaux de bord en sélectionnant l'icône **Paramètres** ![Paramètres](media/ui-experience/settings_icon_small.png "Icône Paramètres du tableau de bord") dans le coin supérieur droit, en sélectionnant **Mes paramètres**, puis le tableau de bord à explorer. Connectez-vous à nouveau pour appliquer la modification. Pour plus d'informations, voir [Modification des paramètres de base](ui-change-basic-settings.md).
@@ -96,7 +100,7 @@ Si vous êtes comptable, vous pouvez vous inscrire à [!INCLUDE[d365acc_long](in
 [Obtention de [!INCLUDE[d365fin](includes/d365fin_md.md)] sur votre périphérique mobile](install-mobile-app.md)  
 [Ressources pour l'aide et l'assistance technique](product-help-and-support.md)  
 [Documentation Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/)  
-[Notes de mise à jour Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422)  
+[Plan de versions Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

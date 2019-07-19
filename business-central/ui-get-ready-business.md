@@ -9,29 +9,37 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
-ms.date: 04/01/2019
+ms.date: 06/19/2019
 ms.author: solsen
-ms.openlocfilehash: 73fb2daa84bc34d0fd865e2b95d5ea6dea11336c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: e100350322a1cf840b4428868f77b104e07c23c1
+ms.sourcegitcommit: 0854c074b500c3031eaf86fde9d452f93f238081
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249529"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "1701236"
 ---
 # <a name="getting-ready-for-doing-business"></a>Préparation aux activités commerciales
 Félicitations, vous venez de créer votre première société dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 Pour vous aider à vous préparer pour vos activités commerciales, vous pouvez visiter la page **Assistance professionnelle** dans laquelle vous pouvez lancer des guides de configuration assistée, des vidéos ou des rubriques d'aide pour les tâches de configuration sélectionnées. Vous pouvez accéder à la page à partir du graphique du tableau de bord **Gestionnaire d'activité** en choisissant la liste déroulante **Assistance professionnelle** et en cliquant sur **Afficher les paramètres et ressources d'aide**. Lorsque vous actualisez la page, le graphique est remplacé par les paramètres et les ressources d'aide.
 
-Sur le Tableau de bord, dans la barre de navigation située en haut, vous trouverez le menu **Configuration et extensions**. Vous avez alors accès à une liste des guides de configuration assistée pour vous aider à démarrer. Une fois que vous avez effectué la migration des données telles que les fournisseurs, les clients et les articles de votre système financier existant, vous êtes prêt à commencer. Mais en fonction de vos besoins, demandez-vous si l'autre configuration assistée peut vous aider. Si une zone n'est pas couverte par une configuration assistée, sélectionnez l'option **Programme d'installation manuelle** pour accéder aux pages de paramétrage sur lesquelles vous pouvez renseigner les champs de configuration pour toutes les zones manuellement. Pour plus d'informations, reportez-vous à [Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
+Sinon, pour ouvrir la liste des guides de configuration assistée, choisissez l'icône ![Dites-moi ce que vous voulez faire](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Configuration manuelle**, puis sélectionnez le lien associé.
+
+Sur le Tableau de bord, dans la barre de navigation située en haut, vous trouverez le menu **Configuration et extensions**. Vous avez alors accès à une liste des guides de configuration assistée pour vous aider à démarrer. Une fois que vous avez effectué la migration des données telles que les fournisseurs, les clients et les articles de votre système financier existant, vous êtes prêt à commencer. Mais en fonction de vos besoins, demandez-vous si l'autre configuration assistée peut vous aider.
+
+Si une zone n'est pas couverte par une configuration assistée, sélectionnez l'option **Programme d'installation manuelle** pour accéder aux pages de paramétrage sur lesquelles vous pouvez renseigner les champs de configuration pour toutes les zones manuellement. Pour plus d'informations, reportez-vous à [Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
 > [!NOTE]  
->   La liste des guides de configuration assistée, des extensions et des services disponibles diffèrent selon l'expérience de l'utilisateur que vous choisissez pour votre société. L'expérience de type **Essential** donne accès à moins d'options que l'expérience **Premium**. La première fois que vous vous connectez, vous utilisez l'expérience **Essential**. Pour plus d'informations, voir [Modification des fonctionnalités affichées](ui-experiences.md).
+> La liste des guides de configuration assistée, des extensions et des services disponibles diffèrent selon l'expérience de l'utilisateur que vous choisissez pour votre société. L'expérience de type **Essential** donne accès à moins d'options que l'expérience **Premium**.<br /><br />
+> La première fois que vous vous connectez, vous utilisez l'expérience **Essential**. Pour plus d'informations, voir [Modification des fonctionnalités affichées](ui-experiences.md).
 
-Lorsque vous avez exécuté un guide de configuration assistée, il est marqué comme **Terminé**. Pour exécuter le guide de configuration assistée, cliquez sur les trois points (ou menu contextuel), puis sélectionnez **Démarrer la configuration**.
+Lorsque vous avez exécuté un guide de configuration assistée, il est marqué comme **Terminé**. Pour exécuter le guide de configuration assistée, cliquez sur les trois points (ou menu contextuel), puis choisissez l'action **Démarrer la configuration**.
 
 ## <a name="role-center"></a>Tableau de bord
-Bénéficiez d'une vue d'ensemble de votre entreprise dans le Tableau de bord. Sur la gauche, une barre de navigation vous donne un accès facile aux clients, fournisseurs, articles, etc.. Au centre, vous trouverez les mosaïques **Activités**. Les mosaïques **Activités** affichent les données actuelles. Vous pouvez cliquer ou appuyer sur celles-ci pour accéder facilement au document sélectionné. Les **indicateurs de performance clés** peuvent être configurés de sorte à afficher un graphique sélectionné pour une représentation visuelle, par exemple, de la trésorerie ou des revenus et des dépenses. Vous pouvez également générer la liste des **Clients favoris** sur le Tableau de bord pour les comptes avec lesquels vous travaillez souvent ou auxquels vous devez accorder une attention particulière.
+Bénéficiez d'une vue d'ensemble de votre entreprise dans le Tableau de bord. Sur la gauche, une barre de navigation vous donne un accès facile aux clients, fournisseurs, articles, etc.. Au centre, vous trouverez les mosaïques **Activités**. Les mosaïques **Activités** affichent les données actuelles. Vous pouvez cliquer ou appuyer sur celles-ci pour accéder facilement au document sélectionné.
+
+Les **indicateurs de performance clés** peuvent être configurés de sorte à afficher un graphique sélectionné pour une représentation visuelle, par exemple, de la trésorerie ou des revenus et des dépenses. Vous pouvez également générer la liste des **Clients favoris** sur le Tableau de bord pour les comptes avec lesquels vous travaillez souvent ou auxquels vous devez accorder une attention particulière.
+
 Utilisez les flèches pour réduire une partie de la page et faire de la place afin d'afficher des données spécifiques. Au sommet du Tableau de bord, vous trouverez toutes les actions qui peuvent être appliquées au contenu actuel. Cette zone peut également être réduite et il vous suffit de cliquer ou d'appuyer à l'intérieur de la zone réduite afin de l'afficher à nouveau.
 
 > [!TIP]  
@@ -47,7 +55,7 @@ Si vous souhaitez ajouter des utilisateurs, vous pouvez le faire à partir du ce
 Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], des info-bulles vous guident dans l'utilisation des différents processus entreprise. Pour chaque info-bulles de champ, vous pouvez appuyer sur Ctrl+F1 ou choisir le lien **En savoir plus** pour ouvrir l'aide de la page en question. Le point d'interrogation dans le coin supérieur droit vous permet également d'accéder à l'aide relative au produit.
 
 ## <a name="next-steps"></a>Étapes suivantes
-En fonction de la migration de vos données, vous pouvez maintenant passer à la création de documents vente ou achat. Utilisez la section **Ma société** de votre page **Accueil** pour créer rapidement un devis, une facture vente, une commande vente, une facture achat, ou un enregistrement de paiement.
+En fonction de la migration de vos données, vous pouvez maintenant passer à la création de documents vente ou achat. Utilisez la section **Actions** de votre tableau de bord pour créer rapidement un devis, une facture vente, une commande vente, une facture achat, ou un enregistrement de paiement.
 
 ## <a name="see-also"></a>Voir aussi
 [Mise en route](product-get-started.md)  

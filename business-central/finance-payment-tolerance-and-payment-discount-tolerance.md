@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 06/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: def9338cea3a1998aafac671e304c55f83fdece7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 7ca4f01d261915e2ecf6416ee1d9e85f50c73fb0
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1242483"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629726"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Utilisation des écarts de règlement et des écarts d'escompte
 Vous pouvez configurer un écart de règlement de manière à fermer une facture lorsque le paiement ne couvre pas entièrement le montant de la facture. Vous pouvez configurer un écart de règlement pour accorder un escompte après expiration de la date d'escompte.  
@@ -218,7 +218,7 @@ Montant ouvert par
 
 Règles d'application normales  
 
-![Règles sur les écarts de règlement multiples 2](media/multiplePmtTolRules(GracePeriodInv1).gif "Règles sur les écarts de règlement multiples 2")  
+![Règles sur les écarts de règlement multiples 2](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Règles sur les écarts de règlement multiples 2")  
 
 (1) Si le règlement intervient dans l'une de ces plages de dates, toutes les écritures lettrage peuvent être clôturées avec ou sans écart.  
 
@@ -229,7 +229,7 @@ Montant ouvert par
 
 Règles d'application normales  
 
-![Règles sur les écarts de règlement multiples 3](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Règles sur les écarts de règlement multiples 3")  
+![Règles sur les écarts de règlement multiples 3](media/multiplePmtTolRules(GracePeriodInv1).gif "Règles sur les écarts de règlement multiples 3")  
 
 (1) Si le règlement intervient dans l'une de ces plages de dates, toutes les écritures lettrage peuvent être clôturées avec ou sans écart.  
 

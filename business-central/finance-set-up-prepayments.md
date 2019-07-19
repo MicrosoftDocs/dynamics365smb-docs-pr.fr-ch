@@ -5,19 +5,19 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: prepayment
-ms.date: 04/01/2019
+ms.date: 06/24/2019
 ms.author: edupont
-ms.openlocfilehash: e8a6e0834b259358de5c07d3f83a7b5477a0d3a7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 77e53c7492a1c9ab5bd1e4d150b291ebd2b61917
+ms.sourcegitcommit: 0854c074b500c3031eaf86fde9d452f93f238081
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244714"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "1701167"
 ---
 # <a name="set-up-prepayments"></a>Configuration des acomptes
 Si vous voulez que vos clients fassent des paiements avant de leur expédier une commande ou si votre fournisseur exige que vous fassiez un paiement avant de vous expédier une commande, vous pouvez utiliser la fonctionnalité Acompte. La fonctionnalité vous permet de facturer et de collecter les acomptes requis des clients ou de régler des acomptes aux fournisseurs, et pour s'assurer que tous les paiements partiels sont validés sur une facture. Pour plus d'informations, consultez [Créer des factures d'acompte](finance-how-to-create-prepayment-invoices.md).
 
-Avant de valider des factures acompte, vous devez configurer les comptes de validation dans le module Comptabilité et configurer des souches de numéros pour les documents acompte.  
+Avant de valider des factures acompte, vous devez configurer les comptes de validation dans le module Comptabilité et configurer des souches de numéros pour les documents acompte. Vous devez spécifier un compte pour les paiements anticipés liés aux ventes et un compte pour les paiements anticipés liés aux achats. Vous pouvez spécifier les mêmes comptes imputables à utiliser pour tous les paiements anticipés liés à tous les groupes de comptabilisation commerciaux ou généraux du produit, ou vous pouvez spécifier des comptes spécifiques pour des groupes de comptabilisation spécifiques pour les ventes et les achats, respectivement. Cela dépend des exigences de votre entreprise en matière de suivi des paiements anticipés.  
 
 Vous pouvez définir le pourcentage du montant ligne qui sera facturé pour acompte, pour un client ou un fournisseur, pour tous les articles ou pour une sélection d'articles. Une fois la configuration terminée, vous pouvez générer des factures acompte à partir des commandes vente et achat. Vous pouvez utiliser les pourcentages par défaut pour chaque ligne vente ou achat, ou, au besoin, modifier les montants de la facture. Par exemple, vous pouvez spécifier un montant total pour la facture entière.  
 
@@ -33,7 +33,10 @@ Puisque le montant payé par anticipation appartient à l'acheteur jusqu'à ce q
     - **Compte acomptes vente**  
     - **Compte acomptes achat**  
 
-Si vous n'avez pas encore configuré de comptes généraux pour les acomptes, vous pouvez le faire sur la page **Liste des comptes généraux**.  
+> [!TIP]
+> Si vous ne pouvez pas voir les champs de la page **Paramètres comptabilisation**, utilisez la barre de défilement horizontale au bas de la page pour faire défiler l'affichage vers la droite.  
+
+Si vous n'avez pas encore configuré de comptes généraux pour les acomptes, vous pouvez ouvrir la page **Liste des comptes généraux** à partir du champ du compte correspondant.  
 
 ## <a name="to-set-up-number-series-for-prepayment-documents"></a>Configurer des souches de numéros pour des documents acompte  
 
@@ -50,7 +53,7 @@ Si vous n'avez pas encore configuré de comptes généraux pour les acomptes, vo
     - **N° avoir acompte enreg.**
 
 > [!NOTE]  
->  Vous pouvez utiliser les mêmes souches de numéros pour des factures acompte et des factures normales, ou utiliser des souches de numéros différentes. Si vous utilisez des souches différentes, elles ne doivent pas se chevaucher car vous ne pouvez pas avoir des numéros identiques dans les deux souches.  
+> Vous pouvez utiliser les mêmes souches de numéros pour des factures acompte et des factures normales, ou utiliser des souches de numéros différentes. Si vous utilisez des souches différentes, elles ne doivent pas se chevaucher car vous ne pouvez pas avoir des numéros identiques dans les deux souches.  
 
 ## <a name="to-set-up-prepayment-percentages-for-items-customers-and-vendors"></a>Pour configurer des pourcentages d'acompte pour des articles, des clients et des fournisseurs  
 Pour un article, vous pouvez configurer un pourcentage d'acompte par défaut pour tous les clients, pour un client spécifique ou pour un groupe prix client.  
@@ -67,7 +70,9 @@ Pour un client ou un fournisseur, vous pouvez configurer un pourcentage d'acompt
 4. Répétez les étapes pour d'autres clients ou fournisseurs.  
 
 ### <a name="to-determine-which-prepayment-percentage-has-first-priority"></a>Pour déterminer quel pourcentage d'acompte a la priorité  
+
 Une commande peut avoir un pourcentage d'acompte dans l'en-tête vente et un autre pourcentage pour les articles figurant dans les lignes. Pour déterminer quel pourcentage d'acompte s'applique à chaque ligne vente, le système recherche le pourcentage d'acompte dans l'ordre suivant et applique la première valeur par défaut qu'il trouve :  
+
 1. un pourcentage d'acompte pour l'article figurant dans la ligne et le client auquel la commande est destinée ;  
 2. un pourcentage d'acompte pour l'article figurant dans la ligne et le groupe prix client auquel le client appartient ;  
 3. un pourcentage d'acompte pour l'article figurant dans la ligne pour tous les clients ;  

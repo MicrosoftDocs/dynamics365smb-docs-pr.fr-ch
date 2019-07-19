@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: a2adf188f616f3a9cbb0e0d3135ee79d238c453b
-ms.sourcegitcommit: 92c7b6c5f0a5d8becbef106ab85258906765bc3e
+ms.openlocfilehash: b5a3b83d21390711ff0517df67bf9912ece57f6b
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "1540238"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629634"
 ---
 # <a name="synchronizing-data-in-business-central-and-dynamics-365-for-sales"></a>Synchronisation des données dans Business Central et Dynamics 365 for Sales
 Lorsque vous intégrez [!INCLUDE[crm_md](includes/crm_md.md)] avec [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez décider si vous souhaitez synchroniser les données dans les champs sélectionnés des enregistrements [!INCLUDE[d365fin](includes/d365fin_md.md)] (tels que les clients, contacts et les vendeurs) avec les enregistrements équivalents dans [!INCLUDE[d365fin](includes/d365fin_md.md)] (tels que les comptes, les contacts et les utilisateurs). Selon le type d'enregistrement, vous pouvez synchroniser les données de [!INCLUDE[crm_md](includes/crm_md.md)] vers [!INCLUDE[d365fin](includes/d365fin_md.md)], ou vice versa. Pour plus d'informations, reportez-vous à la rubrique [Intégration à Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
@@ -77,7 +77,7 @@ Le tableau suivant décrit les mappages des tables [!INCLUDE[d365fin](includes/d
 Le tableau suivant décrit les règles qui contrôlent la synchronisation entre les applications.
 
 > [!NOTE]  
-> Les modifications apportées aux données dans [!INCLUDE[crm_md](includes/crm_md.md)] par le compte d'utilisateur de connexion [!INCLUDE[crm_md](includes/crm_md.md)] ne sont pas synchronisées. Par conséquent, nous vous avons recommandé de ne pas modifier les données lors de l'utilisation de ce compte. Pour plus d'informations, voir également [Configuration de l'intégration à Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md).
+> Les modifications apportées aux données dans [!INCLUDE[crm_md](includes/crm_md.md)] par le compte d'utilisateur de connexion [!INCLUDE[crm_md](includes/crm_md.md)] ne sont pas synchronisées. Par conséquent, nous vous avons recommandé de ne pas modifier les données lors de l'utilisation de ce compte. Pour en savoir plus, reportez-vous à la rubrique [Configuration des comptes d'utilisateur pour l'intégration à Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md).
 
 |Table|Règle|
 |-----|----|

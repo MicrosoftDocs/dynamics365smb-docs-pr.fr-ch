@@ -1,18 +1,18 @@
 ---
 title: Aide et support
-description: Trouvez des ressources pour l'Aide, des directives ainsi que l'assistance propres aux produits, et découvrez comment bénéficier du support technique pour Business Central.
+description: Trouvez des ressources pour l'Aide, des directives, des conseils de dépannage, ainsi que l'assistance propres aux produits, et découvrez comment bénéficier du support technique pour Business Central.
 author: edupont04
 ms.reviewer: na
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 04/01/2019
-ms.openlocfilehash: e9051ae5c12a787eb40732ad133e8d21932df50d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 07/03/2019
+ms.openlocfilehash: 6b19a566ada8e9708bb19a82ded3404b29cf260d
+ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253692"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "1726969"
 ---
 # <a name="resources-for-help-and-support"></a>Ressources pour l'Aide et le support
 
@@ -47,7 +47,7 @@ Le [Blog de Business Central](https://community.dynamics.com/business/b/financia
 
 ### <a name="capabilities-coming-soon"></a>Fonctionnalités bientôt disponibles
 
-[!INCLUDE[prodshort](includes/prodshort.md)] est mis à jour dans le cadre des principales mises à jour semestrielles des fonctionnalités, ainsi que dans le cadre des mises à jour de service mensuelles. Choisissez le lien pour afficher les toutes dernières notes de version. Vous pouvez également obtenir une présentation générale des fonctionnalités à venir ou de celles qui ont été récemment publiées dans les notes de version sur Dynamics 365 à l'adresse Web suivante : [https://dynamics.microsoft.com/en-us/business-applications/release/](https://dynamics.microsoft.com/en-us/business-applications/release/#release-notes)365.  
+[!INCLUDE[prodshort](includes/prodshort.md)] est mis à jour dans le cadre des principales mises à jour semestrielles des fonctionnalités, ainsi que dans le cadre des mises à jour de service mensuelles. Choisissez le lien pour afficher le tout dernier plan de versions. Vous pouvez également obtenir une présentation générale des fonctionnalités à venir ou de celles qui ont été récemment publiées dans le plan de versions sur Dynamics 365 à l'adresse Web suivante : [https://dynamics.microsoft.com/en-us/business-applications/release/](https://dynamics.microsoft.com/en-us/business-applications/release/#release-notes)365.  
 
 Pour l'aperçu à plus long terme, la [!INCLUDE[prodshort](includes/prodshort.md)] [page Feuille de route](https://dynamics.microsoft.com/roadmap/business-central/) présente les priorités générales pour [!INCLUDE[prodshort](includes/prodshort.md)] dans les prochaines années.  
 

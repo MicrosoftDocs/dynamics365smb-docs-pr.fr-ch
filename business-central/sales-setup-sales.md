@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, configure
-ms.date: 04/01/2019
+ms.date: 06/17/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6903744c1be0492267c8dee307e4b012aed4ffa4
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 3ece1edb7ba18cb96099cba34065c96164390e82
+ms.sourcegitcommit: 6dc83b27ac47f3b39a7b84cfb7446e7f48b8ce63
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251047"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "1632721"
 ---
 # <a name="setting-up-sales"></a>Définition des ventes.
 Avant de pouvoir gérer les processus de vente, vous devez configurer les règles et valeurs qui définissent les stratégies de vente de la société.
@@ -37,6 +37,7 @@ La configuration des ventes en relation avec les finances, comme les modes de r�
 | Spécifier pour différents clients ou pour tous les clients le moyen par lequel les documents vente sont envoyés par défaut lorsque vous sélectionnez l'action **Valider et envoyer**. |[Configurer des profils d'envoi de documents](sales-how-setup-document-send-profiles.md) |
 | Configurer votre e-mail de sorte qu'il contienne un résumé des informations du document vente qui est envoyé. |[Envoyer des documents par e-mail](ui-how-send-documents-email.md). |
 |Utilisez un service Web UE pour vérifier le numéro d'immatriculation de TVA d'un client.|[Vérifier les numéros d'identification TVA](finance-setup-vat.md)|
+|Définissez les différents incoterms que vous proposez aux clients ou que vos fournisseurs vous proposent.|[Configurer des conditions de livraison](sales-how-set-up-shipment-methods.md)|
 |Entrer des informations sur les différents transporteurs utilisés, notamment un lien vers les prestations de traçabilité des colis.|[Configurer des transporteurs](sales-how-to-set-up-shipping-agents.md)|
 
 ## <a name="see-also"></a>Voir aussi

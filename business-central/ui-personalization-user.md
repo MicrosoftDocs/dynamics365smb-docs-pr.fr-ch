@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 16f334548d9831507970a1b74ba5fa1716611380
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: de7acb10c76acc05fc6e6a5c708a8d412e4d9b30
+ms.sourcegitcommit: 6dc83b27ac47f3b39a7b84cfb7446e7f48b8ce63
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253738"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "1632744"
 ---
 # <a name="personalizing-your-workspace"></a>Personnalisation de votre espace de travail
 
@@ -60,7 +60,7 @@ Selon le type de page et ce qu'elle inclut, vous pouvez effectuer différentes o
 |Affichez un champ dans l'en-tête d'un raccourci lorsque le raccourci est réduit.|Sélectionnez la pointe de la flèche, puis cliquez sur <b>Afficher si réduit</b>. <br /> <br />Si vous ne voyez pas cette option, elle est déjà définie. Dans ce cas, pour arrêter d'afficher le champ dans l'en-tête du raccourci, sélectionnez <b>Afficher toujours</b>.|*Raccourci* désigne le terme employé pour un groupe de champs qui s'affichent sous une en-tête commune. Utilisez l'option <b>Afficher si réduit</b> pour afficher les champs les plus importants. Si vous sélectionnez un champ dans l'en-tête, le raccourci s'ouvrira et se concentrera sur le champ sélectionné.<br /><br />Cette option s'applique uniquement si une page a plusieurs raccourcis. S'il s'agit de l'unique raccourci, il ne peut pas être réduit, aussi l'option <b>Afficher si réduit</b> n'est pas disponible.|
 |Affichez un champ uniquement lorsque vous sélectionnez **Afficher plus**.|Sélectionnez la pointe de flèche, puis cliquez sur <b>Afficher sous « Afficher plus »</b>. <br /> <br />Si vous ne voyez pas l'option <b>Afficher sous « Afficher plus »</b>, elle est déjà définie. Dans ce cas, pour afficher toujours un champ, et non pas uniquement lorsque vous sélectionnez **Afficher plus**, sélectionnez <b>Afficher toujours</b>.||
 |Modifiez le volet Figer d'une liste en d'autres colonnes. |Sélectionnez la pointe de flèche de la colonne que vous souhaitez être la dernière du volet Figer, puis sélectionnez <b>Définir le volet Figer</b>.<br /><br/>Si vous souhaitez rétablir le volet Figer à son emplacement d'origine, sélectionnez la pointe de flèche de la colonne actuelle du volet Figer, puis sélectionnez <b>Effacer le volet Figer</b>. Remarque : vous ne pouvez pas supprimer ce volet Figer d'origine.|Le volet Figer spécifie les colonnes qui s'affichent toujours à gauche, même lorsque vous faites défiler horizontalement.|  
-|Modifiez la largeur d'une colonne.|Dans la ligne d'en-tête de la table, faites glisser la bordure droite de la colonne. <br /><br />Pour optimiser la largeur de colonne en fonction de la plus longue ligne de texte de la colonne, double-cliquez sur la bordure de droite.||
+|Modifiez la largeur d'une colonne.|Dans l'en-tête de la liste, faites glisser la limite entre les colonnes. <br /><br />Vous pouvez double-cliquer sur la limite entre les en-têtes de colonne pour l'ajuster automatiquement, ce qui permet de définir une largeur confortable pour la lisibilité.||
 |Survolez un champ tout en appuyant sur Entrée.|Sélectionnez la pointe de la flèche en regard du champ, ou la première colonne d'une liste, et sélectionnez **Exclure de la saisie rapide**. <br /><br /> Si vous ne voyez pas cette option, le champ est déjà défini pour être ignoré. Dans ce cas, pour arrêter d'ignorer le champ, choisissez **Inclure de la saisie rapide**. |Reportez-vous à la rubrique [Accélérer la saisie de données à l'aide de la fonction Saisie rapide](ui-enter-data.md#QuickEntry)|
 
 ## <a name="Actions"></a>Personnalisation des actions
@@ -89,7 +89,7 @@ Pour afficher ou masquer des actions ou des groupes, sélectionnez-les, puis sé
 |------|------------
 |**Supprimer**|Cette option s'affiche si l'action sélectionnée est également affichée ailleurs dans la barre d'actions. En choisissant cette option, vous supprimez l'action de l'emplacement sélectionné afin qu'elle n'apparaisse plus. L'action ou le groupe d'actions reste dans les autres emplacements. |
 |**Masquer**|Cette option s'affiche si l'action ou le groupe d'actions apparaît nulle part ailleurs dans la barre d'actions. Comme **Supprimer**, choisissez cette option pour inciter l'action ou le groupe d'actions à disparaître de la barre d'actions. Toutefois, en mode personnalisation, l'action ou le groupe d'actions est toujours affiché dans l'emplacement actuel, sauf si elle/il apparaît atténué(e).|
-|**Afficher**|Cette option s'affiche si l'action ou le groupe d'actions a été précédemment masqué(e) (atténué(e). En choisissant cette option, vous permettez à l'action ou au groupe d'actions de figurer dans la barre d'actions.|
+|**Afficher**|Cette option s'affiche si l'action ou le groupe d'actions a été précédemment masqué(e) atténué(e). En choisissant cette option, vous permettez à l'action ou au groupe d'actions de figurer dans la barre d'actions.|
 
 ### <a name="to-move-actions-and-action-groups"></a>Pour déplacer les actions et groupes d'actions
 

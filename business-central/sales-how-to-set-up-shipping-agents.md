@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 06/17/2019
 ms.author: sgroespe
-ms.openlocfilehash: e1f6af964dad89a8a311f315f8885aaa94b92427
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6d931625ef469a0b156d2794de7eda131213f28f
+ms.sourcegitcommit: 6dc83b27ac47f3b39a7b84cfb7446e7f48b8ce63
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252364"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "1632698"
 ---
 # <a name="set-up-shipping-agents"></a>Configurer des transporteurs
 Vous pouvez définir un code pour chacun de vos transporteurs et saisir les informations qui les concernent.  
@@ -39,9 +39,10 @@ Lorsque vous avez affecté une prestation transporteur à une ligne commande ven
 >  Si vous supprimez le transporteur de la ligne commande, le code prestation transporteur est également supprimé de la ligne. La valeur des champs basée en partie sur la prestation transporteur est ensuite recalculée.  
 
 ## <a name="see-also"></a>Voir aussi
+[Configurer des conditions de livraison](sales-how-set-up-shipment-methods.md)  
 [Suivre des colis](sales-how-track-packages.md)    
 [Gestion d’entrepôt](warehouse-manage-warehouse.md)  
-[STOCKS ET EN-COURS](inventory-manage-inventory.md)  
+[Stock](inventory-manage-inventory.md)  
 [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)     
 [Gestion des assemblages](assembly-assemble-items.md)    
 [Détails de conception : gestion d'entrepôt](design-details-warehouse-management.md)  

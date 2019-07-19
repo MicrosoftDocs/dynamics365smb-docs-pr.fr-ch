@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 06/03/2019
+ms.date: 06/13/2019
 ms.author: sgroespe
-ms.openlocfilehash: fc9cefd33f6ca11ee4f2936671a84071e142a1bd
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.openlocfilehash: f0c86cd9018caa59106468121e1d763d0974c96e
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1621198"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629933"
 ---
 # <a name="sorting-searching-and-filtering-lists"></a>Tri, recherche et filtrage de listes
 Il existe quelques fonctions que vous pouvez utiliser pour vous aider à analyser, rechercher et limiter des enregistrements d'une liste. Ce sont notamment le tri, la recherche et le filtrage. Vous pouvez en appliquer certaines ou toutes simultanément pour trouver rapidement ou analyser vos données.

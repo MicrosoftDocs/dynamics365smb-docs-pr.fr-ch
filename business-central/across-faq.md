@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 04/01/2019
+ms.date: 06/13/2019
 ms.author: edupont
-ms.openlocfilehash: f86c8a3cd93995aaf52a9e7f95065751f8061fd7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 4854dc38fe395fb36381cda0e2c177e9e3abf591
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245905"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629496"
 ---
 # <a name="frequently-asked-questions"></a>Forum Aux Questions
 
@@ -38,7 +38,10 @@ Sur la page d'accueil de la communauté, vous pouvez également rechercher des l
 Enfin, vous pouvez contacter votre revendeur [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, voir la section [Comment est-ce que j'obtiens du support technique ?](across-faq.md#how-do-i-get-technical-support-for-).  
 
 ## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365finmdmd"></a>Pourquoi je ne peux pas trouver cette fonctionnalité dans ma version de [!INCLUDE[d365fin](includes/d365fin_md.md)] ?
-Avez-vous eu connaissance d'une nouvelle fonctionnalité dans les notes de version ou sur notre blog récemment ? Dans ce cas, votre [!INCLUDE[d365fin](includes/d365fin_md.md)] n'a peut-être pas encore été mis à niveau avec la dernière version. Si la fonctionnalité est publiée en tant qu'extension dans AppSource, c'est qu'il y a un retard entre l'extension étant annoncée et sa disponibilité dans AppSource.  
+Avez-vous eu connaissance d'une nouvelle fonctionnalité dans le plan de versions ou sur notre blog récemment ? Dans ce cas, votre [!INCLUDE[d365fin](includes/d365fin_md.md)] n'a peut-être pas encore été mis à niveau avec la dernière version. Si la fonctionnalité est publiée en tant qu'extension dans AppSource, c'est qu'il y a un retard entre l'extension étant annoncée et sa disponibilité dans AppSource.  
+
+## <a name="are-there-any-differences-between-an-on-premises-deployment-and-the-cloud-version-of-business-central"></a>Existe-t-il des différences entre un déploiement sur site et la version cloud de Business Central ?
+Oui. Certaines fonctionnalités basées sur le cloud peuvent s'exécuter sur site dans certains cas et d'autres ne sont pas du tout prises en charge. Pour plus d'informations, voir [Fonctions non implémentées dans les déploiements sur site de Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises).
 
 ## <a name="can-i-get-training-in-included365finincludesd365finmdmd"></a>Puis-je suivre une formation sur l'utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] ?
 Oui, vous pouvez. Mais pour le moment, vous devez vous adresser à votre revendeur. Si vous ne savez pas de qui il s'agit, recherchez un revendeur Business Central sur la page [Je recherche un fournisseur de solution](https://go.microsoft.com/fwlink/?linkid=2038145).  

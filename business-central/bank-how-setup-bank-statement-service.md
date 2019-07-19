@@ -10,21 +10,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
-ms.date: 04/01/2019
+ms.date: 06/25/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9fa3911ceeb94d523709d1029db9527b868bc199
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1c27575cd218b4f7c3ac5098eaca96d9ab9a4a1b
+ms.sourcegitcommit: 73e955b8fec819e5212b6ca7d8bfff42fe2d5eb8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246668"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702897"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Configurer le service Envestnet Yodlee Bank Feeds
 Vous pouvez importer des relevés bancaires électroniques auprès de votre banque pour renseigner rapidement la page **Feuille rapprochement bancaire** de sorte à pouvoir lettrer les paiements et rapprocher le compte bancaire. Pour plus d'informations, reportez-vous à [Lettrage automatique des paiements et rapprochement des comptes bancaires](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 > [!NOTE]
-> Le service Envestnet Yodlee Bank Feeds est pris en charge uniquement dans la version en ligne de Business Central. Pour utiliser cette fonctionnalité sur site, vous devez obtenir un compte de cobrand d'Envestnet Yodlee.<br /><br />
+> Le service Envestnet Yodlee Bank Feeds est uniquement pris en charge dans la version en ligne de Business Central. Pour utiliser cette fonctionnalité sur site, vous devez obtenir un compte de cobrand d'Envestnet Yodlee.<br /><br />
 > Le service Envestnet Yodlee Bank Feeds n'est pris en charge qu'aux États-Unis, au Canada et au Royaume-Uni.
+
+> [!IMPORTANT]
+> Pour obtenir une assistance technique sur les fonctionnalités d’Envestnet Yodlee, contactez le support technique Microsoft. Ne contactez pas Envestnet Yodlee. Pour plus d'informations, voir [Configuration du support technique pour Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/technical-support).
 
 Le service Envestnet Yodlee Bank Feeds est installé comme une extension de [!INCLUDE[d365fin](includes/d365fin_md.md)] en ligne et est prêt à être activé dans les pays pris en charge. Pour plus d'informations, voir [Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md).
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0eb1c99d38467969f072659996b0f598ba9d6576
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 97b98a334428f697e83bf655c1ec15a3539d3dea
+ms.sourcegitcommit: 0854c074b500c3031eaf86fde9d452f93f238081
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1254060"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "1701213"
 ---
 # <a name="make-check-payments"></a>Effectuer des paiements par chèque
 Vous pouvez émettre des chèques par voie électronique et manuelle dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ces deux méthodes utilisent la feuille paiement pour émettre des chèques aux fournisseurs. Vous pouvez également annuler des chèques et afficher les écritures comptables chèque.
@@ -30,9 +30,9 @@ Vous pouvez payer avec deux types de chèques. Pour les deux types, le champ **T
 > [!NOTE]  
 > Pour s'assurer que la banque efface uniquement les chèques et les montants validés, vous pouvez envoyer un fichier contenant des informations de paiement, du chèque et du fournisseur. Pour plus d'informations, voir [Exporter des fichiers Positive Pay](finance-how-positive-pay.md).
 
-Votre imprimante doit être correctement configurée pour les formulaires chèque, et vous devez définir la mise en page de chèque à utiliser. Pour plus d'informations, voir [Définir les mises en page de chèques](finance-how-define-check-layouts.md)
+Votre imprimante doit être correctement configurée pour les formulaires chèque, et vous devez définir la mise en page de chèque à utiliser. Pour plus d'informations, voir [Sélectionner une mise en page de chèque](finance-how-define-check-layouts.md)
 
-Vous pouvez imprimer jusqu'à 10 factures sur une page pour un talon de chèque. Si un chèque s'applique à plus de 10 factures, lorsque vous imprimez le talon, nous annulons le chèque sur la première page et imprimons le mot NUL sur le chèque. Nous imprimons ensuite les factures restantes et le montant total du chèque sur la deuxième page. 
+Vous pouvez imprimer jusqu'à 10 factures sur une page pour un talon de chèque. Si un chèque s'applique à plus de 10 factures, lorsque vous imprimez le talon, nous annulons le chèque sur la première page et imprimons le mot NUL sur le chèque. Nous imprimons ensuite les factures restantes et le montant total du chèque sur la deuxième page.
 
 ## <a name="to-pay-a-vendor-invoice-with-a-computer-check"></a>Pour payer une facture fournisseur avec un chèque informatique
 La section suivante décrit comment payer un fournisseur par chèque. La procédure est la même pour rembourser un client par chèque.

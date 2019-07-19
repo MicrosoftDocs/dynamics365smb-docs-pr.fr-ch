@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/12/2019
 ms.author: jswymer
-ms.openlocfilehash: 602d520043c5192109ccc4e2605ae0e231dafc1e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 781f43daf6482c7e29696dc7a03aa021550cde7d
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250357"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629772"
 ---
 # <a name="add-links-to-websites-documents-or-programs-on-records"></a>Ajouter des liens à des sites Web, documents ou programmes sur des enregistrements
 Sur un enregistrement spécifique, comme une fiche client, un document ou une commande vente, vous pouvez ajouter un lien à un document, site Web ou programme externe. Vous pouvez aussi sélectionner un lien qui ouvre un e-mail vierge adressé à un destinataire précis. La page Fiche de certains enregistrements comme les fiches client ou fournisseur, dispose d'un champ **Page d'accueil** dans lequel vous pouvez entrer une adresse Internet (URL). Pour insérer d'autres liens, vous pouvez utiliser la méthode décrite dans cet article.  
@@ -35,10 +35,9 @@ Un autre exemple est lorsque vous recevez des factures imprimées de fournisseur
 
 4.  Dans le champ **Adresse du lien**, entrez
 
-    -   Pour créer un lien vers un fichier sur votre ordinateur ou réseau, entrez le chemin d'accès complet et le nom du fichier, par exemple **C:My Documentsinvoice1.doc**.
+    -   Pour créer un lien vers un fichier sur votre ordinateur ou réseau, entrez le chemin d'accès complet et le nom du fichier, par exemple **C:\Mes documents\invoice1.doc**.
     -   Pour créer un lien vers un site Web, entrez l'adresse Internet (URL), par exemple **www.microsoft.com**.
-    -   Pour créer un lien vers un site Web, entrez l'adresse Internet (URL), par exemple **www.microsoft.com**.
-    -   Pour créer un lien vers un programme, entrez une chaîne spécifique pour ouvrir le programme. Par exemple, pour ouvrir OneNote avec une page spécifique, entrez **onenote:///C:My Documentstest.one**. Ou, pour ouvrir Outlook avec un e-mail vierge à destination d'un alias spécifique, entrez **mailto:testalias** .  
+    -   Pour créer un lien vers un programme, entrez une chaîne spécifique pour ouvrir le programme. Par exemple, pour ouvrir OneNote avec une page spécifique, entrez **onenote:///C:\Mes documents/test.one**. Ou, pour ouvrir Outlook avec un e-mail vierge à destination d'un alias spécifique, entrez **mailto:testalias** .  
 
 5.  Dans le champ **Désignation**, entrez les informations sur le lien.  
 

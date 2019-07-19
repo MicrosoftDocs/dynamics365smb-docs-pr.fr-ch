@@ -9,20 +9,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
-ms.date: 04/01/2019
+ms.date: 06/13/2019
 ms.author: bholtorf
-ms.openlocfilehash: 3cc053158581d4fc9b87dc3e505a23ed809c1c8f
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.openlocfilehash: 716e195b4e8c5b4150d7a288918c3fb84f6ac713
+ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1620876"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "1726874"
 ---
 # <a name="using-dynamics-365-for-sales-from-business-central"></a>Utilisation de Dynamics 365 for Sales depuis Business Central
 Si vous utilisez Dynamics 365 for Sales for Customer Engagement, bénéficiez de l'intégration parfaite dans le processus allant du prospect à l'encaissement à l'aide de [!INCLUDE[d365fin](includes/d365fin_md.md)] pour les activités principales, telles que le traitement des commandes, la gestion des stocks et de vos finances.
 
+Avant de pouvoir utiliser les fonctionnalités d’intégration, vous devez configurer la connexion et définir les utilisateurs de [!INCLUDE[crm_md](includes/crm_md.md)]. Pour plus d'informations, reportez-vous à la rubrique [Intégration à Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).
+
 > [!NOTE]
-> Cette rubrique suppose que vous utilisiez les versions en ligne de [!INCLUDE[d365fin](includes/d365fin_md.md)] et de Sales. Vous pouvez mélanger les versions en ligne et locale, mais cela nécessite une configuration spécifique. Pour plus d'informations, voir [Préparation de l'intégration à Dynamics 365 for Sales On-Premises](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
+> Ces étapes décrivent le processus d'intégration des versions en ligne de [!INCLUDE[crm_md](includes/crm_md.md)] et [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations sur la configuration sur site, voir [Préparation de Dynamics 365 for Sales pour l'intégration sur site](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
 Intégrer les applications vous permet d'accéder aux données dans Sales depuis [!INCLUDE[d365fin](includes/d365fin_md.md)], et dans certains cas, inversement. Vous pouvez utiliser et synchroniser les types de données communs aux deux services, par exemple clients, contacts et informations de vente, et mettre à jour les données dans les deux applications.  
 
@@ -73,19 +75,22 @@ Si la désignation de l'article sur la commande vente d'origine est très longue
 
 Les mises à jour vers les champs d'en-tête de commande vente, tels que Date dernière expédition ou Date livraison demandée, qui sont mappés dans COMMANDEVENTE-COMMANDE **Mappage de table d'intégration** sont synchronisées régulièrement vers [!INCLUDE[crm_md](includes/crm_md.md)]. Les processus tels que lancer une commande vente et expédier ou facturer une commande vente sont validés vers la chronologie de commande vente dans [!INCLUDE[crm_md](includes/crm_md.md)]. Pour en savoir plus, voir [Introduction aux flux d'activité](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/introduction-activity-feeds).
 
+> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098170]
+
 ## <a name="handling-sales-quotes-data"></a>Gestion des données de devis
 Les devis activés dans [!INCLUDE[crm_md](includes/crm_md.md)] seront transférés automatiquement vers [!INCLUDE[d365fin](includes/d365fin_md.md)] si vous sélectionnez la case à cocher **Traiter automatiquement les devis** sur la page **Paramètres de la connexion Microsoft Dynamics 365**.
 Sinon, vous pouvez convertir manuellement les devis envoyés depuis [!INCLUDE[crm_md](includes/crm_md.md)] à l'aide de l'action **Traiter dans [!INCLUDE[d365fin](includes/d365fin_md.md)]** disponible sur la page **Devis - Dynamics 365 for Sales**.
 Pour ces devis, le champ **Nom** du devis d'origine est transféré et associé au champ **Numéro de document externe** de la commande vente dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. En outre, le champ **Applicable jusqu'à** du devis est transféré et mappé vers le champ **Devis valide jusqu'à** du devis dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-Les devis subissent de nombreuses révisions avant d'être finalisés. Le traitement automatique et manuel des devis dans [!INCLUDE[d365fin](includes/d365fin_md.md)] garantit que les versions précédentes des devis sont archivées avant traitement des nouvelles révisions de devis depuis [!INCLUDE[crm_md](includes/crm_md.md)]. 
+Les devis subissent de nombreuses révisions avant d'être finalisés. Le traitement automatique et manuel des devis dans [!INCLUDE[d365fin](includes/d365fin_md.md)] garantit que les versions précédentes des devis sont archivées avant traitement des nouvelles révisions de devis depuis [!INCLUDE[crm_md](includes/crm_md.md)].
 
 ## <a name="handling-posted-sales-invoices-customer-payments-and-statistics"></a>Gestion des factures vente enregistrées, des paiements client et des statistiques
-Après l'exécution d'une commande vente, les factures associées seront créées. Lorsque vous facturez une commande vente, vous pouvez transférer la facture vente enregistrée dans [!INCLUDE[crm_md](includes/crm_md.md)] si vous sélectionnez **Créer une facture dans [!INCLUDE[crm_md](includes/crm_md.md)]** dans la page Facture vente enregistrée. Les factures enregistrées sont transférées dans [!INCLUDE[crm_md](includes/crm_md.md)] avec le statut **Facturé**. Une fois que le paiement client est reçu pour la facture vente dans [!INCLUDE[d365fin](includes/d365fin_md.md)], le statut de la facture vente sera modifié en **Payé** avec la raison du statut définie sur **Partielle** si elle est partiellement payée, ou **Totale** si elle est totalement payée, lorsque vous exécutez **Mettre à jour les statistiques compte** dans la page du client dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. **Mettre à jour les statistiques compte** actualisera également des valeurs telles que le solde et les ventes totales dans le récapitulatif Statistiques compte [!INCLUDE[d365fin](includes/d365fin_md.md)] dans [!INCLUDE[crm_md](includes/crm_md.md)].
-Sinon, les projets planifiés (statistiques client et POSTEDSALESINV-INV) peuvent exécuter automatiquement ces deux processus en arrière-plan. 
+Après l'exécution d'une commande vente, les factures associées seront créées. Lorsque vous facturez une commande vente, vous pouvez transférer la facture vente enregistrée dans [!INCLUDE[crm_md](includes/crm_md.md)] si vous cochez la case **Créer une facture dans [!INCLUDE[crm_md](includes/crm_md.md)]** sur la page **Facture vente enregistrée**. Les factures enregistrées sont transférées dans [!INCLUDE[crm_md](includes/crm_md.md)] avec le statut **Facturé**.
+
+Une fois que le paiement client est reçu pour la facture vente dans [!INCLUDE[d365fin](includes/d365fin_md.md)], le statut de la facture vente sera modifié en **Payé** avec la **raison du statut** définie sur **Partielle** si elle est partiellement payée, ou **Totale** si elle est totalement payée, lorsque vous exécutez **Mettre à jour les statistiques compte** sur la page du client dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. La fonction **Mettre à jour les statistiques compte** actualisera également des valeurs telles que le **solde** et les **ventes totales** dans le **récapitulatif Statistiques compte [!INCLUDE[d365fin](includes/d365fin_md.md)]** dans [!INCLUDE[crm_md](includes/crm_md.md)]. Sinon, les projets planifiés (statistiques client et POSTEDSALESINV-INV) peuvent exécuter automatiquement ces deux processus en arrière-plan.
 
 ## <a name="see-also"></a>Voir aussi
-[Préparation pour intégrer à Dynamics 365 for Sales On-premises](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration)  
+[Intégration à Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Gestion des relations](marketing-relationship-management.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Modification des fonctionnalités affichées](ui-experiences.md)  

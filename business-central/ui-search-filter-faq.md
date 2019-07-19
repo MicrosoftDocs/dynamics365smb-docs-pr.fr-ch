@@ -8,12 +8,12 @@ ms.reviewer: edupont04
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
 ms.date: 06/03/2019
 ms.author: mikebc
-ms.openlocfilehash: bf595cc54fa6d3d105770893864f655f82e04433
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.openlocfilehash: a4e33c2f1598f4e3ff659302f046b32656edb81a
+ms.sourcegitcommit: 0854c074b500c3031eaf86fde9d452f93f238081
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1620853"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "1701190"
 ---
 # <a name="searching-and-filtering-faq"></a>FAQ sur la recherche et le filtrage
 Cet article répond à des questions courantes que vous pouvez avoir à propos de la recherche et du filtrage.
