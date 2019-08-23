@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: soalex
-ms.openlocfilehash: ab4ff824d3580fec45b5f25fb5a77fc276dbbb16
-ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
+ms.openlocfilehash: 4711c052d7a878329d9b4890ff891c4fa0f7fb2f
+ms.sourcegitcommit: acbbe80503e61296310ea7f787a9d7f4bc6dccd7
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1594150"
+ms.lasthandoff: 08/12/2019
+ms.locfileid: "1870572"
 ---
 # <a name="switzerland-local-functionality"></a>Fonctionnalité locale, Suisse
 Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à la version suisse de [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
@@ -63,7 +63,6 @@ Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à l
 
 * Stock
     * [Gestion des stocks, Suisse](swiss-inventory-management.md) **Désormais disponible**
-    * [Copier des articles existants pour créer de nouveaux articles](how-to-copy-existing-items-to-new-items.md)
     * [Imprimer la liste des prélèvements de stock d'une commande vente](how-to-print-an-inventory-picking-list-from-a-sales-order.md) **Désormais disponible**
 
 * Général    

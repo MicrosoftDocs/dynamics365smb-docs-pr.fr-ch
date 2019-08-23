@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 04/01/2019
+ms.date: 06/20/2019
 ms.author: sgroespe
-ms.openlocfilehash: 468f2f213d2f9dafb38d76706da578b417d01ca9
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 854af39ef866d0d8959410c928acf65d65ffcb3d
+ms.sourcegitcommit: acbbe80503e61296310ea7f787a9d7f4bc6dccd7
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240203"
+ms.lasthandoff: 08/12/2019
+ms.locfileid: "1870561"
 ---
 # <a name="register-new-items"></a>Enregistrer de nouveaux articles
 Les articles, entre autres produits, sont la base de votre activité, les biens ou les services que vous commercialisez. Chaque article doit être enregistré en tant que fiche article.
@@ -33,6 +33,8 @@ Les articles que vous offrez à vos clients mais que vous ne souhaitez pas gére
 
 > [!NOTE]  
 > Si des modèles article existent pour différents types d'articles, une page s'affiche automatiquement lorsque vous créez une nouvelle fiche article à partir de laquelle vous pouvez sélectionner un modèle article approprié. Si un seul modèle article existe, les nouvelles fiches article utiliseront toujours ce modèle.
+
+La procédure suivante explique comment créer une fiche article à partir de zéro. Vous pouvez également créer de nouvelles fiches d'objets en copiant celles existantes. Pour plus d'informations, voir [Copier des articles existants pour créer de nouveaux articles](inventory-how-copy-items.md).
 
 ## <a name="to-create-a-new-item-card"></a>Pour créer une fiche article
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles**, puis sélectionnez le lien associé.  

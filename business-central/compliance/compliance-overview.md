@@ -9,14 +9,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.reviewer: edupont
+ms.date: 07/16/2019
 ms.author: soalex
-ms.openlocfilehash: d990cb86fb1aa9f4f7f7fba43bed1a8be83647d1
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 4a1d3a9e480ee87d791b68f66b9afa6a2be67535
+ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246274"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "1755158"
 ---
 # <a name="compliance"></a>Conformité
 Ce contenu comprend des informations sur la conformité concernant [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
@@ -30,6 +31,6 @@ Dans cette section, vous trouverez plus d'informations sur notre approche de la 
 |En savoir plus sur la conformité du point de vue d'une application, comme le RGPD et les normes comptables internationales, et plus encore.|[Conformité des applications](compliance-application-compliance.md)|  
 |En savoir plus sur la conformité au niveau du service et les approches apportées à la plateforme pour garantir à Business Central la meilleure conformité de service de sa classe.|[Conformité des services](compliance-service-compliance.md)|  
 |Consultez les informations sur les différentes certifications liées à Business Central. Vous y trouverez des informations sur les certifications générales et les certifications spécifiques aux pays.|[Certifications](compliance-certifications.md)|  
+|En savoir plus sur les conditions du contrat de niveau de service et les autres conditions d'utilisation|[Conditions d'utilisation](compliance-service-compliance.md#service-terms)|  
 
- ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
- 
+## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  

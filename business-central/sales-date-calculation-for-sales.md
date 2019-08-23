@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a620b7ed9d06cdd8adf7b12bea2b55aecea32bcc
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 927c16f0fb1d12ff1202e4e675b97078d354375f
+ms.sourcegitcommit: 8c0d734c7202fec81da79c7db382243aa49e37f6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251156"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "1737135"
 ---
 # <a name="date-calculation-for-sales"></a>Calcul de la date des ventes
 [!INCLUDE[d365fin](includes/d365fin_md.md)] calcule automatiquement la première date possible à laquelle un article d'une ligne commande vente peut être expédié.
@@ -27,14 +27,15 @@ Si le client a demandé une date livraison particulière, alors la date à laque
 Si le client ne demande pas de date livraison particulière, alors la date à laquelle les articles peuvent être livrés, à partir de la date à laquelle les articles peuvent être prélevés, est calculée.
 
 ## <a name="calculating-a-requested-delivery-date"></a>Calcul d'une date de livraison demandée
-Si vous spécifiez une date de livraison demandée sur la ligne vente, alors cette date est utilisée comme point de départ du calcul suivant :
+Si vous spécifiez une date de livraison demandée sur la ligne vente, cette date devient le point de départ du calcul suivant :
 
 - Date livraison demandée - délai d'expédition = date d'expédition planifiée
 - Date d'expédition + délai désenlogement = date d'expédition planifiée
 
-Si les articles peuvent être prélevés à la date d'expédition, alors le processus vente peut continuer.
+Si les articles peuvent être prélevés à la date d'expédition, alors le processus vente peut continuer. Sinon, un avertissement de rupture de stock est affiché.
 
-Si les articles ne peuvent pas être prélevés à la date d'expédition, alors une alerte rupture de stock est affichée.
+> [!Note]
+> Si votre processus est basé sur un calcul en amont, par exemple, si vous utilisez la date livraison demandée pour obtenir la date livraison planifiée, nous vous recommandons d’utiliser des formules de date ayant des durées fixes, telles que "5D" pendant cinq jours ou "1W" pour une semaine. Les formules de date sans durée fixe, telles que "CW" pour la semaine en cours ou CM pour le mois en cours, peuvent entraîner des calculs de date incorrects. Pour plus d'informations sur les formules de date, voir [Utilisation de dates civiles et des heures](ui-enter-date-ranges.md).
 
 ## <a name="calculating-the-earliest-possible-delivery-date"></a>Calcul de la première date de livraison possible
 Si vous ne spécifiez aucune date livraison demandée sur la ligne de commande vente ou si la date livraison demandée ne peut pas être respectée, alors la première date à laquelle les articles sont disponibles est calculée. Cette date est ensuite renseignée dans le champ Date d'expédition sur la ligne, et la date à laquelle vous prévoyez d'expédier les articles, ainsi que la date à laquelle ces derniers seront livrés au client sont calculées via les formules suivantes.

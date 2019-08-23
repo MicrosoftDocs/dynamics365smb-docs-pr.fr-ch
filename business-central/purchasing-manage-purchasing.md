@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 04/01/2019
+ms.date: 07/30/2019
 ms.author: sgroespe
-ms.openlocfilehash: 738cbfece41121eb05aeb598f9ea4367173f29a5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: e49632655eebc0ab5d818e67fecd599d6d079cce
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251852"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796807"
 ---
 # <a name="purchasing"></a>Procédure d'achat
 Vous créez une facture achat ou une commande achat pour enregistrer le coût d'achats et suivre les créances. Si vous devez contrôler un stock, les factures achat sont également utilisées pour mettre à jour de manière dynamique les niveaux de stock afin que vous puissiez réduire vos coûts et fournir un meilleur service client. Le prix d'achat, notamment les frais de service, et les valeurs d'inventaire qui résultent de la validation des factures achat contribuent aux chiffres du profit et à d'autres KPI financiers sur votre Tableau de bord.
@@ -37,6 +37,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | Créer une facture achat pour enregistrer votre accord avec un fournisseur pour acheter des biens selon certaines conditions de livraison et de paiement. |[Enregistrer des achats](purchasing-how-record-purchases.md) |
 |Créez une demande de prix pour refléter une demande de devis auprès de votre fournisseur, que vous pourrez ultérieurement convertir en commande achat.|[Demander des devis](purchasing-how-request-quotes.md)|
 | Créer une facture achat pour toutes les lignes ou pour les lignes sélectionnées sur une facture vente. |[Acheter des articles pour une vente](purchasing-how-purchase-products-sale.md) |
+|Comprenez ce qui se passe lorsque vous publiez des documents achat.|[Validation des achats](ui-post-purchases.md)|
 | Effectuer une action sur une facture achat enregistrée impayée pour créer automatiquement un avoir et soit annuler la facture achat, soit la recréer pour que vous puissiez y apporter des corrections. |[Corriger ou annuler des factures vente impayées](purchasing-how-correct-cancel-unpaid-purchase-invoices.md) |
 | Créer un avoir achat pour rembourser une facture achat validée spécifique pour indiquer les produits que vous retournez au fournisseur et le montant règlement que vous récupérez. |[Traiter les retours ou annulations d'achats](purchasing-how-register-new-vendors.md) |
 |Préparez la facturation de plusieurs réceptions provenant du même fournisseur en une seule fois en regroupant les réceptions sur une facture.|[Regroupement de bons de réception sur une seule facture](purchasing-how-to-combine-receipts.md)|

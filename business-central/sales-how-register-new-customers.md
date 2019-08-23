@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 04/01/2019
+ms.date: 07/22/2019
 ms.author: sgroespe
-ms.openlocfilehash: 45fb2f1ac2b9d26e74e625321a64b4a5033880bf
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 195ab393046d56611445d7cba9ed39cdbaf75454
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252519"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796839"
 ---
 # <a name="register-new-customers"></a>Enregistrer de nouveaux clients
 Les clients sont l'origine de vos revenus. Chaque client auquel vous vendez un élément doit être enregistré en tant que fiche client. Les fiches client contiennent les informations nécessaires à la vente de biens au client. Pour plus d'informations, voir [Facturer des ventes](sales-how-invoice-sales.md) et [Enregistrer de nouveaux articles](inventory-how-register-new-items.md).  
@@ -54,6 +54,7 @@ Si vous souhaitez utiliser cette fiche client comme modèle lorsque vous créez 
 Le modèle client est ajouté à la liste des modèles client. Vous pouvez ainsi l'utiliser pour créer des fiches client.
 
 ## <a name="see-also"></a>Voir aussi
+[Définition des modes de règlement](finance-payment-methods.md)  
 [Fusionner l'enregistrement des doublons](sales-how-merge-duplicate-records.md)  
 [Création des souches de numéros](ui-create-number-series.md)  
 [Ventes](sales-manage-sales.md)    

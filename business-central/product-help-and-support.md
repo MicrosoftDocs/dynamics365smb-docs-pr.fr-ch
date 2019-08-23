@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 07/03/2019
-ms.openlocfilehash: 6b19a566ada8e9708bb19a82ded3404b29cf260d
-ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
+ms.date: 07/17/2019
+ms.openlocfilehash: 4ca4205fa5d2da35451f3a78c1534dd32d4d8f65
+ms.sourcegitcommit: b4fb54af9ed2e51479bb5293f86290c0de78858c
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "1726969"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "1755984"
 ---
 # <a name="resources-for-help-and-support"></a>Ressources pour l'Aide et le support
 
@@ -43,11 +43,11 @@ Si vous utilisez une version d'évaluation de [!INCLUDE [prodshort](includes/pro
 
 ### <a name="blog"></a>Blog
 
-Le [Blog de Business Central](https://community.dynamics.com/business/b/financials) vous permet d'en apprendre davantage sur de nouvelles fonctionnalités [!INCLUDE[prodshort](includes/prodshort.md)], de nouvelles applications, des astuces et conseils ainsi que des mises à jour concernant des lancements dans de nouveaux pays.  
+Nous discutons des nouvelles fonctionnalités sur le [blog de Dynamics 365](https://cloudblogs.microsoft.com/dynamics365/users/product/business-central/), notamment leur date de disponibilité et les éventuelles considérations particulières.  
 
 ### <a name="capabilities-coming-soon"></a>Fonctionnalités bientôt disponibles
 
-[!INCLUDE[prodshort](includes/prodshort.md)] est mis à jour dans le cadre des principales mises à jour semestrielles des fonctionnalités, ainsi que dans le cadre des mises à jour de service mensuelles. Choisissez le lien pour afficher le tout dernier plan de versions. Vous pouvez également obtenir une présentation générale des fonctionnalités à venir ou de celles qui ont été récemment publiées dans le plan de versions sur Dynamics 365 à l'adresse Web suivante : [https://dynamics.microsoft.com/en-us/business-applications/release/](https://dynamics.microsoft.com/en-us/business-applications/release/#release-notes)365.  
+[!INCLUDE[prodshort](includes/prodshort.md)] est mis à jour dans le cadre des principales mises à jour semestrielles des fonctionnalités, ainsi que dans le cadre des mises à jour de service mensuelles. Choisissez le lien pour afficher le tout dernier plan de versions. Vous pouvez également obtenir une présentation générale des fonctionnalités à venir ou de celles qui ont été récemment publiées dans le plan de versions sur Dynamics 365 à l'adresse Web suivante : [https://aka.ms/businessappsreleasenotes](https://aka.ms/businessappsreleasenotes)365.  
 
 Pour l'aperçu à plus long terme, la [!INCLUDE[prodshort](includes/prodshort.md)] [page Feuille de route](https://dynamics.microsoft.com/roadmap/business-central/) présente les priorités générales pour [!INCLUDE[prodshort](includes/prodshort.md)] dans les prochaines années.  
 

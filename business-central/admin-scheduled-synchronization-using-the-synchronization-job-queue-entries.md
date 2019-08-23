@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 04/01/2019
+ms.date: 07/16/2019
 ms.author: bholtorf
-ms.openlocfilehash: b3fb3d2680cd85da8b2def7e82fbf62c0046fcc3
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 9290730bb559d4ac03a437a49ed81b09f3c01853
+ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247436"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "1755233"
 ---
 # <a name="scheduling-a-synchronization-between-business-central-and-dynamics-365-for-sales"></a>Planification d'une synchronisation entre Business Central et Dynamics 365 for Sales
 Vous pouvez synchroniser [!INCLUDE[d365fin](includes/d365fin_md.md)] avec [!INCLUDE[crm_md](includes/crm_md.md)] à des intervalles planifiés en configurant des projets dans la file projets. Les projets de synchronisation permettent de synchroniser les données des enregistrements [!INCLUDE[d365fin](includes/d365fin_md.md)] et [!INCLUDE[crm_md](includes/crm_md.md)] qui ont été précédemment couplés ensemble. Ou bien, pour les enregistrements qui ne sont pas encore couplés, selon la direction et les règles de synchronisation, les projets de synchronisation peuvent créer des enregistrements et les coupler dans le système de destination. Plusieurs projets de synchronisation sont disponibles et prêts à l'emploi. Vous pouvez les visualiser sur la page **Écritures file d'attente des travaux**. Pour plus d'informations, voir [Utiliser des files d'attente des travaux pour planifier des tâches](admin-job-queues-schedule-tasks.md).
@@ -31,7 +31,7 @@ Pour synchroniser les données, les enregistrements d'entité [!INCLUDE[crm_md](
 -   Par défaut, seuls les enregistrements dans [!INCLUDE[d365fin](includes/d365fin_md.md)] qui sont couplés à des enregistrements dans [!INCLUDE[crm_md](includes/crm_md.md)] sont synchronisés. Vous pouvez modifier le mappage de table entre une entité [!INCLUDE[crm_md](includes/crm_md.md)] et une entité [!INCLUDE[d365fin](includes/d365fin_md.md)] afin que les projets de synchronisation de l'intégration créent des enregistrements dans la base de données de destination pour chaque enregistrement de la base de données source qui n'est pas couplé. Les nouveaux enregistrements sont également couplés aux enregistrements correspondants dans la source. Par exemple, lorsque vous synchronisez les clients avec des comptes [!INCLUDE[crm_md](includes/crm_md.md)], un enregistrement de compte est créé pour chaque client dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Les nouveaux comptes sont automatiquement couplés aux clients dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Puisque la synchronisation est bidirectionnelle dans ce cas, un client est créé et couplé pour chaque compte [!INCLUDE[crm_md](includes/crm_md.md)] qui n'est pas encore couplé.  
 
     > [!NOTE]  
-    >  Des règles et des filtres permettent de déterminer les données synchronisées. Pour plus d'informations, reportez-vous à la rubrique [Règles de synchronisation](admin-synchronizing-business-central-and-sales.md#synchronization-rules).
+    > Des règles et des filtres permettent de déterminer les données synchronisées. Pour plus d'informations, reportez-vous à la rubrique [Règles de synchronisation](admin-synchronizing-business-central-and-sales.md#synchronization-rules).
 
 -   Lorsque des enregistrements sont créées dans [!INCLUDE[d365fin](includes/d365fin_md.md)], ils utilisent le modèle défini pour le mappage de table d'intégration ou le modèle par défaut qui est disponible pour le type d'enregistrement. Les champs sont renseignés avec des données depuis [!INCLUDE[d365fin](includes/d365fin_md.md)] ou [!INCLUDE[crm_md](includes/crm_md.md)] en fonction du sens de synchronisation. Pour en savoir plus, reportez-vous à la rubrique [Procédure : Modifier les mappages de table pour la synchronisation](admin-how-to-modify-table-mappings-for-synchronization.md).  
 
@@ -51,7 +51,7 @@ Le tableau suivant décrit les projets de synchronisation par défaut.
 |Projet de synchronisation CLIENT - Dynamics 365 for Sales|Permet de synchroniser les comptes [!INCLUDE[crm_md](includes/crm_md.md)] avec les clients [!INCLUDE[d365fin](includes/d365fin_md.md)].|Bidirectionnel|CLIENT|  
 |Projet de synchronisation GRPPRXCLI-PRIX - Dynamics 365 for Sales|Permet de synchroniser les listes de prix de vente [!INCLUDE[crm_md](includes/crm_md.md)] avec les groupes de prix client [!INCLUDE[d365fin](includes/d365fin_md.md)].| |GROUPES DE PRIX CLIENT - LISTES DE PRIX DE VENTE|
 |Projet de synchronisation ARTICLE-PRODUIT - Dynamics 365 for Sales|Permet de synchroniser les produits [!INCLUDE[crm_md](includes/crm_md.md)] avec les articles [!INCLUDE[d365fin](includes/d365fin_md.md)].|De [!INCLUDE[d365fin](includes/d365fin_md.md)] vers [!INCLUDE[crm_md](includes/crm_md.md)]|ARTICLE-PRODUIT|
-|Projet de synchronisation FACTVENTEVALIDEES-FACT - Dynamics 365 for Sales|Permet de synchroniser les factures [!INCLUDE[crm_md](includes/crm_md.md)] avec les factures vente [!INCLUDE[d365fin](includes/d365fin_md.md)] validées.|De [!INCLUDE[crm_md](includes/crm_md.md)] vers [!INCLUDE[d365fin](includes/d365fin_md.md)]|FACTURES - FACTURES VENTE VALIDÉES|
+|Projet de synchronisation FACTVENTEVALIDEES-FACT - Dynamics 365 for Sales|Permet de synchroniser les factures [!INCLUDE[crm_md](includes/crm_md.md)] avec les factures vente [!INCLUDE[d365fin](includes/d365fin_md.md)] validées.|De [!INCLUDE[d365fin](includes/d365fin_md.md)] vers [!INCLUDE[crm_md](includes/crm_md.md)]|FACTURES - FACTURES VENTE VALIDÉES|
 |Projet de synchronisation RESSOURCE-PRODUIT - Dynamics 365 for Sales|Permet de synchroniser les produits [!INCLUDE[crm_md](includes/crm_md.md)] avec les ressources [!INCLUDE[d365fin](includes/d365fin_md.md)].|De [!INCLUDE[d365fin](includes/d365fin_md.md)] vers [!INCLUDE[crm_md](includes/crm_md.md)]|RESSOURCE-PRODUIT|  
 |Projet de synchronisation VENDEURS - Dynamics 365 for Sales|Permet de synchroniser les vendeurs [!INCLUDE[d365fin](includes/d365fin_md.md)] avec les utilisateurs [!INCLUDE[crm_md](includes/crm_md.md)].|De [!INCLUDE[crm_md](includes/crm_md.md)] vers [!INCLUDE[d365fin](includes/d365fin_md.md)]|VENDEURS|
 |Projet de synchronisation PRXVENTE-PRXPRODUIT - Dynamics 365 for Sales|Permet de synchroniser les prix de produit [!INCLUDE[crm_md](includes/crm_md.md)] avec les prix de vente [!INCLUDE[d365fin](includes/d365fin_md.md)].||PRIX DE PRODUIT - PRIX DE VENTE|
@@ -63,7 +63,7 @@ Le tableau suivant décrit les projets de synchronisation par défaut.
 2.  Si une ou plusieurs erreurs se sont produites pour un projet de synchronisation, le nombre d'erreurs s'affiche dans la colonne **Échec**. Pour afficher les erreurs pour le projet, sélectionnez le numéro.  
 
     > [!TIP]  
-    >  Vous pouvez afficher toutes les erreurs du projet de synchronisation en ouvrant directement le journal des erreurs du projet de synchronisation.
+    > Vous pouvez afficher toutes les erreurs du projet de synchronisation en ouvrant directement le journal des erreurs du projet de synchronisation.
 
 ## <a name="to-view-the-synchronization-job-log-from-the-table-mappings"></a>Pour afficher le journal du projet de synchronisation à partir des mappages de table  
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Mappages de table d'intégration**, puis sélectionnez le lien associé.

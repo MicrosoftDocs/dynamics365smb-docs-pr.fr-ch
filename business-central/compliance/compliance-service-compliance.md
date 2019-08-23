@@ -9,14 +9,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.reviewer: edupont
+ms.date: 07/16/2019
 ms.author: soalex
-ms.openlocfilehash: a4dd426cbbe8aa45e3128814886e4d43797c46b3
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1b1c0e0260db1dd8fec21ab2552b553ea2591df2
+ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244622"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "1755181"
 ---
 # <a name="service-compliance"></a>Conformité des services
 Ce contenu comprend des informations sur la conformité des services concernant [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
@@ -25,12 +26,18 @@ Business Central est un service de cloud avec une portée et une échelle totale
 
 Veuillez trouver la liste détaillée des [Offres de conformité au cloud de Business Central ici](https://aka.ms/d365-compliance-list).
 
-Si vous êtes intéressé par la liste complète des offres de conformité de Microsoft, consultez [cette page](https://www.microsoft.com/en-us/trustcenter/compliance/complianceofferings).
+Si vous êtes intéressé par la liste complète des offres de conformité de Microsoft, consultez [Microsoft Trust Center](https://www.microsoft.com/en-us/trustcenter/compliance/complianceofferings)
 
-## <a name="see-also"></a>Voir aussi  
+## <a name="service-terms"></a>Conditions d'utilisation
+
+[!INCLUDE [prodshort](../includes/prodshort.md)] en ligne est régi par la [Politique de cycle de vie moderne](https://support.microsoft.com/en-us/help/30881/modern-lifecycle-policy). Les conditions du contrat de niveau de service sont décrites dans le document que vous pouvez télécharger à partir de la section **Contrats de niveau de service pour Microsoft Online Services** sur la page [Termes du contrat de licence](https://www.microsoft.com/en-us/licensing/product-licensing/products).  
+
+En outre, vous pouvez surveiller la santé de votre locataire et spécifier des périodes de mise à niveau dans [Centre d'administration des locataires ](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
+
+## <a name="see-also"></a>Voir aussi
+
 [Conformité](compliance-overview.md)  
 [Conformité des applications](compliance-application-compliance.md)  
 [Certifications](compliance-certifications.md)  
 
- ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
- 
+## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  

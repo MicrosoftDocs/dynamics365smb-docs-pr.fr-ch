@@ -1,8 +1,6 @@
 ---
 title: Afficher des états Power BI personnalisés| Microsoft
 description: Vous pouvez utiliser des états Power BI pour obtenir des informations supplémentaires sur les données dans les listes.
-services: project-madeira
-documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,20 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 04/01/2019
+ms.date: 07/08/2019
 ms.author: edupont
-ms.openlocfilehash: 29c7b7656632d2103a16025848a6ddc82650353e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: acf9462db8b4f559a5fbc40381b4e5009cdac088
+ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241617"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "1755210"
 ---
-# <a name="viewing-list-data-in-power-bi-reports-in-business-central"></a>Affichage des données de liste des états Power BI dans Business Central 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] inclut un élément de contrôle Récapitulatif sur un certain nombre de pages Liste des clés fournissant des informations supplémentaires sur les données de la liste. Lorsque vous vous déplacez entre les lignes de la liste, l'état est mis à jour et filtré pour l'écriture sélectionnée. Vous pouvez créer des états personnalisés pour qu'ils s'affichent dans ce contrôle, mais il y a certaines règles à suivre lors de la création des états pour s'assurer qu'ils adoptent le comportement souhaité.  
+# <a name="viewing-list-data-in-power-bi-reports-in-business-central"></a>Affichage des données de liste des états Power BI dans Business Central
+
+[!INCLUDE[prodlong](includes/prodlong.md)] inclut un élément de contrôle Récapitulatif sur un certain nombre de pages Liste des clés fournissant des informations supplémentaires sur les données de la liste. Lorsque vous vous déplacez entre les lignes de la liste, l'état est mis à jour et filtré pour l'écriture sélectionnée. Vous pouvez créer des états personnalisés pour qu'ils s'affichent dans ce contrôle, mais il y a certaines règles à suivre lors de la création des états pour s'assurer qu'ils adoptent le comportement souhaité.  
 
 > [!NOTE]  
->   Vous devez disposer d'un compte valide avec [!INCLUDE[d365fin](includes/d365fin_md.md)] et avec Power BI. En outre, vous devez télécharger [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/). Pour plus d'informations, voir [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] comme source de données Power BI](across-how-use-financials-data-source-powerbi.md).  
+> Vous devez disposer d'un compte valide avec [!INCLUDE[prodshort](includes/prodshort.md)] et avec Power BI. En outre, pour créer des états personnalisés, vous devez télécharger [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/). Pour plus d'informations, voir [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] comme source de données Power BI](across-how-use-financials-data-source-powerbi.md).  
 
 ## <a name="report-data-set"></a>Ensemble de données d'état
 Lorsque vous créez l'état dans Power BI Desktop, spécifiez la source de données ou le service Web qui contient les données concernant la liste que vous souhaitez associer à l'état. Par exemple, si vous souhaitez créer un état pour la liste Ventes, assurez-vous que l'ensemble des données contient les informations liées aux ventes.  
@@ -50,7 +49,7 @@ De même, si vous souhaitez que l'arrière-plan de l'état se fonde avec la coul
 Avec Power BI, vous pouvez créer un seul état avec plusieurs pages. Les visuels que vous souhaitez visualiser dans les pages de liste [!INCLUDE[d365fin](includes/d365fin_md.md)] doivent se trouver sur la première page de l'état dans Power BI.  
 
 > [!NOTE]  
->  Le contrôle Récapitulatif État Power BI affiche uniquement la première page de votre état, pour afficher d'autres pages, vous devez développer l'état et utiliser les onglets situés en bas pour accéder aux autres pages.  
+> Le contrôle Récapitulatif État Power BI affiche uniquement la première page de votre état, pour afficher d'autres pages, vous devez développer l'état et utiliser les onglets situés en bas pour accéder aux autres pages.  
 
 ## <a name="saving-your-report"></a>Enregistrement de votre état
 
@@ -72,7 +71,9 @@ Cette section fournit une solution de rechange pour les problèmes les plus cour
 Vérifiez que la taille de l'état est configurée sur 325 pixels x 310 pixels. Enregistrez l'état, puis actualisez la page de liste.  
 
 ## <a name="see-also"></a>Voir aussi
+
+[Activation de vos données commerciales pour Power BI](admin-powerbi.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] comme source de données Power BI](across-how-use-financials-data-source-powerbi.md)  
-[Mise en route](product-get-started.md)    
-[Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)    
+[Mise en route](product-get-started.md)  
+[Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Finances](finance.md)  

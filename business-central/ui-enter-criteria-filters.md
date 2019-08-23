@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 06/13/2019
 ms.author: sgroespe
-ms.openlocfilehash: f0c86cd9018caa59106468121e1d763d0974c96e
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.openlocfilehash: 5f3bab58a2387f5bf21042da782756f7b36d4792
+ms.sourcegitcommit: f5050fd209b8d66722c81abe48c4c0a6f749a1f7
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629933"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1740517"
 ---
 # <a name="sorting-searching-and-filtering-lists"></a>Tri, recherche et filtrage de listes
 Il existe quelques fonctions que vous pouvez utiliser pour vous aider à analyser, rechercher et limiter des enregistrements d'une liste. Ce sont notamment le tri, la recherche et le filtrage. Vous pouvez en appliquer certaines ou toutes simultanément pour trouver rapidement ou analyser vos données.
@@ -128,10 +128,15 @@ Pour plus d'informations, reportez-vous à [Raccourcis clavier](keyboard-shortcu
 
 
 ## <a name="FilterCriteria"> </a>Critères et symboles de filtre
-Lorsque vous saisissez des critères, vous pouvez utiliser tous les chiffres et toutes les lettres que vous utilisez habituellement dans ce champ. En plus, vous pouvez utiliser des symboles spéciaux pour filtrer davantage les résultats. Les tables suivantes indiquent les symboles qui peuvent être utilisés dans les filtres. Pour les dates et heures, vous pouvez également vous référer à [Utilisation de dates civiles et les heures](ui-enter-date-ranges.md) pour des informations plus détaillées.
+Lorsque vous saisissez des critères, vous pouvez utiliser tous les chiffres et toutes les lettres que vous utilisez habituellement dans ce champ. En plus, vous pouvez utiliser des symboles (ou opérateurs) spéciaux pour filtrer davantage les résultats. Les tables suivantes indiquent les symboles qui peuvent être utilisés dans les filtres. Pour les dates et heures, vous pouvez également vous référer à [Utilisation de dates civiles et les heures](ui-enter-date-ranges.md) pour des informations plus détaillées.
 
 > [!IMPORTANT]  
->  Il peut y avoir des instances où les valeurs de champ contiennent ces symboles et vous souhaitez les filtrer. Pour ce faire, vous devez inclure l'expression de filtre qui contient le symbole entre guillemets ("). Par exemple, si vous souhaitez filtrer les enregistrements commençant par le texte *S&R*, l'expression de filtre est `'S&R*'`.  
+>  Il peut y avoir des instances où les valeurs de champ contiennent ces symboles et vous souhaitez les filtrer. Pour ce faire, vous devez inclure l'expression de filtre qui contient le symbole entre guillemets ("). Par exemple, si vous souhaitez filtrer les enregistrements commençant par le texte *S&R*, l'expression de filtre est `'S&R*'`.
+
+Les sections suivantes décrivent comment utiliser les différents opérateurs.
+
+> [!NOTE]
+> S'il y a plus de 200 opérateurs dans un seul filtre, le système regroupera automatiquement certaines expressions entre parenthèses `()` à des fins de traitement. Cela n'a aucun effet sur le filtre ou les résultats.  
 
 ### <a name="-interval"></a>(..) Intervalle
 
@@ -145,7 +150,7 @@ Lorsque vous saisissez des critères, vous pouvez utiliser tous les chiffres et 
 |`23..`|Postérieur au 23/mois en cours/année en cours 0:00:00|  
 |`22..23`|Entre le 22/mois en cours/année en cours 0:00:00 et le 23/mois en cours/année en cours 23:59:59|  
 
-### <a name="124-eitheror"></a>(&#124;) Et/ou  
+### <a name="124-eitheror"></a>(&#124;) Et/ou 
 
 |Expression|Enregistrements affichés|  
 |-----------------------|-----------------------|  

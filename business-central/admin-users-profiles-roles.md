@@ -5,20 +5,20 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
-ms.date: 04/01/2019
+ms.date: 08/02/2019
 ms.author: edupont
-ms.openlocfilehash: fc52d943938616041881c55f70c510e4c63b5de6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 27a57490101195f8dc05cc39538260e7db5e46af
+ms.sourcegitcommit: 5bcc5f95e450ee9a3d9f7a380e592a5e75c4185b
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245824"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1858235"
 ---
-# <a name="understanding-users-profiles-and-role-centers"></a>Comprendre les utilisateurs, les profils et les tableaux de bord
+# <a name="understanding-users-roles-and-profiles"></a>Comprendre les utilisateurs, rôles et profils
 
 Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], les utilisateurs sont ajoutés par un administrateur qui permet également aux utilisateurs d'accéder aux zones de [!INCLUDE[d365fin](includes/d365fin_md.md)] qu'ils ont besoin dans leur travail.  
 
-L'accès aux fonctionnalités est géré via des *groupes d'utilisateurs* et des *profils*. En tant qu'administrateur, vous pouvez ajouter et supprimer des utilisateurs dans le cadre de votre abonnement [!INCLUDE[d365fin](includes/d365fin_md.md)], et vous pouvez affecter des autorisations aux utilisateurs par le biais des groupes d'utilisateurs.  
+L'accès aux fonctionnalités est géré via des *groupes d'utilisateurs* et des *profils (rôles)*. En tant qu'administrateur, vous pouvez ajouter et supprimer des utilisateurs dans le cadre de votre abonnement [!INCLUDE[d365fin](includes/d365fin_md.md)], et vous pouvez affecter des autorisations aux utilisateurs par le biais des groupes d'utilisateurs.  
 
 ## <a name="adding-users"></a>Ajout d'utilisateurs
 
@@ -35,20 +35,20 @@ Les autorisations les plus puissantes qu'un utilisateur peut avoir est l'ensembl
 
 Pour les déploiements sur site de [!INCLUDE[d365fin](includes/d365fin_md.md)], l'administrateur peut choisir entre différents mécanismes d'autorisation d'identification pour les utilisateurs. Ensuite, lorsque vous créez un utilisateur, vous devez fournir différentes informations selon le type d'identification utilisé dans l'instance de [!INCLUDE[server](includes/server.md)] spécifique. Pour plus d'informations, voir [Authentification et informations d'identification](/dynamics365/business-central/dev-itpro/administration/users-credential-types) dans la section Administration du contenu pour développeurs et professionnels de l'informatique de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-## <a name="profiles"></a>Profils
+## <a name="profiles-roles"></a>Profils (Rôles)
 
-Un *profil* est affecté à tous les employés de votre société ayant accès à [!INCLUDE[d365fin](includes/d365fin_md.md)], qui leur permet d'accéder à un *Tableau de bord*.
+Un rôle est affecté à tous les employés de votre société ayant accès à [!INCLUDE[d365fin](includes/d365fin_md.md)], qui leur permet d'accéder à un *Tableau de bord*.
 
-Les profils sont des collections d'utilisateurs [!INCLUDE[d365fin](includes/d365fin_md.md)] qui partagent le même tableau de bord. Un tableau de bord est le point d'entrée et la page d'accueil de [!INCLUDE[d365fin](includes/d365fin_md.md)] qui vous permet d'accéder rapidement à vos tâches les plus importantes et d'afficher diverses informations et divers indicateurs de performance clés sur votre travail.  
+Les profils sont des collections d'utilisateurs [!INCLUDE[d365fin](includes/d365fin_md.md)] qui partagent le même rôle. Un tableau de bord est le point d'entrée et la page d'accueil de [!INCLUDE[d365fin](includes/d365fin_md.md)] qui vous permet d'accéder rapidement à vos tâches les plus importantes et d'afficher diverses informations et divers indicateurs de performance clés sur votre travail.  
 
 > [!NOTE]  
 >  Dans la version actuelle de [!INCLUDE[d365fin](includes/d365fin_md.md)] online, vous ne pouvez ni ajouter, ni modifier, ni supprimer des profils.  
 
-### <a name="CreateProfile"></a>Créer un profil
+### <a name="CreateProfile"></a>Pour créer un profil
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Liste des profils**, puis sélectionnez le lien connexe.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Profils**, puis sélectionnez le lien connexe.  
 
-2.  Sur la page **Liste des profils**, choisissez l'action **Nouveau** pour ouvrir la page **Fiche nouveau profil**.  
+2.  Sur la page **Profils**, choisissez l'action **Nouveau** pour ouvrir la page **Fiche nouveau profil**.  
 
 3.  Dans le champ **ID profil**, entrez un nom qui décrit le rôle prévu pour les utilisateurs.  
 
@@ -56,7 +56,7 @@ Les profils sont des collections d'utilisateurs [!INCLUDE[d365fin](includes/d365
 
 5.  Définissez le champ **ID Tableau de bord** sur le Tableau de bord à affecter au profil.  
 
-La procédure à suivre pour modifier un profil existant est la même, à la différence près que vous sélectionnez un profil existant dans la page **Liste des profils** au lieu de choisir l'action **Nouveau**.  
+La procédure à suivre pour modifier un profil existant est la même, à la différence près que vous sélectionnez un profil existant dans la page **Profils** au lieu de choisir l'action **Nouveau**.  
 
 
 ### <a name="copy-a-profile"></a>Copier un profil
@@ -78,7 +78,7 @@ Vous pouvez exporter et importer des profils en tant que fichiers XML depuis et 
 
 -   Pour exporter un profil, vous pouvez choisir l'action **Exporter les profils** dans la **Liste des profils** ou la page **Fiche profil**, ou vous pouvez rechercher et ouvrir la page **Exporter les profils**. Enregistrez le fichier XML dans un emplacement de votre ordinateur ou du réseau.
 
--   Pour importer un profil, vous pouvez choisir l'action **Importer les profils** dans la **Liste des profils**, ou vous pouvez rechercher et ouvrir la page **Importer les profils**. 
+-   Pour importer un profil, vous pouvez choisir l'action **Importer les profils** dans la **Liste des profils**, ou vous pouvez rechercher et ouvrir la page **Importer les profils**.
 
     > [!NOTE]  
     >  Vous ne pouvez pas importer un profil existant déjà dans la base de données, même si le fichier XML est nommé ou contient un contenu différent. Vous devez supprimer le profil existant avant de pouvoir importer le nouveau profil.

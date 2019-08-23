@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sandbox, demo, develop
 ms.date: 06/26/2019
 ms.author: solsen
-ms.openlocfilehash: 217310522d7e54eeaa9dbd50df4ff89b0d68517d
-ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
+ms.openlocfilehash: 10ccbc7546aa5d03c3837997a721c63c3ce465da
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "1711098"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796680"
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
 
@@ -72,7 +72,7 @@ Il est possible d'activer et de tester la fonctionnalité (complète) avancée d
 
 <!-- ![Sandbox Production](./media/across-sandbox/sandbox-production.png) -->
 
-Une fois que vous avez activé la fonctionnalité avancée dans un abonné Sandbox, vous avez accès à tous les profils et tableaux de bord standard. Vous pouvez également créer une société d'évaluation qui est entièrement configurée, notamment les données de démonstration et l'accès aux zones avancées du produit.
+Une fois que vous avez activé la fonctionnalité avancée dans un abonné Sandbox, vous avez accès à tous les profils (rôles) et tableaux de bord standard. Vous pouvez également créer une société d'évaluation qui est entièrement configurée, notamment les données de démonstration et l'accès aux zones avancées du produit.
 
 <!-- ![Sandbox New Company](./media/across-sandbox/sandbox-newcompany.png) -->
 

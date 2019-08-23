@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 64995372f68ed2804bc165823dacc34ad6a3194d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1a3edaca2e76388d82ea8991c3196410dd9c7288
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251300"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796805"
 ---
 # <a name="why-a-page-is-locked-from-personalization"></a>Pourquoi la personnalisation d'une page est verrouillée
 
@@ -55,7 +55,7 @@ S'il y a une icône ![Personnalisation bloquée](media/personalization-blocked-i
 
 ![Personnalisation bloquée](media/personalization-blocked.png "Verrouillage de personnalisation")
 
-La raison à cela n'est autre que le Tableau de bord ou le profil actuellement associé à votre compte d'utilisateur modifie cette page notamment pour votre rôle. Veuillez contacter votre administrateur pour obtenir de l'aide, ou si cela s'avère nécessaire, essayez de passer à un Tableau de bord (depuis [**Mes paramètres**](https://businesscentral.dynamics.com?page=9176 "Accéder directement à votre page Paramètres d'utilisateur dans Business Central")) qui n'inclut pas la personnalisation du rôle pour cette page.
+La raison à cela n'est autre que le Tableau de bord ou le rôle actuellement associé à votre compte d'utilisateur modifie cette page notamment pour votre rôle. Veuillez contacter votre administrateur pour obtenir de l'aide, ou si cela s'avère nécessaire, essayez de passer à un Tableau de bord (depuis [**Mes paramètres**](https://businesscentral.dynamics.com?page=9176 "Accéder directement à votre page Paramètres d'utilisateur dans Business Central")) qui n'inclut pas la personnalisation du rôle pour cette page.
 
 ## <a name="see-also"></a>Voir aussi
 [Personnalisation de votre espace de travail](ui-personalization-manage.md)  

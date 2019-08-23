@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 07/22/2019
 ms.author: edupont
-ms.openlocfilehash: c5b76a434403da0d472b1e1fa9430d40ff082220
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 41917ece38cf553582438d7c57ca3e09b82b21e9
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247207"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796727"
 ---
 # <a name="administration"></a>Administration
 Les tâches d'administration centrale sont généralement effectuées par une fonction dans la société. La portée de ces tâches peut dépendre de la taille de la société et des responsabilités de l'administrateur. Ces tâches sont notamment la gestion de la synchronisation de la base de données des files projets et messages, la configuration des utilisateurs et la personnalisation de l'interface utilisateur.  
@@ -33,7 +33,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 
 |**Pour**|**Voir**|  
 |------------|-------------|  
-|Ajouter des utilisateurs, gérer les autorisations et les accès aux données et affecter des rôles.|[Comprendre les profils et les tableaux de bord](admin-users-profiles-roles.md)|  
+|Ajouter des utilisateurs, gérer les autorisations et les accès aux données et affecter des rôles.|[Comprendre les profils (rôles) et les tableaux de bord](admin-users-profiles-roles.md)|  
 |Affecter des autorisations aux utilisateurs, modifier les ensembles d'autorisations, et grouper les utilisateurs par autorisations.|[Gestion des utilisateurs et des autorisations](ui-how-users-permissions.md)|
 |Classer la sensibilité des données des champs afin de pouvoir répondre aux demandes des sujets des données concernant leurs données personnelles.|[Classification de la sensibilité des données](admin-classifying-data-sensitivity.md)|
 |Répondre aux demandes des sujets des données concernant leurs données personnelles.|[Réponse aux demandes relatives aux données personnelles](admin-responding-to-requests-about-personal-data.md)|

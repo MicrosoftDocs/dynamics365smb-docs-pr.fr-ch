@@ -1,22 +1,21 @@
 ---
 title: Familiarisation avec la validation des documents achat | Microsoft Docs
-description: En savoir plus sur les différentes fonctions de validation pour valider des documents achat.
-services: project-madeira
-documentationcenter: ''
-author: SusanneWindfeldPedersen
+description: Découvrez les différentes fonctions de validation pour valider les documents achat et comment mettre à jour les documents validés.
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
-ms.author: solsen
-ms.openlocfilehash: cc3d2e5b0f3425c329e5567e7d00908cb7f5c7d5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.reviewer: edupont
+ms.date: 07/17/2019
+ms.author: sgroespe
+ms.openlocfilehash: 55a910e471db7b674b0107022647cfd7af7a500d
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247873"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796933"
 ---
 # <a name="posting-purchases"></a>Validation des achats
 Dans le groupe **Validation** sur un document achat, vous pouvez faire votre choix parmi les fonctions de validation suivantes :
@@ -45,7 +44,9 @@ Vous pouvez soit valider, soit valider et imprimer. Si vous choisissez de valide
 Lorsque la validation est terminée, les lignes achat validées sont supprimées de la commande. Un message vous indique lorsque la validation est terminée. Vous pouvez ensuite afficher les écritures validées dans les diverses pages qui contiennent les écritures validées, comme les pages **Écritures comptable fournisseur**, **Écritures comptable**, **Écritures comptable article**, **Réceptions achat enreg.** et **Factures achat enregistrées**.
 
 ## <a name="see-also"></a>Voir aussi
+
 [Achats](purchasing-manage-purchasing.md)  
 [Valider des documents et des feuilles](ui-post-documents-journals.md)  
+[Corriger ou annuler des factures achat impayées](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
+[Utilisation de la fonction Tell Me pour trouver des fonctions et des informations](ui-search.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

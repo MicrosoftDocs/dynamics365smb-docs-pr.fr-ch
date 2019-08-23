@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: setup wizard
 ms.date: 06/13/2019
 ms.author: edupont
-ms.openlocfilehash: 91ade518beb551d7b9c30cef0eef3c5c72b366aa
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.openlocfilehash: dd3cf008e2d16a8d63c9fea930ddcb4ba14072a2
+ms.sourcegitcommit: 5bcc5f95e450ee9a3d9f7a380e592a5e75c4185b
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629956"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1858304"
 ---
-# <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Mise en route de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# <a name="getting-started-with-included365fin_longincludesd365fin_long_mdmd"></a>Mise en route de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] est une solution de gestion d'entreprise pour les PME qui automatise et simplifie les processus entreprise et vous aide à gérer votre entreprise. L'inscription est facile, et vous pouvez migrer des données métiers existantes de votre système existant. Pour vous aider à souscrire un abonnement, recherchez un partenaire [!INCLUDE[d365fin](includes/d365fin_md.md)] [ici](https://www.microsoft.com/en-us/solution-providers/search).  
 
 L'inscription à la version préliminaire de [!INCLUDE[d365fin](includes/d365fin_md.md)] vous a donné accès à une société de démonstration. La société de démonstration contient des exemples de données, mais vous pouvez créer vos propres documents vente, par exemple, ou ouvrir un compte bancaire.  
 
-## <a name="get-to-know-included365finincludesd365finmdmd"></a>Découvrir [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="get-to-know-included365finincludesd365fin_mdmd"></a>Découvrir [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], certains éléments vous seront très familiers, d'autres un peu moins. Dans la société de démonstration, les guides visuels expliquent les fonctionnalités de base et vous permettent de tester des tâches quotidiennes telles que la création d'une facture vente et l'affichage d'un état. Si vous quittez le guide, par exemple, pour explorer [!INCLUDE[d365fin](includes/d365fin_md.md)] par vous-même, mais que vous souhaitez y revenir par la suite, revenez au Tableau de bord et lancez la visite de mise en route. Si vous souhaitez plus d’assistance, contactez un partenaire [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 > [!TIP]  
@@ -87,7 +87,7 @@ Si vous avez des questions supplémentaires, il est préférable d'interroger la
 À chaque connexion au cours de la période gratuite, une notification s'affiche dans une barre bleue en haut et indique le temps restant. Si vous décidez de vous abonner, recherchez un partenaire [!INCLUDE[d365fin](includes/d365fin_md.md)] [ici](https://www.microsoft.com/en-us/solution-providers/search). Vous pouvez également contacter l'[[!INCLUDE[d365fin](includes/d365fin_md.md)]équipe commerciale](https://go.microsoft.com/fwlink/?linkid=828707).  
 
 ## <a name="other-dynamics-365-apps"></a>Autres applications Dynamics 365
-Accédez au contenu sur les autres applications Dynamics 365 en sélectionnez le lien [Dynamics 365](https://docs.microsoft.com/dynamics365) dans la bannière bleue en haut de cette page. Vous pouvez également en savoir plus en visitant le [site web Dynamics 365 Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/).  
+Accédez au contenu sur les autres applications Dynamics 365 en sélectionnez le lien [Dynamics 365](/dynamics365/) dans la bannière bleue en haut de cette page. Vous pouvez également en savoir plus en visitant le [site web Dynamics 365 Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/).  
 
 Si vous êtes comptable, vous pouvez vous inscrire à [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] et disposer d'une intégration transparente à [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour en savoir plus, voir [Bienvenue dans Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).
 
@@ -99,7 +99,7 @@ Si vous êtes comptable, vous pouvez vous inscrire à [!INCLUDE[d365acc_long](in
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] en tant que boîte de réception professionnelle dans Outlook](admin-outlook.md)  
 [Obtention de [!INCLUDE[d365fin](includes/d365fin_md.md)] sur votre périphérique mobile](install-mobile-app.md)  
 [Ressources pour l'aide et l'assistance technique](product-help-and-support.md)  
-[Documentation Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/)  
+[Documentation Dynamics 365](/dynamics365/)  
 [Plan de versions Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
