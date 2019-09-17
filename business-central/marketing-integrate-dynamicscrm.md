@@ -1,5 +1,5 @@
 ---
-title: Gérer les clients utilisant Dynamics 365 for Sales | Microsoft Docs
+title: Gérer les clients utilisant Dynamics 365 for Sales| Microsoft Docs
 description: Vous pouvez utiliser Dynamics 365 for Sales depuis Business Central pour mapper les données et avoir une intégration et une synchronisation parfaites dans le processus allant du prospect à l'encaissement.
 documentationcenter: ''
 author: bholtorf
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 06/13/2019
 ms.author: bholtorf
-ms.openlocfilehash: 716e195b4e8c5b4150d7a288918c3fb84f6ac713
-ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
+ms.openlocfilehash: d0f1dfd88b30a4ec2e3a9bfd3366005a93d97f82
+ms.sourcegitcommit: 6ef7d2fae52feff786f2e15e2863d7f5aaa762be
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "1726874"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1917383"
 ---
 # <a name="using-dynamics-365-for-sales-from-business-central"></a>Utilisation de Dynamics 365 for Sales depuis Business Central
 Si vous utilisez Dynamics 365 for Sales for Customer Engagement, bénéficiez de l'intégration parfaite dans le processus allant du prospect à l'encaissement à l'aide de [!INCLUDE[d365fin](includes/d365fin_md.md)] pour les activités principales, telles que le traitement des commandes, la gestion des stocks et de vos finances.
@@ -74,6 +74,9 @@ Ceci peut également fonctionner si la commande vente d'origine indique les bien
 Si la désignation de l'article sur la commande vente d'origine est très longue, alors une ligne commande vente supplémentaire de type **Commentaire** est créée pour stocker le texte intégral de la commande vente dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 Les mises à jour vers les champs d'en-tête de commande vente, tels que Date dernière expédition ou Date livraison demandée, qui sont mappés dans COMMANDEVENTE-COMMANDE **Mappage de table d'intégration** sont synchronisées régulièrement vers [!INCLUDE[crm_md](includes/crm_md.md)]. Les processus tels que lancer une commande vente et expédier ou facturer une commande vente sont validés vers la chronologie de commande vente dans [!INCLUDE[crm_md](includes/crm_md.md)]. Pour en savoir plus, voir [Introduction aux flux d'activité](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/introduction-activity-feeds).
+
+> [!NOTE]  
+> La synchronisation périodique basée sur le **Mappage de table d'intégration** COMMANDEVENTE-COMMANDE fonctionne uniquement lorsque l'intégration de la commande vente est activée. Pour en savoir plus, voir [Connecté à Dynamics 365 for Sales](admin-how-to-set-up-a-dynamics-crm-connection.md). Seules les commandes vente créées à partir des commandes vente envoyées dans [!INCLUDE[crm_md](includes/crm_md.md)] sont synchronisées. Pour plus d'informations, voir [Activer l'intégration du traitement des commandes vente](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098170]
 

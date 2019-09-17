@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: dimension
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9706b5cc2438c49c143b7ded27447b4d6403e0dc
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 051cb40676560bcb531c6708960986a69e7cfdf4
+ms.sourcegitcommit: 1fa3d33db7bc71e3a27c826308a80ff24a436a72
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246808"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "1970893"
 ---
 # <a name="dimension-set-entries-overview"></a>Aperçu des écritures de l'ensemble de dimensions
 Cette rubrique décrit comment les écritures de l'ensemble de dimensions sont stockées et validées dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -38,7 +38,10 @@ Les ensembles de dimensions sont stockés dans la table **Écriture de l'ensembl
 
 Lorsque vous créez une ligne de feuille, un en-tête de document ou une ligne de document, vous pouvez spécifier une combinaison de sections analytiques. Au lieu d'enregistrer explicitement chaque section analytique dans la base de données, un ID d'ensemble de dimensions est affecté à la ligne de feuille, à l'en-tête du document ou à la ligne du document pour spécifier l'ensemble de dimensions.  
 
-Lorsque vous modifiez et fermez la page **Modifier les écritures de l'ensemble de dimensions**, une vérification est exécutée pour voir si la combinaison de sections analytiques existe comme un ensemble de dimensions dans la table. Si la combinaison se produit dans la table, l'ID d'ensemble de dimensions correspondant est affecté à la ligne de feuille, à l'en-tête du document ou à la ligne du document. Sinon, un nouvel ensemble de dimensions est ajouté à la table, et le nouvel ID d'ensemble de dimensions est affecté à la ligne de feuille, à l'en-tête du document ou à la ligne du document.  
+Lorsque vous modifiez et fermez la page **Modifier les écritures de l'ensemble de dimensions**, une vérification est exécutée pour voir si la combinaison de sections analytiques existe comme un ensemble de dimensions dans la table. Si la combinaison se produit dans la table, l'ID d'ensemble de dimensions correspondant est affecté à la ligne de feuille, à l'en-tête du document ou à la ligne du document. Sinon, un nouvel ensemble de dimensions est ajouté à la table, et le nouvel ID d'ensemble de dimensions est affecté à la ligne de feuille, à l'en-tête du document ou à la ligne du document.
+
+## <a name="codeunit-408-dimension-management"></a>Codeunit 408 Gestion des axes analytiques
+Codeunit 408 Gestion des axes analytiques est une bibliothèque de fonctions qui gère les tâches courantes qui sont liées aux axes analytiques, tels que copier d'une table à une autre ou d'un document à un autre.
 
 ## <a name="performance-improvement"></a>Amélioration des performances  
 Pour enregistrer les axes analytiques dans la base de données, l'espace de la base de données est conservé et les performances globales sont améliorées.  
@@ -46,6 +49,4 @@ Pour enregistrer les axes analytiques dans la base de données, l'espace de la b
 ## <a name="see-also"></a>Voir aussi  
 [Détails de conception : recherche des croisements analytiques](design-details-searching-for-dimension-combinations.md)   
 [Détails de conception : structure de la table](design-details-table-structure.md)   
-[Détails de conception : Codeunit 408 Gestion des axes analytiques](design-details-codeunit-408-dimension-management.md)   
-[Détails de conception : exemples de code de motifs modifiés dans les modifications](design-details-code-examples-of-changed-patterns-in-modifications.md)   
 [Détails de conception : écritures d'ensemble de dimensions](design-details-dimension-set-entries.md)   

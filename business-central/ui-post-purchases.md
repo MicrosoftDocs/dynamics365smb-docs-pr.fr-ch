@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 07/17/2019
+ms.date: 08/27/2019
 ms.author: sgroespe
-ms.openlocfilehash: 55a910e471db7b674b0107022647cfd7af7a500d
-ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
+ms.openlocfilehash: 77be24dce0d34c712b87649f9ced21b947c77cbe
+ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1796933"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1921353"
 ---
 # <a name="posting-purchases"></a>Validation des achats
 Dans le groupe **Validation** sur un document achat, vous pouvez faire votre choix parmi les fonctions de validation suivantes :
@@ -43,10 +43,12 @@ Vous pouvez soit valider, soit valider et imprimer. Si vous choisissez de valide
 
 Lorsque la validation est terminée, les lignes achat validées sont supprimées de la commande. Un message vous indique lorsque la validation est terminée. Vous pouvez ensuite afficher les écritures validées dans les diverses pages qui contiennent les écritures validées, comme les pages **Écritures comptable fournisseur**, **Écritures comptable**, **Écritures comptable article**, **Réceptions achat enreg.** et **Factures achat enregistrées**.
 
-## <a name="see-also"></a>Voir aussi
+Vous pouvez modifier certains champs dans les documents d'achat validés, tels que le champ **Référence de paiement**. Pour plus d'informations, voir [Modifier les documents validés](across-edit-posted-document.md).
 
+## <a name="see-also"></a>Voir aussi
+[Valider les documents validés](across-edit-posted-document.md)  
 [Achats](purchasing-manage-purchasing.md)  
-[Valider des documents et des feuilles](ui-post-documents-journals.md)  
+[Validation des documents et des feuilles](ui-post-documents-journals.md)  
 [Corriger ou annuler des factures achat impayées](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Utilisation de la fonction Tell Me pour trouver des fonctions et des informations](ui-search.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

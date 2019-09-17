@@ -10,19 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 05/02/2019
+ms.date: 09/06/2019
 ms.author: sgroespe
-ms.openlocfilehash: 407470afdca7a4e8b0e3cb2d2095903353e5d5b9
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: a0db1779172a9b2822ad4898e9dbf82e68b58622
+ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446960"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "1985754"
 ---
 # <a name="managing-contacts"></a>Gestion de contacts
-Différents groupes de votre société auront des relations d'affaires avec plusieurs sociétés. Par exemple, un vendeur peut rencontrer régulièrement des prospects et enregistrer les résultats de ces visites chaque fin de semaine.
-
-Toutes les entités externes avec lesquelles vous avez des relations d'affaires (par exemple, clients, prospects, fournisseurs, avocats et consultants) doivent être enregistrées comme contacts. L'enregistrement de ces données dans un emplacement centralisé permet de s'assurer que tous les groupes de votre société peuvent consulter et utiliser ces informations efficacement. La communication avec vos contacts sera plus efficace si tous les détails sont facilement disponibles. Par exemple, un employé du département marketing peut vouloir connaître les autres produits achetés par un client spécifique avant de lui faire découvrir un nouveau produit.
+Les employés de notre société rencontrent régulièrement des prospects qui peuvent devenir des relations formelles. Tous ces contacts externes et leurs informations détaillées doivent être enregistrés dans le système, de telle sorte que la communication soit plus réussie et qu'ils se transforment facilement en relations client, fournisseur ou bancaires formelles.
 
 Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.
 

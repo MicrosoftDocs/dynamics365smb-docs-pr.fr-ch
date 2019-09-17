@@ -13,12 +13,12 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: design-details-dimension-set-entries
-ms.openlocfilehash: 5bb5e5713ed23877006ebb913e01416feac69266
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 59fce0a432c7f433552cff21ef304fa16fa85a8a
+ms.sourcegitcommit: 1fa3d33db7bc71e3a27c826308a80ff24a436a72
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243449"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "1970916"
 ---
 # <a name="design-details-code-examples-of-changed-patterns-in-modifications"></a>Détails de conception : exemples de code de motifs modifiés dans les modifications
 Cette rubrique fournit des exemples de code pour montrer les motifs modifiés dans la modification et la migration de code de dimension pour cinq scénarios différents. Elle compare les exemples de code dans les versions antérieures aux exemples de code dans Business Central.
@@ -197,4 +197,3 @@ GetSalesHeader;
 ## <a name="see-also"></a>Voir aussi  
 [Détails de conception : écritures d'ensemble de dimensions](design-details-dimension-set-entries.md)   
 [Détails de conception : structure de la table](design-details-table-structure.md)   
-[Détails de conception : Codeunit 408 Gestion des axes analytiques](design-details-codeunit-408-dimension-management.md)

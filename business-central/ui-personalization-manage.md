@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 04/01/2019
+ms.date: 08/16/2019
 ms.author: jswymer
-ms.openlocfilehash: 37cdf2d7dcc46b1286cbb7a5ad620547e364309e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 268d61e05f84643abe8eeeb283bd035e0247fe1c
+ms.sourcegitcommit: 81b6062194bf04d8052a3cd394cc0b41e3f53e6d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250610"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "1887752"
 ---
 # <a name="managing-personalization-as-an-administrator"></a>Gérer la personnalisation en tant qu'administrateur
 
@@ -71,6 +71,9 @@ Vous pouvez empêcher tous les utilisateurs appartenant à un profil spécifique
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Profils**, puis sélectionnez le lien associé.
 2. Sélectionnez dans la liste le profil à modifier.
 3. Activez la case à cocher **Désactiver la personnalisation**, puis cliquez sur le bouton **OK**.
+
+> [!NOTE]  
+> Dans Business Central en ligne, vous pouvez uniquement désactiver la personnalisation pour un profil d'abonné, pas pour les profils système. 
 
 ## <a name="to-clear-user-personalizations"></a>Pour annuler les personnalisations des utilisateurs
 

@@ -8,25 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 04/01/2019
+ms.date: 08/27/2019
 ms.author: sgroespe
-ms.openlocfilehash: 01e831ddddeffe6a64c6de24b4cd8c1b94bad9c3
-ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
+ms.openlocfilehash: a2eb27a541033b755b9ab9d4ea9156bf7de9cab4
+ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1796910"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1921445"
 ---
 # <a name="posting-sales"></a>Validation des ventes
-Dans le groupe **Validation** sur un document vente, vous pouvez faire votre choix parmi les fonctions de validation suivantes :
+Dans le menu **Validation** sur un document vente, vous pouvez faire votre choix parmi les fonctions de validation suivantes :
 
 * **Valider**
-* **Impression test**
+* **Valider et créer**
 * **Valider et envoyer**
-* **Valider et Imprimer**
-* **Valider et envoyer par e-mail**
-* **Valider par lot**
 * **Aperçu compta.**
+* **Facture provisoire**
+* **Facture pro forma**
+* **Impression test**
 
 Lorsque vous avez renseigné toutes les lignes et entré toutes les informations de la commande de vente, vous pouvez la valider. Cela crée une expédition et une facture.
 
@@ -41,9 +41,11 @@ Pour chaque ligne commande vente, une écriture comptable article est créée da
 
 Lorsque la validation est terminée, les lignes vente validées sont supprimées de la commande. Un message vous indique lorsque la validation est terminée. Vous pouvez ensuite afficher les écritures validées dans les diverses pages qui contiennent les écritures validées, telles que **Écritures comptables client**, **Écritures comptables**, **Écritures comptables article**, **Expéditions vente enregistrées** et **Factures vente enregistrées**.  
 
-## <a name="see-also"></a>Voir aussi
+Vous pouvez modifier certains champs dans les documents de vente validés, tels que le champ **N° de suivi du colis**. . Pour plus d'informations, voir [Modifier les documents validés](across-edit-posted-document.md).
 
+## <a name="see-also"></a>Voir aussi
 [Ventes](sales-manage-sales.md)  
+[Valider les documents validés](across-edit-posted-document.md)  
 [Envoyer des documents par e-mail](ui-how-send-documents-email.md)  
 [Corriger ou annuler des factures vente impayées](sales-how-correct-cancel-sales-invoice.md)  
 [Utilisation de la fonction Tell Me pour trouver des fonctions et des informations](ui-search.md)  

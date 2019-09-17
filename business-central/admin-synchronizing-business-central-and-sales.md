@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: b5a3b83d21390711ff0517df67bf9912ece57f6b
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.openlocfilehash: 9506b64229c4d936fa25d74d71a923bdf7915e45
+ms.sourcegitcommit: 6ef7d2fae52feff786f2e15e2863d7f5aaa762be
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629634"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1917475"
 ---
 # <a name="synchronizing-data-in-business-central-and-dynamics-365-for-sales"></a>Synchronisation des données dans Business Central et Dynamics 365 for Sales
 Lorsque vous intégrez [!INCLUDE[crm_md](includes/crm_md.md)] avec [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez décider si vous souhaitez synchroniser les données dans les champs sélectionnés des enregistrements [!INCLUDE[d365fin](includes/d365fin_md.md)] (tels que les clients, contacts et les vendeurs) avec les enregistrements équivalents dans [!INCLUDE[d365fin](includes/d365fin_md.md)] (tels que les comptes, les contacts et les utilisateurs). Selon le type d'enregistrement, vous pouvez synchroniser les données de [!INCLUDE[crm_md](includes/crm_md.md)] vers [!INCLUDE[d365fin](includes/d365fin_md.md)], ou vice versa. Pour plus d'informations, reportez-vous à la rubrique [Intégration à Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
@@ -92,7 +92,7 @@ Le tableau suivant décrit les règles qui contrôlent la synchronisation entre 
 |Prix de vente|Les prix de vente dont le type vente est Groupe prix client et dont le code vente est défini sont synchronisés avec les lignes de liste de prix dans [!INCLUDE[crm_md](includes/crm_md.md)].|
 |Opportunités|Les opportunités sont synchronisées avec les opportunités dans [!INCLUDE[crm_md](includes/crm_md.md)]. La valeur Code vendeur définit le propriétaire de l'entité couplée dans [!INCLUDE[crm_md](includes/crm_md.md)].|
 |Factures vente enregistrées|Les factures vente validées sont synchronisées avec les factures vente. Pour qu'une facture puisse être synchronisée, il est préférable de synchroniser toutes les autres entités pouvant participer à la facture, depuis les vendeurs aux listes de prix. La valeur Code vendeur de l'en-tête de facture définit le propriétaire de l'entité couplée dans Sales.|
-|Commandes vente|Les en-têtes de commande vente lancées sont synchronisées avec la commande vente. Pour qu'une commande puisse être synchronisée, il est préférable de synchroniser toutes les autres entités pouvant participer à la commande, depuis les vendeurs aux listes de prix. La valeur Code vendeur de l'en-tête de commande définit le propriétaire de l'entité couplée dans Sales.|  
+|Commandes vente|Lorsque l'intégration des commandes vente est activée, les commandes vente dans [!INCLUDE[d365fin](includes/d365fin_md.md)] qui sont créées à partir des commandes vente soumises dans [!INCLUDE[crm_md](includes/crm_md.md)] sont synchronisées avec les commandes vente dans INCLUDE SALES lorsqu’elles sont validées. Avant de synchroniser les commandes, nous vous recommandons de synchroniser tout d’abord toutes les entités associées à la commande, telles que les commerciaux et les listes de prix. Le champ Code vendeur de l'en-tête de commande définit le propriétaire de l'entité couplée dans [!INCLUDE[crm_md](includes/crm_md.md)].|  
 
 ## <a name="see-also"></a>Voir aussi  
 [Coupler et synchroniser des enregistrements manuellement](admin-how-to-couple-and-synchronize-records-manually.md)   

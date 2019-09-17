@@ -9,17 +9,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 06/13/2019
+ms.date: 08/22/2019
 ms.author: edupont
-ms.openlocfilehash: e1f7d9891be4ae31fc3f98fb768bfddcd38582ca
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.openlocfilehash: 93d75f1ea55f47c6601cbdd3c3856e39b9dc1416
+ms.sourcegitcommit: 6ef7d2fae52feff786f2e15e2863d7f5aaa762be
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629887"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1917429"
 ---
 # <a name="customizing-business-central-using-extensions"></a>Personnalisation de Business Central à l'aide d'extensions
 Vous pouvez modifier [!INCLUDE[d365fin](includes/d365fin_md.md)] en installant des extensions qui ajoutent des fonctionnalités, modifient le comportement de l'application, ou vous permettent d'accéder à de nouveaux services en ligne, par exemple.
+
+> [!NOTE]
+> Pour installer des extensions à partir de AppSource ou ajouter des extensions par locataire, vous devez disposer des autorisations adéquates. Vous devez être membre du groupe d'utilisateurs D365 EXTENSION MGMT ou disposer du jeu d'autorisations D365 EXTENSION MGMT. Si vous êtes un administrateur, vous pouvez attribuer des groupes d'utilisateurs et des autorisations à d'autres utilisateurs de votre entreprise.<br /><br />
+Pour utiliser les fonctionnalités fournies par une extension, telles que l'ouverture de pages, la production de rapports, la sélection d'actions, etc., vous devez disposer des jeux d'autorisations installés avec cette extension.
+
 La première fois que vous lancez [!INCLUDE[d365fin](includes/d365fin_md.md)], certaines extensions sont déjà installées. Au fil du temps, davantage d'extensions seront disponibles. Il vous appartient de choisir si vous souhaitez les utiliser ou non.
 
 Par exemple, Microsoft propose une extension qui fournit une intégration à PayPal Payments Standard. Cette extension est installée par défaut.

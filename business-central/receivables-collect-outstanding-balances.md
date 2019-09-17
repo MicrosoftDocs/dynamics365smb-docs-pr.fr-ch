@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a39e43a430720c0453ba5bd9bccf864237b8ae6f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a4b6f58c434c563021e94e55e47c547d39967502
+ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252772"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "1985901"
 ---
 # <a name="collect-outstanding-balances"></a>Collecte des soldes restants
 La gestion des clients comprend le contrôle du règlement des montants à temps. Si des clients ont des paiements dus, vous pouvez commencer par envoyer l'état du Relevé client comme relance. Sinon, vous pouvez émettre de relances.
@@ -179,7 +179,7 @@ Les intérêts de retard peuvent être calculés en utilisant la méthode du sol
 En outre, chaque code de la table Conditions intérêts de retard est lié à une autre table, la table Texte intérêts de retard. Pour chaque ensemble de conditions, vous pouvez définir un texte début et un texte fin à inclure dans la facture d'intérêts.
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Conditions intérêts de retard**, puis sélectionnez le lien associé.  
-2. Renseignez les champs selon vos besoins.  
+2. Renseignez les champs selon vos besoins.
 3. Pour utiliser plusieurs combinaisons de conditions intérêts de retard, créez un code pour chacun d'eux.
 
     Pour chaque condition intérêts de retard, vous pouvez spécifier des conditions particulières, qui peuvent inclure des frais supplémentaires en devise société (DS) et en devise étrangère. Vous pouvez définir des frais supplémentaires en devise pour chaque code sur la page **Conditions intérêts de retard**.

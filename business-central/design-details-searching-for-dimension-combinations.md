@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: cde720526fdad4c9e4352f08f649d6bd3fc51540
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: f79466819826185c501677e1d4a2c1dee74ddf3a
+ms.sourcegitcommit: 1fa3d33db7bc71e3a27c826308a80ff24a436a72
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240968"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "1970870"
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Détails de conception : recherche des croisements analytiques
 Lorsque vous fermez une page après avoir modifié un ensemble de dimensions, [!INCLUDE[d365fin](includes/d365fin_md.md)] évalue si l'ensemble de dimensions modifié existe. Si l'ensemble n'existe pas, un nouvel ensemble est créé et le code de croisement analytique est retourné.  
@@ -77,5 +77,4 @@ EXIT(DimSet.ID);
  [Détails de conception : écritures d'ensemble de dimensions](design-details-dimension-set-entries.md)   
  [Aperçu des écritures de l'ensemble de dimensions](design-details-dimension-set-entries-overview.md)   
  [Détails de conception : structure de la table](design-details-table-structure.md)   
- [Détails de conception : Codeunit 408 Gestion des axes analytiques](design-details-codeunit-408-dimension-management.md)   
- [Détails de conception : exemples de code de motifs modifiés dans les modifications](design-details-code-examples-of-changed-patterns-in-modifications.md)
+ 

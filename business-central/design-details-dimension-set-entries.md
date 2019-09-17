@@ -12,19 +12,17 @@ ms.workload: na
 ms.search.keywords: design, dimensions, codeunit
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c6b66ecee87e1fd128733f541d46b97f44af0453
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c97a03d9ce458cefe094b711bfe62a4b3c8e25d7
+ms.sourcegitcommit: 1fa3d33db7bc71e3a27c826308a80ff24a436a72
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1242759"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "1970939"
 ---
 # <a name="design-details-dimension-set-entries"></a>Détails de conception : écritures d'ensemble de dimensions
-Cette documentation fournit une analyse technique détaillée des concepts et principes du stockage d'entrée de dimension et la fonction de validation dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. La documentation commence par des présentations conceptuelles. Puis elle explique l'architecture technique. Enfin, elle fournit des exemples de code pour vous préparer à la migration et à la mise à niveau du code axe depuis les versions antérieures à Dynamics NAV 2013R2.  
+Cette documentation fournit une analyse technique détaillée des concepts et principes du stockage d'entrée de dimension et la fonction de validation dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## <a name="in-this-section"></a>Dans cette section  
 [Aperçu des écritures de l'ensemble de dimensions](design-details-dimension-set-entries-overview.md)  
 [Détails de conception : recherche des croisements analytiques](design-details-searching-for-dimension-combinations.md)  
 [Détails de conception : structure de la table](design-details-table-structure.md)  
-[Détails de conception : Codeunit 408 Gestion des axes analytiques](design-details-codeunit-408-dimension-management.md)  
-[Détails de conception : exemples de code de motifs modifiés dans les modifications](design-details-code-examples-of-changed-patterns-in-modifications.md)

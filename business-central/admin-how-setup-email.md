@@ -9,47 +9,49 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 07/12/2019
+ms.date: 09/09/2019
 ms.author: edupont
-ms.openlocfilehash: 5f1afacec447e645136321b73b6dd3fab8b36fe0
-ms.sourcegitcommit: f5050fd209b8d66722c81abe48c4c0a6f749a1f7
+ms.openlocfilehash: b9a443072d13e3cbf5f8e07006bea5477c275968
+ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1740494"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "1985949"
 ---
-# <a name="set-up-email-manually-or-using-the-assisted-setup"></a>Paramétrer la messagerie manuellement ou à l'aide de la configuration assistée
-Pour recevoir et envoyer des e-mails dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous devez renseigner les champs sur la page **Paramétrage courrier SMTP**.
+# <a name="set-up-email"></a>Configurer la messagerie
+Pour recevoir et envoyer des e-mails dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous devez renseigner les champs sur la page Paramétrage courrier SMTP.
 
-> [!NOTE]  
->   Au lieu de saisir les détails du serveur SMTP, vous pouvez utiliser une fonction pour les saisir à l'aide des informations de votre abonnement Office 365.
+Au lieu de saisir les détails du serveur SMTP manuellement, vous pouvez utiliser la fonction **Appliquer les paramètres de serveur Office 365** pour les saisir à l'aide des informations de votre abonnement Office 365.
 
 Vous pouvez configurer la messagerie manuellement ou vous faire aider du guide de configuration assistée **Paramétrage d'e-mail**. Pour plus d'informations, voir [Préparation aux activités commerciales](ui-get-ready-business.md).  
 
 ## <a name="to-set-up-email"></a>Pour configurer la messagerie
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramétrage courrier SMTP**, puis sélectionnez le lien associé.
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+    > [!NOTE]
+    > Si vous utilisez un compte nécessitant une authentification à deux facteurs, le mot de passe que vous entrez dans le champ **Mot de passe** doit être le même que celui que vous utilisez pour votre abonnement Office 365 et il doit être de type **Mot de passe de l'application**.
 3. Sinon, choisissez l'option **Appliquer les paramètres du serveur Office 365** pour insérer les informations déjà définies pour votre abonnement Office 365.
 4. Lorsque tous les champs sont correctement renseignés, choisissez **Tester paramétrage e-mail**.
 5. Une fois le test réussi, fermez la page.
 
 ## <a name="using-a-substitute-sender-address-on-outbound-email-messages"></a>Utilisation d'une adresse d'expéditeur de remplacement pour les courriers électroniques sortants
-Tous les e-mails sortants de [!INCLUDE[d365fin](includes/d365fin_md.md)] utiliseront l'adresse par défaut du compte que vous avez spécifié sur la page Paramétrage courrier SMTP, comme décrit ci-dessus. Vous pouvez cependant utiliser les fonctionnalités **Envoyer en tant que** ou **Envoyer de la part de** sur votre serveur Exchange pour modifier l’adresse de l’expéditeur dans les messages sortants. [!INCLUDE[d365fin](includes/d365fin_md.md)] utilisera le compte par défaut pour s'authentifier auprès de Exchange, mais remplacera l'adresse de l'expéditeur par celle que vous spécifiez ou la modifiera avec "pour le compte de". 
+Tous les e-mails sortants de [!INCLUDE[d365fin](includes/d365fin_md.md)] utiliseront l'adresse par défaut du compte que vous avez spécifié sur la page Paramétrage courrier SMTP, comme décrit ci-dessus. Vous pouvez cependant utiliser les fonctionnalités **Envoyer en tant que** ou **Envoyer de la part de** sur votre serveur Exchange pour modifier l’adresse de l’expéditeur dans les messages sortants. [!INCLUDE[d365fin](includes/d365fin_md.md)] utilisera le compte par défaut pour s'authentifier auprès de Exchange, mais remplacera l'adresse de l'expéditeur par celle que vous spécifiez ou la modifiera avec "pour le compte de".
 
 Voici des exemples d'utilisation des fonctionnalités Envoyer en tant que et Envoyer de la part de dans [!INCLUDE[d365fin](includes/d365fin_md.md)] :
 
- * Lorsque vous envoyez des documents tels que des commandes d'achat ou des commandes clients à des fournisseurs et à des clients, vous souhaitez peut-être qu'ils apparaissent comme provenant d'une adresse _noreply@yourcompanyname.com_. 
+ * Lorsque vous envoyez des documents tels que des commandes d'achat ou des commandes clients à des fournisseurs et à des clients, vous souhaitez peut-être qu'ils apparaissent comme provenant d'une adresse _noreply@yourcompanyname.com_.
  * Lorsque votre flux de travail envoie une demande d'approbation par courrier électronique à l'aide de l'adresse électronique du demandeur.
 
 > [!Note]
 > Vous ne pouvez utiliser qu'un seul compte pour remplacer les adresses d'expéditeur. En d'autres termes, vous ne pouvez pas avoir une adresse de remplacement pour les processus d'achat et une autre pour les processus de vente.
 
 ### <a name="to-set-up-the-substitute-sender-address-for-all-outbound-email-messages"></a>Pour configurer l'adresse de l'expéditeur de remplacement pour tous les messages électroniques sortants
-1. Dans le **Centre d'administration Exchange** pour votre compte Office 365, recherchez la boîte aux lettres à utiliser comme adresse de substitution, puis copiez-la ou notez-la. Si vous avez besoin d'une nouvelle adresse, accédez à votre Centre d'administration Microsoft 365 pour créer un nouvel utilisateur et configurer sa boîte aux lettres. 
+1. Dans le **Centre d'administration Exchange** pour votre compte Office 365, recherchez la boîte aux lettres à utiliser comme adresse de substitution, puis copiez-la ou notez-la. Si vous avez besoin d'une nouvelle adresse, accédez à votre Centre d'administration Microsoft 365 pour créer un nouvel utilisateur et configurer sa boîte aux lettres.
 2. Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], choisissez l'icône ![l'ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramétrage courrier SMTP**, puis sélectionnez le lien associé.
 3. Dans le champ **Envoyer en tant que**, entrez l'adresse de substitution.
 4. Copiez ou notez l'adresse dans le champ **ID utilisateur**.
-5. Dans le **Centre d'administration Exchange**, recherchez la boîte aux lettres à utiliser en tant qu'adresse de substitution, puis entrez l'adresse à partir du champ **ID utilisateur** dans le champ **Envoyer en tant que**. Pour en savoir plus, reportez-vous à [Gérer les autorisations des destinataires](https://docs.microsoft.com/en-us/Exchange/recipients/mailbox-permissions?view=exchserver-2019).
+5. Dans le **Centre d'administration Exchange**, recherchez la boîte aux lettres à utiliser en tant qu'adresse de substitution, puis entrez l'adresse à partir du champ **ID utilisateur** dans le champ **Envoyer en tant que**. Pour en savoir plus, reportez-vous à [Gérer les autorisations des destinataires](https://docs.microsoft.com/en-us/Exchange/recipients/mailbox-permissions?view=exchserver-2019#use-the-eac-to-assign-permissions-to-individual-mailboxes).
 
 ### <a name="to-use-the-substitute-address-in-approval-workflows"></a>Pour utiliser l'adresse de substitution dans les flux de travaux d'approbation
 1. Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], choisissez l'icône ![l'ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramétrage courrier SMTP**, puis sélectionnez le lien associé.
@@ -64,6 +66,7 @@ Voici des exemples d'utilisation des fonctionnalités Envoyer en tant que et Env
 
 
 ## <a name="see-also"></a>Voir aussi  
+[Boîtes aux lettres partagées dans Exchange Online](https://docs.microsoft.com/en-us/exchange/collaboration-exo/shared-mailboxes)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Envoyer des documents par e-mail](ui-how-send-documents-email.md)  

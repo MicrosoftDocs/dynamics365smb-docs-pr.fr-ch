@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 04/01/2019
+ms.date: 07/24/2019
 ms.author: sgroespe
-ms.openlocfilehash: 063de8e16c01569c4a25e825b8804898a6f80e79
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a4c6a7c1c25fab4c8321f59a9b2bbac5c5225eee
+ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250886"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1921422"
 ---
 # <a name="general-business-functionality"></a>Fonctionnalités marché
 [!INCLUDE[d365fin](includes/d365fin_md.md)] fournit des fonctionnalités dédiées pour les domaines d'activité courants, tels que la finance et les ventes. Pour plus d'informations, voir [Fonctionnalités d'entreprise](across-business-functionality.md).
@@ -40,7 +40,8 @@ Le tableau suivant répertorie ces secteurs d'activité généraux avec des lien
 |Joindre des images, des documents, et autres types de fichiers à toutes les fiches, telles que la fiche article et la fiche projet, et joindre des fichiers à tous les types documents vente et achat.|[Joindre des fichiers aux fiches et aux documents](across-attach-document-master-data.md)|
 |Utilisez vos données Business Central dans Excel.|[Exportation de vos données métier vers Excel](about-export-data.md)|
 |Comprendre ce qui se produit lorsque vous choisissez l'action **Valider**.|[Validation des documents et des feuilles](ui-post-documents-journals.md)|
-|Examinez le résultat de la validation avant de valider.|[Résultats de l'aperçu compta.](ui-how-preview-post-results.md)| 
+|Examinez le résultat de la validation avant de valider.|[Résultats de l'aperçu compta.](ui-how-preview-post-results.md)|
+|Modifiez les champs sélectionnés sur les documents de vente ou d'achat validés.|[Valider les documents validés](across-edit-posted-document.md)| 
 |Apprendre à utiliser Les feuilles comptabilité, qui permettent de valider dans les comptes généraux et d'autres comptes tels que les comptes bancaires, client, fournisseur et immobilisations. |[Utilisation de feuilles comptabilité](ui-work-general-journals.md) |
 | Planifier un état à exécuter à une date et une heure spécifiques. |[Planification d'un état à exécuter](ui-work-report.md#ScheduleReport) |
 |Le système peut vous aider à effectuer ces tâches plus rapidement et précisément en préremplissant les champs ou en complétant les lignes avec des données que vous devriez sinon calculer et saisir vous-même.|[Permettre à Business Central de proposer des valeurs](ui-let-system-suggest-values.md)|
