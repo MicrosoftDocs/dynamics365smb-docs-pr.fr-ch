@@ -4,20 +4,20 @@ description: Vous pouvez imprimer une liste des prélèvements de stock directem
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/01/2017
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4b7cefc82313b1e6967ec3c54759ab77ee0ae7fd
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: db4afff3219f98a7dc24533bf1dfe5b4e93dd57a
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245648"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301020"
 ---
 # <a name="print-an-inventory-picking-list-from-a-sales-order"></a>Imprimer la liste des prélèvements de stock d'une commande vente
 Vous pouvez imprimer une liste des prélèvements de stock directement à partir d'une commande vente. La liste des prélèvements affiche la liste des articles avec les informations suivantes :  
@@ -40,4 +40,4 @@ La liste des prélèvements inclut uniquement les articles dont la quantité d'e
 ## <a name="see-also"></a>Voir aussi  
  [Documents vente et Documents achat, Suisse](swiss-purchase-documents-and-sales-documents.md)   
  [Importer les codes postaux suisses](how-to-import-swiss-post-codes.md)   
- [Imprimer les commandes achat et vente lors d'une validation par lots](how-to-print-sales-and-purchase-orders-during-batch-posting.md)
+ 

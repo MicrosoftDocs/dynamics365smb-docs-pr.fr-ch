@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4e035148205d3ff1b1daed88cee7f24a56d18581
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: d4cbc23e06fad5c45dec4d4e97d260a12f7897e3
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245471"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300973"
 ---
 # <a name="vat-rates-for-switzerland"></a>Taux de TVA pour la Suisse
 Si les taux de TVA sont modifiés, vous devez utiliser l'outil de modification des taux de TVA. Dans les versions de [!INCLUDE[d365fin](../../includes/d365fin_md.md)] antérieures, vous pouviez utiliser temporairement l'ancien et le nouveau taux de TVA pour les transactions, en fonction des dates d'expédition. Cette fonctionnalité est désormais obsolète.  
