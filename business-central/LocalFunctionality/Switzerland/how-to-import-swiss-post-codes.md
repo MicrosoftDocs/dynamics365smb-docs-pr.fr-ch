@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d3bd15587c73e88bada510771e82961a791ee584
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 11a469d9e7557305cd6c3ed38978a8eab74664da
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241313"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301038"
 ---
 # <a name="import-swiss-post-codes"></a>Importer les codes postaux suisses
 Vous pouvez réimporter le dernier fichier des codes postaux et l'utiliser pour mettre la table **Code postal** à jour. Le fichier Code postal peut être téléchargé du site Web de la [Poste suisse](https://go.microsoft.com/fwlink/?LinkId=150292). Après avoir importé le dernier code postal, vous pouvez définir des codes postaux pour des clients ou des fournisseurs. Pour plus d'informations, reportez vous à [Enregistrer de nouveaux fournisseurs](../../purchasing-how-register-new-vendors.md).  
@@ -47,5 +47,4 @@ La procédure suivante décrit comment définir les codes postaux pour les clien
 ## <a name="see-also"></a>Voir aussi   
  [Documents vente et Documents achat, Suisse](swiss-purchase-documents-and-sales-documents.md)   
  [Imprimer la liste des prélèvements de stock d'une commande vente](how-to-print-an-inventory-picking-list-from-a-sales-order.md)   
- [Imprimer les commandes achat et vente lors d'une validation par lots](how-to-print-sales-and-purchase-orders-during-batch-posting.md)   
  [Enregistrer un nouveau fournisseur](../../purchasing-how-register-new-vendors.md)  

@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 redirect_url: ../../inventory-how-copy-items
-ms.openlocfilehash: 062dc2fd864b850626430a256801aaa595ec83e5
-ms.sourcegitcommit: acbbe80503e61296310ea7f787a9d7f4bc6dccd7
+ms.openlocfilehash: 6b7ca0496b13d61b323d53c1635df122b867c9ef
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 08/12/2019
-ms.locfileid: "1870569"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301051"
 ---
 # <a name="copy-existing-items-to-new-items"></a>Copier des articles existants pour créer de nouveaux articles
 Vous pouvez regroupez des articles avec des paramètres similaires dans un catalogue article. Lorsque vous ajoutez un nouvel article, pour gagner du temps, vous pouvez utiliser la fonction **Copier article** pour copier un article existant et l'utiliser comme modèle pour un nouvel article.  
