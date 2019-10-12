@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 44ffab92930237c5496860771f41b4951b15b0ff
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: e3689096a2bcdfed5ceb92a2fc9163549f2d53de
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250679"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315939"
 ---
 # <a name="create-service-quotes"></a>Pour créer des devis service
 Vous pouvez considérer les devis service comme la base des commandes service. En réalité, ils sont quasiment identiques. Tous deux contiennent des informations, telles que l'identité du client, le type de commande, l'article nécessitant une maintenance, les informations de facturation et d'expédition et les informations sur la tâche de service réelle.

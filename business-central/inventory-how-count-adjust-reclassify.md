@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d8a9ba2f4fc819c1da515a0ace7d8641ec54ffc6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c565f3f4419f8132ac643ca47c071b3791e147c2
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240364"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309955"
 ---
 # <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Comptabiliser, ajuster et reclasser le stock avec les feuilles
 Vous devez effectuer un inventaire (c'est-à-dire compter tous les articles disponibles) au moins une fois par exercice pour vérifier si la quantité enregistrée dans la base de données est identique à la quantité réelle en stock dans les entrepôts. Lorsque vous connaissez la quantité physique réelle, vous devez la valider dans la comptabilité dans le cadre de l' évaluation du stock de fin d'exercice.
@@ -68,7 +68,7 @@ Vous pouvez effectuer l'inventaire physique de l'une des manières suivantes en 
 6. Choisissez l'action **Calculer stock**. Le formulaire de sélection du traitement par lots **Calculer stock entrepôt** s'ouvre.  
 7.  Positionnez les filtres permettant de limiter les articles comptés dans la feuille, puis sélectionnez le bouton **OK**.
 
-    Le programme crée une ligne pour chaque emplacement répondant aux exigences des filtres. A ce stade, vous pouvez encore supprimer certaines lignes, mais si vous souhaitez valider les résultats en tant qu'inventaire, vous devez compter l'article dans tous les emplacements le contenant.  
+    L'application crée une ligne pour chaque emplacement répondant aux exigences des filtres. A ce stade, vous pouvez encore supprimer certaines lignes, mais si vous souhaitez valider les résultats en tant qu'inventaire, vous devez compter l'article dans tous les emplacements le contenant.  
 
      Si le temps dont vous disposez vous permet uniquement de compter l'article dans certains emplacements, vous pouvez noter les différences, les enregistrer, puis les valider dans la feuille article à l'aide de la fonction **Calculer ajustement entrepôt**.  
 8.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Liste d'inventaire entrepôt**, puis sélectionnez le lien associé.  
@@ -76,14 +76,14 @@ Vous pouvez effectuer l'inventaire physique de l'une des manières suivantes en 
 10. Une fois le décompte effectué, saisissez les quantités comptées dans le champ **Qté (constatée)** de la feuille inventaire entrepôt.  
 
     > [!NOTE]  
-    >  Dans la feuille d'inventaire physique de l'entrepôt, le champ **Qté (calculée)** est renseigné automatiquement sur la base des enregistrements d'emplacement entrepôt et des copies de ces quantités sont effectuées sur chaque ligne du champ **Qté (physique)**. Dans la feuille inventaire, le programme renseigne automatiquement le champ Qté (calculée) en fonction des enregistrements emplacement entrepôt et copie ces quantités dans le champ Qté (constatée) de chaque ligne.Si la quantité comptée par le magasinier est différente de celle saisie par le programme dans le champ Qté (constatée), vous devez saisir la quantité réellement comptée.  
+    >  Dans la feuille d'inventaire physique de l'entrepôt, le champ **Qté (calculée)** est renseigné automatiquement sur la base des enregistrements d'emplacement entrepôt et des copies de ces quantités sont effectuées sur chaque ligne du champ **Qté (physique)**. Dans la feuille inventaire, l'application renseigne automatiquement le champ Qté (calculée) en fonction des enregistrements emplacement entrepôt et copie ces quantités dans le champ Qté (constatée) de chaque ligne.  
 
 11. Lorsque vous avez entré toutes les quantités comptées, sélectionnez l'action **Enregistrer**.  
 
-    Lorsque vous enregistrez la feuille, le programme crée dans l'historique entrepôt deux écritures entrepôt pour chaque ligne comptée et enregistrée.  
+    Lorsque vous enregistrez la feuille, l'application crée dans l'historique entrepôt deux écritures entrepôt pour chaque ligne comptée et enregistrée.  
 
     -   Si les quantités calculées et les quantités réelles sont différentes, une quantité négative ou positive est enregistrée pour l'emplacement, et la quantité équilibre est validée dans l'emplacement ajustement du magasin.  
-    -   Si la quantité calculée est égale à la quantité réelle, le programme enregistre une écriture de 0 pour l'emplacement et l'emplacement ajustement. Les écritures indiquent qu'à la date d'enregistrement, un inventaire entrepôt a été effectué et qu'il n'y avait aucune différence pour l'article au niveau de l'inventaire.  
+    -   Si la quantité calculée est égale à la quantité réelle, l'application enregistre une écriture de 0 pour l'emplacement et l'emplacement ajustement. Les écritures indiquent qu'à la date d'enregistrement, un inventaire entrepôt a été effectué et qu'il n'y avait aucune différence pour l'article au niveau de l'inventaire.  
 
 Lorsque vous enregistrez l'inventaire entrepôt, vous ne validez ni dans l'écriture article ni dans l'écriture inventaire ni dans l'écriture valeur, mais les enregistrements peuvent être utilisés lorsqu'un rapprochement immédiat est nécessaire. Cependant, si vous souhaitez conserver des enregistrements précis des événements entrepôt et que vous avez compté tous les emplacements où les articles étaient enregistrés, validez immédiatement les résultats entrepôt en tant qu'inventaire physique. Pour plus d'informations, voir [Pour saisir et valider le stock réel compté dans les configurations d'entrepôt avancées](inventory-how-count-adjust-reclassify.md#to-enter-and-post-the-actual-counted-inventory-in-advanced-warehouse-configurations).
 
@@ -120,7 +120,7 @@ Les employés peuvent maintenant poursuivre le comptage du stock et noter les é
 
 4.  Validez la feuille sans modifier les quantités.  
 
-Les quantités de l'écriture article (écritures article) et les quantités de l'entrepôt (écritures entrepôt) sont une nouvelle fois identiques pour ces articles ; en outre, le programme a mis à jour la dernière date inventaire de l'article ou du point de stock.  
+Les quantités de l'écriture article (écritures article) et les quantités de l'entrepôt (écritures entrepôt) sont une nouvelle fois identiques pour ces articles ; en outre, l'application a mis à jour la dernière date inventaire de l'article ou du point de stock.  
 
 ## <a name="to-perform-cycle-counting"></a>Pour effectuer l'inventaire périodique
 Bien que vous comptiez tous les articles du stock au moins une fois par an, vous pouvez avoir décidé de compter certains articles plus souvent, parce qu'ils ont plus de valeur ou parce qu'ils sont très demandés et représentent une partie importante de votre activité. Pour cela, vous pouvez affecter des périodes d'inventaire spéciales à ces articles.
@@ -159,7 +159,7 @@ Configurez les périodes d'inventaire que vous souhaitez utiliser, puis affectez
 3. Effectuer l'inventaire physique. Pour plus d'informations, voir [Pour effectuer un inventaire entrepôt](inventory-how-count-adjust-reclassify.md#to-perform-a-physical-inventory).  
 
     > [!NOTE]  
-    >  Vous devez compter l'article dans tous les emplacements contenant cet article. Si vous supprimez certaines des lignes emplacement que le programme a récupérées sur la page **Inventaire entrepôt** , vous ne compterez pas tous les articles dans l'entrepôt. Si vous validez ultérieurement de tels résultats incomplets sur la feuille inventaire, les montants validés sont incorrects.  
+    >  Vous devez compter l'article dans tous les emplacements contenant cet article. Si vous supprimez certaines des lignes emplacement que l'application a récupérées sur la page **Inventaire entrepôt** , vous ne compterez pas tous les articles dans l'entrepôt. Si vous validez ultérieurement de tels résultats incomplets sur la feuille inventaire, les montants validés sont incorrects.  
 
 ## <a name="to-adjust-the-inventory-of-one-item"></a>Pour ajuster le stock d'un article
 Après avoir effectué un inventaire d'un article dans votre module Distribution - Stocks, vous pouvez utiliser la fonction **Ajuster stock** pour enregistrer la quantité réelle en stock.
@@ -194,7 +194,7 @@ Si votre magasin utilise directement le prélèvement et rangement, vous pouvez 
 A la différence de la validation des ajustements dans la feuille article stock, l'utilisation de la feuille article entrepôt permet d'obtenir un autre niveau d'ajustement des enregistrements de quantité encore plus précis, à tout moment. Par conséquent, l'entrepôt dispose toujours d'un enregistrement complet indiquant le nombre d'articles disponibles et leur lieu de stockage, mais les enregistrements ajustement ne sont pas immédiatement validés dans l'écriture article. Au cours de l'enregistrement, le programme crédite ou débite l'emplacement de l'ajustement quantité, et crée une écriture de compensation dans l'emplacement ajustement entrepôt (emplacement virtuel sans articles réels). Cet emplacement a été défini dans le **Code emplacement ajustement stock** sur la fiche magasin.
 
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille article entrepôt**, puis sélectionnez le lien associé.  
-2.  Renseignez les informations d'ent-ête.  
+2.  Renseignez les informations d'en-tête.  
 3.  Renseignez le champ **N° article** de la ligne.  
 4.  Saisissez l'emplacement dans lequel vous placez les articles supplémentaires ou dans lequel des articles sont manquants.  
 5.  Saisissez la différence de quantité dans le champ **Quantité**. Si vous avez trouvé des articles supplémentaires, saisissez une quantité positive. Si des articles sont manquants, saisissez une quantité négative.  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 52801c3303a06488416b8b82fac3f761ec0705e7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ea111c7f31406fd016cea2ebed70df2311d2b930
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252404"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313099"
 ---
 # <a name="work-with-manufacturing-batch-units-of-measure"></a>Utiliser les unités de lot de fabrication
 Si un article est stocké dans une unité mais produit dans une autre, un ordre de fabrication utilisant une unité de lot de fabrication est créé pour calculer la quantité correcte des composants durant le traitement par lots **Actualiser O.F.**. Une situation dans laquelle un article fabriqué est stocké en pièces mais produit en tonnes est un exemple d'un calcul d'unité de lot de fabrication.  
@@ -33,7 +33,7 @@ Si un article est stocké dans une unité mais produit dans une autre, un ordre 
 6.  Créez un en-tête d'ordre de fabrication en utilisant l'article configuré avec l'unité de lot de fabrication. Pour plus d'informations, voir [Créer des ordres de fabrication](production-how-to-create-production-orders.md).  
 7.  Choisissez l'action **Actualiser**, puis le bouton **OK**.  
 
-Sur le raccourci **Lignes**, choisissez l'action **Ligne**, puis l'action **Composants** pour afficher le résultat. Le programme calcule la quantité correcte de composants nécessaire pour satisfaire la nomenclature de production, basée sur l'unité de lot de fabrication.  
+Sur le raccourci **Lignes**, choisissez l'action **Ligne**, puis l'action **Composants** pour afficher le résultat. L'application calcule la quantité correcte de composants nécessaire pour satisfaire la nomenclature de production, basée sur l'unité de lot de fabrication.  
 
 ## <a name="to-calculate-a-manufacturing-batch-unit-of-measure-on-a-production-order"></a>Pour calculer une unité de lot de fabrication sur un ordre de fabrication  
 1.  Créez un en-tête d'ordre de fabrication en utilisant l'article configuré avec l'unité de lot de fabrication.  

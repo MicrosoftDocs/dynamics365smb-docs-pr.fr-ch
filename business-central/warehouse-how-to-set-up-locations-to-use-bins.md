@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 549d3928d4d6429bd640d005891428ae419b2dfb
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: f2d7ecc163737c103c91b2a28a6a8072fad89279
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248954"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310195"
 ---
 # <a name="set-up-locations-to-use-bins"></a>Configurer des magasins de sorte qu'ils utilisent des emplacements
 Les emplacements représentent la structure d'entrepôt de base et sont utilisés pour faire des propositions relatives à l'emplacement des articles. Lorsque vous avez créé vos emplacements, vous pouvez définir précisément le contenu que vous souhaitez placer dans chacun d'entre eux, ou l'emplacement peut être utilisé en tant qu'emplacement dynamique sans contenu spécifié.  

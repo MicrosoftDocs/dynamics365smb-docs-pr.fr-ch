@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, replenishment
-ms.date: 04/24/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 83f6a24fc066faef49de456e18673f8059a9831d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a85fb48251d5c1465dcd4be7aaf868d857a07fd4
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252278"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311971"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Créer des lignes ventes et achat récurrentes
 Si vous devez souvent créer des lignes ventes et des lignes achat comportant des informations similaires, vous pouvez configurer des lignes standard que vous pouvez ensuite insérer dans les documents vente et achat, par exemple, pour les commandes de réapprovisionnement récurrentes.  
@@ -46,7 +46,7 @@ Affectez une ou plusieurs lignes vente standard à un client afin qu'elles soien
 |Option|Description|
 |-|-|
 |**Manuel**|Vous devez rechercher et insérer manuellement une ligne vente récurrente existante pour le client.|
-|**Automatique**|Si plusieurs lignes vente récurrentes existent pour le client, vous recevrez une notification pour vous permettre de sélectionner la ligne à insérer. Si une seule ligne vente récurrente existe, elle sera insérée automatiquement.|
+|**Automatique**|Si plusieurs lignes vente récurrentes existent pour le client, vous recevrez une notification pour vous permettre de sélectionner la ligne à insérer. Si une seule ligne vente récurrente existe, elle sera insérée automatiquement.<br /><br />Notez que cela ne fonctionne que si le nouveau document a été créé à partir d’une liste de documents, par exemple en sélectionnant l'action **Nouveau** sur la page **Commandes vente**. Cela ne fonctionne pas si le document a été créé à partir d'une fiche client, par exemple.|
 |**Toujours demander**|Une notification s'affiche et toutes les lignes vente récurrentes existantes sont affichées afin que vous puissiez en sélectionner une.
 
 ## <a name="to-insert-recurring-sales-lines-on-a-sales-invoice"></a>Pour insérer des lignes vente récurrentes dans une facture vente

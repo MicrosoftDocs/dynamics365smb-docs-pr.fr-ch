@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: solsen
-ms.openlocfilehash: bc3cedf31aadb69e380b704f4019a86eb7864882
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6cab6247c8edb050a038ef7641b646f1a7412588
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248103"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310843"
 ---
 # <a name="detecting-mandatory-fields"></a>Détection de champs obligatoires
 Lorsque vous entrez des données sur les pages dans [!INCLUDE[d365fin](includes/d365fin_md.md)], certains champs sont marqués par un astérisque rouge. L'astérisque rouge signifie que le champ doit être renseigné pour terminer un processus qui utilise ce champ, par exemple, valider une transaction qui utilise la valeur du champ.

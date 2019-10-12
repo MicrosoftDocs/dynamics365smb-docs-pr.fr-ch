@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 06/28/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: dff8f2e677c49f089ec2b7ee01dc1565ee4aa261
-ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
+ms.openlocfilehash: 3a5fc25004ce7dd838369ff178b8d613fb984acd
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "1711052"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313531"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Configuration minimale requise pour l'utilisation de Business Central
 Avant d'accéder à [!INCLUDE [prodshort](includes/prodshort.md)] en ligne, nous vous recommandons de vérifier que votre ordinateur ou périphérique mobile répond à la configuration système requise pour le produit. Cet article répertorie les éléments de la configuration requise.  

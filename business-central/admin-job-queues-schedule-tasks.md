@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 1cf5b75bc63acfa07a90cda1d03f45579a0aa51d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 21e3defe178a3619df58d712c86935515e303692
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247272"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308419"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Utiliser des files d'attente des travaux pour planifier des tâches
 Des files d'attente des travaux dans [!INCLUDE[d365fin](includes/d365fin_md.md)] permettent aux utilisateurs de planifier et d'exécuter des états et codeunits spécifiques. Vous pouvez définir des projets à exécuter une fois, ou sur une base récurrente. Par exemple, vous pouvez être amené à exécuter l'état **Vendeurs : Statistiques ventes** chaque semaine pour suivre les ventes hebdomadaires d'un vendeur, ou vous pouvez être amené à exécuter le codeunit **Traiter file att. e-mails serv** chaque jour pour vérifier si des e mails adressés aux clients concernant leurs commandes service sont envoyés en temps utile.
@@ -93,7 +93,7 @@ Les données qui sont générées lors de l'exécution d'une file d'attente des 
 2. Examinez le message d’erreur et résolvez le problème.
 
 ## <a name="the-my-job-queue-part"></a>Composant Ma file d'attente des travaux
-Le composant **Ma file d'attente des travaux** sur votre Tableau de bord répertorie les écritures files d'attente des travaux commencées par vous, mais qui ne sont pas terminées. Par défaut, le composant n'est pas visible et vous devez donc l'ajouter à votre tableau de bord. Pour plus d'informations, voir [Modification des paramètres de base](ui-change-basic-settings.md).  
+Le composant **Ma file d'attente des travaux** sur votre Tableau de bord répertorie les écritures files d'attente des travaux commencées par vous, mais qui ne sont pas terminées. Par défaut, le composant n'est pas visible et vous devez donc l'ajouter à votre tableau de bord. Pour plus d'informations, voir [Modifier les paramètres de base](ui-change-basic-settings.md).  
 
 Le composant indique les documents avec votre ID dans le champ **Code utilisateur affecté** en cours de traitement ou en attente, y compris ceux associés à la validation en arrière-plan. Le composant peut vous indiquer rapidement s’il y a eu une erreur lors de la validation d’un document ou s’il existe des erreurs dans une écriture de file projet. Il vous permet également d'annuler une validation de document en cas de non exécution.
 
@@ -115,4 +115,4 @@ L'enregistrement des écritures file d'attente des travaux possède plusieurs ch
 ## <a name="see-also"></a>Voir aussi  
 [Administration](admin-setup-and-administration.md)  
 [Configuration de Business Central](setup.md)  
-[Modification des paramètres de base](ui-change-basic-settings.md)  
+[Modifier les paramètres de base](ui-change-basic-settings.md)  

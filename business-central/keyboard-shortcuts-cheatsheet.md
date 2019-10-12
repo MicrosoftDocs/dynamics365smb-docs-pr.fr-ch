@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 05/22/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f23d1ffd1d9f000578269d0ed89c355bc2edb291
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.openlocfilehash: 8712e38d2de04cbaebe810367cfe9aa4f8cf9410
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629749"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309571"
 ---
-# <a name="keyboard-shortcuts-pc-only"></a>Raccourcis clavier (PC uniquement)
+# <a name="keyboard-quick-reference---pc-only"></a>Référence rapide de raccourcis clavier - PC uniquement
 
 ||||  
 |----------------|-----------|----------------|
-|**Général**|Alt+F2<br />Alt+N<br />Alt+Q<br />Alt+Haut<br />Alt+Flèche bas<br />Alt+Flèche vers la droite<br />Alt+T<br />Ctrl+Alt+F1<br />Ctrl+F1<br />F5/Ctrl+F5<br />Tab/Maj+Tab<br />|Afficher et masquer le volet Récapitulatif<br />Créer un enregistrement<br />Ouvrir **Dites-moi**<br />Ouvrir une info-bulle ou une erreur de validation<br />Ouvrir un menu déroulant ou une recherche<br />Voir les transactions pour la valeur calculée<br />Ouvrir la page **Mes paramètres**<br />Inspecter la page<br />Ouvrir l'aide de la page<br />Actualiser/recharger la page<br />Déplacer le focus sur l'élément suivant/précédent|
+|**Général**|Alt+F2<br />Alt+N<br />Alt+Maj+N<br />Alt+O<br />Alt+Q<br />Alt+Haut<br />Alt+Flèche bas<br />Alt+T<br />Alt+Maj+W<br />Ctrl+Inser<br />Ctrl+Suppr<br />Ctrl+Shift+F12<br />Ctrl+F1<br />Ctrl+Clic<br />Shift+F12<br />F5/Ctrl+F5<br />Tab/Maj+Tab<br />|Afficher et masquer le volet Récapitulatif<br />Créer un enregistrement<br />Fermer un enregistrement nouvellement créé et en créer un nouveau<br />Ajouter une nouvelle note pour l'enregistrement sélectionné<br />Ouvrir **Dites-moi**<br />Ouvrir une info-bulle ou une erreur de validation<br />Ouvrir un menu déroulant ou une recherche<br />Ouvrir la page **Mes paramètres**<br />Ouvrir la fiche ou le document en cours dans une nouvelle fenêtre<br />Insérer une nouvelle ligne sur un document<br />Supprimer la ligne sur un document, un journal ou une feuille de calcul<br />Maximiser la partie des éléments de ligne sur une page de document<br />Ouvrir l'aide de la page<br />Naviguer lors de la personnalisation<br />Ouvrir l'aperçu des fonctionnalités<br />Actualiser/recharger la page<br />Déplacer le focus sur l'élément suivant/précédent|
 |**Naviguer et <br />sélectionner des lignes**| Accueil/fin<br />Ctrl+Accueil/Fin <br />Ctrl+Haut/Bas<br />Ctrl+A <br />Ctrl+Espace<br />Ctrl/Shift+Clic<br />Maj+Haut/Bas<br />Maj+Haut/Bas de page<br />Ctrl+Enter| Aller au premier/dernier champ<br />Aller à la première/dernière ligne<br />Naviguer sans perdre la sélection<br />Sélectionner tout<br />Basculer la sélection de ligne<br /> Ajoutez la ou les lignes à la sélection<br />Ajouter une ligne au-dessus/au dessous de la sélection<br />Sélectionner les lignes visibles ci-dessus/ci-dessous <br />Focus hors de la liste|
 |**Copier et coller**|Ctrl+C/V<br />F8|Copier/coller des lignes<br />Copier le champ au-dessus dans la ligne actuelle|
 |**Rechercher, filtrer <br />et trier**|F6<br />Alt+F7<br />F3<br />Shift+F3<br />Ctrl+Shift+F3<br />Alt+F3<br />Maj+Alt+F3<br />Ctrl+Alt+Maj+F3|Accéder au raccourci suivant<br />Trier la colonne dans l'ordre croissant ou décroissant<br />Basculer la recherche<br />Basculer le volet Filtre ; focus sur les filtres de champ<br />Basculer le volet Filtre ; focus sur les filtres de totaux<br />Filtrer la valeur sélectionnée de cellules<br />Ajouter un filtre au champ sélectionnée<br />Réinitialiser les filtres|

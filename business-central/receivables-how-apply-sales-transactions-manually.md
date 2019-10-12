@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipt
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2e7f24f6c8bca209fbb53f215d644517f495978e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: d32f614ce86f6ad1b3f846631d3b4062788b755a
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252312"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312355"
 ---
 # <a name="reconcile-customer-payments-with-the-cash-receipt-journal-or-from-customer-ledger-entries"></a>Rapprocher des paiements clients avec la Feuille règlement ou les Écritures comptables client
 Lorsque vous recevez le règlement d'un client ou que vous effectuez un remboursement, vous devez décider si vous souhaitez lettrer le paiement ou le remboursement pour clôturer une ou plusieurs écritures débit ou crédit. Vous pouvez indiquer le montant que vous souhaitez appliquer. Par exemple, vous pouvez appliquer des paiements partiels aux écritures comptables client. La clôture des écritures comptables client permet de garantir que des informations telles que les statistiques clients, les relevés bancaires et les intérêts de retard sont corrects.
@@ -89,7 +89,7 @@ La feuille règlement est un type de feuille comptabilité, de sorte que vous po
 3. Pour lettrer l'avoir avec une seule écriture comptable client lors de la validation, dans le champ **N° doc. lettrage**, sélectionnez l'écriture avec laquelle lettrer le paiement.
 4. Sur la ligne du champ **Montant à lettrer**, entrez le montant à lettrer avec l'écriture.  
 
-    Si vous n'entrez aucun montant, le programme lettre automatiquement le montant maximal. Au bas de la page **Lettrer écritures client**, vous voyez le montant spécifique dans le champ **Montant lettré** et constatez si le lettrage est équilibré.    
+    Si vous n'entrez aucun montant, l'application lettre automatiquement le montant maximal. Au bas de la page **Lettrer écritures client**, vous voyez le montant spécifique dans le champ **Montant lettré** et constatez si le lettrage est équilibré.    
 5. Choisissez le bouton **OK**. La page **Avoir vente** affiche désormais l'écriture que vous avez saisie dans les champs **Type doc. lettrage** et **N° doc. lettrage**. Et le montant de l'avoir à valider, escomptes éventuels déduits.
 6. Valider l'avoir.
 
@@ -139,7 +139,7 @@ Le lettrage d'écritures comptables client en devises différentes doit être ac
 6. Validez la feuille ventes.  
 
 > [!IMPORTANT]  
->   Lorsque vous lettrez des écritures en devises différentes, les écritures sont converties en USD. Bien que le taux de change des deux devises concernées soit fixe, comme entre le USD et l'EUR, leur conversion en USD peut donner un petit montant résiduel. Le programme valide ces petits montants résiduels en tant que gains et pertes dans le compte défini dans les champs **Cpte gains constatés report** ou **Cpte pertes constatées report** de la page **Devises**. La valeur du champ **Montant (USD)** est également ajustée sur les écritures comptables fournisseur.  
+>   Lorsque vous lettrez des écritures en devises différentes, les écritures sont converties en USD. Bien que le taux de change des deux devises concernées soit fixe, comme entre l'USD et l'EUR, leur conversion en USD peut donner un petit montant résiduel. Le programme valide ces petits montants résiduels en tant que gains et pertes dans le compte défini dans les champs **Cpte gains constatés report** ou **Cpte pertes constatées report** de la page **Devises**. La valeur du champ **Montant (USD)** est également ajustée sur les écritures comptables fournisseur.  
 
 ## <a name="to-correct-an-application-of-customer-entries"></a>Pour créer un lettrage des écritures client
 Lorsque vous corrigez une application, des écritures de correction (écritures identiques à l'écriture originale mais avec le signe opposé dans le champ du montant) sont créées et validées pour toutes les écritures comportant des validations comptables issues du lettrage, comme les escomptes et les pertes et gains en devise. Les écritures qui sont fermées par l'application sont rouvertes.  

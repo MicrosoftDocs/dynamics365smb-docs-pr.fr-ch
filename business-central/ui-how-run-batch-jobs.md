@@ -10,19 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: solsen
-ms.openlocfilehash: 0b9bf37f9054d767938b851e399a1b2c347f77c3
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 2387356fd3e80e5020b4d2e4857280dd4b99788a
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249276"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315219"
 ---
-# <a name="run-batch-jobs"></a>Exécuter des traitements par lots
+# <a name="run-batch-jobs-and-xmlports"></a>Exécuter des traitements par lots et des ports XML
 Un traitement par lots est une routine qui traite les données par lots, par exemple le traitement par lots **Ajuster taux de change**. Certains traitements par lots exécutent des activités périodiques de comptabilité, telles que la clôture des comptes de gestion à la fin d'un exercice comptable. De nombreux traitements par lots exécutent des calculs, telles que le calcul des intérêts de retard, l'ajustement du taux de change et le calcul des prix unitaires.
 
 Un traitement par lots est similaire à un état, sauf qu'il utilise les résultats obtenus pour mettre à jour les informations directement plutôt que d'imprimer les résultats.
+
+Vous pouvez planifier l'exécution d'un traitement par lot. Pour plus d'informations, voir [Utiliser des files d'attente des travaux pour planifier des tâches](admin-job-queues-schedule-tasks.md).
 
 ## <a name="to-run-a-batch-job"></a>Pour exécuter un traitement par lots
 1. Pour ouvrir la page de demande du traitement par lots approprié, choisissez l'icone ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez le nom du traitement par lots, puis sélectionnez le lien associé.
@@ -32,4 +34,5 @@ Un traitement par lots est similaire à un état, sauf qu'il utilise les résult
 
 ## <a name="see-also"></a>Voir aussi
 [Tri, recherche et filtrage de listes](ui-enter-criteria-filters.md)  
+[Utiliser des files d'attente des travaux pour planifier des tâches](admin-job-queues-schedule-tasks.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

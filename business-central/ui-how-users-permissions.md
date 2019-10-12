@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4a9bbc34893f1af257908558122f8e8cbe6ce757
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 51c8c4207d9b5311698c7c5575fc67d8c5b2df9d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250127"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310915"
 ---
-# <a name="managing-users-and-permissions"></a>Gestion des utilisateurs et des autorisations
+# <a name="manage-users-and-permissions"></a>Gérer les utilisateurs et les autorisations
 Pour ajouter des utilisateurs dans [!INCLUDE[d365fin](includes/d365fin_md.md)], l'administrateur Office 365 de votre société doit d'abord créer les utilisateurs dans le centre d’administration Office 365. Pour plus d'informations, voir [Ajouter des utilisateurs à Office 365 for business](https://aka.ms/CreateOffice365Users).
 
 Une fois les utilisateurs créées dans Office 365, ils peuvent être importés sur la page **Utilisateurs** de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Des ensembles d'autorisations sont affectés aux utilisateurs selon le plan qui leur est affecté dans Office 365. Pour des informations détaillées sur la gestion des licences, voir [Guide des licences Microsoft Dynamics 365 Business Central](https://aka.ms/BusinessCentralLicensing).
@@ -28,15 +28,23 @@ Un ensemble d'autorisations est une collection d'autorisations pour des objets s
 
 Sur la page **Fiche utilisateur**, vous pouvez ouvrir la page **Autorisations effectives** pour connaître les autorisations de l'utilisateur et les ensembles d'autorisations qui lui sont accordés. Vous pouvez également modifier les détails d'autorisation pour les ensembles d'autorisations de type **Défini par l'utilisateur**. Pour plus d'informations, voir [Pour afficher ou modifier les autorisations d'un utilisateur](ui-how-users-permissions.md#to-get-an-overview-of-a-users-permissions).
 
-Les administrateurs peuvent utiliser la page **Paramètres utilisateur** pour définir les périodes de temps pendant lesquelles les utilisateurs spécifiés peuvent valider, et spécifier également si le système enregistre la durée pendant laquelle les utilisateurs spécifiés ont ouvert une session.
+## <a name="users-in-on-premises-deployments"></a>Utilisateurs des déploiements sur site
+Pour les déploiements sur site de [!INCLUDE[d365fin](includes/d365fin_md.md)], l'administrateur peut choisir entre différents mécanismes d'autorisation d'identification pour les utilisateurs. Ensuite, lorsque vous créez un utilisateur, vous devez fournir différentes informations selon le type d'identification utilisé dans l'instance de [!INCLUDE[server](includes/server.md)] spécifique. Pour plus d'informations, voir [Authentification et informations d'identification](/dynamics365/business-central/dev-itpro/administration/users-credential-types) dans la section Administration du contenu pour développeurs et professionnels de l'informatique de [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Un autre système qui définit ce à quoi les utilisateurs peuvent accéder est le paramètre Expérience. Pour plus d'informations, voir [Modification des fonctionnalités affichées](ui-experiences.md).
+## <a name="profiles"></a>Profils
+Une fois les utilisateurs ajoutés, vous pouvez définir ce qu'ils voient dans l'interface utilisateur et la manière dont ils interagissent avec les fonctionnalités autorisées par le biais de pages. Pour ce faire, vous devez utiliser des profils, reflétant des rôles ou des services, que vous attribuez à différents types d'utilisateurs. Pour en savoir plus, reportez-vous à [Gérer les profils](admin-users-profiles-roles.md) et [Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md).
 
 ## <a name="to-add-a-user-in-business-central"></a>Pour ajouter un utilisateur dans Business Central
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Utilisateurs**, puis sélectionnez le lien associé.
 2. Sélectionnez l'action **Obtenir les utilisateurs d'Office 365**.
 
 Tout nouvel utilisateur créé pour votre abonnement Office 365 est ajouté à la page **Utilisateurs**.
+
+## <a name="to-edit-or-delete-a-user"></a>Pour modifier ou supprimer un utilisateur
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Utilisateurs**, puis sélectionnez le lien associé.
+2. Sélectionnez l'utilisateur que vous souhaitez modifier, puis choisissez l'action **Modifier**.
+3. Sur la page **Fiche utilisateur**, modifiez les informations si nécessaire.    
+4. Pour supprimer un utilisateur, sélectionnez l'utilisateur que vous souhaitez supprimer, puis choisissez l'action **Supprimer**.
 
 ## <a name="to-group-users-in-user-groups"></a>Pour regrouper des utilisateurs dans des groupes d'utilisateurs
 Vous pouvez définir des groupes d'utilisateurs pour vous aider à gérer les ensembles d'autorisations pour des groupes d'utilisateurs de votre société.
@@ -51,7 +59,7 @@ Quand des utilisateurs ou des groupes d'utilisateurs sont créés, vous devez af
 ## <a name="to-copy-a-user-group-and-all-its-permission-sets"></a>Pour copier un groupe d'utilisateurs et tous ses ensembles d'autorisations
 Pour définir rapidement un nouveau groupe d'utilisateurs, vous pouvez copier tous les ensembles d'autorisations d'un groupe d'utilisateurs existant vers un nouveau groupe d'utilisateurs.
 
-Les membres du groupe d'utilisateurs ne sont pas copié vers le nouveau groupe d'utilisateurs. Vous devez les ajouter manuellement ensuite.
+Les membres du groupe d'utilisateurs ne sont pas copiés vers le nouveau groupe d'utilisateurs. Vous devez les ajouter manuellement ensuite.
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Groupes d'utilisateurs**, puis sélectionnez le lien associé.
 2. Sélectionnez le groupe d'utilisateurs à partir duquel vous souhaitez copier, puis choisissez l'action **Copier groupe d'utilisateurs**.
@@ -110,7 +118,7 @@ Par exemple, un utilisateur peut être autorisé à exécuter le codeunit 80 (V
 
 L'utilisateur n'a toutefois pas besoin d'avoir entièrement accès à la table Ligne vente pour exécuter le codeunit. Si une autorisation indirecte a été accordée à l'utilisateur pour la table Ligne vente, alors le codeunit Ventes-Valider s'exécute. Lorsqu'une autorisation indirecte est accordée à un utilisateur, celui-ci peut uniquement modifier la table Ligne vente en exécutant le codeunit Ventes-Valider ou un autre objet autorisé à modifier la table Ligne vente. L'utilisateur peut uniquement modifier la table Ligne vente lorsqu'il procède à partir des modules pris en charge. L'utilisateur ne peut pas exécuter cette fonctionnalité par inadvertance ou par malveillance en suivant d'autres méthodes.
 
-### <a name="to-limit-a-users-access-to-specific-records-in-a-table"></a>Pour limiter l'accès d'un utilisateur à des enregistrements spécifiques dans une table
+## <a name="to-limit-a-users-access-to-specific-records-in-a-table"></a>Pour limiter l'accès d'un utilisateur à des enregistrements spécifiques dans une table
 Pour la sécurité au niveau des enregistrements dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous utilisez des filtres de sécurité pour limiter l'accès d'un l'utilisateur aux données dans une table. Vous créez des filtres de sécurité sur les données de la table. Un filtre de sécurité décrit un ensemble d'enregistrements dans une table auxquels un utilisateur a l'autorisation d'accéder. Vous pouvez indiquer, par exemple, qu'un utilisateur peut uniquement lire les enregistrements qui contiennent des informations relatives à un client particulier. Cela signifie que l'utilisateur ne peut pas accéder aux enregistrements qui contiennent des informations sur d'autres clients. Pour plus d'informations, voir [Utilisation des filtres de sécurité](/dynamics365/business-central/dev-itpro/security/security-filters) dans l'aide sur Developer and IT Pro.
 
 
@@ -174,11 +182,16 @@ La procédure suivante explique comment affecter des ensembles d'autorisations �
 > [!NOTE]  
 > Lorsque vous modifiez un ensemble d'autorisations, les modifications s'appliquent également à d'autres utilisateurs auxquels l'ensemble d'autorisations est affecté.
 
+## <a name="to-remove-a-users-access-to-the-system"></a>Pour supprimer l'accès d'un utilisateur au système
+
+En tant qu'administrateur, vous pouvez supprimer l'accès d'un utilisateur au système en définissant le paramètre du champ **État** sur **Désactivé**. Toutes les références à l'utilisateur seront conservées, mais il ne pourra plus se connecter au système et ses sessions actives seront terminées. Pour donner à nouveau accès à l'utilisateur, définissez le paramètre du champ **État** sur **Activé**.
+
 ## <a name="see-also"></a>Voir aussi
 [Sécurité et protection dans Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection)  
-[Comprendre les utilisateurs, les profils et les tableaux de bord](admin-users-profiles-roles.md)  
+[Gérer les profils](admin-users-profiles-roles.md)  
+[Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)  
 [Préparation aux activités commerciales](ui-get-ready-business.md)  
-[Modification des fonctionnalités affichées](ui-experiences.md)  
+[Modifier les fonctionnalités affichées](ui-experiences.md)  
 [Administration](admin-setup-and-administration.md)  
 [Ajouter des utilisateurs à Office 365 for business](https://aka.ms/CreateOffice365Users)  
 [Guide des licences Microsoft Dynamics 365 Business Central](https://aka.ms/BusinessCentralLicensing)

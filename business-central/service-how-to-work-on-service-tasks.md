@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b4a47608bbcc191ec413f08e0969f1bbd6fc4041
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 5b153d68636e948a01a5ab2d514828710e413f3d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251185"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311659"
 ---
 # <a name="work-on-service-tasks"></a>Travailler sur des tâches service
 Après avoir créé une commande ou devis service, enregistré des lignes article de service, et affecté des ressources aux articles de service de la commande ou du devis, vous pouvez commencer la réparation et la maintenance des articles de service.  
@@ -100,7 +100,7 @@ Après avoir réparé un article de service, vous pouvez enregistrer le code pan
 2. Choisissez la ligne comprenant l'article de service approprié, puis sélectionnez l'action **Feuille activité article**.  
 3. Sur la page **Feuille activité article de service**, sélectionnez **Relations codes panne/solution**. La page **Relations codes panne/solution** s'ouvre.  
 
-  >  [!Note]
+  >  [!NOTE]
   >  Des filtres sont automatiquement positionnés sur les relations affichées sur la page en copiant le groupe articles de service et les codes panne de la page **Feuille activité article de service**.  
 
 4. Renseignez la ligne complètement. Choisissez la combinaison de codes panne/solution, puis choisissez **OK** pour la copier sur l'article de service. Si une combinaison appropriée est introuvable, vous pouvez créer une combinaison sur la page.  

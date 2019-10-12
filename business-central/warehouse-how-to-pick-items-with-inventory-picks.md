@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d4340172164401e736bf070b8bf6f3da97cfacb6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 66b4d9c3f9f84e9342cffd9446a4b3992ff62a57
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248793"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310291"
 ---
 # <a name="pick-items-with-inventory-picks"></a>Prélever des articles avec les prélèvements stock
 Lorsque votre magasin est défini pour exiger un traitement des prélèvements mais pas un traitement des expéditions, vous utilisez la page **Prélèvement stock** pour enregistrer et valider les informations de prélèvement et d'expédition pour vos documents origine. Le document origine sortant peut être une commande vente, un retour achat, un désenlogement transfert ou un ordre de fabrication dont les composants sont prêts à être prélevés.

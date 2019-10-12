@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 08/22/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 93d75f1ea55f47c6601cbdd3c3856e39b9dc1416
-ms.sourcegitcommit: 6ef7d2fae52feff786f2e15e2863d7f5aaa762be
+ms.openlocfilehash: c4e8fe698aa93a110cb2cb2df5f094a79cc20bb7
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1917429"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311035"
 ---
 # <a name="customizing-business-central-using-extensions"></a>Personnalisation de Business Central à l'aide d'extensions
 Vous pouvez modifier [!INCLUDE[d365fin](includes/d365fin_md.md)] en installant des extensions qui ajoutent des fonctionnalités, modifient le comportement de l'application, ou vous permettent d'accéder à de nouveaux services en ligne, par exemple.
@@ -47,7 +47,7 @@ Si vous choisissez une extension, vous pouvez consulter une documentation relati
 Lorsque vous installez une extension, vous pouvez être amené à la configurer, par exemple spécifier un compte à utiliser avec l'extension **PayPal Payments Standard pour [!INCLUDE[d365fin](includes/d365fin_md.md)]**.
 D'autres extensions ajoutent simplement des champs à une page existante, ou ajoutent une nouvelle page, par exemple.   
 
-Si vous désinstallez une extension, et que vous changez ensuite d'avis, vous pouvez la réinstaller. Lorsque vous désinstallez une extension que vous avez utilisé, les données sont conservées de sorte à demeurer disponibles si vous installez à nouveau l'extension.  
+Si vous désinstallez une extension, et que vous changez ensuite d'avis, vous pouvez la réinstaller. Lorsque vous désinstallez une extension que vous avez utilisée, les données sont conservées de sorte à demeurer disponibles si vous installez à nouveau l'extension. Certaines extensions sont nécessaires. Vous ne pouvez pas les désinstaller à partir de la page **Gestion des extensions**. Si vous essayez, un message d'erreur apparaît.  
 
 Certaines extensions sont fournies par Microsoft, et d'autres sont fournies par [d'autres sociétés](ui-extensions-other.md). Toutes les sont extensions testées avant d'être mises à votre disposition, mais nous vous recommandons d'accéder aux liens qui sont inclus dans chaque extension pour en savoir plus sur l'extension avant de décider de l'installer.  
 

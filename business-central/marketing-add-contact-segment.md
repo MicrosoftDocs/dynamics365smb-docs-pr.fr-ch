@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect, contact, client, customer
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 00f1f0c7f81741c509e8c2707c38dbaa23087c93
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: d5c1d54a56509cae379f7a8b62d77c56796f29ba
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1239283"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309451"
 ---
 # <a name="add-contacts-to-segments"></a>Ajouter des contacts à des segments
 Lorsque vous avez créé un segment et saisi les informations de base le concernant, vous pouvez être amené à ajouter des contacts au segment. Pour ce faire, vous pouvez renseigner manuellement les lignes de la page **Segment** ou utiliser l'action **Ajouter contacts** (plus simple et plus rapide).

@@ -3,21 +3,21 @@ title: Présentations d'état intégrées et personnalisées pour les états et 
 description: Utilisez des présentations d'états pour personnaliser les documents, par exemple, pour personnaliser la police, le logo, ou la mise en page des fichiers PDF que vous envoyez aux clients.
 services: project-madeira
 documentationcenter: ''
-author: SusanneWindfeldPedersen
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 05/22/2019
-ms.author: solsen
-ms.openlocfilehash: e00ca327748ac84dc39e5de73c4bcaae97f26105
-ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: f64397d41eb4002221d9967b5b61145882aee0d6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1594302"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315171"
 ---
 # <a name="managing-report-and-document-layouts"></a>Gestion des présentations de rapport et de document
 Une présentation de rapport contrôle le contenu et le format du rapport, dont les champs de données d'un ensemble de données de rapport apparaissant sur le rapport et la façon ils sont organisés, le style de texte, les images, et plus encore. À partir de [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez modifier la présentation utilisée sur un rapport, créer une nouvelle présentation ou modifier les présentations existantes.
@@ -56,12 +56,12 @@ Les concepts généraux pour les présentations Word et RDLC sont très similair
 
 Le procédure pour paramétrer des présentations de rapport Word et des présentations de rapport RDLC sur les rapports est la même. La principale différence réside dans la manière dont vous modifiez les présentations. Il est souvent plus facile de créer et de modifier des présentations de rapport Word que des présentations de rapport RDLC car vous pouvez utiliser Word. Les présentations de rapport RDLC sont modifiées à l'aide de SQL Server Report builder qui cible plus d'utilisateurs avancés.
 
-Pour plus d'informations sur la manière d'utiliser l'une ou l'autre présentation, voir [Modifier la présentation actuellement utilisée sur un rapport](ui-how-change-layout-currently-used-report.md).
+Pour plus d'informations sur la manière d'utiliser l'une ou l'autre présentation, voir [Modifier la présentation actuelle de l'état](ui-how-change-layout-currently-used-report.md).
 
 ## <a name="see-also"></a>Voir aussi
-[Mise à jour des présentations de rapport ou de document](ui-update-report-layouts.md)  
+[Mise à jour des présentations d'état ou de document](ui-update-report-layouts.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Créer et modifier une présentation de rapport ou de document personnalisée](ui-how-create-custom-report-layout.md)  
-[Importer et exporter une présentation de rapport ou de document personnalisée](ui-how-import-and-export-report-layout.md)  
+[Importer et exporter une présentation d'état ou de document personnalisée](ui-how-import-and-export-report-layout.md)  
 [Envoyer des documents par e-mail](ui-how-send-documents-email.md)  
-[Utilisation des états et des traitements par lots](ui-work-report.md)  
+[Utilisation des états, des traitements par lots et des XMLports](ui-work-report.md)  

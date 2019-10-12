@@ -10,21 +10,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
-ms.date: 06/25/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1c27575cd218b4f7c3ac5098eaca96d9ab9a4a1b
-ms.sourcegitcommit: 73e955b8fec819e5212b6ca7d8bfff42fe2d5eb8
+ms.openlocfilehash: e688eb8aacba049c91cd0dcd83522e5bd5eec4f2
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "1702897"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307603"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Configurer le service Envestnet Yodlee Bank Feeds
 Vous pouvez importer des relevés bancaires électroniques auprès de votre banque pour renseigner rapidement la page **Feuille rapprochement bancaire** de sorte à pouvoir lettrer les paiements et rapprocher le compte bancaire. Pour plus d'informations, reportez-vous à [Lettrage automatique des paiements et rapprochement des comptes bancaires](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
+> [!IMPORTANT]
+> En raison de la nouvelle directive sur les services de paiement en Europe (PSD2), après le 14 septembre 2019, vous ne pourrez plus importer automatiquement des relevés bancaires de banques du Royaume-Uni vers [!INCLUDE[d365fin](includes/d365fin_md.md)]. Nous étudions la possibilité de proposer cette fonctionnalité à l'avenir.
+
 > [!NOTE]
 > Le service Envestnet Yodlee Bank Feeds est uniquement pris en charge dans la version en ligne de Business Central. Pour utiliser cette fonctionnalité sur site, vous devez obtenir un compte de cobrand d'Envestnet Yodlee.<br /><br />
-> Le service Envestnet Yodlee Bank Feeds n'est pris en charge qu'aux États-Unis, au Canada et au Royaume-Uni.
+> Le service Envestnet Yodlee Bank Feeds n'est pris en charge qu'aux États-Unis et au Canada.
 
 > [!IMPORTANT]
 > Pour obtenir une assistance technique sur les fonctionnalités d’Envestnet Yodlee, contactez le support technique Microsoft. Ne contactez pas Envestnet Yodlee. Pour plus d'informations, voir [Configuration du support technique pour Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/technical-support).

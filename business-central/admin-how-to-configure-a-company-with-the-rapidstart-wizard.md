@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3784b8e0cc0c0c07300895ce448ff82f9acc91c9
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a6bc660112edb7a316fcbb2f0bdfddd0f5e90634
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1239927"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308155"
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Configurer une société avec l'assistant RapidStart
 Vous pouvez rapidement configurer une nouvelle société que vous avez créée à l’aide de l’Assistant Configuration de RapidStart Services.

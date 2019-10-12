@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c09eedbb812df909a43e514dc462dcf8c1cf182a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 70f1e51a0cd2c1b6c90ca3d76013fb3a5f30f80e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249322"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314859"
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Procédure pas-à-pas : créer des prévisions de trésorerie à l'aide de tableaux d'analyse
 Cette procédure pas-à-pas décrit le mode d'utilisation des tableaux d'analyse pour élaborer des prévisions de trésorerie. Les tableaux d'analyse procèdent aux calculs qui ne peuvent pas être effectués directement dans le plan comptable de trésorerie. Dans les tableaux d'analyse, vous pouvez configurer des sous-totaux pour les réceptions et les décaissements de trésorerie. Ces sous-totaux peuvent être inclus dans les nouveaux totaux pour élaborer des prévisions de trésorerie.  
@@ -67,10 +67,11 @@ Après la configuration d'un nom de tableau d'analyse, Ken définit chaque ligne
     > [!NOTE]  
     >  À l’aide de la fonction **Insérer des comptes CF**,vous pouvez sélectionner rapidement les comptes de trésorerie à partir du plan comptable de trésorerie et les copier vers les lignes du tableau d’analyse.  
 
-    |N° ligne|Description|Type totalisation|Totalisation|Type ligne|Type montant|Afficher|  
-    |-------|-----------|-------------|--------|--------|---  ------|----| |C10|Montant|Solde période|Écritures|Montant net|Toujours|  
-    |C20|Montant jusque date|Solde au|Ecritures|Montant net|Toujours|  
-    |C30|Exercice complet|Exercice complet|Ecritures|Montant net|Toujours|  
+    |N° ligne totalisation|Description|Type totalisation|Totalisation|Type ligne|Type montant|Afficher|  
+    |-------|-----------|-------------|--------|--------|-----------|----|
+    |C10|Montant|Solde période|Écritures|Montant net|Toujours|  
+    |C20|Montant jusque date|Solde au|Écritures|Montant net|Toujours|  
+    |C30|Exercice comptable|Exercice comptable|Écritures|Montant net|Toujours|  
 
 4.  Cliquez sur le bouton **OK**.  
 

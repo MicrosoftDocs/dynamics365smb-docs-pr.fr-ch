@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a26cafc11479d7065645947f63fa93d28ddb824f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 3106cb9b89f25470c433b6f33e0e541bcf7c8e31
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246032"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307459"
 ---
 # <a name="design-details-assembly-order-posting"></a>Détails de conception : validation d'ordre d'assemblage
 La validation d'ordre d'assemblage est basée sur les mêmes principes que la validation des activités similaires des commandes vente et de la consommation de production/production. Cependant, les principes sont combinés du fait que les ordres d'assemblage ont leur propre interface utilisateur de validation, comme celle des commandes vente, alors que la validation des écritures réelle se produit en arrière-plan en tant que validations directes d'article et de feuille ressource, comme pour la consommation de production, la production et la capacité.  
@@ -96,11 +96,11 @@ Ceci est activé par la structure de données suivante.
 
 En outre, les champs de groupe comptabilisation dans l'en-tête d'ordre d'assemblage et les lignes d'ordre d'assemblage sont renseignés par défaut comme suit.  
 
-|Entité|Type|Groupe comptabilisation|Groupe compta. produit|  
+|Entité|Type|Groupe comptabilisation|Groupe. Groupe compta. produit|  
 |------------|----------|-------------------|------------------------------|  
-|En-tête d'ordre d'assemblage|Article ;|Groupe compta. stock|Groupe compta. produit|  
-|Ligne d'ordre d'assemblage|Article ;|Groupe compta. stock|Groupe compta. produit|  
-|Ligne d'ordre d'assemblage|Ressource||Groupe compta. produit|  
+|En-tête d'ordre d'assemblage|Article ;|Groupe compta. stock|Groupe. Groupe compta. produit|  
+|Ligne d'ordre d'assemblage|Article ;|Groupe compta. stock|Groupe. Groupe compta. produit|  
+|Ligne d'ordre d'assemblage|Ressource||Groupe. Groupe compta. produit|  
 
 Par conséquent, seuls les coûts réels sont validés dans la comptabilité, et aucun compte d'attente n'est renseigné à partir de la validation d'ordre d'assemblage. Pour plus d'informations, voir [Détails de conception : comptes de la comptabilité](design-details-accounts-in-the-general-ledger.md).  
 

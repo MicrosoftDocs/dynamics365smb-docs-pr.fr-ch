@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 04/05/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 3139273b09a223c84c452b5fbe2ee8b637a4c493
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 9ba3997b20c86c5ddd3bf3f21a6a9455b4f54ec6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251024"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311491"
 ---
-# <a name="setting-up-included365finincludesd365finmdmd"></a>Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="setting-up-included365finincludesd365fin_mdmd"></a>Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] comprend des configurations standard pour la plupart des processus entreprise, mais vous pouvez les modifier pour les adapter aux besoins de votre société.
 
 Par exemple, votre plan comptable est prérempli avec un certain nombre de comptes de validation prêts à l'emploi. Vous pouvez, bien évidemment, modifier le plan comptable pour l'adapter à vos besoins. Pour plus d'informations, reportez-vous à [Finances](finance.md).
@@ -47,7 +47,7 @@ Certaines fonctionnalités (générales ou pour des processus d'entreprise spéc
 |Utilisez les complément Outlook de Business Central, vous pouvez afficher des informations financières associées à des clients et des fournisseurs ou créer et envoyer des documents financiers, comme des devis et des factures.|[Utilisation de Business Central en tant que boîte de réception professionnelle dans Outlook](admin-outlook.md)|
 |Obtenez un aperçu de vos données Business Central avec Power BI et les packs de contenu Business Central.|[Activation de vos données commerciales pour Power BI](admin-powerbi.md)|
 |Utilisez vos données Business Central en tant que partie du flux de travail dans Microsoft Flow.|[Utilisation de Business Central dans un flux automatisé](across-how-use-financials-data-source-flow.md)|
-|Rendez vos données Business Central disponibles sous forme de source de données dans PowerApps.|[Connexion à vos données Business Central pour générer un application professionnelle à l'aide de PowerApps](across-how-use-financials-data-source-powerapps.md)|
+|Rendez vos données Business Central disponibles sous forme de source de données dans PowerApps.|[Connexion à vos données Business Central pour générer une application professionnelle à l'aide de PowerApps](across-how-use-financials-data-source-powerapps.md)|
 |Utilisez des guides dédiés de migration Quickbooks.|[Passage d'une application QuickBooks à Business Central](across-quickbooks-to-business-edition.md)|
 |Accédez à vos données Business Central à partir de votre périphérique mobile.|[Obtention de Business Central sur votre périphérique mobile](install-mobile-app.md)|
 |Effectuez la facturation en vrac des rendez-vous créés dans Bookings.|[Facturation en vrac pour Microsoft Bookings](finance-bookings.md)|

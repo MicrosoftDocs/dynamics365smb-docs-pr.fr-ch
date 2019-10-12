@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cancel, undo, correct
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 78a67f214de9e3d4d1df673a21c5a2c1b3ec1f64
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 496873cf36ec696b081f7f29bcf8b2b9bb3c026f
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252542"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312523"
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Traiter les retours ou annulations d'achats
 Si vous souhaitez retourner des articles à votre fournisseur ou annuler des services que vous avez achetés, vous pouvez créer et valider un avoir achat qui indique la modification demandée par rapport à la facture achat d'origine. Pour inclure les informations de facture achat correctes, vous pouvez créer l'avoir achat à partir de la facture achat enregistrée ou vous pouvez créer un avoir achat avec les informations copiées de la facture.
@@ -119,7 +119,7 @@ L'avoir achat est supprimé et remplacé par un nouveau document dans la liste d
 
     -   Si la ligne document validée contient des lignes traçabilité, le champ **Écr. article à lettrer** sur les lignes traçabilité est renseigné à l'aide des numéros d'écriture comptable article appropriés des lignes traçabilité validées.  
 
-     Lors de la copie à partir d'une facture ou d'un avoir enregistré, le programme copie les remises facture et les remises ligne adéquates comme valides au moment de la validation de ce document, de la ligne document validée vers la nouvelle ligne document. Notez toutefois que si l'option **Calculer remise facture** est activée sur la page **Paramètres achats**, la remise facture est de nouveau calculée lorsque vous validez la nouvelle ligne document. Le montant ligne de la nouvelle ligne peut par conséquent être différent du montant ligne de la ligne document validée, en fonction du nouveau calcul de la remise facture.  
+     Lors de la copie à partir d'une facture ou d'un avoir enregistré, l'application copie les remises facture et les remises ligne adéquates comme valides au moment de la validation de ce document, de la ligne document validée vers la nouvelle ligne document. Notez toutefois que si l'option **Calculer remise facture** est activée sur la page **Paramètres achats**, la remise facture est de nouveau calculée lorsque vous validez la nouvelle ligne document. Le montant ligne de la nouvelle ligne peut par conséquent être différent du montant ligne de la ligne document validée, en fonction du nouveau calcul de la remise facture.  
 
     > [!NOTE]  
     >  Si une partie de la quantité de la ligne document validée a déjà été contrepassée ou vendue ou consommée, une ligne n'est créée que pour la quantité restant en stock ou qui n'a pas encore été retournée. Si la quantité totale de la ligne document validée a déjà été contrepassée, aucune ligne document n'est créée.  
@@ -161,7 +161,7 @@ Lorsque vous expédiez ces articles, vous validez les commandes retour achat ass
 
 Lorsque vous êtes prêt à facturer ces articles, au lieu de facturer séparément chaque retour achat, vous pouvez créer un avoir achat et copier automatiquement dans ce document les lignes expédition retour achat validées. Il vous suffit alors de valider l'avoir achat et de facturer en une fois tous les retours achat ouverts.  
 
-Lorsque des expéditions retour sont regroupées sur un avoir et validées, un avoir achat validé est créé pour les lignes facturées. Le champ **Quantité facturée** sur le retour achat d'origine est mis à jour en fonction de la quantité facturée. Comme ce retour achat d'origine n'est toutefois pas supprimé, même s'il a été entièrement reçus et facturés, vous devez supprimer le retour achat manuellement.
+Lorsque des expéditions retour sont regroupées sur un avoir et validées, un avoir achat validé est créé pour les lignes facturées. Le champ **Quantité facturée** sur le retour achat d'origine est mis à jour en fonction de la quantité facturée. Comme ce retour achat d'origine n'est toutefois pas supprimé, même s'il a été entièrement reçu et facturé, vous devez supprimer le retour achat manuellement.
 
 > [!NOTE]  
 > Dans la procédure suivante, on suppose qu'il existe plusieurs retours achat pour le fournisseur et qu'ils ont été validés comme étant expédiés.     

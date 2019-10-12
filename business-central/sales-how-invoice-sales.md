@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 08/19/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 53f2356299bfa21efda3ec4c98dacfca68539dea
-ms.sourcegitcommit: 81b6062194bf04d8052a3cd394cc0b41e3f53e6d
+ms.openlocfilehash: ccc909b56e3d1d1d48915470b819be2c91c92b9b
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "1887614"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312211"
 ---
 # <a name="invoice-sales"></a>Facturer des ventes
 Vous créez une facture vente ou une commande vente pour enregistrer votre accord avec un client pour vendre certains produits selon certaines conditions de livraison et de paiement.  
@@ -69,7 +69,7 @@ Vous pouvez remplir les champs relatifs au client sur la facture vente de deux f
 11. Dans le champ **Quantité**, entrez le nombre d'unités du produit, de frais ou de la transaction que la ligne enregistre pour le client.  
 
     > [!NOTE]  
-    >   Si l'article est de type **Service** ou si le champ **Type** contient **Ressource**, la quantité est alors une unité de temps, telle que les heures, comme indiqué dans le champ **Code unité** de la ligne.  
+    > Si l'article est de type **Service** ou si le champ **Type** contient **Ressource**, la quantité est alors une unité de temps, telle que les heures, comme indiqué dans le champ **Code unité** de la ligne. Pour plus d'informations, reportez-vous à [Configuration d'unités article](inventory-how-setup-units-of-measure.md)
 
     La valeur du champ **Montant ligne** est calculée comme suit : *Prix unitaire* x *Quantité*.  
 

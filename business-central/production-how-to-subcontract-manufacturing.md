@@ -8,23 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1dac30e8c48e37464bc503fcc1d2961cc5721868
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 020fde81b868a2aba65ae5d5acae2047a007eaa5
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253025"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313075"
 ---
 # <a name="subcontract-manufacturing"></a>Sous-traiter la production
 La sous-traitance des opérations sélectionnées au fournisseur est courante dans de nombreuses sociétés de production. La sous-traitance peut être occasionnelle ou faire partie intégrante des processus de production.
 
-Le programme fournit plusieurs outils pour gérer le travail de sous-traitance :  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] fournit plusieurs outils pour gérer le travail de sous-traitance :  
 
 - Centre de charge avec fournisseur affecté : cette fonctionnalité permet de configurer un centre de charge associé à un fournisseur (sous-traitant). Il s'agit d'un centre de charge sous-traitant. Vous pouvez spécifier un centre de charge sous-traitant sur une opération de gamme, ce qui permet de traiter aisément l'activité sous-traitée. En outre, le coût de l'opération peut être indiqué au niveau de la gamme ou du centre de charge.  
-- Coût du centre de charge basé sur des unités de temps : cette fonctionnalité permet de spécifier si les coûts associés au centre de charge sont basés sur le temps de fabrication ou un coût unitaire. Bien que les sous-traitants utilisent généralement un coût unitaire pour facturer leurs services, le programme peut gérer les deux options (temps de fabrication et coût unitaire).  
-- Propositions sous-traitance : cette fonctionnalité vous permet de rechercher les ordres de fabrication dont les matériaux sont prêts pour envoi à un sous-traitant et de créer automatiquement des commandes achat pour sous-traiter des opérations à partir de gammes d'ordre de fabrication. Ensuite, le programme valide automatiquement les frais de commande achat dans l'ordre de fabrication durant la validation de la commande achat. Seuls les ordres de fabrication dont l'état est lancé sont accessibles et utilisables à partir d'une proposition sous-traitance.  
+- Coût du centre de charge basé sur des unités de temps : cette fonctionnalité permet de spécifier si les coûts associés au centre de charge sont basés sur le temps de fabrication ou un coût unitaire. Bien que les sous-traitants utilisent généralement un coût unitaire pour facturer leurs services, l'application peut gérer les deux options (temps de fabrication et coût unitaire).  
+- Propositions sous-traitance : cette fonctionnalité vous permet de rechercher les ordres de fabrication dont les matériaux sont prêts pour envoi à un sous-traitant et de créer automatiquement des commandes achat pour sous-traiter des opérations à partir de gammes d'ordre de fabrication. L'application valide automatiquement les frais de commande achat dans l'ordre de fabrication durant la validation de la commande achat. Seuls les ordres de fabrication dont l'état est lancé sont accessibles et utilisables à partir d'une proposition sous-traitance.  
 
 ## <a name="subcontract-work-centers"></a>Centres de charge sous-traitants  
 Les centres de charge sous-traitants sont configurés de la même manière que les centres de charge ordinaires avec des informations supplémentaires. Ils sont affectés à des gammes de la même manière que d'autres centres de charge.  

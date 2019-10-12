@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 73cbd1f7a36e9493495464357117e28732cf5cd2
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 753e76ae1c1ca120896d71ade44222864658fded
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249805"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314643"
 ---
 # <a name="create-bins"></a>Créer emplacements
 La méthode la plus efficace pour créer les emplacements de votre entrepôt consiste à générer des groupes d'emplacements identiques dans la feuille de création d'emplacements, mais vous pouvez également créer vos emplacements séparément à partir de la fiche magasin. Vous pouvez également utiliser une fonction de la page **Feuille création emplacement** pour créer des emplacements automatiquement.  
@@ -60,15 +60,15 @@ Pour travailler avec la page **Feuille création emplacement**, vous devez être
     > [!NOTE]  
     >  Le nombre de caractères saisis dans les champs des trois catégories \(par exemple, les caractères saisis dans les trois champs **Du n°**\), auxquels s'ajoutent les éventuels séparateurs de champs, doit être inférieur ou égal à 20.  
 
-     Vous pouvez utiliser des lettres dans le code, mais la lettre utilisée doit être identique dans les champs **Du n°** et **Au n°** . Par exemple, vous pouvez définir la partie Travée du code de la manière suivante : **Du n° A01** et **Au n° A10**. Le programme n'est pas configuré pour générer des codes comprenant des suites de lettres (par exemple, de A01 à F05).  
+     Vous pouvez utiliser des lettres dans le code, mais la lettre utilisée doit être identique dans les champs **Du n°** et **Au n°** . Par exemple, vous pouvez définir la partie Travée du code de la manière suivante : **Du n° A01** et **Au n° A10**. L'application n'est pas configurée pour générer des codes comprenant des suites de lettres (par exemple, de A01 à F05).  
 
 6.  Si vous souhaitez qu'un caractère (par exemple, un trait d'union) sépare les champs des catégories que vous avez définis comme faisant partie du code emplacement, renseignez le champ **Séparateur de champs** avec ce caractère.  
-7.  Pour que le programme ne crée pas de ligne pour un emplacement si elle existe déjà, sélectionnez le champ **Vérifier existence emplacement**.  
+7.  Pour que l'application ne crée pas de ligne pour un emplacement si elle existe déjà, sélectionnez le champ **Vérifier existence emplacement**.  
 8. Une fois le remplissage de toutes les lignes terminé, sélectionnez le bouton **OK**.
 
-    Le programme crée dans la feuille une ligne pour chaque emplacement. Vous pouvez maintenant supprimer certains emplacements, par exemple si vous avez un casier qui vous permet d'accéder aux deux premiers niveaux de deux sections.  
+    L'application crée dans la feuille une ligne pour chaque emplacement. Vous pouvez maintenant supprimer certains emplacements, par exemple si vous avez un casier qui vous permet d'accéder aux deux premiers niveaux de deux sections.  
 
-9. Lorsque vous avez supprimé tous les emplacements inutiles, choisissez l'action **Créer emplacements** pour que le programme crée des emplacements pour chaque ligne de la feuille.  
+9. Lorsque vous avez supprimé tous les emplacements inutiles, choisissez l'action **Créer emplacements** pour que l'application crée des emplacements pour chaque ligne de la feuille.  
 
 Répétez l'opération pour un autre ensemble d'emplacements jusqu'à ce que vous ayez créé tous les emplacements de votre entrepôt.  
 

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 660cb4d9f2238bffeb1c7eaf49d5d70dbb654f45
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 825658d88ea38a3c0c93d77c760707ae086f796f
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244806"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2306224"
 ---
 # <a name="record-and-reimburse-employees-expenses"></a>Enregistrer et rembourser les frais des employés
 [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge les transactions des employés de la même manière que pour les fournisseurs. Par conséquent, les groupes comptabilisation des salariés existent pour s'assurer que les écritures comptables d'un salarié sont validées dans les comptes appropriés de la comptabilité.
@@ -55,6 +55,6 @@ Appliquez les paiements des employés à leurs écritures comptables salariés o
 ## <a name="see-also"></a>Voir aussi
 [Valider les transactions directement vers la comptabilité](finance-how-post-transactions-directly.md)  
 [Utilisation de feuilles comptabilité](ui-work-general-journals.md)  
-[Inversion d'une validation](finance-how-reverse-journal-posting.md)  
+[Inversion d'une validation feuille et annuler les réceptions/envois](finance-how-reverse-journal-posting.md)  
 [Finances](finance.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

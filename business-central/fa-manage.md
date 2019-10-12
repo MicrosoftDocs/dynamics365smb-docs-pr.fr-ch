@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: fabff17b66dd3d5a8c57537df34bddedba0d7248
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: b2f9a47ac12544d3ede5b01c7a45b50edb2d156b
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243863"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2306547"
 ---
 # <a name="fixed-assets"></a>COMPTES D'IMMOBILISATIONS
 Le module Immobilisations dans [!INCLUDE[d365fin](includes/d365fin_md.md)] offre un aperçu des immobilisations et garantit un amortissement périodique correct. Elle vous permet également de connaître les coûts de maintenance, de gérer les polices d'assurance, de valider les transactions d'immobilisations, et de générer des états et des statistiques variés.
@@ -50,7 +50,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 
 ## <a name="see-also"></a>Voir aussi
 [Paramétrage d'immobilisations](fa-setup.md)  
-[Modification des fonctionnalités affichées](ui-experiences.md)  
+[Modifier les fonctionnalités affichées](ui-experiences.md)  
 [Finances](finance.md)  
 [Mise en route](product-get-started.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

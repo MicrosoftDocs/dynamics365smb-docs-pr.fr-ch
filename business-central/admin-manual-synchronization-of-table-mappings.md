@@ -1,6 +1,6 @@
 ---
 title: Synchronisation manuelle des mappages de table | Microsoft Docs
-description: La synchronisation copie les données entre les écritures Dynamics 365 for Sales et Business Central pour conserver les deux systèmes à jour.
+description: La synchronisation copie les données entre les écritures Dynamics 365 Sales et Business Central pour conserver les deux systèmes à jour.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 71284c8a2824e63c21768f2db55edb501486424d
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.openlocfilehash: 4aa56deaef4cd32f58fe4ad17abbc72a58b94ed9
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629565"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307963"
 ---
 # <a name="manually-synchronize-table-mappings"></a>Synchroniser manuellement les mappages de table
 Un mappage de table d'intégration associe une table [!INCLUDE[d365fin](includes/d365fin_md.md)] (type d'enregistrement), telle qu'un client, à une entité [!INCLUDE[crm_md](includes/crm_md.md)], telle qu'un compte. Synchroniser un mappage de table d'intégration vous permet de synchroniser les données dans tous les enregistrements de la table [!INCLUDE[d365fin](includes/d365fin_md.md)] et de l'entité [!INCLUDE[crm_md](includes/crm_md.md)] qui sont couplés. En outre, selon la configuration du mappage de la table, la synchronisation peut créer et coupler de nouveaux enregistrements dans la solution de destination pour les enregistrements non couplés dans le source.  
@@ -39,13 +39,13 @@ La condition de création d'un enregistrement et son emplacement de création d�
 
 Les projets sont exécutés dans l'ordre suivant pour éviter les dépendances de couplage entre les entités.  
 
-1.  Projet de synchronisation DEVISE - Dynamics 365 for Sales  
-2.  Projet de synchronisation VENDEURS - Dynamics 365 for Sales  
-3.  Projet Synchronisation UNITÉ DE MESURE - Dynamics 365 for Sales  
-4.  Projet de synchronisation CLIENT - Dynamics 365 for Sales  
-5.  Projet de synchronisation CONTACTS - Dynamics 365 for Sales  
-6.  Projet de synchronisation RESSOURCE-PRODUIT - Dynamics 365 for Sales  
-7.  Projet de synchronisation ARTICLE-PRODUIT - Dynamics 365 for Sales  
+1.  Projet de synchronisation Dynamics 365 Sales - DEVISE  
+2.  Projet de synchronisation Dynamics 365 Sales - VENDEURS  
+3.  Projet de synchronisation Dynamics 365 Sales - UNITÉ DE MESURE  
+4.  Projet de synchronisation Dynamics 365 Sales - CLIENT  
+5.  Projet de synchronisation Dynamics 365 Sales - CONTACTS  
+6.  Projet de synchronisation Dynamics 365 Sales - RESSOURCE-PRODUIT  
+7.  Projet de synchronisation Dynamics 365 Sales - ARTICLE-PRODUIT  
 
 > [!IMPORTANT]  
 >  Généralement, vous utilisez uniquement la synchronisation complète lors de la configuration initiale de l'intégration entre [!INCLUDE[d365fin](includes/d365fin_md.md)] et [!INCLUDE[crm_md](includes/crm_md.md)] et lorsqu'une seule des solutions contient des données que vous souhaitez copier vers l'autre solution. Une synchronisation complète peut être utile dans un environnement de démonstration. Parce que la synchronisation complète crée et couple automatiquement les enregistrements entre les solutions, il est plus rapide de commencer à travailler avec la synchronisation des données entre les enregistrements. D'autre part, vous devez exécuter une synchronisation complète uniquement si vous souhaitez un enregistrement dans [!INCLUDE[d365fin](includes/d365fin_md.md)] pour chaque enregistrement dans [!INCLUDE[crm_md](includes/crm_md.md)] pour les mappages de table donnés. Sinon, vous vous exposez à un risque d'enregistrements non désirés ou en double dans [!INCLUDE[d365fin](includes/d365fin_md.md)] ou [!INCLUDE[crm_md](includes/crm_md.md)].  
@@ -54,7 +54,7 @@ Les projets sont exécutés dans l'ordre suivant pour éviter les dépendances d
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085502]
 
 ### <a name="to-run-a-full-synchronization"></a>Pour exécuter une synchronisation complète  
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Configuration de la connexion Microsoft Dynamics 365 for Sales**, puis choisissez le lien associé.
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Configuration de la connexion Microsoft Dynamics 365 Sales**, puis choisissez le lien associé.
 2.  Choisissez l'action **Exécuter une synchronisation complète**, puis cliquez sur le bouton **Oui**.  
 3.  Une fois la synchronisation complète terminée, vous pouvez préciser si vous laissez les projets de synchronisation prévus créer de nouveaux enregistrements.  
 
@@ -65,15 +65,15 @@ Les projets sont exécutés dans l'ordre suivant pour éviter les dépendances d
 Vous pouvez afficher les résultats de la synchronisation complète sur la page **Projets de synchronisation d'intégration**. Pour plus d'informations, voir [Afficher le statut d'une synchronisation](admin-how-to-view-synchronization-status.md).  
 
 ## <a name="synchronizing-all-modified-records"></a>Synchronisation de tous les enregistrements modifiés
-Vous pouvez utiliser la page **Configuration de la connexion Microsoft Dynamics 365 for Sales** pour synchroniser les modifications des données dans tous les mappages de table d'intégration. Ce processus est similaire à une synchronisation complète. Cela synchronisera les données dans tous les enregistrements couplés dans les tables [!INCLUDE[d365fin](includes/d365fin_md.md)] et les entités [!INCLUDE[crm_md](includes/crm_md.md)] définies dans les mappages de table. Par défaut, seuls les enregistrements qui ont été modifiés depuis la dernière synchronisation seront synchronisés. Les mappages de table sont synchronisés dans l'ordre suivant pour éviter les dépendances de couplage entre les entités :  
+Vous pouvez utiliser la page **Configuration de la connexion Microsoft Dynamics 365 Sales** pour synchroniser les modifications des données dans tous les mappages de table d'intégration. Ce processus est similaire à une synchronisation complète. Cela synchronisera les données dans tous les enregistrements couplés dans les tables [!INCLUDE[d365fin](includes/d365fin_md.md)] et les entités [!INCLUDE[crm_md](includes/crm_md.md)] définies dans les mappages de table. Par défaut, seuls les enregistrements qui ont été modifiés depuis la dernière synchronisation seront synchronisés. Les mappages de table sont synchronisés dans l'ordre suivant pour éviter les dépendances de couplage entre les entités :  
 
-1.  Projet de synchronisation DEVISE - Dynamics 365 for Sales  
-2.  Projet de synchronisation VENDEURS - Dynamics 365 for Sales  
-3.  Projet Synchronisation UNITÉ DE MESURE - Dynamics 365 for Sales  
-4.  Projet de synchronisation CLIENT - Dynamics 365 for Sales  
-5.  Projet de synchronisation CONTACTS - Dynamics 365 for Sales  
-6.  Projet de synchronisation RESSOURCE-PRODUIT \- Dynamics 365 for Sales  
-7.  Projet de synchronisation ARTICLE-PRODUIT - Dynamics 365 for Sales  
+1.  Projet de synchronisation Dynamics 365 Sales - DEVISE  
+2.  Projet de synchronisation Dynamics 365 Sales - VENDEURS  
+3.  Projet de synchronisation Dynamics 365 Sales - UNITÉ DE MESURE  
+4.  Projet de synchronisation Dynamics 365 Sales - CLIENT  
+5.  Projet de synchronisation Dynamics 365 Sales - CONTACTS  
+6.  Projet de synchronisation Dynamics 365 Sales \- RESSOURCE-PRODUIT  
+7.  Projet de synchronisation Dynamics 365 Sales - ARTICLE-PRODUIT  
 
 Vous pouvez afficher les résultats de la synchronisation sur la page **Projets de synchronisation d'intégration**. Pour plus d'informations, voir [Afficher le statut d'une synchronisation](admin-how-to-view-synchronization-status.md).  
 
@@ -81,7 +81,7 @@ Vous pouvez afficher les résultats de la synchronisation sur la page **Projets 
 >  En modifiant le mappage de table d'intégration à l'avance, vous pouvez configurer la synchronisation avec des filtres pour contrôler quels enregistrements sont synchronisés ou configurez-le pour créer de nouveaux enregistrements dans la solution de destination pour les enregistrements non couplés dans la source. Pour en savoir plus, voir [Modifier les mappages de table pour la synchronisation](admin-how-to-modify-table-mappings-for-synchronization.md).
 
 ### <a name="to-synchronize-records-for-all-tables"></a>Pour synchroniser les enregistrements pour toutes les tables  
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Configuration de la connexion Microsoft Dynamics 365 for Sales**, puis choisissez le lien associé.
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Configuration de la connexion Microsoft Dynamics 365 Sales**, puis choisissez le lien associé.
 2.  Choisissez l'action **Synchroniser les enregistrements modifiés**, puis sélectionnez **Oui**.  
 
 ## <a name="synchronize-individual-table-mappings"></a>Synchroniser les mappages de table individuels
@@ -94,5 +94,5 @@ En modifiant le mappage de la table d'intégration à l'avance, vous pouvez conf
 2.  Choisissez l'action **Synchroniser les enregistrements modifiés**, puis sélectionnez **Oui**.  
 
 ## <a name="see-also"></a>Voir aussi  
-[Synchronisation de Business Central et de Dynamics 365 for Sales](admin-synchronizing-business-central-and-sales.md)   
-[Configuration des comptes d'utilisateur pour intégration à Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)   
+[Synchronisation de Business Central et Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)   
+[Configuration des comptes d'utilisateur pour l'intégration à Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)   

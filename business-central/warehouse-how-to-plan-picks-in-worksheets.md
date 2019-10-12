@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f0bf6da083b69d76c3f2ad75e8fb9b9d6bfdc5d9
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: b3f3cf5befb5bcca602b67cdc1f6de6d50ddd320
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248540"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313967"
 ---
 # <a name="plan-picks-in-worksheets"></a>Planifier des prélèvements dans la feuille
 Lorsque l'entrepôt est configuré pour appeler un traitement de prélèvement et d'expédition, le fonctionnement de l'entrepôt peut être établi de telle sorte que les lignes des documents expédition ne soient pas automatiquement transformées en instructions de prélèvement, mais soient plutôt activées sur la feuille prélèvement.  
@@ -25,7 +25,7 @@ Lorsque l'entrepôt est configuré pour appeler un traitement de prélèvement e
 > [!NOTE]  
 >  Si des instructions de prélèvement entrepôt ont déjà été créées et que vous souhaitez les combiner pour former une instruction de prélèvement plus efficace, supprimez les prélèvements entrepôt individuels. Les lignes à prélever sont alors listées dans la feuille.  
 
-Dans la feuille prélèvement, vous pouvez définir des listes de prélèvement pour les employés de manière à réduire au minimum leurs déplacements dans l'entrepôt lors du prélèvement des articles. Les champs contiennent des informations concernant les quantités d'articles disponibles dans les emplacements de transbordement. En cas de transbordement, ces champs vous permettent de planifier l'affectation des tâches, car le programme propose toujours en priorité de prélever un article dans un emplacement de transbordement avant de le prélever dans un autre emplacement, quelle que soit l'unité de mesure de l'article. Les lignes de la feuille peuvent provenir d'un certain nombre de documents origine et être triées par article, numéro emplacement, document origine, date d'échéance ou adresse destinataire.  
+Dans la feuille prélèvement, vous pouvez définir des listes de prélèvement pour les employés de manière à réduire au minimum leurs déplacements dans l'entrepôt lors du prélèvement des articles. Les champs contiennent des informations concernant les quantités d'articles disponibles dans les emplacements de transbordement. En cas de transbordement, ces champs vous permettent de planifier l'affectation des tâches, car l'application propose toujours en priorité de prélever un article dans un emplacement de transbordement avant de le prélever dans un autre emplacement, quelle que soit l'unité de mesure de l'article. Les lignes de la feuille peuvent provenir d'un certain nombre de documents origine et être triées par article, numéro emplacement, document origine, date d'échéance ou adresse destinataire.  
 
 Si vous triez par date d'échéance, vous pouvez choisir d'effacer de la feuille toutes les lignes à l'exception de celles nécessitant un traitement immédiat. Les lignes moins urgentes ne sont pas effacées mais renvoyées à la feuille **sélection prélèvement**. Lorsque vous créez le prélèvement, les lignes sont déjà triées par date d'échéance et vous pouvez choisir d'affecter le prélèvement à un employé donné.  
 

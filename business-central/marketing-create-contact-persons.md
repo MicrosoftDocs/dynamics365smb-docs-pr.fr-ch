@@ -8,15 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: jswymer
 redirect_url: marketing-create-contact-companies
-ms.openlocfilehash: 1720bc633599a9568279b219e579c8df81b7b697
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 9a212a5c0b210220ff093eb972de6bfdf5da1f35
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238455"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309283"
 ---
 # <a name="creating-contact-persons"></a>Création de personnes contact
 Vous créez un contact en configurant une fiche contact pour la personne. Vous pouvez créer des personnes contact à partir de sociétés contact existantes ou des personnes contact indépendantes.

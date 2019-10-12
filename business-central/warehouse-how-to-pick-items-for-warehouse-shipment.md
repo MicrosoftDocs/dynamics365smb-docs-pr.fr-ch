@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1ed82fcc3ddb7d49f9139fef654402a5bf1ee615
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: b136b5a1c06ee61313596f7613cb99fb4bf11e86
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248632"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313991"
 ---
 # <a name="pick-items-for-warehouse-shipment"></a>Prélever des articles pour l'expédition entrepôt
 Lorsque le magasin est configuré pour appeler un traitement de prélèvement entrepôt et un traitement d'expédition entrepôt, vous pouvez utiliser les documents prélèvement entrepôt pour créer et traiter les informations préalables à la validation de l'expédition entrepôt.  

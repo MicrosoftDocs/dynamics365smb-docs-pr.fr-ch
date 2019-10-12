@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: d3c3a460cd13d0af16e38564d4b2fb0de367ed53
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: bdb6339715fd656a7c8e25b7d35b337c17da1b97
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252220"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311707"
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Utiliser des contrats de service et des devis contrat de service
 Vous pouvez créer un contrat de service manuellement ou à partir d'un devis contrat de service. Vous pouvez utiliser un devis contrat de service en tant qu'étape préliminaire d'un contrat de service, dans laquelle votre société fait une offre au client et qui nécessite d'obtenir l'approbation du client pour pouvoir être convertie en contrat de service. Les procédures de création d'un contrat de service ou d'un devis contrat de service sont identiques.  
@@ -28,14 +28,14 @@ Vous pouvez créer un contrat de service manuellement ou à partir d'un devis co
 3. Renseignez le champ **N°** . Une boîte de dialogue s'ouvre, vous demandant si vous souhaitez renseigner les données communes à partir d'un modèle contrat. Si vous souhaitez créer un tel contrat de service ou devis contrat de service, sélectionnez le bouton **Oui**. La page **Liste des modèles contrat de service** s'ouvre.  
 4. Sélectionnez le modèle approprié, puis choisissez **OK** afin de l'utiliser pour créer le contrat de service ou le devis contrat de service.  
 5. Dans le champ **N° client**, choisissez le client.  
-6. Si vous ne souhaitez pas qu'une différence du montant annuel soit répartie automatiquement, choisissez la case à cocher **Autoriser montants non soldés**. Les valeurs des champs **Montant annuel** et **Montant annuel calculé** ne sont pas automatiquement égalisées. Si vous souhaitez que le programme répartisse automatiquement toutes les différences de montant annuel qui peuvent survenir suite à une modification du contrat de service, ne sélectionnez pas la case à cocher **Autoriser montants non soldés**.  
+6. Si vous ne souhaitez pas qu'une différence du montant annuel soit répartie automatiquement, choisissez la case à cocher **Autoriser montants non soldés**. Les valeurs des champs **Montant annuel** et **Montant annuel calculé** ne sont pas automatiquement égalisées. Si vous souhaitez que l'application répartisse automatiquement toutes les différences de montant annuel qui peuvent survenir suite à une modification du contrat de service, ne sélectionnez pas la case à cocher **Autoriser montants non soldés**.  
 7. Ajoutez des lignes contrat au contrat de service ou devis contrat de service.  
 8. Renseignez les autres champs si nécessaire.  
 
 ## <a name="to-convert-a-service-contract-quote-to-service-contract"></a>Pour convertir un devis contrat de service en contrat de service  
 Lorsqu'un client accepte un devis contrat de service, vous le convertissez en contrat de service. Vous pouvez en même temps créer une facture service pour la période de début du contrat si la date début de ce contrat est antérieure au début de la prochaine période de facturation.
 
-Une fois les étapes suivantes effectuées, un contrat de service est créé avec le statut **Signé**. Si une facture service est crée pour la période de début du contrat, le montant facturé est calculé comme suit, selon que le montant est détaillé ou non.  
+Une fois les étapes suivantes effectuées, un contrat de service est créé avec le statut **Signé**. Si une facture service est créée pour la période de début du contrat, le montant facturé est calculé comme suit, selon que le montant est détaillé ou non.  
 
 Pour les contrats détaillés, le montant facturé est calculé de la manière suivante :  
 

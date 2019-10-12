@@ -10,22 +10,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, stream, bank account link
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 53ee8bb7ee798c473e1053ea8413be28f9185d1b
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: d79ef7c076ec3a529aeb0c679b8b61658ef65af5
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248218"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315363"
 ---
-# <a name="the-envestnet-yodlee-bank-feeds-extension"></a>L'extension Envestnet Yodlee Bank Feeds
+# <a name="the-envestnet-yodlee-bank-feeds-extension"></a>Extension Envestnet Yodlee Bank Feeds
 Pour rapprocher rapidement des paiements effectués sur vos comptes bancaires, le service Envestnet Yodlee Bank Feeds vous permet de lier votre compte bancaire système à votre compte bancaire en ligne. Cela signifie que le dernier relevé bancaire est automatiquement ou manuellement entré dans votre feuille rapprochement, garantissant que vous traitez toujours les derniers paiements avec un risque minimal d'erreurs.
 
-> [!NOTE]
-> Cette fonctionnalité est seulement prise en charge dans la version en ligne de Business Central. Pour utiliser cette fonctionnalité sur site, vous devez obtenir un compte de cobrand d'Envestnet Yodlee.
+Le service Envestnet Yodlee Bank Feeds n'est pris en charge qu'aux États-Unis et au Canada.
 
-Le service Envestnet Yodlee Bank Feeds fournit les avantages suivants :
+> [!NOTE]
+> Cette fonctionnalité est seulement prise en charge dans la version en ligne de Business Central. Pour utiliser cette fonctionnalité sur site, vous devez obtenir un compte de cobrand d'Envestnet Yodlee.<br /><br />
+
+> [!IMPORTANT]
+> En raison de la nouvelle directive sur les services de paiement en Europe (PSD2), après le 14 septembre 2019, vous ne pourrez plus importer automatiquement des relevés bancaires de banques du Royaume-Uni vers [!INCLUDE[d365fin](includes/d365fin_md.md)]. Nous étudions la possibilité de proposer cette fonctionnalité à l'avenir.
+
+Le service Envestnet Yodlee Bank Feeds offre les avantages suivants :
 
 * Supprime les besoins de saisie manuelle.
 * Améliore l'efficacité et la précision lors des rapprochements de paiements.

@@ -1,59 +1,83 @@
 ---
-title: Procédure de liaison d'un enregistrement à des informations ou programmes externes | Microsoft Docs
+title: Ajouter des pièces jointes, des liens et des notes sur des enregistrements | Microsoft Docs
 description: Joignez un lien hypertexte pointant vers un document ou un site Web à un enregistrement spécifique, tel qu'une fiche client ou un document.
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/12/2019
-ms.author: jswymer
-ms.openlocfilehash: 781f43daf6482c7e29696dc7a03aa021550cde7d
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 84d58193fa7ee272b372403d63702348fbfb1f77
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629772"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315291"
 ---
-# <a name="add-links-to-websites-documents-or-programs-on-records"></a>Ajouter des liens à des sites Web, documents ou programmes sur des enregistrements
-Sur un enregistrement spécifique, comme une fiche client, un document ou une commande vente, vous pouvez ajouter un lien à un document, site Web ou programme externe. Vous pouvez aussi sélectionner un lien qui ouvre un e-mail vierge adressé à un destinataire précis. La page Fiche de certains enregistrements comme les fiches client ou fournisseur, dispose d'un champ **Page d'accueil** dans lequel vous pouvez entrer une adresse Internet (URL). Pour insérer d'autres liens, vous pouvez utiliser la méthode décrite dans cet article.  
+# <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Gérer les pièces jointes, les liens et les notes sur les fiches et les documents
 
-> [!IMPORTANT]
-> Actuellement, cette capacité est disponible uniquement dans les déploiements locaux [!INCLUDE [prodshort](includes/prodshort.md)] avec le client Dynamics NAV Windows hérité.  
+Dans le Récapitulatif de la plupart des fiches et des documents, vous pouvez joindre des fichiers, ajouter des liens et rédiger des notes. Pour les liens et les notes, vous pouvez également le faire sur la page de liste en sélectionnant d’abord la ligne associée.
 
-Un autre exemple est lorsque vous recevez des factures imprimées de fournisseurs. Vous pouvez les numériser et les enregistrer au format .pdf sur un site SharePoint. Ensuite, vous pouvez créer un lien d'une facture achat dans [!INCLUDE[d365fin_md](includes/d365fin_md.md)] vers la facture correspondante sur SharePoint. Vous pouvez aussi créer un lien depuis une fiche article vers la page correspondante du catalogue en ligne de votre fournisseur.
+Pour afficher ou modifier l’un de ces types d’informations jointes, vous devez d’abord ouvrir l'onglet **Pièces jointes** dans le Récapitulatif. Le nombre situé derrière le titre de l'onglet indique le nombre de fichiers, liens ou notes attachés existants pour la fiche ou le document.
 
-## <a name="to-add-a-link-on-a-record"></a>Pour ajouter un lien sur un enregistrement   
+Les pièces jointes, les liens et les notes restent attachés au fur et à mesure du traitement de la fiche ou du document dans d'autres états, par exemple d'une commande client en cours à une facture client enregistrée. Notez cependant qu'aucun type de pièce jointe n'est sorti du système, par exemple lors de l'impression ou de l'enregistrement dans un fichier.
 
-1.  Ouvrez l'enregistrement auquel vous voulez ajouter le lien, par exemple une fiche client ou une commande vente. Pour associer le lien à une ligne spécifique, par exemple une ligne feuille, sélectionnez la ligne.  
+## <a name="to-attach-a-file-to-a-purchase-invoice"></a>Pour joindre un fichier à une facture achat
+Vous pouvez joindre tout type de fichier contenant du texte, des images ou des vidéos à une fiche ou à un document. Ceci est utile, par exemple, lorsque vous souhaitez stocker la facture d’un fournisseur sous forme de fichier PDF sur la facture achat correspondante dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-2.  Choisissez l'action **Liens** pour ouvrir les pages **Liens** qui affichent tous les liens actuels qui sont ajoutés à l'enregistrement.
+> [!NOTE]
+> Les fichiers joints à la fonction Documents entrants ne sont pas inclus dans l'onglet **Pièces jointes**. Pour plus d'informations, voir [Documents entrants](across-income-documents.md).
 
-3. Pour ajouter un nouveau lien, choisissez **+nouveau**.
+La procédure suivante se base sur une commande vente. Les étapes sont similaires pour tous les autres documents et fiches pris en charge.
 
-4.  Dans le champ **Adresse du lien**, entrez
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Factures achat**, puis sélectionnez le lien associé.
+2. Ouvrez les commandes ventes auxquelles vous souhaitez joindre un fichier.
+3. Dans le Récapitulatif, ouvrez l'onglet **Pièces jointes**.
+4. Choisissez la valeur associée au champ **Documents**, telle que « 0 ».
+5. Sur la page **Documents joints**, dans le champ **Pièce jointe**, choisissez le bouton **Sélectionner un fichier**.
+5. Sélectionnez un fichier à n'importe quel emplacement, puis choisissez le bouton **Ouvrir**.
 
-    -   Pour créer un lien vers un fichier sur votre ordinateur ou réseau, entrez le chemin d'accès complet et le nom du fichier, par exemple **C:\Mes documents\invoice1.doc**.
-    -   Pour créer un lien vers un site Web, entrez l'adresse Internet (URL), par exemple **www.microsoft.com**.
-    -   Pour créer un lien vers un programme, entrez une chaîne spécifique pour ouvrir le programme. Par exemple, pour ouvrir OneNote avec une page spécifique, entrez **onenote:///C:\Mes documents/test.one**. Ou, pour ouvrir Outlook avec un e-mail vierge à destination d'un alias spécifique, entrez **mailto:testalias** .  
+Le fichier est désormais joint à la facture achat.
 
-5.  Dans le champ **Désignation**, entrez les informations sur le lien.  
+## <a name="to-add-a-link-from-an-item-card"></a>Pour ajouter un lien à partir d'une fiche article
+Vous pouvez ajouter un lien à partir d'une fiche ou d'un document à n’importe quelle URL ou n’importe quel chemin d'accès. Ceci est utile, par exemple, lorsque vous souhaitez lier une fiche article au catalogue d'articles du fournisseur.
 
-6.  Cliquez sur le bouton **Enregistrer**.  
+La procédure suivante se base sur une fiche article. Les étapes sont similaires pour toutes les autres fiches et tous les documents pris en charge.
 
-## <a name="to-delete-a-link-from-a-record"></a>Pour supprimer un lien dans un enregistrement  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles**, puis sélectionnez le lien associé.
+2. Sélectionnez l'article à partir duquel vous souhaitez ajouter un lien, puis choisissez l'onglet **Pièces jointes** dans le Récapitulatif.
+3. Dans la section **Liens**, choisissez l'icône **+**.
+4. Entrez le lien dans le champ **Adresse du lien**.
 
-Pour supprimer un lien, sur la page **Liens**, vous pouvez sélectionner **…**, puis **Supprimer**.
+    - Pour créer un lien vers un fichier sur votre ordinateur ou réseau, entrez le chemin d'accès complet et le nom du fichier, par exemple **C:\Mes documents\invoice1.doc**.
+    - Pour créer un lien vers un site Web, entrez l'adresse Internet (URL), par exemple **www.microsoft.com**.
+    - Pour créer un lien vers un programme, entrez une chaîne spécifique pour ouvrir le programme. Par exemple, pour ouvrir Outlook avec un e-mail vierge à destination d'un alias spécifique, entrez **mailto:testalias** .  
 
-Si vous supprimez un enregistrement, par exemple, une ligne commande vente, une commande vente ou une fiche client, tous les liens contenus dans l'enregistrement sont supprimés. En revanche, si vous supprimez des enregistrements à l'aide d'un traitement par lots, par exemple, le traitement par lots **Supprimer cdes vente facturées**, les liens sont conservés dans la base de données. Pour supprimer les liens de la base de données, exécutez le codeunit **Supprimer les liens enregistrement orphelins**. Pour cela, choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Supprimer les liens enregistrement orphelins**, puis sélectionnez le lien associé.   
+5. Dans le champ **Description**, entrez les informations sur le lien.  
+6. Cliquez sur le bouton **OK**.
 
-<!-- ### To run delete orphaned record links  
+Le lien est maintenant attaché à la fiche article.  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Deletion**, and then choose the related link.  
+## <a name="to-write-a-note-on-a-sales-order"></a>Pour écrire une note sur une commande client
+Vous pouvez écrire une note sur un document ou une ficher, par exemple pour communiquer des instructions spéciales aux autres utilisateurs du document ou de la fiche. Vous pouvez inclure des liens et des URL de fichier dans les notes.
 
-2.  On the **Data Deletion** page, choose **Tasks**, and then choose **Delete Orphaned Record Links**.  -->
+> [!NOTE]
+> Les notes sur l'onglet **Pièces jointes** ne sont pas liées à la fonctionnalité de notes internes, qui est principalement utilisée pour communiquer entre les utilisateurs de workflows. Pour plus d'informations, reportez-vous à [Configuration de notifications de flux de travail](across-setting-up-workflow-notifications.md).
+
+La procédure suivante se base sur une commande vente. Les étapes sont similaires pour tous les autres documents et fiches pris en charge.
+
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes vente**, puis sélectionnez le lien associé.
+2. Sélectionnez la commande vente pour laquelle vous souhaitez écrire une note, puis choisissez l'onglet **Pièces jointes** dans le Récapitulatif.
+3. Dans la section **Notes**, choisissez l'icône **+**.
+4. Dans le champ **Note**, écrivez n’importe quel texte, par exemple « Ceci est une commande urgente ».
+5. Cliquez sur le bouton **OK**.
+
+La note est maintenant jointe à la commande client.
 
 ## <a name="see-also"></a>Voir aussi  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Documents entrants](across-income-documents.md)  
+[Configuration de notifications de workflow](across-setting-up-workflow-notifications.md)  

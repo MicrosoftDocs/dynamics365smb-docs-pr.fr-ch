@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 993c3b539df3a7479ed97eaf03203e3f1cceb4eb
-ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
+ms.openlocfilehash: f7d907393f765538512a547c8eaa6a3f8963de79
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "1985802"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311065"
 ---
 # <a name="create-and-modify-a-custom-report-or-document-layout"></a>Créer et modifier une présentation de rapport ou de document personnalisée
 Par défaut, un rapport aura une présentation de rapport intégrée, qui peut être soit une présentation de rapport RDLC ou une présentation de rapport Word, ou les deux. Vous ne pouvez pas modifier les présentations intégrées. Cependant, vous pouvez créer vos propres présentations personnalisées qui vous permettent de modifier l'apparence d'un rapport lorsqu'il est consulté, imprimé ou enregistré. Vous pouvez créer plusieurs présentations de rapport personnalisées pour le même rapport, puis faire basculer la présentation utilisée par un rapport selon vos besoins.
@@ -30,18 +30,21 @@ Pour créer une présentation personnalisée, vous pouvez effectuer une copie d'
 ## <a name="to-create-a-custom-layout"></a>Pour créer une présentation personnalisée
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Sélection présentation état**, puis sélectionnez le lien associé.
 
-    La page **Sélection présentation état** répertorie tous les états disponibles pour la société spécifiée dans le champ **Société** en haut de la page.
+    La page **Sélection présentation état** répertorie tous les états disponibles pour la société spécifiée dans le champ **Nom de la société** en haut de la page.
 2. Définissez le champ **Société** sur la société pour laquelle vous souhaitez créer la présentation de rapport.
 3. Sélectionnez la ligne de l'état pour lequel vous souhaitez créer la présentation, puis sélectionnez l'action **Présentations personnalisées**.  
+
    La page **Présentations état personnalisées** s'affiche et répertorie toutes les présentations personnalisées disponibles pour l'état sélectionné.
 4. Si vous souhaitez créer une copie d'une présentation personnalisée existante, sélectionnez cette dernière, puis sélectionnez l'action **Copier**.  
+
    La copie de la présentation personnalisée s'affiche sur la page **Présentations état personnalisées**. Le terme *Copie* figure dans le champ **Description**.
 5. Si vous voulez ajouter une nouvelle présentation personnalisée basée sur une présentation intégrée, procédez comme suit :  
    1. Sélectionnez l'action **Nouveau**. La page **Insérer présentation intégrée pour un état** s'affiche. Les champs **ID** et **Nom** sont automatiquement renseignés.
-   2. Pour ajouter un type de présentation de rapport Word, cochez la case **Insérer présentation Word**.
-   3. Pour ajouter un type de présentation de rapport RDLC, cochez la case **Insérer présentation RDLC**.
-   4. Choisissez le bouton **OK**.  
-      Les nouvelles présentations personnalisées s'affichent sur la page **Présentations état personnalisées**. Si une nouvelle présentation est basée sur une présentation intégrée, les termes **Copie d'une présentation intégrée** figurent dans le champ **Description**. S'il n'y avait aucune présentation intégrée pour l'état, les termes **Nouvelle présentation** figurent dans le champ **Description** de la nouvelle présentation, ce qui indique que la présentation personnalisée est vide.
+   2. Pour ajouter un type de présentation état Word, cochez la case **Insérer présentation Word**.
+   3. Pour ajouter un type de présentation état RDLC, cochez la case **Insérer présentation RDLC**.
+   4. Cliquez sur le bouton **OK**.  
+
+    La nouvelle présentation personnalisée s'affiche désormais sur la page **Présentations état personnalisées**. Si une nouvelle présentation est basée sur une présentation intégrée, les termes **Copie d'une présentation intégrée** figurent dans le champ **Description**. S'il n'y avait aucune présentation intégrée pour l'état, les termes **Nouvelle présentation** figurent dans le champ **Description** de la nouvelle présentation, ce qui indique que la présentation personnalisée est vide.
 6. Par défaut, le champ **Nom de la société** est vide, ce qui signifie que la présentation personnalisée est disponible pour l'état dans toutes les sociétés. Afin que la présentation personnalisée soit disponible pour une société spécifique uniquement, sélectionnez **Modifier**, puis définissez le champ **Nom de la société** sur la société que vous souhaitez.
 
 La présentation personnalisée a été créée. Vous pouvez à présent modifier la présentation personnalisée selon vos besoins.
@@ -100,7 +103,7 @@ L'ajout de champs de données à partir d'un ensemble des données d'état est u
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion des présentations de rapport](ui-manage-report-layouts.md)  
-[Modification de la présentation actuellement utilisée sur un rapport](ui-how-change-layout-currently-used-report.md)  
+[Modifier la présentation actuelle de l'état](ui-how-change-layout-currently-used-report.md)  
 [Importer et exporter une présentation de rapport ou de document personnalisée](ui-how-import-and-export-report-layout.md)  
-[Utilisation des états et des traitements par lots](ui-work-report.md)  
+[Utilisation des états, des traitements par lots et des XMLports](ui-work-report.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

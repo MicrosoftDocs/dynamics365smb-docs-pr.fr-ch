@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0576f2e7b93040118d2ef31458939d9b9822a6aa
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6a327ffa67dcf5f9a388c99b236ce9cbf5755561
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247017"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307555"
 ---
 # <a name="create-reports-with-xbrl"></a>Création d'états avec XBRL
 XBRL, qui signifie eXtensible Business Reporting Language, est basé sur le langage XML et est utilisé pour marquer des données financières et permettre aux sociétés de traiter et de partager leurs données de manière efficace et précise. L'initiative XBRL permet la génération d'états financiers généraux par de nombreux éditeurs de logiciels ERP et organisations comptables internationales. L'objectif de cette initiative et de fournir un standard pour la génération d'états d'informations financières uniformes pour les banques, les investisseurs et les autorités gouvernementales. Les rapports commerciaux générés de cette manière peuvent inclure :  
@@ -34,7 +34,7 @@ Le langage XBRL (e **X**tensible **B**usiness **R**eporting **L**anguage) est ba
 
 Les taxonomies sont tenues à jour par le site www.xbrl.org. Pour télécharger des taxonomies ou pour obtenir plus d'informations, reportez-vous au site Web de XBRL.  
 
-Par exemple, une personne souhaitant obtenir des informations financières à votre sujet peut vous fournir une taxonomie (au format XML) contenant un ou plusieurs schémas, chacun comportant un certain nombre de lignes à renseigner. Ces lignes correspondent aux données financières requises par l'expéditeur. Vous devez importer cette taxonomie dans le programme, puis remplir les schémas en saisissant les comptes correspondant à chaque ligne et le type de période à utiliser, par exemple solde période ou solde au. Dans certains cas, vous devez saisir une constante, comme le nombre d'employés. Vous pouvez alors renvoyer le document instancié (au format XML) à la personne qui vous a demandé les informations. Ainsi, pour les demandes d'informations récurrentes, et à moins que la taxonomie n'ait été modifiée, vous pouvez simplement exporter sur demande de nouveaux documents instanciés correspondant à de nouvelles périodes.  
+Par exemple, une personne souhaitant obtenir des informations financières à votre sujet peut vous fournir une taxonomie (au format XML) contenant un ou plusieurs schémas, chacun comportant un certain nombre de lignes à renseigner. Ces lignes correspondent aux données financières requises par l'expéditeur. Vous devez importer cette taxonomie dans l'application, puis remplir les schémas en saisissant les comptes correspondant à chaque ligne et le type de période à utiliser, par exemple solde période ou solde au. Dans certains cas, vous devez saisir une constante, comme le nombre d'employés. Vous pouvez alors renvoyer le document instancié (au format XML) à la personne qui vous a demandé les informations. Ainsi, pour les demandes d'informations récurrentes, et à moins que la taxonomie n'ait été modifiée, vous pouvez simplement exporter sur demande de nouveaux documents instanciés correspondant à de nouvelles périodes.  
 
 ## <a name="xbrl-is-comprised-of-the-following-components"></a>Le langage XBRL se présente de la manière suivante :  
 La **spécification** XBRL explique le principe du langage XBRL, et indique comment créer des documents instanciés XBRL et des taxonomies XBRL. La spécification XBRL présente le langage XBRL en termes techniques et est destinée à des spécialistes.  
@@ -55,7 +55,7 @@ Une taxonomie peut se composer d'une taxonomie de base, par exemple les taxonomi
 
 -   Liens ressources libellés : Ce lien ressources contient les libellés ou noms des éléments. Ce fichier peut contenir des libellés en plusieurs langues identifiées par l'attribut XML 'lang'. Les identifiants de langue XML sont généralement des abréviations de deux lettres. Ces abréviations sont le plus souvent explicites, mais n'ont aucun lien avec les codes de langue utilisés par Windows ou dans les données de démonstration. Ainsi, lorsque l'utilisateur recherche les langues d'une taxonomie, il peut visualiser tous les libellés du premier élément de la taxonomie et donc voir les différentes langues utilisées. Une taxonomie peut être associée à plusieurs liens ressources libellés si chaque lien ressources correspond à une langue.  
 
--   Liens ressources présentation : Ce lien de ressources comprend des informations sur la structure des éléments, ou plus précisément, il explique comment le créateur de la taxonomie propose de présenter la taxonomie à l'utilisateur. Le lien de ressources affiche une série de liens. Chacun d'entre eux connecte deux éléments, dans une relation parent-enfant. En appliquant tous ces liens, les éléments peuvent s'afficher de manière hiérarchique. Notez que les liens de ressources de présentation servent principalement à présenter les éléments à l'utilisateur.  
+-   Liens ressources présentation : Ce lien de ressources comprend des informations sur la structure des éléments, ou plus précisément, il explique comment le créateur de la taxonomie propose que l'application présente la taxonomie à l'utilisateur. Le lien de ressources affiche une série de liens. Chacun d'entre eux connecte deux éléments, dans une relation parent-enfant. En appliquant tous ces liens, les éléments peuvent s'afficher de manière hiérarchique. Notez que les liens de ressources de présentation servent principalement à présenter les éléments à l'utilisateur.  
 
 -   Lien ressources calcul : Ce lien ressources fournit des informations sur les éléments et sur les relations qui les unissent. Sa structure est très semblable à celle du lien ressources présentation, mais chaque lien ou « arc » est pondéré. Un lien peut avoir un poids de 1 ou de 1, selon que l'élément doit être ajouté à son parent ou soustrait de ce dernier. Les relations ne sont pas nécessairement conformes à la représentation visuelle de la taxonomie.  
 

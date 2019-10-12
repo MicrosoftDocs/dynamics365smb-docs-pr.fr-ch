@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 06/13/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: dd3cf008e2d16a8d63c9fea930ddcb4ba14072a2
-ms.sourcegitcommit: 5bcc5f95e450ee9a3d9f7a380e592a5e75c4185b
+ms.openlocfilehash: 00ab948c07e708ae22c63177f01ed4c6ada28c5a
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1858304"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313604"
 ---
 # <a name="getting-started-with-included365fin_longincludesd365fin_long_mdmd"></a>Mise en route de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] est une solution de gestion d'entreprise pour les PME qui automatise et simplifie les processus entreprise et vous aide à gérer votre entreprise. L'inscription est facile, et vous pouvez migrer des données métiers existantes de votre système existant. Pour vous aider à souscrire un abonnement, recherchez un partenaire [!INCLUDE[d365fin](includes/d365fin_md.md)] [ici](https://www.microsoft.com/en-us/solution-providers/search).  
@@ -42,13 +42,15 @@ Avant de pouvoir commencer à utiliser les fonctionnalités, certaines configura
 
 Pour une présentation des capacités actuelles et à venir, consultez notre plan de versions sur la page [Plan de versions Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422).  
 
+Vous pouvez trouver du contenu eLearning sur [Microsoft Learn](/learn/browse/?products=dynamics-business-central).  
+
 ## <a name="the-role-centers"></a>Tableaux de bord
-La page Tableau de bord utilisent une conception centrée sur le rôle pour vous permettre d'accéder rapidement aux outils de processus d'entreprise et d'intelligence dont vous avez besoin dans le cadre de votre travail. Par exemple, un comptable peut surveiller des paiements et des approbations, et afficher des graphiques de performances financières. Consultez les différents Tableaux de bord en sélectionnant l'icône **Paramètres** ![Paramètres](media/ui-experience/settings_icon_small.png "Icône Paramètres du tableau de bord") dans le coin supérieur droit, en sélectionnant **Mes paramètres**, puis le tableau de bord à explorer. Connectez-vous à nouveau pour appliquer la modification. Pour plus d'informations, voir [Modification des paramètres de base](ui-change-basic-settings.md).
+La page Tableau de bord utilisent une conception centrée sur le rôle pour vous permettre d'accéder rapidement aux outils de processus d'entreprise et d'intelligence dont vous avez besoin dans le cadre de votre travail. Par exemple, un comptable peut surveiller des paiements et des approbations, et afficher des graphiques de performances financières. Consultez les différents Tableaux de bord en sélectionnant l'icône **Paramètres** ![Paramètres](media/ui-experience/settings_icon_small.png "Icône Paramètres du tableau de bord") dans le coin supérieur droit, en sélectionnant **Mes paramètres**, puis le tableau de bord à explorer. Connectez-vous à nouveau pour appliquer la modification. Pour plus d'informations, voir [Modifier les paramètres de base](ui-change-basic-settings.md).
 
 Chaque Tableau de bord fournit un bouton **Configuration et extensions**. Ici vous avez accès à la liste des guides de configuration assistée qui peuvent vous aider à démarrer en définissant rapidement les zones sélectionnées. Si une zone n'est pas couverte par une configuration assistée, sélectionnez l'option **Programme d'installation manuelle** pour accéder aux pages de paramétrage sur lesquelles vous pouvez renseigner les champs de configuration pour toutes les zones manuellement. Pour plus d'informations, reportez-vous à [Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
 > [!NOTE]  
->   La liste des guides de configuration, des extensions et des services disponibles diffèrent selon l'expérience de l'utilisateur que vous choisissez pour votre société. L'expérience de type **Essential** donne accès à moins d'options que l'expérience **Premium**. La première fois que vous vous connectez, vous utilisez l'expérience Essential. Pour plus d'informations, voir [Modification des fonctionnalités affichées](ui-experiences.md).  
+>   La liste des guides de configuration, des extensions et des services disponibles diffèrent selon l'expérience de l'utilisateur que vous choisissez pour votre société. L'expérience de type **Essential** donne accès à moins d'options que l'expérience **Premium**. La première fois que vous vous connectez, vous utilisez l'expérience Essential. Pour plus d'informations, voir [Modifier les fonctionnalités affichées](ui-experiences.md).  
 
 Sur la page **Configuration assistée**, vous découvrirez l'expérience **Essentiel** :
 
@@ -65,7 +67,7 @@ Sur la page **Configuration assistée**, vous découvrirez l'expérience **Essen
 | Configurer la création d'états |Configure des ensembles de données que vous pouvez utiliser pour créer des rapports puissants à l'aide d'Excel ou de Power BI, par exemple. |
 | Configurer un flux de travail approbation article |Configure la capacité d'envoyer une notification à un approbateur lorsqu'un utilisateur modifie ou crée un article. |
 | Configurer un flux de travail approbation paiement |Configure la capacité d'envoyer une notification à un approbateur lorsqu'un utilisateur soumet des lignes de feuille paiement à l'approbation. |
-| Paramétrage du connecteur Business Central |Configure une connexion vers Dynamics 365 for Sales, ce qui vous permet de synchroniser les données telles que les contacts et les informations des commandes vente. |
+| Paramétrage du connecteur Business Central |Configure une connexion vers Dynamics 365 Sales, ce qui vous permet de synchroniser les données telles que les contacts et les informations des commandes vente. |
 | Configuration de la Sales Tax |Vous permet de démarrer avec des groupes taxes par défaut et l'affectation de codes zone de recouvrement que vous pouvez affecter à des clients et des fournisseurs afin de calculer automatiquement la taxe de vente dans les documents vente ou achat. |
 
 ## <a name="trying-things-out-in-your-own-company"></a>Faire des essais dans votre propre société
@@ -99,6 +101,7 @@ Si vous êtes comptable, vous pouvez vous inscrire à [!INCLUDE[d365acc_long](in
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] en tant que boîte de réception professionnelle dans Outlook](admin-outlook.md)  
 [Obtention de [!INCLUDE[d365fin](includes/d365fin_md.md)] sur votre périphérique mobile](install-mobile-app.md)  
 [Ressources pour l'aide et l'assistance technique](product-help-and-support.md)  
+[Dynamics 365 Business Central sur Microsoft Learn](/learn/browse/?products=dynamics-business-central)  
 [Documentation Dynamics 365](/dynamics365/)  
 [Plan de versions Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  

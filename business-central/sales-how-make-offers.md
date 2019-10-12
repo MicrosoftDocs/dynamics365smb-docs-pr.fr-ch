@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6083e5ff57ebfb57a31d294e5c565b5bc6a3f8c6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 2ee57d1faf3603229e9ef9017a47c681bd78336c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252703"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2316443"
 ---
 # <a name="make-sales-quotes"></a>Créer des devis
 Vous créez un devis pour enregistrer votre proposition à un client pour vendre certains biens selon certaines conditions de livraison et de paiement. Vous pouvez envoyer un devis au client pour communiquer la proposition. Vous pouvez envoyer par e-mail le document en pièce jointe au format PDF. Vous pouvez faire en sorte que le corps du message soit prérempli avec un résumé du devis. Pour plus d'informations, voir [Envoyer des documents par e-mail](ui-how-send-documents-email.md).
@@ -53,7 +53,7 @@ Vous pouvez remplir les champs relatifs au client sur le devis de deux façons s
 11. Dans le champ **Quantité**, entrez le nombre d'unités du produit, de frais ou de la transaction que la ligne enregistre pour le client.
 
     > [!NOTE]  
-    >   Si l'article est de type **Article - Service** ou **Ressource**, la quantité est une unité de temps, telle que les heures, comme indiqué dans le champ **Code unité de la ligne**.  
+    >  Si l'article est de type **Service** ou si le champ **Type** contient **Ressource**, la quantité est alors une unité de temps, telle que les heures, comme indiqué dans le champ **Code unité** de la ligne. Pour plus d'informations, reportez-vous à [Configuration d'unités article](inventory-how-setup-units-of-measure.md)
 
     La valeur du champ **Montant ligne** est calculée comme suit : *Prix unitaire* x *Quantité*.  
 
@@ -69,7 +69,7 @@ Vous pouvez remplir les champs relatifs au client sur le devis de deux façons s
     Si vous avez défini des remises facture pour le client, le pourcentage spécifié est automatiquement inséré dans le champ **% remise facture** si les critères sont réunis, et le montant associé est inséré dans le champ **Montant remise facture sans TVA**. Pour plus d'informations, reportez-vous à [Enregistrement des prix de vente, des remises et des accords sur les paiements](sales-how-record-sales-price-discount-payment-agreements.md).
 
     > [!TIP]
-    > Pour que **Devis valide jusqu'à** soit renseigné automatiquement avec un certain nombre de jours après la création du devis, vous pouvez renseigner le champ **Calcul de validité du devis** sur la page **Ventes**. 
+    > Pour que **Devis valide jusqu'à** soit renseigné automatiquement avec un certain nombre de jours après la création du devis, vous pouvez renseigner le champ **Calcul de validité du devis** sur la page **Ventes**.
 
 15. Lorsque les lignes devis sont renseignées, sélectionnez l'action **Envoyer par e-mail**.
 16. Sur la page **Envoyer e-mail**, renseignez les champs restants et examinez le devis intégré. Pour plus d'informations, voir [Envoyer des documents par e-mail](ui-how-send-documents-email.md).

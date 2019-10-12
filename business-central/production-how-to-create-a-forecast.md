@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5936343b9a1e1ebd7b871f11b0aeb9a7554636b4
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 3611bf23466509d0bd4932fc660cf1dff8bfa4a4
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253477"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314207"
 ---
 # <a name="create-a-demand-forecast"></a>Créer une prévision de la demande
 Vous pouvez créer des prévisions de vente et de production à l'aide de la page **Prévision demande**.  
@@ -27,7 +27,7 @@ La fonctionnalité de prévision permet de créer une demande anticipée ; la d
 Les prévisions permettent à votre société de créer des scénarios basés sur des hypothèses, de planifier et de répondre à la demande de façon efficace et rentable. Des prévisions précises peuvent faire la différence au niveau de la satisfaction de la clientèle en relation avec les dates promesse des livraisons et la ponctualité de ces dernières.  
 
 ## <a name="sales-forecasts-and-production-forecasts"></a>Prévisions de vente et de fabrication  
-La fonctionnalité de prévision du programme permet de générer des prévisions de vente ou de fabrication, de façon combinée ou indépendante. Par exemple, la plupart des sociétés qui fabriquent à la commande ne gèrent pas un stock de produits finis parce que chaque article est produit au moment de la commande. L'anticipation sur les commandes (prévision de vente) est essentielle pour aboutit à un délai de production raisonnable des produits finis (prévision de production). À titre d'exemple, les composants nécessitant un délai de livraison important, s'il ne sont pas en commande ou en stock, peuvent retarder la fabrication.  
+La fonctionnalité de prévision de l'application permet de générer des prévisions de vente ou de fabrication, de façon combinée ou indépendante. Par exemple, la plupart des sociétés qui fabriquent à la commande ne gèrent pas un stock de produits finis parce que chaque article est produit au moment de la commande. L'anticipation sur les commandes (prévision de vente) est essentielle pour aboutit à un délai de production raisonnable des produits finis (prévision de production). À titre d'exemple, les composants nécessitant un délai de livraison important, s'il ne sont pas en commande ou en stock, peuvent retarder la fabrication.  
 
 -   La prévision de vente est le meilleur indicateur du service commercial en relation avec les ventes futures et est spécifiée par article et par période. Toutefois, la prévision de vente n'est pas toujours appropriée pour la fabrication.  
 -   La prévision de production est l'estimation par le gestionnaire de production du nombre d'articles finis et de produits semi-finis à produire dans des périodes données afin de satisfaire les prévisions de vente.  

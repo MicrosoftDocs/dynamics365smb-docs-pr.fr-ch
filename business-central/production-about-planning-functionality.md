@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0ed611dd790685999048887d4a7b96d45a7cd696
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 27a2a105cbb6a8a449de44c564dc448ec6136d61
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253577"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313483"
 ---
 # <a name="about-planning-functionality"></a>À propos de la fonctionnalité Planification
 Le système de planification prend en compte toutes les données d'offre et de demande, ajuste les résultats et génère des suggestions pour l'équilibrage de l'offre en fonction de la demande.  
@@ -30,13 +30,13 @@ Pour plus d'informations, voir [Détails de conception : planification de l'app
 ## <a name="demand-and-supply"></a>Offre et demande  
 La planification comporte deux volets : l'offre et la demande. Ces derniers doivent être équilibrés pour garantir que la demande soit satisfaite rapidement et efficacement.  
 
-- Le mot demande désigne tout sorte de besoin brut, tel qu'une commande vente, une commande service, un besoin composant d'un ordre d'assemblage ou de fabrication, un désenlogement transfert, une commande ouverte ou une prévision. En outre, le programme autorise d'autres types techniques de demande - tels qu'un ordre de fabrication ou une commande achat négatif, un stock négatif et un retour achat.  
+- Le mot demande désigne tout sorte de besoin brut, tel qu'une commande vente, une commande service, un besoin composant d'un ordre d'assemblage ou de fabrication, un désenlogement transfert, une commande ouverte ou une prévision. En outre, l'application autorise d'autres types techniques de demande - tels qu'un ordre de fabrication ou une commande achat négatif, un stock négatif et un retour achat.  
 - Le mot offre désigne toute sorte de réapprovisionnement telle qu'un stock, une commande achat, un ordre d'assemblage, un ordre de fabrication ou un enlogement transfert. Par conséquent, il peut y avoir une commande vente ou une commande service négative, un besoin de composant ou un retour vente négatif – tous représentant aussi l'offre d'une certaine façon.  
 
 Un autre objectif du système de planification est de garantir que le stock ne croisse pas inutilement. En cas de baisse de la demande, le système de planification suggère de reporter, de réduire ou d'annuler des ordres de réapprovisionnement existants.  
 
 ## <a name="planning-calculation"></a>Calcul de planification  
-Le système de planification est guidé par la demande prévue et réelle des clients ainsi que par les paramètres de réapprovisionnement de stock. L'exécution du calcul de planification a pour effet que le programme suggère des mesures spécifiques (messages d'action) à prendre concernant le réapprovisionnement possible auprès de fournisseurs, les transferts entre entrepôts ou la production. S'il y a déjà des ordres de réapprovisionnement, les mesures suggérées peuvent être d'augmenter ou d'accélérer les commandes pour répondre à l'évolution de la demande.  
+Le système de planification est guidé par la demande prévue et réelle des clients ainsi que par les paramètres de réapprovisionnement de stock. L'exécution du calcul de planification a pour effet que l'application suggère des mesures spécifiques (messages d'action) à prendre concernant le réapprovisionnement possible auprès de fournisseurs, les transferts entre entrepôts ou la production. S'il y a déjà des ordres de réapprovisionnement, les mesures suggérées peuvent être d'augmenter ou d'accélérer les commandes pour répondre à l'évolution de la demande.  
 
 La base de la routine de planification réside dans le calcul gros/net. Les besoins nets déterminent les lancements de commandes planifiées, qui sont programmés sur la base des informations de gamme (articles fabriqués) ou du délai de réapprovisionnement de la fiche article (articles achetés). Les quantités de lancement de commandes planifiées sont basées sur le calcul de planification et affectées par les paramètres définis sur les fiches article individuelles.  
 
@@ -67,7 +67,7 @@ Les paramètres de planification suivants existent pour l'article ou la fiche po
 -   Stratégie d'assemblage  
 -   Mode de lancement  
 
-Les les modificateurs d'ordre suivants existent pour l'article ou la fiche point de stock :  
+Les modificateurs d'ordre suivants existent pour l'article ou la fiche point de stock :  
 
 -   Qté minimum commande  
 -   Qté maximum commande  

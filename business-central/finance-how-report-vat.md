@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
-ms.date: 05/02/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: fcc9eda38a54e8e94bd74bfbcc76fe808a119525
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 4560de9740d0b4918d685fb0278b905baf1a8ecd
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1447006"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2306259"
 ---
 # <a name="report-vat-to-a-tax-authority"></a>Déclarer la TVA à une autorité fiscale
 Cette rubrique décrit les états dans [!INCLUDE[d365fin](includes/d365fin_md.md)] que vous pouvez utiliser pour envoyer des informations sur les montants de la taxe sur la valeur ajoutée (TVA) relatifs aux ventes et achats à l'administration fiscale de votre région.
@@ -61,7 +61,7 @@ Pour déclarer la TVA à une administration par voie électronique, vous devez c
     > [!NOTE]  
     >   Il est judicieux de tester votre connexion. Pour cela, choisissez la case à cocher **Mode test**, puis préparez et envoyez votre état TVA comme décrit dans la section _Préparer et envoyer un état TVA_. En mode Test, le service vérifie si l'administration fiscale peut recevoir votre état, et le statut de l'état indiquera si l'envoi du test a réussi. Il est important de retenir que ce n'est pas un envoi réel. Pour réellement envoyer l'état, vous devez désactiver la case à cocher **Mode test**, puis répéter le processus d'envoi.
 
-## <a name="to-set-up-vat-reports-in-included365finincludesd365finmdmd"></a>Pour configurer les états TVA dans [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="to-set-up-vat-reports-in-included365finincludesd365fin_mdmd"></a>Pour configurer les états TVA dans [!INCLUDE[d365fin](includes/d365fin_md.md)]
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramétrage déclaration TVA**, puis sélectionnez le lien associé.  
 2. Pour laisser des utilisateurs modifier et retourner cet état, sélectionnez la case à cocher **Modifier les états soumis**.  
 3. Choisissez la souche de numéros à utiliser pour chaque état.  

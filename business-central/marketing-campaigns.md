@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: e3ca7a52bb01b9d4a7b6417be14396cc616131ca
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 2b0cd58ebb61dba8fcdcb0f686a2afe88a5e9f3d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241835"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309379"
 ---
 # <a name="managing-marketing-campaigns"></a>Gestion de campagnes marketing
 Disposer d'une solide stratégie marketing permet d'identifier, d'attirer et de fidéliser les clients. Une stratégie marketing est composée de diverses campagnes ainsi que d'interactions en relation avec vos activités de vente et de marketing. Lors de la planification d'une campagne, vous devez choisir les contacts à cibler, le type de campagne (salon, courrier direct) et le vendeur chargé de chaque tâche.
@@ -39,7 +39,7 @@ Lorsque vous avez défini votre campagne, que vous avez déterminé les segments
 > [!NOTE]  
 >   Afin que vous puissiez activer les prix vente/remises ligne, vous devez spécifier si le segment entier ou une partie seulement des contacts sont des cibles de la campagne. Si les prix vente/remises ligne couvrent tous les contacts du segment, sélectionnez le champ **Cible campagne** sur le raccourci **Campagne** de la fiche **Segment**.
 
-Si les prix vente/remises ligne ne sont pas offerts à tous les contacts du segment, vous pouvez désélectionner le champ **Cible campagne** pour les contacts appropriés. Si vous ne pouvez pas visualiser ce champ, vous pouvez l'ajouter à votre affichage. Pour plus d'informations, voir [Personnalisation de votre espace de travail](ui-personalization-user.md).
+Si les prix vente/remises ligne ne sont pas offerts à tous les contacts du segment, vous pouvez désélectionner le champ **Cible campagne** pour les contacts appropriés. Si vous ne pouvez pas visualiser ce champ, vous pouvez l'ajouter à votre affichage. Pour plus d'informations, voir [Personnaliser votre espace de travail](ui-personalization-user.md).
 
 ## <a name="conducting-campaigns"></a>Mise en place de campagnes
 Au cours de la campagne, toutes les interactions avec vos contacts (segments) sont enregistrées afin que vous puissiez obtenir des statistiques et autres informations sur les coûts et taux de réussite la concernant.

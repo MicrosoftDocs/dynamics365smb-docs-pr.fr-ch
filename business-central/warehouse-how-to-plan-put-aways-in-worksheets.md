@@ -1,6 +1,6 @@
 ---
 title: Comment planifier des rangements dans la feuille | Microsoft Docs
-description: Lorsque le magasin appelle un traitement à la fois de rangement et de réception et que vous souhaitez planifier des instructions de rangement pour plusieurs réceptions, vous pouvez utiliser la feuille rangement (dans ce cas, les magasiniers n'ont pas à suivre les instructions créées par le programme pour différentes réceptions validées).
+description: Lorsque le magasin appelle un traitement à la fois de rangement et de réception et que vous souhaitez planifier des instructions de rangement pour plusieurs réceptions, vous pouvez utiliser la feuille rangement (dans ce cas, les magasiniers n'ont pas à suivre les instructions créées par l'application pour différentes réceptions validées).
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3bf24a32ba4a411ada744092d594b874c0154588
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ae631fc6383e9aec6edc5fcc432e614f39ee74e4
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248471"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314621"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Planifier des rangements dans la feuille
-Lorsque le magasin appelle un traitement à la fois de rangement et de réception et que vous souhaitez planifier des instructions de rangement pour plusieurs réceptions, vous pouvez utiliser la feuille rangement (dans ce cas, les magasiniers n'ont pas à suivre les instructions créées par le programme pour différentes réceptions validées).  
+Lorsque le magasin appelle un traitement à la fois de rangement et de réception et que vous souhaitez planifier des instructions de rangement pour plusieurs réceptions, vous pouvez utiliser la feuille rangement (dans ce cas, les magasiniers n'ont pas à suivre les instructions créées par l'application pour différentes réceptions validées).  
 
 Pour configurer votre entrepôt afin que les lignes réception soient disponibles dans la feuille rangement dès leur validation, sélectionnez le champ **Utiliser feuille rangement** sur le raccourci **Entrepôt** de la fiche magasin. Pour plus d'informations, voir [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md).  
 
-Si vous ne sélectionnez pas ce champ, le programme crée automatiquement des instructions rangement pour les réceptions enregistrées.  
+Si vous ne sélectionnez pas ce champ, l'application crée automatiquement des instructions rangement pour les réceptions enregistrées.  
 
 > [!NOTE]  
 >  s: Quel que soit l'état du champ **Utiliser feuille rangement** de la fiche magasin, vous pouvez toujours insérer des lignes instruction rangement, c'est à dire des lignes réception enregistrée, dans la feuille rangement en procédant comme suit :  
@@ -41,7 +41,7 @@ Si vous ne sélectionnez pas ce champ, le programme crée automatiquement des in
 3. Sélectionnez les documents que vous souhaitez utiliser dans la feuille. Vous pouvez utiliser simultanément des lignes de plusieurs documents.  
 
     > [!NOTE]  
-    >  Si vous essayez de sélectionner un document réception ou rangement interne dont toutes les lignes disposent déjà d'instructions, le programme vous indique qu'il n'y a rien à gérer.  
+    >  Si vous essayez de sélectionner un document réception ou rangement interne dont toutes les lignes disposent déjà d'instructions, l'application vous indique qu'il n'y a rien à gérer.  
 
 4. Renseignez le champ **Méthode de tri** pour trier les lignes à votre convenance.  
 
@@ -58,14 +58,14 @@ Si vous ne sélectionnez pas ce champ, le programme crée automatiquement des in
 
     -   Vous pouvez affecter le rangement à un employé donné.  
     -   Vous pouvez trier les lignes instruction rangement comme dans la feuille ou par classement emplacement. Lorsque vous effectuez un tri sur la base du classement emplacement, les lignes Prélever apparaissent d'abord, étant donné que la plupart des emplacements réception sont classés au niveau 0, et les lignes emplacement apparaissent ensuite, en commençant par les emplacements les moins bien classés. Si vous avez structuré votre entrepôt de façon à ce que les emplacements de même niveau soient les uns à côté des autres et si vous utilisez cette méthode de tri, les magasiniers éviteront un certain nombre d'étapes.  
-    -   Vous pouvez choisir de ne pas afficher les lignes intermédiaires créées lorsque le programme divise une unité en unités plus petites, en sélectionnant le champ **Filtrer déconditionnement**. Pour en savoir plus, voir [Activer la rupture de charge automatique avec prélèvement et rangement dirigé](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
+    -   Vous pouvez choisir de ne pas afficher les lignes intermédiaires créées lorsque l'application divise une unité en unités plus petites, en sélectionnant le champ **Filtrer déconditionnement**. Pour en savoir plus, voir [Activer la rupture de charge automatique avec prélèvement et rangement dirigé](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
     -   Vous pouvez faire en sorte que le champ **Quantité à traiter** des instructions rangement ne soit pas renseigné automatiquement.  
     -   Vous pouvez imprimer immédiatement le document.  
 
-8.  Sélectionnez le bouton **OK** pour que le programme crée le rangement en fonction de vos exigences.  
+8.  Sélectionnez le bouton **OK** pour que l'application crée le rangement en fonction de vos exigences.  
 
 ## <a name="see-also"></a>Voir aussi  
-[Gestion d'entrepôt](warehouse-manage-warehouse.md)  
+[Gestion d’entrepôt](warehouse-manage-warehouse.md)  
 [STOCKS ET EN-COURS](inventory-manage-inventory.md)  
 [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)     
 [Gestion des assemblages](assembly-assemble-items.md)    

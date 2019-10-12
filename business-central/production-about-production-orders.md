@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b02aa262089d5c341fb3b535f2af82c7085e99ee
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6a99066c784a6526bf06c816431b912b1db73f06
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252979"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313459"
 ---
 # <a name="about-production-orders"></a>À propos des ordres de fabrication
 Les ordres de fabrication permettent de gérer la conversion de matières achetées en articles fabriqués. La gamme des ordres de fabrication utilise divers centres de charge ou postes de charge de l'atelier.  
 
 Avant de commencer la production, la plupart des sociétés effectuent une planification des approvisionnements, généralement une fois par semaine, pour calculer le nombre d'ordres de fabrication et de commandes achat à exécuter pour répondre à une demande de vente de la semaine en cours. Les commandes achat fournissent les composants requis en fonction de la nomenclature de production pour produire les produits finis.
 
-Les ordres de fabrication sont les composants centraux de la fonctionnalité de fabrication du programme et contiennent les informations suivantes :  
+Les ordres de fabrication sont les composants centraux de la fonctionnalité de fabrication de l'application et contiennent les informations suivantes :  
 
 -   produits planifiés pour fabrication ;  
 -   matières requises pour les ordres de fabrication planifiés ;  
@@ -63,7 +63,7 @@ Pour plus d'informations, voir [Suivre les relations entre l'offre et la demande
 Les ordres de fabrication créés par d'autres moyens ne sont pas automatiquement réservés et tracés.   
 
 ## <a name="production-order-status"></a>Statut de l'ordre de fabrication  
-Le statut de l'ordre de fabrication contrôle la manière dont l'ordre de fabrication se comporte dans le programme. La forme et le contenu de la production sont dictés par le statut de l'ordre. Les ordres de fabrication sont affichés sur différentes pages en fonction de leur statut. Vous ne pouvez pas modifier le statut d'un ordre de fabrication manuellement ; vous devez utiliser la fonction **Modifier statut**.  
+Le statut de l'ordre de fabrication contrôle la manière dont l'ordre de fabrication se comporte dans l'application. La forme et le contenu de la production sont dictés par le statut de l'ordre. Les ordres de fabrication sont affichés sur différentes pages en fonction de leur statut. Vous ne pouvez pas modifier le statut d'un ordre de fabrication manuellement ; vous devez utiliser la fonction **Modifier statut**.  
 
 ### <a name="simulated-production-order"></a>O.F. simulé  
 L'ordre de fabrication simulé est unique en raison des caractéristiques suivantes :  
@@ -115,9 +115,9 @@ Après qu'un ordre de fabrication a été créé et planifié, il doit être lan
 Ces informations peuvent être enregistrées manuellement ou via une génération d'état automatique, en fonction des articles définis dans le champ Méthode consommation.  
 
 ### <a name="material-consumption"></a>Consommation matière  
-Le programme offre une série d'options concernant la manière dont une société manufacturière peut enregistrer une consommation matière. Par exemple, une consommation matière peut être enregistrée manuellement, ce qui peut être souhaitable en cas de remplacements fréquents de composants ou de rebuts plus importants que prévu.  
+L'application offre une série d'options concernant la manière dont une société manufacturière peut enregistrer une consommation matière. Par exemple, une consommation matière peut être enregistrée manuellement, ce qui peut être souhaitable en cas de remplacements fréquents de composants ou de rebuts plus importants que prévu.  
 
-La consommation de matières peut être traitée via la feuille consommation, mais peut également être enregistrée automatiquement par le programme à l'aide du processus de génération d'état automatique. Les méthodes de génération d'état sont les suivantes :  
+La consommation de matières peut être traitée via la feuille consommation, mais peut également être enregistrée automatiquement par l'application à l'aide du processus de génération d'état automatique. Les méthodes de génération d'état sont les suivantes :  
 
 -   Manuel  
 -   Aval  
@@ -143,7 +143,7 @@ L'avantage de la consommation automatique est qu'elle réduit considérablement 
 - Consommation en amont de l'ordre entier  
 
 #### <a name="automatic-reporting---forward-flush-the-entire-order"></a>Génération d'état automatique - Consommation en aval de l'ordre entier  
-Si vous consommez en aval l'ordre de fabrication au début du projet, le comportement du programme est très similaire à une consommation manuelle. La principale différence réside dans le fait que la consommation est effectuée automatiquement.  
+Si vous consommez en aval l'ordre de fabrication au début du projet, le comportement l'application est très similaire à une consommation manuelle. La principale différence réside dans le fait que la consommation est effectuée automatiquement.  
 
 - Le contenu entier de la nomenclature de production est consommé et déduit du stock lors de l'actualisation de l'ordre de fabrication lancé.  
 - La quantité consommée est la quantité par assemblage indiquée dans la nomenclature de production, multipliée par le nombre d'articles parents que vous créez.  
@@ -185,9 +185,9 @@ Aucun composant n'est prélevé tant que le statut de l'ordre de fabrication lan
 La consommation en amont de l'ordre de fabrication tout entier requiert la même configuration que pour la consommation en aval : la méthode de génération d'état doit être définie sur amont dans la fiche article de tous les articles de la nomenclature parente pour que l'état soit généré. En outre, tous les codes lien gamme doivent être supprimés de la nomenclature de production.  
 
 ### <a name="production-output"></a>Production  
-Le programme offre la possibilité de suivre le temps consacré à un ordre de fabrication, en plus de l'enregistrement de la quantité produite. Ces informations permettent de déterminer plus précisément les coûts de production. De même, les fabricants utilisant un système d'évaluation standard peuvent souhaiter enregistrer des informations réelles afin de pouvoir développer de meilleures normes.  
+L'application offre la possibilité de suivre le temps consacré à un ordre de fabrication, en plus de l'enregistrement de la quantité produite. Ces informations permettent de déterminer plus précisément les coûts de production. De même, les fabricants utilisant un système d'évaluation standard peuvent souhaiter enregistrer des informations réelles afin de pouvoir développer de meilleures normes.  
 
-La production peut être traitée via la feuille production, mais aussi enregistrée automatiquement par le programme. Le programme copie la méthode de consommation de la fiche de poste de charge ou de centre de charge dans la gamme de l'ordre de fabrication lors de l'actualisation. Comme pour la consommation matière, trois méthodes de génération d'état s'appliquent à la production :  
+La production peut être traitée via la feuille production, mais aussi enregistrée automatiquement par l'application. L'application copie la méthode de consommation de la fiche de poste de charge ou de centre de charge dans la gamme de l'ordre de fabrication lors de l'actualisation. Comme pour la consommation matière, trois méthodes de génération d'état s'appliquent à la production :  
 
 - Manuel  
 - Aval  

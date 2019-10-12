@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchasing agent
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4ca0dc82cb35062479b7d523d0f4cc56c0b522ce
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 57a3acf17b91a8a2a8ffcbc8b070955086a80a0d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252841"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2316755"
 ---
 # <a name="set-up-purchasers"></a>Configurer les acheteurs
 Si plusieurs acheteurs travaillent dans votre société, vous pouvez les configurer sur la page et leur attribuer un code. Vous pouvez ensuite utiliser ces codes pour établir des statistiques et filtrer les informations des états imprimés.

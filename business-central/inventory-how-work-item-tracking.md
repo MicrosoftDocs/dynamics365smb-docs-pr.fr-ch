@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c7a5aa7d768a4fe2fae111b04ffc1fdab65d07dc
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: d3efa05fda5bcacd4eba0fa4f4f64888d91c46bf
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240387"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309619"
 ---
 # <a name="work-with-serial-and-lot-numbers"></a>Utiliser les numéros de lot et de série
 Vous pouvez affecter des numéros de série et de lot à n'importe quel document sortant ou entrant, puis afficher les écritures traçabilité validées dans les écritures comptables articles correspondantes. Vous effectuez le travail sur la page **Lignes traçabilité**, que vous pouvez ouvrir depuis un document entrant ou sortant.
 
 La matrice des champs de quantité figurant en haut de la page **Lignes traçabilité** affiche les quantités et les sommes des numéros traçabilité qui sont définis dans les lignes. Les quantités doivent correspondre à celles de la ligne document dont les champs **Non défini** sont paramétrés sur 0.
 
-En vue de mesurer les performances, le programme collecte les informations de disponibilité sur la page **Lignes traçabilité** une fois seulement lorsque vous ouvrez la page. Aussi, le programme ne met pas à jour les informations de disponibilité pendant que la page est ouverte, même si des modifications sont apportées dans le stock ou d'autres documents à ce moment.
+En vue de mesurer les performances, l'application collecte les informations de disponibilité sur la page **Lignes traçabilité** une fois seulement lorsque vous ouvrez la page. Aussi, l'application ne met pas à jour les informations de disponibilité pendant que la page est ouverte, même si des modifications sont apportées dans le stock ou d'autres documents à ce moment.
 
 Les articles portant des numéros de série ou de lot peuvent être suivis en amont et en aval de la chaîne d'approvisionnement. Cela est utile pour l'assurance qualité générale et pour les rappels de produit. Pour plus d'informations, voir [Tracer des articles suivis](inventory-how-to-trace-item-tracked-items.md).
 

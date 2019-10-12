@@ -4,23 +4,23 @@ description: Cette rubrique présente le concept de demande, qui désigne toute 
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, demand, supply, inventory, planning
-ms.date: 07/01/2017
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 23e941b3ab6fc8e2176268f38647630419453d23
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: bde7f68f18ab6e83c67bf27a04efc1cfdab84fae
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1242414"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307267"
 ---
 # <a name="design-details-demand-and-supply"></a>Détails de conception : demande et approvisionnement
-Le mot demande désigne tout sorte de demande brute, par exemple une commande vente et un besoin composant d'un ordre de fabrication. En outre, le programme permet davantage de types techniques de demande, tels que le stock négatif et les retours achat.  
+Le mot demande désigne tout sorte de demande brute, par exemple une commande vente et un besoin composant d'un ordre de fabrication. En outre, l'application permet davantage de types techniques de demande, tels que le stock négatif et les retours achat.  
   
 Approvisionnement est le terme courant utilisé pour désigner toute sorte de quantité positive ou d'entrée, telle qu'un stock, des achats, un assemblage, une production ou des transferts d'enlogement. De plus, un retour vente peut également représenter un approvisionnement.  
   

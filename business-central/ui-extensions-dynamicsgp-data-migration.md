@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: cf401500c34d8d40acc153a591229684770afa64
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c5798baec1130c3fc662a8751aee87bb8b438146
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250102"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311299"
 ---
 # <a name="the-dynamics-gp-data-migration-extension"></a>Migration de données Dynamics GP 
 Cette extension permet de migrer des clients, des fournisseurs, des articles en stock, des comptes généraux, des transactions fournisseurs ouvertes et des transactions clients ouvertes de Dynamics GP vers [!INCLUDE[prodshort](includes/prodshort.md)]. Si votre entreprise utilise Dynamics GP aujourd'hui, vous pouvez exporter les enregistrements appropriés, puis ouvrir un guide de configuration assistée pour ajouter les données vers [!INCLUDE[prodshort](includes/prodshort.md)]. L'extension de migration fonctionne pour toutes les versions prises en charge de Microsoft Dynamics GP. Pour plus d'informations, voir [Importation des données métier à partir d'autres systèmes financiers](across-import-data-configuration-packages.md).

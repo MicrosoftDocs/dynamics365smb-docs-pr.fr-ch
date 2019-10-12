@@ -7,14 +7,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9ba3873284f5e40e46eeee8615974dd6053d4991
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 635e53040ab9920780cd1cf05a14f6dfa17496d9
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249966"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314979"
 ---
 # <a name="working-with-general-journals"></a>Utilisation de feuilles comptabilité
 
@@ -28,7 +28,7 @@ Mais dans de nombreux cas, vous devrez utiliser les feuilles qui sont optimisée
 
 Les feuilles comptabilité vous permettent de valider des transactions financières directement dans les comptes généraux et dans d'autres comptes tels que les comptes bancaires, client, fournisseur et salarié. La validation avec une feuille comptabilité crée toujours des écritures dans les comptes généraux. C'est le cas même lorsque, par exemple, vous validez une ligne feuille dans un compte client, parce qu'une écriture est validée dans un compte client de la comptabilité via un groupe comptabilisation.
 
-Les informations que vous saisissez dans une feuille sont temporaires et peuvent être modifiées tant qu'elles sont dans la feuille. Lorsque vous validez la feuille, les informations sont transférées vers des écritures de comptes individuels, où elles ne peuvent pas être modifiées. Toutefois, vous pouvez délettrer des écritures validées et valider des écritures de contrepassation ou de correction. Pour plus d'informations, reportez-vous à [Inversion d'une validation](finance-how-reverse-journal-posting.md).
+Les informations que vous saisissez dans une feuille sont temporaires et peuvent être modifiées tant qu'elles sont dans la feuille. Lorsque vous validez la feuille, les informations sont transférées vers des écritures de comptes individuels, où elles ne peuvent pas être modifiées. Toutefois, vous pouvez délettrer des écritures validées et valider des écritures de contrepassation ou de correction. Pour plus d'informations, voir [Inversion d'une validation feuille et annuler les réceptions/envois](finance-how-reverse-journal-posting.md).
 
 > [!NOTE]
 > [!INCLUDE[journal-showhide-columns-inline-tip](includes/journal-showhide-columns-inline-tip.md)]  
@@ -113,7 +113,7 @@ Lorsque vous créez des lignes feuille dont vous savez que vous risquez de les r
     Si vous avez déjà créé une ou plusieurs feuilles article standard et souhaitez en remplacer une avec la nouvelle série de lignes feuille article, dans le champ Code, sélectionnez le code souhaité.
 6. Cliquez sur le bouton **OK** pour vérifier que vous souhaitez écraser la feuille article standard existante et remplacer tout son contenu.
 7. Sélectionnez le champ **Enregistrer le montant unitaire** si vous souhaitez enregistrer les valeurs dans le champ **Montant unitaire** de la feuille article standard.
-8. Sélectionnez le champ **Enregistrer la quantité** si vous souhaitez que le programme enregistre les valeurs dans le champ **Quantité**.
+8. Sélectionnez le champ **Enregistrer la quantité** si vous souhaitez que l'application enregistre les valeurs dans le champ **Quantité**.
 9. Cliquez sur le bouton **OK** pour enregistrer la feuille article standard.
 
 Une fois l'enregistrement de la feuille article standard effectué, la page Feuille article s'affiche. Vous pouvez alors procéder à la validation tout en sachant que vous pouvez très facilement recréer cette feuille si vous devez valider des lignes identiques ou analogues.
@@ -160,7 +160,7 @@ Les valeurs dans le champ **N° document** sont modifiées, le cas échéant, po
 
 ## <a name="see-also"></a>Voir aussi
 [Valider les transactions directement vers la comptabilité](finance-how-post-transactions-directly.md)  
-[Inversion d'une validation](finance-how-reverse-journal-posting.md)  
+[Inversion d'une validation feuille et annuler les réceptions/envois](finance-how-reverse-journal-posting.md)  
 [Répartition des coûts et du revenu](year-allocate-costs-income.md)  
 [Finances](finance.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

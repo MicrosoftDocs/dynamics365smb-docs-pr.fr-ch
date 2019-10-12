@@ -7,22 +7,22 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 08/22/2019
+ms.search.keywords: barcode
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 23561ba8ec0a93f8409abab483385a65d9853900
-ms.sourcegitcommit: 6ef7d2fae52feff786f2e15e2863d7f5aaa762be
+ms.openlocfilehash: 459c3f9ff695fe4cbee2dd1cb23e3cc5b989f939
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1917452"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310051"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Utilisation des systèmes de saisie automatisée (ADCS)
 
 > [!NOTE]
 > Dans la version standard de [!INCLUDE[d365fin](includes/d365fin_md.md)], ADCS fonctionne uniquement dans les déploiements sur site. Toutefois, un partenaire Microsoft peut le faire fonctionner dans les déploiements en ligne à l'aide de PowerApps ou similaire.
 
-Vous pouvez utiliser votre système de saisie automatisée pour enregistrer le mouvement des articles de l'entrepôt et certaines activités de la feuille, notamment les ajustements de quantité de la feuille article entrepôt et les inventaires. ADCS implique généralement la numérisation des codes à barres. 
+Vous pouvez utiliser votre système de saisie automatisée pour enregistrer le mouvement des articles de l'entrepôt et certaines activités de la feuille, notamment les ajustements de quantité de la feuille article entrepôt et les inventaires. ADCS implique généralement la numérisation des codes à barres.
 
 Pour utiliser votre système de saisie automatisée, vous devez attribuer un identifiant article à chaque article de l'entrepôt. Vous devez également configurer les écrans, fonctions de portable, échanges de données, et spécifier des paramètres pour les champs contrôlant l'ADCS. Vous spécifiez s'il faut utiliser l'ADCS sur la fiche magasin d'un entrepôt.
 
@@ -60,7 +60,7 @@ Pour utiliser le système de saisie automatisée, vous devez indiquer quels entr
 8.  Pour consulter les informations, choisissez le champ **Code identifiant** pour ouvrir la page **Identifiants article**.
 
 ## <a name="to-add-an-adcs-user"></a>Pour ajouter un utilisateur ADCS  
-Vous pouvez ajouter n'importe quel utilisateur pour l'utilisation d'un système de saisie automatisé (ADCS). Dans ce cas, l'utilisateur doit également fournir un mot de passe. Éventuellement, vous pouvez également indiquer une connexion qui identifie l'utilisateur ADCS en tant que magasinier. Le mot de passe de l'utilisateur ADCS peut être différent du mot de passe d'ouverture de session Windows de l'utilisateur. Pour plus d'informations, voir [Gestion des utilisateurs et des autorisations](ui-how-users-permissions.md).
+Vous pouvez ajouter n'importe quel utilisateur pour l'utilisation d'un système de saisie automatisé (ADCS). Dans ce cas, l'utilisateur doit également fournir un mot de passe. Éventuellement, vous pouvez également indiquer une connexion qui identifie l'utilisateur ADCS en tant que magasinier. Le mot de passe de l'utilisateur ADCS peut être différent du mot de passe d'ouverture de session Windows de l'utilisateur. Pour en savoir plus, reportez-vous à [Gérer les utilisateurs et les autorisations](ui-how-users-permissions.md).
 
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Utilisateurs ADCS**, puis sélectionnez le lien associé.  
 2. Sélectionnez l'action **Nouveau**.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: b08864a4cf7f7f198d692a6658ae437856860a51
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 2595efa188aed593bf1d112f984acf411446959b
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247574"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307147"
 ---
 # <a name="design-details-posting-date-on-adjustment-value-entry"></a>Détails de conception : date comptabilisation de l'écriture valeur d'ajustement
 Cet article fournit des instructions aux utilisateurs de la fonctionnalité Évaluation stock dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. L'article spécifique donne des informations sur la façon dont le traitement par lots **Ajuster coûts - Écr. article** identifie et affecte une date comptabilisation aux écritures valeur que le traitement par lots est sur le point de créer.  
@@ -351,7 +351,7 @@ Le traitement par lots **Ajuster coûts - Écr. article** détermine si la date 
  Dans le formulaire de demande du traitement par lots Valider coûts ajustés, une date comptabilisation doit être saisie par l'utilisateur. Le traitement par lots exécute toutes les écritures valeur correspondant au filtre, le cas échéant, et crée des écritures comptables avec la date comptabilisation saisie dans le formulaire de demande.  
 
 ### <a name="version-370b40"></a>Version 3.70.B..4.0  
- Dans le formulaire de demande du traitement par lots Valider coûts ajustés, le champ Date comptabilisation écriture période clôturée est disponible. Le programme utilise la date que vous saisissez dans ce champ comme date comptabilisation pour les écritures comptables qu'il crée pour les écritures valeur dont les dates comptabilisation se trouvent dans des périodes comptables clôturées. Sinon, les écritures comptables auront la même date comptabilisation que les écritures valeur d'origine. Une date est considérée comme incluse dans une période clôturée lorsqu'elle est antérieure à la date indiquée dans le champ Début période validation dans les paramètres comptabilité. En cas de validation en comptabilité par groupe comptabilisation, les écritures comptables auront la date comptabilisation spécifiée dans le champ Date comptabilisation du formulaire de demande.  
+ Dans le formulaire de demande du traitement par lots Valider coûts ajustés, le champ Date comptabilisation écriture période clôturée est disponible. L'application utilise la date que vous saisissez dans ce champ comme date comptabilisation pour les écritures comptables qu'il crée pour les écritures valeur dont les dates comptabilisation se trouvent dans des périodes comptables clôturées. Sinon, les écritures comptables auront la même date comptabilisation que les écritures valeur d'origine. Une date est considérée comme incluse dans une période clôturée lorsqu'elle est antérieure à la date indiquée dans le champ Début période validation dans les paramètres comptabilité. En cas de validation en comptabilité par groupe comptabilisation, les écritures comptables auront la date comptabilisation spécifiée dans le champ Date comptabilisation du formulaire de demande.  
 
  Dans la version 3 et 4, le traitement par lot analyse toutes les écritures valeur pour détecter s'il existe des écritures valeur dont le coût total (réel) diffère du coût validé en comptabilité. Si une différence est détectée, le montant différent sera validé dans une écriture comptable. Si la comptabilisation des coûts prévus est utilisée, les champs correspondants sont traités de la même manière.  
 

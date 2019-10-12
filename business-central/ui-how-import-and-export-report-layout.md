@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 691a8af0a6b3646cc4cf6129fa99a9231bfd2324
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 5daf54251048137ca7829ef00d2f65c890b22b12
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248195"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315243"
 ---
 # <a name="import-and-export-a-report-or-document-layout"></a>Importer et exporter une présentation de rapport ou de document
 Vous pouvez importer et exporter une présentation de rapport personnalisée existante sous forme de fichier depuis ou vers un emplacement sur votre ordinateur et le réseau. Par exemple, vous pouvez exporter une présentation de rapport, puis envoyer le fichier à une autre personne pour modification. Cette personne peut ensuite apporter des modifications à la présentation et vous renvoyer le fichier pour que vous puissiez le réimporter.  
@@ -53,5 +53,5 @@ Vous pouvez importer et exporter une présentation de rapport personnalisée exi
 
 ## <a name="see-also"></a>Voir aussi  
  [Créer et modifier une présentation de rapport personnalisée](ui-how-create-custom-report-layout.md)   
- [Gestion des présentations de rapport et de document](ui-manage-report-layouts.md)  
- [Utilisation des états et des traitements par lots](ui-work-report.md)    
+ [Gestion des présentations d'état et de document](ui-manage-report-layouts.md)  
+ [Utilisation des états, des traitements par lots et des XMLports](ui-work-report.md)    

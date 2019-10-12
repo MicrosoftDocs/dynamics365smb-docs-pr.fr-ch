@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, distribution center
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: SorenGP
-ms.openlocfilehash: d94f1bb2fe45263f013119954622b995e902b30f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1ad6b8333e13c01a1ed97ebdd9553f0e7fb31297
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244310"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309835"
 ---
 # <a name="set-up-locations"></a>Configurer des magasins
 Si vous achetez, enregistrez, ou vendez des articles à plusieurs magasins ou entrepôt, vous devez spécifier chaque magasin avec une fiche magasin et définir des acheminements transfert.
@@ -45,5 +45,5 @@ Vous pouvez à présent transférer des articles en stock entre deux magasins. P
 [Gestion du stock](inventory-manage-inventory.md)  
 [Transfert de stock entre des magasins](inventory-how-transfer-between-locations.md)    
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Modification des fonctionnalités affichées](ui-experiences.md)  
+[Modifier les fonctionnalités affichées](ui-experiences.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)

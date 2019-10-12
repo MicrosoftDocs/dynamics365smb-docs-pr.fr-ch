@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 62fd9e94b810887ecb152bba5a58c2f724b4025b
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 81e1910e861fb999103438c49bbaf8553d9b8419
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252128"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311899"
 ---
 # <a name="create-service-invoices-or-credit-memos"></a>Créer des factures service ou des avoirs
 La simplicité de facturation des commandes service est une fonctionnalité clé de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vous pouvez envoyer une facture à vos clients à tout moment ou créer des factures périodiquement.  

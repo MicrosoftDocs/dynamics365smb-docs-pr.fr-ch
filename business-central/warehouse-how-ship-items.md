@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 188cbf7d63795167a0cbbf0b0debf904b153992d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 239810db7fa6f7cd74aaebf94581f9ad76fd5599
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248839"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314691"
 ---
 # <a name="ship-items"></a>Expédier des articles
 Lorsque vous expédiez des articles provenant d'un entrepôt qui n'est pas configuré pour un traitement d'expédition entrepôt, enregistrez simplement l'expédition du document d'entreprise associé, comme une commande vente, une commande service, un retour vente ou un ordre de transfert sortant.
@@ -25,7 +25,7 @@ Lorsque vous expédiez des articles provenant d'un entrepôt qui n'est pas confi
 Lorsque vous expédiez des articles à partir d'un entrepôt qui est configuré pour un traitement d'expédition entrepôt, vous ne pouvez expédier des articles que sur la base des documents origine que d'autres centres de la société ont lancés et transmis à l'entrepôt en vue d'une action.
 
 > [!NOTE]
-> Si votre entrepôt utilise le transbordement, et dispose d'emplacements, vous pouvez visualiser pour chaque ligne la quantité d'articles placés dans les emplacements transbordement. Le programme calcule automatiquement ces quantités chaque fois que les champs de l'expédition sont mis à jour. S'il s'agit des articles correspondant à l'expédition que vous préparez, vous pouvez créer un prélèvement pour toutes les lignes, puis terminer l'expédition. Pour plus d'informations, voir [Transborder des articles](warehouse-how-to-cross-dock-items.md).
+> Si votre entrepôt utilise le transbordement, et dispose d'emplacements, vous pouvez visualiser pour chaque ligne la quantité d'articles placés dans les emplacements transbordement. L'application calcule automatiquement ces quantités chaque fois que les champs de l'expédition sont mis à jour. S'il s'agit des articles correspondant à l'expédition que vous préparez, vous pouvez créer un prélèvement pour toutes les lignes, puis terminer l'expédition. Pour plus d'informations, voir [Transborder des articles](warehouse-how-to-cross-dock-items.md).
 
 ## <a name="to-ship-items-with-a-sales-order"></a>Pour expédier des articles avec une commande vente
 Ce qui suit décrit comment recevoir des articles avec une commande achat. Les étapes sont similaires pour les retours achat, les commandes service et les ordres de transfert sortants.  
@@ -44,7 +44,7 @@ Généralement, l'employé chargé de l'expédition crée une expédition entrep
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Expéditions entrepôt**, puis choisissez le lien associé.  
 2.  Sélectionnez l'action **Nouveau**.  
 
-    Renseignez les champs du raccourci **Général**. Lorsque vous récupérez des lignes document origine,certaines des informations de l'en-tête sont copiées dans chaque ligne.  
+    Renseignez les champs du raccourci **Général**. Lorsque vous récupérez des lignes document origine, certaines des informations de l'en-tête sont copiées dans chaque ligne.  
 
     Pour une configuration de stockage avec un prélèvement et un rangement suggérés : Si le magasin possède une zone et un emplacement par défaut pour les expéditions, les champs **Code zone** et **Code emplacement** seront renseignés, mais vous pouvez les modifier selon vos besoins.  
 

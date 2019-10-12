@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 07/17/2019
-ms.openlocfilehash: 4ca4205fa5d2da35451f3a78c1534dd32d4d8f65
-ms.sourcegitcommit: b4fb54af9ed2e51479bb5293f86290c0de78858c
+ms.date: 10/01/2019
+ms.openlocfilehash: 0c710291b1039dedf23266b48940e123f425c9cc
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "1755984"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313627"
 ---
 # <a name="resources-for-help-and-support"></a>Ressources pour l'Aide et le support
 
@@ -43,7 +43,7 @@ Si vous utilisez une version d'évaluation de [!INCLUDE [prodshort](includes/pro
 
 ### <a name="blog"></a>Blog
 
-Nous discutons des nouvelles fonctionnalités sur le [blog de Dynamics 365](https://cloudblogs.microsoft.com/dynamics365/users/product/business-central/), notamment leur date de disponibilité et les éventuelles considérations particulières.  
+Nous discutons des nouvelles fonctionnalités sur le [blog de Dynamics 365](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/), notamment leur date de disponibilité et les éventuelles considérations particulières.  
 
 ### <a name="capabilities-coming-soon"></a>Fonctionnalités bientôt disponibles
 
@@ -62,7 +62,7 @@ Cette section vous donne des raccourcis vers Microsoft AppSource où vous trouve
 
 Sur le [site Dynamics 365 Ideas](https://aka.ms/bcideas), vous pouvez faire part de vos suggestions pour de nouvelles fonctionnalités. Votre saisie va directement vers la file d'attente d'ingénierie de Business Central pour enquête et priorisation.  
 
-Veillez à effectuer votre recherche dans la liste des suggestions proposées. Il est possible que quelqu'un ait déjà envoyé une suggestion similaire et que cette entrée ait déjà reçu des votes. Votez si une idée a déjà été envoyée pour lui accorder une priorité dans la fil d'attente d'ingénierie.  
+Veillez à effectuer votre recherche dans la liste des suggestions proposées. Il est possible que quelqu'un ait déjà envoyé une suggestion similaire et que cette entrée ait déjà reçu des votes. Votez si une idée a déjà été envoyée pour lui accorder une priorité dans la file d'attente d'ingénierie.  
 
 ## <a name="troubleshooting"></a>Incident
 
@@ -70,20 +70,20 @@ La section **Résolution des problèmes** propose des informations techniques qu
 
 ## <a name="report-a-problem"></a>Signaler un problème
 
-Votre partenaire revendeur [!INCLUDE[prodshort](includes/prodshort.md)] est tenu de vous aider en matière de support technique. [!INCLUDE[prodshort](includes/prodshort.md)] est vendu par les partenaires et cette section facilite le contact de votre partenaire commercial s'il a envoyé son adresse électronique d'assistance. Si votre partenaire [!INCLUDE[prodshort](includes/prodshort.md)] ne peut pas résoudre le problème, il déclenchera un ticket d'assistance avec Microsoft.  
+Votre partenaire revendeur [!INCLUDE[prodshort](includes/prodshort.md)] est tenu de vous aider en matière de support technique. [!INCLUDE[prodshort](includes/prodshort.md)] est vendu par les partenaires et cette section facilite le contact de votre partenaire commercial s'il a envoyé ses informations de contact de support. Si votre partenaire [!INCLUDE[prodshort](includes/prodshort.md)] ne peut pas résoudre le problème, il déclenchera un ticket d'assistance avec Microsoft.  
 
 > [!NOTE]
 > Cette section est disponible uniquement si vous avez souscrit à un abonnement [!INCLUDE [prodshort](includes/prodshort.md)]. Si vous vous êtes inscrit pour une évaluation et que vous n'avez pas encore acheté [!INCLUDE[prodshort](includes/prodshort.md)], vous n'avez pas de partenaire revendeur, et vous ne pouvez pas contacter l'équipe de support technique Microsoft. Vous pouvez rechercher un partenaire [!INCLUDE[prodshort](includes/prodshort.md)] sur la page [Je recherche un fournisseur de solution](https://go.microsoft.com/fwlink/?linkid=2038145).  
 
-### <a name="support-email-address"></a>Adresse e-mail du support technique
+### <a name="support-contacts"></a>Contacts de support
 
-L'adresse électronique qui s'affiche dans la section **Signaler un problème** peut être pour une personne ou une équipe. Si vous êtes le partenaire revendeur [!INCLUDE[prodshort](includes/prodshort.md)] pour un abonné, vous pouvez définir cette adresse électronique sur la page **Fiche de renseignements sur le contact du support technique**. Pour en savoir plus, reportez-vous à la rubrique [Configuration du support technique](/dynamics365/business-central/dev-itpro/technical-support) dans le contenu dédié aux développeurs et professionnels IT pour [!INCLUDE [prodshort](includes/prodshort.md)].  
+La section **Signaler un problème** affiche une adresse électronique ou un lien hypertexte vous permettant de contacter la personne ou l’équipe du support client. Si vous êtes le partenaire revendeur [!INCLUDE[prodshort](includes/prodshort.md)] pour un abonné, vous pouvez définir les informations de contact de support dans le centre d'administration. Pour en savoir plus, reportez-vous à la rubrique [Configuration de l'expérience de support](/dynamics365/business-central/dev-itpro/technical-support#configuring-the-support-experience) dans le contenu dédié aux professionnels IT pour [!INCLUDE [prodshort](includes/prodshort.md)].  
 
-Pour avertir votre partenaire d'un problème, sélectionnez le lien. Cela ouvre un nouveau message électronique dans votre éditeur de courriers électroniques par défaut, et vous pouvez ensuite ajouter les informations techniques relatives à votre abonné Azure Active Directory et toute autre information que vous trouvez pertinente.  
+Pour alerter votre partenaire en cas de problème, choisissez le lien pour envoyer un courrier électronique ou ouvrir son site de support dans un nouvel onglet de navigateur. Vous pouvez ensuite ajouter les informations techniques sur votre abonné Azure Active Directory à partir de la section **Incident** et toute autre information que vous trouvez pertinente.  
 
 ## <a name="see-also"></a>Voir aussi
 
 [Billet de blog : Trouver les ressources appropriées et fournir des commentaires](https://community.dynamics.com/business/b/financials/archive/2018/12/04/find-the-right-resources-and-provide-feedback)  
 [Docs dédiés aux développeurs et professionnels IT de Business Central](/dynamics365/business-central/dev-itpro/)  
 [Ressources pour l'aide et l'assistance technique pour les partenaires](/dynamics365/business-central/dev-itpro/help-and-support)  
-[Configuration du support technique](/dynamics365/business-central/dev-itpro/technical-support)  
+[Support technique](/dynamics365/business-central/dev-itpro/technical-support)  

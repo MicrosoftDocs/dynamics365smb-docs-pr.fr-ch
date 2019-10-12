@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7f3e023ce290e59c6fda88d62bb7abffd83853bb
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a64b2fc63cd969afbf93bb380592b11e9ad16bc2
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251603"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312019"
 ---
 # <a name="create-special-orders"></a>Créer des commandes spéciales
 Vous pouvez créer une commande spéciale pour un article de catalogue spécifique à expédier à un client particulier. Le fournisseur expédie l'article à votre entrepôt et vous pouvez ensuite l'expédier à votre client seul ou avec d'autres articles issus d'autres commandes.  

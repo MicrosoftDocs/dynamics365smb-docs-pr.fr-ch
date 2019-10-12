@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
-ms.openlocfilehash: 13ab8097b9c6d75f838a58c347af31d560fa9374
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1bef0ad2a94e64ecf95614707b6746e6a381fcb0
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1242897"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307411"
 ---
 # <a name="design-details-balancing-supply-with-demand"></a>Détails de conception : équilibrage de l'approvisionnement avec la demande
 L'élément principal du système de planification implique l'équilibrage de l'approvisionnement et de la demande en proposant des actions utilisateur pour rectifier les commandes approvisionnement en cas de déséquilibre. Cela est opéré par combinaison de variante et magasin.  
@@ -49,7 +49,7 @@ Imaginez que chaque profil de stock contient une chaîne d'événements de deman
  La procédure recommence à la demande suivante et à l'approvisionnement actif ou vice versa. L'approvisionnement actif peut peut-être couvrir cette demande suivante également, ou la demande actuelle n'a pas encore été entièrement couverte.  
 
 ## <a name="rules-concerning-actions-for-supply-events"></a>Règles en ce qui concerne les actions pour les événements d'approvisionnement  
-Lorsque le système de planification effectue un calcul hiérarchisé dans lequel l'approvisionnement doit répondre à la demande, la demande est considérée comme sûr, c'est-à-dire qu'elle se trouve en dehors du contrôle du système de planification. Cependant, le côté approvisionnement peut être géré. Par conséquent, le système de planification suggère de créer de nouvelles commandes approvisionnement, reprogrammant celles existantes et/ou modifiant la quantité de commande. Si une commande approvisionnement existante devient superflue, le système de planification suggère à l'utilisateur de l'annuler.  
+Lorsque le système de planification effectue un calcul hiérarchisé dans lequel l'approvisionnement doit répondre à la demande, la demande est considérée comme sûre, c'est-à-dire qu'elle se trouve en dehors du contrôle du système de planification. Cependant, le côté approvisionnement peut être géré. Par conséquent, le système de planification suggère de créer de nouvelles commandes approvisionnement, reprogrammant celles existantes et/ou modifiant la quantité de commande. Si une commande approvisionnement existante devient superflue, le système de planification suggère à l'utilisateur de l'annuler.  
 
 Si l'utilisateur souhaite exclure une commande approvisionnement existante des propositions planning, il peut déclarer qu'il n'y a pas de flexibilité de planification (flexibilité de planification = Aucune). Ensuite, l'approvisionnement excédentaire à partir de cette commande est utilisé pour répondre à la demande, mais aucune action n'est suggérée.  
 
@@ -109,7 +109,7 @@ Deux raisons expliquent cela :
 
 Avec le temps, les liens de chaînage dynamiques deviennent déséquilibrés puisque le réseau de chaînage entier n'est pas réorganisé tant qu'un événement de demande ou d'approvisionnement n'est pas réellement clôturé.  
 
-Avant d'équilibrer un approvisionnement par demande, le programme supprime les liens de chaînage existants. Puis au cours de la procédure de contrepartie, lorsqu'un événement de demande ou d'approvisionnement est clôturé, il crée de nouveaux liens de suivi de commande entre la demande et l'approvisionnement.  
+Avant d'équilibrer un approvisionnement par demande, l'application supprime les liens de chaînage existants. Puis au cours de la procédure de contrepartie, lorsqu'un événement de demande ou d'approvisionnement est clôturé, il crée de nouveaux liens de suivi de commande entre la demande et l'approvisionnement.  
 
 > [!NOTE]  
 >  Même si l'article n'est pas configuré pour le chaînage dynamique, le système planifié crée des liens de chaînage équilibrés comme expliqué ci-dessus.  

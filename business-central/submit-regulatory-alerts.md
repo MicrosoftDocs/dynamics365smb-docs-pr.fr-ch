@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.reviewer: edupont
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: soalex
-ms.openlocfilehash: d4ceef0780306015795c0a2406245514c2a26de5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 482c0e9f7fe0fa787ab9d3e45f22abd07d009b3e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250334"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315723"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Envoyer des alertes sur les fonctionnalités de réglementaires spécifiques au pays/à la région
 
@@ -21,19 +21,27 @@ Nous vous invitons à utiliser Microsoft Dynamics Lifecycle Services (LCS) pour 
 
 ## <a name="to-submit-a-regulatory-alert-in-lcs"></a>Pour envoyer une alerte de réglementation dans LCS
 
-1. Accédez à https://lcs.dynamics.com et ouvrez une session. Les projets accessibles vous seront présentés
+1. Accédez à https://lcs.dynamics.com et ouvrez une session.  
 
-2. Sélectionnez le projet **Alertes de réglementation (monde entier)**. Cela ouvrira le projet et affichera divers éléments liés à ce projet
+    Les projets accessibles vous seront présentés
 
-3. Sélectionnez **Alerter le service** à droite de la section **Plus d'outils**. Vous pouvez visualiser la liste des alertes avec le titre **Soumission d'alerte de réglementation Dynamics**
+2. Sélectionnez le projet **Alertes de réglementation (monde entier)**
 
-4. Vous pouvez ajouter une nouvelle alerte en cliquant sur le signe **(+)** en haut de la liste. Cela vous présente un guide en 4 étapes pour créer l'alerte. Le guide fournit les étapes suivantes :
+    Cela ouvrira le projet et affichera divers éléments liés à ce projet
+
+3. Sélectionnez **Alerter le service** à droite de la section **Plus d'outils**
+
+    Vous pouvez visualiser la liste des alertes avec le titre **Soumission d'alerte de réglementation Dynamics**
+
+4. Vous pouvez ajouter une nouvelle alerte en cliquant sur le signe **(+)** en haut de la liste
+
+    Cela vous présente un guide en 4 étapes pour créer l'alerte. Le guide fournit les étapes suivantes :
     - Recherche de composants existants
 
         Recherche de toute information que vous pensez pertinente pour l'alerte vous allez créer. Si vous ne trouvez aucun résultat de recherche approprié vous pouvez sélectionner le bouton **Envoyer une alerte de réglementation** en bas de la page pour poursuivre la soumission d'alerte.
     - Joindre des processus d'entreprise
 
-        Cette partie n'est pas appropriée pour Dynamics 365 Business Central. Choisissez **Ignorer** pour continuer à l'étape suivante.
+        Cette partie n'est pas approprié pour Dynamics 365 Business Central. Choisissez **Ignorer** pour continuer à l'étape suivante.
     - Décrire l'alerte
 
         Entrez des informations sur l'alerte dans les champs concernés. Les champs obligatoires sont indiqués par un astérisque rouge (\*) dans le guide.
@@ -42,9 +50,9 @@ Nous vous invitons à utiliser Microsoft Dynamics Lifecycle Services (LCS) pour 
         |-------------|------------------------------------------|
         |Titre  | Saisissez un titre descriptif pour identifier la zone de l'impact. Par exemple, entrez *Modifications du document facture à partir du 1er juillet 2019*. |
         |Désignation  | Saisissez un bref aperçu de la loi. Votre description doit se concentrer sur les questions qui sont pertinentes aux activités ERP (Enterprise Resource Planning), afin que les utilisateurs puissent comprendre les obligations à un niveau élevé sans consulter la législation en premier.|
-        |Pays  | Spécifiez leu pays ou la région auquels la législation s'applique.|
-        |Secteur d’activité| Spécifiez un secteur d'activité, si le besoin s'applique uniquement à des secteurs spécifiques. Par exemple, choisissez **Secteur public**, **Vte detail**, ou **Production**.|
-        |Référence de la fonctionnalité  | Cela n'est pas appropriée à Dynamics 365 Business Central, mais vous pouvez saisir une référence à la fonctionnalité, si vous la connaissez. La liste des fonctionnalités du pays spécifique peut apparaître sur le [Portail de localisation](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC). |
+        |Pays  | Spécifiez le pays ou la région auxquels la législation s'applique.|
+        |Secteur d’activité| Spécifiez un secteur d'activité, si le besoin s'applique uniquement à des secteurs spécifiques. Par exemple, choisissez **Secteur public**, **Vte détail**, ou **Production**.|
+        |Référence de la fonctionnalité  | Cela n'est pas appropriée à Dynamics 365 Business Central, mais vous pouvez saisir une référence à la fonctionnalité, si vous la connaissez. La liste des fonctionnalités du pays spécifique peut apparaître sur le [Portail de localisation](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC) du site CustomerSource. |
         |Date de la mise en application légale  | Spécifiez la date à laquelle les clients concernés doivent commencer à respecter à la loi.|
         |Date d'annonce du gouvernement  | Spécifiez la date à laquelle l'administration fiscale a informé la modification.|
         |Dernière date d'archivage  | Sélectionnez la limite de la première soumission de l'état, nouveau ou modifié.|
@@ -66,7 +74,9 @@ Nous vous invitons à utiliser Microsoft Dynamics Lifecycle Services (LCS) pour 
 
 ## <a name="see-also"></a>Voir aussi
 
-[Bienvenue dans Business Central](index.md)  
+[Fonctionnalités locales dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](about-localization.md)  
+[Modification de la langue et des paramètres régionaux](about-locale-language.md)  
 [Mise en route](product-get-started.md)  
+[Bienvenue dans Business Central](index.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

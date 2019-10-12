@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, customize
-ms.date: 06/24/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 6ba5b6f0f91e207ec8ffedf5b45003a5787b9e0f
-ms.sourcegitcommit: 0854c074b500c3031eaf86fde9d452f93f238081
+ms.openlocfilehash: fea52bfa75d953b96aecc0f3e354806324f77d83
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "1701144"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2306331"
 ---
 # <a name="select-a-check-layout"></a>Sélectionner une mise en page de chèque
 Vous pouvez concevoir vos chèques de sorte à respecter les normes fixées par les autorités locales. Vous pouvez imprimer des images de chèques en anglais, en français ou en espagnol.

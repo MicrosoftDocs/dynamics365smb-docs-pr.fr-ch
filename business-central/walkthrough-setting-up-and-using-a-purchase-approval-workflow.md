@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: dfd2a97c6c41ac43bbe4d33792774f929a68d7f6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ca97d08166b73f75240203aa9949e4b0aa774ea6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247984"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310531"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Procédure pas à pas : Configuration et utilisation d'un flux d'approbation achat
 Vous pouvez automatiser le processus d'approbation d'enregistrements nouveaux ou modifiés, par exemple de documents, de feuilles et de fiches client, en créant des flux de travail avec des étapes pour les approbations en question. Avant de créer des flux d'approbation, vous devez configurer un approbateur et un approbateur remplaçant pour chaque utilisateur approbation. Vous pouvez également définir les montants maximaux que les approbateurs sont qualifiés à approuver pour les enregistrements de vente et d'achat. Les demandes d'approbation et d'autres notifications peuvent être envoyées par e-mail ou note interne. Pour chaque configuration d'utilisateur d'approbation, vous pouvez également définir à quel moment ils reçoivent les notifications.
@@ -45,7 +45,7 @@ Sean est un superutilisateur dans CRONUS. Il crée deux utilisateurs d’approba
 Pour tester le flux d'approbation, Sean se connecte d'abord à [!INCLUDE[d365fin](includes/d365fin_md.md)] sous l'identité d'Alicia, puis demande l'approbation d'une commande achat. Ensuite, Sean se connecte en tant que lui-même, voit la note dans son Tableau de bord, suit le lien vers la demande d'approbation de la commande achat, et approuve la demande.  
 
 ## <a name="setting-up-sample-data"></a>Configuration des exemples de données
-Pour pouvoir configurer des utilisateurs d'approbation et leur méthode de notification, vous devez vous assurer que deux utilisateurs existent dans [!INCLUDE[d365fin](includes/d365fin_md.md)] : Un utilisateur représente Alicia. L'autre utilisateur, vous-même, représente Sean. Pour plus d'informations, voir [Gestion des utilisateurs et des autorisations](ui-how-users-permissions.md).
+Pour pouvoir configurer des utilisateurs d'approbation et leur méthode de notification, vous devez vous assurer que deux utilisateurs existent dans [!INCLUDE[d365fin](includes/d365fin_md.md)] : Un utilisateur représente Alicia. L'autre utilisateur, vous-même, représente Sean. Pour en savoir plus, reportez-vous à [Gérer les utilisateurs et les autorisations](ui-how-users-permissions.md).
 
 ### <a name="setting-up-approval-users"></a>Configuration des utilisateurs approbation  
 Une fois connecté comme vous-même, définissez Alicia en tant qu'utilisateur d'approbation dont l'approbateur est vous-même. Configurez vos droits d'approbation et spécifiez comment et quand être averti des demandes d'approbation.  

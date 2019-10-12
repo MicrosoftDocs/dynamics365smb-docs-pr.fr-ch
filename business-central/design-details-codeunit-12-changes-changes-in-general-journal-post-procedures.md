@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8daa5d57ed2f12daf3f3eef3572b2f7dbd39d92c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 5f27bb652009c740066dfa0ef3659bb9e53cfb0e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243426"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307363"
 ---
 # <a name="codeunit-12-changes-changes-in-general-journal-post-procedures"></a>Codeunit 12 modifications : modifications dans les procédures de validation de feuille comptabilité
 Les modifications suivantes ont été mises en œuvre dans cette version de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -148,10 +148,10 @@ Les modifications suivantes ont été mises en œuvre dans cette version de [!IN
 |ApplyCustLedgEntryByReversal|ApplyCustLedgEntryByReversal|Déplacé dans Codeunit 17 Gen. Jnl.-Valeur en comptabilité|  
 |ApplyVendLedgEntryByReversal|ApplyVendLedgEntryByReversal|Déplacé dans Codeunit 17 Gen. Jnl.-Valeur en comptabilité|  
 |PostPmtDiscountVATByUnapply|PostPmtDiscountVATByUnapply|Déplacé dans Codeunit 17 Gen. Jnl.-Valeur en comptabilité|  
-||CheckDimComb|Ajouté dans le Codeunit 17 Gen. Jnl.-Valeur en comptabilité|  
-||CopyCustLedgEntry|Ajouté dans le Codeunit 17 Gen. Jnl.-Valeur en comptabilité|  
-||CopyVendLedgEntry|Ajouté dans le Codeunit 17 Gen. Jnl.-Valeur en comptabilité|  
-||CopyBankAccLedgEntry|Ajouté dans le Codeunit 17 Gen. Jnl.-Valeur en comptabilité|  
+||CheckDimComb|Ajouté à Codeunit 17 Gen. Jnl.-Valeur en comptabilité|  
+||CopyCustLedgEntry|Ajouté à Codeunit 17 Gen. Jnl.-Valeur en comptabilité|  
+||CopyVendLedgEntry|Ajouté à Codeunit 17 Gen. Jnl.-Valeur en comptabilité|  
+||CopyBankAccLedgEntry|Ajouté à Codeunit 17 Gen. Jnl.-Valeur en comptabilité|  
 |HandlDtlAddjustment|HandleDtldAdjustment|Mis à jour|  
 |CollectAddjustment|CollectAdjustment|Mis à jour|  
 |SetOverDimErr|SetOverDimErr|Mis à jour|  
@@ -163,7 +163,7 @@ Les modifications suivantes ont été mises en œuvre dans cette version de [!IN
 |GetApplnRoundPrecision|GetApplnRoundPrecision|Mis à jour|  
 |CheckDimValueForDisposal|CheckDimValueForDisposal|Mis à jour|  
 |CalculateCurrentBalance|CalculateCurrentBalance|Mis à jour|  
-|IncludeVATAmount||Déplacé dans le tableau 81 Ligne feuille comptabilité|  
+|IncludeVATAmount||Déplacé dans Table 81 Gen. Ligne feuille|  
 |CalcVATAmountFromVATEntry|CalcVATAmountFromVATEntry|Mis à jour|  
 ||TotalVATAmountOnJnlLines|Ajouté|  
 ||SetGLRegReverse|Ajouté|  

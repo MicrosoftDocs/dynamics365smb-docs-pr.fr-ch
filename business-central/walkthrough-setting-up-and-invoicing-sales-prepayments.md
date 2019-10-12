@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5cceff2795f9b6c9dd8addeeeb5f6a1982b4e0ec
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: f1724f95652194e426a353b4ebb89c54ef384754
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249483"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310555"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Procédure pas à pas : configuration et facturation d'acomptes
 
@@ -61,7 +61,7 @@ Les acomptes sont des paiements qui sont facturés et validés dans une commande
  Phyllis configure le système afin qu'il gère les acomptes des clients.  
 
 -   Elle décide d'utiliser la même souche de numéros pour les acomptes et la facturation vente.  
--   Elle configure le programme pour qu'il vérifie si des acomptes sont requis avant la facturation finale d'une commande.  
+-   Elle configure l'application pour qu'elle vérifie si des acomptes sont requis avant la facturation finale d'une commande.  
 -   Elle configure les valeurs par défaut pour un pourcentage d'acompte requis pour certains articles et clients.  
 
 Les procédures suivantes décrivent le mode d'exécution des tâches de Phyllis :  

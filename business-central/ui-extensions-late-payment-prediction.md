@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 54a7ad407ef3322ec1e02de4b20a934163a21a8e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 613d20e3b4132cdf797586441bff0688a2076692
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251346"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315530"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Extension Prévisions de retard de paiement  
 Une gestion efficace des créances est importante pour la santé financière générale d'une société. L'extension de prévision de retard de paiement peut vous aider à minimiser les créances ouvertes et à ajuster votre stratégie de collectes en prévoyant si les factures vente seront payées à temps. Par exemple, si un retard de paiement est prévu, vous pouvez décider d'ajuster les conditions de paiement ou le mode de règlement du client.
@@ -41,7 +41,7 @@ Si vous activez l'extension, une vignette **Retards de paiements prévus** est d
 
 * **Retard de paiement** - Indique si le paiement de la facture sera en retard.
 * **Niveau de fiabilité de la prévision** - Indique la fiabilité de la prévision. **Elevée** signifie que la prévision est fiable à au moins 90 %, **Moyenne** est compris entre 80 et 90 %, et **Faible** est inférieur à 80 %.
-* **% du niveau de fiabilité de la prévision** - Affiche le pourcentage réel de du niveau de fiabilité. Par défaut, cette colonne ne s'affiche pas, mais vous pouvez l'ajouter si vous le souhaitez. Pour plus d'informations, voir [Personnalisation de votre espace de travail](ui-personalization-user.md).
+* **% du niveau de fiabilité de la prévision** - Affiche le pourcentage réel de du niveau de fiabilité. Par défaut, cette colonne ne s'affiche pas, mais vous pouvez l'ajouter si vous le souhaitez. Pour plus d'informations, voir [Personnaliser votre espace de travail](ui-personalization-user.md).
 
 > [!Tip]
 > La page Écritures comptables client affiche également un récapitulatif à droite. Lorsque vous vérifiez les prévisions, les informations de la section **Détails client** peuvent être utile. Lorsque vous sélectionnez la facture dans la liste, la section affiche des informations sur le client. Elle vous permet également de prendre une mesure immédiates. Par exemple, si un client égare fréquemment son portefeuille, vous pouvez ouvrir la fiche client dans le récapitulatif et bloquer le client pour des ventes futures.  

@@ -10,25 +10,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f2767fca96e1f3689fc4806d878381d02622f261
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 808459f9c77d797c58a5956a5641c97bc398734e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243749"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2306250"
 ---
-# <a name="reverse-postings"></a>Inversion d'une validation
+# <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Inversion d'une validation feuille et annuler les réceptions/envois
 Pour annuler une validation feuille erronée, sélectionnez l'écriture et créez une écriture inverse (écritures identiques aux écritures originales mais avec le signe opposé) portant les mêmes numéro de document et date comptabilisation que l'écriture d'origine. Une fois l'écriture contrepassée, créez l'écriture correcte.
 
 Vous pouvez uniquement inverser les écritures validées à partir d'une ligne feuille comptabilité. Une écriture ne peut être contrepassée qu'une fois.
 
-Pour plus d'informations sur la validation d'une feuille comptabilité, voir [Valider les transactions directement vers la comptabilité](finance-how-post-transactions-directly.md).
+Pour annuler un accusé de réception ou un envoi d’expédition, vous pouvez utiliser la fonction **Annuler** sur le document validé. Vous pouvez annuler des quantités de type **Article**.
 
 Si vous avez effectué une validation de quantité négative incorrecte, comme une commande achat avec, par exemple, un nombre d'articles incorrect et que vous l'avez validée comme étant reçue (mais non facturée), vous pouvez annuler cette validation.
 
-Si vous avez effectué une validation de quantité positive incorrecte, comme une commande retour achat avec, par exemple, un nombre d'articles incorrect et que vous l'avez validée comme étant livrée (mais non facturée), vous pouvez annuler cette validation.   
+Si vous avez effectué une validation de quantité positive incorrecte, comme une expédition vente ou une expédition retour achat avec un nombre d'articles incorrect et que vous l'avez validée comme étant livrée (mais non facturée), vous pouvez annuler cette validation.   
 
 ## <a name="to-reverse-the-journal-posting-of-a-general-ledger-entry"></a>Pour contrepasser la validation feuille d'une écriture comptable
 Vous pouvez inverser des écritures sur toutes les pages **Écritures comptables**. La procédure suivante se base sur la page **Écritures comptables**.
@@ -37,20 +37,29 @@ Vous pouvez inverser des écritures sur toutes les pages **Écritures comptables
 3. Sur la page **Contrepasser les écritures de transaction**, sélectionnez l'écriture voulue, puis sélectionnez l'action **Contrepasser**.
 4. Cliquez sur le bouton **Oui** dans le message de confirmation.
 
+## <a name="to-post-a-negative-entry"></a>Pour valider une écriture négative  
+Vous pouvez utiliser le champ **Correction** pour valider un débit négatif au lieu d'un crédit, ou pour valider un crédit négatif au lieu d'un débit sur un compte. Pour répondre aux exigences légales, ce champ est visible par défaut sur toutes les feuilles. Les champs **Montant débit** et **Montant crédit** comprennent l'écriture initiale et l'écriture corrigée. Ces champs n'ont aucune incidence sur le solde du compte.  
+
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles comptabilité**, puis sélectionnez le lien associé  
+2.  Dans le champ **Nom de la feuille**, sélectionnez le nom de feuille requis.  
+3.  Entrez les informations dans les champs pertinents.  
+4.  Dans la ligne feuille que vous souhaitez activer pour les écritures négatives, sélectionnez la case à cocher **Correction**.  
+5.  Pour valider la feuille, sélectionnez l'action **Valider**, puis le bouton **Oui**.
+
 ## <a name="to-undo-a-quantity-posting-on-a-posted-purchase-receipt"></a>Pour annuler une validation de quantité sur une réception d'achat enregistrée  
+La procédure d'annulation d'une réception validée est décrite ci-après. La procédure est identique pour des livraison validées.
 
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Réceptions achat enregistrées**, puis sélectionnez le lien associé.  
 2.  Ouvrez la réception enregistrée à annuler.  
 3.  Sélectionnez la ligne ou les lignes à annuler.  
 4.  Choisissez l'action **Annuler réception**.
 
-    Une ligne de correction est insérée sous la ligne de la réception sélectionnée.  
+Une ligne de correction est insérée sous la ligne de la réception sélectionnée. Si la quantité a été reçue dans une réception entrepôt, une ligne de correction est insérée dans la réception entrepôt enregistrée.  
 
-    Si la quantité a été reçue dans une réception entrepôt, une ligne de correction est insérée dans la réception entrepôt enregistrée.  
-
-    Les champs **Quantité reçue** et **Qté reçue non facturée** de la commande achat associée sont remis à zéro.
+Les champs **Quantité reçue** et **Qté reçue non facturée** de la commande achat associée sont remis à zéro.
 
 ## <a name="to-undo-and-then-redo-a-quantity-posting-on-a-posted-return-shipment"></a>Pour annuler, puis effectuer à nouveau la validation de quantité sur les expéditions retour enregistrées
+La procédure d'annulation d'une expédition retour validée et de la revalidation du retour d'achat avec une nouvelle quantité est décrite ci-après.
 
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Expéditions retour enreg.**, puis sélectionnez le lien associé.  
 2.  Ouvrez l'expédition retour validée à annuler.
@@ -67,16 +76,8 @@ Vous pouvez inverser des écritures sur toutes les pages **Écritures comptables
 7.  Ouvrez la commande retour concernée, puis sélectionnez l'action **Rouvrir**.  
 8.  Corrigez l'écriture dans le champ **Quantité** et publiez à nouveau le retour achat.  
 
-## <a name="to-post-a-negative-entry"></a>Pour valider une écriture négative  
-Vous pouvez utiliser le champ **Correction** pour valider un débit négatif au lieu d'un crédit, ou pour valider un crédit négatif au lieu d'un débit sur un compte. Pour répondre aux exigences légales, ce champ est visible par défaut sur toutes les feuilles. Les champs **Montant débit** et **Montant crédit** comprennent l'écriture initiale et l'écriture corrigée. Ces champs n'ont aucune incidence sur le solde du compte.  
-
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles comptabilité**, puis sélectionnez le lien associé  
-2.  Dans le champ **Nom de la feuille**, sélectionnez le nom de feuille requis.  
-3.  Entrez les informations dans les champs pertinents.  
-4.  Dans la ligne feuille que vous souhaitez activer pour les écritures négatives, sélectionnez la case à cocher **Correction**.  
-5.  Pour valider la feuille, sélectionnez l'action **Valider**, puis le bouton **Oui**.
-
 ## <a name="see-also"></a>Voir aussi
+[Annuler la validation d'assemblage](assembly-how-to-undo-assembly-posting.md)  
 [Valider les transactions directement vers la comptabilité](finance-how-post-transactions-directly.md)  
 [Utilisation de feuilles comptabilité](ui-work-general-journals.md)  
 [Finances](finance.md)  

@@ -3,23 +3,23 @@ title: Modifier l'aspect d'un état en sélectionnant une présentation différe
 description: Vous pouvez utiliser différentes présentations d'un état, et passer d'une présentation à l'autre pour modifier l'aspect d'un état.
 services: project-madeira
 documentationcenter: ''
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 04/01/2019
-ms.author: jswymer
-ms.openlocfilehash: f24f1cd24a31ddbd0b455b876821ae0173a677c3
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 07de4be7bc516cf9f4b802a48dc59293b1992f5f
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249460"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315267"
 ---
-# <a name="change-which-layout-is-currently-used-on-a-report"></a>Modification de la présentation actuellement utilisée sur un rapport
+# <a name="change-the-current-report-layout"></a>Modifier la présentation actuelle de l'état
 Un rapport peut être créé avec plus d'une présentation de rapport, que vous pouvez ensuite changer au besoin.
 
 Selon les présentations qui sont disponibles pour un rapport, vous pouvez choisir d'utiliser une présentation de rapport RDLC intégrée, une présentation de rapport Word, ou une présentation personnalisée. Pour plus d'informations sur les présentations de rapport RDLC et Word, les présentations intégrées et personnalisées, et plus encore, reportez-vous à [Gérer la présentation des états](ui-manage-report-layouts.md).
@@ -35,10 +35,11 @@ Selon les présentations qui sont disponibles pour un rapport, vous pouvez chois
    * RDLC (intégré), utilise la présentation d'état RDLC intégrée sur l'état.
    * Word (intégré), utilise la présentation d'état Word intégrée sur l'état.
    * Personnalisée, utilise une présentation personnalisée sur l'état.  
-     Il est possible de savoir quelles sont les présentations personnalisées disponibles pour l'état dans le récapitulatif Partie présentations état. S'il n'existe aucune présentation personnalisée pour le rapport, alors vous devez d'abord en créer une. Si vous choisissez cette option, rendez-vous à la procédure suivante pour spécifier la présentation personnalisée que vous souhaitez utiliser.
 
-    > [!NOTE]  
-    >   Si vous choisissez **RDLC (intégré)** ou **Word (intégré)** et si vous recevez un message d'erreur indiquant que le rapport n'a pas de présentation du type spécifié, alors vous devez choisir une autre option de présentation ou créer une présentation de rapport personnalisée du type que vous souhaitez utiliser.
+Il est possible de savoir quelles sont les présentations personnalisées disponibles pour l'état dans le récapitulatif **Partie présentations état**. S'il n'existe aucune présentation personnalisée pour le rapport, alors vous devez d'abord en créer une. Si vous choisissez cette option, rendez-vous à la procédure suivante pour spécifier la présentation personnalisée que vous souhaitez utiliser.
+
+> [!NOTE]
+> Si vous choisissez **RDLC (intégré)** ou **Word (intégré)** et si vous recevez un message d'erreur indiquant que le rapport n'a pas de présentation du type spécifié, alors vous devez choisir une autre option de présentation ou créer une présentation de rapport personnalisée du type que vous souhaitez utiliser.
 
 Si vous avez sélectionné une présentation de rapport RDLC ou Word intégrée, aucune action supplémentaire n'est requise et la présentation sera utilisée la prochaine fois que le rapport sera exécuté.
 

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, transfer, sku, locations, warehouse
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 56988064297cac55c48624071a19d510f6126495
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 72a9455810b017510947b78e40c88116e9935d20
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248057"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2306739"
 ---
 # <a name="design-details-transfers-in-planning"></a>Détails de conception : transferts de planification
 Les ordres de transfert sont également une source d'approvisionnement lorsque vous travaillez au niveau des points de stock. Lors de l'utilisation de plusieurs magasins (entrepôts), le système de réapprovisionnement de point de stock peut être défini sur Transfer, ce qui implique que le magasin est réapprovisionné en transférant des biens d'un autre magasin. Dans une situation avec plusieurs entrepôts, les sociétés peuvent avoir une chaîne de transferts où l'approvisionnement vers le magasin VERT est transféré à partir du magasin JAUNE, l'approvisionnement vers JAUNE est transféré depuis ROUGE et ainsi de suite. Au début de la chaîne, il existe un système de réapprovisionnement d'Ordre de fabrication ou d'achat.  
@@ -29,7 +29,7 @@ Lors de la comparaison de la situation où une commande approvisionnement rencon
 ![Exemple d'équilibre de l'offre et de la demande dans les transferts](media/nav_app_supply_planning_7_transfers2.png "Exemple d'équilibre de l'offre et de la demande dans les transferts")  
 
 ## <a name="why-is-transfer-a-special-case"></a>Pourquoi le transfert est-il un cas spécial ?  
-Un ordre de transfert ressemble aux autres ordres du programme. Toutefois, en coulisse, c'est très différent.  
+Un ordre de transfert ressemble aux autres ordres de l'application. Toutefois, en coulisse, c'est très différent.  
 
 L'un aspect fondamental qui distingue les transferts dans la planification entre les commandes achat et les ordres de fabrication est qu'une ligne transfert représente la demande et l'approvisionnement en même temps. La partie sortante, qui est expédiée à partir de l'ancien magasin, est la demande. La partie entrante, qui doit être reçue au nouveau magasin, est un approvisionnement à ce magasin.  
 
@@ -88,7 +88,7 @@ Par exemple, si une ligne ordre de transfert de 117 pièces est réservée sur 
 ![Réservations de planification de transfert](media/nav_app_supply_planning_7_transfers8.png "Réservations de planification de transfert")  
 
 ## <a name="changing-quantity-in-a-transfer-chain"></a>Modification de la quantité dans une chaîne de transfert  
-Dans l'exemple suivant, le point de départ est une situation équilibrée avec une chaîne de transfert approvisionnant une commande vente de 27 dans le magasin ROUGE avec une commande achat correspondante dans le magasin BLEU, transférée via le magasin ROSE. Par conséquent, outre les vente et les achats, il existe deux ordres de transfert : BLUE-PINK et PINK-RED.  
+Dans l'exemple suivant, le point de départ est une situation équilibrée avec une chaîne de transfert approvisionnant une commande vente de 27 dans le magasin ROUGE avec une commande achat correspondante dans le magasin BLEU, transférée via le magasin ROSE. Par conséquent, outre les ventes et les achats, il existe deux ordres de transfert : BLUE-PINK et PINK-RED.  
 
 ![Modification de la quantité dans la planification de transfert 1](media/nav_app_supply_planning_7_transfers9.png "Modification de la quantité dans la planification de transfert 1")  
 
@@ -148,10 +148,10 @@ Lors de la replanification d'une ligne de transfert existante, le système de pl
 
 ![Modification de la date d'échéance dans la planification de transfert](media/nav_app_supply_planning_7_transfers15.png "Modification de la date d'échéance dans la planification de transfert")  
 
-Par conséquent, lors de la modification de la date d'échéance sur une ligne transfert, le délai doit être calculée pour mettre à jour la partie sortante du transfert.  
+Par conséquent, lors de la modification de la date d'échéance sur une ligne transfert, le délai doit être calculé pour mettre à jour la partie sortante du transfert.  
 
 ## <a name="seriallot-numbers-in-transfer-chains"></a>Numéros de série/lot dans des chaînes de transfert  
-Si la demande indique des numéros de série et/ou de lot, et que le moteur de planification est activé, elle produira des ordres de transfert directement créés. Pour plus d'informations sur ce concept, voir Attributs d'article. Si, cependant, les numéros de série/lot sont supprimées de la demande, les ordres de transfert créés dans la chaîne contiendront toujours les numéros de série/lot et seront donc ignorés lors de la planification (non supprimés).  
+Si la demande indique des numéros de série et/ou de lot, et que le moteur de planification est activé, elle produira des ordres de transfert directement créés. Pour plus d'informations sur ce concept, voir Attributs d'article. Si, cependant, les numéros de série/lot sont supprimés de la demande, les ordres de transfert créés dans la chaîne contiendront toujours les numéros de série/lot et seront donc ignorés lors de la planification (non supprimés).  
 
 ## <a name="order-to-order-links"></a>Liens ordre pour ordre  
 Dans cet exemple, le point de stock BLEU est installé avec la méthode de réapprovisionnement commande, alors que ROSE et ROUGE utilisent lot pour lot. Lorsqu'une commande vente de 27 est créée sur le magasin ROUGE, elle entraîne une chaîne de transferts, le dernier joint du magasin BLEU étant réservé avec liaison. Dans cet exemple, les réservations ne sont pas des réservations dures créées par le gestionnaire dans le magasin ROSE, mais des liens créés par le système de planification. La différence importante est que le système de planification peut modifier ces derniers.  

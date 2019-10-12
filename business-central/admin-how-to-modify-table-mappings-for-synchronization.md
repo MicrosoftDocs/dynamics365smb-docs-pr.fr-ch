@@ -1,6 +1,6 @@
 ---
 title: Modifier les mappages de table pour la synchronisation | Microsoft Docs
-description: Découvrez comment modifier les mappages de table utilisés lors de la synchronisation des données entre Business Central et Dynamics 365 for Sales.
+description: Découvrez comment modifier les mappages de table utilisés lors de la synchronisation des données entre Business Central et Dynamics 365 Sales.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: c2b2df393afe7cf27964b1540deddf7760747a9d
-ms.sourcegitcommit: 92c7b6c5f0a5d8becbef106ab85258906765bc3e
+ms.openlocfilehash: 505c1427c63a0a6f9e68980ea0ff05c93918ea60
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "1540215"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308100"
 ---
 # <a name="modify-table-mappings-for-synchronization"></a>Modifier les mappages de table pour la synchronisation
 Un mappage de table d'intégration associe une table dans [!INCLUDE[d365fin](includes/d365fin_md.md)] à une table d'intégration pour l'entité [!INCLUDE[crm_md](includes/crm_md.md)]. À chaque entité de [!INCLUDE[crm_md](includes/crm_md.md)] à synchroniser avec les données correspondantes dans [!INCLUDE[d365fin](includes/d365fin_md.md)] doit correspondre un mappage de table d'intégration. Un mappage de table d'intégration comprend plusieurs paramètres qui vous permettent de contrôler comment les enregistrements d'une table [!INCLUDE[d365fin](includes/d365fin_md.md)] et une entité [!INCLUDE[crm_md](includes/crm_md.md)] sont synchronisés par les projets de synchronisation d'intégration correspondants.  
@@ -33,7 +33,7 @@ Un mappage de table d'intégration associe une table dans [!INCLUDE[d365fin](inc
 ## <a name="creating-new-records"></a>Créer des enregistrements  
  Par défaut, seuls les enregistrements dans [!INCLUDE[d365fin](includes/d365fin_md.md)] et [!INCLUDE[crm_md](includes/crm_md.md)] qui sont couplés seront synchronisés par les projets de synchronisation de l'intégration. Vous pouvez définir des mappages de table afin que des enregistrements soient créés dans la destination (par exemple, [!INCLUDE[d365fin](includes/d365fin_md.md)]) pour chaque enregistrement de la source (par exemple, [!INCLUDE[crm_md](includes/crm_md.md)]) qui n'est pas encore couplé.  
 
- Par exemple, le projet de synchronisation VENDEURS - Dynamics 365 for Sales utilise le mappage de table VENDEURS. Le projet de synchronisation copie les données des enregistrements d'utilisateur dans [!INCLUDE[crm_md](includes/crm_md.md)] vers les enregistrements de vendeur dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Si vous définissez le mappage de table pour créer des enregistrements, pour chaque utilisateur dans [!INCLUDE[crm_md](includes/crm_md.md)] qui n'est pas encore couplé à un vendeur dans [!INCLUDE[d365fin](includes/d365fin_md.md)], un enregistrement de vendeur est créé dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+ Par exemple, le projet de synchronisation Dynamics 365 Sales - VENDEURS utilise le mappage de table VENDEURS. Le projet de synchronisation copie les données des enregistrements d'utilisateur dans [!INCLUDE[crm_md](includes/crm_md.md)] vers les enregistrements de vendeur dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Si vous définissez le mappage de table pour créer des enregistrements, pour chaque utilisateur dans [!INCLUDE[crm_md](includes/crm_md.md)] qui n'est pas encore couplé à un vendeur dans [!INCLUDE[d365fin](includes/d365fin_md.md)], un enregistrement de vendeur est créé dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 #### <a name="to-create-new-records-during-synchronization"></a>Pour créer des enregistrements durant la synchronisation  
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Mappages de table d'intégration**, puis sélectionnez le lien associé.
@@ -59,6 +59,6 @@ Si vous installez la configuration de synchronisation par défaut, deux modèles
 3.  Configurez le champ **Code modèle config. table int.** dans le modèle de configuration à utiliser pour les nouveaux enregistrements dans [!INCLUDE[crm_md](includes/crm_md.md)].
 
 ## <a name="see-also"></a>Voir aussi  
-[À propos de l'intégration de Dynamics 365 Business Central avec Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md )   
-[Synchronisation de Business Central et de Dynamics 365 for Sales](admin-synchronizing-business-central-and-sales.md)   
+[À propos de l'intégration de Dynamics 365 Business Central avec Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md )   
+[Synchronisation de Business Central et Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)   
 [Programmer une synchronisation](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  

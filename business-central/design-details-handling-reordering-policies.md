@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 69f9f1f2f63e1d16ec1ef4980c00d21bada06166
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 53d9d0ff2d9d1f42bb7f9c05ed49aa4df20f2a92
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245795"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307171"
 ---
 # <a name="design-details-handling-reordering-policies"></a>Détails de conception : gestion des méthodes de réapprovisionnement
 Pour qu'un article participe à la planification des approvisionnements, une méthode de regroupement doit être définie. Les quatre méthodes de réapprovisionnement disponibles sont les suivantes :  
@@ -254,7 +254,7 @@ Tout ce qui concerne la stratégie Qté fixe de commande s'applique également �
 #### <a name="calculated-per-time-bucket"></a>Calculé par intervalle de planification  
 La quantité de réapprovisionnement est déterminée au moment (à la fin d'un intervalle de planification) où le système de planification détecte le que le point de commande a été dépassé. En même temps, le système mesure l'écart entre le niveau de stock prévisionnel actuel et le stock maximal spécifié. Cela constitue la quantité à recommander. Le système vérifie ensuite si l'approvisionnement a déjà été commandé ailleurs pour être reçu dans les délais et, si c'est le cas, réduit la quantité de la nouvelle commande d'approvisionnement des quantités déjà commandées.  
 
-Le système assure que le stock prévisionnel atteint au moins le niveau du point de commande, dans la cas où l'utilisateur oublierait de spécifier une quantité de stock maximum.  
+Le système assure que le stock prévisionnel atteint au moins le niveau du point de commande, dans le cas où l'utilisateur oublierait de spécifier une quantité de stock maximum.  
 
 #### <a name="combines-with-order-modifiers"></a>Associe avec les modificateurs d'ordre  
 En fonction de la configuration, il peut être préférable de combiner la stratégie de la quantité maximum avec des modificateurs de commande pour garantir une quantité de commande minimale ou de l'arrondir au nombre supérieur d'unités d'achat, ou de le diviser en davantage de lots comme défini par la quantité maximum commande.  
@@ -267,7 +267,7 @@ Si la date prévue est un jour chômé, le système de planification déplace la
 ### <a name="order"></a>Ordre
 Dans un environnement de fabrication à la commande, un article est acheté ou produit pour couvrir exclusivement une demande spécifique. Généralement, il se rapporte aux articles A, et la motivation pour choisir cette méthode de réapprovisionnement de commande peut être que la demande n'est pas fréquente, le délai de production est insignifiant ou les attributs requis varient.  
 
-Le programme crée un lien ordre pour ordre, qui agit en tant que connexion préliminaire entre l'approvisionnement, une commande approvisionnement ou un stock, et la demande qu'il va traiter.  
+L'application crée un lien ordre pour ordre, qui agit en tant que connexion préliminaire entre l'approvisionnement, une commande approvisionnement ou un stock, et la demande qu'il va traiter.  
 
 Outre l'utilisation de la méthode de commande, le lien ordre pour ordre peut s'appliquer lors de la planification, comme suit :  
 
@@ -277,7 +277,7 @@ Outre l'utilisation de la méthode de commande, le lien ordre pour ordre peut s'
 Même si une société manufacturière se considère comme un environnement de fabrication à la commande, il peut être préférable d'utiliser la méthode de réapprovisionnement Lot pour lot si les articles sont des standards purs sans variation dans les attributs. Par conséquent, le système utilise le stock non planifié et additionne uniquement les commandes vente ayant la même date d'expédition ou faisant partie d'un intervalle de planification défini.  
 
 #### <a name="order-to-order-links-and-past-due-dates"></a>Liens ordre pour ordre et dates arriérées  
-Contrairement à la plupart des ensemble approvisionnement-demande, les commandes liées avec des dates d'échéance antérieures à la date de début de la planification sont entièrement planifiées par le système. La raison commerciale de cette exception est que les ensembles spécifiques approvisionnement-demande doivent être synchronisés jusqu'à l'exécution. Pour plus d'informations sur la zone gelée qui s'applique à la plupart des types de demande-approvisionnement, voir [Détails de conception : traiter les commandes avant la date début de la planification](design-details-dealing-with-orders-before-the-planning-starting-date.md).
+Contrairement à la plupart des ensembles approvisionnement-demande, les commandes liées avec des dates d'échéance antérieures à la date de début de la planification sont entièrement planifiées par le système. La raison commerciale de cette exception est que les ensembles spécifiques approvisionnement-demande doivent être synchronisés jusqu'à l'exécution. Pour plus d'informations sur la zone gelée qui s'applique à la plupart des types de demande-approvisionnement, voir [Détails de conception : traiter les commandes avant la date début de la planification](design-details-dealing-with-orders-before-the-planning-starting-date.md).
 
 ### <a name="lot-for-lot"></a>Lot pour lot
 La méthode lot pour lot est la plus souple, parce que le système réagit uniquement à la demande réelle, de plus il agit sur une demande anticipée à partir de commandes de prévision et de commandes ouvertes, puis détermine la quantité commande en fonction de la demande. La méthode lot pour lot visé cible les articles A et B pour lesquels le stock peut être accepté mais doit être évité.  
@@ -286,7 +286,7 @@ Par certains côtés, la méthode lot pour lot ressemble à la méthode de comma
 
 L'intervalle de planification est défini dans le champ **Intervalle de planification**. Le système travaille avec un intervalle de planification minimum d'un jour, car il s'agit de la plus petite unité de temps des événements de demande et d'approvisionnement dans le système (même si, dans la pratique, l'unité de temps des ordres de fabrication et des besoins de composants peuvent être des secondes).  
 
-L'intervalle de planification fixe également des limites lorsque un ordre de fabrication existant doit être replanifié pour répondre à une demande donnée. Si l'approvisionnement se trouve dans l'intervalle de planification, il est replanifié en entrée ou en sortie pour répondre à la demande. Sinon, s'il a lieu précédemment, il provoque une accumulation de stock inutile et doit être annulé. S'il se trouve plus tard, une commande approvisionnement est créée à la place.  
+L'intervalle de planification fixe également des limites lorsqu'un ordre de fabrication existant doit être replanifié pour répondre à une demande donnée. Si l'approvisionnement se trouve dans l'intervalle de planification, il est replanifié en entrée ou en sortie pour répondre à la demande. Sinon, s'il a lieu précédemment, il provoque une accumulation de stock inutile et doit être annulé. S'il se trouve plus tard, une commande approvisionnement est créée à la place.  
 
 Avec cette méthode, il est également possible de définir un stock de sécurité pour compenser les fluctuations possibles de l'approvisionnement, ou répondre à une demande soudaine.  
 

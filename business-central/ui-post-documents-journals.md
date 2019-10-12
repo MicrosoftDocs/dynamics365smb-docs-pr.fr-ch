@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/24/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a3fabec129de3e59eff30f70d1084e3969fa9ddc
-ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
+ms.openlocfilehash: 21329a8c6232fe0aba2f0ef99cc58ce4ea699d68
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1921376"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310722"
 ---
 # <a name="posting-documents-and-journals"></a>Validation des documents et des feuilles
 La validation est une action de comptabilité qui consiste à enregistrer des transactions commerciales dans les divers livres comptables de la société.
@@ -29,6 +29,7 @@ Le tableau suivant décrit les tâches associées, et inclut des liens vers les 
 | --- | --- |
 | En savoir plus sur la validation de documents achat. |[Validation des achats](ui-post-purchases.md) |
 | En savoir plus sur la validation de documents vente. |[Validation des ventes](ui-post-sales.md) |
+| Validez plusieurs documents de vente ou d'achat ensemble, immédiatement ou selon une planification.|[Valider plusieurs documents en même temps](ui-batch-posting.md)|
 | En savoir plus sur la validation des feuilles comptabilité. |[Utilisation de feuilles comptabilité](ui-work-general-journals.md) |
 | Obtenir un aperçu, sur la page, des écritures qui seront créées lors de la validation. |[Résultats de l'aperçu compta.](ui-how-preview-post-results.md) |
 | Obtenir un aperçu, dans un état, des écritures qui seront créées lors de la validation. |[Afficher des états de test avant la validation](ui-how-view-test-reports-posting.md) |

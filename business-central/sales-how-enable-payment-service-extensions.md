@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online payment
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e5d4d9fd0c6857c22f2b4c929a6e6ed528cadf26
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 7bd02b7d802faa3b0766d6689eaa223ba3e3573a
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252680"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2316467"
 ---
 # <a name="enable-customer-payments-through-payment-services"></a>Activer les paiements client via les services de paiement
 Au lieu de collecter des paiements par l'intermédiaire de transferts bancaires ou de cartes de crédit, vos clients peuvent vous payer via leur compte avec des services de paiement, tels que Microsoft Pay, PayPal ou WorldPay.  
@@ -24,7 +24,7 @@ Après avoir activé un service de paiement dans [!INCLUDE[d365fin](includes/d36
 
 Les extensions Microsoft Pay, PayPal Payments Standard et WorldPay Payments Standard sont installées dans [!INCLUDE[d365fin](includes/d365fin_md.md)] et sont prêtes à être activées.  
 
-## <a name="to-enable-a-payment-service-in-included365finincludesd365finmdmd"></a>Pour activer un service de paiement dans [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="to-enable-a-payment-service-in-included365finincludesd365fin_mdmd"></a>Pour activer un service de paiement dans [!INCLUDE[d365fin](includes/d365fin_md.md)]
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Services de paiement**, puis sélectionnez le lien associé.  
 2. Sur la page **Services de paiement**, sélectionnez l'action **Nouveau**.  
 3. Sélectionnez le service de paiement, puis fermez la page.  

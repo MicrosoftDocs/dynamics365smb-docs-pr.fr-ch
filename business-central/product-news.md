@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.search.keywords: news, release plan, roadmap, whats new
-ms.date: 07/17/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: a8f9efbf60f7e0d700453508a3f64b6b369ecd62
-ms.sourcegitcommit: b4fb54af9ed2e51479bb5293f86290c0de78858c
+ms.openlocfilehash: edcd3cdef966b8163b5c6a46c66337dd90812a67
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "1756030"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313555"
 ---
 # <a name="whats-new-in-dynamics-365-business-central"></a>Nouveautés dans Dynamics 365 Business Central
 
@@ -28,7 +28,7 @@ Pour voir toutes les extensions proposées par les partenaires [!INCLUDE[d365fin
 
 ## <a name="check-the-dynamics-365-blog"></a>Consultez le blog Dynamics 365
 
-Nous discutons des nouvelles fonctionnalités sur le [blog de Dynamics 365](https://cloudblogs.microsoft.com/dynamics365/users/product/business-central/), notamment leur date de disponibilité et les éventuelles considérations particulières.  
+Nous discutons des nouvelles fonctionnalités sur le [blog de Dynamics 365](https://cloudblogs.microsoft.com/dynamics365/), notamment leur date de disponibilité et les éventuelles considérations particulières.  
 
 Pour les partenaires, nous publions des informations sur [Microsoft Dynamics 365 Business Central sur le blog Dynamics 365 pour les partenaires](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) et dans l'[Aide dédiée à l'équipe IT et aux développeurs pour [!INCLUDE [prodshort](includes/prodshort.md)] ](/dynamics365/business-central/dev-itpro/index).  
 

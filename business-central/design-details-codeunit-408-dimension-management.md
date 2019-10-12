@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 redirect_url: design-details-dimension-set-entries
-ms.openlocfilehash: f725e5baea27b47399a50d041757fde83657673c
-ms.sourcegitcommit: 1fa3d33db7bc71e3a27c826308a80ff24a436a72
+ms.openlocfilehash: 3b3cc817ac79fa18a5f0b68b97a54fab9ac6711b
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "1970985"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307339"
 ---
 # <a name="design-details-codeunit-408-dimension-management"></a>Détails de conception : Codeunit 408 Gestion des axes analytiques
 Codeunit 408 Gestion des axes analytiques est une bibliothèque de fonctions qui gère les tâches courantes qui sont liées aux axes analytiques, tels que copier d'une table à une autre ou d'un document à un autre. Cette rubrique répertorie les fonctions modifiées dans Microsoft Dynamics NAV 2013 R2 et spécifie ce qui doit être effectué sur les fonctions. La plupart des fonctions sont supprimées parce qu'il n'y a pas besoin de copier entre les tables axe analytique.  

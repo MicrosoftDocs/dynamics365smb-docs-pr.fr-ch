@@ -1,5 +1,5 @@
 ---
-title: Procédure de saisie de données dans les champs | Microsoft Docs
+title: Procédure de saisie de données dans Business Central | Microsoft Docs
 description: En savoir plus sur les fonctions générales qui vous permettent de saisir les données dans les champs.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 09/17/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 83bf26c7059146978d46820144e5701fdbb3aa31
-ms.sourcegitcommit: 7ce8005806465417c7040c61da1d6cada29cd9c0
+ms.openlocfilehash: 722f81e9e06cdab13bdd838837e2053de0215821
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "2000802"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311395"
 ---
 # <a name="entering-data"></a>Saisie de données
 
@@ -39,9 +39,9 @@ Vous connaissez peut-être déjà l'utilisation de la touche Tab afin de navigue
 
 Chaque champ peut être marqué comme *inclus dans la Saisie rapide* ou *exclus de la Saisie rapide*. Les champs inclus dans la Saisie rapide seront inclus dans le chemin d'accès lorsque vous appuyez sur la touche Entrée ; les champs exclus de la fonction Saisie rapide, ne le seront pas.
 
-Lorsque vous avez fini de saisir les données dans un champ, appuyez simplement sur Entrée pour confirmer les changements et accéder au champ suivant. Si vous souhaitez inverser le sens, et accéder au champ précédent, appuyez sur Maj+Entrée. Pour plus d'informations sur les raccourcis, voir [Raccourcis clavier Saisie rapide pour les champs](keyboard-shortcuts.md#QuickEntry).
+Lorsque vous avez fini de saisir les données dans un champ, appuyez simplement sur Entrée pour confirmer les changements et accéder au champ suivant. Si vous souhaitez inverser le sens, et accéder au champ précédent, appuyez sur Maj+Entrée. Pour plus d'informations sur les raccourcis, voir [Raccourcis rapides d'écriture pour les champs](keyboard-shortcuts.md#QuickEntry).
 
-#### <a name="tips-and-tricks"></a>Conseils et astuces
+#### <a name="tips-and-tricks"></a>Conseils
 Vous trouverez ci-après les informations utiles concernant la fonction Saisie rapide.
 
 - Elle est disponible pour tout champ modifiable.
@@ -51,14 +51,14 @@ Vous trouverez ci-après les informations utiles concernant la fonction Saisie r
 - La fonction Saisie rapide fonctionne peu importe si les champs sont obligatoires ou non. Ainsi, il est recommandé de veiller à ce que les champs obligatoires soient inclus dans la fonction Saisie rapide.
 - Par défaut, la plupart des champs sont automatiquement inclus dans la fonction Saisie rapide. Ainsi, à la base, il est fort probable que votre tâche exclura les champs de la fonction Saisie rapide.
 
-### <a name="how-to-change-quick-entry-fields"></a>Comment modifier les champs de saisie rapide
+### <a name="to-change-quick-entry-fields"></a>Pour modifier les champs de saisie rapide
 
 Pour modifier quels champs sont inclus ou exclus de la Saisie rapide sur une page, utilisez la personnalisation.
 
-1. Commencez la personnalisation en sélectionnant l'icône ![Paramètres](media/ui-experience/settings_icon_small.png "Icône Paramètres du tableau de bord"), puis sélectionnez **Personnaliser**.
+1. Commencez la personnalisation en sélectionnant l'icône ![Paramètres](media/ui-experience/settings_icon_small.png "Icône Paramètres du tableau de bord"), puis sélectionnez l'action **Personnaliser**.
 2. Sélectionnez un champ que vous souhaitez modifier, ou dans des listes, sélectionnez l'en-tête de colonne correspondante, puis choisissez **Inclure dans la saisie rapide** ou **Exclure de la saisie rapide**.
 
-Pour plus d'informations sur la personnalisation, voir [Personnalisation de votre espace de travail et des pages](ui-personalization-user.md).
+Pour plus d'informations sur la personnalisation, voir [Personnaliser votre espace de travail](ui-personalization-user.md).
 
 ## <a name="mandatory-fields"></a>Champs obligatoires
 
@@ -76,19 +76,25 @@ Même si le champ contient un astérisque rouge, vous n'êtes pas forcé de remp
 
 -   Consulter - Affiche les options qui existent pour le champ. Vous ne pouvez sélectionner qu'une des options.  
 
-## <a name="copying-and-pasting-fields-and-lines"></a>Copier et coller des champs et des lignes
+## <a name="copying-and-pasting-faq-fields-and-lines"></a>FAQ Copier et coller des champs et des lignes
 
 Vous pouvez copier une ou plusieurs lignes dans une liste ou un champ unique sur une page, puis collez ce que vous avez copié dans la même page, une autre page, ou un document externe (comme Microsoft Excel et un e-mail Outlook). En raccourci, pour copier, appuyez sur CTRL+C (cmd+C dans macOS) sur votre clavier. Pour coller, appuyez sur CTRL+V (cmd+V dans macOS).
 
 Dans une liste, pour copier le champ dans la même colonne de la ligne précédente, et le coller dans la ligne actuelle, il vous suffit d'appuyer sur F8.
 
-Pour plus d'informations, reportez-vous à la rubrique [Copier et coller dans Business Central](ui-copy-paste.md).
+Pour plus d'informations, voir [FAQ sur l'opération Copier et coller](ui-copy-paste.md).
+
+## <a name="filtering-line-items"></a>Filtrage des articles de ligne
+
+Pour commencer à filtrer, sélectionnez ![icône de volet Filtre](media/open-filter-pane-icon.png "icône de volet Filtre") en haut de la liste ou appuyez sur Maj+F3 pour ouvrir le volet Filtrer. Vous travaillez avec le volet Filtrer comme vous le faites sur toute autre liste. Pour plus d'informations, reportez-vous à la rubrique [Filtrage](ui-enter-criteria-filters.md#Filtering).
+
+La fonction Filtrage est utile notamment pour afficher et analyser de longs documents. Par exemple, supposez que vous ouvriez une facture de vente validée et que vous filtriez les articles de ligne pour afficher tous les articles de ligne qui ont une remise individuelle supérieure à 5 % ou que vous filtriez uniquement pour afficher les accessoires de vélo comportant la mention « pro » dans leur nom.
 
 ## <a name="Focus"></a>Se concentrer sur les articles de ligne
 
-Lorsque vous travaillez sur des documents qui comprennent une pièce des articles de ligne, comme une page de commande vente ou de facture, vous pouvez basculer votre vue pour vous concentrer uniquement sur les articles de ligne, notamment en développant la pièce des articles de ligne de telle sorte qu'elle occupe la plupart de l'espace de travail, masquant les autres parties de la page, hormis la zone des actions en haut. Cela vous donne un meilleur aperçu des articles de ligne et offre un plus grand espace pour les exploiter. Cela est particulièrement utile lorsque vous utilisez de grandes listes d'articles de ligne et lorsque la saisie rapide des données est souhaitée.
+Lorsque vous travaillez sur des documents qui comprennent une pièce des articles de ligne, comme une page de commande vente ou de facture, vous pouvez basculer votre vue pour vous concentrer uniquement sur les articles de ligne. La pièce des articles de ligne se développe ensuite de telle sorte qu'elle occupe la plupart de l'espace de travail, masquant les autres parties de la page, hormis la zone des actions en haut. Cela vous donne un meilleur aperçu des articles de ligne et offre un plus grand espace pour les exploiter.
 
-Un autre avantage est que cela vous offre une fonctionnalité de filtre avancée, comme sur les autres listes, afin que la navigation et la recherche à travers les articles de ligne soient plus simples.
+Cela est particulièrement utile lorsque vous utilisez de grandes listes d'articles de ligne et lorsque la saisie rapide des données est souhaitée. Un autre avantage est que cela vous offre une fonctionnalité de filtre avancée, comme sur les autres listes, afin que la navigation et la recherche à travers les articles de ligne soient plus simples.
 
 ### <a name="switching-the-focus-on-and-off"></a>Activation/Désactivation du focus
 
@@ -96,11 +102,16 @@ Pour vous concentrer sur les articles de ligne, faites votre sélection n'import
 
 Pour revenir à la vue normale, sélectionnez ![icône mode Focalisation](media/focus-mode.png "icône mode Focalisation") ou appuyez à nouveau sur Ctrl+Maj+F12.
 
-### <a name="filtering-the-line-items"></a>Filtrage des articles de ligne
+## <a name="multitasking-across-multiple-pages"></a>Multitâche sur plusieurs pages
+Lorsque vous travaillez sur plusieurs tâches à la fois ou que vous gérez des interruptions de la tâche en cours, telles que la prise d'un appel entrant, vous pouvez ouvrir une page de fiche ou de document dans une nouvelle fenêtre. Cela vous permet de garder une fenêtre ouverte pour une tâche en cours pendant que vous démarrez ou terminez une autre tâche dans une ou plusieurs autres fenêtres.
 
-Pour commencer à filtrer, sélectionnez ![icône de volet Filtre](media/open-filter-pane-icon.png "icône de volet Filtre") en haut de la liste ou appuyez sur **Maj+F3** pour ouvrir le volet Filtrer. Vous travaillez avec le volet Filtrer comme vous le faites sur toute autre liste. Pour plus d'informations, reportez-vous à la rubrique [Filtrage](ui-enter-criteria-filters.md#Filtering).
+Pour ouvrir la fiche ou le document en cours dans une nouvelle fenêtre, choisissez ![Ouvrir dans une nouvelle fenêtre](media/open-new-window-icon.png "icône Ouvrir dans une nouvelle fenêtre") dans le coin supérieur droit, ou appuyez sur Alt+Maj+W.
 
-La fonction Filtrage est utile notamment pour afficher et analyser de longs documents. Par exemple, supposez que vous ouvriez une facture de vente validée et que vous filtriez les articles de ligne pour afficher tous les articles de ligne qui ont une remise individuelle supérieure à 5 % ou que vous filtriez uniquement pour afficher les accessoires de vélo comportant la mention « pro » dans leur nom.
+> [!NOTE]
+> Lorsque vous ouvrez d'autres pages d'une fiche ou d'un document ouvert dans une nouvelle fenêtre, ces pages s'ouvrent dans une nouvelle fenêtre même si vous ne choisissez pas ![Ouvrir dans une nouvelle fenêtre](media/open-new-window-icon.png "icône Ouvrir dans une nouvelle fenêtre").
+
+> [!NOTE]
+> Si vous travaillez dans le navigateur Safari, un bloqueur de fenêtres publicitaires intempestives peut empêcher la nouvelle fenêtre de s'ouvrir. Si tel est le cas, spécifiez l'URL du produit en tant que site Web autorisé. Pour plus d'informations, voir [Modifier les préférences dans Safari ](https://go.microsoft.com/fwlink/?LinkId=2102965).  
 
 ## <a name="entering-quantities-by-calculation"></a>Saisie de quantités par calcul
 
@@ -134,7 +145,7 @@ Vous pouvez saisir des chiffres négatifs de deux manières. Le numéro -20,5 pe
 Vous pouvez entrer des dates et des heures dans tous les champs affectés spécifiquement à des dates (champs Date). Vous pouvez saisir les dates avec ou sans séparateurs.
 
 > [!NOTE]  
-> Le mode de saisie des dates et heures dépend des paramètres **Région**. Pour plus d'informations, voir [Modification des paramètres de base](ui-change-basic-settings.md).  
+> Le mode de saisie des dates et heures dépend des paramètres **Région**. Pour plus d'informations, voir [Modifier les paramètres de base](ui-change-basic-settings.md).  
 
 ### <a name="entering-dates"></a>Saisie de dates
 
@@ -157,7 +168,7 @@ Plutôt que de saisir une date spécifique, vous pouvez saisir l'un de ces codes
 |a|Il s'agit de la date du jour (la date système de l'ordinateur).|  
 |p|Cela précise une période comptable où p signifie la première période comptable, p2 indique la seconde période comptable, etc. |
 |t|Il s'agit de la date de travail configurée dans l'application. Pour modifier la date de travail, voir [Modification des paramètres de base](ui-change-basic-settings.md). Vous souhaiterez peut-être utiliser une date de travail si vous avez beaucoup de transactions avec une date différente de la date d'aujourd'hui.|
-|c|Cela spécifie que la date après c est une date de clôture, par exemple C123101.|  
+|c|Cela spécifie que la date après c'est une date de clôture, par exemple C123101.|  
 
 ## <a name="entering-times"></a>Saisie des heures
 
@@ -185,7 +196,7 @@ Le tableau suivant répertorie les différents formats de saisie possibles pour 
 
 |Écriture|Interprétation|  
 |---------------|------------------------|  
-|131202 132455|13/12/02 13:24:55|  
+|`131202` 132455|13/12/02 13:24:55|  
 |1-12-02 10|01/12/02 10:00:00|  
 |1.12.02 5|01/12/02 05:00:00|  
 |1.12.02|01/12/02 00:00:00|  

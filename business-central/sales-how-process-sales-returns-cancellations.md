@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a116dd3394e8aae36661815d72db3a8b13265bcf
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 249c38574c2f5ff1babc17df25bf33679a6b6764
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251875"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2316419"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Traiter les retours ou annulations de ventes
 Si votre client souhaite retourner des articles ou obtenir un remboursement pour des articles, ou encore annuler des services, que vous lui avez vendus et pour lesquels vous avez reçu un paiement, vous devez créer et valider un avoir vente qui indique la modification demandée. Pour inclure les informations de facture vente correctes, vous pouvez créer l'avoir vente à partir de la facture vente enregistrée ou vous pouvez créer un avoir vente avec les informations copiées de la facture.
@@ -119,7 +119,7 @@ Les documents vente validés auxquels vous avez lettré l'avoir sont à présent
 
     -   Si la ligne document validée contient des lignes traçabilité, le champ **Écriture article à lettrer** sur les lignes traçabilité est renseigné à l'aide des numéros d'écriture comptable article appropriés des lignes traçabilité validées.  
 
-     Lors de la copie à partir d'une facture ou d'un avoir enregistré, le programme copie les remises facture et les remises ligne adéquates comme valides au moment de la validation de ce document, de la ligne document validée vers la nouvelle ligne document. Notez toutefois que si l'option **Calculer remise facture** est activée sur la page **Paramètres ventes**, la remise facture est de nouveau calculée lorsque vous validez la nouvelle ligne document. Le montant ligne de la nouvelle ligne peut par conséquent être différent du montant ligne de la ligne document validée, en fonction du nouveau calcul de la remise facture.  
+     Lors de la copie à partir d'une facture ou d'un avoir enregistré, l'application copie les remises facture et les remises ligne adéquates comme valides au moment de la validation de ce document, de la ligne document validée vers la nouvelle ligne document. Notez toutefois que si l'option **Calculer remise facture** est activée sur la page **Paramètres ventes**, la remise facture est de nouveau calculée lorsque vous validez la nouvelle ligne document. Le montant ligne de la nouvelle ligne peut par conséquent être différent du montant ligne de la ligne document validée, en fonction du nouveau calcul de la remise facture.  
 
      > [!NOTE]  
      >  Si une partie de la quantité de la ligne document validée a déjà été contrepassée ou vendue ou consommée, une ligne n'est créée que pour la quantité restant en stock ou qui n'a pas encore été retournée. Si la quantité totale de la ligne document validée a déjà été contrepassée, aucune ligne document n'est créée.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a4b6f58c434c563021e94e55e47c547d39967502
-ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
+ms.openlocfilehash: ca99b44b7c96037d07c00902df3411db81745d86
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "1985901"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2316659"
 ---
 # <a name="collect-outstanding-balances"></a>Collecte des soldes restants
 La gestion des clients comprend le contrôle du règlement des montants à temps. Si des clients ont des paiements dus, vous pouvez commencer par envoyer l'état du Relevé client comme relance. Sinon, vous pouvez émettre de relances.
@@ -161,6 +161,11 @@ De plus, émettre une facture d'intérêts peut créer des écritures de TVA.
 
 La relance est imprimée pour être envoyé à un e-mail spécifié en tant que document joint PDF.
 
+### <a name="to-cancel-an-issued-reminder"></a>Pour annuler les relances émises
+Si des relances ont été émises par erreur, vous pouvez les annuler avant leur envoi. Vous pouvez les annuler une par une ou par lots.
+1. Sur la page **Relances émises**, sélectionnez une ou plusieurs lignes pour les relances émises que vous souhaitez annuler, puis choisissez l'action **Annuler**.
+2. Sur la page **Annuler les relances émises**, renseignez les champs selon vos besoins, puis cliquez sur le bouton **OK**.
+
 ## <a name="to-set-up-finance-charge-terms"></a>Pour configurer des conditions intérêts de retard
 Vous devez créer un code qui représente un calcul d'intérêts de retard. Vous pouvez ensuite entrer ce code dans le champ **Code condition intérêts** des fiches client ou fournisseur.
 
@@ -173,7 +178,7 @@ Les intérêts de retard peuvent être calculés en utilisant la méthode du sol
 
 *   Méthode du solde journalier moyen
 
-    Le ombre de jours pendant lequel le paiement est en retard est pris en compte :  
+    Le nombre de jours pendant lequel le paiement est en retard est pris en compte :  
     *Méthode Solde journalier moyen* - *Frais financiers* = *Montant échu* x *(Jours échus/ Période d'intérêts)* x *(Taux d'intérêt/100)*
 
 En outre, chaque code de la table Conditions intérêts de retard est lié à une autre table, la table Texte intérêts de retard. Pour chaque ensemble de conditions, vous pouvez définir un texte début et un texte fin à inclure dans la facture d'intérêts.
@@ -243,6 +248,11 @@ De plus, émettre une facture d'intérêts peut créer des écritures de TVA.
 4. Cliquez sur le bouton **OK**.
 
 La factures d'intérêts est imprimée pour être envoyé à un e-mail spécifié en tant que document joint PDF.
+
+### <a name="to-cancel-an-issued-finance-charge-memo"></a>Pour annuler une facture d’intérêts émise
+Si des factures d'intérêts ont été émises par erreur, vous pouvez les annuler avant leur envoi. Vous pouvez les annuler une par une ou par lots.
+1. Sur la page **Factures d'intérêts émises**, sélectionnez une ou plusieurs lignes pour les factures d'intérêts émises que vous souhaitez annuler, puis choisissez l'action **Annuler**.
+2. Sur la page **Annuler les factures d'intérêts émises**, renseignez les champs selon vos besoins, puis cliquez sur le bouton **OK**.
 
 ## <a name="to-view-reminder-and-finance-charge-entries"></a>Pour afficher les écritures relance et facture d'intérêts  
 Lorsque vous émettez une relance, une écriture relance est créée sur la page **Écr. relance/fact. intérêts** pour chaque ligne relance contenant une écriture comptable client. Vous pouvez ensuite obtenir un aperçu des écritures relance créées pour un client spécifique.    

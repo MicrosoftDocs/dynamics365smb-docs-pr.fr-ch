@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, status, negative, positive, increase, decrease
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 24b89662ed772280da8f5f8f08677f644f75922e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 33710cd80ba1218ad59c98ec605bcba98c8b7e1c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240295"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309931"
 ---
 # <a name="count-inventory-using-documents"></a>Faire l'inventaire à l'aide de documents
 Vous pouvez effectuer l'inventaire d'un stock physique de vos articles à l'aide des documents Commande de stock physique et Enregistrement de stock physique. La page **Commande de stock physique** est utilisée pour organiser le projet d'inventaire complet, par exemple un par magasin. La page **Enregistrement de stock physique** est utilisée pour communiquer et capturer le nombre réel d'articles. Vous pouvez créer plusieurs enregistrements pour une commande, par exemple, pour répartir les groupes d'articles vers différents employés.
@@ -94,7 +94,7 @@ Lorsque vous avez terminé un enregistrement de stock physique, le champ **Quant
 
 Pour voir les quantités prévues et toute différence enregistrée pour les articles avec le suivi des articles, sélectionnez l'action **Lignes**, puis choisissez l'action **Lignes de suivi des articles** pour sélectionner différentes vues pour les numéros de lot et de série impliqués dans l'inventaire.
 
-Vous pouvez également choisir l'action **Diff. commande de stock physique** pour visualiser les différences entre la quantité prévue et la quantité comptabilisée.
+Vous pouvez aussi choisir l'action **Diff. commande de stock physique** pour visualiser les différences entre la quantité prévue et la quantité comptabilisé.
 
 ### <a name="to-find-duplicate-physical-inventory-order-lines"></a>Pour rechercher les doublons de lignes de commande de stock physique
 

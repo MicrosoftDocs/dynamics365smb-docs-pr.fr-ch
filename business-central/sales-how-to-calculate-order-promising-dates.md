@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 119c3df2f58f6aeb7ee6614a56b85c42724517c8
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 575d83652dde83c9b12358788a96d00c70ffcda3
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251553"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2316347"
 ---
 # <a name="calculate-order-promising-dates"></a>Calculer des dates promesse livraison
 Une société doit pouvoir informer ses clients des dates de livraison de commande. La page **Lignes promesse de livraison** vous permet d'effectuer cette opération à partir d'une ligne commande vente.  
@@ -135,7 +135,7 @@ Avant qu'un article puisse être inclus dans le calcul de la promesse de livrais
 
 ## <a name="to-calculate-an-order-promising-date"></a>Pour calculer une date promesse livraison  
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commande vente**, puis sélectionnez le lien associé.  
-2.  Ouvrez la commande vente appropriée et sélectionnez les lignes de commande vente que vous souhaitez que le programme calcule.  
+2.  Ouvrez la commande vente appropriée et sélectionnez les lignes de commande vente que vous souhaitez que l'application calcule.  
 3.  Choisissez l'action **Promesse de livraison**, puis sélectionnez l'action **Lignes promesse de livraison**.  
 4.  Sélectionnez une ligne, puis l'une des options suivantes :  
 

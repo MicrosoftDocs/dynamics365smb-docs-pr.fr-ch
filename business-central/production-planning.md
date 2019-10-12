@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/23/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 363cf9d0e7b90557867daaaab6f99378f51b9ef9
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.openlocfilehash: 84be678eee6309da6c0cc9f5e0d652f8d8235df7
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1621152"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312955"
 ---
 # <a name="planning"></a>Planning
 Les opérations de production nécessaires à la transformation d'entrées en produits finis doivent être planifiées de manière quotidienne ou hebdomadaire en fonction du volume et de la nature des produits. [!INCLUDE[d365fin](includes/d365fin_md.md)] fournit des fonctionnalités permettant de répondre à la demande réelle et anticipée des ventes, de l'assemblage et de la production, et inclut des fonctionnalités pour une planification de la distribution basée sur les points de stock et les transferts d'emplacement.

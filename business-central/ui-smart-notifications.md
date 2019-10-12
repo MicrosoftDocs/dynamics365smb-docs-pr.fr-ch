@@ -9,16 +9,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: c70a8fd066ffd5d312716891aa4cdf7768cd102a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6e78a03e17348545805d0be889b62a2cb8187197
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249230"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315027"
 ---
-# <a name="managing-notifications"></a>Gérer les notifications
+# <a name="manage-notifications"></a>Gérer les notifications
 [!INCLUDE[d365fin](includes/d365fin_md.md)] vous aide à travailler de façon plus intelligente en vous notifiant à propos de certains événements ou modification de statut, lorsque vous êtes sur le point de facturer un client avec des écritures échues, ou lorsque le stock disponible est inférieur à la quantité que vous êtes sur le point de vendre, par exemple. Ces notifications s'affichent sous la forme d'astuces subtiles dans le contexte de la tâche que vous effectuez, et vous pouvez choisir de les ignorer ou d'en savoir plus sur la question.  
 
 Si vous choisissez de voir les détails d'une notification, vous pouvez prendre une mesure pour résoudre le problème, comme contacter le client, acheter davantage de stock, etc. C'est à vous que revient la décision quant à ce qu'il convient de faire et [!INCLUDE[d365fin](includes/d365fin_md.md)] vous donne des conseils et des recommandations.  

@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
-ms.openlocfilehash: 22530c8e1bd3f148f5f158e6210668020c24d387
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c88d0dbc26ab0a6560072b9995c13da71db5f3da
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238018"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309235"
 ---
 # <a name="set-up-alternative-addresses-for-contacts"></a>Configurer des adresses secondaires pour des contacts
 Vous pouvez affecter une adresse secondaire pour l'envoi de messages et d'informations à vos contacts, par exemple leur résidence secondaire. Vous pouvez aussi affecter une ou plusieurs plages de dates aux adresses secondaires saisies pour vos contacts afin de spécifier les plages de dates de validité de ces adresses.

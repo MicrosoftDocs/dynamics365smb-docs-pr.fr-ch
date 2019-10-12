@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: bd37d6f2364ec1466e7d3d8769da13761587f1d8
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: f59383bc5c16ece42f1bd2d7e2eb6a2ca2c9b6c8
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251668"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311563"
 ---
 # <a name="service-management"></a>Gestion des services
 > [!NOTE]
-> La fonctionnalité décrite dans ces rubrique et sous-rubriques n'est visible dans l'interface utilisateur que si vous avez l'expérience **Premium**. Pour plus d'informations, voir [Modification des fonctionnalités affichées](ui-experiences.md).
+> La fonctionnalité décrite dans ces rubrique et sous-rubriques n'est visible dans l'interface utilisateur que si vous avez l'expérience **Premium**. Pour plus d'informations, voir [Modifier les fonctionnalités affichées](ui-experiences.md).
 
 L'offre d'un service continu aux clients est essentielle à toute transaction commerciale et peut être source de satisfaction et de fidélisation des clients, en complément des revenus. Cependant, gérer et suivre des services n'est pas toujours facile ; [!INCLUDE[d365fin](includes/d365fin_md.md)] inclut un ensemble d'outils qui simplifient ces tâches. Vous pouvez les utiliser dans divers scénarios d'entreprise : systèmes de distribution complexes du service clientèle, environnements de service industriel avec des nomenclatures, affectation d'un nombre important de techniciens de service avec des besoins en gestion des pièces de rechange.  
 

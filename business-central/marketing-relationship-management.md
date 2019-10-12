@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contact, prospect, client
-ms.date: 05/02/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 39e8a4bce8174116bbe7b63908007aa7873acc02
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 54cdb205f26de16397890e08b8918c66998af9b9
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446753"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308827"
 ---
 # <a name="managing-relationships"></a>Gestion des relations
 Les fonctionnalités de gestion des relations de [!INCLUDE[d365fin](includes/d365fin_md.md)] vous aident à gérer et prendre en charge vos efforts de vente. Grâce à elles, vous avez accès à des informations complètes et pertinentes qui vous permettent de focaliser vos interactions sur les segments client/contact favoris.
@@ -34,4 +34,4 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |Définir des segments pour sélectionner un groupe de contacts en fonction de critères spécifiques, tels que le secteur auquel les contacts appartiennent.|[Gestion des segments](marketing-segments.md)|
 |Traiter les prospects entrants en créant des opportunités et en les associant à des vendeurs afin de pouvoir suivre les ventes potentielles.|[Gestion des opportunités de ventes](marketing-manage-sales-opportunities.md)|
 |Créer des plans marketing pour identifier, attirer et fidéliser des clients.|[Gestion de campagnes marketing](marketing-campaigns.md)|
-|Utiliser Dynamics 365 for Sales pour l'engagement client et bénéficier de l'intégration parfaite dans le processus allant du prospect à l'encaissement à l'aide de Business Central pour les activités principales, telles que le traitement des commandes, la gestion des stocks et de vos finances.|[Intégration à Dynamics 365 for Sales](marketing-integrate-dynamicscrm.md)|
+|Utiliser Dynamics 365 Sales for Customer Engagement et bénéficier de l'intégration parfaite dans le processus allant du prospect à l'encaissement à l'aide de Business Central pour les activités principales, telles que le traitement des commandes, la gestion des stocks et de vos finances.|[Intégration à Dynamics 365 Sales](marketing-integrate-dynamicscrm.md)|

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: a8274aef0fe9cf7a816b2f3e7c8853576e5bc9de
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8508ba6d3d23709ccad2749879617cce0f00973a
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248019"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313775"
 ---
 # <a name="preparing-closing-statements"></a>Préparation des états de clôture
 Il existe plusieurs états standard que vous pouvez utiliser pour rassembler les informations dont vous avez besoin pour préparer les états de clôture de votre société.

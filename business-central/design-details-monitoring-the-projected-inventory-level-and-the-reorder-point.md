@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, supply, inventory, planning
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
-ms.openlocfilehash: 3ab1fbc381638a31b601f872e7280d7dc5200fdb
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 3ae50295fd77de376ac25f2f2e267b765e5de58e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246350"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307027"
 ---
 # <a name="design-details-monitoring-the-projected-inventory-level-and-the-reorder-point"></a>Détails de conception : surveillance du niveau de stock prévisionnel et du point de commande
 Le stock est un type d'approvisionnement, mais pour la planification de stock, le système de planification différencie deux niveaux de stock :  

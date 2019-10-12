@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3f2d67cae2042f2f70db155aedbb85df6e19c96e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: aa03051a02309944c66d3fdf89de12627af8c4bf
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253843"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314111"
 ---
 # <a name="create-routings"></a>Créer des gammes
 Les sociétés manufacturières utilisent des gammes pour visualiser et gérer le processus de fabrication.

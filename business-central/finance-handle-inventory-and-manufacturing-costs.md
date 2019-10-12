@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 53f1c002236877f536a85586d0af912d5e9a85c2
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1f858457bcf667d158642fe42f3ea85e668adff3
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238271"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2306379"
 ---
 # <a name="handling-inventory-and-manufacturing-costs"></a>Gestion des coûts ajustés et des coûts de fabrication
 Bien que la comptabilité analytique soit constituée de processus ne nécessitant pas d'interaction utilisateur, telle que le lettrage d'écritures et l'ajustement automatique des coûts, un certain nombre de champs, pages et états sont destinés aux utilisateurs qui gèrent directement ou indirectement le coût des articles ou opérations.  
@@ -34,7 +34,7 @@ Bien que la comptabilité analytique soit constituée de processus ne nécessita
 |Calculer le coût unitaire d'un article de nomenclature à partir des coûts unitaires de ses composants sous-jacents.|[Utiliser les nomenclatures](inventory-how-work-BOMs.md)|  
 |Terminer le cycle de vie de l'évaluation stock en ajustant les coûts et en rapprochant les écritures valeur de la comptabilité.|[À propos des coûts des O.F. terminés](finance-about-finished-production-order-costs.md)|  
 |Modifier la valeur d'un article dans le stock ou la valeur d'une écriture comptable article, telle qu'une transaction achat.|[Réévaluer le stock](inventory-how-revalue-inventory.md)|
-|Délettrer manuellement un article ou relettrer des écritures comptables article créées par le programme.|[Supprimer et relettrer des écritures comptables article](finance-how-to-remove-and-reapply-item-entries.md)|  
+|Délettrer manuellement un article ou relettrer des écritures comptables article créées par l'application.|[Supprimer et relettrer des écritures comptables article](finance-how-to-remove-and-reapply-item-entries.md)|  
 |Utilisez le champ **Lettrage à partir écriture** dans la feuille article pour créer manuellement un lettrage fixe entre une transaction entrante et la transaction sortante initiale.|[Clôturer les écritures comptables article ouvertes qui résultent d'un lettrage fixe dans la feuille article](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)|  
 
 ## <a name="see-also"></a>Voir aussi  
