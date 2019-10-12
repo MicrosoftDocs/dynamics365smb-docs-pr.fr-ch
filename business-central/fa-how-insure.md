@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: policy, coverage
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8a04dae573423daaf7e7e475e63d7090e3a18c97
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6c6e8ac025033e061ff3bd6d1a3a66decc700a0f
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244608"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302827"
 ---
 # <a name="insure-fixed-assets"></a>Assurer les immobilisations
 Une police d'assurance pour une immobilisation est représentée par une fiche assurance. Vous pouvez attribuer une immobilisation ou plusieurs immobilisations à une police d'assurance.

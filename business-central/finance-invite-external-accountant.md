@@ -8,22 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
 redirect_url: finance-accounting
-ms.openlocfilehash: 4b56e6923d1d554bb27a4c0f82f0226dea51f280
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 365d0829d11394bc292d6e908588564b711785af
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446914"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302086"
 ---
-# <a name="inviting-your-external-accountant-to-your-included365finincludesd365finmdmd"></a>Invitation de votre comptable externe à votre [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="inviting-your-external-accountant-to-your-included365finincludesd365fin_mdmd"></a>Invitation de votre comptable externe à votre [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Si vous utilisez un comptable externe pour gérer votre comptabilité et vos états financiers, vous pouvez les inviter à votre [!INCLUDE[d365fin](includes/d365fin_md.md)] afin qu'ils puissent travailler vous et utiliser vos données fiscales.
 
 Une fois que votre comptable a accédé à votre [!INCLUDE[d365fin](includes/d365fin_md.md)], il peut utiliser le tableau de bord **Comptable** qui donne un accès facilité aux pages les plus appropriées pour son travail.  
 
-## <a name="invite-your-accountant-to-your-included365finincludesd365finmdmd"></a>Inviter votre comptable à votre [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="invite-your-accountant-to-your-included365finincludesd365fin_mdmd"></a>Inviter votre comptable à votre [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
 Nous avons simplifié pour vous la façon d'inviter votre comptable externe. Ouvrez simplement la page **Utilisateurs**, puis choisissez l'action **Inviter un comptable externe** dans le ruban. Un e-mail est préparé pour vous afin de vous permettre d'ajouter l'e-mail professionnel de votre comptable et d'envoyer l'invitation.  
 

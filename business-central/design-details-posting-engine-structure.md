@@ -4,20 +4,20 @@ description: L'interface de validation et certaines autres fonctions dans le cod
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/01/2017
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 76d59049191f91131df014771ef8546326a51439
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: b4bc639675591bb91ad2fa4e56f4e3ed88fed975
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238708"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303091"
 ---
 # <a name="design-details-posting-engine-structure"></a>Détails de conception : Structure du moteur de validation
 L'interface de validation et certaines autres fonctions dans le codeunit 12 utilisent des fonctions de moteur de validation pour préparer et insérer l'écriture comptable et les enregistrements d'écriture TVA. Le moteur de validation est également chargé de la création de registre du grand livre.  

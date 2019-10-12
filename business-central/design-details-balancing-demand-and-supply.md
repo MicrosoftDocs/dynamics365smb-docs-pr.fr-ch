@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 514c896c4bee0b5ade8532f8b08dba6b8a7a6657
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: b8e4cb09e8b391f9818c9dabbc25d88eeca4aeac
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243886"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303787"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Détails de conception : équilibrage de la demande et de l'approvisionnement
 Pour comprendre comment fonctionne le système de planification, il est nécessaire de comprendre les objectifs priorisés du système de planification, dont les plus importants sont de s'assurer que :  
@@ -28,7 +28,7 @@ Pour comprendre comment fonctionne le système de planification, il est nécessa
  En général, ces objectifs sont atteints en équilibrant l'approvisionnement avec la demande.  
 
 ## <a name="demand-and-supply"></a>Offre et demande
- Le mot demande désigne tout sorte de demande brute, par exemple une commande vente et un besoin composant d'un ordre de fabrication. En outre, le programme permet davantage de types techniques de demande, tels que le stock négatif et les retours achat.  
+ Le mot demande désigne tout sorte de demande brute, par exemple une commande vente et un besoin composant d'un ordre de fabrication. En outre, l'application permet davantage de types techniques de demande, tels que le stock négatif et les retours achat.  
 
   Approvisionnement est le terme courant utilisé pour désigner toute sorte de quantité positive ou d'entrée, telle qu'un stock, des achats, un assemblage, une production ou des transferts d'enlogement. De plus, un retour vente peut également représenter un approvisionnement.  
 
@@ -84,10 +84,10 @@ Outre le chargement des types d'offre et de demande, certains types sont chargé
 ### <a name="item-dimensions-are-separated"></a>Les axes article sont distincts  
 Le programme d'approvisionnement doit être calculé par combinaison des dimensions d'article, comme la variante et le magasin. Toutefois, il n'y a pas de raison de calculer des combinaisons théoriques. Seules ces combinaisons contenant une demande et/ou un approvisionnement doivent être calculées.  
 
-Le système de planification contrôle cela en s'exécutant via le profil de stock. Lorsqu'une nouvelle combinaison est trouvée, le programme crée un enregistrement de contrôle interne qui contient les informations de combinaison réelles. Le programme insère le point de stock comme enregistrement de contrôle, ou boucle externe. Par conséquent, les paramètres de planification appropriés en fonction d'une combinaison de variante et de magasin sont définis, et le programme peut passer à la boucle interne.  
+Le système de planification contrôle cela en s'exécutant via le profil de stock. Lorsqu'une nouvelle combinaison est trouvée, l'application crée un enregistrement de contrôle interne qui contient les informations de combinaison réelles. L'application insère le point de stock comme enregistrement de contrôle, ou boucle externe. Par conséquent, les paramètres de planification appropriés en fonction d'une combinaison de variante et de magasin sont définis, et l'application peut passer à la boucle interne.  
 
 > [!NOTE]  
->  Le programme ne requiert pas que l'utilisateur saisisse un enregistrement de points de stock en entrant la demande et/ou l'approvisionnement pour une combinaison particulière de variante et de magasin. Par conséquent, si un point de stock n'existe pas pour une combinaison donnée, le programme crée son propre bilan de point de stock temporaire sur les données de fiche article. Si Magasin obligatoire a la valeur Oui sur la page Paramètres stock, un point de stock doit être créé ou Mag. composant par déf doit avoir la valeur Oui. Pour plus d'informations, voir [Détails de conception : demande à un magasin vide.](design-details-demand-at-blank-location.md).  
+>  L'application ne requiert pas que l'utilisateur saisisse un enregistrement de points de stock en entrant la demande et/ou l'approvisionnement pour une combinaison particulière de variante et de magasin. Par conséquent, si un point de stock n'existe pas pour une combinaison donnée, l'application crée son propre bilan de point de stock temporaire sur les données de fiche article. Si Magasin obligatoire a la valeur Oui sur la page Paramètres stock, un point de stock doit être créé ou Mag. composant par déf doit avoir la valeur Oui. Pour plus d'informations, voir [Détails de conception : demande à un magasin vide.](design-details-demand-at-blank-location.md).  
 
 ### <a name="seriallot-numbers-are-loaded-by-specification-level"></a>Les numéros de série/lot sont chargés en fonction du niveau de détail  
 Les attributs sous forme de numéros de série/lot sont chargés dans le profil de stock avec l'offre et la demande auxquels ils sont affectés.  
@@ -205,7 +205,7 @@ Imaginez que chaque profil de stock contient une chaîne d'événements de deman
  La procédure recommence à la demande suivante et à l'approvisionnement actif ou vice versa. L'approvisionnement actif peut peut-être couvrir cette demande suivante également, ou la demande actuelle n'a pas encore été entièrement couverte.  
 
 ### <a name="rules-concerning-actions-for-supply-events"></a>Règles en ce qui concerne les actions pour les événements d'approvisionnement  
-Lorsque le système de planification effectue un calcul hiérarchisé dans lequel l'approvisionnement doit répondre à la demande, la demande est considérée comme sûr, c'est-à-dire qu'elle se trouve en dehors du contrôle du système de planification. Cependant, le côté approvisionnement peut être géré. Par conséquent, le système de planification suggère de créer de nouvelles commandes approvisionnement, reprogrammant celles existantes et/ou modifiant la quantité de commande. Si une commande approvisionnement existante devient superflue, le système de planification suggère à l'utilisateur de l'annuler.  
+Lorsque le système de planification effectue un calcul hiérarchisé dans lequel l'approvisionnement doit répondre à la demande, la demande est considérée comme sûre, c'est-à-dire qu'elle se trouve en dehors du contrôle du système de planification. Cependant, le côté approvisionnement peut être géré. Par conséquent, le système de planification suggère de créer de nouvelles commandes approvisionnement, reprogrammant celles existantes et/ou modifiant la quantité de commande. Si une commande approvisionnement existante devient superflue, le système de planification suggère à l'utilisateur de l'annuler.  
 
 Si l'utilisateur souhaite exclure une commande approvisionnement existante des propositions planning, il peut déclarer qu'il n'y a pas de flexibilité de planification (flexibilité de planification = Aucune). Ensuite, l'approvisionnement excédentaire à partir de cette commande est utilisé pour répondre à la demande, mais aucune action n'est suggérée.  
 
@@ -265,7 +265,7 @@ Deux raisons expliquent cela :
 
 Avec le temps, les liens de chaînage dynamiques deviennent déséquilibrés puisque le réseau de chaînage entier n'est pas réorganisé tant qu'un événement de demande ou d'approvisionnement n'est pas réellement clôturé.  
 
-Avant d'équilibrer un approvisionnement par demande, le programme supprime les liens de chaînage existants. Puis au cours de la procédure de contrepartie, lorsqu'un événement de demande ou d'approvisionnement est clôturé, il crée de nouveaux liens de suivi de commande entre la demande et l'approvisionnement.  
+Avant d'équilibrer un approvisionnement par demande, l'application supprime les liens de chaînage existants. Puis au cours de la procédure de contrepartie, lorsqu'un événement de demande ou d'approvisionnement est clôturé, il crée de nouveaux liens de suivi de commande entre la demande et l'approvisionnement.  
 
 > [!NOTE]  
 >  Même si l'article n'est pas configuré pour le chaînage dynamique, le système planifié crée des liens de chaînage équilibrés comme expliqué ci-dessus.

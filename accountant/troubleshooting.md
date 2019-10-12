@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, troubleshoot
-ms.date: 10/23/2017
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 0ebd99e9097e4c701038f3b8be7a07d1e80a4b31
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8faba6940469265959d09f807d2d3c1afe6199af
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237995"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300416"
 ---
-# <a name="troubleshooting-include-d365acclongincludesd365acclongmdmd"></a>Dépannage de [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
+# <a name="troubleshooting-include-d365acc_longincludesd365acc_long_mdmd"></a>Dépannage de [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
 
 L'inscription à [!INCLUDE [d365acc](includes/d365acc_md.md)] est simple et peut être effectuée très rapidement. L'ajout de clients au tableau de bord est également facile, mais cet article traite des problèmes que vous pouvez rencontrer en route.
 
-## <a name="what-email-address-can-i-use-with-include-d365accincludesd365accmdmd"></a>Quelle adresse e-mail puis-je utiliser avec [!INCLUDE [d365acc](includes/d365acc_md.md)] ?
+## <a name="what-email-address-can-i-use-with-include-d365accincludesd365acc_mdmd"></a>Quelle adresse e-mail puis-je utiliser avec [!INCLUDE [d365acc](includes/d365acc_md.md)] ?
 [!INCLUDE [d365acc](includes/d365acc_md.md)] exige que vous utilisiez une adresse e-mail professionnelle ou scolaire pour votre inscription. [!INCLUDE [d365acc](includes/d365acc_md.md)] ne prend pas en charge les adresses e-mail fournies par les services de messagerie publics ni les opérateurs de télécommunications. Cela comprend outlook.com, hotmail.com, gmail.com, et d'autres.  
 
 Si vous essayez d'effectuer votre inscription à l'aide d'une adresse e-mail personnelle, vous recevez un message vous demandant d'utiliser une adresse professionnelle ou scolaire.  

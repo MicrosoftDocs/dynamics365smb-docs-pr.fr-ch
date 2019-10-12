@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: soalex
-ms.openlocfilehash: 283fe8bd51cca855f97b682c3b77c3e8805514e6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ede085fca1595c7349501d9a8cbbd09e4e14e897
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246902"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303901"
 ---
 # <a name="application-compliance"></a>Conformité des applications
 Ce contenu comporte des informations sur la conformité des applications concernant [!INCLUDE[d365fin](../includes/d365fin_md.md)], comme les normes internationales de génération d'états financiers, la fonctionnalité locale, le RGPD et plus encore. La confiance dans une solution de gestion d'entreprise est essentielle à un activité efficace. Avec Business Central, les sociétés importantes ont la possibilité de rationaliser les processus d'entreprise tout en respectant uniformément et de façon rentable les exigences de plus en plus strictes en matière de réglementation et de génération d'états.
@@ -30,7 +30,7 @@ Si vous souhaitez plus d'informations sur le RGPD d'une perspective plus vaste q
 ## <a name="accounting-processes-and-controls-to-aid-compliance"></a>Processus et contrôles comptables pour favoriser la conformité  
 Les sociétés font face à des défis croissants en matière de comptabilité générale tous les ans. Selon le secteur, les marchés, l'emplacement géographique et les besoins de financement, une organisation peut être sujette à un ensemble de principes comptables généralement reconnus (GAAP) et à l'un ou plusieurs des éléments suivants :
 - La loi américaine Sarbanes-Oxley Act (SOX), passée en 2002 pour protéger les investisseurs en améliorant la précision et la fiabilité des divulgations commerciales.
-- La section sur les normes internationales de génération d'états financiers de la réglementation de l'Unon européenne en matière de normes comptables internationales (IAS/IFRS), entrée en vigueur en 2005 et définissant les normes comptables internationales concernant la constatation, la mesure, la consolidation et les états.
+- La section sur les normes internationales de génération d'états financiers de la réglementation de l'Union européenne en matière de normes comptables internationales (IAS/IFRS), entrée en vigueur en 2005 et définissant les normes comptables internationales concernant la constatation, la mesure, la consolidation et les états.
 - Le nouvel accord de Bâle (Bâle II), adopté en 2006 pour traiter les problèmes de risque des établissements financiers et pour promouvoir une plus grande stabilité dans le système financier général.
 
 ## <a name="good-practices-with-technology"></a>Bonnes pratiques avec la technologie
@@ -46,15 +46,18 @@ Business Central fournit des informations opérationnelles et financières, int�
 ## <a name="gain-control-of-critical-information-processes-and-reports"></a>Prendre le contrôle de données, processus et des états confidentiels
 
 ### <a name="manage-compliance-to-the-standards-that-matter"></a>Gérer la conformité par rapport aux normes qui importent
+
 Fournir des informations intégrées, des processus alignés et des outils facile à utiliser pour aider vos employés à respecter les attentes et normes en matière de gestion financière importantes pour votre entreprise spécifique.
 
 ### <a name="tailor-account-schedules-to-your-needs"></a>Personnaliser les tableaux d'analyse selon vos besoins
+
 - Définir la structure du plan comptable de votre société selon les besoins de l'entreprise et les normes réglementaires applicables
 - Créez des comptes et gérer des processus complexes liés à un éventail d'activités commerciales, notamment l'évaluation de stock, les devises étrangères, la gestion d'états de dimension, et les départs des GAAP locaux.
 - Contrôlez le niveau de détail de chaque transaction enregistrée et sélectionnez un enregistrement détaillé pour des types de transactions spécifiques, tels que les immobilisations et la comptabilité fournisseur.
-- Personnalisez les calculs de planification et l'affichage des états financiers, ou exportez les informations vers Microsoft® Office Excel® pour une analyse approfondie.
+- Personnalisez les calculs de planification et l'affichage des états financiers, ou exportez les informations vers Microsoft Excel pour une analyse approfondie.
 
 ### <a name="improve-information-validity"></a>Améliorer la validité des informations
+
 - Configurez les champs de données pour accepter uniquement des informations dans un format correct, comme le nombre adéquat de décimales ou de modèles alphanumériques.
 - Vérifiez que les informations sont complètes grâce aux contrôles de l'application, tels que l'obligation de fournir un numéro de facture fournisseur avant qu'une commande achat puisse être validée.
 - Réduisez le risque d'informations erronées ou falsifiées, et aidez à protéger les informations confidentielles l'accès aux informations basé sur des rôles.
@@ -69,9 +72,10 @@ Fournir des informations intégrées, des processus alignés et des outils facil
 - Accélérez la transmission d'informations financières aux clients, aux actionnaires, aux organismes règlementaires et au public avec des documents XML basés sur XBRL prenant en charge l'échange d'informations financières entre différents logiciels et technologies, notamment Internet.
 
 ### <a name="help-ensure-clear-audit-trails"></a>Vérifier que les pistes d'audit sont claires
+
 - Effectuez le suivi de documents et d'informations en amont et en aval via le système, de la source d'origine aux états financiers et inversement.
 - Identifiez comment, quand et par qui les informations ont été entrées ou modifiées, ainsi que dans quel compte les écritures financières ont été validées.
-- Recherchez des modifications de base de données, y compris des données précédentes et modifiées, dans le journal des modifications de la solution.
+- Recherchez des modifications de base de données, y compris des données précédentes et modifiées, dans le [journal des modifications](../across-log-changes.md) de la solution.
 - Augmentez la transparence et la convivialité de la piste d'audit, et accélérez l'accès aux informations pour les auditeurs tiers avec l'exploration, la recherche, le filtrage, l'enregistrement, et la navigation
 
 ## <a name="compliance-and-local-functionality"></a>Conformité et fonctionnalité locale
@@ -89,7 +93,8 @@ Microsoft crée des versions localisées de Business Central pour certains pays.
 > **Bâle II : Implications pour la génération d'états et l'analyse**  
 > Bâle II, développé par la Banque des règlements internationaux, permet de garantir la sécurité du système financier dans trois domaines clés : besoins en capitaux minimaux, processus de surveillance prudentielle, et discipline du marché. Bien que l'accord s'applique aux établissements financiers et ne cible pas les petites et moyennes entreprises, Bâle II peut avoir des implications pour ces organisations dans la génération d'états et l'analyse.
 
-## <a name="see-also"></a>Voir aussi  
+## <a name="see-also"></a>Voir aussi
+
 [Conformité](compliance-overview.md)  
 [Conformité des services](compliance-service-compliance.md)  
 [Certifications](compliance-certifications.md)  

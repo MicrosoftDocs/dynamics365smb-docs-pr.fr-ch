@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 629de391871a6e8d089740e483aa1443856359c7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 5f5727e241d40e362e17d727d924a829f9b0c4ae
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240778"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2305251"
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Configurer l'envoi et la réception de documents électroniques
 Comme alternative à l'envoi par courrier électronique sous forme de fichiers joints, vous pouvez envoyer et recevoir des documents commerciaux par voie électronique. Par document électronique, on entend un fichier conforme aux normes représentant un document commercial comme une facture fournisseur que vous pouvez recevoir et convertir en facture achat dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. L'échange de documents électroniques entre deux partenaires commerciaux est exécuté par un fournisseur externe de services d'échange de documents. La version générique de [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge l'envoi et la réception de factures et d'avoirs électroniques au format PEPPOL, qui est pris en charge par les principaux fournisseurs de services d'échange de documents. Un fournisseur principal de services d'échange de documents est préconfiguré et prêt à être installé pour votre société.  

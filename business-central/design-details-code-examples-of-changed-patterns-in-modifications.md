@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 redirect_url: design-details-dimension-set-entries
-ms.openlocfilehash: 59fce0a432c7f433552cff21ef304fa16fa85a8a
-ms.sourcegitcommit: 1fa3d33db7bc71e3a27c826308a80ff24a436a72
+ms.openlocfilehash: d4ed71c8c196ea6beff49f7a40fc1605fe999abd
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "1970916"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303739"
 ---
 # <a name="design-details-code-examples-of-changed-patterns-in-modifications"></a>Détails de conception : exemples de code de motifs modifiés dans les modifications
 Cette rubrique fournit des exemples de code pour montrer les motifs modifiés dans la modification et la migration de code de dimension pour cinq scénarios différents. Elle compare les exemples de code dans les versions antérieures aux exemples de code dans Business Central.

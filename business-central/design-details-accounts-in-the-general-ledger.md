@@ -4,20 +4,20 @@ description: Pour rapprocher le stock et les écritures comptables de capacité 
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/01/2017
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7c17ca9b3cc3ca8cbf80ac37d2942c2bd7c954db
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: b840432bca09f04a27004aaff5d9ccbbfcdaeb69
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247482"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303859"
 ---
 # <a name="design-details-accounts-in-the-general-ledger"></a>Détails de conception : comptes de la comptabilité
 Pour rapprocher le stock et les écritures comptables de capacité en comptabilité, les écritures valeur associées sont validées dans différents comptes en comptabilité. Pour plus d'informations, voir [Détails de conception : rapprochement de comptabilité](design-details-reconciliation-with-the-general-ledger.md).  

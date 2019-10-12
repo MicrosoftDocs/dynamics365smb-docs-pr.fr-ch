@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6a9bba4d097ca24de094f153c91d7888811cdfd4
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1510884fb8a590bebc4967cbdf48cbf03727a307
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241207"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2305323"
 ---
 # <a name="set-up-a-document-exchange-service"></a>Configurer un service d'échange de document
 Utilisez un fournisseur de services externe pour échanger des documents électroniques avec vos partenaires commerciaux. Pour plus d'informations, voir [Échanger des données par voir électronique](across-data-exchange.md).  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3a3e42d9468c9f1a8d23afd8284e210fa7145c3c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 7f2d1f354b789931bde76ed8869e326a34e53919
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247178"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304435"
 ---
 # <a name="migrate-customer-data"></a>Migrer des données client
 Vous pouvez migrer les données client existantes d'un système ERP existant vers [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des outils de migration de données de RapidStart Services. Vous pouvez utiliser des fichiers Excel comme supports d’informations. Vous pouvez également déplacer manuellement les données en les entrant directement dans la société.
@@ -111,7 +111,7 @@ L'exemple suivant illustre comment [!INCLUDE[d365fin](includes/d365fin_md.md)] m
 2. Ajoutez des tables supplémentaires au package, par exemple **Client** et **Fournisseur**. Ces tableaux référencent la table **Vendeur/Acheteur** au moyen des champs **Code vendeur** et **Code acheteur**, respectivement.  
 3. Lorsque vous appliquez des données, le mappage que vous avez fourni pour le champ **Code** dans la table **Vendeur/Acheteur** est également pris en compte lors du traitement des champs **Code vendeur** et **Code acheteur**.
 
-## <a name="to-add-additional-values-to-included365finincludesd365finmdmd"></a>Pour ajouter des valeurs supplémentaires à [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+## <a name="to-add-additional-values-to-included365finincludesd365fin_mdmd"></a>Pour ajouter des valeurs supplémentaires à [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Packages configuration**, puis sélectionnez le lien associé.  
 2. Sélectionnez la table pour laquelle vous souhaitez ajouter des valeurs supplémentaires, puis sous l'onglet **Tables**, sélectionnez l'action **Champs**.  
 3. Pour les champs pour lesquels vous souhaitez que [!INCLUDE[d365fin](includes/d365fin_md.md)] autorise des valeurs supplémentaires lors de la migration, cochez la case **Créer codes manquants**.  

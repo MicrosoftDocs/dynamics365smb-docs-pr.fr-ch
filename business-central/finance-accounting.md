@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 05/02/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: f088e1319684b9a18a2b0c8ab5305f73747f6889
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 79ed5e1b7200a668be2aa078531fd68e0131b6ff
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446937"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302611"
 ---
-# <a name="accountant-experiences-in-included365finlongincludesd365finlongmdmd"></a>Expériences de comptable dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# <a name="accountant-experiences-in-included365fin_longincludesd365fin_long_mdmd"></a>Expériences de comptable dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Chaque entreprise doit tenir ses comptes et valider sa comptabilité. Certaines sociétés utilisent un comptable externe, et d'autres ont un comptable dans le personnel. Peu importe le type de comptable que vous êtes, vous pouvez utiliser le tableau de bord **Comptable** comme pages d'accueil de [!INCLUDE[d365fin](includes/d365fin_md.md)]. De là, vous pouvez accéder à toutes les pages nécessaires pour votre travail.  
 
 ## <a name="accountant-role-center"></a>Tableau de bord Comptable
@@ -26,9 +26,12 @@ Le tableau de bord est un tableau de bord avec des vignettes d'activité qui aff
 Si vous débutez avec [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez lancer une liste de vidéos depuis votre Tableau de bord. Vous pouvez également lancer une visite de **Mise en route** qui précise des domaines clé.  
 
 ## <a name="accountant-hub"></a>Accountant Hub
-Si vous êtes un comptable avec plusieurs clients, vous pouvez utiliser [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] pour un meilleur aperçu de vos clients. Depuis cette fenêtre, vous pouvez accéder à l'abonné de chaque client dans [!INCLUDE[d365fin](includes/d365fin_md.md)] et utiliser le tableau de bord Comptable comme décrit ci-dessus. Pour en savoir plus, voir [Bienvenue dans [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index).
+Si vous êtes un comptable avec plusieurs clients, vous pouvez utiliser [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] pour un meilleur aperçu de vos clients. Depuis cette fenêtre, vous pouvez accéder à l'abonné de chaque client dans [!INCLUDE[d365fin](includes/d365fin_md.md)] et utiliser le tableau de bord Comptable comme décrit ci-dessus. Pour en savoir plus, voir [Bienvenue dans [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index).  
 
-## <a name="inviting-your-external-accountant-to-your-included365finincludesd365finmdmd"></a>Invitation de votre comptable externe à votre [!INCLUDE[d365fin](includes/d365fin_md.md)]
+> [!NOTE]
+> [!INCLUDE [d365acc_long_md](includes/d365acc_long_md.md)] est actuellement en version préliminaire publique sur un nombre limité de marchés.
+
+## <a name="inviting-your-external-accountant-to-your-included365finincludesd365fin_mdmd"></a>Invitation de votre comptable externe à votre [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Si vous utilisez un comptable externe pour gérer votre comptabilité et vos états financiers, vous pouvez les inviter à votre [!INCLUDE[d365fin](includes/d365fin_md.md)] afin qu'ils puissent travailler vous et utiliser vos données fiscales.
 
 Une fois que votre comptable a accédé à votre [!INCLUDE[d365fin](includes/d365fin_md.md)], il peut utiliser le tableau de bord **Comptable** qui donne un accès facilité aux pages les plus appropriées pour son travail.  
@@ -38,7 +41,7 @@ Nous avons simplifié pour vous la façon d'inviter votre comptable externe. Ouv
 ![Inviter votre comptable](./media/finance-invite-accountant/invite-accountant.png)
 
 > [!TIP]  
->  Pour cela, il faudrait que vous ayez configuré la messagerie SMTP. Vous pouvez le faire manuellement ou demander à votre partenaire [!INCLUDE[d365fin](includes/d365fin_md.md)]. En outre, vous devez être connecté à [!INCLUDE[d365fin](includes/d365fin_md.md)] en tant qu'administrateur utilisateur, pas en tant que chef d'entreprise ou autres utilisateurs. Enfin, vous devez avoir quitté la société test de sorte que vous ayez un administrateur Azure Active Directory.  
+> Pour cela, il faudrait que vous ayez configuré la messagerie SMTP. Vous pouvez le faire manuellement ou demander à votre partenaire [!INCLUDE[d365fin](includes/d365fin_md.md)]. En outre, vous devez être connecté à [!INCLUDE[d365fin](includes/d365fin_md.md)] en tant qu'administrateur utilisateur, pas en tant que chef d'entreprise ou autres utilisateurs. Enfin, vous devez avoir quitté la société test de sorte que vous ayez un administrateur Azure Active Directory.  
 
 > [!IMPORTANT]  
 > L'adresse électronique du comptable doit être une adresse professionnelle basée sur Azure Active Directory. Si le comptable utilise un autre type d'adresse électronique, l'invitation ne peut pas être envoyée.  

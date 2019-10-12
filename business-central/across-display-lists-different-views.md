@@ -1,31 +1,31 @@
 ---
 title: Ajuster la quantité de détails affichée dans les listes | Microsoft Docs
-description: Vous pouvez afficher les listes dans des vues détaillées qui fournissent plus d'informations, ou en tant que vignettes faciles à analyser visuellement.
+description: Vous pouvez afficher les listes dans des lignes détaillées qui fournissent plus d'informations, ou en tant que vignettes faciles à analyser visuellement et qui peuvent inclure des miniatures d'image.
 services: project-madeira
 documentationcenter: ''
-author: SusanneWindfeldPedersen
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalization
-ms.date: 04/01/2019
-ms.author: solsen
-ms.openlocfilehash: 2d20fc0849e90f74924ebc585662a9e461cc2313
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: bd82b37992a7664df1a85f7f5734e79a1e7c233e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244392"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300632"
 ---
 # <a name="displaying-lists-in-different-ways"></a>Affichage de listes de différentes manières
-Dans le coin droit de toute liste de [!INCLUDE[d365fin](includes/d365fin_md.md)] vous trouverez les icônes qui vous permettent de sélectionner l'affichage de la liste. Vous pouvez afficher une liste comme une liste détaillée, ce qui correspond à la vue standard. Mais vous pouvez également sélectionner la vue sous forme de mosaïques, qui affiche moins de détail de l'enregistrement spécifique et empile les écritures sous forme de mosaïques. Cette vue est très utile pour obtenir une vue d'ensemble de plusieurs écritures. Elle est particulièrement utile sur les périphériques de petite taille, car elle permet d'appuyer plus facilement sur chaque écriture.
+Dans le coin droit de toute liste de [!INCLUDE[d365fin](includes/d365fin_md.md)] vous trouverez les icônes qui vous permettent choisir l'affichage de la liste des enregistrements. La liste peut être affichée sous forme de lignes détaillées, ce qui est idéal lorsque vous devez utiliser plusieurs champs ou modifier des champs dans la liste. Mais vous pouvez également basculer sur l'affichage des enregistrements sous forme de mosaïques, ce qui est plus compact et affiche moins de champs sur l'enregistrement spécifique. Ceci est très utile pour obtenir une vue d'ensemble de plusieurs écritures. Elle est particulièrement utile sur les périphériques de petite taille, car elle est compacte et permet d'appuyer plus facilement sur chaque écriture.
 
-## <a name="items-list"></a>Liste des articles
-Dans la liste Articles, les images vous aident à obtenir rapidement une vue d'ensemble de ce que vous vendez. Si vous passez à la vue sous forme de mosaïques, vous obtenez un catalogue d'articles à parcourir. Si une image est définie pour l'article spécifique, vous disposez d'une troisième option en sus de la liste détaillée et de la vue sous forme de mosaïques : la vue forme de grandes mosaïques. Cette vue affiche des images de grande taille pour chaque écriture.
+## <a name="item-list"></a>Liste des articles
+Dans la page **Articles**, les images vous aident à obtenir rapidement une vue d'ensemble de ce que vous vendez. Si vous passez à la vue sous forme de mosaïques, vous obtenez un catalogue d'articles à parcourir. Pour les listes contenant des images, telles que la page **Articles**, vous avez une troisième option pour afficher sous forme de grandes mosaïques. Cela affiche de grandes images pour chaque enregistrement, mais affiche également quelques champs.
 
-Vous pouvez importer une image pour un article donné en accédant à la carte **Article**, en sélectionnant **Image** à droite, puis en sélectionnant **Importer**. De même, vous pouvez exporter une image vers un fichier ou supprimer l'image de l'article.  
+Vous pouvez importer des images d'élément, un par un ou pour plusieurs articles à la fois. Pour plus d'informations, reportez-vous à la section [Importer plusieurs images d'article](inventory-how-import-item-pictures.md).  
 
 ## <a name="see-also"></a>Voir aussi
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

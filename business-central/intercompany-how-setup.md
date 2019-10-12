@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: eca41d78ca6665f8e64f99c448d0d771f7d2ad26
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: e6f44cfc8dc5eb3591aadd520a4ec58086d5f823
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244231"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300106"
 ---
 # <a name="set-up-intercompany"></a>Configuration des fonctionnalités intersociétés
 Pour envoyer une transaction (ligne feuille vente) à partir d'une société et créer automatiquement la transaction correspondante (ligne feuille achat) dans la société partenaire, les sociétés concernées doivent s'accorder sur un plan de compte et un ensemble d'axes analytiques communs à utiliser pour les transactions intersociétés. Le plan de compte intersociété peut être, par exemple, une version simplifiée du plan de compte de la société mère. Chaque société associe son plan de compte au plan de compte intersociété partagé, ainsi que ses axes analytiques aux axes analytiques intersociétés.  
@@ -112,7 +112,7 @@ Les lignes des pages **Axes analytiques intersociétés** et **Sections analytiq
 ### <a name="to-map-intercompany-dimensions-to-your-companys-dimensions"></a>Pour associer les axes analytiques intersociétés aux axes de votre société
 Après avoir défini ou importé les axes analytiques que vos partenaires intersociétés et vous avez décidé d'utiliser, vous devez associer chaque axe analytique intersociétés à l'un des axes de votre société, et vice versa. Sur la page **Axes analytiques intersociétés**, indiquez comment les axes analytiques intersociétés des transactions entrantes doivent être convertis en axes à partir de la liste des axes analytiques de votre société. Sur la page **Axe analytique**, précisez comment vos axes analytiques doivent être convertis en axes intersociétés dans les transactions sortantes.
 
-Si certains axes analytiques intersociété possèdent le même code que les axes analytiques correspondants de la liste des axes analytiques de votre société, vous pouvez demander au programme d'associer automatiquement ces comptes.
+Si certains axes analytiques intersociété possèdent le même code que les axes analytiques correspondants de la liste des axes analytiques de votre société, vous pouvez demander à l'application d'associer automatiquement ces comptes.
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Axes analytiques intersociétés**, puis sélectionnez le lien associé.
 2. Sur la page **Axes analytiques intersociétés**, sélectionnez les lignes à associer automatiquement, puis choisissez l'action **Faire correspondre à l'axe analytique ayant le même code**.

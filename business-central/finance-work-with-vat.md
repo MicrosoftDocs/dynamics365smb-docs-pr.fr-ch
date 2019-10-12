@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
-ms.date: 07/24/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 09aa4b5f6e08265e49a02e3014ffe6724edfcffd
-ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
+ms.openlocfilehash: ab408bbef4e2fc9535eaa64e61a9e93d2d87378c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1796864"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301579"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Utiliser la TVA sur les ventes et les achats
 Si votre pays ou région vous demande de calculer la TVA sur les transactions de vente et d'achat afin de pouvoir déclarer les montants à une administration fiscale, vous pouvez configurer [!INCLUDE[d365fin](includes/d365fin_md.md)] pour calculer automatiquement la TVA sur les documents vente et achat. Pour plus d'informations, voir [Configuration des méthodes de calcul et de validation de la taxe sur la valeur ajoutée](finance-setup-vat.md).
@@ -35,17 +35,17 @@ Si vous vendez au détail à des consommateurs, vous souhaitez peut-être que le
 ### <a name="including-or-excluding-vat-on-prices"></a>Inclusion ou exclusion de la TVA sur les prix
 Si la case à cocher **Prix TTC** est activée sur un document vente, les champs **Prix unitaire** et **Montant ligne** incluent la TVA, ce que les noms de champ reflètent également. Par défaut, la TVA n'est pas incluse dans ces champs.  
 
-Si le champ n'est pas sélectionné, le programme renseigne les champs **Prix unitaire** et **Montant ligne** en excluant la TVA, ce que reflètent les noms de champ.  
+Si le champ n'est pas sélectionné, l'application renseigne les champs **Prix unitaire** et **Montant ligne** en excluant la TVA, ce que reflètent les noms de champ.  
 
-Vous pouvez configurer les paramètres par défaut de **Prix TTC** pour tous les documents vente relatifs à un client dans le champ **Prix TTC** sur la fiche **Client**. Vous pouvez également configurer des prix article pour inclure ou exclure la TVA. Normalement, les prix article contenus dans la fiche article sont les prix hors TVA. Le programme utilise les informations du champ **Prix TTC** de la fiche **Article** pour déterminer le prix unitaire pour les documents vente.  
+Vous pouvez configurer les paramètres par défaut de **Prix TTC** pour tous les documents vente relatifs à un client dans le champ **Prix TTC** sur la fiche **Client**. Vous pouvez également configurer des prix article pour inclure ou exclure la TVA. Normalement, les prix article contenus dans la fiche article sont les prix hors TVA. L'application utilise les informations du champ **Prix TTC** de la fiche **Article** pour déterminer le prix unitaire pour les documents vente.  
 
-Le tableau suivant montre comment le programme calcule les montants de prix unitaire pour un document vente lorsque vous n'avez pas configuré de prix sur la page **Prix vente** :  
+Le tableau suivant montre comment l'application calcule les montants de prix unitaire pour un document vente lorsque vous n'avez pas configuré de prix sur la page **Prix vente** :  
 
 |**Le prix inclut le champ TVA sur la fiche client.**|**Prix incluant le champ TVA dans l'en-tête vente**|**Action exécutée**|  
 |-----------------------------------------------|----------------------------------------------------|--------------------------|  
 |Désactivé|Désactivé|Le champ **Prix unitaire** de la fiche article est copié dans le champ **Prix unitaire HT** dans les lignes vente.|  
-|Désactivé|Activé|Le programme calcule le montant de TVA par unité et l'ajoute au **Prix unitaire** sur la fiche article. Ce prix unitaire total est entré dans le champ **Prix unitaire TTC** dans les lignes vente.|  
-|Activé|Désactivé|Le programme calcule le montant de la TVA inclus dans le **prix unitaire** sur la fiche article à l'aide du % TVA par rapport aux champs Gpe compta. marché TVA (prix) et Groupe compta. produit TVA. Le **prix unitaire** sur la fiche article, moins le montant de la TVA, est ensuite saisi dans le champ **Prix unitaire HT** dans les lignes de vente.|  
+|Désactivé|Activé|L'application calcule le montant de TVA par unité et l'ajoute au **Prix unitaire** sur la fiche article. Ce prix unitaire total est entré dans le champ **Prix unitaire TTC** dans les lignes vente.|  
+|Activé|Désactivé|L'application calcule le montant de la TVA inclus dans le **prix unitaire** sur la fiche article à l'aide du % TVA par rapport aux champs Gpe compta. marché TVA (prix) et Groupe compta. produit TVA. Le **prix unitaire** sur la fiche article, moins le montant de la TVA, est ensuite saisi dans le champ **Prix unitaire HT** dans les lignes de vente.|  
 |Activé|Activé|Le champ **Prix unitaire** de la fiche article est copié dans le champ **Prix unitaire TTC** dans les lignes vente.|
 
 ## <a name="correcting-vat-amounts-manually-in-sales-and-purchase-documents"></a>Correction manuelle des montants de TVA dans des documents achat et vente  
@@ -58,7 +58,7 @@ Si un escompte a été calculé sur la base d'un montant facture TTC, vous rembo
 ### <a name="to-set-the-system-up-for-manual-vat-entry-in-sales-documents"></a>Pour configurer le système pour la saisie manuelle de la TVA dans les documents de vente
 La section suivante explique comment activer les modifications manuelles de la TVA sur les documents de vente. Les étapes sont similaires sur la page **Paramètres achats**.
 
-1. Dans la page **Paramètres comptabilité**, spécifiez une **Différence TVA max. autorisée** entre le montant calculé par le programme et le montant calculé manuellement.  
+1. Dans la page **Paramètres comptabilité**, spécifiez une **Différence TVA max. autorisée** entre le montant calculé par l'application et le montant calculé manuellement.  
 2. Dans la page **Paramètres ventes**, activez le champ **Autoriser différence TVA**.  
 
 ### <a name="to-adjust-vat-for-a-sales-document"></a>Pour ajuster la TVA pour un document vente  
@@ -68,7 +68,7 @@ La section suivante explique comment activer les modifications manuelles de la T
 4. Modifiez le champ **Montant TVA**.   
 
 > [!NOTE]  
-> Le montant de TVA total de la facture et l'identifiant TVA s'affichent dans les lignes. Vous pouvez ajuster les montants manuellement dans le champ **Montant TVA** des lignes correspondant à chaque identifiant TVA. Lorsque vous modifiez la valeur du champ **Montant TVA**, le programme vérifie que vous n'avez pas modifié la TVA d'une valeur supérieure à celle du montant spécifié comme différence maximale autorisée. Si le montant se situe en dehors de la plage **Différence TVA max. autorisée**, un avertissement s'affiche, indiquant la différence maximale autorisée. Vous ne pouvez pas poursuivre tant que le montant n'est pas ajusté conformément aux paramètres acceptables. Cliquez sur **OK** , puis entrez un autre **Montant TVA** s'inscrivant dans la plage autorisée. Si la différence TVA est inférieure ou égale à la différence maximale autorisée, la TVA est répartie de façon proportionnelle entre les lignes document ayant le même identifiant TVA.  
+> Le montant de TVA total de la facture et l'identifiant TVA s'affichent dans les lignes. Vous pouvez ajuster les montants manuellement dans le champ **Montant TVA** des lignes correspondant à chaque identifiant TVA. Lorsque vous modifiez la valeur du champ **Montant TVA**, l'application vérifie que vous n'avez pas modifié la TVA d'une valeur supérieure à celle du montant spécifié comme différence maximale autorisée. Si le montant se situe en dehors de la plage **Différence TVA max. autorisée**, un avertissement s'affiche, indiquant la différence maximale autorisée. Vous ne pouvez pas poursuivre tant que le montant n'est pas ajusté conformément aux paramètres acceptables. Cliquez sur **OK** , puis entrez un autre **Montant TVA** s'inscrivant dans la plage autorisée. Si la différence TVA est inférieure ou égale à la différence maximale autorisée, la TVA est répartie de façon proportionnelle entre les lignes document ayant le même identifiant TVA.  
 
 ## <a name="calculating-vat-manually-using-journals"></a>Calcul manuel de la TVA à l'aide de feuilles  
 Vous pouvez également ajuster les montants TVA dans les feuilles comptabilité, vente et achat. Par exemple, vous devrez peut-être le faire lorsque vous entrez une facture fournisseur dans votre feuille et qu'il y a une différence entre le montant de TVA calculé par [!INCLUDE[d365fin](includes/d365fin_md.md)] et le montant de TVA figurant sur la facture que vous avez reçue du fournisseur.  
@@ -76,7 +76,7 @@ Vous pouvez également ajuster les montants TVA dans les feuilles comptabilité,
 ### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-general-journals"></a>Pour configurer le système pour la saisie manuelle de la TVA dans les feuilles comptabilité
 Vous devez suivre les étapes suivantes avant de saisir manuellement la TVA dans une feuille comptabilité.  
 
-1. Dans la page **Paramètres comptabilité**, spécifiez une **Différence TVA max. autorisée** entre le montant calculé par le programme et le montant calculé manuellement.  
+1. Dans la page **Paramètres comptabilité**, spécifiez une **Différence TVA max. autorisée** entre le montant calculé par l'application et le montant calculé manuellement.  
 2. Sur la page **Modèles feuille comptabilité**, activez la case à cocher **Autoriser différence TVA** pour la feuille appropriée.  
 
 ### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-sales-and-purchase-journals"></a>Pour configurer le système pour la saisie manuelle de la TVA dans les feuilles vente et achat

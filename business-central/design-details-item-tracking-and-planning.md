@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 08/20/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 062cee5473de267a479bc76e166ed85948544a51
-ms.sourcegitcommit: 81b6062194bf04d8052a3cd394cc0b41e3f53e6d
+ms.openlocfilehash: 0b83cc4daea4e37dae1e1ef7437276205b76cbe5
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "1887683"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303372"
 ---
 # <a name="design-details-item-tracking-and-planning"></a>Détails de conception : traçabilité et planification d'article
 Puisqu'ils sont enregistrés dans le système de réservation, les numéros de traçabilité sont coordonnés entièrement avec l'enregistrement de chaînage. Cela signifie que les articles qui ont des numéros de suivi de commande peuvent se voir affecter des numéros de suivi d'article. Inversement, les articles qui ont des numéros traçabilité peuvent devenir des enregistrement de chaînage. Pour plus d'informations, voir [Détails de conception : création de traçabilité](design-details-item-tracking-design.md).

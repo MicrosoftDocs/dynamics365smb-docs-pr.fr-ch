@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 382a95a579482a56597ffae053c53dab92f3739a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 46b18910efb1abb8df1ef1f427933f75deb3912c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245158"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2305275"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Configurer les définitions d'échange de données
 Vous pouvez configurer [!INCLUDE[d365fin](includes/d365fin_md.md)] pour échanger des données de tables spécifiques avec des données de fichiers externes, par exemple pour recevoir et envoyer des documents électroniques, importer et exporter des données bancaires ou d'autres données, telles que les salaires, les taux de change des devises et les catalogues article. Pour plus d'informations, voir [Échanger des données par voir électronique](across-data-exchange.md).  
@@ -110,7 +110,7 @@ Ceci est décrit dans les procédures suivantes.
 > [!NOTE]  
 >  La correspondance spécifique dépend de l'objectif commercial du fichier de données à échanger et des variations locales. Même le standard bancaire SEPA a des variations locales. [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge en natif l'importation de fichiers de relevé bancaire SEPA CAMT. Ceci est représenté par le code d'enregistrement de définition d'échange de données **SEPA CAMT** sur la page **Définitions d'échange de données**. Pour plus d'informations sur le mappage de champs spécifique de cette prise en charge de SEPA CAMT, voir [Mappage de champs lors de l'importation de fichiers SEPA CAMT](across-field-mapping-when-importing-sepa-camt-files.md).  
 
-#### <a name="to-map-columns-in-the-data-file-to-fields-in-included365finincludesd365finmdmd"></a>Pour mapper les colonnes du fichier de données aux champs de [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+#### <a name="to-map-columns-in-the-data-file-to-fields-in-included365finincludesd365fin_mdmd"></a>Pour mapper les colonnes du fichier de données aux champs de [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 1. Sur le raccourci **Définitions de lignes**, sélectionnez la ligne pour laquelle vous souhaitez associer les colonnes avec les champs, puis sélectionnez **Correspondance champ**. La page **Correspondance échange de données** s'ouvre.  
 2. Dans le raccourci **Général**, spécifiez les paramètres de mappage en renseignant les champs comme indiqué dans le tableau ci-dessous.  
 

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3083b52a2345d2c5dbaa15c34c7a93afb3b9d063
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1b8a30732b0bf562e54d74c6477c95c36a5ab524
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247344"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303499"
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Détails de conception : flux d'enlogement
 Le flux entrant dans un entrepôt commence à l'arrivée des articles dans l'entrepôt du magasin de la société, qu'ils proviennent de sources externes ou d'un autre magasin de la société. Un salarié enregistre les articles, généralement en numérisant un code barre. Depuis le quai de réception, des activités entrepôt sont effectuées à différents niveaux de complexité pour amener les articles dans la zone de stockage.  

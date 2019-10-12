@@ -1,1 +1,1 @@
-Obtenir une [formation !](/dynamics365/get-started/training/)
+Obtenir une [formation !](/learn/browse/?products=dynamics-business-central)

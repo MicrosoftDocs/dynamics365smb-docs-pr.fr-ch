@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: multiple currencies, payment, reconcile
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 1569ff45bbbf8c3bf63538abdab143f9851a23a6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 56e225ba1de59f596bc9fd54f924d1ca783d3599
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1239633"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302251"
 ---
 # <a name="enable-application-of-ledger-entries-in-different-currencies"></a>Activer le lettrage d'écritures comptables client en devises différentes
 Si vous achetez des produits auprès d'un fournisseur dans une devise et que vous payez ces produits dans une autre devise, vous pouvez lettrer le paiement avec l'achat.

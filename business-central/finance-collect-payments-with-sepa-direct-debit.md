@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9a2d4c8696eee9ec75de556b984d9ea2a87ad771
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: fe015afa5508117fb7425042972e967d7a652485
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1239858"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302515"
 ---
 # <a name="collect-payments-with-sepa-direct-debit"></a>Recouvrement de paiements par prélèvement automatique SEPA
 Avec le consentement de votre client, vous pouvez collecter les paiements directement à partir du compte bancaire du client en fonction du format SEPA.  
@@ -137,13 +137,13 @@ Avant de pouvoir traiter les paiements client par voie électronique en exportan
  Vous pouvez maintenant passer à la validation des réceptions de paiement pour les factures vente impliquées. Vous pouvez généralement le faire pendant que vous validez des réceptions de paiement, tel que sur la page **Enregistrement de paiement**, ou vous pouvez valider les réceptions de paiement directement à partir de la page **Écritures recouvrement prélèvement**. Pour plus d'informations, voir [Valider des réceptions règlement de prélèvement SEPA](finance-how-to-post-sepa-direct-debit-payment-receipts.md).
 
 ## <a name="posting-sepa-direct-debit-payment-receipts"></a>Validation des réceptions règlement de prélèvement SEPA
- Lorsqu'une collection prélèvement automatique est correctement traitée par votre banque, vous pouvez procéder à la validation de la réception du paiement pour les factures vente impliquées. Pour plus d'informations, voir [Créer des écritures de collection prélèvement automatique SEPA et les exporter vers un fichier bancaire](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md).  
+ Lorsqu'une collection prélèvement automatique est correctement traitée par votre banque, vous pouvez procéder à la validation de la réception du paiement pour les factures vente impliquées. Pour plus d'informations, voir [Créer des écritures de collection prélèvement automatique SEPA et les exporter vers un fichier bancaire](finance-collect-payments-with-sepa-direct-debit.md#creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file).  
 
  Vous pouvez valider la réception paiement directement à partir de la page **Recouvrements prélèvement** ou de la page **Écritures recouvrement prélèvement**. Vous pouvez également relayer le travail à un autre utilisateur en préparant les lignes feuille associées.  
 
 ### <a name="to-post-a-direct-debit-payment-receipt-from-the-direct-debit-collections-page"></a>Pour valider une réception de paiement de prélèvement automatique à partir de la page Collections prélèvement automatique  
  1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Recouvrements prélèvement**, puis sélectionnez le lien associé.  
- 2. Sélectionnez une ligne pour une collection prélèvement automatique qui a été exportée vers un fichier bancaire et traitée avec succès par la banque. Pour plus d'informations, voir [Créer des écritures de collection prélèvement automatique SEPA et les exporter vers un fichier bancaire](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md).  
+ 2. Sélectionnez une ligne pour une collection prélèvement automatique qui a été exportée vers un fichier bancaire et traitée avec succès par la banque.
  3. Sélectionnez l'action **Valider reçus paiement**.  
  4. Sur la page **Valider recouvrement prélèvement**, renseignez les champs comme indiqué dans le tableau suivant.  
 
@@ -154,7 +154,8 @@ Avant de pouvoir traiter les paiements client par voie électronique en exportan
      |**Nom feuille comptabilité**|Spécifie la feuille comptabilité à utiliser pour la validation de la réception du paiement.|  
      |**Créer feuille uniquement**|Activez cette case à cocher si vous ne souhaitez pas valider la réception règlement lorsque vous cliquez sur le bouton **OK**. La réception de paiements est préparée dans la feuille spécifiée et n'est pas validée jusqu'à ce qu'une personne valide les lignes feuille en question.|  
 
- 5. Choisissez le bouton **OK**.
+ 5. Cliquez sur le bouton **OK**.
 
 ## <a name="see-also"></a>Voir aussi  
-[Gestion des comptes client](receivables-manage-receivables.md)
+[Gestion des comptes client](receivables-manage-receivables.md)  
+[Gestion des services](service-service.md)

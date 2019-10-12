@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: cdfcd99c484176d709288f2cf27f0a04e43bdf52
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 2455cbf74520ddbc2ddb6ba6ae2e02064370ac2d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244484"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302491"
 ---
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Consolidation des données financières de plusieurs sociétés
 Si vous avez plusieurs sociétés dans [!INCLUDE[d365fin](includes/d365fin_md.md)], l'état Balance consolidé du tableau de bord Comptable peut vous donner un aperçu de leur santé financière dans leur ensemble.  

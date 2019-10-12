@@ -2,28 +2,28 @@
 title: Paramétrer la messagerie dans Business Central | Microsoft Docs
 description: Décrit l'utilisation du serveur SMTP de la société pour envoyer et recevoir des e-mails dans Business Central. Décrit également comment utiliser les paramètres du serveur de messagerie créés lors de l'abonnement à Office 365.
 documentationcenter: ''
-author: edupont04
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 09/09/2019
-ms.author: edupont
-ms.openlocfilehash: b9a443072d13e3cbf5f8e07006bea5477c275968
-ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 90e119dc44a23bcd9dca7920d05538ac685a44f6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "1985949"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304627"
 ---
 # <a name="set-up-email"></a>Configurer la messagerie
 Pour recevoir et envoyer des e-mails dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous devez renseigner les champs sur la page Paramétrage courrier SMTP.
 
 Au lieu de saisir les détails du serveur SMTP manuellement, vous pouvez utiliser la fonction **Appliquer les paramètres de serveur Office 365** pour les saisir à l'aide des informations de votre abonnement Office 365.
 
-Vous pouvez configurer la messagerie manuellement ou vous faire aider du guide de configuration assistée **Paramétrage d'e-mail**. Pour plus d'informations, voir [Préparation aux activités commerciales](ui-get-ready-business.md).  
+Vous pouvez configurer la messagerie manuellement, comme décrit ci-dessous, ou vous faire aider du guide de configuration assistée **Paramétrage d'e-mail**. Pour plus d'informations, voir [Préparation aux activités commerciales](ui-get-ready-business.md).  
 
 ## <a name="to-set-up-email"></a>Pour configurer la messagerie
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramétrage courrier SMTP**, puis sélectionnez le lien associé.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 06/13/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 8d7421d5fee1a6498c204730f873c3746aafc637
-ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
+ms.openlocfilehash: 022e364b6a40fe8df1f9c4e3425030d35f729e6a
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "1726759"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304507"
 ---
 # <a name="view-the-status-of-synchronization-jobs"></a>Afficher le statut des projets de synchronisation
 Utilisez la page **Erreurs de synchronisation de données couplées** pour afficher l’état des projets de synchronisation exécutés pour les enregistrements couplés dans une intégration [!INCLUDE[crm_md](includes/crm_md.md)]. Cela inclut les projets ayant été exécutés à partir de la file projets et les projets de synchronisation manuels qui ont été exécutés sur les enregistrements à partir du client [!INCLUDE[d365fin](includes/d365fin_md.md)]. Par exemple, l'affichage de leur statut est utile lors du dépannage, car il vous donne accès à des informations détaillées sur les erreurs liées aux enregistrements couplés. En règle générale, ces types d'erreur sont provoqués par des actions de l'utilisateur, par exemple lorsque :  
@@ -44,5 +44,5 @@ Utilisez la page **Erreurs de synchronisation de données couplées** pour affic
 2. Choisissez l'action **Journal de synchronisation** pour afficher le journal de synchronisation pour un enregistrement sélectionné. Par exemple, un client spécifique que vous avez synchronisé manuellement.
 
 ## <a name="see-also"></a>Voir aussi  
-[Configuration des comptes d'utilisateur pour intégration à Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)  
-[Utilisation de Dynamics 365 for Sales depuis Business Central](marketing-integrate-dynamicscrm.md)
+[Configuration des comptes d'utilisateur pour l'intégration à Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)  
+[Utilisation de Dynamics 365 Sales depuis Business Central](marketing-integrate-dynamicscrm.md)

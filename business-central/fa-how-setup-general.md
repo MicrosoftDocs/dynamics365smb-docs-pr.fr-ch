@@ -7,14 +7,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 240e3e8dc151c971dcf5875bb3e7e8bb3d5edd45
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 20e934c3556f408a48e595e6c5ef4f46809aa742
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244668"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302731"
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Configurer des informations générales pour les immobilisations
 Avant de pouvoir gérer les immobilisations, vous devez configurer les comptes généraux par défaut, les clés de ventilation, les modèles feuille et les lots pour la validation et le reclassement des immobilisations. Vous pouvez classer les immobilisations par catégorie, telles que Corporelles et Incorporelles.

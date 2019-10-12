@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2c78322213eaf6e091278e3e5528f82493aba1da
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a15b1f36bccc733a8de8c846da7cffbfae7c5af6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240410"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303047"
 ---
 # <a name="design-details-revaluation"></a>Détails de conception : réévaluation
 Vous pouvez réévaluer le stock en fonction de la base d'évaluation reflétant le plus précisément la valeur de stock. Vous pouvez également antidater une réévaluation, afin que le coût des biens vendus (COGS) soit correctement mis à jour pour les articles qui ont déjà été vendus. Les articles utilisant le mode évaluation stock standard qui n'ont pas été entièrement facturés peuvent également être réévalués.  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0e389e74e01d6e846d7f045069190fa1c67884fc
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8de701a3f49874ca737b1910dea97296b3f102bd
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240686"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2305203"
 ---
 # <a name="specify-when-and-how-to-receive-notifications"></a>Spécifier quand et comment recevoir des notifications
 Lorsque vous paramétrez des utilisateurs dans des flux de travail d'approbation, vous devez spécifier sur les pages **Paramètres de notification** et **Tableau de notification** quand et comment chaque utilisateur reçoit des notifications sur les étapes du flux de travail d'approbation. Les utilisateurs individuels peuvent également modifier leur paramètre de notification en choisissant le bouton **Changer les paramètres de notification** sur toute notification.  

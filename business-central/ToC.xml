@@ -13,7 +13,7 @@
   <Node Name="" DisplayName="Conseils" Page="ui-work-product.html">
     <Node Name="" DisplayName="Utilisation de Business Central" Page="ui-work-product.html"/>
     <Node Name="" DisplayName="Utilisation de l'icône Page ou état pour la recherche" Page="ui-search.html"/>
-    <Node Name="" DisplayName="Modification des paramètres de base" Page="ui-change-basic-settings.html"/>
+    <Node Name="" DisplayName="Modifier les paramètres de base" Page="ui-change-basic-settings.html"/>
     <Node Name="" DisplayName="Procédure : changer de Tableau de bord" Page="change-role.html"/>
     <Node Name="" DisplayName="Personnalisation de Business Central" Page="ui-customizing-overview.html"/>
     <Node Name="" DisplayName="Permettre à Business Central de proposer des valeurs" Page="ui-let-system-suggest-values.html"/>
@@ -185,7 +185,7 @@
     <Node Name="" DisplayName="Utilisation des axes analytiques" Page="finance-dimensions.html"/>
     <Node Name="" DisplayName="Procédure : créer des budgets" Page="finance-how-create-budgets.html"/>
     <Node Name="" DisplayName="Procédure : Valider les transactions directement vers la comptabilité" Page="finance-how-post-transactions-directly.html"/>
-    <Node Name="" DisplayName="Procédure : inversion d'une validation" Page="finance-how-reverse-journal-posting.html"/>
+    <Node Name="" DisplayName="Procédure : inversion d'une validation feuille et annuler les réceptions/envois" Page="finance-how-reverse-journal-posting.html"/>
     <Node Name="" DisplayName="Procédure : ventiler des coûts et des bénéfices" Page="year-allocate-costs-income.html"/>
     <Node Name="" DisplayName="Procédure : Utiliser Frais annexes pour comptabiliser les coûts commerciaux supplémentaires" Page="payables-how-assign-item-charges.html"/>
     <Node Name="" DisplayName="Procédure : enregistrer et rembourser les frais des employés" Page="finance-how-record-reimburse-employee-expenses.html"/>

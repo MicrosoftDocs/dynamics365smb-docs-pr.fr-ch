@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 50df903e664f98f038a82c646dd3bd9c2f5ef479
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: d70694a571c051f6160a721c8fa06c91fe9c42d3
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1239099"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302635"
 ---
 # <a name="working-with-accounting-periods-and-fiscal-years"></a>Utilisation des périodes et exercices comptables
 Les périodes comptables, également appelées périodes de report, sont des périodes pour lesquelles une société ou une organisation présente ses performances financières, par exemple, en générant leurs comptes de gestion ou leur bilan. Généralement, les périodes comptables sont liées à l'exercice comptable de la société, qui peut contenir plusieurs périodes comptables, telles que des mois ou des trimestres.

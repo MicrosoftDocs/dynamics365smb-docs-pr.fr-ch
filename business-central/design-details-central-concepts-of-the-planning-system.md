@@ -10,23 +10,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 529f1c71111fd6ea0b93e7d29d2f5f6b6f1df3ae
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 025b8fb9100d8418e9e157e8098afe19d24843fc
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247522"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303763"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Détails de conception : concepts centraux du système de planification
-Les fonctions de planification se trouvent dans un traitement par lots qui sélectionne d'abord les articles appropriés et la période à planifier. Puis, en fonction du code de bas niveau de chaque article (ligne nomenclature), le traitement par lots appelle une unit de code, qui calcule un programme d'approvisionnement en équilibrant les séries approvisionnement-demande et en suggérant des actions possibles à mener pour l'utilisation. Les mesures suggérées apparaissent sous forme de lignes dans la feuille planning ou dans la demande achat.  
+Les fonctions de planification se trouvent dans un traitement par lots qui sélectionne d'abord les articles appropriés et la période à planifier. Puis, en fonction du code de bas niveau de chaque article (ligne nomenclature), le traitement par lots appelle une unité de code, qui calcule un programme d'approvisionnement en équilibrant les séries approvisionnement-demande et en suggérant des actions possibles à mener pour l'utilisation. Les mesures suggérées apparaissent sous forme de lignes dans la feuille planning ou dans la demande achat.  
 
 ![Contenu de la page Feuille planning](media/NAV_APP_supply_planning_1_planning_worksheet.png "Contenu de la page Feuille planning")  
 
 Le gestionnaire d'une société, par exemple un acheteur ou un gestionnaire de production, est censé être l'utilisateur du système de planification. Le système de planification aide l'utilisateur en effectuant les calculs étendus mais relativement simples d'une planification. L'utilisateur peut alors se consacrer à résoudre les problèmes plus difficiles, par exemple lorsque les choses diffèrent de la normale.  
 
-Le système de planification est guidé par la demande prévue et réelle des clients, par exemple, les commandes de prévisions et de vente. L'exécution du calcul de planification a pour effet que le programme suggère à l'utilisateur de prendre des mesures spécifiques concernant l'approvisionnement possible auprès des fournisseurs, des départements Production ou Assemblage, ou les transferts à partir d'autres entrepôts. Ces mesures suggérées peuvent être de créer de nouvelles commandes approvisionnement, comme des ordres d'achat ou de fabrication. S'il y a déjà des commandes approvisionnement, les mesures suggérées peuvent être d'augmenter ou d'accélérer les commandes pour répondre à l'évolution de la demande.  
+Le système de planification est guidé par la demande prévue et réelle des clients, par exemple, les commandes de prévisions et de vente. L'exécution du calcul de planification a pour effet que l'application suggère à l'utilisateur de prendre des mesures spécifiques concernant l'approvisionnement possible auprès des fournisseurs, des départements Production ou Assemblage, ou les transferts à partir d'autres entrepôts. Ces mesures suggérées peuvent être de créer de nouvelles commandes approvisionnement, comme des ordres d'achat ou de fabrication. S'il y a déjà des commandes approvisionnement, les mesures suggérées peuvent être d'augmenter ou d'accélérer les commandes pour répondre à l'évolution de la demande.  
 
 Un autre objectif du système de planification est de garantir que le stock ne croisse pas inutilement. En cas de baisse de la demande, le système de planification suggère à l'utilisateur de reporter, de réduire ou d'annuler des commandes approvisionnement existantes.  
 
@@ -66,7 +66,7 @@ Dans les sociétés avec un faible flux d'articles et des structures de produits
 ### <a name="dynamic-order-tracking-versus-the-planning-system"></a>Comparaison entre le chaînage dynamique et le système de planification  
 À première vue, il peut être difficile de différencier le système de planification du chaînage dynamique. Les deux fonctions affichent une sortie dans la feuille planning en suggérant les actions que le gestionnaire doit entreprendre. Toutefois, la manière dont cette production est produite diffère.  
 
-Le système de planification traite l'ensemble de la configuration de demande et d'approvisionnement d'un article au travers de tous les niveaux de la hiérarchie de nomenclature, alors que le chaînage dynamique gère uniquement la situation de la commande qui l'a activée. Lors de l'équilibre de la demande et de l'approvisionnement, le système de planification crée des liens dans un mode de lots activé par l'utilisateur, alors que Dynamic Order Tracking crée les liens automatiquement et à la volée, chaque fois que l'utilisateur saisit une demande ou un approvisionnement dans le programme, comme une commande vente ou une commande achat.  
+Le système de planification traite l'ensemble de la configuration de demande et d'approvisionnement d'un article au travers de tous les niveaux de la hiérarchie de nomenclature, alors que le chaînage dynamique gère uniquement la situation de la commande qui l'a activée. Lors de l'équilibre de la demande et de l'approvisionnement, le système de planification crée des liens dans un mode de lots activé par l'utilisateur, alors que Dynamic Order Tracking crée les liens automatiquement et à la volée, chaque fois que l'utilisateur saisit une demande ou un approvisionnement dans l'application, comme une commande vente ou une commande achat.  
 
 Le chaînage dynamique crée des liens entre la demande et l'approvisionnement lorsque les données sont saisies, sur la base du principe premier arrivé, premier servi. Cela peut conduire du désordre dans les priorités. Par exemple, une commande vente saisie en premier, avec une date d'échéance du mois suivant, peut être liée à l'approvisionnement en stock, alors que la commande vente suivante à échéance le lendemain peut entraîner la création d'une commande achat par un message d'action afin de la couvrir, comme illustré ci-dessous.  
 
@@ -95,11 +95,11 @@ Les chiffres indiquent dans quelle séquence le système fait des propositions p
 Pour plus d'informations sur la fabrication, voir [Détails de conception : chargement des profils de stock](design-details-loading-the-inventory-profiles.md).  
 
 ### <a name="locations--transfer-level-priority"></a>Magasins/priorité de niveau transfert  
-Les sociétés actives dans plus d'un magasin peuvent être amenés à planifier chaque magasin individuellement. Par exemple, le niveau de stock de sécurité d'un article et sa méthode de réapprovisionnement peuvent différer d'un magasin à un autre. Dans ce cas, les paramètres de planification doivent être spécifiés par article et également par magasin.  
+Les sociétés actives dans plus d'un magasin peuvent être amenées à planifier chaque magasin individuellement. Par exemple, le niveau de stock de sécurité d'un article et sa méthode de réapprovisionnement peuvent différer d'un magasin à un autre. Dans ce cas, les paramètres de planification doivent être spécifiés par article et également par magasin.  
 
-Ceci est pris en charge avec l'utilisation des points de stock, où des paramètres de planification individuels peuvent être spécifiés au niveau des points de stock. Un point de stock peut être considéré comme un article dans un magasin spécifique. Si l'utilisateur n'a pas défini un point de stock pour ce magasin, le programme utilisera par défaut les paramètres définis sur la fiche article. Le programme calcule une planification pour les magasins actifs uniquement, c'est-à-dire les magasins où il existe une demande ou un approvisionnement pour l'article donné.  
+Ceci est pris en charge avec l'utilisation des points de stock, où des paramètres de planification individuels peuvent être spécifiés au niveau des points de stock. Un point de stock peut être considéré comme un article dans un magasin spécifique. Si l'utilisateur n'a pas défini un point de stock pour ce magasin, l'application utilisera par défaut les paramètres définis sur la fiche article. L'application calcule une planification pour les magasins actifs uniquement, c'est-à-dire les magasins où il existe une demande ou un approvisionnement pour l'article donné.  
 
-En principe, tout article peut être traité dans n'importe quel magasin, mais l'approche du programme du concept de magasin est assez stricte. Par exemple, une commande vente dans un magasin ne peut pas être satisfaite par une certaine quantité en stock dans un autre magasin. La quantité en stock doit d'abord être transférée au magasin spécifié sur la commande vente.  
+En principe, tout article peut être traité dans n'importe quel magasin, mais l'application du programme du concept de magasin est assez stricte. Par exemple, une commande vente dans un magasin ne peut pas être satisfaite par une certaine quantité en stock dans un autre magasin. La quantité en stock doit d'abord être transférée au magasin spécifié sur la commande vente.  
 
 ![Planification pour points de stock](media/NAV_APP_supply_planning_1_SKU_planning.png "Planification pour points de stock")  
 
@@ -124,7 +124,7 @@ Si l'utilisateur a saisi une commande vente ou en a modifié une existante, il e
 
 Le système de planification contrôle ces événements et affecte les articles appropriés pour la planification.  
 
-Pour plusieurs magasins, l'affectation se fait au niveau de l'article par combinaison de magasins. Si, par exemple, une commande vente a été créée à un seul magasin, le programme affecte l'article à ce magasin spécifique pour la planification.  
+Pour plusieurs magasins, l'affectation se fait au niveau de l'article par combinaison de magasins. Si, par exemple, une commande vente a été créée à un seul magasin, l'application affecte l'article à ce magasin spécifique pour la planification.  
 
 La raison de la sélection d'articles pour la planification est une question de performances système. Si aucune modification du motif demande-approvisionnement d'un article n'a été apportée, le système de planification ne propose aucune action à effectuer. Sans l'affectation de planification, le système devrait effectuer les calculs pour tous les articles afin de déterminer quoi planifier, et cela purgerait des ressources du système.  
 
@@ -146,7 +146,7 @@ La demande et l'approvisionnement peuvent contenir des codes variante et des cod
 
 Le système traite les codes variante et magasin du système en tant que dimensions d'article sur une ligne de commande vente, une écriture comptable de stock, etc. Par conséquent, il calcule une planification pour chaque combinaison de variante et de magasin, comme si la combinaison était un numéro d'article distinct.  
 
-Au lieu de calculer une combinaison théorique de variante et magasin, le programme ne calcule que les combinaisons réellement existantes dans la base de données.  
+Au lieu de calculer une combinaison théorique de variante et magasin, l'application ne calcule que les combinaisons réellement existantes dans la base de données.  
 
 Pour plus d'informations sur la manière dont le système de planification traite les codes magasin sur demande, voir [Détails de conception : demande à un magasin vide](design-details-balancing-demand-and-supply.md).  
 
@@ -252,7 +252,7 @@ L'avertissement Attention est affiché dans trois situations :
 ## <a name="error-logs"></a>Journaux des erreurs  
 Dans la page de demande Calculer planning, l'utilisateur peut sélectionner le champ **Arrêter et afficher la première erreur** pour arrêter l'exécution de la planification quand il rencontre la première erreur. Au même moment, un message affiche des informations sur l'erreur. S'il y a une erreur, seules les lignes planning traitées avant la détection de l'erreur apparaissent dans la feuille planning.  
 
-Si le champ n'est pas activé, le traitement par lots Calculer planning se poursuit jusqu'à ce qu'il soit terminé. Les erreurs éventuelles n'interrompent pas le traitement par lots. S'il y a une ou plusieurs erreurs, une fois l'exécution du programme terminée, celui-ci affiche un message indiquant le nombre d'articles concernés par les erreurs. La page **Journal des erreurs de planning** s'ouvre ensuite pour afficher des informations supplémentaires sur l'erreur et pour fournir des liens vers les documents ou les fiches paramètres concernés.  
+Si le champ n'est pas activé, le traitement par lots Calculer planning se poursuit jusqu'à ce qu'il soit terminé. Les erreurs éventuelles n'interrompent pas le traitement par lots. S'il y a une ou plusieurs erreurs, une fois l'exécution de l'application terminée, celui-ci affiche un message indiquant le nombre d'articles concernés par les erreurs. La page **Journal des erreurs de planning** s'ouvre ensuite pour afficher des informations supplémentaires sur l'erreur et pour fournir des liens vers les documents ou les fiches paramètres concernés.  
 
 ![Messages d'erreur dans la feuille planning](media/NAV_APP_supply_planning_1_error_log.png "Messages d'erreur dans la feuille planning")  
 

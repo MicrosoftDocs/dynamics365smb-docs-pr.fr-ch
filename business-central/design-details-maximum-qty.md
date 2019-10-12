@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
-ms.openlocfilehash: 857a01bac28d85a35668f3aa01e8807a6f6dc845
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: e186beea06fcada9bc0396fc5627c90bbfb06b4e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1239168"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303163"
 ---
 # <a name="design-details-maximum-qty"></a>Détails de conception : qté maximum.
 La stratégie Quantité maximum est une manière de mettre à jour le stock à l'aide d'un point de commande.  
@@ -28,7 +28,7 @@ La stratégie Quantité maximum est une manière de mettre à jour le stock à l
 ## <a name="calculated-per-time-bucket"></a>Calculé par intervalle de planification  
  La quantité de réapprovisionnement est déterminée au moment (à la fin d'un intervalle de planification) où le système de planification détecte le que le point de commande a été dépassé. En même temps, le système mesure l'écart entre le niveau de stock prévisionnel actuel et le stock maximal spécifié. Cela constitue la quantité à recommander. Le système vérifie ensuite si l'approvisionnement a déjà été commandé ailleurs pour être reçu dans les délais et, si c'est le cas, réduit la quantité de la nouvelle commande d'approvisionnement des quantités déjà commandées.  
 
- Le système assure que le stock prévisionnel atteint au moins le niveau du point de commande, dans la cas où l'utilisateur oublierait de spécifier une quantité de stock maximum.  
+ Le système assure que le stock prévisionnel atteint au moins le niveau du point de commande, dans le cas où l'utilisateur oublierait de spécifier une quantité de stock maximum.  
 
 ## <a name="combines-with-order-modifiers"></a>Associe avec les modificateurs d'ordre  
  En fonction de la configuration, il peut être préférable de combiner la stratégie de la quantité maximum avec des modificateurs de commande pour garantir une quantité de commande minimale ou de l'arrondir au nombre supérieur d'unités d'achat, ou de le diviser en davantage de lots comme défini par la quantité maximum commande.  

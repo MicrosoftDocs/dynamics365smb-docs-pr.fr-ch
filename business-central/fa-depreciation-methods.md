@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9c9d01e54aa43cbba722c459a2bf60be26433727
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 261fc147c4e940e4fce69e5a302d1d501f9c5597
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240991"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302899"
 ---
 # <a name="depreciation-methods"></a>Méthodes d'amortissement
 Huit méthodes d'amortissement sont disponibles :  
@@ -55,12 +55,12 @@ Le nombre de jours d'amortissement restants correspond au nombre de jours d'amor
 La valeur comptable peut être diminuée d'un montant de réévaluation, de dépréciation, ou paramétrable 1 ou 2 validé, selon l'état (activé/désactivé) des champs **Inclure dans calcul amort.** et **Élément valeur comptable** sur la page **Type paramètre compta. immo**. Ce calcul garantit l'amortissement complet de l'immobilisation à la date fin de l'amortissement.  
 
 ### <a name="fixed-yearly-percentage"></a>Pourcentage annuel fixe
-Si vous saisissez un pourcentage annuel fixe, le programme utilise la formule suivante pour calculer le montant de l'amortissement :  
+Si vous saisissez un pourcentage annuel fixe, l'application utilise la formule suivante pour calculer le montant de l'amortissement :  
 
 Montant de l'amortissement = (% linéaire x base amortissement x nombre de jours d'amortissement)/(100 x 360)  
 
 ### <a name="fixed-yearly-amount"></a>Montant annuel fixe
-Si vous saisissez un montant annuel fixe, le programme utilise la formule suivante pour calculer le montant de l'amortissement :  
+Si vous saisissez un montant annuel fixe, l'application utilise la formule suivante pour calculer le montant de l'amortissement :  
 
 Montant de l'amortissement = (montant d'amortissement fixe x nombre de jours d'amortissement)/360  
 
@@ -217,7 +217,7 @@ Le montant dégressif est utilisé car il s'agit de la valeur la plus élevée.
 Le montant linéaire est utilisé car il s'agit de la valeur la plus élevée.  
 
 ## <a name="user-defined-depreciation"></a>Amortissement défini par l’utilisateur
-Le programme dispose d'une option qui vous permet de définir des méthodes d'amortissement paramétrables.  
+L'application dispose d'une option qui vous permet de définir des méthodes d'amortissement paramétrables.  
 
 Avec une méthode paramétrable, vous utilisez la page **Tables d'amortissement** dans laquelle vous devez saisir un pourcentage d'amortissement pour chaque période (mois, trimestre, année ou période comptable).  
 
@@ -257,7 +257,7 @@ Le coût d'acquisition est de 100 000 DS et la durée d'amortissement est de c
 
 * Date début amortissement  
 
-Si vous utilisez une méthode paramétrable, les champs **Date premier amortissement** et **Date début amortissement** doivent être renseignés sur la page **Lois d'amortissement immo.** Le champ **Date premier amortissement** et le contenu du champ **Base période** sur la page **Tables d'amortissement** permettent de déterminer les intervalles de temps à utiliser pour le calcul de l'amortissement. Cela garantit que le programme commence à l'aide du pourcentage spécifié le même jour pour toutes les immobilisations. Le champ **Date début amortissement** permet de calculer le nombre de jours d'amortissement.  
+Si vous utilisez une méthode paramétrable, les champs **Date premier amortissement** et **Date début amortissement** doivent être renseignés sur la page **Lois d'amortissement immo.** Le champ **Date premier amortissement** et le contenu du champ **Base période** sur la page **Tables d'amortissement** permettent de déterminer les intervalles de temps à utiliser pour le calcul de l'amortissement. Cela garantit que l'application commence à l'aide du pourcentage spécifié le même jour pour toutes les immobilisations. Le champ **Date début amortissement** permet de calculer le nombre de jours d'amortissement.  
 
 Dans l'exemple précédent, les champs **Date premier amortissement** et **Date début amortissement** indiquent tous les deux la date du 01/01/01. Toutefois, en supposant que le champ **Date premier amortissement** contienne la date 01/01/10 et que le champ **Date début amortissement** indique la valeur 01/04/11, le résultat serait le suivant :  
 
@@ -275,7 +275,7 @@ Dans l'exemple précédent, les champs **Date premier amortissement** et **Date 
 ## <a name="half-year-convention-depreciation"></a>Amortissement selon la règle de la demi-année
 La règle de la demi-année n'est appliquée que si vous avez coché le champ **Utiliser règle demi-année** sur la page **Plan amortissement**.  
 
-Cette méthode d'amortissement peut être utilisée en combinaison avec les méthodes d'amortissement suivantes :  
+Cette méthode d'amortissement peut être utilisée en combinaison avec les méthodes d'amortissement suivantes dans l'application :  
 
 * Linéaire  
 * Dégressif1  
@@ -343,7 +343,7 @@ Le montant linéaire est utilisé car il s'agit de la valeur la plus élevée.
 ## <a name="duplicating-entries-to-more-depreciation-books"></a>Duplication des écritures dans davantage de lois d'amortissement
 Si vous disposez de trois lois d'amortissement, B1, B2 et B3, et que vous souhaitiez dupliquer des écritures de B1 vers B2 et B3, vous pouvez activer le champ **Inclure dans liste duplication** sur les fiches loi d'amortissement de B2 et de B3. Cela peut être utile si la loi d'amortissement B1 est intégrée en comptabilité et utilise la feuille validation immobilisation, et si les lois d'amortissement B2 et B3 ne sont pas intégrées en comptabilité et utilisent la feuille immobilisation.  
 
-Lorsque vous saisissez une écriture pour B1 dans la feuille validation immobilisation et sélectionnez le champ **Utiliser liste duplication**, le programme duplique l'écriture pour les lois B2 et B3 dans la feuille immobilisation lors de la validation de l'écriture.  
+Lorsque vous saisissez une écriture pour B1 dans la feuille validation immobilisation et sélectionnez le champ **Utiliser liste duplication**, l'application duplique l'écriture pour les lois B2 et B3 dans la feuille immobilisation lors de la validation de l'écriture.  
 
 > [!NOTE]  
 >   Vous ne pouvez pas utiliser la feuille d'origine comme destination de la duplication. Si vous validez des écritures dans la feuille validation immobilisation, vous pouvez les dupliquer dans la feuille immobilisation ou dans la feuille validation immobilisation en utilisant une autre feuille.  

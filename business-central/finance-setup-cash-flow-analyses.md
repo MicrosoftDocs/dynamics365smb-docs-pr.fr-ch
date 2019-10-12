@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 933323815f0ee31e8bd281dd00ac2d604dd914db
-ms.sourcegitcommit: 92c7b6c5f0a5d8becbef106ab85258906765bc3e
+ms.openlocfilehash: c33ef33a9eb660e7cde7da2d1e8a6dad76f18dd7
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "1540332"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301728"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Configuration d'une analyse de trésorerie
 Si vous souhaitez de l'aide pour décider quelles opérations effectuer avec votre trésorerie, consultez les graphiques dans le tableau de bord Comptable :  
@@ -56,9 +56,9 @@ Pour vous aider à poursuivre, certains comptes et paramétrages de trésorerie 
 Pour les configurer, recherchez **comptes de trésorerie**, choisissez le lien, puis renseignez les champs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Répétez ces étapes pour **paramètres trésorerie**.  
 
 ## <a name="set-up-cash-flow-forecasts"></a>Configurer les prévisions de trésorerie
-Le graphique **Prévision de trésorerie** utilise les comptes de trésorerie, les paramétrages de trésorerie et les prévisions de trésorerie. Certains comptes sont fournis, cependant, vous pouvez définir les vôtres à l'aide d'un guide de configuration assistée. Le guide vous aide à spécifier des éléments, tels que la fréquence de mise à jour des prévisions, les comptes sur lesquels les baser, les informations concernant l'échéance de paiement des taxes et s'il convient d'utiliser [Cortana Intelligence](https://www.microsoft.com/en-us/cloud-platform/what-is-cortana-intelligence-suite).  
+Le graphique **Prévision de trésorerie** utilise les comptes de trésorerie, les paramétrages de trésorerie et les prévisions de trésorerie. Certains comptes sont fournis, cependant, vous pouvez définir les vôtres à l'aide d'un guide de configuration assistée. Le guide vous aide à spécifier des éléments, tels que la fréquence de mise à jour des prévisions, les comptes sur lesquels les baser, les informations concernant l'échéance de paiement des taxes et s'il convient d'utiliser [Azure AI](https://azure.microsoft.com/en-us/overview/ai-platform/).  
 
-Les prévisions de trésorerie peuvent utiliser Cortana Intelligence pour inclure des documents contenant une date d'échéance future. Le résultat est une prévision plus complète. La connexion à Cortana Intelligence est déjà configurée pour vous. Vous devez juste l'activer. Lorsque vous vous connectez à [!INCLUDE[d365fin](includes/d365fin_md.md)], une notification s'affiche dans une barre bleue et inclut un lien vers le paramétrage par défaut de trésorerie. La notification s'affiche une seule fois. Si vous la fermez, mais décidez d'activer Cortana Intelligence, vous pouvez utiliser le guide de configuration assistée ou un processus manuel.  
+Les prévisions de trésorerie peuvent utiliser Azure AI pour inclure des documents contenant une date d'échéance future. Le résultat est une prévision plus complète. La connexion à Azure AI est déjà configurée pour vous. Vous devez juste l'activer. Lorsque vous vous connectez à [!INCLUDE[d365fin](includes/d365fin_md.md)], une notification s'affiche dans une barre bleue et inclut un lien vers le paramétrage par défaut de trésorerie. La notification s'affiche une seule fois. Si vous la fermez, mais décidez d'activer Azure AI, vous pouvez utiliser le guide de configuration assistée ou un processus manuel.  
 
 > [!NOTE]  
 >   Sinon, vous pouvez utiliser votre propre service Web prévisionnel. Pour plus d'informations, voir [Créer et utiliser votre propre service Web prévisionnel pour des prévisions de trésorerie](#AnchorText).  
@@ -73,23 +73,23 @@ Pour utiliser le guide de configuration assistée :
 Pour utiliser une procédure manuelle :  
 
 1. Dans le tableau de bord Comptable, recherchez **Paramètres trésorerie**, puis sélectionnez le lien associé.  
-2. Affichez l'organisateur **Cortana Intelligence**, puis activez la case à cocher **Cortana Intelligence Activé**.  
+2. Affichez l'organisateur **Azure AI**, puis activez la case à cocher **Azure AI activé**.  
 3. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Prévision de trésorerie**, puis sélectionnez le lien associé.
 4. Sur la page **Prévision de trésorerie**, choisissez l'action **Recalculer la prévision**.  
 
 > [!TIP]  
->   Tenez compte de la durée des périodes utilisée par le service lors de ses calculs. Plus vous fournissez de données, plus les prévisions seront précises. En outre, soyez prudent en ce qui concerne les grands écarts entre les périodes. Cela aura également un impact sur les prévisions. Si Cortana Intelligence ne trouve pas suffisamment de données ou si les données varient considérablement, le service ne fera pas de prévisions.  
+>   Tenez compte de la durée des périodes utilisée par le service lors de ses calculs. Plus vous fournissez de données, plus les prévisions seront précises. En outre, soyez prudent en ce qui concerne les grands écarts entre les périodes. Cela aura également un impact sur les prévisions. Si Azure AI ne trouve pas suffisamment de données ou si les données varient considérablement, le service ne fera pas de prévisions.  
 
 ## <a name="AnchorText"> </a>Créer et utiliser votre propre service Web prévisionnel pour des prévisions de trésorerie
-Vous pouvez aussi utiliser votre propre service Web prévisionnel basé sur un modèle public intitulé **Modèle de prévision pour Microsoft Business Central**. Ce modèle prévisionnel est disponible en ligne dans la galerie Cortana Intelligence. Pour utiliser le modèle, procédez comme suit :  
+Vous pouvez aussi utiliser votre propre service Web prévisionnel basé sur un modèle public intitulé **Modèle de prévision pour Microsoft Business Central**. Ce modèle prévisionnel est disponible en ligne dans la galerie Azure AI. Pour utiliser le modèle, procédez comme suit :  
 
-1. Ouvrez un navigateur et accédez à la [Galerie Cortana Intelligence](https://go.microsoft.com/fwlink/?linkid=828352).  
+1. Ouvrez un navigateur et accédez à la [Galerie Azure AI](https://go.microsoft.com/fwlink/?linkid=828352).  
 2. Recherchez **Modèle prévisionnel pour Microsoft Business Central**, puis ouvrez-le dans Azure Machine Learning Studio.  
 3. Utilisez votre compte Microsoft pour enregistrer un espace de travail, puis copiez le modèle.  
 4. Exécutez le modèle, et publiez-le comme service Web.  
 5. Notez l'URL d'API et la clé d'API. Vous allez utiliser ces informations d'identification pour une configuration de trésorerie.  
 6. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres trésorerie**, puis sélectionnez le lien associé.  
-7. Développez l'organisateur **Cortana Intelligence** et renseignez les champs.  
+7. Développez l'organisateur **Azure AI** et renseignez les champs.  
 
 ## <a name="see-also"></a>Voir aussi
 [Analyse de la trésorerie dans votre société](finance-analyze-cash-flow.md)  

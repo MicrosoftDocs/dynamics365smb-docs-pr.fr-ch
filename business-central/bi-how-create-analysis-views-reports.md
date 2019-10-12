@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e8744455f41897f00315968cc10f12f18bf042b9
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8c3b7ee476287b25740648758ff7b87ff13f22a7
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245273"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303962"
 ---
 #  <a name="create-analysis-reports"></a>Créer des rapports d'analyse
 Les directeurs des ventes doivent analyser de manière régulière les rotations, la marge bénéficiaire brute et d'autres indicateurs de performance des ventes clés. Les acheteurs, eux, s'intéressent plutôt à la dynamique des volumes d'achat, des performances des fournisseurs et des prix d'achat. Par ailleurs, les gestionnaires des stocks et directeurs de la logistique ont besoin d'informations sur la rotation des stocks, d'une analyse des mouvements de stock et de statistiques sur la valeur du stock.  
@@ -43,7 +43,7 @@ Vous pouvez ensuite configurer les colonnes suivantes :
 ## <a name="setting-up-line-and-column-layouts"></a>Configuration des présentations ligne et colonne  
  Sur la page **Rapport d'analyse**, vous pouvez afficher différentes présentations de ligne et de colonne selon le paramétrage effectué. Configurez vos lignes ou vos modèles de ligne sur la page **Modèles de ligne d'analyse**. Sur la page, vous pouvez définir le nom du rapport et les objets à inclure dans les lignes du rapport. Configurez vos colonnes sur la page **Modèles de colonne d'analyse**. Sur cette page, vous pouvez définir le nom du modèle de colonne et les paramètres d'analyse à inclure dans le rapport sous forme de colonnes. Sur la page **Modèles de colonne d'analyse**, chaque ligne représente une colonne du rapport. Les lignes et les colonnes d'analyse sont indépendantes les unes des autres.  
 
-Selon les lignes et les colonnes configurées, le programme totalise le résultat du rapport sur la page de la matrice **Rapport d'analyse** de ce type :  
+Selon les lignes et les colonnes configurées, l'application totalise le résultat du rapport sur la page de la matrice **Rapport d'analyse** de ce type :  
 
 | |Ventes mois en cours|Ventes mois précédent|Ventes mois précédent (en %)|  
 |-|-|-|-|  

@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 952f2b9dc301b6941d13b4c23ac55f83b781739f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 05a414d6f12243f55105863b66d9b6e759a29189
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245934"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2305719"
 ---
 # <a name="publish-a-web-service"></a>Publier un service Web
 
 Les services Web sont un moyen pratique de rendre une fonctionnalité d'application disponible à différents systèmes et utilisateurs externes. [!INCLUDE[d365fin](includes/d365fin_md.md)] inclut plusieurs objets qui sont exposés par défaut en tant que services Web en raison de l'intégration à d'autres services Microsoft, mais vous pouvez également ajouter d'autres services Web.  
 
-Vous pouvez configurer un service Web dans le client Windows ou le client Web. Vous devez ensuite publier le service Web pour le rendre disponible aux demandes de service sur le réseau. Les utilisateurs peuvent découvrir les services Web en pointant un navigateur sur l'emplacement du serveur et en demandant la liste des services disponibles. Lorsque vous publiez un service Web, il est immédiatement disponible sur le réseau pour les utilisateurs authentifiés. Tous les utilisateurs autorisés peuvent accéder aux métadonnées des services Web, mais seuls les utilisateurs ayant les autorisations nécessaires peuvent accéder aux données réelles.
+Vous devez configurer un service Web dans le client [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vous devez ensuite publier le service Web pour le rendre disponible aux demandes de service sur le réseau. Les utilisateurs peuvent découvrir les services Web en pointant un navigateur sur l'emplacement du serveur et en demandant la liste des services disponibles. Lorsque vous publiez un service Web, il est immédiatement disponible sur le réseau pour les utilisateurs authentifiés. Tous les utilisateurs autorisés peuvent accéder aux métadonnées des services Web, mais seuls les utilisateurs ayant les autorisations nécessaires peuvent accéder aux données réelles.
 
 ## <a name="creating-and-publishing-a-web-service"></a>Création et publication d'un service Web  
 Les étapes suivantes expliquent la procédure de création et de publication d'un service Web.  

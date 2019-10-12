@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5210258f1e217149f0d41e1edcfaf8a8c0c3be79
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 947482780e860bba566af7f22231babcf51cdd27
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238685"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301479"
 ---
 # <a name="manage-human-resources"></a>Gérer les ressources humaines
 Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez conserver des enregistrements détaillés de vos salariés. Vous pouvez enregistrer et mettre à jour les informations les concernant : contrats de travail, informations confidentielles, qualifications et contacts.
@@ -36,4 +36,4 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 ## <a name="see-also"></a>Voir aussi
 [Finances](finance.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Modification des fonctionnalités affichées](ui-experiences.md)        
+[Modifier les fonctionnalités affichées](ui-experiences.md)        

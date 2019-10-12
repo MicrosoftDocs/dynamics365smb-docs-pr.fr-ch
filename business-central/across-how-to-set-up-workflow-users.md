@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 64ac69bfa3a1ad0d5dd3b9c86af4a495fbf10b14
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ee8080689c948daa14d05e8b970de63da749746e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240640"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2305227"
 ---
 # <a name="set-up-workflow-users"></a>Configurer des utilisateurs de flux de travail
 Avant de pouvoir créer des flux de travail, vous devez configurer des utilisateurs qui participent aux flux de travail. Cela est nécessaire, par exemple, pour spécifier qui doit recevoir une notification pour agir sur une étape du flux de travail.  
@@ -40,7 +40,7 @@ Les utilisateurs de flux de travail dont la fonction est utilisateurs approbatio
 
     |Champ|Désignation|  
     |---------------------------------|---------------------------------------|  
-    |**Nom d'utilisateur**|Spécifiez l'utilisateur qui participera aux workflows.<br /><br /> L'utilisateur doit exister sur la page **Paramètres utilisateur**. Pour plus d'informations, voir [Gestion des utilisateurs et des autorisations](ui-how-users-permissions.md).|  
+    |**Nom d'utilisateur**|Spécifiez l'utilisateur qui participera aux workflows.<br /><br /> L'utilisateur doit exister sur la page **Paramètres utilisateur**. Pour en savoir plus, reportez-vous à [Gérer les utilisateurs et les autorisations](ui-how-users-permissions.md).|  
     |**N° séquence**|Spécifiez l'ordre dans lequel l'utilisateur du flux de travail s'engage dans un flux par rapport à d'autres utilisateurs. Ce champ peut être utilisé, par exemple, pour indiquer à quel moment l'utilisateur approuve, par rapport à d'autres approbateurs, lorsque vous utilisez l'option **Groupe d'utilisateurs de flux de travail** dans le champ **Type approbateur** de la réponse de flux de travail lié. **CONSEIL :**  pour indiquer qu'une demande d'approbation n'est pas approuvée tant que plusieurs approbateurs de même niveau ne l'ont pas approuvée, quelle que soit la hiérarchie, configurez un groupe d'utilisateurs horizontal en affectant le même numéro de séquence aux approbateurs appropriés.|  
 6. Répétez l'étape 5 pour ajouter des utilisateurs de workflow dans le groupe d'utilisateurs.  
 7. Répétez l'étape 2 à 6 pour ajouter des groupes d'utilisateurs de workflow.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 07/30/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7fe0a8dd125411eb9b642410980a23c243fa7975
-ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
+ms.openlocfilehash: 6fbb4e458b0e4f9068b234748a3921dbca6b3222
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1922008"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300608"
 ---
 # <a name="edit-posted-documents"></a>Valider les documents validés
 Parfois, vous devez mettre à jour un document validé, car les informations pertinentes pour le document ont été modifiées. Sur un document de vente validé, il peut s'agir du numéro de suivi du colis du transporteur, par exemple. Sur un document d'achat validé, il peut s'agir d'un texte de référence de paiement.

@@ -12,15 +12,15 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: article
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
 redirect_url: finance-set-up-cost-accounting
-ms.openlocfilehash: f7556b204403f0abdb6361a0e1650b90e58810e1
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 36da19dbe011f3e26dc166955fb9c5f0decd3b94
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238892"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2305779"
 ---
 # <a name="managing-payables"></a>Gestion des comptes fournisseur
 [!INCLUDE[d365fin](includes/d365fin_md.md)] dispose de ce dont vous avez besoin pour gérer efficacement les comptes fournisseurs.  
@@ -47,7 +47,7 @@ Si vous attendez que votre banque confirme le traitement des transactions pour v
 
 * Dans une feuille paiement avec les lignes paiement proposées, vous pouvez trier soit la colonne **Exporté dans fichier paiement** soit la colonne **Montant total exporté**, puis supprimer les propositions de paiement pour les factures ouvertes pour lesquelles les paiements ont déjà été effectués et pour lesquelles vous ne souhaitez pas effectuer de paiements.
 
-    **Remarque** : vous pouvez être amené à ajouter ces colonnes à la liste. Pour plus d'informations, voir [Personnalisation de votre espace de travail](ui-personalization-user.md).  
+    **Remarque** : vous pouvez être amené à ajouter ces colonnes à la liste. Pour plus d'informations, voir [Personnaliser votre espace de travail](ui-personalization-user.md).  
 * Sinon, dans le traitement par lots **Proposer paiements fournisseur**, où vous spécifiez les paiements à insérer dans la feuille de paiement, vous pouvez spécifier de ne pas insérer de lignes feuille pour les paiements qui ont déjà été exportés en cochant la case **Ignorer les paiements exportés**.
 
 ## <a name="see-also"></a>Voir aussi

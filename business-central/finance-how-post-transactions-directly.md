@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct posting, general ledger
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 54f2cf573d12c50ba26c26fd4c11ad20a1d52db3
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 0908d3fedb9946dafdaa0795edd6d018785bd3e5
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241134"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302275"
 ---
 # <a name="post-transactions-directly-to-the-general-ledger"></a>Valider les transactions directement vers la comptabilité
 
@@ -25,7 +25,7 @@ Une utilisation classique de la feuille comptabilité est de valider les dépens
 
 Les feuilles comptabilité valident les transactions financières dans les comptes généraux et d'autres comptes tels que les comptes bancaires, clients, fournisseurs et employés. La validation avec une feuille comptabilité crée toujours des écritures dans les comptes généraux. C'est le cas même lorsque, par exemple, vous validez une ligne feuille dans un compte client, parce qu'une écriture est validée dans un compte client de la comptabilité via un groupe comptabilisation. Vous pouvez personnaliser votre version d'une feuille comptabilité en configurant un nom de feuille ou un modèle feuille. Pour plus d'informations, voir [Utilisation des feuilles comptabilité](ui-work-general-journals.md).
 
-Contrairement aux écritures qui sont validées avec des documents qui nécessitent un processus d'avoir, vous pouvez correctement contrepasser les écritures validées avec la feuille comptabilité. Pour plus d'informations, reportez-vous à [Inversion d'une validation](finance-how-reverse-journal-posting.md).
+Contrairement aux écritures qui sont validées avec des documents qui nécessitent un processus d'avoir, vous pouvez correctement contrepasser les écritures validées avec la feuille comptabilité. Pour plus d'informations, voir [Inversion d'une validation feuille et annuler les réceptions/envois](finance-how-reverse-journal-posting.md).
 
 ## <a name="to-post-a-transaction-directly-to-a-general-ledger-account"></a>Pour valider une transaction directement vers la comptabilité
 
@@ -45,6 +45,6 @@ Contrairement aux écritures qui sont validées avec des documents qui nécessit
 
 [Utilisation de feuilles comptabilité](ui-work-general-journals.md)  
 [Enregistrer et rembourser les frais des employés](finance-how-record-reimburse-employee-expenses.md)  
-[Inversion d'une validation](finance-how-reverse-journal-posting.md)  
+[Inversion d'une validation feuille et annuler les réceptions/envois](finance-how-reverse-journal-posting.md)  
 [Finances](finance.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

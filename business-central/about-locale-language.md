@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 9e743a51e675431dc1759a6c3a58b7eb4de1ccc5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 4cab6bd1ca01e6f4d66914cff8a3a026f8ecfc32
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245319"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300800"
 ---
 # <a name="changing-language-and-locale"></a>Modification de la langue et des paramètres régionaux
 
@@ -23,7 +23,7 @@ ms.locfileid: "1245319"
 
 Par exemple, si vous utilisez la version canadienne de [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez afficher l'interface utilisateur en anglais et en français, mais pour tous les autres aspects de l'application, il s'agit toujours de la version canadienne de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Elle diffère, par exemple, de la version de [!INCLUDE[d365fin](includes/d365fin_md.md)] destinée au Royaume-Uni.  
 
-Pour modifier la langue de l'interface utilisateur, accédez à la page **Mes paramètres**. Pour plus d'informations, voir [Modification des paramètres de base](ui-change-basic-settings.md#language).  
+Pour modifier la langue de l'interface utilisateur, accédez à la page **Mes paramètres**. Pour plus d'informations, voir [Modifier les paramètres de base](ui-change-basic-settings.md#language).  
 
 La modification des textes stockés sous forme de données d'application n'appartient pas à la fonctionnalité multilingue. C'est une question de conception de l'application. Il s'agit par exemple de textes tels que le nom des articles du stock ou les commentaires concernant un client. En d'autres termes, ces types de texte ne sont pas traduits.  
 
@@ -38,9 +38,9 @@ Vous pouvez modifier les paramètres régionaux dans l'onglet du navigateur que 
 > [!IMPORTANT]  
 >  Lorsque vous modifiez les paramètres régionaux, une longue liste de langues et de paramètres régionaux s'affiche. Toutefois, seuls les paramètres régionaux sont utilisés dans la version actuelle de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-Pour modifier les paramètres régionaux, accédez à la page **Mes paramètres**. Pour plus d'informations, voir [Modification des paramètres de base](ui-change-basic-settings.md).  
+Pour modifier les paramètres régionaux, accédez à la page **Mes paramètres**. Pour plus d'informations, voir [Modifier les paramètres de base](ui-change-basic-settings.md).  
 
-## <a name="languages-of-the-included365finincludesd365finmdmd-help"></a>Langues de l'aide de [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="languages-of-the-included365finincludesd365fin_mdmd-help"></a>Langues de l'aide de [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Le contenu de l'aide pour la fonctionnalité de base de [!INCLUDE[d365fin](includes/d365fin_md.md)] est publié sur le site de Microsoft Docs et est disponible dans de nombreuses langues différentes. Si vous accédez aux documents au sein de [!INCLUDE[d365fin](includes/d365fin_md.md)], le contenu s'affichera dans votre langue. Si une page spécifique n'est pas encore disponible dans votre langue, elle s'affichera en anglais.
 
 ### <a name="how-do-i-change-the-language"></a>Comment puis-je modifier la langue ?
@@ -50,5 +50,5 @@ C'est simple - accédez au bas de la page du navigateur et choisissez le symbole
 > La liste indique toutes les langues qui sont prises en charge par le site Microsoft Docs. [!INCLUDE[d365fin](includes/d365fin_md.md)] est disponible dans un nombre limité de pays/régions, mais le contenu de l'aide est disponible dans plusieurs langues. Toutefois, le contenu de l'aide n'est pas disponible dans toutes les langues prises en charge par le site Microsoft Docs.
 
 ## <a name="see-also"></a>Voir aussi  
-[Modification des paramètres de base](ui-change-basic-settings.md)  
+[Modifier les paramètres de base](ui-change-basic-settings.md)  
 [Mise en route](product-get-started.md)  

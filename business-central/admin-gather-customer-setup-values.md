@@ -1,8 +1,6 @@
 ---
 title: Collecter les valeurs de configuration client | Microsoft Docs
-description: Vous pouvez utiliser le questionnaire de configuration pour réduire la charge de travail d'implémentation en rationalisant la tâche de configuration de la nouvelle société. Vous pouvez générer le questionnaire de configuration dans Business Central, puis le fournir à votre client sous forme de fichier Excel (.xls) ou XML.
-services: project-madeira
-documentationcenter: ''
+description: Vous pouvez utiliser le questionnaire de configuration pour réduire la charge de travail d'implémentation en rationalisant la tâche de configuration de la nouvelle société. Vous pouvez générer le questionnaire de configuration dans Business Central, puis le fournir à votre client sous forme de fichier Excel (.xlsx) ou XML.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6df4963c18e12efe4ddad68c6050776b45e7614c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8f333831c4e8aac1ba0eb4939131a9d80347441d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245587"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304651"
 ---
 # <a name="gather-customer-setup-values"></a>Collecter les valeurs de configuration client
 Vous pouvez utiliser le questionnaire de configuration pour réduire la charge de travail d'implémentation en rationalisant la tâche de configuration de la nouvelle société. Vous pouvez générer le questionnaire de configuration dans [!INCLUDE[d365fin](includes/d365fin_md.md)], puis le fournir à votre client sous forme de fichier Excel ou XML.  
@@ -75,7 +73,7 @@ Utilisez le questionnaire de configuration pour structurer et documenter une dis
 2. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Questionnaire configuration**, puis sélectionnez le lien associé.  
 3. Sélectionnez le questionnaire pour la société, puis choisissez l'action **Exporter vers Excel**, ou éventuellement l'action **Exporter vers un fichier XML**.
 4. Demandez au client de remplir le questionnaire de configuration en saisissant les réponses dans le classeur Excel. Il existe des feuilles pour chacune des zones question qui ont été créées pour le questionnaire.   
-5. Sélectionnez l'action **Importer d'Excel**, puis sélectionnez le fichier .xlsx avec les réponses du client.  
+5. Enregistrez le classeur Excel sous *Données XML*. Sélectionnez l'action **Importer d'un fichier XML**, puis sélectionnez le fichier .xms avec les réponses du client.
 6. Sélectionnez l'action **Zones question** pour démarrer le processus de validation et d’application des réponses au questionnaire de configuration.  
 
 ## <a name="to-complete-a-questionnaire-from-the-configuration-worksheet"></a>Pour remplir un questionnaire à partir de la feuille configuration  

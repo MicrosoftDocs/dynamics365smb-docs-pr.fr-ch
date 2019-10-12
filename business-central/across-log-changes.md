@@ -1,6 +1,6 @@
 ---
-title: Effectuer le suivi de l'activité utilisateur dans un journal modification| Microsoft Docs
-description: Vous pouvez activer un journal utilisateur de sorte que vous avez un historique de toutes les modifications apportées aux données dans les tables suivies.
+title: Audit des modifications| Microsoft Docs
+description: Vous pouvez activer un journal utilisateur de sorte que vous avez un historique de toutes les modifications apportées aux données dans les tables suivies. Vous pouvez également suivre les activités avec certains types de journaux d'activité.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user log, user activity, tracking
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: fc14d11bf75ea39553c1ed04986273903874a0e1
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 43aea054ce4e66e9108f408d96c2eb491351b382
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240456"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304962"
 ---
 # <a name="auditing-changes-in-business-central"></a>Audit des modifications dans Business Central
 
@@ -38,9 +38,15 @@ Sur la page **Paramètres journal modification**, si vous choisissez l'option **
 
 Une fois que vous avez configuré et activé le journal des modifications et modifié des données, vous pouvez afficher et filtrer les modifications sur la page **Écritures journal modification**. Vous pouvez supprimer des données à partir de la page **Suppr écritures journal modif**, dans laquelle vous pouvez définir des filtres basés sur la date et l'heure.  
 
+## <a name="working-with-activity-logs"></a>Utilisation des journaux d'activité
+
+À partir des pages [!INCLUDE [prodshort](includes/prodshort.md)], vous pouvez afficher un journal d’activités indiquant l’état et les erreurs éventuelles des fichiers que vous exportez ou importez dans [!INCLUDE [prodshort](includes/prodshort.md)].  
+
+Les informations sont affichées dans la page **Journal des activités** en fonction du contexte d'ouverture. Vous pouvez ouvrir la fenêtre depuis les pages **Paramètres du service d'échange de documents**, **Document entrant**, **Facture vente validée** et **Avoir vente enregistré**, par exemple. Vous pouvez vider la liste des entrées du journal ou simplement effacer la liste des entrées de plus de 7 jours.  
+
 ## <a name="see-also"></a>Voir aussi
-[Modification des paramètres de base](ui-change-basic-settings.md)  
+[Modifier les paramètres de base](ui-change-basic-settings.md)  
 [Tri](ui-sorting.md)  
-[Utilisation de la fonction Tell Me pour trouver des fonctions et des informations](ui-search.md)  
-[Gestion des utilisateurs et des autorisations](ui-how-users-permissions.md)    
+[Recherche de pages et d'informations avec Tell Me](ui-search.md)  
+[Gérer les utilisateurs et les autorisations](ui-how-users-permissions.md)    
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

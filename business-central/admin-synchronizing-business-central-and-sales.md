@@ -1,6 +1,6 @@
 ---
 title: Synchronisation et intégration des données | Microsoft Docs
-description: La synchronisation copie les données entre les écritures Dynamics 365 for Sales et les enregistrements de Business Central et conserve les données à jour dans les deux systèmes.
+description: La synchronisation copie les données entre les écritures Dynamics 365 Sales et les enregistrements de Business Central et conserve les données à jour dans les deux systèmes.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 9506b64229c4d936fa25d74d71a923bdf7915e45
-ms.sourcegitcommit: 6ef7d2fae52feff786f2e15e2863d7f5aaa762be
+ms.openlocfilehash: bbc7da12176d2a5c8ab9a2ccc153ea4053d59656
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1917475"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304278"
 ---
-# <a name="synchronizing-data-in-business-central-and-dynamics-365-for-sales"></a>Synchronisation des données dans Business Central et Dynamics 365 for Sales
-Lorsque vous intégrez [!INCLUDE[crm_md](includes/crm_md.md)] avec [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez décider si vous souhaitez synchroniser les données dans les champs sélectionnés des enregistrements [!INCLUDE[d365fin](includes/d365fin_md.md)] (tels que les clients, contacts et les vendeurs) avec les enregistrements équivalents dans [!INCLUDE[d365fin](includes/d365fin_md.md)] (tels que les comptes, les contacts et les utilisateurs). Selon le type d'enregistrement, vous pouvez synchroniser les données de [!INCLUDE[crm_md](includes/crm_md.md)] vers [!INCLUDE[d365fin](includes/d365fin_md.md)], ou vice versa. Pour plus d'informations, reportez-vous à la rubrique [Intégration à Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
+# <a name="synchronizing-data-in-business-central-and-dynamics-365-sales"></a>Synchronisation des données dans Business Central et Dynamics 365 Sales
+Lorsque vous intégrez [!INCLUDE[crm_md](includes/crm_md.md)] avec [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez décider si vous souhaitez synchroniser les données dans les champs sélectionnés des enregistrements [!INCLUDE[d365fin](includes/d365fin_md.md)] (tels que les clients, contacts et les vendeurs) avec les enregistrements équivalents dans [!INCLUDE[d365fin](includes/d365fin_md.md)] (tels que les comptes, les contacts et les utilisateurs). Selon le type d'enregistrement, vous pouvez synchroniser les données de [!INCLUDE[crm_md](includes/crm_md.md)] vers [!INCLUDE[d365fin](includes/d365fin_md.md)], ou vice versa. Pour plus d'informations, reportez-vous à la rubrique [Intégration à Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
 
 La synchronisation utilise les éléments suivants :
 
@@ -77,11 +77,11 @@ Le tableau suivant décrit les mappages des tables [!INCLUDE[d365fin](includes/d
 Le tableau suivant décrit les règles qui contrôlent la synchronisation entre les applications.
 
 > [!NOTE]  
-> Les modifications apportées aux données dans [!INCLUDE[crm_md](includes/crm_md.md)] par le compte d'utilisateur de connexion [!INCLUDE[crm_md](includes/crm_md.md)] ne sont pas synchronisées. Par conséquent, nous vous avons recommandé de ne pas modifier les données lors de l'utilisation de ce compte. Pour en savoir plus, reportez-vous à la rubrique [Configuration des comptes d'utilisateur pour l'intégration à Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md).
+> Les modifications apportées aux données dans [!INCLUDE[crm_md](includes/crm_md.md)] par le compte d'utilisateur de connexion [!INCLUDE[crm_md](includes/crm_md.md)] ne sont pas synchronisées. Par conséquent, nous vous avons recommandé de ne pas modifier les données lors de l'utilisation de ce compte. Pour en savoir plus, reportez-vous à la rubrique [Configuration des comptes d'utilisateur pour l'intégration à Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md).
 
 |Table|Règle|
 |-----|----|
-|Clients|Pour qu'un client puisse être synchronisé à un compte, le vendeur affecté au client doit être couplé à un utilisateur dans [!INCLUDE[crm_md](includes/crm_md.md)]. Ainsi, lorsque vous exécutez le projet de synchronisation CLIENTS - Dynamics 365 for Sales et que vous le configurez pour créer des enregistrements, assurez-vous de synchroniser les vendeurs avec les utilisateurs [!INCLUDE[crm_md](includes/crm_md.md)] avant de synchroniser les clients avec les comptes dans [!INCLUDE[crm_md](includes/crm_md.md)]. <br /> <br />Le projet de synchronisation Dynamics 365 for Sales - CLIENTS synchronise uniquement les comptes Sales dont le type de relation est Client.|
+|Clients|Pour qu'un client puisse être synchronisé à un compte, le vendeur affecté au client doit être couplé à un utilisateur dans [!INCLUDE[crm_md](includes/crm_md.md)]. Ainsi, lorsque vous exécutez le projet de synchronisation CLIENTS - Dynamics 365 Sales et que vous le configurez pour créer des enregistrements, assurez-vous de synchroniser les vendeurs avec les utilisateurs [!INCLUDE[crm_md](includes/crm_md.md)] avant de synchroniser les clients avec les comptes [!INCLUDE[crm_md](includes/crm_md.md)]. <br /> <br />Le projet de synchronisation CLIENTS - Dynamics 365 Sales synchronise uniquement les comptes Sales dont le type de relation est Client.|
 |Contacts|Seuls les contacts dans [!INCLUDE[crm_md](includes/crm_md.md)] qui sont associés à un compte seront créés dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. La valeur Code vendeur définit le propriétaire de l'entité couplée dans [!INCLUDE[crm_md](includes/crm_md.md)].|
 |Devises|Les devises sont couplées aux devises de transaction dans [!INCLUDE[crm_md](includes/crm_md.md)] conformément aux codes ISO. Seules les devises qui ont un code ISO standard seront couplées et synchronisées avec les devises de transaction.|
 |Unités de mesure|Les unités de mesure sont synchronisées avec les groupes d'unités dans [!INCLUDE[crm_md](includes/crm_md.md)]. Une seule unité de mesure peut être définie dans le groupe d'unités.|
@@ -97,4 +97,4 @@ Le tableau suivant décrit les règles qui contrôlent la synchronisation entre 
 ## <a name="see-also"></a>Voir aussi  
 [Coupler et synchroniser des enregistrements manuellement](admin-how-to-couple-and-synchronize-records-manually.md)   
 [Programmer une synchronisation](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)   
-[Intégration à Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
+[Intégration à Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)

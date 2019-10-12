@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8b534af530a7ce6d91a71ca7802938fe3573c2c2
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 697613b170d3d7c2db33ab91acd660f2d09ddea1
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240807"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304603"
 ---
 # <a name="create-a-new-company"></a>Créer une société
 Pour utiliser RapidStart Services pour [!INCLUDE[d365fin](includes/d365fin_md.md)], vous devez d'abord créer une société pour laquelle vous souhaitez effectuer une implémentation client. Lorsque vous créez une société, les tables et les pages standard de [!INCLUDE[d365fin](includes/d365fin_md.md)] sont créées, mais elles ne contiennent pas de données.
@@ -27,7 +27,7 @@ Vous pouvez également appliquer des données de configuration spécifiques à v
 Des exemples de packages de configuration, qui comprennent des fichiers spécifiques à un pays/une région, sont inclus avec la société de démonstration CRONUS. Suivez la procédure suivante pour utiliser l'exemple de package de configuration avec une nouvelle société.  
 
 ## <a name="to-use-the-sample-basicconfig-configuration-package"></a>Pour utiliser l'exemple de package de configuration BASICCONFIG  
-1. Ouvrez la société CRONUS International Ltd. Pour plus d'informations, voir [Modification des paramètres de base](ui-change-basic-settings.md).
+1. Ouvrez la société CRONUS International Ltd. Pour plus d'informations, voir [Modifier les paramètres de base](ui-change-basic-settings.md).
 2. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Packages configuration**, puis sélectionnez le lien associé.  
 3. Sélectionnez le package BASICCONFIG dans la liste, puis sélectionnez l'action **Exporter package**.  
 

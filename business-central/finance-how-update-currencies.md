@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: multiple currencies, adjust exchange rates
-ms.date: 06/04/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2958cf5dd124fd9437217214ea0df28944d07651
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.openlocfilehash: 7376abd7806eb664bbfcbf3f3505df00ababba9e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1621106"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2305827"
 ---
 # <a name="update-currency-exchange-rates"></a>Mettre à jour des taux de change devise
 Les sociétés opérant dans un nombre croissant de pays/régions, il est de plus en plus important qu'elles puissent échanger ou générer des états financiers dans plusieurs devises. Vous devez définir un code pour chaque devise utilisée si vous achetez ou vendez dans des devises différentes de votre devise locale, si vous disposez de comptes client ou fournisseur dans d'autres devises, ou si vous enregistrez des transactions comptables dans des devises différentes.
@@ -20,7 +20,7 @@ Les sociétés opérant dans un nombre croissant de pays/régions, il est de plu
 Votre comptabilité est configurée pour utiliser votre devise société (DS), mais vous pouvez la configurer pour utiliser une autre devise avec un taux de change courant. Si vous désignez une deuxième devise comme « devise report supplémentaire », [!INCLUDE[d365fin](includes/d365fin_md.md)] enregistre automatiquement les montants d'état en DS et dans cette devise report supplémentaire pour chaque écriture comptable, ainsi que pour d'autres écritures, telles que les écritures TVA. Pour plus d'informations, voir [Configurer une devise report supplémentaire](finance-how-setup-additional-currencies.md).
 
 ## <a name="adjusting-exchange-rates"></a>Ajustement des taux de change
-Comme les taux de change ne cessent de fluctuer, il convient d'ajuster périodiquement les équivalents devise supplémentaires de votre système. À défaut d'effectuer ces ajustements, les montants convertis à partir de devises étrangères (ou supplémentaires) et publiés dans la comptabilité en DS risquent d'être erronés. En outre, les écritures quotidiennes validées avant la saisie d'un taux de change quotidien dans le programme doivent être mises à jour après la saisie des informations de taux de change quotidienne.
+Comme les taux de change ne cessent de fluctuer, il convient d'ajuster périodiquement les équivalents devise supplémentaires de votre système. À défaut d'effectuer ces ajustements, les montants convertis à partir de devises étrangères (ou supplémentaires) et publiés dans la comptabilité en DS risquent d'être erronés. En outre, les écritures quotidiennes validées avant la saisie d'un taux de change quotidien dans l'application doivent être mises à jour après la saisie des informations de taux de change quotidienne.
 
 Le traitement par lots **Ajuster taux de change** permet d'ajuster manuellement les taux de change d'écritures client, fournisseur et compte bancaire validées. Il peut également mettre à jour d'autres montants en devise report dans des écritures comptables. Vous pouvez aussi faire ajuster les taux de change automatiquement à l'aide d'un service. Pour plus d'informations, reportez vous à [Configurer un service de taux de change des devises](finance-how-update-currencies.md#to-set-up-a-currency-exchange-rate-service).
 

@@ -10,14 +10,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.reviewer: edupont
-ms.date: 07/16/2019
+ms.date: 10/01/2019
 ms.author: soalex
-ms.openlocfilehash: 4a1d3a9e480ee87d791b68f66b9afa6a2be67535
-ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
+ms.openlocfilehash: d5ded53ed424147247776d999992b718334db8b7
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "1755158"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303906"
 ---
 # <a name="compliance"></a>Conformité
 Ce contenu comprend des informations sur la conformité concernant [!INCLUDE[d365fin](../includes/d365fin_md.md)].  

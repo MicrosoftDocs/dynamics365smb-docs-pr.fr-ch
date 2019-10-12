@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/03/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 99d3a5b4048756e71711abf9fa24bef12c12d963
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.openlocfilehash: 6f009b0e43a3d3424782f5c3f052033c813e3f18
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1621083"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303667"
 ---
 # <a name="design-details-costing-methods"></a>Détails de conception : modes évaluation stock
 Le mode d'évaluation du stock détermine si une valeur réelle ou budgétée est capitalisée et prise en compte dans le calcul des coûts. Au même titre que la date comptabilisation et la séquence, le mode d'évaluation du stock a une incidence sur l'enregistrement du flux des coûts.
@@ -162,6 +162,7 @@ Les méthodes suivantes sont prises en charge dans [!INCLUDE[d365fin](includes/d
  [Détails de conception : évaluation stock](design-details-inventory-costing.md)   
  [Détails de conception : écart](design-details-variance.md)   
  [Détails de conception : coût moyen](design-details-average-cost.md)   
- [Détails de conception : Lettrage article](design-details-item-application.md) [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  
+ [Détails de conception : lettrage article](design-details-item-application.md)  
+ [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  
  [Finances](finance.md)  
  [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 07/08/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: c86f1c3c40f80ec993d0a3a89154047ddf9e8126
-ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
+ms.openlocfilehash: b57b87dd8cdc9390ed5b1b7136107639f689c192
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "1755256"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2305012"
 ---
 # <a name="using-include-prodlongincludesprodlongmd-as-power-bi-data-source-for-building-reports"></a>Utilisation de [!INCLUDE [prodlong](includes/prodlong.md)] comme source de données Power BI pour générer des états
 
@@ -28,10 +28,7 @@ Vous devez disposer d'un compte valide avec [!INCLUDE[prodshort](includes/prodsh
 1. Dans Power BI Desktop, dans le volet de navigation de gauche, choisissez **Extraire les données**.
 2. Sur la page **Extraire les données**, choisissez **Services en ligne**, **Microsoft Dynamics 365 Business Central**, puis cliquez sur le bouton **Connexion**.
 3. Power BI affiche un assistant qui va vous guider tout au long du processus de connexion. Vous serez invité(e) à vous connecter à [!INCLUDE [prodshort](includes/prodshort.md)]. Cliquez sur **Se connecter** et choisissez le compte auquel vous voulez vous connecter. Il doit s'agir du même compte que celui utilisé pour vous connecter à [!INCLUDE [prodshort](includes/prodshort.md)].
-4. Cliquez sur le bouton **Connexion** pour continuer. L'assistant Power BI affiche la liste des sociétés et des sources de données Microsoft [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ces sources de données représentent tous les services Web que vous avez publiés à partir de chaque société dans [!INCLUDE [prodshort](includes/prodshort.md)].
-
-  ![powerbi_webservices.png](media/across-how-use-financials-data-source-powerbi/powerbi_webservices.png)
-
+4. Cliquez sur le bouton **Connexion** pour continuer. L'assistant Power BI affiche la liste des sociétés, des environnements et des sources de données Microsoft [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ces sources de données représentent tous les services Web que vous avez publiés à partir de chaque abonné/société dans Microsoft [!INCLUDE [prodshort](includes/prodshort.md)].
 5. Sinon, créer une nouvelle URL de service Web dans [!INCLUDE [prodshort](includes/prodshort.md)] à l'aide de l'option **Créer un ensemble de données** sur la page **Services Web**, à l'aide du guide de configuration assistée **Configurer la création d'états** ou en choisissant l'option **Modifier dans Excel** dans n'importe quelle liste.
 6. Spécifiez les données à ajouter à votre modèle de données, puis sélectionnez le bouton **Charge**.
 7. Répétez les étapes précédentes pour ajouter des informations [!INCLUDE [prodshort](includes/prodshort.md)] supplémentaires, ou d'autres données, à votre modèle de données Power BI.

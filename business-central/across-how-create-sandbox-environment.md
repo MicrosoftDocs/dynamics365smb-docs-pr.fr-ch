@@ -8,17 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 06/26/2019
+ms.date: 10/01/2019
 ms.author: solsen
-ms.openlocfilehash: 10ccbc7546aa5d03c3837997a721c63c3ce465da
-ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
+ms.openlocfilehash: d945a6b851c20479a4c8c83f38b8fc8ccdfd6765
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1796680"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300440"
 ---
-[!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
-
 # <a name="creating-a-sandbox-environment"></a>Créeation d'un environnement Sandbox
 Un environnement Sandbox (aperçu) est une instance hors production de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Isolé de la production, un environnement Sandbox est l'emplacement où vous pouvez explorer, apprendre, démontrer, développer et tester en toute sécurité le service sans que les données et les paramètres de votre environnement de production en soient affectés.
 
@@ -46,7 +44,7 @@ Vous devez disposer d'un abonnement à [!INCLUDE[d365fin](includes/d365fin_md.md
 
     > [!NOTE]
     > Un environnement Sandbox créé de cette manière ne contient que les données de démonstration par défaut pour l'entreprise CRONUS. Aucune donnée n'est copiée ou autrement transférée à partir de l'environnement de production.<br /><br />
-    > Vous pouvez également créer un environnement Sandbox contenant les données de production. Vous devez le faire via le Centre d'administration. Pour plus d'informations, voir [Gestion des environnements](/business-central/dev-itpro/administration/tenant-admin-center-environments) dans l'aide sur Developer and IT Pro.
+    > Vous pouvez également créer un environnement Sandbox contenant les données de production. Vous devez le faire via le Centre d'administration. Pour plus d'informations, voir [Gestion des environnements](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments) dans l'aide sur Developer and IT Pro.
 
 6. À tout moment, vous pouvez revenir à la page **Environnement Sandbox** et réinitialiser l'environnement Sandbox.
     > [!NOTE]  

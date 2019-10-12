@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: COA, cha of acc
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 8c75a214691b7d9886958866517afbb1d68b6f60
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 97db6065f405397dbc4a077f571883a28bda8c3c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1242460"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300052"
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Configuration ou modification du plan comptable
 Le plan comptable affiche les comptes généraux qui stockent vos données financières. [!INCLUDE[d365fin](includes/d365fin_md.md)] inclut un plan comptable standard prêt à prendre en charge votre société.

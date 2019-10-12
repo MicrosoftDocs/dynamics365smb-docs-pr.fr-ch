@@ -8,15 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting year, fiscal period
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
 redirect_url: finance-accounting-periods-and-fiscal-years
-ms.openlocfilehash: 5b8e2faf08de8973d3b056e90f560ea79a483fe7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 3b073744925cfe0e5cb891ca0fb77384db254cef
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1239720"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302241"
 ---
 # <a name="open-a-new-fiscal-year-and-create-accounting-periods"></a>Ouvrir un nouvel exercice comptable et créer des périodes comptables
 Avant de pouvoir effectuer une validation dans un exercice comptable, vous devez l'ouvrir et définir ses périodes comptables.  

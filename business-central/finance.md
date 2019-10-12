@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 05/02/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 4f62954b7cc427eac84e78a4cb19a61387d423b3
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 69014460131bd80bf08403a079e30b61d56cf307
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446983"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301555"
 ---
 # <a name="finance"></a>Finance
 [!INCLUDE[d365fin](includes/d365fin_md.md)] comprend une configuration standard de la plupart des processus financiers, mais vous pouvez modifier la configuration pour l'adapter à votre activité. Pour plus d'informations, reportez-vous à [Configuration de Finance](finance-setup-finance.md).
@@ -40,7 +40,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | Ajouter des axes analytiques pour un veille économique enrichie. |[Utilisation des axes analytiques](finance-dimensions.md) |
 | Créer des budgets comptabilité pour prévoir différentes activités financières et affecter des axes analytiques à des fins de veille économique. |[Créer des budgets comptabilité](finance-how-create-budgets.md) |
 |Enregistrez les revenus ou les frais directement dans la comptabilité sans valider les documents commerciaux appropriés.|[Valider les transactions directement vers la comptabilité](finance-how-post-transactions-directly.md)|
-|Valider les écritures contrepassées pour annuler les validations de valeur dans la feuille comptabilité ou les validations de quantité sur des documents achat et vente. |[Inversion d'une validation](finance-how-reverse-journal-posting.md)|
+|Valider les écritures contrepassées pour annuler les validations de valeur dans la feuille comptabilité ou les validations de quantité sur des documents achat et vente. |[Inversion d'une validation feuille et annuler les réceptions/envois](finance-how-reverse-journal-posting.md)|
 |Ventiler une écriture d'une feuille comptabilité dans différents comptes lorsque vous validez la feuille. |[Répartition des coûts et du revenu](year-allocate-costs-income.md) |
 | Affectez les surcoûts, tels que le fret et la manutention que vous encourez lors de la transaction, jusqu'aux articles impliqués afin que les coûts soient répercutées dans l'évaluation du stock. |[Utiliser Frais annexes pour comptabiliser les coûts commerciaux supplémentaires](payables-how-assign-item-charges.md) |
 |Valider les frais personnels des salariés pour les activités commerciales et remboursez les salariés en effectuant le paiement sur leur compte bancaire.|[Enregistrer et rembourser les frais des employés](finance-how-record-reimburse-employee-expenses.md)|
