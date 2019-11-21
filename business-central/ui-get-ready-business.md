@@ -11,19 +11,19 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 10/01/2019
 ms.author: solsen
-ms.openlocfilehash: 095d8ba53bce25df66bcb8c5daa1e06479b68f0c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e78f5151694ce2fe5c37e6cfcc78ac69e5954dc1
+ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315315"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "2775610"
 ---
 # <a name="getting-ready-for-doing-business"></a>Préparation aux activités commerciales
 Félicitations, vous venez de créer votre première société dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 Pour vous aider à vous préparer pour vos activités commerciales, vous pouvez visiter la page **Assistance professionnelle** dans laquelle vous pouvez lancer des guides de configuration assistée, des vidéos ou des rubriques d'aide pour les tâches de configuration sélectionnées. Vous pouvez accéder à la page à partir du graphique du tableau de bord **Gestionnaire d'activité** en choisissant la flèche déroulante **Assistance professionnelle** et en cliquant sur **Afficher les paramètres et ressources d'aide**. Lorsque vous actualisez la page, le graphique est remplacé par les paramètres et les ressources d'aide.
 
-Sinon, pour ouvrir la liste des guides de configuration assistée, choisissez l'icône ![Dites-moi ce que vous voulez faire](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Configuration manuelle**, puis sélectionnez le lien associé.
+Sinon, pour ouvrir la liste des guides de configuration assistée, choisissez l'icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Configuration assistée**, puis sélectionnez le lien associé.
 
 Sur le Tableau de bord, dans la barre de navigation située en haut, vous trouverez le menu **Configuration et extensions**. Vous avez alors accès à une liste des guides de configuration assistée pour vous aider à démarrer. Une fois que vous avez effectué la migration des données telles que les fournisseurs, les clients et les articles de votre système financier existant, vous êtes prêt à commencer. Mais en fonction de vos besoins, demandez-vous si l'autre configuration assistée peut vous aider.
 
@@ -49,7 +49,7 @@ Utilisez les flèches pour réduire une partie de la page et faire de la place a
 Sous **Paramètres de la société** vous pouvez afficher et modifier les informations de configuration sur la société actuelle. Un grand nombre de ces informations sont préremplies si vous avez exécuté la configuration assistée **Configurer la société** lors de votre inscription à [!INCLUDE[d365fin](includes/d365fin_md.md)]. Si vous souhaitez modifier le logo de la société, les informations de contact, les paramètres bancaires, ou les informations fiscales, vous pouvez le faire à partir de cette page.    
 
 ## <a name="adding-users-and-permissions"></a>Ajouter des utilisateurs et des autorisations
-Si vous souhaitez ajouter des utilisateurs, vous pouvez le faire à partir du centre d’administration Office 365. Pour plus d'informations, voir [Ajouter des utilisateurs à Office 365 for business](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Une fois les utilisateurs créés dans Office 365, ils peuvent être importés sur la page **Utilisateurs** à l'aide de l'option **Récupérer des utilisateurs à partir d'Office 365**. Vous pouvez ensuite affecter des autorisations aux utilisateurs et les organiser en groupes d'utilisateurs. Pour en savoir plus, reportez-vous à [Gérer les utilisateurs et les autorisations](ui-how-users-permissions.md).  
+Si vous souhaitez ajouter des utilisateurs, vous pouvez le faire à partir du centre d’administration Office 365. Pour plus d'informations, voir [Ajouter des utilisateurs à Office 365 for business](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Une fois les utilisateurs créés dans Office 365, ils peuvent être importés sur la page **Utilisateurs** à l'aide de l'option **Récupérer des utilisateurs à partir d'Office 365**. Vous pouvez ensuite affecter des autorisations aux utilisateurs et les organiser en groupes d'utilisateurs. Pour en savoir plus, voir [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md).  
 
 ## <a name="getting-help"></a>Obtenir de l'aide
 Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], des info-bulles vous guident dans l'utilisation des différents processus entreprise. Pour chaque info-bulles de champ, vous pouvez appuyer sur Ctrl+F1 ou choisir le lien **En savoir plus** pour ouvrir l'aide de la page en question. Le point d'interrogation dans le coin supérieur droit vous permet également d'accéder à l'aide relative au produit.
@@ -60,6 +60,6 @@ En fonction de la migration de vos données, vous pouvez maintenant passer à la
 ## <a name="see-also"></a>Voir aussi
 [Mise en route](product-get-started.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Gérer les utilisateurs et les autorisations](ui-how-users-permissions.md)
+[Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

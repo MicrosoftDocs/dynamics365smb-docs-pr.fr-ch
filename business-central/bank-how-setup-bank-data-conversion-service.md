@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 04c9a867e43a1228839eaf95b3b31e5ab3421fe6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7c36c50387418f25f3d16f46cefcf275742e69d3
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304075"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692767"
 ---
 # <a name="set-up-the-bank-data-conversion-service"></a>Configurer le service de conversion de données bancaires
 Un fournisseur global de services permettant de convertir les informations de paiement dans n'importe quel format de données que votre banque requiert est connecté et prêt à être activé dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], il s'agit du service de conversion de données bancaires.
@@ -32,7 +32,7 @@ Pour importer ou exporter des fichiers bancaires, vous devez configurer votre pr
 > Le service conversion données bancaires peut fixer une limite imposée du nombre de lignes qui peuvent être exportées dans un fichier. Si cette limite est dépassée, vous recevrez un message d'erreur. Il est conseillé que les fichiers de relevé bancaire ne dépassent pas 1 000 lignes, sans quoi le temps de traitement dans le service conversion données bancaires peut augmenter de façon significative.
 
 ## <a name="to-sign-your-company-up-for-the-bank-data-conversion-service"></a>Pour inscrire votre société au service de conversion des données bancaires
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres service conv. données banque**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres service conv. données banque**, puis sélectionnez le lien associé.  
 2. La page **Paramètres service conv. données banque** s'ouvre avec trois champs préremplis avec les URL appropriées du fournisseur du service de conversion de données bancaires.
 
     > [!NOTE]  
@@ -49,11 +49,11 @@ Pour importer ou exporter des fichiers bancaires, vous devez configurer votre pr
 > Vos données de connexion sont automatiquement chiffrées.
 
 ## <a name="to-view-or-update-the-list-of-currently-supported-bank-data-formats"></a>Pour afficher ou mettre à jour la liste des formats de données bancaires actuellement pris en charge
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres service conv. données banque**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres service conv. données banque**, puis sélectionnez le lien associé.
 2. Sur la page **Paramètres service conv. données banque**, sélectionnez l'action **Nom banque - Liste conversions données** pour ouvrir la liste des noms de banques représentant les formats de données bancaires pris en charge par le service de conversion.
 3. Sur la page **Nom banque - Liste conversions données**, sélectionnez l'action **Mettre à jour liste noms banque**.
 
-La liste des formats de données bancaires qui sont pris en charge par le service de conversion de données bancaires est désormais mise à jour. Il s'agit de la liste de noms de banques, filtrés par pays/région, que vous pouvez sélectionner dans le champ **Nom banque - Conversion données** de la page **Fiche compte bancaire**.
+La liste des formats de données bancaires qui sont pris en charge par l'extension AMC Banking 365 Fundamentals est désormais mise à jour. Il s'agit de la liste de noms de banques, filtrés par pays/région, que vous pouvez sélectionner dans le champ **Nom banque - Conversion données** de la page **Fiche compte bancaire**.
 
 > [!NOTE]  
 >   Les formats de données bancaires pris en charge sont aussi mis à jour lorsque vous sélectionnez ou entrez une valeur dans le champ **Nom banque - Conversion données** du compte bancaire.

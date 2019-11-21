@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0ed17b601df17ae85424013b6053ef1901082c10
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0091f7ae1e6b22b6228ad903af783fb790faf99d
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300560"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692647"
 ---
 # <a name="exchanging-data"></a>Échange de données
 Vous pouvez échanger des données entre [!INCLUDE[d365fin](includes/d365fin_md.md)] et des fichiers ou flux externes en relation avec des tâches courantes d'entreprise, comme l'envoi et la réception de documents électroniques et l'importation et l'exportation de fichiers bancaires.  
 
-Avant de pouvoir envoyer et recevoir des documents électroniques ou importer et exporter des fichiers bancaires, vous devez configurer l'infrastructure d'échange de données pour traiter les fichiers de données ou flux concernés. En outre, vous devez configurer des domaines associées. Ceux-ci incluent les données de base des clients à qui vous envoyez des factures électroniques et le service conversion données bancaires dans le cas où vous distribuez des conversions de fichiers bancaires à un fournisseur de service externe. Pour plus d'informations, voir [Configurer un échange de données](across-set-up-data-exchange.md).  
+Avant de pouvoir envoyer et recevoir des documents électroniques ou importer et exporter des fichiers bancaires, vous devez configurer l'infrastructure d'échange de données pour traiter les fichiers de données ou flux. En outre, vous devez configurer des zones associées, telles que les clients à qui vous envoyez des factures électroniques et l'extension AMC Banking 365 Fundamentals si vous distribuez des conversions de fichiers bancaires à un fournisseur externe de services. Pour plus d'informations, voir [Configurer un échange de données](across-set-up-data-exchange.md).  
 
  Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.  
 
@@ -35,7 +35,7 @@ Avant de pouvoir envoyer et recevoir des documents électroniques ou importer et
 |Demander à votre banque de transférer les montants de paiement des comptes bancaires de vos clients vers le compte de votre société en fonction de votre configuration du prélèvement automatique SEPA.|[Créer des écritures de collection prélèvement automatique SEPA et les exporter vers un fichier bancaire](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)|  
 |Utiliser un fournisseur de services de taux de change des devises pour mettre à jour la page **Devises**.|[Mettre à jour des taux de change devise](finance-how-update-currencies.md)|  
 |Consulter les éléments de fichier mappés aux champs dans [!INCLUDE[d365fin](includes/d365fin_md.md)] lors de l'importation de fichiers de déclaration SEPA CAMT.|[Mappage de champs lors de l'importation de fichiers SEPA CAMT](across-field-mapping-when-importing-sepa-camt-files.md)|  
-|Consulter les champs de [!INCLUDE[d365fin](includes/d365fin_md.md)] mappés à des éléments de fichier lorsque vous exportez des fichiers de paiement à l'aide de la fonction Service conversion données bancaires.|[Mappage de champs lors de l'exportation de fichiers de paiement à l'aide du service conversion données bancaires](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)|  
+|Consulter les champs de [!INCLUDE[d365fin](includes/d365fin_md.md)] mappés à des éléments de fichier lorsque vous exportez des fichiers de paiement à l'aide de l'extension AMC Banking 365 Fundamentals.|[Mappage de champs lors de l'exportation de fichiers de paiement à l'aide de l'extension AMC Banking 365 Fundamentals](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)|  
 
 ## <a name="see-also"></a>Voir aussi  
 [Configuration de l'échange de données](across-set-up-data-exchange.md)  

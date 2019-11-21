@@ -10,21 +10,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 10/01/2019
+ms.date: 11/12/2019
 ms.author: SorenGP
-ms.openlocfilehash: bf81f57aad5178a7f875381b274e43cab50899ad
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 36c5446a2297dd0208104d22a7d2fd96077b3590
+ms.sourcegitcommit: 02f1633213793bfc040ad0d2a96fe76572215aa5
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309896"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "2798416"
 ---
 # <a name="set-up-general-inventory-information"></a>Définir des informations générales relatives aux stocks
 Vous pouvez spécifier des paramètres de stock généraux sur la page **Paramètres stock**.
 
 ## <a name="to-set-up-general-inventory-information"></a>Pour définir des informations générales relatives aux stocks
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres stock**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres stock**, puis sélectionnez le lien associé.
 2. Sur la page **Paramètres stock**, renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+Pour des informations détaillées sur les champs de coût, **Compta. coûts automatique** et **Compta. coûts prévus**, consultez [Rapprocher les coûts ajustés avec la comptabilité](finance-how-to-post-inventory-costs-to-the-general-ledger.md) et [Détails de conception : validation du coût prévu](design-details-expected-cost-posting.md).
 
 Vous pouvez inclure un délai entrepôt par défaut pour votre stock sur la page **Paramètres stock** ou pour votre magasin dans le calcul de la promesse de livraison sur la ligne achat. Pour plus d'informations, voir [Calculer des dates promesse livraison](sales-how-to-calculate-order-promising-dates.md).  
 

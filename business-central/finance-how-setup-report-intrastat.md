@@ -12,20 +12,20 @@ ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: cdf0eb137984bbc1988677ca53991d75659c022a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ddcc935a6ae539ad82894d6153f7c7f4b6fdeb48
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302203"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554173"
 ---
-# <a name="how-to-set-up-and-report-intrastat"></a>Procédure : configurer et enregistrer un état intracommunautaire
+# <a name="set-up-and-report-intrastat"></a>Configurer et enregistrer un état intracommunautaire
 Toutes les sociétés de l'Union européenne doivent déclarer leurs échanges avec les autres pays/régions de l'Union européenne. Vous devez déclarer les mouvements de marchandises aux autorités statistiques de votre pays/région mensuellement et la déclaration doit être remise aux autorités fiscales. Cette déclaration est appelée D.E.B. La page **Feuille intracomm.** permet de remplir des déclarations D.E.B. périodiques.  
 
 ## <a name="required-and-optional-setups"></a>Paramètres obligatoires et facultatifs
 Avant d'utiliser la feuille intracommunautaire pour enregistrer des informations intracommunautaires, plusieurs éléments doivent être configurés :  
 
-* **Configuration intracomm.**  : la page Configuration intracomm. permet d'activer la D.E.B. et de définir des valeurs par défaut. Vous pouvez spécifier si vous devez enregistrer la D.E.B. à partir des expéditions (répartitions), des réceptions (arrivées) ou des deux, selon les seuils définis par vos réglementations locales. Vous pouvez également définir des types de transaction par défaut pour les documents classiques et de retour, utilisés pour la nature des états de transaction. 
+* **Configuration intracomm.**  : la page Configuration intracomm. permet d'activer la D.E.B. et de définir des valeurs par défaut. Vous pouvez spécifier si vous devez enregistrer la D.E.B. à partir des expéditions (répartitions), des réceptions (arrivées) ou des deux, selon les seuils définis par vos réglementations locales. Vous pouvez également définir des types de transaction par défaut pour les documents classiques et de retour, utilisés pour la nature des états de transaction.
 * **Modèles de feuilles intracommunautaires** : Vous devez configurer les modèles et les feuilles intracommunautaires que vous utiliserez. Comme l'état intracommunautaire doit être généré mensuellement, vous devez créer 12 feuilles intracommunautaires basées sur le même modèle.  
 * **Codes marchandise** : les autorités douanières et fiscales ont établi des codes numériques pour classer les articles et les services. Vous spécifiez ces codes sur les articles.
 * **Codes nature de transaction** : les pays et les régions ont différents codes pour les types de transactions intracommunautaires, comme l'achat et la vente ordinaires, l'échange de marchandises retournées et l'échange de marchandises non retournées. Configurez tous les codes qui s'appliquent à votre pays/région. Utilisez ces codes dans les documents achat et vente, et lorsque vous traitez des retours.  
@@ -47,7 +47,7 @@ Vous pouvez exporter les écritures vers un fichier que vous pouvez envoyer à v
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Modèles feuille intracomm.**, puis sélectionnez le lien associé.  
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Créez un modèle pour chaque formulaire de D.E.B que vous utilisez.  
-3. Pour créer des feuilles, choisissez l'onglet **Naviguer**, puis choisissez **Noms feuilles**.  
+3. Pour créer des lots, sélectionnez l'action **Lots**.  
 4. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Créez un modèle pour chaque formulaire de D.E.B que vous utilisez.  
 
 > [!Note]
@@ -76,7 +76,7 @@ Dans certains pays, tels que l'Espagne et le R-U, les autorités nécessitent qu
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Configuration intracomm.**, puis sélectionnez le lien associé.
 2. Choisissez l'action **Paramètres liste de contrôle de la déclaration d'échanges de biens**.
-3. Sur la page **Paramètres liste de contrôle de la déclaration d'échanges de biens**, cliquez dans **Nom de champ** pour prélever le champ de déclaration d'échanges de biens que vous souhaitez rendre obligatoire. 
+3. Sur la page **Paramètres liste de contrôle de la déclaration d'échanges de biens**, cliquez dans **Nom de champ** pour prélever le champ de déclaration d'échanges de biens que vous souhaitez rendre obligatoire.
 
 ## <a name="to-report-intrastat"></a>Pour enregistrer un état communautaire
 Après avoir renseigné la feuille intracommunautaire, vous pouvez exécuter l'action **État : Liste de contrôle** pour vérifier que toutes les informations de la feuille sont correctes. Champs obligatoires que vous avez définis sur la page **Paramètres liste de contrôle de la déclaration d'échanges de biens** qui sont des valeurs manquante, seront affichés dans le récapitulatif des erreurs et d'avertissement de la page **Feuille intracomm.**. Ensuite, vous pouvez imprimer un état intracommunautaire en tant que formulaire, ou créer un fichier à envoyer à l'administration fiscale de votre pays/région.  
@@ -98,7 +98,7 @@ Pour obtenir les informations requises sur le formulaire de D.E.B. à partir des
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles intracomm.**, puis sélectionnez le lien associé.  
 2. Sur la page **Feuille intracomm.**, choisissez la feuille concernée dans le champ **Nom de la feuille**.  
-3. Si ce n'est déjà fait, renseignez la feuille manuellement ou sélectionnez **Proposer lignes**.  
+3. Si ce n'est déjà fait, renseignez la feuille manuellement ou sélectionnez l'action **Proposer lignes**.  
 4. Choisissez l'action **Imprime la feuille intracomm.**.  
 5. Sur le raccourci **Ligne feuille intracomm.**, ajoutez un filtre **Type**, puis spécifiez s'il s'agit d'une **Réception** ou d'une **Expédition**.  
 6. Choisissez **Envoyer à** pour imprimer l'état.  
@@ -108,9 +108,9 @@ Vous pouvez envoyer la déclaration d'échanges de biens en tant que fichier. Av
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille intracomm.**, puis sélectionnez le lien associé.  
 2. Sur la page **Feuille intracomm.**, sélectionnez la feuille concernée dans le champ **Nom de la feuille**.  
-3. Si ce n'est déjà fait, renseignez la feuille manuellement ou en sélectionnant **Proposer lignes**.  
+3. Si ce n'est déjà fait, renseignez la feuille manuellement ou sélectionnez l'action **Proposer lignes**.  
 4. Choisissez l'action **Créer fichier**.  
-5. Sur la page de traitement par lots, choisissez **OK**.  
+5. Dans la page de tâche par lot, sélectionnez le bouton **OK**.  
 6. Choisissez **Enregistrer**.  
 7. Sélectionnez l'emplacement d'enregistrement du fichier, entrez son nom, puis choisissez **Enregistrer**.
 
@@ -119,7 +119,7 @@ Parce que vous devez soumettre une D.E.B. chaque mois et créer une feuille pour
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles intracomm.**, puis sélectionnez le lien associé.  
 2. Pour afficher les options, choisissez le champ **Nom de la feuille**.  
-3. Cliquez sur les feuilles à supprimer, puis choisissez **Supprimer**.  
+3. Cliquez sur les feuilles à supprimer, puis sélectionnez le bouton **Supprimer**.  
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion financière](finance.md)

@@ -10,16 +10,19 @@ ms.workload: na
 ms.search.keywords: COA, cha of acc
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 97db6065f405397dbc4a077f571883a28bda8c3c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b31bc4fb174c78092986c14f97232d8498974834
+ms.sourcegitcommit: f9f805282c86fda55843f7a11020fb3df861d50e
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300052"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "2764495"
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Configuration ou modification du plan comptable
 Le plan comptable affiche les comptes généraux qui stockent vos données financières. [!INCLUDE[d365fin](includes/d365fin_md.md)] inclut un plan comptable standard prêt à prendre en charge votre société.
-Cependant, vous pouvez modifier les comptes par défaut, et vous pouvez ajouter de nouveaux comptes.  
+Cependant, vous pouvez modifier les comptes par défaut, et vous pouvez ajouter de nouveaux comptes. 
+<br><br>  
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE43KO9]
+
 
 ## <a name="adding-or-changing-accounts"></a>Ajout ou modification de comptes
 À partir du plan comptable, vous pouvez ouvrir chaque compte général et ajouter ou modifier des paramètres.

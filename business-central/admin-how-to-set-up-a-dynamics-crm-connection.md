@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 6a23cdf9a13461db92977cc46d7f4fcaa7c715f7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9e68f62a7fd79188e2461983837586bd4cd2c64b
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304531"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554389"
 ---
 # <a name="set-up-a-connection-to-dynamics-365-sales"></a>Configurer une connexion vers Dynamics 365 Sales
 Pour procéder à l'intégration à [!INCLUDE[crm_md](includes/crm_md.md)], vous devez configurer une connexion entre [!INCLUDE[d365fin](includes/d365fin_md.md)] et [!INCLUDE[crm_md](includes/crm_md.md)].
@@ -143,7 +143,7 @@ La procédure suivante décrit comment renseigner manuellement les champs sur la
 
 If you install the [!INCLUDE[d365fin](includes/d365fin_md.md)] integration solution after you have set up the connection to [!INCLUDE[crm_md](includes/crm_md.md)] in [!INCLUDE[d365fin](includes/d365fin_md.md)], you must modify the connection setup to point to the URL.-->
 
-<!--of the [!INCLUDE[nav_web_md](../developer/includes/nav_web_md.md)]. For more information, see [How to: Set Up a Microsoft Dynamics 365 Sales Connection]() -->
+<!--of the [!INCLUDE[nav_web_md](../developer/includes/nav_web_md.md)]. For more information, see [Set Up a Microsoft Dynamics 365 Sales Connection]() -->
 
 <!--
 # View Item Availability - Support Matrix

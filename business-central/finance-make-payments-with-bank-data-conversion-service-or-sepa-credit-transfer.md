@@ -1,7 +1,7 @@
 ---
-title: Exécuter les paiements avec le service de conversion de données bancaires ou un virement SEPA | Microsoft Docs
+title: Effectuer des paiements avec l'extension AMC Banking 365 Fundamentals ou virement SEPA | Microsoft Docs
 description: Traitez les paiements à vos fournisseurs en exportant un fichier avec les informations de paiement provenant des lignes feuille.
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
@@ -9,15 +9,15 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: c1089a48cee57f6e42e48d995ed9c9ae7fd8fd80
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.author: bholtorf
+ms.openlocfilehash: 35904d33c7e456e3797dae0835ed7462a65f4a7f
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302125"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692863"
 ---
-# <a name="making-payments-with-bank-data-conversion-service-or-sepa-credit-transfer"></a>Exécution de paiements avec le service de conversion de données bancaires ou un virement SEPA
+# <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer"></a>Effectuer des paiements avec l'extension AMC Banking 365 Fundamentals ou virement SEPA
 Sur la page **Feuille paiement**, vous pouvez traiter les paiements à vos fournisseurs en exportant un fichier avec les informations de paiement provenant des lignes feuille. Vous pouvez ensuite télécharger le fichier vers votre banque électronique, où sont traités les transferts d'argent associés. [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge le format de virement SEPA, mais dans votre pays/région, d'autres formats de paiements électroniques peuvent être disponibles.
 
 Dans la version générique de [!INCLUDE[d365fin](includes/d365fin_md.md)], un fournisseur global de services pour convertir les données bancaires dans n'importe quel format de fichier que votre banque requiert est paramétré et connecté. Dans les versions nord-américaines, le même service peut être utilisé pour envoyer des fichiers de paiement comme transfert de fonds électronique (EFT), toutefois avec un processus légèrement différent. Voir l'étape 6 de [Pour exporter des paiements vers un fichier bancaire](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file).   
@@ -27,8 +27,8 @@ Dans la version générique de [!INCLUDE[d365fin](includes/d365fin_md.md)], un f
 > [!NOTE]  
 >  Lorsque vous avez vérifié que les paiements sont traités avec succès par la banque, vous pouvez passer aux lignes feuille paiement.  
 
-## <a name="setting-up-the-bank-data-conversion-service"></a>Configuration du service de conversion de données bancaires.
-Activez la fonctionnalité du service de conversion de données bancaires pour convertir les fichiers de relevé bancaire dans un format que vous pouvez importer, ou pour convertir les fichiers de paiement exportés au format imposé par votre banque. Pour plus d'informations, voir [Configurer le service de conversion de données bancaires](bank-how-setup-bank-statement-service.md).
+## <a name="setting-up-the-amc-banking-365-fundamentals-extension"></a>Configuration de l'extension AMC Banking 365 Fundamentals
+Activez l'extension AMC Banking 365 Fundamentals pour convertir les fichiers de relevé bancaire dans un format que vous pouvez importer, ou pour convertir les fichiers de paiement exportés au format imposé par votre banque. Pour plus d'informations, voir [Utilisation de l'extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).
 
 ## <a name="setting-up-sepa-credit-transfer"></a>Configuration des virements SEPA
 Sur la page **Feuille paiement**, vous pouvez exporter des paiements vers un fichier pour le charger sur votre banque électronique afin de traiter les transferts d'argent liés. [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge le format de virement SEPA, mais dans votre pays/région, d'autres formats de paiements électroniques peuvent être disponibles.  
@@ -64,7 +64,7 @@ Avant de pouvoir traiter le paiement par voie électronique lorsque vous exporte
 1. Dans la zone **Rechercher**, entrez **Feuilles paiement**, puis choisissez le lien associé.  
 2. Ouvrez la feuille paiement que vous utilisez pour traiter les paiements en exportant les fichiers au format de virement SEPA.  
 3. Dans le champ **Nom de la feuille**, choisissez le bouton déroulant.  
-4. Sur la page **Noms feuilles comptabilité**, sous l'onglet **Accueil**, dans le groupe **Gestion**, choisissez **Modifier la liste**.  
+4. Dans la page **Noms feuilles comptabilité**, sélectionnez l'action **Modifier la liste**.  
 5. Sur la ligne de la feuille paiement que vous allez utiliser pour exporter des paiements, activez la case à cocher **Autoriser exportation paiement**.  
 
 ### <a name="to-connect-the-data-exchange-definition-for-one-or-more-payment-types-with-the-relevant-payment-method-or-methods"></a>Pour lier la définition d'échange de données pour un ou plusieurs types de règlement au(x) mode(s) de règlement approprié(s)  
@@ -80,17 +80,17 @@ Renseignez la feuille paiement avec des lignes pour les paiements dus aux fourni
 ## <a name="exporting-payments-to-a-bank-file"></a>Exportation des paiements vers un fichier bancaire
 Lorsque vous êtes prêt à effectuer des paiements à vos fournisseurs ou rembourser vos salariés, vous pouvez exporter un fichier contenant les informations de paiement sur les lignes sur la page **Feuille paiement**. Vous pouvez ensuite transférer le fichier à votre banque afin qu'elle traite les transferts d'argent concernés.
 
-Dans la version générique de [!INCLUDE[d365fin](includes/d365fin_md.md)], le service Conversion de données bancaires est configuré et connecté. Dans les versions nord-américaines, le même service peut être utilisé pour envoyer des fichiers de paiement comme transfert de fonds électronique (EFT), toutefois avec un processus légèrement différent. Voir l'étape 6 de [Pour exporter des paiements vers un fichier bancaire](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file).
+Dans la version générique de [!INCLUDE[d365fin](includes/d365fin_md.md)], l'extension AMC Banking 365 Fundamentals est disponible. Dans les versions nord-américaines, la même extension peut être utilisée pour envoyer des fichiers de paiement comme transfert de fonds électronique (EFT), toutefois avec un processus légèrement différent. Voir l'étape 6 de [Pour exporter des paiements vers un fichier bancaire](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file).
 
 > [!NOTE]  
->   Pour pouvoir exporter des fichiers de paiement à partir de la feuille paiement, vous devez spécifier le format électronique du compte bancaire concerné, et vous devez activer le service de conversion des données bancaires. Pour plus d'informations, voir [Configuration de comptes bancaires](bank-how-setup-bank-accounts.md) et [Configurer le service de conversion de données bancaires](bank-how-setup-bank-data-conversion-service.md). Vous devez aussi cocher la case **Autoriser exportation paiement** sur la page **Noms feuilles comptabilité**. Pour plus d'informations, voir [Utilisation des feuilles comptabilité](ui-work-general-journals.md).  
+>   Pour pouvoir exporter des fichiers de paiement à partir de la feuille paiement, vous devez spécifier le format électronique du compte bancaire concerné, et vous devez activer l'extension AMC Banking 365 Fundamentals. Pour plus d'informations, voir [Configuration des comptes bancaires](bank-how-setup-bank-accounts.md) et [Utilisation de l'extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md). Vous devez aussi cocher la case **Autoriser exportation paiement** sur la page **Noms feuilles comptabilité**. Pour plus d'informations, voir [Utilisation des feuilles comptabilité](ui-work-general-journals.md).  
 
 La page **Registres virement** vous permet d'afficher les fichiers paiement qui ont été exportés de la feuille paiement. À partir de cette page, vous pouvez également réexporter des fichiers paiement en cas d'erreurs techniques ou de modifications des fichiers. Notez toutefois que les fichiers EFT exportés ne sont pas affichés sur la page et ne peuvent pas être réexportés.  
 
 ### <a name="to-export-payments-to-a-bank-file"></a>Pour exporter des paiements vers un fichier bancaire
 La section suivante décrit comment payer un fournisseur par chèque. La procédure est la même pour rembourser un client par chèque.
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles paiement**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles paiement**, puis sélectionnez le lien associé.
 2. Renseignez les lignes feuille paiement. Pour plus d'informations, voir [Enregistrer des paiements et des remboursements](payables-how-post-payments-refunds.md).
 
 > [!NOTE]  
@@ -102,7 +102,7 @@ La section suivante décrit comment payer un fournisseur par chèque. La procéd
     Chaque message d'erreur est affiché dans le récapitulatif **Erreurs fichier de paiement** dans lequel vous pouvez également choisir un message d'erreur pour afficher les informations détaillées. Vous devez résoudre toutes les erreurs avant que le fichier de paiement ne puisse être exporté.
 
     > [!TIP]  
-    >   Lorsque vous utilisez le service conversion données bancaires, un message d'erreur courant stipule que le numéro de compte bancaire n'a pas la longueur requise par votre banque. Pour éviter ou résoudre l'erreur, vous devez supprimer la valeur du champ **IBAN** sur la page **Fiche compte bancaire** puis, dans le champ **N° compte bancaire**, saisissez le numéro du compte bancaire dans le format requis par votre banque.
+    >   Lorsque vous utilisez l'extension AMC Banking 365 Fundamentals, un message d'erreur courant stipule que le numéro de compte bancaire n'a pas la longueur requise par votre banque. Pour éviter ou résoudre l'erreur, vous devez supprimer la valeur du champ **IBAN** sur la page **Fiche compte bancaire** puis, dans le champ **N° compte bancaire**, saisissez le numéro du compte bancaire dans le format requis par votre banque.
 
 5. Sur la page **Enregistrer sous**, spécifiez l'emplacement où le fichier est exporté, puis choisissez **Enregistrer**.
 
@@ -132,14 +132,14 @@ Vous pouvez réexporter des fichiers paiement à partir de la page **Registres v
 > [!NOTE]  
 >   Les fichiers EFT exportés ne sont pas affichés sur la page **Registres virement** et ne peuvent pas être réexportés.
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Registres virement**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Registres virement**, puis sélectionnez le lien associé.
 2. Sélectionnez une exportation de règlement que vous souhaitez réexporter, puis sélectionnez **Réexporter les paiements dans un fichier**.
 
 ## <a name="posting-the-payments"></a>Comptabilisation des règlements
 Lorsque le paiement électronique est traité avec succès par la banque, validez les paiements. Pour plus d'informations, reportez-vous à [Effectuer des paiements](payables-make-payments.md).
 
 ## <a name="see-also"></a>Voir aussi  
-[Configurer le service de conversion de données bancaires](bank-how-setup-bank-statement-service.md)  
+[Utilisation de l'extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)  
 [Configurer des virements SEPA](finance-how-to-set-up-sepa-credit-transfer.md)  
 [Gestion des comptes fournisseur](payables-manage-payables.md)   
 [Utilisation de feuilles comptabilité](ui-work-general-journals.md)  

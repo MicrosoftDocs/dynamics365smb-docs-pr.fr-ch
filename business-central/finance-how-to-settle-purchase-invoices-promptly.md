@@ -12,27 +12,27 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: c50367647e4d0e4a02cec3b43cd29ef8def68f78
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7392ec07c59974869dce6c1e8172eb48701e1d26
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305923"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554029"
 ---
 # <a name="settle-purchase-invoices-promptly"></a>Établir rapidement des factures achat
 Si vous devez payer le fournisseur en liquide ou par chèque, vous pouvez valider le paiement lorsque vous validez la facture.  
-  
+
 ### <a name="to-settle-purchase-invoices-promptly"></a>Pour établir rapidement des factures achat  
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Factures achat**, puis sélectionnez le lien associé.  
-2. Sous l'onglet **Accueil**, choisissez **Nouveau**.  
+2. Sélectionnez l'action **Nouveau**.  
 3.  Pour payer en liquide ou par virement bancaire, saisissez le numéro du compte général règlement ou du compte bancaire dans le champ **N° compte contrepartie**.  
-  
+
 > [!IMPORTANT]  
 >  Les champs **Type compte contrepartie** et **N° compte contrepartie** ne font pas partie de la présentation standard de l'en-tête facture. Pour valider le paiement d'une facture, vous devez d'abord les insérer à l'aide des outils du Designer.  
-  
+
 > [!NOTE]  
 >  Si vous payez fréquemment les factures en liquide, il est conseillé de configurer un mode de règlement spécifique avec un compte contrepartie et de saisir ce mode dans le champ **Mode de règlement** sur la fiche fournisseur. Le programme insère automatiquement le numéro du compte contrepartie sur l'en-tête facture à chaque fois que vous créez une facture.  
-  
+
 ## <a name="see-also"></a>Voir aussi  
 [Gestion des comptes fournisseur](payables-manage-payables.md)  
 [Achats](purchasing-manage-purchasing.md)  

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3071577689c7f292b27aef72291d9bfdd36c473a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 067db27e9b0000d39af06e877193e241d05bc4cc
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305299"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554488"
 ---
 # <a name="set-up-approval-users"></a>Configurer des utilisateurs d'approbation
 Avant de pouvoir créer des flux de travail qui impliquent des étapes d'approbation, vous devez configurer les utilisateurs du flux de travail qui sont impliqués dans les processus d'approbation. Sur la page **Paramètres utilisateur d'approbation**, vous pouvez également définir les limites pour des types spécifiques de demandes et définir des approbateurs remplaçants à qui des demandes d'approbation sont déléguées lorsque l'approbateur initial est absent.  
@@ -49,10 +49,10 @@ Avant de pouvoir créer des flux de travail qui impliquent des étapes d'approba
     |**Montant illimité de demande d'achat autorisé**|Spécifiez que l'utilisateur dans le champ**ID utilisateur** peut approuver tous les devis d'achat quel que soit leur montant.<br /><br /> Si vous cochez cette case, vous ne pouvez pas renseigner le champ **Montant maximal demande achat autorisé**.|  
     |**Remplaçant**|Sélectionnez le code d'utilisateur qui doit approuver des demandes effectuées par l'utilisateur dans le champ **ID utilisateur** si l'utilisateur dans le champ **ID approbateur** n'est pas disponible. **Note :** le remplaçant peut être soit l'utilisateur dans le champ **Remplaçant**, l'approbateur direct, soit l'administrateur d'approbation, dans cet ordre de priorité. Pour plus d'informations, reportez-vous à [Utilisation des flux d'approbation](across-how-use-approval-workflows.md).|  
     |**Adresse de messagerie**|Spécifiez l'adresse de messagerie de l'utilisateur dans le champ **ID utilisateur**.|  
-    |**Administrateur approbation**|Spécifiez l'utilisateur qui a des autorisations de débloquer des workflows d'approbation, par exemple, en déléguant les demandes d'approbation à de nouveaux approbateurs remplaçants et en supprimant des demandes d'approbation échues.|  
+    |**Administrateur approbation**|Spécifiez l'utilisateur qui a des autorisations de débloquer des workflows d'approbation, par exemple, en déléguant les demandes d'approbation à de nouveaux approbateurs remplaçants et en supprimant des demandes d'approbation échues.|
 
-    > [!NOTE]  
-    >  Le comportement du champ **Type limite approbateur** s'applique uniquement aux modules où les limites peuvent être définies, à savoir les approbations de vente et d'achat. Tous les autres types d'approbation où les limites ne s'appliquent pas ont toujours le comportement décrit pour l'option **Approbateur direct**.  
+    > [!Note]
+    > Une seule personne peut être l'administrateur d'approbation.|  
 
 3. Pour test le paramétrage utilisateur approbation, choisissez l'action **Tester paramètres utilisateur approbation**.  
 4. Répétez les étapes 2 et 3 pour chaque utilisateur que vous souhaitez configurer en tant qu'utilisateur approbation.  

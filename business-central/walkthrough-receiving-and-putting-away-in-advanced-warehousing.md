@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4b6626f13e04e3014df3c792e5ace05575b430c4
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c567652331d82e4386bcf8829dd7d296f8ebecb4
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314728"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553907"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Procédure pas à pas : Réception et rangement dans les configurations de stockage avancées
 
@@ -136,7 +136,7 @@ Sur la page **Rangement entrepôt**, vous pouvez gérer les rangements pour un d
 
 ### <a name="to-put-the-items-away"></a>Rangement des articles  
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Rangements**, puis sélectionnez le lien associé.  
-2.  Sélectionnez le seul document rangement entrepôt dans la liste, puis sous l'onglet **Accueil**, dans le groupe **Gérer**, sélectionnez **Modifier**.  
+2.  Sélectionnez le seul document de rangement d'entrepôt dans la liste, puis choisissez l'action **Modifier**.  
 
     Le document rangement entrepôt affiche un total de huit lignes Prélever ou Emplacement pour les quatre lignes commande achat.
 

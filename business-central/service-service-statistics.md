@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 16b3a3be096bc8d5391b7a14b56524191663ff56
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9016412d32176a99ca84831566d7bbb628ec88a8
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315891"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553857"
 ---
 # <a name="viewing-service-statistics"></a>Affichage des statistiques service
 Vous pouvez utiliser des statistiques pour analyser les documents service et évaluer la bonne gestion de vos processus de service. Vous pouvez analyser les contrats de service, articles, devis, commandes, factures et avoirs en choisissant l'action **Statistiques**. Pour les articles et contrats de service, vous pouvez également utiliser les champs **Trendscape article de service** ou **Trendscape contrat** pour afficher un résumé des écritures comptables service pour un article de service spécifique.   
@@ -93,7 +93,7 @@ Une écriture gain/perte contrat est générée lorsqu'un devis contrat est conv
 ## <a name="viewing-statistics-for-posted-service-documents"></a>Affichage des statistiques pour les documents service validés
 La fonctionnalité des statistiques service vous permet d'obtenir un aperçu statistique du contenu des documents service validés, tels qu'une expédition validée, une facture validée et un avoir validé.  
 
-Les informations statistiques sont affichées sur la page de statistiques du document service validé correspondant. Vous pouvez ouvrir la page de statistiques sur la fiche de l'expédition service validée, de la facture service validée ou des avoirs service validés. Pour chacun de ces types de document, sous l'onglet **Accueil**, dans le groupe **Traitement**, choisissez **Statistiques**. Par exemple, sur la page **Factures service enreg.**, sous l'onglet **Accueil**, dans le groupe **Traitement**, choisissez **Statistiques**.  
+Les informations statistiques sont affichées sur la page de statistiques du document service validé correspondant. Vous pouvez ouvrir la page de statistiques sur la fiche de l'expédition service validée, de la facture service validée ou des avoirs service validés. Pour chacun de ces types de document, choisissez l'action **Statistiques**. Par exemple, dans la page **Factures service enreg.**, sélectionnez l'action **Statistiques**.  
 
 ### <a name="posted-service-shipment-statistics"></a>Statistiques expédition service enreg.  
 La page **Statistiques expédition service** donne un aperçu d'une expédition service validée. Cela inclut notamment des informations sur le contenu physique de l'expédition, par exemple la quantité des articles expédiés, les heures ou les coûts ressource, ainsi que le poids et le volume des articles expédiés.  

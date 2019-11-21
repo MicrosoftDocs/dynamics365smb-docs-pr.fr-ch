@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: jswymer
 ms.date: 10/01/2019
-ms.openlocfilehash: 7bc5186103f05ad827d15933f586e2fac9b4a584
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ce3187199a0402961b1206077c4d1613093f1919
+ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304892"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "2775394"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Inspection des pages dans Business Central
 
@@ -38,7 +38,7 @@ Si vous ne voyez pas les détails auxquels vous vous attendez sur le volet **Ins
 
 ## <a name="controlling-access-to-page-inspection-details"></a>Contrôle de l'accès aux détails relatifs à l'inspection des pages
 
-En tant qu'administrateur, vous pouvez contrôler l'accès aux détails complets qui s'affichent dans le volet **Inspection des pages** en configurant les autorisations des utilisateurs. Pour accorder une autorisation d'accès aux détails complets à un utilisateur, accordez l'autorisation **Exécuter** à l'utilisateur sur l'objet **Système** **5330**. Vous pouvez accorder cette autorisation à l'aide d'un ensemble d'autorisations (comme **Résolution de D365**) ou d'un groupe d'utilisateurs (comme **Résolution de D365**). Pour plus d'informations sur les autorisations, reportez-vous à la rubrique [Gérer les utilisateurs et les autorisations](ui-how-users-permissions.md).
+En tant qu'administrateur, vous pouvez contrôler l'accès aux détails complets qui s'affichent dans le volet **Inspection des pages** en configurant les autorisations des utilisateurs. Pour accorder une autorisation d'accès aux détails complets à un utilisateur, accordez l'autorisation **Exécuter** à l'utilisateur sur l'objet **Système** **5330**. Vous pouvez accorder cette autorisation à l'aide d'un ensemble d'autorisations (comme **Résolution de D365**) ou d'un groupe d'utilisateurs (comme **Résolution de D365**). Pour en savoir plus sur les autorisations, voir [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md).
 
 Les utilisateurs qui ne disposent pas des autorisations sur **Objet système 5330** peuvent toujours accéder au volet **Inspection des pages**, mais ils n'ont accès qu'aux champs **Page** et **Table**, qui présentent les détails de base qu'ils sont en mesure de transmettre à leur équipe de support technique.
 

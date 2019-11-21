@@ -8,40 +8,45 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 10/01/2019
+ms.date: 10/24/2019
 ms.author: jswymer
-ms.openlocfilehash: 2474f83fd9fa137b40756a3d07ac025208f3ac6c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 71b4e5b7124f929255f1374b38cfbe28c9f12d2b
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308275"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692815"
 ---
-# <a name="viewing-and-editing-in-excel-from-business-central"></a>Affichage et édition dans Excel depuis Business Central 
+# <a name="viewing-and-editing-in-excel-from-business-central"></a>Affichage et édition dans Excel depuis Business Central
 
 Avec des pages qui affichent une liste d'enregistrements dans des lignes et des colonnes, comme une liste de clients, de commandes client ou de factures, vous pouvez également afficher les enregistrements à l'aide de Microsoft Excel. Pour cela, vous avez deux possibilités. Vous pouvez sélectionner l'action **Ouvrir dans Excel** ou l'action **Modifier dans Excel** sur la page. Les différences entre les deux actions sont les suivantes :  
 
 ## <a name="open-in-excel"></a>Ouvrir dans Excel
 
--    Avec cette action, Excel tient compte de tous les filtres de la page qui limitent les enregistrements affichés. Cela signifie que le classeur Excel contiendra les mêmes lignes et colonnes figurant sur la page dans [!INCLUDE[prodshort](includes/prodshort.md)].
+- Avec cette action, Excel tient compte de tous les filtres de la page qui limitent les enregistrements affichés. Cela signifie que le classeur Excel contiendra les mêmes lignes et colonnes figurant sur la page dans [!INCLUDE[prodshort](includes/prodshort.md)].
 
--    Vous pouvez apporter des modifications à des enregistrements dans Excel, mais vous ne pouvez pas publier les modifications dans [!INCLUDE[prodshort](includes/prodshort.md)]. Vous ne pouvez enregistrer les modifications apportées au fichier Excel que sur votre ordinateur. 
+- Vous pouvez apporter des modifications à des enregistrements dans Excel, mais vous ne pouvez pas publier les modifications dans [!INCLUDE[prodshort](includes/prodshort.md)]. Vous ne pouvez enregistrer les modifications apportées au fichier Excel que sur votre ordinateur. 
 
--    Cette action fonctionne sur Windows et macOS. 
+- Cette action fonctionne sur Windows et macOS. 
 
->[!NOTE]
->Pour [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, l'action **Ouvrir dans Excel** n'est pas disponible si l'action **Modifier dans Excel** l'est.
+> [!NOTE]
+> Pour [!INCLUDE[prodshort](includes/prodshort.md)] sur site, l'action **Ouvrir dans Excel** est disponible par défaut. Cependant, si vous configurez [!INCLUDE [prodshort](includes/prodshort.md)]sur site pour la modification de données dans Excel, l'action **Ouvrir dans Excel** est alors remplacée par l'action **Modifier dans Excel**.
 
 ## <a name="edit-in-excel"></a>Modifier dans Excel
 
--    Avec cette action, le classeur Excel ne tient pas compte des filtres de la page qui limitent les enregistrements affichés. Cela signifie que le classeur Excel contiendra tous les enregistrements et colonnes disponibles, indépendamment de ce qui est affiché sur la page. 
+- Avec cette action, Excel tient compte de la plupart des filtres de la page qui limitent les enregistrements affichés. Cela signifie que le classeur Excel contiendra presque les mêmes enregistrements et colonnes.
 
--    L'avantage de l'action **Modifier dans Excel** est qu'elle vous permet d'apporter des modifications à des enregistrements dans Excel puis de les publier dans [!INCLUDE[prodshort](includes/prodshort.md)].
+- L'avantage de l'action **Modifier dans Excel** est qu'elle vous permet d'apporter des modifications à des enregistrements dans Excel puis de les publier dans [!INCLUDE[prodshort](includes/prodshort.md)].
 
--    Ceci fonctionne uniquement sur Windows, pas macOS.
+- Ceci fonctionne uniquement sur Windows, pas macOS.
 
->[!NOTE]
->Pour [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, l'action **Modifier dans Excel** est disponible uniquement si le module complémentaire Excel a été installé par votre administrateur. Pour les administrateurs, si vous souhaitez connaître la manière de configurer le module complémentaire Excel, consultez [Configuration du module complémentaire Excel](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin).
+Cela a été amélioré dans la deuxième vague de publication 2019. Pour plus d'informations, voir [Améliorations de l'intégration Excel](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration).
+
+> [!NOTE]
+> Pour [!INCLUDE[prodshort](includes/prodshort.md)] sur site, l'action **Modifier dans Excel** est disponible uniquement si le module complémentaire Excel a été configuré par votre administrateur. Pour les administrateurs, si vous souhaitez connaître la manière de configurer le module complémentaire Excel, consultez [Configuration du module complémentaire Excel pour modifier des données Business Central](/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin).
+
+> [!NOTE]
+> Pour [!INCLUDE[prodshort](includes/prodshort.md)]sur site, cette fonctionnalité est uniquement disponible pour le client Web.
 
 ### <a name="see-the-differences-between-the-options"></a>Voir les différences entre les options 
 > [!Video https://go.microsoft.com/fwlink/?linkid=2086039]

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture
-ms.date: 10/01/2019
+ms.date: 10/22/2019
 ms.author: edupont
-ms.openlocfilehash: 4cab6bd1ca01e6f4d66914cff8a3a026f8ecfc32
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 81377dfe391415c6922cf0dcf00a8c8567ee4c80
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300800"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692719"
 ---
 # <a name="changing-language-and-locale"></a>Modification de la langue et des paramètres régionaux
 
@@ -40,6 +40,10 @@ Vous pouvez modifier les paramètres régionaux dans l'onglet du navigateur que 
 
 Pour modifier les paramètres régionaux, accédez à la page **Mes paramètres**. Pour plus d'informations, voir [Modifier les paramètres de base](ui-change-basic-settings.md).  
 
+## <a name="application-version"></a>Version de l'application
+
+Dans la page **Aide et support**, vous pouvez voir quelle version de [!INCLUDE [prodshort](includes/prodshort.md)] utilise votre entreprise. Si vous souhaitez baser une entreprise sur une version différente, votre administrateur peut créer un nouvel environnement de production. Pour plus d'informations, voir [Créer un nouvel environnement de production](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) dans le contenu pour les développeurs et les professionnels de l'informatique.  
+
 ## <a name="languages-of-the-included365finincludesd365fin_mdmd-help"></a>Langues de l'aide de [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Le contenu de l'aide pour la fonctionnalité de base de [!INCLUDE[d365fin](includes/d365fin_md.md)] est publié sur le site de Microsoft Docs et est disponible dans de nombreuses langues différentes. Si vous accédez aux documents au sein de [!INCLUDE[d365fin](includes/d365fin_md.md)], le contenu s'affichera dans votre langue. Si une page spécifique n'est pas encore disponible dans votre langue, elle s'affichera en anglais.
 
@@ -49,6 +53,8 @@ C'est simple - accédez au bas de la page du navigateur et choisissez le symbole
 > [!NOTE]  
 > La liste indique toutes les langues qui sont prises en charge par le site Microsoft Docs. [!INCLUDE[d365fin](includes/d365fin_md.md)] est disponible dans un nombre limité de pays/régions, mais le contenu de l'aide est disponible dans plusieurs langues. Toutefois, le contenu de l'aide n'est pas disponible dans toutes les langues prises en charge par le site Microsoft Docs.
 
-## <a name="see-also"></a>Voir aussi  
+## <a name="see-also"></a>Voir aussi
+
+[Ressources pour l'aide et l'assistance technique](product-help-and-support.md)  
 [Modifier les paramètres de base](ui-change-basic-settings.md)  
 [Mise en route](product-get-started.md)  

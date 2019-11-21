@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c50646a8e1f56d95256271f64ecf7dfb4992e4ce
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 43bad71f76fc441fee84c14d1890572130d3948a
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314835"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554731"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Procédure pas à pas : gestion des projets
 
@@ -173,7 +173,7 @@ Dans la procédure suivante, vous créez une feuille projet nominative pour Tric
     |1020|Développement|Comptabilisation|  
     |1090|Total de la consultation|Fin total|  
 
-3.  Pour indiquer que certaines tâches sont des sous-catégories d'autres tâches, sous l'onglet **Actions**, dans le groupe **Fonctions**, choisissez **Indenter tâches projet**.  
+3.  Pour indiquer que certaines tâches sont des sous-catégories d'autres tâches, choisissez l'action **Indenter tâches projet**.  
 
  Une ligne planning peut être de type :  
 
@@ -261,7 +261,7 @@ Les lignes sont à présent validées.
 4.  Sur le raccourci **Options**, renseignez la date de validation et indiquez si vous souhaitez créer une facture par tâche ou une seule facture pour l'ensemble des tâches.  
 5.  Cliquez sur le bouton **OK** pour créer la facture, puis cliquez sur le bouton **OK** sur la page de confirmation.  
 
- Une fois que Tricia a créé la facture, elle peut y accéder à partir de **Ventes et marketing** sous **Traitement des commandes** et en poursuivre le traitement.  
+ Une fois la facture créée, Tricia peut y accéder à partir du Tableau de bord **Préparateur de commandes vente**, par exemple. 
 
 ### <a name="to-post-a-new-sales-invoice"></a>Pour valider une nouvelle facture vente  
 

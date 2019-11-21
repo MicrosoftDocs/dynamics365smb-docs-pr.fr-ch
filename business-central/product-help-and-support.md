@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 10/01/2019
-ms.openlocfilehash: 0c710291b1039dedf23266b48940e123f425c9cc
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 11/06/2019
+ms.openlocfilehash: e1c7d5f7880f283c0b26679572202aaa769a1227
+ms.sourcegitcommit: 86498fe4326b9ce26cc31e8645db27570d13bdf9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313627"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2767672"
 ---
 # <a name="resources-for-help-and-support"></a>Ressources pour l'Aide et le support
 
@@ -73,7 +73,7 @@ La section **Résolution des problèmes** propose des informations techniques qu
 Votre partenaire revendeur [!INCLUDE[prodshort](includes/prodshort.md)] est tenu de vous aider en matière de support technique. [!INCLUDE[prodshort](includes/prodshort.md)] est vendu par les partenaires et cette section facilite le contact de votre partenaire commercial s'il a envoyé ses informations de contact de support. Si votre partenaire [!INCLUDE[prodshort](includes/prodshort.md)] ne peut pas résoudre le problème, il déclenchera un ticket d'assistance avec Microsoft.  
 
 > [!NOTE]
-> Cette section est disponible uniquement si vous avez souscrit à un abonnement [!INCLUDE [prodshort](includes/prodshort.md)]. Si vous vous êtes inscrit pour une évaluation et que vous n'avez pas encore acheté [!INCLUDE[prodshort](includes/prodshort.md)], vous n'avez pas de partenaire revendeur, et vous ne pouvez pas contacter l'équipe de support technique Microsoft. Vous pouvez rechercher un partenaire [!INCLUDE[prodshort](includes/prodshort.md)] sur la page [Je recherche un fournisseur de solution](https://go.microsoft.com/fwlink/?linkid=2038145).  
+> Cette section est disponible uniquement si vous avez souscrit à un abonnement [!INCLUDE [prodshort](includes/prodshort.md)]. Si vous vous êtes inscrit pour une évaluation et que vous n'avez pas encore acheté [!INCLUDE[prodshort](includes/prodshort.md)], vous n'avez pas de partenaire revendeur, et vous ne pouvez pas contacter l'équipe de support technique Microsoft. Vous pouvez rechercher un partenaire [!INCLUDE[prodshort](includes/prodshort.md)] sur la page [Je recherche un fournisseur de solution](https://go.microsoft.com/fwlink/?linkid=2038145). Pour plus d'informations, voir [Comment trouver un partenaire revendeur ?](across-faq.md#findpartner).  
 
 ### <a name="support-contacts"></a>Contacts de support
 
@@ -83,6 +83,8 @@ Pour alerter votre partenaire en cas de problème, choisissez le lien pour envoy
 
 ## <a name="see-also"></a>Voir aussi
 
+[Catalogue d'apprentissage Business Central](readiness/readiness-learning-catalog.md)  
+[Comment trouver un partenaire revendeur ?](across-faq.md#findpartner)  
 [Billet de blog : Trouver les ressources appropriées et fournir des commentaires](https://community.dynamics.com/business/b/financials/archive/2018/12/04/find-the-right-resources-and-provide-feedback)  
 [Docs dédiés aux développeurs et professionnels IT de Business Central](/dynamics365/business-central/dev-itpro/)  
 [Ressources pour l'aide et l'assistance technique pour les partenaires](/dynamics365/business-central/dev-itpro/help-and-support)  

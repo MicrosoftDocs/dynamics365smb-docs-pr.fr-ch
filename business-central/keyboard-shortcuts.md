@@ -8,22 +8,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 10/01/2019
+ms.date: 11/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: f0c021edd416daff4b40dee6f4a541b4e3e8bc32
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e8d55ffd434ff2c7666d0b90a5cfd091fc68a015
+ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309475"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "2774858"
 ---
 # <a name="keyboard-shortcuts"></a>Raccourcis clavier
 Cet article fournit un aperçu de certaines combinaisons de touches de raccourcis que vous pouvez utiliser avec lorsque vous utilisez [!INCLUDE[prodshort](includes/prodshort.md)].
 
+Pour un aperçu des raccourcis clavier les plus courants, voir [Raccourcis clavier (PC uniquement)](keyboard-shortcuts-cheatsheet.md).
+
 > [!TIP]
-> Pour un aperçu rapide et facile à imprimer des raccourcis les plus populaires pour les utilisateurs de PC, voir [Raccourcis clavier (PC uniquement)](keyboard-shortcuts-cheatsheet.md). Pour une représentation graphique, choisissez l'image suivante :
+> Pour une vue graphique des raccourcis les plus utilisés, sélectionnez l'image suivante et téléchargez le fichier PDF.
 >
->[ ![Pour télécharger pour impression, cliquez avec le bouton droit et sélectionnez Enregistrer l'image sous](media/bckeyboardmap-inline.png) ](media/bckeyboardmap.png#lightbox)
+> [ ![](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf)
 
 ## <a name="overview"></a>Aperçu
 Les raccourcis clavier facilitent l'accessibilité et la navigation dans différentes zones et éléments d'une page. Ils sont pris en charge par la plupart des navigateurs Web ; toutefois, leur comportement peut varier légèrement.
@@ -47,11 +49,11 @@ Le tableau suivant décrit les raccourcis clavier pour naviguer et accéder à d
 |Alt+Maj+F2|Basculer entre **Détails** et **Documents joints** dans le volet Récapitulatif.|
 |Alt+O|Ajouter une nouvelle note pour l'enregistrement sélectionné, même si le volet Récapitulatif n'est pas ouvert.|
 |Alt+Q<br />(Ctrl+Option+Q)|Ouvrir la fenêtre **Tell Me**. Pour plus d'informations, voir [Recherche de pages et d'informations avec Tell Me](ui-search.md).|
-|Alt+N |Ouvrir une page pour créer un nouvel enregistrement. (Semblable au choix des actions **Nouveau** et **+**.)
-|Alt+Maj+N |Fermer une page nouvellement créée et en ouvrir une nouvelle pour créer un enregistrement.
+|Alt+N |Ouvrir une page pour créer un nouvel enregistrement. (Semblable au choix des actions **Nouveau** et **+**.)|
+|Alt+Maj+N |Fermer une page nouvellement créée et en ouvrir une nouvelle pour créer un enregistrement. De même, Alt + F9 valide un document et en crée un nouveau.|
 |Alt+T|Ouvrez la page **Mes paramètres**.|
 |Alt+Flèche vers la droite|Rechercher des informations supplémentaires ou des valeurs sous-jacentes pour un champ contenant le bouton ![AssistEdit](media/assist-edit-icon.png "Bouton AssistEdit"). Ceci est utilisé lorsque le bouton déroulant habituel (Alt + Flèche vers le bas) dans le même champ est utilisé à une autre fin.|
-|Maj+F12|Ouvrir l'aperçu des fonctionnalités. Pour plus d'informations, voir [Recherche de pages à partir d'une présentation de la fonctionnalité](ui-role-explorer.md).|
+|Shift+F12|Ouvrir l'explorateur de rôles, une vue d'ensemble des fonctionnalités. Pour plus d'informations, voir [Recherche de pages avec l'explorateur de rôles ](ui-role-explorer.md).|
 |Ctrl+Alt+Maj+C|Afficher des informations dans le badge société.|
 |Ctrl+Alt+F1|Ouvrez, puis fermez le volet d'inspection des pages. Ce dernier affiche les informations relatives à la page, comme sa table source, ses champs, ses filtres, ses extensions, etc.<br /><br />Pour plus d'informations, reportez-vous à la rubrique [Inspection des pages](across-inspect-page.md).|
 |Ctrl+C |Copiez la valeur du champ. Si le champ a le focus, et si vous n'avez pas sélectionné un texte dans le champ, l'intégralité de la valeur est copiée. Si vous avez sélectionné un texte dans le champ, seul le texte sélectionné est copié.|

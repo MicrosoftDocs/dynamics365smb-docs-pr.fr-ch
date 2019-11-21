@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 5daf54251048137ca7829ef00d2f65c890b22b12
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 493217e3f7607c4553d6c0ac6500f21f0ff712cc
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315243"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553833"
 ---
 # <a name="import-and-export-a-report-or-document-layout"></a>Importer et exporter une présentation de rapport ou de document
 Vous pouvez importer et exporter une présentation de rapport personnalisée existante sous forme de fichier depuis ou vers un emplacement sur votre ordinateur et le réseau. Par exemple, vous pouvez exporter une présentation de rapport, puis envoyer le fichier à une autre personne pour modification. Cette personne peut ensuite apporter des modifications à la présentation et vous renvoyer le fichier pour que vous puissiez le réimporter.  
@@ -29,11 +29,11 @@ Vous pouvez importer et exporter une présentation de rapport personnalisée exi
 
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Sélection présentation état**, puis sélectionnez le lien associé.  
 
-2.  Sélectionnez la ligne pour le rapport contenant la présentation de rapport personnalisée que vous souhaitez exporter, puis sous l'onglet **Accueil**, dans le groupe **Traitement**, choisissez **Présentations personnalisées**.  
+2.  Sélectionnez la ligne de l'état qui contient la disposition d'état personnalisée à exporter, puis sélectionnez l'action **Présentations personnalisées**.  
 
-3.  Sur la page **Présentations état**, sélectionnez la présentation de rapport que vous souhaitez exporter vers un fichier, puis sous l'onglet **Accueil**, dans le groupe **Traitement**, choisissez **Exporter présentation**.  
+3.  Sur la page **Présentations personnalisées**, sélectionnez la présentation d'état que vous souhaitez exporter vers un fichier, puis choisissez l'action **Exporter présentation**.  
 
-4.  Dans la boîte de dialogue **Exporter fichier**, sélectionnez **Enregistrer**, puis enregistrez le fichier à un emplacement sur votre ordinateur ou réseau.  
+4.  Dans la boîte de dialogue **Exporter fichier**, sélectionnez le bouton **Enregistrer**, puis enregistrez le fichier à un emplacement sur votre ordinateur ou réseau.  
 
 ### <a name="to-import-a-report-layout-file"></a>Pour importer un fichier de présentation de rapport  
 
@@ -43,11 +43,11 @@ Vous pouvez importer et exporter une présentation de rapport personnalisée exi
 
 2.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Sélection présentation état**, puis sélectionnez le lien associé.  
 
-3.  Sélectionnez la ligne pour le rapport vers laquelle vous souhaitez importer la présentation de rapport, puis sous l'onglet **Accueil**, dans le groupe **Traitement**, choisissez **Présentations personnalisées**.  
+3.  Sélectionnez la ligne de l'état dans lequel vous souhaitez créer la présentation d'état, puis sélectionnez l'action **Présentations personnalisées**.  
 
-4.  Sur la page **Présentations état**, sélectionnez la présentation de rapport vers laquelle vous souhaitez importer le fichier, puis sous l'onglet **Accueil**, dans le groupe **Traitement**, choisissez **Importer présentation**.  
+4.  Sur la page **Présentations personnalisées**, sélectionnez la présentation d'état dans laquelle vous souhaitez importer le fichier, puis choisissez l'action **Importer présentation**.  
 
-5.  Dans la boîte de dialogue **Importer**, sélectionnez le document qui définit la présentation de rapport, puis choisissez **Ouvrir**.  
+5.  Dans la boîte de dialogue **Importer**, sélectionnez le document qui définit la présentation d'état, puis choisissez le bouton **Ouvrir**.  
 
  La présentation de rapport personnalisé d'origine est remplacée par la présentation de rapport importée.  
 

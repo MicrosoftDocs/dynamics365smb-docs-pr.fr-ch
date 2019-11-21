@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 851d5359513d1fe744d265b21f13a3abd9c6867b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5fa6f0ea5f12d44ae538df5a2be3489819963e47
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304819"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692839"
 ---
 # <a name="setting-up-data-exchange"></a>Configuration de l'échange de données
-Avant de pouvoir envoyer et recevoir des documents électroniques ou importer et exporter des fichiers bancaires, vous devez configurer l'infrastructure d'échange de données pour traiter les fichiers concernés. En outre, vous devez configurer des zones associées, telles que les données de base pour les clients à qui vous envoyez des factures électroniques ou le service conversion données bancaires si vous utilisez le fournisseur externe de services de conversion de vos fichiers bancaires. Pour plus d'informations, voir [Échanger des données par voir électronique](across-data-exchange.md).  
+Avant de pouvoir envoyer et recevoir des documents électroniques ou importer et exporter des fichiers bancaires, vous devez configurer l'infrastructure d'échange de données pour traiter les fichiers concernés. En outre, vous devez configurer des zones associées, telles que les clients à qui vous envoyez des factures électroniques ou l'extension AMC Banking 365 Fundamentals si vous utilisez le fournisseur externe de services de conversion de vos fichiers bancaires. Pour plus d'informations, voir [Échanger des données par voir électronique](across-data-exchange.md).  
 
  Lorsque [!INCLUDE[d365fin](includes/d365fin_md.md)] est configuré pour échanger des données avec les fichiers externes, les utilisateurs peuvent utiliser les paramètres pour les tâches courantes de l'entreprise, comme l'envoi et la réception de documents électroniques et l'importation et l'exportation de fichiers bancaires.  
 
@@ -32,7 +32,7 @@ Avant de pouvoir envoyer et recevoir des documents électroniques ou importer et
 |Configurer différentes données de base, telles que les informations sur la société, les clients, les fournisseurs, les articles et les unités de mesure associés au mappage des données dans [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Configurer l'envoi et la réception de documents électroniques](across-how-to-set-up-electronic-document-sending-and-receiving.md)|  
 |Configurer un compte bancaire, un fournisseur et une feuille paiement pour le virement SEPA.|[Configurer des virements SEPA](finance-how-to-set-up-sepa-credit-transfer.md)|  
 |Préparez les formats de compte bancaire, les modes de paiement et les accords clients pour le prélèvement automatique SEPA.|[Configurer un prélèvement SEPA](finance-how-to-set-up-sepa-direct-debit.md)|  
-|Paramétrer l'authentification de l'utilisateur et l'URL du fournisseur de services de conversion de données bancaires qui est nécessaire pour que les fichiers bancaires soient convertis au format de votre banque.|[Configurer le service de conversion de données bancaires](bank-how-setup-bank-data-conversion-service.md)|  
+|Paramétrer l'authentification de l'utilisateur et l'URL du fournisseur de services de conversion de données bancaires qui est nécessaire pour que les fichiers bancaires soient convertis au format de votre banque.|[Utilisation de l'extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)|  
 |Configurer et activer un service externe qui vous permet d'importer des relevés bancaires, directement sous forme de flux bancaires.|[Configurer le service de relevés bancaires](bank-how-setup-bank-statement-service.md)|  
 |Une fois le service de relevés bancaires activé, lier les comptes bancaires dans [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Configuration des comptes bancaires](bank-how-setup-bank-accounts.md)|  
 |Préparer à configurer une nouvelle définition d'échange de données pour un fichier ou flux de données à l'aide du schéma XML du fichier pour préremplir le raccourci **Définitions de colonnes** de la page **Définitions échange comptabilité**.|[Utiliser des schémas XML pour préparer des définitions d'échange de données](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)|  

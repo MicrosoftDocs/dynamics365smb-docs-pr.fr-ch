@@ -12,40 +12,22 @@ ms.workload: na
 ms.search.keywords: video, library, how to
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: bfcf6190250ba05ac5556d5c7543df6c4e9fa34e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d74c6d4c43671c90918bfd29640760a4e1a64f65
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304747"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554437"
 ---
 # <a name="visit-our-video-library"></a>Visitez notre vidéothèque
-Nous vous remercions de votre patience pendant que nous recréons notre bibliothèque de vidéos de « procédure ». En raison des améliorations récentes de [!INCLUDE[d365fin](includes/d365fin_md.md)], nous devons reproduire notre contenu afin qu'il reflète précisément le produit.
+Nous savons que certaines personnes préfèrent regarder du contenu plutôt que de le lire. À cette fin, nous produisons des vidéos courtes et digestes qui peuvent être autonomes ou compléter notre assistance utilisateur.   
 
-En attendant, nous proposons trois vidéos qui peuvent vous aider à être rapidement opérationnel.
-
-|Titre|Désignation|
-|----|----|
-|Introduction|Découvrir comment les fonctionnalités du produit sont organisées, et comment accéder à divers types de tâches et d'informations.|
-|Démarrer|Comprendre les principales étapes lorsque vous testez [!INCLUDE[d365fin](includes/d365fin_md.md)] ou avez récemment acheté le produit. |
-|Obtenir de l'aide|Savoir où aller pour obtenir des réponses à divers types de questions.|
-
-Vous pouvez accéder aux vidéos de plusieurs façons. Lorsque vous démarrez [!INCLUDE[d365fin](includes/d365fin_md.md)] pour la première fois, vous pouvez lancer les vidéos à partir de la page d'accueil qui s'affiche. Si vous utilisez déjà [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez accéder à la bibliothèque à partir des tableaux de bord **Gestionnaire d'activité** et **Comptable** en sélectionnant la vignette **Vidéos du produit**.
-
-> [!Tip]  
-> Les vidéos de la bibliothèque s'affichent dans un cadre qui peut sembler petit. Pour agrandir le cadre, choisissez l'icône de double flèche dans le coin supérieur droit. Ensuite, les vidéos s'afficheront dans un cadre plus grand jusqu'à ce que vous le réduisiez à nouveau.
+Si vous êtes novice de [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez lancer les vidéos d’introduction à partir de la page d’accueil qui s’affiche. Si vous utilisez déjà [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez accéder à la bibliothèque à partir des tableaux de bord **Gestionnaire d'activité** et **Comptable** en sélectionnant la vignette **Vidéos du produit**. 
 
 Vous pouvez également afficher nos vidéos de « procédures », ainsi que bien d'autres contenus, sur la chaîne YouTube que nous avons créée pour [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour visiter la chaîne maintenant, [cliquez ici](https://go.microsoft.com/fwlink/?linkid=851533).
 
-## <a name="content-that-is-coming-soon"></a>Contenu bientôt disponible
-Pour n'en citer que quelques-unes, les vidéos que nous mettons à jour expliquent comment :  
-
-* Migrer des données métier depuis d'autres applications financières vers [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-* Configurer les axes analytiques pour effectuer le suivi et l'analyse de différents documents et entités
-* Connecter [!INCLUDE[d365fin](includes/d365fin_md.md)] et Dynamics 365 Sales
-* Configurer des flux de travail approbation  
-* Utiliser Power BI avec [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-* Configurer une messagerie et envoyer des documents directement depuis [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+> [!Tip]  
+> Les vidéos de la bibliothèque s'affichent dans un cadre qui peut sembler petit. Pour agrandir le cadre, choisissez l'icône de double flèche dans le coin supérieur droit. Ensuite, les vidéos s'afficheront dans un cadre plus grand jusqu'à ce que vous le réduisiez à nouveau.
 
 ## <a name="see-also"></a>Voir aussi
 [Mise en route](product-get-started.md)

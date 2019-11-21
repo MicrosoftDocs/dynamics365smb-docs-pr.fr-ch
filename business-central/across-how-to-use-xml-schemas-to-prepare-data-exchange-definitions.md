@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b00ed408bcdc5b98a7c23a8083109b140db175ae
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0d028206d1e17c7a1093cf2b93da02894909deb5
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305131"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554461"
 ---
 # <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Utiliser des schémas XML pour préparer des définitions d'échange de données
 Pour activer l'importation/exportation des données dans des fichiers XML à travers l'infrastructure d'échange de données de [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez utiliser des schémas XML pour définir les éléments de données à échanger avec [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vous effectuez ce travail sur la page **Visionneuse de schéma XML** en chargeant le fichier de schéma XML, en sélectionnant les éléments de données appropriés, puis en initialisant soit une définition d'échange de données ou un XMLport.  
@@ -40,9 +40,9 @@ Pour activer l'importation/exportation des données dans des fichiers XML à tr
 
 1.  Assurez-vous que le fichier de schéma XML approprié est disponible. L'extension du fichier est .xsd.  
 
-2.  Dans la zone **Rechercher**, entrez **Schémas XML**, puis sélectionnez le lien associé.  
+2.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Schémas XML**, puis sélectionnez le lien associé.  
 
-3.  Sous l'onglet **Accueil**, dans le groupe **Nouveau**, choisissez **Nouveau**.  
+3.  Sélectionnez l'action **Nouveau**.  
 
 4.  Renseignez les champs comme indiqué dans le tableau suivant.  
 
@@ -53,7 +53,7 @@ Pour activer l'importation/exportation des données dans des fichiers XML à tr
 
      Le champ **Espace de noms cible** spécifie un espace de noms dans le fichier de schéma XML qui a été chargé pour la ligne.  
 
-5.  Sous l'onglet **Accueil**, dans le groupe **Processus**, choisissez **Charger schéma**, puis sélectionnez le fichier de schéma XML.  
+5.  Sélectionnez l'action **Charger le schéma**, puis sélectionnez le fichier de schéma XML.  
 
      Lorsque le fichier est chargé, les autres champs de la ligne sont renseignés à l'aide des informations du fichier, et la case **Le schéma est chargé** est cochée.  
 
@@ -62,7 +62,7 @@ Pour activer l'importation/exportation des données dans des fichiers XML à tr
 
 ### <a name="to-select-or-clear-nodes-in-an-xml-schema"></a>Sélectionner ou supprimer des nœuds dans un schéma XML  
 
-1.  Dans la zone **Rechercher**, entrez **Visionneuse de schéma XML**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Visionneuse de schéma XML**, puis sélectionnez le lien associé.  
 
 2.  Renseignez les champs de l'en-tête, comme indiqué dans le tableau suivant.  
 
@@ -77,7 +77,7 @@ Pour activer l'importation/exportation des données dans des fichiers XML à tr
 
      Sinon, cliquez avec le bouton droit sur un nœud, puis choisissez **Développer tout**.  
 
-4.  Sous l'onglet **Accueil**, dans le groupe **Affichage**, choisissez l'une des actions suivantes pour modifier les nœuds qui sont affichés.  
+4.  Sélectionnez l'une des actions suivantes pour modifier les nœuds qui sont affichés.  
 
     |**Fonction**|Désignation|  
     |----------------|---------------------------------------|  
@@ -85,7 +85,7 @@ Pour activer l'importation/exportation des données dans des fichiers XML à tr
     |**Masquer non obligatoire**|Seuls les nœuds représentant les éléments qui sont obligatoires selon le schéma XML sont affichés. Les nœuds sont généralement indiqués par un **1** dans le champ **MinOccurs**.<br /><br /> Choisissez **Afficher tout** pour rétablir l'affichage.|  
     |**Masquer non sélectionné**|Seuls les nœuds dont la case à cocher **Sélectionné** est activée sont affichés.<br /><br /> Choisissez **Afficher tout** pour rétablir l'affichage.|  
 
-5.  Sous l'onglet **Accueil**, dans le groupe **Gestion**, sélectionnez **Modifier**.  
+5.  Choisissez l'action **Modifier**.  
 
 6.  Dans le champ **Sélectionné**, spécifiez pour chaque nœud si vous souhaitez que l'élément soit pris en charge dans la définition d'échange de données pour le fichier bancaire SEPA connexe.  
 
@@ -100,13 +100,13 @@ Pour activer l'importation/exportation des données dans des fichiers XML à tr
 
 ### <a name="to-generate-a-data-exchange-definition-that-is-based-on-an-xml-schema"></a>Générer une définition d'échange de données basée sur un schéma XML  
 
-1.  Dans la zone **Rechercher**, entrez **Schémas XML**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Schémas XML**, puis sélectionnez le lien associé.  
 
-2.  Sélectionnez le schéma XML approprié, puis sous l'onglet **Accueil**, dans le groupe **Processus**, choisissez **Ouvrir visionneuse de schéma XML**.  
+2.  Sélectionnez le schéma XML approprié, puis sélectionnez l'action **Ouvrir la visionneuse de schéma XML**.  
 
 3.  Assurez-vous que les nœuds appropriés sont sélectionnés. Pour plus d'informations, reportez-vous à la section « Sélectionner ou supprimer des nœuds dans un schéma XML ».  
 
-4.  Sur la page **Visionneuse de schéma XML**, sous l'onglet **Accueil**, dans le groupe **Processus**, sélectionnez **Générer définition d'échange de données**.  
+4.  Sur la page **Visionneuse de schéma XML**, sélectionnez l'action **Générer définition d'échange de données**.  
 
  Une définition d'échange de données est créée sur la page **Définitions échange comptabilité**, que vous pouvez renseigner en indiquant quels éléments du fichier correspondent à quels champs de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, voir [Configurer les définitions d'échange de données](across-how-to-set-up-data-exchange-definitions.md).  
 
@@ -115,15 +115,15 @@ Pour activer l'importation/exportation des données dans des fichiers XML à tr
 
 ### <a name="to-generate-an-xmlport-that-is-based-on-an-xml-schema"></a>Générer un XMLport basé sur un schéma XML  
 
-1.  Dans la zone **Rechercher**, entrez **Schémas XML**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Schémas XML**, puis sélectionnez le lien associé.  
 
-2.  Sélectionnez le schéma XML approprié, puis sous l'onglet **Accueil**, dans le groupe **Processus**, choisissez **Ouvrir visionneuse de schéma XML**.  
+2.  Sélectionnez le schéma XML approprié, puis sélectionnez l'action **Ouvrir la visionneuse de schéma XML**.  
 
 3.  Dans le champ **Nouveau n° de XMLport**, spécifiez le numéro qui sera accordé au nouvel objet XMLport lorsqu'il sera généré.  
 
 4.  Assurez-vous que les nœuds appropriés sont sélectionnés. Pour plus d'informations, reportez-vous à la section « Sélectionner ou supprimer des nœuds dans un schéma XML ».  
 
-5.  Sous l'onglet **Accueil**, dans le groupe **Traitement**, choisissez **Générer XMLport**, puis enregistrez l'objet en tant que fichier .txt dans un emplacement approprié.  
+5.  Sélectionnez l'action **Générer XMLport**, puis enregistrez l'objet en tant que fichier .txt dans un emplacement approprié.  
 
 6. Importez le nouvel objet XMLport dans l'environnement de développement [!INCLUDE[d365fin](includes/d365fin_md.md)] et compilez-le.
 

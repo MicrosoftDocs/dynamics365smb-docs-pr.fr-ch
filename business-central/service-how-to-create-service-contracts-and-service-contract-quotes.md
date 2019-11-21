@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: bdb6339715fd656a7c8e25b7d35b337c17da1b97
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 69cc8f393e60d30b5dd7fefdd3f5a49df5aaede3
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311707"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553931"
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Utiliser des contrats de service et des devis contrat de service
 Vous pouvez créer un contrat de service manuellement ou à partir d'un devis contrat de service. Vous pouvez utiliser un devis contrat de service en tant qu'étape préliminaire d'un contrat de service, dans laquelle votre société fait une offre au client et qui nécessite d'obtenir l'approbation du client pour pouvoir être convertie en contrat de service. Les procédures de création d'un contrat de service ou d'un devis contrat de service sont identiques.  
@@ -73,7 +73,7 @@ Vous pouvez utiliser un avoir service contrat lorsqu'un client annule un contrat
 
  Pour créer automatiquement un avoir lorsque les lignes du contrat sont retirées d'un contrat de service, sur la page **Contrat de Service**, sur le raccourci **Détails de la facture**, sélectionnez la case à cocher **Avoirs automatiques**.  
 
- Pour créer manuellement un avoir lorsque les lignes du contrat sont retirées d'un contrat de service, sur la page **Contrat de Service**, sous l'onglet **Actions**, dans le groupe **Fonctions**, choisissez **Avoir**.  
+ Pour créer manuellement un avoir lorsque les lignes du contrat sont retirées d'un contrat de service, sur la page **Contrat de Service**, sélectionnez l'action **Avoir**.  
 
 ## <a name="updating-and-evaluating-contracts"></a>Mise à jour et évaluation des contrats
 Vous devez parfois modifier les conditions d'un contrat après sa création. Dans la plupart des cas, vous devez ouvrir le contrat approprié sur la page **Contrat service** et le modifier de manière appropriée.  
@@ -99,12 +99,12 @@ Vous pouvez supprimer des lignes du contrat de service lorsque vous supprimez du
 4. Choisissez la ligne contrat à supprimer. Renseignez le champ **Date expiration contrat** avec la date à compter de laquelle vous souhaitez supprimer la ligne. Par exemple, vous pourriez saisir la date à laquelle l'article de service est tombé en panne.  
 5. Choisissez l'action **Supprimer lignes contrat**. La page **Supprimer lignes contrat** s'ouvre.  
 6. Remplissez les filtres par défaut : **N° contrat**, **N° article de service** et **Type contrat**. Si nécessaire, vous pouvez appliquer des filtres supplémentaires ou modifier les filtres existants.  
-7. Renseignez les champs du raccourci **Options**. Dans le champ **Action**, sélectionnez **Supprimer lignes**.  
+7. Renseignez les champs du raccourci **Options**, puis sélectionnez l'action **Supprimer des lignes**.  
 
 > [!NOTE]  
 >  Si le contrat n'est pas détaillé, vous devez mettre à jour la valeur du champ **Montant annuel** du raccourci **Détail facture** de la page **Contrat de service** afin d'indiquer que l'article de service a disparu du contrat.  
 >   
->  Si le contrat est détaillé et prépayé, et que vous avez validé des factures pour le contrat, vous pouvez créer un avoir pour ce contrat. Sous l'onglet de **Actions** , dans le groupe **Fonctions**, choisissez **Créer avoir**. Cela n'est pas nécessaire si la case à cocher **Avoirs automatiques** sur le raccourci **Détails facture** est sélectionnée. Dans ce cas un avoir est créé automatiquement lorsque vous supprimez une ligne contrat.
+>  Si le contrat est détaillé et prépayé, et que vous avez validé des factures pour le contrat, vous pouvez créer un avoir pour ce contrat. Choisissez l'action **Créer avoir**. Cela n'est pas nécessaire si la case à cocher **Avoirs automatiques** sur le raccourci **Détails facture** est sélectionnée. Dans ce cas un avoir est créé automatiquement lorsque vous supprimez une ligne contrat.
 
 ## <a name="service-line-cost-and-value"></a>Coût et valeur Ligne service
 Sur les lignes contrat de service, les montants des champs **Coût ligne** et **Valeur ligne** sont calculés comme indiqué dans les tableaux suivants.
@@ -150,7 +150,7 @@ Vous pouvez devoir changer le propriétaire d'un contrat de service. Si un artic
 4. Dans les champs **N° contrat** et **N° article de service**, vous pouvez voir les numéros du contrat et de l'article de service du client sélectionné. Si le client possède plusieurs contrats contenant plusieurs articles de service, la valeur de ces champs est **Multiple**. Pour visualiser la liste des contrats ou des articles de service correspondants, sélectionnez ces valeurs de champ.  
 5. Dans le champ **Nouveau n° client** , choisissez le nouveau client.  
 6. Dans le champ **Nouveau code destinataire**, choisissez l'adresse.  
-7. Choisissez **OK** pour modifier le client et/ou le code destinataire des contrats de service.  
+7. Cliquez sur le bouton **OK** pour modifier le client et/ou le code destinataire des contrats de service.  
 8. Choisissez l'action **Verrouiller contrat** pour verrouiller le contrat et vous assurer que les changements sont appliqués dans les contrats.  
 
 ## <a name="to-update-a-service-contract-price"></a>Réviser un tarif de contrat de service  

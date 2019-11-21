@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1dbbc8ff96f381a5e52c67eac9dfe2c91ee17eb5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 083bb3784e21621f97161e65ff3cfa80ed0efc52
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304003"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692743"
 ---
 # <a name="setting-up-banking"></a>Paramétrage des opérations bancaires
 Les fiches compte bancaire vous permettent de gérer tous vos comptes bancaires, dans n'importe quelle devise. Une fois que vous avez configuré les comptes bancaires, vous pouvez également utiliser l'option d'impression de chèque.
@@ -28,7 +28,7 @@ Pour utiliser les services bancaires électroniques pour importer des relevés b
 | --- | --- |
 | Configurer des fiches compte bancaire pour chacun de vos comptes bancaires, de manière à ce que vous puissiez gérer vos transactions bancaires. |[Configuration des comptes bancaires](bank-how-setup-bank-accounts.md) |
 | Configurer un service externe qui vous permet d'importer des relevés bancaires sous forme de flux bancaires pour le lettrage des paiements et les rapprochements bancaires. |[Configurer le service Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md) |
-| Configurer un service externe qui vous permet d'exporter vos paiements vers la banque pour traitement et d'importer des relevés bancaires sous forme de fichiers bancaires pour le lettrage des paiements et les rapprochements bancaires. |[Configurer le service de conversion de données bancaires](bank-how-setup-bank-data-conversion-service.md) |
+| Configurer un service externe qui vous permet d'exporter vos paiements vers la banque pour traitement et d'importer des relevés bancaires sous forme de fichiers bancaires pour le lettrage des paiements et les rapprochements bancaires. |[Utilisation de l'extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) |
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion des comptes bancaires](bank-manage-bank-accounts.md)  

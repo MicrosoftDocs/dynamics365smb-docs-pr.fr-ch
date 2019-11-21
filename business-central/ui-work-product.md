@@ -8,19 +8,24 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 11/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: 81ba616c55b364843a718e9b000bfee02a513ad1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: fbac11fc220184a2906ceed1811c7f5b0b7676b5
+ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310651"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "2774786"
 ---
 # <a name="working-with-included365finincludesd365fin_mdmd"></a>Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Dans le cadre de l'exécution des tâches, vous interagissez avec des données de différentes manières : création d'enregistrements et saisie de données, tri et filtrage de données, rédaction de procédures et sortie de données vers d'autres applications.
 
 Par exemple, vous pouvez ajuster la taille et la position de n'importe quelle page, étendre la largeur des colonnes et augmenter la hauteur des en-têtes de colonnes, puis modifiez le tri des données dans les colonnes. Si vous souhaitez utiliser la barre de défilement horizontale pour afficher toutes les colonnes dans une page de liste ou des lignes document, vous constatez la présence d'un volet Figer vertical pour empêcher le défilement de certaines colonnes.
+
+> [!TIP]
+> Pour obtenir un aperçu facile à imprimer des fonctions les plus utilisées, sélectionnez l'image suivante et téléchargez le fichier PDF.
+>
+> [ ![](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf)
 
 > [!NOTE]
 > Outre les fonctionnalités d'interface utilisateur générales décrites de cette section, vous pouvez utiliser d'autres fonctionnalités générales davantage liées à l'entreprise. Pour plus d'informations, voir [Fonctionnalités d'entreprise générales](ui-across-business-areas.md).
@@ -30,7 +35,7 @@ Le tableau suivant répertorie certaines des fonctionnalités générales et inc
 | À | Voir |
 | --- | --- |
 |Recherchez une page, un état, une action, une rubrique d'aide, ou une extension partenaire. |[Recherche de pages et d'informations avec Tell Me](ui-search.md) |
-|Obtenez une vue d'ensemble des pages de votre rôle et d'autres rôles, puis accédez à ces pages.|[Recherche de pages à partir d'une présentation de la fonctionnalité](ui-role-explorer.md)|
+|Obtenez une vue d'ensemble des pages de votre rôle et d'autres rôles, puis accédez à ces pages.|[Recherche de pages avec l'explorateur de rôles](ui-role-explorer.md)|
 | Filtrer les données dans des vues, des états, ou des fonctions en utilisant des symboles et des caractères spéciaux. |[Tri, recherche et filtrage de listes](ui-enter-criteria-filters.md) |
 |Découvrez les nombreuses fonctionnalités générales qui vous permettent d'entrer des données de façon rapide et simple.|[Saisie de données](ui-enter-data.md)|
 |Découvrez comment rapidement copier et coller des données y compris à l'aide des raccourcis clavier.|[FAQ sur l'opération Copier et coller](ui-copy-paste.md)|

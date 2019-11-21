@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f1724f95652194e426a353b4ebb89c54ef384754
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d9fdc5deab54647f5a4387b62862fd45bc36dd39
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310555"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554635"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Procédure pas à pas : configuration et facturation d'acomptes
 
@@ -169,7 +169,7 @@ Le jour suivant, le client appelle Susan et modifie sa commande. Il souhaite deu
 2.  Sur la ligne de l'article **1100**, dans le champ **Quantité**, entrez **2**.  
 
     Faites défiler pour afficher les champs d'acompte. Le champ **Montant acompte HT** affiche à présent **630** et le champ **Montant fact. acompte HT** indique **315**. Ceci indique qu'il existe un montant d'acompte supplémentaire qui n'a pas encore été facturé.  
-3.  Pour valider une facture pour le montant d'acompte supplémentaire, sur l'onglet **Actions**, dans le groupe **Validation**, sélectionnez **Acompte**, puis **Valider facture acompte**.  
+3.  Pour valider une facture pour le montant acompte supplémentaire, choisissez l'action **Valider facture acompte**.  
 
 ## <a name="applying-the-prepayments"></a>Lettrage des acomptes  
 Le client paie le montant des acomptes. Arnie, qui travaille au département Comptabilité, enregistre le paiement et le lettre avec les factures acompte.  

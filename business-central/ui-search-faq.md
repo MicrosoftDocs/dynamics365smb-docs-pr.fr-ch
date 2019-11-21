@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 9fac8d546a24839ebaa0719d721d886c03001521
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 88a1e6cc711888a3cf68744d0ea6bbfdee41aea3
+ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310771"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2695110"
 ---
 # <a name="tell-me-faq"></a>FAQ Tell Me
 Cette rubrique répond aux questions que nos utilisateurs expérimentés posent souvent à propos de la fonctionnalité Tell Me.
@@ -51,4 +51,4 @@ Non. Vous pouvez uniquement mettre en signet un lien vers une page ou les résul
 ## <a name="see-also"></a>Voir aussi  
 [Enregistrer et personnaliser les vues de liste](ui-views.md)  
 [Recherche de pages et d'informations avec Tell Me](ui-search.md)  
-[Recherche de pages à partir d'une présentation de la fonctionnalité](ui-role-explorer.md)
+[Recherche de pages avec l'explorateur de rôles](ui-role-explorer.md)

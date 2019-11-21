@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f054e9be11de6a71e9fe490bcc3d7f47dafff89d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: cbab5a90341fa3e04d47c8846b2f139febadcdf4
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314183"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553761"
 ---
 # <a name="create-production-boms"></a>Créer des nomenclatures de production
 Une nomenclature de production contient les données de base qui décrivent les composants et les produits semi-finis utilisés lors de la fabrication d'un article parent. Après la création d'un ordre de fabrication pour cet article parent, sa nomenclature de production gouvernera le calcul de besoins matériels tels que représentés sur la page **Composants ordre prod.**.
@@ -59,7 +59,7 @@ La date début indique le début de la période de validité de la version. La d
 
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Nomenclature de production**, puis sélectionnez le lien associé.  
 2.  Sélectionnez la nomenclature de production à copier, puis choisissez l'action **Versions**.  
-3.  Sous l'onglet **Accueil**, dans le groupe **Nouveau**, choisissez **Nouveau**.  
+3.  Sélectionnez l'action **Nouveau**.  
 4. Renseignez les champs selon vos besoins.
 5. Dans le champ **Code version**, saisissez le numéro d'identification unique de la version. Ce champ admet n'importe quelle combinaison de chiffres et de lettres.  
 

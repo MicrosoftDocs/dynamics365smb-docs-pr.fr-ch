@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 10/01/2019
+ms.date: 10/17/2019
 ms.author: edupont
-ms.openlocfilehash: 3a5fc25004ce7dd838369ff178b8d613fb984acd
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 96825fcc03bbbbc43c00f3bce4b9ac257a915a6f
+ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313531"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2649779"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Configuration minimale requise pour l'utilisation de Business Central
 Avant d'accéder à [!INCLUDE [prodshort](includes/prodshort.md)] en ligne, nous vous recommandons de vérifier que votre ordinateur ou périphérique mobile répond à la configuration système requise pour le produit. Cet article répertorie les éléments de la configuration requise.  
@@ -33,9 +33,9 @@ Avant d'accéder à [!INCLUDE [prodshort](includes/prodshort.md)] en ligne, nous
 **Taille de périphérique :** [!INCLUDE[d365fin](includes/d365fin_md.md)] est pris en charge sur les smartphones avec une taille d'écran minimale de 4 pouces et les tablettes avec une taille d'écran minimale de 7 pouces.  
 
 ## <a name="outlook"></a>Outlook
-**Applications Outlook :** pour utiliser [!INCLUDE[d365fin](includes/d365fin_md.md)] en ligne comme votre boîte de réception professionnelle dans Outlook, vous devez disposer d'Outlook 2016 ou d'une version ultérieure, d'Outlook Web App, d'OWA pour iPhone, d'OWA pour iPad ou d'OWA pour Android. Votre organisation doit également utiliser Office 365. Vous ne pouvez pas utiliser [!INCLUDE [prodshort](includes/prodshort.md)] en ligne en tant que boîte de réception de votre entreprise dans Outlook si votre organisation utilise Exchange Server sur site.  
-**Navigateurs :** lorsque vous utilisez [!INCLUDE[d365fin](includes/d365fin_md.md)] en tant que boîte de réception professionnelle dans Outlook Web App (OWA), le complément exige que votre ordinateur exécute l'un des navigateurs répertoriés précédemment dans cette rubrique.  
-**Plateformes :** lorsque vous utilisez le complément Outlook de [!INCLUDE[d365fin](includes/d365fin_md.md)] dans OWA pour iPhone, OWA pour iPad et OWA pour Android, le complément exige que votre périphérique mobile exécute l'une des plateformes mobiles répertoriées prises en charge pour [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+**Applications Outlook :** pour utiliser [!INCLUDE[d365fin](includes/d365fin_md.md)] en ligne comme votre boîte de réception professionnelle dans Outlook, vous devez disposer d'Outlook 2016 ou d'une version ultérieure, d'Outlook dans un navigateur, d'Outlook pour iPhone, d'Outlook pour iPad ou d'Outlook pour Android. Votre organisation doit également utiliser Office 365. Vous ne pouvez pas utiliser [!INCLUDE [prodshort](includes/prodshort.md)] en ligne en tant que boîte de réception de votre entreprise dans Outlook si votre organisation utilise Exchange Server sur site.  
+**Navigateurs :** lorsque vous utilisez [!INCLUDE[d365fin](includes/d365fin_md.md)] en tant que boîte de réception professionnelle dans Outlook dans un navigateur, le complément exige que votre ordinateur exécute l'un des navigateurs répertoriés précédemment dans cette rubrique.  
+**Plateformes :** lorsque vous utilisez le complément Outlook de [!INCLUDE[d365fin](includes/d365fin_md.md)] dans Outlook pour iPhone, Outlook pour iPad et Outlook pour Android, le complément exige que votre périphérique mobile exécute l'une des plateformes mobiles répertoriées prises en charge pour [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="excel"></a>Excel
 **Modifier dans Excel** : pour utiliser le complément Excel pour apporter des modifications dans Excel et les appliquer dans [!INCLUDE[d365fin](includes/d365fin_md.md)], Excel 2016 ou une version ultérieure est requis. Pour plus d'informations, voir [Analyse des états financiers dans Microsoft Excel](finance-analyze-excel.md).  

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 70f1e51a0cd2c1b6c90ca3d76013fb3a5f30f80e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 415cabbb859bfc49477f69b19ad4a4daf1137837
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314859"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554707"
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Procédure pas-à-pas : créer des prévisions de trésorerie à l'aide de tableaux d'analyse
 Cette procédure pas-à-pas décrit le mode d'utilisation des tableaux d'analyse pour élaborer des prévisions de trésorerie. Les tableaux d'analyse procèdent aux calculs qui ne peuvent pas être effectués directement dans le plan comptable de trésorerie. Dans les tableaux d'analyse, vous pouvez configurer des sous-totaux pour les réceptions et les décaissements de trésorerie. Ces sous-totaux peuvent être inclus dans les nouveaux totaux pour élaborer des prévisions de trésorerie.  
@@ -61,7 +61,7 @@ Après la configuration d'un nom de tableau d'analyse, Ken définit chaque ligne
 
 ### <a name="to-set-up-account-schedule-lines"></a>Pour configurer les lignes du tableau d'analyse  
 
-1.  Sur la page **Noms tableaux d'analyse**, sélectionnez le nouveau nom du tableau d’analyse **Prévision** que vous venez de créer. Sous l'onglet **Accueil**, dans le groupe **Processus**, choisissez **Modifier tableau d'analyse**.  
+1.  Sur la page **Noms tableaux d'analyse**, sélectionnez le nouveau nom de tableau d'analyse **Prévoir** que vous avez créé, puis choisissez l'action **Modifier tableau d'analyse**.  
 2.  Sur la page **Tableau d'analyse**, entrez chaque ligne, comme indiqué dans le tableau suivant.  
 
     > [!NOTE]  

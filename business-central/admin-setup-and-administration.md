@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 11/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: 70dd0d0e25bca02b87a56a3537ee885d5b802dcc
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b38a48c4b9a57a863518a6cd701176a0635b552b
+ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304196"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "2774714"
 ---
 # <a name="administration"></a>Administration
 Les tâches d'administration centrale sont généralement effectuées par une fonction dans la société. La portée de ces tâches peut dépendre de la taille de la société et des responsabilités de l'administrateur. Ces tâches sont notamment la gestion de la synchronisation de la base de données des files projets et messages, la configuration des utilisateurs et la personnalisation de l'interface utilisateur.  
@@ -33,7 +33,8 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 
 |**Pour**|**Voir**|  
 |------------|-------------|  
-|Affecter des autorisations aux utilisateurs, modifier les ensembles d'autorisations, et grouper les utilisateurs par autorisations.|[Gérer les utilisateurs et les autorisations](ui-how-users-permissions.md)|
+|Définir qui peut se connecter à [!INCLUDE[d365fin](includes/d365fin_md.md)]en créant des utilisateurs dans le Centre d'administration Office 365 en fonction des licences du produit.|[Créer des utilisateurs en fonction des licences](ui-how-users-permissions.md)| 
+|Affecter des autorisations aux utilisateurs, modifier les ensembles d'autorisations, et grouper les utilisateurs pour faciliter la gestion des autorisations.|[Attribuer des autorisations aux utilisateurs et aux groupes](ui-how-users-permissions.md)|
 |Ajouter des utilisateurs, gérer les autorisations et les accès aux données et affecter des rôles.|[Gérer les profils](admin-users-profiles-roles.md)|
 |Classer la sensibilité des données des champs afin de pouvoir répondre aux demandes des sujets des données concernant leurs données personnelles.|[Classification de la sensibilité des données](admin-classifying-data-sensitivity.md)|
 |Répondre aux demandes des sujets des données concernant leurs données personnelles.|[Réponse aux demandes relatives aux données personnelles](admin-responding-to-requests-about-personal-data.md)|
@@ -42,7 +43,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |Entrer des demandes ponctuelles ou récurrentes pour exécuter des états ou des codeunits.|[Utilisation des files d'attente des travaux pour planifier des tâches](admin-job-queues-schedule-tasks.md)|  
 |Gérer, supprimer ou compresser des documents|[Suppression de documents](admin-manage-documents.md)|  
 |Afficher des pages, des codeunits et des requêtes comme des services Web.|[Publication d'un service Web](across-how-publish-web-service.md)|
-|Dans le cadre de la création d'applications connectées entre [!INCLUDE[d365fin](includes/d365fin_md.md)] et des solutions tierces via les REST API, définissez des modèles qui sont utilisés pour remplir les propriétés vides d'une entité lorsque vous créez une action POST via une API.|[Configuration des modèles d'API](admin-configuring-api-template.md)|
+|Dans le cadre de la création de Connect Apps entre [!INCLUDE[d365fin](includes/d365fin_md.md)] et des solutions tierces via les API REST, définissez des modèles qui sont utilisés pour remplir les propriétés vides d'une entité lorsque vous créez une action POST via une API.|[Configuration des modèles d'API](admin-configuring-api-template.md)|
 |Chiffrez des données sur [!INCLUDE[d365fin](includes/d365fin_md.md)] Server en générant de nouvelles clés ou en important des clés existantes que vous activez sur le serveur.|[Gestion du chiffrement des données](admin-manage-data-encryption.md)|
 |Connectez Dynamics 365 Sales à [!INCLUDE[d365fin](includes/d365fin_md.md)] pour obtenir l'intégration transparente entre les relations client et le traitement des commandes dans le processus allant du prospect à l'encaissement.|[Intégration à Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
 |Modifier les champs et les actions affichés dans l'interface utilisateur pour correspondre aux processus entreprise de votre société et étendre la solution avec des applications.|[Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)|

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 777133cb15b6949eafe20abf325556cd8b16bb9a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c0c68b43e562ece0dce695ed4366dcc5ad409e27
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316082"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554803"
 ---
 # <a name="convert-service-contracts-that-include-vat-amounts"></a>Convertir les contrats de service incluant des montants TVA
 Étant donné que l'outil de modification du taux de TVA ne peut pas convertir les contrats de service, ces derniers doivent être convertis manuellement. Cette rubrique décrit plusieurs autres méthodes pour convertir les contrats de service.  
@@ -32,9 +32,9 @@ ms.locfileid: "2316082"
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Gestion des contrats**, puis sélectionnez le lien associé.  
 2. Sous l'onglet **Listes**, choisissez **Contrats de service**.  
 3. Créez un modèle contrat de service prépayé. Saisissez une date de début **01.01.2017** et une année pour la période de facturation du client **20000**.  
-4. Ce contrat doit être signé. Sous l'onglet **Accueil**, dans le groupe **Processus**, choisissez **Signer contrat**.  
+4. Pour signer le contrat, sélectionnez l'action **Signer le contrat**.  
 5. Créez une facture service.
-6. La facture est répertoriée en tant que facture de service non validée. Pour afficher la facture de service, choisissez **Service**, **Gestion des contrats**, puis **Factures service**.  
+6. La facture est répertoriée en tant que facture de service non validée. Pour afficher la facture de service, sélectionnez l'action **Service**, l'action **Gestion des contrats**, puis l'action **Factures service**.  
 7. Validez la facture service.  
 
 > [!NOTE]  
@@ -59,7 +59,7 @@ La procédure suivante décrit comment créer un avoir à l'aide du traitement p
 1. Exécutez l'outil de modification du taux de TVA au 1er juillet 2017. Le groupe de comptabilisation du produit général ou le groupe de comptabilisation du produit TVA est modifié. Pour plus d'informations, voir [Utiliser la TVA sur les ventes et les achats](finance-work-with-vat.md).  
 2. Après avoir exécuté l'outil de modification du taux de TVA, saisissez une date d'expiration pour le contrat de service. Vous pouvez désormais supprimer la ligne du contrat de service et en créer une qui soit identique à la précédente.  
 3. Créez une facture pour la période s'échelonnant de janvier 2017 à décembre 2012 avec le nouveau taux de TVA.  
-4. Pour créer un autre avoir, sur la page **Avoirs service**, choisissez **Nouveau** pour créer un avoir de service.  
+4. Pour créer un autre avoir, sur la page **Avoirs service**, sélectionnez l'action **Nouveau** pour créer un avoir de service.  
 5. Choisissez l'action **Obtenir écr. contrat prépayé**.  
 6. Une fois la conversion terminée, les écritures comptables de TVA et de service seront correctes.  
 

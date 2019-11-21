@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: fe015afa5508117fb7425042972e967d7a652485
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2cc4f25ad0ae861579789d05dd192c1019bfe505
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302515"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554317"
 ---
 # <a name="collect-payments-with-sepa-direct-debit"></a>Recouvrement de paiements par prélèvement automatique SEPA
 Avec le consentement de votre client, vous pouvez collecter les paiements directement à partir du compte bancaire du client en fonction du format SEPA.  
@@ -43,12 +43,12 @@ Avant de pouvoir traiter les paiements client par voie électronique en exportan
 * Configurez le mandat de prélèvement automatique qui reflète votre accord avec le client pour collecter ses paiements pendant une certaine durée établie.  
 
 ### <a name="to-set-up-your-bank-account-for-sepa-direct-debit"></a>Pour configurer votre compte bancaire par prélèvement automatique SEPA  
-1. Dans la zone **Rechercher**, saisissez **Comptes bancaires**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Comptes bancaires**, puis sélectionnez le lien associé.  
 2. Ouvrez le compte bancaire que vous souhaitez utiliser pour les prélèvements automatiques.  
 3. Sur le raccourci **Transfert**, dans le champ **Format exp. prélèvement SEPA** choisissez l'option pour le prélèvement SEPA.  
 
 ### <a name="to-set-up-the-customers-payment-method-for-sepa-direct-debit"></a>Pour configurer le mode de paiement client pour le prélèvement automatique SEPA  
-1. Dans la zone **Rechercher**, entrez **Modes de règlement**, puis choisissez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Modes de règlement**, puis sélectionnez le lien associé.  
 2. Sélectionnez l'action **Nouveau**.  
 3. Configurez un mode de règlement. Remplissez les champs relatifs au prélèvement automatique comme indiqué dans le tableau ci-dessous.  
 
@@ -61,16 +61,16 @@ Avant de pouvoir traiter les paiements client par voie électronique en exportan
     >  N'entrez pas de valeur dans le champ **N° compte contrepartie**.  
 
 4. Cliquez sur le bouton **OK** pour fermer la page **Modes de règlement**.  
-5. Dans la zone **Rechercher**, saisissez **Clients**, puis sélectionnez le lien associé.  
+5. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Clients**, puis sélectionnez le lien associé.  
 6. Ouvrez la fiche du client que vous voulez paramétrer pour la collection prélèvement automatique SEPA.  
 7. Sélectionnez le champ **Code mode de règlement**, puis le code mode de règlement que vous avez spécifié à l'étape 3.  
 8. Répétez les étapes 6 et 7 pour tous les clients que vous voulez paramétrer pour les collections prélèvements automatiques SEPA.  
 
 #### <a name="to-set-up-the-direct-debit-mandate-that-represents-the-customer-agreement"></a>Pour configurer le mandat de prélèvement qui représente l'accord client  
-1. Dans la zone **Rechercher**, saisissez **Clients**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Clients**, puis sélectionnez le lien associé.  
 2. Ouvrez la fiche du client que vous voulez paramétrer pour les prélèvements automatiques SEPA.  
 3. Choisissez l'option **Comptes bancaires**.  
-4. Sur la page **Liste des comptes bancaires client**, sélectionnez le compte bancaire client utilisé pour les prélèvements automatique puis, sous l'onglet **Accueil**, dans le groupe **Processus**, cliquez sur **Mandats prélèvement automatique**.  
+4. Sur la page **Liste des comptes bancaires client**, sélectionnez le compte bancaire client utilisé pour les prélèvements automatique, puis sélectionnez l'action **Mandats prélèvement automatique**.  
 5. Sur la page **Mandats de prélèvement SEPA**, renseignez les champs comme indiqué dans le tableau suivant.  
 
     |Champ|Désignation|  
@@ -97,7 +97,7 @@ Avant de pouvoir traiter les paiements client par voie électronique en exportan
 ### <a name="to-create-a-direct-debit-collection"></a>Pour créer une collection prélèvement automatique  
 
  1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Recouvrements prélèvement**, puis sélectionnez le lien associé.  
- 2. Sur la page **Recouvrements prélèvement**, sous l'onglet **Accueil**, dans le groupe **Nouveau**, choisissez **Créer collection prélèvement automatique**.  
+ 2. Sur la page **Recouvrements prélèvement**, sélectionnez l'action **Créer collection prélèvement automatique**.  
  3. Sur la page **Créer recouvrement prélèvement**, renseignez les champs comme indiqué dans le tableau suivant.  
 
      |Champ|Désignation|  
@@ -115,8 +115,8 @@ Avant de pouvoir traiter les paiements client par voie électronique en exportan
       Une collection prélèvement automatique est ajoutée à la page **Recouvrements prélèvement** et une ou plusieurs écritures de collection prélèvement automatique sont créées.  
 
 ### <a name="to-export-a-direct-debit-collection-entry-to-a-bank-file"></a>Pour exporter une collection prélèvement automatique vers un fichier bancaire  
- 1. Sur la page **Recouvrements prélèvement**, sous l'onglet **Accueil**, dans le groupe **Traitement**, choisissez **Écritures recouvrement prélèvement**.  
- 2. Sur la page **Écritures recouvrement prélèvement**, sélectionnez l'écriture que vous voulez exporter, puis sous l'onglet **Accueil**, dans le groupe **Traitement**, cliquez sur **Créer fichier prélèvement automatique**.  
+ 1. Sur la page **Recouvrements prélèvement**, sélectionnez l'action **Écritures recouvrement prélèvement**.  
+ 2. Sur la page **Écritures recouvrement prélèvement**, sélectionnez l'écriture que vous voulez exporter, puis sélectionnez l'action **Créer fichier prélèvement automatique**.  
  3. Enregistrez le fichier d'exportation à l'emplacement où vous l'envoyez ou transférez\-le à votre banque électronique.  
 
       Sur la page **Écritures recouvrement prélèvement**, le champ **Statut recouvrement prélèvement** est modifié sur Fichier créé. Sur la page **Mandats de prélèvement SEPA**, le champ **Compteur prélèvements** est mis à jour avec un nombre.  
@@ -125,12 +125,12 @@ Avant de pouvoir traiter les paiements client par voie électronique en exportan
 
 ### <a name="to-reject-a-direct-debit-collection-entry"></a>Pour rejeter une écriture collection prélèvement automatique  
 
- * Sur la page **Écritures recouvrement prélèvement**, sélectionnez l'écriture qui n'a pas été traitée, puis sous l'onglet **Accueil**, dans le groupe **Traitement**, cliquez sur **Rejeter écriture**.  
+ * Sur la page **Écritures recouvrement prélèvement**, sélectionnez l'écriture qui n'a pas été traitée, puis sélectionnez l'action **Rejeter écriture**.  
 
       La valeur du champ **Statut** de la page **Écritures recouvrement prélèvement** est modifiée sur **Rejetée**.  
 
 ### <a name="to-close-a-direct-debit-collection"></a>Pour fermer une collection prélèvement automatique  
- *  Sur la page **Écritures recouvrement prélèvement**, sélectionnez l'écriture qui a été traitée, puis sous l'onglet **Accueil**, dans le groupe **Traitement**, cliquez sur **Fermer collection**.  
+ *  Sur la page **Écritures recouvrement prélèvement**, sélectionnez l'écriture qui n'a pas été traitée, puis sélectionnez l'action **Fermer collection**.  
 
       La collection prélèvement automatique associée est fermée.  
 

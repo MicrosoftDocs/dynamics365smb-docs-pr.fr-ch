@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5b153d68636e948a01a5ab2d514828710e413f3d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f567bb154781c3fe506a5609325f793d47e231e5
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311659"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553785"
 ---
 # <a name="work-on-service-tasks"></a>Travailler sur des tâches service
 Après avoir créé une commande ou devis service, enregistré des lignes article de service, et affecté des ressources aux articles de service de la commande ou du devis, vous pouvez commencer la réparation et la maintenance des articles de service.  
@@ -31,7 +31,7 @@ Pour assurer le suivi des modifications et obtenir une vue graphique de vos acti
 2. Pour obtenir la liste des tâches service auxquelles une ressource ou un groupe de ressources est affecté, renseignez le champ **Filtre ressources** ou **Filtre groupe ressources** et appuyez sur Entrée.  
 3. Pour obtenir la liste des tâches service ayant certaines dates réponse sur une période de temps donnée, renseignez le champ **Filtre date réponse** et appuyez sur Entrée.  
 4. Pour obtenir la liste des tâches service ayant un certain état affectation ou réparation, renseignez le champ **Filtre état affectation** ou **Filtre code état réparation** et appuyez sur Entrée.  
-5. Sélectionnez la tâche service que vous souhaitez utiliser. Sous l'onglet **Naviguer**, dans le groupe **Tâches service**, choisissez **Feuille activité article**. La page **Feuille activité article de service** s'ouvre.  
+5. Sélectionnez la tâche service que vous souhaitez utiliser. Sélectionnez l'action **Feuille activité article**. La page **Feuille activité article de service** s'ouvre.  
 6. Enregistrez les textes standard, les pièces de rechange, les heures ressource et les coûts à l'aide des options correspondantes dans le champ **Type** : <Blank>, **Article**, **Ressource** et **Coût**.  
 7. Dans le champ **Statut réparation**, sélectionnez le statut approprié.  
 
@@ -43,7 +43,7 @@ Lors de l'exécution d'un service sur une commande service, vous pouvez enregist
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes service**, puis sélectionnez le lien associé.  
 2. Ouvrez la commande service pour laquelle vous voulez enregistrer le service, puis choisissez la ligne article.  
-3. Choisissez **Actions**, sélectionnez **Ligne**, puis **Feuille activité article de service**.  
+3. Choisissez l'action **Feuille Article de service**.  
 4. Dans les lignes, spécifiez les articles utilisés, les coûts exposés et le temps passé au service.  
 
    > [!NOTE]  

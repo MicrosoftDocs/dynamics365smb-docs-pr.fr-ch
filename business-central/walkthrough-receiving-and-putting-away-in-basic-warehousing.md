@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 597f14f07f7e8ac690dce8a5473d01ec68d1669a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 31ac21dbba331748c9eef7bce199a5709147016b
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314764"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554659"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Procédure pas à pas : Réception et rangement dans les configurations de stockage de base
 
@@ -126,7 +126,7 @@ Sur la page **Rangement stock**, vous pouvez gérer toutes les activités entrep
 3.  Sélectionnez le champ **Document origine**, puis sélectionnez **Commande achat**.  
 4.  Sélectionnez le champ **N° origine**, sélectionnez la ligne correspondant à l'achat au fournisseur 10000, puis cliquez sur le bouton **OK**.  
 
-    Sinon, sous l'onglet **Actions**, dans le groupe **Fonctions**, choisissez **Extraire document origine**, puis sélectionnez la commande achat.  
+    Sinon, choisissez l'action **Extraire document origine**, puis sélectionnez la commande achat.  
 
 5.  Choisissez l'action **Remplir qté à traiter**.  
 

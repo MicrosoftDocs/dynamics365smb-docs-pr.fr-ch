@@ -8,12 +8,12 @@ ms.reviewer: edupont04
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
 ms.date: 10/01/2019
 ms.author: mikebc
-ms.openlocfilehash: 93a68509653aef29bb8f798e7fded70bab550e13
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a0b5d48f5decbed87337e27145486a2884a6612d
+ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315075"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2695206"
 ---
 # <a name="searching-and-filtering-faq"></a>FAQ sur la recherche et le filtrage
 Cet article répond à des questions courantes que vous pouvez avoir à propos de la recherche et du filtrage.
@@ -30,7 +30,7 @@ La recherche et le filtre ont été fortement optimisés pour les utilisateurs q
 Le volet Filtre est disponible sur les pages où la liste est le principal contenu sur la page, tels que des feuilles de calcul et des pages de liste, y compris les listes accessibles depuis la barre de navigation. Le volet Filtre n'est pas encore disponible pour les listes affichées comme parties, par exemple les récapitulatifs ou les parties de tableau de bord. Lorsqu'une liste est intégrée sur une page, comme des lignes vente dans une commande vente, le volet Filtre est disponible lorsque vous vous focalisez sur cette liste à l'aide du bouton Mode focalisation. Pour en savoir plus, reportez-vous à la rubrique [Concentration sur les articles de ligne](ui-enter-data.md#Focus).
 
 ## <a name="how-can-i-save-my-filters"></a>Comment enregistrer mes filtres ?
-Vos filtres et ajustements des filtres prédéfinis sont enregistrés tout au long de la session (lorsque vous restez connecté), même si vous quittez la page. Vous pouvez enregistrer les filtres de manière permanente en tant que vue nommée de la liste en choisissant l'icône ![Enregistrer la vue](media/save_view_icon.png "Enregistrer la vue") dans le volet filtre. Pour plus d'informations, voir [FAQ sur les vues de liste](ui-views-faq.md). Notez que, contrairement aux filtres, le texte de recherche n'est pas mémorisé lorsque vous quittez une page et n'est pas enregistré lorsque vous enregistrez une vue.
+Vos filtres et ajustements des filtres prédéfinis sont enregistrés tout au long de la session (lorsque vous restez connecté), même si vous quittez la page. Vous pouvez enregistrer les filtres de manière permanente en tant que vue nommée de la liste en choisissant l'icône ![Enregistrer la vue](media/save_view_icon.png "Enregistrer la vue") dans le volet Filtre. Pour plus d'informations, voir [FAQ sur les vues de liste](ui-views-faq.md). Notez que, contrairement aux filtres, le texte de recherche n'est pas mémorisé lorsque vous quittez une page et n'est pas enregistré lorsque vous enregistrez une vue.
 
 Sur les pages de demande de rapport, vous pouvez également enregistrer des filtres ou utiliser des filtres prédéfinis. Pour plus d'informations, voir [Utilisation des paramètres enregistrés](ui-work-report.md#SavedSettings).
 
@@ -51,6 +51,6 @@ En tant qu'administrateur local, vous développez le délai des recherches en mo
 
 ## <a name="see-also"></a>Voir aussi
 [Tri, recherche et filtrage](ui-enter-criteria-filters.md)  
-[Recherche de pages et d'informations avec Tell Me](ui-search.md)  
-[Recherche de pages à partir d'une présentation de la fonctionnalité](ui-role-explorer.md)  
+[Recherche de pages et d'informations avec la fonction de recherche](ui-search.md)  
+[Recherche de pages avec l'explorateur de rôles](ui-role-explorer.md)  
 [Mise en route](product-get-started.md)  

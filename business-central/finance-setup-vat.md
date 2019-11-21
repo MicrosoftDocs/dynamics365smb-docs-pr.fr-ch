@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 10/01/2019
+ms.date: 11/11/2019
 ms.author: bholtorf
-ms.openlocfilehash: 46fbc3e9c2553a7c45fe571a74126c534d442b7c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0360396d0379ca325a8563fffbfead971b8ba7f1
+ms.sourcegitcommit: 02f1633213793bfc040ad0d2a96fe76572215aa5
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301651"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "2798538"
 ---
-# <a name="setting-up-calculations-and-posting-methods-for-value-added-tax"></a>Configuration des méthodes de calcul et de validation de la taxe sur la valeur ajoutée
+# <a name="set-up-value-added-tax"></a>Configuration de la TVA
 Les clients et les entreprises payent la TVA lorsqu'ils achètent des biens ou des services. Le montant de la TVA à payer peut varier en fonction de plusieurs facteurs. Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous configurez la TVA pour spécifier les taux à utiliser pour calculer les montants de taxe sur la base des éléments suivants :
 
 * À qui vous vendez  
@@ -36,14 +36,14 @@ Si vous souhaitez configurer vous-même les calculs de TVA, ou en savoir plus su
 Il est recommandé d'utiliser le guide de configuration assistée Paramètres TVA pour configurer la TVA dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 Pour démarrer le guide de configuration assistée, procédez comme suit :
-1. Choisissez l'icône de ![l'ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Configuration assistée**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône de l'![ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Configuration assistée**.  
 2. Choisissez **Configuration TVA**.
 
 ## <a name="to-set-up-vat-registration-numbers-for-your-country-or-region"></a>Pour configurer les numéros d'identification intracommunautaire pour votre pays ou région
 Pour garantir que les personnes entrent des numéros d'identification intracommunautaire valides, vous pouvez définir des formats pour les numéros d'identification intracommunautaire utilisés dans des pays ou des régions dans lesquels vous travaillez. [!INCLUDE[d365fin](includes/d365fin_md.md)] affichera un message d'erreur lorsque un employé fait une erreur ou utilise un format incorrect pour le pays ou la région.
 
 Pour configurer des numéros d'identification intracommunautaire, procédez comme suit :
-1. Choisissez l'icône de ![l'ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Pays/Régions**, puis sélectionnez le lien associé.
+1. Choisissez l'icône de l'![ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Pays/régions**.
 2. Choisissez le pays ou la régions, puis cliquez sur **Formats n° identif. intracomm**.
 3. Dans le champ **Formats**, définissez le format en saisissant un ou plusieurs des caractères suivants :  
 
@@ -61,7 +61,7 @@ Utilisez des codes faciles à retenir et qui décrivent le groupe comptabilisati
 
 Pour configurer un groupe comptabilisation marché TVA, procédez comme suit :
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Groupe compta. marché TVA**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Groupe compta. marché TVA**, puis sélectionnez le lien associé.  
 2. Renseignez les champs selon vos besoins.
 
 Paramétrez les groupes comptabilisation marché TVA par défaut en les liant à des groupes comptabilisation marché. [!INCLUDE[d365fin](includes/d365fin_md.md)] affecte automatiquement le groupe comptabilisation marché TVA lorsque vous affectez le groupe comptabilisation marché à un client, un fournisseur ou un compte général.
@@ -72,7 +72,7 @@ Il est recommandé d'utiliser des codes faciles à retenir et qui décrivent le 
 
 Pour configurer un groupe comptabilisation marché TVA, procédez comme suit :
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Groupes comptabilisation produit TVA**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Groupes compta. produit TVA**, puis sélectionnez le lien associé.  
 2. Renseignez les champs selon vos besoins.
 
 ## <a name="to-combine-vat-posting-groups-in-vat-posting-setups"></a>Pour regrouper des groupes comptabilisation TVA dans les paramètres comptabilisation TVA
@@ -82,7 +82,7 @@ Définissez autant de combinaisons que nécessaire. Si vous voulez regrouper des
 
 Pour regrouper des paramètres comptabilisation TVA, procédez comme suit :
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres compta. TVA**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres comptabilisation TVA**, puis sélectionnez le lien associé.
 2. Renseignez les champs selon vos besoins.
 
 ## <a name="to-assign-vat-posting-groups-by-default-to-multiple-entities"></a>Pour affecter des groupes comptabilisation TVA par défaut à plusieurs entités
@@ -93,22 +93,22 @@ Si vous souhaitez appliquer les mêmes groupes comptabilisation TVA à plusieurs
 
 Le groupe comptabilisation marché ou produit TVA est affecté lorsque vous choisissez un groupe comptabilisation marché ou produit pour un client, un fournisseur, un article ou une ressource.
 
-## <a name="to-assign-vat-posting-groups-to-individual-accounts-customers-vendors-items-and-resources"></a>Pour affecter des groupes comptabilisation TVA à des comptes, clients, fournisseurs, articles et ressources individuels
+## <a name="assigning-vat-posting-groups-to-accounts-customers-vendors-items-and-resources"></a>Affecter des groupes comptabilisation TVA à des comptes, clients, fournisseurs, articles et ressources
 Les sections suivantes décrivent comment affecter des groupes comptabilisation TVA à des entités individuelles.
 
 ### <a name="to-assign-vat-posting-groups-to-individual-general-ledger-accounts"></a>Pour affecter des groupes comptabilisation TVA à des comptes généraux individuels
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Plan comptable**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Plan comptable**, puis sélectionnez le lien associé.  
 2. Ouvrez la fiche **Compte général** pour le compte.  
 3. Sous le raccourci **Comptabilisation**, dans le champ **Type compta. TVA**, choisissez **Vente** ou **Achat**.  
 5. Choisissez les groupes comptabilisation TVA à utiliser pour le compte vente ou achat.  
 
 ### <a name="to-assign-vat-business-posting-groups-to-customers-and-vendors"></a>Pour affecter des groupes comptabilisation marché TVA à des clients et des fournisseurs  
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Client** ou **Fournisseur**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône d'![ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Client** ou **Fournisseur**, puis sélectionnez le lien associé.  
 2. Sur la fiche **Client** ou **Fournisseur**, développez le raccourci **Facturation**.  
 3. Choisissez le groupe comptabilisation marché TVA.  
 
 ### <a name="to-assign-vat-product-posting-groups-to-individual-items-and-resources"></a>Pour affecter des groupes comptabilisation produit TVA à des articles et des ressources individuels  
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Article** ou **Ressource**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône d'![ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Article** ou **Ressource**, puis sélectionnez le lien associé.  
 2. Exécutez l'une des opérations suivantes :  
 
 * Sur la fiche **Article**, développez le raccourci **Prix et validation**, puis sélectionnez **Afficher plus** pour afficher le champ **Groupe compta. produit TVA**.  
@@ -116,14 +116,12 @@ Les sections suivantes décrivent comment affecter des groupes comptabilisation 
 3. Choisissez le groupe comptabilisation produit TVA.  
 
 ## <a name="setting-up-vat-statement-templates-and-vat-statement-names"></a>Paramétrage des modèles de déclaration de TVA et des noms de déclaration de TVA
-Les autorités fiscales peuvent modifier et modifient leurs exigences de validation de la TVA. Les **Modèles déclaration TVA** et les **Noms déclaration TVA** peuvent vous aider à vous préparer aux changements à venir et à vous conformer en douceur aux nouvelles exigences. Vous pouvez utiliser les modèles déclaration de TVA pour définir les champs à inclure dans votre déclaration de TVA, qui définissent à leur tour les calculs, et vous pouvez créer un modèle déclaration de TVA lorsque les exigences changent. Par exemple, un modèle peut calculer la TVA pour cette année en fonction des exigences actuelles, et un autre modèle peut calculer la TVA en fonction des exigences de l'année suivante. Les modèles permettent également de conserver un historique des formats de déclaration de TVA, pour vous permettre de déterminer comment la TVA a été calculée dans les années précédentes.
+Les autorités fiscales peuvent modifier et modifient leurs exigences de validation de la TVA. Les modèles de déclaration de TVA et les noms de déclaration de TVA peuvent vous aider à vous préparer aux changements à venir et à vous conformer en douceur aux nouvelles exigences. Vous pouvez utiliser les modèles déclaration de TVA pour définir les champs à inclure dans votre déclaration de TVA, qui définissent à leur tour les calculs, et vous pouvez créer un modèle déclaration de TVA lorsque les exigences changent. Par exemple, un modèle peut calculer la TVA pour cette année en fonction des exigences actuelles, et un autre modèle peut calculer la TVA en fonction des exigences de l'année suivante. Les modèles permettent également de conserver un historique des formats de déclaration de TVA, pour vous permettre de déterminer comment la TVA a été calculée dans les années précédentes.
 
-## <a name="how-to-define-and-preview-vat-statements"></a>Définition et affichage d'un aperçu des déclarations de TVA
-Les déclarations de TVA vous permettent de calculer le montant de la déclaration de TVA pour une période donnée, par exemple, un trimestre. Après avoir défini une déclaration de TVA, vous pouvez en afficher un aperçu pour vérifier qu'elle répond à vos besoins.
+## <a name="to-define-a-vat-statements"></a>Pour définir une déclaration de TVA
+Les déclarations de TVA vous permettent de calculer le montant de la déclaration de TVA pour une période donnée, par exemple, un trimestre.
 
-Pour définir une déclaration de TVA, procédez comme suit :
-
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Déclarations de TVA**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Déclarations TVA**, puis sélectionnez le lien associé.  
 2. Choisissez le champ **Nom**, puis choisissez **Nouveau** dans la page **Noms déclarations TVA**.
 3. Renseignez les champs requis. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -131,34 +129,39 @@ Pour définir une déclaration de TVA, procédez comme suit :
 > Vous pouvez filtrer les informations de la déclaration, selon votre sélection dans le champ **Type**. L'option **Totalisation comptes** est utile lorsque vous souhaitez calculer la TVA à partir d'un compte spécifique.
 L'option **TVA** permet d'obtenir la TVA pour les comptes affectés aux sélections dans les champs **Type compta. TVA**, **Groupe compta. marché TVA** et/ou **Groupe compta. produit TVA**. L'option **Total de lignes** permet de saisir une valeur ou des critères de filtre rapide dans le champ **Total de lignes**. Pour plus d'informations, voir [Recherche, filtrage et tri des données](ui-enter-criteria-filters.md). L'option **Description** est souvent utilisée pour ajouter une note à la déclaration. Par exemple, vous pouvez l'utiliser comme en-tête si vous avez utilisé Total de lignes.
 
-Pour afficher un aperçu de la déclaration de TVA, procédez comme suit :
+## <a name="to-preview-the-vat-statement"></a>Afficher la déclaration de TVA
+Après avoir défini une déclaration de TVA, vous pouvez en afficher un aperçu pour vérifier qu'elle répond à vos besoins.
 
 1. Choisissez **Aperçu**.
 2. Entrez un filtre de date pour limiter la déclaration à une période spécifique. Pour plus d'informations sur la personnalisation de la page pour afficher le filtre de date, voir [Recherche, filtrage et tri des données](ui-enter-criteria-filters.md).
 3. Vous pouvez sélectionner diverses options pour indiquer le type des écritures TVA à inclure dans la déclaration.
 4. Sur les lignes où le champ **Type** indique la valeur **TVA**, vous pouvez afficher la liste des écritures TVA en choisissant le montant figurant dans le champ **Montant colonne**.   
 
-## <a name="to-set-up-clauses-to-explain-the-use-of-non-standard-vat-rates"></a>Pour configurer des clauses pour expliquer l'utilisation de taux de TVA non standard
+## <a name="setting-up-clauses-to-explain-vat-exemption-or-non-standard-vat-rates"></a>Configuration de clauses pour expliquer l'exonération de TVA ou les taux de TVA non standard
 Vous définissez une clause TVA afin de décrire le type de TVA qui est appliquée. Les informations peuvent être requises par une réglementation gouvernementale. Après avoir configuré une clause TVA et l'avoir associée à un paramètre validation TVA, la clause TVA est affichée sur les documents vente imprimés qui utilisent le groupe de paramètres validation TVA.
 
 Si nécessaire, vous pouvez également spécifier comment convertir les clauses TVA dans d'autres langues. Ensuite, lorsque vous créez et imprimez un document vente qui contient un identifiant TVA, le document comprend la clause TVA traduite. Le code langue spécifié sur la fiche client détermine la langue.
 
+Lorsque des taux de TVA non standard sont utilisés dans différents types de documents, tels que des factures ou des avoirs, les entreprises sont généralement tenues d'inclure un texte d'exonération (clause de TVA) indiquant les raisons pour lesquelles un taux de TVA réduit ou nul a été calculé. Vous pouvez définir différentes clauses de TVA à inclure dans les documents commerciaux en fonction du type de document, telles que facture ou avoir. Pour ce faire, accédez à la page **Clauses TVA par type doc.**.
+
 Vous pouvez modifier ou supprimer une clause TVA, et les modifications que vous apportez seront visibles dans un état généré. Toutefois, [!INCLUDE[d365fin](includes/d365fin_md.md)] ne crée pas d'historique des modifications. Sur l'état, les désignations des clauses TVA sont imprimées et affichées pour toutes les lignes de l'état à côté du montant de la TVA et du montant de base de la TVA. Si aucune clause TVA n'a été définie pour les lignes du document vente, la totalité de la section est omise lors de l'impression de l'état.
 
 ### <a name="to-set-up-vat-clauses"></a>Pour configurer des clauses TVA
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Clauses TVA**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Clauses TVA**, puis sélectionnez le lien associé.  
 2. Sur la page **Clauses TVA**, créez une ligne.  
 3. Dans le champ **Code**, entrez un identificateur pour la clause. Vous utilisez ce code pour affecter la clause à des groupes comptabilisation TVA.  
-4. Dans le champ **Description**, saisissez le texte que vous souhaitez afficher sur les documents pouvant inclure la TVA. Dans le champ **Description 2**, entrez du texte supplémentaire, si nécessaire. Le texte s'affiche sur de nouvelles lignes.  
-5. Facultatif : pour affecter immédiatement la clause TVA à un paramètre comptabilisation TVA, sélectionnez **Paramètres**, puis sélectionnez la clause. Si vous souhaitez attendre, vous pouvez affecter la clause ultérieurement dans la page Paramètres comptabilisation TVA.  
-6. Facultatif : pour spécifier comment traduire la clause TVA, sélectionnez l'action **Traductions**.
+4. Dans le champ **Description**, saisissez le texte d'exonération de TVA que vous souhaitez afficher sur les documents pouvant inclure la TVA. Dans le champ **Description 2**, entrez du texte supplémentaire, si nécessaire. Le texte sera affiché sur de nouvelles lignes.
+5. Choisissez l'action **Description par type de document**.
+6. Sur la page **Clauses TVA par type doc.**, remplissez les champs pour définir quel texte d'exonération de TVA afficher sur quel type de document.  
+7. Facultatif : pour affecter immédiatement la clause TVA à un paramètre comptabilisation TVA, sélectionnez **Paramètres**, puis sélectionnez la clause. Si vous souhaitez attendre, vous pouvez affecter la clause ultérieurement dans la page **Paramètres comptabilisation TVA**.  
+8. Facultatif : pour spécifier comment traduire la clause TVA, sélectionnez l'action **Traductions**.
 
 ### <a name="to-assign-a-vat-clause-to-a-vat-posting-setup"></a>Pour affecter une clause TVA à un paramètre comptabilisation TVA
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres compta. TVA**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres comptabilisation TVA**, puis sélectionnez le lien associé.  
 2. Dans la colonne **Clause TVA**, choisissez la clause à utiliser pour chaque paramètre comptabilisation TVA auquel elle s'applique.  
 
 ### <a name="to-specify-translations-for-vat-clauses"></a>Pour spécifier des traductions pour les clauses TVA
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Clauses TVA**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Clauses TVA**, puis sélectionnez le lien associé.  
 2. Sélectionnez l'option **Traductions**.  
 3. Dans le champ **Code langue**, sélectionnez la langue de traduction.  
 4. Dans les champs **Description** et **Description 2**, saisissez les traductions des descriptions. Ce texte s'affiche dans les documents état de TVA traduits.  
@@ -167,9 +170,9 @@ Vous pouvez modifier ou supprimer une clause TVA, et les modifications que vous 
 Utilisez la fonction TVA à l'importation pour valider un document dont le montant est en TVA. Elle est utile lorsque vous recevez une facture des autorités fiscales pour la TVA sur les biens importés.  
 
 Pour configurer des codes pour la TVA à l'importation, procédez comme suit :  
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Groupes comptabilisation produit TVA**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Groupes compta. produit TVA**, puis sélectionnez le lien associé.  
 2. Sur la page Groupes compta. produit TVA, configurez un groupe comptabilisation produit TVA pour la TVA à l'importation.  
-3. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres compta. TVA**, puis sélectionnez le lien associé.  
+3. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres comptabilisation TVA**, puis sélectionnez le lien associé.  
 4. Sur la page Paramètres compta. TVA, créez une ligne ou utilisez l'un des groupes comptabilisation marché TVA existants en combinaison avec le nouveau groupe comptabilisation produit TVA créé pour la TVA à l'importation.  
 5. Dans le champ **Mode calcul TVA**, sélectionnez **Exclusivement TVA**.  
 6. Dans le champ **Compte TVA achat**, indiquez le compte général à utiliser pour valider la TVA à l'importation. Tous les autres comptes sont facultatifs.  
@@ -235,12 +238,12 @@ Avant de configurer l'outil de modification du taux de TVA, vous devez vous pré
 * Sauvegardez les données.
 
 ### <a name="to-set-up-the-vat-rate-change-tool"></a>Pour configurer l'outil de modification du taux de TVA  
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres modification taux TVA**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres modification taux TVA**, puis sélectionnez le lien associé.  
 2. Sur les raccourcis **Données principales**, **Feuilles** et **Documents**, sélectionnez la valeur d'un groupe de comptabilisation dans la liste des options pour les champs requis.  
 
 ### <a name="to-set-up-product-posting-group-conversion"></a>Pour paramétrer une conversion du groupe de comptabilisation du produit  
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres modification taux TVA**, puis sélectionnez le lien associé.  
-2. Dans la page **Paramètres modification taux TVA**, sous l'onglet **Accueil**, dans le groupe **Processus**, choisissez **Conv. groupe compta. produit TVA** ou **Conv. groupe compta. produit général**.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres modification taux TVA**, puis sélectionnez le lien associé.  
+2. Dans la page **Paramètres modification taux TVA**, choisissez l'action **Conv. groupe compta. produit TVA** ou **Conv. groupe compta. produit général**.  
 3. Dans le champ **Code début**, saisissez le groupe de comptabilisation actuel.  
 4. Dans le champ **Code fin**, saisissez le nouveau groupe de comptabilisation.  
 
@@ -253,7 +256,7 @@ Vous utilisez l'outil de modification de la TVA pour gérer les variations du ta
 > [!IMPORTANT]  
 >  Avant d'effectuer la conversion de modification du taux de TVA, vous pouvez tester la conversion. Pour ce faire, suivez la procédure ci-dessous, mais veillez à désactiver les cases à cocher **Effectuer la conversion** et **Outil de modification du taux de TVA terminé**. Lors de la conversion test, le champ **Converti** de la table **Écriture journal modification taux TVA** est supprimé et le champ **Date conversion** de la table **Écriture journal modification taux TVA** est vide. Une fois la conversion terminée, choisissez **Écritures journal modification pour taux de TVA** pour afficher les résultats de la conversion test. Vérifiez chaque écriture avant d'exécuter la conversion. Vérifiez en particulier les transactions qui utilisent un ancien taux de TVA.     
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres modification taux TVA**, puis sélectionnez le lien **Paramètres modification taux TVA**.  
+1. Choisissez l'icône d'![ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Modification taux TVA**, puis sélectionnez le lien **Paramètres modification taux TVA** link.  
 2. Vérifiez que vous avez déjà configuré une conversion de groupe comptabilisation produit TVA ou une conversion de groupe comptabilisation produit général.  
 3. Activez la case à cocher **Effectuer la conversion**.  
 
@@ -261,12 +264,12 @@ Vous utilisez l'outil de modification de la TVA pour gérer les variations du ta
     >  Désactivez la case à cocher **Outil de modification du taux de TVA terminé**. La case est cochée automatiquement lorsque la conversion de modification du taux de TVA est terminée.  
 
 4. Sélectionnez l'action **Convertir**.  
-5. Une fois la conversion terminée, sous l'onglet **Accueil**, dans le groupe **Processus**, choisissez **Écritures journal modification pour taux de TVA** pour afficher les résultats de la conversion.  
+5. Une fois la conversion terminée, choisissez l'action **Écritures journal modification pour taux de TVA** pour afficher les résultats de la conversion.  
 
 > [!IMPORTANT]  
 >  Après la conversion, le champ **Converti** de la table **Écriture journal modification taux TVA** est activé et le champ **Date conversion** de la table **Écriture journal modification taux TVA** affiche la date de conversion.  
 
 ## <a name="see-also"></a>Voir aussi  
 [Configuration de la TVA sur encaissement](finance-setup-unrealized-vat.md)  
-[Procédure : Déclarer la TVA à l’administration fiscale](finance-how-report-vat.md)  
+[Déclarer la TVA à une autorité fiscale](finance-how-report-vat.md)  
 [Utiliser la TVA sur les ventes et les achats](finance-work-with-vat.md)  

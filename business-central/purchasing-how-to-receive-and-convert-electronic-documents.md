@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6ed3790a5e74528866ef226872be99db9dec7d4f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e9543d9fc361f2948907bc0e84d37dd870139cd8
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312403"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553881"
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Recevoir et convertir des documents électroniques
 La version générique de [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge la réception de factures et d'avoirs électroniques au format PEPPOL, qui est pris en charge par les principaux fournisseurs de services d'échange de documents. Pour recevoir une facture d'un fournisseur en tant que document électronique PEPPOL, traitez le document sur la page Documents entrants pour le convertir en facture achat ou en ligne feuille comptabilité dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -43,7 +43,7 @@ La version générique de [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en c
 
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Documents entrants**, puis sélectionnez le lien associé.  
 
-2.  Sélectionnez la ligne de l'enregistrement du document entrant qui représente une nouvelle facture électronique entrante, puis sous l'onglet **Accueil**, dans le groupe **Gérer**, sélectionnez **Modifier**.  
+2.  Sélectionnez la ligne de l'enregistrement du document entrant qui représente une nouvelle facture électronique entrante, puis sélectionnez l'action **Modifier**.  
 
      Sur la page **Fiche document entrant**, le fichier XML est joint, et la plupart des champs sont préremplis avec les informations de la facture électronique. Pour plus d'informations, voir [Créer des enregistrements document entrant](across-how-create-income-document-records.md).  
 
@@ -51,7 +51,7 @@ La version générique de [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en c
 
 4.  Pour mapper le texte de la facture fournisseur à un compte débit spécifique, sous l'onglet **Actions**, dans le groupe **Général**, choisissez **Mapper le texte avec le compte**, puis renseignez la page **Feuille activité correspondance texte et compte**.  
 
-5.  Sous l'onglet **Actions**, dans le groupe **Général**, sélectionnez **Créer un document**.  
+5.  Choisissez l'action **Créer document**.  
 
      Une facture achat est créée dans [!INCLUDE[d365fin](includes/d365fin_md.md)] sur la base des informations du document électronique.  
 

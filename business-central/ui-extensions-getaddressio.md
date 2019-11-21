@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: GetAddress.io, postcodes, postal, address, extension
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 5fa6a6382d75bc29384ab31a78265fa2ed6954dc
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 489106d6e4e5dbb6f9c787d6ad5de556c5ec5bee
+ms.sourcegitcommit: 659cbd179d207b21fce2e365d60b423680d5156a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311251"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2622368"
 ---
 # <a name="the-getaddressio-uk-postcodes-extension"></a>Extension GetAddress.io UK Postcodes
 L'extension GetAddress.io UK Postcodes permet de gagner du temps et d'éviter des erreurs lorsque vous saisissez des adresses pour des entités comme des clients, des fournisseurs, des comptes bancaires, et des salariés. Par exemple, lorsque vous créez un client, il suffit de choisir un code postal et [!INCLUDE[d365fin](includes/d365fin_md.md)] affiche une liste d'adresses. Choisissez l'adresse de votre choix, et les champs d'adresse sont aussitôt renseignés.  
 
-##<a name="to-use-the-getaddressio-uk-postcodes-extension-when-you-enter-an-address"></a>Pour utiliser l'extension GetAddress.io UK Postcodes lorsque vous saisissez une adresse
+## <a name="to-use-the-getaddressio-uk-postcodes-extension-when-you-enter-an-address"></a>Pour utiliser l'extension GetAddress.io UK Postcodes lorsque vous saisissez une adresse
 1. Sous **Adresse**, choisissez **Rechercher l'adresse à partir du code postal**.  
 
     > [!NOTE]  

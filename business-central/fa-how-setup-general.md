@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 20e934c3556f408a48e595e6c5ef4f46809aa742
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 898167c1b76a757dc4b6b06f8df64eef3a3c2b59
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302731"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554269"
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Configurer des informations générales pour les immobilisations
 Avant de pouvoir gérer les immobilisations, vous devez configurer les comptes généraux par défaut, les clés de ventilation, les modèles feuille et les lots pour la validation et le reclassement des immobilisations. Vous pouvez classer les immobilisations par catégorie, telles que Corporelles et Incorporelles.
@@ -105,7 +105,7 @@ Si vous utilisez les immobilisations dans [!INCLUDE[d365fin](includes/d365fin_md
 
     Activez l'intégration comptable en procédant comme suit. Premièrement, assurez-vous que l'intégration du grand livre est désactivée pour toutes les lois d'amortissement, puis validez les écritures ouvertes, et enfin activez l'intégration en comptabilité.  
 4. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Lois d'amortissement**, puis sélectionnez le lien associé.  
-5. Sélectionnez la loi d'amortissement appropriée. Sous l'onglet **Accueil**, dans le groupe **Gérer**, choisissez **Modifier** pour ouvrir la page **Fiche loi d'amortissement**.
+5. Sélectionnez la fiche de loi d'amortissement pertinente, puis sélectionnez l'action **Modifier** pour ouvrir la page **Fiche Lois d'amortissement**.
 6. Sur le raccourci **Intégration**, assurez-vous que tous les champs sont vides en retirant toutes les coches. Si vous disposez de plusieurs lois d'amortissement, désactivez l'intégration en comptabilité pour chacune d'elles.  
 7. Dans la feuille immobilisation, entrez les lignes suivantes pour chaque immobilisation :
    * Ligne avec le coût d'acquisition.

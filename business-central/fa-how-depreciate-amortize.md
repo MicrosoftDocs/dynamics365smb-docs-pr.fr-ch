@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9bf9de93ca218d00cc1db467c74e0af9942f21d0
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 93411d5469373a1084579b1235dcd2befdf921a8
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302851"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554293"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Amortir des immobilisations
 L'amortissement permet de ventiler le coût des immobilisations, telles que les machines et le matériel, sur leur durée d'amortissement. Vous devez définir la méthode d'amortissement de chaque immobilisation.  
@@ -51,7 +51,7 @@ Une fois par mois, ou à la fréquence de votre choix, vous pouvez lancer le tra
 2. Créez une feuille comptable initiale et complétez les champs, le cas échéant.  
 3. Dans le champ **Type compta. immo**, sélectionnez **Amortissement**.  
 4. Sélectionnez l'action **Insérer contrepartie immo.**. Une seconde ligne feuille est créée pour le compte contrepartie qui est configuré pour la validation de l'amortissement. Pour plus d'informations, reportez vous à [Pour configurer des groupes de validation immobilisation](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
-5. Sous l'onglet **Accueil**, sélectionnez **Valider** pour valider la feuille.  
+5. Choisissez l'action **Valider** pour valider la feuille.  
 
 Si vous avez défini des clés de ventilation immobilisation pour ventiler des montants entre plusieurs départements ou plusieurs projets, les montants sont alloués lors de la validation. Pour en savoir plus, voir [Configurer des informations générales sur les immobilisations](fa-how-setup-general.md).  
 
@@ -62,7 +62,7 @@ Lorsqu'une immobilisation est utilisée par plusieurs départements, vous pouvez
 2. Créez une feuille initiale et complétez les champs, le cas échéant.
 3. Dans le champ **Type compta. immo**, sélectionnez **Ventilation**.  
 4. Sélectionnez l'action **Insérer contrepartie immo.**. Une seconde ligne feuille est créée pour le compte contrepartie qui est configuré pour la validation de la ventilation.  
-5. Sous l'onglet **Accueil**, sélectionnez **Valider** pour valider la feuille.  
+5. Choisissez l'action **Valider** pour valider la feuille.  
 
 ## <a name="use-duplication-lists-to-prepare-to-post-to-multiple-depreciation-books"></a>Utilisez les listes de duplication pour préparer la validation vers plusieurs lois d'amortissement
 Lorsque vous renseignez les lignes feuille à valider dans une loi d'amortissement, vous pouvez dupliquer les lignes dans une autre feuille afin de pouvoir valider dans une autre loi d'amortissement. Pour en savoir plus, voir [Pour valider les écritures vers différentes lois d'amortissement](fa-how-depreciate-amortize.md#to-post-entries-to-different-depreciation-books).

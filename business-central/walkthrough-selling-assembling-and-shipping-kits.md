@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6ce236dd274baa02cafac8bfdcb7f7cb1d08ce46
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ebadd0eb4fce42b66ef6b766f4518ed38c879a18
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310603"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553981"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Procédure pas-à-pas : vente, assemblage et expédition de kits
 
@@ -147,22 +147,22 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
     |80005|PRELEVEMT|W-01-0001|20|  
     |80011|PRELEVEMT|W-01-0001|20|  
     |80014|PRELEV.|W-01-0001|20|  
-    |80203|PRELEV.|W-01-0001|20|  
-    |80209|PRELEV.|W-01-0001|20|  
+    |80203|PRELEVEMT|W-01-0001|20|  
+    |80209|PRELEVEMT|W-01-0001|20|  
 
-4.  Sous l’onglet **Accueil**, dans le groupe **Enregistrement**, choisissez **Enregistrer**, puis sélectionnez le bouton **Oui**.  
+4.  Choisissez l'action **Enregistrer**, puis cliquez sur le bouton **Oui**.  
 
     Ensuite, synchronisez les nouvelles écritures entrepôt avec le stock.  
 
 5.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles articles**, puis sélectionnez le lien associé. La page **Feuille article** s'ouvre.  
-6.  Sous l'onglet **Actions**, dans le groupe **Fonctions**, sélectionnez **Calculer ajustement entrepôt**.  
+6.  Sélectionnez l'action **Calculer ajustement entrepôt**.  
 7.  Sur la page **Calculer ajustement entrepôt**, cliquez sur le bouton **OK** .  
-8.  Sur la page **Feuille article**, sous l’onglet **Actions**, dans le groupe **Fonctions**, sélectionnez **Valider**, puis cliquez sur le bouton **Oui**.  
+8.  Sur la page **Feuille article**, choisissez l'action **Valider**, puis cliquez sur le bouton **Oui**.  
 
 ### <a name="creating-the-assembly-items"></a>Création des articles d’assemblage  
 
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles**, puis sélectionnez le lien associé.  
-2.  Sous l'onglet **Accueil**, dans le groupe **Gestion**, choisissez **Nouveau**.  
+2.  Sélectionnez l'action **Nouveau**.  
 3.  Créez le premier article d’assemblage sur la base des informations suivantes.  
 
     |Champ|Valeur|  
@@ -177,7 +177,7 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
     > [!NOTE]  
     >  Le kit A est généralement fourni par assemblage pour le stockage et a donc une méthode de réapprovisionnement pour le faire passer dans la planification générale de l’approvisionnement.  
 
-4.  Sous l’onglet **Naviguer**, dans le groupe **Assemblage/Production**, sélectionnez **Assemblage**, puis sélectionnez **Nomenclature**.  
+4.  Choisissez l'action **Assemblage**, puis choisissez **Nomenclature d'élément d'assemblage**.  
 5.  Définissez une nomenclature d’assemblage pour le kit A avec les informations suivantes.  
 
     |**Type**|**N°**|**Quantité par**|  
@@ -200,7 +200,7 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
     > [!NOTE]  
     >  Le kit B est généralement fourni par assemblage pour commande et donc n’a pas une méthode de réapprovisionnement, parce qu’il ne doit pas faire partie de la planification générale de l’approvisionnement.  
 
-7.  Sous l’onglet **Naviguer**, dans le groupe **Assemblage/Production**, sélectionnez **Assemblage**, puis sélectionnez **Nomenclature**.  
+7.  Choisissez l'action **Assemblage**, puis choisissez **Nomenclature d'élément d'assemblage**.  
 8.  Définissez une nomenclature d’assemblage pour le kit B avec les informations suivantes.  
 
     |**Type**|**N°**|**Quantité par**|  
@@ -213,7 +213,7 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 ### <a name="selling-the-assembly-items"></a>Vente des articles d’assemblage  
 
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes vente**, puis sélectionnez le lien associé.  
-2.  Sous l'onglet **Accueil**, dans le groupe **Gestion**, choisissez **Nouveau**.  
+2.  Sélectionnez l'action **Nouveau**.  
 3.  Créez deux lignes commande vente pour le client 62000, The Device Shop, à la date de travail avec les informations suivantes.  
 
     |**Type**|**Description**|**Quantité**|Qté vers Assembler pour commande|Date de préparation|  
@@ -259,14 +259,14 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
      Ensuite, modifiez la date d’expédition de la deuxième ligne commande vente selon la planification d’assemblage.  
 
 15. Sur la ligne commande vente de 15 unités du kit A, entrez **01-27-2014** **Date d'expédition**.  
-16. Sur l’onglet **Actions** , dans le groupe **Lancement**, choisissez **Lancement**.  
-17. Sous l’onglet **Actions**, dans le groupe **Entrepôt**, choisissez **Créer expédition entrepôt**.  
+16. Sélectionnez l'action **Lancer**.  
+17. Choisissez l'action **Créer expédition entrepôt**.  
 18. Fermez la commande vente.  
 
 ### <a name="planning-for-the-unavailable-ats-items"></a>Planification pour les articles « assembler pour stock » non disponibles  
 
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille planning**, puis sélectionnez le lien associé.  
-2.  Sous l’onglet **Action**, dans le groupe **Fonctions**, choisissez **Calculer planning régénératif**.  
+2.  Choisissez l'action **Calculer planning régénératif**.  
 3.  Sur la page **Calculer planning**, définissez les filtres suivants.  
 
     |Date de début|Date de fin|N°|  
@@ -277,7 +277,7 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 
     Une nouvelle ligne planning est créée pour l'ordre d'assemblage nécessaire de dix unités, dû le 27 janvier. Elle n'a besoin d'aucune modification ; vous pouvez créer la commande.  
 
-5.  Sous l'onglet **Actions**, dans le groupe **Fonctions**, choisissez **Traiter messages d'action**.  
+5.  Choisissez l'action **Traiter message d'action**.  
 6.  Sur la page **Traiter messages d’action**, choisissez le champ **Ordre d'assemblage**, puis sélectionnez **Créer des ordres d'assemblage**.  
 7.  Cliquez sur le bouton **OK**.  
 
@@ -298,7 +298,7 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 
     Ensuite, créez un document prélèvement pour tous les composants d’assemblage « assembler pour commande » nécessaires pour l’expédition entrepôt.  
 
-3.  Sous l’onglet **Actions**, dans le groupe **Fonctions**, choisissez **Créer prélèvement**, puis cliquez sur le bouton **OK**.  
+3.  Choisissez l'action **Créer prélèvement**, puis cliquez sur le bouton **OK**.  
 
     Ensuite, effectuez la tâche de la personne en charge du prélèvement.  
 
@@ -309,8 +309,8 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 
     Ensuite, enregistrez le prélèvement sans modifier les informations par défaut.  
 
-6.  Sous l’onglet de **Actions** , dans le groupe **Fonctions**, choisissez **Remplir qté à traiter**.  
-7.  Sous l’onglet **Accueil**, dans le groupe **Enregistrement**, choisissez **Enregistrer prélèvement**.  
+6.  Choisissez l'action **Remplir qté à traiter**.  
+7.  Choisissez l'action **Enregistrer prélèvement**.  
 
     Revenez à l’exécution des tâches d’expédition.  
 
@@ -335,7 +335,7 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 
 12. Fermez la page **Ordre d'assemblage** pour revenir à la page **Expédition entrepôt**.  
 13. Sur la ligne expédition pour trois unités du kit B, dans le champ **Qté à expédier**, entrez **3**.  
-14. Sous l’onglet **Actions**, dans le groupe **Validation**, choisissez **Valider expédition**, puis sélectionnez **Expédier**.  
+14. Choisissez l'action **Valider expédition**, puis sélectionnez le bouton **Expédier**.  
 
     Avec cette validation d’expédition entrepôt, l’ensemble de la consommation et des quantités produites de l’ordre d’assemblage lié est validé, et le champ **Quantité restante** est vide. La ligne commande vente pour le kit B est mise à jour pour indiquer que les trois unités sont expédiées.  
 
@@ -358,7 +358,7 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 
     Ensuite, enregistrez que l’ordre d’assemblage est terminé.  
 
-3.  Sous l’onglet **Naviguer**, dans le groupe **Entrepôt**, choisissez **Ligne expédition entrepôt Assembler pour commande**.  
+3.  Choisissez l'action **Ligne expédition entrepôt Assembler pour commande**.  
 4.  Sur la page **Ligne expédition entrepôt Assembler pour commande**, dans le champ **Qté à expédier**, entrez **5**, puis fermez la page.  
 
     Remarquez dans la page **Ordre d'assemblage** que les champs **Quantité à assembler** et **Quantité à consommer** sont renseignés par les quantités de sortie et les quantités consommées qui seront validées avec l'expédition.  
@@ -374,8 +374,8 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 
     Ensuite, créez un document prélèvement pour récupérer les composants nécessaires.  
 
-3.  Sur l’onglet **Actions** , dans le groupe **Lancement**, choisissez **Lancement**.  
-4.  Sous l’onglet **Actions**, dans le groupe **Entrepôt**, choisissez **Créer prélèvement entrep.**, puis cliquez sur le bouton **OK**.  
+3.  Sélectionnez l'action **Lancer**.  
+4.  Choisissez l'action **Créer prélèvement entrep.**, puis cliquez sur le bouton **OK**.  
 
     Ensuite, effectuez la tâche de la personne en charge du prélèvement.  
 
@@ -384,12 +384,12 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 
      Enregistrez le prélèvement sans modifier les informations par défaut.  
 
-7.  Sous l’onglet de **Actions** , dans le groupe **Fonctions**, choisissez **Remplir qté à traiter**.  
-8.  Sous l’onglet **Accueil**, dans le groupe **Enregistrement**, choisissez **Enregistrer prélèvement**.  
+7.  Choisissez l'action **Remplir qté à traiter**.  
+8.  Choisissez l'action **Enregistrer prélèvement**.  
 
     Revenez à l’ordre d’assemblage pour effectuer la dernière tâche d’assemblage.  
 
-9. Dans **Ordre d'assemblage**, sous l’onglet **Actions**, dans le groupe **Validation**, choisissez **Valider**, puis cliquez sur le bouton **Oui**.  
+9. Dans **Ordre d'assemblage**, choisissez l'action **Valider**, puis cliquez sur le bouton **Oui**.  
 
     Remarquez que l’ordre d’assemblage est supprimé de la liste des commandes ouvertes.  
 
@@ -402,7 +402,7 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 
     Ensuite, prélevez les articles restants.  
 
-3.  Sous l’onglet **Actions**, dans le groupe **Fonctions**, choisissez **Créer prélèvement**, puis cliquez sur le bouton **OK**.  
+3.  Choisissez l'action **Créer prélèvement**, puis cliquez sur le bouton **OK**.  
 
     Ensuite, effectuez la dernière tâche de la personne en charge du prélèvement pour cette expédition entrepôt.  
 
@@ -413,8 +413,8 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 
     Ensuite, enregistrez le prélèvement sans modifier les informations par défaut.  
 
-6.  Sous l’onglet de **Actions** , dans le groupe **Fonctions**, choisissez **Remplir qté à traiter**.  
-7.  Sous l’onglet **Accueil**, dans le groupe **Enregistrement**, choisissez **Enregistrer prélèvement**, puis sélectionnez le bouton **Oui**.  
+6.  Choisissez l'action **Remplir qté à traiter**.  
+7.  Choisissez l'action **Enregistrer prélèvement**, puis cliquez sur le bouton **Oui**.  
 
     Revenez à l’expédition entrepôt pour effectuer la dernière tâche.  
 
@@ -422,7 +422,7 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 
     Sur la page **Expédition entrepôt**, sur la ligne pour dix unités de kit A, notez que les champs **Qté à expédier** et **Qté prélevée** contiennent désormais la valeur **10**.  
 
-9. Sous l’onglet **Actions**, dans le groupe **Validation**, choisissez **Valider expédition**, puis sélectionnez **Expédier**.  
+9. Choisissez l'action **Valider expédition**, puis cliquez sur le bouton **Expédier**.  
 
     Le document expédition entrepôt est supprimé, ce qui indique que les activités entrepôt impliquées sont terminées. Ensuite, vérifiez que la commande vente a été traitée.  
 

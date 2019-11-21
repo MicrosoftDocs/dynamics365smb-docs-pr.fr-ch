@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2019
+ms.date: 11/11/2019
 ms.author: sgroespe
-ms.openlocfilehash: f4bf8e694a7b034eb601c3bf39bd420ff61ab73a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: cf7ef0013cac921ec7ab7b1fa505a9c2f0852a33
+ms.sourcegitcommit: 02f1633213793bfc040ad0d2a96fe76572215aa5
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309331"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "2798586"
 ---
 # <a name="create-contacts"></a>Créez des contacts
 Vous rencontrez régulièrement des personnes d'autres sociétés, ce qui peut générer de nouvelles relations commerciales, comme une relation client. À la création d'un tel contact, il convient d'enregistrer le plus d'informations possible sur une fiche contact afin que la communication puisse se poursuivre.
@@ -32,7 +32,7 @@ Vous pouvez décider de configurer un contact comme une personne ou société, g
 La fonctionnalité est la même pour les deux types, hormis le fait que les options pour des informations supplémentaires changent selon le type. Par exemple, vous pouvez affecter des responsabilités uniquement à une personne et un groupe d'activité à une société. Cela est indiqué dans l'interface utilisateur en faisant apparaître en gris les champs et les actions qui ne s'appliquent pas. Vous pouvez modifier la valeur du champ **Type** ultérieurement, ou vous pouvez utiliser les champs du raccourci **Héritage** sur la page **Paramètres marketing** pour contrôler les données partagées entre une personne et la société associée. Pour plus d'informations, reportez-vous à la rubrique [Paramétrage des contacts](marketing-setup-contacts.md).
 
 ## <a name="to-create-a-contact-manually"></a>Pour créer un contact manuellement
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Contacts**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Contacts**, puis sélectionnez le lien associé.
 2. Sélectionnez l'action **Nouveau**.
 3. Dans le champ **N°**, saisissez le numéro du contact.
 
@@ -63,7 +63,7 @@ Si vous avez un client, un fournisseur, ou un compte bancaire pour la société 
 > [!NOTE]  
 > Avant de créer des contacts basés sur des clients, des fournisseurs ou des comptes bancaires à partir de contacts, vous devez spécifier un code relation d'affaires pour les clients, les fournisseurs ou les comptes bancaires sur l'organisateur **Interactions** de la page **Paramètres marketing**. Pour plus d'informations, reportez-vous à [Paramétrage des contacts](marketing-setup-contacts.md).
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Contacts**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Contacts**, puis sélectionnez le lien associé.
 2. Sélectionnez le contact que vous souhaitez créer comme client, fournisseur ou compte bancaire.
 3. Sélectionnez l'action **Créer comme**, puis sélectionnez **Client**, **Fournisseur** ou **Banque**.
 4. Choisissez le bouton **OK**.
@@ -101,7 +101,7 @@ La synchronisation des données communes entre les contacts et clients, les four
 * Lorsque vous liez les contacts avec des clients, des fournisseurs ou des comptes bancaires existants à partir de la fiche contact. Voir [Pour lier un contact à un client, un fournisseur ou un compte bancaire existant](marketing-create-contact-companies.md#to-link-a-contact-to-an-existing-customer-vendor-or-bank-account).
 
 ## <a name="to-view-which-customer-vendor-or-bank-account-a-contact-is-related-to"></a>Pour voir à quel client, fournisseur ou compte bancaire un contact est associé
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Contacts**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Contacts**, puis sélectionnez le lien associé.
 2. Sélectionnez la ligne pour un contact, choisissez l'action **Informations connexes**, puis choisissez l'action **Client/Fournisseur/Compte bancaire**.
 
 La page de la fiche associée s'ouvre.

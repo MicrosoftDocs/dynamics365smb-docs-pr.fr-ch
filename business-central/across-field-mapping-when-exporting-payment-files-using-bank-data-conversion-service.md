@@ -1,6 +1,6 @@
 ---
 title: Mappage de champ pour exporter des fichiers de paiement bancaire | Microsoft Docs
-description: Lorsque vous exportez des fichiers de paiement à l'aide de la fonction Service conversion données bancaires, les données que vous exportées sont exposées au fournisseur du service conversion données bancaires.
+description: Lorsque vous exportez des fichiers de paiement à l'aide de l'extension AMC Banking 365 Fundamentals, les données que vous exportez sont exposées au fournisseur de service.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,22 +10,22 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ca6b3722220e008a3a8132054eed7ba29afd11f3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 49ed61472966ca06f996296d3d97365a6c223983
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300536"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692643"
 ---
-# <a name="field-mapping-when-exporting-payment-files-using-bank-data-conversion-service"></a>Mappage de champs lors de l'exportation de fichiers de paiement à l'aide du service conversion données bancaires
-Lorsque vous exportez des fichiers de paiement à l'aide de la fonction Service conversion données bancaires, les données que vous exportées sont exposées au fournisseur du service conversion données bancaires. Le fournisseur de service est responsable de la confidentialité de ces données. Pour plus d'informations sur la manière dont fonctionne la fonction Service conversion données bancaires, reportez\-vous à [À propos de l'infrastructure d'échange de données](across-about-the-data-exchange-framework.md).  
+# <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Mappage de champs lors de l'exportation de fichiers de paiement à l'aide de l'extension AMC Banking 365 Fundamentals
+Lorsque vous exportez des fichiers de paiement à l'aide de l'extension AMC Banking 365 Fundamentals, les données que vous exportez sont exposées au fournisseur de service. Le fournisseur de service est responsable de la confidentialité de ces données. Pour plus d'informations sur l'extension AMC Banking 365 Fundamentals, voir [Utilisation de l'extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
 
 > [!CAUTION]  
->  Lorsque vous exportez des fichiers de paiement à l'aide de la fonction Service conversion données bancaires, certaines de vos données commerciales seront exposées au fournisseur de service. Le fournisseur de service, AMC Consult A/S, est responsable de la confidentialité de ces données. Pour plus d'informations, reportez\-vous à [Politique de confidentialité AMC](https://go.microsoft.com/fwlink/?LinkId=510158).  
+>  Lorsque vous exportez des fichiers de paiement à l'aide de l'extension AMC Banking 365 Fundamentals, certaines de vos données métier sont exposées au fournisseur du service. Le fournisseur de service, AMC Consult A/S, est responsable de la confidentialité de ces données. Pour plus d'informations, reportez\-vous à [Politique de confidentialité AMC](https://go.microsoft.com/fwlink/?LinkId=510158).  
 
-Le tableau suivant répertorie les champs de [!INCLUDE[d365fin](includes/d365fin_md.md)] à partir desquels les données peuvent être exportées au fournisseur de service.  
+Le tableau suivant répertorie les champs de [!INCLUDE[d365fin](includes/d365fin_md.md)] à partir desquels vous pouvez exporter des données.  
 
-|Champ associé|Champ dans Tableau|Table|Désignation|  
+|Champ associé|Champ dans Tableau|Table|Description|  
 |------------------|--------------------|-----------|---------------------------------------|  
 |N° créditeur|N° créditeur|Compte bancaire|L'identifiant affecté à votre société par votre banque pour encaisser les paiements|  
 |N° cpte bancaire émetteur|N° compte bancaire/IBAN|Compte bancaire|Le numéro du compte bancaire de votre société (IBAN ou autre) qui est spécifié sur la fiche compte bancaire|  
@@ -65,10 +65,10 @@ Le tableau suivant répertorie les champs de [!INCLUDE[d365fin](includes/d365fin
 |Code postal banque émetteur|Code postal|Compte bancaire|Le code postal du compte bancaire de l'émetteur qui est spécifié sur la fiche compte bancaire|  
 |Modèle feuille comptabilité|Nom modèle feuille|Ligne feuille comptabilité|Le modèle de la feuille comptabilité qui est utilisé pour la ligne paiement|  
 |Nom feuille comptabilité|Nom feuille|Ligne feuille comptabilité|Le nom du lot feuille comptabilité qui est utilisé pour la ligne paiement|  
-|Nom banque émetteur - Conv. données|Nom banque – Conv. données|Compte bancaire|Le nom du compte bancaire de l'émetteur qui est demandée par le service conversion données bancaires et spécifié sur la fiche compte bancaire|  
+|Nom banque émetteur - Conv. données|Nom banque – Conv. données|Compte bancaire|Le nom du compte bancaire de l'émetteur qui est demandé par l'extension AMC Banking 365 Fundamentals et spécifié sur la fiche compte bancaire|  
 
 ## <a name="see-also"></a>Voir aussi  
 [Configuration de l'échange de données](across-set-up-data-exchange.md)  
-[Échanger des données par voir électronique](across-data-exchange.md)
-[Configurer le service de conversion de données bancaires](bank-how-setup-bank-data-conversion-service.md)   
+[Échanger des données par voie électronique](across-data-exchange.md)
+[Utilisation de l'extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)   
 [Exécuter les paiements avec le service de conversion de données bancaires ou un virement SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   

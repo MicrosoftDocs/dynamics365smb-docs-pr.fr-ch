@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8b48dab5b644696bc30dd1748370697ac408f387
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 26b2e5bf479f3343f66bd852078b337ad87e852a
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316299"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554844"
 ---
 # <a name="send-electronic-documents"></a>Envoyer des documents électroniques
 La version générique de [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge l'envoi de factures et d'avoirs électroniques au format PEPPOL, qui est pris en charge par les principaux fournisseurs de services d'échange de documents. Un fournisseur de services d'échange de documents affecte des documents électroniques entre partenaires commerciaux. Pour assurer la prise en charge d'autres formats de documents électroniques, vous pouvez utiliser l'infrastructure d'échange de données.  
@@ -30,7 +30,7 @@ La version générique de [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en c
 
 2.  Créez une facture vente.  
 
-3.  Lorsque la facture vente est prête à être émise, sous l'onglet **Actions**, dans le groupe **Validation**, sélectionnez **Valider et envoyer**.  
+3.  Lorsque la facture vente est prête à être émise, sélectionnez l'action **Valider et envoyer**.  
 
      Si le profil d'envoi par défaut du client est **Document électronique**, il s'affiche dans la boîte de dialogue **Valider et envoyer une confirmation** et il vous suffit de choisir le bouton **Oui** pour valider et envoyer la facture par voie électronique au format sélectionné.  
 
@@ -47,7 +47,7 @@ La version générique de [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en c
      La facture vente enregistrée est validée et envoyée au client en tant que document électronique au format PEPPOL.  
 
     > [!NOTE]  
-    >  Vous pouvez également envoyer une facture vente validée en tant que document électronique. La procédure est la même que celle décrite dans cette rubrique pour les documents vente non validés. Sur la page **Facture vente enregistrée**, sous l'onglet **Actions**, dans le groupe **Général**, sélectionnez **Journal des activités** pour afficher le statut du document électronique. Pour plus d'informations, voir **Journal des activités**.  
+    >  Vous pouvez également envoyer une facture vente validée en tant que document électronique. La procédure est la même que celle décrite dans cette rubrique pour les documents vente non validés. Sur la page **Facture vente enregistrée**, sélectionnez l'action **Journal des activités** pour afficher le statut du document électronique. Pour plus d'informations, voir **Journal des activités**.  
 
 ## <a name="see-also"></a>Voir aussi  
 [Facturer des ventes](sales-how-invoice-sales.md)  
