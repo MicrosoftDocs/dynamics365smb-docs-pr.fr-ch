@@ -1,8 +1,6 @@
 ---
 title: 'Procédure : Générer des relances livraison'
 description: Dans Business Central, vous pouvez créer des relances livraison lorsqu'un achat n'a pas été envoyé comme prévu. Vous pouvez générer des relances livraison pour toutes les livraisons échues, ou vous pouvez créer une relance livraison unique manuellement.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 918a6693402624d8d5be584a166a78281c153e22
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 16e6ff5bddb07ad3256cc627de860bf4358ab23b
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301057"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881314"
 ---
 # <a name="generate-delivery-reminders"></a>Générer des relances livraison
 Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], vous pouvez créer des relances livraison lorsqu'un achat n'a pas été envoyé comme prévu. Vous pouvez générer des relances livraison pour toutes les livraisons échues, ou vous pouvez créer une relance livraison unique manuellement. Pour plus d'informations, voir [Créer manuellement des relances livraison](how-to-create-delivery-reminders-manually.md).  
@@ -27,7 +25,7 @@ Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], vous pouvez créer des r
 
 ## <a name="to-generate-delivery-reminders-for-all-overdue-deliveries"></a>Pour générer des relances livraison pour toutes les livraisons échues  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Relance livraison**, puis sélectionnez le lien connexe.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Relance livraison**, puis choisissez le lien associé.  
 2.  Sélectionnez l'action **Nouveau**.  
 3.  Dans la page **Relance livraison**, cliquez sur l'action **Créer une relance livraison**.  
 4.  Dans les raccourcis **En-tête achat** et **Ligne achat**, sélectionnez les filtres appropriés.  

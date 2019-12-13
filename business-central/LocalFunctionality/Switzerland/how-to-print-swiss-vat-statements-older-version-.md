@@ -1,8 +1,6 @@
 ---
 title: 'Procédure : Imprimer les relevés de TVA suisse (ancienne version)'
 description: La Déclaration TVA suisse est l'état de calcul standard pour la réalisation de la TVA. Vous pouvez imprimer cet état et l'utiliser avec la déclaration de taxe trimestrielle.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 19ab19375d3cfdc9ddba8a28afe6fce6d43b5b4f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 84de1625e8929869bbaa37099b38c7495ac24e68
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301009"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878810"
 ---
 # <a name="print-swiss-vat-statements-older-version"></a>Imprimer les relevés de TVA suisse (ancienne version)
 
@@ -32,7 +30,7 @@ La **Déclaration TVA suisse** est l'état de calcul standard pour la réalisati
 
 ## <a name="to-print-the-swiss-vat-statement"></a>Pour imprimer la déclaration TVA suisse  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Déclaration TVA suisse**, puis sélectionnez le lien connexe.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Déclaration de TVA suisse**, puis choisissez le lien associé.  
 
     > [!NOTE]  
     >  Vous recevrez un message indiquant que **Déclaration TVA suisse** s'ouvre dans la langue locale.  

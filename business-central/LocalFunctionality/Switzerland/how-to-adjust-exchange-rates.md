@@ -1,8 +1,6 @@
 ---
 title: 'Procédure : Ajuster les taux de change devise'
 description: Si vous avez des ventes imposables en devise étrangère, vous devez utiliser le taux officiel pour la conversion de devise TVA telle que définie par l'administration fiscale.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a2ac0ae057f13bb3ab522bd9c542b66bba1d5304
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 89c431200ebdf1daf658f59ec368216af35506ba
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301062"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881320"
 ---
 # <a name="adjust-exchange-rates"></a>Ajuster taux de change
 Si vous avez des ventes imposables en devise étrangère, vous devez utiliser le taux officiel pour la conversion de devise TVA telle que définie par l'administration fiscale.  
@@ -33,11 +31,11 @@ Pour plus d'informations sur la TVA et les devises étrangères, voir le site We
 
 ## <a name="to-adjust-an-exchange-rate"></a>Pour ajuster un taux de change  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Devises**, puis sélectionnez le lien connexe.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Devises**, puis choisissez le lien associé.  
 2.  Sélectionnez l'option **Taux de change**.  
 3.  Dans la page **Taux de change devise**, saisissez le taux de TVA officiel par période pour chaque devise dans les champs **Montant taux change TVA** et **Montant taux change TVA lié**.  
 4.  Cliquez sur le bouton **OK**.  
-5.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Ajuster taux de change**, puis sélectionnez le lien connexe.  
+5.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Ajuster taux de change**, puis choisissez le lien associé.  
 6.  Sous le raccourci **Options**, renseignez les champs comme indiqué dans le tableau ci-dessous.   
 
     |Champ|Désignation|  

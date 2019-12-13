@@ -1,8 +1,6 @@
 ---
 title: Documents vente et Documents achat, Suisse
 description: Les améliorations suisses comprennent des fonctions spéciales propres aux documents d'achat et de vente.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 380e3b0c417887cb41a28bd93af3947fbe4ebe0d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8b0d1e4f0ae66105f6bb6c019307bddac5fb1259
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300968"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878799"
 ---
 # <a name="swiss-purchase-documents-and-sales-documents"></a>Documents vente et Documents achat, Suisse
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] comprend des améliorations suisses propres aux documents d'achat et de vente. Notamment :  
