@@ -16,14 +16,14 @@
 
 ## [Préparation aux activités commerciales](ui-get-ready-business.md)
 ## [Aperçu de la fonctionnalité d'affaires](across-business-functionality.md)
-## [Essai d'un aperçu de version](across-preview.md)
-## [Annuler un abonnement, supprimer ou réinitialiser Business Central](admin-cancel.md)
-## [Dépannage de l'inscription en self-service](ui-troubleshoot-self-signup.md)
+## [Versions d'évaluation et abonnements](across-preview.md)
+### [Dépannage de l'inscription en self-service](ui-troubleshoot-self-signup.md)
+### [Annuler un abonnement ou supprimer Business Central](admin-cancel.md)
 ## [Votre accès au Cloud intelligent avec Business Central](about-intelligent-cloud.md)
 ## [Visitez notre vidéothèque](across-videos.md)
-## [Devenir revendeur](product-sell.md)
-## [Extension de Business Central](about-develop-extensions.md)
-## [Extensions Business Central par d'autres fournisseurs](ui-extensions-other.md)
+## Revendeurs et partenaires
+### [Devenir revendeur](product-sell.md)
+### [Extension de Business Central](about-develop-extensions.md)
 
 # Utilisation de Business Central
 ## [Aperçu](ui-work-product.md)
@@ -38,7 +38,7 @@
 ## [Utilisation de dates civiles et les heures](ui-enter-date-ranges.md)
 ## [Détection de champs obligatoires](ui-mandatory-fields.md)
 ## [Modification de la langue et des paramètres régionaux](about-locale-language.md)
-## [Affichage et édition dans Excel](across-work-with-excel.md)  
+## [Affichage et édition dans Excel](across-work-with-excel.md)
 ## [Gérer les pièces jointes, les liens et les notes sur les fiches et les documents](ui-how-add-link-to-record.md)
 ## [Modifier les paramètres de base](ui-change-basic-settings.md)
 ## [Gérer les notifications](ui-smart-notifications.md)
@@ -55,12 +55,13 @@
 ### [Gérer les paramètres enregistrés pour les états et les traitements par lots](reports-saving-reusing-settings.md)
 ### [Afficher des états de test avant la validation](ui-how-view-test-reports-posting.md)
 ### [Exécuter des traitements par lots et des ports XML](ui-how-run-batch-jobs.md)
-## Modification de l'apparence des documents et des états externes
-### [Gestion des présentations de rapport et de document](ui-manage-report-layouts.md)
-### [Mise à jour des présentations de rapport ou de document](ui-update-report-layouts.md)
-### [Apporter des modifications à une présentation de rapport Word](ui-how-create-custom-report-layout.md)
-### [Importer et exporter une présentation de rapport ou de document](ui-how-import-and-export-report-layout.md)
+## Modification de l'apparence des documents externes
+### [Gestion des présentations d'état et de document](ui-manage-report-layouts.md)
 ### [Modifier la présentation actuelle de l'état](ui-how-change-layout-currently-used-report.md)
+### [Créer et modifier des présentations de rapport personnalisées](ui-how-create-custom-report-layout.md)
+### [Importer et exporter des présentations de rapport personnalisées](ui-how-import-and-export-report-layout.md)
+### [Mettre à jour les présentations d'état personnalisées](ui-update-report-layouts.md)
+### [Définir des présentations de document pour les clients et les fournisseurs](ui-define-customer-vendor-document-layouts.md)
 ### [Ajouter des champs à une présentation de rapport Word](ui-how-add-fields-word-report-layout.md)
 ## Utilisation des raccourcis clavier
 ### [Accessibilité et raccourcis clavier](ui-accessibility.md)
@@ -222,10 +223,10 @@
 ### [Activation de vos données commerciales pour Power BI](admin-powerbi.md)
 ### [Affichage des données de liste des états Power BI dans Business Central](across-how-use-powerbi-reports-factbox.md)
 ### [Utilisation de Business Central comme source de données Power BI](across-how-use-financials-data-source-powerbi.md)
-## Utilisation de Flow avec Business Central
+## Utilisation de Power Automate avec Business Central
 ### [Utilisation de Business Central dans un flux automatisé](across-how-use-financials-data-source-flow.md)
-### [Résolution des problèmes : Intégration à Microsoft Flow - URL de demande trop longue](across-troubleshooting-how-use-financials-data-source-flow.md)
-## [Connexion à vos données Business Central pour générer une application professionnelle à l'aide de PowerApps](across-how-use-financials-data-source-powerapps.md)
+## Utilisation de Power Apps avec Business Central
+### [Connexion à vos données Business Central pour générer un application métier à l'aide de Power Apps](across-how-use-financials-data-source-powerapps.md)
 ## [Passage d'une application QuickBooks à Business Central](across-quickbooks-to-business-edition.md)
 ## [Obtention de Business Central sur votre périphérique mobile](install-mobile-app.md)
 ## [Facturation en vrac pour Microsoft Bookings](finance-bookings.md)
@@ -271,7 +272,7 @@
 #### [Configurer des utilisateurs d'approbation](across-how-to-set-up-approval-users.md)
 #### [Configuration de notifications de workflow](across-setting-up-workflow-notifications.md)
 #### [Spécifier quand et comment recevoir des notifications](across-how-to-specify-when-and-how-to-receive-notifications.md)
-#### [Créer et modifier une présentation de rapport ou de document personnalisée](ui-how-create-custom-report-layout.md)
+#### [Créer et modifier des présentations de rapport personnalisées](ui-how-create-custom-report-layout.md)
 #### [Configurer la messagerie](admin-how-setup-email.md)
 #### [Créer des workflows](across-how-to-create-workflows.md)
 #### [Créer des flux de travail à partir de modèles de flux de travail](across-how-to-create-workflows-from-workflow-templates.md)

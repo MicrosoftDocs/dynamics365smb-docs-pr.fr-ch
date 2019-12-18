@@ -8,37 +8,36 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, inventory, costing
-ms.date: 10/01/2019
+ms.date: 11/25/2019
 ms.author: sgroespe
-ms.openlocfilehash: dc37aa410c9e9ba823894fad961b68897468b9ca
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 667adfcc9c470a9d4dbf26923fe5e6edfc7ed85a
+ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303451"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832206"
 ---
-# <a name="design-details-inventory-costing"></a><span data-ttu-id="334c3-103">Détails de conception : coûts ajustés</span><span class="sxs-lookup"><span data-stu-id="334c3-103">Design Details: Inventory Costing</span></span>
-<span data-ttu-id="334c3-104">Cette documentation fournit une analyse technique détaillée des concepts et principes qui sont utilisés dans les fonctions Inventory Costing dans [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="334c3-104">This documentation provides detailed technical insight to the concepts and principles that are used within the Inventory Costing features in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span>  
+# <a name="design-details-inventory-costing"></a><span data-ttu-id="3af11-103">Détails de conception : coûts ajustés</span><span class="sxs-lookup"><span data-stu-id="3af11-103">Design Details: Inventory Costing</span></span>
+<span data-ttu-id="3af11-104">Cette documentation fournit une analyse technique détaillée des concepts et principes qui sont utilisés dans les fonctions Inventory Costing dans [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="3af11-104">This documentation provides detailed technical insight to the concepts and principles that are used within the Inventory Costing features in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span>  
 
-<span data-ttu-id="334c3-105">L'évaluation des coûts de stock, aussi appelé gestion des coûts, se charge de l'enregistrement et de la déclaration des coûts d'exploitation de la société.</span><span class="sxs-lookup"><span data-stu-id="334c3-105">Inventory costing, also referred to as cost management, is concerned with recording and reporting business operating costs.</span></span>  
+<span data-ttu-id="3af11-105">L'évaluation des coûts de stock, aussi appelé gestion des coûts, se charge de l'enregistrement et de la déclaration des coûts d'exploitation de la société.</span><span class="sxs-lookup"><span data-stu-id="3af11-105">Inventory costing, also referred to as cost management, is concerned with recording and reporting business operating costs.</span></span>  
 
-## <a name="in-this-section"></a><span data-ttu-id="334c3-106">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="334c3-106">In This Section</span></span>  
-[<span data-ttu-id="334c3-107">Détails de conception : modes évaluation stock</span><span class="sxs-lookup"><span data-stu-id="334c3-107">Design Details: Costing Methods</span></span>](design-details-costing-methods.md)  
-[<span data-ttu-id="334c3-108">Détails de conception : lettrage article</span><span class="sxs-lookup"><span data-stu-id="334c3-108">Design Details: Item Application</span></span>](design-details-item-application.md)  
-[<span data-ttu-id="334c3-109">Détails de conception : problème de lettrage article connu</span><span class="sxs-lookup"><span data-stu-id="334c3-109">Design Details: Known Item Application Issue</span></span>](design-details-inventory-zero-level-open-item-ledger-entries.md)  
-[<span data-ttu-id="334c3-110">Détails de conception : ajustement des coûts</span><span class="sxs-lookup"><span data-stu-id="334c3-110">Design Details: Cost Adjustment</span></span>](design-details-cost-adjustment.md)  
-[<span data-ttu-id="334c3-111">Détails de conception : date comptabilisation de l'écriture valeur d'ajustement</span><span class="sxs-lookup"><span data-stu-id="334c3-111">Design Details: Posting Date on Adjustment Value Entry</span></span>](design-details-inventory-adjustment-value-entry-posting-date.md)  
-[<span data-ttu-id="334c3-112">Détails de conception : validation du coût prévu</span><span class="sxs-lookup"><span data-stu-id="334c3-112">Design Details: Expected Cost Posting</span></span>](design-details-expected-cost-posting.md)  
-[<span data-ttu-id="334c3-113">Détails de conception : coût moyen</span><span class="sxs-lookup"><span data-stu-id="334c3-113">Design Details: Average Cost</span></span>](design-details-average-cost.md)  
-[<span data-ttu-id="334c3-114">Détails de conception : écart</span><span class="sxs-lookup"><span data-stu-id="334c3-114">Design Details: Variance</span></span>](design-details-variance.md)  
-[<span data-ttu-id="334c3-115">Détails de conception : arrondi</span><span class="sxs-lookup"><span data-stu-id="334c3-115">Design Details: Rounding</span></span>](design-details-rounding.md)  
-[<span data-ttu-id="334c3-116">Détails de conception : composants des coûts</span><span class="sxs-lookup"><span data-stu-id="334c3-116">Design Details: Cost Components</span></span>](design-details-cost-components.md)  
-[<span data-ttu-id="334c3-117">Détails de conception : périodes inventaire</span><span class="sxs-lookup"><span data-stu-id="334c3-117">Design Details: Inventory Periods</span></span>](design-details-inventory-periods.md)  
-[<span data-ttu-id="334c3-118">Détails de conception : comptabilisation stock</span><span class="sxs-lookup"><span data-stu-id="334c3-118">Design Details: Inventory Posting</span></span>](design-details-inventory-posting.md)  
-[<span data-ttu-id="334c3-119">Détails de conception : validation d'ordre de fabrication</span><span class="sxs-lookup"><span data-stu-id="334c3-119">Design Details: Production Order Posting</span></span>](design-details-production-order-posting.md)  
-[<span data-ttu-id="334c3-120">Détails de conception : validation d'ordre d'assemblage</span><span class="sxs-lookup"><span data-stu-id="334c3-120">Design Details: Assembly Order Posting</span></span>](design-details-assembly-order-posting.md)  
-[<span data-ttu-id="334c3-121">Détails de conception : rapprochement de comptabilité</span><span class="sxs-lookup"><span data-stu-id="334c3-121">Design Details: Reconciliation with the General Ledger</span></span>](design-details-reconciliation-with-the-general-ledger.md)  
-<span data-ttu-id="334c3-122">[Détails de conception : comptes de la comptabilité](design-details-accounts-in-the-general-ledger.md)
-[Détails de conception : évaluation du stock](design-details-inventory-valuation.md)</span><span class="sxs-lookup"><span data-stu-id="334c3-122">[Design Details: Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md)
-[Design Details: Inventory Valuation](design-details-inventory-valuation.md)</span></span>  
-[<span data-ttu-id="334c3-123">Détails de conception : réévaluation</span><span class="sxs-lookup"><span data-stu-id="334c3-123">Design Details: Revaluation</span></span>](design-details-revaluation.md)
+## <a name="in-this-section"></a><span data-ttu-id="3af11-106">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="3af11-106">In This Section</span></span>  
+[<span data-ttu-id="3af11-107">Détails de conception : modes évaluation stock</span><span class="sxs-lookup"><span data-stu-id="3af11-107">Design Details: Costing Methods</span></span>](design-details-costing-methods.md)  
+[<span data-ttu-id="3af11-108">Détails de conception : lettrage article</span><span class="sxs-lookup"><span data-stu-id="3af11-108">Design Details: Item Application</span></span>](design-details-item-application.md)  
+[<span data-ttu-id="3af11-109">Détails de conception : problème de lettrage article connu</span><span class="sxs-lookup"><span data-stu-id="3af11-109">Design Details: Known Item Application Issue</span></span>](design-details-inventory-zero-level-open-item-ledger-entries.md)  
+[<span data-ttu-id="3af11-110">Détails de conception : ajustement des coûts</span><span class="sxs-lookup"><span data-stu-id="3af11-110">Design Details: Cost Adjustment</span></span>](design-details-cost-adjustment.md)  
+[<span data-ttu-id="3af11-111">Détails de conception : date comptabilisation de l'écriture valeur d'ajustement</span><span class="sxs-lookup"><span data-stu-id="3af11-111">Design Details: Posting Date on Adjustment Value Entry</span></span>](design-details-inventory-adjustment-value-entry-posting-date.md)  
+[<span data-ttu-id="3af11-112">Détails de conception : validation du coût prévu</span><span class="sxs-lookup"><span data-stu-id="3af11-112">Design Details: Expected Cost Posting</span></span>](design-details-expected-cost-posting.md)  
+[<span data-ttu-id="3af11-113">Détails de conception : coût moyen</span><span class="sxs-lookup"><span data-stu-id="3af11-113">Design Details: Average Cost</span></span>](design-details-average-cost.md)  
+[<span data-ttu-id="3af11-114">Détails de conception : écart</span><span class="sxs-lookup"><span data-stu-id="3af11-114">Design Details: Variance</span></span>](design-details-variance.md)  
+[<span data-ttu-id="3af11-115">Détails de conception : arrondi</span><span class="sxs-lookup"><span data-stu-id="3af11-115">Design Details: Rounding</span></span>](design-details-rounding.md)  
+[<span data-ttu-id="3af11-116">Détails de conception : composants des coûts</span><span class="sxs-lookup"><span data-stu-id="3af11-116">Design Details: Cost Components</span></span>](design-details-cost-components.md)  
+[<span data-ttu-id="3af11-117">Détails de conception : périodes inventaire</span><span class="sxs-lookup"><span data-stu-id="3af11-117">Design Details: Inventory Periods</span></span>](design-details-inventory-periods.md)  
+[<span data-ttu-id="3af11-118">Détails de conception : comptabilisation stock</span><span class="sxs-lookup"><span data-stu-id="3af11-118">Design Details: Inventory Posting</span></span>](design-details-inventory-posting.md)  
+[<span data-ttu-id="3af11-119">Détails de conception : validation d'ordre de fabrication</span><span class="sxs-lookup"><span data-stu-id="3af11-119">Design Details: Production Order Posting</span></span>](design-details-production-order-posting.md)  
+[<span data-ttu-id="3af11-120">Détails de conception : validation d'ordre d'assemblage</span><span class="sxs-lookup"><span data-stu-id="3af11-120">Design Details: Assembly Order Posting</span></span>](design-details-assembly-order-posting.md)  
+[<span data-ttu-id="3af11-121">Détails de conception : rapprochement de comptabilité</span><span class="sxs-lookup"><span data-stu-id="3af11-121">Design Details: Reconciliation with the General Ledger</span></span>](design-details-reconciliation-with-the-general-ledger.md)  
+[<span data-ttu-id="3af11-122">Détails de conception : comptes de la comptabilité</span><span class="sxs-lookup"><span data-stu-id="3af11-122">Design Details: Accounts in the General Ledger</span></span>](design-details-accounts-in-the-general-ledger.md)  
+[<span data-ttu-id="3af11-123">Détails de conception : évaluation du stock</span><span class="sxs-lookup"><span data-stu-id="3af11-123">Design Details: Inventory Valuation</span></span>](design-details-inventory-valuation.md)  
+[<span data-ttu-id="3af11-124">Détails de conception : réévaluation</span><span class="sxs-lookup"><span data-stu-id="3af11-124">Design Details: Revaluation</span></span>](design-details-revaluation.md)
