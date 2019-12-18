@@ -1,8 +1,6 @@
 ---
 title: 'Procédure : créer des workflows | Microsoft Docs'
 description: Vous pouvez créer des workflows qui connectent des tâches de processus entreprise exécutées par différents utilisateurs. Les tâches du système, telles que la validation automatique, peuvent être incluses comme étapes du workflow, précédées ou suivies des tâches de l'utilisateur. Demander et accorder une approbation pour créer des enregistrements sont des étapes classiques du workflow.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 11/15/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7ef58cf6729ed5608fdbc6ac24093941bf41dc82
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0589314914b2f7982c52b62475d41754845a48d5
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305467"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881207"
 ---
 # <a name="create-workflows"></a>Créer des workflows
 Vous pouvez créer des workflows qui connectent des tâches de processus entreprise exécutées par différents utilisateurs. Les tâches du système, telles que la validation automatique, peuvent être incluses comme étapes du workflow, précédées ou suivies des tâches de l'utilisateur. Demander et accorder une approbation pour créer des enregistrements sont des étapes classiques du flux de travail.  
@@ -27,12 +25,12 @@ Sur la page **Workflow**, créez un workflow en répertoriant les étapes concer
 Lorsque vous créez des workflows, vous pouvez copier les étapes à partir de workflows existants ou de modèles de workflow. Les modèles de workflow représentent des workflows non modifiables qui existent dans la version générique de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Le code des modèles de workflow ajoutés par Microsoft a le préfixe « MS- », comme dans « MS-PIW ». Pour plus d'informations, reportez-vous à la rubrique [Créer des flux de travail à partir de modèles de flux de travail](across-how-to-create-workflows-from-workflow-templates.md).  
 
 Si votre scénario d'entreprise requiert des événements ou réponses de workflow qui ne sont pas pris en charge, un partenaire Microsoft doit les implémenter en personnalisant le code de l'application.  
-  
+
 > [!NOTE]  
 >  Toutes les notifications relatives aux étapes du workflow sont envoyées à l'aide d'une file projets. Assurez-vous que la file projets dans votre installation est configurée pour traiter les notifications du flux de travail, et que la case à cocher **Démarrer automatiquement à partir de NAS** est activée. Pour plus d'informations, voir [Utiliser des files d'attente des travaux pour planifier des tâches](admin-job-queues-schedule-tasks.md).  
 
 ## <a name="to-create-a-workflow"></a>Pour créer un workflow  
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Flux de travail**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Flux de travail**, puis sélectionnez le lien associé.  
 2. Sélectionnez l'action **Nouveau**. La page **Flux de travail** s'ouvre.  
 3. Dans le champ **Code**, entrez 20 caractères maximum pour identifier le workflow.  
 4. Pour créer le flux de travail à partir d'un modèle de flux de travail, dans la page **Flux de travail**, choisissez l'action **Créer le flux de travail à partir du modèle**. Pour plus d'informations, reportez-vous à la rubrique [Créer des flux de travail à partir de modèles de flux de travail](across-how-to-create-workflows-from-workflow-templates.md).  
@@ -56,9 +54,11 @@ Si votre scénario d'entreprise requiert des événements ou réponses de workfl
 
     1.  Pour spécifier des options pour une réponse de workflow impliquant l'envoi d'une notification, renseignez les champs comme indiqué dans le tableau suivant.  
 
-        |Champ|Désignation|  
+        |Champ|Description|  
         |----------------------------------|---------------------------------------|  
+        |**Notifier l'expéditeur**|Indiquez si le demandeur de l'approbation est notifié au lieu du destinataire de la demande d'approbation. Si vous activez la case à cocher, le champ **ID utilisateur du destinataire** est désactivé, car le demandeur de l'approbation, c'est-à-dire l'expéditeur, est notifié à la place. Le nom de la réponse du flux de travail est modifié en conséquence, en **Créer une notification pour &lt;Expéditeur&gt;**. Si la case à cocher n'est pas activée, le nom de la réponse du flux de travail est **Créer une notification pour &lt;Utilisateur&gt;**.
         |**Code utilisateur du destinataire**|Spécifiez l'utilisateur auquel la notification doit être envoyée. Remarque : cette option n'est disponible que pour les réponses de workflow avec un espace réservé pour un utilisateur spécifique. Pour les réponses de workflow sans espaces réservés pour les utilisateurs, le destinataire de la notification est généralement défini par le paramètres utilisateur d'approbation.|  
+        |**Type écriture notification**|Spécifie si la notification de flux de travail est déclenchée par une modification d'enregistrement, une demande d'approbation ou des données échues transmises.|
         |**Page cible du lien**|Spécifiez une autre page dans [!INCLUDE[d365fin](includes/d365fin_md.md)] que le lien de la notification ouvre au lieu de la page par défaut.|  
         |**Lien personnalisé**|Spécifiez l'URL d'un lien qui est ajouté à la notification en complément du lien vers une page dans [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
     2.  Pour spécifier des options pour une réponse de workflow impliquant la création d'une demande d'approbation, renseignez les champs comme indiqué dans le tableau suivant.  
@@ -91,7 +91,7 @@ Si votre scénario d'entreprise requiert des événements ou réponses de workfl
 >  N'activez pas un workflow tant que vous n'êtes pas sûr qu'il est terminé et que les étapes de workflow concernées peuvent démarrer.  
 
 > [!TIP]  
->  Pour visualiser les relations entre les tables qui sont utilisées dans le flux de travail, choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), et entrez **Flux de travail - Relations de table**.  
+>  Pour visualiser les relations entre les tables qui sont utilisées dans le flux de travail, choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "TDites-moi ce que vous voulez faire), puis entrez **Flux de travail - Relations de table**.  
 
 ## <a name="see-also"></a>Voir aussi  
 [Créer des flux de travail à partir de modèles de flux de travail](across-how-to-create-workflows-from-workflow-templates.md)   
@@ -103,4 +103,3 @@ Si votre scénario d'entreprise requiert des événements ou réponses de workfl
 [Paramétrage des workflows](across-set-up-workflows.md)   
 [Utilisation des workflows](across-use-workflows.md)   
 [Flux de travail](across-workflow.md)      
-

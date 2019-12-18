@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9e61ffff9e081d561eb637a398f0bcb05ff69f70
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 412c354313e571969c3ab7aa87210ff432ae0e91
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315629"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882205"
 ---
 # <a name="sorting-searching-and-filtering"></a>Tri, recherche et filtrage
 Il existe quelques fonctions que vous pouvez utiliser pour vous aider à analyser, rechercher et limiter des enregistrements d'une liste ou dans un état ou un XMLport. Il s'agit notamment du tri, de la recherche et du filtrage. Vous pouvez en appliquer certaines ou toutes simultanément pour trouver rapidement ou analyser vos données.
@@ -23,7 +23,7 @@ Il existe quelques fonctions que vous pouvez utiliser pour vous aider à analyse
 Pour les états et les XMLports, vous pouvez définir des filtres comme sur des listes pour délimiter les données à inclure dans l'état ou le XMLport, mais vous ne pouvez pas trier et rechercher.
 
 > [!TIP]
-> En affichant vos données en tant que vignettes, vous pouvez rechercher et utiliser le filtrage de base. Pour utiliser l'ensemble complet de puissantes fonctions de tri, de recherche et de filtrage, choisissez l'icône ![Afficher comme liste](media/ui_show_as_list_icon.png "Flèche vers la gauche Afficher comme liste") pour afficher les enregistrements sous forme de liste.
+> En affichant vos données en tant que vignettes, vous pouvez rechercher et utiliser le filtrage de base. Pour utiliser l'ensemble complet de puissantes fonctions de tri, de recherche et de filtrage, choisissez l'icône ![Afficher sous forme de liste](media/ui_show_as_list_icon.png "Afficher sous forme de liste") pour afficher les enregistrements sous forme de liste.
 
 <!--
 When you want to search for data, such as customer names, addresses, or product groups, you enter criteria. In search criteria, you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.
@@ -39,7 +39,7 @@ Pour trier une liste, vous pouvez choisir un texte d'en-tête de colonne pour pe
 
 ## <a name="searching"></a>Recherche
 <!--## Searching by using the Quick Filter -->
-En haut de chaque page de liste, il existe une action ![Rechercher une liste](media/ui-search/search-list.png "icône Rechercher une liste") **Rechercher** qui fournit une manière rapide et facile de réduire les enregistrements en une liste et d'afficher uniquement les enregistrements qui contiennent les données que vous souhaitez afficher.
+En haut de chaque page de liste, il existe une action ![Rechercher dans une liste](media/ui-search/search-list.png "Icône de liste Rechercher") **Rechercher** qui fournit une manière rapide et facile de réduire les enregistrements d'une liste et d'afficher uniquement les enregistrements qui contiennent les données que vous souhaitez afficher.
 
 Pour rechercher, sélectionnez simplement l'action **Rechercher**, puis dans la case, entrez le texte souhaité. Vous pouvez saisir des lettres, des chiffres et d'autres symboles.
 
@@ -111,7 +111,7 @@ Le volet Filtre affiche les filtres actuels de la liste, et permet de définir v
   Certaines listes qui affichent des champs calculés, comme des montants et des quantités, incluent la section **Filtrer les totaux par** où vous pouvez ajuster les différents axes qui ont une incidence sur les calculs. Pour ajouter un filtre, choisissez l'action **+ Filtre**, tapez le nom du champ pour lequel vous souhaitez filtrer la liste ou choisissez un champ dans la liste déroulante.
 
   > [!NOTE]
-  > Les filtres de la section **Filtrer les totaux par** sont contrôlés par les FlowFilters sur la conception de page. Pour des informations techniques, voir [FlowFilters](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
+  > Les filtres de la section **Filtrer les totaux par** sont contrôlés par les FlowFilters sur la conception de page. Pour des informations techniques, voir [FlowFilters](/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
 
 Vous pouvez définir un filtre simple directement sur une liste à l'aide du volet Filtre, à savoir un filtre qui n'affiche que les enregistrements ayant la même valeur que dans la cellule sélectionnée. Sélectionnez une cellule dans la liste, choisissez la flèche déroulante, puis choisissez l'action **Filtrer sur cette valeur**. Sinon, appuyez sur **Alt+F3**.
 

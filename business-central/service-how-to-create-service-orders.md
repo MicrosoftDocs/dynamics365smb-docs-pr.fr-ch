@@ -1,8 +1,6 @@
 ---
 title: 'Procédure : créer des commandes service | Microsoft Docs'
 description: Utilisez la page **Commande service** pour créer des documents dans lesquels vous saisissez des informations sur un service, tel que réparation et maintenance, pour des articles de service à la demande du client.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2e27844b708982e76ce4dfcf15ec02f7190cd855
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5415475d2dd820ff03615b6911db3082c33be9b6
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311731"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877342"
 ---
 # <a name="create-service-orders"></a>Créer commande service
 Utilisez la page **Commande service** pour créer des documents dans lesquels vous saisissez des informations sur un service, tel que réparation et maintenance, pour des articles de service à la demande du client.  
@@ -25,7 +23,7 @@ Utilisez la page **Commande service** pour créer des documents dans lesquels vo
 Lorsque vous créez une commande service, vous ne devez renseigner que certains champs. Certains champs sont facultatifs et la beaucoup d'entre eux sont renseignés automatiquement lorsque vous renseignez les champs associés.  
 
 ## <a name="to-create-a-service-order"></a>Pour créer une commande service    
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes service**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes service**, puis sélectionnez le lien associé.  
 2. Créez une nouvelle commande service.  
 3. Dans le champ **N°**, saisissez le numéro de la commande service.  
 
@@ -40,7 +38,7 @@ Lorsque vous créez une commande service, vous ne devez renseigner que certains 
 ## <a name="to-create-a-service-order-from-a-contract"></a>Pour créer une commande de service à partir d'un contrat  
 Vous pouvez créer automatiquement des commandes service pour la maintenance des articles de service sur la base des contrats de service.  
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Créer cdes contrat service**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Créer cdes contrat service**, puis sélectionnez le lien associé.  
 2. Sur le raccourci **En-tête contrat service**, positionnez les filtres à appliquer.  
 3. Sur le raccourci **Options** , renseignez les champs **Date début** et **Date fin** avec la date début et la date fin pour la période pour laquelle vous souhaitez créer les commandes contrat de service. Le traitement par lots crée des commandes service qui incluent les articles de service des contrats de service dont les dates service suivantes sont comprises dans cette période.  
 
@@ -54,14 +52,14 @@ Lorsqu'un client accepte un devis service, vous le convertissez en commande serv
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] recherche les écritures affectation de tous les articles de service du devis service qui présentent le statut **Actif**. S'il en trouve, leur état d'affectation passe à **Réaffectation nécessaire**. Lorsque vous réaffectez les articles de service de la commande service, le statut des écritures affectation enregistrées pour le devis passe à **Terminé**.   
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Devis contrat de service**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Devis contrat de service**, puis sélectionnez le lien associé.  
 2. Choisissez le devis service à convertir en commande service.  
 3. Sélectionnez l'action **Créer commande**.  
 
 ## <a name="to-check-item-availability-for-one-or-more-orders"></a>Pour vérifier la disponibilité des articles pour une ou plusieurs commandes  
 Vous pouvez vérifier si un article dont vous avez besoin pour une commande est en stock et, s'il ne l'est pas, la date à laquelle il le sera. En outre, si un article est disponible à la réservation, vous pouvez le réserver pour vous assurer qu'il sera disponible. Vous pouvez vérifier la disponibilité pour une commande définie, ou pour toutes les commandes.  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Tableau d'affectation**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Tableau d'affectation**, puis choisissez le lien associé.  
 2. Exécutez l'une des opérations suivantes :  
 
     * Pour une commande définie, choisissez la commande, puis sélectionnez l'action **Aperçu demande**.  
@@ -81,7 +79,7 @@ Si vous voulez avoir l'assurance qu'un article est disponible pour une commande 
 ## <a name="to-insert-lines-based-on-standard-service-codes"></a>Pour insérer des lignes selon les codes prestation standard  
 Si vous avez configuré des codes prestation standard et les avez associés à des groupes articles de service, vous pouvez insérer les lignes standard liées aux codes prestation standard sur des documents service. Pour plus d'informations, voir [Configurer des codes prestation standard](service-how-setup-service-coding.md).   
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes service**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes service**, puis sélectionnez le lien associé.  
 2. Créez une nouvelle commande service.  
 3. Renseignez les champs selon vos besoins.  
 4. Renseignez les lignes article de service avec les informations requises.  
@@ -99,7 +97,7 @@ Les commandes sont habituellement supprimées automatiquement après avoir été
 
 Le programme ne supprime pas la commande service automatiquement cependant, si la quantité totale sur la commande a été validée, non pas à partir de la commande service proprement dite, mais à partir de la page **Facture service**. Ensuite, il se peut que vous deviez supprimer des commandes facturées qui n'ont pas été supprimées. Pour ce faire, exécutez le traitement par lots **Supprimer commandes service facturées**.  
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Supprimer commandes service facturées**, puis sélectionnez le lien associé. La page de demande du traitement par lots **Supprimer commandes service facturées** s'ouvre.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Supprimer commandes service facturées**, puis sélectionnez le lien associé. La page de demande du traitement par lots **Supprimer commandes service facturées** s'ouvre.  
 2. Pour sélectionner les commandes à supprimer, vous pouvez positionner des filtres dans les champs **N°**, **N° client** et **N° client facturé**. .  
 3. Cliquez sur **OK**.  
 

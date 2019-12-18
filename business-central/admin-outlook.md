@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 10/17/2019
+ms.date: 11/22/2019
 ms.author: edupont
-ms.openlocfilehash: 6c1ec2e61b1a6d61b9662abe70e3177747b73a12
-ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
+ms.openlocfilehash: 1e45b7cb19df3c057485451a95ae1633804fa865
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2649731"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879155"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Utilisation de Business Central en tant que boîte de réception professionnelle dans Outlook
+
 [!INCLUDE[d365fin](includes/d365fin_md.md)] vous permet désormais de gérer les interactions commerciales avec vos clients et fournisseurs, directement dans Microsoft Outlook. Avec le complément Outlook de [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez afficher des informations financières associées à des clients et des fournisseurs, ainsi que créer et envoyer des documents financiers, comme des devis et des factures.  
 
 ## <a name="getting-the-add-in"></a>Obtention du complément
@@ -26,9 +27,13 @@ Il pouvez aisément démarrer avec le module complémentaire [!INCLUDE[d365fin](
 Ensuite, lorsque vous ouvrez Outlook, vous voyez un message électronique dans *Admin Dynamics 365 Business Central*. Les nouveaux modules complémentaires sont ajoutés au ruban Outlook, et dans le navigateur, les modules complémentaires [!INCLUDE[prodshort](includes/prodshort.md)] apparaissent au-dessus ou au dessous du corps du message. Les modules complémentaires sont mis à jour régulièrement, et vous êtes informé qu'une nouvelle version est prête dans Outlook.  
 
 > [!TIP]
-> Si vous utilisez le nouvel Outlook dans un navigateur, les modules complémentaires [!INCLUDE [prodshort](includes/prodshort.md)] peuvent être cachés sous **Plus d'actions**.
+> Si vous utilisez le nouvel Outlook sur le Web, les compléments [!INCLUDE [prodshort](includes/prodshort.md)] peuvent être cachés sous **Plus d'actions**. Si vous utilisez souvent le complément, vous pouvez l'épingler pour qu'il soit toujours immédiatement visible. Pour plus d'informations, voir [Utilisation des compléments dans Outlook sur le Web](https://support.office.com/article/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?ns=OLWAO365B&version=16).  
 
-Si vous travaillez avec plus d'une entreprise [!INCLUDE [prodshort](includes/prodshort.md)], vous pouvez facilement basculer d'une entreprise à l'autre dans Outlook.
+Si vous travaillez avec plus d'une entreprise [!INCLUDE [prodshort](includes/prodshort.md)], vous pouvez facilement basculer d'une entreprise à l'autre dans Outlook. Dans la barre d'actions du complément, choisissez **Plus d'actions** pour afficher l'option permettant de passer d'une entreprise à l'autre.  
+
+<!--TEMP-->
+> [!NOTE]
+> Le passage d'une entreprise à l'autre nécessite la 2e vague de publication 2019 de [!INCLUDE [prodshort](includes/prodshort.md)] ou ultérieure, comme annoncé dans le [plan de publication](/dynamics365-release-plan/2019wave2/dynamics365-business-central/switch-between-companies-business-inbox-outlook).
 
 Certaines sociétés utilisant Office 365 n'autorisent pas leurs utilisateurs à déployer des compléments. Ainsi vous devez vous assurer que vous disposez d'un abonnement Office 365 comprenant la messagerie et qui vous permet de déployer des compléments. Si vous souhaitez tout de même essayer le complément, vous pouvez [essayer gratuitement Office 365](https://products.office.com/try).  
 
@@ -74,4 +79,4 @@ Les compléments sont conçus pour être utilisés avec Office 365. Si vous util
 [Ventes](sales-manage-sales.md)  
 [Achats](purchasing-manage-purchasing.md)  
 [Configuration minimale requise pour Outlook](product-requirements.md#outlook)  
-[Utilisation des compléments dans Outlook sur le Web](https://support.office.com/en-us/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  
+[Utilisation des compléments dans Outlook sur le Web](https://support.office.com/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  

@@ -1,8 +1,6 @@
 ---
 title: Procédure de configuration d’une société avec l’assistant RapidStart | Microsoft Docs
 description: Vous pouvez rapidement configurer une nouvelle société que vous avez créée à l’aide de l’Assistant Configuration de RapidStart Services.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a6bc660112edb7a316fcbb2f0bdfddd0f5e90634
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d26073d7b96b3c5970689c916edf18fccab6ca34
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308155"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878716"
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Configurer une société avec l'assistant RapidStart
 Vous pouvez rapidement configurer une nouvelle société que vous avez créée à l’aide de l’Assistant Configuration de RapidStart Services.
@@ -41,7 +39,7 @@ Dans la procédure suivante, vous avez fourni au client un package configuration
     >  Modifiez votre Tableau de bord uniquement après avoir effectué la configuration de la société. Si vous avez d’autres informations de paramétrage à prendre en compte et à modifier, utilisez d’abord la feuille configuration pour effectuer votre travail. Enfin, revenez à l’Assistant pour mettre à jour votre profil Tableau de bord, ou sélectionnez l'action **Configuration terminée**.
 
 7. Cliquez sur le bouton **OK**.  
-8. Pour vérifier que les informations de configuration ont été appliquées à la nouvelle société, sélectionnez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Informations société**, puis sélectionnez le lien connexe.
+8. Pour vérifier que les informations de configuration ont été appliquées à la nouvelle société, sélectionnez l'icône ![Ampoule qui ouvre la fonction Tell](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Informations société**, puis sélectionnez le lien connexe.
 
 La page **Informations société** contient les informations que vous avez spécifiées.   
 

@@ -1,8 +1,6 @@
 ---
 title: Configurer les processus de gestion des services | Microsoft Docs
 description: Apprenez comment configurer les processus qui permettent de vérifier que les clients sont satisfaits de votre service client.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, warranties
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: eb83c1a2e90e81060355e15c9d0e81d321ed8ed0
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 665842a2ec24cbee6db469f5ce71b03ddd278555
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315867"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877150"
 ---
 # <a name="configure-service-processes"></a>Configuration des processus de service
 Voici quelques exemples des paramètres que vous pouvez appliquer aux processus de gestion des services :  
@@ -29,7 +27,7 @@ Voici quelques exemples des paramètres que vous pouvez appliquer aux processus 
 * Les souches de numéros à utiliser pour les documents et les articles relatifs au service.  
 
 ## <a name="to-enter-general-and-mandatory-settings"></a>Pour saisir les paramètres généraux et obligatoires
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres service**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres service**, puis sélectionnez le lien associé.
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="see-also"></a>Voir aussi  

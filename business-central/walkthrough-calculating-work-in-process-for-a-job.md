@@ -1,8 +1,6 @@
 ---
 title: 'Procédure pas à pas : calcul des travaux en cours pour un projet | Microsoft Docs'
 description: Avec les projets, vous pouvez planifier l'utilisation des ressources de votre société et suivre les différents coûts pour un projet spécifique. Les projets impliquent la consommation d'heures salarié, d'heures machines, d'articles en stock et d'autres types d'activité devant être suivis au fur et à mesure de l'avancée du projet.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 98ecc7dad5857d36ca662d1b35d4e1d066e8f851
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1ba3bb79978d9635239183e7bbfc14722951b222
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314883"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877006"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Procédure pas à pas : calcul des travaux en cours pour un projet
 
@@ -62,7 +60,7 @@ Avec les projets, vous pouvez planifier l'utilisation des ressources de votre so
 
 ### <a name="to-calculate-wip"></a>Pour calculer les TEC :  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Projets**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Projets**, puis sélectionnez le lien associé.  
 2.  Dans la liste **Projets**, sélectionnez le projet **Deerfield**, puis choisissez l'action **Modifier**. La fiche projet s'ouvre en mode édition.  
 
      Les TEC peuvent être calculés en fonction de la méthode sélectionnée dans ce champ : Valeur de coût, Valeur des ventes, Coût des ventes, Pourcentage avancement ou Fin de contrat. Dans cet exemple, CRONUS utilise la méthode Valeur de coût.  
@@ -94,7 +92,7 @@ Avec les projets, vous pouvez planifier l'utilisation des ressources de votre so
 
 ### <a name="to-review-wip-warnings"></a>Pour étudier les avertissements TEC  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Cockpit TEC**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Cockpit TEC**, puis sélectionnez le lien associé.  
 2.  Sélectionnez le projet **Deerfield**, puis l'action **Afficher des avertissements**.  
 3.  Sur la page **Avertissements TEC projet**, examinez l'avertissement associé au projet.  
 

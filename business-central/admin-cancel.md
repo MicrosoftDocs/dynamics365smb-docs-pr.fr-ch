@@ -8,39 +8,34 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: remove, delete
-ms.date: 10/01/2019
+ms.date: 11/14/2019
 ms.author: edupont
-ms.openlocfilehash: 60c6574706aa873549f40a875eb5f4ac390ca93a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c0df60e72db192f72cbda18882f99f6f66aabe4f
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304699"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878644"
 ---
-# <a name="unsubscribe-remove-or-reset-included365finincludesd365fin_mdmd"></a>Annuler un abonnement, supprimer, ou réinitialiser [!INCLUDE[d365fin](includes/d365fin_md.md)]
-Si vous souhaitez ne plus utiliser [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez fermer votre compte ou faire supprimer la licence de votre compte. La procédure à suivre est différente si vous utilisez actuellement la version d'évaluation gratuite ou si vous disposez d'un abonnement mensuel dans le cadre d'un compte Office 365.  
+# <a name="unsubscribe-or-remove-includeprodshortincludesprodshortmd"></a>Annuler un abonnement ou supprimer [!INCLUDE[prodshort](includes/prodshort.md)]
 
-De même, vous pouvez choisir de réinitialiser la société que vous utilisez dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour un aperçu rapide, voir [le blog [!INCLUDE[d365fin](includes/d365fin_md.md)]](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel).  
+Si vous souhaitez ne plus utiliser [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez fermer votre compte ou faire supprimer la licence de votre compte. La procédure à suivre est différente si vous utilisez actuellement la version d'évaluation gratuite ou si vous disposez d'un abonnement.  
+
+## <a name="closing-your-free-trial-of-includeprodshortincludesprodshortmd"></a>Fermeture de votre version d'évaluation gratuite de [!INCLUDE[prodshort](includes/prodshort.md)]
+
+Si vous vous êtes inscrit à la version d'évaluation gratuite et si vous ne souhaitez pas passer à [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez fermer votre compte à tout moment. Nous vous recommandons d'exporter les données avant de fermer votre compte. 
+
+Vous devez demander à votre administrateur Office 365 de supprimer l'abonnement d'évaluation du compte de votre société dans le [centre d'administration Microsoft 365](https://admin.microsoft.com/). 
+
+Si vous vous êtes abonné à [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide d'un compte Office 365 non professionnel, vous n'avez pas d'administrateur Office 365. Au lieu de cela, vous devez annuler votre abonnement en contactant l'équipe d'annulation [!INCLUDE[d365fin](includes/d365fin_md.md)] en lui envoyant un e-mail à l'adresse cancelbusinesscentra@microsoft.com. Vous devez inclure votre nom d'abonné [!INCLUDE[d365fin](includes/d365fin_md.md)] dans le message de sorte que nous puissions vous identifier. Vous trouverez ces informations dans la page **Aide et support**. Pour plus d'informations, reportez-vous à la rubrique [Ressources pour l'aide et l'assistance technique](product-help-and-support.md).  
 
 ## <a name="unsubscribing-by-removing-included365finincludesd365fin_mdmd-from-your-office-365-experience"></a>Annuler un abonnement en supprimant [!INCLUDE[d365fin](includes/d365fin_md.md)] de votre expérience Office 365
-Si vous vous êtes abonné à [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide d'un compte professionnel Office 365 existant, vous devez demander à votre administrateur Office 365 de supprimer la licence [!INCLUDE[d365fin](includes/d365fin_md.md)] de votre compte utilisateur. Si [!INCLUDE[d365fin](includes/d365fin_md.md)] est supprimé de votre compte utilisateur, et si les autres employés de votre société continuent l'abonnement, ils ont toujours accès à vos données partagées dans la société [!INCLUDE[d365fin](includes/d365fin_md.md)] .  
 
-Si votre société souhaite annuler son abonnement à [!INCLUDE[d365fin](includes/d365fin_md.md)], l'administrateur Office 365 peut supprimer l'abonnement du compte de la société.  
+Si votre société souscrit un abonnement à [!INCLUDE [prodshort](includes/prodshort.md)] mais vous, en tant qu'utilisateur, ne souhaitez plus y accéder, vous devez demander à votre administrateur ou votre partenaire revendeur Dynamics 365 de supprimer la licence [!INCLUDE[d365fin](includes/d365fin_md.md)] de votre compte utilisateur Office 365. Si [!INCLUDE[d365fin](includes/d365fin_md.md)] est supprimé de votre compte utilisateur et si votre société continue l'abonnement, vos collèges ont toujours accès à vos données partagées dans la société [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-Les comptes utilisateur et les licences sont gérés à partir du [portail Office](https://portal.office.com). Seuls les administrateurs peuvent supprimer des licences [!INCLUDE[d365fin](includes/d365fin_md.md)] des comptes d'utilisateur ou supprimer l'abonnement du compte de votre société.  
+Si votre société souhaite annuler son abonnement à [!INCLUDE[d365fin](includes/d365fin_md.md)], le partenaire revendeur Dynamics 365 peut supprimer l'abonnement payant du compte de la société. Pour plus d'informations, voir [Administration de Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) dans le contenu dédié à l'équipe IT et aux développeurs.  
 
-## <a name="closing-your-free-trial-of-included365finincludesd365fin_mdmd"></a>Fermeture de votre version d'évaluation gratuite de [!INCLUDE[d365fin](includes/d365fin_md.md)]
-Si vous vous êtes inscrit à la version d'évaluation gratuite et si vous ne souhaitez pas passer à [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez fermer votre compte à tout moment. Nous vous recommandons d'exporter les données avant de fermer votre compte.  
-
-Pour fermer votre compte, actuellement, vous devez l'équipe d'annulation [!INCLUDE[d365fin](includes/d365fin_md.md)] en envoyant un e-mail à l'adresse cancelbusinesscentra@microsoft.com. Vous devez inclure votre nom d'abonné [!INCLUDE[d365fin](includes/d365fin_md.md)] dans le message de sorte que nous puissions vous identifier. La méthode la plus facile consiste à copier l'URL de votre page d'accueil [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-
-## <a name="unsubscribing-from-included365finincludesd365fin_mdmd-without-office-365"></a>Annuler un abonnement à [!INCLUDE[d365fin](includes/d365fin_md.md)] sans Office 365
-Si vous vous êtes abonné à [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide d'un compte Office 365 non professionnel, vous n'avez pas d'administrateur Office 365. Au lieu de cela, vous devez annuler votre abonnement en contactant l'équipe d'annulation [!INCLUDE[d365fin](includes/d365fin_md.md)] en lui envoyant un e-mail à l'adresse cancelbusinesscentra@microsoft.com. Vous devez inclure votre nom d'abonné [!INCLUDE[d365fin](includes/d365fin_md.md)] dans le message de sorte que nous puissions vous identifier. La méthode la plus facile consiste à copier l'URL de votre page d'accueil [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-
-## <a name="resetting-your-included365finincludesd365fin_mdmd-experience"></a>Réinitialisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]
-Si vous avez ajouté des données à votre version d'évaluation gratuite de [!INCLUDE[d365fin](includes/d365fin_md.md)] et que vous souhaitez recommencer à zéro, vous pouvez créer une société avant de réinitialiser la première société. Si vous ouvrez la page **Sociétés**, vous pouvez créer une copie de votre société actuelle, vous déconnecter et vous connecter à votre nouvelle société, puis réinitialiser la société d'origine.  
-> [!NOTE]  
->   Lorsque vous réinitialisez une société que vous partagez avec d'autres collaborateurs de votre entreprise, vous devez vous assurer que personne d'autre n'est connecté lorsque vous réinitialisez la société.  
+Les comptes utilisateur et les licences sont gérés dans le [centre d'administration Microsoft 365](https://admin.microsoft.com/). Seuls les administrateurs peuvent supprimer des licences [!INCLUDE[d365fin](includes/d365fin_md.md)] des comptes d'utilisateur ou supprimer l'abonnement du compte de votre société.  
 
 ## <a name="removing-included365finincludesd365fin_mdmd-from-your-app-launcher"></a>Supprimer [!INCLUDE[d365fin](includes/d365fin_md.md)] de votre lanceur d'applications
 Si vous souhaitez masquer [!INCLUDE[d365fin](includes/d365fin_md.md)] de votre lanceur d'applications, vous pouvez simplement le désactiver. Cela ne supprime pas les données, et n'annule pas votre abonnement.  
@@ -49,5 +44,5 @@ Si vous souhaitez masquer [!INCLUDE[d365fin](includes/d365fin_md.md)] de votre l
 [Mise en route](product-get-started.md)  
 [Création de sociétés](about-new-company.md)  
 [Exportation de vos données métier vers Excel](about-export-data.md)  
-[Portail Office](https://portal.office.com)  
+[Centre d'administration Microsoft 365](https://admin.microsoft.com/)  
 [Combien de temps dure la période d'essai et comment annuler ?](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel)  

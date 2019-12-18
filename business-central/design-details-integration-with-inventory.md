@@ -1,8 +1,6 @@
 ---
 title: Détails de conception - Intégration avec le stock | Microsoft Docs
 description: La zone d'application Warehouse Management et la zone d'application Inventory interagissent dans le stock physique et dans l'ajustement de stock ou entrepôt.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 40b80ec45f998831c1fe71eb52a21f098c25dfdb
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f38422326487a3fd7367b977e6124eab572fffd9
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307123"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880391"
 ---
 # <a name="design-details-integration-with-inventory"></a>Détails de conception : intégration avec le stock
 La zone d'application Warehouse Management et la zone d'application Inventory interagissent dans le stock physique et dans l'ajustement de stock ou entrepôt.  

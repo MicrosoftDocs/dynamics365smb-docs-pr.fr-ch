@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: jswymer
 ms.date: 10/01/2019
-ms.openlocfilehash: ce3187199a0402961b1206077c4d1613093f1919
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: de9f34fc8aefc2d6803f658bf738b06af27f0ebe
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775394"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879394"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Inspection des pages dans Business Central
 
@@ -32,7 +32,7 @@ Lorsque le volet **Inspection des pages** s'ouvre pour la première fois, il aff
 
 Utilisez le clavier ou le dispositif de pointage pour déplacer le focus vers différents éléments de la page. Lorsque vous sélectionnez un élément de type Récapitulatif ou une partie de la page principale, la zone de délimitation est mise en avant par une bordure, et le volet **Inspection des pages** présente les informations relatives à l'élément sélectionné. Par exemple, l'image précédente présente les informations relatives à la partie de la liste sur la page **Commande vente**. Comme vous accédez à d'autres pages de l'application, le volet **Inspection des pages** se met automatiquement à jour avec les informations de la page au fur et à mesure de votre navigation.
 
-Pour en savoir plus sur ce que permet d'afficher la fonction d'inspection des pages, reportez-vous à la rubrique [Pages relatives à l'inspection et à la résolution des problèmes](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-inspecting-pages) dans l'aide dédiée aux professionnels de l'informatique et aux développeurs Business Central.
+Pour en savoir plus sur ce que permet d'afficher la fonction d'inspection des pages, reportez-vous à la rubrique [Pages relatives à l'inspection et à la résolution des problèmes](/dynamics365/business-central/dev-itpro/developer/devenv-inspecting-pages) dans l'aide dédiée aux professionnels de l'informatique et aux développeurs Business Central.
 
 Si vous ne voyez pas les détails auxquels vous vous attendez sur le volet **Inspection des pages**, vous n'avez probablement pas les autorisations requises, comme le décrit la section suivante.
 

@@ -1,8 +1,6 @@
 ---
 title: Procédure de préparation d'un package de configuration | Microsoft Docs
 description: Lorsque vous configurez une nouvelle société, les relations de table sont reconnues et traitées. Les données sont importées et lettrées dans le bon ordre. Les tables d’axes analytiques sont également importées si elles sont incluses dans le package configuration.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0f74b3472b081d7968336fd16b6ef6addccff861
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 48127ea1fb363bd22d4f6d7dec85df47a11f8ce8
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308019"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879265"
 ---
 # <a name="prepare-a-configuration-package"></a>Préparer un package configuration
 Lorsque vous configurez une nouvelle société, les relations de table sont reconnues et traitées. Les données sont importées et lettrées dans le bon ordre. Les tables d’axes analytiques sont également importées si elles sont incluses dans le package configuration. Pour plus d'informations, voir [Pour importer les données client](admin-migrate-customer-data.md#to-import-customer-data). 
@@ -32,7 +30,7 @@ Vérifiez que vous vous trouvez dans le tableau de bord Responsable de l'implém
 >  Vous pouvez importer un package de configuration qui a été exporté d'une base de données qui a un schéma différent que cette base de donnée cible. Toutefois, tous les tables ou champs du package de configuration manquants dans la base de données cible ne seront pas importés. Les tables avec des clés primaires différentes et des champs avec des types de données différents ne seront pas importés avec succès. Par exemple, si le package de configuration inclut une table **50000, Client** dont la clé primaire est **Code20** et que la base de données dans laquelle vous importez le package inclut la table **50000, Compte bancaire client** dont la clé primaire est **Code20 + Code 20**, les données ne seront pas importées.  
 
 ## <a name="to-create-a-configuration-package"></a>Pour créer un package configuration  
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Packages configuration**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Packages configuration**, puis choisissez le lien associé.  
 2. Sélectionnez l'action **Nouveau**.  
 3. Renseignez les champs du raccourci **Général**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Pour exclure les questionnaires de configuration, les modèles de configuration et les tables de feuille configuration du package, activez la case à cocher **Exclure les tables de configuration**. Sinon, ces tables sont automatiquement ajoutées à la liste de tables de package lorsque vous exportez le package.  
@@ -79,7 +77,7 @@ Vous pouvez enregistrer le fichier avec un nom qui est a un sens pour vous, mais
 ### <a name="to-copy-a-configuration-package"></a>Pour copier un package configuration  
 Après avoir créé un package qui répond à la plupart de vos besoins, vous pouvez l’utiliser comme base de création de packages similaires. Ceci peut accélérer la durée d’implémentation et améliorer l’aspect répétitif de RapidStart Services.
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Packages configuration**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Packages configuration**, puis choisissez le lien associé.  
 2. Sélectionnez un package dans la liste, puis sélectionnez l'action **Copier package**.  
 3. Dans le champ **Nouveau code package**, entrez un code pour le nouveau package.  
 4. Cochez la case **Copier données** si vous souhaitez également copier les données de la base de données depuis le package existant.  
@@ -88,7 +86,7 @@ Après avoir créé un package qui répond à la plupart de vos besoins, vous po
 ## <a name="to-customize-a-configuration-package"></a>Pour personnaliser un package configuration
 La feuille configuration permet de collecter et de définir les catégories des informations que vous souhaitez utiliser pour configurer une nouvelle société, et réorganiser les tables d’une manière logique. La mise en forme dans la feuille est basée sur une hiérarchie unique : des zones contiennent des groupes, qui contiennent des tables. Les zones et les groupes sont facultatifs, mais nécessaires si vous souhaitez afficher un aperçu du processus de configuration dans le tableau de bord RapidStart Services.
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille configuration**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille configuration**, puis choisissez le lien associé.  
 2.  Dans le champ **Type ligne**, choisissez **Zone**. Saisissez un nom descriptif dans le champ **Nom**.  
 3.  Dans le champ **Type ligne**, choisissez **Groupe**. Saisissez un nom descriptif dans le champ **Nom**.  
 4.  Dans le champ **Type ligne**, choisissez **Table**. Dans le champ **ID table**, sélectionnez la table que vous souhaitez inclure dans la feuille.  
@@ -105,7 +103,7 @@ Après avoir défini les tables à traiter dans le cadre de votre configuration,
 > [!NOTE]  
 >  Vous pouvez également créer un package directement, puis ajouter des tables au package. Pour plus d’informations, voir [Pour créer un package configuration](admin-how-to-prepare-a-configuration-package.md#to-create-a-configuration-package).
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille configuration**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille configuration**, puis choisissez le lien associé.
 2. Dans la feuille de configuration, sélectionnez une ligne ou un groupe de lignes que vous souhaitez affecter à un package configuration, puis sélectionnez l'action **Affecter package**.  
 3.  Sélectionnez un package de la liste, ou choisissez l'action **Nouveau** pour créer un package, puis cliquez sur le bouton **OK**.  
 
@@ -115,7 +113,7 @@ Après avoir défini les tables à traiter dans le cadre de votre configuration,
 ## <a name="to-review-or-customize-existing-database-data"></a>Pour vérifier ou personnaliser les données existantes de base de données
 Lors de la création d’un package configuration pour une solution, vous pouvez consulter et personnaliser les données de base de données disponibles pour les adapter aux besoins de votre client. La table de base de données doit être associée à une page.  
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille configuration**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille configuration**, puis choisissez le lien associé.
 2. Dans la feuille configuration, identifiez les tables dont vous souhaitez afficher ou personnaliser les données.  
 
     > [!NOTE]  
@@ -128,7 +126,7 @@ Lors de la création d’un package configuration pour une solution, vous pouvez
 Une fois que vous avez contrôlé et testé toutes vos informations de paramétrage, vous pouvez copier des données vers votre environnement de production. Vous créez une société dans la même base de données.
 
 1. Ouvrez et initialisez la nouvelle société.  
-2. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille configuration**, puis sélectionnez le lien associé.  
+2. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille configuration**, puis choisissez le lien associé.  
 3. Sélectionnez l'action **Copier les données de la société**.  
 4. Sur la page **Copier les données de la société**, choisissez le champ **Copier de**. La page **Sociétés** s'ouvre.  
 5. Sélectionnez la société depuis laquelle copier des données, puis cliquez sur le bouton **OK**. Une liste de tables sélectionnées dans la feuille configuration s’ouvre. Seules les tables qui contiennent des enregistrements sont incluses dans cette liste.

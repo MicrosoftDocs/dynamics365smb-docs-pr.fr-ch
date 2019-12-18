@@ -1,8 +1,6 @@
 ---
 title: Comment configurer des types d'emplacement | Microsoft Docs
 description: Vous pouvez diriger la circulation des articles vers les emplacements que vous avez définis pour des activités entrepôt particulières. Vous attribuez à chaque emplacement des activités circulation de base, et définissez de cette façon la manière dont un emplacement est utilisé, en lui affectant un type.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c0339ec5d008f5994d64cf6162feda8144d06a67
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9876fdc5d68721e15ca449bfe8fd2d790ade9b97
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310219"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881638"
 ---
 # <a name="set-up-bin-types"></a>Configurer des types d'emplacement
 Vous pouvez diriger la circulation des articles vers les emplacements que vous avez définis pour des activités entrepôt particulières. Vous attribuez à chaque emplacement des activités circulation de base, et définissez de cette façon la manière dont un emplacement est utilisé, en lui affectant un type.  
@@ -25,7 +23,7 @@ Vous pouvez diriger la circulation des articles vers les emplacements que vous a
 Il existe six types. Votre entrepôt peut fonctionner avec la totalité de ces six types d'emplacement, mais vous pouvez également décider de n'utiliser que les types RECEPT., RANGPRELEV., EXPED. et CQ. Ces quatre types d'emplacement permettent à des propositions relatives à la prise en charge de la circulation des articles d'être effectuées et vous permettent d'enregistrer les différences de stock.  
 
 ## <a name="to-set-up-the-bin-types-you-want-to-use"></a>Pour configurer les types d'emplacement que vous souhaitez utiliser  
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Types emplacement**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Types emplacement**, puis sélectionnez le lien associé.  
 2.  Sur la page **Types emplacement**, créez un code à 10 caractères pour chaque type d'emplacement.  
 3.  Sélectionnez les activités qui peuvent être effectuées avec chaque type d'emplacement.  
 

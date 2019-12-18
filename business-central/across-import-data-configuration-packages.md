@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: migration, Excel
-ms.date: 10/01/2019
+ms.date: 12/04/2019
 ms.author: edupont
-ms.openlocfilehash: e4399c16c28d97c0c1c6d8826af14e1b4a48e454
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ff9f17e6ac1625dc4d1f27a39fc843d9eaa375d7
+ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304987"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2896268"
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a>Importation des données métier à partir d'autres systèmes financiers
 Lorsque vous effectuez votre inscription à [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez choisir de créer une société vierge afin d'être en mesure de télécharger vos propres données et de tester votre société [!INCLUDE[d365fin](includes/d365fin_md.md)]. En fonction de la solution financière qu'utilise votre société aujourd'hui, vous pouvez transférer des informations sur les clients, les fournisseurs, le stock et les comptes bancaires.  
@@ -45,6 +45,9 @@ Lorsque vous exportez le package de configuration par défaut dans Excel, le cla
 
 > [!IMPORTANT]  
 >  Ne modifiez pas les colonnes dans les feuilles de calcul. Si elles sont déplacées, modifiées ou supprimées, la feuille de calcul ne peut pas être importée dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+> [!NOTE]
+> Les champs de type Blob ne peuvent pas être exportés/importés à l'aide d'Excel.
 
 ## <a name="tables-in-the-default-configuration-package"></a>Tables dans le package de configuration par défaut
 Le package de configuration par défaut prend en charge les tables suivantes :

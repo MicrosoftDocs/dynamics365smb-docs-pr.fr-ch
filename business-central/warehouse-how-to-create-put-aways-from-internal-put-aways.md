@@ -1,8 +1,6 @@
 ---
 title: Comment créer un rangement à partir du rangement interne | Microsoft Docs
 description: Lorsque les articles ont été rangés et avant d'être prélevés pour répondre aux besoins d'un ordre de fabrication ou d'une expédition, ils sont stockés dans l'entrepôt comme faisant partie du stock disponible.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 791b23bd158c8dffcf75c511cd2607ef59dae5a6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ad4d0a53f3a7c70ebfeecc9c513598a6ed8448c2
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310411"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881789"
 ---
 # <a name="pick-and-put-away-without-a-source-document"></a>Prélever et ranger sans document origine
 Lorsque les articles ont été rangés et avant d'être prélevés pour répondre aux besoins d'un ordre de fabrication ou d'une expédition, ils sont stockés dans l'entrepôt comme faisant partie du stock disponible.  
@@ -36,13 +34,13 @@ Les **rangements internes** vous permettent d'effectuer des rangements sans avoi
 >  Lorsque le magasin utilise les prélèvement et rangement suggérés et, par conséquent, utilise des types emplacement, vous ne pouvez pas déplacer manuellement des articles vers ou depuis un emplacement de type RECEPTIONNER, car les articles dans ce type d'emplacement doivent être enregistrés comme étant rangés avant de faire partie du stock disponible.  
 
 ## <a name="to-create-an-internal-pick"></a>Pour créer un prélèvement interne  
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Prélèvement interne entrepôt**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Prélèvement interne entrepôt**, puis sélectionnez le lien associé.  
 2.  Renseignez le champ **N°** et **Vers code emplacement** du raccourci **Général**. Le champ **Du code emplacement** indique l'emplacement où se trouvent les articles que vous souhaitez. Pour des raisons de fabrication, cet emplacement représente l'emplacement enlogement ou l'emplacement atelier ouvert. Pour d'autres raisons, vous devez choisir un code emplacement de destination d'un type emplacement qui n'est pas utilisé pour le prélèvement (par exemple, un emplacement affectation, expédition ou un emplacement spécial).  
 3.  Sélectionnez un article dans le champ **N° article**, puis renseignez les quantités à prélever.  
 4. Choisissez l'action **Créer prélèvement**. Une instruction prélèvement entrepôt est maintenant créée pour un magasinier.  
 
 ## <a name="to-create-an-internal-put-away"></a>Pour créer un rangement interne  
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Rangement interne entrepôt**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Rangement interne entrepôt**, puis sélectionnez le lien associé.  
 2.  Renseignez le champ **N°** et **Du code emplacement** du raccourci **Général**. Le champ **Du code emplacement** indique l'emplacement où se trouvent les articles retournés à l'entrepôt (par l'unité de production, par exemple).  
 3.  Renseignez les numéros article et les quantités sur les lignes.  
 4.  Choisissez l'action **Créer rangement**. Une instruction rangement entrepôt est maintenant créée pour un magasinier.  

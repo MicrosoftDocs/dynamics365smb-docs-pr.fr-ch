@@ -1,8 +1,6 @@
 ---
 title: Comment planifier des mouvements entrepôt dans la feuille | Microsoft Docs
 description: Planifiez les mouvements de la feuille à l'aide de la fonction réapprovisionnement emplacement ou en planifiant manuellement les lignes à créer en tant qu'instructions mouvement.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 28c76ad47fe42e9e506869816dced0c4e1194d6d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 108f6e21784c7fa779aa9b10a438813b0a0d1a72
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313919"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881813"
 ---
 # <a name="plan-warehouse-movements-in-worksheets"></a>Planifier des mouvements entrepôt dans la feuille
 Planifiez les mouvements de la feuille à l'aide de la fonction réapprovisionnement emplacement ou en planifiant manuellement les lignes à créer en tant qu'instructions mouvement.  
@@ -25,7 +23,7 @@ Planifiez les mouvements de la feuille à l'aide de la fonction réapprovisionne
 ## <a name="to-calculate-a-replenishment-movement"></a>Pour calculer des mouvements de réapprovisionnement  
 Au fur et à mesure que l'entrepôt expédie des articles aux clients, les emplacements les mieux classés contiennent de moins en moins d'articles. Pour remplir ces emplacements prélèvement avec des articles issus d'autres emplacements, exécutez la fonction **Calculer réappro. emplacement** sur la page **Feuille mouvements**.
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille mouvement**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille mouvement**, puis choisissez le lien associé.  
 2.  Choisissez l'action **Calculer réappro. emplacement**.  
 
     [!INCLUDE[d365fin](includes/d365fin_md.md)] crée des lignes indiquant précisément le mode de déplacement des articles des emplacements les moins bien classés vers les emplacements les mieux classés.  
@@ -46,7 +44,7 @@ Au fur et à mesure que l'entrepôt expédie des articles aux clients, les empla
 ## <a name="to-move-the-entire-contents-of-one-or-more-bins-by-using-the-get-bin-content-function"></a>Pour déplacer l'intégralité du contenu d'un ou de plusieurs emplacements à l'aide de la fonction Extraire contenu emplacement  
 Vous pouvez également utiliser la feuille mouvements pour planifier d'autres mouvements de stock dans l'entrepôt. Par exemple, lorsque vous souhaitez placer des articles dans un emplacement pour contrôler la qualité, utilisez la feuille mouvements pour planifier cette action et créez un mouvement pour élaborer des instructions destinées à un employé.  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille mouvement**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille mouvement**, puis choisissez le lien associé.  
 2.  Choisissez l'action **Extraire contenu emplacement**. Vous pouvez utiliser la page de demande pour filtrer les emplacements et les articles que vous souhaitez voir figurer sur les lignes de la feuille mouvement.  
 3.  Renseignez les champs pertinents de la page de demande de traitement par lots. Pour visualiser, par exemple, le contenu emplacement de tous les emplacements d'une zone donnée au niveau de l'emplacement, renseignez le champ **Code zone**. Pour extraire les lignes de chaque emplacement qui contient un article spécifique, renseignez le champ **N° article**.  
 

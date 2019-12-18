@@ -1,8 +1,6 @@
 ---
 title: Configurer des contrats de service | Microsoft Docs
 description: Découvrez comment configurer des contrats de service.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: service, cost, service order
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 785a1f813956fa769d55b9bd71544613ca463b5b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 96928809525ef07ee82725bad5dd7f6ac4b7a6e0
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316155"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877366"
 ---
 # <a name="set-up-service-contracts"></a>Configurer des contrats de service
 Avant de pouvoir utiliser les contrats, vous devez définir les éléments suivants : 
@@ -28,19 +26,19 @@ Avant de pouvoir utiliser les contrats, vous devez définir les éléments suiva
 * **Modèles client** : permettent de créer des devis pour les contacts ou les clients potentiels qui ne sont pas enregistrés comme clients dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="to-set-up-a-service-contract-group"></a>Pour configurer un groupe de contrats de service  
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Groupes contrats de service**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Groupes contrats de service**, puis sélectionnez le lien associé.  
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Activez la case à cocher **Remise sur cdes contrat seulement** si vous souhaitez que les remises contrat ou service ne soient valides que pour les commandes contrat de service, tels que de maintenance.  
 
 ## <a name="to-set-up-a-service-contract-account-group"></a>Pour configurer un groupe comptes contrats de service  
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Groupes comptes contrat serv.**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Groupes comptes contrat serv.**, puis sélectionnez le lien associé.  
 2. Créez un groupe comptes contrat de service.   
 3. Renseignez les champs **Code** et **Désignation**. Ces champs décrivent le groupe compte service.  
 4. Renseignez le champ **Compte contrat non prépayé**, puis sélectionnez le numéro de compte général du compte non prépayé.  
 5. Dans le champ **Compte contrat non prépayé**, sélectionnez le numéro de compte général du compte non prépayé.  
 
 ## <a name="to-set-up-a-contract-template"></a>Pour configurer un modèle de contrat  
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Contrat de service - Modèles**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Modèles contrat de service**, puis sélectionnez le lien associé.  
 2. Créez un modèle contrat de service.  
 3. Dans le champ **N°**, saisissez le numéro du modèle de contrat.  
   
@@ -50,7 +48,7 @@ Avant de pouvoir utiliser les contrats, vous devez définir les éléments suiva
 5. Sélectionnez l'action **Remises service** pour ajouter des remises contrat.  
 
 ## <a name="to-set-up-a-customer-template"></a>Pour configurer un modèle client  
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Modèles client**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Modèles client**, puis choisissez le lien associé.  
 2. Créez une fiche modèle client.  
 3. Sur le raccourci **Général**, tapez un code et une description pour le modèle client respectivement dans les champs **Code** et **Désignation**. 
 4. Pour définir les critères de recherche, renseignez les autres champs tels que **Code pays/région**, **Code secteur** et **Code langue**.  

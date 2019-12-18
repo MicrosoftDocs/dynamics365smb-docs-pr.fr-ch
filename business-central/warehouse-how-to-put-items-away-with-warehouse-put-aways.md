@@ -1,8 +1,6 @@
 ---
 title: Comment ranger des articles avec le rangement entrepôt | Microsoft Docs
 description: Lorsque l'entrepôt est configuré pour appeler un traitement de rangement entrepôt et un traitement de réception entrepôt, vous pouvez utiliser la fonction documents rangement entrepôt pour contrôler le rangement des articles.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 17743791d7694754f8b8eb97f6792a94b68176d2
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f9c1e144e5574e04d1d5baec039d3f358839631e
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310267"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881669"
 ---
 # <a name="put-items-away-with-warehouse-put-aways"></a>Ranger des articles avec le rangement entrepôt
 Lorsque l'entrepôt est configuré pour appeler un traitement de rangement entrepôt et un traitement de réception entrepôt, vous pouvez utiliser la fonction documents rangement entrepôt pour contrôler le rangement des articles.  
@@ -29,7 +27,7 @@ En fonction de la configuration de l'entrepôt, ces lignes sont mises à disposi
 Outre les méthodes standard pour créer les rangements entrepôt qui sont décrits dans cette rubrique, vous pouvez créer le rangement à partir de la réception entrepôt validée associée. Cela est utile si vous avez supprimé des lignes rangement ou si vous utilisez le prélèvement et le rangement suggérés et avez décidé de ne pas utiliser la feuille rangement, car vous pouvez créer ou recréer des instructions de rangement à partir des lignes réception validées.  
 
 ## <a name="to-put-items-away-without-directed-put-away-and-pick"></a>Rangement d'articles en l'absence de prélèvement et de rangement suggérés  
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Rangements**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Rangements**, puis sélectionnez le lien associé.  
 2.  Ouvrez le rangement entrepôt qui est prêt à être traité.  
 
     Vous pouvez optimiser le processus de rangement en triant les lignes en fonction de critères divers, tels que l'article, le numéro emplacement ou le délai.  
@@ -37,7 +35,7 @@ Outre les méthodes standard pour créer les rangements entrepôt qui sont décr
 4.  Une fois le rangement des articles terminé, choisissez l'action **Enregistrer rangement** pour enregistrer l'achèvement de l'activité et rendre les articles disponibles pour le prélèvement.  
 
 ## <a name="to-put-items-away-with-directed-put-away-and-pick"></a>Rangement d'articles dans le cadre d'un prélèvement et d'un rangement suggérés  
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Rangements**, puis sélectionnez le lien associé.
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Rangements**, puis sélectionnez le lien associé.
     Si des instructions de rangement ont été créées, un rangement entrepôt apparaît.  
 2.  Ouvrez le rangement entrepôt que vous souhaitez utiliser.  
 3.  Entrez votre code utilisateur sur le raccourci **Général** lorsque vous commencez à travailler sur un rangement particulier.  
@@ -65,7 +63,7 @@ La priorité emplacement est prise en compte lorsque plusieurs emplacements corr
 ## <a name="to-create-a-put-away-from-a-posted-receipt"></a>Pour créer un rangement à partir d'une réception validée  
  Si votre magasin utilise à la fois le traitement par rangement et par réception et que vous avez supprimé des lignes rangement ou si vous utilisez le prélèvement et le rangement suggérés et avez décidé de ne pas utiliser la feuille rangement, vous pouvez créer ou recréer des instructions de rangement pour les lignes réception validées.
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Réceptions entrep. enreg.**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Réceptions entrep. enreg.**, puis sélectionnez le lien associé.  
 2.  Sélectionnez une réception validée pouvant nécessiter un rangement.  
 3.  Sélectionnez l'action **Fiche**.  
 

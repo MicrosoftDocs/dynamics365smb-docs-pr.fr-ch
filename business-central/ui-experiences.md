@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 10/08/2019
+ms.date: 11/13/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8c9223176968d048d167b3b8509cab26343ee9f1
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: 32de53150f90f2400962f33601a0fa45c059bd4c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775346"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882173"
 ---
 # <a name="change-which-features-are-displayed"></a>Modifier les fonctionnalités affichées
 [!INCLUDE[d365fin](includes/d365fin_md.md)]est conçu pour vous aider à gérer votre entreprise indépendamment de sa taille et de sa complexité. Au cœur du produit, vous trouverez des fonctionnalités essentielles, telles que la génération d'états financiers, les ventes, les achats et la gestion des stocks. À mesure que la complexité de l'entreprise augmente, vous pouvez activer des fonctionnalités pour la fabrication et la gestion des services, par exemple.
@@ -40,10 +40,10 @@ Avant de définir les paramètres d'expérience d'une société, vous devez déf
 Le paramètre **Expérience** s'applique à tous les utilisateurs d'une société, mais chaque utilisateur peut personnaliser davantage sa propre expérience en modifiant la mise en page et le contenu. Pour plus d'informations, voir [Personnaliser votre espace de travail](ui-personalization-user.md).
 
 ## <a name="enabling-premium-features-after-upgrading-a-plan"></a>Activation des fonctionnalités Premium après mise à niveau d'un plan
-Les utilisateurs sont affectés à des plans dans le centre d'administration Office 365 dans le cadre de la tâche générale de création des utilisateurs Business Central. Pour plus d'informations, voir [Ajouter des utilisateurs à Office 365 for business](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
+Les utilisateurs sont affectés à des plans dans le centre d'administration Microsoft 365 dans le cadre de la tâche générale de création des utilisateurs Business Central. Pour plus d'informations, voir [Ajouter des utilisateurs individuellement ou en bloc à Office 365](https://support.office.com/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
 
 ### <a name="to-update-plan-changes-in-users-groups"></a>Pour mettre à jour les modifications de plan des groupes d'utilisateurs
-Si vous avez modifié les plans des utilisateurs dans le centre d'administration Office 365, par exemple en affectant plus d'utilisateurs au plan Premium, vous devez refléter les modifications dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Si vous avez modifié les plans des utilisateurs dans le centre d'administration Microsoft 365, par exemple en affectant plus d'utilisateurs au plan Premium, vous devez refléter les modifications dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 1. Connectez-vous en tant qu'administrateur.
 2. Choisissez l'icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Utilisateurs**, puis sélectionnez le lien associé.

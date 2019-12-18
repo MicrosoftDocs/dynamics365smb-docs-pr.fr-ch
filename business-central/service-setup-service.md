@@ -1,8 +1,6 @@
 ---
 title: Paramétrage de la gestion des services | Microsoft Docs
 description: Aperçu des tâches de paramétrage de la gestion des services en fonction de la manière dont vos partenaires gère leurs services.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: service, service items, repairs, maintenance, fix
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1820a94ee5a7d0c89f9e9cbae78fb473e2c9cb2d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 81e6dc7fbeef043387d2e78ab549def4dc2d5e6b
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311515"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882293"
 ---
 # <a name="setting-up-service-management"></a>Paramétrage de la gestion des services
 Avant de pouvoir démarrer l'utilisation des fonctionnalités de gestion des services dans [!INCLUDE[d365fin](includes/d365fin_md.md)], il y a quelques éléments à configurer. Par exemple, vous pouvez établir le codage des services standard, les codes symptôme et panne, ainsi que configurer les articles de service et les types d'article de service requis par le service clientèle.  

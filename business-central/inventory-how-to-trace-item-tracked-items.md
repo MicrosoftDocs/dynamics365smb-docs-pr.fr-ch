@@ -1,8 +1,6 @@
 ---
 title: Procédure de traçabilité des articles suivis | Microsoft Docs
 description: Vous pouvez voir où un article suivi a été utilisé, y compris le mode et le moment de réception ou de production, de transfert, de vente, de consommation ou de retour. Vous pouvez également rechercher toutes les instances d'informations d'un numéro de série ou de lot particulier dans la base de données. Vous procédez à l'aide des fonctionnalités Traçabilité et Naviguer.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: cf3581babda20b1645168785adb6efc2000fb92e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: cd97605ec3f000e738cde06fa44c6bc4ccc49499
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309739"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878260"
 ---
 # <a name="trace-item-tracked-items"></a>Tracer des articles - Articles suivis
 Vous pouvez voir où un article suivi a été utilisé, y compris le mode et le moment de réception ou de production, de transfert, de vente, de consommation ou de retour. Vous pouvez également rechercher toutes les instances d'informations d'un numéro de série ou de lot particulier dans la base de données. Vous procédez à l'aide des fonctionnalités Traçabilité et Naviguer.  
@@ -32,7 +30,7 @@ Vous pouvez voir où un article suivi a été utilisé, y compris le mode et le 
 
 ## <a name="to-trace-item-tracked-items"></a>Pour tracer des articles suivis  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Traçabilité**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Traçabilité**, puis sélectionnez le lien associé.  
 2.  Dans les champs de filtre dans le haut de la page, entrez les numéros d'article spécifiques ou un filtre pour les numéros d'article que vous voulez suivre.  
 3.  Dans le champ **Afficher composants**, indiquez si vous voulez également voir d'où provenaient les composants des articles. Les options disponibles dans ce champ sont les suivantes.  
 
@@ -61,7 +59,7 @@ Vous pouvez voir où un article suivi a été utilisé, y compris le mode et le 
 
 ## <a name="to-find-item-tracked-items-with-navigate"></a>Pour rechercher des articles suivis avec Naviguer  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Naviguer**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Naviguer**, puis sélectionnez le lien associé.  
 2.  Sur le raccourci **Traçabilité**, dans les champs **N° de série** et **N° lot**, entrez les numéros traçabilité que vous voulez suivre.  
 3.  Sélectionnez l'action **Rechercher** pour rechercher toutes les instances du numéro de série ou de lot dans la base de données.  
 

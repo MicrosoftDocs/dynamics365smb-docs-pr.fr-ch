@@ -1,8 +1,6 @@
 ---
 title: Procédure de configuration des transporteurs | Microsoft Docs
 description: Vous pouvez définir un code pour chacun de vos transporteurs et saisir les informations qui les concernent.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 27b362c9c9aabec842e28e631ca2b93c1515f2fc
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b1c5b0940998531601f0ab1c604c31328ce2bd66
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311995"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882869"
 ---
 # <a name="set-up-shipping-agents"></a>Configurer des transporteurs
 Vous pouvez définir un code pour chacun de vos transporteurs et saisir les informations qui les concernent.  
@@ -30,7 +28,7 @@ Pour chaque transporteur, vous pouvez définir un nombre illimité de services e
 Lorsque vous avez affecté une prestation transporteur à une ligne commande vente, le délai d'expédition de la prestation est inclus dans le calcul de la promesse de livraison, pour cette ligne. Pour plus d'informations, voir [Calculer des dates promesse livraison](sales-how-to-calculate-order-promising-dates.md).
 
 ## <a name="to-set-up-a-shipping-agent"></a>Pour configurer des transporteurs  
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Transporteurs**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Transporteurs**, puis sélectionnez le lien associé.  
 2.  Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].  
 3.  Sélectionnez l'action **Prestations transporteur**.
 4. Dans la fenêtre **Prestations transporteur**, renseignez les champs selon vos besoins.

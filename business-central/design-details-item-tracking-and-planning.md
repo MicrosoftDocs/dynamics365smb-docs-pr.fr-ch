@@ -1,8 +1,6 @@
 ---
 title: Détails de conception - Traçabilité et planification | Microsoft Docs
 description: Puisqu'ils sont enregistrés dans le système de réservation, les numéros de traçabilité sont coordonnés entièrement avec l'enregistrement de chaînage.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0b83cc4daea4e37dae1e1ef7437276205b76cbe5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: bc6b919a2c54fc4c500f46b1ad7972350b72e1e0
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303372"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880271"
 ---
 # <a name="design-details-item-tracking-and-planning"></a>Détails de conception : traçabilité et planification d'article
 Puisqu'ils sont enregistrés dans le système de réservation, les numéros de traçabilité sont coordonnés entièrement avec l'enregistrement de chaînage. Cela signifie que les articles qui ont des numéros de suivi de commande peuvent se voir affecter des numéros de suivi d'article. Inversement, les articles qui ont des numéros traçabilité peuvent devenir des enregistrement de chaînage. Pour plus d'informations, voir [Détails de conception : création de traçabilité](design-details-item-tracking-design.md).

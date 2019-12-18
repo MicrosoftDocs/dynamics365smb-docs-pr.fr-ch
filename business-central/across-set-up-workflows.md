@@ -1,8 +1,6 @@
 ---
 title: Paramétrage des workflows | Microsoft Docs
 description: Vous pouvez configurer et utiliser des workflows qui connectent des tâches de processus entreprise exécutées par différents utilisateurs. Les tâches du système, telles que la validation automatique, peuvent être incluses comme étapes du workflow, précédées ou suivies des tâches de l'utilisateur. Demander et accorder une approbation pour créer des enregistrements sont des étapes classiques du workflow.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: dd399a74f4f5f08dab9b3abe86cac6844ab8efbd
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6ff257a13a995b9617bdae9de98830f50e45edee
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304795"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879375"
 ---
 # <a name="setting-up-workflows"></a>Paramétrage des workflows
 Vous pouvez configurer et utiliser des workflows qui connectent des tâches de processus entreprise exécutées par différents utilisateurs. Les tâches du système, telles que la validation automatique, peuvent être incluses comme étapes du workflow, précédées ou suivies des tâches de l'utilisateur. Demander et accorder une approbation pour créer des enregistrements sont des étapes classiques du workflow. Pour plus d'informations, voir [Utilisation des workflows](across-use-workflows.md).  
@@ -36,7 +34,7 @@ Vous pouvez configurer et utiliser des workflows qui connectent des tâches de p
 |Configurer des utilisateurs de workflow qui participent à des workflow d'approbation.|[Configurer des utilisateurs d'approbation](across-how-to-set-up-approval-users.md)|  
 |Spécifier comment les utilisateurs du workflow sont notifiés des étapes du workflow, y compris des demandes d'approbation.|[Configuration de notifications de workflow](across-setting-up-workflow-notifications.md)|  
 |Spécifiez si des utilisateurs sont notifiés par e-mail ou note et à quelle fréquence les notifications sont envoyées.|[Spécifier quand et comment recevoir des notifications](across-how-to-specify-when-and-how-to-receive-notifications.md)|  
-|Personnalisez le contenu des e-mails de notification en modifiant l'état 1320, notification par e-mail.|[Créer et modifier une présentation de rapport ou de document personnalisée](ui-how-create-custom-report-layout.md)|  
+|Personnalisez le contenu des e-mails de notification en modifiant l'état 1320, notification par e-mail.|[Créer et modifier des présentations de rapport personnalisées](ui-how-create-custom-report-layout.md)|  
 |Configurer un serveur SMTP pour activer une communication entrante et sortante de [!INCLUDE[d365fin](includes/d365fin_md.md)] par e-mail|[Configurer la messagerie](admin-how-setup-email.md)|
 |Spécifier les différentes étapes d'un workflow par les événements du workflow de connexion avec des réponses du workflow.|[Créer des workflows](across-how-to-create-workflows.md)|  
 |Utiliser des modèles de workflow pour créer des workflows.|[Créer des flux de travail à partir de modèles de flux de travail](across-how-to-create-workflows-from-workflow-templates.md)|  

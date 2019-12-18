@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: microsoft partner
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 996dc8200518dea40b59756a74f7d93562a1ca8a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 964cbf52362db7a5f9131375925adbf8f941938d
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313507"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883359"
 ---
 # <a name="become-a-reseller-of-included365fin_longincludesd365fin_long_mdmd"></a>Devenir revendeur [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Développez vos opportunités commerciales avec [!INCLUDE[d365fin](includes/d365fin_md.md)]!  
@@ -28,11 +28,11 @@ Si vous vous spécialisez dans les solutions Cloud, Office 365, SharePoint, les 
 
 Le programme « Vous êtes fin prêt » vous permet de débuter comme revendeur [!INCLUDE [prodshort](includes/prodshort.md)]. Vous pouvez également contacter Microsoft Office dans votre pays ou région. Pour en savoir plus sur les ressources disponibles pour vous via le programme « Vous êtes fin prêt », reportez-vous à la rubrique [aka.ms/readytogo](https://aka.ms/readytogo). Découvrez-en davantage pour devenir revendeur dans la rubrique [Revendre différentes solutions](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller).  
 
-Inscrivez-vous pour un essai sur [https://dynamics.microsoft.com/business-central/overview/ ](https://dynamics.microsoft.com/en-us/business-central/overview/
+Inscrivez-vous pour un essai sur [https://dynamics.microsoft.com/business-central/overview/ ](https://dynamics.microsoft.com/business-central/overview/
 ) et envoyez vos commentaires sur [https://community.dynamics.com/business](https://community.dynamics.com/business/f/758).  
 
 ## <a name="see-also"></a>Voir aussi
 
 [Mise en route](product-get-started.md)  
 [Importation des données métier à partir d'autres systèmes financiers](across-import-data-configuration-packages.md)  
-[https://appsource.microsoft.com](https://appsource.microsoft.com/en-us/?product=project-madeira)  
+[https://appsource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1)  

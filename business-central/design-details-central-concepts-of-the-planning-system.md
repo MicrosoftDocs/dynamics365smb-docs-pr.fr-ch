@@ -1,8 +1,6 @@
 ---
 title: Détails de conception - Concepts centraux du système de planification | Microsoft Docs
 description: Les fonctions de planification se trouvent dans un traitement par lots qui sélectionne d'abord les articles appropriés et la période à planifier. Il suggère ensuite les actions que l'utilisateur peut effectuer en fonction de la situation demande/approvisionnement et des paramètres de planification des articles.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 025b8fb9100d8418e9e157e8098afe19d24843fc
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 92c30770b62b6456a16ab26db2c4ea3cda526b8e
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303763"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880607"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Détails de conception : concepts centraux du système de planification
 Les fonctions de planification se trouvent dans un traitement par lots qui sélectionne d'abord les articles appropriés et la période à planifier. Puis, en fonction du code de bas niveau de chaque article (ligne nomenclature), le traitement par lots appelle une unité de code, qui calcule un programme d'approvisionnement en équilibrant les séries approvisionnement-demande et en suggérant des actions possibles à mener pour l'utilisation. Les mesures suggérées apparaissent sous forme de lignes dans la feuille planning ou dans la demande achat.  
@@ -70,11 +68,11 @@ Le système de planification traite l'ensemble de la configuration de demande et
 
 Le chaînage dynamique crée des liens entre la demande et l'approvisionnement lorsque les données sont saisies, sur la base du principe premier arrivé, premier servi. Cela peut conduire du désordre dans les priorités. Par exemple, une commande vente saisie en premier, avec une date d'échéance du mois suivant, peut être liée à l'approvisionnement en stock, alors que la commande vente suivante à échéance le lendemain peut entraîner la création d'une commande achat par un message d'action afin de la couvrir, comme illustré ci-dessous.  
 
-![Exemple de chaînage dans la planification de l'approvisionnement 1](media/NAV_APP_supply_planning_1_dynamic_order_tracking_graph.png "Exemple de chaînage dans la planification de l'approvisionnement 1")  
+![Exemple de chaînage dans la planification de l'approvisionnement 1](media/NAV_APP_supply_planning_1_dynamic_order_tracking_graph.png "Exemple de chaînage dans la planification de l'approvisionnement 1")  
 
 Par contre, le système de planification traite l'ensemble des demandes et approvisionnements pour un article spécifique, par ordre de priorité en fonction des dates d'échéance et des types de commande., c.-à-d., sur la base du principe de priorité selon les besoins. Il supprime les liens traçabilité commande qui ont été créés de façon dynamique et les rétablit en fonction de la priorité date d'échéance. Lorsque le système de planification a été exécuté, il a résolu tous les déséquilibres entre la demande et l'approvisionnement, comme illustré ci-dessous pour les mêmes données.  
 
-![Exemple de chaînage dans la planification de l'approvisionnement 2](media/NAV_APP_supply_planning_1_planning_graph.png "Exemple de chaînage dans la planification de l'approvisionnement 2")  
+![Exemple de chaînage dans la planification de l'approvisionnement 2](media/NAV_APP_supply_planning_1_planning_graph.png "Exemple de chaînage dans la planification de l'approvisionnement 2")  
 
 Après l'exécution de la planification, il ne reste aucun message d'action dans la table Écriture message d'action, parce qu'ils ont été remplacés par les actions suggérées dans la feuille planning  
 
@@ -217,7 +215,7 @@ Les informations d'avertissement sont affichées sur la page **Éléments planni
 -   Exception  
 -   Attention  
 
-![Alertes dans la feuille planning](media/NAV_APP_supply_planning_1_warnings.png "Alertes dans la feuille planning")  
+![Avertissements dans la feuille planning](media/NAV_APP_supply_planning_1_warnings.png "Avertissements dans la feuille planning")  
 
 ### <a name="emergency"></a>Urgence  
 L'avertissement Urgence est affiché dans deux situations :  

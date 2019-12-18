@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customization, personalization
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3ace06e81029ea38bf393502743716b66b10fe74
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a9bb72a85fb49b4316af2160e5823fbf77a18cbf
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316515"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881416"
 ---
 # <a name="manage-saved-settings-for-reports-and-batch-jobs"></a>Gérer les paramètres enregistrés pour les états et les traitements par lots
 Lors de l'exécution d'un état, les utilisateurs voient généralement une page qui leur permet de sélectionner des options et de définir des filtres pour modifier les données incluses dans l'état généré. Cette page est appelée la page de demande. Un état peut inclure un ou plusieurs *paramètres enregistrés* que les utilisateurs peuvent appliquer à l'état à partir de la page de demande. Les *Paramètres enregistrés* sont essentiellement des options et des filtres prédéfinis. Le fait d'utiliser les paramètres enregistrés est une façon rapide et fiable de générer de façon cohérente des états qui contiennent les données adéquates. Pour plus d'informations, voir [Utilisation des paramètres enregistrés](ui-work-report.md#SavedSettings).
@@ -38,7 +38,7 @@ Si vous avez les bonnes autorisations, vous pouvez visualiser, créer et modifie
 
 ## <a name="to-create-and-modify-saved-settings-for-all-users"></a>Pour créer et modifier les paramètres enregistrés pour tous les utilisateurs
 Vous devez gérer les paramètres enregistrés à partir de la page **Paramètres des états**. Deux méthodes sont disponibles pour ouvrir cette page :
--   Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres de l'état**, puis sélectionnez le lien associé.
+-   Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres des états**, puis sélectionnez le lien associé.
 -   Ouvrez un état, sélectionnez la fonction de recherche dans le champ **Utiliser les valeurs par défaut de**, puis choisissez l'action **Sélectionner dans la liste complète**.
 
 La page affiche toutes les entrées de paramètres enregistrés existants pour tous les utilisateurs. Si un nom d'utilisateur est indiqué dans le champ **Affecté à**, seul cet utilisateur peut utiliser les paramètres enregistrés pour l'état associé. Si le champ **Partager avec tous les utilisateurs** est coché, tous les utilisateurs peuvent utiliser les paramètres enregistrés pour l'état.
@@ -52,7 +52,7 @@ Dans la page **Paramètres de l'état**, vous pouvez :
 > Définir le nom que vous souhaitez affecter à une entrée de paramètres enregistrés. Si vous créez une entrée de paramètres enregistrés pour tous les utilisateurs et vous lui donnez le même nom que l'entrée de paramètres enregistrés existants qui est affectée à un utilisateur spécifique, alors cet utilisateur ne pourra pas utiliser l'entrée de paramètres enregistrés qui est affectée à tous.  Dans la section **Paramètres enregistrés** dans la page de demande de l'état, l'utilisateur verra deux entrées de paramètres enregistrés avec le même nom. Toutefois, peu importe l'option qu'il choisit, l'entrée de paramètres enregistrés qui lui est spécifique sera utilisée.
 
 > [!NOTE]
-> La fonctionnalité Paramètres enregistrés n'est disponible que pour les états où la propriété [SaveValues](https://docs.microsoft.com/en-us/dynamics-nav/savevalues-property) de la page de demande de l'état est définie sur **Oui**. La propriété **SaveValues** est définie dans l'environnement de développement.  
+> La fonctionnalité Paramètres enregistrés n'est disponible que pour les états où la propriété [SaveValues](/dynamics365/business-central/dev-itpro/developer/properties/devenv-savevalues-property) de la page de demande de l'état est définie sur **Oui**. La propriété **SaveValues** est définie dans l'environnement de développement.  
 
 ## <a name="see-also"></a>Voir aussi
 [Utilisation des états, des traitements par lots et des XMLports](ui-work-report.md)  

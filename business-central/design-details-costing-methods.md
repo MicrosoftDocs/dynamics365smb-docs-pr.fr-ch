@@ -1,8 +1,6 @@
 ---
 title: Détails de conception - Modes évaluation | Microsoft Docs
 description: Le mode d'évaluation du stock détermine si une valeur réelle ou budgétée est capitalisée et prise en compte dans le calcul des coûts. Au même titre que la date comptabilisation et la séquence, le mode d'évaluation du stock a une incidence sur l'enregistrement du flux des coûts.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6f009b0e43a3d3424782f5c3f052033c813e3f18
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0dfd9e28d4db9b55c4f7d6aa5ee6c1f5a56d6a89
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303667"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880579"
 ---
 # <a name="design-details-costing-methods"></a>Détails de conception : modes évaluation stock
 Le mode d'évaluation du stock détermine si une valeur réelle ou budgétée est capitalisée et prise en compte dans le calcul des coûts. Au même titre que la date comptabilisation et la séquence, le mode d'évaluation du stock a une incidence sur l'enregistrement du flux des coûts.
@@ -38,7 +36,7 @@ Les méthodes suivantes sont prises en charge dans [!INCLUDE[d365fin](includes/d
 
  L'image suivante montre la manière dont les coûts circulent dans le stock pour chaque mode d'évaluation du stock.  
 
- ![Modes d'évaluation du stock](media/design_details_inventory_costing_7_costing_methods.png "Modes d'évaluation du stock")  
+ ![Modes évaluation stock](media/design_details_inventory_costing_7_costing_methods.png "Modes évaluation stock")  
 
  Les méthodes d'évaluation du stock diffèrent dans la façon d'évaluer les sorties de stock et d'utiliser le coût réel ou le coût standard comme base d'évaluation. Le tableau suivant explique les différentes caractéristiques. (La méthode LIFO est exclue, car elle est presque identique à la méthode FIFO).  
 

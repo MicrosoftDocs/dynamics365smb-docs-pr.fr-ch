@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 10/01/2019
+ms.date: 12/02/2019
 ms.author: edupont
-ms.openlocfilehash: 79ed5e1b7200a668be2aa078531fd68e0131b6ff
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c575c0e482ebe4d34c9b699b22747486651efe04
+ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302611"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2896148"
 ---
 # <a name="accountant-experiences-in-included365fin_longincludesd365fin_long_mdmd"></a>Expériences de comptable dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Chaque entreprise doit tenir ses comptes et valider sa comptabilité. Certaines sociétés utilisent un comptable externe, et d'autres ont un comptable dans le personnel. Peu importe le type de comptable que vous êtes, vous pouvez utiliser le tableau de bord **Comptable** comme pages d'accueil de [!INCLUDE[d365fin](includes/d365fin_md.md)]. De là, vous pouvez accéder à toutes les pages nécessaires pour votre travail.  
@@ -25,33 +25,32 @@ Le tableau de bord est un tableau de bord avec des vignettes d'activité qui aff
 
 Si vous débutez avec [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez lancer une liste de vidéos depuis votre Tableau de bord. Vous pouvez également lancer une visite de **Mise en route** qui précise des domaines clé.  
 
-## <a name="accountant-hub"></a>Accountant Hub
-Si vous êtes un comptable avec plusieurs clients, vous pouvez utiliser [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] pour un meilleur aperçu de vos clients. Depuis cette fenêtre, vous pouvez accéder à l'abonné de chaque client dans [!INCLUDE[d365fin](includes/d365fin_md.md)] et utiliser le tableau de bord Comptable comme décrit ci-dessus. Pour en savoir plus, voir [Bienvenue dans [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index).  
-
-> [!NOTE]
-> [!INCLUDE [d365acc_long_md](includes/d365acc_long_md.md)] est actuellement en version préliminaire publique sur un nombre limité de marchés.
-
-## <a name="inviting-your-external-accountant-to-your-included365finincludesd365fin_mdmd"></a>Invitation de votre comptable externe à votre [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="inviteaccountant"></a>Inviter votre comptable externe dans votre [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Si vous utilisez un comptable externe pour gérer votre comptabilité et vos états financiers, vous pouvez les inviter à votre [!INCLUDE[d365fin](includes/d365fin_md.md)] afin qu'ils puissent travailler vous et utiliser vos données fiscales.
 
 Une fois que votre comptable a accédé à votre [!INCLUDE[d365fin](includes/d365fin_md.md)], il peut utiliser le tableau de bord **Comptable** qui donne un accès facilité aux pages les plus appropriées pour son travail.  
 
 Nous avons simplifié pour vous la façon d'inviter votre comptable externe. Ouvrez simplement la page **Utilisateurs**, puis choisissez l'action **Inviter un comptable externe** dans le ruban. Un e-mail est préparé pour vous afin de vous permettre d'ajouter l'e-mail professionnel de votre comptable et d'envoyer l'invitation.  
+> [!Note]  
+> Pour cela, il faudrait que vous ayez configuré la messagerie SMTP. Pour plus d'informations, voir [Configurer la messagerie](admin-how-setup-email.md).   
 
 ![Inviter votre comptable](./media/finance-invite-accountant/invite-accountant.png)
-
-> [!TIP]  
-> Pour cela, il faudrait que vous ayez configuré la messagerie SMTP. Vous pouvez le faire manuellement ou demander à votre partenaire [!INCLUDE[d365fin](includes/d365fin_md.md)]. En outre, vous devez être connecté à [!INCLUDE[d365fin](includes/d365fin_md.md)] en tant qu'administrateur utilisateur, pas en tant que chef d'entreprise ou autres utilisateurs. Enfin, vous devez avoir quitté la société test de sorte que vous ayez un administrateur Azure Active Directory.  
 
 > [!IMPORTANT]  
 > L'adresse électronique du comptable doit être une adresse professionnelle basée sur Azure Active Directory. Si le comptable utilise un autre type d'adresse électronique, l'invitation ne peut pas être envoyée.  
 
-### <a name="separate-license"></a>Séparer la licence
-En arrière-plan, le comptable est ajouté à votre abonné Active Directory. Votre administrateur peut vérifier que le comptable accepte l'invitation et que la licence correcte lui est attribuée. Pour cela la procédure dépend du type de compte que vous avez utilisé pour lorsque vous vous êtes connecté à [!INCLUDE[d365fin](includes/d365fin_md.md)]. Cette rubrique est basée sur l'utilisation d'un compte Office 365, qui utilise Microsoft Azure Active Directory.  
+### <a name="behind-the-scenes"></a>En arrière-plan
+[!INCLUDE[d365fin](includes/d365fin_md.md)] comprend trois licences de type Comptable externe. Si votre société utilise un comptable externe, vous pouvez autoriser l'accès à votre [!INCLUDE[d365fin](includes/d365fin_md.md)] en lui attribuant cette licence. Pour plus d'informations sur les licences, voir le [Guide des licences Microsoft Dynamics 365 Busincess Central](https://go.microsoft.com/fwlink/?LinkId=871590). 
 
-Si vous avez activé votre abonnement à [!INCLUDE[d365fin](includes/d365fin_md.md)] et que vous n'utilisez plus la société d'évaluation, vous avez un abonné Azure Active Directory. Votre administrateur ou partenaire [!INCLUDE[d365fin](includes/d365fin_md.md)] gère cet abonné dans le [Portail Azure](https://portal.azure.com). C'est là que de nouveaux utilisateurs sont ajoutés et que des licences sont appliquées et supprimées. Pour plus d'informations, reportez-vous à la [présentation du portail Microsoft Azure](https://docs.microsoft.com/en-us/azure/azure-portal-overview).  
+Si une licence est toujours disponible dans votre abonnement, votre administrateur ou votre partenaire revendeur peut ajouter un utilisateur externe via le portail Azure et attribuer à cet utilisateur la licence Comptable externe. Pour plus d'informations, voir [Ajouter des utilisateurs de collaboration B2B Azure Active Directory dans le portail Azure](/azure/active-directory/b2b/add-users-administrator).
 
-L'un des types de licence de [!INCLUDE[d365fin](includes/d365fin_md.md)] est la licence *Comptable externe*. Ce type de licence est prévu pour les utilisateurs comme les comptables externes. Cela signifie que vous ne devez pas acheter un poste supplémentaire dans votre Active Directory actuel ou utiliser l'un de vos comptes [!INCLUDE[d365fin](includes/d365fin_md.md)] utilisateur existants pour votre comptable externe. Par exemple, si votre abonnement actuel à Office 365 inclut 10 utilisateurs pour [!INCLUDE[d365fin](includes/d365fin_md.md)], et que vous utilisez actuellement 10 licences *Utilisateur complet*, votre administrateur peut simplement ajouter votre comptable externe en tant qu'utilisateur invité dans le portail Azure et affecter à cet utilisateur la licence *Comptable externe* sans coût supplémentaire. Cependant, vous ne pouvez avoir qu'un utilisateur avec la licence *Aide-comptable externe*. Si vous souhaitez ajouter des utilisateurs supplémentaires, vous devez mettre à jour votre abonnement à Office 365 en conséquence.
+Vous pouvez ensuite inviter le comptable depuis [!INCLUDE[d365fin](includes/d365fin_md.md)] en utilisant le guide de configuration assistée **Inviter un comptable externe**. Cependant, comme cette tâche nécessite un accès à la gestion des utilisateurs et des licences dans Azure Active Directory, le rôle **Administrateur global** ou le rôle **Administrateur utilisateur** doit être attribué à l'utilisateur qui envoie cette invitation dans le centre d'administration Office 365. Pour plus d'informations, voir [À propos des rôles d'administrateur](/office365/admin/add-users/about-admin-roles) dans le centre d'administration Office 365. 
+
+## <a name="accountant-hub"></a>Accountant Hub
+Si vous êtes un comptable avec plusieurs clients, vous pouvez utiliser [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] pour un meilleur aperçu de vos clients. Depuis cette fenêtre, vous pouvez accéder à l'abonné de chaque client dans [!INCLUDE[d365fin](includes/d365fin_md.md)] et utiliser le tableau de bord Comptable comme décrit ci-dessus. Pour en savoir plus, voir [Bienvenue dans [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index).  
+
+> [!NOTE]
+> [!INCLUDE [d365acc_long_md](includes/d365acc_long_md.md)] est actuellement en version préliminaire publique sur un nombre limité de marchés.
 
 ## <a name="see-also"></a>Voir aussi
 [Finances](finance.md)  
@@ -63,4 +62,4 @@ L'un des types de licence de [!INCLUDE[d365fin](includes/d365fin_md.md)] est la 
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Configuration d'une analyse de trésorerie](finance-setup-cash-flow-analyses.md)  
 [Bienvenue dans [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index)  
-[Dynamics 365 - Accountant Hub sur Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
+[Dynamics 365 - Accountant Hub sur Microsoft.com](https://www.microsoft.com/dynamics365/financial-insights-for-accountants)  

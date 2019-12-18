@@ -1,8 +1,6 @@
 ---
 title: Procédure de gestion de la configuration de la société dans une feuille | Microsoft Docs
 description: La feuille configuration est l’emplacement principal dans lequel vous pouvez planifier, suivre et effectuer votre travail de configuration. Vous pouvez créer une feuille pour chaque société avec laquelle vous travaillez ou créer une feuille configuration standard qui peut être utilisée pour configurer plusieurs sociétés identiques.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b76312ecf58112fa62e4bb01da90611dedcd129e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c7e6d53d2d600c9a46fb99f82fc52383759f5435
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308059"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879247"
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Gérer la configuration de la société dans une feuille
 La feuille configuration est l’emplacement principal dans lequel vous pouvez planifier, suivre et effectuer votre travail de configuration. Vous pouvez créer une feuille pour chaque société avec laquelle vous travaillez ou créer une feuille configuration standard qui peut être utilisée pour configurer plusieurs sociétés identiques.  
@@ -30,7 +28,7 @@ Les procédures suivantes expliquent comment ajouter et personnaliser les inform
 
 ## <a name="to-open-the-configuration-worksheet"></a>Pour ouvrir la feuille configuration  
 1.  Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], ouvrez la société qui sert de base pour la configuration, puis ouvrez son tableau de bord Responsable de l'implémentation de RapidStart Services.  
-2.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille configuration**, puis sélectionnez le lien associé.  
+2.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille configuration**, puis choisissez le lien associé.  
 
 ## <a name="to-add-a-table-to-the-worksheet"></a>Pour ajouter une table à la feuille  
 1.  Sur la page **Feuille config.**, sélectionnez l'action **Modifier la liste**.  

@@ -1,8 +1,6 @@
 ---
 title: Détails de conception - Flux d'entrepôt internes | Microsoft Docs
 description: Circulation des articles entre les emplacements dans les centres d'une société lors du prélèvement des composants, du rangement des articles finis pour les ordres d'assemblage ou de fabrication et les mouvements ad-hoc, tels que les réapprovisionnements emplacement, sans relation avec les documents origine.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: bce55cda1ba5fd5dd89ad75b224651df719d76d5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 55f58acc0f65469261903c28b71942010d44c695
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303475"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880367"
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Détails de conception : flux d'entrepôt internes
 Circulation des articles entre les emplacements dans les centres d'une société lors du prélèvement des composants, du rangement des articles finis pour les ordres d'assemblage ou de fabrication et les mouvements ad-hoc, tels que les réapprovisionnements emplacement, sans relation avec les documents origine. La portée et la nature des activités impliquées varient entre l'entreposage de base et l'entreposage avancé.  

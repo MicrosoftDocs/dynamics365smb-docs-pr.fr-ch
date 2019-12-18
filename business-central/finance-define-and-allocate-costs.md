@@ -1,8 +1,6 @@
 ---
 title: Définition et Répartition des coûts | Microsoft Docs
 description: Les affectations de coûts déplacent les coûts et les revenus entre les types de coûts, les centres de coûts et les coûts associés. Vous pouvez définir autant d'affectations que nécessaire.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8261dee0b2ba56d9aec707b5614999697e19ef62
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7e66411200823961936e5c596461a9f227a85d9f
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306403"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879815"
 ---
 # <a name="defining-and-allocating-costs"></a>Définition et répartition des coûts
 Les affectations de coûts déplacent les coûts et les revenus entre les types de coûts, les centres de coûts et les coûts associés. Vous pouvez définir autant d'affectations que nécessaire. Chaque affectation comporte les éléments suivants :  
@@ -40,7 +38,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 Chaque affectation comporte une source et au moins une cible. La source d'affectation définit les coûts à affecter. Les cibles d'affectation déterminent où affecter ces coûts.  
 
 ### <a name="to-set-up-cost-allocations"></a>Pour configurer les affectations de coûts  
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Affectation des coûts**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Affectation des coûts**, puis sélectionnez le lien associé.  
 2.  Sur la page **Affectation des coûts**, sélectionnez l'action **Modifier**.  
 3.  Dans le champ **ID**, entrez un ID pour la source d’affectation.  
 4.  Définissez un niveau compris entre les chiffres 1 et 99 dans le champ **Niveau**. La validation d’affectation suit l’ordre des niveaux.  
@@ -84,7 +82,7 @@ Cette rubrique décrit comment définir trois nouveaux coûts associés pour la 
 
 ### <a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a>Pour définir le centre de coûts PROD de la source d'affectation sur le raccourci Général  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Affectation des coûts**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Affectation des coûts**, puis sélectionnez le lien associé.  
 2.  Sur la page **Affectation des coûts**, sélectionnez l'action **Nouveau**.  
 3.  Dans le champ **ID**, appuyez sur Entrée ou saisissez un ID.  
 4.  Dans le champ **Niveau**, saisissez **1**.  
@@ -121,7 +119,7 @@ Cette rubrique explique comment définir les affectations à l'aide du mode de v
 
 ### <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a>Pour définir les ventilations dynamique en fonction des articles vendus de l'exercice précédent  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Affectations des coûts**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Affectations des coûts**, puis sélectionnez le lien associé.  
 2.  Sur la page **Affectation des coûts**, sélectionnez l'action **Nouveau**.  
 3.  Dans le champ **ID**, appuyez sur Entrée ou saisissez un ID.  
 4.  Dans le champ **Niveau**, saisissez **1**.  

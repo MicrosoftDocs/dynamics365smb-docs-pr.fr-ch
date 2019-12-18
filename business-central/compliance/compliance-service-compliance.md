@@ -12,12 +12,12 @@ ms.search.keywords: ''
 ms.reviewer: edupont
 ms.date: 10/01/2019
 ms.author: soalex
-ms.openlocfilehash: a9378bd44dfbf0271987e748b03d7f2f3e17e1ac
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ad70b9d321ac4c8ee9b1d7c8a00e7e192187093a
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307483"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880727"
 ---
 # <a name="service-compliance"></a>Conformité des services
 Ce contenu comprend des informations sur la conformité des services concernant [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
@@ -26,11 +26,11 @@ Business Central est un service de cloud avec une portée et une échelle totale
 
 Veuillez trouver la liste détaillée des [Offres de conformité au cloud de Business Central ici](https://aka.ms/d365-compliance-list).
 
-Si vous êtes intéressé par la liste complète des offres de conformité de Microsoft, consultez [Microsoft Trust Center](https://www.microsoft.com/en-us/trustcenter/compliance/complianceofferings)
+Si vous êtes intéressé par la liste complète des offres de conformité de Microsoft, consultez [Microsoft Trust Center](https://www.microsoft.com/trustcenter/compliance/complianceofferings)
 
 ## <a name="service-terms"></a>Conditions d'utilisation
 
-[!INCLUDE [prodshort](../includes/prodshort.md)] en ligne est régi par la [Politique de cycle de vie moderne](https://support.microsoft.com/en-us/help/30881/modern-lifecycle-policy). Les conditions du contrat de niveau de service sont décrites dans le document que vous pouvez télécharger à partir de la section **Contrats de niveau de service pour Microsoft Online Services** sur la page [Termes du contrat de licence](https://www.microsoft.com/en-us/licensing/product-licensing/products).  
+[!INCLUDE [prodshort](../includes/prodshort.md)] en ligne est régi par la [Politique de cycle de vie moderne](https://support.microsoft.com/help/30881/modern-lifecycle-policy). Les conditions du contrat de niveau de service sont décrites dans le document que vous pouvez télécharger à partir de la section **Contrats de niveau de service pour Microsoft Online Services** sur la page [Termes du contrat de licence](https://www.microsoft.com/licensing/product-licensing/products).  
 
 En outre, vous pouvez surveiller la santé de votre locataire et spécifier des périodes de mise à niveau dans [Centre d'administration des locataires ](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
 

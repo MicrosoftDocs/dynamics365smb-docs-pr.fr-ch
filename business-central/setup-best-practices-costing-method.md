@@ -1,8 +1,6 @@
 ---
 title: Configurer des recommandations - Mode évaluation stock | Microsoft Docs
 description: Le champ Mode évaluation stock de la fiche article spécifie la manière dont le flux des coûts de l'article est enregistré et si une valeur réelle ou budgétée est capitalisée et utilisée dans le calcul des coûts.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f0b2a8467f58f705ecf5b0f124d8627e475b361e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4e6666cd68f0a4b240e3c5663b5229df7ebb09ab
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315795"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877078"
 ---
 # <a name="setup-best-practices-costing-method"></a>Configuration de meilleures pratiques : mode évaluation stock
 Le champ **Mode évaluation stock** de la fiche article spécifie la manière dont le flux des coûts de l'article est enregistré et si une valeur réelle ou budgétée est capitalisée et utilisée dans le calcul des coûts.  

@@ -8,25 +8,30 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 10/01/2019
+ms.date: 12/06/2019
 ms.author: solsen
-ms.openlocfilehash: d945a6b851c20479a4c8c83f38b8fc8ccdfd6765
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0f8f0f85df89c1d71fc3e114ebd902f2aa85f802
+ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300440"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2896124"
 ---
-# <a name="creating-a-sandbox-environment"></a>Créeation d'un environnement Sandbox
-Un environnement Sandbox (aperçu) est une instance hors production de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Isolé de la production, un environnement Sandbox est l'emplacement où vous pouvez explorer, apprendre, démontrer, développer et tester en toute sécurité le service sans que les données et les paramètres de votre environnement de production en soient affectés.
+# <a name="creating-a-sandbox-environment-in-include-prodshortincludesprodshortmd"></a>Créeation d'un environnement Sandbox dans [!INCLUDE [prodshort](includes/prodshort.md)]
 
-## <a name="to-create-a-sandbox-environment"></a>Pour créer un environnement Sandbox
-Vous devez disposer d'un abonnement à [!INCLUDE[d365fin](includes/d365fin_md.md)] pour pouvoir créer un environnement Sandbox. Il ne peut y avoir qu'un environnement Sandbox par abonnement.
+Avec [!INCLUDE [prodshort](includes/prodshort.md)], vous pouvez facilement créer un environnement sûr dans lequel vous pouvez tester, former ou résoudre les problèmes sans perturber les processus de travail ou les données métier de votre société. Cet environnement hors production est appelé *sandbox*. Isolé de la production, un environnement Sandbox est l'emplacement où vous pouvez explorer, apprendre, démontrer, développer et tester en toute sécurité le service sans que les données et les paramètres de votre environnement de production en soient affectés.  
 
-1. Connectez-vous à votre instance de production du service [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Votre administrateur peut créer des environnements sandbox dans le [centre d'administration](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments?toc=/dynamics365/business-central/toc.json), mais si vous voulez effectuer un test rapide, vous pouvez créer un environnement sandbox depuis [!INCLUDE [prodshort](includes/prodshort.md)].  
 
-2. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Environnement Sandbox**, puis choisissez le lien associé.
-<!-- ![Sandbox Environment Setup](./media/across-sandbox/sandbox-environment-setup.png) -->
+> [!NOTE]
+> Techniquement, les environnements sandbox sont très différents des environnements de production, même si votre administrateur crée un sandbox incluant des données de production. Vous ne pouvez pas utiliser un sandbox à des fins d'évaluation, et vous ne pouvez pas demander une exportation de base de données, par exemple. Si vous souhaitez créer un sandbox à des fins d'évaluation, votre administrateur peut créer un environnement de production dédié dans le centre d'administration. Pour plus d'informations, voir [Types d'environnements](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#types-of-environments).
+
+## <a name="to-create-a-sandbox-environment-in-your-include-prodshortincludesprodshortmd"></a>Pour créer un environnement sandbox dans votre [!INCLUDE [prodshort](includes/prodshort.md)]
+
+1. Connectez-vous à votre instance de production de [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+2. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Environnement sandbox**, puis sélectionnez le lien associé.
+    <!-- ![Sandbox Environment Setup](./media/across-sandbox/sandbox-environment-setup.png) -->
 3. Cliquez sur le bouton **Créer**.  
 
     Un autre onglet avec [!INCLUDE[d365fin](includes/d365fin_md.md)] s'ouvre à l'endroit où vous pouvez terminer la configuration de votre environnement Sandbox.
@@ -34,32 +39,37 @@ Vous devez disposer d'un abonnement à [!INCLUDE[d365fin](includes/d365fin_md.md
     > [!NOTE]  
     >  Si le bloqueur de fenêtres publicitaires est activé dans votre navigateur, modifiez-le pour autoriser les URL provenant de l'adresse *.businesscentral.dynamics.com.
 
-4. Lorsque l'environnement Sandbox est prêt, vous êtes redirigé vers l'assistant Bienvenue de l'environnement Sandbox.
+Lorsque l'environnement Sandbox est prêt, vous êtes redirigé vers l'assistant Bienvenue de l'environnement Sandbox.
 <!-- ![Sandbox Welcome Wizard](./media/across-sandbox/sandbox-wizard.png) -->
 
-5. Choisissez le bouton **En savoir plus** pour en savoir plus sur les scénarios que vous pouvez essayer dans un environnement sandbox ou choisissez le bouton **Fermer** pour passer au Tableau de bord de votre instance Sandbox [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Vous pouvez choisir le bouton **En savoir plus** pour en savoir plus sur les scénarios de développeur que vous pouvez essayer dans un environnement sandbox, ou choisir le bouton **Fermer** pour passer au Tableau de bord de votre instance sandbox [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-    En haut du tableau de bord, une notification s'affiche pour vous informer qu'il s'agit d'un environnement Sandbox. Vous pouvez également voir le type de l'environnement dans la barre de titre du client.
+En haut du tableau de bord, une notification s'affiche pour vous informer qu'il s'agit d'un environnement Sandbox. Vous pouvez également voir le type de l'environnement dans la barre de titre du client.
     <!-- ![Sandbox RoleCenter Notification](./media/across-sandbox/sandbox-rolecenter-notification.png) -->
 
-    > [!NOTE]
-    > Un environnement Sandbox créé de cette manière ne contient que les données de démonstration par défaut pour l'entreprise CRONUS. Aucune donnée n'est copiée ou autrement transférée à partir de l'environnement de production.<br /><br />
-    > Vous pouvez également créer un environnement Sandbox contenant les données de production. Vous devez le faire via le Centre d'administration. Pour plus d'informations, voir [Gestion des environnements](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments) dans l'aide sur Developer and IT Pro.
+> [!NOTE]
+> Un environnement Sandbox créé de cette manière ne contient que les données de démonstration par défaut pour l'entreprise CRONUS. Aucune donnée n'est copiée ou autrement transférée à partir de l'environnement de production.<br /><br />
+> Vous pouvez également créer un environnement Sandbox contenant les données de production. Vous devez le faire via le Centre d'administration. Pour plus d'informations, voir [Gestion des environnements](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments) dans l'aide sur Developer and IT Pro.
 
-6. À tout moment, vous pouvez revenir à la page **Environnement Sandbox** et réinitialiser l'environnement Sandbox.
-    > [!NOTE]  
-    >  La réinitialisation de l'environnement Sandbox entraîne sa suppression complète et sa recréation avec les données de démonstration par défaut.  
+À tout moment, vous pouvez revenir à la page **Environnement Sandbox** et réinitialiser l'environnement Sandbox.
 
-7. Pour permuter entre vos environnements de production et Sandbox, vous pouvez utiliser le lanceur d'applications Business Central.
-<!-- ![Sandbox Dynamics365 Menu](./media/across-sandbox/sandbox-dynamics365-menu.png) -->
+> [!NOTE]  
+> La réinitialisation de l'environnement Sandbox entraîne sa suppression complète et sa recréation avec les données de démonstration par défaut.  
 
-8. Un administrateur ou un autre utilisateur peut limiter ou même bloquer l'accès de certains utilisateurs à l'environnement Sandbox. Ceci peut être effectué à l'aide des fonctions de sécurité standard du produit, telles que la fiche utilisateur, les groupes d'utilisateurs et les ensembles d'autorisations.
+<!--To switch between your production and sandbox environments, you can use the Business Central app launcher.
+    ![Sandbox Dynamics365 Menu](./media/across-sandbox/sandbox-dynamics365-menu.png) -->
+
+Un administrateur peut limiter ou même bloquer l'accès de certains utilisateurs à l'environnement sandbox. Ceci peut être effectué à l'aide des fonctions de sécurité standard du produit, telles que la fiche utilisateur, les groupes d'utilisateurs et les ensembles d'autorisations. Pour en savoir plus, voir [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md).  
 
 <!-- ![Sandbox Permission Sets](./media/across-sandbox/sandbox-permission-sets.png) -->
 
 ## <a name="advanced-functionality-in-the-sandbox-environment"></a>Fonctionnalités avancées de l'environnement Sandbox
+
+L'environnement sandbox n'est pas moins utile, car il comprend quelques fonctionnalités pratiques.
+
 ### <a name="designer"></a>Concepteur
-Dans un environnement Sandbox, la fonctionnalité **Éditeur** peut être activée en sélectionnant l'icône de conception ![Éditeur](./media/across-sandbox/sandbox-inclient-design-icon.png) sur la page.
+
+Dans un environnement sandbox, la fonctionnalité **Concepteur** est activée. Vous pouvez activer la fonctionnalité Éditeur en sélectionnant l'icône de conception ![Concepteur](./media/across-sandbox/sandbox-inclient-design-icon.png) sur une page, ou en choisissant l'option de menu **Conception** dans le menu Paramètres ![Paramètres ](media/ui-experience/settings_icon_small.png).
 
 <!-- ![In-client Designer](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
@@ -74,6 +84,8 @@ Une fois que vous avez activé la fonctionnalité avancée dans un abonné Sandb
 
 <!-- ![Sandbox New Company](./media/across-sandbox/sandbox-newcompany.png) -->
 
-
 ## <a name="see-also"></a>Voir aussi
+
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+Versions d'évaluation et abonnements [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](across-preview.md)  
+[Gestion des environnements dans le centre d'administration de Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  

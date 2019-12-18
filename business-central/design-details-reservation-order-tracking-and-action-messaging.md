@@ -1,8 +1,6 @@
 ---
 title: "Détails de conception : réservation, chaînage et message d'action | Microsoft Docs"
 description: Le système de réservation est complet et inclut les fonctionnalités étroitement liées et parallèles du Chaînage et des Messages d'action.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, replenishment, reordering
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1408c3e97ffd54f516bf18823442f3f986131038
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a3b7c5c52590644a8f61c0d97312d7dd1342fc97
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306859"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878452"
 ---
 # <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Détails de conception : réservation, chaînage et message d'action
 Le système de réservation est complet et inclut les fonctionnalités étroitement liées et parallèles du Chaînage et des Messages d'action.  
@@ -31,7 +29,7 @@ Le système de réservation est complet et inclut les fonctionnalités étroitem
 
  Le système de réservation forme également la base structurelle du système de traçabilité. Pour plus d'informations, voir [Détails de conception : traçabilité](design-details-item-tracking.md).  
 
- Pour plus d'informations détaillées sur le fonctionnement du système de réservation, reportez-vous au livre blanc « table Écriture réservation » sur [PartnerSource](http://go.microsoft.com/fwlink/?LinkId=258348).  
+ Pour plus d'informations détaillées sur le fonctionnement du système de réservation, reportez-vous au livre blanc « table Écriture réservation » sur [PartnerSource](https://go.microsoft.com/fwlink/?LinkId=258348).  
 
 ## <a name="reservation"></a>Réservation  
  Une réservation est un lien ferme qui connecte une demande spécifique à un approvisionnement spécifique. Ce lien affecte directement la transaction d'inventaire ultérieure et garantit la bonne application des écritures article à des fins de coûts. Une réservation remplace le mode d'évaluation du stock par défaut d'un article. Pour plus d'informations, voir « Détails de conception : modes évaluation stock ».  
@@ -184,7 +182,7 @@ Sur la page **Paramètres production**, le champ **Mag. composant par déf.** es
 
  Le champ **N° lot** est désormais renseigné dans l'écriture chaînage de la table 5407, car les numéros de lot ont été affectés aux lignes composant O.F.  
 
- Pour plus d'exemples des écritures traçabilité dans la table **Écriture réservation**, reportez-vous au livre blanc « table Écriture réservation » sur [PartnerSource](http://go.microsoft.com/fwlink/?LinkId=258348) (nécessite un login).
+ Pour plus d'exemples des écritures traçabilité dans la table **Écriture réservation**, reportez-vous au livre blanc « table Écriture réservation » sur [PartnerSource](https://go.microsoft.com/fwlink/?LinkId=258348) (nécessite un login).
 
 ## <a name="action-messaging"></a>Messages d'action  
  Lorsque le système de suivi d'ordre détecte un déséquilibre dans le réseau d'ordres, il crée automatiquement un message d'action pour en informer l'utilisateur. Les messages d'action sont des appels générés par le système en vue d'une action de l'utilisateur. Ils indiquent les détails du déséquilibre et suggèrent des propositions sur la façon de restaurer l'équilibre dans le réseau d'ordres. Elles sont affichées comme lignes de planification sur la page **Feuille planning** lorsque vous choisissez **Extraire messages d'action**. En outre, des messages d'action s'affichent sur les lignes planning qui sont générés par l'exécution de la planification pour tenir compte des propositions du système de planification sur la façon de rétablir l'équilibre du réseau d'ordres. Dans les deux cas, les propositions sont effectuées sur le réseau d'ordres, lorsque vous choisissez **Traiter messages d'action**.  

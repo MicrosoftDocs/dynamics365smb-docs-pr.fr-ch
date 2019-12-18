@@ -1,8 +1,6 @@
 ---
 title: Comment prélever pour la fabrication dans les configurations de stockage de base | Microsoft Docs
 description: Lorsque l'entrepôt appelle un traitement de prélèvement sans appeler de traitement d'expédition, vous pouvez utiliser la page **Prélèvement stock** pour organiser et enregistrer le prélèvement des composants.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e58299e7edecc35c7757ebc91d1e444df299ee13
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 303f8007bbe1a953fb09c892e71f5e52dbcf74ee
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310315"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876670"
 ---
 # <a name="pick-for-production-or-assembly-in-basic-warehouse-configurations"></a>Prélever pour la fabrication ou l'assemblage dans les configurations de stockage de base.
 Le mode de rangement de vos composants de prélèvement pour les ordres de fabrication ou d'assemblage dépend de la configuration du stockage en tant qu'emplacement. Pour plus d'informations, voir [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md).
@@ -39,7 +37,7 @@ Si une condition préalable du système pour le prélèvement ou le déplacement
 ## <a name="to-pick-components-in-basic-warehouse-configurations"></a>Pour prélever les composants pour les configurations de stockage de base
 Dans les configurations de stockage de base, dans lesquelles le magasin est configuré pour utiliser uniquement le prélèvement ainsi que l'expédition, vous pouvez prélever des composants pour les activités de fabrication et d'assemblage à l'aide de la page **Prélèvement entrepôt**. Pour plus d'informations, voir [Prélever des articles avec les prélèvements stock](warehouse-how-to-pick-items-with-inventory-picks.md).
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Prélèvements stock**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Prélèvements stock**, puis sélectionnez le lien associé.  
 2.  Pour accéder aux composants de l'ordre de fabrication, choisissez l'action **Extraire documents origine**, puis sélectionnez l'ordre de fabrication lancé.  
 3.  Procédez au prélèvement, puis enregistrez les informations sur le prélèvement réel dans le champ **Qté prélevée**.  
 4.  Lorsque les lignes sont prêtes à être validées, choisissez l'action **Valider**. Les écritures entrepôt nécessaires sont alors créées et la consommation des articles est validée.  
@@ -74,8 +72,8 @@ Ce graphique indique comment le champ **Code emplacement** sur les lignes compos
 ![Organigramme Flux d'emplacement](media/binflow.png "BinFlow")
 
 ## <a name="see-also"></a>Voir aussi
-[Gestion d'entrepôt](warehouse-manage-warehouse.md)  
-[STOCKS ET EN-COURS](inventory-manage-inventory.md)  
+[Gestion d’entrepôt](warehouse-manage-warehouse.md)  
+[Stock](inventory-manage-inventory.md)  
 [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)     
 [Gestion des assemblages](assembly-assemble-items.md)    
 [Détails de conception : gestion d'entrepôt](design-details-warehouse-management.md)  

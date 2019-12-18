@@ -1,8 +1,6 @@
 ---
 title: Utilisation des périodes et exercices comptables | Microsoft Docs
 description: En savoir plus sur l'utilisation des périodes comptables pour définir le moment où votre société fait état de ses performances financières.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: d70694a571c051f6160a721c8fa06c91fe9c42d3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: aab482918eacb7bea068a5c5f536c9e88bdd7b2c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302635"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879863"
 ---
 # <a name="working-with-accounting-periods-and-fiscal-years"></a>Utilisation des périodes et exercices comptables
 Les périodes comptables, également appelées périodes de report, sont des périodes pour lesquelles une société ou une organisation présente ses performances financières, par exemple, en générant leurs comptes de gestion ou leur bilan. Généralement, les périodes comptables sont liées à l'exercice comptable de la société, qui peut contenir plusieurs périodes comptables, telles que des mois ou des trimestres.
@@ -34,7 +32,7 @@ Vous pouvez créer des périodes comptables en bloc, à l'aide du traitement par
 ### <a name="how-to-create-accounting-periods-in-bulk"></a>Comment créer des périodes comptables en bloc
 Utilisez le traitement par lots **Créer exercice comptable** pour diviser un exercice comptable en périodes de même durée.  
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Périodes comptables**, puis sélectionnez le lien connexe.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Périodes comptables**, puis sélectionnez le lien associé.  
 2. Choisissez l'action **Créer exercice**.  <!--What about the Scheduling option? Should we mention that? There's also the Report Output Type field...-->
 3. Dans le champ **Date début**, saisissez la date à laquelle l'exercice comptable commence.  
 4. Dans le champ **Nombre de périodes**, spécifiez le nombre de périodes comptables composant l'exercice comptable. Il peut y avoir un maximum de 365 périodes dans une année.  
@@ -44,7 +42,7 @@ Utilisez le traitement par lots **Créer exercice comptable** pour diviser un ex
 ### <a name="how-to-create-accounting-periods-manually"></a>Comment créer des périodes comptables manuellement
 Si les périodes comptables de l'exercice comptable ont différentes durées, comme le calendrier 4-4-5 utilisé dans la vente au détail, vous pouvez les établir manuellement.  
   
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Périodes comptables**, puis sélectionnez le lien connexe.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Périodes comptables**, puis sélectionnez le lien associé.  
 2. Dans le champ **Date début**, saisissez la date à laquelle l'exercice comptable commence. Le champ **Nom** affiche à présent le nom du mois.  
 3. Activez la case à cocher **Nouvel exercice comptable** pour indiquer qu'il s'agit de la première période de l'exercice. [!INCLUDE[d365fin](includes/d365fin_md.md)] utilise cette période pour déterminer les périodes à clôturer en fin d'exercice.
 4. Répétez les étapes 2 et 3 pour chaque période restante.  
@@ -55,7 +53,7 @@ Clôturer l'exercice comptable est l'une des tâches pour clôturer les livres. 
 > [!NOTE]  
 >  Vous devez toujours avoir au moins un exercice comptable ouvert. Lorsque vous clôturez un exercice, assurez-vous qu'un exercice a été créé. De plus, sachez que lorsque vous clôturez un exercice, vous ne pouvez pas modifier la date début de l'exercice suivant.
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Périodes comptables**, puis sélectionnez le lien connexe.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Périodes comptables**, puis sélectionnez le lien associé.  
 2. Choisissez l'action **Clôturer exercice**.  
 
 ## <a name="posting-entries-to-a-closed-fiscal-year"></a>Validation d'écritures dans un exercice comptable clôturé

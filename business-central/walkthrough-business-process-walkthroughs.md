@@ -1,8 +1,6 @@
 ---
 title: Procédures pas à pas liées au processus entreprise | Microsoft Docs
 description: "Cette sélection de procédures fournit des processus entreprise pas à pas et de bout en bout que vous pouvez suivre avec la société de démonstration CRONUS International Ltd. Elles comportent différentes procédures : certaines d'entre elles sont généralement suivies par un utilisateur, tandis que d'autres impliquent plusieurs rôles utilisateur. Pour simuler l'environnement de travail, certaines procédures pas à pas contiennent les étapes de configuration nécessaires pour effectuer les exercices décrits. Ces étapes indiquent aux utilisateurs le type d'informations qu'ils doivent partager avec les responsables informatiques de leur société."
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 26c98f2e0dfb08b2b20aca3c697ecb292f6e596a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6b0d14b8c46d5d41266de950e60daa56d88cbd5e
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314955"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881933"
 ---
 # <a name="business-process-walkthroughs"></a>Procédures pas à pas liées au processus entreprise
 Cette sélection de procédures fournit des processus entreprise pas à pas et de bout en bout que vous pouvez suivre avec la société de démonstration CRONUS International Ltd. Elles comportent différentes procédures : certaines d'entre elles sont généralement suivies par un utilisateur, tandis que d'autres impliquent plusieurs rôles utilisateur. Pour simuler l'environnement de travail, certaines procédures pas à pas contiennent les étapes de configuration nécessaires pour effectuer les exercices décrits. Ces étapes indiquent aux utilisateurs le type d'informations qu'ils doivent partager avec les responsables informatiques de leur société.  

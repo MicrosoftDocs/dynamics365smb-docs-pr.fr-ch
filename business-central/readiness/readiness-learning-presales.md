@@ -7,12 +7,12 @@ ms.date: 11/06/2019
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: solsen
-ms.openlocfilehash: 4aa15d32143b909b206a10d8ae11906abfddc47b
-ms.sourcegitcommit: 86498fe4326b9ce26cc31e8645db27570d13bdf9
+ms.openlocfilehash: 8608fbc4198f4e3daf9fe0edd1f261367f3fcb55
+ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2767859"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832278"
 ---
 # <a name="pre-sales-learning-catalog"></a>Catalogue d'apprentissage pré-vente
 
@@ -39,7 +39,7 @@ Le catalogue suivant est organisé en partant des connaissances de base jusqu'au
 
 | Contenu                                                                                                                                | Description                                                                                                                                                                                                                                                                                      | Format                                | Longueur                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|
-| [Dynamics 365 Business Central (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101760)                              | (Partenaires uniquement) Cette session expose l'utilité de Business Central. Business Central apporte une valeur ajoutée incroyable, car il s’intègre à d’autres services cloud de Microsoft, notamment Office 365. Il peut en outre être personnalisé ou étendu pour des besoins sectoriels spécifiques avec PowerApps, Microsoft Flow et Power BI. | Vidéo                                 | 8 minutes 5 secondes |
+| [Dynamics 365 Business Central (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101760)                              | (Partenaires uniquement) Cette session expose l'utilité de Business Central. Business Central apporte une valeur ajoutée incroyable, car il s'intègre à d'autres services cloud de Microsoft, notamment Office 365. Il peut en outre être personnalisé ou étendu pour des besoins sectoriels spécifiques avec Power Apps, Power Automate et Power BI. | Vidéo                                 | 8 minutes 5 secondes |
 | [Explorer les fonctionnalités de Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/) | Explorer les fonctionnalités de Dynamics 365 Business Central                                                                                                                                                                                                                                                        | Site Web                               |                     |
 | [Dynamics 365 Business Central](https://docs.microsoft.com/learn/modules/dynamics-365-business-central/)            | Ce module présente les fonctionnalités de l’application, ses avantages et des exemples de Dynamics 365 Business Central en action.                                                                                                                                                                                                | Parcours d'apprentissage en ligne gratuit et personnalisé | 24 minutes          |
 

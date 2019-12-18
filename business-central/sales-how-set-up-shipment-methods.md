@@ -1,8 +1,6 @@
 ---
 title: Procédure de configuration des méthodes d'expédition | Microsoft Docs
 description: Vous pouvez définir un code pour chacune de vos méthodes d'expédition offertes, par exemple, saisir les informations qui les concernent.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: incoterms
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: be65cd62cec984cd2571b6e88998dc169741f376
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 75a3e689083e64f446e84b2bc3b1d26961e3d898
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312091"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877558"
 ---
 # <a name="set-up-shipment-methods"></a>Configurer des conditions de livraison
 Les conditions de livraison, également appelées incoterms, dépendent souvent des articles, des clients et des fournisseurs. Par exemple, si le client habite sur une île, il peut choisir d'être toujours livré par voie aérienne ou maritime. Certains clients peuvent exiger une livraison le lendemain. Certains voudront peut-être récupérer la commande. Vous pouvez spécifier le type de livraison souhaité sur les fiches client et les fiches fournisseur.
@@ -25,7 +23,7 @@ Les conditions de livraison, également appelées incoterms, dépendent souvent 
 Vous définissez la désignation et le code de chaque condition de livraison sur la page **Conditions de livraison**. Par exemple, vous définissez le code F.O.B., et saisissez Franco bord dans le champ **Désignation**. Vous pouvez ensuite saisir ce code dans les champs **Code de méthode de livraison** ailleurs dans le système, par exemple sur une fiche client. Ensuite, lorsque vous créez des commandes, des factures, des avoirs, etc., le système copie la désignation représentée par le code. Au besoin, vous pouvez le modifier sur le document.
 
 ## <a name="to-set-up-a-shipment-code"></a>Pour configurer un code de livraison
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Modes de livraison**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Conditions de livraison**, puis sélectionnez le lien associé.
 2. Sur la page **Conditions de livraison**, sélectionnez l'action **Nouveau**.
 3. Sur la nouvelle ligne, indiquez un code et une description pour les conditions de livraison.
 

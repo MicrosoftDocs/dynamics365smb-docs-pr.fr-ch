@@ -1,25 +1,23 @@
 ---
 title: Importation et exportation d'une présentation de rapport et de document | Microsoft Docs
 description: Vous pouvez importer et exporter une présentation de rapport personnalisée existante sous forme de fichier depuis ou vers un emplacement sur votre ordinateur et le réseau.
-services: project-madeira
-documentationcenter: ''
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: jswymer
-ms.openlocfilehash: 493217e3f7607c4553d6c0ac6500f21f0ff712cc
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.date: 11/15/2019
+ms.author: sgroespe
+ms.openlocfilehash: 97f66d28576586c4e09c0bc700785eac969d316a
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553833"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881981"
 ---
-# <a name="import-and-export-a-report-or-document-layout"></a>Importer et exporter une présentation de rapport ou de document
+# <a name="import-and-export-custom-report-layouts"></a>Importer et exporter des présentations de rapport personnalisées
 Vous pouvez importer et exporter une présentation de rapport personnalisée existante sous forme de fichier depuis ou vers un emplacement sur votre ordinateur et le réseau. Par exemple, vous pouvez exporter une présentation de rapport, puis envoyer le fichier à une autre personne pour modification. Cette personne peut ensuite apporter des modifications à la présentation et vous renvoyer le fichier pour que vous puissiez le réimporter.  
 
 > [!IMPORTANT]  
@@ -27,7 +25,7 @@ Vous pouvez importer et exporter une présentation de rapport personnalisée exi
 
 ### <a name="to-export-a-report-layout-to-a-file"></a>Pour exporter une présentation de rapport vers un fichier  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Sélection présentation état**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Sélection présentation état**, puis sélectionnez le lien associé.  
 
 2.  Sélectionnez la ligne de l'état qui contient la disposition d'état personnalisée à exporter, puis sélectionnez l'action **Présentations personnalisées**.  
 
@@ -41,7 +39,7 @@ Vous pouvez importer et exporter une présentation de rapport personnalisée exi
 
      Un fichier de présentation de rapport Word doit avoir une extension de type .docx. Un fichier de présentation de rapport RDLC doit avoir une extension de type .rdlc ou .rdl.  
 
-2.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Sélection présentation état**, puis sélectionnez le lien associé.  
+2.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Sélection présentation état**, puis sélectionnez le lien associé.  
 
 3.  Sélectionnez la ligne de l'état dans lequel vous souhaitez créer la présentation d'état, puis sélectionnez l'action **Présentations personnalisées**.  
 
@@ -53,5 +51,5 @@ Vous pouvez importer et exporter une présentation de rapport personnalisée exi
 
 ## <a name="see-also"></a>Voir aussi  
  [Créer et modifier une présentation de rapport personnalisée](ui-how-create-custom-report-layout.md)   
- [Gestion des présentations d'état et de document](ui-manage-report-layouts.md)  
+ [Gestion des présentations de rapport et de document](ui-manage-report-layouts.md)  
  [Utilisation des états, des traitements par lots et des XMLports](ui-work-report.md)    

@@ -1,8 +1,6 @@
 ---
 title: "Procédure : annuler la validation d'assemblage | Microsoft Docs"
 description: Vous pouvez parfois être amené à annuler un ordre d'assemblage validé, par exemple, si la commande a été validée avec des erreurs qui doivent être corrigées, ou parce qu'il n'aurait pas dû être validé en premier et doit être annulé.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 22ebbde0d04dfeb03fa52978e2d1e82d40713445
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 11041ebb7c7154eed6959a99ec5b100c73ccd8c6
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307630"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880775"
 ---
 # <a name="undo-assembly-posting"></a>Annuler la validation d'assemblage
 Vous pouvez parfois être amené à annuler un ordre d'assemblage validé, par exemple, si la commande a été validée avec des erreurs qui doivent être corrigées, ou parce qu'il n'aurait pas dû être validé en premier et doit être annulé.
@@ -60,6 +58,6 @@ Le champ **Contrepassé** de l'en\-tête d'ordre d'assemblage prend la valeur **
 [Inversion d'une validation feuille et annuler les réceptions/envois](finance-how-reverse-journal-posting.md)  
 [Traiter les retours ou annulations de ventes](sales-how-process-sales-returns-cancellations.md)    
 [Utiliser les nomenclatures](inventory-how-work-BOMs.md)  
-[STOCKS ET EN-COURS](inventory-manage-inventory.md)  
+[Stock](inventory-manage-inventory.md)  
 [Détails de conception : gestion d'entrepôt](design-details-warehouse-management.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

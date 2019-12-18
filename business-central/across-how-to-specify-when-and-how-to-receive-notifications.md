@@ -1,8 +1,6 @@
 ---
 title: 'Procédure : spécifier quand et comment recevoir des notifications | Microsoft Docs'
 description: Lorsque vous paramétrez des utilisateurs dans des flux de travail d'approbation, vous devez spécifier sur les pages Paramètres de notification et Tableau de notification quand et comment chaque utilisateur reçoit des notifications sur les étapes du flux de travail d'approbation. Les utilisateurs individuels peuvent également modifier leur paramètre de notification en choisissant le bouton Changer les paramètres de notification sur toute notification.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,27 +8,30 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 12/04/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8de701a3f49874ca737b1910dea97296b3f102bd
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f444bc1620a8578fc2c31c084d9ea60c5704327b
+ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305203"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2896244"
 ---
 # <a name="specify-when-and-how-to-receive-notifications"></a>Spécifier quand et comment recevoir des notifications
 Lorsque vous paramétrez des utilisateurs dans des flux de travail d'approbation, vous devez spécifier sur les pages **Paramètres de notification** et **Tableau de notification** quand et comment chaque utilisateur reçoit des notifications sur les étapes du flux de travail d'approbation. Les utilisateurs individuels peuvent également modifier leur paramètre de notification en choisissant le bouton **Changer les paramètres de notification** sur toute notification.  
 
+> [!NOTE]
+> Les notifications sont envoyées en fonction des paramètres de notification pour le destinataire, et non l'expéditeur. Cette distinction est importante, car cela signifie que lorsqu'un utilisateur demande une approbation dans le cadre d'un flux de travail, sa demande n'est pas nécessairement envoyée immédiatement. Elle est envoyée conformément aux paramètres de notification des approbateurs. 
+
  Avant de pouvoir paramétrer des préférences de notification d'un utilisateur approbation, vous devez configurer l'utilisateur en tant qu'utilisateur approbation. Pour plus d'informations, voir [Configurer des utilisateurs d'approbation](across-how-to-set-up-approval-users.md).  
 
- Vous pouvez définir la présentation des e-mails de notification en personnalisant l'état 1320, notification par e-mail. Pour plus d'informations, voir [Créer et modifier une présentation de rapport ou de document personnalisée](ui-how-create-custom-report-layout.md).  
+ Vous pouvez définir la présentation des e-mails de notification en personnalisant l'état 1320, notification par e-mail. Pour plus d'informations, voir [Créer et modifier des présentations de rapport personnalisées](ui-how-create-custom-report-layout.md).  
 
  Pour un grand nombre d'étapes d'approbation du workflow, il s'agit de notifier des utilisateurs qu'un événement s'est produit et qu'ils peuvent agir dessus. Par exemple, sur une étape de workflow, l'événement peut être que l'Utilisateur 1 demande l'approbation d'un nouvel enregistrement. La réponse associée est qu'une notification est envoyée à l'Utilisateur 2, l'approbateur. Sur la prochaine étape de workflow, l'événement peut être que l'Utilisateur 2 approuve l'enregistrement. La réponse associée est qu'une notification est envoyée à l'Utilisateur 3 afin de commencer un processus avec l'enregistrement approuvé. Pour les étapes de workflow concernant des approbations, chaque notification est liée à une écriture d'approbation. Pour plus d'informations, voir [Flux de travail](across-workflow.md).  
 
 ## <a name="specify-when-and-how-users-receive-notifications"></a>Spécifier quand et comment recevoir des notifications  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres utilisateur approbation**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres utilisateur approbation**, puis sélectionnez le lien associé.  
 2.  Sélectionnez la ligne pour l'utilisateur pour lequel vous souhaitez paramétrer des préférences de notification, puis choisissez l'action **Paramètre de notification**.  
 3.  Sur la page **Paramètres de notification**, renseignez les champs comme indiqué dans le tableau suivant.  
 
@@ -39,7 +40,7 @@ Lorsque vous paramétrez des utilisateurs dans des flux de travail d'approbation
     |**Type de notification**|Spécifiez le type d'événement dont il s'agit dans la notification.<br /><br /> Sélectionnez l'une des options suivantes :<br /><br /> -   **Nouvel enregistrement** spécifie que la notification concerne un nouvel enregistrement, par exemple un document sur lequel l'utilisateur doit agir.<br />-   **Approbation** spécifie que la notification concerne une ou plusieurs demandes d'approbation.<br />-   **Échu** spécifie que l'objet de la notification est de rappeler aux utilisateurs qu'ils sont en retard pour agir sur un événement.|  
     |**Mode de notification**|Spécifiez si la notification est un e-mail ou une note interne.|
 
-    Vous pouvez définir la présentation des e-mails de notification en personnalisant l'état 1320, notification par e-mail. Pour plus d'informations, voir [Créer et modifier une présentation de rapport ou de document personnalisée](ui-how-create-custom-report-layout.md).
+    Vous pouvez définir la présentation des e-mails de notification en personnalisant l'état 1320, notification par e-mail. Pour plus d'informations, voir [Créer et modifier des présentations de rapport personnalisées](ui-how-create-custom-report-layout.md).
 
     À présent, vous avez spécifié la manière dont l'utilisateur reçoit des notifications. Continuez à spécifier lorsque l'utilisateur reçoit des notifications.  
 
@@ -61,7 +62,7 @@ Lorsque vous paramétrez des utilisateurs dans des flux de travail d'approbation
 
 ## <a name="see-also"></a>Voir aussi  
  [Configurer des utilisateurs d'approbation](across-how-to-set-up-approval-users.md)   
- [Créer et modifier une présentation de rapport ou de document personnalisée](ui-how-create-custom-report-layout.md)   
+ [Créer et modifier des présentations de rapport personnalisées](ui-how-create-custom-report-layout.md)   
  [Configuration de notifications de workflow](across-setting-up-workflow-notifications.md)   
  [Paramétrage des workflows](across-set-up-workflows.md)   
  [Utilisation des workflows](across-use-workflows.md)

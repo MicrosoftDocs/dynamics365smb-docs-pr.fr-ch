@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 11/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: ac77368b30d442d6524b5231252ba5f370d50233
-ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
+ms.openlocfilehash: 03656014a2b7826008d415e53afbad2d88aac357
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "2774738"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2809363"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Attribuer des autorisations aux utilisateurs et aux groupes
 Le système de sécurité de [!INCLUDE[d365fin](includes/d365fin_md.md)] vous permet de contrôler les objets auxquels un utilisateur peut accéder dans chaque base de données ou environnement. Vous pouvez spécifier pour chaque utilisateur s'il peut lire, modifier ou entrer des données dans les objets de base de données sélectionnés. Pour des informations détaillées, voir [Sécurité des données ](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level)dans Aide dédiée à l'équipe IT et aux développeurs pour [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Avant d’attribuer des autorisations à des utilisateurs et à des groupes d’utilisateurs, vous devez définir ceux qui peuvent se connecter en créant des utilisateurs en fonction de la licence définie dans le Centre d'administration Office 365. Pour plus d’informations, voir [Créer des utilisateurs conformément aux licences](ui-how-users-permissions.md).
+Avant d’attribuer des autorisations à des utilisateurs et à des groupes d'utilisateurs, vous devez définir ceux qui peuvent se connecter en créant des utilisateurs en fonction de la licence définie dans le Centre d'administration Microsoft 365. Pour plus d’informations, voir [Créer des utilisateurs conformément aux licences](ui-how-users-permissions.md).
 
 Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], il existe deux niveaux d'autorisations pour les objets de base de données :
 - les autorisations globales en fonction de la licence, également appelées « droit » ;

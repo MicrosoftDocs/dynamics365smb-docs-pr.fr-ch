@@ -1,8 +1,6 @@
 ---
 title: Détails de conception - Ecart | Microsoft Docs
 description: L'écart est défini comme la différence entre le coût réel et le coût standard, telle que décrite dans la formule suivante.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f5b4d56c5afb728c915c95f763c75f4c5fe6d008
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 55317d4ae474c17df08449ebadd97aa11856a2c8
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306715"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882797"
 ---
 # <a name="design-details-variance"></a>Détails de conception : écart
 L'écart est défini comme la différence entre le coût réel et le coût standard, telle que décrite dans la formule suivante.  
@@ -50,16 +48,16 @@ L'écart est défini comme la différence entre le coût réel et le coût stand
 |Coût total|Article acheté|Article produit/assemblé|  
 |----------------|--------------------|------------------------------|  
 |**Coût standard**||Coût matière mono-niveau + Coût opératoire mono-niveau + Coût s/traitance mono-niveau + Frais gén. opérat. mono-niv. + Frais gén. matière mono-niv.|  
-|**Coût matière mono-niveau**|Coût unitaire|![Équation 1](media/design_details_inventory_costing_11_equation_1.png "Équation 1")|  
-|**Coût opératoire mono-niveau**|Non applicable|![Équation 2](media/design_details_inventory_costing_11_equation_2.png "Équation 2")|  
-|**Coût s/traitance mono-niveau**|Non applicable|![Équation 3](media/design_details_inventory_costing_11_equation_3.png "Équation 3")|  
-|**Frais gén. opérat. mono-niv.**|Non applicable|![Équation 4](media/design_details_inventory_costing_11_equation_4.png "Équation 4")|  
+|**Coût matière mono-niveau**|Coût unitaire|![Équation 1](media/design_details_inventory_costing_11_equation_1.png "Équation 1")|  
+|**Coût opératoire mono-niveau**|Non applicable|![Équation 2](media/design_details_inventory_costing_11_equation_2.png "Équation 2")|  
+|**Coût s/traitance mono-niveau**|Non applicable|![Équation 3](media/design_details_inventory_costing_11_equation_3.png "Équation 3")|  
+|**Frais gén. opérat. mono-niv.**|Non applicable|![Équation 4](media/design_details_inventory_costing_11_equation_4.png "Équation 4")|  
 |**Frais gén. matière mono-niv.**|Non applicable|(Coût matière mono-niveau + Coût opératoire mono-niveau + Coût s/traitance mono-niveau) * Coût indirect % / 100 + Frais généraux|  
-|**Coût matière multi-niveau**|Coût unitaire|![Équation 5](media/design_details_inventory_costing_11_equation_5.png "Équation 5")|  
-|**Coût opératoire multi-niveau**|Non applicable|![Équation 6](media/design_details_inventory_costing_11_equation_6.png "Équation 6")|  
-|**Coût s/traitance multi-niv.**|Non applicable|![Équation 7](media/design_details_inventory_costing_11_equation_7.png "Équation 7")|  
-|**Frais généraux opératoires multi-niveaux**|Non applicable|![Équation 8](media/design_details_inventory_costing_11_equation_8.png "Équation 8")|  
-|**Frais gén. matière multi-niv.**|Non applicable|![Équation 9](media/design_details_inventory_costing_11_equation_9.png "Équation 9")|  
+|**Coût matière multi-niveau**|Coût unitaire|![Équation 5](media/design_details_inventory_costing_11_equation_5.png "Équation 5")|  
+|**Coût opératoire multi-niveau**|Non applicable|![Équation 6](media/design_details_inventory_costing_11_equation_6.png "Équation 6")|  
+|**Coût s/traitance multi-niv.**|Non applicable|![Équation 7](media/design_details_inventory_costing_11_equation_7.png "Équation 7")|  
+|**Frais généraux opératoires multi-niveaux**|Non applicable|![Équation 8](media/design_details_inventory_costing_11_equation_8.png "Équation 8")|  
+|**Frais gén. matière multi-niv.**|Non applicable|![Équation 9](media/design_details_inventory_costing_11_equation_9.png "Équation 9")|  
 
 ## <a name="see-also"></a>Voir aussi  
  [Détails de conception : stock évaluation stock](design-details-inventory-costing.md)   

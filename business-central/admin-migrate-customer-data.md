@@ -1,8 +1,6 @@
 ---
 title: Migrer des données client | Microsoft Docs
 description: Vous pouvez migrer les données client existantes d'un système ERP existant vers Business Central à l'aide de RapidStart Services. Vous pouvez utiliser des fichiers Excel (.xlsx) comme supports d’informations. Vous pouvez également déplacer manuellement les données en les entrant directement dans la société.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,17 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 12/04/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7f2d1f354b789931bde76ed8869e326a34e53919
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 80fbd0a1024ae104fb6fc0921e1260c89a26debf
+ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304435"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2896220"
 ---
 # <a name="migrate-customer-data"></a>Migrer des données client
 Vous pouvez migrer les données client existantes d'un système ERP existant vers [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des outils de migration de données de RapidStart Services. Vous pouvez utiliser des fichiers Excel comme supports d’informations. Vous pouvez également déplacer manuellement les données en les entrant directement dans la société.
+
+> [!NOTE]
+> Les champs de type Blob ne peuvent pas être exportés/importés à l'aide d'Excel.
 
 Les pages **Aperçu migration** et **Feuille config.** permettent d’accéder aux fonctionnalités et aux vues pour exécuter toutes les tâches associées à la migration des données. Il est recommandé de migrer une table à la fois, afin de gérer les dépendances dans vos données. Lors de la migration, vous toucherez également aux tables de données principales, contenant des informations relatives aux clients, fournisseurs, articles, contacts et à la comptabilité.  
 
@@ -40,7 +41,7 @@ Avant de commencer, vérifiez que vous vous trouvez dans le tableau de bord Resp
 > Les tables dont les clés primaires sont différents et les champs dont les types de données sont différents ne seront pas importés avec succès. Par exemple, si le package de configuration inclut une table **Client 50000** dont la clé primaire est **Code20** et que la base de données dans laquelle vous importez le package inclut la table **Compte bancaire client 50000** dont la clé primaire est **Code20 + Code 20**, les données ne seront pas importées.  
 
 1. Ouvrez la nouvelle société.  
-2. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Packages configuration**, puis sélectionnez le lien associé.  
+2. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Packages configuration**, puis choisissez le lien associé.  
 3. Sélectionnez l'action **Importer package**. Accédez au fichier de package .rapidstart à importer, puis sélectionnez l'action **Ouvrir**. Lors de l'importation, le contenu du package est décompressé et l'enregistrement de package est créé.  
 
     Lorsque l'importation est terminée, vous pouvez visualiser le nombre de tables de configuration qui ont été importées dans le champ **Nombre de tables**.  
@@ -57,7 +58,7 @@ Si la sélection de tables ne répond pas à vos besoins, vous pouvez créer un 
 ## <a name="to-create-a-data-migration-file"></a>Pour créer un fichier de migration de données
 Vous pouvez créer de nouveaux fichiers de migration de données et les personnaliser pour prendre en charge les processus de l'entreprise. Notez qu'un fichier peut uniquement être utilisé pour migrer un champ dont la propriété **FieldClass** est définie sur **Normal**.  
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Package configuration**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Package configuration**, puis choisissez le lien associé.  
 2. Sélectionnez et ouvrez le package que vous souhaitez utiliser pour migrer les données, puis sélectionnez l'action **Extraire tables**. La page **Extraire tables package** s’ouvre.  
 3. Dans le champ **TableID**, entrez un numéro de table ou sélectionnez une table dans la liste, par exemple, la table 18, **Client**. Le champ **Nom table** est automatiquement renseigné.  
 4. Sélectionnez la nouvelle table de migration, puis sous l'onglet **Tables**, choisissez l'action **Champs**. La page **Champs migration** s'ouvre.  
@@ -73,7 +74,7 @@ Une nouvelle table de migration est créée.
 ## <a name="to-export-data-migration-files"></a>Pour exporter les fichiers de migration de données
 Lorsque vous avez déterminé les tables vers lesquelles vous souhaitez transférer les données client, vous exportez les fichiers.  
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Packages configuration**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Packages configuration**, puis choisissez le lien associé.  
 2. Sélectionnez et ouvrez le package à utiliser pour l’exportation.
 3. Sélectionnez la ou les tables que vous souhaitez exporter, puis sélectionnez l'action **Exporter vers Excel**.
 4. Enregistrez le fichier Excel exporté.  
@@ -94,7 +95,7 @@ Lorsque vous appliquez les données que vous avez importées d'Excel ou d'un pac
 
 Dans les procédures suivantes, vous devez rechercher à l'avance les valeurs que vous souhaitez conserver lors du processus de migration. Pour effectuer la procédure suivante, vous avez besoin des fichiers de migration des données (.xlsx) que vous avez exportés depuis [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, reportez vous à [Pour exporter les fichiers de migration de données](admin-migrate-customer-data.md#to-export-data-migration-files).
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Packages configuration**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Packages configuration**, puis choisissez le lien associé.
 2. Ouvrez le package pour la société concernée.  
 3. Sélectionnez la table pour laquelle vous souhaitez associer des valeurs, puis, sous l'onglet **Tables**, sélectionnez l'action **Champs**.  
 4. Pour chaque champ à associer, choisissez l'action **Correspondance**.  
@@ -112,7 +113,7 @@ L'exemple suivant illustre comment [!INCLUDE[d365fin](includes/d365fin_md.md)] m
 3. Lorsque vous appliquez des données, le mappage que vous avez fourni pour le champ **Code** dans la table **Vendeur/Acheteur** est également pris en compte lors du traitement des champs **Code vendeur** et **Code acheteur**.
 
 ## <a name="to-add-additional-values-to-included365finincludesd365fin_mdmd"></a>Pour ajouter des valeurs supplémentaires à [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Packages configuration**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Packages configuration**, puis choisissez le lien associé.  
 2. Sélectionnez la table pour laquelle vous souhaitez ajouter des valeurs supplémentaires, puis sous l'onglet **Tables**, sélectionnez l'action **Champs**.  
 3. Pour les champs pour lesquels vous souhaitez que [!INCLUDE[d365fin](includes/d365fin_md.md)] autorise des valeurs supplémentaires lors de la migration, cochez la case **Créer codes manquants**.  
 4. Importez les données client. Pour plus d'informations, voir [Pour importer les données client](admin-migrate-customer-data.md#to-import-customer-data).

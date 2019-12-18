@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: print check, customize
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: fea52bfa75d953b96aecc0f3e354806324f77d83
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d4818c9dfe96f7e890d84a16c717d4451f56497a
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306331"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2808592"
 ---
 # <a name="select-a-check-layout"></a>Sélectionner une mise en page de chèque
 Vous pouvez concevoir vos chèques de sorte à respecter les normes fixées par les autorités locales. Vous pouvez imprimer des images de chèques en anglais, en français ou en espagnol.
@@ -23,7 +23,7 @@ Vous pouvez concevoir vos chèques de sorte à respecter les normes fixées par 
 Les chèques sont conçus pour être imprimés aux formats d'image de chèques américains et canadiens, soit au format chèque-talon-chèque, soit au format talon-talon-chèque.
 
 ## <a name="to-select-a-check-layout"></a>Pour sélectionner une mise en page de chèque
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Sélection des états - Compte bancaire**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Sélection des états : Compte bancaire**, puis sélectionnez le lien associé.
 2. Sur la page **Sélection des états : Banque**, dans le champ **Utilisation**, sélectionnez **Chèque**
 3. Sélectionnez l'un des ID état suivants.
 
@@ -36,10 +36,10 @@ Les chèques sont conçus pour être imprimés aux formats d'image de chèques a
 
 Une fois que vous avez défini les mises en page de chèques, vous pouvez imprimer des chèques à partir de la page **Feuille paiement**. Pour plus d'informations, reportez-vous à [Utilisation des chèques](payables-how-work-checks.md).
 
-Pour modifier l'une de ces mises en page de chèque par défaut, utilisez l'intégration Word ou RDLC. Pour plus d'informations, voir [Créer et modifier une présentation de rapport ou de document personnalisée](ui-how-create-custom-report-layout.md).
+Pour modifier l'une de ces mises en page de chèque par défaut, utilisez l'intégration Word ou RDLC. Pour plus d'informations, voir [Créer et modifier des présentations de rapport personnalisées](ui-how-create-custom-report-layout.md).
 
 ## <a name="see-also"></a>Voir aussi
-[Créer et modifier une présentation de rapport ou de document personnalisée](ui-how-create-custom-report-layout.md)  
+[Créer et modifier des présentations de rapport personnalisées](ui-how-create-custom-report-layout.md)  
 [Gestion des comptes fournisseur](payables-manage-payables.md)  
 [Gestion des comptes bancaires](bank-manage-bank-accounts.md)   
 [Exécution des processus de clôture d'exercice](year-how-complete-period-end-processes.md)  

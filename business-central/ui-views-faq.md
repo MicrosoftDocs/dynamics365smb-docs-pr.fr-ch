@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: list, filter, pane, views
 ms.date: 01/01/2019
 ms.author: mikebc
-ms.openlocfilehash: d2caa1d9b84d99c0b43a70bca1c45da81138f7b9
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6357a025c58df8e55bf7aaad5961190ad6ed3350
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316848"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882005"
 ---
 # <a name="list-views-faq"></a>FAQ sur les vues de liste
 Cette rubrique répond aux questions fréquemment posées par nos utilisateurs expérimentés sur l'utilisation des vues de liste et la sauvegarde des filtres.  
@@ -58,7 +58,7 @@ Certaines vues système peuvent avoir des présentations uniques des colonnes de
 ### <a name="what-does-the-show-system-filters-link-do"></a>Que fait le lien Afficher filtres système ?
 Sur certaines pages de liste, le volet Filtre affichera **Afficher filtres système** en bas du volet Filtre lorsque la page comprend des filtres spécifiés par le système. Ces filtres spéciaux sont généralement utilisés pour afficher des enregistrements en fonction du contexte actuel, par exemple lorsqu'une liste de commandes doit être filtrée pour un client spécifique.
 
-Les filtres système sont définis par les développeurs utilisant le groupe de filtres 0. Pour plus de détails techniques sur les filtres système, voir [Fonction de groupe de filtres](https://docs.microsoft.com/en-us/dynamics-nav/filtergroup-function--record-)
+Les filtres système sont définis par les développeurs utilisant le groupe de filtres 0. Pour plus de détails techniques sur les filtres système, voir [Méthode de groupe de filtres](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-filtergroup-method)
 
 ### <a name="i-see-multiple-views-on-my-page-but-i-did-not-create-them-where-did-they-come-from"></a>Je vois plusieurs vues sur ma page, mais je ne les ai pas créées. D'où viennent-ils ?
 Les vues que vous voyez sur une liste sont une combinaison de vos vues personnelles avec des vues système. Les vues système peuvent provenir de l'application métier, des extensions ou être spécifiques à un rôle si la liste a été personnalisée pour votre rôle.

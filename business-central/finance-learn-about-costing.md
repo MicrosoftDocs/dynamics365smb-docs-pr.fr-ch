@@ -1,8 +1,6 @@
 ---
 title: À propos de l'évaluation du stock | Microsoft Docs
 description: La gestion des coûts ajustés fait référence à l'enregistrement et la déclaration des coûts d'exploitation de l'entreprise. Cette activité inclut la déclaration des coûts de fabrication et de stock qui constituent la valeur des articles.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: fd2365f26ac762eb1f3edab534e87e163077771f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c7243b15ccd94fea5c0630e03f32dd94ab305402
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302023"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882629"
 ---
 # <a name="about-inventory-costing"></a>À propos de l'évaluation des coûts de stock
 La gestion des coûts ajustés fait référence à l'enregistrement et la déclaration des coûts d'exploitation de l'entreprise. Cette activité inclut la déclaration des coûts de fabrication et de stock qui constituent la valeur des articles.  
@@ -38,7 +36,7 @@ La gestion des coûts ajustés fait référence à l'enregistrement et la décla
 |Comprendre la manière donc la valeur du stock est reflétée dans la comptabilité.|[Génération des coûts et rapprochement en comptabilité](finance-report-costs-and-reconcile-with-the-general-ledger.md)|  
 |Apprendre la manière dont les frais annexes, tels que les frais de transport ou d'assurance, peuvent affecter des composantes supplémentaires au coût unitaire d'un article.|[Utiliser Frais annexes pour comptabiliser les coûts commerciaux supplémentaires](payables-how-assign-item-charges.md)|  
 |Obtenir des informations sur la manière dont les périodes inventaire permettent à une société de contrôler la valeur du stock dans le temps en définissant des périodes plus courtes qui peuvent être fermées à la validation lorsque la fin de l'exercice comptable approche.|[Utiliser les périodes inventaire](finance-how-to-work-with-inventory-periods.md)|  
-|Comprendre tous les mécanismes du moteur d'évaluation, notamment ce qui se produit lorsque vous validez des transactions d'assemblage et de production.|[Détails de conception : évaluation stock](design-details-inventory-costing.md)|
+|Comprendre tous les mécanismes du moteur d'évaluation, notamment ce qui se produit lorsque vous validez des transactions d'assemblage et de production.|[Détails de conception : évaluation stock](design-details-inventory-costing.md)|  
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion des coûts ajustés](finance-manage-inventory-costs.md)    

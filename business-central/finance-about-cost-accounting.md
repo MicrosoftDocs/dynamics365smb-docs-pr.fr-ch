@@ -1,8 +1,6 @@
 ---
 title: À propos de la comptabilité analytique | Microsoft Docs
 description: La comptabilité analytique vous permet de cerner les coûts liés à l'exploitation d'un activié.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 053a0ca21ff26b53cabcc8894ed1cd0e48c904b0
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6ab142468f152b6430d5454c29a5b663be954412
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302683"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879887"
 ---
 # <a name="about-cost-accounting"></a>À propos de la comptabilité analytique
 La comptabilité analytique vous permet de cerner les coûts liés à l'exploitation d'un activité. Les informations sur la comptabilité analytique sont conçues pour analyser :  
@@ -39,7 +37,7 @@ La comptabilité analytique est constituée des composants principaux suivants 
 
 Le schéma suivant présente le flux de travail en comptabilité analytique.  
 
-![Aperçu de comptabilité analytique](media/costaccountingoverview.png "CostAccountingOverview")  
+![Vue d'ensemble de la comptabilité analytique](media/costaccountingoverview.png "CostAccountingOverview")  
 
 ## <a name="cost-types-cost-centers-and-cost-objects"></a>Types de coûts, centres de coûts et coûts associés  
 Vous définissez les types de coûts, les centres de coûts et les coûts associés pour analyser leur type, leur source et la personne qui les prend en charge.  

@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 11/06/2019
+ms.date: 12/06/2019
 ms.author: edupont
-ms.openlocfilehash: cf4fe3abc4a31619015520f2be598976b0fc8f5c
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: 4df167f27fc9fe456cece9c8738fa5f3aff8338c
+ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775514"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2896200"
 ---
 # <a name="frequently-asked-questions"></a>Forum Aux Questions
 
@@ -20,7 +20,7 @@ Cette section contient des réponses aux questions les plus fréquentes sur l'in
 
 ## <a name="is-included365finincludesd365fin_mdmd-available-in-my-country"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] est-il disponible dans mon pays ?
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] est disponible dans sur nombre limité de marchés, mais de nouveaux pays sont ajoutés via la localisation Microsoft ou via la localisation partenaire chaque trimestre. Pour plus d'informations, voir [Pays et traductions pris en charge](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] est disponible dans sur nombre limité de marchés, mais de nouveaux pays sont ajoutés via la localisation Microsoft ou via la localisation partenaire chaque trimestre. Pour plus d'informations, voir [Disponibilité par pays/région et traductions prises en charge](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) (disponible en anglais uniquement).  
 
 ## <a name="how-do-i-get-include-prodshortincludesprodshortmd"></a>Procédure pour obtenir [!INCLUDE [prodshort](includes/prodshort.md)]
 
@@ -84,7 +84,7 @@ Si vous ne disposez pas d'un abonnement Office 365, et que vous ne souhaitez pas
 [!INCLUDE[d365fin](includes/d365fin_md.md)] en ligne est entièrement intégré à Office 365, ce qui vous permet de naviguer librement entre Office 365 et [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide du lanceur d'application. Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez ouvrir les données dans Excel, imprimer des rapports à l'aide de Word, et vous pouvez travailler sur vos données [!INCLUDE[d365fin](includes/d365fin_md.md)] dans Outlook, par exemple. Pour plus d'informations, reportez-vous à [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] en tant que boîte de réception professionnelle dans Outlook](admin-outlook.md).  
 
 ## <a name="can-i-extend-my-30-day-new-company-trial-period"></a>Puis-je prolonger ma période d'essai de « Nouvelle société » de 30 jours ?
-Oui. Lorsque la date d'échéance de votre période d'essai approche, nous afficherons une notification pour vous avertir lorsque vous vous connectez. La notification contient un lien vers le guide **Prolonger la période d'évaluation** que vous pouvez utiliser pour prolonger votre période d'essai. Les 30 jours supplémentaires lancent le moment où vous choisissez **Prolonger la version d'évaluation** dans le guide. Vous pouvez prolonger la période d'essai une fois vous-même. Après quoi, un partenaire certifié Microsoft peut l'étendre d'encore 30 jours. Pour plus d'informations, voir [Prolonger votre période d'essai](admin-extend-trial.md). 
+Oui. Lorsque la date d'échéance de votre période d'essai approche, nous afficherons une notification pour vous avertir lorsque vous vous connectez. La notification contient un lien vers le guide **Prolonger la période d'évaluation** que vous pouvez utiliser pour prolonger votre période d'essai. Les 30 jours supplémentaires lancent le moment où vous choisissez **Prolonger la version d'évaluation** dans le guide. Vous pouvez prolonger la période d'essai une fois vous-même. Après quoi, un partenaire certifié Microsoft peut l'étendre d'encore 30 jours. Pour plus d'informations, voir [Prolonger votre période d'essai](admin-extend-trial.md).
 
 > [!NOTE]
 > Le processus d'extension de la période d'essai peut prendre jusqu'à deux jours ouvrables.  
@@ -108,10 +108,12 @@ Lorsque vous êtes prêt à acheter [!INCLUDE [prodshort](includes/prodshort.md)
 
 Si vous souhaitez des conseils de Microsoft, contactez l'[Équipe commerciale Microsoft](https://go.microsoft.com/fwlink/?linkid=828707).  
 
-Votre partenaire revendeur gèrera aussi le support technique pour votre compte. Pour plus d'informations, reportez-vous à la rubrique [Ressources pour l'aide et l'assistance technique](product-help-and-support.md).  
+Votre partenaire revendeur gèrera aussi le support technique pour votre compte. Pour plus d'informations, reportez-vous à la rubrique [Ressources pour l'aide et l'assistance technique](product-help-and-support.md).
+
+## <a name="is-the-windows-client-supported"></a>Le client Windows est-il pris en charge ?
+Un client dérivé de Microsoft Dynamics NAV était installé dans les premières versions de [!INCLUDE[prodshort](includes/prodshort.md)]. À partir de la 2e vague de publication 2019, ce composant hérité, appelé « le client Windows », ne sera plus disponible pour [!INCLUDE[prodshort](includes/prodshort.md)]. Pour plus d'informations, voir [FAQ sur le client Windows et Business Central](/dynamics365/business-central/dev-itpro/across-faq-win-cli).
 
 ## <a name="see-also"></a>Voir aussi
-
 [Mise en route](product-get-started.md)  
 [FAQ Tell Me](ui-search-faq.md)  
 [FAQ sur la recherche et le filtrage](ui-search-filter-faq.md)  
@@ -125,5 +127,7 @@ Votre partenaire revendeur gèrera aussi le support technique pour votre compte.
 [Ressources pour l'aide et l'assistance technique](product-help-and-support.md)  
 [Catalogue d'apprentissage Business Central](readiness/readiness-learning-catalog.md)  
 [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md)  
+[Disponibilité par pays/région et traductions prises en charge](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
+[FAQ sur les expériences des développeurs et de l'équipe IT](/dynamics365/business-central/dev-itpro/faq)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 11/20/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7d52f1dce42bb8c3b84ff335eb07b6a12154fbcf
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2c39fb8e9c2b380674169a27d05a04f0f4b0d451
+ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316894"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832109"
 ---
 # <a name="add-a-page-action-to-your-role-center"></a>Ajouter une action de page à votre Tableau de bord
 À l'aide de la nouvelle icône de signet, vous pouvez ajouter un lien d'action à n'importe quelle page à partir du menu de navigation de votre Tableau de bord. Vous devez ajouter le signet à partir de la page cible, c'est-à-dire la page sur laquelle vous souhaitez que l'action du Tableau de bord s'ouvre.
@@ -33,6 +33,9 @@ Un nom d'action après la page est maintenant ajouté au menu de navigation de v
 2. Passez votre souris sur le résultat de la recherche pour la page **Commandes vente**, puis choisissez l'icône ![Signet](media/ui_bookmark_icon.png "Signet").
 
 Si un signet existe déjà pour la page, l'icône est sombre et l'info-bulle indique « Mis en favori ».
+
+> [!NOTE]  
+> Lorsqu'un signet est ajouté, tout texte traduit qui était disponible à ce moment est également mis en signet. Si un nouveau texte traduit est ajouté ultérieurement, le lien mis en signet n'est pas mis à jour.
 
 ## <a name="see-also"></a>Voir aussi
 [Personnaliser votre espace de travail](ui-personalization-user.md)  

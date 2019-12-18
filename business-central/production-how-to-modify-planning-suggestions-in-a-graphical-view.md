@@ -1,8 +1,6 @@
 ---
 title: Procédure de modification des propositions planning dans une vue graphique | Microsoft Docs
 description: Une activité de planification courante est d'ajouter ou de modifier les lignes feuille planning pour modifier les commandes approvisionnement proposées avant de les valider en exécutant la fonction **Traiter message d'action**. Une alternative à utiliser la feuille planning est d'utiliser une vue graphique.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3aea6aa1aab6b5006bdc548b99bfa037e995de32
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2d068ed3e206f7d93b15d0cd2af56a7557ce3977
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313387"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877942"
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Modifier les propositions planning dans une vue graphique
 Une activité de planification courante est d'ajouter ou de modifier les lignes feuille planning pour modifier les commandes approvisionnement proposées avant de les valider en exécutant la fonction **Traiter message d'action**. Une alternative à utiliser la feuille planning est d'utiliser une vue graphique.
@@ -37,7 +35,7 @@ Lorsque vous choisissez **Enregistrer les modifications** sur la page **Disponib
 La procédure suivante indique comment modifier des propositions d'approvisionnement par glisser-déplacer. Vous pouvez également modifier les champs **Date d'échéance** et **Quantité** sur le raccourci **Modification des événements** et immédiatement visualiser les modifications graphiquement sur le raccourci **Chronologie** de la page **Feuille planning**.  
 
 ## <a name="to-modify-suggested-supply-orders-in-the-graphical-view"></a>Pour modifier les commandes approvisionnement proposées dans la vue graphique  
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Disponibilité article par chronologie**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Disponibilité article par chronologie**, puis choisissez le lien associé.  
 
     La page **Disponibilité article par chronologie** s'ouvre avec le numéro d'article, le magasin et la variante de l'article, figurant sur la ligne planning sélectionnée, préalablement insérés dans le raccourci **Options**. Le raccourci **Chronologie** affiche une représentation graphique du stock prévisionnel de l'article, y compris les propositions planning.  
 

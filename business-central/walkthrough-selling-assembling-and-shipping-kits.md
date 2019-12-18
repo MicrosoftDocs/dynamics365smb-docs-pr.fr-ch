@@ -1,8 +1,6 @@
 ---
 title: 'Procédure pas-à-pas : vente, assemblage et expédition de kits | Microsoft Docs'
 description: Pour prendre en charge un stock juste-à-temps (JIT) et permettre la personnalisation des produits conformément aux demandes client, il est possible de créer des ordres d’assemblage et de les lier automatiquement dès que la ligne commande vente est créée. Le lien entre la demande vente et l’approvisionnement d’assemblage permet aux préparateurs de commandes vente de personnaliser l’article d’assemblage et de proposer des dates de livraison en fonction de la disponibilité des composants. En outre, la consommation et le résultat d’assemblage sont validés automatiquement avec l’expédition de la commande vente liée.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ebadd0eb4fce42b66ef6b766f4518ed38c879a18
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: e138a96bdf2d3a4fd0d06dd913f3434ac4bd5988
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553981"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882077"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Procédure pas-à-pas : vente, assemblage et expédition de kits
 
@@ -84,14 +82,14 @@ Avant d'exécuter cette procédure pas à pas, veuillez suivre les instructions 
 -   Installez [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 -   Devenez magasinier dans un magasin BLANC en procédant comme suit :  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Magasiniers**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Magasiniers**, puis sélectionnez le lien associé.  
 2.  Choisissez le champ **ID utilisateur** et sélectionnez votre propre compte utilisateur sur la page **Utilisateurs**.  
 3.  Dans le champ **Code magasin**, entrez BLANC.  
 4.  Sélectionnez le champ **Par défaut**.  
 
 Préparez le magasin BLANC pour l’assemblage en procédant comme suit :  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Magasins**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Magasins**, puis sélectionnez le lien associé.  
 2.  Ouvrez la fiche magasin du magasin BLANC.  
 3.  Dans le raccourci **Emplacements**, entrez **W-10-0001** dans le champ **Code empl. vers assemblage**.  
 
@@ -103,7 +101,7 @@ Préparez le magasin BLANC pour l’assemblage en procédant comme suit :
 
 Supprimez le délai par défaut pour les processus internes en procédant comme suit :  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres production**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres production**, puis sélectionnez le lien associé.  
 2.  Sur la page **Paramètres production**, sous le raccourci **Planning**, supprimez la valeur dans le champ **Délai de sécurité par défaut**.  
 
 Créez le stock des composants d'assemblage en suivant [Préparation d'exemples de données](walkthrough-selling-assembling-and-shipping-kits.md#prepare-sample-data).  
@@ -137,7 +135,7 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 
 ## <a name="prepare-sample-data"></a>Préparation d'exemples de données  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles article entrepôt**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles article entrepôt**, puis sélectionnez le lien associé.  
 2.  Choisissez le champ **Nom de la feuille**, puis sélectionnez la feuille par défaut.  
 3.  Créez des ajustements positifs de stock à un magasin BLANC à la date de travail, le 23 janvier, en entrant les informations suivantes.  
 
@@ -154,14 +152,14 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 
     Ensuite, synchronisez les nouvelles écritures entrepôt avec le stock.  
 
-5.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles articles**, puis sélectionnez le lien associé. La page **Feuille article** s'ouvre.  
+5.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles article**, puis sélectionnez le lien associé. La page **Feuille article** s'ouvre.  
 6.  Sélectionnez l'action **Calculer ajustement entrepôt**.  
 7.  Sur la page **Calculer ajustement entrepôt**, cliquez sur le bouton **OK** .  
 8.  Sur la page **Feuille article**, choisissez l'action **Valider**, puis cliquez sur le bouton **Oui**.  
 
 ### <a name="creating-the-assembly-items"></a>Création des articles d’assemblage  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles**, puis sélectionnez le lien associé.  
 2.  Sélectionnez l'action **Nouveau**.  
 3.  Créez le premier article d’assemblage sur la base des informations suivantes.  
 
@@ -212,7 +210,7 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 
 ### <a name="selling-the-assembly-items"></a>Vente des articles d’assemblage  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes vente**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes vente**, puis sélectionnez le lien associé.  
 2.  Sélectionnez l'action **Nouveau**.  
 3.  Créez deux lignes commande vente pour le client 62000, The Device Shop, à la date de travail avec les informations suivantes.  
 
@@ -265,7 +263,7 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 
 ### <a name="planning-for-the-unavailable-ats-items"></a>Planification pour les articles « assembler pour stock » non disponibles  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille planning**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille planning**, puis sélectionnez le lien associé.  
 2.  Choisissez l'action **Calculer planning régénératif**.  
 3.  Sur la page **Calculer planning**, définissez les filtres suivants.  
 
@@ -283,7 +281,7 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 
 ### <a name="assembling-and-shipping-the-first-ato-quantity"></a>Assemblage et expédition de la première quantité « assembler pour commande »  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Expédition entrepôt**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Expédition entrepôt**, puis sélectionnez le lien associé.  
 
     > [!NOTE]  
     >  Dans cette section, la personne responsable de l’expédition est chargée d’enregistrer le travail d’assemblage « assembler pour commande » effectué sur la ligne expédition entrepôt. Ce flux de travail peut apparaître dans des environnements où le travail d’assemblage est effectué par la personne responsable de l’expédition ou par des ouvriers d’assemblage dans l’emplacement expédition.  
@@ -302,7 +300,7 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 
     Ensuite, effectuez la tâche de la personne en charge du prélèvement.  
 
-4.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Prélèvements**, puis sélectionnez le lien associé.  
+4.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Prélèvements**, puis sélectionnez le lien associé.  
 5.  Ouvrez le document prélèvement entrepôt que vous avez créé à l’étape 3 de cette section.  
 
     Prenez note de la valeur du champ **Document origine** et que toutes les lignes prélèvement sont pour les composants d’assemblage.  
@@ -343,7 +341,7 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 
 ### <a name="assembling-and-recording-the-second-ato-quantity"></a>Assemblage et enregistrement de la seconde quantité « assembler pour commande »  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Ordres d'assemblage**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Ordres d'assemblage**, puis sélectionnez le lien associé.  
 
     Remarquez que la commande « assembler pour commande » pour les unités du kit B est toujours dans la liste, bien que le champ **Quantité restante** soit vide. En effet la commande vente liée n’est toujours pas entièrement facturée.  
 
@@ -367,7 +365,7 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 
 ### <a name="assembling-the-ats-quantity"></a>Assemblage de la quantité « assembler pour stock »  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Ordres d'assemblage**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Ordres d'assemblage**, puis sélectionnez le lien associé.  
 2.  Ouvrez l’ordre d’assemblage pour dix unités de kit A.  
 
     Notez que le champ  **Quantité à assembler** est renseigné avec la quantité prévue.  
@@ -379,7 +377,7 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 
     Ensuite, effectuez la tâche de la personne en charge du prélèvement.  
 
-5.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Prélèvements**, puis sélectionnez le lien associé.  
+5.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Prélèvements**, puis sélectionnez le lien associé.  
 6.  Ouvrez le document prélèvement entrepôt que vous avez créé à l’étape 4 de cette section.  
 
      Enregistrez le prélèvement sans modifier les informations par défaut.  
@@ -395,7 +393,7 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 
 ### <a name="shipping-the-remaining-items-partly-from-stock-and-partly-assembled-to-the-order"></a>Expédition des autres articles, en partie du stock et en partie assemblés pour la commande  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Expédition entrepôt**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Expédition entrepôt**, puis sélectionnez le lien associé.  
 2.  Ouvrez l’expédition entrepôt la plus récente créée à un magasin BLANC.  
 
     Notez que sur la ligne pour les dix unités de kit A les champs **Qté à expédier** et **Qté prélevée** sont vides.  
@@ -406,7 +404,7 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 
     Ensuite, effectuez la dernière tâche de la personne en charge du prélèvement pour cette expédition entrepôt.  
 
-4.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Prélèvements**, puis sélectionnez le lien associé.  
+4.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Prélèvements**, puis sélectionnez le lien associé.  
 5.  Ouvrez le document prélèvement entrepôt que vous avez créé à l’étape 3 de cette section.  
 
     Remarquez que ce document prélèvement concerne l’article d’assemblage, pas les composants d’assemblage.  
@@ -426,7 +424,7 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 
     Le document expédition entrepôt est supprimé, ce qui indique que les activités entrepôt impliquées sont terminées. Ensuite, vérifiez que la commande vente a été traitée.  
 
-10. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes vente**, puis sélectionnez le lien associé  
+10. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes vente**, puis sélectionnez le lien associé  
 11. Ouvrez la commande vente pour The Device Shop.  
 
     Notez que le champ **Quantité expédiée** affiche la quantité totale des deux lignes.  

@@ -8,12 +8,12 @@ ms.reviewer: edupont04
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
 ms.date: 10/01/2019
 ms.author: mikebc
-ms.openlocfilehash: a0b5d48f5decbed87337e27145486a2884a6612d
-ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
+ms.openlocfilehash: 79fb96b0262eacfd67326236c7cf8468689c6b5e
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2695206"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876886"
 ---
 # <a name="searching-and-filtering-faq"></a>FAQ sur la recherche et le filtrage
 Cet article répond à des questions courantes que vous pouvez avoir à propos de la recherche et du filtrage.
@@ -47,7 +47,7 @@ Chez Microsoft, nous écoutons constamment les commentaires de notre communauté
 
 Il existe une limite de temps concernant une opération de recherche. Premièrement, essayez de modifier les critères de recherche et recherchez à nouveau. Si vous utilisez [!INCLUDE[prodshort](includes/prodshort.md)] local, contactez votre administrateur système, parce qu'un administrateur peut augmenter le délai des recherches.
 
-En tant qu'administrateur local, vous développez le délai des recherches en modifiant le paramètre **Expiration de la recherche** du serveur [!INCLUDE[prodshort](includes/prodshort.md)]. Pour plus d'informations, voir [Configuration de Business Central Server](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-server-instance?#Database) dans l'Aide destinée aux développeurs et aux professionnels de l'informatique Business Central.
+En tant qu'administrateur local, vous développez le délai des recherches en modifiant le paramètre **Expiration de la recherche** du serveur [!INCLUDE[prodshort](includes/prodshort.md)]. Pour plus d'informations, voir [Configuration de Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance?#Database) dans l'Aide destinée aux développeurs et aux professionnels de l'informatique Business Central.
 
 ## <a name="see-also"></a>Voir aussi
 [Tri, recherche et filtrage](ui-enter-criteria-filters.md)  

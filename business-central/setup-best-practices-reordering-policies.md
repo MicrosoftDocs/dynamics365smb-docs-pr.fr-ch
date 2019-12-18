@@ -1,8 +1,6 @@
 ---
 title: 'Pratiques de configuration recommandées : méthodes de réapprovisionnement | Microsoft Docs'
 description: Sur les fiches article, le champ Méthode réapprovisionnement propose quatre méthodes de planification différentes qui déterminent le mode d'interaction de chacun des paramètres de planification.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 46e4b5861242258769548cae5f214a8d7cb8f9a6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 97d299372bc140c29138d6b83c34ec18254c4fcd
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311539"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882245"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Pratiques de configuration recommandées : méthodes de réapprovisionnement
 Sur les fiches article, le champ **Méthode réapprovisionnement** propose quatre méthodes de planification différentes qui déterminent le mode d'interaction de chacun des paramètres de planification.  
@@ -32,7 +30,7 @@ Pour sélectionner une méthode de réapprovisionnement, la classification ABC d
 
 La classification ABC révèle qu'il est possible de réduire les efforts et de réaliser des économies en appliquant aux articles de faible valeur-volume un contrôle moins strict qu'aux articles ayant une valeur ou un volume élevé. La figure ci-après indique quelle méthode de réapprovisionnement dans [!INCLUDE[d365fin](includes/d365fin_md.md)] est la mieux adaptée aux articles A, B et C, respectivement.
 
-![Classification ABC](media/abc_classification.png "abc_classification")
+![Classification ABC](media/abc_classification.png "abc_classification")
 
 Le tableau suivant propose des recommandations pour effectuer son choix parmi ces quatre méthodes.  
 

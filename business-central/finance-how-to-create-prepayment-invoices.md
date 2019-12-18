@@ -1,8 +1,6 @@
 ---
 title: "Procédure : créer des factures d'acompte | Microsoft Docs"
 description: Découvrez comment gérer les situations où votre fournisseur ou vous-même exigez un acompte.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5841329a2e369be081c2728edf1837e85859f38e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ee10367990ebb0e60879ac885ad03072dd877c2a
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302155"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879743"
 ---
 # <a name="create-prepayment-invoices"></a>Créer des factures d'acompte
 Si vous voulez que vos clients fassent des paiements avant de leur expédier une commande ou si votre fournisseur exige que vous fassiez un paiement avant de vous expédier une commande, vous pouvez utiliser la fonctionnalité Acompte.  
@@ -27,7 +25,7 @@ Après avoir créé une commande vente ou achat, vous pouvez créer une facture 
 La procédure suivante décrit comment facturer un acompte pour des commandes vente. La procédure est identique pour des commandes achat.  
 
 ## <a name="to-create-a-prepayment-invoice"></a>Pour créer une facture acompte  
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes vente**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes vente**, puis sélectionnez le lien associé.  
 2. Créez une commande vente. Pour en savoir plus, voir [Vendre des produits](sales-how-sell-products.md).  
 
     Sur le raccourci **Acompte** le champ **% acompte** est renseigné automatiquement si un pourcentage d'acompte par défaut figure sur la fiche client. Vous pouvez modifier le contenu du champ. Le pourcentage d'acompte est uniquement copié à partir de l'en-tête vers les lignes qui ne copient pas le pourcentage d'acompte par défaut à partir de l'article.  

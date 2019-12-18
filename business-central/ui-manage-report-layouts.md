@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 10/01/2019
+ms.date: 11/13/2019
 ms.author: sgroespe
-ms.openlocfilehash: f64397d41eb4002221d9967b5b61145882aee0d6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7c85b58de2ec9e497e2578a6241b7f1499a81ae9
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315171"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2809391"
 ---
 # <a name="managing-report-and-document-layouts"></a>Gestion des présentations de rapport et de document
 Une présentation de rapport contrôle le contenu et le format du rapport, dont les champs de données d'un ensemble de données de rapport apparaissant sur le rapport et la façon ils sont organisés, le style de texte, les images, et plus encore. À partir de [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez modifier la présentation utilisée sur un rapport, créer une nouvelle présentation ou modifier les présentations existantes.
@@ -59,9 +59,10 @@ Le procédure pour paramétrer des présentations de rapport Word et des présen
 Pour plus d'informations sur la manière d'utiliser l'une ou l'autre présentation, voir [Modifier la présentation actuelle de l'état](ui-how-change-layout-currently-used-report.md).
 
 ## <a name="see-also"></a>Voir aussi
-[Mise à jour des présentations d'état ou de document](ui-update-report-layouts.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Créer et modifier une présentation de rapport ou de document personnalisée](ui-how-create-custom-report-layout.md)  
+[Mettre à jour les présentations d'état personnalisées](ui-update-report-layouts.md)  
+[Créer et modifier des présentations de rapport personnalisées](ui-how-create-custom-report-layout.md)  
 [Importer et exporter une présentation d'état ou de document personnalisée](ui-how-import-and-export-report-layout.md)  
+[Définir des présentations de document spéciales pour les clients et les fournisseurs](ui-define-customer-vendor-document-layouts.md)  
 [Envoyer des documents par e-mail](ui-how-send-documents-email.md)  
 [Utilisation des états, des traitements par lots et des XMLports](ui-work-report.md)  
+[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

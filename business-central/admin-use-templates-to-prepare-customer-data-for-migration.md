@@ -1,8 +1,6 @@
 ---
 title: Préparer la migration des données client | Microsoft Docs
 description: Une fois que vous avez importé et appliqué les données de configuration dans la nouvelle base de données, vous pouvez commencer la migration des données de base existantes du client (nom et numéro du client et des articles, par exemple). Pour créer ces données avec rapidité et précision dans la nouvelle société, vous devez utiliser des modèles pour structurer les données.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 12/04/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0257b3bdb68a92cdc1719f19a2fc4b73a9e33dc2
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f2289ff66e3d95a0df16b2e51b72719b56a20eda
+ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307805"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2896100"
 ---
 # <a name="prepare-to-migrate-customer-data"></a>Préparer la migration des données client
 Une fois que vous avez importé et appliqué les données de configuration dans la nouvelle base de données, vous pouvez commencer la migration des données de base existantes du client (nom et numéro du client et des articles, par exemple). Pour créer ces données avec rapidité et précision dans la nouvelle société, vous devez utiliser des modèles pour structurer les données.  
@@ -34,9 +32,12 @@ Vous pouvez toutefois créer une structure de modèle et l'appliquer à une tabl
 > [!TIP]  
 >  Vous pouvez également utiliser des modèles de données pour les opérations quotidiennes de manière à créer des enregistrements basés sur des modèles. Ces modèles de données ne fonctionnent qu'avec les tables de données principales prises en charge. Pour plus d'informations, reportez vous, par exemple, à [Enregistrer de nouveaux articles](inventory-how-register-new-items.md).  
 
-Lorsque vous importez des données client, comme des articles, à partir d’un fichier, les données de champ obligatoires que vous avez spécifiées sont collectées à partir du modèle de données lié. Lorsque vous créez un article, vous n’entrez que des informations générales (nom article, description et prix) et vous collectez ensuite le reste des données de champ obligatoires à partir d’un modèle de données sélectionné.  
+Lorsque vous importez des données client, comme des articles, à partir d’un fichier, les données de champ obligatoires que vous avez spécifiées sont collectées à partir du modèle de données lié. Lorsque vous créez un article, vous n’entrez que des informations générales (nom article, description et prix) et vous collectez ensuite le reste des données de champ obligatoires à partir d’un modèle de données sélectionné.
 
 Lorsque vous créez un enregistrement de données de base, par exemple une fiche client, certains champs doivent être obligatoirement renseignés. Vous pouvez regrouper la plupart des champs obligatoires, tels que les groupes de comptabilisation et les conditions de paiement, pour faciliter la création des enregistrements de données de base et les rendre et plus stables. Par exemple, vous pouvez regrouper les champs obligatoires de la table 18 (**Client**) en fonction du type **National**, **International** ou **Exporter**.
+
+> [!NOTE]
+> Les champs de type Blob ne peuvent pas être exportés/importés à l'aide d'Excel.
 
 ## <a name="to-select-a-data-template"></a>Pour sélectionner un modèle de données
 Lorsque vous sélectionnez un modèle de données existant, vous devez évaluer si les modèles que vous avez créés pour la nouvelle société sont suffisants pour le client. Consultez les champs et les valeurs indiqués pour déterminer les modèles appropriés pour une nouvelle société.  
@@ -44,7 +45,7 @@ Lorsque vous sélectionnez un modèle de données existant, vous devez évaluer 
 > [!TIP]  
 >  Vous pouvez également utiliser des modèles de données afin de créer rapidement des enregistrements. Ils vous permettent de créer des données avec une rapidité et une précision accrues. Pour plus d'informations, reportez vous à [Enregistrer de nouveaux articles](inventory-how-register-new-items.md).
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Modèles configuration**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Modèles configuration**, puis choisissez le lien associé.  
 2. Sur la page **Modèles configuration**, sélectionnez un modèle de données dans la liste, puis choisissez l'action **Modifier**.  
 
 Si les modèles par défaut ne répondent pas à vos besoins, vous pouvez créer de nouveaux modèles ou ajouter des champs à un modèle existant. Si les modèles par défaut sont suffisants, vous pouvez les utiliser pour créer des enregistrements à partir de modèles de données de base.
@@ -89,7 +90,7 @@ L'ID table, le nom de la table, et les lignes du modèle de données existant so
 ## <a name="to-export-to-a-template-in-excel"></a>Pour effectuer une exportation vers un modèle dans Excel
 Vous pouvez rapidement créer un classeur Excel qui servira de modèle basé sur la structure d’une table de données de base existante. Vous pouvez alors utiliser ce modèle pour rassembler les données du client sous un format cohérent afin de les importer ultérieurement dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille configuration**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille configuration**, puis choisissez le lien associé.
 2. Ajoutez une table dans la liste ou sélectionnez une table existante. Pour plus d'informations, voir [Gérer la configuration de la société dans une feuille](admin-how-to-manage-company-configuration-in-a-worksheet.md).
 3. Définissez les champs de la table à inclure dans le modèle.
 4. Choisissez l'action **Exporter vers modèle**.
@@ -114,11 +115,11 @@ Vous pouvez utiliser la structure de données qui est contenue dans les modèles
 
 Les étapes suivantes illustrent la création d'une fiche article d'un modèle données d'article. Vous pouvez créer un enregistrement à partir de n'importe quel modèle de données en utilisant la même procédure.  
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Modèles configuration**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Modèles configuration**, puis choisissez le lien associé.  
 2. Sélectionnez le modèle **Article**, puis cliquez sur l'action **Modifier**. Pour plus d’informations, voir [Pour créer un modèle de données](admin-use-templates-to-prepare-customer-data-for-migration.md#to-create-a-new-data-template).
 3. Sélectionnez l'action **Créer instance**. Une fiche article est créée.  
 4. Cliquez sur le bouton **OK**.  
-5. Pour vérifier la nouvelle fiche article, choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles**, puis sélectionnez le lien associé.  
+5. Pour vérifier la nouvelle fiche article, choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles**, puis choisissez le lien associé.  
 6. Ouvrez la nouvelle fiche article.  
 7. Affichez les différents raccourcis, et vérifiez que les informations les concernant ont été créées correctement.  
 

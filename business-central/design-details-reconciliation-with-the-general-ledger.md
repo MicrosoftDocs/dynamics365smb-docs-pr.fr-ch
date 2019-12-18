@@ -1,8 +1,6 @@
 ---
 title: Détails de conception - rapprochement de comptabilité | Microsoft Docs
 description: Cette rubrique décrit le rapprochement de comptabilité lorsque vous validez des mouvements de stock, tels que des expéditions vente, des productions ou des ajustements négatifs.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2d1d69b2aa03be59ec68e8198c794aca52ed7cb1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b87ff4652d8d73001c02c864efa638d80c8c9949
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306835"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880079"
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Détails de conception : rapprochement de comptabilité
 Lorsque vous validez des mouvements de stock, tels que des expéditions vente, des productions ou des ajustements négatifs, les modifications de quantité et de valeur des stocks sont enregistrées respectivement dans les écritures comptables article et les écritures valeur. L'étape suivante de ce processus consiste à valider les valeurs de stocks dans les comptes stocks de la comptabilité.  
@@ -84,7 +82,7 @@ Le tableau suivant montre la manière dont le centre de charge est paramétré s
     1. Les comptes d'attente sont supprimés. (Vente)  
     2. Le coût des biens vendus (COGS) est validé. (Vente)  
 
-        ![Résultats de la validation ventes sur les comptes généraux](media/design_details_inventory_costing_3_gl_posting_sales.png "Résultats de la validation ventes sur les comptes généraux")  
+        ![Résultats de la validation des ventes sur les comptes généraux](media/design_details_inventory_costing_3_gl_posting_sales.png "Résultats de la validation des ventes sur les comptes généraux")  
 5. L'utilisateur valide la consommation de 150 liens, qui est le nombre de liens utilisés pour produire une chaîne. (Consommation, Matière)  
 
     ![Résultats de la validation des matières sur les comptes généraux](media/design_details_inventory_costing_3_gl_posting_material.png "Résultats de la validation des matières sur les comptes généraux")  
@@ -102,7 +100,7 @@ Le tableau suivant montre la manière dont le centre de charge est paramétré s
     3. Le coût indirect (frais généraux) est transféré du compte des coûts indirects vers le compte stock. (Production)  
     4. Cela a pour résultat une quantité d'écart de 157,00 LCY. Les écarts sont uniquement calculés pour les articles de coût standard. (Production)  
 
-        ![Résultats de la validation de production sur les comptes généraux](media/design_details_inventory_costing_3_gl_posting_output.png "Résultats de la validation de production sur les comptes généraux")  
+        ![Résultats de la validation de la production sur les comptes généraux](media/design_details_inventory_costing_3_gl_posting_output.png "Résultats de la validation de la production sur les comptes généraux")  
 
         > [!NOTE]  
         >  Pour des raisons de simplicité, un seul compte écart est affiché. En réalité, cinq comptes différents existent :  

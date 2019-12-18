@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 11/07/2019
+ms.date: 12/03/2019
 ms.author: sgroespe
-ms.openlocfilehash: c64a14ed66668f8c3cbe09e8db3430a7dc25db5c
-ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
+ms.openlocfilehash: 1d0b7b7363df88e52631b4ba6e2f495be13f7397
+ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "2774834"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2896172"
 ---
 # <a name="create-users-according-to-licenses"></a>Créer des utilisateurs en fonction des licences
 La section suivante explique comment, en tant qu’administrateur, créer des utilisateurs et définir qui peut se connecter à [!INCLUDE[d365fin](includes/d365fin_md.md)], et quels droits fondamentaux différents types d’utilisateurs ont selon les licences.
@@ -34,14 +34,17 @@ Pour définir qui peut se connecter à [!INCLUDE[d365fin](includes/d365fin_md.md
 
 Pour plus d'informations, voir [Administration de Business Central Online ](/dynamics365/business-central/dev-itpro/administration/tenant-administration)dans Aide dédiée à l'équipe IT et aux développeurs.
 
-Une fois les utilisateurs disposant d'une licence [!INCLUDE[d365fin](includes/d365fin_md.md)] créés dans Office 365, ils peuvent être importés sur la page **Utilisateurs** dans [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide de l'action **Récupérer des utilisateurs à partir d'Office 365**.
+Une fois les utilisateurs disposant d'une licence [!INCLUDE[d365fin](includes/d365fin_md.md)] créés dans Office 365, ils peuvent être importés dans la page **Utilisateurs** dans [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide de l'action **Obtenir de nouveaux utilisateurs à partir de Office 365**.
 
 ### <a name="to-add-a-user-in-business-central"></a>Pour ajouter un utilisateur dans Business Central
 Pour ajouter des utilisateurs à partir du Centre d’administration Microsoft 365 à [!INCLUDE[d365fin](includes/d365fin_md.md)] en ligne, vous utilisez une fonction d'importation dédiée.  
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Utilisateurs**, puis sélectionnez le lien associé.
-2. Sélectionnez l'action **Obtenir les utilisateurs d'Office 365**.
+2. Choisissez l'action **Obtenir de nouveaux utilisateurs à partir de Office 365**.
 
 Tout nouvel utilisateur créé pour votre abonnement Office 365 est ajouté à la page **Utilisateurs**. Des ensembles d'autorisations sont affectés aux utilisateurs selon la licence qui leur est affectée dans Office 365. Vous pouvez ensuite affecter des autorisations plus détaillées aux utilisateurs et les organiser en groupes d'utilisateurs pour faciliter la gestion des autorisations. Pour en savoir plus, voir [Pour affecter des ensembles d'autorisations à des utilisateurs](ui-define-granular-permissions.md#to-assign-permission-sets-to-users).
+
+> [!NOTE]
+> Si vous utilisez un comptable externe pour gérer votre comptabilité et vos états financiers, vous pouvez les inviter dans votre Business Central afin qu'ils puissent travailler avec vous et utiliser vos données fiscales. Pour plus d'informations, voir [Inviter votre comptable externe dans votre Business Central](finance-accounting.md#inviteaccountant)
 
 ### <a name="to-remove-a-users-access-to-the-system"></a>Pour supprimer l'accès d'un utilisateur au système
 Dans les déploiement en ligne, vous pouvez supprimer l'accès d'un utilisateur au système en définissant le champ **État** sur **Désactivé**. Toutes les références à l'utilisateur seront conservées, mais il ne pourra plus se connecter au système et ses sessions actives seront terminées.
@@ -50,22 +53,38 @@ Dans les déploiement en ligne, vous pouvez supprimer l'accès d'un utilisateur 
 2. Ouvrez la page **Fiche utilisateur** pour l'utilisateur concerné, puis, dans le champ **État**, sélectionnez **Désactivé**.
 3. Pour donner à nouveau accès à l'utilisateur, définissez le paramètre du champ **État** sur **Activé**.
 
-En plus de désactiver un utilisateur, vous pouvez annuler l'attribution de la licence d'un utilisateur du Centre d'administration Office 365. L'utilisateur ne peut alors plus se connecter. Pour plus d'informations, voir [Annuler l'attribution de licences aux utilisateurs ](https://docs.microsoft.com/office365/admin/manage/remove-licenses-from-users).
+En plus de désactiver un utilisateur, vous pouvez annuler l'attribution de la licence d'un utilisateur dans le Centre d'administration Microsoft 365. L'utilisateur ne peut alors plus se connecter. Pour plus d'informations, voir [Annuler l'attribution de licences aux utilisateurs ](https://docs.microsoft.com/office365/admin/manage/remove-licenses-from-users).
 
 ### <a name="to-change-the-assigned-license-for-a-user"></a>Pour changer la licence attribuée à un utilisateur
 Parfois, vous devrez peut-être modifier la licence attribuée à un utilisateur. Par exemple, si vous décidez d'utiliser le module Gestion des services et que vous devez par conséquent mettre à niveau toutes les licences Essential vers Premium. Ou si la responsabilité d'un utilisateur a changé et que vous devez remplacer une licence de membre d'équipe par Essential.
 
-1. Changez la licence dans le Centre d'administration Office 365. Pour plus d'informations, voir [Ajouter des utilisateurs individuellement ou en bloc à Office 365](https://aka.ms/CreateOffice365Users).
+1. Changez la licence dans le Centre d'administration Microsoft 365. Pour plus d'informations, voir [Ajouter des utilisateurs individuellement ou en bloc à Office 365](https://aka.ms/CreateOffice365Users).
 2. Connectez-vous à [!INCLUDE[d365fin](includes/d365fin_md.md)] en tant qu'administrateur.
 3. Choisissez l'icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Utilisateurs**, puis sélectionnez le lien associé.
 4. Sur la page **Utilisateurs**, sélectionnez l'option **Actualiser tous les groupes d'utilisateurs**.
+
 Les utilisateurs sont déplacés vers un groupe d'utilisateurs approprié et les ensembles d'autorisations sont mis à jour. Pour plus d'informations, voir [Pour gérer les autorisations via les groupes d'utilisateurs](ui-define-granular-permissions.md#to-manage-permissions-through-user-groups).
 
 > [!NOTE]
 > Tous les utilisateurs réguliers d'une solution doivent se voir attribuer la même licence, Essential ou Premium.
 > Pour obtenir des informations sur la gestion des licences, voir [Guide des licences Microsoft Dynamics 365 Business Central](https://aka.ms/BusinessCentralLicensing).
 
-## <a name="managing-users-and-licenses-in-online-deployments"></a>Gestion des utilisateurs et des licences dans les déploiements en ligne
+### <a name="synchronization-with-office-365"></a>Synchronisation avec Office 365
+Lorsqu'une licence est attribuée à un utilisateur dans Office 365, il existe deux façons de créer l'utilisateur dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Le système le fait automatiquement lorsque l'utilisateur se connecte pour la première fois, ou l'administrateur peut ajouter l'utilisateur en choisissant l'action **Récupérer des utilisateurs à partir de Office 365** dans la page **Utilisateurs**.
+
+Dans les deux cas, plusieurs paramètres supplémentaires sont configurés automatiquement. Ceux-ci sont répertoriés dans les deuxième et troisième colonnes du tableau ci-dessous.
+
+Si vous modifiez par la suite l'utilisateur dans Office 365 et si vous devez synchroniser les modifications dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez effectuer différentes actions sur la page **Utilisateurs** en fonction de ce que vous souhaitez synchroniser. Celles-ci sont répertoriées dans les trois dernières colonnes du tableau ci-dessous.
+
+|Ce qui se produit dans les cas suivants :|Première connexion|Récupérer des utilisateurs à partir de Office 365|Mettre à jour les utilisateurs à partir de Office 365|Restaurer les groupes d'utilisateurs par défaut de l'utilisateur|Actualiser les groupes d'utilisateurs|
+|-|-|-|-|-|-|
+|Portée :|Utilisateur actuel|Nouveaux utilisateurs dans Office 365|Plusieurs utilisateurs sélectionnés|Un seul utilisateur sélectionné (sauf l'utilisateur actuel)|Plusieurs utilisateurs sélectionnés|
+|Créez le nouvel utilisateur et attribuez le jeu d'autorisations SUPER.<br /><br />Plateforme|**X**|**X**| | | |
+|Mettez à jour l'enregistrement utilisateur en fonction des informations réelles dans Office 365 : État, Nom complet, E-mail du contact, E-mail d'authentification.<br /><br />Codeunit "Azure AD   Graph User".UpdateUserFromAzureGraph|**X**|**X**|**X**|**X**| |
+|Synchronisez les plans utilisateur (licences) avec les licences et les rôles attribués dans Office 365.<br /><br />Codeunit "Azure AD   Graph User".UpdateUserPlans|**X**|**X**| |**X**|**X**|
+|Ajoutez l'utilisateur aux groupes d'utilisateurs en fonction des plans utilisateur actuels. Révoquez l'ensemble d'autorisations SUPER. (Au moins une autorisation SUPER est nécessaire. Ne révoquez pas à partir des [administrateurs](/dynamics365/business-central/dev-itpro/administration/tenant-administration).)<br /><br />Codeunit « Gestionnaire des autorisations ». AddUserToDefaultUserGroups|**X**|**X**| |**X**<br /><br />Remplacement : supprimez l'utilisateur des autres groupes. Supprimez manuellement les ensembles d'autorisations attribués.|**X**<br /><br />Ajout : conservez l'appartenance actuelle au groupe d'utilisateurs et les ensembles d'autorisations attribués intacts. N'ajoutez un utilisateur aux groupes que si cela est nécessaire.|
+
+## <a name="managing-users-and-licenses-in-on-premises-deployments"></a>Gestion des utilisateurs et des licences dans les déploiements sur site
 Pour les déploiements sur site, un certain nombre d'utilisateurs sous licence est spécifié dans le fichier de licence (.flf). Lorsque l'administrateur ou le partenaire Microsoft télécharge le fichier de licence, l'administrateur peut spécifier les utilisateurs qui peuvent se connecter à [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 Pour les déploiements sur site, l’administrateur crée, édite et supprime les utilisateurs directement à partir de la page **Utilisateurs**.

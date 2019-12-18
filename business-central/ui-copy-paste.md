@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a77c5bcadb15cd1180fc102a1f15881d0cc5db5a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8c8714bc1f12b6fd4bf68124cf1797bfa89ece6b
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315675"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882269"
 ---
 # <a name="copy-and-paste-faq"></a>FAQ sur l'opération Copier et coller
 Vous pouvez copier une ou plusieurs lignes (enregistrements) dans une liste ou un champ unique sur une page, puis collez ce que vous avez copié dans la même page, une autre page, ou un document externe (comme Microsoft Excel et un e-mail Outlook). En raccourci, pour copier, appuyez sur CTRL+C (cmd+C dans macOS) sur votre clavier. Pour coller, appuyez sur CTRL+V (cmd+V dans macOS).
@@ -38,7 +38,7 @@ Pour copier une ligne unique, sélectionnez-la, puis appuyez sur Ctrl+C.
 
 Pour copier plusieurs lignes, vous pouvez :
 - Appuyer sur Ctrl+clic sur une autre ligne ou appuyer sur Maj+clic pour sélectionner la ligne et toutes les lignes entre les deux. Voir [Raccourcis clavier](keyboard-shortcuts.md#CopyRows) pour plusieurs combinaisons souris et clavier pour sélectionner des lignes.
-- Sélectionnez ![Afficher plus d'options](media/show-more-options-icon.png "icône Afficher plus d'options") dans la première colonne, sélectionnez **Sélectionner davantage**, activez la case à cocher à côté de chaque ligne à copier, puis appuyez sur Ctrl+C.
+- Sélectionnez ![Afficher plus d'options](media/show-more-options-icon.png "Icône Afficher plus d'options") dans la première colonne, sélectionnez **Sélectionner davantage**, activez la case à cocher à côté de chaque ligne à copier, puis appuyez sur Ctrl+C.
 
 ## <a name="how-do-i-paste-rows"></a>Comment coller des lignes ?
 Sélectionnez une ligne vide, avec le focus dans n'importe quelle cellule, puis appuyez sur Crtl+V.
@@ -56,7 +56,7 @@ Oui. Le collage s'effectue dans un tableau convivial qui conserve l'indentation,
 ## <a name="in-which-lists-can-i-copy-and-paste-rows"></a>Dans quelles listes puis-je copier et coller des lignes ?
 Vous pouvez copier des lignes dans tout type de liste, y compris les feuilles de calcul, les récapitulatifs, ou les listes qui sont incorporées sur une page (telles que les lignes d'une commande vente). Toutefois, pour coller des lignes, la liste doit être modifiable.
 
-Dans certaines pages, la conception de l'application peut vous empêcher de coller des lignes. Contactez votre administrateur ou développeur d'application pour modifier la [propriété modifiable](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-editable-property) dans la page ou la [propriété PasteIsValid](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-pasteisvalid-property) du tableau source.
+Dans certaines pages, la conception de l'application peut vous empêcher de coller des lignes. Contactez votre administrateur ou développeur d'application pour modifier la [propriété modifiable](/dynamics365/business-central/dev-itpro/developer/properties/devenv-editable-property) dans la page ou la [propriété PasteIsValid](/dynamics365/business-central/dev-itpro/developer/properties/devenv-pasteisvalid-property) du tableau source.
 
 ## <a name="on-which-clients-is-copy-and-paste-available"></a>Sur quels clients la fonction Copier/Coller est-elle disponible ?
 La fonction Copier/Coller est disponible dans le navigateur ou l'application [!INCLUDE[d365fin](includes/d365fin_md.md)] Windows 10.

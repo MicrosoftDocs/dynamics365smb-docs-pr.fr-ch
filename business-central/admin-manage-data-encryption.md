@@ -1,8 +1,6 @@
 ---
 title: Gérer le chiffrement des données | Microsoft Docs
 description: Vous pouvez chiffrer les données sur Business Central Server en générant de nouvelles clés de cryptage ou en important de existantes que bous activez sur le serveur.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3199e044a85377284c97cdebf18907bdf429f649
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4ff0778bce5d995261892c4f98235661a795baa0
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304483"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879193"
 ---
 # <a name="managing-data-encryption"></a>Gestion du chiffrement des données
 Vous pouvez chiffrer des données sur le serveur [!INCLUDE[d365fin](includes/d365fin_md.md)] en générant de nouvelles clés de chiffrement ou en important des clés existantes que vous activez sur l'instance du serveur [!INCLUDE[d365fin](includes/d365fin_md.md)] qui est connectée à la base de données.

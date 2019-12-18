@@ -1,8 +1,6 @@
 ---
 title: Configurer la tarification et les coûts des services | Microsoft Docs
 description: Découvrez comment configurer les prix et les frais supplémentaires des services.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: service, cost, service order
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 74f2cfce207fbc32aad1dc835ead2588e2aa62c1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 58c54fd68d291a5d07765a57002e0918df78a1f3
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311851"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877391"
 ---
 # <a name="set-up-pricing-and-additional-costs-for-services"></a>Configurer la tarification et les frais supplémentaires pour les services
 Les fonctions de tarification de [!INCLUDE[d365fin](includes/d365fin_md.md)] permettent de configurer et de personnaliser votre application afin d'appliquer et d'ajuster la tarification des articles de service, réparations et commandes. Les décisions en matière de tarification sont alors facilement transmises au processus de facturation.  
@@ -27,7 +25,7 @@ Selon les besoins de votre installation, vous pouvez configurer les groupes de p
 ## <a name="to-set-up-a-service-price-group"></a>Pour configurer des groupes tarifs de service
 Vous pouvez configurer des groupes contenant des articles de service qui doivent recevoir le même tarif service spécial. Vous pouvez affecter des groupes prix service à des articles de service sur les lignes article de service. Vous pouvez aussi affecter des groupes prix service aux groupes articles de service.  
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Groupes tarifs service**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Groupes prix service**, puis sélectionnez le lien associé.  
 2. Créez un groupe tarifs service.  
 3. Renseignez les champs **Code** et **Désignation**.  
 4. Sélectionnez l'action **Configuration**.  
@@ -39,7 +37,7 @@ Vous pouvez configurer des groupes contenant des articles de service qui doivent
 ## <a name="to-set-up-a-service-price-adjustment-group"></a>Pour configurer un groupe ajustement prix service  
 Vous pouvez configurer les groupes ajustement prix afin d'ajuster la tarification service des articles de service. Par exemple, vous pouvez configurer des groupes ajustement prix qui ajustent le prix du fret ou des pièces de rechange.  
   
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Groupes ajustement prix service**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Groupes ajustement prix service**, puis sélectionnez le lien associé.  
 2. Créez un groupe ajustement prix service.  
 3. Renseignez les champs **Code** et **Désignation**.  
 4. Dans le champ **Type**, saisissez le type de l'écriture que vous voulez ajuster.  
@@ -57,11 +55,11 @@ Vous pouvez configurer les groupes ajustement prix afin d'ajuster la tarificatio
 Lorsque vous utilisez des articles de service et des commandes service, vous devrez peut-être enregistrer des frais supplémentaires, tels que les frais de déplacement vers des zones de service spécifiques ou les frais forfaitaires. Lorsque vous créez une commande service, vous pouvez insérer ces coûts, et une ligne avec le type **Coût** sera ajoutée à la commande. Sinon, si vous souhaitez appliquer le coût à toutes les commandes service, vous pouvez configurer un coût par défaut. Par exemple, si vous souhaitez toujours appliquer des frais forfaitaires.
   
 ### <a name="to-set-up-service-costs"></a>Pour configurer des coûts service
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Coûts service**, puis sélectionnez le lien associé. 
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Coûts service**, puis sélectionnez le lien associé. 
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### <a name="to-specify-a-default-cost-for-service-orders"></a>Pour spécifier un coût par défaut pour les commandes service
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres service**, puis sélectionnez le lien associé. 
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres service**, puis sélectionnez le lien associé. 
 2. Dans le champ **Frais forfait. commande service**, sélectionnez le coût service approprié.
 
 ## <a name="see-also"></a>Voir aussi

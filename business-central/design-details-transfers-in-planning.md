@@ -1,8 +1,6 @@
 ---
 title: Détails de conception - Transferts de planification | Microsoft Docs
 description: Cette rubrique décrit comment utiliser des ordres de transfert comme source d'approvisionnement lors de la planification des niveaux de stock.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, transfer, sku, locations, warehouse
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 72a9455810b017510947b78e40c88116e9935d20
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 697630e03e3bbb59518ea3405524ad6de3765d7a
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306739"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880007"
 ---
 # <a name="design-details-transfers-in-planning"></a>Détails de conception : transferts de planification
 Les ordres de transfert sont également une source d'approvisionnement lorsque vous travaillez au niveau des points de stock. Lors de l'utilisation de plusieurs magasins (entrepôts), le système de réapprovisionnement de point de stock peut être défini sur Transfer, ce qui implique que le magasin est réapprovisionné en transférant des biens d'un autre magasin. Dans une situation avec plusieurs entrepôts, les sociétés peuvent avoir une chaîne de transferts où l'approvisionnement vers le magasin VERT est transféré à partir du magasin JAUNE, l'approvisionnement vers JAUNE est transféré depuis ROUGE et ainsi de suite. Au début de la chaîne, il existe un système de réapprovisionnement d'Ordre de fabrication ou d'achat.  
@@ -74,7 +72,7 @@ Même si la fonction Points de stock n'est pas utilisée, il est possible d'util
 
 Pour prendre en charge les transferts manuels, la planification analysera les ordres de transfert existants puis planifiera l'ordre dans lequel les magasins doivent être traités. En interne, le système de planification doit s'exécuter avec des points de stock temporaires indiquant les codes de niveau de transfert.  
 
-![Code niveau de transfert](media/nav_app_supply_planning_7_transfers7.png "Code niveau de transfert")  
+![Code niveau transfert](media/nav_app_supply_planning_7_transfers7.png "Code niveau transfert")  
 
 Si plusieurs transferts dans un magasin donné ont été créés, le premier ordre de transfert définit la direction de planification. Les transferts exécutés dans le sens inverse sont annulées.  
 
