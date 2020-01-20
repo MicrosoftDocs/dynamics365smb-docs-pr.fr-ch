@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 12/04/2019
+ms.date: 12/19/2019
 ms.author: sgroespe
-ms.openlocfilehash: 80fbd0a1024ae104fb6fc0921e1260c89a26debf
-ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
+ms.openlocfilehash: d5c9badf083352e04e118cd7ddc25e5a337e5686
+ms.sourcegitcommit: 53565fea987af861f3846e5c1e0e868c279aeb30
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896220"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2918229"
 ---
 # <a name="migrate-customer-data"></a>Migrer des données client
 Vous pouvez migrer les données client existantes d'un système ERP existant vers [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des outils de migration de données de RapidStart Services. Vous pouvez utiliser des fichiers Excel comme supports d’informations. Vous pouvez également déplacer manuellement les données en les entrant directement dans la société.
@@ -31,13 +31,13 @@ Lorsque vous créez une société, vous pouvez importer les paramètres d'une so
 > [!NOTE]  
 >  Vous ne pouvez pas renommer un fichier qui n'est pas déjà un package de configuration RapidStart Services comme fichier de package de configuration .rapidstart puis tenter de l'importer. Si vous essayez de faire cela, un message d'erreur vous parviendra.  
 
-Avant de commencer, vérifiez que vous vous trouvez dans le tableau de bord Responsable de l'implémentation de RapidStart Services.
+Avant de commencer, vous devez vous assurer que vous disposez d'une autorisation pour exécuter les objets RapidStart Services. Par exemple, vous pouvez disposer de l'ensemble d'autorisations SUPER, ou être un administrateur interne ou délégué. Nous vous recommandons également de vous trouver dans un tableau de bord avec des liens vers RapidStart Services, comme le tableau de bord Administration. Pour plus d'informations, voir [Pour changer de rôle](ui-change-basic-settings.md#to-change-the-role).  
 
 > [!IMPORTANT]  
->  Lorsque vous exportez et importez des packages de configuration entre deux bases de données de votre société, les bases de données doivent avoir le même schéma pour garantir la réussite du transfert de toutes les données. Cela signifie que les bases de données doivent avoir la même table et structure de champ, dans lesquelles les tables ont les mêmes clés primaires et les champs ont les mêmes codes et types de données.  
->   
+> Lorsque vous exportez et importez des packages de configuration entre deux bases de données de votre société, les bases de données doivent avoir le même schéma pour garantir la réussite du transfert de toutes les données. Cela signifie que les bases de données doivent avoir la même table et structure de champ, dans lesquelles les tables ont les mêmes clés primaires et les champs ont les mêmes codes et types de données.  
+>
 >  Vous pouvez importer un package de configuration qui a été exporté d'une base de données qui a un schéma différent que cette base de donnée cible. Toutefois, tous les tables ou champs du package de configuration manquants dans la base de données cible ne seront pas importés.
->   
+>
 > Les tables dont les clés primaires sont différents et les champs dont les types de données sont différents ne seront pas importés avec succès. Par exemple, si le package de configuration inclut une table **Client 50000** dont la clé primaire est **Code20** et que la base de données dans laquelle vous importez le package inclut la table **Compte bancaire client 50000** dont la clé primaire est **Code20 + Code 20**, les données ne seront pas importées.  
 
 1. Ouvrez la nouvelle société.  
@@ -56,7 +56,11 @@ Avant de commencer, vérifiez que vous vous trouvez dans le tableau de bord Resp
 Si la sélection de tables ne répond pas à vos besoins, vous pouvez créer un ou plusieurs fichiers de migration de données. Si les fichiers suffisent, vous pouvez continuer avec la migration de données à l’aide des fichiers Excel ou XML.
 
 ## <a name="to-create-a-data-migration-file"></a>Pour créer un fichier de migration de données
-Vous pouvez créer de nouveaux fichiers de migration de données et les personnaliser pour prendre en charge les processus de l'entreprise. Notez qu'un fichier peut uniquement être utilisé pour migrer un champ dont la propriété **FieldClass** est définie sur **Normal**.  
+
+Vous pouvez créer de nouveaux fichiers de migration de données et les personnaliser pour prendre en charge les processus de l'entreprise.  
+
+> [!TIP]
+> Un fichier ne peut être utilisé que pour migrer un champ dont la propriété **FieldClass** est définie sur **Normal**.  
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Package configuration**, puis choisissez le lien associé.  
 2. Sélectionnez et ouvrez le package que vous souhaitez utiliser pour migrer les données, puis sélectionnez l'action **Extraire tables**. La page **Extraire tables package** s’ouvre.  

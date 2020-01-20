@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 11/15/2019
+ms.date: 12/17/2019
 ms.author: sgroespe
-ms.openlocfilehash: e1f24e6da71d32e162b107b0e0b9e01cb68cc302
-ms.sourcegitcommit: 23577ae8ecaaf09b58716c2b9f65e39c188e3661
+ms.openlocfilehash: df0956167908c214385b40e3ccb2f20a10d4458b
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2810828"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910847"
 ---
 # <a name="set-up-email"></a>Configurer la messagerie
 Pour recevoir et envoyer des e-mails dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous devez renseigner les champs sur la page Paramétrage courrier SMTP.
@@ -30,7 +30,7 @@ Vous pouvez configurer la messagerie manuellement, comme décrit ci-dessous, ou 
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]
-    > Si vous utilisez un compte nécessitant une authentification à deux facteurs, le mot de passe que vous entrez dans le champ **Mot de passe** doit être le même que celui que vous utilisez pour votre abonnement Office 365 et il doit être de type **Mot de passe de l'application**. Pour plus d'informations, voir [Gérer les mots de passe d'application pour la vérification en deux étapes](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords). 
+    > Si vous utilisez un compte nécessitant une authentification à deux facteurs, le mot de passe que vous entrez dans le champ **Mot de passe** doit être le même que celui que vous utilisez pour votre abonnement Office 365 et il doit être de type **Mot de passe de l'application**. Pour plus d'informations, voir [Gérer les mots de passe d'application pour la vérification en deux étapes](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords).
 3. Sinon, choisissez l'option **Appliquer les paramètres du serveur Office 365** pour insérer les informations déjà définies pour votre abonnement Office 365.
 4. Lorsque tous les champs sont correctement renseignés, choisissez **Tester paramétrage e-mail**.
 5. Une fois le test réussi, fermez la page.
@@ -51,7 +51,7 @@ Voici des exemples d'utilisation des fonctionnalités Envoyer en tant que et Env
 2. Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramétrage courrier SMTP**, puis sélectionnez le lien associé.
 3. Dans le champ **Envoyer en tant que**, entrez l'adresse de substitution.
 4. Copiez ou notez l'adresse dans le champ **ID utilisateur**.
-5. Dans le **Centre d'administration Exchange**, recherchez la boîte aux lettres à utiliser en tant qu'adresse de substitution, puis entrez l'adresse à partir du champ **ID utilisateur** dans le champ **Envoyer en tant que**. Pour en savoir plus, reportez-vous à [Gérer les autorisations des destinataires](/Exchange/recipients/mailbox-permissions?view=exchserver-2019#use-the-eac-to-assign-permissions-to-individual-mailboxes).
+5. Dans le **Centre d'administration Exchange**, recherchez la boîte aux lettres à utiliser en tant qu'adresse de substitution, puis entrez l'adresse à partir du champ **ID utilisateur** dans le champ **Envoyer en tant que**. Pour plus d'informations, voir [Utiliser l'EAC pour attribuer des autorisations à des boîtes aux lettres individuelles](/Exchange/recipients/mailbox-permissions?view=exchserver-2019#use-the-eac-to-assign-permissions-to-individual-mailboxes).
 
 ### <a name="to-use-the-substitute-address-in-approval-workflows"></a>Pour utiliser l'adresse de substitution dans les flux de travaux d'approbation
 1. Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramétrage courrier SMTP**, puis sélectionnez le lien associé.

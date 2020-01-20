@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 11/07/2019
+ms.date: 12/17/2019
 ms.author: sgroespe
-ms.openlocfilehash: e8d55ffd434ff2c7666d0b90a5cfd091fc68a015
-ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
+ms.openlocfilehash: eb40c1d479267ba2e8111bd1183f2c7454a2bd16
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "2774858"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911148"
 ---
 # <a name="keyboard-shortcuts"></a>Raccourcis clavier
 Cet article fournit un aperçu de certaines combinaisons de touches de raccourcis que vous pouvez utiliser avec lorsque vous utilisez [!INCLUDE[prodshort](includes/prodshort.md)].
@@ -66,6 +66,7 @@ Le tableau suivant décrit les raccourcis clavier pour naviguer et accéder à d
 |Echap|Fermer la page actuelle ou la liste déroulante.|
 |Tab|Déplacer le focus sur le contrôle ou l'élément suivant d'une page, par exemple les actions, les boutons, les champs ou les en-têtes d'une liste.|
 |MAJ+Tab|Déplacer le focus sur le contrôle ou l'élément précédent d'une page, par exemple les actions, les boutons, les champs ou les en-têtes d'une liste.|
+|O et N|Activer les boutons **Oui** et **Non** dans les boîtes de dialogue. Diverses versions linguistiques sont prises en charge. Par exemple, en Allemagne, appuyez sur J pour activer le bouton **Ja** (Oui).|
 
 ## <a name="keyboard-shortcuts-in-lists"></a>Raccourcis clavier dans les listes
 
@@ -141,6 +142,7 @@ Les raccourcis suivants sont disponibles sur les pages Fiche, telles que **Fiche
 |Alt+N |Ouvrir une page pour créer un nouvel enregistrement ; de la même façon qu'en sélectionnant l'action **Nouveau**. |
 |Alt+Maj+N |Fermer une page et en ouvrir une nouvelle pour créer un enregistrement, de la même façon qu'en sélectionnant l'action **OK & Nouveau**. |
 |Alt+Maj+W |Ouvrir la fiche ou le document en cours dans une nouvelle fenêtre. Pour plus d'informations, voir [Multitâche sur plusieurs pages ](ui-enter-data.md#multitasking-across-multiple-pages).|
+|Ctrl+Enter|Enregistrer et fermer la page.|
 |Ctrl+Flèche bas|Ouvrez le nouvel enregistrement pour une entité.|
 |Ctrl+Flèche haut |Ouvrez le précédent enregistrement pour une entité.|
 |Ctrl+Inser |Insérer une nouvelle ligne sur des documents.|

@@ -10,19 +10,25 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ae54c2f764deafe34df8d38e1213757ee9b05515
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: aade98d02744ef2e40b7d844c4bddea4d231fceb
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878596"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910823"
 ---
 # <a name="configure-new-companies"></a>Configurer de nouvelles sociétés
 Pour configurer une nouvelle société dans votre implémentation de la solution, vous suivez habituellement trois phases. Dans la première phase, vous importez le package configuration, un fichier .rapidstart avec les informations de configuration. Dans la deuxième phase, vous modifiez les informations de configuration, puis vous les appliquez à votre nouvelle société. Dans la phase finale, vous vérifiez et corrigez les erreurs.  
 
 Les procédures suivantes supposent que vous avez créé et enregistré un package configuration. Pour plus d’informations, voir [Préparer un package configuration](admin-how-to-prepare-a-configuration-package.md).  
 
-Les procédures suivantes supposent que vous avez initialisé et ouvert votre nouvelle société et que vous utilisez le tableau de bord Responsable de l'implémentation de RapidStart Services.
+Les procédures suivantes supposent que vous avez initialisé et ouvert votre nouvelle société et que vous utilisez le tableau de bord Administration.
+
+## <a name="before-you-import-a-configuration-package"></a>Avant d'importer un package de configuration
+Avant d'importer un package de configuration, il est judicieux de vérifier que les affirmations suivantes sont respectées. Sinon, vous ou votre client ne pourrez pas importer le package de configuration.
+
+* Votre licence inclut les tables que vous mettez à jour. En cas de doute, la page **Feuille configuration** peut vous aider. Si votre licence inclut les tables, le champ **Table sous licence** est coché.  
+* L'utilisateur qui importe le package de configuration dispose des autorisations effectives d'insertion et de modification sur toutes les tables que le package va mettre à jour. Pour plus d'informations, voir [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md). 
 
 ## <a name="to-import-a-configuration-package"></a>Pour importer un package configuration  
 1. Ouvrez la nouvelle société dans la base de données [!INCLUDE[d365fin](includes/d365fin_md.md)].  

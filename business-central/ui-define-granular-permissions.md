@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 11/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: 03656014a2b7826008d415e53afbad2d88aac357
-ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
+ms.openlocfilehash: a162246fcd0a6f3db07922cc100e21aacbc76fbe
+ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2809363"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2943224"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Attribuer des autorisations aux utilisateurs et aux groupes
 Le système de sécurité de [!INCLUDE[d365fin](includes/d365fin_md.md)] vous permet de contrôler les objets auxquels un utilisateur peut accéder dans chaque base de données ou environnement. Vous pouvez spécifier pour chaque utilisateur s'il peut lire, modifier ou entrer des données dans les objets de base de données sélectionnés. Pour des informations détaillées, voir [Sécurité des données ](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level)dans Aide dédiée à l'équipe IT et aux développeurs pour [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -120,7 +120,7 @@ Dans chacun des cinq champs de types d'accès, **Lecture**, **Insertion**, **Mod
 |Option|Désignation|Priorité|
 |------|-----------|
 |**Oui**|L'utilisateur peut exécuter l'action sur l'objet en question.|Le plus élevé|
-|**Indirect**|L'utilisateur peut exécuter l'action sur l'objet en question mais uniquement via un autre objet associé auquel l'utilisateur a un accès total.|Deuxièmement plus élevé|
+|**Indirect**|L'utilisateur peut exécuter l'action sur l'objet en question mais uniquement via un autre objet associé auquel l'utilisateur a un accès total. Pour plus d'informations sur les autorisations indirectes, voir [Propriété Autorisations](/dynamics365/business-central/dev-itpro/developer/properties/devenv-permissions-property) dans l'aide pour les développeurs et IT-Pro|Deuxièmement plus élevé|
 |**Vide**|L'utilisateur ne peut pas exécuter l'action sur l'objet en question.|Le moins élevé|
 
 ### <a name="example---indirect-permission"></a>Exemple- Autorisation indirecte

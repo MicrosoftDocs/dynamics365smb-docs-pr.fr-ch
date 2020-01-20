@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: print check, customize
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: d4818c9dfe96f7e890d84a16c717d4451f56497a
-ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
+ms.openlocfilehash: 137d44db160d0f1e832cc344a779e6bf01a64bbd
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2808592"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911158"
 ---
 # <a name="select-a-check-layout"></a>Sélectionner une mise en page de chèque
 Vous pouvez concevoir vos chèques de sorte à respecter les normes fixées par les autorités locales. Vous pouvez imprimer des images de chèques en anglais, en français ou en espagnol.
@@ -41,7 +41,7 @@ Pour modifier l'une de ces mises en page de chèque par défaut, utilisez l'int�
 ## <a name="see-also"></a>Voir aussi
 [Créer et modifier des présentations de rapport personnalisées](ui-how-create-custom-report-layout.md)  
 [Gestion des comptes fournisseur](payables-manage-payables.md)  
-[Gestion des comptes bancaires](bank-manage-bank-accounts.md)   
+[Rapprochement de comptes bancaires](bank-manage-bank-accounts.md)   
 [Exécution des processus de clôture d'exercice](year-how-complete-period-end-processes.md)  
 [Utilisation de [!INCLUDE[prodshort](includes/prodshort.md)]](ui-work-product.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)

@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 12/06/2019
+ms.date: 12/12/2019
 ms.author: edupont
-ms.openlocfilehash: 4df167f27fc9fe456cece9c8738fa5f3aff8338c
-ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
+ms.openlocfilehash: cb470cd72c3352ca5de9fc27264b30b67abbadec
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896200"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910943"
 ---
 # <a name="frequently-asked-questions"></a>Forum Aux Questions
 
@@ -111,7 +111,7 @@ Si vous souhaitez des conseils de Microsoft, contactez l'[Équipe commerciale Mi
 Votre partenaire revendeur gèrera aussi le support technique pour votre compte. Pour plus d'informations, reportez-vous à la rubrique [Ressources pour l'aide et l'assistance technique](product-help-and-support.md).
 
 ## <a name="is-the-windows-client-supported"></a>Le client Windows est-il pris en charge ?
-Un client dérivé de Microsoft Dynamics NAV était installé dans les premières versions de [!INCLUDE[prodshort](includes/prodshort.md)]. À partir de la 2e vague de publication 2019, ce composant hérité, appelé « le client Windows », ne sera plus disponible pour [!INCLUDE[prodshort](includes/prodshort.md)]. Pour plus d'informations, voir [FAQ sur le client Windows et Business Central](/dynamics365/business-central/dev-itpro/across-faq-win-cli).
+Un client dérivé de Microsoft Dynamics NAV était installé dans les premières versions de [!INCLUDE[prodshort](includes/prodshort.md)]. À partir de la 2e vague de publication 2019, ce composant hérité, appelé « le client Windows », ne sera plus disponible pour [!INCLUDE[prodshort](includes/prodshort.md)]. Pour plus d'informations, voir [FAQ sur le client Windows et Business Central](/dynamics365/business-central/dev-itpro/faq-win-cli).
 
 ## <a name="see-also"></a>Voir aussi
 [Mise en route](product-get-started.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8f333831c4e8aac1ba0eb4939131a9d80347441d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4fc9ffe9205e8f075f1b133686c2b869495bf42a
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304651"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910871"
 ---
 # <a name="gather-customer-setup-values"></a>Collecter les valeurs de configuration client
 Vous pouvez utiliser le questionnaire de configuration pour réduire la charge de travail d'implémentation en rationalisant la tâche de configuration de la nouvelle société. Vous pouvez générer le questionnaire de configuration dans [!INCLUDE[d365fin](includes/d365fin_md.md)], puis le fournir à votre client sous forme de fichier Excel ou XML.  
@@ -29,6 +29,11 @@ Lorsque le client remplit le questionnaire, vous importez le fichier dans la nou
 
 ## <a name="to-create-a-configuration-questionnaire"></a>Pour créer un questionnaire de configuration
 Vous pouvez utiliser un questionnaire pour vous aider à déterminer la portée et les besoins de la configuration. Vous pouvez créer un questionnaire ou modifier un questionnaire existant en y ajoutant de nouvelles questions ou zones de questions.  
+
+<!-- A configuration questionnaire has the following structure
+* The name of the questionnaire itself
+* Question Areas that group questions about a similar subject. For example, you might create a question area that focuses on entering company informtion. Typically, configuration questionnaires have many question groups
+* Questions that are closed ended, meaning that the customer must choose an answer, and can choose only one. -->
 
  Vous pouvez créer des questionnaires uniquement pour les tables de type paramétrage. Par exemple, vous pouvez utiliser cet outil pour entrer des informations dans les pages suivantes :  
 
@@ -45,10 +50,33 @@ Vous pouvez utiliser un questionnaire pour vous aider à déterminer la portée 
 -   Paramètres entrepôt  
 
 > [!NOTE]  
->  Pour visualiser la liste complète des tables de configuration, choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres**, puis sélectionnez le lien associé. Pour déterminer la portée de la migration des données d'enregistrements, utilisez la fonctionnalité de migration. Pour plus d'informations, voir [Migration des données client](admin-migrate-customer-data.md).  
+>  Pour afficher la liste complète des tables de configuration, choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Configuration**, puis sélectionnez le lien associé. Pour déterminer la portée de la migration des données d'enregistrements, utilisez la fonctionnalité de migration. Pour plus d'informations, voir [Migration des données client](admin-migrate-customer-data.md).  
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Questionnaire configuration**, puis sélectionnez le lien associé.  
-2. Sélectionnez l'action **Nouveau**. La page **Questionnaire config.** s'ouvre.  
+2. Sélectionnez l'action **Nouveau**.   
+3. Sur la page **Questionnaire configuration**, dans le champ **Code**, saisissez... 
+<!--4. In the **Name** field, enter...
+5. Choose the **Question Areas** action. .
+6. On the **Config. Question Areas** page, in the **Code** field, enter...
+  
+    > [!Note]  
+    > The code is alphanumeric, and must start with a letter of the alphabet.
+7. In the Table ID field, choose the table to which to apply the answer to the question. Your selection will determine the fields that are available for the questions, and thereby the answer selections.
+  
+    > [!Tip]
+    > The list of table objects is long. If you know the name of the table, use **Search** in the upper left to find it in the list.
+8. In the **Description** field, enter text that indicates the subject of the question group.
+9. In the **No.** field, enter a number to define where the question appears in the sequence of questions.
+10. In the **Field ID** field, choose the field the the customer's answer will be applied to. You can choose from the fields on the table you chose in the **Table ID** field.
+  
+    When you choose a field, [!INCLUDE[d365fin](includes/d365fin_md.md)] provides a suggestion in the **Question** field. You can edit the question if needed.
+11. To add more questions to the questionnaire, repeat steps seven through 10.
+
+> [!Tip]
+> If at some point you change a question, or add a new one, choose the **Update Questions** action to update the list.
+
+-->
+
 3. Sélectionnez l'action **Zones question**. La page **Zones question** s'ouvre.  
 4. Sélectionnez l'action **Nouveau**. La page **Zones question config.** s'ouvre.  
 5. Dans le champ **ID table**, sélectionnez l'ID de la table pour laquelle vous souhaitez collecter des informations. Le champ **Nom table** est automatiquement renseigné.  
@@ -111,7 +139,7 @@ Après avoir importé et validé les informations à partir d'un questionnaire d
 - Pour appliquer les réponses d'une **Zone question** spécifique, sélectionnez l'action **Zones question**, sélectionnez une **Zone question** dans la liste, puis sélectionnez l'action **Appliquer réponses**.  
 
 ### <a name="to-verify-that-answers-have-been-applied-successfully"></a>Pour vérifier que les réponses ont été correctement appliquées  
-1. Vérifiez les pages de paramétrage des différents modules de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour rechercher la page, choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez le nom de la page de configuration, puis sélectionnez le lien associé.  
+1. Vérifiez les pages de paramétrage des différents modules de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour localiser la page, choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez le nom de la page de configuration, puis sélectionnez le lien associé.  
 2. Vérifiez que les champs ont été renseignés à l'aide des données appropriées à partir des diverses zones de questions du questionnaire de configuration.  
 
 Vous avez maintenant effectué le paramétrage à l'aide des informations commerciales et des règles du client.

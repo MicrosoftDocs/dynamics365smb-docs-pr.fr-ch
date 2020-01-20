@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 10/24/2019
+ms.date: 01/13/2020
 ms.author: jswymer
-ms.openlocfilehash: 99fe339426b755b70983d8ec9345858357043347
-ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
+ms.openlocfilehash: 9fd5c6c242932d75addcfa5c1811bdd1aff99a94
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2808760"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953071"
 ---
 # <a name="viewing-and-editing-in-excel-from-business-central"></a>Affichage et édition dans Excel depuis Business Central
 
@@ -25,9 +25,9 @@ Avec des pages qui affichent une liste d'enregistrements dans des lignes et des 
 
 - Avec cette action, Excel tient compte de tous les filtres de la page qui limitent les enregistrements affichés. Cela signifie que le classeur Excel contiendra les mêmes lignes et colonnes figurant sur la page dans [!INCLUDE[prodshort](includes/prodshort.md)].
 
-- Vous pouvez apporter des modifications à des enregistrements dans Excel, mais vous ne pouvez pas publier les modifications dans [!INCLUDE[prodshort](includes/prodshort.md)]. Vous ne pouvez enregistrer les modifications apportées au fichier Excel que sur votre ordinateur. 
+- Vous pouvez apporter des modifications à des enregistrements dans Excel, mais vous ne pouvez pas publier les modifications dans [!INCLUDE[prodshort](includes/prodshort.md)]. Vous ne pouvez enregistrer les modifications apportées au fichier Excel que sur votre ordinateur.
 
-- Cette action fonctionne sur Windows et macOS. 
+- Cette action fonctionne sur Windows et macOS.
 
 > [!NOTE]
 > Pour [!INCLUDE[prodshort](includes/prodshort.md)] sur site, l'action **Ouvrir dans Excel** est disponible par défaut. Cependant, si vous configurez [!INCLUDE [prodshort](includes/prodshort.md)]sur site pour la modification de données dans Excel, l'action **Ouvrir dans Excel** est alors remplacée par l'action **Modifier dans Excel**.
@@ -48,10 +48,12 @@ Cela a été amélioré dans la deuxième vague de publication 2019. Pour plus d
 > [!NOTE]
 > Pour [!INCLUDE[prodshort](includes/prodshort.md)]sur site, cette fonctionnalité est uniquement disponible pour le client Web.
 
-### <a name="see-the-differences-between-the-options"></a>Voir les différences entre les options 
+### <a name="see-the-differences-between-the-options"></a>Voir les différences entre les options
 <br><br>  
 
 > [!Video https://go.microsoft.com/fwlink/?linkid=2086039]
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Voir aussi
 [Utilisation de Business Central](ui-work-product.md)  

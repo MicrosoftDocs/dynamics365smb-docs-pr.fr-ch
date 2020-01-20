@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: ecceb1fc9ccc5245ef5305d9723f26e6270de79e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5f6f62e146f6799cad552e60b399f74636091ea7
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311443"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953338"
 ---
 # <a name="change-basic-settings"></a>Modifier les paramètres de base
 
@@ -30,7 +30,7 @@ Le tableau de bord représente la page d'accueil, un écran de démarrage conçu
 
 ### <a name="to-change-the-role"></a>Pour modifier le rôle
 Le rôle par défaut est **Gestionnaire d'activité**, mais vous pouvez sélectionner un autre rôle pour utiliser un Tableau de bord qui correspond mieux à vos besoins.
-1. Dans le coin supérieur droit, sélectionnez l'icône **Paramètres** ![Paramètres](media/ui-experience/settings_icon_small.png "Icône Paramètres du tableau de bord"), puis sélectionnez l'action **Mes paramètres**.
+1. Dans le coin supérieur droit, sélectionnez l'icône **Paramètres** ![Paramètres](media/ui-experience/settings_icon_small.png "Icône Paramètres du tableau de bord"), puis choisissez l'action **Mes paramètres**.
 2. Sur la page **Mes paramètres**, dans le champ **Rôle** , sélectionnez le rôle que vous souhaitez utiliser par défaut. Par exemple, sélectionnez **Comptable**.
 3. Cliquez sur le bouton **OK**.
 
@@ -42,14 +42,14 @@ La société par défaut est appelée CRONUS et contient uniquement des données
 ## <a name="to-change-the-company-name"></a>Pour changer le nom de la société
 Le nom de la société est toujours affiché dans le coin supérieur gauche et fonctionne comme une action que vous pouvez choisir pour revenir dans le Tableau de bord. Vous pouvez changer ce nom sur la page **Informations société**.
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Informations société**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Informations société**, puis sélectionnez le lien associé.
 2. Dans le champ **Nom**, saisissez le nom de la nouvelle société.
 3. Quittez la page. Le système redémarre et affiche la nouvelle société dans le coin supérieur gauche.
 
 ## <a name="to-display-a-company-badge-for-quick-access-to-company-information"></a>Pour afficher un badge d'entreprise pour un accès rapide aux informations de la société  
 Vous pouvez ajouter un badge personnalisé dans le coin supérieur droit, vous pouvez ensuite choisir d'afficher rapidement le nom de la société et les informations sur l'abonné dans une fenêtre contextuelle.
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Informations société**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Informations société**, puis sélectionnez le lien associé.
 2. Sur le raccourci **Badge société**, renseignez les champs, le cas échéant. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 
 > [!NOTE]
@@ -83,6 +83,8 @@ La langue initiale est déterminée par l'administrateur ou par les paramètres 
 
 ## <a name="changing-when-i-receive-notifications"></a>Modification lorsque je reçois des notifications
 Sélectionnez ce lien pour afficher ou modifier les notifications que vous recevez au sujet de certains événements ou modification de statut, lorsque vous êtes sur le point de facturer un client avec des écritures échues, ou lorsque le stock disponible est inférieur à la quantité que vous êtes sur le point de vendre. Pour plus d'informations, voir [Gérer les notifications](ui-smart-notifications.md).
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulespersonalize-ui-dynamics-365-business-centralindex"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Voir aussi
 [Création de sociétés](about-new-company.md)  

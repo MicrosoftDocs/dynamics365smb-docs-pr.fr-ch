@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/15/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 7a9389134c57d60999be2019a1e4394f8c3a00e5
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: ba71b9bfb23a4512e160e7b10aa065a1712aeb4d
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2876958"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953122"
 ---
 # <a name="update-custom-report-layouts"></a>Mettre à jour les présentations d'état personnalisées
 À l'occasion, vous pouvez être amené à mettre à jour une présentation d'état personnalisée qui est utilisée dans un état. Cela est nécessaire si une modification de conception a été apportée à l'ensemble de données de l'état, par exemple, si un champ utilisé dans la présentation a été supprimé de l'ensemble de données de l'état. Si une présentation de rapport requiert une mise à jour, vous obtiendrez un message d'erreur lorsque vous tentez de visualiser, d'imprimer ou d'enregistrer le rapport.  
@@ -60,7 +60,9 @@ Si aucune erreur ne se produit, la mise à jour est appliquée aux présentation
 
  Pour plus d'informations, voir [Créer et modifier une présentation de rapport personnalisée](ui-how-create-custom-report-layout.md#ModifyCustomLayout).  
 
- Une fois que vous avez modifié la présentation, essayez de mettre de nouveau à jour la présentation.  
+Une fois que vous avez modifié la présentation, essayez de mettre de nouveau à jour la présentation.  
+
+## <a name="see-related-training-at-microsoft-learnlearnmoduleschange-documents-dynamics-365-business-centralindex"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Voir aussi  
  [Gestion des présentations de rapport](ui-manage-report-layouts.md)  

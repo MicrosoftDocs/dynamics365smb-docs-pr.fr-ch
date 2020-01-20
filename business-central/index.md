@@ -7,14 +7,14 @@ ms.topic: landing-page
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/12/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: b640450df709320b961c042736edeed7554096c4
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 44a534a5de37ff1c85aca9f659e113c1b325b850
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882845"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953602"
 ---
 # <a name="welcome-to-included365fin_longincludesd365fin_long_mdmd"></a>Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] est une solution de gestion d'entreprise pour les PME qui automatise et simplifie les processus entreprise et vous aide à gérer votre entreprise. Hautement adaptable et riche en fonctionnalités, [!INCLUDE[d365fin](includes/d365fin_md.md)] permet aux entreprises de gérer leurs activités, y compris la finance, la fabrication, l'expédition, la gestion de projets, les services, etc. Celles-ci peuvent facilement ajouter des fonctionnalités adaptées aux types d'opérations exécutés et personnalisées pour une prise en charge des secteurs hautement spécialisés.
@@ -26,6 +26,8 @@ ms.locfileid: "2882845"
 |**Processus entreprise**|-   [Mise en route](product-get-started.md)<br />-   [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)<br />-   [Configuration [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)<br />-   [Administration](admin-setup-and-administration.md)<br />-   [Fonctionnalités d'entreprise](across-business-functionality.md)<br />-   [Fonctionnalités locales](LocalFunctionality/Austria/austria-local-functionality.md)<br />-   [Fonctionnalités marché](ui-across-business-areas.md)<br />-   [Procédures pas à pas liées au processus entreprise](walkthrough-business-process-walkthroughs.md)<br />-   [Détails de conception de l'application](design-details-application-design.md)|  
 |**Contenu dédié à l'équipe IT et aux développeurs**|-   [Aide dédiée à l'équipe IT et aux développeurs pour [!INCLUDE [prodshort](includes/prodshort.md)] ](/dynamics365/business-central/dev-itpro/index)<br />-   [Développement dans AL](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)<br />-   [Environnement de développement AL](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)<br />-   [Règles et instructions du code d'AL](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)|  
 |**Ressources de la communauté**|-   [Communauté Microsoft Dynamics 365 Business Central](https://community.dynamics.com/business)<br />-   [Microsoft Dynamics 365 Business Central dans le blog Dynamics 365](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)<br />-   Plans de versions [Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2047422)<br />-   [Feuille de route Microsoft Dynamics 365 Business Central](https://dynamics.microsoft.com/roadmap/business-central/)<br />-   [Microsoft Dynamics PartnerSource \(requiert un compte PartnerSource\)](https://mbs.microsoft.com/partnersource)<br />-   [Microsoft Partner Network \(requiert un compte d'adhésion Microsoft Partner Network\)](https://mspartner.microsoft.com/en/us/windows/index.aspx)|  
+
+## <a name="see-related-training-at-microsoft-learnlearnbrowseproductsdynamics-business-central"></a>Voir la formation associée sur [Microsoft Learn](/learn/browse/?products=dynamics-business-central)
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -41,4 +43,3 @@ ms.locfileid: "2882845"
 
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
-## [!INCLUDE[d365fin](includes/training_link_md.md)]

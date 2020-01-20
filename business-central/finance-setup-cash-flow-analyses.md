@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: bholtorf
-ms.openlocfilehash: 88b84c13da3b443714bcfb7cb86a52ee49264c64
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 8fc2bd353a80bf72f8bb9a0d282bec7c216fc0fa
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879504"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953722"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Configuration d'une analyse de trésorerie
 Si vous souhaitez de l'aide pour décider quelles opérations effectuer avec votre trésorerie, consultez les graphiques dans le tableau de bord Comptable :  
@@ -28,6 +28,9 @@ Si vous souhaitez de l'aide pour décider quelles opérations effectuer avec vot
 * **Prévisions de la trésorerie**  
 
 Cette rubrique décrit d'où proviennent les données dans les graphiques et, si nécessaire, quoi faire pour commencer à utiliser les graphiques.  
+<br><br>  
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mJhc]
 
 ## <a name="the-cash-cycle-and-income--expense-charts"></a>Les graphiques Cycle trésorerie et Revenus et dépenses
 Les graphiques **Cycle trésorerie** et **Revenus et dépenses** sont prêts à être utilisés, en fonction du plan comptable et des tableaux d'analyse. Les données sont issues de ces comptes, et les états financiers calculent les relations entre les ventes et les créances. Certains comptes et états financiers sont fournis. Vous pouvez les utiliser tels quels, les modifier, puis en ajouter de nouveaux. Si vous ajoutez des comptes généraux à votre plan comptable, par exemple, en les important de QuickBooks, vous devez les associer aux comptes sur la page **Tableaux d'analyse** pour les noms de tableaux d'analyse :  
@@ -90,6 +93,8 @@ Vous pouvez aussi utiliser votre propre service Web prévisionnel basé sur un m
 5. Notez l'URL d'API et la clé d'API. Vous allez utiliser ces informations d'identification pour une configuration de trésorerie.  
 6. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres trésorerie**, puis choisissez le lien associé.  
 7. Développez l'organisateur **Azure AI** et renseignez les champs.  
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesforecast-cash-flow-dynamics-365-business-centralindex"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Voir aussi
 [Analyse de la trésorerie dans votre société](finance-analyze-cash-flow.md)  

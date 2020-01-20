@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: SorenGP
-ms.openlocfilehash: 2d29bd0902ade38a1901899af475377e18089316
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 86ddde5339631915a997cbbebe63a3a2d6d68835
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309499"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952617"
 ---
 # <a name="setting-up-inventory"></a>Configuration de stock
 Avant de pouvoir gérer les activités entrepôt et les coûts de stock, vous devez configurer les règles et les valeurs qui définissent les stratégies de stock de la société.
@@ -38,6 +38,8 @@ Lorsque vous avez configuré votre stock, vous pouvez gérer différents process
 |En complément aux fiches article, enregistrer des informations relatives à vos articles dans un magasin spécifique ou d'une variante spécifique.|[Configurer des points de stock](inventory-how-to-set-up-stockkeeping-units.md)|
 | Affecter des articles aux catégories et leur donner des attributs pour vous aider, vous et vos clients, à trouver des articles. |[Catégoriser des articles](inventory-how-categorize-items.md) |
 |Importez plusieurs images d'article en une seule fois depuis un fichier zip où les fichiers sont nommés selon les numéros d'article.|[Importer plusieurs images d'article](inventory-how-import-item-pictures.md)|
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulestrade-get-started-dynamics-365-business-central"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion du stock](inventory-manage-inventory.md)  

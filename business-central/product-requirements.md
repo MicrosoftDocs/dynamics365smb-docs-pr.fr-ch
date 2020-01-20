@@ -10,21 +10,27 @@ ms.workload: na
 ms.search.keywords: version
 ms.date: 10/17/2019
 ms.author: edupont
-ms.openlocfilehash: 96825fcc03bbbbc43c00f3bce4b9ac257a915a6f
-ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
+ms.openlocfilehash: b75ad760448b595e0241918006d5a888b5d5d625
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2649779"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911254"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Configuration minimale requise pour l'utilisation de Business Central
 Avant d'accéder à [!INCLUDE [prodshort](includes/prodshort.md)] en ligne, nous vous recommandons de vérifier que votre ordinateur ou périphérique mobile répond à la configuration système requise pour le produit. Cet article répertorie les éléments de la configuration requise.  
 
 ## <a name="browsers"></a>Navigateurs
+
+### <a name="recommended-browsers"></a>Navigateurs recommandés
+
 **Chrome pour Windows et Firefox pour Windows :** [!INCLUDE[d365fin](includes/d365fin_md.md)] est conçu pour fonctionner avec la version actuelle de ces navigateurs pour ordinateurs de bureau.  
 **Safari :** [!INCLUDE[d365fin](includes/d365fin_md.md)] est conçu pour fonctionner avec la version actuelle de Safari sur OSX.  
-**Microsoft Edge :** [!INCLUDE[d365fin](includes/d365fin_md.md)] est conçu pour fonctionner avec la version actuelle de Microsoft Edge.  
-**Internet Explorer :** [!INCLUDE[d365fin](includes/d365fin_md.md)] est conçu pour fonctionner avec Internet Explorer 11 (version 11.0.9600.17239) pour Windows 10 (versions 32 bits et 64 bits). Nous vous recommandons d'effectuer une mise à niveau avec la version la plus récente d'Internet Explorer prise en charge par votre version de Windows.  
+**Microsoft Edge :** [!INCLUDE[d365fin](includes/d365fin_md.md)] est conçu pour fonctionner avec la version actuelle de Microsoft Edge.
+
+### <a name="other-supported-browsers"></a>Autres navigateurs pris en charge
+
+**Internet Explorer :** [!INCLUDE[d365fin](includes/d365fin_md.md)] est conçu pour fonctionner avec Internet Explorer 11 (version 11.0.9600.17239) pour Windows 10 (versions 32 bits et 64 bits). Nous vous recommandons d'effectuer une mise à niveau avec la version la plus récente d'Internet Explorer prise en charge par votre version de Windows. 
 
 ## <a name="mobile-devices"></a>Périphériques mobiles
 **Windows :** [!INCLUDE[d365fin](includes/d365fin_md.md)] pour Windows peut être installé sur des périphériques avec au moins 1 Go de RAM et Windows 10 Familiale, Pro, Entreprise ou Education (éditions 32 bits et 64 bits).  

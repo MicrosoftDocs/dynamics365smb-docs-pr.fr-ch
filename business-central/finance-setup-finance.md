@@ -10,19 +10,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: fc8f52e5ef9fdeb8a2add9cf030a348012f25366
-ms.sourcegitcommit: 02f1633213793bfc040ad0d2a96fe76572215aa5
+ms.openlocfilehash: fa8b324c0a63f7c00209579878b9739af8178041
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "2798514"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953674"
 ---
 # <a name="setting-up-finance"></a>Configuration de Finance
-Pour vous aider à démarrer rapidement, [!INCLUDE[d365fin](includes/d365fin_md.md)] inclut des configurations standard pour la plupart des processus financiers. Si vous devez modifier les configurations en fonction de votre activité, n'hésitez pas. Par exemple, à partir du tableau de bord, vous pouvez utiliser un guide de configuration assistée pour configurer la taxe sur les ventes en fonction de votre situation géographique.  
+Avant de commencer à gérer votre activité, vous devez spécifier des règles et des valeurs par défaut concernant le mode de gestion souhaité des processus financiers de cette société. Pour commencer, vous devez configurer l'élément essentiel des enregistrements comptables de la société, à savoir le plan comptable. Configurez ensuite des groupes comptabilisation afin d'accroître l'efficacité du processus d'affectation des comptes imputables de comptabilité par défaut aux clients, fournisseurs et articles.
 
-Toutefois, il existe quelques éléments que vous devez configurer vous-même. Par exemple, si vous souhaitez utiliser les axes analytiques comme base pour la veille économique.  
+Certaines configurations financières peuvent être effectuées automatiquement avec des guides de configuration assistée, d'autres doivent être effectuées manuellement. Pour plus d'informations, voir [Préparation aux activités commerciales](ui-get-ready-business.md).
+
+Vous pouvez utiliser des axes analytiques pour ajouter différents types d'informations à chaque transaction. Vous pouvez configurer les axes analytiques de base de votre société, tels que les projets et les départements. Vous pouvez ensuite ajouter, le cas échéant, des axes analytiques supplémentaires, et configurer des axes analytiques temporaires à utiliser pendant une période limitée, par exemple, dans le cadre d'une campagne de vente. Pour plus d'informations, reportez-vous à [Utilisation des axes](finance-dimensions.md).
+
+De nombreuses tâches de configuration doivent être effectuées avant l'enregistrement des transactions financières, mais vous pouvez modifier la plupart des paramètres ultérieurement. Certaines tâches de configuration sont facultatives, par exemple, vous ne configurez des consolidations et des validations intersociétés que si vous utilisez plusieurs sociétés. D'autres tâches de configuration, telles que la spécification de la période durant laquelle la validation est autorisée, devront probablement être répétées régulièrement.  
 
 Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.
 
@@ -46,9 +50,11 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | Configurer l'état intracommunautaire et envoyer-le à une administration | [Configurer et enregistrer un état intracommunautaire](finance-how-setup-report-intrastat.md)|
 |Vérifiez qu'une écriture dans une feuille comptabilité est affectée à plusieurs comptes lors de la validation de la feuille, soit par quantité, pourcentage ou montant.|[Utiliser les clés de ventilation dans les feuilles de comptabilité](ui-how-use-allocation-keys-general-journals.md)|
 
+## <a name="see-related-training-at-microsoft-learnlearnpathsset-up-financial-management-dynamics-365-business-central"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Voir aussi
 [Finances](finance.md)  
-[Gestion des comptes bancaires](bank-manage-bank-accounts.md)  
+[Rapprochement de comptes bancaires](bank-manage-bank-accounts.md)  
 [Utilisation des axes analytiques](finance-dimensions.md)  
 [Importation des données métier à partir d'autres systèmes financiers](across-import-data-configuration-packages.md)  
 [Analyse de la trésorerie dans votre société](finance-analyze-cash-flow.md)  

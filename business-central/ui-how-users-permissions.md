@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 12/03/2019
+ms.date: 01/06/2020
 ms.author: sgroespe
-ms.openlocfilehash: 1d0b7b7363df88e52631b4ba6e2f495be13f7397
-ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
+ms.openlocfilehash: b9fbf0b2793c6239f3a1a416230d4afb17bdb5c6
+ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896172"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2943248"
 ---
 # <a name="create-users-according-to-licenses"></a>Créer des utilisateurs en fonction des licences
 La section suivante explique comment, en tant qu’administrateur, créer des utilisateurs et définir qui peut se connecter à [!INCLUDE[d365fin](includes/d365fin_md.md)], et quels droits fondamentaux différents types d’utilisateurs ont selon les licences.
@@ -83,6 +83,45 @@ Si vous modifiez par la suite l'utilisateur dans Office 365 et si vous devez syn
 |Mettez à jour l'enregistrement utilisateur en fonction des informations réelles dans Office 365 : État, Nom complet, E-mail du contact, E-mail d'authentification.<br /><br />Codeunit "Azure AD   Graph User".UpdateUserFromAzureGraph|**X**|**X**|**X**|**X**| |
 |Synchronisez les plans utilisateur (licences) avec les licences et les rôles attribués dans Office 365.<br /><br />Codeunit "Azure AD   Graph User".UpdateUserPlans|**X**|**X**| |**X**|**X**|
 |Ajoutez l'utilisateur aux groupes d'utilisateurs en fonction des plans utilisateur actuels. Révoquez l'ensemble d'autorisations SUPER. (Au moins une autorisation SUPER est nécessaire. Ne révoquez pas à partir des [administrateurs](/dynamics365/business-central/dev-itpro/administration/tenant-administration).)<br /><br />Codeunit « Gestionnaire des autorisations ». AddUserToDefaultUserGroups|**X**|**X**| |**X**<br /><br />Remplacement : supprimez l'utilisateur des autres groupes. Supprimez manuellement les ensembles d'autorisations attribués.|**X**<br /><br />Ajout : conservez l'appartenance actuelle au groupe d'utilisateurs et les ensembles d'autorisations attribués intacts. N'ajoutez un utilisateur aux groupes que si cela est nécessaire.|
+
+## <a name="the-device-license"></a>Licence d'appareil
+Avec la licence d'appareil Dynamics 365 Business Central, plusieurs utilisateurs peuvent utiliser un appareil sous licence avec la licence d'appareil pour employer un appareil de point de vente, un appareil d'atelier ou un appareil d'entrepôt. Pour plus d'informations, voir [Guide des licences Microsoft Dynamics 365 Business Central](https://aka.ms/BusinessCentralLicensing).
+
+La licence d'appareil est implémentée comme un modèle d'utilisateur simultané. Lorsque vous avez acheté un nombre X de licences d'appareils, jusqu'à X utilisateurs du groupe désigné appelé Utilisateurs d'appareils Dynamics 365 Business Central peuvent se connecter simultanément.
+
+Le partenaire Microsoft ou l'administrateur Office 365 de votre société doit créer le groupe d'appareils désigné et ajouter des utilisateurs d'appareils en tant que membres de ce groupe. Ils peuvent le faire dans le [Centre d'administration Microsoft 365](https://admin.microsoft.com/) ou sur le [Portail Azure](https://portal.azure.com/).
+
+### <a name="device-user-limitations"></a>Restrictions pour l'utilisateur d'appareil
+Les utilisateurs disposant de la licence d'appareil ne peuvent pas effectuer les tâches suivantes dans [!INCLUDE[d365fin](includes/d365fin_md.md)] :
+
+-   Configurer des travaux pour qu'ils s'exécutent en tant que tâches planifiées dans la file d'attente des travaux. Les utilisateurs d'appareils sont des utilisateurs simultanés et, par conséquent, nous ne pouvons pas garantir que l'utilisateur impliqué est présent dans le système lorsqu'une tâche est exécutée, ce qui est obligatoire.
+
+-   Un utilisateur d'appareil ne peut pas être le premier utilisateur à se connecter. Un utilisateur de type Administrateur, Utilisateur complet ou Comptable externe doit se connecter en premier afin de pouvoir configurer [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, voir [Administrateurs](/dynamics365/business-central/dev-itpro/administration/tenant-administration).
+
+### <a name="to-create-a-dynamics-365-business-central-device-users-group"></a>Pour créer un groupe d'utilisateurs d'appareils Dynamics 365 Business Central
+1.  Dans le Centre d'administration Microsoft 365, accédez à la page **Groupes**.
+2.  Choisissez l'action **Ajouter un groupe**.
+3.  Sur la page **Choisir un type de groupe**, choisissez l'action **Sécurité**, puis l'action **Ajouter**.
+4.  Sur la page **Bases**, tapez *Utilisateurs d'appareils Dynamics 365 Business Central* comme nom du groupe.
+
+    > [!Note]
+    > Le nom du groupe doit être orthographié exactement comme ci-dessus, également dans une configuration non anglaise.
+5. Cliquez sur le bouton **Fermer**.
+
+> [!NOTE]
+> Vous pouvez également créer un groupe de type Office 365. Pour plus d'informations, voir [Comparer des groupes](https://docs.microsoft.com/office365/admin/create-groups/compare-groups)
+
+### <a name="to-add-members-to-the-group"></a>Pour ajouter des membres au groupe
+1.  Dans le Centre d'administration Microsoft 365, actualisez la page **Groupes** pour faire apparaître votre nouveau groupe.
+2.  Sélectionnez le groupe **Utilisateurs d'appareils Dynamics 365 Business Central**, puis choisissez l'action **Afficher tout et gérer les membres**.
+3.  Choisissez l'action **Ajouter des membres**.
+4.  Sélectionnez les utilisateurs que vous souhaitez ajouter, puis choisissez le bouton **Enregistrer**.
+5.  Cliquez trois fois sur le bouton **Fermer**.
+
+Vous pouvez ajouter autant d'utilisateurs que vous souhaitez au Groupe d'utilisateurs d'appareils Dynamics 365 Business Central. Le nombre d'appareils auxquels les utilisateurs peuvent se connecter simultanément est défini par le nombre de licences d'appareils achetées.
+
+> [!NOTE]
+> Vous n'avez pas besoin d'attribuer une licence [!INCLUDE[d365fin](includes/d365fin_md.md)] aux utilisateurs qui sont membres du Groupe d'utilisateurs d'appareils Dynamics 365 Business Central.
 
 ## <a name="managing-users-and-licenses-in-on-premises-deployments"></a>Gestion des utilisateurs et des licences dans les déploiements sur site
 Pour les déploiements sur site, un certain nombre d'utilisateurs sous licence est spécifié dans le fichier de licence (.flf). Lorsque l'administrateur ou le partenaire Microsoft télécharge le fichier de licence, l'administrateur peut spécifier les utilisateurs qui peuvent se connecter à [!INCLUDE[d365fin](includes/d365fin_md.md)].

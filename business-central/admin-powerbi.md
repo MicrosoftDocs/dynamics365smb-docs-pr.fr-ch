@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.reviewer: edupont
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: bmeier
-ms.openlocfilehash: 0750f1724260eb7767757d947f30dcb074ef1aeb
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 1450db26598da2f2735df1979cfacc16034fcf3a
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879121"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953004"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Activation de vos données commerciales pour Power BI
 
@@ -164,7 +164,7 @@ Aucun compte Power BI n'a été créé. Afin d'avoir un compte Power BI valide, 
 
 ### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Message : Aucun état n'est activé. Choisissez Sélectionner un état pour afficher la liste des états disponibles.
 
-Ce message apparaîtra si l'état par défaut n’a pas été déployé sur votre espace de travail Power BI ou s'il a été déployé mais que l’actualisation n’a pas réussi. Si cela se produit, accédez à l'état dans votre espace de travail Power BI, sélectionnez **Ensemble de données**, **Paramètres**, puis mettez à jour les informations d'identification manuellement. Une fois le jeu de données actualisé, revenez dans Business Central et sélectionnez manuellement l'état dans la page **Sélectionner des états**. 
+Ce message apparaîtra si l'état par défaut n’a pas été déployé sur votre espace de travail Power BI ou s'il a été déployé mais que l’actualisation n’a pas réussi. Si cela se produit, accédez à l'état dans votre espace de travail Power BI, sélectionnez **Ensemble de données**, **Paramètres**, puis mettez à jour les informations d'identification manuellement. Une fois le jeu de données actualisé, revenez dans Business Central et sélectionnez manuellement l'état dans la page **Sélectionner des états**.
 
 ### <a name="you-need-a-power-bi-pro-license-to-install-the-include-prodshortincludesprodshortmd-app-in-power-bi"></a>Vous devez disposer d'une licence Power BI Pro pour installer l'application [!INCLUDE [prodshort](includes/prodshort.md)] dans Power BI
 
@@ -174,7 +174,7 @@ Les applications Power BI ne peuvent être installées que par les utilisateurs 
 
 Cette erreur indique qu'un ou plusieurs paramètres ne sont pas valides.
 
-- Le paramètre d'environnement spécifié ne correspond à aucun environnement de production ou sandbox [!INCLUDE [prodshort](includes/prodshort.md)] existant. 
+- Le paramètre d'environnement spécifié ne correspond à aucun environnement de production ou sandbox [!INCLUDE [prodshort](includes/prodshort.md)] existant.
 - Le paramètre de société spécifié ne correspond à aucune société [!INCLUDE [prodshort](includes/prodshort.md)] existante. Vérifiez le nom de la société dans la page **Sociétés** dans [!INCLUDE [prodshort](includes/prodshort.md)].
 - Si vous vous connectez à [!INCLUDE [prodshort](includes/prodshort.md)] sur site. vous avez entré une URL non valide. Vous pouvez vérifier l’URL sur la page **Services Web** dans [!INCLUDE [prodshort](includes/prodshort.md)]  
 - Un port n'est pas ouvert pour permettre à la demande de passer par votre pare-feu.
@@ -202,6 +202,8 @@ Une fois que l'application Power BI est installée et que vos données apparaiss
 ### <a name="i-only-see-data-for-a-single-company"></a>Je ne vois que des données pour une seule société
 
 L'application Power BI affichera uniquement les données de la société [!INCLUDE [prodshort](includes/prodshort.md)] qui a été définie lorsque l'application Power BI a été installée. Les données provenant d'autres sociétés peuvent être ajoutées aux états en ajoutant de nouvelles requêtes utilisant différentes sociétés en tant que source de données.  
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Voir aussi
 

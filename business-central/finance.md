@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 69014460131bd80bf08403a079e30b61d56cf307
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2152e5535f35be234753895ca024791f912f6869
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301555"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911110"
 ---
 # <a name="finance"></a>Finance
 [!INCLUDE[d365fin](includes/d365fin_md.md)] comprend une configuration standard de la plupart des processus financiers, mais vous pouvez modifier la configuration pour l'adapter à votre activité. Pour plus d'informations, reportez-vous à [Configuration de Finance](finance-setup-finance.md).
@@ -31,7 +31,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | Lettrer des paiements entrants, rapprocher des comptes bancaires pendant le lettrage de paiement et collecter des soldes échus. |[Gestion des comptes client](receivables-manage-receivables.md) |
 | Effectuer des paiements, lettrer les paiements sortants et traiter les chèques. |[Gestion des comptes fournisseur](payables-manage-payables.md) |
 |Faire en sorte que vos clients envoient leur règlement avant la livraison ou envoyer le paiement à vos fournisseurs avant qu'ils n'effectuent la livraison.|[Facturation d'acomptes](finance-invoice-prepayments.md)|
-| Rapprocher des comptes bancaires et transférer des fonds entre comptes bancaires. |[Gestion des comptes bancaires](bank-manage-bank-accounts.md) |
+| Rapprocher des comptes bancaires et transférer des fonds entre comptes bancaires. |[Rapprochement de comptes bancaires](bank-manage-bank-accounts.md) |
 |Configurer les partenaires intersociétés et traiter les transactions, manuellement ou automatiquement, entre les personnes morales dans la même société.|[Gestion des transactions intersociétés](intercompany-manage.md)|
 |Analyser les coûts de fonctionnement de votre activité en affectant les coûts réels et budgétés des opérations, des départements, des produits et des projets relatifs aux centres de coûts.|[Comptabilité pour les coûts](finance-manage-cost-accounting.md)|
 |Gérer les coûts ajustés et de fabrication, générer des états sur les coûts et rapprocher les coûts avec la comptabilité.|[Gestion des coûts ajustés](finance-manage-inventory-costs.md)|

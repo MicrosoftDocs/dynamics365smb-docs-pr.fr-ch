@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6ff257a13a995b9617bdae9de98830f50e45edee
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 96c39641c9665542c8c27b004bb27f92768d57dc
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879375"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910919"
 ---
 # <a name="setting-up-workflows"></a>Paramétrage des workflows
 Vous pouvez configurer et utiliser des workflows qui connectent des tâches de processus entreprise exécutées par différents utilisateurs. Les tâches du système, telles que la validation automatique, peuvent être incluses comme étapes du workflow, précédées ou suivies des tâches de l'utilisateur. Demander et accorder une approbation pour créer des enregistrements sont des étapes classiques du workflow. Pour plus d'informations, voir [Utilisation des workflows](across-use-workflows.md).  
@@ -42,8 +42,14 @@ Vous pouvez configurer et utiliser des workflows qui connectent des tâches de p
 |Apprendre comment configurer un workflow pour des documents vente avec approbation en suivant la procédure de bout en bout.|[Procédure pas à pas : Configuration et utilisation d'un flux d'approbation achat](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
 |Ajouter la prise en charge d'un scénario d'entreprise qui requiert de nouveaux événements ou réponses de workflow en personnalisant le code de l'application.|[Procédure pas à pas : implémentation de nouveaux événements et réponses de flux de travail](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses)|  
 
+## <a name="example-of-an-approval-workflow"></a>Exemple de flux de travail approbation
+Cette vidéo montre comment configurer un flux de travail qui exigera qu'une personne demande l'approbation d'une autre personne avant de pouvoir modifier les informations sur un client existant ou de créer un nouveau client.  
+<br><br>  
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI]
+
 ## <a name="see-also"></a>Voir aussi  
  [Utilisation des workflows](across-use-workflows.md)   
  [Flux de travail](across-workflow.md)   
- [Procédure pas à pas : configuration et utilisation d'un flux d'approbation achat](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
+ [Procédure pas à pas : Configuration et utilisation d'un flux d'approbation achat](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
  [Utilisation de Business Central](ui-work-product.md)

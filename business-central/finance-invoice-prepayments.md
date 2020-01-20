@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 7034e88e5f9a46f3d593a532020acc40be3b437f
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: f08e9549d83d689721657584eb95733cb8ac323c
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879671"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953770"
 ---
 # <a name="invoicing-prepayments"></a>Facturation d'acomptes
 Les acomptes sont des paiements qui sont facturés et validés dans une commande acompte vente ou achat avant la facturation finale. Vous pouvez demander un acompte avant de fabriquer les produits commandés ou demander à ce que le paiement soit effectué avant d'envoyer les articles à un client. La fonctionnalité d'acomptes vous permet de facturer et de collecter les acomptes requis des clients ou de régler des acomptes aux fournisseurs. Vous pouvez ainsi vous assurer que tous les paiements sont validés sur une facture.  
@@ -29,6 +29,8 @@ Les acomptes sont des paiements qui sont facturés et validés dans une commande
 |Configurer les groupes de validation d'acompte et les souches de numéros, et configurer les pourcentages d'acompte par défaut pour les clients, fournisseurs et articles.|[Configuration des acomptes](finance-set-up-prepayments.md)|
 |Créer une commande, ajuster des montants acompte et émettre une facture pour les montants acompte.|[Créer des factures d'acompte](finance-how-to-create-prepayment-invoices.md)|  
 |Émettre une facture acompte supplémentaire, pour des articles supplémentaires ou pour un acompte supplémentaire dans la commande originale, ou émettre un avoir acompte.|[Corriger des acomptes](finance-how-to-correct-prepayments.md)|  
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesprepayment-invoices-dynamics-365-business-centralindex"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/prepayment-invoices-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Voir aussi  
 [Procédure pas à pas : configuration et facturation d'acomptes](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

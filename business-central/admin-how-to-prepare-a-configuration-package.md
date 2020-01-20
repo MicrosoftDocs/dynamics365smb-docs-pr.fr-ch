@@ -10,24 +10,37 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 48127ea1fb363bd22d4f6d7dec85df47a11f8ce8
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 398ca571c7b201ca80d252aaff958ee295890f4e
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879265"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910627"
 ---
 # <a name="prepare-a-configuration-package"></a>Préparer un package configuration
 Lorsque vous configurez une nouvelle société, les relations de table sont reconnues et traitées. Les données sont importées et lettrées dans le bon ordre. Les tables d’axes analytiques sont également importées si elles sont incluses dans le package configuration. Pour plus d'informations, voir [Pour importer les données client](admin-migrate-customer-data.md#to-import-customer-data). 
 
 Pour aider votre client à utiliser le package configuration, vous pouvez ajouter un questionnaire ou un ensemble de questionnaires au package. Le questionnaire peut aider le client à comprendre les différentes options de paramétrage. En général, des questionnaires sont créés pour les tables de configuration principales, lorsqu’un client a besoin d’aide supplémentaire sur la manière de sélectionner un paramètre approprié. Pour plus d'informations, voir [Collecter les valeurs de configuration client](admin-gather-customer-setup-values.md).
 
-Vérifiez que vous vous trouvez dans le tableau de bord Responsable de l'implémentation de RapidStart Services. Pour plus d'informations, voir [Utiliser le tableau de bord Responsable de l'implémentation de RapidStart Services](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md).
+## <a name="before-you-create-a-configuration-package"></a>Avant de créer un package de configuration
+Plusieurs éléments doivent être pris en considération avant de créer un package de configuration, car ils influenceront votre capacité (ou celle de votre client) à l'importer. 
 
-> [!IMPORTANT]  
->  Lorsque vous exportez et importez des packages de configuration entre deux bases de données de votre société, les bases de données doivent avoir le même schéma pour garantir la réussite du transfert de toutes les données. Cela signifie que les bases de données doivent avoir la même table et structure de champ, dans lesquelles les tables ont les mêmes clés primaires et les champs ont les mêmes codes et types de données.  
->   
->  Vous pouvez importer un package de configuration qui a été exporté d'une base de données qui a un schéma différent que cette base de donnée cible. Toutefois, tous les tables ou champs du package de configuration manquants dans la base de données cible ne seront pas importés. Les tables avec des clés primaires différentes et des champs avec des types de données différents ne seront pas importés avec succès. Par exemple, si le package de configuration inclut une table **50000, Client** dont la clé primaire est **Code20** et que la base de données dans laquelle vous importez le package inclut la table **50000, Compte bancaire client** dont la clé primaire est **Code20 + Code 20**, les données ne seront pas importées.  
+### <a name="tables-that-contain-posted-entries"></a>Tables contenant des écritures validées
+Vous ne pouvez pas importer des données dans des tables qui contiennent des écritures validées, telles que les tables pour les écritures comptables client, fournisseur et article, et vous ne devez donc pas inclure ces données dans votre package de configuration. Vous pouvez ajouter des écritures à ces tables après avoir importé le package de configuration à l'aide de feuilles pour valider les écritures. Pour plus d'informations, voir [Validation de documents et de feuilles](ui-post-documents-journals.md).
+
+### <a name="licensing"></a>Gestion des licences
+Votre licence doit inclure les tables que vous mettez à jour. En cas de doute, la page **Feuille configuration** peut vous aider. Si votre licence inclut la table, le champ **Table sous licence** est coché.  
+
+### <a name="permissions"></a>Autorisations
+Le processus de création et d'importation d'un package de configuration implique les autorisations effectives suivantes pour toutes les tables du package : 
+
+* L'utilisateur qui exporte des données pour le package de configuration doit disposer des autorisations effectives **Lecture**.
+* L'utilisateur qui importe le package de configuration doit disposer des autorisations effectives **Insertion** et **Modification**.
+
+### <a name="database-schema"></a>Schéma de base de données
+Lorsque vous exportez et importez des packages de configuration entre deux bases de données de votre société, les bases de données doivent avoir le même schéma pour garantir la réussite du transfert de toutes les données. Cela signifie que les bases de données doivent avoir la même table et structure de champ, dans lesquelles les tables ont les mêmes clés primaires et les champs ont les mêmes codes et types de données.  
+
+Vous pouvez importer un package de configuration qui a été exporté d'une base de données qui a un schéma différent que cette base de donnée cible. Toutefois, tous les tables ou champs du package de configuration manquants dans la base de données cible ne seront pas importés. Les tables avec des clés primaires différentes et des champs avec des types de données différents ne seront pas importés avec succès. Par exemple, si le package de configuration inclut une table **50000, Client** dont la clé primaire est **Code20** et que la base de données dans laquelle vous importez le package inclut la table **50000, Compte bancaire client** dont la clé primaire est **Code20 + Code 20**, les données ne seront pas importées.  
 
 ## <a name="to-create-a-configuration-package"></a>Pour créer un package configuration  
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Packages configuration**, puis choisissez le lien associé.  

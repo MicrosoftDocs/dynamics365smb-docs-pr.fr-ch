@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4f65a4908fee045190229c1423ef61c6c7bed8c7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 34c09b4acdad057bd5accd388335439e555dc733
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315123"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953362"
 ---
 # <a name="personalize-your-workspace"></a>Personnaliser votre espace de travail
 Vous pouvez personnaliser votre espace de travail pour l'adapter à vos habitudes et préférences en modifiant les pages afin qu'elles n'affichent que les informations dont vous avez besoin, où vous avez en besoin. Les modifications de personnalisation que vous apportez n'affectent que ce que vous voyez, pas ce que voient les autres utilisateurs.
@@ -37,7 +37,7 @@ En ce qui concerne les autres personnalisations, les modifications apportées à
 
 ## <a name="to-personalize-a-page-through-the-personalizing-banner"></a>Pour personnaliser une page via la bannière **Personnalisation**
 1. Ouvrez une page quelconque à personnaliser.
-2. Dans l'angle supérieur droit, sélectionnez l'icône ![Paramètres](media/ui-experience/settings_icon_small.png "Icône Paramètres du tableau de bord"), puis sélectionnez l'action **Personnaliser**.
+2. Dans l'angle supérieur droit, sélectionnez l'icône ![Paramètres](media/ui-experience/settings_icon_small.png "Icône Paramètres du tableau de bord"), puis choisissez l'action **Personnaliser**.
 
     La bannière **Personnalisation** s'affiche en haut, ce qui indique que vous pouvez commencer à apporter des modifications.
 
@@ -56,7 +56,7 @@ En ce qui concerne les autres personnalisations, les modifications apportées à
 
 |Ce que vous voulez faire|Comment procéder|Remarques|
 |----|------------|-------|
-|Déplacer quelque chose, comme un champ, une colonne d'une liste, une mosaïque, une action ou une section|Pointez n'importe où sur ce que vous souhaitez déplacer, puis faites glisser vers la nouvelle position. La position est indiquée par une ligne verticale ou horizontale épaisse.<br /><br />![Impossible de déplacer une icône ici](media/personalization-cannot-move-here.png "Mode Personnalisation - Impossible de déplacer une icône ici") indique que vous ne pouvez pas déplacer l'élément vers la position sélectionnée.|Les sections sont des subdivisions ou des zones d'une page qui contiennent des éléments comme des champs multiples, une autre page, un graphique, ou des mosaïques.<br /><br />Pour en savoir plus sur la personnalisation des actions, reportez-vous à la section [Personnalisation des actions](ui-personalization-user.md#Actions). |
+|Déplacer quelque chose, comme un champ, une colonne d'une liste, une mosaïque, une action ou une section|Pointez n'importe où sur ce que vous souhaitez déplacer, puis faites glisser vers la nouvelle position. La position est indiquée par une ligne verticale ou horizontale épaisse.<br /><br />![Icône Impossible de déplacer ici](media/personalization-cannot-move-here.png "Mode personnalisation - Icône Impossible de déplacer ici") indique que vous ne pouvez pas déplacer l'élément vers la position sélectionnée.|Les sections sont des subdivisions ou des zones d'une page qui contiennent des éléments comme des champs multiples, une autre page, un graphique, ou des mosaïques.<br /><br />Pour en savoir plus sur la personnalisation des actions, reportez-vous à la section [Personnalisation des actions](ui-personalization-user.md#Actions). |
 |Masquez quelque chose, comme un champ, une colonne d'une liste, une mosaïque, une action ou une section.|Choisissez la pointe de flèche, puis sélectionnez <b>Masquer</b>.|L'élément est grisé lorsque vous êtes en mode de personnalisation. Si le champ que vous masquez s'affiche également sur l'en-tête Raccourci lorsque ce dernier est réduit, le champ n'y apparaîtra plus.|
 |Affichez les actions et les champs masqués.|Pour un élément grisé (masqué), choisissez la pointe de flèche, puis choisissez <b>Afficher</b>.|L'élément masqué est à nouveau visible.|
 |Ajoutez un champ ou une colonne.|Dans la bannière <b>Personnalisation</b>, choisissez l'action <b>+ Champ</b>.<br /></br>Le volet <b>Ajouter un champ à la page</b> s'ouvre à droite. Il répertorie les champs que vous pouvez ajouter à la page.<br /><br />Pour ajouter un champ, faites-le glisser du volet vers la position que vous souhaitez. La position est indiquée par une ligne verticale ou horizontale épaisse.|Chaque page comprend un ensemble prédéfini de champs que vous pouvez afficher. Utilisez cette procédure pour afficher des champs ou des colonnes qui n'ont pas été précédemment affichés ou pour afficher des champs que vous avez masqués.|
@@ -115,6 +115,8 @@ Pour vous aider à mieux comprendre la personnalisation, voici quelques points c
 - Les modifications que vous apportez s'appliquent à tous vos tableaux de bord. Par exemple, si vous modifiez la liste Clients lorsque le tableau de bord est défini sur Gestionnaire d'activité, vous verrez également la modification de la page **Clients** lorsque le tableau de bord est défini sur Préparateur de commandes vente.
 - Les modifications d'une page dans un volet s'appliquent à la page, où qu'elle s'affiche.  
 - Vous ne pouvez ajouter de champs et de colonnes qu'à partir d'une liste prédéfinie, laquelle est basée sur la page. Vous ne pouvez pas en créer de nouveaux.
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulespersonalize-ui-dynamics-365-business-centralindex"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Voir aussi
 [Personnaliser les pages pour les profils](ui-personalization-manage.md)  

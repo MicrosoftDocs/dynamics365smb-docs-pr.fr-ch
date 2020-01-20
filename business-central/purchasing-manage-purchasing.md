@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 10/08/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 0f4cf7026ad3a12262c8e88b9360bcac3ac079b3
-ms.sourcegitcommit: cf36611ca187bb2996a514e9ff395086cd6b3275
+ms.openlocfilehash: aed5db94b7b028a972cf197cdc150a39e2df4ed6
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/08/2019
-ms.locfileid: "2566983"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2954202"
 ---
 # <a name="purchasing"></a>Procédure d'achat
 Vous créez une facture achat ou une commande achat pour enregistrer le coût d'achats et suivre les créances. Si vous devez contrôler un stock, les factures achat sont également utilisées pour mettre à jour de manière dynamique les niveaux de stock afin que vous puissiez réduire vos coûts et fournir un meilleur service client. Le prix d'achat, notamment les frais de service, et les valeurs d'inventaire qui résultent de la validation des factures achat contribuent aux chiffres du profit et à d'autres KPI financiers sur votre Tableau de bord.
@@ -45,6 +45,8 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | Découvrez comment [!INCLUDE[d365fin](includes/d365fin_md.md)] calcule le moment où vous devez commander un article pour le recevoir à une certaine date.|[Calcul de la date des achats](purchasing-date-calculation-for-purchases.md)|
 |Résolvez la confusion lorsque deux enregistrements ou plus existent pour le même fournisseur.|[Fusionner l'enregistrement des doublons](sales-how-merge-duplicate-records.md)|
 |Gérez votre engagement envers un fournisseur à acheter de grandes quantités livrées en plusieurs expéditions sur une certaine période.|[Utiliser des commandes ouvertes achat](sales-how-to-create-blanket-sales-orders.md)|
+
+## <a name="see-related-training-at-microsoft-learnlearnpathspurchase-items-services-dynamics-365-business-central"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/purchase-items-services-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Voir aussi
 [Définition des achats](purchasing-setup-purchasing.md)  

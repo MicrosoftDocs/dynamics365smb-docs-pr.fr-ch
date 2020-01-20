@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4ff0778bce5d995261892c4f98235661a795baa0
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 671ab3b6536a44551fdf2d200601ace9224c9822
+ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879193"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2942985"
 ---
 # <a name="managing-data-encryption"></a>Gestion du chiffrement des données
 Vous pouvez chiffrer des données sur le serveur [!INCLUDE[d365fin](includes/d365fin_md.md)] en générant de nouvelles clés de chiffrement ou en important des clés existantes que vous activez sur l'instance du serveur [!INCLUDE[d365fin](includes/d365fin_md.md)] qui est connectée à la base de données.

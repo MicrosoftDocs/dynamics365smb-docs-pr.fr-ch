@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: COA, cha of acc
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: ee789f35118c054fec8129106db0ad60cc48141c
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 901650c2ed61867cdcccd093d54b10fe24ce30a9
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879480"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911086"
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Configuration ou modification du plan comptable
 Le plan comptable affiche les comptes généraux qui stockent vos données financières. [!INCLUDE[d365fin](includes/d365fin_md.md)] inclut un plan comptable standard prêt à prendre en charge votre société.
@@ -39,7 +39,7 @@ Cependant, vous pouvez modifier les comptes par défaut, et vous pouvez ajouter 
 
 ## <a name="see-also"></a>Voir aussi
 [Les écritures comptables et le plan comptable](finance-general-ledger.md)  
-[Gestion des comptes bancaires](bank-manage-bank-accounts.md)  
+[Rapprochement de comptes bancaires](bank-manage-bank-accounts.md)  
 [Utilisation des axes analytiques](finance-dimensions.md)  
 [Importation des données à partir d'autres systèmes financiers](across-import-data-configuration-packages.md)  
 [Utilisation des tableaux d'analyse](bi-how-work-account-schedule.md)  

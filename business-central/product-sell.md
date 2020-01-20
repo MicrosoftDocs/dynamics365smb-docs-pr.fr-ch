@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: microsoft partner
-ms.date: 10/01/2019
+ms.date: 12/20/2019
 ms.author: edupont
-ms.openlocfilehash: 964cbf52362db7a5f9131375925adbf8f941938d
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 36185512ff17e7044dfc9bb6539d3f7b102472b5
+ms.sourcegitcommit: 53565fea987af861f3846e5c1e0e868c279aeb30
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2883359"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2918157"
 ---
 # <a name="become-a-reseller-of-included365fin_longincludesd365fin_long_mdmd"></a>Devenir revendeur [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Développez vos opportunités commerciales avec [!INCLUDE[d365fin](includes/d365fin_md.md)]!  
@@ -26,10 +26,7 @@ Si vous vous spécialisez dans les solutions Cloud, Office 365, SharePoint, les 
 
 ## <a name="get-started"></a>Démarrer
 
-Le programme « Vous êtes fin prêt » vous permet de débuter comme revendeur [!INCLUDE [prodshort](includes/prodshort.md)]. Vous pouvez également contacter Microsoft Office dans votre pays ou région. Pour en savoir plus sur les ressources disponibles pour vous via le programme « Vous êtes fin prêt », reportez-vous à la rubrique [aka.ms/readytogo](https://aka.ms/readytogo). Découvrez-en davantage pour devenir revendeur dans la rubrique [Revendre différentes solutions](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller).  
-
-Inscrivez-vous pour un essai sur [https://dynamics.microsoft.com/business-central/overview/ ](https://dynamics.microsoft.com/business-central/overview/
-) et envoyez vos commentaires sur [https://community.dynamics.com/business](https://community.dynamics.com/business/f/758).  
+Le programme « Vous êtes fin prêt » vous permet de débuter comme revendeur [!INCLUDE [prodshort](includes/prodshort.md)]. Vous pouvez également contacter le bureau Microsoft dans votre pays ou région. Pour plus d'informations sur les ressources mises à votre disposition par le biais du programme « Ready to Go », voir [aka.ms/readytogo](https://aka.ms/readytogo), [Revendre diverses solutions](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller) et [Débuter en tant que revendeur](/dynamics365/business-central/dev-itpro/index#get-started-as-a-reseller).  
 
 ## <a name="see-also"></a>Voir aussi
 

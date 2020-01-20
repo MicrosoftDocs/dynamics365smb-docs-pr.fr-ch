@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: edupont
-ms.openlocfilehash: 23027c809571512c99d75860c108aa4a23ca5477
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 576e974221d6fb1e7aa92b200338e32b1339b4d3
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307579"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953842"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Préparer la génération d'états financiers avec des tableaux d'analyse et des catégories de compte
 Utilisez les tableaux d'analyse pour obtenir un aperçu des données financières enregistrées dans votre plan comptable. Les tableaux d'analyse analysent les chiffres des comptes généraux et comparent les écritures comptables et les écritures comptables budget. Les résultats s'affichent dans les graphiques de votre tableau de bord, comme le graphique Trésorerie, et dans les états, comme les états Comptes de gestion et Bilan.
@@ -45,7 +45,7 @@ Les tableaux d'analyse dans la version standard de [!INCLUDE[d365fin](includes/d
 
 La page **Aperçu tableau d'analyse** vous permet de consulter l'état financier défini par le tableau d'analyse. Dans l'exemple suivant, il est important de comprendre que ce que vous créez en tant que lignes et colonnes de tableau d'analyse peut uniquement être vu et validé sur la page **Aperçu tableau d'analyse**, que vous ouvrez à partir d'un tableau d'analyse en choisissant l'action **Aperçu**. La page **Tableau d'analyse** elle-même est uniquement une zone de configuration.  
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Tableaux d'analyse**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Tableaux d'analyse**, puis sélectionnez le lien associé.  
 2. Sur la page **Tableaux d'analyse**, choisissez **Nouveau** pour créer un nom pour le tableau d'analyse.
 3. Sinon, choisissez l'action **Copier le tableau d'analyse**, renseignez les deux champs, puis cliquez sur le bouton **OK**.
 4. Renseignez les champs selon vos besoins. Dans le champ **Présentation colonne par déf.** sélectionnez une présentation existante. Vous pouvez la modifier ultérieurement au besoin.
@@ -77,7 +77,7 @@ Les présentations de colonne vous permettent de définir les colonnes devant ê
 ### <a name="to-create-a-column-that-calculates-percentages"></a>Pour créer une colonne qui calcule des pourcentages  
 Il se peut que vous vouliez inclure une colonne dans un tableau d'analyse pour calculer des pourcentages d'un total. Par exemple, si vous avez plusieurs lignes qui ventilent des ventes par dimension, vous pouvez juger utile de disposer d'une colonne indiquant le pourcentage des ventes totales que représente chaque ligne.
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Tableaux d'analyse**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Tableaux d'analyse**, puis sélectionnez le lien associé.
 2. Sur la page **Noms tableaux d'analyse**, sélectionnez le tableau d'analyse.  
 3. Choisissez l'action **Modifier tableau d'analyse** pour configurer une ligne de tableau d'analyse et calculer le total sur lequel le pourcentage sera basé.  
 4. Insérez une ligne juste au-dessus de la première ligne pour laquelle vous voulez afficher un pourcentage.  
@@ -89,7 +89,7 @@ Il se peut que vous vouliez inclure une colonne dans un tableau d'analyse pour c
 ## <a name="to-set-up-account-schedules-with-overviews"></a>Pour configurer des tableaux d'analyse avec des aperçus  
 Vous pouvez utiliser un tableau d'analyse pour créer un état comparant les chiffres de la comptabilité et les chiffres budgétés.
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Tableaux d'analyse**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Tableaux d'analyse**, puis sélectionnez le lien associé.
 2. Sur la page **Noms tableaux d'analyse**, sélectionnez le tableau d'analyse.  
 3. Choisissez l'action **Modifier tableau d'analyse**  
 4. Sur la page **Tableau d'analyse**, sélectionnez le nom du tableau d'analyse souhaité dans le champ **Nom**.
@@ -192,10 +192,11 @@ Pour effectuer des calculs basés par périodes, vous devez entrer une formule d
 > [!NOTE]
 > Il n'est pas toujours transparent de déterminer les périodes à comparer, car vous pouvez définir un filtre date sur un état qui couvre des dates différentes des périodes comptables représentées dans les données du plan comptable. Par exemple, vous créez un tableau d'analyse dans lequel vous souhaitez comparer cette période avec la même période l'année précédente. Vous définissez le champ **Filtre période date comparaison** sur *-1EC*. Ensuite, vous exécutez l'état le 28 février et définissez le filtre date sur Janvier et février. Par conséquent, le tableau d'analyse compare les mois de janvier et février de cette année au mois de janvier de l'année précédente, qui est la seule période comptable terminée des deux pour l'année précédente.  
 
+## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-financial-reports-dynamics-365-business-centralindex"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/configure-financial-reports-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Voir aussi
 [Veille économique](bi.md)  
 [Finances](finance.md)  
 [Configuration de Finance](finance-setup-finance.md)  
-[Les écritures comptables et le plan comptable](finance-general-ledger.md)  
+[Comptabilité et plan comptable](finance-general-ledger.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

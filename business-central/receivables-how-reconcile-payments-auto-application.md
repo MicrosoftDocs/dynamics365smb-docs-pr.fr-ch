@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 10/01/2019
+ms.date: 12/17/2019
 ms.author: sgroespe
-ms.openlocfilehash: 121212f41d5dadff53a10f828c88279865828788
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c0746551b21f96dde6e938e6bdbcc573ded2066a
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316587"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911062"
 ---
 # <a name="reconcile-payments-using-automatic-application"></a>Rapprocher les paiements à l'aide de l'application automatique
 La page **Feuille rapprochement bancaire** spécifie les paiements (entrants ou sortants) qui ont été enregistrés en tant que transactions sur votre compte bancaire en ligne et que vous pouvez lettrer à leurs écritures comptables ouvertes client, fournisseur et compte bancaire. Vous renseignez les lignes de la feuille en important un relevé bancaire sous forme de fichier ou flux bancaire.
@@ -33,7 +33,7 @@ L'action **Mapper le texte avec le compte** vous permet de configurer des mappag
 
 Une fonctionnalité similaire existe pour rapprocher les montants en excédent sur les lignes feuille rapprochement bancaire de façon ponctuelle. Pour plus d'informations, voir [Rapprocher les paiements qui ne peuvent pas être lettrés](receivables-how-reconcile-payments-cannot-apply-auto.md).
 
-Vous utilisez la fonction **Lettrer automatiquement**, soit automatiquement lorsque vous importez un fichier ou flux bancaire avec des transactions de paiement ou lorsque vous l'activez, pour lettrer des paiements à leurs écritures ouvertes associées sur la base d'une correspondance entre le texte d'une ligne relevé bancaire (ligne feuille) et le texte d'une ou plusieurs écritures ouvertes.
+Vous utilisez la fonction **Lettrer automatiquement**, soit automatiquement lorsque vous importez un fichier ou flux bancaire avec des transactions de paiement ou lorsque vous l'activez, pour lettrer des paiements à leurs écritures ouvertes associées sur la base d'une correspondance entre le texte d'une ligne relevé bancaire (ligne feuille) et le texte d'une ou plusieurs écritures ouvertes. Pour plus d'informations, voir [Définir des règles pour le lettrage automatique des paiements](receivables-how-set-up-payment-application-rules.md).
 
 Sur les lignes feuille dans lesquelles un paiement a été lettré automatiquement à une ou plusieurs écritures ouvertes, le champ **Fiabilité correspondance** présente une valeur entre Faible et Élevée pour indiquer la qualité de la correspondance des données sur laquelle le lettrage de paiement suggéré est basée. En outre, les champs **Type de compte** et **N° compte** sont renseignés à l'aide des informations sur le client ou le fournisseur auquel le paiement est appliqué. Si vous définissez un mappage de texte à compte, le lettrage automatique peut entraîner une valeur de fiabilité de correspondance **Élevée – Mappage de texte à compte**.
 
@@ -63,7 +63,7 @@ Pour chaque ligne feuille de la page **Feuille rapprochement bancaire**, vous po
 10. Lorsque vous êtes certain que tous les paiements sur les lignes feuille sont correctement lettrés ou définis sur la comptabilisation directe, sélectionnez l'action **Valider**, puis choisissez l'une des options suivantes :
 
     - **Valider les paiements et rapprocher les comptes bancaires** - Pour valider les paiements comme lettrés et clôturer également les écritures comptables compte bancaire associées comme rapprochées.
-    - **Valider les paiements uniquement** - Pour valider uniquement les paiements comme lettrés, mais laisser les écritures comptables compte bancaire ouvertes. Requis lorsque vous devez rapprocher le compte bancaire séparément, par exemple. Pour plus d'informations, voir [Rapprocher des comptes bancaires séparément](bank-how-reconcile-bank-accounts-separately.md).
+    - **Valider les paiements uniquement** - Pour valider uniquement les paiements comme lettrés, mais laisser les écritures comptables compte bancaire ouvertes. Exige que vous rapprochiez le compte bancaire séparément, par exemple. Pour plus d'informations, voir [Rapprocher des comptes bancaires](bank-how-reconcile-bank-accounts-separately.md).
     - **Impression test** - Pour examiner le résultat de la validation avant de valider. L'état **Relevé bancaire** s'ouvre et affiche les mêmes champs qu'en bas de la page **Feuille rapprochement bancaire**.
 
 Lorsque vous validez la feuille de rapprochement de paiements, les écritures ouvertes appliquées sont clôturées et les comptes client, fournisseur ou généraux liés sont mis à jour. Pour les paiements sur les lignes feuille basées sur le mappage de texte à compte, les comptes généraux, client et fournisseur spécifiés sont mis à jour. Pour toutes les lignes feuille, des écritures comptables compte bancaire sont créées. Si vous sélectionnez l'action **Valider les paiements et rapprocher les comptes bancaires**, toutes les écritures comptables compte bancaire ouvertes associées au client lettré ou à des écritures comptables fournisseur sont clôturées. Cela signifie que le compte bancaire est automatiquement rapproché pour les paiements que vous validez avec le journal.
@@ -71,7 +71,7 @@ Lorsque vous validez la feuille de rapprochement de paiements, les écritures ou
 Vous pouvez comparer la valeur du champ **Solde sur compte bancaire après validation** avec la valeur du champ **Solde final du relevé** pour avoir un suivi lorsque le compte bancaire a fait l'objet d'un rapprochement en fonction des paiements que vous validez.
 
 > [!NOTE]  
->   Si vous ne souhaitez pas rapprocher le compte bancaire à partir de la page **Feuille rapprochement bancaire**, vous devez utiliser la page **Rapprochement bancaire**. Pour plus d'informations, reportez vous à [Rapprocher des comptes bancaires séparément](bank-how-reconcile-bank-accounts-separately.md).
+>   Si vous ne souhaitez pas rapprocher le compte bancaire à partir de la page **Feuille rapprochement bancaire**, vous devez utiliser la page **Rapprochement bancaire**. Pour plus d'informations, voir [Rapprocher des comptes bancaires](bank-how-reconcile-bank-accounts-separately.md).
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion des comptes client](receivables-manage-receivables.md)  

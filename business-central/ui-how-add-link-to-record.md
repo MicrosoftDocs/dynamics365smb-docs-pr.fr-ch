@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/21/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 88e6a04a8e4a992b6a5df3fee87104eba7b5510e
-ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
+ms.openlocfilehash: 84d9c0768a457fd13a73b3d70d2b8c329098fe82
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2649803"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953315"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Gérer les pièces jointes, les liens et les notes sur les fiches et les documents
 
@@ -23,7 +23,10 @@ Dans le Récapitulatif de la plupart des fiches et des documents, vous pouvez jo
 
 Pour afficher ou modifier l’un de ces types d’informations jointes, vous devez d’abord ouvrir l'onglet **Pièces jointes** dans le Récapitulatif. Le nombre situé derrière le titre de l'onglet indique le nombre de fichiers, liens ou notes attachés existants pour la fiche ou le document.
 
-Les pièces jointes, les liens et les notes restent attachés au fur et à mesure du traitement de la fiche ou du document dans d'autres états, par exemple d'une commande client en cours à une facture client enregistrée. Notez cependant qu'aucun type de pièce jointe n'est sorti du système, par exemple lors de l'impression ou de l'enregistrement dans un fichier.
+Les pièces jointes, les liens et les notes restent attachés au fur et à mesure du traitement de la fiche ou du document dans d'autres états, par exemple d'une commande client en cours à une facture client enregistrée. Cependant, aucun type de document joint n'est sorti du système, par exemple lors de l'impression ou de l'enregistrement dans un fichier.
+
+> [!NOTE]
+> Lorsque vous expédiez et facturez partiellement une commande vente ou une commande achat, le document joint ne sera annexé qu'à la facture finale de cette commande. De même, lorsque vous facturez à l'aide de la fonction Reports, le document joint est uniquement annexé aux entrées G/L pour le document, mais pas pour les écritures report.
 
 ## <a name="to-attach-a-file-to-a-purchase-invoice"></a>Pour joindre un fichier à une facture achat
 Vous pouvez joindre tout type de fichier contenant du texte, des images ou des vidéos à une fiche ou à un document. Ceci est utile, par exemple, lorsque vous souhaitez stocker la facture d’un fournisseur sous forme de fichier PDF sur la facture achat correspondante dans [!INCLUDE[d365fin](includes/d365fin_md.md)].

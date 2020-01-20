@@ -153,9 +153,9 @@
       <Node Name="" DisplayName="Procédure : créer des factures d'acompte" Page="finance-how-to-create-prepayment-invoices.html"/>
       <Node Name="" DisplayName="Procédure : corriger des acomptes" Page="finance-how-to-correct-prepayments.html"/>
     </Node>
-    <Node Name="" DisplayName="Gestion des comptes bancaires" Page="bank-manage-bank-accounts.html">
+    <Node Name="" DisplayName="Rapprochement de comptes bancaires" Page="bank-manage-bank-accounts.html">
       <Node Name="" DisplayName="Lettrage automatique des paiements et rapprochement des comptes bancaires" Page="receivables-apply-payments-auto-reconcile-bank-accounts.html"/>
-      <Node Name="" DisplayName="Procédure : rapprocher des comptes bancaires séparément" Page="bank-how-reconcile-bank-accounts-separately.html"/>
+      <Node Name="" DisplayName="Procédure : Rapprocher des comptes bancaires" Page="bank-how-reconcile-bank-accounts-separately.html"/>
       <Node Name="" DisplayName="Procédure : Transfert de fonds à la banque" Page="bank-how-transfer-bank-funds.html"/>
     </Node>
     <Node Name="" DisplayName="Gestion des transactions intersociétés" Page="intercompany-manage.html">

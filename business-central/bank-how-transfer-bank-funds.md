@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account transfer, multiple currencies
-ms.date: 10/01/2019
+ms.date: 12/13/2019
 ms.author: sgroespe
-ms.openlocfilehash: c38666d6e3dcdaf2a5426795930887d726767190
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 3618ad87377ebc47f183292207d2f25dc6c3ed34
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304041"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910435"
 ---
 # <a name="transfer-bank-funds"></a>Transfert de fonds à la banque
-Vous pouvez avoir à transférer un montant d'un compte bancaire à un autre. Pour cela, vous devez valider une transaction dans la feuille comptabilité. La tâche varie selon que les comptes bancaires utilisent la même devise ou des devises différentes.
+Il peut vous arriver de devoir transférer un montant d'un compte bancaire dans [!INCLUDE[d365fin](includes/d365fin_md.md)] vers un autre. Pour ce faire, vous devez valider une transaction sur la page **Feuille comptabilité**. La tâche varie selon que les comptes bancaires utilisent la même devise ou des devises différentes.
 
 ## <a name="to-post-a-transfer-between-bank-accounts-with-the-same-currency-code"></a>Pour valider un transfert entre comptes bancaires avec le même code devise
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille comptabilité**, puis sélectionnez le lien associé.
@@ -54,7 +54,7 @@ Pour transférer des fonds entre des comptes bancaires qui utilisent des devises
 13. Validez la feuille.
 
 ## <a name="see-also"></a>Voir aussi
-[Gestion des comptes bancaires](bank-manage-bank-accounts.md)  
+[Rapprochement de comptes bancaires](bank-manage-bank-accounts.md)  
 [Paramétrage des opérations bancaires](bank-setup-banking.md)  
 [Utilisation de feuilles comptabilité](ui-work-general-journals.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

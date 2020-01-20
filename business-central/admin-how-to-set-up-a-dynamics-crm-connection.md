@@ -10,22 +10,23 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: ffcaaf6550601c181913ebe32e80d4cbcf0756bd
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 73607d238e31cc42680fae008cfdf0ee143d08f3
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879298"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910751"
 ---
 # <a name="set-up-a-connection-to-dynamics-365-sales"></a>Configurer une connexion vers Dynamics 365 Sales
-Pour procéder à l'intégration à [!INCLUDE[crm_md](includes/crm_md.md)], vous devez configurer une connexion entre [!INCLUDE[d365fin](includes/d365fin_md.md)] et [!INCLUDE[crm_md](includes/crm_md.md)].
+Cette rubrique décrit comment configurer une connexion entre [!INCLUDE[d365fin](includes/d365fin_md.md)] et [!INCLUDE[crm_md](includes/crm_md.md)].
+<br><br>  
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085501]
 
 ## <a name="before-you-start"></a>Avant de commencer
-Avant de commencer à connecter les applications, voici quelques informations utiles qu'il convient de préparer :  
+Avant de créer la connexion, il y a quelques informations à préparer :  
 
-* Une URL pour votre application [!INCLUDE[crm_md](includes/crm_md.md)]. Une façon rapide d'obtenir l'URL consiste à ouvrir [!INCLUDE[crm_md](includes/crm_md.md)] et à copier l'URL, puis à la coller dans le champ **Dynamics 365 Sales URL** dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. [!INCLUDE[d365fin](includes/d365fin_md.md)] corrigera le formatage pour vous.  
+* Une URL pour votre application [!INCLUDE[crm_md](includes/crm_md.md)]. Une façon rapide d'obtenir l'URL consiste à ouvrir [!INCLUDE[crm_md](includes/crm_md.md)], à copier l'URL, puis à la coller dans le champ **URL Dynamics 365 Sales** dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. [!INCLUDE[d365fin](includes/d365fin_md.md)] corrigera le formatage pour vous.  
 * Un nom d'utilisateur et un mot de passe d'un compte utilisateur utilisés uniquement pour l'intégration.  
 * Le nom d'utilisateur et le mot de passe du compte ont les autorisations de l'administrateur.  
 

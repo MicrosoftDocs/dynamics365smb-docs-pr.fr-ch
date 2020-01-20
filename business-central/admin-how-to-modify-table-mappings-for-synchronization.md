@@ -1,6 +1,6 @@
 ---
-title: Modifier les mappages de table pour la synchronisation | Microsoft Docs
-description: Découvrez comment modifier les mappages de table utilisés lors de la synchronisation des données entre Business Central et Dynamics 365 Sales.
+title: Mappage des tables et des champs à synchroniser | Microsoft Docs
+description: Découvrez comment mapper des tables et des champs pour synchroniser des données entre Business Central et Dynamics 365 Sales.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,23 +8,48 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
-ms.date: 10/01/2019
+ms.date: 12/18/2019
 ms.author: bholtorf
-ms.openlocfilehash: 505c1427c63a0a6f9e68980ea0ff05c93918ea60
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 371bd80c04917495ea1b35f214d10d716ed5f9ad
+ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308100"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2943128"
 ---
-# <a name="modify-table-mappings-for-synchronization"></a>Modifier les mappages de table pour la synchronisation
-Un mappage de table d'intégration associe une table dans [!INCLUDE[d365fin](includes/d365fin_md.md)] à une table d'intégration pour l'entité [!INCLUDE[crm_md](includes/crm_md.md)]. À chaque entité de [!INCLUDE[crm_md](includes/crm_md.md)] à synchroniser avec les données correspondantes dans [!INCLUDE[d365fin](includes/d365fin_md.md)] doit correspondre un mappage de table d'intégration. Un mappage de table d'intégration comprend plusieurs paramètres qui vous permettent de contrôler comment les enregistrements d'une table [!INCLUDE[d365fin](includes/d365fin_md.md)] et une entité [!INCLUDE[crm_md](includes/crm_md.md)] sont synchronisés par les projets de synchronisation d'intégration correspondants.  
+# <a name="mapping-the-tables-and-fields-to-synchronize"></a>Mappage des tables et des champs à synchroniser
+La base de la synchronisation des données dans [!INCLUDE[d365fin](includes/d365fin_md.md)] avec des données dans [!INCLUDE[crm_md](includes/crm_md.md)] consiste à mapper les tables et les champs qui contiennent les données de l'un vers l'autre. Le mappage s'effectue via des tables d'intégration. 
+
+## <a name="mapping-integration-tables"></a>Mappage de tables d'intégration
+Une table d'intégration est une table dans la base de données [!INCLUDE[d365fin](includes/d365fin_md.md)] qui représente une entité, par exemple un compte, dans [!INCLUDE[crm_md](includes/crm_md.md)]. Les tables d'intégration incluent des champs qui correspondent aux champs de la table de l'entité [!INCLUDE[crm_md](includes/crm_md.md)]. Par exemple, la table d'intégration Compte se connecte à l'entité Comptes dans [!INCLUDE[crm_md](includes/crm_md.md)]. Il doit y avoir un mappage de table d'intégration pour chaque entité dans [!INCLUDE[crm_md](includes/crm_md.md)] à synchroniser avec les données dans [!INCLUDE[d365fin](includes/d365fin_md.md)]].
+
+Lorsque vous créez la connexion entre les applications, [!INCLUDE[d365fin](includes/d365fin_md.md)] configure quelques mappages de table et de champ par défaut. Si vous le souhaitez, vous pouvez modifier les mappages de tables. Pour en savoir plus, reportez-vous à la rubrique [Mappage d'entité Sales standard pour la synchronisation](admin-synchronizing-business-central-and-sales.md#standard-sales-entity-mapping-for-synchronization). Si vous avez modifié les mappages par défaut et souhaitez annuler vos modifications, sur la page **Configuration de la connexion Dynamics 365**, choisissez **Utiliser le paramétrage de synchronisation par défaut**.
+
+> [!Note]
+> Si vous utilisez une version locale de [!INCLUDE[d365fin](includes/d365fin_md.md)], les mappages de tables d'intégration sont stockés dans la table 5335 Mappages de tables d'intégration, et peuvent être affichés et modifiés à partir de la page 5335 Mappages de tables d'intégration. Les règles de synchronisation et mappages complexes sont définis dans le codeunit 5341. 
+
+### <a name="synchronization-rules"></a>Règles de synchronisation
+Un mappage de table d'intégration comprend également des règles qui contrôlent comment les travaux de synchronisation d'intégration synchronisent les enregistrements dans une table [!INCLUDE[d365fin](includes/d365fin_md.md)] et une entité dans [!INCLUDE[crm_md](includes/crm_md.md)]. Pour plus d'informations, reportez-vous à la rubrique [Règles de synchronisation](admin-synchronizing-business-central-and-sales.md#synchronization-rules). 
+
+## <a name="mapping-integration-fields"></a>Mappage de champs d'intégration
+Le mappage de tables ne constitue que la première étape. Vous devez également mapper les champs des tables. Les mappages de champs d'intégration associent les champs dans les tables [!INCLUDE[d365fin](includes/d365fin_md.md)] avec les champs correspondants dans [!INCLUDE[crm_md](includes/crm_md.md)], et déterminent s'il faut synchroniser les données dans chaque table. Le mappage de table standard fourni par [!INCLUDE[d365fin](includes/d365fin_md.md)] inclut des mappages de champs, mais vous pouvez les modifier si vous le souhaitez. Pour plus d'informations, voir [Affichage des mappages d'entités](admin-synchronizing-business-central-and-sales.md#tip-for-admins-viewing-entity-mappings).
+
+> [!Note]
+> Si vous utilisez une version locale de [!INCLUDE[d365fin](includes/d365fin_md.md)], les mappages de champs d'intégration sont définis dans la table 5336 Mappage de champs d'intégration.
+
+## <a name="coupling-records"></a>Enregistrements couplage
+Le couplage associe des enregistrements dans [!INCLUDE[crm_md](includes/crm_md.md)] à des enregistrements dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Par exemple, les comptes dans [!INCLUDE[crm_md](includes/crm_md.md)] sont généralement associés aux clients dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Le couplage d'enregistrements offre les avantages suivants :
+
+* Il rend la synchronisation possible.
+* Les utilisateurs peuvent ouvrir des enregistrements dans une application métier puis une autre. Cela exige que la solution d'intégration [!INCLUDE[d365fin](includes/d365fin_md.md)] soit installée dans [!INCLUDE[crm_md](includes/crm_md.md)].
+
+Les couplages peuvent être configurés automatiquement à l'aide des projets de synchronisation, ou manuellement en modifiant l'enregistrement dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, voir [Synchronisation des données dans [!INCLUDE[d365fin](includes/d365fin_md.md)] et [!INCLUDE[crm_md](includes/crm_md.md)]](admin-synchronizing-business-central-and-sales.md) et [Couplage et synchronisation manuels d'enregistrements](admin-manual-synchronization-of-table-mappings.md#synchronize-individual-table-mappings).
 
 ## <a name="filtering-records"></a>Filtrer des enregistrements  
- Si vous ne souhaitez pas synchroniser tous les enregistrements pour une entité spécifique dans [!INCLUDE[crm_md](includes/crm_md.md)] ou une table dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez définir des filtres pour limiter les enregistrements synchronisés. Vous configurez des filtres sur la page **Mappages de table d'intégration**.  
+Si vous ne souhaitez pas synchroniser tous les enregistrements pour une entité spécifique dans [!INCLUDE[crm_md](includes/crm_md.md)] ou une table dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez définir des filtres pour limiter les enregistrements synchronisés. Vous configurez des filtres sur la page **Mappages de table d'intégration**.  
 
 #### <a name="to-filter-records-for-synchronization"></a>Pour filtrer des enregistrements en vue d'une synchronisation  
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Mappages de table d'intégration**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Mappages de table d'intégration**, puis choisissez le lien associé.
 
 2.  Pour filtrer les enregistrements [!INCLUDE[d365fin](includes/d365fin_md.md)], définissez le champ **Filtre table**.  
 
@@ -36,7 +61,7 @@ Un mappage de table d'intégration associe une table dans [!INCLUDE[d365fin](inc
  Par exemple, le projet de synchronisation Dynamics 365 Sales - VENDEURS utilise le mappage de table VENDEURS. Le projet de synchronisation copie les données des enregistrements d'utilisateur dans [!INCLUDE[crm_md](includes/crm_md.md)] vers les enregistrements de vendeur dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Si vous définissez le mappage de table pour créer des enregistrements, pour chaque utilisateur dans [!INCLUDE[crm_md](includes/crm_md.md)] qui n'est pas encore couplé à un vendeur dans [!INCLUDE[d365fin](includes/d365fin_md.md)], un enregistrement de vendeur est créé dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 #### <a name="to-create-new-records-during-synchronization"></a>Pour créer des enregistrements durant la synchronisation  
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Mappages de table d'intégration**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Mappages de table d'intégration**, puis choisissez le lien associé.
 
 2.  Dans l'écriture de mappage de table de la liste, désactivez le champ **Synch. uniquement les enregistrements couplés**.  
 
@@ -52,7 +77,7 @@ Si vous installez la configuration de synchronisation par défaut, deux modèles
 -   Le compte **CRMACCOUNT** permet de créer et de synchroniser de nouveaux comptes dans [!INCLUDE[crm_md](includes/crm_md.md)] sur la base d'un compte dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 #### <a name="to-specify-configuration-templates-on-a-table-mapping"></a>Pour spécifier des modèles de configuration dans un mappage de table  
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Mappages de table d'intégration**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Mappages de table d'intégration**, puis choisissez le lien associé.
 
 2.  Dans l'écriture de mappage de table de la liste, dans le champ **Code modèle config. table**, choisissez le modèle de configuration à utiliser pour les nouveaux enregistrements dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 

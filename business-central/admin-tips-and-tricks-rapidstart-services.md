@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: acdac865286577b30f9fe036cca8a50eb7e143a0
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 890a6e87ec25293232f089b68e57a577fec6aa56
+ms.sourcegitcommit: 53565fea987af861f3846e5c1e0e868c279aeb30
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879001"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2918181"
 ---
 # <a name="tips-and-tricks-rapidstart-services"></a>Conseils : RapidStart Services
 Lorsque vous configurez des sociétés avec RapidStart Services, il est recommandé de suivre certains conseils pour faciliter votre implémentation.  
@@ -30,10 +30,10 @@ Pour faciliter le remplissage d’un questionnaire de configuration, envisagez d
 Il est recommandé d'utiliser les outils de migration de données fournis pour migrer des écritures feuille. Sinon, si vous utilisez le traitement par lots pour créer des lignes feuille, celui-ci a une portée limitée et ne génère que des champs par défaut dans une feuille. Le reste de la feuille doit ensuite être renseigné manuellement.  
 
 ## <a name="migrating-transactions"></a>Migration des transactions  
-Il est recommandé de migrer des soldes ouverts dans l'ordre suivant.  
+Il est recommandé de migrer des soldes ouverts dans l'ordre suivant. <!--Be aware that you cannot insert ledger entries directly. Instead you must use journals to post the journal lines--> 
 
 1.  Migrez les soldes ouverts de la comptabilité sans utiliser la comptabilité auxiliaire. Utilisez des comptes de compensation propres aux soldes ouverts, avec une configuration pour chaque comptabilité auxiliaire. Configurez les comptes de compensation de manière à activer les imputations directes.  
-2.  Migration des écritures comptables client ouvertes.  
+2.  Migration des écritures comptables client ouvertes.  <!--work on these-->
 3.  Migrez les écritures comptables article ouvertes.  
 4.  Migrez les écritures comptables immobilisation ouvertes.  
 

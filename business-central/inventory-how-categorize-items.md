@@ -12,20 +12,23 @@ ms.workload: na
 ms.search.keywords: category, search, attribute, facet
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: bf4ae1f000afcae3026b3c35a8097f2fb73a9a4a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 43d125f3d5c7b69b9ddb640d808165b451744513
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310013"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910386"
 ---
 # <a name="categorize-items"></a>Catégoriser des articles
 Pour conserver un aperçu de vos articles et pour vous aider à trier et à trouver les articles, il est utile d'organiser vos articles par catégorie.
 
 Pour trouver les articles par caractéristique, vous pouvez affecter des attributs d'article aux articles et également aux catégories d'article. Pour en savoir plus, voir [Utiliser les attributs d'article](inventory-how-work-item-attributes.md).
+<br><br>  
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4j4mo]
 
 ## <a name="to-create-an-item-category"></a>Pour créer une catégorie d'article
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Catégories article**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Catégories d'article**, puis sélectionnez le lien associé.
 2. Sur la page **Catégories d'article**, sélectionnez l'action **Nouveau**.
 3. Sur la page **Fiche catégorie d'article**, sur le raccourci **Général**, complétez les champs suivants : [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Sur le raccourci **Attributs**, précisez tout attribut d'article pour la catégorie d'article. Pour plus d'informations, reportez-vous à [Pour allouer des attributs article aux catégories article](inventory-how-work-item-attributes.md#to-assign-item-attributes-to-item-categories).
@@ -37,12 +40,12 @@ Pour trouver les articles par caractéristique, vous pouvez affecter des attribu
 >   Les attributs d'article que vous assignez à une catégorie d'article s'appliqueront automatiquement à l'article auquel la catégorie d'article est assignée.
 
 ## <a name="to-assign-an-item-category-to-an-item"></a>Pour assigner une catégorie d'article à un article
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles**, puis sélectionnez le lien associé.
 2. Ouvrez la fiche pour l'article que vous souhaitez assigner à une catégorie d'article.
 3. Sélectionnez le bouton de recherche dans le champ **Code catégorie article** et sélectionnez une catégorie d'article existante. Sinon, sélectionnez l'action **Nouveau** pour créer tout d'abord une nouvelle catégorie d'article comme expliqué dans [Créer une catégorie d'article](inventory-how-categorize-items.md#to-create-an-item-category).
 
 ## <a name="see-also"></a>Voir aussi
 [Utiliser les attributs d'article](inventory-how-work-item-attributes.md)  
 [Enregistrer de nouveaux articles](inventory-how-register-new-items.md)  
-[Inventaire](inventory-manage-inventory.md)  
+[Stock](inventory-manage-inventory.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
