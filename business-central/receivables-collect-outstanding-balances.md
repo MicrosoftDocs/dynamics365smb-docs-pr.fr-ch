@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 01/13/2020
+ms.date: 01/20/2020
 ms.author: sgroespe
-ms.openlocfilehash: 575e46f7988184f52cddf8e986a7aef05a61804b
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 73e488270862e62a237575929caa3753b4c7f545
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953482"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991991"
 ---
 # <a name="collect-outstanding-balances"></a>Collecte des soldes restants
 La gestion des clients comprend le contrôle du règlement des montants à temps. Si des clients ont des paiements dus, vous pouvez commencer par envoyer l'état du Relevé client comme relance. Sinon, vous pouvez émettre de relances.
@@ -216,7 +216,10 @@ Une facture d'intérêts ressemble à une facture. Vous pouvez renseigner un en-
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Factures d'intérêts**, puis sélectionnez le lien associé.  
 2. Cliquez sur **Nouveau**, puis renseignez les champs selon vos besoins.  
 3. Sélectionnez **Proposer lignes fact. intérêts**.
-4. Sur la page **Proposer lignes facture intérêts**, définissez un filtre sur le raccourci **Écriture comptable client** si vous souhaitez créer des factures d'intérêts uniquement pour des écritures spécifiques.  
+4. Sur la page **Proposer lignes facture intérêts**, définissez un filtre sur le raccourci **Écriture comptable client** si vous souhaitez créer des factures d'intérêts uniquement pour des écritures spécifiques.
+
+    > [!NOTE]
+    > Même s'ils sont répertoriés, la sélection des champs **Paiement** et **Avoir** comme filtres de **Type de document** n'a aucun effet, car la fonction **Proposer lignes facture intérêts** ne gère que les montants positifs.
 5.  Pour démarrer le traitement par lots, cliquez sur le bouton **OK**.  
 
 ## <a name="to-update-finance-charge-memo-texts"></a>Pour mettre à jour des textes de factures d'intérêts  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 68168b253fa1d9532298f399030a60c377e67b82
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5f7a95b297ef494cc3607f4550b6a0e58b18839d
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316035"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2992184"
 ---
 # <a name="create-service-items"></a>Créer des articles de service
 Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], le terme « article de service » fait référence à un équipement ou un article nécessitant une maintenance. Lorsque vous créez une commande service, vous spécifiez les articles nécessitant une maintenance. Dans la commande, vous pouvez lier un article de service à un article en stock ou à un groupe articles de service.    
@@ -23,25 +23,25 @@ Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], le terme « article de servic
 Lorsque vous recevez un article nécessitant une maintenance, vous pouvez l'enregistrer en tant qu'article de service. Plusieurs méthodes sont possibles. Par exemple, vous pouvez créer un article de service sur la page **Articles de service**, ou dans le cadre d'un autre traitement, par exemple en utilisant une commande service.   
 
 ## <a name="to-create-a-service-item"></a>Pour créer un article de service  
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles de service**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles de service**, puis sélectionnez le lien associé.
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-create-service-items-within-a-service-order"></a>Pour créer des articles de service dans des commandes service  
 Lorsque vous recevez des articles que vous souhaitez enregistrer comme articles de service, vous pouvez les créer en tant que tels sur la page **Commande service** ou **Devis service**.  
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes service**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes service**, puis sélectionnez le lien associé.  
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Choisissez l'action **Créer article de service**.  
 
     Un numéro est affecté à l'article de service et une fiche article de service est créée. Le champ **N° article de service** est rempli par le numéro du nouvel article de service.
 
 ## <a name="to-create-a-service-item-when-shipping-items"></a>Pour créer un article de service lors de l'expédition d'articles  
-Si vous expédiez des articles en validant les commandes service ou les factures service, ces articles sont enregistrés automatiquement en tant qu' articles de service si la condition suivante est remplie. Les articles doivent appartenir à un groupe articles de service et la case à cocher **Créer article de service** doit être activée. Si ces articles portent des numéros de série enregistrés sur la page Lignes traçabilité, cette information est copiée automatiquement dans le champ **N° de série** de la fiche article de service, lorsque les articles de service sont créés.  
+Si vous expédiez des articles en validant les commandes vente ou les factures vente, ces articles sont enregistrés automatiquement en tant qu' articles de service si la condition suivante est remplie. Les articles doivent appartenir à un groupe articles de service et la case à cocher **Créer article de service** doit être activée. Si ces articles portent des numéros de série enregistrés sur la page Lignes traçabilité, cette information est copiée automatiquement dans le champ **N° de série** de la fiche article de service, lorsque les articles de service sont créés.  
 
-La procédure suivante explique comment créer des articles de service lorsque vous expédiez des articles de commandes service.  
+La procédure suivante explique comment créer des articles de service lorsque vous expédiez des articles de commandes vente.  
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes service**, puis sélectionnez le lien associé.  
-2. Ouvrez la commande service.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes vente**, puis sélectionnez le lien associé.  
+2. Ouvrez la commande vente appropriée.  
 3. Sélectionnez l'action **Valider** ou **Valider et imprimer**.  
 4. Choisissez l'action **Expédier** ou **Livrer et facturer**.  
 5. Les articles de service sont automatiquement créés pour les articles de la commande pour autant qu'ils appartiennent à un groupe articles de service que vous avez configuré pour créer des articles de service. Si vous avez enregistré des numéros de série précis sur la page **Lignes traçabilité**, ceux-ci sont affectés à ces articles de service.  
@@ -52,7 +52,7 @@ La procédure suivante explique comment créer des articles de service lorsque v
 >  Si un article est une nomenclature que vous n'avez pas éclatée, un article de service est créé à partir des mêmes conditions (groupe articles de service et numéro de série).  
 
 ## <a name="to-insert-a-starting-fee-for-a-service-item"></a>Pour insérer des frais forfaitaires pour un article service
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Tâches service**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Tâches service**, puis sélectionnez le lien associé.
 2. Sélectionnez l'action **Feuille activité article**.
 3. Choisissez la ligne service, puis sélectionnez **Actions**, **Fonctions**, puis l'action **Insérer frais forfaitaires**.  
 

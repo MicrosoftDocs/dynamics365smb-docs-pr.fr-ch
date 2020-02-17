@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 01/13/2020
+ms.date: 01/17/2020
 ms.author: sgroespe
-ms.openlocfilehash: 3d7c1fa772263aa863b6398e86f35be47998f455
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: a8388c81bfdf767463a27d845dded64ee0f08c7e
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2954042"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991943"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Traiter les retours ou annulations de ventes
 Si votre client souhaite retourner des articles ou obtenir un remboursement pour des articles, ou encore annuler des services, que vous lui avez vendus et pour lesquels vous avez reçu un paiement, vous devez créer et valider un avoir vente qui indique la modification demandée. Pour inclure les informations de facture vente correctes, vous pouvez créer l'avoir vente à partir de la facture vente enregistrée ou vous pouvez créer un avoir vente avec les informations copiées de la facture.
@@ -32,6 +32,9 @@ Outre la facture vente validée d'origine, vous pouvez lettrer l'avoir vente ou 
 Vous pouvez envoyer l'avoir vente validé au client pour confirmer le retour ou l'annulation et communiquer que la valeur associée sera remboursée, par exemple lorsque les articles sont renvoyés.
 
 La validation de l'avoir rétablira également tous les frais annexes affectés au document validé, afin que les écritures valeur de l'article soient identiques à celles précédant l'affectation des frais annexes.
+
+> [!NOTE]
+> Les aspects comptables des retours de ventes, tels que les paiements aux clients à titre de remboursement, sont considérés comme des travaux comptables et ne sont pas décrits ici. Pour plus d'informations, reportez-vous à [Gestion des comptes fournisseur](payables-manage-payables.md).
 
 ## <a name="inventory-costing"></a>Évaluation stock
 Pour préserver l'évaluation correcte du stock, vous voudrez généralement remettre les articles retournés dans l'inventaire au coût unitaire auquel ils ont été vendus, et non à leur coût unitaire actuel. On appelle cela une inversion de même coût.
@@ -220,5 +223,6 @@ Vous pouvez également supprimer chacune des commandes retour vente manuellement
 ## <a name="see-also"></a>Voir aussi
 [Ventes](sales-manage-sales.md)  
 [Définition des ventes](sales-setup-sales.md)  
+[Gestion des comptes fournisseur](payables-manage-payables.md)  
 [Envoyer des documents par e-mail](ui-how-send-documents-email.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

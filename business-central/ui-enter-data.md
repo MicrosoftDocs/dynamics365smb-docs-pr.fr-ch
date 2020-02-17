@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 01/27/2020
 ms.author: sgroespe
-ms.openlocfilehash: 722f81e9e06cdab13bdd838837e2053de0215821
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6a57af4a29e2b355dfe3f261a5d83fade992551d
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311395"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2992111"
 ---
 # <a name="entering-data"></a>Saisie de données
 
@@ -86,7 +86,7 @@ Pour plus d'informations, voir [FAQ sur l'opération Copier et coller](ui-copy-p
 
 ## <a name="filtering-line-items"></a>Filtrage des articles de ligne
 
-Pour commencer à filtrer, sélectionnez ![icône de volet Filtre](media/open-filter-pane-icon.png "icône de volet Filtre") en haut de la liste ou appuyez sur Maj+F3 pour ouvrir le volet Filtrer. Vous travaillez avec le volet Filtrer comme vous le faites sur toute autre liste. Pour plus d'informations, reportez-vous à la rubrique [Filtrage](ui-enter-criteria-filters.md#Filtering).
+Pour commencer à filtrer, sélectionnez ![icône de volet Filtre](media/open-filter-pane-icon.png "Icône de volet Filtre") en haut de la liste ou appuyez sur Maj+F3 pour ouvrir le volet Filtre. Vous travaillez avec le volet Filtrer comme vous le faites sur toute autre liste. Pour plus d'informations, reportez-vous à la rubrique [Filtrage](ui-enter-criteria-filters.md#Filtering).
 
 La fonction Filtrage est utile notamment pour afficher et analyser de longs documents. Par exemple, supposez que vous ouvriez une facture de vente validée et que vous filtriez les articles de ligne pour afficher tous les articles de ligne qui ont une remise individuelle supérieure à 5 % ou que vous filtriez uniquement pour afficher les accessoires de vélo comportant la mention « pro » dans leur nom.
 
@@ -98,20 +98,21 @@ Cela est particulièrement utile lorsque vous utilisez de grandes listes d'artic
 
 ### <a name="switching-the-focus-on-and-off"></a>Activation/Désactivation du focus
 
-Pour vous concentrer sur les articles de ligne, faites votre sélection n'importe où dans la partie des articles de ligne, puis sélectionnez ![icône mode Focalisation](media/focus-mode.png "icône mode Focalisation") dans l'angle supérieur droit ou appuyez sur Ctrl+Maj+F12.
+Pour vous concentrer sur les articles de ligne, faites votre sélection n'importe où dans la partie des articles de ligne, puis sélectionnez ![icône mode Focalisation](media/focus-mode.png "Icône du mode Focalisation") dans l'angle supérieur droit ou appuyez sur Ctrl+Maj+F12.
 
-Pour revenir à la vue normale, sélectionnez ![icône mode Focalisation](media/focus-mode.png "icône mode Focalisation") ou appuyez à nouveau sur Ctrl+Maj+F12.
+Pour revenir à la vue normale, sélectionnez ![icône mode Focalisation](media/focus-mode.png "Icône du mode Focalisation") ou appuyez à nouveau sur Ctrl+Maj+F12.
 
 ## <a name="multitasking-across-multiple-pages"></a>Multitâche sur plusieurs pages
 Lorsque vous travaillez sur plusieurs tâches à la fois ou que vous gérez des interruptions de la tâche en cours, telles que la prise d'un appel entrant, vous pouvez ouvrir une page de fiche ou de document dans une nouvelle fenêtre. Cela vous permet de garder une fenêtre ouverte pour une tâche en cours pendant que vous démarrez ou terminez une autre tâche dans une ou plusieurs autres fenêtres.
 
-Pour ouvrir la fiche ou le document en cours dans une nouvelle fenêtre, choisissez ![Ouvrir dans une nouvelle fenêtre](media/open-new-window-icon.png "icône Ouvrir dans une nouvelle fenêtre") dans le coin supérieur droit, ou appuyez sur Alt+Maj+W.
+Pour ouvrir la fiche ou le document en cours dans une nouvelle fenêtre, choisissez ![Ouvrir dans une nouvelle fenêtre](media/open-new-window-icon.png "Icône Ouvrir dans une nouvelle fenêtre") dans le coin supérieur droit, ou appuyez sur Alt+Maj+W.
 
 > [!NOTE]
-> Lorsque vous ouvrez d'autres pages d'une fiche ou d'un document ouvert dans une nouvelle fenêtre, ces pages s'ouvrent dans une nouvelle fenêtre même si vous ne choisissez pas ![Ouvrir dans une nouvelle fenêtre](media/open-new-window-icon.png "icône Ouvrir dans une nouvelle fenêtre").
+> Lorsque vous ouvrez d'autres pages d'une fiche ou d'un document ouvert dans une nouvelle fenêtre, ces pages s'ouvrent dans une nouvelle fenêtre même si vous ne choisissez pas ![Ouvrir dans une nouvelle fenêtre](media/open-new-window-icon.png "Icône Ouvrir dans une nouvelle fenêtre").
 
 > [!NOTE]
-> Si vous travaillez dans le navigateur Safari, un bloqueur de fenêtres publicitaires intempestives peut empêcher la nouvelle fenêtre de s'ouvrir. Si tel est le cas, spécifiez l'URL du produit en tant que site Web autorisé. Pour plus d'informations, voir [Modifier les préférences dans Safari ](https://go.microsoft.com/fwlink/?LinkId=2102965).  
+> Si vous travaillez dans le navigateur Safari, un bloqueur de fenêtres publicitaires intempestives peut empêcher la nouvelle fenêtre de s'ouvrir. Si tel est le cas, spécifiez l'URL du produit en tant que site Web autorisé. Pour plus d'informations, voir [Modifier les préférences dans Safari ](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
+> La même chose peut se produire dans d'autres navigateurs, tels que Firefox. Pour plus d'informations, voir [Paramètres du bloqueur de fenêtres publicitaires intempestives dans Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
 
 ## <a name="entering-quantities-by-calculation"></a>Saisie de quantités par calcul
 

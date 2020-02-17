@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 01/13/2020
 ms.author: bholtorf
-ms.openlocfilehash: b64d0cf270678206cbcb077de937acb0f8220776
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 1bdd140e43a29894978f7fa0f0a88957d7e102c3
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953698"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030163"
 ---
 # <a name="set-up-value-added-tax"></a>Configuration de la TVA
 Les clients et les entreprises payent la TVA lorsqu'ils achètent des biens ou des services. Le montant de la TVA à payer peut varier en fonction de plusieurs facteurs. Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous configurez la TVA pour spécifier les taux à utiliser pour calculer les montants de taxe sur la base des éléments suivants :
@@ -116,28 +116,6 @@ Les sections suivantes décrivent comment affecter des groupes comptabilisation 
 * Sur la fiche **Ressource**, développez le raccourci **Facturation**.  
 3. Choisissez le groupe comptabilisation produit TVA.  
 
-## <a name="setting-up-vat-statement-templates-and-vat-statement-names"></a>Paramétrage des modèles de déclaration de TVA et des noms de déclaration de TVA
-Les autorités fiscales peuvent modifier et modifient leurs exigences de validation de la TVA. Les modèles de déclaration de TVA et les noms de déclaration de TVA peuvent vous aider à vous préparer aux changements à venir et à vous conformer en douceur aux nouvelles exigences. Vous pouvez utiliser les modèles déclaration de TVA pour définir les champs à inclure dans votre déclaration de TVA, qui définissent à leur tour les calculs, et vous pouvez créer un modèle déclaration de TVA lorsque les exigences changent. Par exemple, un modèle peut calculer la TVA pour cette année en fonction des exigences actuelles, et un autre modèle peut calculer la TVA en fonction des exigences de l'année suivante. Les modèles permettent également de conserver un historique des formats de déclaration de TVA, pour vous permettre de déterminer comment la TVA a été calculée dans les années précédentes.
-
-## <a name="to-define-a-vat-statements"></a>Pour définir une déclaration de TVA
-Les déclarations de TVA vous permettent de calculer le montant de la déclaration de TVA pour une période donnée, par exemple, un trimestre.
-
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Déclarations TVA**, puis sélectionnez le lien associé.  
-2. Choisissez le champ **Nom**, puis choisissez **Nouveau** dans la page **Noms déclarations TVA**.
-3. Renseignez les champs requis. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-> [!Tip]
-> Vous pouvez filtrer les informations de la déclaration, selon votre sélection dans le champ **Type**. L'option **Totalisation comptes** est utile lorsque vous souhaitez calculer la TVA à partir d'un compte spécifique.
-L'option **TVA** permet d'obtenir la TVA pour les comptes affectés aux sélections dans les champs **Type compta. TVA**, **Groupe compta. marché TVA** et/ou **Groupe compta. produit TVA**. L'option **Total de lignes** permet de saisir une valeur ou des critères de filtre rapide dans le champ **Total de lignes**. Pour plus d'informations, voir [Recherche, filtrage et tri des données](ui-enter-criteria-filters.md). L'option **Description** est souvent utilisée pour ajouter une note à la déclaration. Par exemple, vous pouvez l'utiliser comme en-tête si vous avez utilisé Total de lignes.
-
-## <a name="to-preview-the-vat-statement"></a>Afficher la déclaration de TVA
-Après avoir défini une déclaration de TVA, vous pouvez en afficher un aperçu pour vérifier qu'elle répond à vos besoins.
-
-1. Choisissez **Aperçu**.
-2. Entrez un filtre de date pour limiter la déclaration à une période spécifique. Pour plus d'informations sur la personnalisation de la page pour afficher le filtre de date, voir [Recherche, filtrage et tri des données](ui-enter-criteria-filters.md).
-3. Vous pouvez sélectionner diverses options pour indiquer le type des écritures TVA à inclure dans la déclaration.
-4. Sur les lignes où le champ **Type** indique la valeur **TVA**, vous pouvez afficher la liste des écritures TVA en choisissant le montant figurant dans le champ **Montant colonne**.   
-
 ## <a name="setting-up-clauses-to-explain-vat-exemption-or-non-standard-vat-rates"></a>Configuration de clauses pour expliquer l'exonération de TVA ou les taux de TVA non standard
 Vous définissez une clause TVA afin de décrire le type de TVA qui est appliquée. Les informations peuvent être requises par une réglementation gouvernementale. Après avoir configuré une clause TVA et l'avoir associée à un paramètre validation TVA, la clause TVA est affichée sur les documents vente imprimés qui utilisent le groupe de paramètres validation TVA.
 
@@ -178,24 +156,6 @@ Pour configurer des codes pour la TVA à l'importation, procédez comme suit :
 5. Dans le champ **Mode calcul TVA**, sélectionnez **Exclusivement TVA**.  
 6. Dans le champ **Compte TVA achat**, indiquez le compte général à utiliser pour valider la TVA à l'importation. Tous les autres comptes sont facultatifs.  
 
-## <a name="to-verify-vat-registration-numbers"></a>Pour vérifier les numéros d'identification TVA
-Il est important que les numéros d'identification TVA des clients, fournisseurs et contacts soient valides. Par exemple, les sociétés modifient parfois leur statut d'assujettissement à la TVA, et dans certains pays, les autorités fiscales peuvent vous demander de fournir des états, tels que l'état Liste des ventes UE, qui répertorient les numéros d'identification TVA à utiliser lorsque vous faites des affaires.
-
-La Commission européenne fournit le service VIES de validation des numéros TVA sur son site Web, qui est public et gratuit. [!INCLUDE[d365fin](includes/d365fin_md.md)] vous permet de supprimer cette étape et d'utiliser le service VIES pour valider et suivre les numéros de TVA des clients, fournisseurs et contacts directement à partir des fiches client, fournisseur et contact. Le service de [!INCLUDE[d365fin](includes/d365fin_md.md)] s'appelle **Services validation N° id. intracomm. Union européenne**. Il est disponible sur la page **Connexions au service**, et vous pouvez commencer à l'utiliser immédiatement. La connexion au service est gratuite, et l'inscription n'est pas obligatoire.
-
-> [!Note]
-> Pour activer les Services validation N° id. intracomm. Union européenne, vous devez disposer des autorisations de l'administrateur.
-
-Lorsque vous utilisez la connexion à notre service, nous enregistrons un historique des numéros de TVA et des vérifications pour chaque client, fournisseur ou contact dans le **Journal identif. intracomm** pour faciliter le suivi. Le journal est spécifique à chaque client. Par exemple, le journal est utile pour prouver que vous avez vérifié que le numéro de TVA actuel est correct. Lorsque vous vérifiez un numéro de TVA, la colonne **Identificateur de demande** du journal indique que vous avez effectué des actions.
-
-Vous pouvez afficher le journal d'identification TVA sur les fiches client, fournisseur ou contact, sous le raccourci **Facturation**, en cliquant sur le bouton de recherche dans le champ **N° identif. intracomm.**  
-
-Notre service peut aussi vous faire gagner du temps lorsque vous créez un client ou un fournisseur. Si vous connaissez le numéro TVA du client, vous pouvez le saisir dans le champ **N° identif. intracomm.** des fiches client ou fournisseur, et nous complèterons le nom du client pour vous. Certains pays fournissent également les adresses de société dans un format structuré. Dans ces pays, nous compléterons aussi l'adresse.  
-
-Voici quelques points à noter concernant le service VIES de validation de numéros de TVA :
-
-* Le service utilise le protocole http, ce qui signifie que les données transférées via le service ne sont pas cryptées.  
-* Vous pouvez rencontrer des temps d'arrêt pour ce service dont Microsoft n'est pas responsable. Le service fait partie d'un vaste réseau de l'UE de registres de TVA nationaux.
 
 ## <a name="using-reverse-charge-vat-for-trade-between-eu-countries-or-regions"></a>Utilisation d'une TVA déductible pour le commerce entre pays/régions de l'UE
 Certaines sociétés doivent utiliser une TVA déductible dans leurs échanges avec d'autres sociétés. Par exemple, cette règle s'applique aux achats effectués dans des pays/régions de l'Union européenne et les ventes aux pays/régions de l'Union européenne.  
@@ -219,61 +179,16 @@ Lorsque vous validez une vente à un client situé dans un autre pays/une autre 
 ## <a name="understanding-vat-rounding-for-documents"></a>Comprendre l'arrondi TVA pour les documents
 Les montants figurant dans les documents qui n'ont pas encore été validés sont arrondis et affichés de façon à correspondre à l'arrondi final des montants réellement validés. La TVA est calculée pour un document terminé, ce qui signifie que la TVA calculée est basée sur la somme de toutes les lignes ayant le même identifiant TVA dans le document.
 
-## <a name="understanding-the-vat-rate-conversion-process"></a>Familiarisation avec la conversion du taux de TVA  
-L'outil de modification du taux de TVA effectue des conversions de taux de TVA pour les données principales, les feuilles et les commandes de différentes manières. Les données principales et les feuilles sélectionnées seront mises à jour par le groupe de comptabilisation du produit général ou le groupe de comptabilisation du produit TVA. Si une commande a été expédiée entièrement ou partiellement, les articles livrés conserveront le groupe de comptabilisation du produit général ou le groupe de comptabilisation du produit TVA actuel. Une nouvelle ligne de commande sera créée pour les articles non livrés et mis à jour pour uniformiser les groupes actuels et nouveaux de comptabilisation du produit général ou du produit TVA. En outre, les affectations de frais annexes, les réservations, ainsi que les informations sur la traçabilité seront mis à jour en conséquence.  
 
-Cependant, quelques éléments ne sont pas convertis par l'outil :
 
-* Commandes vente ou achat et factures pour lesquelles les expéditions ont été validées. Ces documents sont validés à l'aide du taux de TVA actuel.  
-* Documents contenant des factures d'acompte validées. Par exemple, vous avez effectué ou reçu des acomptes sur les factures qui n'ont pas été réalisées avant d'utiliser l'outil de modification du taux de TVA. Dans ce cas, il existe une différence entre la TVA qui est due et la TVA qui a été payée dans les acomptes lorsque la facture est terminée. L'outil de modification du taux de TVA ignorera ces documents et vous devrez les mettre à jour manuellement.  
-* Livraisons directes ou commandes spéciales.  
-* Commandes vente ou achat avec l'intégration en entrepôt si elles sont livrées ou réceptionnées partiellement.  
-* Contrats de service.  
 
-### <a name="to-prepare-vat-rate-change-conversions"></a>Pour préparer les conversions de modification du taux de TVA  
-Avant de configurer l'outil de modification du taux de TVA, vous devez vous préparer comme suit :
-
-* Si des transactions utilisent plusieurs taux, vous devez les répartir par groupes soit en créant des comptes généraux pour chaque taux, soit en utilisant des filtres de données pour regrouper les transactions en fonction du taux.  
-* Si vous créez des comptes généraux, vous devez créer des groupes de comptabilisation généraux.  
-* Pour réduire le nombre de documents à convertir, validez autant de documents que possible et réduisez le nombre de documents non validés au maximum.  
-* Sauvegardez les données.
-
-### <a name="to-set-up-the-vat-rate-change-tool"></a>Pour configurer l'outil de modification du taux de TVA  
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres modification taux TVA**, puis sélectionnez le lien associé.  
-2. Sur les raccourcis **Données principales**, **Feuilles** et **Documents**, sélectionnez la valeur d'un groupe de comptabilisation dans la liste des options pour les champs requis.  
-
-### <a name="to-set-up-product-posting-group-conversion"></a>Pour paramétrer une conversion du groupe de comptabilisation du produit  
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres modification taux TVA**, puis sélectionnez le lien associé.  
-2. Dans la page **Paramètres modification taux TVA**, choisissez l'action **Conv. groupe compta. produit TVA** ou **Conv. groupe compta. produit général**.  
-3. Dans le champ **Code début**, saisissez le groupe de comptabilisation actuel.  
-4. Dans le champ **Code fin**, saisissez le nouveau groupe de comptabilisation.  
-
-### <a name="to-perform-vat-rate-change-conversion"></a>Pour exécuter la conversion de modification du taux de TVA  
-Vous utilisez l'outil de modification de la TVA pour gérer les variations du taux standard de TVA. Vous exécutez les conversions TVA et groupe comptabilisation TVA pour modifier les taux de TVA et garantir l'exactitude des états de TVA. En fonction de le paramétrage, les modifications suivantes sont apportées :  
-
-* Les groupes de comptabilisation TVA et générale sont convertis.  
-* Les modifications sont implémentées dans les comptes généraux, les clients, les fournisseurs, les documents ouverts, les lignes de feuille, etc.  
-
-> [!IMPORTANT]  
->  Avant d'effectuer la conversion de modification du taux de TVA, vous pouvez tester la conversion. Pour ce faire, suivez la procédure ci-dessous, mais veillez à désactiver les cases à cocher **Effectuer la conversion** et **Outil de modification du taux de TVA terminé**. Lors de la conversion test, le champ **Converti** de la table **Écriture journal modification taux TVA** est supprimé et le champ **Date conversion** de la table **Écriture journal modification taux TVA** est vide. Une fois la conversion terminée, choisissez **Écritures journal modification pour taux de TVA** pour afficher les résultats de la conversion test. Vérifiez chaque écriture avant d'exécuter la conversion. Vérifiez en particulier les transactions qui utilisent un ancien taux de TVA.     
-
-1. Choisissez l'icône d'![ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Modification taux TVA**, puis sélectionnez le lien **Paramètres modification taux TVA** link.  
-2. Vérifiez que vous avez déjà configuré une conversion de groupe comptabilisation produit TVA ou une conversion de groupe comptabilisation produit général.  
-3. Activez la case à cocher **Effectuer la conversion**.  
-
-    > [!IMPORTANT]  
-    >  Désactivez la case à cocher **Outil de modification du taux de TVA terminé**. La case est cochée automatiquement lorsque la conversion de modification du taux de TVA est terminée.  
-
-4. Sélectionnez l'action **Convertir**.  
-5. Une fois la conversion terminée, choisissez l'action **Écritures journal modification pour taux de TVA** pour afficher les résultats de la conversion.  
-
-> [!IMPORTANT]  
->  Après la conversion, le champ **Converti** de la table **Écriture journal modification taux TVA** est activé et le champ **Date conversion** de la table **Écriture journal modification taux TVA** affiche la date de conversion.  
+## <a name="see-also"></a>Voir aussi
+[Paramétrage des modèles de déclaration de TVA et des noms de déclaration de TVA](finance-how-setup-vat-statement.md)   
+[Configuration de la TVA sur encaissement](finance-setup-unrealized-vat.md)      
+[Déclarer la TVA à une autorité fiscale](finance-how-report-vat.md)      
+[Utiliser la TVA sur les ventes et les achats](finance-work-with-vat.md)    
+[Utiliser l'outil de modification du taux de TVA](finance-how-use-vat-rate-change-tool.md)    
+[Vérifier les numéros d'identification intracommunautaire](finance-how-validate-vat-registration-number.md)  
+[Fonctionnalités locales dans Business Central](about-localization.md)  
 
 ## <a name="see-related-training-at-microsoft-learnlearnpathsprocess-vat-dynamics-365-business-central"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
-
-## <a name="see-also"></a>Voir aussi  
-[Configuration de la TVA sur encaissement](finance-setup-unrealized-vat.md)      
-[Déclarer la TVA à une autorité fiscale](finance-how-report-vat.md)  
-[Utiliser la TVA sur les ventes et les achats](finance-work-with-vat.md)  
-[Fonctionnalités locales dans Business Central](about-localization.md)

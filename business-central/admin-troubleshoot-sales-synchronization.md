@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 729a767c0cb4bb330a463e14c7eb6a4f8fd7d909
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 489e66165c5441ea63043a30dee8af314ef5d815
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304299"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991823"
 ---
 # <a name="troubleshooting-synchronization-errors"></a>Résolution des erreurs de synchronisation
 Il y a beaucoup de pièces mobiles impliquées dans l'intégration [!INCLUDE[d365fin](includes/d365fin_md.md)] avec [!INCLUDE[crm_md](includes/crm_md.md)], et parfois les choses ne se passent pas bien. Cette rubrique répertorie certaines des erreurs types qui se produisent et donne des indications sur la manière de les résoudre.
@@ -37,6 +37,16 @@ Vous devez résoudre manuellement les erreurs, mais la page vous aide de plusieu
 
 * Les champs **Source** et **Destination** peuvent contenir des liens vers l'enregistrement où l'erreur a été trouvée. Cliquez sur le lien pour ouvrir l'enregistrement et recherchez l'erreur.  
 * Les actions **Supprimer les écritures ultérieures à 7 jours** et **Supprimer toutes les écritures** vont nettoyer la liste. En règle générale, vous utilisez ces actions après avoir résolu la cause d'une erreur affectant de nombreux enregistrements. Faites attention, cependant. Ces actions peuvent supprimer des erreurs toujours pertinentes.
+
+Parfois, les horodatages sur les enregistrements peuvent provoquer des conflits. La table « Enregistrement intégration CRM » conserve les horodatages « Dernière synch. modifiée le » et « Dernière synch. CRM modifiée le » pour la dernière intégration effectuée dans les deux directions pour un enregistrement. Ces horodatages sont comparés aux horodatages sur les enregistrements Business Central et Sales. Dans Business Central, l'horodatage se trouve dans la table Enregistrement intégration.
+
+Vous pouvez filtrer les enregistrements à synchroniser en comparant les horodatages des enregistrements dans les champs « Filtre synch. modifiée le » et « Fltr. synch. table int. mod. le » de la table « Correspondance table intégration ».
+
+Le message d'erreur de conflit « Impossible de mettre à jour l'enregistrement client, car sa date de dernière modification est postérieure à celle de l'enregistrement de compte » ou « Impossible de mettre à jour l'enregistrement de compte, car sa date de dernière modification est postérieure à celle de l'enregistrement client » peut apparaître si un enregistrement a un horodatage supérieur au champ « Filtre synch. modifiée le » de la Correspondance table intégration, mais s'il n'est pas plus récent que l'horodatage de l’enregistrement de l’intégration de Sales. Cela signifie que l'enregistrement source a été synchronisé manuellement, et non par l'entrée de la file d'attente des tâches. 
+
+Le conflit se produit, car l'enregistrement de destination a également été modifié : l'horodatage de l'enregistrement est plus récent que l'horodatage de l'enregistrement de l'intégration de Sales. La vérification de la destination ne se produit que pour les tables bidirectionnelles. 
+
+Ces enregistrements sont maintenant déplacés vers la page « Enregistrements de synchronisation ignorés », que vous ouvrez à partir de la page Configuration de la connexion Microsoft Dynamics dans Business Central. Vous pouvez y spécifier les modifications à conserver, puis synchroniser à nouveau les enregistrements.
 
 ## <a name="see-also"></a>Voir aussi
 [Intégration à [!INCLUDE[crm_md](includes/crm_md.md)]](admin-prepare-dynamics-365-for-sales-for-integration.md)  

@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 33b2931e14cb7e41cc3e71c327d2237cd8308466
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 1e45a480e8fdcc508de8ac82a6d2860147d76cec
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878212"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991799"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Utilisation de Dynamics 365 Sales depuis Business Central
 Si vous utilisez Dynamics 365 Sales for Customer Engagement, bénéficiez de l'intégration parfaite dans le processus allant du prospect à l'encaissement à l'aide de [!INCLUDE[d365fin](includes/d365fin_md.md)] pour les activités principales, telles que le traitement des commandes, la gestion des stocks et de vos finances.
@@ -76,7 +76,7 @@ Si la désignation de l'article sur la commande vente d'origine est très longue
 Les mises à jour vers les champs d'en-tête de commande vente, tels que Date dernière expédition ou Date livraison demandée, qui sont mappés dans COMMANDEVENTE-COMMANDE **Mappage de table d'intégration** sont synchronisées régulièrement vers [!INCLUDE[crm_md](includes/crm_md.md)]. Les processus tels que lancer une commande vente et expédier ou facturer une commande vente sont validés vers la chronologie de commande vente dans [!INCLUDE[crm_md](includes/crm_md.md)]. Pour en savoir plus, voir [Introduction aux flux d'activité](/dynamics365/customer-engagement/developer/introduction-activity-feeds).
 
 > [!NOTE]  
-> La synchronisation périodique basée sur le **Mappage de table d'intégration** COMMANDEVENTE-COMMANDE fonctionne uniquement lorsque l'intégration de la commande vente est activée. Pour en savoir plus, voir [Connecté à Dynamics 365 for Sales](admin-how-to-set-up-a-dynamics-crm-connection.md). Seules les commandes vente créées à partir des commandes vente envoyées dans [!INCLUDE[crm_md](includes/crm_md.md)] sont synchronisées. Pour plus d'informations, voir [Activer l'intégration du traitement des commandes vente](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).
+> La synchronisation périodique basée sur le **Mappage de table d'intégration** COMMANDEVENTE-COMMANDE fonctionne uniquement lorsque l'intégration de la commande vente est activée. Pour plus d'informations, voir [Se connecter à Dynamics 365 Sales](admin-how-to-set-up-a-dynamics-crm-connection.md). Seules les commandes vente créées à partir des commandes vente envoyées dans [!INCLUDE[crm_md](includes/crm_md.md)] sont synchronisées. Pour plus d'informations, voir [Activer l'intégration du traitement des commandes vente](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098170]
 

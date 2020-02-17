@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 01/06/2020
 ms.author: sgroespe
-ms.openlocfilehash: b9fbf0b2793c6239f3a1a416230d4afb17bdb5c6
-ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
+ms.openlocfilehash: e07636b6211eb57205d41d982bfbfb4bc2d5b330
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "2943248"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030067"
 ---
 # <a name="create-users-according-to-licenses"></a>Créer des utilisateurs en fonction des licences
 La section suivante explique comment, en tant qu’administrateur, créer des utilisateurs et définir qui peut se connecter à [!INCLUDE[d365fin](includes/d365fin_md.md)], et quels droits fondamentaux différents types d’utilisateurs ont selon les licences.
@@ -61,7 +61,7 @@ Parfois, vous devrez peut-être modifier la licence attribuée à un utilisateur
 1. Changez la licence dans le Centre d'administration Microsoft 365. Pour plus d'informations, voir [Ajouter des utilisateurs individuellement ou en bloc à Office 365](https://aka.ms/CreateOffice365Users).
 2. Connectez-vous à [!INCLUDE[d365fin](includes/d365fin_md.md)] en tant qu'administrateur.
 3. Choisissez l'icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Utilisateurs**, puis sélectionnez le lien associé.
-4. Sur la page **Utilisateurs**, sélectionnez l'option **Actualiser tous les groupes d'utilisateurs**.
+4. Sur la page **Utilisateurs**, sélectionnez l'action **Restaurer les groupes d'utilisateurs par défaut de l'utilisateur**.
 
 Les utilisateurs sont déplacés vers un groupe d'utilisateurs approprié et les ensembles d'autorisations sont mis à jour. Pour plus d'informations, voir [Pour gérer les autorisations via les groupes d'utilisateurs](ui-define-granular-permissions.md#to-manage-permissions-through-user-groups).
 

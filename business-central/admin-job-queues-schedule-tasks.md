@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: abca7de7ce91ebe32e8c17a2288c49684b53455c
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: b8470fa559d8a640e1c05cc6e03ca4caf3a9827e
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879217"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999798"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Utiliser des files d'attente des travaux pour planifier des tâches
 Des files d'attente des travaux dans [!INCLUDE[d365fin](includes/d365fin_md.md)] permettent aux utilisateurs de planifier et d'exécuter des états et codeunits spécifiques. Vous pouvez définir des projets à exécuter une fois, ou sur une base récurrente. Par exemple, vous pouvez être amené à exécuter l'état **Vendeurs : Statistiques ventes** chaque semaine pour suivre les ventes hebdomadaires d'un vendeur, ou vous pouvez être amené à exécuter le codeunit **Traiter file att. e-mails serv** chaque jour pour vérifier si des e mails adressés aux clients concernant leurs commandes service sont envoyés en temps utile.
@@ -31,6 +31,11 @@ Vous pouvez obtenir cette opération en configurant la file projets pour exécut
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge la validation en arrière-plan de toutes les ventes, achats, et documents service.
 
+> [!NOTE]
+> Certains travaux modifient les données identiques et ne doivent pas s'exécuter en simultané, car cela peut provoquer des conflits. Par exemple, les travaux d'arrière-plan des documents de vente tentent de modifier les données identiques en simultané. Les catégories de files d'attente des travaux permettent d'éviter ces types de conflits en garantissant que lorsqu'un travail est en cours d'exécution, un autre travail appartenant à la même catégorie de file d'attente des travaux ne s'exécutera pas avant la fin. Par exemple, un travail relevant d'une catégorie de file d'attente des travaux de vente attendra que tous les autres travaux liés aux ventes soient terminés. Vous spécifiez une catégorie de file d'attente des travaux sur le raccourci **Validation en arrière-plan** sur la page **Paramètre ventes**. 
+> 
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] fournit des catégories de file d'attente des travaux pour les ventes, les achats et la comptabilité générale. Nous recommandons que l'une d'entre elles, ou celle que vous créez, soit toujours spécifiée. Si vous rencontrez des échecs en raison de conflits, pensez à configurer une catégorie pour toutes les ventes, les achats et la validation comptable en arrière-plan.
+
 La procédure suivante explique comment configurer la validation en arrière-plan des commandes vente. La procédure est identique pour un achat et un service.  
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres ventes**, puis sélectionnez le lien associé.
@@ -41,7 +46,7 @@ La procédure suivante explique comment configurer la validation en arrière-pla
 4. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Écritures file d'attente des travaux**, puis choisissez le lien associé.
 5. Sur la page **Écritures file d'attente des travaux**, choisissez l'action **Nouveau**.
 6. Dans le champ **Type objet à exécuter**, sélectionnez **Codeunit**.  
-7. Dans le champ **ID objet à exécuter**, sélectionnez 88, **Validation des ventes via la file d'attente des travaux**.
+7. Dans le champ **ID objet à exécuter**, sélectionnez **88**. Les champs Description et Légende de l'objet à exécuter affichent le message de vente via la file d'attente des travaux.
 
     Aucune autre champ n'est valable pour ce scénario.
 8. Choisissez l'action **Attribuer le statut Prêt**.

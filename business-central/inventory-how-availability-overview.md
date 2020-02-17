@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 10/01/2019
+ms.date: 01/25/2020
 ms.author: SorenGP
-ms.openlocfilehash: 73ed7ac7ef80aa9e85f4d87ee1adbd5ba53ba44f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 58f4787a5e9bb845fc72b2ce6d9a1872c4245ee4
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308611"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991919"
 ---
 # <a name="view-the-availability-of-items"></a>Voir la disponibilité des articles
 Dans le contexte d'une tâche professionnelle, vous pouvez obtenir des informations avancées sur la disponibilité et l'emplacement d'un article, par exemple en discutant avec un client à propos d'une date de livraison.
@@ -42,7 +42,7 @@ Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], les chiffres de disponibilité
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>Pour afficher la disponibilité d'un article en fonction de sa réception ou de sa livraison
 Vous pouvez afficher la disponibilité d'un article en fonction des mouvements de stock attendus sur la page **Disponibilité par événement**.
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles**, puis sélectionnez le lien associé.
 2. Ouvrez la fiche d'un article dont vous voulez afficher la disponibilité.
 3. Cliquez sur **Disponibilité article par**, puis sur **Événement**.
 
@@ -52,7 +52,7 @@ Vous pouvez afficher la disponibilité d'un article en fonction des mouvements d
 ## <a name="to-view-the-availability-of-an-item-in-different-periods"></a>Pour afficher la disponibilité d'un article dans différentes périodes
 Vous pouvez visualiser la disponibilité d'un article dans le temps pour les périodes définies sur la page **Disponibilité art. par période**.
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles**, puis sélectionnez le lien associé.
 2. Ouvrez la fiche d'un article dont vous voulez afficher la disponibilité.
 3. Cliquez sur **Disponibilité article par**, puis sur **Période**.
 
@@ -62,7 +62,7 @@ Vous pouvez visualiser la disponibilité d'un article dans le temps pour les pé
 ## <a name="to-view-the-availability-of-an-item-at-the-locations-where-it-is-stored"></a>Pour afficher la disponibilité d'un article dans les magasins dans lesquels il est stocké
 Vous pouvez afficher la disponibilité d'un article dans les magasins dans lesquels il est stocké sur la page **Disponibilité art. par magasin**.
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles**, puis sélectionnez le lien associé.
 2. Ouvrez la fiche d'un article dont vous voulez afficher la disponibilité.
 3. Cliquez sur **Disponibilité article par**, puis sur **Magasin**.
 
@@ -73,7 +73,7 @@ Vous pouvez afficher la disponibilité d'un article dans les magasins dans lesqu
 ## <a name="to-view-the-availability-of-all-items-by-the-location-where-they-are-stored"></a>Pour afficher la disponibilité de tous les articles en fonction des magasins où ils sont stockés
 Vous pouvez afficher la disponibilité de tous vos articles dans tous vos magasins sur la page **Articles par magasin**.
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles**, puis sélectionnez le lien associé.
 2. Cliquez sur **Articles par magasin**.
 
     La page **Articles par magasin** indique pour tous les articles les quantités disponibles dans chaque magasin.
@@ -91,13 +91,16 @@ Sur chaque ligne de la page pour les articles parents et les éléments enfants,
 |**Capable de fabriquer le parent**|Indique le nombre d'unités d'un sous-assemblage de l'article supérieur que vous pouvez effectuer. Ce champ indique combien d'unités de l'article parent immédiat vous pouvez assembler. La valeur est basée sur la disponibilité de l'article sur la ligne.|
 |**Capable de fabriquer le meilleur article**|Indique le nombre d'unités de l'article supérieur que vous pouvez effectuer. Ce champ indique combien d'unités de l'article de la nomenclature sur la ligne supérieure vous pouvez assembler. La valeur est basée sur la disponibilité de l'article sur la ligne.|
 
-### <a name="item-availability-by-bom-level-page"></a>Page Disponibilité article par niveau de nomenclature
+### <a name="to-view-the-availability-of-an-item-according-to-demand-for-its-parent"></a>Pour afficher la disponibilité d'un article en fonction de la demande pour son parent
 La page **Disponibilité article par niveau de nomenclature** affiche les informations de l'article figurant sur la fiche ou la ligne document pour laquelle la page est ouverte. l'article est toujours indiqué sur la ligne supérieure. Vous pouvez visualiser les informations d'autres articles ou de tous les articles en changeant la valeur du champ **Filtre article**.
 
 > [!NOTE]  
 >   Par défaut, les chiffres de disponibilité dans les lignes présentent la disponibilité globale de tous les articles sous l'article supérieur. Ces chiffres sont affichés dans le champ **Quantité disponible**, et ils concernent l'article de niveau supérieur. Toutefois, les informations sur le nombre de sous-assemblages que vous pouvez effectuer peuvent être erronées. Pour obtenir une véritable indication du nombre de sous-assemblages que vous pouvez effectuer, vous devez désactiver la case à cocher **Afficher disponibilité totale**, puis examiner le chiffre dans le champ **Capable de fabriquer le parent**.
 
 Le champ **Goulot d'étranglement** spécifie quel article dans la structure de la nomenclature vous empêche de réaliser une quantité supérieure à la quantité affichée dans le champ **Capable de fabriquer le meilleur article**. Par exemple, l'article goulot d'étranglement peut être un composant achat avec une date de réception prévue qui est trop tardive pour fabriquer des unités supplémentaires de l'élément qui le comporte à la date du champ **Requis par date**.
+
+### <a name="to-view-the-availability-of-an-item-by-its-units-of-measure"></a>Pour afficher la disponibilité d'un article par ses unités de mesure
+La page **Disponibilité de l'article par unité de mesure** affiche une disponibilité des articles ventilée dans les différentes unités de mesure dans lesquelles il est stocké.
 
 ## <a name="assembly-availability-page"></a>Page Disponibilité assemblage
 La page **Disponibilité assemblage** affiche des informations de disponibilité détaillées pour l'élément d'assemblage. Elle s'ouvre :

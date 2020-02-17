@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 01/06/2020
 ms.author: edupont
-ms.openlocfilehash: 9c409b3aa0301b959cde0681307cf8346fbe7a54
-ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
+ms.openlocfilehash: 50cc4aba9f3a01b9518d974cf011de3b9b20a4da
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "2943053"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991871"
 ---
 # <a name="accountant-experiences-in-included365fin_longincludesd365fin_long_mdmd"></a>Expériences de comptable dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Chaque entreprise doit tenir ses comptes et valider sa comptabilité. Certaines sociétés utilisent un comptable externe, et d'autres ont un comptable dans le personnel. Peu importe le type de comptable que vous êtes, vous pouvez utiliser le tableau de bord **Comptable** comme pages d'accueil de [!INCLUDE[d365fin](includes/d365fin_md.md)]. De là, vous pouvez accéder à toutes les pages nécessaires pour votre travail.  
@@ -42,7 +42,7 @@ Nous avons simplifié pour vous la façon d'inviter votre comptable externe. Ouv
 > 
 > Comme cette tâche nécessite un accès à la gestion des utilisateurs et des licences dans Azure Active Directory, l'utilisateur qui envoie cette invitation doit se voir attribuer le rôle **Administrateur global** ou le rôle **Administrateur utilisateur** dans le centre d'administration Office 365. Pour plus d'informations, voir [À propos des rôles d'administrateur](/office365/admin/add-users/about-admin-roles) dans le centre d'administration Office 365.  
 
-### <a name="adding-your-accountant-to-your-office-365-via-azure-portal"></a>Ajout de votre comptable à votre Office 365 via le Portail Azure'
+### <a name="adding-your-accountant-to-your-office-365-via-azure-portal"></a>Ajout de votre comptable à votre Office 365 via le Portail Azure
 
 Si votre administrateur ou partenaire revendeur ne souhaite pas utiliser le guide **Inviter un comptable externe**, il peut ajouter un utilisateur externe dans le Portail Azure et attribuer à cet utilisateur la licence Comptable externe. Pour plus d'informations, voir [Démarrage rapide : Ajouter des utilisateurs invités à votre annuaire dans le portail Azure](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
 

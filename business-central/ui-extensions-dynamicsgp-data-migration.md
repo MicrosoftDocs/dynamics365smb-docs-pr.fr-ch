@@ -1,6 +1,6 @@
 ---
 title: Migrer des données de Dynamics GP avec l'extension de migration de données | Microsoft Docs
-description: Utilisez Migration de données Dynamics GP pour migrer des clients, des fournisseurs, des articles en stock, des comptes généraux, des transactions fournisseurs ouvertes et des transactions clients ouvertes de Dynamics GP vers Business Central.
+description: Utilisez l'extension Migration de données Dynamics GP pour migrer des clients, des fournisseurs, des articles en stock, des comptes généraux, des transactions fournisseurs ouvertes et des transactions clients ouvertes de Dynamics GP vers Business Central.
 documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
@@ -9,17 +9,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 10/01/2019
+ms.date: 01/16/2020
 ms.author: edupont
-ms.openlocfilehash: c5798baec1130c3fc662a8751aee87bb8b438146
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b05959eea09289db7878145347362786ab336de8
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311299"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2992160"
 ---
 # <a name="the-dynamics-gp-data-migration-extension"></a>Migration de données Dynamics GP 
 Cette extension permet de migrer des clients, des fournisseurs, des articles en stock, des comptes généraux, des transactions fournisseurs ouvertes et des transactions clients ouvertes de Dynamics GP vers [!INCLUDE[prodshort](includes/prodshort.md)]. Si votre entreprise utilise Dynamics GP aujourd'hui, vous pouvez exporter les enregistrements appropriés, puis ouvrir un guide de configuration assistée pour ajouter les données vers [!INCLUDE[prodshort](includes/prodshort.md)]. L'extension de migration fonctionne pour toutes les versions prises en charge de Microsoft Dynamics GP. Pour plus d'informations, voir [Importation des données métier à partir d'autres systèmes financiers](across-import-data-configuration-packages.md).
+
+> [!NOTE]
+>  Cette extension sera obsolète dans la mise à jour 15.3. Nous recommandons aux utilisateurs qui souhaitent migrer depuis Dynamics GP d'utiliser l'assistant **Migration cloud**. L'extension **Migration cloud** a des fonctionnalités plus robustes et apporte plus de données dans Business Central à partir de Dynamics GP.
 
 ## <a name="exporting-data-from-dynamics-gp"></a>Exportation de données à partir de Dynamics GP
 Vous devez avoir exporté certains ou tous vos clients, fournisseurs, articles de stock, et comptes généraux à l'aide de la fonctionnalité pour l'exportation de données dans Dynamics GP. Lorsque vous sélectionnez les données à exporter, les types suivants peuvent être sélectionnés :

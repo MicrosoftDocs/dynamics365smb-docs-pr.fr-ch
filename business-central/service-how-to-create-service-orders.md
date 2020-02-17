@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5415475d2dd820ff03615b6911db3082c33be9b6
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: b941d451a5c3ef288128a271855958a954f70f9c
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877342"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030115"
 ---
 # <a name="create-service-orders"></a>Créer commande service
 Utilisez la page **Commande service** pour créer des documents dans lesquels vous saisissez des informations sur un service, tel que réparation et maintenance, pour des articles de service à la demande du client.  
@@ -27,11 +27,11 @@ Lorsque vous créez une commande service, vous ne devez renseigner que certains 
 2. Créez une nouvelle commande service.  
 3. Dans le champ **N°**, saisissez le numéro de la commande service.  
 
-     Si vous avez configuré une souche de numéros pour les commandes de service sur la page **Paramètres Gestion des services,** vous pouvez appuyer sur Entrée pour renseigner le numéro de commande service suivant.  
+     Si vous avez configuré une souche de numéros pour les commandes de service sur la page **Param. Gestion des services**, vous pouvez appuyer sur Entrée pour renseigner le numéro de commande service suivant disponible.  
 
 4. Dans le champ **N° client**, sélectionnez le client approprié dans la liste. Les champs client pertinents sont automatiquement renseignés avec les informations de la table **Client**.  
 
-5. Selon les paramètres du raccourci **Champs obligatoires** de la page **Paramètres Gestion des services**, vous pouvez être amené à renseigner le champ **Type commande service** et le champ **Code vendeur**.  
+5. Selon les paramètres du raccourci **Champs obligatoires** de la page **Param. Gestion des services**, vous pouvez être amené à renseigner le champ **Type commande service** et le champ **Code vendeur**.  
 6. De manière optionnelle, renseignez les autres champs.  
 7. Enregistrez les lignes article de service.  
 
@@ -43,9 +43,11 @@ Vous pouvez créer automatiquement des commandes service pour la maintenance des
 3. Sur le raccourci **Options** , renseignez les champs **Date début** et **Date fin** avec la date début et la date fin pour la période pour laquelle vous souhaitez créer les commandes contrat de service. Le traitement par lots crée des commandes service qui incluent les articles de service des contrats de service dont les dates service suivantes sont comprises dans cette période.  
 
     > [!NOTE]  
-    >  Le nombre de jours que vous pouvez utiliser comme plage de dates à chaque utilisation de ce traitement par lots est limité. Vous définissez cette limite dans le champ **Nbre jours max. cde contrat** de la page **Paramètres Gestion des services**.  
+    >  Le nombre de jours que vous pouvez utiliser comme plage de dates à chaque utilisation de ce traitement par lots est limité. Vous définissez cette limite dans le champ **Nbre jours max. cde contrat** de la page **Param. Gestion des services**.  
 
 4. Dans le champ **Action**, sélectionnez **Créer commande service**.  
+    > [!NOTE]  
+    >  Vous ne pouvez pas créer de commande avec plusieurs éléments de service, si vous définissez le champ **Une ligne article de service/cde** sur la page **Param. Gestion des services**. 
 
 ## <a name="to-convert-a-service-quote-to-a-service-order"></a>Pour convertir les devis service en commandes service
 Lorsqu'un client accepte un devis service, vous le convertissez en commande service. Le devis est effacé et une commande service avec la même description que le devis service est crée. La date et le délai de réponse de la commande service sont recalculés et est affecté à cette dernière le statut **Suspendu**. L'état réparation des articles de service de la commande est modifié en **Initial**.  

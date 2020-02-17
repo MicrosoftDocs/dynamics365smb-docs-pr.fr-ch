@@ -8,14 +8,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 02/04/2020
 ms.author: sgroespe
-ms.openlocfilehash: d47290db285090ce9c22f3ccb5535bf47fd0c8e6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 266b2e67b8ab3814e940dce183865aaf2a021a94
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309691"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030139"
 ---
 # <a name="work-with-bills-of-material"></a>Utiliser les nomenclatures
 Les nomenclatures d'assemblage permettent de structurer les articles parents qui doivent être assemblés ou produits par des ressources ou des postes de charge à partir des composants. Une nomenclature d'assemblage peut également être utilisée pour vendre un article parent sous la forme d'un kit constitué de ses composants.
@@ -54,10 +54,17 @@ Il y a deux parties pour créer une nomenclature d'assemblage :
 2. Sur la page **Fiche article** d'un article d'assemblage, sélectionnez l'action **Assemblage**, puis l'action **Nomencl d'élément d'assemblage**.
 3. Renseignez les champs nécessaires sur la page **Nomenclature d'élément d'assemblage**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-view-the-components-of-an-assembly-item-indented-according-to-the-bom-structure"></a>Pour afficher les composants d'un article d'assemblage indenté selon la structure de la nomenclature
+## <a name="to-edit-assembly-boms"></a>Pour modifier les nomenclatures d'assemblage
+Vous pouvez modifier les lignes d'une nomenclature d'assemblage à tout moment. Mais sachez que la nomenclature peut être utilisée sur les ventes en cours ou les assemblages du parent, qui peuvent être affectés par le changement. Sélectionnez l'action **Cas d'emploi** pour voir dans quels articles elle est utilisée et si les ordres d'assemblage ou de vente peuvent être affectés.
+
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles**, puis sélectionnez le lien associé.
+2. Sélectionnez **Oui** dans la colonne **Nomenclature d'assemblage**.
+3. Sur la page **Nomenclature d'assemblage**, sélectionnez l'action **Modifier la liste**, puis modifiez n'importe quel champ selon vos besoins.
+
+## <a name="to-view-components-and-resources-indented-according-to-the-bom-structure"></a>Pour afficher les composants et les ressources indentés selon la structure de la nomenclature
 Sur la page **Nomenclature d'élément d'assemblage**, vous pouvez ouvrir une page distincte qui affiche les composants et les ressources indentés selon la position de leur nomenclature sous l'article d'assemblage.
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles**, puis sélectionnez le lien associé.
 2. Ouvrez la fiche d'un article d'assemblage. (Le champ **Nomenclature d'élément d'assemblage** sur la page **Articles** contient **Oui**.)
 3. Sur la page **Fiche article**, sélectionnez l'action **Assemblage**, puis l'action **Nomenclature d'élément d'assemblage**.
 4. Sur la page **Nomenclature d'élément d'assemblage**, sélectionnez l'action **Afficher nomenclature**.
@@ -102,5 +109,5 @@ Les coûts des articles constituant la nomenclature d'assemblage sont copiés à
 ## <a name="see-also"></a>Voir aussi
 [Enregistrer de nouveaux articles](inventory-how-register-new-items.md)  
 [Voir la disponibilité des articles](inventory-how-availability-overview.md)     
-[STOCKS ET EN-COURS](inventory-manage-inventory.md)  
+[Stock](inventory-manage-inventory.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

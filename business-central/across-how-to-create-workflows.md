@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/15/2019
+ms.date: 01/24/2020
 ms.author: sgroespe
-ms.openlocfilehash: 0589314914b2f7982c52b62475d41754845a48d5
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: bb7c64727979b7e8f53898c03781a24bcf8f40c4
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881207"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991847"
 ---
 # <a name="create-workflows"></a>Créer des workflows
 Vous pouvez créer des workflows qui connectent des tâches de processus entreprise exécutées par différents utilisateurs. Les tâches du système, telles que la validation automatique, peuvent être incluses comme étapes du workflow, précédées ou suivies des tâches de l'utilisateur. Demander et accorder une approbation pour créer des enregistrements sont des étapes classiques du flux de travail.  
@@ -59,7 +59,7 @@ Si votre scénario d'entreprise requiert des événements ou réponses de workfl
         |**Notifier l'expéditeur**|Indiquez si le demandeur de l'approbation est notifié au lieu du destinataire de la demande d'approbation. Si vous activez la case à cocher, le champ **ID utilisateur du destinataire** est désactivé, car le demandeur de l'approbation, c'est-à-dire l'expéditeur, est notifié à la place. Le nom de la réponse du flux de travail est modifié en conséquence, en **Créer une notification pour &lt;Expéditeur&gt;**. Si la case à cocher n'est pas activée, le nom de la réponse du flux de travail est **Créer une notification pour &lt;Utilisateur&gt;**.
         |**Code utilisateur du destinataire**|Spécifiez l'utilisateur auquel la notification doit être envoyée. Remarque : cette option n'est disponible que pour les réponses de workflow avec un espace réservé pour un utilisateur spécifique. Pour les réponses de workflow sans espaces réservés pour les utilisateurs, le destinataire de la notification est généralement défini par le paramètres utilisateur d'approbation.|  
         |**Type écriture notification**|Spécifie si la notification de flux de travail est déclenchée par une modification d'enregistrement, une demande d'approbation ou des données échues transmises.|
-        |**Page cible du lien**|Spécifiez une autre page dans [!INCLUDE[d365fin](includes/d365fin_md.md)] que le lien de la notification ouvre au lieu de la page par défaut.|  
+        |**Page cible du lien**|Spécifiez une autre page dans [!INCLUDE[d365fin](includes/d365fin_md.md)] que le lien de la notification ouvre au lieu de la page par défaut.<br /><br />Notez que la page doit avoir la même table source que l'enregistrement impliqué.|  
         |**Lien personnalisé**|Spécifiez l'URL d'un lien qui est ajouté à la notification en complément du lien vers une page dans [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
     2.  Pour spécifier des options pour une réponse de workflow impliquant la création d'une demande d'approbation, renseignez les champs comme indiqué dans le tableau suivant.  
 
@@ -91,7 +91,7 @@ Si votre scénario d'entreprise requiert des événements ou réponses de workfl
 >  N'activez pas un workflow tant que vous n'êtes pas sûr qu'il est terminé et que les étapes de workflow concernées peuvent démarrer.  
 
 > [!TIP]  
->  Pour visualiser les relations entre les tables qui sont utilisées dans le flux de travail, choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "TDites-moi ce que vous voulez faire), puis entrez **Flux de travail - Relations de table**.  
+>  Pour visualiser les relations entre les tables qui sont utilisées dans le flux de travail, choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), puis entrez **Flux de travail - Relations de table**.  
 
 ## <a name="see-also"></a>Voir aussi  
 [Créer des flux de travail à partir de modèles de flux de travail](across-how-to-create-workflows-from-workflow-templates.md)   

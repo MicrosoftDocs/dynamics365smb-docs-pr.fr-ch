@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/13/2020
+ms.date: 01/30/2020
 ms.author: sgroespe
-ms.openlocfilehash: 3388e30168e6f0da0dfee2b6dcd7e70cb7a62eac
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: f71c3fa29ab12c13395c07d5919fc14e86511e75
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953578"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999702"
 ---
 # <a name="administration"></a>Administration
 Les tâches d'administration centrale sont généralement effectuées par une fonction dans la société. La portée de ces tâches peut dépendre de la taille de la société et des responsabilités de l'administrateur. Ces tâches sont notamment la gestion de la synchronisation de la base de données des files projets et messages, la configuration des utilisateurs et la personnalisation de l'interface utilisateur.  
@@ -24,7 +24,7 @@ Il est important d'entrer des valeurs de configuration correctes dès le début 
 
 Que vous implémentiez les valeurs de configuration à l'aide de RapidStart Services ou que vous les entriez manuellement dans la nouvelle société, vous pouvez justifier vos choix à l'aide de quelques recommandations générales pour les champs de configuration sélectionnés, susceptibles de rendre la solution inefficace en cas de configuration erronée.  
 
-Un super utilisateur ou un administrateur peut configurer une infrastructure d'échange de données pour permettre aux utilisateurs d'exporter et d'importer des données dans des fichiers de banques ou de salaires, par exemple plusieurs processus de gestion d'espèces.
+Un super utilisateur ou un administrateur peut configurer une infrastructure d'échange de données pour permettre aux utilisateurs d'exporter et d'importer des données dans des fichiers de banques ou de salaires, par exemple plusieurs processus de gestion d'espèces. Pour plus d'informations, voir [Échanger des données par voir électronique](across-data-exchange.md).
 
 > [!NOTE]
 > Vous pouvez configurer une nouvelle société dans [!INCLUDE[d365fin](includes/d365fin_md.md)] avec RapidStart Services, qui est un outil conçu pour réduire les temps de déploiement, améliorer la qualité de l’implémentation, présenter une approche reproductible des implémentations et augmenter la productivité en automatisant et en simplifiant des tâches récurrentes. Pour plus d'informations, voir [Configuration d'une société avec RapidStart Services](admin-set-up-a-company-with-rapidstart.md).

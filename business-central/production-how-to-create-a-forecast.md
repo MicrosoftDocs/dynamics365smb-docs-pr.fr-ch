@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 01/29/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8ae3e142946ff968a1b1357df1a1634734c0392c
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 71d62cdd0e21d0eb2d10f5b33e30be91e92d0928
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2883397"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999943"
 ---
 # <a name="create-a-demand-forecast"></a>Créer une prévision de la demande
 Vous pouvez créer des prévisions de vente et de production à l'aide de la page **Prévision demande**.  
@@ -51,18 +51,18 @@ Vous pouvez indiquer dans les paramètres production si vous souhaitez filtrer l
 
 ## <a name="to-create-a-demand-forecast"></a>Pour créer une prévision de la demande
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Prévision demande**, puis choisissez le lien associé.  
-2.  Sur le raccourci **Général**, choisissez une prévision dans le champ **Nom prévision demande**. Plusieurs prévisions peuvent exister, qui se différencient par leur nom et leur type.  
-3.  Dans le champ **Filtre magasin**, sélectionnez le magasin auquel s'applique la prévision.  
-4.  Dans le champ **Type prévision**, choisissez **Article vente**, **Composant** ou **Les deux**. Si vous sélectionnez **Article vente** ou **Composant**, vous pouvez modifier la quantité par période. Si vous sélectionnez **Les deux**, vous ne pouvez pas modifier la quantité mais vous pouvez choisir le bouton flèche déroulante afin de visualiser les écritures prévision demande.  
-5.  Spécifiez un **filtre date** si vous voulez limiter la quantité de données affichées.  
-6.  Sur le raccourci **Matrice Prévision demande**, entrez les quantités prévues d'**Article vente** ou la prévision **Composant** pour les différentes périodes.  
-7.  Sur le raccourci **Options matrice**, définissez l'intervalle de temps dans le champ **Afficher par** pour changer la période affichée dans chaque colonne. Vous pouvez choisir entre les intervalles suivants : **Jour**, **Semaine**, **Mois**, **Trimestre**, **Année**, ou **Période comptable**, telle qu'elle est paramétrée dans Gestion financière.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Prévision demande**, puis choisissez le lien associé.  
+2. Sur le raccourci **Général**, choisissez une prévision dans le champ **Nom prévision demande**. Plusieurs prévisions peuvent exister, qui se différencient par leur nom et leur type.  
+3. Dans le champ **Filtre magasin**, sélectionnez le magasin auquel s'applique la prévision.
+4. Dans le champ **Afficher par** pour modifier la période affichée dans chaque colonne. Vous pouvez choisir entre les intervalles suivants : **Jour**, **Semaine**, **Mois**, **Trimestre**, **Année** ou **Période comptable**, tel que paramétré dans votre espace financier.    
 
-    > [!NOTE]  
-    >  Vous devez choisir l'intervalle de temps que vous voulez utiliser pour les prévisions futures de façon à ce qu'il soit toujours cohérent. Lorsque vous entrez une quantité prévision, elle vaut dès le premier jour de l'intervalle de temps que vous sélectionnez. Par exemple, si vous sélectionnez un mois, vous devez entrer la quantité prévision au premier jour du mois. Si vous sélectionnez un trimestre, vous devez entrer la quantité prévision au premier jour du premier mois du trimestre.  
+> [!NOTE]  
+>  Vous devez choisir l'intervalle de temps que vous voulez utiliser pour les prévisions futures de façon à ce qu'il soit toujours cohérent. Lorsque vous entrez une quantité prévision, elle vaut dès le premier jour de l'intervalle de temps que vous sélectionnez. Par exemple, si vous sélectionnez un mois, vous devez entrer la quantité prévision au premier jour du mois. Si vous sélectionnez un trimestre, vous devez entrer la quantité prévision au premier jour du premier mois du trimestre.
 
-8.  Dans le champ **Afficher en tant que**, sélectionnez la manière dont seront affichées les quantités prévision pour l'intervalle de temps. Si vous sélectionnez **Solde période**, le solde période est affiché pour l'intervalle de temps. Si vous sélectionnez **Solde au**, la page affiche le solde au dernier jour de l'intervalle de temps.  
+5. Dans le champ **Afficher en tant que**, sélectionnez la manière dont seront affichées les quantités prévision pour l'intervalle de temps. Si vous sélectionnez **Solde période**, le solde période est affiché pour l'intervalle de temps. Si vous sélectionnez **Solde au**, la page affiche le solde au dernier jour de l'intervalle de temps.  
+6. Dans le champ **Type prévision**, choisissez **Article vente**, **Composant** ou **Les deux**. Si vous sélectionnez **Article vente** ou **Composant**, vous pouvez modifier la quantité par période. Si vous sélectionnez **Les deux**, vous ne pouvez pas modifier la quantité mais vous pouvez choisir le bouton flèche déroulante afin de visualiser les écritures prévision demande.  
+7. Spécifiez un **filtre date** si vous voulez limiter la quantité de données affichées.  
+8. Sur le raccourci **Matrice Prévision demande**, entrez les quantités prévues en saisissant une quantité dans la cellule représentant un article à une date ou une période particulière. Notez que dans les cellules vides, le bouton de recherche ouvre une page vide indiquant que vous devez saisir manuellement une valeur.   
 
 > [!NOTE]  
 >  Vous pouvez également modifier une prévision existante. Sur la page **Matrice Prévision demande**, choisissez l'action **Copier prévision demande** et renseignez la page **Prévision demande** à l'aide de la prévision existante. Vous pouvez alors modifier les quantités en fonction des besoins.  
