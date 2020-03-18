@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: barcode
 ms.date: 11/20/2019
 ms.author: sgroespe
-ms.openlocfilehash: 209bbe3539fb99c626376149c22c419b4b476608
-ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
+ms.openlocfilehash: 64391913910dfc963d430efa3d00a75491a6c41f
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832350"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097807"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Utilisation des systèmes de saisie automatisée (ADCS)
 
 > [!NOTE]
-> Dans la version standard de [!INCLUDE[d365fin](includes/d365fin_md.md)], ADCS fonctionne uniquement dans les déploiements sur site. Toutefois, un partenaire Microsoft peut le faire fonctionner dans les déploiements en ligne à l'aide de Power Apps ou une application similaire.
+> La solution ADCS offre un moyen pour [!INCLUDE[d365fin](includes/d365fin_md.md)] de communiquer avec des appareils portables via des services Web. Vous devez travailler avec un partenaire Microsoft qui peut fournir le lien entre le service Web et l'appareil portable spécifique. 
 
 Vous pouvez utiliser votre système de saisie automatisée pour enregistrer le mouvement des articles de l'entrepôt et certaines activités de la feuille, notamment les ajustements de quantité de la feuille article entrepôt et les inventaires. ADCS implique généralement la numérisation des codes à barres.
 
@@ -32,7 +32,23 @@ En fonction des besoins de votre entrepôt, définissez la quantité d'informati
 - Trier les informations.  
 - Messages affichant les confirmations ou erreurs sur les activités effectuées et enregistrées par l'utilisateur de périphérique mobile.
 
-Pour plus d'informations, voir [Configuration d'un système de saisie automatisée](/dynamics-nav/Configuring-Automated-Data-Capture-System) dans l'Aide destinée aux développeurs et aux professionnels de l'informatique.
+## <a name="to-enable-web-services-for-adcs"></a>Pour activer les services Web pour ADCS
+Pour utiliser Automated Data Capture System, vous devez activer le service Web ADCS.  
+
+## <a name="to-enable-and-publish-the-adcs-web-service"></a>Pour activer et publier le service Web ADCS  
+
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Services Web**, puis sélectionnez le lien associé.
+2. Sélectionnez l'action **Nouveau**.  
+3. Sur la page **Services Web**, entrez les informations suivantes sur une nouvelle ligne :  
+
+    |Champ|Valeur|  
+    |---------------------------------|-----------|  
+    |**Type d'objet**|Codeunit|  
+    |**ID d'objet**|7714|  
+    |**Nom du service**|ADCS **Important :** Vous devez nommer le service **ADCS**.|  
+
+5. Cochez la case **Publié**.  
+6. Cliquez sur le bouton **OK**.  
 
 ## <a name="to-set-up-a-warehouse-to-use-adcs"></a>Pour configurer le module Gestion d'entrepôt  
 Pour utiliser le système de saisie automatisée, vous devez indiquer quels entrepôts utilisent cette technologie.  
@@ -79,7 +95,8 @@ Vous pouvez ajouter n'importe quel utilisateur pour l'utilisation d'un système 
 ## <a name="to-create-and-customize-miniforms"></a>Pour créer et personnaliser les écrans
 Vous utilisez des écrans pour décrire les informations que vous souhaitez présenter sur un terminal de saisie portable. Par exemple, vous pouvez créer des écrans pour prendre en charge l'activité entrepôt de prélèvement des articles. Après avoir créé un écran, vous pouvez lui ajouter des fonctions pour les actions qu'un utilisateur effectue couramment avec des terminaux de saisie portables, par exemple, déplacer une ligne vers le haut ou vers le bas.  
 
-Pour appliquer ou modifier la fonctionnalité d'une fonction d'écran, vous devez créer un codeunit ou en modifier un existant pour exécuter l'action ou la réponse requise. Pour en savoir plus sur la fonctionnalité de saisie automatisée, examinez les codeunits tels que 7705, qui permet de gérer la fonctionnalité de connexion. Le codeunit 7705 indique la manière dont un écran de type fiche fonctionne.  
+> [!NOTE] 
+> Pour appliquer ou modifier la fonctionnalité d'une fonction d'écran, vous devez créer un codeunit pour le champ **Traité par Codeunit** pour exécuter l'action ou la réponse requise. Vous pouvez en savoir plus sur la fonctionnalité ADCS en examinant les unités de codage, telles que 7705, 7706, 7712 et 7713.  
 
 ### <a name="to-create-a-miniform-for-adcs"></a>Pour créer un écran de saisie automatisée  
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Écrans**, puis sélectionnez le lien associé.  
@@ -92,29 +109,15 @@ Pour appliquer ou modifier la fonctionnalité d'une fonction d'écran, vous deve
 
 Après avoir créé un écran, vous devez créer des fonctions et associer une fonctionnalité aux différentes entrées de clavier.  
 
-### <a name="to-add-support-for-a-function-key"></a>Pour ajouter la prise en charge d'une touche de fonction  
-1.  Ajoutez le code similaire à l'exemple suivant au fichier the.xsl du plug-in. Cela crée une fonction pour la touche **F6**. Les informations de séquence des touches peuvent être obtenues auprès du fabricant du périphérique.  
-    ```xml  
-    <xsl:template match="Function[.='F6']">  
-      <Function Key1="27" Key2="91" Key3="49" Key4="55" Key5="126" Key6="0"><xsl:value-of select="."/></Function>  
-    </xsl:template>  
-    ```  
-2.  Dans l'environnement de développement [!INCLUDE[d365fin](includes/d365fin_md.md)], ouvrez la table 7702 et ajoutez un code représentant la nouvelle touche. Dans cet exemple, créez une clé nommée **F6**.  
-3.  Ajoutez le code C/AL à la fonction appropriée du codeunit spécifique de l'écran afin de gérer la touche de fonction.  
-
 ### <a name="to-customize-miniform-functions"></a>Pour personnaliser les fonctions d'écran  
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Écrans**, puis sélectionnez le lien associé.  
 2.  Sélectionnez un écran dans la liste, puis sélectionnez l'action **Modifier**.  
 3.  Choisissez l'action **Fonctions**.  
 4.  Dans la liste déroulante **Code fonction**, sélectionnez le code pour représenter la fonction que vous souhaitez associer à l'écran. Par exemple, vous pouvez sélectionner ESC, qui associe une fonctionnalité à l'appui sur la touche Échap.  
 
-Dans l'environnement de développement [!INCLUDE[d365fin](includes/d365fin_md.md)], modifiez le code du champ **Traité par Codeunit** pour créer ou modifier le code visant à exécuter l'action ou la réponse requise.
-
-Pour plus d'informations, voir [Configuration d'un système de saisie automatisée](/dynamics-nav/Configuring-Automated-Data-Capture-System) dans l'Aide destinée aux développeurs et aux professionnels de l'informatique.
-
 ## <a name="see-also"></a>Voir aussi  
 [Gestion d’entrepôt](warehouse-manage-warehouse.md)  
-[STOCKS ET EN-COURS](inventory-manage-inventory.md)  
+[Stock](inventory-manage-inventory.md)  
 [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)     
 [Gestion des assemblages](assembly-assemble-items.md)    
 [Détails de conception : gestion d'entrepôt](design-details-warehouse-management.md)  

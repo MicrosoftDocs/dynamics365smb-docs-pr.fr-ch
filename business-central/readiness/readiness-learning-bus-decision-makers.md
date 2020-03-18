@@ -1,20 +1,20 @@
 ---
 title: Catalogue d'apprentissage Décideur d'entreprise
 description: Catalogue d'apprentissage Décideur d'entreprise
-author: SusanneWindfeldPedersen
-ms.custom: na
-ms.date: 11/06/2019
+author: loreleishannonmsft
+ms.date: 02/19/2020
 ms.topic: article
-ms.service: dynamics365-business-central
-ms.author: solsen
-ms.openlocfilehash: fee5c53d49e8a03fce2c7274f6e41689905dab7c
-ms.sourcegitcommit: 86498fe4326b9ce26cc31e8645db27570d13bdf9
+ms.author: v-lshann
+ms.openlocfilehash: 29830b2d243cde7ab5b68f0967883db07c713f24
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2767767"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097590"
 ---
 # <a name="business-decision-makers-learning-catalog"></a>Catalogue d'apprentissage Décideurs d'entreprise
+
+Décidez-vous d'investir dans les nouvelles technologies ?
 
 Le catalogue suivant est organisé en partant des connaissances de base jusqu'aux spécialisées, et des plus élémentaires aux plus avancées. Si le contenu existe en plusieurs formats, nous vous le ferons savoir afin que vous puissiez choisir le format de formation qui répond le mieux à vos besoins.  
 

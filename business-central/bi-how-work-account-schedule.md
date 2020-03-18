@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 01/13/2020
+ms.date: 02/12/2020
 ms.author: edupont
-ms.openlocfilehash: 576e974221d6fb1e7aa92b200338e32b1339b4d3
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 21e83f37405c01d5df00e6b392ded3ce3996d0c2
+ms.sourcegitcommit: c78df3aefb3e2ed8c28e5ac8340d56ab787212e8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953842"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "3071973"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Préparer la génération d'états financiers avec des tableaux d'analyse et des catégories de compte
 Utilisez les tableaux d'analyse pour obtenir un aperçu des données financières enregistrées dans votre plan comptable. Les tableaux d'analyse analysent les chiffres des comptes généraux et comparent les écritures comptables et les écritures comptables budget. Les résultats s'affichent dans les graphiques de votre tableau de bord, comme le graphique Trésorerie, et dans les états, comme les états Comptes de gestion et Bilan.
@@ -35,8 +35,12 @@ Vous pouvez également comparer deux ou plusieurs tableaux d'analyse et présent
 * créer autant de tableaux d'analyse que nécessaire, chacun étant doté d'un nom unique ;
 * configurer différentes présentations d'états et imprimer les états avec les chiffre actuels.
 
-## <a name="account-categories"></a>Catégories de compte
-Vous pouvez utiliser les catégories de compte pour modifier la présentation de vos états financiers. Une fois que vous avez configuré vos catégories de compte sur la page **Catégories de compte général**, et que vous sélectionnez l'action **Générer les tableaux d'analyse**, les tableaux d'analyse sous-jacents pour les états financiers de base sont mis à jour. La prochaine fois que vous exécuterez l'un de ces états, par exemple l'état Relevé de solde, de nouveaux totaux et des sous-entrées seront ajoutés, en fonction de vos modifications. Pour plus d'informations, voir [Catégories de compte](finance-general-ledger.md#account-categories).  
+## <a name="gl-account-categories"></a>Catégories de compte général
+Vous pouvez utiliser les catégories de compte général pour modifier la présentation de vos états financiers. Une fois que vous avez configuré vos catégories de compte sur la page **Catégories de compte général**, et que vous sélectionnez l'action **Générer les tableaux d'analyse**, les tableaux d'analyse sous-jacents pour les états financiers de base sont mis à jour. La prochaine fois que vous exécuterez l'un de ces états, par exemple l'état **Relevé de solde**, de nouveaux totaux et des sous-entrées seront ajoutés, en fonction de vos modifications.
+
+> [!NOTE]
+> Les catégories de compte de niveau supérieur, telles que le nœud **Passif**, sont fixes et vous ne pouvez pas ajouter les vôtres. Cependant, vous pouvez supprimer et ajouter des catégories de compte à des niveaux inférieurs et modifier leur structure pour définir la façon dont le tableau d'analyse associé apparaît dans les états.<br /><br />
+> Il est recommandé de créer et de structurer vos propres catégories de compte général de niveau inférieur à partir de zéro, dans une hiérarchie si nécessaire, plutôt que d'essayer de réorganiser les catégories existantes. Par exemple, vous pouvez restructurer le nœud **Passif** pour contenir un nouveau nœud **Équité** suivi des nœuds **Passif à court terme** et **Passif à long terme**.
 
 ## <a name="to-create-a-new-account-schedule"></a>Pour créer un tableau d'analyse  
 Vous pouvez utiliser des tableaux d'analyse pour analyser les chiffres des comptes généraux ou pour comparer les écritures comptables et les écritures comptables budget. Par exemple, vous pouvez afficher les écritures comptables en tant que pourcentages des écritures budget.
@@ -192,7 +196,7 @@ Pour effectuer des calculs basés par périodes, vous devez entrer une formule d
 > [!NOTE]
 > Il n'est pas toujours transparent de déterminer les périodes à comparer, car vous pouvez définir un filtre date sur un état qui couvre des dates différentes des périodes comptables représentées dans les données du plan comptable. Par exemple, vous créez un tableau d'analyse dans lequel vous souhaitez comparer cette période avec la même période l'année précédente. Vous définissez le champ **Filtre période date comparaison** sur *-1EC*. Ensuite, vous exécutez l'état le 28 février et définissez le filtre date sur Janvier et février. Par conséquent, le tableau d'analyse compare les mois de janvier et février de cette année au mois de janvier de l'année précédente, qui est la seule période comptable terminée des deux pour l'année précédente.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-financial-reports-dynamics-365-business-centralindex"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/configure-financial-reports-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/configure-financial-reports-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Voir aussi
 [Veille économique](bi.md)  

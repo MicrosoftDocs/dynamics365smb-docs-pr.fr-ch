@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 97d299372bc140c29138d6b83c34ec18254c4fcd
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: e128e5a4f08364ccea9ae0aa4e284943688404c4
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882245"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076453"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Pratiques de configuration recommandées : méthodes de réapprovisionnement
 Sur les fiches article, le champ **Méthode réapprovisionnement** propose quatre méthodes de planification différentes qui déterminent le mode d'interaction de chacun des paramètres de planification.  
@@ -43,10 +43,6 @@ Le tableau suivant propose des recommandations pour effectuer son choix parmi ce
 
 ## <a name="see-also"></a>Voir aussi  
  [Pratiques de configuration recommandées : planification de l'approvisionnement](setup-best-practices-supply-planning.md)   
- [Détails de conception : méthodes de réapprovisionnement](design-details-reordering-policies.md)   
- [Détails de conception : commande](design-details-order.md)   
- [Détails de conception : lot pour lot](design-details-lot-for-lot.md)   
- [Détails de conception : qté fixe de commande.](design-details-fixed-reorder-qty.md)   
- [Détails de conception : qté maximum.](design-details-maximum-qty.md)   
+ [Détails de conception : gestion des méthodes de réapprovisionnement](design-details-handling-reordering-policies.md)   
  [Configurer des domaines d'application complexes à l'aide des meilleures pratiques](set-up-complex-application-areas-using-best-practices.md)  
  [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

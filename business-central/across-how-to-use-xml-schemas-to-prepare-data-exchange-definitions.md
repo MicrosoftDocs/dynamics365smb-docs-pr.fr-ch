@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0d028206d1e17c7a1093cf2b93da02894909deb5
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 65392cc5f47353b9266d5198b739835fd329c204
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554461"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076698"
 ---
 # <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Utiliser des schémas XML pour préparer des définitions d'échange de données
 Pour activer l'importation/exportation des données dans des fichiers XML à travers l'infrastructure d'échange de données de [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez utiliser des schémas XML pour définir les éléments de données à échanger avec [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vous effectuez ce travail sur la page **Visionneuse de schéma XML** en chargeant le fichier de schéma XML, en sélectionnant les éléments de données appropriés, puis en initialisant soit une définition d'échange de données ou un XMLport.  
@@ -40,7 +40,7 @@ Pour activer l'importation/exportation des données dans des fichiers XML à tr
 
 1.  Assurez-vous que le fichier de schéma XML approprié est disponible. L'extension du fichier est .xsd.  
 
-2.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Schémas XML**, puis sélectionnez le lien associé.  
+2.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Schémas XML**, puis sélectionnez le lien associé.  
 
 3.  Sélectionnez l'action **Nouveau**.  
 
@@ -62,7 +62,7 @@ Pour activer l'importation/exportation des données dans des fichiers XML à tr
 
 ### <a name="to-select-or-clear-nodes-in-an-xml-schema"></a>Sélectionner ou supprimer des nœuds dans un schéma XML  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Visionneuse de schéma XML**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Visionneuse de schéma XML**, puis sélectionnez le lien associé.  
 
 2.  Renseignez les champs de l'en-tête, comme indiqué dans le tableau suivant.  
 
@@ -100,7 +100,7 @@ Pour activer l'importation/exportation des données dans des fichiers XML à tr
 
 ### <a name="to-generate-a-data-exchange-definition-that-is-based-on-an-xml-schema"></a>Générer une définition d'échange de données basée sur un schéma XML  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Schémas XML**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Schémas XML**, puis sélectionnez le lien associé.  
 
 2.  Sélectionnez le schéma XML approprié, puis sélectionnez l'action **Ouvrir la visionneuse de schéma XML**.  
 
@@ -115,7 +115,7 @@ Pour activer l'importation/exportation des données dans des fichiers XML à tr
 
 ### <a name="to-generate-an-xmlport-that-is-based-on-an-xml-schema"></a>Générer un XMLport basé sur un schéma XML  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Schémas XML**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Schémas XML**, puis sélectionnez le lien associé.  
 
 2.  Sélectionnez le schéma XML approprié, puis sélectionnez l'action **Ouvrir la visionneuse de schéma XML**.  
 
@@ -129,6 +129,6 @@ Pour activer l'importation/exportation des données dans des fichiers XML à tr
 
 ## <a name="see-also"></a>Voir aussi  
 [Configurer les définitions d'échange de données](across-how-to-set-up-data-exchange-definitions.md)   
-[Exporter des paiements vers un fichier bancaire](payables-how-export-payments-bank-file.md)   
+[Exporter des paiements vers un fichier bancaire](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)   
 [Recouvrement de paiements par prélèvement automatique SEPA](finance-collect-payments-with-sepa-direct-debit.md)   
 [À propos de l'infrastructure d'échange de données](across-about-the-data-exchange-framework.md)

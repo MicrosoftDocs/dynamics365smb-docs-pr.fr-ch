@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, customize
-ms.date: 10/01/2019
+ms.date: 02/20/2020
 ms.author: edupont
-ms.openlocfilehash: 137d44db160d0f1e832cc344a779e6bf01a64bbd
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: df141f15eda20b1c3ce17e12e726f79a20532915
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2911158"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097759"
 ---
 # <a name="select-a-check-layout"></a>Sélectionner une mise en page de chèque
 Vous pouvez concevoir vos chèques de sorte à respecter les normes fixées par les autorités locales. Vous pouvez imprimer des images de chèques en anglais, en français ou en espagnol.
@@ -38,8 +38,50 @@ Une fois que vous avez défini les mises en page de chèques, vous pouvez imprim
 
 Pour modifier l'une de ces mises en page de chèque par défaut, utilisez l'intégration Word ou RDLC. Pour plus d'informations, voir [Créer et modifier des présentations de rapport personnalisées](ui-how-create-custom-report-layout.md).
 
+## <a name="using-micr-and-security-fonts"></a>Utilisation des polices de sécurité et MICR
+La version en ligne de [!INCLUDE[d365fin](includes/d365fin_md.md)] contient des polices préinstallées sur les serveurs qui peuvent être utilisées lors de la définition des mises en page de chèque. Ci-après, découvrez les polices disponibles et des liens vers des informations détaillées fournies par les fournisseurs tiers de polices.
+
+> [!Important]
+> Les polices de sécurité de chèque et MICR de Microsoft Dynamics[!INCLUDE[d365fin](includes/d365fin_md.md)] sont concédées sous licence dans un package de polices d'IDAutomation.com, Inc. Ces produits ne peuvent être utilisés que dans le cadre et en relation avec Microsoft Dynamics[!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+Dans la mise à jour 15.3 et les versions ultérieures, les polices MICR sont installées et disponibles à l'utilisation. Les normes E-13B et CMC-7 sont prises en charge. En plus des polices MICR, des polices de sécurité spéciales sont disponibles pour générer du texte, des noms, des montants et les symboles monétaires Dollar, Euro, Pound et Yen, qui sont difficiles à modifier une fois qu'un chèque a été imprimé.
+
+> [!NOTE]
+> Pour des raisons de sécurité et juridiques, vous ne pouvez pas télécharger de polices personnalisées sur l'environnement [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+### <a name="micr-e-13b-specifications"></a>Spécifications MICR E-13B
+Voici un résumé des spécifications des polices MICR E-13B qui peuvent se révéler utiles lors du calibrage des polices sur les mises en page de chèque avec des imprimantes MICR spécifiques.
+
+![Spécifications MICR E-13B](media/font_MICR_E-13B_Specifications.png "Spécifications MICR E-13B")
+
+La spécification complète des polices MICR E-13B est disponible dans la documentation du fournisseur ici : (https://www.idautomation.com/micr-fonts/e13b/).
+
+### <a name="micr-cmc-7-specifications"></a>Spécifications MICR CMC-7
+Les polices CMC-7 suivantes sont disponibles dans [!INCLUDE[d365fin](includes/d365fin_md.md)] en ligne :
+
+- IDAutomationCMC7
+- IDAutomationCMC7n10
+- IDAutomationCMC7n25
+-   IDAutomationCMC7n40
+
+Voici un résumé des spécifications des polices MICR CMC-7 qui peuvent se révéler utiles lors du calibrage des polices sur les mises en page de chèque avec des imprimantes MICR spécifiques.
+
+![Spécifications MICR CMC-7](media/font_MICR_CMC-7_Specifications.png "Spécifications MICR CMC-7")
+
+La spécification complète des polices MICR CMC-7 est disponible dans la documentation du fournisseur ici : (http://www.idautomation.com/micr-fonts/cmc7/).
+
+### <a name="secure-font-specifications"></a>Spécifications des polices sécurisées
+Voici un résumé des spécifications des polices de sécurité des chèques qui peuvent se révéler utiles lors du calibrage des polices sur les mises en page de chèque avec des imprimantes MICR spécifiques.
+
+![Spécifications des polices de sécurité des chèques](media/font_check-security-font_Specifications.png "Spécifications des polices de sécurité des chèques")
+
+La spécification complète des polices de sécurité des chèques est disponible dans la documentation du fournisseur ici : (https://www.idautomation.com/security-fonts/).
+
+Les polices à d'autres fins sont également disponibles dans [!INCLUDE[prodshort](includes/prodshort.md)]. Pour plus d'informations, voir [Polices disponibles](ui-fonts.md)
+
 ## <a name="see-also"></a>Voir aussi
 [Créer et modifier des présentations de rapport personnalisées](ui-how-create-custom-report-layout.md)  
+[Polices de Business Central](ui-fonts.md)  
 [Gestion des comptes fournisseur](payables-manage-payables.md)  
 [Rapprochement de comptes bancaires](bank-manage-bank-accounts.md)   
 [Exécution des processus de clôture d'exercice](year-how-complete-period-end-processes.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 01/30/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4ce48121b36ecd3f153d846f346c52b39a0c64bb
-ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
+ms.openlocfilehash: 154d72032171fa6fbe223ba4f152f868d577c8c7
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "2999919"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076722"
 ---
 # <a name="about-the-data-exchange-framework"></a>À propos de l'infrastructure d'échange de données
 Vous pouvez utiliser l'infrastructure d'échange de données pour gérer les échanges des documents commerciaux, des fichiers bancaires, des taux de change devise et tous les autres fichiers de données avec vos partenaires commerciaux.
@@ -40,13 +40,13 @@ En tant qu'administrateur ou partenaire Microsoft, vous pouvez utiliser l'infras
   Pour recevoir, par exemple, une facture en tant que document ROC électronique, vous la traitez comme lorsque vous recevez un document PEPPOL électronique. La réception et la conversion de documents électroniques à partir du service ROC sont exécutées par l'infrastructure d'échange de données, représentée par la définition d'échange de données **ROC - Facture**.  
 
  ## <a name="bank-files"></a>Fichiers bancaires  
- Les formats de fichiers d'échange de données bancaire avec des systèmes ERP varient selon le fournisseur du fichier et du pays ou de la région. [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge l'importation et l'exportation de fichiers bancaires SEPA (espace unique de paiement en euros) et l'extension AMC Banking 365 Fundamentals extension vous permet de vous connecter à un service conversion données bancaires fourni par le fournisseur extérieur, AMC Consult. Pour assurer la prise en charge d'autres formats de documents électroniques, vous pouvez utiliser l'infrastructure d'échange de données.  
+ Les formats de fichiers d'échange de données bancaire avec des systèmes ERP varient selon le fournisseur du fichier et du pays ou de la région. [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge l'importation et l'exportation de fichiers bancaires SEPA (espace unique de paiement en euros) et l'extension AMC Banking 365 Fundamentals vous permet de vous connecter à une extension AMC Banking 365 Fundamentals fournie par le fournisseur extérieur, AMC Consult. Pour assurer la prise en charge d'autres formats de documents électroniques, vous pouvez utiliser l'infrastructure d'échange de données.  
 
- Pour exporter des virements SEPA, choisissez le bouton **Exporter les paiements dans un fichier** sur la page **Feuille paiement**, puis téléchargez le fichier pour traiter les règlements à votre banque. Tout d'abord, vous devez configurer les différentes données de base, telles que le compte bancaire, les fournisseurs, et les modes de règlement. La conversion des données et l'exportation des données bancaires SEPA sont exécutées par un codeunit et un XMLport dédiés, représentés par la configuration importer/exporter de la banque **Virement SEPA**. Vous pouvez aussi définir l'extension AMC Banking 365 Fundamentals pour exécuter l'exportation, représentée par la définition d'échange de données **Service conversion données bancaires - Virement**.  
+ Pour exporter des virements SEPA, choisissez le bouton **Exporter les paiements dans un fichier** sur la page **Feuille paiement**, puis téléchargez le fichier pour traiter les règlements à votre banque. Tout d'abord, vous devez configurer les différentes données de base, telles que le compte bancaire, les fournisseurs, et les modes de règlement. La conversion des données et l'exportation des données bancaires SEPA sont exécutées par un codeunit et un XMLport dédiés, représentés par la configuration importer/exporter de la banque **Virement SEPA**. Vous pouvez aussi définir l'extension AMC Banking 365 Fundamentals pour exécuter l'exportation, représentée par la définition d'échange de données de l'extension **AMC Banking 365 Fundamentals - Virement**.  
 
  Pour exporter des instructions de prélèvements automatiques SEPA, choisissez le bouton **Exporter fichier prélèvement** sur la page **Recouvrements prélèvement**, puis envoyez à votre banque pour collecter automatiquement les règlements client associés. Vous devez d'abord configurer les comptes bancaires, les clients, les mandats de prélèvements automatique, ainsi que les modes de règlement. La conversion des données et l'exportation des données bancaires SEPA sont exécutées par un codeunit et un XMLport dédiés, représentés par la configuration importer/exporter de la banque **Virement automatique SEPA**.  
 
- Pour importer des relevés bancaires SEPA, choisissez le bouton Importer relevé bancaire sur les pages **Feuille rapprochement bancaire** et **Rapprochement bancaire**, puis appliquez chaque écriture de relevé bancaire aux paiements ou écritures comptables bancaires, manuellement ou automatiquement. Vous devez d'abord configurer des comptes bancaires. L'importation et la conversion des données bancaires SEPA sont exécutées par l'infrastructure d'échange de données, représentée par la définition d'échange de données **SEPA CAMT**. Vous pouvez aussi définir l'extension AMC Banking 365 Fundamentals pour exécuter l'importation, représentée par la définition d'échange de données **Service conversion données bancaires - Relevé**.  
+ Pour importer des relevés bancaires SEPA, choisissez le bouton Importer relevé bancaire sur les pages **Feuille rapprochement bancaire** et **Rapprochement bancaire**, puis appliquez chaque écriture de relevé bancaire aux paiements ou écritures comptables bancaires, manuellement ou automatiquement. Vous devez d'abord configurer des comptes bancaires. L'importation et la conversion des données bancaires SEPA sont exécutées par l'infrastructure d'échange de données, représentée par la définition d'échange de données **SEPA CAMT**. Vous pouvez aussi définir l'extension AMC Banking 365 Fundamentals pour exécuter l'importation, représentée par la définition d'échange de données de l'extension **AMC Banking 365 Fundamentals - Relevé bancaire**.  
 
  En outre, les versions locales de [!INCLUDE[d365fin](includes/d365fin_md.md)] prennent en charge plusieurs autres formats de fichier pour importer/exporter des données bancaires, transactions de paie et autres données. Pour plus d'informations, reportez-vous à la section d'aide « Fonctionnalités locales » dans la version spécifique à votre pays de [!INCLUDE[d365fin](includes/d365fin_md.md)].
 

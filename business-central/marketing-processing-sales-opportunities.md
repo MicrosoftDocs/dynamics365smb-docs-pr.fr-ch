@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: dc88bfaac0fe65bfa5e5053529c5724b76787cac
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 92e2ad3723e2cb2b3b24f179d39462a98e9cc106
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308820"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076602"
 ---
 # <a name="process-sales-opportunities"></a>Traiter des opportunités de vente
 Une fois que vous avez créé une opportunité, il existe plusieurs fonctionnalités permettant de gérer l'opportunité et de la faire avancer jusqu'à l'achèvement.
@@ -27,9 +27,9 @@ Les opportunités de vente existantes sont disponibles sur la page **Liste des o
 
 | Pour afficher les opportunités pour | Alors |
 | --- | --- |
-| Tous les vendeurs et contacts |Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Liste des opportunités**, puis sélectionnez le lien associé. |
-| Un vendeur spécifique |Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Vendeurs**, puis sélectionnez le lien associé. Sélectionnez le vendeur, sélectionnez l'action **Opportunités**, puis l'action **Liste**. |
-| Un contact spécifique |Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Contacts**, puis sélectionnez le lien associé. Sélectionnez le contact dans la liste, puis sélectionnez l'action **Opportunités**. |
+| Tous les vendeurs et contacts |Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Liste des opportunités**, puis sélectionnez le lien associé. |
+| Un vendeur spécifique |Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Vendeurs**, puis sélectionnez le lien associé. Sélectionnez le vendeur, sélectionnez l'action **Opportunités**, puis l'action **Liste**. |
+| Un contact spécifique |Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Contacts**, puis sélectionnez le lien associé. Sélectionnez le contact dans la liste, puis sélectionnez l'action **Opportunités**. |
 
 Chacune de ces tâches ouvre la page **Liste des opportunités**.
 
@@ -50,7 +50,7 @@ Vous pouvez créer des devis pour les contacts qui ne sont pas enregistrés en t
 2. Renseignez les champs de votre choix.
 
 ## <a name="to-create-sales-orders-for-opportunities"></a>Pour créer des commandes vente pour les opportunités
-Vous pouvez effectuer des commandes vente à partir des devis que vous avez créés pour vos opportunités. Pour pouvoir créer des commandes vente pour vos contacts, vous devez créer le contact en tant que client. Pour plus d'informations, reportez-vous à [Créer un client, un fournisseur ou un compte bancaire à partir d'un contact](marketing-how-create-contacts-new-customers-vendors-bank-accounts.md).
+Vous pouvez effectuer des commandes vente à partir des devis que vous avez créés pour vos opportunités. Pour pouvoir créer des commandes vente pour vos contacts, vous devez créer le contact en tant que client. Pour plus d'informations, reportez-vous à [Créer des contacts](marketing-create-contact-companies.md).
 
 1. Sur la page **Liste des opportunités**, recherchez l'opportunité pour laquelle vous avez créée un devis vente.
 2. Sélectionnez l'option **Créer devis**. La page **Devis** s'ouvre et affiche le devis que vous avez affecté à l'opportunité.
@@ -65,7 +65,7 @@ Pour supprimer des opportunités clôturées à partir de la page **Liste des op
 
 Pour supprimer des opportunités clôturées à l'aide du traitement par lots **Supprimer les opportunités clôturées**, procédez comme suit :
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Supprimer opportunités**, puis choisissez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Supprimer les opportunités**, puis sélectionnez le lien associé.
 2. Dans la section **Opportunité**, configurez les filtres qui spécifient les opportunités clôturées à supprimer.
 3. Cliquez sur le bouton **OK**.
 

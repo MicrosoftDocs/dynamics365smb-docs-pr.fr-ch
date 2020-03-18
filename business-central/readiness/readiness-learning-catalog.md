@@ -1,17 +1,16 @@
 ---
 title: Catalogue d'apprentissage Business Central
 description: Catalogue d'apprentissage Business Central
-ms.topic: article
-ms.date: 11/05/2019
-ms.service: dynamics365-business-central
 author: loreleishannonmsft
+ms.date: 02/19/2020
+ms.topic: article
 ms.author: v-lshann
-ms.openlocfilehash: eb1dddd4a3c87fec6627d83ba701ef87caa7eada
-ms.sourcegitcommit: 86498fe4326b9ce26cc31e8645db27570d13bdf9
+ms.openlocfilehash: 44132a02a899202a95ad1510c9b837cb48e2150f
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2767790"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097614"
 ---
 # <a name="business-central-learning-catalog"></a>Catalogue d'apprentissage Business Central
 Trouvez la bonne formation en ligne, les ateliers en personne et les événements adaptés à votre rôle d’utilisateur ou de partenaire de Business Central.

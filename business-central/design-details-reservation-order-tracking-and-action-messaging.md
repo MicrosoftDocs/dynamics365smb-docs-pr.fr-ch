@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, replenishment, reordering
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a3b7c5c52590644a8f61c0d97312d7dd1342fc97
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: f179075a63ee42ba2cb61c3647b116536afd5a65
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878452"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076964"
 ---
 # <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Détails de conception : réservation, chaînage et message d'action
 Le système de réservation est complet et inclut les fonctionnalités étroitement liées et parallèles du Chaînage et des Messages d'action.  
@@ -80,7 +80,7 @@ Le système de réservation est complet et inclut les fonctionnalités étroitem
 
 -   Ordre de fabrication multi-niveaux où le champ **Mode de lancement** des articles enfants et parents associés est défini sur **Fabrication à la commande**. Le système de planification crée des réservations entre l'ordre de fabrication parent et les ordres de fabrication sous-jacents pour s'assurer qu'ils sont traités ensemble. Un tel lien de réservation remplace la méthode par défaut d'évaluation du stock et de lettrage de l'article.  
 
--   Un ordre de fabrication, un assemblage ou une commande achat dont le champ **Méthode réapprovisionnement** de l'article concerné est défini sur **Commande**. Le système de planification crée des réservations entre la demande et l'approvisionnement planifié pour s'assurer que l'approvisionnement spécifique est créé. Pour plus d'informations, consultez [Détails de conception : commande](design-details-order.md)  
+-   Un ordre de fabrication, un assemblage ou une commande achat dont le champ **Méthode réapprovisionnement** de l'article concerné est défini sur **Commande**. Le système de planification crée des réservations entre la demande et l'approvisionnement planifié pour s'assurer que l'approvisionnement spécifique est créé. Pour plus d'informations, reportez-vous à [Commande](design-details-handling-reordering-policies.md#order).  
 
 -   Un ordre de fabrication créé à partir d'une commande vente avec la fonction **Planification commande vente** est lié à la commande vente avec une réservation automatique.  
 

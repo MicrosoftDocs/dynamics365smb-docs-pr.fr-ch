@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 01/13/2020
+ms.date: 02/07/2020
 ms.author: sgroespe
-ms.openlocfilehash: 34c09b4acdad057bd5accd388335439e555dc733
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 8a0814c8fc275e4324195cddadddafe1683d809f
+ms.sourcegitcommit: c78df3aefb3e2ed8c28e5ac8340d56ab787212e8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953362"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "3071997"
 ---
 # <a name="personalize-your-workspace"></a>Personnaliser votre espace de travail
 Vous pouvez personnaliser votre espace de travail pour l'adapter à vos habitudes et préférences en modifiant les pages afin qu'elles n'affichent que les informations dont vous avez besoin, où vous avez en besoin. Les modifications de personnalisation que vous apportez n'affectent que ce que vous voyez, pas ce que voient les autres utilisateurs.
@@ -58,13 +58,14 @@ En ce qui concerne les autres personnalisations, les modifications apportées à
 |----|------------|-------|
 |Déplacer quelque chose, comme un champ, une colonne d'une liste, une mosaïque, une action ou une section|Pointez n'importe où sur ce que vous souhaitez déplacer, puis faites glisser vers la nouvelle position. La position est indiquée par une ligne verticale ou horizontale épaisse.<br /><br />![Icône Impossible de déplacer ici](media/personalization-cannot-move-here.png "Mode personnalisation - Icône Impossible de déplacer ici") indique que vous ne pouvez pas déplacer l'élément vers la position sélectionnée.|Les sections sont des subdivisions ou des zones d'une page qui contiennent des éléments comme des champs multiples, une autre page, un graphique, ou des mosaïques.<br /><br />Pour en savoir plus sur la personnalisation des actions, reportez-vous à la section [Personnalisation des actions](ui-personalization-user.md#Actions). |
 |Masquez quelque chose, comme un champ, une colonne d'une liste, une mosaïque, une action ou une section.|Choisissez la pointe de flèche, puis sélectionnez <b>Masquer</b>.|L'élément est grisé lorsque vous êtes en mode de personnalisation. Si le champ que vous masquez s'affiche également sur l'en-tête Raccourci lorsque ce dernier est réduit, le champ n'y apparaîtra plus.|
-|Affichez les actions et les champs masqués.|Pour un élément grisé (masqué), choisissez la pointe de flèche, puis choisissez <b>Afficher</b>.|L'élément masqué est à nouveau visible.|
+|Affichez les actions et les pièces masquées.|Pour un élément grisé (masqué), choisissez la pointe de flèche, puis choisissez <b>Afficher</b>.|L'élément masqué est à nouveau visible.|
 |Ajoutez un champ ou une colonne.|Dans la bannière <b>Personnalisation</b>, choisissez l'action <b>+ Champ</b>.<br /></br>Le volet <b>Ajouter un champ à la page</b> s'ouvre à droite. Il répertorie les champs que vous pouvez ajouter à la page.<br /><br />Pour ajouter un champ, faites-le glisser du volet vers la position que vous souhaitez. La position est indiquée par une ligne verticale ou horizontale épaisse.|Chaque page comprend un ensemble prédéfini de champs que vous pouvez afficher. Utilisez cette procédure pour afficher des champs ou des colonnes qui n'ont pas été précédemment affichés ou pour afficher des champs que vous avez masqués.|
 |Affichez un champ dans l'en-tête d'un raccourci lorsque le raccourci est réduit.|Choisissez la pointe de la flèche, puis cliquez sur <b>Afficher si réduit</b>. <br /> <br />Si vous ne voyez pas cette option, elle est déjà définie. Dans ce cas, pour arrêter d'afficher le champ sur l'en-tête du raccourci, sélectionnez <b>Afficher toujours</b>.|*Raccourci* désigne le terme employé pour un groupe de champs qui s'affichent sous un en-tête commun. Utilisez l'option <b>Afficher si réduit</b> pour afficher les champs les plus importants. Si vous sélectionnez un champ dans l'en-tête, le raccourci s'ouvrira et se concentrera sur le champ sélectionné.<br /><br />Cette option s'applique uniquement si une page a plusieurs raccourcis. S'il s'agit de l'unique raccourci, il ne peut pas être réduit, aussi l'option <b>Afficher si réduit</b> n'est pas disponible.|
 |Affichez un champ uniquement lorsque vous sélectionnez **Afficher plus**.|Choisissez la pointe de flèche, puis cliquez sur <b>Afficher sous « Afficher plus »</b>. <br /> <br />Si vous ne voyez pas l'option <b>Afficher sous « Afficher plus »</b>, elle est déjà définie. Dans ce cas, pour afficher toujours un champ, et non pas uniquement lorsque vous sélectionnez **Afficher plus**, sélectionnez <b>Afficher toujours</b>.||
 |Modifiez le volet Figer d'une liste en d'autres colonnes. |Choisissez la pointe de flèche de la colonne que vous souhaitez être la dernière du volet Figer, puis sélectionnez <b>Définir le volet Figer</b>.<br /><br/>Si vous souhaitez rétablir le volet Figer à sa position d'origine, sélectionnez la pointe de flèche de la colonne actuelle du volet Figer, puis sélectionnez <b>Effacer le volet Figer</b>. Remarque : vous ne pouvez pas supprimer ce volet Figer d'origine.|Le volet Figer spécifie les colonnes qui s'affichent toujours à gauche, même lorsque vous faites défiler horizontalement.|  
 |Survolez un champ tout en appuyant sur Entrée.|Choisissez la pointe de la flèche en regard du champ, ou la première colonne d'une liste, et sélectionnez **Exclure de la saisie rapide**. <br /><br /> Si vous ne voyez pas cette option, le champ est déjà défini pour être ignoré. Dans ce cas, pour arrêter d'ignorer le champ, choisissez **Inclure de la saisie rapide**. |Reportez-vous à la rubrique [Accélérer la saisie de données à l'aide de la fonction Saisie rapide](ui-enter-data.md#QuickEntry)|
-|Réorganisez et supprimez les vues représentant des listes filtrées.|Choisissez la flèche en regard d'une vue, puis choisissez **Déplacer**, **Supprimer** ou **Masquer**.|Voir [Enregistrer et personnaliser les vues de liste](ui-views.md)|
+|Réorganisez et supprimez les vues représentant des listes filtrées.|Choisissez la flèche en regard d'une vue, puis choisissez **Déplacer**, **Supprimer** ou **Masquer**.|Voir [Enregistrer et personnaliser les vues de liste](ui-views.md)|  
+|Ajoutez une nouvelle action à une page ou à un état sur votre tableau de bord.|Dans la page cible, la page de demande d'état, ou la fenêtre Tell Me, choisissez l'icône de signet.|Voir [Ajouter un signet à une page ou à un état sur votre tableau de bord](ui-bookmarks.md)|
 
 ## <a name="Actions"></a>Personnalisation des actions
 
@@ -75,6 +76,9 @@ Vous devez vous familiariser avec certains termes pour mieux comprendre la perso
 Un *groupe d'actions* désigne un élément qui se développe pour afficher d'autres actions ou groupes. Par exemple, sur la page **Commande vente**, l'action **Fonctions** qui apparaît lorsque vous choisissez l'action **Actions** est un groupe d'actions.
 
 Une *catégorie promue* désigne un groupe d'actions qui s'affiche avant la ligne verticale `|` sur la barre d'actions. Les catégories incluent généralement les actions utilisées le plus fréquemment afin que vous puissiez les trouver rapidement. Par exemple, sur la page **Commande vente**, les actions **Commande**, **Lancer**, et **Validation** sont des catégories promues.
+
+> [!NOTE]
+> Vous ne pouvez pas personnaliser la barre d'actions qui apparaît dans les parties de la page (par exemple, la partie des lignes de vente sur la page **Commande vente**).
 
 ### <a name="to-remove-hide-and-show-actions-and-action-groups"></a>Pour supprimer, masquer et afficher des actions et des groupes d'actions
 Lorsque vous souhaitez afficher ou masquer une action, les options situées sous la flèche définissent ce que vous pouvez faire en fonction de l'état de l'action.
@@ -90,8 +94,8 @@ Lorsque vous souhaitez afficher ou masquer une action, les options situées sous
 ### <a name="to-move-actions-and-action-groups"></a>Pour déplacer les actions et groupes d'actions
 L'emplacement où vous pouvez déplacer des actions ou groupes d'actions est indiqué par une ligne horizontale entre deux actions ou une bordure autour d'un groupe d'actions. Les limitations suivantes s'appliquent :
 
-    - Vous pouvez déplacer les actions individuelles dans les catégories promues, mais vous ne pouvez pas réorganiser l'ordre des actions dans la catégorie.
-    - Vous ne pouvez pas déplacer un groupe d'actions dans une catégorie promue.
+- Vous pouvez déplacer les actions individuelles dans les catégories promues, mais vous ne pouvez pas réorganiser l'ordre des actions dans la catégorie.
+- Vous ne pouvez pas déplacer un groupe d'actions dans une catégorie promue.
 
 1. Pour déplacer une action ou un groupe d'actions, faites-la/le glisser sur la position souhaitée, comme avec les champs et les colonnes.
 2. Pour déplacer une action ou un groupe d'actions dans un autre groupe d'actions vide, déplacez l'action ou le groupe d'actions vers le nouveau groupe et placez-la/le dans la zone **Déplacer une action ici**.
@@ -104,6 +108,7 @@ Vous pouvez souhaiter annuler toutes les modifications de personnalisation appor
 
 |Option|Action|
 |------|------------
+|**Menu de navigation uniquement**|Efface toutes les modifications de personnalisation que vous avez apportées au menu de navigation partagé entre le tableau de bord et d'autres pages. Cela inclut toutes les nouvelles actions ajoutées en tant que signets et toutes les modifications apportées aux liens et aux groupes dans le menu.|  
 |**Actions seules**|Efface toutes les modifications de personnalisation apportées à la barre d'actions sur la page.|
 |**Uniquement les champs, les colonnes et les pièces**|Annule toutes les modifications de personnalisation apportées à la page, hormis celles de la barre d'actions. Cela inclut les modifications apportées aux champs, colonnes, pièces et mosaïques. |
 |**Tous**|Efface toutes les modifications de personnalisation apportées à cette page afin qu'elle retrouve son aspect d'origine. Cela inclut les modifications apportées à la barre d'actions, aux champs, colonnes, pièces et mosaïques.|
@@ -116,7 +121,7 @@ Pour vous aider à mieux comprendre la personnalisation, voici quelques points c
 - Les modifications d'une page dans un volet s'appliquent à la page, où qu'elle s'affiche.  
 - Vous ne pouvez ajouter de champs et de colonnes qu'à partir d'une liste prédéfinie, laquelle est basée sur la page. Vous ne pouvez pas en créer de nouveaux.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulespersonalize-ui-dynamics-365-business-centralindex"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Voir aussi
 [Personnaliser les pages pour les profils](ui-personalization-manage.md)  

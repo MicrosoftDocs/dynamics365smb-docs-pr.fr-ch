@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 1b7936a73274545dc0e8a9fcddec2fe68fdb62c9
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 946b14c6d3a480bda217b9d78330343a8d772de1
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953890"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097735"
 ---
 # <a name="assembly-management"></a>Gestion des assemblages
 Pour prendre en charge les sociétés qui fournissent des produits à leurs clients en combinant des composants dans des processus simples sans recourir aux fonctionnalités de fabrication, [!INCLUDE[d365fin](includes/d365fin_md.md)] inclut des fonctions permettant d'assembler les articles. Ces fonctions s'intègrent à celles existantes \(ventes, planification, réservations et entreposage\).  
 
  Un élément d'assemblage est défini comme un article pouvant être vendu contenant une nomenclature d'assemblage. Pour plus d'informations, reportez-vous à [Utiliser les nomenclatures](inventory-how-work-BOMs.md).
 
- Les ordres d'assemblage sont des ordres internes, tout comme les ordres de fabrication, qui permettent de gérer le processus d'assemblage et pour lier les besoins de vente aux activités entrepôt impliquées. Les ordres d'assemblage diffèrent des autres types de commande parce qu'ils impliquent à la fois la production et la consommation lors de la validation. L'en-tête d'ordre d'assemblage se comporte de façon similaire à une ligne commande vente, et les lignes d'ordre d'assemblage ont un comportement semblable aux lignes feuille consommation.  
+ Les ordres d'assemblage sont des ordres internes, tout comme les ordres de fabrication, qui permettent de gérer le processus d'assemblage et pour lier les besoins de vente aux activités entrepôt impliquées. Les ordres d'assemblage diffèrent des autres types de commande parce qu'ils impliquent à la fois la production et la consommation lors de la validation. L'en-tête d'ordre d'assemblage se comporte de façon similaire à une ligne feuille production, et les lignes d'ordre d'assemblage ont un comportement semblable aux lignes feuille consommation.  
 
  Pour prendre en charge une stratégie de stock juste-à-temps (JIT) et permettre la personnalisation des produits conformément aux demandes client, il est possible de créer des ordres d'assemblage et de les lier automatiquement dès que la ligne commande vente est créée. Le lien entre la demande de vente et l'approvisionnement d'assemblage permet aux préparateurs de commandes vente de personnaliser l'élément d'assemblage à la volée, d'établir les dates de livraison en fonction de la disponibilité des composants, et de valider la production et l'expédition de l'article assemblé directement à partir de l'interface de commande vente. Pour plus d'informations, reportez-vous à [Vente d'articles à assembler pour commande](assembly-how-to-sell-items-assembled-to-order.md).  
 
@@ -46,7 +46,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |En savoir plus sur la différence entre les nomenclatures d'assemblage et les nomenclatures de production et les différences de traitement impliquées.|[Utiliser les nomenclatures](inventory-how-work-BOMs.md)|
 |Apprendre la manière dont la consommation d'assemblage et la production sont traitées lorsque vous validez des ordres d'assemblage, et découvrir comment les coûts ressource et article sont traités et distribués aux écritures comptables.|[Détails de conception : validation d'ordre d'assemblage](design-details-assembly-order-posting.md)|  
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsassemble-items-dynamics-365-business-central"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Voir aussi  
 [Utiliser les nomenclatures](inventory-how-work-BOMs.md)  

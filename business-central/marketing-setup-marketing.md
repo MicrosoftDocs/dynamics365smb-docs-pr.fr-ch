@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2be63cdb75a056beebb8648fa151b055a5a4f484
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: da0ef3338a32e797c9ebe21b051fb8cc8babcc6d
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308707"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076868"
 ---
 # <a name="setting-up-relationship-management"></a>Paramétrage de la Gestion des relations
 Avant de commencer à travailler avec vos contacts et prospects marketing, vous devez prendre certaines décisions et accomplir certaines étapes afin de configurer la façon dont le module marketing gère certains aspects de vos contacts. Par exemple, vous pouvez décider de synchroniser la fiche contact avec la fiche client, la fiche fournisseur, ou la fiche compte bancaire, spécifier comment les souches de numéros sont définies, ou quelles sont les salutations standard lorsque vous écrivez à vos contacts.
@@ -31,7 +31,7 @@ Une partie des données relatives aux sociétés contact sont identiques aux don
 
 Lorsque vous modifiez l'un des champs dans la fiche société contact, l'application modifie automatiquement ce champ dans la fiche personne contact (sauf si vous avez modifié ce champ manuellement).
 
-Pour plus d'informations, reportez-vous à [Créer des personnes contact](marketing-how-create-contact-persons.md).
+Pour plus d'informations, reportez-vous à [Créer des contacts](marketing-create-contact-companies.md).
 
 ## <a name="using-predefined-defaults-on-new-contacts"></a>Utilisation de paramètres par défaut prédéfinis sur les nouveaux contacts
 Vous pouvez configurer l'application pour qu'elle affecte automatiquement des codes langue, secteur, vendeur et pays/région par défaut à chaque nouveau contact. Vous pouvez également entrer un code cycle de vente par défaut que l'application affecte automatiquement à chaque nouvelle opportunité.

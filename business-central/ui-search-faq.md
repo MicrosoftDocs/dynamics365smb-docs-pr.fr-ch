@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 10/01/2019
+ms.date: 02/12/2020
 ms.author: bholtorf
-ms.openlocfilehash: 88a1e6cc711888a3cf68744d0ea6bbfdee41aea3
-ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
+ms.openlocfilehash: 67dd65491710206245a2ff83dce3d3eb94484770
+ms.sourcegitcommit: c78df3aefb3e2ed8c28e5ac8340d56ab787212e8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2695110"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "3071925"
 ---
 # <a name="tell-me-faq"></a>FAQ Tell Me
 Cette rubrique répond aux questions que nos utilisateurs expérimentés posent souvent à propos de la fonctionnalité Tell Me.
@@ -32,7 +32,7 @@ Les actions, les pages, et les états qui proviennent d'extensions sont extraits
 ### <a name="what-makes-this-different-from-what-was-previously-known-as-page-search"></a>Quelles sont les différences avec la recherche de page précédente ?
 La recherche de page s'est transformée en Tell Me pour vous aider à obtenir rapidement des résultats. La recherche de page pouvait uniquement vous aider à accéder aux pages ou aux états. À un niveau technique, Tell Me n'est plus basé sur le concept MenuSuite hérité.
 
-### <a name="i-use-on-premises-included365finincludesd365fin_mdmd-does-that-include-tell-me"></a>J'utilise [!INCLUDE[d365fin](includes/d365fin_md.md)] local. La fonction Tell Me est-elle incluse ?
+### <a name="i-use-on-premises-d365fin-does-that-include-tell-me"></a>J'utilise [!INCLUDE[d365fin](includes/d365fin_md.md)] local. La fonction Tell Me est-elle incluse ?
 Vous pouvez utiliser Tell Me dans le client Web local pour trouver des actions, des pages, et des états, mais pas la documentation ou les applications et les services de conseils sur AppSource.
 
 ### <a name="is-tell-me-available-for-all-form-factors"></a>La fonction Tell Me est-elle disponible pour tous les facteurs d'écrans ?
@@ -44,11 +44,9 @@ Les articles de l'aide s'affichent dans la langue spécifiée dans **Mes paramè
 ### <a name="why-dont-i-see-a-bookmark-icon-for-my-search-results"></a>Pourquoi ne vois-je pas d'icône de signet pour mes résultats de recherche ?
 L'icône de signet ne s'affiche pas dans la fenêtre Tell Me lorsque la personnalisation est désactivée pour un rôle d'utilisateur.
 
-### <a name="is-the-bookmark-icon-available-for-reports"></a>L'icône de signet est-elle disponible pour les états ?
-Non. Vous pouvez uniquement mettre en signet un lien vers une page ou les résultats de la recherche affichés dans la section **Pages et tâches** de la fenêtre Tell Me.
-
 
 ## <a name="see-also"></a>Voir aussi  
 [Enregistrer et personnaliser les vues de liste](ui-views.md)  
-[Recherche de pages et d'informations avec Tell Me](ui-search.md)  
-[Recherche de pages avec l'explorateur de rôles](ui-role-explorer.md)
+[Recherche de pages et d'informations avec la fonction de recherche](ui-search.md)  
+[Recherche de pages avec l'explorateur de rôles](ui-role-explorer.md)  
+[Ajouter un signet à une page ou à un état sur votre tableau de bord](ui-bookmarks.md)
