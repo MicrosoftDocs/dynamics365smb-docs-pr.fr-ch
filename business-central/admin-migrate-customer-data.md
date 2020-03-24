@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 12/19/2019
 ms.author: sgroespe
-ms.openlocfilehash: d5c9badf083352e04e118cd7ddc25e5a337e5686
-ms.sourcegitcommit: 53565fea987af861f3846e5c1e0e868c279aeb30
+ms.openlocfilehash: 2da58a4f5a3655fc2153647d80c5d69e1356b503
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2918229"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097711"
 ---
 # <a name="migrate-customer-data"></a>Migrer des données client
 Vous pouvez migrer les données client existantes d'un système ERP existant vers [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des outils de migration de données de RapidStart Services. Vous pouvez utiliser des fichiers Excel comme supports d’informations. Vous pouvez également déplacer manuellement les données en les entrant directement dans la société.
@@ -31,7 +31,7 @@ Lorsque vous créez une société, vous pouvez importer les paramètres d'une so
 > [!NOTE]  
 >  Vous ne pouvez pas renommer un fichier qui n'est pas déjà un package de configuration RapidStart Services comme fichier de package de configuration .rapidstart puis tenter de l'importer. Si vous essayez de faire cela, un message d'erreur vous parviendra.  
 
-Avant de commencer, vous devez vous assurer que vous disposez d'une autorisation pour exécuter les objets RapidStart Services. Par exemple, vous pouvez disposer de l'ensemble d'autorisations SUPER, ou être un administrateur interne ou délégué. Nous vous recommandons également de vous trouver dans un tableau de bord avec des liens vers RapidStart Services, comme le tableau de bord Administration. Pour plus d'informations, voir [Pour changer de rôle](ui-change-basic-settings.md#to-change-the-role).  
+Avant de commencer, vous devez vous assurer que vous disposez d'une autorisation pour exécuter les objets RapidStart Services. Par exemple, vous pouvez disposer des ensembles d'autorisations SUPER ou D365 RAPIDSTART. Nous vous recommandons également de vous trouver dans un tableau de bord avec des liens vers RapidStart Services, comme le tableau de bord Administration. Pour plus d'informations, voir [Pour changer de rôle](ui-change-basic-settings.md#to-change-the-role).  
 
 > [!IMPORTANT]  
 > Lorsque vous exportez et importez des packages de configuration entre deux bases de données de votre société, les bases de données doivent avoir le même schéma pour garantir la réussite du transfert de toutes les données. Cela signifie que les bases de données doivent avoir la même table et structure de champ, dans lesquelles les tables ont les mêmes clés primaires et les champs ont les mêmes codes et types de données.  
@@ -116,7 +116,7 @@ L'exemple suivant illustre comment [!INCLUDE[d365fin](includes/d365fin_md.md)] m
 2. Ajoutez des tables supplémentaires au package, par exemple **Client** et **Fournisseur**. Ces tableaux référencent la table **Vendeur/Acheteur** au moyen des champs **Code vendeur** et **Code acheteur**, respectivement.  
 3. Lorsque vous appliquez des données, le mappage que vous avez fourni pour le champ **Code** dans la table **Vendeur/Acheteur** est également pris en compte lors du traitement des champs **Code vendeur** et **Code acheteur**.
 
-## <a name="to-add-additional-values-to-included365finincludesd365fin_mdmd"></a>Pour ajouter des valeurs supplémentaires à [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+## <a name="to-add-additional-values-to-d365fin"></a>Pour ajouter des valeurs supplémentaires à [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Packages configuration**, puis choisissez le lien associé.  
 2. Sélectionnez la table pour laquelle vous souhaitez ajouter des valeurs supplémentaires, puis sous l'onglet **Tables**, sélectionnez l'action **Champs**.  
 3. Pour les champs pour lesquels vous souhaitez que [!INCLUDE[d365fin](includes/d365fin_md.md)] autorise des valeurs supplémentaires lors de la migration, cochez la case **Créer codes manquants**.  
@@ -181,7 +181,7 @@ Les données client doivent être validées avant d'appliquer les enregistrement
 
 Lorsque vous effectuez une correction, l'enregistrement est supprimé de la liste des enregistrements sur la page **Erreurs de migration des données**.  
 
-Vous êtes maintenant prêt à appliquer les informations du client dans la base de données.  
+Vous êtes maintenant prêt à appliquer les données du client dans la base de données.  
 
 ## <a name="to-apply-customer-data"></a>Pour appliquer des données client
 Lorsque vous avez importé tous les enregistrements de migration de données valides et sans erreurs, vous pouvez les appliquer à la base de données de [!INCLUDE[d365fin](includes/d365fin_md.md)].  

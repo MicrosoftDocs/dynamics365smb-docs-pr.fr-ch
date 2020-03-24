@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0708a78be4dbd70d8555b8c088fedd88d3fb5459
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: e5960f9673892428466fa5302af50e3a866edf5b
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2880487"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076554"
 ---
 # <a name="design-details-handling-reordering-policies"></a>Détails de conception : gestion des méthodes de réapprovisionnement
 Pour qu'un article participe à la planification des approvisionnements, une méthode de regroupement doit être définie. Les quatre méthodes de réapprovisionnement disponibles sont les suivantes :  
@@ -275,7 +275,7 @@ Outre l'utilisation de la méthode de commande, le lien ordre pour ordre peut s'
 Même si une société manufacturière se considère comme un environnement de fabrication à la commande, il peut être préférable d'utiliser la méthode de réapprovisionnement Lot pour lot si les articles sont des standards purs sans variation dans les attributs. Par conséquent, le système utilise le stock non planifié et additionne uniquement les commandes vente ayant la même date d'expédition ou faisant partie d'un intervalle de planification défini.  
 
 #### <a name="order-to-order-links-and-past-due-dates"></a>Liens ordre pour ordre et dates arriérées  
-Contrairement à la plupart des ensemble approvisionnement-demande, les commandes liées avec des dates d'échéance antérieures à la date de début de la planification sont entièrement planifiées par le système. La raison commerciale de cette exception est que les ensembles spécifiques approvisionnement-demande doivent être synchronisés jusqu'à l'exécution. Pour plus d'informations sur la zone gelée qui s'applique à la plupart des types de demande-approvisionnement, voir [Détails de conception : traiter les commandes avant la date début de la planification](design-details-dealing-with-orders-before-the-planning-starting-date.md).
+Contrairement à la plupart des ensemble approvisionnement-demande, les commandes liées avec des dates d'échéance antérieures à la date de début de la planification sont entièrement planifiées par le système. La raison commerciale de cette exception est que les ensembles spécifiques approvisionnement-demande doivent être synchronisés jusqu'à l'exécution. Pour plus d'informations sur la zone gelée qui s'applique à la plupart des types de demande-approvisionnement, voir [Traiter les commandes avant la date début de la planification](design-details-balancing-demand-and-supply.md#dealing-with-orders-before-the-planning-starting-date).
 
 ### <a name="lot-for-lot"></a>Lot pour lot
 La méthode lot pour lot est la plus souple, parce que le système réagit uniquement à la demande réelle, de plus il agit sur une demande anticipée à partir de commandes de prévision et de commandes ouvertes, puis détermine la quantité commande en fonction de la demande. La méthode lot pour lot visé cible les articles A et B pour lesquels le stock peut être accepté mais doit être évité.  

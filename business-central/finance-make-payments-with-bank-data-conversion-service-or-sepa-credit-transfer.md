@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 01/24/2020
 ms.author: bholtorf
-ms.openlocfilehash: aa4ce82cd1a156561fa2dc929c45e231730fb084
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: e37341605465a23427b1011e3830ae62b37a46ed
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2992015"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076892"
 ---
 # <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer"></a>Effectuer des paiements avec l'extension AMC Banking 365 Fundamentals ou virement SEPA
 Sur la page **Feuille paiement**, vous pouvez traiter les paiements à vos fournisseurs en exportant un fichier avec les informations de paiement provenant des lignes feuille. Vous pouvez ensuite télécharger le fichier vers votre banque électronique, où sont traités les transferts d'argent associés. [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge le format de virement SEPA, mais dans votre pays/région, d'autres formats de paiements électroniques peuvent être disponibles.
@@ -142,7 +142,6 @@ Lorsque le paiement électronique est traité avec succès par la banque, valide
 
 ## <a name="see-also"></a>Voir aussi  
 [Utilisation de l'extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)  
-[Configurer des virements SEPA](finance-how-to-set-up-sepa-credit-transfer.md)  
 [Gestion des comptes fournisseur](payables-manage-payables.md)   
 [Utilisation de feuilles comptabilité](ui-work-general-journals.md)  
 [Recouvrement de paiements par prélèvement automatique SEPA](finance-collect-payments-with-sepa-direct-debit.md)   
