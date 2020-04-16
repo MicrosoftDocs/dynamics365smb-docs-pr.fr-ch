@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2595efa188aed593bf1d112f984acf411446959b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 843e0590bbcff22b5d0ad40fcae5dd51c64eae3a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307147"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185291"
 ---
 # <a name="design-details-posting-date-on-adjustment-value-entry"></a>Détails de conception : date comptabilisation de l'écriture valeur d'ajustement
 Cet article fournit des instructions aux utilisateurs de la fonctionnalité Évaluation stock dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. L'article spécifique donne des informations sur la façon dont le traitement par lots **Ajuster coûts - Écr. article** identifie et affecte une date comptabilisation aux écritures valeur que le traitement par lots est sur le point de créer.  
@@ -69,7 +69,7 @@ Le traitement par lots **Ajuster coûts - Écr. article** détermine si la date 
 
  La date comptabilisation initiale était le 6 septembre, comme illustré à l'étape 1. Toutefois, dans la 2ème étape, le traitement par lots Ajuster coûts - Écr. article identifie que la date comptabilisation autorisée la plus proche est le 10 septembre et affecte donc le 10 septembre à l'écriture valeur d'ajustement ci-dessous.  
 
- ![État des écritures valeur dans le scénario 2](media/helene/TechArticleAdjustcost5.png "État des écritures valeur dans le scénario 2")
+ ![État des écritures valeur dans le scénario 2](media/helene/TechArticleAdjustcost5.png "État des écritures valeur dans le scénario 2")
 
  Nous avons passé en revue le concept d'affectation de dates comptabilisation aux écritures valeur créées par le traitement par lots Ajuster coûts - Écr. article.  
 
@@ -173,9 +173,9 @@ Le traitement par lots **Ajuster coûts - Écr. article** détermine si la date 
 
  Les écritures comptables article et les écritures valeur suivantes ont été validées :  
 
-![Aperçu des écritures comptables article et valeur article résultantes 1](media/helene/TechArticleAdjustcost9.png "Aperçu des écritures comptables article et valeur article résultantes 1")
+![Aperçu des écritures comptables article et valeur article résultantes 1](media/helene/TechArticleAdjustcost9.png "Aperçu des écritures comptables article et valeur article résultantes 1")
 
- ![Aperçu des écritures comptables article et valeur article résultantes 2](media/helene/TechArticleAdjustcost10.png "Aperçu des écritures comptables article et valeur article résultantes 2")
+ ![Aperçu des écritures comptables article et valeur article résultantes 2](media/helene/TechArticleAdjustcost10.png "Aperçu des écritures comptables article et valeur article résultantes 2")
 
  Le traitement par lots Ajuster coûts – Écr article a identifié une modification des coûts et ajusté les ajustements négatifs.  
 
@@ -290,7 +290,7 @@ Le traitement par lots **Ajuster coûts - Écr. article** détermine si la date 
 
      Validez la réception et la facture.  
 
-     ![Aperçu des écritures comptables article et valeur article résultantes 3](media/helene/TechArticleAdjustcost11.png "Aperçu des écritures comptables article et valeur article résultantes 3")
+     ![Aperçu des écritures comptables article et valeur article résultantes 3](media/helene/TechArticleAdjustcost11.png "Aperçu des écritures comptables article et valeur article résultantes 3")
 
 6.  À la date du 3 janvier arrive une facture achat, contenant des frais annexes supplémentaires pour l'achat effectué à l'étape 2. La date de document de cette facture est le 30 décembre, elle est donc validée avec la date comptabilisation du 30 décembre 2013.  
 
@@ -314,7 +314,7 @@ Le traitement par lots **Ajuster coûts - Écr. article** détermine si la date 
 
      Validez la réception et la facture.  
 
-   ![Aperçu des écritures comptables article et valeur article résultantes 4](media/helene/TechArticleAdjustcost12.png "Aperçu des écritures comptables article et valeur article résultantes 4")
+   ![Aperçu des écritures comptables article et valeur article résultantes 4](media/helene/TechArticleAdjustcost12.png "Aperçu des écritures comptables article et valeur article résultantes 4")
 
  L'état Évaluation du stock est imprimé à la date du 31 décembre 2013  
 

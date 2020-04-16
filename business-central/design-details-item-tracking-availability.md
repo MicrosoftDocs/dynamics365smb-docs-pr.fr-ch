@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8e44eb5c81babccd88443b50a209cfec891e8cc7
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 628d72c030d26b8de1f7341ea0ebbb0289b02ae5
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2880223"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185099"
 ---
 # <a name="design-details-item-tracking-availability"></a>Détails de conception : disponibilité traçabilité
 Les pages **Lignes traçabilité** et **Disponibilité traçabilité** fournissent des informations de disponibilité dynamique pour les numéros de série ou de lot. L'objectif de cela est d'augmenter la transparence pour les utilisateurs dans les documents sortants, tels que des commandes vente, en leur indiquant les numéros de série ou le nombre d'unités d'un numéro de lot qui sont affectés actuellement à d'autres documents ouverts. Cela réduit l'incertitude qui est due à la double attribution et assure aux préparateurs de commande que les numéros de suivi d'article et les dates qu'ils promettent sur les commandes vente non validées peuvent être réalisés. Pour plus d'informations, reportez-vous à [Détails de conception : page Lignes traçabilité](design-details-item-tracking-lines-window.md).  

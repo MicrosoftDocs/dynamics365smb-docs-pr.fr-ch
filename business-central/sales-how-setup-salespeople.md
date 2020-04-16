@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales rep
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: ef0e1db9e4af18ad209c111c951c98a46b0aabe9
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: e1e53372298462356e6d48dab0e973262abadeb3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877582"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193873"
 ---
 # <a name="set-up-salespeople"></a>Configurer des vendeurs
 Beaucoup de sociétés souhaitent suivre les performances individuelles d'un collaborateur afin d'avoir une base de calcul pour les commissions et les bonus. Reportez-vous, par exemple, à l'état **Commissions vendeur**. Une société peut également souhaiter affecter un vendeur à chacun de ses contacts.
 
 Une fois que vous avez configuré un vendeur sur la page **Vendeurs**, vous pouvez le sélectionner dans le champ **Code vendeur** sur tous les enregistrements concernés, par exemple dans les fiches compte général, client, fournisseur, contacts et campagne. Ensuite, lorsque vous validez ou configurez des factures, des avoirs, des lignes feuille, des factures d'intérêts, etc., le code vendeur est basculé vers les écritures comptables qui en résultent.
 <br><br>  
-> [!Video https://www.microsoft.com/videoplayer/embed/RE43Vhm)]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE43Vhm?rel=0]
 
 ## <a name="to-set-up-a-salesperson-code"></a>Pour configurer un code vendeur
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Vendeurs**, puis sélectionnez le lien associé.

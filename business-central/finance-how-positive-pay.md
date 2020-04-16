@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: check, clearing
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 73d871e43490fba817db8f9dfad5fbdaf456c3c8
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d1a7922895e357e51ba66dd8853961300a8fcc6c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306283"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183655"
 ---
 # <a name="export-a-positive-pay-file"></a>Exporter un fichier Positive Pay
 Pour vous assurer que votre banque efface uniquement les chèques et les montants validés, vous pouvez exporter un fichier Positive Pay contenant des informations fournisseur, un numéro de chèque, un montant de paiement que vous envoyez à la banque pour référence lorsque vous traitez les paiements.
@@ -25,7 +25,7 @@ Pour vous assurer que votre banque efface uniquement les chèques et les montant
 [!INCLUDE[d365fin](includes/d365fin_md.md)] est préconfiguré pour prendre en charge les fichiers Positive Pay de la Bank of America et de la City Bank.
 
 ## <a name="to-set-up-a-bank-account-for-positive-pay"></a>Pour configurer une banque pour Positive Pay
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Comptes bancaires**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Compte bancaire**, puis sélectionnez le lien associé.
 2. Ouvrez la fiche de la banque pour laquelle vous souhaitez utiliser Positive Pay.
 3. Dans le champ **Code exportation Positive Pay**, entrez POSPAYBANK.
 4. Fermez la page.
@@ -44,7 +44,7 @@ Pour vous assurer que votre banque efface uniquement les chèques et les montant
 
 Pour afficher les enregistrements Positive Pay exportés
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Comptes bancaires**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Compte bancaire**, puis sélectionnez le lien associé.
 2. Sélectionnez le compte bancaire pour lequel vous voulez afficher l'enregistrement d'exportation de Positive Pay.
 3. Choisissez l'option **Écritures Positive Pay**.
 
@@ -54,7 +54,7 @@ Pour afficher les enregistrements Positive Pay exportés
 
 Pour réexporter les fichiers Positive Pay
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Comptes bancaires**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Compte bancaire**, puis sélectionnez le lien associé.
 2. Sélectionnez le compte bancaire pour lequel vous voulez réeexporter les fichiers Positive Pay.
 3. Choisissez l'option **Écritures Positive Pay**.
 4. Sélectionnez la ligne du fichier d'exportation Positive Pay à réexporter.

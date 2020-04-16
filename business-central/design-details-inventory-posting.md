@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: dc3e997d0ca29c680cd6a915751a368dd77a5433
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: e0f93f0835b20413df2b6827a3a30e54c1fb7309
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2880319"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185243"
 ---
 # <a name="design-details-inventory-posting"></a>Détails de conception : comptabilisation stock
 Chaque mouvement stock, par exemple une réception achat ou une expédition vente, valide deux écritures de différents types.  

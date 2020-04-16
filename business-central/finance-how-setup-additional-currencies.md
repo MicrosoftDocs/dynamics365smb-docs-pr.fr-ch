@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: multiple currencies
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c5aacb325eec2a8679aed845c496744e05535e30
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 9802821985550668d460aa3213c9fb64764169c0
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953746"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183563"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Configurer une devise report supplémentaire
 Les sociétés opérant dans un nombre croissant de pays/régions, il est de plus en plus important qu'elles puissent consulter et générer des états de données financiers dans plusieurs devises.
@@ -81,7 +81,7 @@ Pour chaque compte général, vous devez spécifier la manière dont les montant
 4.  Fermez la page **Fiche compte général**.  
 
 ### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>Pour spécifier la méthode d'ajustement de taux de change pour toutes les écritures TVA  
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres comptabilité**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres comptabilité**, puis sélectionnez le lien associé.  
 2. Sur la page **Paramètres comptabilité**, sélectionnez la méthode adéquate dans le champ **Ajustement tx de change TVA**.  
 3. Si vous validez en devise report (DS), vous pouvez spécifier dans le champ **Ajustement taux de change TVA** la manière dont les comptes définis pour la validation de la TVA sur la page **Paramètres compta. TVA** sont ajustés pour les fluctuations de taux de change entre devise société et devise report.  
 
@@ -121,7 +121,7 @@ En outre, toutes les écritures futures du même type ont des montants enregistr
 > [!NOTE]  
 >  Le champ **Devise report** n'est activé qu'après que vous avez cliqué sur le bouton **OK** dans le traitement par lots **Ajuster devise report**.  
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsuse-multiple-currencies-dynamics-365-business-central"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Voir aussi
 [Mettre à jour des taux de change devise](finance-how-update-currencies.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 81565950191b40f2c54646d17f02ee857856c436
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: cf3ed7552d3b9bfef3c787e03357279f4ad4fc93
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882720"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183347"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Supprimer et relettrer des écritures comptables article
 Sur la page **Feuille lettrage**, vous pouvez visualiser et modifier manuellement certaines écritures lettrage article qui sont créées automatiquement lors des mouvements de stock.  
@@ -28,7 +28,7 @@ Vous pouvez être amené à annuler un lettrage ou à relettrer des écritures c
 - Vous avez effectué un lettrage incorrect.
 - Vous devez retourner un article sur lequel une vente a déjà été lettrée.
 
-Si possible, utilisez un document pour relettrer une écriture comptable article. Par exemple, si vous devez procéder à un retour achat d'un article sur lequel une vente a déjà été lettrée, vous pouvez relettrer en créant et validant le document de retour achat à l'aide du lettrage correct dans le champ **Écr. article à lettrer** dans la ligne retour achat. Vous pouvez utiliser la fonction **Affichage de lignes document validées à contrepasser** ou **Copier document** dans le document de retour achat pour faciliter cette opération. Lorsque vous validez le document, l'écriture comptable article est automatiquement relettrée. Pour plus d'informations, reportez-vous à [Traiter les retours ou annulations d'achats](purchasing-how-process-purchase-returns-cancellations.md).
+Si possible, utilisez un document pour relettrer une écriture comptable article. Par exemple, si vous devez procéder à un retour achat d'un article sur lequel une vente a déjà été lettrée, vous pouvez relettrer en créant et validant le document de retour achat à l'aide du lettrage correct dans le champ **Écr. article à lettrer** dans la ligne retour achat. Vous pouvez utiliser la fonction **Affichage de lignes document validées à contrepasser** ou **Copier à partir du document** dans le document de retour achat pour faciliter cette opération. Lorsque vous validez le document, l'écriture comptable article est automatiquement relettrée. Pour plus d'informations, reportez-vous à [Traiter les retours ou annulations d'achats](purchasing-how-process-purchase-returns-cancellations.md).
 
 Si vous ne pouvez pas utiliser un document pour un relettrage, par exemple si vous devez corriger un lettrage fixe, utilisez la page **Feuille lettrage** pour corriger un lettrage.
 

@@ -8,23 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: OData, Power App, SOAP
-ms.date: 11/20/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9cf587dca8224e742ecbde30bcabc35697bb6f2a
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: f6b771b0107214702785d2b124983eb369741a84
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881015"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187931"
 ---
-# <a name="connecting-to-your-business-central-data-to-build-a-business-app-using-power-apps"></a>Connexion à vos données Business Central pour générer un application métier à l'aide de Power Apps
+# <a name="connecting-to-your-business-central-data-to-build-a-business-app-using-power-apps"></a>Connexion à vos données Business Central pour générer un application professionnelle à l'aide de Power Apps
 
 Vous pouvez rendre vos données [!INCLUDE[prodshort](includes/prodshort.md)] disponibles sous forme de source de données dans Power Apps.  
 
 > [!NOTE]  
 > Vous devez disposer d'un compte valide avec [!INCLUDE[prodshort](includes/prodshort.md)] et avec Power Apps.  
 
-## <a name="to-add-includeprodshortincludesprodshortmd-as-a-data-source-in-power-apps"></a>Pour ajouter [!INCLUDE[prodshort](includes/prodshort.md)] comme source de données dans Power Apps
+## <a name="to-add-prodshort-as-a-data-source-in-power-apps"></a>Pour ajouter [!INCLUDE[prodshort](includes/prodshort.md)] comme source de données dans Power Apps
 
 1. Dans votre navigateur, accédez à [powerapps.microsoft.com](https://powerapps.microsoft.com/), puis connectez-vous.
 2. Sur la page d'accueil, choisissez **Applications**, **Créez une application** et **Canevas** pour créer une application de canevas. Cette application sera conçue pour être utilisée sur un appareil mobile, mais vous pouvez également choisir d'utiliser un autre modèle.
@@ -32,9 +32,9 @@ Vous pouvez rendre vos données [!INCLUDE[prodshort](includes/prodshort.md)] dis
     L'étape suivante pour créer une Power App consiste à sélectionner vos données. Cliquez sur l'icône représentant une flèche et choisissez l'option **Nouvelle connexion** dans le coin supérieur gauche de la page.
 3. Dans la liste des connexions disponibles, choisissez **Business Central**, puis choisissez le bouton **Créer**.
 
-    Power Apps se connecte à votre [!INCLUDE [prodshort](includes/prodshort.md)] à l'aide des informations d'identification avec lesquelles vous vous êtes connecté. Si vous n'êtes pas un administrateur de votre [!INCLUDE [prodshort](includes/prodshort.md)], vous devrez peut-être vous connecter avec un autre compte.  
+    Power Apps se connectera à votre [!INCLUDE [prodshort](includes/prodshort.md)] à l'aide des informations d'identification avec lesquelles vous vous êtes connecté. Si vous n'êtes pas un administrateur de votre [!INCLUDE [prodshort](includes/prodshort.md)], vous devrez peut-être vous connecter avec un autre compte.  
 
-4. Power Apps affiche la liste des *Environnements et sociétés* disponibles à partir de [!INCLUDE [prodshort](includes/prodshort.md)]. Choisissez l'environnement et la société contenant les données auxquelles vous souhaitez vous connecter. Une liste d’API est ensuite présentée. Sélectionnez l'**API**à laquelle vous voulez vous connecter.
+4. Power Apps affiche la liste *Environnements et des sociétés* disponibles à partir de [!INCLUDE [prodshort](includes/prodshort.md)]. Choisissez l'environnement et la société contenant les données auxquelles vous souhaitez vous connecter. Une liste d’API est ensuite présentée. Sélectionnez l'**API** à laquelle vous voulez vous connecter.
 
 Ces tables font partie de l'API [!INCLUDE [prodshort](includes/prodshort.md)]. Il n'est pas nécessaire de configurer les points de terminaison vous-même, le connecteur [!INCLUDE [prodshort](includes/prodshort.md)] pour Power Apps s'en charge à votre place.  
 

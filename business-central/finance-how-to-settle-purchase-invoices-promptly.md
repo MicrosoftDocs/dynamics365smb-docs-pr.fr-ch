@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/29/2020
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: b38f5f97c7b5be46f1d6cd4d1bc898e72060417e
-ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
+ms.openlocfilehash: ec5723088553141c1f6df55ba8bac3303ee4e2bd
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "2999634"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183275"
 ---
 # <a name="settle-purchase-invoices-promptly"></a>Établir rapidement des factures achat
 Si vous devez payer le fournisseur en liquide ou par chèque, vous pouvez valider le paiement lorsque vous validez la facture.  
 
 ### <a name="to-settle-purchase-invoices-promptly"></a>Pour établir rapidement des factures achat  
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Factures achat**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Factures achat**, puis sélectionnez le lien associé.  
 2. Sélectionnez l'action **Nouveau**.  
 3.  Pour payer en liquide ou par virement bancaire, saisissez le numéro du compte général règlement ou du compte bancaire dans le champ **N° compte contrepartie**.  
 

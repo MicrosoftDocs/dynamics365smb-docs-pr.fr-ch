@@ -5,24 +5,24 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 12/12/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: cb470cd72c3352ca5de9fc27264b30b67abbadec
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: 9c6e162e8b8146c59c135b669566594ca67be7dc
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2910943"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188699"
 ---
 # <a name="frequently-asked-questions"></a>Forum Aux Questions
 
 Cette section contient des réponses aux questions les plus fréquentes sur l'inscription à une version d'évaluation, l'achat d'un abonnement et l'utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vous pouvez également apprendre comment obtenir le support technique.  
 
-## <a name="is-included365finincludesd365fin_mdmd-available-in-my-country"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] est-il disponible dans mon pays ?
+## <a name="is-d365fin-available-in-my-country"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] est-il disponible dans mon pays ?
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] est disponible dans sur nombre limité de marchés, mais de nouveaux pays sont ajoutés via la localisation Microsoft ou via la localisation partenaire chaque trimestre. Pour plus d'informations, voir [Disponibilité par pays/région et traductions prises en charge](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) (disponible en anglais uniquement).  
 
-## <a name="how-do-i-get-include-prodshortincludesprodshortmd"></a>Procédure pour obtenir [!INCLUDE [prodshort](includes/prodshort.md)]
+## <a name="how-do-i-get-prodshort"></a>Procédure pour obtenir [!INCLUDE [prodshort](includes/prodshort.md)]
 
 Vous pouvez vous inscrire à une version d'évaluation afin de découvrir [!INCLUDE [prodshort](includes/prodshort.md)]. [!INCLUDE [free_trial_md](includes/free_trial_md.md)] Si vous souhaitez plus de temps pour l'explorer, [vous pouvez prolonger votre période d'essai](#can-i-extend-my-30-day-new-company-trial-period).  
 
@@ -35,9 +35,9 @@ Si vous avez des questions à propos de [!INCLUDE[d365fin](includes/d365fin_md.m
 
 Sur la page d'accueil de la communauté, vous pouvez également rechercher des liens vers nos blogs, où vous pouvez également rechercher des astuces et des conseils. Pour plus d'informations, voir [Microsoft Dynamics 365 Business Central sur le blog Dynamics 365](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) et version antérieure [Blog Dynamics 365 Business Central](https://community.dynamics.com/business/b/financials).  
 
-Enfin, vous pouvez contacter votre revendeur [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, voir les sections [Comment est-ce que j'obtiens du support technique ?](across-faq.md#how-do-i-get-technical-support-for-) et [Comment trouver un partenaire revendeur ?](#findpartner).  
+Enfin, vous pouvez contacter votre revendeur [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, voir les sections [Comment est-ce que j'obtiens du support technique ?](across-faq.md#hdigetsupport) et [Comment trouver un partenaire revendeur ?](#findpartner).  
 
-## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365fin_mdmd"></a>Pourquoi je ne peux pas trouver cette fonctionnalité dans ma version de [!INCLUDE[d365fin](includes/d365fin_md.md)] ?
+## <a name="why-cant-i-find-that-capability-in-my-d365fin"></a>Pourquoi je ne peux pas trouver cette fonctionnalité dans ma version de [!INCLUDE[d365fin](includes/d365fin_md.md)] ?
 Avez-vous eu connaissance d'une nouvelle fonctionnalité dans le plan de versions ou sur notre blog récemment ? Dans ce cas, votre [!INCLUDE[d365fin](includes/d365fin_md.md)] n'a peut-être pas encore été mis à niveau avec la dernière version. Vous pouvez vérifier sur quelle version est basée votre [!INCLUDE[d365fin](includes/d365fin_md.md)] sur la page [Aide et support](product-help-and-support.md).  
 
 De plus, si la fonctionnalité est publiée en tant qu'extension dans AppSource, c'est qu'il y a un retard entre l'extension étant annoncée et sa disponibilité dans AppSource.  
@@ -45,14 +45,14 @@ De plus, si la fonctionnalité est publiée en tant qu'extension dans AppSource,
 ## <a name="are-there-any-differences-between-an-on-premises-deployment-and-the-cloud-version-of-business-central"></a>Existe-t-il des différences entre un déploiement sur site et la version cloud de Business Central ?
 Oui. Certaines fonctionnalités basées sur le cloud peuvent s'exécuter sur site dans certains cas et d'autres ne sont pas du tout prises en charge. Pour plus d'informations, voir [Fonctions non implémentées dans les déploiements sur site de Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises).
 
-## <a name="can-i-get-training-in-included365finincludesd365fin_mdmd"></a>Puis-je suivre une formation sur l'utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] ?
+## <a name="can-i-get-training-in-d365fin"></a>Puis-je suivre une formation sur l'utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] ?
 Oui, vous pouvez ! Vous pouvez trouver du contenu eLearning gratuit sur le site [Microsoft Learn](/learn/browse/?products=dynamics-business-central). Pour plus d'informations, reportez-vous à la rubrique [Catalogue d'apprentissage de Business Central](readiness/readiness-learning-catalog.md). Vous pouvez également demander une formation supplémentaire à votre revendeur. Si vous ne savez pas qui c'est, consultez la section [Comment trouver un partenaire revendeur ?](#findpartner).  
 
 Pour plus d'informations sur la formation Dynamics 365 fournie par Microsoft, voir la page [Formation Microsoft Dynamics 365](/dynamics365/get-started/training/index#dynamics-365-customers).  
 
 Le contenu supplémentaire est fourni par la communauté [!INCLUDE [prodshort](includes/prodshort.md)], comme le [Guide de terrain Microsoft Dynamics 365 Business Central](https://leanpub.com/dynamics) écrit par un partenaire.  
 
-## <a name="how-do-i-get-technical-support-for-included365finincludesd365fin_mdmd"></a>Comment est-ce que j'obtiens le support technique pour [!INCLUDE[d365fin](includes/d365fin_md.md)] ?
+## <a name="how-do-i-get-technical-support-for-d365fin"></a><a name="hdigetsupport"></a>Comment est-ce que j'obtiens le support technique pour [!INCLUDE[d365fin](includes/d365fin_md.md)] ?
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] est vendu via des partenaires, et vous devriez contacter votre partenaire revendeur pour obtenir de l'aide avec des problèmes techniques. Si votre partenaire [!INCLUDE[d365fin](includes/d365fin_md.md)] ne peut pas résoudre le problème, il déclenchera un ticket d'assistance avec Microsoft.  
 
@@ -65,8 +65,7 @@ Si votre paramètre Expérience sur la page **Informations société** est défi
 
 Contrairement à d'autres programmes qui vous sont familiers, il n'y a pas de bouton *Enregistrer* sur ces pages. Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], les modifications que vous apportez à un champ sont automatiquement enregistrées dès que vous passez au champ suivant ou dès que vous fermez la page, dans la mesure où il n'y a pas d'erreurs. Lorsque vous apportez des modifications à un champ et que vous passez à un autre champ, le texte **Enregistrement en cours** apparaît dans l'angle supérieur droit de la page, et devient **Enregistré** si aucune erreur ne survient. En cas d'erreur, le texte indique **Non enregistré**.
 
-
-## <a name="what-email-address-can-i-use-with-included365finincludesd365fin_mdmd"></a>Quelle adresse e-mail puis-je utiliser avec [!INCLUDE[d365fin](includes/d365fin_md.md)] ?
+## <a name="what-email-address-can-i-use-with-d365fin"></a><a name="email"></a>Quelle adresse e-mail puis-je utiliser avec [!INCLUDE[d365fin](includes/d365fin_md.md)] ?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] exige que vous utilisiez une adresse e-mail professionnelle ou scolaire pour votre inscription. [!INCLUDE[d365fin](includes/d365fin_md.md)] ne prend pas en charge les adresses e-mail fournies par les services de messagerie publics ni les opérateurs de télécommunications. Cela comprend outlook.com, hotmail.com, gmail.com, et d'autres.  
 
 Si vous essayez d'effectuer votre inscription à l'aide d'une adresse e-mail personnelle, vous recevez un message vous demandant d'utiliser une adresse professionnelle ou scolaire. Pour plus d'informations, reportez-vous à [Dépannage de l'inscription en self-service](ui-troubleshoot-self-signup.md).  
@@ -91,7 +90,7 @@ Oui. Lorsque la date d'échéance de votre période d'essai approche, nous affic
 
 Pour plus d'informations sur la manière de trouver un partenaire, voir [Comment trouver un partenaire revendeur ?](#findpartner).  
 
-## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-home-screen-in-included365finincludesd365fin_mdmd"></a>Mon administrateur m'a déplacé vers un autre plan pour me donner un autre rôle, mais je vois toujours le même écran d'accueil dans [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-home-screen-in-d365fin"></a>Mon administrateur m'a déplacé vers un autre plan pour me donner un autre rôle, mais je vois toujours le même écran d'accueil dans [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 C'est un peu compliqué, mais il semble que votre administrateur n'a pas modifié votre le rôle attribué et a affecté des groupes d'utilisateurs qui correspondent à la nouvelle licence. Votre accès à [!INCLUDE[d365fin](includes/d365fin_md.md)] est essentiellement déterminé par le type de plan (licence) que vous avez, cela définit les autorisations, le rôle attribué et l'écran d'accueil par défaut. Vous pouvez modifier votre rôle manuellement dans Mes paramètres, mais si vous êtes passé à un autre plan (du plan Marché au plan Membres de l'équipe, par exemple), vous pouvez voir l'ancien écran d'accueil car vos autorisations n'ont pas été modifiées.  
 
 ## <a name="can-i-cancel-my-subscription"></a>Puis-je annuler mon inscription ?
@@ -100,7 +99,7 @@ Oui, mais en fonction de la manière dont vous avez effectué votre inscription 
 ## <a name="can-i-use-multi-factor-authentication"></a>Puis-je utiliser l'authentification à plusieurs facteurs ?
 Bien sûr. Si vous le faites, vous pouvez demander un mot de passe d'application pour envoyer des messages. Les mots de passe d'application permettent à une application ou à un appareil d'accéder à votre compte de messagerie. Les étapes pour obtenir un mot de passe d'application varient, selon le fournisseur de messagerie. Pour plus d'informations, reportez-vous à l'aide du fournisseur. Par exemple, si vous utilisez Outlook, voir [Créer un mot de passe d'application pour Office 365](https://go.microsoft.com/fwlink/?linkid=2082543).  
 
-## <a name="findpartner"></a>Comment trouver un partenaire revendeur ?
+## <a name="how-do-i-find-a-reselling-partner"></a><a name="findpartner"></a>Comment trouver un partenaire revendeur ?
 
 [!INCLUDE [prodshort](includes/prodshort.md)] est vendu et mis en œuvre via un réseau mondial de partenaires Dynamics 365 possédant une expertise du secteur. Contactez un partenaire pour une évaluation détaillée, des services de conseil et des tarifs supplémentaires. Pour plus d'informations, voir la section **Tarification** sur la page [Dynamics 365 Business Central sur microsoft.com](https://dynamics.microsoft.com/business-central/overview/).  
 

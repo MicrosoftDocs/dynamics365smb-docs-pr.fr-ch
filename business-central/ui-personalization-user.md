@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 02/07/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8a0814c8fc275e4324195cddadddafe1683d809f
-ms.sourcegitcommit: c78df3aefb3e2ed8c28e5ac8340d56ab787212e8
+ms.openlocfilehash: 34e9b896eeca0e1c9856013ac427c844a6bde070
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "3071997"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195402"
 ---
 # <a name="personalize-your-workspace"></a>Personnaliser votre espace de travail
 Vous pouvez personnaliser votre espace de travail pour l'adapter à vos habitudes et préférences en modifiant les pages afin qu'elles n'affichent que les informations dont vous avez besoin, où vous avez en besoin. Les modifications de personnalisation que vous apportez n'affectent que ce que vous voyez, pas ce que voient les autres utilisateurs.
@@ -35,7 +35,7 @@ Vous pouvez facilement redimensionner les colonnes de n'importe quelle liste en 
 
 En ce qui concerne les autres personnalisations, les modifications apportées à la largeur des colonnes sont stockées sur votre compte et vous suivent quel que soit le périphérique auquel vous vous connectez.
 
-## <a name="to-personalize-a-page-through-the-personalizing-banner"></a>Pour personnaliser une page via la bannière **Personnalisation**
+## <a name="to-start-personalizing-a-page-through-the-personalizing-banner"></a>Pour commencer à personnaliser une page au moyen de la bannière **Personnalisation**
 1. Ouvrez une page quelconque à personnaliser.
 2. Dans l'angle supérieur droit, sélectionnez l'icône ![Paramètres](media/ui-experience/settings_icon_small.png "Icône Paramètres du tableau de bord"), puis choisissez l'action **Personnaliser**.
 
@@ -52,7 +52,7 @@ En ce qui concerne les autres personnalisations, les modifications apportées à
 6. Choisissez l'élément, puis choisissez soit **Déplacer**, **Supprimer**, **Masquer**, **Afficher**, **Afficher sous « Afficher plus »**, **Afficher si réduit**, **Afficher toujours**, **Définir/Effacer le volet Figer**, ou **Inclure/Exclure de la saisie rapide**, en fonction du type et de l’état de l’élément d'interface utilisateur. Pour plus d'informations, voir [Ce que vous pouvez personnaliser](#What).
 7. Lorsque vous avez fini de modifier la mise en page sur une ou plusieurs pages, choisissez le bouton **Terminé** sur la bannière **Personnalisation**.
 
-## <a name="What"></a>Ce que vous pouvez personnaliser
+## <a name="what-you-can-personalize"></a><a name="What"></a>Ce que vous pouvez personnaliser
 
 |Ce que vous voulez faire|Comment procéder|Remarques|
 |----|------------|-------|
@@ -67,15 +67,16 @@ En ce qui concerne les autres personnalisations, les modifications apportées à
 |Réorganisez et supprimez les vues représentant des listes filtrées.|Choisissez la flèche en regard d'une vue, puis choisissez **Déplacer**, **Supprimer** ou **Masquer**.|Voir [Enregistrer et personnaliser les vues de liste](ui-views.md)|  
 |Ajoutez une nouvelle action à une page ou à un état sur votre tableau de bord.|Dans la page cible, la page de demande d'état, ou la fenêtre Tell Me, choisissez l'icône de signet.|Voir [Ajouter un signet à une page ou à un état sur votre tableau de bord](ui-bookmarks.md)|
 
-## <a name="Actions"></a>Personnalisation des actions
 
-La personnalisation vous permet de choisir quelles actions afficher sur la barre d'actions et sur le Tableau de bord et où les afficher. Vous pouvez afficher, masquer ou déplacer les actions individuelles ou groupes d'action. La personnalisation de la barre d'actions est exécutée essentiellement de la même façon qu'avec les autres éléments de l'interface utilisateur. Toutefois, ce que vous pouvez faire avec une action ou un groupe dépend de l'emplacement de l'action ou du groupe. La meilleure façon de le savoir consiste à passer en mode de personnalisation et à vous laisser guider par les flèches.
+## <a name="personalizing-actions"></a><a name="Actions"></a>Personnalisation des actions
+
+La personnalisation vous permet de choisir les actions à afficher sur les barres de navigation et d'actions et sur le Tableau de bord et où les afficher. Vous pouvez afficher, masquer ou déplacer les actions individuelles ou groupes d'action. La personnalisation des barres de navigation et d'actions est exécutée essentiellement de la même façon qu'avec les autres éléments de l'interface utilisateur. Toutefois, ce que vous pouvez faire avec une action ou un groupe dépend de l'emplacement de l'action ou du groupe. La meilleure façon de le savoir consiste à passer en mode de personnalisation et à vous laisser guider par les flèches.
 
 Vous devez vous familiariser avec certains termes pour mieux comprendre la personnalisation de la barre d'actions : *groupe d'actions* et *catégorie promue*.  
 
 Un *groupe d'actions* désigne un élément qui se développe pour afficher d'autres actions ou groupes. Par exemple, sur la page **Commande vente**, l'action **Fonctions** qui apparaît lorsque vous choisissez l'action **Actions** est un groupe d'actions.
 
-Une *catégorie promue* désigne un groupe d'actions qui s'affiche avant la ligne verticale `|` sur la barre d'actions. Les catégories incluent généralement les actions utilisées le plus fréquemment afin que vous puissiez les trouver rapidement. Par exemple, sur la page **Commande vente**, les actions **Commande**, **Lancer**, et **Validation** sont des catégories promues.
+Une *catégorie promue* désigne un groupe d'actions qui s'affiche avant la ligne verticale `|` sur la barre d'actions. Les catégories incluent généralement les actions utilisées le plus fréquemment afin que vous puissiez les trouver rapidement. Par exemple, sur la page **Commande vente**, les actions **Commande**, **Lancer** et **Validation** sont des catégories promues.
 
 > [!NOTE]
 > Vous ne pouvez pas personnaliser la barre d'actions qui apparaît dans les parties de la page (par exemple, la partie des lignes de vente sur la page **Commande vente**).
@@ -87,9 +88,9 @@ Lorsque vous souhaitez afficher ou masquer une action, les options situées sous
 
 |Option|Action|
 |------|------------
-|**Supprimer**|Cette option s'affiche si l'action sélectionnée est également affichée ailleurs sur la barre d'actions. En choisissant cette option, vous supprimez l'action de l'emplacement sélectionné afin qu'elle n'apparaisse plus. L'action ou le groupe d'actions reste dans les autres emplacements. |
-|**Masquer**|Cette option s'affiche si l'action ou le groupe d'actions apparaît nulle part ailleurs sur la barre d'actions. Comme **Supprimer**, choisissez cette option pour inciter l'action ou le groupe d'actions à disparaître de la barre d'actions. Toutefois, en mode personnalisation, l'action ou le groupe d'actions est toujours affiché dans la position actuelle, sauf si elle/il apparaît atténué(e).|
-|**Afficher**|Cette option s'affiche si l'action ou le groupe d'actions a été précédemment masqué(e) atténué(e). En choisissant cette option, vous permettez à l'action ou au groupe d'actions de figurer dans la barre d'actions.|
+|**Supprimer**|Cette option s'affiche si l'action sélectionnée est également affichée ailleurs sur les barres de navigation et d'actions. En choisissant cette option, vous supprimez l'action de l'emplacement sélectionné afin qu'elle n'apparaisse plus. L'action ou le groupe d'actions reste dans les autres emplacements. |
+|**Masquer**|Cette option s'affiche si l'action ou le groupe d'actions apparaît nulle part ailleurs sur les barres de navigation et d'actions. Comme **Supprimer**, choisissez cette option pour inciter l'action ou le groupe d'actions à disparaître des barres de navigation et d'actions. Toutefois, en mode personnalisation, l'action ou le groupe d'actions est toujours affiché dans la position actuelle, sauf si elle/il apparaît atténué(e).|
+|**Afficher**|Cette option s'affiche si l'action ou le groupe d'actions a été précédemment masqué(e) atténué(e). En choisissant cette option, vous permettez à l'action ou au groupe d'actions de figurer dans la barre de navigation ou la barre d'actions.|
 
 ### <a name="to-move-actions-and-action-groups"></a>Pour déplacer les actions et groupes d'actions
 L'emplacement où vous pouvez déplacer des actions ou groupes d'actions est indiqué par une ligne horizontale entre deux actions ou une bordure autour d'un groupe d'actions. Les limitations suivantes s'appliquent :
@@ -100,6 +101,18 @@ L'emplacement où vous pouvez déplacer des actions ou groupes d'actions est ind
 1. Pour déplacer une action ou un groupe d'actions, faites-la/le glisser sur la position souhaitée, comme avec les champs et les colonnes.
 2. Pour déplacer une action ou un groupe d'actions dans un autre groupe d'actions vide, déplacez l'action ou le groupe d'actions vers le nouveau groupe et placez-la/le dans la zone **Déplacer une action ici**.
 
+
+## <a name="personalizing-parts"></a><a name="Parts"></a>Personnalisation des pièces
+
+Les pièces sont des zones d'une page généralement composées de plusieurs champs, graphiques ou autres contenus et pouvant être identifiées par une bordure colorée lors du réglage du focus sur la pièce. Par exemple, un écran d'accueil Tableau de bord comporte plusieurs pièces. En raison de sa limite bien définie, vous pouvez personnaliser l'ensemble de la pièce ainsi que son contenu.
+
+- Pour déplacer une pièce, faites-la glisser vers la position souhaitée. Une ligne colorée indique les positions valides sur l'écran. Par exemple, les récapitulatifs peuvent être déplacés uniquement à côté d'autres récapitulatifs dans le volet Récapitulatif.
+- Vous pouvez masquer une pièce en sélectionnant l'option **Masquer** sous la pointe de flèche.
+- Lorsque vous commencez à personnaliser ou accédez à une nouvelle page, toutes les pièces actuellement masquées s'affichent sur la page avec des visuels distinctifs pour indiquer qu'elles sont masquées. Vous pouvez réafficher cette pièce en sélectionnant l'option **Afficher** sous la pointe de flèche.
+
+Vous pouvez effacer toutes les modifications de personnalisation que vous avez apportées dans une seule pièce en sélectionnant l'option **Effacer la personnalisation** sous la pointe de flèche de la pièce. L'effacement de la personnalisation d'une pièce n'affecte que les modifications apportées au contenu de la pièce, et non le placement ou la visibilité de la pièce sur la page.  
+
+
 ## <a name="to-clear-personalization"></a>Pour annuler la personnalisation
 Vous pouvez souhaiter annuler toutes les modifications de personnalisation apportées à une page au fil du temps.
 
@@ -109,9 +122,9 @@ Vous pouvez souhaiter annuler toutes les modifications de personnalisation appor
 |Option|Action|
 |------|------------
 |**Menu de navigation uniquement**|Efface toutes les modifications de personnalisation que vous avez apportées au menu de navigation partagé entre le tableau de bord et d'autres pages. Cela inclut toutes les nouvelles actions ajoutées en tant que signets et toutes les modifications apportées aux liens et aux groupes dans le menu.|  
-|**Actions seules**|Efface toutes les modifications de personnalisation apportées à la barre d'actions sur la page.|
-|**Uniquement les champs, les colonnes et les pièces**|Annule toutes les modifications de personnalisation apportées à la page, hormis celles de la barre d'actions. Cela inclut les modifications apportées aux champs, colonnes, pièces et mosaïques. |
-|**Tous**|Efface toutes les modifications de personnalisation apportées à cette page afin qu'elle retrouve son aspect d'origine. Cela inclut les modifications apportées à la barre d'actions, aux champs, colonnes, pièces et mosaïques.|
+|**Actions seules**|Efface toutes les modifications de personnalisation apportées à la barre de navigation ou d'actions sur la page.|
+|**Uniquement les champs, les colonnes et les pièces**|Efface toutes les modifications de personnalisation apportées à la page, hormis celles de la barre de navigation ou d'actions. Cela inclut les modifications apportées aux champs, colonnes, pièces et mosaïques. |
+|**Tous**|Efface toutes les modifications de personnalisation apportées à cette page afin qu'elle retrouve son aspect d'origine. Cela inclut les modifications apportées aux barres de navigation et d'actions, aux champs, colonnes, pièces et mosaïques.|
 
 ## <a name="additional-points-of-interest"></a>Points d'intérêts supplémentaires
 Pour vous aider à mieux comprendre la personnalisation, voici quelques points clés.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: f95e7ec5be6e00e908f5cb8cbe6f08528542e150
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 1b7fedfa09999db84f81f15040a0714b9f0fe63e
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878620"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188387"
 ---
 # <a name="copy-data-to-new-companies"></a>Copier des données vers les nouvelles sociétés
 Vous pouvez copier des valeurs couramment utilisées d’une société existante dans une nouvelle société, à partir du moment où ces sociétés figurent dans la même base de données. Par exemple, si vous disposez d'une liste standard de codes symptôme qui est commune à toutes les implémentations de gestion des services, vous pouvez facilement copier ces codes d'une société dans une autre.  

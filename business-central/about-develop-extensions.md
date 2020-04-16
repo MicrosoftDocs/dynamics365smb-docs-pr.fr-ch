@@ -9,16 +9,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 11/20/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 318e9afb29539b68aea4babf97c0608365406394
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 7e1ef15d8076aa0a17978de5418f39a2de8a1ac0
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881279"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188967"
 ---
-# <a name="extending-included365finincludesd365fin_mdmd"></a>Extension de [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="extending-d365fin"></a>Extension de [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Microsoft [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] est une solution de gestion d'entreprise qui aide les sociétés à connecter leurs finances, ventes, services et opérations pour rationaliser les processus d'entreprise, améliorer les interactions avec le client et prendre de meilleures décisions. [!INCLUDE[d365fin](includes/d365fin_md.md)] est accessible dans le cloud et aux utilisateurs sur différents types d'appareils, et est mis à jour régulièrement. Cette plate-forme d'entreprise moderne vous permet de personnaliser, d'étendre et de créer facilement et rapidement des applications en fonction de vos besoins spécifiques, avec peu ou pas de développement de code.  
 
 Il existe de nombreux avantages à utiliser [!INCLUDE[d365fin](includes/d365fin_md.md)] comme plateforme pour les constructeurs d'applications, notamment :
@@ -30,7 +30,7 @@ Il existe de nombreux avantages à utiliser [!INCLUDE[d365fin](includes/d365fin_
 * Amélioration de la valeur commerciale et augmentation du volume des transactions avec les clients existants et nouveaux
 * Faites-en plus avec une plate-forme qui fournit une expérience moderne et offre une évolutivité  
 * Accès à des informations exploitables sur les performances de vos listings via le portail Cloud Partner ou le processus de publication de l'application Office
-* Associée à des applications professionnelles intelligentes telles que Power Apps, Power Automate, Power BI, Azure AI, et bien d'autres encore  
+* Associée à des applications professionnelles intelligentes telles que Power Apps, Power Automate, Power BI, Azure AI et bien d'autres encore  
 
 Importez vos services [!INCLUDE[d365fin](includes/d365fin_md.md)] dans Microsoft AppSource en tant que :
 
@@ -39,14 +39,14 @@ Importez vos services [!INCLUDE[d365fin](includes/d365fin_md.md)] dans Microsoft
 
 Les nouveaux outils de développement vous permettent de créer des extensions pour les utilisateurs [!INCLUDE[d365fin](includes/d365fin_md.md)]. Si vous souhaitez vous familiariser avec les nouveaux outils ou en savoir plus sur les extensions 2.0, consultez [aka.ms/GetStartedWithApps](https://aka.ms/GetStartedWithApps).  
 
-Vous trouverez des informations sur les applications et les services de consultation actuellement disponibles sur [Microsoft AppSource](https://appsource.microsoft.com/consulting-services).
+Vous trouverez des informations sur les applications et les services de consultation actuellement disponibles sur [Microsoft AppSource](https://appsource.microsoft.com/marketplace/consulting-services?country=US&page=1&product=dynamics-365%3Bdynamics-365-business-central).
 
-Pour aider les utilisateurs à démarrer rapidement, Microsoft a ajouté à AppSource un catalogue d'offres de services de consultation pour les solutions basées sur [!INCLUDE[prodshort](includes/prodshort.md)], Power BI et Power Apps. En savoir plus sur les [Services de consultation](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-consulting).
+Pour aider les utilisateurs à démarrer rapidement, Microsoft a ajouté à un catalogue d'offres de services de consultation pour les solutions basées sur [!INCLUDE[prodshort](includes/prodshort.md)], Power BI, Power Apps et AppSource. En savoir plus sur les [Services de consultation](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-consulting).
 
-## <a name="choosing-which-services-to-offer-with-included365finincludesd365fin_mdmd"></a>Choix des services à offrir avec [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="choosing-which-services-to-offer-with-d365fin"></a>Choix des services à offrir avec [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
 ### <a name="integrate-a-3rd-party-solution"></a>Intégrer une solution tierce
-[!INCLUDE[d365fin](includes/d365fin_md.md)] propose plusieurs API prêtes à l'emploi pour les [applications connectées](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-connect-apps) pour faciliter l'intégration entre votre service et [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vous pouvez regrouper vos services avec une version [!INCLUDE[d365fin](includes/d365fin_md.md)] et offrir une expérience intégrée à vos clients. En savoir plus l'[Intégration d'une solution tierce](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-thirdparty-solution).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] propose plusieurs API prêtes à l'emploi pour les [applications connectées](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-connect-apps) pour faciliter l'intégration entre votre service et [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vous pouvez regrouper vos services avec une version [!INCLUDE[d365fin](includes/d365fin_md.md)] et offrir une expérience intégrée à vos clients. En savoir plus sur l'[Intégration d'une solution tierce](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-thirdparty-solution).
 
 ### <a name="development-of-a-vertical-solution"></a>Développement d'une solution verticale
 Créez une application spécialisée dans un secteur d'activité spécifique. Avec une [application intégrée](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-embed-apps), vous pouvez étendre et personnaliser l'application [!INCLUDE[d365fin](includes/d365fin_md.md)] existante et enrichir l'expérience de l'utilisateur final avec une fonctionnalité spécifique au secteur d'activité en utilisant les outils de développement nouveaux et modernes et les extensions version 2.0. En savoir plus sur le [Développement d'une solution verticale](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-vertical).
@@ -76,7 +76,7 @@ Le programme Vous êtes fin prêt est conçu pour vous aider à importer vos off
 
 Pour plus d'informations sur la création d'une offre [!INCLUDE[d365fin](includes/d365fin_md.md)], consultez les détails du [Programme Vous êtes fin prêt](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go). Si vous avez des questions ou des commentaires concernant le programme **Vous êtes fin prêt**, vous pouvez [nous contacter](mailto:dyn365bep@microsoft.com).
 
-## <a name="included365finincludesd365fin_mdmd-extensions-provided-by-microsoft"></a>Extensions [!INCLUDE[d365fin](includes/d365fin_md.md)] incluses dans Microsoft
+## <a name="d365fin-extensions-provided-by-microsoft"></a>Extensions [!INCLUDE[d365fin](includes/d365fin_md.md)] incluses dans Microsoft
 La version standard du produit inclut un nombre croissant d'extensions développées par Microsoft. Pour plus d'informations, voir [Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md).
 
 ## <a name="see-also"></a>Voir aussi

@@ -11,20 +11,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user setup
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: e51853d3378fe07680667f38bf729673da40a3c7
-ms.sourcegitcommit: 86498fe4326b9ce26cc31e8645db27570d13bdf9
+ms.openlocfilehash: 8b547aaba37285249439bae5a46a516b6620f6df
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2767529"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183491"
 ---
 # <a name="specify-posting-periods"></a>Définir des périodes de validation
 Utilisez des périodes de validation pour spécifier quand les utilisateurs peuvent valider en comptabilité.  
 
 ## <a name="to-specify-posting-periods"></a>Pour définir des périodes de validation
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres comptabilité**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres comptabilité**, puis sélectionnez le lien associé.  
 2. Sur la page **Paramètres comptabilité**, définissez la période en entrant des dates dans les champs **Début période validation** et **Fin période validation**.  
 
 > [!NOTE]  

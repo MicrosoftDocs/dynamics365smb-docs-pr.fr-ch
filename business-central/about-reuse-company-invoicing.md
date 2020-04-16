@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Invoicing, Office 365
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 354babea367b80cdb0eae4078f6111d44583df9e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b04da7a7fa6d831646c6af9f0606afa90dc00bd6
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300776"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188867"
 ---
-# <a name="using-the-same-office-365-account-in-included365finincludesd365fin_long_mdmd-and-microsoft-invoicing"></a>Utilisation du même compte Office 365 dans [!INCLUDE[d365fin](includes/d365fin_long_md.md)] et Microsoft Invoicing
+# <a name="using-the-same-office-365-account-in-d365fin-and-microsoft-invoicing"></a>Utilisation du même compte Office 365 dans [!INCLUDE[d365fin](includes/d365fin_long_md.md)] et Microsoft Invoicing
 Lorsque vous êtes inscrit à une version d'évaluation avec [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez passer à une phase d'évaluation de 30 jours, démarrer un abonnement ou encore l'arrêter à l'aide de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dans tous les cas, si vous vous connectez au portail Office, une vignette intitulée **Microsoft Invoicing** s'affiche : vous pouvez cliquez dessus. Cela fait partie de l'abonnement Office 365 Business Premium, tous les utilisateurs ne verront donc pas cette vignette dans le portail Office.  
 
 Si vous accédez à Microsoft Invoicing, vous verrez un message indiquant que vous ne pouvez pas accéder à Microsoft Invoicing car votre compte est utilisé dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -31,7 +31,7 @@ Vous devez donc vous connecter à [!INCLUDE[d365fin](includes/d365fin_md.md)] et
 
 ### <a name="to-rename-your-company"></a>Pour renommer votre société
 1. Connectez-vous à [!INCLUDE[d365fin](includes/d365fin_md.md)].
-2. Dans le coin supérieur droit, sélectionnez l'icône **Paramètres** ![Paramètres](media/ui-experience/settings_icon_small.png "Icône Paramètres du tableau de bord"), puis sélectionnez **Mes paramètres**.
+2. Dans le coin supérieur droit, sélectionnez l'icône **Paramètres** ![Paramètres](media/ui-experience/settings_icon_small.png "Icône Paramètres du tableau de bord"), puis choisissez **Mes paramètres**.
 3. Dans le champ **Société**, sélectionnez une autre société.
 4. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Sociétés**, puis sélectionnez le lien associé.  
 5. Sur la page **Sociétés**, sélectionnez le bouton **Modifier la liste**.  

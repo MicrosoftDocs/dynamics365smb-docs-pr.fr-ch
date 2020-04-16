@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/24/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: bb7c64727979b7e8f53898c03781a24bcf8f40c4
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: cd22a5df6dbe713c2ccc5706df99b0b73dd2f792
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2991847"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188363"
 ---
 # <a name="create-workflows"></a>Créer des workflows
 Vous pouvez créer des workflows qui connectent des tâches de processus entreprise exécutées par différents utilisateurs. Les tâches du système, telles que la validation automatique, peuvent être incluses comme étapes du workflow, précédées ou suivies des tâches de l'utilisateur. Demander et accorder une approbation pour créer des enregistrements sont des étapes classiques du flux de travail.  

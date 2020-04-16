@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 01/06/2020
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 50cc4aba9f3a01b9518d974cf011de3b9b20a4da
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: 2c99b8bef9bff22edd2d27856e703b41c6ec6441
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2991871"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184043"
 ---
-# <a name="accountant-experiences-in-included365fin_longincludesd365fin_long_mdmd"></a>Expériences de comptable dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# <a name="accountant-experiences-in-d365fin_long"></a>Expériences de comptable dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Chaque entreprise doit tenir ses comptes et valider sa comptabilité. Certaines sociétés utilisent un comptable externe, et d'autres ont un comptable dans le personnel. Peu importe le type de comptable que vous êtes, vous pouvez utiliser le tableau de bord **Comptable** comme pages d'accueil de [!INCLUDE[d365fin](includes/d365fin_md.md)]. De là, vous pouvez accéder à toutes les pages nécessaires pour votre travail.  
 
 ## <a name="accountant-role-center"></a>Tableau de bord Comptable
@@ -25,7 +25,7 @@ Le tableau de bord est un tableau de bord avec des vignettes d'activité qui aff
 
 Si vous débutez avec [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez lancer une liste de vidéos depuis votre Tableau de bord. Vous pouvez également lancer une visite de **Mise en route** qui précise des domaines clé.  
 
-## <a name="inviteaccountant"></a>Inviter votre comptable externe dans votre [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="inviting-your-external-accountant-to-your-d365fin"></a><a name="inviteaccountant"></a>Inviter votre comptable externe dans votre [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Si vous utilisez un comptable externe pour gérer votre comptabilité et vos états financiers, votre administrateur peut l'inviter à votre [!INCLUDE[d365fin](includes/d365fin_md.md)] afin qu'il puisse travailler avec vous sur vos données fiscales. [!INCLUDE[d365fin](includes/d365fin_md.md)] comprend trois licences de type Comptable externe. Pour plus d'informations sur la gestion des licences, voir le [Guide des licences Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?LinkId=871590).
 
 Une fois que votre comptable a accédé à votre [!INCLUDE[d365fin](includes/d365fin_md.md)], il peut utiliser le tableau de bord **Comptable** qui donne un accès facilité aux pages les plus appropriées pour son travail.  
@@ -61,7 +61,7 @@ Si votre administrateur ou partenaire revendeur ne souhaite pas utiliser le guid
 
 Ensuite, vous devez attribuer au nouvel utilisateur invité une licence pour [!INCLUDE [prodshort](includes/prodshort.md)].
 
-#### <a name="to-give-your-accountant-access-to-your-include-prodshortincludesprodshortmd"></a>Pour donner à votre comptable accès à votre [!INCLUDE [prodshort](includes/prodshort.md)]
+#### <a name="to-give-your-accountant-access-to-your-prodshort"></a>Pour donner à votre comptable accès à votre [!INCLUDE [prodshort](includes/prodshort.md)]
 
 1. Dans le Portail Azure, pour le nouvel utilisateur ajouté, choisissez **Profil**, puis **Modifier**
 2. Mettez à jour le champ **Lieu d'utilisation** et indiquez le pays concerné, puis choisissez **Enregistrer**.
@@ -73,7 +73,7 @@ Ensuite, vous devez attribuer au nouvel utilisateur invité une licence pour [!I
 
 En cas de réussite, la licence est attribuée à l'utilisateur invité et le compte invité est créé.
 
-### <a name="importing-the-new-user-into-include-prodshortincludesprodshortmd"></a>Importation du nouvel utilisateur dans [!INCLUDE [prodshort](includes/prodshort.md)]
+### <a name="importing-the-new-user-into-prodshort"></a>Importation du nouvel utilisateur dans [!INCLUDE [prodshort](includes/prodshort.md)]
 
 Le comptable recevra un e-mail l'informant qu'on lui a accordé l'accès à votre Active Directory. Ensuite, vous devez lui donner accès à la bonne société dans [!INCLUDE [prodshort](includes/prodshort.md)].
 
@@ -83,7 +83,7 @@ Le comptable recevra un e-mail l'informant qu'on lui a accordé l'accès à votr
 2. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Utilisateurs**, puis sélectionnez le lien associé.  
 3. Choisissez l'action **Obtenir de nouveaux utilisateurs à partir de Office 365**.
 
-Cela a pour effet d'importer dans la société le compte utilisateur que vous avez créé dans le portail Azure. Pour plus d'informations, voir [Pour ajouter un utilisateur dans Business Central](ui-how-users-permissions.md#to-add-a-user-in-business-central).  
+Cela a pour effet d'importer dans la société le compte utilisateur que vous avez créé dans le portail Azure. Pour plus d'informations, voir [Pour ajouter un utilisateur dans Business Central](ui-how-users-permissions.md#adduser).  
 
 Si vous souhaitez donner accès à plusieurs sociétés, vous devez vous connecter à chaque société et répéter ce processus. Vous pouvez également mettre à jour les groupes d'autorisations pour le profil utilisateur du comptable dans [!INCLUDE [prodshort](includes/prodshort.md)], par exemple en lui attribuant le groupe d'utilisateurs *D365 Bus Premium*. Pour en savoir plus, voir [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md).  
 

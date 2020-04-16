@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: a64b2fc63cd969afbf93bb380592b11e9ad16bc2
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 31c119958b12701f6e5e18d21ea4b48246255042
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312019"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194802"
 ---
 # <a name="create-special-orders"></a>Créer des commandes spéciales
 Vous pouvez créer une commande spéciale pour un article de catalogue spécifique à expédier à un client particulier. Le fournisseur expédie l'article à votre entrepôt et vous pouvez ensuite l'expédier à votre client seul ou avec d'autres articles issus d'autres commandes.  
@@ -25,7 +25,7 @@ Dans le cadre d'une commande spéciale, la commande achat et la commande vente s
 Pour pouvoir utiliser cette fonction, vous devez d'abord configurer les fiches client, fournisseur, et article nécessaires à la commande.  
 
 ## <a name="to-create-a-special-order"></a>Pour créer une commande spéciale  
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commande vente**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commande vente**, puis sélectionnez le lien associé.  
 2. Sélectionnez l'action **Nouveau**. Créez et renseignez une commande vente pour l'article. Pour en savoir plus, voir [Vendre des produits](sales-how-sell-products.md).
 3.  Sous le raccourci **Lignes**, renseignez la ligne vente. Dans le champ **Procédure achat**, sélectionnez une procédure achat dont le champ **Commande spéciale** est sélectionné.
 

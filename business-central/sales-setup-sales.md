@@ -1,8 +1,6 @@
 ---
 title: Aperçu des tâches de configuration des processus de vente | Microsoft Docs
 description: Décrit les tâches permettant de configurer des règles et des valeurs pour définir vos stratégies et vos processus de vente.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, configure
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: d19d02cb770efb32441d4b1282789a92deea41a0
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 9bfdfa6d4abf49f163fd9478e4c0c59dda069abd
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953410"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194754"
 ---
 # <a name="setting-up-sales"></a>Définition des ventes.
 Avant de pouvoir gérer les processus de vente, vous devez configurer les règles et valeurs qui définissent les stratégies de vente de la société.
@@ -40,7 +38,7 @@ La configuration des ventes en relation avec les finances, comme les modes de r�
 |Définissez les différents incoterms que vous proposez aux clients ou que vos fournisseurs vous proposent.|[Configurer des conditions de livraison](sales-how-set-up-shipment-methods.md)|
 |Entrer des informations sur les différents transporteurs utilisés, notamment un lien vers les prestations de traçabilité des colis.|[Configurer des transporteurs](sales-how-to-set-up-shipping-agents.md)|
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulestrade-get-started-dynamics-365-business-central"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Voir aussi
 [Ventes](sales-manage-sales.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 01decbd2ab4f3ed664c62e29d8bed6655758b315
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7285bf6984cc4f245282dcc129e66f097e11c5f2
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316825"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189426"
 ---
 # <a name="save-and-personalize-list-views"></a>Enregistrer et personnaliser les vues de liste
 Lorsque vous avez défini un filtre sur une liste et que vous souhaitez conserver le filtre pour plus tard, vous pouvez l'enregistrer en tant que vue. Pour plus d'informations sur le filtrage des listes, voir [Définition de filtres sur les listes](ui-enter-criteria-filters.md#setting-filters-on-lists).
@@ -24,7 +24,7 @@ Si des vues existent, le groupe **Vues** apparaît en haut du volet Filtre. Les 
 
 ## <a name="to-save-a-view"></a>Pour enregistrer une vue
 1. Ouvrez n'importe quelle page de liste.
-2. Sélectionnez l'![icône de volet Filtre](media/open-filter-pane-icon.png "icône de volet Filtre") en haut de la liste ou appuyez sur Maj+F3.
+2. Sélectionnez l'![icône de volet Filtre](media/open-filter-pane-icon.png "Icône de volet Filtre") en haut de la liste ou appuyez sur Maj+F3 pour ouvrir le volet Filtre.
 3. Définissez un ou plusieurs nouveaux filtres. Pour plus d'informations, reportez-vous à [Définition de filtres sur les listes](ui-enter-criteria-filters.md#setting-filters-on-lists).
 4. Lorsque vous avez défini les filtres, choisissez l'icône ![Enregistrer la vue](media/save_view_icon.png "Enregistrer la vue").
 
@@ -35,7 +35,7 @@ Si des vues existent, le groupe **Vues** apparaît en haut du volet Filtre. Les 
 Si vous ne lui donnez pas de nom, il sera nommé **Tous (copier)**.
 
 ## <a name="to-rename-or-remove-a-view"></a>Pour renommer ou supprimer une vue
-1. Pour la vue qui affiche actuellement la liste, choisissez l'icône ![Afficher plus d'options](media/show-more-options-icon.png "Afficher plus d'options") pour voir quelles options sont disponibles.
+1. Pour la vue qui affiche actuellement la liste, choisissez l'icône ![Afficher plus d'options](media/show-more-options-icon.png "Afficher plus d'options") pour voir les options disponibles.
 2. Choisissez soit l'action **Renommer** ou **Supprimer**.
 
 ## <a name="managing-many-views"></a>Gestion de plusieurs vues

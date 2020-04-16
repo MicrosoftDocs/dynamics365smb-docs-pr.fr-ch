@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 01/25/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 95653acf28c553d8331e2c086b7e84f1518bc3c0
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: e37d1c20032629f3a457e515a22e82a7a7eeb021
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2992063"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191850"
 ---
 # <a name="correct-or-cancel-unpaid-sales-invoices"></a>Corriger ou annuler des factures vente impayées
 Vous pouvez corriger ou annuler une facture vente validée. Cela est utile si vous faites une erreur ou si le client demande une modification.

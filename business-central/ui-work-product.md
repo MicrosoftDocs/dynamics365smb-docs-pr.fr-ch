@@ -1,38 +1,41 @@
 ---
 title: Utilisation de la fonctionnalité générale dans Business Central | Microsoft Docs
 description: Décrit la fonctionnalité générale que vous utilisez pour interagir avec des données dans Business Central, par exemple entrer les valeurs, trier les données, et modifier les vues.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 45db775e7d615f3c11a9617d36e4111baa40ccc1
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 666102d7f75028035b4b4087c2c8de0c693268c8
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953938"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189365"
 ---
-# <a name="working-with-included365finincludesd365fin_mdmd"></a>Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="working-with-d365fin"></a>Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Dans le cadre de l'exécution des tâches, vous interagissez avec des données de différentes manières : création d'enregistrements et saisie de données, tri et filtrage de données, rédaction de procédures et sortie de données vers d'autres applications.
 
 Par exemple, vous pouvez ajuster la taille et la position de n'importe quelle page, étendre la largeur des colonnes et augmenter la hauteur des en-têtes de colonnes, puis modifiez le tri des données dans les colonnes. Si vous souhaitez utiliser la barre de défilement horizontale pour afficher toutes les colonnes dans une page de liste ou des lignes document, vous constatez la présence d'un volet Figer vertical pour empêcher le défilement de certaines colonnes.
+
+## <a name="tips-and-tricks"></a><a name="cheatsheet"></a>Conseils
 
 > [!TIP]
 > Pour obtenir un aperçu facile à imprimer des fonctions les plus utilisées, sélectionnez l'image suivante et téléchargez le fichier PDF.
 >
 > [ ![](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf)
 
-> [!NOTE]
-> Outre les fonctionnalités d'interface utilisateur générales décrites de cette section, vous pouvez utiliser d'autres fonctionnalités générales davantage liées à l'entreprise. Pour plus d'informations, voir [Fonctionnalités d'entreprise générales](ui-across-business-areas.md).
+## <a name="links-to-learn-more"></a>Liens pour en savoir plus
 
 Le tableau suivant répertorie certaines des fonctionnalités générales et inclut des liens vers les rubriques qui les décrivent.
 
-| À | Voir |
+> [!NOTE]
+> Outre les fonctionnalités d'interface utilisateur générales décrites de cette section, vous pouvez utiliser d'autres fonctionnalités générales davantage liées à l'entreprise. Pour plus d'informations, voir [Fonctionnalités d'entreprise générales](ui-across-business-areas.md).
+
+| À  | Voir |
 | --- | --- |
 |Recherchez une page, un état, une action, une rubrique d'aide, ou une extension partenaire. |[Recherche de pages et d'informations avec Tell Me](ui-search.md) |
 |Obtenez une vue d'ensemble des pages de votre rôle et d'autres rôles, puis accédez à ces pages.|[Recherche de pages avec l'explorateur de rôles](ui-role-explorer.md)|
@@ -56,11 +59,22 @@ Voici une courte vidéo sur la manière de parcourir [!INCLUDE[d365fin](includes
 
 > [!VIDEO https://www.youtube.com/embed/zqz03iMihx0]
 
-## <a name="see-related-training-at-microsoft-learnlearnpathswork-pro-data-dynamics-365-business-central"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/work-pro-data-dynamics-365-business-central/)
+## <a name="choosing-a-desktop-browser"></a>Choix d'un navigateur de bureau
+
+[!INCLUDE[prodshort](includes/prodshort.md)] prend en charge plusieurs navigateurs qui offrent chacun diverses fonctions et fonctionnalités. Le navigateur joue un rôle important dans la réactivité et la fluidité de l'interface utilisateur. Consultez la liste des navigateurs pris en charge et recommandés pour [Business Central Online](https://go.microsoft.com/fwlink/?linkid=2110804) et des navigateurs pour [Business Central sur site](https://go.microsoft.com/fwlink/?linkid=2110719).
+
+- Dans la mesure du possible, évitez les navigateurs plus anciens tels qu'Internet Explorer et privilégiez l'un de nos navigateurs modernes recommandés tels que le [nouveau Microsoft Edge](https://www.microsoft.com/edge/).  
+
+    Internet Explorer est toujours pris en charge, mais comme le nouveau navigateur Edge est désormais disponible pour Windows Server, nous constatons une baisse du taux d'utilisation pour Internet Explorer. Vous pouvez également obtenir [un pilote d'Edge en mode IE](https://www.microsoft.com/edge/business). Pour en savoir plus, consultez [Documentation Microsoft Edge](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
+- Maintenez votre navigateur toujours à jour avec la dernière version.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/work-pro-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Voir aussi
+
 [Mise en route](product-get-started.md)  
 [Configuration de Business Central](setup.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)  
+[Conseils hautes performances pour les utilisateurs professionnels](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

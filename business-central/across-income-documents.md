@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 54ff8fe435012d1a6f00c70540f8dfccdc5901bc
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 352ebe98ee15547a16365901134b6dd198dc74c2
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952881"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187811"
 ---
 # <a name="incoming-documents"></a>Documents entrants
 Certaines transactions d'entreprise ne sont pas enregistrées dans [!INCLUDE[d365fin](includes/d365fin_md.md)] dès le départ. À la place, un document provenant d'entreprise externe arrive dans votre société comme la pièce jointe d'un e-mail, ou une copie papier que vous pouvez scanner pour la classer. Cela est classique dans le cas des commandes, lorsque ces fichiers de documents entrants sont des reçus de paiements pour des dépenses ou de petits achats.
@@ -44,7 +44,7 @@ Le processus de document entrant est composé des activités principales suivant
 | Configurer la fonctionnalité Documents entrants et le service OCR. |[Configurer des documents entrants](across-how-setup-income-documents.md) |
 | Créer des enregistrements document entrant, joindre des fichiers, utiliser le service OCR pour convertir des fichiers PDF en documents électroniques, convertir les documents électroniques en enregistrements de document, auditer les enregistrements document entrant à partir de documents vente et achat validés. |[Traitement des documents entrants](across-process-income-documents.md) |
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesincoming-documents-dynamics-365-business-centralindex"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/incoming-documents-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/incoming-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Voir aussi
 [Achats](purchasing-manage-purchasing.md)  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: email, PDF, electronic document
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: e541fbf541ec317ea6517587159144a5ccf84058
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: 32a7a00dc5d348fe6d177986dd0d966fca885528
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2911182"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193997"
 ---
 # <a name="set-up-document-sending-profiles"></a>Configurer des profils d'envoi de documents
 Vous pouvez associer chaque client avec une méthode par défaut d'envoi de documents vente, afin d'éviter d'avoir à sélectionner une option d'envoi chaque fois que vous sélectionnez l'action **Valider et envoyer**.
@@ -27,7 +27,7 @@ Sur la page **Profils d'envoi de documents**, configurez différents profils d'e
 Lorsque vous sélectionnez l'action **Valider et envoyer** dans un document vente, la boîte de dialogue **Valider et envoyer la confirmation** affiche le profil d'envoi utilisé, soit celui créé pour le client, soit le profil par défaut pour tous les clients. Dans la boîte de dialogue, vous pouvez modifier le profil d'envoi du document vente. Pour plus d'informations, reportez-vous à [Facturer des ventes](sales-how-invoice-sales.md).
 <br><br>  
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHH]
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHH?rel=0]
 
 ## <a name="to-set-up-a-document-sending-profile"></a>Configurer un profil d'envoi de documents
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Profils d'envoi de documents**, puis sélectionnez le lien associé.

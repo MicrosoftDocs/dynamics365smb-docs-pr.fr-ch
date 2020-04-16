@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 79e3f15169f592c5e90aacfd3307794f226adeb2
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 419c6d48d7370f7bcd6dc21c21ed3bd8d3833b00
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953218"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195490"
 ---
 # <a name="managing-report-and-document-layouts"></a>Gestion des présentations de rapport et de document
 Une présentation de rapport contrôle le contenu et le format du rapport, dont les champs de données d'un ensemble de données de rapport apparaissant sur le rapport et la façon ils sont organisés, le style de texte, les images, et plus encore. À partir de [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez modifier la présentation utilisée sur un rapport, créer une nouvelle présentation ou modifier les présentations existantes.
@@ -45,7 +45,7 @@ Une présentation de rapport Word est basé sur un document Word (type de fichie
 Les présentations RDLC sont basées sur les présentations de définition de rapport client (types de fichier .rdlc or .rdl). Ces présentations sont créées et modifiées à l'aide du Générateur de rapports SQL Server. Le concept des présentations RDLC est similaire à celui des présentations Word, où la présentation définit le format général de l'état et détermine les champs de l'ensemble de données à inclure. La création de présentations RDLC est plus avancée que les présentations Word. Pour plus d'informations, voir [Création de présentations de rapport RDLC](/dynamics-nav/Designing-RDLC-Report-Layouts).
 
 ## <a name="built-in-and-custom-report-layouts"></a>Présentations d'état intégrées et personnalisées
-[!INCLUDE[d365fin](includes/d365fin_md.md)] inclut plusieurs présentations intégrées. Les présentations intégrées sont des présentations prédéfinies conçues pour des états spécifiques. [!INCLUDE[d365fin](includes/d365fin_md.md)]les états comportent une présentation intégrée, RDLC, Word et parfois les deux. Vous ne pouvez pas modifier une présentation d'état intégrée à [!INCLUDE[d365fin](includes/d365fin_md.md)], mais vous pouvez les utilisez comme point de départ pour l'élaboration de vos propres présentations d'état personnalisées.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] inclut plusieurs présentations intégrées. Les présentations intégrées sont des présentations prédéfinies conçues pour des états spécifiques. Les états [!INCLUDE[d365fin](includes/d365fin_md.md)] comportent une présentation intégrée RDLC ou Word, ou parfois les deux. Vous ne pouvez pas modifier une présentation d'état intégrée à [!INCLUDE[d365fin](includes/d365fin_md.md)], mais vous pouvez les utilisez comme point de départ pour l'élaboration de vos propres présentations d'état personnalisées.
 
 Les présentations personnalisées sont des présentations de rapport que vous créez pour modifier l'apparence d'un rapport. Vous créez généralement une présentation personnalisée basée sur une présentation intégrée, mais vous pouvez les créer de A à Z ou à partir d'une copie d'une présentation personnalisée existante. Les présentations personnalisées vous permettent d'avoir plusieurs présentations pour le même rapport, que vous choisissez en fonction de vos besoins. Par exemple, vous pouvez avoir différentes présentations pour chaque société [!INCLUDE[d365fin](includes/d365fin_md.md)] ou vous pouvez avoir plusieurs présentations pour la même société pour des occasions ou événements spécifiques, comme une campagne spéciale ou la période des fêtes.
 
@@ -58,7 +58,7 @@ Le procédure pour paramétrer des présentations de rapport Word et des présen
 
 Pour plus d'informations sur la manière d'utiliser l'une ou l'autre présentation, voir [Modifier la présentation actuelle de l'état](ui-how-change-layout-currently-used-report.md).
 
-## <a name="see-related-training-at-microsoft-learnlearnmoduleschange-documents-dynamics-365-business-centralindex"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Voir aussi
 [Mettre à jour les présentations d'état personnalisées](ui-update-report-layouts.md)  

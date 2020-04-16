@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 10/17/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: b75ad760448b595e0241918006d5a888b5d5d625
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: cf0091de7446aff07b039d795b07334e3ba9d2a8
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2911254"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190098"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Configuration minimale requise pour l'utilisation de Business Central
 Avant d'accéder à [!INCLUDE [prodshort](includes/prodshort.md)] en ligne, nous vous recommandons de vérifier que votre ordinateur ou périphérique mobile répond à la configuration système requise pour le produit. Cet article répertorie les éléments de la configuration requise.  
@@ -30,7 +30,7 @@ Avant d'accéder à [!INCLUDE [prodshort](includes/prodshort.md)] en ligne, nous
 
 ### <a name="other-supported-browsers"></a>Autres navigateurs pris en charge
 
-**Internet Explorer :** [!INCLUDE[d365fin](includes/d365fin_md.md)] est conçu pour fonctionner avec Internet Explorer 11 (version 11.0.9600.17239) pour Windows 10 (versions 32 bits et 64 bits). Nous vous recommandons d'effectuer une mise à niveau avec la version la plus récente d'Internet Explorer prise en charge par votre version de Windows. 
+**Internet Explorer :** [!INCLUDE[d365fin](includes/d365fin_md.md)] est conçu pour fonctionner avec Internet Explorer 11 (version 11.0.9600.17239) pour Windows 10 (versions 32 bits et 64 bits). Nous vous recommandons d'effectuer une mise à niveau avec la version la plus récente d'Internet Explorer prise en charge par votre version de Windows. Vous pouvez également exécuter le nouveau Edge et toujours accéder aux sites web qui nécessitent Internet Explorer. Pour en savoir plus, consultez [Documentation Microsoft Edge](/deployedge/edge-ie-mode).
 
 ## <a name="mobile-devices"></a>Périphériques mobiles
 **Windows :** [!INCLUDE[d365fin](includes/d365fin_md.md)] pour Windows peut être installé sur des périphériques avec au moins 1 Go de RAM et Windows 10 Familiale, Pro, Entreprise ou Education (éditions 32 bits et 64 bits).  

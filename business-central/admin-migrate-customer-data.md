@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 12/19/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 2da58a4f5a3655fc2153647d80c5d69e1356b503
-ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
+ms.openlocfilehash: 48ce8c293b5af411763a8730c9f7d16113062d9a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "3097711"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186875"
 ---
 # <a name="migrate-customer-data"></a>Migrer des données client
 Vous pouvez migrer les données client existantes d'un système ERP existant vers [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des outils de migration de données de RapidStart Services. Vous pouvez utiliser des fichiers Excel comme supports d’informations. Vous pouvez également déplacer manuellement les données en les entrant directement dans la société.
@@ -93,7 +93,7 @@ Lorsque vous appliquez les données que vous avez importées d'Excel ou d'un pac
 
 - Si le champ a un rapport avec un autre tableau, [!INCLUDE[d365fin](includes/d365fin_md.md)] recherche le mappage défini pour le champ de clé primaire dans le tableau lié. Le tableau lié, cependant, doit faire partie du lot de configuration.  
 
-- Si les informations de mappage sont définies dans les deux fenêtres, pour le champ directement et pour la clé primaire de le tableau associé, [!INCLUDE[d365fin](includes/d365fin_md.md)] cherchera le mappage aux deux emplacements.  
+- Si les informations de mappage sont définies dans les deux fenêtres, pour le champ directement et pour la clé primaire du tableau associé, [!INCLUDE[d365fin](includes/d365fin_md.md)] cherchera le mappage aux deux emplacements.  
 
 - Si les mêmes mappages sont définis directement pour un champ et dans le tableau lié, mais possèdent de nouvelles valeurs différentes, le mappage défini directement pour le champ est prioritaire sur le mappage défini pour le tableau que le champ référence.  
 
@@ -102,7 +102,7 @@ Dans les procédures suivantes, vous devez rechercher à l'avance les valeurs qu
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Packages configuration**, puis choisissez le lien associé.
 2. Ouvrez le package pour la société concernée.  
 3. Sélectionnez la table pour laquelle vous souhaitez associer des valeurs, puis, sous l'onglet **Tables**, sélectionnez l'action **Champs**.  
-4. Pour chaque champ à associer, choisissez l'action **Correspondance**.  
+4. Pour chaque champ à mapper, choisissez l'action **Mappage**.  
 5. Dans le champ **Ancienne valeur**, saisissez la valeur que vous souhaitez modifier. Dans le champ **Nouvelle valeur**, saisissez la valeur dont vous souhaitez qu'elle remplace l'ancienne valeur. Choisissez le bouton **OK**.  
 6. Importez les données client. Pour plus d'informations, voir [Pour importer les données client](admin-migrate-customer-data.md#to-import-customer-data).
 7. Dans le champ **N° d'erreurs de lot**, vérifiez si des erreurs ont été signalées. S'il y en a, examinez les erreurs de près. La page **Enregistrements package config.** s'ouvre.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 31ac21dbba331748c9eef7bce199a5709147016b
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 3df8666206409aaf811faedb635b47f1a0688b3b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554659"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193434"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Procédure pas à pas : Réception et rangement dans les configurations de stockage de base
 
@@ -65,7 +65,7 @@ Pour exécuter ce processus pas à pas, vous devez :
 -   avoir CRONUS International Ltd. installé.  
 -   Pour devenir magasinier dans un magasin ARGENT, procédez comme suit :  
 
-    1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Magasiniers**, puis choisissez le lien associé.  
+    1.  Choisissez l'icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Magasiniers**, puis sélectionnez le lien associé.  
     2.  Choisissez le champ **ID utilisateur** et sélectionnez votre propre compte utilisateur sur la page **Utilisateurs**.  
     3.  Dans le champ **Code magasin**, entrez ARGENT.  
     4.  Sélectionnez le champ **Par défaut**.  
@@ -78,7 +78,7 @@ Ellen, responsable d'entrepôt chez CRONUS International Ltd., crée une command
 
 ### <a name="to-set-up-the-location"></a>Pour configurer le magasin  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Magasins**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Magasins**, puis sélectionnez le lien associé.  
 2.  Ouvrez la fiche magasin ARGENT.  
 3.  Activez la case à cocher **Rangement requis**.  
 
@@ -98,7 +98,7 @@ Les commandes achat sont le type de document d'origine entrant le plus répandu.
 
 ### <a name="to-create-the-purchase-order"></a>Pour créer la commande achat  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes achat**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes achat**, puis sélectionnez le lien associé.  
 2.  Sélectionnez l'action **Nouveau**.  
 3.  Créez une commande achat pour le fournisseur 10000 à la date de travail (23 janvier) comportant les lignes commande achat suivantes.  
 

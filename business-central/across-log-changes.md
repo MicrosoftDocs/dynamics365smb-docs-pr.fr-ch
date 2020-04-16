@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user log, user activity, tracking
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: cb091a54b7b8da571117c807a621ed298842444c
-ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
+ms.openlocfilehash: 6db170f8cf0b214a4ec85fc835eb8b98f071f203
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076674"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187739"
 ---
 # <a name="auditing-changes-in-business-central"></a>Audit des modifications dans Business Central
 
@@ -47,6 +47,6 @@ Les informations sont affichées dans la page **Journal des activités** en fonc
 ## <a name="see-also"></a>Voir aussi
 [Modifier les paramètres de base](ui-change-basic-settings.md)  
 [Tri, recherche et filtrage](ui-enter-criteria-filters.md)  
-[Recherche de pages et d'informations avec la fonction de recherche](ui-search.md)  
+[Recherche de pages et d'informations avec la fonction Tell Me](ui-search.md)  
 [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md)    
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

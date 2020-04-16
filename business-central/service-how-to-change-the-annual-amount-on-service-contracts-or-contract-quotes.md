@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: f34aec769a1b850eb14dcc9a5310274e0b82b375
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 73390a2857714e87378affb34409500d8f1436d3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311757"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195066"
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Modifier le montant annuel du contrat service ou du devis contrat
 Vous pouvez modifier le montant annuel du contrat service ou du devis contrat afin de rectifier le montant qui sera facturé annuellement.  
 
 ## <a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a>Pour modifier le montant annuel du contrat service ou du devis contrat  
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Contrats de services** ou **Devis contrat de service**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Contrats de service** ou **Devis contrat de service**, puis sélectionnez le lien associé.  
 2. Choisissez le contrat ou le devis contrat.  
 3. Choisissez l'action **Ouvrir contrat** pour ouvrir le contrat ou le devis contrat et le modifier.  
 4. Choisissez la case à cocher **Autoriser montants non soldés** si vous souhaitez modifier le montant annuel et répartir la différence du montant annuel manuellement dans les lignes de contrat. Autrement, décochez la case pour répartir automatiquement la différence du montant annuel dans les lignes contrat après avoir modifié le montant annuel.  

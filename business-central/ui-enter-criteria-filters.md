@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 412c354313e571969c3ab7aa87210ff432ae0e91
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 50fbfe2cfa10885ad126153b0602bf953a105d9f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882205"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194466"
 ---
 # <a name="sorting-searching-and-filtering"></a>Tri, recherche et filtrage
 Il existe quelques fonctions que vous pouvez utiliser pour vous aider à analyser, rechercher et limiter des enregistrements d'une liste ou dans un état ou un XMLport. Il s'agit notamment du tri, de la recherche et du filtrage. Vous pouvez en appliquer certaines ou toutes simultanément pour trouver rapidement ou analyser vos données.
@@ -54,7 +54,7 @@ Cependant, vous pouvez faire une recherche plus précise en utilisant des caract
 
 - Pour rechercher des valeurs de champ qui finissent par un certain texte et correspondant à la casse, placez `*` avant le texte de recherche (par exemple, `*man`).
 
-- Lorsque vous utilisez `''` ou `*` la recherche respecte la casse. Si vous souhaitez que la recherche ne respecte pas la casse, placez `@` avant le texte de recherche (par exemple `@man*`).
+- Lorsque vous utilisez `''` ou `*`, la recherche respecte la casse. Si vous souhaitez que la recherche ne respecte pas la casse, placez `@` avant le texte de recherche (par exemple `@man*`).
 
 Le tableau suivant fournit des exemples expliquant comment vous pouvez utiliser la recherche.
 
@@ -69,7 +69,7 @@ Le tableau suivant fournit des exemples expliquant comment vous pouvez utiliser 
 > [!TIP]
 > Vous pouvez appuyer sur **F3** pour activer et désactiver la zone de recherche. Pour plus d'informations, reportez-vous à [Raccourcis clavier](keyboard-shortcuts.md#KeyboardFilter).
 
-## <a name="Filtering"> </a>Filtrage
+## <a name="filtering"></a><a name="filtering"></a>Filtrage
 Le filtrage fournit une manière plus avancée et plus souple de contrôler les enregistrements affichés dans une liste ou à inclure dans un état ou un XMLport. Il existe deux différences majeures entre rechercher et filtrer, comme décrit dans le tableau ci-dessous.
 
 || **Recherche** | **Filtrage** |
@@ -132,7 +132,7 @@ Les colonnes qui ont déjà des filtres sont signalées par l'![Icône de filtre
 > [!TIP]
 > Accélérez la recherche et l'analyse de vos données en utilisant des combinaisons des raccourcis clavier. Par exemple, sélectionnez un champ, utilisez **Maj+Alt+F3** pour ajouter ce champ au volet Filtre, saisissez les critères de filtre, utilisez **Ctrl+Entrée** pour revenir aux lignes, sélectionnez un autre champ, puis utilisez **Alt+F3** pour filtrer selon cette valeur. Pour plus d'informations, reportez-vous à [Raccourcis clavier](keyboard-shortcuts.md#KeyboardFilter).
 
-### <a name="FilterCriteria"> </a>Critères et symboles de filtre
+### <a name="filter-criteria-and-symbols"></a><a name="FilterCriteria"> </a>Critères et symboles de filtre
 Lorsque vous saisissez des critères, vous pouvez utiliser tous les chiffres et toutes les lettres que vous utilisez habituellement dans ce champ. En plus, vous pouvez utiliser des symboles (ou opérateurs) spéciaux pour filtrer davantage les résultats. Les tableaux suivants indiquent les symboles qui peuvent être utilisés dans les filtres. Pour les dates et heures, vous pouvez également vous référer à [Utilisation de dates civiles et les heures](ui-enter-date-ranges.md) pour des informations plus détaillées.
 
 > [!IMPORTANT]  
@@ -231,7 +231,7 @@ Les sections suivantes décrivent comment utiliser les différents opérateurs.
 |`..1299|1400..`|Inclure tous les enregistrements qui portent un numéro inférieur ou égal à 1299 ou un numéro supérieur ou égal à 1400 (tous les numéros sauf ceux compris entre 1300 et 1399).|  
 |`>50&<100`|Inclure les enregistrements qui portent un numéro supérieur à 50 et inférieur à 100 (numéros 51 à 99).|  
 
-### <a name="FilterTokens"> </a>Jetons de filtre
+### <a name="filter-tokens"></a><a name="FilterTokens"> </a>Jetons de filtre
 En saisissant des critères de filtre, vous pouvez également saisir des mots avec un sens particulier, appelés des jetons de filtre. Après avoir saisi le mot de jeton, le mot est remplacé par la ou les valeurs qu'il représente. Cela facilite le filtrage en réduisant la nécessité de naviguer vers d'autres pages pour rechercher des valeurs à ajouter à votre filtre. Les tableaux ci-après décrivent certains des jetons que pouvez saisir comme critères de filtre.
 
 > [!TIP]

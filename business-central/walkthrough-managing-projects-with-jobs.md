@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 333c32d29e7095e95520badd375a3abde9a87834
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: a83a6aa09ecfd6bb6ae459096707d0fbb5ff234f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882029"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189834"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Procédure pas à pas : gestion des projets
 
@@ -264,7 +264,7 @@ Les lignes sont à présent validées.
 ### <a name="to-post-a-new-sales-invoice"></a>Pour valider une nouvelle facture vente  
 
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Factures vente**, puis sélectionnez le lien associé.  
-2.  Ouvrez la facture pour le client N°  01445544. Vous pouvez voir les informations entrées à partir des lignes planning.  
+2.  Ouvrez la facture pour le client N° 01445544. Vous pouvez voir les informations entrées à partir des lignes planning.  
 3.  Sélectionnez l'action **Valider**. Cliquez sur **Oui** pour confirmer la validation.  
 
 ### <a name="to-view-the-posted-invoice"></a>Pour afficher la facture validée  

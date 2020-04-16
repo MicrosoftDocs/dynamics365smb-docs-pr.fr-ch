@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reconcile
-ms.date: 01/10/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 0d1a38468f5d07a1170027bc728ba16996f2b782
-ms.sourcegitcommit: 2f741f442226b8be74586e355f283f365e43220f
+ms.openlocfilehash: 050519c77f7c1dca5dd451a57ac47f71b4803a91
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "2947252"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186203"
 ---
 # <a name="reconciling-bank-accounts"></a>Rapprochement de comptes bancaires
 Un rapprochement bancaire doit être effectué à intervalles réguliers pour tous vos comptes bancaires afin de garantir l'exactitude des registres de trésorerie de la société. Pour ce faire, vous comparez et faites correspondre les écritures de vos comptes bancaires internes avec les transactions bancaires de votre banque, puis vous validez les soldes sur vos comptes bancaires internes pour mettre les totaux à la disposition des responsables financiers. Le rapprochement bancaire est également un moyen pratique de découvrir et de résoudre les paiements manquants et les erreurs de comptabilité.
@@ -36,7 +36,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | Rapprocher des comptes bancaires en tant que tâche distincte sur la page **Rapprochement bancaire**. |[Rapprochement des comptes bancaires](bank-how-reconcile-bank-accounts-separately.md) |
 | Rapprocher des comptes bancaires en relation avec le traitement des paiements sur la page **Feuille rapprochement bancaire**. |[Lettrage automatique des paiements et rapprochement des comptes bancaires](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsreconcile-bank-accounts-dynamics-365-business-central"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/reconcile-bank-accounts-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/reconcile-bank-accounts-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Voir aussi
 [Paramétrage des opérations bancaires](bank-setup-banking.md)  

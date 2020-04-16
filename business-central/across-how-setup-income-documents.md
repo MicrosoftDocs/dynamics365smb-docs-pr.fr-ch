@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 12/09/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: e67ca1c0b26d7e4a81e53854ca31efc64a366c3f
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: 0a33652ac230e63607957916308ee960d14a2b47
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2910507"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188483"
 ---
 # <a name="set-up-incoming-documents"></a>Configurer des documents entrants
 Si vous créez des lignes feuille comptabilité à partir des enregistrements de documents entrants, vous devez spécifier sur la page **Paramètres des documents entrants** quels modèle et nom de feuille utiliser.

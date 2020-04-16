@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 94f3a735887d4af23b3ec27ffb04e874dbc1924c
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 198200c4a2f595f642d03255f3b6f03c23ce3a47
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952929"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188147"
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Configurer l'envoi et la réception de documents électroniques
 Comme alternative à l'envoi par courrier électronique sous forme de fichiers joints, vous pouvez envoyer et recevoir des documents commerciaux par voie électronique. Par document électronique, on entend un fichier conforme aux normes représentant un document commercial comme une facture fournisseur que vous pouvez recevoir et convertir en facture achat dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. L'échange de documents électroniques entre deux partenaires commerciaux est exécuté par un fournisseur externe de services d'échange de documents. La version générique de [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge l'envoi et la réception de factures et d'avoirs électroniques au format PEPPOL, qui est pris en charge par les principaux fournisseurs de services d'échange de documents. Un fournisseur principal de services d'échange de documents est préconfiguré et prêt à être installé pour votre société.  
@@ -136,7 +136,7 @@ La rubrique contient les procédures suivantes :
     |---------------------------------|---------------------------------------|  
     |**Compte général pour lignes non-article**|Spécifie le compte G/L inséré automatiquement dans les lignes d'achat créées à partir de documents électroniques lorsque la ligne de document entrant ne contient pas d'article identifiable. Une ligne document entrant sans GTIN ni numéro d'article du fournisseur sera convertie en ligne achat de type **Compte général** et le champ **N°** de la ligne achat affichera le compte que vous sélectionnez dans le champ **Compte général pour lignes non-article**.<br /><br /> Si vous laissez le champ **Compte général pour lignes non-article** vide et que le document entrant possède des lignes sans articles identifiables, alors le document d'achat ne sera pas créé. Un message d'erreur vous donnera des instructions pour remplir le champ **Compte général pour lignes non-article** avant de pouvoir terminer la tâche.|  
 
-## <a name="see-related-training-at-microsoft-learnlearnmoduleselectronic-documents-dynamics-365-business-centralindex"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Voir aussi  
 [Échanger des données par voir électronique](across-data-exchange.md)   

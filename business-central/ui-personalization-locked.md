@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c77664a1013804de13303c8e1d162c437cf5d6e7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9774c3472a70967f6b0250e2f02e817f26e9b710
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315147"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195738"
 ---
 # <a name="why-a-page-is-locked-from-personalization"></a>Pourquoi la personnalisation d'une page est verrouillée
 
-Deux conditions vous empêchent de personnaliser une page. Soit la page est verrouillée (comme indiqué par l'icône ![Verrouillage de personnalisation](media/personalization-lock-icon.png "Verrouillage de personnalisation")) ou soit elle est bloquée (comme indiqué par l'icône ![Personnalisation bloquée](media/personalization-blocked-icon.png "Personnalisation bloquée")).
+Deux conditions vous empêchent de personnaliser une page. La page est verrouillée (comme indiqué par l'icône ![Verrouillage de personnalisation](media/personalization-lock-icon.png "Verrouillage de personnalisation")) ou bloquée (comme indiqué par l'icône ![Personnalisation bloquée](media/personalization-blocked-icon.png "Personnalisation bloquée")).
 
 ## <a name="locked-from-personalizing"></a>Personnalisation verrouillée
 

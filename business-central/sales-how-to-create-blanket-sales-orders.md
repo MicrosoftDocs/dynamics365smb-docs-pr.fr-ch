@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: edd9e1d65c4bbfadf5c74e296ed1a9c6cffd1dfb
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2d6037b7310eba798696d0aca7881b4927f1d14b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316371"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194850"
 ---
 # <a name="work-with-blanket-sales-orders"></a>Utiliser des commandes ouvertes vente
 Une commande ouverte vente représente le cadre d'un accord à long terme entre votre client et vous.
@@ -29,20 +29,21 @@ Vous pouvez utiliser une commande ouverte vente, par exemple, lorsqu'un client a
 > [!NOTE]
 > Les commandes ouvertes achat fonctionnent de la même manière que les commandes ouvertes vente. Cette documentation couvre les commandes vente en cours uniquement.
 
-## <a name="to-create-a-blanket-sales-order"></a>Pour créer une commande vente ouverte.  
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes ouvertes vente**, puis sélectionnez le lien associé.  
+## <a name="to-create-a-blanket-sales-order"></a>Pour créer une commande vente ouverte.
+
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes cadres vente**, puis sélectionnez le lien associé.  
 2. Sélectionnez l'action **Nouveau**.  
 3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4.  Laissez vide le champ **Date commande**. Lors de la création de commandes vente séparées depuis la commande ouverte, la date commande de la commande vente est définie comme égale à la date du jour.
-5. Dans le raccourci **Lignes**, créez des lignes distinctes pour chaque expédition. Par exemple, si le client souhaite 1 000 unités réparties de façon uniforme sur quatre semaines, entrez quatre lignes distinctes de 250 unités chacune.   
+4. Laissez vide le champ **Date commande**. Lors de la création de commandes vente séparées depuis la commande ouverte, la date commande de la commande vente est définie comme égale à la date du jour.
+5. Dans le raccourci **Lignes**, créez des lignes distinctes pour chaque expédition. Par exemple, si le client souhaite 1 000 unités réparties de façon uniforme sur quatre semaines, entrez quatre lignes distinctes de 250 unités chacune.  
 
 ## <a name="to-create-a-sales-order-from-a-blanket-sales-order"></a>Pour créer une commande vente à partir d'une commande ouverte vente  
 
-1.  Pour créer une commande pour l'une des lignes de la commande vente en cours, effacez la quantité du champ **Qté à expédier** de toutes les lignes que vous ne voulez pas expédier actuellement.  
-2.  Lorsque vous êtes prêt à créer les commandes, sélectionnez **Créer commande**, puis **Oui**. Un message s'affiche, vous informant que la commande ouverte a été associée à un numéro de commande. Remarquez que la commande ouverte n'a pas été supprimée.  
-3.  Cliquez sur le bouton **OK**.  
-4.  Pour afficher les résultats des étapes précédentes, sélectionnez l'action **Ligne**, l'action **Lignes non validées**, puis l'action **Commandes**.  
-5.  Sur la page **Lignes vente**Lignes vente, sélectionnez la commande vente appropriée, sélectionnez l'action **Ligne**, sélectionnez Ligne, puis sélectionnez l'action **Afficher document**.  
+1. Pour créer une commande pour l'une des lignes de la commande vente en cours, effacez la quantité du champ **Qté à expédier** de toutes les lignes que vous ne voulez pas expédier actuellement.  
+2. Lorsque vous êtes prêt à créer les commandes, sélectionnez **Créer commande**, puis **Oui**. Un message s'affiche, vous informant que la commande ouverte a été associée à un numéro de commande. Remarquez que la commande ouverte n'a pas été supprimée.  
+3. Cliquez sur le bouton **OK**.  
+4. Pour afficher les résultats des étapes précédentes, sélectionnez l'action **Ligne**, l'action **Lignes non validées**, puis l'action **Commandes**.  
+5. Sur la page **Lignes vente**, sélectionnez la commande vente appropriée, l'action **Ligne**, puis l'action **Afficher document**.  
 
 Ce qui suit s'applique aux commandes vente après leur création à partir de commandes vente ouvertes :  
 
@@ -58,7 +59,7 @@ Ce qui suit s'applique aux commandes vente après leur création à partir de co
 ## <a name="to-view-the-status-of-a-blanket-sales-order"></a>Pour visualiser le statut d'une commande ouvertes vente  
 Vous pouvez visualiser le statut d'une commande ouverte vente sur la page **Statistiques Commande vente en cours**. Ceci peut s'avérer utile lorsque vous commencez à facturer une commande créée à partir de la commande vente en cours.  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes ouvertes vente**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes cadres vente**, puis sélectionnez le lien associé.  
 2.  Sélectionnez une commande vente en cours, puis sélectionnez l'action **Statistiques**.  
 3.  Sur la page **Statistiques Commande vente en cours**, sur le raccourci **Général**, vous pouvez visualiser des informations récapitulatives concernant l'intégralité de la commande. Elles se basent sur la quantité totale des **champs Quantité** sur les lignes commande vente en cours.  
 
@@ -70,7 +71,7 @@ Vous pouvez visualiser le statut d'une commande ouverte vente sur la page **Stat
 ## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Pour afficher des lignes de commande vente ouverte non validées et validées   
 Le lien entre la commande ouverte vente et la commande vente d'origine, et n'importe quel autre document vente, est conservé après validation en tant que liste des lignes facture validées et non validées de commande vente.  
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes ouvertes vente**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes cadres vente**, puis sélectionnez le lien associé.
 2. Ouvrez la commande vente ouverte que vous souhaitez afficher.
 3. Pour visualiser les écritures non validées, sélectionnez la ligne en question, sélectionnez l'action **Ligne**, puis l'action **Lignes non validées**. Choisissez l'une des options suivantes.  
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 84d9c0768a457fd13a73b3d70d2b8c329098fe82
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: c5d9dcc46e05cef21961e20008227a1a35b737af
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953315"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193911"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Gérer les pièces jointes, les liens et les notes sur les fiches et les documents
 
@@ -34,9 +34,9 @@ Vous pouvez joindre tout type de fichier contenant du texte, des images ou des v
 > [!NOTE]
 > Les fichiers joints à la fonction Documents entrants ne sont pas inclus dans l'onglet **Pièces jointes**. Pour plus d'informations, voir [Documents entrants](across-income-documents.md).
 
-La procédure suivante se base sur une commande vente. Les étapes sont similaires pour tous les autres documents et fiches pris en charge.
+La procédure suivante se base sur une facture achat. Les étapes sont similaires pour tous les autres documents et fiches pris en charge.
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Factures achat**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Factures achat**, puis sélectionnez le lien associé.
 2. Ouvrez les commandes ventes auxquelles vous souhaitez joindre un fichier.
 3. Dans le Récapitulatif, ouvrez l'onglet **Pièces jointes**.
 4. Choisissez la valeur associée au champ **Documents**, telle que « 0 ».
@@ -45,12 +45,22 @@ La procédure suivante se base sur une commande vente. Les étapes sont similair
 
 Le fichier est désormais joint à la facture achat.
 
+## <a name="to-save-a-document-as-a-pdf-attachment"></a>Pour enregistrer un document en tant que pièce jointe PDF
+Chaque fois que vous devez enregistrer un document en tant que fichier, vous pouvez utiliser l'action **Joindre en tant que PDF** pour capturer le contenu actuel du document sous forme de fichier PDF joint au récapitulatif du document. Cela est utile, par exemple, lorsque des documents suivent plusieurs étapes d'un processus, comme un processus de vente ou un flux de travail approbation, et que vous souhaitez vous référer à une impression de l'étape précédente.
+
+La procédure suivante se base sur une commande vente. Les étapes sont similaires pour tous les autres documents pris en charge.
+
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes vente**, puis sélectionnez le lien associé.
+2. Sélectionnez une commande vente, puis l'action **Joindre en tant que PDF**.
+
+Un fichier PDF avec le contenu actuel de la commande vente est ajouté à l'onglet **Pièces jointes** du récapitulatif. 
+
 ## <a name="to-add-a-link-from-an-item-card"></a>Pour ajouter un lien à partir d'une fiche article
 Vous pouvez ajouter un lien à partir d'une fiche ou d'un document à n’importe quelle URL ou n’importe quel chemin d'accès. Ceci est utile, par exemple, lorsque vous souhaitez lier une fiche article au catalogue d'articles du fournisseur.
 
 La procédure suivante se base sur une fiche article. Les étapes sont similaires pour toutes les autres fiches et tous les documents pris en charge.
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles**, puis sélectionnez le lien associé.
 2. Sélectionnez l'article à partir duquel vous souhaitez ajouter un lien, puis choisissez l'onglet **Pièces jointes** dans le Récapitulatif.
 3. Dans la section **Liens**, choisissez l'icône **+**.
 4. Entrez le lien dans le champ **Adresse du lien**.
@@ -70,7 +80,7 @@ Vous pouvez écrire une note sur un document ou une ficher, par exemple pour com
 
 La procédure suivante se base sur une commande vente. Les étapes sont similaires pour tous les autres documents et fiches pris en charge.
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes vente**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes vente**, puis sélectionnez le lien associé.
 2. Sélectionnez la commande vente pour laquelle vous souhaitez écrire une note, puis choisissez l'onglet **Pièces jointes** dans le Récapitulatif.
 3. Dans la section **Notes**, choisissez l'icône **+**.
 4. Dans le champ **Note**, écrivez n’importe quel texte, par exemple « Ceci est une commande urgente ».

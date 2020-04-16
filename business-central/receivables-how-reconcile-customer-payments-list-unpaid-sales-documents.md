@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts, customer payment
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 5163eae4310b87ec3a5222e2818bd03cea22209c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: eae32d28f1a56408b37809943b4c2dcd4a7ec5cd
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316611"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193722"
 ---
 # <a name="reconcile-customer-payments-from-a-list-of-unpaid-sales-documents"></a>Rapprocher les paiements client à partir de la liste des documents vente échus
 Lorsque vos clients ont effectué des paiements sur votre compte bancaire électronique, vous devez lettrer chaque montant payé avec le document vente associé, puis valider le paiement pour mettre à jour les écritures client, comptables et banque. Selon les besoins de votre entreprise, vous pouvez être payé et enregistrer ce paiement de diverses manières : manuellement, automatiquement, et via des services de paiement.  
@@ -37,7 +37,7 @@ Les paiements pour des clients différents qui ont des dates d'échéance diffé
 
 ## <a name="to-register-customer-payments-individually"></a>Pour enregistrer les paiements client individuellement
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Enregistrer les paiements client**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Enregistrer les paiements client**, puis choisissez le lien associé.  
 
     La page **Enregistrer les paiements client** affiche tous les documents validés pour lesquels un paiement peut être enregistré. La page peut également être ouverte à partir des pages **Clients** et **Fiche client** dans lesquelles elle sera automatiquement filtrée pour le client spécifié.  
 2. Cochez la case **Paiement effectué** de la ligne représentant le document validé pour lequel un paiement a été effectué.

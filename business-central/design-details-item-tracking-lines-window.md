@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, inventory, item, tracking, serial number, lot number
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: ba606fdea9ab9fd75513ec05e54a63e60fa6c9ec
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 77d53f959d778b3355ad563fede1dfe106ad1ec8
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2880151"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184979"
 ---
 # <a name="design-details-item-tracking-lines-page"></a>Détails de conception : page Lignes traçabilité
 Les enregistrements de traçabilité et de réservation sont créés dans le système de réservation, et leur disponibilité est calculée de façon dynamique. Les données qui sont saisies sur la page **Lignes traçabilité** sont gérées dans une version temporaire de la table **Spécification traçabilité**. Lorsque la page est fermée, les données actives sont validées dans le tableau **Écriture réservation** et les données historiques sont validées dans le tableau **Spécification traçabilité**. Pour plus d'informations, voir [Détails de conception : comparaison entre écritures traçabilité actives et historiques](design-details-active-versus-historic-item-tracking-entries.md).  

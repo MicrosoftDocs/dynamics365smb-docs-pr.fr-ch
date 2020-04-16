@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 23bbed9e19fa2a3fd99f45cfde24d6d16f31e795
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: dc2a67623a55026557855b8247bf0565918e3f3c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2876838"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193362"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Procédure pas à pas : suivi des numéros de série et des numéros de lot
 
@@ -108,7 +108,7 @@ Ensuite, vous devez créer plusieurs transactions d'achat, de production et de v
     Ensuite, acheter des cadres de course de Custom Metals Incorporated.  
 
 ### <a name="to-purchase-components"></a>Pour acheter des composants  
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes achat**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes achat**, puis sélectionnez le lien associé.  
 2.  Sélectionnez l'action **Nouveau**.  
 3.  Créez une commande achat pour le fournisseur, Custom Metals Incorporated, en renseignant les champs ligne suivants.  
 
@@ -122,7 +122,7 @@ Ensuite, vous devez créer plusieurs transactions d'achat, de production et de v
 7.  Cliquez sur **Valider**, choisissez l'option **Réceptionner et facturer**, puis cliquez sur le bouton **OK**.  
 
     Ensuite, achetez des cadres de course de Coolwood Technologies.  
-8.  Choisissez l'icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes achat**, puis sélectionnez le lien associé.  
+8.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes achat**, puis sélectionnez le lien associé.  
 9. Sélectionnez l'action **Nouveau**.
 10. Créez une commande achat pour le fournisseur, Coolwood Technologies, en renseignant les champs ligne suivants.  
 
@@ -184,7 +184,7 @@ Ensuite, vous devez créer plusieurs transactions d'achat, de production et de v
     Ensuite, vendez les vélos de course. Vendez d'abord le vélo de course portant le SN1 à Selangorian Ltd.  
 
 ### <a name="to-sell-the-end-items"></a>Pour vendre des articles finis  
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes vente**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes vente**, puis sélectionnez le lien associé.  
 2.  Choisissez l'action **Nouveau**, puis créez une commande vente en renseignant les champs suivants.  
 
     |Client|Article ;|Qté|N° de série|  
@@ -208,7 +208,7 @@ Ensuite, vous devez créer plusieurs transactions d'achat, de production et de v
 
     Enfin, vendez séparément quelques cadres de course. Cannon Group PLC commande également quatre cadres de course distincts pour leur propre chaîne de montage.  
 
-9. Choisissez l'icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes vente**, puis sélectionnez le lien associé.  
+9. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes vente**, puis sélectionnez le lien associé.  
 10. Choisissez l'action **Nouveau**, puis créez une commande vente en renseignant les champs suivants.  
 
     |Client|Article ;|Qté|N° de série|  

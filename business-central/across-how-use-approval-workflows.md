@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9432436aa3adbc0723be4a5a042e35ef90f88d04
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0052b0995e295c0adba7daa9f0ab674d174ec7fc
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305107"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188086"
 ---
 # <a name="use-approval-workflows"></a>Utilisation des flux d'approbation
 Lorsqu'un enregistrement, tel qu'un document achat ou une fiche client, doit être approuvé par un membre de votre organisation, vous envoyez une approbation demande achat dans le cadre d'un workflow. Selon la configuration du workflow, l'approbateur approprié est informé que l'enregistrement requiert son approbation.
@@ -51,7 +51,7 @@ La tâche suivante est effectuée par un utilisateur d'approbation doté de droi
 
 Vous pouvez traiter les demandes d'approbation sur la page **Demandes à approuver**, par exemple, afin d'approuver plusieurs demandes à la fois. Sinon, vous pouvez traiter chaque demande sur l'enregistrement connexe, par exemple la page **Facture achat**, en sélectionnant le lien dans la notification que vous recevez.
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Demandes à approuver**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Demandes à approuver**, puis choisissez le lien associé.
 2. Sélectionnez une ou plusieurs lignes pour l'enregistrement ou les enregistrements que vous voulez approuver ou rejeter.
 3. Choisissez l'action **Approuver**, **Rejeter** ou **Déléguer**.
 
@@ -66,7 +66,7 @@ La tâche suivante est effectuée par un utilisateur d'approbation doté de droi
 
 Pour éviter que des documents ne s'accumulent ou encore bloquent le workflow, l'approbateur et l'administrateur d'approbation peuvent déléguer une demande d'approbation à un approbateur remplaçant. Le remplaçant peut être soit un remplaçant désigné, l'approbateur direct, soit l'administrateur d'approbation, dans cet ordre de priorité. Généralement, cette fonction est utilisée si un approbateur est absent et dans l'impossibilité d'approuver des demandes avant la date d'échéance.
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Demandes à approuver**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Demandes à approuver**, puis choisissez le lien associé.
 2. Sélectionnez une ou plusieurs lignes pour les demandes d'approbation à déléguer à un approbateur remplaçant, puis sélectionnez l'action **Déléguer**.
 
 Une notification pour approuver la demande est envoyée à l'approbateur remplaçant.
@@ -78,7 +78,7 @@ Vous devez rappeler régulièrement aux utilisateurs du workflow d'approbation q
 
 La fonction **Envoyer des notifications d'approbations échues** passe en revue toutes les demandes d'approbation ouvertes qui sont actuellement échues. Chaque approbateur ayant au moins une écriture approbation échue reçoit une notification avec la liste de toutes leurs demandes d'approbation échues. La notification est également envoyée à leur approbateur et à tous les demandeurs des approbations échues. Cela est utile si l'écriture d'approbation échue doit être déléguée à un remplaçant.
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Demandes approbation échues**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Demandes approbations échues**, puis choisissez le lien associé.
 2. Sur la page **Demandes approbations échues**, sélectionnez l'action **Envoyer les notifications d'approbation échues**.
 
 ## <a name="see-also"></a>Voir aussi

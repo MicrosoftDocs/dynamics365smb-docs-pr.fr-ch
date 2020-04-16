@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: repair, service
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 062680e12d3ad7b1d1f0e769f921f2579cdee43f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: fe0820b7dfcf3cc47bc437b340443cbe05aa4a4c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306619"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184427"
 ---
 # <a name="maintain-fixed-assets"></a>Mettre à jour des immobilisations
 Les frais de maintenance sont des coûts périodiques de routine engagés pour préserver la valeur des immobilisations. Contrairement aux améliorations de capital, ils n'augmentent pas les valeurs.
@@ -29,15 +29,15 @@ L'actualisation permet d'ajuster des valeurs en fonction de modifications géné
 ## <a name="to-record-maintenance-work-on-a-fixed-asset"></a>Pour enregistrer les travaux de maintenance sur une immobilisation
 Vous pouvez enregistrer chaque tâche de maintenance, telle qu'une visite de service, effectuée pour une immobilisation donnée. Pour cela, utilisez la page **Saisie de la maintenance**.  
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Immobilisations**, puis choisissez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Immobilisations**, puis sélectionnez le lien associé.  
 2. Sélectionnez l'immobilisation pour laquelle vous souhaitez enregistrer la maintenance, puis sélectionnez l'action **Saisie de la maintenance**.
 3. Sur la page **Saisie de la maintenance**, renseignez les champs comme nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-post-maintenance-costs-from-a-fixed-asset-gl-journal"></a>Pour valider les coûts de maintenance à partir d'une feuille comptabilisation immobilisation
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Liste des lois d'amortissement**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Liste des lois d'amortissement**, puis choisissez le lien associé.  
 2. Sélectionnez la loi d'amortissement qui est attribuée à une immobilisation, puis sélectionnez l'action **Modifier**.
 3. Sur la page **Fiche loi d'amortissement**, veillez à ce que la case **Maintenance** ne soit pas cochée. Cela garantit que les coûts de maintenance ne sont pas validés en comptabilité.
-4. Choisissez l'icône de ![l'ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille comptabilisation immobilisation**, puis sélectionnez le lien associé.  
+4. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles comptabilisation immobilisation**, puis sélectionnez le lien associé.  
 5. Créez une feuille comptable initiale et complétez les champs, le cas échéant.
 6. Dans le champ **Type compta. immo**, sélectionnez **Maintenance**.
 7. Sélectionnez l'action **Insérer contrepartie immo.**. Une seconde ligne feuille est créée pour le compte contrepartie qui est configuré pour la validation de la maintenance.
@@ -56,7 +56,7 @@ Vous pouvez imprimer l'état **Maintenance - Service suivant** afin de connaîtr
 ## <a name="to-monitor-maintenance-costs"></a>Pour surveiller les coûts de maintenance
 Vous pouvez visualiser les coûts de maintenance lorsque vous consultez les statistiques d'une immobilisation.  
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Immobilisations**, puis choisissez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Immobilisations**, puis sélectionnez le lien associé.
 2. Sélectionnez l'immobilisation pour laquelle vous souhaitez afficher les coûts de maintenance, puis sélectionnez l'action **Lois d'amortissement**.
 3. Sur la page **Lois d'amortissement immobilisation**, sélectionnez la loi d'amortissement immobilisation pertinente, puis sélectionnez l'action **Statistiques**.
 4. Sur la page **Statistiques immobilisation**, sélectionnez le champ **Maintenance**.
@@ -73,7 +73,7 @@ Dans l'état **Maintenance - Analyse**, vous pouvez choisir de visualiser la mai
 ## <a name="to-view-maintenance-ledger-entries"></a>Pour visualiser des écritures comptables maintenance
 Vous pouvez également étudier les coûts de maintenance en visualisant les écritures comptables.  
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Immobilisations**, puis choisissez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Immobilisations**, puis sélectionnez le lien associé.
 2. Sélectionnez l'immobilisation pour laquelle vous souhaitez afficher les écritures comptables, puis sélectionnez l'action **Lois d'amortissement**.
 3. Sur la page **Écritures comptables maintenance**, sélectionnez la loi d'amortissement immobilisation pertinente, puis l'action **Statistiques**.
 

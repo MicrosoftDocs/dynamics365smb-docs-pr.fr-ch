@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 717f6db3e8d53a8b2d75b9a27749e353e5ff28bc
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: f07b287a177aae24f383a54a48bf5a0fa8cf8b77
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2876814"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193170"
 ---
 # <a name="cross-dock-items"></a>Transborder des articles
 La fonctionnalité de transbordement est disponible si le magasin est configuré pour appeler un traitement à la fois de réception entrepôt et de rangement magasin.  

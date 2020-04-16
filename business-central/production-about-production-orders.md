@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 316d8e05960b6f0581e4789a2b097d966e4dd2b6
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 209cddb1bc432f06d136c55e9d67695ae30034db
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878158"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190674"
 ---
 # <a name="about-production-orders"></a>À propos des ordres de fabrication
 Les ordres de fabrication permettent de gérer la conversion de matières achetées en articles fabriqués. La gamme des ordres de fabrication utilise divers centres de charge ou postes de charge de l'atelier.  

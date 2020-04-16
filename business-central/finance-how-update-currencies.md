@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: multiple currencies, adjust exchange rates
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: be39f8a56dc95ed48e339e89513a103d044faa08
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 252636417dab633b8b95a15f206d1be82fc78a32
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952689"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183203"
 ---
 # <a name="update-currency-exchange-rates"></a>Mettre à jour des taux de change devise
 Les sociétés opérant dans un nombre croissant de pays/régions, il est de plus en plus important qu'elles puissent échanger ou générer des états financiers dans plusieurs devises. Vous devez définir un code pour chaque devise utilisée si vous achetez ou vendez dans des devises différentes de votre devise locale, si vous disposez de comptes client ou fournisseur dans d'autres devises, ou si vous enregistrez des transactions comptables dans des devises différentes.
@@ -47,7 +47,7 @@ Les axes analytiques par défaut des comptes dans lesquels ils sont validés son
 > [!Important]
 > Avant de pouvoir utiliser le traitement par lots, vous devez entrer le taux de change ajustement qui est utilisé pour ajuster les soldes en devises. Pour ce faire sur la page **Taux de change devise**.<br><br>  
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE3Q24s]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE3Q24s?rel=0]
 
 ## <a name="to-set-up-a-currency-exchange-rate-service"></a>Configurer un service de taux de change des devises
 Vous pouvez utiliser un service externe pour tenir vos taux de change des devises à jour, par exemple FloatRates.
@@ -63,7 +63,7 @@ Vous pouvez utiliser un service externe pour tenir vos taux de change des devise
 
 La valeur dans le champ **Taux de change** de la page **Devises** est mise à jour avec le dernier taux de change des devises.
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsuse-multiple-currencies-dynamics-365-business-central"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Voir aussi
 [Configurer une devise report supplémentaire](finance-how-setup-additional-currencies.md)  

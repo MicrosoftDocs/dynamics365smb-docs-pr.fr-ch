@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: tasks, work
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 00aef090b99ee41962ed59fd6050b6f17be77ed5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: db3d7dd3b7efdd10aa22e3aa4ca0ff445428bbd2
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305083"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187979"
 ---
 # <a name="add-comments-to-cards-and-documents"></a>Ajouter des commentaires aux fiches et aux documents
 Vous pouvez ajouter des informations supplémentaires dans les comptes généraux, les fiches client, ou les commandes vente pour communiquer des exception ou des accords spéciaux avec d'autres utilisateurs.
@@ -31,7 +31,7 @@ En outre, vous pouvez spécifier si vous souhaitez que des commentaires soient t
 La section suivante décrit comment ajouter un commentaire à une fiche article. Les étapes sont similaires pour toutes les autres fiches et documents, sauf sur les lignes document, l'action **Commentaires** est placée sur un menu d'action de lignes.
 
 ## <a name="to-add-a-comments-to-an-item-card"></a>Pour ajouter des commentaires à une fiche article
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles**, puis sélectionnez le lien associé.
 2. Ouvrez la fiche article appropriée.
 3. Sélectionnez l'action **Commentaires**.
 4. Sur la page **Feuille de commentaires**, vous pouvez saisir le texte, puis choisir le bouton **OK**.

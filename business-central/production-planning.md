@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 85dfc44f453e27cad0b0a3385f2822715bc252e7
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 279ca56885eb4bab95322387bc6b9f857139c370
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877654"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191322"
 ---
 # <a name="planning"></a>Planning
 Les opérations de production nécessaires à la transformation d'entrées en produits finis doivent être planifiées de manière quotidienne ou hebdomadaire en fonction du volume et de la nature des produits. [!INCLUDE[d365fin](includes/d365fin_md.md)] fournit des fonctionnalités permettant de répondre à la demande réelle et anticipée des ventes, de l'assemblage et de la production, et inclut des fonctionnalités pour une planification de la distribution basée sur les points de stock et les transferts d'emplacement.
@@ -32,7 +32,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |------------|-------------|  
 |Apprendre à utiliser le système de planification pour détecter la demande et lui donner la priorité et pour proposer un programme d'approvisionnement équilibré.|[À propos de la fonctionnalité Planification](production-about-planning-functionality.md)|
 |Comprendre tous les aspects du système de planification et modifier les algorithmes pour répondre aux exigences de planification dans différents environnements.|[Détails de conception : planification de l'approvisionnement](design-details-supply-planning.md)|
-|Apprendre comment la logique de planification différencie la demande dans les magasins en fonction de la configuration des points de vente de la demande sans code magasin.|[Planification avec/sans magasin](production-planning-with-without-locations.md).|
+|Apprendre comment la logique de planification différencie la demande dans les magasins en fonction de la configuration des points de vente de la demande sans code magasin.|[Planification avec/sans magasin](production-planning-with-without-locations.md)|
 |Prévoir la demande présentée par les composants vente et fabrication prévus.|[Créer une prévision de la demande](production-how-to-create-a-forecast.md)|  
 |Créer automatiquement des ordres de fabrication un à un à partir d'une commande vente pour couvrir la demande exacte des lignes commande vente.|[Créer des ordres de fabrication à partir de commandes achat](production-how-to-create-production-orders-from-sales-orders.md)|
 |Créer un ordre de fabrication projet directement à partir d'une commande vente multiligne représentant un projet de production.|[Planifier les O.F. projets](production-how-to-plan-project-orders.md)|

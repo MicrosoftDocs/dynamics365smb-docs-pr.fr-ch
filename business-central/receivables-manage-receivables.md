@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer payment, debtor, balance due, AR
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 387b8269e5da978c25c1c5436f5a737fa055a78c
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 4d9431ba233f1fa304fab589a3dc85e831e53217
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2954178"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191922"
 ---
 # <a name="managing-receivables"></a>Gestion des comptes client
 Une étape normale de n'importe quelle opération financière consiste à rapprocher des comptes bancaires, ce qui nécessite de lettrer les paiements entrants avec des écritures fournisseur ou client pour clôturer les factures vente et les avoirs achat comme payés.
@@ -50,7 +50,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |Configurer une valeur de tolérance selon laquelle le système clôt une facture même si le règlement, tenant compte d'éventuelles remises, ne couvre pas intégralement le montant de la facture.|[Utilisation des écarts de règlement et des écarts d'escompte](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Prévoyez quand les paiements seront exécutés en retard pour les documents vente. | [Extension Prévisions de retard de paiement](ui-extensions-late-payment-prediction.md) |
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsprocess-customer-vendor-payments-dynamics-365-business-central"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/process-customer-vendor-payments-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/process-customer-vendor-payments-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Voir aussi
 [Ventes](sales-manage-sales.md)  

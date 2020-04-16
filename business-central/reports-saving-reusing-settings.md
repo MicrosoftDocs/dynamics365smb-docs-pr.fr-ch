@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customization, personalization
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: a9bb72a85fb49b4316af2160e5823fbf77a18cbf
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 4c43429e4436400dc9e3b991b9ccca59a439372a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881416"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191898"
 ---
 # <a name="manage-saved-settings-for-reports-and-batch-jobs"></a>Gérer les paramètres enregistrés pour les états et les traitements par lots
 Lors de l'exécution d'un état, les utilisateurs voient généralement une page qui leur permet de sélectionner des options et de définir des filtres pour modifier les données incluses dans l'état généré. Cette page est appelée la page de demande. Un état peut inclure un ou plusieurs *paramètres enregistrés* que les utilisateurs peuvent appliquer à l'état à partir de la page de demande. Les *Paramètres enregistrés* sont essentiellement des options et des filtres prédéfinis. Le fait d'utiliser les paramètres enregistrés est une façon rapide et fiable de générer de façon cohérente des états qui contiennent les données adéquates. Pour plus d'informations, voir [Utilisation des paramètres enregistrés](ui-work-report.md#SavedSettings).
@@ -39,7 +39,7 @@ Si vous avez les bonnes autorisations, vous pouvez visualiser, créer et modifie
 ## <a name="to-create-and-modify-saved-settings-for-all-users"></a>Pour créer et modifier les paramètres enregistrés pour tous les utilisateurs
 Vous devez gérer les paramètres enregistrés à partir de la page **Paramètres des états**. Deux méthodes sont disponibles pour ouvrir cette page :
 -   Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres des états**, puis sélectionnez le lien associé.
--   Ouvrez un état, sélectionnez la fonction de recherche dans le champ **Utiliser les valeurs par défaut de**, puis choisissez l'action **Sélectionner dans la liste complète**.
+-   Ouvrez un état, sélectionnez la fonction Tell Me dans le champ **Utiliser les valeurs par défaut de**, puis choisissez l'action **Sélectionner dans la liste complète**.
 
 La page affiche toutes les entrées de paramètres enregistrés existants pour tous les utilisateurs. Si un nom d'utilisateur est indiqué dans le champ **Affecté à**, seul cet utilisateur peut utiliser les paramètres enregistrés pour l'état associé. Si le champ **Partager avec tous les utilisateurs** est coché, tous les utilisateurs peuvent utiliser les paramètres enregistrés pour l'état.
 

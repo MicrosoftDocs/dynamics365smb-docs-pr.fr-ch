@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: forecast
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 1e0bdd7c54b788049f2d1f2d16be405825480c8a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 3a70d98d0818294d3bf2698031d9ddf135361e41
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302803"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184379"
 ---
 # <a name="manage-budgets-for-fixed-assets"></a>Gérer les budgets pour les immobilisations
 Vous pouvez paramétrer des immobilisations budgétées. Cela vous permet par exemple d'inclure dans des états des acquisitions et des ventes anticipées.  
@@ -29,7 +29,7 @@ Pour préparer un budget, vous devez définir des fiches immobilisation pour les
 
 Lorsque vous validez le coût d'acquisition, vous saisissez le numéro de l'immobilisation budgétée dans le champ **N° immo. budgétée** Cela permet de valider un coût d'acquisition avec un signe opposé pour l'immobilisation budgétée. Le coût d'acquisition total de l'immobilisation budgétée est donc la différence entre le coût d'acquisition budgété et le coût réel.
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Immobilisations**, puis choisissez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Immobilisations**, puis sélectionnez le lien associé.
 2. Sélectionnez l'action **Nouveau** pour créer une fiche immobilisation pour l'immobilisation budgétée.
 3. Cochez la case **Actif budgété** pour empêcher la validation en comptabilité.
 4. Complétez les champs restants, attribuez une loi d'amortissement, puis validez le premier coût d'acquisition avec l'immobilisation budgétée saisie dans le champ **N° immo. budgétée** de la ligne feuille. Pour en savoir plus, voir [Acquérir des immobilisations](fa-how-acquire.md).
@@ -37,21 +37,21 @@ Lorsque vous validez le coût d'acquisition, vous saisissez le numéro de l'immo
 ## <a name="to-budget-the-disposal-of-a-fixed-asset"></a>Pour budgéter la cession d'une immobilisation
 Si vous prévoyez de vendre des immobilisations dans la période correspondant au budget, vous pouvez indiquer des informations concernant le prix et la date de vente.
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Immobilisations**, puis choisissez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Immobilisations**, puis sélectionnez le lien associé.
 2. Sélectionnez l'immobilisation à céder, puis sélectionnez l'action **Lois d'amortissement**.
 3. Sur la page **Lois d'amortissement immo.**, complétez les champs **Date cession prévue** et **Produit de cession prévu**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-view-projected-disposal-values"></a>Pour visualiser des valeurs de cession prévues
 Pour visualiser les valeurs de cession prévues et effectuer le calcul des gains et des pertes, vous pouvez utiliser l'état **Immo. - Valeur projetée**.
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Immo. - Valeur projetée**, puis choisissez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Immo. - Valeur projetée**, puis sélectionnez le lien associé.
 2. Renseignez les champs selon vos besoins.
 3. Cliquez sur le bouton **Imprimer** ou **Aperçu**.
 
 ## <a name="to-budget-depreciation"></a>Pour budgéter des amortissements
 Vous pouvez utiliser l'état **Immo. - Valeur projetée** pour calculer l'amortissement à venir. L'état affiche la valeur comptable et l'amortissement cumulé au début et à la fin de la période sélectionnée, ainsi que les modifications apportées durant cette période.
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Valeur projetée de l'immobilisation**, puis choisissez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Valeur projetée de l'immobilisation**, puis sélectionnez le lien associé.
 2. Renseignez les champs selon vos besoins.
 3. Pour voir les valeurs totales de tous les actifs, décochez la case **Imprimer par immobilisation**.
 4. Ne renseignez pas le raccourci **Immobilisation** pour inclure toutes les immobilisations. Dans le champ **Immo. budgétée**, vous pouvez saisir **Non** afin d'exclure les immobilisations budgétées ou sur **Oui** pour les visualiser.

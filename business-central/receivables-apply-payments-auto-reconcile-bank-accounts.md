@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 85f7feccd0eefa7c709ce077a8b01b049fc675c8
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: c292a7bdaaa94a457a98a478e38a90d60639abf1
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2954080"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190722"
 ---
 # <a name="applying-payments-automatically-and-reconciling-bank-accounts"></a>Lettrage automatique des paiements et rapprochement des comptes bancaires
 Vous devez régulièrement rapprocher vos comptes bancaires, créances client et créances fournisseur en lettrant les paiements enregistrés au niveau de la banque à leurs factures impayées et avoirs associés ou à d'autres écritures ouvertes dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -42,7 +42,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | Lier le texte des paiements à un client spécifique, fournisseur ou comptes généraux pour toujours valider les réceptions récurrentes en liquide ou les dépenses vers ces comptes quand ils ne peuvent être appliqués à aucun document. |[Mapper du texte sur des paiements récurrents avec des comptes pour un rapprochement automatique](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md) |
 |Configurez les règles pour définir comment les paiements/transactions bancaires doivent être automatiquement lettrés avec leurs écritures comptables ouvertes associées lorsque vous utilisez la fonction **Lettrer automatiquement** sur la page **Feuille rapprochement bancaire**.|[Définir des règles pour le lettrage automatique des paiements](receivables-how-set-up-payment-application-rules.md)|
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesuse-journals-dynamics-365-business-centralindex"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/use-journals-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/use-journals-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Voir aussi
 [Rapprochement des comptes bancaires](bank-how-reconcile-bank-accounts-separately.md)  

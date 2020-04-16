@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 22014c6df6ccffa08ff2fed25d40ce4c0312d57d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ff34a7a8a1086b41d2df2a75955017fc82866fb6
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315603"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194418"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Utilisation de dates civiles et les heures
 
@@ -48,7 +48,7 @@ Pour travailler plus productivement avec des dates et des heures, vous pouvez ut
 
 Tout champ affichant une icône de calendrier peut être paramétré à l'aide du sélecteur de date civile. Pour afficher le sélecteur de date civile, activer l'icône de calendrier ou appuyer sur le raccourci clavier Ctrl+Début dans le champ.
 
-![Champs de date](media/ui-date-field.png "Exemple d'un champ de date")
+![Champs de date](media/ui-date-field.png "Exemple de champ de date")
 
 Voir aussi [Raccourcis clavier du sélecteur de date civile](keyboard-shortcuts.md#calendarshortcuts).
 
@@ -121,7 +121,7 @@ Le tableau suivant affiche des exemples de dates à l'aide de tous les formats. 
 |m 23|Mardi de la semaine 23 de l'année de date de travail|
 |m-1|Mardi de la semaine 1 de l'année de date de travail|
 
-##  <a name="BKMK_SettingDateRanges"></a> Définition des plages
+##  <a name="setting-ranges"></a><a name="BKMK_SettingDateRanges"></a> Définition des plages
 
 Sous Listes, totaux et états, vous pouvez définir des filtres sur les dates, heures et dates/heures contenant une valeur de début et éventuellement une valeur de fin pour afficher uniquement les données contenues dans cette plage. Les règles standard s'appliquent à la définition des plages de dates.
 

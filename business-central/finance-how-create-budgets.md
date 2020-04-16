@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 5d84dee6ed6cf0b17f488d67e5403638ecb79ce9
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: b18322180f833a63b7f4565bd4000bdc3bd4f571
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953818"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183731"
 ---
 # <a name="create-gl-budgets"></a>Créer des budgets comptabilité
 Vous pouvez avoir plusieurs budgets pour des périodes identiques en les créant sous des noms différents. Vous indiquez d'abord le nom du budget et entrez les chiffres correspondants. Le nom du budget est ensuite inclus sur toutes les écritures budget que vous créez.  
@@ -48,7 +48,7 @@ Comme pour la majorité des autres pages, vous pouvez exporter des données des 
 > [!NOTE]
 > Le plan comptable, sur lequel les budgets comptables sont basés, comportent des lignes de compte de type En-tête qui contiennent le total des lignes sous ceux-ci. Lorsque vous exportez un budget comptable, les données de toutes les lignes sont exportées quel que soit le type de compte. Cependant, seules les données sur les lignes du type de compte Validation peuvent être réimportées. En conséquence : <br /><br /> **Lorsque vous importez un budget comptable, toutes les valeurs qui existaient sur les lignes d'en-têtes seront supprimées.** <br /><br /> Cette fonctionnalité permet d'éviter des totaux erronés après l'importation de données créées ou modifiées dans Excel.<br /><br /> **Scénario** : Vous savez que le nouveau coût des salaires budgétisé sera de 1 200 000 en devise société. Vous souhaitez que le département Paies budgétise trois lignes spécifiques (du type de compte Validation) pour les salariés à temps plein, les salariés à temps partiel et les intérimaires. Les trois lignes sont regroupées sous une ligne d'en-tête Paies.<br /><br />Vous saisissez 1 200 000 sur la ligne d'en-tête, exportez le budget vers Excel, puis envoyez-le au département Paies, en leur indiquant de distribuer les 1 200 000 en devise société.<br /><br /> Le département Paies distribue le montant des trois comptes de validation. Lorsque vous réimportez le budget comptable, les trois comptes sont renseignés avec les nouvelles données Excel, pour une somme de 1 200 000 en devise société, et la ligne d'en-tête est vide.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesbudgets-exchange-rates-dynamics-365-business-centralindex"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Voir aussi
 [Exportation de vos données métier vers Excel](about-export-data.md)  

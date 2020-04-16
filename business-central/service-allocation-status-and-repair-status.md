@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: resources, allocation, status, repairs
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: d63aaf615a8611e6c0bfb640469253aef27ca453
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 28dad890968e8d6fc832c7df696ef04c100458fb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882821"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194778"
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Statut affectation et statut réparation des articles de service
 L'état réparation des articles de service et l'état affectation des écritures affectation des articles de service sont liés dans le module Gestion des services. L'état affectation change lorsque vous modifiez l'état réparation de l'article de service en **Terminé** ou **Service en partie réalisé**, et lorsque vous convertissez un devis service en commande service. L'état réparation de l'article de service change lorsque vous annulez l'affectation de l'article de service, ou que vous réaffectez l'article à une autre ressource. Vous pouvez visualiser l'état réparation des articles de service sur la page **Tâches service** et vous pouvez mettre à jour l'état réparation dans le champ **Code état réparation** de la page **Feuille activité article de service**. Vous pouvez visualiser l'état affectation dans le champ **Statut** de la page **Affectations ressources**.  

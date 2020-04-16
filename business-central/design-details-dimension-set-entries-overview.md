@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dimension
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8ed544486af6949932814bf97d99293f1ef17ee2
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f35184a6a69ed0fa1ccd504525a19af6bd9c5955
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303595"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185531"
 ---
 # <a name="dimension-set-entries-overview"></a>Aperçu des écritures de l'ensemble de dimensions
 Cette rubrique décrit comment les écritures de l'ensemble de dimensions sont stockées et validées dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -34,7 +34,7 @@ L'exemple suivant présente un ensemble de dimensions constitué de trois écrit
 ## <a name="dimension-set-entries"></a>Écritures de l'ensemble de dimensions  
 Les ensembles de dimensions sont stockés dans la table **Écriture de l'ensemble de dimensions** telles des écritures de l'ensemble de dimensions avec le même ID.  
 
-![Flux d'écritures d'ensemble de dimensions](media/dimensionentrynav7.png "Flux d'écritures d'ensemble de dimensions")  
+![Flux des écritures de l'ensemble de dimensions](media/dimensionentrynav7.png "Flux des écritures de l'ensemble de dimensions")  
 
 Lorsque vous créez une ligne de feuille, un en-tête de document ou une ligne de document, vous pouvez spécifier une combinaison de sections analytiques. Au lieu d'enregistrer explicitement chaque section analytique dans la base de données, un ID d'ensemble de dimensions est affecté à la ligne de feuille, à l'en-tête du document ou à la ligne du document pour spécifier l'ensemble de dimensions.  
 

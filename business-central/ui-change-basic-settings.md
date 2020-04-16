@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 5f6f62e146f6799cad552e60b399f74636091ea7
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: cd3d7a821c088b6e9f457e3bf3dc05d0c53525c4
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953338"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194610"
 ---
 # <a name="change-basic-settings"></a>Modifier les paramètres de base
 
 Sur la page **Mes paramètres**, vous pouvez afficher et modifier les paramètres de base de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vos modifications affectent uniquement votre espace de travail, et non les espaces de travail des autres utilisateurs.  
 
-## <a name="role-center"></a> Tableau de bord
+## <a name="role-center"></a><a name="role-center"></a> Tableau de bord
 Le tableau de bord représente la page d'accueil, un écran de démarrage conçu pour les exigences d'un rôle spécifique dans une organisation. Selon votre rôle, le tableau de bord donne une vue d'ensemble de l'entreprise, de votre département ou de vos tâches personnelles. Il vous permet également d'accéder à vos tâches quotidiennes et de rechercher les tâches qui vous sont affectées.
 
 -   En haut, la navigation vous permet de permuter entre les clients, les fournisseurs, les articles et d'autres listes d'informations importantes. De même, les actions vous permettent de lancer des tâches, comme la création d'une facture vente, directement à partir du tableau de bord.
@@ -34,7 +34,7 @@ Le rôle par défaut est **Gestionnaire d'activité**, mais vous pouvez sélecti
 2. Sur la page **Mes paramètres**, dans le champ **Rôle** , sélectionnez le rôle que vous souhaitez utiliser par défaut. Par exemple, sélectionnez **Comptable**.
 3. Cliquez sur le bouton **OK**.
 
-## <a name="company"></a>Société
+## <a name="company"></a><a name="company"></a>Société
 Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], une société fonctionne comme un conteneur de données. Il peut y avoir plusieurs sociétés dans une seule base de données, mais une seule peut être sélectionnée à la fois.
 
 La société par défaut est appelée CRONUS et contient uniquement des données de démonstration. Vous pouvez créer une nouvelle société avec des données personnalisées. Pour plus d'informations, voir [Création de sociétés](about-new-company.md).
@@ -42,7 +42,7 @@ La société par défaut est appelée CRONUS et contient uniquement des données
 ## <a name="to-change-the-company-name"></a>Pour changer le nom de la société
 Le nom de la société est toujours affiché dans le coin supérieur gauche et fonctionne comme une action que vous pouvez choisir pour revenir dans le Tableau de bord. Vous pouvez changer ce nom sur la page **Informations société**.
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Informations société**, puis sélectionnez le lien associé.
+1. Choisissez simplement l'icône ![Pignon pour ouvrir le menu Paramètres](media/ui-experience/settings_icon_small.png), puis l'action **Informations société**.
 2. Dans le champ **Nom**, saisissez le nom de la nouvelle société.
 3. Quittez la page. Le système redémarre et affiche la nouvelle société dans le coin supérieur gauche.
 
@@ -55,7 +55,7 @@ Vous pouvez ajouter un badge personnalisé dans le coin supérieur droit, vous p
 > [!NOTE]
 > Si un badge de société est défini, vous ne pouvez pas modifier le nom de la société comme décrit dans [Pour changer le nom de la société](ui-change-basic-settings.md#to-change-the-company-name)
 
-## <a name="work-date"></a>Date de travail
+## <a name="work-date"></a><a name="work-date"></a>Date de travail
 La date de travail la plus couramment utilisée est la date du jour. Vous pouvez être amené à modifier temporairement la date de travail pour effectuer des tâches telles que l'exécution de transactions à une date différente de la date du jour.
 
 > [!TIP]  
@@ -72,19 +72,21 @@ Chaque fois que la date de travail n'est pas définie sur la date du jour, deux 
 - Si vous refusez le rappel, la date de travail apparaîtra dans le titre de la page.  
 --> Si la date de travail n'est pas définie sur la date actuelle (aujourd'hui), sur toutes les pages sur lesquelles vous pouvez modifier les données, la date de travail actuelle s'affiche dans l'angle supérieur gauche de la page.
 
-## <a name="region"></a> Région
+## <a name="region"></a><a name="region"></a> Région
 
 Le paramètre **Région** détermine la manière dont les dates, heures, nombres et devises sont affichés ou mis en forme.
 
-## <a name="language"></a> Langue
+## <a name="language"></a><a name="language"></a> Langue
 Modifie la langue d'affichage. Ce champ s'affiche uniquement lorsque vous avez le choix entre plusieurs langues.
 
 La langue initiale est déterminée par l'administrateur ou par les paramètres de votre navigateur lorsque vous vous inscrivez à [!INCLUDE[d365fin](includes/d365fin_md.md)]. La langue définie est utilisée sur tous les appareils à partir desquels vous vous connectez, par exemple un téléphone ou une tablette.
 
+Des langues supplémentaires pour [!INCLUDE[prodshort](includes/prodshort.md)] peuvent être installées à partir d'AppSource. Même si toutes les langues d'affichage prises en charge sont affichées dans la liste, l'administrateur doit installer l'application de langue appropriée sur l'abonné avant que les utilisateurs puissent passer à la nouvelle langue dans [!INCLUDE[prodshort](includes/prodshort.md)].  
+
 ## <a name="changing-when-i-receive-notifications"></a>Modification lorsque je reçois des notifications
 Sélectionnez ce lien pour afficher ou modifier les notifications que vous recevez au sujet de certains événements ou modification de statut, lorsque vous êtes sur le point de facturer un client avec des écritures échues, ou lorsque le stock disponible est inférieur à la quantité que vous êtes sur le point de vendre. Pour plus d'informations, voir [Gérer les notifications](ui-smart-notifications.md).
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulespersonalize-ui-dynamics-365-business-centralindex"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Voir aussi
 [Création de sociétés](about-new-company.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: aa0d9039ff48d05e0a96ceb5480b40cde864499c
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 35bfe02e9c6c215127a5ad59f0a40f668e6b0f52
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2883229"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191658"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Planifier de nouvelles demandes commande par commande
 Cette tâche de planification peut être effectuée sur la page **Planning commande**, affichant toute nouvelle demande ainsi que les informations de disponibilité et les suggestions d'approvisionnement. Elle fournit la visibilité et les outils nécessaires à la planification efficace des demandes des lignes vente et des lignes composant, puis à la création directe de différents types de commandes approvisionnement.  

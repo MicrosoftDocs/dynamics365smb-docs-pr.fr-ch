@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: resource, skill, service, zones
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 58f12e81a76712b8fa7704f3819b942ee0ba9773
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 99ef1e0f9c78e75cf9713808a23576b6db6fec34
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877462"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195237"
 ---
 # <a name="set-up-resource-allocation"></a>Configurer l'affectation des ressources
 Pour assurer la bonne exécution d'une tâche service, il est important de trouver une ressource qualifiée. Vous pouvez configurer [!INCLUDE[d365fin](includes/d365fin_md.md)] de manière à affecter facilement une ressource disposant des compétences appropriées pour le travail. Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], ce processus est appelé _affectation de ressources_. Vous pouvez affecter des ressources en fonction de leur compétence, de leur disponibilité, ou selon qu'elles se trouvent dans la même zone service que le client. 

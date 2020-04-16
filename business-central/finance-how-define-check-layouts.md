@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, customize
-ms.date: 02/20/2020
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: df141f15eda20b1c3ce17e12e726f79a20532915
-ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
+ms.openlocfilehash: 479281e24bffb824f9fc8499bb34ab6b11311a52
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "3097759"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183683"
 ---
 # <a name="select-a-check-layout"></a>Sélectionner une mise en page de chèque
 Vous pouvez concevoir vos chèques de sorte à respecter les normes fixées par les autorités locales. Vous pouvez imprimer des images de chèques en anglais, en français ou en espagnol.
@@ -42,7 +42,7 @@ Pour modifier l'une de ces mises en page de chèque par défaut, utilisez l'int�
 La version en ligne de [!INCLUDE[d365fin](includes/d365fin_md.md)] contient des polices préinstallées sur les serveurs qui peuvent être utilisées lors de la définition des mises en page de chèque. Ci-après, découvrez les polices disponibles et des liens vers des informations détaillées fournies par les fournisseurs tiers de polices.
 
 > [!Important]
-> Les polices de sécurité de chèque et MICR de Microsoft Dynamics[!INCLUDE[d365fin](includes/d365fin_md.md)] sont concédées sous licence dans un package de polices d'IDAutomation.com, Inc. Ces produits ne peuvent être utilisés que dans le cadre et en relation avec Microsoft Dynamics[!INCLUDE[d365fin](includes/d365fin_md.md)].
+> Les polices de sécurité de chèque et MICR de Microsoft Dynamics [!INCLUDE[d365fin](includes/d365fin_md.md)] sont concédées sous licence dans un package de polices d'IDAutomation.com, Inc. Ces produits ne peuvent être utilisés que dans le cadre et en relation avec Microsoft Dynamics [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 Dans la mise à jour 15.3 et les versions ultérieures, les polices MICR sont installées et disponibles à l'utilisation. Les normes E-13B et CMC-7 sont prises en charge. En plus des polices MICR, des polices de sécurité spéciales sont disponibles pour générer du texte, des noms, des montants et les symboles monétaires Dollar, Euro, Pound et Yen, qui sont difficiles à modifier une fois qu'un chèque a été imprimé.
 

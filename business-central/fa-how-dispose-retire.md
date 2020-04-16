@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: scrap
-ms.date: 01/29/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: fe8b5bc5304a87fbb2cce14067e7cbd74cbf1198
-ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
+ms.openlocfilehash: 97c21286b640571f374e97a02b7953ce839645c6
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "2999750"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184451"
 ---
 # <a name="dispose-of-or-retire-fixed-assets"></a>Céder ou annuler des immobilisations
 Lorsque vous commercialisez ou cédez une immobilisation, la valeur de cession doit être validée pour calculer et enregistrer le gain ou la perte. Une écriture cession doit être la dernière écriture validée pour une immobilisation. Pour les immobilisations partiellement cédées, vous pouvez valider plusieurs écritures cession. Le total de tous les montants de cession validés doit être un montant crédit.  

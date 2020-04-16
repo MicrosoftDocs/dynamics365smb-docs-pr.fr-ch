@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4d3656c81a6964a01632865b6163be9ec0365de8
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: e53c1f7b0b2af4a94579863197ec7348c9b6ff18
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952809"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186323"
 ---
 # <a name="reconcile-bank-accounts"></a>Rapprochement des comptes bancaires
 Un rapprochement bancaire permet de vous assurer que vos diverses dépenses et transactions commerciales sont correctement reflétées dans les livres de la société. Pour ce faire, vous comparez et faites correspondre les écritures de vos comptes bancaires internes avec les transactions bancaires de votre banque, puis vous validez les soldes sur vos comptes bancaires internes pour mettre les totaux à la disposition des responsables financiers. Le rapprochement bancaire est également un moyen pratique de découvrir et de résoudre les paiements manquants et les erreurs de comptabilité.
@@ -111,7 +111,7 @@ Les relevés bancaires comportent parfois des montants correspondant à la factu
 5. Réactualisez ou rouvrez la page **Rapprochement bancaire**. La nouvelle écriture comptable s'affiche dans le volet **Écritures comptables compte bancaire**.
 6. Faites correspondre la ligne relevé bancaire à l'écriture comptable compte bancaire, manuellement ou automatiquement.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesbank-reconciliation-dynamics-365-business-centralindex"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/bank-reconciliation-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/bank-reconciliation-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Voir aussi
 [Rapprochement de comptes bancaires](bank-manage-bank-accounts.md)  

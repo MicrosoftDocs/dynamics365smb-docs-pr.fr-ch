@@ -7,16 +7,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8d59462f89e8268bdb9def8c455388ccddcea3ac
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4e40f53543b094233c896e627ecfe6eb056e3d20
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310867"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195498"
 ---
-# <a name="letting-included365finincludesd365fin_mdmd-suggest-values"></a>Laisser [!INCLUDE[d365fin](includes/d365fin_md.md)] suggérer des valeurs
+# <a name="letting-d365fin-suggest-values"></a>Laisser [!INCLUDE[d365fin](includes/d365fin_md.md)] suggérer des valeurs
 [!INCLUDE[d365fin](includes/d365fin_md.md)] peut vous aider à effectuer ces tâches plus rapidement et précisément en préremplissant les champs ou en complétant les lignes avec des données que vous devriez sinon calculer et saisir vous-même. Bien qu'une telle saisie de données automatisée soit toujours correcte, vous pouvez la modifier par la suite si vous le souhaitez.
 
 La fonctionnalité qui saisit les valeurs de champ pour vous est en général proposée pour les tâches qui demandent la saisie de volumes importants de données transactionnelles et pour lesquelles vous souhaitez éviter les erreurs et gagner du temps. Cette rubrique contient une sélection de ces fonctionnalités. Davantage de sections seront ajoutées dans les prochaines mises à jour de [!INCLUDE[d365fin](includes/d365fin_md.md)].

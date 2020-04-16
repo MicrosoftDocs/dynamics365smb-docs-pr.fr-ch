@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, inventory, costing
-ms.date: 11/25/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 667adfcc9c470a9d4dbf26923fe5e6edfc7ed85a
-ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
+ms.openlocfilehash: 8dc7f7ac1e9f1d6b9919ecf7401d5cadf69a56c0
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832206"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185315"
 ---
 # <a name="design-details-inventory-costing"></a>Détails de conception : coûts ajustés
 Cette documentation fournit une analyse technique détaillée des concepts et principes qui sont utilisés dans les fonctions Inventory Costing dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  

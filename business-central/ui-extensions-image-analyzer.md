@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 5e7312e6e660d74089b0dce43ddf015be60ab446
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0f5b472dca560ba12eb0461842878d622c6eaee3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315525"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194202"
 ---
 # <a name="the-image-analyzer-extension"></a>Extension d'analyseur Image
 L'extension d'analyseur Image utilise les analyses d'image puissantes fournies par l'API Vision par ordinateur de Microsoft Cognitive Services pour détecter des attributs dans les images que vous importez pour des articles et des contacts, afin de les examiner et de les affecter facilement. Pour les articles, les attributs peuvent être si l'article est une table ou une voiture et, s'il est rouge ou bleu. Pour les contacts, les attributs peuvent être le sexe ou l'âge.
@@ -46,7 +46,7 @@ L'extension d'analyseur Image est intégrée à [!INCLUDE[d365fin](includes/d365
 1. Pour activer l'extension d'analyseur Image, effectuez l'une des actions suivantes :
 
 * Ouvrez une fiche Article ou Contact. Dans la barre de notification, choisissez **Analyser les images**, puis suivez la procédure du guide de configuration assistée.  
-* Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Connexions au service**, puis sélectionnez **Paramètres d'analyse de l'image**. Activez la case à cocher **Activer l'analyseur Image**, puis suivez la procédure du guide de configuration assistée.  
+* Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Connexions au service**, puis sélectionnez **Configuration de l’analyse de l’image**. Activez la case à cocher **Activer l'analyseur Image**, puis suivez la procédure du guide de configuration assistée.  
 
     > [!TIP]  
     > La page **Configuration de l’analyse de l’image** vous permet également de modifier le degré de confiance des suggestions d'attribut. Par exemple, si vous souhaitez avoir besoin d'un niveau de confiance supérieur, vous pouvez saisir un pourcentage plus élevé.
@@ -54,7 +54,7 @@ L'extension d'analyseur Image est intégrée à [!INCLUDE[d365fin](includes/d365
 ## <a name="to-analyze-an-image-of-an-item"></a>Pour analyser la photo d'un article
 Les étapes suivantes décrivent comment analyser une image importée avant que vous ayez activé l'extension d'analyseur Image.  
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles**, puis sélectionnez le lien associé.  
 2. Sélectionnez l'article, puis cliquez sur **Analyser l'image**.  
 3. La page **Attributs d'analyseur Image** affiche les attributs détectés, le niveau de confiance, et d'autres détails sur l'attribut. Utilisez les options **Action à effectuer** pour définir quelle action exécuter avec l'attribut.  
 
@@ -64,7 +64,7 @@ Les étapes suivantes décrivent comment analyser une image importée avant que 
 ## <a name="to-analyze-a-picture-of-a-contact-person"></a>Pour analyser la photo d'un contact
 Les étapes suivantes décrivent comment analyser une image importée avant que vous ayez activé l'extension d'analyseur Image.  
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Contacts**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Contacts**, puis sélectionnez le lien associé.  
 2. Sélectionnez le contact, puis cliquez sur **Analyser l'image**.  
 3. Sur le raccourci **Questionnaire profil**, consultez les suggestions, et faites des corrections si nécessaire.  
 
@@ -92,5 +92,5 @@ Vous pouvez afficher le nombre d'analyses effectué, et le nombre restant, pour 
 
 ## <a name="see-also"></a>Voir aussi
 [Utiliser les attributs d'article](inventory-how-work-item-attributes.md)  
-[Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md)  
+[Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide d'extensions](ui-extensions.md)  
 [Mise en route](product-get-started.md)  

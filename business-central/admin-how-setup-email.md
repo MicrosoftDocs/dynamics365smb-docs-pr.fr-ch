@@ -9,17 +9,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 12/17/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: df0956167908c214385b40e3ccb2f20a10d4458b
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: 9ece89b1d797d31a99c92f1bb292280b7f54ab7b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2910847"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187283"
 ---
 # <a name="set-up-email"></a>Configurer la messagerie
-Pour recevoir et envoyer des e-mails dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous devez renseigner les champs sur la page Paramétrage courrier SMTP.
+Pour recevoir et envoyer des e-mails dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous devez renseigner les champs sur la page **Paramétrage courrier SMTP**.
 
 Au lieu de saisir les détails du serveur SMTP manuellement, vous pouvez utiliser la fonction **Appliquer les paramètres de serveur Office 365** pour les saisir à l'aide des informations de votre abonnement Office 365.
 
@@ -56,7 +56,7 @@ Voici des exemples d'utilisation des fonctionnalités Envoyer en tant que et Env
 ### <a name="to-use-the-substitute-address-in-approval-workflows"></a>Pour utiliser l'adresse de substitution dans les flux de travaux d'approbation
 1. Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramétrage courrier SMTP**, puis sélectionnez le lien associé.
 2. Copiez ou notez l'adresse dans le champ **ID utilisateur**.
-3. Choisissez l'icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres utilisateur approbation**, puis sélectionnez le lien associé.
+3. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres utilisateur approbation**, puis sélectionnez le lien associé.
 4. Dans le **Centre d'administration Exchange**, recherchez les boîtes aux lettres de chaque utilisateur répertorié dans la liste de la page **Paramètres utilisateur approbation**, et dans le champ **Envoyer en tant que**, entrez l'adresse du champ **ID utilisateur** de la page **Paramétrage courrier SMTP** dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour en savoir plus, reportez-vous à [Gérer les autorisations des destinataires](/Exchange/recipients/mailbox-permissions?view=exchserver-2019).
 5. Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramétrage courrier SMTP**, puis sélectionnez le lien associé.
 6. Pour activer la substitution, tournez le bouton bascule **Autoriser substitution émetteur**.

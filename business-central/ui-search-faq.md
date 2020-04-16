@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 02/12/2020
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 67dd65491710206245a2ff83dce3d3eb94484770
-ms.sourcegitcommit: c78df3aefb3e2ed8c28e5ac8340d56ab787212e8
+ms.openlocfilehash: a23851dfbca688c5935d967a66ad6ebc8a0abe5e
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "3071925"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195354"
 ---
 # <a name="tell-me-faq"></a>FAQ Tell Me
 Cette rubrique répond aux questions que nos utilisateurs expérimentés posent souvent à propos de la fonctionnalité Tell Me.
@@ -47,6 +47,6 @@ L'icône de signet ne s'affiche pas dans la fenêtre Tell Me lorsque la personna
 
 ## <a name="see-also"></a>Voir aussi  
 [Enregistrer et personnaliser les vues de liste](ui-views.md)  
-[Recherche de pages et d'informations avec la fonction de recherche](ui-search.md)  
+[Recherche de pages et d'informations avec la fonction Tell Me](ui-search.md)  
 [Recherche de pages avec l'explorateur de rôles](ui-role-explorer.md)  
 [Ajouter un signet à une page ou à un état sur votre tableau de bord](ui-bookmarks.md)

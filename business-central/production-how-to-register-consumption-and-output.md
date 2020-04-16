@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 747a38ae8390c45995091c377c5c05d3140949dc
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 0b063017340724dbe689ceb38463c889a50ffb46
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877918"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190458"
 ---
 # <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Enregistrer la consommation et la production pour une ligne ordre de fabrication lancé
 Cette tâche d'exécution est réalisée sur la page **Feuille production** . La feuille combine en une seule feuille les fonctions des feuilles distinctes consommation et production. Vous accédez directement à la feuille combinée depuis un ordre de fabrication lancé. Son objectif principal est de valider manuellement la consommation de composants, la quantité d'articles finis produits et le temps passé dans les opérations. Les valeurs sont validées en comptabilité sous l'ordre de fabrication lancé. Les quantités consommées sont validées comme écritures comptables article négatives, les quantités produites sont validées comme écritures comptables article positives et les heures sont validées comme écritures comptables capacité. Ces valeurs validées peuvent également être visualisées au bas de la feuille sous forme de quantités réelles.  
@@ -56,10 +56,10 @@ Cette tâche d'exécution est réalisée sur la page **Feuille production** . La
 S'il reste des valeurs à valider, la feuille les indiquera la prochaine fois que vous l'ouvrirez. Les valeurs validées sont affichées sous forme de valeurs réelles au bas de la feuille.  
 
 > [!NOTE]  
->   si un article consommé est bloqué, la feuille ne valide pas les quantités produites correspondantes. Si un poste ou un centre de charge est bloqué, la feuille ne valide ni les quantités produites ni les temps opératoires de la ligne de sortie considérée.  
+>  Si un article consommé est bloqué, la feuille ne valide pas les quantités produites correspondantes. Si un poste ou un centre de charge est bloqué, la feuille ne valide ni les quantités produites ni les temps opératoires de la ligne de sortie considérée.  
 
 > [!NOTE]  
->  si vous fermez la feuille sans la valider, les modifications apportées seront perdues.  
+>  Si vous fermez la feuille sans la valider, les modifications apportées seront perdues.  
 
 > [!WARNING]  
 >  La page **Feuille production** ne peut pas être utilisée par deux utilisateurs simultanément. Cela signifie que si l'utilisateur 2 ouvre la page et entre des données alors que l'utilisateur 1 travaille déjà sur la page, l'utilisateur 2 peut perdre des données lorsque l'utilisateur 1 ferme la page.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: e0074d3e3a1869a8f377c6ff3d8faad97f781077
-ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
+ms.openlocfilehash: 37ca9da29fdfc19253850e431362dfd199a20484
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076650"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187667"
 ---
 # <a name="setting-up-data-exchange"></a>Configuration de l'échange de données
 Avant de pouvoir envoyer et recevoir des documents électroniques ou importer et exporter des fichiers bancaires, vous devez configurer l'infrastructure d'échange de données pour traiter les fichiers concernés. En outre, vous devez configurer des zones associées, telles que les clients à qui vous envoyez des factures électroniques ou l'extension AMC Banking 365 Fundamentals si vous utilisez le fournisseur externe de services de conversion de vos fichiers bancaires. Pour plus d'informations, voir [Échanger des données par voir électronique](across-data-exchange.md).  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9f4ef853d62e76ce3ade8062a341eb4336116028
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: bfd2c67c7e7133f13a2e021cb9cf70ba82f6bb21
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303523"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185171"
 ---
 # <a name="design-details-item-application"></a>Détails de conception : lettrage article
 Lorsque vous validez une transaction de stock, la validation de quantité est enregistrée dans les écritures comptables article, la validation de valeur dans les écritures valeur. Pour plus d'informations, voir [Détails de conception : comptabilisation stock](design-details-inventory-posting.md).  
@@ -189,7 +189,7 @@ Le tableau suivant montre l'effet de la contrepassation du coût exact des écri
 Lorsque vous exécutez le traitement par lots **Ajuster coûts - Écr. article**, le coût augmenté de l'écriture achat, dû aux frais annexes, est transmis à l'écriture vente écriture numéro 2. L'écriture vente transfère alors ce coût augmenté à l'écriture vente créditrice (numéro de séquence 3). Le résultat final est que le coût est correctement contrepassé.  
 
 > [!NOTE]  
->  Si vous travaillez sur des retours ou des avoirs et que vous avez configuré le champ **Coût retour identique obligatoire** soit sur la page **Paramètres achats**, soit sur la page **Paramètres ventes**, en fonction de votre situation, puis [!INCLUDE[d365fin](includes/d365fin_md.md)] renseigne automatiquement ces champs lorsque vous utilisez la fonction **Copier document**. Si vous utilisez la fonction **Affichage de lignes document validées à contrepasser**, les champs sont toujours renseignés automatiquement.  
+>  Si vous utilisez des retours ou des avoirs et que vous avez configuré le champ **Coût retour identique obligatoire** sur la page **Paramètres achats** ou **Paramètres ventes**, en fonction de votre situation, [!INCLUDE[d365fin](includes/d365fin_md.md)] renseigne automatiquement ces champs lorsque vous utilisez la fonction **Copier à partir du document**. Si vous utilisez la fonction **Affichage de lignes document validées à contrepasser**, les champs sont toujours renseignés automatiquement.  
 
 > [!NOTE]  
 >  Si vous validez une transaction avec un lettrage fixe et si l'écriture comptable article que vous lettrez doit être clôturée, ce qui signifie que la quantité restante est égale à zéro, l'ancien lettrage est automatiquement annulé et l'écriture comptable article est réappliquée à l'aide du lettrage fixe que vous avez spécifié.  

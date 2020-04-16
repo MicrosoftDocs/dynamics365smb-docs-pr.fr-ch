@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, bank, formats
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: cad6f64ee74dd2c359f16e1bb723282c2a703b97
-ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
+ms.openlocfilehash: aa738f326782bacdc5450bbd78ea0dffb5646fa5
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076504"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194082"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>Extension Paiements et rapprochements (DK)
 Réalise des paiements rapides et sans erreur en exportant des fichiers formatés spécifiquement pour les échanges avec votre fournisseur ou votre banque. Ces fichiers accélèrent les processus de paiement et de réconciliation, et éliminent les erreurs qui apparaissent lorsque vous saisissez manuellement des informations sur le site Web d'une banque.  
@@ -88,7 +88,7 @@ Le tableau suivant affiche les combinaisons des modes de règlement FIK et virem
 5. Validez la facture.
 
 ## <a name="to-use-the-extension-to-export-payment-data"></a>Pour utiliser l'extension d'exportation des données de paiement
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles paiement**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles paiement**, puis sélectionnez le lien associé.  
 2. Choisissez l'action **Proposer des feuilles de paiement fournisseur**.  
 
     > [!Tip]
@@ -101,5 +101,4 @@ Le tableau suivant affiche les combinaisons des modes de règlement FIK et virem
 ## <a name="see-also"></a>Voir aussi
 [Personnalisation de Business Central pour [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide d'extensions](ui-extensions.md)  
 [Recouvrement de paiements par prélèvement automatique SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
-[Valider des réceptions règlement de prélèvement SEPA](finance-how-to-post-sepa-direct-debit-payment-receipts.md)  
 [Utilisation de feuilles comptabilité](ui-work-general-journals.md)  

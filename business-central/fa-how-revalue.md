@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: b2051b8b84336f28c58ead79f40129d2fa74d840
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ec162eca522184807554fb9f46d71606ad9c8870
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302779"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184355"
 ---
 # <a name="revalue-fixed-assets"></a>Réévaluer les immobilisations
 La réévaluation des immobilisations peut consister en réévaluations, dépréciations ou corrections de valeurs générales.
@@ -28,7 +28,7 @@ Lorsque la valeur d'une immobilisation a diminué, vous validez une ligne feuill
 L'actualisation permet d'ajuster plusieurs valeurs immobilisation, par exemple, en fonction de modifications générales de niveau de prix. Le traitement par lots **Réévaluer immobilisations** permet de modifier divers montants, tels que les montants de dépréciation et de réévaluation.
 
 ## <a name="to-post-an-appreciation-from-the-fixed-asset-gl-journal"></a>Pour valider une réévaluation à partir d'une feuille comptabilisation immobilisation
-1. Choisissez l'icône de ![l'ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille comptabilisation immobilisation**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles comptabilisation immobilisation**, puis sélectionnez le lien associé.  
 2. Créez une feuille comptable initiale et complétez les champs, le cas échéant.
 3. Dans le champ **Type compta. immo**, sélectionnez **Réévaluation**.
 4. Sélectionnez l'action **Insérer contrepartie immo.**. Une seconde ligne feuille est créée pour le compte contrepartie qui est configuré pour la validation de la réévaluation.
@@ -38,7 +38,7 @@ L'actualisation permet d'ajuster plusieurs valeurs immobilisation, par exemple, 
 5. Sélectionnez l'action **Valider**.
 
 ## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>Pour valider une dépréciation à partir d'une feuille comptabilisation immobilisation
-1. Choisissez l'icône de ![l'ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille comptabilisation immobilisation**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles comptabilisation immobilisation**, puis sélectionnez le lien associé.  
 2. Créez une feuille comptable initiale et complétez les champs, le cas échéant.
 3. Dans le champ **Type compta. immo**, sélectionnez **Dépréciation**.
 4. Sélectionnez l'action **Insérer contrepartie immo.**. Une seconde ligne feuille est créée pour le compte contrepartie qui est configuré pour la validation de la dépréciation.
@@ -50,12 +50,12 @@ L'actualisation permet d'ajuster plusieurs valeurs immobilisation, par exemple, 
 ## <a name="to-perform-general-revaluation-of-fixed-assets"></a>Pour exécuter une réévaluation générale des immobilisations
 L'actualisation permet d'ajuster plusieurs valeurs immobilisation, par exemple, en fonction de modifications générales de niveau de prix. Le traitement par lots **Réévaluer immobilisations** permet de modifier divers montants, tels que les montants de dépréciation et de réévaluation. La case **Autoriser actualisation** sur la page **Loi d'amortissement** doit être cochée.
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Actualiser immobilisations**, puis choisissez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Réévaluer immobilisations**, puis sélectionnez le lien associé.  
 2. Renseignez les champs selon vos besoins.
 3. Cliquez sur le bouton **OK**.
 
     Les lignes de réévaluation sont créées conformément à vos paramètres à l'étape 2. Les lignes sont créées dans la feuille immobilisation ou la feuille compta. immo., selon votre modèle et la configuration par lot sur la page **Param. feuille immo.**. Pour en savoir plus, voir [Configurer des informations générales sur les immobilisations](fa-how-setup-general.md).
-4. Choisissez l'icône de ![l'ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille comptabilisation immobilisation**, puis sélectionnez le lien associé.  
+4. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles comptabilisation immobilisation**, puis sélectionnez le lien associé.  
 5. Sélectionnez la feuille avec les immobilisations que vous souhaitez réévaluer, puis sélectionnez l'action **Écritures comptables**.  
 6. Vérifiez les écritures créées, puis sélectionnez l'action **Valider** pour valider la feuille.
 

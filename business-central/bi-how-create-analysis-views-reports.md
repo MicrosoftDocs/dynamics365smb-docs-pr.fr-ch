@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8c3b7ee476287b25740648758ff7b87ff13f22a7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: eae3cec231fd7c1da537ebf64c1008c8e114c9eb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303962"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186107"
 ---
 #  <a name="create-analysis-reports"></a>Créer des rapports d'analyse
 Les directeurs des ventes doivent analyser de manière régulière les rotations, la marge bénéficiaire brute et d'autres indicateurs de performance des ventes clés. Les acheteurs, eux, s'intéressent plutôt à la dynamique des volumes d'achat, des performances des fournisseurs et des prix d'achat. Par ailleurs, les gestionnaires des stocks et directeurs de la logistique ont besoin d'informations sur la rotation des stocks, d'une analyse des mouvements de stock et de statistiques sur la valeur du stock.  
@@ -104,5 +104,5 @@ Les rapports d'analyse permettent d'analyser la dynamique de vos ventes en fonct
 [Veille économique](bi.md)  
 [Finances](finance.md)  
 [Configuration de Finance](finance-setup-finance.md)  
-[Les écritures comptables et le plan comptable](finance-general-ledger.md)  
+[Comptabilité et plan comptable](finance-general-ledger.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

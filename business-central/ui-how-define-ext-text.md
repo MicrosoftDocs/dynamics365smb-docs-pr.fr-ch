@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c50e37b450718c749ef04add823d7012899a7d81
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7a8e1d8836f2b554c9af1e69df6359795395e98c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311011"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193482"
 ---
 # <a name="add-extended-item-text"></a>Ajouter un texte d'article étendu
 Vous pouvez étendre un texte standard pour les articles en ajoutant des lignes supplémentaires et vous pouvez définir des conditions d'utilisation concernant ces lignes supplémentaires. Vous devez effectuer cette opération à partir des fiches article.

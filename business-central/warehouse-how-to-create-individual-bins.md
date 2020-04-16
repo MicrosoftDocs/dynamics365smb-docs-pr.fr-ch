@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: dd48519f471a8ead924c1d3512538ff71fe39640
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: fcb76f9f5cddba76983ff8d3dcbb92a2c08d09b5
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2876752"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193218"
 ---
 # <a name="create-bins"></a>Créer emplacements
 La méthode la plus efficace pour créer les emplacements de votre entrepôt consiste à générer des groupes d'emplacements identiques dans la feuille de création d'emplacements, mais vous pouvez également créer vos emplacements séparément à partir de la fiche magasin. Vous pouvez également utiliser une fonction de la page **Feuille création emplacement** pour créer des emplacements automatiquement.  
 
 ## <a name="to-create-a-bin-from-the-location-card"></a>Pour créer un emplacement à partir de la fiche magasin  
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Magasins**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Magasins**, puis sélectionnez le lien associé.  
 2.  Sélectionnez le magasin à partir duquel vous souhaitez créer un emplacement, puis choisissez l'action **Emplacements**.  
 3. Sélectionnez l'action **Nouveau**.
 4. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]

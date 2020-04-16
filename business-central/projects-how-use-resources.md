@@ -10,17 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8d637a21a795db46554a45c688bf7ad081533e4a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b1c91caed8fb682af4c754aef83801083a714d4f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312715"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193832"
 ---
 # <a name="use-resources-for-jobs"></a>Utiliser des ressources pour des projets
-Vous devez enregistrer l'utilisation des ressources dans la feuille projet pour suivre les coûts et les prix, ainsi que les types de travaux associés aux projets. Pour plus d'informations, voir [Enregistrer l'utilisation pour les projets](projects-how-record-job-usage.md).
+Vous devez enregistrer l'utilisation des ressources dans la feuille projet pour suivre les coûts et les prix, ainsi que les types de travaux associés aux projets. Pour en savoir plus, consultez [Enregistrer l'utilisation pour les projets](projects-how-record-job-usage.md).
+
+> [!NOTE]
+> Vous pouvez également acheter des ressources externes, par exemple pour facturer un fournisseur pour le travail livré. Pour en savoir plus, consultez [Enregistrer des achats](purchasing-how-record-purchases.md).
 
 Vous pouvez aussi valider l'utilisation d'une ressource sur une feuille ressource. Les écritures validées sur une feuille ressource n'ont aucune incidence sur la comptabilité.
 
@@ -28,14 +31,14 @@ Vous pouvez aussi valider l'utilisation d'une ressource sur une feuille ressourc
 Vous pouvez affecter des ressources aux projets en créant des lignes planning projet pour le projet. Pour plus d'informations, voir [Créer des projets](projects-how-create-jobs.md).
 
 ## <a name="to-record-resource-usage-for-a-job"></a>Pour enregistrer l'utilisation des ressources pour un projet
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles activité projet**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles projet**, puis sélectionnez le lien associé.
 2. Ouvrez la feuille projet appropriée, puis complétez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Lorsque la feuille est renseignée, cliquez sur **Valider**.
 
 ## <a name="to-adjust-resource-prices"></a>Pour ajuster le prix des ressources
 Si vous souhaitez modifier le coût ou le prix d'un grand nombre de ressources, vous pouvez utiliser un traitement par lots.  
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Ajuster coûts/prix ressource**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Ajuster coûts et prix ressource**, puis sélectionnez le lien associé.
 2. Renseignez les autres champs selon vos besoins, puis cliquez sur le bouton **OK**.
 
 > [!NOTE]  
@@ -58,7 +61,7 @@ Si vous souhaitez configurer des prix ressource secondaires basés sur les prix 
 4. Lorsque le traitement par lots est terminé, ouvrez la page **Nouv. prix ressource proposés** pour visualiser les résultats du traitement par lots.
 
 ## <a name="to-get-resource-price-change-suggestions-based-on-alternate-prices"></a>Pour obtenir des propositions de modification des prix ressource basées sur les prix standard
-Si vous avez déjà configuré des prix secondaires pour un certain nombre de ressources, vous pouvez utiliser le traitement par lots pour configurer des prix ressource secondaires.
+Si vous avez déjà configuré des prix secondaires pour certaines ressources, vous pouvez utiliser le traitement par lots pour configurer des prix ressource secondaires.
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Prop. modif. prix ress. (prix)**, puis sélectionnez le lien associé.  
 2. Renseignez les champs selon vos besoins.

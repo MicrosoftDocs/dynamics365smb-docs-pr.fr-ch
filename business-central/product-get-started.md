@@ -5,23 +5,23 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.search.keywords: setup wizard
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4ae2faf57007bef9525134fbdc1232e8c0103d56
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 62ee42fe2b6e03ad1137a50a38c1cd2ee4bfcd0f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2954274"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190170"
 ---
-# <a name="getting-started-with-included365fin_longincludesd365fin_long_mdmd"></a>Mise en route de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# <a name="getting-started-with-d365fin_long"></a>Mise en route de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] est une solution de gestion d'entreprise pour les PME qui automatise et simplifie les processus entreprise et vous aide à gérer votre entreprise. L'inscription est facile, et vous pouvez migrer des données métiers existantes de votre système existant.  
 
 Pour vous aider à souscrire un abonnement, recherchez un partenaire [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, voir [Comment trouver un partenaire revendeur ?](across-faq.md#findpartner).  
 
 L'inscription à [!INCLUDE [prodshort](includes/prodshort.md)] vous donne accès à une société de démonstration. La société de démonstration contient des exemples de données, mais vous pouvez créer de nouveaux documents vente, par exemple, ou ouvrir un compte bancaire. Cependant, si vous souhaitez utiliser [!INCLUDE [prodshort](includes/prodshort.md)] pour vous aider à gérer votre entreprise, vous devez contacter un partenaire revendeur [!INCLUDE [prodshort](includes/prodshort.md)] et acheter un abonnement. Pour plus d'informations sur les versions d'évaluation et les abonnements, voir [Versions d'évaluation et abonnements](across-preview.md).  
 
-## <a name="get-to-know-included365finincludesd365fin_mdmd"></a>Découvrir [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="get-to-know-d365fin"></a>Découvrir [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
 Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], certains éléments vous seront très familiers, d'autres un peu moins. Pour obtenir des astuces rapides, consultez :  
 
@@ -38,20 +38,20 @@ Dans la société de démonstration, les tableaux de bord Gestionnaire d'activit
 
 Lorsque vous êtes prêt à commencer à travailler et que vous voulez en savoir plus sur les processus d'entreprise pris en charge par [!INCLUDE[d365fin](includes/d365fin_md.md)], consultez [Fonctionnalités d'entreprise](across-business-functionality.md).
 
-Avant de pouvoir commencer à utiliser les fonctionnalités, certaines configurations doivent être effectuées. Pour plus d'informations, reportez-vous à [Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
+Avant de pouvoir commencer à utiliser les fonctionnalités, certaines configurations doivent être effectuées. Pour commencer, choisissez simplement l'icône ![Pignon pour ouvrir le menu Paramètres](media/ui-experience/settings_icon_small.png), puis l'action **Configuration assistée**. Pour plus d'informations, reportez-vous à [Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
 > [!TIP]
-> Certaines étapes de configuration peuvent être effectuées de manière semi-automatique à l'aide de guides de configuration assistés.
+> Certaines étapes de configuration peuvent être effectuées de manière semi-automatique à l'aide de guides de configuration assistés. D'autres nécessitent une configuration manuelle, et une liste est consultable sur la page **Paramètres avancés**.
+
+<!--Some Role Center pages provide a **Setup and Extensions** button. Here you have access to a list of assisted setup guides that can help you get started by setting selected areas up quickly. If an area is not covered by an assisted setup, choose the **Manual Setup** action to access setup pages where you can fill in setup fields for all areas manually. For more information, see also [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
+
+> [!NOTE]
+> The list of setup guides, extensions, and services that are available differ depending on the user experience you choose for your company. The **Essential** experience gives access to fewer than the **Premium** experience does. The first time you sign in, you use the Essential experience. For more information, see [Change Which Features are Displayed](ui-experiences.md).  -->
 
 Pour une présentation des capacités actuelles et à venir, consultez notre plan de versions sur la page [Plan de versions Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422).  
 
 ## <a name="the-role-centers"></a>Tableaux de bord
-La page Tableau de bord utilisent une conception centrée sur le rôle pour vous permettre d'accéder rapidement aux outils de processus d'entreprise et d'intelligence dont vous avez besoin dans le cadre de votre travail. Par exemple, un comptable peut surveiller des paiements et des approbations, et afficher des graphiques de performances financières. Découvrez à quoi votre rôle actuel vous donne accès avec l'explorateur de rôles. Pour plus d'informations, voir [Recherche de pages avec l'explorateur de rôles ](ui-role-explorer.md). Consultez les différents tableaux de bord en sélectionnant l'icône **Paramètres** ![Paramètres](media/ui-experience/settings_icon_small.png "Icône Paramètres du tableau de bord") dans le coin supérieur droit, en sélectionnant **Mes paramètres**, puis le tableau de bord à explorer. Vous êtes automatiquement déconnecté et reconnecté pour appliquer la modification. Pour plus d'informations, voir [Modifier les paramètres de base](ui-change-basic-settings.md).  
-
-Certaines pages Tableau de bord présentent un bouton **Configuration et extensions**. Ici vous avez accès à la liste des guides de configuration assistée qui peuvent vous aider à démarrer en définissant rapidement les zones sélectionnées. Si une zone n'est pas couverte par une configuration assistée, sélectionnez l'option **Programme d'installation manuelle** pour accéder aux pages de paramétrage sur lesquelles vous pouvez renseigner les champs de configuration pour toutes les zones manuellement. Pour plus d'informations, reportez-vous à [Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
-
-> [!NOTE]
-> La liste des guides de configuration, des extensions et des services disponibles diffèrent selon l'expérience de l'utilisateur que vous choisissez pour votre société. L'expérience de type **Essential** donne accès à moins d'options que l'expérience **Premium**. La première fois que vous vous connectez, vous utilisez l'expérience Essential. Pour plus d'informations, voir [Modifier les fonctionnalités affichées](ui-experiences.md).  
+La page Tableau de bord utilisent une conception centrée sur le rôle pour vous permettre d'accéder rapidement aux outils de processus d'entreprise et d'intelligence dont vous avez besoin dans le cadre de votre travail. Par exemple, un comptable peut surveiller des paiements et des approbations, et afficher des graphiques de performances financières. Découvrez à quoi votre rôle actuel vous donne accès avec l'explorateur de rôles. Pour plus d'informations, voir [Recherche de pages avec l'explorateur de rôles](ui-role-explorer.md). Consultez les différents tableaux de bord en sélectionnant l'icône **Paramètres** ![Paramètres](media/ui-experience/settings_icon_small.png "Icône Paramètres du tableau de bord") dans le coin supérieur droit, en sélectionnant **Mes paramètres**, puis le tableau de bord à explorer. Vous êtes automatiquement déconnecté et reconnecté pour appliquer la modification. Pour plus d'informations, voir [Modifier les paramètres de base](ui-change-basic-settings.md).  
 
 ## <a name="trying-things-out-in-your-own-company"></a>Faire des essais dans votre propre société
 Vous voulez vous abonner ? Vous pouvez facilement quitter la société de démonstration et créer la vôtre et y travailler. C'est une bonne manière de démarrer un abonnement. Les paramètres sont fournis pour des états financiers ; vous devez juste créer ou importer vos clients, fournisseurs et produits ou services que vous vendez. Après cela, vous pouvez valider des factures et utiliser les outils de veille économique pour analyser votre entreprise. Vous pouvez utiliser votre société pour une version d'évaluation gratuite pendant 30 jours. Si vous vous abonnez à [!INCLUDE[d365fin](includes/d365fin_md.md)] durant cette période, vous êtes déjà prêt à l'utiliser. Vous pouvez continuer le travail commencé durant la période d'essai.  
@@ -77,7 +77,7 @@ Accédez au contenu sur les autres applications Dynamics 365 en sélectionnez l
 
 <!--COMMENTINGOUTTOREDUCENOISEIf you are an accountant, you can sign up for [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] and have seamless integration with [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Welcome to Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).-->
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsget-started-dynamics-365-business-central"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/get-started-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Voir aussi
 

@@ -8,41 +8,47 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: a069fb7df3738b1f42aa2ddc86ce95144c39daff
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 4f140303f037ea4a914cba1ded44fd453bcdfabb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952857"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187907"
 ---
-# <a name="using-include-prodlongincludesprodlongmd-as-power-bi-data-source-for-building-reports"></a>Utilisation de [!INCLUDE [prodlong](includes/prodlong.md)] comme source de données Power BI pour générer des états
+# <a name="using-prodlong-as-power-bi-data-source-for-building-reports"></a>Utilisation de [!INCLUDE [prodlong](includes/prodlong.md)] comme source de données Power BI pour générer des états
 
 Vous pouvez rendre vos données [!INCLUDE[prodlong](includes/prodlong.md)] disponibles sous forme de source de données dans Power BI et créer des rapports puissants sur l'état de votre activité.  
 
-Vous devez disposer d'un compte valide avec [!INCLUDE[prodshort](includes/prodshort.md)] et avec Power BI. En outre, vous devez télécharger [Power BI Desktop](https://powerbi.microsoft.com/desktop/). Pour plus d'informations, voir [Démarrage rapide : Se connecter aux données dans Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).  
+Vous devez disposer d'un compte valide avec [!INCLUDE[prodshort](includes/prodshort.md)] et avec Power BI. Vous devez également télécharger [Power BI Desktop](https://powerbi.microsoft.com/desktop/). Pour plus d'informations, voir [Démarrage rapide : Se connecter aux données dans Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).  
 
-## <a name="to-add-includeprodshortincludesprodshortmd-as-a-data-source-in-power-bi-desktop"></a>Pour ajouter [!INCLUDE[prodshort](includes/prodshort.md)] comme source de données dans Power BI Desktop
+## <a name="to-add-prodshort-as-a-data-source-in-power-bi-desktop"></a>Pour ajouter [!INCLUDE[prodshort](includes/prodshort.md)] comme source de données dans Power BI Desktop
 
 1. Dans Power BI Desktop, dans le volet de navigation de gauche, choisissez **Extraire les données**.
 2. Sur la page **Extraire les données**, choisissez **Services en ligne**, **Microsoft Dynamics 365 Business Central**, puis cliquez sur le bouton **Connexion**.
-3. Power BI affiche un assistant qui va vous guider tout au long du processus de connexion. Vous serez invité(e) à vous connecter à [!INCLUDE [prodshort](includes/prodshort.md)]. Cliquez sur **Se connecter** et choisissez le compte auquel vous voulez vous connecter. Il doit s'agir du même compte que celui utilisé pour vous connecter à [!INCLUDE [prodshort](includes/prodshort.md)].
-4. Cliquez sur le bouton **Connexion** pour continuer. L'assistant Power BI affiche la liste des sociétés, des environnements et des sources de données Microsoft [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ces sources de données représentent tous les services Web que vous avez publiés à partir de chaque abonné/société dans Microsoft [!INCLUDE [prodshort](includes/prodshort.md)].
-5. Sinon, créer une nouvelle URL de service Web dans [!INCLUDE [prodshort](includes/prodshort.md)] à l'aide de l'option **Créer un ensemble de données** sur la page **Services Web**, à l'aide du guide de configuration assistée **Configurer la création d'états** ou en choisissant l'option **Modifier dans Excel** dans n'importe quelle liste.
-6. Spécifiez les données à ajouter à votre modèle de données, puis sélectionnez le bouton **Charge**.
-7. Répétez les étapes précédentes pour ajouter des informations [!INCLUDE [prodshort](includes/prodshort.md)] supplémentaires, ou d'autres données, à votre modèle de données Power BI.
+3. Power BI affiche un assistant qui va vous guider tout au long du processus de connexion, notamment à [!INCLUDE [prodshort](includes/prodshort.md)]. Choisissez **Se connecter**, puis le compte approprié. Utilisez le même compte que celui avec lequel vous vous êtes connecté(e) à [!INCLUDE [prodshort](includes/prodshort.md)].
+4. Cliquez sur le bouton **Connexion** pour continuer. L'assistant Power BI affiche la liste des sociétés, des environnements et des sources de données Microsoft [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ces sources de données représentent tous les services web que vous avez publiés à partir de [!INCLUDE [prodshort](includes/prodshort.md)].
+
+    Vous pouvez également créer une nouvelle URL de service web dans [!INCLUDE [prodshort](includes/prodshort.md)]. Choisissez l'une des méthodes suivantes :
+
+      - Utiliser l'action **Créer un ensemble de données** sur la page **Services web**
+      - Utiliser le guide de configuration assistée **Configurer la création d'états**
+      - Choisir l'action **Modifier dans Excel** dans toutes les listes
+
+5. Spécifiez les données à ajouter à votre modèle de données, puis sélectionnez le bouton **Charge**.
+6. Répétez les étapes précédentes pour ajouter des informations [!INCLUDE [prodshort](includes/prodshort.md)] supplémentaires, ou d'autres données, à votre modèle de données Power BI.
 
 > [!NOTE]  
 > Une fois que vous êtes connecté(e) à [!INCLUDE [prodshort](includes/prodshort.md)], vous n'êtes plus invité(e) à vous connecter.
 
-Une fois les données chargées, elles apparaissent dans le volet de navigation à droite dans la page. À ce stade, vous êtes connecté(e) à vos données [!INCLUDE [prodshort](includes/prodshort.md)] et vous êtes prêt(e) à générer votre état Power BI.  
+Une fois les données chargées, elles s'affichent dans le volet de navigation à droite dans la page. Vous êtes connecté(e) à vos données [!INCLUDE [prodshort](includes/prodshort.md)] et vous pouvez commencer à générer votre état Power BI.  
 
 Avant de générer votre état, il est préférable d'importer le fichier de thème [!INCLUDE [prodshort](includes/prodshort.md)].  Le fichier de thème crée une palette de couleurs afin de pouvoir établir des états avec le même style de couleur que les applications [!INCLUDE [prodshort](includes/prodshort.md)] sans avoir à définir des couleurs personnalisées pour chaque visuel.
 
-Pour plus d'informations, reportez-vous à la [documentation Power BI](/power-bi/consumer/power-bi-consumer-landing/).
+Pour plus d'informations, reportez-vous à la [documentation Power BI](/power-bi/consumer/).
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Voir aussi
 

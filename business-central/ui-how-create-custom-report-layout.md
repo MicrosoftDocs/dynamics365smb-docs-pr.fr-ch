@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 0b469458490d08475d81f767a88a99c84a4daad6
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: defa6662a66e23d70d519861dbacd6d5036da589
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953242"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189978"
 ---
 # <a name="create-and-modify-custom-report-layouts"></a>Créer et modifier des présentations de rapport personnalisées
 Par défaut, un rapport aura une présentation de rapport intégrée, qui peut être soit une présentation de rapport RDLC ou une présentation de rapport Word, ou les deux. Vous ne pouvez pas modifier les présentations intégrées. Cependant, vous pouvez créer vos propres présentations personnalisées qui vous permettent de modifier l'apparence d'un rapport lorsqu'il est consulté, imprimé ou enregistré. Vous pouvez créer plusieurs présentations de rapport personnalisées pour le même rapport, puis faire basculer la présentation utilisée par un rapport selon vos besoins.
@@ -51,7 +51,7 @@ Lorsque des présentations de rapport personnalisées sont définies, vous pouve
 
 La présentation personnalisée a été créée. Vous pouvez à présent modifier la présentation personnalisée selon vos besoins.
 
-## <a name="ModifyCustomLayout"></a>Modification d'une présentation personnalisée
+## <a name="modifying-a-custom-layout"></a><a name="ModifyCustomLayout"></a>Modification d'une présentation personnalisée
 Pour modifier une présentation de rapport, vous devez d'abord exporter la présentation de rapport sous forme de fichier dans un emplacement sur votre ordinateur ou le réseau, puis ouvrir le document exporté et effectuer les modifications. Lorsque vous avez terminé d'apporter les modifications, vous importez la présentation de rapport.
 
 ### <a name="to-modify-a-custom-layout"></a>Pour modifier une présentation personnalisée
@@ -70,7 +70,7 @@ Pour modifier une présentation de rapport, vous devez d'abord exporter la prés
 
 5. Dans la boîte de dialogue **Importer**, sélectionnez **Choisir** pour rechercher et sélectionner le document de présentation d'état, puis choisissez **Ouvrir**.
 
-##  <a name="MakeChangesToLayout"></a> Créer et modifier des présentations de rapport personnalisées  
+##  <a name="create-and-modify-custom-report-layouts"></a><a name="MakeChangesToLayout"></a> Créer et modifier des présentations de rapport personnalisées  
 Pour apporter des modifications générales de mise en forme et de disposition (par exemple modifier la police texte, ajouter et modifier un tableau ou supprimer un champ de données), utilisez les fonctions de base d'édition de Word, tout comme vous le faites avec n'importe quel document Word.
 
 Si vous créez une présentation de rapport Word de A à Z ou en ajoutant de nouveaux champs de données, commencez par ajouter un tableau comprenant des lignes et colonnes qui finiront par contenir les champs de données.
@@ -82,7 +82,7 @@ Si vous créez une présentation de rapport Word de A à Z ou en ajoutant de nou
 
 Pour vous assurer que les états affichent et impriment toujours avec les polices prévues, quel que soit l'emplacement où les utilisateurs ouvrent ou impriment des états, vous pouvez incorporer des polices au document Word. Toutefois, sachez qu'incorporer des polices peut augmenter de façon significative la taille des fichiers Word. Pour plus d'informations sur l'incorporation de polices à Word, voir [Incorporer des polices à Word, PowerPoint ou Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
 
-###  <a name="RemoveField"></a> Suppression des champs d'étiquette et de données dans les présentations Word  
+###  <a name="removing-label-and-data-fields-in-word-layouts"></a><a name="RemoveField"></a> Suppression des champs d'étiquette et de données dans les présentations Word  
  L'étiquette les champs de données d'un état sont contenus dans des contrôles de contenu dans Word. La figure ci-après illustre un contrôle de contenu lorsqu'il est sélectionné dans le document Word.  
 
  ![Contrôle de contenu d'un champ dans une présentation état Word](media/nav_wordreportlayouts_contentcontrol.png "NAV_WordReportLayouts_ContentControl")  
@@ -100,7 +100,7 @@ Pour vous assurer que les états affichent et impriment toujours avec les police
 ### <a name="adding-data-fields"></a>Ajout de champs de données
 L'ajout de champs de données à partir d'un ensemble des données d'état est une fonction plus avancée qui exige des connaissances sur l'ensemble des données d'état. Pour plus d'informations sur l'ajout de champs pour les données, étiquettes et images, voir [Ajouter des champs à une présentation de rapport Word](ui-how-add-fields-word-report-layout.md).  
 
-## <a name="see-related-training-at-microsoft-learnlearnmoduleschange-documents-dynamics-365-business-centralindex"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion des présentations de rapport](ui-manage-report-layouts.md)  

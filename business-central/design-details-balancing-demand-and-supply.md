@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 54e7aabe2989033a33373b960633b1c8f8e38eab
-ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
+ms.openlocfilehash: a1e55d983abae5f85807039da6dd4d846c3e40b3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076427"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185723"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Détails de conception : équilibrage de la demande et de l'approvisionnement
 Pour comprendre comment fonctionne le système de planification, il est nécessaire de comprendre les objectifs priorisés du système de planification, dont les plus importants sont de s'assurer que :  
@@ -99,7 +99,7 @@ Lors de l'équilibrage, le système de planification considère un approvisionne
 
 Il existe une autre raison pour laquelle un approvisionnement portant des numéros de série/lot est considéré comme non flexible. Dans la mesure où les numéros de série/lot sont généralement affectés très tard au cours du processus, cela représenterait une source de confusion si des modifications étaient proposées.  
 
-L'équilibrage des numéros de série/lot ne tient pas compte de la [Zone gelée](design-details-dealing-with-orders-before-the-planning-starting-date.md). Si la demande et l'approvisionnement ne sont pas synchronisés, le système de planification proposera des modifications ou suggère de nouvelles commandes, quelle que soit la date de début de la planification.  
+L'équilibrage des numéros de série/lot ne tient pas compte de la *zone gelée*. Si la demande et l'approvisionnement ne sont pas synchronisés, le système de planification proposera des modifications ou suggère de nouvelles commandes, quelle que soit la date de début de la planification.  
 
 ### <a name="order-to-order-links-are-never-broken"></a>Les Liens ordre pour ordre ne sont jamais rompus  
 Lors de la planification d'un article commande-à-commande, l'approvisionnement lié ne doit pas être utilisé pour toute demande autre que ce à quoi il était prévu à l'origine. La demande liée ne doit pas être couverte par un autre approvisionnement aléatoire, même si, dans sa situation actuelle, il est disponible en termes de délai et de quantité. Par exemple, un ordre d'assemblage lié à une commande vente dans un scénario assembler pour commande ne peut pas être utilisé pour couvrir l'autre demande.  
@@ -117,7 +117,7 @@ Cet équilibre affecte également le temps. L'horizon limité accordé par l'int
 ### <a name="component-need-is-loaded-according-to-production-order-changes"></a>Besoin composant est chargé en fonction des modifications d'ordre de fabrication  
 Lors de la gestion des ordres de fabrication, le système de planification doit contrôler les composants nécessaires avant de les charger dans le profil de demande. Les lignes composant qui résultent d'un ordre de fabrication modifié remplaceront celles de la commande originale. Cela garantit que le système de planification fait en sorte que les lignes de planification pour les besoins de composant ne sont jamais dupliquées.  
 
-###  <a name="BKMK_SafetyStockMayBeConsumed"></a> Le stock de sécurité peut être consommé  
+###  <a name="safety-stock-may-be-consumed"></a><a name="BKMK_SafetyStockMayBeConsumed"></a> Le stock de sécurité peut être consommé  
 Le stock de sécurité est surtout un type de demande et est donc chargé dans le profil de stock à la date de début de la planification.  
 
 Le stock de sécurité est une quantité en stock mise de côté pour compenser les incertitudes de la demande pendant le délai de réapprovisionnement. Toutefois, il peut être consommé s'il s'avère nécessaire de l'utiliser pour répondre à une demande. Le système de planification assure dans ce cas le remplacement rapide du stock de sécurité en suggérant un ordre d'approvisionnement permettant le réapprovisionnement de la quantité du stock de sécurité à sa date de consommation. Cette ligne planning affiche une icône d'avertissement Exception qui indique au gestionnaire que le stock de sécurité est partiellement ou entièrement consommé via une commande d'exception de la quantité manquante.  

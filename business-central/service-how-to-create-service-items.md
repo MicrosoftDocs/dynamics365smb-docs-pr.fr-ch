@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 5f7a95b297ef494cc3607f4550b6a0e58b18839d
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: 265b1e916894b588f296f3737cda04c685734d47
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2992184"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194922"
 ---
 # <a name="create-service-items"></a>Créer des articles de service
 Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], le terme « article de service » fait référence à un équipement ou un article nécessitant une maintenance. Lorsque vous créez une commande service, vous spécifiez les articles nécessitant une maintenance. Dans la commande, vous pouvez lier un article de service à un article en stock ou à un groupe articles de service.    
@@ -40,7 +40,7 @@ Si vous expédiez des articles en validant les commandes vente ou les factures v
 
 La procédure suivante explique comment créer des articles de service lorsque vous expédiez des articles de commandes vente.  
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes vente**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes vente**, puis sélectionnez le lien associé.  
 2. Ouvrez la commande vente appropriée.  
 3. Sélectionnez l'action **Valider** ou **Valider et imprimer**.  
 4. Choisissez l'action **Expédier** ou **Livrer et facturer**.  

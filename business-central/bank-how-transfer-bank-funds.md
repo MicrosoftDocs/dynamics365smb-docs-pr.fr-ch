@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account transfer, multiple currencies
-ms.date: 12/13/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 3618ad87377ebc47f183292207d2f25dc6c3ed34
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: a21cabaf2f3edc9e8f1f261a9f9169c3cb611b61
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2910435"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186227"
 ---
 # <a name="transfer-bank-funds"></a>Transfert de fonds à la banque
 Il peut vous arriver de devoir transférer un montant d'un compte bancaire dans [!INCLUDE[d365fin](includes/d365fin_md.md)] vers un autre. Pour ce faire, vous devez valider une transaction sur la page **Feuille comptabilité**. La tâche varie selon que les comptes bancaires utilisent la même devise ou des devises différentes.

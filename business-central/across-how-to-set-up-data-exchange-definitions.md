@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 02/11/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: dfd06fce9aab0de6afb725ab4625138b62305a1a
-ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
+ms.openlocfilehash: 44069b903df5426ae2aa3e851404c2b9e01f3979
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076797"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188195"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Configurer les définitions d'échange de données
 Vous pouvez configurer [!INCLUDE[d365fin](includes/d365fin_md.md)] pour échanger des données de tables spécifiques avec des données de fichiers externes, par exemple pour recevoir et envoyer des documents électroniques, importer et exporter des données bancaires ou d'autres données, telles que les salaires, les taux de change des devises et les catalogues article. Pour plus d'informations, voir [Échanger des données par voir électronique](across-data-exchange.md).  
@@ -37,7 +37,7 @@ Cette rubrique couvre les procédures suivantes :
 La création d'une définition d'échange de données implique deux tâches :  
 
 1. Sur la page **Définition d'échange de données**, décrivez la mise en forme des lignes et des colonnes du fichier.  
-2. Sur la page **Correspondance échange de données**, associez les colonnes du fichier de données avec les champs de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+2. Sur la page **Mappage d'échange de données**, mappez les colonnes du fichier de données aux champs de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Ceci est décrit dans les procédures suivantes.  
 
@@ -57,8 +57,8 @@ Ceci est décrit dans les procédures suivantes.
     |**Type**|Spécifiez pour quel type d'activité la définition d'échange de données est utilisée, par exemple **Exportation de paiement**.|  
     |**Codeunit gestion données**|Spécifiez le codeunit qui transfère les données dans et hors des tables de [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
     |**Codeunit validation**|Spécifiez le codeunit utilisé pour valider les données par rapport aux règles d'entreprise prédéfinies.|  
-    |**Codeunit lecture/écriture**|Spécifiez le codeunit qui traite les données importées avant la mise en correspondance et les données exportées après la correspondance.|  
-    |**XMLport lecture/écriture**|Spécifiez le XMLport via lequel un fichier de données importées ou un service passe avant la correspondance et via lequel des données exportées sortent lors d'une écriture dans un fichier de données ou un service après correspondance.|  
+    |**Codeunit lecture/écriture**|Spécifiez le codeunit qui traite les données importées avant le mappage et les données exportées après le mappage.|  
+    |**XMLport lecture/écriture**|Spécifiez le XMLport par lequel un fichier de données importées ou un service passe avant le mappage et par lequel des données exportées sortent lors d'une écriture dans un fichier de données ou un service après le mappage.|  
     |**Codeunit gestion données ext.**|Spécifiez le codeunit qui transfère les données externes dans et hors de l'infrastructure d'échange de données.|  
     |**Codeunit retour utilisateur**|Spécifiez le codeunit qui effectue des nettoyages après un mappage, par exemple le marquage des lignes lors de leur importation et la suppression des enregistrements temporaires.|  
     |**Encodage du fichier**|Spécifier l'encodage du fichier. **Remarque** : ce champ ne s'applique qu'aux importations.|  
@@ -108,25 +108,25 @@ Ceci est décrit dans les procédures suivantes.
  L'étape suivante de la création de la définition d'échange de données consiste à choisir les correspondances entre les colonnes ou les éléments XML du fichier de données et les champs de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 > [!NOTE]  
->  La correspondance spécifique dépend de l'objectif commercial du fichier de données à échanger et des variations locales. Même le standard bancaire SEPA a des variations locales. [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge en natif l'importation de fichiers de relevé bancaire SEPA CAMT. Ceci est représenté par le code d'enregistrement de définition d'échange de données **SEPA CAMT** sur la page **Définitions d'échange de données**. Pour plus d'informations sur le mappage de champs spécifique de cette prise en charge de SEPA CAMT, voir [Mappage de champs lors de l'importation de fichiers SEPA CAMT](across-field-mapping-when-importing-sepa-camt-files.md).  
+>  Le mappage spécifique dépend de l'objectif commercial du fichier de données à échanger et des variations locales. Même le standard bancaire SEPA a des variations locales. [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge en natif l'importation de fichiers de relevé bancaire SEPA CAMT. Ceci est représenté par le code d'enregistrement de définition d'échange de données **SEPA CAMT** sur la page **Définitions d'échange de données**. Pour plus d'informations sur le mappage de champs spécifique de cette prise en charge de SEPA CAMT, voir [Mappage de champs lors de l'importation de fichiers SEPA CAMT](across-field-mapping-when-importing-sepa-camt-files.md).  
 
 #### <a name="to-map-columns-in-the-data-file-to-fields-in-d365fin"></a>Pour mapper les colonnes du fichier de données aux champs de [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 > [!TIP]
 > Parfois, les valeurs des champs que vous souhaitez associer sont différentes. Par exemple, le code langue pour les États-Unis est « U.S. » dans une application métier et « US » dans une autre. Cela signifie que vous devez transformer la valeur lorsque vous échangez des données. Cela se fait via les règles de transformation que vous définissez pour les champs. Pour plus d'informations, voir [Règles de transformation](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).
 
-1. Sur le raccourci **Définitions de lignes**, sélectionnez la ligne pour laquelle vous souhaitez associer les colonnes avec les champs, puis sélectionnez **Correspondance champ**. La page **Correspondance échange de données** s'ouvre.  
+1. Sur le raccourci **Définitions de lignes**, sélectionnez la ligne pour laquelle vous souhaitez mapper les colonnes aux champs, puis sélectionnez **Mappage de champs**. La page **Mappage d'échange de données** s'ouvre.  
 2. Dans le raccourci **Général**, spécifiez les paramètres de mappage en renseignant les champs comme indiqué dans le tableau ci-dessous.  
 
     |Champ|Désignation|  
     |---------------------------------|---------------------------------------|  
-    |**ID Table**|Indiquez la table qui contient les champs vers lesquels ou à partir desquels des données sont échangées en fonction de la correspondance.|  
+    |**ID Table**|Indiquez la table qui contient les champs vers lesquels ou à partir desquels des données sont échangées en fonction du mappage.|  
     |**Utiliser comme table intermédiaire**|Spécifiez si la table que vous sélectionnez dans le champ **ID table** est une table intermédiaire de stockage des données importées avant leur mappage vers la table cible.<br /><br /> Vous utilisez généralement une table intermédiaire lorsque la définition d'échange de données est utilisée pour importer et convertir des documents électroniques, tels que des factures fournisseur en factures achat dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, voir [Échanger des données par voir électronique](across-data-exchange.md).|  
-    |**Nom**|Saisissez un nom pour les paramètres de correspondance.|  
-    |**Codeunit pré-mappage**|Spécifiez le codeunit qui prépare la mise en correspondance entre les champs dans [!INCLUDE[d365fin](includes/d365fin_md.md)] et les données externes.|  
-    |**Correspondance Codeunit**|Spécifiez le codeunit qui est utilisé pour mettre en correspondance les colonnes ou les éléments de données XML spécifiés avec les champs dans [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
-    |**Codeunit post-mappage**|Spécifiez le codeunit qui effectue la mise en correspondance entre les champs dans [!INCLUDE[d365fin](includes/d365fin_md.md)] et les données externes. **Remarque :** lors de l'utilisation de l'extension AMC Banking 365 Fundamentals, le codeunit convertit les données exportées de [!INCLUDE[d365fin](includes/d365fin_md.md)] vers un format générique qui est prêt pour l'exportation. Pour l'importation, le codeunit convertit les données externes dans un format prêt à l'importation dans [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
+    |**Nom**|Saisissez un nom pour les paramètres de mappage.|  
+    |**Codeunit pré-mappage**|Spécifiez le codeunit qui prépare le mappage entre les champs dans [!INCLUDE[d365fin](includes/d365fin_md.md)] et les données externes.|  
+    |**Codeunit mappage**|Spécifiez le codeunit qui est utilisé pour mapper les colonnes ou les éléments de données XML spécifiés aux champs dans [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
+    |**Codeunit post-mappage**|Spécifiez le codeunit qui effectue le mappage entre les champs dans [!INCLUDE[d365fin](includes/d365fin_md.md)] et les données externes. **Remarque :** lors de l'utilisation de l'extension AMC Banking 365 Fundamentals, le codeunit convertit les données exportées de [!INCLUDE[d365fin](includes/d365fin_md.md)] vers un format générique qui est prêt pour l'exportation. Pour l'importation, le codeunit convertit les données externes dans un format prêt à l'importation dans [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
 
-3.  Sur le raccourci **Correspondance champ**, spécifiez la correspondance entre les colonnes et les champs dans [!INCLUDE[d365fin](includes/d365fin_md.md)] en renseignant les champs comme indiqué dans le tableau suivant.  
+3.  Dans le raccourci **Mappage de champs**, spécifiez le mappage entre les colonnes et les champs dans [!INCLUDE[d365fin](includes/d365fin_md.md)] en renseignant les champs comme indiqué dans le tableau suivant.  
 
     |Champ|Désignation|  
     |---------------------------------|---------------------------------------|  
@@ -139,10 +139,10 @@ Ceci est décrit dans les procédures suivantes.
     |**Libellé champ cible**|Uniquement visible lorsque la case à cocher **Utiliser comme table intermédiaire** est cochée.<br /><br /> Spécifiez le nom du champ dans la table cible auquel la valeur de la colonne **Titre colonne** est mappée lorsque vous utilisez une table intermédiaire pour l'importation des données.|  
     |**Supplémentaires**|Uniquement visible lorsque la case à cocher **Utiliser comme table intermédiaire** est cochée.<br /><br /> Spécifiez que la correspondance doit être ignorée si le champ est vide. Si vous n'activez pas cette case à cocher, une erreur d'exportation aura lieu si le champ est vide.|  
 
-La définition d'échange de données est désormais prête à être activée pour les utilisateurs. Pour plus d'informations, voir [Configurer l'envoi et la réception de documents électroniques](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Configurer des virements SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#setting-up-sepa-credit-transfer), [Recueillir des paiements avec un prélèvement SEPA](finance-collect-payments-with-sepa-direct-debit.md) et [Exécuter les paiements avec l'extension AMC Banking 365 Fundamentals ou un virement SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
+La définition d'échange de données est désormais prête à être activée pour les utilisateurs. Pour en savoir plus, consultez [Configurer l'envoi et la réception de documents électroniques](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Configurer des virements SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#setting-up-sepa-credit-transfer), [Recueillir des paiements avec un prélèvement SEPA](finance-collect-payments-with-sepa-direct-debit.md) et [Exécuter les paiements avec l'extension AMC Banking 365 Fundamentals ou un virement SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
 
 ### <a name="transformation-rules"></a>Règles de transformation
-Si les valeurs des champs que vous associez sont différentes, vous devez utiliser des règles de transformation pour les définitions d'échange de données afin de les rendre identiques. Pour définir des règles de transformation pour des définitions d'échange de données, ouvrez une définition existante ou créez-en une nouvelle, puis, sur le raccourci **Définitions de ligne**, choisissez **Gérer**, puis **Mappage de champs**. Des règles prédéfinies sont fournies, mais vous pouvez également créer les vôtres. Le tableau suivant décrit les types de transformations que vous pouvez effectuer.
+Si les valeurs des champs que vous mappez sont différentes, vous devez utiliser des règles de transformation pour les définitions d'échange de données afin de les rendre identiques. Pour définir des règles de transformation pour des définitions d'échange de données, ouvrez une définition existante ou créez-en une nouvelle, puis, sur le raccourci **Définitions de ligne**, choisissez **Gérer**, puis **Mappage de champs**. Des règles prédéfinies sont fournies, mais vous pouvez également créer les vôtres. Le tableau suivant décrit les types de transformations que vous pouvez effectuer.
 
 |Option|Description|
 |---------|---------|

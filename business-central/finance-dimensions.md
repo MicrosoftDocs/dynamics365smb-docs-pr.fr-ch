@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6ac8d49d2b3a88d472a61a9a61c2893360036eb7
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 61e39b15042a4c3bd21ef1297d90803496305f8f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952641"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183803"
 ---
 # <a name="working-with-dimensions"></a>Utilisation des axes analytiques
 Vous pouvez utiliser des axes analytiques pour faciliter l'exécution de l'analyse sur des commandes vente, par exemple. Les axes analytiques sont des attributs et des valeurs qui permettent de catégoriser les écritures afin de pouvoir les suivre et les analyser. Ils peuvent par exemple indiquer de quel projet ou département provient une écriture.  
@@ -119,7 +119,7 @@ Les axes principaux et les raccourcis axe peuvent être utilisés comme filtre n
 2. Passez votre souris sur les actions et les champs sur la page pour découvrir comment modifier les axes principaux et les raccourcis axe.
 
 ### <a name="example-of-dimension-setup"></a>Exemple de paramétrage d'axe analytique
-Imaginons que votre société souhaite suivre les transactions selon la structure organisationnelle et les situations géographiques. Pour ce faire, vous pouvez configurer deux axes sur la page **Axe analytique** :
+Imaginons que votre société souhaite suivre les transactions selon la structure organisationnelle et les situations géographiques. Pour ce faire, vous pouvez configurer deux axes sur la page **Axes analytiques** :
 
 * **REGION**  
 * **DEPARTEMENT**  
@@ -193,7 +193,7 @@ Dans une page écriture comptable, vous pouvez voir si des axes principaux sont 
 Lorsque vous validez des documents ou des lignes feuille qui contiennent des axes analytiques, différentes erreurs peuvent survenir, généralement liées à un défaut de configuration ou d'affectation des axes.
 
 > [!NOTE]
-> Dans la liste suivante des messages d'erreur potentielle, les codes *%X*sont des espaces réservés pour les variables de données qui le message réel contient dans l'interface utilisateur selon le contexte. Par exemple, *%1 %2 est bloqué.* pourrait s'afficher dans l'interface utilisateur comme « La ZONE du code axe est bloquée ».  
+> Dans la liste suivante des messages d'erreur potentielle, les codes *%X* sont des espaces réservés pour les variables de données qui le message réel contient dans l'interface utilisateur selon le contexte. Par exemple, *%1 %2 est bloqué.* pourrait s'afficher dans l'interface utilisateur comme « La ZONE du code axe est bloquée ».  
 
 |Problème|Message d'erreur|Solution possible|
 |-----|-------------|-----------------|
@@ -209,7 +209,7 @@ Lorsque vous validez des documents ou des lignes feuille qui contiennent des axe
 |Code de valeur analytique non vierge pour l'axe par défaut vierge où le champ **Contrôle validation** contient **Code identique**|-%1 %2 doit être vierge.<br />-%1 %2 doit être vierge pour %3 %4.|- Modifiez le champ **Contrôle validation** sur la page **Axe analytique par défaut**.<br />- Saisissez un code de valeur analytique vierge pour l'axe analytique en conflit dans l'ensemble d'axes.|
 |Valeur analytique inattendue pour l'axe par défaut où le champ **Contrôle validation** contient **Aucun code**|-%1 %2 ne doit pas être mentionné.<br />- %1 %2 ne doit pas être mentionné pour %3 %4.|- Modifiez le champ **Contrôle validation** sur la page **Axe analytique par défaut**.<br />- Supprimez la ligne en conflit depuis l'ensemble de dimensions.|
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesdimensions-dynamics-365-business-centralindex"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/dimensions-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/dimensions-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Voir aussi
 [Veille économique](bi.md)  

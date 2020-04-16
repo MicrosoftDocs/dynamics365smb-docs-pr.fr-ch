@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 7ab77dd3c154c81172037e07fb6decf4ad907f5b
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: e780967fda8e5c4e8b3a1f2e5e3ed3a05418507d
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2883109"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191058"
 ---
 # <a name="register-new-vendors"></a>Enregistrer un nouveau fournisseur
 Les fournisseurs fournissent les produits que vous vendez. Chaque fournisseur à qui vous achetez des biens doit être enregistré en tant que fiche fournisseur.
@@ -30,7 +30,7 @@ Les fiches fournisseur contiennent les informations requises pour acheter des pr
 >   Si des modèles fournisseur existent pour différents types de fournisseurs, une page s'affiche lorsque vous créez une fiche fournisseur à partir de laquelle vous pouvez sélectionner un modèle approprié. Si un seul modèle fournisseur existe, les nouvelles fiches fournisseur utiliseront toujours ce modèle.
 <br><br>  
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
 ## <a name="to-create-a-new-vendor-card"></a>Pour créer une fiche fournisseur
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Fournisseurs**, puis sélectionnez le lien associé.  

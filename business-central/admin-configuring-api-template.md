@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API templates, configuring templates
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: solsen
-ms.openlocfilehash: af06336996a901c73927d6b060ab530aa4573f54
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7e21da444f8dc8858ebe0e5f65335311dfb2a5e7
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304675"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187403"
 ---
 # <a name="configuring-api-templates"></a>Configuration des modèles d'API
 La bibliothèque d'API de [!INCLUDE[d365fin_md](includes/d365fin_md.md)] fournit une représentation simplifiée des entités sous-jacentes. Toutes les propriétés de l'application ne sont pas exposées via l'API associée. La page **Paramètres API** permet de définir des modèles qui sont utilisés pour remplir les propriétés vides d'une entité lorsque vous créez une action POST via l'API. 

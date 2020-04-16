@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 91fa7316332f81703bce1193d4ae813572a6b8b9
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 42c26bc7d7034c02c069a9e4b7890a5dc514cd4d
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882149"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194106"
 ---
 # <a name="business-central-extensions-by-other-providers"></a>Extensions Business Central par d'autres fournisseurs
 Dans [AppSource.microsoft.com](https://appsource.microsoft.com/), vous pouvez obtenir des extensions pour [!INCLUDE[d365fin](includes/d365fin_md.md)]. Certaines extensions sont fournies par Microsoft, et d'autres sont fournies par d'autres sociétés. Consultez les sites Web que ces sociétés fournissent pour plus d'informations sur les extensions qui ne sont pas publiées par Microsoft. Vous trouverez ces informations dans [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).  

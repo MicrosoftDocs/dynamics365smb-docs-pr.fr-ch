@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4e6666cd68f0a4b240e3c5663b5229df7ebb09ab
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: cc6a94df19988827ee2f62398c8dfb7c972288a3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877078"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192282"
 ---
 # <a name="setup-best-practices-costing-method"></a>Configuration de meilleures pratiques : mode évaluation stock
 Le champ **Mode évaluation stock** de la fiche article spécifie la manière dont le flux des coûts de l'article est enregistré et si une valeur réelle ou budgétée est capitalisée et utilisée dans le calcul des coûts.  

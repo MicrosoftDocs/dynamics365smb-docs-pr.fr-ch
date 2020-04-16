@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 494f7c621a141b84f104ad855b2aa1e412aa837f
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: fdf20f215cee14d8cfb2d4287f8f0a5173ce4466
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877486"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195257"
 ---
 # <a name="set-up-a-loaner-program"></a>Configuration d'un programme d'articles de prêt
 Vous devez parfois fournir un article de prêt à un client afin qu'il puisse s'en servir quand une équipe du service clientèle effectue une réparation. Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez configurer un programme d'articles de prêt, prêter des articles à vos clients et suivre les réceptions lorsque les clients retournent les articles. En outre, vous pouvez ajouter des commentaires sur les articles de prêt de deux manières :  

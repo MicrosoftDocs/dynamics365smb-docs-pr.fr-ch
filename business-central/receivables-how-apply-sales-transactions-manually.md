@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipt
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: d32f614ce86f6ad1b3f846631d3b4062788b755a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 74031e19332bb258323559a51fa22c486c880edb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312355"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192042"
 ---
 # <a name="reconcile-customer-payments-with-the-cash-receipt-journal-or-from-customer-ledger-entries"></a>Rapprocher des paiements clients avec la Feuille règlement ou les Écritures comptables client
 Lorsque vous recevez le règlement d'un client ou que vous effectuez un remboursement, vous devez décider si vous souhaitez lettrer le paiement ou le remboursement pour clôturer une ou plusieurs écritures débit ou crédit. Vous pouvez indiquer le montant que vous souhaitez appliquer. Par exemple, vous pouvez appliquer des paiements partiels aux écritures comptables client. La clôture des écritures comptables client permet de garantir que des informations telles que les statistiques clients, les relevés bancaires et les intérêts de retard sont corrects.
@@ -53,7 +53,7 @@ La feuille règlement est un type de feuille comptabilité, de sorte que vous po
 12. Validez la feuille.
 
 ## <a name="to-apply-a-payment-to-a-single-customer-ledger-entry"></a>Pour lettrer un paiement avec une seule écriture comptable client
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille règlement**, et sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille règlement**, puis sélectionnez le lien associé.
 2. Sélectionnez **Modifier journal**.
 3. Dans la première ligne feuille, saisissez les informations appropriées sur l'écriture à lettrer.
 4. Dans le champ **Type document**, entrez **Paiement**.
@@ -105,7 +105,7 @@ La feuille règlement est un type de feuille comptabilité, de sorte que vous po
 7. Valider l'avoir.
 
 ## <a name="to-apply-posted-customer-ledger-entries"></a>Pour lettrer des écritures comptables client validées
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Clients**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Clients**, puis sélectionnez le lien associé.
 2. Ouvrez la fiche du client possédant les écritures que vous souhaitez lettrer.
 3. Sélectionnez l'action **Écritures comptables**, puis sélectionnez la ligne où figure l'écriture qui sera l'écriture lettrage.
 4. Sélectionnez l'action **Lettrer écritures**. La page **Lettrer écritures client** s'ouvre et affiche les écritures ouvertes de ce client.
@@ -117,7 +117,7 @@ La feuille règlement est un type de feuille comptabilité, de sorte que vous po
 8. Cliquez sur **OK** pour valider le lettrage.
 
     Si le lettrage validé génère des écritures comptables client lettrées, ces écritures comptables ne sont plus activées dans le champ **Ouvert**.    
-9. Pour afficher les écritures comptables, choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Clients**, puis sélectionnez le lien associé. Accédez à la fiche du client approprié pour afficher les écritures comptables.  
+9. Pour afficher les écritures comptables, choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Clients**, puis choisissez le lien associé. Accédez à la fiche du client approprié pour afficher les écritures comptables.  
 
 Dans la liste écritures comptables, sur la ligne contenant l'écriture comptable totalement lettrée vous constatez que la case **Ouvert** n'est pas cochée.  
 
@@ -142,9 +142,9 @@ Le lettrage d'écritures comptables client en devises différentes doit être ac
 >   Lorsque vous lettrez des écritures en devises différentes, les écritures sont converties en USD. Bien que le taux de change des deux devises concernées soit fixe, comme entre l'USD et l'EUR, leur conversion en USD peut donner un petit montant résiduel. Le programme valide ces petits montants résiduels en tant que gains et pertes dans le compte défini dans les champs **Cpte gains constatés report** ou **Cpte pertes constatées report** de la page **Devises**. La valeur du champ **Montant (USD)** est également ajustée sur les écritures comptables fournisseur.  
 
 ## <a name="to-correct-an-application-of-customer-entries"></a>Pour créer un lettrage des écritures client
-Lorsque vous corrigez une application, des écritures de correction (écritures identiques à l'écriture originale mais avec le signe opposé dans le champ du montant) sont créées et validées pour toutes les écritures comportant des validations comptables issues du lettrage, comme les escomptes et les pertes et gains en devise. Les écritures qui sont fermées par l'application sont rouvertes.  
+Lorsque vous corrigez une application, des écritures de correction (écritures identiques à l'écriture originale mais avec le signe opposé dans le champ du montant) sont créées et validées pour toutes les écritures comportant des validations comptables issues du lettrage, comme les escomptes et les pertes et gains en devise. Les écritures fermées par l'application sont rouvertes.  
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Clients**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Clients**, puis sélectionnez le lien associé.
 2. Ouvrez la fiche client appropriée.
 3. Sélectionnez l'action **Écritures comptables**.
 4. Sélectionnez l'écriture comptable appropriée, puis sélectionnez l'action **Délettrer les écritures**.

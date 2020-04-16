@@ -8,24 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 11/20/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: ac1cc92d67142b22de67dc417686a869a9ea5277
-ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
+ms.openlocfilehash: 80f33734365ad52b59e77d89e35af81d5a798fcb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832374"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194682"
 ---
-# <a name="setting-up-included365finincludesd365fin_mdmd"></a>Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]
-[!INCLUDE[d365fin](includes/d365fin_md.md)] comprend des configurations standard pour la plupart des processus entreprise, mais vous pouvez les modifier pour les adapter aux besoins de votre société.
+# <a name="setting-up-prodshort"></a>Configuration de [!INCLUDE[prodshort](includes/prodshort.md)]
+
+[!INCLUDE[prodshort](includes/prodshort.md)] comprend des configurations standard pour la plupart des processus métier, mais vous pouvez les modifier pour les adapter aux besoins de votre organisation.
 
 Par exemple, votre plan comptable est prérempli avec un certain nombre de comptes de validation prêts à l'emploi. Vous pouvez, bien évidemment, modifier le plan comptable pour l'adapter à vos besoins. Pour plus d'informations, reportez-vous à [Finances](finance.md).
 
-À partir de votre tableau de bord, vous pouvez accéder aux guides de configuration assistée qui vous permettent de configurer certains scénarios et d'ajouter des fonctionnalités à [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations sur l'accès à toutes les pages de paramétrage aidées et manuelles, voir [Préparation aux activités commerciales](ui-get-ready-business.md).
-
-> [!NOTE]
-> Vous pouvez configurer une nouvelle société dans [!INCLUDE[d365fin](includes/d365fin_md.md)] avec RapidStart Services, qui est un outil conçu pour réduire les temps de déploiement, améliorer la qualité de l’implémentation, présenter une approche reproductible des implémentations et augmenter la productivité en automatisant et en simplifiant des tâches récurrentes. Pour plus d'informations, voir [Configuration d'une société avec RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
+Dans le menu ![Icône de pignon pour ouvrir le menu Paramètres](media/ui-experience/settings_icon_small.png), vous pouvez accéder aux guides de configuration assistée qui vous permettent de configurer certains scénarios et d'ajouter des fonctionnalités à [!INCLUDE[prodshort](includes/prodshort.md)]. Pour plus d'informations sur l'accès à toutes les pages de paramétrage aidées et manuelles, voir [Préparation aux activités commerciales](ui-get-ready-business.md).
 
 Certaines fonctionnalités (générales ou pour des processus d'entreprise spécifiques), peuvent être créées manuellement en plus du guide de configuration assistée. Voici une partie des fonctionnalités qui vous pouvez paramétrer manuellement.
 
@@ -47,7 +45,7 @@ Certaines fonctionnalités (générales ou pour des processus d'entreprise spéc
 |Utilisez les complément Outlook de Business Central, vous pouvez afficher des informations financières associées à des clients et des fournisseurs ou créer et envoyer des documents financiers, comme des devis et des factures.|[Utilisation de Business Central en tant que boîte de réception professionnelle dans Outlook](admin-outlook.md)|
 |Obtenez un aperçu de vos données Business Central avec Power BI et les packs de contenu Business Central.|[Activation de vos données commerciales pour Power BI](admin-powerbi.md)|
 |Utilisez vos données Business Central en tant que partie du flux de travail dans Power Automate.|[Utilisation de Business Central dans un flux automatisé](across-how-use-financials-data-source-flow.md)|
-|Rendre vos données Business Central disponibles sous forme de source de données dans Power Apps.|[Connexion à vos données Business Central pour générer un application métier à l'aide de Power Apps](across-how-use-financials-data-source-powerapps.md)|
+|Rendez vos données Business Central disponibles sous forme de source de données dans Power Apps.|[Connexion à vos données Business Central pour générer une application professionnelle à l'aide de Power Apps](across-how-use-financials-data-source-powerapps.md)|
 |Utilisez des guides dédiés de migration Quickbooks.|[Passage d'une application QuickBooks à Business Central](across-quickbooks-to-business-edition.md)|
 |Accédez à vos données Business Central à partir de votre périphérique mobile.|[Obtention de Business Central sur votre périphérique mobile](install-mobile-app.md)|
 |Effectuez la facturation en vrac des rendez-vous créés dans Bookings.|[Facturation en vrac pour Microsoft Bookings](finance-bookings.md)|
@@ -56,6 +54,9 @@ Certaines fonctionnalités (générales ou pour des processus d'entreprise spéc
 |Configurez et affecter un calendrier principal à votre société et à ses partenaires commerciaux, tels que ses clients, ses fournisseurs ou ses magasins. Les dates de livraison et de réception sur les lignes commande vente, commande achat, ordre de transfert, et ordre de fabrication sont ensuite calculées en fonction des jours ouvrés définis dans le calendrier.|[Configurer des calendriers principaux](across-how-to-assign-base-calendars.md)|  
 
 Certaines zones nécessitent que vous soyez un administrateur dans votre abonnement [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, voir [Administration](admin-setup-and-administration.md).  
+
+> [!NOTE]
+> En tant qu'administrateur, vous pouvez configurer une nouvelle société dans [!INCLUDE[d365fin](includes/d365fin_md.md)] avec RapidStart Services, qui est un outil conçu pour réduire les temps de déploiement, améliorer la qualité de l’implémentation, présenter une approche reproductible des implémentations et augmenter la productivité en automatisant et en simplifiant des tâches récurrentes. Pour plus d'informations, voir [Configuration d'une société avec RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
 ## <a name="see-also"></a>Voir aussi
 

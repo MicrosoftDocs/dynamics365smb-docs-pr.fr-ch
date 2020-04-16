@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5098087fc5d4ea821e32d644c159deeb5289b837
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: b088cf18c10dd451c7c5974e98f0c0cbba5bad0b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953046"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186923"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Utilisation de Business Central en tant que boîte de réception professionnelle dans Outlook
 
@@ -35,7 +35,7 @@ Si vous travaillez avec plus d'une entreprise [!INCLUDE [prodshort](includes/pro
 > [!NOTE]
 > Le passage d'une entreprise à l'autre nécessite la 2e vague de publication 2019 de [!INCLUDE [prodshort](includes/prodshort.md)] ou ultérieure, comme annoncé dans le [plan de publication](/dynamics365-release-plan/2019wave2/dynamics365-business-central/switch-between-companies-business-inbox-outlook).
 
-Certaines sociétés utilisant Office 365 n'autorisent pas leurs utilisateurs à déployer des compléments. Ainsi vous devez vous assurer que vous disposez d'un abonnement Office 365 comprenant la messagerie et qui vous permet de déployer des compléments. Si vous souhaitez tout de même essayer le complément, vous pouvez [essayer gratuitement Office 365](https://products.office.com/try).  
+Certaines sociétés utilisant Office 365 n'autorisent pas leurs utilisateurs à déployer des compléments. Vous devez donc veiller à disposer d'un abonnement Office 365 comprenant la messagerie et vous permettant de déployer des compléments. Si vous souhaitez tout de même essayer le complément, vous pouvez [essayer gratuitement Office 365](https://products.office.com/try).  
 
 ## <a name="using-the-contact-insights-add-in"></a>Utilisation du complément Panorama des contacts
 Imaginons que vous receviez un e-mail d'un client souhaitant obtenir un devis pour certains articles. Directement dans Outlook, vous pouvez ouvrir le complément [!INCLUDE[d365fin](includes/d365fin_md.md)], qui identifie l'expéditeur comme un client, et ouvre la fiche client de sa société. À partir de ce tableau de bord, vous pouvez afficher des informations générales relatives au client, ainsi que rechercher davantage de détails sur des documents spécifiques. Vous pouvez également effectuer des recherches approfondies dans l'historique des ventes du client. S'il s'agit d'un nouveau contact, vous pouvez le créer en tant que tel dans [!INCLUDE[d365fin](includes/d365fin_md.md)] sans quitter Outlook.  
@@ -68,9 +68,9 @@ Dans les deux cas, si [!INCLUDE[d365fin](includes/d365fin_md.md)] n'est toujours
 
 ## <a name="using-other-email-accounts"></a>Utilisation d'autres comptes de messagerie
 
-Les compléments sont conçus pour être utilisés avec Office 365. Si vous utilisez [!INCLUDE [prodshort](includes/prodshort.md)] sur site, votre administrateur saura si vous pouvez utiliser les compléments [!INCLUDE [prodshort](includes/prodshort.md)] dans Outlook. Pour plus d'informations, voir [Quelle adresse e-mail puis-je utiliser avec [!INCLUDE[prodshort](includes/prodshort.md)] ?](across-faq.md#what-email-address-can-i-use-with-) et [Fonctionnalités nécessitant des circonstances spécifiques](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances).  
+Les compléments sont conçus pour être utilisés avec Office 365. Si vous utilisez [!INCLUDE [prodshort](includes/prodshort.md)] sur site, votre administrateur saura si vous pouvez utiliser les compléments [!INCLUDE [prodshort](includes/prodshort.md)] dans Outlook. Pour plus d'informations, voir [Quelle adresse e-mail puis-je utiliser avec [!INCLUDE[prodshort](includes/prodshort.md)] ?](across-faq.md#email) et [Fonctionnalités nécessitant des circonstances spécifiques](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances).  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesalternative-interfaces-dynamics-365-business-centralindex"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Voir aussi
 

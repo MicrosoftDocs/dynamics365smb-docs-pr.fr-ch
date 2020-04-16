@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 973c248473f2f2eebc10e095f619b51e48de7886
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: c9f76990f9f6a314de6ac18352b5353773bb8fe0
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2880127"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184955"
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Détails de conception : flux de désenlogement
 Le flux sortant dans l'entrepôt commence par une demande provenant des documents origine lancés pour amener les articles hors de l'entrepôt, pour les expédier soit à un tiers, soit à un autre magasin de la société. Depuis la zone de stockage, des activités entrepôt sont effectuées à différents niveaux de complexité pour sortir les articles pour les amener au quai d'expédition.  

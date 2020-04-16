@@ -9,17 +9,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 11/13/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 32de53150f90f2400962f33601a0fa45c059bd4c
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 3329a694f4c27a2a314d82dd2f71eb31c9f36d98
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882173"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194634"
 ---
 # <a name="change-which-features-are-displayed"></a>Modifier les fonctionnalités affichées
-[!INCLUDE[d365fin](includes/d365fin_md.md)]est conçu pour vous aider à gérer votre entreprise indépendamment de sa taille et de sa complexité. Au cœur du produit, vous trouverez des fonctionnalités essentielles, telles que la génération d'états financiers, les ventes, les achats et la gestion des stocks. À mesure que la complexité de l'entreprise augmente, vous pouvez activer des fonctionnalités pour la fabrication et la gestion des services, par exemple.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] est conçu pour vous aider à gérer votre entreprise indépendamment de sa taille et de sa complexité. Au cœur du produit, vous trouverez des fonctionnalités essentielles, telles que la génération d'états financiers, les ventes, les achats et la gestion des stocks. À mesure que la complexité de l'entreprise augmente, vous pouvez activer des fonctionnalités pour la fabrication et la gestion des services, par exemple.
 
 Vous pouvez définir le niveau de complexité du produit, et donc les fonctionnalités auxquelles les utilisateurs de la société ont accès, en modifiant le paramètre **Expérience** sur la page **Informations société**. Notez que le paramètre d’expérience peut également être modifié par l'ajout de certaines extensions provenant d'AppSource. Pour plus d'informations, voir [Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md).
 
@@ -30,7 +30,7 @@ Le tableau suivant répertorie les expériences actuellement disponibles.
 | **Essential** |Affiche tous les champs et actions pour toutes les fonctionnalités d'entreprise communes.|
 | **Premium** |Affiche tous les champs et actions pour toutes les fonctionnalités d'entreprise, y compris la fabrication et la gestion des services.|
 
-Les expériences qui peuvent être sélectionnées dans [!INCLUDE[d365fin](includes/d365fin_md.md)]reflètent les licences de la solution, appelées plans, définies pour le produit. Pour plus d'informations sur les abonnements Essentiel et Premium, voir [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) sur le site Microsoft Dynamics 365 Marketing. Voir aussi le [Guide des licences [!INCLUDE[d365fin](includes/d365fin_md.md)]](https://go.microsoft.com/fwlink/?linkid=2068931) (requiert l'accès à CustomerSource ou à PartnerSource).
+Les expériences qui peuvent être sélectionnées dans [!INCLUDE[d365fin](includes/d365fin_md.md)] reflètent les licences de la solution, appelées plans, définies pour le produit. Pour plus d'informations sur les abonnements Essentiel et Premium, voir [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) sur le site Microsoft Dynamics 365 Marketing. Voir aussi le [Guide des licences [!INCLUDE[d365fin](includes/d365fin_md.md)]](https://go.microsoft.com/fwlink/?linkid=2068931) (requiert l'accès à CustomerSource ou à PartnerSource).
 
 > [!IMPORTANT]  
 > Tous les utilisateurs réguliers d'une solution doivent avoir le même plan, Essential ou Premium, pour pouvoir sélectionner l'expérience pour la société. En conséquence, un utilisateur ne peut pas accéder aux fonctionnalités Premium si un ou plusieurs autres utilisateurs peuvent uniquement accéder aux fonctionnalités Essential. Ce n'est pas le cas pour les utilisateurs non réguliers du type Membre de l'équipe, Administrateur interne, Comptable externe et Administrateur délégué, qui peuvent avoir un plan différent de celui des autres utilisateurs de la solution.<br /><br /> Seuls les utilisateurs de type Evaluation ou Premium peuvent modifier la valeur du champ **Expérience** d'Essential en Premium.
@@ -46,14 +46,14 @@ Les utilisateurs sont affectés à des plans dans le centre d'administration Mic
 Si vous avez modifié les plans des utilisateurs dans le centre d'administration Microsoft 365, par exemple en affectant plus d'utilisateurs au plan Premium, vous devez refléter les modifications dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 1. Connectez-vous en tant qu'administrateur.
-2. Choisissez l'icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Utilisateurs**, puis sélectionnez le lien associé.
+2. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Utilisateurs**, puis sélectionnez le lien associé.
 3. Sur la page **Utilisateurs**, sélectionnez l'action **Actualiser tous les groupes d'utilisateurs**.
 
 Toutes les nouvelles informations relatives aux plans des utilisateurs et aux groupes d'utilisateurs qui leur sont affectés sont maintenant mises à jour en fonction des modifications du plan.
 
 ### <a name="to-select-the-premium-experience"></a>Pour sélectionner l'expérience Premium
 Vous pouvez maintenant sélectionner la nouvelle expérience.
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Informations société**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Informations société**, puis sélectionnez le lien associé.
 2. Sur la page **Informations société**, dans le raccourci **Expérience utilisateur**, sélectionnez Premium dans le champ **Expérience**.
 
 ## <a name="help-assumes-premium-experience"></a>L'aide implique l'expérience Premium
@@ -66,6 +66,6 @@ Tous les descriptions de fonctions de la documentation utilisateur de [!INCLUDE[
 [Création de sociétés](about-new-company.md)  
 [Modifier les paramètres de base](ui-change-basic-settings.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-Guide des licences [[!INCLUDE[d365fin](includes/d365fin_md.md)]](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409)
+[Guide des licences [!INCLUDE[d365fin](includes/d365fin_md.md)]](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

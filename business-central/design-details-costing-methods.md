@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 0dfd9e28d4db9b55c4f7d6aa5ee6c1f5a56d6a89
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 66ae7f2bb4c8a8cc6705be9c4b0fdd183eecd3e9
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2880579"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185603"
 ---
 # <a name="design-details-costing-methods"></a>Détails de conception : modes évaluation stock
 Le mode d'évaluation du stock détermine si une valeur réelle ou budgétée est capitalisée et prise en compte dans le calcul des coûts. Au même titre que la date comptabilisation et la séquence, le mode d'évaluation du stock a une incidence sur l'enregistrement du flux des coûts.

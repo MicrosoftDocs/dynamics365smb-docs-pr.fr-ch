@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 01/20/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 73e488270862e62a237575929caa3753b4c7f545
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: ec17c59ebbc336cf6c4757be447ff7765098c816
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2991991"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190698"
 ---
 # <a name="collect-outstanding-balances"></a>Collecte des soldes restants
 La gestion des clients comprend le contrôle du règlement des montants à temps. Si des clients ont des paiements dus, vous pouvez commencer par envoyer l'état du Relevé client comme relance. Sinon, vous pouvez émettre de relances.
@@ -263,7 +263,7 @@ Lorsque vous émettez une relance, une écriture relance est créée sur la page
 2. Ouvrez la fiche client appropriée, puis sélectionnez l'action **Écritures comptables**.
 3. Sur la page **Écritures comptables client**, cliquez sur la ligne de l'écriture comptable pour laquelle vous souhaitez visualiser les écritures relance, puis sélectionnez l'action **Écr. relance/fact. intérêts**.
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsprocess-financial-periodic-activities-dynamics-365-business-central"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/process-financial-periodic-activities-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/process-financial-periodic-activities-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion des comptes client](receivables-manage-receivables.md)  

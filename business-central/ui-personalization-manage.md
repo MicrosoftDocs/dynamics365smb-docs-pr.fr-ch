@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 470d2542864b8d0e0f16f89fd99e422807829404
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6720f207b3bca2e74bccb9b82a5661d98292163d
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310819"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195426"
 ---
 # <a name="customize-pages-for-profiles"></a>Personnaliser les pages pour les profils
 Les utilisateurs peuvent personnaliser des pages qui constituent leur espace de travail en fonction de leurs propres préférences. Pour plus d'informations, voir [Personnaliser votre espace de travail](ui-personalization-user.md).
@@ -30,7 +30,7 @@ Les administrateurs peuvent personnaliser les pages d'un profil, en fonction du 
 La personnalisation de la page commence à partir de la page **Profils (rôles)**, le point de départ de l'administrateur pour la gestion des profils d'utilisateurs sur des fiches de profil individuelles. Outre la personnalisation de la mise en page, vous pouvez contrôler divers autres paramètres pour les profils sur la page **Profil (rôle)** pour chaque profil. Pour plus d'informations, voir [Gérer les profils](admin-users-profiles-roles.md).
 
 ## <a name="to-customize-pages-for-a-profile"></a>Pour personnaliser les pages pour un profil
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Profils (rôles)**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Profils (Rôles)**, puis sélectionnez le lien associé.
 2. Sélectionnez la ligne du profil pour lequel vous souhaitez personnaliser des pages, puis sélectionnez l'action **Modifier**.
 3. Choisissez l'action **Personnaliser les pages**.
 

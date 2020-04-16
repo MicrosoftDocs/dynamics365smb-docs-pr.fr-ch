@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 5927a69199f72b09f133d63ac76bade7af361e8c
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: d5aba21a9b98ef98b31dc4bc4dfa0bb853d7891a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877030"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193957"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Ajouter des champs à une présentation de rapport Word
 Un ensemble de données de rapport peut être constitué de champs affichant des étiquettes, des données et des images. Cette rubrique décrit la procédure pour ajouter des champs d'un ensemble de données de rapport à une présentation de rapport Word pour un rapport. Vous ajoutez des champs à l'aide du composant XML personnalisé Word pour l'état et en ajoutant des contrôles de contenu qui correspondent aux champs de l'ensemble de données d'état. L'ajout de champs requiert que vous ayez des connaissances sur l'ensemble des données de rapport afin que vous puissiez identifier les champs que vous souhaitez ajouter à la présentation.  
@@ -23,7 +23,7 @@ Un ensemble de données de rapport peut être constitué de champs affichant des
 > [!NOTE]  
 >  Vous ne pouvez pas modifier les présentations de rapport intégrées<!--Onprem. Built-in layouts can only be modified by using the development environment-->.  
 
-##  <a name="OpenXMLPart"></a>Pour ouvrir le composant XML personnalisé de l'état dans Word  
+##  <a name="to-open-the-custom-xml-part-for-the-report-in-word"></a><a name="OpenXMLPart"></a> Pour ouvrir le composant XML personnalisé de l'état dans Word  
   
 1.  Si ce n'est pas déjà le cas, ouvrez le document de présentation de rapport Word dans Word.  
   
@@ -99,7 +99,7 @@ Le tableau suivant fournit un aperçu simplifié du XML d'une partie XML personn
 |------------------|-----------------|  
 |`<?xml version="1.0" encoding="utf-16"?>`|En-tête|  
 |`<WordReportXmlPart xmlns="urn:microsoft-dynamics-365/report/<reportname>/<id>/"`|Spécification de l'espace de noms XML. `<reportname>` est le nom affecté au rapport. `<id>` est l'identifiant affecté au rapport.|  
-|`..<Labels>`<br /><br /> `....<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<br /><br /> `....<LabelName>LabelCaption</LabelName>`<br /><br /> `..</Labels>`|Contient toutes les étiquettes pour le rapport.<!--OnPren The element includes labels that are related to columns that have the [IncludeCaption Property](../FullExperience/Name%20Property-duplicate.md).--><br />-   Les éléments d'étiquette associés aux colonnes sont au format `<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<!--OnPrem where `ColumnName` is determined by the column's Name Property.-->.<br />-  Les éléments d'étiquette sont au format `<LabelName>LabelName</LabelName`<!--OnPrem where LabelName is determined by the label's Name Property.-->.<br />-   Les étiquettes sont répertoriées par ordre alphabétique.|  
+|`..<Labels>`<br /><br /> `....<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<br /><br /> `....<LabelName>LabelCaption</LabelName>`<br /><br /> `..</Labels>`|Contient toutes les étiquettes pour le rapport.<!--OnPren The element includes labels that are related to columns that have the [IncludeCaption Property](../FullExperience/Name%20Property-duplicate.md).--><br />-   Les éléments d'étiquette associés aux colonnes sont au format `<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<!--OnPrem where `ColumnName` is determined by the column's Name Property.-->.<br />- Les éléments d'étiquette sont au format `<LabelName>LabelName</LabelName`<!--OnPrem where LabelName is determined by the label's Name Property.-->.<br />-   Les étiquettes sont répertoriées par ordre alphabétique.|  
 |`..<DataItem1>`<br /><br /> `....<DataItem1Column1>DataItem1Column1</DataItem1Column1>`|Données article et colonnes de haut niveau. Les colonnes sont répertoriées par ordre alphabétique.<!--OnPrem <br /><br /> The element names and values are determined by the [Name Property-duplicate](../FullExperience/Name%20Property-duplicate.md) of the data item or column.-->|  
 |`....<DataItem2>`<br /><br /> `......<DataItem2Column1>DataItem2Column1</DataItem2Column1>`<br /><br /> `....</DataItem2>`<br /><br /> `....<DataItem3>`<br /><br /> `......<DataItem3Column1>DataItem3Column1</DataItem3Column1>`<br /><br /> `....</DataItem3>`|Les données article et colonnes imbriquées dans les données article de haut niveau. Les colonnes sont répertoriées par ordre alphabétique sous chaque donnée.|  
 |`..</DataItem1>`<br /><br /> `</WordReportXmlPart>`|Élément de clôture.|  

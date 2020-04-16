@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c35ccb10ca67e66697002add56d518f3a7bacc0d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c9acd338493ca101d8b8061fb95b9a4faba8eabb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305179"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187883"
 ---
 # <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Utiliser un service OCR pour convertir des fichiers PDF et image en documents électroniques
 À partir de fichiers PDF ou image reçus de vos partenaires commerciaux, un service externe de reconnaissance optique de caractères (OCR, Optical Character Recognition) génère des documents électroniques pouvant être convertis en enregistrements de document dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Par exemple, lorsque vous recevez une facture au format PDF de votre fournisseur, vous pouvez l'envoyer au service OCR à partir de la page **Documents entrants**. Ceci est décrit dans la première procédure.
@@ -69,11 +69,11 @@ Désormais, vous pouvez poursuivre la création d'enregistrements de documents p
 La procédure suivante décrit comment créer un enregistrement facture achat à partir d'une facture fournisseur reçue en pièce jointe provenant du service OCR. La procédure est identique lorsque vous créez, par exemple, une ligne feuille comptabilité à partir d'un justificatif de frais ou un retour vente d'un client.
 
 > [!NOTE]  
->   Les champs **Description** et **N°** des lignes document créées ne seront pas complétées tant que vous n'aurez pas mappé tout d'abord le texte trouvé sur le document OCR avec les deux champs dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vous pouvez effectuer ce mappage en tant que références externes article, pour les lignes document de type Article. Pour plus d'informations, voir [Utiliser les références externes article](inventory-how-use-item-cross-refs.md). Vous pouvez également utiliser la fonction Correspondance texte et compte. Pour plus d'informations, reportez-vous à [Pour mapper du texte sur un document entrant à un fournisseur, une comptabilité ou un compte bancaire spécifique](across-how-use-ocr-pdf-images-files.md#to-map-text-on-an-incoming-document-to-a-specific-vendor-account).
+>   Les champs **Description** et **N°** des lignes document créées ne seront pas complétées tant que vous n'aurez pas mappé tout d'abord le texte trouvé sur le document OCR avec les deux champs dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vous pouvez effectuer ce mappage en tant que références externes article, pour les lignes document de type Article. Pour plus d'informations, voir [Utiliser les références externes article](inventory-how-use-item-cross-refs.md). Vous pouvez également utiliser la fonction Mappage de texte à compte. Pour plus d'informations, reportez-vous à [Pour mapper du texte sur un document entrant à un fournisseur, une comptabilité ou un compte bancaire spécifique](across-how-use-ocr-pdf-images-files.md#to-map-text-on-an-incoming-document-to-a-specific-vendor-account).
 
 1. Sélectionnez la ligne du document entrant, puis sélectionnez l'action **Créer document**.
 
-Une facture achat sera créée dans [!INCLUDE[d365fin](includes/d365fin_md.md)] selon les informations disponibles sur le document électronique du fournisseur provenant du service OCR. Ces informations sont insérées dans la nouvelle facture achat en fonction du mappage que vous avez défini comme référence externe ou sous forme de mappage texte et compte.
+Une facture achat sera créée dans [!INCLUDE[d365fin](includes/d365fin_md.md)] selon les informations disponibles sur le document électronique du fournisseur provenant du service OCR. Ces informations sont insérées dans la nouvelle facture achat en fonction du mappage que vous avez défini comme référence externe ou sous forme de mappage de texte à compte.
 
 Les erreurs de validation, généralement associées à des données de base erronées ou manquantes dans [!INCLUDE[d365fin](includes/d365fin_md.md)], seront affichées sur le raccourci **Erreurs et avertissements**. Pour plus d'informations, voir [Pour gérer des erreurs lors de la réception de documents électroniques](across-how-use-ocr-pdf-images-files.md#to-handle-errors-when-receiving-electronic-documents).
 
@@ -82,8 +82,8 @@ Pour les documents entrants, vous utilisez généralement l'action **Mapper le t
 
 Outre le mappage avec un compte fournisseur ou des comptes généraux, vous pouvez également effectuer un mappage avec un compte bancaire. Ceci est utile, par exemple, pour les documents électroniques des dépenses qui sont déjà payées lorsque vous souhaitez créer une ligne feuille comptabilité qui est prête à être validée sur un compte bancaire.
 
-1. Sélectionnez la ligne document entrant appropriée, puis choisissez l'action **Mapper le texte avec le compte**. La page **Correspondance texte et compte** s'affiche.
-3. Dans le champ **Correspondance texte**, entrez le texte affiché sur les factures fournisseur pour lesquelles vous souhaitez créer des documents achat ou des lignes feuille. Vous pouvez entrer jusqu'à 50 caractères.
+1. Sélectionnez la ligne document entrant appropriée, puis choisissez l'action **Mapper le texte avec le compte**. La page **Mappage de texte à compte** s'affiche.
+3. Dans le champ **Texte de mappage**, saisissez le texte affiché sur les factures fournisseur pour lesquelles vous souhaitez créer des documents achat ou des lignes feuille. Vous pouvez entrer jusqu'à 50 caractères.
 4. Dans le champ **N° fournisseur**, entrez le fournisseur pour lequel le document achat ou la ligne feuille sera créée.
 5. Dans le champ **N° cpte débit**, entrez le compte général de type débit qui sera inséré sur le document achat ou la ligne feuille qui en résulte de type Compte général.
 6. Dans le champ **N° cpte crédit**, entrez le compte général de type crédit qui sera inséré sur le document achat ou la ligne feuille qui en résulte de type Compte général.

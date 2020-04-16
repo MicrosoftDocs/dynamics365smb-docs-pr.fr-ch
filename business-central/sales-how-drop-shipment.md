@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct shipment
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 50198afaa8caae9a11a06a25357fa94ad26b0b8f
-ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
+ms.openlocfilehash: c61f55701ecb07862f42d3cce242756001529588
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "2943200"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193698"
 ---
 # <a name="make-drop-shipments"></a>Effectuer des livraisons directes
 Lors d'une livraison directe, un ou plusieurs articles de l'un de vos fournisseurs sont livrés directement chez l'un de vos clients.
@@ -25,7 +25,7 @@ Lors d'une livraison directe, un ou plusieurs articles de l'un de vos fournisseu
 Lorsqu'une commande vente est marquée pour la livraison directe, et lorsque vous créez une commande achat précisant le client dans le champ **Destinataire**, **Adresse client**, vous pouvez associer les deux documents et ainsi demander au fournisseur de faire directement la livraison au client.
 <br><br>  
   
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mOyM]
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mOyM?rel=0]
 
 ## <a name="to-create-a-sales-order-for-drop-shipment"></a>Pour créer une commande vente pour des livraisons directes
 Pour préparer une livraison directe, vous créez une commande vente pour un article, sauf que vous devez indiquer sur la ligne vente que la vente exige la livraison directe.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 22036b98d787a8515ddf147a0006af1b35d814a4
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 208f07fe68fac326d5cc444b498d9cca09fd231b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306499"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184283"
 ---
 # <a name="about-calculating-standard-cost"></a>À propos du calcul des coûts standard
 De nombreuses sociétés manufacturières sélectionnent une base d'évaluation du coût standard. Ceci est également vrai pour les sociétés qui effectuent une fabrication légère, comme l'assemblage et le montage. Un système de coûts standard détermine le coût unitaire du stock en fonction d'un coût historique ou prévu plausible. L'analyse des données précédentes et futures en termes de coût peut alors offrir une base pour l'estimation des coûts standard. Ces coûts sont gelés tant que leur modification n'est pas décidée. Le coût réel lié à la production d'un produit peut varier par rapport aux coûts standard estimés. À des fins de contrôle de gestion, le coût réel est comparé au coût standard pour un article spécifique et les différences, ou *écarts*, sont identifiées et analysées.  

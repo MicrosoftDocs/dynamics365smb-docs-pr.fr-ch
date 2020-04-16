@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 464600e473034d5b70745d4c4d94c9a49311ed3b
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: da4a854aa573599db2d2493219d4393366a995f9
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2880799"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186347"
 ---
 # <a name="sell-items-assembled-to-order"></a>Vente d'articles à assembler pour commande
 Si le champ **Stratégie d'assemblage** de la fiche article d'un élément d'assemblage est **Assembler pour commande**, alors l'article n'est pas supposé être en stock et doit être assemblé spécifiquement dans une commande vente. Lorsque vous entrez l'article dans une ligne commande vente, un ordre d'assemblage est automatiquement créé et lié à la commande vente.  
@@ -29,7 +29,7 @@ Dans cette procédure, vous effectuez la vente d'un article que vous assemblez s
 >  La procédure suivante n'inclut pas les étapes standard de commande vente avant l'étape où vous entrez l'article à assembler pour commande dans une ligne commande vente.  
 
 ## <a name="to-sell-an-item-that-is-assembled-to-order"></a>Vendre un article qui est assemblé pour commande  
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes vente**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes vente**, puis sélectionnez le lien associé.  
 2.  Créez une commande client. Pour en savoir plus, voir [Vendre des produits](sales-how-sell-products.md).  
 3.  Dans le champ **N°**, , entrez un article qui est configuré pour l'assemblage pour commande.  
 4.  Dans le champ **Code magasin**, définissez le magasin à partir duquel l'article sera vendu. Le processus d'assemblage a lieu dans ce magasin.  

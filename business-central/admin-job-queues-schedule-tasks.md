@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: b8470fa559d8a640e1c05cc6e03ca4caf3a9827e
-ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
+ms.openlocfilehash: fc2c2de39c3391a430adda72a841b01897235f68
+ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "2999798"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3196702"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Utiliser des files d'attente des travaux pour planifier des tâches
 Des files d'attente des travaux dans [!INCLUDE[d365fin](includes/d365fin_md.md)] permettent aux utilisateurs de planifier et d'exécuter des états et codeunits spécifiques. Vous pouvez définir des projets à exécuter une fois, ou sur une base récurrente. Par exemple, vous pouvez être amené à exécuter l'état **Vendeurs : Statistiques ventes** chaque semaine pour suivre les ventes hebdomadaires d'un vendeur, ou vous pouvez être amené à exécuter le codeunit **Traiter file att. e-mails serv** chaque jour pour vérifier si des e mails adressés aux clients concernant leurs commandes service sont envoyés en temps utile.
@@ -117,8 +117,8 @@ Lorsqu'une file d'attente des travaux est activée manuellement, elle s'exécute
 ## <a name="using-job-queues-effectively"></a>Utilisation efficace des files d'attente des travaux  
 L'enregistrement des écritures file d'attente des travaux possède plusieurs champs dont l'objectif est d'exécuter des paramètres dans un codeunit que vous avez indiqué comme devant être exécuté avec une file d'attente des travaux. Cela signifie également que les codeunits devant être exécutés via la file d'attente des travaux doivent être indiqués avec l'enregistrement des écritures file d'attente des travaux en tant que paramètre dans le déclencheur **OnRun**. Un niveau de sécurité supplémentaire est ainsi assuré, car les utilisateurs ne peuvent pas exécuter de codeunits aléatoires via la file d'attente des travaux. Si l'utilisateur doit transmettre des paramètres à un état, il n'a d'autre choix que celui d'inclure l'exécution de l'état dans un codeunit, lequel analyse ensuite les paramètres d'entrée et les intègre dans l'état avant de l'exécuter.  
 
-## <a name="scheduling-synchronization-between-included365finincludesd365fin_mdmd-and-includecrm_mdincludescrm_mdmd"></a>Planification de la synchronisation entre [!INCLUDE[d365fin](includes/d365fin_md.md)] et [!INCLUDE[crm_md](includes/crm_md.md)]
-Si vous avez intégré [!INCLUDE[d365fin](includes/d365fin_md.md)] à [!INCLUDE[crm_md](includes/crm_md.md)], vous pouvez utiliser la file d'attente des travaux pour planifier à quel moment vous souhaitez synchroniser les données des enregistrements que vous avez couplés dans les deux applications métier. Selon la direction et les règles que vous avez définies pour l'intégration, les tâches de synchronisation peuvent également créer des enregistrements dans l'application de destination pour correspondre à ceux de la source. Par exemple, si un vendeur crée un contact dans [!INCLUDE[crm_md](includes/crm_md.md)], la tâche de synchronisation peut créer ce contact pour le vendeur couplé dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, voir [Planification d'une synchronisation entre Business Central et Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md).
+## <a name="scheduling-synchronization-between-d365fin-and-d365fin"></a>Planification de la synchronisation entre [!INCLUDE[d365fin](includes/d365fin_md.md)] et [!INCLUDE[d365fin](includes/cds_long_md.md)]
+Si vous avez intégré [!INCLUDE[d365fin](includes/d365fin_md.md)] à [!INCLUDE[d365fin](includes/cds_long_md.md)], vous pouvez utiliser la file d'attente des travaux pour planifier à quel moment vous souhaitez synchroniser les données des enregistrements que vous avez couplés dans les deux applications métier. Selon la direction et les règles que vous avez définies pour l'intégration, les tâches de synchronisation peuvent également créer des enregistrements dans l'application de destination pour correspondre à ceux de la source. Par exemple, si un vendeur crée un contact dans [!INCLUDE[crm_md](includes/crm_md.md)], la tâche de synchronisation peut créer ce contact pour le vendeur couplé dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, voir [Planification d'une synchronisation entre Business Central et Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md).
 
 ## <a name="see-also"></a>Voir aussi  
 [Administration](admin-setup-and-administration.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: a734d4b270fcce9959bd720f923fc1fd990559ff
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 674350643495df02548c91700350b6ad27b39cb6
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2880295"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185195"
 ---
 # <a name="design-details-inventory-valuation"></a>Détails de conception : évaluation du stock
 Inventory valuation XE L'évaluation du stock est la détermination du coût qui est affecté à un article du stock, comme exprimé par l'équation suivante.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8eceae6e325d4b5c1cf5cc4b0ba509c4624dd9f4
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: e61174dd162111f6e7580026c5e91454b2ffa918
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879791"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183755"
 ---
 # <a name="handling-inventory-and-manufacturing-costs"></a>Gestion des coûts ajustés et des coûts de fabrication
 Bien que la comptabilité analytique soit constituée de processus ne nécessitant pas d'interaction utilisateur, telle que le lettrage d'écritures et l'ajustement automatique des coûts, un certain nombre de champs, pages et états sont destinés aux utilisateurs qui gèrent directement ou indirectement le coût des articles ou opérations.  

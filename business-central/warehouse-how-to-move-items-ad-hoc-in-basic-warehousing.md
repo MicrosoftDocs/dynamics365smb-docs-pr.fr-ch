@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 223f91bbefbb15a5ab1a576c84ace007c6b76075
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8944c01f032444b98efaf482c00d198127570c4e
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314039"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193098"
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Déplacer des articles ad hoc dans les configurations de stockage de base
 Vous pouvez être amené à déplacer des articles d'un emplacement interne vers un autre (et non vers des emplacements de réception ou d'expédition) sans demande spécifique issue d'un document origine. Vous pouvez exécuter ces mouvements ad hoc, par exemple, pour réorganiser l'entrepôt, pour acheminer des articles vers une zone d'inspection, ou pour déplacer des articles supplémentaires vers et depuis une zone de production sans qu'il existe une relation système avec le document origine de l'ordre de fabrication.  
@@ -29,7 +29,7 @@ Dans les configurations d'entrepôt de base, où les magasins utilisent le champ
 >  Dans les configurations d'entrepôt avancées, où les magasins utilisent le champ de configuration **Prélèv. et rangement suggérés**, vous utilisez la page **Feuille mouvement** ou les pages **Prélèvement interne entrepôt** ou **Rangement interne entrepôt** pour déplacer des articles ad hoc entre différents emplacements.  
 
 ## <a name="to-move-items-as-an-internal-movement"></a>Pour déplacer des articles en tant que mouvement interne  
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Mouvement interne**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Mouvement interne**, puis choisissez le lien associé.  
 2.  Sur le raccourci **Général**, renseignez le champ **N°**. en le laissant tel quel ou en cliquant sur le bouton **AssistEdit** pour effectuer une sélection parmi la souche de numéros.  
 3.  Dans le champ **Code magasin**, entrez le magasin où le mouvement a lieu.  
 

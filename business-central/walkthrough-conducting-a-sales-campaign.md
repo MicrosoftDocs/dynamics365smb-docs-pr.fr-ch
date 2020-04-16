@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: dc739c364b7e1fba5ab7c885c8c32052fd8f2dc9
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 53bc7faefc01399ae8db1d0763bc6ec91745b7b5
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314907"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195306"
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Procédure pas à pas : mise en place d'une campagne de vente
 Une campagne désigne tout type d'activité impliquant plusieurs contacts. La sélection du public cible de votre campagne représente une étape importante de la configuration. Pour ce faire, dans [!INCLUDE[d365fin](includes/d365fin_md.md)], créez un segment ou un groupe de contacts à l'aide de filtres.  
@@ -83,7 +83,7 @@ Une campagne désigne tout type d'activité impliquant plusieurs contacts. La s�
 
      Utilisez des filtres pour ajouter des contacts en fonction des critères correspondant le mieux à vos besoins. Par exemple, vous pouvez choisir de filtrer la responsabilité du contact, les relations d'affaires ou le secteur d'activité de la société. Pour cette procédure pas à pas, choisissez le filtre **Responsabilité** pour sélectionner les contacts.  
 
-4.  Sur la page **Segment**, sélectionnez l'action **Ajouter contacts**pour ouvrir le filtre **Ajouter contacts**.  
+4.  Sur la page **Segment**, sélectionnez l'action **Ajouter contacts** pour ouvrir le filtre **Ajouter contacts**.  
 5.  Sur le raccourci **Responsabilité**, sélectionnez le filtre **Achat** comme **Code responsabilité**, puis choisissez le bouton **OK**.  
 
      La page **Segment** inclut désormais une liste de contacts basée sur le filtre entré. Sur le raccourci **Général**, dans le champ **Nbre de lignes**, vous pouvez visualiser en un clin d'œil le nombre de contacts répondant à ces critères.  
@@ -148,11 +148,11 @@ Une campagne désigne tout type d'activité impliquant plusieurs contacts. La s�
 
 9. Les documents joints sont envoyés. Lorsque le processus est terminé, cliquez sur le bouton **OK** associé au message qui indique que le segment a été journalisé.  
 
-     Les lettres sont automatiquement imprimées et le segment journalisé. Comme le segment a été journalisé, il ne figure plus dans la liste des segments, mais est déplacé dans la liste des segments journalisés. Pour afficher cette liste, choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Segments journalisés**, puis sélectionnez le lien associé.  
+     Les lettres sont automatiquement imprimées et le segment journalisé. Comme le segment a été journalisé, il ne figure plus dans la liste des segments, mais est déplacé dans la liste des segments journalisés. Pour afficher cette liste, choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Segments journalisés**, puis choisissez le lien associé.  
 
-10. Une fois le segment enregistré, chaque lettre envoyée est enregistrée en tant qu’interaction, que vous pouvez afficher dans le journal.  
+10. Une fois le segment journalisé, chaque lettre envoyée est enregistrée en tant qu’interaction, que vous pouvez afficher dans le journal.  
 
-     Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Écritures journal interaction**, puis sélectionnez le lien associé. Chaque lettre envoyée est associée à une entrée.  
+     Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Écritures journal interaction**, puis choisissez le lien associé. Chaque lettre envoyée est associée à une entrée.  
 
 ### <a name="to-send-an-email-message-to-a-contact"></a>Pour envoyer un message électronique à un contact :  
 
@@ -165,7 +165,7 @@ Une campagne désigne tout type d'activité impliquant plusieurs contacts. La s�
 7.  Cochez la case **Créer suivi segment**.  
 8.  Cliquez sur le bouton **OK**.  
 
-     Les lettres sont automatiquement envoyées par courrier électronique et le segment journalisé. Comme le segment a été journalisé, il ne figure plus dans la liste des segments, mais est enregistré dans la liste des segments journalisés. Pour afficher cette liste, choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Segments journalisés**, puis sélectionnez le lien associé.  
+     Les lettres sont automatiquement envoyées par courrier électronique et le segment journalisé. Comme le segment a été journalisé, il ne figure plus dans la liste des segments, mais est enregistré dans la liste des segments journalisés. Pour afficher cette liste, choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Segments journalisés**, puis choisissez le lien associé.  
 
 ## <a name="registering-campaign-responses"></a>Enregistrement des réponses de campagne  
  Au cours des semaines suivantes, les prospects répondent à la lettre. Le directeur marketing souhaite assurer le suivi des réponses et enregistre ces interactions.  

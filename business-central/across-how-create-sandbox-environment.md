@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 12/10/2019
+ms.date: 04/01/2020
 ms.author: solsen
-ms.openlocfilehash: 7d189ab6fa5aff518b643c797b7600570fcad43e
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: 59b659ca458e6cfe7c13ef5094dbbf80a144c369
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2910651"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188579"
 ---
-# <a name="creating-a-sandbox-environment-in-include-prodshortincludesprodshortmd"></a>Créeation d'un environnement Sandbox dans [!INCLUDE [prodshort](includes/prodshort.md)]
+# <a name="creating-a-sandbox-environment-in-prodshort"></a>Créeation d'un environnement Sandbox dans [!INCLUDE [prodshort](includes/prodshort.md)]
 
 Avec [!INCLUDE [prodshort](includes/prodshort.md)], vous pouvez facilement créer un environnement sûr dans lequel vous pouvez tester, former ou résoudre les problèmes sans perturber les processus de travail ou les données métier de votre société. Cet environnement hors production est appelé *sandbox*. Isolé de la production, un environnement Sandbox est l'emplacement où vous pouvez explorer, apprendre, démontrer, développer et tester en toute sécurité le service sans que les données et les paramètres de votre environnement de production en soient affectés.  
 
@@ -26,7 +26,7 @@ Votre administrateur peut créer des environnements sandbox dans le [centre d'ad
 > [!NOTE]
 > Techniquement, les environnements sandbox sont très différents des environnements de production, même si votre administrateur crée un sandbox incluant des données de production. Vous ne pouvez pas utiliser un sandbox à des fins d'évaluation, et vous ne pouvez pas demander une exportation de base de données, par exemple. Si vous souhaitez créer un sandbox à des fins d'évaluation, votre administrateur peut créer un environnement de production dédié dans le centre d'administration. Pour plus d'informations, voir [Types d'environnements](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#types-of-environments).
 
-## <a name="to-create-a-sandbox-environment-in-your-include-prodshortincludesprodshortmd"></a>Pour créer un environnement sandbox dans votre [!INCLUDE [prodshort](includes/prodshort.md)]
+## <a name="to-create-a-sandbox-environment-in-your-prodshort"></a>Pour créer un environnement sandbox dans votre [!INCLUDE [prodshort](includes/prodshort.md)]
 
 1. Connectez-vous à votre instance de production de [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
@@ -69,7 +69,7 @@ L'environnement sandbox n'est pas moins utile, car il comprend quelques fonction
 
 ### <a name="designer"></a>Concepteur
 
-Dans un environnement sandbox, la fonctionnalité **Concepteur** est activée. Vous pouvez activer la fonctionnalité Éditeur en sélectionnant l'icône de conception ![Concepteur](./media/across-sandbox/sandbox-inclient-design-icon.png) sur une page, ou en choisissant l'option de menu **Conception** dans le menu Paramètres ![Paramètres ](media/ui-experience/settings_icon_small.png).
+Dans un environnement sandbox, la fonctionnalité **Concepteur** est activée. Vous pouvez activer la fonctionnalité Éditeur en sélectionnant l'icône de conception ![Concepteur](./media/across-sandbox/sandbox-inclient-design-icon.png) sur une page, ou en choisissant l'option de menu **Conception** dans le menu Paramètres ![Paramètres](media/ui-experience/settings_icon_small.png).
 
 <!-- ![In-client Designer](./media/across-sandbox/sandbox-inclient-designer.png) -->
 

@@ -2,32 +2,32 @@
 title: Bienvenue | Microsoft Docs
 description: Décrit les guides de configuration assistée, les vidéos, les rubriques d'aide, et les pages à utiliser pour vous préparer à faire des affaires dans Business Central.
 documentationcenter: ''
-author: SusanneWindfeldPedersen
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
-ms.date: 11/15/2019
-ms.author: solsen
-ms.openlocfilehash: 4f711e2bf06d0072fb063fd3d8ab5cb1e0813b68
-ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
+ms.date: 04/01/2020
+ms.author: edupont
+ms.openlocfilehash: 4eb11d34927c329d35fb8ff9ab2bef7d5b18438c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2809120"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193506"
 ---
 # <a name="getting-ready-for-doing-business"></a>Préparation aux activités commerciales
 Félicitations, vous venez de créer votre première société dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Pour vous aider à vous préparer pour vos activités commerciales, vous pouvez visiter la page **Configuration assistée** dans laquelle vous pouvez lancer des guides de configuration assistée, des vidéos ou des rubriques d'aide pour les tâches de configuration sélectionnées. Vous accédez à la page à partir du tablau de bord Gestionnaire d'activité en sélectionnant l'action **Configuration et extensions**, puis l'action **Configuration assistée**.
+Pour vous aider à vous préparer pour vos activités commerciales, vous pouvez visiter la page **Configuration assistée** dans laquelle vous pouvez lancer des guides de configuration assistée, des vidéos ou des rubriques d'aide pour les tâches de configuration sélectionnées. Pour accéder à la page, choisissez simplement l'icône ![Pignon pour ouvrir le menu Paramètres](media/ui-experience/settings_icon_small.png), puis l'action **Configuration assistée**.
 
 Sinon, pour ouvrir la liste des guides de configuration assistée pour un rôle, choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Configuration assistée**, puis sélectionnez le lien associé.
 
 Une fois que vous avez effectué la migration des données telles que les fournisseurs, les clients et les articles de votre système financier existant, vous êtes prêt à commencer. Mais en fonction de vos besoins, demandez-vous si les autres guides de configuration assistée peuvent vous aider.
 
-Si une zone n'est pas couverte par une configuration assistée, sélectionnez l'option **Programme d'installation manuelle** pour accéder aux pages de paramétrage sur lesquelles vous pouvez renseigner les champs de configuration pour toutes les zones manuellement. Pour plus d'informations, reportez-vous à [Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
+Si une zone n'est pas couverte par une configuration assistée, choisissez l'icône ![Pignon pour ouvrir le menu Paramètres](media/ui-experience/settings_icon_small.png), puis l'action **Paramètres avancés**. Dans **Paramètres avancés**, la section **Configuration manuelle** permet d'accéder aux pages de configuration où vous pouvez renseigner manuellement les champs de configuration pour toutes les zones. Pour plus d'informations, reportez-vous à [Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
 > [!NOTE]  
 > La liste des guides de configuration assistée, des extensions et des services disponibles diffèrent selon l'expérience de l'utilisateur que vous choisissez pour votre société. L'expérience de type **Essential** donne accès à moins d'options que l'expérience **Premium**.<br /><br />
@@ -36,7 +36,7 @@ Si une zone n'est pas couverte par une configuration assistée, sélectionnez l'
 Lorsque vous avez exécuté un guide de configuration assistée, il est marqué comme **Terminé**. Pour exécuter le guide de configuration assistée, cliquez sur les trois points (ou menu contextuel), puis choisissez l'action **Démarrer la configuration**.
 
 ## <a name="role-center"></a>Tableau de bord
-Bénéficiez d'une vue d'ensemble de votre entreprise dans le Tableau de bord. Sur la gauche, une barre de navigation vous donne un accès facile aux clients, fournisseurs, articles, etc. Au centre, vous trouverez les mosaïques **Activités**. Les mosaïques **Activités** affichent les données actuelles. Vous pouvez cliquer ou appuyer sur celles-ci pour accéder facilement au document sélectionné.
+Bénéficiez d'une vue d'ensemble de votre entreprise dans le Tableau de bord. En haut, une barre de navigation vous donne un accès facile aux clients, fournisseurs, articles, etc. Au centre, vous trouverez les mosaïques **Activités**. Les mosaïques **Activités** affichent les données actuelles. Vous pouvez cliquer ou appuyer sur celles-ci pour accéder facilement au document sélectionné.
 
 Les **indicateurs de performance clés** peuvent être configurés de sorte à afficher un graphique sélectionné pour une représentation visuelle, par exemple, de la trésorerie ou des revenus et des dépenses. Vous pouvez également générer la liste des **Clients favoris** sur le Tableau de bord pour les comptes avec lesquels vous travaillez souvent ou auxquels vous devez accorder une attention particulière.
 
@@ -51,7 +51,7 @@ Sous **Paramètres de la société** vous pouvez afficher et modifier les inform
 ## <a name="adding-users-and-permissions"></a>Ajouter des utilisateurs et des autorisations
 Si vous souhaitez ajouter des utilisateurs, vous pouvez le faire à partir du centre d'administration Microsoft 365. Pour plus d’informations, voir [Créer des utilisateurs conformément aux licences](ui-how-users-permissions.md).
 
-Une fois que les utilisateurs sont créés dans Microsoft 365, ils peuvent être importés dans la page **Utilisateurs** à l'aide de l'action **Obtenir de nouveaux utilisateurs à partir de Office 365**. Vous pouvez ensuite affecter des autorisations aux utilisateurs et les organiser en groupes d'utilisateurs. Pour en savoir plus, voir [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md).  
+Une fois les utilisateurs créés dans Microsoft 365, ils peuvent être importés dans la page **Utilisateurs** à l'aide de l'action **Obtenir des mises à jour à partir d'Office 365**. Vous pouvez ensuite affecter des autorisations aux utilisateurs et les organiser en groupes d'utilisateurs. Pour en savoir plus, voir [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md).  
 
 ## <a name="getting-help"></a>Obtenir de l'aide
 Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], des info-bulles vous guident dans l'utilisation des différents processus entreprise. Pour chaque info-bulles de champ, vous pouvez appuyer sur Ctrl+F1 ou choisir le lien **En savoir plus** pour ouvrir l'aide de la page en question. Le point d'interrogation dans le coin supérieur droit vous permet également d'accéder à l'aide relative au produit.
@@ -63,6 +63,6 @@ En fonction de la migration de vos données, vous pouvez maintenant passer à la
 [Mise en route](product-get-started.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md)  
-Versions d'évaluation et abonnements [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](across-preview.md)  
+[Versions d'évaluation et abonnements [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](across-preview.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

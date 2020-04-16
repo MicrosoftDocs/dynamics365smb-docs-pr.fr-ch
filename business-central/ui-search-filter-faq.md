@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.reviewer: edupont04
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: mikebc
-ms.openlocfilehash: 79fb96b0262eacfd67326236c7cf8468689c6b5e
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 3021cd73ad3f737596c542aaa4989aa9741a7ef8
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2876886"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195790"
 ---
 # <a name="searching-and-filtering-faq"></a>FAQ sur la recherche et le filtrage
 Cet article répond à des questions courantes que vous pouvez avoir à propos de la recherche et du filtrage.
@@ -51,6 +51,6 @@ En tant qu'administrateur local, vous développez le délai des recherches en mo
 
 ## <a name="see-also"></a>Voir aussi
 [Tri, recherche et filtrage](ui-enter-criteria-filters.md)  
-[Recherche de pages et d'informations avec la fonction de recherche](ui-search.md)  
+[Recherche de pages et d'informations avec la fonction Tell Me](ui-search.md)  
 [Recherche de pages avec l'explorateur de rôles](ui-role-explorer.md)  
 [Mise en route](product-get-started.md)  

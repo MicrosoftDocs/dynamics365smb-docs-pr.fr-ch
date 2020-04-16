@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 11041ebb7c7154eed6959a99ec5b100c73ccd8c6
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 450a52ee07579d7bf8f5b7456f44a2acb5af8920
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2880775"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187307"
 ---
 # <a name="undo-assembly-posting"></a>Annuler la validation d'assemblage
 Vous pouvez parfois être amené à annuler un ordre d'assemblage validé, par exemple, si la commande a été validée avec des erreurs qui doivent être corrigées, ou parce qu'il n'aurait pas dû être validé en premier et doit être annulé.

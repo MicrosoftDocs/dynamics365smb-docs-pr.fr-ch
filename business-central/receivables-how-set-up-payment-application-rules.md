@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 04d43437a6b16ed88c638c81de30729c33276df7
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 64756cdc1a95cc0bb866fa4b7f87ecea0f1282ff
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953458"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191946"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Définir des règles pour le lettrage automatique des paiements
 Sur la page **Règles lettrage paiement**, vous définissez des règles pour définir comment le texte de paiement (sur une transaction bancaire) est automatiquement mis en correspondance avec le texte des écritures ouvertes dans les deux processus suivants :
@@ -81,7 +81,7 @@ Le tableau suivant montre les règles de lettrage de paiement définies dans la 
 | Faible              | 4        | Non                    | Non                             | Une correspondance                      |
 | Faible              | 5        | Non                    | Non                             | Correspondances multiples               |
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesreconciliation-journals-dynamics-365-business-centralindex"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/reconciliation-journals-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/reconciliation-journals-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Voir aussi
 [Rapprocher les paiements à l'aide de l'application automatique](receivables-how-reconcile-payments-auto-application.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/30/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: f71c3fa29ab12c13395c07d5919fc14e86511e75
-ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
+ms.openlocfilehash: 9094d2f77dff8372ece8bd5a5b434f63042d3adc
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "2999702"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186659"
 ---
 # <a name="administration"></a>Administration
 Les tâches d'administration centrale sont généralement effectuées par une fonction dans la société. La portée de ces tâches peut dépendre de la taille de la société et des responsabilités de l'administrateur. Ces tâches sont notamment la gestion de la synchronisation de la base de données des files projets et messages, la configuration des utilisateurs et la personnalisation de l'interface utilisateur.  
@@ -36,6 +36,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |Définir qui peut se connecter à [!INCLUDE[d365fin](includes/d365fin_md.md)] en créant des utilisateurs dans le Centre d'administration Microsoft 365 en fonction des licences du produit.|[Créer des utilisateurs en fonction des licences](ui-how-users-permissions.md)|
 |Affecter des autorisations aux utilisateurs, modifier les ensembles d'autorisations, et grouper les utilisateurs pour faciliter la gestion des autorisations.|[Attribuer des autorisations aux utilisateurs et aux groupes](ui-how-users-permissions.md)|
 |Ajouter des utilisateurs, gérer les autorisations et les accès aux données et affecter des rôles.|[Gérer les profils](admin-users-profiles-roles.md)|
+|Configurez les imprimantes et indiquez les états à imprimer sur des imprimantes spécifiques.|[Paramétrage imprimantes](ui-specify-printer-selection-reports.md)|
 |Classer la sensibilité des données des champs afin de pouvoir répondre aux demandes des sujets des données concernant leurs données personnelles.|[Classification de la sensibilité des données](admin-classifying-data-sensitivity.md)|
 |Répondre aux demandes des sujets des données concernant leurs données personnelles.|[Réponse aux demandes relatives aux données personnelles](admin-responding-to-requests-about-personal-data.md)|
 |Configurer un nouveau centre de profit à l'aide de modèles|[Création de sociétés](about-new-company.md)|
@@ -48,7 +49,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |Connectez Dynamics 365 Sales à [!INCLUDE[d365fin](includes/d365fin_md.md)] pour obtenir l'intégration transparente entre les relations client et le traitement des commandes dans le processus allant du prospect à l'encaissement.|[Intégration à Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
 |Modifier les champs et les actions affichés dans l'interface utilisateur pour correspondre aux processus entreprise de votre société et étendre la solution avec des applications.|[Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)|
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsdeploy-configure-dynamics-365-business-central"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/deploy-configure-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/deploy-configure-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Voir aussi
 [Fonctionnalités d'entreprise](across-business-functionality.md)  

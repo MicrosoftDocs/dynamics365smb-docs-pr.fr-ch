@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 63013d244b5cab25e520bb05af4c84293aa5ed48
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: 2c42e87db1e0dd792d9b4444db3cfe5d1a05ed48
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2910775"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187163"
 ---
 # <a name="create-journal-opening-balances"></a>Créer des soldes ouverts feuille
 [!INCLUDE[d365fin](includes/d365fin_md.md)] inclut plusieurs traitements par lots qui sont livrés pour aider au transfert des soldes de compte hérité vers une société nouvellement configurée. Vous pouvez facilement transférer ces données avec le journal comptes clients, le journal comptes fournisseurs, la feuille article ou la feuille comptabilisation.

@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9bc15c216edf295ecf6c04da2f30db8097ddfe31
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: be5e86776d440763d069cecb9f45d0e6daeaeede
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306523"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184187"
 ---
 # <a name="setting-up-fixed-assets"></a>Paramétrage d'immobilisations
 Avant de pouvoir utiliser les immobilisations, vous devez définir les éléments suivants :  

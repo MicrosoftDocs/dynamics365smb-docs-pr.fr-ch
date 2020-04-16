@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.reviewer: edupont
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: bmeier
-ms.openlocfilehash: 1450db26598da2f2735df1979cfacc16034fcf3a
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 0625197f9feb0c12daa45b183973316df52b0672
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953004"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186911"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Activation de vos données commerciales pour Power BI
 
@@ -25,18 +25,15 @@ Il est facile d'obtenir des informations exploitables de vos données [!INCLUDE[
 Vous devez disposer d'un compte valide avec [!INCLUDE[prodshort](includes/prodshort.md)] et avec Power BI. En outre, vous devez télécharger [Power BI Desktop](https://powerbi.microsoft.com/desktop/) si vous souhaitez créer vos propres états Power BI. Les applications Power BI nécessitent des autorisations vers les tables d'où sont extraites les données. Vous trouverez plus d'informations sur les besoins ci-dessous.  
 
 > [!IMPORTANT]
-> Les applications Power BI décrites dans cet article sont conçues pour utiliser Azure Active Directory comme mécanisme d'authentification sauf indication contraire. Pour installer une application Power BI, vous devez également avoir une licence Power BI Pro.  Une fois que l'application Power BI est installée, elle peut être partagée avec les utilisateurs avec n'importe quel type de licence.
+> Les applications Power BI décrites dans cet article sont conçues pour utiliser Azure Active Directory comme mécanisme d'authentification sauf indication contraire. De plus, vous devez disposer d'une [Licence Power BI Pro](/power-bi/service-features-license-type) pour partager votre contenu, tout comme les personnes avec qui vous le partagez, ou le contenu doit être dans un espace de travail dans une [Capacité Premium](/power-bi/service-premium-what-is). Pour en savoir plus, consultez [Moyens de partager votre travail dans Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
 
 [!INCLUDE [prodlong](includes/prodlong.md)] a publié les applications suivantes pour Power BI:
 
 - [!INCLUDE [prodlong](includes/prodlong.md)] - CRM  
 - [!INCLUDE [prodlong](includes/prodlong.md)] - Finance  
 - [!INCLUDE [prodlong](includes/prodlong.md)] - Sales  
-- [!INCLUDE [prodlong](includes/prodlong.md)] (sur site) - CRM  
-- [!INCLUDE [prodlong](includes/prodlong.md)] (sur site) - Finances  
-- [!INCLUDE [prodlong](includes/prodlong.md)] (sur site) - Ventes  
 
-## <a name="using-the-include-prodshortincludesprodshortmd-dashboards-in-power-bi"></a>Utilisation des tableaux de bord [!INCLUDE [prodshort](includes/prodshort.md)] dans Power BI
+## <a name="using-the-prodshort-dashboards-in-power-bi"></a>Utilisation des tableaux de bord [!INCLUDE [prodshort](includes/prodshort.md)] dans Power BI
 
 Chaque application contient des états que vous pouvez afficher :
 
@@ -81,7 +78,7 @@ Les applications sont conçues pour fonctionner avec les données de toute soci�
 - [Sélectionnez une mosaïque](/power-bi/service-dashboard-tiles) pour ouvrir l'état sous-jacent.  
 - Par défaut, votre ensemble de données n'est pas planifié pour être actualisé. Vous pouvez modifier le calendrier d'actualisation ou essayer de l'actualiser à la demande à l'aide de **Actualiser maintenant**. Pour plus d'informations, voir [Configuration d'une actualisation planifiée](/power-bi/refresh-scheduled-refresh).
 
-## <a name="power-bi-in-include-prodshortincludesprodshortmd"></a>Power BI dans [!INCLUDE [prodshort](includes/prodshort.md)]
+## <a name="power-bi-in-prodshort"></a>Power BI dans [!INCLUDE [prodshort](includes/prodshort.md)]
 
 Votre page d'accueil dans [!INCLUDE [prodshort](includes/prodshort.md)] peut inclure un élément de contrôle Power BI pouvant être configuré pour afficher les états Power BI sur votre page d'accueil.
 
@@ -166,9 +163,9 @@ Aucun compte Power BI n'a été créé. Afin d'avoir un compte Power BI valide, 
 
 Ce message apparaîtra si l'état par défaut n’a pas été déployé sur votre espace de travail Power BI ou s'il a été déployé mais que l’actualisation n’a pas réussi. Si cela se produit, accédez à l'état dans votre espace de travail Power BI, sélectionnez **Ensemble de données**, **Paramètres**, puis mettez à jour les informations d'identification manuellement. Une fois le jeu de données actualisé, revenez dans Business Central et sélectionnez manuellement l'état dans la page **Sélectionner des états**.
 
-### <a name="you-need-a-power-bi-pro-license-to-install-the-include-prodshortincludesprodshortmd-app-in-power-bi"></a>Vous devez disposer d'une licence Power BI Pro pour installer l'application [!INCLUDE [prodshort](includes/prodshort.md)] dans Power BI
+### <a name="you-need-a-power-bi-pro-license-to-install-the-prodshort-app-in-power-bi"></a>Vous devez disposer d'une licence Power BI Pro pour installer l'application [!INCLUDE [prodshort](includes/prodshort.md)] dans Power BI
 
-Les applications Power BI ne peuvent être installées que par les utilisateurs disposant d'une licence Power BI Pro. Une fois que l'application Power BI est installée, vous pouvez la partager avec des utilisateurs ne disposant pas d'une licence Power BI Pro.  
+Vous devez disposer d'une [Licence Power BI Pro](/power-bi/service-features-license-type) pour partager votre contenu, tout comme les personnes avec qui vous le partagez, ou le contenu doit être dans un espace de travail dans une [Capacité Premium](/power-bi/service-premium-what-is). Pour en savoir plus, consultez [Moyens de partager votre travail dans Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).  
 
 ### <a name="parameter-validation-failed-please-make-sure-all-parameters-are-valid"></a>« Échec de la validation des paramètres, assurez-vous que tous les paramètres sont valides »
 
@@ -179,11 +176,11 @@ Cette erreur indique qu'un ou plusieurs paramètres ne sont pas valides.
 - Si vous vous connectez à [!INCLUDE [prodshort](includes/prodshort.md)] sur site. vous avez entré une URL non valide. Vous pouvez vérifier l’URL sur la page **Services Web** dans [!INCLUDE [prodshort](includes/prodshort.md)]  
 - Un port n'est pas ouvert pour permettre à la demande de passer par votre pare-feu.
 
-### <a name="login-failed"></a>Échec de la connexion
+### <a name="cannot-sign-in"></a>Connexion impossible
 
 Si vous obtenez un message d'erreur de type échec après avoir utilisé vos informations d'identification utilisateur [!INCLUDE [prodshort](includes/prodshort.md)] pour vous connecter, vous rencontrez peut-être l'un des problèmes suivants :
 
-- Le compte que vous utilisez n'est pas doté des autorisations nécessaires pour récupérer les données [!INCLUDE [prodshort](includes/prodshort.md)] de votre compte. Vérifiez que vous disposez des autorisations pour les données requises dans [!INCLUDE [prodshort](includes/prodshort.md)]et essayez à nouveau.
+- Le compte que vous utilisez n'est pas doté des autorisations nécessaires pour récupérer les données [!INCLUDE [prodshort](includes/prodshort.md)] de votre compte. Vérifiez que vous disposez des autorisations pour les données requises dans [!INCLUDE [prodshort](includes/prodshort.md)] et réessayez.
 - Vous avez sélectionné un type d'authentification autre que Basique si vous vous connectez à [!INCLUDE [prodshort](includes/prodshort.md)] sur site.
 - Vous n'avez pas entré de nom d'utilisateur ni de mot de passe valide.
 
@@ -203,7 +200,7 @@ Une fois que l'application Power BI est installée et que vos données apparaiss
 
 L'application Power BI affichera uniquement les données de la société [!INCLUDE [prodshort](includes/prodshort.md)] qui a été définie lorsque l'application Power BI a été installée. Les données provenant d'autres sociétés peuvent être ajoutées aux états en ajoutant de nouvelles requêtes utilisant différentes sociétés en tant que source de données.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Voir aussi
 

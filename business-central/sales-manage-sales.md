@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
-ms.date: 01/29/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: e6a616bcfc78f0d46ea7e57639a9f27ddfa3d656
-ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
+ms.openlocfilehash: 184c3f1d20790efe984f890c1a88c03698d66ba6
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "2999894"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194826"
 ---
 # <a name="sales"></a>Ventes
 Vous créez une facture vente ou une commande vente pour enregistrer votre accord avec un client pour vendre certains produits selon certaines conditions de livraison et de paiement.
@@ -46,7 +46,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | Traiter une commande vente qui implique un envoi partiel ou un envoi direct. |[Vendre des produits](sales-how-sell-products.md) |
 |Comprenez ce qui se passe lorsque vous publiez des documents vente.|[Validation des ventes](ui-post-sales.md)|
 |Paramétrez les lignes vente ou achat standard que vous pouvez rapidement insérer dans les documents, par exemple, pour les ordres de réapprovisionnement récurrents.|[Créer des lignes ventes et achat récurrentes](sales-how-work-standard-lines.md)|  
-| Lier une commande vente à un bon de commande pour vendre un article qui sera livré directement par votre fournisseur à votre client. |[Effectuer des livraisons directes](sales-how-drop-shipment.md) |
+| Lier une commande vente à une commande achat pour vendre un article qui sera livré directement par votre fournisseur à votre client. |[Effectuer des livraisons directes](sales-how-drop-shipment.md) |
 |Faites expédier par un fournisseur un article de catalogue vers votre entrepôt pour pouvoir l'expédier à votre client.|[Créer des commandes spéciales](sales-how-to-create-special-orders.md)|
 | Effectuer une action sur une facture vente enregistrée impayée pour créer automatiquement un avoir et soit annuler la facture vente, soit la recréer pour que vous puissiez y apporter des corrections. |[Corriger ou annuler des factures vente impayées](sales-how-correct-cancel-sales-invoice.md) |
 | Créer un avoir vente pour rembourser une facture vente validée spécifique pour indiquer les produits que retourné par le client et le montant règlement que vous remboursez. |[Traiter les retours ou annulations de ventes](sales-how-process-sales-returns-cancellations.md) |
@@ -57,7 +57,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |Enregistrez vos devis pour les ventes à venir, précisés par article et par période, pour qu'ils fonctionnent principalement comme entrée de la planification de production.|[Créer une prévision](production-how-to-create-a-forecast.md)|
 |Résolvez la confusion lorsque deux enregistrements ou plus existent pour le même client.|[Fusionner l'enregistrement des doublons](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-related-training-at-microsoft-learnlearnpathssell-items-services-dynamics-365-business-central"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/sell-items-services-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/sell-items-services-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Voir aussi
 [Définition des ventes](sales-setup-sales.md)  

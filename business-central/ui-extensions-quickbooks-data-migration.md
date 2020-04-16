@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9b5129e4e9ddfe60d969e705d62e023716cde5b6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 33543ffddf286fd2e224b74768adb5d00046078b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311155"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189762"
 ---
 # <a name="the-quickbooks-data-migration-extension"></a>Extension QuickBooks Data Migration
 Cette extension facilite la migration des clients, des fournisseurs, des articles et des comptes de QuickBooks vers [!INCLUDE[d365fin](includes/d365fin_md.md)]. Si votre entreprise utilise QuickBooks aujourd'hui, vous pouvez exporter les informations appropriées puis ouvrir un guide de configuration assistée pour télécharger les données vers [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -54,7 +54,7 @@ Afin d'obtenir vos données de l'application QuickBooks Desktop vous devez tél�
 > Actuellement, l'outil d'exportation de données fonctionne uniquement avec QuickBooks 2017 et 2018.
 
 ## <a name="finding-the-quickbooks-data-migration-extension"></a>Recherche de l'extension QuickBooks Data Migration
-L'extension QuickBooks Data Migration est installée et prête à être utilisée comme partie intégrante du guide de configuration assistée Migration des données. Si vous êtes prêt à commencer, et que vous avez export vos donnes de QuickBooks, choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Configuration assistée**, puis sélectionnez le lien associé. Choisissez **Migrer des données métier**, puis suivez les étapes du guide.  
+L'extension QuickBooks Data Migration est installée et prête à être utilisée comme partie intégrante du guide de configuration assistée Migration des données. Si vous êtes prêt à commencer et avez exporté vos données de QuickBooks, choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Configuration assistée**, puis sélectionnez le lien associé. Choisissez **Migrer des données métier**, puis suivez les étapes du guide.  
 
 ## <a name="what-do-i-do-after-i-migrate-data"></a>Que faire après une migration des données ?
 Après avoir effectué une migration des données, les transactions ont le statut Non validé, vous pouvez les consulter et faire des ajustements. Pour consulter les transactions, accédez à la page où vous les trouveriez normalement. Par exemple, pour examiner les factures vente non validées, accédez à la page Factures vente. Pour consulter des feuilles paiement, accédez à la page Feuilles paiement.

@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: f65708a0827a0e428c8bd7e0369c26268bb6ed32
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4dfb4a530ebcbfd9bcede5e6280fa33360b952a6
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316275"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192642"
 ---
 # <a name="track-packages"></a>Suivre des colis
 De nombreux transporteurs offrent des services sur Internet vous permettant de suivre les colis que vous avez confiés au transporteur. Si vous utilisez certains de ces transporteurs, vous pouvez configurer certaines informations de base et utiliser la fonction de traçabilité automatique à partir des expéditions validées. Pour plus d'informations, voir [Configurer des transporteurs](sales-how-to-set-up-shipping-agents.md).  

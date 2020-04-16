@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: c8eba304746125e9262ebfff95cfd2379eec08c8
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: cdf14002e28b777441a803fc7804fdac8afe5b77
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311347"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194346"
 ---
 # <a name="the-c5-data-migration-extension"></a>Extension C5 Data Migration
 Cette extension facilite la migration de clients, de fournisseurs, d'articles et de vos comptes généraux de Microsoft Dynamics C5 2012 vers [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vous pouvez également migrer des écritures historiques pour des comptes généraux.
@@ -148,5 +148,5 @@ Si vous souhaitez vérifier que vos données ont été migrées correctement, vo
 Vous pouvez arrêter de migrer les données en sélectionnant **Arrêter toutes les migrations**. Si vous le faites, toutes les migrations en attente sont également arrêtées.
 
 ## <a name="see-also"></a>Voir aussi
-[Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md)  
+[Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide d'extensions](ui-extensions.md)  
 [Mise en route](product-get-started.md)

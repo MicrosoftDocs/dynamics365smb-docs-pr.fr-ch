@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: multiple currencies, payment, reconcile
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 56e225ba1de59f596bc9fd54f924d1ca783d3599
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 846d01c98baabb8744b537292e3d8547cd3886b2
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302251"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184115"
 ---
 # <a name="enable-application-of-ledger-entries-in-different-currencies"></a>Activer le lettrage d'écritures comptables client en devises différentes
 Si vous achetez des produits auprès d'un fournisseur dans une devise et que vous payez ces produits dans une autre devise, vous pouvez lettrer le paiement avec l'achat.
@@ -27,7 +27,7 @@ De même, si vous effectuez une vente à un client dans une devise et recevez le
 La procédure suivante indique comment configurer cela pour les écritures comptables fournisseur sur la page **Paramètres achats**. La configuration est semblable à celle des écritures comptables client sur la page **Paramètres ventes**.
 
 ## <a name="to-enable-application-of-vendor-ledger-entries-in-different-currencies"></a>Pour activer le lettrage d'écritures comptables fournisseur en devises différentes
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres achats**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres achats**, puis sélectionnez le lien associé.
 2. Dans le champ **Lettrage entre devises**, sélectionnez l'une des options suivantes.
 
 | Option | Description |
@@ -42,7 +42,7 @@ Si vous lettrez des écritures dans différentes devises, vous devez configurer 
 > [!NOTE]  
 >  Vous devez configurer les comptes généraux avant de terminer la tâche. Pour plus d'informations, voir [Description des écritures comptables et du plan comptable](finance-general-ledger.md).
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Groupes compta. client**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Groupes comptabilisation client**, puis sélectionnez le lien associé.  
 2. Dans les champs **Cpte arr. lettr. dev. débit** et **Cpte arr. lettr. dev. crédit**, saisissez les comptes généraux correspondants pour valider les différences d'arrondi.  
 3. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Groupes compta. fournisseur**, puis sélectionnez le lien associé.  
 4. Dans les champs **Cpte arr. lettr. dev. débit** et **Cpte arr. lettr. dev. crédit**, saisissez les comptes généraux correspondants pour valider les différences d'arrondi.  

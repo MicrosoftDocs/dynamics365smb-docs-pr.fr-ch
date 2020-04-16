@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 63702465c9e2e7646adb3b91af43939b09d120e5
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: 610d8b2cdde0b94ed0bceefc8b3cf13bdf2c6fd1
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775538"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191130"
 ---
 # <a name="set-up-time-sheets"></a>Paramétrer des feuilles de temps
 Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], les feuilles de temps gèrent l'enregistrement des heures sur une base hebdomadaire par incrément de sept jours. Elles permettent de suivre le temps consacré à des projets, et vous pouvez les utiliser pour enregistrer les heures ressource. Avant de pouvoir utiliser des feuilles de temps, vous devez les configurer.

@@ -8,23 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: e4c3b60bca16e1f1e72e728d02b07ded11cada09
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.openlocfilehash: 0ddc987b1dd27cf2379b128aa735a78bacb868da
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692599"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188651"
 ---
 # <a name="field-mapping-when-importing-sepa-camt-files"></a>Mappage de champs lors de l'importation de fichiers SEPA CAMT
 [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge les normes régionales SEPA (Espace unique de paiement en euros) pour importer les relevés bancaires SEPA (format CAMT). Pour plus d'informations, voir [Utilisation de l'extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
 
- La norme SEPA CAMT standard présente elle-même des variations locales. Par conséquent, vous pouvez être amené à modifier la définition d'échange de données générique (représentée par le code **SEPA CAMT** sur la page **Définitions échange comptabilité**) pour l'adapter à une variation locale de la norme. Les tables suivantes indiquent la correspondance entre élément et champ pour les tables 81, 273 et 274 dans l'implémentation de SEPA CAMT dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+ La norme SEPA CAMT standard présente elle-même des variations locales. Par conséquent, vous pouvez être amené à modifier la définition d'échange de données générique (représentée par le code **SEPA CAMT** sur la page **Définitions échange comptabilité**) pour l'adapter à une variation locale de la norme. Les tables suivantes indiquent le mappage d'élément à champ pour les tables 81, 273 et 274 dans l'implémentation de SEPA CAMT dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
  Pour plus d'informations sur la création ou l'ajustement de définition d'échange de données, voir [Configurer les définitions d'échange de données](across-how-to-set-up-data-exchange-definitions.md).  
 
-## <a name="camt-data-mapping-to-fields-in-the-general-journal-table-81"></a>Association des données de CAMT avec les champs du tableau Feuille comptabilité (81)  
+## <a name="camt-data-mapping-to-fields-in-the-general-journal-table-81"></a>Mappage des données de CAMT aux champs de la table Feuille comptabilité (81)  
 
 |Chemin d'accès d'articles|Élément message|Type de données|Désignation|Identifiant signe négatif|N° champ|Nom du champ|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  
@@ -36,14 +36,14 @@ ms.locfileid: "2692599"
 |Stmt/Ntry/NtryDtls/TxDtls/RmtInf/Ustrd|Non structuré|Texte.|Les informations à votre disposition pour activer la correspondance/le rapprochement d'une écriture avec les articles que le paiement doit régler, telles que les factures commerciales dans un système comptes-clients, sous forme non structurée||8|Désignation|  
 |Stmt/Ntry/AddtlNtryInf|AdditionalEntryInformation|Texte.|Informations supplémentaires sur l'écriture.||1 222|Informations transaction|  
 
-## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-table-273"></a>Association des données de CAMT avec les champs du tableau Rapprochement bancaire (273)  
+## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-table-273"></a>Mappage des données de CAMT aux champs de la table Rapprochement bancaire (273)  
 
 |Chemin d'accès d'articles|Élément message|Type de données|Désignation|Identifiant signe négatif|N° champ|Nom du champ|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  
 |Stmt/CreDtTm|CreationDateTime|Date|Date et heure de création du message||3|Date relevé|  
 |Stmt/Bal/Amt|Montant|Décimale|Le montant résultant des montants ajustés pour toutes les écritures débit et crédit||4|Solde final du relevé|  
 
-## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-line-table-274"></a>Association des données de CAMT avec les champs du tableau Ligne rapprochement bancaire (274)  
+## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-line-table-274"></a>Mappage des données de CAMT aux champs de la table Ligne rapprochement bancaire (274)  
 
 |Chemin d'accès d'articles|Élément message|Type de données|Désignation|Identifiant signe négatif|N° champ|Nom du champ|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 96c39641c9665542c8c27b004bb27f92768d57dc
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: 6f73978c381075175d80c14c8aaaf2d66cb60ade
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2910919"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188171"
 ---
 # <a name="setting-up-workflows"></a>Paramétrage des workflows
 Vous pouvez configurer et utiliser des workflows qui connectent des tâches de processus entreprise exécutées par différents utilisateurs. Les tâches du système, telles que la validation automatique, peuvent être incluses comme étapes du workflow, précédées ou suivies des tâches de l'utilisateur. Demander et accorder une approbation pour créer des enregistrements sont des étapes classiques du workflow. Pour plus d'informations, voir [Utilisation des workflows](across-use-workflows.md).  
@@ -46,7 +46,7 @@ Vous pouvez configurer et utiliser des workflows qui connectent des tâches de p
 Cette vidéo montre comment configurer un flux de travail qui exigera qu'une personne demande l'approbation d'une autre personne avant de pouvoir modifier les informations sur un client existant ou de créer un nouveau client.  
 <br><br>  
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI]
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI?rel=0]
 
 ## <a name="see-also"></a>Voir aussi  
  [Utilisation des workflows](across-use-workflows.md)   

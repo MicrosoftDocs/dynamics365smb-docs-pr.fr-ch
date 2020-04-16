@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, consumption
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: a7b4c95b669b617b83445a6fa3b8eeb5c7b4070a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0709dc9fb13b5928fae40e92c21e67b0376a2db5
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312811"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191192"
 ---
 # <a name="record-usage-for-jobs"></a>Enregistrer l'utilisation pour les projets
 Sur la page **Lignes planning projet**, vous pouvez consulter et enregistrer l'activité sur les différentes parties de votre projet, qui est automatiquement mis à jour lorsque vous modifiez et transférez des informations entre les projets et les feuilles projet ou les factures projet. Cela suppose d'avoir paramétré un projet afin que **Appliquer le lien d'utilisation par défaut** soit activé. Pour plus d'informations, voir [Configuration de projets](projects-how-setup-jobs.md).  
@@ -27,7 +27,7 @@ Par exemple, pour les lignes planning de type **Budget**, vous pouvez saisir la 
 Les procédures suivantes décrivent comment enregistrer les prix et les coûts réels (facturables) ou budgétés du projet. Pour plus d'informations sur l'estimation des valeurs budgétées lors de la planification, voir [Gérer les budgets de projets](projects-how-manage-budgets.md).
 
 ## <a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a>Pour enregistrer l'activité d'une ligne planning projet de type Budget
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Projets**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Projets**, puis sélectionnez le lien associé.  
 2. Sélectionnez le projet concerné, puis cliquez sur **Lignes planning projet**.
 3. Sélectionnez une ligne planning projet de type **Budget** ou **Budget et Facturable** pour laquelle vous voulez enregistrer une activité.
 4. Dans le champ **Qté à transférer sur la feuille**, entrez le nombre que vous souhaitez transférer vers la facture. La quantité par défaut est la même valeur que celle du champ **Quantité**.
@@ -43,7 +43,7 @@ Les procédures suivantes décrivent comment enregistrer les prix et les coûts 
 ## <a name="to-record-usage-for-a-job-planning-line-of-type-billable"></a>Pour enregistrer l'activité d'une ligne planning projet de type Facturable
 Dans la tâche suivante, vous devez aussi enregistrer l'activité, mais pour une ligne planning projet de type **Facturable**. En général, dans ce cas, vous facturez votre activité, mais vous pouvez également la transférer vers une feuille. Néanmoins, lorsque vous faites cela, une ligne planning projet de type **Budget** est créée pour correspondre à la ligne facturable. Pour en savoir plus, voir [Gérer les budgets de projets](projects-how-manage-budgets.md).
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Projets**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Projets**, puis sélectionnez le lien associé.
 2. Sélectionnez le projet concerné, puis cliquez sur **Lignes planning projet**.  
 3. Sélectionnez une ligne planning projet de type **Facturable** pour laquelle vous voulez enregistrer une activité.
 4. Dans le champ **Qté à transférer à facturer**, entrez le nombre que vous souhaitez transférer vers la facture. La quantité par défaut est la même valeur que celle du champ **Quantité**.
@@ -60,7 +60,7 @@ Dans la tâche suivante, vous devez aussi enregistrer l'activité, mais pour une
 ## <a name="to-create-job-journal-lines-from-job-planning-lines"></a>Pour créer des lignes feuille projet à partir de lignes planning projet
 Lorsque vous êtes prêt à valider les données financières pour les projets, vous devez créer des lignes feuilles projets que vous pouvez valider.
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Projets**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Projets**, puis sélectionnez le lien associé.  
 2. Sélectionnez un projet concerné, puis cliquez sur **Lignes planning projet**.  
 3. Sur la page **Lignes planning projet**, sur la ligne planning projet souhaitée, dans le champ **Qté à transférer sur la feuille**, entrez la quantité que vous souhaitez transférer vers une feuille projet.  
 4. Choisissez l'action **Créer des lignes feuille projet**.
@@ -70,7 +70,7 @@ Lorsque vous êtes prêt à valider les données financières pour les projets, 
 8. Lorsque les lignes feuilles projets sont renseignées, cliquez sur **Valider**.  
 
 ## <a name="to-create-job-journal-lines-manually"></a>Pour créer des lignes feuille projet manuellement
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles activité projet**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles projet**, puis sélectionnez le lien associé.  
 2. Dans le champ **Nom de la feuille**, choisissez un nom de feuille projet approprié.  
 3. Dans une nouvelle ligne, entrez le numéro de document, le numéro de projet, le numéro tâche projet, le type et la quantité du type consommé.  
 4. Lorsque les lignes feuilles projets sont renseignées, cliquez sur **Valider**.  
@@ -81,7 +81,7 @@ Après avoir validé les lignes feuilles projets, vous pouvez voir les lignes pl
 > [!NOTE]  
 >   Cela nécessite que le champ **Appliquer le lien d'utilisation par défaut** ait été sélectionné pour le projet, ou qu'il s'agisse de la configuration par défaut pour tous les projets de votre organisation. Pour plus d'informations, voir [Configuration de projets](projects-how-setup-jobs.md).  
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles activité projet**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles projet**, puis sélectionnez le lien associé.  
 2. Sélectionnez une feuille projet appropriée, puis cliquez sur **Écritures comptables**.  
 3. Sur la page **Écritures comptables projet**, cliquez sur **Afficher les lignes planning projet liées**.
 

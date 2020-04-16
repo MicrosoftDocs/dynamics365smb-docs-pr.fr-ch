@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: a0eeb0a944a0feaee27fcb6d5891f83151499940
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: a37f79ca10c7c45212d2c0ccf858b3bc7e3bff66
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877811"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190410"
 ---
 # <a name="batch-post-output-and-run-times"></a>Valider par lots la production et les temps d'exécution
 La quantité produite représente l'avancée des travaux en prenant en compte la quantité achevée.  

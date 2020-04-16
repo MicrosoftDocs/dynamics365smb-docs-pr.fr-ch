@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, QuickBooks, import
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: bbfbb187ff533a2c786d0a5b4aa26a20518f760b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c3e5415c5da03c4dd9a2228cc21b7c08a9beeec3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315435"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189738"
 ---
 # <a name="the-quickbooks-online-data-migration-extension"></a>Extension de migration des données QuickBooks Online
 Cette extension est incluse dans le guide d'installation facilité **Migration des données** pour vous aider à migrer les données métier pertinentes de QuickBooks Online vers [!INCLUDE[d365fin](includes/d365fin_md.md)]. Par exemple, c'est utile si votre activité se développe, et que vous avez décidé de mettre à niveau votre application de gestion d'entreprise en commençant à utiliser [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -64,4 +64,4 @@ Il existe quelques éléments en particulier que vous devez effectuer :
 
 ## <a name="see-also"></a>Voir aussi
 [Importation des données métier à partir d'autres systèmes financiers](across-import-data-configuration-packages.md)  
-[Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md)  
+[Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide d'extensions](ui-extensions.md)  

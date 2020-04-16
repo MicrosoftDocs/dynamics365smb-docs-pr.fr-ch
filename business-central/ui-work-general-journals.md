@@ -7,14 +7,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 5ea488bc03ffa64b0d6c4b5c1466ddf01ca52ab1
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 424951481336855c5142016dbc9409c96c51dbf3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953914"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189378"
 ---
 # <a name="working-with-general-journals"></a>Utilisation de feuilles comptabilité
 
@@ -158,7 +158,7 @@ La procédure suivante est basée sur la page **Feuille comptabilité**, mais s'
 
 Les valeurs dans le champ **N° document** sont modifiées, le cas échéant, pour que le numéro de document sur les lignes feuille individuelles ou groupées soit dans un ordre séquentiel. Une fois que les documents sont renumérotés, vous pouvez procéder à la validation de la feuille.
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsuse-journals-dynamics-365-business-central"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/use-journals-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/use-journals-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Voir aussi
 [Valider les transactions directement vers la comptabilité](finance-how-post-transactions-directly.md)  

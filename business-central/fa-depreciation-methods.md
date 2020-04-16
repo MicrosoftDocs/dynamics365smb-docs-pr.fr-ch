@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 261fc147c4e940e4fce69e5a302d1d501f9c5597
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 549334bf04427a44473319a9d7cfe1a7c2a12b54
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302899"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184523"
 ---
 # <a name="depreciation-methods"></a>Méthodes d'amortissement
 Huit méthodes d'amortissement sont disponibles :  
@@ -155,10 +155,10 @@ Les valeurs d'amortissement sont les suivantes :
 
 | Date | Calcul |
 | --- | --- |
-| 30/06/10 |MA = 100 000,00 (1 - (1 - 0,25)<sup> 0,5<sup>) = 13 397,46 |
-| 31/12/10 |MA = 86 602,54 x (1 - (1 - 0,25)<sup> 0,5<sup>) = 11 602,54 |
-| 30/06/11 |MA = 75 000,00 x (1 - (1 - 0,25)<sup> 0,5<sup>) = 10 048,09 |
-| 31/12/11 |MA = 64 951,91 x (1 - (1 - 0,25)<sup> 0,5<sup>) = 8 701,91 |
+| 30/06/10 |MA = 100 000,00 (1 - (1 - 0,25)<sup>0,5<sup>) = 13 397,46 |
+| 31/12/10 |MA = 86 602,54 x (1 - (1 - 0,25)<sup>0,5<sup>) = 11 602,54 |
+| 30/06/11 |MA = 75 000,00 x (1 - (1 - 0,25)<sup>0,5<sup>) = 10 048,09 |
+| 31/12/11 |MA = 64 951,91 x (1 - (1 - 0,25)<sup>0,5<sup>) = 8 701,91 |
 
 ## <a name="db1sl-depreciation"></a>Amortissement Dégr1/Lin
 Dégr1/Lin est l'abréviation combinée de Dégressif 1 et de Linéaire. Le calcul continue jusqu'à ce que la valeur comptable soit égale à la valeur résiduelle ou au montant final arrondi que vous avez saisi.  
@@ -231,7 +231,7 @@ Cette méthode paramétrable peut également être utilisée pour calculer un am
 ### <a name="to-set-up-user-defined-depreciation-methods"></a>Pour définir des méthodes d'amortissement paramétrables
 Sur la page **Table amortissement**, vous pouvez configurer des méthodes d'amortissement paramétrables. Par exemple, vous pouvez définir l'amortissement en fonction du nombre d'unités.  
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Tables d'amortissement**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Tables d'amortissement**, puis choisissez le lien associé.  
 2. Sur la page **Liste des tables amortissement**, sélectionnez l'action **Nouveau**.  
 3. Sur la page **Fiche table amortissement**, renseignez les champs comme nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 

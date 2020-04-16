@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8571e0cbaa7104d6db8fc29ca11530a2c42464de
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 23bead12bc8a8618798f3ab0f139488b128b7bbc
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953506"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190986"
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Recevoir et convertir des documents électroniques
 La version générique de [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge la réception de factures et d'avoirs électroniques au format PEPPOL, qui est pris en charge par les principaux fournisseurs de services d'échange de documents. Pour recevoir une facture d'un fournisseur en tant que document électronique PEPPOL, traitez le document sur la page Documents entrants pour le convertir en facture achat ou en ligne feuille comptabilité dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -57,7 +57,7 @@ La version générique de [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en c
 
      Les erreurs de validation, généralement associées à des données de base erronées ou manquantes dans [!INCLUDE[d365fin](includes/d365fin_md.md)], seront affichées dans le raccourci **Messages d'erreur**.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmoduleselectronic-documents-dynamics-365-business-centralindex"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Voir aussi  
 [Gestion des comptes fournisseur](payables-manage-payables.md)  

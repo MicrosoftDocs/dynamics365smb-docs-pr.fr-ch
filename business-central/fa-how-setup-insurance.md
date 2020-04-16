@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: policy, coverage
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 7151f1415e87be4775966ad9727cd0ba00b041ab
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a7dfc768ff3de49a79c77ec187a7da40817764b6
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306595"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184259"
 ---
 # <a name="set-up-fixed-asset-insurance"></a>Configurer une assurance immobilisation
 Pour gérer la couverture d'assurance des immobilisations, vous devez tout d'abord configurer certaines informations générales d'assurance ainsi qu'une fiche assurance par police.
@@ -59,7 +59,7 @@ Vous pouvez définir des feuilles dans un modèle feuille assurance. Les valeurs
 
 ## <a name="see-also"></a>Voir aussi
 [Paramétrage d'immobilisations](fa-setup.md)  
-[COMPTES D'IMMOBILISATIONS](fa-manage.md)  
+[Immobilisations](fa-manage.md)  
 [Finances](finance.md)  
 [Mise en route](product-get-started.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

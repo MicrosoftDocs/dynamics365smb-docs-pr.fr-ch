@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: repair, service
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 589fd825a81406f77d7349aa7b026b9578762aef
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f5681caba59be7c573f8c85f1629dd05da86e243
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302707"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184235"
 ---
 # <a name="set-up-fixed-asset-maintenance"></a>Configurer la maintenance d'une immobilisation
 Pour gérer la maintenance des immobilisations, vous devez configurer tout d'abord certaines informations générales de maintenance, un compte de validation pour les coûts de maintenance et les codes de maintenance pour les types de travaux, tels que le service de routine ou la réparation.
@@ -25,7 +25,7 @@ Pour gérer la maintenance des immobilisations, vous devez configurer tout d'abo
 ## <a name="to-set-up-general-maintenance-information"></a>Pour configurer les informations générales de maintenance
 Si vous configurez les champs pour la maintenance, vous pouvez valider des frais de maintenance à partir d'une feuille immobilisation.
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Immobilisations**, puis choisissez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Immobilisations**, puis sélectionnez le lien associé.
 2. Sélectionnez l'immobilisation pour laquelle vous souhaitez définir la couverture d'assurance, puis sélectionnez l'action **Modifier**.
 3. Sur le raccourci **Maintenance**, complétez les champs, comme nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -46,7 +46,7 @@ Pour valider les coûts de maintenance, vous devez tout d'abord saisir un numér
 
 ## <a name="see-also"></a>Voir aussi
 [Paramétrage d'immobilisations](fa-setup.md)  
-[COMPTES D'IMMOBILISATIONS](fa-manage.md)  
+[Immobilisations](fa-manage.md)  
 [Finances](finance.md)  
 [Mise en route](product-get-started.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture
-ms.date: 10/22/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 81377dfe391415c6922cf0dcf00a8c8567ee4c80
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.openlocfilehash: 2d98f433acbe5905d9807bf7e7ded8708ed22d3b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692719"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189036"
 ---
 # <a name="changing-language-and-locale"></a>Modification de la langue et des paramètres régionaux
 
@@ -44,7 +44,7 @@ Pour modifier les paramètres régionaux, accédez à la page **Mes paramètres*
 
 Dans la page **Aide et support**, vous pouvez voir quelle version de [!INCLUDE [prodshort](includes/prodshort.md)] utilise votre entreprise. Si vous souhaitez baser une entreprise sur une version différente, votre administrateur peut créer un nouvel environnement de production. Pour plus d'informations, voir [Créer un nouvel environnement de production](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) dans le contenu pour les développeurs et les professionnels de l'informatique.  
 
-## <a name="languages-of-the-included365finincludesd365fin_mdmd-help"></a>Langues de l'aide de [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="languages-of-the-d365fin-help"></a>Langues de l'aide de [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Le contenu de l'aide pour la fonctionnalité de base de [!INCLUDE[d365fin](includes/d365fin_md.md)] est publié sur le site de Microsoft Docs et est disponible dans de nombreuses langues différentes. Si vous accédez aux documents au sein de [!INCLUDE[d365fin](includes/d365fin_md.md)], le contenu s'affichera dans votre langue. Si une page spécifique n'est pas encore disponible dans votre langue, elle s'affichera en anglais.
 
 ### <a name="how-do-i-change-the-language"></a>Comment puis-je modifier la langue ?

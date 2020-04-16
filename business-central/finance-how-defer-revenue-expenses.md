@@ -1,7 +1,6 @@
 ---
 title: Echelonner les recettes et les dépenses| Microsoft Docs
 description: Pour identifier des recettes ou des dépenses dans des période autres que la période de validation de la transaction, vous pouvez utiliser la fonctionnalité pour les échelonner ou les reporter automatiquement selon un calendrier précis.
-services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6fab25e6f8a3e840dd0b40f616b2a21abe13a9ad
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0b94dfe59d8d75e8371bcb02c7c306eaa187f8a4
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302354"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183707"
 ---
 # <a name="defer-revenues-and-expenses"></a>Echelonner les recettes et les dépenses
 Pour identifier une recette ou une dépense dans une période autre que la période de validation de la transaction, vous pouvez utiliser la fonctionnalité pour échelonner automatiquement les recettes et les dépenses selon un calendrier précis.
@@ -33,7 +32,7 @@ Pour répartir les recettes et les dépenses sur les périodes comptables concer
 Pour les deux types d'échelonnement, sélectionnez **Bilan** dans le champ **Type** et nommez les comptes en conséquence, comme « Revenus comptabilisés d'avance » pour les recettes différées et « Dépenses impayées » pour les dépenses différées.
 
 ## <a name="to-set-up-a-deferral-template"></a>Pour configurer un modèle d'échelonnement
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Modèles échelonnement**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Modèles échelonnement**, puis choisissez le lien associé.
 2. Sélectionnez l'action **Nouveau**.
 3. Renseignez les champs selon vos besoins.
 4. Dans le champ **Méthode de calcul**, précisez comment le champ **Montant** est calculé pour chaque période sur la page **Tableau d'échelonnement**. Les options suivantes vous sont proposées :
@@ -54,7 +53,9 @@ Pour les deux types d'échelonnement, sélectionnez **Bilan** dans le champ **Ty
 Exemple : la date de comptabilisation est le 06/02/2016. Si vous saisissez « Dépenses échelonnées pour %4 %6 », la description affichée sera « Dépenses échelonnées pour février 2016 ».
 
 ## <a name="to-assign-a-deferral-template-to-an-item"></a>Pour affecter un modèle d'échelonnement à un article
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Modèles échelonnement**, puis sélectionnez le lien associé.
+> [!NOTE]  
+>   Les étapes de cette procédure sont les mêmes que lorsque vous affectez un modèle d'échelonnement à un compte général ou une ressource.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Article**, puis sélectionnez le lien associé.
 2. Ouvrez la fiche de l'article pour lequel les recettes ou les dépenses doivent être échelonnées selon les périodes comptables lorsque l'article a été vendu ou acheté.
 3. Dans le champ **Modèle échelonnement par défaut**, sélectionnez le modèle d'échelonnement pertinent.
 

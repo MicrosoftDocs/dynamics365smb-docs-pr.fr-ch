@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: e138a96bdf2d3a4fd0d06dd913f3434ac4bd5988
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 54e3d3e7d93bcfe93de8c528143f8c9edf816c42
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882077"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193459"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Procédure pas-à-pas : vente, assemblage et expédition de kits
 
@@ -159,7 +159,7 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 
 ### <a name="creating-the-assembly-items"></a>Création des articles d’assemblage  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles**, puis sélectionnez le lien associé.  
 2.  Sélectionnez l'action **Nouveau**.  
 3.  Créez le premier article d’assemblage sur la base des informations suivantes.  
 
@@ -210,7 +210,7 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 
 ### <a name="selling-the-assembly-items"></a>Vente des articles d’assemblage  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes vente**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes vente**, puis sélectionnez le lien associé.  
 2.  Sélectionnez l'action **Nouveau**.  
 3.  Créez deux lignes commande vente pour le client 62000, The Device Shop, à la date de travail avec les informations suivantes.  
 
@@ -325,7 +325,7 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 
     Notez sur les lignes ordre d’assemblage que le champ **Qté prélevée** est renseigné. Ceci est dû au prélèvement que vous avez enregistré à l’étape 7 de cette section.  
 
-11. Dans le champ **Quantité à assembler**, essayez d’entrer une valeur inférieure à  **3**.  
+11. Dans le champ **Quantité à assembler**, essayez d’entrer une valeur inférieure à **3**.  
 
     Lire le message d’erreur expliquant pourquoi ce champ peut uniquement être renseigné par le champ **Qté à expédier** de l’expédition liée.  
 
@@ -368,7 +368,7 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Ordres d'assemblage**, puis sélectionnez le lien associé.  
 2.  Ouvrez l’ordre d’assemblage pour dix unités de kit A.  
 
-    Notez que le champ  **Quantité à assembler** est renseigné avec la quantité prévue.  
+    Notez que le champ **Quantité à assembler** est renseigné avec la quantité prévue.  
 
     Ensuite, créez un document prélèvement pour récupérer les composants nécessaires.  
 

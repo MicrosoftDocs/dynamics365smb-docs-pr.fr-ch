@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 022e364b6a40fe8df1f9c4e3425030d35f729e6a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2371c61c36a17df93ccc1a24c588b12613f5c380
+ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304507"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3196630"
 ---
 # <a name="view-the-status-of-synchronization-jobs"></a>Afficher le statut des projets de synchronisation
-Utilisez la page **Erreurs de synchronisation de données couplées** pour afficher l’état des projets de synchronisation exécutés pour les enregistrements couplés dans une intégration [!INCLUDE[crm_md](includes/crm_md.md)]. Cela inclut les projets ayant été exécutés à partir de la file projets et les projets de synchronisation manuels qui ont été exécutés sur les enregistrements à partir du client [!INCLUDE[d365fin](includes/d365fin_md.md)]. Par exemple, l'affichage de leur statut est utile lors du dépannage, car il vous donne accès à des informations détaillées sur les erreurs liées aux enregistrements couplés. En règle générale, ces types d'erreur sont provoqués par des actions de l'utilisateur, par exemple lorsque :  
+Utilisez la page **Erreurs de synchronisation des données couplées** pour afficher le statut des projets de synchronisation exécutés pour les enregistrements couplés dans une intégration Common Data Service ou [!INCLUDE[crm_md](includes/crm_md.md)]. Cela inclut les projets ayant été exécutés à partir de la file projets et les projets de synchronisation manuels qui ont été exécutés sur les enregistrements à partir du client [!INCLUDE[d365fin](includes/d365fin_md.md)]. Par exemple, l'affichage de leur statut est utile lors du dépannage, car il vous donne accès à des informations détaillées sur les erreurs liées aux enregistrements couplés. En règle générale, ces types d'erreur sont provoqués par des actions de l'utilisateur, par exemple lorsque :  
 
 * Deux personnes ont modifié le même enregistrement dans les deux applications professionnelles.
 * Une personne a supprimé un enregistrement dans l'une des applications, mais pas les deux.
@@ -29,7 +29,7 @@ Utilisez la page **Erreurs de synchronisation de données couplées** pour affic
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098171]
 
 ## <a name="to-view-and-resolve-synchronization-errors-for-coupled-records"></a>Pour afficher et résoudre les erreurs de synchronisation des enregistrements couplés
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Erreurs de synchronisation des données couplées**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Erreurs de synchronisation des données couplées**, puis choisissez le lien associé.
 2. La page **Erreurs de synchronisation des données couplées** affiche les problèmes qui se produisent lorsque vous avez synchronisé des enregistrements couplés. Le tableau suivant répertorie les actions que vous pouvez utiliser pour résoudre les problèmes un par un :
 
 |Action|Description|
@@ -37,10 +37,10 @@ Utilisez la page **Erreurs de synchronisation de données couplées** pour affic
 |**Supprimer le couplage**|Découple les enregistrements et ils ne seront plus synchronisés. Pour reprendre la synchronisation des enregistrements, vous devez les coupler à nouveau.|
 |**Réessayer**|Pour chaque enregistrement dans lequel une erreur est détectée, la synchronisation est ignorée sauf si vous corrigez le problème manuellement. Un nouvel essai inclura l'enregistrement dans la prochaine synchronisation.|
 |**Synchroniser**|L'application tentera de résoudre un conflit lorsqu'un enregistrement a été modifié dans les deux applications professionnelles. Vous pouvez choisir la version de l'enregistrement à utiliser dans les deux applications.|
-|**Restaurer des enregistrements** et **Supprimer des enregistrements**|Celles-ci sont utiles lorsqu'un enregistrement a été supprimé dans l'une des applications. Supprimer les enregistrements supprime l'enregistrement dans l'application où il existe toujours. La restauration recrée l'enregistrement dans l'application où elle a été supprimée.|
+|**Restaurer des enregistrements** et **Supprimer des enregistrements**|Celles-ci sont utiles lorsqu'un enregistrement a été supprimé dans l'une des applications métier. Supprimer les enregistrements supprime l'enregistrement dans l'application où il existe toujours. La restauration recrée l'enregistrement dans l'application métier où elle a été supprimée.|
 
 ## <a name="to-view-the-synchronization-log-for-a-specific-manually-synchronized-record"></a>Pour afficher le journal de synchronisation pour un enregistrement spécifique (synchronisé manuellement)
-1. Ouvrez, par exemple, un client, un article ou tout autre enregistrement qui synchronise des données entre [!INCLUDE[d365fin](includes/d365fin_md.md)] et [!INCLUDE[crm_md](includes/crm_md.md)].
+1. Ouvrez, par exemple, un client, un article ou tout autre enregistrement qui synchronise des données entre [!INCLUDE[d365fin](includes/d365fin_md.md)] et Common Data Service ou [!INCLUDE[crm_md](includes/crm_md.md)].
 2. Choisissez l'action **Journal de synchronisation** pour afficher le journal de synchronisation pour un enregistrement sélectionné. Par exemple, un client spécifique que vous avez synchronisé manuellement.
 
 ## <a name="see-also"></a>Voir aussi  

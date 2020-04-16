@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4537a7f6d450ec71e574c85cef1987232f792479
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: d7cea5a62f432b569967c088211ad7c41c5f4a64
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2876551"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192930"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Planifier des rangements dans la feuille
 Lorsque le magasin appelle un traitement à la fois de rangement et de réception et que vous souhaitez planifier des instructions de rangement pour plusieurs réceptions, vous pouvez utiliser la feuille rangement (dans ce cas, les magasiniers n'ont pas à suivre les instructions créées par l'application pour différentes réceptions validées).  

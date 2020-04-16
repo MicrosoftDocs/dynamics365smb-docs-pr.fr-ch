@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: fa250a4125e54025075e85c3ed7c621a361f87b6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 12de08f6163c141a2c2e8669a814616b2b5fc04b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313675"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190242"
 ---
 # <a name="make-check-payments"></a>Effectuer des paiements par chèque
 Vous pouvez émettre des chèques par voie électronique et manuelle dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ces deux méthodes utilisent la feuille paiement pour émettre des chèques aux fournisseurs. Vous pouvez également annuler des chèques et afficher les écritures comptables chèque.
@@ -37,7 +37,7 @@ Vous pouvez imprimer jusqu'à 10 factures sur une page pour un talon de chèque
 ## <a name="to-pay-a-vendor-invoice-with-a-computer-check"></a>Pour payer une facture fournisseur avec un chèque informatique
 La section suivante décrit comment payer un fournisseur par chèque. La procédure est la même pour rembourser un client par chèque.
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles paiement**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles paiement**, puis sélectionnez le lien associé.
 2. Renseignez les lignes feuille paiement. Pour plus d'informations, voir [Enregistrer des paiements et des remboursements](payables-how-post-payments-refunds.md).
 3. Dans le champ **Code mode de règlement**, sélectionnez **Chèque**.
 4. Dans le champ **Mode émission paiement**, sélectionnez **Informatique**.
@@ -61,7 +61,7 @@ Vous pouvez annuler des chèques non validés après leur impression par l'inter
 ## <a name="to-void-checks"></a>Pour annuler des chèques
 Lorsque des paiements par chèque ont été validés, vous pouvez uniquement annuler des chèques à partir des écritures comptables banque ainsi obtenues.
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Comptes bancaires**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Compte bancaire**, puis sélectionnez le lien associé.
 2. Sélectionnez le compte bancaire approprié, sélectionnez l'action **Modifier**, puis l'action **Écritures comptables chèque**.
 3. Sur la page **Écritures comptables chèque**, sélectionnez l'action **Annuler chèque**.
 4. Cochez la case **Annuler chèque uniquement**.
@@ -69,7 +69,7 @@ Lorsque des paiements par chèque ont été validés, vous pouvez uniquement ann
 
 ## <a name="to-view-a-summary-of-posted-checks"></a>Pour afficher un résumé des chèques validés
 Si vous souhaitez examiner les chèques validés, par exemple pour vérifier plusieurs chèques payés à un fournisseur, vous pouvez utiliser l'état **Banque : Liste chèques émis**.
-1. Choisissez l'icône de ![l'ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Banque : Liste chèques émis**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Compte bancaire : Liste chèques émis**, puis sélectionnez le lien associé.
 2. Définissez les filtres appropriés, puis cliquez sur le bouton **Aperçu**.
 
 ## <a name="see-also"></a>Voir aussi

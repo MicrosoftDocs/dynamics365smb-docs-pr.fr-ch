@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c0737bbecfd117dd65c8417c4b347da6b089305b
-ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
+ms.openlocfilehash: a220fcc4cd357be6fe899da4a3b48c444b8819fa
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076578"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186299"
 ---
 # <a name="set-up-bank-accounts"></a>Configuration des comptes bancaires
 [!INCLUDE[d365fin](includes/d365fin_md.md)] vous permet de gérer vos transactions bancaires à l'aide des comptes bancaires. Les comptes peuvent être en devise société ou en devise étrangère. Après avoir configuré des comptes bancaires, vous pouvez aussi utiliser l'option d'impression de chèque.<br><br>  
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE3Vhpl]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE3Vhpl?rel=0]
 
 ## <a name="to-set-up-bank-accounts"></a>Pour configurer des comptes bancaires
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Compte bancaire**, puis sélectionnez le lien associé.

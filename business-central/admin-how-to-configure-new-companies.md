@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: aade98d02744ef2e40b7d844c4bddea4d231fceb
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: 15275c25745b8c8b3e332efc9addf441140bc04b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2910823"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187259"
 ---
 # <a name="configure-new-companies"></a>Configurer de nouvelles sociétés
 Pour configurer une nouvelle société dans votre implémentation de la solution, vous suivez habituellement trois phases. Dans la première phase, vous importez le package configuration, un fichier .rapidstart avec les informations de configuration. Dans la deuxième phase, vous modifiez les informations de configuration, puis vous les appliquez à votre nouvelle société. Dans la phase finale, vous vérifiez et corrigez les erreurs.  
@@ -35,7 +35,7 @@ Avant d'importer un package de configuration, il est judicieux de vérifier que 
 2. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Packages configuration**, puis sélectionnez le lien associé.  
 3. Sélectionnez l'action **Importer package**.  
 4. Accédez à l'emplacement où vous avez enregistré le fichier du package de configuration .rapidstart, puis sélectionnez le bouton **Ouvrir**.  
-5. Choisissez l'icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Informations société**, puis sélectionnez le lien associé. Entrez les informations sur la société dans la fiche Informations société. Incluez des informations, telles que les coordonnées bancaires. Vous pouvez également fournir un logo pour la société.  
+5. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Informations société**, puis sélectionnez le lien associé. Entrez les informations sur la société dans la fiche Informations société. Incluez des informations, telles que les coordonnées bancaires. Vous pouvez également fournir un logo pour la société.  
 
 Toutes les tables que vous avez désignées pour les inclure à la nouvelle société sont importées. À ce stade, vous pouvez lettrer les données de package dans la base de données, ou ajuster et modifier les données de table pour répondre aux spécifications du client.  
 

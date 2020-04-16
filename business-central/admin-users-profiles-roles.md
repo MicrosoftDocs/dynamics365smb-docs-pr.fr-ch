@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
-ms.date: 11/06/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4c485d722de2a51f22310308b102ed066b4f01d2
-ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
+ms.openlocfilehash: 50a67bf5d64cbf932801738d60b4477a7e3d9fde
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2809048"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186515"
 ---
 # <a name="manage-profiles"></a>Gérer les profils
 Tous les utilisateurs de [!INCLUDE[d365fin](includes/d365fin_md.md)] se voient attribuer un profil reflétant leur rôle professionnel, le département dans lequel ils travaillent ou une autre catégorisation. Les profils permettent aux administrateurs de définir et de gérer de manière centralisée ce que différents types d'utilisateurs peuvent voir et faire dans l'interface utilisateur afin de pouvoir effectuer leurs tâches de manière efficace.
@@ -77,14 +77,25 @@ Lorsqu'un profil est créé, vous pouvez sélectionner différentes cases à coc
     - **Activé** pour spécifier si le rôle associé est visible dans la page **Rôles disponibles** pour être choisi par les utilisateurs.  
     - **Utiliser comme profil par défaut** pour spécifier le profil qui s'applique aux utilisateurs auxquels aucun rôle spécifique n'est attribué.
     - **Désactiver la personnalisation** pour spécifier si les utilisateurs du rôle associé peuvent personnaliser leur espace de travail.
-    - **Afficher dans l'explorateur de rôles**pour spécifier si les actions sur les fonctionnalités métier incluses dans le profil sont affichées dans la vue étendue de l'explorateur de rôles, une vue d'ensemble des fonctionnalités. Pour plus d'informations, voir [Recherche de pages avec l'explorateur de rôles ](ui-role-explorer.md).
+    - **Afficher dans l'explorateur de rôles** pour spécifier si les actions sur les fonctionnalités métier incluses dans le profil sont affichées dans la vue étendue de l'explorateur de rôles, une vue d'ensemble des fonctionnalités. Pour en savoir plus, consultez [Recherche de pages avec l'explorateur de rôles](ui-role-explorer.md).
 
-## <a name="to-export-user-created-profiles"></a>Pour exporter des profils créés par l'utilisateur
-Vous pouvez exporter des profils qui ont été modifiés par vous ou par les utilisateurs, comme indiqué par **(Créé par l'utilisateur)** dans le champ **Source**. Le profil est exporté dans un fichier zip contenant les fichiers .al pouvant être réutilisés pour développer des extensions. Pour plus d'informations, voir [Utilisation du client pour créer des profils et des personnalisations de page](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
+## <a name="to-export-profiles"></a>Pour exporter des profils
+Vous pouvez exporter des profils depuis [!INCLUDE[d365fin](includes/d365fin_md.md)], par exemple pour les réutiliser dans un autre abonné. Les profils sont exportés dans un fichier zip contenant les fichiers .al pouvant être réutilisés pour développer des extensions. Pour plus d'informations, voir [Utilisation du client pour créer des profils et des personnalisations de page](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
 
-* Sur la page**Profils (rôles)**, choisissez l'action **Exporter des profils créés par l'utilisateur**.
+* Sur la page **Profils (rôles)**, choisissez l'action **Exporter des profils**.
 
-Un fichier zip contenant les fichiers .al des profils nouvellement ajoutés ou modifiés est exporté.
+Un fichier zip contenant les fichiers .al pour tous les profils est exporté.
+
+## <a name="to-import-profiles"></a>Pour importer des profils
+Vous pouvez importer des profils ayant été exportés depuis [!INCLUDE[d365fin](includes/d365fin_md.md)]. La procédure d'importation est plus ou moins l'inverse de la procédure d'exportation de profils. Pour en savoir plus, consultez [Pour exporter des profils](admin-users-profiles-roles.md#to-export-profiles).
+
+1. Sur la page **Profils (rôles)**, choisissez l'action **Importer des profils**.
+2. Suivez les étapes de l'assistant **Importer des profils**.
+
+    Si vous souhaitez uniquement importer des profils spécifiques, utilisez le champ **Sélection** pour les indiquer.
+3. Cliquez sur le bouton **Importer les sélections**.
+
+Un fichier zip contenant les fichiers .al pour tous les profils sléectionnés est importé.
 
 ## <a name="to-delete-a-profile"></a>Pour supprimer un profil
 Vous pouvez supprimer un profil en choisissant l'action **Supprimer** sur la page **Profils (rôles)**. Cependant, les limitations suivantes s'appliquent :

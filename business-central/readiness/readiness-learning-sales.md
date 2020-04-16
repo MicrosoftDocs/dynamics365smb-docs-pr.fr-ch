@@ -2,15 +2,15 @@
 title: Catalogue d'apprentissage des ventes et marketing partenaires
 description: Trouvez toutes les formations disponibles pour Business Central.
 author: loreleishannonmsft
-ms.date: 02/19/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.author: v-lshann
-ms.openlocfilehash: 0e5dd14a9d7da8ea6dc25623f15338ace7d11e80
-ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
+ms.openlocfilehash: 6c9a8952a5f0bc0144665eedd92f5c8c2384a344
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "3097638"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190769"
 ---
 # <a name="partner-sales-and-marketing-learning-catalog"></a>Catalogue d'apprentissage des ventes et marketing partenaires
 
@@ -18,7 +18,7 @@ ms.locfileid: "3097638"
 
 Le catalogue suivant est organisé en partant des connaissances de base jusqu'aux spécialisées, et des plus élémentaires aux plus avancées. Si le contenu existe en plusieurs formats, nous vous le ferons savoir afin que vous puissiez choisir le format de formation qui répond le mieux à vos besoins.  
 
-## Valeur commerciale<a name="busvalue"></a>
+## <a name="business-value"></a>Valeur commerciale<a name="busvalue"></a>
 
 | Contenu                                                                          | Description                                                                                                                                                                                                                                                                                              | Format                                | Longueur              |
 |---------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|---------------------|
@@ -26,7 +26,7 @@ Le catalogue suivant est organisé en partant des connaissances de base jusqu'au
 | [Explorer les fonctionnalités de Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/) | Explorer les fonctionnalités de Dynamics 365 Business Central                                                                                                                                                                                                                                                        | Site Web                               |                     |
 | [Dynamics 365 Business Central](https://docs.microsoft.com/learn/modules/dynamics-365-business-central/)            | Ce module présente les fonctionnalités de l’application, ses avantages et des exemples de Dynamics 365 Business Central en action.                                                                                                                                                                                                | Parcours d'apprentissage en ligne gratuit et personnalisé | 24 minutes          |
 
-## Mise en route<a name="get-started"></a>
+## <a name="getting-started"></a>Mise en route<a name="get-started"></a>
 
 | Contenu                                                                                                                             | Description                                                                                                                                                                                                                                                                                               | Format                                | Longueur              |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|---------------------|
@@ -35,7 +35,7 @@ Le catalogue suivant est organisé en partant des connaissances de base jusqu'au
 | [Exploiter les données comme un pro dans Business Central](https://docs.microsoft.com/learn/paths/work-pro-data-dynamics-365-business-central)                                    | Vous venez juste de démarrer avec Business Central ? Ce parcours d'apprentissage vous aidera à vous préparer aux types de données dans Business Central et à trouver les informations dont vous avez besoin dans l'application.                                                                                                           | Parcours d'apprentissage en ligne gratuit et personnalisé | 2 heures 27 minutes  |
 | [Playlist YouTube Business Central](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4)                                                                | Page de destination YouTube pour les vidéos Dynamics 365 Business Central                                                                                                                                                                                                                                             | Vidéos YouTube                        |                     |
 
-## Valeur commerciale<a name="busvalue"></a>
+## <a name="business-value"></a>Valeur commerciale<a name="busvalue"></a>
 
 | Contenu                                                                          | Description                                                                                                                                                                                                                                                                                               | Format                                | Longueur              |
 |---------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|---------------------|
@@ -43,7 +43,7 @@ Le catalogue suivant est organisé en partant des connaissances de base jusqu'au
 | [Explorer les fonctionnalités de Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/) | Explorer les fonctionnalités de Dynamics 365 Business Central                                                                                                                                                                                                                                                        | Site Web                               |                     |
 | [Dynamics 365 Business Central](https://docs.microsoft.com/learn/modules/dynamics-365-business-central/)            | Ce module présente les fonctionnalités de l’application, ses avantages et des exemples de Dynamics 365 Business Central en action.                                                                                                                                                                                                | Parcours d'apprentissage en ligne gratuit et personnalisé | 24 minutes          |
 
-## Développez votre entreprise<a name="grow"></a>
+## <a name="grow-your-business"></a>Développez votre entreprise<a name="grow"></a>
 
 | Contenu                                                                                                                               | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Format                                | Longueur                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|

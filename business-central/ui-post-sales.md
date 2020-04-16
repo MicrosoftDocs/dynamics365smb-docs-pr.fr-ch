@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 01/17/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: e6dfedea8f6266186f2a2e380cea74ab6b9404bf
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: 7c75a96b749469ca4a9fb9794281aa64e8d3678e
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2992136"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189546"
 ---
 # <a name="posting-sales"></a>Validation des ventes
 Dans le menu **Validation** sur un document vente, vous pouvez faire votre choix parmi les fonctions de validation suivantes :
@@ -49,7 +49,7 @@ Dans la plupart des cas, vous pouvez ouvrir des écritures comptables à partir 
 ## <a name="editing-ledger-entries"></a>Modification des écritures comptables
 Vous pouvez modifier certains champs dans les documents d'achat validés, tels que le champ **N° de suivi du colis**. . Pour plus d'informations, voir [Modifier les documents validés](across-edit-posted-document.md). Pour les champs plus critiques qui concernent la piste d'audit, vous devez inverser ou annuler la validation. Pour plus d'informations, voir [Inversion d'une validation feuille et annuler les réceptions/envois](finance-how-reverse-journal-posting.md).
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesship-invoice-items-dynamics-365-business-centralindex"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/ship-invoice-items-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/ship-invoice-items-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Voir aussi
 [Ventes](sales-manage-sales.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/27/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6a57af4a29e2b355dfe3f261a5d83fade992551d
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: 9405e285613c95e6c3bfcf19a5fc57e109b3f419
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2992111"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194442"
 ---
 # <a name="entering-data"></a>Saisie de données
 
@@ -29,7 +29,7 @@ Plusieurs raccourcis clavier vous permettent de travailler sans la souris, et d'
 
 Pour plus d'informations sur les raccourcis, reportez-vous à la rubrique [Raccourcis clavier](keyboard-shortcuts.md). Certains raccourcis font l'objet de cet article.
 
-## <a name="QuickEntry"></a>Accélérer la saisie de données à l'aide de la fonction Saisie rapide
+## <a name="accelerating-data-entry-using-quick-entry"></a><a name="QuickEntry"></a>Accélérer la saisie de données à l'aide de la fonction Saisie rapide
 
 La saisie rapide est une fonction conçue pour saisir les données avec le clavier. La fonction Saisie rapide fonctionne sur les champs (comme les pages Fiche) et dans les listes (lignes et colonnes). Cela est utile lors de l'exécution de tâches de saisie répétitives qui exigent de créer plusieurs enregistrements dans la séquence, comme un lot de commandes vente ou l'enregistrement de nouveaux articles.
 
@@ -86,11 +86,11 @@ Pour plus d'informations, voir [FAQ sur l'opération Copier et coller](ui-copy-p
 
 ## <a name="filtering-line-items"></a>Filtrage des articles de ligne
 
-Pour commencer à filtrer, sélectionnez ![icône de volet Filtre](media/open-filter-pane-icon.png "Icône de volet Filtre") en haut de la liste ou appuyez sur Maj+F3 pour ouvrir le volet Filtre. Vous travaillez avec le volet Filtrer comme vous le faites sur toute autre liste. Pour plus d'informations, reportez-vous à la rubrique [Filtrage](ui-enter-criteria-filters.md#Filtering).
+Pour commencer à filtrer, sélectionnez ![icône de volet Filtre](media/open-filter-pane-icon.png "Icône de volet Filtre") en haut de la liste ou appuyez sur Maj+F3 pour ouvrir le volet Filtre. Vous travaillez avec le volet Filtrer comme vous le faites sur toute autre liste. Pour plus d'informations, reportez-vous à la rubrique [Filtrage](ui-enter-criteria-filters.md#filtering).
 
 La fonction Filtrage est utile notamment pour afficher et analyser de longs documents. Par exemple, supposez que vous ouvriez une facture de vente validée et que vous filtriez les articles de ligne pour afficher tous les articles de ligne qui ont une remise individuelle supérieure à 5 % ou que vous filtriez uniquement pour afficher les accessoires de vélo comportant la mention « pro » dans leur nom.
 
-## <a name="Focus"></a>Se concentrer sur les articles de ligne
+## <a name="focusing-on-line-items"></a><a name="Focus"></a>Se concentrer sur les articles de ligne
 
 Lorsque vous travaillez sur des documents qui comprennent une pièce des articles de ligne, comme une page de commande vente ou de facture, vous pouvez basculer votre vue pour vous concentrer uniquement sur les articles de ligne. La pièce des articles de ligne se développe ensuite de telle sorte qu'elle occupe la plupart de l'espace de travail, masquant les autres parties de la page, hormis la zone des actions en haut. Cela vous donne un meilleur aperçu des articles de ligne et offre un plus grand espace pour les exploiter.
 
@@ -111,8 +111,13 @@ Pour ouvrir la fiche ou le document en cours dans une nouvelle fenêtre, choisis
 > Lorsque vous ouvrez d'autres pages d'une fiche ou d'un document ouvert dans une nouvelle fenêtre, ces pages s'ouvrent dans une nouvelle fenêtre même si vous ne choisissez pas ![Ouvrir dans une nouvelle fenêtre](media/open-new-window-icon.png "Icône Ouvrir dans une nouvelle fenêtre").
 
 > [!NOTE]
-> Si vous travaillez dans le navigateur Safari, un bloqueur de fenêtres publicitaires intempestives peut empêcher la nouvelle fenêtre de s'ouvrir. Si tel est le cas, spécifiez l'URL du produit en tant que site Web autorisé. Pour plus d'informations, voir [Modifier les préférences dans Safari ](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
+> Si vous travaillez dans le navigateur Safari, un bloqueur de fenêtres publicitaires intempestives peut empêcher la nouvelle fenêtre de s'ouvrir. Si tel est le cas, spécifiez l'URL du produit en tant que site Web autorisé. Pour plus d'informations, voir [Modifier les préférences dans Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
 > La même chose peut se produire dans d'autres navigateurs, tels que Firefox. Pour plus d'informations, voir [Paramètres du bloqueur de fenêtres publicitaires intempestives dans Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
+
+Une autre façon d'effectuer plusieurs tâches simultanément consiste à ouvrir [!INCLUDE[d365fin](includes/d365fin_md.md)] sur deux ou plusieurs onglets du navigateur. Pour ce faire, vous devez créer un onglet, puis copier/coller l'URL de l'onglet initial dans le nouvel onglet. Cela crée une session.   
+
+> [!NOTE]
+> N'utilisez pas la fonction **Dupliquer** du navigateur pour créer l'onglet : cela peut entraîner des actions sur un onglet pour bloquer des actions sur d'autres onglets, car elles font partie de la même session.
 
 ## <a name="entering-quantities-by-calculation"></a>Saisie de quantités par calcul
 

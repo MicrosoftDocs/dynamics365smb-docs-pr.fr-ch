@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: bd86c129f2c6161860505a1127c3160e1e2da8ad
-ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
+ms.openlocfilehash: c695c595e8fa78de48aba2e96852c2aead2b489c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3030091"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194562"
 ---
 # <a name="create-number-series"></a>Création des souches de numéros
 Pour chaque société que vous configurez, vous devez affecter des codes d'identification uniques aux éléments tels que les comptes généraux, les comptes client et fournisseur, les factures et d'autres documents. La numérotation est importante, pas uniquement pour l'identification. Un système de numérotation bien conçu facilite la gestion et l'analyse de la société et permet de réduire les erreurs de saisie des données.
@@ -82,7 +82,7 @@ Si vous avez défini plusieurs codes souche de numéros pour un même type d'inf
 
 Désormais, pour créer un élément nécessitant un numéro, vous pourrez utiliser les liens ainsi créés et choisir parmi les souches de numéros liées.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesnumber-series-trail-codes-dynamics-365-business-centralindex"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/number-series-trail-codes-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/number-series-trail-codes-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Voir aussi
 [Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  

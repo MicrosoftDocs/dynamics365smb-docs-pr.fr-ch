@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c0f39204777c551eb72af1f1556dcc72d82fff2c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 25b0d2b85d267f6a85afeed662a26daa0d32c5ce
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310987"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195594"
 ---
 # <a name="send-documents-by-email"></a>Envoyer des documents par e-mail
 Pour communiquer le contenu des documents commerciaux rapidement à vos partenaires commerciaux, par exemple les informations paiement sur les documents vente aux clients, vous pouvez utiliser la fonctionnalité de présentation des états pour définir le contenu spécifique aux documents qui est automatiquement inséré au corps du message. Pour plus d'informations, voir [Gestion des présentations de rapport et de document](ui-manage-report-layouts.md).
@@ -48,7 +48,7 @@ Désormais, lorsque vous sélectionnez, par exemple, l'action **Envoyer** sur la
 La procédure suivante décrit comment envoyer une facture vente validée en tant que message e-mail avec le document en pièce jointe sous forme de fichier PDF et avec un corps de message spécifique au document.
 
 ## <a name="to-send-documents-by-email"></a>Pour envoyer des documents par e-mail
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Factures vente enregistrées**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Factures vente enregistrées**, puis sélectionnez le lien associé.
 2. Sélectionnez la facture vente validée appropriée, puis cliquez sur **Envoyer**. La page **Envoyer le document à** s'affiche.
 3. Dans le champ **E-mail**, sélectionnez **Oui (Afficher une invite pour le réglage des paramètres)**. Pour plus d'informations, reportez vous à [Configurer des profils d'envoi de documents](sales-how-setup-document-send-profiles.md).
 4. Choisissez le bouton **OK**. La page **Envoyer e-mail** s'affiche.
@@ -64,7 +64,7 @@ La procédure suivante décrit comment envoyer une facture vente validée en tan
 >   Si vous ne souhaitez pas spécifier les paramètres d'e-mail à chaque fois que vous envoyez un document par e-mail, vous pouvez sélectionner l'option **Oui (Utiliser les paramètres par défaut)** dans le champ **E-mail** de la page **Envoyer le document à**. Dans ce cas, la page **Envoyer e-mail** ne s'affiche pas. Reportez-vous à l'étape 4. Pour plus d'informations, reportez vous à [Configurer des profils d'envoi de documents](sales-how-setup-document-send-profiles.md).
 
 ## <a name="see-also"></a>Voir aussi
-[Gestion des présentations de rapport et de document](ui-manage-report-layouts.md)  
+[Gestion des présentations d'état et de document](ui-manage-report-layouts.md)  
 [Configurer la messagerie](admin-how-setup-email.md)  
 [Facturer des ventes](sales-how-invoice-sales.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

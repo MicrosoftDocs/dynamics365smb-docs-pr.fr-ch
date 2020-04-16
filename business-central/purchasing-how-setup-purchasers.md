@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchasing agent
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 486637c66d7664931308c0133789ec8fbf291090
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 59884fbde8cb466a84bdd243aed92ca0143eb709
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2883085"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191010"
 ---
 # <a name="set-up-purchasers"></a>Configurer les acheteurs
 Si plusieurs acheteurs travaillent dans votre société, vous pouvez les configurer sur la page et leur attribuer un code. Vous pouvez ensuite utiliser ces codes pour établir des statistiques et filtrer les informations des états imprimés.<br><br>  
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE3Q7hU]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE3Q7hU?rel=0]
 
 ## <a name="to-set-up-purchasers"></a>Pour configurer des acheteurs
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Vendeurs/Acheteurs**, puis sélectionnez le lien associé.

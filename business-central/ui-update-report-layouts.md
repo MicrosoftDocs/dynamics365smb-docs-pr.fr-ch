@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: ba71b9bfb23a4512e160e7b10aa065a1712aeb4d
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 0faaff33db107f61c56d13f7f0c979e4935cb65f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953122"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189402"
 ---
 # <a name="update-custom-report-layouts"></a>Mettre à jour les présentations d'état personnalisées
 À l'occasion, vous pouvez être amené à mettre à jour une présentation d'état personnalisée qui est utilisée dans un état. Cela est nécessaire si une modification de conception a été apportée à l'ensemble de données de l'état, par exemple, si un champ utilisé dans la présentation a été supprimé de l'ensemble de données de l'état. Si une présentation de rapport requiert une mise à jour, vous obtiendrez un message d'erreur lorsque vous tentez de visualiser, d'imprimer ou d'enregistrer le rapport.  
@@ -42,7 +42,7 @@ Si aucune erreur ne se produit, la mise à jour est appliquée aux présentation
 
  Les modifications des présentations d'état sont testées mais pas appliquées aux présentations d'état réelles. Une page **Journal mise à jour présentation état** s'affiche pour indiquer le statut des mises à jour potentielles pour chaque présentation d'état. Si une présentation d'état contient des erreurs, vous pouvez y accéder directement à partir du message pour résoudre les problèmes. Pour plus d'informations, consultez [Résolution des erreurs](ui-update-report-layouts.md#FixErrors).  
 
-##  <a name="UpdateLimitations"></a> Limitations de la mise à jour d'une présentation d'état personnalisée  
+##  <a name="limitations-of-the-custom-report-layout-update"></a><a name="UpdateLimitations"></a> Limitations de la mise à jour d'une présentation d'état personnalisée  
  Il existe plusieurs types de modifications que la mise à jour automatique peut appliquer à des présentations d'état personnalisées, par exemple, un champ utilisé dans la présentation a été supprimé de l'ensemble de données d'état. Toutefois, la mise à jour automatique ne peut pas gérer les modifications ci-après apportées à un ensemble de données d'état.  
 
 1.  Champs, étiquettes ou éléments de données supprimés.  
@@ -53,7 +53,7 @@ Si aucune erreur ne se produit, la mise à jour est appliquée aux présentation
 
  Si le processus de mise à jour détecte l'un de ces problèmes, la mise à jour ne peut pas être appliquée. Vous devez résoudre les problèmes manuellement, par exemple en modifiant la présentation d'état dans Word, ou par programme à l'aide de codeunits de mise à niveau.  
 
-##  <a name="FixErrors"></a> Correction des erreurs  
+##  <a name="fixing-errors"></a><a name="FixErrors"></a> Correction des erreurs  
  Si vous obtenez un message d'erreur lorsque vous mettez à jour ou testez des mises à jour de présentation d'état, vous devez généralement modifier la présentation d'état pour résoudre le problème. Lisez le message d'erreur pour déterminer la cause du problème.  
 
  Le problème le plus courant se pose lorsqu'un champ utilisé sur la présentation a été supprimé de l'ensemble des données de l'état. Dans ce cas, vous pouvez visualiser une ligne du message d'erreur indiquant qu'un article a été supprimé. Pour résoudre ce problème, vous devez modifier la présentation et supprimer le champ en question.  
@@ -62,7 +62,7 @@ Si aucune erreur ne se produit, la mise à jour est appliquée aux présentation
 
 Une fois que vous avez modifié la présentation, essayez de mettre de nouveau à jour la présentation.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmoduleschange-documents-dynamics-365-business-centralindex"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Voir aussi  
  [Gestion des présentations de rapport](ui-manage-report-layouts.md)  

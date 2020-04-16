@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: e7671e54f95a48322df186b5aed5a81552f9f91f
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 7365886f09e1e3d1b67dcbea82594f3d3599f25a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953794"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183899"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Déclarer la TVA aux autorités fiscales
 Cette rubrique décrit les états dans [!INCLUDE[d365fin](includes/d365fin_md.md)] que vous pouvez utiliser pour envoyer des informations sur les montants de la taxe sur la valeur ajoutée (TVA) relatifs aux ventes et achats à l'administration fiscale de votre région.
@@ -61,7 +61,7 @@ Pour déclarer la TVA à une administration par voie électronique, vous devez c
     > [!NOTE]  
     >   Il est judicieux de tester votre connexion. Pour cela, choisissez la case à cocher **Mode test**, puis préparez et envoyez votre état TVA comme décrit dans la section _Préparer et envoyer un état TVA_. En mode Test, le service vérifie si l'administration fiscale peut recevoir votre état, et le statut de l'état indiquera si l'envoi du test a réussi. Il est important de retenir que ce n'est pas un envoi réel. Pour réellement envoyer l'état, vous devez désactiver la case à cocher **Mode test**, puis répéter le processus d'envoi.
 
-## <a name="to-set-up-vat-reports-in-included365finincludesd365fin_mdmd"></a>Pour configurer les états TVA dans [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="to-set-up-vat-reports-in-d365fin"></a>Pour configurer les états TVA dans [!INCLUDE[d365fin](includes/d365fin_md.md)]
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramétrage déclaration TVA**, puis sélectionnez le lien associé.  
 2. Pour laisser des utilisateurs modifier et retourner cet état, sélectionnez la case à cocher **Modifier les états soumis**.  
 3. Choisissez la souche de numéros à utiliser pour chaque état.  
@@ -111,7 +111,7 @@ Le tableau suivant décrit les codeunits que vous devez créer pour votre état.
 > [!Note]
 > Lorsque vous créez des codeunits pour l'état, faites attention à la valeur du champ **Version de la déclaration TVA**. Ce champ doit refléter la version de l'état qui est ou a été requis par l'administration fiscale. Par exemple, vous pouvez saisir **2017** dans le champ pour indiquer que l'état remplit les conditions qui étaient en place cette année. Pour trouver la version en cours, contactez votre administration fiscale.
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsprocess-vat-dynamics-365-business-central"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Voir aussi
 [Configuration des méthodes de calcul et de validation de la taxe sur la valeur ajoutée](finance-setup-vat.md)  

@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 2455cbf74520ddbc2ddb6ba6ae2e02064370ac2d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: fc026d34c39b7f045100e16024d971493041fb80
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302491"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183875"
 ---
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Consolidation des données financières de plusieurs sociétés
 Si vous avez plusieurs sociétés dans [!INCLUDE[d365fin](includes/d365fin_md.md)], l'état Balance consolidé du tableau de bord Comptable peut vous donner un aperçu de leur santé financière dans leur ensemble.  
@@ -54,7 +54,7 @@ Si des paramètres plus avancés sont nécessaires pour votre consolidation, vou
 [!INCLUDE[d365fin](includes/d365fin_md.md)] vous permet de créer une liste de sociétés à consolider, de vérifier les données comptables avant leur consolidation, d'importer des fichiers et de générer des états de consolidation.  
 
 1. Connectez-vous à la société consolidée.
-2. Choisissez l'icône de ![l'ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Centres de profit**, puis sélectionnez le lien associé.  
+2. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Centres de profit**, puis sélectionnez le lien associé.  
 3. Sélectionnez **Nouveau**, puis renseignez les champs requis. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!IMPORTANT]
@@ -84,7 +84,7 @@ Le tableau suivant décrit les méthodes de conversion de taux de change que vou
 
 Pour spécifier des taux de change pour les centres de profit, procédez comme suit :
 
-1. Choisissez l'icône de ![l'ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Centres de profit**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Centres de profit**, puis sélectionnez le lien associé.  
 2. Sur la page **Liste des centres de profit**, choisissez le centre de profit, puis choisissez l'action **Taux moyen (manuel)**.   
 3. Sur la page **Modifier taux de change**, la valeur du champ **Montant taux de change lié** est copiée à partir de la table **Taux de change devise**, mais vous pouvez la modifier. Fermez la page.  
 4. Choisissez l'action **Taux de clôture**.  
@@ -110,7 +110,7 @@ Si vous détenez une société en partie, vous pouvez ajouter un pourcentage de 
 Vous pouvez tester vos données avant de les transférer vers la société consolidée. [!INCLUDE[d365fin](includes/d365fin_md.md)] recherche des différences dans les informations des centres de profit et de la société consolidée. Par exemple, si les numéros de compte ou les codes axe sont différents. Vous devez corriger les erreurs avant d'exécuter l'état. Vous pouvez tester la base de données ou, si vous importez des données à partir d'un fichier XML, vous pouvez tester le fichier.   
 
 1. Ouvrez la société consolidée.  
-2. Choisissez l'icône de ![l'ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Centres de profit**, puis sélectionnez le lien associé.  
+2. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Centres de profit**, puis sélectionnez le lien associé.  
 3. Exécutez l'une des opérations suivantes :  
 
     * Pour tester un fichier, choisissez l'action **Tester fichier**, entrez le nom du fichier à tester, puis choisissez **Imprimer**.  

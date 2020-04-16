@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 12/17/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c0746551b21f96dde6e938e6bdbcc573ded2066a
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: c0acef518c6333061aa9c321b91c47aa1da8df2c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2911062"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192012"
 ---
 # <a name="reconcile-payments-using-automatic-application"></a>Rapprocher les paiements à l'aide de l'application automatique
 La page **Feuille rapprochement bancaire** spécifie les paiements (entrants ou sortants) qui ont été enregistrés en tant que transactions sur votre compte bancaire en ligne et que vous pouvez lettrer à leurs écritures comptables ouvertes client, fournisseur et compte bancaire. Vous renseignez les lignes de la feuille en important un relevé bancaire sous forme de fichier ou flux bancaire.

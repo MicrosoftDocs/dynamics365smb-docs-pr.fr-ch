@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: b6c11e58694e68918ab5f4d5bd48bd7a43beb8f1
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 74d161636d9110fcc366733245951e3044662e80
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953266"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193842"
 ---
 # <a name="change-the-current-report-layout"></a>Modifier la présentation actuelle de l'état
 Un rapport peut être créé avec plus d'une présentation de rapport, que vous pouvez ensuite changer au besoin.
@@ -55,7 +55,7 @@ Le nom de la présentation personnalisée sélectionnée s'affiche maintenant da
 
 Vous pouvez maintenant accéder à vos fiches client et fournisseur pour spécifier les présentations à utiliser pour différents documents que vous créez pour le client ou le fournisseur en question, comme les confirmations de commande ou les relances de paiement. Pour plus d'informations, voir [Définir des présentations de document pour les clients et les fournisseurs](ui-define-customer-vendor-document-layouts.md).
 
-## <a name="see-related-training-at-microsoft-learnlearnmoduleschange-documents-dynamics-365-business-centralindex"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion des présentations de rapport](ui-manage-report-layouts.md)  

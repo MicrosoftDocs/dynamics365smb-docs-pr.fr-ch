@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalization
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: bd82b37992a7664df1a85f7f5734e79a1e7c233e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4d97afb002ddce4306ffa7238a4fb362f9e26158
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300632"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188795"
 ---
 # <a name="displaying-lists-in-different-ways"></a>Affichage de listes de différentes manières
 Dans le coin droit de toute liste de [!INCLUDE[d365fin](includes/d365fin_md.md)] vous trouverez les icônes qui vous permettent choisir l'affichage de la liste des enregistrements. La liste peut être affichée sous forme de lignes détaillées, ce qui est idéal lorsque vous devez utiliser plusieurs champs ou modifier des champs dans la liste. Mais vous pouvez également basculer sur l'affichage des enregistrements sous forme de mosaïques, ce qui est plus compact et affiche moins de champs sur l'enregistrement spécifique. Ceci est très utile pour obtenir une vue d'ensemble de plusieurs écritures. Elle est particulièrement utile sur les périphériques de petite taille, car elle est compacte et permet d'appuyer plus facilement sur chaque écriture.

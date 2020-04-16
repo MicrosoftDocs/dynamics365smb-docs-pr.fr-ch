@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 26e8e5dcd7ca3e69a3f7fbdfbe8c93d866cbce7d
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 5a9a87935e3e76d0a42a63a8c610d1db487ce736
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882946"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194706"
 ---
 # <a name="set-up-fault-reporting"></a>Configurer le reporting panne
 Le reporting panne permet d'établir des normes d'enregistrement des informations de panne pour les articles de service. Par exemple, vous pouvez spécifier la nature du problème, les symptômes visibles, le motif du problème et la solution pour le résoudre.  
@@ -37,7 +37,7 @@ Pour terminer la configuration du reporting panne, vous pouvez également spéci
 
 ## <a name="to-create-fault-and-resolution-code-relationships"></a>Pour créer des relations codes panne/solution
 <!--this needs to go in a working with topic-->
- Pour pouvoir visualiser, lors de la maintenance des articles, les modes de réparation les plus courants se rapportant à des pannes article particulières, vous devez regrouper des informations sur les relations codes panne/solution. Utilisez le traitement par lots **Insérer relations codes P/S** pour rechercher toutes les combinaisons de codes panne/solution dans des commandes service validées et les enregistrer dans la page **Relations codes panne/solution**.
+Pour pouvoir visualiser, lors de la maintenance des articles, les modes de réparation les plus courants se rapportant à des pannes article particulières, vous devez regrouper des informations sur les relations codes panne/solution. Utilisez le traitement par lots **Insérer relations codes P/S** pour rechercher toutes les combinaisons de codes panne/solution dans des commandes service validées et les enregistrer dans la page **Relations codes panne/solution**.
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Insérer relations codes P/S**, puis sélectionnez le lien associé.  
 2. Saisissez des dates pour définir la période à inclure dans le traitement par lots.  

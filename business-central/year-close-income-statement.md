@@ -1,8 +1,6 @@
 ---
 title: Solder les comptes de gestion | Microsoft Docs
 description: À la clôture d'exercice, vous devez exécuter le traitement par lots Clôture comptes de gestion afin de clôturer les périodes comptables de l'exercice fiscal.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: fd811a1a472efe53fe1c16bd5c301925d424f274
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 059fda6f088c73c32f82a4029976e7ae6acd40f4
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313943"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195842"
 ---
 # <a name="close-income-statement-accounts"></a>Clôturer les comptes de gestion
 Lorsqu'un exercice comptable est terminé, vous devez clôturer les périodes qui le composent. Vous exécutez pour cela le traitement par lots **Solder les comptes de gestion**. Ce traitement transfère le résultat de l'exercice dans un compte de bilan et clôture les comptes de gestion. Vous créez des lignes dans une feuille, que vous pouvez valider par la suite.
 
 ## <a name="to-run-the-close-income-statement-batch-job"></a>Pour exécutez le traitement par lots Solder les comptes de gestion
 1. Clôturez l'exercice comptable. L'exercice comptable doit être clôturé avant le lancement du traitement par lots. Pour plus d'informations, reportez vous à [Clôturer des périodes comptables](year-close-account-periods.md).
-2. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Clôturer exercice comptable**, puis sélectionnez le lien associé.
+2. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Solder les comptes de gestion**, puis sélectionnez le lien associé.
 3. Pour lancer le traitement par lots, cliquez sur le bouton **OK**.
 
 ## <a name="about-the-close-income-statement-batch-job"></a>À propos du traitement par lots Solder les comptes de gestion
@@ -37,7 +35,8 @@ La date sur les lignes insérées par le traitement par lots dans la feuille est
 Le traitement par lots **Solder les comptes de gestion** peut être utilisé à plusieurs reprises. Vous pouvez valider dans un exercice comptable précédent, même après que les comptes de gestion aient été clôturés, si vous exécutez à nouveau le traitement par lots.
 
 ## <a name="see-also"></a>Voir aussi
+
 [Clôture plans](year-close-books.md)  
 [Valider l'écriture de clôture d'exercice](year-how-post-year-end-close-entry.md)  
-[Ouvrir un nouvel exercice comptable](finance-how-open-new-fiscal-year.md)  
+[Utiliser des périodes et exercices comptables](finance-accounting-periods-and-fiscal-years.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

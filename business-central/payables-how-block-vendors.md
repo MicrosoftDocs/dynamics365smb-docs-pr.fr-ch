@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/14/2020
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: f28d1c11889d496072d57cfdb70f3c743037bff3
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: b0ff7e3de9de21a37c0cacf6ff1d4b0a4871f61d
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2954297"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190290"
 ---
 # <a name="block-vendors"></a>Bloquer des fournisseurs
 Vous pouvez bloquer un fournisseur, par exemple à cause de son insolvabilité, afin que ce fournisseur ne puisse pas être ajouté à des documents achat ou afin d'empêcher que des paiements puissent être validés pour ce fournisseur.

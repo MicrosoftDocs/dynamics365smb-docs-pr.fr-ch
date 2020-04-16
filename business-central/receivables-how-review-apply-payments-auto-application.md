@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 25bc9b8525eb3f690677bf37696ec6a69afa8605
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: e37d9ab5aae53ef0e6af6e04a0d94077569e62a3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2911038"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191970"
 ---
 # <a name="review-or-apply-payments-manually-after-automatic-application"></a>Réviser ou lettrer les paiements manuellement après un lettrage automatique
 Pour chaque ligne feuille représentant un paiement sur la page **Feuille rapprochement bancaire**, vous pouvez ouvrir la page **Lettrage paiement** pour afficher toutes les écritures ouvertes candidates au paiement et les informations détaillées pour chaque écriture sur la correspondance des données sur laquelle un lettrage de paiement est basé. Ici, vous pouvez appliquer les paiements manuellement ou réappliquer les paiements qui ont été automatiquement appliqués à une écriture incorrecte. Pour plus d'informations sur le lettrage automatique, voir [Rapprocher les paiements à l'aide du lettrage automatique](receivables-how-reconcile-payments-auto-application.md).

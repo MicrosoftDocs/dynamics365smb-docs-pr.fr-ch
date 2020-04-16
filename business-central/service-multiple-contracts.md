@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: ba14e98e8387981d108b4a8440419f617fa3b3d8
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: c9822e35ea4ad6ad1b32894bbe0b980bf70149ae
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877198"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192546"
 ---
 # <a name="multiple-contracts"></a>Plusieurs contrats
 Selon les accords de votre niveau de service avec un client, vous pouvez avoir à gérer un article de service sous plusieurs contrats de service.  
@@ -38,7 +38,7 @@ Vous pouvez créer manuellement un contrat de service ou un devis contrat pour d
 Lorsque vous ajoutez un article de service à une ligne contrat déjà enregistrée dans d'autres contrats de service ou devis contrat, un message d'avertissement est affiché indiquant que l'article de service appartient déjà à un ou plusieurs contrats de service ou devis contrat. Si vous confirmez ce message, toutes les informations pertinentes de l'article de service sont copiées dans une ligne contrat nouvellement créée.  
   
 ## <a name="copying-documents"></a>Copie de documents  
-Vous pouvez créer automatiquement un contrat service ou un devis contrat pour des articles de service déjà enregistrés dans d'autres contrats de service ou devis contrat à l'aide de l'action **Copier document**.  
+Vous pouvez créer automatiquement un contrat service ou un devis contrat pour des articles de service déjà enregistrés dans d'autres contrats de service ou devis contrat à l'aide de l'action **Copier à partir du document**.  
   
 ## <a name="creating-service-orders-for-multiple-contracts"></a>Création de commandes service pour plusieurs contrats  
 Vous pouvez manuellement créer une commande service pour un article de service qui est enregistré dans plusieurs contrats actifs. Un contrat service est actif lorsqu'il est signé et non expiré.  
