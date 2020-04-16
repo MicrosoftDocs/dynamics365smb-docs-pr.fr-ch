@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: COA, cha of acc
-ms.date: 01/27/2020
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 780b42f779fa436716144e4bc598255d913427ed
-ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
+ms.openlocfilehash: 1241ff479019d0aa0223dbb374b3ad568a7157d0
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "2999822"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182771"
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Configuration ou modification du plan comptable
 Le plan comptable affiche les comptes généraux qui stockent vos données financières. [!INCLUDE[d365fin](includes/d365fin_md.md)] inclut un plan comptable standard prêt à prendre en charge votre société.
 Cependant, vous pouvez modifier les comptes par défaut, et vous pouvez ajouter de nouveaux comptes.
 <br><br>  
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
 
 ## <a name="adding-or-changing-accounts"></a>Ajout ou modification de comptes
@@ -37,7 +37,7 @@ Cependant, vous pouvez modifier les comptes par défaut, et vous pouvez ajouter 
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] vous empêchera de supprimer un compte général qui stocke les données nécessaires au plan comptable.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmoduleschart-accounts-dynamics-365-business-centralindex"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/chart-accounts-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/chart-accounts-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Voir aussi
 [Comptabilité et plan comptable](finance-general-ledger.md)  

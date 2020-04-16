@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 12/17/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: eb40c1d479267ba2e8111bd1183f2c7454a2bd16
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: 2dd601784418468a0f70befaced4b87e497fc2d7
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2911148"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181763"
 ---
 # <a name="keyboard-shortcuts"></a>Raccourcis clavier
 Cet article fournit un aperçu de certaines combinaisons de touches de raccourcis que vous pouvez utiliser avec lorsque vous utilisez [!INCLUDE[prodshort](includes/prodshort.md)].
@@ -38,7 +38,7 @@ La plupart des raccourcis sont les mêmes, que le système d'exploitation soit W
 > [!NOTE]
 > Outre les raccourcis clavier globaux décrits dans cette rubrique, un certain nombre de raccourcis spécifiques à votre activité sont disponibles. Par exemple, dans la version générique de [!INCLUDE[prodshort](includes/prodshort.md)], F9 enregistre un document et Ctrl+F7 affiche les écritures financières d’un enregistrement. (Celles-ci peuvent être différentes dans votre solution.) Le raccourci clavier est affiché dans l'info-bulle de l'action en question.
 
-##  <a name="Keyboard"></a> Raccourcis clavier généraux
+##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> Raccourcis clavier généraux
 Le tableau suivant décrit les raccourcis clavier pour naviguer et accéder à différents éléments d'une page, tels que des actions, des listes déroulantes, des recherches, etc. Pour en savoir plus sur les raccourcis clavier pour naviguer entre les enregistrements au sein d'une la liste, consultez la prochaine section.
 
 |Appuyez sur les touches suivantes<br />(dans macOS)|Pour|
@@ -53,7 +53,7 @@ Le tableau suivant décrit les raccourcis clavier pour naviguer et accéder à d
 |Alt+Maj+N |Fermer une page nouvellement créée et en ouvrir une nouvelle pour créer un enregistrement. De même, Alt + F9 valide un document et en crée un nouveau.|
 |Alt+T|Ouvrez la page **Mes paramètres**.|
 |Alt+Flèche vers la droite|Rechercher des informations supplémentaires ou des valeurs sous-jacentes pour un champ contenant le bouton ![AssistEdit](media/assist-edit-icon.png "Bouton AssistEdit"). Ceci est utilisé lorsque le bouton déroulant habituel (Alt + Flèche vers le bas) dans le même champ est utilisé à une autre fin.|
-|Shift+F12|Ouvrir l'explorateur de rôles, une vue d'ensemble des fonctionnalités. Pour plus d'informations, voir [Recherche de pages avec l'explorateur de rôles ](ui-role-explorer.md).|
+|Shift+F12|Ouvrir l'explorateur de rôles, une vue d'ensemble des fonctionnalités. Pour plus d'informations, voir [Recherche de pages avec l'explorateur de rôles](ui-role-explorer.md).|
 |Ctrl+Alt+Maj+C|Afficher des informations dans le badge société.|
 |Ctrl+Alt+F1|Ouvrez, puis fermez le volet d'inspection des pages. Ce dernier affiche les informations relatives à la page, comme sa table source, ses champs, ses filtres, ses extensions, etc.<br /><br />Pour plus d'informations, reportez-vous à la rubrique [Inspection des pages](across-inspect-page.md).|
 |Ctrl+C |Copiez la valeur du champ. Si le champ a le focus, et si vous n'avez pas sélectionné un texte dans le champ, l'intégralité de la valeur est copiée. Si vous avez sélectionné un texte dans le champ, seul le texte sélectionné est copié.|
@@ -83,7 +83,8 @@ Le tableau suivant décrit les raccourcis clavier que vous pouvez utiliser dans 
 |Alt+N|Insérer une nouvelle ligne dans une liste modifiable, telle que la page **Budgets**.|Identique.|
 |Maj+F10 |Ouvrir un menu d'options disponibles pour la ligne sélectionnée.|Identique.|
 
-### <a name="navigateshortcuts"></a>Navigation entre les lignes et les colonnes
+### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Navigation entre les lignes et les colonnes
+Des grilles contenant des lignes et des colonnes existent sur de nombreux types de page dans [!INCLUDE[prodshort](includes/prodshort.md)], telles que les pages de liste et les éléments **Lignes** sur les documents. Le passage d'une cellule à une autre sur une grille est entièrement compatible avec le clavier.
 
 |Appuyez sur les touches suivantes<br />(dans macOS)|Pour procéder dans une vue de liste |Pour procéder dans une vue en mosaïque |
 |-----------------|-------|-------|
@@ -92,17 +93,18 @@ Le tableau suivant décrit les raccourcis clavier que vous pouvez utiliser dans 
 |Particulier<br />(Fn+flèche gauche)|Accéder au premier champ de la ligne.|Accéder à la première vignette de la ligne.|
 |Fin<br />(Fn+flèche droite)|Accéder au dernier champ de la ligne.|Accéder à la dernière vignette de la ligne.|
 |Saisissez|Ouvrez l'enregistrement associé à ce champ.<br /><br />Approprié uniquement si une page Fiche est associée à l'enregistrement.|Ouvre l'enregistrement.<br /><br />Approprié uniquement si une page Fiche est associée à l'enregistrement.|
-|Ctrl+Enter|Déplacer le focus sur l'élément suivant en dehors de la liste.|Déplacez le focus sur l'élément suivant en dehors de la liste.|
+|Ctrl+Enter|Déplacez le focus sur l'élément suivant en dehors de la liste.|Déplacez le focus sur l'élément suivant en dehors de la liste.|
+|Page précédente<br />(Fn + flèche haut)|Faites défiler pour afficher l'ensemble de lignes au-dessus des lignes actuelles de la vue. |Fait défiler pour afficher l'ensemble de vignettes au-dessus des vignettes actuelles de la vue. |
+|Page suivante<br />(Fn + Flèche bas)|Faites défiler pour afficher l'ensemble de lignes sous des lignes actuelles de la vue.|Faites défiler pour afficher l'ensemble de vignettes sous des vignettes actuelles de la vue.|
 |Flèche bas|Accédez au champ de la ligne du dessous au sein de la même colonne |Accédez au champ de la vignette du dessous au sein de la même colonne |
 |Flèche vers le haut|Accédez au champ de la ligne du dessus au sein de la même colonne| Accédez au champ de la vignette du dessus au sein de la même colonne  |
 |Flèche vers la droite|Dans une liste en lecture seule, accédez au prochain champ à droite de la même ligne.<br /><br />Dans une liste modifiable, allez à droite dans le champ actuel.| Accédez à la prochaine vignette à droite de la même ligne. |
 |Flèche vers la gauche|Dans une liste en lecture seule, accédez au champ précédent à gauche de la même ligne. <br /><br />Dans une liste modifiable, allez à gauche dans le champ actuel.| Accédez à la vignette précédente à gauche de la même ligne. |
-|Page précédente<br />(Fn + Flèche haut)|Faites défiler pour afficher l'ensemble de lignes au-dessus des lignes actuelles de la vue. |Fait défiler pour afficher l'ensemble de vignettes au-dessus des vignettes actuelles de la vue. |
-|Page suivante<br />(Fn + Flèche bas)|Faites défiler pour afficher l'ensemble de lignes sous des lignes actuelles de la vue.|Faites défiler pour afficher l'ensemble de vignettes sous des vignettes actuelles de la vue.|
 |Tab|Dans une liste modifiable, accédez au prochain champ à droite de la même ligne.|Non applicable.||
 |MAJ+Tab|Dans une liste modifiable, accédez au champ suivant à gauche de la même ligne. | Non applicable. |
 
-### <a name="CopyRows"></a>Sélection, copie et collage
+
+### <a name="selecting-copying-and-pasting"></a><a name="CopyRows"></a>Sélection, copie et collage
 
 |Appuyez sur les touches suivantes<br />(dans macOS)|Pour procéder dans une vue de liste |Pour procéder dans une vue en mosaïque |
 |-----------------|-------|-------|
@@ -120,7 +122,7 @@ Le tableau suivant décrit les raccourcis clavier que vous pouvez utiliser dans 
 |Maj+Bas<br />(Maj+Fn+Flèche bas)|Étendez la sélection des lignes pour inclure toutes les lignes visibles au-dessous de la sélection actuelle des lignes.|Non applicable.|
 |F8|Copier le champ dans la même colonne de la ligne précédente, et le coller dans la ligne actuelle. Vous pouvez effectuer ces opérations uniquement dans les listes modifiables. L'utilisation de ce raccourci suivi d'une tabulation vous permet de renseigner rapidement les champs dans les lignes articles que vous souhaitez avoir la même valeur que la ligne précédente.|Non applicable.|
 
-### <a name="KeyboardFilter"></a>Recherche et filtrage de listes
+### <a name="searching-and-filtering-lists"></a><a name="KeyboardFilter"></a>Recherche et filtrage de listes
 
 |Appuyez sur les touches suivantes<br />(dans macOS)|Pour|
 |-----------------|-------|
@@ -129,7 +131,7 @@ Le tableau suivant décrit les raccourcis clavier que vous pouvez utiliser dans 
 |Ctrl+Maj+F3|Ouvrez et refermez le volet Filtre.<ul><li> Si le volet Filtre n'est pas ouvert, Ctrl+Maj+F3 l'ouvre et s'axe sur l'action **+ Filtre** sous **Filtrer le total par**, qui vous permet d'appuyer simplement sur Entrée pour commencer à ajouter un filtre totaux.</li><li>Si le volet Filtre est déjà ouvert, Ctrl+Maj+F3 le ferme mais n'efface pas les filtres que vous avez ajoutés.</li></ul>  |
 |Alt+F3|Basculez le filtrage vers la valeur sélectionnée.<ul><li>Applique un filtre de colonne sur la valeur sélectionnée dans la liste. Cela correspond à choisir **Filtrer sur cette valeur** d'un en-tête de colonne. Il ouvre le volet Filtre, définit le filtre sur la valeur sélectionnée, tout en gardant le focus sur la cellule dans la liste.</li><li>Si la colonne est déjà filtrée, Alt+F3 efface le filtre de cette colonne.</li></ul> |
 |Maj+Alt+F3|Ouvrez le volet Filtre et ajoutez un filtre sur la colonne sélectionnée dans la liste. Le focus est sur le nouveau champ filtre ce qui permet de commencer à saisir les critères de filtre immédiatement.<br /><br /> Cela correspond à sélectionner **Filtrer** de l'en-tête de colonne.<br /><br />S'il existe déjà un filtre sur le champ, un nouveau filtre est ajouté. |
-|Ctrl+Maj+Alt+F3|Réinitialisez les filtres. Cela correspond à choisir **Réinitialiser les filtres** dans le volet Filtre, et s'applique aux champs et aux filtres de totaux.<br /><br /> Les filtres reviennent aux filtres par défaut de la fenêtre actuelle. Si la fenêtre actuelle est définie sur**Tous**, il s'agit de l'équivalent à revenir à une vue non filtrée avec tous les enregistrements. |
+|Ctrl+Maj+Alt+F3|Réinitialisez les filtres. Cela correspond à choisir **Réinitialiser les filtres** dans le volet Filtre, et s'applique aux champs et aux filtres de totaux.<br /><br /> Les filtres reviennent aux filtres par défaut de la fenêtre actuelle. Si la fenêtre actuelle est définie sur **Tous**, il s'agit de l'équivalent à revenir à une vue non filtrée avec tous les enregistrements. |
 |Ctrl+Enter|Modifiez le focus depuis le volet de filtrage pour revenir à la liste.|
 
 ## <a name="keyboard-shortcuts-in-cards-and-documents"></a>Raccourcis clavier des fiches et documents
@@ -138,10 +140,10 @@ Les raccourcis suivants sont disponibles sur les pages Fiche, telles que **Fiche
 
 |Appuyez sur les touches suivantes<br />(dans macOS)|Pour|
 |----------------|-----------|
-|Alt+F6|Basculer entre réduire ou développer pour le raccourci actuel.|
+|Alt+F6|Basculer entre réduire ou développer pour le raccourci ou l'élément (sous-page) actuel.|
 |Alt+N |Ouvrir une page pour créer un nouvel enregistrement ; de la même façon qu'en sélectionnant l'action **Nouveau**. |
 |Alt+Maj+N |Fermer une page et en ouvrir une nouvelle pour créer un enregistrement, de la même façon qu'en sélectionnant l'action **OK & Nouveau**. |
-|Alt+Maj+W |Ouvrir la fiche ou le document en cours dans une nouvelle fenêtre. Pour plus d'informations, voir [Multitâche sur plusieurs pages ](ui-enter-data.md#multitasking-across-multiple-pages).|
+|Alt+Maj+W |Ouvrir la fiche ou le document en cours dans une nouvelle fenêtre. Pour plus d'informations, voir [Multitâche sur plusieurs pages](ui-enter-data.md#multitasking-across-multiple-pages).|
 |Ctrl+Enter|Enregistrer et fermer la page.|
 |Ctrl+Flèche bas|Ouvrez le nouvel enregistrement pour une entité.|
 |Ctrl+Flèche haut |Ouvrez le précédent enregistrement pour une entité.|
@@ -151,7 +153,7 @@ Les raccourcis suivants sont disponibles sur les pages Fiche, telles que **Fiche
 |F6|Accéder au raccourci ou à l'élément suivant (sous-page).|
 |Maj+F6|Accédez au raccourci ou à l'élément précédent (sous-page).|
 
-## <a name="QuickEntry"></a>Raccourcis rapides d'écriture pour les champs
+## <a name="quick-entry-shortcuts-for-fields"></a><a name="QuickEntry"></a>Raccourcis rapides d'écriture pour les champs
 
 Les raccourcis suivants se rapportent à la fonction de saisie rapide sur les cartes, documents et pages de liste. Sur les listes, les raccourcis ne peuvent pas être utilisés lorsque les listes sont dans la vue en mosaïque. Pour plus d'informations sur la saisie rapide, reportez-vous à la rubrique [Accélérer la saisie de données à l'aide de la fonction Saisie rapide](ui-enter-data.md#QuickEntry).
 
@@ -161,7 +163,7 @@ Les raccourcis suivants se rapportent à la fonction de saisie rapide sur les ca
 |Maj+Entrée|Confirmez la valeur dans le champ actuel et accédez au champ précédent de saisie rapide.||
 |Ctrl+Maj+Entrée|Confirmez la valeur dans la colonne actuelle et accédez au champ suivant de saisie rapide en dehors de la liste.<br /><br />Ce raccourci s'applique aux listes intégrées d'une page, comme les articles de ligne d'une commande vente. Il vous permet de sortir rapidement de la liste et de poursuivre la saisie des données dans d'autres champs de la page.|
 
-## <a name="a-namecalendarshortcuts-keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"/> Raccourcis clavier du calendrier (sélecteur de date)
+## <a name="keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"/> Raccourcis clavier du calendrier (sélecteur de date)
 
 Lorsque vous définissez un champ de date, vous pouvez saisir la date manuellement ou ouvrir un calendrier (sélecteur de date) qui vous permet de sélectionner la date souhaitée. Le tableau suivant décrit les raccourcis clavier du calendrier.
 
@@ -185,7 +187,7 @@ Lorsque vous définissez un champ de date, vous pouvez saisir la date manuelleme
 |a|Entrez la date actuelle. « T » signifie « today » (aujourd'hui).|
 |t|Entrez la date de travail. Pour plus d'informations, voir [Date du flux](ui-change-basic-settings.md#work-date)|
 
-## <a name="a-namereportpreviewshortcutskeyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"/>Raccourcis clavier dans l'aperçu de rapports
+## <a name="keyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"/>Raccourcis clavier dans l'aperçu de rapports
 
 |Appuyez sur les touches suivantes<br />(dans macOS)|Pour|
 |-----------------|-------|

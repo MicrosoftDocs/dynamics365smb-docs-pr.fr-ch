@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: product, image
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: cfb80821177c0860413526b5bc529fa1bdeedf7b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8478a6fc2a4860f2cd5a2b5a01d6680fbaea3130
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309868"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182195"
 ---
 # <a name="import-multiple-item-pictures"></a>Importer plusieurs images d'article
 Vous pouvez importer plusieurs images d'articles à la fois. Nommez simplement vos fichiers image avec des noms correspondant à vos numéros d'article, comprimez-les en un fichier ZIP, puis utilisez la page **Importer les images d'articles** pour gérer quelles images d'articles importer.
@@ -35,7 +35,7 @@ Tous les formats de fichier courants sont pris en charge.
 2. Recueillez tous les fichiers dans un fichier ZIP. Par exemple, dans Windows Explorer, sélectionnez les fichiers, puis choisissez **Envoyer vers**, **Dossier comprimé (zip)**.     
 
 ## <a name="to-import-item-pictures"></a>Pour importer des images d'article
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres stock**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres stock**, puis sélectionnez le lien associé.
 2. Sélectionnez l'action **Importer des images d'article**.
 3. Dans le champ **Sélectionner un fichier ZIP**, sélectionnez le dossier ZIP pertinent, puis sélectionnez le bouton **Ouvrir**.
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 0b93073c8d8c6ad639d27644719c4c5b40cda6fe
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 9539cbf3926a782bdaaf49a7054358e653c5e1ac
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952665"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183035"
 ---
 # <a name="accounting-for-costs"></a>Comptabilité pour les coûts
 La comptabilité analytique vous permet de cerner les coûts liés à l'exploitation d'un activité. Pour vous familiariser avec la comptabilité analytique, reportez-vous aux rubriques suivantes.  
@@ -30,7 +30,7 @@ La comptabilité analytique vous permet de cerner les coûts liés à l'exploita
 |Découvrez les processus de création des budgets de coûts.|[Création des budgets des coûts](finance-create-cost-budgets.md)|
 |Annulez des écritures de coûts à partir du registre du budget des coûts.|[Suppression des écritures budget des coûts](finance-how-to-delete-cost-budget-entries.md)|
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsuse-cost-accounting-dynamics-365-business-central"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/use-cost-accounting-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/use-cost-accounting-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Voir aussi  
 [Finances](finance.md)  

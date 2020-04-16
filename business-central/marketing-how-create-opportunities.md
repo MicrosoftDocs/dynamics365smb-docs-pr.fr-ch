@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 209df24710837e3407498c600ec77bea3f76690d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0971998feed22b61dbcb948dda719e7e40287e63
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309139"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181547"
 ---
 # <a name="create-sales-opportunities"></a>Créer des opportunités de vente
 Vous pouvez créer des opportunités pour les opportunités de vente à partir de vos contacts. Toutes les opportunités doivent être affectées à un vendeur ou un acheteur et doivent avoir un contact.
@@ -27,7 +27,7 @@ Utilisez la page **Liste des opportunités** pour créer des opportunités. Gén
 Pour pouvoir créer des opportunités, vous devez configurer les cycles de vente opportunité. Pour plus d'informations reportez-vous à [Configurer des cycles et des étapes de vente opportunité](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="to-create-an-opportunity-from-a-salesperson"></a>Pour créer une opportunité à partir d'un vendeur
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Vendeurs**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Vendeurs**, puis sélectionnez le lien associé.
 2. Sélectionnez dans la liste le vendeur pour lequel vous souhaitez créer une opportunité.
 3. Sélectionnez l'action **Opportunités**, puis sélectionnez **Liste**.
 4. Sélectionnez **Nouveau**, puis renseignez les champs appropriés. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -35,7 +35,7 @@ Pour pouvoir créer des opportunités, vous devez configurer les cycles de vente
 
 
 ## <a name="to-create-an-opportunity-from-a-contact"></a>Pour créer une opportunité à partir d'un contact
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Contacts**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Contacts**, puis sélectionnez le lien associé.
 2. Sélectionnez dans la liste le contact pour lequel vous souhaitez créer une opportunité.
 3. Exécutez l'une des opérations suivantes :
    * Choisissez l'action **Créer opportunité**.

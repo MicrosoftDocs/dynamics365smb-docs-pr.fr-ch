@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 1bdd140e43a29894978f7fa0f0a88957d7e102c3
-ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
+ms.openlocfilehash: 7ca1937b34b157a4b76314b5ad38f7918ac7dded
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3030163"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182795"
 ---
 # <a name="set-up-value-added-tax"></a>Configuration de la TVA
 Les clients et les entreprises payent la TVA lorsqu'ils achètent des biens ou des services. Le montant de la TVA à payer peut varier en fonction de plusieurs facteurs. Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous configurez la TVA pour spécifier les taux à utiliser pour calculer les montants de taxe sur la base des éléments suivants :
@@ -36,7 +36,7 @@ Si vous souhaitez configurer vous-même les calculs de TVA, ou en savoir plus su
 Il est recommandé d'utiliser le guide de configuration assistée Paramètres TVA pour configurer la TVA dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 Pour démarrer le guide de configuration assistée, procédez comme suit :
-1. Choisissez l'icône de l'![ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Configuration assistée**.  
+1. Choisissez l'icône d'![ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Configuration assistée**.  
 2. Choisissez **Configuration TVA** et finalisez la procédure.
 3. Une fois la configuration assistée terminée, visitez la page **Paramètres comptabilisation TVA** et vérifiez si vous devez renseigner d'autres champs en fonction de la version de votre pays. Pour plus d'informations, voir [Fonctionnalité locale dans Business Central](about-localization.md).  
 
@@ -44,7 +44,7 @@ Pour démarrer le guide de configuration assistée, procédez comme suit :
 Pour garantir que les personnes entrent des numéros d'identification intracommunautaire valides, vous pouvez définir des formats pour les numéros d'identification intracommunautaire utilisés dans des pays ou des régions dans lesquels vous travaillez. [!INCLUDE[d365fin](includes/d365fin_md.md)] affichera un message d'erreur lorsque un employé fait une erreur ou utilise un format incorrect pour le pays ou la région.
 
 Pour configurer des numéros d'identification intracommunautaire, procédez comme suit :
-1. Choisissez l'icône de l'![ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Pays/régions**.
+1. Choisissez l'icône d'![ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Pays/régions**.
 2. Choisissez le pays ou la régions, puis cliquez sur **Formats n° identif. intracomm**.
 3. Dans le champ **Formats**, définissez le format en saisissant un ou plusieurs des caractères suivants :  
 
@@ -191,4 +191,4 @@ Les montants figurant dans les documents qui n'ont pas encore été validés son
 [Vérifier les numéros d'identification intracommunautaire](finance-how-validate-vat-registration-number.md)  
 [Fonctionnalités locales dans Business Central](about-localization.md)  
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsprocess-vat-dynamics-365-business-central"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)

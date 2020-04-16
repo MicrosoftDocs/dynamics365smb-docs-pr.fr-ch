@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 156e36af1110bcf153ed00b16eb041f28a5c3168
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8e55baf7fcc375c492a4b50794d823ad13b432a4
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308971"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181403"
 ---
 # <a name="record-interactions-with-contacts"></a>Enregistrer les interactions avec les contacts
 La configuration de votre application pour enregistrer les interactions est constituée des tâches suivantes :
@@ -50,7 +50,7 @@ Vous pouvez effectuer les actions suivantes sur cette page :
 * Afficher le statut des interactions.
 * Marquer les interactions comme annulées.
 
-Vous pouvez supprimer les écritures journal interaction ayant été annulées. Pour supprimer des écritures journal interaction, sélectionnez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Supprimer les écritures journal interaction annulées**, puis sélectionnez le lien connexes et renseignez les informations.
+Vous pouvez supprimer les écritures journal interaction ayant été annulées. Pour supprimer des écritures journal interaction, sélectionnez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Supprimer les écritures journal interaction annulées**, puis sélectionnez le lien associé et renseignez les informations.
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion de contacts](marketing-contacts.md)  

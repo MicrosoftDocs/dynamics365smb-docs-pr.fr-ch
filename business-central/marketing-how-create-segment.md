@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 81ad24b93bc217694f7be608c966e8b69e8330bf
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 779ff0a12611606e70d0a310b260a8e20031f628
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309115"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181523"
 ---
 # <a name="create-segments"></a>Création de segments
 Vous pouvez créer des segments pour sélectionner un groupe contacts, par exemple pour créer une interaction concernant plusieurs contacts, comme un courrier direct.

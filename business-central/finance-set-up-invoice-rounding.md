@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: bb114e6ea550ca5cc453c8319e72da5b11cec6e8
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 1563d1a38879379d7f517d50493b310d6d6a70ac
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882485"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182867"
 ---
 # <a name="set-up-invoice-rounding"></a>Configuration de la fonction arrondi facture
 Si vous devez arrondir des montants de factures lorsque vous créez des factures, vous pouvez utiliser la fonction d'arrondi automatique. Lorsqu'une facture est arrondie, une ligne supplémentaire contenant le montant arrondi est ajoutée et validée avec les autres lignes facture.
@@ -51,7 +51,7 @@ Avant d'utiliser la fonction d'arrondi automatique, vous devez configurer les r�
 2. Sur la page **Devises**, choisissez la devise étrangère pour ouvrir la **Fiche devise**, puis renseignez les champs **Précision arrondi montant**, **Précis. arrondi montant unité**, **Précision arrondi facture** et **Type arrondi facture**.
 
 ### <a name="to-set-up-rounding-for-your-local-currency"></a>Pour configurer les règles d'arrondi pour les devises société
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres comptabilité**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres comptabilité**, puis sélectionnez le lien associé.  
 2. Sur la page **Paramètres comptabilité**, sous le raccourci **Général**, renseignez les champs **Précis. arrondi fact.** et **Type arrondi facture**.  
 
 ## <a name="activate-the-invoice-rounding-function"></a>Activer la fonction arrondi facture  

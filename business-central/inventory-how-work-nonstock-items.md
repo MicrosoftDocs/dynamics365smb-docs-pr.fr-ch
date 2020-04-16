@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: non-inventoriable
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: d7448e9fe95f2ef6821dd4a1d41eae0390d1547c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a13eec5bd1df674da6255f732b5f68c8a7fcbaf6
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309595"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181859"
 ---
 # <a name="work-with-catalog-items"></a>Utiliser des articles de catalogue
 Vous pouvez proposer certains articles à vos clients pour leur rendre service, que vous ne souhaitez pas gérer dans votre système tant que vous ne commencez pas à les commercialiser. Lorsque vous souhaitez commencer à gérer de tels articles dans votre système, vous pouvez les convertir en fiches article normales de deux façons.
@@ -71,5 +71,5 @@ Vous pouvez ensuite remplir ou modifier les champs sur la nouvelle fiche article
 ## <a name="see-also"></a>Voir aussi
 [Enregistrer de nouveaux articles](inventory-how-register-new-items.md)  
 [Créer des commandes spéciales](sales-how-to-create-special-orders.md)|  
-[Inventaire](inventory-manage-inventory.md)  
+[Stock](inventory-manage-inventory.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

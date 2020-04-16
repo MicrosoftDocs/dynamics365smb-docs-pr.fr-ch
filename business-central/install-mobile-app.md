@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: phone, tablet
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: ef36a7c26b6d0fafb272989ccfc77fc4e54bf9e4
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 62626d7ff081da64d64299cafb4b5e8c5483f182
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953626"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182507"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Obtention de Business Central sur votre périphérique mobile
 Accédez à vos données [!INCLUDE[d365fin](includes/d365fin_md.md)] à partir de votre périphérique mobile. Vous pouvez naviguer dans vos données commerciales, utiliser des fonctionnalités telles que l'envoi vers Excel ou Office 365, l'affichage de graphiques et d'indicateurs de performance clé à jour, l'envoi par e-mail de devis et de factures. Vous pouvez également prendre des photos et les ajouter en pièces jointes grâce à votre appareil photo. Suivez la procédure ci-dessous pour télécharger l'application et démarrer.
@@ -29,7 +29,7 @@ Accédez à vos données [!INCLUDE[d365fin](includes/d365fin_md.md)] à partir d
 
 Vous êtes désormais en mesure d'accéder à [!INCLUDE[d365fin](includes/d365fin_md.md)], d'afficher et de modifier les données.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesalternative-interfaces-dynamics-365-business-centralindex"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Voir aussi
 [Mise en route](product-get-started.md)  

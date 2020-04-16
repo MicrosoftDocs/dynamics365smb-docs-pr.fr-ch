@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory valuation, costing
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: f939b74aaad4c5ee301220ca69b0b7319b02e9e5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0650fcfddef87e9b96822e14c3cdc9b7b301b8f3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308533"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182363"
 ---
 # <a name="adjust-item-costs"></a>Ajuster coûts et prix article
 Le coût d'un article (valeur du stock) que vous achetez et vendez ultérieurement peut changer au cours de sa durée de vie, par exemple parce que des frais de transport sont ajoutés à son coût d'achat après que vous ayez vendu l'article. L'ajustement des coûts est particulièrement utile dans les situations où vous vendez des biens avant de facturer leur achat. Pour toujours connaître la valeur du stock correcte, les coûts article doivent donc être ajustés régulièrement. Cela garantit que les statistiques vente et profit sont à jour et que les indicateurs clés financiers sont corrects. Pour plus d'informations, voir [Détails de conception : modes évaluation stock](design-details-cost-adjustment.md).
@@ -37,7 +37,7 @@ Si vous utilisez la méthode de l'évaluation stock moyen, le coût unitaire d'u
 La fonction d'ajustement des coûts traite uniquement les écritures valeur non encore ajustées. Si la fonction est confrontée à une situation où des coûts entrants modifiés doivent être transférés à des écritures sortantes associées, de nouvelles écritures valeur ajustées sont créées, sur la base des informations des écritures valeur d'origine, mais contenant le montant de l'ajustement. La fonction d'ajustement des coûts utilise la date comptabilisation de l'écriture valeur d'origine dans l'écriture ajustée, sauf si la date est comprise dans une période inventaire clôturée. Dans ce cas, l'application utilise la date début de la période d'inventaire ouverte suivante. Si aucune période inventaire n'est utilisée, la date du champ **Début période validation** de la page **Paramètres comptabilité** définira la date de comptabilisation de l'écriture ajustée.
 
 ## <a name="to-adjust-item-costs-manually"></a>Pour ajuster les coûts article manuellement
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Ajuster coûts : Écr. article**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Ajuster coûts - Écr. article**, puis sélectionnez le lien associé.
 2. Sur la page **Ajuster coûts - Écr. article**, spécifiez les articles pour lesquels ajuster les coûts.
 3. Choisissez le bouton **OK**.
 
@@ -82,7 +82,7 @@ En règle générale, la valeur du champ **Coût unitaire** sur la fiche article
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  
-[STOCKS ET EN-COURS](inventory-manage-inventory.md)  
+[Stock](inventory-manage-inventory.md)  
 [Ventes](sales-manage-sales.md)  
 [Achats](purchasing-manage-purchasing.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

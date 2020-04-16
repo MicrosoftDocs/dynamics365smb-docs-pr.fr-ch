@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: move, warehouse
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: SorenGP
-ms.openlocfilehash: 26ce0f4661a44c1f478b38a2709015ea6ff1f602
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c7d383fdaf75857013651944207616bdc7208e6d
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309715"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181979"
 ---
 # <a name="transfer-inventory-between-locations"></a>Transfert de stock entre des magasins
 Vous pouvez transférer des articles en stock entre des magasins en créant des ordres de transfert. Vous pouvez également utiliser la feuille reclassement article.
@@ -31,7 +31,7 @@ Pour transférer des articles, des acheminements transfert et magasins doivent �
 
 ## <a name="to-transfer-items-with-a-transfer-order"></a>Pour transférer des articles avec un ordre de transfert
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Ordres de transfert**, puis sélectionnez le lien associé.
-2. Dans l'en-tête de la page **Ordre de transfer**, renseignez les champs comme nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Dans l'en-tête de la page **Ordre de transfert**, renseignez les champs comme nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
     >   Si vous avez renseigné les champs **Code transit**, **Code transporteur**, et **Code prestation transporteur** sur la page **Spéc. acheminement transfert** lors de la configuration de l'acheminement transfert ; ensuite les champs correspondants sur l'ordre de transfert sont renseignés automatiquement.
@@ -40,7 +40,7 @@ Pour transférer des articles, des acheminements transfert et magasins doivent �
 
 3. Pour renseigner les lignes, saisissez manuellement les données ou choisissez l’une des options suivantes sous l'action **Fonctions** :
     - Choisissez l'action **Extraire contenu emplacement** pour sélectionner des éléments existants dans un emplacement spécifique.
-    - Choisissez l'action **Extraire lignes réception**pour sélectionner les éléments qui viennent d'arriver dans le magasin provenance transfert.   
+    - Choisissez l'action **Extraire lignes réception** pour sélectionner les éléments qui viennent d'arriver dans le magasin provenance transfert.   
 
     En tant que magasinier dans le magasin provenance transfert, continuez à expédier les articles.
 4. Cliquez sur **Valider**, choisissez l'option **Expédition**, puis cliquez sur le bouton **OK**.

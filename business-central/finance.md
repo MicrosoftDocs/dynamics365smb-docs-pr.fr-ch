@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2152e5535f35be234753895ca024791f912f6869
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: 8424d94b25ce56ceae65b04e41071c1a70f520ea
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2911110"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182627"
 ---
 # <a name="finance"></a>Finance
 [!INCLUDE[d365fin](includes/d365fin_md.md)] comprend une configuration standard de la plupart des processus financiers, mais vous pouvez modifier la configuration pour l'adapter à votre activité. Pour plus d'informations, reportez-vous à [Configuration de Finance](finance-setup-finance.md).

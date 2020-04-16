@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 01/25/2020
+ms.date: 04/01/2020
 ms.author: SorenGP
-ms.openlocfilehash: 58f4787a5e9bb845fc72b2ce6d9a1872c4245ee4
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: fc7a0c6f750958cb35b2a85ed9d548f2e8219484
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2991919"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182339"
 ---
 # <a name="view-the-availability-of-items"></a>Voir la disponibilité des articles
 Dans le contexte d'une tâche professionnelle, vous pouvez obtenir des informations avancées sur la disponibilité et l'emplacement d'un article, par exemple en discutant avec un client à propos d'une date de livraison.
@@ -62,7 +62,7 @@ Vous pouvez visualiser la disponibilité d'un article dans le temps pour les pé
 ## <a name="to-view-the-availability-of-an-item-at-the-locations-where-it-is-stored"></a>Pour afficher la disponibilité d'un article dans les magasins dans lesquels il est stocké
 Vous pouvez afficher la disponibilité d'un article dans les magasins dans lesquels il est stocké sur la page **Disponibilité art. par magasin**.
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles**, puis sélectionnez le lien associé.
 2. Ouvrez la fiche d'un article dont vous voulez afficher la disponibilité.
 3. Cliquez sur **Disponibilité article par**, puis sur **Magasin**.
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: categories, search words, facets
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: d22c0f05b6580a5621d4efcd6fd969854f6b7b9c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5c927a5d182cf2e33620496ea07cbc599d7537e3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309643"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181907"
 ---
 # <a name="work-with-item-attributes"></a>Utiliser les attributs d'article
 Lorsque les clients recherchent des renseignements au sujet d'un article, par courrier ou via une boutique en ligne, ils peuvent effectuer leur recherche en fonction de caractéristiques, telles que la hauteur et l'année du modèle. Pour assurer le service de ce client, vous pouvez affecter des valeurs attribut article de différents types à vos articles, qui peuvent être utilisées pour rechercher les articles.
@@ -39,7 +39,7 @@ Vous pouvez également allouer les attributs d'article aux catégories d'article
 3. Sur la page **Valeurs attribut article**, renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-item-attributes-to-items"></a>Pour allouer des attributs article à des articles
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles**, puis sélectionnez le lien associé.
 2. Sur la page **Articles**, sélectionnez l'article auquel vous souhaitez affecter des attributs article, puis sélectionnez l'action **Attributs**.
 3. Sur la page **Valeurs attributs article**, sélectionnez l'action **Nouveau**.
 4. Sélectionnez le bouton de recherche dans le champ **Attribut** et sélectionnez un attribut d'article existant. Sinon, sélectionnez l'action **Nouveau** pour créer tout d'abord un nouvel attribut comme expliqué dans [Créer des attributs d'article](inventory-how-work-item-attributes.md#to-create-item-attributes).
@@ -48,7 +48,7 @@ Vous pouvez également allouer les attributs d'article aux catégories d'article
 7. Répétez les étapes 4 à 6 pour tous attributs article que vous souhaitez affecter à l'article.
 
 ## <a name="to-assign-item-attributes-to-item-categories"></a>Pour allouer des attributs article aux catégories article
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Catégories article**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Catégories d'article**, puis sélectionnez le lien associé.
 2. Sur la page **Catégories d'article**, sélectionnez la catégorie article à laquelle vous souhaitez affecter des attributs article, puis sélectionnez l'action **Modifier**.
 3. Sur la page **Fiche catégorie article**, sur le raccourci **Attributs**, sélectionnez l'action **Nouveau**.
 4. Sélectionnez le bouton de recherche dans le champ **Attribut** et sélectionnez un attribut d'article existant. Sinon, sélectionnez l'action **Nouveau** pour créer tout d'abord un nouvel attribut comme expliqué dans [Créer des attributs d'article](inventory-how-work-item-attributes.md#to-create-item-attributes).
@@ -59,7 +59,7 @@ Vous pouvez également allouer les attributs d'article aux catégories d'article
 >   Les attributs article pour les catégories d'article seront transmis aux catégories d'article enfant. Cela est indiqué par le champ **Hérité de** sur le raccourci **Attributs**. Pour plus d'informations, voir [Catégoriser des articles](inventory-how-categorize-items.md).
 
 ## <a name="to-filter-by-item-attributes"></a>Pour filtrer par attribut d'article
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles**, puis sélectionnez le lien associé.
 2. Sur la page **Articles**, sélectionnez l'action **Filtrer par attributs**.
 3. Sur la page **Filtrer les articles par attribut**, cliquez sur le bouton de recherche du champ **Attribut**, puis sélectionnez un attribut article.
 4. Dans le champ **Valeur**, cliquez sur le bouton de recherche et sélectionnez une valeur d'attribut selon laquelle filtrer les articles.
@@ -78,5 +78,5 @@ Les articles de la page **Articles** sont filtrés selon les valeurs attribut ar
 ## <a name="see-also"></a>Voir aussi
 [Catégoriser des articles](inventory-how-categorize-items.md)    
 [Enregistrer de nouveaux articles](inventory-how-register-new-items.md)  
-[STOCKS ET EN-COURS](inventory-manage-inventory.md)  
+[Stock](inventory-manage-inventory.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

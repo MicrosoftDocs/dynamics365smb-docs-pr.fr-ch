@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 0b53d1af23051ae2ac5f54a921e8fca36263d777
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 55f7e0f58634ad56d88d6e826f42eafdc92c6a6a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300028"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182435"
 ---
 # <a name="work-with-intercompany-documents-and-journals"></a>Utiliser les documents et les feuilles intersociétés
 Les documents ou les feuilles intersociétés permettent de valider les transactions effectuées avec vos partenaires intersociétés. Lorsque vous validez un document ou une ligne feuille intersociétés dans votre société, le programme crée le document ou la ligne feuille correspondant dans votre boîte d'envoi intersociétés : vous pouvez le transmettre au partenaire concerné. Celui-ci peut ensuite valider la transaction correspondante dans sa société sans avoir à réentrer les données.
@@ -41,13 +41,13 @@ La procédure suivante explique comment renseigner et envoyer une commande vente
 ## <a name="to-fill-in-and-post-an-intercompany-journal"></a>Pour renseigner et valider une feuille intersociétés
 Lorsque vous validez une ligne feuille comptabilité intersociétés dans votre société, le programme crée la ligne feuille correspondante dans votre boîte d'envoi intersociétés : vous pouvez la transmettre au partenaire concerné. Celui-ci peut ensuite valider la transaction correspondante dans sa société sans avoir à réentrer les données.
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille comptabilité Intersociétés**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles comptabilité Intersociétés**, puis sélectionnez le lien associé.  
 2. Ouvrez la feuille appropriée. Pour plus d'informations, voir [Utilisation des feuilles comptabilité](ui-work-general-journals.md).
 3. Renseignez les champs selon vos besoins.
 4. Dans le champ **N° cpte gén partenaire IC**, saisissez le numéro du compte général intersociétés sur lequel le montant sera validé dans la société de votre partenaire.
 
     > [!NOTE]
-    > Ce champ doit être renseigné avec une ligne dont l'un des champs **N° compte** ou  **N° compte contrepartie** contient un compte bancaire ou un compte général.  
+    > Ce champ doit être renseigné avec une ligne dont l'un des champs **N° compte** ou **N° compte contrepartie** contient un compte bancaire ou un compte général.  
 5. Sélectionnez l'action **Valider**.
 
 Les écritures associées sont validées dans votre société et une feuille avec les écritures correspondantes est créée dans votre boîte d'envoi intersociétés ; vous pouvez l'envoyer à votre partenaire. Pour plus d'informations, voir [Gérer la boîte de réception et la boîte d'envoi intersociétés](intercompany-how-manage-intercompany-inbox.md).

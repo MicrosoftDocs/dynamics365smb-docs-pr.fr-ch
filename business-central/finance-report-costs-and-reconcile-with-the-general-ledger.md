@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 82c953ce7f32ae5304c8282f5caf8081f9e40a88
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 1fae944598a988c739978f69bace612c57de0ef6
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879528"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182939"
 ---
 # <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Génération des coûts et rapprochement en comptabilité
 À la fin de la période comptable (mensuelle, annuelle, etc.), une série de tâches de contrôle des coûts et d'audit doivent être effectuées pour déclarer une valeur en stock correcte et équilibrée au département Finances. Outre les tâches habituelles de validation qui transfèrent les écritures valeur de chaque article vers les comptes généraux appropriés, l'auditeur ou le contrôleur responsable de cette tâche critique a accès à plusieurs états et fonctions de suivi, ainsi qu'à un outil de rapprochement.  

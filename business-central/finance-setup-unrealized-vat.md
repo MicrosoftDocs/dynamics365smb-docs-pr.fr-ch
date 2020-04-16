@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cash, VAT, unrealized, cash-based
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 1a2d0fa994638fed9c0b46508e80c3b0443a9c58
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f4d08d96621d5ff59b65a35e899d66afe0ddaa52
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301675"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182723"
 ---
 # <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Configurer la TVA sur encaissement pour la comptabilité basée sur la trésorerie
 Si vous utilisez des méthodes comptables basées sur la trésorerie, vous pouvez configurer [!INCLUDE[d365fin](includes/d365fin_md.md)] pour gérer la TVA sur encaissement.
@@ -24,9 +24,9 @@ Si vous utilisez des méthodes comptables basées sur la trésorerie, vous pouve
 Vous pouvez choisir de calculer et de valider les montants de TVA dans un compte général temporaire lorsqu'une facture est validée, puis de les valider dans le compte général approprié et de les inclure dans des déclarations de TVA lorsque le paiement réel de la facture est validé. Pour cela, vous devez définir des paramètres validation TVA.
 
 Pour utiliser les comptes pour la TVA sur encaissement, procédez comme suit :
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), et saisissez **Paramètres comptabilité**.
-2. Sur la page **Configuration comptabilité**, cochez la case **TVA sur encaissement**.
-3. Choisissez l'icône **Page ou état pour la recherche** ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), et saisissez **Paramètres compta. TVA**.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), puis saisissez **Paramètres comptabilité**.
+2. Sur la page **Paramètres comptabilité**, cochez la case **TVA sur encaissement**.
+3. Choisissez l'icône **Page ou état pour la recherche** ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), puis saisissez **Paramètres compta. TVA**.
 4. Sur la page **Paramètres compta. TVA**, sélectionnez le groupe comptabilisation TVA, puis l'action **Modifier**.
 5. Dans le champ **Type TVA sur encaissement**, choisissez une option pour spécifier comment ventiler des paiements sur le montant de la facture (hors TVA) et le montant TVA, et comment transférer les montants TVA du compte TVA sur encaissement vers le compte réalisée. Le tableau suivant décrit les options.
 

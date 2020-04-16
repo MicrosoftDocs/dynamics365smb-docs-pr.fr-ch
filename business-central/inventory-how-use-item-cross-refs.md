@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8f7c409759716e741edfe1a352ff81da9fdea0db
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 89a99080723ee57270583ee2f277250d767b8dde
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309667"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181955"
 ---
 # <a name="use-item-cross-references"></a>Utiliser les références externes article
 Si vous configurez une référence externe entre la désignation article que vous utilisez pour un article et la désignation que le fournisseur de cet article utilise, la désignation de l'article du fournisseur est automatiquement insérée sur les documents achat du fournisseur lorsque vous renseignez le **N° référence externe**. . La même fonctionnalité s'applique pour les numéros d'article client sur les documents vente.
@@ -25,7 +25,7 @@ Si vous configurez une référence externe entre la désignation article que vou
 Les procédures suivantes décrivent comment utiliser les références externes article côté achat. La procédure est identique côté achat.
 
 ## <a name="to-set-up-an-item-cross-reference-to-a-vendors-item-description"></a>Pour configurer une référence externe article à la description d'un article fournisseur
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles**, puis sélectionnez le lien associé.
 2. Ouvrez la fiche correspondant à l'article pour lequel vous souhaitez créer une référence externe à la description de l'article que le fournisseur utilise pour cet article.
 3. Choisissez l'action **Références externes**.
 4. Sur une nouvelle ligne de la page **Écritures de référence externe article**, renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
@@ -40,5 +40,5 @@ Le champ **Description** de la ligne est remplacé par la description d'article 
 
 ## <a name="see-also"></a>Voir aussi
 [Enregistrer de nouveaux articles](inventory-how-register-new-items.md)  
-[Inventaire](inventory-manage-inventory.md)  
+[Stock](inventory-manage-inventory.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: d3efa05fda5bcacd4eba0fa4f4f64888d91c46bf
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 3e345e3037cb70923a42f1b6684442ba78201c4e
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309619"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181883"
 ---
 # <a name="work-with-serial-and-lot-numbers"></a>Utiliser les numéros de lot et de série
 Vous pouvez affecter des numéros de série et de lot à n'importe quel document sortant ou entrant, puis afficher les écritures traçabilité validées dans les écritures comptables articles correspondantes. Vous effectuez le travail sur la page **Lignes traçabilité**, que vous pouvez ouvrir depuis un document entrant ou sortant.
@@ -102,7 +102,7 @@ Vous pouvez lier des informations particulières à un numéro traçabilité, pa
 6. Sélectionnez le champ **Bloqué** pour exclure l'ancien numéro de lot ou de série de toutes les transactions.  
 
 ## <a name="to-modify-existing-serial-or-lot-number-information"></a>Pour modifier des informations relatives au numéro de série ou de lot  
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles**, puis sélectionnez le lien associé.  
 2. Sélectionnez un article qui comporte un code traçabilité et des informations de numéro de série ou de lot.
 3. Sur la page **Fiche article**, choisissez l'action **Écritures**, puis choisissez **Écritures comptables**.
 4. Cliquez sur le champ **N° lot** ou **N° de série**. S'il existe des informations en relation avec ce numéro de traçabilité article, alors la page **Liste information n° lot** ou **Liste information n° de série** s'ouvre.  
@@ -119,7 +119,7 @@ Pour définir les règles exactes de traitement des numéros traçabilité pour 
 > [!NOTE]  
 >  Pour utiliser les numéros de traçabilité dans les activités entrepôt, les champs de configuration **N° lot - Traçabilité entrepôt** et **NS - Traçabilité entrepôt** doivent être sélectionnés car ils définissent les principes de gestion des numéros de série et de lot dans les activités entrepôt.  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes achat**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes achat**, puis sélectionnez le lien associé.  
 2.  Sélectionnez la ligne document appropriée et dans le raccourci **Lignes**, sélectionnez l'action **Ligne**, puis l'action **Lignes traçabilité**.  
 
     Vous pouvez affecter des numéros de série ou de lot. Pour cela, il existe plusieurs méthodes :  

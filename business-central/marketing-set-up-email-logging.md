@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, opportunity, email
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: e325cce98256b723c6fcfdf4d16068f852a2b032
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 13699c002402b6b6d32edc13dca3710fefff2129
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308755"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181283"
 ---
 # <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>Suivre les échanges de messages électroniques entre les vendeurs et les contacts
 Tirez le meilleur parti des communications entre les vendeurs et vos clients existants ou potentiels en suivant les échanges de courriers électroniques, puis en les transformant en opportunités exploitables. [!INCLUDE[d365fin](includes/d365fin_md.md)] peut utiliser Exchange Online pour conserver un journal des messages entrants et sortants. Vous pouvez afficher et analyser le contenu de chaque message sur la page **Écritures journal interaction**.
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085401]
 
-## <a name="setting-up-included365finincludesd365fin_mdmd-to-log-email-messages"></a>Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)] pour enregistrer les messages électroniques
+## <a name="setting-up-d365fin-to-log-email-messages"></a>Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)] pour enregistrer les messages électroniques
 Commencez avec la connexion à la messagerie en deux étapes :
 
 1. Connectez [!INCLUDE[d365fin](includes/d365fin_md.md)] à Exchange Online pour votre abonnement Office 365. Exchange Online gère vos e-mails. Nous avons facilité cette étape en fournissant un guide de configuration assisté. Vous avez juste besoin de vos identifiants d’administrateur pour votre compte d’administrateur dans Office 365. Pour commencer le guide, accédez à **Configuration assistée**, puis choisissez **Configurer la journalisation des emails**. 

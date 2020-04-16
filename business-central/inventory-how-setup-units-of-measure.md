@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: UOM
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: SorenGP
-ms.openlocfilehash: 672ddb851b14accf4df3f88bbc0badd775319a68
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f8ddba0ba5507d205e5e8fdf6f04007ac1060462
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309811"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182075"
 ---
 # <a name="set-up-item-units-of-measure"></a>Configuration d'unités article
 Vous pouvez définir plusieurs unités pour un article afin que vous puissiez affecter des unités à l'article aux fins suivantes :
@@ -28,7 +28,7 @@ Vous pouvez définir plusieurs unités pour un article afin que vous puissiez af
 Si un article est stocké dans une unité mais produit dans une autre, un ordre de fabrication utilisant une unité de lot de fabrication est créé pour calculer la quantité correcte des composants durant le traitement par lots **Actualiser O.F.**. Une situation dans laquelle un article fabriqué est stocké en pièces mais produit en tonnes est un exemple d'un calcul d'unité de lot de fabrication. Pour plus d'informations, voir [Utiliser les unités de lot de fabrication](production-how-to-use-the-manufacturing-batch-unit-of-measure.md).
 
 ## <a name="to-set-up-a-unit-of-measure"></a>Pour configurer une unité
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles**, puis sélectionnez le lien associé.
 2. Ouvrez la fiche article pour laquelle vous souhaitez configurer des unités de remplacement.
 3. Choisissez l'action **Unités de mesure**. La page **Unités article** s'ouvre.
 4. Si le champ **Unité de base** de la fiche article est renseigné, cette unité est déjà installée.
@@ -51,7 +51,7 @@ Lorsque vous vendez des articles à des clients étrangers, vous pouvez être am
 ## <a name="to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions"></a>Pour entrer un code unité par défaut pour des transactions de ventes et d'achat
 Si vous utilisez habituellement d'autres unités que l'unité de base pour vos achats et vos ventes, vous pouvez indiquer des unités distinctes. Pour cela, vous devez configurer les unités sur la page **Unités article**.
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles**, puis sélectionnez le lien associé.
 2. Ouvrez la fiche article appropriée pour laquelle vous souhaitez indiquer un code unité par défaut pour les achats et les ventes.
 3. Pour les ventes, sur le raccourci **Facturation**, dans le champ **Unité de vente**, ouvrez la page **Unités article**.
 4. Pour les achats, sur le raccourci **Réapprovisionnement**, dans le champ **Unité d'achat**, ouvrez la page **Unités article**.

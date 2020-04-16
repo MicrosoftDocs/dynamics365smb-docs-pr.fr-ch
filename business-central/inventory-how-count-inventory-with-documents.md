@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, status, negative, positive, increase, decrease
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 33710cd80ba1218ad59c98ec605bcba98c8b7e1c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 944ce9e3950ea64fafada118b6f99f5d891242a5
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309931"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182219"
 ---
 # <a name="count-inventory-using-documents"></a>Faire l'inventaire à l'aide de documents
 Vous pouvez effectuer l'inventaire d'un stock physique de vos articles à l'aide des documents Commande de stock physique et Enregistrement de stock physique. La page **Commande de stock physique** est utilisée pour organiser le projet d'inventaire complet, par exemple un par magasin. La page **Enregistrement de stock physique** est utilisée pour communiquer et capturer le nombre réel d'articles. Vous pouvez créer plusieurs enregistrements pour une commande, par exemple, pour répartir les groupes d'articles vers différents employés.
@@ -36,9 +36,9 @@ Réaliser l'inventaire à l'aide de documents se produit comme suit :
 ## <a name="to-create-a-physical-inventory-order"></a>Pour créer une commande de stock physique
 Une commande de stock physique est un document complet composé d'une en-tête de commande de stock physique et de quelques lignes de commande de stock physique. Les informations relatives à une en-tête de stock physique décrivent comment effectuer l'inventaire. Les lignes de commande de stock physique contiennent les informations relatives aux articles et à leurs magasins.
 
-Pour créer les lignes de commande de stock physique, vous utilisez généralement la fonction **Calculer les lignes** pour refléter le stock actuel comme lignes de la commande. Sinon, vous pouvez utiliser la fonction **Copier document** pour compléter les lignes avec le contenu de toute autre commande de stock physique ouverte ou validée. La procédure suivante décrit uniquement comment utiliser la fonction **Calculer les lignes**.
+Pour créer les lignes de commande de stock physique, vous utilisez généralement la fonction **Calculer les lignes** pour refléter le stock actuel comme lignes de la commande. Sinon, vous pouvez utiliser la fonction **Copier à partir du document** pour compléter les lignes avec le contenu de toute autre commande de stock physique ouverte ou validée. La procédure suivante décrit uniquement comment utiliser la fonction **Calculer les lignes**.
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes de stock physique**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes de stock**, puis sélectionnez le lien associé.
 2. Sélectionnez l'action **Nouveau**.
 3. Renseignez les champs requis du raccourci **Général**. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Choisissez l'action **Calculer les lignes**.
@@ -98,7 +98,7 @@ Vous pouvez aussi choisir l'action **Diff. commande de stock physique** pour vis
 
 ### <a name="to-find-duplicate-physical-inventory-order-lines"></a>Pour rechercher les doublons de lignes de commande de stock physique
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes de stock physique**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes de stock**, puis sélectionnez le lien associé.
 2. Ouvrez la commande de stock physique pour laquelle vous souhaitez afficher les doublons de lignes.
 3. Choisissez l'action **Afficher les doublons de lignes**.
 
@@ -111,7 +111,7 @@ Après avoir effectué une commande de stock physique et modifié son statut sur
 - Chaque ligne de commande de stock physique a été comptabilisée par au moins une ligne d'enregistrement de stock.
 - Les cases à cocher **Dans les lignes enregistrement** et **Qté prévue (calculée)** ont été sélectionnées pour toutes les lignes de commande de stock physique.
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes de stock physique**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes de stock**, puis sélectionnez le lien associé.
 2. Sélectionnez la commande de stock physique que vous souhaitez compléter, puis sélectionnez l'action **Modifier**.
 
     Sur la page **Commande de stock physique**, vous visualisez la quantité enregistrée dans le champ **Qté enregistrée (de base)**.
