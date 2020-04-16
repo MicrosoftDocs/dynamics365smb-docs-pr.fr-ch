@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: ac9d8aef8e370423d76dea1a20e08874ad84c50d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4edb514398db6d66bb36bad80013162facbe1ba3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301047"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189139"
 ---
 # <a name="assign-delivery-reminder-codes-to-vendors"></a>Affecter des codes de relance livraison à des fournisseurs
 Afin que vous puissiez activer les relances livraison pour les achats en retard, vous devez affecter des conditions de relance livraison à des fournisseurs. Pour plus d'informations, voir [Relances livraison](delivery-reminders.md).  
 
 ## <a name="to-assign-delivery-reminders-codes-to-vendors"></a>Affecter des codes de relance livraison à des fournisseurs  
 
-1.  Choisissez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Comptes bancaires**, puis sélectionnez le lien connexe.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Fournisseurs**, puis choisissez le lien associé.  
 2.  Sélectionnez le fournisseur pour lequel vous souhaitez définir des relances livraison, puis cliquez sur **Modifier**.  
 3.  Dans le raccourci **Réception**, dans le champ **Conditions de relance livraison**, sélectionnez un code condition relance livraison pour le fournisseur.  
 4.  Cliquez sur le bouton **OK**.  

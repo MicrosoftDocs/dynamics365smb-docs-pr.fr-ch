@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 0efdee2c91155234e19d3c5c64a53ab112d82e6b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 832dbad14962b0e7a1f324d81d798fb4d6759e13
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301029"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189124"
 ---
 # <a name="import-esr-payments"></a>Importer des paiements ESR
 Après avoir reçu le paiement d'un client, vous recevez un fichier contenant des informations sur les factures payées. Vous pouvez recevoir ce fichier de votre banque par voie électronique, ou par courrier électronique.  
@@ -26,7 +26,7 @@ Vous pouvez importer les données de facture Einzahlungsschein mit Referenznumme
 
 ## <a name="to-import-esr-payments"></a>Pour importer des paiements ESR  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuilles règlement**, puis sélectionnez le lien connexe.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Feuilles règlement**, puis choisissez le lien associé.  
 2.  Dans le champ **Nom de la feuille**, sélectionnez le nom de feuille comptabilité requis.  
 
     > [!NOTE]  
@@ -42,5 +42,5 @@ Vous pouvez importer les données de facture Einzahlungsschein mit Referenznumme
 Les informations sur le paiement sont importées vers les lignes feuille. Les paiements sont automatiquement appliqués aux factures respectives selon des numéros de référence ESR uniques.  
 
 ## <a name="see-also"></a>Voir aussi  
- [Paiements électroniques à l'aide de ESR+, Suisse](swiss-electronic-payments-using-esr.md)   
+ [Paiements électroniques à l'aide de ESR, Suisse](swiss-electronic-payments-using-esr.md)   
  [Imprimer des factures ESR](how-to-print-esr-invoices.md)

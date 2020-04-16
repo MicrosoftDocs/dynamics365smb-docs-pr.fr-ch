@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8d8785284a5a9f7d580ff7bac19a88ef5c940ae5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6324993c3044f08a837590a39d831f438c66fcd7
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300990"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189088"
 ---
 # <a name="set-up-delivery-reminder-terms-levels-and-text"></a>Configurer les conditions, niveaux et textes de relance livraison.
 Pour créer des relances livraison, vous devez configurer ce qui suit :  
@@ -32,7 +32,7 @@ Pour plus d'informations, voir [Relances livraison](delivery-reminders.md).
 
 ## <a name="to-set-up-delivery-reminder-terms"></a>Pour configurer des conditions de relance livraison  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Conditions de relance livraison**, puis sélectionnez le lien connexe.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Conditions de relance de livraison**, puis choisissez le lien associé.  
 2.  Sélectionnez l'action **Nouveau**.  
 3.  Renseignez les champs comme indiqué dans le tableau suivant.  
 

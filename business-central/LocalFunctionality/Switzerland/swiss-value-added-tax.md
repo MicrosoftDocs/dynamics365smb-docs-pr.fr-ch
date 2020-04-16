@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: b6a67109ae6bda9111c17fb0d233742fdcac3451
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: ddac5da75674d6270b2574222eb967bc0022cddc
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881290"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189061"
 ---
 # <a name="swiss-value-added-tax"></a>Taxe sur la valeur ajoutée, Suisse
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] inclut les améliorations suivantes à la déclaration de TVA en Suisse :  
