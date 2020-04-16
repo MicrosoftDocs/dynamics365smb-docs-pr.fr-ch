@@ -10,37 +10,37 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 0efdee2c91155234e19d3c5c64a53ab112d82e6b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 832dbad14962b0e7a1f324d81d798fb4d6759e13
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301029"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189124"
 ---
-# <a name="import-esr-payments"></a><span data-ttu-id="9c986-104">Importer des paiements ESR</span><span class="sxs-lookup"><span data-stu-id="9c986-104">Import ESR Payments</span></span>
-<span data-ttu-id="9c986-105">Après avoir reçu le paiement d'un client, vous recevez un fichier contenant des informations sur les factures payées.</span><span class="sxs-lookup"><span data-stu-id="9c986-105">After you receive payment from a customer, you receive a file that contains information about paid invoices.</span></span> <span data-ttu-id="9c986-106">Vous pouvez recevoir ce fichier de votre banque par voie électronique, ou par courrier électronique.</span><span class="sxs-lookup"><span data-stu-id="9c986-106">You can receive this file from your bank electronically, or by mail.</span></span>  
+# <a name="import-esr-payments"></a><span data-ttu-id="3315d-104">Importer des paiements ESR</span><span class="sxs-lookup"><span data-stu-id="3315d-104">Import ESR Payments</span></span>
+<span data-ttu-id="3315d-105">Après avoir reçu le paiement d'un client, vous recevez un fichier contenant des informations sur les factures payées.</span><span class="sxs-lookup"><span data-stu-id="3315d-105">After you receive payment from a customer, you receive a file that contains information about paid invoices.</span></span> <span data-ttu-id="3315d-106">Vous pouvez recevoir ce fichier de votre banque par voie électronique, ou par courrier électronique.</span><span class="sxs-lookup"><span data-stu-id="3315d-106">You can receive this file from your bank electronically, or by mail.</span></span>  
 
-<span data-ttu-id="9c986-107">Vous pouvez importer les données de facture Einzahlungsschein mit Referenznummer (ESR) issues du fichier, imprimer les données en utilisant l'état ESR de la facture de vente ou le rapport de coupon ESR des ventes, et les vérifier avant de les valider.</span><span class="sxs-lookup"><span data-stu-id="9c986-107">You can import the Einzahlungsschein mit Referenznummer (ESR) invoice data from the file, print the data by using the sales invoice ESR report or the sales ESR coupon report, and verify before posting.</span></span> <span data-ttu-id="9c986-108">Pour plus d'informations, reportez-vous à [Imprimer des factures ESR](how-to-print-esr-invoices.md).</span><span class="sxs-lookup"><span data-stu-id="9c986-108">For more information, see [Print ESR Invoices](how-to-print-esr-invoices.md).</span></span>  
+<span data-ttu-id="3315d-107">Vous pouvez importer les données de facture Einzahlungsschein mit Referenznummer (ESR) issues du fichier, imprimer les données en utilisant l'état ESR de la facture de vente ou le rapport de coupon ESR des ventes, et les vérifier avant de les valider.</span><span class="sxs-lookup"><span data-stu-id="3315d-107">You can import the Einzahlungsschein mit Referenznummer (ESR) invoice data from the file, print the data by using the sales invoice ESR report or the sales ESR coupon report, and verify before posting.</span></span> <span data-ttu-id="3315d-108">Pour plus d'informations, reportez-vous à [Imprimer des factures ESR](how-to-print-esr-invoices.md).</span><span class="sxs-lookup"><span data-stu-id="3315d-108">For more information, see [Print ESR Invoices](how-to-print-esr-invoices.md).</span></span>  
 
-## <a name="to-import-esr-payments"></a><span data-ttu-id="9c986-109">Pour importer des paiements ESR</span><span class="sxs-lookup"><span data-stu-id="9c986-109">To import ESR payments</span></span>  
+## <a name="to-import-esr-payments"></a><span data-ttu-id="3315d-109">Pour importer des paiements ESR</span><span class="sxs-lookup"><span data-stu-id="3315d-109">To import ESR payments</span></span>  
 
-1.  <span data-ttu-id="9c986-110">Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuilles règlement**, puis sélectionnez le lien connexe.</span><span class="sxs-lookup"><span data-stu-id="9c986-110">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Cash Receipt Journals**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="9c986-111">Dans le champ **Nom de la feuille**, sélectionnez le nom de feuille comptabilité requis.</span><span class="sxs-lookup"><span data-stu-id="9c986-111">In the **Batch Name** field, select the required journal batch.</span></span>  
-
-    > [!NOTE]  
-    >  <span data-ttu-id="9c986-112">La feuille doit être vide avant l'importation du fichier ESR.</span><span class="sxs-lookup"><span data-stu-id="9c986-112">The journal must be empty before you import the ESR file.</span></span> <span data-ttu-id="9c986-113">Vous ne pouvez pas importer plusieurs fichiers ESR dans la même feuille règlement.</span><span class="sxs-lookup"><span data-stu-id="9c986-113">You cannot import more than one ESR file into the same cash receipt journal.</span></span>  
-
-3.  <span data-ttu-id="9c986-114">Choisissez l'action **Lire le fichier ESR**.</span><span class="sxs-lookup"><span data-stu-id="9c986-114">Choose the **Read ESR File** action.</span></span>  
+1.  <span data-ttu-id="3315d-110">Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Feuilles règlement**, puis choisissez le lien associé.</span><span class="sxs-lookup"><span data-stu-id="3315d-110">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Cash Receipt Journals**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="3315d-111">Dans le champ **Nom de la feuille**, sélectionnez le nom de feuille comptabilité requis.</span><span class="sxs-lookup"><span data-stu-id="3315d-111">In the **Batch Name** field, select the required journal batch.</span></span>  
 
     > [!NOTE]  
-    >  <span data-ttu-id="9c986-115">Si vous avez défini plusieurs banques ESR, un message d'avertissement s'affiche pour vous inviter à choisir la banque concernée.</span><span class="sxs-lookup"><span data-stu-id="9c986-115">If you have defined more than one ESR bank, a warning message displays instructing you to choose the relevant bank.</span></span> <span data-ttu-id="9c986-116">Pour plus d'informations, voir la table Configuration ESR.</span><span class="sxs-lookup"><span data-stu-id="9c986-116">For more information, see the ESR Setup table.</span></span>  
+    >  <span data-ttu-id="3315d-112">La feuille doit être vide avant l'importation du fichier ESR.</span><span class="sxs-lookup"><span data-stu-id="3315d-112">The journal must be empty before you import the ESR file.</span></span> <span data-ttu-id="3315d-113">Vous ne pouvez pas importer plusieurs fichiers ESR dans la même feuille règlement.</span><span class="sxs-lookup"><span data-stu-id="3315d-113">You cannot import more than one ESR file into the same cash receipt journal.</span></span>  
 
-4.  <span data-ttu-id="9c986-117">Cliquez sur le bouton **Oui**, puis sur le bouton **OK**.</span><span class="sxs-lookup"><span data-stu-id="9c986-117">Choose the **Yes** button, and then choose the **OK** button.</span></span>  
+3.  <span data-ttu-id="3315d-114">Choisissez l'action **Lire le fichier ESR**.</span><span class="sxs-lookup"><span data-stu-id="3315d-114">Choose the **Read ESR File** action.</span></span>  
 
-<span data-ttu-id="9c986-118">Les informations sur le paiement sont importées vers les lignes feuille.</span><span class="sxs-lookup"><span data-stu-id="9c986-118">The payments information is imported to the journal lines.</span></span> <span data-ttu-id="9c986-119">Les paiements sont automatiquement appliqués aux factures respectives selon des numéros de référence ESR uniques.</span><span class="sxs-lookup"><span data-stu-id="9c986-119">The payments are automatically applied to the respective invoices according to unique ESR reference numbers.</span></span>  
+    > [!NOTE]  
+    >  <span data-ttu-id="3315d-115">Si vous avez défini plusieurs banques ESR, un message d'avertissement s'affiche pour vous inviter à choisir la banque concernée.</span><span class="sxs-lookup"><span data-stu-id="3315d-115">If you have defined more than one ESR bank, a warning message displays instructing you to choose the relevant bank.</span></span> <span data-ttu-id="3315d-116">Pour plus d'informations, voir la table Configuration ESR.</span><span class="sxs-lookup"><span data-stu-id="3315d-116">For more information, see the ESR Setup table.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="9c986-120">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="9c986-120">See Also</span></span>  
- <span data-ttu-id="9c986-121">[Paiements électroniques à l'aide de ESR+, Suisse](swiss-electronic-payments-using-esr.md) </span><span class="sxs-lookup"><span data-stu-id="9c986-121">[Swiss Electronic Payments Using ESR](swiss-electronic-payments-using-esr.md) </span></span>  
- [<span data-ttu-id="9c986-122">Imprimer des factures ESR</span><span class="sxs-lookup"><span data-stu-id="9c986-122">Print ESR Invoices</span></span>](how-to-print-esr-invoices.md)
+4.  <span data-ttu-id="3315d-117">Cliquez sur le bouton **Oui**, puis sur le bouton **OK**.</span><span class="sxs-lookup"><span data-stu-id="3315d-117">Choose the **Yes** button, and then choose the **OK** button.</span></span>  
+
+<span data-ttu-id="3315d-118">Les informations sur le paiement sont importées vers les lignes feuille.</span><span class="sxs-lookup"><span data-stu-id="3315d-118">The payments information is imported to the journal lines.</span></span> <span data-ttu-id="3315d-119">Les paiements sont automatiquement appliqués aux factures respectives selon des numéros de référence ESR uniques.</span><span class="sxs-lookup"><span data-stu-id="3315d-119">The payments are automatically applied to the respective invoices according to unique ESR reference numbers.</span></span>  
+
+## <a name="see-also"></a><span data-ttu-id="3315d-120">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="3315d-120">See Also</span></span>  
+ <span data-ttu-id="3315d-121">[Paiements électroniques à l'aide de ESR, Suisse](swiss-electronic-payments-using-esr.md) </span><span class="sxs-lookup"><span data-stu-id="3315d-121">[Swiss Electronic Payments Using ESR](swiss-electronic-payments-using-esr.md) </span></span>  
+ [<span data-ttu-id="3315d-122">Imprimer des factures ESR</span><span class="sxs-lookup"><span data-stu-id="3315d-122">Print ESR Invoices</span></span>](how-to-print-esr-invoices.md)
