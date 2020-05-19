@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 04/30/2020
 ms.author: sgroespe
-ms.openlocfilehash: 2460c086ec4b126e4ea162f865eee002bf48bf7a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 9d5a52c0e3f13da1b1f78408e513f731487136e0
+ms.sourcegitcommit: 866f0e6ed9df3397072b9df838e31c3a1f4b626d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189064"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "3333931"
 ---
 # <a name="swiss-purchase-documents-and-sales-documents"></a>Documents vente et Documents achat, Suisse
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] comprend des améliorations suisses propres aux documents d'achat et de vente. Notamment :  
@@ -34,6 +34,9 @@ Lors de la création d'un devis ou d'une commande vente, si le type de la ligne 
 Les articles sont divisés en fonction des valeurs générées par le système affichées dans le champ **Niveau**.  
 
 Vous pouvez spécifier un article comme variante de la ligne devis. Cela vous permet de répertorier les articles secondaires sans inclure le prix du devis. Vous pouvez également faire référence aux éléments spécifiques de devis ou de commande vente en fonction de la valeur affichée dans le champ **Position** de la ligne devis ou de la ligne commande vente. Pour plus d'informations, voir la table Ligne vente.  
+
+> [!NOTE]
+> Cette fonctionnalité n’est disponible que dans [!INCLUDE[prodshort](../../includes/prodshort.md)] sur site.
 
 ## <a name="purchase-invoices-and-sales-invoices-with-payment-discounts"></a>Factures achat et Factures vente avec escomptes  
 Pour les factures achat et les factures vente, le montant facture est retranché du montant remise, puis arrondi. Le facture totale est également arrondie s'il existe une remise. Pour plus d'informations, voir la table Paramètres comptabilité.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: QR-bill, invoice, incoming documents, payment reference
-ms.date: 04/01/2020
+ms.date: 05/05/2020
 ms.author: soalex
-ms.openlocfilehash: 6cf85170efe4f2d415adc1b1db83699730a6ea60
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: d331be04eefa0f6f3786bb43fed94682b2c11ff1
+ms.sourcegitcommit: 866f0e6ed9df3397072b9df838e31c3a1f4b626d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196419"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "3333928"
 ---
 # <a name="qr-bill-management-in-d365fin"></a>Gestion des QR-factures dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)]
 À partir du 1er juillet 2020, les sociétés en Suisse doivent pouvoir recevoir des QR-factures. Les QR-factures sont des bordereaux de paiement qui suivent les factures, et constituent une initiative nationale visant à rationaliser les processus de paiement. Les QR-factures remplacent tous les borderaux de paiement existants et les fonctionnalités liées à l'ESR. Elles contiennent toutes les informations nécessaires pour effectuer les paiements, et un code QR sur le borderau de paiement facilite l'importation des informations dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. Toutes les informations pertinentes sont importées et utilisées pour générer des paiements pour le vendeur qui a envoyé la QR-facture, y compris la référence du paiement, qui est automatiquement incluse dans les écritures comptables fournisseurs et exportée dans les fichiers de paiement à la banque.
@@ -57,8 +57,8 @@ Pour numériser ou importer une QR-facture, vous devez utiliser l'un des types d
 Vous pouvez recevoir les QR-factures à plusieurs endroits dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)] :
 
 * **Documents entrants**, lorsque vous souhaitez qu'une QR-facture lance la création d'un nouveau document achat ou une nouvelle feuille achat.
-* **Commandes achat et factures achat**, lorsque vous souhaitez importer des informations d'une QR-facture vers un document achat existant et les utiliser pour valider le montant et la devise et pour stocker la référence de paiement (Cette fonctionnalité est prévue pour la mise à jour de mai 2020 de [!INCLUDE[d365fin](../../includes/d365fin_md.md)]).
-* **Feuilles achat**, lorsque vous souhaitez créer de nouvelles lignes feuille achat basées sur les QR-factures (Cette fonctionnalité est prévue pour la mise à jour de mai 2020 de [!INCLUDE[d365fin](../../includes/d365fin_md.md)]). 
+* **Commandes achat et factures achat**, lorsque vous souhaitez importer des informations d'une QR-facture vers un document achat existant et l'utiliser pour valider le montant et la devise et pour stocker la référence de paiement.
+* **Feuilles achat**, lorsque vous souhaitez créer de nouvelles lignes feuille achat basées sur les QR-factures. 
 
 ### <a name="to-receive-a-qr-bill-through-an-incoming-documents"></a>Pour recevoir une QR-facture par le biais d'un document entrant
 La réception d'une QR-facture par le biais de documents entrants est particulièrement utile lorsque le processus est automatisé, mais vous pouvez également recevoir manuellement une QR-facture par le biais de documents entrants.
@@ -76,16 +76,14 @@ La réception d'une QR-facture par le biais de documents entrants est particuli�
 > [!Note]
 > Lorsque vous importez des QR-factures, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] tentera de trouver un compte bancaire fournisseur avec un IBAN ou QR-IBAN correspondant. Lors de l'importation de QR-factures sur des documents entrants, et donc de la création d'un document ou d'une feuille achat, le compte bancaire du fournisseur déterminera le fournisseur à utiliser. L'approche des documents entrants permet de s'assurer que le bon fournisseur est attribué.
 
-<!--
+### <a name="receiving-a-qr-bill-through-purchase-order-or-purchase-invoice"></a>Réception d'une QR-facture par le biais d'une commande achat ou d'une facture achat
+La réception d'une QR-facture par le biais d'une commande achat ou d'une facture achat valide le montant de la facture et ajoute la référence de paiement à la comptabilité. Comme pour les documents entrants, vous pouvez numériser ou importer une QR-facture dans une facture ou une commande achat existante. Ce processus utilise le QR-IBAN ou IBAN de la QR-facture pour trouver le fournisseur ayant un numéro correspondant. Si aucune correspondance n'est trouvée, vous ne pouvez pas numériser ou importer la QR-facture. Dans ce cas, vous pouvez créer le compte bancaire fournisseur et ensuite permettre que la QR-facture soit jointe au document achat. Lorsque la QR-facture est numérisée ou importée dans le document achat, elle ajoutera le montant, la référence de paiement ainsi que d'autres informations figurant sur la QR-facture. Elles serviront pour la validation avant la comptabilisation du document achat. La comptabilisation sera bloquée si le montant de la commande ou de la facture ne correspond pas à celui de la QR-facture. Une validation se produit également si vous numérisez ou importez la QR-facture. Si la référence de paiement est déjà utilisée sur une écriture comptable fournisseur pour un fournisseur, une erreur s'affichera. Les fournisseurs ne peuvent pas émettre plusieurs QR-factures avec la même référence de paiement. De même, une erreur s'affichera si la QR-facture et la référence de paiement ont déjà été importées vers un document achat ouvert. 
 
-### Receiving a QR-Bill through Purchase Order or Purchase Invoice (Planned for May, 2020)
-Receiving a QR-bill through a purchase order or purchase invoice validates the invoice amount and adds the payment reference to the ledgers. Like incoming documents, you can scan or import a QR-bill to an existing purchase order or invoice. This process uses the QR-IBAN or IBAN from the QR-bill to find the vendor with a matching number. If no match is found you cannot scan or import the QR-bill. If that happens, you can create the vendor bank account and then allow the QR-bill to be attached to the purchase document. When the QR-bill is scanned or imported to the purchase document it will add the amount, payment reference, and other information from the QR-bill. This is used for validation before posting the purchase document. Posting will be blocked if the amount of the order or invoice does not match the amount from the QR-bill. Validation also happens when you scan or import the QR-bill. If the payment reference is already used on a vendor ledger entry for a vendor, an error will display. Vendors cannot issue multiple QR-bills with the same payment reference. Similarly, an error will display if the QR-bill and payment reference has already been imported to an open purchase document. 
-
-### Receiving a QR-Bill through a Purchase Journal (Planned for May, 2020)
-You can scan or import QR-bills directly into a **Purchase Journal**. This is useful when you want to create new journal lines based on a QR-bill. Scanning or importing directly into a purchase journal creates a new **Purchase Journal Line** using the vendor and amount from the QR-bill, and tries to identify the vendor by finding a **Vendor Bank Account** that has a matching IBAN or QR-IBAN. For example, using purchase journals is useful if you do not want to use purchase orders or invoices.  -->
+### <a name="receiving-a-qr-bill-through-a-purchase-journal"></a>Réception d'une QR-facture par le biais d'une feuille achat
+Vous pouvez numériser ou importer des QR-factures directement dans une **feuille achat**. C'est utile lorsque vous souhaitez créer de nouvelles lignes feuille basées sur une QR-facture. La numérisation ou l'importation directement dans une feuille achat créer une nouvelle **ligne feuille achat** qui utilise le fournisseur et le montant de la QR-facture, et tente d'identifier le fournisseur en trouvant un **Compte bancaire fournisseur** ayant un IBAN ou QR-IBAN correspondant. Par exemple, il est utile d'utiliser des feuilles achat si vous ne souhaitez pas utiliser de factures ou commandes achat.
 
 ## <a name="reconciliation"></a>Rapprochement
-Lors de l'importation de transactions bancaires (camt) sur la page Feuille rapprochement bancaire, le fichier est supposé inclure <!--not sure what "assumed to include" means--> la référence du paiement, qui trouvera automatiquement les **Écritures comptables client** à régler.    
+Lors de l'importation de transactions bancaires (camt) sur la page Feuille rapprochement bancaire, le fichier est supposé inclure la référence de paiement qui trouvera automatiquement les **écritures comptables client** correspondantes à régler.    
 
 ## <a name="upcoming-capabilities-for-qr-bills"></a>Fonctionnalités futures des QR-factures
 Nous prévoyons d'ajouter des fonctionnalités à l'extension Gestion des QR-factures dans les prochaines mises à jour de la vague 1 de la version 2020. Par exemple, vous pourrez recevoir des QR-factures par le biais de documents achat et de feuilles achat. Cela fournira des validations supplémentaires et vous permettra d'automatiser et de rationaliser les processus de réception. Pour savoir quand cela aura lieu, gardez un œil sur notre [Plan de versions](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-business-central/qr-bill-management-switzerland).
