@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing
-ms.date: 04/01/2020
+ms.date: 04/17/2020
 ms.author: sgroespe
-ms.openlocfilehash: d027999692323960327e8b34ddb2efaea23c59a8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: dbfdb22447f20b4e4b811dc40cf892d9b971dc77
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189498"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3272101"
 ---
 # <a name="set-up-printers"></a>Paramétrage imprimantes
 Comme [!INCLUDE[prodshort](includes/prodshort.md)] est un service cloud, il ne peut pas atteindre les imprimantes locales connectées aux machines des utilisateurs. Cependant, il peut se connecter aux imprimantes cloud. Dans la version générique de [!INCLUDE[prodshort](includes/prodshort.md)], une imprimante cloud nommée **Imprimante par e-mail** est installée en tant qu'extension et prête à l'emploi après la configuration initiale.
@@ -27,6 +27,9 @@ Si aucune imprimante cloud n'est installée et configurée ou si une imprimante 
 Sur la page **Gestion des imprimantes**, vous pouvez voir les imprimantes configurées. Après avoir configuré une ou plusieurs imprimantes, vous pouvez ouvrir la page **Sélections d'imprimantes** pour configurer les états spécifiques à imprimer avec l'imprimante de votre choix pour votre compte utilisateur.
 
 Lorsqu'une imprimante est configurée et affectée à des états spécifiques, vous imprimez un état en cliquant sur le bouton **Imprimer** sur la page de demande d'état. Pour en savoir plus, consultez [Impression d'un état](ui-work-report.md#PrintReport).
+
+### <a name="sizing-print-jobs"></a>Dimensionnement des travaux d'impression
+L'impression cloud est conçue pour des documents de taille raisonnable. La plupart des services cloud, y compris PrintNode et HP ePrint, ont une limite de 10 Mo par tâche. Si vous devez imprimer des rapports plus volumineux, vous devrez peut-être les diviser en plusieurs impressions.
 
 ## <a name="to-set-up-a-printer"></a>Pour configurer une imprimante
 Sur la page **Gestion des imprimantes**, vous pouvez voir les imprimantes configurées et accéder à la page **Paramètres** pour chaque imprimante, afin de modifier une configuration existante ou de configurer une nouvelle imprimante.

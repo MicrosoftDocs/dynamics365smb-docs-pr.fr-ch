@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 34e9b896eeca0e1c9856013ac427c844a6bde070
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c0fe93df0022f66aa5cc3964c2717e2e6ca76147
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195402"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262205"
 ---
 # <a name="personalize-your-workspace"></a>Personnaliser votre espace de travail
 Vous pouvez personnaliser votre espace de travail pour l'adapter à vos habitudes et préférences en modifiant les pages afin qu'elles n'affichent que les informations dont vous avez besoin, où vous avez en besoin. Les modifications de personnalisation que vous apportez n'affectent que ce que vous voyez, pas ce que voient les autres utilisateurs.
@@ -66,7 +66,7 @@ En ce qui concerne les autres personnalisations, les modifications apportées à
 |Survolez un champ tout en appuyant sur Entrée.|Choisissez la pointe de la flèche en regard du champ, ou la première colonne d'une liste, et sélectionnez **Exclure de la saisie rapide**. <br /><br /> Si vous ne voyez pas cette option, le champ est déjà défini pour être ignoré. Dans ce cas, pour arrêter d'ignorer le champ, choisissez **Inclure de la saisie rapide**. |Reportez-vous à la rubrique [Accélérer la saisie de données à l'aide de la fonction Saisie rapide](ui-enter-data.md#QuickEntry)|
 |Réorganisez et supprimez les vues représentant des listes filtrées.|Choisissez la flèche en regard d'une vue, puis choisissez **Déplacer**, **Supprimer** ou **Masquer**.|Voir [Enregistrer et personnaliser les vues de liste](ui-views.md)|  
 |Ajoutez une nouvelle action à une page ou à un état sur votre tableau de bord.|Dans la page cible, la page de demande d'état, ou la fenêtre Tell Me, choisissez l'icône de signet.|Voir [Ajouter un signet à une page ou à un état sur votre tableau de bord](ui-bookmarks.md)|
-
+|Toujours démarrer une liste comme développée ou réduite|Choisissez le bouton Développer tout ou Réduire tout dans le coin supérieur gauche de la liste, ou choisissez l'action Développer tout ou Réduire tout dans le menu de la première colonne. |S'applique aux listes hiérarchiques réductibles|
 
 ## <a name="personalizing-actions"></a><a name="Actions"></a>Personnalisation des actions
 

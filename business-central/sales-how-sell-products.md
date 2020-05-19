@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade
-ms.date: 04/01/2020
+ms.date: 04/27/2020
 ms.author: sgroespe
-ms.openlocfilehash: 5fefafc1ca8ac7f5cd9862ff741a0f0fd9fec7ff
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 9a2fdbaafd2a6668d7fb4edf42c25438bd881e98
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194034"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324453"
 ---
 # <a name="sell-products"></a>Vendre des produits
 Vous créez une commande vente ou une facture vente pour enregistrer votre accord avec un client pour vendre certains produits selon certaines conditions de livraison et de paiement.
@@ -128,6 +128,7 @@ Les écritures comptables article et client associés sont à présent créés d
 ## <a name="see-also"></a>Voir aussi
 [Ventes](sales-manage-sales.md)  
 [Définition des ventes](sales-setup-sales.md)  
+[Imprimer la liste des prélèvements](sales-how-print-picking-list.md)  
 [Stock](inventory-manage-inventory.md)  
 [Envoyer des documents par e-mail](ui-how-send-documents-email.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -2,15 +2,15 @@
 title: Catalogue d'apprentissage Consultants fonctionnels
 description: Trouvez toutes les formations disponibles pour Business Central.
 author: loreleishannonmsft
-ms.date: 04/01/2020
+ms.date: 04/20/2020
 ms.topic: article
 ms.author: v-lshann
-ms.openlocfilehash: 96ce2d5d4815ce492c41ddedd5bac5f1bbf0afef
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: eba4c2c1badc0b686d50b23c8e47600f1cdbed3f
+ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190794"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "3372655"
 ---
 # <a name="functional-consultant-learning-catalog"></a>Catalogue d'apprentissage Consultant fonctionnel
 

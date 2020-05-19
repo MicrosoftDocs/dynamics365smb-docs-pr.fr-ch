@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 04/01/2020
+ms.date: 04/20/2020
 ms.author: sgroespe
-ms.openlocfilehash: e45850539b84e2762d93140e47ae336f2ec6efda
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 8f988be119132765fb02287c3935495e98f29b31
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184907"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3272053"
 ---
 # <a name="design-details-planning-parameters"></a>Détails de conception : paramètres de planification
 Cette rubrique décrit les différents paramètres de planification que vous pouvez utiliser dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -26,10 +26,10 @@ La façon dont le système de planification contrôle l'approvisionnement d'arti
 |-------------|---------------|  
 |Définir si l'article doit être planifié|Méthode de réapprovisionnement = Vide|  
 |Définir la date de réapprovisionnement|Intervalle de planification<br /><br /> Point de commande<br /><br /> Délai de sécurité|  
-|Définir la quantité à réapprovisionner|Stock de sécurité<br /><br /> Méthode de réapprovisionnement :<br /><br /> -   Qté fixe de commande plus Quantité de réappro.<br />-   Qté maximum plus Stock maximum<br />-   Ordre<br />-   Lot pour lot|  
+|Définir la quantité à réapprovisionner|Stock de sécurité<br /><br /> Méthode de réapprovisionnement :<br /><br /> -   Qté fixe de commande plus Quantité de réappro.<br />-   Qté maximum plus Stock maximum<br />-   Commande<br />-   Lot pour lot|  
 |Optimisez quand et combien réapprovisionner|Période de replanification<br /><br /> Période de groupement de lots<br /><br /> Période tampon|  
 |Modifiez les commandes approvisionnement|Qté minimum commande<br /><br /> Qté maximum commande<br /><br /> Commandé par|  
-|Délimiter l'article planifié|Mode de lancement :<br /><br /> -   Fabrication sur stock.<br />-   Fabrication à la commande.|  
+|Délimiter l'article planifié|Mode de lancement :<br /><br /> -   Fabrication sur stock<br />-   Fabrication à la commande|  
 
 ## <a name="define-if-the-item-will-be-planned"></a>Définir si l'article doit être planifié  
 Pour inclure un article/point de stock dans le processus de planification, il doit avoir une méthode de réapprovisionnement sinon il doit être planifié manuellement, par exemple, avec la fonction Order Planning.  
@@ -77,6 +77,8 @@ Pour obtenir un programme d'approvisionnement rationnel, un gestionnaire régler
 |**Période de replanification**|Ce champ est utilisé pour déterminer si le message d'action doit replanifier une commande existante ou l'annuler et créer une nouvelle commande. L'ordre existant sera replanifié dans une période de replanification avant l'approvisionnement actif et jusqu'à une période de replanification après la date d'approvisionnement actif.|  
 |**Période de groupement de lots**|Avec la méthode de réapprovisionnement lot pour lot, ce champ est utilisé pour regrouper plusieurs besoins d'approvisionnement dans une commande d'approvisionnement. À partir du premier approvisionnement prévu, le système cumule tous les besoins d'approvisionnement dans la période de groupement de lots suivante en un approvisionnement unique, effectuée lors de la date du premier approvisionnement. La demande effectuée en dehors de la période de groupement de lots n'est pas couverte par cet approvisionnement.|  
 |**Période tampon**|Ce champ permet d'éviter une replanification mineure de l'approvisionnement existant dans le temps. Les modifications de la date approvisionnement jusqu'à une période tampon de la date approvisionnement ne génèrent aucun message d'action.<br /><br /> La période tampon désigne la période pendant laquelle vous ne souhaitez pas que le système de planification propose de replanifier les commandes approvisionnement existantes en aval. Cela limite le nombre de replanification non significative de l'approvisionnement existant à une date ultérieure si la date replanifiée se situe dans la période tampon.<br /><br /> Par conséquent, un delta positif entre la nouvelle date d'approvisionnement proposée et la date d'approvisionnement d'origine est toujours supérieur à la période tampon.|  
+> [!NOTE]
+> Avec la politique de réorganisation Lot pour Lot, la valeur du champ **Période de groupement de lots** doit être égal ou supérieur à la valeur du champ **Période tampon**. Sinon, la période d'amortissement sera automatiquement réduite pendant la routine de planification pour correspondre à la période de groupement de lots.  
 
 Le temps de la période de replanification, de la période tampon, ainsi que de la période de groupement de lots est basée sur une date d'approvisionnement. L'intervalle de planification est basé sur la date de début de la planification, comme l'indique la figure suivante.  
 

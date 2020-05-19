@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 04/01/2020
+ms.date: 04/03/2020
 ms.author: sgroespe
-ms.openlocfilehash: 2dd601784418468a0f70befaced4b87e497fc2d7
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 34d620e0c3f84f7ace651b1434290778df2aace9
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181763"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262229"
 ---
 # <a name="keyboard-shortcuts"></a>Raccourcis clavier
 Cet article fournit un aperçu de certaines combinaisons de touches de raccourcis que vous pouvez utiliser avec lorsque vous utilisez [!INCLUDE[prodshort](includes/prodshort.md)].
@@ -33,18 +33,19 @@ Les raccourcis clavier facilitent l'accessibilité et la navigation dans différ
 > [!NOTE]
 > Les raccourcis clavier décrits ici font référence au type de clavier en usage aux États-Unis. Il se peut que les touches des autres claviers ne correspondent pas exactement aux touches des claviers en usage aux États-Unis.
 
-La plupart des raccourcis sont les mêmes, que le système d'exploitation soit Windows ou macOS. Cependant, certains raccourcis diffèrent pour macOS. Ils sont indiqués entre parenthèses dans les sections suivantes.
+La plupart des raccourcis sont les mêmes, que le système d'exploitation soit Windows ou macOS. Cependant, certains raccourcis diffèrent pour macOS. Ces raccourcis sont indiqués entre parenthèses dans les sections suivantes.
 
 > [!NOTE]
 > Outre les raccourcis clavier globaux décrits dans cette rubrique, un certain nombre de raccourcis spécifiques à votre activité sont disponibles. Par exemple, dans la version générique de [!INCLUDE[prodshort](includes/prodshort.md)], F9 enregistre un document et Ctrl+F7 affiche les écritures financières d’un enregistrement. (Celles-ci peuvent être différentes dans votre solution.) Le raccourci clavier est affiché dans l'info-bulle de l'action en question.
 
 ##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> Raccourcis clavier généraux
-Le tableau suivant décrit les raccourcis clavier pour naviguer et accéder à différents éléments d'une page, tels que des actions, des listes déroulantes, des recherches, etc. Pour en savoir plus sur les raccourcis clavier pour naviguer entre les enregistrements au sein d'une la liste, consultez la prochaine section.
+Le tableau suivant décrit les raccourcis clavier pour naviguer et accéder aux différents éléments d'une page. Les éléments comprennent des éléments tels que des actions, des listes déroulantes, des recherches, etc. Pour en savoir plus sur les raccourcis clavier pour naviguer entre les enregistrements au sein d'une la liste, consultez la prochaine section.
 
 |Appuyez sur les touches suivantes<br />(dans macOS)|Pour|
 |----------------|-----------|
 |Alt+Flèche bas|Ouvrir une liste déroulante ou rechercher la valeur d'un champ.|    
 |Alt+Flèche vers le haut|Afficher l'info-bulle pour un champ ou un en-tête de colonne d'une table. Si le champ a des erreurs de validation, appuyez sur « Alt+Flèche vers le haut » pour afficher l'erreur de validation. Appuyez sur « Échap » ou « Alt+Flèche vers le haut » pour fermer l'info-bulle.|
+|F2|Basculez entre la sélection de la valeur entière du champ ou le placement du curseur à la fin de la valeur du champ.|
 |Alt+F2|Afficher et masquer le volet Récapitulatif.|
 |Alt+Maj+F2|Basculer entre **Détails** et **Documents joints** dans le volet Récapitulatif.|
 |Alt+O|Ajouter une nouvelle note pour l'enregistrement sélectionné, même si le volet Récapitulatif n'est pas ouvert.|
@@ -61,12 +62,12 @@ Le tableau suivant décrit les raccourcis clavier pour naviguer et accéder à d
 |Ctrl+F12|Passez de la vue de mise en page développée à la vue de mise en page réduite.|
 |Ctrl+Clic|Naviguer pendant la personnalisation lorsque l'action est mise en surbrillance avec une flèche. Pour plus d'informations, voir [Personnaliser votre espace de travail](ui-personalization-user.md).|  
 |Ctrl+F5|Rechargez l'application [!INCLUDE[prodshort](includes/prodshort.md)]. (Similaire à sélectionner l'actualisation/rechargement du navigateur.)|
-|F5|Actualiser les données sur la page actuelle.<br /><br />Utilisez cette fonction pour vous assurer que les données sont à jour sur la page avec les modifications que d'autres ont effectués pendant que vous travaillez.|
+|F5|Actualiser les données sur la page actuelle.<br /><br />Utilisez cette touche pour vous assurer que les données sont à jour sur la page avec les modifications que d'autres ont effectués pendant que vous travaillez.|
 |Saisissez|Activer ou accéder à l'élément ou au contrôle qui a le focus.|
 |Echap|Fermer la page actuelle ou la liste déroulante.|
 |Tab|Déplacer le focus sur le contrôle ou l'élément suivant d'une page, par exemple les actions, les boutons, les champs ou les en-têtes d'une liste.|
 |MAJ+Tab|Déplacer le focus sur le contrôle ou l'élément précédent d'une page, par exemple les actions, les boutons, les champs ou les en-têtes d'une liste.|
-|O et N|Activer les boutons **Oui** et **Non** dans les boîtes de dialogue. Diverses versions linguistiques sont prises en charge. Par exemple, en Allemagne, appuyez sur J pour activer le bouton **Ja** (Oui).|
+|O et N|Activer les boutons **Oui** et **Non** dans les boîtes de dialogue. Les touches réelles varieront en fonction de votre langue actuelle spécifiée dans **Mes paramètres**. Par exemple, appuyez sur J pour activer le bouton **Ja** lorsque vous utilisez la langue allemande.|
 
 ## <a name="keyboard-shortcuts-in-lists"></a>Raccourcis clavier dans les listes
 
@@ -127,10 +128,10 @@ Des grilles contenant des lignes et des colonnes existent sur de nombreux types 
 |Appuyez sur les touches suivantes<br />(dans macOS)|Pour|
 |-----------------|-------|
 |F3|Bascule la zone Rechercher.<ul><li>Activez la zone Rechercher pour que vous puissiez commencer à saisir votre texte de recherche.</li><li>Si la zone Rechercher est déjà activée, F3 revient à la liste sans effacer le texte de recherche.</li><ul>|
-|Maj+F3|Ouvrez et refermez le volet Filtre.<ul><li> Si le volet Filtre n'est pas ouvert, Maj+F3 l'ouvre et s'axe sur l'action **+ Filtre** sous **Filtrer la liste par**, qui vous permet d'appuyer simplement sur Entrée pour commencer à ajouter un filtre champ.</li><li>Si le volet Filtre est déjà ouvert, Maj+F3 le ferme mais n'efface pas les filtres que vous avez ajoutés.</li></ul>|
-|Ctrl+Maj+F3|Ouvrez et refermez le volet Filtre.<ul><li> Si le volet Filtre n'est pas ouvert, Ctrl+Maj+F3 l'ouvre et s'axe sur l'action **+ Filtre** sous **Filtrer le total par**, qui vous permet d'appuyer simplement sur Entrée pour commencer à ajouter un filtre totaux.</li><li>Si le volet Filtre est déjà ouvert, Ctrl+Maj+F3 le ferme mais n'efface pas les filtres que vous avez ajoutés.</li></ul>  |
+|Maj+F3|Ouvrez et refermez le volet Filtre.<ul><li> Si le volet de filtre n'est pas ouvert, Maj + F3 l'ouvre et se concentre sur l'action **+ Filtre** sous **Filtrer la liste par**. Vous pouvez ensuite simplement appuyer sur Entrée pour commencer à ajouter un filtre de champ.</li><li>Si le volet Filtre est déjà ouvert, Maj+F3 le ferme mais n'efface pas les filtres que vous avez ajoutés.</li></ul>|
+|Ctrl+Maj+F3|Ouvrez et refermez le volet Filtre.<ul><li> Si le volet de filtre n'est pas ouvert, Ctrl + Maj + F3 l'ouvre et se concentre sur l'action **+ Filtre** sous **Filtrer le total par**. Vous pouvez ensuite simplement appuyer sur Entrée pour commencer à ajouter un filtre des totaux.</li><li>Si le volet Filtre est déjà ouvert, Ctrl+Maj+F3 le ferme mais n'efface pas les filtres que vous avez ajoutés.</li></ul>  |
 |Alt+F3|Basculez le filtrage vers la valeur sélectionnée.<ul><li>Applique un filtre de colonne sur la valeur sélectionnée dans la liste. Cela correspond à choisir **Filtrer sur cette valeur** d'un en-tête de colonne. Il ouvre le volet Filtre, définit le filtre sur la valeur sélectionnée, tout en gardant le focus sur la cellule dans la liste.</li><li>Si la colonne est déjà filtrée, Alt+F3 efface le filtre de cette colonne.</li></ul> |
-|Maj+Alt+F3|Ouvrez le volet Filtre et ajoutez un filtre sur la colonne sélectionnée dans la liste. Le focus est sur le nouveau champ filtre ce qui permet de commencer à saisir les critères de filtre immédiatement.<br /><br /> Cela correspond à sélectionner **Filtrer** de l'en-tête de colonne.<br /><br />S'il existe déjà un filtre sur le champ, un nouveau filtre est ajouté. |
+|Maj+Alt+F3|Ouvrez le volet Filtre et ajoutez un filtre sur la colonne sélectionnée dans la liste. Le focus est sur le nouveau champ filtre ce qui vous permet de commencer à saisir les critères de filtre immédiatement.<br /><br /> Cela correspond à sélectionner **Filtrer** de l'en-tête de colonne.<br /><br />S'il existe déjà un filtre sur le champ, un nouveau filtre est ajouté. |
 |Ctrl+Maj+Alt+F3|Réinitialisez les filtres. Cela correspond à choisir **Réinitialiser les filtres** dans le volet Filtre, et s'applique aux champs et aux filtres de totaux.<br /><br /> Les filtres reviennent aux filtres par défaut de la fenêtre actuelle. Si la fenêtre actuelle est définie sur **Tous**, il s'agit de l'équivalent à revenir à une vue non filtrée avec tous les enregistrements. |
 |Ctrl+Enter|Modifiez le focus depuis le volet de filtrage pour revenir à la liste.|
 

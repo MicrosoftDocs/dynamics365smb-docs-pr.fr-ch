@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 04/21/2020
 ms.author: edupont
-ms.openlocfilehash: 04af1a52bb0a2e14a2775efe6e3a6ccf77441d29
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 3a0526451bb386f38eaf93c10ffd86937ea7b765
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188507"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324093"
 ---
 # <a name="publish-a-web-service"></a>Publier un service Web
 
@@ -40,8 +40,8 @@ Les étapes suivantes expliquent la procédure de création et de publication d'
 
 Lorsque vous publiez le service Web, dans les champs **URL OData** et **URL SOAP**, vous pouvez voir les URL générées pour le service Web. Vous pouvez tester le service Web immédiatement en choisissant les liens figurant dans les champs **URL OData** et **URL SOAP**. Éventuellement, vous pouvez copier la valeur du champ et pour l'enregistrer pour une utilisation ultérieure.  
 
-> [!IMPORTANT]
-> Pour les codeunits publiés en tant que service Web SOAP, les méthodes exposées dans le codeunit doivent être marquées comme `[External]` dans le code.
+> [!NOTE]
+> Si les objets que vous exposez en tant que services Web ne doivent pas être accessibles depuis [!INCLUDE [prodshort](includes/prodshort.md)] en ligne, vous devez marquer les méthodes exposées dans le code comme `[Scope('OnPrem')]`. Pour plus d'informations, voir [Attribut de portée](/dynamics365/business-central/dev-itpro/developer/methods/devenv-scope-attribute).
 
 Une fois le service Web publié, il est accessible aux parties externes. Vous pouvez vérifier la disponibilité de ce service Web à l'aide d'un navigateur, ou vous pouvez sélectionner le lien dans les champs **URL OData** et **URL SOAP** de la page **Services Web**. La procédure suivante indique comment vous pouvez vérifier la disponibilité du service Web pour une utilisation ultérieure.  
 
@@ -52,8 +52,8 @@ Une fois le service Web publié, il est accessible aux parties externes. Vous po
     > [!div class="mx-tdBreakAll"]
     > |Type|Syntaxe|Exemple :|
     > |----------------|------|-------|
-    > |SOAP|https://api.businesscentral.dynamics.com/*version*/*tenant*/Production/WS/*CompanyName*/*entity*/ |https://api.businesscentral.dynamics.com/v2.0/7acc9d3d-d354-4616-8bbd-c4fc9f2b15b3/Production/WS/CRONUS%20USA%2C%20Inc./Page/InvoiceDocument|
-    > |OData V4|https://api.businesscentral.dynamics.com/*version*/*tenant*/Production/ODataV4/Company('*CompanyName*')/*entity*|https://api.businesscentral.dynamics.com/v2.0/7acc9d3d-d354-4616-8bbd-c4fc9f2b15b3/Production/ODataV4/Company('CRONUS%20USA%2C%20Inc.')/InvoiceDocument<br/>    Le nom de la société respecte la casse.|
+    > |SOAP|`https://api.businesscentral.dynamics.com/*version*/*tenant*/Production/WS/*CompanyName*/*entity*/` |`https://api.businesscentral.dynamics.com/v2.0/7acc9d3d-d354-4616-8bbd-c4fc9f2b15b3/Production/WS/CRONUS%20USA%2C%20Inc./Page/InvoiceDocument`|
+    > |OData V4|`https://api.businesscentral.dynamics.com/*version*/*tenant*/Production/ODataV4/Company('*CompanyName*')/*entity*`|`https://api.businesscentral.dynamics.com/v2.0/7acc9d3d-d354-4616-8bbd-c4fc9f2b15b3/Production/ODataV4/Company('CRONUS%20USA%2C%20Inc.')/InvoiceDocument`<br/>    Le nom de la société respecte la casse.|
 
 2. Examinez les informations affichées dans le navigateur. Vérifiez que vous pouvez visualiser le nom du service Web que vous avez créé.  
 

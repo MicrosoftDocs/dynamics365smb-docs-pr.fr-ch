@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 04/01/2020
+ms.date: 04/20/2020
 ms.author: sgroespe
-ms.openlocfilehash: d3d2770cd261215144edfe0992d0bb2b269971df
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 815956fe6eefa069a9930043d4a0c93a725b4fc1
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182243"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3272077"
 ---
 # <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Comptabiliser, ajuster et reclasser le stock avec les feuilles
 Vous devez effectuer un inventaire (c'est-à-dire compter tous les articles disponibles) au moins une fois par exercice pour vérifier si la quantité enregistrée dans la base de données est identique à la quantité réelle en stock dans les entrepôts. Lorsque vous connaissez la quantité physique réelle, vous devez la valider dans la comptabilité dans le cadre de l' évaluation du stock de fin d'exercice.
@@ -94,6 +94,9 @@ Lorsque vous enregistrez l'inventaire entrepôt, vous ne validez ni dans l'écri
 4. Cliquez sur le bouton **Imprimer**.
 
 Les employés peuvent maintenant poursuivre le comptage du stock et noter les éventuelles différences sur l'état imprimé.
+
+> [!NOTE]
+> Plusieurs jours peuvent s'écouler avant que les rapports imprimés reviennent pour traitement final et publication. Lorsque vous spécifiez et validez l'inventaire compté réel, le système ajuste l'inventaire pour refléter la différence entre l'inventaire compté attendu et réel. Vous devez conserver les lignes de journal initialement calculées et ne pas recalculer l'inventaire attendu, car l'inventaire attendu peut changer et entraîner des niveaux de stock incorrects. Si vous devez émettre plusieurs rapports, par exemple pour différents emplacements ou groupes d'éléments, vous devez créer et conserver des lots de journaux distincts.
 
 ### <a name="to-enter-and-post-the-actual-counted-inventory-in-basic-warehouse-configurations"></a>Pour saisir et valider le stock réel compté dans les configurations d'entrepôt de base
 1. Sur chaque ligne de la page **Feuilles inventaire** sur laquelle le stock réellement disponible, comme déterminé par le comptage, diffère de la quantité calculée, saisissez la quantité réellement disponible dans le champ **Qté (constatée)**.

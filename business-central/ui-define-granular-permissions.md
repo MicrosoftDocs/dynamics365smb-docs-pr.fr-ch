@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 04/01/2020
+ms.date: 04/22/2020
 ms.author: sgroespe
-ms.openlocfilehash: c71b56812b67c4ec51ea8d48d095cabc79c585fb
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: d6fe5cff52d3ed8c2404e12b3e37703c8e8db8bb
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194490"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324045"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Attribuer des autorisations aux utilisateurs et aux groupes
 Le système de sécurité de [!INCLUDE[d365fin](includes/d365fin_md.md)] vous permet de contrôler les objets auxquels un utilisateur peut accéder dans chaque base de données ou environnement. Vous pouvez spécifier pour chaque utilisateur s'il peut lire, modifier ou entrer des données dans les objets de base de données sélectionnés. Pour des informations détaillées, voir [Sécurité des données](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) dans l'aide sur Developer and IT-Pro pour [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -106,6 +106,26 @@ Vous pouvez également utiliser une fonction de copie pour déplacer rapidement 
 
 Le nouvel ensemble d'autorisations, contenant toutes les autorisations de l'ensemble d'autorisations copié, est ajouté en tant que nouvelle ligne sur la page **Ensembles d'autorisations**. Vous pouvez maintenant modifier les autorisations dans le nouvel ensemble d'autorisations. Notez que les lignes sont triées alphabétiquement dans chaque type.
 
+### <a name="to-export-and-import-a-permission-set"></a>Pour exporter et importer un ensemble d'autorisations
+Pour configurer rapidement des autorisations, vous pouvez importer des ensembles d'autorisations que vous avez exportés d'un autre locataire [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+Dans les environnements multi-locataires, un ensemble d'autorisations sera importé dans un locataire spécifique, c'est-à-dire que la portée de l'importation est "Locataire".
+
+1. Dans le locataire 1, sur la page **Ensembles d'autorisations**, sélectionnez la ligne ou les lignes des ensembles d'autorisations à exporter, puis choisissez l'action **Exporter des ensembles d'autorisations**.
+
+    Un fichier xml est créé dans le dossier de téléchargement de votre machine. Par défaut, il est nommé "Export Permission Sets.xml"
+
+2. Dans le locataire 2, dans la page **Ensembles d'autorisations**, sélectionnez l'action **Importer des ensembles d'autorisations**.
+3. Dans la page de la boîte de dialogue **Importer des ensembles d'autorisations**, envisagez de fusionner les ensembles d'autorisations existants avec de nouveaux ensembles d'autorisations dans le fichier xml.
+
+    Si vous sélectionnez **Mettre à jour les autorisations existantes**, les ensembles d'autorisations existants portant le même nom que ceux qui existent dans le fichier xml seront fusionnés avec les ensembles d'autorisations importés.
+
+    Si vous ne cochez pas la case **Mettre à jour les autorisations existantes**, les ensembles d'autorisations portant le même nom que ceux qui existent dans le fichier xml seront ignorés lors de l'importation. Dans ce cas, vous serez informé des ensembles d'autorisations qui sont ignorés.
+
+4. Dans la boîte de dialogue **Importer**, recherchez et sélectionnez le fichier xml à importer, puis choisissez l'action **Ouvrir**.
+
+Les ensembles d'autorisations sont importés.
+
 ## <a name="to-create-or-modify-permissions-manually"></a>Pour créer ou modifier des autorisations manuellement
 Cette procédure explique comment ajouter ou modifier des autorisations manuellement. Vous pouvez aussi avoir des autorisations générées automatiquement suite à vos actions dans l'interface utilisateur. Pour plus d'informations, voir [Pour créer ou modifier des autorisations en enregistrant vos actions](ui-define-granular-permissions.md#to-create-or-modify-permissions-by-recording-your-actions).
 
@@ -187,6 +207,9 @@ La procédure suivante explique comment affecter des ensembles d'autorisations �
 2. Sur la page **Utilisateurs**, sélectionnez l'utilisateur approprié, puis cliquez sur l'action **Ensemble d'autorisations par groupe d'utilisateurs**.
 3. Sur la page **Ensemble d'autorisations par groupe d'utilisateurs**, activez la case à cocher **[nom groupe d'utilisateurs]** sur une ligne pour l'ensemble d'autorisations approprié pour affecter l'ensemble au groupe d'utilisateurs.
 4. Activez la case à cocher **Tous les groupes d'utilisateurs** pour affecter l'ensemble d'autorisations à tous les groupes d'utilisateurs.
+
+## <a name="to-remove-obsolete-permissions-from-all-permission-sets"></a>Pour supprimer des autorisations obsolètes de tous les ensembles d'autorisations
+1. Dans la page **Ensemble d'autorisations**, choisissez l'option **Supprimer les autorisations obsolètes**.
 
 ## <a name="to-set-up-user-time-constraints"></a>Pour configurer des contraintes de temps utilisateur
 Les administrateurs peuvent définir les périodes de temps pendant lesquelles les utilisateurs spécifiés peuvent valider, et spécifier également si le système enregistre la durée pendant laquelle les utilisateurs spécifiés ont ouvert une session. Les administrateurs peuvent également affecter des centres de gestion à des utilisateurs. Pour plus d'informations, voir [Utiliser les centres de gestion](inventory-responsibility-centers.md).

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: f3355fb6ff46e7fa59d5b76aec8e88e675de31f8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 466736905815efb0b013a66fd05854769da24be5
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196000"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324021"
 ---
 # <a name="enable-picking-items-by-fefo"></a>Activer le prélèvement d'articles par FEFO
 First-Expired-First-Out (FEFO) est une méthode de tri qui garantit que les articles les plus anciens, ceux qui ont les dates d'expiration les plus anciennes, sont prélevés en premier.  
@@ -23,7 +23,7 @@ First-Expired-First-Out (FEFO) est une méthode de tri qui garantit que les arti
  Cette fonctionnalité ne fonctionne que lorsque les critères suivants sont réunis :  
 
 -   L'article doit avoir un numéro de série/lot.  
--   Dans la configuration du code de traçabilité article de l'article, le champ **N° lot - Traçabilité spéc.** ou le champ **N° lot - Traçabilité spéc.** doit être sélectionné.  
+-   Dans la configuration du code de traçabilité article de l'article, le champ **Traçabilité d'entrepôt par numéro de série** ou le champ **Traçabilité d'entrepôt par numéro de lot** doit être sélectionné.  
 -   L'article doit être validé dans le stock avec une date d'expiration.  
 -   Dans la fiche magasin, la case à cocher **Prélèvement requis** doit être activée.  
 -   Dans la fiche magasin, la case à cocher **Prélèvement selon FEFO** doit être activée.  

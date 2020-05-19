@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c19f527f4d9c06aa28212e7519fee67c6dfd042b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 3897602d405f13b5de4a1bc401cc409cb5ef58ec
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192250"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3271909"
 ---
 # <a name="setup-best-practices-global-planning-setup"></a>Configurer des recommandations : configuration du planning général
 Le raccourci **Planning** de la page **Paramètres production** comporte plusieurs champs permettant de définir les règles globales pour la planification des approvisionnements.  
@@ -28,7 +28,7 @@ Le raccourci **Planning** de la page **Paramètres production** comporte plusieu
 |Mag. composant par déf.|Si les articles ne sont pas définis comme points de stock, sélectionnez le code magasin de l'entrepôt principal.|Cela s'applique également si vous utilisez uniquement la demande achat.|  
 |Niveau de dépassement de capacité vide|Sélectionnez **Autoriser calcul par défaut** si vous effectuez une migration de Microsoft Dynamics NAV 5.0 ou d'une version antérieure.|Ne l'utilisez que si vous souhaitez autoriser tout ou partie de vos articles à franchir le point de réapprovisionnement.|  
 |Période tampon par défaut|Doit être compris entre 1D et 5D.<br /><br /> Si vous débutez en planification avec [!INCLUDE[d365fin](includes/d365fin_md.md)], définissez une plus longue période.|Quand les utilisateurs sont plus au fait des différents motifs des messages d'action, raccourcissez la période tampon pour autoriser plus de propositions de modification.|  
-|Quantité tampon par défaut|Définissez à entre 5 et 20 % de la taille du lot de l'article.||  
+|Quantité tampon par défaut (%)|Définissez à entre 5 et 20 % de la taille du lot de l'article.||  
 
 ## <a name="see-also"></a>Voir aussi  
  [Pratiques de configuration recommandées : planification de l'approvisionnement](setup-best-practices-supply-planning.md)   

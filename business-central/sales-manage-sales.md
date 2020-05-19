@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
-ms.date: 04/01/2020
+ms.date: 04/27/2020
 ms.author: sgroespe
-ms.openlocfilehash: 184c3f1d20790efe984f890c1a88c03698d66ba6
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c7b1d4b82d82b4957d7bd0d295182189ede60a79
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194826"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324381"
 ---
 # <a name="sales"></a>Ventes
 Vous créez une facture vente ou une commande vente pour enregistrer votre accord avec un client pour vendre certains produits selon certaines conditions de livraison et de paiement.
@@ -45,6 +45,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | Créer une facture vente pour enregistrer votre accord avec un client pour vendre des biens selon certaines conditions de livraison et de paiement. |[Facturer des ventes](sales-how-invoice-sales.md) |
 | Traiter une commande vente qui implique un envoi partiel ou un envoi direct. |[Vendre des produits](sales-how-sell-products.md) |
 |Comprenez ce qui se passe lorsque vous publiez des documents vente.|[Validation des ventes](ui-post-sales.md)|
+|Préparer au prélèvement pour l'expédition.|[Imprimer la liste des prélèvements](sales-how-print-picking-list.md)|
 |Paramétrez les lignes vente ou achat standard que vous pouvez rapidement insérer dans les documents, par exemple, pour les ordres de réapprovisionnement récurrents.|[Créer des lignes ventes et achat récurrentes](sales-how-work-standard-lines.md)|  
 | Lier une commande vente à une commande achat pour vendre un article qui sera livré directement par votre fournisseur à votre client. |[Effectuer des livraisons directes](sales-how-drop-shipment.md) |
 |Faites expédier par un fournisseur un article de catalogue vers votre entrepôt pour pouvoir l'expédier à votre client.|[Créer des commandes spéciales](sales-how-to-create-special-orders.md)|

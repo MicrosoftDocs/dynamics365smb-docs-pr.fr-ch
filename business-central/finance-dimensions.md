@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 04/01/2020
+ms.date: 04/14/2020
 ms.author: sgroespe
-ms.openlocfilehash: 61e39b15042a4c3bd21ef1297d90803496305f8f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: d353381c9267e9039d0b4391aa7fdac1c8a3c405
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183803"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262181"
 ---
 # <a name="working-with-dimensions"></a>Utilisation des axes analytiques
 Vous pouvez utiliser des axes analytiques pour faciliter l'exécution de l'analyse sur des commandes vente, par exemple. Les axes analytiques sont des attributs et des valeurs qui permettent de catégoriser les écritures afin de pouvoir les suivre et les analyser. Ils peuvent par exemple indiquer de quel projet ou département provient une écriture.  
@@ -106,7 +106,8 @@ Pour éviter de valider des écritures avec des axes contradictoires ou inapprop
 Les axes principaux et les raccourcis axe peuvent être utilisés comme filtre n'importe où dans [!INCLUDE[d365fin](includes/d365fin_md.md)], y compris sur les états, les traitements par lot et les vues d'analyse. Les axes principaux et les raccourcis axe sont toujours disponibles pour être insérés directement sans ouvrir tout d'abord la page **Axes analytiques**. Sur les lignes feuille et document, vous pouvez sélectionner les axes principaux et les raccourcis axe dans un champ sur la ligne. Vous pouvez définir deux axes principaux et huit raccourcis axe. Sélectionnez les axes que vous utilisez le plus souvent.
 
 > [!Important]  
-> Le fait de modifier un axe principal ou un raccourci axe exige que toutes les écritures saisies avec l'axe soient mises à jour. Vous pouvez exécuter cette tâche avec la fonction **Modifier les axes principaux**, mais cela peut se révéler chronophage et peut avoir un impact sur les performances. Par conséquent, sélectionnez vos axes principaux et vos raccourcis axe avec soin afin que vous n'ayez pas à les changer ultérieurement.
+> Le fait de modifier un axe principal ou un raccourci axe exige que toutes les écritures saisies avec l'axe soient mises à jour. Vous pouvez exécuter cette tâche avec la fonction **Modifier les axes principaux**, mais cela peut se révéler chronophage et peut avoir un impact sur les performances et les tables peuvent être verrouillées lors de la mise à jour. Par conséquent, sélectionnez vos axes principaux et vos raccourcis axe avec soin afin que vous n'ayez pas à les changer ultérieurement. <br /><br />
+> Pour plus d'informations, voir [Pour modifier les axes principaux](finance-dimensions.md#to-change-global-dimensions).
 
 > [!Note]
 > Lorsque vous ajoutez ou modifiez un axe principal ou un raccourci axe, vous êtes automatiquement déconnecté et la nouvelle valeur est préparée pour un usage dans toute l'application.
@@ -115,8 +116,24 @@ Les axes principaux et les raccourcis axe peuvent être utilisés comme filtre n
 2. Sur le raccourci **Axes analytiques**, renseignez les champs. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 #### <a name="to-change-global-dimensions"></a>Pour modifier les axes principaux
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Modifier les axes principaux**, puis sélectionnez le lien associé.
-2. Passez votre souris sur les actions et les champs sur la page pour découvrir comment modifier les axes principaux et les raccourcis axe.
+Lorsque vous modifiez un axe principal ou un raccourci, toutes les écritures saisies avec l'axe en question sont mises à jour. Étant donné que ce processus peut prendre du temps et affecter les performances, deux modes différents sont fournis pour adapter le processus à la taille de la base de données.  
+
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres comptabilité**, puis sélectionnez le lien associé.
+2. Choisissez l'action **Modifier les axes principaux**.
+3. En haut de la page, sélectionnez l'une des options suivantes pour définir dans quel mode le travail par lots est exécuté.
+
+    |Option|Description|
+    |-|-|
+    |**Séquentiel**|(Par défaut) L'ensemble du changement d'axe est effectué en une seule transaction en ramenant toutes les écritures aux axes qu'elles avaient avant le changement.<br /><br />Cette option est recommandée si la société contient relativement peu d'écritures publiées où il faudra plus de temps pour s'effectuer. Le processus verrouille plusieurs tables et bloque les autres utilisateurs jusqu'à ce qu'il soit terminé. Notez que sur les grandes bases de données, le processus peut ne pas être en mesure de s'effectuer du tout dans ce mode. Dans ce cas, utilisez l'option **Parallèle**.|
+    |**Parallèle**|(Sélectionnez la case à cocher **Traitement parallèle**.) Le changement d'axe se fait en plusieurs sessions d'arrière-plan et l'opération est divisée en plusieurs transactions.<br /><br />Cette option est recommandée pour les grandes bases de données ou les sociétés avec de nombreuses écritures publiées où il faudra plus de temps pour l'exécution. Notez qu'avec ce mode, le processus de mise à jour ne démarre pas s'il existe plusieurs sessions de base de données actives.|  
+
+4. Dans les champs **Code Axe principal 1** et/ou **Code Axe principal 2**, entrez les nouveaux axes. Les axes actuels sont affichés en gris derrière les champs.
+5. Si vous avez sélectionné le mode **Séquentiel**, choisissez l'action **Démarrer**.
+6. Si vous avez sélectionné le mode **Parallèle**, choisissez l'action **Préparer**.
+
+    L'onglet **Écritures journal** contient des informations sur les axes qui seront modifiés.
+7. Déconnectez-vous de [!INCLUDE[d365fin](includes/d365fin_md.md)], puis reconnectez-vous.
+8. Choisissez l'action **Démarrer** pour démarrer le traitement parallèle des changements d'axe.
 
 ### <a name="example-of-dimension-setup"></a>Exemple de paramétrage d'axe analytique
 Imaginons que votre société souhaite suivre les transactions selon la structure organisationnelle et les situations géographiques. Pour ce faire, vous pouvez configurer deux axes sur la page **Axes analytiques** :
@@ -207,7 +224,7 @@ Lorsque vous validez des documents ou des lignes feuille qui contiennent des axe
 |Code de valeur analytique vierge pour l'axe par défaut où le champ **Contrôle validation** contient **Code obligatoire**|- Sélectionnez un %1 pour le %2 %3.<br />- Sélectionnez un %1 pour le %2 %3 pour %4 %5.|- Modifiez le champ **Contrôle validation** sur la page **Axe analytique par défaut**.<br />- Saisissez une valeur analytique non vierge pour l'axe analytique en conflit dans l'ensemble d'axes.|
 |Code de valeur analytique erroné pour l'axe par défaut où le champ **Contrôle validation** contient **Code identique**|- Sélectionnez %1 %2 pour le %3 %4.<br />- Sélectionnez %1 %2 pour le %3 %4 pour %5 %6.|- Modifiez le champ **Contrôle validation** sur la page **Axe analytique par défaut**.<br />- Saisissez la valeur analytique requise pour l'axe analytique en conflit dans l'ensemble de dimensions.|
 |Code de valeur analytique non vierge pour l'axe par défaut vierge où le champ **Contrôle validation** contient **Code identique**|-%1 %2 doit être vierge.<br />-%1 %2 doit être vierge pour %3 %4.|- Modifiez le champ **Contrôle validation** sur la page **Axe analytique par défaut**.<br />- Saisissez un code de valeur analytique vierge pour l'axe analytique en conflit dans l'ensemble d'axes.|
-|Valeur analytique inattendue pour l'axe par défaut où le champ **Contrôle validation** contient **Aucun code**|-%1 %2 ne doit pas être mentionné.<br />- %1 %2 ne doit pas être mentionné pour %3 %4.|- Modifiez le champ **Contrôle validation** sur la page **Axe analytique par défaut**.<br />- Supprimez la ligne en conflit depuis l'ensemble de dimensions.|
+|Valeur analytique inattendue pour l'axe par défaut où le champ **Contrôle validation** contient **Aucun code**|-%1 %2 ne doit pas être mentionné.<br />-%1 %2 ne doit pas être mentionné pour %3 %4.|- Modifiez le champ **Contrôle validation** sur la page **Axe analytique par défaut**.<br />- Supprimez la ligne en conflit depuis l'ensemble de dimensions.|
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/dimensions-dynamics-365-business-central/index)
 

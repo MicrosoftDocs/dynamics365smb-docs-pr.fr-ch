@@ -1,8 +1,6 @@
 ---
 title: En savoir plus sur les écritures comptables et le COA| Microsoft Docs
 description: Décrit les écritures comptables, le plan comptable, et les catégories de compte.
-services: project-madeira
-documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,19 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 04/01/2020
+ms.date: 05/12/2020
 ms.author: edupont
-ms.openlocfilehash: ce221fed4704a278e7227affe13516303613c9cf
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 098317d09a5ad8c3792de48e5332b4c247eff0e0
+ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183779"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "3372558"
 ---
 # <a name="understanding-the-general-ledger-and-the-coa"></a>Familiarisation avec les écritures comptables et les COA
+
 Les écritures comptables stockent vos données financières, et le plan comptable affiche les comptes sur lesquels toutes les écritures comptables sont validées. [!INCLUDE[d365fin](includes/d365fin_md.md)] inclut un plan comptable standard prêt à prendre en charge votre société.
 
 ## <a name="general-ledger-setup-and-general-posting-setup"></a>Configuration des écritures comptable et configuration de la comptabilisation
+
 La configuration des écritures comptables est le composant principal des processus financiers car elle définit comment vous validez les données.  
 
 Sur la page **Paramètres comptabilité**, vous spécifiez comment gérer certains problèmes comptables dans votre société, par exemple :  
@@ -31,9 +31,13 @@ Sur la page **Paramètres comptabilité**, vous spécifiez comment gérer certai
 * Les formats d'adresse  
 * Les états financiers  
 
-De même, sur la page **Paramètres comptabilisation**, vous spécifiez comment vous souhaitez configurer les combinaisons de groupes généraux comptabilisation marché et de groupes généraux comptabilisation produit. Les groupes comptabilisation mappent des entités telles que les clients, les fournisseurs, les éléments, les ressources et les documents vente et achat dans des comptes généraux. Saisissez une ligne pour chaque combinaison de groupes comptabilisation marché et de groupes comptabilisation produit. Pour plus d'informations, voir [Paramètres du groupe comptabilisation](finance-posting-groups.md)  
+De même, sur la page **Paramètres comptabilisation**, vous spécifiez comment vous souhaitez configurer les combinaisons de groupes généraux comptabilisation marché et de groupes généraux comptabilisation produit. Les groupes comptabilisation mappent des entités telles que les clients, les fournisseurs, les éléments, les ressources et les documents vente et achat dans des comptes généraux. Saisissez une ligne pour chaque combinaison de groupes comptabilisation marché et de groupes comptabilisation produit. Pour plus d'informations, voir [Paramètres du groupe comptabilisation](finance-posting-groups.md).  
+
+> [!TIP]
+> La page **Paramètres comptabilité** comprend des champs génériques et des champs spécifiques à votre pays ou région. Si vous n'êtes pas sûr de la signification d'un champ, nous vous suggérons de travailler avec votre comptable pour déterminer s'il est pertinent pour votre organisation.  
 
 ## <a name="the-chart-of-accounts"></a>Le plan comptable
+
 Le plan comptable affiche tous les comptes généraux. Vous pouvez effectuer les opérations suivantes à partir du plan comptable :  
 
 * Afficher les états qui affichent les écritures comptables et les soldes.  
@@ -45,6 +49,7 @@ Le plan comptable affiche tous les comptes généraux. Vous pouvez effectuer les
 Vous pouvez ajouter, modifier ou supprimer des comptes généraux. Toutefois, pour éviter les différences, vous ne pouvez pas supprimer un compte général si ses données sont utilisées dans le plan comptable.  
 
 ## <a name="account-categories"></a>Catégories de compte
+
 Vous pouvez personnaliser la structure de vos états financiers en mappant les comptes généraux aux catégories de comptes.  
 
 La page **Catégories de compte général** affiche vos catégories et sous-catégories et les comptes généraux que leurs sont affectés. Vous pouvez créer des sous-catégories et affecter ces catégories à des comptes existants.  
@@ -62,6 +67,7 @@ Par exemple, le solde relevé par défaut solde est doté d'une sous-catégorie 
 À la prochaine génération des tableaux d'analyse, votre relevé solde suivant affichera un solde final pour la trésorerie et deux lignes avec les soldes pour le fonds de caisse et le compte chèque.  
 
 ## <a name="see-also"></a>Voir aussi
+
 [Finances](finance.md)  
 [Configuration ou modification du plan comptable](finance-setup-chart-accounts.md)  
 [Veille économique](bi.md)  

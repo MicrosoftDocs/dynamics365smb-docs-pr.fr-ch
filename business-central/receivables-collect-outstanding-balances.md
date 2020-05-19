@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 04/01/2020
+ms.date: 04/02/2020
 ms.author: sgroespe
-ms.openlocfilehash: ec17c59ebbc336cf6c4757be447ff7765098c816
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 0b7c1ad6a19869c5d79f7da34e89e25b2b9456aa
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190698"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262133"
 ---
 # <a name="collect-outstanding-balances"></a>Collecte des soldes restants
 La gestion des clients comprend le contrôle du règlement des montants à temps. Si des clients ont des paiements dus, vous pouvez commencer par envoyer l'état du Relevé client comme relance. Sinon, vous pouvez émettre de relances.
@@ -123,11 +123,12 @@ Sur la page **Relance**, vous pouvez renseigner le raccourci **Général** manue
 4. Choisissez l'action **Proposer lignes relance**.
 5. Dans le traitement par lots **Proposer lignes relance**, renseignez les champs pour définir comment et pour qui les relances sont créées.
 6. Activez la case à cocher **Inclure les écritures en attente** si vous souhaitez que les relances contiennent des écritures ouvertes impayées qui sont en attente.
+7. Activez la case à cocher **Seulement écritures dont l'échéance est dépassée** si vous souhaitez que les relances contiennent uniquement des écritures ouvertes impayées qui sont en attente. Seuls les factures et les paiements seront affichés car ce sont les écritures pour lesquelles les paiements de vos clients peuvent être en retard.
 
     > [!Important]
-    > Les écritures ouvertes en attente sont insérées, indépendamment du paramètre de la case à cocher Seulement écritures dont l'échéance est dépassée.
+    > Les écritures ouvertes en attente sont insérées, indépendamment du paramètre de la case à cocher **Seulement écritures dont l'échéance est dépassée**.
 
-7. Cliquez sur le bouton **OK**.
+8. Cliquez sur le bouton **OK**.
 
 ## <a name="to-replace-reminder-texts"></a>Pour remplacer les textes relance  
 Vous pouvez déterminer de plusieurs manières le texte devant figurer sur la relance imprimée. Dans certains cas, vous pouvez remplacer les textes début et fin définis pour le niveau actuel par ceux d'un autre niveau.

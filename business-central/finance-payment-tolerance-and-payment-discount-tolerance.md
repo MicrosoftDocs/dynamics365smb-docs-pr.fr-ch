@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: a322144f9c55d87ad615122ad321572c476de1ef
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 42f89bc4f62cdcb4b2abcd9c919006a65451330b
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183059"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262253"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Utilisation des écarts de règlement et des écarts d'escompte
-Vous pouvez configurer un écart de règlement de manière à fermer une facture lorsque le paiement ne couvre pas entièrement le montant de la facture. Vous pouvez configurer un écart de règlement pour accorder un escompte après expiration de la date d'escompte.  
+Vous pouvez configurer un écart de règlement de manière à fermer une facture lorsque le paiement ne couvre pas entièrement le montant de la facture. Par exemple, les écarts de règlement concernent généralement de petits montants qui coûteraient plus cher à corriger qu'à accepter. Vous pouvez configurer un écart de règlement pour accorder un escompte après expiration de la date d'escompte.  
 
 Vous pouvez utiliser les écarts de règlement pour qu'un écart de règlement maximum autorisé soit défini pour chaque montant en commande. Si l'écart de règlement est rempli, le montant règlement est analysé. Si le montant règlement est un moins-perçu, alors le montant en commande est totalement clôturé par le moins-perçu. Une écriture comptable détaillée est validée dans l'écriture règlement de sorte qu'il ne subsiste aucun montant ouvert dans l'écriture facture lettrée. Si le montant règlement est un trop-perçu, alors une nouvelle écriture comptable détaillée est validée dans l'écriture règlement de sorte qu'il ne subsiste aucun montant ouvert dans l'écriture règlement.
 
@@ -36,7 +36,10 @@ Vous pouvez afficher une alerte en fonction des situations relatives à l'écart
 - La première alerte concerne l'écart d'escompte. Vous êtes informé que vous pouvez accepter un escompte tardif. Vous pouvez ensuite décider s'il faut accepter l'écart sur la date d'escompte.  
 - La seconde alerte concerne l'écart de règlement. Vous êtes informé que toutes les écritures peuvent être clôturées car la différence est inférieure à l'écart de règlement maximum pour les écritures lettrées. Vous pouvez ensuite décider s'il faut accepter l'écart sur la date de règlement.
 
-Pour plus d'informations, voir [Pour activer ou désactiver l'alerte d'écart de règlement](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).     
+> [!NOTE]
+> L'activation du message d'avertissement vous permettra de choisir comment traiter les paiements dans les limites de la tolérance. Si vous n'activez pas le message et qu'un niveau de tolérance est spécifié, les factures dont les montants se situent dans la tolérance seront automatiquement fermées et vous ne pourrez pas choisir de laisser le montant restant. 
+
+Pour plus d'informations, voir [Pour activer ou désactiver l'alerte d'écart de règlement](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings). 
 
 ## <a name="to-set-up-tolerances"></a>Pour configurer les écarts  
 Le fait de configurer des écarts pour la date ou le montant permet de fermer une facture alors que le règlement ne couvre pas le montant indiqué sur la facture, que ce soit parce que l'échéance de l'escompte est dépassée ou que des marchandises ont été déduites, ou suite à une erreur anodine. Ceci est également vrai pour les remboursements et les avoirs.  
@@ -67,7 +70,7 @@ Pour configurer l'écart, vous devez configurer plusieurs comptes écart, spéci
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Pour activer ou désactiver les alertes d'écart de règlement
 L'alerte écart règlement apparaît lorsque vous validez un lettrage dont le solde se situe dans l'écart autorisé. Vous pouvez alors choisir comment valider et journaliser le solde.    
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres comptabilité**, puis sélectionnez le lien associé.  
-2. Sur la page **Paramètres comptabilité**, sur le raccourci **Application**, cochez la case **Alerte écart de règlement** pour activer l'alerte. Pour désactiver l'alerte, désactivez la case à cocher.  
+2. Sur la page **Paramètres comptabilité**, sur le raccourci **Application**, activez le bouton bascule **Alerte écart de règlement** pour activer l'alerte. Pour désactiver l'avertissement, désactivez le bouton bascule.  
 
 > [!NOTE]  
 >  L'option par défaut de la page **Alerte écart de règlement** est **Laisser le solde ouvert**. L'option par défaut de la page **Alerte écart d'escompte** est **Ne pas accepter d'escompte tardif**.

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 04/01/2020
+ms.date: 04/27/2020
 ms.author: sgroespe
-ms.openlocfilehash: 0bdc559f04064e2b4d49ef4ed7a8759c68be3579
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 3b56b4009e08085bb232b050790aa03acf2aa4cf
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194058"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324285"
 ---
 # <a name="register-new-customers"></a>Enregistrer de nouveaux clients
 Les clients sont l'origine de vos revenus. Chaque client auquel vous vendez un élément doit être enregistré en tant que fiche client. Les fiches client contiennent les informations nécessaires à la vente de biens au client. Pour plus d'informations, voir [Facturer des ventes](sales-how-invoice-sales.md) et [Enregistrer de nouveaux articles](inventory-how-register-new-items.md).  
@@ -43,6 +43,9 @@ Avant de pouvoir enregistrer de nouveaux clients, vous devez configurer divers c
 Sur le raccourci **Prix vente**, vous pouvez afficher les prix spéciaux ou les remises accordées au client si certains critères sont réunis, par exemple l'article, la quantité minimum commande ou la date de fin. Chaque ligne représente un prix spécial ou une remise ligne. Chaque colonne représente un critère qui doit s'appliquer pour garantir le prix spécial que vous saisissez dans le champ **Prix** ou la remise ligne que vous saisissez dans le champ **% remise ligne**. Pour plus d'informations, reportez-vous à [Enregistrement des prix de vente, des remises et des accords sur les paiements](sales-how-record-sales-price-discount-payment-agreements.md).
 
 Le client est désormais enregistré, et la fiche client est prête à être utilisée sur les documents vente.
+
+### <a name="deleting-customer-cards"></a>Suppression de fiches client
+Si vous avez enregistré une transaction pour un client, vous ne pouvez pas supprimer la carte car les écritures comptables peuvent être nécessaires pour l'audit. Pour supprimer des fiches client avec des écritures comptables, contactez le partenaire Microsoft pour le faire via le code.
 
 Si vous souhaitez utiliser cette fiche client comme modèle lorsque vous créez de nouvelles fiches client, enregistrez-la comme modèle. Pour plus d'informations, reportez-vous à la section suivante.
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 04/30/2020
 ms.author: jswymer
-ms.openlocfilehash: 33b5a3ff604b0ddf7525b89d7a8a82bcfdd7f653
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: b46786b60d7c5799b056c49188785bd595db57ff
+ms.sourcegitcommit: 866f0e6ed9df3397072b9df838e31c3a1f4b626d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196411"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "3333923"
 ---
 # <a name="managing-database-access-intent"></a>Gestion de l'accès intentionnel à la base de données 
 
@@ -29,7 +29,7 @@ Lors de l'exécution des objets, l'accès intentionnel à la base de données d�
 
 La page **Liste d'accès intentionnels à la base de données** vous permet de remplacer l'accès intentionnel à la base de données prédéfini pour les objets lors de leur exécution.
 
-En termes de base de données, cette fonction est communément appelée *échelle horizontale en lecture*. Pour en savoir plus sur l'échelle horizontale en lecture et l'accès intentionnel aux données dans [!INCLUDE[d365fin](includes/d365fin_md.md)], consultez [Utilisation de l'échelle horizontale en lecture pour de meilleures performances](https://review.docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview?branch=tfs337368-readscaleout) dans l'aide [!INCLUDE[d365fin](includes/d365fin_md.md)] sur Developer and IT Pro.
+En termes de base de données, cette fonction est communément appelée *échelle horizontale en lecture*. Pour en savoir plus sur l'échelle horizontale en lecture et l'accès intentionnel aux données dans [!INCLUDE[prodshort](includes/prodshort.md)], consultez [Utilisation de l'échelle horizontale en lecture pour de meilleures performances](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) dans l'aide [!INCLUDE[prodshort](includes/prodshort.md)] sur Developer and Administration.
 
 ## <a name="to-change-the-database-access-intent"></a>Pour modifier l'accès intentionnel à la base de données
 

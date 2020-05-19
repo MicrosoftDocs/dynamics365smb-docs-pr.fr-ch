@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
-ms.date: 04/01/2020
+ms.date: 04/27/2020
 ms.author: sgroespe
-ms.openlocfilehash: e780967fda8e5c4e8b3a1f2e5e3ed3a05418507d
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: ce41715830545c89651bac7d117b6c356650b7c3
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191058"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324189"
 ---
 # <a name="register-new-vendors"></a>Enregistrer un nouveau fournisseur
 Les fournisseurs fournissent les produits que vous vendez. Chaque fournisseur à qui vous achetez des biens doit être enregistré en tant que fiche fournisseur.
@@ -47,6 +47,9 @@ Les fiches fournisseur contiennent les informations requises pour acheter des pr
 Le fournisseur est désormais enregistré, et la fiche fournisseur est prête à être utilisée sur les documents d'achat.
 
 Si vous souhaitez utiliser cette fiche fournisseur comme modèle lorsque vous créez de nouvelles fiches fournisseur, enregistrez-la comme modèle fournisseur. Pour plus d'informations, reportez-vous à la section suivante.
+
+### <a name="deleting-vendor-cards"></a>Suppression de cartes de fournisseur
+Si vous avez enregistré une transaction pour un fournisseur, vous ne pouvez pas supprimer la carte car les écritures comptables peuvent être nécessaires pour l'audit. Pour supprimer des fiches fournisseur avec des écritures comptables, contactez le partenaire Microsoft pour le faire via le code.
 
 ## <a name="to-save-the-vendor-card-as-a-template"></a>Pour enregistrer la fiche fournisseur en tant que modèle
 1. Sur la page **Fiche fournisseur**, sélectionnez l'action **Sauvegarder comme modèle**. La page **Modèle fournisseur** s'ouvre et affiche la fiche fournisseur comme modèle.

@@ -8,14 +8,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
+ms.date: 04/27/2020
 ms.author: sgroespe
-ms.openlocfilehash: 517d293c172480d9efc875718cc0daf49947d9b3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 1b095b54d5540de34b86f4073cc5d57679cee8ff
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181931"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324237"
 ---
 # <a name="work-with-bills-of-material"></a>Utiliser les nomenclatures
 Les nomenclatures d'assemblage permettent de structurer les articles parents qui doivent être assemblés ou produits par des ressources ou des postes de charge à partir des composants. Une nomenclature d'assemblage peut également être utilisée pour vendre un article parent sous la forme d'un kit constitué de ses composants.
@@ -72,17 +72,21 @@ Sur la page **Nomenclature d'élément d'assemblage**, vous pouvez ouvrir une pa
 ## <a name="to-replace-the-assembly-item-with-its-components-on-document-lines"></a>Pour remplacer l'article d'assemblage par ses composants dans les lignes document
 Dans n'importe quel document vente et achat qui contient un élément d'assemblage, vous pouvez utiliser une fonction spéciale pour remplacer la ligne de l'élément d'assemblage par de nouvelles lignes pour ses composants. Cette option est utile, par exemple, si vous souhaitez vendre des composants sous forme de kit représentant l'élément d'assemblage.
 
-**Attention** : lorsque vous avez utilisé la fonction **Éclater nomenclature**, vous ne pouvez pas facilement l'annuler. Vous devez supprimer les lignes commande vente représentant les composants puis réentrer une ligne commande vente de l'élément d'assemblage.
+La fonction Éclater nomenclature est également disponible sur la page **Nomenclature d'élément d'assemblage** en tant que méthode pour afficher les éléments enfants de tous les sous-assemblages d'une nomenclature d'élément d'assemblage.
+
+> [!CAUTION]  
+>  Lorsque vous avez utilisé la fonction **Éclater nomenclature**, vous ne pouvez pas facilement l'annuler. Vous devez supprimer les lignes commande vente représentant les composants puis réentrer une ligne commande vente de l'élément d'assemblage.
 
 La procédure suivante se base sur une facture vente. Les mêmes étapes s'appliquent à d'autres documents vente et à tous les documents achat.
 
-1. Dans le coin supérieur droit, sélectionnez l'icône **Page ou état pour la recherche**, saisissez **Factures vente**, puis sélectionnez le lien connexe.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Factures vente**, puis sélectionnez le lien associé.
 2. Ouvrez une facture vente qui contient une ligne pour un élément d'assemblage.
 3. Sélectionnez la ligne pour un élément d'assemblage, puis la ligne d'action **Éclater nomenclature**.
 
 Tous les champs de la ligne facture vente pour l'élément d'assemblage sont désactivés sauf les champs **Article** et **Description**. Les lignes facture vente renseignées sont insérées pour les composants et les éventuelles ressources qui composent l'élément d'assemblage.
 
-**Remarque** : La fonction Éclater nomenclature est également disponible sur la page **Nomenclature d'élément d'assemblage**.
+> [!NOTE]
+> Le rapport **Liste de prélèvement par ordre** est également modifié pour afficher uniquement les composants. Cela signifie qu'un magasinier qui choisit l'article parent, l'élément d'assemblage, ne le verra pas dans la liste de prélèvement. Pour plus d'informations, voir [Imprimer la liste de prélèvement](sales-how-print-picking-list.md).
 
 ## <a name="to-calculate-the-standard-cost-of-an-assembly-item"></a>Pour calculer le coût standard d'un élément d'assemblage
 Vous calculez le coût unitaire d'un élément d'assemblage en regroupant le coût unitaire de chaque composant et ressource dans la nomenclature d'assemblage de l'article.

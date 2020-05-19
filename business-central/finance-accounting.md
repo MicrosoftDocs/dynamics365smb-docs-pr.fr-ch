@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 04/01/2020
+ms.date: 05/11/2020
 ms.author: edupont
-ms.openlocfilehash: 2c99b8bef9bff22edd2d27856e703b41c6ec6441
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: eae48b25446e4c81d1b8eae86fd2d0d7d0126df6
+ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184043"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "3372631"
 ---
 # <a name="accountant-experiences-in-d365fin_long"></a>Expériences de comptable dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Chaque entreprise doit tenir ses comptes et valider sa comptabilité. Certaines sociétés utilisent un comptable externe, et d'autres ont un comptable dans le personnel. Peu importe le type de comptable que vous êtes, vous pouvez utiliser le tableau de bord **Comptable** comme pages d'accueil de [!INCLUDE[d365fin](includes/d365fin_md.md)]. De là, vous pouvez accéder à toutes les pages nécessaires pour votre travail.  
@@ -40,7 +40,7 @@ Nous avons simplifié pour vous la façon d'inviter votre comptable externe. Ouv
 > [!IMPORTANT]  
 > L'adresse électronique du comptable doit être une adresse professionnelle basée sur Azure Active Directory. Si le comptable utilise un autre type d'adresse électronique, l'invitation ne peut pas être envoyée. 
 > 
-> Comme cette tâche nécessite un accès à la gestion des utilisateurs et des licences dans Azure Active Directory, l'utilisateur qui envoie cette invitation doit se voir attribuer le rôle **Administrateur global** ou le rôle **Administrateur utilisateur** dans le centre d'administration Office 365. Pour plus d'informations, voir [À propos des rôles d'administrateur](/office365/admin/add-users/about-admin-roles) dans le centre d'administration Office 365.  
+> Comme cette tâche nécessite un accès à la gestion des utilisateurs et des licences dans Azure Active Directory, l'utilisateur qui envoie cette invitation doit se voir attribuer le rôle **Administrateur global** ou le rôle **Administrateur utilisateur** dans le centre d'administration Microsoft 365. Pour plus d'informations, voir [À propos des rôles d'administrateur](/microsoft-365/admin/add-users/about-admin-roles) dans le centre d'administration Microsoft 365.  
 
 ### <a name="adding-your-accountant-to-your-office-365-via-azure-portal"></a>Ajout de votre comptable à votre Office 365 via le Portail Azure
 

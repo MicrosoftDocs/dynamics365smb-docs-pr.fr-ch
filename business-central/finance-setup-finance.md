@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 400506fe0b39944e683fd5e65e6b710ffdb9089b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: b7a272d916182fda7815e04bb314a5c29942ca98
+ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182747"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "3372583"
 ---
 # <a name="setting-up-finance"></a>Configuration de Finance
 Avant de commencer à gérer votre activité, vous devez spécifier des règles et des valeurs par défaut concernant le mode de gestion souhaité des processus financiers de cette société. Pour commencer, vous devez configurer l'élément essentiel des enregistrements comptables de la société, à savoir le plan comptable. Configurez ensuite des groupes comptabilisation afin d'accroître l'efficacité du processus d'affectation des comptes imputables de comptabilité par défaut aux clients, fournisseurs et articles.
@@ -47,10 +47,12 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |Activer la facturation d'un client qui n'est pas configuré dans le système.|[Configurer des clients effectuant un achat au comptoir](finance-how-to-set-up-cash-customers.md)|
 | Configurer l'état intracommunautaire et envoyer-le à une administration | [Configurer et enregistrer un état intracommunautaire](finance-how-setup-report-intrastat.md)|
 |Vérifiez qu'une écriture dans une feuille comptabilité est affectée à plusieurs comptes lors de la validation de la feuille, soit par quantité, pourcentage ou montant.|[Utiliser les clés de ventilation dans les feuilles de comptabilité](ui-how-use-allocation-keys-general-journals.md)|
+|Configurer des codes journaux et des codes motif que vous pouvez utiliser pour suivre les pistes d'audit|[Configuration des codes source et des codes de motif pour les pistes d'audit](finance-setup-trail-codes.md)|
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Voir aussi
+
 [Finances](finance.md)  
 [Rapprochement de comptes bancaires](bank-manage-bank-accounts.md)  
 [Utilisation des axes analytiques](finance-dimensions.md)  

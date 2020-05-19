@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 04/01/2020
+ms.date: 04/27/2020
 ms.author: sgroespe
-ms.openlocfilehash: 061c0148601f3aaa871fbf4d613b51ceaf9cdfb1
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 506576c6ecbc707dd44ce23294ce7eb8b6e89329
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182171"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324165"
 ---
 # <a name="register-new-items"></a>Enregistrer de nouveaux articles
 Les articles, entre autres produits, sont la base de votre activité, les biens ou les services que vous commercialisez. Chaque article doit être enregistré en tant que fiche article.
@@ -52,11 +52,14 @@ La procédure suivante explique comment créer une fiche article à partir de z�
 >
 > Si vous sélectionnez **Moyenne**, le coût unitaire de l'article est calculé comme le coût unitaire moyen à chaque moment après un achat. Le stock est évalué avec la supposition que tous les stocks sont vendus simultanément. Avec ce paramètre, vous pouvez choisir le champ **Coût unitaire**, sur la page **Aperçu calc. coût moyen** de la fiche article pour afficher l'historique des transactions à partir duquel est calculé le coût moyen
 
-Vous pouvez afficher ou modifier les prix spécifiques ou les remises accordées pour l'article si certains critères sont réunis, par exemple le client, la quantité minimum commande ou la date de fin. Pour ce faire, choisissez les actions **Définir les prix spéciaux** ou **Définir les remises spéciales**. Chaque ligne de la page **Prix de vente**, par exemple, représente un prix spécial. Chaque colonne représente un critère qui doit s'appliquer pour accorder à un client le prix spécial que vous entrez dans le champ **Prix unitaire** de la page **Prix de vente**. Pour plus d'informations, reportez-vous à [Enregistrement des prix de vente, des remises et des accords sur les paiements](sales-how-record-sales-price-discount-payment-agreements.md).
+Vous pouvez afficher ou modifier les prix spécifiques ou les remises accordées, ou que votre vendeur vous accorde, pour l'article si certains critères sont réunis, par exemple le client, la quantité minimum commande ou la date de fin. Pour ce faire, choisissez les actions **Définir les prix spéciaux** ou **Définir les remises spéciales**. Chaque ligne de la page **Prix de vente**, par exemple, représente un prix spécial. Chaque colonne représente un critère qui doit s'appliquer pour accorder à un client le prix spécial que vous entrez dans le champ **Prix unitaire** de la page **Prix de vente**. Pour plus d'informations, voir [Enregistrement des prix de vente, des remises et des accords sur les paiements](sales-how-record-sales-price-discount-payment-agreements.md) ou [Enregistrer les prix d'achat spéciaux et les remises](purchasing-how-record-purchase-price-discount-payment-agreements.md).
 
 L'article est désormais enregistré, et la fiche article est prête à être utilisée sur les documents d'achat et de vente.
 
-Si vous souhaitez utiliser cette fiche article comme modèle lorsque vous créez de nouvelles fiches article, enregistrez-la comme modèle. Pour plus d'informations, reportez-vous à la section suivantes.
+Si vous souhaitez utiliser cette fiche article comme modèle lorsque vous créez de nouvelles fiches article, enregistrez-la comme modèle. Pour plus d'informations, reportez-vous à la section suivante.
+
+### <a name="deleting-item-cards"></a>Suppression de fiches article
+Si vous avez enregistré une transaction pour un article, vous ne pouvez pas supprimer la carte car les écritures comptables peuvent être nécessaires pour l'évaluation du stock ou l'audit. Pour supprimer des fiches article avec des écritures comptables, contactez le partenaire Microsoft pour le faire via le code.
 
 ## <a name="to-save-the-item-card-as-a-template"></a>Pour enregistrer la fiche article en tant que modèle
 1. Sur la page **Fiche article**, sélectionnez l'action **Sauvegarder comme modèle**. La page **Modèle article** s'ouvre et affiche la fiche article comme modèle.
@@ -80,8 +83,9 @@ Si vous achetez le même article chez plusieurs fournisseurs, vous devez saisir,
 Les fournisseurs s'affichent maintenant sur la page **Catalogue fournisseur articles** (que vous ouvrez à partir de la fiche article), de sorte que vous pouvez facilement sélectionner un autre fournisseur.
 
 ## <a name="see-also"></a>Voir aussi
-[Création des souches de numéros](ui-create-number-series.md)  
 [Stock](inventory-manage-inventory.md)  
+[Rapprocher les coûts ajustés avec la comptabilité](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
+[Création des souches de numéros](ui-create-number-series.md)  
 [Achats](purchasing-manage-purchasing.md)  
 [Ventes](sales-manage-sales.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

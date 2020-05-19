@@ -8,63 +8,101 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 04/03/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9405e285613c95e6c3bfcf19a5fc57e109b3f419
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: f3af601f0de00445a42c88bb47053084b05fc14b
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194442"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262157"
 ---
 # <a name="entering-data"></a>Saisie de données
 
-Plusieurs fonctions générales vous permettent de saisir vos données de manière plus facile, rapide et précise. Les fonctions générales de saisie de données sont décrites dans cet article.  
+Plusieurs fonctions générales vous permettent de saisir vos données de manière plus facile, rapide et précise. Les principes de base et les fonctionnalités avancées de saisie de données sont décrites dans cet article.  
 
 Les exemples contenus dans cet article utilisent les données de démonstration.
 
+## <a name="working-with-editable-fields"></a>Utilisation des champs modifiables
+Les champs dans [!INCLUDE[d365fin](includes/d365fin_md.md)] peuvent contenir différentes données modifiables, telles que des montants de texte ou de devise. Les champs modifiables affichent généralement une zone de saisie dans laquelle vous pouvez taper ou choisir une valeur. Les champs non modifiables sont généralement affichés sur fond gris.   
+
+Certains champs modifiables fournissent un sélecteur pour vous aider à spécifier une valeur.  
+
+<!-- TODO: Add illustrations or images of each picker -->
+|**Employé en charge du prélèvement**        |**Comment cela vous aide à spécifier une valeur**|
+|------------------|------------------------------------|
+|Sélecteur de date       |Ce sélecteur affiche un calendrier basé sur vos paramètres régionaux actuels. Il vous aide à choisir une date unique.|
+|Menu déroulant          |Les listes déroulantes offrent un choix de valeurs fixes ou d'enregistrements de référence d'une autre table|
+|Commutateur ou case à cocher|Certains champs offrent un choix simple : valeurs *Oui* ou *Non*. Le commutateur est utilisé pour spécifier cette valeur et est toujours affiché sous forme de case à cocher dans les listes|
+|Modification assistée       |Certains champs fournissent des sélecteurs personnalisés adaptés à la recherche et au choix de la meilleure valeur pour ce champ, comme une fenêtre contextuelle|
+
+
+### <a name="modifying-a-field-value"></a>Modification d'une valeur de champ
+
+Pour modifier la valeur d'un champ, vous devez d'abord définir le focus sur ce champ. Vous définissez le focus en effectuant les actions suivantes :
+
+- Utilisez la touche de **tabulation**. L'action sélectionne la valeur entière.
+- Effectuez un clic gauche sur votre souris ou un périphérique d'entrée similaire. Cette action ne sélectionnera la valeur entière du champ que si le champ est dans une liste.  
+
+Lorsque vous interagissez avec des champs de l'interface utilisateur, [!INCLUDE[d365fin](includes/d365fin_md.md)] favorise généralement la sélection de la valeur entière du champ pour faciliter le remplacement de cette valeur.
+
+Lorsque toute la valeur du champ est sélectionnée :
+- Remplacez la valeur en tapant simplement pour spécifier une nouvelle valeur. Si le champ propose un sélecteur, vous pouvez l'activer à l'aide du raccourci clavier **Alt + flèche vers le bas**.
+- Utilisez la touche **Supprimer** ou **Retour arrière** pour effacer la valeur.
+
+Appuyez sur la touche **F2** entre la sélection de la valeur entière du champ ou le placement du curseur après la valeur du champ. Le fait de placer le curseur à la fin de la valeur facilite l'ajout à la valeur existante.
+
+Lorsque le curseur apparaît à la fin de la valeur du champ :
+- Ajout à la valeur par simple saisie.
+- Utilisez les touches **Accueil**, **Fin**, **Flèche gauche** et **Flèche droite** pour déplacer le curseur dans la valeur. Si vous modifiez un champ dans une liste, appuyez à nouveau sur la touche **Flèche gauche** lorsque le curseur est au début de la valeur, le focus sera mis sur le champ précédent. De même, en appuyant à nouveau sur la touche **Flèche droite** lorsque le curseur est à la fin de la valeur, le focus sera placé sur le champ suivant.
+
+> [!NOTE]
+> Après avoir spécifié une valeur, Business Central vérifie uniquement sa validité après avoir cliqué en dehors du champ ou défini le focus sur un autre article, tel que le champ suivant.  
+
+
 ## <a name="keyboard-shortcuts"></a>Raccourcis clavier
 
-Plusieurs raccourcis clavier vous permettent de travailler sans la souris, et d'accélérer la saisie de vos données, notamment avec des saisies à grande échelle et des tâches de saisie répétitives.
+Il existe plusieurs raccourcis clavier qui vous permettent de travailler "sans souris" et d'accélérer la saisie de vos données. Ces raccourcis clavier sont particulièrement utiles avec les entrées à grande échelle et les tâches de frappe répétitives.
 
-Pour plus d'informations sur les raccourcis, reportez-vous à la rubrique [Raccourcis clavier](keyboard-shortcuts.md). Certains raccourcis font l'objet de cet article.
+Pour plus d'informations sur les raccourcis, reportez-vous à la rubrique [Raccourcis clavier](keyboard-shortcuts.md). Certains raccourcis clavier font l'objet de cet article.
 
 ## <a name="accelerating-data-entry-using-quick-entry"></a><a name="QuickEntry"></a>Accélérer la saisie de données à l'aide de la fonction Saisie rapide
 
-La saisie rapide est une fonction conçue pour saisir les données avec le clavier. La fonction Saisie rapide fonctionne sur les champs (comme les pages Fiche) et dans les listes (lignes et colonnes). Cela est utile lors de l'exécution de tâches de saisie répétitives qui exigent de créer plusieurs enregistrements dans la séquence, comme un lot de commandes vente ou l'enregistrement de nouveaux articles.
+La saisie rapide est une fonction conçue pour saisir les données avec le clavier. La fonction Saisie rapide fonctionne sur les champs (comme les pages Fiche) et dans les listes (lignes et colonnes). Cela est avantageux lorsque vous effectuez des tâches de frappe répétitives qui nécessitent de créer plusieurs enregistrements en séquence. Les exemples incluent un lot de commandes vente ou l'enregistrement de nouveaux articles.
 
-Vous connaissez peut-être déjà l'utilisation de la touche Tab afin de naviguer d'un champ sur une page au champ suivant modifiable. L'inconvénient de l'utilisation de la touche Tab ? Elle passe toujours de façon séquentielle au champ suivant. <!-- even if the field is non-editable or seldom filled it in.-->La fonction Saisie rapide vous permet de modifier ce chemin d'accès. Avec la Saisie rapide, utilisez la touche Entrée pour naviguer uniquement à travers ces champs qui vous intéressent, en ignorant les champs non modifiables et les champs que vous ne renseignez généralement pas. Vous avez peut-être déjà remarqué ce comportement sur certaines pages. En effet, l'application désigne déjà quels champs inclure lors de l'activation de la touche Entrée et lesquels ignorer. Vous pouvez personnaliser la fonction Saisie rapide en personnalisant votre espace de travail et en optimisant la manière dont vous saisissez les données sur chaque page.
+Vous pouvez utiliser la touche Tab afin de naviguer d'un champ sur une page au champ suivant modifiable. L'inconvénient de l'utilisation de la touche Tab ? Elle passe toujours de façon séquentielle au champ suivant. <!-- even if the field is non-editable or seldom filled it in.-->La fonction Saisie rapide vous permet de modifier ce chemin d'accès. Avec la fonction Saisie rapide, utilisez la touche Entrée pour naviguer uniquement dans les champs qui vous intéressent. La fonction Saisie rapide ignore les champs non modifiables et les champs que vous ne remplissez généralement pas. Vous avez peut-être déjà remarqué ce comportement sur certaines pages. Ce comportement est dû au fait que les champs à inclure lorsque vous appuyez sur Entrée et ceux à ignorer ont été prédéfinis. Vous pouvez personnaliser la fonction Saisie rapide en personnalisant votre espace de travail et en optimisant la manière dont vous saisissez les données sur chaque page.
 
 ### <a name="how-quick-entry-works"></a>Fonction Saisie rapide : fonctionnement
 
-Chaque champ peut être marqué comme *inclus dans la Saisie rapide* ou *exclus de la Saisie rapide*. Les champs inclus dans la Saisie rapide seront inclus dans le chemin d'accès lorsque vous appuyez sur la touche Entrée ; les champs exclus de la fonction Saisie rapide, ne le seront pas.
+Chaque champ peut être marqué comme *inclus dans la fonction Saisie rapide* ou *exclus de la Saisie rapide*. Les champs inclus dans la fonction Saisie rapide seront inclus dans le chemin lorsque vous appuyez sur Entrée. Les champs exclus de la fonction Saisie rapide ne le seront pas.
 
 Lorsque vous avez fini de saisir les données dans un champ, appuyez simplement sur Entrée pour confirmer les changements et accéder au champ suivant. Si vous souhaitez inverser le sens, et accéder au champ précédent, appuyez sur Maj+Entrée. Pour plus d'informations sur les raccourcis, voir [Raccourcis rapides d'écriture pour les champs](keyboard-shortcuts.md#QuickEntry).
 
 #### <a name="tips-and-tricks"></a>Conseils
+
 Vous trouverez ci-après les informations utiles concernant la fonction Saisie rapide.
 
 - Elle est disponible pour tout champ modifiable.
 - Elle fonctionne également à travers les colonnes et les lignes.
-- Elle n'empêche pas d'accéder à d'autres éléments d'une page, comme des actions. Ceux-ci restent accessibles en utilisant la touche Tab et la combinaison des touches Maj+Tab.  
-- Les raccourcis ne doivent pas être développés pour le bon fonctionnement de Saisie rapide. Si le champ suivant Saisie rapide se situe dans un raccourci réduit, ce raccourci développe automatiquement et se concentre sur le champ désigné.
+- Elle n'empêche pas d'accéder à d'autres articles d'une page, comme des actions. Ces articles restent accessibles en utilisant la touche Tab et la combinaison des touches Maj+Tab.  
+- Il n'est pas nécessaire que les raccourcis soient étendus pour que l'entrée rapide fonctionne. Si le champ suivant Saisie rapide se situe dans un raccourci réduit, ce raccourci développe automatiquement et se concentre sur le champ choisi. [!INCLUDE[d365fin](includes/d365fin_md.md)] se souviendra que le raccourci devrait être développé la prochaine fois que vous visiterez la page.  
 - La fonction Saisie rapide fonctionne peu importe si les champs sont obligatoires ou non. Ainsi, il est recommandé de veiller à ce que les champs obligatoires soient inclus dans la fonction Saisie rapide.
 - Par défaut, la plupart des champs sont automatiquement inclus dans la fonction Saisie rapide. Ainsi, à la base, il est fort probable que votre tâche exclura les champs de la fonction Saisie rapide.
 
 ### <a name="to-change-quick-entry-fields"></a>Pour modifier les champs de saisie rapide
 
-Pour modifier quels champs sont inclus ou exclus de la Saisie rapide sur une page, utilisez la personnalisation.
+Pour configurer la fonction Saisie rapide sur les champs, vous utilisez la personnalisation.
 
 1. Commencez la personnalisation en sélectionnant l'icône ![Paramètres](media/ui-experience/settings_icon_small.png "Icône Paramètres du tableau de bord"), puis sélectionnez l'action **Personnaliser**.
-2. Sélectionnez un champ que vous souhaitez modifier, ou dans des listes, sélectionnez l'en-tête de colonne correspondante, puis choisissez **Inclure dans la saisie rapide** ou **Exclure de la saisie rapide**.
+2. Sélectionnez un champ que vous souhaitez modifier. Dans les listes, sélectionnez l'en-tête de colonne correspondant. Ensuite, choisissez **Inclure dans la saisie rapide** ou **Exclure de la saisie rapide**.
 
 Pour plus d'informations sur la personnalisation, voir [Personnaliser votre espace de travail](ui-personalization-user.md).
 
 ## <a name="mandatory-fields"></a>Champs obligatoires
 
-Lorsque vous entrez des données sur les pages, certains champs sont marqués par un astérisque rouge. L'astérisque rouge signifie que le champ doit être renseigné pour terminer un processus qui utilise ce champ, par exemple, valider une transaction qui utilise la valeur du champ.  
+Lorsque vous entrez des données sur les pages, certains champs sont marqués par un astérisque rouge. L'astérisque rouge signifie que le champ doit être rempli pour effectuer un certain processus. Par exemple, lorsque vous validez une transaction qui utilise la valeur dans le champ.  
 
-Même si le champ contient un astérisque rouge, vous n'êtes pas forcé de remplir le champ avant de poursuivre avec les autres champs ou fermer la page. L'astérisque rouge sert uniquement à rappeler que la fin d'un certain processus restera bloquée.  
+Même si un champ est obligatoire, vous n'êtes pas forcé de remplir le champ avant de poursuivre avec les autres champs ou fermer la page. L'astérisque rouge sert uniquement à rappeler que la fin d'un certain processus restera bloquée.  
 
 ## <a name="finding-data-as-you-type"></a>Recherche immédiate
 
@@ -78,7 +116,7 @@ Même si le champ contient un astérisque rouge, vous n'êtes pas forcé de remp
 
 ## <a name="copying-and-pasting-faq-fields-and-lines"></a>FAQ Copier et coller des champs et des lignes
 
-Vous pouvez copier une ou plusieurs lignes dans une liste ou un champ unique sur une page, puis collez ce que vous avez copié dans la même page, une autre page, ou un document externe (comme Microsoft Excel et un e-mail Outlook). En raccourci, pour copier, appuyez sur CTRL+C (cmd+C dans macOS) sur votre clavier. Pour coller, appuyez sur CTRL+V (cmd+V dans macOS).
+Vous pouvez copier une ou plusieurs lignes d'une liste ou d'un seul champ sur une page. Collez ensuite ce que vous avez copié dans la même page, une autre page ou un document externe. Vous pouvez, par exemple, collez dans Microsoft Excel ou un e-mail Outlook. En raccourci, pour copier, appuyez sur CTRL+C (cmd+C dans macOS) sur votre clavier. Pour coller, appuyez sur CTRL+V ou cmd+V dans macOS.
 
 Dans une liste, pour copier le champ dans la même colonne de la ligne précédente, et le coller dans la ligne actuelle, il vous suffit d'appuyer sur F8.
 
@@ -88,13 +126,13 @@ Pour plus d'informations, voir [FAQ sur l'opération Copier et coller](ui-copy-p
 
 Pour commencer à filtrer, sélectionnez ![icône de volet Filtre](media/open-filter-pane-icon.png "Icône de volet Filtre") en haut de la liste ou appuyez sur Maj+F3 pour ouvrir le volet Filtre. Vous travaillez avec le volet Filtrer comme vous le faites sur toute autre liste. Pour plus d'informations, reportez-vous à la rubrique [Filtrage](ui-enter-criteria-filters.md#filtering).
 
-La fonction Filtrage est utile notamment pour afficher et analyser de longs documents. Par exemple, supposez que vous ouvriez une facture de vente validée et que vous filtriez les articles de ligne pour afficher tous les articles de ligne qui ont une remise individuelle supérieure à 5 % ou que vous filtriez uniquement pour afficher les accessoires de vélo comportant la mention « pro » dans leur nom.
+La fonction Filtrage est utile notamment pour afficher et analyser de longs documents. Imaginez que vous ouvrez une facture de vente enregistrée. Ensuite, vous filtrez les articles de ligne pour afficher tous les articles de ligne dont la remise individuelle est supérieure à 5 %. Ou, vous filtrez pour afficher uniquement les accessoires de vélo avec "pro" dans le nom.
 
 ## <a name="focusing-on-line-items"></a><a name="Focus"></a>Se concentrer sur les articles de ligne
 
-Lorsque vous travaillez sur des documents qui comprennent une pièce des articles de ligne, comme une page de commande vente ou de facture, vous pouvez basculer votre vue pour vous concentrer uniquement sur les articles de ligne. La pièce des articles de ligne se développe ensuite de telle sorte qu'elle occupe la plupart de l'espace de travail, masquant les autres parties de la page, hormis la zone des actions en haut. Cela vous donne un meilleur aperçu des articles de ligne et offre un plus grand espace pour les exploiter.
+Lorsque vous travaillez sur des documents qui comprennent une pièce des articles de ligne, vous pouvez basculer votre vue pour vous concentrer uniquement sur les articles de ligne. Les exemples de documents sont la page de commande client ou de facture. La partie des articles de ligne se développe pour occuper presque tout l'espace de travail. Elle masque les autres parties de la page à l'exception de la zone d'actions en haut. Cette disposition vous donne un meilleur aperçu des articles de ligne et offre un plus grand espace pour les exploiter.
 
-Cela est particulièrement utile lorsque vous utilisez de grandes listes d'articles de ligne et lorsque la saisie rapide des données est souhaitée. Un autre avantage est que cela vous offre une fonctionnalité de filtre avancée, comme sur les autres listes, afin que la navigation et la recherche à travers les articles de ligne soient plus simples.
+Vous bénéficierez particulièrement lorsque vous travaillez avec de grandes listes d'articles et que vous souhaitez saisir des données rapidement. Cette fonction offre également une capacité de filtrage avancée. Comme sur d'autres listes, la navigation et la recherche dans les articles de ligne deviennent encore plus faciles.
 
 ### <a name="switching-the-focus-on-and-off"></a>Activation/Désactivation du focus
 
@@ -103,8 +141,18 @@ Pour vous concentrer sur les articles de ligne, faites votre sélection n'import
 Pour revenir à la vue normale, sélectionnez ![icône mode Focalisation](media/focus-mode.png "Icône du mode Focalisation") ou appuyez à nouveau sur Ctrl+Maj+F12.
 
 ## <a name="multitasking-across-multiple-pages"></a>Multitâche sur plusieurs pages
-Lorsque vous travaillez sur plusieurs tâches à la fois ou que vous gérez des interruptions de la tâche en cours, telles que la prise d'un appel entrant, vous pouvez ouvrir une page de fiche ou de document dans une nouvelle fenêtre. Cela vous permet de garder une fenêtre ouverte pour une tâche en cours pendant que vous démarrez ou terminez une autre tâche dans une ou plusieurs autres fenêtres.
 
+Vous pouvez ouvrir une page de carte ou de document dans une nouvelle fenêtre. L'ouverture d'une nouvelle fenêtre vous permet :
+
+- Utiliser plusieurs tâches en même temps
+- Gérez les interruptions de la tâche en cours, comme prendre un appel entrant.
+- Gardez une fenêtre ouverte pour une tâche en cours pendant que vous démarrez ou terminez une autre tâche dans les fenêtres.
+
+Pour ouvrir la fiche ou le document en cours dans une nouvelle fenêtre, choisissez ![Ouvrir dans une nouvelle fenêtre](media/open-new-window-icon.png "Icône Ouvrir dans une nouvelle fenêtre") dans le coin supérieur droit, ou appuyez sur Alt+Maj+W.
+
+<!--
+When working on multiple tasks at a time or when managing interruptions to the current task, such as taking an incoming call, you can open a card or document page in a new window. This allows you to keep a window open for an ongoing task while you start or complete another task in one or more other windows.
+-->
 Pour ouvrir la fiche ou le document en cours dans une nouvelle fenêtre, choisissez ![Ouvrir dans une nouvelle fenêtre](media/open-new-window-icon.png "Icône Ouvrir dans une nouvelle fenêtre") dans le coin supérieur droit, ou appuyez sur Alt+Maj+W.
 
 > [!NOTE]
@@ -148,33 +196,33 @@ Vous pouvez saisir des chiffres négatifs de deux manières. Le numéro -20,5 pe
 
 ## <a name="entering-dates-and-times"></a>Saisie de dates et d'heures
 
-Vous pouvez entrer des dates et des heures dans tous les champs affectés spécifiquement à des dates (champs Date). Vous pouvez saisir les dates avec ou sans séparateurs.
+Vous pouvez entrer des dates et des heures dans tous les champs affectés à des dates (champs Date). Vous pouvez saisir les dates avec ou sans séparateurs.
 
 > [!NOTE]  
 > Le mode de saisie des dates et heures dépend des paramètres **Région**. Pour plus d'informations, voir [Modifier les paramètres de base](ui-change-basic-settings.md).  
 
 ### <a name="entering-dates"></a>Saisie de dates
 
-Pour les champs de date, vous pouvez utiliser le sélecteur de date, qui vous permet de choisir une date depuis un calendrier, ou vous pouvez saisir les dates manuellement. Cette section offre un bref aperçu de la manière de saisir les dates. Pour plus d'informations, reportez-vous à la rubrique [Utilisation de dates civiles et les heures](ui-enter-date-ranges.md).
+Vous pouvez utiliser le sélecteur de date pour choisir une date depuis un calendrier, ou vous pouvez saisir les dates manuellement. Cette section offre un bref aperçu de la manière de saisir les dates. Pour plus d'informations, reportez-vous à la rubrique [Utilisation de dates civiles et les heures](ui-enter-date-ranges.md).
 
 Pour la saisie manuelle de la date, saisissez deux, quatre, six ou huit chiffres :  
 
--   Si vous ne saisissez que deux chiffres, ils sont interprétés comme le jour, et le mois et l'année de la date de travail sont ajoutés.  
+-   Deux chiffres sont interprétés comme le jour. Il ajoutera le mois et l'année de la date de travail.  
 
--   Si vous saisissez quatre chiffres, ils sont interprétés comme le jour et le mois, et l'année de la date de travail est ajoutée.  
+-   Quatre chiffres sont interprétés comme le jour et le mois. Il ajoutera l'année de la date de travail.  
 
--   Si la date que vous souhaitez saisir est comprise entre le 01/01/1930 et le 31/12/2029, vous pouvez saisir les deux chiffres de l'année ; sinon saisissez les quatre chiffres.  
+-   Si la date souhaitée se situe entre le 01/01/1930 et le 31/12/2029, entrez l'année à deux chiffres. Sinon, entrez l'année à quatre chiffres.  
 
-Vous pouvez aussi saisir une date sous forme de jour de la semaine suivi par un numéro de semaine et, éventuellement, une année (par exemple, Lun25 ou lun25 signifie le lundi de la semaine 25).  
+Vous pouvez également saisir une date comme un jour de la semaine suivi d'un numéro de semaine. Ou, vous pouvez entrer une année. Par exemple, Lun25 ou lun25 signifie le lundi de la semaine 25.  
 
 Plutôt que de saisir une date spécifique, vous pouvez saisir l'un de ces codes.  
 
 |Code|Résultat|  
 |--------------|----------------|  
-|a|Il s'agit de la date du jour (la date système de l'ordinateur).|  
-|p|Cela précise une période comptable où p signifie la première période comptable, p2 indique la seconde période comptable, etc. |
-|t|Il s'agit de la date de travail configurée dans l'application. Pour modifier la date de travail, voir [Modification des paramètres de base](ui-change-basic-settings.md). Vous souhaiterez peut-être utiliser une date de travail si vous avez beaucoup de transactions avec une date différente de la date d'aujourd'hui.|
-|c|Cela spécifie que la date après c'est une date de clôture, par exemple C123101.|  
+|a|Spécifie la date du jour (la date système de l'ordinateur).|  
+|p|Spécifie une période comptable où p signifie la première période comptable, p2 indique la seconde période comptable, etc. |
+|t|Spécifie la date de travail configurée dans l'application. Pour modifier la date de travail, voir [Modification des paramètres de base](ui-change-basic-settings.md). Vous souhaiterez peut-être utiliser une date de travail si vous avez beaucoup de transactions avec une date différente de la date d'aujourd'hui.|
+|c|Spécifie que la date après c'est une date de clôture, par exemple C123101.|  
 
 ## <a name="entering-times"></a>Saisie des heures
 
@@ -192,7 +240,7 @@ Le tableau suivant répertorie les différents formats de saisie possibles pour 
 |5:30:5,50|05:30:05.5|  
 |053005050|05:30:05.05|  
 
- Vous devez saisir deux chiffres par unité temporelle si vous n'utilisez pas de séparateur.  
+ Saisissez deux chiffres par unité temporelle si vous n'utilisez pas de séparateur.  
 
 ## <a name="entering-datetimes"></a>Saisie des dates/heures
 
@@ -224,6 +272,7 @@ Le tableau suivant répertorie les différents formats de saisie possibles pour 
 |ma 3:3:3|Mardi de la semaine en cours 03:03:03|  
 
 ## <a name="entering-duration"></a>Saisie des durées
+
 Vous devez saisir les durées sous la forme d'un chiffre suivi d'une unité de mesure.  
 
 Voilà quelques exemples.  
@@ -239,7 +288,7 @@ Voilà quelques exemples.
 
  Vous pouvez également saisir un nombre automatiquement converti en durée. Le nombre saisi est converti en fonction de l'unité de mesure par défaut spécifiée pour le champ de durée.  
 
- Pour connaître l'unité de mesure utilisée pour un champ de durée, saisissez un nombre et observez l'unité de mesure dans laquelle il est convertit.  
+ Pour connaître l'unité de mesure utilisée pour un champ de durée, saisissez un nombre et observez l'unité de mesure dans laquelle il est converti.  
 
  Si l'unité est « heures », 5 est converti en 5h.  
 
