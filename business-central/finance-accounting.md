@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 05/11/2020
+ms.date: 06/01/2020
 ms.author: edupont
-ms.openlocfilehash: eae48b25446e4c81d1b8eae86fd2d0d7d0126df6
-ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
+ms.openlocfilehash: 1aaf04237261481f21d10d5e7966666132ff1a8e
+ms.sourcegitcommit: c5fcc204a1ba8aaf153ce3ad5d150295b144c0e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "3372631"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "3413658"
 ---
 # <a name="accountant-experiences-in-d365fin_long"></a>Expériences de comptable dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Chaque entreprise doit tenir ses comptes et valider sa comptabilité. Certaines sociétés utilisent un comptable externe, et d'autres ont un comptable dans le personnel. Peu importe le type de comptable que vous êtes, vous pouvez utiliser le tableau de bord **Comptable** comme pages d'accueil de [!INCLUDE[d365fin](includes/d365fin_md.md)]. De là, vous pouvez accéder à toutes les pages nécessaires pour votre travail.  
@@ -87,22 +87,20 @@ Cela a pour effet d'importer dans la société le compte utilisateur que vous av
 
 Si vous souhaitez donner accès à plusieurs sociétés, vous devez vous connecter à chaque société et répéter ce processus. Vous pouvez également mettre à jour les groupes d'autorisations pour le profil utilisateur du comptable dans [!INCLUDE [prodshort](includes/prodshort.md)], par exemple en lui attribuant le groupe d'utilisateurs *D365 Bus Premium*. Pour en savoir plus, voir [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md).  
 
-## <a name="accountant-hub"></a>Accountant Hub
+<!--## Accountant Hub
 
-Si vous êtes un comptable avec plusieurs clients, vous pouvez utiliser [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] pour un meilleur aperçu de vos clients. Depuis cette fenêtre, vous pouvez accéder à l'abonné de chaque client dans [!INCLUDE[d365fin](includes/d365fin_md.md)] et utiliser le tableau de bord Comptable comme décrit ci-dessus. Pour en savoir plus, voir [Bienvenue dans [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index).  
+If you are an accountant with several clients, you can use [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] for a better overview of your clients. From there, you can access each client's tenant in [!INCLUDE[d365fin](includes/d365fin_md.md)] and use the Accountant Role Center as described above. For more information see [Welcome to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index).  
 
 > [!NOTE]
-> [!INCLUDE [d365acc_long_md](includes/d365acc_long_md.md)] est actuellement en version préliminaire publique sur un nombre limité de marchés.
+> [!INCLUDE [d365acc_long_md](includes/d365acc_long_md.md)] is currently in public preview in a limited number of markets.-->
 
 ## <a name="see-also"></a>Voir aussi
 
 [Finances](finance.md)  
 [Configuration de Finance](finance-setup-finance.md)  
-[Les écritures comptables et le plan comptable](finance-general-ledger.md)  
+[Comptabilité et plan comptable](finance-general-ledger.md)  
 [Clôture des exercices et des périodes](year-close-years-periods.md)  
 [Utilisation des axes analytiques](finance-dimensions.md)  
 [Analyse des états financiers dans Excel](finance-analyze-excel.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Configuration d'une analyse de trésorerie](finance-setup-cash-flow-analyses.md)  
-[Bienvenue dans [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index)  
-[Dynamics 365 - Accountant Hub sur Microsoft.com](https://www.microsoft.com/dynamics365/financial-insights-for-accountants)  

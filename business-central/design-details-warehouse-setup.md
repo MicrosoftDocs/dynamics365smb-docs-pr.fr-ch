@@ -8,37 +8,38 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/04/2020
 ms.author: sgroespe
-ms.openlocfilehash: dbcadecf7648a1ddd6d41d968dcdf26d78b79001
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: cd2a282e95e324e3adbf06cb72c53467f63c227b
+ms.sourcegitcommit: ccae3ff6aaeaa52db9d6456042acdede19fb9f7b
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184547"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "3435246"
 ---
 # <a name="design-details-warehouse-setup"></a>Détails de conception : paramètres entrepôt
+
 La fonctionnalité d'entrepôt dans [!INCLUDE[d365fin](includes/d365fin_md.md)] contient différents niveaux de complexité, tels que définis par les autorisations de licence dans les granules proposés. Le niveau de complexité dans une solution entrepôt est en grande partie défini par le paramétrage des emplacements sur les fiches magasin, qui est lui-même contrôlé par licence afin que l'accès aux champs de configuration de l'emplacement soit défini par la licence. En outre, les objets applicatifs de la licence déterminent le document d'interface utilisateur à utiliser pour les activités entrepôt prises en charge.  
 
 Les granules liés à l'entrepôt suivants existent :  
 
--   Stock de base (4010)  
--   Emplacement (4170)  
--   Rangement (4180)  
--   Réception entrepôt (4190)  
--   Prélever (4200)  
--   Expédition entrepôt (4210)  
--   Systèmes de gestion d'entrepôt (4620)  
--   Prélèvements internes et rangements internes (4630)  
--   Système ADCS (4640) 
--   Paramétrage emplacement (4660)  
+- Stock de base (4010)  
+- Emplacement (4170)  
+- Rangement (4180)  
+- Réception entrepôt (4190)  
+- Prélever (4200)  
+- Expédition entrepôt (4210)  
+- Systèmes de gestion d'entrepôt (4620)  
+- Prélèvements internes et rangements internes (4630)  
+- Système ADCS (4640)
+- Paramétrage emplacement (4660)  
 
 Pour plus d'informations sur chaque granule, voir [Feuilles de prix [!INCLUDE[d365fin](includes/d365fin_md.md)]](https://go.microsoft.com/fwlink/?LinkId=238341) (requiert un compte PartnerSource).  
 
 Le tableau suivant indique les granules requis pour définir les différents niveaux de complexité entrepôt, les documents de l'interface utilisateur qui prennent en charge chaque niveau, et les codes magasin qui reflètent ces niveaux dans la base de données de démonstration [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 |Niveau de complexité|Désignation|Document d'interface utilisateur|Magasin CRONUS|Granule minimum requis|  
-|----------------------|---------------------------------------|-----------------|---------------------------------|---------------------------------|  
+|----------------|-----------|-----------|---------------|---------------------------|  
 |1|Aucune activité entrepôt dédiée.<br /><br /> Validation recevoir/expédier à partir des commandes.|Commande|BLEU|Stock de base|  
 |2|Aucune activité entrepôt dédiée.<br /><br /> Validation recevoir/expédier à partir des commandes.<br /><br /> Code emplacement requis.|Commande, avec un code emplacement|ARGENTE|Stock de base/Emplacement|  
 |3 <br /><br /> **REMARQUE** : bien que les paramètres soient appelés **Prélèvement requis** et **Rangement requis**, vous pouvez quand même valider les réceptions et les expéditions directement à partir des documents commerciaux origine dans les magasins où vous cochez ces cases.|Activité entrepôt de base, par commande.<br /><br /> Validation recevoir/expédier à partir des documents rangement/prélèvement stock. <br /><br /> Code emplacement requis.|Rangement stock/mouvement stock/prélèvement stock, avec le code emplacement|(ARGENT + Rangement requis ou Rangement requis)|Stock de base/Emplacement/Rangement/Prélèvement|  
@@ -46,9 +47,10 @@ Le tableau suivant indique les granules requis pour définir les différents niv
 |5|Activité entrepôt avancée pour plusieurs ordres/commandes.<br /><br /> Validation recevoir/expédier consolidée en fonction des enregistrements de rangement/prélèvement dans l'entrepôt.<br /><br /> Code emplacement requis.|Réception entrepôt/Stockage en entrepôt/Prélèvement entrepôt/Expédition entrepôt/Feuille prélèvement/Feuille stockage, avec code d'emplacement|(VERT + Emplacement obligatoire)|Stock de base/Emplacement/Réception entrepôt/Rangement/Prélèvement/Expédition entrepôt|  
 |6 <br /><br /> **Remarque** : ce niveau est appelé « WMS », car il requiert le granule le plus avancé, Warehouse Management Systems.|Activité entrepôt avancée pour plusieurs ordres/commandes<br /><br /> Validation recevoir/expédier consolidée en fonction des enregistrements de rangement/prélèvement dans l'entrepôt<br /><br /> Code emplacement requis.<br /><br /> Le code zone/classe est facultatif.<br /><br /> Magasiniers dirigés par flux de travail<br /><br /> Planification de réapprovisionnement des emplacements<br /><br /> Priorité emplacement<br /><br /> Paramétrage emplacement par capacité<br /><br /> Insertion <!-- Hand-held device integration -->|Réception entrepôt/Rangement entrepôt/Prélèvement entrepôt/Expédition entrepôt/Mouvement entrepôt/Feuille prélèvement/Feuille rangement/Entrepôt interne. Prélèvement/Rangement entrepôt interne, avec code d'emplacement/classe/zone<br /><br /> Différentes feuilles pour la gestion d'emplacement<br /><br /> Écrans ADCS|BLANC|Stock de base/Emplacement/Rangement/Réception entrepôt/Prélèvement/Expédition entrepôt/Systèmes de gestion d'entrepôt/Prélèvement interne et rangements/Paramétrage emplacement<!-- Automated Data Capture System/ -->Paramétrage emplacement|  
 
-Pour des exemples d'utilisation des documents de l'interface utilisateur par niveau de complexité entrepôt, voir [Détails de conception : flux d'enlogement](design-details-outbound-warehouse-flow.md).  
+Pour des exemples d'utilisation des documents de l'interface utilisateur par niveau de complexité entrepôt, voir [Détails de conception : flux d'enlogement](design-details-inbound-warehouse-flow.md).  
 
-## <a name="bin-and-bin-content"></a>Emplacement et Contenu emplacement  
+## <a name="bin-and-bin-content"></a>Emplacement et Contenu emplacement
+
 Un emplacement est un dispositif de stockage conçu pour contenir des éléments discrets. Il s'agit de la plus petite unité de conteneur dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Les quantités d'articles dans des emplacements sont appelées contenu de l'emplacement. Une recherche à partir du champ **Article** ou du champ **Code emplacement** dans n'importe quel document entrepôt affiche la disponibilité calculée de l'article dans l'emplacement.  
 
 Le contenu d'un emplacement peut se voir affecter une propriété fixe, dédiée ou par défaut, pour définir la manière dont le contenu de l'emplacement peut être utilisé. Les emplacements sans aucune de ces propriétés sont appelés emplacements dynamiques.  
@@ -64,7 +66,8 @@ La propriété de l'emplacement par défaut est utilisée par le système pour p
 
 Il ne peut y avoir qu'un emplacement par défaut par article par magasin.  
 
-## <a name="bin-type"></a>Type emplacement  
+## <a name="bin-type"></a>Type emplacement
+
 Dans des installations WMS, vous pouvez définir les activités entrepôt qui sont permises pour un emplacement en lui affectant un type. Les types d'emplacement suivants existent :  
 
 |Type emplacement|Désignation|  
@@ -79,9 +82,10 @@ Dans des installations WMS, vous pouvez définir les activités entrepôt qui so
 Pour tous les types d'emplacement, à l'exception de PRELEV, RANGPRELEV et RANGEMENT, aucune autre activité n'est autorisée pour l'emplacement que celle définie par son type d'emplacement. Par exemple, un emplacement de type **Réception** peut être utilisé uniquement pour y recevoir des articles ou pour en prélever des articles.  
 
 > [!NOTE]  
->  Un mouvement ne peut être effectué que vers des emplacements de type RECEPT. et CQ. De même, seuls des mouvements peuvent être effectués à partir des emplacements de type EXPED. et CQ.  
+> Un mouvement ne peut être effectué que vers des emplacements de type RECEPT. et CQ. De même, seuls des mouvements peuvent être effectués à partir des emplacements de type EXPED. et CQ.  
 
-## <a name="bin-ranking"></a>Priorité emplacement  
+## <a name="bin-ranking"></a>Priorité emplacement
+
 Dans l'entreposage avancé, vous pouvez automatiser et optimiser la façon de collecter les articles dans des feuilles de rangement et de prélèvement en classant les emplacements par ordre de priorité, de sorte que le programme propose de prendre ou de placer ces articles en fonction des critères de priorité pour utiliser l'espace de l'entrepôt de manière optimale.  
 
 Les procédés de rangement sont optimisés en fonction de la priorité emplacement en suggérant des emplacements de priorité plus élevée avant les emplacements de priorité faible. De même, des procédés de prélèvement sont optimisés en proposant d'abord les articles du contenu des emplacements à priorité élevée. De plus, des réapprovisionnements d'emplacement sont suggérés à partir des emplacements de faible priorité à ceux de niveau élevé.  
@@ -98,9 +102,10 @@ Si vous souhaitez définir une quantité maximum pour un article spécifique à 
 Avant de paramétrer des restrictions de capacité pour le contenu d'emplacement dans un emplacement, vous devez d'abord vous assurer que les unités et les dimensions de l'article ont été définies dans la fiche article.  
 
 > [!NOTE]  
->  Il est possible d'utiliser plusieurs unités dans les installations WMS. Dans toutes les autres configurations, les contenus emplacement ne peuvent être que dans l'unité de base. Dans toutes les transactions avec une unité supérieure à l'unité de base de l'article, la quantité est transformée en unité de base.  
+> Il est possible d'utiliser plusieurs unités dans les installations WMS. Dans toutes les autres configurations, les contenus emplacement ne peuvent être que dans l'unité de base. Dans toutes les transactions avec une unité supérieure à l'unité de base de l'article, la quantité est transformée en unité de base.  
 
-## <a name="zone"></a>Zone  
+## <a name="zone"></a>Zone
+
 Dans l'entreposage avancé, des emplacements peuvent être groupés dans des zones pour gérer la manière dont le flux de travail des activités entrepôt est suggéré.  
 
 Une zone peut être une zone de réception ou une zone de stockage, et chaque zone peut comporter un ou plusieurs emplacements.  
@@ -114,19 +119,23 @@ Lorsque vous travaillez sur des classes d'entrepôt et un emplacement de récept
 
 En flux entrants, le code classe est uniquement sélectionné sur les lignes entrantes lorsque le code classe article ne correspond pas à l'emplacement de réception par défaut. Si les emplacements par défaut corrects ne sont pas affectés, la quantité ne peut pas être reçue.  
 
-## <a name="location"></a>Magasin  
+## <a name="location"></a>Magasin
+
 Un magasin est une structure ou un lieu physique où le stock est reçu, conservé et expédié. Il est éventuellement organisé sous forme d'emplacements. Un magasin peut être un entrepôt, une voiture de service, une salle d'exposition, une usine ou une zone dans une usine.  
 
-## <a name="first-expired-first-out"></a>FEFO (First-Expired-First-Out, premier expiré, premier sorti)  
+## <a name="first-expired-first-out"></a>FEFO (First-Expired-First-Out, premier expiré, premier sorti)
+
 Si vous activez la case à cocher **Prélèvement selon FEFO** sur le raccourci **Config. emplacement** de la fiche magasin, les articles suivis sont prélevés en fonction de leur date d'expiration. Les articles dont les dates de péremption sont les plus proches sont prélevés en premier.  
 
 Les activités d'entrepôt dans tous les document de prélèvement et de mouvement sont triées selon FEFO, à moins que les articles en question n'aient déjà des numéros de série/lot affectés. Si une partie seulement de la quantité de la ligne a déjà des numéros de série/lot affectés, la quantité restante à prélever est triée selon FEFO.  
 
 Lors du prélèvement selon FEFO, les articles disponibles qui expirent en premier sont rassemblés dans une liste temporaire de traçabilité en fonction de la date d'expiration. Si deux articles ont la même date de péremption, l'article avec le plus petit numéro de lot ou de série est sélectionné en premier. Si les numéros de lot ou de série sont identiques, l'article enregistré en premier est sélectionné en premier. Les critères standard de sélection des articles dans les emplacements prélèvement, par exemple Priorité emplacement et Déconditionnement, sont appliqués à cette liste de traçabilité FEFO temporaire.  
 
-## <a name="put-away-template"></a>Modèle rangement  
+## <a name="put-away-template"></a>Modèle rangement
+
 Le modèle rangement peut être affecté à un article et à un magasin. Le modèle rangement spécifie un ensemble de règles classées par priorité qui doivent être respectées lors de la création de rangements. Par exemple, un modèle de rangement peut exiger que l'article soit situé dans un emplacement dont le contenu correspond à l'unité, et si un emplacement similaire comportant suffisamment de capacité est introuvable, alors l'article doit être placé dans un emplacement vide.  
 
-## <a name="see-also"></a>Voir aussi  
+## <a name="see-also"></a>Voir aussi
+
 [Détails de conception : gestion d'entrepôt](design-details-warehouse-management.md)   
 [Détails de conception : disponibilité dans l'entrepôt](design-details-availability-in-the-warehouse.md)

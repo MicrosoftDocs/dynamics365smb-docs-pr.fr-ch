@@ -4,18 +4,15 @@ description: Publiez des objets en tant que services Web afin de les rendre imm�
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/21/2020
+ms.date: 05/19/2020
 ms.author: edupont
-ms.openlocfilehash: 3a0526451bb386f38eaf93c10ffd86937ea7b765
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.openlocfilehash: c9f12f2b15c379ad1f4765f1a20e773150f33b84
+ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324093"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3402468"
 ---
 # <a name="publish-a-web-service"></a>Publier un service Web
 
@@ -23,7 +20,8 @@ Les services Web sont un moyen pratique de rendre une fonctionnalité d'applicat
 
 Vous devez configurer un service Web dans le client [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vous devez ensuite publier le service Web pour le rendre disponible aux demandes de service sur le réseau. Les utilisateurs peuvent découvrir les services Web en pointant un navigateur sur l'emplacement du serveur et en demandant la liste des services disponibles. Lorsque vous publiez un service Web, il est immédiatement disponible sur le réseau pour les utilisateurs authentifiés. Tous les utilisateurs autorisés peuvent accéder aux métadonnées des services Web, mais seuls les utilisateurs ayant les autorisations nécessaires peuvent accéder aux données réelles.
 
-## <a name="creating-and-publishing-a-web-service"></a>Création et publication d'un service Web  
+## <a name="creating-and-publishing-a-web-service"></a>Création et publication d'un service Web
+
 Les étapes suivantes expliquent la procédure de création et de publication d'un service Web.  
 
 ### <a name="to-create-and-publish-a-web-service"></a>Création et publication d'un service Web  
@@ -71,3 +69,4 @@ https://api.businesscentral.dynamics.com/v1.0/OData/Customer?company='CRONUS Int
 
 [Administration](admin-setup-and-administration.md)  
 [Services Web Business Central pour les développeurs](/dynamics365/business-central/dev-itpro/webservices/web-services)  
+[Limites de demande OData](/dynamics365/business-central/dev-itpro/administration/operational-limits-online#ODataServices)  

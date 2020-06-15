@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 15f88c2ab05914db71820d45c6326af36235a9d2
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 1cf5c08f00565bbaea914405397f340cd281fcef
+ms.sourcegitcommit: 6aa830e3286729bac3cbe5e911d72a2c69d50f73
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193554"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428362"
 ---
 # <a name="customizing-business-central-using-extensions"></a>Personnalisation de Business Central à l'aide d'extensions
 Vous pouvez modifier [!INCLUDE[d365fin](includes/d365fin_md.md)] en installant des extensions qui ajoutent des fonctionnalités, modifient le comportement de l'application, ou vous permettent d'accéder à de nouveaux services en ligne, par exemple.
@@ -24,6 +24,9 @@ Vous pouvez modifier [!INCLUDE[d365fin](includes/d365fin_md.md)] en installant d
 > [!NOTE]
 > Pour installer des extensions à partir de AppSource ou ajouter des extensions par locataire, vous devez disposer des autorisations adéquates. Vous devez être membre du groupe d'utilisateurs D365 EXTENSION MGMT ou disposer du jeu d'autorisations D365 EXTENSION MGMT. Si vous êtes un administrateur, vous pouvez attribuer des groupes d'utilisateurs et des autorisations à d'autres utilisateurs de votre entreprise.<br /><br />
 Pour utiliser les fonctionnalités fournies par une extension, telles que l'ouverture de pages, la production de rapports, la sélection d'actions, etc., vous devez disposer des jeux d'autorisations installés avec cette extension.
+
+> [!IMPORTANT]  
+> Le chargement des extensions par client et l'installation des extensions AppSource ne sont pas pris en charge via la page **Gestion des extensions** pour les installations sur site.
 
 La première fois que vous lancez [!INCLUDE[d365fin](includes/d365fin_md.md)], certaines extensions sont déjà installées. Au fil du temps, davantage d'extensions seront disponibles. Il vous appartient de choisir si vous souhaitez les utiliser ou non.
 
@@ -69,7 +72,7 @@ Microsoft fournit les extensions suivantes :
 * [Extension Importer le fichier de paie de Quickbooks](ui-extensions-quickbooks-payroll.md)
 * [Stock prévu et ventes prévues](ui-extensions-sales-forecast.md)
 * [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
-* [Extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)
+* [Extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)
 * [DK - Migration de données C5](ui-extensions-c5-data-migration.md)
 * [DK - Paiements et rapprochements](ui-extensions-payments-reconciliation-formats-dk.md)
 * [DK - Formats de fichier fiscal](ui-extensions-tax-file-formats-dk.md)

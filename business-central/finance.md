@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8424d94b25ce56ceae65b04e41071c1a70f520ea
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 60b62845a359cec21b52f42c6692edc417a65123
+ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182627"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3410762"
 ---
 # <a name="finance"></a>Finance
 [!INCLUDE[d365fin](includes/d365fin_md.md)] comprend une configuration standard de la plupart des processus financiers, mais vous pouvez modifier la configuration pour l'adapter à votre activité. Pour plus d'informations, reportez-vous à [Configuration de Finance](finance-setup-finance.md).
@@ -45,6 +45,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | Affectez les surcoûts, tels que le fret et la manutention que vous encourez lors de la transaction, jusqu'aux articles impliqués afin que les coûts soient répercutées dans l'évaluation du stock. |[Utiliser Frais annexes pour comptabiliser les coûts commerciaux supplémentaires](payables-how-assign-item-charges.md) |
 |Valider les frais personnels des salariés pour les activités commerciales et remboursez les salariés en effectuant le paiement sur leur compte bancaire.|[Enregistrer et rembourser les frais des employés](finance-how-record-reimburse-employee-expenses.md)|
 | Identifiez les revenus et les dépenses dans des périodes autres que celles de la validation des transactions. |[Échelonner les recettes et les dépenses](finance-how-defer-revenue-expenses.md)|
+| Découvrez les options disponibles pour automatiser l'envoi de factures d'abonnement à vos clients et enregistrer des revenus récurrents. |[Revenus récurrents (abonnement)](finance-recurring-invoicing.md)|
 |En savoir plus sur l'utilisation de devises supplémentaires et mettre à jour les taux de change devise automatiquement. |[Mettre à jour des taux de change devise](finance-how-update-currencies.md)|
 | Importez des transactions de paie de votre fournisseur de paie dans les écritures comptables. |[Importer les transactions de paie](finance-how-import-payroll-transactions.md)|
 |Utiliser des fonctions pour calculer la taxe sur la valeur ajoutée (TVA) sur les transactions de vente et d'achat afin de pouvoir déclarer les montants aux autorités fiscales.|[Utiliser la TVA sur les ventes et les achats](finance-work-with-vat.md)|

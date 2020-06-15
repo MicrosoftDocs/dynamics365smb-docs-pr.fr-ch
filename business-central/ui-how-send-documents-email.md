@@ -1,24 +1,22 @@
 ---
 title: Paramétrer du contenu d'e-mail spécifique au document | Microsoft Docs
 description: Vous pouvez définir le contenu à insérer dans le corps de l'e-mail, par exemple, un lien Paypal. Vous pouvez également joindre des documents aux e-mails.
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 25b0d2b85d267f6a85afeed662a26daa0d32c5ce
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 05/13/2020
+ms.author: edupont
+ms.openlocfilehash: acc68a2f5fc657e133f32e7945f3b34f8daa2892
+ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195594"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3402521"
 ---
 # <a name="send-documents-by-email"></a>Envoyer des documents par e-mail
+
 Pour communiquer le contenu des documents commerciaux rapidement à vos partenaires commerciaux, par exemple les informations paiement sur les documents vente aux clients, vous pouvez utiliser la fonctionnalité de présentation des états pour définir le contenu spécifique aux documents qui est automatiquement inséré au corps du message. Pour plus d'informations, voir [Gestion des présentations de rapport et de document](ui-manage-report-layouts.md).
 
 Pour activer les emails au sein de [!INCLUDE[d365fin](includes/d365fin_md.md)], démarrez le guide de configuration assistée **Configurer la messagerie** sur le tableau de bord.
@@ -32,6 +30,7 @@ Si le champ **E-mail** sur la page **Envoyer le document à** est défini sur **
 La procédure suivante décrit comment définir l'état **Ventes : Facture** à utiliser pour les corps de message spécifiques à un document lorsque vous envoyez par e-mail des factures vente validées.
 
 ## <a name="to-set-up-a-document-specific-email-body-for-sales-invoices"></a>Pour configurer corps de message spécifique à un document pour les factures vente
+
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Sélection des états - Ventes**, puis sélectionnez le lien associé.
 2. Sur la page **Sélection des états : Ventes**, dans le champ **Utilisation**, sélectionnez **Facture**
 3. Sur une nouvelle ligne, dans le champ **ID état**, sélectionnez, par exemple, l'état standard 1306.
@@ -48,6 +47,7 @@ Désormais, lorsque vous sélectionnez, par exemple, l'action **Envoyer** sur la
 La procédure suivante décrit comment envoyer une facture vente validée en tant que message e-mail avec le document en pièce jointe sous forme de fichier PDF et avec un corps de message spécifique au document.
 
 ## <a name="to-send-documents-by-email"></a>Pour envoyer des documents par e-mail
+
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Factures vente enregistrées**, puis sélectionnez le lien associé.
 2. Sélectionnez la facture vente validée appropriée, puis cliquez sur **Envoyer**. La page **Envoyer le document à** s'affiche.
 3. Dans le champ **E-mail**, sélectionnez **Oui (Afficher une invite pour le réglage des paramètres)**. Pour plus d'informations, reportez vous à [Configurer des profils d'envoi de documents](sales-how-setup-document-send-profiles.md).
@@ -61,9 +61,16 @@ La procédure suivante décrit comment envoyer une facture vente validée en tan
 9. Cliquez sur le bouton **OK** pour envoyer l'e-mail.
 
 > [!NOTE]  
->   Si vous ne souhaitez pas spécifier les paramètres d'e-mail à chaque fois que vous envoyez un document par e-mail, vous pouvez sélectionner l'option **Oui (Utiliser les paramètres par défaut)** dans le champ **E-mail** de la page **Envoyer le document à**. Dans ce cas, la page **Envoyer e-mail** ne s'affiche pas. Reportez-vous à l'étape 4. Pour plus d'informations, reportez vous à [Configurer des profils d'envoi de documents](sales-how-setup-document-send-profiles.md).
+> Si vous ne souhaitez pas spécifier les paramètres d'e-mail à chaque fois que vous envoyez un document par e-mail, vous pouvez sélectionner l'option **Oui (Utiliser les paramètres par défaut)** dans le champ **E-mail** de la page **Envoyer le document à**. Dans ce cas, la page **Envoyer e-mail** ne s'affiche pas. Reportez-vous à l'étape 4. Pour plus d'informations, reportez vous à [Configurer des profils d'envoi de documents](sales-how-setup-document-send-profiles.md).  
+
+## <a name="documents-marked-as-printed-when-they-are-sent"></a>Documents marqués comme imprimés lors de leur envoi
+
+Certains documents dans [!INCLUDE [prodshort](includes/prodshort.md)] comportent un champ qui spécifie la fréquence d'impression du document. Le champ est également mis à jour si vous n'imprimez pas le document mais l'envoyez par e-mail à la place. Le champ est même mis à jour si vous n'envoyez pas réellement le document, par exemple lorsque votre organisation n'a pas configuré de messagerie électronique, ou lorsque le contact auquel vous souhaitez envoyer le document n'a pas d'adresse e-mail répertoriée. Dans tous les scénarios, en ce qui concerne [!INCLUDE [prodshort](includes/prodshort.md)], le document est imprimé car un fichier PDF est généré.  
+
+L'utilisateur peut ne pas voir ce fichier généré, mais c'est la raison pour laquelle le champ est mis à jour.
 
 ## <a name="see-also"></a>Voir aussi
+
 [Gestion des présentations d'état et de document](ui-manage-report-layouts.md)  
 [Configurer la messagerie](admin-how-setup-email.md)  
 [Facturer des ventes](sales-how-invoice-sales.md)  

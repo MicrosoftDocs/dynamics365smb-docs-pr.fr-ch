@@ -1,33 +1,33 @@
 ---
 title: Reclasser les immobilisations| Microsoft Docs
 description: Vous reclassez une immobilisation pour la transférer vers un autre service, la fractionner, ou la combiner avec d'autres immobilisations.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 2ae58d97e4207d7125be5e3f0936fce20cf39006
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/04/2020
+ms.author: edupont
+ms.openlocfilehash: 0232ef89cd708c33d1db716a337edc8cb97c58d3
+ms.sourcegitcommit: ccae3ff6aaeaa52db9d6456042acdede19fb9f7b
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184403"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "3435198"
 ---
 # <a name="transfer-split-or-combine-fixed-assets"></a>Transférer, fractionner ou regrouper les immobilisations
+
 Vous pouvez utiliser la feuille reclassement immobilisation pour transférer, fractionner et regrouper des immobilisations. Vous visualisez ou imprimez les résultats d'un reclassement immobilisation avec l'état **Immo. - Valeur comptable 02**.
 
 ## <a name="to-transfer-a-fixed-asset-to-a-different-department"></a>Pour transférer une immobilisation vers un autre département
+
 Vous pouvez transférer une immobilisation vers un autre département lorsque, par exemple, vous placez une immobilisation dans le département production lorsqu'elle est en construction, puis la déplacez vers le département administration lorsqu'elle est finalisée.  
 
-1. Définissez une nouvelle immobilisation. Saisissez le nouveau département dans le champ **Code département**.
+1. Définissez une nouvelle immobilisation. Entrez le nouveau département en tant que dimension.  
 2. Affectez une loi d'amortissement d'immobilisation vers la nouvelle immobilisation. Pour en savoir plus, voir [Acquérir des immobilisations](fa-how-acquire.md).
-3. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles reclassement immo.**, puis sélectionnez le lien associé.
-4. Créez une feuille reclassement lorsque le champ **N° immo.** contient l'immobilisation initiale, et le champ **Nouveau N° immo.** indique la nouvelle immobilisation à déplacer.  
+3. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles reclassement immobilisation**, puis sélectionnez le lien associé.
+4. Créez une ligne feuille lorsque le champ **N° immo.** contient l'immobilisation initiale, et le champ **Nouveau N° immo.** indique la nouvelle immobilisation à déplacer. Renseignez les autres champs, comme nécessaire.  
 5. Sélectionnez l'action **Reclasser**.
 
     Deux lignes sont maintenant créées dans la ligne feuille immobilisation à l'aide du modèle et de la feuille que vous avez indiqués sur la page **Param. feuille immo.** pour la loi d'amortissement sélectionnée. Pour en savoir plus, consultez [Configurer un amortissement immobilisation](fa-how-setup-depreciation.md).
@@ -39,38 +39,41 @@ Si vous avez validé un coût d'acquisition pour une immobilisation, vous pouvez
 ## <a name="to-split-a-fixed-asset-into-three-fixed-assets"></a>Pour fractionner une immobilisation en trois immobilisations
 Vous pouvez fractionner une immobilisation en plusieurs immobilisations, par exemple lorsque vous devez distribuer une immobilisation auprès de trois départements. Dans ce cas, vous pouvez déplacer, par exemple, 25 % du coût d'acquisition et de l'amortissement de l'immobilisation d'origine vers une autre, et 45 % vers une troisième. Les 30 % restants sont maintenus dans l'immobilisation d'origine.
 
-1. Configurez deux nouvelles immobilisations. Saisissez le nouveau département dans le champ **Code département**.
+1. Configurez deux nouvelles immobilisations. Entrez les nouveaux départements en tant que dimensions.  
 2. Affectez des lois d'amortissement d'immobilisation aux nouvelles immobilisations. Pour en savoir plus, consultez [Acquérir des immobilisations](fa-how-acquire.md).
-3. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles reclassement immo.**, puis sélectionnez le lien associé.
+3. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles reclassement immobilisation**, puis sélectionnez le lien associé.
 4. Créez deux lignes feuille reclassement, une pour chaque nouvelle immobilisation.
 5. Sur la première ligne, entrez la deuxième immobilisation dans le champ **Nouveau N° immo.** et 25 dans le champ **Reclass. coût acq. %**.
 6. Sur la deuxième ligne, entrez la troisième immobilisation dans le champ **Nouveau N° immo.** et 40 dans le champ **Reclass. coût acq. %**.
-7. Sur les deux lignes, cochez les cases **Reclass. coût acq.** et **Reclass. amortissement**.   
-8. Sélectionnez l'action **Reclasser**.
+7. Sur les deux lignes, cochez les cases **Reclass. coût acq.** et **Reclass. amortissement**.  
+8. Sélectionnez l'action **Reclasser**.  
 
     Deux lignes sont maintenant créées dans la ligne feuille immobilisation à l'aide du modèle et de la feuille que vous avez indiqués sur la page **Param. feuille immo.** pour la loi d'amortissement sélectionnée. Pour en savoir plus, consultez [Configurer un amortissement immobilisation](fa-how-setup-depreciation.md).    
 9. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles comptabilisation immo.**, puis sélectionnez le lien associé.
 10. Sur la page **Feuille compta. immo.**, sélectionnez l'action **Valider** pour valider le reclassement que vous avez effectué aux étapes 4 à 8.
 
 ## <a name="to-combine-two-fixed-assets-into-one"></a>Pour regrouper deux immobilisations en une
+
 Vous pouvez regrouper plusieurs immobilisations en une, par exemple lorsque vous déplacez les immobilisations distribuées dans un département. Si vous avez validé les coûts d'acquisition et l'amortissement pour l'immobilisation à déplacer, ces valeurs seront regroupées dans l'immobilisation unique.
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles reclassement immo.**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles reclassement immobilisation**, puis sélectionnez le lien associé.
 2. Créez une feuille reclassement lorsque le champ **N° immo.** contient l'immobilisation initiale à déplacer/combiner, et le champ **Nouveau N° immo.** indique la nouvelle immobilisation qui lui sera combinée.
-3. Laissez le champ **Reclass. coût acq. %** vide pour déplacer/regrouper le coût total de l'acquisition.    
+3. Laissez le champ **Reclass. coût acq. %** vide pour déplacer/regrouper le coût total de l'acquisition.  
 4. Cochez les deux cases **Reclass. coût acq.** et **Reclass. amortissement**.
 5. Sélectionnez l'action **Reclasser**.
 
     Deux lignes sont maintenant créées dans la ligne feuille immobilisation à l'aide du modèle et de la feuille que vous avez indiqués sur la page **Param. feuille immo.** pour la loi d'amortissement sélectionnée. Pour en savoir plus, consultez [Configurer un amortissement immobilisation](fa-how-setup-depreciation.md).   
-6. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles comptabilisation immobilisation**, puis sélectionnez le lien associé.
+6. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles compta. immo.**, puis sélectionnez le lien associé.
 7. Sur la page **Feuille compta. immo.**, sélectionnez l'action **Valider** pour valider le reclassement que vous avez effectué aux étapes 2 à 5.
 
 ## <a name="to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification"></a>Pour afficher les valeurs de loi d'amortissement modifiées en raison d'un reclassement immobilisation.
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Valeur comptable immo. 02**, puis sélectionnez le lien associé.
+
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Valeur comptable 02 de l'immobilisation**, puis sélectionnez le lien associé.
 2. Renseignez les champs selon vos besoins.
 3. Cliquez sur le bouton **Imprimer** ou **Aperçu**.  
 
 ## <a name="see-also"></a>Voir aussi
+
 [COMPTES D'IMMOBILISATIONS](fa-manage.md)  
 [Paramétrage d'immobilisations](fa-setup.md)  
 [Finances](finance.md)  

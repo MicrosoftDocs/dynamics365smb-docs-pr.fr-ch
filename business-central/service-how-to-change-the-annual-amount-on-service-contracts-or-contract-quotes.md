@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 73390a2857714e87378affb34409500d8f1436d3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: ad5193621f0f581e5b2cdec305e08b20ca80ef4e
+ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195066"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3402585"
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Modifier le montant annuel du contrat service ou du devis contrat
 Vous pouvez modifier le montant annuel du contrat service ou du devis contrat afin de rectifier le montant qui sera facturé annuellement.  
@@ -30,7 +30,7 @@ Vous pouvez modifier le montant annuel du contrat service ou du devis contrat af
 6. Selon que la case à cocher du champ **Autoriser montants non soldés** est sélectionnée ou non, exécutez la répartition manuelle ou automatique de la différence du montant annuel. Les lignes contrat sont mises à jour de telle sorte que la valeur du champ **Montant annuel calculé** soit égale au nouveau montant annuel.  
 
 ## <a name="distributing-differences-between-new-and-calculated-annual-amounts"></a>Distribuer les différences entre les nouveaux montants annuels et les montants annuels calculés
-Si vous modifiez le montant annuel du contrat service ou du devis contrat de service, vous devrez peut-être répartir la différence entre ses nouveaux montants annuels et ses montants annuels calculés dans les lignes contrat. Il existe trois méthodes de répartition des montants :
+Si vous modifiez le montant annuel d'un contrat de service ou d'un devis contrat de service, vous devrez peut-être répartir la différence entre ses nouveaux montants annuels et ses montants annuels calculés dans les lignes contrat. Il existe trois méthodes de répartition des montants :
 
 * Répartition égale  
 * Répartition selon montants ligne  
@@ -80,45 +80,7 @@ Si vous modifiez le montant annuel du contrat service ou du devis contrat, vous 
     * % remise ligne = Montant remise ligne / Valeur ligne * 100.  
     * Marge = M ontant ligne - Coût ligne.  
 
-### <a name="distribution-based-on-line-amount"></a>Répartition selon montant ligne
-Si vous modifiez le montant annuel du contrat service ou du devis contrat, vous voudrez peut-être répartir la différence entre ses nouveaux montants annuels et ses montants annuels calculés dans les lignes contrat. La répartition basée sur le montant ligne est l'une des méthodes automatiques qui peut vous aider à répartir la différence nouveaux montants annuels et montants annuels calculés entre les montants ligne des lignes contrat. La répartition se fera proportionnellement à leur part montant ligne dans le montant annuel calculé. La liste suivante, qui répertorie les étapes de la procédure de répartition pour chaque ligne contrat, décrit les grands principes de cette méthode :  
-
-1. La marge sur coût variable en pourcentage est calculée comme suit : la valeur du champ **Montant ligne** est divisée par les valeurs du champ **Montant annuel calculé** de toutes les lignes contrat.  
-2. La valeur du champ **Montant ligne** est mise à jour en lui ajoutant la différence entre les nouveaux montants annuels et les montants calculés, qui est multipliée par la marge sur coût variable en pourcentage.  
-3. La valeur des champs **Montant remise ligne**, **remise ligne** et **Marge** est mise à jour par rapport à la nouvelle valeur du champ **Montant remise ligne** de la manière suivante :  
-
-    * Montant remise ligne = Valeur ligne- Montant ligne.  
-    * % remise ligne = Montant remise ligne / Valeur ligne * 100.  
-    * Marge = M ontant ligne - Coût ligne.  
-
 Les étapes sont répétées pour chaque ligne contrat.  
-
-#### <a name="example"></a>Exemple :  
-La case à cocher **Autoriser montants non soldés** n'est pas activé dans le contrat service qui contient trois lignes de contrat avec les informations suivantes.  
-
-|Article ;|Coût ligne|Valeur ligne|% remise ligne|Montant remise ligne|Montant ligne|Marge|  
-|----------|---------------|----------------|---------------------|--------------------------|-----------------|------------|  
-|Article 1|15,00|17,00|3,00|0,51|25,00|1,49|  
-|Article 2|20,00|23,00|Aucune|0.00|55,10|3,00|  
-|Article 3|24,00|27,00|3,00|0,81|112,70|2,19|  
-
-La valeur du champ **Montant annuel** est égale à celle du champ **Montant annuel calculé** qui est toujours égale à la somme des montants ligne. Dans ce cas, il est égal à ce qui suit : 16,49 + 23,00 + 26,19 = 65,68.  
-
-Si vous remplacez le **Montant annuel** par 60, la marge sur coût variable en pourcentage est calculée pour chaque ligne contrat :  
-
-* Article 1 – 5 / (5 + 5,1 +12,7) = 0,2193 %  
-* Article 2 – 5,1 / (5 + 5,1 + 12,7) = 0,2237  
-* Article 3 – 12,7 / (5 + 5,1 +12,7) = 0,557  
-
-La valeur du champ **Montant ligne** est ensuite mise à jour dans chaque ligne contrat à l'aide de la formule suivante : Montant ligne = Montant ligne + différence entre les nouveaux montants annuels et les montants annuels calculés * Contribution en pourcentage. Après quoi, les valeurs des champs **Montant remise ligne**, **% remise ligne** et **Marge** sont mises à jour à l'aide des formules décrites dans la procédure précédente.  
-
-A la fin, les lignes contrat contiennent les données suivantes.  
-
-|Article ;|Coût ligne|Valeur ligne|% remise ligne|Montant remise ligne|Montant ligne|Marge|  
-|----------|---------------|----------------|---------------------|--------------------------|-----------------|------------|  
-|Article 1|15,00|17,00|11,41|1,94|15,06|0,06|  
-|Article 2|20,00|23,00|8.65|1.99|21.01|1.01|  
-|Article 3|24.00|27.00|11.37|3.07|23.93|-0,07|  -   % remise ligne = Montant remise ligne / Valeur ligne * 100.  
 
 #### <a name="example"></a>Exemple :  
 La case à cocher **Autoriser montants non soldés** n'est pas activé dans le contrat service qui contient trois lignes de contrat avec les informations suivantes.  
