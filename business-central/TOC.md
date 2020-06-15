@@ -314,11 +314,11 @@
 #### [Recevoir et convertir des documents électroniques](purchasing-how-to-receive-and-convert-electronic-documents.md)
 #### [Configurer le service Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)
 #### [Exporter des paiements vers un fichier bancaire](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
-#### [Réalisation de paiements avec l'extension AMC Banking 365 Fundamentals ou virement SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
+#### [Réalisation de paiements avec l'extension AMC Banking 365 Fundamentals ou le virement SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 #### [Recouvrement de paiements par prélèvement automatique SEPA](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Mettre à jour des taux de change devise](finance-how-update-currencies.md)
 #### [Mappage de champs lors de l'importation de fichiers SEPA CAMT](across-field-mapping-when-importing-sepa-camt-files.md)
-#### [Mappage de champs pour l'extension AMC Banking 365 Fundamentals](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
+#### [Mappage de champ pour l'extension AMC Banking 365 Fundamentals](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
 
 # Administration
 ## [Aperçu](admin-setup-and-administration.md)
@@ -364,7 +364,7 @@
 #### [Migration des données QuickBooks Online](ui-extensions-quickbooks-online-data-migration.md)
 #### [Extension Importer le fichier de paie de Quickbooks](ui-extensions-quickbooks-payroll.md)
 #### [Stock prévu et ventes prévues](ui-extensions-sales-forecast.md)
-#### [Extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)
+#### [Extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)
 #### [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
 #### [DK - Migration de données C5](ui-extensions-c5-data-migration.md)
 #### [DK - Paiements et rapprochements](ui-extensions-payments-reconciliation-formats-dk.md)
@@ -414,7 +414,7 @@
 #### [Enregistrer des paiements et des remboursements](payables-how-post-payments-refunds.md)
 #### [Proposer paiements fournisseur](payables-how-suggest-vendor-payments.md)
 #### [Effectuer des paiements par chèque](payables-how-work-checks.md)
-#### [Réalisation de paiements avec l'extension AMC Banking 365 Fundamentals ou virement SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
+#### [Réalisation de paiements avec l'extension AMC Banking 365 Fundamentals ou le virement SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 #### [Établir rapidement des factures achat](finance-how-to-settle-purchase-invoices-promptly.md)
 #### [Exporter un fichier Positive Pay](finance-how-positive-pay.md)
 ### Lettrage automatique des paiements et rapprochement des comptes bancaires
@@ -544,6 +544,7 @@
 ## [Calcul de la date des ventes](sales-date-calculation-for-sales.md)
 ## [Créer une prévision](production-how-to-create-a-forecast.md)
 ## [Fusionner l'enregistrement des doublons](sales-how-merge-duplicate-records.md)
+## [Utiliser des revenus récurrents](finance-recurring-invoicing.md)
 
 # Achats
 ## [Aperçu](purchasing-manage-purchasing.md)
