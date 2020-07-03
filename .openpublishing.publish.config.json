@@ -4,7 +4,7 @@
       "docset_name": "d365accountant",
       "build_source_folder": "accountant",
       "build_output_subfolder": "d365accountant",
-      "locale": "fr-ch",
+      "locale": "fr-CH",
       "monikers": [],
       "moniker_ranges": [],
       "open_to_public_contributors": false,
@@ -22,7 +22,7 @@
       "docset_name": "d365businesscentral",
       "build_source_folder": "business-central",
       "build_output_subfolder": "d365businesscentral",
-      "locale": "fr-ch",
+      "locale": "fr-CH",
       "monikers": [],
       "moniker_ranges": [],
       "open_to_public_contributors": false,
@@ -38,7 +38,7 @@
       "docset_name": "d365smbinvoicing",
       "build_source_folder": "invoicing",
       "build_output_subfolder": "d365smbinvoicing",
-      "locale": "fr-ch",
+      "locale": "fr-CH",
       "monikers": [],
       "moniker_ranges": [],
       "open_to_public_contributors": false,
@@ -67,7 +67,7 @@
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
-      "url": "https://github.com/Microsoft/templates.docs.msft.fr-ch",
+      "url": "https://github.com/Microsoft/templates.docs.msft.fr-CH",
       "branch": "master",
       "branch_mapping": {}
     },
