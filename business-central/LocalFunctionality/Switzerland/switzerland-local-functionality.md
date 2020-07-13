@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/09/2020
 ms.author: soalex
-ms.openlocfilehash: 84d3f21bc1300059ae95a4edfb5ad6807dac6cf0
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6ae18b49ffd81fd4f2cd6e68a2f18ea481ff8455
+ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189058"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454213"
 ---
 # <a name="switzerland-local-functionality"></a>Fonctionnalité locale, Suisse
+
 Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à la version suisse de [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 ## <a name="feature-availability"></a>Disponibilité des fonctions
@@ -68,6 +69,8 @@ Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à l
     * [Documents achat et commandes vente, Suisse](swiss-purchase-documents-and-sales-documents.md) **Désormais disponible**
 
 ## <a name="see-also"></a>Voir aussi
-[Utilisation de [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)
+
+[Utilisation de [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
+[Disponibilité nationale/régionale et langues prises en charge](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
