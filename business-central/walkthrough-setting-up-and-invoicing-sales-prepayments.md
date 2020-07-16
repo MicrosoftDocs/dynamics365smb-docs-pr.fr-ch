@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/25/2020
 ms.author: sgroespe
-ms.openlocfilehash: 95e361d2c7e6901e4650a02b4e30df86bf6b3e45
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 29ab09f12a31339810bd01af72ee488bfa879dc4
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193410"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529378"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Procédure pas à pas : configuration et facturation d'acomptes
 
-**Remarque** : Ce guide pas-à-pas doit être effectué sur une société de démonstration avec l'option **Évaluation complète - Renseigner des exemples de données**, disponible dans l'environnement sandbox. Pour plus d’informations, voir [Création d'un environnement Sandbox](across-how-create-sandbox-environment.md).
+[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
 
 Les acomptes sont des paiements qui sont facturés et validés dans une commande acompte vente ou achat avant la facturation finale. Vous pouvez demander un acompte avant de fabriquer les produits commandés ou le paiement avant d'envoyer les articles à un client. Vous utilisez la fonctionnalité d'acomptes dans [!INCLUDE[d365fin](includes/d365fin_md.md)] pour facturer et collecter les acomptes requis des clients ou régler des acomptes aux fournisseurs. Vous pouvez ainsi vous assurer que tous les paiements sont validés sur une facture.  
 

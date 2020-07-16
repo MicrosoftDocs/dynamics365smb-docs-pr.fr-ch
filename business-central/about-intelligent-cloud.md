@@ -11,12 +11,12 @@ ms.reviewer: edupont
 ms. search.keywords: cloud, edge
 ms.date: 04/01/2020
 ms.author: bmeier
-ms.openlocfilehash: e3fccf0fbbc0031c0b2bf4dc73059bece1c465f4
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c2c30715c730aec51f31f80ea95fd896cb1b257f
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188939"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528878"
 ---
 # <a name="intelligent-insights-with-prodshort-online"></a>Informations intelligentes avec [!INCLUDE[prodshort](includes/prodshort.md)] Online
 
@@ -24,7 +24,7 @@ En tant qu'utilisateur de [!INCLUDE[prodshort](includes/prodshort.md)] en ligne,
 
 Si vous êtes intéressé par [!INCLUDE[prodshort](includes/prodshort.md)], vous pouvez vous inscrire à une version d'évaluation gratuite en ligne, ou vous pouvez choisir de faire appel à un partenaire pour déployer [!INCLUDE[prodshort](includes/prodshort.md)] localement sur le matériel de votre choix. Vous pouvez ensuite décider d'obtenir des informations intelligentes en vous connectant à un abonné dans le cloud. Par conséquent, les données de votre [!INCLUDE[prodshort](includes/prodshort.md)] déployé localement seront répliquées sur le cloud pour les scénarios de cloud intelligent.  
 
-La connexion au cloud intelligent d'une solution locale nécessite que votre administrateur spécifie des informations sur votre base de données. Les outils utilisés pour connecter votre déploiement local à [!INCLUDE [prodshort](includes/prodshort.md)] en ligne sont les mêmes que ceux également utilisés pour la migration de la solution locale en solution en ligne. Pour en savoir plus, voir la rubrique [Migration des données locales vers Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) dans le contenu d'administration pour [!INCLUDE[prodshort](includes/prodshort.md)].  
+La connexion au cloud intelligent d'une solution locale nécessite que votre administrateur spécifie des informations sur votre base de données. Les outils utilisés pour connecter votre déploiement local à [!INCLUDE[prodshort](includes/prodshort.md)] en ligne sont les mêmes que ceux également utilisés pour la migration de la solution locale en solution en ligne. Pour en savoir plus, voir la rubrique [Migration des données locales vers Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) dans le contenu d'administration pour [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 ## <a name="viewing-intelligent-cloud-insights-in-prodshort-online"></a>Affichage des informations sur le cloud intelligent dans [!INCLUDE[prodshort](includes/prodshort.md)] Online.
 

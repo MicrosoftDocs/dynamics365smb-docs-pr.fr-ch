@@ -1,7 +1,6 @@
 ---
 title: 'Procédure : configuration des utilisateurs de flux de travail | Microsoft Docs'
 description: Avant de pouvoir créer des flux de travail, vous devez configurer des utilisateurs qui participent aux flux de travail. Cela est nécessaire, par exemple, pour spécifier qui doit recevoir une notification pour agir sur une étape du flux de travail.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 04/01/2020
+ms.date: 06/08/2020
 ms.author: sgroespe
-ms.openlocfilehash: c5206874a8a39e06c711c31c681a18c0bae5b183
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: ba6508c9679923836092ba4df9d3453a39f7fd9b
+ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188034"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454286"
 ---
 # <a name="set-up-workflow-users"></a>Configurer des utilisateurs de flux de travail
+
 Avant de pouvoir créer des flux de travail, vous devez configurer des utilisateurs qui participent aux flux de travail. Cela est nécessaire, par exemple, pour spécifier qui doit recevoir une notification pour agir sur une étape du flux de travail.  
 
 Sur la page **Groupe d'utilisateurs du flux de travail**, configurez des utilisateurs sous des groupes d'utilisateurs de flux de travail, et spécifiez le numéro des utilisateurs dans une séquence de processus, comme une chaîne d'approbateurs.  
@@ -26,11 +26,11 @@ Sur la page **Groupe d'utilisateurs du flux de travail**, configurez des utilisa
 Les utilisateurs de flux de travail dont la fonction est utilisateurs approbation, à la fois demandeurs d'approbation et approbateurs, doivent également être définis sur la page **Paramètres utilisateur approbation**. Pour plus d'informations, voir [Configurer des utilisateurs d'approbation](across-how-to-set-up-approval-users.md).  
 
 > [!NOTE]  
->  Pour indiquer qu'une demande d'approbation n'est pas approuvée tant que plusieurs approbateurs dans une chaîne d'approbation ne l'ont pas approuvée, configurez les approbateurs selon une hiérarchie. Pour le type d'approbateur **Approbateur**, configurez les approbateurs sur la page **Paramètres utilisateur d'approbation**. Pour le type d'approbateur **Groupe d'utilisateurs de flux de travail**, configurez les approbateurs sur la page **Groupe d'utilisateurs du flux de travail** et définissez la hiérarchie en affectant des numéros incrémentiels à chaque approbateur dans le champ **N° séquence** . Pour plus d'informations, reportez-vous à [Configurer des utilisateurs d'approbation](across-how-to-set-up-approval-users.md) et à cette rubrique.  
->   
->  Pour indiquer qu'une demande d'approbation n'est pas approuvée tant que plusieurs approbateurs de même niveau ne l'ont pas approuvée, indépendamment d'une hiérarchie, configurez un groupe d'utilisateurs de flux de travail horizontal. Pour le type d'approbateur **Groupe d'utilisateurs de flux de travail**, configurez les approbateurs sur la page **Groupe d'utilisateurs du flux de travail** et affectez le même numéro à chaque approbateur dans le champ **N° séquence** . Pour plus d'informations, voir cette rubrique.  
+> Pour indiquer qu'une demande d'approbation n'est pas approuvée tant que plusieurs approbateurs dans une chaîne d'approbation ne l'ont pas approuvée, configurez les approbateurs selon une hiérarchie. Pour le type d'approbateur **Approbateur**, configurez les approbateurs sur la page **Paramètres utilisateur d'approbation**. Pour le type d'approbateur **Groupe d'utilisateurs de flux de travail**, configurez les approbateurs sur la page **Groupe d'utilisateurs du flux de travail** et définissez la hiérarchie en affectant des numéros incrémentiels à chaque approbateur dans le champ **N° séquence** . Pour plus d'informations, reportez-vous à [Configurer des utilisateurs d'approbation](across-how-to-set-up-approval-users.md) et à la section suivante.  
+>
+> Pour indiquer qu'une demande d'approbation n'est pas approuvée tant que plusieurs approbateurs de même niveau ne l'ont pas approuvée, indépendamment d'une hiérarchie, configurez un groupe d'utilisateurs de flux de travail horizontal. Pour le type d'approbateur **Groupe d'utilisateurs de flux de travail**, configurez les approbateurs sur la page **Groupe d'utilisateurs du flux de travail** et affectez le même numéro à chaque approbateur dans le champ **N° séquence** . Pour plus d'informations, reportez-vous à la section suivante.  
 
-### <a name="to-set-up-a-workflow-user"></a>Configurer un utilisateur de workflow  
+## <a name="to-set-up-a-workflow-user"></a>Configurer un utilisateur de workflow
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Groupes d'utilisateurs du flux de travail**, puis sélectionnez le lien associé.  
 2. Sélectionnez l'action **Nouveau**. La page **Groupe d'utilisateurs du flux de travail** s'ouvre.  
@@ -45,9 +45,10 @@ Les utilisateurs de flux de travail dont la fonction est utilisateurs approbatio
 6. Répétez l'étape 5 pour ajouter des utilisateurs de workflow dans le groupe d'utilisateurs.  
 7. Répétez l'étape 2 à 6 pour ajouter des groupes d'utilisateurs de workflow.  
 
-## <a name="see-also"></a>Voir aussi  
-[Configurer des utilisateurs d'approbation](across-how-to-set-up-approval-users.md)   
-[Paramétrage des workflows](across-set-up-workflows.md)   
-[Utilisation des workflows](across-use-workflows.md)   
-[Procédure pas à pas : Configuration et utilisation d'un flux d'approbation achat](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
-[Flux de travail](across-workflow.md)   
+## <a name="see-also"></a>Voir aussi
+
+[Configurer des utilisateurs d'approbation](across-how-to-set-up-approval-users.md)  
+[Paramétrage des workflows](across-set-up-workflows.md)  
+[Utilisation des workflows](across-use-workflows.md)  
+[Procédure pas à pas : Configuration et utilisation d'un flux d'approbation achat](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
+[Flux de travail](across-workflow.md)  

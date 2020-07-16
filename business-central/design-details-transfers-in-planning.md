@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, transfer, sku, locations, warehouse
-ms.date: 04/01/2020
+ms.date: 06/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: 5940319c254c97040c3f3b15fc540ed9cfecda5c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6016feb4a65fe869d2c29c107afc19dd7756b011
+ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184685"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3503659"
 ---
 # <a name="design-details-transfers-in-planning"></a>Détails de conception : transferts de planification
 Les ordres de transfert sont également une source d'approvisionnement lorsque vous travaillez au niveau des points de stock. Lors de l'utilisation de plusieurs magasins (entrepôts), le système de réapprovisionnement de point de stock peut être défini sur Transfer, ce qui implique que le magasin est réapprovisionné en transférant des biens d'un autre magasin. Dans une situation avec plusieurs entrepôts, les sociétés peuvent avoir une chaîne de transferts où l'approvisionnement vers le magasin VERT est transféré à partir du magasin JAUNE, l'approvisionnement vers JAUNE est transféré depuis ROUGE et ainsi de suite. Au début de la chaîne, il existe un système de réapprovisionnement d'Ordre de fabrication ou d'achat.  
@@ -94,7 +94,7 @@ Dans l'exemple suivant, le point de départ est une situation équilibrée avec 
 
 ![Modification de la quantité dans la planification de transfert 2](media/nav_app_supply_planning_7_transfers10.png "Modification de la quantité dans la planification de transfert 2")  
 
-Habituellement, cela signifie que le système de planification ignore la commande achat et la demande de transfert. Tant que l'équilibre est maintenu, il n'y a pas de problème. Mais que se passe-t-il si le client dans un magasin ROUGE regrette en partie sa commande et la modifie à 22 ?  
+Habituellement, cela signifie que le système de planification ignore la commande achat et la demande de transfert. Tant que l'équilibre est maintenu, il n'y a pas de problème. Mais que se passe-t-il si le client dans un magasin ROUGE regrette en partie la commande et la modifie à 22 ?  
 
 ![Modification de la quantité dans la planification de transfert 3](media/nav_app_supply_planning_7_transfers11.png "Modification de la quantité dans la planification de transfert 3")  
 

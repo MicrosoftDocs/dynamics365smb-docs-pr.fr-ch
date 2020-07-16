@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 04/01/2020
+ms.date: 06/25/2020
 ms.author: edupont
-ms.openlocfilehash: 9c6e162e8b8146c59c135b669566594ca67be7dc
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 865a7511a086d38ae1edeabb008557a7101498ff
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188699"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528100"
 ---
 # <a name="frequently-asked-questions"></a>Forum Aux Questions
 
@@ -22,13 +22,13 @@ Cette section contient des réponses aux questions les plus fréquentes sur l'in
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] est disponible dans sur nombre limité de marchés, mais de nouveaux pays sont ajoutés via la localisation Microsoft ou via la localisation partenaire chaque trimestre. Pour plus d'informations, voir [Disponibilité par pays/région et traductions prises en charge](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) (disponible en anglais uniquement).  
 
-## <a name="how-do-i-get-prodshort"></a>Procédure pour obtenir [!INCLUDE [prodshort](includes/prodshort.md)]
+## <a name="how-do-i-get-prodshort"></a>Procédure pour obtenir [!INCLUDE[prodshort](includes/prodshort.md)]
 
-Vous pouvez vous inscrire à une version d'évaluation afin de découvrir [!INCLUDE [prodshort](includes/prodshort.md)]. [!INCLUDE [free_trial_md](includes/free_trial_md.md)] Si vous souhaitez plus de temps pour l'explorer, [vous pouvez prolonger votre période d'essai](#can-i-extend-my-30-day-new-company-trial-period).  
+Vous pouvez vous inscrire à une version d'évaluation afin de découvrir [!INCLUDE[prodshort](includes/prodshort.md)]. [!INCLUDE[free_trial_md](includes/free_trial_md.md)] Si vous souhaitez plus de temps pour l'explorer, [vous pouvez prolonger votre période d'essai](#can-i-extend-my-30-day-new-company-trial-period).  
 
-Pour vous aider à vous préparer pour vos activités commerciales, dans [!INCLUDE [prodshort](includes/prodshort.md)], vous pouvez lancer des guides de configuration assistée, des vidéos ou des rubriques d'aide pour les tâches de configuration sélectionnées. Pour plus d'informations, voir [Préparation aux activités commerciales](ui-get-ready-business.md).  
+Pour vous aider à vous préparer pour vos activités commerciales, dans [!INCLUDE[prodshort](includes/prodshort.md)], vous pouvez lancer des guides de configuration assistée, des vidéos ou des rubriques d'aide pour les tâches de configuration sélectionnées. Pour plus d'informations, voir [Préparation aux activités commerciales](ui-get-ready-business.md).  
 
-Lorsque vous êtes prêt à acheter [!INCLUDE [prodshort](includes/prodshort.md)], vous pouvez rechercher un revendeur [!INCLUDE [prodshort](includes/prodshort.md)] sur la page [Je recherche un fournisseur de solution](https://go.microsoft.com/fwlink/?linkid=2038145). Pour plus d'informations, voir [Comment trouver un partenaire revendeur ?](#findpartner).  
+Lorsque vous êtes prêt à acheter [!INCLUDE[prodshort](includes/prodshort.md)], vous pouvez rechercher un revendeur [!INCLUDE[prodshort](includes/prodshort.md)] sur la page [Je recherche un fournisseur de solution](https://go.microsoft.com/fwlink/?linkid=2038145). Pour plus d'informations, voir [Comment trouver un partenaire revendeur ?](#findpartner).  
 
 ## <a name="where-do-i-go-if-i-have-questions"></a>Où aller si j'ai des questions ?
 Si vous avez des questions à propos de [!INCLUDE[d365fin](includes/d365fin_md.md)] et que vous ne trouvez pas les réponses dans cette documentation, vous pouvez demander à la communauté Business Central. Pour plus d'informations, reportez-vous à la [Communauté Dynamics 365 Business Central](https://community.dynamics.com/business).  
@@ -50,7 +50,7 @@ Oui, vous pouvez ! Vous pouvez trouver du contenu eLearning gratuit sur le site
 
 Pour plus d'informations sur la formation Dynamics 365 fournie par Microsoft, voir la page [Formation Microsoft Dynamics 365](/dynamics365/get-started/training/index#dynamics-365-customers).  
 
-Le contenu supplémentaire est fourni par la communauté [!INCLUDE [prodshort](includes/prodshort.md)], comme le [Guide de terrain Microsoft Dynamics 365 Business Central](https://leanpub.com/dynamics) écrit par un partenaire.  
+Le contenu supplémentaire est fourni par la communauté [!INCLUDE[prodshort](includes/prodshort.md)], comme le [Guide de terrain Microsoft Dynamics 365 Business Central](https://leanpub.com/dynamics) écrit par un partenaire.  
 
 ## <a name="how-do-i-get-technical-support-for-d365fin"></a><a name="hdigetsupport"></a>Comment est-ce que j'obtiens le support technique pour [!INCLUDE[d365fin](includes/d365fin_md.md)] ?
 
@@ -101,18 +101,26 @@ Bien sûr. Si vous le faites, vous pouvez demander un mot de passe d'application
 
 ## <a name="how-do-i-find-a-reselling-partner"></a><a name="findpartner"></a>Comment trouver un partenaire revendeur ?
 
-[!INCLUDE [prodshort](includes/prodshort.md)] est vendu et mis en œuvre via un réseau mondial de partenaires Dynamics 365 possédant une expertise du secteur. Contactez un partenaire pour une évaluation détaillée, des services de conseil et des tarifs supplémentaires. Pour plus d'informations, voir la section **Tarification** sur la page [Dynamics 365 Business Central sur microsoft.com](https://dynamics.microsoft.com/business-central/overview/).  
+[!INCLUDE[prodshort](includes/prodshort.md)] est vendu et mis en œuvre via un réseau mondial de partenaires Dynamics 365 possédant une expertise du secteur. Contactez un partenaire pour une évaluation détaillée, des services de conseil et des tarifs supplémentaires. Pour plus d'informations, voir la section **Tarification** sur la page [Dynamics 365 Business Central sur microsoft.com](https://dynamics.microsoft.com/business-central/overview/).  
 
-Lorsque vous êtes prêt à acheter [!INCLUDE [prodshort](includes/prodshort.md)], vous pouvez rechercher un revendeur [!INCLUDE [prodshort](includes/prodshort.md)] sur la page [Je recherche un fournisseur de solution](https://go.microsoft.com/fwlink/?linkid=2038145). Vous pouvez également trouver des solutions et des services auprès de partenaires dans [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=845998).  
+Lorsque vous êtes prêt à acheter [!INCLUDE[prodshort](includes/prodshort.md)], vous pouvez rechercher un revendeur [!INCLUDE[prodshort](includes/prodshort.md)] sur la page [Je recherche un fournisseur de solution](https://go.microsoft.com/fwlink/?linkid=2038145). Vous pouvez également trouver des solutions et des services auprès de partenaires dans [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=845998).  
 
 Si vous souhaitez des conseils de Microsoft, contactez l'[Équipe commerciale Microsoft](https://go.microsoft.com/fwlink/?linkid=828707).  
 
-Votre partenaire revendeur gèrera aussi le support technique pour votre compte. Pour plus d'informations, reportez-vous à la rubrique [Ressources pour l'aide et l'assistance technique](product-help-and-support.md).
+Votre partenaire revendeur gèrera aussi le support technique pour votre compte. Pour plus d'informations, reportez-vous à la rubrique [Ressources pour l'aide et l'assistance technique](product-help-and-support.md).  
+
+## <a name="why-is-new-information-not-available-in-my-language"></a>Pourquoi les nouvelles informations ne sont-elles pas disponibles dans ma langue ?
+
+Sur le site docs.microsoft.com, le contenu sur les fonctionnalités d'entreprise est publié dans plusieurs langues. Le contenu est rédigé en anglais et publié sur des URL avec *fr-fr* comme code langue. Lorsque de nouvelles informations sont publiées en anglais, elles sont ensuite envoyées pour traduction dans les langues prises en charge. Cela signifie que vous ne pourrez pas lire ce nouveau contenu dans votre propre langue pendant 4 semaines maximum.  
+
+Nous comprenons les problèmes que cela peut causer et nous encourageons les utilisateurs à rechercher ce qu'ils cherchent en anglais s'ils ne le trouvent pas dans leur propre langue.  
 
 ## <a name="is-the-windows-client-supported"></a>Le client Windows est-il pris en charge ?
+
 Un client dérivé de Microsoft Dynamics NAV était installé dans les premières versions de [!INCLUDE[prodshort](includes/prodshort.md)]. À partir de la 2e vague de publication 2019, ce composant hérité, appelé « le client Windows », ne sera plus disponible pour [!INCLUDE[prodshort](includes/prodshort.md)]. Pour plus d'informations, voir [FAQ sur le client Windows et Business Central](/dynamics365/business-central/dev-itpro/faq-win-cli).
 
 ## <a name="see-also"></a>Voir aussi
+
 [Mise en route](product-get-started.md)  
 [FAQ Tell Me](ui-search-faq.md)  
 [FAQ sur la recherche et le filtrage](ui-search-filter-faq.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: eae3cec231fd7c1da537ebf64c1008c8e114c9eb
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: d975b0e61228f650cea5b9d6d75b27f4334bb88a
+ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186107"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3496840"
 ---
 #  <a name="create-analysis-reports"></a>Créer des rapports d'analyse
 Les directeurs des ventes doivent analyser de manière régulière les rotations, la marge bénéficiaire brute et d'autres indicateurs de performance des ventes clés. Les acheteurs, eux, s'intéressent plutôt à la dynamique des volumes d'achat, des performances des fournisseurs et des prix d'achat. Par ailleurs, les gestionnaires des stocks et directeurs de la logistique ont besoin d'informations sur la rotation des stocks, d'une analyse des mouvements de stock et de statistiques sur la valeur du stock.  
@@ -41,9 +41,9 @@ Vous pouvez ensuite configurer les colonnes suivantes :
 - Ventes mois précédent (en %)  
 
 ## <a name="setting-up-line-and-column-layouts"></a>Configuration des présentations ligne et colonne  
- Sur la page **Rapport d'analyse**, vous pouvez afficher différentes présentations de ligne et de colonne selon le paramétrage effectué. Configurez vos lignes ou vos modèles de ligne sur la page **Modèles de ligne d'analyse**. Sur la page, vous pouvez définir le nom du rapport et les objets à inclure dans les lignes du rapport. Configurez vos colonnes sur la page **Modèles de colonne d'analyse**. Sur cette page, vous pouvez définir le nom du modèle de colonne et les paramètres d'analyse à inclure dans le rapport sous forme de colonnes. Sur la page **Modèles de colonne d'analyse**, chaque ligne représente une colonne du rapport. Les lignes et les colonnes d'analyse sont indépendantes les unes des autres.  
+ Sur la page **Rapport d'analyse**, vous pouvez afficher différentes présentations de ligne et de colonne en fonction des lignes ou des modèles de ligne que vous avez configurés sur la page **Modèles de lignes d'analyse**. Vous pouvez définir le nom du rapport et les objets à inclure dans les lignes du rapport. Configurez vos colonnes sur la page **Modèles de colonne d'analyse**. Vous pouvez définir le nom du modèle de colonne et les paramètres d'analyse à inclure dans le rapport sous forme de colonnes. Sur la page **Modèles de colonne d'analyse**, chaque ligne représente une colonne du rapport. Les lignes et les colonnes d'analyse sont indépendantes les unes des autres.  
 
-Selon les lignes et les colonnes configurées, l'application totalise le résultat du rapport sur la page de la matrice **Rapport d'analyse** de ce type :  
+Selon les lignes et les colonnes configurées, [!INCLUDE[d365fin](includes/d365fin_md.md)] totalise le résultat du rapport sur la page **Rapport d'analyse**, comme indiqué dans la table suivante.  
 
 | |Ventes mois en cours|Ventes mois précédent|Ventes mois précédent (en %)|  
 |-|-|-|-|  

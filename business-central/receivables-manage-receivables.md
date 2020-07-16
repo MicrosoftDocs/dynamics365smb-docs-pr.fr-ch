@@ -1,8 +1,6 @@
 ---
 title: Aperçu des tâches permettant de gérer la comptabilité client | Microsoft Docs
 description: Décrit les tâches permettant de gérer les clients et d'appliquer les paiements aux écritures comptables client ou fournisseur.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer payment, debtor, balance due, AR
-ms.date: 04/01/2020
+ms.date: 06/19/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4d9431ba233f1fa304fab589a3dc85e831e53217
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 7775ae9f007733d366566dd5137add30e3f62059
+ms.sourcegitcommit: 0c6f4382fad994fb6aea9dcde3b2dc25382c5968
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191922"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "3484226"
 ---
 # <a name="managing-receivables"></a>Gestion des comptes client
+
 Une étape normale de n'importe quelle opération financière consiste à rapprocher des comptes bancaires, ce qui nécessite de lettrer les paiements entrants avec des écritures fournisseur ou client pour clôturer les factures vente et les avoirs achat comme payés.
 
 Bien que la plupart des clients dans les environnements B2B payent un certain temps après la livraison en laissant les factures vente validées ouvertes jusqu'à ce qu'elles soient clôturées (lettrées) par le département Comptabilité client à réception du paiement, certaines factures vente peuvent être payées immédiatement, par exemple avec PayPal. Ces factures sont immédiatement lettrées comme payées lors de leur validation et n'apparaissent donc pas comme paiements à traiter dans la Comptabilité client. Pour plus d'informations, voir [Facturation des ventes](sales-how-invoice-sales.md), par exemple.  
@@ -32,7 +31,7 @@ D'autres pages vous permettent de lettrer des paiements ou de rapprocher des com
 * La page **Enregistrement de paiement** qui vous permet de lettrer manuellement les paiements reçus en liquide, par chèque ou par transaction bancaire par rapport à une liste générée de documents vente impayés. Notez que cette fonctionnalité est uniquement disponible pour les documents vente. Vous ne pouvez pas lettrer des paiements sortants, et vous ne pouvez pas rapprocher des comptes bancaires.
 * La page **Feuille règlement** où vous pouvez valider manuellement les réceptions dans un compte général, client ou autre en saisissant une ligne règlement. Vous pouvez soit lettrer la réception ou le remboursement avec une ou plusieurs écritures ouvertes avant de valider la feuille règlement, ou à partir des écritures comptables client. Vous ne pouvez pas rapprocher des comptes bancaires.
 
-Les pages **Feuille rapprochement bancaire** et **Rapprochement bancaire** utilisent une logique de correspondance automatique que vous pouvez configurer sur la page **Règles lettrage paiement**. Pour plus d'informations, voir [Définir des règles pour le lettrage automatique des paiements](receivables-how-set-up-payment-application-rules.md).
+La page **Feuille rapprochement bancaire** utilise une logique de correspondance automatique que vous pouvez configurer sur la page **Règles lettrage paiement**. Pour plus d'informations, voir [Définir des règles pour le lettrage automatique des paiements](receivables-how-set-up-payment-application-rules.md).  
 
 Les autres aspects de la gestion des comptes client comprennent le recouvrement des soldes échus, y compris les intérêts de retard et des relances, et de définir les comptes bancaires pour autoriser le retrait des paiements des clients de leur compte automatiquement.
 

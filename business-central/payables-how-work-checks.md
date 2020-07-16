@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 04/01/2020
+ms.date: 06/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: 12de08f6163c141a2c2e8669a814616b2b5fc04b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: bf52a225d458f19651d79e82bac2a6b0f593f82c
+ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190242"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3503813"
 ---
 # <a name="make-check-payments"></a>Effectuer des paiements par chèque
+
 Vous pouvez émettre des chèques par voie électronique et manuelle dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ces deux méthodes utilisent la feuille paiement pour émettre des chèques aux fournisseurs. Vous pouvez également annuler des chèques et afficher les écritures comptables chèque.
 
 La procédure suivante explique comment payer un fournisseur avec un chèque informatique en lettrant le paiement à la facture fournisseur appropriée, en imprimant le chèque et en validant le paiement comme payé. Il en résulte des écritures comptables fournisseur positives, lettrées aux écritures comptables banque négatives, et des chèques physiques qui seront traités dans la banque.
@@ -30,7 +31,8 @@ Vous pouvez payer avec deux types de chèques. Pour les deux types, le champ **T
 > [!NOTE]  
 > Pour s'assurer que la banque efface uniquement les chèques et les montants validés, vous pouvez envoyer un fichier contenant des informations de paiement, du chèque et du fournisseur. Pour plus d'informations, voir [Exporter des fichiers Positive Pay](finance-how-positive-pay.md).
 
-Votre imprimante doit être correctement configurée pour les formulaires chèque, et vous devez définir la mise en page de chèque à utiliser. Pour plus d'informations, voir [Sélectionner une mise en page de chèque](finance-how-define-check-layouts.md)
+> [!IMPORTANT]
+> Votre imprimante doit être correctement configurée pour les formulaires chèque, et vous devez définir la mise en page de chèque à utiliser. Pour plus d'informations, voir [Sélectionner une mise en page de chèque](finance-how-define-check-layouts.md). Vous pouvez également envoyer le chèque au format PDF, par exemple.  
 
 Vous pouvez imprimer jusqu'à 10 factures sur une page pour un talon de chèque. Si un chèque s'applique à plus de 10 factures, lorsque vous imprimez le talon, nous annulons le chèque sur la première page et imprimons le mot NUL sur le chèque. Nous imprimons ensuite les factures restantes et le montant total du chèque sur la deuxième page.
 
@@ -43,7 +45,7 @@ La section suivante décrit comment payer un fournisseur par chèque. La procéd
 4. Dans le champ **Mode émission paiement**, sélectionnez **Informatique**.
 5. Choisissez l'action **Imprimer chèque**.
 6. Renseignez les champs nécessaires sur la page **Chèque**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-7. Cliquez sur le bouton **Envoyer à**, sélectionnez l'option **Document PDF**, puis cliquez sur le bouton **OK**.
+7. Si votre imprimante est configurée pour imprimer des chèques, choisissez le bouton **Imprimer**. Sinon, choisissez le bouton **Envoyer à**, sélectionnez l'option **Document PDF**, puis cliquez sur le bouton **OK** et imprimez le document PDF.
 
     Les chèques physiques peuvent maintenant être déposés à la banque pour traitement. Validez le paiement comme lettré au fournisseur et payé dans le système.
 8. Sélectionnez l'action **Valider**.

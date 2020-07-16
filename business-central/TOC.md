@@ -38,10 +38,11 @@
 ## [FAQ sur l'opération Copier et coller](ui-copy-paste.md)
 ## [Utilisation de dates civiles et les heures](ui-enter-date-ranges.md)
 ## [Détection de champs obligatoires](ui-mandatory-fields.md)
-## [Modification de la langue et des paramètres régionaux](about-locale-language.md)
+## [Modification de la langue et de la région](about-locale-language.md)
 ## [Affichage et édition dans Excel](across-work-with-excel.md)
 ## [Gérer les pièces jointes, les liens et les notes sur les fiches et les documents](ui-how-add-link-to-record.md)
 ## [Modifier les paramètres de base](ui-change-basic-settings.md)
+## [Passer à une autre entreprise ou un autre environnement](ui-organization-switch.md)
 ## [Gérer les notifications](ui-smart-notifications.md)
 ## [Conseils hautes performances pour les utilisateurs professionnels](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 ## Personnalisation de Business Central
@@ -128,7 +129,7 @@
 ### [Enregistrer de nouveaux articles](inventory-how-register-new-items.md)
 ### [Copier des articles existants pour créer de nouveaux articles](inventory-how-copy-items.md)
 ### [À propos des types d'articles](inventory-about-item-types.md)
-### [Configuration d'unités article](inventory-how-setup-units-of-measure.md)
+### [Configuration d'unités](inventory-how-setup-units-of-measure.md)
 ### [Configurer des points de stock](inventory-how-to-set-up-stockkeeping-units.md)
 ### [Catégoriser des articles](inventory-how-categorize-items.md)
 ### [Importer plusieurs images d'article](inventory-how-import-item-pictures.md)
@@ -216,7 +217,7 @@
 #### [Copier des données vers les nouvelles sociétés](admin-how-to-copy-data-to-new-companies.md)
 #### [Créer des soldes ouverts feuille](admin-how-to-create-journal-opening-balances.md)
 ### [Collecter les données de configuration client](admin-gather-customer-setup-values.md)
-### [Préparer la migration des données client](admin-use-templates-to-prepare-customer-data-for-migration.md)
+### [Préparer la migration des données client avec des modèles](admin-use-templates-to-prepare-customer-data-for-migration.md)
 ### [Migrer des données client](admin-migrate-customer-data.md)
 ### [Créer des packages configuration de société personnalisés](admin-how-to-create-custom-company-configuration-packages.md)
 ### [Conseils : RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
@@ -325,6 +326,7 @@
 ## [Créer des utilisateurs en fonction des licences](ui-how-users-permissions.md)
 ## [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md)
 ## [Gérer les profils](admin-users-profiles-roles.md)
+## [Gérer les paramètres et les préférences de l'utilisateur](admin-manage-user-settings-preferences.md)
 ## [Paramétrage imprimantes](ui-specify-printer-selection-reports.md)
 ## [Classification de la sensibilité des données](admin-classifying-data-sensitivity.md)
 ## [Réponse aux demandes relatives aux données personnelles](admin-responding-to-requests-about-personal-data.md)
@@ -348,7 +350,6 @@
 ### [Configurer un indicateur coloré sur des piles](admin-how-set-up-colored-indicator-on-cues.md)
 ### Personnaliser à l'aide d'extensions
 #### [Aperçu](ui-extensions.md)
-#### [Personnaliser à l'aide d'extensions](ui-extensions.md)
 #### [Portail Comptable pour Business Central](ui-extensions-accountant-portal.md)
 #### [Extension Ceridian Payroll](ui-extensions-ceridian-payroll.md)
 #### [Migration de données Dynamics GP](ui-extensions-dynamicsgp-data-migration.md)
@@ -384,7 +385,6 @@
 ### [Synchroniser manuellement les mappages de table](admin-manual-synchronization-of-table-mappings.md)
 ### [Programmer une synchronisation](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Résolution des erreurs de synchronisation](admin-troubleshoot-sales-synchronization.md)
-<!-- ### [Developer Walkthrough: Custom Integration with Common Data Service](admin-walkthrough-customizing-cds-integration.md) moved to devitpro -->
 
 # Finance
 ## [Aperçu](finance.md)
@@ -508,6 +508,7 @@
 ## [Utiliser la TVA sur les ventes et les achats](finance-work-with-vat.md)
 ## [Déclarer la TVA aux autorités fiscales](finance-how-report-vat.md)
 ## [Convertir les contrats de service incluant des montants TVA](service-how-to-convert-service-contracts.md)
+## [Gérer les changements de taux TVA](finance-how-use-vat-rate-change-tool.md)
 ## [Analyse des trésoreries dans votre société](finance-analyze-cash-flow.md)
 ## [Procédure pas-à-pas : créer des prévisions de trésorerie à l'aide de tableaux d'analyse](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 ## [Analyse des états financiers dans Excel](finance-analyze-excel.md)
@@ -626,7 +627,6 @@
 ### [Créer des opportunités](marketing-how-create-opportunities.md)
 ### [Suivre les échanges de messages électroniques](marketing-set-up-email-logging.md)
 ### [Traiter des opportunités de vente](marketing-processing-sales-opportunities.md)
-### [Config. identifiant messagerie](marketing-set-up-email-logging.md)
 ## [Utiliser des questionnaires profil pour classer les contacts professionnels](marketing-create-contact-profile-questionnaire.md)
 ## [Utilisation de Dynamics 365 for Sales depuis Business Central](marketing-integrate-dynamicscrm.md)
 ### [Coupler et synchroniser des enregistrements manuellement](admin-how-to-couple-and-synchronize-records-manually.md)
@@ -768,6 +768,7 @@
 ## Détails de conception : coûts ajustés
 ### [Aperçu](design-details-inventory-costing.md)
 ### [Détails de conception : modes évaluation stock](design-details-costing-methods.md)  
+### [Détails de conception : Modifier le mode évaluation stock pour les articles](design-details-changing-costing-methods.md)
 ### [Détails de conception : lettrage article](design-details-item-application.md)  
 ### [Détails de conception : problème de lettrage article connu](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 ### [Détails de conception : ajustement des coûts](design-details-cost-adjustment.md)  
@@ -1404,7 +1405,7 @@
 #### [Taxe sur la valeur ajoutée, Suisse](LocalFunctionality/Switzerland/swiss-value-added-tax.md)
 #### [Taux de TVA pour la Suisse](LocalFunctionality/Switzerland/vat-rates-for-switzerland.md)
 ### Banque et paiements
-#### Gestion des factures QR (LocalFunctionality/Switzerland/ui-extensions-qr-bill-management.md)
+#### [Gestion des factures QR](LocalFunctionality/Switzerland/ui-extensions-qr-bill-management.md)
 #### [Fermer prélèvement LSV](LocalFunctionality/Switzerland/how-to-close-an-lsv-collection.md)
 #### [Exporter des paiements en mode LSV](LocalFunctionality/Switzerland/how-to-export-payments-using-lsv.md)
 #### [Importer des paiements ESR](LocalFunctionality/Switzerland/how-to-import-esr-payments.md)

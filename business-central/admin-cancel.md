@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: remove, delete
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: f48f5785ffc62b124b26764da5e86838c1e01dfa
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 163c1522fce412e1877aa63dad914ca0a75c661e
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187451"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528427"
 ---
 # <a name="unsubscribe-or-remove-prodshort"></a>Annuler un abonnement ou supprimer [!INCLUDE[prodshort](includes/prodshort.md)]
 
@@ -31,7 +31,7 @@ Si vous vous êtes abonné à [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'a
 
 ## <a name="unsubscribing-by-removing-d365fin-from-your-office-365-experience"></a>Annuler un abonnement en supprimant [!INCLUDE[d365fin](includes/d365fin_md.md)] de votre expérience Office 365
 
-Si votre société souscrit un abonnement à [!INCLUDE [prodshort](includes/prodshort.md)] mais vous, en tant qu'utilisateur, ne souhaitez plus y accéder, vous devez demander à votre administrateur ou votre partenaire revendeur Dynamics 365 de supprimer la licence [!INCLUDE[d365fin](includes/d365fin_md.md)] de votre compte utilisateur Office 365. Si [!INCLUDE[d365fin](includes/d365fin_md.md)] est supprimé de votre compte utilisateur et si votre société continue l'abonnement, vos collèges ont toujours accès à vos données partagées dans la société [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Si votre société souscrit un abonnement à [!INCLUDE[prodshort](includes/prodshort.md)] mais vous, en tant qu'utilisateur, ne souhaitez plus y accéder, vous devez demander à votre administrateur ou votre partenaire revendeur Dynamics 365 de supprimer la licence [!INCLUDE[d365fin](includes/d365fin_md.md)] de votre compte utilisateur Office 365. Si [!INCLUDE[d365fin](includes/d365fin_md.md)] est supprimé de votre compte utilisateur et si votre société continue l'abonnement, vos collèges ont toujours accès à vos données partagées dans la société [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Si votre société souhaite annuler son abonnement à [!INCLUDE[d365fin](includes/d365fin_md.md)], le partenaire revendeur Dynamics 365 peut supprimer l'abonnement payant du compte de la société. Pour plus d'informations, voir [Administration de Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) dans le contenu dédié à l'équipe IT et aux développeurs.  
 

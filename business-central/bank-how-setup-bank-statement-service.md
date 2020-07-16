@@ -1,8 +1,6 @@
 ---
-title: Configurer le service Yodlee Bank Feeds| Microsoft Docs
+title: Configurer Yodlee Bank Feeds
 description: Vous pouvez convertir les informations paiement dans n'importe quel format de données que votre banque nécessite et activer l'exportation ou l'importation des fichiers bancaires.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,23 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
-ms.date: 04/01/2020
+ms.date: 06/24/2020
 ms.author: sgroespe
-ms.openlocfilehash: 39e31cad30c1e55c651abd818a52ea8b0a6941cf
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6de088c47fda309d5c4d2832ffe4199cd5331bf8
+ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186251"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3503407"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Configurer le service Envestnet Yodlee Bank Feeds
+
 Vous pouvez importer des relevés bancaires électroniques auprès de votre banque pour renseigner rapidement la page **Feuille rapprochement bancaire** de sorte à pouvoir lettrer les paiements et rapprocher le compte bancaire. Pour plus d'informations, reportez-vous à [Lettrage automatique des paiements et rapprochement des comptes bancaires](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 > [!IMPORTANT]
-> En raison de la nouvelle directive sur les services de paiement en Europe (PSD2), après le 14 septembre 2019, vous ne pourrez plus importer automatiquement des relevés bancaires de banques du Royaume-Uni vers [!INCLUDE[d365fin](includes/d365fin_md.md)]. Nous étudions la possibilité de proposer cette fonctionnalité à l'avenir.
+> En raison de la directive sur les services de paiement en Europe (PSD2), après le 14 septembre 2019, vous ne pourrez plus importer automatiquement des relevés bancaires de banques du Royaume-Uni vers [!INCLUDE[d365fin](includes/d365fin_md.md)]. Nous étudions la possibilité de proposer cette fonctionnalité à l'avenir.
 
 > [!NOTE]
-> Le service Envestnet Yodlee Bank Feeds est uniquement pris en charge dans la version en ligne de Business Central. Pour utiliser cette fonctionnalité sur site, vous devez obtenir un compte de cobrand d'Envestnet Yodlee.<br /><br />
+> Le service Envestnet Yodlee Bank Feeds est uniquement pris en charge dans la version en ligne de Business Central. Pour utiliser cette fonctionnalité sur site, vous devez obtenir un compte de cobrand d'Envestnet et vous devez ajouter du code pour l'intégrer à l'API Yodlee.
+>
 > Le service Envestnet Yodlee Bank Feeds n'est pris en charge qu'aux États-Unis et au Canada.
 > Seules les banques résidant dans ces pays sont prises en charge, même si des banques d’autres pays peuvent apparaître dans la fenêtre de sélection des banques Envestnet Yodlee Bank Feeds dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
 

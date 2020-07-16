@@ -1,7 +1,7 @@
 ---
 title: Description des processus Assembler pour commande et Assembler pour stock | Microsoft Docs
 description: Les éléments d'assemblage peuvent être fournis soit en les assemblant lors de leur commande ou en les assemblant pour les conserver en stock jusqu'à ce qu'ils soient nécessaires pour une commande vente.
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 1f34ee61fa532aa7600baa8883d182cbad545493
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: bholtorf
+ms.openlocfilehash: a8b5ab66b680b6c49226e308e6f2e17a0c2604f9
+ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186827"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3496815"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Description des processus Assembler pour commande et Assembler pour stock
 Les éléments d'assemblage peuvent être fournis dans le cadre des deux processus suivants :  
@@ -66,11 +66,11 @@ Lorsque vous entrez un article à assembler pour commande sur une ligne vente, u
 
  Toutefois, dans les scénarios de combinaison, la valeur du champ **Qté. à expédier** n'est pas copiée dans le champ **Quantité à assembler** de l'en\-tête d'ordre d'assemblage. C'est une valeur par défaut qui est insérée dans le champ **Quantité à assembler**. Cette valeur est calculée à partir du champ **Qté. à expédier** en fonction d'une règle prédéfinie qui garantit l'expédition prioritaire des quantités à assembler pour commande.  
 
- Si vous voulez utiliser une valeur autre que celle par défaut, par exemple, parce que vous souhaitez uniquement assembler une quantité supérieure ou inférieure à celle indiquée dans le champ **Qté. à expédier**, vous pouvez modifier le champ **Quantité à assembler**, mais uniquement dans le cadre de règles prédéfinies, comme illustré ci\-dessous.  
+ Si vous voulez utiliser une valeur autre que celle par défaut, par exemple, parce que vous souhaitez uniquement assembler une quantité supérieure ou inférieure à celle indiquée dans le champ **Qté à expédier**, vous pouvez modifier le champ **Quantité à assembler**, mais uniquement dans le cadre de règles prédéfinies, comme illustré ci-dessous.  
 
  Par exemple, la raison pour laquelle vous voudriez modifier la quantité à assembler peut être liée au souhait de valider partiellement l'expédition des quantités en stock avant que le résultat d'assemblage ne puisse être expédié.  
 
- Ce qui suit explique les règles qui définissent les valeurs minimale et maximale que vous pouvez entrer manuellement dans le champ **Quantité à assembler** pour spécifier une valeur autre que celle par défaut dans un scénario de combinaison. Le tableau affiche un scénario de combinaison dont le champ **Qté. à expédier** de la ligne commande vente liée passe de 7 à 4 ; le champ **Quantité à assembler** prend donc par défaut la valeur 4.  
+ La table suivante explique les règles qui définissent les valeurs minimale et maximale que vous pouvez saisir dans le champ **Quantité à assembler** pour spécifier une valeur autre que celle par défaut dans un scénario de combinaison. Le tableau affiche un scénario de combinaison dont le champ **Qté. à expédier** de la ligne commande vente liée passe de 7 à 4 ; le champ **Quantité à assembler** prend donc par défaut la valeur 4.  
 
 ||Ligne commande vente|En-tête d'ordre d'assemblage|  
 |-|----------------------|---------------------------|  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: print check, customize
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 479281e24bffb824f9fc8499bb34ab6b11311a52
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 8346e8a868f73d3de729a56e86530048c58229aa
+ms.sourcegitcommit: 3945f16d6d9c9853651e6291ce1465a44fd71fc8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183683"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "3458948"
 ---
 # <a name="select-a-check-layout"></a>Sélectionner une mise en page de chèque
 Vous pouvez concevoir vos chèques de sorte à respecter les normes fixées par les autorités locales. Vous pouvez imprimer des images de chèques en anglais, en français ou en espagnol.
@@ -54,6 +54,9 @@ Voici un résumé des spécifications des polices MICR E-13B qui peuvent se rév
 
 ![Spécifications MICR E-13B](media/font_MICR_E-13B_Specifications.png "Spécifications MICR E-13B")
 
+### <a name="delimiter-characters"></a>Caractères séparateurs
+![Caractères séparateurs](media/font-micr-letters.png "Caractères séparateurs")
+
 La spécification complète des polices MICR E-13B est disponible dans la documentation du fournisseur ici : (https://www.idautomation.com/micr-fonts/e13b/).
 
 ### <a name="micr-cmc-7-specifications"></a>Spécifications MICR CMC-7
@@ -67,6 +70,9 @@ Les polices CMC-7 suivantes sont disponibles dans [!INCLUDE[d365fin](includes/d
 Voici un résumé des spécifications des polices MICR CMC-7 qui peuvent se révéler utiles lors du calibrage des polices sur les mises en page de chèque avec des imprimantes MICR spécifiques.
 
 ![Spécifications MICR CMC-7](media/font_MICR_CMC-7_Specifications.png "Spécifications MICR CMC-7")
+
+### <a name="delimiter-characters"></a>Caractères séparateurs
+![Caractères séparateurs](media/font-cmc7-letters.png "Caractères séparateurs")
 
 La spécification complète des polices MICR CMC-7 est disponible dans la documentation du fournisseur ici : (http://www.idautomation.com/micr-fonts/cmc7/).
 

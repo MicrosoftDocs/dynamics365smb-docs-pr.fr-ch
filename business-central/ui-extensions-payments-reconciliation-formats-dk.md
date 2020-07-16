@@ -1,8 +1,6 @@
 ---
 title: Utilisation de l'extension Paiements et rapprochements (DK) | Microsoft Docs
 description: Cette extension facilite l'exportation de fichiers préformatés pour répondre aux exigences bancaires pour les soumissions électroniques.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, bank, formats
-ms.date: 04/01/2020
+ms.date: 06/19/2020
 ms.author: bholtorf
-ms.openlocfilehash: aa738f326782bacdc5450bbd78ea0dffb5646fa5
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 7e8a56492c1c848f4f3b371e1411c11f159c3cf3
+ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194082"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3496765"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>Extension Paiements et rapprochements (DK)
+
 Réalise des paiements rapides et sans erreur en exportant des fichiers formatés spécifiquement pour les échanges avec votre fournisseur ou votre banque. Ces fichiers accélèrent les processus de paiement et de réconciliation, et éliminent les erreurs qui apparaissent lorsque vous saisissez manuellement des informations sur le site Web d'une banque.  
 
 Cette extension prend en charge les formats de fichier de plusieurs banques danoises. Lorsque vous exportez des informations paiement vers un fichier, l'extension emballe les données dans le format demandé par votre banque. Par exemple, les formats sont notamment Bankdata-vl, V3, BEC, SDC et FIK, utilisés par de nombreuses banques ; certains sont aussi plus spécialisés pour certaines banques, par exemple, Danske Bank et Nordea. L'extension inclut également des formats d'importation et de rapprochement de relevés bancaires.  
@@ -44,6 +43,7 @@ Cette extension peut appliquer les formats de fichier suivants pour les fichiers
 * SDC-CSV  
 
 ## <a name="to-set-up-the-extension"></a>Pour configurer l'extension
+
 Voici quelques étapes pour commencer.  
 
 * Autoriser les exportations de données de règlement. Pour vous aider à protéger vos données, cette option n'est pas facilement disponible.  
@@ -54,15 +54,17 @@ Voici quelques étapes pour commencer.
 En outre, vous devez affecter les fournisseurs à un **Groupe compta. marché** et à un **Groupe compta. fournisseur** nationaux. Le paramètre de pays/région du fournisseur doit être le Danemark (DK). Pour plus d'informations, voir [Configuration de groupes comptabilisation](finance-posting-groups.md).  
 
 ### <a name="to-allow-d365fin-to-export-payment-data"></a>Pour autoriser [!INCLUDE[d365fin](includes/d365fin_md.md)] à exporter des données de règlement
+
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille paiement**, puis sélectionnez le lien associé.  
 2. Sur la page **Modifier feuille paiement**, choisissez le lot **Banque**.  
 3. Sélectionnez la case à cocher **Autoriser exportation paiement**.  
 
 ### <a name="to-specify-a-payment-method-for-a-vendor"></a>Pour spécifier un mode de règlement pour un fournisseur
+
 Le tableau suivant affiche les combinaisons des modes de règlement FIK et virement GIRO pris en charge par [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-||Type 01 | Type 04 | Type 71 | Type 73 |
-|----|---|---|---|---|
+|Combinaison|Type 01 | Type 04 | Type 71 | Type 73 |
+|----|--------|---------|---------|---------|
 |N° de compte Giro ou N° créditeur FIK ? | N° de compte Giro | N° de compte Giro | N° créditeur FIK | N° créditeur FIK|
 |Autorise les messages au destinataire ? | Oui |Non |Non | Oui |
 |Contient le numéro de référence du paiement ? | Non | Oui, 16 chiffres. | Oui, 15 chiffres. | Non|
@@ -72,11 +74,13 @@ Le tableau suivant affiche les combinaisons des modes de règlement FIK et virem
 3. Selon votre sélection, vous devez renseigner d'autres champs. Voir la table ci-dessus pour une description des combinaisons.  
 
 ### <a name="to-specify-the-format-to-use-for-a-bank-account"></a>Pour spécifier le format à utiliser pour un compte bancaire
+
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Compte bancaire**, puis sélectionnez le lien associé.  
 2. Ouvrez la fiche pour le compte bancaire.  
 3. Dans le champ **Format exportation paiement**, choisissez le format de votre fichier d'exportation.  
 
 ## <a name="choosing-the-fik-or-giro-payment-information-for-vendor-invoices"></a>Choisir les informations de paiement FIK ou Giro pour les factures fournisseur
+
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Factures achat**, puis sélectionnez le lien associé.
 2. Sélectionnez le fournisseur Rappelez-vous, il doit s'agir d'un fournisseur danois avec une adresse au Danemark.
 3. Créez une facture. Les champs **Mode de règlement** et **Numéro fournisseur** sont renseignés selon les paramètres de la fiche fournisseur. Vous pouvez les modifier.
@@ -88,6 +92,7 @@ Le tableau suivant affiche les combinaisons des modes de règlement FIK et virem
 5. Validez la facture.
 
 ## <a name="to-use-the-extension-to-export-payment-data"></a>Pour utiliser l'extension d'exportation des données de paiement
+
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles paiement**, puis sélectionnez le lien associé.  
 2. Choisissez l'action **Proposer des feuilles de paiement fournisseur**.  
 
@@ -99,6 +104,7 @@ Le tableau suivant affiche les combinaisons des modes de règlement FIK et virem
 5. Sélectionnez l'option **Exporter**.  
 
 ## <a name="see-also"></a>Voir aussi
+
 [Personnalisation de Business Central pour [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide d'extensions](ui-extensions.md)  
 [Recouvrement de paiements par prélèvement automatique SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
 [Utilisation de feuilles comptabilité](ui-work-general-journals.md)  

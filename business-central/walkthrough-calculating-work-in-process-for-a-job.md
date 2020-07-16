@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/25/2020
 ms.author: sgroespe
-ms.openlocfilehash: d2b964b448b380bf3094f5b8093095103c67139a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 3d9a156a1196767b4ae07f63bbb4ca8e2ff5318f
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189258"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527923"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Procédure pas à pas : calcul des travaux en cours pour un projet
 
-**Remarque** : Ce guide pas-à-pas doit être effectué sur une société de démonstration avec l'option **Évaluation complète - Renseigner des exemples de données**, disponible dans l'environnement sandbox. Pour plus d’informations, voir [Création d'un environnement Sandbox](across-how-create-sandbox-environment.md).
+[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
 
 Avec les projets, vous pouvez planifier l'utilisation des ressources de votre société et suivre les différents coûts pour un projet spécifique. Les projets impliquent la consommation d'heures salarié, d'heures machines, d'articles en stock et d'autres types d'activité devant être suivis au fur et à mesure de l'avancée du projet. Si celui-ci couvre une longue période, il se peut que vous souhaitiez transférer les coûts correspondants vers un compte Travaux en cours (TEC) dans le bilan au cours de projet. Vous pouvez ensuite reconnaître les coûts et ventes dans vos comptes de gestion, le cas échéant.  
 

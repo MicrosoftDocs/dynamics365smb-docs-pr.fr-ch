@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: version
 ms.date: 05/06/2020
 ms.author: edupont
-ms.openlocfilehash: 417b7ba9743ec0dabb4c7b311535ed8c22d8896a
-ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
+ms.openlocfilehash: 55af97f27768d4b0c83379dd9eb5174613aabaa9
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "3372607"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528728"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Configuration minimale requise pour l'utilisation de Business Central
-Avant d'accéder à [!INCLUDE [prodshort](includes/prodshort.md)] en ligne, nous vous recommandons de vérifier que votre ordinateur ou périphérique mobile répond à la configuration système requise pour le produit. Cet article répertorie les éléments de la configuration requise.  
+Avant d'accéder à [!INCLUDE[prodshort](includes/prodshort.md)] en ligne, nous vous recommandons de vérifier que votre ordinateur ou périphérique mobile répond à la configuration système requise pour le produit. Cet article répertorie les éléments de la configuration requise.  
 
 ## <a name="browsers"></a>Navigateurs
 
@@ -40,7 +40,7 @@ Avant d'accéder à [!INCLUDE [prodshort](includes/prodshort.md)] en ligne, nous
 **Taille de périphérique :** [!INCLUDE[d365fin](includes/d365fin_md.md)] est pris en charge sur les smartphones avec une taille d'écran minimale de 4 pouces et les tablettes avec une taille d'écran minimale de 7 pouces.  
 
 ## <a name="outlook"></a>Outlook
-**Applications Outlook :** pour utiliser [!INCLUDE[d365fin](includes/d365fin_md.md)] en ligne comme votre boîte de réception professionnelle dans Outlook, vous devez disposer d'Outlook 2016 ou d'une version ultérieure, d'Outlook dans un navigateur, d'Outlook pour iPhone, d'Outlook pour iPad ou d'Outlook pour Android. Votre organisation doit également utiliser Office 365. Vous ne pouvez pas utiliser [!INCLUDE [prodshort](includes/prodshort.md)] en ligne en tant que boîte de réception de votre entreprise dans Outlook si votre organisation utilise Exchange Server sur site.  
+**Applications Outlook :** pour utiliser [!INCLUDE[d365fin](includes/d365fin_md.md)] en ligne comme votre boîte de réception professionnelle dans Outlook, vous devez disposer d'Outlook 2016 ou d'une version ultérieure, d'Outlook dans un navigateur, d'Outlook pour iPhone, d'Outlook pour iPad ou d'Outlook pour Android. Votre organisation doit également utiliser Office 365. Vous ne pouvez pas utiliser [!INCLUDE[prodshort](includes/prodshort.md)] en ligne en tant que boîte de réception de votre entreprise dans Outlook si votre organisation utilise Exchange Server sur site.  
 **Navigateurs :** lorsque vous utilisez [!INCLUDE[d365fin](includes/d365fin_md.md)] en tant que boîte de réception professionnelle dans Outlook dans un navigateur, le complément exige que votre ordinateur exécute l'un des navigateurs répertoriés précédemment dans cette rubrique.  
 **Plateformes :** lorsque vous utilisez le complément Outlook de [!INCLUDE[d365fin](includes/d365fin_md.md)] dans Outlook pour iPhone, Outlook pour iPad et Outlook pour Android, le complément exige que votre périphérique mobile exécute l'une des plateformes mobiles répertoriées prises en charge pour [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 

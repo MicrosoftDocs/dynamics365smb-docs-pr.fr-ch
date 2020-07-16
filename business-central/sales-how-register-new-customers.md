@@ -1,8 +1,6 @@
 ---
 title: Créer une fiche client pour enregistrer de nouveaux clients | Microsoft Docs
 description: Décrit comment créer une fiche client pour enregistrer des informations sur chaque nouveau client ou client auquel vous vendez.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,26 +8,32 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 04/27/2020
+ms.date: 06/24/2020
 ms.author: sgroespe
-ms.openlocfilehash: 3b56b4009e08085bb232b050790aa03acf2aa4cf
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.openlocfilehash: cc48c7c55edac8af9333dd04661a828c528621b8
+ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324285"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3503988"
 ---
 # <a name="register-new-customers"></a>Enregistrer de nouveaux clients
+
 Les clients sont l'origine de vos revenus. Chaque client auquel vous vendez un élément doit être enregistré en tant que fiche client. Les fiches client contiennent les informations nécessaires à la vente de biens au client. Pour plus d'informations, voir [Facturer des ventes](sales-how-invoice-sales.md) et [Enregistrer de nouveaux articles](inventory-how-register-new-items.md).  
 
 Avant de pouvoir enregistrer de nouveaux clients, vous devez configurer divers codes vente que vous pouvez sélectionner lorsque vous renseignez les fiches client. Pour plus d'informations, reportez-vous à [Définition des ventes](sales-setup-sales.md).
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
+## <a name="adding-new-customers"></a>Ajout de nouveaux clients
+
+Pour enregistrer un nouveau client, vous devez remplir une fiche client. Vous pouvez créer des modèles pour différents profils de clients ou ajouter des clients sans modèles.  
+
 > [!NOTE]  
 > Si des modèles client existent pour différents types de clients, une page s'affiche lorsque vous créez une nouvelle fiche client à partir de laquelle vous pouvez sélectionner un modèle client approprié. Si un seul modèle client existe, les nouvelles fiches client utiliseront toujours ce modèle.  
 
-## <a name="to-create-a-new-customer-card"></a>Pour créer une fiche client
+### <a name="to-create-a-new-customer-card"></a>Pour créer une fiche client
+
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Clients**, puis sélectionnez le lien associé.  
 2. Sur la page **Clients**, sélectionnez l'action **Nouveau**.
 
@@ -44,12 +48,10 @@ Sur le raccourci **Prix vente**, vous pouvez afficher les prix spéciaux ou les 
 
 Le client est désormais enregistré, et la fiche client est prête à être utilisée sur les documents vente.
 
-### <a name="deleting-customer-cards"></a>Suppression de fiches client
-Si vous avez enregistré une transaction pour un client, vous ne pouvez pas supprimer la carte car les écritures comptables peuvent être nécessaires pour l'audit. Pour supprimer des fiches client avec des écritures comptables, contactez le partenaire Microsoft pour le faire via le code.
+Si vous souhaitez utiliser cette fiche client comme modèle lorsque vous créez de nouvelles fiches client, enregistrez-la comme modèle. Pour plus d'informations, reportez-vous à la section suivante.  
 
-Si vous souhaitez utiliser cette fiche client comme modèle lorsque vous créez de nouvelles fiches client, enregistrez-la comme modèle. Pour plus d'informations, reportez-vous à la section suivante.
+### <a name="to-save-the-customer-card-as-a-template"></a>Pour enregistrer la fiche client en tant que modèle
 
-## <a name="to-save-the-customer-card-as-a-template"></a>Pour enregistrer la fiche client en tant que modèle
 1. Sur la page **Fiche client**, sélectionnez l'action **Sauvegarder comme modèle**. La page **Modèle client** s'ouvre et affiche la fiche client comme modèle.
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Pour réutiliser les axes analytiques dans les modèles, sélectionnez l'action **Axes analytiques**. La page **Modèles axe** s'ouvre et affiche tous les codes axe qui sont définis pour le client.
@@ -58,10 +60,15 @@ Si vous souhaitez utiliser cette fiche client comme modèle lorsque vous créez 
 
 Le modèle client est ajouté à la liste des modèles client. Vous pouvez ainsi l'utiliser pour créer des fiches client.
 
+## <a name="deleting-customer-cards"></a>Suppression de fiches client
+
+Si vous avez enregistré une transaction pour un client, vous ne pouvez pas supprimer la carte car les écritures comptables peuvent être nécessaires pour l'audit. Pour supprimer des fiches client avec des écritures comptables, contactez le partenaire Microsoft pour le faire via le code.  
+
 ## <a name="see-also"></a>Voir aussi
+
 [Définition des modes de règlement](finance-payment-methods.md)  
 [Fusionner l'enregistrement des doublons](sales-how-merge-duplicate-records.md)  
 [Création des souches de numéros](ui-create-number-series.md)  
-[Ventes](sales-manage-sales.md)    
-[Définition des ventes](sales-setup-sales.md)    
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Ventes](sales-manage-sales.md)  
+[Définition des ventes](sales-setup-sales.md)  
+[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

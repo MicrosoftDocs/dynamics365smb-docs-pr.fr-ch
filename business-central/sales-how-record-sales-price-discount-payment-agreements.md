@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 04/01/2020
+ms.date: 07/07/2020
 ms.author: sgroespe
-ms.openlocfilehash: fa8dd6cf036b49d22510e8d3c096558545d4a3b2
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 16d88ee490b5e9115ed22a12297fcf35b5739984
+ms.sourcegitcommit: 8b2f02dd5189c46ecff33c07223ed62b36842d34
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193578"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "3542632"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Enregistrer les prix de vente spéciaux et les remises
+
 Vous devez définir les différents accords de prix et de remise qui s'appliquent lors de la vente à différents clients de sorte que les valeurs et règles convenues s'appliquent aux documents vente crées pour les clients.
 
 Lorsque vous avez enregistré des prix spéciaux et des remises de ligne pour les ventes et les achats, [!INCLUDE[d365fin](includes/d365fin_md.md)] s'assure que votre marge pour l'article est toujours optimale en calculant automatiquement le meilleur prix dans les documents achat et vente, sur le projet et les lignes feuille article. Pour plus d'informations, voir [Calcul du meilleur prix](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
@@ -37,6 +38,7 @@ Dans la mesure où les prix de vente et les remises ligne vente sont basés sur 
 > Si vous ne souhaitez qu'un article ne soit jamais vendu à un prix réduit, il suffit de laisser les champs de remise de la fiche article vides, et de ne pas inclure l'article dans un quelconque paramétrage de remise ligne.
 
 ## <a name="to-set-up-a-sales-price-for-a-customer"></a>Pour définir un prix de vente pour un client
+
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Clients**, puis sélectionnez le lien associé.
 2. Ouvrez la fiche client appropriée, puis sélectionnez l'action **Prix**.
 
@@ -44,6 +46,7 @@ Dans la mesure où les prix de vente et les remises ligne vente sont basés sur 
 3. Renseignez les champs de la ligne selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Renseignez une ligne pour chaque combinaison qui accorde un prix de vente spécial au client.
 
 ## <a name="to-set-up-a-sales-line-discount-for-a-customer"></a>Pour définir une remise ligne vente pour un client
+
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Clients**, puis sélectionnez le lien associé.
 2. Ouvrez la fiche client appropriée, puis sélectionnez l'action **Remises ligne**.
 
@@ -51,10 +54,12 @@ Dans la mesure où les prix de vente et les remises ligne vente sont basés sur 
 3. Renseignez les champs de la ligne selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Renseignez une ligne pour chaque combinaison qui accorde une remise ligne vente au client.
 
 > [!Note]
-> Lorsque vous ouvrez les fenêtres **Prix de vente** et **Remises ligne vente** à partir d'un client spécifique, les champs **Filtre type vente** et **Filtre code vente** sont définis pour le client et ne peuvent pas être modifiés ou supprimés, ce qui est indiqué par la couleur grise de la valeur du champ **Filtre code vente**.<br /><br />
+> Lorsque vous ouvrez les fenêtres **Prix de vente** et **Remises ligne vente** à partir d'un client spécifique, les champs **Filtre type vente** et **Filtre code vente** sont définis pour le client et ne peuvent pas être modifiés ou supprimés, ce qui est indiqué par la couleur grise de la valeur du champ **Filtre code vente**.
+>
 > Pour configurer des prix ou des remises ligne pour tous les clients, un groupe de prix client ou une campagne, vous devez ouvrir les fenêtres à partir d'une fiche article. Sinon, pour les prix de vente, utilisez la page **Feuille prix vente**. Pour plus d'informations, voir [Mettre à jour en bloc des prix d'articles](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
 
 ## <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Pour configurer une remise facture pour un client
+
 Une fois que vous avez décidé des clients pouvant faire l'objet de remises facture, entrez le code remise facture dans les fiches client et configurez les conditions de chaque code.
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Clients**, puis sélectionnez le lien associé.
@@ -62,7 +67,7 @@ Une fois que vous avez décidé des clients pouvant faire l'objet de remises fac
 3. Dans le champ **Code remise facture**, sélectionnez un code pour les conditions de remise facture appropriées à utiliser pour calculer les remises facture pour le client.
 
 > [!NOTE]  
->   Les codes remise facture sont représentés par les fiches client existantes. Cela vous permet d'affecter rapidement les conditions de remise facture aux clients en sélectionnant le nom d'un autre client qui bénéficie des mêmes conditions.
+> Les codes remise facture sont représentés par les fiches client existantes. Cela vous permet d'affecter rapidement les conditions de remise facture aux clients en sélectionnant le nom d'un autre client qui bénéficie des mêmes conditions.
 
 Configurez de nouvelles conditions de remise facture vente.
 
@@ -75,6 +80,7 @@ Configurez de nouvelles conditions de remise facture vente.
 La remise facture est désormais configurée et affectée au client concerné. Lorsque vous sélectionnez le code client dans le champ **Code remise facture** dans d'autres fiches client, la même remise facture est affecté à ces clients.
 
 ## <a name="to-work-with-sales-invoice-discounts-and-service-charges"></a>Utiliser des remises facture vente et des frais forfaitaires
+
 Lorsque vous utilisez des remises facture, la valeur du montant de la facture détermine celle de la remise accordée.  
 
 Dans la page **Remises facture client**, vous pouvez également ajouter des frais forfaitaires aux factures supérieures à un montant donné.  
@@ -93,17 +99,18 @@ Vous pouvez associer les pourcentages remise à des montants de facture spécifi
 En plus du pourcentage de remise (ou à sa place), vous pouvez lier un montant de frais forfaitaires au montant d'une facture.  
 
 > [!TIP]  
->  Avant de saisir ces informations, il est conseillé de préparer la structure de la remise que vous souhaitez utiliser. Ainsi, vous pouvez visualiser plus facilement les clients pouvant être liés à la même page de remise facture. Plus le nombre de pages à configurer est faible, plus vous pouvez saisir rapidement les informations de base.
+> Avant de saisir ces informations, il est conseillé de préparer la structure de la remise que vous souhaitez utiliser. Ainsi, vous pouvez visualiser plus facilement les clients pouvant être liés à la même page de remise facture. Plus le nombre de pages à configurer est faible, plus vous pouvez saisir rapidement les informations de base.
 
 Pour plus d'informations sur les remises sur les ventes, voir [Configurer des remises pour vos clients](/learn/modules/customer-discounts-dynamics-365-business-central/index) sur Microsoft Learn.  
 
 ## <a name="best-price-calculation"></a>Calcul du meilleur prix
+
 Lorsque vous avez enregistré des prix spéciaux et des remises de ligne pour les ventes et les achats, [!INCLUDE[d365fin](includes/d365fin_md.md)] s'assure que votre marge pour l'article est toujours optimale en calculant automatiquement le meilleur prix dans les documents achat et vente, sur le projet et les lignes feuille article.
 
 Le meilleur prix est le prix le plus bas autorisé associé à la remise de ligne la plus élevée autorisée à une date donnée. [!INCLUDE[d365fin](includes/d365fin_md.md)] calcule automatiquement cette valeur lorsqu'il insère le prix unitaire et le pourcentage de remise de ligne pour des articles dans le nouveau document et les lignes feuille.
 
 > [!NOTE]  
->   Voici une description du calcul du meilleur prix pour la vente. Le calcul est le même pour les achats.
+> Voici une description du calcul du meilleur prix pour la vente. Le calcul est le même pour les achats.
 
 1. [!INCLUDE[d365fin](includes/d365fin_md.md)] vérifie la combinaison client facturé et article, et calcule le prix unitaire applicable et le pourcentage remise de ligne à l'aide des critères suivants :
 
@@ -119,36 +126,39 @@ Le meilleur prix est le prix le plus bas autorisé associé à la remise de lign
 
 Si aucun prix spécial ne peut être calculé pour l'article de la ligne, alors soit le coût unitaire direct, soit le prix unitaire à partir de la fiche article est inséré.
 
-## <a name="to-copy-sales-prices"></a>Pour copier des prix de vente  
-Pour copier des prix de vente, comme les prix appliqués à un client et qui doivent être appliqués à tout un groupe de clients, vous devez lancer le traitement par lots **Suggérer prix vente**. traitement par lots, que vous lancez depuis la page **Feuille prix vente**.    
+## <a name="to-copy-sales-prices"></a>Pour copier des prix de vente
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille prix vente**, puis choisissez le lien associé.  
-2.  Sélectionnez l'action **Suggérer prix vente** .  
-3.  Sur le raccourci **Prix vente**, renseignez les champs **Type vente** et **Code vente** avec les prix de vente d'origine à copier.  
-4.  Dans la partie supérieure de la page de demande, indiquez dans les champs **Type vente** et **Code vente** le type et le nom sous lesquels vous souhaitez copier les prix de vente.  
-5.  Pour que le traitement par lots crée des prix, activez la case à cocher **Créer nouveaux prix**.  
-6.  Choisissez le bouton **OK** pour renseigner les lignes de la page **Feuille prix vente** avec les nouveaux prix proposés, en précisant qu'ils sont applicables au type vente sélectionné.  
+Pour copier des prix de vente, comme les prix appliqués à un client et qui doivent être appliqués à tout un groupe de clients, vous devez lancer le traitement par lots **Suggérer prix vente**. traitement par lots, que vous lancez depuis la page **Feuille prix vente**.  
+
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille prix vente**, puis choisissez le lien associé.  
+2. Sélectionnez l'action **Suggérer prix vente** .  
+3. Sur le raccourci **Prix vente**, renseignez les champs **Type vente** et **Code vente** avec les prix de vente d'origine à copier.  
+4. Dans la partie supérieure de la page de demande, indiquez dans les champs **Type vente** et **Code vente** le type et le nom sous lesquels vous souhaitez copier les prix de vente.  
+5. Pour que le traitement par lots crée des prix, activez la case à cocher **Créer nouveaux prix**.  
+6. Choisissez le bouton **OK** pour renseigner les lignes de la page **Feuille prix vente** avec les nouveaux prix proposés, en précisant qu'ils sont applicables au type vente sélectionné.  
 
 > [!NOTE]  
->  Ce traitement par lots crée uniquement des propositions ; il n'effectue pas les modifications proposées. Si les propositions vous conviennent et que vous souhaitez les appliquer, c'est-à-dire les insérer sur la page **Prix vente**, choisissez l'action **Implémenter des modifications de prix**, sur la page **Feuille prix vente**.
+> Ce traitement par lots crée uniquement des propositions ; il n'effectue pas les modifications proposées. Si les propositions vous conviennent et que vous souhaitez les appliquer, c'est-à-dire les insérer sur la page **Prix vente**, choisissez l'action **Implémenter des modifications de prix**, sur la page **Feuille prix vente**.
 
-## <a name="to-bulk-update-item-prices"></a>Pour mettre à jour en bloc des prix d'articles   
-Si vous souhaitez mettre à jour en bloc des prix article, tels que l'augmentation de tous les prix article par un certain pourcentage, vous devez exécuter **Suggérer prix article**. traitement par lots . Vous pouvez rechercher un lien vers le traitement par lots sur la page **Feuille prix vente**.     
+## <a name="to-bulk-update-item-prices"></a>Pour mettre à jour en bloc des prix d'articles
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille prix vente**, puis choisissez le lien associé.   
-2.  Sélectionnez l'action **Suggérer prix article** .   
-3.  Sur le raccourci **Article**, renseignez le champ **N°**, **Groupe comptabilisation de stock** ou d'autres champs avec les prix article d'origine à mettre à jour.   
-4.  Dans la partie supérieure de la page de demande, indiquez dans les champs **Type vente** et **Code vente** le type et le nom sous lesquels vous souhaitez copier les prix de vente.
-5.  Si vous souhaitez que le traitement par lots ajuste automatiquement le prix article proposés, saisissez l'ajustement dans le champ **Facteur appliqué**. Par exemple, vous devez entrer 1,15 dans **Facteur appliqué** pour une augmentation de 15 % des prix unitaires.  
-6.  Pour que le traitement par lots crée des prix, sélectionnez le champ **Créer nouveaux prix**.   
-7.  Choisissez le bouton **OK** pour renseigner les lignes de la page **Feuille prix vente** avec les nouveaux prix proposés, en précisant qu'ils sont applicables au l'**article** sélectionné.   
+Si vous souhaitez mettre à jour en bloc des prix article, tels que l'augmentation de tous les prix article par un certain pourcentage, vous devez exécuter **Suggérer prix article**. traitement par lots . Vous pouvez rechercher un lien vers le traitement par lots sur la page **Feuille prix vente**.  
 
-> [!NOTE]   
->  Ce traitement par lots crée uniquement des propositions ; il n'effectue pas les modifications proposées. Si les propositions vous conviennent et que vous souhaitez les appliquer, c'est-à-dire les insérer dans la table **Prix vente**, vous pouvez utiliser le traitement par lots **Implémenter nouveaux prix**, accessible via l'onglet **Actions**, dans le groupe **Fonctions**, sur la page **Feuille prix vente**.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille prix vente**, puis choisissez le lien associé.  
+2. Sélectionnez l'action **Suggérer prix article** .  
+3. Sur le raccourci **Article**, renseignez le champ **N°**, ou **Groupe comptabilisation de stock** ou d'autres champs avec les prix article d'origine à mettre à jour.  
+4. Dans la partie supérieure de la page de demande, indiquez dans les champs **Type vente** et **Code vente** le type et le nom sous lesquels vous souhaitez copier les prix de vente.
+5. Si vous souhaitez que le traitement par lots ajuste automatiquement le prix article proposés, saisissez l'ajustement dans le champ **Facteur appliqué**. Par exemple, vous devez entrer 1,15 dans **Facteur appliqué** pour une augmentation de 15 % des prix unitaires.  
+6. Pour que le traitement par lots crée des prix, sélectionnez le champ **Créer nouveaux prix**.  
+7. Choisissez le bouton **OK** pour renseigner les lignes de la page **Feuille prix vente** avec les nouveaux prix proposés, en précisant qu'ils sont applicables au l'**article** sélectionné.  
+
+> [!NOTE]
+> Ce traitement par lots crée uniquement des propositions ; il n'effectue pas les modifications proposées. Si les propositions vous conviennent et que vous souhaitez les appliquer, c'est-à-dire les insérer dans la table **Prix vente**, vous pouvez utiliser le traitement par lots **Implémenter nouveaux prix**, accessible via l'onglet **Actions**, dans le groupe **Fonctions**, sur la page **Feuille prix vente**.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/manage-sales-prices-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Voir aussi
+
 [Définition des ventes](sales-setup-sales.md)  
 [Ventes](sales-manage-sales.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -1,25 +1,25 @@
 ---
 title: 'Procédure pas à pas : suivi des numéros de série et des numéros de lot | Microsoft Docs'
-description: En cas de produit défectueux, vous devez identifier les erreurs et empêcher les articles concernés d'être vendus. Si des articles défectueux ont déjà été expédiés, vous devez procéder au suivi des destinataires et, au besoin, de rappeler les articles.
-author: SorenGP
+description: Cette rubrique décrit les actions à entreprendre pour arrêter de vendre un article défectueux.
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: dc2a67623a55026557855b8247bf0565918e3f3c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/25/2020
+ms.author: bholtorf
+ms.openlocfilehash: e165e5fcdad0909f6ad4def81987d1837dd0c48c
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193362"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528150"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Procédure pas à pas : suivi des numéros de série et des numéros de lot
 
-**Remarque** : Ce guide pas-à-pas doit être effectué sur une société de démonstration avec l'option **Évaluation complète - Renseigner des exemples de données**, disponible dans l'environnement sandbox. Pour plus d’informations, voir [Création d'un environnement Sandbox](across-how-create-sandbox-environment.md).
+[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
 
 En cas de produit défectueux, vous devez identifier les erreurs et empêcher les articles concernés d'être vendus. Si des articles défectueux ont déjà été expédiés, vous devez procéder au suivi des destinataires et, au besoin, de rappeler les articles.  
 
@@ -27,34 +27,38 @@ Dans la gestion des défauts, la première chose à faire est de rechercher d'o�
 
 Ensuite, déterminez si les articles suivis sont planifiés dans des documents en cours, comme des commandes vente non validées ou des feuilles consommation. Cela s'effectue sur la page **Naviguer**. Vous pouvez utiliser la fonction Naviguer pour rechercher tous les types d'enregistrements de données de base.  
 
-## <a name="about-this-walkthrough"></a>À propos de cette procédure pas à pas  
+## <a name="about-this-walkthrough"></a>À propos de cette procédure pas à pas
+
 Cette procédure pas à pas explique comment identifier les articles défectueux, leur fournisseur et l'endroit où ils sont utilisés afin que vous puissiez les bloquer ou les rappeler.  
 
 Cette procédure pas à pas présente les tâches suivantes :  
 
--   Traçabilité de l'activité à l'origine.  
--   Traçabilité de l'origine à l'activité.  
--   Recherche de tous les enregistrements en cours contenant le numéro de série/lot suivi  
+- Traçabilité de l'activité à l'origine.  
+- Traçabilité de l'origine à l'activité.  
+- Recherche de tous les enregistrements en cours contenant le numéro de série/lot suivi  
 
-## <a name="roles"></a>Rôles  
+## <a name="roles"></a>Rôles
+
 Cette procédure pas à pas présente les tâches effectuées par les rôles utilisateur suivants :  
 
--   Contrôleur qualité  
--   Gestionnaire d'entrepôt  
--   Préparateur de commandes  
--   Agent d'achats  
+- Contrôleur qualité  
+- Gestionnaire d'entrepôt  
+- Préparateur de commandes  
+- Agent d'achats  
 
-## <a name="prerequisites"></a>Conditions préalables  
+## <a name="prerequisites"></a>Conditions préalables
+
 Pour exécuter ce processus pas à pas, vous devez :  
 
--   La société [!INCLUDE[d365fin](includes/d365fin_md.md)].  
--   Pour créer des articles et plusieurs transactions commerciales en suivant [Préparation d'exemples de données](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data).  
+- La société [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+- Pour créer des articles et plusieurs transactions commerciales en suivant [Préparation d'exemples de données](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data).  
 
-## <a name="story"></a>Scénario  
+## <a name="story"></a>Scénario
+
 Ricardo, le contrôleur qualité, se charge d'un retour vente de l'article 1002, vélo de course. Le client, Selangorian Ltd., s'est plaint de fissures au niveau des joints de soudure. Les ingénieurs du contrôle qualité ont confirmé que le cadre du vélo renvoyé est défectueux. Le contrôleur qualité doit maintenant déterminer :  
 
--   le lot de cadres défectueux ;  
--   la commande achat sur laquelle le lot défectueux apparaît.  
+- le lot de cadres défectueux ;  
+- la commande achat sur laquelle le lot défectueux apparaît.  
 
 Dans le département des ventes, le contrôleur qualité sait que le vélo de course renvoyé, l'article 1002, porte le numéro de série SN1. En utilisant cette information de base, il doit déterminer l'endroit où le vélo de course fini a été utilisé en dernier, puis il doit remonter jusqu'à l'origine pour connaître le numéro de lot duquel le composant défectueux provient.  
 
@@ -62,31 +66,32 @@ Les résultats de cette première tâche de traçabilité permettent d'identifie
 
 Les deux premières tâches de gestion des défauts sont exécutées sur la page **Traçabilité**. La dernière tâche est réalisée sur la page **Naviguer** en association avec la page **Traçabilité**.  
 
-## <a name="prepare-sample-data"></a>Préparation d'exemples de données  
+## <a name="prepare-sample-data"></a>Préparation d'exemples de données
+
 Vous devez créer les nouveaux articles suivants :  
 
--   2000, Cadre de course : traçabilité spécifique au lot, composant de 1002  
--   1002, Vélo de course : traçabilité spécifique au numéro de série  
+- 2000, Cadre de course : traçabilité spécifique au lot, composant de 1002  
+- 1002, Vélo de course : traçabilité spécifique au numéro de série  
 
 Ensuite, vous devez créer plusieurs transactions d'achat, de production et de vente avec les deux articles.  
 
 ### <a name="to-create-the-items"></a>Pour créer les articles  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles**, puis sélectionnez le lien associé.  
-2.  Sélectionnez l'action **Nouveau**.  
-3.  Dans le champ **N°**, , entrez **2000**, puis complétez les champs suivants.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles**, puis sélectionnez le lien associé.  
+2. Sélectionnez l'action **Nouveau**.  
+3. Dans le champ **N°**, , entrez **2000**, puis complétez les champs suivants.  
 
     |Désignation|Unité de base|Groupe. Groupe compta. produit|Groupe compta. produit TVA|Groupe compta. stock|Code traçabilité|  
-    |-----------------|--------------------------|------------------------------|-----------------------------|-----------------------------|------------------------|  
+    |-----------|--------------------|------------------------|-----------------------|--------------------|------------------|  
     |Cadre de course|PCS|MAT PREM|VAT25|MAT PREM|LOTALL|  
 
     > [!NOTE]  
     >  Pour entrer l’unité de base, cliquez sur le bouton **Nouveau**, puis sélectionnez **PSC** sur la page **Unités article**.  
 
-4.  Tous les autres champs contiennent des données par défaut acceptables ou ne doivent pas être remplis.  
-5.  Cliquez sur le bouton **OK** pour créer la première fiche article, 2000.  
-6.  Choisissez **Nouveau**.  
-7.  Dans le champ **N°**, , entrez **1002**, puis complétez les champs suivants.  
+4. Tous les autres champs contiennent des données par défaut acceptables ou ne doivent pas être remplis.  
+5. Cliquez sur le bouton **OK** pour créer la première fiche article, 2000.  
+6. Choisissez **Nouveau**.  
+7. Dans le champ **N°**, , entrez **1002**, puis complétez les champs suivants.  
 
     |Désignation|Unité de base|Groupe. Groupe compta. produit|Groupe compta. produit TVA|Groupe compta. stock|Système réappro.|Code traçabilité|  
     |-----------------|--------------------------|------------------------------|-----------------------------|-----------------------------|--------------------------|------------------------|  
@@ -97,32 +102,33 @@ Ensuite, vous devez créer plusieurs transactions d'achat, de production et de v
 
     Ensuite, définissez les paramètres production de l'article.
 
-9. Sous l'onglet **Réapprovisionnement** , entrez **1000** dans le champ **N° gamme**.  
-10. Choisissez le champ **N° nomenclature de production**, puis sélectionnez **Avancé**.  
-11. Sur la page **Liste nomenclatures production**, choisissez la première ligne, **1000**, puis sélectionnez l'action **Modifier**.  
-12. Sur la page **Nomenclature de production**, modifiez la valeur du champ **Statut** en **Modification en cours**.  
-13. Accédez à une ligne vide, entrez **2000** dans le champ **N°** puis entrez **1** dans le champ **Quantité par**.  
-14. Modifiez la valeur du champ **Statut** en **Validée**.  
-15. Cliquez sur le bouton **OK** pour insérer la nomenclature de production dans la fiche article et fermer la page **Nomenclature de production**.  
+8. Sous l'onglet **Réapprovisionnement** , entrez **1000** dans le champ **N° gamme**.  
+9. Choisissez le champ **N° nomenclature de production**, puis sélectionnez **Avancé**.  
+10. Sur la page **Liste nomenclatures production**, choisissez la première ligne, **1000**, puis sélectionnez l'action **Modifier**.  
+11. Sur la page **Nomenclature de production**, modifiez la valeur du champ **Statut** en **Modification en cours**.  
+12. Accédez à une ligne vide, entrez **2000** dans le champ **N°** puis entrez **1** dans le champ **Quantité par**.  
+13. Modifiez la valeur du champ **Statut** en **Validée**.  
+14. Cliquez sur le bouton **OK** pour insérer la nomenclature de production dans la fiche article et fermer la page **Nomenclature de production**.  
 
     Ensuite, acheter des cadres de course de Custom Metals Incorporated.  
 
-### <a name="to-purchase-components"></a>Pour acheter des composants  
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes achat**, puis sélectionnez le lien associé.  
-2.  Sélectionnez l'action **Nouveau**.  
-3.  Créez une commande achat pour le fournisseur, Custom Metals Incorporated, en renseignant les champs ligne suivants.  
+### <a name="to-purchase-components"></a>Pour acheter des composants
+
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes achat**, puis sélectionnez le lien associé.  
+2. Sélectionnez l'action **Nouveau**.  
+3. Créez une commande achat pour le fournisseur, Custom Metals Incorporated, en renseignant les champs ligne suivants.  
 
     |Article|Quantité|N° lot|  
-    |----------|--------------|-------------|  
+    |----|--------|-------|  
     |2000|10|LOT1|  
 
-4.  Pour saisir le numéro de lot, choisissez l'action **Lignes traçabilité**.  
-5.  Sur la page **Lignes traçabilité**, renseignez les champs **N° lot** et **Quantité (Base)**, puis fermez la page.  
-6.  Dans le champ **N° facture fournisseur**, entrez une valeur.  
-7.  Cliquez sur **Valider**, choisissez l'option **Réceptionner et facturer**, puis cliquez sur le bouton **OK**.  
+4. Pour saisir le numéro de lot, choisissez l'action **Lignes traçabilité**.  
+5. Sur la page **Lignes traçabilité**, renseignez les champs **N° lot** et **Quantité (Base)**, puis fermez la page.  
+6. Dans le champ **N° facture fournisseur**, entrez une valeur.  
+7. Cliquez sur **Valider**, choisissez l'option **Réceptionner et facturer**, puis cliquez sur le bouton **OK**.  
 
     Ensuite, achetez des cadres de course de Coolwood Technologies.  
-8.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes achat**, puis sélectionnez le lien associé.  
+8. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes achat**, puis sélectionnez le lien associé.  
 9. Sélectionnez l'action **Nouveau**.
 10. Créez une commande achat pour le fournisseur, Coolwood Technologies, en renseignant les champs ligne suivants.  
 
@@ -137,23 +143,24 @@ Ensuite, vous devez créer plusieurs transactions d'achat, de production et de v
 
     Ensuite, deux produisez vélos de course, SN2 et SN1.  
 
-### <a name="to-produce-end-items"></a>Pour produire des produits finis  
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **O.F. lancés**, puis sélectionnez le lien associé.  
-2.  Choisissez le groupe **Nouveau**.  
-3.  Créez un ordre de fabrication lancé en renseignant les champs suivants.  
+### <a name="to-produce-end-items"></a>Pour produire des produits finis
 
-    |-|-|-|  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **O.F. lancés**, puis sélectionnez le lien associé.  
+2. Choisissez le groupe **Nouveau**.  
+3. Créez un ordre de fabrication lancé en renseignant les champs suivants.  
+
     |N° origine|Quantité|N° de série|  
-    |1002|2|SN1|  
-    |1002|2|SN2|  
+    |----------|--------|----------|  
+    |1002|2|NS1|  
+    |1002|2|NS2|  
 
-4.  Choisissez l'action **Actualiser O.F.**, puis choisissez le bouton **OK** pour remplir la ligne.  
-5.  Pour saisir les numéros de série, choisissez l'action **Lignes traçabilité**.  
-6.  Sur la page **Lignes traçabilité**, renseignez les champs **N° série** et **Quantité (Base)**, puis fermez la page.  
+4. Choisissez l'action **Actualiser O.F.**, puis choisissez le bouton **OK** pour remplir la ligne.  
+5. Pour saisir les numéros de série, choisissez l'action **Lignes traçabilité**.  
+6. Sur la page **Lignes traçabilité**, renseignez les champs **N° série** et **Quantité (Base)**, puis fermez la page.  
 
     Ensuite, validez la consommation des cadres de course dans le LOT1.  
-7.  Sur la page **O.F. lancé**, choisissez l'action **Feuille production**.  
-8.  Sur la page **Feuille production**, sélectionnez la ligne consommation pour l'article 2000, choisissez l'action **Lignes traçabilité**.
+7. Sur la page **O.F. lancé**, choisissez l'action **Feuille production**.  
+8. Sur la page **Feuille production**, sélectionnez la ligne consommation pour l'article 2000, choisissez l'action **Lignes traçabilité**.
 9. Sur la page **Lignes traçabilité**, sélectionnez le champ **N° lot**, choisissez **LOT1**, puis sélectionnez le bouton **OK** button.  
 10. Ne modifiez pas les autres valeurs par défaut sur la page **Feuille production**, et sélectionnez l'action **Valider**.  
 
@@ -240,9 +247,9 @@ Ensuite, vous devez créer plusieurs transactions d'achat, de production et de v
 
     Vous pouvez suivre l'historique des transactions suivant :  
 
-    -   Le premier document validé en amont dans l'enchaînement de transactions est la validation des sorties de SN1 à partir du premier O.F. lancé.  
-    -   Le document validé suivant en amont est la validation de la consommation à partir du premier O.F. lancé. Dans ce cas, le contrôleur qualité constate qu'un cadre de course du LOT1 a été utilisé.  
-    -   Le document validé situé le plus bas dans cet enchaînement est la réception achat validée sur laquelle les cadres de course du LOT1 ont été entrés dans le stock.  
+    - Le premier document validé en amont dans l'enchaînement de transactions est la validation des sorties de SN1 à partir du premier O.F. lancé.  
+    - Le document validé suivant en amont est la validation de la consommation à partir du premier O.F. lancé. Dans ce cas, le contrôleur qualité constate qu'un cadre de course du LOT1 a été utilisé.  
+    - Le document validé situé le plus bas dans cet enchaînement est la réception achat validée sur laquelle les cadres de course du LOT1 ont été entrés dans le stock.  
 
     Le contrôleur qualité a maintenant déterminé le lot de cadres de course défectueux et il peut rechercher la dernière ligne de suivi pour connaître leur fournisseur, dans ce cas Custom Metals Incorporated.  
 

@@ -5,16 +5,17 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
-ms.date: 04/01/2020
+ms.date: 06/26/2020
 ms.author: sgroespe
-ms.openlocfilehash: 50a67bf5d64cbf932801738d60b4477a7e3d9fde
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 34e72f5b80f4516dcd7e9061f263a8f08b06b0d7
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186515"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528528"
 ---
 # <a name="manage-profiles"></a>Gérer les profils
+
 Tous les utilisateurs de [!INCLUDE[d365fin](includes/d365fin_md.md)] se voient attribuer un profil reflétant leur rôle professionnel, le département dans lequel ils travaillent ou une autre catégorisation. Les profils permettent aux administrateurs de définir et de gérer de manière centralisée ce que différents types d'utilisateurs peuvent voir et faire dans l'interface utilisateur afin de pouvoir effectuer leurs tâches de manière efficace.
 
 > [!NOTE]
@@ -130,9 +131,15 @@ Vous pouvez supprimer les personnalisations qu'un ou plusieurs utilisateurs ont 
 
 2. Sélectionnez la ligne de la personnalisation de la page à supprimer, puis sélectionnez l'action **Supprimer**.
 
-L'utilisateur les verra les modifications lors de sa prochaine connexion.    
+L'utilisateur les verra les modifications lors de sa prochaine connexion.  
 
 Vous pouvez également supprimer toutes les personnalisations de page individuelle pour un profil. Pour plus d'informations, voir [Supprimer la personnalisation de pages spécifiques d'un profil](ui-personalization-manage.md#to-delete-customization-for-specific-pages-for-a-profile).
+
+## <a name="managing-user-sessions"></a>Gestion des sessions utilisateur
+
+En tant qu'administrateur de [!INCLUDE[prodshort](includes/prodshort.md)] en ligne, vous pouvez gérer les sessions utilisateur dans le centre d'administration. Pour plus d'informations, voir [Gérer les sessions](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions) dans le contenu d'administration.  
+
+Pour [!INCLUDE[prodshort](includes/prodshort.md)] sur site, vous pouvez gérer des sessions à l'aide de SQL Server Management Studio, par exemple. Pour plus d'informations, voir [Documentation technique SQL Server](/sql/sql-server/?view=sql-server-ver15).  
 
 ## <a name="see-also"></a>Voir aussi  
 [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md)  

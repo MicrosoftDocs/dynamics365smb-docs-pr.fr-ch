@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: analysis, history, track
 ms.date: 04/14/2020
 ms.author: sgroespe
-ms.openlocfilehash: d353381c9267e9039d0b4391aa7fdac1c8a3c405
-ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
+ms.openlocfilehash: 2d5285fdfbe8c1a07a766a3fbbe268a4ecbfef0a
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262181"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528903"
 ---
 # <a name="working-with-dimensions"></a>Utilisation des axes analytiques
 Vous pouvez utiliser des axes analytiques pour faciliter l'exécution de l'analyse sur des commandes vente, par exemple. Les axes analytiques sont des attributs et des valeurs qui permettent de catégoriser les écritures afin de pouvoir les suivre et les analyser. Ils peuvent par exemple indiquer de quel projet ou département provient une écriture.  
@@ -113,7 +113,7 @@ Les axes principaux et les raccourcis axe peuvent être utilisés comme filtre n
 > Lorsque vous ajoutez ou modifiez un axe principal ou un raccourci axe, vous êtes automatiquement déconnecté et la nouvelle valeur est préparée pour un usage dans toute l'application.
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres comptabilité**, puis sélectionnez le lien associé.
-2. Sur le raccourci **Axes analytiques**, renseignez les champs. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Sur le raccourci **Axes analytiques**, renseignez les champs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 #### <a name="to-change-global-dimensions"></a>Pour modifier les axes principaux
 Lorsque vous modifiez un axe principal ou un raccourci, toutes les écritures saisies avec l'axe en question sont mises à jour. Étant donné que ce processus peut prendre du temps et affecter les performances, deux modes différents sont fournis pour adapter le processus à la taille de la base de données.  

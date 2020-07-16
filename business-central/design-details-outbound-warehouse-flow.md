@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 07/07/2020
 ms.author: sgroespe
-ms.openlocfilehash: c9f76990f9f6a314de6ac18352b5353773bb8fe0
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 68fa5ebf2b35f0df821e0ef21ddeb286aa744408
+ms.sourcegitcommit: 8b2f02dd5189c46ecff33c07223ed62b36842d34
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184955"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "3542557"
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Détails de conception : flux de désenlogement
+
 Le flux sortant dans l'entrepôt commence par une demande provenant des documents origine lancés pour amener les articles hors de l'entrepôt, pour les expédier soit à un tiers, soit à un autre magasin de la société. Depuis la zone de stockage, des activités entrepôt sont effectuées à différents niveaux de complexité pour sortir les articles pour les amener au quai d'expédition.  
 
  Chaque article est identifié et mis en correspondance avec un document origine entrant correspondant. Les documents origine sortants suivants existent :  
@@ -38,8 +39,8 @@ En outre, les documents origine internes suivants existent qui fonctionnent comm
 
  Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], les processus sortants de prélèvement et d'expédition peuvent être effectués de quatre manières, à l'aide de différentes fonctionnalités en fonction du niveau de complexité de l'entrepôt.  
 
-|Méthode|Processus entrant|Emplacements|Prélèvements|Livraisons|Niveau de complexité (Voir [Détails de conception : paramètres entrepôt](design-details-warehouse-setup.md))|  
-|------------|---------------------|----------|-----------|---------------|--------------------------------------------------------------------------------------------------------------------|  
+|Méthode|Processus sortant|Emplacements|Prélèvements|Livraisons|Niveau de complexité (Voir [Détails de conception : paramètres entrepôt](design-details-warehouse-setup.md))|  
+|------|----------------|----|-----|---------|-------------------------------------------------------------------------------------|  
 |A|Validation du prélèvement et de l'expédition à partir de la ligne commande|X|||2|  
 |B|Validation du prélèvement et de l'expédition à partir d'un document prélèvement stock||X||3|  
 |C|Validation du prélèvement et de l'expédition à partir d'un document expédition entrepôt|||X|5/4/6|  
@@ -49,70 +50,87 @@ En outre, les documents origine internes suivants existent qui fonctionnent comm
 
  Dans les méthodes A, B et C, les actions de prélèvement et d'expédition sont combinées en une étape lors de la validation du document correspondant comme étant expédié. Dans la méthode D, le prélèvement est d'abord validé, puis l'expédition est validée à une date ultérieure à partir d'un document différent.  
 
-## <a name="basic-warehouse-configurations"></a>Configurations d'entrepôt de base  
+## <a name="basic-warehouse-configurations"></a>Configurations d'entrepôt de base
+
  Le schéma suivant présente les flux de désenlogement par type de document dans les configurations d'entrepôt de base. Les numéros dans le schéma correspondent aux étapes dans les sections suivant le schéma.  
 
  ![Flux sortant dans les configurations d'entrepôt de base](media/design_details_warehouse_management_outbound_basic_flow.png "Flux sortant dans les configurations d'entrepôt de base")  
 
-### <a name="1-release-source-document--create-inventory-pick-or-movement"></a>1 : Lancer le document origine / Créer un prélèvement stock ou un mouvement de stock  
+### <a name="1-release-source-document--create-inventory-pick-or-movement"></a>1 : Lancer le document origine / Créer un prélèvement stock ou un mouvement de stock
+
  Lorsqu'un utilisateur responsable des documents d'origine, comme un préparateur de commandes ou un gestionnaire de production, est prêt pour l'activité d'entrepôt sortant, il émet le document d'origine pour signaler aux magasiniers que les articles ou les composants vendus peuvent être prélevés et placés dans les emplacements spécifiés. Sinon, l'utilisateur crée des documents de prélèvement ou de mouvement de stock pour les lignes de commande individuelles, en mode de poussée, basés sur les emplacements spécifiés et quantités à gérer.  
 
 > [!NOTE]  
->  Des mouvements de stock sont utilisés pour déplacer des articles vers des zones d'opération interne dans les configurations d'entrepôt de base, sur la base des documents origine ou sur une base ad-hoc.  
+> Des mouvements de stock sont utilisés pour déplacer des articles vers des zones d'opération interne dans les configurations d'entrepôt de base, sur la base des documents origine ou sur une base ad-hoc.  
 
-### <a name="2-create-outbound-request"></a>2 : Créer demande désenlogement  
+### <a name="2-create-outbound-request"></a>2 : Créer demande désenlogement
+
  Lorsque le document d'origine sortant est émis, une demande d'entrepôt sortant est automatiquement créée. Elle contient des références au type et au numéro du document origine et n'est pas visible à l'utilisateur.  
 
-### <a name="3-create-inventory-pick-or-movement"></a>3 : Créer un prélèvement stock ou un mouvement de stock  
+### <a name="3-create-inventory-pick-or-movement"></a>3 : Créer un prélèvement stock ou un mouvement de stock
+
  Sur la page **Prélèvement stock** ou **Mouvement de stock**, le magasinier extrait, en mode extraction, les lignes document origine en attente en fonction des demandes désenlogement. Sinon, les lignes prélèvement stock sont déjà créées, par déplacement, par l'utilisateur responsable du document origine.  
 
-### <a name="4-post-inventory-pick-or-register-inventory-movement"></a>4: Valider un prélèvement stock ou enregistrer un mouvement de stock  
+### <a name="4-post-inventory-pick-or-register-inventory-movement"></a>4: Valider un prélèvement stock ou enregistrer un mouvement de stock
+
  Sur chaque ligne pour les articles qui ont été prélevées ou déplacés, entièrement ou partiellement, le magasinier renseigne le champ **Quantité**, puis valide le prélèvement stock ou enregistre le mouvement de stock. Les documents origine associé au prélèvement stock sont validés comme étant expédiés ou consommés. Les documents origine liés aux mouvements de stock ne sont pas validés.  
 
  Pour les prélèvements stock, les écritures comptables article négatives sont créées, les écritures entrepôt sont créées, et la demande de prélèvement est supprimée, si entièrement enregistrée. Par exemple, le champ **Qté expédiée** sur la ligne document origine sortant est mis à jour. Un document expédition validé est créé et indique la commande vente, par exemple, ainsi que les articles expédiés.  
 
-## <a name="advanced-warehouse-configurations"></a>Configurations d'entrepôt avancées  
+## <a name="advanced-warehouse-configurations"></a>Configurations d'entrepôt avancées
+
  Le schéma suivant présente le flux de désenlogement par type de document dans les configurations d'entrepôt avancées. Les numéros dans le schéma correspondent aux étapes dans les sections suivant le schéma.  
 
  ![Flux sortant dans les configurations d'entrepôt avancées](media/design_details_warehouse_management_outbound_advanced_flow.png "Flux sortant dans les configurations d'entrepôt avancées")  
 
-### <a name="1-release-source-document"></a>1 : Lancer le document origine  
+### <a name="1-release-source-document"></a>1 : Lancer le document origine
+
  Lorsqu'un utilisateur responsable des documents d'origine, comme un préparateur de commandes ou un gestionnaire de production, est prêt pour l'activité d'entrepôt sortant, il émet le document d'origine pour signaler aux magasiniers que les articles ou les composants vendus peuvent être prélevés et placés dans les emplacements spécifiés.  
 
-### <a name="2-create-outbound-request"></a>2 : Créer demande désenlogement  
- Lorsque le document d'origine entrant est émis, une demande d'entrepôt sortant est automatiquement créée. Elle contient des références au type et au numéro du document origine et n'est pas visible à l'utilisateur.  
+### <a name="2-create-outbound-request-2"></a>2 : Créer demande désenlogement (2)
 
-### <a name="3-create-warehouse-shipment"></a>3 : Créer expédition entrepôt  
+ Lorsque le document d'origine sortant est émis, une demande d'entrepôt sortant est automatiquement créée. Elle contient des références au type et au numéro du document origine et n'est pas visible à l'utilisateur.  
+
+### <a name="3-create-warehouse-shipment"></a>3 : Créer expédition entrepôt
+
  Sur la page **Expédition entrepôt**, le responsable de l'expédition extrait les lignes document origine en attente en fonction de la demande désenlogement. Plusieurs lignes document origine peuvent être combinées dans un document expédition entrepôt.  
 
-### <a name="4-release-shipment--create-warehouse-pick"></a>4 : Lancer l'expédition / Créer un prélèvement entrepôt  
+### <a name="4-release-shipment--create-warehouse-pick"></a>4 : Lancer l'expédition / Créer un prélèvement entrepôt
+
  Le responsable de l'expédition lance l'expédition entrepôt, afin que les magasiniers puissent créer ou coordonner des prélèvements entrepôt pour l'expédition en question.  
 
  Sinon, l'utilisateur crée des documents prélèvement entrepôt pour des lignes expédition individuelles, par déplacement, selon les emplacements spécifiés et les quantités à traiter.  
 
-### <a name="5-release-internal-operation--create-warehouse-pick"></a>5 : Lancer une opération interne / Créer un prélèvement entrepôt  
+### <a name="5-release-internal-operation--create-warehouse-pick"></a>5 : Lancer une opération interne / Créer un prélèvement entrepôt
+
  L'utilisateur qui est responsable des opérations internes émet un document origine interne, tel qu'un ordre de fabrication et d'assemblage, afin que les magasiniers puissent créer ou coordonner des prélèvements entrepôt pour l'opération interne en question.  
 
  Sinon, l'utilisateur crée des documents prélèvement entrepôt pour l'ordre de fabrication ou l'ordre d'assemblage individuel, par déplacement, selon les emplacements spécifiés et les quantités à traiter.  
 
-### <a name="6-create-pick-request"></a>6 : Créer une demande de prélèvement  
+### <a name="6-create-pick-request"></a>6 : Créer une demande de prélèvement
+
  Lorsque le document d'origine sortant est émis, une demande de prélèvement d'entrepôt est automatiquement créée. Elle contient des références au type et au numéro du document origine et n'est pas visible à l'utilisateur. En fonction de la configuration, la consommation d'un ordre de fabrication et d'un ordre d'assemblage génère également une demande de prélèvement pour prélever les composants nécessaires dans le stock.  
 
-### <a name="7-generate-pick-worksheet-lines"></a>7 : Générer des lignes feuille prélèvement  
+### <a name="7-generate-pick-worksheet-lines"></a>7 : Générer des lignes feuille prélèvement
+
  L'utilisateur qui est responsable de coordonner les prélèvements copie des lignes de prélèvement entrepôt dans la **Feuille prélèvement** en fonction des demandes de prélèvement des expéditions entrepôt ou des opérations internes pour la consommation des composants. L'utilisateur sélectionne les lignes à prélever et prépare les prélèvements en spécifiant à partir de quels emplacements les prendre, à quels emplacements les placer, et le nombre d'unités à traiter. Les emplacements peuvent être prédéfinis par la configuration d'un entrepôt ou d'une ressource d'opération.  
 
  L'utilisateur spécifie des méthodes de prélèvement pour la gestion d'entrepôt optimisée puis utilise une fonction pour créer les documents de prélèvement entrepôt correspondants, qui sont affectés aux différents magasiniers exécutant les prélèvements entrepôt. Lorsque les prélèvements entrepôt sont entièrement affectés, les lignes dans la **Feuille prélèvement** sont supprimées.  
 
-### <a name="8-create-warehouse-pick-documents"></a>8 : Créer des documents prélèvement entrepôt  
+### <a name="8-create-warehouse-pick-documents"></a>8 : Créer des documents prélèvement entrepôt
+
  Le magasinier qui effectue des prélèvements crée un document de prélèvement entrepôt, sur le mode de l'extraction, basé sur le document origine émis. Sinon, le document prélèvement entrepôt est créé et affecté au magasinier par déplacement.  
 
-### <a name="9-register-warehouse-pick"></a>9 : Enregistrer un prélèvement entrepôt  
+### <a name="9-register-warehouse-pick"></a>9 : Enregistrer un prélèvement entrepôt
+
  Sur chaque ligne pour les articles qui ont été prélevés, entièrement ou partiellement, le magasinier renseigne le champ **Quantité** sur la page **Prélèvement entrepôt**, puis enregistre le prélèvement entrepôt.  
 
  Les écritures d'entrepôt sont créées, et les lignes de prélèvement entrepôt sont supprimées, si entièrement traitées. Le document de prélèvement entrepôt reste ouvert jusqu'à ce que la quantité totale de l'expédition entrepôt associée soit validée. Le champ **Qté prélevée** sur les lignes expédition entrepôt est mis à jour en conséquence.  
 
-### <a name="10-post-warehouse-shipment"></a>10 : Valider expédition entrepôt  
+### <a name="10-post-warehouse-shipment"></a>10 : Valider expédition entrepôt
+
  Lorsque tous les articles dans le document d'expédition entrepôt sont enregistrés comme prélevés dans les emplacements d'expédition spécifiés, le magasinier responsable valide l'expédition entrepôt. Des écritures comptables article négatives sont créées. Par exemple, le champ **Qté expédiée** sur la ligne document origine sortant est mis à jour.  
 
-## <a name="see-also"></a>Voir aussi  
- [Détails de conception : gestion d'entrepôt](design-details-warehouse-management.md)
+## <a name="see-also"></a>Voir aussi
+
+[Détails de conception : gestion d'entrepôt](design-details-warehouse-management.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 06/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1aaf04237261481f21d10d5e7966666132ff1a8e
-ms.sourcegitcommit: c5fcc204a1ba8aaf153ce3ad5d150295b144c0e4
+ms.openlocfilehash: 7f78fbcb4c0f37e9c6230004c70cd9d1625b8768
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3413658"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528125"
 ---
 # <a name="accountant-experiences-in-d365fin_long"></a>Expériences de comptable dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Chaque entreprise doit tenir ses comptes et valider sa comptabilité. Certaines sociétés utilisent un comptable externe, et d'autres ont un comptable dans le personnel. Peu importe le type de comptable que vous êtes, vous pouvez utiliser le tableau de bord **Comptable** comme pages d'accueil de [!INCLUDE[d365fin](includes/d365fin_md.md)]. De là, vous pouvez accéder à toutes les pages nécessaires pour votre travail.  
@@ -54,14 +54,14 @@ Si votre administrateur ou partenaire revendeur ne souhaite pas utiliser le guid
 4. Sélectionnez **Nouvel utilisateur invité**.
 5. Sur la page **Nouvel utilisateur**, sélectionnez **Inviter un utilisateur**, puis ajoutez des informations sur votre comptable externe.  
 
-   Vous pouvez éventuellement inclure un message de bienvenue personnel à l'attention du comptable pour l'informer que vous l'ajoutez à votre [!INCLUDE [prodshort](includes/prodshort.md)].
+   Vous pouvez éventuellement inclure un message de bienvenue personnel à l'attention du comptable pour l'informer que vous l'ajoutez à votre [!INCLUDE[prodshort](includes/prodshort.md)].
 
 6. Sélectionner **Inviter** pour envoyer automatiquement l'invitation. Une notification apparaît en haut à droite avec le message **Utilisateur invité avec succès**. 
 7. Après avoir envoyé l'invitation, le compte utilisateur est automatiquement ajouté au répertoire en tant qu'invité.
 
-Ensuite, vous devez attribuer au nouvel utilisateur invité une licence pour [!INCLUDE [prodshort](includes/prodshort.md)].
+Ensuite, vous devez attribuer au nouvel utilisateur invité une licence pour [!INCLUDE[prodshort](includes/prodshort.md)].
 
-#### <a name="to-give-your-accountant-access-to-your-prodshort"></a>Pour donner à votre comptable accès à votre [!INCLUDE [prodshort](includes/prodshort.md)]
+#### <a name="to-give-your-accountant-access-to-your-prodshort"></a>Pour donner à votre comptable accès à votre [!INCLUDE[prodshort](includes/prodshort.md)]
 
 1. Dans le Portail Azure, pour le nouvel utilisateur ajouté, choisissez **Profil**, puis **Modifier**
 2. Mettez à jour le champ **Lieu d'utilisation** et indiquez le pays concerné, puis choisissez **Enregistrer**.
@@ -73,26 +73,26 @@ Ensuite, vous devez attribuer au nouvel utilisateur invité une licence pour [!I
 
 En cas de réussite, la licence est attribuée à l'utilisateur invité et le compte invité est créé.
 
-### <a name="importing-the-new-user-into-prodshort"></a>Importation du nouvel utilisateur dans [!INCLUDE [prodshort](includes/prodshort.md)]
+### <a name="importing-the-new-user-into-prodshort"></a>Importation du nouvel utilisateur dans [!INCLUDE[prodshort](includes/prodshort.md)]
 
-Le comptable recevra un e-mail l'informant qu'on lui a accordé l'accès à votre Active Directory. Ensuite, vous devez lui donner accès à la bonne société dans [!INCLUDE [prodshort](includes/prodshort.md)].
+Le comptable recevra un e-mail l'informant qu'on lui a accordé l'accès à votre Active Directory. Ensuite, vous devez lui donner accès à la bonne société dans [!INCLUDE[prodshort](includes/prodshort.md)].
 
 #### <a name="to-add-the-accountant-to-the-right-company"></a>Pour ajouter le comptable à la bonne société
 
-1. Ouvrez la société [!INCLUDE [prodshort](includes/prodshort.md)] à laquelle vous souhaitez donner accès au comptable sur [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com).
+1. Ouvrez la société [!INCLUDE[prodshort](includes/prodshort.md)] à laquelle vous souhaitez donner accès au comptable sur [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com).
 2. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Utilisateurs**, puis sélectionnez le lien associé.  
 3. Choisissez l'action **Obtenir de nouveaux utilisateurs à partir de Office 365**.
 
 Cela a pour effet d'importer dans la société le compte utilisateur que vous avez créé dans le portail Azure. Pour plus d'informations, voir [Pour ajouter un utilisateur dans Business Central](ui-how-users-permissions.md#adduser).  
 
-Si vous souhaitez donner accès à plusieurs sociétés, vous devez vous connecter à chaque société et répéter ce processus. Vous pouvez également mettre à jour les groupes d'autorisations pour le profil utilisateur du comptable dans [!INCLUDE [prodshort](includes/prodshort.md)], par exemple en lui attribuant le groupe d'utilisateurs *D365 Bus Premium*. Pour en savoir plus, voir [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md).  
+Si vous souhaitez donner accès à plusieurs sociétés, vous devez vous connecter à chaque société et répéter ce processus. Vous pouvez également mettre à jour les groupes d'autorisations pour le profil utilisateur du comptable dans [!INCLUDE[prodshort](includes/prodshort.md)], par exemple en lui attribuant le groupe d'utilisateurs *D365 Bus Premium*. Pour en savoir plus, voir [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md).  
 
 <!--## Accountant Hub
 
 If you are an accountant with several clients, you can use [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] for a better overview of your clients. From there, you can access each client's tenant in [!INCLUDE[d365fin](includes/d365fin_md.md)] and use the Accountant Role Center as described above. For more information see [Welcome to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index).  
 
 > [!NOTE]
-> [!INCLUDE [d365acc_long_md](includes/d365acc_long_md.md)] is currently in public preview in a limited number of markets.-->
+> [!INCLUDE[d365acc_long_md](includes/d365acc_long_md.md)] is currently in public preview in a limited number of markets.-->
 
 ## <a name="see-also"></a>Voir aussi
 

@@ -7,19 +7,19 @@ ms.topic: get-started-article
 ms.search.keywords: setup wizard
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 62ee42fe2b6e03ad1137a50a38c1cd2ee4bfcd0f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 41281996dccf0c3ee142c063ad56c782dab49230
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190170"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528753"
 ---
 # <a name="getting-started-with-d365fin_long"></a>Mise en route de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] est une solution de gestion d'entreprise pour les PME qui automatise et simplifie les processus entreprise et vous aide à gérer votre entreprise. L'inscription est facile, et vous pouvez migrer des données métiers existantes de votre système existant.  
 
 Pour vous aider à souscrire un abonnement, recherchez un partenaire [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, voir [Comment trouver un partenaire revendeur ?](across-faq.md#findpartner).  
 
-L'inscription à [!INCLUDE [prodshort](includes/prodshort.md)] vous donne accès à une société de démonstration. La société de démonstration contient des exemples de données, mais vous pouvez créer de nouveaux documents vente, par exemple, ou ouvrir un compte bancaire. Cependant, si vous souhaitez utiliser [!INCLUDE [prodshort](includes/prodshort.md)] pour vous aider à gérer votre entreprise, vous devez contacter un partenaire revendeur [!INCLUDE [prodshort](includes/prodshort.md)] et acheter un abonnement. Pour plus d'informations sur les versions d'évaluation et les abonnements, voir [Versions d'évaluation et abonnements](across-preview.md).  
+L'inscription à [!INCLUDE[prodshort](includes/prodshort.md)] vous donne accès à une société de démonstration. La société de démonstration contient des exemples de données, mais vous pouvez créer de nouveaux documents vente, par exemple, ou ouvrir un compte bancaire. Cependant, si vous souhaitez utiliser [!INCLUDE[prodshort](includes/prodshort.md)] pour vous aider à gérer votre entreprise, vous devez contacter un partenaire revendeur [!INCLUDE[prodshort](includes/prodshort.md)] et acheter un abonnement. Pour plus d'informations sur les versions d'évaluation et les abonnements, voir [Versions d'évaluation et abonnements](across-preview.md).  
 
 ## <a name="get-to-know-d365fin"></a>Découvrir [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
@@ -34,7 +34,7 @@ Pour plus d'informations, reportez-vous à [Utilisation de [!INCLUDE[d365fin](in
 > [!TIP]  
 > Vous pouvez toujours revenir au Tableau de bord en sélectionnant le nom de la société dans l'angle supérieur gauche.
 
-Dans la société de démonstration, les tableaux de bord Gestionnaire d'activité et Comptable contiennent la vignette Mise en route et la vignette Vidéos du produit. Les deux vignettes lancent des pages où vous pouvez choisir entre différentes vidéos pour vous aider à vous familiariser avec différents aspects de [!INCLUDE [prodshort](includes/prodshort.md)]. Vous trouverez d'autres vidéos sur notre canal YouTube. Pour plus d'informations, voir [Visiter notre vidéothèque](across-videos.md). Vous trouverez également du contenu eLearning pour la version de base de [!INCLUDE [prodshort](includes/prodshort.md)] sur [Microsoft Learn](/learn/browse/?products=dynamics-business-central). Si vous souhaitez plus d’assistance, contactez un partenaire [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Dans la société de démonstration, les tableaux de bord Gestionnaire d'activité et Comptable contiennent la vignette Mise en route et la vignette Vidéos du produit. Les deux vignettes lancent des pages où vous pouvez choisir entre différentes vidéos pour vous aider à vous familiariser avec différents aspects de [!INCLUDE[prodshort](includes/prodshort.md)]. Vous trouverez d'autres vidéos sur notre canal YouTube. Pour plus d'informations, voir [Visiter notre vidéothèque](across-videos.md). Vous trouverez également du contenu eLearning pour la version de base de [!INCLUDE[prodshort](includes/prodshort.md)] sur [Microsoft Learn](/learn/browse/?products=dynamics-business-central). Si vous souhaitez plus d’assistance, contactez un partenaire [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Lorsque vous êtes prêt à commencer à travailler et que vous voulez en savoir plus sur les processus d'entreprise pris en charge par [!INCLUDE[d365fin](includes/d365fin_md.md)], consultez [Fonctionnalités d'entreprise](across-business-functionality.md).
 

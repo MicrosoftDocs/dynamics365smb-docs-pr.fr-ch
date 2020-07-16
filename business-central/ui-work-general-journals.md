@@ -7,14 +7,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
+ms.date: 06/10/2020
 ms.author: sgroespe
-ms.openlocfilehash: 424951481336855c5142016dbc9409c96c51dbf3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 37a69940d6b449a779a6bf8fb9d9729c99aa9ea4
+ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189378"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454446"
 ---
 # <a name="working-with-general-journals"></a>Utilisation de feuilles comptabilité
 
@@ -41,6 +41,9 @@ Pour chaque modèle feuille, vous pouvez configurer votre propre feuille personn
 
 > [!TIP]  
 > Si vous cochez la case **Suggérer le montant contrepartie** de la ligne pour votre nom feuille sur la page **Noms feuilles comptabilité**, le champ **Montant** dans, par exemple, les lignes feuille comptabilité pour le même numéro de document est automatiquement prérempli avec la valeur nécessaire à la contrepartie dans le document. Pour plus d'informations, voir [Laisser [!INCLUDE[d365fin](includes/d365fin_md.md)] suggérer des valeurs](ui-let-system-suggest-values.md).
+
+> [!TIP]
+> Pour ajouter ou supprimer des champs dans des journaux, utilisez la bannière **Personnalisation**. Pour plus d'informations, voir [Personnaliser votre espace de travail](ui-personalization-user.md).
 
 ## <a name="understanding-main-accounts-and-balancing-accounts"></a>Compte principaux et comptes contrepartie
 Si vous avez configuré des comptes contrepartie par défaut pour les feuilles sur la page **Feuilles comptabilité**, le compte contrepartie sera renseigné automatiquement lorsque vous renseignez le champ **Numéro du compte**. Sinon, renseignez manuellement les champs **Numéro du compte** et **N° compte contrepartie**. Un montant positif dans le champ **Montant** est débité du compte principal et crédité dans le compte contrepartie. Un montant négatif est crédité sur le compte principal et débité du compte contrepartie.
@@ -161,8 +164,15 @@ Les valeurs dans le champ **N° document** sont modifiées, le cas échéant, po
 ## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/use-journals-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Voir aussi
+
 [Valider les transactions directement vers la comptabilité](finance-how-post-transactions-directly.md)  
-[Inversion d'une validation feuille et annuler les réceptions/envois](finance-how-reverse-journal-posting.md)  
+[Contrepasser une validation feuille et annuler les réceptions/envois](finance-how-reverse-journal-posting.md)  
 [Répartition des coûts et du revenu](year-allocate-costs-income.md)  
 [Finances](finance.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Clôturer les écritures comptables article ouvertes qui résultent d'un lettrage fixe dans la feuille article](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
+[Réévaluer le stock dans la Feuille réévaluation](inventory-how-revalue-inventory.md)  
+[Comptabiliser, ajuster et reclasser le stock avec les feuilles](inventory-how-count-adjust-reclassify.md)  
+[Rapprocher des paiements clients avec la Feuille règlement ou les Écritures comptables client](receivables-how-apply-sales-transactions-manually.md)  
+[Rapprocher des paiements fournisseur avec la feuille paiement ou à partir des écritures comptables fournisseur](payables-how-apply-purchase-transactions-manually.md)  
+[Utiliser les documents et les feuilles intersociétés](intercompany-how-work-documents-journals.md)  

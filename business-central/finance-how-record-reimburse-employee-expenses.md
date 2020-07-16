@@ -1,8 +1,6 @@
 ---
 title: Enregistrer et rembourser les frais personnels des salariés pour les activités commerciales | Microsoft Docs
 description: Validez les dépenses des employés avec la feuille comptabilité sur le compte de l'employé et validez par la suite un paiement sur le compte bancaire de l'employé pour rembourser les frais liés à l'entreprise.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,22 +8,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.date: 04/01/2020
+ms.date: 06/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: 5f943006997e4735d4ec224957442f23e2af1324
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 9d2ba275d747ced6f4c3adbd642f45d5ed33d8d1
+ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184091"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3503534"
 ---
 # <a name="record-and-reimburse-employees-expenses"></a>Enregistrer et rembourser les frais des employés
+
 [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge les transactions des employés de la même manière que pour les fournisseurs. Par conséquent, les groupes comptabilisation des salariés existent pour s'assurer que les écritures comptables d'un salarié sont validées dans les comptes appropriés de la comptabilité.
 
 > [!NOTE]  
 > Les transactions des employés ne peuvent être validées que dans la devise société. Les paiements de remboursement aux employés ne prennent pas en charge les remises et les écarts de règlement.
 
-Si les salariés dépensent leur propre argent pendant les activités commerciales, vous pouvez valider les frais sur le compte du salarié. Vous pouvez ensuite rembourser le salarié en faisant un paiement sur le compte bancaire du salarié, de la même façon que vous payez des fournisseurs.
+Si les salariés dépensent leur propre argent pendant les activités commerciales, vous pouvez valider les frais sur le compte du salarié. Vous pouvez ensuite rembourser le salarié en faisant un paiement sur le compte bancaire du salarié, de la même façon que vous payez des fournisseurs.  
+
+> [!TIP]
+> Cet article explique comment enregistrer les frais dans les livres et comment rembourser l'employé. Votre organisation peut avoir un portail ou une application où les employés peuvent soumettre leurs notes de frais.
 
 ## <a name="to-record-an-employees-expense"></a>Pour enregistrer les frais des salariés
 Validez les frais salarié sur la page **Feuille comptabilité**.

@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/25/2020
 ms.author: sgroespe
-ms.openlocfilehash: a83a6aa09ecfd6bb6ae459096707d0fbb5ff234f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6fd4091a921c519c82e43bce868181bb77b66caf
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189834"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528928"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Procédure pas à pas : gestion des projets
 
-**Remarque** : Ce guide pas-à-pas doit être effectué sur une société de démonstration avec l'option **Évaluation complète - Renseigner des exemples de données**, disponible dans l'environnement sandbox. Pour plus d’informations, voir [Création d'un environnement Sandbox](across-how-create-sandbox-environment.md).
+[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
 
 Cette procédure pas-à-pas présente les fonctionnalités de gestion de projets dans les projets. Les projets vous permettent de planifier l'utilisation des ressources de votre société et de suivre les différents coûts associés à l'utilisation des ressources sur un projet spécifique. Les projets impliquent la consommation d'heures salarié, d'heures machines, d'articles en stock et d'autres types d'activité pouvant faire l'objet d'un suivi au fur et à mesure de l'avancée du projet.  
 

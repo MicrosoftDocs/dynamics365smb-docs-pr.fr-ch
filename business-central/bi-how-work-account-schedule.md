@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1f150535e8d3441bddd0144b14592592f405b201
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 458576ac91955d4f98036dbc9f1253f199f9ac00
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186035"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528953"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Préparer la génération d'états financiers avec des tableaux d'analyse et des catégories de compte
 Utilisez les tableaux d'analyse pour obtenir un aperçu des données financières enregistrées dans votre plan comptable. Les tableaux d'analyse analysent les chiffres des comptes généraux et comparent les écritures comptables et les écritures comptables budget. Les résultats s'affichent dans les graphiques de votre tableau de bord, comme le graphique Trésorerie, et dans les états, comme les états Comptes de gestion et Bilan.
@@ -71,7 +71,7 @@ Les présentations de colonne vous permettent de définir les colonnes devant ê
 > Une version imprimée/aperçu/enregistrée du tableau d'analyse peut afficher un maximum de cinq colonnes. Si le tableau d'analyse est uniquement destiné pour l'analyse de la page **Aperçu tableau d'analyse**, vous pouvez créer autant de colonnes que vous le souhaitez.
 
 1. Sur la page **Tableaux d'analyse**, sélectionnez le tableau d'analyse approprié, puis cliquez sur l'action **Modifier paramètres présentation colonne**.
-2. Sur la page **Présentations colonne**, créez une ligne pour chaque colonne en fonction de laquelle les données financières sont affichées dans l'état financier. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Sur la page **Présentations colonne**, créez une ligne pour chaque colonne en fonction de laquelle les données financières sont affichées dans l'état financier. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Choisissez le bouton **OK**.
 4. Ouvrez la page **Aperçu tableau d'analyse** de temps en temps pour vérifier que la nouvelle présentation de colonne fonctionne comme prévu.
 

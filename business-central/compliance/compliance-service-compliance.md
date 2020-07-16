@@ -12,12 +12,12 @@ ms.search.keywords: ''
 ms.reviewer: edupont
 ms.date: 04/01/2020
 ms.author: soalex
-ms.openlocfilehash: 769764f94ba887552b6b23c62c0ddad3c876fda9
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c64d93769cd2c824cdad54df8ddb3de5e9004f81
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185933"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528350"
 ---
 # <a name="service-compliance"></a>Conformité des services
 Ce contenu comprend des informations sur la conformité des services concernant [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
@@ -30,7 +30,7 @@ Si vous êtes intéressé par la liste complète des offres de conformité de Mi
 
 ## <a name="service-terms"></a>Conditions d'utilisation
 
-[!INCLUDE [prodshort](../includes/prodshort.md)] en ligne est régi par la [Politique de cycle de vie moderne](https://support.microsoft.com/help/30881/modern-lifecycle-policy). Les conditions du contrat de niveau de service sont décrites dans le document que vous pouvez télécharger à partir de la section **Contrats de niveau de service pour Microsoft Online Services** sur la page [Termes du contrat de licence](https://www.microsoft.com/licensing/product-licensing/products).  
+[!INCLUDE[prodshort](../includes/prodshort.md)] en ligne est régi par la [Politique de cycle de vie moderne](https://support.microsoft.com/help/30881/modern-lifecycle-policy). Les conditions du contrat de niveau de service sont décrites dans le document que vous pouvez télécharger à partir de la section **Contrats de niveau de service pour Microsoft Online Services** sur la page [Termes du contrat de licence](https://www.microsoft.com/licensing/product-licensing/products).  
 
 En outre, vous pouvez surveiller la santé de votre locataire et spécifier des périodes de mise à niveau dans [Centre d'administration des locataires](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
 

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: multiple currencies
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9802821985550668d460aa3213c9fb64764169c0
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 34d1c9d1f61f2ab89d58d0c3f4a8c512fe6ea0f1
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183563"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528853"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Configurer une devise report supplémentaire
 Les sociétés opérant dans un nombre croissant de pays/régions, il est de plus en plus important qu'elles puissent consulter et générer des états de données financiers dans plusieurs devises.
@@ -103,7 +103,7 @@ Pour chaque compte général, vous devez spécifier la manière dont les montant
 5. Le traitement par lots **Ajuster devise report** s'ouvre.
 
     Ce traitement par lots convertit les montants en devise société des écritures existantes en devise report. Le traitement par lots utilise un taux de change par défaut copié à partir du taux de change, qui est valide à la date de travail sur la page **Taux de change devise**. Les montants résiduels qui résultent d'une conversion de DS en devise report sont validés dans les comptes de gains et pertes résiduels spécifiés sur la page **Devises**. La date de comptabilisation et le numéro de document pour ces écritures sont les mêmes que pour l'écriture comptable originale. Une fois toutes ces écritures résiduelles validées, le traitement par lots valide une écriture arrondie à la date de clôture de chaque exercice clôturé dans le compte de bénéfices non répartis. Cela résulte de la nécessité de s'assurer que le solde de clôture des comptes produit pour chaque exercice clôturé est 0 tant en DS que dans la devise report.
-6. Renseignez les champs selon vos besoins. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]      
+6. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]      
 7. Pour lancer le traitement par lots, cliquez sur le bouton **OK**.  
 
 Après exécution du traitement par lots, les montants des écritures existantes suivantes sont exprimés en DS et dans la devise report :  

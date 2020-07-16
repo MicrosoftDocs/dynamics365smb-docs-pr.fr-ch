@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: feature overview
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: b54c72614eb3e55d7cc93a0f3f9587f47e0b29d3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 5bdc19028a6859d1bee795de766416ada535b474
+ms.sourcegitcommit: 1ab077a024fa71d97ac70e4b36cc218b7ca66509
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188784"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "3499531"
 ---
 # <a name="business-functionality"></a>Fonctionnalités d'entreprise
 [!INCLUDE[d365fin](includes/d365fin_md.md)] fournit des fonctionnalités pour les processus entreprise communs dans des PME, surtout au sein de sociétés de vente en gros et de services professionnels. Toutefois, des processus plus complexes, comme l'assemblage, la fabrication, la maintenance et la gestion d'entrepôt suggérée sont également pris en charge.
@@ -43,6 +43,8 @@ ms.locfileid: "3188784"
 |Enregistrez des documents externes dans [!INCLUDE[d365fin](includes/d365fin_md.md)], ainsi que leurs fichiers joints, puis créez manuellement des documents connexes ou convertissez automatiquement les fichiers en documents électroniques.|[Documents entrants](across-income-documents.md)|
 
 ## <a name="see-also"></a>Voir aussi
+
+[Explorer les fonctionnalités de Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/)  
 [Administration](admin-setup-and-administration.md)  
 [Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Mise en route](product-get-started.md)  

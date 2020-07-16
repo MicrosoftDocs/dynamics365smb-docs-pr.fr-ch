@@ -11,12 +11,12 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 04/01/2020
 ms.author: bmeier
-ms.openlocfilehash: 0625197f9feb0c12daa45b183973316df52b0672
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 59ea09440624f2311d69b0c1657de4d9fc420826
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186911"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528603"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Activation de vos données commerciales pour Power BI
 
@@ -27,13 +27,13 @@ Vous devez disposer d'un compte valide avec [!INCLUDE[prodshort](includes/prodsh
 > [!IMPORTANT]
 > Les applications Power BI décrites dans cet article sont conçues pour utiliser Azure Active Directory comme mécanisme d'authentification sauf indication contraire. De plus, vous devez disposer d'une [Licence Power BI Pro](/power-bi/service-features-license-type) pour partager votre contenu, tout comme les personnes avec qui vous le partagez, ou le contenu doit être dans un espace de travail dans une [Capacité Premium](/power-bi/service-premium-what-is). Pour en savoir plus, consultez [Moyens de partager votre travail dans Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
 
-[!INCLUDE [prodlong](includes/prodlong.md)] a publié les applications suivantes pour Power BI:
+[!INCLUDE[prodlong](includes/prodlong.md)] a publié les applications suivantes pour Power BI:
 
-- [!INCLUDE [prodlong](includes/prodlong.md)] - CRM  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Finance  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Sales  
+- [!INCLUDE[prodlong](includes/prodlong.md)] - CRM  
+- [!INCLUDE[prodlong](includes/prodlong.md)] - Finance  
+- [!INCLUDE[prodlong](includes/prodlong.md)] - Sales  
 
-## <a name="using-the-prodshort-dashboards-in-power-bi"></a>Utilisation des tableaux de bord [!INCLUDE [prodshort](includes/prodshort.md)] dans Power BI
+## <a name="using-the-prodshort-dashboards-in-power-bi"></a>Utilisation des tableaux de bord [!INCLUDE[prodshort](includes/prodshort.md)] dans Power BI
 
 Chaque application contient des états que vous pouvez afficher :
 
@@ -42,7 +42,7 @@ Chaque application contient des états que vous pouvez afficher :
 - Épinglez cette vue personnalisée au tableau de bord pour continuer à effectuer le suivi.  
   Vous pouvez actualiser les données manuellement, et vous pouvez configurer un programme d'actualisation. Pour plus d'informations, voir [Configuration d'une actualisation planifiée](/power-bi/refresh-scheduled-refresh).  
 
-Les applications sont conçues pour fonctionner avec les données de toute société de votre [!INCLUDE[prodshort](includes/prodshort.md)]. Lorsque vous installez l'application Power BI, spécifiez un ou plusieurs paramètres à connecter à votre [!INCLUDE [prodshort](includes/prodshort.md)].  
+Les applications sont conçues pour fonctionner avec les données de toute société de votre [!INCLUDE[prodshort](includes/prodshort.md)]. Lorsque vous installez l'application Power BI, spécifiez un ou plusieurs paramètres à connecter à votre [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 > [!NOTE]
 > Vous pouvez également générer vos propres états et tableaux de bord dans Power BI selon vos données [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, voir [Connexion de vos données métier à Power BI](across-how-use-financials-data-source-powerbi.md).  
@@ -54,7 +54,7 @@ Les applications sont conçues pour fonctionner avec les données de toute soci�
 
     ![Naviguer pour obtenir des données](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
 
-    Vous pouvez également démarrer depuis [!INCLUDE [prodshort](includes/prodshort.md)]. Depuis votre page d'accueil, accédez à **Sélection des états** dans la section Power BI. Sélectionnez **Service** ou **Mon organisation** dans le ruban. Lorsque l'une de ces actions est sélectionnée, vous arrivez dans la galerie Organisation de Power BI ou dans Microsoft AppSource, qui sera également filtrée pour afficher uniquement les applications associées à [!INCLUDE[prodshort](includes/prodshort.md)].
+    Vous pouvez également démarrer depuis [!INCLUDE[prodshort](includes/prodshort.md)]. Depuis votre page d'accueil, accédez à **Sélection des états** dans la section Power BI. Sélectionnez **Service** ou **Mon organisation** dans le ruban. Lorsque l'une de ces actions est sélectionnée, vous arrivez dans la galerie Organisation de Power BI ou dans Microsoft AppSource, qui sera également filtrée pour afficher uniquement les applications associées à [!INCLUDE[prodshort](includes/prodshort.md)].
 
 3. Dans la zone **Services**, sélectionnez **Extraire**. Une page s'ouvre et affiche **AppSource** et **Applications pour Power BI**.  
 
@@ -64,7 +64,7 @@ Les applications sont conçues pour fonctionner avec les données de toute soci�
 5. Lorsque vous y êtes invité(e), entrez le nom de l'environnement et de la société dans votre application [!INCLUDE[prodshort](includes/prodshort.md)] à laquelle vous souhaitez vous connecter. Si vous n'avez pas créé plusieurs environnements, entrez **Production**. Pour le paramètre company, assurez-vous d'entrer le nom et non le nom complet. Vous pourrez trouver le nom de la société dans la page **Sociétés** de votre instance [!INCLUDE[prodshort](includes/prodshort.md)].  
 
     > [!NOTE]
-    > Si vous vous connectez à [!INCLUDE [prodshort](includes/prodshort.md)] sur site, vous devez spécifier le paramètre *URL du service Web*. Trouvez ceci sur la page **Services Web** dans [!INCLUDE [prodshort](includes/prodshort.md)]. Votre instance [!INCLUDE [server](includes/server.md)] doit être configurée pour l'authentification de base et vous devez spécifier un utilisateur et la clé d'accès Web de cet utilisateur comme mot de passe. Dans l'exemple suivant, remplacez *myserver :7048* par votre nom [!INCLUDE [server](includes/server.md)] et *CRONUS%20US* par le nom de votre société.  
+    > Si vous vous connectez à [!INCLUDE[prodshort](includes/prodshort.md)] sur site, vous devez spécifier le paramètre *URL du service Web*. Trouvez ceci sur la page **Services Web** dans [!INCLUDE[prodshort](includes/prodshort.md)]. Votre instance [!INCLUDE[server](includes/server.md)] doit être configurée pour l'authentification de base et vous devez spécifier un utilisateur et la clé d'accès Web de cet utilisateur comme mot de passe. Dans l'exemple suivant, remplacez *myserver :7048* par votre nom [!INCLUDE[server](includes/server.md)] et *CRONUS%20US* par le nom de votre société.  
     > ```https://myserver:7048/BC140/ODataV4/Company('CRONUS%20US')/```
 
 6. Une fois connecté(e), un tableau de bord et des états sont ajoutés à votre espace de travail Power BI. Une fois terminé, les mosaïques affichent les données de votre société [!INCLUDE[prodshort](includes/prodshort.md)].
@@ -78,18 +78,18 @@ Les applications sont conçues pour fonctionner avec les données de toute soci�
 - [Sélectionnez une mosaïque](/power-bi/service-dashboard-tiles) pour ouvrir l'état sous-jacent.  
 - Par défaut, votre ensemble de données n'est pas planifié pour être actualisé. Vous pouvez modifier le calendrier d'actualisation ou essayer de l'actualiser à la demande à l'aide de **Actualiser maintenant**. Pour plus d'informations, voir [Configuration d'une actualisation planifiée](/power-bi/refresh-scheduled-refresh).
 
-## <a name="power-bi-in-prodshort"></a>Power BI dans [!INCLUDE [prodshort](includes/prodshort.md)]
+## <a name="power-bi-in-prodshort"></a>Power BI dans [!INCLUDE[prodshort](includes/prodshort.md)]
 
-Votre page d'accueil dans [!INCLUDE [prodshort](includes/prodshort.md)] peut inclure un élément de contrôle Power BI pouvant être configuré pour afficher les états Power BI sur votre page d'accueil.
+Votre page d'accueil dans [!INCLUDE[prodshort](includes/prodshort.md)] peut inclure un élément de contrôle Power BI pouvant être configuré pour afficher les états Power BI sur votre page d'accueil.
 
 > [!IMPORTANT]
-> Vous devez disposer d'un compte valide avec [!INCLUDE [prodshort](includes/prodshort.md)] et avec Power BI. De plus, si vous souhaitez modifier des états, vous devez télécharger Power BI Desktop. Pour plus d'informations, voir [Utilisation de Business Central en tant que source de données Power BI](across-how-use-financials-data-source-powerbi.md).  
+> Vous devez disposer d'un compte valide avec [!INCLUDE[prodshort](includes/prodshort.md)] et avec Power BI. De plus, si vous souhaitez modifier des états, vous devez télécharger Power BI Desktop. Pour plus d'informations, voir [Utilisation de Business Central en tant que source de données Power BI](across-how-use-financials-data-source-powerbi.md).  
 
 ### <a name="on-first-login"></a>À la première connexion
 
-Quand vous vous connectez pour la première fois à [!INCLUDE [prodshort](includes/prodshort.md)], vous remarquerez une partie Power BI vide sur votre page d'accueil. Pour voir les états, vous devez d’abord vous connecter à Power BI en sélectionnant le lien *Mise en route avec Power BI*.
+Quand vous vous connectez pour la première fois à [!INCLUDE[prodshort](includes/prodshort.md)], vous remarquerez une partie Power BI vide sur votre page d'accueil. Pour voir les états, vous devez d’abord vous connecter à Power BI en sélectionnant le lien *Mise en route avec Power BI*.
 
-[!INCLUDE [prodshort](includes/prodshort.md)], puis communique avec le service Power BI pour déterminer si vous avez un compte Power BI valide. Une fois votre licence vérifiée, les états Power BI par défaut s'affichent sur votre page d'accueil.
+[!INCLUDE[prodshort](includes/prodshort.md)], puis communique avec le service Power BI pour déterminer si vous avez un compte Power BI valide. Une fois votre licence vérifiée, les états Power BI par défaut s'affichent sur votre page d'accueil.
 
 ### <a name="selecting-power-bi-reports"></a>Sélection des états Power BI
 
@@ -115,11 +115,11 @@ Revenez au tableau de bord et l'état mis à jour apparaîtra. Si vous avez effe
 
 ### <a name="uploading-reports"></a>Téléchargement d'états
 
-Vous pouvez télécharger de nouveaux états Power BI et les partager avec tous les utilisateurs de votre [!INCLUDE [prodshort](includes/prodshort.md)]. Les états sont partagés au sein de chaque société dans [!INCLUDE [prodshort](includes/prodshort.md)].  
+Vous pouvez télécharger de nouveaux états Power BI et les partager avec tous les utilisateurs de votre [!INCLUDE[prodshort](includes/prodshort.md)]. Les états sont partagés au sein de chaque société dans [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 Pour télécharger un état, sélectionnez l'action **Télécharger l’état** dans la liste déroulante des commandes. Vous pouvez ensuite télécharger un fichier .pbix qui définit les états que vous souhaitez partager. Vous pouvez modifier le nom par défaut du fichier.  
 
-Une fois l'état téléchargé dans votre espace de travail Power BI, il est automatiquement chargé dans les espaces de travail Power BI de tous les autres utilisateurs de cette société lors de leur prochaine connexion à [!INCLUDE [prodshort](includes/prodshort.md)].
+Une fois l'état téléchargé dans votre espace de travail Power BI, il est automatiquement chargé dans les espaces de travail Power BI de tous les autres utilisateurs de cette société lors de leur prochaine connexion à [!INCLUDE[prodshort](includes/prodshort.md)].
 
 ## <a name="system-requirements"></a>Configuration système requise
 
@@ -145,7 +145,7 @@ Pour importer les données [!INCLUDE[prodshort](includes/prodshort.md)] dans Pow
 - Étiquettes d'état Power BI
 
 > [!NOTE]
-> [!INCLUDE [prodshort](includes/prodshort.md)] sur site utilise les mêmes points de terminaison de service Web que [!INCLUDE [prodshort](includes/prodshort.md)] en ligne.
+> [!INCLUDE[prodshort](includes/prodshort.md)] sur site utilise les mêmes points de terminaison de service Web que [!INCLUDE[prodshort](includes/prodshort.md)] en ligne.
 
 ## <a name="web-services"></a>Services web
 
@@ -163,7 +163,7 @@ Aucun compte Power BI n'a été créé. Afin d'avoir un compte Power BI valide, 
 
 Ce message apparaîtra si l'état par défaut n’a pas été déployé sur votre espace de travail Power BI ou s'il a été déployé mais que l’actualisation n’a pas réussi. Si cela se produit, accédez à l'état dans votre espace de travail Power BI, sélectionnez **Ensemble de données**, **Paramètres**, puis mettez à jour les informations d'identification manuellement. Une fois le jeu de données actualisé, revenez dans Business Central et sélectionnez manuellement l'état dans la page **Sélectionner des états**.
 
-### <a name="you-need-a-power-bi-pro-license-to-install-the-prodshort-app-in-power-bi"></a>Vous devez disposer d'une licence Power BI Pro pour installer l'application [!INCLUDE [prodshort](includes/prodshort.md)] dans Power BI
+### <a name="you-need-a-power-bi-pro-license-to-install-the-prodshort-app-in-power-bi"></a>Vous devez disposer d'une licence Power BI Pro pour installer l'application [!INCLUDE[prodshort](includes/prodshort.md)] dans Power BI
 
 Vous devez disposer d'une [Licence Power BI Pro](/power-bi/service-features-license-type) pour partager votre contenu, tout comme les personnes avec qui vous le partagez, ou le contenu doit être dans un espace de travail dans une [Capacité Premium](/power-bi/service-premium-what-is). Pour en savoir plus, consultez [Moyens de partager votre travail dans Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).  
 
@@ -171,17 +171,17 @@ Vous devez disposer d'une [Licence Power BI Pro](/power-bi/service-features-lice
 
 Cette erreur indique qu'un ou plusieurs paramètres ne sont pas valides.
 
-- Le paramètre d'environnement spécifié ne correspond à aucun environnement de production ou sandbox [!INCLUDE [prodshort](includes/prodshort.md)] existant.
-- Le paramètre de société spécifié ne correspond à aucune société [!INCLUDE [prodshort](includes/prodshort.md)] existante. Vérifiez le nom de la société dans la page **Sociétés** dans [!INCLUDE [prodshort](includes/prodshort.md)].
-- Si vous vous connectez à [!INCLUDE [prodshort](includes/prodshort.md)] sur site. vous avez entré une URL non valide. Vous pouvez vérifier l’URL sur la page **Services Web** dans [!INCLUDE [prodshort](includes/prodshort.md)]  
+- Le paramètre d'environnement spécifié ne correspond à aucun environnement de production ou sandbox [!INCLUDE[prodshort](includes/prodshort.md)] existant.
+- Le paramètre de société spécifié ne correspond à aucune société [!INCLUDE[prodshort](includes/prodshort.md)] existante. Vérifiez le nom de la société dans la page **Sociétés** dans [!INCLUDE[prodshort](includes/prodshort.md)].
+- Si vous vous connectez à [!INCLUDE[prodshort](includes/prodshort.md)] sur site. vous avez entré une URL non valide. Vous pouvez vérifier l’URL sur la page **Services Web** dans [!INCLUDE[prodshort](includes/prodshort.md)]  
 - Un port n'est pas ouvert pour permettre à la demande de passer par votre pare-feu.
 
 ### <a name="cannot-sign-in"></a>Connexion impossible
 
-Si vous obtenez un message d'erreur de type échec après avoir utilisé vos informations d'identification utilisateur [!INCLUDE [prodshort](includes/prodshort.md)] pour vous connecter, vous rencontrez peut-être l'un des problèmes suivants :
+Si vous obtenez un message d'erreur de type échec après avoir utilisé vos informations d'identification utilisateur [!INCLUDE[prodshort](includes/prodshort.md)] pour vous connecter, vous rencontrez peut-être l'un des problèmes suivants :
 
-- Le compte que vous utilisez n'est pas doté des autorisations nécessaires pour récupérer les données [!INCLUDE [prodshort](includes/prodshort.md)] de votre compte. Vérifiez que vous disposez des autorisations pour les données requises dans [!INCLUDE [prodshort](includes/prodshort.md)] et réessayez.
-- Vous avez sélectionné un type d'authentification autre que Basique si vous vous connectez à [!INCLUDE [prodshort](includes/prodshort.md)] sur site.
+- Le compte que vous utilisez n'est pas doté des autorisations nécessaires pour récupérer les données [!INCLUDE[prodshort](includes/prodshort.md)] de votre compte. Vérifiez que vous disposez des autorisations pour les données requises dans [!INCLUDE[prodshort](includes/prodshort.md)] et réessayez.
+- Vous avez sélectionné un type d'authentification autre que Basique si vous vous connectez à [!INCLUDE[prodshort](includes/prodshort.md)] sur site.
 - Vous n'avez pas entré de nom d'utilisateur ni de mot de passe valide.
 
 ### <a name="incorrect-company-name"></a>Nom de société incorrect
@@ -198,7 +198,7 @@ Une fois que l'application Power BI est installée et que vos données apparaiss
 
 ### <a name="i-only-see-data-for-a-single-company"></a>Je ne vois que des données pour une seule société
 
-L'application Power BI affichera uniquement les données de la société [!INCLUDE [prodshort](includes/prodshort.md)] qui a été définie lorsque l'application Power BI a été installée. Les données provenant d'autres sociétés peuvent être ajoutées aux états en ajoutant de nouvelles requêtes utilisant différentes sociétés en tant que source de données.  
+L'application Power BI affichera uniquement les données de la société [!INCLUDE[prodshort](includes/prodshort.md)] qui a été définie lorsque l'application Power BI a été installée. Les données provenant d'autres sociétés peuvent être ajoutées aux états en ajoutant de nouvelles requêtes utilisant différentes sociétés en tant que source de données.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 

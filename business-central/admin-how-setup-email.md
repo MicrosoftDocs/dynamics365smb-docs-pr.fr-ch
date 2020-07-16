@@ -1,7 +1,6 @@
 ---
 title: Paramétrer la messagerie dans Business Central | Microsoft Docs
 description: Décrit l'utilisation du serveur SMTP de la société pour envoyer et recevoir des e-mails dans Business Central. Décrit également comment utiliser les paramètres du serveur de messagerie créés lors de l'abonnement à Office 365.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -9,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 04/01/2020
+ms.date: 06/15/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9ece89b1d797d31a99c92f1bb292280b7f54ab7b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 36f9c561cd2bde8256e9bbb9694c89cd780b67ad
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187283"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528402"
 ---
 # <a name="set-up-email"></a>Configurer la messagerie
+
 Pour recevoir et envoyer des e-mails dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous devez renseigner les champs sur la page **Paramétrage courrier SMTP**.
 
 Au lieu de saisir les détails du serveur SMTP manuellement, vous pouvez utiliser la fonction **Appliquer les paramètres de serveur Office 365** pour les saisir à l'aide des informations de votre abonnement Office 365.
@@ -26,6 +26,7 @@ Au lieu de saisir les détails du serveur SMTP manuellement, vous pouvez utilise
 Vous pouvez configurer la messagerie manuellement, comme décrit ci-dessous, ou vous faire aider du guide de configuration assistée **Paramétrage d'e-mail**. Pour plus d'informations, voir [Préparation aux activités commerciales](ui-get-ready-business.md).  
 
 ## <a name="to-set-up-email"></a>Pour configurer la messagerie
+
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramétrage courrier SMTP**, puis sélectionnez le lien associé.
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -36,6 +37,7 @@ Vous pouvez configurer la messagerie manuellement, comme décrit ci-dessous, ou 
 5. Une fois le test réussi, fermez la page.
 
 ## <a name="using-a-substitute-sender-address-on-outbound-email-messages"></a>Utilisation d'une adresse d'expéditeur de remplacement pour les courriers électroniques sortants
+
 Tous les e-mails sortants de [!INCLUDE[d365fin](includes/d365fin_md.md)] utiliseront l'adresse par défaut du compte que vous avez spécifié sur la page Paramétrage courrier SMTP, comme décrit ci-dessus. Vous pouvez cependant utiliser les fonctionnalités **Envoyer en tant que** ou **Envoyer de la part de** sur votre serveur Exchange pour modifier l’adresse de l’expéditeur dans les messages sortants. [!INCLUDE[d365fin](includes/d365fin_md.md)] utilisera le compte par défaut pour s'authentifier auprès de Exchange, mais remplacera l'adresse de l'expéditeur par celle que vous spécifiez ou la modifiera avec "pour le compte de".
 
 Voici des exemples d'utilisation des fonctionnalités Envoyer en tant que et Envoyer de la part de dans [!INCLUDE[d365fin](includes/d365fin_md.md)] :
@@ -54,6 +56,7 @@ Voici des exemples d'utilisation des fonctionnalités Envoyer en tant que et Env
 5. Dans le **Centre d'administration Exchange**, recherchez la boîte aux lettres à utiliser en tant qu'adresse de substitution, puis entrez l'adresse à partir du champ **ID utilisateur** dans le champ **Envoyer en tant que**. Pour plus d'informations, voir [Utiliser l'EAC pour attribuer des autorisations à des boîtes aux lettres individuelles](/Exchange/recipients/mailbox-permissions?view=exchserver-2019#use-the-eac-to-assign-permissions-to-individual-mailboxes).
 
 ### <a name="to-use-the-substitute-address-in-approval-workflows"></a>Pour utiliser l'adresse de substitution dans les flux de travaux d'approbation
+
 1. Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramétrage courrier SMTP**, puis sélectionnez le lien associé.
 2. Copiez ou notez l'adresse dans le champ **ID utilisateur**.
 3. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres utilisateur approbation**, puis sélectionnez le lien associé.
@@ -64,6 +67,13 @@ Voici des exemples d'utilisation des fonctionnalités Envoyer en tant que et Env
 > [!Note]
 > [!INCLUDE[d365fin](includes/d365fin_md.md)] déterminera quelle adresse afficher dans l'ordre suivant : <br><br> 1. L'adresse spécifiée dans le champ **E-mail** sur la page **Paramètres utilisateur approbation** pour les messages dans un flux de travail. <br> 2. L'adresse spécifiée dans le champ **Envoyer en tant que** sur la page **Paramétrage courrier SMTP**. <br> 3. L'adresse spécifiée dans le champ **ID utilisateur** sur la page **Paramétrage courrier SMTP**.
 
+## <a name="set-up-public-folders-and-rules-for-email-logging-in-exchange-online"></a>Configurer les dossiers publics et les règles de connexion à la messagerie dans Exchange Online
+
+Tirez le meilleur parti des communications entre les vendeurs et vos clients existants ou potentiels en suivant les échanges de courriers électroniques, puis en les transformant en opportunités exploitables. Pour plus d'informations, voir [Suivre les échanges de messages électroniques entre les vendeurs et les contacts](marketing-set-up-email-logging.md).  
+
+[!INCLUDE[admin-setup-email-public-folder](includes/admin-setup-email-public-folder.md)]
+
+Ensuite, vous connectez [!INCLUDE[prodshort](includes/prodshort.md)] à Exchange Online. Pour plus d'informations, voir [Suivre les échanges de messages électroniques entre les vendeurs et les contacts](marketing-set-up-email-logging.md).  
 
 ## <a name="see-also"></a>Voir aussi
 

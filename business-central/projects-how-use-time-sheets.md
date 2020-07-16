@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
-ms.date: 04/01/2020
+ms.date: 06/22/2020
 ms.author: sgroespe
-ms.openlocfilehash: 3bc9a348dba8b9265730dd2723b045a10809139b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 36405d80a021e6d3675a20c0283421c49aabd23b
+ms.sourcegitcommit: 1ab077a024fa71d97ac70e4b36cc218b7ca66509
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191106"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "3499581"
 ---
 # <a name="use-time-sheets-for-jobs"></a>Utiliser des feuilles de temps pour des projets
+
 Vous devez utiliser le traitement par lots **Créer des feuilles de temps** pour configurer des feuilles de temps pour un nombre donné de périodes ou de semaines. Vous devez disposer d'autorisations pour pouvoir créer des feuilles de temps.
 
 Vous pouvez copier et utiliser vos lignes planning projet dans une feuille de temps. Vous n'avez ainsi à entrer les informations qu'à un seul emplacement et les informations de ligne sont toujours correctes.
@@ -27,16 +28,16 @@ Une fois que vous avez approuvé les écritures des feuilles de temps d'un proje
 Avant de pouvoir utiliser des feuilles de temps, vous devez définir des informations générales et spécifier un administrateur et un ou plusieurs approbateurs de feuilles de temps. Pour plus d'informations, voir [Paramétrer des feuilles de temps](projects-how-setup-time-sheets.md).
 
 ## <a name="to-create-a-time-sheet"></a>Pour créer une feuille de temps
+
 Vous pouvez utiliser le traitement par lots **Créer des feuilles de temps** pour configurer des feuilles de temps pour un nombre donné de périodes ou de semaines. Une fois qu'une feuille de temps est créée, son propriétaire peut l'ouvrir et y enregistrer le temps consacré à une tâche.
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles de temps**, puis sélectionnez le lien associé.
 2. Sur la page **Liste des feuilles de temps**, cliquez sur l'action **Créer des feuilles de temps**.
 3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-> [!NOTE]  
->   Les champs **Utiliser la feuille de temps** et **ID utilisateur du propriétaire de la feuille de temps** doivent être renseignés sur la fiche de la ressource de la feuille de temps.
-
-1. Choisissez le bouton **OK**.  
+    > [!NOTE]  
+    > Les champs **Utiliser la feuille de temps** et **ID utilisateur du propriétaire de la feuille de temps** doivent être renseignés sur la fiche de la ressource de la feuille de temps.
+4. Choisissez le bouton **OK**.  
 
 Vous pouvez afficher les feuilles de temps que vous avez créées sur la page **Liste des feuilles de temps**.
 

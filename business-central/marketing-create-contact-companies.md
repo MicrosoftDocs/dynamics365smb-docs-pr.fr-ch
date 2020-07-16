@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 7a6be696756643496954b8ee0940efff7996f352
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 67b11d9c763ef4688af35a3f9cd83ee8c364fcee
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181619"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528452"
 ---
 # <a name="create-contacts"></a>Créez des contacts
 Vous rencontrez régulièrement des personnes d'autres sociétés, ce qui peut générer de nouvelles relations commerciales, comme une relation client. À la création d'un tel contact, il convient d'enregistrer le plus d'informations possible sur une fiche contact afin que la communication puisse se poursuivre.
@@ -37,7 +37,7 @@ La fonctionnalité est la même pour les deux types, hormis le fait que les opti
 3. Dans le champ **N°**, saisissez le numéro du contact.
 
     Si vous avez configuré une souche de numéros pour les contacts sur la page **Paramètres Marketing**, appuyez sur la touche Entrée pour insérer le numéro de contact suivant.  
-5. Renseignez les champs restants selon vos besoins. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. Renseignez les champs restants selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-create-a-contact-from-a-customer-vendor-or-bank-account"></a>Pour créer un contact à partir d'un client, d'un fournisseur ou d'un compte bancaire
 Si vous avez des clients, des fournisseurs, et des comptes bancaires pour lesquels vous souhaitez créer des fiches contact, vous pouvez utiliser les traitements par lots **Créer des contacts à partir** pour créer des contacts sur la base des données existantes. Lorsque vous créez un contact de cette façon, les informations de contact sont synchronisées ensuite avec les informations du client, du fournisseur ou du compte bancaire associé. Pour plus d'informations, reportez-vous à [Procédure de synchronisation des contacts avec les clients, les fournisseurs et les comptes bancaires](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).

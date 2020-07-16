@@ -8,12 +8,12 @@ ms.workload: na
 ms.search.keywords: projects
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1a9aea8ef63874b63bfd608d04b16dd3da4c7c35
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 05a41839035c271b1f3e8c94d76702f1384d5025
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190026"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529053"
 ---
 # <a name="project-management"></a>Gestion de projets
 Le module [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge les tâches de gestion courantes : configuration d'un projet, planification d'une ressource, spécification des informations nécessaires à la gestion des budgets et à la surveillance de la progression, etc. Vous pouvez suivre les heures machines et salariés sur le projet à l'aide de feuilles de temps. Il offre aux chefs de projet un aperçu pertinent des projets individuels, des affectations des employés, des machines et des autres ressources en cours d'utilisation dans le cadre des projets.
@@ -36,7 +36,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 
 ## <a name="get-started-with-projects"></a>Mise en route des projets
 
-La gestion des projets est suffisamment compliquée en elle-même et découvrir comment créer des projets et gérer le travail en cours dans un nouvel outil peut se révéler tout aussi complexe. Pour vous aider à mettre en route la gestion de projet dans [!INCLUDE [prodshort](includes/prodshort.md)], vous pouvez voir [une vidéo sur la création des projets](https://www.youtube.com/watch?v=VqaPWr7BWmw) sur le canal [!INCLUDE [prodshort](includes/prodshort.md)] YouTube.  
+La gestion des projets est suffisamment compliquée en elle-même et découvrir comment créer des projets et gérer le travail en cours dans un nouvel outil peut se révéler tout aussi complexe. Pour vous aider à mettre en route la gestion de projet dans [!INCLUDE[prodshort](includes/prodshort.md)], vous pouvez voir [une vidéo sur la création des projets](https://www.youtube.com/watch?v=VqaPWr7BWmw) sur le canal [!INCLUDE[prodshort](includes/prodshort.md)] YouTube.  
 
 ## <a name="see-also"></a>Voir aussi
 

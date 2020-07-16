@@ -1,8 +1,6 @@
 ---
 title: Informations sur la configuration de la gestion du marketing et des contacts| Microsoft Docs
 description: Vous pouvez configurer la gestion du marketing et des contacts dans Business Central pour optimiser les relations avec les prospects ou les clients, et améliorer des campagnes ou des promotions.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
-ms.date: 04/01/2020
+ms.date: 06/30/2020
 ms.author: sgroespe
-ms.openlocfilehash: 31d0b10e3876b82d07c90daad381f2cf73e45ee4
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 8fb9975508cccaeb0f5a0dec4d6e43db4df9fc14
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181235"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529153"
 ---
 # <a name="setting-up-relationship-management"></a>Paramétrage de la Gestion des relations
+
 Avant de commencer à travailler avec vos contacts et prospects marketing, vous devez prendre certaines décisions et accomplir certaines étapes afin de configurer la façon dont le module marketing gère certains aspects de vos contacts. Par exemple, vous pouvez décider de synchroniser la fiche contact avec la fiche client, la fiche fournisseur, ou la fiche compte bancaire, spécifier comment les souches de numéros sont définies, ou quelles sont les salutations standard lorsque vous écrivez à vos contacts.
 
 La gestion de vos contacts et la mise en place d'une stratégie visant à identifier, attirer et fidéliser les clients permet d'optimiser votre activité et d'accroître la satisfaction des clients. L'utilisation d'un système de gestion de contacts performant permet également de créer et de maintenir les relations avec vos clients. La communication est la clé de ces relations. Pour assurer la réussite de votre entreprise, il est nécessaire de personnaliser la communication avec les clients, fournisseurs et partenaires commerciaux potentiels et existants en fonction de leurs besoins spécifiques. La première étape consiste à établir une stratégie et à définir la manière dont votre société utilise les informations de contact. Dans la mesure où celles-ci seront consultées par de nombreux groupes différents de votre société, la mise en place d'un système performant permettra d'accroître la productivité.
@@ -48,7 +47,7 @@ Pour plus d'informations, reportez-vous à [Enregistrer automatiquement les inte
 ## <a name="synchronizing-contacts-with-customers-and-more"></a>Synchronisation des contacts avec les clients et autres
 Pour synchroniser la fiche contact avec la fiche client, la fiche fournisseur et la fiche compte bancaire, vous devez sélectionner un code relation d'affaires pour les clients, les fournisseurs et les comptes bancaires. Par exemple, vous ne pouvez lier un contact avec un client existant que si vous avez sélectionné un code relation d'affaires pour les clients sur la page **Paramètres marketing**.
 
-Pour plus d'informations, reportez-vous à [Procédure de synchronisation des contacts avec les clients, les fournisseurs et les comptes bancaires](marketing-synchronize-contacts-customers-vendors-bank-accounts/Synchronizing Contacts With Customers, Vendors, and Bank Accounts).
+Pour plus d'informations, reportez-vous à [Procédure de synchronisation des contacts avec les clients, les fournisseurs et les comptes bancaires](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).  
 
 ## <a name="assigning-a-number-series-to-contacts-and-opportunities"></a>Affectation d'une souche de numéros aux contacts et aux opportunités
 Vous pouvez configurer des souches de numéros pour les contacts et les opportunités. Si vous avez configuré une souche de numéros pour les contacts, lorsque vous créez un contact et que vous appuyez ensuite sur Entrée dans le champ N° de la fiche contact, l'application saisit automatiquement le numéro de contact suivant.

@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: ''
 ms.date: 05/19/2020
 ms.author: edupont
-ms.openlocfilehash: c9f12f2b15c379ad1f4765f1a20e773150f33b84
-ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
+ms.openlocfilehash: 9650539c44a464aab238914ca5d3d65cb8b5c0b8
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3402468"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528200"
 ---
 # <a name="publish-a-web-service"></a>Publier un service Web
 
@@ -39,7 +39,7 @@ Les étapes suivantes expliquent la procédure de création et de publication d'
 Lorsque vous publiez le service Web, dans les champs **URL OData** et **URL SOAP**, vous pouvez voir les URL générées pour le service Web. Vous pouvez tester le service Web immédiatement en choisissant les liens figurant dans les champs **URL OData** et **URL SOAP**. Éventuellement, vous pouvez copier la valeur du champ et pour l'enregistrer pour une utilisation ultérieure.  
 
 > [!NOTE]
-> Si les objets que vous exposez en tant que services Web ne doivent pas être accessibles depuis [!INCLUDE [prodshort](includes/prodshort.md)] en ligne, vous devez marquer les méthodes exposées dans le code comme `[Scope('OnPrem')]`. Pour plus d'informations, voir [Attribut de portée](/dynamics365/business-central/dev-itpro/developer/methods/devenv-scope-attribute).
+> Si les objets que vous exposez en tant que services Web ne doivent pas être accessibles depuis [!INCLUDE[prodshort](includes/prodshort.md)] en ligne, vous devez marquer les méthodes exposées dans le code comme `[Scope('OnPrem')]`. Pour plus d'informations, voir [Attribut de portée](/dynamics365/business-central/dev-itpro/developer/methods/devenv-scope-attribute).
 
 Une fois le service Web publié, il est accessible aux parties externes. Vous pouvez vérifier la disponibilité de ce service Web à l'aide d'un navigateur, ou vous pouvez sélectionner le lien dans les champs **URL OData** et **URL SOAP** de la page **Services Web**. La procédure suivante indique comment vous pouvez vérifier la disponibilité du service Web pour une utilisation ultérieure.  
 

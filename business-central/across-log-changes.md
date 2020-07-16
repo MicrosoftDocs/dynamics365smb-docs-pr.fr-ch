@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: user log, user activity, tracking
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6db170f8cf0b214a4ec85fc835eb8b98f071f203
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 201716238ddd42ac19cd769a8635d726e27e1509
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187739"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528828"
 ---
 # <a name="auditing-changes-in-business-central"></a>Audit des modifications dans Business Central
 
@@ -40,7 +40,7 @@ Une fois que vous avez configuré et activé le journal des modifications et mod
 
 ## <a name="working-with-activity-logs"></a>Utilisation des journaux d'activité
 
-À partir des pages [!INCLUDE [prodshort](includes/prodshort.md)], vous pouvez afficher un journal d’activités indiquant l’état et les erreurs éventuelles des fichiers que vous exportez ou importez dans [!INCLUDE [prodshort](includes/prodshort.md)].  
+À partir des pages [!INCLUDE[prodshort](includes/prodshort.md)], vous pouvez afficher un journal d’activités indiquant l’état et les erreurs éventuelles des fichiers que vous exportez ou importez dans [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 Les informations sont affichées dans la page **Journal des activités** en fonction du contexte d'ouverture. Vous pouvez ouvrir la fenêtre depuis les pages **Paramètres du service d'échange de documents**, **Document entrant**, **Facture vente validée** et **Avoir vente enregistré**, par exemple. Vous pouvez vider la liste des entrées du journal ou simplement effacer la liste des entrées de plus de 7 jours.  
 

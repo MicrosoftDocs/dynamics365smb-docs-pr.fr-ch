@@ -8,12 +8,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
 ms.date: 05/13/2020
 ms.author: edupont
-ms.openlocfilehash: acc68a2f5fc657e133f32e7945f3b34f8daa2892
-ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
+ms.openlocfilehash: d80b76614ad0ddf901a288859d8e6595d908c7ae
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3402521"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528000"
 ---
 # <a name="send-documents-by-email"></a>Envoyer des documents par e-mail
 
@@ -65,7 +65,7 @@ La procédure suivante décrit comment envoyer une facture vente validée en tan
 
 ## <a name="documents-marked-as-printed-when-they-are-sent"></a>Documents marqués comme imprimés lors de leur envoi
 
-Certains documents dans [!INCLUDE [prodshort](includes/prodshort.md)] comportent un champ qui spécifie la fréquence d'impression du document. Le champ est également mis à jour si vous n'imprimez pas le document mais l'envoyez par e-mail à la place. Le champ est même mis à jour si vous n'envoyez pas réellement le document, par exemple lorsque votre organisation n'a pas configuré de messagerie électronique, ou lorsque le contact auquel vous souhaitez envoyer le document n'a pas d'adresse e-mail répertoriée. Dans tous les scénarios, en ce qui concerne [!INCLUDE [prodshort](includes/prodshort.md)], le document est imprimé car un fichier PDF est généré.  
+Certains documents dans [!INCLUDE[prodshort](includes/prodshort.md)] comportent un champ qui spécifie la fréquence d'impression du document. Le champ est également mis à jour si vous n'imprimez pas le document mais l'envoyez par e-mail à la place. Le champ est même mis à jour si vous n'envoyez pas réellement le document, par exemple lorsque votre organisation n'a pas configuré de messagerie électronique, ou lorsque le contact auquel vous souhaitez envoyer le document n'a pas d'adresse e-mail répertoriée. Dans tous les scénarios, en ce qui concerne [!INCLUDE[prodshort](includes/prodshort.md)], le document est imprimé car un fichier PDF est généré.  
 
 L'utilisateur peut ne pas voir ce fichier généré, mais c'est la raison pour laquelle le champ est mis à jour.
 

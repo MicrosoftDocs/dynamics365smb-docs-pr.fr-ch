@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/20/2020
 ms.author: bholtorf
-ms.openlocfilehash: 0a6d6e08db723979fa938488bb0df6fb08a5c4d1
-ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
+ms.openlocfilehash: 0b814c18c328ea0647e38b6a837577b277ca4e63
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3272005"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527950"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Mappage des tables et des champs à synchroniser
 La base de la synchronisation des données dans [!INCLUDE[d365fin](includes/d365fin_md.md)] avec des données dans [!INCLUDE[d365fin](includes/cds_long_md.md)] consiste à mapper les tables et les champs qui contiennent les données de l'un vers l'autre. Le mappage s'effectue via des tables d'intégration. 
 
 ## <a name="mapping-integration-tables"></a>Mappage de tables d'intégration
-Une table d'intégration est une table dans la base de données [!INCLUDE[d365fin](includes/d365fin_md.md)] qui représente une entité, par exemple un compte, dans [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Les tables d'intégration incluent des champs qui correspondent aux champs de la table de l'entité [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Par exemple, la table d'intégration Compte se connecte à l'entité Comptes dans [!INCLUDE[cds_short_md](includes/cds_long_md.md)]. Il doit y avoir un mappage de table d'intégration pour chaque entité dans [!INCLUDE [cds_short_md](includes/cds_short_md.md)] à synchroniser avec les données dans [!INCLUDE[prodshort](includes/prodshort.md)].
+Une table d'intégration est une table dans la base de données [!INCLUDE[d365fin](includes/d365fin_md.md)] qui représente une entité, par exemple un compte, dans [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Les tables d'intégration incluent des champs qui correspondent aux champs de la table de l'entité [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Par exemple, la table d'intégration Compte se connecte à l'entité Comptes dans [!INCLUDE[cds_short_md](includes/cds_long_md.md)]. Il doit y avoir un mappage de table d'intégration pour chaque entité dans [!INCLUDE[cds_short_md](includes/cds_short_md.md)] à synchroniser avec les données dans [!INCLUDE[prodshort](includes/prodshort.md)].
 
 Lorsque vous créez la connexion entre les applications, [!INCLUDE[d365fin](includes/d365fin_md.md)] configure quelques mappages de table et de champ par défaut. Si vous le souhaitez, vous pouvez modifier les mappages de tables. Pour en savoir plus, consultez [Mappage d'entité standard pour la synchronisation](admin-synchronizing-business-central-and-sales.md#standard-entity-mapping-for-synchronization). Si vous avez modifié les mappages par défaut et souhaitez annuler vos modifications, choisissez **Utiliser le paramétrage de synchronisation par défaut** sur la page **Configuration de la connexion [!INCLUDE[d365fin](includes/cds_long_md.md)]**.
 
