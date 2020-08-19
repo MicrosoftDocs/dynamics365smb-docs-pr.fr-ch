@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: QR-bill, invoice, incoming documents, payment reference
 ms.date: 05/05/2020
 ms.author: soalex
-ms.openlocfilehash: d331be04eefa0f6f3786bb43fed94682b2c11ff1
-ms.sourcegitcommit: 866f0e6ed9df3397072b9df838e31c3a1f4b626d
+ms.openlocfilehash: 6c3f1a2209db2ff3e1f82e0b24d44281c661a9f5
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "3333928"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676842"
 ---
 # <a name="qr-bill-management-in-d365fin"></a>Gestion des QR-factures dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)]
 À partir du 1er juillet 2020, les sociétés en Suisse doivent pouvoir recevoir des QR-factures. Les QR-factures sont des bordereaux de paiement qui suivent les factures, et constituent une initiative nationale visant à rationaliser les processus de paiement. Les QR-factures remplacent tous les borderaux de paiement existants et les fonctionnalités liées à l'ESR. Elles contiennent toutes les informations nécessaires pour effectuer les paiements, et un code QR sur le borderau de paiement facilite l'importation des informations dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. Toutes les informations pertinentes sont importées et utilisées pour générer des paiements pour le vendeur qui a envoyé la QR-facture, y compris la référence du paiement, qui est automatiquement incluse dans les écritures comptables fournisseurs et exportée dans les fichiers de paiement à la banque.
@@ -63,7 +63,7 @@ Vous pouvez recevoir les QR-factures à plusieurs endroits dans [!INCLUDE[d365fi
 ### <a name="to-receive-a-qr-bill-through-an-incoming-documents"></a>Pour recevoir une QR-facture par le biais d'un document entrant
 La réception d'une QR-facture par le biais de documents entrants est particulièrement utile lorsque le processus est automatisé, mais vous pouvez également recevoir manuellement une QR-facture par le biais de documents entrants.
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Documents entrants**, puis choisissez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Documents entrants**, puis sélectionnez le lien associé.
 2. Dans la liste **Documents entrants**, créez une nouvelle écriture en choisissant **Nouveau**, puis **Nouveau**. 
 3. Sur la page **Document entrant**, entrez une description dans la champ **Description**.
 4. Pour importer la QR-facture, choisissez **Actions**, puis **QR-facture**, puis **Numériser QR-facture** pour numériser une QR-facture dans l'écriture document entrant.

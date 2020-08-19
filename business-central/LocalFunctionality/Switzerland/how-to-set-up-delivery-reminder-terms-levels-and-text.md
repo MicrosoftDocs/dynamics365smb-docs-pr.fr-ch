@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6324993c3044f08a837590a39d831f438c66fcd7
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: b216f0dbc65c618aae5092cb8bf4f923d739c4ad
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189088"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676860"
 ---
 # <a name="set-up-delivery-reminder-terms-levels-and-text"></a>Configurer les conditions, niveaux et textes de relance livraison.
 Pour créer des relances livraison, vous devez configurer ce qui suit :  
@@ -32,7 +32,7 @@ Pour plus d'informations, voir [Relances livraison](delivery-reminders.md).
 
 ## <a name="to-set-up-delivery-reminder-terms"></a>Pour configurer des conditions de relance livraison  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Conditions de relance de livraison**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Conditions de relance livraison**, puis sélectionnez le lien associé.  
 2.  Sélectionnez l'action **Nouveau**.  
 3.  Renseignez les champs comme indiqué dans le tableau suivant.  
 

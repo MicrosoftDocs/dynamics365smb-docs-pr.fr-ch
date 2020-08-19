@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: cdeacc9cded87cbf9e5724ea477740c6dd46eef1
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: eafefdbd89ff769e8c36d432f47bc146ec02065e
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189145"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676743"
 ---
 # <a name="adjust-exchange-rates"></a>Ajuster taux de change
 Si vous avez des ventes imposables en devise étrangère, vous devez utiliser le taux officiel pour la conversion de devise TVA telle que définie par l'administration fiscale.  
@@ -31,11 +31,11 @@ Pour plus d'informations sur la TVA et les devises étrangères, voir le site We
 
 ## <a name="to-adjust-an-exchange-rate"></a>Pour ajuster un taux de change  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Devises**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Devises**, puis sélectionnez le lien associé.  
 2.  Sélectionnez l'option **Taux de change**.  
 3.  Dans la page **Taux de change devise**, saisissez le taux de TVA officiel par période pour chaque devise dans les champs **Montant taux change TVA** et **Montant taux change TVA lié**.  
 4.  Cliquez sur le bouton **OK**.  
-5.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Ajuster taux de change**, puis choisissez le lien associé.  
+5.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Ajuster taux de change**, puis sélectionnez le lien associé.  
 6.  Sous le raccourci **Options**, renseignez les champs comme indiqué dans le tableau ci-dessous.   
 
     |Champ|Désignation|  

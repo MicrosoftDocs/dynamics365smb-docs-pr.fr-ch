@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 5e74197d8ee651d5e95619f19af3b72a5e96ab25
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: b97a42e6e6a9c472400d86e12a687c189ecc4abb
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189127"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677225"
 ---
 # <a name="generate-delivery-reminders"></a>Générer des relances livraison
 Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], vous pouvez créer des relances livraison lorsqu'un achat n'a pas été envoyé comme prévu. Vous pouvez générer des relances livraison pour toutes les livraisons échues, ou vous pouvez créer une relance livraison unique manuellement. Pour plus d'informations, voir [Créer manuellement des relances livraison](how-to-create-delivery-reminders-manually.md).  
@@ -25,7 +25,7 @@ Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], vous pouvez créer des r
 
 ## <a name="to-generate-delivery-reminders-for-all-overdue-deliveries"></a>Pour générer des relances livraison pour toutes les livraisons échues  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Relance livraison**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Relance livraison**, puis sélectionnez le lien associé.  
 2.  Sélectionnez l'action **Nouveau**.  
 3.  Dans la page **Relance livraison**, cliquez sur l'action **Créer une relance livraison**.  
 4.  Dans les raccourcis **En-tête achat** et **Ligne achat**, sélectionnez les filtres appropriés.  

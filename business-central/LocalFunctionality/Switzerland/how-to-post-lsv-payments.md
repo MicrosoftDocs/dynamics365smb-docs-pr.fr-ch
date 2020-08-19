@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: d80b1f5ade4778b71b79dcddfd347587869e16a7
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 17b29e5ed357f139b6bbcef96204c78736404762
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189109"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676642"
 ---
 # <a name="post-lsv-payments"></a>Valider les paiements LSV+
 Vous pouvez valider les paiements après avoir reçu l'avis de paiement Lastschrift Verfahren (LSV+) de la banque.  
 
 ## <a name="to-post-lsv-payments"></a>Pour valider les paiements LSV+  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Feuilles règlement**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles règlement**, puis sélectionnez le lien associé.  
 2.  Sélectionnez la feuille requise, puis cliquez sur l'action **Modifier journal**.  
 
     > [!NOTE]  
@@ -47,5 +47,5 @@ Vous pouvez valider les paiements après avoir reçu l'avis de paiement Lastschr
 ## <a name="see-also"></a>Voir aussi  
  [Paiements électroniques à l'aide de LSV+, Suisse](swiss-electronic-payments-using-lsv-.md)   
  [Traiter un prélèvement LSV](how-to-process-an-lsv-collection.md)   
- [Fermer prélèvement LSV](how-to-close-an-lsv-collection.md)   
+ [Fermer un prélèvement LSV](how-to-close-an-lsv-collection.md)   
  [Exporter des paiements en mode LSV](how-to-export-payments-using-lsv.md) 

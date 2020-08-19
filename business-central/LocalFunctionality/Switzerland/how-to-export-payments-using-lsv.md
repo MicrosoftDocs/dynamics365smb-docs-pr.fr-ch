@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 73d5b83a432bb5ce91caff02fb21491adb509dc4
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 7b391d655c4fc61f15cd240809183550a678f143
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189130"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676952"
 ---
 # <a name="export-payments-using-lsv"></a>Exporter des paiements en mode LSV
 Vous pouvez exporter ou écrire des fichiers Lastschrift Verfahren (LSV +) contenant des informations sur les paiements après la fermeture du prélèvement LSV. Vous pouvez envoyer les fichiers générés à la banque sur un disque, ou utiliser un transfert de fichiers électronique tel que votre logiciel de banque en ligne ou un portail Internet.  
 
 ## <a name="to-export-payments-using-lsv"></a>Pour exporter des paiements en mode LSV  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Liste feuilles LSV**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Liste feuilles LSV**, puis sélectionnez le lien associé.  
 2.  Dans la page **Liste feuilles LSV**, sélectionnez la feuille LSV nécessaire.  
 3.  Choisissez l'action **Écrire le fichier LSV**.  
 4.  Dans la page **Écrire le fichier LSV**, sur le raccourci **Options**, renseignez les champs comme indiqué dans le tableau suivant.  
@@ -39,5 +39,5 @@ Vous pouvez exporter ou écrire des fichiers Lastschrift Verfahren (LSV +) conte
 ## <a name="see-also"></a>Voir aussi  
  [Paiements électroniques à l'aide de LSV+, Suisse](swiss-electronic-payments-using-lsv-.md)   
  [Traiter un prélèvement LSV](how-to-process-an-lsv-collection.md)   
- [Fermer prélèvement LSV](how-to-close-an-lsv-collection.md)   
+ [Fermer un prélèvement LSV](how-to-close-an-lsv-collection.md)   
  [Valider les paiements LSV+](how-to-post-lsv-payments.md)

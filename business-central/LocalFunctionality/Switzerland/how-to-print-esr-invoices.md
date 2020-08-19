@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 735866474cb18f7924e7edc90046ba1a3239205f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: e3ca0d58e1fdd5e22f21a3d103d7ac7aa6513b9e
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189094"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676729"
 ---
 # <a name="print-esr-invoices"></a>Imprimer des factures ESR
 Vous pouvez imprimer un bordereau paiement Einzahlungsschein mit Referenznummer (ESR) des façons suivantes :  
@@ -34,7 +34,7 @@ La procédure suivante décrit comment imprimer des factures vente ESR, mais les
 
 ## <a name="to-print-esr-invoices"></a>Pour imprimer des factures ESR  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Facture ESR**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Facture ESR**, puis sélectionnez le lien associé.  
 2.  Dans le traitement par lots **Facture vente ESR**, sur le raccourci **Options**, renseignez les champs comme indiqué dans le tableau suivant.  
 
     |Champ|Désignation|  
@@ -49,5 +49,5 @@ La procédure suivante décrit comment imprimer des factures vente ESR, mais les
 Vous pouvez également réimprimer l'état ESR de la facture vente ou l'état du coupon ESR vente.  
 
 ## <a name="see-also"></a>Voir aussi  
- [Paiements électroniques à l'aide de ESR+, Suisse](swiss-electronic-payments-using-esr.md)   
+ [Paiements électroniques à l'aide de ESR, Suisse](swiss-electronic-payments-using-esr.md)   
  [Importer des paiements ESR](how-to-import-esr-payments.md)

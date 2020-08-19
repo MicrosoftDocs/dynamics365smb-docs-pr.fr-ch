@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 89ccf004c5f81b9e4b952aa2d1fb4ca18fecb13b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 7b82b8a568618b33e4af0fd72b532bbc6be60eda
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189100"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677235"
 ---
 # <a name="print-vendor-payments-list-reports"></a>Imprimer des rapports contenant les listes de paiements fournisseurs
 Le rapport **Liste de paiements fournisseur** fournit la liste des paiements pour chaque fournisseur. Le rapport peut trier les paiements par ordre chronologique ou groupés par fournisseur.  
 
 ## <a name="to-print-the-vendor-payments-list-report"></a>Pour imprimer des rapports contenant les listes de paiements fournisseurs  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Liste de paiements fournisseurs**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Liste de paiements fournisseur**, puis sélectionnez le lien associé.  
 2.  Sous le raccourci **Options**, renseignez les champs comme indiqué dans le tableau ci-dessous.  
 
     |Champ|Désignation|  

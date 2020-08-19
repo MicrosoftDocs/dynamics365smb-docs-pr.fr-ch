@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: d9cf935eebe862d3e187d716440e7e87d7d86864
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: a17b70b42efae1c0407982318e83082a9f0d9537
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189121"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676787"
 ---
 # <a name="import-swiss-bank-clearing-numbers"></a>Importer des numéros de compensation d'une banque suisse
 Les numéros de compensation bancaire sont les numéros uniques utilisés pour identifier chaque agence ou succursale bancaire dans l'annuaire bancaire. Ces informations sont nécessaires pour le paiement électronique. Ce fichier peut être téléchargé à partir du site Web [SIX Interbank Clearing](https://go.microsoft.com/fwlink/?LinkId=145121).  
@@ -24,7 +24,7 @@ Vous pouvez importer le fichier BC Bank Master - le fichier officiel des numéro
 
 ## <a name="to-import-swiss-bank-clearing-numbers"></a>Pour importer des numéros de compensation d'une banque suisse  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Annuaire bancaire**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Annuaire bancaire**, puis sélectionnez le lien associé.  
 2.  Choisissez l'action **Importer l'annuaire bancaire**.  
 3.  Dans la page **Importer l'annuaire bancaire**, dans le raccourci **Options**, sélectionnez le champ **Mettre à jour automatiquement les numéros de compensation** pour mettre à jour les numéros de compensation bancaire automatiquement.  
 4.  Choisissez le bouton **Imprimer** ou le bouton **Aperçu** pour importer les numéros de compensation bancaire, puis, dans la page **Ouvrir**, localisez le fichier que vous avez téléchargé depuis le site Web SIX Interbank Clearing.
@@ -36,7 +36,7 @@ La procédure suivante décrit comment définir des numéros d'établissement po
 
 ## <a name="to-define-bank-branch-numbers-for-customer-bank-accounts"></a>Pour définir des numéros d'établissement pour les comptes bancaires clients  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Clients**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Clients**, puis sélectionnez le lien associé.  
 2.  Sélectionnez le client pour lequel vous souhaitez créer les informations d'un compte bancaire, puis sélectionnez l'action **Comptes bancaires**.  
 3.  Dans la page **Liste comptes bancaires client**, sélectionnez le compte bancaire requis, puis cliquez sur l'action **Modifier**.  
 4.  Sur le raccourci **Général**, renseignez le champ **Code établissement**. sélectionnez le numéro de l'agence ou de la succursale bancaire.  

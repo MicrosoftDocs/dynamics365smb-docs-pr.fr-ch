@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: e1c1b86f002d0bcb945701897cc8b832b447fcfa
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6dd8ad53a59ee9f129077587fb5b943c2782f2c9
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189142"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676693"
 ---
 # <a name="close-an-lsv-collection"></a>Fermer prélèvement LSV
 Vous devez fermer les collections Lastschrift Verfahren (LSV+) pour écrire les fichiers LSV qui peuvent être envoyés à la banque pour le prélèvement des paiements. Lorsque vous fermez un prélèvement, le prélèvement est terminé et les validations dans la feuille LSV sont combinées.  
@@ -26,10 +26,10 @@ Lorsque le prélèvement est terminé, le numéro de prélèvement actuel est af
 
 ## <a name="to-close-an-lsv-collection"></a>Pour fermer un prélèvement LSV  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Liste feuilles LSV**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Liste feuilles LSV**, puis sélectionnez le lien associé.  
 2.  Sélectionnez la ligne feuille requise, puis sélectionnez l'action **Modifier la date comptabilisation**. La valeur du champ **Date de crédit** à l'aide de la valeur suggérée lors du prélèvement LSV.  
 3.  Dans le champ **Nouvelle date**, saisissez la nouvelle date.  
-4.  Choisissez l'action **Clôturer le prélèvement**.  
+4.  Choisissez *l'action *Clôturer le prélèvement**.  
 
     > [!NOTE]  
     >  Les champs du raccourci **Options** pour le traitement par lots **Prélèvement de fin LSV** ne peuvent pas être modifiés, et correspondent à la ligne feuille sélectionnée.  
@@ -40,7 +40,7 @@ Lorsque le prélèvement est terminé, le numéro de prélèvement actuel est af
 
 ## <a name="to-reopen-an-lsv-collection"></a>Pour rouvrir un prélèvement LSV  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Liste feuilles LSV**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Liste feuilles LSV**, puis sélectionnez le lien associé.  
 2.  Sélectionnez la ligne feuille appropriée pour laquelle vous voulez rouvrir le prélèvement, choisissez l'action **Rouvrir le prélèvement**.  
 
     > [!NOTE]  

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 832dbad14962b0e7a1f324d81d798fb4d6759e13
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 19c9947e8a036df4755846e0ae3f627097d21ebf
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189124"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677100"
 ---
 # <a name="import-esr-payments"></a>Importer des paiements ESR
 Après avoir reçu le paiement d'un client, vous recevez un fichier contenant des informations sur les factures payées. Vous pouvez recevoir ce fichier de votre banque par voie électronique, ou par courrier électronique.  
@@ -26,7 +26,7 @@ Vous pouvez importer les données de facture Einzahlungsschein mit Referenznumme
 
 ## <a name="to-import-esr-payments"></a>Pour importer des paiements ESR  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Feuilles règlement**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles règlement**, puis sélectionnez le lien associé.  
 2.  Dans le champ **Nom de la feuille**, sélectionnez le nom de feuille comptabilité requis.  
 
     > [!NOTE]  
