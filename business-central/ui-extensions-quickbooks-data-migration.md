@@ -1,5 +1,5 @@
 ---
-title: Utilisation de l'extension QuickBooks Data Migration | Microsoft Docs
+title: Extension QuickBooks Data Migration | Microsoft Docs
 description: Décrit comment utiliser l'extension pour importer des clients, des fournisseurs, des articles, et des comptes de QuickBooks Desktop dans Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -8,21 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: edupont
-ms.openlocfilehash: 33543ffddf286fd2e224b74768adb5d00046078b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: f603ce9391a3c971b719a1aae367a2f578166f94
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189762"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617826"
 ---
 # <a name="the-quickbooks-data-migration-extension"></a>Extension QuickBooks Data Migration
+
 Cette extension facilite la migration des clients, des fournisseurs, des articles et des comptes de QuickBooks vers [!INCLUDE[d365fin](includes/d365fin_md.md)]. Si votre entreprise utilise QuickBooks aujourd'hui, vous pouvez exporter les informations appropriées puis ouvrir un guide de configuration assistée pour télécharger les données vers [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 Pour plus d'informations, voir [Importation des données métier à partir d'autres systèmes financiers](across-import-data-configuration-packages.md).
 
 ## <a name="data-from-quickbooks-desktop"></a>Date début QuickBooks Desktop
- 
+
 Vous pouvez importer les données suivantes de QuickBooks Online vers Business Central :
 
 - Clients  
@@ -39,6 +40,7 @@ Nous effectuons une migration uniquement pour les montants complets dans les doc
 > Nous n'effectuons pas de migration des commandes achat ou des commandes vente.
 
 ## <a name="before-you-start"></a>Avant de commencer
+
 Une grande partie du processus de migration consiste à spécifier les comptes vers lesquels migrer les transactions. Il est judicieux de planifier ce mappage avant d'exécuter la migration de données. Par exemple, les comptes où vous validez des transactions :
 
 - La vente d'articles ou de services à un client  
@@ -54,14 +56,17 @@ Afin d'obtenir vos données de l'application QuickBooks Desktop vous devez tél�
 > Actuellement, l'outil d'exportation de données fonctionne uniquement avec QuickBooks 2017 et 2018.
 
 ## <a name="finding-the-quickbooks-data-migration-extension"></a>Recherche de l'extension QuickBooks Data Migration
+
 L'extension QuickBooks Data Migration est installée et prête à être utilisée comme partie intégrante du guide de configuration assistée Migration des données. Si vous êtes prêt à commencer et avez exporté vos données de QuickBooks, choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Configuration assistée**, puis sélectionnez le lien associé. Choisissez **Migrer des données métier**, puis suivez les étapes du guide.  
 
 ## <a name="what-do-i-do-after-i-migrate-data"></a>Que faire après une migration des données ?
+
 Après avoir effectué une migration des données, les transactions ont le statut Non validé, vous pouvez les consulter et faire des ajustements. Pour consulter les transactions, accédez à la page où vous les trouveriez normalement. Par exemple, pour examiner les factures vente non validées, accédez à la page Factures vente. Pour consulter des feuilles paiement, accédez à la page Feuilles paiement.
 Il existe quelques éléments en particulier que vous devez effectuer : si les transactions dans QuickBooks avaient les montants de majoration ou de remise, vous devez ajouter manuellement les montants aux transactions associées dans Business Central avant de les valider.
 Si vous utilisez la taxe sur la valeur ajoutée (TVA), vous devez ajouter un groupe comptabilisation marché et un groupe comptabilisation produit au paramétrage de la validation de manière à pouvoir valider les montants TVA.
 Vérifiez les soldes de début des comptes du grand livre. QuickBooks ne stocke pas le solde actuel de tous les comptes, vous pouvez être amené à corriger les soldes d'ouverture.
 
 ## <a name="see-also"></a>Voir aussi
+
 [Importation des données métier à partir d'autres systèmes financiers](across-import-data-configuration-packages.md)  
 [Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions ](ui-extensions.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c0fe93df0022f66aa5cc3964c2717e2e6ca76147
-ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
+ms.openlocfilehash: dfc7b91c50297c130a4a6d50401c7adb53bd608b
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262205"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3666962"
 ---
 # <a name="personalize-your-workspace"></a>Personnaliser votre espace de travail
 Vous pouvez personnaliser votre espace de travail pour l'adapter à vos habitudes et préférences en modifiant les pages afin qu'elles n'affichent que les informations dont vous avez besoin, où vous avez en besoin. Les modifications de personnalisation que vous apportez n'affectent que ce que vous voyez, pas ce que voient les autres utilisateurs.
@@ -27,6 +27,11 @@ Selon le type de page et ce qu'elle inclut, vous pouvez apporter différentes mo
 > [!NOTE]
 > Les administrateurs peuvent effectuer les mêmes modifications de présentation que les utilisateurs en personnalisant l'espace de travail pour un profil attribué à plusieurs utilisateurs. Pour plus d'informations, voir [Personnaliser des pages pour les rôles](ui-personalization-manage.md).<br /><br />
 Les administrateurs peuvent aussi remplacer ou désactiver des personnalisations des utilisateurs et définir les fonctionnalités accessibles dans toutes les sociétés ou des sociétés spécifiques. Pour plus d'informations, voir [Personnalisation de Business Central](ui-customizing-overview.md).
+
+## <a name="video-overview"></a>Présentation de la vidéo
+La vidéo suivante montre quelques-unes des façons dont vous pouvez personnaliser votre tableau de bord.
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB]
 
 ## <a name="to-change-the-width-of-a-column"></a>Pour modifier la largeur d'une colonne
 Vous pouvez facilement redimensionner les colonnes de n'importe quelle liste en faisant glisser la limite entre deux colonnes à gauche ou à droite.

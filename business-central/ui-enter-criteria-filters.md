@@ -8,19 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 06/26/2020
+ms.date: 07/24/2020
 ms.author: sgroespe
-ms.openlocfilehash: 786b782bd1cba3d75ce42776fa5df84ae89e624e
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 9bdaa604841156763739adf5411469c58a74eb1e
+ms.sourcegitcommit: edad0d0b129e916c2cfdfa9c4f8d9d83513f4fd1
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3529128"
+ms.lasthandoff: 07/24/2020
+ms.locfileid: "3619449"
 ---
 # <a name="sorting-searching-and-filtering"></a>Tri, recherche et filtrage
+
 Il existe quelques fonctions que vous pouvez utiliser pour vous aider à analyser, rechercher et limiter des enregistrements d'une liste ou dans un état ou un XMLport. Il s'agit notamment du tri, de la recherche et du filtrage. Vous pouvez en appliquer certaines ou toutes simultanément pour trouver rapidement ou analyser vos données.
 
-Pour les états et les XMLports, vous pouvez définir des filtres comme sur des listes pour délimiter les données à inclure dans l'état ou le XMLport, mais vous ne pouvez pas trier et rechercher.
+Pour les états et les XMLports, comme sur des listes, vous pouvez définir des filtres pour délimiter les données à inclure dans l'état ou le XMLport, mais vous ne pouvez pas trier et rechercher.
 
 > [!TIP]
 > En affichant vos données en tant que vignettes, vous pouvez rechercher et utiliser le filtrage de base. Pour utiliser l'ensemble complet de puissantes fonctions de tri, de recherche et de filtrage, choisissez l'icône ![Afficher sous forme de liste](media/ui_show_as_list_icon.png "Afficher sous forme de liste") pour afficher les enregistrements sous forme de liste.
@@ -30,20 +31,23 @@ When you want to search for data, such as customer names, addresses, or product 
 -->
 
 ## <a name="sorting"></a>Tri
+
 Le tri vous permet d'avoir facilement un aperçu de vos données. Si vous avez de nombreux clients, par exemple, vous pouvez choisir de les trier par **N° client**, **Groupe compta. client**, **Code devise**, **Code pays/région** ou **N° d'enregistrement Sales Tax** pour obtenir l'aperçu que vous souhaitez.
 
 Pour trier une liste, vous pouvez choisir un texte d'en-tête de colonne pour permuter entre l'ordre croissant et décroissant, ou cliquer sur la flèche déroulante dans l'en-tête de colonne et choisir l'action **Croissant** ou **Décroissant**.  
 
 > [!NOTE]  
->   Le tri n'est pas pris en charge sur les images, les champs de type BLOB, les FlowFilters, et les champs n'appartenant pas à une table.  
+> Le tri n'est pas pris en charge sur les images, les champs de type BLOB, les FlowFilters, et les champs n'appartenant pas à une table.  
 
 ## <a name="searching"></a>Recherche
+
 <!--## Searching by using the Quick Filter -->
 En haut de chaque page de liste, il existe une action ![Rechercher dans une liste](media/ui-search/search-list.png "Icône de liste Rechercher") **Rechercher** qui fournit une manière rapide et facile de réduire les enregistrements d'une liste et d'afficher uniquement les enregistrements qui contiennent les données que vous souhaitez afficher.
 
 Pour rechercher, sélectionnez simplement l'action **Rechercher**, puis dans la case, entrez le texte souhaité. Vous pouvez saisir des lettres, des chiffres et d'autres symboles.
 
 ### <a name="fine-tuning-the-search"></a>Affinage de la recherche
+
 Généralement, la recherche tente de mettre en correspondance le texte entre tous les champs. Elle ne distingue pas les minuscules et les majuscules (en d'autres termes, ne respecte pas la casse), puis met en correspondance le texte placé n'importe où dans le champ (au début, à la fin, ou au milieu).
 
 Cependant, vous pouvez faire une recherche plus précise en utilisant des caractères spéciaux.
@@ -70,9 +74,10 @@ Le tableau suivant fournit des exemples expliquant comment vous pouvez utiliser 
 > Vous pouvez appuyer sur **F3** pour activer et désactiver la zone de recherche. Pour plus d'informations, reportez-vous à [Raccourcis clavier](keyboard-shortcuts.md#KeyboardFilter).
 
 > [!NOTE]  
-> La recherche ne correspondra pas aux valeurs des images, des champs de type BLOB, des FlowFilters, et des autres champs n'appartenant pas à une table. 
+> La recherche ne correspondra pas aux valeurs des images, des champs de type BLOB, des FlowFilters, et des autres champs n'appartenant pas à une table.
 
 ## <a name="filtering"></a><a name="filtering"></a>Filtrage
+
 Le filtrage fournit une manière plus avancée et plus souple de contrôler les enregistrements affichés dans une liste ou à inclure dans un état ou un XMLport. Il existe deux différences majeures entre rechercher et filtrer, comme décrit dans le tableau ci-dessous.
 
 || **Recherche** | **Filtrage** |
@@ -85,6 +90,7 @@ Le filtrage vous permet de visualiser des enregistrements pour des comptes ou le
 Pour les listes, les filtres sont affichés dans un volet Filtre qui apparaît à gauche de la liste lorsque vous l'activez. Pour les états, les traitements par lots et les XMLports, les filtres sont visibles directement sur la page de demande.
 
 ### <a name="filtering-with-option-fields"></a>Filtrage avec des champs d'option
+
 Pour les champs « ordinaires » contenant des données, une date de configuration ou des données métier, vous pouvez définir des filtres en sélectionnant des données et en tapant des valeurs de filtre. Vous pouvez également utiliser des symboles pour définir des critères de filtrage avancés. Pour plus d'informations, voir [Saisie de critères de filtre](ui-enter-criteria-filters.md#entering-filter-criteria).
 
 Pour les champs de type **Option**, toutefois, vous ne pouvez définir un filtre qu'en sélectionnant une ou plusieurs options dans une liste déroulante des options disponibles. Parmi les exemples de champ d’option, on trouve le champ **Statut** de la page **Commandes vente**.
@@ -93,6 +99,7 @@ Pour les champs de type **Option**, toutefois, vous ne pouvez définir un filtre
 > Lorsque vous sélectionnez plusieurs options en tant que valeur de filtre, la relation entre les options est définie comme *OU*. Par exemple, si vous cochez les deux cases **Ouvert** et **Lancé** dans le champ de filtre **Statut** sur la page **Commande vente**, cela signifie que les commandes vente ouvertes ou validées sont affichées.
 
 ### <a name="setting-filters-on-lists"></a>Définition de filtres sur les listes
+
 Sur les listes, vous devez définir les filtres à l'aide du volet Filtre. Pour afficher le volet Filtre d’une liste, choisissez la flèche déroulante en regard du nom de la page, puis choisissez l'action **Afficher le volet Filtre**. Sinon, appuyez sur **Maj+F3**.
 
 Pour afficher le volet Filtre d'une colonne d’une liste, choisissez la flèche déroulante, puis choisissez l'action **Filtre**. Sinon, appuyez sur **Maj+F3**. Le volet Filtre s'ouvre avec la colonne sélectionnée affichée sous forme de champ de filtre dans la section **Filtrer la liste par**.
@@ -119,6 +126,7 @@ Le volet Filtre affiche les filtres actuels de la liste, et permet de définir v
 Vous pouvez définir un filtre simple directement sur une liste à l'aide du volet Filtre, à savoir un filtre qui n'affiche que les enregistrements ayant la même valeur que dans la cellule sélectionnée. Sélectionnez une cellule dans la liste, choisissez la flèche déroulante, puis choisissez l'action **Filtrer sur cette valeur**. Sinon, appuyez sur **Alt+F3**.
 
 ### <a name="setting-filters-in-reports-batch-jobs-and-xmlports"></a>Définition de filtres dans les états, les traitements par lots et les XMLports
+
 Pour les états et les XMLports, les filtres sont visibles directement sur la page de demande. La page de demande affiche les derniers filtres utilisés en fonction de votre sélection dans le champ **Utiliser les valeurs par défaut de**. Pour plus d'informations, voir [Utilisation des paramètres enregistrés](ui-work-report.md#SavedSettings).
 
 La section **Filtre** principale affiche les champs de filtre par défaut que vous utilisez pour délimiter les enregistrements à inclure dans l'état ou le XMLport. Pour ajouter un filtre, choisissez l'action **+ Filtre**, tapez le nom du champ pour lequel vous souhaitez filtrer ou choisissez un champ dans la liste déroulante.
@@ -126,6 +134,7 @@ La section **Filtre** principale affiche les champs de filtre par défaut que vo
 Dans la section **Filtrer les totaux par**, vous pouvez ajuster diverses dimensions qui influencent les calculs dans l'état ou le XMLport. Pour ajouter un filtre, choisissez l'action **+ Filtre**, tapez le nom du champ pour lequel vous souhaitez filtrer ou choisissez un champ dans la liste déroulante.
 
 ## <a name="entering-filter-criteria"></a>Saisie des critères de filtre
+
 Dans le volet Filtre et sur une page de demande, vous devez entrer vos critères de filtrage dans la zone située sous le champ Filtre.
 
 Le type de champ à filtrer détermine les critères que vous pouvez entrer. Par exemple, filtrer un champ avec des valeurs fixes vous permet uniquement de choisir parmi ces valeurs. Pour plus d'informations sur les symboles de filtre spéciaux, consultez [Critères de filtre](#FilterCriteria) et [Jetons de filtre](#FilterTokens).
@@ -136,10 +145,11 @@ Les colonnes qui ont déjà des filtres sont signalées par l'![Icône de filtre
 > Accélérez la recherche et l'analyse de vos données en utilisant des combinaisons des raccourcis clavier. Par exemple, sélectionnez un champ, utilisez **Maj+Alt+F3** pour ajouter ce champ au volet Filtre, saisissez les critères de filtre, utilisez **Ctrl+Entrée** pour revenir aux lignes, sélectionnez un autre champ, puis utilisez **Alt+F3** pour filtrer selon cette valeur. Pour plus d'informations, reportez-vous à [Raccourcis clavier](keyboard-shortcuts.md#KeyboardFilter).
 
 ### <a name="filter-criteria-and-symbols"></a><a name="FilterCriteria"> </a>Critères et symboles de filtre
+
 Lorsque vous saisissez des critères, vous pouvez utiliser tous les chiffres et toutes les lettres que vous utilisez habituellement dans ce champ. En plus, vous pouvez utiliser des symboles (ou opérateurs) spéciaux pour filtrer davantage les résultats. Les tableaux suivants indiquent les symboles qui peuvent être utilisés dans les filtres. Pour les dates et heures, vous pouvez également vous référer à [Utilisation de dates civiles et les heures](ui-enter-date-ranges.md) pour des informations plus détaillées.
 
 > [!IMPORTANT]  
->  Il peut y avoir des instances où les valeurs de champ contiennent ces symboles et vous souhaitez les filtrer. Pour ce faire, vous devez inclure l'expression de filtre qui contient le symbole entre guillemets ("). Par exemple, si vous souhaitez filtrer les enregistrements commençant par le texte *S&R*, l'expression de filtre est `'S&R*'`.
+> Il peut y avoir des instances où les valeurs de champ contiennent ces symboles et vous souhaitez les filtrer. Pour ce faire, vous devez inclure l'expression de filtre qui contient le symbole entre guillemets ("). Par exemple, si vous souhaitez filtrer les enregistrements commençant par le texte *S&R*, l'expression de filtre est `'S&R*'`.
 
 Les sections suivantes décrivent comment utiliser les différents opérateurs.
 
@@ -273,6 +283,7 @@ Utilisez `%myvendors` dans le champ **N°** fournisseur pour afficher tous les e
 |`%myvendors`|Fournisseurs dans **Mes fournisseurs** de votre tableau de bord. |  
 
 ## <a name="see-also"></a>Voir aussi
+
 [FAQ sur la recherche et le filtrage](ui-search-filter-faq.md)  
 [Enregistrer et personnaliser les vues de liste](ui-views.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

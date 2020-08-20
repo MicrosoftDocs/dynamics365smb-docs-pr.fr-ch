@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: bholtorf
-ms.openlocfilehash: 8333e3127a009a04d63fceb8ec17530f83de10d0
-ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
+ms.openlocfilehash: e3ec3ad00d73fcb74d41ff46cc2d2c0e34e78489
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "3496690"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617926"
 ---
 # <a name="design-details-costing-methods"></a>Détails de conception : modes évaluation stock
+
 Le mode évaluation stock détermine si une valeur réelle ou budgétée est capitalisée et prise en compte dans le calcul des coûts. Au même titre que la date comptabilisation et la séquence, le mode d'évaluation du stock a une incidence sur l'enregistrement du flux des coûts.
 
 > [!NOTE]
@@ -26,13 +27,13 @@ Le mode évaluation stock détermine si une valeur réelle ou budgétée est cap
 
 Les méthodes suivantes sont prises en charge dans [!INCLUDE[d365fin](includes/d365fin_md.md)] :  
 
-|Mode évaluation du stock|Description|Quand utiliser|  
-|--------------------|---------------------------------------|-----------------|  
-|FIFO|Le coût unitaire d'un article est la valeur réelle de toute réception de l'article, sélectionnée par la règle FIFO.<br /><br /> Dans l'évaluation du stock, nous considérons que les premiers articles stockés sont ceux vendus en premier.|Dans des environnements commerciaux où le coût de produit est stable.<br /><br /> (Lorsque les prix augmentent, le bilan indique une valeur plus élevée. Cela signifie que les impôts à payer augmentent, mais que les cotes de crédit et la capacité à emprunter de la trésorerie s'améliorent.)<br /><br /> Pour les articles à durée de conservation limitée, car les produits les plus anciens doivent être vendus avant que leur date limite de vente ne soit dépassée.|  
-|LIFO|Le coût unitaire d'un article est la valeur réelle de toute réception de l'article, sélectionnée par la règle LIFO.<br /><br /> Dans l'évaluation du stock, nous considérons que les derniers articles stockés sont ceux vendus en premier.|Interdit dans de nombreux pays/régions, car cela peut être utilisé pour réduire la marge.<br /><br /> (Lorsque les prix augmentent, la valeur du compte de gestion diminue. Cela signifie que les impôts à payer diminuent, mais que la capacité à emprunter de la trésorerie se détériore.)|  
-|Moyenne|Le coût unitaire d'un article est calculé comme le coût unitaire moyen à chaque moment après un achat.<br /><br /> Pour l'évaluation du stock, on part de l'hypothèse que tous les stocks sont vendus simultanément.|Dans des environnements commerciaux où le coût de produit est instable.<br /><br /> Lorsque les stocks sont compilés ou mélangés ensemble et ne peuvent pas être différenciés (par exemple, des produits chimiques).|  
-|Spécifique|Le coût unitaire d'un article est le coût exact auquel l'unité particulière a été reçue.|Pour la fabrication ou la transaction d'articles facilement identifiables ayant des coûts unitaires assez élevés.<br /><br /> Pour les articles soumis à une régulation.<br /><br /> Pour les articles ayant des numéros de série.|  
-|Standard|Le coût unitaire d'un article est prédéfini sur la base d'une estimation.<br /><br /> Lorsque le coût réel est réalisé plus tard, le coût standard doit être ajusté au coût réel à l'aide des valeurs d'écart.|Environnement où le contrôle des coûts est primordial.<br /><br /> Pour la fabrication répétitive, afin d'évaluer les coûts matière directs, les frais de main-d'œuvre directs, et les frais généraux matière.<br /><br /> Environnement où il existe une discipline et du personnel pour le maintien des standards.|  
+| Mode évaluation du stock | Description | Quand utiliser |
+|--|--|--|
+| FIFO | Le coût unitaire d'un article est la valeur réelle de toute réception de l'article, sélectionnée par la règle FIFO.<br /><br /> Dans l'évaluation du stock, nous considérons que les premiers articles stockés sont ceux vendus en premier. | Dans des environnements commerciaux où le coût de produit est stable.<br /><br /> (Lorsque les prix augmentent, le bilan indique une valeur plus élevée. Cela signifie que les impôts à payer augmentent, mais que les cotes de crédit et la capacité à emprunter de la trésorerie s'améliorent.)<br /><br /> Pour les articles à durée de conservation limitée, car les produits les plus anciens doivent être vendus avant que leur date limite de vente ne soit dépassée. |
+| LIFO | Le coût unitaire d'un article est la valeur réelle de toute réception de l'article, sélectionnée par la règle LIFO.<br /><br /> Dans l'évaluation du stock, nous considérons que les derniers articles stockés sont ceux vendus en premier. | Interdit dans de nombreux pays/régions, car cela peut être utilisé pour réduire la marge.<br /><br /> (Lorsque les prix augmentent, la valeur du compte de gestion diminue. Cela signifie que les impôts à payer diminuent, mais que la capacité à emprunter de la trésorerie se détériore.) |
+| Moyenne | Le coût unitaire d'un article est calculé comme le coût unitaire moyen à chaque moment après un achat.<br /><br /> Pour l'évaluation du stock, on part de l'hypothèse que tous les stocks sont vendus simultanément. | Dans des environnements commerciaux où le coût de produit est instable.<br /><br /> Lorsque les stocks sont compilés ou mélangés ensemble et ne peuvent pas être différenciés (par exemple, des produits chimiques). |
+| Spécifique | Le coût unitaire d'un article est le coût exact auquel l'unité particulière a été reçue. | Pour la fabrication ou la transaction d'articles facilement identifiables ayant des coûts unitaires assez élevés.<br /><br /> Pour les articles soumis à une régulation.<br /><br /> Pour les articles ayant des numéros de série. |
+| Standard | Le coût unitaire d'un article est prédéfini sur la base d'une estimation.<br /><br /> Lorsque le coût réel est réalisé plus tard, le coût standard doit être ajusté au coût réel à l'aide des valeurs d'écart. | Environnement où le contrôle des coûts est primordial.<br /><br /> Pour la fabrication répétitive, afin d'évaluer les coûts matière directs, les frais de main-d'œuvre directs, et les frais généraux matière.<br /><br /> Environnement où il existe une discipline et du personnel pour le maintien des standards. |
 
  L'image suivante montre la manière dont les coûts circulent dans le stock pour chaque mode d'évaluation du stock.  
 
@@ -40,7 +41,7 @@ Les méthodes suivantes sont prises en charge dans [!INCLUDE[d365fin](includes/d
 
  Les méthodes d'évaluation du stock diffèrent dans la façon d'évaluer les sorties de stock et d'utiliser le coût réel ou le coût standard comme base d'évaluation. Le tableau suivant explique les différentes caractéristiques. (La méthode LIFO est exclue, car elle est presque identique à la méthode FIFO).  
 
-||FIFO|Moyenne|Standard|Spécifique|  
+|<!--blank -->|FIFO|Moyenne|Standard|Spécifique|  
 |-|----------|-------------|--------------|--------------|  
 |Caractéristiques générales|Facile à comprendre|Sur la base des options de période : **Jour**/**Semaine**/**Mois**/**Trimestre**/**Période comptable**.<br /><br /> Peut être calculé par article ou par article/magasin/variante.|Facile à utiliser, mais requiert une maintenance qualifiée.|Requiert une traçabilité à la fois sur les transactions entrante et sortante.<br /><br /> Généralement utilisé pour les articles fabriqués de série.|  
 |Lettrage/Ajustement|Le lettrage effectue le suivi de **la quantité restante**.<br /><br /> L'ajustement transfère les coûts en fonction de l'application de quantité.|Le lettrage effectue le suivi de la **quantité restante**.<br /><br /> Les coûts sont calculés et transférés par **date d'évaluation**.|Le lettrage effectue le suivi de la **quantité restante**.<br /><br /> Le lettrage est basé sur la méthode FIFO.|Tous les lettrages sont fixes.|  

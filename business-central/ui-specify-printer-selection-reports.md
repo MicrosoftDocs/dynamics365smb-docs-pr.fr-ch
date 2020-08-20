@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: online printing
 ms.date: 04/17/2020
 ms.author: sgroespe
-ms.openlocfilehash: dbfdb22447f20b4e4b811dc40cf892d9b971dc77
-ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
+ms.openlocfilehash: dc92c499aa201278abc0c8cdc351eeb1406b1cca
+ms.sourcegitcommit: 99cecd005f8ede70e9a3d163a457fcb9aadb6843
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3272101"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "3549882"
 ---
 # <a name="set-up-printers"></a>Paramétrage imprimantes
 Comme [!INCLUDE[prodshort](includes/prodshort.md)] est un service cloud, il ne peut pas atteindre les imprimantes locales connectées aux machines des utilisateurs. Cependant, il peut se connecter aux imprimantes cloud. Dans la version générique de [!INCLUDE[prodshort](includes/prodshort.md)], une imprimante cloud nommée **Imprimante par e-mail** est installée en tant qu'extension et prête à l'emploi après la configuration initiale.
@@ -55,7 +55,11 @@ Si vous utilisez l'extension Imprimante par e-mail, tout ou partie des travaux d
 Vous devez prendre toutes les précautions de confidentialité nécessaires, notamment en veillant à configurer correctement les autorisations, les paramètres de confidentialité et les stratégies de conservation de la solution d'impression d'e-mails. Il est de votre responsabilité de fournir une adresse e-mail correcte, vérifiée et opérationnelle. Pour en savoir plus, consultez [Déclaration de confidentialité Microsoft](https://privacy.microsoft.com/en-us/privacystatement).
 
 ## <a name="to-select-which-printers-print-which-reports"></a>Pour sélectionner les imprimantes imprimant des états spécifiques
+
 Sur la page **Sélections d'imprimantes**, vous pouvez configurer les états à imprimer sur des imprimantes spécifiques. Ceci est utile si vous utilisez différents états nécessitant différentes imprimantes en raison de leur placement dans la société ou de leurs capacités d'impression.
+
+> [!IMPORTANT]
+> Pour [!INCLUDE[prodshort](includes/prodshort.md)] sur site, la page **Sélections d'imprimantes** ne peut être utilisée que pour les imprimantes définies par les extensions d'imprimante. Elle ne peut pas être utilisée pour les imprimantes locales.
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Sélections d'imprimantes**, puis sélectionnez le lien associé. Sinon, sur la page **Gestion des imprimantes**, sélectionnez une imprimante, puis l'action **Sélections d'imprimantes**.
 2. Choisissez l'action **Nouveau** pour ajouter une sélection d'imprimante pour un état spécifique.

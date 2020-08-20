@@ -5,20 +5,20 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 06/25/2020
+ms.date: 07/21/2020
 ms.author: edupont
-ms.openlocfilehash: 865a7511a086d38ae1edeabb008557a7101498ff
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 70bf35dccb071c379738c8e8054ed8490c262beb
+ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528100"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3611599"
 ---
 # <a name="frequently-asked-questions"></a>Forum Aux Questions
 
 Cette section contient des réponses aux questions les plus fréquentes sur l'inscription à une version d'évaluation, l'achat d'un abonnement et l'utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vous pouvez également apprendre comment obtenir le support technique.  
 
-## <a name="is-d365fin-available-in-my-country"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] est-il disponible dans mon pays ?
+## <a name="is-d365fin-available-in-my-countryregion"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] est-il disponible dans mon pays/ma région ?
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] est disponible dans sur nombre limité de marchés, mais de nouveaux pays sont ajoutés via la localisation Microsoft ou via la localisation partenaire chaque trimestre. Pour plus d'informations, voir [Disponibilité par pays/région et traductions prises en charge](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) (disponible en anglais uniquement).  
 
@@ -108,6 +108,10 @@ Lorsque vous êtes prêt à acheter [!INCLUDE[prodshort](includes/prodshort.md)]
 Si vous souhaitez des conseils de Microsoft, contactez l'[Équipe commerciale Microsoft](https://go.microsoft.com/fwlink/?linkid=828707).  
 
 Votre partenaire revendeur gèrera aussi le support technique pour votre compte. Pour plus d'informations, reportez-vous à la rubrique [Ressources pour l'aide et l'assistance technique](product-help-and-support.md).  
+
+## <a name="where-do-i-find-that-line-number"></a>Où puis-je trouver ce numéro de ligne ?
+
+Les documents tels que les commande vente ou les factures achat se composent d'en-têtes et de lignes. Chaque ligne a un numéro que [!INCLUDE [prodshort](includes/prodshort.md)] utilise pour identifier cette ligne particulière. Par conséquent, vous pouvez voir un avertissement ou un message d'erreur indiquant un problème avec le numéro de ligne 1000, par exemple. Dans la version par défaut de [!INCLUDE [prodshort](includes/prodshort.md)], les numéros de ligne sont masqués. Si vous voulez afficher les numéros de ligne, vous devez personnaliser la page actuelle et ajouter le champ **N° ligne**. . Pour plus d'informations, voir [Personnaliser votre espace de travail](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).  
 
 ## <a name="why-is-new-information-not-available-in-my-language"></a>Pourquoi les nouvelles informations ne sont-elles pas disponibles dans ma langue ?
 

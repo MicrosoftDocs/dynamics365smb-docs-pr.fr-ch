@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: bholtorf
-ms.openlocfilehash: 0763119e323a8bae6d2b7ce3db0780284befa292
-ms.sourcegitcommit: 0c6f4382fad994fb6aea9dcde3b2dc25382c5968
+ms.openlocfilehash: 2c7b7c4175f4c17e01c114f76d0b14834e0409ae
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "3484124"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617719"
 ---
 # <a name="synchronizing-data-in-business-central-with-common-data-service"></a>Synchronisation des données dans Business Central avec Common Data Service
+
 Lorsque vous intégrez [!INCLUDE[d365fin](includes/cds_long_md.md)] avec [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez décider si vous souhaitez synchroniser les données dans les champs sélectionnés des enregistrements [!INCLUDE[d365fin](includes/d365fin_md.md)] (tels que les clients, contacts et les vendeurs) avec les enregistrements équivalents dans [!INCLUDE[d365fin](includes/cds_long_md.md)] (tels que les comptes, les contacts et les utilisateurs). Selon le type d'enregistrement, vous pouvez synchroniser les données de [!INCLUDE[d365fin](includes/cds_long_md.md)] vers [!INCLUDE[d365fin](includes/d365fin_md.md)], ou vice versa. Pour plus d'informations, reportez-vous à la rubrique [Intégration à Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
 
 La synchronisation utilise les éléments suivants :
@@ -42,13 +43,13 @@ Les entités dans [!INCLUDE[d365fin](includes/cds_long_md.md)], telles que des c
 
 Le tableau suivant répertorie le mappage standard entre les entités dans [!INCLUDE[d365fin](includes/d365fin_md.md)] et [!INCLUDE[d365fin](includes/cds_long_md.md)] que [!INCLUDE[d365fin](includes/d365fin_md.md)] fournit.
 
-|[!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[d365fin](includes/cds_long_md.md)]|Direction de synchronisation|Filtre par défaut|
-|-------------------------------------------|-----|-------------------------|--------------|
-|Vendeur/Acheteur|Utilisateur|[!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Filtre contact [!INCLUDE[d365fin](includes/cds_long_md.md)] : le **Statut** est **Non**, l'**Utilisateur sous licence** est **Oui**, le Mode utilisateur de l'intégration est **Non**|
-|Client|Compte|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] et [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Filtre compte [!INCLUDE[d365fin](includes/cds_long_md.md)] : le **type de relation** est **Client** et le **statut** est **Actif**. Filtre [!INCLUDE[d365fin](includes/d365fin_md.md)] : **Bloqué** est vide (le client n'est pas bloqué).|
-|Fournisseur|Compte|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] et [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Filtre compte [!INCLUDE[d365fin](includes/cds_long_md.md)] : le **type de relation** est **Fournisseur** et le **statut** est **Actif**. Filtre [!INCLUDE[d365fin](includes/d365fin_md.md)] : **Bloqué** est vide (le fournisseur n'est pas bloqué).|
-|Contact|Contact|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] et [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Filtre contact [!INCLUDE[d365fin](includes/d365fin_md.md)] : le champ **Type** est défini sur **Personne** et le contact est affecté à une société. Filtre contact [!INCLUDE[d365fin](includes/cds_long_md.md)] : le contact est affecté à une société et le type de client parent est **Compte**|
-|Devise|Devise de transaction|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)]| |
+| [!INCLUDE[d365fin](includes/d365fin_md.md)] | [!INCLUDE[d365fin](includes/cds_long_md.md)] | Direction de synchronisation | Filtre par défaut |
+|---------------------------------------------|----------------------------------------------|---------------------------|----------------|
+| Vendeur/Acheteur | Utilisateur | [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | Filtre contact [!INCLUDE[d365fin](includes/cds_long_md.md)] : le **Statut** est **Non**, l'**Utilisateur sous licence** est **Oui**, le Mode utilisateur de l'intégration est **Non** |
+| Client | Compte | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] et [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | Filtre compte [!INCLUDE[d365fin](includes/cds_long_md.md)] : le **type de relation** est **Client** et le **statut** est **Actif**. Filtre [!INCLUDE[d365fin](includes/d365fin_md.md)] : **Bloqué** est vide (le client n'est pas bloqué). |
+| Fournisseur | Compte | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] et [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | Filtre compte [!INCLUDE[d365fin](includes/cds_long_md.md)] : le **type de relation** est **Fournisseur** et le **statut** est **Actif**. Filtre [!INCLUDE[d365fin](includes/d365fin_md.md)] : **Bloqué** est vide (le fournisseur n'est pas bloqué). |
+| Contact | Contact | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] et [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | Filtre contact [!INCLUDE[d365fin](includes/d365fin_md.md)] : le champ **Type** est défini sur **Personne** et le contact est affecté à une société. Filtre contact [!INCLUDE[d365fin](includes/cds_long_md.md)] : le contact est affecté à une société et le type de client parent est **Compte** |
+| Devise | Devise de transaction | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] |  |
 
 
 ### <a name="tip-for-admins-viewing-entity-mappings"></a>Astuce dédiée aux administrateurs : affichage des mappages d'entité

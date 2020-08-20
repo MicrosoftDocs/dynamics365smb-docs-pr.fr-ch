@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8b332e50d722ff56625fce45a9617ea67ec2201a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: bf893e2f8ea7eaeee9867566da92461eef7a9578
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184211"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3666812"
 ---
 # <a name="fixed-assets"></a>COMPTES D'IMMOBILISATIONS
 Le module Immobilisations dans [!INCLUDE[d365fin](includes/d365fin_md.md)] offre un aperçu des immobilisations et garantit un amortissement périodique correct. Elle vous permet également de connaître les coûts de maintenance, de gérer les polices d'assurance, de valider les transactions d'immobilisations, et de générer des états et des statistiques variés.
@@ -47,6 +47,11 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | Calculer l'amortissement, valider l'amortissement et analyser l'amortissement dans les états sur les immobilisations. |[Amortir des immobilisations](fa-how-depreciate-amortize.md) |
 | Valider les transactions de cession, visualiser les écritures comptables cession et valider les cessions partielles. |[Céder ou annuler des immobilisations](fa-how-dispose-retire.md) |
 | Gérer les budgets d'immobilisations, budgéter les coûts d'acquisition, les cessions d'immobilisations et l'amortissement. |[Gérer les budgets pour les immobilisations](fa-how-manage-budgets.md) |
+
+## <a name="video-overview"></a>Présentation de la vidéo
+La vidéo suivante couvre les notions de base des immobilisations.
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS]
 
 ## <a name="see-also"></a>Voir aussi
 [Paramétrage d'immobilisations](fa-setup.md)  

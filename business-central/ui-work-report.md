@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: task, process, report
 ms.date: 06/10/2020
 ms.author: sgroespe
-ms.openlocfilehash: 19811dadb284ee9e629c9dc518df5cb989175fdb
-ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
+ms.openlocfilehash: 11c3fa284a457db1de272a3d92ebc7fc873ad933
+ms.sourcegitcommit: 99cecd005f8ede70e9a3d163a457fcb9aadb6843
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3454344"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "3549907"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Utilisation des états, des traitements par lots et des ports XML
 
@@ -50,7 +50,7 @@ Le fait d'utiliser les paramètres enregistrés est une façon rapide et fiable 
 
 ## <a name="previewing-a-report"></a>Affichage de l'aperçu d'un état
 
-Cliquez sur le bouton **Aperçu** pour afficher l'état. Utilisez la barre de menus dans l'aperçu de l'état pour :
+Cliquez sur le bouton **Aperçu** pour afficher l'état dans la page de demande d'état. Utilisez la barre de menus dans l'aperçu de l'état pour :
 
 - Naviguer entre les pages
 - Effectuer un zoom avant et arrière
@@ -77,17 +77,32 @@ Lorsque vous planifiez l'exécution d'un rapport, vous pouvez spécifier qu'il d
 Vous pouvez choisir de sauvegarder l'état traité dans un fichier, par exemple, Excel, Word ou PDF, de l'imprimer sur une imprimante sélectionnée ou de traiter l'état uniquement. Si vous choisissez d'enregistrer l'état dans un fichier, alors l'état traité est envoyé à la **Boîte de réception état** sur votre tableau de bord, dans laquelle vous pouvez l'afficher.  
 
 ## <a name="printing-a-report"></a><a name="PrintReport"></a>Impression d'un état
-Vous pouvez imprimer un état en cliquant sur le bouton **Impression** sur la page de demande d'état ou dans la barre de menu sur la page **Aperçu**.
 
-Comme [!INCLUDE[prodshort](includes/prodshort.md)] est un service cloud, il ne peut pas atteindre les imprimantes locales connectées aux machines des utilisateurs. Cependant, il peut se connecter aux imprimantes cloud. Dans la version générique de [!INCLUDE[prodshort](includes/prodshort.md)], une imprimante cloud nommée **Imprimante par e-mail** est installée en tant qu'extension et prête à l'emploi après la configuration initiale.
+Vous imprimez un état en cliquant sur le bouton **Impression** sur la page de demande d'état ou dans la barre de menu sur la page **Aperçu**.
 
-Si aucune imprimante cloud n'est installée et configurée ou si une imprimante installée échoue, l'impression reprend par défaut les options d'impression du navigateur. Ceci est indiqué par cette valeur dans le champ **Imprimante** sur la page de demande d'état : *(aucune, gestion par le navigateur)*.
+### <a name="printer-selection"></a>Sélection de l'imprimante
 
-Sur la page **Gestion des imprimantes**, vous pouvez voir les imprimantes configurées. Pour en savoir plus, consultez [Paramétrage imprimantes](ui-specify-printer-selection-reports.md).
+L'état est imprimé sur l'imprimante indiquée dans le champ **Imprimante sélectionnée** de la page de demande d'état. Vous ne pouvez pas changer d'imprimante sur cette page.
+
+L'imprimante sélectionnée est définie sur la page **Sélections d'imprimantes** ou il s'agit de l'imprimante par défaut configurée sur la page **Gestion des imprimantes**. Si vous souhaitez utiliser une autre imprimante, consultez [Paramétrage imprimantes](ui-specify-printer-selection-reports.md).
+
+Si aucune imprimante n'est spécifiée sur la page **Sélections d'imprimantes** ou n'est définie par défaut sur la page **Gestion des imprimantes**, la fonction d'impression du navigateur est utilisée. Dans ce cas, **Navigateur** s'affiche dans le champ **Imprimante sélectionnée** de la page de demande d'état. 
+
+### <a name="browser-printing"></a>Impression du navigateur
+
+Comme [!INCLUDE[prodshort](includes/prodshort.md)] est un service cloud, il ne peut pas atteindre les imprimantes locales connectées à votre ordinateur. Cependant, il peut se connecter aux imprimantes cloud. Dans la version générique de [!INCLUDE[prodshort](includes/prodshort.md)], une imprimante cloud nommée **Imprimante par e-mail** est installée en tant qu'extension et prête à l'emploi après la configuration initiale.
+
+Si aucune imprimante cloud n'est installée et configurée ou si une imprimante installée échoue, l'impression reprend par défaut les options d'impression du navigateur.
 
 > [!NOTE]
-> Vous ne pouvez pas modifier le champ **Imprimante** sur la page de demande d'état. Pour utiliser une autre imprimante, vous devez la sélectionner sur la page **Gestion des imprimantes**.
+> Les options d'impression du navigateur fonctionnent indépendamment de [!INCLUDE[prodshort](includes/prodshort.md)]. Les paramètres d'imprimante qui auraient pu être configurés à partir des imprimantes dans [!INCLUDE[prodshort](includes/prodshort.md)] ne sont pas répercutés dans les options d'impression du navigateur.
 
+<!-- 
+On the **Printer Management** page, you can see the printers that are set up. For more information, see [Set Up Printers](ui-specify-printer-selection-reports.md).
+
+> [!NOTE]
+> You can't change the **Printer** field on the report request page. To use another printer, you must select it from the **Printer Management** page.
+-->
 ### <a name="printing-reports-in-thai"></a>Impression d'états en thaïlandais
 Spécifiquement pour la version thaïlandaise de [!INCLUDE[prodshort](includes/prodshort.md)], le bouton **Imprimer** ne peut pas imprimer correctement des états en raison des limitations du service qui génère un fichier PDF imprimable. À la place, vous pouvez ouvrir l'état dans Word puis enregistrer l'état en tant que fichier PDF imprimable.  
 

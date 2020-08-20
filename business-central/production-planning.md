@@ -8,25 +8,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/05/2020
+ms.date: 07/14/2020
 ms.author: sgroespe
-ms.openlocfilehash: f2389dad61a943520cf7e09a5d8e0118b61db5c8
-ms.sourcegitcommit: 57e31a8b92feeaf8c6c63eba147f36b38eee7679
+ms.openlocfilehash: fc311badfb682bdedb37139bba5618ab60c1d988
+ms.sourcegitcommit: 89d0ea903f61ab0628f99329c762d9f1619c49a7
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "3339985"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "3577166"
 ---
 # <a name="planning"></a>Planning
+
 Les opérations de production nécessaires à la transformation d'entrées en produits finis doivent être planifiées de manière quotidienne ou hebdomadaire en fonction du volume et de la nature des produits. [!INCLUDE[d365fin](includes/d365fin_md.md)] fournit des fonctionnalités permettant de répondre à la demande réelle et anticipée des ventes, de l'assemblage et de la production, et inclut des fonctionnalités pour une planification de la distribution basée sur les points de stock et les transferts d'emplacement.
 
 > [!NOTE]
-> Cette rubrique décrit essentiellement la planification des sociétés impliquées dans la fabrication ou la gestion des assemblages, où les commandes approvisionnement qui en résultent peuvent être des ordres de production, d'assemblage, de transfert ou des commandes achat. L'interface principale de cette tâche de planification est la page **Feuille planning**.<br /><br />
+> Cette rubrique décrit essentiellement la planification des sociétés impliquées dans la fabrication ou la gestion des assemblages, où les commandes approvisionnement qui en résultent peuvent être des ordres de production, d'assemblage, de transfert ou des commandes achat. L'interface principale de cette tâche de planification est la page **Feuille planning**.
+>
 > [!INCLUDE[d365fin](includes/d365fin_md.md)] prend également en charge la planification de l'approvisionnement pour les sociétés de vente en gros, où les commandes approvisionnement qui en résultent peuvent être des ordres de transfert et des commandes achat. L'interface principale de cette tâche de planification est la page **Demande achat**, qui est décrite indirectement dans cette rubrique, car la plupart des fonctionnalités de planification s'appliquent aux deux feuilles.
 
 La planification peut être considérée comme la préparation des commandes approvisionnement requises dans les départements d'achat, d'assemblage ou de fabrication pour répondre à la demande de vente ou d'articles finis. Pour plus d'informations, voir [Achats](purchasing-manage-purchasing.md), [Gestion des assemblages](assembly-assemble-items.md) et [Production](production-manage-manufacturing.md).
 
-Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.   
+Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.  
 
 |**Pour**|**Voir**|  
 |------------|-------------|  
@@ -38,7 +40,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |Créer un ordre de fabrication projet directement à partir d'une commande vente multiligne représentant un projet de production.|[Planifier les O.F. projets](production-how-to-plan-project-orders.md)|
 |Utiliser la page **Planification commande** pour effectuer la planification manuellement pour des ordres de vente ou de fabrication un niveau de nomenclature de production à la fois.|[Planifier de nouvelles demandes commande par commande](production-how-to-plan-for-new-demand.md)|
 |Utiliser la page **Feuille planning** pour exécuter les options PDP et MRP pour créer automatiquement un programme d'approvisionnement détaillé à tous les niveaux d'article.|[Exécuter une planification complète et un calcul PDP ou MRP](production-how-to-run-mps-and-mrp.md)|
-|Exécuter la demande achat pour créer automatiquement un programme d'approvisionnement détaillé pour répondre à la demande d'articles réapprovisionnés uniquement par achat ou transfert.|Page **Demande achat**|  
+|Utilisez la page **Demande achat** pour créer automatiquement un programme d'approvisionnement détaillé pour répondre à la demande d'articles réapprovisionnés uniquement par achat ou transfert.|[Demande achat](production-about-planning-functionality.md#requisition-worksheet)|  
 |Lancer ou mettre à jour un ordre de fabrication en tant qu'opérations planifiées approximativement dans la planification de production.|[Replanifier ou actualiser directement des ordres de fabrication](production-how-to-replan-refresh-production-orders.md)|
 |Recalculer les calendriers de centre de charge ou de poste de charge en raison de changements de planning.|[Pour calculer un calendrier de centre de charge](production-how-to-create-work-center-calendars.md#to-calculate-a-work-center-calendar)|
 |Suivre la demande de commande (quantité chaînée), les prévisions, les commandes ouvertes vente ou les paramètres de planification (quantité non chaînée) qui ont donné lieu à la ligne planning en question.|[Suivre les relations entre l'offre et la demande](production-how-track-demand-supply.md)|

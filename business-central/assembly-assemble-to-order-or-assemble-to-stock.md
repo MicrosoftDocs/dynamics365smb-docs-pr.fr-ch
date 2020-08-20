@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: bholtorf
-ms.openlocfilehash: a8b5ab66b680b6c49226e308e6f2e17a0c2604f9
-ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
+ms.openlocfilehash: a5fc9b13e28b51d776fad6d02feae4624b756c4c
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "3496815"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617951"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Description des processus Assembler pour commande et Assembler pour stock
 Les éléments d'assemblage peuvent être fournis dans le cadre des deux processus suivants :  
@@ -72,7 +72,7 @@ Lorsque vous entrez un article à assembler pour commande sur une ligne vente, u
 
  La table suivante explique les règles qui définissent les valeurs minimale et maximale que vous pouvez saisir dans le champ **Quantité à assembler** pour spécifier une valeur autre que celle par défaut dans un scénario de combinaison. Le tableau affiche un scénario de combinaison dont le champ **Qté. à expédier** de la ligne commande vente liée passe de 7 à 4 ; le champ **Quantité à assembler** prend donc par défaut la valeur 4.  
 
-||Ligne commande vente|En-tête d'ordre d'assemblage|  
+|-|Ligne commande vente|En-tête d'ordre d'assemblage|  
 |-|----------------------|---------------------------|  
 ||**Quantité**|**Qté à expédier**|**Qté vers Assembler pour commande**|**Qté expédiée**|**Quantité**|**Quantité à assembler**|**Quantité assemblée**|**Quantité restante**|  
 |Initial|10|7|7|0|7|7|0|7|  

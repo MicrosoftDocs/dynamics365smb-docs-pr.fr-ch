@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: bfd2c67c7e7133f13a2e021cb9cf70ba82f6bb21
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 098bb0e946d78f69a848ddeb8405ea43579c4597
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185171"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617642"
 ---
 # <a name="design-details-item-application"></a>Détails de conception : lettrage article
+
 Lorsque vous validez une transaction de stock, la validation de quantité est enregistrée dans les écritures comptables article, la validation de valeur dans les écritures valeur. Pour plus d'informations, voir [Détails de conception : comptabilisation stock](design-details-inventory-posting.md).  
 
 De même, un lettrage article est effectué pour lier le destinataire de coût à sa source de coût pour assurer le transfert de coûts en fonction de la méthode d'évaluation du stock. Pour plus d'informations, [Détails de conception : modes évaluation stock](design-details-costing-methods.md).  
@@ -34,21 +35,21 @@ Les lettrages article peuvent être effectués des manières suivantes.
 |Méthode|Désignation|Type de lettrage|  
 |------------|---------------------------------------|----------------------|  
 |Automatique|Se produit en tant que transfert de coûts général selon le mode évaluation stock|Lettrage de quantité|  
-|Statique|Effectué par l'utilisateur lorsque :<br /><br /> -   Traitement des retours<br />-   Validation de corrections<br />-   Annulation des validations de quantité<br />-   Création de livraisons directes **Remarque :** Le lettrage fixe peut être effectué manuellement en saisissant un numéro de séquence dans le champ **Écriture article à lettrer** ou à l'aide d'une fonction, telle que **Afficher des lignes document validées à contrepasser**.|Lettrage de quantité<br /><br /> Coût lettré **Remarque :**  L'application coût se produit uniquement avec des transactions entrantes dont le champ **Écriture article à lettrer** est renseigné pour créer un lettrage fixe. Consultez la table suivante.|  
+|Statique|Effectué par l'utilisateur lorsque :<br /><br /> -   Traitement des retours<br />-   Validation de corrections<br />-   Annulation des validations de quantité<br />-   Création de livraisons directes **Remarque :**  Le lettrage fixe peut être effectué manuellement en saisissant un numéro de séquence dans le champ **Écriture article à lettrer** ou à l'aide d'une fonction, telle que **Afficher des lignes document validées à contrepasser**.|Lettrage de quantité<br /><br /> Coût lettré **Remarque :**  L'application coût se produit uniquement avec des transactions entrantes dont le champ **Écriture article à lettrer** est renseigné pour créer un lettrage fixe. Consultez la table suivante.|  
 
 La réalisation des applications de quantité ou applications de coût dépend dépend de la direction de la transaction de stock et si l'application d'article est automatique ou fixe, en fonction des processus spécifiques.  
 
 Le tableau suivant montre, à l'aide des champs de lettrage principaux sur les lignes mouvement de stock, la manière dont les coûts circulent en fonction de la direction de transaction. Il indique aussi la date et la raison pour laquelle le lettrage article est de type quantité ou coût.  
 
-||Champ Écr. article à lettrer|Champ Écriture article à lettrer|  
+|-|Champ Écr. article à lettrer|Champ Écriture article à lettrer|  
 |-|--------------------------------|----------------------------------|  
 |Lettrage pour écriture sortante|L'écriture sortante extrait le coût de l'écriture entrante ouverte.<br /><br /> **Lettrage de quantité**|Non pris en charge|  
 |Lettrage pour écriture entrante|L'écriture entrante impose le coût sur l'écriture sortante ouverte.<br /><br /> L'écriture entrante est la source du coût.<br /><br /> **Lettrage de quantité**|L'écriture entrante extrait le coût de l'écriture sortante. **Remarque :** Lors de la réalisation de cette application fixe, la transaction entrante est traitée comme retour vente. Par conséquent, l'écriture de sortie appliquée reste ouverte. <br /><br /> L'écriture entrante n'est PAS la source du coût.<br /><br /> **Coût lettré**|  
 
 > [!IMPORTANT]  
->  Un retour vente n'est PAS considéré comme une source de coût quand il est lettré de façon fixe.  
->   
->  Les écriture vente restent ouvertes jusqu'à ce que la source réelle soit validée.  
+> Un retour vente n'est PAS considéré comme une source de coût quand il est lettré de façon fixe.  
+>
+> Les écriture vente restent ouvertes jusqu'à ce que la source réelle soit validée.  
 
 Une écriture lettrage article enregistre les informations suivantes.  
 
@@ -234,7 +235,7 @@ En raison du mode de calcul du coût unitaire d'un article, un lettrage article 
 
 * Vous avez oublié d'effectuer un lettrage fixe.  
 * Vous avez effectué un lettrage incorrect.  
-* Vous souhaitez annuler l'application créée automatiquement lors de la validation, en fonction du mode d'évaluation de l'article.  
+* Vous souhaitez annuler le lettrage créé automatiquement lors de la validation, en fonction du mode d'évaluation stock de l'article.  
 * Vous devez retourner un article sur lequel une vente a déjà été appliquée manuellement, sans utiliser la fonction **Afficher des lignes document validées à contrepasser** et vous devez donc annuler l'application.  
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] propose une fonction pour analyser et corriger des lettrages article. Cela s'effectue sur la page **Feuille lettrage**.  

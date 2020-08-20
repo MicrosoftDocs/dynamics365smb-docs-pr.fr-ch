@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 07/14/2020
 ms.author: sgroespe
-ms.openlocfilehash: d6440c4cf2f7b5e41f320fcbb1d72d353ae4f5e9
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 48d8e3baf3adfbd4836cadb638949e54555a39c9
+ms.sourcegitcommit: 89d0ea903f61ab0628f99329c762d9f1619c49a7
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188051"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "3577393"
 ---
 # <a name="track-document-lines"></a>Suivre des lignes document
 Vous pouvez afficher les documents associés aux lignes commande vente et aux lignes commande achat, notamment à partir des lignes commande archivées. Les documents associés que vous pouvez suivre comprennent les devis, les expéditions, les réceptions et les commandes ouvertes. Cela vous aide à identifier les documents utilisés pour traiter les commandes.  
@@ -28,6 +28,8 @@ La procédure suivante décrit comment effectuer le suivi à partir d'une ligne 
 3.  Sélectionnez une ligne, puis choisissez l'action **Traçabilité ligne document**.
 4. Sur la page **Traçabilité ligne document**, sélectionnez le document que vous voulez afficher, puis choisissez l'action **Afficher** pour afficher la ligne associée.
 5. Pour afficher le document entier pour la ligne document sélectionnée, choisissez l'action **Afficher document**.
+
+[!INCLUDE [line-no-info](includes/line-no-info.md)]
 
 ## <a name="see-also"></a>Voir aussi
 [Ventes](sales-manage-sales.md)  

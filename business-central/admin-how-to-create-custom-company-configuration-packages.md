@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8bbd9b07976dc4d54f8bee9f5eb8c23270c5a10c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c133a678d3628fa8274399d22e7f53b73740e3d8
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187187"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3666862"
 ---
 # <a name="create-custom-company-configuration-packages"></a>Créer des packages configuration de société personnalisés
 À mesure que vous développez votre activité, vous êtes susceptible d'utiliser un ensemble de types de société pour la plupart de vos clients. Vous pouvez rationaliser votre processus d’implémentation en transformant ces types en packages configuration de société que vous pouvez réutiliser.  
@@ -38,6 +38,11 @@ Autrement, vous pouvez créer un package qui inclut les tables qui définissent 
 -   Paramètres compta. stock  
 
 Pour visualiser la liste complète des tables de configuration, choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Configuration manuelle**, puis sélectionnez le lien associé.  
+
+> [!IMPORTANT]
+> Soyez prudent si vous choisissez des tables ou des champs qui portent le même nom temporel mais sont différenciés par des caractères spéciaux, tels que %, &, <, >, (, et ). Par exemple, la table « XYZ » peut contenir les champs « Champ 1 » et « Champ 1 % ».
+>
+> Le processeur XML n'accepte que certains caractères spéciaux et supprime ceux qu'il n'accepte pas. Si la suppression d'un caractère spécial, tel que le signe % dans « Champ 1 % », génère deux ou plusieurs tables ou champs avec le même nom, une erreur se produit lorsque vous exportez ou importez un package de configuration.
 
 ## <a name="to-create-a-custom-company-configuration-package"></a>Pour créer un package configuration de société personnalisé  
 1.  Créez une nouvelle société. Pour plus d'informations, voir [Création de sociétés dans Business Central](about-new-company.md).  

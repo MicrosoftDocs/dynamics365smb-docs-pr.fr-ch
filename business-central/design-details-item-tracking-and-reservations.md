@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: bfa2706b4d6d44a6f565685a66668c336b7a20e3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 5270d0a45b6da568506db8ae9b166be57d391f17
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185123"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617561"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Détails de conception : traçabilité et réservations
+
 L'utilisation simultanée de la réservation et de la traçabilité spécifique est rare, parce qu'elles créent toutes les deux un couplage entre l'approvisionnement et la demande. Sauf pour les situations où un client ou un gestionnaire de production demande un lot spécifique, il est rarement judicieux de réserver des articles de stock qui possèdent déjà des numéros traçabilité pour un lettrage spécifique. Bien qu'il soit possible de réserver des articles nécessitant une traçabilité, une fonctionnalité spéciale est nécessaire pour éviter les conflits de disponibilité entre les préparateurs de commandes qui demandent les mêmes articles suivis.  
   
 Le concept de Lien tardif garantit qu'une réservation non spécifique d'un numéro de série ou d'un numéro de lot reste légèrement couplée jusqu'à la validation. Au moment de la validation, le système de réservation peut remanier les réservations non spécifiques pour s'assurer que le lettrage fixe est possible par rapport au numéro de série/lot prélevé de manière effective. Par ailleurs, le numéro de lot ou de série est disponible pour une réservation spécifique dans d'autres documents demandant ce numéro de série ou de lot spécifique.  
@@ -25,7 +26,7 @@ Le concept de Lien tardif garantit qu'une réservation non spécifique d'un num�
 Une réservation non spécifique est une réservation pour laquelle l'utilisateur ne se soucie pas de l'article prélevé en particulier, alors qu'une réservation spécifique est une réservation pour laquelle l'utilisateur se soucie de l'article prélevé en particulier.  
   
 > [!NOTE]  
->  La fonctionnalité Lien tardif concerne uniquement les articles qui sont paramétrés avec une traçabilité spécifique, et elle s'applique uniquement aux réservations sur le stock, et non sur les commandes approvisionnement entrantes.  
+> La fonctionnalité Lien tardif concerne uniquement les articles qui sont paramétrés avec une traçabilité spécifique, et elle s'applique uniquement aux réservations sur le stock, et non sur les commandes approvisionnement entrantes.  
   
 La réservation des numéros traçabilité se classe en deux catégories, comme indiqué dans le tableau ci-dessous.  
   
@@ -36,11 +37,9 @@ La réservation des numéros traçabilité se classe en deux catégories, comme 
   
 La principale différence entre la réservation spécifique et la réservation non spécifique est définie par l'existence des numéros de série ou des numéros de lot du côté de la demande, comme l'indique le tableau ci-dessous.  
   
-||||  
-|-|-|-|  
-||**Approvisionnement**|**Demande**|  
+|<!--blank -->|**Fourniture**|**Demande**|  
 |**Spécifique**|Numéro de série ou de lot.|Numéro de série ou de lot.|  
-|**Non spécifique**|Numéro de série ou de lot.|Aucun numéro de série ou de lot|  
+|**Non spécifique**|Numéro de série ou de lot.|Numéro de série ou de lot.|  
   
 Lorsque vous réservez des quantités en stock à partir d'une ligne document sortant pour un article ayant des numéros de suivi article affectés et étant configuré pour un suivi d'article spécifique, la page **Réservation** vous conduit à travers différents flux de travail en fonction de votre besoin de numéros de série ou de lot.  
   

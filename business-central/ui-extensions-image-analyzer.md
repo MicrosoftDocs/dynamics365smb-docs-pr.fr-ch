@@ -1,7 +1,6 @@
 ---
 title: Utilisation de l'extension d'analyseur Image | Microsoft Docs
 description: Cette extension vous permet d'analyser des photos des contacts et des articles permettant de rechercher des attributs, afin de les trouver rapidement dans Business Central.
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
-ms.date: 04/01/2020
+ms.date: 07/21/2020
 ms.author: bholtorf
-ms.openlocfilehash: 0f5b472dca560ba12eb0461842878d622c6eaee3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: e2099599edcf5217b0130e75bbb171fddd39839e
+ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194202"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3611474"
 ---
 # <a name="the-image-analyzer-extension"></a>Extension d'analyseur Image
+
 L'extension d'analyseur Image utilise les analyses d'image puissantes fournies par l'API Vision par ordinateur de Microsoft Cognitive Services pour détecter des attributs dans les images que vous importez pour des articles et des contacts, afin de les examiner et de les affecter facilement. Pour les articles, les attributs peuvent être si l'article est une table ou une voiture et, s'il est rouge ou bleu. Pour les contacts, les attributs peuvent être le sexe ou l'âge.
 
 L'analyseur Image propose des attributs basés sur des balises trouvées par l'API Vision par ordinateur et un niveau de confiance. Par défaut, il propose des attributs uniquement s'il est sûr à au moins 80 % que l'attribut est correct. Vous pouvez définir un autre niveau de confiance, si nécessaire. Pour en savoir plus sur la manière dont les balises et le niveau de confiance sont déterminés, voir [API Vision par ordinateur](https://go.microsoft.com/fwlink/?linkid=851476).  
@@ -28,9 +28,11 @@ L'analyseur Image est gratuit dans [!INCLUDE[d365fin](includes/d365fin_md.md)], 
 Après avoir activé l'extension, l'analyseur Image fonctionne chaque fois que vous importez une image à un article ou à un contact. Vous pourrez consulter les attributs, le niveau de confiance et les détails immédiatement, et décider de gérer chaque attribut. Si vous avez importé des images avant d'activer l'extension d'analyseur Image, vous devez consulter la fiche article ou contact et choisir l'action **Analyser l'image**.  
 
 ## <a name="privacy-notice"></a>Déclaration de confidentialité
+
 Cette extension utilise l'API Vision par ordinateur de Microsoft Cognitive Services, qui peut avoir différents niveaux d'engagements en matière de conformité par rapport à [!INCLUDE[d365fin](includes/d365fin_md.md)]. Lorsque vous activez l'extension Analyseur Image, les données client telles qu'une image de contact ou une image d'article sont envoyées à l'API Vision par ordinateur. En installant cette extension, vous acceptez que cet ensemble limité de données soit envoyé à l'API Vision par ordinateur. Notez que vous pouvez désactiver et désinstaller l'extension Analyseur Image à tout moment pour ne plus utiliser cette fonctionnalité. Pour plus d'informations, voir [Centre de gestion de la confidentialité Microsoft](https://go.microsoft.com/fwlink/?linkid=851463).
 
 ## <a name="requirements"></a>Conditions requises
+
 Certaines exigences s'appliquent aux images :
 
 * Formats des images : JPEG, PNG, GIF, BMP  
@@ -38,6 +40,7 @@ Certaines exigences s'appliquent aux images :
 * Dimensions des images : supérieure à 50 x 50 pixels  
 
 ## <a name="to-enable-image-analyzer"></a>Pour activer l'analyseur Image
+
 L'extension d'analyseur Image est intégrée à [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vous devez juste l'activer.
 
 > [!NOTE]  
@@ -52,6 +55,7 @@ L'extension d'analyseur Image est intégrée à [!INCLUDE[d365fin](includes/d365
     > La page **Configuration de l’analyse de l’image** vous permet également de modifier le degré de confiance des suggestions d'attribut. Par exemple, si vous souhaitez avoir besoin d'un niveau de confiance supérieur, vous pouvez saisir un pourcentage plus élevé.
 
 ## <a name="to-analyze-an-image-of-an-item"></a>Pour analyser la photo d'un article
+
 Les étapes suivantes décrivent comment analyser une image importée avant que vous ayez activé l'extension d'analyseur Image.  
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles**, puis sélectionnez le lien associé.  
@@ -62,16 +66,19 @@ Les étapes suivantes décrivent comment analyser une image importée avant que 
     > Vous pouvez ajouter le nom de l'attribut à la description de l'article en choisissant **Ajouter à la description de l'article**. Par exemple, cela peut être utile pour ajouter rapidement un détail.  
 
 ## <a name="to-analyze-a-picture-of-a-contact-person"></a>Pour analyser la photo d'un contact
+
 Les étapes suivantes décrivent comment analyser une image importée avant que vous ayez activé l'extension d'analyseur Image.  
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Contacts**, puis sélectionnez le lien associé.  
 2. Sélectionnez le contact, puis cliquez sur **Analyser l'image**.  
 3. Sur le raccourci **Questionnaire profil**, consultez les suggestions, et faites des corrections si nécessaire.  
 
-## <a name="blacklisting-suggested-attributes"></a>Placement des attributs suggérés sur la liste noire
-Si l'analyse suggère un attribut que vous ne souhaitez pas voir, vous pouvez le mettre sur la liste noire. Faites attention, cependant. Les attributs mis sur la liste noire ne sont pas proposés pour d'autres articles ou contacts. Si vous regrettez d'avoir placé un attribut sur la liste noire, vous pouvez choisir **Attributs mis sur la liste noire**, puis supprimer l'attribut de la liste.
+## <a name="block-suggested-attributes"></a>Bloquer les attributs suggérés
+
+Si l'analyse suggère un attribut que vous ne souhaitez pas voir, vous pouvez le bloquer. Faites attention, cependant. Les attributs bloqués ne sont pas proposés pour d'autres articles ou contacts. Si vous regrettez d'avoir bloqué un attribut, vous pouvez choisir **Afficher les attributs sur la liste rouge**, puis supprimer l'attribut de la liste.
 
 ## <a name="to-use-your-own-account-for-the-computer-vision-api"></a>Pour utiliser vôtre propre compte pour l'API Vision par ordinateur
+
 Vous pouvez également utiliser votre propre compte pour l'API Vision par ordinateur, par exemple, si vous souhaitez analyser plus d'images qu'autorisé.  
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Configuration de l'analyseur Image**, puis sélectionnez le lien associé.  
@@ -81,16 +88,19 @@ Vous pouvez également utiliser votre propre compte pour l'API Vision par ordina
     > Vous devez ajouter **/analyze** à la fin de l'URI d'API, si ce n'est pas déjà le cas. Par exemple : ```https://cronus.api.cognitive.microsoft.com/vision/v1.0/analyze```
 
 ## <a name="to-see-how-many-analyses-you-have-left-in-the-current-period"></a>Pour visualiser le nombre d'analyses restant pour la période en cours
+
 Vous pouvez afficher le nombre d'analyses effectué, et le nombre restant, pour la période actuelle.  
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Configuration de l'analyseur Image**, puis sélectionnez le lien associé.  
 2. **Type limite**, **Valeur limite** et **Analyses effectuées** vous fournissent des informations sur l'utilisation.  
 
 ## <a name="to-stop-using-the-image-analyzer-extension"></a>Pour arrêter d'utiliser l'extension d'analyseur Image
+
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Connexions au service**, puis sélectionnez **Configuration de l'analyseur Image**.  
 2. Désactivez la case à cocher **Activer l'analyseur Image**.  
 
 ## <a name="see-also"></a>Voir aussi
+
 [Utiliser les attributs d'article](inventory-how-work-item-attributes.md)  
 [Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide d'extensions](ui-extensions.md)  
 [Mise en route](product-get-started.md)  

@@ -12,12 +12,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, stream, bank account link
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: ca384d58046bd0c798038878a3ed93f5a00eeec5
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 7ef9d8e7904b51956960973e06ca6d936acb1aa0
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189858"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3666887"
 ---
 # <a name="the-envestnet-yodlee-bank-feeds-extension"></a>Extension Envestnet Yodlee Bank Feeds
 Pour rapprocher rapidement des paiements effectués sur vos comptes bancaires, le service Envestnet Yodlee Bank Feeds vous permet de lier votre compte bancaire système à votre compte bancaire en ligne. Cela signifie que le dernier relevé bancaire est automatiquement ou manuellement entré dans votre feuille rapprochement, garantissant que vous traitez toujours les derniers paiements avec un risque minimal d'erreurs.
@@ -40,6 +40,9 @@ Le service Envestnet Yodlee Bank Feeds offre les avantages suivants :
 * Permet de bénéficier d'informations à jour relatives aux transactions bancaires au sein de [!INCLUDE[d365fin](includes/d365fin_md.md)].
 * Prend en charge les flux bancaires manuels comme automatiques.
 * Permet la sous-traitance des rapprochements de paiement à un comptable en donnant l'accès aux relevés bancaires.
+
+## <a name="available-bank-feeds"></a>Flux bancaires disponibles
+Vous pouvez vérifier si une banque est prise en charge en configurant et en vous connectant au service Envestnet Yodlee Bank Feeds. La banque s'affiche sur la liste si elle est prise en charge par Envestnet Yodlee.
 
 Pour plus d'informations, voir [Configurer le service Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 

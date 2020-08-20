@@ -1,5 +1,5 @@
 ---
-title: Utilisation de l'extension QuickBooks Data Migration | Microsoft Docs
+title: Extension QuickBooks Online Data Migration | Microsoft Docs
 description: Décrit comment utiliser l'extension pour migrer des clients, des fournisseurs, des articles, et des comptes de QuickBooks Online dans Business Central.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,19 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, QuickBooks, import
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: bholtorf
-ms.openlocfilehash: c3e5415c5da03c4dd9a2228cc21b7c08a9beeec3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 33de4d2b6d75f79c140c7c2fdf5b84b7a77521d6
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189738"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617801"
 ---
 # <a name="the-quickbooks-online-data-migration-extension"></a>Extension de migration des données QuickBooks Online
+
 Cette extension est incluse dans le guide d'installation facilité **Migration des données** pour vous aider à migrer les données métier pertinentes de QuickBooks Online vers [!INCLUDE[d365fin](includes/d365fin_md.md)]. Par exemple, c'est utile si votre activité se développe, et que vous avez décidé de mettre à niveau votre application de gestion d'entreprise en commençant à utiliser [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## <a name="what-data-can-i-import-from-quickbooks-online"></a>Quelles données puis-je importer de QuickBooks Online ?
+
 Vous pouvez importer les données suivantes de QuickBooks Online vers [!INCLUDE[d365fin](includes/d365fin_md.md)] :  
 
 * Clients
@@ -34,9 +36,10 @@ Vous pouvez importer les données suivantes de QuickBooks Online vers [!INCLUDE[
 Nous effectuons une migration uniquement pour les montants complets dans les documents achat et vente. Nous ne mettons pas à jour les montants partiellement payés. Par exemple, si un client a payé 300 dollars sur un total de 500 dollars dans une facture vente, nous effectuons une migration des 500 complets. Si vous avez reçu des paiements partiels, vous devez les mettre à jour manuellement, avant ou après la migration de données. Nous vous recommandons de lettrer les transactions ouvertes avant d'exécuter une migration, pour faciliter juste des éléments ensuite.
 
 > [!NOTE]  
->   Nous n'effectuons pas de migration des commandes achat ou des commandes vente.
+> Nous n'effectuons pas de migration des commandes achat ou des commandes vente.
 
 ## <a name="before-you-start"></a>Avant de commencer
+
 Une grande partie du processus de migration consiste à spécifier les comptes vers lesquels migrer les transactions. Il est judicieux de planifier ce mappage avant d'exécuter la migration de données. Par exemple, les comptes où vous validez des transactions :  
 
 * La vente d'articles ou de services à un client.
@@ -48,13 +51,15 @@ Une grande partie du processus de migration consiste à spécifier les comptes v
 Si les transactions de QuickBooks Online ont des montants de taxe, vous devez créer un compte taxes pour vos administrations fiscales dans [!INCLUDE[d365fin](includes/d365fin_md.md)] avant de pouvoir valider des transactions.
 
 ## <a name="how-do-i-start-using-the-extension"></a>Comment commencer à utiliser à l'extension ?
+
 La mise en route est simple. Il vous suffit d'exécuter le guide d'installation assistée **Migration des données**. Voici comment :
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Configuration assistée**, puis sélectionnez **Migrer des données métier**.
 2. Suivez les instructions à chaque étape du guide d'installation assistée.
 
 ## <a name="what-do-i-do-after-i-migrate-data"></a>Que faire après une migration des données ?
-Après avoir effectué une migration des données, les transactions ont le statut **Non validé**, vous pouvez les consulter et faire des ajustements. Pour consulter les transactions, accédez à la page où vous les trouveriez normalement. Par exemple, pour examiner les factures vente non validées, accédez à la page **Factures vente**. Pour consulter des feuilles paiement, accédez à la page **Feuilles paiement**.   
+
+Après avoir effectué une migration des données, les transactions ont le statut **Non validé**, vous pouvez les consulter et faire des ajustements. Pour consulter les transactions, accédez à la page où vous les trouveriez normalement. Par exemple, pour examiner les factures vente non validées, accédez à la page **Factures vente**. Pour consulter des feuilles paiement, accédez à la page **Feuilles paiement**.  
 
 Il existe quelques éléments en particulier que vous devez effectuer :
 
@@ -63,5 +68,6 @@ Il existe quelques éléments en particulier que vous devez effectuer :
 * Vérifiez les soldes de début des comptes du grand livre. QuickBooks Online ne stocke pas le solde actuel de tous les comptes, vous pouvez être amené à corriger les soldes d'ouverture.
 
 ## <a name="see-also"></a>Voir aussi
+
 [Importation des données métier à partir d'autres systèmes financiers](across-import-data-configuration-packages.md)  
 [Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide d'extensions](ui-extensions.md)  

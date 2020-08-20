@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, replenishment
-ms.date: 05/25/2020
+ms.date: 07/14/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4da1195333f6b36866f55ee02123f75df4778de0
-ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
+ms.openlocfilehash: 70ce34984a98631d20c2d836164f9328fbb15a2a
+ms.sourcegitcommit: 89d0ea903f61ab0628f99329c762d9f1619c49a7
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3402584"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "3577191"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Créer des lignes ventes et achat récurrentes
 Si vous devez souvent créer des lignes ventes et des lignes achat comportant des informations similaires, vous pouvez configurer des lignes standard que vous pouvez ensuite insérer dans les documents vente et achat, par exemple, pour les commandes de réapprovisionnement récurrentes.  
@@ -31,6 +31,8 @@ Les procédures suivantes indiquent comment utiliser des lignes ventes standard 
 
 > [!NOTE]
 > Vous ne pouvez pas définir des prix sur les lignes vente récurrentes, car les prix, les remises, etc. sont calculés sur les documents vente réels après avoir inséré les lignes vente récurrentes.
+
+[!INCLUDE [line-no-info](includes/line-no-info.md)]
 
 ## <a name="to-assign-recurring-sales-lines-to-a-customer"></a>Pour affecter des lignes vente récurrentes à un client
 

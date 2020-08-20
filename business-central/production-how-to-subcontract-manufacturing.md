@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 08/10/2020
 ms.author: sgroespe
-ms.openlocfilehash: dbe03ccde8111a4d14ce34db5b5b5e73297796be
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c2d0558febd8bd895bbc591f4165a7a8fdda8600
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191466"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677323"
 ---
 # <a name="subcontract-manufacturing"></a>Sous-traiter la production
 La sous-traitance des opérations sélectionnées au fournisseur est courante dans de nombreuses sociétés de production. La sous-traitance peut être occasionnelle ou faire partie intégrante des processus de production.
@@ -71,13 +71,6 @@ La ligne proposition transformée en commande achat est supprimée de la feuille
 
 ## <a name="posting-subcontract-purchase-orders"></a>Validation de commandes achat de sous-traitance  
 Une fois les commandes achat de sous-traitant créées, il est possible de les valider. La réception de la commande valide une écriture comptable capacité dans l'ordre de fabrication et la facturation de ce dernier valide le coût direct de la commande achat dans l'ordre de fabrication.  
-
-Lorsque l'achat est validé comme reçu, une écriture feuille production est automatiquement validée pour l'ordre de fabrication. Cela s'applique uniquement si l'opération de sous-traitance est la dernière opération sur la gamme de l'ordre de fabrication.  
-
-> [!CAUTION]  
->  La validation automatique de la production pour un ordre de fabrication en cours lorsque des articles sous-traités peut ne pas être souhaitée. Les raisons à cela peuvent être une différence entre la quantité produite prévue validée et la quantité réelle, et l"inexactitude de la date validation de la production automatique.  
->   
->  Pour éviter que la production prévue d'un ordre de fabrication ne soit validée lorsque les achats de sous-traitance sont réceptionnés, veillez à ce que l'opération sous-traitée ne soit pas la dernière. Sinon, insérez une dernière opération pour la quantité produite finale.
 
 ## <a name="to-post-a-subcontract-purchase-order"></a>Pour valider une commande achat sous-traitance  
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes achat**, puis sélectionnez le lien associé.  

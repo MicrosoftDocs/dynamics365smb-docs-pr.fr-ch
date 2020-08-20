@@ -1,7 +1,7 @@
 ---
 title: Procédure de préparation d'un package de configuration | Microsoft Docs
 description: Apprenez maintenant à configurer un package configuration RapidStart qui peut aider à configurer de nouvelles sociétés sur la base des données existantes.
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/06/2020
-ms.author: sgroespe
-ms.openlocfilehash: f2550f9df9e2eda87e2f5b3de9f6be00d4758b7a
-ms.sourcegitcommit: 7d05fc049d81cae9b2b711101cdaea037b7ba61f
+ms.author: bholtorf
+ms.openlocfilehash: 026a76fac8ce50c5eab68c40c9f7b4300f1493b8
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "3535987"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3667012"
 ---
 # <a name="prepare-a-configuration-package"></a>Préparer un package configuration
 
@@ -30,6 +30,12 @@ Plusieurs éléments doivent être pris en considération avant de créer un pac
 ### <a name="tables-that-contain-posted-entries"></a>Tables contenant des écritures validées
 
 Vous ne pouvez pas importer des données dans des tables qui contiennent des écritures validées, telles que les tables pour les écritures comptables client, fournisseur et article, et vous ne devez donc pas inclure ces données dans votre package de configuration. Vous pouvez ajouter des écritures à ces tables après avoir importé le package de configuration à l'aide de feuilles pour valider les écritures. Pour plus d'informations, voir [Validation de documents et de feuilles](ui-post-documents-journals.md).
+
+### <a name="table-names-that-contain-special-characters"></a>Noms de table contenant des caractères spéciaux
+
+Soyez prudent si des tables ou des champs portent le même nom temporel mais sont différenciés par des caractères spéciaux, tels que %, &, <, >, (, et ). Par exemple, la table « XYZ » peut contenir les champs « Champ 1 » et « Champ 1 % ».
+
+Le processeur XML n'accepte que certains caractères spéciaux et supprime ceux qu'il n'accepte pas. Si la suppression d'un caractère spécial, tel que le signe % dans « Champ 1 % », génère deux ou plusieurs tables ou champs avec le même nom, une erreur se produit lorsque vous exportez ou importez un package de configuration. 
 
 ### <a name="licensing"></a>Gestion des licences
 

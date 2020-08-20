@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: d975b0e61228f650cea5b9d6d75b27f4334bb88a
-ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
+ms.openlocfilehash: ebdd92cf957df4c21d20c7809ddf10096404ba91
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "3496840"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617694"
 ---
 #  <a name="create-analysis-reports"></a>Créer des rapports d'analyse
 Les directeurs des ventes doivent analyser de manière régulière les rotations, la marge bénéficiaire brute et d'autres indicateurs de performance des ventes clés. Les acheteurs, eux, s'intéressent plutôt à la dynamique des volumes d'achat, des performances des fournisseurs et des prix d'achat. Par ailleurs, les gestionnaires des stocks et directeurs de la logistique ont besoin d'informations sur la rotation des stocks, d'une analyse des mouvements de stock et de statistiques sur la valeur du stock.  
@@ -45,7 +45,7 @@ Vous pouvez ensuite configurer les colonnes suivantes :
 
 Selon les lignes et les colonnes configurées, [!INCLUDE[d365fin](includes/d365fin_md.md)] totalise le résultat du rapport sur la page **Rapport d'analyse**, comme indiqué dans la table suivante.  
 
-| |Ventes mois en cours|Ventes mois précédent|Ventes mois précédent (en %)|  
+|- |Ventes mois en cours|Ventes mois précédent|Ventes mois précédent (en %)|  
 |-|-|-|-|  
 |Ordinateurs| | | |  
 |Ecrans| | | |  
