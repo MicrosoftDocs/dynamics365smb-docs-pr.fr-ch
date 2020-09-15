@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: e3ca0d58e1fdd5e22f21a3d103d7ac7aa6513b9e
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: edupont
+ms.openlocfilehash: 271c15190a7e67af665e90eec85580f7675528e6
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3676729"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778219"
 ---
 # <a name="print-esr-invoices"></a>Imprimer des factures ESR
 Vous pouvez imprimer un bordereau paiement Einzahlungsschein mit Referenznummer (ESR) des façons suivantes :  

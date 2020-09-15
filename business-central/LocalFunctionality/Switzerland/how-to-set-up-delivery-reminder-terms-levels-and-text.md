@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: b216f0dbc65c618aae5092cb8bf4f923d739c4ad
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: edupont
+ms.openlocfilehash: 07997f58d13b21572545feb5f801b86ec8bd261c
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3676860"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778195"
 ---
 # <a name="set-up-delivery-reminder-terms-levels-and-text"></a>Configurer les conditions, niveaux et textes de relance livraison.
 Pour créer des relances livraison, vous devez configurer ce qui suit :  

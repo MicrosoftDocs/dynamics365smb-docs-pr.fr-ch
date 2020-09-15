@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: f7eec84e1536db29fdd6b04e5011d83720ea32aa
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: d5b40092eada7db36be3f70b7be244750d5704b7
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189148"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3777846"
 ---
 # <a name="delivery-reminders"></a>relances livraison
 Les relances livraison sont utilisées pour suivre les envois des fournisseurs en retard et pour rappeler aux fournisseurs les livraisons en retard. Pour créer des relances livraison, vous devez configurer ce qui suit :  

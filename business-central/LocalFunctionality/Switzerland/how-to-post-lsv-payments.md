@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 17b29e5ed357f139b6bbcef96204c78736404762
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: edupont
+ms.openlocfilehash: baca8686281e239545605b14fba01e8a81f04083
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3676642"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778227"
 ---
 # <a name="post-lsv-payments"></a>Valider les paiements LSV+
 Vous pouvez valider les paiements après avoir reçu l'avis de paiement Lastschrift Verfahren (LSV+) de la banque.  

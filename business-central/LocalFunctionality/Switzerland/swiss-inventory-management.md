@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 77f2a9501a36d85cd0155a7231b6eb571d1bd91e
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 31aead817f0bfc034744f4932b9b16b88066ac13
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189067"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778167"
 ---
 # <a name="swiss-inventory-management"></a>Gestion des stocks, Suisse
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] comprend les améliorations apportées à la gestion des stocks en Suisse. Notamment :  

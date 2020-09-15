@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 127c28b6cdb683f329494ce202b5ce6e39429295
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: edupont
+ms.openlocfilehash: ff5d9e53806f8cc4bd579c4ba5e72eb57b7072f9
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677189"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3779832"
 ---
 # <a name="import-swiss-post-codes"></a>Importer les codes postaux suisses
 Vous pouvez réimporter le dernier fichier des codes postaux et l'utiliser pour mettre la table **Code postal** à jour. Le fichier Code postal peut être téléchargé du site Web de la [Poste suisse](https://go.microsoft.com/fwlink/?LinkId=150292). Après avoir importé le dernier code postal, vous pouvez définir des codes postaux pour des clients ou des fournisseurs. Pour plus d'informations, reportez vous à [Enregistrer de nouveaux fournisseurs](../../purchasing-how-register-new-vendors.md).  

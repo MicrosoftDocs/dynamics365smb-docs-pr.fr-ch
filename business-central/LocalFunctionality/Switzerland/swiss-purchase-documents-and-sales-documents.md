@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/30/2020
-ms.author: sgroespe
-ms.openlocfilehash: 9d5a52c0e3f13da1b1f78408e513f731487136e0
-ms.sourcegitcommit: 866f0e6ed9df3397072b9df838e31c3a1f4b626d
+ms.author: edupont
+ms.openlocfilehash: aa17f7ec295ba84bc64c06f7476cc462b678ed59
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "3333931"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778171"
 ---
 # <a name="swiss-purchase-documents-and-sales-documents"></a>Documents vente et Documents achat, Suisse
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] comprend des améliorations suisses propres aux documents d'achat et de vente. Notamment :  

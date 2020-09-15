@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: a0e79bf9880a627d2f6707da6b69c1610d54a91f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 0e3c6fd449495b9b65f43f3962482aa0052c0bef
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189085"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778163"
 ---
 # <a name="swiss-general-ledger-accounts"></a>Comptes généraux, Suisse
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] inclut les améliorations suisses apportées aux fonctions spéciales liées aux comptes généraux.

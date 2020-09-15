@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/23/2020
-ms.author: sgroespe
-ms.openlocfilehash: 38ba9e803f765ba08dd0d7424bdfe0fe9b10702f
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: edupont
+ms.openlocfilehash: f71107b8b7ca5b259baf17276ab66b0583521a19
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677203"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778231"
 ---
 # <a name="issue-delivery-reminders-in-the-swiss-version"></a>Émettre des relances livraison dans la version suisse
 

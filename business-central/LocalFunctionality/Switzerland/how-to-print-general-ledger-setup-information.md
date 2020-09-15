@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: cabed6f6946e10cb50f75dc3183f078c6007d380
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: edupont
+ms.openlocfilehash: 9c2023b2115132376adb527e71df8c61d4815d9f
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3676930"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778215"
 ---
 # <a name="print-general-ledger-setup-information"></a>Imprimer les informations liées aux paramètres comptabilité
 Avant d'utiliser [!INCLUDE[d365fin](../../includes/d365fin_md.md)] dans les affaires quotidiennes, vous pouvez exécuter le rapport **Informations de configuration Comptabilité** pour afficher les données de base que vous avez définies. Vous pouvez consulter ces données de base pour disposer d'une base de comparaison, puis vérifier que vous avez correctement configuré les groupes de validation, par exemple.  

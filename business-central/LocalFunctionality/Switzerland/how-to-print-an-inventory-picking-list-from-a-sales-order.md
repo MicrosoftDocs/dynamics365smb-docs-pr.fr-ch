@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/23/2020
-ms.author: sgroespe
-ms.openlocfilehash: f68efb414b7adfcd75c8fa0fb2805b20eedc74b8
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: edupont
+ms.openlocfilehash: 6f37e1bfcd95f2ac017abe9e25d20322cb357547
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3676638"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778223"
 ---
 # <a name="print-an-inventory-picking-list-from-a-sales-order-in-the-swiss-version"></a>Imprimer une liste des prélèvements de stock à partir d'une commande vente dans la version suisse
 

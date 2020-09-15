@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 7b82b8a568618b33e4af0fd72b532bbc6be60eda
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: edupont
+ms.openlocfilehash: 35f867b1aaf62ee41abc96a4caa1d8ce32730edb
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677235"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778211"
 ---
 # <a name="print-vendor-payments-list-reports"></a>Imprimer des rapports contenant les listes de paiements fournisseurs
 Le rapport **Liste de paiements fournisseur** fournit la liste des paiements pour chaque fournisseur. Le rapport peut trier les paiements par ordre chronologique ou groupés par fournisseur.  
