@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: b1c91caed8fb682af4c754aef83801083a714d4f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: ac15e8f84efba5a46e3d5fc3d0d07f9dceed666a
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193832"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778868"
 ---
 # <a name="use-resources-for-jobs"></a>Utiliser des ressources pour des projets
 Vous devez enregistrer l'utilisation des ressources dans la feuille projet pour suivre les coûts et les prix, ainsi que les types de travaux associés aux projets. Pour en savoir plus, consultez [Enregistrer l'utilisation pour les projets](projects-how-record-job-usage.md).

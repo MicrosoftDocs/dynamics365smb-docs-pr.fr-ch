@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: availability, localization
-ms.date: 07/21/2020
+ms.date: 08/12/2020
 ms.author: edupont
-ms.openlocfilehash: 6d9cbf61160a2f8d64cfc7cd6b65aae4bd84a881
-ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
+ms.openlocfilehash: 180c28057fd7da133f2f0770ba515d3eabb1af05
+ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "3611549"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3693139"
 ---
 # <a name="local-functionality-in-prodlong"></a>Fonctionnalités locales dans [!INCLUDE[prodlong](includes/prodlong.md)]
 
@@ -55,7 +55,7 @@ Pour en savoir plus sur les fonctionnalités locales de chaque pays/région, cli
 
 ### <a name="other-countries"></a>Autres pays
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] est également disponible sur d'autres marchés via des applications de localisation. Si un partenaire Microsoft a développé une application de localisation pour votre pays/région, vous pouvez la trouver dans [AppSource](https://appsource.microsoft.com/product/dynamics-365-business-central/).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] est également disponible sur d'autres marchés via des applications de localisation. Si un partenaire Microsoft a développé une application de localisation pour votre pays/région, vous pouvez la trouver dans [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
 
 ## <a name="see-also"></a>Voir aussi
 

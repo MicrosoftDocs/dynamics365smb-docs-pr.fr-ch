@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: d2deb1c824f5b3fce8c2e6702e97de4cd9909794
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: ed022ead8151d7a17269fd0282fa54cc9acd34dc
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192450"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3777531"
 ---
 # <a name="service-order-status-and-repair-status"></a>Statut commande service et statut réparation
 Le champ **Statut** de la page **Commande service** et le statut réparation de l'article de service, qui est représenté par le champ **Code du statut de réparation** sur la page **Commande service** ont une certaine relation dans le module Service management. Le statut commande service reflète l'état réparation de tous les articles de service de la commande service.  

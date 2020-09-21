@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: recurring, invoicing, subscription, billing
 ms.reviewer: edupont
-ms.date: 05/27/2020
+ms.date: 08/12/2020
 ms.author: andreipa
-ms.openlocfilehash: a0439557ce69b3c53406bd43b3b76cdf9ae73a10
-ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
+ms.openlocfilehash: fbc512242a335a938b6280e749f5278947e0db5e
+ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410802"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3693164"
 ---
 # <a name="work-with-recurring-revenue-in-d365fin"></a>Utiliser des revenus récurrents dans [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
@@ -107,7 +107,7 @@ Pour plus d'informations, voir [Commandes récurrentes (Norvège)](/localfunctio
 
 ### <a name="recurring-revenue-and-subscription-billing-by-other-providers"></a>Revenus récurrents et facturation d'abonnement par d'autres fournisseurs
 
-Vous pouvez obtenir des extensions pour Business Central sur le site [AppSource.microsoft.com](https://appsource.microsoft.com/). Certaines extensions sont fournies par Microsoft, et d'autres sont fournies par d'autres sociétés. La liste des extensions par d'autres sociétés évolue chaque mois. Tenez-vous informé sur le site [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1) et obtenez des applications pour vous aider à faire votre travail dans Business Central.  
+Vous pouvez obtenir des extensions pour Business Central sur le site [AppSource.microsoft.com](https://appsource.microsoft.com/). Certaines extensions sont fournies par Microsoft, et d'autres sont fournies par d'autres sociétés. La liste des extensions par d'autres sociétés évolue chaque mois. Tenez-vous informé sur le site [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646) et obtenez des applications pour vous aider à faire votre travail dans Business Central.  
 
 ## <a name="see-also"></a>Voir aussi
 

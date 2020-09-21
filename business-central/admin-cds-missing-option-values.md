@@ -8,12 +8,12 @@ ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: 42ad388e6c07ca259d4ef6095b9f8c908b509407
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: 5f914904aaa1ec568b396a830ebc18a0fe4e40c1
+ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196954"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3693039"
 ---
 # <a name="handling-missing-option-values"></a>Gestion des valeurs option manquantes
 [!INCLUDE[d365fin](includes/cds_long_md.md)] contient seulement trois champs d'ensembles d'options qui contiennent des valeurs option que vous pouvez mapper à des champs [!INCLUDE[d365fin](includes/d365fin_md.md)] de type Option<!-- Option type, not enum? @Onat can you vertify this? --> pour la synchronisation automatique. Lors de la synchronisation, les options non mappées sont ignorées et les options manquantes sont ajoutées à la table [!INCLUDE[d365fin](includes/d365fin_md.md)] associée et à la table système **Mappage option CDS** pour une gestion manuelle ultérieure. Par exemple, en ajoutant les options manquantes dans l'un ou l'autre des produits, puis en mettant à jour le mappage. Cette section décrit comment cela fonctionne.
@@ -99,6 +99,9 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 
 > [!IMPORTANT]  
 > Vous devez utiliser les mêmes valeurs ID option de [!INCLUDE[d365fin](includes/cds_long_md.md)] lorsque vous étendez l'énumération [!INCLUDE[d365fin](includes/d365fin_md.md)]. Sinon, la synchronisation échoue.
+
+> [!IMPORTANT]  
+> N’utilisez pas le caractère « , » dans les valeurs et les légendes Enum. Ceci n’est actuellement pas pris en charge par l’exécution [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 > [!NOTE]
 > Les dix premiers caractères des nouveaux noms et légendes de valeur option doivent être uniques. Par exemple, deux options nommées « Transférer 20 jours ouvrables » et « Transférer 20 jours calendaires » provoquent une erreur, car leurs 10 premiers caractères (« Transférer ») sont identiques. Nommez-les, par exemple, « TRF20 JO » et « TRF20 JC ».

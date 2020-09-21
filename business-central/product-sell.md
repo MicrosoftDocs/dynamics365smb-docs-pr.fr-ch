@@ -8,19 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: microsoft partner
-ms.date: 04/01/2020
+ms.date: 08/12/2020
 ms.author: edupont
-ms.openlocfilehash: 4567f62a7866f6d02103f8f80aea13b92415d0bd
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 37b813e417d4d20be5c35678639f9f4c49184e33
+ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528703"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3693064"
 ---
 # <a name="become-a-reseller-of-d365fin_long"></a>Devenir revendeur [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+
 Développez vos opportunités commerciales avec [!INCLUDE[d365fin](includes/d365fin_md.md)]!  
 
-Si vous vous spécialisez dans les solutions Cloud, Office 365, SharePoint, les solutions du secteur, d'analyse, ERP, CRM, les logiciels de gestion et/ou les logiciels/services d'optimisation des processus entreprise, Business Central représente une nouvelle opportunité.   
+Si vous vous spécialisez dans les solutions Cloud, Office 365, SharePoint, les solutions du secteur, d'analyse, ERP, CRM, les logiciels de gestion et/ou les logiciels/services d'optimisation des processus entreprise, Business Central représente une nouvelle opportunité.  
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] peut vous permettre de différencier et d'approfondir les relations client en vous donnant la capacité de fournir une solution de bout en bout de gestion d'entreprise qui connecte les utilisateurs et les processus comme jamais, intégrée dans les outils familiers Microsoft Office que les PME utilisent chaque jour.  
 
@@ -32,4 +33,4 @@ Le programme « Vous êtes fin prêt » vous permet de débuter comme revendeu
 
 [Mise en route](product-get-started.md)  
 [Importation des données métier à partir d'autres systèmes financiers](across-import-data-configuration-packages.md)  
-[https://appsource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1)  
+[https://appsource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646)  

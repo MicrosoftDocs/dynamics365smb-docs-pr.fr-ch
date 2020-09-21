@@ -8,13 +8,14 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.service: dynamics365-business-central
 author: jswymer
+ms.author: jswymer
 ms.date: 04/01/2020
-ms.openlocfilehash: 7790548828595838e6c2f626194d59260ef4e8ab
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: ab5ebb0dcc654badd16ef3f9954b8f926bde5384
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187787"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778285"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Inspection des pages dans Business Central
 

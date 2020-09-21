@@ -4,13 +4,13 @@ description: Trouvez toutes les formations disponibles pour Business Central.
 author: loreleishannonmsft
 ms.date: 08/10/2020
 ms.topic: article
-ms.author: v-lshann
-ms.openlocfilehash: 547d02d6a1fb76ae5f3ad64feb265b69edf0bf64
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: margoc
+ms.openlocfilehash: 59653a67bd300a8359a82648e3bac6b919d2b233
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3676836"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3779191"
 ---
 # <a name="partner-pre-sales-learning-catalog"></a>Catalogue d'apprentissage Partenaire prévente
 
@@ -77,4 +77,4 @@ Le catalogue suivant est organisé en partant des connaissances de base jusqu'au
 | [Démo : Processus d'approbation client - Été 2019](https://youtu.be/_Oyj6DBAuPI) | Rejoignez Craig qui montre un processus métier de base d'intégration d'un nouveau client. | Vidéo YouTube | 3 minutes 24 secondes |
 | [Démo : Consolidation d'entreprises - Été 2019](https://youtu.be/A4SExgt7wV4) | Rejoignez Craig qui vous montre comment consolider les sociétés avec Business Central. | Vidéo YouTube | 2 minutes 15 secondes |
 | [Démo : Automatiser les comptes fournisseurs - Été 2019](https://youtu.be/RB3_7UTpEjo) | Rejoignez Craig qui vous montre une façon d'automatiser le processus des comptes fournisseurs à l'aide de Business Central. | Vidéo YouTube | 3 minutes 51 secondes |
-| [Démo : Configuration d'une nouvelle société](https://youtu.be/ZHg4UXTOEp8) | Craig vous montre comment créer une nouvelle entreprise en utilisant Business Central | Vidéo YouTube | 4 minutes 48 secondes |
+| [Démo : Configuration d'une nouvelle société](https://youtu.be/ZHg4UXTOEp8) | Craig vous montre comment créer une nouvelle entreprise en utilisant Business Central. | Vidéo YouTube | 4 minutes 48 secondes |

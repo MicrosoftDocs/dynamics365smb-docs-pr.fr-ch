@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/24/2020
 ms.author: bholtorf
-ms.openlocfilehash: e6ee18367ad229ab56d694d0bbac23e1959b1a5f
-ms.sourcegitcommit: edad0d0b129e916c2cfdfa9c4f8d9d83513f4fd1
+ms.openlocfilehash: 10a257b60aedfb22066148fd48145779cd6d4a62
+ms.sourcegitcommit: ac492bff0c87bf2a23fa93113e7571da9d5094c7
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/24/2020
-ms.locfileid: "3619429"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3702007"
 ---
 # <a name="connect-to-common-data-service"></a>Se connecter à Common Data Service
 
@@ -71,7 +71,7 @@ La procédure suivante décrit comment configurer manuellement la connexion sur 
     |Champ|Description|
     |-----|-----|
     |**Les utilisateurs [!INCLUDE[d365fin](includes/d365fin_md.md)] doivent être associés aux utilisateurs CDS**|Si vous utilisez le modèle de propriété Personne, spécifiez si les comptes d'utilisateur [!INCLUDE[d365fin](includes/d365fin_md.md)] doivent avoir des comptes d'utilisateur correspondants dans [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. L'**adresse électronique pour l'authentification Office 365** de l'utilisateur [!INCLUDE[d365fin](includes/d365fin_md.md)] doit être identique à l'**adresse électronique principale** de l'utilisateur [!INCLUDE[crm_md](includes/crm_md.md)].<br /><br /> Si vous définissez la valeur sur **Oui**, les utilisateurs [!INCLUDE[d365fin](includes/d365fin_md.md)] qui n'ont pas un compte d'utilisateur [!INCLUDE[crm_md](includes/crm_md.md)] correspondant ne disposeront pas de fonctions d'intégration de [!INCLUDE[d365fin](includes/d365fin_md.md)] dans l'interface utilisateur. L'accès aux données [!INCLUDE[crm_md](includes/crm_md.md)] directement à partir de [!INCLUDE[d365fin](includes/d365fin_md.md)] se fait au nom du compte d'utilisateur [!INCLUDE[crm_md](includes/crm_md.md)].<br /><br /> Si vous définissez la valeur sur **Non**, tous les utilisateurs [!INCLUDE[d365fin](includes/d365fin_md.md)] disposeront de fonctions d'intégration de [!INCLUDE[crm_md](includes/crm_md.md)] dans l'interface utilisateur. L'accès aux données [!INCLUDE[crm_md](includes/crm_md.md)] directement à partir de [!INCLUDE[crm_md](includes/crm_md.md)] se fait au nom de l'utilisateur (intégration) de connexion.|
-    |**Le vendeur Business Central actuel est associé à un utilisateur**|Indique si votre compte d'utilisateur est associé à un compte dans [!INCLUDE[crm_md](includes/crm_md.md)] <!--double check the name of this field|-->
+    |**Le vendeur Business Central actuel est associé à un utilisateur**|Indique si votre compte d'utilisateur correspond à un compte dans [!INCLUDE[crm_md](includes/crm_md.md)] <!--double check the name of this field-->|
 
 4. Pour tester les paramètres de connexion, choisissez **Connexion**, puis **Tester la connexion**.  
 

@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 7cc82ab0aaf28b355117571d0d2cc5869141693f
-ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
+ms.author: edupont
+ms.openlocfilehash: 720eb2d5899ba067dbcee8dc97492ebcd01b1abd
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410731"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3779200"
 ---
 # <a name="block-customers"></a>Bloquer des clients
 Vous pouvez bloquer un client, par exemple à cause de son insolvabilité, afin que le client ne puisse pas être ajouté aux documents vente ou afin d'empêcher que d'autres transactions soient validées pour ce client.

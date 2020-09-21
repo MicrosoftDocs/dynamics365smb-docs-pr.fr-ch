@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: phone, tablet
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: aabbba7c6cf5aa84797369c8fefad1ef79fa805f
-ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
+ms.openlocfilehash: 558f457291b3e182444eeb78fab24fe80766e70b
+ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "3666837"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3693089"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Obtention de Business Central sur votre périphérique mobile
 Accédez à vos données [!INCLUDE[d365fin](includes/d365fin_md.md)] à partir de votre périphérique mobile. Vous pouvez naviguer dans vos données commerciales, utiliser des fonctionnalités telles que l'envoi vers Excel ou Office 365, l'affichage de graphiques et d'indicateurs de performance clé à jour, l'envoi par e-mail de devis et de factures. Vous pouvez également prendre des photos et les ajouter en pièces jointes grâce à votre appareil photo. Suivez la procédure ci-dessous pour télécharger l'application et démarrer.
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4Arje]
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4Arje?rel=0]
 
 ## <a name="to-get-the-app-on-my-mobile-device"></a>Pour bénéficier de l'application sur mon périphérique mobile
 1. Installez l'application [!INCLUDE[d365fin](includes/d365fin_md.md)] sur votre périphérique mobile en la téléchargeant à partir de Windows Store, d'App Store ou de Google Play.  

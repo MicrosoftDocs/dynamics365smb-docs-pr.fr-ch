@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 06/23/2020
-ms.author: sgroespe
-ms.openlocfilehash: bf52a225d458f19651d79e82bac2a6b0f593f82c
-ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
+ms.date: 08/18/2020
+ms.author: edupont
+ms.openlocfilehash: 787f6eecef82abf7b76bf7273b49deb13b18554a
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "3503813"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778001"
 ---
 # <a name="make-check-payments"></a>Effectuer des paiements par chèque
 
@@ -47,7 +47,7 @@ La section suivante décrit comment payer un fournisseur par chèque. La procéd
 6. Renseignez les champs nécessaires sur la page **Chèque**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Si votre imprimante est configurée pour imprimer des chèques, choisissez le bouton **Imprimer**. Sinon, choisissez le bouton **Envoyer à**, sélectionnez l'option **Document PDF**, puis cliquez sur le bouton **OK** et imprimez le document PDF.
 
-    Les chèques physiques peuvent maintenant être déposés à la banque pour traitement. Validez le paiement comme lettré au fournisseur et payé dans le système.
+    Les chèques physiques peuvent maintenant être envoyés aux fournisseurs pour traitement. Validez le paiement comme lettré au fournisseur et payé dans le système.
 8. Sélectionnez l'action **Valider**.
 
 Des écritures comptables fournisseur et des écritures comptables banque entièrement lettrées sont créées.
@@ -61,9 +61,13 @@ Vous pouvez annuler des chèques non validés après leur impression par l'inter
 1. Sur la page **Feuille paiement**, sélectionnez **Annuler chèque**, puis sélectionnez les chèques à annuler.
 
 ## <a name="to-void-checks"></a>Pour annuler des chèques
+
 Lorsque des paiements par chèque ont été validés, vous pouvez uniquement annuler des chèques à partir des écritures comptables banque ainsi obtenues.
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Compte bancaire**, puis sélectionnez le lien associé.
+> [!IMPORTANT]
+> Si le chèque est appliqué à une facture, annulez d’abord le chèque afin que la facture puisse être remboursée, puis annulez le chèque. Si le chèque a été imprimé et n’a pas payé de facture, choisissez **Annuler chèque uniquement** comme décrit dans cette section.
+
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Comptes bancaires**, puis sélectionnez le lien associé.
 2. Sélectionnez le compte bancaire approprié, sélectionnez l'action **Modifier**, puis l'action **Écritures comptables chèque**.
 3. Sur la page **Écritures comptables chèque**, sélectionnez l'action **Annuler chèque**.
 4. Cochez la case **Annuler chèque uniquement**.

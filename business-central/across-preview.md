@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 04/01/2020
+ms.date: 08/12/2020
 ms.author: edupont
-ms.openlocfilehash: 805a8be94ccd38ffa696fe19157a08f4772c9ef3
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 342ffb57090aa78e10b8448b6316c610f6485040
+ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3529103"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3693114"
 ---
 # <a name="d365fin_long-trials-and-subscriptions"></a>Versions d'évaluation et abonnements [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 
@@ -68,7 +68,7 @@ Si vous avez ajouté des données à votre version d'évaluation gratuite de [!I
 
 ## <a name="getting-started-with-a-subscription"></a>Mise en route d'un abonnement
 
-À chaque connexion au cours de la période gratuite, une notification s'affiche dans une barre bleue en haut et indique le temps restant. Si vous décidez de vous abonner, recherchez un partenaire [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, voir [Comment trouver un partenaire revendeur ?](across-faq.md#findpartner). Le partenaire revendeur peut vous aider à configurer [!INCLUDE[prodshort](includes/prodshort.md)] en fonction des besoins de votre entreprise, notamment importer vos données à partir de votre système précédent. Vous pouvez également personnaliser [!INCLUDE[prodshort](includes/prodshort.md)] en ajoutant des applications de [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365-business-central).  
+À chaque connexion au cours de la période gratuite, une notification s'affiche dans une barre bleue en haut et indique le temps restant. Si vous décidez de vous abonner, recherchez un partenaire [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, voir [Comment trouver un partenaire revendeur ?](across-faq.md#findpartner). Le partenaire revendeur peut vous aider à configurer [!INCLUDE[prodshort](includes/prodshort.md)] en fonction des besoins de votre entreprise, notamment importer vos données à partir de votre système précédent. Vous pouvez également personnaliser [!INCLUDE[prodshort](includes/prodshort.md)] en ajoutant des applications de [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
 [!INCLUDE[prodshort](includes/prodshort.md)] en ligne utilise Office 365. Si votre société utilise un autre type de configuration de messagerie, le partenaire revendeur peut vous aider à choisir la procédure de migration, ou si vous devez utiliser [!INCLUDE[prodshort](includes/prodshort.md)] sur site.  
 

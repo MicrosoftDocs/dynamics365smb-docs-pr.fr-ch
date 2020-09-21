@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 06/26/2020
+ms.date: 09/02/2020
 ms.author: bholtorf
-ms.openlocfilehash: 84ce43b7e3305380e46d16e5b4e2f8b1a25aaf08
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 7d2a891f55ff41e1e236c57ca76eb5d1444b7160
+ms.sourcegitcommit: 43284728c34b72ad1984a516273dc80e4cdc99ab
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528503"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "3765961"
 ---
 # <a name="keyboard-shortcuts"></a>Raccourcis clavier
 
@@ -41,7 +41,7 @@ La plupart des raccourcis sont les mêmes, que le système d'exploitation soit W
 
 ##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> Raccourcis clavier généraux
 
-Le tableau suivant décrit les raccourcis clavier pour naviguer et accéder aux différents éléments d'une page. Les éléments comprennent des éléments tels que des actions, des listes déroulantes, des recherches, etc. Pour en savoir plus sur les raccourcis clavier pour naviguer entre les enregistrements au sein d'une la liste, consultez la prochaine section.
+Le tableau suivant décrit les raccourcis clavier pour naviguer et accéder aux différents éléments d'une page. Les éléments comprennent des éléments tels que des actions, des listes déroulantes, des recherches, etc. Pour en savoir plus sur les raccourcis clavier pour naviguer entre les enregistrements au sein de la liste, consultez la prochaine section.
 
 |Appuyez sur les touches suivantes<br />(dans macOS)|Pour|
 |--------------------------------|----------|
@@ -166,7 +166,7 @@ Les raccourcis suivants se rapportent à la fonction de saisie rapide sur les ca
 |Maj+Entrée|Confirmez la valeur dans le champ actuel et accédez au champ précédent de saisie rapide.||
 |Ctrl+Maj+Entrée|Confirmez la valeur dans la colonne actuelle et accédez au champ suivant de saisie rapide en dehors de la liste.<br /><br />Ce raccourci s'applique aux listes intégrées d'une page, comme les articles de ligne d'une commande vente. Il vous permet de sortir rapidement de la liste et de poursuivre la saisie des données dans d'autres champs de la page.|
 
-## <a name="keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"/> Raccourcis clavier du calendrier (sélecteur de date)
+## <a name="keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"></a> Raccourcis clavier du calendrier (sélecteur de date)
 
 Lorsque vous définissez un champ de date, vous pouvez saisir la date manuellement ou ouvrir un calendrier (sélecteur de date) qui vous permet de sélectionner la date souhaitée. Le tableau suivant décrit les raccourcis clavier du calendrier.
 
@@ -185,12 +185,13 @@ Lorsque vous définissez un champ de date, vous pouvez saisir la date manuelleme
 |Page précédente|Accéder au mois précédent.|  
 
 ## <a name="keyboard-shortcuts-in-date-fields"></a>Raccourcis clavier dans les champs de date
+
 |Appuyez sur les touches suivantes<br />(dans macOS)|Pour|
 |--------------------------------|----------|
 |a|Entrez la date actuelle. « T » signifie « today » (aujourd'hui).|
 |t|Entrez la date de travail. Pour plus d'informations, voir [Date du flux](ui-change-basic-settings.md#work-date)|
 
-## <a name="keyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"/>Raccourcis clavier dans l'aperçu de rapports
+## <a name="keyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"></a>Raccourcis clavier dans l'aperçu de rapports
 
 |Appuyez sur les touches suivantes<br />(dans macOS)|Pour|
 |--------------------------------|----------|

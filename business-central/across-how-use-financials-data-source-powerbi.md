@@ -1,7 +1,7 @@
 ---
-title: Utilisez les états Business Central dans Power BI | Microsoft Docs
+title: Créer des états Power BI Desktop pour afficher des données Business Central | Microsoft Docs
 description: Vous pouvez rendre vos données disponibles sous forme de source de données dans Power BI et créer des rapports puissants sur l'état de votre activité.
-author: edupont04
+author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
@@ -9,50 +9,129 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/01/2020
-ms.author: edupont
-ms.openlocfilehash: b42437f0759ecb6d977797b31222bfa2b88cdb13
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.author: jswymer
+ms.openlocfilehash: c3ec3a511164d85dd01f827227e2cbcff76ce395
+ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528477"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "3697737"
 ---
-# <a name="using-prodlong-as-power-bi-data-source-for-building-reports"></a>Utilisation de [!INCLUDE[prodlong](includes/prodlong.md)] comme source de données Power BI pour générer des états
+# <a name="building-power-bi-reports-to-display-prodlong-data"></a>Créer des états Power BI pour afficher des données [!INCLUDE [prodlong](includes/prodlong.md)]
 
-Vous pouvez rendre vos données [!INCLUDE[prodlong](includes/prodlong.md)] disponibles sous forme de source de données dans Power BI et créer des rapports puissants sur l'état de votre activité.  
+Vous pouvez rendre vos données [!INCLUDE[prodlong](includes/prodlong.md)] disponibles sous forme de source de données dans Power BI Desktop et créer des rapports puissants sur l'état de votre activité.
 
-Vous devez disposer d'un compte valide avec [!INCLUDE[prodshort](includes/prodshort.md)] et avec Power BI. Vous devez également télécharger [Power BI Desktop](https://powerbi.microsoft.com/desktop/). Pour plus d'informations, voir [Démarrage rapide : Se connecter aux données dans Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).  
+Cet article aborde la prise en main de Power BI Desktop pour créer des états qui affichent des données [!INCLUDE[prodlong](includes/prodlong.md)].  Après avoir créé des états, vous pouvez les publier dans votre service Power BI ou les partager avec tous les utilisateurs de votre organisation. Une fois que ces états figurent dans le service Power BI, les utilisateurs configurés pour ce dernier peuvent alors afficher les états dans [!INCLUDE[prodlong](includes/prodlong.md)].
 
-## <a name="to-add-prodshort-as-a-data-source-in-power-bi-desktop"></a>Pour ajouter [!INCLUDE[prodshort](includes/prodshort.md)] comme source de données dans Power BI Desktop
+## <a name="get-ready"></a>Mise en route
 
-1. Dans Power BI Desktop, dans le volet de navigation de gauche, choisissez **Extraire les données**.
-2. Sur la page **Extraire les données**, choisissez **Services en ligne**, **Microsoft Dynamics 365 Business Central**, puis cliquez sur le bouton **Connexion**.
-3. Power BI affiche un assistant qui va vous guider tout au long du processus de connexion, notamment à [!INCLUDE[prodshort](includes/prodshort.md)]. Choisissez **Se connecter**, puis le compte approprié. Utilisez le même compte que celui avec lequel vous vous êtes connecté(e) à [!INCLUDE[prodshort](includes/prodshort.md)].
-4. Cliquez sur le bouton **Connexion** pour continuer. L'assistant Power BI affiche la liste des sociétés, des environnements et des sources de données Microsoft [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ces sources de données représentent tous les services web que vous avez publiés à partir de [!INCLUDE[prodshort](includes/prodshort.md)].
+- Inscrivez-vous au service Power BI.
 
-    Vous pouvez également créer une nouvelle URL de service web dans [!INCLUDE[prodshort](includes/prodshort.md)]. Choisissez l'une des méthodes suivantes :
+    Si vous ne vous êtes pas encore inscrit, accédez à [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Au moment de votre inscription, utilisez votre adresse e-mail professionnelle et votre mot de passe.
 
-      - Utiliser l'action **Créer un ensemble de données** sur la page **Services web**
-      - Utiliser le guide de configuration assistée **Configurer la création d'états**
-      - Choisir l'action **Modifier dans Excel** dans toutes les listes
+- Téléchargez [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
 
-5. Spécifiez les données à ajouter à votre modèle de données, puis sélectionnez le bouton **Charge**.
-6. Répétez les étapes précédentes pour ajouter des informations [!INCLUDE[prodshort](includes/prodshort.md)] supplémentaires, ou d'autres données, à votre modèle de données Power BI.
+   Power BI Desktop est une application gratuite que vous installez sur votre ordinateur local. Pour plus d'informations, voir [Démarrage rapide : Se connecter aux données dans Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).
 
-> [!NOTE]  
-> Une fois que vous êtes connecté(e) à [!INCLUDE[prodshort](includes/prodshort.md)], vous n'êtes plus invité(e) à vous connecter.
+- Assurez-vous que les données souhaitées dans l’état sont publiées en tant que service Web.
+    
+    Il existe de nombreux services Web publiés par défaut. Pour trouver facilement les services Web, il suffit de rechercher *services web* dans [!INCLUDE[prodshort](includes/prodshort.md)]. Sur la page **Services Web**, assurez-vous que le champ **Publier** est sélectionné. Cette tâche est généralement administrative.
+    
+    Pour plus d’informations sur la publication des services Web, voir [Publier un service Web](across-how-publish-web-service.md).
 
-Une fois les données chargées, elles s'affichent dans le volet de navigation à droite dans la page. Vous êtes connecté(e) à vos données [!INCLUDE[prodshort](includes/prodshort.md)] et vous pouvez commencer à générer votre état Power BI.  
+- Pour [!INCLUDE[prodshort](includes/prodshort.md)] sur site, obtenez les informations suivantes :
 
-Avant de générer votre état, il est préférable d'importer le fichier de thème [!INCLUDE[prodshort](includes/prodshort.md)].  Le fichier de thème crée une palette de couleurs afin de pouvoir établir des états avec le même style de couleur que les applications [!INCLUDE[prodshort](includes/prodshort.md)] sans avoir à définir des couleurs personnalisées pour chaque visuel.
+    - L’URL OData pour [!INCLUDE[prodshort](includes/prodshort.md)]. En règle générale, cette URL a le format `http[s]://[computer]:[port]/[serverinstance]/ODataV4`, par exemple, `https://localhost:7048/BC160/ODataV4`. Si vous disposez d’un déploiement à plusieurs abonnés, incluez le client dans l’URL, par exemple, `https://localhost:7048/BC160/ODataV4?tenant=tenant1`.
+    - Un nom d’utilisateur et une clé d’accès au service Web d’un compte [!INCLUDE[prodshort](includes/prodshort.md)].
 
-Pour plus d'informations, reportez-vous à la [documentation Power BI](/power-bi/consumer/).
+      Pour obtenir des données depuis [!INCLUDE[prodshort](includes/prodshort.md)], Power BI utilise l’authentification de base. Vous aurez donc besoin d’un nom d’utilisateur et d’une clé d’accès au service Web pour vous connecter. Le compte peut être votre propre compte utilisateur ou votre organisation peut avoir un compte spécifique à cette fin.
+
+- Téléchargez le thème de l’état [!INCLUDE [prodshort](includes/prodshort.md)] (facultatif).
+
+    Pour plus d’informations, consultez [Utilisation du thème de l’état [!INCLUDE [prodshort](includes/prodshort.md)]](#theme) dans cet article.
+
+## <a name="add-prodshort-as-a-data-source-in-power-bi-desktop"></a>Ajouter [!INCLUDE[prodshort](includes/prodshort.md)] comme source de données dans Power BI Desktop
+
+La première tâche dans le cadre de la création d’états consiste à ajouter [!INCLUDE[prodshort](includes/prodshort.md)] comme source de données dans Power BI Desktop. Une fois connecté, vous pouvez commencer à créer l’état.
+
+1. Lancez Power BI Desktop.
+2. Sélectionnez **Extraire les données**.
+
+    Si vous ne voyez pas **Extraire les données**, sélectionnez le menu **Fichier**, puis **Extraire les données**.
+2. Sur la page **Extraire les données**, sélectionnez **Services en ligne**.
+3. Dans le volet **Services en ligne**, effectuez l’une des étapes suivantes :
+
+    1. Si vous vous connectez à [!INCLUDE [prodshort](includes/prodshort.md)] en ligne, choisissez **Dynamics 365 Business Central**, puis **Connecter**.
+    2. Si vous vous connectez à [!INCLUDE [prodshort](includes/prodshort.md)] sur site, choisissez **Dynamics 365 Business Central (sur site)**, puis **Connecter**.
+
+4. Power BI affiche un assistant qui va vous guider tout au long du processus de connexion, notamment à [!INCLUDE [prodshort](includes/prodshort.md)].
+
+    Pour la version en ligne, choisissez **Se connecter**, puis le compte approprié. Utilisez le même compte que celui avec lequel vous vous êtes connecté(e) à [!INCLUDE [prodshort](includes/prodshort.md)].
+    
+    Pour la version sur site, entrez l’URL OData pour [!INCLUDE[prodshort](includes/prodshort.md)] et éventuellement le nom de la société. Ensuite, à l’invite, entrez le nom d’utilisateur et le mot de passe du compte à utiliser pour vous connecter à [!INCLUDE[prodshort](includes/prodshort.md)]. Dans la zone **Mot de passe**, entrez la clé d’accès au service Web.
+
+    > [!NOTE]  
+    > Une fois que vous êtes connecté(e) à [!INCLUDE[prodshort](includes/prodshort.md)], vous n’êtes plus invité(e) à vous connecter.
+    
+5. Choisissez **Connecter** pour continuer.
+
+    L'assistant Power BI affiche la liste des sociétés, des environnements et des sources de données Microsoft [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ces sources de données représentent tous les services web que vous avez publiés à partir de [!INCLUDE [prodshort](includes/prodshort.md)].
+6. Spécifiez les données à ajouter à votre modèle de données, puis sélectionnez le bouton **Charge**.
+7. Répétez les étapes précédentes pour ajouter des informations [!INCLUDE [prodshort](includes/prodshort.md)] supplémentaires, ou d'autres données, à votre modèle de données Power BI.
+
+Une fois les données chargées, elles s'affichent dans le volet de navigation à droite dans la page. À ce stade, vous êtes connecté(e) à vos données [!INCLUDE[prodshort](includes/prodshort.md)] et vous êtes prêt(e) à générer votre état Power BI.  
+
+> [!TIP]
+> Pour plus d’informations sur l’utilisation de Power BI Desktop, reportez-vous à [Mise en route avec Power BI Desktop](/power-bi/fundamentals/desktop-getting-started).
+
+## <a name="creating-reports-to-display-data-associated-with-a-list"></a>Créer des états pour afficher les données associées à une liste
+
+Vous pouvez créer des états qui s’affichent dans un Récapitulatif d’une liste [!INCLUDE [prodshort](includes/prodshort.md)]. Les états peuvent contenir des données sur l’enregistrement sélectionné dans la liste. La création de ces états est similaire à celle d’autres états, à la différence près que vous devez effectuer quelques actions pour vous assurer que les états s’affichent comme prévu. Pour plus d’informations, consultez [Création d’états Power BI pour afficher les données de la liste dans [!INCLUDE[prodshort](includes/prodshort.md)]](across-how-use-powerbi-reports-factbox.md).
+
+## <a name="using-the-prodshort-report-theme-optional"></a><a name="theme"></a>Utilisation du thème de l’état [!INCLUDE [prodshort](includes/prodshort.md)] (facultatif)
+
+Avant de générer votre état, il est préférable de télécharger et d’importer le fichier de thème [!INCLUDE [prodshort](includes/prodshort.md)]. Le fichier de thème crée une palette de couleurs afin de pouvoir établir des états avec le même style de couleur que les applications [!INCLUDE [prodshort](includes/prodshort.md)] sans avoir à définir des couleurs personnalisées pour chaque visuel.
+
+> [!NOTE]
+> Cette tâche est facultative. Vous pouvez toujours créer vos états, puis télécharger et appliquer le modèle de style ultérieurement.
+
+### <a name="download-the-theme"></a>Télécharger le thème
+
+Le fichier de thème est disponible sous forme de fichier json sur la galerie de thèmes de la communauté Microsoft Power BI. Pour télécharger le fichier de thème, procédez comme suit :
+
+1. Accédez à [Galerie de thèmes de la communauté Microsoft Power BI pour Microsoft Dynamics 365 Business Central](https://community.powerbi.com/t5/Themes-Gallery/Microsoft-Dynamics-365-Business-Central/m-p/385875).
+2. Sélectionnez la pièce jointe de téléchargement **Microsoft Dynamics Business Central.json**.
+
+### <a name="import-the-theme-on-a-report"></a>Importer le thème dans un état
+
+Après avoir téléchargé le thème de l’état [!INCLUDE [prodshort](includes/prodshort.md)], vous pouvez l’importer dans vos états. Pour importer le thème, sélectionnez **Afficher** > **Thèmes** > **Parcourir les thèmes**. Pour plus d’informations, consultez [Power BI Desktop - Importer des thèmes d’état personnalisés](/power-bi/create-reports/desktop-report-themes#import-custom-report-theme-files).
+
+## <a name="publish-reports"></a>Publier des états
+
+Après avoir créé ou modifié un état, vous pouvez le publier dans votre service Power BI et le partager avec d’autres membres de votre organisation. Une fois publié, l’état apparaît dans Power BI. L’état est également disponible pour sélection dans [!INCLUDE[prodshort](includes/prodshort.md)].
+
+Pour publier un état, sélectionnez **Publier** sur l’onglet **Accueil** du ruban ou du menu **Fichier**. Si vous êtes connecté au service Power BI, l’état est publié sur ce service. Sinon, vous êtes invité à vous connecter. 
+
+## <a name="distribute-or-share-a-report"></a>Distribuer ou partager un état
+
+Il existe plusieurs façons de transmettre des états à vos collègues et à d’autres personnes :
+
+- Distribuez les états sous forme de fichiers .pbix.
+
+    Les états sont stockés sur votre ordinateur sous forme de fichiers .pbix. Vous pouvez distribuer le fichier .pbix de l’état aux utilisateurs, comme n’importe quel autre fichier. Ensuite, les utilisateurs peuvent télécharger le fichier sur leur service Power BI. Voir [Télécharger des états à partir de fichiers](across-working-with-business-central-in-powerbi.md#upload).
+
+    > [!NOTE]
+    > Distribuer les états de cette manière signifie que l’actualisation des données des états sera effectuée individuellement par chaque utilisateur. Cette situation pourrait avoir un impact sur la performance [!INCLUDE[prodshort](includes/prodshort.md)].
+
+- Partager l’état de votre service Power BI
+
+    Si tu as une licence Power BI Pro, vous pouvez partager l’état avec d’autres, directement depuis votre service Power BI. Pour plus d’informations, consultez [Power BI - Partager un tableau de bord ou un état](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Voir aussi
 
-[Activation de vos données commerciales pour Power BI](admin-powerbi.md)  
+[Activation de vos données métier pour Power BI](admin-powerbi.md)  
 [Veille économique](bi.md)  
 [Mise en route](product-get-started.md)  
 [Importation des données métier à partir d'autres systèmes financiers](across-import-data-configuration-packages.md)  
