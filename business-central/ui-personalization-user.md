@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: dfc7b91c50297c130a4a6d50401c7adb53bd608b
-ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
+ms.author: edupont
+ms.openlocfilehash: e41c3dd810367f254bd62271083e884afdc9da50
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "3666962"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781325"
 ---
 # <a name="personalize-your-workspace"></a>Personnaliser votre espace de travail
 Vous pouvez personnaliser votre espace de travail pour l'adapter à vos habitudes et préférences en modifiant les pages afin qu'elles n'affichent que les informations dont vous avez besoin, où vous avez en besoin. Les modifications de personnalisation que vous apportez n'affectent que ce que vous voyez, pas ce que voient les autres utilisateurs.
@@ -31,7 +31,7 @@ Les administrateurs peuvent aussi remplacer ou désactiver des personnalisations
 ## <a name="video-overview"></a>Présentation de la vidéo
 La vidéo suivante montre quelques-unes des façons dont vous pouvez personnaliser votre tableau de bord.
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB]
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
 
 ## <a name="to-change-the-width-of-a-column"></a>Pour modifier la largeur d'une colonne
 Vous pouvez facilement redimensionner les colonnes de n'importe quelle liste en faisant glisser la limite entre deux colonnes à gauche ou à droite.

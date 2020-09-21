@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: b0b3179e8931dbf4c647a7bf66ed1b9de45589ce
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 947bc883994d82cfb25f7d757d501d95e722916a
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193602"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780925"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Traiter les retours ou annulations de ventes
 Si votre client souhaite retourner des articles ou obtenir un remboursement pour des articles, ou encore annuler des services, que vous lui avez vendus et pour lesquels vous avez reçu un paiement, vous devez créer et valider un avoir vente qui indique la modification demandée. Pour inclure les informations de facture vente correctes, vous pouvez créer l'avoir vente à partir de la facture vente enregistrée ou vous pouvez créer un avoir vente avec les informations copiées de la facture.

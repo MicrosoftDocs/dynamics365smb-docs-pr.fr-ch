@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
 ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: b870e3370d6af99320593653f49f69936b179c22
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 96abfb85d54a94244ed61209d346249929a7171f
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182651"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780225"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Utiliser la TVA sur les ventes et les achats
 Si votre pays ou région vous demande de calculer la TVA sur les transactions de vente et d'achat afin de pouvoir déclarer les montants à une administration fiscale, vous pouvez configurer [!INCLUDE[d365fin](includes/d365fin_md.md)] pour calculer automatiquement la TVA sur les documents vente et achat. Pour plus d'informations, voir [Configuration des méthodes de calcul et de validation de la taxe sur la valeur ajoutée](finance-setup-vat.md).

@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoterms
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: dc4864f27490a9cef7d3401f67c8ef177a5c7ef3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 117af16fe6536f8db49eb3066e7e06a88450897f
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193910"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780876"
 ---
 # <a name="set-up-shipment-methods"></a>Configurer des conditions de livraison
 Les conditions de livraison, également appelées incoterms, dépendent souvent des articles, des clients et des fournisseurs. Par exemple, si le client habite sur une île, il peut choisir d'être toujours livré par voie aérienne ou maritime. Certains clients peuvent exiger une livraison le lendemain. Certains voudront peut-être récupérer la commande. Vous pouvez spécifier le type de livraison souhaité sur les fiches client et les fiches fournisseur.

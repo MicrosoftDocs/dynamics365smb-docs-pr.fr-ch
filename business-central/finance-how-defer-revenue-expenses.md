@@ -10,13 +10,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 0b94dfe59d8d75e8371bcb02c7c306eaa187f8a4
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 1b21574425f50af464fdcf4e5f990e8f731558c1
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183707"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781100"
 ---
 # <a name="defer-revenues-and-expenses"></a>Echelonner les recettes et les dépenses
 Pour identifier une recette ou une dépense dans une période autre que la période de validation de la transaction, vous pouvez utiliser la fonctionnalité pour échelonner automatiquement les recettes et les dépenses selon un calendrier précis.

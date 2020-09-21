@@ -10,13 +10,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: a8db87b7dd365123a21633e4905d56dd13bf7b40
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 7cad06a00b5afcff00d382620bf157c22a19cf26
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193626"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781700"
 ---
 # <a name="make-sales-quotes"></a>Créer des devis
 Vous créez un devis pour enregistrer votre proposition à un client pour vendre certains biens selon certaines conditions de livraison et de paiement. Vous pouvez envoyer un devis au client pour communiquer la proposition. Vous pouvez envoyer par e-mail le document en pièce jointe au format PDF. Vous pouvez faire en sorte que le corps du message soit prérempli avec un résumé du devis. Pour plus d'informations, voir [Envoyer des documents par e-mail](ui-how-send-documents-email.md).

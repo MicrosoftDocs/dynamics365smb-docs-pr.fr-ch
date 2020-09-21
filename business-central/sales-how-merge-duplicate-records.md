@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: c73fd564211dd93a7c6f668e1753227811544074
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: f789c5caf0f59b1fdf3b3b10d42210152f32dc97
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193650"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781675"
 ---
 # <a name="merge-duplicate-records"></a>Fusionner les doublons d'enregistrements
 Puisque différents utilisateurs créent de nouvelles fiches contact, fournisseur ou client au fil du temps, ou puisque de nouveaux enregistrements sont créés automatiquement pendant la migration, un client, fournisseur ou contact peut être représenté dans le système avec plusieurs enregistrements. Dans ce cas, vous pouvez utiliser la page **Fusionner le doublon** depuis la fiche de l'enregistrement que vous souhaitez conserver. La page vous donne un aperçu des valeurs de champ dupliquées et vous fournit des fonctions pour sélectionner quelles valeurs conserver ou ignorer lors de la fusion des deux enregistrements en un seul.

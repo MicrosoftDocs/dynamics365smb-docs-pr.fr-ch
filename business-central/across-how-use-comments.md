@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: tasks, work
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: db3d7dd3b7efdd10aa22e3aa4ca0ff445428bbd2
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: f1127bd8e99f8ef6342ec240b4f42b52b11b36bb
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187979"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781900"
 ---
 # <a name="add-comments-to-cards-and-documents"></a>Ajouter des commentaires aux fiches et aux documents
 Vous pouvez ajouter des informations supplémentaires dans les comptes généraux, les fiches client, ou les commandes vente pour communiquer des exception ou des accords spéciaux avec d'autres utilisateurs.

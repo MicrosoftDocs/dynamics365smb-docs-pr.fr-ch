@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: fa9fd11847a2da603288ce406722eb765cecc3a0
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 479ad10ee6bd10d123202749c1cc934bc67493af
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193146"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3779651"
 ---
 # <a name="find-your-warehouse-assignments"></a>Trouver vos affectations d'entrepôt
 Pour rechercher les affectations entrepôt, ouvrez la page correspondant à une article sélectionné. Si des instructions entrepôt ont été créées, les lignes Prélever et Emplacement sont visibles, et vous pouvez commencer à utiliser une affectation. Dans certains entrepôts, le responsable peut affecter des instructions propres à chaque magasinier. Pour plus d'informations, voir [Configurer des employés d'entrepôt](warehouse-how-to-set-up-warehouse-employees.md).

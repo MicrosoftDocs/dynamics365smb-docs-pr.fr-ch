@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 0b063017340724dbe689ceb38463c889a50ffb46
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 66854e91b271aec1ef567a0db9abd5fc9b4b8e71
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190458"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780375"
 ---
 # <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Enregistrer la consommation et la production pour une ligne ordre de fabrication lancé
 Cette tâche d'exécution est réalisée sur la page **Feuille production** . La feuille combine en une seule feuille les fonctions des feuilles distinctes consommation et production. Vous accédez directement à la feuille combinée depuis un ordre de fabrication lancé. Son objectif principal est de valider manuellement la consommation de composants, la quantité d'articles finis produits et le temps passé dans les opérations. Les valeurs sont validées en comptabilité sous l'ordre de fabrication lancé. Les quantités consommées sont validées comme écritures comptables article négatives, les quantités produites sont validées comme écritures comptables article positives et les heures sont validées comme écritures comptables capacité. Ces valeurs validées peuvent également être visualisées au bas de la feuille sous forme de quantités réelles.  

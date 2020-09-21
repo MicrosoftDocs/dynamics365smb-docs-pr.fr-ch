@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 69e5cbb897527a903594af893c0af44a48dbee27
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 82b5ec1e1be1cf39b2b1f0c55cefbedc259a0d41
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181274"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781550"
 ---
 # <a name="set-up-contacts"></a>Configurer les contacts
 Lors de la création de contacts, vous pouvez saisir des informations spécifiques, telles que le secteur d'activité du contact et votre relation d'affaires avec elles.

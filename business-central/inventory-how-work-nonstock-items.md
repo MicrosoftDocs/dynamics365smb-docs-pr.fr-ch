@@ -10,13 +10,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: non-inventoriable
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: a13eec5bd1df674da6255f732b5f68c8a7fcbaf6
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: e4db83e4d2e3efffc1523fe3eadb65a14b431027
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181859"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781050"
 ---
 # <a name="work-with-catalog-items"></a>Utiliser des articles de catalogue
 Vous pouvez proposer certains articles à vos clients pour leur rendre service, que vous ne souhaitez pas gérer dans votre système tant que vous ne commencez pas à les commercialiser. Lorsque vous souhaitez commencer à gérer de tels articles dans votre système, vous pouvez les convertir en fiches article normales de deux façons.

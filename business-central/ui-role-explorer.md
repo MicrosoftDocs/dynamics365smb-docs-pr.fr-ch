@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 5e6e034aa6a071751893ebae477cb3e22b2635bb
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 732ba4989b5097e57ed6e42df1502053151ca36b
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195378"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781225"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Recherche de pages avec l'explorateur de rôles
 Vous pouvez obtenir une vue d'ensemble de toutes les fonctionnalités métier disponibles pour votre rôle et pour d'autres rôles si vous allez encore plus loin. Dans la documentation suivante, cette présentation de la fonctionnalité est appelée *explorateur de rôles*.

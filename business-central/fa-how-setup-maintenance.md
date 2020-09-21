@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: repair, service
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: f5681caba59be7c573f8c85f1629dd05da86e243
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: b3ecec35e4dc99d330424a009218fad5009ce7d5
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184235"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780250"
 ---
 # <a name="set-up-fixed-asset-maintenance"></a>Configurer la maintenance d'une immobilisation
 Pour gérer la maintenance des immobilisations, vous devez configurer tout d'abord certaines informations générales de maintenance, un compte de validation pour les coûts de maintenance et les codes de maintenance pour les types de travaux, tels que le service de routine ou la réparation.

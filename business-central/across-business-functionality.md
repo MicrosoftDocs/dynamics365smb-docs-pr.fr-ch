@@ -1,5 +1,5 @@
 ---
-title: Fonctionnalités d'entreprise prises en charge par Business Central | Microsoft Docs
+title: Fonctionnalités d’entreprise prises en charge par Business Central
 description: Fournit une fonctionnalité d'aperçu de toutes les fonctionnalités commerciales et des départements qui sont pris en charge par les domaines de l'application, comme les finances, le stock, et la gestion de projets.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 5bdc19028a6859d1bee795de766416ada535b474
-ms.sourcegitcommit: 1ab077a024fa71d97ac70e4b36cc218b7ca66509
+ms.date: 08/27/2020
+ms.author: edupont
+ms.openlocfilehash: 7c78106eaf843435ea41e06c0388cd54e1e3dde4
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "3499531"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780776"
 ---
 # <a name="business-functionality"></a>Fonctionnalités d'entreprise
 [!INCLUDE[d365fin](includes/d365fin_md.md)] fournit des fonctionnalités pour les processus entreprise communs dans des PME, surtout au sein de sociétés de vente en gros et de services professionnels. Toutefois, des processus plus complexes, comme l'assemblage, la fabrication, la maintenance et la gestion d'entrepôt suggérée sont également pris en charge.

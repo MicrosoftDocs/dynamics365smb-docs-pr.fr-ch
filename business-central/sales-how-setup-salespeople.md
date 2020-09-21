@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales rep
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: e1e53372298462356e6d48dab0e973262abadeb3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 210039a593315a5bb1feecdb1a777d5d9710b285
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193873"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780800"
 ---
 # <a name="set-up-salespeople"></a>Configurer des vendeurs
 Beaucoup de sociétés souhaitent suivre les performances individuelles d'un collaborateur afin d'avoir une base de calcul pour les commissions et les bonus. Reportez-vous, par exemple, à l'état **Commissions vendeur**. Une société peut également souhaiter affecter un vendeur à chacun de ses contacts.

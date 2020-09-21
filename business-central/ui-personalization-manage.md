@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 6720f207b3bca2e74bccb9b82a5661d98292163d
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: cee71cea69468a45b2e731632fce3827c54794c1
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195426"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781350"
 ---
 # <a name="customize-pages-for-profiles"></a>Personnaliser les pages pour les profils
 Les utilisateurs peuvent personnaliser des pages qui constituent leur espace de travail en fonction de leurs propres préférences. Pour plus d'informations, voir [Personnaliser votre espace de travail](ui-personalization-user.md).

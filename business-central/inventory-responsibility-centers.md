@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 9aea2f4af1e7b8095d6768de94ae6b3c46479f80
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 5bc6505ac9efd29fe22634f0e83e09e2f71dbaa4
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181811"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780400"
 ---
 # <a name="work-with-responsibility-centers"></a>Utiliser les centres de gestion
 Les centres de gestion permettent de gérer les centres administratifs. Un centre de gestion peut être un centre de coûts, un centre de profit, un centre d'investissement ou tout autre centre administratif défini par la société. Un bureau de vente, un département d'achat pour plusieurs emplacements, un bureau de planification d'usine, etc. sont des exemples de centres de gestion. Par exemple, cette fonctionnalité permet aux sociétés de paramétrer des vues spécifiques à l'utilisateur des documents vente et achat associés exclusivement à un centre de gestion particulier.  

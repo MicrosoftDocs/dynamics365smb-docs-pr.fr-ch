@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contact, prospect, client
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 3e1dac4724209cc9020bf3d7f67a2d870f9b2b73
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 97e65ebb534072cd7f8423a6b7454afd9eb1451b
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181342"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781575"
 ---
 # <a name="managing-relationships"></a>Gestion des relations
 Les fonctionnalités de gestion des relations de [!INCLUDE[d365fin](includes/d365fin_md.md)] vous aident à gérer et prendre en charge vos efforts de vente. Grâce à elles, vous avez accès à des informations complètes et pertinentes qui vous permettent de focaliser vos interactions sur les segments client/contact favoris.

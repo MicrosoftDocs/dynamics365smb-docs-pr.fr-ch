@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: c292a7bdaaa94a457a98a478e38a90d60639abf1
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 2eb195d194ae2091a10f2d85d1b802577239b268
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190722"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781475"
 ---
 # <a name="applying-payments-automatically-and-reconciling-bank-accounts"></a>Lettrage automatique des paiements et rapprochement des comptes bancaires
 Vous devez régulièrement rapprocher vos comptes bancaires, créances client et créances fournisseur en lettrant les paiements enregistrés au niveau de la banque à leurs factures impayées et avoirs associés ou à d'autres écritures ouvertes dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -30,7 +30,7 @@ Vous pouvez également rapprocher des comptes bancaires sans rapprocher simultan
 
 Pour importer des relevés bancaires en tant que flux bancaire, vous devez d'abord configurer et activer le service Envestnet Yodlee Bank Feeds, puis associer vos comptes bancaires aux comptes bancaires connexes en ligne. Pour plus d'informations, voir [Configurer le service Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).  
 
-Vous pouvez également utiliser l'extension AMC Banking 365 Fundamentals pour convertir un fichier de relevé bancaire, à partir de n'importe quel format, en flux de données que vous pouvez importer dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, voir [Utilisation de l'extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
+Vous pouvez également utiliser l’extension AMC Banking 365 Fundamentals pour convertir un fichier de relevé bancaire, à partir de n’importe quel format, en flux de données que vous pouvez importer dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, voir [Utilisation de l'extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
 
 Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.  
 
