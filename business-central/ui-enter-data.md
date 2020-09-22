@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/03/2020
-ms.author: sgroespe
-ms.openlocfilehash: f3af601f0de00445a42c88bb47053084b05fc14b
-ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
+ms.author: edupont
+ms.openlocfilehash: 1ad2eb6d2e9a423aa1891eb52f71e815f4b89eff
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262157"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3785461"
 ---
 # <a name="entering-data"></a>Saisie de données
 
@@ -160,7 +160,7 @@ Pour ouvrir la fiche ou le document en cours dans une nouvelle fenêtre, choisis
 
 > [!NOTE]
 > Si vous travaillez dans le navigateur Safari, un bloqueur de fenêtres publicitaires intempestives peut empêcher la nouvelle fenêtre de s'ouvrir. Si tel est le cas, spécifiez l'URL du produit en tant que site Web autorisé. Pour plus d'informations, voir [Modifier les préférences dans Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
-> La même chose peut se produire dans d'autres navigateurs, tels que Firefox. Pour plus d'informations, voir [Paramètres du bloqueur de fenêtres publicitaires intempestives dans Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
+> La même chose peut se produire dans d’autres navigateurs, tels que Firefox. Pour plus d’informations, voir [Paramètres du bloqueur de fenêtres publicitaires intempestives dans Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
 
 Une autre façon d'effectuer plusieurs tâches simultanément consiste à ouvrir [!INCLUDE[d365fin](includes/d365fin_md.md)] sur deux ou plusieurs onglets du navigateur. Pour ce faire, vous devez créer un onglet, puis copier/coller l'URL de l'onglet initial dans le nouvel onglet. Cela crée une session.   
 

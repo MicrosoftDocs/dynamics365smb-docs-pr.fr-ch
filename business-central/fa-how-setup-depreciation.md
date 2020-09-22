@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 4567bdc42cc7ef9434957d77b2675db78a7fd6f2
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 4a54ed9896c6d9921d13f2a4c9c43ed1ba5b7eea
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184331"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3784674"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Configurer un amortissement immobilisation
  Vous pouvez utiliser plusieurs méthodes d'amortissement pour préparer les états financiers et les déclarations de revenus. De nombreuses sociétés de grande taille utilisent la méthode de l'amortissement linéaire dans leurs états financiers car elle permet généralement la déclaration des bénéfices supérieurs. Aux fins de l'impôt sur le revenu, cependant, de nombreuses entreprises utilisent une méthode d'amortissement accélérée, comme l'amortissement dégressif. Vous définissez la méthode d'amortissement d'un actif avec le champ **Méthode d'amortissement** sur la page **Fiche immobilisation**. Pour plus d'informations sur les fonctions des différentes méthodes, consultez [Méthodes d'amortissement](fa-depreciation-methods.md).

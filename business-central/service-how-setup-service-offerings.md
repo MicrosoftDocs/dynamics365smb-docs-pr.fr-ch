@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: components, service item, service
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 2f6d9b02e3364d34339ea7176c08fdff7de5eb90
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 5cddd49089202e83ffbc2f6062c5c69067157df8
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195090"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3784524"
 ---
 # <a name="set-up-service-offerings"></a>Configurer des offres de service
 Lorsque vous configurez la gestion des services, vous devez choisir les services que vous allez fournir aux clients et les planifier. Un service correspond à un type de travail exécuté par une ou plusieurs ressources et fourni à un client. Ce peut être un type de réparation informatique. Un article de service correspond à l'équipement ou l'article nécessitant une maintenance : par exemple, un ordinateur à réparer, installé chez un client spécifique. Vous pouvez configurer des services afin de les intégrer au groupe d'articles de réparation ou de maintenance associés.  

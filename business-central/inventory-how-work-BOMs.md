@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/27/2020
-ms.author: sgroespe
-ms.openlocfilehash: 1b095b54d5540de34b86f4073cc5d57679cee8ff
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.author: edupont
+ms.openlocfilehash: fbfe510c420187ba881ee1cace8ecdafe47b4924
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324237"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3786361"
 ---
 # <a name="work-with-bills-of-material"></a>Utiliser les nomenclatures
 Les nomenclatures d'assemblage permettent de structurer les articles parents qui doivent être assemblés ou produits par des ressources ou des postes de charge à partir des composants. Une nomenclature d'assemblage peut également être utilisée pour vendre un article parent sous la forme d'un kit constitué de ses composants.

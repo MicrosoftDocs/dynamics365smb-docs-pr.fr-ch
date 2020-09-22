@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, distribution center
 ms.date: 04/01/2020
-ms.author: SorenGP
-ms.openlocfilehash: 37815e275e478663a310ee052d16afde973d32ef
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 805439e0cc50fe0b9dc3132050eb7c7041ffe7a7
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182099"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3785961"
 ---
 # <a name="set-up-locations"></a>Configurer des magasins
 Si vous achetez, enregistrez, ou vendez des articles à plusieurs magasins ou entrepôt, vous devez spécifier chaque magasin avec une fiche magasin et définir des acheminements transfert.

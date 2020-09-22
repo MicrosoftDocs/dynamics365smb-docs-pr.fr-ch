@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 467b43b14f1905018c2a26a06c15abc5a0a17e99
-ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
+ms.author: edupont
+ms.openlocfilehash: fb80cecd119cf061b3102d94f586da4c103bd21c
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410659"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3784828"
 ---
 # <a name="block-items-from-sales-or-purchasing"></a>Bloquer des articles pour la vente ou pour l'achat
 Vous pouvez bloquer un article pour la saisie sur des lignes de documents de vente ou d'achat, et vous pouvez le bloquer pour la validation dans n'importe quelle transaction. Par exemple, cela est utile lorsqu'un article présente un défaut connu. Si quelqu'un choisit un article bloqué sur un document de vente ou d'achat, un message l'informera que l'article est bloqué.

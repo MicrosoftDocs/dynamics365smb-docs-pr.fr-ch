@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 37ff3fc77b1a09a07f3c9e0258519647dc8c0b79
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 5b44648e169d9692e0124c79d170eab1fa9087a1
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194994"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3784474"
 ---
 # <a name="set-up-work-hours-and-service-hours"></a>Configurer des heures de travail et des heures de service
 Généralement, un système de gestion de services suit les heures ressource et les statuts commande service afin de prévoir les besoins en charges de travail et en service. [!INCLUDE[d365fin](includes/d365fin_md.md)] intègre des outils que vous pouvez personnaliser afin d'enregistrer ce type d'informations.  

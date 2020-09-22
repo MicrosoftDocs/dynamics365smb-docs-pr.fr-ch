@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: categories, search words, facets
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 5c927a5d182cf2e33620496ea07cbc599d7537e3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 1ca5b5632093205423654c78feeaffa86104c819
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181907"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3786336"
 ---
 # <a name="work-with-item-attributes"></a>Utiliser les attributs d'article
 Lorsque les clients recherchent des renseignements au sujet d'un article, par courrier ou via une boutique en ligne, ils peuvent effectuer leur recherche en fonction de caractéristiques, telles que la hauteur et l'année du modèle. Pour assurer le service de ce client, vous pouvez affecter des valeurs attribut article de différents types à vos articles, qui peuvent être utilisées pour rechercher les articles.

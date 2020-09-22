@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 0b82f92c03aeee11b663d7888c79f4cc78f2c7fc
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: d817879ee830bf242ca46143900f66888d5db98c
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191514"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3785286"
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Exécuter une planification complète et un calcul PDP ou MRP
 Les termes « exécution de la feuille planning » ou « exécution d'un calcul MRP » font référence au calcul de la planification de fabrication principale et aux besoins matière sur la base de la demande réelle et prévue. Le système de planification peut calculer la planification de production (PDP) ou la planification des besoins matière (MRP, Material Requirements Planning) à la demande ou calculer les deux simultanément.  

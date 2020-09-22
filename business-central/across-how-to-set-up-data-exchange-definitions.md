@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 44069b903df5426ae2aa3e851404c2b9e01f3979
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: c8a1fb9e6491eb70d71ba86381c5925f939addf2
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188195"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3785561"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Configurer les définitions d'échange de données
 Vous pouvez configurer [!INCLUDE[d365fin](includes/d365fin_md.md)] pour échanger des données de tables spécifiques avec des données de fichiers externes, par exemple pour recevoir et envoyer des documents électroniques, importer et exporter des données bancaires ou d'autres données, telles que les salaires, les taux de change des devises et les catalogues article. Pour plus d'informations, voir [Échanger des données par voir électronique](across-data-exchange.md).  
@@ -124,7 +124,7 @@ Ceci est décrit dans les procédures suivantes.
     |**Nom**|Saisissez un nom pour les paramètres de mappage.|  
     |**Codeunit pré-mappage**|Spécifiez le codeunit qui prépare le mappage entre les champs dans [!INCLUDE[d365fin](includes/d365fin_md.md)] et les données externes.|  
     |**Codeunit mappage**|Spécifiez le codeunit qui est utilisé pour mapper les colonnes ou les éléments de données XML spécifiés aux champs dans [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
-    |**Codeunit post-mappage**|Spécifiez le codeunit qui effectue le mappage entre les champs dans [!INCLUDE[d365fin](includes/d365fin_md.md)] et les données externes. **Remarque :** lors de l'utilisation de l'extension AMC Banking 365 Fundamentals, le codeunit convertit les données exportées de [!INCLUDE[d365fin](includes/d365fin_md.md)] vers un format générique qui est prêt pour l'exportation. Pour l'importation, le codeunit convertit les données externes dans un format prêt à l'importation dans [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
+    |**Codeunit post-mappage**|Spécifiez le codeunit qui effectue le mappage entre les champs dans [!INCLUDE[d365fin](includes/d365fin_md.md)] et les données externes. **Remarque :** lors de l’utilisation de l’extension AMC Banking 365 Fundamentals, le codeunit convertit les données exportées depuis [!INCLUDE[d365fin](includes/d365fin_md.md)] vers un format générique prêt pour l’exportation. Pour l'importation, le codeunit convertit les données externes dans un format prêt à l'importation dans [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
 
 3.  Dans le raccourci **Mappage de champs**, spécifiez le mappage entre les colonnes et les champs dans [!INCLUDE[d365fin](includes/d365fin_md.md)] en renseignant les champs comme indiqué dans le tableau suivant.  
 
@@ -139,7 +139,7 @@ Ceci est décrit dans les procédures suivantes.
     |**Libellé champ cible**|Uniquement visible lorsque la case à cocher **Utiliser comme table intermédiaire** est cochée.<br /><br /> Spécifiez le nom du champ dans la table cible auquel la valeur de la colonne **Titre colonne** est mappée lorsque vous utilisez une table intermédiaire pour l'importation des données.|  
     |**Supplémentaires**|Uniquement visible lorsque la case à cocher **Utiliser comme table intermédiaire** est cochée.<br /><br /> Spécifiez que la correspondance doit être ignorée si le champ est vide. Si vous n'activez pas cette case à cocher, une erreur d'exportation aura lieu si le champ est vide.|  
 
-La définition d'échange de données est désormais prête à être activée pour les utilisateurs. Pour en savoir plus, consultez [Configurer l'envoi et la réception de documents électroniques](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Configurer des virements SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#setting-up-sepa-credit-transfer), [Recueillir des paiements avec un prélèvement SEPA](finance-collect-payments-with-sepa-direct-debit.md) et [Exécuter les paiements avec l'extension AMC Banking 365 Fundamentals ou un virement SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
+La définition d'échange de données est désormais prête à être activée pour les utilisateurs. Pour en savoir plus, consultez [Configurer l’envoi et la réception de documents électroniques](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Configurer des virements SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#setting-up-sepa-credit-transfer), [Recueillir des paiements avec un prélèvement SEPA](finance-collect-payments-with-sepa-direct-debit.md) et [Exécuter les paiements avec l’extension AMC Banking 365 Fundamentals ou un virement SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
 
 ### <a name="transformation-rules"></a>Règles de transformation
 Si les valeurs des champs que vous mappez sont différentes, vous devez utiliser des règles de transformation pour les définitions d'échange de données afin de les rendre identiques. Pour définir des règles de transformation pour des définitions d'échange de données, ouvrez une définition existante ou créez-en une nouvelle, puis, sur le raccourci **Définitions de ligne**, choisissez **Gérer**, puis **Mappage de champs**. Des règles prédéfinies sont fournies, mais vous pouvez également créer les vôtres. Le tableau suivant décrit les types de transformations que vous pouvez effectuer.
@@ -197,6 +197,6 @@ Lorsque vous avez créé la définition d'échange de données pour un fichier d
 [Configuration de l'échange de données](across-set-up-data-exchange.md)  
 [Configurer l'envoi et la réception de documents électroniques](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [Recouvrement de paiements par prélèvement automatique SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
-[Effectuer des paiements avec l'extension AMC Banking 365 Fundamentals ou virement SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
+[Réaliser des paiements avec l’extension AMC Banking 365 Fundamentals ou le virement SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
 [Documents entrants](across-income-documents.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)  

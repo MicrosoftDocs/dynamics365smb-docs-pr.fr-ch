@@ -10,13 +10,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 3329a694f4c27a2a314d82dd2f71eb31c9f36d98
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: cc25efa746e7dd3282159b13ecea66ec66ac5e82
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194634"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3785411"
 ---
 # <a name="change-which-features-are-displayed"></a>Modifier les fonctionnalités affichées
 [!INCLUDE[d365fin](includes/d365fin_md.md)] est conçu pour vous aider à gérer votre entreprise indépendamment de sa taille et de sa complexité. Au cœur du produit, vous trouverez des fonctionnalités essentielles, telles que la génération d'états financiers, les ventes, les achats et la gestion des stocks. À mesure que la complexité de l'entreprise augmente, vous pouvez activer des fonctionnalités pour la fabrication et la gestion des services, par exemple.
