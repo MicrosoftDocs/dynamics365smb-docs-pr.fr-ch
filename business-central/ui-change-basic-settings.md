@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: cd3d7a821c088b6e9f457e3bf3dc05d0c53525c4
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: fa091993d64aeba6982a871aeb794c97be3e81d9
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194610"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3782458"
 ---
 # <a name="change-basic-settings"></a>Modifier les paramètres de base
 
@@ -67,10 +67,11 @@ La date de travail la plus couramment utilisée est la date du jour. Vous pouvez
 ### <a name="work-date-indication"></a>Indication de la date de travail
 Chaque fois que la date de travail n'est pas définie sur la date du jour, deux types d'indicateurs apparaissent sur les pages pouvant être modifiées et pour lesquelles la date de travail est par conséquent essentielle :
 
-- Un rappel apparaît en haut de la page pour vous indiquer la date de travail. Le rappel fournit un lien direct vers le paramètre de la date de travail sur la page **Mes paramètres** de sorte que vous pouvez modifier la date si vous voulez. À partir du rappel, vous pouvez également choisir de l'annuler pour le reste de votre session. À moins que vous ne remplaciez la date de travail par « aujourd'hui », le rappel apparaîtra la prochaine fois que vous vous connecterez.
+* Un rappel apparaît en haut de la page pour vous indiquer la date de travail. Le rappel fournit un lien direct vers le paramètre de la date de travail sur la page **Mes paramètres** de sorte que vous pouvez modifier la date si vous voulez. À partir du rappel, vous pouvez également choisir de l'annuler pour le reste de votre session. À moins que vous ne remplaciez la date de travail par « aujourd'hui », le rappel apparaîtra la prochaine fois que vous vous connecterez.
 
-- Si vous refusez le rappel, la date de travail apparaîtra dans le titre de la page.  
---> Si la date de travail n'est pas définie sur la date actuelle (aujourd'hui), sur toutes les pages sur lesquelles vous pouvez modifier les données, la date de travail actuelle s'affiche dans l'angle supérieur gauche de la page.
+* Si vous refusez le rappel, la date de travail apparaîtra dans le titre de la page.  
+
+Si la date de travail n'est pas définie sur la date actuelle (aujourd'hui), sur toutes les pages sur lesquelles vous pouvez modifier les données, la date de travail actuelle s'affiche dans l'angle supérieur gauche de la page.
 
 ## <a name="region"></a><a name="region"></a> Région
 

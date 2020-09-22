@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/02/2020
-ms.author: sgroespe
-ms.openlocfilehash: f5b3c47ab430b89c2f747f73bc427e045a902992
-ms.sourcegitcommit: 506a433298fc3629231cfa98f64a2d1428094fde
+ms.author: edupont
+ms.openlocfilehash: 70433ce496c79edcd053ae345b3b0559cf60b744
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "3534686"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3782914"
 ---
 # <a name="combine-receipts-on-a-single-invoice"></a>Regroupement de bons de réception sur une seule facture
 

@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 6e80ba7e148e8a415c8b9c71e42bdda13df7050f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 2c4931b6977a4bb5fd17327c0be55f6b67d6f920
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192186"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3782583"
 ---
 # <a name="setup-best-practices-supply-planning"></a>Pratiques de configuration recommandées : planification de l'approvisionnement
 La planification des approvisionnements est un domaine d'activité critique. Lorsqu'elle est configurée et utilisée correctement, la planification des approvisionnements évite les rupture de stocks et minimise les coûts de commande et de stockage.  
