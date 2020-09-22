@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 872e451302ffa3f6dcebe55886b2af943424bba7
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 6cfe028d21086269f1492aefde31fe6b659d06b4
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185699"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3788136"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Détails de conception : concepts centraux du système de planification
 Les fonctions de planification se trouvent dans un traitement par lots qui sélectionne d'abord les articles appropriés et la période à planifier. Puis, en fonction du code de bas niveau de chaque article (ligne nomenclature), le traitement par lots appelle une unité de code, qui calcule un programme d'approvisionnement en équilibrant les séries approvisionnement-demande et en suggérant des actions possibles à mener pour l'utilisation. Les mesures suggérées apparaissent sous forme de lignes dans la feuille planning ou dans la demande achat.  

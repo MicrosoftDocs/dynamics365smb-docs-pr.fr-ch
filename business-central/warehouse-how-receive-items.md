@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/07/2020
-ms.author: sgroespe
-ms.openlocfilehash: 99aab6de06cd50d53b977ed37a863cad28fab8fa
-ms.sourcegitcommit: 8b2f02dd5189c46ecff33c07223ed62b36842d34
+ms.date: 08/18/2020
+ms.author: edupont
+ms.openlocfilehash: 038ecb0122e58cfdca3ff62ac93554fab01dcdb6
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "3542682"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3786611"
 ---
 # <a name="receive-items"></a>Réceptionner des articles
 
@@ -33,6 +33,7 @@ Ce qui suit décrit comment réceptionner des articles avec une commande achat. 
 
   > [!NOTE]
   > Si la quantité reçue est supérieure à celle commandée sur la commande achat, selon le champ **Quantité**, et que le fournisseur a été configuré pour autoriser les sur-réceptions, utilisez le champ **Sur-réception** pour gérer la quantité excédentaire. Pour en savoir plus, consultez [Pour réceptionner plus d'articles que commandés](warehouse-how-receive-items.md#to-receive-more-items-than-ordered).
+
 4. Sélectionnez l'action **Valider**.
 
   La valeur du champ **Qté reçue** est mise à jour en conséquence. Si c'est une réception partielle, la valeur est inférieure à la valeur dans le champ **Quantité**.

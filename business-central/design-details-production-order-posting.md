@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: d69007dfba9fe7aa95365f7bd2c7f5b6b2c756d0
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 663d1c846e957be1b3d85a95a56a6f7f6cc940e8
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184835"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3787336"
 ---
 # <a name="design-details-production-order-posting"></a>Détails de conception : validation d'ordre de fabrication
 Comme pour la validation d'ordre d'assemblage, les composants consommés et le temps du poste utilisé sont convertis et sortis en tant qu'article produit lorsque l'ordre de fabrication est terminé. Pour plus d'informations, voir [Détails de conception : modes évaluation stock](design-details-assembly-order-posting.md). Toutefois, le flux des coûts des ordres d'assemblage est moins complexe, notamment parce que la validation du coût d'assemblage ne se produit qu'une fois et ne génère donc pas de stock encours.

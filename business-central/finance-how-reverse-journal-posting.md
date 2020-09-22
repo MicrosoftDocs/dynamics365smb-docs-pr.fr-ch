@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 38c836609a4e896b9fb71d0195f1d3c05d1cf081
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 17293912658cc60a35ba4d54156d48eda3db32dc
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183587"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3788486"
 ---
 # <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Inversion d'une validation feuille et annuler les réceptions/envois
 Pour annuler une validation feuille erronée, sélectionnez l'écriture et créez une écriture inverse (écritures identiques aux écritures originales mais avec le signe opposé) portant les mêmes numéro de document et date comptabilisation que l'écriture d'origine. Une fois l'écriture contrepassée, créez l'écriture correcte.

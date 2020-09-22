@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 74f8d9dcb309581681e6161a12e7e52fac066726
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 9254d7b32d96fc97dd1c6facba567f92bbb630b4
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193386"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3786661"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Procédure pas à pas : Configuration et utilisation d'un flux d'approbation achat
 Vous pouvez automatiser le processus d'approbation d'enregistrements nouveaux ou modifiés, par exemple de documents, de feuilles et de fiches client, en créant des flux de travail avec des étapes pour les approbations en question. Avant de créer des flux d'approbation, vous devez configurer un approbateur et un approbateur remplaçant pour chaque utilisateur approbation. Vous pouvez également définir les montants maximaux que les approbateurs sont qualifiés à approuver pour les enregistrements de vente et d'achat. Les demandes d'approbation et d'autres notifications peuvent être envoyées par e-mail ou note interne. Pour chaque configuration d'utilisateur d'approbation, vous pouvez également définir à quel moment ils reçoivent les notifications.

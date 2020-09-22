@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 35fafa5ed84c2435b2227b2c1e4c9ca683fe7a22
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 6611c6967a89d9a94110d30b0ebdfbe872df2ce8
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185867"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3788311"
 ---
 # <a name="design-details-active-versus-historic-item-tracking-entries"></a>Détails de conception : comparaison entre écritures traçabilité actives et historiques
 Lorsque des parties d'une quantité de ligne document sont validées, seule cette quantité particulière est transférée vers les écritures comptables article et ses numéros de suivi. Toutefois, vous voudrez accéder à toutes les informations de traçabilité pertinentes directement à partir de la ligne document actif. C'est-à-dire, non seulement vous voudrez visualiser les écritures relatives à la quantité restante, mais vous voudrez également des informations sur les unités validées. Lorsque vous consultez ou modifiez la page **Lignes traçabilité**, le contenu collectif du tableau **Spécification traçabilité** (T336) et du tableau **Écriture réservation** (T337) est présenté dans une version temporaire de T336. Ceci garantit que les données de suivi article historiques et actives sont accessibles en même temps.  

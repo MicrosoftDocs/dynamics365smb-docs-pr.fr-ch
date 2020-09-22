@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 42e3c3da8c9ea32467f2259c7d29d224427535c6
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: b041c0bf8581c31334ec9fd7de190ba6d8f53f1c
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185795"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3788186"
 ---
 # <a name="codeunit-12-changes-changes-in-general-journal-post-procedures"></a>Codeunit 12 modifications : modifications dans les procédures de validation de feuille comptabilité
 Les modifications suivantes ont été mises en œuvre dans cette version de [!INCLUDE[d365fin](includes/d365fin_md.md)].  

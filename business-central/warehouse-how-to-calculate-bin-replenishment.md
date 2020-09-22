@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 7e8c5298fe098659aeab81eb3da64456c6d2a8ef
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 4d1c48ebc03eab75f6959591c039eaeda07d2ceb
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193242"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3788361"
 ---
 # <a name="calculate-bin-replenishment"></a>Calculer réappro. emplacement
 Lorsque le magasin est configuré pour utiliser le prélèvement et le rangement suggérés, les priorités du modèle de rangement du magasin sont prises en compte lors du rangement des réceptions. Les priorités incluent les quantités minimale et maximale du contenu de l'emplacement qui ont été définies pour un emplacement particulier, ainsi que les priorités emplacement. Par conséquent, si des articles arrivent régulièrement, les emplacements prélèvement les plus utilisés sont remplis dès qu'ils sont vides.  

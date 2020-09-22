@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: a1e55d983abae5f85807039da6dd4d846c3e40b3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: b039c15a3e55135576dfe6341248bde936d58093
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185723"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3788161"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Détails de conception : équilibrage de la demande et de l'approvisionnement
 Pour comprendre comment fonctionne le système de planification, il est nécessaire de comprendre les objectifs priorisés du système de planification, dont les plus importants sont de s'assurer que :  

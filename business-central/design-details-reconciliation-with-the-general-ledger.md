@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: b62bb8774bfcbd371125d0dc529ce503afd34f2c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 73005b4c9886e44cf7a9e23e75c247c3739d19ec
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184859"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3787311"
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Détails de conception : rapprochement de comptabilité
 Lorsque vous validez des mouvements de stock, tels que des expéditions vente, des productions ou des ajustements négatifs, les modifications de quantité et de valeur des stocks sont enregistrées respectivement dans les écritures comptables article et les écritures valeur. L'étape suivante de ce processus consiste à valider les valeurs de stocks dans les comptes stocks de la comptabilité.  

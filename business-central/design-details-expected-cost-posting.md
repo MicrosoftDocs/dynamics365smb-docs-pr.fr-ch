@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 024d80039c2293924a53db31ea998a7b565c333b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 176b0e999f10f7cc055ac40431dd3507ed2836f6
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185507"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3787911"
 ---
 # <a name="design-details-expected-cost-posting"></a>Détails de conception : validation du coût prévu
 Les coûts prévus représentent l'estimation, par exemple, du coût d'un article acheté que vous enregistrez avant la réception de la facture de cet article.  
