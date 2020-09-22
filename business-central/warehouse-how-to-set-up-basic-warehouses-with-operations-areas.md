@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 5990ecc7e4d913edb4a5a0ea2781dae272e7175a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 8ce9a861812294de642939d3111e40dc9f7052f6
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196293"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3789115"
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Configurer des entrepôts de base avec les zones d'opérations
 Si les zones Opérations internes telles que la production ou l'assemblage existent dans les configurations entrepôt de base dans lesquelles les magasins utilisent le champ de configuration **Emplacement obligatoire** et éventuellement les champs **Prélèvement requis** et **Rangement requis**, vous pouvez utiliser les documents d'entrepôt de base suivants pour enregistrer vos activités entrepôt pour des zones Opérations internes :  

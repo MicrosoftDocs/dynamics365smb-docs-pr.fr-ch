@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 2d6037b7310eba798696d0aca7881b4927f1d14b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: f2e5ed9ad2d85e011162eaf8706c41a0935a73e6
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194850"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3788990"
 ---
 # <a name="work-with-blanket-sales-orders"></a>Utiliser des commandes ouvertes vente
 Une commande ouverte vente représente le cadre d'un accord à long terme entre votre client et vous.
