@@ -8,22 +8,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 35f867b1aaf62ee41abc96a4caa1d8ce32730edb
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 6e9f0c1e880cdc37f35d534bc20073837d3af1c3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778211"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916400"
 ---
 # <a name="print-vendor-payments-list-reports"></a>Imprimer des rapports contenant les listes de paiements fournisseurs
+
 Le rapport **Liste de paiements fournisseur** fournit la liste des paiements pour chaque fournisseur. Le rapport peut trier les paiements par ordre chronologique ou groupés par fournisseur.  
+
+> [!NOTE]
+> Le rapport **Liste de paiements fournisseurs** est disponible dans les marchés suivants : Autriche, Allemagne, Suisse.
 
 ## <a name="to-print-the-vendor-payments-list-report"></a>Pour imprimer des rapports contenant les listes de paiements fournisseurs  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Liste de paiements fournisseur**, puis sélectionnez le lien associé.  
-2.  Sous le raccourci **Options**, renseignez les champs comme indiqué dans le tableau ci-dessous.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Liste de paiements fournisseur**, puis sélectionnez le lien associé.  
+2. Sous le raccourci **Options**, renseignez les champs comme indiqué dans le tableau ci-dessous.  
 
     |Champ|Désignation|  
     |---------------------------------|---------------------------------------|  
@@ -32,5 +36,6 @@ Le rapport **Liste de paiements fournisseur** fournit la liste des paiements pou
 
  À la fin du rapport, le nombre de paiements traités est affiché.  
 
-## <a name="see-also"></a>Voir aussi  
+## <a name="see-also"></a>Voir aussi
+
 [Effectuer des paiements](../../payables-make-payments.md)

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0a05675a23c8b3678784d7a1febd812bdb6647f1
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 3c86ad2d5ecc9c7d74b5f8c4b77acea885569f6b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3777878"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925219"
 ---
 # <a name="balance"></a>Solde
 Spécifie un solde comptabilité temporaire. Lorsque vous choisissez l'action **Solde** dans la page **Comptes généraux**, la page **Compte général. Solde temporaire** s'ouvre. Elle indique le solde des écritures comptables finales enregistrées et le solde des écritures saisies dans la feuille comptabilité actuelle.  

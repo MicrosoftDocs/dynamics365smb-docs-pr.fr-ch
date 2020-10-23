@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b554c21200a40c5371b2b66bf0537fbde7e80d0a
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: ad1bd5d35e36a252ca78c39a9fbcc3f4cd09074a
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778204"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916408"
 ---
 # <a name="print-test-reports-for-delivery-reminders"></a>Imprimer des rapports de test pour les relances livraison
 Après avoir créé les relances livraison et effectué toutes les modifications souhaitées, vous pouvez lancer les impressions test ou émettre les relances livraison.  
