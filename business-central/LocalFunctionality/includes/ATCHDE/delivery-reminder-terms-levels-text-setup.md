@@ -1,0 +1,58 @@
+---
+author: edupont04
+ms.service: dynamics365-business-central
+ms.topic: include
+ms.date: 10/01/2020
+ms.author: edupont
+ms.openlocfilehash: 5ca2eb6fd5972f2494864b61c23bcf6c3ee26a7f
+ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "3959652"
+---
+<span data-ttu-id="76dc6-101">Pour créer des relances livraison, vous devez configurer ce qui suit :</span><span class="sxs-lookup"><span data-stu-id="76dc6-101">To create delivery reminders, you must set up the following:</span></span>  
+
+- <span data-ttu-id="76dc6-102">Conditions de relance livraison</span><span class="sxs-lookup"><span data-stu-id="76dc6-102">Delivery reminder terms</span></span>  
+- <span data-ttu-id="76dc6-103">Niveaux de relance livraison</span><span class="sxs-lookup"><span data-stu-id="76dc6-103">Delivery reminder levels</span></span>  
+- <span data-ttu-id="76dc6-104">Message textuels de relance livraison</span><span class="sxs-lookup"><span data-stu-id="76dc6-104">Delivery reminder text messages</span></span>  
+
+<span data-ttu-id="76dc6-105">Chaque condition de relance livraison a deux niveaux ou plusieurs niveaux de relance livraison, et pour chaque niveau de relance livraison, vous pouvez spécifier le texte constituant la relance livraison.</span><span class="sxs-lookup"><span data-stu-id="76dc6-105">Each delivery reminder term has two or more delivery reminder levels, and for each delivery reminder level, you can specify text that will be part of the delivery reminder.</span></span>  
+
+## <a name="to-set-up-delivery-reminder-terms"></a><span data-ttu-id="76dc6-106">Pour configurer des conditions de relance livraison</span><span class="sxs-lookup"><span data-stu-id="76dc6-106">To set up delivery reminder terms</span></span>  
+
+1. <span data-ttu-id="76dc6-107">Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Conditions de relance livraison**, puis sélectionnez le lien associé.</span><span class="sxs-lookup"><span data-stu-id="76dc6-107">Choose the ![Lightbulb that opens the Tell Me feature](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delivery Reminder Terms**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="76dc6-108">Sélectionnez l'action **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="76dc6-108">Choose the **New** action.</span></span>  
+3. <span data-ttu-id="76dc6-109">Renseignez les champs comme indiqué dans le tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="76dc6-109">Fill in the fields as described in the following table.</span></span>  
+
+    |<span data-ttu-id="76dc6-110">Champ</span><span class="sxs-lookup"><span data-stu-id="76dc6-110">Field</span></span>|<span data-ttu-id="76dc6-111">Désignation</span><span class="sxs-lookup"><span data-stu-id="76dc6-111">Description</span></span>|  
+    |---------------------------------|---------------------------------------|  
+    |<span data-ttu-id="76dc6-112">**Code**</span><span class="sxs-lookup"><span data-stu-id="76dc6-112">**Code**</span></span>|<span data-ttu-id="76dc6-113">Code de la condition de relance livraison.</span><span class="sxs-lookup"><span data-stu-id="76dc6-113">The code for the delivery reminder term.</span></span> <span data-ttu-id="76dc6-114">Vous pouvez entrer 10 caractères alphanumériques maximum.</span><span class="sxs-lookup"><span data-stu-id="76dc6-114">You can enter a maximum of 10 alphanumeric characters.</span></span>|  
+    |<span data-ttu-id="76dc6-115">**Description**</span><span class="sxs-lookup"><span data-stu-id="76dc6-115">**Description**</span></span>|<span data-ttu-id="76dc6-116">Description de la condition de relance livraison.</span><span class="sxs-lookup"><span data-stu-id="76dc6-116">The description for the delivery reminder term.</span></span> <span data-ttu-id="76dc6-117">Vous pouvez entrer 30 caractères alphanumériques maximum.</span><span class="sxs-lookup"><span data-stu-id="76dc6-117">You can enter a maximum of 30 alphanumeric characters.</span></span>|  
+    |<span data-ttu-id="76dc6-118">**Nombre max. de relances livraison**</span><span class="sxs-lookup"><span data-stu-id="76dc6-118">**Max. No. of Delivery Reminders**</span></span>|<span data-ttu-id="76dc6-119">Nombre maximum de relances livraison qui peuvent être créées pour une commande.</span><span class="sxs-lookup"><span data-stu-id="76dc6-119">The maximum number of delivery reminders that can be created for an order.</span></span><br /><br /> <span data-ttu-id="76dc6-120">**REMARQUE :** C'est le nombre maximal pour tous les niveaux de relance applicable à cette condition de relance.</span><span class="sxs-lookup"><span data-stu-id="76dc6-120">**NOTE:** This is the maximum number across all reminder levels for this reminder term.</span></span> <span data-ttu-id="76dc6-121">Par exemple, si vous avez configuré trois niveaux, et que vous définissez le **Nombre max. de relances livraison** à 5, la première relance est créée au niveau 1, la seconde au niveau 2, et les trois dernières au niveau 3.</span><span class="sxs-lookup"><span data-stu-id="76dc6-121">For example, if you have set up three levels, and you set **Max. No. of Delivery Reminders** to 5, the first reminder is created at level 1, the second at level 2, and the last three at level 3.</span></span>|  
+
+4. <span data-ttu-id="76dc6-122">Cliquez sur le bouton **OK**.</span><span class="sxs-lookup"><span data-stu-id="76dc6-122">Choose the **OK** button.</span></span>  
+
+## <a name="to-add-delivery-reminder-levels-to-a-delivery-reminder-term"></a><span data-ttu-id="76dc6-123">Pour ajouter des niveaux de relance livraison à une seule condition de relance livraison</span><span class="sxs-lookup"><span data-stu-id="76dc6-123">To add delivery reminder levels to a delivery reminder term</span></span>  
+
+1. <span data-ttu-id="76dc6-124">Dans la page **Conditions de relance livraison**, sélectionnez la condition pour laquelle vous souhaitez configurer des niveaux, puis choisissez l'action **Niveaux**.</span><span class="sxs-lookup"><span data-stu-id="76dc6-124">On the **Delivery Reminder Terms** page, select the delivery reminder term for which you want to set up levels, and then choose the **Levels** action.</span></span>  
+2. <span data-ttu-id="76dc6-125">Sélectionnez l'action **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="76dc6-125">Choose the **New** action.</span></span>  
+3. <span data-ttu-id="76dc6-126">Renseignez les champs comme indiqué dans le tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="76dc6-126">Fill in the fields as described in the following table.</span></span>  
+
+    |<span data-ttu-id="76dc6-127">Champ</span><span class="sxs-lookup"><span data-stu-id="76dc6-127">Field</span></span>|<span data-ttu-id="76dc6-128">Désignation</span><span class="sxs-lookup"><span data-stu-id="76dc6-128">Description</span></span>|  
+    |---------------------------------|---------------------------------------|  
+    |<span data-ttu-id="76dc6-129">**N°**</span><span class="sxs-lookup"><span data-stu-id="76dc6-129">**No.**</span></span>|<span data-ttu-id="76dc6-130">Numéro de niveau de relance livraison.</span><span class="sxs-lookup"><span data-stu-id="76dc6-130">The delivery reminder level number.</span></span> <span data-ttu-id="76dc6-131">Ce champ est complété automatiquement.</span><span class="sxs-lookup"><span data-stu-id="76dc6-131">This field is filled in automatically.</span></span>|  
+    |<span data-ttu-id="76dc6-132">**Calcul de date d'échéance**</span><span class="sxs-lookup"><span data-stu-id="76dc6-132">**Due Date Calculation**</span></span>|<span data-ttu-id="76dc6-133">Formule permettant de calculer l'échéance de la relance livraison.</span><span class="sxs-lookup"><span data-stu-id="76dc6-133">The formula for the due date calculation for the delivery reminder.</span></span> <span data-ttu-id="76dc6-134">Vous pouvez saisir une combinaison de chiffres de 0 à 9999 et des codes de date (J pour le jour, JS pour un jour de la semaine, S pour la semaine, M pour le mois, T pour le trimestre ou A pour l'année).</span><span class="sxs-lookup"><span data-stu-id="76dc6-134">You can enter a combination of numbers from 0 to 9,999, and date codes (D for day, WD for weekday, W for week, M for month, Q for quarter, or Y for year).</span></span> <span data-ttu-id="76dc6-135">Les codes de date indiquent le calcul de la date d'échéance de la relance livraison.</span><span class="sxs-lookup"><span data-stu-id="76dc6-135">The date codes denote the calculation for the delivery reminder due date.</span></span> <span data-ttu-id="76dc6-136">Vous pouvez saisi un maximum de 20 caractères pour la formule de calcul de la date d'échéance.</span><span class="sxs-lookup"><span data-stu-id="76dc6-136">You can enter a maximum of 20 characters for the due date calculation formula.</span></span>|  
+
+4. <span data-ttu-id="76dc6-137">Cliquez sur le bouton **OK**.</span><span class="sxs-lookup"><span data-stu-id="76dc6-137">Choose the **OK** button.</span></span>  
+
+<span data-ttu-id="76dc6-138">Pour chaque niveau de relance livraison, vous pouvez définir les messages texte qui sont ajoutés à la relance livraison.</span><span class="sxs-lookup"><span data-stu-id="76dc6-138">For each delivery reminder level, you can define text messages that are added to the delivery reminder.</span></span> <span data-ttu-id="76dc6-139">Vous pouvez définir le texte de début ajouté avant la description de la commande achat en retard et le texte de fin ajouté après la description de la commande achat en retard.</span><span class="sxs-lookup"><span data-stu-id="76dc6-139">You can define beginning text that is added before the description of the overdue purchase order, and ending text that is added after the description of the overdue purchase order.</span></span>  
+
+<span data-ttu-id="76dc6-140">La procédure suivante décrit comment configurer des messages texte de début, mais les mêmes étapes s'appliquent également pour configurer des messages texte de fin.</span><span class="sxs-lookup"><span data-stu-id="76dc6-140">The following procedure describes how to set up beginning text messages, but the same steps apply for setting up ending text messages.</span></span>  
+
+## <a name="to-set-up-delivery-reminder-text-messages"></a><span data-ttu-id="76dc6-141">Pour configurer des messages textuels de relance livraison</span><span class="sxs-lookup"><span data-stu-id="76dc6-141">To set up delivery reminder text messages</span></span>  
+
+1. <span data-ttu-id="76dc6-142">Dans la page **Niveaux de relance livraison**, sélectionnez un niveau, puis sélectionnez l'action **Texte de début**.</span><span class="sxs-lookup"><span data-stu-id="76dc6-142">On the **Delivery Reminder Levels** page, select a level, and then choose the **Beginning Text** action.</span></span>  
+2. <span data-ttu-id="76dc6-143">Sélectionnez l'action **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="76dc6-143">Choose the **New** action.</span></span>  
+3. <span data-ttu-id="76dc6-144">Dans le champ **Description**, entrez le message texte de début de la relance livraison.</span><span class="sxs-lookup"><span data-stu-id="76dc6-144">In the **Description** field, enter the beginning text message for the delivery reminder.</span></span>  
+4. <span data-ttu-id="76dc6-145">Cliquez sur le bouton **OK**.</span><span class="sxs-lookup"><span data-stu-id="76dc6-145">Choose the **OK** button.</span></span>  

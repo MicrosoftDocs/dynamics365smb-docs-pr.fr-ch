@@ -1,8 +1,6 @@
 ---
-title: 'Procédure : Affecter des codes de relance livraison à des fournisseurs'
-description: Afin que vous puissiez activer les relances livraison pour les achats en retard, vous devez affecter des conditions de relance livraison à des fournisseurs.
-services: project-madeira
-documentationcenter: ''
+title: Affecter des codes de relance livraison à des fournisseurs (CH)
+description: Afin que vous puissiez activer les relances livraison pour les achats en retard, vous devez affecter des conditions de relance livraison à des fournisseurs dans la version suisse.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,29 +8,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8a427a410c7c9fb5182f5a6247385d5470792f88
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 2040abf328dc64f65c089d5b20d17a47a88cf029
+ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3777837"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "3931378"
 ---
-# <a name="assign-delivery-reminder-codes-to-vendors"></a><span data-ttu-id="c670c-103">Affecter des codes de relance livraison à des fournisseurs</span><span class="sxs-lookup"><span data-stu-id="c670c-103">Assign Delivery Reminder Codes to Vendors</span></span>
-<span data-ttu-id="c670c-104">Afin que vous puissiez activer les relances livraison pour les achats en retard, vous devez affecter des conditions de relance livraison à des fournisseurs.</span><span class="sxs-lookup"><span data-stu-id="c670c-104">In order to enable delivery reminders for overdue purchases, you must assign delivery reminder terms to vendors.</span></span> <span data-ttu-id="c670c-105">Pour plus d'informations, voir [Relances livraison](delivery-reminders.md).</span><span class="sxs-lookup"><span data-stu-id="c670c-105">For more information, see [Delivery Reminders](delivery-reminders.md).</span></span>  
+# <a name="assign-delivery-reminder-codes-to-vendors-in-the-swiss-version"></a><span data-ttu-id="451e2-103">Affecter des codes de relance livraison à des fournisseurs dans la version suisse</span><span class="sxs-lookup"><span data-stu-id="451e2-103">Assign Delivery Reminder Codes to Vendors in the Swiss Version</span></span>
 
-## <a name="to-assign-delivery-reminders-codes-to-vendors"></a><span data-ttu-id="c670c-106">Affecter des codes de relance livraison à des fournisseurs</span><span class="sxs-lookup"><span data-stu-id="c670c-106">To assign delivery reminders codes to vendors</span></span>  
+[!INCLUDE [delivery-reminder-codes-vendors](../includes/ATCHDE/delivery-reminder-codes-vendors.md)]
 
-1.  <span data-ttu-id="c670c-107">Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Fournisseurs**, puis sélectionnez le lien associé.</span><span class="sxs-lookup"><span data-stu-id="c670c-107">Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="c670c-108">Sélectionnez le fournisseur pour lequel vous souhaitez définir des relances livraison, puis cliquez sur **Modifier**.</span><span class="sxs-lookup"><span data-stu-id="c670c-108">Select the vendor for whom you want to set up delivery reminders, and then choose the **Edit** action.</span></span>  
-3.  <span data-ttu-id="c670c-109">Dans le raccourci **Réception**, dans le champ **Conditions de relance livraison**, sélectionnez un code condition relance livraison pour le fournisseur.</span><span class="sxs-lookup"><span data-stu-id="c670c-109">On the **Receiving** FastTab, in the **Delivery Reminder Terms** field, select a delivery reminder terms code for the vendor.</span></span>  
-4.  <span data-ttu-id="c670c-110">Cliquez sur le bouton **OK**.</span><span class="sxs-lookup"><span data-stu-id="c670c-110">Choose the **OK** button.</span></span>  
+## <a name="see-also"></a><span data-ttu-id="451e2-104">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="451e2-104">See Also</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="c670c-111">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="c670c-111">See Also</span></span>  
- <span data-ttu-id="c670c-112">[Enregistrer un nouveau fournisseur](../../purchasing-how-register-new-vendors.md) </span><span class="sxs-lookup"><span data-stu-id="c670c-112">[Register New Vendors](../../purchasing-how-register-new-vendors.md) </span></span>  
- <span data-ttu-id="c670c-113">[relances livraison](delivery-reminders.md) </span><span class="sxs-lookup"><span data-stu-id="c670c-113">[Delivery Reminders](delivery-reminders.md) </span></span>  
- <span data-ttu-id="c670c-114">[Configurer des relances livraison](how-to-set-up-delivery-reminders.md) </span><span class="sxs-lookup"><span data-stu-id="c670c-114">[Set Up Delivery Reminders](how-to-set-up-delivery-reminders.md) </span></span>  
- <span data-ttu-id="c670c-115">[Configurer les conditions, niveaux et textes de relance livraison.](how-to-set-up-delivery-reminder-terms-levels-and-text.md) </span><span class="sxs-lookup"><span data-stu-id="c670c-115">[Set Up Delivery Reminder Terms, Levels, and Text](how-to-set-up-delivery-reminder-terms-levels-and-text.md) </span></span>  
- <span data-ttu-id="c670c-116">[Créer manuellement des relances livraison](how-to-create-delivery-reminders-manually.md) </span><span class="sxs-lookup"><span data-stu-id="c670c-116">[Create Delivery Reminders Manually](how-to-create-delivery-reminders-manually.md) </span></span>  
- [<span data-ttu-id="c670c-117">Émettre des relances livraison</span><span class="sxs-lookup"><span data-stu-id="c670c-117">Issue Delivery Reminders</span></span>](how-to-issue-delivery-reminders.md)
+[<span data-ttu-id="451e2-105">Enregistrer un nouveau fournisseur</span><span class="sxs-lookup"><span data-stu-id="451e2-105">Register New Vendors</span></span>](../../purchasing-how-register-new-vendors.md)  
+[<span data-ttu-id="451e2-106">relances livraison</span><span class="sxs-lookup"><span data-stu-id="451e2-106">Delivery Reminders</span></span>](delivery-reminders.md)  
+[<span data-ttu-id="451e2-107">Configurer des relances livraison</span><span class="sxs-lookup"><span data-stu-id="451e2-107">Set Up Delivery Reminders</span></span>](how-to-set-up-delivery-reminders.md)  
+[<span data-ttu-id="451e2-108">Configurer les conditions, niveaux et textes de relance livraison</span><span class="sxs-lookup"><span data-stu-id="451e2-108">Set Up Delivery Reminder Terms, Levels, and Text</span></span>](how-to-set-up-delivery-reminder-terms-levels-and-text.md)  
+[<span data-ttu-id="451e2-109">Créer manuellement des relances livraison</span><span class="sxs-lookup"><span data-stu-id="451e2-109">Create Delivery Reminders Manually</span></span>](how-to-create-delivery-reminders-manually.md)  
+[<span data-ttu-id="451e2-110">Émettre des relances livraison</span><span class="sxs-lookup"><span data-stu-id="451e2-110">Issue Delivery Reminders</span></span>](how-to-issue-delivery-reminders.md)  
