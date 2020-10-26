@@ -1,6 +1,6 @@
 ---
-title: Configuration des comptes d'utilisateur pour l'intégration à Common Data Service | Microsoft Docs
-description: Découvrez comment configurer les comptes d'utilisateur que les applications utilisent pour échanger les données, et que les utilisateurs emploient pour accéder aux données et les synchroniser dans les applications.
+title: Configuration des comptes d’utilisateur pour l’intégration à Common Data Service | Microsoft Docs
+description: Découvrez comment configurer les comptes d’utilisateur que les applications utilisent pour échanger les données, et que les utilisateurs emploient pour accéder aux données et les synchroniser dans les applications.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,23 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 9cd00cd3b3cb55ce3af35bd82284570b86720d63
-ms.sourcegitcommit: 0c6f4382fad994fb6aea9dcde3b2dc25382c5968
+ms.openlocfilehash: d396e5fc9073d753bb9782394a922c26242b472a
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "3484276"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917791"
 ---
-# <a name="setting-up-user-accounts-for-integrating-with-common-data-service"></a><span data-ttu-id="e094f-103">Configuration des comptes d'utilisateur pour intégration à Common Data Service</span><span class="sxs-lookup"><span data-stu-id="e094f-103">Setting Up User Accounts for Integrating with Common Data Service</span></span>
-<span data-ttu-id="e094f-104">Cet article fournit un aperçu de la manière dont la configuration des comptes d'utilisateur requis pour intégrer [!INCLUDE[d365fin](includes/cds_long_md.md)] à [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="e094f-104">This article provides an overview of how to set up the user accounts that are required to integrate [!INCLUDE[d365fin](includes/cds_long_md.md)] with [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span>  
+# <a name="setting-up-user-accounts-for-integrating-with-common-data-service"></a><span data-ttu-id="fc242-103">Configuration des comptes d’utilisateur pour intégration à Common Data Service</span><span class="sxs-lookup"><span data-stu-id="fc242-103">Setting Up User Accounts for Integrating with Common Data Service</span></span>
+<span data-ttu-id="fc242-104">Cet article fournit un aperçu de la manière dont la configuration des comptes d’utilisateur requis pour intégrer [!INCLUDE[d365fin](includes/cds_long_md.md)] à [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="fc242-104">This article provides an overview of how to set up the user accounts that are required to integrate [!INCLUDE[d365fin](includes/cds_long_md.md)] with [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span>  
 
-## <a name="setting-up-the-administrator-user-account"></a><span data-ttu-id="e094f-105">Configuration du compte d'utilisateur administrateur</span><span class="sxs-lookup"><span data-stu-id="e094f-105">Setting Up the Administrator User Account</span></span>
-<span data-ttu-id="e094f-106">Vous devez ajouter votre compte d'utilisateur administrateur pour [!INCLUDE[d365fin](includes/d365fin_md.md)] en tant qu'utilisateur dans [!INCLUDE[d365fin](includes/cds_long_md.md)].</span><span class="sxs-lookup"><span data-stu-id="e094f-106">You must add your administrator user account for [!INCLUDE[d365fin](includes/d365fin_md.md)] as a user in [!INCLUDE[d365fin](includes/cds_long_md.md)].</span></span> <span data-ttu-id="e094f-107">Lorsque vous configurez la connexion entre [!INCLUDE[d365fin](includes/d365fin_md.md)] et [!INCLUDE[d365fin](includes/cds_long_md.md)], nous utilisons ce compte une fois pour installer et configurer certains composants requis.</span><span class="sxs-lookup"><span data-stu-id="e094f-107">When you set up the connection between [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[d365fin](includes/cds_long_md.md)] we will use this account one time to install and configure some required components.</span></span> 
+## <a name="setting-up-the-administrator-user-account"></a><span data-ttu-id="fc242-105">Configuration du compte d’utilisateur administrateur</span><span class="sxs-lookup"><span data-stu-id="fc242-105">Setting Up the Administrator User Account</span></span>
+<span data-ttu-id="fc242-106">Vous devez ajouter votre compte d’utilisateur administrateur pour [!INCLUDE[d365fin](includes/d365fin_md.md)] en tant qu’utilisateur dans [!INCLUDE[d365fin](includes/cds_long_md.md)].</span><span class="sxs-lookup"><span data-stu-id="fc242-106">You must add your administrator user account for [!INCLUDE[d365fin](includes/d365fin_md.md)] as a user in [!INCLUDE[d365fin](includes/cds_long_md.md)].</span></span> <span data-ttu-id="fc242-107">Lorsque vous configurez la connexion entre [!INCLUDE[d365fin](includes/d365fin_md.md)] et [!INCLUDE[d365fin](includes/cds_long_md.md)], nous utilisons ce compte une fois pour installer et configurer certains composants requis.</span><span class="sxs-lookup"><span data-stu-id="fc242-107">When you set up the connection between [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[d365fin](includes/cds_long_md.md)] we will use this account one time to install and configure some required components.</span></span> 
 
-## <a name="permissions-and-security-roles-for-user-accounts-in-d365fin"></a><span data-ttu-id="e094f-108">Autorisations et rôles de sécurité pour les comptes d'utilisateur dans [!INCLUDE[d365fin](includes/cds_long_md.md)]</span><span class="sxs-lookup"><span data-stu-id="e094f-108">Permissions and Security Roles for User Accounts in [!INCLUDE[d365fin](includes/cds_long_md.md)]</span></span>
-<span data-ttu-id="e094f-109">Lorsque vous installez la solution d'intégration de base CDS, les autorisations pour le compte d'utilisateur d'intégration sont configurées.</span><span class="sxs-lookup"><span data-stu-id="e094f-109">When you install the CDS Base Integration Solution, permissions for the integration user account are configured.</span></span> <span data-ttu-id="e094f-110">Si ces autorisations sont modifiées manuellement, vous pouvez les réinitialiser.</span><span class="sxs-lookup"><span data-stu-id="e094f-110">If those permissions are changed manually you can reset them.</span></span> <span data-ttu-id="e094f-111">Vous pouvez le faire en réinstallant la solution d'intégration de base CDS en choisissant **Redéployer la solution d'intégration** sur la page **Paramétrage de la connexion Common Data Service**.</span><span class="sxs-lookup"><span data-stu-id="e094f-111">You can do that by reinstalling the CDS Base Integration Solution by choosing **Redeploy Integration Solution** on the **Common Data Service Connection Setup** page.</span></span> <span data-ttu-id="e094f-112">Le rôle de sécurité Intégration Business Central CDS est déployé.</span><span class="sxs-lookup"><span data-stu-id="e094f-112">The Business Central CDS Integration security role is deployed.</span></span>
+## <a name="permissions-and-security-roles-for-user-accounts-in-d365fin"></a><span data-ttu-id="fc242-108">Autorisations et rôles de sécurité pour les comptes d’utilisateur dans [!INCLUDE[d365fin](includes/cds_long_md.md)]</span><span class="sxs-lookup"><span data-stu-id="fc242-108">Permissions and Security Roles for User Accounts in [!INCLUDE[d365fin](includes/cds_long_md.md)]</span></span>
+<span data-ttu-id="fc242-109">Lorsque vous installez la solution d’intégration de base CDS, les autorisations pour le compte d’utilisateur d’intégration sont configurées.</span><span class="sxs-lookup"><span data-stu-id="fc242-109">When you install the CDS Base Integration Solution, permissions for the integration user account are configured.</span></span> <span data-ttu-id="fc242-110">Si ces autorisations sont modifiées manuellement, vous pouvez les réinitialiser.</span><span class="sxs-lookup"><span data-stu-id="fc242-110">If those permissions are changed manually you can reset them.</span></span> <span data-ttu-id="fc242-111">Vous pouvez le faire en réinstallant la solution d’intégration de base CDS en choisissant **Redéployer la solution d’intégration** sur la page **Paramétrage de la connexion Common Data Service** .</span><span class="sxs-lookup"><span data-stu-id="fc242-111">You can do that by reinstalling the CDS Base Integration Solution by choosing **Redeploy Integration Solution** on the **Common Data Service Connection Setup** page.</span></span> <span data-ttu-id="fc242-112">Le rôle de sécurité Intégration Business Central CDS est déployé.</span><span class="sxs-lookup"><span data-stu-id="fc242-112">The Business Central CDS Integration security role is deployed.</span></span>
 
 <!--
 The following tables list the minimum permissions for the user accounts in [!INCLUDE[d365fin](includes/cds_long_md.md)].
@@ -119,6 +119,6 @@ You can allow sales people to view inventory levels for the items they sell by g
 
 -->
 
-## <a name="see-also"></a><span data-ttu-id="e094f-113">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="e094f-113">See Also</span></span>  
-[<span data-ttu-id="e094f-114">Intégration à Common Data Service</span><span class="sxs-lookup"><span data-stu-id="e094f-114">Integrating with Common Data Service</span></span>](admin-common-data-service.md)  
-[<span data-ttu-id="e094f-115">Intégration à Dynamics 365 Sales</span><span class="sxs-lookup"><span data-stu-id="e094f-115">Integrating with Dynamics 365 Sales</span></span>](admin-prepare-dynamics-365-for-sales-for-integration.md)  
+## <a name="see-also"></a><span data-ttu-id="fc242-113">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="fc242-113">See Also</span></span>  
+[<span data-ttu-id="fc242-114">Intégration à Common Data Service</span><span class="sxs-lookup"><span data-stu-id="fc242-114">Integrating with Common Data Service</span></span>](admin-common-data-service.md)  
+[<span data-ttu-id="fc242-115">Intégration à Dynamics 365 Sales</span><span class="sxs-lookup"><span data-stu-id="fc242-115">Integrating with Dynamics 365 Sales</span></span>](admin-prepare-dynamics-365-for-sales-for-integration.md)  
