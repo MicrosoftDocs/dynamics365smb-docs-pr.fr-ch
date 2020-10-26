@@ -1,5 +1,5 @@
 ---
-title: Procédure de configuration d'un service d'échange de document | Microsoft Docs
+title: Procédure de configuration d’un service d’échange de document | Microsoft Docs
 description: Utilisez un fournisseur de services externe pour échanger des documents électroniques avec vos partenaires commerciaux.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,38 +8,38 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 75880e3315933831bf20fa9c5e8ce6a1528b935e
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 84d985bb329f76c9c4954e56a01f9d6c7f8bc09c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785111"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916208"
 ---
-# <a name="set-up-a-document-exchange-service"></a>Configurer un service d'échange de document
-Utilisez un fournisseur de services externe pour échanger des documents électroniques avec vos partenaires commerciaux. Pour plus d'informations, voir [Échanger des données par voir électronique](across-data-exchange.md).  
+# <a name="set-up-a-document-exchange-service"></a>Configurer un service d’échange de document
+Utilisez un fournisseur de services externe pour échanger des documents électroniques avec vos partenaires commerciaux. Pour plus d’informations, voir [Échanger des données par voir électronique](across-data-exchange.md).  
 
-## <a name="to-set-up-a-document-exchange-service"></a>Pour configurer un service d'échange de documents  
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres service Doc. Exch.**, puis sélectionnez le lien associé.  
+## <a name="to-set-up-a-document-exchange-service"></a>Pour configurer un service d’échange de documents  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres service Doc. Exch.** , puis sélectionnez le lien associé.  
 2. Renseignez les champs comme indiqué dans le tableau suivant.  
 
     |Champ|Désignation|  
     |---------------------------------|---------------------------------------|  
-    |**Agent utilisateur**|Entrez tout texte que vous pouvez utiliser pour identifier votre société dans les processus d'échange de documents.|  
-    |**ID abonné Doc. Exch.**|Entrez l'abonné dans le service d'échange de documents qui représente votre société. Elle est fournie par le fournisseur de services d'échange de documents.|  
+    |**Agent utilisateur**|Entrez tout texte que vous pouvez utiliser pour identifier votre société dans les processus d’échange de documents.|  
+    |**ID abonné Doc. Exch.**|Entrez l’abonné dans le service d’échange de documents qui représente votre société. Elle est fournie par le fournisseur de services d’échange de documents.|  
     |**Activé**|Spécifiez si le service est activé. **Note :** dès que vous activez le service, au moins deux écritures file projet sont créées pour traiter le trafic de documents électroniques dans et hors de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Lorsque vous désactivez le service, les écritures de file projets sont supprimées.|  
-    |**URL inscription**|Spécifiez la page Web sur laquelle vous vous êtes connecté au service d'échange de documents.|  
-    |**URL service**|Spécifiez l'adresse du service d'échange de documents qui sera appelé lorsque vous envoyez ou recevez des documents électroniques.|  
-    |**URL connexion**|Spécifiez la page de connexion au service d'échange de documents, c'est-à-dire l'emplacement où vous saisissez le nom de l'utilisateur et le mot de passe de votre société pour vous connecter au service.|  
-    |**Clé consommateur**|Entrez la clé OAuth à 3 branches pour la clé consommateur. Elle est fournie par le fournisseur de services d'échange de documents.|  
-    |**Clé secrète du consommateur**|Entrez la clé secrète qui protège la clé consommateur. Elle est fournie par le fournisseur de services d'échange de documents.|  
-    |**Jeton**|Entrez la clé OAuth à 3 branches pour le token. Elle est fournie par le fournisseur de services d'échange de documents.|  
-    |**Clé secrète du jeton**|Entrez le secret qui protège le token. Elle est fournie par le fournisseur de services d'échange de documents.|  
+    |**URL inscription**|Spécifiez la page Web sur laquelle vous vous êtes connecté au service d’échange de documents.|  
+    |**URL service**|Spécifiez l’adresse du service d’échange de documents qui sera appelé lorsque vous envoyez ou recevez des documents électroniques.|  
+    |**URL connexion**|Spécifiez la page de connexion au service d’échange de documents, c’est-à-dire l’emplacement où vous saisissez le nom de l’utilisateur et le mot de passe de votre société pour vous connecter au service.|  
+    |**Clé consommateur**|Entrez la clé OAuth à 3 branches pour la clé consommateur. Elle est fournie par le fournisseur de services d’échange de documents.|  
+    |**Clé secrète du consommateur**|Entrez la clé secrète qui protège la clé consommateur. Elle est fournie par le fournisseur de services d’échange de documents.|  
+    |**Jeton**|Entrez la clé OAuth à 3 branches pour le token. Elle est fournie par le fournisseur de services d’échange de documents.|  
+    |**Clé secrète du jeton**|Entrez le secret qui protège le token. Elle est fournie par le fournisseur de services d’échange de documents.|  
 
     > [!NOTE]  
     > Vos données de connexion sont automatiquement chiffrées.
 
 ## <a name="see-also"></a>Voir aussi  
-[Configuration de l'échange de données](across-set-up-data-exchange.md)  
+[Configuration de l’échange de données](across-set-up-data-exchange.md)  
 [Échanger des données par voir électronique](across-data-exchange.md)

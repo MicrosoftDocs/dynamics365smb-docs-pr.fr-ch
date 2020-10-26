@@ -1,5 +1,5 @@
 ---
-title: Aperçu des tâches d'exécution des contrats de service | Microsoft Docs
+title: Aperçu des tâches d’exécution des contrats de service | Microsoft Docs
 description: Décrit les tâches de gestion des contrats de service avec les clients.
 services: project-madeira
 documentationcenter: ''
@@ -10,27 +10,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contract, agreement, configure
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 57e10efcd6ec5a2ed54df2bdaa4f2a647a1e981c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 27bdbb3fffab0e946dabdbdfe5fd2172895ac4ad
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194730"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910370"
 ---
 # <a name="fulfilling-service-contracts"></a>Exécution des contrats de service 
 Pour configurer une activité de gestion des services, vous pouvez mettre en place des accords contractuels standard entre vous et vos clients afin de décrire le niveau de service et les attentes en matière de services. Vous pouvez créer des modèles de contrat dans lesquels figurent les informations nécessaires (client, date de début du contrat, période de facturation, etc.).  
   
-Après avoir configuré le modèle, vous pouvez personnaliser le contrat qui en résulte afin d'assurer le suivi des heures de service ou d'autres éléments en fonction du client. Vous pouvez également configurer un contrat manuellement à partir d'un devis contrat de service. Enfin, vous pouvez ajuster la tarification de vos services afin de suivre les remises auxquelles un client spécifique a droit, en spécifiant le montant correspondant sur la page **Contrat service**.  
+Après avoir configuré le modèle, vous pouvez personnaliser le contrat qui en résulte afin d’assurer le suivi des heures de service ou d’autres éléments en fonction du client. Vous pouvez également configurer un contrat manuellement à partir d’un devis contrat de service. Enfin, vous pouvez ajuster la tarification de vos services afin de suivre les remises auxquelles un client spécifique a droit, en spécifiant le montant correspondant sur la page **Contrat service** .  
 
 Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.   
   
 |**Pour**|**Voir**|  
 |------------|-------------|  
 |Gérer un article de service sous plusieurs contrats. | [Plusieurs contrats](service-multiple-contracts.md)|  
-|Créer des contrats de service manuellement ou à partir d'un devis contrat de service.| [Créer des devis et contrats de service](service-how-to-create-service-contracts-and-service-contract-quotes.md)|
-|Ajuster le montant annuel d'un contrat de service ou d'un devis contrat, afin de facturer le bon montant.|[Modifier le montant annuel du contrat service ou du devis contrat](service-how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes.md)|
+|Créer des contrats de service manuellement ou à partir d’un devis contrat de service.| [Créer des devis et contrats de service](service-how-to-create-service-contracts-and-service-contract-quotes.md)|
+|Ajuster le montant annuel d’un contrat de service ou d’un devis contrat, afin de facturer le bon montant.|[Modifier le montant annuel du contrat service ou du devis contrat](service-how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes.md)|
 
 ## <a name="see-also"></a>Voir aussi .
 [Services de planification](service-plan-service.md)  

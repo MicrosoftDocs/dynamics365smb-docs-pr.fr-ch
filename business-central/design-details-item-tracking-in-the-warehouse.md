@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item, tracking, serial number, lot number, outbound documents
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6ffce5d73eabe8586ac682f6d1a549993b1b6d2a
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: e369517d05cd4a9e9c0586f6d7407f0351966def
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787561"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917416"
 ---
 # <a name="design-details-item-tracking-in-the-warehouse"></a>Détails de conception : traçabilité dans l'entrepôt
 La gestion de numéro de série et de numéro de lot est surtout une tâche d'entrepôt, et donc tous les documents entrepôt enlogement et désenlogement ont une fonctionnalité standard pour affecter et sélectionner des numéros traçabilité.  
 
-Toutefois, comme le système de réservation est basé sur les écritures comptables article, les documents activité entrepôt qui enregistrent uniquement les écritures entrepôt ne sont pas totalement pris en charge. Comme les réservations et les numéros traçabilité peuvent uniquement être traités au niveau du magasin, pas au niveau de l'emplacement et de la zone, la page **Lignes traçabilité** ne peut pas être ouverte à partir des documents activité entrepôt. Cela s'applique également à la page **Réservation**.  
+Toutefois, comme le système de réservation est basé sur les écritures comptables article, les documents activité entrepôt qui enregistrent uniquement les écritures entrepôt ne sont pas totalement pris en charge. Comme les réservations et les numéros traçabilité peuvent uniquement être traités au niveau du magasin, pas au niveau de l'emplacement et de la zone, la page **Lignes traçabilité** ne peut pas être ouverte à partir des documents activité entrepôt. Cela s'applique également à la page **Réservation** .  
 
 Une fois qu'un numéro de série ou un numéro de lot a été ajouté à un article d'un entrepôt, il peut être déplacé et reclassé librement au sein de l'entrepôt à l'aide d'une structure de traçabilité distincte, qui n'est pas liée au système de réservation. Les champs **N° de série** et **N° lot** sont consultés directement dans les lignes document entrepôt. Lorsque le numéro de série ou de lot participe ultérieurement à une validation sortante, il est synchronisé avec le système de réservation en tant que partie d'ajustement d'emplacement ordinaire. Pour plus d'informations, voir [Détails de conception : intégration avec le stock](design-details-integration-with-inventory.md).  
 

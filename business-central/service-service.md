@@ -1,6 +1,6 @@
 ---
 title: Gestion des services | Microsoft Docs
-description: Apprenez à utiliser des fonctions conçues pour prendre en charge les opérations de l'atelier de réparation et du service clientèle.
+description: Apprenez à utiliser des fonctions conçues pour prendre en charge les opérations de l’atelier de réparation et du service clientèle.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a7856041b30ebf61284583370cd1c9d81ab9c740
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 3bf97a81c41823b9b4d839af4d53045f0bdaa74e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782633"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913061"
 ---
 # <a name="service-management"></a>Gestion des services
 > [!NOTE]
-> La fonctionnalité décrite dans ces rubrique et sous-rubriques n'est visible dans l'interface utilisateur que si vous avez l'expérience **Premium**. Pour plus d'informations, voir [Modifier les fonctionnalités affichées](ui-experiences.md).
+> La fonctionnalité décrite dans ces rubrique et sous-rubriques n’est visible dans l’interface utilisateur que si vous avez l’expérience **Premium** . Pour plus d’informations, voir [Modifier les fonctionnalités affichées](ui-experiences.md).
 
-L'offre d'un service continu aux clients est essentielle à toute transaction commerciale et peut être source de satisfaction et de fidélisation des clients, en complément des revenus. Cependant, gérer et suivre des services n'est pas toujours facile ; [!INCLUDE[d365fin](includes/d365fin_md.md)] inclut un ensemble d'outils qui simplifient ces tâches. Vous pouvez les utiliser dans divers scénarios d'entreprise : systèmes de distribution complexes du service clientèle, environnements de service industriel avec des nomenclatures, affectation d'un nombre important de techniciens de service avec des besoins en gestion des pièces de rechange.  
+L’offre d’un service continu aux clients est essentielle à toute transaction commerciale et peut être source de satisfaction et de fidélisation des clients, en complément des revenus. Cependant, gérer et suivre des services n’est pas toujours facile ; [!INCLUDE[d365fin](includes/d365fin_md.md)] inclut un ensemble d’outils qui simplifient ces tâches. Vous pouvez les utiliser dans divers scénarios d’entreprise : systèmes de distribution complexes du service clientèle, environnements de service industriel avec des nomenclatures, affectation d’un nombre important de techniciens de service avec des besoins en gestion des pièces de rechange.  
 
  Ces outils permettent de réaliser ce qui suit :  
 

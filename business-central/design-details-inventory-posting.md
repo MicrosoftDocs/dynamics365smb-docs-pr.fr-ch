@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/19/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f95d82b3dc73b50f310fe2d4932d78a450f9b21b
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d9c4574f913355961d5bee6baa51bc88f0bdc64d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787736"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913728"
 ---
 # <a name="design-details-inventory-posting"></a>Détails de conception : comptabilisation stock
 
@@ -24,21 +24,21 @@ Chaque mouvement stock, par exemple une réception achat ou une expédition vent
 |Type écriture|Désignation|  
 |----------|-----------|  
 |Quantité|Reflète la modification de la quantité en stock. Ces informations sont stockées dans les écritures comptables article.<br /><br /> Accompagné des écritures lettrage article.|  
-|Valeur|Reflète la modification de la valeur stock. Ces informations sont stockées dans les écritures valeur.<br /><br /> Chaque écriture comptable article ou écriture comptable capacité peut posséder une ou plusieurs écritures valeur.<br /><br /> Pour plus d'informations sur les écritures de valeur de capacité liées à l'utilisation des ressources de production ou d'assemblage, reportez\-vous à [Détails de conception : validation d'ordre de fabrication](design-details-production-order-posting.md).|  
+|Valeur|Reflète la modification de la valeur stock. Ces informations sont stockées dans les écritures valeur.<br /><br /> Chaque écriture comptable article ou écriture comptable capacité peut posséder une ou plusieurs écritures valeur.<br /><br /> Pour plus d’informations sur les écritures de valeur de capacité liées à l’utilisation des ressources de production ou d’assemblage, reportez\-vous à [Détails de conception : validation d’ordre de fabrication](design-details-production-order-posting.md).|  
 
- En rapport avec les validations de quantité, les écritures lettrage article existent pour lier l'entrée de stock avec la sortie de stock. Cela permet au moteur d'évaluation de transférer les cous des augmentations aux diminutions liées et vice versa. Pour plus d'informations, voir [Détails de conception : traçabilité](design-details-item-application.md).  
+ En rapport avec les validations de quantité, les écritures lettrage article existent pour lier l’entrée de stock avec la sortie de stock. Cela permet au moteur d’évaluation de transférer les cous des augmentations aux diminutions liées et vice versa. Pour plus d’informations, voir [Détails de conception : traçabilité](design-details-item-application.md).  
 
- Les écritures comptables article, les écritures valeur, ainsi que les écritures lettrage article sont créées suite à la validation d'une ligne feuille article, soit indirectement lors de la validation d'une ligne commande, soit directement sur la page feuille article.  
+ Les écritures comptables article, les écritures valeur, ainsi que les écritures lettrage article sont créées suite à la validation d’une ligne feuille article, soit indirectement lors de la validation d’une ligne commande, soit directement sur la page feuille article.  
 
- À intervalles réguliers, les écritures valeur créées parmi les écritures comptables d'inventaire sont validées en comptabilité pour rapprocher les deux comptabilités à des fins de contrôle financier. Pour plus d'informations, voir [Détails de conception : rapprochement de comptabilité](design-details-reconciliation-with-the-general-ledger.md).  
+ À intervalles réguliers, les écritures valeur créées parmi les écritures comptables d’inventaire sont validées en comptabilité pour rapprocher les deux comptabilités à des fins de contrôle financier. Pour plus d’informations, voir [Détails de conception : rapprochement de comptabilité](design-details-reconciliation-with-the-general-ledger.md).  
 
- ![Flux d'écriture lors du rapprochement du stock avec la comptabilité](media/design_details_inventory_costing_1_entry_flow.png "Flux d'écriture lors du rapprochement du stock avec la comptabilité")  
+ ![Flux d’écriture lors du rapprochement du stock avec la comptabilité](media/design_details_inventory_costing_1_entry_flow.png "Flux d’écriture lors du rapprochement du stock avec la comptabilité")  
 
 ## <a name="example"></a>Exemple :
 
-L'exemple suivant indique comment les écritures comptables article, les écritures valeur et les écritures lettrage article créent des écritures comptables.  
+L’exemple suivant indique comment les écritures comptables article, les écritures valeur et les écritures lettrage article créent des écritures comptables.  
 
- Vous validez une commande achat comme reçue et facturée pour 10 articles avec un coût unitaire direct de 7 LCY et des frais généraux d'1 LCY. La date comptabilisation est 01-01-20. Les écritures suivantes sont créées.  
+ Vous validez une commande achat comme reçue et facturée pour 10 articles avec un coût unitaire direct de 7 LCY et des frais généraux d’1 LCY. La date comptabilisation est 01-01-20. Les écritures suivantes sont créées.  
 
 ### <a name="item-ledger-entries-1"></a>Écritures comptables article (1)
 
@@ -59,7 +59,7 @@ L'exemple suivant indique comment les écritures comptables article, les écritu
 |---------|---------------------|----------------------|-----------------------|--------|  
 |1|1|1|0|10|  
 
- Ensuite, vous validez une vente de 10 unités de l'article avec une date validation de 15/01/20.  
+ Ensuite, vous validez une vente de 10 unités de l’article avec une date validation de 15/01/20.  
 
 ### <a name="item-ledger-entries-2"></a>Écritures comptables article (2)
 
@@ -81,7 +81,7 @@ L'exemple suivant indique comment les écritures comptables article, les écritu
 
 À la fin de la période comptable, vous exécutez le traitement par lots **Valider coûts ajustés** pour effectuer un rapprochement entre ces mouvements de stock et la comptabilité.  
 
- Pour plus d'informations, voir [Détails de conception : comptes de la comptabilité](design-details-accounts-in-the-general-ledger.md).  
+ Pour plus d’informations, voir [Détails de conception : comptes de la comptabilité](design-details-accounts-in-the-general-ledger.md).  
 
  Les tables suivantes indiquent le résultat du rapprochement des mouvements de stock de cet exemple avec la comptabilité.  
 
@@ -109,7 +109,7 @@ L'exemple suivant indique comment les écritures comptables article, les écritu
 > 
 > Le champ **Coût validé en comptabilité** de la table **Ecritures valeur** est renseigné.  
 
- La relation entre les écritures valeur et les écritures comptables est stockée dans la table **Compta. Relation écritures article**.  
+ La relation entre les écritures valeur et les écritures comptables est stockée dans la table **Compta. Relation écritures article** .  
 
 ### <a name="relation-entries-in-the-gl--item-ledger-relation-table-3"></a>Liens écritures dans la comptabilité – Table Écriture comptable article (3)
 
@@ -122,11 +122,11 @@ L'exemple suivant indique comment les écritures comptables article, les écritu
 |5|3|1|  
 |6|3|1|  
 
-## <a name="assembly-and-production-posting"></a>Validation d'assemblage et de production
+## <a name="assembly-and-production-posting"></a>Validation d’assemblage et de production
 
-Les écritures comptables capacité et ressource représentent le délai qui est validé comme étant consommé dans la production ou l'assemblage. Ces coûts opératoires sont validés comme écritures valeur en comptabilité en même temps que les coûts matière impliqués dans une structure similaire telle que décrite pour les écritures comptables article de cette rubrique.  
+Les écritures comptables capacité et ressource représentent le délai qui est validé comme étant consommé dans la production ou l’assemblage. Ces coûts opératoires sont validés comme écritures valeur en comptabilité en même temps que les coûts matière impliqués dans une structure similaire telle que décrite pour les écritures comptables article de cette rubrique.  
 
-Pour plus d'informations, voir [Détails de conception : modes évaluation stock](design-details-assembly-order-posting.md).  
+Pour plus d’informations, voir [Détails de conception : modes évaluation stock](design-details-assembly-order-posting.md).  
 
 ## <a name="see-also"></a>Voir aussi
 

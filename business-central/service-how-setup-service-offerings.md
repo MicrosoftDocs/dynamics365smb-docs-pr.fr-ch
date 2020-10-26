@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: components, service item, service
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5cddd49089202e83ffbc2f6062c5c69067157df8
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: c7b6a70c800308fd04067be191f80f89f02f5a0d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784524"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910295"
 ---
 # <a name="set-up-service-offerings"></a>Configurer des offres de service
-Lorsque vous configurez la gestion des services, vous devez choisir les services que vous allez fournir aux clients et les planifier. Un service correspond à un type de travail exécuté par une ou plusieurs ressources et fourni à un client. Ce peut être un type de réparation informatique. Un article de service correspond à l'équipement ou l'article nécessitant une maintenance : par exemple, un ordinateur à réparer, installé chez un client spécifique. Vous pouvez configurer des services afin de les intégrer au groupe d'articles de réparation ou de maintenance associés.  
+Lorsque vous configurez la gestion des services, vous devez choisir les services que vous allez fournir aux clients et les planifier. Un service correspond à un type de travail exécuté par une ou plusieurs ressources et fourni à un client. Ce peut être un type de réparation informatique. Un article de service correspond à l’équipement ou l’article nécessitant une maintenance : par exemple, un ordinateur à réparer, installé chez un client spécifique. Vous pouvez configurer des services afin de les intégrer au groupe d’articles de réparation ou de maintenance associés.  
   
 Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.  
   

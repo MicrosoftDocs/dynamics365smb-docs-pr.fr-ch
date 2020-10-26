@@ -10,29 +10,29 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.reviewer: edupont
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: c64d93769cd2c824cdad54df8ddb3de5e9004f81
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 03987cf45cae8d8115ed2a782a60a5a19fc1032f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528350"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920987"
 ---
 # <a name="service-compliance"></a>Conformité des services
 Ce contenu comprend des informations sur la conformité des services concernant [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
 
-Business Central est un service de cloud avec une portée et une échelle totales s'exécutant sur l'une des infrastructures d'hyper-échelle les plus complexes au monde, Microsoft Azure, avec des centres de données dans des régions du monde entier. L'exécution d'un service cloud impose également la nécessité de se conformer à certaines normes en termes de sécurité et de conformité, afin que, du point de vue des services, Business Central respecte les besoins stricts de plusieurs certifications ISO et propres au secteur.
+Business Central est un service de cloud avec une portée et une échelle totales s’exécutant sur l’une des infrastructures d’hyper-échelle les plus complexes au monde, Microsoft Azure, avec des centres de données dans des régions du monde entier. L’exécution d’un service cloud impose également la nécessité de se conformer à certaines normes en termes de sécurité et de conformité, afin que, du point de vue des services, Business Central respecte les besoins stricts de plusieurs certifications ISO et propres au secteur.
 
 Veuillez trouver la liste détaillée des [Offres de conformité au cloud de Business Central ici](https://aka.ms/d365-compliance-list).
 
 Si vous êtes intéressé par la liste complète des offres de conformité de Microsoft, consultez [Microsoft Trust Center](https://www.microsoft.com/trustcenter/compliance/complianceofferings)
 
-## <a name="service-terms"></a>Conditions d'utilisation
+## <a name="service-terms"></a>Conditions d’utilisation
 
 [!INCLUDE[prodshort](../includes/prodshort.md)] en ligne est régi par la [Politique de cycle de vie moderne](https://support.microsoft.com/help/30881/modern-lifecycle-policy). Les conditions du contrat de niveau de service sont décrites dans le document que vous pouvez télécharger à partir de la section **Contrats de niveau de service pour Microsoft Online Services** sur la page [Termes du contrat de licence](https://www.microsoft.com/licensing/product-licensing/products).  
 
-En outre, vous pouvez surveiller la santé de votre locataire et spécifier des périodes de mise à niveau dans [Centre d'administration des locataires](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
+En outre, vous pouvez surveiller la santé de votre locataire et spécifier des périodes de mise à niveau dans [Centre d’administration des locataires](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
 
 ## <a name="see-also"></a>Voir aussi
 

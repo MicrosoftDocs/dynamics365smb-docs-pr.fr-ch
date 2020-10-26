@@ -1,6 +1,6 @@
 ---
 title: Documents électroniques dans Business Central | Microsoft Docs
-description: Présentation de l'envoi et de la réception de documents électroniques dans Business Central.
+description: Présentation de l’envoi et de la réception de documents électroniques dans Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,34 +8,34 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 543bdf2e684d29243f8188d931a09797d1e87a37
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 8c11553dc3a48a2fdf0df65258914d36f9c2efbd
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783356"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914390"
 ---
 # <a name="exchanging-data-electronically"></a>Échanger des données par voir électronique
-Vous pouvez utiliser l'infrastructure d'échange de données pour gérer les échanges des documents commerciaux, des fichiers bancaires, des taux de change devise et tous les autres fichiers de données avec vos partenaires commerciaux.
+Vous pouvez utiliser l’infrastructure d’échange de données pour gérer les échanges des documents commerciaux, des fichiers bancaires, des taux de change devise et tous les autres fichiers de données avec vos partenaires commerciaux.
 
-Dans la version standard de [!INCLUDE[d365fin](includes/d365fin_md.md)], l'infrastructure d'échange de données est utilisée dans des fonctionnalités, telles que Documents électroniques, Importer/Exporter des fichiers bancaires et Mettre à jour des taux de change devise. Pour plus d'informations, voir [À propos de l'infrastructure d'échange de données](across-about-the-data-exchange-framework.md).
+Dans la version standard de [!INCLUDE[d365fin](includes/d365fin_md.md)], l’infrastructure d’échange de données est utilisée dans des fonctionnalités, telles que Documents électroniques, Importer/Exporter des fichiers bancaires et Mettre à jour des taux de change devise. Pour plus d’informations, voir [À propos de l’infrastructure d’échange de données](across-about-the-data-exchange-framework.md).
 
-En tant qu'administrateur ou partenaire Microsoft, vous pouvez utiliser l'infrastructure dans de nouvelles fonctionnalités d'intégration en configurant les données à échanger et comment les échanger. Pour plus d'informations, voir [Configurer les définitions d'échange de données](across-how-to-set-up-data-exchange-definitions.md).
+En tant qu’administrateur ou partenaire Microsoft, vous pouvez utiliser l’infrastructure dans de nouvelles fonctionnalités d’intégration en configurant les données à échanger et comment les échanger. Pour plus d’informations, voir [Configurer les définitions d’échange de données](across-how-to-set-up-data-exchange-definitions.md).
 
 Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.  
 
 |Pour|Voir|  
 |--------|---------|  
-|Apprendre la manière dont l'infrastructure d'échange de données fonctionne.|[À propos de l'infrastructure d'échange de données](across-about-the-data-exchange-framework.md)|  
-|Préparez-vous à l'échange de données dans un fichier en réutilisant le fichier de schéma XML. Configurez des définitions d'échange de données. Configurez les données de base pour l'envoi d'un document électronique. Configurez plusieurs champs bancaires importer/exporter.|[Configuration de l'échange de données](across-set-up-data-exchange.md)|  
-|Selon les paramètres d'échange de données, envoyez des factures PEPPOL, recevez des factures PEPPOL, importez des relevés bancaires, et exportez des fichiers de paiement bancaire.|[Échange de données](across-exchange-data.md)|  
+|Apprendre la manière dont l’infrastructure d’échange de données fonctionne.|[À propos de l’infrastructure d’échange de données](across-about-the-data-exchange-framework.md)|  
+|Préparez-vous à l’échange de données dans un fichier en réutilisant le fichier de schéma XML. Configurez des définitions d’échange de données. Configurez les données de base pour l’envoi d’un document électronique. Configurez plusieurs champs bancaires importer/exporter.|[Configuration de l’échange de données](across-set-up-data-exchange.md)|  
+|Selon les paramètres d’échange de données, envoyez des factures PEPPOL, recevez des factures PEPPOL, importez des relevés bancaires, et exportez des fichiers de paiement bancaire.|[Échange de données](across-exchange-data.md)|  
 
 ## <a name="see-also"></a>Voir aussi  
-[À propos de l'infrastructure d'échange de données](across-about-the-data-exchange-framework.md)  
-[Utiliser des schémas XML pour préparer des définitions d'échange de données](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
-[Configuration de l'échange de données](across-set-up-data-exchange.md)  
+[À propos de l’infrastructure d’échange de données](across-about-the-data-exchange-framework.md)  
+[Utiliser des schémas XML pour préparer des définitions d’échange de données](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
+[Configuration de l’échange de données](across-set-up-data-exchange.md)  
 [Échange de données](across-exchange-data.md)  
 [Documents entrants](across-income-documents.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)

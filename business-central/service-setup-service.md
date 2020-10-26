@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service items, repairs, maintenance, fix
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 05501ac6a2ea3856c9bcfb3dc001d3120546dad9
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: aed172663290ce3ac467e405266d513a8978a128
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3789490"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913011"
 ---
 # <a name="setting-up-service-management"></a>Paramétrage de la gestion des services
-Avant de pouvoir démarrer l'utilisation des fonctionnalités de gestion des services dans [!INCLUDE[d365fin](includes/d365fin_md.md)], il y a quelques éléments à configurer. Par exemple, vous pouvez établir le codage des services standard, les codes symptôme et panne, ainsi que configurer les articles de service et les types d'article de service requis par le service clientèle.  
+Avant de pouvoir démarrer l’utilisation des fonctionnalités de gestion des services dans [!INCLUDE[d365fin](includes/d365fin_md.md)], il y a quelques éléments à configurer. Par exemple, vous pouvez établir le codage des services standard, les codes symptôme et panne, ainsi que configurer les articles de service et les types d’article de service requis par le service clientèle.  
 
-Lorsque vous configurez la gestion des services, vous devez choisir les services que vous allez fournir aux clients et les planifier. Un service correspond à un type de travail exécuté par une ou plusieurs ressources et fourni à un client. Ce peut être un type de réparation informatique. Un article de service correspond à l'équipement ou l'article associé au service : par exemple, un ordinateur à réparer, installé chez un client spécifique. Vous pouvez configurer les services afin de les intégrer au groupe d'articles de réparation ou de maintenance associés.  
+Lorsque vous configurez la gestion des services, vous devez choisir les services que vous allez fournir aux clients et les planifier. Un service correspond à un type de travail exécuté par une ou plusieurs ressources et fourni à un client. Ce peut être un type de réparation informatique. Un article de service correspond à l’équipement ou l’article associé au service : par exemple, un ordinateur à réparer, installé chez un client spécifique. Vous pouvez configurer les services afin de les intégrer au groupe d’articles de réparation ou de maintenance associés.  
   
-Lorsque vous définissez un service, vous pouvez l'associer aux compétences requises pour l'exécuter. Afin d'optimiser l'efficacité des représentants du service clientèle, vous pouvez également configurer les directives incident et affecter les coûts de démarrage courants (coûts déplacement ou autres frais).  
+Lorsque vous définissez un service, vous pouvez l’associer aux compétences requises pour l’exécuter. Afin d’optimiser l’efficacité des représentants du service clientèle, vous pouvez également configurer les directives incident et affecter les coûts de démarrage courants (coûts déplacement ou autres frais).  
 
 Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.  
   
@@ -33,11 +33,11 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | Définir le mode de fonctionnement de votre organisation avec le reporting panne. |[Configurer le reporting panne](service-how-setup-fault-reporting.md) |
 | Configurer les offres de service que votre société fournit aux clients.|[Configurer des offres de service](service-how-setup-service-offerings.md)|
 | Fournir des instructions incident permettant aux représentants commerciaux de fournir un service plus rapide. |[Configurer les processus incident](service-how-setup-troubleshooting.md) |
-| Configurer l'affectation des ressources pour simplifier l'affectation de la ressource à une tâche service de manière appropriée. |[Configurer l'affectation des ressources](service-how-setup-resource-allocation.md) |
+| Configurer l’affectation des ressources pour simplifier l’affectation de la ressource à une tâche service de manière appropriée. |[Configurer l’affectation des ressources](service-how-setup-resource-allocation.md) |
 | Définir la tarification des services, et paramétrer des coûts service supplémentaires pour évaluer des commandes service. |[Configurer la tarification et les frais supplémentaires pour les services](service-how-setup-service-costs-pricing.md)|
 | Définir la configuration pour suivre les heures ressource et les statuts commande service afin de prévoir les besoins en charges de travail et en service.|[Configurer des heures de travail et des heures de service](service-how-setup-work-service-hours.md)|
 | Configurer les options de statut de réparation pour surveiller la progression des réparations. | [Paramétrer les statuts des commandes service et des réparations](service-order-repair-status.md)|
-| Configurer un programme d'articles de prêt, en vue de pouvoir prêter un article de substitution lorsque vous travaillez avec un article de service. |[Configuration d'un programme d'articles de prêt](service-how-setup-loaner-program.md) |
+| Configurer un programme d’articles de prêt, en vue de pouvoir prêter un article de substitution lorsque vous travaillez avec un article de service. |[Configuration d’un programme d’articles de prêt](service-how-setup-loaner-program.md) |
 | Configurer les articles de service et les composants article de service. |[Configurer des articles de service](service-how-setup-service-items.md) |
 | Définir les bases pour créer des contrats de service et des devis contrat. |[Configurer des contrats de service](service-how-setup-service-contracts.md) |
 

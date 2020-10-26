@@ -9,29 +9,29 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bc7bb92185d979871298a3312019e3116fecdab5
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 34a063feaeaef390c9eee8023d42a912a29582f8
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782941"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918927"
 ---
 # <a name="request-quotes"></a>Demander des devis
-Vous pouvez utiliser une demande de prix en tant que phase préliminaire d'une commande achat, et convertir cette commande en facture achat ou en commande.
+Vous pouvez utiliser une demande de prix en tant que phase préliminaire d’une commande achat, et convertir cette commande en facture achat ou en commande.
 
 
 ## <a name="to-create-a-purchase-quote"></a>Pour créer une demande de prix
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Demandes de prix**, puis sélectionnez le lien associé.
-2. Créez un document, de la même manière que vous passez une commande achat. Pour plus d'informations, voir [Enregistrer des achats](purchasing-how-record-purchases.md).
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Demandes de prix** , puis sélectionnez le lien associé.
+2. Créez un document, de la même manière que vous passez une commande achat. Pour plus d’informations, voir [Enregistrer des achats](purchasing-how-record-purchases.md).
 
 ## <a name="to-convert-a-purchase-quote-to-a-purchase-order"></a>Pour convertir une demande de prix en commande achat
-Lorsque vous avez accepté le devis du fournisseur, vous pouvez le convertir en facture achat ou en commande pour procéder à l'achat.
+Lorsque vous avez accepté le devis du fournisseur, vous pouvez le convertir en facture achat ou en commande pour procéder à l’achat.
 
-1. Ouvrez une demande de prix est prête à être convertie, puis sélectionnez l'action **Créer commande**.
+1. Ouvrez une demande de prix est prête à être convertie, puis sélectionnez l’action **Créer commande** .
 
-La demande de prix est supprimée de la base de données. Une facture achat ou une commande achat basée sur les informations de la demande de prix et dans laquelle vous pouvez traiter l'achat est créée. Dans le champ **N° devis** de la facture achat ou de la commande achat, vous pouvez visualiser le numéro de la demande de prix à partir de laquelle elle a été réalisée.
+La demande de prix est supprimée de la base de données. Une facture achat ou une commande achat basée sur les informations de la demande de prix et dans laquelle vous pouvez traiter l’achat est créée. Dans le champ **N° devis** de la facture achat ou de la commande achat, vous pouvez visualiser le numéro de la demande de prix à partir de laquelle elle a été réalisée.
 
 ## <a name="see-also"></a>Voir aussi
 [Achats](purchasing-manage-purchasing.md)  

@@ -1,6 +1,6 @@
 ---
-title: Utilisation de l'extension Paiements et rapprochements (DK) | Microsoft Docs
-description: Cette extension facilite l'exportation de fichiers préformatés pour répondre aux exigences bancaires pour les soumissions électroniques.
+title: Utilisation de l’extension Paiements et rapprochements (DK) | Microsoft Docs
+description: Cette extension facilite l’exportation de fichiers préformatés pour répondre aux exigences bancaires pour les soumissions électroniques.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,23 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, bank, formats
-ms.date: 06/19/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7e8a56492c1c848f4f3b371e1411c11f159c3cf3
-ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
+ms.openlocfilehash: 1afd60dc4c9c86b476c3c2c80974ce805b19a4ca
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "3496765"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912336"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>Extension Paiements et rapprochements (DK)
 
-Réalise des paiements rapides et sans erreur en exportant des fichiers formatés spécifiquement pour les échanges avec votre fournisseur ou votre banque. Ces fichiers accélèrent les processus de paiement et de réconciliation, et éliminent les erreurs qui apparaissent lorsque vous saisissez manuellement des informations sur le site Web d'une banque.  
+Réalise des paiements rapides et sans erreur en exportant des fichiers formatés spécifiquement pour les échanges avec votre fournisseur ou votre banque. Ces fichiers accélèrent les processus de paiement et de réconciliation, et éliminent les erreurs qui apparaissent lorsque vous saisissez manuellement des informations sur le site Web d’une banque.  
 
-Cette extension prend en charge les formats de fichier de plusieurs banques danoises. Lorsque vous exportez des informations paiement vers un fichier, l'extension emballe les données dans le format demandé par votre banque. Par exemple, les formats sont notamment Bankdata-vl, V3, BEC, SDC et FIK, utilisés par de nombreuses banques ; certains sont aussi plus spécialisés pour certaines banques, par exemple, Danske Bank et Nordea. L'extension inclut également des formats d'importation et de rapprochement de relevés bancaires.  
+Cette extension prend en charge les formats de fichier de plusieurs banques danoises. Lorsque vous exportez des informations paiement vers un fichier, l’extension emballe les données dans le format demandé par votre banque. Par exemple, les formats sont notamment Bankdata-vl, V3, BEC, SDC et FIK, utilisés par de nombreuses banques ; certains sont aussi plus spécialisés pour certaines banques, par exemple, Danske Bank et Nordea. L’extension inclut également des formats d’importation et de rapprochement de relevés bancaires.  
 
 > [!Note]
-> Pour utiliser l'extension, vous devez connaître le format demandé par votre banque ou votre fournisseur. Certaines banques ou fournisseurs indiquent cette information sur leurs sites Web ; toutefois, vous pouvez être amené à contacter leur service client pour obtenir l'information.  
+> Pour utiliser l’extension, vous devez connaître le format demandé par votre banque ou votre fournisseur. Certaines banques ou fournisseurs indiquent cette information sur leurs sites Web ; toutefois, vous pouvez être amené à contacter leur service client pour obtenir l’information.  
 
 ## <a name="supported-bank-formats"></a>Formats bancaires pris en charge
 Cette extension peut appliquer les formats de fichier suivants pour les fichiers paiement :  
@@ -42,22 +42,22 @@ Cette extension peut appliquer les formats de fichier suivants pour les fichiers
 * SDC  
 * SDC-CSV  
 
-## <a name="to-set-up-the-extension"></a>Pour configurer l'extension
+## <a name="to-set-up-the-extension"></a>Pour configurer l’extension
 
 Voici quelques étapes pour commencer.  
 
-* Autoriser les exportations de données de règlement. Pour vous aider à protéger vos données, cette option n'est pas facilement disponible.  
+* Autoriser les exportations de données de règlement. Pour vous aider à protéger vos données, cette option n’est pas facilement disponible.  
 * Configurer des achats et des fournisseurs pour ne pas avoir besoin des numéros de document externe sur les factures. Si nécessaire, vous pouvez utiliser le numéro de référence pour vous référer à une facture spécifique.  
 * Spécifier le mode de règlement de chaque fournisseur. Les modes de règlement définissent la manière dont vous payez des factures du fournisseur. Par exemple, Banque, Caisse, Chèque, ou Compte.  
 * Spécifier le type de format à utiliser pour chacun de vos comptes bancaires. Par exemple, NORDEA, DANSKEBANK, SDC, etc.  
 
-En outre, vous devez affecter les fournisseurs à un **Groupe compta. marché** et à un **Groupe compta. fournisseur** nationaux. Le paramètre de pays/région du fournisseur doit être le Danemark (DK). Pour plus d'informations, voir [Configuration de groupes comptabilisation](finance-posting-groups.md).  
+En outre, vous devez affecter les fournisseurs à un **Groupe compta. marché** et à un **Groupe compta. fournisseur** nationaux. Le paramètre de pays/région du fournisseur doit être le Danemark (DK). Pour plus d’informations, voir [Configuration de groupes comptabilisation](finance-posting-groups.md).  
 
 ### <a name="to-allow-d365fin-to-export-payment-data"></a>Pour autoriser [!INCLUDE[d365fin](includes/d365fin_md.md)] à exporter des données de règlement
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille paiement**, puis sélectionnez le lien associé.  
-2. Sur la page **Modifier feuille paiement**, choisissez le lot **Banque**.  
-3. Sélectionnez la case à cocher **Autoriser exportation paiement**.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille paiement** , puis sélectionnez le lien associé.  
+2. Sur la page **Modifier feuille paiement** , choisissez le lot **Banque** .  
+3. Sélectionnez la case à cocher **Autoriser exportation paiement** .  
 
 ### <a name="to-specify-a-payment-method-for-a-vendor"></a>Pour spécifier un mode de règlement pour un fournisseur
 
@@ -69,42 +69,42 @@ Le tableau suivant affiche les combinaisons des modes de règlement FIK et virem
 |Autorise les messages au destinataire ? | Oui |Non |Non | Oui |
 |Contient le numéro de référence du paiement ? | Non | Oui, 16 chiffres. | Oui, 15 chiffres. | Non|
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Fournisseurs**, puis sélectionnez le lien associé.  
-2. Ouvrez la fiche, développez l'onglet **Paiements**, dans le champ **Mode de règlement** sélectionnez le mode de règlement.  
-3. Selon votre sélection, vous devez renseigner d'autres champs. Voir la table ci-dessus pour une description des combinaisons.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Fournisseurs** , puis sélectionnez le lien associé.  
+2. Ouvrez la fiche, développez l’onglet **Paiements** , dans le champ **Mode de règlement** sélectionnez le mode de règlement.  
+3. Selon votre sélection, vous devez renseigner d’autres champs. Voir la table ci-dessus pour une description des combinaisons.  
 
 ### <a name="to-specify-the-format-to-use-for-a-bank-account"></a>Pour spécifier le format à utiliser pour un compte bancaire
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Compte bancaire**, puis sélectionnez le lien associé.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Compte bancaire** , puis sélectionnez le lien associé.  
 2. Ouvrez la fiche pour le compte bancaire.  
-3. Dans le champ **Format exportation paiement**, choisissez le format de votre fichier d'exportation.  
+3. Dans le champ **Format exportation paiement** , choisissez le format de votre fichier d’exportation.  
 
 ## <a name="choosing-the-fik-or-giro-payment-information-for-vendor-invoices"></a>Choisir les informations de paiement FIK ou Giro pour les factures fournisseur
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Factures achat**, puis sélectionnez le lien associé.
-2. Sélectionnez le fournisseur Rappelez-vous, il doit s'agir d'un fournisseur danois avec une adresse au Danemark.
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Factures achat** , puis sélectionnez le lien associé.
+2. Sélectionnez le fournisseur Rappelez-vous, il doit s’agir d’un fournisseur danois avec une adresse au Danemark.
 3. Créez une facture. Les champs **Mode de règlement** et **Numéro fournisseur** sont renseignés selon les paramètres de la fiche fournisseur. Vous pouvez les modifier.
-4. Dans le champ **Référence paiement**, saisissez le numéro à 15 chiffres de la facture fournisseur.  
+4. Dans le champ **Référence paiement** , saisissez le numéro à 15 chiffres de la facture fournisseur.  
 
     > [!Tip]
-    > Il vous suffit d'ajouter les 11 derniers chiffres du numéro. [!INCLUDE[d365fin](includes/d365fin_md.md)] ajoutera quatre zéros au début du numéro.  
+    > Il vous suffit d’ajouter les 11 derniers chiffres du numéro. [!INCLUDE[d365fin](includes/d365fin_md.md)] ajoutera quatre zéros au début du numéro.  
 
 5. Validez la facture.
 
-## <a name="to-use-the-extension-to-export-payment-data"></a>Pour utiliser l'extension d'exportation des données de paiement
+## <a name="to-use-the-extension-to-export-payment-data"></a>Pour utiliser l’extension d’exportation des données de paiement
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles paiement**, puis sélectionnez le lien associé.  
-2. Choisissez l'action **Proposer des feuilles de paiement fournisseur**.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles paiement** , puis sélectionnez le lien associé.  
+2. Choisissez l’action **Proposer des feuilles de paiement fournisseur** .  
 
     > [!Tip]
-    > Si vous souhaitez n'exporter que des paiements spécifiques, utilisez les options de filtrage des données.  
+    > Si vous souhaitez n’exporter que des paiements spécifiques, utilisez les options de filtrage des données.  
 
-3. Si nécessaire, vous pouvez ajouter des filtres pour n'exporter que des paiements spécifiques.  
-4. Dans le champ **Mode émission paiement**, sélectionnez **Paiement électronique**.  
-5. Sélectionnez l'option **Exporter**.  
+3. Si nécessaire, vous pouvez ajouter des filtres pour n’exporter que des paiements spécifiques.  
+4. Dans le champ **Mode émission paiement** , sélectionnez **Paiement électronique** .  
+5. Sélectionnez l’option **Exporter** .  
 
 ## <a name="see-also"></a>Voir aussi
 
-[Personnalisation de Business Central pour [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide d'extensions](ui-extensions.md)  
+[Personnalisation de Business Central pour [!INCLUDE[d365fin](includes/d365fin_md.md)] à l’aide d’extensions](ui-extensions.md)  
 [Recouvrement de paiements par prélèvement automatique SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
 [Utilisation de feuilles comptabilité](ui-work-general-journals.md)  

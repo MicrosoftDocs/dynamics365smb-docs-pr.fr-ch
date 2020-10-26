@@ -1,6 +1,6 @@
 ---
-title: "Détails de conception : écritures d'ensemble de dimensions | Microsoft Docs"
-description: Cette documentation fournit une analyse technique détaillée des concepts et principes qui sont utilisés pour reconcevoir la fonction de stockage et de validation d'écritures de dimension.
+title: 'Détails de conception : écritures d’ensemble de dimensions | Microsoft Docs'
+description: Cette documentation fournit une analyse technique détaillée des concepts et principes qui sont utilisés pour reconcevoir la fonction de stockage et de validation d’écritures de dimension.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, dimensions, codeunit
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 07e2eb34b373375736ccf313d443d20ef3ea936f
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 4a67e8d3149e7994c08307e8a28e9f2ebaf6a4e9
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787986"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911170"
 ---
-# <a name="design-details-dimension-set-entries"></a>Détails de conception : écritures d'ensemble de dimensions
-Cette documentation fournit une analyse technique détaillée des concepts et principes du stockage d'entrée de dimension et la fonction de validation dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
+# <a name="design-details-dimension-set-entries"></a>Détails de conception : écritures d’ensemble de dimensions
+Cette documentation fournit une analyse technique détaillée des concepts et principes du stockage d’entrée de dimension et la fonction de validation dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## <a name="in-this-section"></a>Dans cette section  
-[Aperçu des écritures de l'ensemble de dimensions](design-details-dimension-set-entries-overview.md)  
+[Aperçu des écritures de l’ensemble de dimensions](design-details-dimension-set-entries-overview.md)  
 [Détails de conception : recherche des croisements analytiques](design-details-searching-for-dimension-combinations.md)  
 [Détails de conception : structure de la table](design-details-table-structure.md)  

@@ -1,6 +1,6 @@
 ---
-title: Fonctionnalités d'assistance
-description: Raccourcis clavier et autres fonctionnalités d'assistance.
+title: Fonctionnalités d’assistance
+description: Raccourcis clavier et autres fonctionnalités d’assistance.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1098e0998369e15bd9484ba33b808b9b435b538c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 69b1dccc88750dca2e2f406554db34357bd8d6db
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192138"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912786"
 ---
 # <a name="accessibility-and-keyboard-shortcuts"></a>Accessibilité et raccourcis clavier
-Cette rubrique fournit des informations sur les fonctionnalités qui rendent [!INCLUDE[d365fin](includes/d365fin_md.md)] accessible aux personnes handicapées. [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge les fonctionnalités d'accessibilité suivantes :  
+Cette rubrique fournit des informations sur les fonctionnalités qui rendent [!INCLUDE[d365fin](includes/d365fin_md.md)] accessible aux personnes handicapées. [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge les fonctionnalités d’accessibilité suivantes :  
 
 -   raccourcis clavier ;
 
-    Pour plus d'informations, reportez-vous à [Raccourcis clavier](keyboard-shortcuts.md)
+    Pour plus d’informations, reportez-vous à [Raccourcis clavier](keyboard-shortcuts.md)
 
 -   Navigation  
 
@@ -30,7 +30,7 @@ Cette rubrique fournit des informations sur les fonctionnalités qui rendent [!I
 
 -   Texte secondaire pour les images et les liens  
 
--   Prise en charge des technologies d'assistance courantes  
+-   Prise en charge des technologies d’assistance courantes  
 
 <!-- moved to separate article
 ##  <a name="Keyboard"></a> Keyboard Shortcuts in the browser
@@ -49,21 +49,21 @@ Cette rubrique fournit des informations sur les fonctionnalités qui rendent [!I
 -->
 
 ##  <a name="navigation"></a><a name="Navigation"></a> Navigation  
- Vous pouvez naviguer entre les onglets et les actions du ruban, les éléments de la barre de navigation et d'autres contrôles sur les pages et états [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide du clavier. Pour déplacer le focus d'un onglet, d'une action ou d'un contrôle vers un autre, appuyez sur la touche Tab pour avancer. Appuyez sur Maj+Tab pur reculer.  
+ Vous pouvez naviguer entre les onglets et les actions du ruban, les éléments de la barre de navigation et d’autres contrôles sur les pages et états [!INCLUDE[d365fin](includes/d365fin_md.md)] à l’aide du clavier. Pour déplacer le focus d’un onglet, d’une action ou d’un contrôle vers un autre, appuyez sur la touche Tab pour avancer. Appuyez sur Maj+Tab pur reculer.  
 
- À l'aide de l'ordre de tabulation, vous pouvez également permuter entre la page principale du navigateur et les boîtes de dialogue de demande de confirmation, par exemple, ou la page de connexion.  
+ À l’aide de l’ordre de tabulation, vous pouvez également permuter entre la page principale du navigateur et les boîtes de dialogue de demande de confirmation, par exemple, ou la page de connexion.  
 
 ##  <a name="headings"></a><a name="Headings"></a> En-têtes  
- La source HTML du contenu [!INCLUDE[d365fin](includes/d365fin_md.md)] utilise des balises pour aider les utilisateurs de la technologie d'assistance à comprendre la structure et le contenu de la page. Par exemple, sur les pages de liste, les colonnes sont définies dans les balises TH et les en-têtes de colonne sont définies avec l'attribut TITLE au sein de la balise. Les légendes des éléments, tels que les raccourcis, récapitulatifs et champs sont incluses dans les balises d'en-tête (H1, H2, H3 et H4).  
+ La source HTML du contenu [!INCLUDE[d365fin](includes/d365fin_md.md)] utilise des balises pour aider les utilisateurs de la technologie d’assistance à comprendre la structure et le contenu de la page. Par exemple, sur les pages de liste, les colonnes sont définies dans les balises TH et les en-têtes de colonne sont définies avec l’attribut TITLE au sein de la balise. Les légendes des éléments, tels que les raccourcis, récapitulatifs et champs sont incluses dans les balises d’en-tête (H1, H2, H3 et H4).  
 
 ##  <a name="image-and-links"></a><a name="Images"></a> Image et liens  
- Un texte descriptif pour les images est défini avec l'attribut ALT au sein de la balise IMG. Un texte descriptif pour les liens hypertexte est défini avec l'attribut title au sein de la balise A.  
+ Un texte descriptif pour les images est défini avec l’attribut ALT au sein de la balise IMG. Un texte descriptif pour les liens hypertexte est défini avec l’attribut title au sein de la balise A.  
 
-##  <a name="assistive-technologies"></a><a name="AssistiveTech"></a> Technologies d'assistance  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge différentes technologies d'assistance, telles que le contraste élevé, les lecteurs d'écran et les logiciels de reconnaissance vocale. Certaines technologies d'assistance ne fonctionnent pas correctement avec certains éléments des pages [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+##  <a name="assistive-technologies"></a><a name="AssistiveTech"></a> Technologies d’assistance  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge différentes technologies d’assistance, telles que le contraste élevé, les lecteurs d’écran et les logiciels de reconnaissance vocale. Certaines technologies d’assistance ne fonctionnent pas correctement avec certains éléments des pages [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-## <a name="for-more-accessibility-information"></a>Informations supplémentaires sur l'accessibilité  
-Vous trouverez des informations supplémentaires sur l'accessibilité des produits Microsoft et les technologies d'assistance sur le site [Accessibilité Microsoft](https://go.microsoft.com/fwlink/?LinkId=262160).
+## <a name="for-more-accessibility-information"></a>Informations supplémentaires sur l’accessibilité  
+Vous trouverez des informations supplémentaires sur l’accessibilité des produits Microsoft et les technologies d’assistance sur le site [Accessibilité Microsoft](https://go.microsoft.com/fwlink/?LinkId=262160).
 
 ## <a name="see-also"></a>Voir aussi
 [Mise en route](product-get-started.md)  

@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a21bc82cc065f3d05863d3d3f9959dc4269a739a
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d34b34d5629779d7b87016fb9e83bf1d3f25fd82
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780050"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914154"
 ---
 # <a name="view-the-availability-of-items"></a>Voir la disponibilité des articles
 Dans le contexte d'une tâche professionnelle, vous pouvez obtenir des informations avancées sur la disponibilité et l'emplacement d'un article, par exemple en discutant avec un client à propos d'une date de livraison.
@@ -30,57 +30,57 @@ Si vous utilisez la fonctionnalité entrepôt, la disponibilité varie selon les
 
 Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], les chiffres de disponibilité sont généralement affichés dans deux champs de définition différents.
 
-* Le champ **Quantité disponible**, dans certains emplacements nommés **Stock**, affiche la quantité réelle en fonction des écritures comptables articles validées.
+* Le champ **Quantité disponible** , dans certains emplacements nommés **Stock** , affiche la quantité réelle en fonction des écritures comptables articles validées.
 * Le champ **Stock prévisionnel** est calculé et affiche la quantité disponible plus les réceptions planifiées moins les besoins bruts. (Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], les réceptions planifiées incluent des quantités sur des commandes achat et des ordres de transfert enlogement. Les besoins bruts incluent des quantités sur les commandes vente et les désenlogements transfert.)
 
 > [!TIP]  
->   Le stock prévisionnel disponible s'avère particulièrement utile dans les pages **Disponibilité art. par période** et **Disponibilité article par événement**, car ils contiennent l'axe de date.  
+>   Le stock prévisionnel disponible s'avère particulièrement utile dans les pages **Disponibilité art. par période** et **Disponibilité article par événement** , car ils contiennent l'axe de date.  
 
 > [!NOTE]  
 >   Les procédures suivantes décrivent comment afficher des informations avancées sur la disponibilité de la liste des articles et de la fiche article. Vous pouvez également accéder aux informations à partir des lignes de document vente, pour l'article sur la ligne. Pour en savoir plus, voir [Vendre des produits](sales-how-sell-products.md).
 
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>Pour afficher la disponibilité d'un article en fonction de sa réception ou de sa livraison
-Vous pouvez afficher la disponibilité d'un article en fonction des mouvements de stock attendus sur la page **Disponibilité par événement**.
+Vous pouvez afficher la disponibilité d'un article en fonction des mouvements de stock attendus sur la page **Disponibilité par événement** .
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles** , puis sélectionnez le lien associé.
 2. Ouvrez la fiche d'un article dont vous voulez afficher la disponibilité.
-3. Cliquez sur **Disponibilité article par**, puis sur **Événement**.
+3. Cliquez sur **Disponibilité article par** , puis sur **Événement** .
 
     La page **Disponibilité article par événement** indique comment la quantité du stock de l'article se développera dans le temps en fonction des expéditions et des réceptions prévues. La page fournit une vue condensée qui affiche une ligne d'informations cumulées par intervalle de temps, dans laquelle les quantités de stock sont modifiées. Les intervalles de temps au cours desquels aucun événement ne s'est produit ne sont pas affichés. Vous pouvez développer chaque ligne pour afficher les détails concernant l'événement ou les événements à l'origine de la quantité cumulée figurant sur la ligne.
 4. Sélectionnez la valeur dans le champ **Stock prévisionnel** pour afficher les écritures comptables articles ou ouvrez des documents qui constituent la valeur.
 
 ## <a name="to-view-the-availability-of-an-item-in-different-periods"></a>Pour afficher la disponibilité d'un article dans différentes périodes
-Vous pouvez visualiser la disponibilité d'un article dans le temps pour les périodes définies sur la page **Disponibilité art. par période**.
+Vous pouvez visualiser la disponibilité d'un article dans le temps pour les périodes définies sur la page **Disponibilité art. par période** .
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles** , puis sélectionnez le lien associé.
 2. Ouvrez la fiche d'un article dont vous voulez afficher la disponibilité.
-3. Cliquez sur **Disponibilité article par**, puis sur **Période**.
+3. Cliquez sur **Disponibilité article par** , puis sur **Période** .
 
     La page **Disponibilité art. par période** indique comment la quantité du stock de l'article se développera dans le temps, en fonction d'une période que vous sélectionnez, par exemple Jour, Semaine, ou Trimestre.
 4. Sélectionnez la valeur dans le champ **Stock prévisionnel** pour afficher les écritures comptables articles ou ouvrez des documents qui constituent la valeur.
 
 ## <a name="to-view-the-availability-of-an-item-at-the-locations-where-it-is-stored"></a>Pour afficher la disponibilité d'un article dans les magasins dans lesquels il est stocké
-Vous pouvez afficher la disponibilité d'un article dans les magasins dans lesquels il est stocké sur la page **Disponibilité art. par magasin**.
+Vous pouvez afficher la disponibilité d'un article dans les magasins dans lesquels il est stocké sur la page **Disponibilité art. par magasin** .
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles**, puis sélectionnez le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles** , puis sélectionnez le lien associé.
 2. Ouvrez la fiche d'un article dont vous voulez afficher la disponibilité.
-3. Cliquez sur **Disponibilité article par**, puis sur **Magasin**.
+3. Cliquez sur **Disponibilité article par** , puis sur **Magasin** .
 
     La page **Disponibilité art. par magasin** indique comment la quantité du stock de l'article se développera dans le temps, pour chaque magasin où l'article est stocké.
 4. Sélectionnez la valeur dans le champ **Qté disponible** pour afficher les écritures comptables articles qui constituent la valeur.
 5. Sélectionnez la valeur dans le champ **Stock prévisionnel** pour afficher les écritures comptables articles ou ouvrez des documents qui constituent la valeur.
 
 ## <a name="to-view-the-availability-of-all-items-by-the-location-where-they-are-stored"></a>Pour afficher la disponibilité de tous les articles en fonction des magasins où ils sont stockés
-Vous pouvez afficher la disponibilité de tous vos articles dans tous vos magasins sur la page **Articles par magasin**.
+Vous pouvez afficher la disponibilité de tous vos articles dans tous vos magasins sur la page **Articles par magasin** .
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles**, puis sélectionnez le lien associé.
-2. Cliquez sur **Articles par magasin**.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles** , puis sélectionnez le lien associé.
+2. Cliquez sur **Articles par magasin** .
 
     La page **Articles par magasin** indique pour tous les articles les quantités disponibles dans chaque magasin.
 3. Sélectionnez la valeur dans le champ **Qté disponible** pour afficher les écritures comptables articles qui constituent la valeur.
 
 ## <a name="to-view-the-availability-of-an-item-by-its-use-in-assembly-or-production-boms"></a>Pour afficher la disponibilité d'un article en fonction de son utilisation dans les nomenclatures d'assemblage ou de production
-Si un article figure dans les nomenclatures d'assemblage ou de production, comme article parent ou composant, vous pouvez afficher le nombre d'unités nécessaires sur la page **Disponibilité article par niveau de nomenclature**. La page indique le nombre d'unités d'un article parent vous pouvez réaliser en fonction de la disponibilité des éléments enfants sur les lignes sous-jacentes. Tout article qui a une nomenclature d'assemblage ou de production est affiché sur la page sous forme de ligne réductible. Vous pouvez développer cette ligne pour afficher les composants sous-jacents et les sous-assemblages de niveau inférieur avec leurs propres nomenclatures.
+Si un article figure dans les nomenclatures d'assemblage ou de production, comme article parent ou composant, vous pouvez afficher le nombre d'unités nécessaires sur la page **Disponibilité article par niveau de nomenclature** . La page indique le nombre d'unités d'un article parent vous pouvez réaliser en fonction de la disponibilité des éléments enfants sur les lignes sous-jacentes. Tout article qui a une nomenclature d'assemblage ou de production est affiché sur la page sous forme de ligne réductible. Vous pouvez développer cette ligne pour afficher les composants sous-jacents et les sous-assemblages de niveau inférieur avec leurs propres nomenclatures.
 
 Par exemple, vous pouvez utiliser la page pour déterminer si vous pouvez traiter une commande vente d'un article à une date spécifique, en consultant sa disponibilité actuelle et les quantités que ses composants peuvent fournir. Vous pouvez également utiliser la page pour identifier les goulets d'étranglement dans des nomenclatures associées.
 
@@ -92,12 +92,12 @@ Sur chaque ligne de la page pour les articles parents et les éléments enfants,
 |**Capable de fabriquer le meilleur article**|Indique le nombre d'unités de l'article supérieur que vous pouvez effectuer. Ce champ indique combien d'unités de l'article de la nomenclature sur la ligne supérieure vous pouvez assembler. La valeur est basée sur la disponibilité de l'article sur la ligne.|
 
 ### <a name="to-view-the-availability-of-an-item-according-to-demand-for-its-parent"></a>Pour afficher la disponibilité d'un article en fonction de la demande pour son parent
-La page **Disponibilité article par niveau de nomenclature** affiche les informations de l'article figurant sur la fiche ou la ligne document pour laquelle la page est ouverte. l'article est toujours indiqué sur la ligne supérieure. Vous pouvez visualiser les informations d'autres articles ou de tous les articles en changeant la valeur du champ **Filtre article**.
+La page **Disponibilité article par niveau de nomenclature** affiche les informations de l'article figurant sur la fiche ou la ligne document pour laquelle la page est ouverte. l'article est toujours indiqué sur la ligne supérieure. Vous pouvez visualiser les informations d'autres articles ou de tous les articles en changeant la valeur du champ **Filtre article** .
 
 > [!NOTE]  
->   Par défaut, les chiffres de disponibilité dans les lignes présentent la disponibilité globale de tous les articles sous l'article supérieur. Ces chiffres sont affichés dans le champ **Quantité disponible**, et ils concernent l'article de niveau supérieur. Toutefois, les informations sur le nombre de sous-assemblages que vous pouvez effectuer peuvent être erronées. Pour obtenir une véritable indication du nombre de sous-assemblages que vous pouvez effectuer, vous devez désactiver la case à cocher **Afficher disponibilité totale**, puis examiner le chiffre dans le champ **Capable de fabriquer le parent**.
+>   Par défaut, les chiffres de disponibilité dans les lignes présentent la disponibilité globale de tous les articles sous l'article supérieur. Ces chiffres sont affichés dans le champ **Quantité disponible** , et ils concernent l'article de niveau supérieur. Toutefois, les informations sur le nombre de sous-assemblages que vous pouvez effectuer peuvent être erronées. Pour obtenir une véritable indication du nombre de sous-assemblages que vous pouvez effectuer, vous devez désactiver la case à cocher **Afficher disponibilité totale** , puis examiner le chiffre dans le champ **Capable de fabriquer le parent** .
 
-Le champ **Goulot d'étranglement** spécifie quel article dans la structure de la nomenclature vous empêche de réaliser une quantité supérieure à la quantité affichée dans le champ **Capable de fabriquer le meilleur article**. Par exemple, l'article goulot d'étranglement peut être un composant achat avec une date de réception prévue qui est trop tardive pour fabriquer des unités supplémentaires de l'élément qui le comporte à la date du champ **Requis par date**.
+Le champ **Goulot d'étranglement** spécifie quel article dans la structure de la nomenclature vous empêche de réaliser une quantité supérieure à la quantité affichée dans le champ **Capable de fabriquer le meilleur article** . Par exemple, l'article goulot d'étranglement peut être un composant achat avec une date de réception prévue qui est trop tardive pour fabriquer des unités supplémentaires de l'élément qui le comporte à la date du champ **Requis par date** .
 
 ## <a name="to-view-the-availability-of-an-item-by-its-units-of-measure"></a>Pour afficher la disponibilité d'un article par ses unités de mesure
 La page **Disponibilité de l'article par unité de mesure** affiche la disponibilité d'un article dans les différentes unités de mesure dans lesquelles il est stocké.

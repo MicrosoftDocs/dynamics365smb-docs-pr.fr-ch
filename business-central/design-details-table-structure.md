@@ -1,6 +1,6 @@
 ---
 title: Détails de conception- Structure de la table | Microsoft Docs
-description: Pour comprendre comment le stockage et la validation d'écriture de dimension sont conçus, il est important de comprendre la structure de tableau.
+description: Pour comprendre comment le stockage et la validation d’écriture de dimension sont conçus, il est important de comprendre la structure de tableau.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ef4127f7bfe8a135f07b5fa1aa7db4b953489282
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 1dccea4f700f8cf141e05058b54fd20d62665b7b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787111"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910995"
 ---
 # <a name="design-details-table-structure"></a>Détails de conception : structure de la table
 Pour comprendre comment les écritures analytiques sont stockées et validées, il est important de comprendre la structure de la table.  
@@ -25,15 +25,15 @@ Vous ne pouvez pas modifier cette table. Une fois les données écrites dans la 
 
 |N° champ|Nom de champ|Type de données|Commentaire|  
 |---------------|----------------|---------------|-------------|  
-|1|**ID**|Entier|>0,0 est réservé à l'ensemble de dimensions vide. Champ de références 3 dans la table 481.|  
+|1|**ID**|Entier|>0,0 est réservé à l’ensemble de dimensions vide. Champ de références 3 dans la table 481.|  
 |2|**Code axe analytique**|Code 20|Relation de table avec la table 348.|  
 |3|**Code section**|Code 20|Relation de table avec la table 349.|  
 |4|**ID section analytique**|Entier|Champ de références 12 dans la table 349. Ce champ est la clé secondaire utilisée en parcourant la table 481.|  
 |5|**Nom axe analytique**|Texte 30|CalcField. Rechercher dans la table 348.|  
 |6|**Nom de la section analytique**|Texte 30|CalcField. Rechercher dans la table 349.|  
 
-## <a name="table-481-dimension-set-tree-node"></a>Table 481 : Nœud d'arbre ensemble de dimensions  
-Vous ne pouvez pas modifier cette table. Elle est utilisée pour trouver un ensemble de dimensions. Si l'ensemble de dimensions est introuvable, un nouvel ensemble est créé.  
+## <a name="table-481-dimension-set-tree-node"></a>Table 481 : Nœud d’arbre ensemble de dimensions  
+Vous ne pouvez pas modifier cette table. Elle est utilisée pour trouver un ensemble de dimensions. Si l’ensemble de dimensions est introuvable, un nouvel ensemble est créé.  
 
 |N° champ|Nom du champ|Type de données|Commentaires|  
 |---------------|----------------|---------------|-------------|  
@@ -43,7 +43,7 @@ Vous ne pouvez pas modifier cette table. Elle est utilisée pour trouver un ense
 |4|**Utilisé**|Booléen|Faux si non utilisé.|  
 
 ## <a name="table-482-reclas-dimension-set-buffer"></a>Table 482 : Tampon ensemble de dimensions reclass.  
-Cette table est utilisée lorsque vous modifiez un code section analytique, par exemple, pour une écriture comptable article en utilisant la page **Feuille reclassement article**.  
+Cette table est utilisée lorsque vous modifiez un code section analytique, par exemple, pour une écriture comptable article en utilisant la page **Feuille reclassement article** .  
 
 |N° champ|Nom de champ|Type de données|Commentaire|  
 |---------------|----------------|---------------|-------------|  
@@ -57,14 +57,14 @@ Cette table est utilisée lorsque vous modifiez un code section analytique, par 
 |8|**Nom nouvelle section analytique**|Texte 30|CalcField. Rechercher dans la table 349.|  
 
 ## <a name="transaction-and-budget-tables"></a>Transaction et tableaux de budget  
-En plus des autres champs d'axe dans la table, ce champ est important :  
+En plus des autres champs d’axe dans la table, ce champ est important :  
 
 |N° champ|Nom de champ|Type de données|Commentaire|  
 |---------------|----------------|---------------|-------------|  
 |480|**ID ensemble de dimensions**|Entier|Champ de références 1 dans la table 480.|  
 
 ### <a name="table-83-item-journal-line"></a>Table 83 : Ligne feuille article  
-En plus des autres champs d'axe dans la table, ces champs sont importants :  
+En plus des autres champs d’axe dans la table, ces champs sont importants :  
 
 |N° champ|Nom de champ|Type de données|Commentaire|  
 |---------------|----------------|---------------|-------------|  
@@ -72,14 +72,14 @@ En plus des autres champs d'axe dans la table, ces champs sont importants :
 |481|**ID du nouvel ensemble de dimensions**|Entier|Champ de références 1 dans la table 480.|  
 
 ### <a name="table-349-dimension-value"></a>Table 349 : section analytique  
-En plus des autres champs d'axe dans la table, ces champs sont importants :  
+En plus des autres champs d’axe dans la table, ces champs sont importants :  
 
 |N° champ|Nom de champ|Type de données|Commentaire|  
 |---------------|----------------|---------------|-------------|  
 |12|**ID section analytique**|Entier|Incrémentez automatiquement. Utilisé pour références dans le tableau 480 et le tableau 481.|  
 
-### <a name="tables-that-contain-the-dimension-set-id-field"></a>Tables qui contiennent le champ ID d'ensemble de dimensions
- Le champ **ID d'ensembles de dimensions** (480) existe dans les tables suivantes. Pour les tables qui stockent des données validées, le champ fournit seulement un affichage non modifiable des axes analytiques, marqué comme vue détaillée. Pour les tables qui stockent des documents de travail, le champ peut être modifié. Les tables tampon qui sont utilisées en interne n'ont pas besoin de fonctionnalités modifiables ou non modifiables.  
+### <a name="tables-that-contain-the-dimension-set-id-field"></a>Tables qui contiennent le champ ID d’ensemble de dimensions
+ Le champ **ID d’ensembles de dimensions** (480) existe dans les tables suivantes. Pour les tables qui stockent des données validées, le champ fournit seulement un affichage non modifiable des axes analytiques, marqué comme vue détaillée. Pour les tables qui stockent des documents de travail, le champ peut être modifié. Les tables tampon qui sont utilisées en interne n’ont pas besoin de fonctionnalités modifiables ou non modifiables.  
 
  Le champ 480 ne peut pas être modifié dans les tables suivantes.  
 
@@ -106,7 +106,7 @@ En plus des autres champs d'axe dans la table, ces champs sont importants :
 |271|**Écriture comptable compte bancaire**|  
 |281|**Écriture comptable inventaire**|  
 |297|**En-tête relance émise**|  
-|304|**En-tête fact. d'intérêts émise**|  
+|304|**En-tête fact. d’intérêts émise**|  
 |5 107|**Archives en-tête vente**|  
 |5 108|**Archives ligne vente**|  
 |5 109|**Archives en-tête achat**|  
@@ -152,7 +152,7 @@ Le champ 480 peut être modifié dans les tables suivantes.
 |221|**Ventilation feuille compta**|  
 |246|**Ligne proposition achat**|  
 |295|**En-tête relance**|  
-|302|**En-tête facture d'intérêts**|  
+|302|**En-tête facture d’intérêts**|  
 |5 405|**Ordre de fabrication**|  
 |5 406|**Ligne O.F.**|  
 |5 407|**Composant O.F.**|  
@@ -182,7 +182,7 @@ Le champ 480 existe dans les tables suivantes.
 |7136|**Tampon budget article**|  
 
 ## <a name="see-also"></a>Voir aussi  
- [Détails de conception : écritures d'ensemble de dimensions](design-details-dimension-set-entries.md)   
- [Aperçu des écritures de l'ensemble de dimensions](design-details-dimension-set-entries-overview.md)   
+ [Détails de conception : écritures d’ensemble de dimensions](design-details-dimension-set-entries.md)   
+ [Aperçu des écritures de l’ensemble de dimensions](design-details-dimension-set-entries-overview.md)   
  [Détails de conception : recherche des croisements analytiques](design-details-searching-for-dimension-combinations.md)   
  

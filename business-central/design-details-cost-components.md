@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 639a982c81b29a2a51f24551d9c0814f7a3ac1c5
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 470c8231eeb471de344542087c7ade68c91f55bc
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788061"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920937"
 ---
 # <a name="design-details-cost-components"></a>Détails de conception : composants des coûts
 Les composants de coût sont différents types de coûts qui constituent la valeur d'une entrée de stock ou d'une sortie.  
@@ -28,17 +28,17 @@ Les composants de coût sont différents types de coûts qui constituent la vale
 |Coût direct|Frais de transport (frais annexes)|Coûts qui ne peuvent pas être rapportés à des coûts associés.|  
 |Coût direct|Frais d'assurance (frais annexes)|Coûts qui ne peuvent pas être rapportés à des coûts associés.|  
 |Coût indirect||Coût qui ne peut pas être rapporté à un objet de coût.|  
-|Ecart|Écart achat|Différence entre les coûts réel et standard, qui n'est validée que pour les articles utilisant le mode évaluation stock **Standard**.|  
-|Ecart|Écart matière|Différence entre les coûts réel et standard, qui n'est validée que pour les articles utilisant le mode évaluation stock **Standard**.|  
-|Ecart|Écart opératoire|Différence entre les coûts réel et standard, qui n'est validée que pour les articles utilisant le mode évaluation stock **Standard**.|  
-|Ecart|Écart sous-traitance|Différence entre les coûts réel et standard, qui n'est validée que pour les articles utilisant le mode évaluation stock **Standard**.|  
-|Ecart|Écart frais gén. opératoires|Différence entre les coûts réel et standard, qui n'est validée que pour les articles utilisant le mode évaluation stock **Standard**.|  
-|Ecart|Écart frais généraux production|Différence entre les coûts réel et standard, qui n'est validée que pour les articles utilisant le mode évaluation stock **Standard**.|  
+|Ecart|Écart achat|Différence entre les coûts réel et standard, qui n'est validée que pour les articles utilisant le mode évaluation stock **Standard** .|  
+|Ecart|Écart matière|Différence entre les coûts réel et standard, qui n'est validée que pour les articles utilisant le mode évaluation stock **Standard** .|  
+|Ecart|Écart opératoire|Différence entre les coûts réel et standard, qui n'est validée que pour les articles utilisant le mode évaluation stock **Standard** .|  
+|Ecart|Écart sous-traitance|Différence entre les coûts réel et standard, qui n'est validée que pour les articles utilisant le mode évaluation stock **Standard** .|  
+|Ecart|Écart frais gén. opératoires|Différence entre les coûts réel et standard, qui n'est validée que pour les articles utilisant le mode évaluation stock **Standard** .|  
+|Ecart|Écart frais généraux production|Différence entre les coûts réel et standard, qui n'est validée que pour les articles utilisant le mode évaluation stock **Standard** .|  
 |Réévaluation||Amortissement ou réévaluation de la valeur stock en cours.|  
 |Arrondi||Reliquats créés par le mode de calcul de l'évaluation des sorties du stock.|  
 
 > [!NOTE]  
->  Les frais de transport et d'assurance sont des frais annexes qui peuvent être ajoutés au coût d'un article à tout moment. Lorsque vous exécutez le traitement par lots **Ajuster coûts - Écr. article**, la valeur de toute diminution de stock liée est mise à jour en conséquence.  
+>  Les frais de transport et d'assurance sont des frais annexes qui peuvent être ajoutés au coût d'un article à tout moment. Lorsque vous exécutez le traitement par lots **Ajuster coûts - Écr. article** , la valeur de toute diminution de stock liée est mise à jour en conséquence.  
 
 ## <a name="see-also"></a>Voir aussi  
  [Détails de conception : évaluation stock](design-details-inventory-costing.md)   

@@ -1,6 +1,6 @@
 ---
 title: Détails de conception - Périodes inventaire | Microsoft Docs
-description: Des transactions antidatées ou des ajustement des coûts affectent souvent les soldes et les évaluations du stock pour des périodes comptables qui peuvent être considérées comme clôturées. Ceci peut avoir des effets négatifs sur la précision des rapports, notamment dans des sociétés internationales. La fonction Périodes inventaire permet d'éviter ces problèmes en ouvrant ou en clôturant des périodes d'inventaire pour limiter la validation dans une période définie.
+description: Des transactions antidatées ou des ajustement des coûts affectent souvent les soldes et les évaluations du stock pour des périodes comptables qui peuvent être considérées comme clôturées. Ceci peut avoir des effets négatifs sur la précision des rapports, notamment dans des sociétés internationales. La fonction Périodes inventaire permet d’éviter ces problèmes en ouvrant ou en clôturant des périodes d’inventaire pour limiter la validation dans une période définie.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,27 +8,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1f06b8a47b36bb85aca69030ace4f8b220c5bc24
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 2f7ef91c2d7ecc01f38deeda371c409e80eafd27
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787761"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913753"
 ---
 # <a name="design-details-inventory-periods"></a>Détails de conception : périodes inventaire
-Des transactions antidatées ou des ajustement des coûts affectent souvent les soldes et les évaluations du stock pour des périodes comptables qui peuvent être considérées comme clôturées. Ceci peut avoir des effets négatifs sur la précision des rapports, notamment dans des sociétés internationales. La fonction Périodes inventaire permet d'éviter ces problèmes en ouvrant ou en clôturant des périodes d'inventaire pour limiter la validation dans une période définie.  
+Des transactions antidatées ou des ajustement des coûts affectent souvent les soldes et les évaluations du stock pour des périodes comptables qui peuvent être considérées comme clôturées. Ceci peut avoir des effets négatifs sur la précision des rapports, notamment dans des sociétés internationales. La fonction Périodes inventaire permet d’éviter ces problèmes en ouvrant ou en clôturant des périodes d’inventaire pour limiter la validation dans une période définie.  
 
- Une période inventaire est une période, définie par une date de fin, pendant laquelle vous validez des mouvements de stock. Lorsque vous fermez une période d'inventaire, aucun changement de valeur ne peut être validé dans la période clôturée. Cela inclut de nouvelles validations de valeur, des validations prévues ou facturées, des modifications sur les valeurs existantes et des ajustements de coûts. Cependant, vous pouvez toujours lettrer une écriture comptable article ouverte qui se trouve dans la période clôturée. Pour plus d'informations, voir [Détails de conception : traçabilité](design-details-item-application.md).  
+ Une période inventaire est une période, définie par une date de fin, pendant laquelle vous validez des mouvements de stock. Lorsque vous fermez une période d’inventaire, aucun changement de valeur ne peut être validé dans la période clôturée. Cela inclut de nouvelles validations de valeur, des validations prévues ou facturées, des modifications sur les valeurs existantes et des ajustements de coûts. Cependant, vous pouvez toujours lettrer une écriture comptable article ouverte qui se trouve dans la période clôturée. Pour plus d’informations, voir [Détails de conception : traçabilité](design-details-item-application.md).  
 
- Pour s'assurer que toutes les écritures de transaction dans une période clôturée sont finales, les conditions suivantes doivent être remplies avant qu'une période d'inventaire ne soit fermée :  
+ Pour s’assurer que toutes les écritures de transaction dans une période clôturée sont finales, les conditions suivantes doivent être remplies avant qu’une période d’inventaire ne soit fermée :  
 
 -   Toutes les écritures comptables article sortantes de la période doivent être fermées (aucun stock négatif).  
 -   Tous les coûts des articles pour la période doivent être ajustés.  
--   Tous les ordres de fabrication lancés et terminés dans la période doivent faire l'objet d'un ajustement des coûts.  
+-   Tous les ordres de fabrication lancés et terminés dans la période doivent faire l’objet d’un ajustement des coûts.  
 
- Lorsque vous fermez une période inventaire, une écriture période d'inventaire est créée à l'aide du numéro du dernier enregistrement article tombant dans la période d'inventaire. En outre, le délai, la date et le code utilisateur de l'utilisateur clôturant la période sont enregistrés dans l'écriture période inventaire. À l'aide des informations associée au dernier historique article de la période précédente, vous pouvez visualiser les mouvements de stock qui ont été validés pour la période inventaire. Il est également possible de rouvrir des périodes inventaire si vous devez valider dans une période clôturée. Lorsque vous rouvrez une période inventaire, une écriture période inventaire est créée.  
+ Lorsque vous fermez une période inventaire, une écriture période d’inventaire est créée à l’aide du numéro du dernier enregistrement article tombant dans la période d’inventaire. En outre, le délai, la date et le code utilisateur de l’utilisateur clôturant la période sont enregistrés dans l’écriture période inventaire. À l’aide des informations associée au dernier historique article de la période précédente, vous pouvez visualiser les mouvements de stock qui ont été validés pour la période inventaire. Il est également possible de rouvrir des périodes inventaire si vous devez valider dans une période clôturée. Lorsque vous rouvrez une période inventaire, une écriture période inventaire est créée.  
 
 ## <a name="see-also"></a>Voir aussi  
  [Détails de conception : Coûts ajustés](design-details-inventory-costing.md) [Gestion des coûts ajustés](finance-manage-inventory-costs.md) [Finance](finance.md)  

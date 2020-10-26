@@ -1,6 +1,6 @@
 ---
 title: Procédure de modification des propositions planning dans une vue graphique | Microsoft Docs
-description: Une activité de planification courante est d'ajouter ou de modifier les lignes feuille planning pour modifier les commandes approvisionnement proposées avant de les valider en exécutant la fonction Traiter message d'action. Une alternative à utiliser la feuille planning est d'utiliser une vue graphique.
+description: Une activité de planification courante est d’ajouter ou de modifier les lignes feuille planning pour modifier les commandes approvisionnement proposées avant de les valider en exécutant la fonction Traiter message d’action. Une alternative à utiliser la feuille planning est d’utiliser une vue graphique.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/05/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d1edbe7c25fbdf3a461c9897ecf3d448d702ab96
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d2b0d6219215d734a77e0ebcd821ef9aaa2ae3f2
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786036"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919228"
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Modifier les propositions planning dans une vue graphique
 
-Une activité de planification courante est d'ajouter ou de modifier les lignes feuille planning pour modifier les commandes approvisionnement proposées avant de les valider en exécutant la fonction **Traiter message d'action**. Une alternative à utiliser la feuille planning est d'utiliser une vue graphique. Cependant, ceci n'est actuellement pas pris en charge dans [!INCLUDE[prodshort](includes/prodshort.md)].  
+Une activité de planification courante est d’ajouter ou de modifier les lignes feuille planning pour modifier les commandes approvisionnement proposées avant de les valider en exécutant la fonction **Traiter message d’action** . Une alternative à utiliser la feuille planning est d’utiliser une vue graphique. Cependant, ceci n’est actuellement pas pris en charge dans [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 <!--On the **Item Availability by Timeline** page, you can modify certain supply orders and suggestions by dragging elements on the x-axis to change quantity or dragging elements on the y-axis to change due date.  
 
@@ -100,6 +100,6 @@ To implement the supply plan changes, you must follow the resulting action messa
 [Production](production-manage-manufacturing.md)  
 [STOCKS ET EN-COURS](inventory-manage-inventory.md)  
 [Achats](purchasing-manage-purchasing.md)  
-[Détails de conception : planification de l'approvisionnement](design-details-supply-planning.md)  
-[Pratiques de configuration recommandées : planification de l'approvisionnement](setup-best-practices-supply-planning.md)  
+[Détails de conception : planification de l’approvisionnement](design-details-supply-planning.md)  
+[Pratiques de configuration recommandées : planification de l’approvisionnement](setup-best-practices-supply-planning.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

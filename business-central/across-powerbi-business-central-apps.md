@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: b4430118eb8075ceded16bdc375479e61a132f96
-ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
+ms.openlocfilehash: 292f78f16b77940fa16a6ffc25bd79dbca0684e3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3697839"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915875"
 ---
 # <a name="using-the-prodshort-apps-in-power-bi"></a>Utilisation des applications [!INCLUDE [prodshort](includes/prodshort.md)] dans Power BI
 
@@ -31,15 +31,15 @@ ms.locfileid: "3697839"
 
 Chaque application comprend plusieurs états dans lesquels vous pouvez explorer les données, y compris les fonctionnalités suivantes :
 
-- Sélectionnez un visuel du tableau de bord pour afficher l'un des états sous-jacents.  
-- Filtrez l'état ou ajoutez les champs que vous souhaitez contrôler.  
+- Sélectionnez un visuel du tableau de bord pour afficher l’un des états sous-jacents.  
+- Filtrez l’état ou ajoutez les champs que vous souhaitez contrôler.  
 - Épinglez une vue personnalisée au tableau de bord pour continuer à effectuer le suivi.  
-  Vous pouvez actualiser les données manuellement, et vous pouvez configurer un programme d'actualisation. Pour plus d'informations, voir [Configuration d'une actualisation planifiée](/power-bi/refresh-scheduled-refresh).  
+  Vous pouvez actualiser les données manuellement, et vous pouvez configurer un programme d’actualisation. Pour plus d’informations, voir [Configuration d’une actualisation planifiée](/power-bi/refresh-scheduled-refresh).  
 
-Les applications sont conçues pour fonctionner avec les données de toute société dans [!INCLUDE[prodshort](includes/prodshort.md)]. Lorsque vous installez l'application Power BI, spécifiez un ou plusieurs paramètres à connecter à votre [!INCLUDE [prodshort](includes/prodshort.md)].  
+Les applications sont conçues pour fonctionner avec les données de toute société dans [!INCLUDE[prodshort](includes/prodshort.md)]. Lorsque vous installez l’application Power BI, spécifiez un ou plusieurs paramètres à connecter à votre [!INCLUDE [prodshort](includes/prodshort.md)].  
 
 > [!NOTE]
-> Vous pouvez également générer vos propres états et tableaux de bord dans Power BI selon vos données [!INCLUDE[prodshort](includes/prodshort.md)]. Pour plus d'informations, voir [Connexion de vos données métier à Power BI](across-how-use-financials-data-source-powerbi.md). 
+> Vous pouvez également générer vos propres états et tableaux de bord dans Power BI selon vos données [!INCLUDE[prodshort](includes/prodshort.md)]. Pour plus d’informations, voir [Connexion de vos données métier à Power BI](across-how-use-financials-data-source-powerbi.md). 
 
 ## <a name="prerequisites"></a>Conditions préalables
 
@@ -47,12 +47,12 @@ Les applications Power BI nécessitent des autorisations sur les tables à parti
     
 |Application | Services Web|
 |----|-------------|
-|[!INCLUDE[prodshort](includes/prodshort.md)] - CRM| <ul><li>Opportunités ventes</li><li>Informations sur le modèle Excel Afficher Société</li><li>Étiquettes d'état Power BI</li></ul>|
-|[!INCLUDE[prodshort](includes/prodshort.md)] - Finance| <ul><li>PowerBIFinance</li><li>Informations sur le modèle Excel Afficher Société</li><li>Étiquettes d'état Power BI</li></ul>|
-|[!INCLUDE[prodshort](includes/prodshort.md)] - Sales| <ul><li>Ventes d'articles par client</li><li>Tableau de bord ventes</li><li>Informations sur le modèle Excel Afficher Société</li><li>Étiquettes d'état Power BI</li></ul>|
+|[!INCLUDE[prodshort](includes/prodshort.md)] - CRM| <ul><li>Opportunités ventes</li><li>Informations sur le modèle Excel Afficher Société</li><li>Étiquettes d’état Power BI</li></ul>|
+|[!INCLUDE[prodshort](includes/prodshort.md)] - Finance| <ul><li>PowerBIFinance</li><li>Informations sur le modèle Excel Afficher Société</li><li>Étiquettes d’état Power BI</li></ul>|
+|[!INCLUDE[prodshort](includes/prodshort.md)] - Sales| <ul><li>Ventes d’articles par client</li><li>Tableau de bord ventes</li><li>Informations sur le modèle Excel Afficher Société</li><li>Étiquettes d’état Power BI</li></ul>|
 
 > [!TIP]
-> Pour trouver facilement les services Web, il suffit de rechercher *services web* dans [!INCLUDE[prodshort](includes/prodshort.md)]. Sur la page **Services Web**, assurez-vous que le champ **Publier** est sélectionné pour les services Web répertoriés ci-dessus. Pour plus d’informations, voir [Publication d’un service Web](across-how-publish-web-service.md).
+> Pour trouver facilement les services Web, il suffit de rechercher *services web* dans [!INCLUDE[prodshort](includes/prodshort.md)]. Sur la page **Services Web** , assurez-vous que le champ **Publier** est sélectionné pour les services Web répertoriés ci-dessus. Pour plus d’informations, voir [Publication d’un service Web](across-how-publish-web-service.md).
 
 ## <a name="get-ready"></a>Mise en route
 
@@ -65,27 +65,27 @@ Inscrivez-vous au service Power BI. Si vous ne vous êtes pas encore inscrit, ac
 
     ![Naviguer pour obtenir des données](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
 
-    Vous pouvez également démarrer depuis [!INCLUDE [prodshort](includes/prodshort.md)]. Depuis votre page d'accueil, accédez à **Sélection des états** dans la section Power BI. Sélectionnez **Service** ou **Mon organisation** dans le ruban. Soit la galerie Organisation dans Power BI, soit Microsoft AppSource s’ouvre, filtré pour n’afficher que les applications liées à [!INCLUDE[prodshort](includes/prodshort.md)].
+    Vous pouvez également démarrer depuis [!INCLUDE [prodshort](includes/prodshort.md)]. Depuis votre page d’accueil, accédez à **Sélection des états** dans la section Power BI. Sélectionnez **Service** ou **Mon organisation** dans le ruban. Soit la galerie Organisation dans Power BI, soit Microsoft AppSource s’ouvre, filtré pour n’afficher que les applications liées à [!INCLUDE[prodshort](includes/prodshort.md)].
 
-3. Dans la zone **Services**, sélectionnez **Extraire**.
+3. Dans la zone **Services** , sélectionnez **Extraire** .
 
-    Cette étape ouvre la page **Applications Power BI**, qui vous permet de rechercher l’application Power BI disponible dans **AppSource**.  
+    Cette étape ouvre la page **Applications Power BI** , qui vous permet de rechercher l’application Power BI disponible dans **AppSource** .  
 
-4. Dans la boîte de dialogue **Rechercher**, entrez **Dynamics 365 Business Central**.
-5. Sélectionnez l’application que vous souhaitez utiliser, sélectionnez **Obtenir maintenant**, puis **Installer**.  
+4. Dans la boîte de dialogue **Rechercher** , entrez **Dynamics 365 Business Central** .
+5. Sélectionnez l’application que vous souhaitez utiliser, sélectionnez **Obtenir maintenant** , puis **Installer** .  
 
-    Ensuite l’application sera disponible à partir d’**Applications** dans le menu de navigation dans Power BI.
+    Ensuite l’application sera disponible à partir d’ **Applications** dans le menu de navigation dans Power BI.
 
 ## <a name="connect-the-prodshort-app-to-your-data"></a>Connecter l’application [!INCLUDE[prodshort](includes/prodshort.md)] à vos données
 
-1. Sous **Applications**, sélectionnez l’application Business Central, puis **Connecter**.
+1. Sous **Applications** , sélectionnez l’application Business Central, puis **Connecter** .
 2. À l’invite, renseignez les champs **Nom de la société** et **Environnement** avec les informations concernant l’instance [!INCLUDE[prodshort](includes/prodshort.md)] à laquelle vous souhaitez vous connecter.
 
-    - Pour **Nom de la société**, assurez-vous d’utiliser le nom complet et non le nom d’affichage. Vous pourrez trouver le nom de la société dans la page **Sociétés** dans [!INCLUDE[prodshort](includes/prodshort.md)]. 
-    - Pour **Environnement**, si vous n’avez pas créé plusieurs environnements, entrez **Production**.
+    - Pour **Nom de la société** , assurez-vous d’utiliser le nom complet et non le nom d’affichage. Vous pourrez trouver le nom de la société dans la page **Sociétés** dans [!INCLUDE[prodshort](includes/prodshort.md)]. 
+    - Pour **Environnement** , si vous n’avez pas créé plusieurs environnements, entrez **Production** .
 
-3. Sélectionnez **Suivant**.
-4. Sélectionnez **Se connecter**.
+3. Sélectionnez **Suivant** .
+4. Sélectionnez **Se connecter** .
 5. À l’invite, entrez le nom d’utilisateur et le mot de passe pour vous connecter à [!INCLUDE[prodshort](includes/prodshort.md)].
 6. Une fois connecté(e), un tableau de bord et des états sont ajoutés à votre espace de travail Power BI. Une fois terminé, les mosaïques affichent les données de votre société [!INCLUDE[prodshort](includes/prodshort.md)].
 
@@ -99,11 +99,11 @@ Le tableau de bord Power BI repose sur les services Web publiés répertoriés c
 
 Aucun compte Power BI n’a été créé. Vous devez avoir une licence pour obtenir un compte Power BI valide. De plus, vous devez vous être déjà connecté à Power BI pour créer votre espace de travail Power BI.  
 
-### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Message : Aucun état n'est activé. Choisissez Sélectionner un état pour afficher la liste des états disponibles.
+### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Message : Aucun état n’est activé. Choisissez Sélectionner un état pour afficher la liste des états disponibles.
 
-Ce message apparaît si l’état par défaut n’a pas pu être déployé sur votre espace de travail Power BI. Ou l’état a été déployé, mais n’a pas été actualisé avec succès. Si ce problème se produit, accédez à l’état dans votre espace de travail Power BI, sélectionnez **Ensemble de données**, **Paramètres**, puis mettez à jour les informations d’identification manuellement. Une fois le jeu de données actualisé, revenez dans [!INCLUDE[prodshort](includes/prodshort.md)] et sélectionnez manuellement l’état dans la page **Sélectionner des états**.
+Ce message apparaît si l’état par défaut n’a pas pu être déployé sur votre espace de travail Power BI. Ou l’état a été déployé, mais n’a pas été actualisé avec succès. Si ce problème se produit, accédez à l’état dans votre espace de travail Power BI, sélectionnez **Ensemble de données** , **Paramètres** , puis mettez à jour les informations d’identification manuellement. Une fois le jeu de données actualisé, revenez dans [!INCLUDE[prodshort](includes/prodshort.md)] et sélectionnez manuellement l’état dans la page **Sélectionner des états** .
 
-### <a name="you-need-a-power-bi-pro-license-to-install-the-prodshort-app-in-power-bi"></a>Vous devez disposer d'une licence Power BI Pro pour installer l'application [!INCLUDE[prodshort](includes/prodshort.md)] dans Power BI
+### <a name="you-need-a-power-bi-pro-license-to-install-the-prodshort-app-in-power-bi"></a>Vous devez disposer d’une licence Power BI Pro pour installer l’application [!INCLUDE[prodshort](includes/prodshort.md)] dans Power BI
 
 Vous avez besoin d’une [licence Power BI Pro](/power-bi/service-features-license-type) pour partager votre contenu, ainsi que les personnes avec lesquelles vous le partagez. Le contenu doit se trouver dans un espace de travail dans une [Capacité Premium](/power-bi/service-premium-what-is). Pour en savoir plus, consultez [Moyens de partager votre travail dans Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).  
 
@@ -130,11 +130,11 @@ Pour [!INCLUDE[prodshort](includes/prodshort.md)] sur site, le problème peut ê
 
 ### <a name="incorrect-company-name"></a>Nom de société incorrect
 
-Une erreur commune consiste à entrer le nom complet de la société au lieu du nom de la société. Pour trouver le nom de la société, cherchez dans **Sociétés**. Utilisez ensuite le champ **Nom** au moment de saisir le nom de votre société.
+Une erreur commune consiste à entrer le nom complet de la société au lieu du nom de la société. Pour trouver le nom de la société, cherchez dans **Sociétés** . Utilisez ensuite le champ **Nom** au moment de saisir le nom de votre société.
 
 ### <a name="the-key-didnt-match-any-rows-in-the-table"></a>La clé ne correspond à aucune ligne de la table
 
-Si vous entrez un nom de société non valide pendant le processus de connexion, le message d'erreur suivant « La clé ne correspond à aucune ligne de la table » peut s'afficher. Indiquez le nom de société correct, puis reconnectez-vous.
+Si vous entrez un nom de société non valide pendant le processus de connexion, le message d’erreur suivant « La clé ne correspond à aucune ligne de la table » peut s’afficher. Indiquez le nom de société correct, puis reconnectez-vous.
 
 ### <a name="historical-data-appears-to-be-missing"></a>Les données historiques semblent manquer
 
@@ -142,14 +142,14 @@ Une fois que l’application Power BI est installée et que vos données apparai
 
 ### <a name="i-only-see-data-for-a-single-company"></a>Je ne vois que des données pour une seule société
 
-L'application Power BI affichera uniquement les données de la société [!INCLUDE[prodshort](includes/prodshort.md)] qui a été définie lorsque l'application Power BI a été installée. Les données provenant d'autres sociétés peuvent être ajoutées aux états en ajoutant de nouvelles requêtes utilisant différentes sociétés en tant que source de données.  
+L’application Power BI affichera uniquement les données de la société [!INCLUDE[prodshort](includes/prodshort.md)] qui a été définie lorsque l’application Power BI a été installée. Les données provenant d’autres sociétés peuvent être ajoutées aux états en ajoutant de nouvelles requêtes utilisant différentes sociétés en tant que source de données.  
 
 ### <a name="what-now"></a>Et ensuite ?
 
 - Cliquez sur [poser une question dans la zone Q&R](/power-bi/service-q-and-a-tips) en haut du tableau de bord.
 - [Modifiez les mosaïques](/power-bi/service-dashboard-edit-tile) du tableau de bord.  
-- [Sélectionnez une mosaïque](/power-bi/service-dashboard-tiles) pour ouvrir l'état sous-jacent.  
-- Par défaut, votre ensemble de données n’est pas planifié pour être actualisé. Vous pouvez modifier le calendrier d’actualisation ou essayer de l’actualiser à la demande à l’aide de **Actualiser maintenant**. Pour plus d’informations, voir [Configuration d’une actualisation planifiée](/power-bi/refresh-scheduled-refresh).
+- [Sélectionnez une mosaïque](/power-bi/service-dashboard-tiles) pour ouvrir l’état sous-jacent.  
+- Par défaut, votre ensemble de données n’est pas planifié pour être actualisé. Vous pouvez modifier le calendrier d’actualisation ou essayer de l’actualiser à la demande à l’aide de **Actualiser maintenant** . Pour plus d’informations, voir [Configuration d’une actualisation planifiée](/power-bi/refresh-scheduled-refresh).
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
@@ -165,7 +165,7 @@ L'application Power BI affichera uniquement les données de la société [!INCLU
 [Documentation Power BI](/power-bi/)  
 [Veille économique](bi.md)  
 [Mise en route](product-get-started.md)  
-[Importation des données métier à partir d'autres systèmes financiers](across-import-data-configuration-packages.md)  
+[Importation des données métier à partir d’autres systèmes financiers](across-import-data-configuration-packages.md)  
 [Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] comme source de données Power BI](across-how-use-financials-data-source-powerbi.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] comme source de données Power Apps](across-how-use-financials-data-source-powerapps.md)  

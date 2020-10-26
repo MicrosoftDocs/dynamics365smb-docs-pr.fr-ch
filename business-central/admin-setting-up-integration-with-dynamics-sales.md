@@ -1,6 +1,6 @@
 ---
-title: Configuration des comptes d'utilisateur pour l'intégration à Common Data Service | Microsoft Docs
-description: Découvrez comment configurer les comptes d'utilisateur que les applications utilisent pour échanger les données, et que les utilisateurs emploient pour accéder aux données et les synchroniser dans les applications.
+title: Configuration des comptes d’utilisateur pour l’intégration à Common Data Service | Microsoft Docs
+description: Découvrez comment configurer les comptes d’utilisateur que les applications utilisent pour échanger les données, et que les utilisateurs emploient pour accéder aux données et les synchroniser dans les applications.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,23 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 9cd00cd3b3cb55ce3af35bd82284570b86720d63
-ms.sourcegitcommit: 0c6f4382fad994fb6aea9dcde3b2dc25382c5968
+ms.openlocfilehash: d396e5fc9073d753bb9782394a922c26242b472a
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "3484276"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917791"
 ---
-# <a name="setting-up-user-accounts-for-integrating-with-common-data-service"></a>Configuration des comptes d'utilisateur pour intégration à Common Data Service
-Cet article fournit un aperçu de la manière dont la configuration des comptes d'utilisateur requis pour intégrer [!INCLUDE[d365fin](includes/cds_long_md.md)] à [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+# <a name="setting-up-user-accounts-for-integrating-with-common-data-service"></a>Configuration des comptes d’utilisateur pour intégration à Common Data Service
+Cet article fournit un aperçu de la manière dont la configuration des comptes d’utilisateur requis pour intégrer [!INCLUDE[d365fin](includes/cds_long_md.md)] à [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-## <a name="setting-up-the-administrator-user-account"></a>Configuration du compte d'utilisateur administrateur
-Vous devez ajouter votre compte d'utilisateur administrateur pour [!INCLUDE[d365fin](includes/d365fin_md.md)] en tant qu'utilisateur dans [!INCLUDE[d365fin](includes/cds_long_md.md)]. Lorsque vous configurez la connexion entre [!INCLUDE[d365fin](includes/d365fin_md.md)] et [!INCLUDE[d365fin](includes/cds_long_md.md)], nous utilisons ce compte une fois pour installer et configurer certains composants requis. 
+## <a name="setting-up-the-administrator-user-account"></a>Configuration du compte d’utilisateur administrateur
+Vous devez ajouter votre compte d’utilisateur administrateur pour [!INCLUDE[d365fin](includes/d365fin_md.md)] en tant qu’utilisateur dans [!INCLUDE[d365fin](includes/cds_long_md.md)]. Lorsque vous configurez la connexion entre [!INCLUDE[d365fin](includes/d365fin_md.md)] et [!INCLUDE[d365fin](includes/cds_long_md.md)], nous utilisons ce compte une fois pour installer et configurer certains composants requis. 
 
-## <a name="permissions-and-security-roles-for-user-accounts-in-d365fin"></a>Autorisations et rôles de sécurité pour les comptes d'utilisateur dans [!INCLUDE[d365fin](includes/cds_long_md.md)]
-Lorsque vous installez la solution d'intégration de base CDS, les autorisations pour le compte d'utilisateur d'intégration sont configurées. Si ces autorisations sont modifiées manuellement, vous pouvez les réinitialiser. Vous pouvez le faire en réinstallant la solution d'intégration de base CDS en choisissant **Redéployer la solution d'intégration** sur la page **Paramétrage de la connexion Common Data Service**. Le rôle de sécurité Intégration Business Central CDS est déployé.
+## <a name="permissions-and-security-roles-for-user-accounts-in-d365fin"></a>Autorisations et rôles de sécurité pour les comptes d’utilisateur dans [!INCLUDE[d365fin](includes/cds_long_md.md)]
+Lorsque vous installez la solution d’intégration de base CDS, les autorisations pour le compte d’utilisateur d’intégration sont configurées. Si ces autorisations sont modifiées manuellement, vous pouvez les réinitialiser. Vous pouvez le faire en réinstallant la solution d’intégration de base CDS en choisissant **Redéployer la solution d’intégration** sur la page **Paramétrage de la connexion Common Data Service** . Le rôle de sécurité Intégration Business Central CDS est déployé.
 
 <!--
 The following tables list the minimum permissions for the user accounts in [!INCLUDE[d365fin](includes/cds_long_md.md)].

@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: availability, localization
-ms.date: 08/12/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 180c28057fd7da133f2f0770ba515d3eabb1af05
-ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
+ms.openlocfilehash: b7e6aeb4db5e189bf8f985b55cf226c94a9aa1de
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "3693139"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914544"
 ---
 # <a name="local-functionality-in-prodlong"></a>Fonctionnalités locales dans [!INCLUDE[prodlong](includes/prodlong.md)]
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] a une stratégie de localisation combinée comprenant des modèles Microsoft et partenaires. Dans cette section, vous pouvez visualiser des descriptions de la fonctionnalité applicable aux pays où Microsoft fournit la conformité de la réglementation et d'autres fonctionnalités locales.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] a une stratégie de localisation combinée comprenant des modèles Microsoft et partenaires. Dans cette section, vous pouvez visualiser des descriptions de la fonctionnalité applicable aux pays où Microsoft fournit la conformité de la réglementation et d’autres fonctionnalités locales.  
 
 Pour obtenir la liste des marchés actuellement pris en charge, voir [Disponibilité par pays/région et traductions prises en charge](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
@@ -27,7 +27,7 @@ Pour obtenir la liste des marchés actuellement pris en charge, voir [Disponibil
 
 Pour en savoir plus sur les fonctionnalités locales de chaque pays/région, cliquez sur le lien associé :
 
-| Région | Pays | Plus d'informations |
+| Région | Pays | Plus d’informations |
 | --- | --- |--- |
 | Europe |  | |
 |        | Autriche | [Fonctionnalité locale, Autriche](localfunctionality/austria/austria-local-functionality.md) |
@@ -38,10 +38,10 @@ Pour en savoir plus sur les fonctionnalités locales de chaque pays/région, cli
 |        | Finlande | [Fonctionnalité locale, Finlande](localfunctionality/finland/finland-local-functionality.md) |
 |        | France | [Fonctionnalité locale, France](localfunctionality/france/france-local-functionality.md) |
 |        | Islande | [Fonctionnalité locale, Islande](localfunctionality/iceland/iceland-local-functionality.md) |
-|        | Italie | [Fonctionnalités locales pour l'Italie](localfunctionality/italy/italy-local-functionality.md) |
+|        | Italie | [Fonctionnalités locales pour l’Italie](localfunctionality/italy/italy-local-functionality.md) |
 |        | Pays-Bas | [Fonctionnalité locale, Pays-Bas](localfunctionality/netherlands/netherlands-local-functionality.md) |
 |        | Norvège | [Fonctionnalité locale, Norvège](localfunctionality/norway/norway-local-functionality.md) |
-|        | Espagne | [Fonctionnalités locales pour l'Espagne](localfunctionality/spain/spain-local-functionality.md) |
+|        | Espagne | [Fonctionnalités locales pour l’Espagne](localfunctionality/spain/spain-local-functionality.md) |
 |        | Suède | [Fonctionnalités locales pour la Suède](localfunctionality/sweden/sweden-local-functionality.md) |
 |        | Suisse | [Fonctionnalité locale, Suisse](localfunctionality/switzerland/switzerland-local-functionality.md) |
 |        | Anglais (Royaume-Uni) | [Fonctionnalité locale, Royaume-Uni](localfunctionality/unitedkingdom/united-kingdom-local-functionality.md) |
@@ -55,7 +55,7 @@ Pour en savoir plus sur les fonctionnalités locales de chaque pays/région, cli
 
 ### <a name="other-countries"></a>Autres pays
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] est également disponible sur d'autres marchés via des applications de localisation. Si un partenaire Microsoft a développé une application de localisation pour votre pays/région, vous pouvez la trouver dans [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] est également disponible sur d’autres marchés via des applications de localisation. Si un partenaire Microsoft a développé une application de localisation pour votre pays/région, vous pouvez la trouver dans [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -63,4 +63,4 @@ Pour en savoir plus sur les fonctionnalités locales de chaque pays/région, cli
 [Conformité](compliance/compliance-overview.md)  
 [Disponibilité par pays/région et traductions prises en charge](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 [Disponibilité internationale de Microsoft Dynamics 365](/dynamics365/get-started/availability)  
-[Développement d'une solution de localisation](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization)  
+[Développement d’une solution de localisation](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization)  

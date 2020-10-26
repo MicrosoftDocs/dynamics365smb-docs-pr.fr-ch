@@ -1,6 +1,6 @@
 ---
 title: Comment répartir des lignes activité entrepôt | Microsoft Docs
-description: Dans le cadre de rangements, mouvements ou prélèvements entrepôt et de rangements et prélèvements stock, des emplacements sont proposés pour le prélèvement et le rangement des articles . Il arrive parfois que la quantité réelle disponible dans l'emplacement soit insuffisante ou que l'espace de l'emplacement proposé soit insuffisant pour le rangement de la quantité nécessaire. Dans ces cas, vous devez répartir la ligne de telle sorte que les articles d'une ligne soient prélevés ou placés dans plusieurs emplacements.
+description: Dans le cadre de rangements, mouvements ou prélèvements entrepôt et de rangements et prélèvements stock, des emplacements sont proposés pour le prélèvement et le rangement des articles . Il arrive parfois que la quantité réelle disponible dans l’emplacement soit insuffisante ou que l’espace de l’emplacement proposé soit insuffisant pour le rangement de la quantité nécessaire. Dans ces cas, vous devez répartir la ligne de telle sorte que les articles d’une ligne soient prélevés ou placés dans plusieurs emplacements.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,33 +8,33 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4484f4fcaef8f48642f83984f1b3dab8acc14def
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 8a9fef52a67072e15f611162c0c038d92ebd4ff0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784986"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914725"
 ---
 # <a name="split-warehouse-activity-lines"></a>Répartir des lignes activité entrepôt
-Dans le cadre de rangements, mouvements ou prélèvements entrepôt et de rangements et prélèvements stock, des emplacements sont proposés pour le prélèvement et le rangement des articles . Il arrive parfois que la quantité réelle disponible dans l'emplacement soit insuffisante ou que l'espace de l'emplacement proposé soit insuffisant pour le rangement de la quantité nécessaire. Dans ces cas, vous devez répartir la ligne de telle sorte que les articles d'une ligne soient prélevés ou placés dans plusieurs emplacements.  
+Dans le cadre de rangements, mouvements ou prélèvements entrepôt et de rangements et prélèvements stock, des emplacements sont proposés pour le prélèvement et le rangement des articles . Il arrive parfois que la quantité réelle disponible dans l’emplacement soit insuffisante ou que l’espace de l’emplacement proposé soit insuffisant pour le rangement de la quantité nécessaire. Dans ces cas, vous devez répartir la ligne de telle sorte que les articles d’une ligne soient prélevés ou placés dans plusieurs emplacements.  
 
-La procédure suivante s'applique aux documents entrepôt, à savoir les lignes de rangement, de mouvement et de prélèvement entrepôt, ainsi que les lignes de rangement, de mouvement et de prélèvement stock.  
+La procédure suivante s’applique aux documents entrepôt, à savoir les lignes de rangement, de mouvement et de prélèvement entrepôt, ainsi que les lignes de rangement, de mouvement et de prélèvement stock.  
 
 ## <a name="to-split-warehouse-activity-lines"></a>Pour éclater des lignes activité entrepôt  
 1.  Ouvrez une ligne activité entrepôt dans laquelle vous tentez de traiter une quantité insuffisante.  
-2.  Dans le champ **Quantité à traiter**, entrez la quantité réduite que vous pouvez gérer.  
-3.  Sur le raccourci **Lignes**, choisissez l'action **Actions**, choisissez **Fonctions**, puis choisissez l'action **Eclater ligne**. Une nouvelle ligne s'affiche. Il s'agit d'une copie de la ligne d'origine, à la différence près que la quantité que vous avez retirée de la ligne d'origine figure dans le champ **Quantité à traiter**.  
-4.  Affectez à cette nouvelle ligne un emplacement approprié, ainsi qu'une zone en cas d'utilisation d'un prélèvement et d'un rangement suggérés, ou continuez à répartir la ligne autant de fois que nécessaire jusqu'à ce que vous ayez trouvé des emplacements appropriés pour toute la quantité.  
+2.  Dans le champ **Quantité à traiter** , entrez la quantité réduite que vous pouvez gérer.  
+3.  Sur le raccourci **Lignes** , choisissez l’action **Actions** , choisissez **Fonctions** , puis choisissez l’action **Eclater ligne** . Une nouvelle ligne s’affiche. Il s’agit d’une copie de la ligne d’origine, à la différence près que la quantité que vous avez retirée de la ligne d’origine figure dans le champ **Quantité à traiter** .  
+4.  Affectez à cette nouvelle ligne un emplacement approprié, ainsi qu’une zone en cas d’utilisation d’un prélèvement et d’un rangement suggérés, ou continuez à répartir la ligne autant de fois que nécessaire jusqu’à ce que vous ayez trouvé des emplacements appropriés pour toute la quantité.  
 
 > [!NOTE]  
->  Si, en cas d'utilisation d'un prélèvement et d'un rangement suggérés dans l'entrepôt, vous répartissez les lignes, vous devez bien connaître l'entrepôt et être capable de choisir un emplacement répondant aux conditions de stockage de l'article et aux exigences générales du document entrepôt. Par exemple, vous n'allez pas répartir une ligne d'un document prélèvement et placer certains articles au niveau du stockage en vrac.  
+>  Si, en cas d’utilisation d’un prélèvement et d’un rangement suggérés dans l’entrepôt, vous répartissez les lignes, vous devez bien connaître l’entrepôt et être capable de choisir un emplacement répondant aux conditions de stockage de l’article et aux exigences générales du document entrepôt. Par exemple, vous n’allez pas répartir une ligne d’un document prélèvement et placer certains articles au niveau du stockage en vrac.  
 
 ## <a name="see-also"></a>Voir aussi  
-[Gestion d'entrepôt](warehouse-manage-warehouse.md)  
+[Gestion d’entrepôt](warehouse-manage-warehouse.md)  
 [STOCKS ET EN-COURS](inventory-manage-inventory.md)  
 [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)     
 [Gestion des assemblages](assembly-assemble-items.md)    
-[Détails de conception : gestion d'entrepôt](design-details-warehouse-management.md)  
+[Détails de conception : gestion d’entrepôt](design-details-warehouse-management.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

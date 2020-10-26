@@ -8,46 +8,46 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/14/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9984d61e97ff6c04733bd10818deb1d6cf57a66c
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: a2c2dc42ad600d4e3d05f4f3bdc1e5cbe2947812
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783641"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915786"
 ---
 # <a name="create-journal-opening-balances"></a>Créer des soldes ouverts feuille
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] inclut plusieurs traitements par lots qui sont livrés pour aider au transfert des soldes de compte hérité vers une société nouvellement configurée. Vous pouvez facilement transférer ces données avec le journal comptes clients, le journal comptes fournisseurs, la feuille article ou la feuille comptabilisation.
 
-La première étape consiste à créer un package configuration incluant les tables de paramétrage pour ces feuilles. La procédure suivante est basée sur l’hypothèse que cette étape est terminée. Pour plus d'informations, voir [Configurer une société](admin-set-up-company-configuration.md). Cette procédure explique les étapes suivantes, comme le lettrage du package qui est fourni par un partenaire.  
+La première étape consiste à créer un package configuration incluant les tables de paramétrage pour ces feuilles. La procédure suivante est basée sur l’hypothèse que cette étape est terminée. Pour plus d’informations, voir [Configurer une société](admin-set-up-company-configuration.md). Cette procédure explique les étapes suivantes, comme le lettrage du package qui est fourni par un partenaire.  
 
-Avant de commencer, vérifiez que vous utilisez la page Tableau de bord Administration, car elle fournit le contexte correct pour votre travail de configuration. Pour plus d'informations, voir [Modifier les paramètres de base](ui-change-basic-settings.md).
+Avant de commencer, vérifiez que vous utilisez la page Tableau de bord Administration, car elle fournit le contexte correct pour votre travail de configuration. Pour plus d’informations, voir [Modifier les paramètres de base](ui-change-basic-settings.md).
 
 ## <a name="to-apply-the-entries-in-a-journal-to-a-new-company"></a>Pour lettrer des écritures dans une feuille à une société
 
-1. Configurez une nouvelle société et appliquez-lui un package configuration. Pour plus d'informations, voir [Configurer une société avec l’assistant RapidStart](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md).  
+1. Configurez une nouvelle société et appliquez-lui un package configuration. Pour plus d’informations, voir [Configurer une société avec l’assistant RapidStart](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md).  
 
     La nouvelle société ne contient pas d’informations sur les soldes ouverts feuille.  
 
-2. Ouvrez la feuille configuration et importez les données existantes à propos des clients, des articles, des fournisseurs et de la comptabilité. Pour plus d'informations, voir [Migrer des données client](admin-migrate-customer-data.md).  
+2. Ouvrez la feuille configuration et importez les données existantes à propos des clients, des articles, des fournisseurs et de la comptabilité. Pour plus d’informations, voir [Migrer des données client](admin-migrate-customer-data.md).  
 
-    Les données de base sont maintenant en place. Ensuite, vous ajoutez les soldes d'ouverture. Les étapes suivantes décrivent comment créer des lignes feuille pour les comptes généraux, mais la même procédure s'applique à la création de lignes feuille pour les clients, les fournisseurs et les articles.  
-3. Choisissez l'action **Créer lignes feuille compte général**.  
-4. Renseignez le raccourci **Options** de la manière appropriée, puis définissez les filtres selon vos besoins. Par exemple, dans le champ **Modèle feuille**, entrez un nom.  
-5. Cliquez sur le bouton **OK**. Les enregistrements se trouvent maintenant dans la feuille, mais les montants sont vides.  
+    Les données de base sont maintenant en place. Ensuite, vous ajoutez les soldes d’ouverture. Les étapes suivantes décrivent comment créer des lignes feuille pour les comptes généraux, mais la même procédure s’applique à la création de lignes feuille pour les clients, les fournisseurs et les articles.  
+3. Choisissez l’action **Créer lignes feuille compte général** .  
+4. Renseignez le raccourci **Options** de la manière appropriée, puis définissez les filtres selon vos besoins. Par exemple, dans le champ **Modèle feuille** , entrez un nom.  
+5. Cliquez sur le bouton **OK** . Les enregistrements se trouvent maintenant dans la feuille, mais les montants sont vides.  
 6. Exportez la table feuille vers Excel et entrez manuellement les informations sur le compte contrepartie et validation à partir des données héritées.
 7. Importez et appliquez les informations de table dans la nouvelle société. Les lignes feuille sont prêtes pour la validation.  
-8. Dans la feuille configuration, sélectionnez la table ligne feuille, puis sélectionnez l'action **Données de base de données**.  
-9. Examinez les informations, puis sélectionnez l'action **Valider**.  
+8. Dans la feuille configuration, sélectionnez la table ligne feuille, puis sélectionnez l’action **Données de base de données** .  
+9. Examinez les informations, puis sélectionnez l’action **Valider** .  
 10. Répétez les étapes pour importer et valider les autres soldes ouverts.  
 
 > [!TIP]
-> Vous pouvez utiliser les mêmes traitements par lots pour ajouter des soldes d'ouverture chaque fois que vous enregistrez un nouveau client ou fournisseur avec lequel vous avez déjà traité mais qui n'est pas enregistré dans [!INCLUDE [prodshort](includes/prodshort.md)]. Recherchez simplement la tâche appropriée, puis choisissez le lien approprié.
+> Vous pouvez utiliser les mêmes traitements par lots pour ajouter des soldes d’ouverture chaque fois que vous enregistrez un nouveau client ou fournisseur avec lequel vous avez déjà traité mais qui n’est pas enregistré dans [!INCLUDE [prodshort](includes/prodshort.md)]. Recherchez simplement la tâche appropriée, puis choisissez le lien approprié.
 
 ## <a name="see-also"></a>Voir aussi
 
 [Appliquer des configurations aux nouvelles sociétés](admin-apply-configuration-to-new-companies.md)  
-[Configuration d'une société avec RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
+[Configuration d’une société avec RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)  

@@ -8,56 +8,56 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture, region, regional settings
-ms.date: 06/17/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: da2ea0e51ef65eb432cc67f36db230bfea178c03
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: d47214392e3c0e48f436475a79407a752a95583d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528678"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914579"
 ---
 # <a name="changing-language-and-region"></a>Modification de la langue et de la région
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] est disponible dans un certain nombre de marchés et de langues à travers le monde. Sur les marchés où [!INCLUDE[d365fin](includes/d365fin_md.md)] est disponible, un ensemble de fonctionnalités réglementaires sont disponibles pour aider les entreprises avec des charges réglementaires. [!INCLUDE[d365fin](includes/d365fin_md.md)] peut se présenter dans différentes langues et vous pouvez modifier la langue utilisée pour l'affichage des textes et ce changement est immédiat une fois que le système vous a déconnecté et reconnecté automatiquement. Le paramètre ne s'applique qu'à vous et non aux autres utilisateurs de votre société.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] est disponible dans un certain nombre de marchés et de langues à travers le monde. Sur les marchés où [!INCLUDE[d365fin](includes/d365fin_md.md)] est disponible, un ensemble de fonctionnalités réglementaires sont disponibles pour aider les entreprises avec des charges réglementaires. [!INCLUDE[d365fin](includes/d365fin_md.md)] peut se présenter dans différentes langues et vous pouvez modifier la langue utilisée pour l’affichage des textes et ce changement est immédiat une fois que le système vous a déconnecté et reconnecté automatiquement. Le paramètre ne s’applique qu’à vous et non aux autres utilisateurs de votre société.  
 
-Par exemple, si vous utilisez la version canadienne de [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez afficher l'interface utilisateur en anglais, en allemand, en français ou dans une autre langue, mais pour tous les autres aspects de l'application, il s'agit toujours de la version canadienne de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ce n'est pas la même chose que, disons, [!INCLUDE[d365fin](includes/d365fin_md.md)] au Royaume-Uni où la fonctionnalité a été adaptée aux exigences de ce marché.  
+Par exemple, si vous utilisez la version canadienne de [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez afficher l’interface utilisateur en anglais, en allemand, en français ou dans une autre langue, mais pour tous les autres aspects de l’application, il s’agit toujours de la version canadienne de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ce n’est pas la même chose que, disons, [!INCLUDE[d365fin](includes/d365fin_md.md)] au Royaume-Uni où la fonctionnalité a été adaptée aux exigences de ce marché.  
 
-Pour modifier la langue de l'interface utilisateur, accédez à la page **Mes paramètres**. Pour plus d'informations, voir [Modifier les paramètres de base](ui-change-basic-settings.md#language). 
-
-> [!NOTE]  
-> Le choix des langues sera réinitialisé à votre réglage sur votre profil Office 365 si votre administrateur synchronise les utilisateurs d'Office 365 à [!INCLUDE[d365fin](includes/d365fin_md.md)].
-
-La modification des textes stockés sous forme de données d'application n'appartient pas à la fonctionnalité multilingue. C'est une question de conception de l'application. Il s'agit par exemple de textes tels que le nom des articles du stock ou les commentaires concernant un client. En d'autres termes, ces types de texte ne sont pas traduits.  
+Pour modifier la langue de l’interface utilisateur, accédez à la page **Mes paramètres** . Pour plus d’informations, voir [Modifier les paramètres de base](ui-change-basic-settings.md#language). 
 
 > [!NOTE]  
-> [!INCLUDE[d365fin](includes/d365fin_md.md)] ne prend en charge qu'un jeu de caractères unique pour les données. Aussi, il se peut que certains caractères ne soient pas pris en charge dans votre environnement et vous pouvez rencontrer des problèmes de récupération des données saisies à l'aide d'un autre jeu de caractères. Par exemple, votre environnement peut ne prendre en charge que les caractères anglais et russes, et si vous entrez des données dans une autre langue, elles peuvent ne pas être stockées correctement. Vous devez contacter votre administrateur système pour connaître les langues prises en charge pour votre client [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+> Le choix des langues sera réinitialisé à votre réglage sur votre profil Microsoft 365 si votre administrateur synchronise les utilisateurs de Microsoft 365 à [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+La modification des textes stockés sous forme de données d’application n’appartient pas à la fonctionnalité multilingue. C’est une question de conception de l’application. Il s’agit par exemple de textes tels que le nom des articles du stock ou les commentaires concernant un client. En d’autres termes, ces types de texte ne sont pas traduits.  
+
+> [!NOTE]  
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] ne prend en charge qu’un jeu de caractères unique pour les données. Aussi, il se peut que certains caractères ne soient pas pris en charge dans votre environnement et vous pouvez rencontrer des problèmes de récupération des données saisies à l’aide d’un autre jeu de caractères. Par exemple, votre environnement peut ne prendre en charge que les caractères anglais et russes, et si vous entrez des données dans une autre langue, elles peuvent ne pas être stockées correctement. Vous devez contacter votre administrateur système pour connaître les langues prises en charge pour votre client [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="changing-the-region"></a>Changer de région
-La région diffère des exigences linguistiques et légales des marchés locaux. La région détermine la manière dont vos données s'affichent en termes de séparateur de virgule, aligné à gauche ou à droite, et certains autres paramètres. La région détermine également certains éléments du système dans le navigateur, par exemple l'action permettant de créer un élément dans une liste.  
+La région diffère des exigences linguistiques et légales des marchés locaux. La région détermine la manière dont vos données s’affichent en termes de séparateur de virgule, aligné à gauche ou à droite, et certains autres paramètres. La région détermine également certains éléments du système dans le navigateur, par exemple l’action permettant de créer un élément dans une liste.  
 
-Vous pouvez modifier la région dans l'onglet du navigateur que vous utilisez pour travailler dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Les modifications ne s'appliquent qu'à vous et non aux autres utilisateurs de votre société.  Notez que le choix de la région sera réinitialisé à votre réglage sur votre profil Office si votre administrateur synchronise les utilisateurs d'Office 365 à [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Vous pouvez modifier la région dans l’onglet du navigateur que vous utilisez pour travailler dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Les modifications ne s’appliquent qu’à vous et non aux autres utilisateurs de votre société.  Notez que le choix de la région sera réinitialisé à votre réglage sur votre profil Office si votre administrateur synchronise les utilisateurs de Microsoft 365 à [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 > [!IMPORTANT]  
->  Lorsque vous modifiez la région, une longue liste de langues et de régions s'affiche. Cependant, la langue n'est pas influencée par le choix de la région.  
+>  Lorsque vous modifiez la région, une longue liste de langues et de régions s’affiche. Cependant, la langue n’est pas influencée par le choix de la région.  
 
-Pour modifier la région, accédez à la page **Mes paramètres**. Pour plus d'informations, voir [Modifier les paramètres de base](ui-change-basic-settings.md).  
+Pour modifier la région, accédez à la page **Mes paramètres** . Pour plus d’informations, voir [Modifier les paramètres de base](ui-change-basic-settings.md).  
 
-## <a name="application-version"></a>Version de l'application
+## <a name="application-version"></a>Version de l’application
 
-Dans la page **Aide et support**, vous pouvez voir quelle version de [!INCLUDE[prodshort](includes/prodshort.md)] utilise votre entreprise. Si vous souhaitez baser une entreprise sur une version différente, votre administrateur peut créer un nouvel environnement de production. Pour plus d'informations, voir [Créer un nouvel environnement de production](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) dans le contenu pour les développeurs et les professionnels de l'informatique.  
+Dans la page **Aide et support** , vous pouvez voir quelle version de [!INCLUDE[prodshort](includes/prodshort.md)] utilise votre entreprise. Si vous souhaitez baser une entreprise sur une version différente, votre administrateur peut créer un nouvel environnement de production. Pour plus d’informations, voir [Créer un nouvel environnement de production](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) dans le contenu pour les développeurs et les professionnels de l’informatique.  
 
-## <a name="languages-of-the-d365fin-help"></a>Langues de l'aide de [!INCLUDE[d365fin](includes/d365fin_md.md)]
-Le contenu de l'aide pour la fonctionnalité de base de [!INCLUDE[d365fin](includes/d365fin_md.md)] est publié sur le site de Microsoft Docs et est disponible dans de nombreuses langues différentes. Si vous accédez aux documents au sein de [!INCLUDE[d365fin](includes/d365fin_md.md)], le contenu s'affichera dans votre langue. Si une page spécifique n'est pas encore disponible dans votre langue, elle s'affichera en anglais.
+## <a name="languages-of-the-d365fin-help"></a>Langues de l’aide de [!INCLUDE[d365fin](includes/d365fin_md.md)]
+Le contenu de l’aide pour la fonctionnalité de base de [!INCLUDE[d365fin](includes/d365fin_md.md)] est publié sur le site de Microsoft Docs et est disponible dans de nombreuses langues différentes. Si vous accédez aux documents au sein de [!INCLUDE[d365fin](includes/d365fin_md.md)], le contenu s’affichera dans votre langue. Si une page spécifique n’est pas encore disponible dans votre langue, elle s’affichera en anglais.
 
 ### <a name="how-do-i-change-the-language"></a>Comment puis-je modifier la langue ?
-C'est simple - accédez au bas de la page du navigateur et choisissez le symbole de globe dans le coin inférieur gauche.
+C’est simple - accédez au bas de la page du navigateur et choisissez le symbole de globe dans le coin inférieur gauche.
 
 > [!NOTE]  
-> La liste indique toutes les langues qui sont prises en charge par le site Microsoft Docs. [!INCLUDE[d365fin](includes/d365fin_md.md)] est disponible dans un nombre limité de pays/régions, mais le contenu de l'aide est disponible dans plusieurs langues. Toutefois, le contenu de l'aide n'est pas disponible dans toutes les langues prises en charge par le site Microsoft Docs.
+> La liste indique toutes les langues qui sont prises en charge par le site Microsoft Docs. [!INCLUDE[d365fin](includes/d365fin_md.md)] est disponible dans un nombre limité de pays/régions, mais le contenu de l’aide est disponible dans plusieurs langues. Toutefois, le contenu de l’aide n’est pas disponible dans toutes les langues prises en charge par le site Microsoft Docs.
 
 ## <a name="see-also"></a>Voir aussi
 
-[Ressources pour l'aide et l'assistance technique](product-help-and-support.md)  
+[Ressources pour l’aide et l’assistance technique](product-help-and-support.md)  
 [Modifier les paramètres de base](ui-change-basic-settings.md)  
 [Mise en route](product-get-started.md)  

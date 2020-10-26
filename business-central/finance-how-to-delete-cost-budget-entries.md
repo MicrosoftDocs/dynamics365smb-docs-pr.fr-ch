@@ -8,31 +8,31 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d26bba0cf0bd273d981e7bc83f06a7bd53216637
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 2ff0ede7bd5d90607a04b1037f5b6c6d092c1c33
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784197"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916158"
 ---
 # <a name="delete-cost-budget-entries"></a>Supprimer écritures budget des coûts
 Vous utilisez le traitement par lots **Supprimer écritures budget des coûts** pour annuler les écritures de budget des coûts à partir du registre du budget des coûts.  
 
-Pour empêcher tout écart dans les écritures du budget des coûts et les écritures du registre des coûts, vous ne pouvez pas supprimer une écriture unique ou un lot d'écritures dans la liste des écritures du registre.  
+Pour empêcher tout écart dans les écritures du budget des coûts et les écritures du registre des coûts, vous ne pouvez pas supprimer une écriture unique ou un lot d’écritures dans la liste des écritures du registre.  
 
 ### <a name="to-delete-a-cost-budget-entry"></a>Pour supprimer une écriture budget des coûts  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Supprimer écritures budget des coûts**, puis choisissez le lien associé.  
+1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Supprimer écritures budget des coûts** , puis choisissez le lien associé.  
 
-    Le champ **N° hist. transaction de destination** affiche le numéro de la dernière écriture du registre et n'est pas modifiable.  
+    Le champ **N° hist. transaction de destination** affiche le numéro de la dernière écriture du registre et n’est pas modifiable.  
 
-    Vous pouvez utiliser le champ **N° hist. transaction d'origine** pour sélectionner un numéro d'écriture du registre à partir duquel commencer la suppression.  
+    Vous pouvez utiliser le champ **N° hist. transaction d’origine** pour sélectionner un numéro d’écriture du registre à partir duquel commencer la suppression.  
 2.  Cliquez sur le bouton **OK** pour supprimer les écritures du budget des coûts sélectionnées.  
 
 > [!NOTE]  
->  Pour éviter une suppression accidentelle des écritures du budget des coûts, vous pouvez clôturer les écritures du registre en marquant les lignes comme **Clôturées** dans le champ **Clôturées** de la page **Registre du budget des coûts**.  
+>  Pour éviter une suppression accidentelle des écritures du budget des coûts, vous pouvez clôturer les écritures du registre en marquant les lignes comme **Clôturées** dans le champ **Clôturées** de la page **Registre du budget des coûts** .  
 
 ## <a name="see-also"></a>Voir aussi  
 [Comptabilité pour les coûts](finance-manage-cost-accounting.md)

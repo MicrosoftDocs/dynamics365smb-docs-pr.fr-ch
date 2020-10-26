@@ -1,6 +1,6 @@
 ---
 title: Détails de conception - Compta. coûts prévus | Microsoft Docs
-description: Les coûts prévus représentent l'estimation, par exemple, du coût d'un article acheté que vous enregistrez avant la réception de la facture de cet article.
+description: Les coûts prévus représentent l’estimation, par exemple, du coût d’un article acheté que vous enregistrez avant la réception de la facture de cet article.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,29 +8,29 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 176b0e999f10f7cc055ac40431dd3507ed2836f6
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d2bd63f38e434d15ba0592126a11c5f92f8611aa
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787911"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911145"
 ---
 # <a name="design-details-expected-cost-posting"></a>Détails de conception : validation du coût prévu
-Les coûts prévus représentent l'estimation, par exemple, du coût d'un article acheté que vous enregistrez avant la réception de la facture de cet article.  
+Les coûts prévus représentent l’estimation, par exemple, du coût d’un article acheté que vous enregistrez avant la réception de la facture de cet article.  
 
- Vous pouvez valider les coûts prévus dans le stock et dans la comptabilité. Lorsque vous validez une quantité qui est uniquement reçue ou expédiée mais pas facturée, une écriture valeur est créée avec le coût prévu. Ce coût prévu affecte la valeur du stock mais n'est pas porté au compte général, sauf si vous avez paramétré le programme à cette fin.  
+ Vous pouvez valider les coûts prévus dans le stock et dans la comptabilité. Lorsque vous validez une quantité qui est uniquement reçue ou expédiée mais pas facturée, une écriture valeur est créée avec le coût prévu. Ce coût prévu affecte la valeur du stock mais n’est pas porté au compte général, sauf si vous avez paramétré le programme à cette fin.  
 
 > [!NOTE]  
 >  Les coûts prévus sont gérés uniquement pour des transactions article. Les coûts prévus ne sont pas pour des types de transaction négligeables, tels que la capacité et les frais annexes.  
 
- Si seulement la partie de quantité d'une entrée de stock a été validée, la valeur du stock de la comptabilité ne change pas, sauf si vous avez sélectionné la case à cocher **Compta. coûts prévus** sur la page **Paramètres stock**. Dans ce cas, le coût prévu est validé dans les comptes d'attente au moment de la réception. Une fois que la réception a été entièrement facturée, les comptes d'attente sont ensuite équilibrés et le coût réel est validé dans le compte stock.  
+ Si seulement la partie de quantité d’une entrée de stock a été validée, la valeur du stock de la comptabilité ne change pas, sauf si vous avez sélectionné la case à cocher **Compta. coûts prévus** sur la page **Paramètres stock** . Dans ce cas, le coût prévu est validé dans les comptes d’attente au moment de la réception. Une fois que la réception a été entièrement facturée, les comptes d’attente sont ensuite équilibrés et le coût réel est validé dans le compte stock.  
 
- Pour prendre en charge le travail de rapprochement et de traçabilité, l'écriture valeur facturée montre que le montant du coût prévu validé pour équilibrer les comptes d'attente.  
+ Pour prendre en charge le travail de rapprochement et de traçabilité, l’écriture valeur facturée montre que le montant du coût prévu validé pour équilibrer les comptes d’attente.  
 
 ## <a name="example"></a>Exemple :  
- L'exemple suivant indique le coût prévu si la case à cocher **Compta. coûts automatique** et la case à cocher **Compta. coûts prévus** sont sélectionnées sur la page **Paramètres stock**.  
+ L’exemple suivant indique le coût prévu si la case à cocher **Compta. coûts automatique** et la case à cocher **Compta. coûts prévus** sont sélectionnées sur la page **Paramètres stock** .  
 
  Vous validez une commande achat comme reçue. Le coût prévu est 95,00 DS.  
 

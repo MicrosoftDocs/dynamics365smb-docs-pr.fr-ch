@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b041c0bf8581c31334ec9fd7de190ba6d8f53f1c
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 99df25e15422755b66ec5b8be7388c9677f7b374
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788186"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917491"
 ---
 # <a name="codeunit-12-changes-changes-in-general-journal-post-procedures"></a>Codeunit 12 modifications : modifications dans les procédures de validation de feuille comptabilité
 Les modifications suivantes ont été mises en œuvre dans cette version de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -72,7 +72,7 @@ Les modifications suivantes ont été mises en œuvre dans cette version de [!IN
 |CalcCurrencyUnrealizedGainLoss|CalcCurrencyUnrealizedGainLoss|Mis à jour|  
 |CalcCurrencyRealizedGainLoss|CalcCurrencyRealizedGainLoss|Mis à jour|  
 |CalcApplication|CalcApplication|Mis à jour|  
-|CalcRemainingPmtDisc|CalcRemainingPmtDisc|Déplacé dans Codeunit 426 Gestion d'écart de paiement|  
+|CalcRemainingPmtDisc|CalcRemainingPmtDisc|Déplacé dans Codeunit 426 Gestion d’écart de paiement|  
 |CalcAmtLCYAdjustment|CalcAmtLCYAdjustment|Ajouté|  
 |InitNewCVLedgEntry|InitFromGenJnlLine|Déplacé dans le tableau 383 Tampon écriture comptable CF détaillée|  
 |InitOldCVLedgEntry|CopyFromCVLedgEntryBuf|Déplacé dans le tableau 383 Tampon écriture comptable CF détaillée|  
@@ -132,13 +132,13 @@ Les modifications suivantes ont été mises en œuvre dans cette version de [!IN
 |ExchangeAmtLCYToFCY2|ExchangeAmtLCYToFCY2|Mis à jour|  
 |CalcAddCurrForUnapplication|CalcAddCurrForUnapplication|Mis à jour|  
 |CheckNonAddCurrCodeOccurred|CheckNonAddCurrCodeOccurred|Mis à jour|  
-|CheckCalcPmtDisc||Déplacé dans Codeunit 426 Gestion d'écart de paiement|  
-|CheckCalcPmtDiscCVCust||Déplacé dans Codeunit 426 Gestion d'écart de paiement|  
-|CheckCalcPmtDiscCust||Déplacé dans Codeunit 426 Gestion d'écart de paiement|  
-|CheckCalcPmtDiscGenJnlCust||Déplacé dans Codeunit 426 Gestion d'écart de paiement|  
-|CheckCalcPmtDiscCVVend||Déplacé dans Codeunit 426 Gestion d'écart de paiement|  
-|CheckCalcPmtDiscVend||Déplacé dans Codeunit 426 Gestion d'écart de paiement|  
-|CheckCalcPmtDiscGenJnlVend||Déplacé dans Codeunit 426 Gestion d'écart de paiement|  
+|CheckCalcPmtDisc||Déplacé dans Codeunit 426 Gestion d’écart de paiement|  
+|CheckCalcPmtDiscCVCust||Déplacé dans Codeunit 426 Gestion d’écart de paiement|  
+|CheckCalcPmtDiscCust||Déplacé dans Codeunit 426 Gestion d’écart de paiement|  
+|CheckCalcPmtDiscGenJnlCust||Déplacé dans Codeunit 426 Gestion d’écart de paiement|  
+|CheckCalcPmtDiscCVVend||Déplacé dans Codeunit 426 Gestion d’écart de paiement|  
+|CheckCalcPmtDiscVend||Déplacé dans Codeunit 426 Gestion d’écart de paiement|  
+|CheckCalcPmtDiscGenJnlVend||Déplacé dans Codeunit 426 Gestion d’écart de paiement|  
 |Reverse|Reverse|Déplacé dans Codeunit 17 Gen. Jnl.-Valeur en comptabilité|  
 |ReverseCustLedgEntry|ReverseCustLedgEntry|Déplacé dans Codeunit 17 Gen. Jnl.-Valeur en comptabilité|  
 |ReverseVendLedgEntry|ReverseVendLedgEntry|Déplacé dans Codeunit 17 Gen. Jnl.-Valeur en comptabilité|  

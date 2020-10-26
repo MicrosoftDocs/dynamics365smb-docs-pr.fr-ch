@@ -1,6 +1,6 @@
 ---
 title: Introduction à Business Central et Power BI| Microsoft Docs
-description: Il est facile d'obtenir des informations exploitables, de la veille économique et des KPI de vos applications Business Central pour Power BI.
+description: Il est facile d’obtenir des informations exploitables, de la veille économique et des KPI de vos applications Business Central pour Power BI.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.reviewer: edupont
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: a1e2e8ceee41c2c6ed517d000fc7c3a4a6aa274c
-ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
+ms.openlocfilehash: e339033e8529f59f548e8bf71fd683f9a2a17eba
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3697687"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917891"
 ---
 # <a name="prodshort-and-power-bi"></a>[!INCLUDE[prodshort](includes/prodshort.md)] et Power BI
 
@@ -29,12 +29,12 @@ Obtenir des informations sur vos données [!INCLUDE[prodshort](includes/prodshor
 
 Il existe différentes fonctionnalités pour utiliser [!INCLUDE[prodshort](includes/prodshort.md)] et Power BI. Vous pouvez faire certaines choses depuis Power BI, tandis que vous pouvez en faire d’autres depuis [!INCLUDE[prodshort](includes/prodshort.md)]. De plus, certaines fonctionnalités ne sont disponibles qu’avec [!INCLUDE[prodshort](includes/prodshort.md)] en ligne, pas sur site. Le tableau suivant vous donne une vue d’ensemble.
 
-|Fonctionnalité|Description|En ligne|Sur site|Plus d'informations|
+|Fonctionnalité|Description|En ligne|Sur site|Plus d’informations|
 |-------|-----------|--------------|-----------|----------------|
-|Afficher les données [!INCLUDE[prodshort](includes/prodshort.md)] dans Power BI|Vous pouvez consulter vos données depuis [!INCLUDE[prodshort](includes/prodshort.md)] dans les états dans Power BI. [!INCLUDE[prodshort](includes/prodshort.md)] en ligne comprend des états Power BI prédéfinis. Ou votre organisation a peut-être mis à votre disposition certains états personnalisés.|![coche](media/check.png)|![coche](media/check.png)|[Voir…](across-working-with-powerbi.md)|
-|Afficher les états Power BI dans le client [!INCLUDE[prodshort](includes/prodshort.md)].| Les états Power BI qui affichent les données [!INCLUDE[prodshort](includes/prodshort.md)] peuvent être intégrés directement dans les pages [!INCLUDE[prodshort](includes/prodshort.md)] des composants. Vous pouvez changer de partie pour afficher tout état mis à votre disposition. |![coche](media/check.png)|![coche](media/check.png)<sup>[*](#onprem)</sup>|[Voir…](across-working-with-business-central-in-powerbi.md).|
-|Créez des états et des tableaux de bord dans Power BI qui affichent les données [!INCLUDE[prodshort](includes/prodshort.md)].|Utilisez Power BI Desktop pour créer vos propres états et tableaux de bord. Vous pouvez publier les états vers votre propre service Power BI ou les partager avec tous les utilisateurs de votre organisation.|![coche](media/check.png)|![coche](media/check.png)|[Voir…](across-how-use-financials-data-source-powerbi.md)
-|Applications [!INCLUDE[prodshort](includes/prodshort.md)] dans Power BI| [!INCLUDE[prodshort](includes/prodshort.md)] publie trois applications pour Power BI sur Microsoft AppSource. Ces applications créent des états et des tableaux de bord détaillés dans votre service Power BI pour visualiser les données [!INCLUDE[prodshort](includes/prodshort.md)]. Les applications disponibles incluent : <ul><li>[!INCLUDE [prodlong](includes/prodlong.md)] - CRM </li><li>[!INCLUDE [prodlong](includes/prodlong.md)] - Finance </li><li>[!INCLUDE [prodlong](includes/prodlong.md)] - Sales </li></ul>  |![coche](media/check.png)||[Voir…](across-powerbi-business-central-apps.md)
+|Afficher les données [!INCLUDE[prodshort](includes/prodshort.md)] dans Power BI|Vous pouvez consulter vos données depuis [!INCLUDE[prodshort](includes/prodshort.md)] dans les états dans Power BI. [!INCLUDE[prodshort](includes/prodshort.md)] en ligne comprend des états Power BI prédéfinis. Ou votre organisation a peut-être mis à votre disposition certains états personnalisés.|![Fonctionne en ligne](media/check.png)|![Fonctionne en local](media/check.png)|[Voir…](across-working-with-powerbi.md)|
+|Afficher les états Power BI dans le client [!INCLUDE[prodshort](includes/prodshort.md)].| Les états Power BI qui affichent les données [!INCLUDE[prodshort](includes/prodshort.md)] peuvent être intégrés directement dans les pages [!INCLUDE[prodshort](includes/prodshort.md)] des composants. Vous pouvez changer de partie pour afficher tout état mis à votre disposition. |![fonctionne en ligne](media/check.png)|![Fonctionne en local](media/check.png)<sup>[*](#onprem)</sup>|[Voir…](across-working-with-business-central-in-powerbi.md).|
+|Créez des états et des tableaux de bord dans Power BI qui affichent les données [!INCLUDE[prodshort](includes/prodshort.md)].|Utilisez Power BI Desktop pour créer vos propres états et tableaux de bord. Vous pouvez publier les états vers votre propre service Power BI ou les partager avec tous les utilisateurs de votre organisation.|![Fonctionne en ligne](media/check.png)|![fonctionne en local](media/check.png)|[Voir…](across-how-use-financials-data-source-powerbi.md)
+|Applications [!INCLUDE[prodshort](includes/prodshort.md)] dans Power BI| [!INCLUDE[prodshort](includes/prodshort.md)] publie trois applications pour Power BI sur Microsoft AppSource. Ces applications créent des états et des tableaux de bord détaillés dans votre service Power BI pour visualiser les données [!INCLUDE[prodshort](includes/prodshort.md)]. Les applications disponibles incluent : <ul><li>[!INCLUDE [prodlong](includes/prodlong.md)] - CRM </li><li>[!INCLUDE [prodlong](includes/prodlong.md)] - Finance </li><li>[!INCLUDE [prodlong](includes/prodlong.md)] - Sales </li></ul>  |![Fonctionne en ligne](media/check.png)||[Voir…](across-powerbi-business-central-apps.md)
 
 <a name="onprem"><sup>*</sup></a>Cette fonctionnalité nécessite une application enregistrée pour Business Central dans Microsoft Azure. Pour plus d’informations, consultez [Enregistrer Business Central sur site dans Azure AD pour l’intégration avec d’autres services](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 
@@ -68,7 +68,7 @@ Il y a quelques tâches à effectuer avant de pouvoir commencer à utiliser Powe
 [Documentation Power BI](/power-bi/)  
 [Veille économique](bi.md)  
 [Mise en route](product-get-started.md)  
-[Importation des données métier à partir d'autres systèmes financiers](across-import-data-configuration-packages.md)  
+[Importation des données métier à partir d’autres systèmes financiers](across-import-data-configuration-packages.md)  
 [Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] comme source de données Power BI](across-how-use-financials-data-source-powerbi.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] comme source de données Power Apps](across-how-use-financials-data-source-powerapps.md)  

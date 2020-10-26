@@ -1,5 +1,5 @@
 ---
-title: Procédure de création d'ordres de fabrication à partir de commandes vente | Microsoft Docs
+title: Procédure de création d’ordres de fabrication à partir de commandes vente | Microsoft Docs
 description: Vous pouvez créer des ordres de fabrication à partir des commandes vente dans le département Ventes & marketing.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,26 +8,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dd4e78bac5390cfbcdb5496ad7e747e87cab593f
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: ac927f9ef676cbfa433265346f69c92552802fce
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779925"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919253"
 ---
 # <a name="create-production-orders-from-sales-orders"></a>Créer des ordres de fabrication à partir de commandes achat
 Vous pouvez créer des ordres de fabrication pour les articles produits directement à partir des commandes vente.  
 
-## <a name="to-create-a-production-order-from-a-sales-order"></a>Pour créer un ordre de fabrication à partir d'une commande achat  
+## <a name="to-create-a-production-order-from-a-sales-order"></a>Pour créer un ordre de fabrication à partir d’une commande achat  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes vente**, puis sélectionnez le lien associé.  
+1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes vente** , puis sélectionnez le lien associé.  
 2.  Sélectionnez la commande vente pour laquelle vous voulez créer un ordre de fabrication.  
-3.  Sélectionnez l'action **Planification**. Sur la page **Planification commande vente**, vous pouvez afficher la disponibilité de l'article de commande vente.  
-4.  Sélectionnez l'action **Créer O.F**.  
+3.  Sélectionnez l’action **Planification** . Sur la page **Planification commande vente** , vous pouvez afficher la disponibilité de l’article de commande vente.  
+4.  Sélectionnez l’action **Créer O.F** .  
 5.  Sélectionnez le statut et le type de commande.  
-6.  Cliquez sur le bouton **oui** pour créer l'ordre de fabrication.
+6.  Cliquez sur le bouton **oui** pour créer l’ordre de fabrication.
 
 Vous pouvez également choisir de créer un ordre de fabrication projet. Pour en savoir plus, voir [Planifier les projets de commandes](production-how-to-plan-project-orders.md).   
 
@@ -36,6 +36,6 @@ Vous pouvez également choisir de créer un ordre de fabrication projet. Pour en
 [Production](production-manage-manufacturing.md)    
 [STOCKS ET EN-COURS](inventory-manage-inventory.md)  
 [Achats](purchasing-manage-purchasing.md)  
-[Détails de conception : planification de l'approvisionnement](design-details-supply-planning.md)   
-[Pratiques de configuration recommandées : planification de l'approvisionnement](setup-best-practices-supply-planning.md)  
+[Détails de conception : planification de l’approvisionnement](design-details-supply-planning.md)   
+[Pratiques de configuration recommandées : planification de l’approvisionnement](setup-best-practices-supply-planning.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

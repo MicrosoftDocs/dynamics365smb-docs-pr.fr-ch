@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 07/21/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 867fddce799fb7e005a5a34a4c22975336375801
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: eedfa2a0c0f519f5ea22eb51a779f6f2a090d9bf
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780750"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914354"
 ---
 # <a name="edit-posted-documents"></a>Valider les documents validés
 
-Parfois, vous devez mettre à jour un document validé, car les informations pertinentes pour le document ont été modifiées. Sur un document de vente validé, il peut s'agir du numéro de suivi du colis du transporteur, par exemple. Sur un document d'achat validé, il peut s'agir d'un texte de référence de paiement.
+Parfois, vous devez mettre à jour un document validé, car les informations pertinentes pour le document ont été modifiées. Sur un document de vente validé, il peut s’agir du numéro de suivi du colis du transporteur, par exemple. Sur un document d’achat validé, il peut s’agir d’un texte de référence de paiement.
 
-Vous effectuez la modification sur une version modifiable du document d'origine, indiquée par «  **- Mettre à jour** » dans le titre de la page. La page contient un sous-ensemble des champs sur le document d'origine, dont certains sont des champs non modifiables affichés uniquement à titre d'information.
+Vous effectuez la modification sur une version modifiable du document d’origine, indiquée par «  **- Mettre à jour**  » dans le titre de la page. La page contient un sous-ensemble des champs sur le document d’origine, dont certains sont des champs non modifiables affichés uniquement à titre d’information.
 
 La fonctionnalité est disponible pour les documents suivants dans tous les marchés pris en charge :
 
@@ -41,12 +41,12 @@ Les documents supplémentaires suivants peuvent être modifiés dans les pays ou
 
 Ce qui suit explique comment modifier une expédition vente enregistrée Les étapes sont similaires pour les autres documents pris en charge.
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Expéditions vente enregistrées**, puis sélectionnez le lien associé.
-2. Sélectionnez le document que vous souhaitez modifier, puis sélectionnez l'action **Mettre à jour le document**. Sinon, ouvrez le document, puis choisissez l'action.
-3. Sur la page **Expédition vente enregistrée - Mettre à jour**, modifiez le champ **N° de suivi du colis** par exemple.
-4. Cliquez sur le bouton **OK**.
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Expéditions vente enregistrées** , puis sélectionnez le lien associé.
+2. Sélectionnez le document que vous souhaitez modifier, puis sélectionnez l’action **Mettre à jour le document** . Sinon, ouvrez le document, puis choisissez l’action.
+3. Sur la page **Expédition vente enregistrée - Mettre à jour** , modifiez le champ **N° de suivi du colis** par exemple.
+4. Cliquez sur le bouton **OK** .
 
-L'expédition vente enregistrée est mise à jour.
+L’expédition vente enregistrée est mise à jour.
 
 ## <a name="see-also"></a>Voir aussi
 
