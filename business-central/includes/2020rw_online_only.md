@@ -1,0 +1,1 @@
+> <span data-ttu-id="0ff6c-101">**S’APPLIQUE À :** Business Central Online (version 2020, vague de lancement 2 et ultérieures)</span><span class="sxs-lookup"><span data-stu-id="0ff6c-101">**APPLIES TO:** Business Central online (2020 release wave 2 and later)</span></span>

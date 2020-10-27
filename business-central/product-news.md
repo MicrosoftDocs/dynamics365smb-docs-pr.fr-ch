@@ -5,39 +5,38 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.search.keywords: news, release plan, roadmap, whats new
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 496c6bad5e309064ae2d6e7d15591578b1d46c6a
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 42b4591fda63bb21f9f7805f826e6c5c8337d210
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528778"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925073"
 ---
-# <a name="whats-new-in-dynamics-365-business-central"></a><span data-ttu-id="70920-103">Nouveautés dans Dynamics 365 Business Central</span><span class="sxs-lookup"><span data-stu-id="70920-103">What's New in Dynamics 365 Business Central</span></span>
+# <a name="new-and-planned-for-dynamics-365-business-central"></a><span data-ttu-id="fc48f-103">Fonctionnalités nouvelles et prévues pour Dynamics 365 Business Central</span><span class="sxs-lookup"><span data-stu-id="fc48f-103">New and Planned for Dynamics 365 Business Central</span></span>
 
 [!INCLUDE[release notes](includes/release-notes.md)]
 
-<span data-ttu-id="70920-104">Vous pouvez toujours consulter le plan de versions pour obtenir un aperçu des nouvelles fonctionnalités et des fonctionnalités à venir.</span><span class="sxs-lookup"><span data-stu-id="70920-104">You can always refer to the release plan for an overview of new and upcoming functionality.</span></span> <span data-ttu-id="70920-105">Ici, dans la documentation, vous pouvez trouver des rubriques pouvant vous aider à en apprendre davantage sur les fonctionnalités nouvelles et existantes de [!INCLUDE[prodlong](includes/prodlong.md)].</span><span class="sxs-lookup"><span data-stu-id="70920-105">Here in the documentation, you can then find topics that can help you learn about new and existing features in [!INCLUDE[prodlong](includes/prodlong.md)].</span></span>  
+<span data-ttu-id="fc48f-104">Vous pouvez toujours consulter le plan de versions pour obtenir un aperçu des nouvelles fonctionnalités et des fonctionnalités à venir.</span><span class="sxs-lookup"><span data-stu-id="fc48f-104">You can always refer to the release plan for an overview of new and upcoming functionality.</span></span> <span data-ttu-id="fc48f-105">Ici, dans la documentation, vous pouvez trouver des rubriques pouvant vous aider à en apprendre davantage sur les fonctionnalités nouvelles et existantes de [!INCLUDE[prodlong](includes/prodlong.md)].</span><span class="sxs-lookup"><span data-stu-id="fc48f-105">Here in the documentation, you can then find topics that can help you learn about new and existing features in [!INCLUDE[prodlong](includes/prodlong.md)].</span></span> 
 
-<span data-ttu-id="70920-106">Si ce n'est pas encore fait, inscrivez-vous à une [version d'évaluation](https://go.microsoft.com/fwlink/?linkid=847861). Nous vous présenterons ensuite les bases de ce que vous pouvez réaliser grâce à [!INCLUDE[prodshort](includes/prodshort.md)], avant de vous laisser faire vos premiers pas par vous-même.</span><span class="sxs-lookup"><span data-stu-id="70920-106">If you haven't already, then sign up for a [trial](https://go.microsoft.com/fwlink/?linkid=847861), get introduced to the basics of what you can do with [!INCLUDE[prodshort](includes/prodshort.md)], and then try things out on your own for a while.</span></span> <span data-ttu-id="70920-107">Lorsque vous êtes prêt, vous pouvez ouvrir une société vierge et effectuer vos propres configurations.</span><span class="sxs-lookup"><span data-stu-id="70920-107">When you are ready, you can open a blank company and set things up for yourself.</span></span> <span data-ttu-id="70920-108">Pour plus d'informations, voir [Préparation aux activités commerciales](ui-get-ready-business.md).</span><span class="sxs-lookup"><span data-stu-id="70920-108">For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md).</span></span>  
+<span data-ttu-id="fc48f-106">La liste suivante fournit des informations sur les dernières versions de [!INCLUDE [prodshort](includes/prodshort.md)].</span><span class="sxs-lookup"><span data-stu-id="fc48f-106">The following list provides information about the latest versions of [!INCLUDE [prodshort](includes/prodshort.md)].</span></span>  
 
-<span data-ttu-id="70920-109">Régulièrement, nous mettrons à jour [!INCLUDE[d365fin](includes/d365fin_md.md)] avec des fonctionnalités supplémentaires dans l'application de base et avec les nouvelles extensions.</span><span class="sxs-lookup"><span data-stu-id="70920-109">On a regular basis, we will update [!INCLUDE[d365fin](includes/d365fin_md.md)] with additional capabilities in the core application and with new extensions.</span></span> <span data-ttu-id="70920-110">Pour la liste actuelle des extensions Microsoft, voir [Personnalisation de Business Central à l'aide d'extensions](ui-extensions.md).</span><span class="sxs-lookup"><span data-stu-id="70920-110">For the current list of Microsoft extensions, see [Customizing Business Central Using Extensions](ui-extensions.md).</span></span>
+* [<span data-ttu-id="fc48f-107">Vague de lancement 2 de 2020</span><span class="sxs-lookup"><span data-stu-id="fc48f-107">2020 release wave 2</span></span>](/dynamics365-release-plan/2020wave2/smb/dynamics365-business-central/planned-features)  
+* [<span data-ttu-id="fc48f-108">Vague de lancement 1 de 2020</span><span class="sxs-lookup"><span data-stu-id="fc48f-108">2020 release wave 1</span></span>](/dynamics365-release-plan/2020wave1/dynamics365-business-central/planned-features)  
+* [<span data-ttu-id="fc48f-109">Vague de lancement 2 de 2019</span><span class="sxs-lookup"><span data-stu-id="fc48f-109">2019 release wave 2</span></span>](/dynamics365-release-plan/2019wave2/dynamics365-business-central/planned-features)  
 
-<span data-ttu-id="70920-111">Pour voir toutes les extensions proposées par les partenaires [!INCLUDE[d365fin](includes/d365fin_md.md)], voir [AppSource, Business Central](https://go.microsoft.com/fwlink/?linkid=2081646).</span><span class="sxs-lookup"><span data-stu-id="70920-111">To see all extensions offered by [!INCLUDE[d365fin](includes/d365fin_md.md)] partners, see [AppSource, Business Central](https://go.microsoft.com/fwlink/?linkid=2081646).</span></span>  
+<span data-ttu-id="fc48f-110">Vous pouvez également explorer le site [Fonctionnalités de Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/) et le site [Feuille de route de Dynamics 365 Business Central](https://dynamics.microsoft.com).</span><span class="sxs-lookup"><span data-stu-id="fc48f-110">You can also explore the [Dynamics 365 Business Central Capabilities](https://dynamics.microsoft.com/business-central/capabilities/) site, and the [Dynamics 365 Business Central Roadmap](https://dynamics.microsoft.com) site.</span></span>  
 
-## <a name="check-the-dynamics-365-blog"></a><span data-ttu-id="70920-112">Consultez le blog Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="70920-112">Check the Dynamics 365 Blog</span></span>
+## <a name="see-also"></a><span data-ttu-id="fc48f-111">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="fc48f-111">See Also</span></span>
 
-<span data-ttu-id="70920-113">Nous discutons des nouvelles fonctionnalités sur le [blog de Dynamics 365](https://cloudblogs.microsoft.com/dynamics365/), notamment leur date de disponibilité et les éventuelles considérations particulières.</span><span class="sxs-lookup"><span data-stu-id="70920-113">We talk about new capabilities on [the Dynamics 365 Blog](https://cloudblogs.microsoft.com/dynamics365/), including when they are made available, and if there are special considerations.</span></span>  
-
-<span data-ttu-id="70920-114">Pour les partenaires, nous publions des informations sur [Microsoft Dynamics 365 Business Central sur le blog Dynamics 365 pour les partenaires](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) et dans l'[Aide dédiée à l'équipe IT et aux développeurs pour [!INCLUDE[prodshort](includes/prodshort.md)] ](/dynamics365/business-central/dev-itpro/index).</span><span class="sxs-lookup"><span data-stu-id="70920-114">For the partner community, we publish information on [Microsoft Dynamics 365 Business Central on the Dynamics 365 Blog for partners](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) and in the [Developer and IT-pro Help for [!INCLUDE[prodshort](includes/prodshort.md)] ](/dynamics365/business-central/dev-itpro/index).</span></span>  
-
-## <a name="see-also"></a><span data-ttu-id="70920-115">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="70920-115">See Also</span></span>
-
-[<span data-ttu-id="70920-116">Mise en route</span><span class="sxs-lookup"><span data-stu-id="70920-116">Getting Started</span></span>](product-get-started.md)  
-<span data-ttu-id="70920-117">[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="70920-117">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
-[<span data-ttu-id="70920-118">Ressources pour l'aide et l'assistance technique</span><span class="sxs-lookup"><span data-stu-id="70920-118">Resources for Help and Support</span></span>](product-help-and-support.md)  
-[<span data-ttu-id="70920-119">Tarification de Business Central</span><span class="sxs-lookup"><span data-stu-id="70920-119">Business Central pricing</span></span>](https://dynamics.microsoft.com/business-central/overview/#pricing)  
-[<span data-ttu-id="70920-120">Communauté Dynamics 365 Business Central</span><span class="sxs-lookup"><span data-stu-id="70920-120">Dynamics 365 Business Central Community</span></span>](https://community.dynamics.com/business/)
+[<span data-ttu-id="fc48f-112">Visitez notre vidéothèque</span><span class="sxs-lookup"><span data-stu-id="fc48f-112">Visit Our Video Library</span></span>](across-videos.md)  
+[<span data-ttu-id="fc48f-113">Ressources pour l’Aide et le support</span><span class="sxs-lookup"><span data-stu-id="fc48f-113">Resources for Help and Support</span></span>](product-help-and-support.md)  
+[<span data-ttu-id="fc48f-114">Dynamics 365 Business Central sur Microsoft Learn</span><span class="sxs-lookup"><span data-stu-id="fc48f-114">Dynamics 365 Business Central on Microsoft Learn</span></span>](/learn/browse/?products=dynamics-business-central)  
+[<span data-ttu-id="fc48f-115">Fonctionnalités de Dynamics 365 Business Central</span><span class="sxs-lookup"><span data-stu-id="fc48f-115">Dynamics 365 Business Central Capabilities</span></span>](https://dynamics.microsoft.com/business-central/capabilities/)  
+[<span data-ttu-id="fc48f-116">Feuille de route de Dynamics 365 Business Central</span><span class="sxs-lookup"><span data-stu-id="fc48f-116">Dynamics 365 Business Central Roadmap</span></span>](https://dynamics.microsoft.com/roadmap/business-central/)  
+[<span data-ttu-id="fc48f-117">Blog Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="fc48f-117">Dynamics 365 Blog</span></span>](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)  
+[<span data-ttu-id="fc48f-118">Tarification de Business Central</span><span class="sxs-lookup"><span data-stu-id="fc48f-118">Business Central pricing</span></span>](https://dynamics.microsoft.com/business-central/overview/#pricing)  
+[<span data-ttu-id="fc48f-119">Communauté Dynamics 365 Business Central</span><span class="sxs-lookup"><span data-stu-id="fc48f-119">Dynamics 365 Business Central Community</span></span>](https://community.dynamics.com/business/)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
