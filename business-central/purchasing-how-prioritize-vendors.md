@@ -10,26 +10,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier, payment priority
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6dfa7237cde2a88c8d36baa2daa69f4cde97a4eb
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 177fb324e39a59abbfc1b50e6ceaa34d4ae06f56
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783114"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926912"
 ---
 # <a name="prioritize-vendors"></a>Octroyer une priorité aux fournisseurs
-[!INCLUDE[d365fin](includes/d365fin_md.md)] peut proposer différents paiements aux fournisseurs, par exemple les paiements arrivant à échéance ou les paiements donnant lieu à un escompte. Pour plus d'informations, reportez vous à [Proposer des paiements fournisseur](payables-how-suggest-vendor-payments.md).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] peut proposer différents paiements aux fournisseurs, par exemple les paiements arrivant à échéance ou les paiements donnant lieu à un escompte. Pour plus d’informations, reportez vous à [Proposer des paiements fournisseur](payables-how-suggest-vendor-payments.md).
 
-Tout d'abord, vous devez attribuer une priorité à vos fournisseurs en leur affectant des numéros.
+Tout d’abord, vous devez attribuer une priorité à vos fournisseurs en leur affectant des numéros.
 <br><br>
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PRGa?rel=0]
 
 ## <a name="to-prioritize-vendors"></a>Pour octroyer une priorité à des fournisseurs
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Fournisseurs**, puis sélectionnez le lien associé.
-2. Sélectionnez le fournisseur approprié, puis sélectionnez **Modifier**.
-3. Dans le champ **Priorité**, entrez un numéro.
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Fournisseurs** , puis sélectionnez le lien associé.
+2. Sélectionnez le fournisseur approprié, puis sélectionnez **Modifier** .
+3. Dans le champ **Priorité** , entrez un numéro.
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] donne le degré de priorité le plus élevé au chiffre le plus bas, excepté 0. Ainsi, si vous utilisez 1, 2 et 3, le chiffre 1 a le degré de priorité le plus élevé.
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6af01d93f378a7ea96d2ff8f693115804bdd167f
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 19b6cb69d33d76d4263ad75a666eba14deaeeae8
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788965"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925962"
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Regroupement de bons de livraison sur une seule facture
 Si vous souhaitez facturer plusieurs bons de livraison à la fois, vous pouvez utiliser la fonction de regroupement des bons de livraison.  
@@ -23,37 +23,37 @@ Si vous souhaitez facturer plusieurs bons de livraison à la fois, vous pouvez u
 Pour créer un regroupement de bons de livraison, plusieurs bons de livraison vente doivent avoir été validés pour le même client dans la même devise. Autrement dit, vous devez avoir créé au moins deux commandes vente et les avoir validées comme étant expédiées, mais pas facturées. 
 
 ## <a name="to-manually-combine-shipments-on-a-single-invoice"></a>Regrouper manuellement les expéditions sur une seule facture  
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Factures vente**, puis sélectionnez le lien associé.  
-2. Sélectionnez l'action **Nouveau**. Pour plus d'informations, reportez-vous à [Facturer des ventes](sales-how-invoice-sales.md).
-3. Dans le champ **N° donneur d'ordre** entrez le client facturé pour les articles expédiés.  
-4. Dans le raccourci **Lignes**, sélectionnez l'action **Extraire lignes expédition**.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Factures vente** , puis sélectionnez le lien associé.  
+2. Sélectionnez l’action **Nouveau** . Pour plus d’informations, reportez-vous à [Facturer des ventes](sales-how-invoice-sales.md).
+3. Dans le champ **N° donneur d’ordre** entrez le client facturé pour les articles expédiés.  
+4. Dans le raccourci **Lignes** , sélectionnez l’action **Extraire lignes expédition** .  
 5. Sélectionnez la ligne expédition que vous voulez inclure dans la facture :  
 
-    - Pour insérer toutes les lignes, sélectionnez-les toutes et sélectionnez le bouton **OK**.  
-    - Pour insérer des lignes spécifiques, sélectionnez-les et sélectionnez le bouton **OK**. Vous pouvez utiliser la touche Ctrl pour sélectionner plusieurs lignes qui ne sont pas séquentielles.  
+    - Pour insérer toutes les lignes, sélectionnez-les toutes et sélectionnez le bouton **OK** .  
+    - Pour insérer des lignes spécifiques, sélectionnez-les et sélectionnez le bouton **OK** . Vous pouvez utiliser la touche Ctrl pour sélectionner plusieurs lignes qui ne sont pas séquentielles.  
 
-    Si une ligne expédition incorrecte a été sélectionnée ou si vous voulez recommencer, supprimez simplement les lignes de la facture, puis exécutez de nouveau la fonction **Extraire lignes expédition**.  
-7. Pour valider la facture, sélectionnez l'action **Valider**.  
+    Si une ligne expédition incorrecte a été sélectionnée ou si vous voulez recommencer, supprimez simplement les lignes de la facture, puis exécutez de nouveau la fonction **Extraire lignes expédition** .  
+7. Pour valider la facture, sélectionnez l’action **Valider** .  
 
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Regrouper automatiquement les expéditions sur une seule facture  
 [!INCLUDE[d365fin](includes/d365fin_md.md)] ne sélectionne que les commandes vente où **Regrouper les B.L.** est coché. 
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Regrouper les B.L.**, puis sélectionnez le lien associé. La page de sélection du traitement par lots s'ouvre.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Regrouper les B.L.** , puis sélectionnez le lien associé. La page de sélection du traitement par lots s’ouvre.  
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Cochez la case **Validation des factures**.  
-4. Cliquez sur le bouton **OK**.  
+3. Cochez la case **Validation des factures** .  
+4. Cliquez sur le bouton **OK** .  
 
 > [!NOTE]  
->  Vous devez valider manuellement les avoirs si la case à cocher **Valider avoirs** n'a pas été activée pour le traitement par lots.  
+>  Vous devez valider manuellement les avoirs si la case à cocher **Valider avoirs** n’a pas été activée pour le traitement par lots.  
 
 ## <a name="to-remove-open-sales-orders-after-combined-shipment-posting"></a>Pour supprimer des commandes vente ouvertes après la validation des expéditions regroupées 
-Lorsque des bons de livraison sont regroupés sur une facture et validés, une Facture vente enregistrée est créée pour les lignes facturées. Le champ **Quantité facturée** de la commande ouverte vente ou de la commande vente d'origine est mis à jour sur la base de la quantité facturée.  
+Lorsque des bons de livraison sont regroupés sur une facture et validés, une Facture vente enregistrée est créée pour les lignes facturées. Le champ **Quantité facturée** de la commande ouverte vente ou de la commande vente d’origine est mis à jour sur la base de la quantité facturée.  
 
 Lorsque vous facturez des livraisons de cette manière, les commandes à partir desquelles les livraisons ont été validées continuent à exister, même si elles ont été entièrement validées et facturées.   
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Supprimer cdes vente facturées**, puis sélectionnez le lien.  
-2. Dans le champ de filtre **N°**, les commandes vente à supprimer.  
-3. Cliquez sur le bouton **OK**.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Supprimer cdes vente facturées** , puis sélectionnez le lien.  
+2. Dans le champ de filtre **N°** , les commandes vente à supprimer.  
+3. Cliquez sur le bouton **OK** .  
 
 Il est également possible de supprimer chacune des commandes vente manuellement.  
 

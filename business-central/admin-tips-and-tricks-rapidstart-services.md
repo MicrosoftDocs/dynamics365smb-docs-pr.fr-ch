@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 08/18/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e1c3dfe37e6288934d05c4e2d9294cf87da49537
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 9e9506697eacfb4bd411266078e4245e59a11353
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786136"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922432"
 ---
 # <a name="tips-and-tricks-rapidstart-services"></a>Conseils : RapidStart Services
 
@@ -23,7 +23,7 @@ Lorsque vous configurez des sociétés avec RapidStart Services, il est recomman
 
 ## <a name="take-advantage-of-configuration-templates"></a>Optimisation des modèles de société
 
-Les modèles de configuration peuvent vous aider à rationaliser votre processus d’implémentation. Ces modèles vous permettent d'inclure des clients similaires dans des segments, puis de développer un protocole d'implémentation qui traite tous les clients d'un segment de la même façon. Vous pouvez ainsi appliquer un niveau de préconfiguration à chaque segment et procéder rapidement à une implémentation.  
+Les modèles de configuration peuvent vous aider à rationaliser votre processus d’implémentation. Ces modèles vous permettent d’inclure des clients similaires dans des segments, puis de développer un protocole d’implémentation qui traite tous les clients d’un segment de la même façon. Vous pouvez ainsi appliquer un niveau de préconfiguration à chaque segment et procéder rapidement à une implémentation.  
 
 ## <a name="configuration-questionnaires"></a>Questionnaires de configuration
 
@@ -31,11 +31,11 @@ Pour faciliter le remplissage d’un questionnaire de configuration, envisagez d
 
 ## <a name="batch-creation-of-journal-lines"></a>Création de lignes feuille par lots
 
-Il est recommandé d'utiliser les outils de migration de données fournis pour migrer des écritures feuille. Sinon, si vous utilisez le traitement par lots pour créer des lignes feuille, celui-ci a une portée limitée et ne génère que des champs par défaut dans une feuille. Le reste de la feuille doit ensuite être renseigné manuellement.  
+Il est recommandé d’utiliser les outils de migration de données fournis pour migrer des écritures feuille. Sinon, si vous utilisez le traitement par lots pour créer des lignes feuille, celui-ci a une portée limitée et ne génère que des champs par défaut dans une feuille. Le reste de la feuille doit ensuite être renseigné manuellement.  
 
 ## <a name="migrating-transactions"></a>Migration des transactions
 
-Il est recommandé de migrer des soldes ouverts dans l'ordre suivant. <!--Be aware that you cannot insert ledger entries directly. Instead you must use journals to post the journal lines-->
+Il est recommandé de migrer des soldes ouverts dans l’ordre suivant. <!--Be aware that you cannot insert ledger entries directly. Instead you must use journals to post the journal lines-->
 
 1. Migrez les soldes ouverts de la comptabilité sans utiliser la comptabilité auxiliaire. Utilisez des comptes de compensation propres aux soldes ouverts, avec une configuration pour chaque comptabilité auxiliaire. Configurez les comptes de compensation de manière à activer les imputations directes.  
 2. Migration des écritures comptables client ouvertes.  <!--work on these-->
@@ -44,9 +44,9 @@ Il est recommandé de migrer des soldes ouverts dans l'ordre suivant. <!--Be awa
 
 ## <a name="make-each-package-manageable"></a>Rendre chaque paquet gérable
 
-Lorsque vous utilisez des packages de configuration pour migrer des données, séparez les données en packages séparés pour une portabilité plus facile. Par exemple, si vous souhaitez migrer 20 ans d'écritures comptables, l'importation peut prendre plusieurs heures et jours. Au lieu de cela, divisez les données afin que chaque package devienne plus gérable. Actuellement, il n'y a pas de règles fermes pour rendre un package performant, mais si vous rencontrez des problèmes lors de l'importation ou de l'exportation d'un package, essayez de le réduire et voyez si cela aide.  
+Lorsque vous utilisez des packages de configuration pour migrer des données, séparez les données en packages séparés pour une portabilité plus facile. Par exemple, si vous souhaitez migrer 20 ans d’écritures comptables, l’importation peut prendre plusieurs heures et jours. Au lieu de cela, divisez les données afin que chaque package devienne plus gérable. Actuellement, il n’y a pas de règles fermes pour rendre un package performant, mais si vous rencontrez des problèmes lors de l’importation ou de l’exportation d’un package, essayez de le réduire et voyez si cela aide.  
 
 ## <a name="see-also"></a>Voir aussi
 
-[Configuration d'une société avec RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
+[Configuration d’une société avec RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)  

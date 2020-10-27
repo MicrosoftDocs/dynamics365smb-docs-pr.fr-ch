@@ -1,30 +1,30 @@
 ---
-title: Catalogue d'apprentissage Partenaire prévente
+title: Catalogue d’apprentissage Partenaire prévente
 description: Trouvez toutes les formations disponibles pour Business Central.
 author: loreleishannonmsft
-ms.date: 08/10/2020
+ms.date: 10/01/2020
 ms.topic: article
 ms.author: margoc
-ms.openlocfilehash: 59653a67bd300a8359a82648e3bac6b919d2b233
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 740a40ba53d85f13d694a80ad3fc5e63edfe9587
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779191"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926687"
 ---
-# <a name="partner-pre-sales-learning-catalog"></a>Catalogue d'apprentissage Partenaire prévente
+# <a name="partner-pre-sales-learning-catalog"></a>Catalogue d’apprentissage Partenaire prévente
 
 Êtes-vous responsable de la démonstration des fonctionnalités clés aux clients ? 
 
-Le catalogue suivant est organisé en partant des connaissances de base jusqu'aux spécialisées, et des plus élémentaires aux plus avancées. Si le contenu existe en plusieurs formats, nous vous le ferons savoir afin que vous puissiez choisir le format de formation qui répond le mieux à vos besoins. 
+Le catalogue suivant est organisé en partant des connaissances de base jusqu’aux spécialisées, et des plus élémentaires aux plus avancées. Si le contenu existe en plusieurs formats, nous vous le ferons savoir afin que vous puissiez choisir le format de formation qui répond le mieux à vos besoins. 
 
 ## <a name="get-started"></a>Démarrer<a name="get-started"></a>
 
 | Contenu                                                                                                                              | Description                                                                                                                                                                                                                                                                                      | Format                                | Longueur             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|
-| [Mise en route avec Microsoft Dynamics 365 Business Central](https://docs.microsoft.com/learn/paths/get-started-dynamics-365-business-central/)                          | Vous êtes intéressé par Business Central ? Si oui, ce parcours d’apprentissage est une bonne entrée en matière. Il explique comment configurer une version d'évaluation, fournit des informations de base sur ce qui est disponible et indique quelques options de personnalisation à adopter pour personnaliser Business Central selon vos besoins. | Parcours d'apprentissage en ligne gratuit et personnalisé | 3 heures 4 minutes  |
-| [Utilisation de l'interface utilisateur de Microsoft Dynamics 365 Business Central](https://docs.microsoft.com/learn/paths/work-with-user-interface-dynamics-365-business-central/) | Voulez-vous en savoir plus sur l'interface utilisateur de Business Central ? Ce parcours d'apprentissage vous montre l'interface utilisateur et comment la personnaliser. Il aborde également d'autres interfaces telles que celle sur smartphone. | Parcours d'apprentissage en ligne gratuit et personnalisé | 2 heures 27 minutes |
-| [Exploiter les données comme un pro dans Business Central](https://docs.microsoft.com/learn/paths/work-pro-data-dynamics-365-business-central) | Vous venez juste de démarrer avec Business Central ? Ce parcours d'apprentissage vous aidera à vous préparer aux types de données dans Business Central et à trouver les informations dont vous avez besoin dans l'application. | Parcours d'apprentissage en ligne gratuit et personnalisé | 2 heures 27 minutes |
+| [Mise en route avec Microsoft Dynamics 365 Business Central](https://docs.microsoft.com/learn/paths/get-started-dynamics-365-business-central/)                          | Vous êtes intéressé par Business Central ? Si oui, ce parcours d’apprentissage est une bonne entrée en matière. Il explique comment configurer une version d’évaluation, fournit des informations de base sur ce qui est disponible et indique quelques options de personnalisation à adopter pour personnaliser Business Central selon vos besoins. | Parcours d’apprentissage en ligne gratuit et personnalisé | 3 heures 4 minutes  |
+| [Utilisation de l’interface utilisateur de Microsoft Dynamics 365 Business Central](https://docs.microsoft.com/learn/paths/work-with-user-interface-dynamics-365-business-central/) | Voulez-vous en savoir plus sur l’interface utilisateur de Business Central ? Ce parcours d’apprentissage vous montre l’interface utilisateur et comment la personnaliser. Il aborde également d’autres interfaces telles que celle sur smartphone. | Parcours d’apprentissage en ligne gratuit et personnalisé | 2 heures 27 minutes |
+| [Exploiter les données comme un pro dans Business Central](https://docs.microsoft.com/learn/paths/work-pro-data-dynamics-365-business-central) | Vous venez juste de démarrer avec Business Central ? Ce parcours d’apprentissage vous aidera à vous préparer aux types de données dans Business Central et à trouver les informations dont vous avez besoin dans l’application. | Parcours d’apprentissage en ligne gratuit et personnalisé | 2 heures 27 minutes |
 | [Playlist YouTube Business Central](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4)                                                                | Page de destination YouTube pour les vidéos Dynamics 365 Business Central | Vidéos YouTube |                    |
 | [Explorer les fonctionnalités de Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/)                                                    | Explorer les fonctionnalités de Dynamics 365 Business Central                                                                                                                                                                                                                                               | Site Web                               |                    |
 
@@ -40,13 +40,13 @@ Le catalogue suivant est organisé en partant des connaissances de base jusqu'au
 | Contenu                                                                                                                                | Description                                                                                                                                                                                                                                                                                      | Format                                | Longueur                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|
 | [Explorer les fonctionnalités de Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/) | Explorer les fonctionnalités de Dynamics 365 Business Central | Site Web |                     |
-| [Dynamics 365 Business Central](https://docs.microsoft.com/learn/modules/dynamics-365-business-central/) | Ce module présente les fonctionnalités de l’application, ses avantages et des exemples de Dynamics 365 Business Central en action. | Parcours d'apprentissage en ligne gratuit et personnalisé | 24 minutes          |
+| [Dynamics 365 Business Central](https://docs.microsoft.com/learn/modules/dynamics-365-business-central/) | Ce module présente les fonctionnalités de l’application, ses avantages et des exemples de Dynamics 365 Business Central en action. | Parcours d’apprentissage en ligne gratuit et personnalisé | 24 minutes          |
 
 ## <a name="whats-new"></a>Nouveautés<a name="whatsnew"></a>
 
 | Contenu                                                                                                                                | Description                                 | Format                                | Longueur                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|
-| [Dynamics 365 : plan de la vaguede publication 2 de 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/) | Le plan de publication de Dynamics 365 (anciennement nommé notes de publication) pour la vague de publication 2 de 2019 décrit toutes les nouvelles fonctionnalités publiées d'octobre 2019 à mars 2020. | Site Web et livre blanc téléchargeable  |                       |
+| [Dynamics 365 : plan de la vaguede publication 2 de 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/) | Le plan de publication de Dynamics 365 (anciennement nommé notes de publication) pour la vague de publication 2 de 2019 décrit toutes les nouvelles fonctionnalités publiées d’octobre 2019 à mars 2020. | Site Web et livre blanc téléchargeable  |                       |
 
 ## <a name="demo"></a>Démo<a name="demo"></a>
 
@@ -60,11 +60,11 @@ Le catalogue suivant est organisé en partant des connaissances de base jusqu'au
 | [Démo : Le propriétaire - Été 2019](https://mbspartner.microsoft.com/secure/coursematerials/D365/Standalone/Dynamics_365_Business_Central_-_PARTNER_SALES_PLAYBOOK_Fall_2018_-_w_CLICK_ASSISTANCE.pptx) | Craig vous montre le fonctionnement et le comportement du rôle du propriétaire dans Business Central. | Vidéo YouTube | 10 minutes 32 secondes |
 | [Démo : Le responsable marketing - Été 2019](https://youtu.be/iEtUbitWz4o) | Craig vous montre le fonctionnement et le comportement du rôle du responsable marketing dans Business Central. | Vidéo YouTube | 7 minutes 40 secondes |
 | [Démo : Le comptable externe - Été 2019](https://youtu.be/qegEAAEiQ0M) | Craig vous montre le fonctionnement et le comportement du rôle du comptable externe dans Business Central. | Vidéo YouTube | 2 minutes 46 secondes |
-| [Démo : L'aide comptable - Été 2019](https://youtu.be/aOE3ZwP1ieE) | Craig vous montre le fonctionnement et le comportement du rôle de l'aide-comptable dans Business Central. | Vidéo YouTube | 7 minutes 42 secondes |
+| [Démo : L’aide comptable - Été 2019](https://youtu.be/aOE3ZwP1ieE) | Craig vous montre le fonctionnement et le comportement du rôle de l’aide-comptable dans Business Central. | Vidéo YouTube | 7 minutes 42 secondes |
 | [Démo : Le comptable - Été 2019](https://youtu.be/EGY-DtMcfK8) | Craig vous montre le fonctionnement et le comportement du rôle du comptable dans Business Central. | Vidéo YouTube | 10 minutes 17 secondes |
 | [Démo : Rapprochement bancaire - Été 2019](https://youtu.be/BKtiLmgiuyA) | Rejoignez Craig qui vous montre comment rapprocher des comptes bancaires. | Vidéo YouTube | 4 minutes 15 secondes |
-| [Démo : Devis jusqu'à encaissement via Sales et Business Central - Été 2019](https://youtu.be/WsL9OOkVG_Y)  |Rejoignez Craig qui vous montre comment le processus Devis jusqu'à encaissement fonctionne via Sales et Business Central. | Vidéo YouTube |5 minutes 59 secondes |
-| [Démo : Devis jusqu'à encaissement via Outlook - Été 2019](https://youtu.be/U6y6Pneriu8) |Rejoignez Craig qui vous montre comment le processus Devis jusqu'à encaissement fonctionne entièrement depuis Microsoft Outlook.| YouTube | vidéo|    6 minutes 28 secondes |
+| [Démo : Devis jusqu’à encaissement via Sales et Business Central - Été 2019](https://youtu.be/WsL9OOkVG_Y)  |Rejoignez Craig qui vous montre comment le processus Devis jusqu’à encaissement fonctionne via Sales et Business Central. | Vidéo YouTube |5 minutes 59 secondes |
+| [Démo : Devis jusqu’à encaissement via Outlook - Été 2019](https://youtu.be/U6y6Pneriu8) |Rejoignez Craig qui vous montre comment le processus Devis jusqu’à encaissement fonctionne entièrement depuis Microsoft Outlook.| YouTube | vidéo|    6 minutes 28 secondes |
 | [Démo : Produire un ordre de production - Été 2019](https://youtu.be/ML_Zx_lqAHQ) | Rejoignez Craig qui vous montre comment utiliser les ordres de fabrication dans Business Central. | Vidéo YouTube | 6 minutes 24 secondes |
 | [Démo : Approvisionnement à paiement - Été 2019](https://youtu.be/KOKW-EeEe4w) | Rejoignez Craig qui vous montre comment le processus Approvisionnement à paiement fonctionne dans Business Central. | Vidéo YouTube | 5 minutes 26 secondes |
 | [Démo : Commande à encaissement - Été 2019](https://youtu.be/K1SgJnXAyQU) |Rejoignez Craig qui vous montre un processus commercial très courant appelé « Commande à encaissement ».  |Vidéo YouTube  |4 minutes 44 secondes |
@@ -72,9 +72,9 @@ Le catalogue suivant est organisé en partant des connaissances de base jusqu'au
 | [Démo : Gérer votre inventaire - Été 2019](https://youtu.be/spc_EPIf9fU) | Craig vous explique comment gérer votre inventaire. | Vidéo YouTube | 6 minutes 23 secondes |
 | [Démo : Fabrication sur stock - Été 2019](https://youtu.be/C_WHURQ98-k)|    Rejoignez Craig qui vous montre comment effectuer une fabrication sur stock avec Business Central.  |Vidéo YouTube| 4 minutes 42 secondes |
 | [Démo : Transactions intersociétés - Été 2019](https://youtu.be/MOaToa2AXyg) | Rejoignez Craig qui vous montre comment faire des transactions entre entreprises. | Vidéo YouTube | 4 minutes 09 secondes |
-| [Démo : Saisir une commande client via l'appareil mobile - Été 2019](https://youtu.be/c4Lhs-q0hbw) | Rejoignez Craig qui vous montre comment saisir une commande client via un appareil mobile. | Vidéo YouTube | 3 minutes |
+| [Démo : Saisir une commande client via l’appareil mobile - Été 2019](https://youtu.be/c4Lhs-q0hbw) | Rejoignez Craig qui vous montre comment saisir une commande client via un appareil mobile. | Vidéo YouTube | 3 minutes |
 | [Démo : Commandes avec livraison directe - Été 2019](https://youtu.be/Jmv2gn1qzoQ)    |Rejoignez Craig qui vous montre le processus de commande de livraison directe dans Business Central.  |Vidéo YouTube  |4 minutes 14 secondes |
-| [Démo : Processus d'approbation client - Été 2019](https://youtu.be/_Oyj6DBAuPI) | Rejoignez Craig qui montre un processus métier de base d'intégration d'un nouveau client. | Vidéo YouTube | 3 minutes 24 secondes |
-| [Démo : Consolidation d'entreprises - Été 2019](https://youtu.be/A4SExgt7wV4) | Rejoignez Craig qui vous montre comment consolider les sociétés avec Business Central. | Vidéo YouTube | 2 minutes 15 secondes |
-| [Démo : Automatiser les comptes fournisseurs - Été 2019](https://youtu.be/RB3_7UTpEjo) | Rejoignez Craig qui vous montre une façon d'automatiser le processus des comptes fournisseurs à l'aide de Business Central. | Vidéo YouTube | 3 minutes 51 secondes |
-| [Démo : Configuration d'une nouvelle société](https://youtu.be/ZHg4UXTOEp8) | Craig vous montre comment créer une nouvelle entreprise en utilisant Business Central. | Vidéo YouTube | 4 minutes 48 secondes |
+| [Démo : Processus d’approbation client - Été 2019](https://youtu.be/_Oyj6DBAuPI) | Rejoignez Craig qui montre un processus métier de base d’intégration d’un nouveau client. | Vidéo YouTube | 3 minutes 24 secondes |
+| [Démo : Consolidation d’entreprises - Été 2019](https://youtu.be/A4SExgt7wV4) | Rejoignez Craig qui vous montre comment consolider les sociétés avec Business Central. | Vidéo YouTube | 2 minutes 15 secondes |
+| [Démo : Automatiser les comptes fournisseurs - Été 2019](https://youtu.be/RB3_7UTpEjo) | Rejoignez Craig qui vous montre une façon d’automatiser le processus des comptes fournisseurs à l’aide de Business Central. | Vidéo YouTube | 3 minutes 51 secondes |
+| [Démo : Configuration d’une nouvelle société](https://youtu.be/ZHg4UXTOEp8) | Craig vous montre comment créer une nouvelle entreprise en utilisant Business Central. | Vidéo YouTube | 4 minutes 48 secondes |

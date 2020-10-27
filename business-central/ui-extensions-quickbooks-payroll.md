@@ -1,6 +1,6 @@
 ---
-title: Utilisation de l'extension Importer le fichier de paie de QuickBooks | Microsoft Docs
-description: Cette rubrique décrit comment utiliser l'extension pour importer des transactions de salaire et de paie à partir de QuickBooks.
+title: Utilisation de l’extension Importer le fichier de paie de QuickBooks | Microsoft Docs
+description: Cette rubrique décrit comment utiliser l’extension pour importer des transactions de salaire et de paie à partir de QuickBooks.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -10,24 +10,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, salary, wage
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 34fdb4fd63609e8a65f9bcc11a479a18ed76280f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: a63e2139ee4a3ac42e30724d8b7015cc0d968cd9
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189714"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923485"
 ---
 # <a name="the-quickbooks-payroll-file-import-extension"></a>Extension Importer le fichier de paie de QuickBooks
-Utilisez l'extension d'importation de fichier de paie de QuickBooks pour importer des transactions paie de QuickBooks vers des comptes de comptabilité générale dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Par exemple, cela est utile lorsque vous passez QuickBooks vers [!INCLUDE[d365fin](includes/d365fin_md.md)], ou si vous externalisez votre paie mais que vous souhaitez également en effectuer le suivi dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Utilisez l’extension d’importation de fichier de paie de QuickBooks pour importer des transactions paie de QuickBooks vers des comptes de comptabilité générale dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Par exemple, cela est utile lorsque vous passez QuickBooks vers [!INCLUDE[d365fin](includes/d365fin_md.md)], ou si vous externalisez votre paie mais que vous souhaitez également en effectuer le suivi dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## <a name="steps-to-import-payroll-data"></a>Procédures pour importer des données de paie
-La première étape consiste pour vous, ou peut-être votre comptable, à utiliser les fonctionnalités d'exportation dans QuickBooks pour exporter les données de la paie dans un fichier .IIF. La deuxième étape permet d'ouvrir la page **Feuilles comptabilité** dans [!INCLUDE[d365fin](includes/d365fin_md.md)] et d'utiliser l'action **Importer les transactions de paie** pour importer le fichier. Au cours du processus d'importation, vous mappez les comptes généraux de QuickBooks aux comptes correspondants dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. L'étape finale consiste à valider les transactions de paie dans [!INCLUDE[d365fin](includes/d365fin_md.md)] en fonction du mappage de compte. 
+La première étape consiste pour vous, ou peut-être votre comptable, à utiliser les fonctionnalités d’exportation dans QuickBooks pour exporter les données de la paie dans un fichier .IIF. La deuxième étape permet d’ouvrir la page **Feuilles comptabilité** dans [!INCLUDE[d365fin](includes/d365fin_md.md)] et d’utiliser l’action **Importer les transactions de paie** pour importer le fichier. Au cours du processus d’importation, vous mappez les comptes généraux de QuickBooks aux comptes correspondants dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. L’étape finale consiste à valider les transactions de paie dans [!INCLUDE[d365fin](includes/d365fin_md.md)] en fonction du mappage de compte. 
 
-Pour plus d'informations, voir [Importer les transactions de paie](finance-how-import-payroll-transactions.md).
+Pour plus d’informations, voir [Importer les transactions de paie](finance-how-import-payroll-transactions.md).
 
 ## <a name="see-also"></a>Voir aussi
-[Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions ](ui-extensions.md)    
+[Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l’aide des extensions ](ui-extensions.md)    
 [Finances](finance.md)    
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

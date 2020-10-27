@@ -1,5 +1,5 @@
 ---
-title: Utiliser des schémas XML pour préparer des définitions d'échange de données
+title: Utiliser des schémas XML pour préparer des définitions d’échange de données
 description: Utilisez des schémas XML pour configurer l’infrastructure d’échange de documents.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 09/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e244afdb7690ad10eeb99f0c8004cb171469744b
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d2e600f3b2da20540e224cb1405a50adc4a31f25
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781975"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924968"
 ---
 # <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Utiliser des schémas XML pour préparer des définitions d’échange de données
 
-Pour activer l'importation/exportation des données dans des fichiers XML à travers l'infrastructure d'échange de données de [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez utiliser des schémas XML pour définir les éléments de données à échanger avec [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vous effectuez ce travail sur la page **Visionneuse de schéma XML** en chargeant le fichier de schéma XML, en sélectionnant les éléments de données appropriés, puis en initialisant une définition d’échange de données.  
+Pour activer l’importation/exportation des données dans des fichiers XML à travers l’infrastructure d’échange de données de [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez utiliser des schémas XML pour définir les éléments de données à échanger avec [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vous effectuez ce travail sur la page **Visionneuse de schéma XML** en chargeant le fichier de schéma XML, en sélectionnant les éléments de données appropriés, puis en initialisant une définition d’échange de données.  
 
- Lorsque vous avez défini quels éléments de données inclure selon le schéma XML, vous pouvez utiliser l’action **Générer définition d’échange de données** pour initialiser une définition d’échange de données basée sur les éléments de données sélectionnés, que vous complétez dans l’infrastructure d’échange de données. Cela crée un enregistrement sur la page **Définitions échange comptabilité** où vous continuez en définissant quels éléments de la liste des fichiers correspondent à quels champs dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, voir [Configurer les définitions d'échange de données](across-how-to-set-up-data-exchange-definitions.md).  
+ Lorsque vous avez défini quels éléments de données inclure selon le schéma XML, vous pouvez utiliser l’action **Générer définition d’échange de données** pour initialiser une définition d’échange de données basée sur les éléments de données sélectionnés, que vous complétez dans l’infrastructure d’échange de données. Cela crée un enregistrement sur la page **Définitions échange comptabilité** où vous continuez en définissant quels éléments de la liste des fichiers correspondent à quels champs dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d’informations, voir [Configurer les définitions d’échange de données](across-how-to-set-up-data-exchange-definitions.md).  
 
  Cette rubrique contient les procédures suivantes :  
 
@@ -29,15 +29,15 @@ Pour activer l'importation/exportation des données dans des fichiers XML à tr
 
 - Sélectionner ou supprimer des nœuds dans un schéma XML  
 
-- Générer une définition d'échange de données basée sur un schéma XML  
+- Générer une définition d’échange de données basée sur un schéma XML  
 
 ## <a name="to-load-an-xml-schema-file"></a>Charger un fichier de schéma XML
 
-1. Assurez-vous que le fichier de schéma XML approprié est disponible. L'extension du fichier est .xsd.  
+1. Assurez-vous que le fichier de schéma XML approprié est disponible. L’extension du fichier est .xsd.  
 
-2. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Schémas XML**, puis sélectionnez le lien associé.  
+2. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Schémas XML** , puis sélectionnez le lien associé.  
 
-3. Sélectionnez l'action **Nouveau**.  
+3. Sélectionnez l’action **Nouveau** .  
 
 4. Renseignez les champs comme indiqué dans le tableau suivant.  
 
@@ -48,72 +48,72 @@ Pour activer l'importation/exportation des données dans des fichiers XML à tr
 
      Le champ **Espace de noms cible** spécifie un espace de noms dans le fichier de schéma XML qui a été chargé pour la ligne.  
 
-5. Sélectionnez l'action **Charger le schéma**, puis sélectionnez le fichier de schéma XML.  
+5. Sélectionnez l’action **Charger le schéma** , puis sélectionnez le fichier de schéma XML.  
 
-     Lorsque le fichier est chargé, les autres champs de la ligne sont renseignés à l'aide des informations du fichier, et la case **Le schéma est chargé** est cochée.  
+     Lorsque le fichier est chargé, les autres champs de la ligne sont renseignés à l’aide des informations du fichier, et la case **Le schéma est chargé** est cochée.  
 
     > [!NOTE]  
-    >  L'arborescence du schéma XML chargé est réduite par défaut. Vous développez chaque nœud en choisissant le bouton **+** sur le nœud. Pour développer tous les nœuds, sélectionnez **Développer tout** sur le ruban.  
+    >  L’arborescence du schéma XML chargé est réduite par défaut. Vous développez chaque nœud en choisissant le bouton **+** sur le nœud. Pour développer tous les nœuds, sélectionnez **Développer tout** sur le ruban.  
 
 ### <a name="to-select-or-clear-nodes-in-an-xml-schema"></a>Sélectionner ou supprimer des nœuds dans un schéma XML  
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Visionneuse de schéma XML**, puis sélectionnez le lien associé.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Visionneuse de schéma XML** , puis sélectionnez le lien associé.  
 
-2. Renseignez les champs de l'en-tête, comme indiqué dans le tableau suivant.  
+2. Renseignez les champs de l’en-tête, comme indiqué dans le tableau suivant.  
 
     |Champ|Désignation|  
     |---------------------------------|---------------------------------------|  
-    |**Code schéma XML**|Spécifiez le fichier de schéma XML que vous avez chargé à l'étape 5 dans la section « Charger un fichier de schéma XML ».|  
-    |**Nouveau n° de XMLport**|Spécifiez le numéro du XMLport qui est créé pour ce schéma XML lorsque vous sélectionnez l'action **Générer XMLport**.|  
+    |**Code schéma XML**|Spécifiez le fichier de schéma XML que vous avez chargé à l’étape 5 dans la section « Charger un fichier de schéma XML ».|  
+    |**Nouveau n° de XMLport**|Spécifiez le numéro du XMLport qui est créé pour ce schéma XML lorsque vous sélectionnez l’action **Générer XMLport** .|  
 
      Les lignes sont à présent remplies avec des nœuds représentant tous les éléments figurant dans le schéma XML. Les nœuds des éléments qui sont obligatoires selon le schéma XML sont activés par défaut.  
 
-3. Sur la première ligne, dans la colonne **Nom noeud**, développez le nœud **Document**, puis développez progressivement les nœuds sous-jacents que vous souhaitez examiner.  
+3. Sur la première ligne, dans la colonne **Nom noeud** , développez le nœud **Document** , puis développez progressivement les nœuds sous-jacents que vous souhaitez examiner.  
 
-     Sinon, cliquez avec le bouton droit sur un nœud, puis choisissez **Développer tout**.  
+     Sinon, cliquez avec le bouton droit sur un nœud, puis choisissez **Développer tout** .  
 
-4. Sélectionnez l'une des actions suivantes pour modifier les nœuds qui sont affichés.  
+4. Sélectionnez l’une des actions suivantes pour modifier les nœuds qui sont affichés.  
 
     |**Fonction**|Désignation|  
     |----------------|---------------------------------------|  
     |**Afficher tout**|Tous les nœuds sont affichés.|  
-    |**Masquer non obligatoire**|Seuls les nœuds représentant les éléments qui sont obligatoires selon le schéma XML sont affichés. Les nœuds sont généralement indiqués par un **1** dans le champ **MinOccurs**.<br /><br /> Choisissez **Afficher tout** pour rétablir l'affichage.|  
-    |**Masquer non sélectionné**|Seuls les nœuds dont la case à cocher **Sélectionné** est activée sont affichés.<br /><br /> Choisissez **Afficher tout** pour rétablir l'affichage.|  
+    |**Masquer non obligatoire**|Seuls les nœuds représentant les éléments qui sont obligatoires selon le schéma XML sont affichés. Les nœuds sont généralement indiqués par un **1** dans le champ **MinOccurs** .<br /><br /> Choisissez **Afficher tout** pour rétablir l’affichage.|  
+    |**Masquer non sélectionné**|Seuls les nœuds dont la case à cocher **Sélectionné** est activée sont affichés.<br /><br /> Choisissez **Afficher tout** pour rétablir l’affichage.|  
 
-5. Choisissez l'action **Modifier**.  
+5. Choisissez l’action **Modifier** .  
 
-6. Dans le champ **Sélectionné**, spécifiez pour chaque nœud si vous souhaitez que l'élément soit pris en charge dans la définition d'échange de données pour le fichier bancaire SEPA connexe.  
+6. Dans le champ **Sélectionné** , spécifiez pour chaque nœud si vous souhaitez que l’élément soit pris en charge dans la définition d’échange de données pour le fichier bancaire SEPA connexe.  
 
     > [!NOTE]  
     >  Lorsque vous sélectionnez un nœud enfant obligatoire, tous les nœuds parents au-dessus de lui sont également sélectionnés.  
 
-7. Sélectionnez l'action **Sélectionner tous les éléments obligatoires** pour resélectionner tous les nœuds représentant des éléments qui sont obligatoires en fonction du schéma XML.  
+7. Sélectionnez l’action **Sélectionner tous les éléments obligatoires** pour resélectionner tous les nœuds représentant des éléments qui sont obligatoires en fonction du schéma XML.  
 
-8. Sélectionnez l'action **Désélectionner tout** pour désactiver toutes les options.  
+8. Sélectionnez l’action **Désélectionner tout** pour désactiver toutes les options.  
 
      Le champ **Choix** spécifie que le nœud a deux ou plusieurs nœuds frère qui fonctionnent comme options.  
 
-### <a name="to-generate-a-data-exchange-definition-that-is-based-on-an-xml-schema"></a>Générer une définition d'échange de données basée sur un schéma XML  
+### <a name="to-generate-a-data-exchange-definition-that-is-based-on-an-xml-schema"></a>Générer une définition d’échange de données basée sur un schéma XML  
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Schémas XML**, puis sélectionnez le lien associé.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Schémas XML** , puis sélectionnez le lien associé.  
 
-2. Sélectionnez le schéma XML approprié, puis sélectionnez l'action **Ouvrir la visionneuse de schéma XML**.  
+2. Sélectionnez le schéma XML approprié, puis sélectionnez l’action **Ouvrir la visionneuse de schéma XML** .  
 
-3. Assurez-vous que les nœuds appropriés sont sélectionnés. Pour plus d'informations, reportez-vous à la section « Sélectionner ou supprimer des nœuds dans un schéma XML ».  
+3. Assurez-vous que les nœuds appropriés sont sélectionnés. Pour plus d’informations, reportez-vous à la section « Sélectionner ou supprimer des nœuds dans un schéma XML ».  
 
-4. Sur la page **Visionneuse de schéma XML**, sélectionnez l'action **Générer définition d'échange de données**.  
+4. Sur la page **Visionneuse de schéma XML** , sélectionnez l’action **Générer définition d’échange de données** .  
 
- Une définition d'échange de données est créée sur la page **Définitions échange comptabilité**, que vous pouvez renseigner en indiquant quels éléments du fichier correspondent à quels champs de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d'informations, voir [Configurer les définitions d'échange de données](across-how-to-set-up-data-exchange-definitions.md).  
+ Une définition d’échange de données est créée sur la page **Définitions échange comptabilité** , que vous pouvez renseigner en indiquant quels éléments du fichier correspondent à quels champs de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d’informations, voir [Configurer les définitions d’échange de données](across-how-to-set-up-data-exchange-definitions.md).  
 
 > [!NOTE]  
-> Vous pouvez également utiliser la fonction **Extraire structure de fichiers** de la page **Définitions échange comptabilité**, qui utilise la fonctionnalité de la page **Visionneuse de schéma XML** pour préremplir le raccourci **Définitions colonne**.  
+> Vous pouvez également utiliser la fonction **Extraire structure de fichiers** de la page **Définitions échange comptabilité** , qui utilise la fonctionnalité de la page **Visionneuse de schéma XML** pour préremplir le raccourci **Définitions colonne** .  
 
 > [!NOTE]
 > Dans la vague 1 du lancement de la version 2019 et versions antérieures, vous pouviez générer un XMLport basé sur le schéma, puis l’importer dans votre solution. Cela n’est plus possible.
 
 ## <a name="see-also"></a>Voir aussi
 
-[Configurer les définitions d'échange de données](across-how-to-set-up-data-exchange-definitions.md)  
+[Configurer les définitions d’échange de données](across-how-to-set-up-data-exchange-definitions.md)  
 [Exporter des paiements vers un fichier bancaire](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
 [Recouvrement de paiements par prélèvement automatique SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
-[À propos de l'infrastructure d'échange de données](across-about-the-data-exchange-framework.md)  
+[À propos de l’infrastructure d’échange de données](across-about-the-data-exchange-framework.md)  

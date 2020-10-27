@@ -10,25 +10,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1709cb17c5301810557a9204974cb4bd01565b5d
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 80f89a2e4438b6d6f7f329d0ea6563ad8eb41d03
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786511"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924393"
 ---
 # <a name="setting-up-banking"></a>Paramétrage des opérations bancaires
-Les fiches compte bancaire vous permettent de gérer tous vos comptes bancaires, dans n'importe quelle devise. Une fois que vous avez configuré les comptes bancaires, vous pouvez également utiliser l'option d'impression de chèque.
+Les fiches compte bancaire vous permettent de gérer tous vos comptes bancaires, dans n’importe quelle devise. Une fois que vous avez configuré les comptes bancaires, vous pouvez également utiliser l’option d’impression de chèque.
 
-Pour utiliser les services bancaires électroniques pour importer des relevés bancaires et exporter des paiements, vous devez d'abord configurer et activer les services en question.
+Pour utiliser les services bancaires électroniques pour importer des relevés bancaires et exporter des paiements, vous devez d’abord configurer et activer les services en question.
 
 | Pour | Voir |
 | --- | --- |
 | Configurer des fiches compte bancaire pour chacun de vos comptes bancaires, de manière à ce que vous puissiez gérer vos transactions bancaires. |[Configuration des comptes bancaires](bank-how-setup-bank-accounts.md) |
-| Configurer un service externe qui vous permet d'importer des relevés bancaires sous forme de flux bancaires pour le lettrage des paiements et les rapprochements bancaires. |[Configurer le service Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md) |
-| Configurer un service externe qui vous permet d'exporter vos paiements vers la banque pour traitement et d'importer des relevés bancaires sous forme de fichiers bancaires pour le lettrage des paiements et les rapprochements bancaires. |[Utilisation de l'extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) |
+| Configurer un service externe qui vous permet d’importer des relevés bancaires sous forme de flux bancaires pour le lettrage des paiements et les rapprochements bancaires. |[Configurer le service Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md) |
+| Configurer un service externe qui vous permet d’exporter vos paiements vers la banque pour traitement et d’importer des relevés bancaires sous forme de fichiers bancaires pour le lettrage des paiements et les rapprochements bancaires. |[Utilisation de l’extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) |
 
 ## <a name="see-also"></a>Voir aussi
 [Rapprochement de comptes bancaires](bank-manage-bank-accounts.md)  

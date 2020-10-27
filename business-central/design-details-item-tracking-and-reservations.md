@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b0f671fc4c3a8b08d1bf9b21cef79ae35defb636
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: cb79b0538f4f55b2841815c23c4446d7c6278fb1
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787636"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922107"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Détails de conception : traçabilité et réservations
 
@@ -36,15 +36,16 @@ La réservation des numéros traçabilité se classe en deux catégories, comme 
 |Non spécifique|Vous ne sélectionnez pas un numéro de série ou de lot spécifique lorsque vous réservez l'article de stock à partir d'une demande, comme une commande vente.<br /><br /> Il s'agit d'un état qui est imposé à une écriture de réservation pour les numéros de série ou de lot qui ne sont pas spécifiquement sélectionnés. **Remarque :** la demande n'indique pas les numéros de série ou de lot. <br /><br /> Par exemple, vous souhaitez réserver une boîte de peinture de n'importe quel lot de votre commande vente. Une boîte de peinture bleue de n'importe quel numéro de série ou numéro de lot est expédiée au client.|  
   
 La principale différence entre la réservation spécifique et la réservation non spécifique est définie par l'existence des numéros de série ou des numéros de lot du côté de la demande, comme l'indique le tableau ci-dessous.  
-  
-|<!--blank -->|**Fourniture**|**Demande**|  
-|**Spécifique**|Numéro de série ou de lot.|Numéro de série ou de lot.|  
-|**Non spécifique**|Numéro de série ou de lot.|Numéro de série ou de lot.|  
+
+| Type            | Approvisionnement                | demande                   |
+|-----------------|-----------------------|--------------------------|
+| **Spécifique**    | Numéro de série ou de lot. | Numéro de série ou de lot.    |
+| **Non spécifique** | Numéro de série ou de lot. | Aucun numéro de série ou de lot |
   
 Lorsque vous réservez des quantités en stock à partir d'une ligne document sortant pour un article ayant des numéros de suivi article affectés et étant configuré pour un suivi d'article spécifique, la page **Réservation** vous conduit à travers différents flux de travail en fonction de votre besoin de numéros de série ou de lot.  
   
 ## <a name="specific-reservation"></a>Réservation spécifique  
-Lorsque vous choisissez **Reserve** depuis la ligne document sortant, une boîte de dialogue s'affiche vous demandant si vous souhaitez réserver des numéros de série ou de lot spécifiques. Si vous choisissez **Oui**, la liste s'affiche avec tous les numéros de série ou de lot affectés à la ligne document. La page **Réservation** s'ouvre après que vous avez sélectionné l'un des numéros de série ou de lot, et vous pouvez alors réserver parmi les numéros de série ou de lot sélectionnés comme d'habitude.  
+Lorsque vous choisissez **Reserve** depuis la ligne document sortant, une boîte de dialogue s'affiche vous demandant si vous souhaitez réserver des numéros de série ou de lot spécifiques. Si vous choisissez **Oui** , la liste s'affiche avec tous les numéros de série ou de lot affectés à la ligne document. La page **Réservation** s'ouvre après que vous avez sélectionné l'un des numéros de série ou de lot, et vous pouvez alors réserver parmi les numéros de série ou de lot sélectionnés comme d'habitude.  
   
 Si certains des numéros traçabilité spécifiques que vous essayez de réserver sont contenus dans des réservations non spécifiques, un message au bas de la page **Réservation** vous indique quelle part de la quantité réservée totale se trouve dans des réservations non spécifiques et si elle est toujours disponible.  
   

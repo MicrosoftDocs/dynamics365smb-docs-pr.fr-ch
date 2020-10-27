@@ -1,6 +1,6 @@
 ---
 title: Aperçu des états préalables à la clôture pour vérifier la précision de compte | Microsoft Docs
-description: Fournit un aperçu des états qui vous permettent de vérifier la précision des comptes avant de clôturer les livres à la fin d'un exercice ou d'une période.
+description: Fournit un aperçu des états qui vous permettent de vérifier la précision des comptes avant de clôturer les livres à la fin d’un exercice ou d’une période.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
@@ -9,19 +9,19 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: b45fe3d89502e5a4e42bc43cc4679afe1b13699d
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: b270a7b1f9ffda71d68fa981885aacbe31f55eab
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191706"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923135"
 ---
-# <a name="using-pre-closing-reports"></a>Utilisation d'états préalables à la clôture
-Il existe de nombreux états standard qui vous permettent de vérifier la précision des comptes avant de clôturer les livres à la fin d'un exercice ou d'une période. Par exemple, vous pouvez utiliser l'état **Clients : Balance** pour vérifier que le solde d'un groupe comptabilisation client est égal au solde du compte général correspondant à une date donnée.
+# <a name="using-pre-closing-reports"></a>Utilisation d’états préalables à la clôture
+Il existe de nombreux états standard qui vous permettent de vérifier la précision des comptes avant de clôturer les livres à la fin d’un exercice ou d’une période. Par exemple, vous pouvez utiliser l’état **Clients : Balance** pour vérifier que le solde d’un groupe comptabilisation client est égal au solde du compte général correspondant à une date donnée.
 
-Le tableau suivant décrit un certain nombre d'états qui peuvent être utiles dans ce processus.
+Le tableau suivant décrit un certain nombre d’états qui peuvent être utiles dans ce processus.
 
 | Pour | Afficher ce rapport |
 | --- | --- |
@@ -30,12 +30,12 @@ Le tableau suivant décrit un certain nombre d'états qui peuvent être utiles d
 | Imprimer un Grand livre avec des informations détaillées sur des écritures individuelles pour les clients sélectionnés et durant une période sélectionnée. |Clients : Grand livre client |
 | Imprimer un Grand livre pour les fournisseurs sélectionnés. |Fourn. : Balance |
 | Imprimer un Grand livre avec des informations détaillées sur des écritures individuelles pour les fournisseurs sélectionnés et durant une période sélectionnée. |Fourn. : Grand livre fourn. |
-| Imprimer une balance avec les chiffres de l'exercice en cours et de l'exercice précédent. |Balance de clôture |
+| Imprimer une balance avec les chiffres de l’exercice en cours et de l’exercice précédent. |Balance de clôture |
 | Imprimer un état Grand livre pour les soldes des comptes généraux. |Grand livre |
 | Imprimer un état Balance comprenant les soldes et les soldes période pour les comptes généraux. |Balance |
 | Imprimer une balance pour une société consolidée. |Balance consolidée |
 
-Pour visualiser un état, choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez le nom qui s'affiche dans la table, puis sélectionnez le lien associé.
+Pour visualiser un état, choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez le nom qui s’affiche dans la table, puis sélectionnez le lien associé.
 
 ## <a name="see-also"></a>Voir aussi
 [Clôture des exercices et des périodes](year-close-years-periods.md)  

@@ -8,38 +8,38 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5037168780e14d7774843223726bb6092ff2d306
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 93d1fffed38ce57e76b6451be071700c1ce07b2c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778275"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925531"
 ---
 # <a name="save-and-personalize-list-views"></a>Enregistrer et personnaliser les vues de liste
-Lorsque vous avez défini un filtre sur une liste et que vous souhaitez conserver le filtre pour plus tard, vous pouvez l'enregistrer en tant que vue. Pour plus d'informations sur le filtrage des listes, voir [Définition de filtres sur les listes](ui-enter-criteria-filters.md#setting-filters-on-lists).
+Lorsque vous avez défini un filtre sur une liste et que vous souhaitez conserver le filtre pour plus tard, vous pouvez l’enregistrer en tant que vue. Pour plus d’informations sur le filtrage des listes, voir [Définition de filtres sur les listes](ui-enter-criteria-filters.md#setting-filters-on-lists).
 
-Si des vues existent, le groupe **Vues** apparaît en haut du volet Filtre. Les vues sont des variations de la liste qui ont été préconfigurées avec les filtres. Vous pouvez définir et enregistrer autant de vues que vous le souhaitez dans une liste. Ces vues seront disponibles lors de la prochaine ouverture de la liste, depuis n'importe quel appareil ou navigateur.
+Si des vues existent, le groupe **Vues** apparaît en haut du volet Filtre. Les vues sont des variations de la liste qui ont été préconfigurées avec les filtres. Vous pouvez définir et enregistrer autant de vues que vous le souhaitez dans une liste. Ces vues seront disponibles lors de la prochaine ouverture de la liste, depuis n’importe quel appareil ou navigateur.
 
 ## <a name="to-save-a-view"></a>Pour enregistrer une vue
-1. Ouvrez n'importe quelle page de liste.
-2. Sélectionnez l'![icône de volet Filtre](media/open-filter-pane-icon.png "Icône de volet Filtre") en haut de la liste ou appuyez sur Maj+F3 pour ouvrir le volet Filtre.
-3. Définissez un ou plusieurs nouveaux filtres. Pour plus d'informations, reportez-vous à [Définition de filtres sur les listes](ui-enter-criteria-filters.md#setting-filters-on-lists).
-4. Lorsque vous avez défini les filtres, choisissez l'icône ![Enregistrer la vue](media/save_view_icon.png "Enregistrer la vue").
+1. Ouvrez n’importe quelle page de liste.
+2. Sélectionnez l’![icône de volet Filtre](media/open-filter-pane-icon.png "Icône de volet Filtre") en haut de la liste ou appuyez sur Maj+F3 pour ouvrir le volet Filtre.
+3. Définissez un ou plusieurs nouveaux filtres. Pour plus d’informations, reportez-vous à [Définition de filtres sur les listes](ui-enter-criteria-filters.md#setting-filters-on-lists).
+4. Lorsque vous avez défini les filtres, choisissez l’icône ![Enregistrer la vue](media/save_view_icon.png "Enregistrer la vue").
 
     Si vous définissez un filtre pour une vue de liste déjà enregistrée en tant que vue, la vue existante est mise à jour lors de la sauvegarde.
-5. Si vous enregistrez une nouvelle vue, entrez un nom pour la vue dans la zone **Tous (copier)**, par exemple « Articles que je possède ».
+5. Si vous enregistrez une nouvelle vue, entrez un nom pour la vue dans la zone **Tous (copier)** , par exemple « Articles que je possède ».
 6. Appuyez sur la touche Entrée ou déplacez le curseur de la zone de texte pour accepter le nom.
 
-Si vous ne lui donnez pas de nom, il sera nommé **Tous (copier)**.
+Si vous ne lui donnez pas de nom, il sera nommé **Tous (copier)** .
 
 ## <a name="to-rename-or-remove-a-view"></a>Pour renommer ou supprimer une vue
-1. Pour la vue qui affiche actuellement la liste, choisissez l'icône ![Afficher plus d'options](media/show-more-options-icon.png "Afficher plus d'options") pour voir les options disponibles.
-2. Choisissez soit l'action **Renommer** ou **Supprimer**.
+1. Pour la vue qui affiche actuellement la liste, choisissez l’icône ![Afficher plus d’options](media/show-more-options-icon.png "Afficher plus d’options") pour voir les options disponibles.
+2. Choisissez soit l’action **Renommer** ou **Supprimer** .
 
 ## <a name="managing-many-views"></a>Gestion de plusieurs vues
-À mesure que le nombre de vues sur une page augmente, vous aurez peut-être besoin d'un contrôle supplémentaire sur la manière dont elles sont présentées dans le volet Filtre. Avec la bannière **Personnalisation**, vous pouvez masquer des vues indésirables ou réorganiser vos vues pour obtenir la séquence parfaite. Pour plus d'informations, voir [Personnaliser votre espace de travail](ui-personalization-user.md).
+À mesure que le nombre de vues sur une page augmente, vous aurez peut-être besoin d’un contrôle supplémentaire sur la manière dont elles sont présentées dans le volet Filtre. Avec la bannière **Personnalisation** , vous pouvez masquer des vues indésirables ou réorganiser vos vues pour obtenir la séquence parfaite. Pour plus d’informations, voir [Personnaliser votre espace de travail](ui-personalization-user.md).
 
 ## <a name="see-also"></a>Voir aussi
 [FAQ sur les vues de liste](ui-views-faq.md)  

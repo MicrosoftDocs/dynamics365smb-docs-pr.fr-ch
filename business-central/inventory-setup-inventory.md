@@ -1,6 +1,6 @@
 ---
 title: Configuration de stock| Microsoft Docs
-description: Décrit comment configurer les processus de stock et d'inventaire, y compris les acheminements pour le transfert et les magasins, tels que des entrepôts.
+description: Décrit comment configurer les processus de stock et d’inventaire, y compris les acheminements pour le transfert et les magasins, tels que des entrepôts.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6d0ef9453c9193dd65dc841fc731932fe781bcc9
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 6a8298caadec82b191d345e6b7c75b95187b2fe5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783414"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921757"
 ---
 # <a name="setting-up-inventory"></a>Configuration de stock
 Avant de pouvoir gérer les activités entrepôt et les coûts de stock, vous devez configurer les règles et les valeurs qui définissent les stratégies de stock de la société.
 
-Vous pouvez fournir un meilleur service clientèle et optimiser votre chaîne d'approvisionnement en organisant votre stock à différentes adresses. Vous pouvez ensuite acheter, stocker, ou vendre des articles dans les magasins et transférer des articles en stock entre eux.
+Vous pouvez fournir un meilleur service clientèle et optimiser votre chaîne d’approvisionnement en organisant votre stock à différentes adresses. Vous pouvez ensuite acheter, stocker, ou vendre des articles dans les magasins et transférer des articles en stock entre eux.
 
-Lorsque vous avez configuré votre stock, vous pouvez gérer différents processus associés aux transactions article. Pour plus d'informations, voir [Gérer le stock](inventory-manage-inventory.md) et [Gestion d'entrepôt](warehouse-manage-warehouse.md).
+Lorsque vous avez configuré votre stock, vous pouvez gérer différents processus associés aux transactions article. Pour plus d’informations, voir [Gérer le stock](inventory-manage-inventory.md) et [Gestion d’entrepôt](warehouse-manage-warehouse.md).
 
 | À | Voir |
 | --- | --- |
@@ -32,12 +32,12 @@ Lorsque vous avez configuré votre stock, vous pouvez gérer différents process
 |Configurez un modèle de distribution efficace avec une combinaison de différents magasins et centres de gestion affectés aux partenaires commerciaux ou aux employés.|[Utiliser les centres de gestion](inventory-responsibility-centers.md)|
 | Planifier votre stock dans plusieurs magasins, y compris des acheminements transfert. |[Configurer des magasins](inventory-how-register-new-items.md) |
 | Créez des fiches article pour les articles de stock, hors stock ou service que vous négociez. |[Enregistrer de nouveaux articles](inventory-how-register-new-items.md) |
-|Utilisez la fonction **Copier l'élément** pour créer rapidement une nouvelle fiche article basée sur une fiche existante.|[Copier des articles existants pour créer de nouveaux articles](inventory-how-copy-items.md)|
-|Apprendre comment renseigner le champ **Type** sur les fiches article en fonction de l'objectif commercial.|[À propos des types d'articles](inventory-about-item-types.md)|
-|Définissez plusieurs unités pour un article afin de pouvoir l'utiliser comme UOM secondaire, par exemple pour les transactions de ventes, d'achat ou de production.|[Configuration d'unités article](inventory-how-setup-units-of-measure.md)|
-|En complément aux fiches article, enregistrer des informations relatives à vos articles dans un magasin spécifique ou d'une variante spécifique.|[Configurer des points de stock](inventory-how-to-set-up-stockkeeping-units.md)|
+|Utilisez la fonction **Copier l’élément** pour créer rapidement une nouvelle fiche article basée sur une fiche existante.|[Copier des articles existants pour créer de nouveaux articles](inventory-how-copy-items.md)|
+|Apprendre comment renseigner le champ **Type** sur les fiches article en fonction de l’objectif commercial.|[À propos des types d’articles](inventory-about-item-types.md)|
+|Définissez plusieurs unités pour un article afin de pouvoir l’utiliser comme UOM secondaire, par exemple pour les transactions de ventes, d’achat ou de production.|[Configuration d’unités article](inventory-how-setup-units-of-measure.md)|
+|En complément aux fiches article, enregistrer des informations relatives à vos articles dans un magasin spécifique ou d’une variante spécifique.|[Configurer des points de stock](inventory-how-to-set-up-stockkeeping-units.md)|
 | Affecter des articles aux catégories et leur donner des attributs pour vous aider, vous et vos clients, à trouver des articles. |[Catégoriser des articles](inventory-how-categorize-items.md) |
-|Importez plusieurs images d'article en une seule fois depuis un fichier zip où les fichiers sont nommés selon les numéros d'article.|[Importer plusieurs images d'article](inventory-how-import-item-pictures.md)|
+|Importez plusieurs images d’article en une seule fois depuis un fichier zip où les fichiers sont nommés selon les numéros d’article.|[Importer plusieurs images d’article](inventory-how-import-item-pictures.md)|
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
 

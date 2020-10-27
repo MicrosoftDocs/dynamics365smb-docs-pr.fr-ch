@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1d8d32239ae464702bb2d41babf720c2f85e17e6
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d62d28f74cbbc0971dbe29dbe0cf719eabc9fe6e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785736"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3927187"
 ---
 # <a name="apply-configurations-to-new-companies"></a>Appliquer des configurations aux nouvelles sociétés
 Après avoir créé un package de configuration, l’étape suivante consiste à déployer le package au niveau de votre client pour l’implémentation. Vous utilisez le package de configuration dans une nouvelle société vide.  
@@ -26,10 +26,10 @@ Après avoir créé un package de configuration, l’étape suivante consiste à
 |------------|-------------|  
 |Créer une société dans laquelle exécuter une implémentation client.|[Créer une société](admin-how-to-create-a-new-company.md)|  
 |Importer et appliquer un package de configuration à une nouvelle société.|[Configurer de nouvelles sociétés](admin-how-to-configure-new-companies.md)|  
-|Utiliser un guide de configuration assistée pour effectuer facilement la configuration d'une société.|[Configurer une société avec l'assistant RapidStart](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md)|
-|Copier les valeurs couramment utilisées d'une société existante vers une nouvelle, dans la même base de données.|[Copier des données vers les nouvelles sociétés](admin-how-to-copy-data-to-new-companies.md)|  
+|Utiliser un guide de configuration assistée pour effectuer facilement la configuration d’une société.|[Configurer une société avec l’assistant RapidStart](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md)|
+|Copier les valeurs couramment utilisées d’une société existante vers une nouvelle, dans la même base de données.|[Copier des données vers les nouvelles sociétés](admin-how-to-copy-data-to-new-companies.md)|  
 |Utiliser un traitement par lots pour transférer les soldes de compte hérité vers une société nouvellement configurée, puis lettrer les écritures feuille résultantes.|[Créer des soldes ouverts feuille](admin-how-to-create-journal-opening-balances.md)|  
 
 ## <a name="see-also"></a>Voir aussi  
-[Configuration d'une société avec RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
+[Configuration d’une société avec RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)

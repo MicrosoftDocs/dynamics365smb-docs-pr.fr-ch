@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f11b92eb0a9941e72c8f6c87e0e052fcc0530fd1
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: cc62673e83fa0a748164af57bf0a075ca325dde4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786961"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925020"
 ---
 # <a name="about-production-orders"></a>À propos des ordres de fabrication
 Les ordres de fabrication permettent de gérer la conversion de matières achetées en articles fabriqués. La gamme des ordres de fabrication utilise divers centres de charge ou postes de charge de l'atelier.  
@@ -38,7 +38,7 @@ Les ordres de fabrication sont les points de départ pour :
 -   la traçabilité de la fabrication terminée.  
 
 ## <a name="production-order-creation"></a>Création des ordres de fabrication  
-Il est possible de créer des ordres de fabrication un par un manuellement sur la page **Ordre de fabrication** ou de les générer sur les pages **Commande vente Planning** et/ou **Planning commande**. La page **Feuille planning** permet de générer plusieurs ordres.  
+Il est possible de créer des ordres de fabrication un par un manuellement sur la page **Ordre de fabrication** ou de les générer sur les pages **Commande vente Planning** et/ou **Planning commande** . La page **Feuille planning** permet de générer plusieurs ordres.  
 
 Les ordres de fabrication sont créés à l'aide d'informations provenant des éléments suivants :  
 
@@ -51,9 +51,9 @@ Les ordres de fabrication sont créés à l'aide d'informations provenant des é
 ## <a name="limitations-on-production-order-creation"></a>Limitations de la création d'ordres de fabrication  
 Les ordres de fabrication sont automatiquement réservés et tracés sur leur source quand ils sont :  
 
--   créés dans la fenêtre **Feuille planning** ;  
--   Créés avec la fonction Commande sur la page **Planification commande vente** ;  
--   Créés sur la page **Planification commande** ;  
+-   créés dans la fenêtre **Feuille planning**  ;  
+-   Créés avec la fonction Commande sur la page **Planification commande vente**  ;  
+-   Créés sur la page **Planification commande**  ;  
 -   utilisés avec la fonction **Replanification** des ordres de fabrication.  
 
 Pour plus d'informations, voir [Suivre les relations entre l'offre et la demande](production-how-track-demand-supply.md).
@@ -61,7 +61,7 @@ Pour plus d'informations, voir [Suivre les relations entre l'offre et la demande
 Les ordres de fabrication créés par d'autres moyens ne sont pas automatiquement réservés et tracés.   
 
 ## <a name="production-order-status"></a>Statut de l'ordre de fabrication  
-Le statut de l'ordre de fabrication contrôle la manière dont l'ordre de fabrication se comporte dans l'application. La forme et le contenu de la production sont dictés par le statut de l'ordre. Les ordres de fabrication sont affichés sur différentes pages en fonction de leur statut. Vous ne pouvez pas modifier le statut d'un ordre de fabrication manuellement ; vous devez utiliser la fonction **Modifier statut**.  
+Le statut de l'ordre de fabrication contrôle la manière dont l'ordre de fabrication se comporte dans l'application. La forme et le contenu de la production sont dictés par le statut de l'ordre. Les ordres de fabrication sont affichés sur différentes pages en fonction de leur statut. Vous ne pouvez pas modifier le statut d'un ordre de fabrication manuellement ; vous devez utiliser la fonction **Modifier statut** .  
 
 ### <a name="simulated-production-order"></a>O.F. simulé  
 L'ordre de fabrication simulé est unique en raison des caractéristiques suivantes :  
@@ -128,7 +128,7 @@ En aval, la génération d'états de consommation est basée sur l'hypothèse qu
 - La consommation en aval doit être activée pour tous les articles de la nomenclature de production de niveau supérieur sur leur fiche article.  
 - Tous les codes lien gamme dans la nomenclature de production doivent être supprimés.  
 
-En amont, la génération d'états de consommation enregistre la quantité réelle des matières prélevées ou consommées lorsque le statut d'un ordre de fabrication passe à *Terminé*, sauf en cas d'utilisation de codes lien gamme. En cas d'utilisation de codes lien gamme, les matières sont consommées après qu'une quantité d'articles parents a été enregistrée pour l'opération dans la feuille production.  
+En amont, la génération d'états de consommation enregistre la quantité réelle des matières prélevées ou consommées lorsque le statut d'un ordre de fabrication passe à *Terminé* , sauf en cas d'utilisation de codes lien gamme. En cas d'utilisation de codes lien gamme, les matières sont consommées après qu'une quantité d'articles parents a été enregistrée pour l'opération dans la feuille production.  
 
 Lors de l'actualisation de l'ordre de fabrication, la méthode consommation est copiée à partir de la fiche article. Comme la méthode consommation de chaque ordre de fabrication contrôle le mode et le moment d'enregistrement de la consommation, il est important de noter que vous pouvez modifier la méthode de consommation d'articles spécifiques directement dans l'ordre de fabrication.  
 
@@ -178,7 +178,7 @@ La quantité consommée est calculée pour la quantité par assemblage sur la no
 #### <a name="automatic-reporting---back-flushing-the-entire-order"></a>Génération d'état automatique - Consommation en amont de l'ordre entier  
 Cette méthode de génération d'état ne tient pas compte des codes lien gamme.  
 
-Aucun composant n'est prélevé tant que le statut de l'ordre de fabrication lancé n'est pas *Terminé*. La quantité consommée est calculée pour la quantité par assemblage sur la nomenclature de production multipliée par le nombre d'articles parents terminés et introduits dans le stock.  
+Aucun composant n'est prélevé tant que le statut de l'ordre de fabrication lancé n'est pas *Terminé* . La quantité consommée est calculée pour la quantité par assemblage sur la nomenclature de production multipliée par le nombre d'articles parents terminés et introduits dans le stock.  
 
 La consommation en amont de l'ordre de fabrication tout entier requiert la même configuration que pour la consommation en aval : la méthode de génération d'état doit être définie sur amont dans la fiche article de tous les articles de la nomenclature parente pour que l'état soit généré. En outre, tous les codes lien gamme doivent être supprimés de la nomenclature de production.  
 
@@ -200,7 +200,7 @@ En amont, cette méthode enregistre la production prévue (et le temps), qui est
 ### <a name="posting-consumption-and-output"></a>Validation de la consommation et de la production  
 Vous pouvez utiliser toute combinaison d'informations de consommation automatique et enregistrées manuellement tant pour la consommation que pour la production. Par exemple, vous pouvez consommer automatiquement en aval des composants, tout en utilisant la feuille consommation pour enregistrer les rebuts. De même, vous pouvez enregistrer automatiquement la production tout en utilisant la feuille production pour enregistrer les rebuts de l'article parent ou le temps supplémentaire consacré au traitement de l'ordre.  
 
-Enfin, si vous entrez une consommation et une production manuellement, vous devez déterminer l'ordre dans lequel vous allez enregistrer ces informations. Vous pouvez commencer par enregistrer une consommation, puis utiliser une méthode de raccourci pour entrer les informations, basée sur une quantité de production prévue. Vous pouvez également commencer par entrer une production en utilisant la fonction **Éclater gamme**. Vous enregistrez ensuite une consommation sur la base de la quantité de production réelle.  
+Enfin, si vous entrez une consommation et une production manuellement, vous devez déterminer l'ordre dans lequel vous allez enregistrer ces informations. Vous pouvez commencer par enregistrer une consommation, puis utiliser une méthode de raccourci pour entrer les informations, basée sur une quantité de production prévue. Vous pouvez également commencer par entrer une production en utilisant la fonction **Éclater gamme** . Vous enregistrez ensuite une consommation sur la base de la quantité de production réelle.  
 
 ### <a name="production-journal"></a>Feuille production  
 La feuille production combine les fonctions de la feuille consommation et des feuilles production dans une seule feuille, directement accessible depuis l'ordre de fabrication lancé.  

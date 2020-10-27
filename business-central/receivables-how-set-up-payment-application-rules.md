@@ -8,26 +8,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 255f7c66dc040f10aeae76b5ed08920ad8c1f77f
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 37b999dd9000ac9833798f827f85bfd945878638
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782764"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926412"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Définir des règles pour le lettrage automatique des paiements
 
-Sur la page **Règles lettrage paiement**, vous définissez des règles pour définir comment le texte de paiement (sur une transaction bancaire) est automatiquement mis en correspondance avec le texte des écritures ouvertes dans les deux processus suivants :
+Sur la page **Règles lettrage paiement** , vous définissez des règles pour définir comment le texte de paiement (sur une transaction bancaire) est automatiquement mis en correspondance avec le texte des écritures ouvertes dans les deux processus suivants :
 
-- Lettrer automatiquement les paiements avec leurs factures ouvertes (impayées), avoirs ou autres écritures associées lorsque vous utilisez la fonction **Lettrer automatiquement** sur la page **Feuille rapprochement bancaire**. Pour plus d'informations, voir [Rapprocher les paiements à l'aide du lettrage automatique](receivables-how-reconcile-payments-auto-application.md).
+- Lettrer automatiquement les paiements avec leurs factures ouvertes (impayées), avoirs ou autres écritures associées lorsque vous utilisez la fonction **Lettrer automatiquement** sur la page **Feuille rapprochement bancaire** . Pour plus d'informations, voir [Rapprocher les paiements à l'aide du lettrage automatique](receivables-how-reconcile-payments-auto-application.md).
 
-- Faites correspondre automatiquement les transactions bancaires avec leurs écritures comptables de compte bancaire internes associées lorsque vous choisissez l'action **Faire correspondre automatiquement** sur la page **Rapprochement bancaire**. Pour plus d'informations, voir [Rapprocher des comptes bancaires](bank-how-reconcile-bank-accounts-separately.md).
+- Faites correspondre automatiquement les transactions bancaires avec leurs écritures comptables de compte bancaire internes associées lorsque vous choisissez l'action **Faire correspondre automatiquement** sur la page **Rapprochement bancaire** . Pour plus d'informations, voir [Rapprocher des comptes bancaires](bank-how-reconcile-bank-accounts-separately.md).
 
 Pour définir de nouvelles règles de lettrage de paiement, choisissez quels types de données sur une ligne feuille rapprochement bancaire doivent correspondre aux données sur une ou plusieurs écritures ouvertes avant que le paiement associé ne soit automatiquement lettré avec les écritures ouvertes. La qualité de chaque lettrage automatique est indiquée par une valeur de **Faible** à **Élevée** dans le champ **Fiabilité correspondance** sur la page **Feuille rapprochement bancaire** selon la règle de lettrage de paiement qui a été utilisée.
 
-Chaque ligne de la page **Règles de lettrage de paiement** représente une règle de lettrage de paiement. Les règles sont appliquées dans l'ordre spécifié par le champ **Ordre de tri**. Si plusieurs règles sont utilisées simultanément, c'est la fiabilité correspondance de la règle dont l'ordre de tri est le plus élevé qui est utilisée.
+Chaque ligne de la page **Règles de lettrage de paiement** représente une règle de lettrage de paiement. Les règles sont appliquées dans l'ordre spécifié par le champ **Ordre de tri** . Si plusieurs règles sont utilisées simultanément, c'est la fiabilité correspondance de la règle dont l'ordre de tri est le plus élevé qui est utilisée.
 
 La fonction de lettrage automatique est basée sur des critères de correspondance classés par priorité. La fonction essaie d'abord, par ordre de priorité, de faire correspondre le texte dans les cinq champs **Partie associée** d'une ligne feuille avec le texte du compte bancaire, du nom ou de l'adresse des clients ou des fournisseurs dont les documents impayés représentent des écritures ouvertes. La fonction essaie ensuite de faire correspondre le texte des champs **Texte transaction** et **Info transaction supplémentaire** sur une ligne feuille avec le texte des champs **N° du document externe** et **N° document** sur les écritures ouvertes. Enfin, la fonction essaie de faire correspondre le montant du champ **Montant relevé** d'une ligne feuille avec le montant sur les écritures ouvertes.
 
@@ -40,13 +40,13 @@ Outre les critères de correspondance, les remarques suivantes s'appliquent conc
 - Pour les montants positifs, une correspondance d'abord établie par rapport aux écritures ouvertes représentant les factures fournisseur, et ensuite par rapport aux avoirs client.
 
 ## <a name="to-set-up-a-payment-application-rule"></a>Pour définir une règle de lettrage de paiement
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Règles lettrage paiement**, puis sélectionné le lien associé.
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Règles lettrage paiement** , puis sélectionné le lien associé.
 2. Définissez une règle de lettrage de paiement, nouvelle ou modifiée, en renseignant les champs sur une ligne tel que décrit dans le tableau suivant.
 
 |Champ|Description|
 |-|-|
 |**Fiabilité correspondance**|Spécifie la fiabilité de la règle de lettrage que vous définissez sur la ligne. <br /></br>Une valeur spécifiée dans ce champ est affichée dans le champ **Fiabilité correspondance** sur la page **Feuille rapprochement bancaire** en fonction de la qualité du lettrage de paiement automatique sur la ligne feuille.|
-|**Priorité**|Spécifie la priorité de la règle de lettrage par rapport aux autres règles de lettrage définies en tant que lignes sur la page **Règles lettrage paiement**. 1 représente la priorité la plus élevée.|
+|**Priorité**|Spécifie la priorité de la règle de lettrage par rapport aux autres règles de lettrage définies en tant que lignes sur la page **Règles lettrage paiement** . 1 représente la priorité la plus élevée.|
 |**Correspondance partie associée**|Spécifie la quantité d'informations sur le client ou le fournisseur (par exemple, l'adresse, le nom de la ville et le numéro de compte bancaire) sur la ligne feuille rapprochement bancaire qui doivent correspondre aux informations sur l'écriture ouverte avant que la règle de lettrage soit utilisée pour lettrer automatiquement le paiement avec l'écriture ouverte.|
 |**Correspondance N° doc./N° doc. ext.**|Spécifie si le texte de la ligne feuille rapprochement bancaire doit correspondre à la valeur du champ **N° document** ou du champ **N° document externe** sur l'écriture ouverte avant que la règle de lettrage soit utilisée pour lettrer automatiquement le paiement avec l'écriture ouverte.|
 |**Correspondance montant avec écart**|Spécifie combien d'écritures pour un client ou un fournisseur doivent correspondre au montant (écart de règlement compris) avant que la règle de lettrage soit utilisée pour lettrer automatiquement un paiement avec l'écriture ouverte.|

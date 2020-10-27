@@ -1,6 +1,6 @@
 ---
-title: Activation de l’intégration de Power BI avec Business Central| Microsoft Docs
-description: Il est facile d’obtenir des informations exploitables, de la veille économique et des KPI de vos applications Business Central pour Power BI.
+title: Activation de l’intégration Power BI avec Business Central
+description: Découvrez comment configurer la connexion à Power BI afin d’obtenir des informations, des informations décisionnelles et des indicateurs de performance clés à partir de vos données Business Central avec les applications Business Central pour Power BI.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 92b3bb1d04c58332db20c978928fe1b04ed2ab37
-ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
+ms.openlocfilehash: ce4b45dbe80ab1972c92cde144b457eeeaff3402
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3697840"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3927087"
 ---
 # <a name="enabling-power-bi-integration-with-prodshort"></a>Activation de l’intégration de Power BI à [!INCLUDE[prodshort](includes/prodshort.md)]
 
@@ -27,8 +27,8 @@ Avec [!INCLUDE[prodshort](includes/prodshort.md)], les utilisateurs bénéficien
 
 |Licence Power|Afficher les états|Créer des états|Partager des états|Actualiser les états| Applications [!INCLUDE[prodshort](includes/prodshort.md)]|
 |-------------|--------||
-|Power BI, version gratuite|![coche](media/check.png)|![coche](media/check.png)|(limitée)|(limitée)||
-|Power BI Pro|![coche](media/check.png)|![coche](media/check.png)|![coche](media/check.png)|(étendue)|![coche](media/check.png)|
+|Power BI, version gratuite|![une coche](media/check.png)|![une autre coche](media/check.png)|(limitée)|(limitée)||
+|Power BI Pro|![encore une autre coche](media/check.png)|![c’est une coche](media/check.png)|![encore une coche](media/check.png)|(étendue)|![dernière coche](media/check.png)|
 
 Pour plus d’informations, consultez [Gestion des licences du service Power BI pour les utilisateurs de votre organisation](/power-bi/admin/service-admin-licensing-organization) ou [S’inscrire au service Power BI en tant que particulier](/power-bi/fundamentals/service-self-service-signup-for-power-bi).
 
@@ -59,7 +59,7 @@ Cette section explique les conditions requises pour un déploiement [!INCLUDE[pr
 
 ## <a name="publish-data-as-web-services"></a>Publier des données en tant que services Web
 
-Les codeunits, pages et requêtes que vous souhaitez utiliser comme source de données dans les états Power BI doivent être publiés en tant que services Web. Il existe de nombreux services Web publiés par défaut. Pour trouver facilement les services Web, il suffit de rechercher *services web* dans [!INCLUDE[prodshort](includes/prodshort.md)]. Sur la page **Services Web**, assurez-vous que le champ **Publier** est sélectionné pour les services Web répertoriés ci-dessus. Cette tâche est généralement administrative.
+Les codeunits, pages et requêtes que vous souhaitez utiliser comme source de données dans les états Power BI doivent être publiés en tant que services Web. Il existe de nombreux services Web publiés par défaut. Pour trouver facilement les services Web, il suffit de rechercher *services web* dans [!INCLUDE[prodshort](includes/prodshort.md)]. Sur la page **Services Web** , assurez-vous que le champ **Publier** est sélectionné pour les services Web répertoriés ci-dessus. Cette tâche est généralement administrative.
 
 Pour plus d’informations sur la publication des services Web, voir [Publier un service Web](across-how-publish-web-service.md).
 
@@ -81,7 +81,7 @@ Pour plus d’informations sur la publication des services Web, voir [Publier un
 [Documentation Power BI](/power-bi/)  
 [Veille économique](bi.md)  
 [Mise en route](product-get-started.md)  
-[Importation des données métier à partir d'autres systèmes financiers](across-import-data-configuration-packages.md)  
+[Importation des données métier à partir d’autres systèmes financiers](across-import-data-configuration-packages.md)  
 [Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] comme source de données Power BI](across-how-use-financials-data-source-powerbi.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] comme source de données Power Apps](across-how-use-financials-data-source-powerapps.md)  

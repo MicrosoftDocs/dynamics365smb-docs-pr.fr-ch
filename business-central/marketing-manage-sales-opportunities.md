@@ -1,6 +1,6 @@
 ---
 title: Gérer les opportunités de vente et les prospects| Microsoft Docs
-description: Décrit la gestion d'un prospect ou d'une opportunité de ventes entrant dans Business Central, et l'association de l'opportunité à un vendeur pour effectuer le suivi des ventes potentielles.
+description: Décrit la gestion d’un prospect ou d’une opportunité de ventes entrant dans Business Central, et l’association de l’opportunité à un vendeur pour effectuer le suivi des ventes potentielles.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 7c8ca5500c6209c579939cdb408a8f6ed685c612
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c53722ad94cf4a2469d314ab30445e4ac5ccc80c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181379"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923611"
 ---
 # <a name="managing-sales-opportunities"></a>Gestion des opportunités de ventes
 Tout prospect entrant peut être considéré comme une opportunité de vente. Vous pouvez créer des opportunités et les associer à un vendeur afin de pouvoir suivre les ventes potentielles.
 
-Avant de pouvoir utiliser la gestion des opportunités, vous devez configurer les cycles de vente et les étapes correspondantes. Lors de la création des opportunités, vous devez fournir des informations sur le contact, le vendeur, le cycle de vente et les dates, ainsi que vos estimations en terme de valeur de vente de l'opportunité et de chances de réussite.
+Avant de pouvoir utiliser la gestion des opportunités, vous devez configurer les cycles de vente et les étapes correspondantes. Lors de la création des opportunités, vous devez fournir des informations sur le contact, le vendeur, le cycle de vente et les dates, ainsi que vos estimations en terme de valeur de vente de l’opportunité et de chances de réussite.
 
 Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.
 
@@ -30,7 +30,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | --- | --- |
 | Configurer les cycles de vente que vous suivez habituellement et les différentes étapes de chaque cycle de vente opportunité. |[Configurer des cycles de vente opportunité et des étapes de cycle](marketing-how-setup-opportunity-sales-cycles-stages.md) |
 | Créer des opportunités de vente à partir de vos contacts. |[Créer des opportunités](marketing-how-create-opportunities.md) |
-| Déplacer une opportunité de vente au sein du cycle de vente jusqu'à l'achèvement. |[Traiter des opportunités de vente](marketing-processing-sales-opportunities.md) |
+| Déplacer une opportunité de vente au sein du cycle de vente jusqu’à l’achèvement. |[Traiter des opportunités de vente](marketing-processing-sales-opportunities.md) |
 
 ## <a name="see-also"></a>Voir aussi
 [Ventes](sales-manage-sales.md)  

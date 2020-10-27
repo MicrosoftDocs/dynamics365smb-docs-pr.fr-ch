@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 2f4115e62b1350fe55019aca94cb1d8beb6d93ae
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 5782a49732550d6f8ffc516634a4b45ec7e22e6d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181307"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923585"
 ---
 # <a name="managing-segments"></a>Gestion des segments
-Vous pouvez créer des segments qui vous permettent de sélectionner un groupe de contacts en fonction de critères spécifiques. Par exemple, un segment peut être le secteur auquel les contacts appartiennent ou votre relation d'affaires avec les contacts. Vous pouvez créer un segment pour sélectionner les contacts ciblés par une campagne.
+Vous pouvez créer des segments qui vous permettent de sélectionner un groupe de contacts en fonction de critères spécifiques. Par exemple, un segment peut être le secteur auquel les contacts appartiennent ou votre relation d’affaires avec les contacts. Vous pouvez créer un segment pour sélectionner les contacts ciblés par une campagne.
 
-La création d'un segment est constituée de deux tâches principales :
+La création d’un segment est constituée de deux tâches principales :
 
 * saisie des informations générales sur le segment ; Pour pouvoir sélectionner les contacts dans le segment, vous devez commencer par créer le segment.
 * sélection des contacts à inclure dans le segment.
@@ -33,7 +33,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | --- | --- |
 | Créer des segments qui vous permettent de sélectionner un groupe de contacts. Par exemple, un courrier direct. |[Création de segments](marketing-how-create-segment.md) |
 | Gérer les contacts affectés aux segments. |[Ajouter des contacts à des segments](marketing-add-contact-segment.md) |
-| En savoir plus sur l'utilisation des interactions pour les segments, y compris la journalisation. |[Gestion des interactions pour des segments](marketing-interaction-segments.md) |
+| En savoir plus sur l’utilisation des interactions pour les segments, y compris la journalisation. |[Gestion des interactions pour des segments](marketing-interaction-segments.md) |
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion des opportunités de ventes](marketing-manage-sales-opportunities.md)  
