@@ -4,14 +4,14 @@ ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 923162f06045d13e37c80d31c27c8771eccf2f04
-ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
+ms.openlocfilehash: df06e45136e3ab948fb6ca090c84d10609b76f45
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3959651"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747545"
 ---
-Dans [!INCLUDE[d365fin](../../../includes/d365fin_md.md)], vous pouvez créer des relances livraison lorsqu'un achat n'a pas été livré comme prévu. Vous pouvez créer une relance livraison unique manuellement, ou vous pouvez générer des relances livraison pour toutes les livraisons échues.  
+Dans [!INCLUDE[prod_short](../../../includes/prod_short.md)], vous pouvez créer des relances livraison lorsqu'un achat n'a pas été livré comme prévu. Vous pouvez créer une relance livraison unique manuellement, ou vous pouvez générer des relances livraison pour toutes les livraisons échues.  
 
 > [!NOTE]
 > Pour créer des relances livraison, vous devez avoir configuré les conditions, les niveaux et les textes des relances livraison.

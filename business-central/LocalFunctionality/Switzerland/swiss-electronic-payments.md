@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4a5549b39b5f24d68bc790d213c1a59c35909f63
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 86ec9c8f1e5513534075bb70163c2f3242a94e3c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916376"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753158"
 ---
 # <a name="swiss-electronic-payments"></a>Paiements électroniques, Suisse
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] vous permet d'envoyer des factures aux clients par voie électronique. Les factures sont présentées et payées directement à l'aide du logiciel bancaire en ligne du client.  
+[!INCLUDE[prod_short](../../includes/prod_short.md)] vous permet d'envoyer des factures aux clients par voie électronique. Les factures sont présentées et payées directement à l'aide du logiciel bancaire en ligne du client.  
 
 ## <a name="electronic-payment-methods"></a>Modes de paiement électronique  
 Vous pouvez effectuer des paiements électroniques en utilisant les modes suivants :  

@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c733dcaea3900c2b53d2e0fbcf9c637dcc044db9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 33548a959177cc2c0f3459415cc58cbd750c9418
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916354"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753162"
 ---
 # <a name="swiss-purchase-documents-and-sales-documents"></a>Documents vente et Documents achat, Suisse
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] comprend des améliorations suisses propres aux documents d'achat et de vente. Notamment :  
+[!INCLUDE[prod_short](../../includes/prod_short.md)] comprend des améliorations suisses propres aux documents d'achat et de vente. Notamment :  
 
 - Libellés écriture améliorés pour les écritures comptables, écritures comptables client et fournisseur. Pour plus d'informations, voir la table Écriture comptable, la table Écriture comptable client et la table Écriture comptable fournisseur.  
 - Possibilité d'avoir des sous-titres, des sous-totaux et des totaux de début et de fin dans les devis et les commandes vente.  
@@ -36,7 +36,7 @@ Les articles sont divisés en fonction des valeurs générées par le système a
 Vous pouvez spécifier un article comme variante de la ligne devis. Cela vous permet de répertorier les articles secondaires sans inclure le prix du devis. Vous pouvez également faire référence aux éléments spécifiques de devis ou de commande vente en fonction de la valeur affichée dans le champ **Position** de la ligne devis ou de la ligne commande vente. Pour plus d'informations, voir la table Ligne vente.  
 
 > [!NOTE]
-> Cette fonctionnalité n’est disponible que dans [!INCLUDE[prodshort](../../includes/prodshort.md)] sur site.
+> Cette fonctionnalité n’est disponible que dans [!INCLUDE[prod_short](../../includes/prod_short.md)] sur site.
 
 ## <a name="purchase-invoices-and-sales-invoices-with-payment-discounts"></a>Factures achat et Factures vente avec escomptes  
 Pour les factures achat et les factures vente, le montant facture est retranché du montant remise, puis arrondi. Le facture totale est également arrondie s'il existe une remise. Pour plus d'informations, voir la table Paramètres comptabilité.  

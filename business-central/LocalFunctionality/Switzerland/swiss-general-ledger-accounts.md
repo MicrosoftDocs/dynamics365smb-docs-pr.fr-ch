@@ -10,22 +10,22 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ff997b55a9a45bc1ec06616591af8a2c2984f5df
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3b6f77b344628dccda66a752573a1a982c45ed7f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916372"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753166"
 ---
 # <a name="swiss-general-ledger-accounts"></a>Comptes généraux, Suisse
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] inclut les améliorations suisses apportées aux fonctions spéciales liées aux comptes généraux.
+[!INCLUDE[prod_short](../../includes/prod_short.md)] inclut les améliorations suisses apportées aux fonctions spéciales liées aux comptes généraux.
 
 - Conserver les soldes en devises d'un compte bancaire dans les comptes généraux.  
 - Trier les numéros de comptes généraux dans la page **Plan comptable**.  
 - Prévisualiser les effets que la validation des feuilles comptabilité auraient sur les soldes de certains comptes généraux avant leur validation réelle.  
 
 ## <a name="general-ledger-accounts-and-general-journals"></a>Comptes généraux et feuilles comptabilité  
-Les entreprises ont souvent des comptes bancaires différents pour les devises étrangères et disposent d'un compte général pour chaque compte bancaire. Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], vous pouvez définir un code devise et les informations de solde en devise étrangère dans la page **Plan comptable**. Cela vous permet de conserver le solde de départ en devises d'un compte bancaire. Pour plus d'informations, voir [Description des écritures comptables et du plan comptable](../../finance-general-ledger.md).  
+Les entreprises ont souvent des comptes bancaires différents pour les devises étrangères et disposent d'un compte général pour chaque compte bancaire. Dans [!INCLUDE[prod_short](../../includes/prod_short.md)], vous pouvez définir un code devise et les informations de solde en devise étrangère dans la page **Plan comptable**. Cela vous permet de conserver le solde de départ en devises d'un compte bancaire. Pour plus d'informations, voir [Description des écritures comptables et du plan comptable](../../finance-general-ledger.md).  
 
 Par exemple, une société a deux comptes bancaires : une pour la devise société (DS) et une pour les euros (EUR). Vous devez créer des écritures comptables pour chaque compte bancaire. Pour le compte en euros, définissez le code devise **EUR** et validez les feuilles en EUR ou DS.  
 
