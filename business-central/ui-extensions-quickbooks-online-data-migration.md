@@ -10,20 +10,20 @@ ms.workload: na
 ms. search.keywords: extension, migrate, data, QuickBooks, import
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 1c4e33593cd7d0084d3c41a22a865160411ef01f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 064f7fd7f0737263234b7324c298e513ef91e9c8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923510"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757482"
 ---
 # <a name="the-quickbooks-online-data-migration-extension"></a>Extension de migration des données QuickBooks Online
 
-Cette extension est incluse dans le guide d’installation facilité **Migration des données** pour vous aider à migrer les données métier pertinentes de QuickBooks Online vers [!INCLUDE[d365fin](includes/d365fin_md.md)]. Par exemple, c’est utile si votre activité se développe, et que vous avez décidé de mettre à niveau votre application de gestion d’entreprise en commençant à utiliser [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Cette extension est incluse dans le guide d’installation facilité **Migration des données** pour vous aider à migrer les données métier pertinentes de QuickBooks Online vers [!INCLUDE[prod_short](includes/prod_short.md)]. Par exemple, c’est utile si votre activité se développe, et que vous avez décidé de mettre à niveau votre application de gestion d’entreprise en commençant à utiliser [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## <a name="what-data-can-i-import-from-quickbooks-online"></a>Quelles données puis-je importer de QuickBooks Online ?
 
-Vous pouvez importer les données suivantes de QuickBooks Online vers [!INCLUDE[d365fin](includes/d365fin_md.md)] :  
+Vous pouvez importer les données suivantes de QuickBooks Online vers [!INCLUDE[prod_short](includes/prod_short.md)] :  
 
 * Clients
 * Fournisseurs
@@ -46,28 +46,28 @@ Une grande partie du processus de migration consiste à spécifier les comptes v
 * L’achat d’articles ou de service auprès d’un fournisseur.  
 * Ajustements des écritures comptables.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] nécessite que les comptes généraux aient des numéros de compte. S’assurer que les numéros de compte sont affectés aux comptes dans QuickBooks Online.
+[!INCLUDE[prod_short](includes/prod_short.md)] nécessite que les comptes généraux aient des numéros de compte. S’assurer que les numéros de compte sont affectés aux comptes dans QuickBooks Online.
 
-Si les transactions de QuickBooks Online ont des montants de taxe, vous devez créer un compte taxes pour vos administrations fiscales dans [!INCLUDE[d365fin](includes/d365fin_md.md)] avant de pouvoir valider des transactions.
+Si les transactions de QuickBooks Online ont des montants de taxe, vous devez créer un compte taxes pour vos administrations fiscales dans [!INCLUDE[prod_short](includes/prod_short.md)] avant de pouvoir valider des transactions.
 
 ## <a name="how-do-i-start-using-the-extension"></a>Comment commencer à utiliser à l’extension ?
 
-La mise en route est simple. Il vous suffit d’exécuter le guide d’installation assistée **Migration des données** . Voici comment :
+La mise en route est simple. Il vous suffit d’exécuter le guide d’installation assistée **Migration des données**. Voici comment :
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Configuration assistée** , puis sélectionnez **Migrer des données métier** .
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Configuration assistée**, puis sélectionnez **Migrer des données métier**.
 2. Suivez les instructions à chaque étape du guide d’installation assistée.
 
 ## <a name="what-do-i-do-after-i-migrate-data"></a>Que faire après une migration des données ?
 
-Après avoir effectué une migration des données, les transactions ont le statut **Non validé** , vous pouvez les consulter et faire des ajustements. Pour consulter les transactions, accédez à la page où vous les trouveriez normalement. Par exemple, pour examiner les factures vente non validées, accédez à la page **Factures vente** . Pour consulter des feuilles paiement, accédez à la page **Feuilles paiement** .  
+Après avoir effectué une migration des données, les transactions ont le statut **Non validé**, vous pouvez les consulter et faire des ajustements. Pour consulter les transactions, accédez à la page où vous les trouveriez normalement. Par exemple, pour examiner les factures vente non validées, accédez à la page **Factures vente**. Pour consulter des feuilles paiement, accédez à la page **Feuilles paiement**.  
 
 Il existe quelques éléments en particulier que vous devez effectuer :
 
-* Si les transactions dans QuickBooks Online avaient des montants de majoration ou remise, vous devez ajouter manuellement les montants aux transactions associées dans [!INCLUDE[d365fin](includes/d365fin_md.md)] avant de les valider.
+* Si les transactions dans QuickBooks Online avaient des montants de majoration ou remise, vous devez ajouter manuellement les montants aux transactions associées dans [!INCLUDE[prod_short](includes/prod_short.md)] avant de les valider.
 * Si vous utilisez la taxe sur la valeur ajoutée (TVA), vous devez ajouter un groupe comptabilisation marché et un groupe comptabilisation produit au paramétrage de la validation de manière à pouvoir valider les montants TVA.
 * Vérifiez les soldes de début des comptes du grand livre. QuickBooks Online ne stocke pas le solde actuel de tous les comptes, vous pouvez être amené à corriger les soldes d’ouverture.
 
 ## <a name="see-also"></a>Voir aussi
 
 [Importation des données métier à partir d’autres systèmes financiers](across-import-data-configuration-packages.md)  
-[Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l’aide d’extensions](ui-extensions.md)  
+[Personnalisation de [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide d’extensions](ui-extensions.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2cf9c34434136578b6ab31841c5bb7f69f72ae18
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 49448cc56d76846c70471a53a257986b543f11b3
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921482"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758832"
 ---
 # <a name="planning-with-or-without-locations"></a>Planification avec/sans magasin.
 En ce qui concerne la planification avec ou sans code magasin sur les lignes demande, le système opère directement lorsque :  
@@ -50,7 +50,7 @@ Lors de l’exécution de la planification, le système recherche ces 3 paramèt
 
     Si non :  
 
-    L’article est planifié comme suit : Méthode réapprovisionnement = *Lot pour Lot* , Inclure stock = *Oui* . Tous les autres paramètres de planification ont la valeur Vide. (Les articles qui suivent l’ *ordre* de la méthode réapprovisionnement continuent à *le* suivre, tout comme les autres paramètres.)  
+    L’article est planifié comme suit : Méthode réapprovisionnement = *Lot pour Lot*, Inclure stock = *Oui*. Tous les autres paramètres de planification ont la valeur Vide. (Les articles qui suivent l’*ordre* de la méthode réapprovisionnement continuent à *le* suivre, tout comme les autres paramètres.)  
 
 > [!NOTE]  
 >  Cette solution minimale couvre strictement la demande. Tout paramètre de planification défini est ignoré.  
@@ -58,8 +58,8 @@ Lors de l’exécution de la planification, le système recherche ces 3 paramèt
 Consultez les variantes des cas de figure ci-dessous.  
 
 ## <a name="demand-at-blank-location"></a>Demande dans un magasin blanc  
-Même si la case à cocher **Magasin obligatoire** est activée, le système autorise la création de lignes demande sans code magasin, ce que l’on appelle également « magasin *VIDE*  ». Il s’agit d’un écart pour le système car il a plusieurs valeurs de paramétrage accordées pour gérez les emplacements (voir ci-dessus) et, par conséquent, le moteur de planification ne crée pas de ligne planning pour une telle ligne demande. Si le champ **Magasin obligatoire** n’est pas sélectionné mais si une des valeurs d’emplacement existe, c’est également considéré comme un écart et le système de planification réagira en proposant la « solution minimale » :   
-L’article est planifié comme suit : Méthode réapprovisionnement =  *Lot pour lot* (l’ *ordre* conserve la valeur *Ordre)* , Inclure stock =  *Oui* . Tous les autres paramètres de planification ont la valeur Vide.  
+Même si la case à cocher **Magasin obligatoire** est activée, le système autorise la création de lignes demande sans code magasin, ce que l’on appelle également « magasin *VIDE* ». Il s’agit d’un écart pour le système car il a plusieurs valeurs de paramétrage accordées pour gérez les emplacements (voir ci-dessus) et, par conséquent, le moteur de planification ne crée pas de ligne planning pour une telle ligne demande. Si le champ **Magasin obligatoire** n’est pas sélectionné mais si une des valeurs d’emplacement existe, c’est également considéré comme un écart et le système de planification réagira en proposant la « solution minimale » :   
+L’article est planifié comme suit : Méthode réapprovisionnement =  *Lot pour lot* (l’ *ordre* conserve la valeur *Ordre)*, Inclure stock =  *Oui*. Tous les autres paramètres de planification ont la valeur Vide.  
 
 Consultez les variantes des scénarios de configuration ci-dessous.  
 
@@ -69,19 +69,19 @@ Consultez les variantes des scénarios de configuration ci-dessous.
 -   Le point de stock a pour valeur  *ROUGE*  
 -   Mag. composant par déf =  *BLEU*  
 
-#### <a name="case-11-demand-is-at--red-location"></a>Situation 1.1 : la demande concerne un magasin  *ROUGE* .  
+#### <a name="case-11-demand-is-at--red-location"></a>Situation 1.1 : la demande concerne un magasin  *ROUGE*.  
 
 L’article est planifié en fonction des paramètres de planification de la fiche point de stock (y compris, un éventuel transfert).  
 
-#### <a name="case-12-demand-is-at--blue-location"></a>Situation 1.2 : la demande concerne un magasin  *BLEU* .  
+#### <a name="case-12-demand-is-at--blue-location"></a>Situation 1.2 : la demande concerne un magasin  *BLEU*.  
 
 L’article est planifié en fonction des paramètres de planification de la fiche article.  
 
-#### <a name="case-13-demand-is-at--green-location"></a>Situation 1.3 : la demande concerne un magasin  *VERT* .  
+#### <a name="case-13-demand-is-at--green-location"></a>Situation 1.3 : la demande concerne un magasin  *VERT*.  
 
-L’article est planifié comme suit : Méthode réapprovisionnement =  *Lot pour Lot* (l’ *ordre* conserve la valeur  *Ordre* ), Inclure stock =  *Oui* . Tous les autres paramètres de planification ont la valeur Vide.  
+L’article est planifié comme suit : Méthode réapprovisionnement =  *Lot pour Lot* (l’ *ordre* conserve la valeur  *Ordre*), Inclure stock =  *Oui*. Tous les autres paramètres de planification ont la valeur Vide.  
 
-#### <a name="case-14-demand-is-at--blank-location"></a>Situation 1.4 : la demande concerne un magasin  *BLANC* .  
+#### <a name="case-14-demand-is-at--blank-location"></a>Situation 1.4 : la demande concerne un magasin  *BLANC*.  
 
 L’article n’est pas planifié car aucun magasin n’est défini sur la ligne demande.  
 
@@ -91,11 +91,11 @@ L’article n’est pas planifié car aucun magasin n’est défini sur la ligne
 -   Il n ’existe pas de point de stock.  
 -   Mag. composant par déf =  *BLEU*  
 
-#### <a name="case-21-demand-is-at--red-location"></a>Situation 2.1 : la demande concerne un magasin  *ROUGE* .  
+#### <a name="case-21-demand-is-at--red-location"></a>Situation 2.1 : la demande concerne un magasin  *ROUGE*.  
 
-L’article est planifié comme suit : Méthode réapprovisionnement =  *Lot pour Lot* (l’ *ordre* conserve la valeur  *Ordre* ), Inclure stock =  *Oui* . Tous les autres paramètres de planification ont la valeur Vide.  
+L’article est planifié comme suit : Méthode réapprovisionnement =  *Lot pour Lot* (l’ *ordre* conserve la valeur  *Ordre*), Inclure stock =  *Oui*. Tous les autres paramètres de planification ont la valeur Vide.  
 
-#### <a name="case-22-demand-is-at--blue-location"></a>Situation 2.2 : la demande concerne un magasin  *BLEU* .  
+#### <a name="case-22-demand-is-at--blue-location"></a>Situation 2.2 : la demande concerne un magasin  *BLEU*.  
 
 L’article est planifié en fonction des paramètres de planification de la fiche article.  
 
@@ -105,17 +105,17 @@ L’article est planifié en fonction des paramètres de planification de la fic
 -   Il n ’existe pas de point de stock.  
 -   Mag. composant par déf =  *BLEU*  
 
-#### <a name="case-31-demand-is-at--red-location"></a>Situation 3.1 : la demande concerne un magasin  *ROUGE* .  
+#### <a name="case-31-demand-is-at--red-location"></a>Situation 3.1 : la demande concerne un magasin  *ROUGE*.  
 
-L’article est planifié comme suit : Méthode réapprovisionnement =  *Lot pour Lot* (l’ *ordre* conserve la valeur  *Ordre* ), Inclure stock =  *Oui* . Tous les autres paramètres de planification ont la valeur Vide.  
+L’article est planifié comme suit : Méthode réapprovisionnement =  *Lot pour Lot* (l’ *ordre* conserve la valeur  *Ordre*), Inclure stock =  *Oui*. Tous les autres paramètres de planification ont la valeur Vide.  
 
-#### <a name="case-32-demand-is-at--blue-location"></a>Situation 3.2 : la demande concerne un magasin  *BLEU* .  
+#### <a name="case-32-demand-is-at--blue-location"></a>Situation 3.2 : la demande concerne un magasin  *BLEU*.  
 
 L’article est planifié en fonction des paramètres de planification de la fiche article.  
 
-#### <a name="case-33-demand-is-at--blank-location"></a>Situation 3.3 : la demande concerne un magasin  *BLANC* .  
+#### <a name="case-33-demand-is-at--blank-location"></a>Situation 3.3 : la demande concerne un magasin  *BLANC*.  
 
-L’article est planifié comme suit : Méthode réapprovisionnement =  *Lot pour Lot* (l’ *ordre* conserve la valeur  *Ordre* ), Inclure stock =  *Oui* . Tous les autres paramètres de planification ont la valeur Vide.  
+L’article est planifié comme suit : Méthode réapprovisionnement =  *Lot pour Lot* (l’ *ordre* conserve la valeur  *Ordre*), Inclure stock =  *Oui*. Tous les autres paramètres de planification ont la valeur Vide.  
 
 ### <a name="setup-4"></a>Configuration 4 :  
 
@@ -123,11 +123,11 @@ L’article est planifié comme suit : Méthode réapprovisionnement =  *Lot pou
 -   Il n ’existe pas de point de stock.  
 -   Mag. composant par déf =  *VIDE*  
 
-#### <a name="case-41-demand-is-at--blue-location"></a>Situation 4.1 : la demande concerne un magasin  *BLEU* .  
+#### <a name="case-41-demand-is-at--blue-location"></a>Situation 4.1 : la demande concerne un magasin  *BLEU*.  
 
-L’article est planifié comme suit : Méthode réapprovisionnement =  *Lot pour Lot* (l’ *ordre* conserve la valeur  *Ordre* ), Inclure stock =  *Oui* . Tous les autres paramètres de planification ont la valeur Vide.  
+L’article est planifié comme suit : Méthode réapprovisionnement =  *Lot pour Lot* (l’ *ordre* conserve la valeur  *Ordre*), Inclure stock =  *Oui*. Tous les autres paramètres de planification ont la valeur Vide.  
 
-#### <a name="case-42-demand-is-at--blank-location"></a>Situation 4.2 : la demande concerne un magasin  *BLANC* .  
+#### <a name="case-42-demand-is-at--blank-location"></a>Situation 4.2 : la demande concerne un magasin  *BLANC*.  
 
 L’article est planifié en fonction des paramètres de planification de la fiche article.  
 
@@ -143,4 +143,4 @@ Par conséquent, si vous planifiez souvent des demandes dans des magasins, il es
 [Achats](purchasing-manage-purchasing.md)  
 [Détails de conception : planification de l’approvisionnement](design-details-supply-planning.md)   
 [Pratiques de configuration recommandées : planification de l’approvisionnement](setup-best-practices-supply-planning.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

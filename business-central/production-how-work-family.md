@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5b405d883d42af98a95066fc9e918a69d9ce99e6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f33ac3e581325eb714af67ee7040157a61e59fc7
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921507"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758882"
 ---
 # <a name="work-with-production-families"></a>Utiliser les familles de production
 Une famille de production est un groupe d’articles distincts dont la relation repose sur la similitude de leur processus de fabrication. Si vous formez des familles de production, certains articles peuvent être fabriqués plusieurs fois au cours d’une production, ce qui optimise la consommation de matière.
 
-Dans le champ **Quantité** de la page **Famille** , entrez la quantité à produire lorsque l’ensemble de la famille a été fabriquée une fois.
+Dans le champ **Quantité** de la page **Famille**, entrez la quantité à produire lorsque l’ensemble de la famille a été fabriquée une fois.
 
 ## <a name="example"></a>Exemple :
 Dans les processus de découpe, quatre pièces du même article et dix pièces d’un autre peuvent être fabriquées simultanément à partir d’une plaque. La machine à découpe découpe les 14 pièces en une seule fois.
@@ -28,14 +28,14 @@ Dans les processus de découpe, quatre pièces du même article et dix pièces d
 Le regroupement d’éléments en familles de production permet de réduire la quantité perte car ce qui devrait normalement constituer un rebut définitif, lors de la fabrication de grosses pièces, est utilisé pour fabriquer de petits articles.
 
 ## <a name="to-set-up-a-production-family"></a>Pour configurer une famille de production
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Familles** , puis sélectionnez le lien associé.
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Familles**, puis sélectionnez le lien associé.
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-produce-based-on-a-production-family"></a>Pour produire selon une famille de production
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **O.F. planifiés fermes** , puis sélectionnez le lien associé.
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **O.F. planifiés fermes**, puis sélectionnez le lien associé.
 2. Créez un ordre de fabrication. Pour plus d’informations, voir [Créer des ordres de fabrication](production-how-to-create-production-orders.md).
-3. Dans le champ **Type origine** , sélectionnez **Famille** .  
-4. Dans le champ **N° origine** , sélectionnez la famille de production appropriée.
+3. Dans le champ **Type origine**, sélectionnez **Famille**.  
+4. Dans le champ **N° origine**, sélectionnez la famille de production appropriée.
 
 ## <a name="see-also"></a>Voir aussi
 [Créer des nomenclatures de production](production-how-to-create-production-boms.md)  
@@ -44,4 +44,4 @@ Le regroupement d’éléments en familles de production permet de réduire la q
 [Planifié](production-planning.md)   
 [Stock](inventory-manage-inventory.md)  
 [Achats](purchasing-manage-purchasing.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

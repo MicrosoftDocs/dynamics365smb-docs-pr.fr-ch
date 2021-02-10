@@ -11,16 +11,16 @@ ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
 ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: a0e62b60f9624cad44efa7fd42c5840a2ecd07b5
-ms.sourcegitcommit: aea079b66e35c447bf31a11ffc2069cfdaf2ef38
+ms.openlocfilehash: bcd7a60f9e8fd6739a3d09f5aa1b3e6819e3ccc3
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "3970376"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757558"
 ---
 # <a name="installing-and-uninstalling-extensions-in-business-central"></a>Installation et désinstallation d’extensions dans Business Central
 
-Vous pouvez modifier [!INCLUDE[d365fin](includes/d365fin_md.md)] en installant des extensions qui, par exemple, ajoutent des fonctionnalités, modifient le comportement de l’application, ou vous permettent d’accéder à de nouveaux services en ligne. Pour plus d’informations, voir [Personnalisation de Business Central à l’aide d’extensions](ui-extensions.md).
+Vous pouvez modifier [!INCLUDE[prod_short](includes/prod_short.md)] en installant des extensions qui, par exemple, ajoutent des fonctionnalités, modifient le comportement de l’application, ou vous permettent d’accéder à de nouveaux services en ligne. Pour plus d’informations, voir [Personnalisation de Business Central à l’aide d’extensions](ui-extensions.md).
 
 > [!NOTE]
 > Pour installer des extensions à partir de AppSource ou ajouter des extensions par locataire, vous devez disposer des autorisations adéquates. Vous devez être membre du groupe d’utilisateurs D365 EXTENSION MGMT ou disposer du jeu d’autorisations D365 EXTENSION MGMT. Si vous êtes un administrateur, vous pouvez attribuer des groupes d’utilisateurs et des autorisations à d’autres utilisateurs de votre entreprise.<br /><br />
@@ -28,21 +28,21 @@ Pour utiliser les fonctionnalités fournies par une extension, telles que l’ou
 
 ## <a name="installing-an-extension"></a>Installation d’une extension
 
-La page **Gestion des extensions** vous permet de gérer les extensions. Vous pouvez accéder à cette page à partir de la page d’accueil. Sinon, choisissez l’icône **Page ou état pour la recherche** ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") dans le coin supérieur droit, entrez **Extension** , puis sélectionnez le lien associé.  
+La page **Gestion des extensions** vous permet de gérer les extensions. Vous pouvez accéder à cette page à partir de la page d’accueil. Sinon, choisissez l’icône **Page ou état pour la recherche** ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") dans le coin supérieur droit, entrez **Extension**, puis sélectionnez le lien associé.  
 
-Vous pouvez obtenir de nouvelles extensions depuis le marché à l’adresse [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646). Ici, vous trouverez toutes les extensions disponibles pour [!INCLUDE[d365fin](includes/d365fin_md.md)], et vous pourrez obtenir des applications, des extensions et des packs de contenu pour d’autres produits Microsoft. Définissez les filtres appropriés, observez les informations pour chaque extension et obtenez une extension pour votre [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Vous pouvez obtenir de nouvelles extensions depuis le marché à l’adresse [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646). Ici, vous trouverez toutes les extensions disponibles pour [!INCLUDE[prod_short](includes/prod_short.md)], et vous pourrez obtenir des applications, des extensions et des packs de contenu pour d’autres produits Microsoft. Définissez les filtres appropriés, observez les informations pour chaque extension et obtenez une extension pour votre [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 > [!NOTE]  
-> Connectez-vous au site [AppSource.microsoft.com](https://appsource.microsoft.com/) à l’aide du compte de messagerie électronique que vous utilisez pour [!INCLUDE[d365fin](includes/d365fin_md.md)]. Utilisez le même compte de messagerie électronique pour d’autres services et produits pour une expérience agréable.  
+> Connectez-vous au site [AppSource.microsoft.com](https://appsource.microsoft.com/) à l’aide du compte de messagerie électronique que vous utilisez pour [!INCLUDE[prod_short](includes/prod_short.md)]. Utilisez le même compte de messagerie électronique pour d’autres services et produits pour une expérience agréable.  
 
-Vous pouvez également accéder au marché à partir de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Sur la page **Gestion des extensions** , vous pouvez voir les extensions actuellement installées, et vous pouvez ouvrir la page **Marché des extensions** qui affiche les extensions [!INCLUDE[d365fin](includes/d365fin_md.md)] actuellement disponibles dans AppSource. Si vous optez pour le lien *Plus d’applications* , vous êtes dirigé vers le site [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).  
+Vous pouvez également accéder au marché à partir de [!INCLUDE[prod_short](includes/prod_short.md)]. Sur la page **Gestion des extensions**, vous pouvez voir les extensions actuellement installées, et vous pouvez ouvrir la page **Marché des extensions** qui affiche les extensions [!INCLUDE[prod_short](includes/prod_short.md)] actuellement disponibles dans AppSource. Si vous optez pour le lien *Plus d’applications*, vous êtes dirigé vers le site [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
-Si vous choisissez une extension, vous pouvez consulter une documentation relative à ses fonctionnalités, et accéder au service d’aide de l’extension pour en savoir plus. Lorsque vous choisissez d’obtenir une extension, vous devez être d’accord avec les conditions d’utilisation. Si vous obtenez l’extension à partir du site Web AppSource, vous serez connecté à [!INCLUDE[d365fin](includes/d365fin_md.md)] pour terminer l’installation.  
+Si vous choisissez une extension, vous pouvez consulter une documentation relative à ses fonctionnalités, et accéder au service d’aide de l’extension pour en savoir plus. Lorsque vous choisissez d’obtenir une extension, vous devez être d’accord avec les conditions d’utilisation. Si vous obtenez l’extension à partir du site Web AppSource, vous serez connecté à [!INCLUDE[prod_short](includes/prod_short.md)] pour terminer l’installation.  
 
-Lorsque vous installez une extension, vous pouvez être amené à la configurer, par exemple spécifier un compte à utiliser avec l’extension **PayPal Payments Standard pour [!INCLUDE[d365fin](includes/d365fin_md.md)]** .
+Lorsque vous installez une extension, vous pouvez être amené à la configurer, par exemple spécifier un compte à utiliser avec l’extension **PayPal Payments Standard pour [!INCLUDE[prod_short](includes/prod_short.md)]**.
 D’autres extensions ajoutent simplement des champs à une page existante, ou ajoutent une nouvelle page, par exemple.
 
-Si vous désinstallez une extension, et que vous changez ensuite d’avis, vous pouvez la réinstaller. Lorsque vous désinstallez une extension que vous avez utilisée, les données sont conservées de sorte à demeurer disponibles si vous installez à nouveau l’extension. Certaines extensions sont nécessaires. Vous ne pouvez pas les désinstaller à partir de la page **Gestion des extensions** . Si vous essayez, un message d’erreur apparaît.
+Si vous désinstallez une extension, et que vous changez ensuite d’avis, vous pouvez la réinstaller. Lorsque vous désinstallez une extension que vous avez utilisée, les données sont conservées de sorte à demeurer disponibles si vous installez à nouveau l’extension. Certaines extensions sont nécessaires. Vous ne pouvez pas les désinstaller à partir de la page **Gestion des extensions**. Si vous essayez, un message d’erreur apparaît.
 
 Certaines extensions sont fournies par Microsoft, et d’autres sont fournies par [d’autres sociétés](ui-extensions-other.md). Toutes les sont extensions testées avant d’être mises à votre disposition, mais nous vous recommandons d’accéder aux liens qui sont inclus dans chaque extension pour en savoir plus sur l’extension avant de décider de l’installer.
 
@@ -69,26 +69,26 @@ Microsoft fournit les extensions suivantes :
 * [DK – Migration de données C5](ui-extensions-c5-data-migration.md)
 * [DK – Paiements et rapprochements](ui-extensions-payments-reconciliation-formats-dk.md)
 * [DK – Formats de fichier fiscal](ui-extensions-tax-file-formats-dk.md)
-* [R.-U. – Extension GetAddress.io UK Postcodes](ui-extensions-getaddressio.md)
+* [Extension GetAddress.io UK Postcodes](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
 * [É.-U./CA/R.-U./AU/N.-Z./ZA – Envoi d’un avis de versement](ui-extensions-send-remittance-advice.md)
 
 ## <a name="uninstalling-an-extension"></a>Désinstallation d’une extension
 
-Pour désinstaller une extension, allez sur la page **Gestion des extensions** . Si vous désinstallez une extension, et que vous changez d’avis ensuite, vous pouvez la réinstaller à nouveau. Lorsque vous désinstallez une extension que vous avez utilisée, les données sont conservées par défaut si vous installez à nouveau l’extension. Vous pouvez à la place choisir de supprimer les données avec l’extension. Ceci est contrôlé par la case à cocher **Supprimer les données d’extension** . Par défaut, cette case *n’est pas activée* .
+Pour désinstaller une extension, allez sur la page **Gestion des extensions**. Si vous désinstallez une extension, et que vous changez d’avis ensuite, vous pouvez la réinstaller à nouveau. Lorsque vous désinstallez une extension que vous avez utilisée, les données sont conservées par défaut si vous installez à nouveau l’extension. Vous pouvez à la place choisir de supprimer les données avec l’extension. Ceci est contrôlé par la case à cocher **Supprimer les données d’extension**. Par défaut, cette case *n’est pas activée*.
 
 > [!IMPORTANT]  
-> Si vous activez la case à cocher **Supprimer les données d’extension** , une boîte de dialogue de confirmation s’affiche et vous devez choisir **OK** . Si la case à cocher **Supprimer les données d’extension** est activée, vous pouvez désormais désinstaller l’extension, et il vous sera demandé de reconfirmer que vous souhaitez désinstaller l’extension et supprimer les données. L’action ne peut pas être annulée.
-Certaines extensions sont requises. Vous ne pouvez pas les désinstaller à partir de la page **Gestion des extensions** . Si vous essayez, un message d’erreur apparaît.  
+> Si vous activez la case à cocher **Supprimer les données d’extension**, une boîte de dialogue de confirmation s’affiche et vous devez choisir **OK**. Si la case à cocher **Supprimer les données d’extension** est activée, vous pouvez désormais désinstaller l’extension, et il vous sera demandé de reconfirmer que vous souhaitez désinstaller l’extension et supprimer les données. L’action ne peut pas être annulée.
+Certaines extensions sont requises. Vous ne pouvez pas les désinstaller à partir de la page **Gestion des extensions**. Si vous essayez, un message d’erreur apparaît.  
 
 ## <a name="see-also"></a>Voir aussi
 
-[Extension de Dynamics 365 Business Central](about-develop-extensions.md)  
+[Personnaliser Business Central](ui-customizing-overview.md)  
 [Extensions Business Central par d’autres fournisseurs](ui-extensions-other.md)  
 [Configurer le service Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)  
 [Activer les paiements client via Paypal](sales-how-enable-payment-service-extensions.md)  
 [Migration des données métier à partir d’autres systèmes financiers](across-import-data-configuration-packages.md)  
 [Configuration de l’extension GetAddress.io UK Postal Code](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)  
-[Extensions [!INCLUDE[d365fin](includes/d365fin_md.md)] par d’autres fournisseurs](ui-extensions-other.md)  
+[Extensions [!INCLUDE[prod_short](includes/prod_short.md)] par d’autres fournisseurs](ui-extensions-other.md)  
 [Mise en route](product-get-started.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

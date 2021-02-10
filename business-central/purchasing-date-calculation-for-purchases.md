@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 046c829955b38f6f5ea416e0a80c1fe058476942
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 22153df1e56d274256b53d426e2dff30cad3e4bc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918920"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758607"
 ---
 # <a name="date-calculation-for-purchases"></a>Calcul de la date des achats
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] calcule automatiquement la date à laquelle vous devez commander un article pour l’avoir en stock à une certaine date. Il s’agit de la date à laquelle des articles commandés à une date donnée devraient être disponibles pour le prélèvement.  
+[!INCLUDE[prod_short](includes/prod_short.md)] calcule automatiquement la date à laquelle vous devez commander un article pour l’avoir en stock à une certaine date. Il s’agit de la date à laquelle des articles commandés à une date donnée devraient être disponibles pour le prélèvement.  
 
-Si vous saisissez une date de réception souhaitée sur un en-tête de commande achat, la date de commande calculée est la date à laquelle la commande doit être passée pour recevoir les articles à la date que vous avez demandée. Ensuite, la date à laquelle les articles peuvent être prélevés est calculée et saisie dans le champ **Date réception prévue** .  
+Si vous saisissez une date de réception souhaitée sur un en-tête de commande achat, la date de commande calculée est la date à laquelle la commande doit être passée pour recevoir les articles à la date que vous avez demandée. Ensuite, la date à laquelle les articles peuvent être prélevés est calculée et saisie dans le champ **Date réception prévue**.  
 
 Si vous n’indiquez aucune date réception demandée, le programme utilise la date commande de la ligne comme point de départ pour le calcul de la date à laquelle vous souhaitez recevoir les articles et la date disponibilité des articles pour leur prélèvement.  
 
@@ -50,7 +50,7 @@ Si vous modifiez la date commande sur l’en\-tête, celle\-ci est copiée dans 
 
 ## <a name="default-values-for-lead-time-calculation"></a>Valeurs par défaut du délai de réapprovisionnement
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] utilise la valeur du champ **Délai de réappro.** sur la ligne de commande d’achat pour calculer la commande et les dates réception prévues.  
+[!INCLUDE[prod_short](includes/prod_short.md)] utilise la valeur du champ **Délai de réappro.** sur la ligne de commande d’achat pour calculer la commande et les dates réception prévues.  
 
 Vous pouvez spécifier manuellement la valeur sur la ligne ou laisser le programme utiliser les valeurs définies sur la fiche fournisseur, la fiche article, la fiche point de stock ou le catalogue fournisseur article.
 Toutefois, la valeur du délai de réapprovisionnement sur la fiche fournisseur n’est utilisée que si un délai de réapprovisionnement n’est pas spécifié sur la fiche article, la fiche point de stock ou le catalogue fournisseur article pour l’article. Il s’agit également de l’ordre de priorité de ces valeurs. Si elles sont toutes fournies, le délai de réapprovisionnement de la fiche fournisseur a la priorité la plus faible et le délai de réapprovisionnement du catalogue fournisseur article a la priorité la plus élevée.  
@@ -59,4 +59,4 @@ Toutefois, la valeur du délai de réapprovisionnement sur la fiche fournisseur 
 
 [Calcul de la date des ventes](sales-date-calculation-for-sales.md)   
 [Calculer des dates promesse livraison](sales-how-to-calculate-order-promising-dates.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -12,12 +12,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9cf84c0b0bb095ad3dd4a4863401dd82b42f00d7
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 12215ba987bee5a95fbf97e4b4bb190972bdf14b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912261"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757180"
 ---
 # <a name="the-paypal-payments-standard-extension"></a>Extension PayPal Payments Standard
 Les clients sont toujours plus exigeants en ce qui concerne le service clientèle, en termes de qualité de produits mais aussi en termes d’options de livraison et de paiement. Le service PayPal Payments Standard vous aide à développer votre service clientèle.
@@ -37,6 +37,6 @@ Le service PayPal Payments Standard fournit les avantages suivants :
 Pour plus d’informations, reportez-vous à [Activer les paiements client via Paypal](sales-how-enable-payment-service-extensions.md).
 
 ## <a name="see-also"></a>Voir aussi
-[Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l’aide des extensions](ui-extensions.md)  
+[Personnalisation de [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide des extensions](ui-extensions.md)  
 [Définition des ventes](sales-setup-sales.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

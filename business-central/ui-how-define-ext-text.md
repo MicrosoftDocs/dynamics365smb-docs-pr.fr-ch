@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1dd6c3085c0cb8696b6e7011fbea3c3cd9a1c86e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 9e443a44135bbdaf75f6a064370983592797b10b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920462"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756932"
 ---
 # <a name="add-extended-text"></a>Ajouter du texte étendu
 
@@ -24,12 +24,12 @@ La section suivante décrit comment ajouter du texte étendu à une description 
 
 ## <a name="to-define-extended-text-for-an-description"></a>Pour définir le texte étendu pour une description
 
-1. Ouvrez la fiche correspondant à l’article auquel vous voulez ajouter du texte étendu, puis sélectionnez **Texte étendu** .
-2. Renseignez les champs **Code** et **Désignation** .
-3. Choisissez **Nouveau** .
+1. Ouvrez la fiche correspondant à l’article auquel vous voulez ajouter du texte étendu, puis sélectionnez **Texte étendu**.
+2. Renseignez les champs **Code** et **Désignation**.
+3. Choisissez **Nouveau**.
 4. Renseignez le champ **Code langue** ou activez la case à cocher **Commun toutes langues** si vous utilisez des codes langue.
 5. Renseignez les champs **Date début** et **Date fin** si vous souhaitez limiter les dates d’utilisation du texte étendu.
-6. Dans le champ **Texte** , entrez le texte étendu.
+6. Dans le champ **Texte**, entrez le texte étendu.
 7. Cochez les cases appropriées pour les types de documents où vous souhaitez imprimer le texte étendu.
 8. Fermez la page.
 
@@ -38,9 +38,9 @@ Vous pouvez maintenant ajouter ce texte étendu aux documents. La procédure sui
 ## <a name="to-add-an-extended-item-text-on-a-sales-order-line"></a>Pour ajouter un texte d’article étendu à une ligne commande vente
 
 1. Ouvrez une commande vente avec une ligne vente pour un article qui a étendu le texte défini. Pour en savoir plus, voir [Vendre des produits](sales-how-sell-products.md).
-2. Sélectionnez la ligne en question, puis sélectionnez l’action **Insérer textes étendus** .
+2. Sélectionnez la ligne en question, puis sélectionnez l’action **Insérer textes étendus**.
 
 ## <a name="see-also"></a>Voir aussi
 
 [Configuration de stock](inventory-setup-inventory.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

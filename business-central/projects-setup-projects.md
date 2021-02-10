@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: projects
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bb76950dcf84a49ed2644a7db19827999579d24b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6189968a44a4001d76f44bf1331594f73ea58e05
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918978"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758582"
 ---
 # <a name="setting-up-project-management"></a>Configuration de la gestion de projet
-Avant de pouvoir utiliser le module [!INCLUDE[d365fin](includes/d365fin_md.md)] pour gérer les projets, vous devez définir des ressources, des feuilles de temps et des projets.
+Avant de pouvoir utiliser le module [!INCLUDE[prod_short](includes/prod_short.md)] pour gérer les projets, vous devez définir des ressources, des feuilles de temps et des projets.
 
 Vous pouvez ensuite créer des projets, planifier des ressources pour des projets ainsi que gérer des budgets et suivre les heures des salariés et des postes avec des feuilles de temps. Pour plus d’informations, reportez-vous à [Gestion des projets](projects-manage-projects.md).  
 
@@ -38,4 +38,4 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 [Finances](finance.md)  
 [Achats](purchasing-manage-purchasing.md)  
 [Ventes](sales-manage-sales.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

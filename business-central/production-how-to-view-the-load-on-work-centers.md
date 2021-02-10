@@ -1,6 +1,6 @@
 ---
 title: Procédure d’affichage de la charge des centres de charge et des postes de charge | Microsoft Docs
-description: Sur la fiche **Centre de charge** , vous pouvez afficher la charge des centres de charge en tant que résultat des ordres de fabrication lancés.
+description: Sur la fiche **Centre de charge**, vous pouvez afficher la charge des centres de charge en tant que résultat des ordres de fabrication lancés.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 38e1e3dd1f6e651d7490657f217b52513ba88792
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 54b32e4befaf510c1c0d1714e580d4e7939be8a5
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913261"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758907"
 ---
 # <a name="view-load-on-work-and-machine-centers"></a>Afficher la charge des centres de charge et des postes de charge
-Sur les pages **Fiche centre de charge** et **Fiche poste de charge** , vous pouvez afficher la charge de l’atelier en tant que résultat des ordres de fabrication planifiés et lancés.    
+Sur les pages **Fiche centre de charge** et **Fiche poste de charge**, vous pouvez afficher la charge de l’atelier en tant que résultat des ordres de fabrication planifiés et lancés.    
 
 ## <a name="to-view-the-load-on-work-centers"></a>Pour afficher la charge des centres de charge  
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Centres de charge** , puis sélectionnez le lien associé.  
-2.  Ouvrez la fiche **Centre de charge** appropriée dans la liste, puis choisissez l’action **Charge** .  
+1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Centres de charge**, puis sélectionnez le lien associé.  
+2.  Ouvrez la fiche **Centre de charge** appropriée dans la liste, puis choisissez l’action **Charge**.  
 
 Les champs **Afficher par** et **Afficher en tant que** sur le raccourci **Options** permettent de sélectionner la période demandée.  
 
@@ -32,4 +32,4 @@ Les champs **Afficher par** et **Afficher en tant que** sur le raccourci **Optio
 [Planifié](production-planning.md)      
 [Stock](inventory-manage-inventory.md)  
 [Achats](purchasing-manage-purchasing.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

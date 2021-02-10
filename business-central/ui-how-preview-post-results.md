@@ -11,24 +11,24 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: fa57a5ecce6553ce9315e4cd205f3367d9664bda
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 06e498444879a9b77b1418c44f4dd39395c8a4b5
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910195"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756907"
 ---
 # <a name="preview-posting-results"></a>Résultats de l’aperçu compta.
 Sur chaque document et feuille qui peuvent être validés, vous pouvez cliquer sur le bouton **Aperçu compta.** pour examiner différents types d’entrées qui seront créées lorsque vous validez le document ou la feuille.
 
 ## <a name="to-preview-gl-entries-that-will-result-from-posting-a-purchase-invoice"></a>Pour afficher un aperçu des écritures comptables qui résulteront de la validation d’une facture achat
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Factures achat** , puis sélectionnez le lien associé.
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Factures achat**, puis sélectionnez le lien associé.
 2. Créez une facture achat. Pour plus d’informations, voir [Enregistrer des achats](purchasing-how-record-purchases.md).
-3. Sélectionnez **Aperçu compta.** .
-4. Sur la page **Aperçu compta.** , sélectionnez **Écriture comptable** , puis sélectionnez **Afficher écritures associées** .  
+3. Sélectionnez **Aperçu compta.**.
+4. Sur la page **Aperçu compta.**, sélectionnez **Écriture comptable**, puis sélectionnez **Afficher écritures associées**.  
    La page **Aperçu des écritures comptables** affiche les écritures qui seront créés lorsque vous validez la facture achat.
 
 ## <a name="see-also"></a>Voir aussi
 [Validation des documents et des feuilles](ui-post-documents-journals.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)

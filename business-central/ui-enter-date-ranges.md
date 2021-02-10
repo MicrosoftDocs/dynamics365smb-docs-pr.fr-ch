@@ -11,26 +11,26 @@ ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f658764eafa6f9aa35e33cf8098ca77799fb1e0c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 853a45dc32907c2d9b69f7b2e592dc164c20a094
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912486"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757382"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Utilisation de dates civiles et les heures
 
-[!INCLUDE[d365fin](includes/d365fin_long_md.md)] offre plusieurs méthodes principales de saisie des dates et des heures, y compris des fonctions puissantes qui accélèrent la saisie de données, ou vous permettent de saisir des expressions de calendrier complexes. Il existe différents emplacements tout au long de l’application où vous pouvez entrer des dates et des heures dans les champs. Par exemple, dans une commande client, vous pouvez également définir la date d’expédition. En filtrant les données de liste ou d’état, vous pouvez entrer des dates et des heures pour désigner uniquement les données que vous intéressent.
+[!INCLUDE[prod_short](includes/prod_long.md)] offre plusieurs méthodes principales de saisie des dates et des heures, y compris des fonctions puissantes qui accélèrent la saisie de données, ou vous permettent de saisir des expressions de calendrier complexes. Il existe différents emplacements tout au long de l’application où vous pouvez entrer des dates et des heures dans les champs. Par exemple, dans une commande client, vous pouvez également définir la date d’expédition. En filtrant les données de liste ou d’état, vous pouvez entrer des dates et des heures pour désigner uniquement les données que vous intéressent.
 
 ## <a name="check-your-region-and-language-settings"></a>Vérifiez les paramètres de zone et de langue
 La page **Mes paramètres** spécifie la **Région** et la **Langue** que vous utilisez dans l’application. Ces paramètres ont une incidence sur la manière dont vous saisissez des dates et des heures.
 
 -   Le paramètre **Région** détermine la manière dont les dates, heures, nombres et devises sont affichés ou mis en forme.
 
--   Pour des modèles de date qui impliquent des mots, la langue des mots utilisée doit correspondre au paramètre **Langue** .
+-   Pour des modèles de date qui impliquent des mots, la langue des mots utilisée doit correspondre au paramètre **Langue**.
 
 > [!NOTE]
-> [!INCLUDE[d365fin](includes/d365fin_long_md.md)] utilise le système du calendrier grégorien.
+> [!INCLUDE[prod_short](includes/prod_long.md)] utilise le système du calendrier grégorien.
 
 <!--
 The following sections describe how you can enter dates, times, datetimes, durations, date ranges, and how you use date formulas.
@@ -72,19 +72,19 @@ Vous pouvez saisir deux, quatre, six ou huit chiffres dans un champ date :
 
 ### <a name="today"></a>Aujourd’hui
 
-Entrez le mot pour aujourd’hui, dans la langue définie par le paramètre **Langue** , qui définit la date à la date actuelle. Au lieu de saisir le mot entier, vous pouvez saisir une partie du mot, en commençant par le début par exemple a ou auj, tant que ce n’est pas également le début d’un autre mot.
+Entrez le mot pour aujourd’hui, dans la langue définie par le paramètre **Langue**, qui définit la date à la date actuelle. Au lieu de saisir le mot entier, vous pouvez saisir une partie du mot, en commençant par le début par exemple a ou auj, tant que ce n’est pas également le début d’un autre mot.
 
 ### <a name="period"></a>Période.
 
-Pour filtrer une période comptable spécifique, dans un champ de date saisissez la lettre p, ou le mot période, suivi par un numéro qui identifie la période comptable, comme p2 ou période4. La période comptable est relative à l’exercice comptable de la date de travail en cours défini dans votre tableau de bord. Par exemple, si la date de travail est **21/03/20** , alors p1 ou simplement p filtre la première période comptable de l’exercice comptable 2020 (par exemple 01/01/20..31/01/20). p15 filtre la quinzième période comptable depuis le début de l’exercice comptable 2020 (par exemple 01/03/21..31/03/21).
+Pour filtrer une période comptable spécifique, dans un champ de date saisissez la lettre p, ou le mot période, suivi par un numéro qui identifie la période comptable, comme p2 ou période4. La période comptable est relative à l’exercice comptable de la date de travail en cours défini dans votre tableau de bord. Par exemple, si la date de travail est **21/03/20**, alors p1 ou simplement p filtre la première période comptable de l’exercice comptable 2020 (par exemple 01/01/20..31/01/20). p15 filtre la quinzième période comptable depuis le début de l’exercice comptable 2020 (par exemple 01/03/21..31/03/21).
 
-Les périodes comptables sont définies sur la page **Périodes comptables** . Pour visualiser ou modifier les périodes comptables, ouvrez la page [ici](https://businesscentral.dynamics.com/?page=100).
+Les périodes comptables sont définies sur la page **Périodes comptables**. Pour visualiser ou modifier les périodes comptables, ouvrez la page [ici](https://businesscentral.dynamics.com/?page=100).
 
 ### <a name="current-work-date"></a>Date de travail actuelle
 
 La fonction de date de travail vous permet d’enregistrer des transactions en utilisant une date qui est différente de la date du jour.
 
-Le mot « date de travail », dans la langue définie par le paramètre **Langue** , définit la date à laquelle la date de travail configurée actuellement est spécifiée sur la page **Mes paramètres** . Au lieu de saisir le mot entier, vous pouvez saisir une partie du mot, en commençant du début, comme "t" pour travail.
+Le mot « date de travail », dans la langue définie par le paramètre **Langue**, définit la date à laquelle la date de travail configurée actuellement est spécifiée sur la page **Mes paramètres**. Au lieu de saisir le mot entier, vous pouvez saisir une partie du mot, en commençant du début, comme "t" pour travail.
 
 Si vous ne définissez pas de date de travail, la date actuelle sera utilisée comme date de travail. Vous souhaiterez peut-être utiliser une date de travail si vous avez beaucoup de transactions avec une date différente de la date d’aujourd’hui.
 
@@ -98,7 +98,7 @@ Pour spécifier qu’une date est une date de clôture, placez un C devant cette
 
 ### <a name="examples"></a>Exemples
 
-Le tableau suivant affiche des exemples de dates à l’aide de tous les formats. Il considère les paramètres de région selon lesquels format les dates : **année.mois.jour.** , une semaine commençant lundi, et l’anglais.
+Le tableau suivant affiche des exemples de dates à l’aide de tous les formats. Il considère les paramètres de région selon lesquels format les dates : **année.mois.jour.**, une semaine commençant lundi, et l’anglais.
 
 |**Écriture**      |**Interprétation**      |
 |---------------|------------------------|
@@ -194,7 +194,7 @@ L’exemple ci-dessous illustre comment vous pouvez utiliser le signe moins pour
 |-1A|Il y a 1 an à dater d’aujourd’hui|
 
 > [!IMPORTANT]
->  Si le magasin utilise un calendrier principal, la formule de date que vous entrez par exemple le champ **Délai d’expédition** , est interprétée en fonction des jours ouvrés du calendrier. Par exemple, 1S un signifie sept jours ouvrés.
+>  Si le magasin utilise un calendrier principal, la formule de date que vous entrez par exemple le champ **Délai d’expédition**, est interprétée en fonction des jours ouvrés du calendrier. Par exemple, 1S un signifie sept jours ouvrés.
 <!--
 # Entering Date Ranges
 You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges. Let's take the **Customer Top 10** as an example:
@@ -217,7 +217,7 @@ You can also combine the various format types.
 |12 15 16&#124;12 01 16..05 31 17 | Entries posted either on December 15 2016 or on dates between and including December 01 2016 and May 31 2017. |
 |..12 14 16&#124;12 30 16.. | Entries posted on December 14 or earlier, or entries posted on December 30 or later - that is, all entries except those posted on dates between and including December 15 and 29. |
 
-Note that we have used the US date format MMDDYY here. As [!INCLUDE[d365fin](includes/d365fin_md.md)] becomes available in other markets, you'll be able to use the formats that you are used to.
+Note that we have used the US date format MMDDYY here. As [!INCLUDE[prod_short](includes/prod_short.md)] becomes available in other markets, you'll be able to use the formats that you are used to.
 
 ## Using Date Formulas
 A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.
@@ -312,7 +312,7 @@ Tenez compte que les millisecondes sont interprétées comme des notations de d�
 
 Vous ne pouvez pas utiliser 24:00 pour dire minuit, ou utiliser une valeur supérieure à 24:00.
 
-Le mot pour « time » (heure) dans la langue utilisée par [!INCLUDE[d365fin](includes/d365fin_long_md.md)] est évalué sur l’heure actuelle sur votre ordinateur ou appareil mobile. Vous pouvez saisir n’importe quel partie du mot, en commençant au début, par exemple h ou HEU.
+Le mot pour « time » (heure) dans la langue utilisée par [!INCLUDE[prod_short](includes/prod_long.md)] est évalué sur l’heure actuelle sur votre ordinateur ou appareil mobile. Vous pouvez saisir n’importe quel partie du mot, en commençant au début, par exemple h ou HEU.
 
 ## <a name="entering-combined-dates-and-times"></a>Saisie de dates et d’heures combinées
 Lorsque vous saisissez les dates/heures, qui sont une date et heure combinées en un champ, vous devez saisir un espace entre la date et l’heure. La partie de la date ne peut contenir des espaces sous forme de séparateur de date officiel de vos paramètres de région. L’heure peut contenir des espaces autour de l’indicateur AM/PM.
@@ -366,6 +366,6 @@ Pour connaître l’unité de mesure utilisée pour un champ de durée, saisisse
 Par exemple, si l’unité est « heures », le chiffre 5 est converti en 5 h.
 
 ## <a name="see-also"></a>Voir aussi
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
 [Calcul de la date des achats](purchasing-date-calculation-for-purchases.md)  
 [Saisir les critères pour les filtres](ui-enter-criteria-filters.md)  

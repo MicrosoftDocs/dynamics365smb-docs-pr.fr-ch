@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: rfq
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6b0cf72609a180d271604dd276f840efbc6b1aa6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5136c675d50e4d9ac91f43755dfb44810701096d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910670"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758032"
 ---
 # <a name="track-packages"></a>Suivre des colis
 
@@ -22,11 +22,11 @@ La procédure suivante montre comment suivre un colis à partir d’une expédit
 
 ## <a name="to-track-a-package"></a>Pour suivre un colis
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Expédition vente enregistrée** , puis sélectionnez le lien associé.
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Expédition vente enregistrée**, puis sélectionnez le lien associé.
 2. Ouvrez l’expédition appropriée.
-3. Choisissez l’action **Mettre à jour le document** .
-4. Dans le champ **N° récépissé** , entrez le numéro de récépissé que vous avez reçu du transporteur. Mettez à jour le **Transporteur** si nécessaire et fermez la page.
-5. Sélectionnez l’action **Suivre colis** .
+3. Choisissez l’action **Mettre à jour le document**.
+4. Dans le champ **N° récépissé**, entrez le numéro de récépissé que vous avez reçu du transporteur. Mettez à jour le **Transporteur** si nécessaire et fermez la page.
+5. Sélectionnez l’action **Suivre colis**.
 
 Votre navigateur par défaut ouvre la page de suivi du transporteur.
 
@@ -36,4 +36,4 @@ Votre navigateur par défaut ouvre la page de suivi du transporteur.
 [Ventes](sales-manage-sales.md)  
 [Définition des ventes](sales-setup-sales.md)  
 [Envoyer des documents par e-mail](ui-how-send-documents-email.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

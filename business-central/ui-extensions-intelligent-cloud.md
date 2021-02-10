@@ -9,20 +9,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 10/01/2020
+ms.date: 12/04/2020
 ms.author: edupont
-ms.openlocfilehash: 2f16af0f87cae376fd1ed96b02cad3a64adc94cc
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c68596af28753cb9825d930e55beff4e3f72c2c6
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915100"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757207"
 ---
 # <a name="intelligent-cloud-base-extension"></a>Extension Base du Cloud intelligent
 
-Cette extension vous guide dans le processus de configuration et de gestion de votre environnement de Cloud intelligent. Une fois votre environnement de Cloud intelligent configuré, vous pouvez gérer les réplications de données depuis votre solution sur site vers votre abonné cloud [!INCLUDE[prodshort](includes/prodshort.md)]. Cette extension doit s'exécuter en combinaison avec une extension de réplication de données disponible pour votre solution sur site spécifique. Pour plus d'informations, voir [Informations intelligentes](about-intelligent-cloud.md).  
+Cette extension vous guidera tout au long du processus de configuration d’une connexion entre votre solution sur site et votre environnement [!INCLUDE [prod_short](includes/prod_short.md)] en ligne, soit parce que vous migrez vers le cloud, soit parce que vous vous connectez au Cloud intelligent à partir de votre solution sur site.  
+
+Une fois la connexion configurée, vous pouvez migrer les données ou gérer les réplications de données de votre solution sur site vers votre locataire de cloud [!INCLUDE[prod_short](includes/prod_short.md)]. Cette extension doit s'exécuter en combinaison avec une extension de réplication de données disponible pour votre solution sur site spécifique. Pour plus d’informations, consultez [Exécuter l’outil de migration vers le cloud](/dynamics365/business-central/dev-itpro/administration/migration-tool).  
 
 ## <a name="see-also"></a>Voir aussi
 
 [Informations intelligentes](about-intelligent-cloud.md)  
-[Extension réplication de données](ui-extensions-data-replication.md)  
+[Exécution de l’outil de migration vers le cloud](/dynamics365/business-central/dev-itpro/administration/migration-tool)  
+[Extensions Cloud intelligent pour la migration vers le cloud](ui-extensions-data-replication.md)  

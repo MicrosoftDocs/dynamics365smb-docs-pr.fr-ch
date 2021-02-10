@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 171c8877ca305d77250b7b8846004673616cd1e6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 040bbc430d0f052bfafaac2ecdca6d4a6aa75669
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918790"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758382"
 ---
 # <a name="purchasing"></a>Procédure d'achat
 Vous créez une facture achat ou une commande achat pour enregistrer le coût d'achats et suivre les créances. Si vous devez contrôler un stock, les factures achat sont également utilisées pour mettre à jour de manière dynamique les niveaux de stock afin que vous puissiez réduire vos coûts et fournir un meilleur service client. Le prix d'achat, notamment les frais de service, et les valeurs d'inventaire qui résultent de la validation des factures achat contribuent aux chiffres du profit et à d'autres KPI financiers sur votre Tableau de bord.
@@ -42,7 +42,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | Créer un avoir achat pour rembourser une facture achat validée spécifique pour indiquer les produits que vous retournez au fournisseur et le montant règlement que vous récupérez. |[Traiter les retours ou annulations d'achats](purchasing-how-register-new-vendors.md) |
 |Préparez la facturation de plusieurs réceptions provenant du même fournisseur en une seule fois en regroupant les réceptions sur une facture.|[Regroupement de bons de réception sur une seule facture](purchasing-how-to-combine-receipts.md)|
 |Conversion, par exemple, de factures électroniques de vos fournisseurs en factures achat dans Business Central.|[Recevoir et convertir des documents électroniques](purchasing-how-to-receive-and-convert-electronic-documents.md)|
-| Découvrez comment [!INCLUDE[d365fin](includes/d365fin_md.md)] calcule le moment où vous devez commander un article pour le recevoir à une certaine date.|[Calcul de la date des achats](purchasing-date-calculation-for-purchases.md)|
+| Découvrez comment [!INCLUDE[prod_short](includes/prod_short.md)] calcule le moment où vous devez commander un article pour le recevoir à une certaine date.|[Calcul de la date des achats](purchasing-date-calculation-for-purchases.md)|
 |Résolvez la confusion lorsque deux enregistrements ou plus existent pour le même fournisseur.|[Fusionner l'enregistrement des doublons](sales-how-merge-duplicate-records.md)|
 |Gérez votre engagement envers un fournisseur à acheter de grandes quantités livrées en plusieurs expéditions sur une certaine période.|[Utiliser des commandes ouvertes achat](sales-how-to-create-blanket-sales-orders.md)|
 
@@ -53,7 +53,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 [Enregistrer un nouveau fournisseur](purchasing-how-register-new-vendors.md)  
 [Gestion des comptes fournisseur](payables-manage-payables.md)  
 [Gestion des projets](projects-manage-projects.md)    
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

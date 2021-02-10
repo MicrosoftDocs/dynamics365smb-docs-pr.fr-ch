@@ -8,21 +8,21 @@ ms.workload: na
 ms.search.keywords: project management
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0309ea14145758b4ae07ee034679fa4a0ef497db
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6fe583e93261b58d13802eadef5f3d807045fa20
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915350"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758657"
 ---
 # <a name="set-up-jobs"></a>Configuration de projets
 
-En tant que chef de projet, vous pouvez définir des projets qui définissent chacun des projets que vous gérez dans [!INCLUDE[prodshort](includes/prodshort.md)]. Sur la page **Paramètres projets** , vous devez spécifier comment utiliser certaines fonctions de projet.
+En tant que chef de projet, vous pouvez définir des projets qui définissent chacun des projets que vous gérez dans [!INCLUDE[prod_short](includes/prod_short.md)]. Sur la page **Paramètres projets**, vous devez spécifier comment utiliser certaines fonctions de projet.
 
 Pour chaque projet, vous précisez ensuite les fiches projet individuelles avec des informations concernant les prix pour les articles, les ressources et les comptes généraux du projet, puis vous devez configurer des groupes comptabilisation du projet.
 
 ## <a name="to-set-general-information-for-jobs"></a>Pour configurer des informations générales pour les projets
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres projets** , puis sélectionnez le lien associé.
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres projets**, puis sélectionnez le lien associé.
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
@@ -30,31 +30,31 @@ Pour chaque projet, vous précisez ensuite les fiches projet individuelles avec 
 
 ### <a name="to-set-up-job-usage-tracking"></a>Pour configurer un suivi d’activité de projet
 
-Lors de l’exécution d’un projet, vous aurez peut-être besoin de savoir si votre activité est conforme au plan. Pour entreprendre facilement cette action, vous pouvez créer un lien entre vos lignes planning du projet et l’utilisation réelle. Cela vous permet de suivre vos coûts et de voir aisément le travail qui reste à effectuer. Par défaut, le type de ligne planning projet est **Budget** , mais l’utilisation du type de ligne **Budget et Facturable** a des effets similaires.
+Lors de l’exécution d’un projet, vous aurez peut-être besoin de savoir si votre activité est conforme au plan. Pour entreprendre facilement cette action, vous pouvez créer un lien entre vos lignes planning du projet et l’utilisation réelle. Cela vous permet de suivre vos coûts et de voir aisément le travail qui reste à effectuer. Par défaut, le type de ligne planning projet est **Budget**, mais l’utilisation du type de ligne **Budget et Facturable** a des effets similaires.
 
-Si vous sélectionnez le champ **Appliquer le lien d’utilisation par défaut** , vous pouvez alors consulter les informations sur la ligne planning projet. Vous pouvez définir la quantité de ressources, d’articles ou le compte général, puis indiquer la quantité que vous souhaitez transférer vers la feuille projet. Le champ **Quantité restante** dans la ligne planning projet vous aide à déterminer ce qui reste à transférer et à valider dans la feuille projet.
+Si vous sélectionnez le champ **Appliquer le lien d’utilisation par défaut**, vous pouvez alors consulter les informations sur la ligne planning projet. Vous pouvez définir la quantité de ressources, d’articles ou le compte général, puis indiquer la quantité que vous souhaitez transférer vers la feuille projet. Le champ **Quantité restante** dans la ligne planning projet vous aide à déterminer ce qui reste à transférer et à valider dans la feuille projet.
 
 > [!TIP]  
-> Vous pouvez activer ou désactiver le suivi de l’utilisation des projets pour un projet spécifique. La valeur du champ **Appliquer le lien d’utilisation** de la fiche projet individuelle remplace le paramètre de la page **Paramètres projets** .  
+> Vous pouvez activer ou désactiver le suivi de l’utilisation des projets pour un projet spécifique. La valeur du champ **Appliquer le lien d’utilisation** de la fiche projet individuelle remplace le paramètre de la page **Paramètres projets**.  
 
-Lorsque la case à cocher **Appliquer le lien d’utilisation par défaut** est activée et que le type de ligne planning projet est défini sur **Facturable** , une ligne planning projet de type **Budget** est créée une fois la ligne feuille projet validée.
+Lorsque la case à cocher **Appliquer le lien d’utilisation par défaut** est activée et que le type de ligne planning projet est défini sur **Facturable**, une ligne planning projet de type **Budget** est créée une fois la ligne feuille projet validée.
 
 > [!IMPORTANT]
 > Si le suivi de l’utilisation des projets, la page **Paramètres projets** est activée ou sur le projet individuel et le champ **Type ligne** sur la ligne feuille projet est vide, alors des lignes planning projet de type ligne **Budget** sont créées lorsque vous validez des lignes feuille.  
 >  
 > Si le suivi de l’utilisation des projets n’est *pas* activé, sur la page **Paramètres projets** ou sur le projet individuel, et si le champ **Type ligne** de la ligne feuille projet est vierge, aucune ligne planning projet n’est créée lorsque vous validez les lignes feuille projet. Pour plus d’informations, voir [Enregistrer l’utilisation pour les projets](projects-how-record-job-usage.md).
 
-1. Sélectionnez l’icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), saisissez **Paramètres projets** , puis sélectionnez le lien associé.
-2. Sélectionnez la case à cocher **Appliquer le lien d’utilisation par défaut** .
+1. Sélectionnez l’icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), saisissez **Paramètres projets**, puis sélectionnez le lien associé.
+2. Sélectionnez la case à cocher **Appliquer le lien d’utilisation par défaut**.
 
 ## <a name="to-set-up-prices-for-job-resources"></a>Pour paramétrer des prix pour les ressources de projet
-Vous pouvez paramétrer des prix spécifiques pour les ressources d’un projet. Réalisez cette opération sur la page **Prix ressource projet** .
+Vous pouvez paramétrer des prix spécifiques pour les ressources d’un projet. Réalisez cette opération sur la page **Prix ressource projet**.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Projets** , puis sélectionnez le lien associé.  
-2. Sélectionnez le projet concerné, puis l’action **Ressource** .
-3. Sur la page **Prix ressource projet** , renseignez les champs selon vos besoins.
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Projets**, puis sélectionnez le lien associé.  
+2. Sélectionnez le projet concerné, puis l’action **Ressource**.
+3. Sur la page **Prix ressource projet**, renseignez les champs selon vos besoins.
 
-Les informations complémentaires contenues dans les champs **N° tâche projet** , **Type travail** , **Code devise** , **% remise ligne** et **Facteur coût unitaire** serviront sur les lignes planning projet et les feuilles activité lorsque cette ressource sera entrée et ajoutée au projet.  
+Les informations complémentaires contenues dans les champs **N° tâche projet**, **Type travail**, **Code devise**, **% remise ligne** et **Facteur coût unitaire** serviront sur les lignes planning projet et les feuilles activité lorsque cette ressource sera entrée et ajoutée au projet.  
 
 La valeur du champ **Prix unitaire** de la ressource sera utilisée sur les lignes planning du projet et les feuilles projet lorsque cette ressource, une ressource affectée au groupe de ressources ou une ressource quelconque est entrée.  
 
@@ -62,13 +62,13 @@ La valeur du champ **Prix unitaire** de la ressource sera utilisée sur les lign
 >   Ce prix remplace toujours les prix paramétrés sur la page **Prix ressource/Prix groupe ressources** existante.
 
 ## <a name="to-set-up-prices-for-job-items"></a>Pour paramétrer les prix pour les articles
-Vous pouvez paramétrer des prix spécifiques pour les articles d’un projet. Réalisez cette opération sur la page **Prix article projet** .
+Vous pouvez paramétrer des prix spécifiques pour les articles d’un projet. Réalisez cette opération sur la page **Prix article projet**.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Projets** , puis sélectionnez le lien associé.  
-2. Sélectionnez le projet concerné, puis cliquez sur **Article** .
-3. Sur la page **Prix article projet** , renseignez les champs selon vos besoins.
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Projets**, puis sélectionnez le lien associé.  
+2. Sélectionnez le projet concerné, puis cliquez sur **Article**.
+3. Sur la page **Prix article projet**, renseignez les champs selon vos besoins.
 
-Les informations facultatives des champs **N° tâche projet** , **Code devise** et **% remise ligne** serviront sur les lignes planning du projet et les feuilles projet lorsque cet article sera entré ou ajouté au projet.  
+Les informations facultatives des champs **N° tâche projet**, **Code devise** et **% remise ligne** serviront sur les lignes planning du projet et les feuilles projet lorsque cet article sera entré ou ajouté au projet.  
 
 La valeur du champ **Prix unitaire** pour l’article sera utilisée sur les lignes planning du projet et les feuilles projet lorsque cet article sera entré.  
 
@@ -76,13 +76,13 @@ La valeur du champ **Prix unitaire** pour l’article sera utilisée sur les lig
 >   Ce prix remplace toujours le prix client habituel (mécanisme du « meilleur prix ») des articles. Pour utiliser les mécanismes des prix client habituels, ne créez pas de prix article projet pour le projet.
 
 ## <a name="to-set-up-prices-for-job-general-ledger-accounts"></a>Pour configurer les prix des comptes généraux projet
-Vous pouvez configurer les prix spécifiques des frais d’un projet. Réalisez cette opération sur la page **Prix compte général projet** .
+Vous pouvez configurer les prix spécifiques des frais d’un projet. Réalisez cette opération sur la page **Prix compte général projet**.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Projets** , puis sélectionnez le lien associé.  
-2. Sélectionnez le projet concerné, puis cliquez sur **Compte général** .  
-3. Sur la page **Prix compte général projet** , renseignez les champs selon vos besoins.
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Projets**, puis sélectionnez le lien associé.  
+2. Sélectionnez le projet concerné, puis cliquez sur **Compte général**.  
+3. Sur la page **Prix compte général projet**, renseignez les champs selon vos besoins.
 
-Les informations complémentaires contenues dans les champs **N° tâche projet** , **Code devise** , **% remise ligne** , **Facteur coût unitaire** et **Coût unitaire** serviront sur les lignes planning projet et les feuilles projet lorsque ce compte général sera entré et ajouté à un projet.  
+Les informations complémentaires contenues dans les champs **N° tâche projet**, **Code devise**, **% remise ligne**, **Facteur coût unitaire** et **Coût unitaire** serviront sur les lignes planning projet et les feuilles projet lorsque ce compte général sera entré et ajouté à un projet.  
 
 La valeur du champ **Prix unitaire** pour les dépenses du compte général sera utilisée sur les lignes planning du projet et les feuilles projet lorsque le compte général sera entré.
 
@@ -92,8 +92,8 @@ L’un des aspects des projets de planification est de décider quels comptes de
 > [!NOTE]  
 >   Les comptes nécessaires dans la table Plan comptable doivent être configurés avant de créer les groupes comptabilisation. Pour plus d’informations, reportez-vous à [Configuration ou modification du plan comptable](finance-setup-chart-accounts.md).  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Groupes compta. projet** , puis sélectionnez le lien associé.  
-2. Cliquez sur **Nouveau** , puis renseignez les champs du compte comme indiqué dans le tableau suivant.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Groupes compta. projet**, puis sélectionnez le lien associé.  
+2. Cliquez sur **Nouveau**, puis renseignez les champs du compte comme indiqué dans le tableau suivant.  
 
 | Champ de compte | Désignation |
 | --- | --- |
@@ -121,4 +121,4 @@ L’un des aspects des projets de planification est de décider quels comptes de
 [Finances](finance.md)  
 [Achats](purchasing-manage-purchasing.md)  
 [Ventes](sales-manage-sales.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

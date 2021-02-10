@@ -12,22 +12,22 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, salary, wage
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: a63e2139ee4a3ac42e30724d8b7015cc0d968cd9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: eae93ea8cf81a2fad6af2c3810f94d5292eef93f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923485"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757107"
 ---
 # <a name="the-quickbooks-payroll-file-import-extension"></a>Extension Importer le fichier de paie de QuickBooks
-Utilisez l’extension d’importation de fichier de paie de QuickBooks pour importer des transactions paie de QuickBooks vers des comptes de comptabilité générale dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Par exemple, cela est utile lorsque vous passez QuickBooks vers [!INCLUDE[d365fin](includes/d365fin_md.md)], ou si vous externalisez votre paie mais que vous souhaitez également en effectuer le suivi dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Utilisez l’extension d’importation de fichier de paie de QuickBooks pour importer des transactions paie de QuickBooks vers des comptes de comptabilité générale dans [!INCLUDE[prod_short](includes/prod_short.md)]. Par exemple, cela est utile lorsque vous passez QuickBooks vers [!INCLUDE[prod_short](includes/prod_short.md)], ou si vous externalisez votre paie mais que vous souhaitez également en effectuer le suivi dans [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## <a name="steps-to-import-payroll-data"></a>Procédures pour importer des données de paie
-La première étape consiste pour vous, ou peut-être votre comptable, à utiliser les fonctionnalités d’exportation dans QuickBooks pour exporter les données de la paie dans un fichier .IIF. La deuxième étape permet d’ouvrir la page **Feuilles comptabilité** dans [!INCLUDE[d365fin](includes/d365fin_md.md)] et d’utiliser l’action **Importer les transactions de paie** pour importer le fichier. Au cours du processus d’importation, vous mappez les comptes généraux de QuickBooks aux comptes correspondants dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. L’étape finale consiste à valider les transactions de paie dans [!INCLUDE[d365fin](includes/d365fin_md.md)] en fonction du mappage de compte. 
+La première étape consiste pour vous, ou peut-être votre comptable, à utiliser les fonctionnalités d’exportation dans QuickBooks pour exporter les données de la paie dans un fichier .IIF. La deuxième étape permet d’ouvrir la page **Feuilles comptabilité** dans [!INCLUDE[prod_short](includes/prod_short.md)] et d’utiliser l’action **Importer les transactions de paie** pour importer le fichier. Au cours du processus d’importation, vous mappez les comptes généraux de QuickBooks aux comptes correspondants dans [!INCLUDE[prod_short](includes/prod_short.md)]. L’étape finale consiste à valider les transactions de paie dans [!INCLUDE[prod_short](includes/prod_short.md)] en fonction du mappage de compte. 
 
 Pour plus d’informations, voir [Importer les transactions de paie](finance-how-import-payroll-transactions.md).
 
 ## <a name="see-also"></a>Voir aussi
-[Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l’aide des extensions ](ui-extensions.md)    
+[Personnalisation de [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide des extensions ](ui-extensions.md)    
 [Finances](finance.md)    
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

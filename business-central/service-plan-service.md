@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: service, work hours, configure, price, pricing
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 0e6218a313c2cb9031da8ee1c66a90cfe9dd0207
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: bf19cc5b0ae606ce7f235e707057516dba4ca5e0
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915275"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757857"
 ---
 # <a name="planning-services"></a>Services de planification
-Grâce à [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez configurer les tâches standard qui permettent de répondre aux besoins du service clientèle. Pour cela, vous devez déterminer quels articles et offres de service sont pris en charge par votre organisation de prestation de services, et à quel prix.   
+Grâce à [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez configurer les tâches standard qui permettent de répondre aux besoins du service clientèle. Pour cela, vous devez déterminer quels articles et offres de service sont pris en charge par votre organisation de prestation de services, et à quel prix.   
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] fournit également des outils statistiques permettant d’évaluer les performances et d’identifier les points à améliorer.
+[!INCLUDE[prod_short](includes/prod_short.md)] fournit également des outils statistiques permettant d’évaluer les performances et d’identifier les points à améliorer.
   
 Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.   
   

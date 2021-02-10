@@ -12,30 +12,30 @@ ms.workload: na
 ms.search.keywords: supplier, payment priority
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 177fb324e39a59abbfc1b50e6ceaa34d4ae06f56
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 87d2f7c7fe2d395d16b41b288500f22e16bd0ba0
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926912"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758557"
 ---
 # <a name="prioritize-vendors"></a>Octroyer une priorité aux fournisseurs
-[!INCLUDE[d365fin](includes/d365fin_md.md)] peut proposer différents paiements aux fournisseurs, par exemple les paiements arrivant à échéance ou les paiements donnant lieu à un escompte. Pour plus d’informations, reportez vous à [Proposer des paiements fournisseur](payables-how-suggest-vendor-payments.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] peut proposer différents paiements aux fournisseurs, par exemple les paiements arrivant à échéance ou les paiements donnant lieu à un escompte. Pour plus d’informations, reportez vous à [Proposer des paiements fournisseur](payables-how-suggest-vendor-payments.md).
 
 Tout d’abord, vous devez attribuer une priorité à vos fournisseurs en leur affectant des numéros.
 <br><br>
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PRGa?rel=0]
 
 ## <a name="to-prioritize-vendors"></a>Pour octroyer une priorité à des fournisseurs
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Fournisseurs** , puis sélectionnez le lien associé.
-2. Sélectionnez le fournisseur approprié, puis sélectionnez **Modifier** .
-3. Dans le champ **Priorité** , entrez un numéro.
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Fournisseurs**, puis sélectionnez le lien associé.
+2. Sélectionnez le fournisseur approprié, puis sélectionnez **Modifier**.
+3. Dans le champ **Priorité**, entrez un numéro.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] donne le degré de priorité le plus élevé au chiffre le plus bas, excepté 0. Ainsi, si vous utilisez 1, 2 et 3, le chiffre 1 a le degré de priorité le plus élevé.
+[!INCLUDE[prod_short](includes/prod_short.md)] donne le degré de priorité le plus élevé au chiffre le plus bas, excepté 0. Ainsi, si vous utilisez 1, 2 et 3, le chiffre 1 a le degré de priorité le plus élevé.
 
 Si vous ne souhaitez pas attribuer de priorité à un fournisseur, laissez le champ **Priorité** blanc. Par la suite, lorsque vous utilisez la fonction de proposition de paiements, ce fournisseur est répertorié après tous les fournisseurs possédant un numéro prioritaire. Vous pouvez saisir autant de niveaux de priorité que nécessaire.
 
 ## <a name="see-also"></a>Voir aussi
 [Définition des achats](purchasing-setup-purchasing.md)  
 [Gestion des comptes fournisseur](payables-manage-payables.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -11,25 +11,25 @@ ms.workload: na
 ms.search.keywords: rfq
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 34a063feaeaef390c9eee8023d42a912a29582f8
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cff54e778beb1bb08342835419998242eed4adf3
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918927"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758482"
 ---
 # <a name="request-quotes"></a>Demander des devis
 Vous pouvez utiliser une demande de prix en tant que phase préliminaire d’une commande achat, et convertir cette commande en facture achat ou en commande.
 
 
 ## <a name="to-create-a-purchase-quote"></a>Pour créer une demande de prix
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Demandes de prix** , puis sélectionnez le lien associé.
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Demandes de prix**, puis sélectionnez le lien associé.
 2. Créez un document, de la même manière que vous passez une commande achat. Pour plus d’informations, voir [Enregistrer des achats](purchasing-how-record-purchases.md).
 
 ## <a name="to-convert-a-purchase-quote-to-a-purchase-order"></a>Pour convertir une demande de prix en commande achat
 Lorsque vous avez accepté le devis du fournisseur, vous pouvez le convertir en facture achat ou en commande pour procéder à l’achat.
 
-1. Ouvrez une demande de prix est prête à être convertie, puis sélectionnez l’action **Créer commande** .
+1. Ouvrez une demande de prix est prête à être convertie, puis sélectionnez l’action **Créer commande**.
 
 La demande de prix est supprimée de la base de données. Une facture achat ou une commande achat basée sur les informations de la demande de prix et dans laquelle vous pouvez traiter l’achat est créée. Dans le champ **N° devis** de la facture achat ou de la commande achat, vous pouvez visualiser le numéro de la demande de prix à partir de laquelle elle a été réalisée.
 
@@ -37,4 +37,4 @@ La demande de prix est supprimée de la base de données. Une facture achat ou u
 [Achats](purchasing-manage-purchasing.md)  
 [Définition des achats](purchasing-setup-purchasing.md)  
 [Envoyer des documents par e-mail](ui-how-send-documents-email.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

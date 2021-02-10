@@ -10,36 +10,36 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.reviewer: edupont
 ms.date: 10/01/2020
-ms.author: jenolson
-ms.openlocfilehash: dde6797139f383948d72c52ca1d05298a280087b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.author: edupont
+ms.openlocfilehash: f2d8d556ca4628a66c10f323f47137cd35732a68
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915225"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757307"
 ---
 # <a name="intelligent-cloud-extensions-for-cloud-migration"></a>Extensions Cloud intelligent pour la migration vers le cloud
 
-En fonction de votre solution sur site, vous devez utiliser différentes extensions pour connecter vos données avec [!INCLUDE[prodshort](includes/prodshort.md)] en ligne à des fins de migration de votre solution vers le cloud.  
+En fonction de votre solution sur site, vous devez utiliser différentes extensions pour connecter vos données avec [!INCLUDE[prod_short](includes/prod_short.md)] en ligne à des fins de migration de votre solution vers le cloud.  
 
-Si vous utilisez l’un des produits pris en charge sur site, vous pouvez configurer votre environnement de Cloud en fonction d’une extension basée sur le produit. Une fois votre environnement de Cloud configuré, vous pouvez migrer des données depuis votre solution sur site vers [!INCLUDE[prodshort](includes/prodshort.md)]. Ceci vous permet de profiter pleinement des avantages que le cloud a à fournir à votre société, comme les analyses optimisées de votre activité, l’intelligence artificielle, accès multi-périphériques à tout moment et n’importe où.  
+Si vous utilisez l’un des produits pris en charge sur site, vous pouvez configurer votre environnement de Cloud en fonction d’une extension basée sur le produit. Une fois votre environnement de Cloud configuré, vous pouvez migrer des données depuis votre solution sur site vers [!INCLUDE[prod_short](includes/prod_short.md)]. Ceci vous permet de profiter pleinement des avantages que le cloud a à fournir à votre société, comme les analyses optimisées de votre activité, l’intelligence artificielle, accès multi-périphériques à tout moment et n’importe où.  
 
-Pour en savoir plus, voir la rubrique [Migration des données locales vers Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) dans le contenu d’administration pour [!INCLUDE[prodshort](includes/prodshort.md)].  
+Pour en savoir plus, voir la rubrique [Migration des données locales vers Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) dans le contenu d’administration pour [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="business-central-on-premises"></a>Business Central sur site
 
-Si vous utilisez un déploiement sur site de [!INCLUDE[prodshort](includes/prodshort.md)], obtenez l’extension **Base du Cloud intelligent** et l’extension **Cloud intelligent Business Central** , puis exécutez le guide de configuration assistée **Configuration de la migration cloud** .  
+Si vous utilisez un déploiement sur site de [!INCLUDE[prod_short](includes/prod_short.md)], obtenez l’extension **Base du Cloud intelligent** et l’extension **Cloud intelligent Business Central**, puis exécutez le guide de configuration assistée **Configuration de la migration cloud**.  
 
 ## <a name="dynamics-gp"></a>Dynamics GP
 
-Si vous utilisez Dynamics GP, obtenez les extensions **Base du Cloud intelligent** et **Cloud intelligent Dynamics GP** , puis exécutez le guide de configuration assistée **Configuration de la migration cloud** .  
+Si vous utilisez Dynamics GP, obtenez les extensions **Base du Cloud intelligent** et **Cloud intelligent Dynamics GP**, puis exécutez le guide de configuration assistée **Configuration de la migration cloud**.  
 
 > [!IMPORTANT]
 > La migration à partir de Dynamics GP à l’aide du guide de configuration assistée **Configuration de la migration cloud** n’est actuellement prise en charge que pour les marchés suivants : États-Unis, Canada, Royaume-Uni.
 
 ## <a name="dynamics-sl"></a>Dynamics SL
 
-Si vous utilisez Dynamics SL, obtenez l’extension **Base du Cloud intelligent** , l’extension **Cloud intelligent Microsoft Dynamics SL** et l’extension **SmartLists historiques Microsoft Dynamics SL** , puis exécutez le guide de configuration assistée **Configuration de la migration cloud** .  
+Si vous utilisez Dynamics SL, obtenez l’extension **Base du Cloud intelligent**, l’extension **Cloud intelligent Microsoft Dynamics SL** et l’extension **SmartLists historiques Microsoft Dynamics SL**, puis exécutez le guide de configuration assistée **Configuration de la migration cloud**.  
 
 ## <a name="see-also"></a>Voir aussi
 

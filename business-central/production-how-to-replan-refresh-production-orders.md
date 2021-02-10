@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: edfcb7904f540edad7f471511de9047c511a2cb2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6f66d96f03146d60422413c3031405da2338a01f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921607"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759082"
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Replanifier ou actualiser directement des ordres de fabrication
 La fonction **Replanifier** des ordres de fabrication est généralement utilisée après avoir ajouté ou modifié des composants constituant des ordres de fabrication sous-jacents. La fonction calcule les modifications apportées aux composants et aux lignes gamme. Elle inclut les articles situés à des niveaux de nomenclatures de production inférieurs, pour lesquels elle peut générer de nouveaux O.F.  
@@ -35,21 +35,21 @@ Vous pouvez soit insérer les lignes O.F. manuellement, soit utiliser la fonctio
 > Si vous utilisez la fonction Actualiser pour recalculer des lignes O.F., les anciennes lignes O.F. sont supprimées et de nouvelles lignes sont calculées.  
 
 ## <a name="to-replan-a-production-order"></a>Pour replanifier un ordre de fabrication  
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **O.F. planifiés fermes** , puis sélectionnez le lien associé.  
+1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **O.F. planifiés fermes**, puis sélectionnez le lien associé.  
 2.  Ouvrez l’ordre de fabrication à replanifier.  
-3.  Sur le raccourci **Lignes** , choisissez l’action **Lignes** , puis choisissez l’action **Composants** .  
+3.  Sur le raccourci **Lignes**, choisissez l’action **Lignes**, puis choisissez l’action **Composants**.  
 4.  Ajoutez un composant qui soit un article produit ou un sous-ensemble.  
-5.  Dans l’ordre de fabrication, choisissez l’action **Replanifier** .  
+5.  Dans l’ordre de fabrication, choisissez l’action **Replanifier**.  
 
-    Sur la page **Replanifier O.F.** , définissez la procédure et les éléments à replanifier.  
-6.  Dans le champ **Direction** , sélectionnez l’une des options suivantes.  
+    Sur la page **Replanifier O.F.**, définissez la procédure et les éléments à replanifier.  
+6.  Dans le champ **Direction**, sélectionnez l’une des options suivantes.  
 
     |Option|Désignation|  
     |----------------------------------|---------------------------------------|  
     |**Amont**|Calcule la séquence d’opérations en amont, de la date fin la plus proche possible, définie par la date d’échéance et/ou d’autres commandes planifiées, à la date début la plus éloignée possible. **Note :** cette option par défaut convient à la majorité des cas.|  
     |**Aval**|Calcule la séquence d’opérations en aval, de la date début la plus éloignée possible, définie par la date d’échéance et/ou d’autres commandes planifiées, à la date fin la plus proche possible. **Note :** cette option n’est utile que pour les commandes urgentes.|  
 
-7.  Dans le champ **Planifier** , choisissez l’option correspondant au mode de calcul des exigences de production des articles produits sur la nomenclature, comme suit.  
+7.  Dans le champ **Planifier**, choisissez l’option correspondant au mode de calcul des exigences de production des articles produits sur la nomenclature, comme suit.  
 
     |Option|Désignation|  
     |----------------------------------|---------------------------------------|  
@@ -57,7 +57,7 @@ Vous pouvez soit insérer les lignes O.F. manuellement, soit utiliser la fonctio
     |**Un niveau**|Planifie une demande fabrication pour le premier niveau. Des ordres de fabrication de premier niveau peuvent être créés.|  
     |**Tous niveaux**|Planifie une demande fabrication pour tous les niveaux. Des ordres de fabrication multi-niveaux peuvent être créés.|  
 
-8.  Sélectionnez **Un niveau** , puis choisissez le bouton **OK** pour replanifier l’ordre de fabrication, et calculer et créer un ordre de fabrication sous-jacent pour le nouveau sous-ensemble, s’il n’est pas totalement disponible.  
+8.  Sélectionnez **Un niveau**, puis choisissez le bouton **OK** pour replanifier l’ordre de fabrication, et calculer et créer un ordre de fabrication sous-jacent pour le nouveau sous-ensemble, s’il n’est pas totalement disponible.  
 
 > [!NOTE]  
 >  Les modifications mises en œuvre via la fonction **Replanifier** risquent fortement de modifier la capacité nécessaire de l’ordre de fabrication et de vous obliger à effectuer par la suite une replanification des opérations.  
@@ -65,10 +65,10 @@ Vous pouvez soit insérer les lignes O.F. manuellement, soit utiliser la fonctio
 ## <a name="to-refresh-a-production-order"></a>Pour actualiser un ordre de fabrication  
 Si vous avez modifié des lignes O.F., des composants ou des lignes gamme, vous devez aussi actualiser les informations de l’ordre de fabrication. Dans la procédure qui suit, les composants d’un ordre de fabrication planifié ferme sont calculés. La procédure est identique pour les lignes gamme.
 
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **O.F. planifié ferme** , puis sélectionnez le lien associé.  
-2.  Sélectionnez l’action **Nouveau** . Pour plus d’informations, voir [Créer des ordres de fabrication](production-how-to-create-production-orders.md).  
-3.  Sélectionnez l’action **Actualiser** .
-4. Sur la page **Actualiser O.F.** , sélectionnez l’une des options suivantes :
+1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **O.F. planifié ferme**, puis sélectionnez le lien associé.  
+2.  Sélectionnez l’action **Nouveau**. Pour plus d’informations, voir [Créer des ordres de fabrication](production-how-to-create-production-orders.md).  
+3.  Sélectionnez l’action **Actualiser**.
+4. Sur la page **Actualiser O.F.**, sélectionnez l’une des options suivantes :
 
     |Option|Désignation|  
     |----------------------------------|---------------|---------------------------------------|  
@@ -92,4 +92,4 @@ Si vous avez modifié des lignes O.F., des composants ou des lignes gamme, vous 
 [Achats](purchasing-manage-purchasing.md)  
 [Détails de conception : planification de l’approvisionnement](design-details-supply-planning.md)   
 [Pratiques de configuration recommandées : planification de l’approvisionnement](setup-best-practices-supply-planning.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

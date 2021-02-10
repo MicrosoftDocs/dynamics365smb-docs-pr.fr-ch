@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c89cb40559a570605401108d7560f6b989e06773
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 47ae132d862d2c05bef4ea0d0af26688bdd16588
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926162"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758232"
 ---
 # <a name="print-the-picking-list"></a>Imprimer la liste des prélèvements
 Vous pouvez imprimer une liste des prélèvements des stocks directement à partir d'une commande client, d'une facture vente, ou d'autres documents qui déclenchent l'expédition des articles.
@@ -25,9 +25,9 @@ Ce rapport est généralement utilisé dans les entreprises sans fonctionnalité
 ## <a name="to-print-a-picking-list-from-a-sales-order"></a>Pour imprimer la liste des prélèvements à partir d'une commande vente  
 La procédure suivante se base sur une commande vente. Les étapes sont similaires pour tous les documents de vente pouvant être utilisés pour lancer l'expédition d'articles.
 
-1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), saisissez **Commandes vente** , puis sélectionnez le lien associé.  
+1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), saisissez **Commandes vente**, puis sélectionnez le lien associé.  
 2. Ouvrez une commande vente pour laquelle vous souhaitez sélectionner des articles.  
-3. Choisir l'action **Rapport** , puis choisissez l'action **Liste de prélèvement par ordre** .  
+3. Choisir l'action **Rapport**, puis choisissez l'action **Liste de prélèvement par ordre**.  
 4. Sélectionnez le bouton **Imprimer** pour imprimer la liste de prélèvements, ou le bouton **Aperçu** pour l'afficher à l'écran.
 
 Vous pouvez également enregistrer la liste des prélèvements en tant que document, par exemple, pour l'envoyer à quelqu'un ou pour l'ajouter en tant que pièce jointe à la commande client. Pour plus d'informations, voir [Gérer les pièces jointes, les liens et les notes sur les fiches et les documents](ui-how-add-link-to-record.md).
@@ -38,4 +38,4 @@ Vous pouvez également enregistrer la liste des prélèvements en tant que docum
 ## <a name="see-also"></a>Voir aussi  
 [Stock](inventory-manage-inventory.md)  
 [Prélèvement d'articles](warehouse-pick-items.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)   
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)   

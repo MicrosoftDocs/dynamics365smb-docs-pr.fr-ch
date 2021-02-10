@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 504cc43ee29afd55deb5f51ca85d93eb7908d7d7
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 298fd165e03709d6ea6a34291efe5d04ecb74aba
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919103"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759107"
 ---
 # <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Enregistrer la consommation et la production pour une ligne ordre de fabrication lancé
 Cette tâche d’exécution est réalisée sur la page **Feuille production** . La feuille combine en une seule feuille les fonctions des feuilles distinctes consommation et production. Vous accédez directement à la feuille combinée depuis un ordre de fabrication lancé. Son objectif principal est de valider manuellement la consommation de composants, la quantité d’articles finis produits et le temps passé dans les opérations. Les valeurs sont validées en comptabilité sous l’ordre de fabrication lancé. Les quantités consommées sont validées comme écritures comptables article négatives, les quantités produites sont validées comme écritures comptables article positives et les heures sont validées comme écritures comptables capacité. Ces valeurs validées peuvent également être visualisées au bas de la feuille sous forme de quantités réelles.  
@@ -27,8 +27,8 @@ Cette tâche d’exécution est réalisée sur la page **Feuille production** . 
 >  les composants ne comportant pas de code lien gamme apparaissent en haut de la feuille.  
 
 ## <a name="to-register-consumption-and-output"></a>Pour enregistrer la consommation et la production  
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **O.F. lancés** , puis sélectionnez le lien associé.  
-2.  Ouvrez une ligne d’O.F. lancé qui est prête à être enregistrée, puis sur le raccourci **Lignes** , choisissez l’action **Ligne** , puis l’action **Feuille production** .  
+1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **O.F. lancés**, puis sélectionnez le lien associé.  
+2.  Ouvrez une ligne d’O.F. lancé qui est prête à être enregistrée, puis sur le raccourci **Lignes**, choisissez l’action **Ligne**, puis l’action **Feuille production**.  
 
     La page **Feuille production** s’ouvre et affiche les lignes feuille pour la ligne O.F. en fonction des pages **Composant O.F.** et **Gamme O.F.** Ces lignes proviennent de la nomenclature de production et de la gamme affectées à l’article en cours de production. Pour plus d’informations, voir [Créer des nomenclatures de production](production-how-to-create-routings.md).  
 
@@ -43,7 +43,7 @@ Cette tâche d’exécution est réalisée sur la page **Feuille production** . 
 
     À l’ouverture de la feuille, celle-ci comporte les quantités à valider. Si aucune donnée n’a été validée jusque-là, tous les champs de quantité affichent par défaut les quantités prévues issues de l’O.F. Si des validations partielles ont eu lieu, les champs de quantité des lignes affichent les quantités restantes. Les quantités et délais déjà validés pour la commande apparaissent au bas de la feuille en tant qu’entrées réelles.  
 
-    Vous pouvez définir les quantités devant figurer dans le champ **Quantité produite** lors de la première ouverture de la feuille. Pour ce faire, utilisez le champ **Quantité produite prédéfinie** du raccourci **Général** de la page **Paramètres production** .
+    Vous pouvez définir les quantités devant figurer dans le champ **Quantité produite** lors de la première ouverture de la feuille. Pour ce faire, utilisez le champ **Quantité produite prédéfinie** du raccourci **Général** de la page **Paramètres production**.
 
 5.  Entrez maintenant les quantités de consommation et production appropriées dans les champs modifiables.  
 
@@ -70,4 +70,4 @@ S’il reste des valeurs à valider, la feuille les indiquera la prochaine fois 
 [Planifié](production-planning.md)      
 [Stock](inventory-manage-inventory.md)  
 [Achats](purchasing-manage-purchasing.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

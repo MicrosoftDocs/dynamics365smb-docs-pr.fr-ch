@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 47c7add8c281a28c1b9beaecc18d28f5e1041a3c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 23bfdd962bb2877d980c1dc6f0b4406ad3497c6c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912886"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757757"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Pratiques de configuration recommandées : méthodes de réapprovisionnement
 Sur les fiches article, le champ **Méthode réapprovisionnement** propose quatre méthodes de planification différentes qui déterminent le mode d’interaction de chacun des paramètres de planification.  
@@ -28,7 +28,7 @@ Pour sélectionner une méthode de réapprovisionnement, la classification ABC d
 |B|20|20|
 |C|60 à 70|10 à 30|
 
-La classification ABC révèle qu’il est possible de réduire les efforts et de réaliser des économies en appliquant aux articles de faible valeur-volume un contrôle moins strict qu’aux articles ayant une valeur ou un volume élevé. La figure ci-après indique quelle méthode de réapprovisionnement dans [!INCLUDE[d365fin](includes/d365fin_md.md)] est la mieux adaptée aux articles A, B et C, respectivement.
+La classification ABC révèle qu’il est possible de réduire les efforts et de réaliser des économies en appliquant aux articles de faible valeur-volume un contrôle moins strict qu’aux articles ayant une valeur ou un volume élevé. La figure ci-après indique quelle méthode de réapprovisionnement dans [!INCLUDE[prod_short](includes/prod_short.md)] est la mieux adaptée aux articles A, B et C, respectivement.
 
 ![Classification ABC](media/abc_classification.png "abc_classification")
 
@@ -45,4 +45,4 @@ Le tableau suivant propose des recommandations pour effectuer son choix parmi ce
  [Pratiques de configuration recommandées : planification de l’approvisionnement](setup-best-practices-supply-planning.md)   
  [Détails de conception : gestion des méthodes de réapprovisionnement](design-details-handling-reordering-policies.md)   
  [Configurer des domaines d’application complexes à l’aide des meilleures pratiques](set-up-complex-application-areas-using-best-practices.md)  
- [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
