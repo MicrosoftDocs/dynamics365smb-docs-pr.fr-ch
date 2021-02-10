@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: f7534d1e3365dd02b6f9f1afde03b5de76640e1a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7b880ef5cb49a02dcbb3973f87bc64eae48b2b3a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914900"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760257"
 ---
 # <a name="tell-me-faq"></a>FAQ Tell Me
 Cette rubrique répond aux questions que nos utilisateurs expérimentés posent souvent à propos de la fonctionnalité Tell Me.
@@ -32,14 +32,14 @@ Les actions, les pages, et les états qui proviennent d’extensions sont extrai
 ### <a name="what-makes-this-different-from-what-was-previously-known-as-page-search"></a>Quelles sont les différences avec la recherche de page précédente ?
 La recherche de page s’est transformée en Tell Me pour vous aider à obtenir rapidement des résultats. La recherche de page pouvait uniquement vous aider à accéder aux pages ou aux états. À un niveau technique, Tell Me n’est plus basé sur le concept MenuSuite hérité.
 
-### <a name="i-use-on-premises-d365fin-does-that-include-tell-me"></a>J’utilise [!INCLUDE[d365fin](includes/d365fin_md.md)] local. La fonction Tell Me est-elle incluse ?
+### <a name="i-use-on-premises-prod_short-does-that-include-tell-me"></a>J’utilise [!INCLUDE[prod_short](includes/prod_short.md)] local. La fonction Tell Me est-elle incluse ?
 Vous pouvez utiliser Tell Me dans le client Web local pour trouver des actions, des pages, et des états, mais pas la documentation ou les applications et les services de conseils sur AppSource.
 
 ### <a name="is-tell-me-available-for-all-form-factors"></a>La fonction Tell Me est-elle disponible pour tous les facteurs d’écrans ?
 Tell Me est uniquement disponible dans le client Web ou l’application de bureau Windows.
 
 ### <a name="are-the-documentation-results-available-in-any-language"></a>Les résultats de la documentation sont-ils disponibles dans toutes les langues ?
-Les articles de l’aide s’affichent dans la langue spécifiée dans **Mes paramètres** , si l’aide est disponible dans cette langue.
+Les articles de l’aide s’affichent dans la langue spécifiée dans **Mes paramètres**, si l’aide est disponible dans cette langue.
 
 ### <a name="why-dont-i-see-a-bookmark-icon-for-my-search-results"></a>Pourquoi ne vois-je pas d’icône de signet pour mes résultats de recherche ?
 L’icône de signet ne s’affiche pas dans la fenêtre Tell Me lorsque la personnalisation est désactivée pour un rôle d’utilisateur.

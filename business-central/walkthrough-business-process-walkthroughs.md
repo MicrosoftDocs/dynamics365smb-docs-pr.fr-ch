@@ -10,21 +10,21 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 114124fa73c0de1ec45efedd913ea7ffe3439a57
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 89ee34bac855e40bc44f1e32764968cfd36324a9
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923335"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760155"
 ---
 # <a name="business-process-walkthroughs"></a>Procédures pas à pas liées au processus entreprise
 
 Cette sélection de procédures fournit des processus entreprise pas à pas et de bout en bout que vous pouvez suivre avec la société de démonstration CRONUS International Ltd. Elles comportent différentes procédures : certaines d’entre elles sont généralement suivies par un utilisateur, tandis que d’autres impliquent plusieurs rôles utilisateur. Pour simuler l’environnement de travail, certaines procédures pas à pas contiennent les étapes de configuration nécessaires pour effectuer les exercices décrits. Ces étapes indiquent aux utilisateurs le type d’informations qu’ils doivent partager avec les responsables informatiques de leur société.  
 
- Les procédures pas à pas sont des scénarios complets que vous devez exécuter dans leur intégralité pour en tirer pleinement profit. Nombre d’entre elles sont basées sur les démonstrations [!INCLUDE[d365fin](includes/d365fin_md.md)] et vous permettent de tester les procédures par vous-même, à votre rythme.  
+ Les procédures pas à pas sont des scénarios complets que vous devez exécuter dans leur intégralité pour en tirer pleinement profit. Nombre d’entre elles sont basées sur les démonstrations [!INCLUDE[prod_short](includes/prod_short.md)] et vous permettent de tester les procédures par vous-même, à votre rythme.  
 
 > [!NOTE]
-> Certaines procédures pas à pas nécessitent des exemples de données qui ne sont pas disponibles dans la société de démonstration par défaut dans [!INCLUDE[prodshort](includes/prodshort.md)]. Pour plus d’informations, voir [Pour créer une société avec des exemples de données complètes dans un sandbox](across-how-create-sandbox-environment.md#to-create-a-company-with-complete-sample-data-in-a-sandbox).
+> Certaines procédures pas à pas nécessitent des exemples de données qui ne sont pas disponibles dans la société de démonstration par défaut dans [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Pour créer une société avec des exemples de données complètes dans un sandbox](across-how-create-sandbox-environment.md#to-create-a-company-with-complete-sample-data-in-a-sandbox).
 
 |À|Voir|  
 |--------|---------|  
@@ -44,6 +44,6 @@ Cette sélection de procédures fournit des processus entreprise pas à pas et d
 
 ## <a name="see-also"></a>Voir aussi
 
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

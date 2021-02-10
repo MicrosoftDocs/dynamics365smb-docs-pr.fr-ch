@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 45f32a9f5bbdc13148483b689b5793038c675649
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b18d4406f77594486104e2348487a3380cca0af4
+ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923033"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5024477"
 ---
 # <a name="setting-up-finance"></a>Configuration de Finance
 Avant de commencer à gérer votre activité, vous devez spécifier des règles et des valeurs par défaut concernant le mode de gestion souhaité des processus financiers de cette société. Pour commencer, vous devez configurer l’élément essentiel des enregistrements comptables de la société, à savoir le plan comptable. Configurez ensuite des groupes comptabilisation afin d’accroître l’efficacité du processus d’affectation des comptes imputables de comptabilité par défaut aux clients, fournisseurs et articles.
@@ -28,13 +28,15 @@ De nombreuses tâches de configuration doivent être effectuées avant l’enreg
 
 Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.
 
-| Pour | Voir |
+| À | Voir |
 | --- | --- |
-| Choisissez la méthode pour payer vos fournisseurs. |[Définition des modes de règlement](finance-payment-methods.md) |
+| Indiquez comment vous souhaitez être payé par les clients et comment vous souhaitez payer vos fournisseurs. |[Paramétrer les modes de paiement](finance-payment-methods.md) |
+| Spécifier les conditions de paiement pour gérer les dates d’échéance et calculer les escomptes possibles.|[Configurer des conditions de paiement](finance-payment-terms.md) |
 | Spécifiez les groupes comptabilisation qui mappent des entités telles que les clients, les fournisseurs, les éléments, les ressources et les documents vente et achat dans des comptes généraux. |[Configuration de groupes comptabilisation](finance-posting-groups.md)|
 |Créer des tableaux d’analyse et définir des catégories de compte pour définir le contenu des graphiques et états financiers, tels que les états Bilan et Comptes de gestion.|[Préparer la génération d’états financiers avec des tableaux d’analyse et des catégories de compte](bi-how-work-account-schedule.md)|
 |Configurer une valeur de tolérance selon laquelle le système clôt une facture même si le règlement, tenant compte d’éventuelles remises, ne couvre pas intégralement le montant de la facture.|[Utilisation des écarts de règlement et des écarts d’escompte](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Définir les périodes fiscales. |[Utiliser des périodes et exercices comptables](finance-accounting-periods-and-fiscal-years.md) |
+|Configurez des conditions de rappel pour vous aider à recouvrer les paiements en retard.|[Configurer les conditions et niveaux de relance](finance-setup-reminders.md)|
 | Définissez comment déclarer les montants de taxe sur la valeur ajoutée que vous avez recueillis sur les ventes aux autorités fiscales. |[Configuration de la TVA](finance-setup-vat.md)|
 |Se préparer à gérer la TVA sur encaissement en association avec des méthodes comptables basées sur la trésorerie.|[Configurer la TVA sur encaissement pour la comptabilité basée sur la trésorerie](finance-setup-unrealized-vat.md)|
 | Définissez vos fonctionnalités Ventes et Achats pour gérer les paiements dans des devises étrangères.|[Activer le lettrage d’écritures comptables client en devises différentes](finance-how-enable-application-ledger-entries-different-currencies.md)
@@ -48,6 +50,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | Configurer l’état intracommunautaire et envoyer-le à une administration | [Configurer et enregistrer un état intracommunautaire](finance-how-setup-report-intrastat.md)|
 |Vérifiez qu’une écriture dans une feuille comptabilité est affectée à plusieurs comptes lors de la validation de la feuille, soit par quantité, pourcentage ou montant.|[Utiliser les clés de ventilation dans les feuilles de comptabilité](ui-how-use-allocation-keys-general-journals.md)|
 |Configurer des codes journaux et des codes motif que vous pouvez utiliser pour suivre les pistes d’audit|[Configuration des codes source et des codes de motif pour les pistes d’audit](finance-setup-trail-codes.md)|
+|Spécifiez les états par défaut à utiliser pour différents types de documents.|[Sélection des états dans Business Central](across-report-selections.md)|
 
 > [!TIP]
 > En fonction de votre emplacement géographique, certaines pages peuvent contenir des champs qui ne sont pas décrits dans les articles répertoriés ici, car ils s’appliquent à des fonctionnalités locales ou à des personnalisations. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
@@ -61,6 +64,6 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 [Utilisation des axes analytiques](finance-dimensions.md)  
 [Importation des données métier à partir d’autres systèmes financiers](across-import-data-configuration-packages.md)  
 [Analyse de la trésorerie dans votre société](finance-analyze-cash-flow.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

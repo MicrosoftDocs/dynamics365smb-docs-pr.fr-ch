@@ -10,48 +10,50 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 44cbc7d42827b92f8983aa47b94d76760ddda8d2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 32c3fedfbeea37a1be315d737ac9fe41b5c7c20a
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924288"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035446"
 ---
 # <a name="design-details-warehouse-setup"></a>Détails de conception : paramètres entrepôt
 
-La fonctionnalité d’entrepôt dans [!INCLUDE[d365fin](includes/d365fin_md.md)] contient différents niveaux de complexité, tels que définis par les autorisations de licence dans les granules proposés. Le niveau de complexité dans une solution entrepôt est en grande partie défini par le paramétrage des emplacements sur les fiches magasin, qui est lui-même contrôlé par licence afin que l’accès aux champs de configuration de l’emplacement soit défini par la licence. En outre, les objets applicatifs de la licence déterminent le document d’interface utilisateur à utiliser pour les activités entrepôt prises en charge.  
+La fonctionnalité d’entrepôt dans [!INCLUDE[prod_short](includes/prod_short.md)] contient différents niveaux de complexité, tels que définis par les autorisations de licence dans les granules proposés. Le niveau de complexité dans une solution entrepôt est en grande partie défini par le paramétrage des emplacements sur les fiches magasin, qui est lui-même contrôlé par licence afin que l’accès aux champs de configuration de l’emplacement soit défini par la licence. En outre, les objets applicatifs de la licence déterminent le document d’interface utilisateur à utiliser pour les activités entrepôt prises en charge.  
+<!--
+The following warehouse-related granules exist:  
 
-Les granules liés à l’entrepôt suivants existent :  
+- Basic Inventory (4010)  
+- Bin (4170)  
+- Put Away (4180)  
+- Warehouse Receipt (4190)  
+- Pick (4200)  
+- Warehouse Shipment (4210)  
+- Warehouse Management Systems (4620)  
+- Internal Picks and Put-aways (4630)  
+- Automated Data Capture System (4640)
+- Bin Setup (4660)  
 
-- Stock de base (4010)  
-- Emplacement (4170)  
-- Rangement (4180)  
-- Réception entrepôt (4190)  
-- Prélever (4200)  
-- Expédition entrepôt (4210)  
-- Systèmes de gestion d’entrepôt (4620)  
-- Prélèvements internes et rangements internes (4630)  
-- Système ADCS (4640)
-- Paramétrage emplacement (4660)  
+For more information about each granule, see [[!INCLUDE[prod_short](includes/prod_short.md)] Price Sheets](https://go.microsoft.com/fwlink/?LinkId=238341) (requires PartnerSource account). -->
 
-Pour plus d’informations sur chaque granule, voir [Feuilles de prix [!INCLUDE[d365fin](includes/d365fin_md.md)]](https://go.microsoft.com/fwlink/?LinkId=238341) (requiert un compte PartnerSource).  
+Le tableau suivant indique les granules requis pour définir les différents niveaux de complexité entrepôt, les documents de l’interface utilisateur qui prennent en charge chaque niveau, et les codes magasin qui reflètent ces niveaux dans la base de données de démonstration [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-Le tableau suivant indique les granules requis pour définir les différents niveaux de complexité entrepôt, les documents de l’interface utilisateur qui prennent en charge chaque niveau, et les codes magasin qui reflètent ces niveaux dans la base de données de démonstration [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+[!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
-|Niveau de complexité|Désignation|Document d’interface utilisateur|Magasin CRONUS|Granule minimum requis|  
+|Niveau de complexité|Description|Document d’interface utilisateur|Exemple d’emplacement|Granule minimum requis|  
 |----------------|-----------|-----------|---------------|---------------------------|  
 |1|Aucune activité entrepôt dédiée.<br /><br /> Validation recevoir/expédier à partir des commandes.|Commande|BLEU|Stock de base|  
 |2|Aucune activité entrepôt dédiée.<br /><br /> Validation recevoir/expédier à partir des commandes.<br /><br /> Code emplacement requis.|Commande, avec un code emplacement|ARGENTE|Stock de base/Emplacement|  
-|3 <br /><br /> **REMARQUE**  : bien que les paramètres soient appelés **Prélèvement requis** et **Rangement requis** , vous pouvez quand même valider les réceptions et les expéditions directement à partir des documents commerciaux origine dans les magasins où vous cochez ces cases.|Activité entrepôt de base, par commande.<br /><br /> Validation recevoir/expédier à partir des documents rangement/prélèvement stock. <br /><br /> Code emplacement requis.|Rangement stock/mouvement stock/prélèvement stock, avec le code emplacement|(ARGENT + Rangement requis ou Rangement requis)|Stock de base/Emplacement/Rangement/Prélèvement|  
+|3 <br /><br /> **REMARQUE** : bien que les paramètres soient appelés **Prélèvement requis** et **Rangement requis**, vous pouvez quand même valider les réceptions et les expéditions directement à partir des documents commerciaux origine dans les magasins où vous cochez ces cases.|Activité entrepôt de base, par commande.<br /><br /> Validation recevoir/expédier à partir des documents rangement/prélèvement stock. <br /><br /> Code emplacement requis.|Rangement stock/mouvement stock/prélèvement stock, avec le code emplacement|(ARGENT + Rangement requis ou Rangement requis)|Stock de base/Emplacement/Rangement/Prélèvement|  
 |4|Activité entrepôt avancée pour plusieurs ordres/commandes.<br /><br /> Validation recevoir/expédier consolidée en fonction des enregistrements de rangement/prélèvement dans l’entrepôt.|Réception entrepôt/Stockage en entrepôt/Prélèvement entrepôt/Expédition entrepôt/Feuille prélèvement|VERT|Stock de base/Réception entrepôt/Rangement/Prélèvement/Expédition entrepôt|  
 |5|Activité entrepôt avancée pour plusieurs ordres/commandes.<br /><br /> Validation recevoir/expédier consolidée en fonction des enregistrements de rangement/prélèvement dans l’entrepôt.<br /><br /> Code emplacement requis.|Réception entrepôt/Stockage en entrepôt/Prélèvement entrepôt/Expédition entrepôt/Feuille prélèvement/Feuille stockage, avec code d’emplacement|(VERT + Emplacement obligatoire)|Stock de base/Emplacement/Réception entrepôt/Rangement/Prélèvement/Expédition entrepôt|  
-|6 <br /><br /> **Remarque**  : ce niveau est appelé « WMS », car il requiert le granule le plus avancé, Warehouse Management Systems.|Activité entrepôt avancée pour plusieurs ordres/commandes<br /><br /> Validation recevoir/expédier consolidée en fonction des enregistrements de rangement/prélèvement dans l’entrepôt<br /><br /> Code emplacement requis.<br /><br /> Le code zone/classe est facultatif.<br /><br /> Magasiniers dirigés par flux de travail<br /><br /> Planification de réapprovisionnement des emplacements<br /><br /> Priorité emplacement<br /><br /> Paramétrage emplacement par capacité<br /><br /> Insertion <!-- Hand-held device integration -->|Réception entrepôt/Rangement entrepôt/Prélèvement entrepôt/Expédition entrepôt/Mouvement entrepôt/Feuille prélèvement/Feuille rangement/Entrepôt interne. Prélèvement/Rangement entrepôt interne, avec code d’emplacement/classe/zone<br /><br /> Différentes feuilles pour la gestion d’emplacement<br /><br /> Écrans ADCS|BLANC|Stock de base/Emplacement/Rangement/Réception entrepôt/Prélèvement/Expédition entrepôt/Systèmes de gestion d’entrepôt/Prélèvement interne et rangements/Paramétrage emplacement<!-- Automated Data Capture System/ -->Paramétrage emplacement|  
+|6 <br /><br /> **Remarque** : ce niveau est appelé « WMS », car il requiert le granule le plus avancé, Warehouse Management Systems.|Activité entrepôt avancée pour plusieurs ordres/commandes<br /><br /> Validation recevoir/expédier consolidée en fonction des enregistrements de rangement/prélèvement dans l’entrepôt<br /><br /> Code emplacement requis.<br /><br /> Le code zone/classe est facultatif.<br /><br /> Magasiniers dirigés par flux de travail<br /><br /> Planification de réapprovisionnement des emplacements<br /><br /> Priorité emplacement<br /><br /> Paramétrage emplacement par capacité<br /><br /> Insertion <!-- Hand-held device integration -->|Réception entrepôt/Rangement entrepôt/Prélèvement entrepôt/Expédition entrepôt/Mouvement entrepôt/Feuille prélèvement/Feuille rangement/Entrepôt interne. Prélèvement/Rangement entrepôt interne, avec code d’emplacement/classe/zone<br /><br /> Différentes feuilles pour la gestion d’emplacement<br /><br /> Écrans ADCS|BLANC|Stock de base/Emplacement/Rangement/Réception entrepôt/Prélèvement/Expédition entrepôt/Systèmes de gestion d’entrepôt/Prélèvement interne et rangements/Paramétrage emplacement<!-- Automated Data Capture System/ -->Paramétrage emplacement|  
 
 Pour des exemples d’utilisation des documents de l’interface utilisateur par niveau de complexité entrepôt, voir [Détails de conception : flux d’enlogement](design-details-inbound-warehouse-flow.md).  
 
 ## <a name="bin-and-bin-content"></a>Emplacement et Contenu emplacement
 
-Un emplacement est un dispositif de stockage conçu pour contenir des éléments discrets. Il s’agit de la plus petite unité de conteneur dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Les quantités d’articles dans des emplacements sont appelées contenu de l’emplacement. Une recherche à partir du champ **Article** ou du champ **Code emplacement** dans n’importe quel document entrepôt affiche la disponibilité calculée de l’article dans l’emplacement.  
+Un emplacement est un dispositif de stockage conçu pour contenir des éléments discrets. Il s’agit de la plus petite unité de conteneur dans [!INCLUDE[prod_short](includes/prod_short.md)]. Les quantités d’articles dans des emplacements sont appelées contenu de l’emplacement. Une recherche à partir du champ **Article** ou du champ **Code emplacement** dans n’importe quel document entrepôt affiche la disponibilité calculée de l’article dans l’emplacement.  
 
 Le contenu d’un emplacement peut se voir affecter une propriété fixe, dédiée ou par défaut, pour définir la manière dont le contenu de l’emplacement peut être utilisé. Les emplacements sans aucune de ces propriétés sont appelés emplacements dynamiques.  
 
@@ -77,7 +79,7 @@ Dans des installations WMS, vous pouvez définir les activités entrepôt qui so
 |RANG.|Généralement, les articles devant être stockés dans de grandes unités, mais auxquels vous ne souhaitez pas accéder à des fins de prélèvement. Étant donné que ces emplacements ne sont pas utilisés pour le prélèvement, que ce soit pour des ordres de fabrication ou des expéditions, l’utilisation d’un emplacement de type Rangement risque d’être limitée, mais ce type d’emplacement peut se révéler utile si vous avez acheté une grande quantité d’articles. La priorité emplacement des emplacements de ce type doit toujours être peu élevée. Ainsi, lors du rangement des articles reçus, ce sont les emplacements RANGPRELEV. de priorité plus élevée associés à l’article concerné qui sont utilisés. Lorsque vous utilisez ce type d’emplacement, vous devez régulièrement procéder au réapprovisionnement des emplacements, afin que les articles stockés dans ces emplacements puissent également être disponibles dans les emplacements de type RANGPRELEV. ou PRELEV.|  
 |PRELEV.|Articles à utiliser uniquement pour prélever. Le réapprovisionnement de ces emplacements peut uniquement être effectué par mouvement, non par rangement.|  
 |RANGPRELEV.|Articles dans des emplacements qui sont proposés à la fois pour les fonctions de rangement et de prélèvement. Les emplacements de ce type ont vraisemblablement un classement différent. Vous pouvez configurer vos emplacements de stockage en vrac comme ce type d’emplacement avec un classement peu élevé par rapport à vos emplacements prélèvement ordinaires ou vos emplacements prélèvement en aval.|  
-|CQ|Cet emplacement est utilisé pour des ajustements stock, si vous le spécifiez sur la fiche magasin dans le champ **Code empl. ajustement** . Vous pouvez également configurer des emplacements de ce type pour des articles défectueux ou en cours de contrôle. vous pouvez déplacer des articles vers ce type d’emplacement afin que la circulation habituelle des articles ne puisse pas y accéder. **Remarque :** contrairement à tous les autres types d’emplacement, les cases à cocher pour le traitement des articles sont toutes désactivées par défaut pour le type **CQ** . Cela signifie que tout contenu que vous placez dans un emplacement de type CQ est exclu des flux d’articles.|  
+|CQ|Cet emplacement est utilisé pour des ajustements stock, si vous le spécifiez sur la fiche magasin dans le champ **Code empl. ajustement**. Vous pouvez également configurer des emplacements de ce type pour des articles défectueux ou en cours de contrôle. vous pouvez déplacer des articles vers ce type d’emplacement afin que la circulation habituelle des articles ne puisse pas y accéder. **Remarque :** contrairement à tous les autres types d’emplacement, les cases à cocher pour le traitement des articles sont toutes désactivées par défaut pour le type **CQ**. Cela signifie que tout contenu que vous placez dans un emplacement de type CQ est exclu des flux d’articles.|  
 
 Pour tous les types d’emplacement, à l’exception de PRELEV, RANGPRELEV et RANGEMENT, aucune autre activité n’est autorisée pour l’emplacement que celle définie par son type d’emplacement. Par exemple, un emplacement de type **Réception** peut être utilisé uniquement pour y recevoir des articles ou pour en prélever des articles.  
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 72c947263ccf736d9432c52b6256868ad346ad09
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 219c1fcf1d4929a548f9a8d5849dde77f1c0b24a
+ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918752"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5024602"
 ---
 # <a name="setting-up-purchasing"></a>Définition des achats
 Avant de pouvoir gérer les processus achat, vous devez configurer les règles et valeurs qui définissent les stratégies d’achat de la société.
@@ -32,6 +32,7 @@ Les configurations relatives à la finance, telles que les modes de règlement e
 | Entrer les différents remises et prix spéciaux que vous accordent les fournisseurs en fonction de l’article, des quantités et/ou de la date |[Enregistrer des accords sur les prix d’achat, les remises et les paiements](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
 | Octroyer une priorité aux fournisseurs |[Octroyer une priorité aux fournisseurs](purchasing-how-prioritize-vendors.md) |
 | Configurer les acheteurs |[Configurer les acheteurs](purchasing-how-setup-purchasers.md) |
+|Spécifiez les états par défaut à utiliser pour différents types de documents.|[Sélection des états dans Business Central](across-report-selections.md)|
 
 > [!TIP]
 > En fonction de votre emplacement géographique, certaines pages peuvent contenir des champs qui ne sont pas décrits dans les articles répertoriés ici, car ils s’appliquent à des fonctionnalités locales ou à des personnalisations. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
@@ -41,4 +42,4 @@ Les configurations relatives à la finance, telles que les modes de règlement e
 ## <a name="see-also"></a>Voir aussi
 
 [Achats](purchasing-manage-purchasing.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

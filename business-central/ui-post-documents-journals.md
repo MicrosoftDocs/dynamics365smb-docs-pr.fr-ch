@@ -11,17 +11,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2ffba43c94a02a8bf31a09f4705b0f24312e3c17
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1a378d4b5a93d1397512739cce898fe7566707c8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912061"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760407"
 ---
 # <a name="posting-documents-and-journals"></a>Validation des documents et des feuilles
 La validation est une action de comptabilité qui consiste à enregistrer des transactions commerciales dans les divers livres comptables de la société.
 
-Quasiment chaque document et feuille de [!INCLUDE[d365fin](includes/d365fin_md.md)] propose un groupe **Validation** à partir duquel vous pouvez choisir entre différentes actions de validation, par exemple **Valider** , **Aperçu compta.** , **Valider et envoyer** et **Valider et envoyer par e-mail** .
+Quasiment chaque document et feuille de [!INCLUDE[prod_short](includes/prod_short.md)] propose un groupe **Validation** à partir duquel vous pouvez choisir entre différentes actions de validation, par exemple **Valider**, **Aperçu compta.**, **Valider et envoyer** et **Valider et envoyer par e-mail**.
 
 Le tableau suivant décrit les tâches associées, et inclut des liens vers les rubriques qui les décrivent.
 
@@ -37,4 +37,4 @@ Le tableau suivant décrit les tâches associées, et inclut des liens vers les 
 ## <a name="see-also"></a>Voir aussi
 [Valider les documents validés](across-edit-posted-document.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

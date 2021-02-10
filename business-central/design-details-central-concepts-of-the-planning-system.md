@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 76a25b3810c41d413c662d77bdcc72678bf8c59f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e916192ad9aa14ebcb254a140614b84091ddc922
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917516"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5013644"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Détails de conception : concepts centraux du système de planification
 Les fonctions de planification se trouvent dans un traitement par lots qui sélectionne d’abord les articles appropriés et la période à planifier. Puis, en fonction du code de bas niveau de chaque article (ligne nomenclature), le traitement par lots appelle une unité de code, qui calcule un programme d’approvisionnement en équilibrant les séries approvisionnement-demande et en suggérant des actions possibles à mener pour l’utilisation. Les mesures suggérées apparaissent sous forme de lignes dans la feuille planning ou dans la demande achat.  
@@ -49,7 +49,7 @@ En d’autres termes, il est supposé que la planification pour le passé est ex
 Pour plus d’informations, voir [Traiter les commandes avant la date début de la planification](design-details-balancing-demand-and-supply.md#dealing-with-orders-before-the-planning-starting-date).  
 
 ## <a name="dynamic-order-tracking-pegging"></a>Chaînage dynamique (Origine des besoins)  
-Le chaînage dynamique, avec sa création simultanée des messages d’action dans la feuille planning, ne fait pas partie du système de planification des approvisionnements dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Cette fonction lie, en temps réel, la demande et des montants qui pourraient les couvrir, chaque fois qu’une nouvelle demande ou un approvisionnement est créé ou modifié.  
+Le chaînage dynamique, avec sa création simultanée des messages d’action dans la feuille planning, ne fait pas partie du système de planification des approvisionnements dans [!INCLUDE[prod_short](includes/prod_short.md)]. Cette fonction lie, en temps réel, la demande et des montants qui pourraient les couvrir, chaque fois qu’une nouvelle demande ou un approvisionnement est créé ou modifié.  
 
 Par exemple, si l’utilisateur entre ou modifie une commande vente, le système chaînage dynamique recherche immédiatement un approvisionnement approprié pour couvrir la demande. Cela peut être à partir du stock ou d’une commande approvisionnement prévue (telle qu’une commande achat ou un ordre de fabrication). Lorsqu’une source d’approvisionnement est trouvée, le système crée un lien entre la demande et l’approvisionnement, et l’affiche sur des pages en lecture seule qui sont consultées depuis les lignes document associées. Lorsque l’approvisionnement approprié est introuvable, le système de suivi de commande dynamique crée des messages d’action dans la feuille de planification avec des suggestions de plan d’approvisionnement reflétant l’équilibre dynamique. Par conséquent, le système chaînage dynamique offre un système de planification de base qui peut être utile au gestionnaire et à d’autres rôles dans la chaîne d’approvisionnement interne.  
 
@@ -76,12 +76,12 @@ Par contre, le système de planification traite l’ensemble des demandes et app
 
 Après l’exécution de la planification, il ne reste aucun message d’action dans la table Écriture message d’action, parce qu’ils ont été remplacés par les actions suggérées dans la feuille planning  
 
-Pour plus d’informations, voir Liens de chaînage lors de la planification dans [Équilibrage de l’approvisionnement avec la demande](design-details-balancing-demand-and-supply.md#balancing-supply-with-demand).  
+Pour plus d’informations, voir [Liens traçabilité commande lors de la planification](design-details-balancing-demand-and-supply.md#seriallot-numbers-are-loaded-by-specification-level).  
 
 ## <a name="sequence-and-priority-in-planning"></a>Séquence et priorité de la planification  
 Lors de l’établissement d’un plan, la séquence des calculs est importante que le travail soit réalisé dans un délai raisonnable. En outre, la gestion des priorités des besoins et ressources joue un rôle important pour obtenir les meilleurs résultats.  
 
-Le système de planification dans [!INCLUDE[d365fin](includes/d365fin_md.md)] est axé sur les demandes. Les articles de niveau supérieur doivent être planifiés avant les articles de bas niveau, car la planification des articles de niveau supérieur peut générer une demande supplémentaire d’articles de niveau inférieur. Ceci signifie, par exemple, que des sites de détail doivent être planifiés avant que les centres de distribution ne soient planifiés, car le programme pour un site de détail peut inclure une demande supplémentaire du centre de distribution. Sur un niveau d’équilibre détaillé, cela signifie également qu’une commande vente ne doit pas déclencher une commande approvisionnement si une commande approvisionnement déjà lancée peut couvrir la commande vente. De même, un approvisionnement portant un numéro de lot spécifique ne doit pas être affecté pour couvrir une demande générique si une autre demande requiert ce lot spécifique.  
+Le système de planification dans [!INCLUDE[prod_short](includes/prod_short.md)] est axé sur les demandes. Les articles de niveau supérieur doivent être planifiés avant les articles de bas niveau, car la planification des articles de niveau supérieur peut générer une demande supplémentaire d’articles de niveau inférieur. Ceci signifie, par exemple, que des sites de détail doivent être planifiés avant que les centres de distribution ne soient planifiés, car le programme pour un site de détail peut inclure une demande supplémentaire du centre de distribution. Sur un niveau d’équilibre détaillé, cela signifie également qu’une commande vente ne doit pas déclencher une commande approvisionnement si une commande approvisionnement déjà lancée peut couvrir la commande vente. De même, un approvisionnement portant un numéro de lot spécifique ne doit pas être affecté pour couvrir une demande générique si une autre demande requiert ce lot spécifique.  
 
 ### <a name="item-priority--low-level-code"></a>Priorité d’article / Code plus bas niveau  
 Dans un environnement de fabrication, la demande d’un article fini et pouvant être vendu a pour résultat une demande dérivée pour les composants qui constituent l’article fini. La structure de nomenclature contrôle la structure des composants et peut couvrir plusieurs niveaux d’articles semi-finis. La planification d’un article va créer une demande dérivée pour des composants au niveau suivant, etc. Cela peut entraîner une demande dérivée pour les articles achetés. Par conséquent, le système de planification planifie les articles par ordre de leur classement dans la hiérarchie de nomenclature totale, en commençant par les articles terminés vendables au niveau supérieur et en continuant dans la structure produit jusqu’aux articles du plus bas niveau (en fonction du code plus bas niveau.)  
@@ -93,12 +93,12 @@ Les chiffres indiquent dans quelle séquence le système fait des propositions p
 Pour plus d’informations sur la fabrication, voir [Chargement des profils de stock](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
 
 #### <a name="optimizing-performance-for-low-level-calculations"></a>Optimisation des performances pour les calculs plus bas niveau
-Les calculs de code plus bas niveau peuvent avoir un impact sur les performances du système. Pour atténuer l’impact, vous pouvez désactiver **Calcul de code plus bas niveau dynamique** sur la page **Configuration de la fabrication** . Quand vous le faites, [!INCLUDE[d365fin](includes/d365fin_md.md)] vous suggère de créer une entrée de file d’attente de tâches récurrente qui met à jour quotidiennement les codes plus bas niveau. Vous pouvez vous assurer que la tâche s’exécutera en dehors des heures de travail en spécifiant une heure de début dans le champ **Date/heure de début au plus tôt** .
+Les calculs de code plus bas niveau peuvent avoir un impact sur les performances du système. Pour atténuer l’impact, vous pouvez désactiver **Calcul de code plus bas niveau dynamique** sur la page **Configuration de la fabrication**. Quand vous le faites, [!INCLUDE[prod_short](includes/prod_short.md)] vous suggère de créer une entrée de file d’attente de tâches récurrente qui met à jour quotidiennement les codes plus bas niveau. Vous pouvez vous assurer que la tâche s’exécutera en dehors des heures de travail en spécifiant une heure de début dans le champ **Date/heure de début au plus tôt**.
 
-Vous pouvez également activer la logique qui accélère les calculs de code plus bas niveau en sélectionnant **Optimiser le calcul du code plus bas niveau** sur la page **Configuration de la fabrication** . 
+Vous pouvez également activer la logique qui accélère les calculs de code plus bas niveau en sélectionnant **Optimiser le calcul du code plus bas niveau** sur la page **Configuration de la fabrication**. 
 
 > [!IMPORTANT]
-> Si vous choisissez d’optimiser les performances, [!INCLUDE[d365fin](includes/d365fin_md.md)] utilise de nouvelles méthodes de calcul pour déterminer les codes plus bas niveau. Si vous disposez d’une extension qui repose sur les événements utilisés par les anciens calculs, l’extension peut cesser de fonctionner.   
+> Si vous choisissez d’optimiser les performances, [!INCLUDE[prod_short](includes/prod_short.md)] utilise de nouvelles méthodes de calcul pour déterminer les codes plus bas niveau. Si vous disposez d’une extension qui repose sur les événements utilisés par les anciens calculs, l’extension peut cesser de fonctionner.   
 
 ### <a name="locations--transfer-level-priority"></a>Magasins/priorité de niveau transfert  
 Les sociétés actives dans plus d’un magasin peuvent être amenées à planifier chaque magasin individuellement. Par exemple, le niveau de stock de sécurité d’un article et sa méthode de réapprovisionnement peuvent différer d’un magasin à un autre. Dans ce cas, les paramètres de planification doivent être spécifiés par article et également par magasin.  
@@ -121,7 +121,7 @@ Les prévisions et les commandes ouvertes représentent la demande anticipée. L
 
 ![Planification avec prévisions](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "Planification avec prévisions")  
 
-Pour plus d’informations, reportez-vous à la section « La demande de prévision est réduite par les commandes vente » dans [Chargement des profils de stock](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
+Pour plus d’informations, reportez-vous à la section [La demande de prévision est réduite par les commandes vente](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders).  
 
 ## <a name="planning-assignment"></a>Affectation planning  
 Tous les articles doivent être planifiés. Cependant, il n’existe aucune raison de calculer une planification pour un article à moins qu’il n’y ait eu une modification de la configuration de l’offre ou de la demande depuis la dernière fois qu’un plan a été calculé.  
@@ -136,12 +136,12 @@ La raison de la sélection d’articles pour la planification est une question d
 
 La liste complète des motifs pour affecter un article à la planification est disponible dans [Détails de conception : tableau d’affectation de planification](design-details-planning-assignment-table.md).  
 
-Les options de planification dans [!INCLUDE[d365fin](includes/d365fin_md.md)] sont les suivantes :  
+Les options de planification dans [!INCLUDE[prod_short](includes/prod_short.md)] sont les suivantes :  
 
 -   Calculer planning régénératif – calcule tous les articles sélectionnés, que ce soit nécessaire ou non.  
 -   Calculer planning par écart – calcule uniquement les articles sélectionnés dont la configuration demande-approvisionnement a été modifiée et, par conséquent, qui ont été affectés au planning.  
 
-Certains utilisateurs croient que la planification par écart doit être exécutée à la volée, par exemple, quand les commandes vente sont saisies. Toutefois, ceci peut être source de confusion car le chaînage dynamique et les messages d’action sont également calculés à la volée. En outre, [!INCLUDE[d365fin](includes/d365fin_md.md)] offre un contrôle en temps réel de la disponibilité à la vente, qui fournit des alertes contextuelles lors de la saisie de commande de vente si la demande ne peut pas être traitée dans le programme d’approvisionnement actif.  
+Certains utilisateurs croient que la planification par écart doit être exécutée à la volée, par exemple, quand les commandes vente sont saisies. Toutefois, ceci peut être source de confusion car le chaînage dynamique et les messages d’action sont également calculés à la volée. En outre, [!INCLUDE[prod_short](includes/prod_short.md)] offre un contrôle en temps réel de la disponibilité à la vente, qui fournit des alertes contextuelles lors de la saisie de commande de vente si la demande ne peut pas être traitée dans le programme d’approvisionnement actif.  
 
 En plus de ces considérations, le système de planification planifie uniquement les articles que l’utilisateur a préparés avec les paramètres de planification appropriés. Sinon, nous considérons que l’utilisateur organisera les articles manuellement ou semi-automatiquement à l’aide de la fonction Planification commande.  
 
@@ -179,7 +179,7 @@ Les articles numérotés par série/lot sans configuration de traçabilité spé
 
 Des demandes-approvisionnements avec des numéros de série et/ou de lot, spécifiques ou non spécifiques, sont considérés comme de haute priorité et sont donc exempts de la zone gelée, c’est-à-dire qu’ils font partie de la planification même s’ils sont dus avant la date début de la planification.  
 
-Pour plus d’informations, reportez-vous à la section « Les numéros de série/lot sont chargés en fonction du niveau de spécification » dans [Chargement des profils de stock](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
+Pour plus d’informations, reportez-vous à la section [Les numéros de série/lot sont chargés en fonction du niveau de spécification](design-details-balancing-demand-and-supply.md#seriallot-numbers-are-loaded-by-specification-level).
 
 Pour plus d’informations sur la manière dont le système de planification équilibre les attributs, voir [Les numéros de série et/ou de lot et les liens Ordre pour ordre sont exempts de la zone gelée](design-details-balancing-demand-and-supply.md#seriallot-numbers-and-order-to-order-links-are-exempt-from-the-frozen-zone).  
 
@@ -217,7 +217,7 @@ La première colonne dans la feuille planning concerne les champs d’avertissem
 
 L’approvisionnement pour les lignes planning avec les alertes n’est normalement pas modifié en fonction des paramètres de planification. Au lieu de cela, le système de planification propose uniquement un approvisionnement pour couvrir la quantité de demande exacte. Cependant, le système peut être configuré pour respecter certains paramètres de planification pour les lignes planning avec certaines alertes. Pour plus d’informations, reportez-vous à la description de ces options pour le traitement par lots **Calc. planning - F. planning** et le traitement par lots **Calculer planning - F. demande** respectivement.  
 
-Les informations d’avertissement sont affichées sur la page **Éléments planning non chaînés** , qui est également utilisée pour afficher les liens de suivi de commande vers des entités réseau hors commande. Les types d’alerte suivants existent :  
+Les informations d’avertissement sont affichées sur la page **Éléments planning non chaînés**, qui est également utilisée pour afficher les liens de suivi de commande vers des entités réseau hors commande. Les types d’alerte suivants existent :  
 
 -   Urgence  
 -   Exception  
@@ -270,13 +270,13 @@ Le champ peut être manuellement défini par l’utilisateur, cependant, dans ce
 Pour plus d’informations sur l’utilisation de ce champ, voir [Détails de conception : transferts de planification](design-details-transfers-in-planning.md).  
 
 ## <a name="order-planning"></a>Planification commande  
-L’outil de base de planification de l’approvisionnement représenté par la page **Planification commande** est conçu pour la prise de décision manuelle. Il ne tient compte d’aucun paramètre de planification et n’est donc pas traité ultérieurement dans ce document. Pour plus d’informations sur la fonction Planification commande, reportez-vous à l’aide de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+L’outil de base de planification de l’approvisionnement représenté par la page **Planification commande** est conçu pour la prise de décision manuelle. Il ne tient compte d’aucun paramètre de planification et n’est donc pas traité ultérieurement dans ce document. Pour plus d’informations, consultez [Planifier de nouvelles demandes commande par commande](production-how-to-plan-for-new-demand.md).  
 
 > [!NOTE]  
 >  Il n’est pas recommandé d’utiliser la Planification commande si la société utilise déjà les feuilles planning ou demande. Les commandes approvisionnement créées via la page **Planning commande** peuvent être modifiées ou supprimées pendant les planifications automatisées. En effet, la planification automatisée utilise les paramètres de planification qui n’ont peut-être pas été pris en compte par l’utilisateur ayant créé la planification manuelle sur la page Planning commande.  
 
 ##  <a name="finite-loading"></a>Chargement limité  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] est un système ERP standard, et non un système d’affectation ou de gestion d’atelier. Il prévoit une utilisation des ressources faisable via une planification approximative, mais il ne crée ni ne met à jour automatiquement des plannings détaillés sur la base des priorités ou des règles d’optimisation.  
+[!INCLUDE[prod_short](includes/prod_short.md)] est un système ERP standard, et non un système d’affectation ou de gestion d’atelier. Il prévoit une utilisation des ressources faisable via une planification approximative, mais il ne crée ni ne met à jour automatiquement des plannings détaillés sur la base des priorités ou des règles d’optimisation.  
 
 L’utilisation prévue de la fonction Capacité critique est 1) : pour éviter la surcharge de ressources spécifiques et 2) : pour s’assurer qu’aucune capacité n’est laissée non affectée si elle peut augmenter le délai d’exécution d’un ordre de fabrication. La fonction n’inclut pas d’équipements ni d’options pour gérer les priorités ou optimiser des opérations, comme on s’attendrait à en trouver dans un système d’affectation. Toutefois, elle permet de fournir des informations de capacité approximative utiles pour identifier des goulots d’étranglement et éviter de surcharger des ressources.  
 
@@ -287,7 +287,7 @@ Lors de la planification avec des ressources avec contraintes de capacité, le s
 
 Le seuil peut être ajouté aux ressources pour réduire la répartition des opérations. Cela permet au système de planifier la charge sur le dernier jour possible en dépassant légèrement le pourcentage de charge critique si ceci peut réduire le nombre d’opérations qui sont divisées.  
 
-Cela complète la planification des concepts centraux en relation avec la planification des approvisionnements dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Les sections suivantes examinent les concepts plus profonds et les placent dans le cadre des procédures de planification de base, de l’équilibrage de l’approvisionnement et de la demande, ainsi que de l’utilisation des méthodes de réapprovisionnement.  
+Cela complète la planification des concepts centraux en relation avec la planification des approvisionnements dans [!INCLUDE[prod_short](includes/prod_short.md)]. Les sections suivantes examinent les concepts plus profonds et les placent dans le cadre des procédures de planification de base, de l’équilibrage de l’approvisionnement et de la demande, ainsi que de l’utilisation des méthodes de réapprovisionnement.  
 
 ## <a name="see-also"></a>Voir aussi  
 [Détails de conception : transferts de planification](design-details-transfers-in-planning.md)   

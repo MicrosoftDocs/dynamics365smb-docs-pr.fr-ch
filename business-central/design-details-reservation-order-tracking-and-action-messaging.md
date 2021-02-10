@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, replenishment, reordering
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 99c7410e31291213486d8843ba125359615c1477
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 87646a26a3cd962478fe36082b76c2843a620570
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911070"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035471"
 ---
 # <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Détails de conception : réservation, chaînage et message d’action
 Le système de réservation est complet et inclut les fonctionnalités étroitement liées et parallèles du Chaînage et des Messages d’action.  
@@ -29,12 +29,15 @@ Le système de réservation est complet et inclut les fonctionnalités étroitem
 
  Le système de réservation forme également la base structurelle du système de traçabilité. Pour plus d’informations, voir [Détails de conception : traçabilité](design-details-item-tracking.md).  
 
- Pour plus d’informations détaillées sur le fonctionnement du système de réservation, reportez-vous au livre blanc « table Écriture réservation » sur [PartnerSource](https://go.microsoft.com/fwlink/?LinkId=258348).  
+ <!--For more detailed information about how the reservation system works, see the _Reservation Entry Table_ white paper on [PartnerSource](https://go.microsoft.com/fwlink/?LinkId=258348).  -->
+
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
 ## <a name="reservation"></a>Réservation  
- Une réservation est un lien ferme qui connecte une demande spécifique à un approvisionnement spécifique. Ce lien affecte directement la transaction d’inventaire ultérieure et garantit la bonne application des écritures article à des fins de coûts. Une réservation remplace le mode d’évaluation du stock par défaut d’un article. Pour plus d’informations, voir « Détails de conception : modes évaluation stock ».  
+ Une réservation est un lien ferme qui connecte une demande spécifique à un approvisionnement spécifique. Ce lien affecte directement la transaction d’inventaire ultérieure et garantit la bonne application des écritures article à des fins de coûts. Une réservation remplace le mode d’évaluation du stock par défaut d’un article. Pour plus d’informations, voir [Détails de conception : traçabilité](design-details-item-tracking.md).  
 
- La page **Réservation** est accessible à partir de toutes les lignes d’ordre à la fois des types demande et approvisionnement. Sur la page, l’utilisateur peut spécifier avec quelle écriture demande ou approvisionnement créer un lien réservation. La réservation comporte deux enregistrements qui partagent le même numéro de séquence. Un enregistrement contient un signe négatif et pointe vers la demande. L’autre enregistrement a un signe positif et pointe vers l’approvisionnement. Ces enregistrements sont stockés dans la table **Écriture réservation** avec la valeur d’état **Réservation** . L’utilisateur peut afficher toutes les réservations sur la page **Écritures réservation** .  
+ La page **Réservation** est accessible à partir de toutes les lignes d’ordre à la fois des types demande et approvisionnement. Sur la page, l’utilisateur peut spécifier avec quelle écriture demande ou approvisionnement créer un lien réservation. La réservation comporte deux enregistrements qui partagent le même numéro de séquence. Un enregistrement contient un signe négatif et pointe vers la demande. L’autre enregistrement a un signe positif et pointe vers l’approvisionnement. Ces enregistrements sont stockés dans la table **Écriture réservation** avec la valeur d’état **Réservation**. L’utilisateur peut afficher toutes les réservations sur la page **Écritures réservation**.  
 
 ### <a name="offsetting-in-reservations"></a>Compensation dans les réservations  
  Les réservations sont effectuées par rapport aux quantités disponibles article. La disponibilité article est calculée en termes de base comme suit :  
@@ -76,17 +79,17 @@ Le système de réservation est complet et inclut les fonctionnalités étroitem
 ### <a name="automatic-reservations"></a>Réservations automatiques  
  La fiche article peut être configurée pour être toujours réservée automatiquement à partir de la demande, par exemple, des commandes vente. Dans ce cas, la réservation est effectuée par rapport au stock, aux commandes achat, aux ordres d’assemblage et aux ordres de fabrication. Un avertissement est émis si l’approvisionnement est insuffisant.  
 
- De plus, les articles sont réservés automatiquement par diverses fonctions de planification afin de suivre une demande liée à un approvisionnement spécifique. Les écritures chaînage de ces liens de planification contiennent **Réservation** dans le champ **État de la réservation** dans la table **Écriture réservation** . Les réservations automatiques sont créées dans les cas suivants :  
+ De plus, les articles sont réservés automatiquement par diverses fonctions de planification afin de suivre une demande liée à un approvisionnement spécifique. Les écritures chaînage de ces liens de planification contiennent **Réservation** dans le champ **État de la réservation** dans la table **Écriture réservation**. Les réservations automatiques sont créées dans les cas suivants :  
 
--   Ordre de fabrication multi-niveaux où le champ **Mode de lancement** des articles enfants et parents associés est défini sur **Fabrication à la commande** . Le système de planification crée des réservations entre l’ordre de fabrication parent et les ordres de fabrication sous-jacents pour s’assurer qu’ils sont traités ensemble. Un tel lien de réservation remplace la méthode par défaut d’évaluation du stock et de lettrage de l’article.  
+-   Ordre de fabrication multi-niveaux où le champ **Mode de lancement** des articles enfants et parents associés est défini sur **Fabrication à la commande**. Le système de planification crée des réservations entre l’ordre de fabrication parent et les ordres de fabrication sous-jacents pour s’assurer qu’ils sont traités ensemble. Un tel lien de réservation remplace la méthode par défaut d’évaluation du stock et de lettrage de l’article.  
 
--   Un ordre de fabrication, un assemblage ou une commande achat dont le champ **Méthode réapprovisionnement** de l’article concerné est défini sur **Commande** . Le système de planification crée des réservations entre la demande et l’approvisionnement planifié pour s’assurer que l’approvisionnement spécifique est créé. Pour plus d’informations, reportez-vous à [Commande](design-details-handling-reordering-policies.md#order).  
+-   Un ordre de fabrication, un assemblage ou une commande achat dont le champ **Méthode réapprovisionnement** de l’article concerné est défini sur **Commande**. Le système de planification crée des réservations entre la demande et l’approvisionnement planifié pour s’assurer que l’approvisionnement spécifique est créé. Pour plus d’informations, reportez-vous à [Commande](design-details-handling-reordering-policies.md#order).  
 
 -   Un ordre de fabrication créé à partir d’une commande vente avec la fonction **Planification commande vente** est lié à la commande vente avec une réservation automatique.  
 
--   Un ordre d’assemblage créé automatiquement pour une ligne commande vente afin de correspondre à la quantité dans le champ **($ T_37_900 Qty. to Assemble to Order $)** . Cette réservation automatique lie la demande de vente et l’approvisionnement d’assemblage afin que les préparateurs de commande puissent personnaliser et assurer l’élément d’assemblage directement au client. En outre, la réservation lie le résultat d’assemblage à la ligne commande vente via l’activité d’expédition qui répond à la commande client.  
+-   Un ordre d’assemblage créé automatiquement pour une ligne commande vente afin de correspondre à la quantité dans le champ **($ T_37_900 Qty. to Assemble to Order $)**. Cette réservation automatique lie la demande de vente et l’approvisionnement d’assemblage afin que les préparateurs de commande puissent personnaliser et assurer l’élément d’assemblage directement au client. En outre, la réservation lie le résultat d’assemblage à la ligne commande vente via l’activité d’expédition qui répond à la commande client.  
 
- Dans le cas d’un approvisionnement ou d’une demande sans affectation, le système de planification affecte automatiquement l’état de réservation de type **Excédent** . Cela peut être le résultat de la demande qui est due aux quantités prévues ou des paramètres de planification saisis par l’utilisateur. Il s’agit du surplus légitime, que le système reconnaît, et cela ne provoque pas les messages d’action. Un excédent peut également être véritable, un excédent d’approvisionnement ou une demande qui reste non chaînée. Il s’agit d’une mention d’un déséquilibre dans le réseau d’ordres, qui conduit le système à émettre des messages d’action. Notez qu’un message d’action qui propose une modification de quantité fait toujours référence au type **Excédent** . Pour plus d’informations, reportez-vous à la section « Exemple : chaînage dans les ventes, production et transferts » de cette rubrique.  
+ Dans le cas d’un approvisionnement ou d’une demande sans affectation, le système de planification affecte automatiquement l’état de réservation de type **Excédent**. Cela peut être le résultat de la demande qui est due aux quantités prévues ou des paramètres de planification saisis par l’utilisateur. Il s’agit du surplus légitime, que le système reconnaît, et cela ne provoque pas les messages d’action. Un excédent peut également être véritable, un excédent d’approvisionnement ou une demande qui reste non chaînée. Il s’agit d’une mention d’un déséquilibre dans le réseau d’ordres, qui conduit le système à émettre des messages d’action. Notez qu’un message d’action qui propose une modification de quantité fait toujours référence au type **Excédent**. Pour plus d’informations, reportez-vous à la section « Exemple : chaînage dans les ventes, production et transferts » de cette rubrique.  
 
  Les réservations automatiques qui sont créées lors de l’exécution de la planification sont traitées comme suit :  
 
@@ -108,7 +111,7 @@ Le système de réservation est complet et inclut les fonctionnalités étroitem
 
  Ce principe implique qu’un changement dans une demande entraîne un déséquilibre correspondant du côté de l’approvisionnement du réseau d’ordres. Inversement, une modification d’approvisionnement entraîne un déséquilibre correspondant du côté de la demande du réseau d’ordres. En réalité, le réseau d’ordres se trouve dans un état de flux constant tant que les utilisateurs saisissent, modifient et suppriment des commandes. Le chaînage traite les commandes dynamiquement, en réagissant à chaque modification au moment où elle entre dans le système et devient une partie du réseau d’ordres. Dès que de nouveaux enregistrements de chaînage sont créés, le réseau d’ordres est équilibré, mais uniquement jusqu’à la prochaine modification.  
 
- Pour augmenter la transparence des calculs dans le système de planification, la page **Annulation du chaînage des éléments planning** affiche les quantités non suivies, qui représentent la différence de quantité entre la demande connue et l’approvisionnement proposé. Chaque ligne de la page fait référence à la cause de l’excédent, par exemple, **Commande ouverte** , **Stock de sécurité** , **Qté fixe de commande** , **Qté minimum commande** , **Arrondi** ou **Seuil** .  
+ Pour augmenter la transparence des calculs dans le système de planification, la page **Annulation du chaînage des éléments planning** affiche les quantités non suivies, qui représentent la différence de quantité entre la demande connue et l’approvisionnement proposé. Chaque ligne de la page fait référence à la cause de l’excédent, par exemple, **Commande ouverte**, **Stock de sécurité**, **Qté fixe de commande**, **Qté minimum commande**, **Arrondi** ou **Seuil**.  
 
 ### <a name="offsetting-in-order-tracking"></a>Compensation dans le chaînage  
  Contrairement aux réservations, qui ne peuvent être exécutées que pour des quantités d’article disponibles, le chaînage est possible sur toutes les entités réseau de commande qui sont incluses dans le calcul des besoins nets du système de planification. Les besoins nets sont calculés comme suit :  
@@ -125,67 +128,67 @@ Le système de réservation est complet et inclut les fonctionnalités étroitem
 
 |Article 1|Name|« Composant »|
 |-|-|-|
-||Disponibilité|100 unités dans le magasin ROUGE<br /><br />- 30 unités de LOTA<br />- 70 unités de LOTB|  
+||Disponibilité|100 unités dans le magasin WEST<br /><br />- 30 unités de LOTA<br />- 70 unités de LOTB|  
 |Article 2|Name|« Article produit »|
 ||Nomenclature de production|1 quantité par « Composant »|  
-||demande|Vente de 100 unités au magasin BLEU|  
+||demande|Vente de 100 unités au magasin EAST|  
 ||Approvisionnement|Ordre de fabrication lancé (généré à l’aide de la fonction **Planification commande vente** pour la vente de 100 unités)|  
 
-Sur la page **Paramètres production** , le champ **Mag. composant par déf.** est défini sur **ROUGE** .
+Sur la page **Paramètres production**, le champ **Mag. composant par déf.** est défini sur **ROUGE**.
 
- Les écritures de chaînage suivantes existent dans la table **Écriture réservation** , en fonction des données de la table.  
+ Les écritures de chaînage suivantes existent dans la table **Écriture réservation**, en fonction des données de la table.  
 
- ![Écritures chaînage dans la table Écriture réservation](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
+ ![Premier exemple d’écritures chaînage dans la table Écriture réservation](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
 
 ### <a name="entry-numbers-8-and-9"></a>Numéros d’écriture 8 et 9  
- Pour le besoin composant de LOTA et de LOTB respectivement, des liens traçabilité commande sont créés entre la demande dans la table 5407, **Composant O.F.** , et l’approvisionnement dans la table 32, **Écriture comptable article** . Le champ **État de la réservation** contient **Traçabilité** pour indiquer que ces écritures sont des liens traçabilité commande dynamiques entre l’approvisionnement et la demande.  
+ Pour le besoin composant de LOTA et de LOTB respectivement, des liens traçabilité commande sont créés entre la demande dans la table 5407, **Composant O.F.**, et l’approvisionnement dans la table 32, **Écriture comptable article**. Le champ **État de la réservation** contient **Traçabilité** pour indiquer que ces écritures sont des liens traçabilité commande dynamiques entre l’approvisionnement et la demande.  
 
 > [!NOTE]  
 >  Le champ **N° lot** est vide sur les lignes demande, parce que les numéros de lot ne sont pas spécifiés sur les lignes composant de l’ordre de fabrication lancé.  
 
 ### <a name="entry-numbers-10"></a>Numéros d’écriture 10  
- Depuis la demande vente dans la table 37, **Ligne vente** , un lien de chaînage est créé avec l’approvisionnement dans la table 5406, **Ligne O.F.** . Le champ **État de la réservation** contient **Réservation** , et le champ **Lien** indique **Ordre pour ordre** . Ceci est dû au fait que l’ordre de fabrication émis a été généré spécifiquement pour la commande vente et doit rester lié contrairement aux liens de suivi de commande avec le statut de réservation **Traçabilité** , qui sont créés et modifiés de façon dynamique. Pour plus d’informations, voir la section « Réservations automatiques » de cette rubrique.  
+ Depuis la demande vente dans la table 37, **Ligne vente**, un lien de chaînage est créé avec l’approvisionnement dans la table 5406, **Ligne O.F.**. Le champ **État de la réservation** contient **Réservation**, et le champ **Lien** indique **Ordre pour ordre**. Ceci est dû au fait que l’ordre de fabrication émis a été généré spécifiquement pour la commande vente et doit rester lié contrairement aux liens de suivi de commande avec le statut de réservation **Traçabilité**, qui sont créés et modifiés de façon dynamique. Pour plus d’informations, voir la section « Réservations automatiques » de cette rubrique.  
 
- A ce stade dans ce scénario, les 100 unités de LOTA et LOTB sont transférées au magasin BLEU par un ordre de transfert.  
+ A ce stade dans ce scénario, les 100 unités de LOTA et LOTB sont transférées au magasin EAST par un ordre de transfert.  
 
 > [!NOTE]  
 >  Seule l’expédition de l’ordre de transfert est validée à ce stade, mais pas la réception.  
 
- À présent, les écritures de chaînage suivantes existent dans la table **Écriture réservation** .  
+ À présent, les écritures de chaînage suivantes existent dans la table **Écriture réservation**.  
 
- ![Écritures chaînage dans la table Écriture réservation](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
+ ![Deuxième exemple d’écritures chaînage dans la table Écriture réservation](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
 
 ### <a name="entry-numbers-8-and-9"></a>Numéros d’écriture 8 et 9  
- Les écritures chaînage pour les deux lots du composant correspondant à la demande dans la table 5407 sont modifiées d’un statut de réservation **Traçabilité** à **Excédent** . La raison est que les approvisionnements qui ont été liés précédemment, dans la table 32, ont été utilisés par l’expédition de l’ordre de transfert.  
+ Les écritures chaînage pour les deux lots du composant correspondant à la demande dans la table 5407 sont modifiées d’un statut de réservation **Traçabilité** à **Excédent**. La raison est que les approvisionnements qui ont été liés précédemment, dans la table 32, ont été utilisés par l’expédition de l’ordre de transfert.  
 
  Un excédent véritable, comme dans ce cas, reflète un excédent d’approvisionnement ou de demande qui reste non chaîné. Il s’agit d’une indication de déséquilibre dans le réseau d’ordres, qui génère un message d’action par le système de planification, sauf s’il est résolu de façon dynamique.  
 
 ### <a name="entry-numbers-12-to-16"></a>Numéros d’écriture 12 à 16  
- Dans la mesure où les deux lots du composant sont validés sur l’ordre de transfert comme réceptionnés mais non acceptés, toutes les écritures chaînage positives associées sont du type de réservation **Excédent** , indiquant qu’elles ne sont affectées à aucune demande. Pour chaque numéro de lot, une écriture est liée au tableau 5741, **Ligne transfert** , et une écriture est liée à l’écriture comptable article au magasin transit où les articles sont disponibles à présent.  
+ Dans la mesure où les deux lots du composant sont validés sur l’ordre de transfert comme réceptionnés mais non acceptés, toutes les écritures chaînage positives associées sont du type de réservation **Excédent**, indiquant qu’elles ne sont affectées à aucune demande. Pour chaque numéro de lot, une écriture est liée au tableau 5741, **Ligne transfert**, et une écriture est liée à l’écriture comptable article au magasin transit où les articles sont disponibles à présent.  
 
- A ce stade dans ce scénario, l’ordre de transfert des composants du magasin BLEU vers le magasin ROUGE est validé comme étant reçu.  
+ A ce stade dans ce scénario, l’ordre de transfert des composants du magasin EAST vers le magasin WEST est validé comme étant reçu.  
 
- À présent, les écritures de chaînage suivantes existent dans la table **Écriture réservation** .  
+ À présent, les écritures de chaînage suivantes existent dans la table **Écriture réservation**.  
 
- ![Écritures chaînage dans la table Écriture réservation](media/supply_planning_RTAM_3.png "supply_planning_RTAM_3")  
+ ![Troisième exemple d’écritures chaînage dans la table Écriture réservation](media/supply_planning_RTAM_3.png "supply_planning_RTAM_3")  
 
- Les écritures chaînage sont similaires à présent au premier point dans ce scénario, avant la validation de l’ordre de transfert comme expédié uniquement, sauf que les écritures du composant ont à présent le statut de réservation **Excédent** . Ceci est dû au fait que le besoin de composant est toujours au magasin ROUGE, reflétant ainsi que le champ **Code magasin** de la ligne composant de l’ordre de fabrication. **ROUGE** tel que configuré dans le champ de configuration **Mag. composant par déf.** . L’approvisionnement qui a été affecté à cette demande auparavant a été transféré au magasin BLEU et ne peut pas être entièrementsuivi à moins que le besoin de composant de la ligne O.F. ne soit modifié sur magasin BLEU.  
+ Les écritures chaînage sont similaires à présent au premier point dans ce scénario, avant la validation de l’ordre de transfert comme expédié uniquement, sauf que les écritures du composant ont à présent le statut de réservation **Excédent**. Ceci est dû au fait que le besoin de composant est toujours au magasin WEST, reflétant ainsi que le champ **Code magasin** de la ligne composant de l’ordre de fabrication. **WEST** tel que configuré dans le champ de configuration **Mag. composant par déf.**. L’approvisionnement qui a été affecté à cette demande auparavant a été transféré au magasin EAST et ne peut pas être entièrement suivi à moins que le besoin de composant de la ligne O.F. ne soit modifié sur magasin EAST.  
 
- A ce stade dans ce scénario, le **Code magasin** de la ligne O.F. est défini sur **BLEU** . En outre, sur la page **Lignes traçabilité** , les 30 unités de LOTA et les 70 unités de LOTB sont affectées à la ligne O.F.  
+ À ce stade dans ce scénario, le **Code magasin** de la ligne O.F. est défini sur **EAST**. En outre, sur la page **Lignes traçabilité**, les 30 unités de LOTA et les 70 unités de LOTB sont affectées à la ligne O.F.  
 
- À présent, les écritures de chaînage suivantes existent dans la table **Écriture réservation** .  
+ À présent, les écritures de chaînage suivantes existent dans la table **Écriture réservation**.  
 
- ![Écritures chaînage dans la table Écriture réservation](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
+ ![Quatrième exemple d’écritures chaînage dans la table Écriture réservation](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
 
 ### <a name="entry-numbers-21-and-22"></a>Numéros d’écriture 21 et 22  
- Comme le besoin composant a été modifié au magasin BLEU, et que l’approvisionnement est disponible comme écritures comptables article au magasin BLEU, toutes les écritures chaînage pour les deux numéros de lot sont à présent entièrement suivis, comme indiqué par le statut **Traçabilité** de la réservation.  
+ Comme le besoin composant a été modifié au magasin EAST, et que l’approvisionnement est disponible comme écritures comptables article au magasin EAST, toutes les écritures chaînage pour les deux numéros de lot sont à présent entièrement suivis, comme indiqué par le statut **Traçabilité** de la réservation.  
 
  Le champ **N° lot** est désormais renseigné dans l’écriture chaînage de la table 5407, car les numéros de lot ont été affectés aux lignes composant O.F.  
 
- Pour plus d’exemples des écritures traçabilité dans la table **Écriture réservation** , reportez-vous au livre blanc « table Écriture réservation » sur [PartnerSource](https://go.microsoft.com/fwlink/?LinkId=258348) (nécessite un login).
+ Pour plus d’exemples des écritures traçabilité dans la table **Écriture réservation**, reportez-vous au livre blanc « table Écriture réservation » sur [PartnerSource](https://go.microsoft.com/fwlink/?LinkId=258348) (nécessite un login).
 
 ## <a name="action-messaging"></a>Messages d’action  
- Lorsque le système de suivi d’ordre détecte un déséquilibre dans le réseau d’ordres, il crée automatiquement un message d’action pour en informer l’utilisateur. Les messages d’action sont des appels générés par le système en vue d’une action de l’utilisateur. Ils indiquent les détails du déséquilibre et suggèrent des propositions sur la façon de restaurer l’équilibre dans le réseau d’ordres. Elles sont affichées comme lignes de planification sur la page **Feuille planning** lorsque vous choisissez **Extraire messages d’action** . En outre, des messages d’action s’affichent sur les lignes planning qui sont générés par l’exécution de la planification pour tenir compte des propositions du système de planification sur la façon de rétablir l’équilibre du réseau d’ordres. Dans les deux cas, les propositions sont effectuées sur le réseau d’ordres, lorsque vous choisissez **Traiter messages d’action** .  
+ Lorsque le système de suivi d’ordre détecte un déséquilibre dans le réseau d’ordres, il crée automatiquement un message d’action pour en informer l’utilisateur. Les messages d’action sont des appels générés par le système en vue d’une action de l’utilisateur. Ils indiquent les détails du déséquilibre et suggèrent des propositions sur la façon de restaurer l’équilibre dans le réseau d’ordres. Elles sont affichées comme lignes de planification sur la page **Feuille planning** lorsque vous choisissez **Extraire messages d’action**. En outre, des messages d’action s’affichent sur les lignes planning qui sont générés par l’exécution de la planification pour tenir compte des propositions du système de planification sur la façon de rétablir l’équilibre du réseau d’ordres. Dans les deux cas, les propositions sont effectuées sur le réseau d’ordres, lorsque vous choisissez **Traiter messages d’action**.  
 
  Un message d’action traite un seul niveau de nomenclature à la fois. Si l’utilisateur accepte le message d’action, cela peut produire des messages d’action supplémentaire au niveau de nomenclature suivant.  
 

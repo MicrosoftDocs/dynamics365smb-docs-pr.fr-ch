@@ -1,5 +1,5 @@
 ---
-title: Aperçu des tâches permettant de paramétrer Business Central | Microsoft Docs
+title: Aperçu des tâches permettant de paramétrer Business Central
 description: Décrit les tâches permettant de paramétrer, d’initialiser et de configurer Business Central selon vos besoins.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -8,22 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 10/01/2020
+ms.date: 01/18/2021
 ms.author: edupont
-ms.openlocfilehash: 0f33f59975973d8b585c97b53a3801e8706346fc
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 32003217f6ffdeb5c5aad0fdc0fd3648a3ef5863
+ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912836"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5024434"
 ---
-# <a name="setting-up-prodshort"></a>Configuration de [!INCLUDE[prodshort](includes/prodshort.md)]
+# <a name="setting-up-prod_short"></a>Configuration de [!INCLUDE[prod_short](includes/prod_short.md)]
 
-[!INCLUDE[prodshort](includes/prodshort.md)] comprend des configurations standard pour la plupart des processus métier, mais vous pouvez les modifier pour les adapter aux besoins de votre organisation.
+[!INCLUDE[prod_short](includes/prod_short.md)] comprend des configurations standard pour la plupart des processus métier, mais vous pouvez les modifier pour les adapter aux besoins de votre organisation.
 
 Par exemple, votre plan comptable est prérempli avec un certain nombre de comptes de validation prêts à l’emploi. Vous pouvez, bien évidemment, modifier le plan comptable pour l’adapter à vos besoins. Pour plus d’informations, reportez-vous à [Finances](finance.md).
 
-Dans le menu ![Icône de pignon pour ouvrir le menu Paramètres](media/ui-experience/settings_icon_small.png), vous pouvez accéder aux guides de configuration assistée qui vous permettent de configurer certains scénarios et d’ajouter des fonctionnalités à [!INCLUDE[prodshort](includes/prodshort.md)]. Pour plus d’informations sur l’accès à toutes les pages de paramétrage aidées et manuelles, voir [Préparation aux activités commerciales](ui-get-ready-business.md).
+Dans le menu ![Icône de pignon pour ouvrir le menu Paramètres](media/ui-experience/settings_icon_small.png), vous pouvez accéder aux guides de configuration assistée qui vous permettent de configurer certains scénarios et d’ajouter des fonctionnalités à [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations sur l’accès à toutes les pages de paramétrage aidées et manuelles, voir [Préparation aux activités commerciales](ui-get-ready-business.md).
 
 Certaines fonctionnalités (générales ou pour des processus d’entreprise spécifiques), peuvent être créées manuellement en plus du guide de configuration assistée. Voici une partie des fonctionnalités qui vous pouvez paramétrer manuellement.
 
@@ -34,6 +34,7 @@ Certaines fonctionnalités (générales ou pour des processus d’entreprise sp�
 | Configurer les règles et valeurs qui définissent les stratégies de vente de la société, enregistrer de nouveaux clients et configurer la façon de communiquer avec les clients. |[Définition des ventes](sales-setup-sales.md) |
 | Configurer les règles et valeurs qui définissent les stratégies d’achat de la société, enregistrer les nouveaux fournisseurs, et attribuer une priorité à vos fournisseurs pour le traitement des paiements. |[Définition des achats](purchasing-setup-purchasing.md) |
 | Configurer les règles et les valeurs qui définissent les stratégies de stock de la société, configurer des magasins si vous stockez dans plusieurs entrepôts, et catégoriser les articles pour améliorer les opérations de recherche et de tri. |[Configuration de stock](inventory-setup-inventory.md) |
+|Spécifiez les états par défaut à utiliser pour différents types de documents.|[Sélection des états dans Business Central](across-report-selections.md)|
 | Configurer les ressources, les feuilles de temps et les projets pour la gestion des projets. |[Configuration de la gestion de projet](projects-setup-projects.md) |
 | Configurer comment assurer, maintenir et amortir les immobilisations, et comment enregistrer les coûts des immobilisations dans la comptabilité de la société. |[Paramétrage d’immobilisations](fa-setup.md) |
 |Définir les règles et valeurs générales pour les processus entrepôt et le traitement spécifique au niveau de chaque magasin.|[Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)|
@@ -41,7 +42,7 @@ Certaines fonctionnalités (générales ou pour des processus d’entreprise sp�
 |Définir les services, les symptômes, et les codes panne standard et configurer les articles de service, les ressources, et la documentation nécessaires pour fournir le service à vos clients.|[Paramétrage de la gestion des services](service-setup-service.md)|
 |Consultez les meilleures pratiques pour définir des articles pour les coûts de stock et la planification de l’approvisionnement.|[Configuration des modules complexes à l’aide des meilleures pratiques](set-up-complex-application-areas-using-best-practices.md)|
 |Améliorez la qualité de l’implémentation et raccourcissez le temps de déploiement en utilisant une panoplie d’outils pour configurer une nouvelle société à l’aide d’assistants, de modèles, de feuilles de calcul, et des questionnaires client.|[Configuration d’une société avec RapidStart Services](admin-set-up-a-company-with-rapidstart.md)|
-|Transférez les clients, les fournisseurs, le stock, les informations de comptes bancaires d’un autre système dans [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Importation des données métier à partir d’autres systèmes financiers](across-import-data-configuration-packages.md).|
+|Transférez les clients, les fournisseurs, le stock, les informations de comptes bancaires d’un autre système dans [!INCLUDE[prod_short](includes/prod_short.md)]|[Importation des données métier à partir d’autres systèmes financiers](across-import-data-configuration-packages.md).|
 |Utilisez les complément Outlook de Business Central, vous pouvez afficher des informations financières associées à des clients et des fournisseurs ou créer et envoyer des documents financiers, comme des devis et des factures.|[Utilisation de Business Central en tant que boîte de réception professionnelle dans Outlook](admin-outlook.md)|
 |Obtenez un aperçu de vos données Business Central avec Power BI et les packs de contenu Business Central.|[Activation de vos données commerciales pour Power BI](admin-powerbi.md)|
 |Utilisez vos données Business Central en tant que partie du flux de travail dans Power Automate.|[Utilisation de Business Central dans un flux automatisé](across-how-use-financials-data-source-flow.md)|
@@ -49,14 +50,14 @@ Certaines fonctionnalités (générales ou pour des processus d’entreprise sp�
 |Utilisez des guides dédiés de migration Quickbooks.|[Passage d’une application QuickBooks à Business Central](across-quickbooks-to-business-edition.md)|
 |Accédez à vos données Business Central à partir de votre périphérique mobile.|[Obtention de Business Central sur votre périphérique mobile](install-mobile-app.md)|
 |Effectuez la facturation en vrac des rendez-vous créés dans Bookings.|[Facturation en vrac pour Microsoft Bookings](finance-bookings.md)|
-|Configurer un serveur SMTP pour activer une communication entrante et sortante de [!INCLUDE[d365fin](includes/d365fin_md.md)] par e-mail.| [Paramétrer la messagerie manuellement ou à l’aide de la configuration assistée](admin-how-setup-email.md)|
+|Configurer un serveur SMTP pour activer une communication entrante et sortante de [!INCLUDE[prod_short](includes/prod_short.md)] par e-mail.| [Paramétrer la messagerie manuellement ou à l’aide de la configuration assistée](admin-how-setup-email.md)|
 | Configurer des codes d’identification uniques pour les enregistrements, tel que les fiches, les documents, et les lignes feuille, pour les suivre dans le système. |[Création des souches de numéros](ui-create-number-series.md) |
-|Configurez et affecter un calendrier principal à votre société et à ses partenaires commerciaux, tels que ses clients, ses fournisseurs ou ses magasins. Les dates de livraison et de réception sur les lignes commande vente, commande achat, ordre de transfert, et ordre de fabrication sont ensuite calculées en fonction des jours ouvrés définis dans le calendrier.|[Configurer des calendriers principaux](across-how-to-assign-base-calendars.md)|  
+|Configurez et affecter un calendrier principal à votre société et à ses partenaires commerciaux, tels que ses clients, ses fournisseurs ou ses magasins. Les dates de livraison et de réception sur les lignes commande vente, commande achat, ordre de transfert, et ordre de fabrication sont ensuite calculées en fonction des jours ouvrés définis dans le calendrier.|[Configurer des calendriers principaux](across-how-to-assign-base-calendars.md)|
 
-Certaines zones nécessitent que vous soyez un administrateur dans votre abonnement [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d’informations, voir [Administration](admin-setup-and-administration.md).  
+Certaines zones nécessitent que vous soyez un administrateur dans votre abonnement [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Administration](admin-setup-and-administration.md).  
 
 > [!NOTE]
-> En tant qu’administrateur, vous pouvez configurer une nouvelle société dans [!INCLUDE[d365fin](includes/d365fin_md.md)] avec RapidStart Services, qui est un outil conçu pour réduire les temps de déploiement, améliorer la qualité de l’implémentation, présenter une approche reproductible des implémentations et augmenter la productivité en automatisant et en simplifiant des tâches récurrentes. Pour plus d’informations, voir [Configuration d’une société avec RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
+> En tant qu’administrateur, vous pouvez configurer une nouvelle société dans [!INCLUDE[prod_short](includes/prod_short.md)] avec RapidStart Services, qui est un outil conçu pour réduire les temps de déploiement, améliorer la qualité de l’implémentation, présenter une approche reproductible des implémentations et augmenter la productivité en automatisant et en simplifiant des tâches récurrentes. Pour plus d’informations, voir [Configuration d’une société avec RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -70,8 +71,8 @@ Certaines zones nécessitent que vous soyez un administrateur dans votre abonnem
 [Gestion des assemblages](assembly-assemble-items.md)  
 [Production](production-manage-manufacturing.md)  
 [Gestion d’entrepôt](warehouse-manage-warehouse.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Création de sociétés dans [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Création de sociétés dans [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md)  
 [Mise en route](product-get-started.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

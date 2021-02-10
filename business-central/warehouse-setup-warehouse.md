@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 94c793441d413820f3dd752179c0268147fc2f8f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c96691ada97f0ee91b53d9cde303c2413e99025e
+ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920235"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5024402"
 ---
 # <a name="setting-up-warehouse-management"></a>Configuration de la gestion des entrepôts
 La stratégie de distribution d’une société se reflète dans la configuration de ses processus entrepôt : cela inclut la définition de la manière dont différents articles sont traités dans différents entrepôts (par exemple, degré de contrôle des emplacements et étendue du flux requis entre les activités entrepôt).  
@@ -40,10 +40,11 @@ La stratégie de distribution d’une société se reflète dans la configuratio
 |Configurer l’entrepôt de manière à ce qu’il suggère automatiquement les articles à prélever qui expirent en premier.|[Activer le prélèvement par FEFO](warehouse-picking-by-fefo.md)|
 |Obtenir des conseils relatifs à la réorganisation des magasins, emplacements ou zones pour générer des activités entrepôt plus efficaces.|[Restructurer les entrepôts](warehouse-how-to-restructure-warehouses.md)|
 |Intégrez les lecteurs de code barres à votre solution de gestion d’entrepôt. Uniquement pour le déploiement sur site.|[Utilisation des systèmes de saisie automatisée (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)|
+|Spécifiez les états par défaut à utiliser pour différents types de documents.|[Sélection des états dans Business Central](across-report-selections.md)|
 
 ## <a name="see-also"></a>Voir aussi  
 [Gestion d’entrepôt](warehouse-manage-warehouse.md)  
-[STOCKS ET EN-COURS](inventory-manage-inventory.md)  
+[Stock](inventory-manage-inventory.md)  
 [Gestion des assemblages](assembly-assemble-items.md)    
 [Détails de conception : gestion d’entrepôt](design-details-warehouse-management.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

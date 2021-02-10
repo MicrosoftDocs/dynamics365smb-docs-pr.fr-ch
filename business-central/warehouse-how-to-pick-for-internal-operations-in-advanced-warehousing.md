@@ -1,6 +1,6 @@
 ---
-title: Comment prélever pour des opérations internes dans les configurations de stockage avancées | Microsoft Docs
-description: Dans les configurations de stockage avancées, dans lequel le magasin est configuré pour utiliser le prélèvement ainsi que l’expédition, vous pouvez prélever des composants pour les activités de fabrication et d’assemblage à l’aide de la page **Prélèvement entrepôt** .
+title: Prélever pour des opérations internes dans les configurations de stockage avancées
+description: Si vos sites utilisent le prélèvement et l’expédition, choisissez des composants pour les activités de production et d’assemblage dans la page Sélection d’entrepôt.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ebaaa2593e7e0983246ad100482543a82ce4182a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8c1f51e722e3ec41e4c31170dca8ea891e9786e2
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914750"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5014090"
 ---
 # <a name="pick-for-production-or-assembly-in-advanced-warehouse-configurations"></a>Prélever pour la fabrication ou l’assemblage dans les configurations de stockage avancées.
-Dans les configurations de stockage avancées, dans lequel le magasin est configuré pour utiliser le prélèvement ainsi que l’expédition, vous pouvez prélever des composants pour les activités de fabrication et d’assemblage à l’aide de la page **Prélèvement entrepôt** .  
+Dans les configurations de stockage avancées, dans lequel le magasin est configuré pour utiliser le prélèvement ainsi que l’expédition, vous pouvez prélever des composants pour les activités de fabrication et d’assemblage à l’aide de la page **Prélèvement entrepôt**.  
 
 Vous pouvez également utiliser la page **Feuille mouvement** pour déplacer des articles entre emplacements ad hoc, c’est-à-dire sans référence à un document origine. Pour plus d’informations, voir [Déplacer des articles dans les configurations de stockage avancées](warehouse-how-to-move-items-in-advanced-warehousing.md).  
 
@@ -30,7 +30,7 @@ Vous pouvez créer le document prélèvement entrepôt par déplacement en séle
 
 Sinon, vous pouvez créer le document prélèvement entrepôt par extraction à l’aide de la page **Feuille prélèvement** pour détecter les demandes de prélèvement, à la fois pour l’expédition et les opérations internes, puis créer les documents prélèvement entrepôt requis.  
 
-La procédure suivante explique un scénario d’extraction dans lequel vous prélevez des composants d’un ordre de fabrication lancé via la page **Feuille prélèvement** . Cette procédure s’applique également pour un ordre d’assemblage.  
+La procédure suivante explique un scénario d’extraction dans lequel vous prélevez des composants d’un ordre de fabrication lancé via la page **Feuille prélèvement**. Cette procédure s’applique également pour un ordre d’assemblage.  
 
 Pour créer des demandes de prélèvement dans le cadre de scénarios d’extraction et de déplacement, il faut que les documents origine en question soient lancés. Lancez les documents origine des opérations internes en procédant comme suit.  
 
@@ -40,14 +40,14 @@ Pour créer des demandes de prélèvement dans le cadre de scénarios d’extrac
 |Ordre d’assemblage|Remplacez le statut actuel par le statut Lancé.|  
 
 ## <a name="to-pick-components-using-the-pick-worksheet"></a>Pour prélever des composants à partir des feuilles prélèvement  
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille prélèvement** , puis sélectionnez le lien associé.  
-2.  Choisissez l’action **Extraire documents entrepôt** , puis sélectionnez les lignes composant de l’ordre de fabrication lancé.  
+1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille prélèvement**, puis sélectionnez le lien associé.  
+2.  Choisissez l’action **Extraire documents entrepôt**, puis sélectionnez les lignes composant de l’ordre de fabrication lancé.  
 3.  Vérifiez les lignes, triez-les pour assurer un prélèvement optimisé et, si nécessaire, combinez les avec d’autres lignes de la feuille pour utiliser au mieux la disponibilité de l’employé.  
-4.  Choisissez l’action **Créer prélèvement** .  
+4.  Choisissez l’action **Créer prélèvement**.  
 5.  Définissez le mode de création des documents prélèvement entrepôt et la manière de trier les lignes prélèvement en renseignant les champs de la page **Créer prélèvement** .  
-6.  Choisissez le bouton **OK** . Les documents prélèvement entrepôt sont créés avec des lignes prélèvement pour chaque composant requis dans l’opération interne.  
+6.  Choisissez le bouton **OK**. Les documents prélèvement entrepôt sont créés avec des lignes prélèvement pour chaque composant requis dans l’opération interne.  
 
-Si la zone Opérations internes (par exemple, un atelier de production) est configurée avec un emplacement par défaut pour les composants à utiliser dans l’opération, ce code emplacement est inséré dans les lignes Emplacement qui figurent sur le document prélèvement entrepôt pour indiquer aux magasiniers où placer les articles. Pour plus d’informations, voir le champ **Code empl. des consommations** ou le champ **Code empl. vers assemblage** .
+Si la zone Opérations internes (par exemple, un atelier de production) est configurée avec un emplacement par défaut pour les composants à utiliser dans l’opération, ce code emplacement est inséré dans les lignes Emplacement qui figurent sur le document prélèvement entrepôt pour indiquer aux magasiniers où placer les articles. Pour plus d’informations, voir le champ **Code empl. des consommations** ou le champ **Code empl. vers assemblage**.
 
 ## <a name="filling-the-consumption-bin"></a>Renseigner l’emplacement consommation
 Ce graphique indique comment le champ **Code emplacement** sur les lignes composant O.F. est renseigné en fonction de la configuration de votre emplacement.
@@ -60,4 +60,4 @@ Ce graphique indique comment le champ **Code emplacement** sur les lignes compos
 [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)     
 [Gestion des assemblages](assembly-assemble-items.md)    
 [Détails de conception : gestion d’entrepôt](design-details-warehouse-management.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

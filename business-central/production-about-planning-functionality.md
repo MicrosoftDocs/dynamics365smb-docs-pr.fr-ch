@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b6999be84e2fdaca2eefef41c339c366c330a3dc
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 12ab5bbc374e40d029acaec27c7eb3596fe19d1a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925045"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759482"
 ---
 # <a name="about-planning-functionality"></a>À propos de la fonctionnalité Planification
 
@@ -97,7 +97,7 @@ Pour plus d’informations, voir [Détails de conception : paramètres de plani
 Dans la plupart des commandes approvisionnement, comme les ordres de fabrication, vous pouvez sélectionner **Illimité** ou **Aucun** dans le champ **Flexibilité planification** des lignes.
 
 Cela spécifie si l’approvisionnement représenté par la ligne O.F. est pris en compte par le système de planification lors du calcul des messages d’action.
-Si le champ affiche l’option **Illimitée** , le système de planification inclut la ligne lors du calcul des messages d’action. S’il est paramétré sur **Aucune** , la ligne est ferme et définitive, et le système de planification n’inclut pas la ligne dans le calcul des messages d’action.
+Si le champ affiche l’option **Illimitée**, le système de planification inclut la ligne lors du calcul des messages d’action. S’il est paramétré sur **Aucune**, la ligne est ferme et définitive, et le système de planification n’inclut pas la ligne dans le calcul des messages d’action.
 
 ### <a name="warning"></a>Avertissement
 
@@ -148,7 +148,7 @@ La page **Demande achat** répertorie les articles que vous souhaitez commander.
 
 - Saisissez les articles manuellement dans la feuille et renseignez les champs correspondants.
 
-- Utilisez le traitement par lots **Calculer planning** . Cette opération permet de calculer un plan de réapprovisionnement pour les articles et les points de stock ayant été configurés avec un système de réapprovisionnement **achat** ou **transfert** . Lorsque vous utilisez ce traitement par lots, le programme renseigne automatiquement le champ **Message d’action** en y indiquant une proposition d’action en vue du réapprovisionnement de l’article. Cette opération peut contribuer, par exemple, à augmenter la quantité d’articles d’une commande existante ou à créer une nouvelle commande.
+- Utilisez le traitement par lots **Calculer planning**. Cette opération permet de calculer un plan de réapprovisionnement pour les articles et les points de stock ayant été configurés avec un système de réapprovisionnement **achat** ou **transfert**. Lorsque vous utilisez ce traitement par lots, le programme renseigne automatiquement le champ **Message d’action** en y indiquant une proposition d’action en vue du réapprovisionnement de l’article. Cette opération peut contribuer, par exemple, à augmenter la quantité d’articles d’une commande existante ou à créer une nouvelle commande.
 
 - Si vous avez utilisé le traitement par lots **Calculer planning** à partir de la page **Feuille planning** pour calculer un plan de réapprovisionnement, vous pouvez utiliser le traitement par lots **Traiter messages d’action** pour copier des propositions commande achat et ordre transfert de la feuille planning à la demande achat. Ceci est commode si des utilisateurs séparés sont responsables de la gestion des ordres fabrication et des commandes achat/ordres transfert.
 
@@ -156,7 +156,7 @@ La page **Demande achat** répertorie les articles que vous souhaitez commander.
 
 - Vous pouvez utiliser l’action **Commande spéciale** pour renseigner les lignes demande achat. Cette action utilise le traitement par lots **Extraire commandes vente** pour déterminer les lignes commande vente que vous souhaitez désigner pour une commande spéciale.
 
-Les lignes demande achat contiennent des informations détaillées sur les articles devant être recommandés. Vous pouvez modifier et supprimer les lignes pour ajuster le plan de réapprovisionnement et poursuivre le traitement des lignes à l’aide du traitement par lots **Traiter messages d’action** .
+Les lignes demande achat contiennent des informations détaillées sur les articles devant être recommandés. Vous pouvez modifier et supprimer les lignes pour ajuster le plan de réapprovisionnement et poursuivre le traitement des lignes à l’aide du traitement par lots **Traiter messages d’action**.
 
 Pour plus d’informations sur la planification à l’aide de magasins et de transferts, voir [Planification avec/sans magasin](production-planning-with-without-locations.md).
 
@@ -169,4 +169,4 @@ Pour plus d’informations sur la planification à l’aide de magasins et de tr
 [STOCKS ET EN-COURS](inventory-manage-inventory.md)  
 [Achats](purchasing-manage-purchasing.md)  
 [Pratiques de configuration recommandées : planification de l’approvisionnement](setup-best-practices-supply-planning.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

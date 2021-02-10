@@ -1,5 +1,5 @@
 ---
-title: 'Procédure : modifier le montant annuel du contrat service ou du devis contrat de service | Microsoft Docs'
+title: Modifier le montant annuel du contrat service ou du devis contrat
 description: Vous pouvez modifier le montant facturé annuellement sur des contrats de service ou des devis contrat de service.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -10,23 +10,23 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: aecd53065e9567678a2d87c8d6bd21956c6251c1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 62a571ea35f70b26ac37aa23256d5af7b8e5320e
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925737"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5013911"
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Modifier le montant annuel du contrat service ou du devis contrat
 Vous pouvez modifier le montant annuel du contrat service ou du devis contrat afin de rectifier le montant qui sera facturé annuellement.  
 
 ## <a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a>Pour modifier le montant annuel du contrat service ou du devis contrat  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Contrats de service** ou **Devis contrat de service** , puis sélectionnez le lien associé.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Contrats de service** ou **Devis contrat de service**, puis sélectionnez le lien associé.  
 2. Choisissez le contrat ou le devis contrat.  
 3. Choisissez l’action **Ouvrir contrat** pour ouvrir le contrat ou le devis contrat et le modifier.  
 4. Choisissez la case à cocher **Autoriser montants non soldés** si vous souhaitez modifier le montant annuel et répartir la différence du montant annuel manuellement dans les lignes de contrat. Autrement, décochez la case pour répartir automatiquement la différence du montant annuel dans les lignes contrat après avoir modifié le montant annuel.  
-5. Modifiez la valeur du champ **Montant annuel** . Vous ne pouvez pas signer, c’est-à-dire convertir en un contrat service si vous travaillez sur un devis contrat de service, ni verrouiller un contrat service dont le montant annuel est négatif. Si vous paramétrez le montant annuel sur zéro, la valeur du champ **Période de facturation** doit être **Aucune** lors de la signature ou du verrouillage du contrat service.  
+5. Modifiez la valeur du champ **Montant annuel**. Vous ne pouvez pas signer, c’est-à-dire convertir en un contrat service si vous travaillez sur un devis contrat de service, ni verrouiller un contrat service dont le montant annuel est négatif. Si vous paramétrez le montant annuel sur zéro, la valeur du champ **Période de facturation** doit être **Aucune** lors de la signature ou du verrouillage du contrat service.  
 6. Selon que la case à cocher du champ **Autoriser montants non soldés** est sélectionnée ou non, exécutez la répartition manuelle ou automatique de la différence du montant annuel. Les lignes contrat sont mises à jour de telle sorte que la valeur du champ **Montant annuel calculé** soit égale au nouveau montant annuel.  
 
 ## <a name="distributing-differences-between-new-and-calculated-annual-amounts"></a>Distribuer les différences entre les nouveaux montants annuels et les montants annuels calculés
@@ -41,7 +41,7 @@ Si vous modifiez le montant annuel du contrat service ou du devis contrat, vous 
 
 1. La différence entre les nouvelles valeurs des champs **Montant annuel** et **Montant annuel calculé** est divisée par le nombre de lignes contrat dans le contrat service ou le devis contrat.  
 2. La valeur du champ **Montant ligne** est mise à jour en ajoutant le résultat de l’opération précédente.  
-3. La valeur des champs **Montant remise ligne** , **remise ligne** et **Marge** est mise à jour par rapport à la nouvelle valeur du champ **Montant ligne** de la manière suivante :   
+3. La valeur des champs **Montant remise ligne**, **remise ligne** et **Marge** est mise à jour par rapport à la nouvelle valeur du champ **Montant ligne** de la manière suivante :   
     * Montant remise ligne = Valeur ligne - Montant ligne.  
     * % remise ligne = Montant remise ligne / Valeur ligne * 100.  
     * Marge = Montant ligne - Coût ligne.  
@@ -57,9 +57,9 @@ La case à cocher **Autoriser montants non soldés** n’est pas activé dans le
 |Article 2|40,00|50,00|10,00|5,00|45,00|5,00|  
 |Article 3|50,00|70,00|10,00|7,00|63,00|13,00|  
 
-La valeur du champ **Montant annuel** est égale à celle du champ **Montant annuel calculé** , qui est toujours égale à la somme des montants ligne. Dans ce cas, il est égal à ce qui suit : 40 + 45 + 63 = 148.  
+La valeur du champ **Montant annuel** est égale à celle du champ **Montant annuel calculé**, qui est toujours égale à la somme des montants ligne. Dans ce cas, il est égal à ce qui suit : 40 + 45 + 63 = 148.  
 
-Si vous remplacez le **Montant annuel** par 139, le montant est calculé et doit être ajouté à chaque valeur du champ **Montant ligne** . Ce montant est calculé en retranchant le **Montant annuel calculé** de la nouvelle valeur du champ **Montant annuel** et en divisant le résultat par le nombre de lignes de contrat du contrat de service. Dans ce cas, il sera égal à ce qui suit : (139 - 148) / 3 = 3. Ensuite, le dernier chiffre calculé est ajouter à chaque valeur du champ **Montant ligne** et les valeurs des champs **% remise ligne** , **Montant remise ligne** et **Marge** sont mises à jour à l’aide des formules de la procédure décrite précédemment.  
+Si vous remplacez le **Montant annuel** par 139, le montant est calculé et doit être ajouté à chaque valeur du champ **Montant ligne**. Ce montant est calculé en retranchant le **Montant annuel calculé** de la nouvelle valeur du champ **Montant annuel** et en divisant le résultat par le nombre de lignes de contrat du contrat de service. Dans ce cas, il sera égal à ce qui suit : (139 - 148) / 3 = 3. Ensuite, le dernier chiffre calculé est ajouter à chaque valeur du champ **Montant ligne** et les valeurs des champs **% remise ligne**, **Montant remise ligne** et **Marge** sont mises à jour à l’aide des formules de la procédure décrite précédemment.  
 
 A la fin, les lignes contrat contiennent les données suivantes.  
 
@@ -74,7 +74,7 @@ Si vous modifiez le montant annuel du contrat service ou du devis contrat, vous 
 
 1. La marge sur coût variable en pourcentage est calculée comme suit : la valeur du champ **Montant ligne** est divisée par les valeurs du champ **Montant annuel calculé** de toutes les lignes contrat.  
 2. La valeur du champ **Montant ligne** est mise à jour en lui ajoutant la différence entre les nouveaux montants annuels et les montants calculés, qui est multipliée par la marge sur coût variable en pourcentage.  
-3. La valeur des champs **Montant remise ligne** , **remise ligne** et **Marge** est mise à jour par rapport à la nouvelle valeur du champ **Montant remise ligne** de la manière suivante :  
+3. La valeur des champs **Montant remise ligne**, **remise ligne** et **Marge** est mise à jour par rapport à la nouvelle valeur du champ **Montant remise ligne** de la manière suivante :  
 
     * Montant remise ligne = Valeur ligne- Montant ligne.  
     * % remise ligne = Montant remise ligne / Valeur ligne * 100.  
@@ -99,7 +99,7 @@ Si vous remplacez le **Montant annuel** par 60, la marge sur coût variable en p
 * Article 2 – 5,1 / (5 + 5,1 + 12,7) = 0,2237  
 * Article 3 – 12,7 / (5 + 5,1 +12,7) = 0,557  
 
-La valeur du champ **Montant ligne** est ensuite mise à jour dans chaque ligne contrat à l’aide de la formule suivante : Montant ligne = Montant ligne + différence entre les nouveaux montants annuels et les montants annuels calculés * Contribution en pourcentage. Après quoi, les valeurs des champs **Montant remise ligne** , **% remise ligne** et **Marge** sont mises à jour à l’aide des formules décrites dans la procédure précédente.  
+La valeur du champ **Montant ligne** est ensuite mise à jour dans chaque ligne contrat à l’aide de la formule suivante : Montant ligne = Montant ligne + différence entre les nouveaux montants annuels et les montants annuels calculés * Contribution en pourcentage. Après quoi, les valeurs des champs **Montant remise ligne**, **% remise ligne** et **Marge** sont mises à jour à l’aide des formules décrites dans la procédure précédente.  
 
 A la fin, les lignes contrat contiennent les données suivantes.  
 
@@ -129,7 +129,7 @@ La case à cocher **Autoriser montants non soldés** n’est pas activé dans le
 |Article 2|50,00|58,00|5,00|2,90|55,10|5,10|  
 |Article 3|100,00|115,00|2,00|2,30|112,70|12,70|  
 
-La valeur du champ **Montant annuel** est égale à celle du champ **Montant annuel calculé** , qui est toujours égale à la somme des montants ligne. Dans ce cas, elle est égale à ce qui suit : 25,00 + 55,10 + 112,70 = 192,80.  
+La valeur du champ **Montant annuel** est égale à celle du champ **Montant annuel calculé**, qui est toujours égale à la somme des montants ligne. Dans ce cas, elle est égale à ce qui suit : 25,00 + 55,10 + 112,70 = 192,80.  
 
  Si vous remplacez le **Montant annuel** par 180, la marge sur coût variable en pourcentage est calculée pour chaque ligne contrat :  
 
@@ -137,7 +137,7 @@ La valeur du champ **Montant annuel** est égale à celle du champ **Montant ann
 * Article 2 – 5,1 / (5 + 5,1 + 12,7) = 0,2237  
 * Article 3 – 12,7 / (5 + 5,1 +12,7) = 0,557  
 
-La valeur du champ **Montant ligne** est ensuite mise à jour dans chaque ligne contrat à l’aide de la formule suivante : Montant ligne = Montant ligne + différence entre les nouveaux montants annuels et les montants annuels calculés * Contribution en pourcentage. Après quoi, les valeurs des champs **Montant remise ligne** , **% remise ligne** et **Marge** sont mises à jour à l’aide des formules de l’étape 3 de la procédure décrite précédemment.  
+La valeur du champ **Montant ligne** est ensuite mise à jour dans chaque ligne contrat à l’aide de la formule suivante : Montant ligne = Montant ligne + différence entre les nouveaux montants annuels et les montants annuels calculés * Contribution en pourcentage. Après quoi, les valeurs des champs **Montant remise ligne**, **% remise ligne** et **Marge** sont mises à jour à l’aide des formules de l’étape 3 de la procédure décrite précédemment.  
 
 A la fin, les lignes contrat contiennent les données suivantes.  
 

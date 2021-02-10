@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 31432399981befb3b844c5d951b5b752e1152458
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5890fa0200a2661a68f6eae32246d562970e3c14
+ms.sourcegitcommit: d80cf8aa0723f9aa2b7e0b3689edf8e2682f49fc
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912511"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4840268"
 ---
 # <a name="entering-data"></a>Saisie de données
 
@@ -24,7 +24,7 @@ Plusieurs fonctions générales vous permettent de saisir vos données de maniè
 Les exemples contenus dans cet article utilisent les données de démonstration.
 
 ## <a name="working-with-editable-fields"></a>Utilisation des champs modifiables
-Les champs dans [!INCLUDE[d365fin](includes/d365fin_md.md)] peuvent contenir différentes données modifiables, telles que des montants de texte ou de devise. Les champs modifiables affichent généralement une zone de saisie dans laquelle vous pouvez taper ou choisir une valeur. Les champs non modifiables sont généralement affichés sur fond gris.   
+Les champs dans [!INCLUDE[prod_short](includes/prod_short.md)] peuvent contenir différentes données modifiables, telles que des montants de texte ou de devise. Les champs modifiables affichent généralement une zone de saisie dans laquelle vous pouvez taper ou choisir une valeur. Les champs non modifiables sont généralement affichés sur fond gris.   
 
 Certains champs modifiables fournissent un sélecteur pour vous aider à spécifier une valeur.  
 
@@ -33,7 +33,7 @@ Certains champs modifiables fournissent un sélecteur pour vous aider à spécif
 |------------------|------------------------------------|
 |Sélecteur de date       |Ce sélecteur affiche un calendrier basé sur vos paramètres régionaux actuels. Il vous aide à choisir une date unique.|
 |Menu déroulant          |Les listes déroulantes offrent un choix de valeurs fixes ou d’enregistrements de référence d’une autre table|
-|Commutateur ou case à cocher|Certains champs offrent un choix simple : valeurs *Oui* ou *Non* . Le commutateur est utilisé pour spécifier cette valeur et est toujours affiché sous forme de case à cocher dans les listes|
+|Commutateur ou case à cocher|Certains champs offrent un choix simple : valeurs *Oui* ou *Non*. Le commutateur est utilisé pour spécifier cette valeur et est toujours affiché sous forme de case à cocher dans les listes|
 |Modification assistée       |Certains champs fournissent des sélecteurs personnalisés adaptés à la recherche et au choix de la meilleure valeur pour ce champ, comme une fenêtre contextuelle|
 
 
@@ -41,20 +41,20 @@ Certains champs modifiables fournissent un sélecteur pour vous aider à spécif
 
 Pour modifier la valeur d’un champ, vous devez d’abord définir le focus sur ce champ. Vous définissez le focus en effectuant les actions suivantes :
 
-- Utilisez la touche de **tabulation** . L’action sélectionne la valeur entière.
+- Utilisez la touche de **tabulation**. L’action sélectionne la valeur entière.
 - Effectuez un clic gauche sur votre souris ou un périphérique d’entrée similaire. Cette action ne sélectionnera la valeur entière du champ que si le champ est dans une liste.  
 
-Lorsque vous interagissez avec des champs de l’interface utilisateur, [!INCLUDE[d365fin](includes/d365fin_md.md)] favorise généralement la sélection de la valeur entière du champ pour faciliter le remplacement de cette valeur.
+Lorsque vous interagissez avec des champs de l’interface utilisateur, [!INCLUDE[prod_short](includes/prod_short.md)] favorise généralement la sélection de la valeur entière du champ pour faciliter le remplacement de cette valeur.
 
 Lorsque toute la valeur du champ est sélectionnée :
-- Remplacez la valeur en tapant simplement pour spécifier une nouvelle valeur. Si le champ propose un sélecteur, vous pouvez l’activer à l’aide du raccourci clavier **Alt + flèche vers le bas** .
+- Remplacez la valeur en tapant simplement pour spécifier une nouvelle valeur. Si le champ propose un sélecteur, vous pouvez l’activer à l’aide du raccourci clavier **Alt + flèche vers le bas**.
 - Utilisez la touche **Supprimer** ou **Retour arrière** pour effacer la valeur.
 
 Appuyez sur la touche **F2** entre la sélection de la valeur entière du champ ou le placement du curseur après la valeur du champ. Le fait de placer le curseur à la fin de la valeur facilite l’ajout à la valeur existante.
 
 Lorsque le curseur apparaît à la fin de la valeur du champ :
 - Ajout à la valeur par simple saisie.
-- Utilisez les touches **Accueil** , **Fin** , **Flèche gauche** et **Flèche droite** pour déplacer le curseur dans la valeur. Si vous modifiez un champ dans une liste, appuyez à nouveau sur la touche **Flèche gauche** lorsque le curseur est au début de la valeur, le focus sera mis sur le champ précédent. De même, en appuyant à nouveau sur la touche **Flèche droite** lorsque le curseur est à la fin de la valeur, le focus sera placé sur le champ suivant.
+- Utilisez les touches **Accueil**, **Fin**, **Flèche gauche** et **Flèche droite** pour déplacer le curseur dans la valeur. Si vous modifiez un champ dans une liste, appuyez à nouveau sur la touche **Flèche gauche** lorsque le curseur est au début de la valeur, le focus sera mis sur le champ précédent. De même, en appuyant à nouveau sur la touche **Flèche droite** lorsque le curseur est à la fin de la valeur, le focus sera placé sur le champ suivant.
 
 > [!NOTE]
 > Après avoir spécifié une valeur, Business Central vérifie uniquement sa validité après avoir cliqué en dehors du champ ou défini le focus sur un autre article, tel que le champ suivant.  
@@ -74,7 +74,7 @@ Vous pouvez utiliser la touche Tab afin de naviguer d’un champ sur une page au
 
 ### <a name="how-quick-entry-works"></a>Fonction Saisie rapide : fonctionnement
 
-Chaque champ peut être marqué comme *inclus dans la fonction Saisie rapide* ou *exclus de la Saisie rapide* . Les champs inclus dans la fonction Saisie rapide seront inclus dans le chemin lorsque vous appuyez sur Entrée. Les champs exclus de la fonction Saisie rapide ne le seront pas.
+Chaque champ peut être marqué comme *inclus dans la fonction Saisie rapide* ou *exclus de la Saisie rapide*. Les champs inclus dans la fonction Saisie rapide seront inclus dans le chemin lorsque vous appuyez sur Entrée. Les champs exclus de la fonction Saisie rapide ne le seront pas.
 
 Lorsque vous avez fini de saisir les données dans un champ, appuyez simplement sur Entrée pour confirmer les changements et accéder au champ suivant. Si vous souhaitez inverser le sens, et accéder au champ précédent, appuyez sur Maj+Entrée. Pour plus d’informations sur les raccourcis, voir [Raccourcis rapides d’écriture pour les champs](keyboard-shortcuts.md#QuickEntry).
 
@@ -85,7 +85,7 @@ Vous trouverez ci-après les informations utiles concernant la fonction Saisie r
 - Elle est disponible pour tout champ modifiable.
 - Elle fonctionne également à travers les colonnes et les lignes.
 - Elle n’empêche pas d’accéder à d’autres articles d’une page, comme des actions. Ces articles restent accessibles en utilisant la touche Tab et la combinaison des touches Maj+Tab.  
-- Il n’est pas nécessaire que les raccourcis soient étendus pour que l’entrée rapide fonctionne. Si le champ suivant Saisie rapide se situe dans un raccourci réduit, ce raccourci développe automatiquement et se concentre sur le champ choisi. [!INCLUDE[d365fin](includes/d365fin_md.md)] se souviendra que le raccourci devrait être développé la prochaine fois que vous visiterez la page.  
+- Il n’est pas nécessaire que les raccourcis soient étendus pour que l’entrée rapide fonctionne. Si le champ suivant Saisie rapide se situe dans un raccourci réduit, ce raccourci développe automatiquement et se concentre sur le champ choisi. [!INCLUDE[prod_short](includes/prod_short.md)] se souviendra que le raccourci devrait être développé la prochaine fois que vous visiterez la page.  
 - La fonction Saisie rapide fonctionne peu importe si les champs sont obligatoires ou non. Ainsi, il est recommandé de veiller à ce que les champs obligatoires soient inclus dans la fonction Saisie rapide.
 - Par défaut, la plupart des champs sont automatiquement inclus dans la fonction Saisie rapide. Ainsi, à la base, il est fort probable que votre tâche exclura les champs de la fonction Saisie rapide.
 
@@ -93,8 +93,8 @@ Vous trouverez ci-après les informations utiles concernant la fonction Saisie r
 
 Pour configurer la fonction Saisie rapide sur les champs, vous utilisez la personnalisation.
 
-1. Commencez la personnalisation en sélectionnant l’icône ![Paramètres](media/ui-experience/settings_icon_small.png "Icône Paramètres du tableau de bord"), puis sélectionnez l’action **Personnaliser** .
-2. Sélectionnez un champ que vous souhaitez modifier. Dans les listes, sélectionnez l’en-tête de colonne correspondant. Ensuite, choisissez **Inclure dans la saisie rapide** ou **Exclure de la saisie rapide** .
+1. Commencez la personnalisation en sélectionnant l’icône ![Paramètres](media/ui-experience/settings_icon_small.png "Icône Paramètres du tableau de bord"), puis sélectionnez l’action **Personnaliser**.
+2. Sélectionnez un champ que vous souhaitez modifier. Dans les listes, sélectionnez l’en-tête de colonne correspondant. Ensuite, choisissez **Inclure dans la saisie rapide** ou **Exclure de la saisie rapide**.
 
 Pour plus d’informations sur la personnalisation, voir [Personnaliser votre espace de travail](ui-personalization-user.md).
 
@@ -120,7 +120,7 @@ Vous pouvez copier une ou plusieurs lignes d’une liste ou d’un seul champ su
 
 Dans une liste, pour copier le champ dans la même colonne de la ligne précédente, et le coller dans la ligne actuelle, il vous suffit d’appuyer sur F8.
 
-Pour plus d’informations, voir [FAQ sur l’opération Copier et coller](ui-copy-paste.md).
+Pour plus d’informations, voir [FAQ sur l’opération Copier et coller](faq-copy-paste.yml).
 
 ## <a name="filtering-line-items"></a>Filtrage des articles de ligne
 
@@ -162,7 +162,7 @@ Pour ouvrir la fiche ou le document en cours dans une nouvelle fenêtre, choisis
 > Si vous travaillez dans le navigateur Safari, un bloqueur de fenêtres publicitaires intempestives peut empêcher la nouvelle fenêtre de s’ouvrir. Si tel est le cas, spécifiez l’URL du produit en tant que site Web autorisé. Pour plus d’informations, voir [Modifier les préférences dans Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
 > La même chose peut se produire dans d’autres navigateurs, tels que Firefox. Pour plus d’informations, voir [Paramètres du bloqueur de fenêtres publicitaires intempestives dans Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
 
-Une autre façon d’effectuer plusieurs tâches simultanément consiste à ouvrir [!INCLUDE[d365fin](includes/d365fin_md.md)] sur deux ou plusieurs onglets du navigateur. Pour ce faire, vous devez créer un onglet, puis copier/coller l’URL de l’onglet initial dans le nouvel onglet. Cela crée une session.   
+Une autre façon d’effectuer plusieurs tâches simultanément consiste à ouvrir [!INCLUDE[prod_short](includes/prod_short.md)] sur deux ou plusieurs onglets du navigateur. Pour ce faire, vous devez créer un onglet, puis copier/coller l’URL de l’onglet initial dans le nouvel onglet. Cela crée une session.   
 
 > [!NOTE]
 > N’utilisez pas la fonction **Dupliquer** du navigateur pour créer l’onglet : cela peut entraîner des actions sur un onglet pour bloquer des actions sur d’autres onglets, car elles font partie de la même session.
@@ -192,14 +192,14 @@ Vous pouvez saisir des chiffres négatifs de deux manières. Le numéro -20,5 pe
 
  Dans les deux cas, le montant est enregistré comme -20,5.  
 
- Si le dernier caractère de l’expression est **+** ou **-** , l’expression entière est enregistrée avec ce caractère. Par exemple, **10-20+** aboutira à 10 et non -10.  
+ Si le dernier caractère de l’expression est **+** ou **-**, l’expression entière est enregistrée avec ce caractère. Par exemple, **10-20+** aboutira à 10 et non -10.  
 
 ## <a name="entering-dates-and-times"></a>Saisie de dates et d’heures
 
 Vous pouvez entrer des dates et des heures dans tous les champs affectés à des dates (champs Date). Vous pouvez saisir les dates avec ou sans séparateurs.
 
 > [!NOTE]  
-> Le mode de saisie des dates et heures dépend des paramètres **Région** . Pour plus d’informations, voir [Modifier les paramètres de base](ui-change-basic-settings.md).  
+> Le mode de saisie des dates et heures dépend des paramètres **Région**. Pour plus d’informations, voir [Modifier les paramètres de base](ui-change-basic-settings.md).  
 
 ### <a name="entering-dates"></a>Saisie de dates
 
@@ -294,4 +294,4 @@ Voilà quelques exemples.
 
 ## <a name="see-also"></a>Voir aussi  
  [Tri, recherche et filtrage de listes](ui-enter-criteria-filters.md)  
- [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

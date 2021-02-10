@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3bf97a81c41823b9b4d839af4d53045f0bdaa74e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cb82642f5526db849ad5344d1f7347513d80c57a
+ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913061"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4817019"
 ---
 # <a name="service-management"></a>Gestion des services
 > [!NOTE]
-> La fonctionnalité décrite dans ces rubrique et sous-rubriques n’est visible dans l’interface utilisateur que si vous avez l’expérience **Premium** . Pour plus d’informations, voir [Modifier les fonctionnalités affichées](ui-experiences.md).
+> La fonctionnalité décrite dans ces rubrique et sous-rubriques n’est visible dans l’interface utilisateur que si vous avez l’expérience **Premium**. Pour plus d’informations, voir [Modifier les fonctionnalités affichées](ui-experiences.md).
 
-L’offre d’un service continu aux clients est essentielle à toute transaction commerciale et peut être source de satisfaction et de fidélisation des clients, en complément des revenus. Cependant, gérer et suivre des services n’est pas toujours facile ; [!INCLUDE[d365fin](includes/d365fin_md.md)] inclut un ensemble d’outils qui simplifient ces tâches. Vous pouvez les utiliser dans divers scénarios d’entreprise : systèmes de distribution complexes du service clientèle, environnements de service industriel avec des nomenclatures, affectation d’un nombre important de techniciens de service avec des besoins en gestion des pièces de rechange.  
+L’offre d’un service continu aux clients est essentielle à toute transaction commerciale et peut être source de satisfaction et de fidélisation des clients, en complément des revenus. Cependant, gérer et suivre des services n’est pas toujours facile ; [!INCLUDE[prod_short](includes/prod_short.md)] inclut un ensemble d’outils qui simplifient ces tâches. Vous pouvez les utiliser dans divers scénarios d’entreprise : systèmes de distribution complexes du service clientèle, environnements de service industriel avec des nomenclatures, affectation d’un nombre important de techniciens de service avec des besoins en gestion des pièces de rechange.  
 
  Ces outils permettent de réaliser ce qui suit :  
 
@@ -46,6 +46,6 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 ## <a name="see-also"></a>Voir aussi  
 [Gestion des comptes client](receivables-manage-receivables.md)   
 [Projets](projects-how-create-jobs.md)   
-[Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)
+[Bienvenue dans [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

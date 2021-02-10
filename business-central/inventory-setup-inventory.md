@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6a8298caadec82b191d345e6b7c75b95187b2fe5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f5b4e07f128551e978dffb2dedeb3e0257eea1ea
+ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921757"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5024577"
 ---
 # <a name="setting-up-inventory"></a>Configuration de stock
 Avant de pouvoir gérer les activités entrepôt et les coûts de stock, vous devez configurer les règles et les valeurs qui définissent les stratégies de stock de la société.
@@ -38,12 +38,14 @@ Lorsque vous avez configuré votre stock, vous pouvez gérer différents process
 |En complément aux fiches article, enregistrer des informations relatives à vos articles dans un magasin spécifique ou d’une variante spécifique.|[Configurer des points de stock](inventory-how-to-set-up-stockkeeping-units.md)|
 | Affecter des articles aux catégories et leur donner des attributs pour vous aider, vous et vos clients, à trouver des articles. |[Catégoriser des articles](inventory-how-categorize-items.md) |
 |Importez plusieurs images d’article en une seule fois depuis un fichier zip où les fichiers sont nommés selon les numéros d’article.|[Importer plusieurs images d’article](inventory-how-import-item-pictures.md)|
+|Spécifiez les états par défaut à utiliser pour différents types de documents.|[Sélection des états dans Business Central](across-report-selections.md)|
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Voir aussi
+
 [Gestion du stock](inventory-manage-inventory.md)  
 [Gestion des achats](purchasing-manage-purchasing.md)  
 [Gestion des ventes](sales-manage-sales.md)    
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)

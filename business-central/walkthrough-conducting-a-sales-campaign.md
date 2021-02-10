@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6138bc80b96e55c559067abad2957044d2e7c87f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: babd447411d1ea6000fc67379eda132b3d3e94f3
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914850"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760143"
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Procédure pas à pas : mise en place d’une campagne de vente
-Une campagne désigne tout type d’activité impliquant plusieurs contacts. La sélection du public cible de votre campagne représente une étape importante de la configuration. Pour ce faire, dans [!INCLUDE[d365fin](includes/d365fin_md.md)], créez un segment ou un groupe de contacts à l’aide de filtres.  
+Une campagne désigne tout type d’activité impliquant plusieurs contacts. La sélection du public cible de votre campagne représente une étape importante de la configuration. Pour ce faire, dans [!INCLUDE[prod_short](includes/prod_short.md)], créez un segment ou un groupe de contacts à l’aide de filtres.  
 
  Les fonctionnalités du module Ventes & marketing permet de planifier soigneusement vos activités de marketing et de gérer les interactions avec les contacts et clients. Vous pouvez créer des campagnes et configurer des segments de contacts pour le publipostage et d’autres types d’interactions avec vos contacts et prospects.  
 
@@ -42,7 +42,7 @@ Une campagne désigne tout type d’activité impliquant plusieurs contacts. La 
 -   Membre de l’équipe marketing  
 
 ## <a name="prerequisites"></a>Conditions préalables  
- Avant d’exécuter cette procédure pas à pas, veuillez installer [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+ Avant d’exécuter cette procédure pas à pas, veuillez installer [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="story"></a>Scénario  
  Le directeur marketing du département Ventes de CRONUS est responsable de la planification et de l’exécution des campagnes. Il prend les décisions relatives à la participation ou non de la société à des salons commerciaux et évalue l’évolution des campagnes.  
@@ -62,10 +62,10 @@ Une campagne désigne tout type d’activité impliquant plusieurs contacts. La 
 
 ### <a name="to-set-up-a-campaign"></a>Pour configurer une campagne  
 
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Campagnes** , puis sélectionnez le lien associé.  
+1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Campagnes**, puis sélectionnez le lien associé.  
 2.  Choisissez l’action **Nouveau** pour créer une campagne. Dans la fiche campagne, appuyez sur la touche Entrée pour qu’un numéro de campagne soit automatiquement inséré.  
-3.  Dans le champ **Description** , entrez la description de la campagne, par exemple, **Salon FUTURUS** .  
-4.  Choisissez le champ **Code statut** , puis sélectionnez un code statut dans la liste qui s’ouvre sur la page **Statut campagne** .  
+3.  Dans le champ **Description**, entrez la description de la campagne, par exemple, **Salon FUTURUS**.  
+4.  Choisissez le champ **Code statut**, puis sélectionnez un code statut dans la liste qui s’ouvre sur la page **Statut campagne**.  
 5.  Renseignez les champs **Date début** et **Date fin** de la campagne en fonction des besoins.  
 
 ## <a name="selecting-the-target-audience"></a>Sélection du public cible  
@@ -73,9 +73,9 @@ Une campagne désigne tout type d’activité impliquant plusieurs contacts. La 
 
 ### <a name="to-create-a-segment-with-the-relevant-contacts"></a>Pour créer un segment avec les contacts appropriés  
 
-1.  Sélectionnez l’action **Segments** .  
+1.  Sélectionnez l’action **Segments**.  
 2.  Choisissez l’action **Nouveau** pour créer un segment. Dans la fiche segment, appuyez sur la touche Entrée pour qu’un numéro de segment soit automatiquement inséré.  
-3.  Sur le raccourci **Général** , dans le champ **Description** , entrez par exemple **Visiteurs du salon commercial FUTURUS** .  
+3.  Sur le raccourci **Général**, dans le champ **Description**, entrez par exemple **Visiteurs du salon commercial FUTURUS**.  
 
      Après avoir entré les informations générales relatives au segment, sélectionnez les contacts à inclure dans celui-ci.  
 
@@ -83,32 +83,32 @@ Une campagne désigne tout type d’activité impliquant plusieurs contacts. La 
 
      Utilisez des filtres pour ajouter des contacts en fonction des critères correspondant le mieux à vos besoins. Par exemple, vous pouvez choisir de filtrer la responsabilité du contact, les relations d’affaires ou le secteur d’activité de la société. Pour cette procédure pas à pas, choisissez le filtre **Responsabilité** pour sélectionner les contacts.  
 
-4.  Sur la page **Segment** , sélectionnez l’action **Ajouter contacts** pour ouvrir le filtre **Ajouter contacts** .  
-5.  Sur le raccourci **Responsabilité** , sélectionnez le filtre **Achat** comme **Code responsabilité** , puis choisissez le bouton **OK** .  
+4.  Sur la page **Segment**, sélectionnez l’action **Ajouter contacts** pour ouvrir le filtre **Ajouter contacts**.  
+5.  Sur le raccourci **Responsabilité**, sélectionnez le filtre **Achat** comme **Code responsabilité**, puis choisissez le bouton **OK**.  
 
-     La page **Segment** inclut désormais une liste de contacts basée sur le filtre entré. Sur le raccourci **Général** , dans le champ **Nbre de lignes** , vous pouvez visualiser en un clin d’œil le nombre de contacts répondant à ces critères.  
+     La page **Segment** inclut désormais une liste de contacts basée sur le filtre entré. Sur le raccourci **Général**, dans le champ **Nbre de lignes**, vous pouvez visualiser en un clin d’œil le nombre de contacts répondant à ces critères.  
 
     > [!NOTE]  
     >  Vous pouvez enregistrer vos critères de segmentation pour qu’il soient réutilisés ultérieurement.
 
-    1.  Sur la page **Segment** , sélectionnez l’action **Segment** , puis l’action **Enregistrer critères** .  
-    2.  Sur la page **Critères segment enregistrés** , entrez un code pour le segment. Dans le champ **Description** , entrez la description des critères segment.
-    3.  Cliquez sur le bouton **OK** .  
+    1.  Sur la page **Segment**, sélectionnez l’action **Segment**, puis l’action **Enregistrer critères**.  
+    2.  Sur la page **Critères segment enregistrés**, entrez un code pour le segment. Dans le champ **Description**, entrez la description des critères segment.
+    3.  Cliquez sur le bouton **OK**.  
 
 ## <a name="mining-the-data"></a>Exploration de données  
  Le directeur marketing observe attentivement la liste segmentée des contacts et réalise que la liste est bien trop longue. Il décide de la réduire en se basant sur de véritables prospects afin d’être certain de se concentrer sur le bon groupe cible. Ce processus de réduction et de redéfinition des données porte également le nom d’exploration de données.  
 
 ### <a name="to-remove-contacts-from-the-segment"></a>Pour supprimer des contacts du segment  
 
-1.  Sur la page **Segment** , sélectionnez l’action **Contacts** ,puis l’action **Réduire les contacts** afin d’ouvrir la page **Réduire les contacts** .  
-2.  Sur le raccourci **Relation d’affaires** , sélectionnez le filtre **PROS** comme **Code relation d’affaires** , puis choisissez le bouton **OK** .  
+1.  Sur la page **Segment**, sélectionnez l’action **Contacts** ,puis l’action **Réduire les contacts** afin d’ouvrir la page **Réduire les contacts**.  
+2.  Sur le raccourci **Relation d’affaires**, sélectionnez le filtre **PROS** comme **Code relation d’affaires**, puis choisissez le bouton **OK**.  
 
-     La page **Segment** inclut désormais une liste réduite de contacts. Dans le champ **Nbre de lignes** , vous pouvez visualiser le nombre de contacts répondant à ces critères.  
+     La page **Segment** inclut désormais une liste réduite de contacts. Dans le champ **Nbre de lignes**, vous pouvez visualiser le nombre de contacts répondant à ces critères.  
 
     > [!NOTE]  
-    >  Si vous devez annuler la suppression d’un groupe de contacts, utilisez la fonction **Annuler dernière action** . En d’autres termes, vous pouvez annuler la dernière segmentation.  
+    >  Si vous devez annuler la suppression d’un groupe de contacts, utilisez la fonction **Annuler dernière action**. En d’autres termes, vous pouvez annuler la dernière segmentation.  
     >   
-    >  Sur la page **Segment** , sélectionnez l’action **Segment** , puis l’action **Annuler dernière action** .  
+    >  Sur la page **Segment**, sélectionnez l’action **Segment**, puis l’action **Annuler dernière action**.  
     >   
     >  Les contacts que vous venez de supprimer sont rajoutés à la liste des contacts.  
 
@@ -117,55 +117,55 @@ Une campagne désigne tout type d’activité impliquant plusieurs contacts. La 
 
 ### <a name="to-link-a-segment-to-the-campaign"></a>Pour associer un segment à une campagne  
 
-1.  Sur la page **Segment** , dans le raccourci **Campagne** , sélectionnez le champ **N° campagne** pour sélectionner la campagne à laquelle vous souhaitez lier le segment, par exemple, **CP0001** .  
-2.  Puisque ce segment représente la cible de la campagne, sélectionnez la case à cocher **Cible campagne** .  
+1.  Sur la page **Segment**, dans le raccourci **Campagne**, sélectionnez le champ **N° campagne** pour sélectionner la campagne à laquelle vous souhaitez lier le segment, par exemple, **CP0001**.  
+2.  Puisque ce segment représente la cible de la campagne, sélectionnez la case à cocher **Cible campagne**.  
 
 ## <a name="sending-letters-and-email-messages-to-contacts"></a>Envoi de lettres et de messages électroniques à des contacts  
  Les membres de l’équipe marketing aident le directeur marketing à envoyer une correspondance aux prospects, dans laquelle il les remercie de leur visite au salon commercial.  
 
 ### <a name="to-use-a-segment-to-send-a-letter-to-a-contact"></a>Pour utiliser un segment afin d’envoyer une lettre à un contact :  
 
-1.  Ouvrez la fiche **Segment** correspondant aux **Visiteurs du salon commercial FUTURUS** .  
-2.  Sur le raccourci **Interaction** , dans le champ **Code modèle interaction** , sélectionnez un modèle de lettre commerciale, code **BUS** .  
-3.  Dans le champ **Sujet (par défaut)** , entrez le texte exemple suivant : **Merci de votre visite au salon** .  
+1.  Ouvrez la fiche **Segment** correspondant aux **Visiteurs du salon commercial FUTURUS**.  
+2.  Sur le raccourci **Interaction**, dans le champ **Code modèle interaction**, sélectionnez un modèle de lettre commerciale, code **BUS**.  
+3.  Dans le champ **Sujet (par défaut)**, entrez le texte exemple suivant : **Merci de votre visite au salon**.  
 
     > [!NOTE]  
     >  Ce modèle est constitué de plusieurs documents joints, chacun dans une langue différente. Les exemples de langue sont l’anglais et le danois.  
 
-4.  Choisissez le champ **Code langue (par défaut)** pour ouvrir la page **Langues interaction segment** . Sélectionnez un code langue et cliquez sur le bouton **OK** .  
-5.  Vous pouvez afficher le document dans la langue sélectionnée. Choisissez l’action **Document joint** , puis sélectionnez l’action **Ouvrir** .  
+4.  Choisissez le champ **Code langue (par défaut)** pour ouvrir la page **Langues interaction segment**. Sélectionnez un code langue et cliquez sur le bouton **OK**.  
+5.  Vous pouvez afficher le document dans la langue sélectionnée. Choisissez l’action **Document joint**, puis sélectionnez l’action **Ouvrir**.  
 
-     Pour répondre au message demandant l’autorisation de lancer Word, sélectionnez l’option **Autoriser pour cette session client** .  
+     Pour répondre au message demandant l’autorisation de lancer Word, sélectionnez l’option **Autoriser pour cette session client**.  
 
      Le document Word joint s’ouvre afin que vous puissiez l’inspecter. Vous pouvez également saisir cette opportunité pour éditer et modifier la lettre. Fermez Word lorsque vous avez terminé.  
 
-6.  Entrez le sujet de la lettre dans le champ **Sujet** , dans la langue sélectionnée pour le modèle.  
-7.  Sélectionnez l’action **Journal** .
+6.  Entrez le sujet de la lettre dans le champ **Sujet**, dans la langue sélectionnée pour le modèle.  
+7.  Sélectionnez l’action **Journal**.
 8.  Cochez la case **Envoyer les documents joints** pour imprimer les documents joints.  
 
-    1. Cochez la case **Créer suivi segment** .  
-    2. Cliquez sur le bouton **OK** pour commencer le traitement par lots **Journaliser segment** .  
+    1. Cochez la case **Créer suivi segment**.  
+    2. Cliquez sur le bouton **OK** pour commencer le traitement par lots **Journaliser segment**.  
 
 9. Les documents joints sont envoyés. Lorsque le processus est terminé, cliquez sur le bouton **OK** associé au message qui indique que le segment a été journalisé.  
 
-     Les lettres sont automatiquement imprimées et le segment journalisé. Comme le segment a été journalisé, il ne figure plus dans la liste des segments, mais est déplacé dans la liste des segments journalisés. Pour afficher cette liste, choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Segments journalisés** , puis choisissez le lien associé.  
+     Les lettres sont automatiquement imprimées et le segment journalisé. Comme le segment a été journalisé, il ne figure plus dans la liste des segments, mais est déplacé dans la liste des segments journalisés. Pour afficher cette liste, choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Segments journalisés**, puis choisissez le lien associé.  
 
 10. Une fois le segment journalisé, chaque lettre envoyée est enregistrée en tant qu’interaction, que vous pouvez afficher dans le journal.  
 
-     Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Écritures journal interaction** , puis choisissez le lien associé. Chaque lettre envoyée est associée à une entrée.  
+     Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Écritures journal interaction**, puis choisissez le lien associé. Chaque lettre envoyée est associée à une entrée.  
 
 ### <a name="to-send-an-email-message-to-a-contact"></a>Pour envoyer un message électronique à un contact :  
 
-1.  Sur le raccourci **Interaction** , dans le champ **Code modèle interaction** , sélectionnez un modèle de lettre commerciale, code **BUS** .  
-2.  Dans le champ **Sujet (par défaut)** , entrez le texte exemple suivant : **Merci de votre visite au salon** .  
-3.  Dans le champ **Type correspondance** , sélectionnez **E-mail** .  
+1.  Sur le raccourci **Interaction**, dans le champ **Code modèle interaction**, sélectionnez un modèle de lettre commerciale, code **BUS**.  
+2.  Dans le champ **Sujet (par défaut)**, entrez le texte exemple suivant : **Merci de votre visite au salon**.  
+3.  Dans le champ **Type correspondance**, sélectionnez **E-mail**.  
 4.  Spécifiez les paramètres de langue, comme dans la procédure précédente.  
-5.  Sélectionnez l’action **Journal** . La page **Journaliser segment** s’affiche.  
+5.  Sélectionnez l’action **Journal**. La page **Journaliser segment** s’affiche.  
 6.  Cochez la case **Envoyer les documents joints** pour imprimer les documents joints envoyés par courrier électronique.  
-7.  Cochez la case **Créer suivi segment** .  
-8.  Cliquez sur le bouton **OK** .  
+7.  Cochez la case **Créer suivi segment**.  
+8.  Cliquez sur le bouton **OK**.  
 
-     Les lettres sont automatiquement envoyées par courrier électronique et le segment journalisé. Comme le segment a été journalisé, il ne figure plus dans la liste des segments, mais est enregistré dans la liste des segments journalisés. Pour afficher cette liste, choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Segments journalisés** , puis choisissez le lien associé.  
+     Les lettres sont automatiquement envoyées par courrier électronique et le segment journalisé. Comme le segment a été journalisé, il ne figure plus dans la liste des segments, mais est enregistré dans la liste des segments journalisés. Pour afficher cette liste, choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Segments journalisés**, puis choisissez le lien associé.  
 
 ## <a name="registering-campaign-responses"></a>Enregistrement des réponses de campagne  
  Au cours des semaines suivantes, les prospects répondent à la lettre. Le directeur marketing souhaite assurer le suivi des réponses et enregistre ces interactions.  
@@ -174,28 +174,28 @@ Une campagne désigne tout type d’activité impliquant plusieurs contacts. La 
 
 ### <a name="to-register-campaign-responses"></a>Pour enregistrer les réponses de la campagne  
 
-1.  Sur la page **Segment** , affichez le raccourci **Interaction** .  
+1.  Sur la page **Segment**, affichez le raccourci **Interaction**.  
 2.  Cliquez sur le champ **Code modèle interaction** .  
 
      Aucun modèle d’interaction n’existe pour l’enregistrement des réponses à la campagne. Par conséquent, créez un nouveau modèle.  
 
-3.  Sur la page **Modèles interaction** , cliquez sur l’action **Nouveau** .  
-4.  Dans le champ **Code** , entrez **RESP** . Dans le champ **Description** , entrez **Réponses à la campagne** .  
-5.  Cliquez sur le bouton **OK** .  
-6.  Sélectionnez ce modèle d’interaction dans le champ **Code modèle interaction** , puis confirmez le message demandant si vous souhaitez mettre à jour les lignes segment associées au même code modèle interaction.  
+3.  Sur la page **Modèles interaction**, cliquez sur l’action **Nouveau**.  
+4.  Dans le champ **Code**, entrez **RESP**. Dans le champ **Description**, entrez **Réponses à la campagne**.  
+5.  Cliquez sur le bouton **OK**.  
+6.  Sélectionnez ce modèle d’interaction dans le champ **Code modèle interaction**, puis confirmez le message demandant si vous souhaitez mettre à jour les lignes segment associées au même code modèle interaction.  
 
      Spécifiez à présent que ces contacts ont répondu à la campagne :  
-7.  Dans le raccourci **Campagne** , dans le champ **N° campagne** , sélectionnez votre campagne.  
+7.  Dans le raccourci **Campagne**, dans le champ **N° campagne** , sélectionnez votre campagne.  
 8.  Ne modifiez pas le champ **N° campagne** et acceptez le message vous demandant si vous souhaitez mettre à jour les lignes segment associées au même Code modèle interaction.  
 9. Sélectionnez le champ **Réponse campagne** et acceptez le message qui s’affiche.  
 
      Journalisez le segment pour vous assurer que les interactions sont enregistrées.  
-10. Sur la page **Segment** , sélectionnez l’action **journal** .  
-11. Sur la page **Journaliser segment** , désactivez la case à cocher **Envoyer les documents joints** , puis choisissez le bouton **OK** et acceptez le message qui s’affiche.  
+10. Sur la page **Segment**, sélectionnez l’action **journal**.  
+11. Sur la page **Journaliser segment**, désactivez la case à cocher **Envoyer les documents joints**, puis choisissez le bouton **OK** et acceptez le message qui s’affiche.  
 
-     Une fois le segment journalisé, une écriture pour la campagne est automatiquement créée pour enregistrer cette action sur la page **Ecritures campagne** .  
+     Une fois le segment journalisé, une écriture pour la campagne est automatiquement créée pour enregistrer cette action sur la page **Ecritures campagne**.  
 
 ## <a name="see-also"></a>Voir aussi  
 [Gestion des relations](marketing-relationship-management.md)  
  [Procédures pas à pas liées au processus entreprise](walkthrough-business-process-walkthroughs.md)  
- [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
