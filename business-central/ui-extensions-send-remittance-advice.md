@@ -10,28 +10,28 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, stream, remittance, advice
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f6afaa9ade29c955033914b608806c3fb0f5a310
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3ae8d131b714b0d7ffb60727d1a991cd6e4ab692
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912236"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757082"
 ---
-# <a name="send-remittance-advice"></a><span data-ttu-id="8d809-103">Envoyer un avis de remise</span><span class="sxs-lookup"><span data-stu-id="8d809-103">Send Remittance Advice</span></span>
+# <a name="send-remittance-advice"></a><span data-ttu-id="5bf8b-103">Envoyer un avis de remise</span><span class="sxs-lookup"><span data-stu-id="5bf8b-103">Send Remittance Advice</span></span>
 
-<span data-ttu-id="8d809-104">Lorsqu’un avis de remise est utilisé pour informer les fournisseurs des paiements effectués, vous pouvez désormais envoyer par e-mail un avis de remise en bloc à partir de la feuille paiement et le renvoyer une fois les paiements effectués à partir des écritures comptables fournisseur à l’aide de profils d’envoi de documents.</span><span class="sxs-lookup"><span data-stu-id="8d809-104">Where remittance advice is used to notify vendors of payments being made, you can now email remittance advice in bulk from the payment journal as well as resend after payments are made from vendor ledger entries by using document sending profiles.</span></span>
+<span data-ttu-id="5bf8b-104">Lorsqu’un avis de remise est utilisé pour informer les fournisseurs des paiements effectués, vous pouvez désormais envoyer par e-mail un avis de remise en bloc à partir de la feuille paiement et le renvoyer une fois les paiements effectués à partir des écritures comptables fournisseur à l’aide de profils d’envoi de documents.</span><span class="sxs-lookup"><span data-stu-id="5bf8b-104">Where remittance advice is used to notify vendors of payments being made, you can now email remittance advice in bulk from the payment journal as well as resend after payments are made from vendor ledger entries by using document sending profiles.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="8d809-105">Cette fonctionnalité est uniquement prise en charge dans Business Central en ligne et local dans les pays suivants : Royaume-Uni, États-Unis, Canada, Australie, Nouvelle-Zélande et Afrique du Sud.</span><span class="sxs-lookup"><span data-stu-id="8d809-105">This functionality is only supported in Business Central online and on-premises in following countries: United Kingdom, United States, Canada, Australia, New Zealand, and South Africa.</span></span>  
+> <span data-ttu-id="5bf8b-105">Cette fonctionnalité est uniquement prise en charge dans Business Central en ligne et local dans les pays suivants : Royaume-Uni, États-Unis, Canada, Australie, Nouvelle-Zélande et Afrique du Sud.</span><span class="sxs-lookup"><span data-stu-id="5bf8b-105">This functionality is only supported in Business Central online and on-premises in following countries: United Kingdom, United States, Canada, Australia, New Zealand, and South Africa.</span></span>  
 
-<span data-ttu-id="8d809-106">Vous pouvez envoyer des avis de remise de deux manières différentes :</span><span class="sxs-lookup"><span data-stu-id="8d809-106">You can send remittance advice in two different ways:</span></span>
+<span data-ttu-id="5bf8b-106">Vous pouvez envoyer des avis de remise de deux manières différentes :</span><span class="sxs-lookup"><span data-stu-id="5bf8b-106">You can send remittance advice in two different ways:</span></span>
 
-* <span data-ttu-id="8d809-107">Dans la page **Feuille paiement** , choisissez **Association** , **Paiements** , **Envoyer un avis de paiement** pour envoyer un avis de remise pour une ou plusieurs lignes feuille paiement</span><span class="sxs-lookup"><span data-stu-id="8d809-107">In the **Payment Journal** page, choose **Related** , **Payments** , **Send Remittance Advice** to email remittance advice for one or multiple payment journal lines</span></span>
-* <span data-ttu-id="8d809-108">Dans la page **Écritures comptables fournisseur** , sélectionnez **Actions** , **Fonctions** , **Envoyer un avis de remise** pour envoyer par e-mail un avis de remise après validation des paiements fournisseur, pour une ou plusieurs écritures comptables fournisseur</span><span class="sxs-lookup"><span data-stu-id="8d809-108">In the **Vendor Ledger Entries** page, choose **Actions** , **Functions** , **Send Remittance Advice** to email remittance advice after posting of vendor payments, for one or multiple vendor ledger entries</span></span>
+* <span data-ttu-id="5bf8b-107">Dans la page **Feuille paiement**, choisissez **Association**, **Paiements**, **Envoyer un avis de paiement** pour envoyer un avis de remise pour une ou plusieurs lignes feuille paiement</span><span class="sxs-lookup"><span data-stu-id="5bf8b-107">In the **Payment Journal** page, choose **Related**, **Payments**, **Send Remittance Advice** to email remittance advice for one or multiple payment journal lines</span></span>
+* <span data-ttu-id="5bf8b-108">Dans la page **Écritures comptables fournisseur**, sélectionnez **Actions**, **Fonctions**, **Envoyer un avis de remise** pour envoyer par e-mail un avis de remise après validation des paiements fournisseur, pour une ou plusieurs écritures comptables fournisseur</span><span class="sxs-lookup"><span data-stu-id="5bf8b-108">In the **Vendor Ledger Entries** page, choose **Actions**, **Functions**, **Send Remittance Advice** to email remittance advice after posting of vendor payments, for one or multiple vendor ledger entries</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="8d809-109">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="8d809-109">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="5bf8b-109">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="5bf8b-109">See Also</span></span>
 
-[<span data-ttu-id="8d809-110">Proposer paiements fournisseur</span><span class="sxs-lookup"><span data-stu-id="8d809-110">Suggest Vendor Payments</span></span>](payables-how-suggest-vendor-payments.md)  
-<span data-ttu-id="8d809-111">[Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l’aide des extensions ](ui-extensions.md)</span><span class="sxs-lookup"><span data-stu-id="8d809-111">[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions ](ui-extensions.md)</span></span>  
-<span data-ttu-id="8d809-112">[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="8d809-112">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
-[<span data-ttu-id="8d809-113">Envoyer des documents par e-mail</span><span class="sxs-lookup"><span data-stu-id="8d809-113">Send Documents by Email</span></span>](ui-how-send-documents-email.md)  
+[<span data-ttu-id="5bf8b-110">Proposer paiements fournisseur</span><span class="sxs-lookup"><span data-stu-id="5bf8b-110">Suggest Vendor Payments</span></span>](payables-how-suggest-vendor-payments.md)  
+<span data-ttu-id="5bf8b-111">[Personnalisation de [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide des extensions ](ui-extensions.md)</span><span class="sxs-lookup"><span data-stu-id="5bf8b-111">[Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions ](ui-extensions.md)</span></span>  
+<span data-ttu-id="5bf8b-112">[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="5bf8b-112">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>  
+[<span data-ttu-id="5bf8b-113">Envoyer des documents par e-mail</span><span class="sxs-lookup"><span data-stu-id="5bf8b-113">Send Documents by Email</span></span>](ui-how-send-documents-email.md)  
