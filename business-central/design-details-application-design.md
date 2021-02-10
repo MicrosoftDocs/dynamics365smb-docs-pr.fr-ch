@@ -11,15 +11,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b473da21e35ee09b2ffad16a1acd01c03ac92a7f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a2280fbeccd51d1c959aa2aa09121d728a18326f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924318"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751870"
 ---
 # <a name="design-details"></a>Détails de conception
-Ce contenu comprend des informations techniques détaillées sur les fonctionnalités d’application complexes dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Ce contenu comprend des informations techniques détaillées sur les fonctionnalités d’application complexes dans [!INCLUDE[prod_short](includes/prod_short.md)].  
 
  Le contenu des détails de conception est destiné aux implémenteurs, développeurs et super utilisateurs qui ont besoin d’une analyse approfondie pour implémenter, personnaliser ou créer les fonctionnalités en question.  
 
@@ -37,6 +37,6 @@ Ce contenu comprend des informations techniques détaillées sur les fonctionnal
  [Gestion des coûts ajustés](finance-manage-inventory-costs.md)   
  [Gestion d’entrepôt](warehouse-manage-warehouse.md)   
  [Configuration des modules complexes à l’aide des meilleures pratiques](set-up-complex-application-areas-using-best-practices.md)  
- [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
- ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+ ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

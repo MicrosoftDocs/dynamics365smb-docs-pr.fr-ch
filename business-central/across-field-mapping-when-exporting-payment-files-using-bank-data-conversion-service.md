@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a761d1127e2a0568e59a329fd3e187beffb6b7e5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 84be9f847d466588e25dad81754bcf64f367b4c8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918091"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753382"
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Mappage de champ lors de l’exportation de fichiers de paiement à l’aide de l’extension AMC Banking 365 Fundamentals
 Lorsque vous exportez des fichiers de paiement à l’aide de l’extension AMC Banking 365 Fundamentals, les données que vous exportez sont exposées au fournisseur de service. Le fournisseur de service est responsable de la confidentialité de ces données. Pour plus d’informations sur l’extension AMC Banking 365 Fundamentals, voir [Utilisation de l’extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
@@ -23,7 +23,7 @@ Lorsque vous exportez des fichiers de paiement à l’aide de l’extension AMC 
 > [!CAUTION]  
 >  Lorsque vous exportez des fichiers de paiement à l’aide de l’extension AMC Banking 365 Fundamentals, certaines de vos données métier sont exposées au fournisseur du service. Le fournisseur de service, AMC Consult A/S, est responsable de la confidentialité de ces données. Pour plus d’informations, reportez\-vous à [Politique de confidentialité AMC](https://go.microsoft.com/fwlink/?LinkId=510158).  
 
-Le tableau suivant répertorie les champs de [!INCLUDE[d365fin](includes/d365fin_md.md)] à partir desquels vous pouvez exporter des données.  
+Le tableau suivant répertorie les champs de [!INCLUDE[prod_short](includes/prod_short.md)] à partir desquels vous pouvez exporter des données.  
 
 |Champ associé|Champ dans Tableau|Table|Description|  
 |------------------|--------------------|-----------|---------------------------------------|  

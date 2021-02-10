@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fbcd6f6e0f1a73316c20f14f143a044c68a5c539
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b6c10cc9a31dcf41d843d2bebc19ef81433cb4ee
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919053"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748908"
 ---
 # <a name="set-up-resources"></a>Paramétrer des ressources
 Pour gérer correctement les activités liées aux ressources, vous devez configurer ces dernières, ainsi que les coûts et prix associés. Les prix, remises et règles de facteur coût associés au projet, sont définis dans la fiche projet. Vous pouvez spécifier les coûts et prix pour des ressources individuelles, des groupes de ressources, ou toutes les ressources disponibles de la société.
@@ -33,45 +33,45 @@ Vous spécifiez le montant horaire par défaut lors de la création de la ressou
 ## <a name="to-set-up-a-resource"></a>Pour paramétrer une ressource
 Créez une fiche pour chaque ressource à utiliser dans les projets.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Ressources** , puis sélectionnez le lien associé.
-2. Sélectionnez l’action **Nouveau** .
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Ressources**, puis sélectionnez le lien associé.
+2. Sélectionnez l’action **Nouveau**.
 3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-set-up-a-resource-group"></a>Pour configurer un groupe de ressources
 Vous pouvez combiner plusieurs ressources dans un groupe ressources. Toutes les capacités et tous les budgets du groupe ressources sont additionnés à partir des ressources. Il est également possible de saisir des capacités pour les groupes ressource, indépendamment des valeurs cumulées ou en plus de ces valeurs.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Groupes ressources** , puis sélectionnez le lien associé.
-2. Sélectionnez l’action **Nouveau** .
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Groupes ressources**, puis sélectionnez le lien associé.
+2. Sélectionnez l’action **Nouveau**.
 3. Renseignez les champs selon vos besoins.
 
 ## <a name="to-set-capacity-for-a-resource"></a>Pour définir la capacité d’une ressource
 Pour calculer le temps qu’une ressource peut passer sur des projets, leur capacité doit d’abord être configurée comme temps disponible par période sur le calendrier de travail. Cette configuration est utilisée lorsque vous renseignez les lignes planning projet qui contiennent la ressource. Pour plus d’informations, voir [Créer des projets](projects-how-create-jobs.md).
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Ressources** , puis sélectionnez le lien associé.
-2. Ouvrez la fiche ressource appropriée, puis cliquez sur **Capacité ressource** .
-3. Sur la page **Capacité ressource** , dans le champ **Afficher par** , précisez la durée de la période (par exemple **Jour** ) qui est indiquée dans le raccourci **Matrice Capacité ressource** .
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Ressources**, puis sélectionnez le lien associé.
+2. Ouvrez la fiche ressource appropriée, puis cliquez sur **Capacité ressource**.
+3. Sur la page **Capacité ressource**, dans le champ **Afficher par**, précisez la durée de la période (par exemple **Jour**) qui est indiquée dans le raccourci **Matrice Capacité ressource**.
 4. Pour chaque ressource sur une ligne, spécifiez pour chaque période sur les colonnes le nombre d’heures pendant lesquelles la ressource est disponible.
-5. Sinon, pour détailler la capacité hebdomadaire de la ressource dans un certain intervalle de temps, cliquez sur **Paramétrage capacité ressource** .
-6. Sur la page **Paramétrage capacité ressource** , renseignez les champs sur une ligne selon vos besoins.
-7. Cliquez sur **Mettre à jour la capacité** . La page **Capacité ressource** est mise à jour avec la capacité saisie.
+5. Sinon, pour détailler la capacité hebdomadaire de la ressource dans un certain intervalle de temps, cliquez sur **Paramétrage capacité ressource**.
+6. Sur la page **Paramétrage capacité ressource**, renseignez les champs sur une ligne selon vos besoins.
+7. Cliquez sur **Mettre à jour la capacité**. La page **Capacité ressource** est mise à jour avec la capacité saisie.
 8. Fermez la page.
 
 ## <a name="to-set-up-alternate-resource-costs"></a>Pour configurer des coûts ressource secondaires
 Outre le coût spécifié sur la fiche ressource, vous pouvez configurer des coûts secondaires pour chaque ressource. Par exemple, si le taux horaire d’un employé augmente en raison d’heures supplémentaires, vous pouvez configurer un coût ressource pour le taux lié aux heures supplémentaires. Le coût secondaire que vous avez configuré pour la ressource remplace le coût de la fiche ressource lorsque vous utilisez la ressource dans la feuille ressource.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Ressources** , puis sélectionnez le lien associé.  
-2. Sélectionnez la ressource pour laquelle vous souhaitez configurer un ou plusieurs coûts secondaires, puis cliquez sur **Coûts** .  
-3. Sur la page **Coûts ressource** , renseignez les champs sur une ligne selon vos besoins.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Ressources**, puis sélectionnez le lien associé.  
+2. Sélectionnez la ressource pour laquelle vous souhaitez configurer un ou plusieurs coûts secondaires, puis cliquez sur **Coûts**.  
+3. Sur la page **Coûts ressource**, renseignez les champs sur une ligne selon vos besoins.  
 4. Répétez l’étape 3 pour chaque autre coût ressource à configurer.
 
-**Remarque** . Pour configurer des coûts ressource s’appliquant à toutes les ressources et à tous les groupes ressources, ouvrez la page **Coûts ressource** et renseignez les champs.
+**Remarque**. Pour configurer des coûts ressource s’appliquant à toutes les ressources et à tous les groupes ressources, ouvrez la page **Coûts ressource** et renseignez les champs.
 
 ## <a name="to-set-up-alternate-resource-prices"></a>Pour configurer le prix des ressources secondaires
 Outre le prix spécifié sur la fiche ressource, vous pouvez configurer des prix secondaires pour chaque ressource. Ces prix secondaires peuvent être conditionnels. Ils peuvent être liés à l’utilisation de la ressource avec un projet ou un type travail donné.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Ressources** , puis sélectionnez le lien associé.
-2. Sélectionnez la ressource pour laquelle vous souhaitez configurer un ou plusieurs prix secondaires, puis sélectionnez l’action **Prix** .
-3. Sur la page **Prix ressource** , renseignez les champs sur une ligne selon vos besoins.
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Ressources**, puis sélectionnez le lien associé.
+2. Sélectionnez la ressource pour laquelle vous souhaitez configurer un ou plusieurs prix secondaires, puis sélectionnez l’action **Prix**.
+3. Sur la page **Prix ressource**, renseignez les champs sur une ligne selon vos besoins.
 4. Répétez l’étape 3 pour chaque autre prix ressource à configurer.
 
 ## <a name="see-also"></a>Voir aussi
@@ -80,4 +80,4 @@ Outre le prix spécifié sur la fiche ressource, vous pouvez configurer des prix
 [Finances](finance.md)  
 [Achats](purchasing-manage-purchasing.md)         
 [Ventes](sales-manage-sales.md)      
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

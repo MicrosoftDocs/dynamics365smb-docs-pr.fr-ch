@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d2bd63f38e434d15ba0592126a11c5f92f8611aa
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 22e01f8b22c7f222674ff43090a27f5466dd8387
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911145"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751645"
 ---
 # <a name="design-details-expected-cost-posting"></a>Détails de conception : validation du coût prévu
 Les coûts prévus représentent l’estimation, par exemple, du coût d’un article acheté que vous enregistrez avant la réception de la facture de cet article.  
@@ -25,12 +25,12 @@ Les coûts prévus représentent l’estimation, par exemple, du coût d’un ar
 > [!NOTE]  
 >  Les coûts prévus sont gérés uniquement pour des transactions article. Les coûts prévus ne sont pas pour des types de transaction négligeables, tels que la capacité et les frais annexes.  
 
- Si seulement la partie de quantité d’une entrée de stock a été validée, la valeur du stock de la comptabilité ne change pas, sauf si vous avez sélectionné la case à cocher **Compta. coûts prévus** sur la page **Paramètres stock** . Dans ce cas, le coût prévu est validé dans les comptes d’attente au moment de la réception. Une fois que la réception a été entièrement facturée, les comptes d’attente sont ensuite équilibrés et le coût réel est validé dans le compte stock.  
+ Si seulement la partie de quantité d’une entrée de stock a été validée, la valeur du stock de la comptabilité ne change pas, sauf si vous avez sélectionné la case à cocher **Compta. coûts prévus** sur la page **Paramètres stock**. Dans ce cas, le coût prévu est validé dans les comptes d’attente au moment de la réception. Une fois que la réception a été entièrement facturée, les comptes d’attente sont ensuite équilibrés et le coût réel est validé dans le compte stock.  
 
  Pour prendre en charge le travail de rapprochement et de traçabilité, l’écriture valeur facturée montre que le montant du coût prévu validé pour équilibrer les comptes d’attente.  
 
 ## <a name="example"></a>Exemple :  
- L’exemple suivant indique le coût prévu si la case à cocher **Compta. coûts automatique** et la case à cocher **Compta. coûts prévus** sont sélectionnées sur la page **Paramètres stock** .  
+ L’exemple suivant indique le coût prévu si la case à cocher **Compta. coûts automatique** et la case à cocher **Compta. coûts prévus** sont sélectionnées sur la page **Paramètres stock**.  
 
  Vous validez une commande achat comme reçue. Le coût prévu est 95,00 DS.  
 
@@ -88,4 +88,4 @@ Les coûts prévus représentent l’estimation, par exemple, du coût d’un ar
  [Détails de conception : écart](design-details-variance.md)  
  [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  
  [Finances](finance.md)  
- [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

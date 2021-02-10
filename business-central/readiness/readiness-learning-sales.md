@@ -5,12 +5,12 @@ author: loreleishannonmsft
 ms.date: 10/01/2020
 ms.topic: article
 ms.author: margoc
-ms.openlocfilehash: d0ab1b4894c9e8c586692e17210e8254eadb57eb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c4a12f7a79840790a98c2a3a19a845fdd1bb91c2
+ms.sourcegitcommit: a95681db16e81af109b34f8e5d88028c1552c6a2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926662"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4367974"
 ---
 # <a name="partner-sales-and-marketing-learning-catalog"></a>Catalogue d’apprentissage des ventes et marketing partenaires
 
@@ -40,10 +40,9 @@ Le catalogue suivant est organisé en partant des connaissances de base jusqu’
 | Contenu   | Description        | Format                                | Longueur                |
 |-----------|--------------------|---------------------------------------|-----------------------|
 | [Dynamics 365 Business Central- Conversations convaincantes avec les prospects (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101761)    | Écoutez Errol Schoenfish, directeur du marketing produit, nous expliquer comment tenir des conversations attrayantes avec des prospects sur Microsoft Dynamics 365 Business Central.   | Vidéo    | 11 minutes 15 secondes |
-| [Rechercher des témoignages clients](https://customers.microsoft.com/search?sq=%22Dynamics%20365%20Business%20Central%20%22&ff=&p=0&so=story_publish_date%20desc)  | Rechercher des témoignages clients de référence pour Dynamics 365 Business Central sur [https://customer.microsoft.com](https://customer.microsoft.com).  | Site Web |                       |
 | [Programme Fournisseur de solutions cloud](https://partner.microsoft.com/membership/cloud-solution-provider)    | (Partenaires uniquement) À propos du programme Fournisseur de solutions cloud     | Site Web |                       |
 | [Marketing dans un monde Cloud](https://mbspartner.microsoft.com/OSS/Topic/19) | (Partenaire uniquement) Vos méthodes d’optimisation de vos pratiques marketing et de refonte de vos principes marketing pour un monde basé sur le cloud sera un facteur déterminant du succès ou de l’échec de votre organisation. Cette série de vidéos et de ressources présente les meilleures pratiques marketing, des conseils pour la création de contenu, des conseils pragmatiques et des outils utiles pour appliquer les principes de marketing cloud afin de stimuler la demande pour vos solutions. | Page de sujet | 35 minutes |
 | [Programme Fournisseur de solutions cloud - Vente de solutions cloud à la demande](https://docs.microsoft.com/partner-center/csp-overview)  | Le programme CSP (Cloud Solution Provider, Fournisseur de solutions cloud) vous aide à dépasser votre modèle de revente de licences pour vous impliquer davantage dans les activités de vos clients.   | Site Web      |                       |
 | [Programme Fournisseur de solutions cloud - Comparaison des programmes de support des partenaires](https://partner.microsoft.com/support/partnersupport) | Regardez cette vidéo pour savoir comment choisir le bon plan de support partenaire pour votre entreprise. Puis découvrez une comparaison côte à côte ci-dessous.    | Site Web                               |                       |
 | [Vente accélérée Cloud SureStep](https://mbspartner.microsoft.com/OSS/Topic/20)  | (Partenaires uniquement) Le processus de vente accélérée Cloud SureStep est conçu pour répondre aux besoins de l’acheteur moderne et s’efforce de déclencher un point de basculement stratégique émotionnel et fondé sur l’expérience au tout début du processus de vente. Cette série de vidéos et de ressources explique un processus de vente normatif spécialement conçu pour contrer l’approche traditionnelle de vente de solutions « orientée démo », qui nécessite beaucoup de ressources et conduit généralement à des démonstrations de produits hautement personnalisées, à des cycles de vente complexes et à des projets de longue durée. La bibliothèque de ressources comprend un certain nombre de modèles personnalisables afin que vous puissiez créer votre propre ensemble d’atouts commerciaux pour prendre en charge la vente accélérée. | Site Web     |                       |
-| [Supplément au manuel des partenaires de transition (juillet 2019) ](https://assetsprod.microsoft.com/d365-business-central-supplement-to-transition-partner-playbook.pptx) | Ce supplément au manuel des partenaires de transition fournit des conseils mis à jour et nouveaux aux partenaires pour protéger leur clientèle existante de la concurrence et des nouveaux entrants SaaS.  | Diaporama PowerPoint | 15 diapositives |
+| [Supplément au manuel des partenaires de transition (juillet 2019) ](https://assetsprod.microsoft.com/d365-business-central-supplement-to-transition-partner-playbook.pptx) | Ce supplément au manuel des partenaires de transition fournit des conseils mis à jour et nouveaux aux partenaires pour protéger leur clientèle existante de la concurrence et des nouveaux entrants SaaS.  | Diaporama PowerPoint | 15 diapositives |

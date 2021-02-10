@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: ''
 ms.date: 10/06/2020
 ms.author: bholtorf
-ms.openlocfilehash: bac023393d95623a2731ef1b2ada7d30b135063b
-ms.sourcegitcommit: 0fb6952376d853a878ed33257e73aadc03b95572
+ms.openlocfilehash: fb442c7b1e9e7bdcb727ca6de157657e370e254f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3968375"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746856"
 ---
 # <a name="settle-purchase-invoices-promptly"></a>Établir rapidement des factures achat
 
@@ -23,9 +23,9 @@ Si vous devez payer le fournisseur en liquide ou par chèque, vous pouvez valide
 
 ## <a name="to-settle-purchase-invoices-promptly"></a>Pour établir rapidement des factures achat
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Factures achat** , puis sélectionnez le lien associé.  
-2. Sélectionnez l’action **Nouveau** .  
-3. Pour payer en liquide ou par virement bancaire, saisissez le numéro du compte général règlement ou du compte bancaire dans le champ **N° compte contrepartie** .  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Factures achat**, puis sélectionnez le lien associé.  
+2. Sélectionnez l’action **Nouveau**.  
+3. Pour payer en liquide ou par virement bancaire, saisissez le numéro du compte général règlement ou du compte bancaire dans le champ **N° compte contrepartie**.  
 
 > [!IMPORTANT]  
 > Les champs **Type compte contrepartie** et **N° compte contrepartie** ne font pas partie de la présentation standard de l’en-tête facture. Afin de valider le paiement d’une facture, vous devez contacter un partenaire Microsoft qui peut ajouter les champs par code.  
@@ -36,4 +36,4 @@ Si vous devez payer le fournisseur en liquide ou par chèque, vous pouvez valide
 
 [Gestion des comptes fournisseur](payables-manage-payables.md)  
 [Achats](purchasing-manage-purchasing.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -11,17 +11,17 @@ ms.search.keywords: recurring, invoicing, subscription, billing
 ms.reviewer: edupont
 ms.date: 10/01/2020
 ms.author: andreipa
-ms.openlocfilehash: 25cf2c75ac6beca4f187b329c610914452d7dfcb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 311af347fede15b3d246e66d66b47a5fd09c90db
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910820"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750495"
 ---
-# <a name="work-with-recurring-revenue-in-d365fin"></a>Utiliser des revenus récurrents dans [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="work-with-recurring-revenue-in-prod_short"></a>Utiliser des revenus récurrents dans [!INCLUDE[prod_short](includes/prod_short.md)]
 
 De nombreuses sociétés passent d’un modèle de revenus d’entreprise où les revenus proviennent des achats ponctuels d’un client à un modèle d’abonnement où les revenus sont générés de manière récurrente en échange d’un accès cohérent à la fourniture d’un bien ou d’un service.
-[!INCLUDE[d365fin](includes/d365fin_md.md)] propose les options suivantes pour automatiser l’envoi de factures d’abonnement à vos clients et enregistrer des revenus récurrents. 
+[!INCLUDE[prod_short](includes/prod_short.md)] propose les options suivantes pour automatiser l’envoi de factures d’abonnement à vos clients et enregistrer des revenus récurrents. 
 
 ## <a name="register-revenue-with-a-recurring-general-journal"></a>Enregistrer les revenus avec une feuille comptabilité récurrente
 
@@ -31,7 +31,7 @@ Une feuille récurrente est une feuille comptabilité contenant des champs spéc
 
 Avec cette option, vous définissez des périodes de facturation flexibles avec des [Formules de date](ui-enter-date-ranges.md#using-date-formulas).
 
-Cependant, avec cette option, vous ne pouvez pas imprimer ni envoyer de factures dans la version par défaut de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Cependant, avec cette option, vous ne pouvez pas imprimer ni envoyer de factures dans la version par défaut de [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Pour plus d’informations, voir [Utilisation des feuilles récurrentes](ui-work-general-journals.md#working-with-recurring-journals).  
 
@@ -39,7 +39,7 @@ Pour plus d’informations, voir [Utilisation des feuilles récurrentes](ui-work
 
 La feuille projet récurrente est une alternative plus avancée à la feuille comptabilité. Vous définissez les articles, les ressources et les comptes généraux qui doivent être répétés pour chaque projet, et vous spécifiez la fréquence de récurrence.  
 
-Après avoir validé une feuille projet récurrente, vous pouvez créer plusieurs factures avec la tâche **Créer une facture vente projet** . Vous pouvez examiner et valider les factures créées dans la page **Factures vente** .
+Après avoir validé une feuille projet récurrente, vous pouvez créer plusieurs factures avec la tâche **Créer une facture vente projet**. Vous pouvez examiner et valider les factures créées dans la page **Factures vente**.
 
 ### <a name="why-use-this-option"></a>Pourquoi utiliser cette option
 
@@ -57,7 +57,7 @@ Si vous devez souvent créer des lignes vente et des lignes achat comportant des
 
 Avec cette option, vous pouvez attribuer les mêmes lignes récurrentes à plusieurs clients. Vous pouvez définir la période de validité des lignes vente récurrentes pour un client spécifique. Vous pouvez attribuer plusieurs lignes récurrentes au même client et toutes seront incluses dans la facture.
 
-Cependant, il n’y a aucun moyen de définir des prix fixes pour les articles, car [!INCLUDE[d365fin](includes/d365fin_md.md)] utilisera les prix réels et la remise en vigueur à la date du document pour essayer de trouver la meilleure combinaison qui donne le prix le plus bas.  
+Cependant, il n’y a aucun moyen de définir des prix fixes pour les articles, car [!INCLUDE[prod_short](includes/prod_short.md)] utilisera les prix réels et la remise en vigueur à la date du document pour essayer de trouver la meilleure combinaison qui donne le prix le plus bas.  
 
 Pour plus d’informations, voir [Créer des lignes vente et achat récurrentes](sales-how-work-standard-lines.md).
 
@@ -77,7 +77,7 @@ Cependant, cette option nécessite la licence Premium. La configuration de la ge
 Pour plus d’informations, voir [Utiliser des contrats de service et des devis contrat de service](service-how-to-create-service-contracts-and-service-contract-quotes.md) et [Facturer plusieurs contrats de service](service-how-create-invoices.md#to-invoice-several-service-contracts).
 
 ## <a name="related-features"></a>Fonctionnalités associées
-Il existe plusieurs fonctionnalités associées dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Il existe plusieurs fonctionnalités associées dans [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ### <a name="blanket-sales-orders"></a>Commandes cadres vente
 
@@ -103,7 +103,7 @@ Avec cette option, vous pouvez choisir entre les prix fixes et les « meilleurs
 
 Toutefois, cette option n’est disponible qu’en Norvège. La période de validité peut être définie au niveau du groupe récurrent.
 
-Pour plus d’informations, voir [Commandes récurrentes (Norvège)](/localfunctionality/norway/recurring-orders.md).
+Pour en savoir plus, voir [Commandes récurrentes](LocalFunctionality/Norway/recurring-orders.md).
 
 ### <a name="recurring-revenue-and-subscription-billing-by-other-providers"></a>Revenus récurrents et facturation d’abonnement par d’autres fournisseurs
 
@@ -120,4 +120,4 @@ Vous pouvez obtenir des extensions pour Business Central sur le site [AppSource.
 [Facturer plusieurs contrats de service](service-how-create-invoices.md#to-invoice-several-service-contracts)  
 [Prévisions de demande et commandes ouvertes](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders)  
 [Utiliser des commandes ouvertes vente](sales-how-to-create-blanket-sales-orders.md)  
-[Commandes récurrentes (Norvège)](/localfunctionality/norway/recurring-orders.md)  
+[Commandes récurrentes (Norvège)](LocalFunctionality/Norway/recurring-orders.md)  

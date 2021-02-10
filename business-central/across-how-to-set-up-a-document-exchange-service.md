@@ -10,25 +10,25 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 84d985bb329f76c9c4954e56a01f9d6c7f8bc09c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 92a1b6118f0617dfd219ab38be5ff8d029a68275
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916208"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754732"
 ---
 # <a name="set-up-a-document-exchange-service"></a>Configurer un service d’échange de document
 Utilisez un fournisseur de services externe pour échanger des documents électroniques avec vos partenaires commerciaux. Pour plus d’informations, voir [Échanger des données par voir électronique](across-data-exchange.md).  
 
 ## <a name="to-set-up-a-document-exchange-service"></a>Pour configurer un service d’échange de documents  
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres service Doc. Exch.** , puis sélectionnez le lien associé.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres service Doc. Exch.**, puis sélectionnez le lien associé.  
 2. Renseignez les champs comme indiqué dans le tableau suivant.  
 
     |Champ|Désignation|  
     |---------------------------------|---------------------------------------|  
     |**Agent utilisateur**|Entrez tout texte que vous pouvez utiliser pour identifier votre société dans les processus d’échange de documents.|  
     |**ID abonné Doc. Exch.**|Entrez l’abonné dans le service d’échange de documents qui représente votre société. Elle est fournie par le fournisseur de services d’échange de documents.|  
-    |**Activé**|Spécifiez si le service est activé. **Note :** dès que vous activez le service, au moins deux écritures file projet sont créées pour traiter le trafic de documents électroniques dans et hors de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Lorsque vous désactivez le service, les écritures de file projets sont supprimées.|  
+    |**Activé**|Spécifiez si le service est activé. **Note :** dès que vous activez le service, au moins deux écritures file projet sont créées pour traiter le trafic de documents électroniques dans et hors de [!INCLUDE[prod_short](includes/prod_short.md)]. Lorsque vous désactivez le service, les écritures de file projets sont supprimées.|  
     |**URL inscription**|Spécifiez la page Web sur laquelle vous vous êtes connecté au service d’échange de documents.|  
     |**URL service**|Spécifiez l’adresse du service d’échange de documents qui sera appelé lorsque vous envoyez ou recevez des documents électroniques.|  
     |**URL connexion**|Spécifiez la page de connexion au service d’échange de documents, c’est-à-dire l’emplacement où vous saisissez le nom de l’utilisateur et le mot de passe de votre société pour vous connecter au service.|  

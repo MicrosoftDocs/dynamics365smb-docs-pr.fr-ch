@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: warehouse, distribution center
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 81ee1ad91bd4ec887d85e940152f18e99a6d464c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6cdfee54927dd6e966f1fd1ac0b4e40ba9df1135
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923785"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750095"
 ---
 # <a name="set-up-locations"></a>Configurer des magasins
 Si vous achetez, enregistrez, ou vendez des articles à plusieurs magasins ou entrepôt, vous devez spécifier chaque magasin avec une fiche magasin et définir des acheminements transfert.
@@ -28,25 +28,25 @@ Vous pouvez ensuite créer des lignes de document pour un magasin spécifique, v
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4aQvq?rel=0]
 
 ## <a name="to-create-a-location-card"></a>Pour créer une fiche magasin
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Magasins** , puis sélectionnez le lien associé.
-2. Sélectionnez l’action **Nouveau** .
-3. Sur la page **Fiche magasin** , renseignez les champs comme nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Magasins**, puis sélectionnez le lien associé.
+2. Sélectionnez l’action **Nouveau**.
+3. Sur la page **Fiche magasin**, renseignez les champs comme nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Répétez les étapes 2 et 3 pour chaque magasin dans lequel vous souhaitez conserver le stock.
 
 > [!NOTE]  
 > De nombreux champs de la fiche magasin se rapportent à la gestion des articles dans les processus enlogement et désenlogement. Pour plus d’informations, voir [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md).
 
 ## <a name="to-create-a-transfer-route"></a>Pour créer un acheminement transfert
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Acheminements transfert** , puis sélectionnez le lien associé.
-2. Sinon, à partir de n’importe quelle page **Fiche magasin** , cliquez sur **Acheminements transfert** .
-3. Sélectionnez l’action **Nouveau** .
-4. Sur la page **Fiche magasin** , renseignez les champs comme nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Acheminements transfert**, puis sélectionnez le lien associé.
+2. Sinon, à partir de n’importe quelle page **Fiche magasin**, cliquez sur **Acheminements transfert**.
+3. Sélectionnez l’action **Nouveau**.
+4. Sur la page **Fiche magasin**, renseignez les champs comme nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Vous pouvez à présent transférer des articles en stock entre deux magasins. Pour plus d’informations, voir [Transfert de stock entre des magasins](inventory-how-transfer-between-locations.md).    
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion du stock](inventory-manage-inventory.md)  
 [Transfert de stock entre des magasins](inventory-how-transfer-between-locations.md)    
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Modifier les fonctionnalités affichées](ui-experiences.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)

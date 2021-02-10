@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 470c8231eeb471de344542087c7ade68c91f55bc
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d8e2d00e82f2ed5342e3c06dfaf54d8d6a88e941
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920937"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751769"
 ---
 # <a name="design-details-cost-components"></a>Détails de conception : composants des coûts
 Les composants de coût sont différents types de coûts qui constituent la valeur d'une entrée de stock ou d'une sortie.  
@@ -28,20 +28,20 @@ Les composants de coût sont différents types de coûts qui constituent la vale
 |Coût direct|Frais de transport (frais annexes)|Coûts qui ne peuvent pas être rapportés à des coûts associés.|  
 |Coût direct|Frais d'assurance (frais annexes)|Coûts qui ne peuvent pas être rapportés à des coûts associés.|  
 |Coût indirect||Coût qui ne peut pas être rapporté à un objet de coût.|  
-|Ecart|Écart achat|Différence entre les coûts réel et standard, qui n'est validée que pour les articles utilisant le mode évaluation stock **Standard** .|  
-|Ecart|Écart matière|Différence entre les coûts réel et standard, qui n'est validée que pour les articles utilisant le mode évaluation stock **Standard** .|  
-|Ecart|Écart opératoire|Différence entre les coûts réel et standard, qui n'est validée que pour les articles utilisant le mode évaluation stock **Standard** .|  
-|Ecart|Écart sous-traitance|Différence entre les coûts réel et standard, qui n'est validée que pour les articles utilisant le mode évaluation stock **Standard** .|  
-|Ecart|Écart frais gén. opératoires|Différence entre les coûts réel et standard, qui n'est validée que pour les articles utilisant le mode évaluation stock **Standard** .|  
-|Ecart|Écart frais généraux production|Différence entre les coûts réel et standard, qui n'est validée que pour les articles utilisant le mode évaluation stock **Standard** .|  
+|Ecart|Écart achat|Différence entre les coûts réel et standard, qui n'est validée que pour les articles utilisant le mode évaluation stock **Standard**.|  
+|Ecart|Écart matière|Différence entre les coûts réel et standard, qui n'est validée que pour les articles utilisant le mode évaluation stock **Standard**.|  
+|Ecart|Écart opératoire|Différence entre les coûts réel et standard, qui n'est validée que pour les articles utilisant le mode évaluation stock **Standard**.|  
+|Ecart|Écart sous-traitance|Différence entre les coûts réel et standard, qui n'est validée que pour les articles utilisant le mode évaluation stock **Standard**.|  
+|Ecart|Écart frais gén. opératoires|Différence entre les coûts réel et standard, qui n'est validée que pour les articles utilisant le mode évaluation stock **Standard**.|  
+|Ecart|Écart frais généraux production|Différence entre les coûts réel et standard, qui n'est validée que pour les articles utilisant le mode évaluation stock **Standard**.|  
 |Réévaluation||Amortissement ou réévaluation de la valeur stock en cours.|  
 |Arrondi||Reliquats créés par le mode de calcul de l'évaluation des sorties du stock.|  
 
 > [!NOTE]  
->  Les frais de transport et d'assurance sont des frais annexes qui peuvent être ajoutés au coût d'un article à tout moment. Lorsque vous exécutez le traitement par lots **Ajuster coûts - Écr. article** , la valeur de toute diminution de stock liée est mise à jour en conséquence.  
+>  Les frais de transport et d'assurance sont des frais annexes qui peuvent être ajoutés au coût d'un article à tout moment. Lorsque vous exécutez le traitement par lots **Ajuster coûts - Écr. article**, la valeur de toute diminution de stock liée est mise à jour en conséquence.  
 
 ## <a name="see-also"></a>Voir aussi  
  [Détails de conception : évaluation stock](design-details-inventory-costing.md)   
  [Détails de conception : Ecart](design-details-variance.md) [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  
  [Finances](finance.md)  
- [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+ [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: service, service items, repairs, maintenance, fix
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: aed172663290ce3ac467e405266d513a8978a128
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 22b8ae947ceb82753aa0e881ba8b0ebf603cca9f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913011"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747908"
 ---
 # <a name="setting-up-service-management"></a>Paramétrage de la gestion des services
-Avant de pouvoir démarrer l’utilisation des fonctionnalités de gestion des services dans [!INCLUDE[d365fin](includes/d365fin_md.md)], il y a quelques éléments à configurer. Par exemple, vous pouvez établir le codage des services standard, les codes symptôme et panne, ainsi que configurer les articles de service et les types d’article de service requis par le service clientèle.  
+Avant de pouvoir démarrer l’utilisation des fonctionnalités de gestion des services dans [!INCLUDE[prod_short](includes/prod_short.md)], il y a quelques éléments à configurer. Par exemple, vous pouvez établir le codage des services standard, les codes symptôme et panne, ainsi que configurer les articles de service et les types d’article de service requis par le service clientèle.  
 
 Lorsque vous configurez la gestion des services, vous devez choisir les services que vous allez fournir aux clients et les planifier. Un service correspond à un type de travail exécuté par une ou plusieurs ressources et fourni à un client. Ce peut être un type de réparation informatique. Un article de service correspond à l’équipement ou l’article associé au service : par exemple, un ordinateur à réparer, installé chez un client spécifique. Vous pouvez configurer les services afin de les intégrer au groupe d’articles de réparation ou de maintenance associés.  
   

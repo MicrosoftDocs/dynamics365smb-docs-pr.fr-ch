@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
 ms.date: 10/01/2020
-ms.openlocfilehash: ef8b2c90ef01841e2c641b9fc96348d899d4997e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 65c27bee86d273c467709f1e238b996829d73f37
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919353"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755457"
 ---
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Utiliser des questionnaires profil pour classer les contacts professionnels
 Vous pouvez configurer des questionnaires profil à utiliser au moment d’entrer des informations sur les profils de vos contacts. Dans chaque questionnaire, vous pouvez configurer les questions à poser à vos contacts.  
@@ -23,15 +23,15 @@ Vous pouvez configurer des questionnaires profil à utiliser au moment d’entre
 Vous pouvez également exécuter le questionnaire pour répondre automatiquement à certaines de ces questions en fonction des données contact, client ou fournisseur.  
 
 ## <a name="to-add-a-profile-questionnaire"></a>Pour ajouter un questionnaire profil
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres questionnaire** , puis sélectionnez le lien associé.  
-2.  Sélectionnez l’action **Nouveau** .  
+1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres questionnaire**, puis sélectionnez le lien associé.  
+2.  Sélectionnez l’action **Nouveau**.  
 3.  Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-add-questions-to-a-profile-questionnaire"></a>Pour ajouter des questions à un questionnaire profil
-1.  Choisissez le questionnaire profil approprié, puis sélectionnez l’action **Modifier paramètres questionnaire** .  
-2.  Sur la première ligne vide, dans le champ **Type** , choisissez **Question** , puis tapez la question dans le champ **Désignation** . Renseignez les autres champs sur cette ligne.  
-3.  Sur la ligne vide suivante, dans le champ **Type** , choisissez **Réponse** , puis tapez la réponse dans le champ **Désignation** .  
-4.  Dans le champ **Priorité** , sélectionnez la priorité. Dans les champs **Valeur début** et **Valeur fin** , définissez une plage de points. Les contacts obtenant un nombre de points compris dans la plage définie recevront la réponse.  
+1.  Choisissez le questionnaire profil approprié, puis sélectionnez l’action **Modifier paramètres questionnaire**.  
+2.  Sur la première ligne vide, dans le champ **Type**, choisissez **Question**, puis tapez la question dans le champ **Désignation**. Renseignez les autres champs sur cette ligne.  
+3.  Sur la ligne vide suivante, dans le champ **Type**, choisissez **Réponse**, puis tapez la réponse dans le champ **Désignation**.  
+4.  Dans le champ **Priorité**, sélectionnez la priorité. Dans les champs **Valeur début** et **Valeur fin**, définissez une plage de points. Les contacts obtenant un nombre de points compris dans la plage définie recevront la réponse.  
 
 Répétez ces étapes pour entrer toutes les questions et réponses du questionnaire profil.
 
@@ -41,12 +41,12 @@ Après avoir créé un questionnaire, vous devez créer des évaluations contact
 > Si vous entrez une question dont la réponse est automatique, choisissez <STRONG>Ligne</STRONG>, puis <STRONG>Questionnaire</STRONG> pour entrer les critères de réponse automatique.
 
 ## <a name="the-automatic-classification-of-contacts"></a>Classification automatique des contacts
-Vous pouvez configurer le programme pour qu’il classe automatiquement les contacts en fonction des données client, fournisseur et contact. Pour cela, configurez des questions profil à réponse automatique sur la page **Paramètres questionnaires profil** .  
+Vous pouvez configurer le programme pour qu’il classe automatiquement les contacts en fonction des données client, fournisseur et contact. Pour cela, configurez des questions profil à réponse automatique sur la page **Paramètres questionnaires profil**.  
 
 > [!NOTE]
 > Vous ne pouvez affecter une classification basée sur les données contact qu’aux contacts enregistrés en tant que clients. De même, seuls les contacts enregistrés en tant que fournisseurs peuvent se voir affecter une classification basée sur les données fournisseur. La classification automatique n’est pas mise à jour automatiquement. Par conséquent, vous pouvez être amené à mettre à jour les questionnaires profil après avoir mis à jour les données client, fournisseur ou contact dont ils dépendent.  
 
-Une fois que vous avez configuré les questions profil à réponse automatique, affectez à un contact le questionnaire profil qui les contient. [!INCLUDE[d365fin](includes/d365fin_md.md)] répond ensuite automatiquement aux questions.  
+Une fois que vous avez configuré les questions profil à réponse automatique, affectez à un contact le questionnaire profil qui les contient. [!INCLUDE[prod_short](includes/prod_short.md)] répond ensuite automatiquement aux questions.  
 
 ## <a name="example"></a>Exemple :
 Vous pouvez classer vos contacts en fonction du montant de leurs achats :
@@ -103,28 +103,28 @@ Pour cela, renseignez la page **Paramètres questionnaires profil** comme suit 
 <td><p>Question</p></td>
 <td><p>Classification ABC</p></td>
 <td><p>Cochez la ligne appropriée.</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="even">
 <td><p>Réponse</p></td>
 <td><p>A</p></td>
-<td><p> </p></td>
+<td><p> </p></td>
 <td><p>500,000</p></td>
-<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="odd">
 <td><p>Réponse</p></td>
 <td><p>B</p></td>
-<td><p> </p></td>
+<td><p> </p></td>
 <td><p>100,000</p></td>
 <td><p>499,999</p></td>
 </tr>
 <tr class="even">
 <td><p>Réponse</p></td>
 <td><p>C</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 <td><p>99,999</p></td>
 </tr>
 </tbody>

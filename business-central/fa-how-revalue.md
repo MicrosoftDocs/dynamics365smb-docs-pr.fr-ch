@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dee2521faf6d76ffb36a426361b7f326073770cf
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cde6af59068954f8404b18fbce5e4c388d3c7a2c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917266"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749333"
 ---
 # <a name="revalue-fixed-assets"></a>Réévaluer les immobilisations
 La réévaluation des immobilisations peut consister en réévaluations, dépréciations ou corrections de valeurs générales.
@@ -28,35 +28,35 @@ Lorsque la valeur d’une immobilisation a diminué, vous validez une ligne feui
 L’actualisation permet d’ajuster plusieurs valeurs immobilisation, par exemple, en fonction de modifications générales de niveau de prix. Le traitement par lots **Réévaluer immobilisations** permet de modifier divers montants, tels que les montants de dépréciation et de réévaluation.
 
 ## <a name="to-post-an-appreciation-from-the-fixed-asset-gl-journal"></a>Pour valider une réévaluation à partir d’une feuille comptabilisation immobilisation
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles comptabilisation immobilisation** , puis sélectionnez le lien associé.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles comptabilisation immobilisation**, puis sélectionnez le lien associé.  
 2. Créez une feuille comptable initiale et complétez les champs, le cas échéant.
-3. Dans le champ **Type compta. immo** , sélectionnez **Réévaluation** .
-4. Sélectionnez l’action **Insérer contrepartie immo.** . Une seconde ligne feuille est créée pour le compte contrepartie qui est configuré pour la validation de la réévaluation.
+3. Dans le champ **Type compta. immo**, sélectionnez **Réévaluation**.
+4. Sélectionnez l’action **Insérer contrepartie immo.**. Une seconde ligne feuille est créée pour le compte contrepartie qui est configuré pour la validation de la réévaluation.
 
     > [!NOTE]  
     >   L’étape 4 ne fonctionne que si vous avez configuré ce qui suit : sur la page **Fiche groupe compta. immo.** du groupe de validation de l’immobilisation, le champ **Compte réévaluation** contient le compte débit général et le champ **Compte contrepartie réévaluation** contient le compte général dans lequel vous souhaitez valider les écritures contrepartie pour réévaluation. Pour plus d’informations, reportez vous à [Pour configurer des groupes de validation immobilisation](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).  
-5. Sélectionnez l’action **Valider** .
+5. Sélectionnez l’action **Valider**.
 
 ## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>Pour valider une dépréciation à partir d’une feuille comptabilisation immobilisation
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles comptabilisation immobilisation** , puis sélectionnez le lien associé.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles comptabilisation immobilisation**, puis sélectionnez le lien associé.  
 2. Créez une feuille comptable initiale et complétez les champs, le cas échéant.
-3. Dans le champ **Type compta. immo** , sélectionnez **Dépréciation** .
-4. Sélectionnez l’action **Insérer contrepartie immo.** . Une seconde ligne feuille est créée pour le compte contrepartie qui est configuré pour la validation de la dépréciation.
+3. Dans le champ **Type compta. immo**, sélectionnez **Dépréciation**.
+4. Sélectionnez l’action **Insérer contrepartie immo.**. Une seconde ligne feuille est créée pour le compte contrepartie qui est configuré pour la validation de la dépréciation.
 
     > [!NOTE]  
     >   L’étape 4 ne fonctionne que si vous avez configuré ce qui suit : sur la page **Fiche groupe compta. immo.** pour le groupe de validation de l’immobilisation, le champ **Compte dépréciation** contient le compte crédit général et le champ **Compte dépense dépréciation** contient le compte général auquel vous souhaitez valider les écritures contrepartie pour dépréciation. Pour plus d’informations, reportez vous à [Pour configurer des groupes de validation immobilisation](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
-5. Sélectionnez l’action **Valider** .
+5. Sélectionnez l’action **Valider**.
 
 ## <a name="to-perform-general-revaluation-of-fixed-assets"></a>Pour exécuter une réévaluation générale des immobilisations
 L’actualisation permet d’ajuster plusieurs valeurs immobilisation, par exemple, en fonction de modifications générales de niveau de prix. Le traitement par lots **Réévaluer immobilisations** permet de modifier divers montants, tels que les montants de dépréciation et de réévaluation. La case **Autoriser actualisation** sur la page **Loi d’amortissement** doit être cochée.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Réévaluer immobilisations** , puis sélectionnez le lien associé.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Réévaluer immobilisations**, puis sélectionnez le lien associé.  
 2. Renseignez les champs selon vos besoins.
-3. Cliquez sur le bouton **OK** .
+3. Cliquez sur le bouton **OK**.
 
-    Les lignes de réévaluation sont créées conformément à vos paramètres à l’étape 2. Les lignes sont créées dans la feuille immobilisation ou la feuille compta. immo., selon votre modèle et la configuration par lot sur la page **Param. feuille immo.** . Pour en savoir plus, voir [Configurer des informations générales sur les immobilisations](fa-how-setup-general.md).
-4. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles comptabilisation immobilisation** , puis sélectionnez le lien associé.  
-5. Sélectionnez la feuille avec les immobilisations que vous souhaitez réévaluer, puis sélectionnez l’action **Écritures comptables** .  
+    Les lignes de réévaluation sont créées conformément à vos paramètres à l’étape 2. Les lignes sont créées dans la feuille immobilisation ou la feuille compta. immo., selon votre modèle et la configuration par lot sur la page **Param. feuille immo.**. Pour en savoir plus, voir [Configurer des informations générales sur les immobilisations](fa-how-setup-general.md).
+4. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles comptabilisation immobilisation**, puis sélectionnez le lien associé.  
+5. Sélectionnez la feuille avec les immobilisations que vous souhaitez réévaluer, puis sélectionnez l’action **Écritures comptables**.  
 6. Vérifiez les écritures créées, puis sélectionnez l’action **Valider** pour valider la feuille.
 
     > [!TIP]  
@@ -94,7 +94,7 @@ Si vous avez coché la case **Amortir coût acquisition** sur la facture avant q
 
 *Le coût d’acquisition supplémentaire est amorti de ((150 x 100) / 4 800) / 100 x 480 = 15*
 
-La base d’amortissement est maintenant égale à *5 280 = (4 800 + 480)* et l’amortissement cumulé équivaut à *165 = (100 + 50 + 15)* , soit 45 jours d’amortissement du coût d’acquisition total. Cela signifie que l’immobilisation sera totalement amortie au cours de sa durée de vie estimée à quatre ans.  
+La base d’amortissement est maintenant égale à *5 280 = (4 800 + 480)* et l’amortissement cumulé équivaut à *165 = (100 + 50 + 15)*, soit 45 jours d’amortissement du coût d’acquisition total. Cela signifie que l’immobilisation sera totalement amortie au cours de sa durée de vie estimée à quatre ans.  
 
 Lorsque le traitement par lots **Calculer amortissement** est exécuté le 30/09/00, le calcul suivant est utilisé :  
 
@@ -106,7 +106,7 @@ Lorsque le traitement par lots **Calculer amortissement** est exécuté le 30/09
 
 *Amortissement total = 165 + 55 = 220*  
 
-Si vous n’avez pas coché la case **Amort. jusqu’à date compta.** , l’actif perdrait 15 jours d’amortissement, car le traitement par lot **Calculer amortissement** exécuté le 30/09/00 calculerait l’amortissement du 15/09/00 au 30/09/00. , l’immobilisation perd 15 jours d’amortissement car le traitement par lots **Calculer amortissement** exécuté le 30/09/00 calcule l’amortissement du 15/09/00 au 30/09/00 comme suit :  
+Si vous n’avez pas coché la case **Amort. jusqu’à date compta.**, l’actif perdrait 15 jours d’amortissement, car le traitement par lot **Calculer amortissement** exécuté le 30/09/00 calculerait l’amortissement du 15/09/00 au 30/09/00. , l’immobilisation perd 15 jours d’amortissement car le traitement par lots **Calculer amortissement** exécuté le 30/09/00 calcule l’amortissement du 15/09/00 au 30/09/00 comme suit :  
 
 *Durée de vie restante : 3 ans, 10 mois et 15 jours = 1 395 jours*  
 
@@ -121,4 +121,4 @@ Si vous n’avez pas coché la case **Amort. jusqu’à date compta.** , l’act
 [Paramétrage d’immobilisations](fa-setup.md)  
 [Finances](finance.md)  
 [Mise en route](product-get-started.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

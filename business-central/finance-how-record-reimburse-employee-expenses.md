@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: reimbursement
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e88cc5ad2eaf449d22dd0c9840a4fc33ae0f56f7
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4d19fceae0fd5c9b72910880d0f87b21206e8f47
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916183"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750845"
 ---
 # <a name="record-and-reimburse-employees-expenses"></a>Enregistrer et rembourser les frais des employés
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge les transactions des employés de la même manière que pour les fournisseurs. Par conséquent, les groupes comptabilisation des salariés existent pour s’assurer que les écritures comptables d’un salarié sont validées dans les comptes appropriés de la comptabilité.
+[!INCLUDE[prod_short](includes/prod_short.md)] prend en charge les transactions des employés de la même manière que pour les fournisseurs. Par conséquent, les groupes comptabilisation des salariés existent pour s’assurer que les écritures comptables d’un salarié sont validées dans les comptes appropriés de la comptabilité.
 
 > [!NOTE]  
 > Les transactions des employés ne peuvent être validées que dans la devise société. Les paiements de remboursement aux employés ne prennent pas en charge les remises et les écarts de règlement.
@@ -30,8 +30,8 @@ Si les salariés dépensent leur propre argent pendant les activités commercial
 > Cet article explique comment enregistrer les frais dans les livres et comment rembourser l’employé. Votre organisation peut avoir un portail ou une application où les employés peuvent soumettre leurs notes de frais.
 
 ## <a name="to-record-an-employees-expense"></a>Pour enregistrer les frais des salariés
-Validez les frais salarié sur la page **Feuille comptabilité** .
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles comptabilité** , puis sélectionnez le lien associé.
+Validez les frais salarié sur la page **Feuille comptabilité**.
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles comptabilité**, puis sélectionnez le lien associé.
 2. Ouvrez la feuille comptabilité appropriée. Pour plus d’informations, voir [Utilisation des feuilles comptabilité](ui-work-general-journals.md).
 3. Sur une nouvelle ligne feuille, renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]    
 
@@ -40,23 +40,23 @@ Validez les frais salarié sur la page **Feuille comptabilité** .
 4. Répétez l’étape 3 pour tous les frais que le salarié a supportés.
 
     > [!TIP]  
-    > Si vous souhaitez saisir les lignes de dépenses au-dessus d’une ligne compte contrepartie du compte bancaire de l’employé, activez la case à cocher **Suggérer le montant contrepartie** de la ligne pour votre lot sur la page **Noms feuilles comptabilité** . Puis le champ **Montant** de la ligne compte contrepartie est automatiquement prérempli avec la valeur requise pour équilibrer les dépenses.
+    > Si vous souhaitez saisir les lignes de dépenses au-dessus d’une ligne compte contrepartie du compte bancaire de l’employé, activez la case à cocher **Suggérer le montant contrepartie** de la ligne pour votre lot sur la page **Noms feuilles comptabilité**. Puis le champ **Montant** de la ligne compte contrepartie est automatiquement prérempli avec la valeur requise pour équilibrer les dépenses.
 5. Choisissez l’action **Valider** pour enregistrer les frais sur le compte du salarié.
 
 ## <a name="to-reimburse-an-employee"></a>Pour rembourser un employé
-Vous remboursez des salariés en validant les paiements sur leur compte bancaire sur la page **Feuille paiement** .
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles paiement** , puis sélectionnez le lien associé.
+Vous remboursez des salariés en validant les paiements sur leur compte bancaire sur la page **Feuille paiement**.
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles paiement**, puis sélectionnez le lien associé.
 2. Ouvrez la feuille comptabilité paiement appropriée. Pour plus d’informations, voir [Utilisation des feuilles comptabilité](ui-work-general-journals.md).
 3. Renseignez les champs selon vos besoins. Pour plus d’informations, reportez-vous à [Effectuer des paiements](payables-make-payments.md).
 4. Sinon, choisissez l’action **Proposer paiements aux salariés** pour insérer automatiquement des lignes feuille pour les remboursements salarié en attente.
 5. Sélectionnez l’action **Valider** pour enregistrer le remboursement.  
 
 ## <a name="to-reconcile-reimbursements-with-employee-ledger-entries"></a>Pour rapprocher les remboursements avec les écritures comptables du salarié
-Appliquez les paiements des employés à leurs écritures comptables salariés ouvertes de la même façon que vous le faites pour les paiements des fournisseurs, par exemple sur la page **Feuille rapprochement bancaire** , en fonction des écritures de relevé bancaire connexes. Pour plus d’informations, reportez-vous à [Lettrage automatique des paiements et rapprochement des comptes bancaires](receivables-apply-payments-auto-reconcile-bank-accounts.md). Sinon, vous pouvez effectuer une application manuelle sur la page **Écritures comptables salariés** . Pou plus d’informations, voir [Rapprocher des paiements fournisseur avec la feuille paiement ou à partir des écritures comptables fournisseur](payables-how-apply-purchase-transactions-manually.md).  
+Appliquez les paiements des employés à leurs écritures comptables salariés ouvertes de la même façon que vous le faites pour les paiements des fournisseurs, par exemple sur la page **Feuille rapprochement bancaire**, en fonction des écritures de relevé bancaire connexes. Pour plus d’informations, reportez-vous à [Lettrage automatique des paiements et rapprochement des comptes bancaires](receivables-apply-payments-auto-reconcile-bank-accounts.md). Sinon, vous pouvez effectuer une application manuelle sur la page **Écritures comptables salariés**. Pou plus d’informations, voir [Rapprocher des paiements fournisseur avec la feuille paiement ou à partir des écritures comptables fournisseur](payables-how-apply-purchase-transactions-manually.md).  
 
 ## <a name="see-also"></a>Voir aussi
 [Valider les transactions directement vers la comptabilité](finance-how-post-transactions-directly.md)  
 [Utilisation de feuilles comptabilité](ui-work-general-journals.md)  
 [Contrepasser une validation feuille et annuler les réceptions/envois](finance-how-reverse-journal-posting.md)  
 [Finances](finance.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

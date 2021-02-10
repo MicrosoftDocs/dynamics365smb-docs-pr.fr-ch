@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e39de1d4656b272c5c6cf5c01f54d5d6ebeca05b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fc491b060d6a4b1039376b0051ef58da104ff1d1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914229"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750370"
 ---
 # <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Configuration des codes source et des codes de motif pour les pistes d’audit
 
@@ -29,27 +29,27 @@ Parfois, vous souhaitez savoir comment une écriture particulière a été cré�
 
 La validation de feuilles, de commandes, de factures ou d’avoirs, et l’exécution de divers traitement par lots, crée des écritures dans les états financiers. La page **Paramètres codes journaux** comporte plusieurs raccourcis, un pour chaque domaine d’application. Chaque raccourci indique les codes journaux applicables pour ce module.
 
-Lorsque vous validez ou exécutez un traitement par lots, le bon code journal est relié automatiquement à l’écriture. Par exemple, lorsque vous validez à partir de la feuille, l’écriture est codifiée en tant que *JNLCOMPTA* . Vous pouvez ensuite filtrer la page **Écritures comptables** pour afficher les écritures qui ont été publiées à partir de la feuille comptabilité ou des documents de vente, par exemple
+Lorsque vous validez ou exécutez un traitement par lots, le bon code journal est relié automatiquement à l’écriture. Par exemple, lorsque vous validez à partir de la feuille, l’écriture est codifiée en tant que *JNLCOMPTA*. Vous pouvez ensuite filtrer la page **Écritures comptables** pour afficher les écritures qui ont été publiées à partir de la feuille comptabilité ou des documents de vente, par exemple
 
 ### <a name="to-define-source-codes"></a>Pour définir des codes journaux
 
-1. Sélectionnez l’icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), saisissez **Paramètres codes journaux** , puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), saisissez **Paramètres codes journaux**, puis sélectionnez le lien associé.  
 
-2. Dans la fenêtre **Paramètres codes journaux** , pour chaque type de validation et travail par lots, spécifiez le code source approprié.  
+2. Dans la fenêtre **Paramètres codes journaux**, pour chaque type de validation et travail par lots, spécifiez le code source approprié.  
 
 Vous pouvez modifier le contenu d’un champ ultérieurement, et cette modification aura alors un impact sur les publications futures.
 
 ## <a name="change-source-codes"></a>Modifier les codes journaux
 
-Vous pouvez modifier un code journal. Par exemple, vous pouvez remplacer le code journal *GENJNL* par *GNJ* .
+Vous pouvez modifier un code journal. Par exemple, vous pouvez remplacer le code journal *GENJNL* par *GNJ*.
 
 ### <a name="to-change-source-codes"></a>Pour modifier des codes journaux
 
-1. Sélectionnez l’icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), saisissez **Codes journaux** , puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), saisissez **Codes journaux**, puis sélectionnez le lien associé.
 
-2. Sur la ligne du code à modifier, sélectionnez le code dans le champ **Code** .
+2. Sur la ligne du code à modifier, sélectionnez le code dans le champ **Code**.
 
-3. Saisissez le nouveau code, puis cliquez sur le bouton **OK** . Vous pouvez également modifier la valeur du champ **Description** .
+3. Saisissez le nouveau code, puis cliquez sur le bouton **OK**. Vous pouvez également modifier la valeur du champ **Description**.
 
 Toutes les nouvelles écritures qui sont validées à partir de la feuille comptabilité, se verront attribuer un nouveau code journal.
 
@@ -59,9 +59,9 @@ Les codes de motif complètent les codes source et sont utilisés pour indiquer 
 
 ### <a name="to-set-up-reason-codes"></a>Pour configurer des codes motif
 
-1. Sélectionnez l’icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), saisissez **Codes motif** , puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), saisissez **Codes motif**, puis sélectionnez le lien associé.
 
-2. Dans la fenêtre **Codes motif** , saisissez le premier code dans le champ **Code** . Dans le champ **Désignation** , saisissez un texte explicatif.
+2. Dans la fenêtre **Codes motif**, saisissez le premier code dans le champ **Code**. Dans le champ **Désignation**, saisissez un texte explicatif.
 
 Répétez cette procédure pour chaque code à utiliser. Vous pouvez configurer autant de codes que vous le souhaitez.
 
@@ -69,7 +69,7 @@ La procédure suivante décrit comment ajouter un code motif à un modèle feuil
 
 ### <a name="to-assign-reason-codes-to-journal-templates"></a>Pour affecter des codes motif à des modèles feuille
 
-1. Sélectionnez l’icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Modèles feuille comptabilité** , puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Modèles feuille comptabilité**, puis sélectionnez le lien associé.
 
 2. Sur la ligne du modèle feuille sélectionné, renseignez le champ **Code motif** avec le code souhaité.
 
@@ -81,7 +81,7 @@ Le code motif sélectionné est copié dans les nouvelles feuilles créées sous
 
 1. Ouvrez le document achat ou vente approprié.
 
-2. Dans l’en-tête achat ou vente, entrez le code dans le champ **Code motif** .
+2. Dans l’en-tête achat ou vente, entrez le code dans le champ **Code motif**.
 
 Lors de la validation de la facture, le code motif est copié dans chaque écriture comptable, client et fournisseur. Vous ne pouvez pas affecter un code motif différent à chacune des lignes achat et vente, car toutes les lignes sont validées sous la forme d’une écriture unique.
 
@@ -94,6 +94,6 @@ Lors de la validation de la facture, le code motif est copié dans chaque écrit
 [Utilisation des axes analytiques](finance-dimensions.md)  
 [Importation des données métier à partir d’autres systèmes financiers](across-import-data-configuration-packages.md)  
 [Analyse de la trésorerie dans votre société](finance-analyze-cash-flow.md)  
-[Utilisation de [!INCLUDE[prodshort](includes/prodshort.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

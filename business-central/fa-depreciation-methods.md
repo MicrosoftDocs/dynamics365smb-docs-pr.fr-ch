@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a1278b344efef1df243d4f82e9d463f8faf9a259
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c6f349d7a77078536b7a61e14b5dcd4169ba0f9b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920812"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749508"
 ---
 # <a name="depreciation-methods"></a>Méthodes d’amortissement
 Huit méthodes d’amortissement sont disponibles :  
@@ -52,7 +52,7 @@ Si vous saisissez la période d’amortissement (nombre d’années ou de mois d
 
 Le nombre de jours d’amortissement restants correspond au nombre de jours d’amortissement moins le nombre de jours compris entre la date début de l’amortissement et la date de la dernière écriture immobilisation.  
 
-La valeur comptable peut être diminuée d’un montant de réévaluation, de dépréciation, ou paramétrable 1 ou 2 validé, selon l’état (activé/désactivé) des champs **Inclure dans calcul amort.** et **Élément valeur comptable** sur la page **Type paramètre compta. immo** . Ce calcul garantit l’amortissement complet de l’immobilisation à la date fin de l’amortissement.  
+La valeur comptable peut être diminuée d’un montant de réévaluation, de dépréciation, ou paramétrable 1 ou 2 validé, selon l’état (activé/désactivé) des champs **Inclure dans calcul amort.** et **Élément valeur comptable** sur la page **Type paramètre compta. immo**. Ce calcul garantit l’amortissement complet de l’immobilisation à la date fin de l’amortissement.  
 
 ### <a name="fixed-yearly-percentage"></a>Pourcentage annuel fixe
 Si vous saisissez un pourcentage annuel fixe, l’application utilise la formule suivante pour calculer le montant de l’amortissement :  
@@ -90,7 +90,7 @@ La formule suivante calcule les montants d’amortissement :
 
 La base d’amortissement correspond à la valeur comptable moins l’amortissement validé depuis la date début de l’exercice comptable en cours.  
 
-Le montant de l’amortissement validé peut contenir des écritures avec divers types de validation (dépréciation, paramétrable 1 et paramétrable 2) validés depuis la date de début de l’exercice comptable en cours. Ces types de validation sont inclus dans le montant d’amortissement validé si vous avez coché les champs **Type amortissement** et **Élément valeur comptable** sur la page **Type paramètre compta. immo.** .  
+Le montant de l’amortissement validé peut contenir des écritures avec divers types de validation (dépréciation, paramétrable 1 et paramétrable 2) validés depuis la date de début de l’exercice comptable en cours. Ces types de validation sont inclus dans le montant d’amortissement validé si vous avez coché les champs **Type amortissement** et **Élément valeur comptable** sur la page **Type paramètre compta. immo.**.  
 
 ### <a name="example---declining-balance-1-depreciation"></a>Exemple - Amortissement dégressif 1
 Une immobilisation a un coût d’acquisition de 100 000 DS. Le champ **% dégressif** indique la valeur 25. Le traitement par lots **Calculer amortissement** est exécuté tous les semestres.  
@@ -167,10 +167,10 @@ Le traitement par lots **Calculer amortissement** calcule un montant linéaire e
 
 Vous pouvez utiliser divers pourcentages pour calculer le montant dégressif.  
 
-Si vous utilisez cette méthode, saisissez la durée de vie estimée et un pourcentage dégressif sur la page **Loi d’amortissement** .  
+Si vous utilisez cette méthode, saisissez la durée de vie estimée et un pourcentage dégressif sur la page **Loi d’amortissement**.  
 
 ### <a name="example---db1-sl-depreciation"></a>Exemple - Amortissement Dégr1/Lin
-Une immobilisation a un coût d’acquisition de 100 000 DS. Sur la page **Loi d’amortissement** , le champ **% dégressif** indique la valeur 25 et le champ **Nombre années amortissement** indique la valeur 8. Le traitement par lots **Calculer amortissement** est exécuté tous les semestres.  
+Une immobilisation a un coût d’acquisition de 100 000 DS. Sur la page **Loi d’amortissement**, le champ **% dégressif** indique la valeur 25 et le champ **Nombre années amortissement** indique la valeur 8. Le traitement par lots **Calculer amortissement** est exécuté tous les semestres.  
 
 Les écritures comptables immobilisation se présentent comme suit :  
 
@@ -226,14 +226,14 @@ La formule de calcul des montants d’amortissement est la suivante :
 Montant de l’amortissement = (% amortissement x nombre de jours d’amortissement x base amortissement)/(100 x 360)  
 
 ### <a name="depreciation-based-on-number-of-units"></a>Amortissement basé sur un nombre d’unités
-Cette méthode paramétrable peut également être utilisée pour calculer un amortissement sur la base d’un nombre d’unités, par exemple dans le cas de machines de production dont la durée de vie est préétablie. Sur la page **Tables d’amortissement** , vous saisissez le nombre d’unités pouvant être produites au cours de chaque période (mois, trimestre, année ou période comptable).  
+Cette méthode paramétrable peut également être utilisée pour calculer un amortissement sur la base d’un nombre d’unités, par exemple dans le cas de machines de production dont la durée de vie est préétablie. Sur la page **Tables d’amortissement**, vous saisissez le nombre d’unités pouvant être produites au cours de chaque période (mois, trimestre, année ou période comptable).  
 
 ### <a name="to-set-up-user-defined-depreciation-methods"></a>Pour définir des méthodes d’amortissement paramétrables
-Sur la page **Table amortissement** , vous pouvez configurer des méthodes d’amortissement paramétrables. Par exemple, vous pouvez définir l’amortissement en fonction du nombre d’unités.  
+Sur la page **Table amortissement**, vous pouvez configurer des méthodes d’amortissement paramétrables. Par exemple, vous pouvez définir l’amortissement en fonction du nombre d’unités.  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Tables d’amortissement** , puis choisissez le lien associé.  
-2. Sur la page **Liste des tables amortissement** , sélectionnez l’action **Nouveau** .  
-3. Sur la page **Fiche table amortissement** , renseignez les champs comme nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Tables d’amortissement**, puis choisissez le lien associé.  
+2. Sur la page **Liste des tables amortissement**, sélectionnez l’action **Nouveau**.  
+3. Sur la page **Fiche table amortissement**, renseignez les champs comme nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### <a name="example---user-defined-depreciation"></a>Exemple - Amortissement défini par l’utilisateur
 Vous souhaitez utiliser une méthode d’amortissement vous permettant d’amortir des immobilisations de manière accélérée dans le cadre de l’impôt sur le revenu.  
@@ -273,7 +273,7 @@ Dans l’exemple précédent, les champs **Date premier amortissement** et **Dat
 * Date début amortissement  
 
 ## <a name="half-year-convention-depreciation"></a>Amortissement selon la règle de la demi-année
-La règle de la demi-année n’est appliquée que si vous avez coché le champ **Utiliser règle demi-année** sur la page **Plan amortissement** .  
+La règle de la demi-année n’est appliquée que si vous avez coché le champ **Utiliser règle demi-année** sur la page **Plan amortissement**.  
 
 Cette méthode d’amortissement peut être utilisée en combinaison avec les méthodes d’amortissement suivantes dans l’application :  
 
@@ -281,7 +281,7 @@ Cette méthode d’amortissement peut être utilisée en combinaison avec les m�
 * Dégressif1  
 * Dégr1/Lin  
 
-Lorsque vous appliquez la règle de la demi-année, une immobilisation a un amortissement de six mois lors du premier exercice comptable, quelle que soit la valeur du champ **Date début amortissement** .  
+Lorsque vous appliquez la règle de la demi-année, une immobilisation a un amortissement de six mois lors du premier exercice comptable, quelle que soit la valeur du champ **Date début amortissement**.  
 
 > [!NOTE]  
 >   Avec la règle de la demi-année, la durée de vie restante estimée pour l’immobilisation à la fin de l’exercice comptable indique toujours une demi-année. Par conséquent, pour que la méthode Utiliser règle de la demi-année soit appliquée correctement, le champ **Date fin amortissement** de la **loi d’amortissement de l’immobilisation** doit toujours contenir une date antérieure de six mois à la date fin de l’exercice comptable au cours duquel l’immobilisation sera complètement amortie.  
@@ -304,7 +304,7 @@ Les écritures comptables immobilisation se présentent comme suit :
 * Date début amortissement  
 
 ## <a name="example---db1sl-depreciation-using-half-year-convention"></a>Exemple - Amortissement dégressif 1/linéaire selon la règle de la demi-année
-Une immobilisation a un coût d’acquisition de 100 000 DS. Le champ **Date début amortissement** indique la valeur 01/11/10. La durée de vie est estimée à cinq ans, ce qui implique que le champ **Date fin amortissement** doit impérativement être paramétré sur la valeur 30/06/15. Sur la page **Loi d’amortissement** , le champ **% dégressif** indique la valeur 40. Le traitement par lots **Calculer amortissement** est exécuté tous les ans. Cet exemple est basé sur un exercice comptable.  
+Une immobilisation a un coût d’acquisition de 100 000 DS. Le champ **Date début amortissement** indique la valeur 01/11/10. La durée de vie est estimée à cinq ans, ce qui implique que le champ **Date fin amortissement** doit impérativement être paramétré sur la valeur 30/06/15. Sur la page **Loi d’amortissement**, le champ **% dégressif** indique la valeur 40. Le traitement par lots **Calculer amortissement** est exécuté tous les ans. Cet exemple est basé sur un exercice comptable.  
 
 Les écritures comptables immobilisation se présentent comme suit :  
 
@@ -343,7 +343,7 @@ Le montant linéaire est utilisé car il s’agit de la valeur la plus élevée.
 ## <a name="duplicating-entries-to-more-depreciation-books"></a>Duplication des écritures dans davantage de lois d’amortissement
 Si vous disposez de trois lois d’amortissement, B1, B2 et B3, et que vous souhaitiez dupliquer des écritures de B1 vers B2 et B3, vous pouvez activer le champ **Inclure dans liste duplication** sur les fiches loi d’amortissement de B2 et de B3. Cela peut être utile si la loi d’amortissement B1 est intégrée en comptabilité et utilise la feuille validation immobilisation, et si les lois d’amortissement B2 et B3 ne sont pas intégrées en comptabilité et utilisent la feuille immobilisation.  
 
-Lorsque vous saisissez une écriture pour B1 dans la feuille validation immobilisation et sélectionnez le champ **Utiliser liste duplication** , l’application duplique l’écriture pour les lois B2 et B3 dans la feuille immobilisation lors de la validation de l’écriture.  
+Lorsque vous saisissez une écriture pour B1 dans la feuille validation immobilisation et sélectionnez le champ **Utiliser liste duplication**, l’application duplique l’écriture pour les lois B2 et B3 dans la feuille immobilisation lors de la validation de l’écriture.  
 
 > [!NOTE]  
 >   Vous ne pouvez pas utiliser la feuille d’origine comme destination de la duplication. Si vous validez des écritures dans la feuille validation immobilisation, vous pouvez les dupliquer dans la feuille immobilisation ou dans la feuille validation immobilisation en utilisant une autre feuille.  
@@ -356,4 +356,4 @@ Lorsque vous saisissez une écriture pour B1 dans la feuille validation immobili
 [Paramétrage d’immobilisations](fa-setup.md)  
 [Finances](finance.md)  
 [Mise en route](product-get-started.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

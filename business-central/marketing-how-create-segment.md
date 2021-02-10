@@ -12,22 +12,22 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 211f4cda3bd7d47c6268b0dfc041d25b100d2d14
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5092cc24ee86bc7f87b2b96653f473448062aaa4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919278"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755432"
 ---
 # <a name="create-segments"></a>Création de segments
 Vous pouvez créer des segments pour sélectionner un groupe contacts, par exemple pour créer une interaction concernant plusieurs contacts, comme un courrier direct.
 
 ## <a name="to-create-a-segment"></a>Pour créer un segment
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Segments** , puis sélectionnez le lien associé.
-2. Sélectionnez l’action **Nouveau** .
-3. Dans la section **Général** , dans le champ **N°** , saisissez le numéro du segment.
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Segments**, puis sélectionnez le lien associé.
+2. Sélectionnez l’action **Nouveau**.
+3. Dans la section **Général**, dans le champ **N°**, saisissez le numéro du segment.
 
-    Sinon, si vous avez configuré une souche de numéros pour les segments sur la page **Paramètres marketing** , vous pouvez appuyer sur Entrée pour sélectionner le prochain numéro de segment disponible.
+    Sinon, si vous avez configuré une souche de numéros pour les segments sur la page **Paramètres marketing**, vous pouvez appuyer sur Entrée pour sélectionner le prochain numéro de segment disponible.
 4. Renseignez les autres champs sur cet en-tête.
 
 Vous pouvez désormais ajouter des contacts au segment. Pour plus d’informations, reportez-vous à [Ajouter des contacts à des segments](marketing-add-contact-segment.md).
@@ -35,4 +35,4 @@ Vous pouvez désormais ajouter des contacts au segment. Pour plus d’informatio
 ## <a name="see-also"></a>Voir aussi
 [Gestion des segments](marketing-segments.md)  
 [Gestion des opportunités de ventes](marketing-manage-sales-opportunities.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

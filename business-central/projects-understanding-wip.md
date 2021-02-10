@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: work in process, work in progress, calculate project WIP
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8b2cebfbee991bcb9aa9c9bebe9e9112a024c429
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8d23cd7ca8badf10bc8c734d84b5142d34ad4362
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918953"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748833"
 ---
 # <a name="understanding-wip-methods"></a>Comprendre les méthodes TEC
 Au fur et à mesure de la progression du projet, les matières, ressources et autres frais sont consommés et doivent être validés dans le projet. La fonctionnalité Travaux en cours (TEC) permet d’estimer la valeur financière des projets dans la comptabilité au cours des projets. Dans de nombreux cas, vous pouvez valider les frais pour un projet avant de le facturer. Lorsque seuls les frais sont validés, l’état financier est incorrect.
 
 Pour effectuer le suivi de la valeur dans la comptabilité, vous pouvez calculer les TEC et valider la valeur en comptabilité. Pour plus d’informations, voir [Surveiller la progression et les performances](projects-how-monitor-progress-performance.md).
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge les méthodes suivantes pour calculer et enregistrer la valeur des travaux en cours.
+[!INCLUDE[prod_short](includes/prod_short.md)] prend en charge les méthodes suivantes pour calculer et enregistrer la valeur des travaux en cours.
 
 | Méthode TEC | Formule de calcul | Description du calcul |
 | --- | --- | --- |
@@ -39,4 +39,4 @@ Pour effectuer le suivi de la valeur dans la comptabilité, vous pouvez calculer
 [Finances](finance.md)  
 [Achats](purchasing-manage-purchasing.md)         
 [Ventes](sales-manage-sales.md)      
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

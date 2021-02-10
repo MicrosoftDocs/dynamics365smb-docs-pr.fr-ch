@@ -1,6 +1,6 @@
 ---
 title: Détails de conception - Évaluation du stock | Microsoft Docs
-description: Inventory valuation XE L’évaluation du stock est la détermination du coût qui est affecté à un article du stock, comme exprimé par l’équation suivante.
+description: L’évaluation du stock est la détermination du coût d’un article de stock.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,24 +10,24 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 15ad8d52508148449fcb82c8c4b3b5b3c42b8443
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ad2698338f717541665cc5b53f6196c02f694562
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913703"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751445"
 ---
 # <a name="design-details-inventory-valuation"></a>Détails de conception : évaluation du stock
-Inventory valuation XE L’évaluation du stock est la détermination du coût qui est affecté à un article du stock, comme exprimé par l’équation suivante.  
+L’évaluation du stock est la détermination du coût qui est affecté à un article du stock, comme exprimé par l’équation suivante.  
 
 Fin inventaire = Début inventaire + achats nets – coût des biens vendus  
 
-Le calcul de l’évaluation du stock utilise le champ **Coût total (réel)** des écritures valeur pour l’article. Les écritures sont classées en fonction du type d’écriture XE « Type d’écriture » correspondant aux composants de coût, au coût direct, au coût indirect, à l’écart, à la réévaluation et à l’arrondi de coût. Pour plus d’informations, voir [Détails de conception : composants des coûts](design-details-cost-components.md).  
+Le calcul de l’évaluation du stock utilise le champ **Coût total (réel)** des écritures valeur pour l’article. Les écritures sont classées en fonction du type d’écriture correspondant aux composants de coût, au coût direct, au coût indirect, à l’écart, à la réévaluation et à l’arrondi de coût. Pour plus d’informations, voir [Détails de conception : composants des coûts](design-details-cost-components.md).  
 
-Les entrées sont lettrées les unes en fonction des autres, soit par un lettrage fixe XE « Lettrage ; fixe », soit en fonction du principe général coût-flux défini par le mode d’évaluation du stock XE « Méthode ; Évaluation stock » XE « Mode évaluation stock ». Une écriture de sortie de stock peut être lettrée avec plusieurs écritures d’entrée avec des dates comptabilisation différentes et éventuellement différents coûts d’acquisition XE « Coût acquisition ». Pour plus d’informations, voir [Détails de conception : traçabilité](design-details-item-application.md). Par conséquent, le calcul de la valeur de stock XE « Valeur de stock » d’une date donnée est basée sur l’ajout des écritures valeur positives et négatives.  
+Les entrées sont lettrées les unes en fonction des autres, soit par un lettrage fixe, soit en fonction du principe général coût-flux défini par le mode d’évaluation du stock. Une écriture de sortie de stock peut être lettrée avec plusieurs écritures d’entrée avec des dates comptabilisation différentes et éventuellement différents coûts d’acquisition. Pour plus d’informations, voir [Détails de conception : traçabilité](design-details-item-application.md). Par conséquent, le calcul de la valeur de stock d’une date donnée est basée sur l’ajout des écritures valeur positives et négatives.  
 
 ## <a name="inventory-valuation-report"></a>État Évaluation du stock  
-Pour calculer la valeur du stock dans le rapport **Évaluation du stock** , le rapport commence par calculer la valeur de stock de l’article à une date de début donnée. Il ajoute la valeur des entrées de stock et soustrait la valeur des sorties de stock jusqu’à une date fin donnée. Le résultat final est la valeur stock à la date fin. L’état calcule ces valeurs en additionnant les valeurs dans le champ **Coût total (réel)** dans les écritures valeur, à l’aide des dates comptabilisation en tant que filtres.  
+Pour calculer la valeur du stock dans le rapport **Évaluation du stock**, le rapport commence par calculer la valeur de stock de l’article à une date de début donnée. Il ajoute la valeur des entrées de stock et soustrait la valeur des sorties de stock jusqu’à une date fin donnée. Le résultat final est la valeur stock à la date fin. L’état calcule ces valeurs en additionnant les valeurs dans le champ **Coût total (réel)** dans les écritures valeur, à l’aide des dates comptabilisation en tant que filtres.  
 
 L’état imprimé affiche toujours les montants réels, c’est-à-dire le coût des écritures qui ont été validées comme étant facturées. L’état imprime également le coût prévu des écritures validées comme étant réceptionnées ou livrées, si vous sélectionnez le champ Inclure coûts prévus sur le raccourci Options.  
 
@@ -58,4 +58,4 @@ L’objectif de l’évaluation du stock TEC est de déterminer la valeur des ar
 [Détails de conception : validation d’ordre de fabrication](design-details-production-order-posting.md)
 [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  
 [Finances](finance.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

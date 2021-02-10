@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: personalize, add-in, extend, customize
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9a9ef59ddec127b8c87dbfb055870ce033fcd01b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ec80608757a8865cdea62af54ceda855e673942a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912611"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747658"
 ---
 # <a name="customize-business-central"></a>Personnaliser Business Central
 Il existe différentes méthodes pour personnaliser l’application, afin de donner à vous et vos collègues l’accès aux fonctions, fonctionnalités et données dont vous avez le plus besoin, de la manière la mieux adaptée à vos opérations quotidiennes. L’accessibilité aux modifications dépend de ce que vous faites, comme décrit dans ce tableau.
@@ -31,9 +31,9 @@ Il existe différentes méthodes pour personnaliser l’application, afin de don
 |Activez les couleurs sur les Tableaux de bord pour signaler l’importance.|Configurez des piles qui apparaissent sur les Tableaux de bord des utilisateurs pour inclure un indicateur qui modifie la couleur en fonction des valeurs dans les piles.|Tous les utilisateurs d’une société spécifique.|[Configurer un indicateur coloré sur des piles](admin-how-set-up-colored-indicator-on-cues.md)|
 |Installer une extension|Les extensions sont comme de petites applications qui ajoutent des fonctionnalités, modifient le comportement, donnent accès à de nouveaux services en ligne, etc. Par exemple, Microsoft propose une extension qui fournit une intégration à PayPal Payments Standard.|Tous les utilisateurs de toutes les sociétés.|[Personnalisation à l’aide d’extensions](ui-extensions.md)|
 > [!NOTE]
-> Tous les descriptions de fonctions de la documentation utilisateur de [!INCLUDE[d365fin](includes/d365fin_md.md)] assument l’expérience **Premium** , ce qui signifie que les descriptions couvrent la portée complète des éléments de l’interface utilisateur. Par conséquent, les utilisateurs avec l’expérience **Essentiel** peuvent dans certaines rubriques rencontrer des fonctionnalités et des éléments de l’interface utilisateur qui ne sont pas visibles dans leur interface utilisateur. Pour plus d’informations, voir [Modifier les fonctionnalités affichées](ui-experiences.md).
+> Tous les descriptions de fonctions de la documentation utilisateur de [!INCLUDE[prod_short](includes/prod_short.md)] assument l’expérience **Premium**, ce qui signifie que les descriptions couvrent la portée complète des éléments de l’interface utilisateur. Par conséquent, les utilisateurs avec l’expérience **Essentiel** peuvent dans certaines rubriques rencontrer des fonctionnalités et des éléments de l’interface utilisateur qui ne sont pas visibles dans leur interface utilisateur. Pour plus d’informations, voir [Modifier les fonctionnalités affichées](ui-experiences.md).
 
 ## <a name="see-also"></a>Voir aussi
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

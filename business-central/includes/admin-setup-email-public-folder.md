@@ -4,12 +4,12 @@ ms.service: dynamics365-accountant
 ms.topic: include
 ms.date: 10/02/2020
 ms.author: edupont
-ms.openlocfilehash: a62a1a628f22ff47fa86a64a72f5b1834960dc72
-ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
+ms.openlocfilehash: 1b9f60eab5b0bcf812343e82389087ac5535301a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3931286"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749795"
 ---
 Avant de pouvoir configurer la connexion à la messagerie, vous devez préparer votre Exchange Online avec [dossiers publics](/exchange/collaboration/public-folders/public-folders?view=exchserver-2019&preserve-view=true ). Vous pouvez le faire dans le [Centre d’administration Exchange](/Exchange/architecture/client-access/exchange-admin-center?view=exchserver-2019&preserve-view=true ), ou vous pouvez utiliser le [shell de gestion Exchange](/powershell/exchange/exchange-management-shell?view=exchange-ps&preserve-view=true ).  
 
@@ -53,7 +53,7 @@ La liste suivante décrit les principales étapes avec des liens pour en savoir 
 
   Pour plus d’informations, voir [Autoriser les utilisateurs anonymes à envoyer des e-mails vers un dossier public à messagerie activée](/exchange/collaboration/public-folders/mail-enable-or-disable#allow-anonymous-users-to-send-email-to-a-mail-enabled-public-folder?view=exchserver-2019&preserve-view=true)
 
-- Définissez l’utilisateur de connexion à la messagerie en tant que propriétaire des deux dossiers publics, *File d’attente* et *Stockage* , à l’aide d’Outlook ou du shell de gestion Exchange en fonction des informations de la table suivante :
+- Définissez l’utilisateur de connexion à la messagerie en tant que propriétaire des deux dossiers publics, *File d’attente* et *Stockage*, à l’aide d’Outlook ou du shell de gestion Exchange en fonction des informations de la table suivante :
 
   |Propriété        |Valeur                     |
   |----------------|--------------------------|
@@ -66,10 +66,10 @@ La liste suivante décrit les principales étapes avec des liens pour en savoir 
 
   |Objet  |Name |Conditions                        |Action                                       |
   |---------|-----|----------------------------------|---------------------------------------------|
-  |Une règle pour les e-mails entrants |Consigner les e-mails envoyés à cette organisation|*L’expéditeur* est situé *En dehors de l’organisation* , et *le destinataire* est situé *Au sein de l’organisation*|Cci le compte de messagerie spécifié pour le dossier public *File d’attente*|
-  |Une règle pour les e-mails sortants | Consigner les e-mails envoyés à partir de cette organisation |*L’expéditeur* est situé *Au sein de l’organisation* , et *le destinataire* est situé *En dehors de l’organisation*|Cci le compte de messagerie spécifié pour le dossier public *File d’attente*|
+  |Une règle pour les e-mails entrants |Consigner les e-mails envoyés à cette organisation|*L’expéditeur* est situé *En dehors de l’organisation*, et *le destinataire* est situé *Au sein de l’organisation*|Cci le compte de messagerie spécifié pour le dossier public *File d’attente*|
+  |Une règle pour les e-mails sortants | Consigner les e-mails envoyés à partir de cette organisation |*L’expéditeur* est situé *Au sein de l’organisation*, et *le destinataire* est situé *En dehors de l’organisation*|Cci le compte de messagerie spécifié pour le dossier public *File d’attente*|
   
   Pour plus d’informations, voir [Gérer les règles de flux de messagerie dans Exchange Online](/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules) et [Actions des règles de flux de messagerie dans Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions).
 
 > [!NOTE]
-> Si vous apportez des modifications dans le shell de gestion Exchange, les modifications deviennent visibles dans le centre d’administration Exchange après un certain délai. De plus, les modifications apportées dans Exchange seront disponibles dans [!INCLUDE[prodshort](prodshort.md)] après un délai.
+> Si vous apportez des modifications dans le shell de gestion Exchange, les modifications deviennent visibles dans le centre d’administration Exchange après un certain délai. De plus, les modifications apportées dans Exchange seront disponibles dans [!INCLUDE[prod_short](prod_short.md)] après un délai.

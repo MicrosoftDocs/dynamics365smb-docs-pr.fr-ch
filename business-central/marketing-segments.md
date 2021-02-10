@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 5782a49732550d6f8ffc516634a4b45ec7e22e6d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5fe1054825058c30e0a26e11e258804e7256bfcb
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923585"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749845"
 ---
 # <a name="managing-segments"></a>Gestion des segments
 Vous pouvez créer des segments qui vous permettent de sélectionner un groupe de contacts en fonction de critères spécifiques. Par exemple, un segment peut être le secteur auquel les contacts appartiennent ou votre relation d’affaires avec les contacts. Vous pouvez créer un segment pour sélectionner les contacts ciblés par une campagne.
@@ -38,4 +38,4 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 ## <a name="see-also"></a>Voir aussi
 [Gestion des opportunités de ventes](marketing-manage-sales-opportunities.md)  
 [Gestion de contacts](marketing-contacts.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

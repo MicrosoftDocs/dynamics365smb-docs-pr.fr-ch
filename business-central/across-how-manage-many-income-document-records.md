@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e75dc8824965d3bfdf3c12ba5b0787e9fb066532
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6ff52767bbd0a5661cad2dd80abb20885f3fca6d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919653"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754957"
 ---
 # <a name="manage-many-incoming-document-records"></a>Gérer de nombreux enregistrements document entrant
-Lors de la création ou du traitement des enregistrements document, le nombre de lignes sur la page **Documents entrants** peut croître de telle façon que vous perdez la vue d’ensemble. Par conséquent, vous pouvez définir les enregistrements de documents entrants sur Traité afin de les supprimer de la vue par défaut. Lorsque vous choisissez l’action **Afficher tout** , vous pouvez afficher les enregistrements traités et non traités.
+Lors de la création ou du traitement des enregistrements document, le nombre de lignes sur la page **Documents entrants** peut croître de telle façon que vous perdez la vue d’ensemble. Par conséquent, vous pouvez définir les enregistrements de documents entrants sur Traité afin de les supprimer de la vue par défaut. Lorsque vous choisissez l’action **Afficher tout**, vous pouvez afficher les enregistrements traités et non traités.
 
 > [!NOTE]  
 >   Vous ne pouvez pas modifier les informations, joindre des fichiers, ni exécuter d’autres processus sur des enregistrements de documents entrants définis à Traité. Vous devez d’abord définir le paramètre à Non traité.
@@ -31,29 +31,29 @@ La case **Traité** est automatiquement cochée sur les champ est sélectionné 
 >   Lorsque vous ouvrez la page **Documents entrants** avec l’action **Mes documents entrants** sur le Tableau de bord, seuls les enregistrements de documents entrants non traités sont affichés par défaut. Dans cette rubrique, il s’agit de « la vue par défaut ».
 
 ## <a name="to-remove-incoming-document-records-from-the-default-view"></a>Pour supprimer les enregistrements de documents entrants de la vue par défaut
-1. Sur la page **Documents entrants** , sélectionnez une ou plusieurs lignes pour les enregistrements de documents entrants que vous souhaitez supprimer de la vue par défaut.
-2. Sélectionnez l’action **Défini sur Traité** .
+1. Sur la page **Documents entrants**, sélectionnez une ou plusieurs lignes pour les enregistrements de documents entrants que vous souhaitez supprimer de la vue par défaut.
+2. Sélectionnez l’action **Défini sur Traité**.
 
     Les enregistrements de documents entrants sont supprimés de la vue par défaut, et la case **Traité** est sélectionnée sur les lignes correspondantes.
 
 > [!NOTE]  
->   Vous pouvez également effectuer cette action pour un enregistrement spécifique sur la page **Fiche document entrant** .
+>   Vous pouvez également effectuer cette action pour un enregistrement spécifique sur la page **Fiche document entrant**.
 
 ## <a name="to-view-all-incoming-document-records"></a>Pour afficher tous les enregistrements de documents entrants
-1. Sur la page **Documents entrants** , sélectionnez l’action **Afficher tout** .
+1. Sur la page **Documents entrants**, sélectionnez l’action **Afficher tout**.
 
 Tous les enregistrements de documents entrants sont affichés, y compris ceux pour lesquels la case **Traité** n’est pas cochée.
 
 ## <a name="to-add-incoming-document-records-to-the-default-view"></a>Pour ajouter des enregistrements de documents entrants à la vue par défaut
-1. Sur la page **Documents entrants** , sélectionnez l’action **Afficher tout** .
+1. Sur la page **Documents entrants**, sélectionnez l’action **Afficher tout**.
 2. Sélectionnez un ou plusieurs lignes pour les enregistrements de documents entrants que vous souhaitez voir apparaître dans la vue par défaut.
-3. Sélectionnez l’action **Défini sur Non traité** .  
+3. Sélectionnez l’action **Défini sur Non traité**.  
 
 > [!NOTE]  
->   Vous pouvez également effectuer cette action pour un enregistrement spécifique sur la page **Fiche document entrant** .
+>   Vous pouvez également effectuer cette action pour un enregistrement spécifique sur la page **Fiche document entrant**.
 
 ## <a name="see-also"></a>Voir aussi
 [Traiter les documents entrants](across-process-income-documents.md)  
 [Documents entrants](across-income-documents.md)  
 [Achats](purchasing-manage-purchasing.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

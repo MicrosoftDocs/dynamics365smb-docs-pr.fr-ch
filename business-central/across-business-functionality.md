@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: feature overview
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d1988bd3bbd9424f48431927dd6416eab636adf1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 622e9833af12db9cecdb09f4358d5c7716bbb994
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914429"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753532"
 ---
 # <a name="business-functionality"></a>Fonctionnalités d’entreprise
-[!INCLUDE[d365fin](includes/d365fin_md.md)] fournit des fonctionnalités pour les processus entreprise communs dans des PME, surtout au sein de sociétés de vente en gros et de services professionnels. Toutefois, des processus plus complexes, comme l’assemblage, la fabrication, la maintenance et la gestion d’entrepôt suggérée sont également pris en charge.
+[!INCLUDE[prod_short](includes/prod_short.md)] fournit des fonctionnalités pour les processus entreprise communs dans des PME, surtout au sein de sociétés de vente en gros et de services professionnels. Toutefois, des processus plus complexes, comme l’assemblage, la fabrication, la maintenance et la gestion d’entrepôt suggérée sont également pris en charge.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] comprend des configurations standard pour la plupart des processus entreprise, mais vous pouvez modifier la configuration pour l’adapter aux besoins de votre activité. À partir de votre tableau de bord, vous pouvez accéder aux guides de configuration assistée qui vous permettent de configurer certains scénarios et d’ajouter des fonctionnalités à [!INCLUDE[d365fin](includes/d365fin_md.md)]. Plusieurs modules de fonctionnalités d’entreprise doivent être créés manuellement. Pour plus d’informations, reportez-vous à [Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] comprend des configurations standard pour la plupart des processus entreprise, mais vous pouvez modifier la configuration pour l’adapter aux besoins de votre activité. À partir de votre tableau de bord, vous pouvez accéder aux guides de configuration assistée qui vous permettent de configurer certains scénarios et d’ajouter des fonctionnalités à [!INCLUDE[prod_short](includes/prod_short.md)]. Plusieurs modules de fonctionnalités d’entreprise doivent être créés manuellement. Pour plus d’informations, reportez-vous à [Configuration de [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
 
 | À | Voir |
 | --- | --- |
@@ -40,12 +40,12 @@ ms.locfileid: "3914429"
 |Planifier des appels de service et configurer des commandes service et assurer le suivi des pièces et fournitures de réparation.|[Gestion des services](service-service.md)|
 |Configurez et utilisez des workflows qui connectent des tâches exécutées par différents utilisateurs ou par le système, telles que la validation automatique. Demander et accorder une approbation pour créer ou valider des documents sont des étapes classiques du workflow.|[Flux de travail](across-workflow.md)|
 |Activez des utilisateurs pour l’échange de données avec des sources externes lors de tâches quotidiennes, telles que les envoyer/recevoir des documents électroniques, importer/exporter des fichiers bancaires, et mettre à jour des taux de change des devises.|[Échanger des données par voir électronique](across-data-exchange.md)|
-|Enregistrez des documents externes dans [!INCLUDE[d365fin](includes/d365fin_md.md)], ainsi que leurs fichiers joints, puis créez manuellement des documents connexes ou convertissez automatiquement les fichiers en documents électroniques.|[Documents entrants](across-income-documents.md)|
+|Enregistrez des documents externes dans [!INCLUDE[prod_short](includes/prod_short.md)], ainsi que leurs fichiers joints, puis créez manuellement des documents connexes ou convertissez automatiquement les fichiers en documents électroniques.|[Documents entrants](across-income-documents.md)|
 
 ## <a name="see-also"></a>Voir aussi
 
 [Explorer les fonctionnalités de Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/)  
 [Administration](admin-setup-and-administration.md)  
-[Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+[Configuration de [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Mise en route](product-get-started.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

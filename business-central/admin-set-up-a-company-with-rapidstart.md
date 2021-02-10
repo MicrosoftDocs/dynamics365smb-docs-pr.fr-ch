@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 643c47864971dc350e3c82345064cdb8f6e42121
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: aeb436516d2f6d389b6d8b6489e63ac1ad925aae
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917766"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755182"
 ---
 # <a name="setting-up-a-company-with-rapidstart-services"></a>Configuration d'une société avec RapidStart Services
-Vous pouvez configurer une nouvelle société dans [!INCLUDE[d365fin](includes/d365fin_md.md)] avec RapidStart Services, qui est un outil conçu pour réduire les temps de déploiement, améliorer la qualité de l’implémentation, présenter une approche reproductible des implémentations et augmenter la productivité en automatisant et en simplifiant des tâches récurrentes.  
+Vous pouvez configurer une nouvelle société dans [!INCLUDE[prod_short](includes/prod_short.md)] avec RapidStart Services, qui est un outil conçu pour réduire les temps de déploiement, améliorer la qualité de l’implémentation, présenter une approche reproductible des implémentations et augmenter la productivité en automatisant et en simplifiant des tâches récurrentes.  
 
 RapidStart Services permet d’obtenir une vue d’ensemble du processus de configuration de votre nouvelle société grâce à une feuille dans laquelle vous pouvez configurer les tables souvent impliquées dans le processus de configuration de nouvelles sociétés. Comme vous effectuez cela, vous pouvez créer un questionnaire pour guider vos clients par le biais de la collecte des informations de configuration. Les clients peuvent choisir d’utiliser le questionnaire pour configurer des modules ou d’ouvrir la page de configuration directement et d'y effectuer la configuration. Chose plus importante, RapidStart Services vous aide, en tant que client, à mettre en place la société à l’aide de données de configuration par défaut que vous pouvez ajuster et personnaliser. Pour terminer, lorsque vous utilisez RapidStart Services, vous pouvez configurer et migrer les données des clients existants, par exemple la liste des clients ou des articles, vers la nouvelle société.
 
@@ -31,7 +31,7 @@ Vous pouvez utiliser les composants suivants pour accélérer la configuration d
 -   Questionnaire de configuration  
 
 > [!Note]  
->  Vous devez configurer manuellement d’autres zones de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Celles-ci incluent l’ajout d’utilisateurs, la configuration de périodes comptables et la configuration d’axes analytiques pour la veille économique. Pour plus d'informations, reportez-vous à [Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
+>  Vous devez configurer manuellement d’autres zones de [!INCLUDE[prod_short](includes/prod_short.md)]. Celles-ci incluent l’ajout d’utilisateurs, la configuration de périodes comptables et la configuration d’axes analytiques pour la veille économique. Pour plus d'informations, reportez-vous à [Configuration de [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
 
  Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.
 
@@ -41,11 +41,11 @@ Vous pouvez utiliser les composants suivants pour accélérer la configuration d
 |Déployer le package configuré vers votre client pour l'implémentation.|[Appliquer des configurations aux nouvelles sociétés](admin-apply-configuration-to-new-companies.md)|
 |Définir et valider les valeurs de configuration de votre client pour toutes les zones de base, telles que les informations sur la société, la comptabilité, le stock, les ventes ou la fabrication.|[Collecter les valeurs de configuration client](admin-gather-customer-setup-values.md)|  
 |Configurer les enregistrements de données de base à l'aide de modèles pour préparer la migration des données client existantes.|[Préparer la migration des données client](admin-use-templates-to-prepare-customer-data-for-migration.md)|  
-|Définir les tables et les champs, valider les données client existantes et migrer les données vers la base de données [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Migrer des données client](admin-migrate-customer-data.md)|
+|Définir les tables et les champs, valider les données client existantes et migrer les données vers la base de données [!INCLUDE[prod_short](includes/prod_short.md)].|[Migrer des données client](admin-migrate-customer-data.md)|
 |Préparer à réutiliser des configurations d'entreprise dans d'autres sociétés.|[Créer des packages configuration de société personnalisés](admin-how-to-create-custom-company-configuration-packages.md)|
 |Rechercher des solutions aux problèmes connus dans le kit d’outils RapidStart Services.|[Conseils : RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)|  
 
 ## <a name="see-also"></a>Voir aussi  
 [Administration](admin-setup-and-administration.md)  
-[Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+[Configuration de [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Configurer des domaines d'application complexes à l'aide des meilleures pratiques](set-up-complex-application-areas-using-best-practices.md)   

@@ -12,44 +12,44 @@ ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect, contact, client, customer
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 68a62afd8ca154f8a5270899fe458a6841407000
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 14fcd5059bf270a3845cf9f96762c424c372323c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922859"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749895"
 ---
 # <a name="add-contacts-to-segments"></a>Ajouter des contacts à des segments
 Lorsque vous avez créé un segment et saisi les informations de base le concernant, vous pouvez être amené à ajouter des contacts au segment. Pour ce faire, vous pouvez renseigner manuellement les lignes de la page **Segment** ou utiliser l’action **Ajouter contacts** (plus simple et plus rapide).
 
 ## <a name="to-add-a-contact-to-a-segment"></a>Pour ajouter un contact à un segment
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Segments** , puis sélectionnez le lien associé.  
-2. Sélectionnez le segment, puis sélectionnez l’action **Ajouter contacts** . La page de traitement par lots **Ajouter contacts** s’affiche.
-3. Dans la section **Contact** , définissez les filtres spécifiant les informations en fonction desquelles vous souhaitez sélectionner des contacts.
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Segments**, puis sélectionnez le lien associé.  
+2. Sélectionnez le segment, puis sélectionnez l’action **Ajouter contacts**. La page de traitement par lots **Ajouter contacts** s’affiche.
+3. Dans la section **Contact**, définissez les filtres spécifiant les informations en fonction desquelles vous souhaitez sélectionner des contacts.
 
-Pour entrer des filtres supplémentaires, répétez cette procédure pour chacune des autres sections, puis cliquez sur le bouton **OK** .
+Pour entrer des filtres supplémentaires, répétez cette procédure pour chacune des autres sections, puis cliquez sur le bouton **OK**.
 
-Si vous avez ajouté des contacts par erreur et que vous souhaitez revenir à l’étape précédente, sélectionnez l’action **Annuler dernière action** .
+Si vous avez ajouté des contacts par erreur et que vous souhaitez revenir à l’étape précédente, sélectionnez l’action **Annuler dernière action**.
 
 ## <a name="to-refine-the-number-of-contacts"></a>Pour redéfinir le nombre de contacts
-Vous pouvez supprimer uniquement les contacts sélectionnés dans un segment. Vous pouvez supprimer manuellement des contacts des lignes de la page **Segment** mais il est plus simple et plus rapide d’utiliser l’action **Redéfinir les contacts** .
+Vous pouvez supprimer uniquement les contacts sélectionnés dans un segment. Vous pouvez supprimer manuellement des contacts des lignes de la page **Segment** mais il est plus simple et plus rapide d’utiliser l’action **Redéfinir les contacts**.
 
 1. Ouvrez le segment.
-2. Sélectionnez **Contacts** , puis sélectionnez l’action **Redéfinir les contacts** . La page **Redéfinir les contacts** s’affiche.
-3. Dans la section **Contact** , sélectionnez les champs à utiliser pour la sélection des contacts à supprimer du segment.
-4. Ajoutez des filtres supplémentaires au besoin, et cliquez ensuite sur le bouton **OK** .
+2. Sélectionnez **Contacts**, puis sélectionnez l’action **Redéfinir les contacts**. La page **Redéfinir les contacts** s’affiche.
+3. Dans la section **Contact**, sélectionnez les champs à utiliser pour la sélection des contacts à supprimer du segment.
+4. Ajoutez des filtres supplémentaires au besoin, et cliquez ensuite sur le bouton **OK**.
 
 Vous pouvez redéfinir un segment aussi souvent que vous le souhaitez. Cliquez sur **Annuler dernière action** si vous avez redéfini un segment par erreur et que vous souhaitez revenir à l’étape précédente.
 
-Pour afficher la liste des critères segment utilisés, dans la section **Général** , sélectionnez le champ **Nbre d’actions du critère** .
+Pour afficher la liste des critères segment utilisés, dans la section **Général**, sélectionnez le champ **Nbre d’actions du critère**.
 
 ## <a name="to-reduce-the-number-of-contacts"></a>Pour réduire le nombre de contacts
 Vous pouvez supprimer les contacts sélectionnés dans un segment. Vous pouvez les supprimer manuellement des lignes de la page Segment, mais il est plus simple et plus rapide d’utiliser la fonction Réduire les contacts afin de spécifier les contacts à supprimer, puis la fonction Redéfinir les contacts pour spécifier les contacts à conserver.
 
 1. Ouvrez le segment.
-2. Sélectionnez Contacts, puis **Réduire les contacts** . La page **Réduire les contacts** s’affiche.
-3. Dans la section **Contact** , sélectionnez les champs à utiliser pour la sélection des contacts à supprimer du segment.
-4. Ajoutez des filtres supplémentaires au besoin, et cliquez ensuite sur le bouton **OK** .
+2. Sélectionnez Contacts, puis **Réduire les contacts**. La page **Réduire les contacts** s’affiche.
+3. Dans la section **Contact**, sélectionnez les champs à utiliser pour la sélection des contacts à supprimer du segment.
+4. Ajoutez des filtres supplémentaires au besoin, et cliquez ensuite sur le bouton **OK**.
 
 Vous pouvez réduire un segment aussi souvent que vous le souhaitez. Sélectionnez l’action **Annuler dernière action** si vous avez redéfini un segment par erreur et que vous souhaitez revenir à l’étape précédente.
 
@@ -57,4 +57,4 @@ Vous pouvez réduire un segment aussi souvent que vous le souhaitez. Sélectionn
 [Créer un segment](marketing-how-create-segment.md)   
 [Gestion des segments](marketing-segments.md)  
 [Gestion des opportunités de ventes](marketing-manage-sales-opportunities.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: direct posting, general ledger
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 84b6c80131662675df1117bcb771aaa0ee9553c1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 72e2851ee60d6cb79f722d12e16ddcb30e95fdbe
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914329"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746956"
 ---
 # <a name="post-transactions-directly-to-the-general-ledger"></a>Valider les transactions directement vers la comptabilité
 
@@ -29,7 +29,7 @@ Contrairement aux écritures qui sont validées avec des documents qui nécessit
 
 ## <a name="to-post-a-transaction-directly-to-a-general-ledger-account"></a>Pour valider une transaction directement vers la comptabilité
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles comptabilité** , puis sélectionnez le lien associé.
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles comptabilité**, puis sélectionnez le lien associé.
 2. Ouvrez la feuille comptabilité appropriée. Pour plus d’informations, voir [Utilisation des feuilles comptabilité](ui-work-general-journals.md).
 3. Sur une nouvelle ligne feuille, renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]    
 
@@ -38,7 +38,7 @@ Contrairement aux écritures qui sont validées avec des documents qui nécessit
 4. Répétez l’étape 3 pour toutes les transactions distinctes que vous souhaitez valider.
 
     > [!TIP]  
-    > Si vous souhaitez saisir les lignes de transaction au-dessus d’une ligne compte contrepartie, par exemple, pour un compte bancaire, activez la case à cocher **Suggérer le montant contrepartie** de la ligne pour votre lot sur la page **Noms feuilles comptabilité** . Puis le champ **Montant** de la ligne compte contrepartie est automatiquement prérempli avec la valeur requise pour équilibrer les transactions.
+    > Si vous souhaitez saisir les lignes de transaction au-dessus d’une ligne compte contrepartie, par exemple, pour un compte bancaire, activez la case à cocher **Suggérer le montant contrepartie** de la ligne pour votre lot sur la page **Noms feuilles comptabilité**. Puis le champ **Montant** de la ligne compte contrepartie est automatiquement prérempli avec la valeur requise pour équilibrer les transactions.
 5. Choisissez l’action **Valider** pour enregistrer les transactions sur les comptes généraux spécifiés.
 
 ## <a name="see-also"></a>Voir aussi
@@ -47,4 +47,4 @@ Contrairement aux écritures qui sont validées avec des documents qui nécessit
 [Enregistrer et rembourser les frais des employés](finance-how-record-reimburse-employee-expenses.md)  
 [Inversion d’une validation feuille et annuler les réceptions/envois](finance-how-reverse-journal-posting.md)  
 [Finances](finance.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

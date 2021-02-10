@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: planning, design
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d7eddf4c988c6edc3ae1a0dbfd045fa7b4f5b4b4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b041eb6c573c9f50b09eb741ee2ceead154f8161
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922009"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751295"
 ---
 # <a name="design-details-planning-parameters"></a>Détails de conception : paramètres de planification
-Cette rubrique décrit les différents paramètres de planification que vous pouvez utiliser dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Cette rubrique décrit les différents paramètres de planification que vous pouvez utiliser dans [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 La façon dont le système de planification contrôle l’approvisionnement d’article est déterminée par divers paramètres de la fiche article ou du point de stock, et des paramètres dans la configuration de la production. Le tableau suivant montre comment ces paramètres sont utilisés pour la planification.  
 
@@ -37,14 +37,14 @@ Pour inclure un article/point de stock dans le processus de planification, il do
 ## <a name="define-when-to-reorder"></a>Définir la date de réapprovisionnement  
 Les propositions de commande sont généralement lancées seulement lorsque la quantité disponible prévue est inférieure à une certaine quantité donnée. Cette quantité est définie par le point de commande. Sinon, elle est égale à zéro. Zéro peut être ajusté en saisissant une quantité de stock de sécurité. Si l’utilisateur a défini un délai de sécurité, la proposition sera livrée dans la période précédant la date d’échéance demandée.  
 
-Le champ **Intervalle de planification** est utilisé par les stratégies de point de commande ( **Qté fixe de commande** et **Qté maximum** ), où le niveau de stock est vérifié après chaque intervalle de planification. Le premier intervalle de planification débute à la date de début de la planification.  
+Le champ **Intervalle de planification** est utilisé par les stratégies de point de commande (**Qté fixe de commande** et **Qté maximum**), où le niveau de stock est vérifié après chaque intervalle de planification. Le premier intervalle de planification débute à la date de début de la planification.  
 
 > [!NOTE]  
->  Lors du calcul des intervalles de planification, le système de planification ignore les calendriers de travail définis dans le champ **Code calendrier principal** des pages **Informations société** et **Fiche magasin** .  
+>  Lors du calcul des intervalles de planification, le système de planification ignore les calendriers de travail définis dans le champ **Code calendrier principal** des pages **Informations société** et **Fiche magasin**.  
 
 Le délai de sécurité par défaut, sur la page **Paramètres production** doit être défini à au moins un jour. La date d’échéance de la demande peut être connue, mais pas l’heure d’échéance. La planification planifie en amont pour répondre à la demande brute et, si aucun délai de sécurité n’est défini, les marchandises peuvent arriver trop tard pour répondre à la demande.  
 
-Trois champs de période de réapprovisionnement supplémentaires, **Période de replanification** , **Période de groupement de lots** et **Période tampon** , jouent également un rôle en définissant quand commander à nouveau. Pour plus d’informations, reportez-vous [Optimiser le délai et la quantité de commande](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
+Trois champs de période de réapprovisionnement supplémentaires, **Période de replanification**, **Période de groupement de lots** et **Période tampon**, jouent également un rôle en définissant quand commander à nouveau. Pour plus d’informations, reportez-vous [Optimiser le délai et la quantité de commande](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
 
 ## <a name="define-how-much-to-reorder"></a>Définir la quantité à réapprovisionner  
 Si le système de planification détecte un besoin de réapprovisionnement, la méthode de réapprovisionnement sélectionnée est utilisée pour déterminer quand et combien commander.  
@@ -57,7 +57,7 @@ Indépendamment de la méthode de réapprovisionnement, le système de planifica
 4. S’il y a plus de demande brute due avant la date de fin de la proposition commande planifiée en aval, et si cette demande amène le stock disponible projeté calculé actuellement en dessous du stock de sécurité, la quantité commandée est augmentée pour compenser le déficit. La commande approvisionnement suggérée est alors planifiée en amont à partir de la date d’échéance de la demande brute qui aurait entamé le stock de sécurité.  
 5. Si le champ **Intervalle de planification** n’est pas renseigné, seule la demande brute à la même date d’échéance sera ajoutée.  
 
-     Les champs de période de réapprovisionnement suivants jouent également un rôle dans la définition de la quantité à réapprovisionner : **Période de replanification** , **Période de groupement de lots** et **Période tampon** . Pour plus d’informations, reportez\-vous [Optimiser le délai et la quantité de commande](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
+     Les champs de période de réapprovisionnement suivants jouent également un rôle dans la définition de la quantité à réapprovisionner : **Période de replanification**, **Période de groupement de lots** et **Période tampon**. Pour plus d’informations, reportez\-vous [Optimiser le délai et la quantité de commande](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
 
 ### <a name="reordering-policies"></a>Méthodes de réapprovisionnement  
 Les méthodes de réapprovisionnement suivantes affectent la quantité en cours de réapprovisionnement.  
@@ -78,7 +78,7 @@ Pour obtenir un programme d’approvisionnement rationnel, un gestionnaire régl
 |**Période de groupement de lots**|Avec la méthode de réapprovisionnement lot pour lot, ce champ est utilisé pour regrouper plusieurs besoins d’approvisionnement dans une commande d’approvisionnement. À partir du premier approvisionnement prévu, le système cumule tous les besoins d’approvisionnement dans la période de groupement de lots suivante en un approvisionnement unique, effectuée lors de la date du premier approvisionnement. La demande effectuée en dehors de la période de groupement de lots n’est pas couverte par cet approvisionnement.|  
 |**Période tampon**|Ce champ permet d’éviter une replanification mineure de l’approvisionnement existant dans le temps. Les modifications de la date approvisionnement jusqu’à une période tampon de la date approvisionnement ne génèrent aucun message d’action.<br /><br /> La période tampon désigne la période pendant laquelle vous ne souhaitez pas que le système de planification propose de replanifier les commandes approvisionnement existantes en aval. Cela limite le nombre de replanification non significative de l’approvisionnement existant à une date ultérieure si la date replanifiée se situe dans la période tampon.<br /><br /> Par conséquent, un delta positif entre la nouvelle date d’approvisionnement proposée et la date d’approvisionnement d’origine est toujours supérieur à la période tampon.|  
 > [!NOTE]
-> Avec la politique de réorganisation Lot pour Lot, la valeur du champ **Période de groupement de lots** doit être égal ou supérieur à la valeur du champ **Période tampon** . Sinon, la période d’amortissement sera automatiquement réduite pendant la routine de planification pour correspondre à la période de groupement de lots.  
+> Avec la politique de réorganisation Lot pour Lot, la valeur du champ **Période de groupement de lots** doit être égal ou supérieur à la valeur du champ **Période tampon**. Sinon, la période d’amortissement sera automatiquement réduite pendant la routine de planification pour correspondre à la période de groupement de lots.  
 
 Le temps de la période de replanification, de la période tampon, ainsi que de la période de groupement de lots est basée sur une date d’approvisionnement. L’intervalle de planification est basé sur la date de début de la planification, comme l’indique la figure suivante.  
 
@@ -86,23 +86,23 @@ Le temps de la période de replanification, de la période tampon, ainsi que de 
 
 Dans les exemples suivants, les flèches noires représentent l’approvisionnement existant (vers le haut) et la demande (vers le bas). Les flèches rouge, verte et orange sont des suggestions de planification.  
 
-**Exemple 1**  : la date modifiée est en dehors de la période de replanification, ce qui entraîne l’annulation de l’approvisionnement existant. Un nouvel approvisionnement est proposé pour répondre à la demande dans la période de groupement de lots.  
+**Exemple 1** : la date modifiée est en dehors de la période de replanification, ce qui entraîne l’annulation de l’approvisionnement existant. Un nouvel approvisionnement est proposé pour répondre à la demande dans la période de groupement de lots.  
 
 ![Période de replanification et période de groupement de lots](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Période de replanification et période de groupement de lots")  
 
-**Exemple 2**  : la date modifiée se trouve dans la période de replanification, ce qui entraîne la replanification de l’approvisionnement existant. Un nouvel approvisionnement est proposé pour répondre à la demande hors de la période de groupement de lots.  
+**Exemple 2** : la date modifiée se trouve dans la période de replanification, ce qui entraîne la replanification de l’approvisionnement existant. Un nouvel approvisionnement est proposé pour répondre à la demande hors de la période de groupement de lots.  
 
 ![Période de replanification, période de groupement de lots et replanification](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Période de replanification, période de groupement de lots et replanification")  
 
-**Exemple 3**  : il existe une demande pour la période tampon et la quantité d’approvisionnement dans la période de groupement de lots correspond à la quantité d’approvisionnement. La demande suivante n’est pas couverte et un nouvel approvisionnement est proposé.  
+**Exemple 3** : il existe une demande pour la période tampon et la quantité d’approvisionnement dans la période de groupement de lots correspond à la quantité d’approvisionnement. La demande suivante n’est pas couverte et un nouvel approvisionnement est proposé.  
 
 ![Période tampon et période de groupement de lots](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Période tampon et période de groupement de lots")  
 
-**Exemple 4**  : il existe une demande pour la période tampon et l’approvisionnement reste à la même date. Toutefois, la quantité d’approvisionnement actif n’est pas suffisante pour répondre à la demande dans la période de groupement de lots, donc une action de modification de quantité pour la commande approvisionnement existante est suggérée.  
+**Exemple 4** : il existe une demande pour la période tampon et l’approvisionnement reste à la même date. Toutefois, la quantité d’approvisionnement actif n’est pas suffisante pour répondre à la demande dans la période de groupement de lots, donc une action de modification de quantité pour la commande approvisionnement existante est suggérée.  
 
 ![Période tampon, période de groupement de lots et Modifier la quantité](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Période tampon, période de groupement de lots et Modifier la quantité")  
 
-**Valeurs par défaut :** la valeur par défaut du champ **Intervalle de planification** et des trois champs de période de réapprovisionnement est vide. Pour tous les champs, sauf le champ **Période tampon** , cela signifie 0D (zéro jours). Si le champ **Période tampon** est vide, la valeur globale du champ **Période tampon par défaut** de la page **Paramètres production** sera utilisée.  
+**Valeurs par défaut :** la valeur par défaut du champ **Intervalle de planification** et des trois champs de période de réapprovisionnement est vide. Pour tous les champs, sauf le champ **Période tampon**, cela signifie 0D (zéro jours). Si le champ **Période tampon** est vide, la valeur globale du champ **Période tampon par défaut** de la page **Paramètres production** sera utilisée.  
 
 ## <a name="modify-the-supply-orders"></a>Modifiez les commandes approvisionnement  
 Lorsque la quantité de la proposition de commande a été calculée, un ou plusieurs modificateurs de commande peuvent l’ajuster. Par exemple, la quantité maximum commande est supérieure ou égale à la quantité minimum commande, qui est supérieure ou égale au multiple de commande.  

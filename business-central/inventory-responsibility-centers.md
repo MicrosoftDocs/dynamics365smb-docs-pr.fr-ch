@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/06/2020
+ms.date: 11/03/2020
 ms.author: edupont
-ms.openlocfilehash: 97904add0f97be5a93bec5e53b45179fadfddffb
-ms.sourcegitcommit: 0fb6952376d853a878ed33257e73aadc03b95572
+ms.openlocfilehash: cb9586e207f3eda516d11dd4f184351ff66ca4b2
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3968349"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749970"
 ---
 # <a name="work-with-responsibility-centers"></a>Utiliser les centres de gestion
 
@@ -27,13 +27,13 @@ Des magasins multiples permettent aux sociétés de gérer leur stock dans plusi
 
 ## <a name="to-set-up-a-responsibility-center"></a>Pour configurer un centre de gestion
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Centres de gestion** , puis sélectionnez le lien associé.  
-2. Sélectionnez l’action **Nouveau** .  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Centres de gestion**, puis sélectionnez le lien associé.  
+2. Sélectionnez l’action **Nouveau**.  
 3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     Si vous utilisez des centres de gestion pour administrer votre société, il peut être utile de définir un centre de gestion par défaut pour votre société.
-4. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Informations société** , puis sélectionnez le lien associé.
-5. Dans le champ **Centre de gestion** , entrez un code centre de gestion.
+4. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Informations société**, puis sélectionnez le lien associé.
+5. Dans le champ **Centre de gestion**, entrez un code centre de gestion.
 
 Ce code est utilisé sur tous les documents achat, vente ou service si l’utilisateur, le client ou le fournisseur n’a pas de centre de gestion par défaut. Sur un document vente, achat ou service, vous pouvez saisir un autre centre de gestion à la place de la valeur par défaut.
 
@@ -46,14 +46,14 @@ Vous pouvez configurer des utilisateurs de sorte que, dans leurs routines quotid
 
 Pour configurer cela, vous devez affecter des centres de gestion à des utilisateurs dans trois modules : Achats, Ventes et Gestion des services.  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres utilisateur** , puis sélectionnez le lien associé.  
-2. Sur la page **Paramètres utilisateur** , sélectionnez l’utilisateur auquel vous souhaitez affecter un centre de gestion. Si l’utilisateur ne figure pas dans la liste, saisissez un code utilisateur dans le champ **Code utilisateur** .  
-3. Dans le champ **Filtre centre gestion vente** , indiquez le centre de gestion dans lequel l’utilisateur aura des tâches liées aux ventes.  
-4. Dans le champ **Filtre centre gestion achat** , indiquez le centre de gestion dans lequel l’utilisateur aura des tâches liées aux achats.  
-5. Dans le champ **Filtre centre gestion service** , indiquez le centre de gestion dans lequel l’utilisateur aura des tâches liées à la gestion des services.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres utilisateur**, puis sélectionnez le lien associé.  
+2. Sur la page **Paramètres utilisateur**, sélectionnez l’utilisateur auquel vous souhaitez affecter un centre de gestion. Si l’utilisateur ne figure pas dans la liste, saisissez un code utilisateur dans le champ **Code utilisateur**.  
+3. Dans le champ **Filtre centre gestion vente**, indiquez le centre de gestion dans lequel l’utilisateur aura des tâches liées aux ventes.  
+4. Dans le champ **Filtre centre gestion achat**, indiquez le centre de gestion dans lequel l’utilisateur aura des tâches liées aux achats.  
+5. Dans le champ **Filtre centre gestion service**, indiquez le centre de gestion dans lequel l’utilisateur aura des tâches liées à la gestion des services.  
 
 > [!NOTE]  
-> Les utilisateurs peuvent visualiser toutes les écritures comptables et tous les documents validés ; ils ne sont pas limités à ceux de leur centre de gestion.
+> Les utilisateurs peuvent afficher uniquement les documents publiés liés à leur propre centre de responsabilité. Cependant, ils peuvent afficher toutes les écritures comptables et accéder à d’autres documents validés à partir des écritures comptables.
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -62,4 +62,4 @@ Pour configurer cela, vous devez affecter des centres de gestion à des utilisat
 [Stock](inventory-manage-inventory.md)[Gestion d’entrepôt](warehouse-manage-warehouse.md)  
 [Gestion d’entrepôt](warehouse-manage-warehouse.md)  
 [Détails de conception : gestion d’entrepôt](design-details-warehouse-management.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

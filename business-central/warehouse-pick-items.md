@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ef457ddf93e2634345c809b241e15acc94d0593e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b9e4bf86ec68ad06a22c0a9dcca37eecffb0316b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911736"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755807"
 ---
 # <a name="pick-items"></a>Prélèvement d’articles
 
@@ -24,7 +24,7 @@ L’activité entrepôt consistant à prélever les articles avant leur expédit
 Si vous décidez d’organiser et d’enregistrer votre activité de prélèvement avec des documents entrepôt, activez le champ **Prélèvement requis** dans la fiche magasin. Ceci indique que lorsque vous avez des articles devant être prélevés pour un document origine sortant, vous souhaitez que le prélèvement de ces articles soit contrôlé par le système. Un document origine sortant peut être une commande vente, un retour achat, une commande désenlogement transfert, une commande service ou un ordre de fabrication dont les composants doivent être prélevés.
 
 > [!NOTE]
-> Bien que le paramétrage soit appelé **Prélèvement requis** , vous pouvez quand même valider les expéditions directement à partir des documents commerciaux origine où vous cochez cette case.
+> Bien que le paramétrage soit appelé **Prélèvement requis**, vous pouvez quand même valider les expéditions directement à partir des documents commerciaux origine où vous cochez cette case.
 
 Si votre magasin est configuré pour nécessiter un traitement des prélèvements, mais pas un traitement des expéditions, vous utilisez la page **Prélèvement stock** pour organiser les informations de prélèvement, les imprimer, entrer le résultat du prélèvement effectif et valider les informations de prélèvement, ce qui valide les informations d’expédition des articles. Dans le cas du prélèvement de composants pour un ordre de fabrication, la validation du prélèvement valide également la consommation.
 
@@ -51,4 +51,4 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)     
 [Gestion des assemblages](assembly-assemble-items.md)    
 [Détails de conception : gestion d’entrepôt](design-details-warehouse-management.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

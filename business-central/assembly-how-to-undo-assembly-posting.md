@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9d483d104b0dee148dfc4a15bea6737d505730cc
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d672b28dda7c586bd68412fbbb89fb8e33cba1b8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913878"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747331"
 ---
 # <a name="undo-assembly-posting"></a>Annuler la validation d’assemblage
 Vous pouvez parfois être amené à annuler un ordre d’assemblage validé, par exemple, si la commande a été validée avec des erreurs qui doivent être corrigées, ou parce qu’il n’aurait pas dû être validé en premier et doit être annulé.
@@ -24,7 +24,7 @@ Lorsque vous annulez un ordre d’assemblage validé, un ensemble d’écritures
 
 Lorsque vous annulez un ordre d’assemblage entièrement validé, vous pouvez choisir de recréer l’ordre d’assemblage à son état d’origine, par exemple, pour apporter des corrections avant une nouvelle validation. Sinon, vous pouvez choisir de ne pas recréer l’ordre d’assemblage.  
 
-Lorsque vous annulez un ordre d’assemblage partiellement validé, tous les champs de quantité concernés, notamment les champs **Quantité assemblée** , **Quantité consommée** et **Quantité restante** , sont restaurés avec leur valeur précédant la validation en question.  
+Lorsque vous annulez un ordre d’assemblage partiellement validé, tous les champs de quantité concernés, notamment les champs **Quantité assemblée**, **Quantité consommée** et **Quantité restante**, sont restaurés avec leur valeur précédant la validation en question.  
 
 Pour recréer ou restaurer des ordres d’assemblage, il faut que l’élément d’assemblage qui résultait de la validation initiale respecte les conditions suivantes :  
 
@@ -40,15 +40,15 @@ De plus, les ordres d’assemblage existants ne peuvent être restaurés que si 
 La procédure suivante décrit comment annuler les ordres d’assemblage validés où les articles ont été assemblés pour stockage. Si vous souhaitez annuler les ordres d’assemblage validés pour lesquels les articles ont été assemblés pour une commande vente, vous devez exécuter la fonction **Annuler expédition** sur l’expédition validée qui se rapporte à l’ordre d’assemblage validé. Pour plus d’informations, voir [Inversion d’une validation feuille et annuler les réceptions/envois](finance-how-reverse-journal-posting.md). L’annulation de l’ordre d’assemblage validé se produit alors automatiquement de la même manière que celle décrite dans cette rubrique.  
 
 ## <a name="to-undo-posting-of-an-assembly-order"></a>Pour annuler la validation d’un ordre d’assemblage  
-1.  Pour annuler un ordre d’assemblage validé entièrement ou partiellement, choisissez l’icone ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Ordres d’assemblage validés** , puis sélectionnez le lien associé.  
+1.  Pour annuler un ordre d’assemblage validé entièrement ou partiellement, choisissez l’icone ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Ordres d’assemblage validés**, puis sélectionnez le lien associé.  
 
     La page **Ordres d’assemblage validés** s’ouvre avec un ou plusieurs ordres d’assemblage qui ont été validés à partir de l’ordre d’assemblage en question. Chaque validation partielle crée un ordre d’assemblage validé distinct.  
-2.  Ouvrez l’ordre d’assemblage validé que vous souhaitez annuler, puis choisissez **Annuler l’assemblage** .  
+2.  Ouvrez l’ordre d’assemblage validé que vous souhaitez annuler, puis choisissez **Annuler l’assemblage**.  
 
     Si l’ordre d’assemblage validé que vous souhaitez annuler est lié à un ordre d’assemblage entièrement validé qui est maintenant supprimé, vous avez la possibilité de le recréer, généralement parce que vous voulez le retraiter.  
-3.  Si vous souhaitez recréer l’ordre d’assemblage, cliquez sur le bouton **oui** . Pour annuler la validation sans recréer l’ordre d’assemblage associée, cliquez sur le bouton **Non** .  
+3.  Si vous souhaitez recréer l’ordre d’assemblage, cliquez sur le bouton **oui**. Pour annuler la validation sans recréer l’ordre d’assemblage associée, cliquez sur le bouton **Non**.  
 
-Le champ **Contrepassé** de l’en\-tête d’ordre d’assemblage prend la valeur **Oui** . La validation de l’ordre d’assemblage est désormais annulée. Vous pouvez traiter l’ordre d’assemblage dans son intégralité si vous avez choisi de le recréer, ou l’ordre d’assemblage ouvert que vous avez restauré à son état d’origine.  
+Le champ **Contrepassé** de l’en\-tête d’ordre d’assemblage prend la valeur **Oui**. La validation de l’ordre d’assemblage est désormais annulée. Vous pouvez traiter l’ordre d’assemblage dans son intégralité si vous avez choisi de le recréer, ou l’ordre d’assemblage ouvert que vous avez restauré à son état d’origine.  
 
 > [!NOTE]  
 >  Pour restaurer les quantités de plusieurs validations partielles dans un ordre d’assemblage, vous devez annuler tous les ordres d’assemblage validés concernés en suivant les étapes 1 à 3 ci-dessus pour chaque ordre d’assemblage validé.  
@@ -60,4 +60,4 @@ Le champ **Contrepassé** de l’en\-tête d’ordre d’assemblage prend la val
 [Utiliser les nomenclatures](inventory-how-work-BOMs.md)  
 [Stock](inventory-manage-inventory.md)  
 [Détails de conception : gestion d’entrepôt](design-details-warehouse-management.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

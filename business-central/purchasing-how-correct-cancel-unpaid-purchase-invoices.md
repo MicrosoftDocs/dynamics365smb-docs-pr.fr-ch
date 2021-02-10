@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: undo, credit memo, return
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d6644b7df13c70143d239de68ec419bdd196bfe3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6568828a50e274de0ac6364a1df72cc48abd4956
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926937"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748733"
 ---
 # <a name="correct-or-cancel-unpaid-purchase-invoices"></a>Corriger ou annuler des factures achat impayées
 
@@ -23,32 +23,32 @@ Vous pouvez corriger ou annuler une facture achat validée. Cela est utile si vo
 
 Si vous avez déjà payé des produits sur la facture achat validée, vous ne pouvez pas la corriger ni l’annuler à partir de la facture achat validée elle-même. Au lieu de cela, vous devez créer manuellement un avoir achat pour contrepasser l’achat, éventuellement géré à l’aide d’un retour achat. Il en va de même si vous souhaitez modifier une facture achat validée basée sur des réceptions achat combinées. Pour plus d’informations, reportez-vous à [Traiter les retours ou annulations d’achats](purchasing-how-process-purchase-returns-cancellations.md).
 
-Sur la page **Facture achat enregistrée** , vous pouvez cliquer sur le bouton **Corriger** ou **Annuler** . Lorsque vous corrigez ou annulez une facture achat enregistrée, l’avoir achat de correction est appliqué à toutes les écritures comptables de la comptabilité et de l’inventaire créées lors de la validation de la facture achat initiale. Cette action contrepasse la facture achat validée dans vos enregistrements financiers et laisse l’avoir achat validé de correction pour votre piste d’audit. L’utilisation des boutons **Corriger** et **Annuler** est décrite ci-après.
+Sur la page **Facture achat enregistrée**, vous pouvez cliquer sur le bouton **Corriger** ou **Annuler**. Lorsque vous corrigez ou annulez une facture achat enregistrée, l’avoir achat de correction est appliqué à toutes les écritures comptables de la comptabilité et de l’inventaire créées lors de la validation de la facture achat initiale. Cette action contrepasse la facture achat validée dans vos enregistrements financiers et laisse l’avoir achat validé de correction pour votre piste d’audit. L’utilisation des boutons **Corriger** et **Annuler** est décrite ci-après.
 <br><br>
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4dhoc?rel=0]
 
 ## <a name="to-correct-a-posted-purchase-invoice"></a>Pour corriger une facture achat validée
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Factures achat enregistrées** , puis sélectionnez le lien associé.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Factures achat enregistrées**, puis sélectionnez le lien associé.  
 2. Sélectionnez la facture achat validée à corriger.  
 
     > [!NOTE]  
     >   Si la case à cocher **Annulé** est activée, vous ne pouvez pas corriger la facture achat validée car elle l’a déjà été, ou a été annulée.
-3. Sur la page **Facture achat enregistrée** sélectionnez **Corriger** .
+3. Sur la page **Facture achat enregistrée** sélectionnez **Corriger**.
 
-    Une nouvelle facture achat avec les mêmes informations et dans laquelle vous pouvez apporter une correction est créée. Pour plus d’informations, voir [Enregistrer des achats](purchasing-how-record-purchases.md). La valeur du champ **Annulé** de la facture achat validée initiale devient **Oui** .
+    Une nouvelle facture achat avec les mêmes informations et dans laquelle vous pouvez apporter une correction est créée. Pour plus d’informations, voir [Enregistrer des achats](purchasing-how-record-purchases.md). La valeur du champ **Annulé** de la facture achat validée initiale devient **Oui**.
 
     Un avoir achat est automatiquement créé et validé pour annuler la facture achat validée initiale.
 4. Sélectionnez **Afficher un avoir correctif** pour afficher l’avoir achat validé qui annule la facture achat validée initiale.
 
 ## <a name="to-cancel-a-posted-purchase-invoice"></a>Pour annuler une facture achat validée
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Factures achat enregistrées** , puis sélectionnez le lien associé.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Factures achat enregistrées**, puis sélectionnez le lien associé.  
 2. Sélectionnez la facture achat validée à annuler.
 
     > [!NOTE]  
     >   Si la case à cocher **Annulé** est activée, vous ne pouvez pas annuler la facture achat validée car elle l’a déjà été, ou a été corrigée.
-3. Sur la page **Facture achat enregistrée** sélectionnez **Annuler** .
+3. Sur la page **Facture achat enregistrée** sélectionnez **Annuler**.
 
-    Un avoir achat est automatiquement créé et validé pour annuler la facture achat validée initiale. La valeur du champ **Annulé** de la facture achat validée initiale devient **Oui** .
+    Un avoir achat est automatiquement créé et validé pour annuler la facture achat validée initiale. La valeur du champ **Annulé** de la facture achat validée initiale devient **Oui**.
 4. Sélectionnez **Afficher un avoir correctif** pour afficher l’avoir achat validé qui annule la facture achat validée initiale.
 
 ### <a name="partial-invoice-posting-also-supported"></a>Validation partielle de facture également prise en charge
@@ -57,4 +57,4 @@ Si l’annulation est liée à une validation de facture partielle, la ligne de 
 ## <a name="see-also"></a>Voir aussi
 [Achats](purchasing-manage-purchasing.md)  
 [Enregistrer des achats](purchasing-how-record-purchases.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

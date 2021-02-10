@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4a7fd3068cbcaeae1180781cd1377f0913406af4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 50ae6f2f3538269cc7c82dd2d84644a1a31d7f56
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917341"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751370"
 ---
 # <a name="design-details-item-tracking"></a>Détails de conception : traçabilité
 Étant donné que le flux de biens dans la chaîne d’approvisionnement moderne devient de plus en plus complexe, la capacité à effectuer le suivi des articles est de plus en plus importante pour les sociétés concernées. La surveillance du flux de transaction d’un article est une obligation légale dans le secteur de l’approvisionnement médical et chimique, mais d’autres sociétés peuvent souhaiter contrôler les produits avec des garanties ou des dates d’expiration pour des raisons de service client.  
 
-Un système de traçabilité doit permettre à une société de traiter facilement les numéros de série et les numéros de lot, en considérant chaque marchandise comme étant unique : date et lieu de réception, lieu de stockage, date et lieu de vente. [!INCLUDE[d365fin](includes/d365fin_md.md)] a progressivement étendu sa prise en charge de ce besoin de l’entreprise et fournit actuellement des fonctionnalités à l’échelle de l’application, ainsi qu’une base solide pour le développement d’extensions.  
+Un système de traçabilité doit permettre à une société de traiter facilement les numéros de série et les numéros de lot, en considérant chaque marchandise comme étant unique : date et lieu de réception, lieu de stockage, date et lieu de vente. [!INCLUDE[prod_short](includes/prod_short.md)] a progressivement étendu sa prise en charge de ce besoin de l’entreprise et fournit actuellement des fonctionnalités à l’échelle de l’application, ainsi qu’une base solide pour le développement d’extensions.  
 
 ## <a name="in-this-section"></a>Dans cette section  
 [Détails de conception : création de traçabilité](design-details-item-tracking-design.md)  

@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4d92b4fc380dfaaf5b4fe2705367dff359eae6e5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7a5230f26b3e0db8896125d1a8dbf2d8ff322777
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926987"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751170"
 ---
 # <a name="setting-up-fixed-assets"></a>Paramétrage d’immobilisations
 Avant de pouvoir utiliser les immobilisations, vous devez définir les éléments suivants :  
@@ -27,9 +27,9 @@ Avant de pouvoir utiliser les immobilisations, vous devez définir les élément
 Le tableau ci-dessous contient des liens vers des informations supplémentaires. Après avoir défini ces éléments, vous pouvez démarrer diverses activités. Pour plus d’informations, reportez-vous à [Immobilisations](fa-manage.md).  
 
 > [!NOTE]  
->   Vous pouvez enregistrer les transactions immobilisation sur les pages **Feuille compta. immo.** ou **Feuille immo.** , selon que les transactions sont destinées pour des rapports financiers ou pour la gestion interne. L’aide pour les immobilisations décrit uniquement la procédure d’utilisation de la page **Feuille compta. immo.** .  
+>   Vous pouvez enregistrer les transactions immobilisation sur les pages **Feuille compta. immo.** ou **Feuille immo.**, selon que les transactions sont destinées pour des rapports financiers ou pour la gestion interne. L’aide pour les immobilisations décrit uniquement la procédure d’utilisation de la page **Feuille compta. immo.**.  
 
-Lorsque vous activez une activité immobilisation dans la section **Intégration compta.** sur la page **Fiche loi d’amortissement** , la page **Feuille compta. immo.** sera utilisée pour valider les transactions pour l’activité.
+Lorsque vous activez une activité immobilisation dans la section **Intégration compta.** sur la page **Fiche loi d’amortissement**, la page **Feuille compta. immo.** sera utilisée pour valider les transactions pour l’activité.
 
 Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.  
 
@@ -45,4 +45,4 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 [COMPTES D’IMMOBILISATIONS](fa-manage.md)  
 [Finances](finance.md)  
 [Mise en route](product-get-started.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

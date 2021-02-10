@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 6526760c78cb11d8454b7f5390c6fefe713647d2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 104f63e07e4bfd8945f73581a4fb7810f946304f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918253"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755582"
 ---
 # <a name="overview-of-tasks-to-close-accounting-periods"></a>Aperçu des tâches de clôture des périodes comptables
-[!INCLUDE[d365fin](includes/d365fin_md.md)] ne vous oblige pas à clôturer les périodes. Toutefois, il existe de nombreuses activités de clôture de période (fin de mois) que vous pouvez effectuer. Cette rubrique présente un aperçu des activités et des processus facultatifs pour les périodes de clôture.  
+[!INCLUDE[prod_short](includes/prod_short.md)] ne vous oblige pas à clôturer les périodes. Toutefois, il existe de nombreuses activités de clôture de période (fin de mois) que vous pouvez effectuer. Cette rubrique présente un aperçu des activités et des processus facultatifs pour les périodes de clôture.  
 
 ## <a name="general-ledger"></a>Écritures comptables
 * Spécifiez des plages de date de validation à l’échelle du système.  
@@ -30,21 +30,21 @@ ms.locfileid: "3918253"
 * Mettez à jour et validez les feuilles abonnement.  
   <!--* Process Consolidations-->
 * Exécutez les tableaux d’analyse comme suit :  
-  * Ouvrez la page **Tableau d’analyse** , puis sélectionnez l’action **Imprimer** .  
+  * Ouvrez la page **Tableau d’analyse**, puis sélectionnez l’action **Imprimer**.  
 
 ## <a name="sales-and-receivables"></a>Ventes
 * Validez l’ensemble des commandes, factures, avoirs et retours vente.  
 * Validez l’ensemble des feuilles règlement.  
 * Mettez à jour et validez les feuilles abonnement associées aux ventes.  
 * Rapprochez la comptabilité client de la comptabilité.  
-* Exécutez le traitement par lots **Supprimer cdes vente facturées** .  
+* Exécutez le traitement par lots **Supprimer cdes vente facturées**.  
 
 ## <a name="purchases-and-payables"></a>Achats
 * Validez l’ensemble des commandes, factures, avoirs et retours achat.  
 * Validez l’ensemble des feuilles paiement.  
 * Mettez à jour et validez les feuilles abonnement associées aux achats.  
 * Générez l’état **Comptabilité fournisseur âgée** et rapprochez la comptabilité fournisseur de la comptabilité.  
-* Exécutez le traitement par lots **Supprimer cdes achat facturées** .  
+* Exécutez le traitement par lots **Supprimer cdes achat facturées**.  
 
 COMPTES D’IMMOBILISATIONS
 * Validez que tous les frais de maintenance ont été validés via les feuilles immobilisation ou factures.
@@ -62,4 +62,4 @@ Intersociétés
 ## <a name="see-also"></a>Voir aussi
 [Clôture des exercices et des périodes](year-close-years-periods.md)  
 [Clôture plans](year-close-books.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

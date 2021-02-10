@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bf342b4cfcc59f51c2aae8ca6e36f25d7f3f5e35
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1b08ebbdd24e821f5ed528d9956f2753c84fbc05
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912985"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747858"
 ---
 # <a name="setup-best-practices-costing-method"></a>Configuration de meilleures pratiques : mode évaluation stock
 
@@ -23,7 +23,7 @@ Le champ **Mode évaluation stock** de la fiche article spécifie la manière do
 
  La définition du mode évaluation stock correct en fonction du type d’article et de l’environnement d’entreprise est importante pour assurer des stocks économiques.  
 
- Le tableau suivant fournit les meilleures pratiques sur la procédure de configuration du champ **Mode évaluation stock** . Pour plus d’informations, [Détails de conception : modes évaluation stock](design-details-costing-methods.md).  
+ Le tableau suivant fournit les meilleures pratiques sur la procédure de configuration du champ **Mode évaluation stock**. Pour plus d’informations, [Détails de conception : modes évaluation stock](design-details-costing-methods.md).  
 
 |Option de configuration|Meilleure pratique|Commentaire|  
 |------------------|-------------------|-------------|  
@@ -37,4 +37,4 @@ Le champ **Mode évaluation stock** de la fiche article spécifie la manière do
  [Détails de conception : modes évaluation stock](design-details-costing-methods.md)   
  [Détails de conception : évaluation stock](design-details-inventory-costing.md)   
  [Configurer des domaines d’application complexes à l’aide des meilleures pratiques](set-up-complex-application-areas-using-best-practices.md)  
- [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

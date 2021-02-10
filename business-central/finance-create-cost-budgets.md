@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9fceeeda18b846edd79b9fdc71ab1a22d80203bd
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 2a8b8e88e296f36b8f4eb9bb41b05d5fc529b23b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913361"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750970"
 ---
 # <a name="creating-cost-budgets"></a>Création des budgets des coûts
 La budgétisation en comptabilité analytique ressemble à la budgétisation en comptabilité générale. Un budget de coûts est créé en fonction des types de coûts, tel qu’un budget est créé pour les écritures comptables en fonction des comptes généraux.  
@@ -37,4 +37,4 @@ Vous utilisez les pages suivantes pour créer et analyser les budgets de coûts.
 [Créer des budgets comptabilité](finance-how-create-budgets.md)  
 [Terminologie en comptabilité analytique](finance-terminology-in-cost-accounting.md)   
 [Définition et répartition des coûts](finance-define-and-allocate-costs.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

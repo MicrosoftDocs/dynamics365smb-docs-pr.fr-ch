@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0fcdaf30443151919f0760ad18cce1cb7df25d36
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6d11b1298e55eb6d034ee173df70ad77478f4c1d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923685"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755382"
 ---
 # <a name="managing-interactions"></a>Gestion des interactions
-Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], les interactions désignent tous les types de communication entre votre société et vos contacts. Par exemple, les communications peuvent s’effectuer par e-mail, par lettre, par téléphone, lors de réunions et ainsi de suite.
+Dans [!INCLUDE[prod_short](includes/prod_short.md)], les interactions désignent tous les types de communication entre votre société et vos contacts. Par exemple, les communications peuvent s’effectuer par e-mail, par lettre, par téléphone, lors de réunions et ainsi de suite.
 
 Vous pouvez enregistrer toutes les interactions vente et marketing avec vos contacts afin d’effectuer le suivi des efforts mis en œuvre, et d’améliorer vos futures relations commerciales.
 

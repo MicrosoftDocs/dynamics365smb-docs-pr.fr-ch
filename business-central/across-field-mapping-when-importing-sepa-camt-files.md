@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5bed47fc3109d622f4078e36e29aa04678bd22f9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 57488adb784736eaf404cf57f1563f08c517ed6c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918066"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753357"
 ---
 # <a name="field-mapping-when-importing-sepa-camt-files"></a>Mappage de champs lors de l’importation de fichiers SEPA CAMT
-[!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge les normes régionales SEPA (Espace unique de paiement en euros) pour importer les relevés bancaires SEPA (format CAMT). Pour plus d’informations, voir [Utilisation de l’extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
+[!INCLUDE[prod_short](includes/prod_short.md)] prend en charge les normes régionales SEPA (Espace unique de paiement en euros) pour importer les relevés bancaires SEPA (format CAMT). Pour plus d’informations, voir [Utilisation de l’extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
 
- La norme SEPA CAMT standard présente elle-même des variations locales. Par conséquent, vous pouvez être amené à modifier la définition d’échange de données générique (représentée par le code **SEPA CAMT** sur la page **Définitions échange comptabilité** ) pour l’adapter à une variation locale de la norme. Les tables suivantes indiquent le mappage d’élément à champ pour les tables 81, 273 et 274 dans l’implémentation de SEPA CAMT dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+ La norme SEPA CAMT standard présente elle-même des variations locales. Par conséquent, vous pouvez être amené à modifier la définition d’échange de données générique (représentée par le code **SEPA CAMT** sur la page **Définitions échange comptabilité**) pour l’adapter à une variation locale de la norme. Les tables suivantes indiquent le mappage d’élément à champ pour les tables 81, 273 et 274 dans l’implémentation de SEPA CAMT dans [!INCLUDE[prod_short](includes/prod_short.md)].  
 
  Pour plus d’informations sur la création ou l’ajustement de définition d’échange de données, voir [Configurer les définitions d’échange de données](across-how-to-set-up-data-exchange-definitions.md).  
 
@@ -57,10 +57,10 @@ ms.locfileid: "3918066"
 |Stmt/Ntry/NtryDtls/TxDtls/RmtInf/Ustrd|Non structuré|Texte.|Les informations à votre disposition pour activer la correspondance/le rapprochement d’une écriture avec les articles que le paiement doit régler, telles que les factures commerciales dans un système comptes-clients, sous forme non structurée||6|Désignation|  
 |Stmt/Ntry/AddtlNtryInf|AdditionalEntryInformation|Texte.|Informations supplémentaires sur l’écriture.||16|Informations transaction|  
 
- Les articles dans le nœud **Ntry** qui sont importés dans [!INCLUDE[d365fin](includes/d365fin_md.md)] mais ne sont associés à aucun champ sont stockés dans la table **Définition colonne échange comptabilité** . Les utilisateurs peuvent afficher ces éléments des pages **Feuille rapprochement bancaire** , **Lettrage paiement** et **Rapprochement bancaire** en choisissant l’action **Détails lignes de relevé bancaire** . Pour plus d’informations, voir [Rapprocher les paiements à l’aide du lettrage automatique](receivables-how-reconcile-payments-auto-application.md).
+ Les articles dans le nœud **Ntry** qui sont importés dans [!INCLUDE[prod_short](includes/prod_short.md)] mais ne sont associés à aucun champ sont stockés dans la table **Définition colonne échange comptabilité**. Les utilisateurs peuvent afficher ces éléments des pages **Feuille rapprochement bancaire**, **Lettrage paiement** et **Rapprochement bancaire** en choisissant l’action **Détails lignes de relevé bancaire**. Pour plus d’informations, voir [Rapprocher les paiements à l’aide du lettrage automatique](receivables-how-reconcile-payments-auto-application.md).
 
 > [!IMPORTANT]
-> Dans une importation de relevés bancaires CAMT, [!INCLUDE[d365fin](includes/d365fin_md.md)] s’attend à ce que chaque transaction soit unique, ce qui signifie que le champ **ID transaction** qui provient de la balise *Stmt/Ntry/NtryDtls/TxDtls/Refs/EndToEndId* dans le fichier CAMT, doit être unique dans le rapprochement du compte bancaire ouvert. Si les informations ne sont pas présentes, [!INCLUDE[d365fin](includes/d365fin_md.md)] ignore le paiement. Si un rapprochement bancaire antérieur sur le même compte bancaire a été validé avec le même ID de transaction que lors de l’importation en cours, la transaction en cours ne sera pas automatiquement rapprochée, mais elle peut toujours être importée.
+> Dans une importation de relevés bancaires CAMT, [!INCLUDE[prod_short](includes/prod_short.md)] s’attend à ce que chaque transaction soit unique, ce qui signifie que le champ **ID transaction** qui provient de la balise *Stmt/Ntry/NtryDtls/TxDtls/Refs/EndToEndId* dans le fichier CAMT, doit être unique dans le rapprochement du compte bancaire ouvert. Si les informations ne sont pas présentes, [!INCLUDE[prod_short](includes/prod_short.md)] ignore le paiement. Si un rapprochement bancaire antérieur sur le même compte bancaire a été validé avec le même ID de transaction que lors de l’importation en cours, la transaction en cours ne sera pas automatiquement rapprochée, mais elle peut toujours être importée.
 
 ## <a name="see-also"></a>Voir aussi  
 [Configuration de l’échange de données](across-set-up-data-exchange.md)  

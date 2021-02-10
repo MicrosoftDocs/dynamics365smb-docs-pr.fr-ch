@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: product, image
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4da0f30f47827515f8591802ce2ca49c245009ab
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e4391293396ff380bc3f96cd799f0932856ba11f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922909"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746206"
 ---
 # <a name="import-multiple-item-pictures"></a>Importer plusieurs images d’article
 Vous pouvez importer plusieurs images d’articles à la fois. Nommez simplement vos fichiers image avec des noms correspondant à vos numéros d’article, comprimez-les en un fichier ZIP, puis utilisez la page **Importer les images d’articles** pour gérer quelles images d’articles importer.
@@ -32,19 +32,19 @@ Tous les formats de fichier courants sont pris en charge.
     |1 001|1001.bmp|
     |1002|1002.bmp|
 
-2. Recueillez tous les fichiers dans un fichier ZIP. Par exemple, dans Windows Explorer, sélectionnez les fichiers, puis choisissez **Envoyer vers** , **Dossier comprimé (zip)** .     
+2. Recueillez tous les fichiers dans un fichier ZIP. Par exemple, dans Windows Explorer, sélectionnez les fichiers, puis choisissez **Envoyer vers**, **Dossier comprimé (zip)**.     
 
 ## <a name="to-import-item-pictures"></a>Pour importer des images d’article
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres stock** , puis sélectionnez le lien associé.
-2. Sélectionnez l’action **Importer des images d’article** .
-3. Dans le champ **Sélectionner un fichier ZIP** , sélectionnez le dossier ZIP pertinent, puis sélectionnez le bouton **Ouvrir** .
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres stock**, puis sélectionnez le lien associé.
+2. Sélectionnez l’action **Importer des images d’article**.
+3. Dans le champ **Sélectionner un fichier ZIP**, sélectionnez le dossier ZIP pertinent, puis sélectionnez le bouton **Ouvrir**.
 
-    Une ligne pour chaque élément et image est créée sur la page **Importer des images d’article** .
+    Une ligne pour chaque élément et image est créée sur la page **Importer des images d’article**.
 
     > [!NOTE]
-    > Pour les fichiers article qui ont déjà une image, la case à cocher **Une image existe déjà** est sélectionnée. Si vous ne souhaitez pas remplacer les images existantes, décochez la case **Remplacer les images** . Si vous ne souhaitez pas remplacer les images existantes individuelles, supprimez les lignes en question.
+    > Pour les fichiers article qui ont déjà une image, la case à cocher **Une image existe déjà** est sélectionnée. Si vous ne souhaitez pas remplacer les images existantes, décochez la case **Remplacer les images**. Si vous ne souhaitez pas remplacer les images existantes individuelles, supprimez les lignes en question.
 
-3. Sélectionnez l’action **Importer des images** .
+3. Sélectionnez l’action **Importer des images**.
 
 Le champ **Importer le statut** est mis à jour pour montrer si l’importation de l’image a été ignorée ou a bien eu lieu.       
 
@@ -54,4 +54,4 @@ Le champ **Importer le statut** est mis à jour pour montrer si l’importation 
 [Stock](inventory-manage-inventory.md)  
 [Achats](purchasing-manage-purchasing.md)  
 [Ventes](sales-manage-sales.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

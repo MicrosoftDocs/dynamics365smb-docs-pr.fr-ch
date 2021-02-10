@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5194d1a24b987f0b7ef88d9b535eb00d3203a9b9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 51e16908aff4e4877d93a2828d2400185c3213ca
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915700"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751820"
 ---
 # <a name="design-details-assembly-order-posting"></a>Détails de conception : validation d’ordre d’assemblage
 La validation d’ordre d’assemblage est basée sur les mêmes principes que la validation des activités similaires des commandes vente et de la consommation de production/production. Cependant, les principes sont combinés du fait que les ordres d’assemblage ont leur propre interface utilisateur de validation, comme celle des commandes vente, alors que la validation des écritures réelle se produit en arrière-plan en tant que validations directes d’article et de feuille ressource, comme pour la consommation de production, la production et la capacité.  
@@ -72,7 +72,7 @@ Le graphique suivant montre la structure d’écriture d’ajustement et comment
 ![Flux d’écritures lié à l’assemblage lors de l’ajustement des coûts](media/design_details_assembly_posting_3.png "Flux d’écritures lié à l’assemblage lors de la validation")  
 
 ### <a name="performing-the-adjustment"></a>Procéder à l’ajustement  
-La répartition des ajustements détectés entre les coûts matière et ressource et les écritures de résultat d’assemblage est effectuée par le traitement par lots **Ajuster coûts : Écr. article** . Il contient la fonction Effectuer un ajustement à plusieurs niveaux, qui se compose des deux éléments suivants :  
+La répartition des ajustements détectés entre les coûts matière et ressource et les écritures de résultat d’assemblage est effectuée par le traitement par lots **Ajuster coûts : Écr. article**. Il contient la fonction Effectuer un ajustement à plusieurs niveaux, qui se compose des deux éléments suivants :  
 
 -   Effectuer un ajustement d’ordre d’assemblage : qui transmet le coût d’utilisation des matières et des ressources à l’écriture de résultat d’assemblage. Les lignes 5 et 6 dans l’algorithme ci-dessous sont responsables de cela.  
 -   Effectuer des ajustements à un seul niveau : ce qui transfère les coûts des différents articles en utilisant leur mode d’évaluation du stock. Les lignes 9 et 10 dans l’algorithme ci-dessous sont responsables de cela.  
@@ -89,8 +89,8 @@ Pour plus d’informations sur la manière dont les coûts d’assemblage ou de 
 
 Ceci est activé par la structure de données suivante.  
 
--   Dans le champ **Type** des lignes feuille article, dans les tables **Écriture comptable capacité** et **Écriture valeur** , *Ressource* est utilisé pour identifier les écritures ressource d’assemblage.  
--   Dans le champ **Type écriture comptable article** sur les lignes feuille article, dans les tables **Écriture comptable capacité** et **Écriture valeur** , *Résultat d’assemblage* et *Consommation d’assemblage* permettent d’identifier les écritures d’élément d’assemblage de production et les écritures composant d’assemblage consommées respectivement.  
+-   Dans le champ **Type** des lignes feuille article, dans les tables **Écriture comptable capacité** et **Écriture valeur**, *Ressource* est utilisé pour identifier les écritures ressource d’assemblage.  
+-   Dans le champ **Type écriture comptable article** sur les lignes feuille article, dans les tables **Écriture comptable capacité** et **Écriture valeur**, *Résultat d’assemblage* et *Consommation d’assemblage* permettent d’identifier les écritures d’élément d’assemblage de production et les écritures composant d’assemblage consommées respectivement.  
 
 En outre, les champs de groupe comptabilisation dans l’en-tête d’ordre d’assemblage et les lignes d’ordre d’assemblage sont renseignés par défaut comme suit.  
 
@@ -105,7 +105,7 @@ Par conséquent, seuls les coûts réels sont validés dans la comptabilité, et
 ## <a name="assemble-to-order"></a>Assembler pour commande  
 L’écriture comptable article qui résulte de la validation d’une vente assembler pour commande est lettrée de façon fixe sur l’écriture comptable article associée pour les résultats d’assemblage. Par conséquent, le coût d’une vente assembler pour commande est dérivé de l’ordre d’assemblage auquel la vente a été liée.  
 
-Les écritures comptables article de type Vente qui résultent de la validation des quantités assemblées pour commande sont identifiées par **Oui** dans le champ **Assembler pour commande** .  
+Les écritures comptables article de type Vente qui résultent de la validation des quantités assemblées pour commande sont identifiées par **Oui** dans le champ **Assembler pour commande**.  
 
 La validation de lignes commande vente dont une partie est une quantité en stock et une autre partie est une quantité à assembler pour commande entraîne la création d’écritures comptables article distinctes, une pour la quantité en stock et une pour la quantité à assembler pour commande.  
 
@@ -115,4 +115,4 @@ La validation de lignes commande vente dont une partie est une quantité en stoc
  [Détails de conception : modes évaluation stock](design-details-costing-methods.md)  
  [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  
  [Finances](finance.md)  
- [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+ [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -1,6 +1,6 @@
 ---
 title: Aperçu de la ligne validation de feuille comptabilité | Microsoft Docs
-description: Cette rubrique décrit les modifications du codeunit 12, **Groupe compta. - Ligne validation** , qui est l’objet d’application majeur pour la validation de la comptabilité et est le seul emplacement pour insérer des écritures comptables, la TVA et les écritures comptables client et fournisseur.
+description: Cette rubrique décrit les modifications du codeunit 12, **Groupe compta. - Ligne validation**, qui est l’objet d’application majeur pour la validation de la comptabilité et est le seul emplacement pour insérer des écritures comptables, la TVA et les écritures comptables client et fournisseur.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: design, general ledger, post
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d778b29a5789d015b26b504ea8699ac64a92286c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 54f72fdfdea362cee6f3e3833f9d0e46cb9ac22a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911120"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751620"
 ---
 # <a name="general-journal-post-line-overview"></a>Aperçu de la ligne validation de feuille comptabilité
-Codeunit 12, **Groupe compta.-Ligne validation** , est l’objet d’application majeur pour la validation de la comptabilité et est le seul emplacement pour insérer des écritures comptables, la TVA, et les écritures comptables client et fournisseur. Ce codeunit est également utilisé pour toutes les opérations Appliquer, Désappliquer et Inverser.  
+Codeunit 12, **Groupe compta.-Ligne validation**, est l’objet d’application majeur pour la validation de la comptabilité et est le seul emplacement pour insérer des écritures comptables, la TVA, et les écritures comptables client et fournisseur. Ce codeunit est également utilisé pour toutes les opérations Appliquer, Désappliquer et Inverser.  
   
-Alors que le codeunit a été amélioré dans chaque version au cours des dix dernières années, son architecture est, au fond, restée inchangée. Le codeunit est devenu très grand, avec approximativement 7 600 lignes de code. Avec cette version de [!INCLUDE[d365fin](includes/d365fin_md.md)], l’architecture est modifiée et le codeunit a été rendu plus simple et plus facile à modifier. Cette documentation présente les modifications et fournit les informations dont vous aurez besoin pour la mise à niveau.  
+Alors que le codeunit a été amélioré dans chaque version au cours des dix dernières années, son architecture est, au fond, restée inchangée. Le codeunit est devenu très grand, avec approximativement 7 600 lignes de code. Avec cette version de [!INCLUDE[prod_short](includes/prod_short.md)], l’architecture est modifiée et le codeunit a été rendu plus simple et plus facile à modifier. Cette documentation présente les modifications et fournit les informations dont vous aurez besoin pour la mise à niveau.  
   
 ## <a name="old-architecture"></a>Ancienne architecture  
 L’ancienne architecture avait les fonctions suivantes :  
@@ -34,7 +34,7 @@ L’ancienne architecture avait les fonctions suivantes :
 * Validation, Appliquer, Désappliquer, Contrepasser, Escompte et écart de paiement, et Ajustement du taux de change ont été associés dans le odeunit 12 à l’aide d’une longue liste de variables globales.  
   
 ### <a name="new-architecture"></a>Nouvelle architecture  
-Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], le codeunit 12 présente les améliorations suivantes :  
+Dans [!INCLUDE[prod_short](includes/prod_short.md)], le codeunit 12 présente les améliorations suivantes :  
   
 * Le Codeunit 12 a été remanié en procédures plus petites (toutes inférieures à 100 lignes de code).  
 * Des motifs standardisés pour la recherche des comptes généraux ont été mis en œuvre à l’aide de les fonctions de participation des tableaux de groupes de validation.  

@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: feature overview, functionality
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2382fa440c67881411fe67e596a62aaf5d431426
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f73178cc55840ffa1756c45a83f01f1bdf8bc359
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912761"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747709"
 ---
 # <a name="general-business-functionality"></a>Fonctionnalités marché
-[!INCLUDE[d365fin](includes/d365fin_md.md)] fournit des fonctionnalités dédiées pour les domaines d’activité courants, tels que la finance et les ventes. Pour plus d’informations, voir [Fonctionnalités d’entreprise](across-business-functionality.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] fournit des fonctionnalités dédiées pour les domaines d’activité courants, tels que la finance et les ventes. Pour plus d’informations, voir [Fonctionnalités d’entreprise](across-business-functionality.md).
 
 Pour prendre en charge ces tâches spécifiques à votre secteur d’activité, vous pouvez utiliser diverses fonctionnalités d’entreprise, comme définir un texte étendu pour les lignes document et organiser les tâches professionnelles en flux de travail.
 
@@ -38,7 +38,7 @@ Le tableau suivant répertorie ces secteurs d’activité généraux avec des li
 | Définir des codes texte standard de façon à étendre le texte standard en ajoutant des lignes supplémentaires et définir des conditions d’utilisation des lignes supplémentaires. |[Ajouter un texte d’article étendu](ui-how-define-ext-text.md) |
 |Créez des tâches pour vous rappeler le travail à faire. Vous pouvez créer des tâches pour vous-même, mais vous pouvez également affecter des tâches à d’autres personne ou avoir une tâche affectée à vous-même par une autre personne de votre organisation.|[Définir les tâches utilisateur](across-user-tasks.md)|
 |Utilisez vos données Business Central dans Excel.|[Exportation de vos données métier vers Excel](about-export-data.md)|
-|Comprendre ce qui se produit lorsque vous choisissez l’action **Valider** .|[Validation des documents et des feuilles](ui-post-documents-journals.md)|
+|Comprendre ce qui se produit lorsque vous choisissez l’action **Valider**.|[Validation des documents et des feuilles](ui-post-documents-journals.md)|
 |Validez plusieurs documents de vente ou d’achat ensemble, immédiatement ou selon une planification.|[Valider plusieurs documents en même temps](ui-batch-posting.md)|  
 |Examinez le résultat de la validation avant de valider.|[Résultats de l’aperçu compta.](ui-how-preview-post-results.md)|
 |Modifiez les champs sélectionnés sur les documents de vente ou d’achat validés.|[Valider les documents validés](across-edit-posted-document.md)|
@@ -50,7 +50,7 @@ Le tableau suivant répertorie ces secteurs d’activité généraux avec des li
 | Configurer les définitions d’échange de données afin de pouvoir envoyer et recevoir des documents électroniques. |[Échanger des données par voir électronique](across-data-exchange.md) |
 
 ## <a name="see-also"></a>Voir aussi
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Administration](admin-setup-and-administration.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

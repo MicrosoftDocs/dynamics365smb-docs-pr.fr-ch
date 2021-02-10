@@ -12,20 +12,20 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 006df06509175a19ee63317ee89526192a924808
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: aa4cfa543fc7c5cf1ea527468a50bc80afcaeade
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924343"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752145"
 ---
 # <a name="business-intelligence"></a>Veille économique
-Les entreprises capturent une énorme quantité de données de par leur activité quotidienne. Ces données, qui reflètent par exemple les chiffres de vente de l’organisation, les achats, les dépenses opérationnelles, les salaires des employés et les budgets, peuvent devenir des informations précieuse, ou veille économique, pour les décisionnaires. [!INCLUDE[d365fin](includes/d365fin_md.md)] contient un certain nombre de fonctionnalités qui vous permettent de collecter, d’analyser et de partager les données de votre société.
+Les entreprises capturent une énorme quantité de données de par leur activité quotidienne. Ces données, qui reflètent par exemple les chiffres de vente de l’organisation, les achats, les dépenses opérationnelles, les salaires des employés et les budgets, peuvent devenir des informations précieuse, ou veille économique, pour les décisionnaires. [!INCLUDE[prod_short](includes/prod_short.md)] contient un certain nombre de fonctionnalités qui vous permettent de collecter, d’analyser et de partager les données de votre société.
 
 La fonctionnalité Axes analytiques joue un rôle important dans la veille économique. Un axe correspond à des données que vous pouvez ajouter à une écriture comme une sorte de marqueur. Ces données permettent de regrouper des écritures dotées de caractéristiques similaires, telles que les clients, les régions, les produits et les commerciaux, et de récupérer facilement ces groupes à des fins d’analyse. Entre autres utilisations, vous utilisez des axes analytiques lors de la définition de vues d’analyse et de la création des états financiers pour les états. Pour plus d’informations, reportez-vous à [Utilisation des axes](finance-dimensions.md).
 
 > [!TIP]
-> Pour analyser rapidement les données transactionnelles par dimensions, vous pouvez filtrer les totaux du plan comptable et les entrées de toutes les pages **Entrées** par dimensions. Recherchez l’action **Définir le filtre axe** .  
+> Pour analyser rapidement les données transactionnelles par dimensions, vous pouvez filtrer les totaux du plan comptable et les entrées de toutes les pages **Entrées** par dimensions. Recherchez l’action **Définir le filtre axe**.  
 
 Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.  
 
@@ -44,6 +44,6 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 [Utilisation de Business Central comme source de données Power BI](across-how-use-financials-data-source-powerbi.md)  
 [Clôture des périodes fiscales](year-close-years-periods.md)  
 [Importation des données à partir d’autres systèmes financiers](across-import-data-configuration-packages.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

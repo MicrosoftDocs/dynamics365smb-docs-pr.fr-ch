@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d8628953230b27ae84ee363d41c43873c81cb11c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1e65f73e0c876cd19750d88144e93c1157268e28
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919576"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751070"
 ---
 # <a name="about-cost-accounting"></a>À propos de la comptabilité analytique
 La comptabilité analytique vous permet de cerner les coûts liés à l’exploitation d’un activité. Les informations sur la comptabilité analytique sont conçues pour analyser :  
@@ -72,4 +72,4 @@ La plupart des états et des statistiques reposent sur les écritures de coûts 
  [Comptabilité pour les coûts](finance-manage-cost-accounting.md)  
  [Finances](finance.md)   
  [Terminologie en comptabilité analytique](finance-terminology-in-cost-accounting.md)  
- [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

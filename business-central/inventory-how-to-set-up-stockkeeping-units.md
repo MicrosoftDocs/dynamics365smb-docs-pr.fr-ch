@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4f5a1933e803322367b241e772d796f1365f9d11
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e801c3d4915e2d433aa7b82d4ac240b40ff96848
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915475"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746181"
 ---
 # <a name="set-up-stockkeeping-units"></a>Configurer des points de stock
 Vous pouvez utiliser des points de stock pour enregistrer des informations relatives à vos articles pour un code magasin ou variante donné.  
@@ -24,16 +24,16 @@ Vous pouvez utiliser des points de stock pour enregistrer des informations relat
 
 ## <a name="to-set-up-a-stockkeeping-unit"></a>Pour configurer un point de stock  
 
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Points de stock** , puis sélectionnez le lien associé.  
-2.  Sélectionnez l’action **Nouveau** .  
-3.  Renseignez les champs de la fiche. Les champs suivants sont nécessaires : **N° article** , **Code magasin** et/ou **Code variante** . [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Points de stock**, puis sélectionnez le lien associé.  
+2.  Sélectionnez l’action **Nouveau**.  
+3.  Renseignez les champs de la fiche. Les champs suivants sont nécessaires : **N° article**, **Code magasin** et/ou **Code variante**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 Après avoir configuré le premier point de stock pour un article, la case à cocher **Point de stock** sur la fiche **Article** est activée.  
 
-Pour créer plusieurs points de stock pour un article, utilisez le traitement par lots **Créer point de stock** .  
+Pour créer plusieurs points de stock pour un article, utilisez le traitement par lots **Créer point de stock**.  
 
 > [!NOTE]  
->  Les informations de la fiche **Point de stock** sont prioritaires par rapport à celles de la fiche **Article** .
+>  Les informations de la fiche **Point de stock** sont prioritaires par rapport à celles de la fiche **Article**.
 
 > [!Warning]
 > Si le point de stock est expédié à la fabrication, le champ **Coût standard** n’est pas utilisé lors de la facturation et de l’ajustement du coût réel de l’article fabriqué. Celui utilisé est plutôt le champ **Coût standard** de la fiche article sous-jacente. En outre, tous les écarts sont calculés par rapport aux coûts totaux de l’article.<br /><br />
@@ -46,4 +46,4 @@ Pour créer plusieurs points de stock pour un article, utilisez le traitement pa
 [STOCKS ET EN-COURS](inventory-manage-inventory.md)  
 [Gestion des assemblages](assembly-assemble-items.md)    
 [Détails de conception : gestion d’entrepôt](design-details-warehouse-management.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

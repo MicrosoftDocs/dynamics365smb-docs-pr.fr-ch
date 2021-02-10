@@ -10,31 +10,31 @@ ms.workload: na
 ms.search.keywords: design, item, tracking, tracing
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a9cdea97b9753adbbe8128b674dc4161178bc6f8
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 87c85de9f501e093679512b709841d0027fe17bf
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917441"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751345"
 ---
 # <a name="design-details-item-tracking-design"></a>Détails de conception : création de traçabilité
-Dans la première version de traçabilité dans [!INCLUDE[d365fin](includes/d365fin_md.md)] 2.60, les numéros de série ou les numéros de lot ont été enregistrés directement sur les écritures comptables article. Ce design a fourni des informations de disponibilité complète et un suivi unique des écritures historiques, mais il a manqué de flexibilité et de fonctionnalité.  
+Dans la première version de traçabilité dans [!INCLUDE[prod_short](includes/prod_short.md)] 2.60, les numéros de série ou les numéros de lot ont été enregistrés directement sur les écritures comptables article. Ce design a fourni des informations de disponibilité complète et un suivi unique des écritures historiques, mais il a manqué de flexibilité et de fonctionnalité.  
 
-Depuis [!INCLUDE[d365fin](includes/d365fin_md.md)] 3.00, la fonctionnalité de traçabilité était dans une structure d’objet distincte avec des liens complexes avec des documents et écritures comptables article validés. Ce design était flexible et riche en fonctionnalités, mais les écritures de suivi d’article n’étaient pas entièrement impliquées dans les calculs de disponibilité.  
+Depuis [!INCLUDE[prod_short](includes/prod_short.md)] 3.00, la fonctionnalité de traçabilité était dans une structure d’objet distincte avec des liens complexes avec des documents et écritures comptables article validés. Ce design était flexible et riche en fonctionnalités, mais les écritures de suivi d’article n’étaient pas entièrement impliquées dans les calculs de disponibilité.  
 
-Depuis [!INCLUDE[d365fin](includes/d365fin_md.md)] 3.60, la fonctionnalité de traçabilité est intégrée au système de réservation, qui traite la réservation, le chaînage et les messages d’action. Pour plus d’informations, voir « Détails de conception : réservations, chaînage et messages d’action » dans « Détails de conception : planification des approvisionnements ».  
+Depuis [!INCLUDE[prod_short](includes/prod_short.md)] 3.60, la fonctionnalité de traçabilité est intégrée au système de réservation, qui traite la réservation, le chaînage et les messages d’action. Pour plus d’informations, voir « Détails de conception : réservations, chaînage et messages d’action » dans « Détails de conception : planification des approvisionnements ».  
 
-Ce dernier design incorpore les écritures de suivi d’article dans les calculs de disponibilité totaux dans tout le système, y compris la planification, la fabrication, et l’entreposage. L’ancien concept d’indiquer les numéros de série et de lot des écritures comptables article est réintroduit pour assurer un accès simple aux données historiques pour la traçabilité. En relation avec les améliorations de traçabilité dans [!INCLUDE[d365fin](includes/d365fin_md.md)] 3.60, le système de réservation a été étendu aux entités réseau sans rapport avec les commandes, telles que les feuilles, les factures et les avoirs.  
+Ce dernier design incorpore les écritures de suivi d’article dans les calculs de disponibilité totaux dans tout le système, y compris la planification, la fabrication, et l’entreposage. L’ancien concept d’indiquer les numéros de série et de lot des écritures comptables article est réintroduit pour assurer un accès simple aux données historiques pour la traçabilité. En relation avec les améliorations de traçabilité dans [!INCLUDE[prod_short](includes/prod_short.md)] 3.60, le système de réservation a été étendu aux entités réseau sans rapport avec les commandes, telles que les feuilles, les factures et les avoirs.  
 
 Avec l’ajout de numéros de série ou de lot, le système de réservation gère les attributs d’article permanents tout en gérant également les liens intermittents entre l’approvisionnement et la demande sous la forme d’écritures de suivi de commande et d’écritures de réservation. Il existe une autre caractéristique qui différencie les numéros de série ou de lot des données de réservation conventionnelles : leur validation peut être effectuée partiellement ou en totalité. Par conséquent, le tableau **Écriture réservation** (T337) s’exécute à présent avec un tableau lié, le tableau **Spécification traçabilité** (T336), qui gère et affiche l’ajout à travers les quantités de suivi article validées. Pour plus d’informations, voir [Détails de conception : comparaison entre écritures traçabilité actives et historiques](design-details-active-versus-historic-item-tracking-entries.md).  
 
-Le schéma suivant explique la conception de la fonctionnalité de traçabilité dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Le schéma suivant explique la conception de la fonctionnalité de traçabilité dans [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ![Exemple de flux de traçabilité](media/design_details_item_tracking_design.png "Exemple de flux de traçabilité")  
 
 L’objet de validation principal est remodelé pour gérer la sous-classification unique d’une ligne document sous forme de numéros de série ou de lot, et des tables de lien spéciales sont ajoutées pour créer une relation un à plusieurs entre les documents validés et leurs écritures comptables article et écritures comptables de valeur divisées.  
 
-Codeunit 22, **Feuille article – Valider ligne** , fractionne alors la validation en fonction des numéros traçabilité qui sont indiqués sur la ligne document. Chaque numéro traçabilité unique sur la ligne crée sa propre écriture comptable article pour l’article. Cela signifie que le lien de la ligne de document validée vers les écritures comptables article associées est à présent une relation une-à-plusieurs. Cette relation est traitée par les tableaux de relation de suivi d’article suivants.  
+Codeunit 22, **Feuille article – Valider ligne**, fractionne alors la validation en fonction des numéros traçabilité qui sont indiqués sur la ligne document. Chaque numéro traçabilité unique sur la ligne crée sa propre écriture comptable article pour l’article. Cela signifie que le lien de la ligne de document validée vers les écritures comptables article associées est à présent une relation une-à-plusieurs. Cette relation est traitée par les tableaux de relation de suivi d’article suivants.  
 
 |Champ|Désignation|  
 |---------------|---------------------------------------|  

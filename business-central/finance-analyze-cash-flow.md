@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 26df3104e99d9e6f647331c48b5a03f8f87c81a3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f3f7e9c33e5dab3de6461fcda5732168f0e6e89b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913511"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751045"
 ---
 # <a name="analyzing-cash-flow-in-your-company"></a>Analyse de la trésorerie dans votre société
 Les graphiques du tableau de bord Comptable offrent des analyses qui peuvent vous aider à prendre des décisions judicieuses sur les opérations à effectuer avec votre trésorerie.  
@@ -29,14 +29,14 @@ Les graphiques du tableau de bord Comptable offrent des analyses qui peuvent vou
 | Les numéros semblent-ils décalés pour une période ?</br> Devrais-je effectuer des recherches ? |Revenus et dépenses |
 | Quand un excédent ou un déficit de trésorerie peut-il se produire ?</br> Dois-je rembourser la dette, ou emprunter pour prendre en charge les frais suivants ? |Prévisions de la trésorerie |
 
-Dans le tableau de bord Comptable, sous **Performances financières** , **Cycle trésorerie** , **Trésorerie** et **Revenus et dépenses** , les graphiques offrent des méthodes pour analyser la trésorerie :  
+Dans le tableau de bord Comptable, sous **Performances financières**, **Cycle trésorerie**, **Trésorerie** et **Revenus et dépenses**, les graphiques offrent des méthodes pour analyser la trésorerie :  
 
 * Consultez les chiffres pour une période à l’aide du curseur de la chronologie.  
 * Filtrez le graphique en sélectionnant la source dans la légende.  
-* Modifiez la durée de la période, ou accédez à la période précédente ou suivante, en choisissant les options du menu déroulant **Performances financières** .  
+* Modifiez la durée de la période, ou accédez à la période précédente ou suivante, en choisissant les options du menu déroulant **Performances financières**.  
 * Affichez les écritures en sélectionnant un point dans le graphique. Par exemple, un point de la chronologie ou un segment de colonne. Si des numéros semblent décalés, vous devez alors effectuer des ajustements.  
 
-Même si le graphique **Prévision de trésorerie** est séparé, il est pourtant semblable. Vous pouvez visualiser les détails, filtrer les résultats et modifier ce qui est affiché de la même manière. Si vous modifiez un paramètre, vous pouvez actualiser la prévision en choisissant **Prévision de trésorerie** , puis **Recalculer la prévision** .
+Même si le graphique **Prévision de trésorerie** est séparé, il est pourtant semblable. Vous pouvez visualiser les détails, filtrer les résultats et modifier ce qui est affiché de la même manière. Si vous modifiez un paramètre, vous pouvez actualiser la prévision en choisissant **Prévision de trésorerie**, puis **Recalculer la prévision**.
 
 Si vous souhaitez vérifier la prévision, outre les écritures de prévision, vous pouvez également consulter la feuille d’activité de trésorerie. Par exemple, vous pouvez voir comment les prévisions :
 
@@ -45,13 +45,13 @@ Si vous souhaitez vérifier la prévision, outre les écritures de prévision, v
 * Ignore les commandes ventes et les commandes achats en double.  
 
 ## <a name="to-view-a-cash-flow-worksheet"></a>Pour afficher une feuille d’activité de trésorerie
-1. Recherchez **Prévisions de trésorerie** , puis sélectionnez le lien associé.  
-2. Choisissez une prévision de trésorerie, puis sélectionnez l’option **Feuille trésorerie** .  
-3. Sur la page **Feuille trésorerie** , sélectionnez l’action **Proposer lignes feuille activité** .  
+1. Recherchez **Prévisions de trésorerie**, puis sélectionnez le lien associé.  
+2. Choisissez une prévision de trésorerie, puis sélectionnez l’option **Feuille trésorerie**.  
+3. Sur la page **Feuille trésorerie**, sélectionnez l’action **Proposer lignes feuille activité**.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Voir aussi
 [Configuration de Finance](finance-setup-finance.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Configuration d’une analyse de trésorerie](finance-setup-cash-flow-analyses.md)  

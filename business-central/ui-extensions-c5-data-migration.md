@@ -10,19 +10,19 @@ ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: fb71224df8730c68fb5c56c255353a05a7846eed
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0f257b81f1e36e86e40e67ca8ba07169ec22d938
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912384"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747608"
 ---
 # <a name="the-c5-data-migration-extension"></a>Extension C5 Data Migration
 
-Cette extension facilite la migration de clients, de fournisseurs, d’articles et de vos comptes généraux de Microsoft Dynamics C5 2012 vers [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vous pouvez également migrer des écritures historiques pour des comptes généraux.
+Cette extension facilite la migration de clients, de fournisseurs, d’articles et de vos comptes généraux de Microsoft Dynamics C5 2012 vers [!INCLUDE[prod_short](includes/prod_short.md)]. Vous pouvez également migrer des écritures historiques pour des comptes généraux.
 
 > [!Note]
-> La société dans [!INCLUDE[d365fin](includes/d365fin_md.md)] ne doit pas contenir de données. En outre, après avoir commencé une migration, ne créez pas de clients, de fournisseurs, d’articles, ou de comptes jusqu’à la fin de la migration.
+> La société dans [!INCLUDE[prod_short](includes/prod_short.md)] ne doit pas contenir de données. En outre, après avoir commencé une migration, ne créez pas de clients, de fournisseurs, d’articles, ou de comptes jusqu’à la fin de la migration.
 
 ## <a name="what-data-is-migrated"></a>Quelles données sont migrées ?
 Les données suivantes sont migrées pour chaque entité :
@@ -96,18 +96,18 @@ Si vous migrez des comptes, les données suivantes sont également migrées :
 * Transactions comptables historiques  
 
 > [!Note]
-> Les transactions comptables historiques sont traitées un peu différemment. Lorsque vous migrez des données, vous définissez un paramètre **Période courante** . Ce paramètre spécifie comment traiter les transactions comptables. Les transactions postérieures à cette date sont migrées individuellement. Les transactions antérieures à cette date sont regroupées par compte et migrées en tant que montant unique. Par exemple, supposons qu’il existe des transactions en 2015, 2016, 2017, 2018 et que vous spécifiez le 01 janvier 2017 dans le champ Période courante. Pour chaque compte, les montants des transactions effectuées au plus tard le 31 décembre 2106 sont regroupés sur une ligne feuille comptabilité unique pour chaque compte général. Toutes les transactions postérieures à cette date sont migrées individuellement.
+> Les transactions comptables historiques sont traitées un peu différemment. Lorsque vous migrez des données, vous définissez un paramètre **Période courante**. Ce paramètre spécifie comment traiter les transactions comptables. Les transactions postérieures à cette date sont migrées individuellement. Les transactions antérieures à cette date sont regroupées par compte et migrées en tant que montant unique. Par exemple, supposons qu’il existe des transactions en 2015, 2016, 2017, 2018 et que vous spécifiez le 01 janvier 2017 dans le champ Période courante. Pour chaque compte, les montants des transactions effectuées au plus tard le 31 décembre 2106 sont regroupés sur une ligne feuille comptabilité unique pour chaque compte général. Toutes les transactions postérieures à cette date sont migrées individuellement.
 
 ## <a name="file-size-requirements"></a>Besoins de taille de fichier
 
-La plus grande taille de fichier que vous pouvez télécharger dans [!INCLUDE[d365fin](includes/d365fin_md.md)] est de 150 Mo. Si le fichier que vous exportez de C5 est supérieur à cela, envisagez de migrer les données dans plusieurs fichiers. Par exemple, exportez un ou deux types d’entités de C5, tels que les clients et les fournisseurs, dans un fichier, puis exportez les articles vers un autre fichier, etc.. Vous pouvez importer des fichiers individuellement dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
+La plus grande taille de fichier que vous pouvez télécharger dans [!INCLUDE[prod_short](includes/prod_short.md)] est de 150 Mo. Si le fichier que vous exportez de C5 est supérieur à cela, envisagez de migrer les données dans plusieurs fichiers. Par exemple, exportez un ou deux types d’entités de C5, tels que les clients et les fournisseurs, dans un fichier, puis exportez les articles vers un autre fichier, etc.. Vous pouvez importer des fichiers individuellement dans [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## <a name="to-migrate-data"></a>Pour migrer des données
 
-Quelques étapes suffisent pour exporter des données de C5 et les importer dans [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
+Quelques étapes suffisent pour exporter des données de C5 et les importer dans [!INCLUDE[prod_short](includes/prod_short.md)]:  
 
 1. Dans C5, utilisez la fonctionnalité **Exporter la base de données** pour exporter les données. Envoyez ensuite le fichier d’exportation vers un fichier compressé (zippé).  
-2. Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Migration des données** , puis sélectionnez **Migration des données** .  
+2. Dans [!INCLUDE[prod_short](includes/prod_short.md)], choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Migration des données**, puis sélectionnez **Migration des données**.  
 3. Exécutez les étapes du guide de configuration assistée. Veillez à choisir **Importer à partir de Microsoft Dynamcis C5 2012** comme source de données.  
 
 ## <a name="viewing-the-status-of-the-migration"></a>Affichage du statut de la migration
@@ -127,24 +127,24 @@ Pour éviter la double validation en comptabilité, les comptes de contrepartie 
 
 ## <a name="correcting-errors"></a>Correction des erreur
 
-Si quelque chose se passe mal et qu’une erreur survient, le champ **Statut** affiche **Terminé avec des erreurs** , et le champ **Nombre d’erreurs** en indique le nombre. Pour afficher la liste des erreurs, vous pouvez ouvrir la page **Erreurs de migration des données** en sélectionnant :  
+Si quelque chose se passe mal et qu’une erreur survient, le champ **Statut** affiche **Terminé avec des erreurs**, et le champ **Nombre d’erreurs** en indique le nombre. Pour afficher la liste des erreurs, vous pouvez ouvrir la page **Erreurs de migration des données** en sélectionnant :  
 
 * le nombre dans le champ **Nombre d’erreurs** pour l’entité.  
-* l’entité, puis l’action **Afficher les erreurs** .  
+* l’entité, puis l’action **Afficher les erreurs**.  
 
-Sur la page **Erreurs de migration des données** , pour corriger une erreur vous pouvez sélectionner un message d’erreur, puis **Modifier l’enregistrement** pour afficher les données migrées pour l’entité. Si vous avez plusieurs erreurs à résoudre, vous pouvez choisir **Erreurs de correction en bloc** pour modifier les entités dans la liste. Vous devez toujours ouvrir les enregistrements individuellement si l’erreur est due à une écriture associée. Par exemple, un fournisseur ne sera pas migré si une adresse e-mail de l’un de ses contacts a un format non valide.
+Sur la page **Erreurs de migration des données**, pour corriger une erreur vous pouvez sélectionner un message d’erreur, puis **Modifier l’enregistrement** pour afficher les données migrées pour l’entité. Si vous avez plusieurs erreurs à résoudre, vous pouvez choisir **Erreurs de correction en bloc** pour modifier les entités dans la liste. Vous devez toujours ouvrir les enregistrements individuellement si l’erreur est due à une écriture associée. Par exemple, un fournisseur ne sera pas migré si une adresse e-mail de l’un de ses contacts a un format non valide.
 
 Après avoir corrigé une ou plusieurs erreurs, vous pouvez sélectionner **Migrer** pour migrer uniquement les entités que vous avez corrigées, sans entièrement redémarrer la migration.  
 
 > [!Tip]
-> Si vous avez corrigé plusieurs erreur, vous pouvez utiliser la fonctionnalité **Sélectionner davantage** pour sélectionner plusieurs lignes à migrer. Sinon, s’il existe des erreurs qu’il n’est pas important de corriger, vous pouvez les sélectionner, puis cliquer sur **Ignorer les sélections** .
+> Si vous avez corrigé plusieurs erreur, vous pouvez utiliser la fonctionnalité **Sélectionner davantage** pour sélectionner plusieurs lignes à migrer. Sinon, s’il existe des erreurs qu’il n’est pas important de corriger, vous pouvez les sélectionner, puis cliquer sur **Ignorer les sélections**.
 
 > [!Note]
 > Si vous avez des articles inclus dans une nomenclature, vous pouvez être amené à effectuer la migration plus d’une fois si l’article d’origine n’est pas créé avant les variantes qui y font référence. Si une variante article est créée en premier lieu, la référence à l’article d’origine peut entraîner un message d’erreur.  
 
 ## <a name="verifying-data-after-migrating"></a>Vérifier les données après avoir effectué une migration
 
-Si vous souhaitez vérifier que vos données ont été migrées correctement, vous pouvez consulter les pages suivantes dans C5 et [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Si vous souhaitez vérifier que vos données ont été migrées correctement, vous pouvez consulter les pages suivantes dans C5 et [!INCLUDE[prod_short](includes/prod_short.md)].
 
 |Microsoft Dynamics C5 2012 | Dynamics 365 Business Central| Traitement par lots à utiliser |
 |---------------------------|------------------------------|------------------|
@@ -155,9 +155,9 @@ Si vous souhaitez vérifier que vos données ont été migrées correctement, vo
 
 ## <a name="stopping-data-migration"></a>Arrêter la migration des données
 
-Vous pouvez arrêter de migrer les données en sélectionnant **Arrêter toutes les migrations** . Si vous le faites, toutes les migrations en attente sont également arrêtées.
+Vous pouvez arrêter de migrer les données en sélectionnant **Arrêter toutes les migrations**. Si vous le faites, toutes les migrations en attente sont également arrêtées.
 
 ## <a name="see-also"></a>Voir aussi
 
-[Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l’aide d’extensions](ui-extensions.md)  
+[Personnalisation de [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide d’extensions](ui-extensions.md)  
 [Mise en route](product-get-started.md)  

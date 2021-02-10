@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: move, warehouse
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 79dfe973780269480285bac6aca380461b1ab403
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f406a44a3d786c06ea1ac1e61d5b51bb97b67f12
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913311"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746156"
 ---
 # <a name="transfer-inventory-between-locations"></a>Transfert de stock entre des magasins
 Vous pouvez transférer des articles en stock entre des magasins en créant des ordres de transfert. Vous pouvez également utiliser la feuille reclassement article.
 
 Avec des ordres de transfert, vous pouvez expédier un transfert désenlogement à partir d’un magasin et recevoir un transfert enlogement à l’autre magasin. Cela vous permet de gérer les activités entrepôt impliquées et garantit que les quantités en stock sont mises à jour correctement.
 
-Avec la feuille reclassement, il vous suffit de renseigner les champs **Code magasin** et **Nouveau code magasin** . Lorsque vous validez la feuille, les écritures comptables article sont ajustées dans les magasins en question. Avec cette méthode, les activités entrepôt ne sont pas traitées.
+Avec la feuille reclassement, il vous suffit de renseigner les champs **Code magasin** et **Nouveau code magasin**. Lorsque vous validez la feuille, les écritures comptables article sont ajustées dans les magasins en question. Avec cette méthode, les activités entrepôt ne sont pas traitées.
 
 > [!NOTE]  
 >   Si vous avez des articles stockés dans votre stock sans code magasin, par exemple datant d’une période où vous n’aviez qu’un seul entrepôt, vous ne pouvez pas transférer ces articles en utilisant des ordres de transfert. Au lieu de cela, vous devez utiliser la feuille reclassement pour reclasser les articles à partir d’un code magasin vide ver un code d’emplacement réel.  Pour plus d’informations, voir l’étape 3 dans [Pour transférer des articles avec la feuille reclassement article](inventory-how-transfer-between-locations.md#to-transfer-items-with-the-item-reclassification-journal).
@@ -30,39 +30,39 @@ Avec la feuille reclassement, il vous suffit de renseigner les champs **Code mag
 Pour transférer des articles, des acheminements transfert et magasins doivent être créés. Pour plus d’informations, reportez-vous à [Configurer des magasins](inventory-how-setup-locations.md).
 
 ## <a name="to-transfer-items-with-a-transfer-order"></a>Pour transférer des articles avec un ordre de transfert
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Ordres de transfert** , puis sélectionnez le lien associé.
-2. Dans l’en-tête de la page **Ordre de transfert** , renseignez les champs comme nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Ordres de transfert**, puis sélectionnez le lien associé.
+2. Dans l’en-tête de la page **Ordre de transfert**, renseignez les champs comme nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
-    >   Si vous avez renseigné les champs **Code transit** , **Code transporteur** , et **Code prestation transporteur** sur la page **Spéc. acheminement transfert** lors de la configuration de l’acheminement transfert ; ensuite les champs correspondants sur l’ordre de transfert sont renseignés automatiquement.
+    >   Si vous avez renseigné les champs **Code transit**, **Code transporteur**, et **Code prestation transporteur** sur la page **Spéc. acheminement transfert** lors de la configuration de l’acheminement transfert ; ensuite les champs correspondants sur l’ordre de transfert sont renseignés automatiquement.
 
-    Lorsque vous renseignez le champ **Code prestation transporteur** , le programme calcule la date de réception au magasin de destination en ajoutant le délai d’expédition de la prestation transporteur à la date d’expédition.
+    Lorsque vous renseignez le champ **Code prestation transporteur**, le programme calcule la date de réception au magasin de destination en ajoutant le délai d’expédition de la prestation transporteur à la date d’expédition.
 
-3. Pour renseigner les lignes, saisissez manuellement les données ou choisissez l’une des options suivantes sous l’action **Fonctions**  :
+3. Pour renseigner les lignes, saisissez manuellement les données ou choisissez l’une des options suivantes sous l’action **Fonctions** :
     - Choisissez l’action **Extraire contenu emplacement** pour sélectionner des éléments existants dans un emplacement spécifique.
     - Choisissez l’action **Extraire lignes réception** pour sélectionner les éléments qui viennent d’arriver dans le magasin provenance transfert.   
 
     En tant que magasinier dans le magasin provenance transfert, continuez à expédier les articles.
-4. Cliquez sur **Valider** , choisissez l’option **Expédition** , puis cliquez sur le bouton **OK** .
+4. Cliquez sur **Valider**, choisissez l’option **Expédition**, puis cliquez sur le bouton **OK**.
 
     Les articles sont à présent en transit entre les magasins spécifiés, selon l’acheminement transfert spécifié.
 
     En tant que magasinier dans le magasin provenance transfert, continuez à recevoir les articles. Les lignes Ordre transfert sont les mêmes que lors de l’expédition et ne peuvent pas être modifiées.
-5. Cliquez sur **Valider** , choisissez l’option **Réception** , puis cliquez sur le bouton **OK** .
+5. Cliquez sur **Valider**, choisissez l’option **Réception**, puis cliquez sur le bouton **OK**.
 
 ## <a name="to-transfer-items-with-the-item-reclassification-journal"></a>Pour transférer des articles avec la feuille reclassement article
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles reclassement article** , puis sélectionnez le lien associé.
-2. Sur la page **Feuilles reclassement article** , renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Dans le champ **Code magasin** , entrez le magasin où les articles sont actuellement stockés.
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles reclassement article**, puis sélectionnez le lien associé.
+2. Sur la page **Feuilles reclassement article**, renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Dans le champ **Code magasin**, entrez le magasin où les articles sont actuellement stockés.
 
     > [!NOTE]  
     >   Pour transférer les articles qui n’ont aucun code magasin, laissez le champ **Code magasin** vide.
-4. Dans le champ **Nouveau Code magasin** , indiquez le magasin vers lequel vous souhaitez transférer les articles.
-5. Sélectionnez l’action **Valider** .
+4. Dans le champ **Nouveau Code magasin**, indiquez le magasin vers lequel vous souhaitez transférer les articles.
+5. Sélectionnez l’action **Valider**.
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion du stock](inventory-manage-inventory.md)  
 [Configurer des magasins](inventory-how-setup-locations.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Modifier les fonctionnalités affichées](ui-experiences.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)

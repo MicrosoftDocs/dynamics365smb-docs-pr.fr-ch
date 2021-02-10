@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5dda40147d86bbe67e3eb20860ffa4648e2e9918
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 9165a7392f5c95b2ebb8a056f69be49d93476b66
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913928"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747381"
 ---
 # <a name="sell-assemble-to-order-items-and-inventory-items-together"></a>Vente simultanée d’articles à assembler pour commande et d’articles en stock
-Si le champ **Stratégie d’assemblage** de la fiche article d’un élément d’assemblage indique **Assembler pour stock** , le processus par défaut de commande vente se base sur l’hypothèse que l’article est déjà assemblé et peut être prélevé du stock, s’il est disponible. Par conséquent, aucun ordre d’assemblage n’est automatiquement créé et n’est lié à la ligne commande vente. Toutefois, si une partie (ou la totalité) de la quantité n’est pas disponible, vous avez la possibilité de créer un ordre d’assemblage pour la quantité restante lorsque vous renseignez le champ **Quantité à assembler pour commande** de la ligne commande vente. De cette manière, vous pouvez assembler l’article à commander même s’il est configuré pour être assemblé pour stock par défaut.  
+Si le champ **Stratégie d’assemblage** de la fiche article d’un élément d’assemblage indique **Assembler pour stock**, le processus par défaut de commande vente se base sur l’hypothèse que l’article est déjà assemblé et peut être prélevé du stock, s’il est disponible. Par conséquent, aucun ordre d’assemblage n’est automatiquement créé et n’est lié à la ligne commande vente. Toutefois, si une partie (ou la totalité) de la quantité n’est pas disponible, vous avez la possibilité de créer un ordre d’assemblage pour la quantité restante lorsque vous renseignez le champ **Quantité à assembler pour commande** de la ligne commande vente. De cette manière, vous pouvez assembler l’article à commander même s’il est configuré pour être assemblé pour stock par défaut.  
 
 Une flexibilité similaire existe lorsque vous vendez des articles à assembler pour la commande et qu’une partie de la quantité est en stock, à déduire de l’ordre de assemblage. Pour plus d’informations, voir [Vente d’articles en stock dans des flux à assembler pour commande](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
 
@@ -31,7 +31,7 @@ Une flexibilité similaire existe lorsque vous vendez des articles à assembler 
 ## <a name="to-sell-assemble-to-order-items-and-inventory-items-together"></a>Pour vendre des articles à assembler pour commande et des articles de stock ensemble  
 1.  Sur une ligne de commande vente pour un article qui est configuré pour un assemblage pour stock, entrez une quantité dans le champ **Quantité** qui est supérieure au stock. La page **Vérifier disponibilité** s’affiche. Pour plus d’informations, voir [Voir la disponibilité des articles](inventory-how-availability-overview.md).
 2.  Notez le champ **Quantité totale** (une valeur négative), que vous entrerez dans l’étape suivante.  
-3.  Dans le champ **Quantité à assembler pour commande** , entrez la valeur de l’étape précédente.  
+3.  Dans le champ **Quantité à assembler pour commande**, entrez la valeur de l’étape précédente.  
 4.  Exécutez toutes les modifications dans les composants d’assemblage. Pour plus d’informations, reportez-vous à [Vente d’articles à assembler pour commande](assembly-how-to-sell-items-assembled-to-order.md).  
 5.  Lancez la commande vente, pour la préparer au prélèvement des articles en stock et à l’assemblage des articles indisponibles. Pour plus d’informations sur les étapes d’assemblage standard, voir [Assembler des articles](assembly-how-to-assemble-items.md).  
 
@@ -43,4 +43,4 @@ Une flexibilité similaire existe lorsque vous vendez des articles à assembler 
 [Utiliser les nomenclatures](inventory-how-work-BOMs.md)  
 [STOCKS ET EN-COURS](inventory-manage-inventory.md)  
 [Détails de conception : gestion d’entrepôt](design-details-warehouse-management.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

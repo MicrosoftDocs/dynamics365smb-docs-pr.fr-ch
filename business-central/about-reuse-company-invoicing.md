@@ -10,43 +10,43 @@ ms.workload: na
 ms.search.keywords: Invoicing, Microsoft 365
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 90f5f913fdaa96b2d4c4a057cc675e3a9edcc95c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4267dfb550fb4e8ccf2181762b2b5edcbd0fc188
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914454"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753582"
 ---
-# <a name="using-the-same-microsoft-365-account-in-d365fin-and-microsoft-invoicing"></a>Utilisation du même compte Microsoft 365 dans [!INCLUDE[d365fin](includes/d365fin_long_md.md)] et Microsoft Invoicing
-Lorsque vous êtes inscrit à une version d’évaluation avec [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez passer à une phase d’évaluation de 30 jours, démarrer un abonnement ou encore l’arrêter à l’aide de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dans tous les cas, vous avez peut-être à un moment donné vu quelque chose appelé **Microsoft Invoicing** et cliqué dessus. Il s’agissait d’une application qui faisait partie de ce qui est maintenant Microsoft 365 Business Standard et était anciennement connue sous le nom de Microsoft 365 Abonnement Business Premium, donc tout le monde n’aura pas vu cette mosaïque au cours de son expérience Microsoft 365.  
+# <a name="using-the-same-microsoft-365-account-in-prod_short-and-microsoft-invoicing"></a>Utilisation du même compte Microsoft 365 dans [!INCLUDE[prod_short](includes/prod_long.md)] et Microsoft Invoicing
+Lorsque vous êtes inscrit à une version d’évaluation avec [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez passer à une phase d’évaluation de 30 jours, démarrer un abonnement ou encore l’arrêter à l’aide de [!INCLUDE[prod_short](includes/prod_short.md)]. Dans tous les cas, vous avez peut-être à un moment donné vu quelque chose appelé **Microsoft Invoicing** et cliqué dessus. Il s’agissait d’une application qui faisait partie de ce qui est maintenant Microsoft 365 Business Standard et était anciennement connue sous le nom de Microsoft 365 Abonnement Business Premium, donc tout le monde n’aura pas vu cette mosaïque au cours de son expérience Microsoft 365.  
 
-Microsoft Invoicing n’est plus disponible, mais si vous devez vous connecter à Invoicing pour récupérer vos données, un message vous indiquant que vous ne pouvez pas accéder à Microsoft Invoicing car votre compte est utilisé dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Microsoft Invoicing n’est plus disponible, mais si vous devez vous connecter à Invoicing pour récupérer vos données, un message vous indiquant que vous ne pouvez pas accéder à Microsoft Invoicing car votre compte est utilisé dans [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Un message similaire s’affiche si vous installez l’application mobile pour Invoicing.  
 
 ## <a name="workaround"></a>Solution de contournement
-Invoicing et [!INCLUDE[d365fin](includes/d365fin_md.md)] ont une plate-forme partagée. Cela signifie que vous êtes reconnu en tant qu’utilisateur existant de [!INCLUDE[d365fin](includes/d365fin_md.md)] lorsque vous cliquez sur Facturation dans Centre d’administration Microsoft 365. Invoicing ne peut pas utiliser la même société que [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Invoicing et [!INCLUDE[prod_short](includes/prod_short.md)] ont une plate-forme partagée. Cela signifie que vous êtes reconnu en tant qu’utilisateur existant de [!INCLUDE[prod_short](includes/prod_short.md)] lorsque vous cliquez sur Facturation dans Centre d’administration Microsoft 365. Invoicing ne peut pas utiliser la même société que [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-Vous devez donc vous connecter à [!INCLUDE[d365fin](includes/d365fin_md.md)] et renommer votre société existante, puis créer une nouvelle société que vous pourrez alors utiliser dans Invoicing. Aucune donnée n’est déplacée ou remplacée au cours de cette opération.
+Vous devez donc vous connecter à [!INCLUDE[prod_short](includes/prod_short.md)] et renommer votre société existante, puis créer une nouvelle société que vous pourrez alors utiliser dans Invoicing. Aucune donnée n’est déplacée ou remplacée au cours de cette opération.
 
 ### <a name="to-rename-your-company"></a>Pour renommer votre société
-1. Connectez-vous à [!INCLUDE[d365fin](includes/d365fin_md.md)].
-2. Dans le coin supérieur droit, sélectionnez l’icône **Paramètres** ![Paramètres](media/ui-experience/settings_icon_small.png "Icône Paramètres du tableau de bord"), puis choisissez **Mes paramètres** .
-3. Dans le champ **Société** , sélectionnez une autre société.
-4. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Sociétés** , puis sélectionnez le lien associé.  
-5. Sur la page **Sociétés** , sélectionnez le bouton **Modifier la liste** .  
+1. Connectez-vous à [!INCLUDE[prod_short](includes/prod_short.md)].
+2. Dans le coin supérieur droit, sélectionnez l’icône **Paramètres** ![Paramètres](media/ui-experience/settings_icon_small.png "Icône Paramètres du tableau de bord"), puis choisissez **Mes paramètres**.
+3. Dans le champ **Société**, sélectionnez une autre société.
+4. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Sociétés**, puis sélectionnez le lien associé.  
+5. Sur la page **Sociétés**, sélectionnez le bouton **Modifier la liste**.  
 6. Remplacez le nom de l’entrée *Ma société* par un autre nom.  
 
     Patientez quelques minutes. Nous apporterons plusieurs modifications à la base de données sous-jacente, et cette opération prendra un certain temps.
-7.  Lorsque le système est à nouveau prêt, sélectionnez le bouton **Créer une nouvelle société** .  
-8.  Dans la boîte de dialogue qui s’affiche, entrez *Ma société* comme nom et sélectionnez l’option **Production - Données de configuration uniquement** .  
+7.  Lorsque le système est à nouveau prêt, sélectionnez le bouton **Créer une nouvelle société**.  
+8.  Dans la boîte de dialogue qui s’affiche, entrez *Ma société* comme nom et sélectionnez l’option **Production - Données de configuration uniquement**.  
 
 Cette opération prend plusieurs minutes. Lorsque le processus est terminé, vous pouvez accéder à Invoicing dans le cadre de votre expérience Microsoft 365 Business Standard. Mais uniquement pour exporter des données, car l’application Facturation est obsolète.  
 
 ### <a name="what-about-my-data"></a>Qu’en est-il de mes données ?
-Lorsque vous renommez la société d’origine, les tables de la base de données qui stockent vos données [!INCLUDE[d365fin](includes/d365fin_md.md)] existantes sont renommées, mais les données proprement dites sont conservées.  
+Lorsque vous renommez la société d’origine, les tables de la base de données qui stockent vos données [!INCLUDE[prod_short](includes/prod_short.md)] existantes sont renommées, mais les données proprement dites sont conservées.  
 
-Si vous utilisez Invoicing et [!INCLUDE[d365fin](includes/d365fin_md.md)], les données sont stockées dans deux conteneurs différents (les deux sociétés). Aucun donnée n’est partagée, vous devrez donc gérer les clients et les articles dans les deux sociétés.  
+Si vous utilisez Invoicing et [!INCLUDE[prod_short](includes/prod_short.md)], les données sont stockées dans deux conteneurs différents (les deux sociétés). Aucun donnée n’est partagée, vous devrez donc gérer les clients et les articles dans les deux sociétés.  
 
 ## <a name="see-also"></a>Voir aussi
 [Forum Aux Questions](across-faq.md)  

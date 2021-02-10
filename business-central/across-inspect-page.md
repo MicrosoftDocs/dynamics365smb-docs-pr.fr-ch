@@ -10,12 +10,12 @@ ms.service: dynamics365-business-central
 author: jswymer
 ms.author: jswymer
 ms.date: 10/01/2020
-ms.openlocfilehash: f56dbf4546f5f1b466b23c3bd2794d3c4ffe02c3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d80baed51b646b389f9dd86540cc993c212be09b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924718"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754407"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Inspection des pages dans Business Central
 
@@ -23,26 +23,26 @@ La fonction Inspection des pages vous permet d’obtenir des détails sur une pa
 
 ## <a name="working-with-page-inspection"></a>Utilisation de la fonction Inspection des pages
 
-Vous commencez l’inspection des pages dans la page **Aide et support** . Cliquez sur le point d’interrogation dans le coin supérieur droit, sur **Aide et support** , puis sur **Inspecter les pages et les données** . Sinon, vous pouvez utiliser le raccourci clavier **Ctrl+Alt+F1** .
+Vous commencez l’inspection des pages dans la page **Aide et support**. Cliquez sur le point d’interrogation dans le coin supérieur droit, sur **Aide et support**, puis sur **Inspecter les pages et les données**. Sinon, vous pouvez utiliser le raccourci clavier **Ctrl+Alt+F1**.
 
-Le volet **Inspection des pages** s’ouvre sur le côté. La figure suivante illustre le volet **Inspection des pages** sur la page **Commande vente** .
+Le volet **Inspection des pages** s’ouvre sur le côté. La figure suivante illustre le volet **Inspection des pages** sur la page **Commande vente**.
 
 ![Inspection des pages](media/page-inspection-example.png)
 
 Lorsque le volet **Inspection des pages** s’ouvre pour la première fois, il affiche les informations qui concernent le principal objet de la page.
 
-Utilisez le clavier ou le dispositif de pointage pour déplacer le focus vers différents éléments de la page. Lorsque vous sélectionnez un élément de type Récapitulatif ou une partie de la page principale, la zone de délimitation est mise en avant par une bordure, et le volet **Inspection des pages** présente les informations relatives à l’élément sélectionné. Par exemple, l’image précédente présente les informations relatives à la partie de la liste sur la page **Commande vente** . Comme vous accédez à d’autres pages de l’application, le volet **Inspection des pages** se met automatiquement à jour avec les informations de la page au fur et à mesure de votre navigation.
+Utilisez le clavier ou le dispositif de pointage pour déplacer le focus vers différents éléments de la page. Lorsque vous sélectionnez un élément de type Récapitulatif ou une partie de la page principale, la zone de délimitation est mise en avant par une bordure, et le volet **Inspection des pages** présente les informations relatives à l’élément sélectionné. Par exemple, l’image précédente présente les informations relatives à la partie de la liste sur la page **Commande vente**. Comme vous accédez à d’autres pages de l’application, le volet **Inspection des pages** se met automatiquement à jour avec les informations de la page au fur et à mesure de votre navigation.
 
 Pour en savoir plus sur ce que permet d’afficher la fonction d’inspection des pages, reportez-vous à la rubrique [Pages relatives à l’inspection et à la résolution des problèmes](/dynamics365/business-central/dev-itpro/developer/devenv-inspecting-pages) dans l’aide dédiée aux professionnels de l’informatique et aux développeurs Business Central.
 
-Si vous ne voyez pas les détails auxquels vous vous attendez sur le volet **Inspection des pages** , vous n’avez probablement pas les autorisations requises, comme le décrit la section suivante.
+Si vous ne voyez pas les détails auxquels vous vous attendez sur le volet **Inspection des pages**, vous n’avez probablement pas les autorisations requises, comme le décrit la section suivante.
 
 ## <a name="controlling-access-to-page-inspection-details"></a>Contrôle de l’accès aux détails relatifs à l’inspection des pages
 
-En tant qu’administrateur, vous pouvez contrôler l’accès aux détails complets qui s’affichent dans le volet **Inspection des pages** en configurant les autorisations des utilisateurs. Pour accorder une autorisation d’accès aux détails complets à un utilisateur, accordez l’autorisation **Exécuter** à l’utilisateur sur l’objet **Système** **5330** . Vous pouvez accorder cette autorisation à l’aide d’un ensemble d’autorisations (comme **Résolution de D365** ) ou d’un groupe d’utilisateurs (comme **Résolution de D365** ). Pour en savoir plus sur les autorisations, voir [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md).
+En tant qu’administrateur, vous pouvez contrôler l’accès aux détails complets qui s’affichent dans le volet **Inspection des pages** en configurant les autorisations des utilisateurs. Pour accorder une autorisation d’accès aux détails complets à un utilisateur, accordez l’autorisation **Exécuter** à l’utilisateur sur l’objet **Système** **5330**. Vous pouvez accorder cette autorisation à l’aide d’un ensemble d’autorisations (comme **Résolution de D365**) ou d’un groupe d’utilisateurs (comme **Résolution de D365**). Pour en savoir plus sur les autorisations, voir [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md).
 
-Les utilisateurs qui ne disposent pas des autorisations sur **Objet système 5330** peuvent toujours accéder au volet **Inspection des pages** , mais ils n’ont accès qu’aux champs **Page** et **Table** , qui présentent les détails de base qu’ils sont en mesure de transmettre à leur équipe de support technique.
+Les utilisateurs qui ne disposent pas des autorisations sur **Objet système 5330** peuvent toujours accéder au volet **Inspection des pages**, mais ils n’ont accès qu’aux champs **Page** et **Table**, qui présentent les détails de base qu’ils sont en mesure de transmettre à leur équipe de support technique.
 
 ## <a name="see-also"></a>Voir aussi
 
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

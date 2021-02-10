@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: affea21b7f6c6d59c609321d7bd3ceebfc6bedd1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ea9974a8fb63d4e119cdc8b78930fd94777e6a38
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920862"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749583"
 ---
 # <a name="design-details-warehouse-management"></a>Détails de conception : gestion d’entrepôt
-Cette documentation donne un aperçu des concepts et principes et qui sont utilisés dans les fonctionnalités de Warehouse Management dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Elle explique la conception derrière les fonctions entrepôt centrales et la manière dont l’entreposage s’intègre à d’autres fonctionnalités de chaîne d’approvisionnement.  
+Cette documentation donne un aperçu des concepts et principes et qui sont utilisés dans les fonctionnalités de Warehouse Management dans [!INCLUDE[prod_short](includes/prod_short.md)]. Elle explique la conception derrière les fonctions entrepôt centrales et la manière dont l’entreposage s’intègre à d’autres fonctionnalités de chaîne d’approvisionnement.  
 
 Pour différencier les différents niveaux de complexité de l’entreposage, ces documents sont divisés en deux groupes généraux, les configurations d’entrepôt de base et avancées, indiqués par les titres de section. Cette différenciation unique couvre différents niveaux de complexité tels que définis par les granules produit et la configuration du magasin. Pour plus d’informations, reportez\-vous à [Détails de conception : Paramètres entrepôt](design-details-warehouse-setup.md).  
 

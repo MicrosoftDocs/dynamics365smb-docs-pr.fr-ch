@@ -1,6 +1,6 @@
 ---
 title: Détails de conception - Vue d’ensemble d’entrepôt | Microsoft Docs
-description: Pour prendre en charge la manipulation physique des articles au niveau des zones et emplacements, toutes les informations doivent être suivies pour chaque transaction ou mouvement dans l’entrepôt. Ceci est géré dans la table **Écriture entrepôt** . Chaque transaction est enregistrée dans un historique des transactions entrepôt.
+description: Pour prendre en charge la manipulation physique des articles au niveau des zones et emplacements, toutes les informations doivent être suivies pour chaque transaction ou mouvement dans l’entrepôt. Ceci est géré dans la table **Écriture entrepôt**. Chaque transaction est enregistrée dans un historique des transactions entrepôt.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b265f8a910ba4d6e36856ce6d4485532b4e1337a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8842bd23f6d2d470599afe9b4382b35cec3d9251
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920837"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749558"
 ---
 # <a name="design-details-warehouse-overview"></a>Détails de conception : vue d’ensemble d’entrepôt
-Pour prendre en charge la manipulation physique des articles au niveau des zones et emplacements, toutes les informations doivent être suivies pour chaque transaction ou mouvement dans l’entrepôt. Ceci est géré dans la table **Écriture entrepôt** . Chaque transaction est enregistrée dans un historique des transactions entrepôt.  
+Pour prendre en charge la manipulation physique des articles au niveau des zones et emplacements, toutes les informations doivent être suivies pour chaque transaction ou mouvement dans l’entrepôt. Ceci est géré dans la table **Écriture entrepôt**. Chaque transaction est enregistrée dans un historique des transactions entrepôt.  
 
 Les documents d’entrepôt et une feuille entrepôt sont utilisés pour enregistrer des mouvements article dans l’entrepôt. Chaque fois qu’un article dans l’entrepôt est déplacé, accepté, rangé, prélevé, livré ou ajusté, les écritures entrepôt sont enregistrées pour stocker les informations physiques sur la zone, l’emplacement et la quantité.
 
@@ -31,7 +31,7 @@ La figure suivante présente les flux d’entrepôt courants.
 ![Vue d’ensemble des processus entrepôt](media/design_details_warehouse_management_overview.png "Vue d’ensemble des processus entrepôt")  
 
 ## <a name="basic-or-advanced-warehousing"></a>Entreposage de base ou avancé  
-La fonctionnalité d’entrepôt dans [!INCLUDE[d365fin](includes/d365fin_md.md)] peut être implémentée dans différents niveaux de complexité, selon les processus d’une société et le volume de commande. La principale différence est que les activités sont effectuées par commande dans l’entreposage de base, alors qu’elles sont regroupées pour plusieurs commandes dans l’entreposage avancé.  
+La fonctionnalité d’entrepôt dans [!INCLUDE[prod_short](includes/prod_short.md)] peut être implémentée dans différents niveaux de complexité, selon les processus d’une société et le volume de commande. La principale différence est que les activités sont effectuées par commande dans l’entreposage de base, alors qu’elles sont regroupées pour plusieurs commandes dans l’entreposage avancé.  
 
  Pour différencier les différents niveaux de complexité, ces documents font référence à deux dénominations générales de base, Basic et Advanced Warehousing. Cette différenciation unique couvre plusieurs niveaux de complexité tels que définis par les granules produit et la configuration du magasin, chacun étant pris en charge par différents documents d’interface utilisateur. Pour plus d’informations, reportez\-vous à [Détails de conception : Paramètres entrepôt](design-details-warehouse-setup.md).  
 
@@ -69,7 +69,7 @@ La fonctionnalité d’entrepôt dans [!INCLUDE[d365fin](includes/d365fin_md.md)
 Pour plus d’informations sur chaque document, reportez-vous aux rubriques correspondantes de la page.  
 
 ### <a name="terminology"></a>Terminologie  
-Pour s’aligner avec les concepts financiers d’achats et de ventes, la documentation d’entrepôt [!INCLUDE[d365fin](includes/d365fin_md.md)] fait référence aux termes suivants pour la circulation des articles dans l’entrepôt.  
+Pour s’aligner avec les concepts financiers d’achats et de ventes, la documentation d’entrepôt [!INCLUDE[prod_short](includes/prod_short.md)] fait référence aux termes suivants pour la circulation des articles dans l’entrepôt.  
 
 |Terme|Désignation|  
 |----------|---------------------------------------|  

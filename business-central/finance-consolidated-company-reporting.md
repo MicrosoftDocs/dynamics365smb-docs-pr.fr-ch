@@ -10,20 +10,20 @@ ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0961fb9cda09596e0c40ecd7f6478340d40f2e4d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6a2100a1f945153d9c89d3cd86fb5d16860c4930
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913411"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747106"
 ---
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Consolidation des données financières de plusieurs sociétés
 
-Certaines organisations utilisent [!INCLUDE [prodshort](includes/prodshort.md)] dans plusieurs centres de profit ou entités juridiques. D’autres utilisent [!INCLUDE [prodshort](includes/prodshort.md)] dans les filiales qui doivent rendre compte aux organisations mères. Dans les deux cas, les comptables utilisent des outils intégrés pour aider à consolider les données financières.  
+Certaines organisations utilisent [!INCLUDE [prod_short](includes/prod_short.md)] dans plusieurs centres de profit ou entités juridiques. D’autres utilisent [!INCLUDE [prod_short](includes/prod_short.md)] dans les filiales qui doivent rendre compte aux organisations mères. Dans les deux cas, les comptables utilisent des outils intégrés pour aider à consolider les données financières.  
 
 Vous pouvez consolider les écritures comptables d’au moins deux sociétés séparées (filiales) dans une société consolidée. Chaque société individuelle impliquée dans une consolidation est appelée centre de profit. La société résultant de la combinaison est appelée société consolidée.  
 
-Vous pouvez importer des données dans la société consolidée à partir d’autres sociétés de le même abonné [!INCLUDE [prodshort](includes/prodshort.md)], des abonnés ou des fichiers.  
+Vous pouvez importer des données dans la société consolidée à partir d’autres sociétés de le même abonné [!INCLUDE [prod_short](includes/prod_short.md)], des abonnés ou des fichiers.  
 
 Si les états financiers d’un centre de profit sont dans une devise différente de celle de la société consolidée, vous devez configurer les taux de change pour la consolidation.  
 
@@ -42,7 +42,7 @@ Vous configurez la société consolidée de la même manière que vous configure
 
 ## <a name="trial-balance"></a>Balance
 
-Si vous avez plusieurs sociétés dans [!INCLUDE[d365fin](includes/d365fin_md.md)], l’état **Balance consolidé** peut vous donner un aperçu de leur santé financière dans leur ensemble.  
+Si vous avez plusieurs sociétés dans [!INCLUDE[prod_short](includes/prod_short.md)], l’état **Balance consolidé** peut vous donner un aperçu de leur santé financière dans leur ensemble.  
 
 L’état regroupe les écritures comptables de chacune de vos sociétés dans une nouvelle société que vous créez pour stocker les données consolidées. Cette société est généralement appelée « société consolidée ». La société consolidée est un conteneur pour les données consolidées, et ne contient pas de données métier en temps réel. Les sociétés que vous incluez dans la société consolidée deviennent des **centres de profit** dans l’état. Pour plus d’informations, voir [Configurer la consolidation de la société](finance-consolidated-company-reporting-setup.md).  
 
@@ -52,21 +52,21 @@ Le processus de transfert des chiffres des centres de profit vers la société c
 
 ### <a name="to-test-the-data-before-you-consolidate"></a>Pour tester les données avant la consolidation
 
-Vous pouvez tester vos données avant de les transférer vers la société consolidée. [!INCLUDE[d365fin](includes/d365fin_md.md)] recherche des différences dans les informations des centres de profit et de la société consolidée. Par exemple, si les numéros de compte ou les codes axe sont différents. Vous devez corriger les erreurs avant d’exécuter l’état. Vous pouvez tester la base de données ou, si vous importez des données à partir d’un fichier XML, vous pouvez tester le fichier.  
+Vous pouvez tester vos données avant de les transférer vers la société consolidée. [!INCLUDE[prod_short](includes/prod_short.md)] recherche des différences dans les informations des centres de profit et de la société consolidée. Par exemple, si les numéros de compte ou les codes axe sont différents. Vous devez corriger les erreurs avant d’exécuter l’état. Vous pouvez tester la base de données ou, si vous importez des données à partir d’un fichier XML, vous pouvez tester le fichier.  
 
 1. Ouvrez la société consolidée.  
-2. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Centres de profit** , puis sélectionnez le lien associé.  
+2. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Centres de profit**, puis sélectionnez le lien associé.  
 3. Exécutez l’une des opérations suivantes :  
 
-    * Pour tester un fichier, choisissez l’action **Tester fichier** , entrez le nom du fichier à tester, puis choisissez **Imprimer** .  
-    * Pour tester la base de données, choisissez **Tester base de données** .  
+    * Pour tester un fichier, choisissez l’action **Tester fichier**, entrez le nom du fichier à tester, puis choisissez **Imprimer**.  
+    * Pour tester la base de données, choisissez **Tester base de données**.  
 
 ### <a name="run-the-consolidation"></a>Exécuter la consolidation
 
 Une fois les données testées, vous pouvez les transférer vers la société consolidée.  
 
 1. Connectez-vous à la société consolidée.  
-2. Dans le **Tableau de bord Comptable** , choisissez l’action **Exécuter la consolidation** .  
+2. Dans le **Tableau de bord Comptable**, choisissez l’action **Exécuter la consolidation**.  
 3. Renseignez les champs requis.  
 4. Dans la section Filtre, définissez un filtre pour le centre de profit ou le nom de l’entreprise concerné.  
 5. Planifiez éventuellement l’état à exécuter à une heure spécifique.  
@@ -100,14 +100,14 @@ Chaque compte s’affiche individuellement sur une ligne, selon la structure du 
 
 ## <a name="export-and-import-consolidated-data-between-databases"></a>Exporter et importer des données consolidées entre des bases de données
 
-Si les données d’un centre de profit se trouvent dans une autre base de données, vous devez exporter les données dans un fichier avant de les inclure dans la consolidation. Chaque société doit être exportée séparément. À cette fin, utilisez le traitement par lots **Exporter fichier consolidation** .  
+Si les données d’un centre de profit se trouvent dans une autre base de données, vous devez exporter les données dans un fichier avant de les inclure dans la consolidation. Chaque société doit être exportée séparément. À cette fin, utilisez le traitement par lots **Exporter fichier consolidation**.  
 
 > [!TIP]
 > Utilisez le même processus pour exporter les données consolidées qui doivent être soumises à Dynamics 365 Finance, par exemple si le centre de profit actuel est une filiale et que la société mère utilise Dynamics 365 Finance.
 
 Après l’exécution du traitement par lots, toutes les écritures des comptes généraux sont traitées. Pour chaque combinaison d’axe principal et date sélectionnés, la valeur des champs **Montant** des écritures est totalisée et exportée. La combinaison d’axe principal et date sélectionnés suivante qui a le même numéro de compte est traitée, puis les combinaisons ayant le numéro de compte suivant sont traitées, etc.  
 
-Les écritures exportées contiennent les champs suivants : **N° compte** , **Date comptabilisation** et **Montant** . Si des informations analytiques ont également été exportées, des codes axe et des sections analytiques sont également inclus.  
+Les écritures exportées contiennent les champs suivants : **N° compte**, **Date comptabilisation** et **Montant**. Si des informations analytiques ont également été exportées, des codes axe et des sections analytiques sont également inclus.  
 
 1. Pour chaque ligne exportée, si le total des champs **Montant** est un débit, le numéro de compte configuré dans le champ **Compte débit consolidation** du centre de profit est exporté vers la ligne. Si le total est un crédit, le numéro correspondant dans le champ **Compte crédit consolidation** est exporté vers la ligne.  
 2. La date utilisée pour chaque ligne exportée est la date de fin de la période ou, si le transfert est opéré chaque jour, la date du calcul.  
@@ -118,5 +118,5 @@ Les écritures exportées contiennent les champs suivants : **N° compte** , **
 
 [Configurer la consolidation de la société](finance-consolidated-company-reporting-setup.md)  
 [Gestion des transactions intersociétés](intercompany-manage.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Exportation de vos données métier vers Excel](about-export-data.md)

@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2ad867ebf705a4be3b544e017fe67f17d63e47b7
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6a716b25f3dfb25d2011fd12ed388fed5e1e98f9
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917591"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751845"
 ---
 # <a name="design-details-average-cost"></a>Détails de conception : coût moyen
-Le coût moyen d’un article est calculé avec une moyenne pondérée périodique, selon la période coût moyen qui est paramétrée dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Le coût moyen d’un article est calculé avec une moyenne pondérée périodique, selon la période coût moyen qui est paramétrée dans [!INCLUDE[prod_short](includes/prod_short.md)].  
 
  La date d’évaluation est définie automatiquement.  
 
@@ -36,7 +36,7 @@ Le coût moyen d’un article est calculé avec une moyenne pondérée périodiq
 >  La page **Périodes comptables** affiche la période coût moyen et le type de calcul du coût moyen qui est en vigueur au cours de la période, pour chaque période comptable.  
 
 ## <a name="calculating-average-cost"></a>Calcul du coût moyen  
- Lorsque vous validez une transaction pour un article qui utilise la méthode évaluation stock coût moyen, une écriture est créée dans la table **Point d’entrée ajustement coût moyen** . Cette écriture contient le numéro d’article, le code variante et le code magasin de la transaction. L’écriture contient également le champ **Date évaluation** , qui spécifie la dernière date de la période coût moyen dans laquelle la transaction a été validée.  
+ Lorsque vous validez une transaction pour un article qui utilise la méthode évaluation stock coût moyen, une écriture est créée dans la table **Point d’entrée ajustement coût moyen**. Cette écriture contient le numéro d’article, le code variante et le code magasin de la transaction. L’écriture contient également le champ **Date évaluation**, qui spécifie la dernière date de la période coût moyen dans laquelle la transaction a été validée.  
 
 > [!NOTE]  
 >  Ce champ ne doit pas être confondu avec le champ **Date évaluation** dans le tableau **Ecritures valeur** qui indique la date à laquelle la valeur entre en vigueur et est utilisé pour déterminer la période de coût moyen à laquelle l’écriture valeur appartient.  
@@ -51,7 +51,7 @@ Le coût moyen d’un article est calculé avec une moyenne pondérée périodiq
  Le coût moyen calculé est appliqué aux sorties de stock pour l’article (ou article, magasin et variante) avec des dates comptabilisation qui surviennent au cours de la période coût moyen. S’il y a des entrées de stock lettrées de façon fixe sur des sorties de stock au cours de la période coût moyen, le calcul du coût moyen est transmis de l’entrée à la sortie.  
 
 ### <a name="example-average-cost-period--day"></a>Exemple : période coût moyen = jour  
- L’exemple suivant montre l’effet du calcul du coût moyen basé sur une période coût moyen d’un jour. Le champ **Type calcul coût moyen** de la page **Paramètres stock** est défini sur **Article** .  
+ L’exemple suivant montre l’effet du calcul du coût moyen basé sur une période coût moyen d’un jour. Le champ **Type calcul coût moyen** de la page **Paramètres stock** est défini sur **Article**.  
 
  Le tableau suivant montre les écritures comptables pour l’exemple coût article moyen, ARTICLE1, avant que le traitement par lots **Ajuster coûts - Écr. article** ne s’exécute.  
 
@@ -88,7 +88,7 @@ Le coût moyen d’un article est calculé avec une moyenne pondérée périodiq
 |03/02/20|Vente|-1|-100,00|6|  
 
 ### <a name="example-average-cost-period--month"></a>Exemple : période coût moyen = mois  
- L’exemple suivant montre l’effet du calcul du coût moyen basé sur une période coût moyen d’un mois. Le champ **Type calcul coût moyen** de la page **Paramètres stock** est défini sur **Article** .  
+ L’exemple suivant montre l’effet du calcul du coût moyen basé sur une période coût moyen d’un mois. Le champ **Type calcul coût moyen** de la page **Paramètres stock** est défini sur **Article**.  
 
  Si la période coût moyen est d’un mois, une seule écriture est créée pour chaque combinaison de numéro article, code variante, code magasin et date évaluation.  
 
@@ -176,12 +176,12 @@ Le coût moyen d’un article est calculé avec une moyenne pondérée périodiq
 > [!NOTE]  
 >  Un autre motif de cette flexibilité est le lettrage fixe. Pour plus d’informations sur le lettrage fixe, voir [Détails de conception : lettrage article](design-details-item-application.md).  
 
- En raison de cette flexibilité, vous pouvez être amené à recalculer le coût moyen après que la validation associée s’est produite. Par exemple, si vous validez une entrée de stock ou une sortie avec une date évaluation antérieure à une ou plusieurs sorties de stock. Le nouveau calcul du coût moyen se produit automatiquement lorsque vous exécutez le traitement par lots **Ajuster coûts - Écr. article** , manuellement ou automatiquement.  
+ En raison de cette flexibilité, vous pouvez être amené à recalculer le coût moyen après que la validation associée s’est produite. Par exemple, si vous validez une entrée de stock ou une sortie avec une date évaluation antérieure à une ou plusieurs sorties de stock. Le nouveau calcul du coût moyen se produit automatiquement lorsque vous exécutez le traitement par lots **Ajuster coûts - Écr. article**, manuellement ou automatiquement.  
 
- Vous pouvez modifier la base d’évaluation du stock au cours d’une période comptable en modifiant le champ **Période coût moyen** et le champ **Type calcul coût moyen** . Cependant, cette action doit être menée avec soin et en accord avec un auditeur.  
+ Vous pouvez modifier la base d’évaluation du stock au cours d’une période comptable en modifiant le champ **Période coût moyen** et le champ **Type calcul coût moyen**. Cependant, cette action doit être menée avec soin et en accord avec un auditeur.  
 
 ### <a name="example"></a>Exemple :  
- L’exemple suivant illustre la manière dont le coût moyen est recalculé lorsqu’une validation en retard est introduite à une date qui se trouve avant une ou plusieurs sorties de stock. L’exemple est basé sur une période coût moyen **Jour** .  
+ L’exemple suivant illustre la manière dont le coût moyen est recalculé lorsqu’une validation en retard est introduite à une date qui se trouve avant une ou plusieurs sorties de stock. L’exemple est basé sur une période coût moyen **Jour**.  
 
  Le tableau suivant montre les écritures valeur qui existent pour l’article avant la validation.  
 
@@ -211,4 +211,4 @@ Le coût moyen d’un article est calculé avec une moyenne pondérée périodiq
  [Détails de conception : lettrage article](design-details-item-application.md)  
  [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  
  [Finances](finance.md)  
- [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+ [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

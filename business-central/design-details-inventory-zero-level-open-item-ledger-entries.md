@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1222f3b7ed3c71ded3f653bb121b920c170c40f5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8cb3aa1df0c67af09f0353504abceb2529df9f2f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924289"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751420"
 ---
 # <a name="design-details-known-item-application-issue"></a>Détails de conception : problème de lettrage article connu
-Cet article traite du problème de niveau de stock nul alors qu’il existe des écritures comptables article ouvertes dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Cet article traite du problème de niveau de stock nul alors qu’il existe des écritures comptables article ouvertes dans [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 L’article commence par répertorier les symptômes courants du problème, puis décrit les notions de base du lettrage article pour prendre en charge les raisons décrites pour ce problème. À la fin de l’article, une solution de contournement est proposée pour résoudre ce problème.  
 
@@ -102,25 +102,25 @@ Le schéma suivant décrit la façon dont les lettrages de coût sont effectués
 
  Pour le scénario 1, identifiez le problème comme suit :  
 
--   Sur la page **Avoir vente enregistré** ou **Réception retour enregistrée** , recherchez le champ **Écriture article à lettrer** pour voir si le champ est renseigné, et auquel cas, à quelle écriture comptable article le coût de la réception retour est lettré.  
+-   Sur la page **Avoir vente enregistré** ou **Réception retour enregistrée**, recherchez le champ **Écriture article à lettrer** pour voir si le champ est renseigné, et auquel cas, à quelle écriture comptable article le coût de la réception retour est lettré.  
 
  Pour le scénario 2, identifiez le problème de l’une des manières suivantes :  
 
--   Recherchez une écriture comptable article sortante ouverte et une écriture comptable article entrante avec le même numéro dans le champ **N° document** , et Oui dans le champ **Correction** . Consultez l’exemple suivant d’une écriture comptable article.  
+-   Recherchez une écriture comptable article sortante ouverte et une écriture comptable article entrante avec le même numéro dans le champ **N° document**, et Oui dans le champ **Correction**. Consultez l’exemple suivant d’une écriture comptable article.  
 
 |N° écriture|Date comptabilisation|Type écriture|Type de document|N° document|Nombre d’articles|Code magasin|Quantité|Coût total (réel)|Quantité facturée|Quantité restante|Ouvrir|Correction|  
 |---------|------------|----------|-------------|------------|--------|-------------|--------|------------------------|-----------------|------------------|----|---------|
 |333|28/01/2018|Vente|Expédition vente|102043|TEST|BLEU|-1|-10|-1|-1|Oui|Non|  
 |334|28/01/2018|Vente|Expédition vente|102043|TEST|BLEU|1|10|1|1|Oui|**Oui**|  
 
--   Sur la page **Expédition vente enregistrée** , recherchez le champ **Écriture article à lettrer** pour voir si le champ est renseigné, et auquel cas, à quelle écriture comptable article le coût de la réception retour est lettré.  
+-   Sur la page **Expédition vente enregistrée**, recherchez le champ **Écriture article à lettrer** pour voir si le champ est renseigné, et auquel cas, à quelle écriture comptable article le coût de la réception retour est lettré.  
 
 > [!NOTE]  
->  Les lettrages de coût ne peuvent pas être identifiés sur la page **Écritures article lettrées** , car cette page affiche uniquement les lettrages de quantité.  
+>  Les lettrages de coût ne peuvent pas être identifiés sur la page **Écritures article lettrées**, car cette page affiche uniquement les lettrages de quantité.  
 
  Pour les deux scénarios, identifiez le lettrage de coût concerné comme suit :  
 
-1.  Ouvrez la table **Écriture lettrage article** .  
+1.  Ouvrez la table **Écriture lettrage article**.  
 
 2.  Filtrez le champ **N° écriture comptable article** à l’aide du numéro de l’écriture comptable article (Retour vente).  
 
@@ -138,7 +138,7 @@ Le schéma suivant décrit la façon dont les lettrages de coût sont effectués
  En outre, notez que le coût de l’écriture comptable article entrante 334 est lettré à l’écriture comptable article sortante 333.  
 
 ## <a name="workaround-for-the-issue"></a>Solution de contournement du problème  
- Sur la page **Feuille article** , validez les lignes suivantes pour l’article concerné :  
+ Sur la page **Feuille article**, validez les lignes suivantes pour l’article concerné :  
 
 -   Un ajustement positif pour clôturer l’écriture comptable article sortante ouverte.  
 

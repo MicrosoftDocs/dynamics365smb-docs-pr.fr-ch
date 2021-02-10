@@ -1,8 +1,6 @@
 ---
-title: Gestion financière| Microsoft Docs
-description: En savoir plus sur les tâches pour paramétrer les finances de votre société afin de les adapter à votre comptabilité ou vos audits.
-services: project-madeira
-documentationcenter: ''
+title: Gestion financière
+description: Découvrez comment Business Central répond à vos besoins en matière de gestion financière, de comptabilité, d’audit ou de tenue des registres.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,15 +10,16 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cffe1bf3cc73660a75e6cca5d2d0e1e640c32423
-ms.sourcegitcommit: aea079b66e35c447bf31a11ffc2069cfdaf2ef38
+ms.openlocfilehash: 27ced3ad13d0469fd06825aa981a7f5969e04fbd
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "3970480"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750295"
 ---
-# <a name="finance"></a>Finance
-[!INCLUDE[d365fin](includes/d365fin_md.md)] comprend une configuration standard de la plupart des processus financiers, mais vous pouvez modifier la configuration pour l’adapter à votre activité. Pour plus d’informations, reportez-vous à [Configuration de Finance](finance-setup-finance.md).
+# <a name="finance"></a>Finances
+
+[!INCLUDE[prod_short](includes/prod_short.md)] comprend une configuration standard de la plupart des processus financiers, mais vous pouvez modifier la configuration pour l’adapter à votre activité. Pour plus d’informations, reportez-vous à [Configuration de Finance](finance-setup-finance.md).
 
 La configuration par défaut inclut un plan comptable et des groupes comptabilisation standard qui permettent d’accroître l’efficacité du processus d’affectation des comptes de validation de comptabilité par défaut aux clients, fournisseurs et articles.  
 
@@ -57,18 +56,20 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |Apprendre à utiliser le tableau de bord Comptable, à inviter un comptable externe et à utiliser le Hub Entreprise pour gérer les comptes de plusieurs clients.|[Expériences de comptables dans Business Central](finance-accounting.md)|  
 
 ## <a name="take-a-video-tour"></a>Faire une visite vidéo
+
 La vidéo suivante présente certaines des fonctionnalités clés de la gestion des finances. <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
 ## <a name="see-also"></a>Voir aussi
+
 [Configuration de Finance](finance-setup-finance.md)  
 [Ventes](sales-manage-sales.md)  
 [Achats](purchasing-manage-purchasing.md)  
 [Clôture des périodes fiscales](year-close-years-periods.md)  
-[Gestion des projets](projects-manage-projects.md)    
+[Gestion des projets](projects-manage-projects.md)  
 [Importation des données à partir d’autres systèmes financiers](across-import-data-configuration-packages.md)  
 [Utilisation de feuilles comptabilité](ui-work-general-journals.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

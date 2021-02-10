@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 0b2536d39bf0121f68172429513bce2ad3180110
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 84947d0c88834fe674942e5edb5cf8ac73a9741c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925287"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755657"
 ---
 # <a name="closing-the-books"></a>Clôture des livres
 Après vous être assuré que tous vos comptes sont à jour et avoir ventilé les coûts et les bénéfices, vous pouvez clôturer les livres d’un exercice ou d’une période comptable.
@@ -27,7 +27,7 @@ Le processus de clôture d’un livre inclut les tâches principales suivantes 
 
 1. Clôture de la période comptable.
 
-    Un exercice comptable est défini comme une ou plusieurs périodes, telles qu’elles sont définies sur la page **Périodes comptables** . Un exercice fiscal type contient 12 périodes d’un mois chacune, mais vous pouvez également choisir un autre mode de définition des exercices.
+    Un exercice comptable est défini comme une ou plusieurs périodes, telles qu’elles sont définies sur la page **Périodes comptables**. Un exercice fiscal type contient 12 périodes d’un mois chacune, mais vous pouvez également choisir un autre mode de définition des exercices.
 
     Pour plus d’informations, reportez vous à [Clôturer des périodes comptables](year-close-account-periods.md).
 2. Enregistrement des écritures de l’exercice précédent.
@@ -54,4 +54,4 @@ Vous pouvez valider dans un exercice comptable précédent, même après la clô
 ## <a name="see-also"></a>Voir aussi
 
 [Utiliser des périodes et exercices comptables](finance-accounting-periods-and-fiscal-years.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

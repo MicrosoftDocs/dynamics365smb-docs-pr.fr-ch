@@ -11,16 +11,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: e0ef9e91d303191cc98afb7dc56f4585d443e5c2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cc95787d17affb1291ad963b5e69b303a579f1e7
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917616"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752020"
 ---
 # <a name="application-compliance"></a>Conformité des applications
 
-Ce contenu comporte des informations sur la conformité des applications concernant [!INCLUDE[d365fin](../includes/d365fin_md.md)], comme les normes internationales de génération d’états financiers, la fonctionnalité locale, le RGPD et plus encore. La confiance dans une solution de gestion d’entreprise est essentielle à un activité efficace. Avec Business Central, les sociétés importantes ont la possibilité de rationaliser les processus d’entreprise tout en respectant uniformément et de façon rentable les exigences de plus en plus strictes en matière de réglementation et de génération d’états.
+Ce contenu comporte des informations sur la conformité des applications concernant [!INCLUDE[prod_short](../includes/prod_short.md)], comme les normes internationales de génération d’états financiers, la fonctionnalité locale, le RGPD et plus encore. La confiance dans une solution de gestion d’entreprise est essentielle à un activité efficace. Avec Business Central, les sociétés importantes ont la possibilité de rationaliser les processus d’entreprise tout en respectant uniformément et de façon rentable les exigences de plus en plus strictes en matière de réglementation et de génération d’états.
 
 ## <a name="data-privacy"></a>Confidentialité des données
 
@@ -108,5 +108,5 @@ Microsoft crée des versions localisées de Business Central pour un nombre limi
 [Conformité des services](compliance-service-compliance.md)  
 [Certifications](compliance-certifications.md)  
 
- ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
+ ## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
  

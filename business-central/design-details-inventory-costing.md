@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: design, inventory, costing
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5ebde5f0d330f0e258f08f27a1a686a72dc12bea
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 97aa9dc23397403b74fc8f1c65d302733ab3301c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913785"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751495"
 ---
 # <a name="design-details-inventory-costing"></a>Détails de conception : coûts ajustés
-Cette documentation fournit une analyse technique détaillée des concepts et principes qui sont utilisés dans les fonctions Inventory Costing dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Cette documentation fournit une analyse technique détaillée des concepts et principes qui sont utilisés dans les fonctions Inventory Costing dans [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 L’évaluation des coûts de stock, aussi appelé gestion des coûts, se charge de l’enregistrement et de la déclaration des coûts d’exploitation de la société.  
 

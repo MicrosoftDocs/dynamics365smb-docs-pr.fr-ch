@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: supplier
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e77238b4e0578307a90f80bddfdec64002e7ac27
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8efd74c3ae6962a383e5b127056d744dd7c1892f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926787"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748808"
 ---
 # <a name="register-new-vendors"></a>Enregistrer un nouveau fournisseur
 
@@ -33,16 +33,16 @@ Les fiches fournisseur contiennent les informations requises pour acheter des pr
 
 ## <a name="to-create-a-new-vendor-card"></a>Pour créer une fiche fournisseur
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Fournisseurs** , puis sélectionnez le lien associé.  
-2. Sur la page **Fournisseurs** , choisissez **Nouveau** .
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Fournisseurs**, puis sélectionnez le lien associé.  
+2. Sur la page **Fournisseurs**, choisissez **Nouveau**.
 
     Si plusieurs modèles de fournisseur existent, une page s’affiche et vous permet de sélectionner un modèle fournisseur. Dans ce cas, suivez les deux étapes suivantes.
-3. Sur la page **Sélectionnez un modèle pour un nouveau fournisseur** , sélectionnez le modèle que vous souhaitez utiliser pour la nouvelle fiche fournisseur.
-4. Cliquez sur le bouton **OK** . Une nouvelle fiche fournisseur avec certains champs contenant les informations provenant de ce modèle s’ouvre.
+3. Sur la page **Sélectionnez un modèle pour un nouveau fournisseur**, sélectionnez le modèle que vous souhaitez utiliser pour la nouvelle fiche fournisseur.
+4. Cliquez sur le bouton **OK**. Une nouvelle fiche fournisseur avec certains champs contenant les informations provenant de ce modèle s’ouvre.
 5. Renseignez ou modifiez les champs de la fiche fournisseur selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
-> Si vous ne connaissez pas l’adresse de facturation qui sera utilisée pour chaque facture fournisseur, ne renseignez pas le champ **N° fournisseur** . Sélectionnez plutôt le numéro du fournisseur à payer après avoir configuré une demande de prix, une commande ou un en-tête facture.
+> Si vous ne connaissez pas l’adresse de facturation qui sera utilisée pour chaque facture fournisseur, ne renseignez pas le champ **N° fournisseur**. Sélectionnez plutôt le numéro du fournisseur à payer après avoir configuré une demande de prix, une commande ou un en-tête facture.
 
 Le fournisseur est désormais enregistré, et la fiche fournisseur est prête à être utilisée sur les documents d’achat.
 
@@ -52,11 +52,11 @@ Si vous souhaitez utiliser cette fiche fournisseur comme modèle lorsque vous cr
 Si vous avez enregistré une transaction pour un fournisseur, vous ne pouvez pas supprimer la carte car les écritures comptables peuvent être nécessaires pour l’audit. Pour supprimer des fiches fournisseur avec des écritures comptables, contactez le partenaire Microsoft pour le faire via le code.
 
 ## <a name="to-save-the-vendor-card-as-a-template"></a>Pour enregistrer la fiche fournisseur en tant que modèle
-1. Sur la page **Fiche fournisseur** , sélectionnez l’action **Sauvegarder comme modèle** . La page **Modèle fournisseur** s’ouvre et affiche la fiche fournisseur comme modèle.
+1. Sur la page **Fiche fournisseur**, sélectionnez l’action **Sauvegarder comme modèle**. La page **Modèle fournisseur** s’ouvre et affiche la fiche fournisseur comme modèle.
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Pour réutiliser les axes analytiques dans les modèles, sélectionnez l’action **Axes analytiques** . La page **Modèles axe** s’ouvre et affiche tous les codes axe qui sont définis pour le fournisseur.
+3. Pour réutiliser les axes analytiques dans les modèles, sélectionnez l’action **Axes analytiques**. La page **Modèles axe** s’ouvre et affiche tous les codes axe qui sont définis pour le fournisseur.
 4. Modifiez ou entrez les codes axe s’appliquant aux nouvelles fiches fournisseur créées à l’aide du modèle.
-5. Lorsque vous avez terminé le nouveau modèle fournisseur, cliquez sur le bouton **OK** .  
+5. Lorsque vous avez terminé le nouveau modèle fournisseur, cliquez sur le bouton **OK**.  
    Le modèle fournisseur est ajouté à la liste des modèles fournisseur. Vous pouvez ainsi l’utiliser pour créer des fiches fournisseur.
 
 ## <a name="see-also"></a>Voir aussi
@@ -64,4 +64,4 @@ Si vous avez enregistré une transaction pour un fournisseur, vous ne pouvez pas
 [Création des souches de numéros](ui-create-number-series.md)  
 [Achats](purchasing-manage-purchasing.md)  
 [Enregistrer des achats](purchasing-how-record-purchases.md)   
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

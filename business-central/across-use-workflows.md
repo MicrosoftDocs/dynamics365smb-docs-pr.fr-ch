@@ -1,6 +1,6 @@
 ---
-title: Utilisation des workflows | Microsoft Docs
-description: Vous pouvez configurer et utiliser des workflows qui connectent des tâches de processus entreprise exécutées par différents utilisateurs. Les tâches du système, telles que la validation automatique, peuvent être incluses comme étapes du workflow, précédées ou suivies des tâches de l’utilisateur. Demander et accorder une approbation pour créer des enregistrements sont des étapes classiques du workflow.
+title: Utilisation des workflows
+description: Vous pouvez configurer et utiliser des workflows qui connectent des tâches de processus entreprise exécutées par différents utilisateurs. Découvrez les différentes étapes à suivre pour commencer à utiliser les workflows.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d608841bf5d5586bd0ef84ef554055517def0eb8
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 375d53975bca97d16b3857056d44b9eada5cca97
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917966"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753015"
 ---
 # <a name="using-workflows"></a>Utilisation des workflows
 Vous pouvez configurer et utiliser des workflows qui connectent des tâches de processus entreprise exécutées par différents utilisateurs. Les tâches du système, telles que la validation automatique, peuvent être incluses comme étapes du workflow, précédées ou suivies des tâches de l’utilisateur. Demander et accorder une approbation pour créer des enregistrements sont des étapes classiques du workflow.  
@@ -38,4 +38,4 @@ Vous pouvez configurer et utiliser des workflows qui connectent des tâches de p
 ## <a name="see-also"></a>Voir aussi  
 [Paramétrage des workflows](across-set-up-workflows.md)   
 [Flux de travail](across-workflow.md)   
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

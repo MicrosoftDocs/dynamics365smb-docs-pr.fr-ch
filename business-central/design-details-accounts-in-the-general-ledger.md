@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 18c8eb8f379be15bf425a6a2bcd8db6b0c48bcb3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c5129a8b8116eab9996a47ad82b2579658a45b8b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922182"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751895"
 ---
 # <a name="design-details-accounts-in-the-general-ledger"></a>Détails de conception : comptes de la comptabilité
 Pour rapprocher le stock et les écritures comptables de capacité en comptabilité, les écritures valeur associées sont validées dans différents comptes en comptabilité. Pour plus d’informations, voir [Détails de conception : rapprochement de comptabilité](design-details-reconciliation-with-the-general-ledger.md).  
@@ -99,4 +99,4 @@ Le tableau suivant montre la manière dont les montants à valider en comptabili
  [Détails de conception : validation du coût prévu](design-details-expected-cost-posting.md)  
  [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  
  [Finances](finance.md)  
- [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+ [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

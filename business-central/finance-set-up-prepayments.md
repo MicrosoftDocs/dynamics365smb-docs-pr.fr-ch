@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: prepayment
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7f8d0109b42eb75f022bac580c2bef006f311157
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 34e5d1e0f424097de259d01e438158f6a92390ae
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914254"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750445"
 ---
 # <a name="set-up-prepayments"></a>Configuration des acomptes
 Si vous voulez que vos clients fassent des paiements avant de leur expédier une commande ou si votre fournisseur exige que vous fassiez un paiement avant de vous expédier une commande, vous pouvez utiliser la fonctionnalité Acompte. La fonctionnalité vous permet de facturer et de collecter les acomptes requis des clients ou de régler des acomptes aux fournisseurs, et pour s’assurer que tous les paiements partiels sont validés sur une facture. Pour plus d’informations, consultez [Créer des factures d’acompte](finance-how-to-create-prepayment-invoices.md).
@@ -32,27 +32,27 @@ Puisque le montant payé par anticipation appartient à l’acheteur jusqu’à 
 
 ## <a name="to-add-prepayment-accounts-to-the-general-posting-setup"></a>Ajouter des comptes acompte aux paramètres comptabilisation  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres comptabilisation** , puis sélectionnez le lien associé.
-2. Sur la page **Paramètres comptabilisation** , vous devez renseigner les champs suivants :  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres comptabilisation**, puis sélectionnez le lien associé.
+2. Sur la page **Paramètres comptabilisation**, vous devez renseigner les champs suivants :  
 
     - **Compte acomptes vente**  
     - **Compte acomptes achat**  
 
 > [!TIP]
-> Si vous ne pouvez pas voir les champs de la page **Paramètres comptabilisation** , utilisez la barre de défilement horizontale au bas de la page pour faire défiler l’affichage vers la droite.  
+> Si vous ne pouvez pas voir les champs de la page **Paramètres comptabilisation**, utilisez la barre de défilement horizontale au bas de la page pour faire défiler l’affichage vers la droite.  
 
 Si vous n’avez pas encore configuré de comptes généraux pour les acomptes, vous pouvez ouvrir la page **Liste des comptes généraux** à partir du champ du compte correspondant.  
 
 ## <a name="to-set-up-number-series-for-prepayment-documents"></a>Configurer des souches de numéros pour des documents acompte  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres ventes** , puis sélectionnez le lien associé.
-2. Sur la page **Paramètres ventes** , renseignez les champs suivants :  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres ventes**, puis sélectionnez le lien associé.
+2. Sur la page **Paramètres ventes**, renseignez les champs suivants :  
 
    - **N° fact. acompte enreg.**
    - **N° avoir acompte enreg.**
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres achats** , puis sélectionnez le lien associé.
-2. Sur la page **Paramètres achats** , renseignez les champs suivants :
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres achats**, puis sélectionnez le lien associé.
+2. Sur la page **Paramètres achats**, renseignez les champs suivants :
 
     - **N° fact. acompte enreg.**
     - **N° avoir acompte enreg.**
@@ -63,15 +63,15 @@ Si vous n’avez pas encore configuré de comptes généraux pour les acomptes, 
 ## <a name="to-set-up-prepayment-percentages-for-items-customers-and-vendors"></a>Pour configurer des pourcentages d’acompte pour des articles, des clients et des fournisseurs  
 Pour un article, vous pouvez configurer un pourcentage d’acompte par défaut pour tous les clients, pour un client spécifique ou pour un groupe prix client.  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles** , puis sélectionnez le lien associé.
-2. Sélectionnez un article, puis cliquez sur l’action **Pourcentages acompte** .  
-3. Sur la page **Pourcentages acompte vente** , renseignez autant de champs que nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles**, puis sélectionnez le lien associé.
+2. Sélectionnez un article, puis cliquez sur l’action **Pourcentages acompte**.  
+3. Sur la page **Pourcentages acompte vente**, renseignez autant de champs que nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Pour un client ou un fournisseur, vous pouvez configurer un pourcentage d’acompte par défaut pour tous les articles et tous les types de lignes vente. Vous entrez cette valeur dans la fiche client ou fournisseur.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Clients** , puis sélectionnez le lien associé.
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Clients**, puis sélectionnez le lien associé.
 2. Ouvrez la fiche d’un client.
-3. Remplissez le champ **Acompte** .
+3. Remplissez le champ **Acompte**.
 4. Répétez les étapes pour d’autres clients ou fournisseurs.  
 
 ### <a name="to-determine-which-prepayment-percentage-has-first-priority"></a>Pour déterminer quel pourcentage d’acompte a la priorité  
@@ -93,4 +93,4 @@ Autrement dit, le pourcentage d’acompte figurant dans la fiche client ne s’a
 [Calculer la taxe sur les biens et services pour les acomptes en Nouvelle-Zélande](LocalFunctionality/NewZealand/how-to-calculate-goods-and-services-tax-on-prepayments.md)  
 [Familiarisation avec les écritures comptables et les COA](finance-general-ledger.md)  
 [Finances](finance.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

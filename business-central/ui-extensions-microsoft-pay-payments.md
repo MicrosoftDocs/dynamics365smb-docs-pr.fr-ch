@@ -11,19 +11,19 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5885674316e082323462cbad9fce3f20590f06d5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 748316c411c4b04947685c6053e9c53aa9102c35
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915050"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747583"
 ---
 # <a name="the-microsoft-pay-extension"></a>Extension Microsoft Pay
 
 > [!IMPORTANT]
-> À compter du 8 février 2020, les changements dans le service Microsoft Pay affecteront l’extension Microsoft Pay dans Microsoft [!INCLUDE[d365fin](includes/d365fin_long_md.md)]. En raison des changements, après le 8 février, les liens de paiement **Payer maintenant** que l’extension Microsoft Pay génère pour les factures dans [!INCLUDE[d365fin](includes/d365fin_md.md)] n’ouvriront pas Microsoft Pay. Les clients qui utilisent l’extension doivent modifier la configuration de leurs services de paiement pour qu’ils démarrent plutôt avec l’extension PayPal.<br /></br>
+> À compter du 8 février 2020, les changements dans le service Microsoft Pay affecteront l’extension Microsoft Pay dans Microsoft [!INCLUDE[prod_short](includes/prod_long.md)]. En raison des changements, après le 8 février, les liens de paiement **Payer maintenant** que l’extension Microsoft Pay génère pour les factures dans [!INCLUDE[prod_short](includes/prod_short.md)] n’ouvriront pas Microsoft Pay. Les clients qui utilisent l’extension doivent modifier la configuration de leurs services de paiement pour qu’ils démarrent plutôt avec l’extension PayPal.<br /></br>
 >
-> À partir du 8 janvier, nous afficherons une notification dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. La notification contiendra un lien vers les paramètres que vous devez modifier et vers un complément d’informations. Après le 8 février, l’extension Microsoft Pay ne sera plus disponible dans [!INCLUDE[d365fin](includes/d365fin_md.md)].<br /></br>
+> À partir du 8 janvier, nous afficherons une notification dans [!INCLUDE[prod_short](includes/prod_short.md)]. La notification contiendra un lien vers les paramètres que vous devez modifier et vers un complément d’informations. Après le 8 février, l’extension Microsoft Pay ne sera plus disponible dans [!INCLUDE[prod_short](includes/prod_short.md)].<br /></br>
 >
 > Les modifications affectent les versions suivantes de Business Central :
 > - Microsoft Dynamics 365 Business Central, octobre 2018
@@ -42,9 +42,9 @@ L’extension Microsoft Pay offre les avantages suivants :
 - Le lien Microsoft Pay peut être incorporé automatiquement ou par l’utilisateur sur chaque document facture.
 - Comme cette fonctionnalité est conçus comme une extension, elle vous donne le contrôle complet et vous permet de l’activer quand et si vos processus d’entreprise le nécessitent.
 
-L’activation des extensions de service de paiement est gratuite dans [!INCLUDE[d365fin](includes/d365fin_md.md)], toutefois, vous devez contacter le service de paiement pour obtenir un compte. Pour plus d’informations, voir [Activer les paiements client via les services de paiement](sales-how-enable-payment-service-extensions.md).
+L’activation des extensions de service de paiement est gratuite dans [!INCLUDE[prod_short](includes/prod_short.md)], toutefois, vous devez contacter le service de paiement pour obtenir un compte. Pour plus d’informations, voir [Activer les paiements client via les services de paiement](sales-how-enable-payment-service-extensions.md).
 
 ## <a name="see-also"></a>Voir aussi
-[Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l’aide des extensions](ui-extensions.md)  
+[Personnalisation de [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide des extensions](ui-extensions.md)  
 [Définition des ventes](sales-setup-sales.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

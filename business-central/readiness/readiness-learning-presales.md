@@ -1,20 +1,20 @@
 ---
 title: Catalogue d’apprentissage Partenaire prévente
-description: Trouvez toutes les formations disponibles pour Business Central.
+description: Trouvez toutes les formations disponibles pour les consultants prévente Business Central.
 author: loreleishannonmsft
 ms.date: 10/01/2020
 ms.topic: article
 ms.author: margoc
-ms.openlocfilehash: 740a40ba53d85f13d694a80ad3fc5e63edfe9587
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 44ecc04fa02d8c7cee78984b2f5542742efd91fe
+ms.sourcegitcommit: a95681db16e81af109b34f8e5d88028c1552c6a2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926687"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4367599"
 ---
 # <a name="partner-pre-sales-learning-catalog"></a>Catalogue d’apprentissage Partenaire prévente
 
-Êtes-vous responsable de la démonstration des fonctionnalités clés aux clients ? 
+Êtes-vous responsable de la démonstration des fonctionnalités clés aux clients ? 
 
 Le catalogue suivant est organisé en partant des connaissances de base jusqu’aux spécialisées, et des plus élémentaires aux plus avancées. Si le contenu existe en plusieurs formats, nous vous le ferons savoir afin que vous puissiez choisir le format de formation qui répond le mieux à vos besoins. 
 
@@ -48,33 +48,34 @@ Le catalogue suivant est organisé en partant des connaissances de base jusqu’
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|
 | [Dynamics 365 : plan de la vaguede publication 2 de 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/) | Le plan de publication de Dynamics 365 (anciennement nommé notes de publication) pour la vague de publication 2 de 2019 décrit toutes les nouvelles fonctionnalités publiées d’octobre 2019 à mars 2020. | Site Web et livre blanc téléchargeable  |                       |
 
-## <a name="demo"></a>Démo<a name="demo"></a>
+<!--## Demo<a name="demo"></a>
 
-| Contenu                                                                                                                                                           | Description                                                                                                                                                                                                                                                     | Format                           | Longueur                   |
+| Content                                                                                                                                                           | Description                                                                                                                                                                                                                                                     | Format                           | Length                   |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------|--------------------------|
-| [Le livret de démonstration commerciale (partie 1 de 2)](https://mbspartner.microsoft.com/secure/coursematerials/D365/Standalone/Dynamics_365_Business_Central_-_PARTNER_SALES_PLAYBOOK_Fall_2018_-_w_CLICK_ASSISTANCE.pptx)   | Vingt scènes de démonstration pré-configurées et scriptées construites autour de Business Central. Choisissez entre une assistance complète par clic (téléchargement 1) et une assistance autre que par clic (téléchargement 2).|  Télécharger    | | 
-| [Le livret de démonstration commerciale (partie 2 de 2)](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/)|  Vingt scènes de démonstration pré-configurées et scriptées construites autour de Business Central. Choisissez entre une assistance complète par clic (téléchargement 1) et une assistance autre que par clic (téléchargement 2).| Télécharger | |
-| [Démo : Le commercial - Été 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/) | Craig vous montre le fonctionnement et le comportement du rôle du commercial dans Business Central. | Vidéo YouTube | 5 minutes 45 secondes |
-| [Démo : Le responsable commercial - Été 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/) | Craig vous montre le fonctionnement et le comportement du rôle du directeur des ventes dans Business Central. | Vidéo YouTube | 6 minutes 44 secondes |
-| [Démo : Le chef de projet - Été 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/) | Craig vous montre le fonctionnement et le comportement du rôle du chef de projet dans Business Central. | Vidéo YouTube | 5 minutes 25 secondes |
-| [Démo : Le propriétaire - Été 2019](https://mbspartner.microsoft.com/secure/coursematerials/D365/Standalone/Dynamics_365_Business_Central_-_PARTNER_SALES_PLAYBOOK_Fall_2018_-_w_CLICK_ASSISTANCE.pptx) | Craig vous montre le fonctionnement et le comportement du rôle du propriétaire dans Business Central. | Vidéo YouTube | 10 minutes 32 secondes |
-| [Démo : Le responsable marketing - Été 2019](https://youtu.be/iEtUbitWz4o) | Craig vous montre le fonctionnement et le comportement du rôle du responsable marketing dans Business Central. | Vidéo YouTube | 7 minutes 40 secondes |
-| [Démo : Le comptable externe - Été 2019](https://youtu.be/qegEAAEiQ0M) | Craig vous montre le fonctionnement et le comportement du rôle du comptable externe dans Business Central. | Vidéo YouTube | 2 minutes 46 secondes |
-| [Démo : L’aide comptable - Été 2019](https://youtu.be/aOE3ZwP1ieE) | Craig vous montre le fonctionnement et le comportement du rôle de l’aide-comptable dans Business Central. | Vidéo YouTube | 7 minutes 42 secondes |
-| [Démo : Le comptable - Été 2019](https://youtu.be/EGY-DtMcfK8) | Craig vous montre le fonctionnement et le comportement du rôle du comptable dans Business Central. | Vidéo YouTube | 10 minutes 17 secondes |
-| [Démo : Rapprochement bancaire - Été 2019](https://youtu.be/BKtiLmgiuyA) | Rejoignez Craig qui vous montre comment rapprocher des comptes bancaires. | Vidéo YouTube | 4 minutes 15 secondes |
-| [Démo : Devis jusqu’à encaissement via Sales et Business Central - Été 2019](https://youtu.be/WsL9OOkVG_Y)  |Rejoignez Craig qui vous montre comment le processus Devis jusqu’à encaissement fonctionne via Sales et Business Central. | Vidéo YouTube |5 minutes 59 secondes |
-| [Démo : Devis jusqu’à encaissement via Outlook - Été 2019](https://youtu.be/U6y6Pneriu8) |Rejoignez Craig qui vous montre comment le processus Devis jusqu’à encaissement fonctionne entièrement depuis Microsoft Outlook.| YouTube | vidéo|    6 minutes 28 secondes |
-| [Démo : Produire un ordre de production - Été 2019](https://youtu.be/ML_Zx_lqAHQ) | Rejoignez Craig qui vous montre comment utiliser les ordres de fabrication dans Business Central. | Vidéo YouTube | 6 minutes 24 secondes |
-| [Démo : Approvisionnement à paiement - Été 2019](https://youtu.be/KOKW-EeEe4w) | Rejoignez Craig qui vous montre comment le processus Approvisionnement à paiement fonctionne dans Business Central. | Vidéo YouTube | 5 minutes 26 secondes |
-| [Démo : Commande à encaissement - Été 2019](https://youtu.be/K1SgJnXAyQU) |Rejoignez Craig qui vous montre un processus commercial très courant appelé « Commande à encaissement ».  |Vidéo YouTube  |4 minutes 44 secondes |
-| [Démo : Opportunité de devis dans Business Central - Été 2019](https://youtu.be/ot9_FvvULIc) | Rejoignez Craig qui vous montre les fonctionnalités de gestion des opportunités dans Business Central, tout en démontrant le processus métier courant des opportunités de devis. | Vidéo YouTube | 3 minutes 31 secondes |
-| [Démo : Gérer votre inventaire - Été 2019](https://youtu.be/spc_EPIf9fU) | Craig vous explique comment gérer votre inventaire. | Vidéo YouTube | 6 minutes 23 secondes |
-| [Démo : Fabrication sur stock - Été 2019](https://youtu.be/C_WHURQ98-k)|    Rejoignez Craig qui vous montre comment effectuer une fabrication sur stock avec Business Central.  |Vidéo YouTube| 4 minutes 42 secondes |
-| [Démo : Transactions intersociétés - Été 2019](https://youtu.be/MOaToa2AXyg) | Rejoignez Craig qui vous montre comment faire des transactions entre entreprises. | Vidéo YouTube | 4 minutes 09 secondes |
-| [Démo : Saisir une commande client via l’appareil mobile - Été 2019](https://youtu.be/c4Lhs-q0hbw) | Rejoignez Craig qui vous montre comment saisir une commande client via un appareil mobile. | Vidéo YouTube | 3 minutes |
-| [Démo : Commandes avec livraison directe - Été 2019](https://youtu.be/Jmv2gn1qzoQ)    |Rejoignez Craig qui vous montre le processus de commande de livraison directe dans Business Central.  |Vidéo YouTube  |4 minutes 14 secondes |
-| [Démo : Processus d’approbation client - Été 2019](https://youtu.be/_Oyj6DBAuPI) | Rejoignez Craig qui montre un processus métier de base d’intégration d’un nouveau client. | Vidéo YouTube | 3 minutes 24 secondes |
-| [Démo : Consolidation d’entreprises - Été 2019](https://youtu.be/A4SExgt7wV4) | Rejoignez Craig qui vous montre comment consolider les sociétés avec Business Central. | Vidéo YouTube | 2 minutes 15 secondes |
-| [Démo : Automatiser les comptes fournisseurs - Été 2019](https://youtu.be/RB3_7UTpEjo) | Rejoignez Craig qui vous montre une façon d’automatiser le processus des comptes fournisseurs à l’aide de Business Central. | Vidéo YouTube | 3 minutes 51 secondes |
-| [Démo : Configuration d’une nouvelle société](https://youtu.be/ZHg4UXTOEp8) | Craig vous montre comment créer une nouvelle entreprise en utilisant Business Central. | Vidéo YouTube | 4 minutes 48 secondes |
+| [The Sales Demo Playbook (Part 1 of 2)](https://mbspartner.microsoft.com/secure/coursematerials/D365/Standalone/Dynamics_365_Business_Central_-_PARTNER_SALES_PLAYBOOK_Fall_2018_-_w_CLICK_ASSISTANCE.pptx)    | Twenty pre-configured, scripted demo scenes built around Business Central. Choose between full click-through assistance (download 1) and non-click-through assistance (download 2).|    Download    | |    
+| [The Sales Demo Playbook (Part 2 of 2)](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/)|    Twenty pre-configured scripted demo scenes built around Business Central. Choose between full click-through assistance (download 1) and non-click-through assistance (download 2).|    Download | |
+| [Demo: The Sales Representative- Summer 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/) | Join Craig as he shows you how the role of the Sales Representative works and behaves in Business Central. | YouTube video | 5 minutes 45 seconds |
+| [Demo: The Sales Manager - Summer 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/) | Join Craig as he shows you how the role of the Sales Manager works and behaves in Business Central. | YouTube video | 6 minutes 44 seconds |
+| [Demo: The Project Manager - Summer 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/) | Join Craig as he shows you how the role Project Manager works and behaves in Business Central. | YouTube video | 5 minutes 25 seconds |
+| [Demo: The Owner - Summer 2019](https://mbspartner.microsoft.com/secure/coursematerials/D365/Standalone/Dynamics_365_Business_Central_-_PARTNER_SALES_PLAYBOOK_Fall_2018_-_w_CLICK_ASSISTANCE.pptx) | Join Craig as he shows you how the role Owner works and behaves in Business Central. | YouTube video | 10 minutes 32 seconds |
+| [Demo: The Marketing Manager - Summer 2019](https://youtu.be/iEtUbitWz4o) | Join Craig as he shows you how the role of the Marketing Manager works and behaves in Business Central. | YouTube video | 7 minutes 40 seconds |
+| [Demo: The External Accountant - Summer 2019](https://youtu.be/qegEAAEiQ0M) | Join Craig as he shows you how the role of the External Accountant works and behaves in Business Central. | YouTube video | 2 minutes 46 seconds |
+| [Demo: The Bookkeeper - Summer 2019](https://youtu.be/aOE3ZwP1ieE) | Join Craig as he shows you how the role of the Bookkeeper works and behaves in Business Central. | YouTube video | 7 minutes 42 seconds |
+| [Demo: The Accountant - Summer 2019](https://youtu.be/EGY-DtMcfK8) | Join Craig as he shows you how the role of the Accountant works and behaves in Business Central. | YouTube video | 10 minutes 17 seconds |
+| [Demo: Reconcile Bank - Summer 2019](https://youtu.be/BKtiLmgiuyA) | Join Craig as he shows you how reconcile bank accounts. | YouTube video | 4 minutes 15 seconds |
+| [Demo: Quote to Cash via Sales and Business Central - Summer 2019](https://youtu.be/WsL9OOkVG_Y)    |Join Craig as he shows you how Quote to Cash works via Sales and Business Central. | YouTube video    |5 minutees 59 seconds |
+| [Demo: Quote to Cash via Outlook - Summer 2019](https://youtu.be/U6y6Pneriu8)    |Join Craig as he shows you how Quote to Cash works all from within Microsoft Outlook.|    YouTube | video|    6 minutes 28 seconds |
+| [Demo: Produce Production Order - Summer 2019](https://youtu.be/ML_Zx_lqAHQ) | Join Craig as he shows you how use produce production orders in Business Central. | YouTube video | 6 minutes 24 seconds |
+| [Demo: Procure to Pay - Summer 2019](https://youtu.be/KOKW-EeEe4w) | Join Craig as he shows you how use Procure to Pay in Business Central. | YouTube video | 5 minutes 26 seconds |
+| [Demo: Order to Cash - Summer 2019](https://youtu.be/K1SgJnXAyQU)    |Join Craig as he shows you a very common business process called "order to cash".    |YouTube video    |4 minutes 44 seconds |
+| [Demo: Opportunity to Quote in Business Central - Summer 2019](https://youtu.be/ot9_FvvULIc) | Join Craig as he show you the opportunity management features in Business Central while demonstrate the common business process of opportunity to quote. | YouTube video | 3 minutes 31 seconds |
+| [Demo: Manage Your Inventory - Summer 2019](https://youtu.be/spc_EPIf9fU) | Join Craig as he shows you how to manage your inventory. | YouTube video | 6 minutes 23 seconds |
+| [Demo: Make to Stock - Summer 2019](https://youtu.be/C_WHURQ98-k)|    Join Craig as he shows you how to perform make to stock with Business Central.    |YouTube video|    4 minutes 42 seconds |
+| [Demo: Intercompany Transactions - Summer 2019](https://youtu.be/MOaToa2AXyg) | Join Craig as he shows you how to do transactions between companies. | YouTube video | 4 minutes 09 seconds |
+| [Demo: Enter a Sales Order via Mobile Device - Summer 2019](https://youtu.be/c4Lhs-q0hbw) | Join Craig as he shows you how to enter a sales order via a mobile device. | YouTube video | 3 minutes |
+| [Demo: Drop Ship Sales Orders - Summer 2019](https://youtu.be/Jmv2gn1qzoQ)    |Join Craig as he shows you the drop ship sales order process in Business Central.    |YouTube video    |4 minutes 14 seconds |
+| [Demo: Customer Approval Process - Summer 2019](https://youtu.be/_Oyj6DBAuPI) | Join Craig as he shows a basic business process of onboarding a new customer. | YouTube video | 3 minutes 24 seconds |
+| [Demo: Consolidating Companies - Summer 2019](https://youtu.be/A4SExgt7wV4) | Join Craig as he shows you how to consolidate companies using Business Central. | YouTube video | 2 minutes 15 seconds |
+| [Demo: Automate Accounts Payable - Summer 2019](https://youtu.be/RB3_7UTpEjo) | Join Craig as he shows you one way in which you can automate accounts payable process using Business Central. | YouTube video | 3 minutes 51 seconds |
+| [Demo: Setting up a new company](https://youtu.be/ZHg4UXTOEp8) | Join Craig as he shows you how to set up a new company using Business Central | YouTube video | 4 minutes 48 seconds |
+-->

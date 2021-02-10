@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a2c2dc42ad600d4e3d05f4f3bdc1e5cbe2947812
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8ffb5b8b90d0fdd4f3e1bd90271db8568c05d41e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915786"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753982"
 ---
 # <a name="create-journal-opening-balances"></a>Créer des soldes ouverts feuille
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] inclut plusieurs traitements par lots qui sont livrés pour aider au transfert des soldes de compte hérité vers une société nouvellement configurée. Vous pouvez facilement transférer ces données avec le journal comptes clients, le journal comptes fournisseurs, la feuille article ou la feuille comptabilisation.
+[!INCLUDE[prod_short](includes/prod_short.md)] inclut plusieurs traitements par lots qui sont livrés pour aider au transfert des soldes de compte hérité vers une société nouvellement configurée. Vous pouvez facilement transférer ces données avec le journal comptes clients, le journal comptes fournisseurs, la feuille article ou la feuille comptabilisation.
 
 La première étape consiste à créer un package configuration incluant les tables de paramétrage pour ces feuilles. La procédure suivante est basée sur l’hypothèse que cette étape est terminée. Pour plus d’informations, voir [Configurer une société](admin-set-up-company-configuration.md). Cette procédure explique les étapes suivantes, comme le lettrage du package qui est fourni par un partenaire.  
 
@@ -34,17 +34,17 @@ Avant de commencer, vérifiez que vous utilisez la page Tableau de bord Administ
 2. Ouvrez la feuille configuration et importez les données existantes à propos des clients, des articles, des fournisseurs et de la comptabilité. Pour plus d’informations, voir [Migrer des données client](admin-migrate-customer-data.md).  
 
     Les données de base sont maintenant en place. Ensuite, vous ajoutez les soldes d’ouverture. Les étapes suivantes décrivent comment créer des lignes feuille pour les comptes généraux, mais la même procédure s’applique à la création de lignes feuille pour les clients, les fournisseurs et les articles.  
-3. Choisissez l’action **Créer lignes feuille compte général** .  
-4. Renseignez le raccourci **Options** de la manière appropriée, puis définissez les filtres selon vos besoins. Par exemple, dans le champ **Modèle feuille** , entrez un nom.  
-5. Cliquez sur le bouton **OK** . Les enregistrements se trouvent maintenant dans la feuille, mais les montants sont vides.  
+3. Choisissez l’action **Créer lignes feuille compte général**.  
+4. Renseignez le raccourci **Options** de la manière appropriée, puis définissez les filtres selon vos besoins. Par exemple, dans le champ **Modèle feuille**, entrez un nom.  
+5. Cliquez sur le bouton **OK**. Les enregistrements se trouvent maintenant dans la feuille, mais les montants sont vides.  
 6. Exportez la table feuille vers Excel et entrez manuellement les informations sur le compte contrepartie et validation à partir des données héritées.
 7. Importez et appliquez les informations de table dans la nouvelle société. Les lignes feuille sont prêtes pour la validation.  
-8. Dans la feuille configuration, sélectionnez la table ligne feuille, puis sélectionnez l’action **Données de base de données** .  
-9. Examinez les informations, puis sélectionnez l’action **Valider** .  
+8. Dans la feuille configuration, sélectionnez la table ligne feuille, puis sélectionnez l’action **Données de base de données**.  
+9. Examinez les informations, puis sélectionnez l’action **Valider**.  
 10. Répétez les étapes pour importer et valider les autres soldes ouverts.  
 
 > [!TIP]
-> Vous pouvez utiliser les mêmes traitements par lots pour ajouter des soldes d’ouverture chaque fois que vous enregistrez un nouveau client ou fournisseur avec lequel vous avez déjà traité mais qui n’est pas enregistré dans [!INCLUDE [prodshort](includes/prodshort.md)]. Recherchez simplement la tâche appropriée, puis choisissez le lien approprié.
+> Vous pouvez utiliser les mêmes traitements par lots pour ajouter des soldes d’ouverture chaque fois que vous enregistrez un nouveau client ou fournisseur avec lequel vous avez déjà traité mais qui n’est pas enregistré dans [!INCLUDE [prod_short](includes/prod_short.md)]. Recherchez simplement la tâche appropriée, puis choisissez le lien approprié.
 
 ## <a name="see-also"></a>Voir aussi
 

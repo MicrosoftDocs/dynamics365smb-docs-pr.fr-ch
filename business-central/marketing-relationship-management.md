@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: contact, prospect, client
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 00ffaf4cefa87ad530a94495386998d65be4fdc5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6c1539b19274c4e31fa66b31af17be5429c719f5
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923535"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4745990"
 ---
 # <a name="managing-relationships"></a>Gestion des relations
-Les fonctionnalités de gestion des relations de [!INCLUDE[d365fin](includes/d365fin_md.md)] vous aident à gérer et prendre en charge vos efforts de vente. Grâce à elles, vous avez accès à des informations complètes et pertinentes qui vous permettent de focaliser vos interactions sur les segments client/contact favoris.
+Les fonctionnalités de gestion des relations de [!INCLUDE[prod_short](includes/prod_short.md)] vous aident à gérer et prendre en charge vos efforts de vente. Grâce à elles, vous avez accès à des informations complètes et pertinentes qui vous permettent de focaliser vos interactions sur les segments client/contact favoris.
 
-Les pratiques recommandées en matière de vente et de marketing reposent toutes sur la prise de décisions appropriées au bon moment. [!INCLUDE[d365fin](includes/d365fin_md.md)] fournit une vue d’ensemble précise et opportune de vos informations de contact afin d’offrir des services à vos prospects de manière plus efficace et d’accroître la satisfaction de la clientèle.
+Les pratiques recommandées en matière de vente et de marketing reposent toutes sur la prise de décisions appropriées au bon moment. [!INCLUDE[prod_short](includes/prod_short.md)] fournit une vue d’ensemble précise et opportune de vos informations de contact afin d’offrir des services à vos prospects de manière plus efficace et d’accroître la satisfaction de la clientèle.
 
 Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.  
 

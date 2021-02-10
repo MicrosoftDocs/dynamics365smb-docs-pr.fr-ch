@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 095daa34ee8a956da8245f4e02c3bd438ba277fb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b3c9b79701296cd21492752e94b2a0ec7848658b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924018"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746331"
 ---
 # <a name="about-item-types"></a>À propos des types d’articles
-Dans le champ **Type** de la page **Fiche article** , vous pouvez sélectionner ce pourquoi l’article est utilisé dans votre activité et donc la manière dont il est géré dans le système. Trois options existent :
+Dans le champ **Type** de la page **Fiche article**, vous pouvez sélectionner ce pourquoi l’article est utilisé dans votre activité et donc la manière dont il est géré dans le système. Trois options existent :
 
 |Option|Objectif courant|
 |------|-----------|
@@ -43,9 +43,9 @@ Les trois types d’article prennent en charge les fonctions suivantes respectiv
 ## <a name="costing-methods-for-types-of-items"></a>Modes évaluation stock pour les types d’articles
 Lorsque vous validez des transactions de stock, les changements de quantité et de valeur en stock sont enregistrés dans les écritures comptables article et les écritures valeur, respectivement. 
 
-Pour les articles de stock, le coût est enregistré dans le champ **Coût total (réel)** sur la page **Écritures valeur** , et lorsqu’il est rapproché des écritures comptables, le coût sera indiqué dans le champ **Coût validé en comptabilité** . Pour plus d’informations, voir [Détails de conception : Évaluation stock](design-details-inventory-costing.md).
+Pour les articles de stock, le coût est enregistré dans le champ **Coût total (réel)** sur la page **Écritures valeur**, et lorsqu’il est rapproché des écritures comptables, le coût sera indiqué dans le champ **Coût validé en comptabilité**. Pour plus d’informations, voir [Détails de conception : Évaluation stock](design-details-inventory-costing.md).
 
-Pour les articles hors stock et de service, le coût est enregistré dans le champ **Coût total (non inventoriable)** sur la page **Écritures valeur** . Pour les articles hors stock et de service, le coût est spécifié sur les documents et journaux de vente, d’assemblage et de production. Le coût par défaut peut être spécifié dans le champ **Coût unitaire** sur les pages **Fiche article** et **Point de stock** . Les coûts de ces types d’articles ne sont pas rapprochés des écritures comptables. 
+Pour les articles hors stock et de service, le coût est enregistré dans le champ **Coût total (non inventoriable)** sur la page **Écritures valeur**. Pour les articles hors stock et de service, le coût est spécifié sur les documents et journaux de vente, d’assemblage et de production. Le coût par défaut peut être spécifié dans le champ **Coût unitaire** sur les pages **Fiche article** et **Point de stock**. Les coûts de ces types d’articles ne sont pas rapprochés des écritures comptables. 
 
 ## <a name="catalog-and-service-items"></a>Articles de catalogue et de service
 Les articles que vous offrez à vos clients mais que vous ne souhaitez pas gérer dans le système jusqu’à ce que vous commenciez à les vendre peuvent être définis comme des articles de catalogue. Les articles de catalogue ne doivent pas être confondus avec les articles normaux de type Hors-stock. Pour en savoir plus, voir [Utiliser des articles de catalogue](inventory-how-work-nonstock-items.md).
@@ -57,4 +57,4 @@ Les articles des clients pour lesquels vous effectuez un service, par exemple un
 [Configuration de stock](inventory-setup-inventory.md)  
 [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  
 [STOCKS ET EN-COURS](inventory-manage-inventory.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

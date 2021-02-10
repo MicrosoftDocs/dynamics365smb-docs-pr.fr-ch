@@ -1,6 +1,6 @@
 ---
 title: Détails de conception - Arrondi | Microsoft Docs
-description: Des reliquats d’arrondi peuvent se produire lorsque vous évaluez le coût d’une sortie de stock qui est mesurée dans une quantité différente de l’entrée de stock correspondante. Les reliquats d’arrondi sont calculés pour tous les modes d’évaluation du stock lorsque vous exécutez le traitement par lots **Ajuster coûts - Écr. article** .
+description: Des reliquats d’arrondi peuvent se produire lorsque vous évaluez le coût d’une sortie de stock qui est mesurée dans une quantité différente de l’entrée de stock correspondante. Les reliquats d’arrondi sont calculés pour tous les modes d’évaluation du stock lorsque vous exécutez le traitement par lots **Ajuster coûts - Écr. article**.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f1cf5b1a865ea468e96f5b8e174ffeccfeb61022
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 16f8a37a22540caca2faa84005db16a9da59e098
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910961"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751195"
 ---
 # <a name="design-details-rounding"></a>Détails de conception : arrondi
-Des reliquats d’arrondi peuvent se produire lorsque vous évaluez le coût d’une sortie de stock qui est mesurée dans une quantité différente de l’entrée de stock correspondante. Les reliquats d’arrondi sont calculés pour tous les modes d’évaluation du stock lorsque vous exécutez le traitement par lots **Ajuster coûts - Écr. article** .  
+Des reliquats d’arrondi peuvent se produire lorsque vous évaluez le coût d’une sortie de stock qui est mesurée dans une quantité différente de l’entrée de stock correspondante. Les reliquats d’arrondi sont calculés pour tous les modes d’évaluation du stock lorsque vous exécutez le traitement par lots **Ajuster coûts - Écr. article**.  
 
  Lorsque vous utilisez le mode d’évaluation moyen, le montant résiduel est calculé et enregistré sur une base cumulative écriture par écriture.  
 
@@ -64,4 +64,4 @@ Des reliquats d’arrondi peuvent se produire lorsque vous évaluez le coût d�
  [Détails de conception : ajustement des coûts](design-details-cost-adjustment.md)   
  [Détails de conception : Modes évaluation stock](design-details-costing-methods.md) [Gestion des composants des coûts](finance-manage-inventory-costs.md)  
  [Finances](finance.md)  
- [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

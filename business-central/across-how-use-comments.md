@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: tasks, work
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0d9b84ff608d6778bb20dfe009978fbe624f47c0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3f84b6d7d03bd8766bfd485870cef8401a3e3382
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924893"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754582"
 ---
 # <a name="add-comments-to-cards-and-documents"></a>Ajouter des commentaires aux fiches et aux documents
 Vous pouvez ajouter des informations supplémentaires dans les comptes généraux, les fiches client, ou les commandes vente pour communiquer des exception ou des accords spéciaux avec d’autres utilisateurs.
-La plupart des fiches et documents ont une action **Commentaires** , qui ouvre la page **Feuille de commentaires** dans laquelle vous pouvez saisir ou lire les commentaires. Sur les documents, vous pouvez également ajouter des commentaires à différentes lignes.
+La plupart des fiches et documents ont une action **Commentaires**, qui ouvre la page **Feuille de commentaires** dans laquelle vous pouvez saisir ou lire les commentaires. Sur les documents, vous pouvez également ajouter des commentaires à différentes lignes.
 
 Les commentaires sur les documents en cours sont transférées dans le document validé. Par exemple, un commentaire sur une commande vente est transféré sur une expédition vente validée qui en résulte.
 
@@ -31,11 +31,11 @@ En outre, vous pouvez spécifier si vous souhaitez que des commentaires soient t
 La section suivante décrit comment ajouter un commentaire à une fiche article. Les étapes sont similaires pour toutes les autres fiches et documents, sauf sur les lignes document, l’action **Commentaires** est placée sur un menu d’action de lignes.
 
 ## <a name="to-add-a-comments-to-an-item-card"></a>Pour ajouter des commentaires à une fiche article
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles** , puis sélectionnez le lien associé.
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles**, puis sélectionnez le lien associé.
 2. Ouvrez la fiche article appropriée.
-3. Sélectionnez l’action **Commentaires** .
-4. Sur la page **Feuille de commentaires** , vous pouvez saisir le texte, puis choisir le bouton **OK** .
+3. Sélectionnez l’action **Commentaires**.
+4. Sur la page **Feuille de commentaires**, vous pouvez saisir le texte, puis choisir le bouton **OK**.
 
 ## <a name="see-also"></a>Voir aussi
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)

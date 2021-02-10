@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4d8ce273a2db6c682a205c767e28aee3792ea14b
-ms.sourcegitcommit: 0fb6952376d853a878ed33257e73aadc03b95572
+ms.openlocfilehash: b734d867401697b1c554f321d5b153f093dd5cd8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3968321"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753249"
 ---
 # <a name="assembly-management"></a>Gestion des assemblages
-Pour prendre en charge les sociétés qui fournissent des produits à leurs clients en combinant des composants dans des processus simples sans recourir aux fonctionnalités de fabrication, [!INCLUDE[d365fin](includes/d365fin_md.md)] inclut des fonctions permettant d’assembler les articles. Ces fonctions s’intègrent à celles existantes \(ventes, planification, réservations et entreposage\).  
+Pour prendre en charge les sociétés qui fournissent des produits à leurs clients en combinant des composants dans des processus simples sans recourir aux fonctionnalités de fabrication, [!INCLUDE[prod_short](includes/prod_short.md)] inclut des fonctions permettant d’assembler les articles. Ces fonctions s’intègrent à celles existantes \(ventes, planification, réservations et entreposage\).  
 
  Un élément d’assemblage est défini comme un article pouvant être vendu contenant une nomenclature d’assemblage. Pour plus d’informations, reportez-vous à [Utiliser les nomenclatures](inventory-how-work-BOMs.md).
 
@@ -56,6 +56,6 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 [Détails de conception : planification de l’approvisionnement](design-details-supply-planning.md)  
 [Procédure pas à pas : planification manuelle des approvisionnements](walkthrough-planning-supplies-manually.md)  
 [Procédure pas-à-pas : vente, assemblage et expédition de kits](walkthrough-selling-assembling-and-shipping-kits.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

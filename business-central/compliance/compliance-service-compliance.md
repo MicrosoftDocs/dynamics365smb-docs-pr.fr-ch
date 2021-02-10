@@ -1,8 +1,7 @@
 ---
-title: Conformité des services | Microsoft Docs
-description: Ce contenu comprend des informations sur la conformité des services concernant Business Central.
+title: Conformité des services et contrat de niveau de service
+description: Ce contenu comprend des informations sur la conformité des services concernant Business Central Online.
 author: sorenfriisalexandersen
-documentationcenter: ''
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
@@ -12,15 +11,16 @@ ms.search.keywords: ''
 ms.reviewer: edupont
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: 03987cf45cae8d8115ed2a782a60a5a19fc1032f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 56c4413e333a2bf8d08ae25f1e4df1d03e87e0be
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920987"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751945"
 ---
 # <a name="service-compliance"></a>Conformité des services
-Ce contenu comprend des informations sur la conformité des services concernant [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
+
+Ce contenu comprend des informations sur la conformité des services concernant [!INCLUDE[prod_short](../includes/prod_short.md)] en ligne.  
 
 Business Central est un service de cloud avec une portée et une échelle totales s’exécutant sur l’une des infrastructures d’hyper-échelle les plus complexes au monde, Microsoft Azure, avec des centres de données dans des régions du monde entier. L’exécution d’un service cloud impose également la nécessité de se conformer à certaines normes en termes de sécurité et de conformité, afin que, du point de vue des services, Business Central respecte les besoins stricts de plusieurs certifications ISO et propres au secteur.
 
@@ -30,9 +30,7 @@ Si vous êtes intéressé par la liste complète des offres de conformité de Mi
 
 ## <a name="service-terms"></a>Conditions d’utilisation
 
-[!INCLUDE[prodshort](../includes/prodshort.md)] en ligne est régi par la [Politique de cycle de vie moderne](https://support.microsoft.com/help/30881/modern-lifecycle-policy). Les conditions du contrat de niveau de service sont décrites dans le document que vous pouvez télécharger à partir de la section **Contrats de niveau de service pour Microsoft Online Services** sur la page [Termes du contrat de licence](https://www.microsoft.com/licensing/product-licensing/products).  
-
-En outre, vous pouvez surveiller la santé de votre locataire et spécifier des périodes de mise à niveau dans [Centre d’administration des locataires](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
+[!INCLUDE [service-terms](../includes/service-terms.md)]
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -40,4 +38,4 @@ En outre, vous pouvez surveiller la santé de votre locataire et spécifier des 
 [Conformité des applications](compliance-application-compliance.md)  
 [Certifications](compliance-certifications.md)  
 
-## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  

@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: multiple currencies
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b0442a935442890d0edaec4fa803e887da47477f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8b548d6d8426fefa01bb45d3d1fdedaeb98966ce
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920562"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746906"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Configurer une devise report supplémentaire
 Les sociétés opérant dans un nombre croissant de pays/régions, il est de plus en plus important qu’elles puissent consulter et générer des états de données financiers dans plusieurs devises.
 
-Votre comptabilité est configurée pour utiliser votre devise société (DS), mais vous pouvez la configurer pour utiliser une autre devise avec un taux de change courant. Si vous désignez une deuxième devise comme « devise report supplémentaire », [!INCLUDE[d365fin](includes/d365fin_md.md)] enregistre automatiquement les montants d’état en DS et dans cette devise report supplémentaire pour chaque écriture comptable, ainsi que pour d’autres écritures, telles que les écritures TVA.
+Votre comptabilité est configurée pour utiliser votre devise société (DS), mais vous pouvez la configurer pour utiliser une autre devise avec un taux de change courant. Si vous désignez une deuxième devise comme « devise report supplémentaire », [!INCLUDE[prod_short](includes/prod_short.md)] enregistre automatiquement les montants d’état en DS et dans cette devise report supplémentaire pour chaque écriture comptable, ainsi que pour d’autres écritures, telles que les écritures TVA.
 
 > [!Warning]
 > Il est déconseillé d’utiliser la fonctionnalité de devise report comme base pour une conversion d’état financier. Cet outil ne permet pas d’effectuer une conversion d’états financiers de filiale étrangère dans le cadre d’une consolidation de société. La fonctionnalité de devise report peut uniquement être utilisée pour préparer des états dans une autre devise, comme s’il s’agissait de la devise société.
@@ -48,8 +48,8 @@ Pour configurer une devise report supplémentaire, procédez comme suit :
 
 ### <a name="to-specify-general-ledger-accounts-for-posting-exchange-rate-adjustments"></a>Pour spécifier les comptes généraux pour la validation d’ajustements de taux de change  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Devises** , puis sélectionnez le lien associé.  
-2. Sur la page **Devises** , renseignez les champs suivants pour la devise report.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Devises**, puis sélectionnez le lien associé.  
+2. Sur la page **Devises**, renseignez les champs suivants pour la devise report.  
 
 |Champ|Désignation|  
 |---------------------------------|---------------------------------------|  
@@ -59,52 +59,52 @@ Pour configurer une devise report supplémentaire, procédez comme suit :
 |**Compte pertes résiduelles DR**|Compte général dans lequel les montants résiduels qui correspondent à des pertes sont validés si vous validez dans le module de comptabilité en DS ainsi qu’en devise report.|
 
 > [!NOTE]  
->  Des montants résiduels peuvent apparaître lorsque [!INCLUDE[d365fin](includes/d365fin_md.md)] arrondit des montants débit et crédit convertis de DS en devise report.  
+>  Des montants résiduels peuvent apparaître lorsque [!INCLUDE[prod_short](includes/prod_short.md)] arrondit des montants débit et crédit convertis de DS en devise report.  
 
 Pour chaque compte général, vous devez spécifier la manière dont les montants comptables du compte sont ajustés en fonction des fluctuations de taux de change entre DS et la devise report.  
 
 ### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>Pour spécifier la méthode d’ajustement de taux de change pour tous les comptes généraux  
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Plan comptable** , puis sélectionnez le lien associé.  
-2. Sur la page **Plan comptable** , sélectionnez le compte approprié, puis cliquez sur l’action **Modifier** .  
-3. Sur la page **Fiche compte général** , sélectionnez la méthode adéquate dans le champ **Ajustement taux de change** .  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Plan comptable**, puis sélectionnez le lien associé.  
+2. Sur la page **Plan comptable**, sélectionnez le compte approprié, puis cliquez sur l’action **Modifier**.  
+3. Sur la page **Fiche compte général**, sélectionnez la méthode adéquate dans le champ **Ajustement taux de change**.  
 
-    Si vous validez dans une devise report, spécifiez, dans le champ **Ajustement taux de change** , la manière dont ce compte général est ajusté en fonction des fluctuations de taux de change entre DS et la devise report. Le tableau suivant répertorie les options au choix.  
+    Si vous validez dans une devise report, spécifiez, dans le champ **Ajustement taux de change**, la manière dont ce compte général est ajusté en fonction des fluctuations de taux de change entre DS et la devise report. Le tableau suivant répertorie les options au choix.  
 
     |Champ|Description|  
     |----------------------------------|---------------------------------------|  
     |**Aucun ajustement**|Aucun ajustement de taux de change n’est effectué sur le compte général. C’est l’option par défaut.<br /><br /> **NOTE :** sélectionnez cette option si le taux de change entre DS et la devise report est toujours fixe.|  
-    |**Ajuster montant**|La devise société est ajustée pour tous les gains ou toutes les pertes de change. Les gains ou pertes sur le taux de change sont validés dans le compte général, champ **Montant** , et dans les comptes que vous avez spécifiés pour les gains ou les pertes dans le champ **Cpte gains constatés report** et **Cpte pertes constatées report** de la page **Devises** .|  
-    |**Ajuster montant devise report**|La devise report est ajustée pour les gains ou les pertes de change. Les gains ou pertes sur le taux de change sont validés dans le compte général, champ **Montant DR** , et dans les comptes que vous avez spécifiés pour les gains ou les pertes dans le champ **Cpte gains constatés report** et **Cpte pertes constatées report** de la page **Devises** .|  
+    |**Ajuster montant**|La devise société est ajustée pour tous les gains ou toutes les pertes de change. Les gains ou pertes sur le taux de change sont validés dans le compte général, champ **Montant**, et dans les comptes que vous avez spécifiés pour les gains ou les pertes dans le champ **Cpte gains constatés report** et **Cpte pertes constatées report** de la page **Devises**.|  
+    |**Ajuster montant devise report**|La devise report est ajustée pour les gains ou les pertes de change. Les gains ou pertes sur le taux de change sont validés dans le compte général, champ **Montant DR**, et dans les comptes que vous avez spécifiés pour les gains ou les pertes dans le champ **Cpte gains constatés report** et **Cpte pertes constatées report** de la page **Devises**.|  
 
-    Les gains et les pertes en relation avec les taux de change sont validés lorsque vous exécutez le traitement par lots **Ajuster taux de change** . Dans le cadre de ce traitement par lots, le taux de change d’ajustement est identifié sur la page **Taux de change devise** , puis les montants des champs **Montant** et **Montant DR** de l’écriture comptable sont comparés afin de déterminer s’il y a gain ou perte sur le taux de change. Le traitement par lots utilise l’option que vous sélectionnez dans le champ **Ajustement taux de change** pour déterminer comment calculer et valider des gains ou des pertes sur le taux de change pour des comptes généraux.  
+    Les gains et les pertes en relation avec les taux de change sont validés lorsque vous exécutez le traitement par lots **Ajuster taux de change**. Dans le cadre de ce traitement par lots, le taux de change d’ajustement est identifié sur la page **Taux de change devise**, puis les montants des champs **Montant** et **Montant DR** de l’écriture comptable sont comparés afin de déterminer s’il y a gain ou perte sur le taux de change. Le traitement par lots utilise l’option que vous sélectionnez dans le champ **Ajustement taux de change** pour déterminer comment calculer et valider des gains ou des pertes sur le taux de change pour des comptes généraux.  
 
-4.  Fermez la page **Fiche compte général** .  
+4.  Fermez la page **Fiche compte général**.  
 
 ### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>Pour spécifier la méthode d’ajustement de taux de change pour toutes les écritures TVA  
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres comptabilité** , puis sélectionnez le lien associé.  
-2. Sur la page **Paramètres comptabilité** , sélectionnez la méthode adéquate dans le champ **Ajustement tx de change TVA** .  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres comptabilité**, puis sélectionnez le lien associé.  
+2. Sur la page **Paramètres comptabilité**, sélectionnez la méthode adéquate dans le champ **Ajustement tx de change TVA**.  
 3. Si vous validez en devise report (DS), vous pouvez spécifier dans le champ **Ajustement taux de change TVA** la manière dont les comptes définis pour la validation de la TVA sur la page **Paramètres compta. TVA** sont ajustés pour les fluctuations de taux de change entre devise société et devise report.  
 
-    Lorsque vous exécutez le traitement par lots **Ajuster taux de change** , le taux de change ajustement est identifié sur la page **Taux de change devise** , puis les montants des champs **Montant** et **Montant devise report** de l’écriture TVA sont comparés afin de déterminer s’il y a un gain ou une perte de change. Le traitement par lots utilise l’option sélectionnée dans ce champ pour déterminer la manière de valider les gains et pertes de change pour les comptes TVA.  
+    Lorsque vous exécutez le traitement par lots **Ajuster taux de change**, le taux de change ajustement est identifié sur la page **Taux de change devise**, puis les montants des champs **Montant** et **Montant devise report** de l’écriture TVA sont comparés afin de déterminer s’il y a un gain ou une perte de change. Le traitement par lots utilise l’option sélectionnée dans ce champ pour déterminer la manière de valider les gains et pertes de change pour les comptes TVA.  
 
     Vous disposez des mêmes options qu’avec les écritures comptables mais, dans ce cas, les écritures ajustées sont les écritures TVA. Le tableau suivant répertorie les options au choix.
 
     |Champ|Désignation|  
     |----------------------------------|---------------------------------------|  
     |**Aucun ajustement**|Aucun ajustement de taux de change n’est effectué sur le compte général. C’est l’option par défaut.|  
-    |**Ajuster montant**|La devise société est ajustée pour tous les gains ou toutes les pertes de change. Les gains ou pertes sur le taux de change sont validés dans le compte général, champ **Montant** , et dans les comptes que vous avez spécifiés pour les gains ou les pertes dans le champ **Cpte gains constatés report** et **Cpte pertes constatées report** de la page **Devises** .|  
-    |**Ajuster montant devise report**|La devise report est ajustée pour les gains ou les pertes de change. Les gains ou pertes sur le taux de change sont validés dans le compte général, champ **Montant DR** , et dans les comptes que vous avez spécifiés pour les gains ou les pertes dans le champ **Cpte gains constatés report** et **Cpte pertes constatées report** de la page **Devises** .|  
+    |**Ajuster montant**|La devise société est ajustée pour tous les gains ou toutes les pertes de change. Les gains ou pertes sur le taux de change sont validés dans le compte général, champ **Montant**, et dans les comptes que vous avez spécifiés pour les gains ou les pertes dans le champ **Cpte gains constatés report** et **Cpte pertes constatées report** de la page **Devises**.|  
+    |**Ajuster montant devise report**|La devise report est ajustée pour les gains ou les pertes de change. Les gains ou pertes sur le taux de change sont validés dans le compte général, champ **Montant DR**, et dans les comptes que vous avez spécifiés pour les gains ou les pertes dans le champ **Cpte gains constatés report** et **Cpte pertes constatées report** de la page **Devises**.|  
 
 ### <a name="to-activate-the-additional-reporting-currency"></a>Pour activer la devise report  
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres comptabilité** , puis sélectionnez le lien associé.  
-2. Sur la page **Paramètres comptabilité** , choisissez le champ **Devise report (DR)** pour sélectionner la devise supplémentaire à utiliser pour vos états.  
-3. Lorsque vous quittez le champ, [!INCLUDE[d365fin](includes/d365fin_md.md)] affiche un message de confirmation décrivant les effets de l’activation de la devise report.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres comptabilité**, puis sélectionnez le lien associé.  
+2. Sur la page **Paramètres comptabilité**, choisissez le champ **Devise report (DR)** pour sélectionner la devise supplémentaire à utiliser pour vos états.  
+3. Lorsque vous quittez le champ, [!INCLUDE[prod_short](includes/prod_short.md)] affiche un message de confirmation décrivant les effets de l’activation de la devise report.  
 4. Cliquez sur **Oui** pour confirmer que vous souhaitez activer la devise.  
 5. Le traitement par lots **Ajuster devise report** s’ouvre.
 
-    Ce traitement par lots convertit les montants en devise société des écritures existantes en devise report. Le traitement par lots utilise un taux de change par défaut copié à partir du taux de change, qui est valide à la date de travail sur la page **Taux de change devise** . Les montants résiduels qui résultent d’une conversion de DS en devise report sont validés dans les comptes de gains et pertes résiduels spécifiés sur la page **Devises** . La date de comptabilisation et le numéro de document pour ces écritures sont les mêmes que pour l’écriture comptable originale. Une fois toutes ces écritures résiduelles validées, le traitement par lots valide une écriture arrondie à la date de clôture de chaque exercice clôturé dans le compte de bénéfices non répartis. Cela résulte de la nécessité de s’assurer que le solde de clôture des comptes produit pour chaque exercice clôturé est 0 tant en DS que dans la devise report.
+    Ce traitement par lots convertit les montants en devise société des écritures existantes en devise report. Le traitement par lots utilise un taux de change par défaut copié à partir du taux de change, qui est valide à la date de travail sur la page **Taux de change devise**. Les montants résiduels qui résultent d’une conversion de DS en devise report sont validés dans les comptes de gains et pertes résiduels spécifiés sur la page **Devises**. La date de comptabilisation et le numéro de document pour ces écritures sont les mêmes que pour l’écriture comptable originale. Une fois toutes ces écritures résiduelles validées, le traitement par lots valide une écriture arrondie à la date de clôture de chaque exercice clôturé dans le compte de bénéfices non répartis. Cela résulte de la nécessité de s’assurer que le solde de clôture des comptes produit pour chaque exercice clôturé est 0 tant en DS que dans la devise report.
 6. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]      
-7. Pour lancer le traitement par lots, cliquez sur le bouton **OK** .  
+7. Pour lancer le traitement par lots, cliquez sur le bouton **OK**.  
 
 Après exécution du traitement par lots, les montants des écritures existantes suivantes sont exprimés en DS et dans la devise report :  
 
@@ -119,11 +119,11 @@ Après exécution du traitement par lots, les montants des écritures existantes
 En outre, toutes les écritures futures du même type ont des montants enregistrés en DS et dans la devise report.  
 
 > [!NOTE]  
->  Le champ **Devise report** n’est activé qu’après que vous avez cliqué sur le bouton **OK** dans le traitement par lots **Ajuster devise report** .  
+>  Le champ **Devise report** n’est activé qu’après que vous avez cliqué sur le bouton **OK** dans le traitement par lots **Ajuster devise report**.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Voir aussi
 [Mettre à jour des taux de change devise](finance-how-update-currencies.md)  
 [Clôture des exercices et des périodes](year-close-years-periods.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

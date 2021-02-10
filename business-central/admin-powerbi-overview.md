@@ -11,16 +11,16 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: d02740b0f4c73b96be9268cfdf5e4c3de157d5d5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 23a0c72775dbddc89a81105de3b2ed79d1f09432
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924543"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753785"
 ---
-# <a name="power-bi-integration-component-and-architecture-overview-for-prodshort"></a>Vue d’ensemble Architecture et composant d’intégration Power BI pour [!INCLUDE[prodshort](includes/prodshort.md)]
+# <a name="power-bi-integration-component-and-architecture-overview-for-prod_short"></a>Vue d’ensemble Architecture et composant d’intégration Power BI pour [!INCLUDE[prod_short](includes/prod_short.md)]
 
-Dans cet article, vous découvrirez les différents aspects de l’intégration de Power BI à [!INCLUDE[prodshort](includes/prodshort.md)] pour vous aider à comprendre sa mise en œuvre et son utilisation.
+Dans cet article, vous découvrirez les différents aspects de l’intégration de Power BI à [!INCLUDE[prod_short](includes/prod_short.md)] pour vous aider à comprendre sa mise en œuvre et son utilisation.
 
 ## <a name="components"></a>Composants
 
@@ -30,39 +30,39 @@ Le tableau suivant décrit les principaux composants impliqués dans l’intégr
 |---------|-----------|
 |Power BI|Un service d’hébergement et de gestion des états basé sur le cloud.|
 |Power BI Desktop|Un outil de création pour créer des états et des tableaux de bord, et vous permet d’exécuter des états. Il est disponible en téléchargement gratuit sur Microsoft Store et est installé localement.|
-|[!INCLUDE[prodshort](includes/prodshort.md)]|Solution en ligne ou sur site avec des connecteurs exposés à Power BI et possibilité d’intégrer une partie de Power BI.|
+|[!INCLUDE[prod_short](includes/prod_short.md)]|Solution en ligne ou sur site avec des connecteurs exposés à Power BI et possibilité d’intégrer une partie de Power BI.|
 
 ## <a name="whats-available-from-the-start"></a>Ce qui est disponible dès le départ
 
 Le tableau suivant décrit les fonctionnalités disponibles.
 
-|Fonctionnalité|Support [!INCLUDE[prodshort](includes/prodshort.md)] en ligne ou sur site|
+|Fonctionnalité|Support [!INCLUDE[prod_short](includes/prod_short.md)] en ligne ou sur site|
 |-------|---------------------|
 |Connecteurs Power BI|Les deux. Différents connecteurs pour la solution ligne et la solution sur site. Connecteur identique utilisé pour le service Power BI Desktop et Power BI |
-|Expérience intégrée pour afficher un état donné dans un Récapitulatif dans [!INCLUDE[prodshort](includes/prodshort.md)]|Les deux. Nécessite une configuration pour afficher les états sur site.|
-|Gestion des états Power BI depuis [!INCLUDE[prodshort](includes/prodshort.md)]|En ligne|
+|Expérience intégrée pour afficher un état donné dans un Récapitulatif dans [!INCLUDE[prod_short](includes/prod_short.md)]|Les deux. Nécessite une configuration pour afficher les états sur site.|
+|Gestion des états Power BI depuis [!INCLUDE[prod_short](includes/prod_short.md)]|En ligne|
 |États Power BI par défaut sur les tableaux de bord déployés vers Power BI|En ligne|
 |Applications Power BI sur Microsoft AppSource|En ligne.|
 
 ## <a name="architecture"></a>Architecture
 
-[!INCLUDE[prodshort](includes/prodshort.md)] s’intègre à Power BI via un connecteur utilisant OData. La source de données pour les états Power BI est exposée comme services Web OData.
+[!INCLUDE[prod_short](includes/prod_short.md)] s’intègre à Power BI via un connecteur utilisant OData. La source de données pour les états Power BI est exposée comme services Web OData.
 
 ![Architecture Power BI pour l’intégration avec Business Central](./media/power-bi-architecture.png)
 
 ## <a name="general-flow"></a>Flux général
 
-Le diagramme suivant illustre le flux de travail de base pour les utilisateurs lors de la connexion de [!INCLUDE[prodshort](includes/prodshort.md)] à Power BI.
+Le diagramme suivant illustre le flux de travail de base pour les utilisateurs lors de la connexion de [!INCLUDE[prod_short](includes/prod_short.md)] à Power BI.
 
 ![Flux de travai Power BI pour l’intégration avec Business Central](./media/power-bi-flow.png)
 
 1. L’utilisateur s’inscrit à un compte Power BI.
-2. L’utilisateur se connecte à Power BI depuis [!INCLUDE[prodshort](includes/prodshort.md)].
-3. [!INCLUDE[prodshort](includes/prodshort.md)] vérifie la licence.
-4. [!INCLUDE[prodshort](includes/prodshort.md)] déploie les états par défaut sur le service Power BI. Cette étape ne se produit que pour [!INCLUDE[prodshort](includes/prodshort.md)] en ligne.
-5. [!INCLUDE[prodshort](includes/prodshort.md)] rend les états dans Power BI disponibles pour la sélection dans [!INCLUDE[prodshort](includes/prodshort.md)]. Les états par défaut sont automatiquement affichés dans des parties de Power BI.
+2. L’utilisateur se connecte à Power BI depuis [!INCLUDE[prod_short](includes/prod_short.md)].
+3. [!INCLUDE[prod_short](includes/prod_short.md)] vérifie la licence.
+4. [!INCLUDE[prod_short](includes/prod_short.md)] déploie les états par défaut sur le service Power BI. Cette étape ne se produit que pour [!INCLUDE[prod_short](includes/prod_short.md)] en ligne.
+5. [!INCLUDE[prod_short](includes/prod_short.md)] rend les états dans Power BI disponibles pour la sélection dans [!INCLUDE[prod_short](includes/prod_short.md)]. Les états par défaut sont automatiquement affichés dans des parties de Power BI.
 6. L’utilisateur crée un état dans Power BI Desktop.
-7. L’utilisateur publie l’état vers le service Power BI. Les états sont ensuite disponibles pour la sélection dans [!INCLUDE[prodshort](includes/prodshort.md)].
+7. L’utilisateur publie l’état vers le service Power BI. Les états sont ensuite disponibles pour la sélection dans [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
@@ -76,9 +76,9 @@ Le diagramme suivant illustre le flux de travail de base pour les utilisateurs l
 [Veille économique](bi.md)  
 [Mise en route](product-get-started.md)  
 [Importation des données métier à partir d’autres systèmes financiers](across-import-data-configuration-packages.md)  
-[Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] comme source de données Power BI](across-how-use-financials-data-source-powerbi.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] comme source de données Power Apps](across-how-use-financials-data-source-powerapps.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] dans Power Automate](across-how-use-financials-data-source-flow.md)  
+[Configuration de [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)] comme source de données Power BI](across-how-use-financials-data-source-powerbi.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)] comme source de données Power Apps](across-how-use-financials-data-source-powerapps.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)] dans Power Automate](across-how-use-financials-data-source-flow.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

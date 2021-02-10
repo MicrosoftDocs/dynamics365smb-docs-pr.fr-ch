@@ -10,20 +10,20 @@ ms.workload: na
 ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7d063b4b6a78f9a75cdb16050ffe14305df27d95
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fa9908544b55e09f5a6578eec0cba000a763e917
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916691"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749134"
 ---
 # <a name="making-payments"></a>Effectuer des paiements
 
-Lorsque vous effectuez des paiements aux fournisseurs ou aux clients, ou des remboursements aux salariés, vous validez les lignes paiement associées sur la page **Feuille paiement** . La feuille paiement est une feuille comptabilité qui est optimisée pour effectuer des paiements et inclut un certain nombre de fonctionnalités puissantes telles que la fonction **Proposer paiements fournisseur** qui rassemble les paiements fournisseurs échus, et l’état **Fourn. : Échéancier** qui affiche un aperçu des paiements fournisseur échus.  
+Lorsque vous effectuez des paiements aux fournisseurs ou aux clients, ou des remboursements aux salariés, vous validez les lignes paiement associées sur la page **Feuille paiement**. La feuille paiement est une feuille comptabilité qui est optimisée pour effectuer des paiements et inclut un certain nombre de fonctionnalités puissantes telles que la fonction **Proposer paiements fournisseur** qui rassemble les paiements fournisseurs échus, et l’état **Fourn. : Échéancier** qui affiche un aperçu des paiements fournisseur échus.  
 
 Vous pouvez lancer le processus de paiement depuis des listes, des fiches, et des écritures comptables pour les fournisseurs, les clients, ainsi que les salariés. Chacune de ces pages a un bouton démarrant le flux de paiement et vous permettant de renseigner la feuille paiement.  
 
-À partir de la feuille de paiements, vous pouvez imprimer des chèques informatiques ou effectuer un enregistrement lorsque les chèques sont rédigés. Si vous sélectionnez **Informatique** dans le champ **Mode émission paiement** , toutes les lignes représentant des chèques doivent être imprimées avant que les lignes feuille puissent être validées.
+À partir de la feuille de paiements, vous pouvez imprimer des chèques informatiques ou effectuer un enregistrement lorsque les chèques sont rédigés. Si vous sélectionnez **Informatique** dans le champ **Mode émission paiement**, toutes les lignes représentant des chèques doivent être imprimées avant que les lignes feuille puissent être validées.
 
 Lorsque les paiements sont validés, vous pouvez les exporter-vers un fichier bancaire à télécharger vers votre banque pour traitement.
 
@@ -33,7 +33,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 
 | À | Voir |
 | --- | --- |
-|Comprendre les fonctions de base de la page **Feuille paiement** , qui est basée sur la feuille comptabilité, pour préparer la validation des paiements aux fournisseurs ou employés.|[Utilisation de feuilles comptabilité](ui-work-general-journals.md)|
+|Comprendre les fonctions de base de la page **Feuille paiement**, qui est basée sur la feuille comptabilité, pour préparer la validation des paiements aux fournisseurs ou employés.|[Utilisation de feuilles comptabilité](ui-work-general-journals.md)|
 |Valider les paiements aux fournisseurs ou aux salariés, et les remboursements aux clients et lettrer éventuellement les paiements aux factures/avoirs impayés pour les clôturer comme payés.|[Enregistrer des paiements et des remboursements](payables-how-post-payments-refunds.md)|
 | Utiliser une fonction sur la page **Feuille paiement** pour proposer des paiements fournisseur en fonction de critères sélectionnés, tels que la date d’échéance, la possibilité d’escompte et vos liquidités. |[Proposer paiements fournisseur](payables-how-suggest-vendor-payments.md) |
 | Émettre des chèques pour les paiements fournisseur ou les remboursements client, sous forme de documents imprimés ou de chèques informatiques. Annuler des chèques avant ou après la validation. |[Effectuer des paiements par chèque](payables-how-work-checks.md) |
@@ -45,4 +45,4 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 [Gestion des comptes fournisseur](payables-manage-payables.md)  
 [Achats](purchasing-manage-purchasing.md)  
 [Gestion des comptes client](receivables-manage-receivables.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

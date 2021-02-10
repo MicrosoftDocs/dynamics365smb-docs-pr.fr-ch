@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: COA, cha of acc
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cb588d67976a0eb6eee9cac9c66672ac3dd06c69
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b20c4680393fa13b260beca366c7e4ba04abb291
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923024"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750395"
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Configuration ou modification du plan comptable
-Le plan comptable affiche les comptes généraux qui stockent vos données financières. [!INCLUDE[d365fin](includes/d365fin_md.md)] inclut un plan comptable standard prêt à prendre en charge votre société.
+Le plan comptable affiche les comptes généraux qui stockent vos données financières. [!INCLUDE[prod_short](includes/prod_short.md)] inclut un plan comptable standard prêt à prendre en charge votre société.
 Cependant, vous pouvez modifier les comptes par défaut, et vous pouvez ajouter de nouveaux comptes.
 <br><br>  
 
@@ -32,10 +32,10 @@ Cependant, vous pouvez modifier les comptes par défaut, et vous pouvez ajouter 
 >   Vous pouvez supprimer un compte général. Toutefois, avant que de le supprimer, les conditions suivantes doivent être réunies :  
 >  
 >   * Le solde du compte doit être nul.  
->   * Le champ **Autoriser suppr. cpte gén. av.** doit être défini sur la page **Paramètres comptabilité** , et le compte ne doit pas comporter d’écritures comptables à cette date ou après celle-ci.  
+>   * Le champ **Autoriser suppr. cpte gén. av.** doit être défini sur la page **Paramètres comptabilité**, et le compte ne doit pas comporter d’écritures comptables à cette date ou après celle-ci.  
 >   * Si le champ **Vérifier activité cpte général** de la page **Paramètres comptabilité** est sélectionné, le compte ne doit pas être utilisé dans les groupes comptabilisation ni dans une configuration de la validation.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] vous empêchera de supprimer un compte général qui stocke les données nécessaires au plan comptable.  
+[!INCLUDE[prod_short](includes/prod_short.md)] vous empêchera de supprimer un compte général qui stocke les données nécessaires au plan comptable.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/chart-accounts-dynamics-365-business-central/index)
 
@@ -45,6 +45,6 @@ Cependant, vous pouvez modifier les comptes par défaut, et vous pouvez ajouter 
 [Utilisation des axes analytiques](finance-dimensions.md)  
 [Importation des données à partir d’autres systèmes financiers](across-import-data-configuration-packages.md)  
 [Utilisation des tableaux d’analyse](bi-how-work-account-schedule.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
