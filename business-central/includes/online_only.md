@@ -1,0 +1,1 @@
+> <span data-ttu-id="e2c7a-101">**S’APPLIQUE À :** Business Central Online</span><span class="sxs-lookup"><span data-stu-id="e2c7a-101">**APPLIES TO:** Business Central online</span></span>
