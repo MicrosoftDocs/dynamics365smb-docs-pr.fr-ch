@@ -10,17 +10,20 @@ ms.workload: na
 ms.search.keywords: design, transfer, sku, locations, warehouse
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 43237bcec983870cb7a9655126b5c912e0286657
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 829594fa196758502c67f52c4a7277d3b63aa41f
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920912"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035596"
 ---
 # <a name="design-details-transfers-in-planning"></a>Détails de conception : transferts de planification
 Les ordres de transfert sont également une source d’approvisionnement lorsque vous travaillez au niveau des points de stock. Lors de l’utilisation de plusieurs magasins (entrepôts), le système de réapprovisionnement de point de stock peut être défini sur Transfer, ce qui implique que le magasin est réapprovisionné en transférant des biens d’un autre magasin. Dans une situation avec plusieurs entrepôts, les sociétés peuvent avoir une chaîne de transferts où l’approvisionnement vers le magasin VERT est transféré à partir du magasin JAUNE, l’approvisionnement vers JAUNE est transféré depuis ROUGE et ainsi de suite. Au début de la chaîne, il existe un système de réapprovisionnement d’Ordre de fabrication ou d’achat.  
 
 ![Exemple de flux de transfert](media/nav_app_supply_planning_7_transfers1.png "Exemple de flux de transfert")  
+
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
 Lors de la comparaison de la situation où une commande approvisionnement rencontre directement une commande demande avec une situation où la commande vente est livrée à l’aide d’une chaîne de transferts de points de stock, il est évident que la tâche de planification dans la dernière situation peut devenir très complexe. Si la demande est modifiée, cela peut avoir des répercussions sur toute la chaîne, parce que tous les ordres de transfert et la commande achat/l’ordre de fabrication à l’extrémité opposée de la chaîne devront être traités pour rétablir l’équilibre entre la demande et l’approvisionnement.  
 

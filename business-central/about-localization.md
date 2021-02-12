@@ -1,6 +1,6 @@
 ---
-title: Fonctionnalités locales dans Business Central | Microsoft Docs
-description: En savoir plus sur la disponibilité locale et la conformité de la réglementation de Dynamics 365 Business Central.
+title: Fonctionnalités locales dans Business Central
+description: Découvrez la disponibilité locale et la conformité de la réglementation de Business Central pour les pays où Microsoft offre les fonctionnalités locales.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: availability, localization
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b7e6aeb4db5e189bf8f985b55cf226c94a9aa1de
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cce4a885fd4b183149e2d072daf556bdbe0e5fca
+ms.sourcegitcommit: 1c9eec7554305603d688bf85ce3986d0b1f72ede
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914544"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "5068423"
 ---
-# <a name="local-functionality-in-prodlong"></a>Fonctionnalités locales dans [!INCLUDE[prodlong](includes/prodlong.md)]
+# <a name="local-functionality-in-prod_long"></a>Fonctionnalités locales dans [!INCLUDE[prod_long](includes/prod_long.md)]
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] a une stratégie de localisation combinée comprenant des modèles Microsoft et partenaires. Dans cette section, vous pouvez visualiser des descriptions de la fonctionnalité applicable aux pays où Microsoft fournit la conformité de la réglementation et d’autres fonctionnalités locales.  
+[!INCLUDE[prod_short](includes/prod_short.md)] a une stratégie de localisation combinée comprenant des modèles Microsoft et partenaires. Dans cette section, vous pouvez visualiser des descriptions de la fonctionnalité applicable aux pays où Microsoft fournit la conformité de la réglementation et d’autres fonctionnalités locales.  
 
 Pour obtenir la liste des marchés actuellement pris en charge, voir [Disponibilité par pays/région et traductions prises en charge](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
@@ -55,7 +55,7 @@ Pour en savoir plus sur les fonctionnalités locales de chaque pays/région, cli
 
 ### <a name="other-countries"></a>Autres pays
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] est également disponible sur d’autres marchés via des applications de localisation. Si un partenaire Microsoft a développé une application de localisation pour votre pays/région, vous pouvez la trouver dans [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
+[!INCLUDE[prod_short](includes/prod_short.md)] est également disponible sur d’autres marchés via des applications de localisation. Si un partenaire Microsoft a développé une application de localisation pour votre pays/région, vous pouvez la trouver dans [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
 
 ## <a name="see-also"></a>Voir aussi
 

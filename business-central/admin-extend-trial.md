@@ -1,6 +1,6 @@
 ---
-title: Prolonger la version d’évaluation | Microsoft Docs
-description: Si vous avez besoin de plus de temps pour décider si vous voulez vous abonner, vous pouvez prolonger votre version d’évaluation.
+title: Prolonger la période d’essai de Business Central
+description: Si vous avez besoin de plus de temps pour décider si vous voulez vous abonner à Dynamics 365 Business Central, vous pouvez prolonger à une reprise votre version d’évaluation. Renseignez-vous sur les options qui s’offrent à vous.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,32 +10,32 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 0af6881b98aae103a6d37ce16b06dfb316c4a9f0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: bc23b43fb92ab1c7442a41024b59e7ca8652f154
+ms.sourcegitcommit: 1c9eec7554305603d688bf85ce3986d0b1f72ede
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911545"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "5068370"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Besoin de plus de temps pour décider si vous voulez vous abonner ?
 
-Il est important de prendre la bonne décision en choisissant une application d’entreprise, et nous savons que cela peut prendre du temps d’explorer tous les angles de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Si vous avez besoin de plus de temps pour terminer l’évaluation, vous pouvez prolonger la période d’essai de vous-même pour 30 jours de plus. Lorsque la date d’échéance de votre période d’essai approche, nous afficherons une notification pour vous avertir lorsque vous vous connectez. La notification contient un lien vers le guide **Prolonger la période d’évaluation** que vous pouvez utiliser pour prolonger votre période d’essai. Les 30 jours supplémentaires lancent le moment où vous choisissez **Prolonger la version d’évaluation** dans le guide.
+Il est important de prendre la bonne décision en choisissant une application d’entreprise, et nous savons que cela peut prendre du temps d’explorer tous les angles de [!INCLUDE[prod_short](includes/prod_short.md)]. Si vous avez besoin de plus de temps pour terminer l’évaluation, vous pouvez prolonger la période d’essai de vous-même pour 30 jours de plus. Lorsque la date d’échéance de votre période d’essai approche, nous afficherons une notification pour vous avertir lorsque vous vous connectez. La notification contient un lien vers le guide **Prolonger la période d’évaluation** que vous pouvez utiliser pour prolonger votre période d’essai. Les 30 jours supplémentaires lancent le moment où vous choisissez **Prolonger la version d’évaluation** dans le guide.
 
 Le prolongement de la période d’essai par vous-même est une action unique. Vous ne pouvez pas la prolonger deux fois, au moins pas par vous-même. Si vous avez déjà prolongé la période, votre partenaire certifié Microsoft peut la prolonger encore pour vous. C’est aussi une action unique. Si vous ne travaillez pas encore avec un partenaire, consultez [Comment trouver un partenaire revendeur ?](across-faq.md#findpartner).  
 
 ## <a name="to-extend-your-trial-period"></a>Pour prolonger votre période d’essai
 
-1. Connectez-vous à [!INCLUDE[prodshort](includes/prodshort.md)] sur [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).
+1. Connectez-vous à [!INCLUDE[prod_short](includes/prod_short.md)] sur [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).
 
     Connectez-vous avec le compte de messagerie que vous avez utilisé lors de votre inscription à l’essai.  
 
     Si vous vous êtes inscrit avec un compte de messagerie dans le cadre d’une [période d’essai de 30 jours pour Microsoft 365](/microsoft-365/commerce/sign-up-for-office-365-trial), vous devez d’abord prolonger votre version d’évaluation de Microsoft 365 ou acheter un abonnement Microsoft 365. Pour en savoir plus, consultez [Prolonger votre version d’évaluation pour Microsoft 365 pour les entreprises](/microsoft-365/commerce/extend-your-trial).
-2. Dans la notification en haut de l’espace de travail, choisissez **Prolonger la version d’évaluation** .
+2. Dans la notification en haut de l’espace de travail, choisissez **Prolonger la version d’évaluation**.
 
     Si vous avez ignoré la notification, vous devez vous déconnecter et vous reconnecter.
 
 > [!TIP]
-> Si vous ne voyez pas la notification, vous pouvez forcer [!INCLUDE [prodshort](includes/prodshort.md)] pour exécuter le guide de configuration assistée **Prolonger la version d’évaluation** en ajoutant le paramètre ```?page=1828``` à l’URL, comme dans l’exemple suivant : [https://businesscentral.dynamics.com/?page=1828](https://businesscentral.dynamics.com/?page=1828)
+> Si vous ne voyez pas la notification, vous pouvez forcer [!INCLUDE [prod_short](includes/prod_short.md)] pour exécuter le guide de configuration assistée **Prolonger la version d’évaluation** en ajoutant le paramètre ```?page=1828``` à l’URL, comme dans l’exemple suivant : [https://businesscentral.dynamics.com/?page=1828](https://businesscentral.dynamics.com/?page=1828)
 
 ## <a name="what-happens-if-my-trial-period-is-expired"></a>Que se produit-il si ma période d’essai a expiré ?
 
@@ -43,11 +43,11 @@ Si votre période d’essai de 30 jours a expiré, vous pouvez la prolonger vou
 
 Si vous avez créé votre propre société, déconnectez-vous et reconnectez-vous avec les informations d’identification de cette société.  
 
-Si votre organisation a établi une relation de revendeur avec un partenaire, il peut se connecter à votre [!INCLUDE[prodshort](includes/prodshort.md)] en tant qu’administrateur délégué et exécuter le même guide **Prolonger la période d’évaluation** . Pour en savoir plus, consultez [Prolongement des périodes d’essai (en tant qu’administrateur)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials).  
+Si votre organisation a établi une relation de revendeur avec un partenaire, il peut se connecter à votre [!INCLUDE[prod_short](includes/prod_short.md)] en tant qu’administrateur délégué et exécuter le même guide **Prolonger la période d’évaluation**. Pour en savoir plus, consultez [Prolongement des périodes d’essai (en tant qu’administrateur)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials).  
 
-Cependant, après cette deuxième extension qui a donné à votre organisation jusqu’à 90 jours d’essai, vous devez soit vous abonner à [!INCLUDE[prodshort](includes/prodshort.md)] ou abandonner [!INCLUDE[prodshort](includes/prodshort.md)]. Si vous décidez de ne pas continuer, nous vous recommandons d’exporter toutes les données sur lesquelles vous comptez dans votre entreprise.
+Cependant, après cette deuxième extension qui a donné à votre organisation jusqu’à 90 jours d’essai, vous devez soit vous abonner à [!INCLUDE[prod_short](includes/prod_short.md)] ou abandonner [!INCLUDE[prod_short](includes/prod_short.md)]. Si vous décidez de ne pas continuer, nous vous recommandons d’exporter toutes les données sur lesquelles vous comptez dans votre entreprise.
 
-Votre période d’essai prolongée a expiré, vous pouvez [vous abonner](https://go.microsoft.com/fwlink/?linkid=828659) à [!INCLUDE[prodshort](includes/prodshort.md)] au cours des 90 prochains jours et continuer à travailler dans la société que vous avez créée. 90 jours après l’expiration de l’essai prolongé, nous supprimerons votre entreprise et vos données, sauf si vous vous abonnez.  
+Votre période d’essai prolongée a expiré, vous pouvez [vous abonner](https://go.microsoft.com/fwlink/?linkid=828659) à [!INCLUDE[prod_short](includes/prod_short.md)] au cours des 90 prochains jours et continuer à travailler dans la société que vous avez créée. 90 jours après l’expiration de l’essai prolongé, nous supprimerons votre entreprise et vos données, sauf si vous vous abonnez.  
 
 ## <a name="see-also"></a>Voir aussi
 

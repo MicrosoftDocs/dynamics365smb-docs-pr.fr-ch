@@ -10,20 +10,22 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 10/08/2020
 ms.author: jswymer
-ms.openlocfilehash: 38c95baa74d94246c38f1ff985b1457506a03f22
-ms.sourcegitcommit: 4bca699d2a5ce182eb5572d72fac4fb478c4f293
+ms.openlocfilehash: 723437b0e5acb5b5c4dca8374667ea1279243a80
+ms.sourcegitcommit: 36a32c997b201ff32ed8c1cff8179b36e2468c47
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "3989478"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5046443"
 ---
-# <a name="install-the-prodshort-app-for-microsoft-teams"></a>Installer l’application [!INCLUDE [prodshort](includes/prodshort.md)] pour Microsoft Teams
+# <a name="install-the-prod_short-app-for-microsoft-teams"></a>Installer l’application [!INCLUDE [prod_short](includes/prod_short.md)] pour Microsoft Teams
 
-[!INCLUDE [teams_preview.md](includes/teams_preview.md)]
+[!INCLUDE [online_only](includes/online_only.md)]
 
-Dans cet article, vous apprendrez à installer l’appplication [!INCLUDE [prodshort](includes/prodshort.md)] pour [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams). L’application est disponible sur le marché Teams et vous pouvez l’utiliser avec l’application web, de bureau ou mobile Teams.
+Dans cet article, vous apprendrez à installer l’appplication [!INCLUDE [prod_short](includes/prod_short.md)] pour [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams). L’application est disponible sur le marché Teams et vous pouvez l’utiliser avec l’application web, de bureau ou mobile Teams.
 
 ## <a name="prerequisites"></a>Conditions préalables
+
+- Accédez à l’application de bureau Teams ou à Teams dans le navigateur. Vous ne pouvez pas installer le [!INCLUDE [prod_short](includes/prod_short.md)] en utilisant l’application mobile Teams.
 
 - Les stratégies de votre organisation doivent vous permettre d’installer des applications dans Microsoft Teams.
 
@@ -41,15 +43,15 @@ Cette option est le moyen le plus rapide d’installer l’application.
 
     ![Installer l’application Business Central dans Teams](media/teams-install-app.png)
 
-3. Sélectionnez **Ajouter pour moi** .
+3. Sélectionnez **Ajouter pour moi**.
 
 **Option 2**
 
 1. Ouvrez et connectez-vous à Teams.
-2. Dans la partie gauche, sélectionnez **Applications** .
-3. Recherchez **Business Central** .
+2. Dans la partie gauche, sélectionnez **Applications**.
+3. Recherchez **Business Central**.
 4. Sélectionnez l’application lorsque vous la trouvez.
-5. Sélectionnez **Ajouter pour moi** .
+5. Sélectionnez **Ajouter pour moi**.
 
 ## <a name="next-step"></a>Étape suivante
 
@@ -58,7 +60,8 @@ Vous êtes maintenant prêt à utiliser l’application dans Teams pour partager
 ## <a name="see-also"></a>Voir aussi
 
 [Vue d’ensemble de l’intégration de Business Central et Microsoft Teams](across-teams-overview.md)  
+[FAQ Teams](teams-faq.md)  
+[Résolution des incidents dans Teams](admin-teams-troubleshooting.md)  
 [Développement pour l’intégration de Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
-[Mise en route](product-get-started.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
