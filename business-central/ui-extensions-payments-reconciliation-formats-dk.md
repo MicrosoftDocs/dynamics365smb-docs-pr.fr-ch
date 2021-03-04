@@ -108,3 +108,6 @@ Le tableau suivant affiche les combinaisons des modes de règlement FIK et virem
 [Personnalisation de Business Central pour [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide d’extensions](ui-extensions.md)  
 [Recouvrement de paiements par prélèvement automatique SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
 [Utilisation de feuilles comptabilité](ui-work-general-journals.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

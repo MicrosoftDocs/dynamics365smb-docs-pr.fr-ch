@@ -71,3 +71,6 @@ Les administrateurs ont la possibilité de définir ou de modifier ces paramètr
 [Mise en route](product-get-started.md)  
 [Disponibilité par pays/région et langues prises en charge](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 [Modification de la langue et des paramètres régionaux](about-locale-language.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

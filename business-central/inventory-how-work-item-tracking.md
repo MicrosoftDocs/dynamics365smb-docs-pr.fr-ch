@@ -275,3 +275,6 @@ Le reclassement de la traçabilité pour un article consiste à remplacer un num
 [Détails de conception : traçabilité et réservations](design-details-item-tracking-and-reservations.md)  
 [Réserver des articles](inventory-how-to-reserve-items.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

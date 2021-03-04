@@ -81,3 +81,6 @@ Vous trouverez des informations supplémentaires sur l’accessibilité des prod
 [Mise en route](product-get-started.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Forum Aux Questions](across-faq.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

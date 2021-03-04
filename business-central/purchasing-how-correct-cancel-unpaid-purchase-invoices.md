@@ -58,3 +58,6 @@ Si l’annulation est liée à une validation de facture partielle, la ligne de 
 [Achats](purchasing-manage-purchasing.md)  
 [Enregistrer des achats](purchasing-how-record-purchases.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -134,3 +134,6 @@ En outre, les documents origine internes suivants existent qui fonctionnent comm
 ## <a name="see-also"></a>Voir aussi
 
 [Détails de conception : gestion d’entrepôt](design-details-warehouse-management.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

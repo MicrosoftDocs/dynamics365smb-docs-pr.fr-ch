@@ -77,3 +77,6 @@ Si une ou plusieurs conditions ne sont pas remplies, différents messages d’er
 ## <a name="see-also"></a>Voir aussi  
  [Détails de conception : gestion d’entrepôt](design-details-warehouse-management.md)  
  [Voir la disponibilité des articles](inventory-how-availability-overview.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -48,3 +48,5 @@ Codeunit 22 boucle via les numéros traçabilité et répartit la validation dan
 ## <a name="see-also"></a>Voir aussi  
 [Détails de conception : traçabilité](design-details-item-tracking.md)   
 [Détails de conception : création de traçabilité](design-details-item-tracking-design.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

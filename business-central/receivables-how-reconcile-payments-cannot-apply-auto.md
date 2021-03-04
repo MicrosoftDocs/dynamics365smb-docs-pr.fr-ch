@@ -47,3 +47,6 @@ Si la valeur du champ **Différence** était inférieure à la valeur du champ *
 [Gestion des comptes client](receivables-manage-receivables.md)  
 [Ventes](sales-manage-sales.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

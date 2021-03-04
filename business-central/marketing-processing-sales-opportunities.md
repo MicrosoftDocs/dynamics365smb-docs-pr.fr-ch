@@ -87,3 +87,6 @@ Si une opportunité suit un cycle de vente, vous pouvez la faire avancer ou recu
 [Ventes](sales-manage-sales.md)  
 [Création et gestion des contacts](marketing-contacts.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

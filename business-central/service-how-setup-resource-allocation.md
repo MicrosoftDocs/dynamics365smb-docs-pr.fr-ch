@@ -83,3 +83,6 @@ Vous pouvez modifier les codes compétence affectés à des articles, par exempl
 [Configurer des codes prestations standards](service-how-setup-service-coding.md)  
  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

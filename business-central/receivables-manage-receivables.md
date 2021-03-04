@@ -57,3 +57,6 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 [Fonctionnalités marché](ui-across-business-areas.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

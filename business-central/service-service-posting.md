@@ -58,3 +58,6 @@ La procédure suivante utilise un exemple de facture service enregistrée ; cet
 ## <a name="see-also"></a>Voir aussi  
 [Valider des commandes de service](service-how-to-post-service-orders.md)   
 [Créer commande service](service-how-to-create-service-orders.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

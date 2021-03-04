@@ -131,3 +131,6 @@ Toutes les heures, la page **Feuille rapprochement bancaire** affichera les nouv
 [Lettrage automatique des paiements et rapprochement des comptes bancaires](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Personnalisation de [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide des extensions ](ui-extensions.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

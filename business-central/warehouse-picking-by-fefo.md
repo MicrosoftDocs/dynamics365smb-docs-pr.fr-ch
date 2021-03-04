@@ -49,3 +49,6 @@ Si le champ **Validation de péremption stricte** est sélectionné, seuls les a
 [Détails de conception : gestion d’entrepôt](design-details-warehouse-management.md)  
 [STOCKS ET EN-COURS](inventory-manage-inventory.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

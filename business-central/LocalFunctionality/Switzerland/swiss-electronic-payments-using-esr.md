@@ -45,3 +45,6 @@ Lorsque vous configurez des souches de numéros pour les factures, vous devez su
  [Importation de paiements ESR](how-to-import-esr-payments.md)   
  [Paiements électroniques à l'aide de LSV+, Suisse](swiss-electronic-payments-using-lsv-.md)   
  [Effectuer des paiements](../../payables-make-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

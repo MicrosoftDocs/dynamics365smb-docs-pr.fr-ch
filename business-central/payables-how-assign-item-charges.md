@@ -86,3 +86,6 @@ Les frais annexes de la facture achat distincte sont maintenant affectés à l�
 [Enregistrer des achats](purchasing-how-record-purchases.md)  
 [Facturer des ventes](sales-how-invoice-sales.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

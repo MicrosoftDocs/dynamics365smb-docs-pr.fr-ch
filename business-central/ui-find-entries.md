@@ -76,3 +76,6 @@ Après avoir effectué une sélection, entrez les informations de recherche pert
 [Utilisation de Business Central](ui-work-product.md)  
 [Ajouter une action de page à votre Tableau de bord](ui-bookmarks.md)  
 [Tracer des articles - Articles suivis](inventory-how-to-trace-item-tracked-items.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

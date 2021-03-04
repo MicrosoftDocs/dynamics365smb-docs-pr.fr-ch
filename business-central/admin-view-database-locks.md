@@ -33,3 +33,6 @@ Pour en savoir plus sur les verrouillages base de données, consultez [Surveilla
 ## <a name="see-also"></a>Voir aussi
 
 [Surveiller les verrouillages base de données](/dynamics365/business-central/dev-itpro/administration/monitor-database-locks) 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

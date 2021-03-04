@@ -85,3 +85,6 @@ La procédure d’annulation d’une expédition retour validée d’articles ou
 [Utilisation de feuilles comptabilité](ui-work-general-journals.md)  
 [Finances](finance.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

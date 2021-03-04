@@ -38,3 +38,6 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 ## <a name="see-also"></a>Voir aussi  
 [Configuration d’une société avec RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

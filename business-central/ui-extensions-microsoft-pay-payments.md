@@ -48,3 +48,6 @@ L’activation des extensions de service de paiement est gratuite dans [!INCLUDE
 [Personnalisation de [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide des extensions](ui-extensions.md)  
 [Définition des ventes](sales-setup-sales.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

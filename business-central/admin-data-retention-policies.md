@@ -105,3 +105,5 @@ Une fois qu’un développeur a ajouté des tables à la liste, un administrateu
 [Filtrage](ui-enter-criteria-filters.md#filtering)  
 [Utiliser des files d’attente des travaux pour planifier des tâches](admin-job-queues-schedule-tasks.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

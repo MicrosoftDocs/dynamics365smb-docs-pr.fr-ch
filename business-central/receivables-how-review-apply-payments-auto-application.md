@@ -53,3 +53,6 @@ La page **Lettrage paiement** se ferme puis, dans la fenêtre **Feuille rapproch
 [Gestion des comptes client](receivables-manage-receivables.md)  
 [Ventes](sales-manage-sales.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

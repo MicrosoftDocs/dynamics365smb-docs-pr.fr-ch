@@ -50,3 +50,6 @@ Si vous ne lui donnez pas de nom, il sera nommé **Tous (copier)**.
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 [Modifier les paramètres de base](ui-change-basic-settings.md)  
 [Modifier les fonctionnalités affichées](ui-experiences.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

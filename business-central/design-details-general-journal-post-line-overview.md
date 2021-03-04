@@ -46,3 +46,6 @@ Dans [!INCLUDE[prod_short](includes/prod_short.md)], le codeunit 12 présente le
 ## <a name="see-also"></a>Voir aussi  
 [Détails de conception : Structure de l’interface de validation](design-details-posting-interface-structure.md)   
 [Détails de conception : Structure du moteur de validation](design-details-posting-engine-structure.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

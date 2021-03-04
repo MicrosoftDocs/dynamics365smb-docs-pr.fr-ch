@@ -81,3 +81,6 @@ Lorsque le fournisseur a expédié les articles, vous pouvez valider la commande
 [Ventes](sales-manage-sales.md)  
 [Stock](inventory-manage-inventory.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

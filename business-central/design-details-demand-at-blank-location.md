@@ -132,3 +132,6 @@ Comme indiqué au dernier cas de figure, le seul moyen d’obtenir des résultat
 [Détails de conception : équilibrage de la demande et de l’approvisionnement](design-details-balancing-demand-and-supply.md)   
 [Détails de conception : concepts centraux du système de planification](design-details-central-concepts-of-the-planning-system.md)   
 [Détails de conception : planification de l’approvisionnement](design-details-supply-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

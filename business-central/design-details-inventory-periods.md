@@ -33,3 +33,6 @@ Des transactions antidatées ou des ajustement des coûts affectent souvent les 
 ## <a name="see-also"></a>Voir aussi  
  [Détails de conception : Coûts ajustés](design-details-inventory-costing.md) [Gestion des coûts ajustés](finance-manage-inventory-costs.md) [Finance](finance.md)  
  [Utilisation de Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

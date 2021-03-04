@@ -45,3 +45,6 @@ Les extensions Microsoft Pay, PayPal Payments Standard et WorldPay Payments Stan
 [Ventes](sales-manage-sales.md)  
 [Personnalisation de [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide d’extensions](ui-extensions.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

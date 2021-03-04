@@ -111,3 +111,6 @@ Si vous n’utilisez pas Azure Active Directory pour gérer les identités et le
 ## <a name="see-also"></a>Voir aussi
 [Gestion des relations](marketing-relationship-management.md)
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

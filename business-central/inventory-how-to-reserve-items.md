@@ -99,3 +99,6 @@ La procédure suivante se base sur une commande vente.
 [Détails de conception : traçabilité et réservations](design-details-item-tracking-and-reservations.md)  
 [Utiliser les numéros de lot et de série](inventory-how-work-item-tracking.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

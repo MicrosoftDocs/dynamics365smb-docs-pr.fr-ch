@@ -119,3 +119,6 @@ L'ajout de champs de données à partir d'un ensemble des données d'état est u
 [Préparer la génération d'états financiers avec des tableaux d'analyse et des catégories de compte](bi-how-work-account-schedule.md) 
 [Veille économique](bi.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

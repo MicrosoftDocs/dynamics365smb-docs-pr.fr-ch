@@ -68,3 +68,6 @@ La procédure suivante se base sur une fiche article. La procédure est identiqu
 [Ventes](sales-manage-sales.md)  
 [Configurer les contacts](marketing-setup-contacts.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

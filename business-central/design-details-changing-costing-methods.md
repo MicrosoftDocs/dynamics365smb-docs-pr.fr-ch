@@ -182,3 +182,6 @@ Nous recommandons ce qui suit :
 
 [Détails de conception : modes évaluation stock](design-details-costing-methods.md)  
 [Aperçu](design-details-inventory-costing.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

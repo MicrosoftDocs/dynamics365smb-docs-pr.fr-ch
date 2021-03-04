@@ -58,3 +58,6 @@ Les écritures associées sont validées dans votre société et une feuille ave
 [Configuration de Finance](finance-setup-finance.md)  
 [Utilisation de feuilles comptabilité](ui-work-general-journals.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -199,3 +199,6 @@ Après avoir enregistré votre application dans le portail Azure, dans [!INCLUDE
 [Personnalisation de [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide des extensions](ui-extensions.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)] en tant que boîte de réception professionnelle dans Outlook](admin-outlook.md)  
 [Obtention de [!INCLUDE[prod_short](includes/prod_short.md)] sur mon périphérique mobile](install-mobile-app.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

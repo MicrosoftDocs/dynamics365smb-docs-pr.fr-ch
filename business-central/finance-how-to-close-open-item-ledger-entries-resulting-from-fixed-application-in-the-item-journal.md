@@ -46,3 +46,6 @@ La procédure suivante explique comment clôturer des écritures de ce genre au 
 [Configuration de l’évaluation du stock](finance-set-up-inventory-valuation-and-costing.md)  
 [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  
 [Détails de conception : modes évaluation stock](design-details-costing-methods.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

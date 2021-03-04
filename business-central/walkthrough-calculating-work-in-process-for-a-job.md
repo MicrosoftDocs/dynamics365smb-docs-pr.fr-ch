@@ -164,3 +164,6 @@ Avec les projets, vous pouvez planifier l’utilisation des ressources de votre 
  [Comprendre les méthodes TEC](projects-understanding-wip.md)   
  [Surveillance de la progression et des performances](projects-how-monitor-progress-performance.md)  
  [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

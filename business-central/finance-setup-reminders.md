@@ -103,3 +103,6 @@ Si vous avez configuré les conditions relance (avec des niveaux et du texte sup
 [Collecte des soldes restants](receivables-collect-outstanding-balances.md)  
 [Configurer les conditions intérêts de retard](finance-setup-finance-charges.md)  
 [Configuration de Finance](finance-setup-finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

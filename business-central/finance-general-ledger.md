@@ -71,3 +71,6 @@ Par exemple, le solde relevé par défaut solde est doté d’une sous-catégori
 [Finances](finance.md)  
 [Configuration ou modification du plan comptable](finance-setup-chart-accounts.md)  
 [Veille économique](bi.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

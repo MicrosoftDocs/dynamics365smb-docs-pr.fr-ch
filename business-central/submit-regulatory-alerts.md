@@ -80,3 +80,6 @@ Nous vous invitons à utiliser Microsoft Dynamics Lifecycle Services (LCS) pour 
 [Bienvenue dans Business Central](index.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

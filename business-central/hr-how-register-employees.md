@@ -61,3 +61,6 @@ Vous pouvez utiliser des adresses secondaires pour conserver un historique des d
 [Finances](finance.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Modifier les fonctionnalités affichées](ui-experiences.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

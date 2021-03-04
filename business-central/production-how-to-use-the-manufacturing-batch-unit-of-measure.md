@@ -52,3 +52,6 @@ Sur le raccourci **Lignes**, choisissez l’action **Ligne**, puis l’action **
 [STOCKS ET EN-COURS](inventory-manage-inventory.md)  
 [Achats](purchasing-manage-purchasing.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

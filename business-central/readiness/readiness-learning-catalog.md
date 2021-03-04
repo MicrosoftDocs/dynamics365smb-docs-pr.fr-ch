@@ -77,3 +77,6 @@ Trouvez la bonne formation en ligne, les ateliers en personne et les événement
     :::column-end:::
 
 :::row-end:::
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

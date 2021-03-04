@@ -82,3 +82,6 @@ Les compléments sont conçus pour être utilisés avec Microsoft 365. Si vous 
 [Achats](purchasing-manage-purchasing.md)  
 [Configuration minimale requise pour Outlook](product-requirements.md#outlook)  
 [Utilisation des compléments dans Outlook sur le Web](https://support.office.com/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

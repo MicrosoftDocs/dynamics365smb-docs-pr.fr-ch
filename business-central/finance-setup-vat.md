@@ -197,3 +197,6 @@ Les montants figurant dans les documents qui n’ont pas encore été validés s
 [Fonctionnalités locales dans Business Central](about-localization.md)  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

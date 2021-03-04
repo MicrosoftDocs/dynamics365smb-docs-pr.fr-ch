@@ -489,3 +489,6 @@ Si vous comparez les prix, les lignes tâche projet et les lignes planning proje
  [Surveillance de la progression et des performances](projects-how-monitor-progress-performance.md)   
  [Facturation des projets](projects-how-invoice-jobs.md)  
  [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

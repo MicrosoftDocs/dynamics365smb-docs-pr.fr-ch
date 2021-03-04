@@ -150,3 +150,6 @@ Sur la page **Prélèvement stock**, vous pouvez gérer toutes les activités en
 [Détails de conception : flux de désenlogement](design-details-outbound-warehouse-flow.md)  
 [Procédures pas à pas liées au processus entreprise](walkthrough-business-process-walkthroughs.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

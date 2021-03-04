@@ -263,3 +263,6 @@ Vous pouvez configurer [!INCLUDE[prod_short](includes/prod_short.md)] pour envoy
 [Administration](admin-setup-and-administration.md)  
 [Ajouter des utilisateurs à Microsoft 365 pour les entreprises](https://aka.ms/CreateOffice365Users)  
 [Sécurité et protection dans Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection) dans l’aide sur Developer and IT-Pro
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

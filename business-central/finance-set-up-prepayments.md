@@ -94,3 +94,6 @@ Autrement dit, le pourcentage d’acompte figurant dans la fiche client ne s’a
 [Familiarisation avec les écritures comptables et les COA](finance-general-ledger.md)  
 [Finances](finance.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -118,3 +118,6 @@ Les coûts des articles constituant la nomenclature d’assemblage sont copiés 
 [Voir la disponibilité des articles](inventory-how-availability-overview.md)     
 [Stock](inventory-manage-inventory.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

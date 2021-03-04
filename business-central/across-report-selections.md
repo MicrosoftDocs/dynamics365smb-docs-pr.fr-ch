@@ -68,3 +68,6 @@ Par exemple, dans les pages **Sélection des états - Ventes** et **Sélection
 [Gestion des présentations d’état et de document](ui-manage-report-layouts.md)  
 [Définir des présentations de document pour les clients et les fournisseurs](ui-define-customer-vendor-document-layouts.md)  
 [Paramétrage imprimantes](ui-specify-printer-selection-reports.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -210,3 +210,6 @@ Les invités n’ont pas accès au marché des applications pour installer eux-m
 [Développement pour l’intégration de Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -79,3 +79,6 @@ Pour s’aligner avec les concepts financiers d’achats et de ventes, la docume
 
 ## <a name="see-also"></a>Voir aussi  
  [Détails de conception : gestion d’entrepôt](design-details-warehouse-management.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

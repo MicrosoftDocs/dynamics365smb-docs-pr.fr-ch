@@ -32,3 +32,5 @@ Les règles de saisie des données de la page **Lignes traçabilité** prennent 
   
 ## <a name="see-also"></a>Voir aussi  
 [Détails de conception : traçabilité](design-details-item-tracking.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

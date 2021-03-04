@@ -53,3 +53,6 @@ Lorsque le prélèvement est terminé, le numéro de prélèvement actuel est af
  [Traiter un prélèvement LSV](how-to-process-an-lsv-collection.md)   
  [Valider des paiements LSV+](how-to-post-lsv-payments.md)   
  [Exporter des paiements en mode LSV](how-to-export-payments-using-lsv.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

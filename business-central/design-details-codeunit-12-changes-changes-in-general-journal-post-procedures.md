@@ -191,3 +191,6 @@ Les modifications suivantes ont été mises en œuvre dans les versions de [!INC
 
 ## <a name="see-also"></a>Voir aussi  
  [Détails de conception : modifications du codeunit 12 : variables globales de mappage pour la ligne de validation de feuille comptabilité](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

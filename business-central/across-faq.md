@@ -147,3 +147,6 @@ Un client dérivé de Microsoft Dynamics NAV était installé dans les première
 [FAQ sur les expériences des développeurs et de l’équipe IT](/dynamics365/business-central/dev-itpro/faq)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

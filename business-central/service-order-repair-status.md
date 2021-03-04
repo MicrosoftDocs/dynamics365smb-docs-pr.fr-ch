@@ -52,3 +52,6 @@ Répétez ces étapes pour chaque option de statut réparation à créer.
 
 [Statut commande service et statut réparation](service-service-order-status-and-repair-status.md)  
 [Paramétrage de la gestion des services](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -82,3 +82,6 @@ Pour plus d’informations, voir [Pour afficher ou modifier les autorisations d�
 [Finances](finance.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

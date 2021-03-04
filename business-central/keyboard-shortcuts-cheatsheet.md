@@ -59,3 +59,6 @@ ms.locfileid: "3921732"
 > Pour une version graphique imprimable, sélectionnez l’image suivante et téléchargez le fichier PDF.
 >
 > [![Icône qui ouvre un PDF](media/keyboard_shortcut_inline.png)](media/keyboard_shortcuts.pdf)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

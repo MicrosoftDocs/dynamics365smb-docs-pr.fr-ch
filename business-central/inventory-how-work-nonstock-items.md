@@ -73,3 +73,6 @@ Vous pouvez ensuite remplir ou modifier les champs sur la nouvelle fiche article
 [Créer des commandes spéciales](sales-how-to-create-special-orders.md)|  
 [Stock](inventory-manage-inventory.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

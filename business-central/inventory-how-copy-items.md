@@ -39,3 +39,6 @@ Lorsque vous ajoutez un nouvel article, pour gagner du temps, vous pouvez utilis
 
 [Enregistrer de nouveaux articles](inventory-how-register-new-items.md)  
 [Configuration de stock](inventory-setup-inventory.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

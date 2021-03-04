@@ -121,3 +121,6 @@ Vous pouvez obtenir des extensions pour Business Central sur le site [AppSource.
 [Prévisions de demande et commandes ouvertes](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders)  
 [Utiliser des commandes ouvertes vente](sales-how-to-create-blanket-sales-orders.md)  
 [Commandes récurrentes (Norvège)](LocalFunctionality/Norway/recurring-orders.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

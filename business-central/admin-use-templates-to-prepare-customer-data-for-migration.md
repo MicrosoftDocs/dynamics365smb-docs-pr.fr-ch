@@ -158,3 +158,6 @@ Les valeurs par défaut du modèle client choisi sont insérées dans la fiche c
 [Configuration d’une société avec RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)  
 [Enregistrer de nouveaux clients](sales-how-register-new-customers.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -58,3 +58,6 @@ Pour transférer des fonds entre des comptes bancaires qui utilisent des devises
 [Paramétrage des opérations bancaires](bank-setup-banking.md)  
 [Utilisation de feuilles comptabilité](ui-work-general-journals.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

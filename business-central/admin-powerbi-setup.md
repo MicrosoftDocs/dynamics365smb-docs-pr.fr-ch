@@ -88,3 +88,6 @@ Pour plus d’informations sur la publication des services Web, voir [Publier un
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)] dans Power Automate](across-how-use-financials-data-source-flow.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

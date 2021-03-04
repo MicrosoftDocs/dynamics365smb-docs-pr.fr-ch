@@ -69,3 +69,6 @@ Une fois la période inventaire clôturée, vous ne pouvez plus la supprimer. En
 [Finances](finance.md)  
 [Stock](inventory-manage-inventory.md)  
 [Utilisation de Financials](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

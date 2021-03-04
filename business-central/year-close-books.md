@@ -55,3 +55,6 @@ Vous pouvez valider dans un exercice comptable précédent, même après la clô
 
 [Utiliser des périodes et exercices comptables](finance-accounting-periods-and-fiscal-years.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

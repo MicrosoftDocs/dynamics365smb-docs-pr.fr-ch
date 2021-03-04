@@ -31,3 +31,6 @@ Un système de traçabilité doit permettre à une société de traiter facileme
 [Détails de conception : traçabilité et planification d’article](design-details-item-tracking-and-planning.md)  
 [Détails de conception : traçabilité et réservations](design-details-item-tracking-and-reservations.md)  
 [Détails de conception : traçabilité dans l’entrepôt](design-details-item-tracking-in-the-warehouse.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

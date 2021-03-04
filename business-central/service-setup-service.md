@@ -44,3 +44,6 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 ## <a name="see-also"></a>Voir aussi .
 [Gestion des services](service-service.md)  
 [Mise en route](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

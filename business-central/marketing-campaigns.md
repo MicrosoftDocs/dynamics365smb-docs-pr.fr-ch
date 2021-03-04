@@ -51,3 +51,6 @@ Les campagnes sont conduites par les vendeurs, vous devez créer des activités 
 [Gestion des segments](marketing-segments.md)  
 [Gestion des opportunités de ventes](marketing-manage-sales-opportunities.md)  
 [Utilisation de Business Central](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

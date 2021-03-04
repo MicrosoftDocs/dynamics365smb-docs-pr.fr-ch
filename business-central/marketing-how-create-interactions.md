@@ -54,3 +54,6 @@ Si vous avez activé la case à cocher **Créer suivi segment** , le programme c
 [Gestion de contacts](marketing-contacts.md)  
 [Gestion des opportunités de ventes](marketing-manage-sales-opportunities.md)  
 [Utilisation de Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

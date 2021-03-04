@@ -40,3 +40,6 @@ Vous pouvez également explorer le site [Fonctionnalités de Dynamics 365 Busine
 [Communauté Dynamics 365 Business Central](https://community.dynamics.com/business/)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

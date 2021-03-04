@@ -28,3 +28,6 @@ ms.locfileid: "3931408"
 [Affecter des codes de relance livraison à des fournisseurs](how-to-assign-delivery-reminder-codes-to-vendors.md)  
 [Créer manuellement des relances livraison](how-to-create-delivery-reminders-manually.md)  
 [Émettre des relances livraison](how-to-issue-delivery-reminders.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

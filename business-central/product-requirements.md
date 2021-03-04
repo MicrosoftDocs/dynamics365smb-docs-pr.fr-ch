@@ -79,3 +79,6 @@ Si vous souhaitez déployer Business Central sur site, vous devez vérifier la c
 
 [Mise en route](product-get-started.md)  
 [Configuration système requise pour Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v17)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

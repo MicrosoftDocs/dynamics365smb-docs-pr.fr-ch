@@ -86,3 +86,6 @@ La fonction **Envoyer des notifications d’approbations échues** passe en revu
 [Documents entrants](across-income-documents.md)  
 [Achats](purchasing-manage-purchasing.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

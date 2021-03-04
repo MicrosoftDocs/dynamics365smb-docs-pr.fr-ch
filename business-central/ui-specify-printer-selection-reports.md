@@ -91,3 +91,6 @@ Vous pouvez ou l’administrateur peut également utiliser la page **Sélections
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Exécuter des traitements par lots](ui-how-run-batch-jobs.md)  
 [Envoyer des documents par e-mail](ui-how-send-documents-email.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Les configurations relatives à la finance, telles que les modes de règlement e
 
 [Achats](purchasing-manage-purchasing.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

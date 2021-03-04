@@ -35,3 +35,6 @@ Vous pouvez envoyer des avis de remise de deux manières différentes :
 [Personnalisation de [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide des extensions ](ui-extensions.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Envoyer des documents par e-mail](ui-how-send-documents-email.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

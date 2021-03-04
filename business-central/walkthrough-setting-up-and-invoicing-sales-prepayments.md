@@ -219,3 +219,6 @@ La fonctionnalité d’acompte de [!INCLUDE[prod_short](includes/prod_short.md)]
 [Finances](finance.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Procédures pas à pas liées au processus entreprise](walkthrough-business-process-walkthroughs.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

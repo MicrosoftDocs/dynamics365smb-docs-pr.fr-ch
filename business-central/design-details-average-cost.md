@@ -212,3 +212,6 @@ Le coût moyen d’un article est calculé avec une moyenne pondérée périodiq
  [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  
  [Finances](finance.md)  
  [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

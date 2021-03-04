@@ -39,3 +39,6 @@ Vous pouvez également enregistrer la liste des prélèvements en tant que docum
 [Stock](inventory-manage-inventory.md)  
 [Prélèvement d'articles](warehouse-pick-items.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -132,3 +132,6 @@ La procédure suivante décrit la validation de l’expédition directement à p
 ## <a name="see-also"></a>Voir aussi  
 [Validation dans la Gestion des services](service-service-posting.md)  
 [Créer une commande service](service-how-to-create-service-orders.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

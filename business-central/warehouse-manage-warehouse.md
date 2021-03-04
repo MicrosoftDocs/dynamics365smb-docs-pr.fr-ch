@@ -47,3 +47,6 @@ Les tâches d’inventaire, d’ajustement et de reclassement liées au stock et
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

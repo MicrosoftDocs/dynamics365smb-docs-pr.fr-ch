@@ -62,3 +62,6 @@ La procédure suivante explique comment créer des articles de service lorsque v
 [Configurer les articles de service et les composants article de service](service-how-setup-service-items.md)  
 [Paramétrage de la gestion des services](service-setup-service.md)  
 [Gestion des services](service-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

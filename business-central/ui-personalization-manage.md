@@ -71,3 +71,6 @@ La disposition sur les pages sélectionnées reflète désormais les modificatio
 [Modifier les paramètres de base](ui-change-basic-settings.md)  
 [Modifier les fonctionnalités affichées](ui-experiences.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Lorsque vous avez ajouté vos environnements, vos entreprises s’affichent auto
 
 [Gérer le travail entre plusieurs entreprises dans le Hub Entreprise](company-hub.md)  
 [Ressources pour l’Aide et le support](product-help-and-support.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

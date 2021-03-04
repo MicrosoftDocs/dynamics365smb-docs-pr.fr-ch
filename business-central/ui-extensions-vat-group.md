@@ -115,3 +115,6 @@ Lorsque la déclaration de TVA de la société représentante du groupe TVA a é
 ## <a name="see-also"></a>Voir aussi
 [Utiliser la TVA sur les ventes et les achats](finance-work-with-vat.md)  
 [Configuration de la TVA](finance-setup-vat.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

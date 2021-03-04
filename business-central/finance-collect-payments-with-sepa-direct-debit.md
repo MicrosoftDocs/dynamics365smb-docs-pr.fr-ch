@@ -162,3 +162,6 @@ Une collection prélèvement automatique est ajoutée à la page **Recouvrements
 ## <a name="see-also"></a>Voir aussi  
 [Gestion des comptes client](receivables-manage-receivables.md)  
 [Gestion des services](service-service.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

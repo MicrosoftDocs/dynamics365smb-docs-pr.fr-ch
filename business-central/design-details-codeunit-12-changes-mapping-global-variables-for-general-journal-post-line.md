@@ -110,3 +110,6 @@ Les modifications suivantes ont été mises en œuvre dans les versions de [!INC
 
 ## <a name="see-also"></a>Voir aussi  
  [Détails de conception : modifications du codeunit 12 : modifications des procédures de validation de feuille comptabilité](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

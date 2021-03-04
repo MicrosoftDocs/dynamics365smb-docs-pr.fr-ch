@@ -35,3 +35,6 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |Traiter les prospects entrants en créant des opportunités et en les associant à des vendeurs afin de pouvoir suivre les ventes potentielles.|[Gestion des opportunités de ventes](marketing-manage-sales-opportunities.md)|
 |Créer des plans marketing pour identifier, attirer et fidéliser des clients.|[Gestion de campagnes marketing](marketing-campaigns.md)|
 |Utiliser Dynamics 365 Sales for Customer Engagement et bénéficier de l’intégration parfaite dans le processus allant du prospect à l’encaissement à l’aide de Business Central pour les activités principales, telles que le traitement des commandes, la gestion des stocks et de vos finances.|[Intégration à Dynamics 365 Sales](marketing-integrate-dynamicscrm.md)|
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

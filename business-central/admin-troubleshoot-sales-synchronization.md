@@ -62,3 +62,6 @@ Lorsque quelque chose ne va pas dans votre intégration et que vous devez décou
 [Configurer une connexion vers Microsoft Dataverse](admin-how-to-set-up-a-dynamics-crm-connection.md)  
 [Coupler et synchroniser des enregistrements manuellement](admin-how-to-couple-and-synchronize-records-manually.md)  
 [Afficher le statut d’une synchronisation](admin-how-to-view-synchronization-status.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

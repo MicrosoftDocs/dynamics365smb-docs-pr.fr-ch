@@ -149,3 +149,6 @@ La rubrique contient les procédures suivantes :
 [Échanger des données par voir électronique](across-data-exchange.md)   
 [Facturer des ventes](sales-how-invoice-sales.md)   
 [Enregistrer des achats](purchasing-how-record-purchases.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

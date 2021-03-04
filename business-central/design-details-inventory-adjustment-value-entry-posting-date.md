@@ -365,3 +365,6 @@ Le traitement par lots **Ajuster coûts - Écr. article** détermine si la date 
 ## <a name="see-also"></a>Voir aussi  
 [Détails de conception : Évaluation stock](design-details-inventory-costing.md)  
 [Détails de conception : lettrage article](design-details-item-application.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

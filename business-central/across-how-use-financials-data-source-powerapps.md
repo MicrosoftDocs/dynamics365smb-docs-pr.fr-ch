@@ -56,3 +56,6 @@ Lorsque vous avez conçu et créé votre application, vous pouvez la partager av
 [Importation des données métier à partir d’autres systèmes financiers](across-import-data-configuration-packages.md)  
 [Configuration de [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Familiarisation avec le développement d’applications connectées pour Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

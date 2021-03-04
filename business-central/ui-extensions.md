@@ -91,3 +91,6 @@ Microsoft fournit les extensions suivantes :
 [Mise en route](product-get-started.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

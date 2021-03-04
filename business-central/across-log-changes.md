@@ -88,3 +88,5 @@ Vous pouvez créer des stratégies de rétention pour supprimer les données inu
 [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md)    
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Définir des stratégies de rétention](admin-data-retention-policies.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

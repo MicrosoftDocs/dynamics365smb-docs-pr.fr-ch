@@ -43,3 +43,6 @@ Le prise en charge de la facturation des rendez-vous dans Réservations est plus
 [Facturer des ventes](sales-how-invoice-sales.md)  
 [Définition des ventes](sales-setup-sales.md)  
 [Microsoft Bookings](https://products.office.com/business/scheduling-and-booking-app)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -115,3 +115,6 @@ Les expressions n’utilisant que des symboles, tels que `|` ou `..`, sont consi
 [Enregistrer et personnaliser les vues de liste](ui-views.md)  
 [Recherche de fonctions et d'informations](ui-search.md)  
 [Tri, recherche et filtrage](ui-enter-criteria-filters.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

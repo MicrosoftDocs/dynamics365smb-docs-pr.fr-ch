@@ -34,3 +34,6 @@ Pour ouvrir la page **Paramètres modèles interaction**, choisissez l’icône 
 ## <a name="see-also"></a>Voir aussi
 [Enregistrement des interactions avec les contacts](marketing-interactions.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

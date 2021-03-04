@@ -35,3 +35,6 @@ Dans cette section, vous trouverez plus d’informations sur notre approche de l
 |En savoir plus sur les conditions du contrat de niveau de service et les autres conditions d’utilisation|[Conditions d’utilisation](compliance-service-compliance.md#service-terms)|  
 
 ## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

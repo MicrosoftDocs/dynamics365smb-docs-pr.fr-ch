@@ -55,3 +55,6 @@ Si vous souhaitez vérifier la prévision, outre les écritures de prévision, v
 [Configuration de Finance](finance-setup-finance.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Configuration d’une analyse de trésorerie](finance-setup-cash-flow-analyses.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Les pages **Lignes traçabilité** et **Disponibilité traçabilité** fournisse
 
 ## <a name="see-also"></a>Voir aussi  
  [Détails de conception : traçabilité](design-details-item-tracking.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

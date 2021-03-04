@@ -30,3 +30,5 @@ Vous pouvez configurer des instructions incident qui aident les conseillers du s
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion des services](service-service.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

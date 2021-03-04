@@ -44,3 +44,6 @@ Vous pouvez maintenant ajouter ce texte étendu aux documents. La procédure sui
 
 [Configuration de stock](inventory-setup-inventory.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Nous avons présenté Tell Me à différents acteurs impliqués, noté les quest
 ## <a name="see-also"></a>Voir aussi
 [Utilisation de Business Central](ui-work-product.md)  
 [Ajouter une action de page à votre Tableau de bord](ui-bookmarks.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

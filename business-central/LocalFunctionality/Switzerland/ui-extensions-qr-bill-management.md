@@ -90,3 +90,6 @@ Nous prévoyons d'ajouter des fonctionnalités à l'extension Gestion des QR-fac
 
 ## <a name="see-also"></a>Voir aussi
 [Fonctionnalité locale, Suisse](switzerland-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

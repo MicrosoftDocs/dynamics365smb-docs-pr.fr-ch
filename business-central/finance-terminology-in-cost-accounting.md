@@ -51,3 +51,6 @@ Cette rubrique définit les conditions principales qui sont utilisés en comptab
  [À propos de la comptabilité analytique](finance-about-cost-accounting.md)   
  [Comptabilité pour les coûts](finance-manage-cost-accounting.md)  
  [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

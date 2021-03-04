@@ -47,3 +47,6 @@ Après avoir configuré les conditions de paiement, affectez-les aux clients et 
 [Enregistrer un nouveau fournisseur](purchasing-how-register-new-vendors.md)  
 [Ventes](sales-manage-sales.md)  
 [Achats](purchasing-manage-purchasing.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

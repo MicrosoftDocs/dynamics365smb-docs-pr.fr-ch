@@ -31,3 +31,6 @@ Pour plus d’informations, voir [Importer les transactions de paie](finance-how
 [Personnalisation de [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide des extensions ](ui-extensions.md)    
 [Finances](finance.md)    
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

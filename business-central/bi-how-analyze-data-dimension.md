@@ -83,3 +83,6 @@ La procédure suivante permet de mettre à jour une vue d’analyse à partir de
 [Comptabilité et plan comptable](finance-general-ledger.md)  
 [Utilisation des axes analytiques](finance-dimensions.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

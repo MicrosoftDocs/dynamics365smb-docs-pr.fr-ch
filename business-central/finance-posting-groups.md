@@ -79,3 +79,6 @@ Plus il y a de groupes comptabilisation produit et marché, plus la page Paramè
 [Les écritures comptables et le plan comptable](finance-general-ledger.md)  
 [Configuration de Finance](finance-setup-finance.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

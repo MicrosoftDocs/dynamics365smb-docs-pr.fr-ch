@@ -67,3 +67,6 @@ Oui, vous pouvez ! C’est une façon légèrement différente de se connecter,
 
 [Obtention de Business Central sur votre périphérique mobile](install-mobile-app.md)  
 [Installer l’application Business Central pour Microsoft Teams](across-install-app-for-teams.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -80,3 +80,6 @@ Les articles de la page **Articles** sont filtrés selon les valeurs attribut ar
 [Enregistrer de nouveaux articles](inventory-how-register-new-items.md)  
 [Stock](inventory-manage-inventory.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -67,3 +67,6 @@ Lors du calcul d’un MPS ou d’un MRP, les restrictions suivantes s’applique
 [Détails de conception : gestion des méthodes de réapprovisionnement](design-details-handling-reordering-policies.md)   
 [Détails de conception : transferts de planification](design-details-transfers-in-planning.md)   
 [Détails de conception : paramètres de planification](design-details-planning-parameters.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

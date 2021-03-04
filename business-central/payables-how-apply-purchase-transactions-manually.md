@@ -121,3 +121,6 @@ Lorsque vous délettrez un lettrage erroné, des écritures de correction (écri
 [Fournisseurs](payables-manage-payables.md)  
 [Achats](purchasing-manage-purchasing.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -112,3 +112,6 @@ La page **Statistiques avoir service** permet d’obtenir un aperçu statistique
 [Créer commande service](service-how-to-create-service-orders.md)   
 [Créer des articles de service](service-how-to-create-service-items.md)   
 [Services de planification](service-plan-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

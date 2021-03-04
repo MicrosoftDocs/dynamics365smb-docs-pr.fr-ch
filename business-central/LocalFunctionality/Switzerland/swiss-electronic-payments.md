@@ -43,3 +43,6 @@ Pour exporter des paiements selon la norme SEPA, vous devez utiliser un compte b
  [Paiements électroniques suisses avec LSV+](swiss-electronic-payments-using-lsv-.md)  
  [Fonctionnalité locale, Suisse](switzerland-local-functionality.md)  
  [Effectuer des paiements](../../payables-make-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

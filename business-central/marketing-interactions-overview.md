@@ -31,3 +31,6 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | Configurer votre système pour enregistrer les interactions. |[Configurer les contacts](marketing-setup-contacts.md) |
 |Créer des interactions pour enregistrer toutes les interactions et toutes les communications que vous entretenez avec vos contacts et segments, par exemple l’envoi par courrier électronique.|[Créer des interactions sur les contacts et les segments](marketing-how-create-interactions.md)|
 |Configurer votre système pour enregistrer automatiquement les interactions pour les documents de vente, d’achat et de service, par exemple lorsqu’un document est créé, validé ou imprimé.|[Enregistrer automatiquement les interactions avec les contacts](marketing-auto-record-interactions.md)|
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -94,3 +94,6 @@ Par exemple, si un article de service présente l’état réparation **Initial*
 
 [Paramétrer les statuts des commandes service et des réparations](service-order-repair-status.md)  
 [Paramétrage de la gestion des services](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

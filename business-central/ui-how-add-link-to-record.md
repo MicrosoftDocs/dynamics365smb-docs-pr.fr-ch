@@ -98,3 +98,6 @@ La note est maintenant jointe à la commande client.
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Documents entrants](across-income-documents.md)  
 [Configuration de notifications de workflow](across-setting-up-workflow-notifications.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

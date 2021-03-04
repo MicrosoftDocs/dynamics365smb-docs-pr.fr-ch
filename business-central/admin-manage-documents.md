@@ -93,3 +93,6 @@ Le tableau suivant répertorie les champs du raccourci **Options** disponibles s
 ## <a name="see-also"></a>Voir aussi
 
 [Administration](admin-setup-and-administration.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

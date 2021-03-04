@@ -85,3 +85,6 @@ Vous pouvez utiliser la page **Mappages de table d’intégration** pour exécut
 ## <a name="see-also"></a>Voir aussi  
 [Synchronisation de Business Central et Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)   
 [Configuration des comptes d’utilisateur pour l’intégration à Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

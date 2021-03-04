@@ -45,3 +45,6 @@ Les actions qui ouvrent des pages sont organisées sous des nœuds nommés d’a
 [Recherche de pages et d’informations avec la fonction Tell Me](ui-search.md)  
 [Gérer les profils](admin-users-profiles-roles.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

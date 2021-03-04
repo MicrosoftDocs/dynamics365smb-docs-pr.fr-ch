@@ -46,3 +46,6 @@ Vous pouvez manuellement créer une commande service pour un article de service 
 ## <a name="see-also"></a>Voir aussi  
 [Exécution des contrats de service](service-fulfill-service-contracts.md)  
 [Créer commande service](service-how-to-create-service-orders.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

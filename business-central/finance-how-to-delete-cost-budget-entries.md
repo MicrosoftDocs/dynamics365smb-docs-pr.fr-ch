@@ -38,3 +38,6 @@ Pour empêcher tout écart dans les écritures du budget des coûts et les écri
 [Comptabilité pour les coûts](finance-manage-cost-accounting.md)
 [Création des budgets des coûts](finance-create-cost-budgets.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

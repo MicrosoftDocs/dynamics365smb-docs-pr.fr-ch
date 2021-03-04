@@ -60,3 +60,6 @@ Vous pouvez configurer l’application pour qu’elle recherche automatiquement 
 ## <a name="see-also"></a>Voir aussi
 [Gestion de contacts](marketing-contacts.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

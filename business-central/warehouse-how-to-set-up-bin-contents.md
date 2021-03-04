@@ -66,3 +66,6 @@ Dans cette feuille, vous pouvez utiliser des lignes contenu de l’emplacement p
 [Détails de conception : gestion d’entrepôt](design-details-warehouse-management.md)  
 [Détails de conception : paramètres entrepôt](design-details-warehouse-setup.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

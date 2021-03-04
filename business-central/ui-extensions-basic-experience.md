@@ -51,3 +51,5 @@ Importez vos données Dynamics C5. Une fois que votre partenaire Microsoft a in
 
 ## <a name="see-also"></a>Voir aussi
 [Extension C5 Data Migration](ui-extensions-c5-data-migration.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

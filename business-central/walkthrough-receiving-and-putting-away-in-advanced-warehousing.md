@@ -161,3 +161,6 @@ Sur la page **Rangement entrepôt**, vous pouvez gérer les rangements pour un d
  [Détails de conception : flux d’enlogement](design-details-inbound-warehouse-flow.md)   
  [Procédure pas à pas : Réception et rangement dans les configurations de stockage de base](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)   
  [Procédures pas à pas liées au processus entreprise](walkthrough-business-process-walkthroughs.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

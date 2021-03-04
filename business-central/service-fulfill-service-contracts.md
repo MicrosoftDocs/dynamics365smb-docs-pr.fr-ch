@@ -37,3 +37,6 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 [Exécution du service](service-deliver-service.md)  
 [Paramétrage de la gestion des services](service-setup-service.md)  
 [Créer des devis et contrats de service](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

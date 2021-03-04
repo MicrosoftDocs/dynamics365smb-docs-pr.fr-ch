@@ -44,3 +44,6 @@ Les informations sur le paiement sont importées vers les lignes feuille. Les pa
 ## <a name="see-also"></a>Voir aussi  
  [Paiements électroniques à l'aide de ESR, Suisse](swiss-electronic-payments-using-esr.md)   
  [Imprimer des factures ESR](how-to-print-esr-invoices.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

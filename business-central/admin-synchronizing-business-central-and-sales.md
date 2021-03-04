@@ -63,3 +63,6 @@ Vous pouvez afficher le mappage entre les tables dans [!INCLUDE[prod_short](incl
 [Coupler et synchroniser des enregistrements manuellement](admin-how-to-couple-and-synchronize-records-manually.md)   
 [Programmer une synchronisation](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)   
 [Intégration à Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Vos tâches principales sur la page consistent à cocher la case **Paiement effe
 ## <a name="see-also"></a>Voir aussi
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Finances](finance.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

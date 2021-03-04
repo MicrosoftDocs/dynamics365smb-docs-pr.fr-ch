@@ -63,3 +63,6 @@ Vous pouvez utiliser l’état **Immo. - Valeur projetée** pour calculer l’am
 [Finances](finance.md)  
 [Mise en route](product-get-started.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

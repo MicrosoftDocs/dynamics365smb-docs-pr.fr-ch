@@ -109,3 +109,6 @@ Si vous souhaitez donner accès à plusieurs sociétés, vous devez vous connect
 [Gérer le travail entre plusieurs entreprises dans le Hub Entreprise](company-hub.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Configuration d’une analyse de trésorerie](finance-setup-cash-flow-analyses.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

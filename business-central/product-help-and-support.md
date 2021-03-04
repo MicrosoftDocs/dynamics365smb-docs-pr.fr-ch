@@ -141,3 +141,6 @@ Le site docs.microsoft.com héberge du contenu pour d’autres produits ainsi qu
 [Docs dédiés aux développeurs et à l’administration de Business Central](/dynamics365/business-central/dev-itpro/)  
 [Ressources pour l’aide et l’assistance technique pour les partenaires](/dynamics365/business-central/dev-itpro/help-and-support)  
 [Support technique](/dynamics365/business-central/dev-itpro/technical-support)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

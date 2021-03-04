@@ -40,3 +40,5 @@ Vous pouvez utiliser un devis service comme brouillon d’une commande service, 
 [Travailler sur des tâches service](service-how-to-work-on-service-tasks.md)  
 
  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

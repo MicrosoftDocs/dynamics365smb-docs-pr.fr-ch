@@ -39,3 +39,6 @@ La section suivante décrit comment ajouter un commentaire à une fiche article.
 ## <a name="see-also"></a>Voir aussi
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

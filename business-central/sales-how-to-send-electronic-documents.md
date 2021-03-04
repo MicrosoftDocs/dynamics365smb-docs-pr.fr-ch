@@ -62,3 +62,6 @@ La version générique de [!INCLUDE[prod_short](includes/prod_short.md)] prend e
 [Échanger des données par voir électronique](across-data-exchange.md)  
 [FAQ Facturation électronique](faq-electronic-invoicing.yml)  
 [Fonctionnalités marché](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

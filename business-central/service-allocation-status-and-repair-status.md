@@ -70,3 +70,6 @@ Une nouvelle écriture affectation comportant la nouvelle ressource est créée 
 [Configurer l’affectation des ressources](service-how-setup-resource-allocation.md)  
 [Affecter des ressources](service-how-to-allocate-resources.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

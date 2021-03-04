@@ -82,3 +82,6 @@ Le devis est supprimé de la base de données. Une facture vente ou une commande
 [Définition des ventes](sales-setup-sales.md)  
 [Envoyer des documents par e-mail](ui-how-send-documents-email.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

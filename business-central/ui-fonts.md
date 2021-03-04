@@ -52,3 +52,6 @@ Pour plus d’informations, voir [Sélectionner une mise en page de chèque](fin
 [Gestion des présentations de rapport](ui-manage-report-layouts.md)  
 [Sélectionner une mise en page de chèque](finance-how-define-check-layouts.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

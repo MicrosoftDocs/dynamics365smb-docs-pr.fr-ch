@@ -73,3 +73,6 @@ La plupart des états et des statistiques reposent sur les écritures de coûts 
  [Finances](finance.md)   
  [Terminologie en comptabilité analytique](finance-terminology-in-cost-accounting.md)  
  [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

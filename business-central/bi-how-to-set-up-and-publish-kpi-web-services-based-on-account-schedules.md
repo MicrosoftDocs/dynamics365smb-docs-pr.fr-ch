@@ -55,3 +55,6 @@ La page **Tableau d’analyse - Paramètres du service web KPI** vous permet de 
 [Configuration de Finance](finance-setup-finance.md)  
 [Les écritures comptables et le plan comptable](finance-general-ledger.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

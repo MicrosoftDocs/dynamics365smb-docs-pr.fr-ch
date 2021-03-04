@@ -48,3 +48,6 @@ Cependant, vous pouvez modifier les comptes par défaut, et vous pouvez ajouter 
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

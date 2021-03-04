@@ -161,3 +161,6 @@ Vous pouvez arrêter de migrer les données en sélectionnant **Arrêter toutes 
 
 [Personnalisation de [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide d’extensions](ui-extensions.md)  
 [Mise en route](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

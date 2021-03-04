@@ -35,3 +35,6 @@ Pour utiliser les services bancaires électroniques pour importer des relevés b
 [Gestion des comptes client](receivables-manage-receivables.md)  
 [Gestion des comptes fournisseur](payables-manage-payables.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

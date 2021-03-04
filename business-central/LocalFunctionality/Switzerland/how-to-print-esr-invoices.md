@@ -51,3 +51,6 @@ Vous pouvez également réimprimer l'état ESR de la facture vente ou l'état du
 ## <a name="see-also"></a>Voir aussi  
  [Paiements électroniques à l'aide de ESR, Suisse](swiss-electronic-payments-using-esr.md)   
  [Importer des paiements ESR](how-to-import-esr-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

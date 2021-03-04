@@ -158,3 +158,6 @@ Lorsque vous affectez le questionnaire profil contenant cette question à un con
 
 ## <a name="see-also"></a>Voir aussi
 [Création de contacts](marketing-create-contact-companies.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -76,3 +76,6 @@ Vous pouvez comparer la valeur du champ **Solde sur compte bancaire après valid
 [Gestion des comptes client](receivables-manage-receivables.md)  
 [Ventes](sales-manage-sales.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

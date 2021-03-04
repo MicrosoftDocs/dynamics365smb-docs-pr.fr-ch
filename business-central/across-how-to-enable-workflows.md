@@ -35,3 +35,6 @@ Lorsque vous avez créé un workflow et que vous êtes sûr qu’il est prêt à
  [Utilisation des workflows](across-use-workflows.md)   
  [Procédure pas à pas : Configuration et utilisation d’un flux d’approbation achat](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Flux de travail](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

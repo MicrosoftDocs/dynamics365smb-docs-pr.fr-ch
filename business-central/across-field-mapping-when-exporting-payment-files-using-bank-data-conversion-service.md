@@ -72,3 +72,6 @@ Le tableau suivant répertorie les champs de [!INCLUDE[prod_short](includes/prod
 [Échanger des données par voie électronique](across-data-exchange.md)
 [Utilisation de l’extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)   
 [Réaliser des paiements avec l’extension AMC Banking 365 Fundamentals ou le virement SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

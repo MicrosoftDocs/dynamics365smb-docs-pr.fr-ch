@@ -66,3 +66,6 @@ Pour tous les échanges de données dans les fichiers XML, vous pouvez préparer
 [Configuration de l’échange de données](across-set-up-data-exchange.md)  
 [Documents entrants](across-income-documents.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

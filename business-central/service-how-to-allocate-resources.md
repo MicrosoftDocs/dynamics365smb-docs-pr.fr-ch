@@ -143,3 +143,6 @@ Vous pouvez annuler des affectations de ressources pour des tâches service sans
 ## <a name="see-also"></a>Voir aussi
 [Configurer l’affectation des ressources](service-how-setup-resource-allocation.md)  
 [Statut affectation et statut réparation](service-allocation-status-and-repair-status.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

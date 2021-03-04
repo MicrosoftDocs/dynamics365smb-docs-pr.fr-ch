@@ -58,3 +58,6 @@ Pour en savoir plus, voir [Utiliser un service OCR pour convertir des fichiers P
 [Documents entrants](across-income-documents.md)  
 [Achats](purchasing-manage-purchasing.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

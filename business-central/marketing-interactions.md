@@ -56,3 +56,6 @@ Vous pouvez supprimer les écritures journal interaction ayant été annulées. 
 [Gestion de contacts](marketing-contacts.md)  
 [Gestion des opportunités de ventes](marketing-manage-sales-opportunities.md)  
 [Utilisation de Business Central](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

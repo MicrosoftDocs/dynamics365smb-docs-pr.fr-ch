@@ -98,3 +98,6 @@ Sur la page **Écritures comptables projet** vous pouvez passer en revue les éc
 [Achats](purchasing-manage-purchasing.md)         
 [Ventes](sales-manage-sales.md)      
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -60,3 +60,6 @@ Appliquez les paiements des employés à leurs écritures comptables salariés o
 [Contrepasser une validation feuille et annuler les réceptions/envois](finance-how-reverse-journal-posting.md)  
 [Finances](finance.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

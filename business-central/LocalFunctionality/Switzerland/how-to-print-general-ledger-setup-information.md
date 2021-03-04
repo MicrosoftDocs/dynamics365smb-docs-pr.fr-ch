@@ -38,3 +38,6 @@ Avant d'utiliser [!INCLUDE[prod_short](../../includes/prod_short.md)] dans les a
 
 ## <a name="see-also"></a>Voir aussi  
 [Configuration de Finance](../../finance-setup-finance.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

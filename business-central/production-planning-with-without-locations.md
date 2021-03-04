@@ -144,3 +144,6 @@ Par conséquent, si vous planifiez souvent des demandes dans des magasins, il es
 [Détails de conception : planification de l’approvisionnement](design-details-supply-planning.md)   
 [Pratiques de configuration recommandées : planification de l’approvisionnement](setup-best-practices-supply-planning.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

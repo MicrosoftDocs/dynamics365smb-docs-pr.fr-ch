@@ -63,3 +63,6 @@ Avant de pouvoir créer des flux de travail qui impliquent des étapes d’appro
 [Paramétrage des workflows](across-set-up-workflows.md)   
 [Procédure pas à pas : Configuration et utilisation d’un flux d’approbation achat](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
 [Flux de travail](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

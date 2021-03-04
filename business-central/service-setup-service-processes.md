@@ -37,3 +37,6 @@ Voici quelques exemples des paramètres que vous pouvez appliquer aux processus 
 [Configurer des frais supplémentaires pour les services](service-how-setup-service-costs-pricing.md)  
 [Configurer les processus incident](service-how-setup-troubleshooting.md)  
 [Gestion des services](service-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

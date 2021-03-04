@@ -232,3 +232,6 @@ La page **Planification commande** est accessible de plusieurs endroits différe
 ## <a name="see-also"></a>Voir aussi  
  [Procédures pas à pas liées au processus entreprise](walkthrough-business-process-walkthroughs.md)   
  [Procédure pas à pas : planification automatique des approvisionnements](walkthrough-planning-supplies-automatically.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

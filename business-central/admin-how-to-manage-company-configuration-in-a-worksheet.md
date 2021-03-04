@@ -126,3 +126,6 @@ Lors de la création d’un package configuration pour une solution, vous pouvez
 [Configurer une société](admin-set-up-company-configuration.md)  
 [Configuration d’une société avec RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

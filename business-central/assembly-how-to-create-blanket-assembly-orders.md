@@ -47,3 +47,6 @@ L’ordre d’assemblage ouvert associé et toutes les personnalisations sont li
 [Stock](inventory-manage-inventory.md)  
 [Détails de conception : gestion d’entrepôt](design-details-warehouse-management.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Avant de pouvoir envoyer et recevoir des documents électroniques ou importer et
 [Enregistrer des achats](purchasing-how-record-purchases.md)  
 [Documents entrants](across-income-documents.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

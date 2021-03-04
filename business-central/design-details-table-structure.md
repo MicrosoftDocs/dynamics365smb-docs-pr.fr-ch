@@ -186,3 +186,6 @@ Le champ 480 existe dans les tables suivantes.
  [Aperçu des écritures de l’ensemble de dimensions](design-details-dimension-set-entries-overview.md)   
  [Détails de conception : recherche des croisements analytiques](design-details-searching-for-dimension-combinations.md)   
  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

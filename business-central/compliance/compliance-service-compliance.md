@@ -39,3 +39,6 @@ Si vous êtes intéressé par la liste complète des offres de conformité de Mi
 [Certifications](compliance-certifications.md)  
 
 ## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -123,3 +123,6 @@ Le tableau suivant fournit un aperçu simplifié du XML d’une partie XML perso
   
 ## <a name="see-also"></a>Voir aussi  
  [Créer et modifier une présentation de rapport personnalisée](ui-how-create-custom-report-layout.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

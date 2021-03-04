@@ -105,3 +105,6 @@ Le processus de mise à jour ou de calcul des coûts standard comprend général
  [Utiliser les nomenclatures](inventory-how-work-BOMs.md)   
  [Mise à jour des coûts standard](finance-how-to-update-standard-costs.md)   
  [Détails de conception : évaluation stock](design-details-inventory-costing.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

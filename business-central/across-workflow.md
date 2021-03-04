@@ -42,3 +42,6 @@ Tout modèle de flux de travail que vous créez avec Power Automate est ajouté 
 [Achats](purchasing-manage-purchasing.md)  
 [Gestion des projets](projects-manage-projects.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

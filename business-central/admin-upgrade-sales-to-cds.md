@@ -39,3 +39,6 @@ Si vous avez déjà intégré [!INCLUDE[crm_md](includes/crm_md.md)] à [!INCLUD
 ## <a name="see-also"></a>Voir aussi
 [Intégration à Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Intégration à Microsoft Dataverse](admin-common-data-service.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Si vous apportez des modifications au module complémentaire, vous devez le rech
 [Analyse des états financiers dans Microsoft Excel](finance-analyze-excel.md)  
 [Utilisation de Business Central](ui-work-product.md)  
 [Améliorations de l’intégration d’Excel dans la deuxième vague de publication 2019](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

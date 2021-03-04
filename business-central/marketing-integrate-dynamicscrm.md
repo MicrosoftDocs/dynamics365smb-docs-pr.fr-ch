@@ -106,3 +106,6 @@ Une fois que le paiement client est reçu pour la facture vente dans [!INCLUDE[p
 [Vue d’ensemble de Sales et du centre des ventes](/dynamics365/customer-engagement/sales-enterprise/overview)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

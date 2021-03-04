@@ -36,3 +36,6 @@ Lorsque vous émettez une facture d’intérêts, a facture affiche les frais fi
 ## <a name="see-also"></a>Voir aussi  
 [Collecte des soldes restants](receivables-collect-outstanding-balances.md)  
 [Configuration de Finance](finance-setup-finance.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

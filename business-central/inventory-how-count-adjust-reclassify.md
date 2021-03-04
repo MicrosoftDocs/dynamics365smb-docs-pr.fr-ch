@@ -224,3 +224,6 @@ Pour plus d’informations sur le transfert des articles avec un contrôle compl
 [Ventes](sales-manage-sales.md)  
 [Achats](purchasing-manage-purchasing.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

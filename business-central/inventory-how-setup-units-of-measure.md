@@ -87,3 +87,6 @@ Si vous utilisez habituellement d’autres unités que l’unité de base pour v
 [Gestion des achats](purchasing-manage-purchasing.md)  
 [Gestion des ventes](sales-manage-sales.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -92,3 +92,5 @@ Ce scénario d'activité est pris en charge par la fonctionnalité Late Binding 
   
 ## <a name="see-also"></a>Voir aussi  
 [Détails de conception : traçabilité](design-details-item-tracking.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

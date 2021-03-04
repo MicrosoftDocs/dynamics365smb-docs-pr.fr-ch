@@ -57,3 +57,6 @@ Vous pouvez ventiler une écriture dans une feuille abonnement dans différents 
 [Utilisation de feuilles comptabilité](ui-work-general-journals.md)    
 [Validation des documents et des feuilles](ui-post-documents-journals.md)    
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

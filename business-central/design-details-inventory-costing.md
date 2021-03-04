@@ -41,3 +41,6 @@ L’évaluation des coûts de stock, aussi appelé gestion des coûts, se charge
 [Détails de conception : comptes de la comptabilité](design-details-accounts-in-the-general-ledger.md)  
 [Détails de conception : évaluation du stock](design-details-inventory-valuation.md)  
 [Détails de conception : réévaluation](design-details-revaluation.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

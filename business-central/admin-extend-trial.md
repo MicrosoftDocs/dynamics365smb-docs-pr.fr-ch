@@ -56,3 +56,6 @@ Votre période d’essai prolongée a expiré, vous pouvez [vous abonner](https:
 [Comment trouver un partenaire revendeur ?](across-faq.md#findpartner)  
 [Prolongement des périodes d’essai (en tant qu’administrateur)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  
 [Débuter en tant que revendeur de Business Central Online](/dynamics365/business-central/dev-itpro/administration/get-started-online)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

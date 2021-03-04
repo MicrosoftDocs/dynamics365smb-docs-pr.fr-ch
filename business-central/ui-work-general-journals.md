@@ -210,3 +210,6 @@ Les valeurs dans le champ **N° document** sont modifiées, le cas échéant, po
 [Rapprocher des paiements clients avec la Feuille règlement ou les Écritures comptables client](receivables-how-apply-sales-transactions-manually.md)  
 [Rapprocher des paiements fournisseur avec la feuille paiement ou à partir des écritures comptables fournisseur](payables-how-apply-purchase-transactions-manually.md)  
 [Utiliser les documents et les feuilles intersociétés](intercompany-how-work-documents-journals.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

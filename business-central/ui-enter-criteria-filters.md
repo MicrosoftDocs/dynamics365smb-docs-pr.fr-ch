@@ -307,3 +307,6 @@ Utilisez `%myvendors` dans le champ **N°** fournisseur pour afficher tous les e
 [FAQ sur la recherche et le filtrage](ui-search-filter-faq.md)  
 [Enregistrer et personnaliser les vues de liste](ui-views.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

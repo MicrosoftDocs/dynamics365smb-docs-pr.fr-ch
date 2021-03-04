@@ -48,3 +48,6 @@ Lorsque vous utilisez la fonction **Copier à partir du document** pour créer d
 ## <a name="see-also"></a>Voir aussi  
 [Enregistrer de nouveaux articles](inventory-how-register-new-items.md)  
 [Stock](inventory-manage-inventory.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

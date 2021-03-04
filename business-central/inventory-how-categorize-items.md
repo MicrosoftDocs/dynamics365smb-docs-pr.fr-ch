@@ -56,3 +56,6 @@ Si vous changez d’avis sur une catégorie d’article, vous pouvez la supprime
 [Enregistrer de nouveaux articles](inventory-how-register-new-items.md)  
 [Stock](inventory-manage-inventory.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

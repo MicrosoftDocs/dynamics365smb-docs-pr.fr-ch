@@ -68,3 +68,6 @@ La procédure suivante décrit comment créer un avoir à l’aide du traitement
 [Finances](finance.md)  
 [Déclarer la TVA aux autorités fiscales](finance-how-report-vat.md)  
 [Utiliser la TVA sur les ventes et les achats](finance-work-with-vat.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

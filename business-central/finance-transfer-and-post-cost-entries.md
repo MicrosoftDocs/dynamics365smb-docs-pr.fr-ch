@@ -101,3 +101,6 @@ Dans la table **Registre de coûts**, [!INCLUDE[prod_short](includes/prod_short.
  [Paramétrage du contrôle de gestion](finance-set-up-cost-accounting.md)   
  [Définition et répartition des coûts](finance-define-and-allocate-costs.md)   
  [Comptabilité pour les coûts](finance-manage-cost-accounting.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

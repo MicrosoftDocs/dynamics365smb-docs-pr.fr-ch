@@ -29,3 +29,6 @@ ms.locfileid: "4757282"
 [Importation des données métier à partir d’autres systèmes financiers](across-import-data-configuration-packages.md)  
 [Personnalisation de [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide des extensions ](ui-extensions.md)  
 [Migrer vers Business Central Online à partir de Dynamics GP](/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

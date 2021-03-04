@@ -90,3 +90,6 @@ Ken est désormais prêt à affecter la présentation de colonne au nom de table
  [Utilisation des tableaux d’analyse](bi-how-work-account-schedule.md)   
  [Procédures pas à pas liées au processus entreprise](walkthrough-business-process-walkthroughs.md)  
  [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -93,3 +93,6 @@ Les polices à d’autres fins sont également disponibles dans [!INCLUDE[prod_s
 [Exécution des processus de clôture d’exercice](year-how-complete-period-end-processes.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

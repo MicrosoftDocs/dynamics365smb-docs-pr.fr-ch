@@ -34,3 +34,6 @@ Utilisez des périodes de validation pour spécifier quand les utilisateurs peuv
 [Finances](finance.md)  
 [Exécution des processus de clôture d’exercice](year-how-complete-period-end-processes.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -150,3 +150,6 @@ A la fin, les lignes contrat contiennent les données suivantes.
 ## <a name="see-also"></a>Voir aussi  
 [Créer des devis et contrats de service](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Paramétrage de la gestion des services](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Pour plus d’informations, reportez-vous à [Détails de conception : Équilib
 [Détails de conception : équilibrage de la demande et de l’approvisionnement](design-details-balancing-demand-and-supply.md)  
 [Détails de conception : réservation, chaînage et message d’action](design-details-reservation-order-tracking-and-action-messaging.md)   
 [Détails de conception : planification de l’approvisionnement](design-details-supply-planning.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

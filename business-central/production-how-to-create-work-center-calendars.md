@@ -111,3 +111,6 @@ La capacité du jour sélectionné est réduite conformément aux heures d’abs
 [Paramétrage de la production](production-configure-production-processes.md)  
 [Production](production-manage-manufacturing.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

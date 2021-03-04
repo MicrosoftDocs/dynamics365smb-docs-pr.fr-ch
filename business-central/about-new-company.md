@@ -77,3 +77,6 @@ Une fois qu’une entreprise a été créée, vous ne pouvez pas changer son nom
 [Importation des données métier à partir d’autres systèmes financiers](across-import-data-configuration-packages.md)  
 [Modifier les paramètres de base](ui-change-basic-settings.md)  
 [Mise en route](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

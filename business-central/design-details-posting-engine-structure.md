@@ -39,3 +39,5 @@ L’interface de validation et certaines autres fonctions dans le codeunit 12 u
   
 ## <a name="see-also"></a>Voir aussi  
  [Détails de conception : Structure de l’interface de validation](design-details-posting-interface-structure.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

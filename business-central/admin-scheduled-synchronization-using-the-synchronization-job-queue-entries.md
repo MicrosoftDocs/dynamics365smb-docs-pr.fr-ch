@@ -100,3 +100,6 @@ Par exemple, par défaut, l’écriture de la file d’attente des travaux CURRE
 [Synchroniser manuellement les mappages de table](admin-manual-synchronization-of-table-mappings.md)  
 [Planification d’une synchronisation entre Business Central et [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  
 [À propos de l’intégration de Dynamics 365 Business Central avec [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-prepare-dynamics-365-for-sales-for-integration.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

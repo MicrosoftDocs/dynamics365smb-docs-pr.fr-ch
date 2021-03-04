@@ -151,3 +151,6 @@ Le schéma suivant décrit la façon dont les lettrages de coût sont effectués
 ## <a name="see-also"></a>Voir aussi  
 [Détails de conception : lettrage article](design-details-item-application.md)   
 [Détails de conception : Évaluation stock](design-details-inventory-costing.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

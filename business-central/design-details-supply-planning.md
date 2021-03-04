@@ -31,3 +31,6 @@ Elle explique comment le système de planification fonctionne et comment modifie
 [Détails de conception : tableau d’affectation de planification](design-details-planning-assignment-table.md)  
 [Détails de conception : demande à un magasin vide.](design-details-demand-at-blank-location.md)  
 [Détails de conception : transferts de planification](design-details-transfers-in-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

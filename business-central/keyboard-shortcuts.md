@@ -222,3 +222,6 @@ Lorsque vous définissez un champ de date, vous pouvez saisir la date manuelleme
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Forum Aux Questions](across-faq.md)  
 [Rechercher des écritures](ui-find-entries.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

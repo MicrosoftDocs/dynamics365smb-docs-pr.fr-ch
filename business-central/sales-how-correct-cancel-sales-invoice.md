@@ -74,3 +74,6 @@ Si l'annulation est liée à une validation de facture partielle, la ligne de co
 [Définition des ventes](sales-setup-sales.md)  
 [Envoyer des documents par e-mail](ui-how-send-documents-email.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

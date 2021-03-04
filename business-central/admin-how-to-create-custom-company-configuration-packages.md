@@ -57,3 +57,6 @@ Pour visualiser la liste complète des tables de configuration, choisissez l’i
 ## <a name="see-also"></a>Voir aussi  
 [Configuration d’une société avec RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

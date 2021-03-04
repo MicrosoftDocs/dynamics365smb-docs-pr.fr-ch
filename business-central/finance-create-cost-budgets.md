@@ -38,3 +38,6 @@ Vous utilisez les pages suivantes pour créer et analyser les budgets de coûts.
 [Terminologie en comptabilité analytique](finance-terminology-in-cost-accounting.md)   
 [Définition et répartition des coûts](finance-define-and-allocate-costs.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Lorsque vous êtes connecté à [!INCLUDE[prod_short](includes/prod_short.md)], 
 
 [Centre d’administration Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center)  
 [Modifier les paramètres de base](ui-change-basic-settings.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

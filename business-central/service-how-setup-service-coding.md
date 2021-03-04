@@ -39,3 +39,5 @@ Lorsque vous exécutez un service courant, il est fréquent que vous deviez cré
 ## <a name="see-also"></a>Voir aussi
 
 [Gestion des services](service-service.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

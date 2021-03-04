@@ -94,3 +94,6 @@ Pour en savoir plus sur l’utilisation des fiches et des détails de fiche, con
 [Développement pour l’intégration de Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

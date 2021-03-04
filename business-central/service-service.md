@@ -49,3 +49,6 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 [Bienvenue dans [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

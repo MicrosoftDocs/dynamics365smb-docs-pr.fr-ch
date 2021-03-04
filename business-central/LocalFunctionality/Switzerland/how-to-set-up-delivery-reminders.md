@@ -27,3 +27,6 @@ ms.locfileid: "3931404"
 [Configurer les conditions, niveaux et textes de relance livraison](how-to-set-up-delivery-reminder-terms-levels-and-text.md)  
 [Affecter des codes de relance livraison à des fournisseurs](how-to-assign-delivery-reminder-codes-to-vendors.md)  
 [Créer manuellement des relances livraison](how-to-create-delivery-reminders-manually.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

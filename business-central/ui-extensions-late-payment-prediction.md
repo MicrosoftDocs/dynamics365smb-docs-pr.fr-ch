@@ -111,3 +111,6 @@ Vous pouvez également utiliser votre propre service web prévisionnel basé sur
 [Documentation Azure Machine Learning Studio](https://go.microsoft.com/fwlink/?linkid=861765)  
 [Personnalisation de Business Central à l’aide d’extensions](ui-extensions.md)  
 [Bienvenue dans [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

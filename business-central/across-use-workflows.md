@@ -39,3 +39,6 @@ Vous pouvez configurer et utiliser des workflows qui connectent des tâches de p
 [Paramétrage des workflows](across-set-up-workflows.md)   
 [Flux de travail](across-workflow.md)   
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

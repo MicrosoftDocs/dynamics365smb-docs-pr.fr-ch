@@ -72,3 +72,6 @@ Si vous avez enregistré une transaction pour un client, vous ne pouvez pas supp
 [Ventes](sales-manage-sales.md)  
 [Définition des ventes](sales-setup-sales.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

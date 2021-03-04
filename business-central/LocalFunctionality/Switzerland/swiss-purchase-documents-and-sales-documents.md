@@ -48,3 +48,6 @@ Dans la page **Paramètres ventes**, le champ **Expédition sur Livrer et factur
  [Importer les codes postaux suisses](how-to-import-swiss-post-codes.md)   
  [Imprimer la liste des prélèvements de stock d'une commande vente](how-to-print-an-inventory-picking-list-from-a-sales-order.md)   
  [Fonctionnalité locale, Suisse](switzerland-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

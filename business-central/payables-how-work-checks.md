@@ -84,3 +84,6 @@ Si vous souhaitez examiner les chèques validés, par exemple pour vérifier plu
 [Paramétrage des opérations bancaires](bank-setup-banking.md)  
 [Exporter un fichier Positive Pay](finance-how-positive-pay.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

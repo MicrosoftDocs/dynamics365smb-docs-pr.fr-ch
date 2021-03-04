@@ -42,3 +42,6 @@ Une fois qu’un exercice comptable a été clôturé, vous devez clôturer les 
 [Valider l’écriture de clôture d’exercice](year-how-post-year-end-close-entry.md)  
 [Utiliser des périodes et exercices comptables](finance-accounting-periods-and-fiscal-years.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

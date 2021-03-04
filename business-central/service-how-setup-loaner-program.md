@@ -35,3 +35,6 @@ Vous devez parfois fournir un article de prêt à un client afin qu’il puisse 
 [Paramétrage de la gestion des services](service-setup-service.md)  
 [Exécution du service](service-deliver-service.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

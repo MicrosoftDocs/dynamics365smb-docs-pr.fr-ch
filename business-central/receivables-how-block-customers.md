@@ -40,3 +40,6 @@ Le tableau suivant décrit les options pour bloquer des clients.
 [Enregistrer de nouveaux clients](sales-how-register-new-customers.md)  
 [Collecte des soldes restants](receivables-collect-outstanding-balances.md)  
 [Gestion des comptes client](receivables-manage-receivables.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

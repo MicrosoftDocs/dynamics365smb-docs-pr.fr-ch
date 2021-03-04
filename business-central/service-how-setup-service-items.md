@@ -63,3 +63,6 @@ Vous pouvez configurer des rayons service qui identifient l’emplacement de sto
 ## <a name="see-also"></a>Voir aussi
 [Configurer des codes prestations standards](service-how-setup-service-coding.md)   
 [Configurer les processus incident](service-how-setup-troubleshooting.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

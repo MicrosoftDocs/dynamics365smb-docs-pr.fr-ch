@@ -46,3 +46,6 @@ Le raccourci **Planning** de la fiche article est le cœur de la chaîne d’app
  [Configurer des domaines d’application complexes à l’aide des meilleures pratiques](set-up-complex-application-areas-using-best-practices.md)  
  [Détails de conception : demande à un magasin vide.](design-details-demand-at-blank-location.md)  
  [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

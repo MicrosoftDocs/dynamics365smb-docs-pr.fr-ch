@@ -48,3 +48,6 @@ Le champ **Description** de la ligne est remplacé par la description d’articl
 [Enregistrer de nouveaux articles](inventory-how-register-new-items.md)  
 [Stock](inventory-manage-inventory.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

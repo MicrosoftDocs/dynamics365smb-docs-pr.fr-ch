@@ -39,3 +39,6 @@ Des informations supplémentaires, telles que le taux de TVA et le montant en de
  [Taux de TVA pour la Suisse](vat-rates-for-switzerland.md)   
  [Créer et imprimer une déclaration de TVA, Suisse](how-to-create-and-print-a-swiss-vat-statement.md)   
  [Fonctionnalité locale, Suisse](switzerland-local-functionality.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

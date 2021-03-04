@@ -146,3 +146,5 @@ La table **Conditions de paiement** dans [!INCLUDE[prod_short](includes/prod_sho
 
 ## <a name="see-also"></a>Voir aussi
 [Mappage des tables et des champs à synchroniser](admin-how-to-modify-table-mappings-for-synchronization.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

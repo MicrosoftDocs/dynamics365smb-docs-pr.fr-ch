@@ -64,3 +64,6 @@ Vous pouvez aussi utiliser votre propre service web prévisionnel basé sur un m
 [Ventes](sales-manage-sales.md)  
 [Stock](inventory-manage-inventory.md)  
 [Personnalisation de [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide des extensions](ui-extensions.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

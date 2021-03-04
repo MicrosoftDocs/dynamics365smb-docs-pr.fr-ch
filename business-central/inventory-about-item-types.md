@@ -58,3 +58,6 @@ Les articles des clients pour lesquels vous effectuez un service, par exemple un
 [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  
 [STOCKS ET EN-COURS](inventory-manage-inventory.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

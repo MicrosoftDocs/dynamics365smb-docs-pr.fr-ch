@@ -40,3 +40,6 @@ Pour plus d’informations, reportez-vous à [Activer les paiements client via P
 [Personnalisation de [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide des extensions](ui-extensions.md)  
 [Définition des ventes](sales-setup-sales.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

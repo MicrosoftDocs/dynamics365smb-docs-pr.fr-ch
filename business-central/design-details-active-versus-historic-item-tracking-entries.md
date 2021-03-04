@@ -62,3 +62,6 @@ Lorsque des parties d’une quantité de ligne document sont validées, seule ce
 ## <a name="see-also"></a>Voir aussi  
  [Détails de conception : traçabilité](design-details-item-tracking.md)   
  [Détails de conception : page Lignes traçabilité](design-details-item-tracking-lines-window.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

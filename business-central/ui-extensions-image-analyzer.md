@@ -104,3 +104,6 @@ Vous pouvez afficher le nombre d'analyses effectué, et le nombre restant, pour 
 [Utiliser les attributs d'article](inventory-how-work-item-attributes.md)  
 [Personnalisation de [!INCLUDE[prod_short](includes/prod_short.md)] à l'aide d'extensions](ui-extensions.md)  
 [Mise en route](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

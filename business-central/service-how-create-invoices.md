@@ -99,3 +99,6 @@ Un document avoir service est typiquement utilisé lorsqu’un client retourne u
 [Valider des factures service](service-how-to-post-service-orders.md)  
 [Paramétrage de la gestion des services](service-setup-service.md)  
 [Validation de service](service-service-posting.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

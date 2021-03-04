@@ -45,3 +45,6 @@ La procédure suivante décrit comment définir des numéros d'établissement po
 ## <a name="see-also"></a>Voir aussi  
  [Paiements électroniques, Suisse](swiss-electronic-payments.md)   
  [Configuration des comptes bancaires](../../bank-how-setup-bank-accounts.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

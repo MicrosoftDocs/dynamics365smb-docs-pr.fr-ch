@@ -125,3 +125,6 @@ Vous pouvez même créer des factures à paiement direct pour les clients non en
 [Collecte des soldes restants](receivables-collect-outstanding-balances.md)  
 [Facturation en vrac à partir de Microsoft Bookings dans Business Central](finance-bookings.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

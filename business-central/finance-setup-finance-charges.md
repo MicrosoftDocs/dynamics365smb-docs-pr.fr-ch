@@ -73,3 +73,6 @@ En outre, chaque condition de la table Conditions intérêts de retard est lié 
 [Collecte des soldes restants](receivables-collect-outstanding-balances.md)  
 [Configurer les conditions et niveaux de relance](finance-setup-reminders.md)  
 [Configuration de Finance](finance-setup-finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

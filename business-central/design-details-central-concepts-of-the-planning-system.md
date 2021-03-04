@@ -295,3 +295,6 @@ Cela complète la planification des concepts centraux en relation avec la planif
 [Détails de conception : tableau d’affectation de planification](design-details-planning-assignment-table.md)   
 [Détails de conception : gestion des méthodes de réapprovisionnement](design-details-handling-reordering-policies.md)   
 [Détails de conception : équilibrage de la demande et de l’approvisionnement](design-details-balancing-demand-and-supply.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

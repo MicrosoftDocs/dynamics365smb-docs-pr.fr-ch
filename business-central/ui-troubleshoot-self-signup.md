@@ -49,3 +49,6 @@ Pour obtenir une vue d’ensemble des marchés actuellement pris en charge pour 
 [Fonctionnalités locales](about-localization.md)  
 [Disponibilité par pays/région et traductions prises en charge](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 [Disponibilité internationale de Microsoft Dynamics 365](/dynamics365/get-started/availability)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

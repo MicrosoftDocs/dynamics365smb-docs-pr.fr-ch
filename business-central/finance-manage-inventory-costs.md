@@ -45,3 +45,6 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
  [Ventes](sales-manage-sales.md)   
  [Achats](purchasing-manage-purchasing.md)  
  [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

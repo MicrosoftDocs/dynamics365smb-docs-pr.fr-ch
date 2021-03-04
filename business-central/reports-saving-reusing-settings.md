@@ -56,3 +56,6 @@ Dans la page **Paramètres de l'état** , vous pouvez :
 
 ## <a name="see-also"></a>Voir aussi
 [Utilisation des états, des traitements par lots et des XMLports](ui-work-report.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

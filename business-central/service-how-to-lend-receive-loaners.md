@@ -46,3 +46,6 @@ Vous pouvez utiliser la page **Général Feuille commentaires service** pour enr
   
 ## <a name="see-also"></a>Voir aussi  
 [Configuration d'un programme d'articles de prêt](service-how-setup-loaner-program.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

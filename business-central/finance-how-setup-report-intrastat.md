@@ -131,3 +131,6 @@ Ajoutez tous les codes que vous utilisez dans la page **Nomenclatures produit**.
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion financière](finance.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

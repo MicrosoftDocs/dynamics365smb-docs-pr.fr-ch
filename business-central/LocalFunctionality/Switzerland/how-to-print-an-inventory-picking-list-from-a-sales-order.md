@@ -40,3 +40,6 @@ La liste des prélèvements inclut uniquement les articles dont la quantité d'e
 
 [Documents vente et Documents achat, Suisse](swiss-purchase-documents-and-sales-documents.md)  
 [Importer les codes postaux suisses](how-to-import-swiss-post-codes.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

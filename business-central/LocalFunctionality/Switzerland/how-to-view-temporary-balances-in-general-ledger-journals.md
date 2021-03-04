@@ -35,3 +35,6 @@ Si vous utilisez des comptes généraux en devise étrangère en général, le s
 
 ## <a name="see-also"></a>Voir aussi  
  [Comptes généraux, Suisse](swiss-general-ledger-accounts.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

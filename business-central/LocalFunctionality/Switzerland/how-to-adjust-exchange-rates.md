@@ -51,3 +51,6 @@ Pour plus d'informations sur la TVA et les devises étrangères, voir le site We
  [Taux de TVA pour la Suisse](vat-rates-for-switzerland.md)   
 [Mettre à jour des taux de change devise](../../finance-how-update-currencies.md)  
 [Configurer une devise report supplémentaire](../../finance-how-setup-additional-currencies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

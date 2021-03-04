@@ -62,3 +62,6 @@ Si l’âge d’un contact est inférieur à l’âge de consentement légal dé
 [Exportation de vos données métier vers Excel](about-export-data.md)  
 [Journalisation des modifications](across-log-changes.md)  
 [Demandes de sujet de données pour le RGPD](/microsoft-365/compliance/gdpr-data-subject-requests)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

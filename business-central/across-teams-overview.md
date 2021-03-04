@@ -46,3 +46,6 @@ L’application est disponible sur le marché Teams et vous pouvez l’utiliser 
 [Résolution des incidents dans Teams](admin-teams-troubleshooting.md)  
 [Développement pour l’intégration de Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

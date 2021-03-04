@@ -50,3 +50,6 @@ Si vous avez ajouté une entreprise, mais qu’elle ne s’affiche pas dans la l
 [Gérer le travail entre plusieurs entreprises dans le Hub Entreprise](company-hub.md)  
 [Ajouter des entreprises à votre Hub Entreprise](company-hub-add-company.md)  
 [Expériences de comptables dans Business Central](finance-accounting.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

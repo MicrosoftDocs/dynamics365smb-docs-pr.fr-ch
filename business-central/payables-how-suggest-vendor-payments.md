@@ -57,3 +57,6 @@ Vous pouvez aussi créer manuellement des lignes de paiement à l’aide de la d
 [Effectuer des paiements](payables-make-payments.md)  
 [Utilisation de feuilles comptabilité](ui-work-general-journals.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

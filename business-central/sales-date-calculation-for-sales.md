@@ -46,3 +46,6 @@ Si vous ne spécifiez aucune date livraison demandée sur la ligne de commande v
  [Calcul de la date des achats](purchasing-date-calculation-for-purchases.md)   
  [Calculer des dates promesse livraison](sales-how-to-calculate-order-promising-dates.md)  
  [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

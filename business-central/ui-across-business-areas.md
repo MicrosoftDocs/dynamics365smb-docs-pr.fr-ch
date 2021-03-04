@@ -54,3 +54,6 @@ Le tableau suivant répertorie ces secteurs d’activité généraux avec des li
 [Administration](admin-setup-and-administration.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

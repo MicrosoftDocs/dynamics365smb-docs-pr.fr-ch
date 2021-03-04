@@ -53,3 +53,6 @@ Cette vidéo montre comment configurer un flux de travail qui exigera qu’une p
  [Flux de travail](across-workflow.md)   
  [Procédure pas à pas : Configuration et utilisation d’un flux d’approbation achat](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
  [Utilisation de Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

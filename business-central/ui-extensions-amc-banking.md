@@ -87,3 +87,6 @@ L’utilisation de cette extension consiste simplement à exporter des données 
 ## <a name="see-also"></a>Voir aussi
 [Personnalisation de [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide des extensions](ui-extensions.md)  
 [Mise en route](product-get-started.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

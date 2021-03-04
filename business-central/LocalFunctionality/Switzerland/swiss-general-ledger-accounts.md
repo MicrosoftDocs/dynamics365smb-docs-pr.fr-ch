@@ -45,3 +45,6 @@ Avant de valider une feuille comptabilité, vous pouvez prévisualiser l'effet q
 
 [Afficher les soldes temporaires dans les feuilles comptabilisation immobilisation](how-to-view-temporary-balances-in-general-ledger-journals.md)  
 [Fonctionnalité locale, Suisse](switzerland-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

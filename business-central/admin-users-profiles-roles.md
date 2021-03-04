@@ -145,3 +145,6 @@ Pour [!INCLUDE[prod_short](includes/prod_short.md)] sur site, vous pouvez gérer
 [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md)  
 [Personnaliser les pages pour les profils](ui-personalization-manage.md)  
 [Personnaliser votre espace de travail](ui-personalization-user.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

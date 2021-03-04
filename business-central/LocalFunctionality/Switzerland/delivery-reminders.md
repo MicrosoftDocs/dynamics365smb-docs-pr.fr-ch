@@ -30,3 +30,6 @@ ms.locfileid: "3931412"
  [Créer manuellement des relances livraison](how-to-create-delivery-reminders-manually.md)   
  [Émettre des relances livraison](how-to-issue-delivery-reminders.md)   
  [Imprimer des rapports de test pour les relances livraison](how-to-print-test-reports-for-delivery-reminders.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

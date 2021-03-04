@@ -64,3 +64,6 @@ Vous êtes désormais inscrit à l’extension AMC Banking 365 Fundamentals. Con
 [Paramétrage des opérations bancaires](bank-setup-banking.md)  
 [Rapprochement de comptes bancaires](bank-manage-bank-accounts.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

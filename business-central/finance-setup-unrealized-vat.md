@@ -50,3 +50,6 @@ Pour utiliser les comptes pour la TVA sur encaissement, procédez comme suit :
 
 ## <a name="see-also"></a>Voir aussi
 [Configuration de la TVA](finance-setup-vat.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

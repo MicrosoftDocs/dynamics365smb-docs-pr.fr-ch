@@ -78,3 +78,6 @@ La valeur dans le champ **Taux de change** de la page **Devises** est mise à jo
 [Configurer une devise report supplémentaire](finance-how-setup-additional-currencies.md)  
 [Clôture des exercices et des périodes](year-close-years-periods.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

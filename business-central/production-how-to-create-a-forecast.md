@@ -109,3 +109,6 @@ Ensuite, vous créez une commande client avec une quantité de 12 sur le magasi
 [Détails de conception : planification de l’approvisionnement](design-details-supply-planning.md)   
 [Pratiques de configuration recommandées : planification de l’approvisionnement](setup-best-practices-supply-planning.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

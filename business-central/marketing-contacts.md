@@ -37,3 +37,6 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 [Gestion des opportunités de ventes](marketing-manage-sales-opportunities.md)  
 [Tri, recherche et filtrage](ui-enter-criteria-filters.md)  
 [Utilisation de Business Central](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

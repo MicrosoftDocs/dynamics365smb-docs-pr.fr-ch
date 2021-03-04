@@ -68,3 +68,6 @@ ms.locfileid: "4753357"
 [Utilisation de l’extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)   
 [Utiliser des schémas XML pour préparer des définitions d’échange de données](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Rapprocher les paiements à l’aide de l’application automatique](receivables-how-reconcile-payments-auto-application.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

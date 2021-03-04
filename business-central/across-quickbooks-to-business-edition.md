@@ -37,3 +37,6 @@ Si vous êtes prêt à commencer, choisissez l’icône ![Ampoule qui ouvre la f
 ## <a name="see-also"></a>Voir aussi
 [Importation des données métier à partir d’autres systèmes financiers](across-import-data-configuration-packages.md)  
 [Personnalisation de Business Central à l’aide d’extensions](ui-extensions.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -58,3 +58,6 @@ Si vous ne configurez pas d’heures de service spécifiques pour le contrat de 
 [Description du statut d’affectation et l’état réparation](service-allocation-status-and-repair-status.md)  
 [Paramétrage de la gestion des services](service-setup-service.md)  
 [Description des commandes service et de l’état réparation](service-order-repair-status.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

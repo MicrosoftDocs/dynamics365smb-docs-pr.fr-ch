@@ -44,3 +44,6 @@ Vous pouvez télécharger des transactions de crédit de paiement au format de f
  [Paiements électroniques, Suisse](swiss-electronic-payments.md)   
  [Paiements électroniques à l'aide de ESR+, Suisse](swiss-electronic-payments-using-esr.md)   
  [Effectuer des paiements](../../payables-make-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

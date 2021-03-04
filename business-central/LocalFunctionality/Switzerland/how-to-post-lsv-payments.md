@@ -49,3 +49,6 @@ Vous pouvez valider les paiements après avoir reçu l'avis de paiement Lastschr
  [Traiter un prélèvement LSV](how-to-process-an-lsv-collection.md)   
  [Fermer un prélèvement LSV](how-to-close-an-lsv-collection.md)   
  [Exporter des paiements en mode LSV](how-to-export-payments-using-lsv.md) 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

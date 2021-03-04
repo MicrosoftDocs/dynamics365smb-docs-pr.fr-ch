@@ -24,3 +24,6 @@ Spécifie un solde comptabilité temporaire. Lorsque vous choisissez l'action **
 
 ## <a name="see-also"></a>Voir aussi  
  [Afficher les soldes temporaires dans les feuilles comptabilisation immobilisation](how-to-view-temporary-balances-in-general-ledger-journals.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

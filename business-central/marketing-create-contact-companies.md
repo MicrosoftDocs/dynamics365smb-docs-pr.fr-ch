@@ -116,3 +116,6 @@ La synchronisation des données entre les contacts et les clients, les fournisse
 [Gestion de contacts](marketing-contacts.md)  
 [Paramétrage des contacts](marketing-setup-contacts.md)  
 [Utilisation de Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

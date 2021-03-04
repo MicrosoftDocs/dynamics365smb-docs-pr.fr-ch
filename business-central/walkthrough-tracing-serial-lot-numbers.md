@@ -305,3 +305,6 @@ Ensuite, vous devez créer plusieurs transactions d’achat, de production et de
 [Rechercher des écritures](ui-find-entries.md)  
 [Procédures pas à pas liées au processus entreprise](walkthrough-business-process-walkthroughs.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

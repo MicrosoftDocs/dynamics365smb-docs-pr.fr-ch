@@ -122,3 +122,6 @@ Dans les scénarios de combinaison, où une partie de la quantité doit d’abor
 [Procédure pas à pas : Prélèvement et expédition dans les configurations de stockage de base](walkthrough-picking-and-shipping-in-basic-warehousing.md)  
 [Détails de conception : gestion d’entrepôt](design-details-warehouse-management.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

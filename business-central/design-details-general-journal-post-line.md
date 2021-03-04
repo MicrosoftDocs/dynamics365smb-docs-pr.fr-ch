@@ -29,3 +29,6 @@ Cette documentation fournit une analyse technique détaillée des concepts et pr
 
 ## <a name="see-also"></a>Voir aussi  
 [Utilisation de feuilles comptabilité](ui-work-general-journals.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

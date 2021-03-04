@@ -122,3 +122,6 @@ L’un des aspects des projets de planification est de décider quels comptes de
 [Achats](purchasing-manage-purchasing.md)  
 [Ventes](sales-manage-sales.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -78,3 +78,6 @@ Voici une courte vidéo sur la manière de parcourir [!INCLUDE[prod_short](inclu
 [Conseils hautes performances pour les utilisateurs professionnels](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

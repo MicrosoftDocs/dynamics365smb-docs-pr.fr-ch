@@ -27,3 +27,6 @@ ms.locfileid: "3931418"
 [relances livraison](delivery-reminders.md)  
 [Générer des relances livraison](how-to-generate-delivery-reminders.md)  
 [Créer manuellement des relances livraison](how-to-create-delivery-reminders-manually.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

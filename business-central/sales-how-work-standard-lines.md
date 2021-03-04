@@ -80,3 +80,6 @@ Les factures vente sont créées pour les clients ayant le code vente client sta
 
 [Ventes](sales-manage-sales.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

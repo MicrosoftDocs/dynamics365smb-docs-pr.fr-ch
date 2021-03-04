@@ -62,3 +62,6 @@ Toutes les lignes sont été transférées à la feuille LSV. Après avoir effec
  [Fermer prélèvement LSV](how-to-close-an-lsv-collection.md)   
  [Valider des paiements LSV+](how-to-post-lsv-payments.md)   
  [Exporter des paiements en mode LSV](how-to-export-payments-using-lsv.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

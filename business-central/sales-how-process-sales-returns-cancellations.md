@@ -228,3 +228,6 @@ Vous pouvez également supprimer chacune des commandes retour vente manuellement
 [Envoyer des documents par e-mail](ui-how-send-documents-email.md)  
 [Traiter les retours ou annulations d’achats](purchasing-how-process-purchase-returns-cancellations.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

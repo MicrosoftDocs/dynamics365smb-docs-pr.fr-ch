@@ -135,3 +135,6 @@ Pour plus d’informations, voir [Détails de conception : modes évaluation st
  [Détails de conception : Ajustement des coûts](design-details-cost-components.md) [Gestion des composants des coûts](finance-manage-inventory-costs.md)  
  [Finances](finance.md)  
  [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -291,3 +291,6 @@ Cela conclut les descriptions de la manière dont la demande et l'approvisionnem
  [Détails de conception : concepts centraux du système de planification](design-details-central-concepts-of-the-planning-system.md)   
  [Détails de conception : gestion des méthodes de réapprovisionnement](design-details-handling-reordering-policies.md)   
  [Détails de conception : planification de l'approvisionnement](design-details-supply-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

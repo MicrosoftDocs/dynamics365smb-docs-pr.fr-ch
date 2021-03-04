@@ -62,3 +62,6 @@ La vidéo suivante couvre les notions de base des immobilisations.
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

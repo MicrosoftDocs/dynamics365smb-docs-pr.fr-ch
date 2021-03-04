@@ -29,3 +29,5 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
   
 ## <a name="see-also"></a>Voir aussi  
 [Paramétrage de la gestion des services](service-setup-service.md)   
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

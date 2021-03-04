@@ -35,3 +35,6 @@ Si plusieurs expéditions ont été validées pour un client, vous pouvez créer
 ## <a name="see-also"></a>Voir aussi  
  [Fonctionnalité locale, Suisse](switzerland-local-functionality.md)   
  [Configurer des magasins](../../inventory-how-setup-locations.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

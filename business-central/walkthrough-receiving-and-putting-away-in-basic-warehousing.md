@@ -148,3 +148,6 @@ Sur la page **Rangement stock**, vous pouvez gérer toutes les activités entrep
  [Détails de conception : flux d’enlogement](design-details-inbound-warehouse-flow.md)   
  [Procédures pas à pas liées au processus entreprise](walkthrough-business-process-walkthroughs.md)  
  [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

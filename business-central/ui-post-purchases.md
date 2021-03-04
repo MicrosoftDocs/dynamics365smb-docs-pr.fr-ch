@@ -62,3 +62,6 @@ Vous pouvez modifier certains champs dans les documents d’achat validés, tels
 [Corriger ou annuler des factures achat impayées](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Recherche de pages et d’informations avec Tell Me](ui-search.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

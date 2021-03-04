@@ -28,3 +28,5 @@ Dans la structure de l’interface de validation [!INCLUDE[prod_short](includes/
   
 ## <a name="see-also"></a>Voir aussi  
 [Détails de conception : Structure du moteur de validation](design-details-posting-engine-structure.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

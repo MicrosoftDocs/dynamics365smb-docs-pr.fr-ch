@@ -83,3 +83,6 @@ Vous pouvez créer une facture à partir des lignes planning projet et indiquer 
 [Achats](purchasing-manage-purchasing.md)         
 [Ventes](sales-manage-sales.md)      
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

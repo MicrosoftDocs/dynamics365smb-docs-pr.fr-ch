@@ -47,3 +47,6 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 [Détails de conception : Modifier le mode évaluation stock pour les articles](design-details-changing-costing-methods.md)  
 [Utilisation de Business Central](ui-work-product.md)  
 [Finances](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

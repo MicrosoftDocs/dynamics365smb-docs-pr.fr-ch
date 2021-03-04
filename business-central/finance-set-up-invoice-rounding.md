@@ -63,3 +63,6 @@ Vous devez activer la fonction arrondi facture pour que les factures vente et ac
 ## <a name="see-also"></a>Voir aussi  
 [Facturer des ventes](sales-how-invoice-sales.md)  
 [Enregistrer des achats](purchasing-how-record-purchases.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

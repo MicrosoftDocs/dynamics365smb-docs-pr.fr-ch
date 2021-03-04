@@ -38,3 +38,6 @@ Pour tenir compte des paiements des salaires et des transactions associées, vou
 [Finances](finance.md)  
 [Personnalisation de [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide d’extensions](ui-extensions.md)  
 [Utilisation de feuilles comptabilité](ui-work-general-journals.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

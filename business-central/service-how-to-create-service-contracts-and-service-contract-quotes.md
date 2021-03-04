@@ -200,3 +200,6 @@ Vous pouvez archiver à tout moment des contrats de service et des devis contrat
 [Configurer des contrats de service](service-how-setup-service-contracts.md)  
 [Gestion des services](service-service.md)  
 [Convertir les contrats de service incluant des montants TVA](service-how-to-convert-service-contracts.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

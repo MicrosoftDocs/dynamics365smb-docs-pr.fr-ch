@@ -59,3 +59,6 @@ Vous pouvez découpler un ou plusieurs enregistrements des pages de liste ou sur
 
 ## <a name="see-also"></a>Voir aussi  
 [Utilisation de Dynamics 365 Sales depuis Business Central](marketing-integrate-dynamicscrm.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

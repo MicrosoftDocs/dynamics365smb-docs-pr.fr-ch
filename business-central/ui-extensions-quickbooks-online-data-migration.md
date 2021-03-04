@@ -71,3 +71,6 @@ Il existe quelques éléments en particulier que vous devez effectuer :
 
 [Importation des données métier à partir d’autres systèmes financiers](across-import-data-configuration-packages.md)  
 [Personnalisation de [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide d’extensions](ui-extensions.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

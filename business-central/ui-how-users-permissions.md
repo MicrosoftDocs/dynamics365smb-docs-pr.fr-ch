@@ -157,3 +157,6 @@ Pour les déploiements sur site, l’administrateur crée, édite et supprime le
 [Administration](admin-setup-and-administration.md)  
 [Ajouter des utilisateurs à Microsoft 365 pour les entreprises](https://aka.ms/CreateOffice365Users)  
 [Sécurité et protection dans Business Central (contenu d’administration)](/dynamics365/business-central/dev-itpro/security/security-and-protection)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

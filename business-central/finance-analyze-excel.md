@@ -56,3 +56,6 @@ Le module complémentaire vous permet d’obtenir des données actualisées à p
 [Configuration de Finance](finance-setup-finance.md)  
 [Comptabilité et plan comptable](finance-general-ledger.md)  
 [Utilisation de Business Central](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -72,3 +72,6 @@ Ces fonctions sont particulièrement utiles pour le contrôle qualité, lorsque 
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 [Procédure pas à pas : suivi des numéros de série et des numéros de lot](walkthrough-tracing-serial-lot-numbers.md)  
 [Rechercher des écritures](ui-find-entries.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

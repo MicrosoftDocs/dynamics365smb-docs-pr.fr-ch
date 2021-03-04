@@ -32,3 +32,6 @@ Vous pouvez également afficher nos vidéos de « procédures », ainsi que bi
 
 [Mise en route](product-get-started.md)  
 [Chaîne Dynamics 365 sur YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

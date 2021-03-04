@@ -62,3 +62,6 @@ L’adresse e-mail du contact est maintenant insérée sur la ligne de présenta
 [Gestion des présentations de rapport](ui-manage-report-layouts.md)  
 [Utilisation des états, des traitements par lots et des XMLports](ui-work-report.md)  
 [Utilisation des états, des traitements par lots et des XMLports](ui-work-report.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Utilisez un fournisseur de services externe pour échanger des documents électr
 ## <a name="see-also"></a>Voir aussi  
 [Configuration de l’échange de données](across-set-up-data-exchange.md)  
 [Échanger des données par voir électronique](across-data-exchange.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

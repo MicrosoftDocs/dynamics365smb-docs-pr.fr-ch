@@ -145,3 +145,6 @@ Avant qu’un article puisse être inclus dans le calcul de la promesse de livra
 [Ventes](sales-manage-sales.md)  
 [Calcul de la date des achats](purchasing-date-calculation-for-purchases.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

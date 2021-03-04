@@ -267,3 +267,6 @@ Les expressions comme « exécution du planning » et « exécution MRP » s
  [Procédures pas à pas liées au processus entreprise](walkthrough-business-process-walkthroughs.md)   
  [Procédure pas à pas : planification manuelle des approvisionnements](walkthrough-planning-supplies-manually.md)   
  [Détails de conception : planification de l’approvisionnement](design-details-supply-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

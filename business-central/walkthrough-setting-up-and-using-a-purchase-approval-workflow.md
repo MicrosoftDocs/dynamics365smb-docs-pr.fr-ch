@@ -130,3 +130,6 @@ Si un scénario d’entreprise requiert un événement ou une réponse de workfl
 [Utilisation des flux d’approbation](across-how-use-approval-workflows.md)  
 [Flux de travail](across-workflow.md)  
 [Utilisation de Business Central dans un flux automatisé](across-how-use-financials-data-source-flow.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

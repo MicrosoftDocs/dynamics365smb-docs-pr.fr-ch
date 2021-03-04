@@ -53,3 +53,6 @@ Répétez les étapes 1 à 3 pour tous les autres documents affectés, comme des
 [Achats](purchasing-manage-purchasing.md)  
 [Corriger ou annuler des factures achat impayées](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

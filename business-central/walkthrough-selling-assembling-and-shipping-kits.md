@@ -444,3 +444,6 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
  [Détails de conception : flux d’entrepôt internes](design-details-internal-warehouse-flows.md)   
  [Détails de conception : flux de désenlogement](design-details-outbound-warehouse-flow.md)   
  [Procédure pas à pas : planification automatique des approvisionnements](walkthrough-planning-supplies-automatically.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

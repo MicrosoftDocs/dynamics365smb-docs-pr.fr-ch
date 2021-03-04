@@ -42,3 +42,6 @@ Si vous êtes un administrateur ou un superutilisateur, vous pouvez aider les au
 [FAQ sur l’opération Copier et coller](faq-copy-paste.yml)  
 [Modifier les paramètres de base](ui-change-basic-settings.md)  
 [Mise en route](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

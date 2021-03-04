@@ -61,3 +61,6 @@ C’est simple - accédez au bas de la page du navigateur et choisissez le symbo
 [Ressources pour l’aide et l’assistance technique](product-help-and-support.md)  
 [Modifier les paramètres de base](ui-change-basic-settings.md)  
 [Mise en route](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

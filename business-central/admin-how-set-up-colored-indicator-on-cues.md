@@ -64,3 +64,6 @@ Pour configurer l’indicateur, vous pouvez spécifier jusqu’à deux valeurs d
     |**Subordonné**|Gris|  
 
 ## <a name="see-also"></a>Voir aussi
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

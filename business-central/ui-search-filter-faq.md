@@ -60,3 +60,6 @@ Chez Microsoft, nous écoutons constamment les commentaires de notre communauté
 [Recherche de pages et d’informations avec Tell Me](ui-search.md)  
 [Recherche de pages avec l’explorateur de rôles](ui-role-explorer.md)  
 [Mise en route](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -40,3 +40,6 @@ Si vous êtes certain qu’un workflow n’est plus utilisé, vous pouvez le sup
  [Paramétrage des workflows](across-set-up-workflows.md)   
  [Utilisation des workflows](across-use-workflows.md)   
  [Flux de travail](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

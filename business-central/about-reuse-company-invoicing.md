@@ -51,3 +51,6 @@ Si vous utilisez Invoicing et [!INCLUDE[prod_short](includes/prod_short.md)], le
 ## <a name="see-also"></a>Voir aussi
 [Forum Aux Questions](across-faq.md)  
 [Administration](admin-setup-and-administration.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

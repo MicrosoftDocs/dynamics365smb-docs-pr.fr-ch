@@ -77,3 +77,5 @@ Lorsque vous associez des vendeurs [!INCLUDE[prod_short](includes/prod_short.md)
 
 ## <a name="see-also"></a>Voir aussi
 [À propos de [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-common-data-service.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

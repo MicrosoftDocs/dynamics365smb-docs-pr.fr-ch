@@ -144,3 +144,6 @@ Si vous n’utilisez pas Azure Active Directory pour gérer les identités et le
 ## <a name="see-also"></a>Voir aussi
 
 [Afficher le statut d’une synchronisation](admin-how-to-view-synchronization-status.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -182,3 +182,6 @@ Stock TEC peut être réévalué tant que la date de réévaluation n’est pas 
  [Détails de conception : Évaluation du stock](design-details-inventory-valuation.md) [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  
  [Finances](finance.md)  
  [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

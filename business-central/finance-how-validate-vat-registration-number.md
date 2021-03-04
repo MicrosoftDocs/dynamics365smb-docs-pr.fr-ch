@@ -49,3 +49,6 @@ Voici quelques points à noter concernant le service VIES de validation de numé
 [Déclarer la TVA à une autorité fiscale](finance-how-report-vat.md)  
 [Utiliser la TVA sur les ventes et les achats](finance-work-with-vat.md)  
 [Fonctionnalités locales dans Business Central](about-localization.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

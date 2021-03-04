@@ -46,3 +46,6 @@ Les tâches d’inventaire, d’ajustement et de reclassement liées au stock et
 [Gestion des assemblages](assembly-assemble-items.md)    
 [Détails de conception : gestion d’entrepôt](design-details-warehouse-management.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -58,3 +58,6 @@ Vous pouvez réduire un segment aussi souvent que vous le souhaitez. Sélectionn
 [Gestion des segments](marketing-segments.md)  
 [Gestion des opportunités de ventes](marketing-manage-sales-opportunities.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -36,3 +36,6 @@ Vous pouvez planifier l’exécution d’un traitement par lot. Pour plus d’in
 [Tri, recherche et filtrage de listes](ui-enter-criteria-filters.md)  
 [Utiliser des files d’attente des travaux pour planifier des tâches](admin-job-queues-schedule-tasks.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

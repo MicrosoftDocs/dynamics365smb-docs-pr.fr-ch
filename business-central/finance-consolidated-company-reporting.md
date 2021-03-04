@@ -120,3 +120,6 @@ Les écritures exportées contiennent les champs suivants : **N° compte**, **D
 [Gestion des transactions intersociétés](intercompany-manage.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Exportation de vos données métier vers Excel](about-export-data.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -93,3 +93,6 @@ Sélectionnez ce lien pour afficher ou modifier les notifications que vous recev
 [Création de sociétés](about-new-company.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Modifier les fonctionnalités affichées](ui-experiences.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

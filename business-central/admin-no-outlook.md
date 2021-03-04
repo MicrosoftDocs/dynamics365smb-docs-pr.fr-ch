@@ -29,3 +29,6 @@ Vous pouvez envoyer des documents tels que des factures en tant qu’e-mails à 
 [Utilisation de Business Central en tant que boîte de réception professionnelle dans Outlook](admin-outlook.md)  
 [Obtention de Business Central sur mon périphérique mobile](install-mobile-app.md)  
 [Envoyer des documents par e-mail](ui-how-send-documents-email.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

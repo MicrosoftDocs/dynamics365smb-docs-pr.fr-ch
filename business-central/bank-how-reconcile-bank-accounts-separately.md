@@ -159,3 +159,6 @@ Si le prochain rapprochement bancaire que vous effectuez concerne le mois d’ao
 [Paramétrage des opérations bancaires](bank-setup-banking.md)  
 [Définir des règles pour le lettrage automatique des paiements](receivables-how-set-up-payment-application-rules.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

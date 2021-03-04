@@ -32,3 +32,6 @@ Sur chaque document et feuille qui peuvent être validés, vous pouvez cliquer s
 [Validation des documents et des feuilles](ui-post-documents-journals.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

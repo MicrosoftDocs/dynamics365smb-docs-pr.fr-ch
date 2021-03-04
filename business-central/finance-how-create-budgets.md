@@ -57,3 +57,6 @@ Comme pour la majorité des autres pages, vous pouvez exporter des données des 
 [Configuration de Finance](finance-setup-finance.md)  
 [Comptabilité et plan comptable](finance-general-ledger.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

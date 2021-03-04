@@ -40,3 +40,6 @@ La page **Instances d’étape de flux de travail archivées** s’ouvre, affich
  [Paramétrage des workflows](across-set-up-workflows.md)   
  [Utilisation des workflows](across-use-workflows.md)   
  [Flux de travail](across-workflow.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

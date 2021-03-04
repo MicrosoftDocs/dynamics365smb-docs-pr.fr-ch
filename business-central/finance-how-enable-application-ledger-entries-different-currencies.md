@@ -51,3 +51,6 @@ Si vous lettrez des écritures dans différentes devises, vous devez configurer 
 [Gestion des comptes fournisseur](payables-manage-payables.md)  
 [Gestion des comptes client](receivables-manage-receivables.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

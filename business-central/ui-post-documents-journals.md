@@ -38,3 +38,6 @@ Le tableau suivant décrit les tâches associées, et inclut des liens vers les 
 [Valider les documents validés](across-edit-posted-document.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

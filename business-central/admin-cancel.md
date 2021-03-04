@@ -46,3 +46,6 @@ Si vous souhaitez masquer [!INCLUDE[prod_short](includes/prod_short.md)] de votr
 [Exportation de vos données métier vers Excel](about-export-data.md)  
 [Centre d’administration Microsoft 365](https://admin.microsoft.com/)  
 [Combien de temps dure la période d’essai et comment annuler ?](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

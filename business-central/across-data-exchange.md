@@ -39,3 +39,6 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 [Échange de données](across-exchange-data.md)  
 [Documents entrants](across-income-documents.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

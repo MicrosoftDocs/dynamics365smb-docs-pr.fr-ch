@@ -296,3 +296,6 @@ Avec cette méthode, il est également possible de définir un stock de sécurit
 [Détails de conception : concepts centraux du système de planification](design-details-central-concepts-of-the-planning-system.md)   
 [Détails de conception : équilibrage de la demande et de l’approvisionnement](design-details-balancing-demand-and-supply.md)   
 [Détails de conception : planification de l’approvisionnement](design-details-supply-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

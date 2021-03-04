@@ -78,3 +78,6 @@ EXIT(DimSet.ID);
  [Aperçu des écritures de l’ensemble de dimensions](design-details-dimension-set-entries-overview.md)   
  [Détails de conception : structure de la table](design-details-table-structure.md)   
  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

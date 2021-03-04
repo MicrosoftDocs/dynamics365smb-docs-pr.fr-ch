@@ -119,3 +119,6 @@ L’immobilisation sera détachée de la police d’assurance incorrecte, sur la
 [Paramétrage d’immobilisations](fa-setup.md)  
 [Finances](finance.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

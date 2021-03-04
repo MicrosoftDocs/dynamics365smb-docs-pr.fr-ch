@@ -40,3 +40,6 @@ L’activation ou la désactivation des notifications et la spécification des c
 ## <a name="see-also"></a>Voir aussi
 
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

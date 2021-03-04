@@ -132,3 +132,6 @@ Vous pouvez aussi utiliser votre propre service Web prévisionnel basé sur un m
 [Analyse de la trésorerie dans votre société](finance-analyze-cash-flow.md)  
 [Configuration de Finance](finance-setup-finance.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

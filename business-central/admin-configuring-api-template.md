@@ -49,3 +49,5 @@ Le modèle défini est appliqué à un nouvel enregistrement créé via l’API 
 [Points de terminaison des API](/dynamics-nav/endpoints-apis-for-dynamics)  
 [Configuration d’une société avec RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

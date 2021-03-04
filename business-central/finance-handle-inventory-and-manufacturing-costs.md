@@ -38,3 +38,6 @@ Bien que la comptabilité analytique soit constituée de processus ne nécessita
 ## <a name="see-also"></a>Voir aussi  
 [Gestion des coûts ajustés](finance-manage-inventory-costs.md)
 [Détails de conception : Évaluation stock](design-details-inventory-costing.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

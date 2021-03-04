@@ -46,3 +46,6 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 [Services de planification](service-plan-service.md)  
 [Exécution des contrats de service](service-fulfill-service-contracts.md)  
 [Gestion des projets](projects-manage-projects.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

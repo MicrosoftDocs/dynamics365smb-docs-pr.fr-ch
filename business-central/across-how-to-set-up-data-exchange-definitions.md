@@ -200,3 +200,6 @@ Lorsque vous avez créé la définition d’échange de données pour un fichier
 [Réaliser des paiements avec l’extension AMC Banking 365 Fundamentals ou le virement SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
 [Documents entrants](across-income-documents.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

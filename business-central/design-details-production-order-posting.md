@@ -110,3 +110,6 @@ Dans des environnements de coût standard, l’évaluation du stock d’un ordre
  [Détails de conception : validation d’ordre d’assemblage](design-details-assembly-order-posting.md)  
  [Gestion des coûts ajustés](finance-manage-inventory-costs.md) [Finance](finance.md)  
  [Utilisation de Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

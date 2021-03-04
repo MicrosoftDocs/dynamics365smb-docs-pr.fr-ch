@@ -120,3 +120,6 @@ Si l’option **Fabrication à la commande** est utilisée, le système de plani
 [Détails de conception : gestion des méthodes de réapprovisionnement](design-details-handling-reordering-policies.md)   
 [Détails de conception : équilibrage de la demande et de l’approvisionnement](design-details-balancing-demand-and-supply.md)   
 [Détails de conception : concepts centraux du système de planification](design-details-central-concepts-of-the-planning-system.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

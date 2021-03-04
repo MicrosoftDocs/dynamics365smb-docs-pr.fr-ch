@@ -133,3 +133,6 @@ Les écritures comptables article et client associés sont à présent créés d
 [Stock](inventory-manage-inventory.md)  
 [Envoyer des documents par e-mail](ui-how-send-documents-email.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 [Configurer les articles de service et les composants article de service](service-how-setup-service-items.md)  
 [Paramétrer les statuts des commandes service et des réparations](service-order-repair-status.md)  
 [Paramétrage de la gestion des services](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

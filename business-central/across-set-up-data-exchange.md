@@ -42,3 +42,6 @@ Avant de pouvoir envoyer et recevoir des documents électroniques ou importer et
 [Échanger des données par voir électronique](across-data-exchange.md)  
 [Documents entrants](across-income-documents.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -158,3 +158,6 @@ Lorsque le paiement électronique est traité avec succès par la banque, valide
 [Gestion des comptes fournisseur](payables-manage-payables.md)  
 [Utilisation de feuilles comptabilité](ui-work-general-journals.md)  
 [Recouvrement de paiements par prélèvement automatique SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

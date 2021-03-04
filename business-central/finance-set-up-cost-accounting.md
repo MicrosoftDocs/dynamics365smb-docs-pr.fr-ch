@@ -183,3 +183,6 @@ Pour chaque compte général, vous pouvez définir des sections analytiques par 
 [Transfert et validation des écritures de coûts](finance-transfer-and-post-cost-entries.md)   
 [Définition et répartition des coûts](finance-define-and-allocate-costs.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

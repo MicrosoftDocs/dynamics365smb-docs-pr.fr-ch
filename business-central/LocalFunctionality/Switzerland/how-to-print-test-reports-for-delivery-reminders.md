@@ -35,3 +35,6 @@ Un rapport de test est un document qui vous permet d'examiner et de modifier une
  [relances livraison](delivery-reminders.md)   
  [Générer des relances livraison](how-to-generate-delivery-reminders.md)   
  [Émettre des relances livraison](how-to-issue-delivery-reminders.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

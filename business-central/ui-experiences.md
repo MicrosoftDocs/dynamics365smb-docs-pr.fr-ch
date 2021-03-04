@@ -69,3 +69,6 @@ Tous les descriptions de fonctions de la documentation utilisateur de [!INCLUDE[
 [Guide des licences [!INCLUDE[prod_short](includes/prod_short.md)]](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

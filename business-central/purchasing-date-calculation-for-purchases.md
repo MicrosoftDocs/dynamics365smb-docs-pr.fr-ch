@@ -60,3 +60,6 @@ Toutefois, la valeur du délai de réapprovisionnement sur la fiche fournisseur 
 [Calcul de la date des ventes](sales-date-calculation-for-sales.md)   
 [Calculer des dates promesse livraison](sales-how-to-calculate-order-promising-dates.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

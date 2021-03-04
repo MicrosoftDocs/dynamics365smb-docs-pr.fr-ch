@@ -46,3 +46,6 @@ Lorsque vous imprimez la feuille de gamme, vous pouvez choisir dâ€™inclure les Ã
 [Stock](inventory-manage-inventory.md)  
 [Achats](purchasing-manage-purchasing.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

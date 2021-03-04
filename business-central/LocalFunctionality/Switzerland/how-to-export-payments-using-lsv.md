@@ -41,3 +41,6 @@ Vous pouvez exporter ou écrire des fichiers Lastschrift Verfahren (LSV +) conte
  [Traiter un prélèvement LSV](how-to-process-an-lsv-collection.md)   
  [Fermer un prélèvement LSV](how-to-close-an-lsv-collection.md)   
  [Valider les paiements LSV+](how-to-post-lsv-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

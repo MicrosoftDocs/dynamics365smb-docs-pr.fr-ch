@@ -234,3 +234,6 @@ Lorsque vous validez des documents ou des lignes feuille qui contiennent des axe
 [Finances](finance.md)  
 [Analyse des données par axe analytique](bi-how-analyze-data-dimension.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

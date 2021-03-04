@@ -25,3 +25,6 @@ Pour plus d'informations, voir [Déclarer la TVA aux autorités fiscales](../../
 ## <a name="see-also"></a>Voir aussi  
  [Taxe sur la valeur ajoutée, Suisse](swiss-value-added-tax.md)   
  [Imprimer les relevés de TVA suisse (ancienne version)](how-to-print-swiss-vat-statements-older-version-.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

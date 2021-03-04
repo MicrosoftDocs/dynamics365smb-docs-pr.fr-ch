@@ -39,3 +39,6 @@ Le rapport **Liste de paiements fournisseur** fournit la liste des paiements pou
 ## <a name="see-also"></a>Voir aussi
 
 [Effectuer des paiements](../../payables-make-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

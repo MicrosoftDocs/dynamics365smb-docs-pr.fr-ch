@@ -59,3 +59,6 @@ La raison à cela n’est autre que le Tableau de bord ou le rôle actuellement 
 [Personnaliser les pages pour les profils](ui-personalization-manage.md)  
 [Modifier les paramètres de base](ui-change-basic-settings.md)  
 [Modifier les fonctionnalités affichées](ui-experiences.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

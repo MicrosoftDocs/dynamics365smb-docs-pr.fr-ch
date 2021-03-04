@@ -49,3 +49,6 @@ Vous pouvez éventuellement ajouter des conditions de paiement à votre mode de 
 [Configurer des conditions de paiement](finance-payment-terms.md)  
 [Finances](finance.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

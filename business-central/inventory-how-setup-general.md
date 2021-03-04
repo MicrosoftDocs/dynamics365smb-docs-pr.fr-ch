@@ -40,3 +40,6 @@ Vous pouvez inclure un délai entrepôt par défaut pour votre stock sur la page
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Modifier les fonctionnalités affichées](ui-experiences.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

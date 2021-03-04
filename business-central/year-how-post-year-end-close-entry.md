@@ -36,3 +36,6 @@ Après avoir utilisé le traitement par lots **Solder les comptes de gestion** p
 [Clôture plans](year-close-books.md)  
 [Clôturer exercice comptable](year-close-income-statement.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

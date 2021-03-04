@@ -143,3 +143,6 @@ Cette rubrique explique comment définir les affectations à l’aide du mode de
  [Comptabilité pour les coûts](finance-manage-cost-accounting.md)   
  [Terminologie en comptabilité analytique](finance-terminology-in-cost-accounting.md)   
  [À propos de la comptabilité analytique](finance-about-cost-accounting.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

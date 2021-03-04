@@ -57,3 +57,6 @@ La feuille paiement est une feuille comptabilité qui est optimisée pour effect
 [Utilisation de feuilles comptabilité](ui-work-general-journals.md)  
 [Personnaliser votre espace de travail](ui-personalization-user.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

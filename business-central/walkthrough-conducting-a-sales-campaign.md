@@ -199,3 +199,6 @@ Une campagne désigne tout type d’activité impliquant plusieurs contacts. La 
 [Gestion des relations](marketing-relationship-management.md)  
  [Procédures pas à pas liées au processus entreprise](walkthrough-business-process-walkthroughs.md)  
  [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

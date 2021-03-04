@@ -67,3 +67,6 @@ Le tableau suivant décrit les calculs.
 ## <a name="see-also"></a>Voir aussi  
 [Configurer la tarification et les frais supplémentaires pour les services](service-how-setup-service-costs-pricing.md)  
 [Paramétrage de la gestion des services](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

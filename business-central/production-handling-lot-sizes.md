@@ -52,3 +52,6 @@ Pour la planification des approvisionnements, le paramètre de taille de lot sur
 [Utiliser les unités de lot de fabrication](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)
 [Créer des gammes](production-how-to-create-routings.md)  
 [Gestion des coûts ajustés](finance-manage-inventory-costs.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

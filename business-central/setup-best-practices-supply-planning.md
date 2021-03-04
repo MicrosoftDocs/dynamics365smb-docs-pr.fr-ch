@@ -35,3 +35,6 @@ La planification des approvisionnements est un domaine d’activité critique. L
  [Détails de conception : paramètres de planification](design-details-planning-parameters.md)   
  [Configurer des domaines d’application complexes à l’aide des meilleures pratiques](set-up-complex-application-areas-using-best-practices.md)  
  [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

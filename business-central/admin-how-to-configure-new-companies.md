@@ -81,3 +81,6 @@ Il existe certains types d’erreurs qui surviennent lorsque vous appliquez des 
 [Appliquer des configurations aux nouvelles sociétés](admin-apply-configuration-to-new-companies.md)  
 [Configuration d’une société avec RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

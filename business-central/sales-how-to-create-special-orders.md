@@ -49,3 +49,6 @@ Une commande achat créée comme commande spéciale pour une commande client est
 [Effectuer des livraisons directes](sales-how-drop-shipment.md)   
 [Détails de conception : méthodes de réapprovisionnement](design-details-reservation-order-tracking-and-action-messaging.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

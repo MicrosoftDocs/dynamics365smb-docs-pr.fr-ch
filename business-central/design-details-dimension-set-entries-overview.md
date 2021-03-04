@@ -50,3 +50,6 @@ Pour enregistrer les axes analytiques dans la base de données, l’espace de la
 [Détails de conception : recherche des croisements analytiques](design-details-searching-for-dimension-combinations.md)   
 [Détails de conception : structure de la table](design-details-table-structure.md)   
 [Détails de conception : écritures d’ensemble de dimensions](design-details-dimension-set-entries.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

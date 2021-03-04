@@ -126,3 +126,6 @@ Les commandes vente dans les filtres définis sont à présent validées chaque 
 [Corriger ou annuler des factures achat impayées](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Recherche de pages et d’informations avec la fonction Tell Me](ui-search.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

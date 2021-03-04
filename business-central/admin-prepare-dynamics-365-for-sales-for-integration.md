@@ -201,3 +201,6 @@ Vous devez avoir un abonnement Microsoft Azure. Un compte d’évaluation foncti
 [Configurer une connexion vers [!INCLUDE[crm_md](includes/crm_md.md)]](admin-how-to-set-up-a-dynamics-crm-connection.md)  
 [Synchronisation de Business Central et de [!INCLUDE[crm_md](includes/crm_md.md)]](admin-synchronizing-business-central-and-sales.md)  
 [Préparation de l'intégration à Dynamics 365 Sales On-Premises](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

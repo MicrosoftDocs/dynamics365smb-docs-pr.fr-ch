@@ -51,3 +51,6 @@ Selon les informations spécifiées dans la page **Paramètres compta. TVA**, [!
 
 ## <a name="see-also"></a>Voir aussi  
  [Taxe sur la valeur ajoutée, Suisse](swiss-value-added-tax.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -25,3 +25,6 @@ En savoir plus sur la [gestion des fonctionnalités](/dynamics365/business-centr
 ## <a name="see-also"></a>Voir aussi
 
 [Fonctionnalités nouvelles et prévues](https://aka.ms/Dynamics365ReleasePlan)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

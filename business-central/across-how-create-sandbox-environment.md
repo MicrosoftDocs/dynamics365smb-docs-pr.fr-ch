@@ -93,3 +93,6 @@ Dans un environnement sandbox, la fonctionnalité **Concepteur** est activée. V
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Versions d’évaluation et abonnements [!INCLUDE[prod_long](includes/prod_long.md)]](across-preview.md)  
 [Gestion des environnements dans le centre d’administration de Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

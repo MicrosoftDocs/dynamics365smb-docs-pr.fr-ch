@@ -114,3 +114,6 @@ Lorsqu’une taxonomie est modifiée, vous devez mettre à jour la taxonomie act
 [Finances](finance.md)    
 [Veille économique](bi.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

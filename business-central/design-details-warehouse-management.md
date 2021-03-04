@@ -30,3 +30,6 @@ Pour différencier les différents niveaux de complexité de l’entreposage, ce
 [Détails de conception : disponibilité dans l’entrepôt](design-details-availability-in-the-warehouse.md)  
 [Détails de conception : flux de désenlogement](design-details-outbound-warehouse-flow.md)  
 [Détails de conception : intégration avec le stock](design-details-integration-with-inventory.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

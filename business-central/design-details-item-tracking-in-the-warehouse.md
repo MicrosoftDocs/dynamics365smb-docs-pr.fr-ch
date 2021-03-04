@@ -31,3 +31,6 @@ Cependant, le système de réservation prend en compte les activités entrepôt 
 [Détails de conception : intégration avec le stock](design-details-integration-with-inventory.md)  
 [Détails de conception : Disponibilité de l'entrepôt](design-details-availability-in-the-warehouse.md)  
 [Détails de conception : création de traçabilité](design-details-item-tracking-design.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

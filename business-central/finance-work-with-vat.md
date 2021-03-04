@@ -182,3 +182,6 @@ Pour afficher un groupe de certificats, vous commencez à partir de la page **Ce
 ## <a name="see-also"></a>Voir aussi  
 [Configuration des méthodes de calcul et de validation de la taxe sur la valeur ajoutée](finance-setup-vat.md)   
 [Déclarer la TVA à une autorité fiscale](finance-how-report-vat.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

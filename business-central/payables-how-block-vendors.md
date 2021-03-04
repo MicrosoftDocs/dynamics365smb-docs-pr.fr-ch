@@ -37,3 +37,6 @@ Le tableau suivant décrit les options pour bloquer des fournisseurs.
 [Enregistrer un nouveau fournisseur](purchasing-how-register-new-vendors.md)  
 [Effectuer des paiements](payables-make-payments.md)  
 [Gestion des comptes fournisseur](payables-manage-payables.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

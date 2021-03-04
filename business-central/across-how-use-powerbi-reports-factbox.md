@@ -89,3 +89,6 @@ Vérifiez que la taille de l’état est configurée sur 325 pixels x 310 pixels
 [Mise en route](product-get-started.md)  
 [Configuration de [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Finances](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

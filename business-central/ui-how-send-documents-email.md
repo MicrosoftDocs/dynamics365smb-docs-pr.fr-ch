@@ -68,3 +68,6 @@ La **Boîte d’envoi d’e-mails** est l’endroit où vous trouverez les e-mai
 [Configurer la messagerie](admin-how-setup-email.md)  
 [Facturer des ventes](sales-how-invoice-sales.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

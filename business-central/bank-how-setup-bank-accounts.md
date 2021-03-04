@@ -56,3 +56,6 @@ Les champs du raccourci **Transfert** de la page **Fiche compte bancaire fourn.*
 [Configuration de groupes comptabilisation](finance-posting-groups.md)  
 [Rapprochement de comptes bancaires](bank-manage-bank-accounts.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -74,3 +74,6 @@ En fonction de la migration de vos données, vous pouvez maintenant passer à la
 [Ressources pour l’Aide et le support](product-help-and-support.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

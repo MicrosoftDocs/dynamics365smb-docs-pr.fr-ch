@@ -56,3 +56,6 @@ La **Déclaration TVA suisse** est l'état de calcul standard pour la réalisati
 ## <a name="see-also"></a>Voir aussi  
  [Taxe sur la valeur ajoutée, Suisse](swiss-value-added-tax.md)   
  [Taux de TVA pour la Suisse](vat-rates-for-switzerland.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

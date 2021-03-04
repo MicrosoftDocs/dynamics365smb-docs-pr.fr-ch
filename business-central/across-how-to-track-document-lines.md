@@ -35,3 +35,6 @@ La procédure suivante décrit comment effectuer le suivi à partir d'une ligne 
 [Ventes](sales-manage-sales.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

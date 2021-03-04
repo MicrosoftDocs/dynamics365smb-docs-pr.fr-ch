@@ -37,3 +37,6 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 [Finances](finance.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Modifier les fonctionnalités affichées](ui-experiences.md)        
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

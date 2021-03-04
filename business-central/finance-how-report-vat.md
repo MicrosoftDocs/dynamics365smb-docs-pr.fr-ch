@@ -121,3 +121,6 @@ Le tableau suivant décrit les codeunits que vous devez créer pour votre état.
 [Utiliser la TVA sur les ventes et les achats](finance-work-with-vat.md)  
 [Définition des ventes](sales-setup-sales.md)  
 [Facturer des ventes](sales-how-invoice-sales.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

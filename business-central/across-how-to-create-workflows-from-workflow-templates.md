@@ -45,3 +45,6 @@ Sur la page **Workflow**, créez un workflow en répertoriant les étapes concer
  [Paramétrage des workflows](across-set-up-workflows.md)   
  [Utilisation des workflows](across-use-workflows.md)   
  [Flux de travail](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

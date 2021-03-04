@@ -81,3 +81,6 @@ Outre le prix spécifié sur la fiche ressource, vous pouvez configurer des prix
 [Achats](purchasing-manage-purchasing.md)         
 [Ventes](sales-manage-sales.md)      
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

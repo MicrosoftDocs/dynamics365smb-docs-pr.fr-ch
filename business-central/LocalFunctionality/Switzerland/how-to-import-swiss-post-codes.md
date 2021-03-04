@@ -46,3 +46,6 @@ La procédure suivante décrit comment définir les codes postaux pour les clien
  [Documents vente et Documents achat, Suisse](swiss-purchase-documents-and-sales-documents.md)   
  [Imprimer la liste des prélèvements de stock d'une commande vente](how-to-print-an-inventory-picking-list-from-a-sales-order.md)   
  [Enregistrer un nouveau fournisseur](../../purchasing-how-register-new-vendors.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
