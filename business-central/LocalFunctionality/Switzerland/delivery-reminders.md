@@ -3,19 +3,19 @@ title: Relances livraison (CH)
 description: Les relances livraison sont utilisées pour suivre les envois des fournisseurs en retard et pour rappeler aux fournisseurs les livraisons en retard dans la version suisse.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8145920d5498a11dfa137fe4316309f7ff2f5363
-ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
+ms.openlocfilehash: 0d29d1e00718ef7fc4445715eb5487aed9e8e267
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3931412"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384022"
 ---
 # <a name="delivery-reminders-in-the-swiss-version"></a>Relances livraison dans la version suisse
 

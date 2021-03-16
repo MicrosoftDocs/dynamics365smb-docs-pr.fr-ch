@@ -3,19 +3,19 @@ title: Imprimer une liste des prélèvements de stock à partir d'une commande v
 description: Apprenez comment imprimer une liste des prélèvements de stock directement à partir d'une commande vente dans la version suisse de Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: abbab8f71e73bb0bec84497266a0e505b354ddbc
-ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+ms.openlocfilehash: 8868de1bcb5d702324ba3f6dadbee3c40119150d
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5014017"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5383966"
 ---
 # <a name="print-an-inventory-picking-list-from-a-sales-order-in-the-swiss-version"></a>Imprimer une liste des prélèvements de stock à partir d'une commande vente dans la version suisse
 

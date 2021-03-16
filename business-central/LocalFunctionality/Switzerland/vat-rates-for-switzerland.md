@@ -3,19 +3,19 @@ title: Taux de TVA pour la Suisse
 description: Si les taux de TVA sont modifiés, vous devez utiliser l'outil de modification des taux de TVA. Dans les versions de Business Central antérieures, vous pouviez utiliser temporairement l'ancien et le nouveau taux de TVA pour les transactions, en fonction des dates d'expédition. Cette fonctionnalité est désormais obsolète.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: afc59c0e5dad70fc9bb680aef38dad999ce8b6e2
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 96000c2229ea987c36336457dfefbf98d0cbf9ff
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753142"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382666"
 ---
 # <a name="vat-rates-for-switzerland"></a>Taux de TVA pour la Suisse
 Si les taux de TVA sont modifiés, vous devez utiliser l'outil de modification des taux de TVA. Dans les versions de [!INCLUDE[prod_short](../../includes/prod_short.md)] antérieures, vous pouviez utiliser temporairement l'ancien et le nouveau taux de TVA pour les transactions, en fonction des dates d'expédition. Cette fonctionnalité est désormais obsolète.  

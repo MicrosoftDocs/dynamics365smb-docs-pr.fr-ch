@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fe2c8f9f490eb1b2d4dce62e497b2c6d22a17414
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8bf1a1cbfacc682c91d220b8ed9b16f93f3cf611
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916388"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382010"
 ---
 # <a name="view-temporary-balances-in-general-ledger-journals"></a>Afficher les soldes temporaires dans les feuilles comptabilisation immobilisation
 Lorsque vous entrez une nouvelle transaction dans la feuille comptabilité, vous pouvez afficher les soldes temporaires qui indiquent comment les soldes du compte général sont affectés en validant la feuille. Vous pouvez consulter les détails de solde du compte et le compteur pour la ligne feuille active. Vous pouvez également afficher les valeurs non validées pour la feuille.  

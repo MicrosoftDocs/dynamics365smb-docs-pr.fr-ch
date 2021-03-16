@@ -3,19 +3,19 @@ title: Comptes généraux, Suisse
 description: Les améliorations suisses comprennent des fonctions spéciales liées aux comptes généraux.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3b6f77b344628dccda66a752573a1a982c45ed7f
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: d3c62a3d90868c4b39be438b67a19458ffc20ca8
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753166"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382690"
 ---
 # <a name="swiss-general-ledger-accounts"></a>Comptes généraux, Suisse
 [!INCLUDE[prod_short](../../includes/prod_short.md)] inclut les améliorations suisses apportées aux fonctions spéciales liées aux comptes généraux.
