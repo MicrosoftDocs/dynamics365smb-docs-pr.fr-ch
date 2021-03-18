@@ -1,39 +1,47 @@
 ---
-title: Procédure de configuration des méthodes d'expédition | Microsoft Docs
-description: Vous pouvez définir un code pour chacune de vos méthodes d'expédition offertes, par exemple, saisir les informations qui les concernent.
+title: Configurer des conditions de livraison
+description: Vous pouvez définir un code pour chacune de vos méthodes d’expédition offertes et saisir les informations qui les concernent.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoterms
-ms.date: 10/01/2020
+ms.date: 03/09/2021
 ms.author: edupont
-ms.openlocfilehash: f1916724c995f875d15b931e919d07d2253dcdb1
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 096b609d26ad24785f90634d725d751ac57b346e
+ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748309"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5573316"
 ---
-# <a name="set-up-shipment-methods"></a><span data-ttu-id="9c8bd-103">Configurer des conditions de livraison</span><span class="sxs-lookup"><span data-stu-id="9c8bd-103">Set Up Shipment Methods</span></span>
-<span data-ttu-id="9c8bd-104">Les conditions de livraison, également appelées incoterms, dépendent souvent des articles, des clients et des fournisseurs.</span><span class="sxs-lookup"><span data-stu-id="9c8bd-104">Shipment methods, also called incoterms, often depend on the items, the customers, and the vendors.</span></span> <span data-ttu-id="9c8bd-105">Par exemple, si le client habite sur une île, il peut choisir d'être toujours livré par voie aérienne ou maritime.</span><span class="sxs-lookup"><span data-stu-id="9c8bd-105">For example, if the customer lives on an island, they can choose to have items always shipped by air or always by sea.</span></span> <span data-ttu-id="9c8bd-106">Certains clients peuvent exiger une livraison le lendemain.</span><span class="sxs-lookup"><span data-stu-id="9c8bd-106">Some customers may require next day delivery.</span></span> <span data-ttu-id="9c8bd-107">Certains voudront peut-être récupérer la commande.</span><span class="sxs-lookup"><span data-stu-id="9c8bd-107">Some may want to pick up the order.</span></span> <span data-ttu-id="9c8bd-108">Vous pouvez spécifier le type de livraison souhaité sur les fiches client et les fiches fournisseur.</span><span class="sxs-lookup"><span data-stu-id="9c8bd-108">On the customer and vendor cards, you can specify what sort of delivery is desired.</span></span>
+# <a name="set-up-shipment-methods"></a><span data-ttu-id="fa67d-103">Configurer des conditions de livraison</span><span class="sxs-lookup"><span data-stu-id="fa67d-103">Set Up Shipment Methods</span></span>
 
-<span data-ttu-id="9c8bd-109">Vous définissez la désignation et le code de chaque condition de livraison sur la page **Conditions de livraison**.</span><span class="sxs-lookup"><span data-stu-id="9c8bd-109">You set up the description and code for each shipment method on the **Shipment Methods** page.</span></span> <span data-ttu-id="9c8bd-110">Par exemple, vous définissez le code F.O.B., et saisissez Franco bord dans le champ **Désignation**.</span><span class="sxs-lookup"><span data-stu-id="9c8bd-110">For example, you can set up the code FOB, and enter Free on Board in the **Description** field.</span></span> <span data-ttu-id="9c8bd-111">Vous pouvez ensuite saisir ce code dans les champs **Code de méthode de livraison** ailleurs dans le système, par exemple sur une fiche client.</span><span class="sxs-lookup"><span data-stu-id="9c8bd-111">You can then enter the code in **Shipment Method Code** fields elsewhere in the system, such as on a customer card.</span></span> <span data-ttu-id="9c8bd-112">Ensuite, lorsque vous créez des commandes, des factures, des avoirs, etc., le système copie la désignation représentée par le code.</span><span class="sxs-lookup"><span data-stu-id="9c8bd-112">Then when you create new orders, invoices, credit memos, and so on, the system will enter the description represented by the code.</span></span> <span data-ttu-id="9c8bd-113">Au besoin, vous pouvez le modifier sur le document.</span><span class="sxs-lookup"><span data-stu-id="9c8bd-113">You can change it on the document as needed.</span></span>
+<span data-ttu-id="fa67d-104">Les conditions de livraison dépendent souvent des articles, des clients et des fournisseurs.</span><span class="sxs-lookup"><span data-stu-id="fa67d-104">Shipment methods often depend on the items, the customers, and the vendors.</span></span> <span data-ttu-id="fa67d-105">Par exemple, si le client habite sur une île, il peut choisir d'être toujours livré par voie aérienne ou maritime.</span><span class="sxs-lookup"><span data-stu-id="fa67d-105">For example, if the customer lives on an island, they can choose to have items always shipped by air or always by sea.</span></span> <span data-ttu-id="fa67d-106">Certains clients peuvent exiger une livraison le lendemain.</span><span class="sxs-lookup"><span data-stu-id="fa67d-106">Some customers may require next day delivery.</span></span> <span data-ttu-id="fa67d-107">Certains voudront peut-être récupérer la commande.</span><span class="sxs-lookup"><span data-stu-id="fa67d-107">Some may want to pick up the order.</span></span> <span data-ttu-id="fa67d-108">Vous pouvez spécifier le type de livraison souhaité sur les fiches client et les fiches fournisseur.</span><span class="sxs-lookup"><span data-stu-id="fa67d-108">On the customer and vendor cards, you can specify what sort of delivery is desired.</span></span>
 
-## <a name="to-set-up-a-shipment-code"></a><span data-ttu-id="9c8bd-114">Pour configurer un code de livraison</span><span class="sxs-lookup"><span data-stu-id="9c8bd-114">To set up a shipment code</span></span>
-1. <span data-ttu-id="9c8bd-115">Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Conditions de livraison**, puis sélectionnez le lien associé.</span><span class="sxs-lookup"><span data-stu-id="9c8bd-115">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shipment Methods**, and then choose the related link.</span></span>
-2. <span data-ttu-id="9c8bd-116">Sur la page **Conditions de livraison**, sélectionnez l'action **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="9c8bd-116">On the **Shipment Methods** page, choose the **New** action.</span></span>
-3. <span data-ttu-id="9c8bd-117">Sur la nouvelle ligne, indiquez un code et une description pour les conditions de livraison.</span><span class="sxs-lookup"><span data-stu-id="9c8bd-117">On the new line, specify a code and description for the shipment method.</span></span>
+<span data-ttu-id="fa67d-109">Vous définissez la désignation et le code de chaque condition de livraison sur la page **Conditions de livraison**.</span><span class="sxs-lookup"><span data-stu-id="fa67d-109">You set up the description and code for each shipment method on the **Shipment Methods** page.</span></span> <span data-ttu-id="fa67d-110">Par exemple, vous définissez le code F.O.B., et saisissez Franco bord dans le champ **Désignation**.</span><span class="sxs-lookup"><span data-stu-id="fa67d-110">For example, you can set up the code FOB, and enter Free on Board in the **Description** field.</span></span> <span data-ttu-id="fa67d-111">Vous pouvez ensuite saisir ce code dans les champs **Code de méthode de livraison** ailleurs dans le système, par exemple sur une fiche client.</span><span class="sxs-lookup"><span data-stu-id="fa67d-111">You can then enter the code in **Shipment Method Code** fields elsewhere in the system, such as on a customer card.</span></span> <span data-ttu-id="fa67d-112">Ensuite, lorsque vous créez des commandes, des factures, des avoirs, etc., le système copie la désignation représentée par le code.</span><span class="sxs-lookup"><span data-stu-id="fa67d-112">Then when you create new orders, invoices, credit memos, and so on, the system will enter the description represented by the code.</span></span> <span data-ttu-id="fa67d-113">Au besoin, vous pouvez le modifier sur le document.</span><span class="sxs-lookup"><span data-stu-id="fa67d-113">You can change it on the document as needed.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="9c8bd-118">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="9c8bd-118">See Also</span></span>
-[<span data-ttu-id="9c8bd-119">Incoterms</span><span class="sxs-lookup"><span data-stu-id="9c8bd-119">Incoterms</span></span>](https://iccwbo.org/resources-for-business/incoterms-rules)  
-[<span data-ttu-id="9c8bd-120">Configurer des transporteurs</span><span class="sxs-lookup"><span data-stu-id="9c8bd-120">Set Up Shipping Agents</span></span>](sales-how-to-set-up-shipping-agents.md)  
-<span data-ttu-id="9c8bd-121">[Suivre des colis](sales-how-track-packages.md)  </span><span class="sxs-lookup"><span data-stu-id="9c8bd-121">[Track Packages](sales-how-track-packages.md)  </span></span>  
-[<span data-ttu-id="9c8bd-122">Gestion d’entrepôt</span><span class="sxs-lookup"><span data-stu-id="9c8bd-122">Warehouse Management</span></span>](warehouse-manage-warehouse.md)  
-[<span data-ttu-id="9c8bd-123">Stock</span><span class="sxs-lookup"><span data-stu-id="9c8bd-123">Inventory</span></span>](inventory-manage-inventory.md)  
-<span data-ttu-id="9c8bd-124">[Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)   </span><span class="sxs-lookup"><span data-stu-id="9c8bd-124">[Setting Up Warehouse Management](warehouse-setup-warehouse.md)   </span></span>  
-<span data-ttu-id="9c8bd-125">[Gestion des assemblages](assembly-assemble-items.md)  </span><span class="sxs-lookup"><span data-stu-id="9c8bd-125">[Assembly Management](assembly-assemble-items.md)  </span></span>  
-[<span data-ttu-id="9c8bd-126">Détails de conception : gestion d’entrepôt</span><span class="sxs-lookup"><span data-stu-id="9c8bd-126">Design Details: Warehouse Management</span></span>](design-details-warehouse-management.md)  
-<span data-ttu-id="9c8bd-127">[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="9c8bd-127">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>  
+## <a name="to-set-up-a-shipment-method"></a><span data-ttu-id="fa67d-114">Pour configurer une condition de livraison</span><span class="sxs-lookup"><span data-stu-id="fa67d-114">To set up a shipment method</span></span>
+
+1. <span data-ttu-id="fa67d-115">Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Conditions de livraison**, puis sélectionnez le lien associé.</span><span class="sxs-lookup"><span data-stu-id="fa67d-115">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shipment Methods**, and then choose the related link.</span></span>
+2. <span data-ttu-id="fa67d-116">Sur la page **Conditions de livraison**, sélectionnez l'action **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="fa67d-116">On the **Shipment Methods** page, choose the **New** action.</span></span>
+3. <span data-ttu-id="fa67d-117">Sur la nouvelle ligne, indiquez un code et une description pour les conditions de livraison.</span><span class="sxs-lookup"><span data-stu-id="fa67d-117">On the new line, specify a code and description for the shipment method.</span></span>
+
+> [!TIP]
+> <span data-ttu-id="fa67d-118">Si vous utilisez des incoterms, configurez des conditions de livraison pour représenter les règles d’incoterms pertinentes.</span><span class="sxs-lookup"><span data-stu-id="fa67d-118">If you use Incoterms, set up shipment methods to represent the relevant Incoterms rules.</span></span>  
+
+## <a name="see-also"></a><span data-ttu-id="fa67d-119">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="fa67d-119">See Also</span></span>
+
+[<span data-ttu-id="fa67d-120">Configurer des transporteurs</span><span class="sxs-lookup"><span data-stu-id="fa67d-120">Set Up Shipping Agents</span></span>](sales-how-to-set-up-shipping-agents.md)  
+[<span data-ttu-id="fa67d-121">Suivre des colis</span><span class="sxs-lookup"><span data-stu-id="fa67d-121">Track Packages</span></span>](sales-how-track-packages.md)  
+[<span data-ttu-id="fa67d-122">Gestion d’entrepôt</span><span class="sxs-lookup"><span data-stu-id="fa67d-122">Warehouse Management</span></span>](warehouse-manage-warehouse.md)  
+[<span data-ttu-id="fa67d-123">Stock</span><span class="sxs-lookup"><span data-stu-id="fa67d-123">Inventory</span></span>](inventory-manage-inventory.md)  
+[<span data-ttu-id="fa67d-124">Configuration de la gestion des entrepôts</span><span class="sxs-lookup"><span data-stu-id="fa67d-124">Setting Up Warehouse Management</span></span>](warehouse-setup-warehouse.md)  
+[<span data-ttu-id="fa67d-125">Gestion des assemblages</span><span class="sxs-lookup"><span data-stu-id="fa67d-125">Assembly Management</span></span>](assembly-assemble-items.md)  
+[<span data-ttu-id="fa67d-126">Détails de conception : gestion d’entrepôt</span><span class="sxs-lookup"><span data-stu-id="fa67d-126">Design Details: Warehouse Management</span></span>](design-details-warehouse-management.md)  
+<span data-ttu-id="fa67d-127">[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="fa67d-127">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>  
+[<span data-ttu-id="fa67d-128">Incoterms sur iccwbo.org</span><span class="sxs-lookup"><span data-stu-id="fa67d-128">Incoterms on iccwbo.org</span></span>](https://iccwbo.org/resources-for-business/incoterms-rules)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
