@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: faa5b0f7ffc30d0f575f9b6e61d925f9606b4581
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: feeeae5202cfc5ab0bccf1552ce74f74708445d3
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4750670"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391539"
 ---
 # <a name="update-standard-costs"></a>Mise à jour des coûts standard
 Vous devez régulièrement mettre à jour les coûts standard des composants et remonter les nouveaux coûts dans l’article parent. Le processus comprend généralement les quatre étapes suivantes :  

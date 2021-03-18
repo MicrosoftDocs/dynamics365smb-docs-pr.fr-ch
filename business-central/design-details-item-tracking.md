@@ -3,19 +3,19 @@ title: Détails de conception - Traçabilité | Microsoft Docs
 description: Cette rubrique donne un aperçu des détails de conception pour la traçabilité.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 50ae6f2f3538269cc7c82dd2d84644a1a31d7f56
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: c5a72fd3026f0dd78a547809e0ad6afe9de2d420
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751370"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390889"
 ---
 # <a name="design-details-item-tracking"></a>Détails de conception : traçabilité
 Étant donné que le flux de biens dans la chaîne d’approvisionnement moderne devient de plus en plus complexe, la capacité à effectuer le suivi des articles est de plus en plus importante pour les sociétés concernées. La surveillance du flux de transaction d’un article est une obligation légale dans le secteur de l’approvisionnement médical et chimique, mais d’autres sociétés peuvent souhaiter contrôler les produits avec des garanties ou des dates d’expiration pour des raisons de service client.  

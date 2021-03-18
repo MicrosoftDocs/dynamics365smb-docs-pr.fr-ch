@@ -3,18 +3,18 @@ title: Utilisation de la fonctionnalité générale dans Business Central | Micr
 description: Décrit la fonctionnalité générale que vous utilisez pour interagir avec des données dans Business Central, par exemple entrer les valeurs, trier les données, et modifier les vues.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e035ba04795cf2afb71ae196c9409bb00a955370
-ms.sourcegitcommit: d80cf8aa0723f9aa2b7e0b3689edf8e2682f49fc
+ms.openlocfilehash: 98838737ec9c20cfe5cedc7372af028fd5b1c636
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4840193"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393589"
 ---
 # <a name="working-with-prod_short"></a>Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]
 Dans le cadre de l’exécution des tâches, vous interagissez avec des données de différentes manières : création d’enregistrements et saisie de données, tri et filtrage de données, rédaction de procédures et sortie de données vers d’autres applications.

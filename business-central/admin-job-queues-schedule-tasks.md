@@ -3,19 +3,19 @@ title: Planifier des projets à exécuter automatiquement
 description: Les tâches planifiées sont gérées par la file d’attente des travaux. Ces projets exécutent des états et des codeunits. Vous pouvez définir des projets à exécuter une fois, ou sur une base récurrente.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 01/12/2021
 ms.author: edupont
-ms.openlocfilehash: 29b5b3f633b0fd9fcac648f0bf7149b87ae0b20d
-ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+ms.openlocfilehash: 074a110a4aac42d9b6058e377c45de0c23409bb2
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5013961"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470277"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Utiliser des files d’attente des travaux pour planifier des tâches
 
@@ -57,7 +57,7 @@ Le tableau suivant décrit les valeurs du champ **Statut**.
 2. Sur la page **Écritures file d’attente des travaux**, sélectionnez une écriture file d’attente des travaux, puis sélectionnez l’action **Écritures journal**.  
 
 > [!TIP]
-> Avec [!INCLUDE [prod_short](includes/prod_short.md)] en ligne, vous pouvez également afficher l’état des entrées de la file d’attente des travaux en utilisant Application Insights dans Microsoft Azure. Pour plus d’informations, consultez [Analyse de la télémétrie de suivi du cycle de vie de la file d’attente des travaux](/dynamics365smb-devitpro\dev-itpro\administration\telemetry-job-queue-lifecycle-trace) dans l’aide dédiée à l’équipe IT et aux développeurs [!INCLUDE [prod_short](includes/prod_short.md)].
+> Avec [!INCLUDE [prod_short](includes/prod_short.md)] en ligne, vous pouvez également afficher l’état des entrées de la file d’attente des travaux en utilisant Application Insights dans Microsoft Azure. Pour plus d’informations, consultez [Analyse de la télémétrie de suivi du cycle de vie de la file d’attente des travaux](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace) dans le contenu dédié à l’équipe Administration et aux développeurs [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## <a name="the-my-job-queue-part"></a>Composant Ma file d’attente des travaux
 Le composant **Ma file d’attente des travaux** sur votre Tableau de bord répertorie les écritures files d’attente des travaux commencées par vous, mais qui ne sont pas terminées. Par défaut, le composant n’est pas visible et vous devez donc l’ajouter à votre tableau de bord. Pour plus d’informations, voir [Personnaliser votre espace de travail](ui-personalization-user.md).  
@@ -92,7 +92,7 @@ Pour plus d’informations, voir [Pour paramétrer la validation en arrière-pla
 [Administration](admin-setup-and-administration.md)  
 [Configuration de Business Central](setup.md)  
 [Modifier les paramètres de base](ui-change-basic-settings.md)  
-[Analyse de la télémétrie de suivi du cycle de vie de la file d’attente des travaux](/dynamics365smb-devitpro\dev-itpro\administration\telemetry-job-queue-lifecycle-trace)  
+[Analyse de la télémétrie de suivi du cycle de vie de la file d’attente des travaux](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

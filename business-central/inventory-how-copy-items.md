@@ -3,19 +3,19 @@ title: 'Procédure : Copier des articles existants pour créer de nouveaux arti
 description: Lorsque vous ajoutez un nouvel article, pour gagner du temps, vous pouvez utiliser la fonction Copier article pour copier un article existant et l’utiliser comme modèle pour un nouvel article.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ebba20114f658bd440908d7346d467ae885fbb76
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c60531dc27008f42decdc540f392f1a9fdb90d5c
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920487"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393164"
 ---
 # <a name="copy-existing-items-to-create-new-items"></a>Copier des articles existants pour créer de nouveaux articles
 
@@ -23,17 +23,17 @@ Lorsque vous ajoutez un nouvel article, pour gagner du temps, vous pouvez utilis
 
 ## <a name="to-copy-an-existing-item-to-a-new-item"></a>Pour copier un article existant dans un nouvel article
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles** , puis sélectionnez le lien associé.  
-2. Sélectionnez l’article que vous souhaitez copier, puis choisissez l’action **Copier article** .  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles**, puis sélectionnez le lien associé.  
+2. Sélectionnez l’article que vous souhaitez copier, puis choisissez l’action **Copier article**.  
 
-    Si vous ne trouvez pas l’action **Copier article** , choisissez d’afficher plus d’options, puis recherchez-la sous **Actions** , **Fonctions** .  
+    Si vous ne trouvez pas l’action **Copier article**, choisissez d’afficher plus d’options, puis recherchez-la sous **Actions**, **Fonctions**.  
 
-3. Dans la page **Copier article** , renseignez les champs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Dans la page **Copier article**, renseignez les champs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
-    > Vous pouvez entrer un numéro d’article spécifique dans le champ **N° article cible** que vous souhaitez que le nouvel élément obtienne. Vous pouvez également sélectionner une série de numéros existante dans la liste **Souches de n° cible** . Le nouvel article sera ensuite affecté au prochain numéro disponible dans cette série de numéros.  
+    > Vous pouvez entrer un numéro d’article spécifique dans le champ **N° article cible** que vous souhaitez que le nouvel élément obtienne. Vous pouvez également sélectionner une série de numéros existante dans la liste **Souches de n° cible**. Le nouvel article sera ensuite affecté au prochain numéro disponible dans cette série de numéros.  
 
-4. Pour copier vos choix dans le nouvel article, choisissez le bouton **OK** .  
+4. Pour copier vos choix dans le nouvel article, choisissez le bouton **OK**.  
 
 ## <a name="see-also"></a>Voir aussi
 

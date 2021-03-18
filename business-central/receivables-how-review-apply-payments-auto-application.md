@@ -3,21 +3,21 @@ title: Vérifier les paiements lettrés automatiquement et relettrer des paiemen
 description: Après le lettrage automatique des paiements, vous pouvez consulter toutes les écritures d’un paiement et relettrer manuellement celles qui ont été mal lettrées.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bcb3ffbf7bab30b71cea7c2f1005124415ab2ae4
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 363062b9811d5fc97f98b30994f348834c4bf784
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748533"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392689"
 ---
-# <a name="review-or-apply-payments-manually-after-automatic-application"></a>Réviser ou lettrer les paiements manuellement après un lettrage automatique
+# <a name="review-and-apply-payments-manually-after-automatic-application"></a>Réviser et lettrer les paiements manuellement après un lettrage automatique
 Pour chaque ligne feuille représentant un paiement sur la page **Feuille rapprochement bancaire**, vous pouvez ouvrir la page **Lettrage paiement** pour afficher toutes les écritures ouvertes candidates au paiement et les informations détaillées pour chaque écriture sur la correspondance des données sur laquelle un lettrage de paiement est basé. Ici, vous pouvez appliquer les paiements manuellement ou réappliquer les paiements qui ont été automatiquement appliqués à une écriture incorrecte. Pour plus d’informations sur le lettrage automatique, voir [Rapprocher les paiements à l’aide du lettrage automatique](receivables-how-reconcile-payments-auto-application.md).
 
 > [!IMPORTANT]  

@@ -3,19 +3,19 @@ title: Prélèvement et expédition dans les configurations de stockage de base 
 description: Dans Business Central, les processus sortants de prélèvement et d’expédition peuvent être effectués de quatre manières, à l’aide de différentes fonctionnalités en fonction du niveau de complexité de l’entrepôt.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f3815e0e928041ca9fcef09b1c7410e45ebb57a1
-ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
+ms.openlocfilehash: 96a837eaded2cf9be5e1fabb4d7f81415a171f96
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5035771"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393464"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Procédure pas à pas : Prélèvement et expédition dans les configurations de stockage de base
 

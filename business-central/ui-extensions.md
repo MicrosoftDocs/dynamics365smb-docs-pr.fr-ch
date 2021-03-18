@@ -3,28 +3,28 @@ title: Installation d’extensions pour personnaliser Business Central
 description: En savoir plus sur l’ajout des fonctionnalités et la personnalisation de Business Central en installant des extensions.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 10/01/2020
+ms.date: 03/02/2021
 ms.author: edupont
-ms.openlocfilehash: fa72fad5899fab4830bf6c0956eaf99b6c773a53
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: d92fbe7c21da74c7818be4f249cdb373ed73539f
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757032"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493293"
 ---
-# <a name="customizing-business-central-using-extensions"></a>Personnalisation de Business Central à l’aide d’extensions
+# <a name="customizing-business-central-online-using-extensions"></a>Personnalisation de Business Central Online à l’aide d’extensions
 
-Vous pouvez modifier [!INCLUDE[prod_short](includes/prod_short.md)] en installant des extensions qui ajoutent des fonctionnalités, modifient le comportement de l’application, ou vous permettent d’accéder à de nouveaux services en ligne, par exemple.
+Vous pouvez modifier [!INCLUDE[prod_short](includes/prod_short.md)] en ligne en installant des extensions qui ajoutent des fonctionnalités, modifient le comportement de l’application, ou vous permettent d’accéder à de nouveaux services en ligne, par exemple.
 
 > [!NOTE]
-> Pour installer des extensions à partir de AppSource ou ajouter des extensions par locataire, vous devez disposer des autorisations adéquates. Vous devez être membre du groupe d’utilisateurs D365 EXTENSION MGMT ou disposer du jeu d’autorisations D365 EXTENSION MGMT. Si vous êtes un administrateur, vous pouvez attribuer des groupes d’utilisateurs et des autorisations à d’autres utilisateurs de votre entreprise.
+> Pour installer des extensions à partir de AppSource ou ajouter des extensions par locataire, vous devez disposer des autorisations adéquates. Vous devez être membre du groupe d’utilisateurs D365 EXTENSION MGT ou disposer du jeu d’autorisations D365 EXTENSION MGT. Si vous êtes un administrateur, vous pouvez attribuer des groupes d’utilisateurs et des autorisations à d’autres utilisateurs de votre entreprise.
 
 Pour utiliser les fonctionnalités fournies par une extension, telles que l’ouverture de pages, la production de rapports, la sélection d’actions, etc., vous devez disposer des jeux d’autorisations installés avec cette extension.
 
 > [!IMPORTANT]  
-> Le chargement des extensions par client et l’installation des extensions AppSource ne sont pas pris en charge via la page **Gestion des extensions** pour les installations sur site.
+> Le chargement des extensions par client et l’installation des extensions AppSource ne sont pas pris en charge via la page **Gestion des extensions** pour les installations sur site. Vous ne pouvez pas installer d’extensions AppSource sur site, y compris dans les déploiements basés sur Docker.
 
 La première fois que vous lancez [!INCLUDE[prod_short](includes/prod_short.md)], certaines extensions sont déjà installées. Au fil du temps, davantage d’extensions seront disponibles. Il vous appartient de choisir si vous souhaitez les utiliser ou non.
 
@@ -37,7 +37,7 @@ La page **Gestion des extensions** vous permet de gérer les extensions. Vous po
 > Si vous voulez accéder à une extension mais que vous ne pouvez pas trouver sa fonctionnalité, vérifiez la page **Gestion des extensions**, si l’extension n’est pas répertoriée, vous pouvez la configurer comme décrit dans la section suivante.  
 
 > [!NOTE]  
-> Connectez-vous au site [AppSource.microsoft.com](https://appsource.microsoft.com/) à l’aide du compte de messagerie électronique que vous utilisez pour [!INCLUDE[prod_short](includes/prod_short.md)]. Utilisez le même compte de messagerie électronique pour d’autres services et produits pour une expérience agréable.  
+> Connectez-vous au site [AppSource.microsoft.com](https://appsource.microsoft.com/) à l’aide du compte de messagerie électronique que vous utilisez pour [!INCLUDE[prod_short](includes/prod_short.md)] en ligne. Utilisez le même compte de messagerie électronique pour d’autres services et produits pour une expérience agréable.  
 
 Vous pouvez également accéder au marché à partir de [!INCLUDE[prod_short](includes/prod_short.md)]. Sur la page **Gestion des extensions**, vous pouvez voir les extensions actuellement installées, et vous pouvez ouvrir la page **Marché des extensions** qui affiche les extensions [!INCLUDE[prod_short](includes/prod_short.md)] actuellement disponibles dans AppSource. Si vous optez pour le lien *Plus d’applications*, vous êtes dirigé vers le site [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).  
 
@@ -77,7 +77,7 @@ Microsoft fournit les extensions suivantes :
 * [É.-U./CA/R.-U./AU/N.-Z./ZA – Envoi d’un avis de versement](ui-extensions-send-remittance-advice.md)
 
 > [!NOTE]  
-> Les nouvelles extensions ne sont pas disponibles dans AppSource juste après l’annonce d’une mise à jour. Vous pouvez vous tenir informé sur les extensions sur le site [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
+> Vous pouvez vous tenir informé sur les nouvelles extensions de Microsoft et d’autres fournisseurs sur le site [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
 
 ## <a name="see-also"></a>Voir aussi
 

@@ -3,19 +3,19 @@ title: Procédure d’ajout de champs à une présentation de rapport Word | Mic
 description: Décrit comment ajouter des champs d’un ensemble de données de rapport à une présentation de rapport Word existante pour un rapport.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 8aef21c49c92e7440723a7cdff8ba68c3ae507b6
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 8dc64aeb028fdbc964bb7124f578014d3e6f0cde
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757007"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393906"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Ajouter des champs à une présentation de rapport Word
 Un ensemble de données de rapport peut être constitué de champs affichant des étiquettes, des données et des images. Cette rubrique décrit la procédure pour ajouter des champs d’un ensemble de données de rapport à une présentation de rapport Word pour un rapport. Vous ajoutez des champs à l’aide du composant XML personnalisé Word pour l’état et en ajoutant des contrôles de contenu qui correspondent aux champs de l’ensemble de données d’état. L’ajout de champs requiert que vous ayez des connaissances sur l’ensemble des données de rapport afin que vous puissiez identifier les champs que vous souhaitez ajouter à la présentation.  

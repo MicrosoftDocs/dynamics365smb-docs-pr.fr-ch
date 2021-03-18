@@ -3,19 +3,19 @@ title: Déplacer les composants vers une zone opérations dans les configuration
 description: Si des opérations de traitement d’articles se produisent dans votre entrepôt, vous pouvez être amené à déplacer des articles entre différents emplacements internes pour satisfaire aux documents origine internes.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7812bc0675563b30805f345331423d800645b3ea
-ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+ms.openlocfilehash: 5adf1f30276ab46df17589c738fa6f9543720729
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5014115"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391589"
 ---
 # <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Déplacer les composants vers une zone opérations dans les configurations de stockage de base
 Si des opérations de traitement d’articles se produisent dans votre entrepôt, vous pouvez être amené à déplacer des articles entre différents emplacements internes pour satisfaire aux documents origine internes, tels que la production, l’assemblage ou les commandes service dans le magasin.  

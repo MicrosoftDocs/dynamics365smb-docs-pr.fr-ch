@@ -3,19 +3,19 @@ title: Comment trouver vos affectations d’entrepôt | Microsoft Docs
 description: Pour rechercher les affectations entrepôt, ouvrez la page correspondant à une article sélectionné. Si des instructions entrepôt ont été créées, les lignes Prélever et Emplacement sont visibles, et vous pouvez commencer à utiliser une affectation. Dans certains entrepôts, le responsable peut affecter des instructions propres à chaque magasinier.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b3656ff58273999a1059392795914b5926835c57
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: eadfc0d2e2dc89f1445a4def8f1ceb33cf7fae55
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756282"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391614"
 ---
 # <a name="find-your-warehouse-assignments"></a>Trouver vos affectations d’entrepôt
 Pour rechercher les affectations entrepôt, ouvrez la page correspondant à une article sélectionné. Si des instructions entrepôt ont été créées, les lignes Prélever et Emplacement sont visibles, et vous pouvez commencer à utiliser une affectation. Dans certains entrepôts, le responsable peut affecter des instructions propres à chaque magasinier. Pour plus d’informations, voir [Configurer des employés d’entrepôt](warehouse-how-to-set-up-warehouse-employees.md).

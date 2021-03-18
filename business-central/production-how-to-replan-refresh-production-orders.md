@@ -3,19 +3,19 @@ title: Procédure de replanification ou d’actualisation directe des ordres de 
 description: Les lignes O.F. affichent les articles à produire à l’aide de l’ordre de fabrication.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6f66d96f03146d60422413c3031405da2338a01f
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: c6fbf41975464256c95d13ae9e485f27b5a1eb5f
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4759082"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392789"
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Replanifier ou actualiser directement des ordres de fabrication
 La fonction **Replanifier** des ordres de fabrication est généralement utilisée après avoir ajouté ou modifié des composants constituant des ordres de fabrication sous-jacents. La fonction calcule les modifications apportées aux composants et aux lignes gamme. Elle inclut les articles situés à des niveaux de nomenclatures de production inférieurs, pour lesquels elle peut générer de nouveaux O.F.  

@@ -3,19 +3,19 @@ title: Utiliser des systèmes de saisie automatisée (ADCS) | Microsoft Docs
 description: Vous pouvez utiliser votre système de saisie automatisée pour enregistrer le mouvement des articles de l’entrepôt et certaines activités de la feuille, notamment les ajustements de quantité de la feuille article entrepôt et les inventaires.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: barcode
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4d35c0774fc777fd5b45983f03e6204daed0a3af
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: cb87eb928baeba9b56d4ef07287aa07fbe08ad00
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4755732"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393264"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Utilisation des systèmes de saisie automatisée (ADCS)
 

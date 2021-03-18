@@ -3,19 +3,19 @@ title: Raccourcis clavier
 description: Liste complète des combinaisons de raccourcis clavier pour utiliser vos données avec efficacité.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 11/26/2020
 ms.author: bholtorf
-ms.openlocfilehash: f3c36a1b5d3477d6564c66ede9c1a6bff51281df
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 23ab336997bdc89e6de617676e2c2f5e2bd689e5
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746131"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470502"
 ---
 # <a name="keyboard-shortcuts"></a>Raccourcis clavier
 
@@ -56,7 +56,6 @@ Le tableau suivant décrit les raccourcis clavier pour naviguer et accéder aux 
 |Alt+Maj+N |Fermer une page nouvellement créée et en ouvrir une nouvelle pour créer un enregistrement. De même, Alt + F9 valide un document et en crée un nouveau.|
 |Alt+T|Ouvrez la page **Mes paramètres**.|
 |Alt+Flèche vers la droite|Rechercher des informations supplémentaires ou des valeurs sous-jacentes pour un champ contenant le bouton ![AssistEdit](media/assist-edit-icon.png "Bouton AssistEdit"). Ceci est utilisé lorsque le bouton déroulant habituel (Alt + Flèche vers le bas) dans le même champ est utilisé à une autre fin.|
-|Shift+F12|Ouvrir l’explorateur de rôles, une vue d’ensemble des fonctionnalités. Pour plus d’informations, voir [Recherche de pages avec l’explorateur de rôles](ui-role-explorer.md).|
 |Ctrl+Alt+Maj+C|Afficher des informations dans le badge société.|
 |Ctrl+Alt+F1|Ouvrez, puis fermez le volet d’inspection des pages. Ce dernier affiche les informations relatives à la page, comme sa table source, ses champs, ses filtres, ses extensions, etc.<br /><br />Pour plus d’informations, reportez-vous à la rubrique [Inspection des pages](across-inspect-page.md).|
 |Ctrl+C |Copiez la valeur du champ. Si le champ a le focus, et si vous n’avez pas sélectionné un texte dans le champ, l’intégralité de la valeur est copiée. Si vous avez sélectionné un texte dans le champ, seul le texte sélectionné est copié.|
@@ -213,6 +212,18 @@ Lorsque vous définissez un champ de date, vous pouvez saisir la date manuelleme
 |Ctrl++|Effectuez un zoom avant sur la page actuelle.|  
 |Ctrl+-|Effectuez un zoom arrière sur la page actuelle.|  
 |Ctrl+0|Effectuez un zoom avant ou arrière à 100 % sur la page actuelle.|  
+
+## <a name="keyboard-shortcuts-for-role-explorer"></a><a name="roleexplorer"></a>Raccourcis clavier pour l’explorateur de rôles
+
+L’explorateur de rôles vous donne une vue d’ensemble et un accès rapide à toutes les fonctionnalités métier disponibles pour votre rôle. Pour plus d’informations, voir [Recherche de pages avec l’explorateur de rôles](ui-role-explorer.md).
+
+|Appuyez sur les touches suivantes<br />(dans macOS)|Pour|
+|--------------------------------|----------|
+|Shift+F12|Ouvrez l’explorateur de rôles.|
+|F3|Ouvrez la zone **Rechercher** dans l’explorateur de rôles pour rechercher des fonctionnalités en fonction d’un mot ou d’un terme de recherche donné.|
+|F3 ou Ctrl+Flèche bas|Déplace le focus sur la fonction suivante trouvée dans l’explorateur de rôles. F3 déplacera le focus sur la zone **Rechercher** après la dernière fonction trouvée.|
+|Maj F3 ou Ctrl+Flèche haut|Déplace le focus sur la fonction précédente trouvée dans l’explorateur de rôles.|
+|Ctrl+Maj|Développez ou réduisez tous les sous-nœuds, en plus des nœuds de niveau supérieur, lorsque vous choisissez l’action **Développer** ou **Réduire**.|
 
 ## <a name="see-also"></a>Voir aussi
 

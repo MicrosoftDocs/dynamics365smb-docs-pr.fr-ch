@@ -3,19 +3,19 @@ title: Comment expédier des articles | Microsoft Docs
 description: En fonction de votre configuration de stockage, vous pouvez enregistrer l’expédition sur le document d’entreprise sortant associé, comme une commande vente, directement, ou vous pouvez utiliser les documents expédition entrepôt qui respectent un flux et s’intègrent à différentes activités entrepôt.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8e5a9c93315c1bc199dbcbfe9076c01828524e96
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 2fdfd166ca6223fff8d611688e592caa0442a2ca
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4759957"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392014"
 ---
 # <a name="ship-items"></a>Expédier des articles
 

@@ -10,18 +10,23 @@ ms.workload: na
 ms.search.keywords: user log, user activity, tracking
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bce5c61afd2a1119c25e37ece65081ef0519694e
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: c4891cb047cb16f4051b6f468115e2b6bad9f24c
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754357"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470377"
 ---
 # <a name="auditing-changes-in-business-central"></a>Audit des modifications dans Business Central
 Un défi courant dans de nombreuses applications de gestion d’entreprise est d’éviter les modifications indésirables des données. Il peut s’agir d’une simple erreur de numéro de téléphone client comme d’une écriture comptable erronée. Cette rubrique décrit les fonctionnalités permettant de savoir ce qui a changé, qui l’a modifié et quand la modification a été effectuée.
 
 ## <a name="about-the-change-log"></a>À propos du journal des modifications 
 Le journal des modifications vous permet de suivre toutes les modifications directes apportées par un utilisateur aux données dans la base de données. Vous devez spécifier les opérations que le système doit journaliser, pour chaque table et chaque champ, puis activer le journal modification.  
+
+Le suivi des modifications peut avoir un impact sur les performances, ce qui peut vous faire perdre du temps, et augmenter la taille de votre base de données, ce qui peut à son tour vous coûter cher. Pour réduire ces coûts, tenez compte des éléments suivants :
+- Soyez prudent lorsque vous choisissez les tables et les opérations.
+- N’ajoutez pas d’écritures comptables et de documents validés. À la place, donnez la priorité aux champs système tels que Créé par et Date de création.
+- N’utilisez pas le type de suivi Tous les champs. Au lieu de cela, choisissez Certains champs et suivez uniquement les champs les plus importants.
 
 Le journal des modifications est basé sur les modifications apportées aux données dans les tableaux que vous suivez. Sur la page **Écritures du journal des modifications**, les entrées sont chronologiquement ordonnées et montrent toutes les modifications apportées aux valeurs des champs des tables que vous spécifiez.
 

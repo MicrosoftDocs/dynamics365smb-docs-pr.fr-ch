@@ -3,17 +3,17 @@ title: Configurer des tarifs de projets et des groupes de comptabilisation de pr
 description: Décrit comment configurer des informations générales de projets, et des prix d’articles de projet, des ressources, ainsi que des comptes généraux et des groupes de comptabilisation projets.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: project management
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6fe583e93261b58d13802eadef5f3d807045fa20
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 04f5538b7c904b64c921cc50f64924bcaef93401
+ms.sourcegitcommit: a9b771cc2b4b75aed835efca63ef7a6a44219d59
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758657"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "5476785"
 ---
 # <a name="set-up-jobs"></a>Configuration de projets
 
@@ -47,44 +47,31 @@ Lorsque la case à cocher **Appliquer le lien d’utilisation par défaut** est 
 1. Sélectionnez l’icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), saisissez **Paramètres projets**, puis sélectionnez le lien associé.
 2. Sélectionnez la case à cocher **Appliquer le lien d’utilisation par défaut**.
 
-## <a name="to-set-up-prices-for-job-resources"></a>Pour paramétrer des prix pour les ressources de projet
-Vous pouvez paramétrer des prix spécifiques pour les ressources d’un projet. Réalisez cette opération sur la page **Prix ressource projet**.
+## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a>Pour paramétrer les prix pour des ressources, des articles et des comptes généraux pour des projets
+> [!NOTE]
+> Dans la deuxième vague de lancement de 2020, nous avons lancé de nouveaux processus pour la configuration et la gestion des prix et des remises. Si vous êtes un nouveau client, vous utilisez la nouvelle expérience. Si vous êtes un client existant, l’utilisation ou non de la nouvelle expérience dépend du fait que votre administrateur a activé ou non la fonctionnalité **Nouvelle tarification des ventes** dans **Gestion des fonctionnalités**. Pour plus d’informations, consultez [Activer les fonctionnalités à venir à l’avance](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Projets**, puis sélectionnez le lien associé.  
-2. Sélectionnez le projet concerné, puis l’action **Ressource**.
-3. Sur la page **Prix ressource projet**, renseignez les champs selon vos besoins.
+Vous pouvez paramétrer les prix pour des articles, des ressources et des comptes généraux associés à un projet. 
 
-Les informations complémentaires contenues dans les champs **N° tâche projet**, **Type travail**, **Code devise**, **% remise ligne** et **Facteur coût unitaire** serviront sur les lignes planning projet et les feuilles activité lorsque cette ressource sera entrée et ajoutée au projet.  
-
-La valeur du champ **Prix unitaire** de la ressource sera utilisée sur les lignes planning du projet et les feuilles projet lorsque cette ressource, une ressource affectée au groupe de ressources ou une ressource quelconque est entrée.  
-
-> [!NOTE]  
->   Ce prix remplace toujours les prix paramétrés sur la page **Prix ressource/Prix groupe ressources** existante.
-
-## <a name="to-set-up-prices-for-job-items"></a>Pour paramétrer les prix pour les articles
-Vous pouvez paramétrer des prix spécifiques pour les articles d’un projet. Réalisez cette opération sur la page **Prix article projet**.
-
+#### <a name="current-experience"></a>[Expérience actuelle](#tab/current-experience)
 1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Projets**, puis sélectionnez le lien associé.  
-2. Sélectionnez le projet concerné, puis cliquez sur **Article**.
-3. Sur la page **Prix article projet**, renseignez les champs selon vos besoins.
+2. Sélectionnez le projet, puis cliquez sur l’action **Ressource**, **Article** ou **Compte général**.
+3. Sur la page **Prix ressource projet**, **Prix article projet** ou **Prix compte général projet**, remplissez les champs selon vos besoins.
 
-Les informations facultatives des champs **N° tâche projet**, **Code devise** et **% remise ligne** serviront sur les lignes planning du projet et les feuilles projet lorsque cet article sera entré ou ajouté au projet.  
+Le tableau suivant montre comment les informations des champs facultatifs seront utilisées sur les lignes planning projet et les journaux lorsque la ressource, l’article ou le compte général sont choisis pour le projet.
 
-La valeur du champ **Prix unitaire** pour l’article sera utilisée sur les lignes planning du projet et les feuilles projet lorsque cet article sera entré.  
+|Colonne1  |Colonne2  |
+|---------|---------|
+|**Ressources du projet**|Champs **N° tâche projet**, **Type travail**, **Code devise**, **% Remise ligne** et **Facteur coût unitaire**. La valeur du champ **Prix unitaire** de la ressource sera utilisée sur les lignes planning du projet et les feuilles projet lorsque cette ressource, une ressource affectée au groupe de ressources ou une ressource quelconque est entrée. Notez que ce prix remplace toujours les prix paramétrés sur la page **Prix ressource/Prix groupe ressources** existante.|
+|**Articles du projet**|Champs **N° tâche projet**, **Code devise** et **% Remise ligne**. La valeur du champ **Prix unitaire** pour l’article sera utilisée sur les lignes planning du projet et les feuilles projet lorsque cet article sera entré. Notez que ce prix remplace toujours le prix client habituel (mécanisme du « meilleur prix ») des articles. Pour utiliser les mécanismes des prix client habituels, ne créez pas de prix article projet pour le projet.|
+|**Comptes généraux**|Les informations contenues dans les champs **N° tâche projet**, **Code devise**, **% remise ligne**, **Facteur coût unitaire** et **Coût unitaire** serviront sur les lignes planning projet et les feuilles projet lorsque ce compte général sera entré et ajouté à un projet. La valeur du champ **Prix unitaire** pour les dépenses du compte général sera utilisée sur les lignes planning du projet et les feuilles projet lorsque le compte général sera entré.|
 
-> [!NOTE]  
->   Ce prix remplace toujours le prix client habituel (mécanisme du « meilleur prix ») des articles. Pour utiliser les mécanismes des prix client habituels, ne créez pas de prix article projet pour le projet.
-
-## <a name="to-set-up-prices-for-job-general-ledger-accounts"></a>Pour configurer les prix des comptes généraux projet
-Vous pouvez configurer les prix spécifiques des frais d’un projet. Réalisez cette opération sur la page **Prix compte général projet**.
-
+---
+#### <a name="new-experience"></a>[Nouvelle expérience](#tab/new-experience)
 1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Projets**, puis sélectionnez le lien associé.  
-2. Sélectionnez le projet concerné, puis cliquez sur **Compte général**.  
-3. Sur la page **Prix compte général projet**, renseignez les champs selon vos besoins.
+2. Sélectionnez le projet concerné, puis cliquez sur l’action **Listes prix vente**.
 
-Les informations complémentaires contenues dans les champs **N° tâche projet**, **Code devise**, **% remise ligne**, **Facteur coût unitaire** et **Coût unitaire** serviront sur les lignes planning projet et les feuilles projet lorsque ce compte général sera entré et ajouté à un projet.  
-
-La valeur du champ **Prix unitaire** pour les dépenses du compte général sera utilisée sur les lignes planning du projet et les feuilles projet lorsque le compte général sera entré.
+---
 
 ## <a name="to-set-up-job-posting-groups"></a>Pour configurer les groupes compta. projet
 L’un des aspects des projets de planification est de décider quels comptes de validation utiliser pour l’évaluation du stock projet. Pour valider des projets, vous configurez des comptes afin de valider chaque groupe compta. projet. Un groupe comptabilisation représente un lien entre le projet et la manière dont il doit être traité dans la comptabilité. Lorsque vous créez un projet, vous pouvez spécifier un groupe comptabilisation et, par défaut, chaque tâche que vous créez pour le projet est associée avec ce groupe comptabilisation. Toutefois, lorsque vous créez des tâches, vous pouvez remplacer la valeur par défaut et sélectionner un groupe comptabilisation plus approprié.  

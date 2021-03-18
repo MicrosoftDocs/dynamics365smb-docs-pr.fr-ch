@@ -4,27 +4,28 @@ description: Installation et désinstallation d’extensions dans Business Centr
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
 ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: bcd7a60f9e8fd6739a3d09f5aa1b3e6819e3ccc3
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: e0bb0f88fd9b8dd4c4bcf853447009e0b898fd7a
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757558"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493318"
 ---
 # <a name="installing-and-uninstalling-extensions-in-business-central"></a>Installation et désinstallation d’extensions dans Business Central
 
 Vous pouvez modifier [!INCLUDE[prod_short](includes/prod_short.md)] en installant des extensions qui, par exemple, ajoutent des fonctionnalités, modifient le comportement de l’application, ou vous permettent d’accéder à de nouveaux services en ligne. Pour plus d’informations, voir [Personnalisation de Business Central à l’aide d’extensions](ui-extensions.md).
 
 > [!NOTE]
-> Pour installer des extensions à partir de AppSource ou ajouter des extensions par locataire, vous devez disposer des autorisations adéquates. Vous devez être membre du groupe d’utilisateurs D365 EXTENSION MGMT ou disposer du jeu d’autorisations D365 EXTENSION MGMT. Si vous êtes un administrateur, vous pouvez attribuer des groupes d’utilisateurs et des autorisations à d’autres utilisateurs de votre entreprise.<br /><br />
-Pour utiliser les fonctionnalités fournies par une extension, telles que l’ouverture de pages, la production de rapports, la sélection d’actions, etc., vous devez disposer des jeux d’autorisations installés avec cette extension.
+> Pour installer des extensions à partir de AppSource ou ajouter des extensions par locataire, vous devez disposer des autorisations adéquates. Vous devez être membre du groupe d’utilisateurs D365 EXTENSION MGT ou disposer du jeu d’autorisations D365 EXTENSION MGT. Si vous êtes un administrateur, vous pouvez attribuer des groupes d’utilisateurs et des autorisations à d’autres utilisateurs de votre entreprise.
+>
+> Pour utiliser les fonctionnalités fournies par une extension, telles que l’ouverture de pages, la production de rapports, la sélection d’actions, etc., vous devez disposer des jeux d’autorisations installés avec cette extension.
 
 ## <a name="installing-an-extension"></a>Installation d’une extension
 

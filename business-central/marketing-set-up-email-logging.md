@@ -3,19 +3,19 @@ title: Config. identifiant messagerie | Microsoft Docs
 description: Apprenez à transformer les interactions de messagerie entre les vendeurs et les clients en véritables opportunités de vente.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, opportunity, email
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: f099072561e5a35f893a42edbbe6f27a5b4722ed
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: a431eba8881eb6bb32e01d67f25ea53981da445e
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749820"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470352"
 ---
 # <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>Suivre les échanges de messages électroniques entre les vendeurs et les contacts
 
@@ -65,7 +65,7 @@ Les étapes suivantes supposent que vous utilisez Azure Active Directory pour g�
     > Si vous ne spécifiez pas l’URL de redirection, vous pouvez le faire plus tard en choisissant **Ajouter une plateforme**, puis en choisissant **Web** pour ajouter l’application Web et l’URL de redirection. 
 
 3. Sous **Gérer**, choisissez **Manifeste**.
-4. Localisez la propriété **requiredResourceAccess** dans le manifeste et ajoutez le code suivant entre crochets ([]) pour ajouter les autorisations requises. Pour plus d’informations, reportez vous à [Enregistrer votre application](/exchange/client-developer/exchange-web-services/how-to-authenticate-an-ews-application-by-using-oauth.md#register-your-application).
+4. Localisez la propriété **requiredResourceAccess** dans le manifeste et ajoutez le code suivant entre crochets ([]) pour ajouter les autorisations requises. Pour plus d’informations, reportez vous à [Enregistrer votre application](/exchange/client-developer/exchange-web-services/how-to-authenticate-an-ews-application-by-using-oauth#register-your-application).
 
 ```
 {

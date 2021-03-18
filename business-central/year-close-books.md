@@ -3,19 +3,19 @@ title: Aperçu des tâches pour clôturer les livres | Microsoft Docs
 description: En savoir plus sur le processus de clôture des livres d’un exercice ou d’une période fiscale, et ce qui a lieu après la clôture à la fin d’un exercice.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 84947d0c88834fe674942e5edb5cf8ac73a9741c
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: ae841ec6f4b5a511304d792bf90b6bcaec9e1fb2
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4755657"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392189"
 ---
 # <a name="closing-the-books"></a>Clôture des livres
 Après vous être assuré que tous vos comptes sont à jour et avoir ventilé les coûts et les bénéfices, vous pouvez clôturer les livres d’un exercice ou d’une période comptable.

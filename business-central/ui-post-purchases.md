@@ -3,19 +3,19 @@ title: Familiarisation avec la validation des documents achat | Microsoft Docs
 description: Découvrez les différentes fonctions de validation pour valider les documents achat et comment mettre à jour les documents validés.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 78657265e45aa9eb01d56a65aab8366c24b3d39a
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 5d17cc4e9b27e5f2a20fd9543aec3e9f8bbe32a0
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756757"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392514"
 ---
 # <a name="posting-purchases"></a>Validation des achats
 Sur un document achat, vous pouvez faire votre choix parmi les actions de validation suivantes :

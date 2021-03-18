@@ -3,19 +3,19 @@ title: Recherche d’écritures | Microsoft Docs
 description: Cet article décrit comment accéder aux documents et écritures liés
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 870cd32dc2408236ed8997e1f939c00d1bf519e4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 437e0c076b664ad35d5819783e98d9e91abee982
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927836"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393989"
 ---
 # <a name="finding-related-entries-for-posted-documents"></a>Recherche d’écritures associées pour les documents validés 
 
@@ -56,7 +56,7 @@ La page **Rechercher des écritures** comprend tous les documents et écritures 
 
 ## <a name="search-for-entries"></a>Rechercher des écritures
 
-Vous pouvez rechercher des écritures en fonction des informations relatives au document, au contact professionnel ou à la référence d’article. Pour modifier la recherche, sélectionnez **Actions** , **Rechercher par** , puis l’une des actions suivantes :
+Vous pouvez rechercher des écritures en fonction des informations relatives au document, au contact professionnel ou à la référence d’article. Pour modifier la recherche, sélectionnez **Actions**, **Rechercher par**, puis l’une des actions suivantes :
 
 |Action|Description|
 |------|-----------|
@@ -67,7 +67,7 @@ Vous pouvez rechercher des écritures en fonction des informations relatives au 
 Après avoir effectué une sélection, entrez les informations de recherche pertinentes dans les champs d’en haut. Utilisez les info-bulles sur les champs pour vous aider. Lorsque vous avez terminé, choisissez **Rechercher** pour lancer la recherche. Si vous modifiez l’un des filtres, vous devez cliquer sur **Rechercher** à nouveau.
 
 > [!TIP]
-> Pour quelques exemples d’utilisation de **Rechercher des écritures** , voir [Tracer des articles – suivis des articles](inventory-how-to-trace-item-tracked-items.md) et [Procédure pas à pas : Traçage des n° de série-lot](walkthrough-tracing-serial-lot-numbers.md).
+> Pour quelques exemples d’utilisation de **Rechercher des écritures**, voir [Tracer des articles – suivis des articles](inventory-how-to-trace-item-tracked-items.md) et [Procédure pas à pas : Traçage des n° de série-lot](walkthrough-tracing-serial-lot-numbers.md).
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
 

@@ -3,19 +3,19 @@ title: Paramétrage du mappage de texte à compte pour les paiements récurrents
 description: Lier le texte sur les paiements à des comptes spécifiques, afin que les paiements soient validés dans les comptes lorsque vous validez la feuille rapprochement bancaire.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account linking, direct payment posting, automatic payment processing, reconcile payment, recurring expense, recurring cash receipt
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6e389d31d6f9a28c9cff12950c37f01c1cf51004
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 225883d8b5d6c3d6fe327340d32ae4dbfd2a718b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748583"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392639"
 ---
 # <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Mapper du texte sur les paiements récurrents aux comptes pour un rapprochement automatique
 Sur la page **Mappage de texte à compte** à laquelle vous accédez à partir de la page **Feuille rapprochement bancaire**, vous pouvez configurer des mappages entre le texte des paiements et des comptes de débit, de crédit et de contrepartie spécifiques afin que ces paiements soient validées dans les comptes spécifiés lorsque vous validez la feuille rapprochement bancaire.

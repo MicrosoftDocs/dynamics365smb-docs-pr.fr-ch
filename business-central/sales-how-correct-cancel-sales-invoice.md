@@ -3,19 +3,19 @@ title: Corriger ou annuler une facture vente validée
 description: Décrit comment corriger, annuler, ou annuler une facture vente enregistrée et lettrer un avoir vente.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
 ms.date: 01/11/2021
 ms.author: edupont
-ms.openlocfilehash: 7b52b3bd2acadc965b4b7ee25bc66f3f8f511bd5
-ms.sourcegitcommit: 5d5451ee618f122c926e3189290f3765052f7077
+ms.openlocfilehash: 7a14155d0b9dc780fa65bbf1f151e82b8a175984
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "4846331"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393414"
 ---
 # <a name="correct-or-cancel-unpaid-sales-invoices"></a>Corriger ou annuler des factures vente impayées
 

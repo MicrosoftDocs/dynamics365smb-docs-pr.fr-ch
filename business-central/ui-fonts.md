@@ -3,19 +3,19 @@ title: Polices disponibles
 description: La version en ligne de Business Central contient des polices préinstallées sur les serveurs qui peuvent être utilisées lors de la génération d’états.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/20/2020
 ms.author: edupont
-ms.openlocfilehash: 534e0d7c86dd49b9790cd7f8d5d644b56e8b28d4
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 79ce3aba4acf5d5d889bce5ff37bf6d91d83e47c
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756982"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493269"
 ---
 # <a name="available-fonts"></a>Polices disponibles
 
@@ -26,7 +26,7 @@ La version en ligne de [!INCLUDE[prod_short](includes/prod_short.md)] contient d
 
 ## <a name="document-fonts"></a>Polices de document
 
-Les polices suivantes sont installées et disponibles pour une utilisation dans les états de document Word et RDLC :
+Les polices suivantes sont installées et disponibles pour une utilisation dans les présentation état Word et RDLC :
 
 * Arial
 * Consolas
@@ -46,6 +46,17 @@ Les polices MICR sont installées et disponibles pour utilisation. Les normes E-
 En plus des polices MICR, des polices de sécurité spéciales sont disponibles pour générer du texte, des noms, des montants et les symboles monétaires Dollar, Euro, Pound et Yen, qui sont difficiles à modifier une fois qu’un chèque a été imprimé.  
 
 Pour plus d’informations, voir [Sélectionner une mise en page de chèque](finance-how-define-check-layouts.md).  
+
+## <a name="fonts-for-barcodes"></a>Polices pour codes à barres
+Les polices pour générer des codes à barres unidimensionnels sont installées et disponibles pour être utilisées dans les présentation état Word et RDLC.
+
+Les symbologies de codes à barres suivantes sont prises en charge :
+* Code 3 sur 9 (Code 39)
+* Code 128
+* Code 93
+* Codabar
+* MSI
+* Entrelacé 2 sur 5
 
 ## <a name="see-also"></a>Voir aussi
 

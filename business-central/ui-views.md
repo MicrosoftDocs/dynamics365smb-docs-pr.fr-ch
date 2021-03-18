@@ -3,19 +3,19 @@ title: Enregistrer et personnaliser les vues de liste | Microsoft Docs
 description: Apprenez à créer vos propres vues de liste filtrées.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 37fa84f9d0bb97f7e2b6fe94cc6180ef3eb83689
-ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
+ms.openlocfilehash: 04a7040f23304408fb30d65590663de43d447cd4
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5024502"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392446"
 ---
 # <a name="save-and-personalize-list-views"></a>Enregistrer et personnaliser les vues de liste
 Lorsque vous avez défini un filtre sur une liste et que vous souhaitez conserver le filtre pour plus tard, vous pouvez l’enregistrer en tant que vue. Pour plus d’informations sur le filtrage des listes, voir [Définition de filtres sur les listes](ui-enter-criteria-filters.md#setting-filters-on-lists).

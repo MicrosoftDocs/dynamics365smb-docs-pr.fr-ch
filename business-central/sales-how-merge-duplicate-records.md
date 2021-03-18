@@ -1,23 +1,21 @@
 ---
-title: Fusionner les doublons d’enregistrements fournisseur ou client | Microsoft Docs
-description: Décrit comment créer une fiche client pour enregistrer des informations sur chaque nouveau client ou client auquel vous vendez.
-services: project-madeira
-documentationcenter: ''
+title: Fusionner les doublons d’enregistrements fournisseur ou client
+description: Décrit comment consolider les informations sur les clients ou les fournisseurs lorsque vous avez des entrées en double pour certains.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 04034406154dddfabe44a9fd62e0a793981e7f69
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: f79035d6bfa841f6bf9e82acc4bd4cdc45e1bc28
+ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748374"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5573491"
 ---
 # <a name="merge-duplicate-records"></a>Fusionner les doublons d’enregistrements
 Puisque différents utilisateurs créent de nouvelles fiches contact, fournisseur ou client au fil du temps, ou puisque de nouveaux enregistrements sont créés automatiquement pendant la migration, un client, fournisseur ou contact peut être représenté dans le système avec plusieurs enregistrements. Dans ce cas, vous pouvez utiliser la page **Fusionner le doublon** depuis la fiche de l’enregistrement que vous souhaitez conserver. La page vous donne un aperçu des valeurs de champ dupliquées et vous fournit des fonctions pour sélectionner quelles valeurs conserver ou ignorer lors de la fusion des deux enregistrements en un seul.

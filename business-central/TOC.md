@@ -110,6 +110,7 @@
 #### [Configurer les conditions et niveaux de relance](finance-setup-reminders.md)
 #### [Configurer les conditions intérêts de retard](finance-setup-finance-charges.md)
 #### [Configuration de la TVA](finance-setup-vat.md)
+#### [Configurer des méthodes de calcul et de validation de la taxe sur la valeur ajoutée (TVA)](finance-setup-vat.md)
 #### [Configurer la TVA sur encaissement pour la comptabilité basée sur la trésorerie](finance-setup-unrealized-vat.md)
 #### [Valider des numéros d’identification intracommunautaire](finance-how-validate-vat-registration-number.md)
 #### [Configuration des codes source et des codes de motif pour les pistes d’audit](finance-setup-trail-codes.md)
@@ -437,6 +438,7 @@
 ##### [Mappage de champ pour l’extension AMC Banking 365 Fundamentals](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
 ## Finances
 ### [Vue d’ensemble de Finance](finance.md)
+### [Rapports financiers ](finance-reports.md)
 ### Gestion des comptes client
 #### [Vue d’ensemble de la comptabilité client](receivables-manage-receivables.md)
 #### Lettrage automatique des paiements et rapprochement des comptes bancaires
@@ -560,8 +562,9 @@
 ### [Transfert de fonds à la banque](bank-how-transfer-bank-funds.md)
 ### [Expériences de comptables dans Business Central](finance-accounting.md)
 
-## Veille économique
-### [Vue d’ensemble de la veille économique](bi.md)
+## Business Intelligence et Financial Reporting
+### [Vue d’ensemble de Business Intelligence et Financial Reporting](bi.md)
+### [Rapports financiers ](finance-reports.md)
 ### [Analyser les montants réalisés et les montants budgétés](bi-how-analyze-actual-versus-budget.md)
 ### [Préparer la génération d’états financiers avec des tableaux d’analyse et des catégories de compte](bi-how-work-account-schedule.md)
 ### [Configuration et publication des services Web KPI sur la base de tableaux d’analyse](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
@@ -1533,7 +1536,7 @@
 
 # Sécurité, confidentialité, conformité
 ## Sécurité et protection
-### [Vue d’ensemble de la sécurité et de la protection](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
+### [Vue d’ensemble de la sécurité et de la protection (en anglais uniquement)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## Confidentialité
 ### [Confidentialité (microsoft.com)](https://www.microsoft.com/en-us/trust-center/privacy)
 ## Conformité
@@ -1541,6 +1544,7 @@
 ### [Conformité des applications](compliance/compliance-application-compliance.md)
 ### [Conformité des services](compliance/compliance-service-compliance.md)
 ### [Certifications](compliance/compliance-certifications.md)
+## [Vue d’ensemble du service (en anglais uniquement)](/dynamics365/business-central/dev-itpro/service-overview?toc=/dynamics365/business-central/toc.json)
 
 # Développement et administration
 ## [Mise en route avec la documentation de développement et d’administration](/dynamics365/business-central/dev-itpro/index?toc=/dynamics365/business-central/toc.json)

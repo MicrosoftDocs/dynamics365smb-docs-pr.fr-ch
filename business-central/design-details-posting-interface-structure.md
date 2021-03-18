@@ -3,19 +3,19 @@ title: Détails de conception- Structure de l’interface de validation | Micros
 description: Cette rubrique donne un aperçu des procédures globales dans la structure de l’interface de validation.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting, interface, design
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e306b0caeb58bfe7bd04f93ac64d8b593f70f695
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 4815e2d4b69095ff61e92d750963879f93dda875
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751270"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390789"
 ---
 # <a name="design-details-posting-interface-structure"></a>Détails de conception : Structure de l’interface de validation
 Dans la structure de l’interface de validation [!INCLUDE[prod_short](includes/prod_short.md)], il y a plusieurs procédures globales utilisant la même structure :  

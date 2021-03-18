@@ -1,21 +1,21 @@
 ---
-title: Utilisation de feuilles comptabilité pour valider directement dans la comptabilité| Microsoft Docs
-description: Découvrez comment utiliser les feuilles pour valider des transactions financières dans les comptes généraux et dans d’autres comptes, tels que les comptes bancaires et fournisseur.
+title: Utilisation de feuilles comptabilité pour valider directement dans la comptabilité
+description: Découvrez comment utiliser les feuilles pour valider des transactions financières dans les comptes généraux et dans d’autres comptes, tels que les comptes bancaires et fournisseur. Utilisez des feuilles abonnement pour valider les régularisations et allouer les soldes par sections analytiques.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: journals, recurring, accrual
-ms.date: 10/01/2020
+ms.date: 02/15/2021
 ms.author: edupont
-ms.openlocfilehash: 18c36bf409b2bb5d4e67eeccfdf16193ec4dac62
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: c6a2c6ed0c3fe163f64a3eb7d55f8e128f53a50d
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4760136"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393614"
 ---
 # <a name="working-with-general-journals"></a>Utilisation de feuilles comptabilité
 
@@ -74,24 +74,27 @@ Si vous avez configuré des comptes contrepartie par défaut pour les feuilles s
 >   La TVA est calculée séparément pour le compte principal et le compte contrepartie, afin qu’ils puissent utiliser des taux de pourcentage de TVA différents.
 
 ## <a name="working-with-recurring-journals"></a>Utilisation de feuilles abonnement
-Une feuille abonnement est une feuille comptabilité contenant des champs spécifiques pour la gestion des transactions que vous validez fréquemment avec peu ou pas de modifications comme le bail, les abonnements, l’électricité et le chauffage. Utilisez ces champs dans le cadre des transactions récurrentes pour valider les montants fixes et variables. Vous pouvez également définir des écritures de contrepassation automatique le lendemain de la date de validation. Vous pouvez également utiliser les clés de ventilation pour répartir les écritures récurrentes entre plusieurs comptes. Pour plus d’informations, reportez-vous à [Ventilation des montants feuille abonnement sur plusieurs comptes](ui-work-general-journals.md#allocating-recurring-journal-amounts-to-several-accounts).
+Une feuille abonnement est une feuille comptabilité contenant des champs spécifiques pour la gestion des transactions que vous validez fréquemment avec peu ou pas de modifications comme le bail, les abonnements, l’électricité et le chauffage. Utilisez ces champs dans le cadre des transactions récurrentes pour valider les montants fixes et variables. Vous pouvez également définir des écritures de contrepassation automatique le lendemain de la date de validation. Vous pouvez également utiliser les clés de ventilation pour répartir les écritures récurrentes entre plusieurs comptes. Pour plus d’informations, reportez-vous à [Ventilation des montants feuille abonnement sur plusieurs comptes](#allocating-recurring-journal-amounts-to-several-accounts).
 
 Avec une feuille abonnement, les écritures qui sont régulièrement validées ne sont saisies qu’une fois. Les comptes, axes, sections analytiques, etc., que vous saisissez restent ainsi dans la feuille après validation. Si des ajustements sont nécessaires, vous pouvez les faire à chaque validation.
 
 ### <a name="recurring-method-field"></a>Champ Mode abonnement
+
 Ce champ détermine la manière dont le montant de la ligne feuille est traité après validation. Par exemple, si vous utilisez le même montant chaque fois que vous validez la ligne, vous pouvez conserver ce montant. Si vous utilisez les mêmes comptes et le même texte pour la ligne mais que le montant varie chaque fois que vous validez, vous pouvez choisir de supprimer le montant après validation.
 
 | À | Voir |
 | --- | --- |
-|Statique|Le montant de la ligne feuille est conservé après validation.|
-|Variable|Le montant de la ligne feuille est supprimé après validation.|
-|Solde|Le montant validé sur le compte de la ligne est ventilé sur les comptes spécifiés pour la ligne de la table Ventilation feuille compta. Le solde du compte est donc positionné à zéro. Pensez à renseigner le champ **% ventilation** sur la page **Ventilations**. Pour plus d’informations, reportez-vous à [Ventilation des montants feuille abonnement sur plusieurs comptes](ui-work-general-journals.md#allocating-recurring-journal-amounts-to-several-accounts).|
-|FI Fixe Inverse|Le montant de la ligne feuille est conservé après validation, et une écriture contrepartie est validée le lendemain.|
-|VI Variable Inverse|Le montant de la ligne feuille est supprimé après validation, et une écriture contrepartie est validée le lendemain.|
-|SI Solde Inverse|Le montant validé sur le compte de la ligne est ventilé sur les comptes spécifiés pour la ligne de la page **Ventilations**. Le solde du compte est défini sur zéro, et une écriture contrepartie est validée le lendemain.|
+|F Fixe|Le montant de la ligne feuille est conservé après validation.|
+|V Variable|Le montant de la ligne feuille est supprimé après validation.|
+|S Solde|Le montant validé sur le compte de la ligne est ventilé sur les comptes spécifiés pour la ligne de la table Ventilation feuille compta. Le solde du compte est donc positionné à zéro. Pensez à renseigner le champ **% ventilation** sur la page **Ventilations**. Pour plus d’informations, reportez-vous à [Ventilation des montants feuille abonnement sur plusieurs comptes](#allocating-recurring-journal-amounts-to-several-accounts).|
+|FI Fixe inverse|Le montant de la ligne feuille est conservé après validation, et une écriture contrepartie est validée le lendemain.|
+|VI Variable inverse|Le montant de la ligne feuille est supprimé après validation, et une écriture contrepartie est validée le lendemain.|
+|SI Solde inverse|Le montant validé sur le compte de la ligne est ventilé sur les comptes spécifiés pour la ligne de la page **Ventilations**. Le solde du compte est défini sur zéro, et une écriture contrepartie est validée le lendemain.|
+|Solde BD par axe analytique|La ligne feuille répartit les coûts en fonction du solde d’un compte général par dimension. Vous serez invité à définir les filtres axe à utiliser pour calculer le solde du compte général source par dimension à partir de laquelle vous souhaitez allouer les coûts. Sinon, choisissez l’action **Définir des filtres axe** ultérieurement.|
+|Solde inverse RBD par axe analytique|La ligne feuille répartit les coûts en fonction du solde inverse d’un compte général par dimension. Vous serez invité à définir les filtres axe à utiliser pour calculer le solde du compte général source par dimension à partir de laquelle vous souhaitez allouer les coûts. Sinon, choisissez l’action **Définir des filtres axe** ultérieurement.|
 
 > [!NOTE]  
->  Les champs TVA peuvent être renseignés sur la ligne feuille abonnement ou sur la ligne feuille ventilation, mais pas sur les deux. Ils peuvent être renseignés sur la page **Ventilations** uniquement si les lignes correspondantes de la feuille abonnement ne sont pas renseignées.
+> Les champs TVA peuvent être renseignés sur la ligne feuille abonnement ou sur la ligne feuille ventilation, mais pas sur les deux. Ils peuvent être renseignés sur la page **Ventilations** uniquement si les lignes correspondantes de la feuille abonnement ne sont pas renseignées.
 
 ### <a name="recurring-frequency-field"></a>Champ Périodicité abonnement
 Ce champ détermine la fréquence de validation de l’écriture de la ligne feuille. Il s’agit d’un champ de formule de date qui doit être renseigné pour les lignes feuille abonnement. Pour plus d’informations, voir [Utilisation de formules date](ui-enter-date-ranges.md#using-date-formulas).
@@ -113,11 +116,19 @@ L’avantage d’utiliser ce champ réside dans le fait que la ligne n’est pas
 Si le champ est blanc, la ligne est validée à chaque validation, jusqu’à ce qu’elle soit supprimée de la feuille.
 
 ### <a name="allocating-recurring-journal-amounts-to-several-accounts"></a>Ventilation des montants feuille abonnement sur plusieurs comptes
+
 Sur la page **Feuille abonnement**, vous pouvez choisir l’action **Ventilations** pour visualiser ou gérer la manière dont les montants de la ligne feuille abonnement sont affectés à plusieurs comptes et axes analytiques. Notez qu’une ventilation fonctionne comme une ligne compte contrepartie pour la ligne feuille abonnement.
 
 Tout comme dans une feuille abonnement, vous n’avez à saisir qu’une fois une ventilation. La ventilation reste dans la feuille ventilation après validation, ainsi vous n’avez pas à saisir les montants et les ventilations chaque fois que vous validez la ligne feuille abonnement.
 
-Si le mode récurrent est paramétré sur **Solde** ou sur **Solde inverse**, tous les codes axe analytique de la feuille récurrente sont ignorés lorsque le compte est défini sur zéro. Par conséquent, si vous ventilez une ligne abonnement vers diverses sections analytiques sur la page **Ventilations**, une seule écriture opposée est créée. De ce fait, si vous ventilez une ligne feuille abonnement qui comporte un code section, vous ne devez pas saisir le même code sur la page **Ventilations**. Si vous le faites, les sections analytiques sont incorrectes.
+Si le *mode abonnement* est paramétré sur **Solde** ou sur **Solde inverse**, tous les codes section de la feuille abonnement sont ignorés lorsque le compte est défini sur zéro. Par conséquent, si vous ventilez une ligne abonnement vers diverses sections analytiques sur la page **Ventilations**, une seule écriture opposée est créée. De ce fait, si vous ventilez une ligne feuille abonnement qui comporte un code section, vous ne devez pas saisir le même code sur la page **Ventilations**. Si vous le faites, les sections analytiques sont incorrectes.  
+
+Pour allouer des montants de feuille abonnement en fonction des axes analytiques, définissez le champ **Mode abonnement** sur **Solde par axe analytique** ou **Solde inverse par axe analytique**. Si le mode abonnement est paramétré sur **Solde par axe analytique** ou sur **Solde inverse par axe analytique**, tous les codes axe analytique de la feuille abonnement sont pris en compte lorsque le compte est défini sur zéro. Ainsi, si vous allouez une ligne abonnement à différentes sections analytiques sur la page **Allocations**, alors un certain nombre d’écritures contrepassées correspondant au nombre de combinaisons de section analytique dont le solde est composé sont créés. Si vous allouez le solde du compte via la feuille abonnement qui contient un code section, n’oubliez pas d’utiliser **Solde par axe analytique** ou **Solde inverse par axe analytique** pour vous assurer que les sections analytiques sont correctement équilibrées ou inversées à partir du compte source.  
+
+Par exemple, votre société a quelques centres de profit et une poignée de départements que vos contrôleurs ont configurés en tant qu’axes analytiques. Pour accélérer le processus de saisie des factures achat, vous décidez de demander aux personnes chargées des comptes fournisseurs de saisir uniquement les axes analytiques des centres de profit. Étant donné que chaque centre de profit dispose de clés de ventilation spécifiques pour l’axe analytique Département, par exemple en fonction du nombre d’employés, vous pouvez utiliser les modes abonnement **Solde BD par axe analytique** ou **Solde inverse RBD par axe analytique** pour réaffecter les dépenses de chaque centre de profit aux départements qui conviennent en fonction des clés de ventilation.  
+
+> [!NOTE]
+> Les dimensions que vous définissez sur les lignes ventilation ne sont pas calculées automatiquement et vous devez spécifier les sections analytiques à définir sur les comptes de ventilation. Si vous souhaitez conserver le lien entre l’axe analytique du compte source et l’axe analytique du compte de ventilation, nous vous recommandons d’utiliser la fonctionnalité [Comptabilité analytique](finance-about-cost-accounting.md) à la place.
 
 #### <a name="example-allocating-rent-payments-to-different-departments"></a>Exemple : Ventilation des paiements du loyer entre plusieurs départements
 Vous payez un loyer tous les mois, vous avez saisi le montant du loyer sur le compte règlement d’une ligne feuille abonnement. Sur la page **Ventilations**, vous pouvez diviser les dépenses entre plusieurs départements (section analytique Département) selon le nombre de mètres carrés occupé par chacun d’eux. Le calcul est basé sur le pourcentage de ventilation de chaque ligne. Vous pouvez saisir divers comptes sur différentes lignes ventilation (si le loyer est aussi divisé entre plusieurs comptes) ou saisir le même compte, mais avec divers codes section de la section analytique Département sur chaque ligne.

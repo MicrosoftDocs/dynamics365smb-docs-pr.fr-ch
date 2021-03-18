@@ -3,19 +3,19 @@ title: Se connecter à Microsoft Dataverse | Microsoft Docs
 description: Vous pouvez intégrer d’autres applications à Business Central au moyen de Microsoft Dataverse.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 11/20/2020
 ms.author: bholtorf
-ms.openlocfilehash: e0713de255aabc599fbc80cf29f1bfa618a29003
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 47a042f1825eca548ecbf08c6901e5af26cbeb43
+ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753932"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5573416"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Se connecter à Microsoft Dataverse
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -26,9 +26,12 @@ Cette rubrique décrit comment configurer une connexion entre [!INCLUDE[prod_sho
 
 Avant de créer la connexion, quelques informations doivent être préparées :  
 
-* L’URL pour l’environnement [!INCLUDE[cds_long_md](includes/cds_long_md.md)] auquel vous souhaitez vous connecter. Si vous utilisez le guide de configuration assistée **Paramétrage de la connexion Common Data Service** pour créer la connexion, nous découvrirons vos environnements, mais vous pouvez également saisir l’URL d’un autre environnement dans votre abonné.  
+* L’URL pour l’environnement [!INCLUDE[cds_long_md](includes/cds_long_md.md)] auquel vous souhaitez vous connecter. Si vous utilisez le guide de configuration assistée **Paramétrage de la connexion Dataverse** pour créer la connexion, nous découvrirons vos environnements, mais vous pouvez également saisir l’URL d’un autre environnement dans votre abonné.  
 * Le nom d’utilisateur et le mot de passe d’un compte ayant les autorisations administrateur dans [!INCLUDE[prod_short](includes/prod_short.md)] et [!INCLUDE[cds_long_md](includes/cds_long_md.md)].  
 * Si vous avez une vague de lancement 1 de 2020 [!INCLUDE[prod_short](includes/prod_short.md)] sur site, version 16.5, lisez l’article [Quelques problèmes connus](/dynamics365/business-central/dev-itpro/upgrade/known-issues#wrong-net-assemblies-for-external-connected-services). Vous devrez effectuer la solution de contournement décrite avant de pouvoir créer votre connexion à [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
+
+> [!IMPORTANT]
+> Votre environnement [!INCLUDE[cds_long_md](includes/cds_long_md.md)] ne doit pas être en mode Administration. Le mode Administration entraînera l’échec de la connexion car le compte d’utilisateur d’intégration pour la connexion ne dispose pas des autorisations d’administrateur. Pour plus d’informations, voir [Mode Administration](/power-platform/admin/admin-mode).
 
 > [!Note]
 > Ces étapes décrivent la procédure pour la version en ligne de [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -36,19 +39,19 @@ Avant de créer la connexion, quelques informations doivent être préparées :
 
 ## <a name="set-up-a-connection-to-cds_long_md"></a>Configurer une connexion vers [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
-Pour tous les types d’authentification autres que l’authentification Microsoft 365, configurez votre connexion à [!INCLUDE[cds_long_md](includes/cds_long_md.md)] sur la page **Paramétrage de la connexion Common Data Service**. Pour l’authentification Microsoft 365, il est recommandé d’utiliser le guide de configuration assistée **Configurer la connexion Common Data Service**. Le guide facilite la configuration de la connexion et spécifie les fonctions avancées telles que le modèle de propriété et la synchronisation initiale.  
+Pour tous les types d’authentification autres que l’authentification Microsoft 365, configurez votre connexion à [!INCLUDE[cds_long_md](includes/cds_long_md.md)] sur la page **Paramétrage de la connexion Dataverse**. Pour l’authentification Microsoft 365, il est recommandé d’utiliser le guide de configuration assistée **Configurer la connexion Dataverse**. Le guide facilite la configuration de la connexion et spécifie les fonctions avancées telles que le modèle de propriété et la synchronisation initiale.  
 
 > [!IMPORTANT]
 > Pendant la configuration de la connexion à [!INCLUDE[cds_long_md](includes/cds_long_md.md)], l’administrateur sera invité à accorder les autorisations suivantes à l’application Azure enregistrée nommée [!INCLUDE[prod_short](includes/prod_short.md)] Intégration à [!INCLUDE[cds_long_md](includes/cds_long_md.md)] :
 >
-> * **Accès [!INCLUDE[cds_long_md](includes/cds_long_md.md)] comme vous** une autorisation est nécessaire afin que [!INCLUDE[prod_short](includes/prod_short.md)] puisse, au nom de l’administrateur, créer automatiquement un utilisateur d’application d’intégration [!INCLUDE[prod_short](includes/prod_short.md)] sans licence non interactive, attribuer des rôles de sécurité à cet utilisateur et déployer [!INCLUDE[prod_short](includes/prod_short.md)] la solution d’intégration de base CDS à [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Cette autorisation n’est utilisée qu’une seule fois pendant la configuration de la connexion à [!INCLUDE[cds_long_md](includes/cds_long_md.md)].  
+> * **Accédez à [!INCLUDE[cds_long_md](includes/cds_long_md.md)] étant donné que votre** autorisation est nécessaire afin que [!INCLUDE[prod_short](includes/prod_short.md)] puisse, au nom de l’administrateur, créer automatiquement un utilisateur d’application d’intégration [!INCLUDE[prod_short](includes/prod_short.md)] sans licence non interactive, attribuer des rôles de sécurité à cet utilisateur et déployer [!INCLUDE[prod_short](includes/prod_short.md)] la solution d’intégration à [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Cette autorisation n’est utilisée qu’une seule fois pendant la configuration de la connexion à [!INCLUDE[cds_long_md](includes/cds_long_md.md)].  
 > * **Avoir un accès complet à Dynamics 365 [!INCLUDE[prod_short](includes/prod_short.md)]** une autorisation est nécessaire donc [!INCLUDE[prod_short](includes/prod_short.md)] l’utilisateur d’application d’intégration créé automatiquement peut accéder aux données [!INCLUDE[prod_short](includes/prod_short.md)] qui seront synchronisées.  
 > * Une autorisation **Connectez-vous et lisez votre profil** est nécessaire pour vérifier que l’utilisateur qui se connecte a bien le rôle de sécurité Administrateur système affecté dans [!INCLUDE[cds_long_md](includes/cds_long_md.md)].  
 >
 > En donnant son consentement au nom de l’organisation, l’administrateur autorise l’application Azure enregistrée appelée [!INCLUDE[prod_short](includes/prod_short.md)] Intégration à [!INCLUDE[cds_long_md](includes/cds_long_md.md)] à synchroniser les données en utilisant les informations d’identification de l’utilisateur d’application d’intégration [!INCLUDE[prod_short](includes/prod_short.md)] automatiquement créé.
 
-### <a name="to-use-the-common-data-service-connection-setup-assisted-setup-guide"></a>Pour utiliser le guide de configuration assistée Paramétrage de la connexion Common Data Service
-Le guide de configuration de connexion Common Data Service peut faciliter la connexion des applications et peut même vous aider à exécuter une synchronisation initiale. Si vous choisissez d’exécuter la synchronisation initiale, [!INCLUDE[prod_short](includes/prod_short.md)] examinera les données des deux applications et fournira des recommandations sur la manière d’aborder la synchronisation initiale. Le tableau suivant décrit les recommandations.
+### <a name="to-use-the-dataverse-connection-setup-assisted-setup-guide"></a>Pour utiliser le guide de configuration assistée Paramétrage de la connexion Dataverse
+Le guide de configuration de connexion Dataverse peut faciliter la connexion des applications et peut même vous aider à exécuter une synchronisation initiale. Si vous choisissez d’exécuter la synchronisation initiale, [!INCLUDE[prod_short](includes/prod_short.md)] examinera les données des deux applications et fournira des recommandations sur la manière d’aborder la synchronisation initiale. Le tableau suivant décrit les recommandations.
 
 |Recommandation  |Description  |
 |---------|---------|
@@ -60,7 +63,7 @@ Le guide de configuration de connexion Common Data Service peut faciliter la con
 > En règle générale, vous n’utilisez la synchronisation complète que lorsque vous intégrez les applications pour la première fois et qu’une seule application contient des données. La synchronisation complète peut être utile dans un environnement de démonstration, car elle crée et couple automatiquement des enregistrements dans chaque application, ce qui accélère le travail avec des données synchronisées. Cependant, vous devez exécuter une synchronisation complète uniquement si vous souhaitez une ligne dans [!INCLUDE[prod_short](includes/prod_short.md)] pour chaque ligne dans [!INCLUDE[cds_long_md](includes/cds_long_md.md)] pour les mappages de table donnés. Sinon, le résultat peut être des enregistrements en double.
 
 1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Configuration assistée**, puis sélectionnez le lien associé.
-2. Sélectionnez **Configurer la connexion Dataverse** pour lancer le guide de configuration assistée.
+2. Sélectionnez **Configurer la connexion à Microsoft Dataverse** pour lancer le guide de configuration assistée.
 3. Renseignez les champs selon vos besoins.
 
 > [!NOTE]
@@ -68,9 +71,9 @@ Le guide de configuration de connexion Common Data Service peut faciliter la con
 
 ### <a name="to-create-or-maintain-the-connection-manually"></a>Pour créer ou conserver manuellement la connexion
 
-La procédure suivante décrit comment configurer manuellement la connexion sur la page **Paramétrage de la connexion Common Data Service**. Il s’agit également de la page sur laquelle vous gérez les paramètres pour l’intégration.
+La procédure suivante décrit comment configurer manuellement la connexion sur la page **Paramétrage de la connexion Dataverse**. Il s’agit également de la page sur laquelle vous gérez les paramètres pour l’intégration.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramétrage de la connexion Common Data Service**, puis sélectionnez le lien associé.
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramétrage de la connexion Dataverse**, puis sélectionnez le lien associé.
 2. Saisissez les informations suivantes pour la connexion de [!INCLUDE[cds_long_md](includes/cds_long_md.md)] vers [!INCLUDE[prod_short](includes/prod_short.md)].
 
     |Champ|Description|
@@ -105,16 +108,16 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 
 ## <a name="connecting-on-premises-versions"></a>Connexion des versions locales
 
-Pour connecter [!INCLUDE[prod_short](includes/prod_short.md)] sur site à [!INCLUDE[cds_long_md](includes/cds_long_md.md)], vous devez spécifier quelques informations sur la page **Configuration de la connexion Common Data Service**.
+Pour connecter [!INCLUDE[prod_short](includes/prod_short.md)] sur site à [!INCLUDE[cds_long_md](includes/cds_long_md.md)], vous devez spécifier quelques informations sur la page **Configuration de la connexion Dataverse**.
 
 Si vous souhaitez vous connecter à l’aide d’un compte Azure Active Directory (Azure AD), vous devez enregistrer une application dans Azure AD et fournir l’ID d’application, le secret Key Vault et l’URL de redirection à utiliser. L’URL de redirection est pré-remplie et devrait fonctionner pour la plupart des installations. Vous devez configurer votre installation pour utiliser HTTPS. Pour plus d’informations, voir [Configuration de SSL pour sécuriser la connexion du client Web Business Central](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Si vous configurez votre serveur pour avoir une page d’accueil différente, vous pouvez toujours changer l’URL. Le secret client sera enregistré sous forme de chaîne cryptée dans votre base de données.  
 
 ### <a name="to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-dataverse"></a>Pour enregistrer une application dans Azure AD pour se connecter de Business Central à Dataverse
 
-Les étapes suivantes supposent que vous utilisez Azure AD pour gérer les identités et les accès. Pour plus d’informations sur l’enregistrement d’une application dans Azure AD, voir [Démarrage rapide : enregistrer une application avec la plateforme idtable Microsoft](/azure/active-directory/develop/quickstart-register-app). Si vous n’utilisez pas Azure AD, voir [Utilisation d’un autre service de gestion des Idtable et des accès](admin-how-to-set-up-a-dynamics-crm-connection.md#using-another-idtable-and-access-management-service).  
+Les étapes suivantes supposent que vous utilisez Azure AD pour gérer les identités et les accès. Pour plus d’informations sur l’enregistrement d’une application dans Azure AD, voir [Démarrage rapide : enregistrer une application avec la plateforme d’identité Microsoft](/azure/active-directory/develop/quickstart-register-app). Si vous n’utilisez pas Azure AD, voir [Utilisation d’un autre service de gestion des identités et des accès](admin-how-to-set-up-a-dynamics-crm-connection.md#using-another-identity-and-access-management-service).  
 
 1. Dans le portail Azure, sous **Gérer** dans le volet de navigation, choisissez **Authentification**.  
-2. Sous **Rediriger les URL**, ajoutez l’URL de redirection suggérée sur la page de **Configuration de la connexion Common Data Service** dans [!INCLUDE[prod_short](includes/prod_short.md)].
+2. Sous **Rediriger les URL**, ajoutez l’URL de redirection suggérée sur la page de **Configuration de la connexion Dataverse** dans [!INCLUDE[prod_short](includes/prod_short.md)].
 3. Sous **Gérer**, choisissez **Autorisations d’API**.
 4. Sous **Autorisations configurées**, choisissez **Ajouter une autorisation**, puis ajoutez des autorisations déléguées sur l’onglet **API Microsoft** comme suit :
     * Pour Business Central, ajoutez les autorisations **Financials.ReadWrite.All**.
@@ -123,23 +126,23 @@ Les étapes suivantes supposent que vous utilisez Azure AD pour gérer les ident
     > [!NOTE]
     > Le nom de l’API Dynamics CRM peut changer.
 
-5. Sous **Gérer**, choisissez **Certificats et secrets**, puis créez un nouveau secret pour votre application. Vous utiliserez le secret soit dans [!INCLUDE[prod_short](includes/prod_short.md)], dans le champ **Secret client** sur la page **Configuration de la connexion Common Data Service** ou stockez-le dans un stockage sécurisé et fournissez-le dans un souscripteur d’événements, comme décrit précédemment dans cette rubrique.
-6. Choisissez **Aperçu**, puis recherchez la valeur **ID application (client)**. Il s’agit de l’ID client de votre application. Vous devez le saisir soit sur la page **Configuration de la connexion Common Data Service** dans le champ **ID client** ou stockez-le dans un stockage sécurisé et fournissez-le à un souscripteur d’événements.
-7. Dans [!INCLUDE[prod_short](includes/prod_short.md)], sur la page **Configuration de la connexion Common Data Service**, dans le champ **URL Environnement**, saisissez l’URL de votre environnement [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
+5. Sous **Gérer**, choisissez **Certificats et secrets**, puis créez un nouveau secret pour votre application. Vous utiliserez le secret soit dans [!INCLUDE[prod_short](includes/prod_short.md)], dans le champ **Secret client** sur la page **Configuration de la connexion Dataverse** ou stockez-le dans un stockage sécurisé et fournissez-le dans un souscripteur d’événements, comme décrit précédemment dans cette rubrique.
+6. Choisissez **Aperçu**, puis recherchez la valeur **ID application (client)**. Il s’agit de l’ID client de votre application. Vous devez le saisir soit sur la page **Configuration de la connexion Dataverse** dans le champ **ID client** ou stockez-le dans un stockage sécurisé et fournissez-le à un souscripteur d’événements.
+7. Dans [!INCLUDE[prod_short](includes/prod_short.md)], sur la page **Configuration de la connexion Dataverse**, dans le champ **URL Environnement**, saisissez l’URL de votre environnement [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 8. Pour activer la connexion à [!INCLUDE[cds_long_md](includes/cds_long_md.md)], activez le bouton bascule **Activé**.
 9. Connectez-vous avec votre compte administrateur pour Azure Active Directory (ce compte doit avoir une licence valide pour [!INCLUDE[cds_long_md](includes/cds_long_md.md)] et être administrateur dans votre environnement [!INCLUDE[cds_long_md](includes/cds_long_md.md)]). Une fois connecté, vous serez invité à autoriser votre application enregistrée à se connecter à [!INCLUDE[cds_long_md](includes/cds_long_md.md)] au nom de l’organisation. Vous devez donner votre accord pour terminer la configuration.
 
    > [!NOTE]
    > Si vous n’êtes pas invité à vous connecter avec votre compte administrateur, c’est probablement parce que les fenêtres contextuelles sont bloquées. Pour vous connecter, autorisez les fenêtres contextuelles de `https://login.microsoftonline.com`.
 
-#### <a name="using-another-idtable-and-access-management-service"></a>Utilisation d’un autre service de gestion des Idtable et des accès
+#### <a name="using-another-identity-and-access-management-service"></a>Utilisation d’un autre service de gestion des identités et des accès
 
 Si vous n’utilisez pas Azure Active Directory pour gérer les identités et les accès, vous aurez besoin de l’aide d’un développeur. Si vous préférez stocker l’ID d’application et le secret dans un emplacement différent, vous pouvez laisser les champs ID client et Secret client vides et écrire une extension pour récupérer l’ID et le secret depuis l’emplacement. Vous pouvez fournir le secret lors de l’exécution en vous abonnant aux événements OnGetCDSConnectionClientId et OnGetCDSConnectionClientSecret dans codeunit 7201 « CDS Integration Impl. »
 
 ### <a name="to-disconnect-from-cds_long_md"></a>Pour se déconnecter de [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramétrage de la connexion Common Data Service**, puis sélectionnez le lien associé.
-2. Sur la page **Paramétrage de la connexion Common Data Service**, désactivez le bouton bascule **Activé**.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramétrage de la connexion Dataverse**, puis sélectionnez le lien associé.
+2. Sur la page **Paramétrage de la connexion Dataverse**, désactivez le bouton bascule **Activé**.  
 
 ## <a name="see-also"></a>Voir aussi
 

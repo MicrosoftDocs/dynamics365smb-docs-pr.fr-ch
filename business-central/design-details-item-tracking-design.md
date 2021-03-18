@@ -3,19 +3,19 @@ title: Détails de conception - Création de traçabilité | Microsoft Docs
 description: Cette rubrique décrit la conception associée à la traçabilité dans Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item, tracking, tracing
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 87c85de9f501e093679512b709841d0027fe17bf
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: a0c60381634543f367e85a465c4ee74c3396d5ad
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751345"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391013"
 ---
 # <a name="design-details-item-tracking-design"></a>Détails de conception : création de traçabilité
 Dans la première version de traçabilité dans [!INCLUDE[prod_short](includes/prod_short.md)] 2.60, les numéros de série ou les numéros de lot ont été enregistrés directement sur les écritures comptables article. Ce design a fourni des informations de disponibilité complète et un suivi unique des écritures historiques, mais il a manqué de flexibilité et de fonctionnalité.  

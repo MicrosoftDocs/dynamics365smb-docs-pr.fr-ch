@@ -3,19 +3,19 @@ title: Activer les paiements client via les services de paiement| Microsoft Docs
 description: Activez les services de paiement pour permettre aux clients de payer facilement leurs factures.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online payment
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3bcfac75d1d161a4163fda466e320b0efd408655
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 5fa58c177629fdf386bca0ebfce2b668a55cbc8f
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758282"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393367"
 ---
 # <a name="enable-customer-payments-through-payment-services"></a>Activer les paiements client via les services de paiement
 Au lieu de collecter des paiements par l’intermédiaire de transferts bancaires ou de cartes de crédit, vos clients peuvent vous payer via leur compte avec des services de paiement, tels que Microsoft Pay, PayPal ou WorldPay.  

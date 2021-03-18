@@ -3,24 +3,27 @@ title: Procédure d’utilisation de la TVA sur les ventes et les achats | Micro
 description: Cette rubrique décrit comment effectuer des tâches telles que la correction de la TVA validée. Dans les pays/régions de l’UE, chaque transaction de vente et d’achat est soumise à des calculs de TVA. Elle décrit la procédure à suivre.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: bce25a87849a65d0307e6475716891396167697c
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: f66d061f383236cd7fbe96ebebaf1a790202b758
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746631"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493107"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Utiliser la TVA sur les ventes et les achats
 Si votre pays ou région vous demande de calculer la TVA sur les transactions de vente et d’achat afin de pouvoir déclarer les montants à une administration fiscale, vous pouvez configurer [!INCLUDE[prod_short](includes/prod_short.md)] pour calculer automatiquement la TVA sur les documents vente et achat. Pour plus d’informations, voir [Configuration des méthodes de calcul et de validation de la taxe sur la valeur ajoutée](finance-setup-vat.md).
 
-Il existe, cependant, certaines tâches associées à la TVA que vous pouvez effectuer manuellement. Par exemple, vous devrez peut-être corriger un montant validé si vous découvrez qu’un fournisseur utilise un mode d’arrondi différent.
+Il existe, cependant, certaines tâches associées à la TVA que vous pouvez effectuer manuellement. Par exemple, vous devrez peut-être corriger un montant validé si vous découvrez qu’un fournisseur utilise un mode d’arrondi différent.  
+
+> [!TIP]
+> Vous pouvez laisser [!INCLUDE[prod_short](includes/prod_short.md)] valider les numéros d’identification intracommunautaire et d’autres informations société lorsque vous créez ou mettez à jour des documents. Pour plus d’informations, consultez [Valider des numéros d’identification intracommunautaire](finance-how-validate-vat-registration-number.md).
 
 ## <a name="calculating-and-displaying-vat-amounts-in-sales-and-purchase-documents"></a>Calcul et affichage des montants de TVA dans des documents achat et vente  
 Vous pouvez calculer et afficher des montants de TVA dans des documents achat et vente de façon différente, en fonction du type de client ou de fournisseur avec lequel vous traitez. Vous pouvez également remplacer le montant de TVA calculé pour qu’il corresponde au montant de TVA calculé par le fournisseur sur une transaction donnée.  
@@ -173,15 +176,16 @@ Pour afficher un groupe de certificats, vous commencez à partir de la page **Ce
 
     > [!NOTE]  
     >  Vous ne pouvez pas créer un nouveau certificat d’approvisionnement sur la page **Certificat d’approvisionnement** lorsque vous y accédez à l’aide de cette procédure. Pour créer un certificat pour une expédition qui n’a pas été configurée pour en exiger, ouvrez l’expédition vente validée et utilisez l’une des deux procédures décrites ci-dessus :  
-    >   
+    >
     > * Pour créer manuellement un certificat d’approvisionnement.  
     > * Pour imprimer un certificat d’approvisionnement.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Voir aussi  
-[Configuration des méthodes de calcul et de validation de la taxe sur la valeur ajoutée](finance-setup-vat.md)   
-[Déclarer la TVA à une autorité fiscale](finance-how-report-vat.md)   
+## <a name="see-also"></a>Voir aussi
 
+[Configuration des méthodes de calcul et de validation de la taxe sur la valeur ajoutée](finance-setup-vat.md)  
+[Déclarer la TVA à une autorité fiscale](finance-how-report-vat.md)  
+[Valider un numéro d’identification intracommunautaire](finance-how-validate-vat-registration-number.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

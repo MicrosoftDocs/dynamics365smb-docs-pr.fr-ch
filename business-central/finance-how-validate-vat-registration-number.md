@@ -1,38 +1,38 @@
 ---
 title: Valider des numéros d’identification intracommunautaire
-description: Laissez Business Central utiliser le service VIES pour valider automatiquement les numéros d’immatriculation à la TVA.
-author: kielkenny
+description: Laissez Business Central valider les numéros d’identification intra-communautaire et d’autres informations sur la société pour vos contacts, clients et fournisseurs, sur la base du service de validation du numéro d’identification intra-communautaire de l’Union européenne.
+author: andregu
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 10/01/2020
+ms.date: 02/25/2021
 ms.author: andregu
-ms.openlocfilehash: 80e955e96a64c5a0bd91d0a72297b32d67ff4ab6
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 867ae5e726de5f2f78e4862a2d8c55dbc3d43ca0
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4750585"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5492932"
 ---
 # <a name="validate-vat-registration-numbers"></a>Valider des numéros d’identification intracommunautaire
 
-Il est important que les numéros d’identification TVA des clients, fournisseurs et contacts soient valides. Par exemple, les sociétés modifient parfois leur statut d’assujettissement à la TVA, et dans certains pays, les autorités fiscales peuvent vous demander de fournir des états, tels que l’état Liste des ventes UE, qui répertorient les numéros d’identification TVA à utiliser lorsque vous faites des affaires.
+Il est important que les numéros d’identification intra-communautaire des clients, fournisseurs et contacts soient valides, si vous utilisez [!INCLUDE [prod_short](includes/prod_short.md)] dans un pays où la TVA est utilisée. Par exemple, les sociétés modifient parfois leur statut d’assujettissement à la TVA, et dans certains pays, les autorités fiscales peuvent vous demander de fournir des états, tels que l’état **Liste des ventes UE**, qui répertorient les numéros d’identification intra-communautaire à utiliser lorsque vous faites des affaires.
 
-La Commission européenne fournit le service VIES de validation des numéros TVA sur son site Web, qui est public et gratuit. [!INCLUDE[prod_short](includes/prod_short.md)] vous permet de supprimer cette étape et d’utiliser le service VIES pour valider et suivre les numéros de TVA des clients, fournisseurs et contacts directement à partir des fiches client, fournisseur et contact. Le service de [!INCLUDE[prod_short](includes/prod_short.md)] s’appelle **Services validation N° id. intracomm. Union européenne**. Il est disponible sur la page **Connexions au service**, et vous pouvez commencer à l’utiliser immédiatement. La connexion au service est gratuite, et l’inscription n’est pas obligatoire.
+La Commission européenne fournit le service VIES de validation des numéros TVA sur son site Web, qui est public et gratuit. [!INCLUDE [prod_short](includes/prod_short.md)] vous permet de supprimer cette étape et d’utiliser le service VIES pour valider et suivre les numéros de TVA et d’autres informations de société pour les clients, fournisseurs et contacts. Le service de [!INCLUDE [prod_short](includes/prod_short.md)] s’appelle **Services validation N° id. intracomm. Union européenne**. Il est disponible sur la page **Connexions au service**, et vous pouvez commencer à l’utiliser immédiatement. La connexion au service est gratuite, et aucune inscription supplémentaire n’est obligatoire.
 
-## <a name="to-verify-vat-registration-numbers"></a>Pour vérifier les numéros d’identification TVA
+## <a name="configure-the-service-to-verify-vat-registration-numbers-automatically"></a>Configurer le service pour vérifier automatiquement les numéros d’identification intra-communautaire
 
-Afin d’activer **Services validation N° id. intracomm. Union européenne**, ouvrez l’entrée sur la page **Connexion au service**. Le champ **Point de terminaison de service** doit être déjà rempli. Sinon, vous pouvez utiliser l’action **Définir le point de terminaison par défaut**. Puis définissez le champ **Activé**.
+Pour activer **Services validation N° id. intracomm. Union européenne**, ouvrez l’entrée sur la page **Connexion au service**. Si le champ **Point de terminaison de service** n’est pas déjà rempli, utilisez l’action **Définir le point de terminaison par défaut**. Puis définissez le champ **Activé**.  
 
-> [!NOTE]
-> Pour activer les Services validation N° id. intracomm. Union européenne, vous devez disposer des autorisations de l’administrateur.
+> [!IMPORTANT]
+> Pour activer le service de validation, vous devez disposer des autorisations de l’administrateur.
+
+Vous pouvez éventuellement configurer des modèles pour les types de données liées à la TVA que vous souhaitez que le service vérifie également. Pour plus d’informations, consultez la section [Modèles de validation](#validation-templates).
 
 Lorsque vous utilisez la connexion à notre service, nous enregistrons un historique des numéros de TVA et des vérifications pour chaque client, fournisseur ou contact dans le **Journal identif. intracomm** pour faciliter le suivi. Le journal est spécifique à chaque client. Par exemple, le journal est utile pour prouver que vous avez vérifié que le numéro de TVA actuel est correct. Lorsque vous vérifiez un numéro de TVA, la colonne **Identificateur de demande** du journal indique que vous avez effectué des actions.
 
 Vous pouvez afficher le journal d’identification TVA sur les fiches client, fournisseur ou contact, sous le raccourci **Facturation**, en cliquant sur le bouton de recherche dans le champ **N° identif. intracomm.**  
-
-Notre service peut aussi vous faire gagner du temps lorsque vous créez un client ou un fournisseur. Si vous connaissez le numéro TVA du client, vous pouvez le saisir dans le champ **N° identif. intracomm.** des fiches client ou fournisseur, et nous complèterons le nom du client pour vous. Certains pays fournissent également les adresses de société dans un format structuré. Dans ces pays, nous compléterons aussi l’adresse.  
 
 Voici quelques points à noter concernant le service VIES de validation de numéros de TVA :
 
@@ -41,6 +41,19 @@ Voici quelques points à noter concernant le service VIES de validation de numé
 
 > [!IMPORTANT]
 > Il vous incombe de vérifier la validité des données. Parfois, des données comportant des erreurs sont renvoyées par le service VIES de validation des numéros de TVA. Si la validation échoue, validez les numéros d’identification TVA sur le [site web](https://ec.europa.eu/taxation_customs/vies/), imprimez le résultat ou enregistrez-le dans un emplacement partagé, puis ajoutez le lien vers l’enregistrement de votre client, fournisseur ou contact. Pour plus d’informations, voir [Gérer les pièces jointes, les liens et les notes sur les fiches et les documents](ui-how-add-link-to-record.md).
+
+## <a name="validation-templates"></a>Modèles de validation
+
+[!INCLUDE [2020rw_online_only](includes/2020rw_online_only.md)]
+
+Vous pouvez utiliser le service VIES pour vérifier également d’autres informations société, telles que l’adresse, ainsi que le numéro d’identification intra-communautaire. Dans la page **Modèles Validation n° identif. intracomm.**, créez une entrée pour chaque pays pour lequel vous souhaitez obtenir une validation supplémentaire, puis spécifiez les informations que vous souhaitez faire valider automatiquement.  
+
+Par exemple, ajoutez une entrée pour l’Espagne dans laquelle vous souhaitez obtenir la validation du nom, de la rue, de la ville et du code postal, puis une autre entrée pour l’Allemagne où vous souhaitez simplement valider le code postal, par exemple. Puis, dans la page **Paramètres services validation N° id. intracomm. Union européenne**, spécifiez le modèle par défaut.  
+
+> [!NOTE]
+> Assurez-vous toujours que le modèle par défaut répond à vos besoins. Vous pouvez modifier la valeur par défaut pour qu’elle corresponde à vos besoins, comme obtenir la validation de tous les champs ou d’aucun champ.
+
+La prochaine fois que vous spécifiez un numéro d’identification intra-communautaire, le service valide le numéro et toutes les données supplémentaires déterminées par vos modèles de validation. Si les valeurs spécifiées sont différentes des valeurs renvoyées par le service, vous verrez les détails dans la page **Détails de validation** sur laquelle vous pouvez accepter ou réinitialiser les valeurs.  
 
 ## <a name="see-also"></a>Voir aussi
 

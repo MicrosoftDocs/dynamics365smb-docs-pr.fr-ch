@@ -3,19 +3,19 @@ title: Détails de conception - Traçabilité et planification | Microsoft Docs
 description: Puisqu’ils sont enregistrés dans le système de réservation, les numéros de traçabilité sont coordonnés entièrement avec l’enregistrement de chaînage.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4f9fd9287055bed116201d13417a6a392cf9b477
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5cb0e5616bb2b04fba3c8819f58f8da2f396601d
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927012"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390995"
 ---
 # <a name="design-details-item-tracking-and-planning"></a>Détails de conception : traçabilité et planification d’article
 Puisqu’ils sont enregistrés dans le système de réservation, les numéros de traçabilité sont coordonnés entièrement avec l’enregistrement de chaînage. Cela signifie que les articles qui ont des numéros de suivi de commande peuvent se voir affecter des numéros de suivi d’article. Inversement, les articles qui ont des numéros traçabilité peuvent devenir des enregistrement de chaînage. Pour plus d’informations, voir [Détails de conception : création de traçabilité](design-details-item-tracking-design.md).
@@ -29,7 +29,7 @@ Comme le chaînage est basé uniquement sur le lettrage d’un article spécifiq
 
 Conformément aux principes standard d’équilibrage de l’approvisionnement/de la demande, le système de planification et la fonction chaînage liée ne met en correspondance qu’un approvisionnement et une demande comportant des numéros traçabilité si l’article en question utilise la traçabilité spécifique. Dans tous les autres cas, les systèmes de planification et de chaînage ignorent les numéros traçabilité lors de l’application d’un approvisionnement pour répondre à une demande ou d’une demande à un approvisionnement. Pour plus d’informations, voir [Détails de conception : réservation, chaînage et message d’action](design-details-reservation-order-tracking-and-action-messaging.md).
 
-Par exemple, lorsque le chaînage existe pour un article donné, cela implique que l’enregistrement de l’article est déjà dans la table **Ecriture réservation** , qui est le cœur du système de réservation, avant que les numéros traçabilité ne soient définis. Par conséquent, les restrictions de couplage suivantes s’appliquent aux numéros de suivi des articles pour le suivi de commande :
+Par exemple, lorsque le chaînage existe pour un article donné, cela implique que l’enregistrement de l’article est déjà dans la table **Ecriture réservation**, qui est le cœur du système de réservation, avant que les numéros traçabilité ne soient définis. Par conséquent, les restrictions de couplage suivantes s’appliquent aux numéros de suivi des articles pour le suivi de commande :
 
 - Une demande avec un numéro de série ou un numéro de lot peut couvrir uniquement un approvisionnement de même numéro de série ou de lot.
 - Une demande sans numéro de série ou de lot peut couvrir tout approvisionnement, avec ou sans numéro de série ou de lot.

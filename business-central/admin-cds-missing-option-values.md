@@ -6,21 +6,23 @@ ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.date: 10/01/2020
-ms.openlocfilehash: 65911039894d1f0eb81aeb1160a6b2aafc2fae0c
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 2b6d27ed04eb7f09bc884930105867c25b2b4a5f
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752890"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493026"
 ---
 # <a name="handling-missing-option-values"></a>Gestion des valeurs option manquantes
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
-[!INCLUDE[prod_short](includes/cds_long_md.md)] contient seulement trois champs d’ensembles d’options qui contiennent des valeurs option que vous pouvez mapper à des champs [!INCLUDE[prod_short](includes/prod_short.md)] de type Option<!-- Option type, not enum? @Onat can you vertify this? --> pour la synchronisation automatique. Lors de la synchronisation, les options non mappées sont ignorées et les options manquantes sont ajoutées à la table [!INCLUDE[prod_short](includes/prod_short.md)] associée et à la table système **Mappage option CDS** pour une gestion manuelle ultérieure. Par exemple, en ajoutant les options manquantes dans l’un ou l’autre des produits, puis en mettant à jour le mappage. Cette section décrit comment cela fonctionne.
+Cette rubrique est destinée à un public technique. Les processus qu’elle décrit nécessitent l’aide d’un développeur.
 
-La page **Mappage de table d’intégration** contient trois mappages pour les champs contenant une ou plusieurs valeurs option mappées. Après une synchronisation complète, la page **Mappage option CDS** contient les options non mappées dans les trois champs respectivement.
+[!INCLUDE[prod_short](includes/cds_long_md.md)] contient trois champs d’ensembles d’options qui contiennent des valeurs que vous pouvez mapper à des champs [!INCLUDE[prod_short](includes/prod_short.md)] de type Option pour la synchronisation automatique. Lors de la synchronisation, les options non mappées sont ignorées et les options manquantes sont ajoutées à la table [!INCLUDE[prod_short](includes/prod_short.md)] associée et à la table système **Mappage option Dataverse** pour une gestion manuelle ultérieure. Par exemple, en ajoutant les options manquantes dans l’un ou l’autre des produits, puis en mettant à jour le mappage.
+
+La page **Mappage de table d’intégration** contient trois champs contenant une ou plusieurs valeurs option mappées. Après une synchronisation complète, la page **Mappage option Dataverse** contient les options non mappées dans les trois champs.
 
 |         Enregistrement             | Valeur option | Légende valeur option |
 |----------------------------|--------------|----------------------|
@@ -38,7 +40,7 @@ La page **Mappage de table d’intégration** contient trois mappages pour les c
 | Transporteur : PLEICHARGE   | 6            | Pleine charge            |
 | Transporteur : APPELLERA   | 7            | Appellera            |
 
-Le contenu de la page **Mappage option CDS** est basé sur des valeurs d’énumération dans la table **Compte CDS**. Dans [!INCLUDE[prod_short](includes/cds_long_md.md)], les champs suivants de la table Compte sont mappés aux champs des enregistrements client et fournisseur :
+Le contenu de la page **Mappage option Dataverse** est basé sur des valeurs d’énumération dans la table **Compte CRM**. Dans [!INCLUDE[prod_short](includes/cds_long_md.md)], les champs suivants de la table Compte sont mappés aux champs des enregistrements client et fournisseur :
 
 - **Adresse 1 : conditions de transport** du type de données Énumération, où les valeurs sont définies comme suit :
 
@@ -55,7 +57,6 @@ enum 5335 "CDS Shipment Method Code"
 - **Adresse 1 : conditions de livraison** du type de données Énumération, où les valeurs sont définies comme suit :
 
 ```
-enum 5336 "CDS Shipping Agent Code"
 enum 5336 "CDS Shipping Agent Code"
 {
     Extensible = true;
@@ -111,7 +112,7 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 ### <a name="update-prod_short-option-mapping"></a>Mettre à jour le mappage option [!INCLUDE[prod_short](includes/cds_long_md.md)]
 Vous pouvez maintenant recréer le mappage entre les options [!INCLUDE[prod_short](includes/cds_long_md.md)] et les enregistrements [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Sur la page **Mappage de table d’intégration**, choisissez la ligne pour le mappage **Conditions de paiement**, puis l’action **Synchroniser les enregistrements modifiés**. La page **Mappage option CDS** est mise à jour avec les enregistrements supplémentaires ci-dessous.
+Sur la page **Mappage de table d’intégration**, choisissez la ligne pour le mappage **Conditions de paiement**, puis l’action **Synchroniser les enregistrements modifiés**. La page **Mappage option Dataverse** est mise à jour avec les enregistrements supplémentaires ci-dessous.
 
 |         Enregistrement                 | Valeur option   | Légende valeur option |
 |--------------------------------|----------------|----------------------|
@@ -122,7 +123,7 @@ Sur la page **Mappage de table d’intégration**, choisissez la ligne pour le m
 | **Conditions de paiement : PMT EN ESP**  | **779800001**  | **Paiement en espèces**     |
 | **Conditions de paiement : TRANSFERT**    | **779800002**  | **Transfert**         |
 
-La table **Conditions de paiement** dans [!INCLUDE[prod_short](includes/prod_short.md)] aura alors de nouveaux enregistrements pour les options [!INCLUDE[prod_short](includes/cds_long_md.md)]. Dans la table suivante, les nouvelles options sont en gras. Les lignes en italique représentent toutes les options qui peuvent maintenant être synchronisées. Les lignes restantes représentent les options non utilisées et seront ignorées lors de la synchronisation. (Vous pouvez les supprimer ou étendre les options CDS avec les mêmes noms.)
+La table **Conditions de paiement** dans [!INCLUDE[prod_short](includes/prod_short.md)] aura alors de nouveaux enregistrements pour les options [!INCLUDE[prod_short](includes/cds_long_md.md)]. Dans la table suivante, les nouvelles options sont en gras. Les lignes en italique représentent toutes les options qui peuvent maintenant être synchronisées. Les lignes restantes représentent les options non utilisées et seront ignorées lors de la synchronisation. (Vous pouvez les supprimer ou étendre les options Dataverse avec les mêmes noms.)
 
 | Code       | Calcul date échéance | Calcul date d’escompte | % remise | Calculer escompte sur avoirs | Description       |
 |------------|----------------------|---------------------------|------------|-------------------------------|-------------------|
@@ -136,10 +137,10 @@ La table **Conditions de paiement** dans [!INCLUDE[prod_short](includes/prod_sho
 | 30 JOURS    | 30J                  |                           | 0.         | FAUX                         | 30 jours nets       |
 | 60 JOURS    | 60J                  |                           | 0.         | FAUX                         | 60 jours nets       |
 | 7 JOURS     | 7J                   |                           | 0.         | FAUX                         | 7 jours nets        |
-| ***CASH PAYME** _ |                      |                           | 0.         | FAUX                         |                   |
+| ***PMT EN ESP*** |                      |                           | 0.         | FAUX                         |                   |
 | MC         | MC                   |                           | 0.         | FAUX                         | Mois en cours     |
 | PR        | 0J                   |                           | 0.         | FAUX                         | Payable à réception  |
-| _NET30*      |                      |                           | 0.         | FAUX                         |                   |
+| *NET30*      |                      |                           | 0.         | FAUX                         |                   |
 | *NET45*      |                      |                           | 0.         | FAUX                         |                   |
 | *NET60*      |                      |                           | 0.         | FAUX                         |                   |
 | ***TRANSFERT*** |                      |                           | 0.         | FAUX                         |                   |

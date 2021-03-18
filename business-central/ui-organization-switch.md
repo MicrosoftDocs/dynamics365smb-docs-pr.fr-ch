@@ -3,23 +3,23 @@ title: Passer à une autre entreprise ou un autre environnement | Microsoft Docs
 description: Si vous travaillez pour plusieurs organisations, vous pouvez rapidement passer d’un environnement et d’une société à l’autre.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: environments, companies, tenants, organization
-ms.date: 10/01/2020
+ms.date: 03/04/2020
 ms.author: bholtorf
-ms.openlocfilehash: fea55295867e42f450dc7e3826224d7e1698666a
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 2847d3240ed12acf356f6c68f4c0fcb67c362f61
+ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4760432"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5573466"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Passer à une autre entreprise ou un autre environnement
 
 [!INCLUDE [company_environment](includes/company_environment.md)] Pour plus d’informations, voir [Création de sociétés dans [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).  
 
 > [!TIP]
-> Si vous changez souvent de société, il peut être facile de perdre de vue où vous êtes. Pour vous aider à garder le fil, vous pouvez ajouter un badge qui affichera le nom de la société, afin que vous puissiez rapidement vérifier que vous êtes au bon endroit. Pour plus d’informations, voir [Pour afficher un badge d’entreprise pour un accès rapide aux informations de la société](ui-change-basic-settings.md#to-display-a-company-badge-for-quick-access-to-company-information).
+> Si vous changez souvent d’entreprise ou utilisez [!INCLUDE[prod_short](includes/prod_short.md)] depuis une autre application comme Microsoft Teams, vous pouvez facilement perdre de vue où vous êtes. Pour vous aider à garder le fil, vous pouvez ajouter un badge qui affichera le nom de la société, afin que vous puissiez rapidement vérifier que vous êtes au bon endroit. Pour plus d’informations, voir [Pour afficher un badge d’entreprise pour un accès rapide aux informations de la société](ui-change-basic-settings.md#badge).
 
 ## <a name="switch-to-another-environment"></a>Passer à un autre environnement
 

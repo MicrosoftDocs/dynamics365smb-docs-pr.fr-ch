@@ -3,19 +3,19 @@ title: Lettrer des paiements avec des documents vente échus | Microsoft Docs
 description: Vous lettrez les montants payés par les clients avec des documents vente associés et validez le paiement pour mettre à jour le client, la comptabilité, et les écritures comptables bancaires.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts, customer payment
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 17468db82be1ad816bd77d12693e8720860d6df6
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 335877aa6cb60b051745e5d6bacc36e1b6ddf449
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758431"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392664"
 ---
 # <a name="reconcile-customer-payments-from-a-list-of-unpaid-sales-documents"></a>Rapprocher les paiements client à partir de la liste des documents vente échus
 Lorsque vos clients ont effectué des paiements sur votre compte bancaire électronique, vous devez lettrer chaque montant payé avec le document vente associé, puis valider le paiement pour mettre à jour les écritures client, comptables et banque. Selon les besoins de votre entreprise, vous pouvez être payé et enregistrer ce paiement de diverses manières : manuellement, automatiquement, et via des services de paiement.  

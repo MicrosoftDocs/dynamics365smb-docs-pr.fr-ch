@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.date: 06/15/2020
 ms.author: bholtorf
-ms.openlocfilehash: 44fb1f467b0b44c41456a64c8de3f5ae9dc85786
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: b683a8567afbbec812a229e8e8ee0fda81d55bfb
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752765"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470452"
 ---
 # <a name="set-up-email"></a>Configurer la messagerie
 Les utilisateurs au sein des entreprises envoient des informations et des documents, tels que des commandes vente et achat et des factures, par e-mail, au quotidien. Les administrateurs peuvent faciliter cette tâche en connectant un ou plusieurs comptes de messagerie à [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez donc envoyer des documents sans avoir à ouvrir une application de messagerie. Vous pouvez composer chaque message individuellement avec des outils de mise en forme de base, tels que des polices, des styles, des couleurs, etc., et ajouter des pièces jointes pouvant atteindre 100 Mo. Les administrateurs peuvent également configurer des présentations d’états qui incluent uniquement les informations clés des documents. Pour plus d’informations, voir [Envoyer des documents par e-mail](ui-how-send-documents-email.md).
@@ -37,7 +37,7 @@ Le tableau suivant décrit les extensions de messagerie disponibles par défaut.
 
 |Extension  |Description  |Exemples de scénario où utiliser  |
 |---------|---------|---------|
-|**Microsoft 365**|Tout le monde envoie des e-mails à partir d’une boîte aux lettres partagée dans Exchange Online.|Lorsque tous les messages proviennent du même service, par exemple, votre organisation commerciale envoie des messages à partir d’un compte sales@cronus.com. Cela nécessite que vous configuriez une boîte aux lettres partagée dans le centre d’administration Office 365. Pour plus d’informations, consulter [Boîtes aux lettres partagées](/Exchange/collaboration/shared-mailboxes/shared-mailboxes.md).|
+|**Microsoft 365**|Tout le monde envoie des e-mails à partir d’une boîte aux lettres partagée dans Exchange Online.|Lorsque tous les messages proviennent du même service, par exemple, votre organisation commerciale envoie des messages à partir d’un compte sales@cronus.com. Cela nécessite que vous configuriez une boîte aux lettres partagée dans le centre d’administration Office 365. Pour plus d’informations, consulter [Boîtes aux lettres partagées](/Exchange/collaboration/shared-mailboxes/shared-mailboxes).|
 |**Utilisateur actuel**|Tout le monde envoie un e-mail à partir du compte de connexion habituel à [!INCLUDE[prod_short](includes/prod_short.md)].|Autorisez les communications à partir de comptes individuels.|
 |**Autre (SMTP)**|Utilisez le protocole SMTP pour envoyer des e-mails.|Autorisez les communications via votre serveur de messagerie SMTP. |
 
@@ -47,7 +47,7 @@ Le tableau suivant décrit les extensions de messagerie disponibles par défaut.
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4JsUk]
 
 ## <a name="legacy-smtp-settings-and-the-email---smtp-connector-extension"></a>Paramètres SMTP hérités et l’extension E-mail - Connecteur SMTP
-Si vous utilisez déjà [!INCLUDE[prod_short](includes/prod_short.md)] et si vous avez configuré le courrier électronique via la configuration SMTP héritée, vous pouvez continuer à utiliser votre configuration en parallèle avec l’extension Email - Connecteur SMTP. Lorsque nous mettons à jour votre [!INCLUDE[prod_short](includes/prod_short.md)] vers la prochaine version, nous copierons vos anciens paramètres SMTP dans l’extension Email - Connecteur SMTP. Lorsque vous êtes prêt, votre administrateur peut activer les fonctionnalités de messagerie améliorées et vous commencerez à utiliser l’extension Email - Connecteur SMTP. Pour plus d’informations, voir [À propos de la gestion des fonctionnalités](/dynamics365/business-central/dev-itpro/administration/feature-management.md#about-feature-management). Cependant, il n’y a pas de synchronisation entre l’extension du connecteur SMTP et les paramètres hérités. Si vous modifiez les paramètres SMTP dans l’extension, vous devez effectuer les mêmes modifications dans la configuration SMTP héritée, ou vice versa.
+Si vous utilisez déjà [!INCLUDE[prod_short](includes/prod_short.md)] et si vous avez configuré le courrier électronique via la configuration SMTP héritée, vous pouvez continuer à utiliser votre configuration en parallèle avec l’extension Email - Connecteur SMTP. Lorsque nous mettons à jour votre [!INCLUDE[prod_short](includes/prod_short.md)] vers la prochaine version, nous copierons vos anciens paramètres SMTP dans l’extension Email - Connecteur SMTP. Lorsque vous êtes prêt, votre administrateur peut activer les fonctionnalités de messagerie améliorées et vous commencerez à utiliser l’extension Email - Connecteur SMTP. Pour plus d’informations, voir [À propos de la gestion des fonctionnalités](/dynamics365/business-central/dev-itpro/administration/feature-management#about-feature-management). Cependant, il n’y a pas de synchronisation entre l’extension du connecteur SMTP et les paramètres hérités. Si vous modifiez les paramètres SMTP dans l’extension, vous devez effectuer les mêmes modifications dans la configuration SMTP héritée, ou vice versa.
 
 > [!NOTE]
 > Si vous avez des personnalisations qui reposent sur la configuration de messagerie SMTP héritée, il est possible que quelque chose se passe mal avec vos personnalisations si vous commencez à utiliser des extensions de messagerie. Nous vous recommandons de configurer et de tester les extensions avant d’activer le commutateur de fonctionnalité pour des fonctionnalités de messagerie améliorées.
@@ -157,7 +157,7 @@ Les étapes pour inscrire [!INCLUDE[prod_short](includes/prod_short.md)] dans le
 > * Rediriger l’URI (facultatif)
 > * Le secret du client
 
-Pour les instructions générales pour enregistrer une application, voir [Démarrage rapide : enregistrer une application avec la plateforme d’identité Microsoft](/azure/active-directory/develop/quickstart-register-app.md). 
+Pour les instructions générales pour enregistrer une application, voir [Démarrage rapide : enregistrer une application avec la plateforme d’identité Microsoft](/azure/active-directory/develop/quickstart-register-app). 
 
 ### <a name="connect-prod_short-to-your-app-registration"></a>Connecter l’application [!INCLUDE[prod_short](includes/prod_short.md)] à l’enregistrement de votre application
 Après avoir enregistré votre application dans le portail Azure, dans [!INCLUDE[prod_short](includes/prod_short.md)], utilisez le guide de configuration assistée **Enregistrement AAD de l’application de messagerie** pour y connecter [!INCLUDE[prod_short](includes/prod_short.md)].

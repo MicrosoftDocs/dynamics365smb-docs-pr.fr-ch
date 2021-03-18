@@ -3,16 +3,16 @@ title: Utiliser des états financiers et des aperçus dans Excel
 description: En savoir plus sur la manière dont vous pouvez ouvrir des états financiers dans Microsoft Excel à partir de Business Central pour une meilleure analyse.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 58c1d9bba8942dbd400a3ed0837ef7a39fd2bb13
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 54d4bed11f79aef8e5d4c123dceb479e263e5ec7
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4747156"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391164"
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Analyse des états financiers dans Microsoft Excel
 

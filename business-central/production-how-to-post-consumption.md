@@ -3,19 +3,19 @@ title: Procédure de validation par lots de la consommation | Microsoft Docs
 description: Si le champ Méthode consommation indique **Manuelle**, vous devez valider les composants manuellement à l’aide d’une feuille consommation.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ad21fa7f0a18b3549bdab19c07e0065d5fb684dd
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 0bf0a92d05b6c9ecb3d5a5ba054b4675680ad43c
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4759182"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391814"
 ---
 # <a name="batch-post-production-consumption"></a>Valider par lots la consommation de la production
 Si le champ Méthode consommation indique **Manuelle**, vous devez valider les composants manuellement à l’aide d’une feuille consommation.

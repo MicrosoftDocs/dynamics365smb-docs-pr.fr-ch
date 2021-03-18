@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: dd0974c20f8c038fcc0cac27c9ef165b2aadcd36
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 17e41dd44dd4f7f99eabd4904d5ebd7c48d9964d
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752515"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493032"
 ---
 # <a name="enabling-power-bi-integration-with-prod_short"></a>Activation de l’intégration de Power BI à [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -36,26 +36,33 @@ Pour plus d’informations, consultez [Gestion des licences du service Power BI 
 
 Cette section explique les conditions requises pour un déploiement [!INCLUDE[prod_short](includes/prod_short.md)] sur site à intégrer à Power BI.
 
-1. Les services Web OData et le point de terminaison ODataV4 sont activés.
+1. Configurez l’authentification NavUserPassword ou Azure Active Directory pour le déploiement.
+
+    L’intégration Power BI ne prend pas en charge l’authentification Windows.  
+
+2. Activez les services Web OData et le point de terminaison ODataV4.
 
     Le service Web OData doit être activé sur le [!INCLUDE[server](includes/server.md)] et le port OData ouvert dans le pare-feu. Pour plus d’informations, reportez-vous à la rubrique [Configuration de Business Central Server - Services Web OData](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#ODataServices).
-    
+
     Le serveur local doit être accessible depuis Internet.
 
-2. Les comptes d’utilisateur [!INCLUDE[prod_short](includes/prod_short.md)] ont une clé d’accès au service Web.
+3. Accordez aux comptes d’utilisateur [!INCLUDE[prod_short](includes/prod_short.md)] une clé d’accès au service Web.
 
-    Une clé d’accès au service Web est nécessaire pour afficher les données [!INCLUDE[prod_short](includes/prod_short.md)] dans Power BI. Vous pouvez attribuer une clé d’accès au service Web à chaque compte d’utilisateur. Ou plutôt, créez un compte spécifique avec une clé d’accès au service Web à l’usage de tous les utilisateurs. Pour plus d’informations, reportez-vous à la rubrique [Authentification des services Web](/dynamics365/business-central/dev-itpro/webservices/web-services-authentication#generate-a-web-service-access-key).
+    Une clé d’accès au service Web est nécessaire uniquement pour afficher les données [!INCLUDE[prod_short](includes/prod_short.md)] dans Power BI. Vous pouvez attribuer une clé d’accès au service Web à chaque compte d’utilisateur. Ou plutôt, créez un compte spécifique avec une clé d’accès au service Web à l’usage de tous les utilisateurs. Pour plus d’informations, reportez-vous à la rubrique [Authentification des services Web](/dynamics365/business-central/dev-itpro/webservices/web-services-authentication#generate-a-web-service-access-key).
 
-3. L’authentification NavUserPassword ou Azure Active Directory est configurée.
+4. Créez un enregistrement d’application pour [!INCLUDE[prod_short](includes/prod_short.md)] dans Microsoft Azure.
 
-4. Pour voir les états Power BI intégrés dans les pages [!INCLUDE[prod_short](includes/prod_short.md)], une application doit être enregistrée pour [!INCLUDE[prod_short](includes/prod_short.md)] dans Microsoft Azure.
-
-    L’application enregistrée a besoin d’une autorisation pour les services Power BI. Pour plus d’informations, consultez [Enregistrer [!INCLUDE[prod_short](includes/prod_short.md)] sur site dans Azure AD pour l’intégration avec d’autres services](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
+    Pour afficher les rapports Power BI intégrés dans les pages [!INCLUDE[prod_short](includes/prod_short.md)], une application doit être enregistrée pour [!INCLUDE[prod_short](includes/prod_short.md)] dans Microsoft Azure. L’application enregistrée a besoin d’une autorisation pour les services Power BI. Pour plus d’informations, consultez [Enregistrer [!INCLUDE[prod_short](includes/prod_short.md)] sur site dans Azure AD pour l’intégration avec d’autres services](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 
     > [!NOTE]
     > Si votre déploiement utilise l’authentification NavUserPassword, [!INCLUDE[prod_short](includes/prod_short.md)] se connecte au même service Power BI pour tous les utilisateurs. Vous spécifierez ce compte de service dans le cadre de l’enregistrement de l’application. Avec l’authentification Azure AD, [!INCLUDE[prod_short](includes/prod_short.md)] se connecte au service Power BI associé aux comptes utilisateurs individuels.
 
     <!-- Windows authentication can also be used but you can't get data from BC in Power BI -->
+5. Établissez la connexion initiale de Business Central vers Power BI.
+
+    Avant que les utilisateurs finaux puissent utiliser Power BI dans [!INCLUDE[prod_short](includes/prod_short.md)], un administrateur de l’application Azure devra donner son accord au service Power BI.
+
+    Pour établir la connexion initiale, ouvrez [!INCLUDE[prod_short](includes/prod_short.md)], et exécutez **Mise en route avec Power BI** à partir du Tableau de bord. Cette action vous guidera tout au long du processus de consentement et vérifiera votre licence Power BI. Lorsque vous y êtes invité, connectez-vous à l’aide d’un compte d’administrateur Azure. Pour en savoir plus, consultez [Se connecter à Power BI – une fois seulement](across-working-with-powerbi.md#connect).
 
 ## <a name="publish-data-as-web-services"></a>Publier des données en tant que services Web
 
@@ -65,9 +72,6 @@ Pour plus d’informations sur la publication des services Web, voir [Publier un
 
 > [!TIP]
 > Pour savoir ce que vous pouvez faire pour garantir les meilleures performances des services Web, comme observé depuis Business Central Server (point de terminaison) et le consommateur (client), consultez [Écrire des services Web efficaces](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-web-services).
-
-
-
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/Configure-powerbi-excel-dynamics-365-business-central/index)
 

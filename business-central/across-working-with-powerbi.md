@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: a747a0bdb67187597cc33185b418844247b2e2b2
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 8cf8946d8b9792c7fb557969257380d0b48d0d83
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752990"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493021"
 ---
 # <a name="working-with-power-bi-reports-in-prod_short"></a>Utilisation d’états Power BI dans [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -40,11 +40,11 @@ Si vous utilisez [!INCLUDE[prod_short](includes/prod_short.md)] sur site, il doi
 
 Inscrivez-vous au service Power BI. Si vous ne vous êtes pas encore inscrit, accédez à [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Au moment de votre inscription, utilisez votre adresse e-mail professionnelle et votre mot de passe.
 
-## <a name="connect-to-power-bi---one-time-only"></a>Se connecter à Power BI - une fois seulement
+## <a name="connect-to-power-bi---one-time-only"></a><a name="connect"></a>Se connecter à Power BI - une fois seulement
 
 Lorsque vous vous connectez pour la première fois [!INCLUDE [prod_short](includes/prod_short.md)], vous pourriez voir une partie Power BI vide sur une page, comme indiqué dans la figure précédente. La première chose à faire est de vous connecter à votre compte Power BI. Une fois connecté, vous pouvez voir les états. Vous ne devez effectuer cette étape qu’une seule fois.
 
-Pour vous connecter à Power BI, sélectionnez le lien **Prise en main de Power BI** dans la partie **États Power BI**.
+Pour vous connecter à Power BI, sélectionnez le lien **Prise en main de Power BI** dans la partie **États Power BI**. 
 
 Pendant le processus de connexion, [!INCLUDE [prod_short](includes/prod_short.md)] communique avec le service Power BI pour déterminer si vous avez un compte et une licence Power BI valides. Une fois votre licence vérifiée, l’état Power BI par défaut s’affiche sur la page. Si aucun état n’est affiché, vous pouvez sélectionner un état dans la partie.
 
@@ -53,7 +53,7 @@ Pendant le processus de connexion, [!INCLUDE [prod_short](includes/prod_short.md
 
 ##### <a name="from-prod_short-on-premises"></a>Depuis [!INCLUDE [prod_short](includes/prod_short.md)] sur site
 
-Se connecter à Power BI depuis [!INCLUDE [prod_short](includes/prod_short.md)] est identique à la version en ligne. Cependant, vous serez invité sur la page **AUTORISATIONS DE SERVICE AZURE ACTIVE DIRECTORY** pour accorder l’accès aux services Power BI. Pour accorder l’accès, sélectionnez **Autoriser les services Azure**, puis **Accepter**.
+Se connecter à Power BI depuis [!INCLUDE [prod_short](includes/prod_short.md)] est identique à la version en ligne. Cependant, vous pouvez être invité sur la page **AUTORISATIONS DE SERVICE AZURE ACTIVE DIRECTORY** pour accorder l’accès aux services Power BI. Pour accorder l’accès, sélectionnez **Autoriser les services Azure**, puis **Accepter**.
 
 Une fois connecté, vous pouvez sélectionner un état dans la partie Power BI sur les pages.
 

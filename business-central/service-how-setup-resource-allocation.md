@@ -3,19 +3,19 @@ title: Configurer l'affectation des ressources | Microsoft Docs
 description: Découvrez comment le système peut vous aider à affecter une personne dotée des compétences requises à la fourniture d'un service.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: resource, skill, service, zones
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 48d0f9f9e51a0da3f82abdb43e8c4bb6044a5f29
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 6cd246809d6b05f87c131c584267551938f74810
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758007"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392539"
 ---
 # <a name="set-up-resource-allocation"></a>Configurer l'affectation des ressources
 Pour assurer la bonne exécution d'une tâche service, il est important de trouver une ressource qualifiée. Vous pouvez configurer [!INCLUDE[prod_short](includes/prod_short.md)] de manière à affecter facilement une ressource disposant des compétences appropriées pour le travail. Dans [!INCLUDE[prod_short](includes/prod_short.md)], ce processus est appelé _affectation de ressources_. Vous pouvez affecter des ressources en fonction de leur compétence, de leur disponibilité, ou selon qu'elles se trouvent dans la même zone service que le client. 

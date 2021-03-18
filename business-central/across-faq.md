@@ -3,16 +3,16 @@ title: FAQ sur l’utilisation de Business Central
 description: Répond à des questions communes sur la manière de s’abonner ou d’acheter Business Central, de prolonger une version d’évaluation, d’annuler un abonnement, et de trouver une formation et autre assistance.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e674aed9dd6f2e3fade52675f77113ac4ee42a0b
-ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+ms.openlocfilehash: 2e446b3e5415299954098abb92088277b7da2bbc
+ms.sourcegitcommit: 026484766988b8727649c02fc8990b0646999bf1
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5014064"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5498577"
 ---
 # <a name="frequently-asked-questions-about-using-business-central"></a>Foire aux questions sur l’utilisation de Business Central
 
@@ -40,7 +40,9 @@ Enfin, vous pouvez contacter votre revendeur [!INCLUDE[prod_short](includes/prod
 ## <a name="why-cant-i-find-that-capability-in-my-prod_short"></a>Pourquoi je ne peux pas trouver cette fonctionnalité dans ma version de [!INCLUDE[prod_short](includes/prod_short.md)] ?
 Avez-vous eu connaissance d’une nouvelle fonctionnalité dans le plan de versions ou sur notre blog récemment ? Dans ce cas, votre [!INCLUDE[prod_short](includes/prod_short.md)] n’a peut-être pas encore été mis à niveau avec la dernière version. Vous pouvez vérifier sur quelle version est basée votre [!INCLUDE[prod_short](includes/prod_short.md)] sur la page [Aide et support](product-help-and-support.md).  
 
-De plus, si la fonctionnalité est publiée en tant qu’extension dans AppSource, c’est qu’il y a un retard entre l’extension étant annoncée et sa disponibilité dans AppSource.  
+Ceci s’applique à [!INCLUDE [prod_short](includes/prod_short.md)] en ligne et sur site.  
+
+De plus, si la fonctionnalité est publiée en tant qu’extension dans AppSource, c’est qu’il y a un retard entre l’extension étant annoncée et sa disponibilité dans AppSource. Ceci s’applique à [!INCLUDE [prod_short](includes/prod_short.md)] en ligne seulement.  
 
 ## <a name="are-there-any-differences-between-an-on-premises-deployment-and-the-cloud-version-of-business-central"></a>Existe-t-il des différences entre un déploiement sur site et la version cloud de Business Central ?
 Oui. Certaines fonctionnalités basées sur le cloud peuvent s’exécuter sur site dans certains cas et d’autres ne sont pas du tout prises en charge. Pour plus d’informations, voir [Fonctions non implémentées dans les déploiements sur site de Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises).
@@ -65,8 +67,9 @@ Si votre paramètre Expérience sur la page **Informations société** est défi
 
 Contrairement à d’autres programmes qui vous sont familiers, il n’y a pas de bouton *Enregistrer* sur ces pages. Dans [!INCLUDE[prod_short](includes/prod_short.md)], les modifications que vous apportez à un champ sont automatiquement enregistrées dès que vous passez au champ suivant ou dès que vous fermez la page, dans la mesure où il n’y a pas d’erreurs. Lorsque vous apportez des modifications à un champ et que vous passez à un autre champ, le texte **Enregistrement en cours** apparaît dans l’angle supérieur droit de la page, et devient **Enregistré** si aucune erreur ne survient. En cas d’erreur, le texte indique **Non enregistré**.
 
-## <a name="what-email-address-can-i-use-with-prod_short"></a><a name="email"></a>Quelle adresse e-mail puis-je utiliser avec [!INCLUDE[prod_short](includes/prod_short.md)] ?
-[!INCLUDE[prod_short](includes/prod_short.md)] exige que vous utilisiez une adresse e-mail professionnelle ou scolaire pour votre inscription. [!INCLUDE[prod_short](includes/prod_short.md)] ne prend pas en charge les adresses e-mail fournies par les services de messagerie publics ni les opérateurs de télécommunications. Cela comprend outlook.com, hotmail.com, gmail.com, et d’autres.  
+## <a name="what-email-address-can-i-use-with-prod_short-online"></a><a name="email"></a>Quelle adresse e-mail puis-je utiliser avec [!INCLUDE[prod_short](includes/prod_short.md)] en ligne ?
+
+[!INCLUDE[prod_short](includes/prod_short.md)] en ligne exige que vous utilisiez une adresse e-mail professionnelle ou scolaire pour votre inscription. [!INCLUDE[prod_short](includes/prod_short.md)] en ligne ne prend pas en charge les adresses e-mail fournies par les services de messagerie publics ni les opérateurs de télécommunications. Cela comprend outlook.com, hotmail.com, gmail.com, et d’autres.  
 
 Si vous essayez d’effectuer votre inscription à l’aide d’une adresse e-mail personnelle, vous recevez un message vous demandant d’utiliser une adresse professionnelle ou scolaire. Pour plus d’informations, reportez-vous à [Dépannage de l’inscription en self-service](ui-troubleshoot-self-signup.md).  
 
@@ -147,6 +150,5 @@ Un client dérivé de Microsoft Dynamics NAV était installé dans les première
 [FAQ sur les expériences des développeurs et de l’équipe IT](/dynamics365/business-central/dev-itpro/faq)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

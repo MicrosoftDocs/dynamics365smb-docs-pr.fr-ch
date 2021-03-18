@@ -3,15 +3,15 @@ title: Gérer le stockage en supprimant des documents ou en compressant des donn
 description: Découvrez comment conserver vos données historiques en compressant les écritures comptables ou en les supprimant.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f0d713f57345c312ddbfe6b5462f2623b1088dfc
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: b17e4df039ef713bf5c0048d258aefd175157ba4
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753882"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493062"
 ---
 # <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Gérer le stockage en supprimant des documents ou en compressant des données
 
@@ -47,7 +47,13 @@ Vous pouvez compresser les types de données suivants dans [!INCLUDE [prod_short
   Après la compression, l’option **Conserver champs** vous permet de conserver la valeur des champs **N° document, Notre contact**, **Code axe principal 1** et **Code axe principal 2**.
 * Écritures comptables fournisseur
 
-  Après la compression, le contenu des champs suivants sera toujours conservé : **Date comptabilisation**, **N° fournisseur**, **Type de document**, **Code devise**, **Groupe comptabilisation**, **Montant**, **Montant ouvert**, **Montant initial DS**, **Montant ouvert DS**, **Montant DS**, **Achat DS**, **Remises facture DS**, **Escompte accordé DS** et **Escompte ouvert possible**.
+> [!NOTE]
+> Les écritures compressées pour les clients, les fournisseurs, les banques et la comptabilité auxiliaire des immobilisations sont validées légèrement différemment de la comptabilisation standard. Cela permet de réduire le nombre de nouvelles écritures comptables créées par compression de date et est particulièrement important lorsque vous conservez des informations telles que les dimensions et les numéros de document. La compression de date crée de nouvelles entrées comme suit :
+>* Sur la page **Écritures comptables**, de nouvelles entrées sont créées avec de nouveaux numéros d’entrée pour les entrées compressées. Le champ **Description** contient l’information **Compression écritures** afin que les entrées compressées soient faciles à identifier. 
+>* Sur les pages comptables, telles que la page **Écritures comptables client**, une ou plusieurs entrées sont créées avec de nouveaux numéros d’entrée. 
+> Le processus de validation crée des écarts dans la série de numéros pour les entrées sur la page **Écritures comptables**. Ces numéros sont attribués aux écritures sur les pages comptables uniquement. La plage de numéros affectée aux entrées est disponible sur la **page de l’historique des transactions de comptabilité** dans les champs **N° séquence début** et **N° séquence fin**. 
+
+Après la compression, le contenu des champs suivants sera toujours conservé : **Date comptabilisation**, **N° fournisseur**, **Type de document**, **Code devise**, **Groupe comptabilisation**, **Montant**, **Montant ouvert**, **Montant initial DS**, **Montant ouvert DS**, **Montant DS**, **Achat DS**, **Remises facture DS**, **Escompte accordé DS** et **Escompte ouvert possible**.
 
   Avec l’option **Conserver champs**, vous pouvez également conserver la valeur de ces champs supplémentaires : **N° document**, **N° fournisseur**, **Code acheteur**, **Code axe principal 1** et **Code axe principal 2**.
 

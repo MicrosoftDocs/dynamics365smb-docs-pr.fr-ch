@@ -3,23 +3,23 @@ title: Détails de conception - Modification des modes évaluation stock pour le
 description: Découvrez comment attribuer un mode évaluation stock différent à un article bien que vous l’ayez déjà utilisé dans des transactions.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: costing methods, costing, item cost
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: e71ccc7961efdff4dcfc26660f48bafb3d5fd88f
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: b0e14a11196de990460505365e5a6c24368626fb
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751751"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390589"
 ---
 # <a name="design-details-change-the-costing-method-for-items"></a>Détails de conception : Modifier le mode évaluation stock pour les articles
 
-Dans [!INCLUDE[prod_short](includes/prod_short.md)], vous ne pouvez pas modifier un mode évaluation stock pour un article après avoir inclus l’article dans une transaction. Par exemple, après avoir acheté ou vendu l’article. Si un mode évaluation stock incorrect a été affecté à l’article ou aux articles, vous ne découvrirez peut-être pas le problème tant que vous n’aurez pas effectué votre financial reporting.
+Dans [!INCLUDE[prod_short](includes/prod_short.md)], vous ne pouvez pas modifier un mode évaluation stock pour un article après avoir inclus l’article dans une transaction. Par exemple, après avoir acheté ou vendu l’article. Si un mode évaluation stock incorrect a été affecté à l’article ou aux articles, vous ne découvrirez peut-être pas le problème tant que vous n’aurez pas effectué votre génération d’états financiers.
 
 Cette rubrique décrit comment résoudre cette situation. L’approche recommandée consiste à remplacer l’article dont le mode évaluation stock est incorrect par un nouvel article et à utiliser un ordre d’assemblage pour transférer l’inventaire de l’ancien article vers le nouveau.
 
