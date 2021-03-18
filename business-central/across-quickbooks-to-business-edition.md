@@ -4,36 +4,39 @@ description: Vous pouvez migrer les données telles que les clients, les fournis
 documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, import, migrate, data, transfer, QuickBooks, customize
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 8d680d80dca8fae08ef4ecf5d88c97f983b47167
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: d6f75b5ee339606e4131e0e8acfe7be6457d9a22
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754282"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379063"
 ---
-# <a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a><span data-ttu-id="7eb45-103">Le passage d’une application QuickBooks à Dynamics 365 Business Central</span><span class="sxs-lookup"><span data-stu-id="7eb45-103">Changing from a QuickBooks App to Dynamics 365 Business Central</span></span>
-<span data-ttu-id="7eb45-104">De plus en plus de sociétés croissantes passent d’applications financières comme QuickBooks Desktop et QuickBooks Online, qui sont conçues pour les startups et autres petites entreprises, à [!INCLUDE[prod_short](includes/prod_short.md)], qui prend en charge également des organisations plus grandes et plus complexes.</span><span class="sxs-lookup"><span data-stu-id="7eb45-104">More and more growing businesses are changing from finance apps like QuickBooks Desktop and QuickBooks Online, which are designed for startups and other small businesses, to [!INCLUDE[prod_short](includes/prod_short.md)], which also supports larger, more complex organizations.</span></span> 
+# <a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a><span data-ttu-id="eb6ce-103">Le passage d’une application QuickBooks à Dynamics 365 Business Central</span><span class="sxs-lookup"><span data-stu-id="eb6ce-103">Changing from a QuickBooks App to Dynamics 365 Business Central</span></span>
+<span data-ttu-id="eb6ce-104">De plus en plus de sociétés croissantes passent d’applications financières comme QuickBooks Desktop et QuickBooks Online, qui sont conçues pour les startups et autres petites entreprises, à [!INCLUDE[prod_short](includes/prod_short.md)], qui prend en charge également des organisations plus grandes et plus complexes.</span><span class="sxs-lookup"><span data-stu-id="eb6ce-104">More and more growing businesses are changing from finance apps like QuickBooks Desktop and QuickBooks Online, which are designed for startups and other small businesses, to [!INCLUDE[prod_short](includes/prod_short.md)], which also supports larger, more complex organizations.</span></span> 
 
-<span data-ttu-id="7eb45-105">À mesure qu’elles effectuent leur transition, les sociétés souhaitent généralement emporter leurs données métier avec elles pour ne pas repartir de zéro.</span><span class="sxs-lookup"><span data-stu-id="7eb45-105">As they transition, companies typically want to bring their business data with them so they don't start from scratch.</span></span> <span data-ttu-id="7eb45-106">Pour faciliter le transfert de données, [!INCLUDE[prod_short](includes/prod_short.md)] offre des extensions intégrées qui migrent les données telles que les clients, les fournisseurs, les articles en stock et les comptes généraux.</span><span class="sxs-lookup"><span data-stu-id="7eb45-106">To help transfer data, [!INCLUDE[prod_short](includes/prod_short.md)] offers built-in extensions that migrate data such as customers, vendors, inventory items, and general ledger accounts.</span></span> <span data-ttu-id="7eb45-107">Les extensions suivantes sont installées et prêtes à être utilisées comme parties intégrantes du guide de configuration assistée **Migration des données** :</span><span class="sxs-lookup"><span data-stu-id="7eb45-107">The following extensions are installed and ready to go as an integrated part of the **Data Migration** assisted setup guide:</span></span>
+<span data-ttu-id="eb6ce-105">À mesure qu’elles effectuent leur transition, les sociétés souhaitent généralement emporter leurs données métier avec elles pour ne pas repartir de zéro.</span><span class="sxs-lookup"><span data-stu-id="eb6ce-105">As they transition, companies typically want to bring their business data with them so they don't start from scratch.</span></span> <span data-ttu-id="eb6ce-106">Pour faciliter le transfert de données, [!INCLUDE[prod_short](includes/prod_short.md)] offre des extensions intégrées qui migrent les données telles que les clients, les fournisseurs, les articles en stock et les comptes généraux.</span><span class="sxs-lookup"><span data-stu-id="eb6ce-106">To help transfer data, [!INCLUDE[prod_short](includes/prod_short.md)] offers built-in extensions that migrate data such as customers, vendors, inventory items, and general ledger accounts.</span></span> <span data-ttu-id="eb6ce-107">Les extensions suivantes sont installées et prêtes à être utilisées comme parties intégrantes du guide de configuration assistée **Migration des données** :</span><span class="sxs-lookup"><span data-stu-id="eb6ce-107">The following extensions are installed and ready to go as an integrated part of the **Data Migration** assisted setup guide:</span></span>
 
-* <span data-ttu-id="7eb45-108">QuickBooks Data Migration</span><span class="sxs-lookup"><span data-stu-id="7eb45-108">QuickBooks Data Migration</span></span> 
-* <span data-ttu-id="7eb45-109">Migration des données QuickBooks Online</span><span class="sxs-lookup"><span data-stu-id="7eb45-109">QuickBooks Online Data Migration</span></span>
+* <span data-ttu-id="eb6ce-108">QuickBooks Data Migration</span><span class="sxs-lookup"><span data-stu-id="eb6ce-108">QuickBooks Data Migration</span></span> 
+* <span data-ttu-id="eb6ce-109">Migration des données QuickBooks Online</span><span class="sxs-lookup"><span data-stu-id="eb6ce-109">QuickBooks Online Data Migration</span></span>
 
-<span data-ttu-id="7eb45-110">Pour plus d’informations sur l’extension correspondant à votre application QuickBooks :</span><span class="sxs-lookup"><span data-stu-id="7eb45-110">For more information, read about the extension that suits your QuickBooks app:</span></span>   
+<span data-ttu-id="eb6ce-110">Pour plus d’informations sur l’extension correspondant à votre application QuickBooks :</span><span class="sxs-lookup"><span data-stu-id="eb6ce-110">For more information, read about the extension that suits your QuickBooks app:</span></span>   
 
-* [<span data-ttu-id="7eb45-111">Extension de migration des données QuickBooks Desktop</span><span class="sxs-lookup"><span data-stu-id="7eb45-111">The QuickBooks Desktop Data Migration Extension</span></span>](ui-extensions-quickbooks-data-migration.md)
-* [<span data-ttu-id="7eb45-112">Extension de migration des données QuickBooks Online</span><span class="sxs-lookup"><span data-stu-id="7eb45-112">The QuickBooks Online Data Migration Extension</span></span>](ui-extensions-quickbooks-online-data-migration.md)
+* [<span data-ttu-id="eb6ce-111">Extension de migration des données QuickBooks Desktop</span><span class="sxs-lookup"><span data-stu-id="eb6ce-111">The QuickBooks Desktop Data Migration Extension</span></span>](ui-extensions-quickbooks-data-migration.md)
+* [<span data-ttu-id="eb6ce-112">Extension de migration des données QuickBooks Online</span><span class="sxs-lookup"><span data-stu-id="eb6ce-112">The QuickBooks Online Data Migration Extension</span></span>](ui-extensions-quickbooks-online-data-migration.md)
 
-## <a name="ready-now"></a><span data-ttu-id="7eb45-113">Vous êtes prêt ?</span><span class="sxs-lookup"><span data-stu-id="7eb45-113">Ready now?</span></span>
-<span data-ttu-id="7eb45-114">Si vous êtes prêt à commencer, choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Configuration assistée**, puis sélectionnez le lien associé.</span><span class="sxs-lookup"><span data-stu-id="7eb45-114">If you are ready to get started now, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link.</span></span> <span data-ttu-id="7eb45-115">Choisissez **Migrer des données métier**, puis suivez les étapes du guide.</span><span class="sxs-lookup"><span data-stu-id="7eb45-115">Choose **Migrate business data**, and then follow the steps in the guide.</span></span>
+## <a name="ready-now"></a><span data-ttu-id="eb6ce-113">Vous êtes prêt ?</span><span class="sxs-lookup"><span data-stu-id="eb6ce-113">Ready now?</span></span>
+<span data-ttu-id="eb6ce-114">Si vous êtes prêt à commencer, choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Configuration assistée**, puis sélectionnez le lien associé.</span><span class="sxs-lookup"><span data-stu-id="eb6ce-114">If you are ready to get started now, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link.</span></span> <span data-ttu-id="eb6ce-115">Choisissez **Migrer des données métier**, puis suivez les étapes du guide.</span><span class="sxs-lookup"><span data-stu-id="eb6ce-115">Choose **Migrate business data**, and then follow the steps in the guide.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="7eb45-116">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="7eb45-116">See Also</span></span>
-[<span data-ttu-id="7eb45-117">Importation des données métier à partir d’autres systèmes financiers</span><span class="sxs-lookup"><span data-stu-id="7eb45-117">Importing Business Data from Other Finance Systems</span></span>](across-import-data-configuration-packages.md)  
-[<span data-ttu-id="7eb45-118">Personnalisation de Business Central à l’aide d’extensions</span><span class="sxs-lookup"><span data-stu-id="7eb45-118">Customizing Business Central Using Extensions</span></span>](ui-extensions.md)   
+## <a name="see-also"></a><span data-ttu-id="eb6ce-116">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="eb6ce-116">See Also</span></span>
+[<span data-ttu-id="eb6ce-117">Importation des données métier à partir d’autres systèmes financiers</span><span class="sxs-lookup"><span data-stu-id="eb6ce-117">Importing Business Data from Other Finance Systems</span></span>](across-import-data-configuration-packages.md)  
+[<span data-ttu-id="eb6ce-118">Personnalisation de Business Central à l’aide d’extensions</span><span class="sxs-lookup"><span data-stu-id="eb6ce-118">Customizing Business Central Using Extensions</span></span>](ui-extensions.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
