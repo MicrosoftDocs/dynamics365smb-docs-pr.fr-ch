@@ -3,19 +3,19 @@ title: Emettre, imprimer et annuler des chèques| Microsoft Docs
 description: Décrit comment émettre des chèques à l’aide de la feuille paiement, imprimer des chèques, et annuler ou afficher les écritures comptables chèque dans Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3ee126fae6e658700a6f83a37b4c4b77daa98a6e
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 137e22e8eb4e426a84d7a84b772ec2ad5d55cbcc
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4759582"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5387839"
 ---
 # <a name="make-check-payments"></a>Effectuer des paiements par chèque
 

@@ -3,19 +3,19 @@ title: Configurer la consolidation de la société
 description: Découvrez comment vous pouvez configurer la manière dont les données de différentes sociétés dans Business Central sont transmises à une société de consolidation.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: d733b8000d5ea476d32a96bcccdceebc32e0f43c
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 5f51e65930303cf3600edf54c2056b2bd938e718
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4750995"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381053"
 ---
 # <a name="set-up-company-consolidation"></a>Configurer la consolidation de la société
 

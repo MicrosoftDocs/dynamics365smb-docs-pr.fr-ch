@@ -3,19 +3,19 @@ title: Définition et Répartition des coûts | Microsoft Docs
 description: Les affectations de coûts déplacent les coûts et les revenus entre les types de coûts, les centres de coûts et les coûts associés. Vous pouvez définir autant d’affectations que nécessaire.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 802706f3b501b7c0bdc7959573d5a7c830a7bf90
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 9d4167751289b26926bdde3148d6f2241df787cf
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4747081"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388614"
 ---
 # <a name="defining-and-allocating-costs"></a>Définition et répartition des coûts
 Les affectations de coûts déplacent les coûts et les revenus entre les types de coûts, les centres de coûts et les coûts associés. Vous pouvez définir autant d’affectations que nécessaire. Chaque affectation comporte les éléments suivants :  

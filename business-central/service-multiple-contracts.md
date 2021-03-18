@@ -3,19 +3,19 @@ title: Plusieurs contrats | Microsoft Docs
 description: Selon les accords de votre niveau de service avec un client, vous pouvez avoir à gérer un article de service sous plusieurs contrats de service.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c6410f1b96aa1c1f8251738184db07aba0d94c4b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 13c641512a0e3e2722460daa238d12c0162ad8b6
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915300"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5389689"
 ---
 # <a name="multiple-contracts"></a>Plusieurs contrats
 Selon les accords de votre niveau de service avec un client, vous pouvez avoir à gérer un article de service sous plusieurs contrats de service.  
@@ -38,7 +38,7 @@ Vous pouvez créer manuellement un contrat de service ou un devis contrat pour d
 Lorsque vous ajoutez un article de service à une ligne contrat déjà enregistrée dans d’autres contrats de service ou devis contrat, un message d’avertissement est affiché indiquant que l’article de service appartient déjà à un ou plusieurs contrats de service ou devis contrat. Si vous confirmez ce message, toutes les informations pertinentes de l’article de service sont copiées dans une ligne contrat nouvellement créée.  
   
 ## <a name="copying-documents"></a>Copie de documents  
-Vous pouvez créer automatiquement un contrat service ou un devis contrat pour des articles de service déjà enregistrés dans d’autres contrats de service ou devis contrat à l’aide de l’action **Copier à partir du document** .  
+Vous pouvez créer automatiquement un contrat service ou un devis contrat pour des articles de service déjà enregistrés dans d’autres contrats de service ou devis contrat à l’aide de l’action **Copier à partir du document**.  
   
 ## <a name="creating-service-orders-for-multiple-contracts"></a>Création de commandes service pour plusieurs contrats  
 Vous pouvez manuellement créer une commande service pour un article de service qui est enregistré dans plusieurs contrats actifs. Un contrat service est actif lorsqu’il est signé et non expiré.  

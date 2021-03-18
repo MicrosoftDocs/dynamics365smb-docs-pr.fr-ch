@@ -3,19 +3,19 @@ title: 'Procédure : utiliser les périodes inventaire | Microsoft Docs'
 description: Vous pouvez contrôler le délai de validation des modifications du stock en définissant des périodes inventaire.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: inventory, periods
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ca5104a8d4268c9f4822e98150a3e969c6c66d48
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 36a2419cba4ff67d1857c1e1ec971a607f4fd355
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924168"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5389814"
 ---
 # <a name="work-with-inventory-periods"></a>Utiliser les périodes inventaire
 Les périodes inventaire sont des périodes au cours desquelles vous pouvez valider des modifications de stock. Une période inventaire est définie par la date à laquelle elle se termine. Lorsque vous clôturez une période inventaire, vous ne pouvez pas valider de modifications de stock, qu’elles soient prévues ou facturées, avant cette date fin. Vous ne pouvez pas valider de nouvelles valeurs dans le stock avant la date fin. Si vous avez des écritures article ouvertes dans la période clôturée, ce qui signifie des quantités positives qui n’ont pas encore été lettrées sur des transactions sortantes, vous pouvez encore lettrer des quantités sortantes sur ces écritures, même si la période est clôturée.  
@@ -27,10 +27,10 @@ Les sections suivantes décrivent comment :
 * Rouvrir des périodes inventaire.  
 
 ## <a name="to-create-an-inventory-period"></a>Pour créer une période inventaire  
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Périodes comptables** , puis sélectionnez le lien associé.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Périodes comptables**, puis sélectionnez le lien associé.  
 2. Créez une ligne.  
-3. Dans le champ **Date fin** , entrez la dernière date que vous voulez définir pour la période inventaire. Une fois la période clôturée, vous ne pouvez plus valider de modifications de stock antérieures à cette date.  
-4. Saisissez un nom descriptif dans le champ **Nom** . Cliquez sur le bouton **OK** .  
+3. Dans le champ **Date fin**, entrez la dernière date que vous voulez définir pour la période inventaire. Une fois la période clôturée, vous ne pouvez plus valider de modifications de stock antérieures à cette date.  
+4. Saisissez un nom descriptif dans le champ **Nom**. Cliquez sur le bouton **OK**.  
 
 ## <a name="closing-inventory-periods"></a>Clôture de périodes inventaire  
 Le champ **Clôturé** indique si la période inventaire est clôturée ou non sur des modifications de valeur de stock. Vous ne pouvez pas modifier ce champ.  
@@ -38,7 +38,7 @@ Le champ **Clôturé** indique si la période inventaire est clôturée ou non s
 Vous pouvez clôturer toute période inventaire, pour autant que les conditions suivantes soient vraies :  
 
 * Il n’y a pas d’écritures comptables article sortantes ouvertes dans cette période, ce qui signifie que le stock est négatif.  
-* Le coût de tous les articles a été ajusté à l’aide du traitement par lots **Ajuster coût écritures article** .  
+* Le coût de tous les articles a été ajusté à l’aide du traitement par lots **Ajuster coût écritures article**.  
 
 Cela signifie que toutes les quantités de transaction sortante, telles que celles des commandes vente, désenlogements transfert, factures vente, retours achat ou avoirs achat doivent être lettrées sur la quantité en stock.  
 
@@ -46,12 +46,12 @@ Cela signifie que toutes les quantités de transaction sortante, telles que cell
 1. Avant de clôturer une période inventaire, sélectionnez l’action **Ajuster coût écritures article** pour vous assurer que tous les ajustements des coûts sont validés.
 
      Exécutez l’état **Clôturer période inventaire – Test** pour déterminer s’il y a des écritures article sortant ouvertes dans la période inventaire ou des articles dont le coût n’a pas encore été ajusté.  
-2. Choisissez l’action **Clôturer période inventaire - Test** .  
+2. Choisissez l’action **Clôturer période inventaire - Test**.  
 
      Exécutez le traitement par lots **Valider coûts ajustés** pour vous assurer que tous les coûts sont validés dans la comptabilité.  
-3. Cliquez sur l’action **Valider stock en comptabilité** .  
+3. Cliquez sur l’action **Valider stock en comptabilité**.  
 4. Ouvrez la page **Périodes inventaire** et sélectionnez la période inventaire que vous voulez clôturer.  
-5. Choisissez l’action **Clôturer période** . Une fois la période inventaire clôturée, vous ne pouvez pas valider de modifications de stock avant la date de fin. Le coût de tous les articles doit être ajusté avec le traitement par lots **Ajuster coût écritures article** avant la clôture de la période inventaire.  
+5. Choisissez l’action **Clôturer période**. Une fois la période inventaire clôturée, vous ne pouvez pas valider de modifications de stock avant la date de fin. Le coût de tous les articles doit être ajusté avec le traitement par lots **Ajuster coût écritures article** avant la clôture de la période inventaire.  
 6. Cliquez sur le bouton **Oui** pour confirmer la clôture de la période, ou choisissez **Non** pour annuler la clôture.  
 7. La période inventaire est clôturée et un message de confirmation est affiché une fois l’opération terminée.  
 
@@ -59,9 +59,9 @@ Cela signifie que toutes les quantités de transaction sortante, telles que cell
 Une fois la période inventaire clôturée, vous ne pouvez plus la supprimer. En revanche, vous pouvez la rouvrir si vous voulez autoriser sa validation avant la date fin. La réouverture d’une période rouvre également toutes les périodes inventaire dont la date fin est postérieure à la fin de la période que vous rouvrez.  
 
 ### <a name="to-reopen-an-inventory-period"></a>Pour réouvrir une période inventaire  
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Périodes comptables** , puis sélectionnez le lien associé.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Périodes comptables**, puis sélectionnez le lien associé.  
 2. Sélectionnez la période inventaire que vous voulez rouvrir.  
-3. Sélectionnez l’action de la période **Rouvrir période** . Confirmez que vous voulez réouvrir la période.  
+3. Sélectionnez l’action de la période **Rouvrir période**. Confirmez que vous voulez réouvrir la période.  
 4. Toutes les périodes inventaire dont la date fin est postérieure à la fin de la période sélectionnée sont réouvertes.  
 
 ## <a name="see-also"></a>Voir aussi  

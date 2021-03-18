@@ -3,19 +3,19 @@ title: Gestion des assemblages | Microsoft Docs
 description: 'Gérez les sociétés qui fournissent des produits à leurs clients en combinant des composants dans des processus simples sans recourir aux fonctionnalités de fabrication, mais avec des fonctions permettant d’assembler les articles. Ces fonctions s’intègrent à celles existantes : ventes, planification, réservations et entreposage.'
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b734d867401697b1c554f321d5b153f093dd5cd8
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 6088b23d48c1ea9e0ec07d245eaefafff11da025
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753249"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5376877"
 ---
 # <a name="assembly-management"></a>Gestion des assemblages
 Pour prendre en charge les sociétés qui fournissent des produits à leurs clients en combinant des composants dans des processus simples sans recourir aux fonctionnalités de fabrication, [!INCLUDE[prod_short](includes/prod_short.md)] inclut des fonctions permettant d’assembler les articles. Ces fonctions s’intègrent à celles existantes \(ventes, planification, réservations et entreposage\).  

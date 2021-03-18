@@ -3,19 +3,19 @@ title: Activités entrepôt | Microsoft Docs
 description: Entre la réception des biens et leur expédition, une série d’activités entrepôt internes a lieu pour assurer un flux efficace dans l’entrepôt, ainsi que pour organiser et mettre à jour les stocks de la société.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: eef51c7fe686b9cfa2383930cf7daef3ef3d6f02
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: abeae11d09e4a07884969985667b8b6d480d2b09
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4755882"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382319"
 ---
 # <a name="warehouse-management"></a>Gestion d’entrepôt
 Entre la réception des biens et leur expédition, une série d’activités entrepôt internes a lieu pour assurer un flux efficace dans l’entrepôt, ainsi que pour organiser et mettre à jour les stocks de la société.

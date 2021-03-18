@@ -3,19 +3,19 @@ title: Configurer des comptes bancaires| Microsoft Docs
 description: Vous pouvez rapprocher des comptes bancaires avec les relevés de la banque.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1684f12858a33234f51d7847b50ea15aa1d7b230
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 6d61b235369a25fe04157b7af280f8756900d3f8
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4755307"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5376677"
 ---
 # <a name="set-up-bank-accounts"></a>Configuration des comptes bancaires
 [!INCLUDE[prod_short](includes/prod_short.md)] vous permet de gérer vos transactions bancaires à l’aide des comptes bancaires. Les comptes peuvent être en devise société ou en devise étrangère. Après avoir configuré des comptes bancaires, vous pouvez aussi utiliser l’option d’impression de chèque.<br><br>  

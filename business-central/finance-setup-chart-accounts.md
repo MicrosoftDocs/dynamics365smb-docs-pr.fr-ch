@@ -3,19 +3,19 @@ title: Configuration du plan comptable
 description: Vous modifiez les comptes par défaut dans le plan comptable, et vous pouvez ajouter de nouveaux comptes.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: COA, cha of acc
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b20c4680393fa13b260beca366c7e4ba04abb291
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: f14859a641ddf6368a213f396a111a3423f49c4a
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4750395"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377127"
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Configuration ou modification du plan comptable
 Le plan comptable affiche les comptes généraux qui stockent vos données financières. [!INCLUDE[prod_short](includes/prod_short.md)] inclut un plan comptable standard prêt à prendre en charge votre société.

@@ -3,19 +3,19 @@ title: Informations sur la configuration de la gestion du marketing et des conta
 description: Vous pouvez configurer la gestion du marketing et des contacts dans Business Central pour optimiser les relations avec les prospects ou les clients, et améliorer des campagnes ou des promotions.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1fc20ebadc9d516d45c74d963be7b26cfd2b8d4d
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: a6ec4d06b119588e59907bce27e7595f3530f6e8
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749770"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381721"
 ---
 # <a name="setting-up-relationship-management"></a>Paramétrage de la Gestion des relations
 

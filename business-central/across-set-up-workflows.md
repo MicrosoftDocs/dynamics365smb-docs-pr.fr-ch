@@ -3,19 +3,19 @@ title: Configuration des workflows
 description: Vous pouvez configurer et utiliser des workflows qui connectent des tâches de processus entreprise exécutées par différents utilisateurs. Découvrez les différentes étapes à suivre.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/14/2020
 ms.author: edupont
-ms.openlocfilehash: a104065d8f52ca9d1bb9221cd43917253c640ca4
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 9093fdc440b84745079546f51a05c57d743115ff
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754249"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378988"
 ---
 # <a name="set-up-workflows"></a>Configuration des workflows
 

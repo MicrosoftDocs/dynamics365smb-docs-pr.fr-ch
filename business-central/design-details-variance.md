@@ -3,19 +3,19 @@ title: Détails de conception - Ecart | Microsoft Docs
 description: L’écart est défini comme la différence entre le coût réel et le coût standard, telle que décrite dans la formule suivante.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fd387356cd6306f9d35c777f75e17500ed4096c4
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 2e17d695df7a4a4f1faac23e1f36c8b754af9463
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749633"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381507"
 ---
 # <a name="design-details-variance"></a>Détails de conception : écart
 L’écart est défini comme la différence entre le coût réel et le coût standard, telle que décrite dans la formule suivante.  

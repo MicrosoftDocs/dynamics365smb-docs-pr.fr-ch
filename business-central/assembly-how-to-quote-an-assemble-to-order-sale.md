@@ -3,19 +3,19 @@ title: 'Procédure : Établissement d’un devis de vente Assembler pour comman
 description: Vous pouvez utiliser la gestion nomenclature d’assemblage pour personnaliser un élément d’assemblage sur la demande d’un client au cours du processus de vente.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 323466061d845e04a38ba660b38dd21483bcb8c1
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 807c924e64764e7ac1932321603a415101e3bbf3
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749608"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386664"
 ---
 # <a name="quote-an-assemble-to-order-sale"></a>Établissement d’un devis de vente Assembler pour commande
 Vous pouvez utiliser la gestion nomenclature d’assemblage pour personnaliser un élément d’assemblage sur la demande d’un client au cours du processus de vente. Pour plus d’informations, reportez-vous à [Vente d’articles à assembler pour commande](assembly-how-to-sell-items-assembled-to-order.md).  

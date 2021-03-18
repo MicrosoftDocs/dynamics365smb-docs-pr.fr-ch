@@ -3,19 +3,19 @@ title: En savoir plus sur les écritures comptables et le COA| Microsoft Docs
 description: Décrit les écritures comptables, le plan comptable, et les catégories de compte.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dbeb9f9cbe0eff61b28dc4d371a1f8d9031ea1b4
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 29658ea0c7689ebdcb84384dfb26ec26089685c3
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4747056"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5376827"
 ---
 # <a name="understanding-the-general-ledger-and-the-coa"></a>Familiarisation avec les écritures comptables et les COA
 

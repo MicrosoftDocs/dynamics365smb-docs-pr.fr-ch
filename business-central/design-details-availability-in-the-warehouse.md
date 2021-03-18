@@ -3,26 +3,26 @@ title: Détails de conception - disponibilité dans l’entrepôt | Microsoft Do
 description: Le système doit conserver un contrôle constant de la disponibilité des articles dans l’entrepôt, afin que les commandes sortantes puissent s’écouler efficacement et fournir des livraisons optimales.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8381f2f41fedb4f41fd0515124b74254fc74517e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7fecbb14cda87289e0c3ce9d89df2ed346569e45
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915675"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390214"
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Détails de conception : disponibilité dans l’entrepôt
 Le système doit conserver un contrôle constant de la disponibilité des articles dans l’entrepôt, afin que les commandes sortantes puissent s’écouler efficacement et fournir des livraisons optimales.  
 
 La disponibilité varie selon les affectations au niveau de l’emplacement quand des activités entrepôt, par exemple des prélèvements et des mouvements défectueux, se produisent et quand le système de réservation de stock impose des restrictions à respecter. Un algorithme plutôt complexe vérifie que toutes les conditions sont remplies avant d’affecter des quantités aux prélèvements pour les flux sortants.
 
-Si une ou plusieurs conditions ne sont pas remplies, différents messages d’erreur peuvent être affichés, y compris le message générique « Il n’y a rien à traiter » . Le message « Il n’y a rien à traiter » peut se produire pour plusieurs raisons différentes, à la fois dans des flux entrants et sortants, où une ligne document directement ou indirectement impliquée contient le champ **Qté à traiter** .
+Si une ou plusieurs conditions ne sont pas remplies, différents messages d’erreur peuvent être affichés, y compris le message générique « Il n’y a rien à traiter » . Le message « Il n’y a rien à traiter » peut se produire pour plusieurs raisons différentes, à la fois dans des flux entrants et sortants, où une ligne document directement ou indirectement impliquée contient le champ **Qté à traiter**.
 
 > [!NOTE]
 > Des informations seront bientôt publiées ici sur les raisons et les solutions possibles pour le message « Il n’y a rien à traiter » .
@@ -35,7 +35,7 @@ Si une ou plusieurs conditions ne sont pas remplies, différents messages d’er
 ## <a name="quantity-available-to-pick"></a>Quantité disponible pour prélèvement  
  Si, par exemple, l’algorithme de prélèvement ne prend pas en compte les quantités d’article réservées pour une expédition de commande vente en attente, ces articles peuvent être prélevés pour une autre commande vente expédiée à une date antérieure, ce qui empêche de satisfaire les premières ventes. Pour éviter cette situation, l’algorithme de prélèvement soustrait les quantités qui sont réservées pour d’autres documents sortants, quantités figurant dans les documents de prélèvement existants, et quantités qui sont prélevées mais pas encore livrées ni consommées.  
 
- Le résultat est affiché dans le champ **Qté disponible à prélever** de la page **Feuille prélèvement** , où le champ est calculé dynamiquement. La valeur est également calculée lorsque les utilisateurs créent les prélèvements entrepôt directement pour les documents sortants. Ces documents sortants peuvent être des commandes vente, une consommation de production ou des désenlogements transfert, dans lesquels le résultat est visible dans les champs quantité liés, tels que **Qté à traiter** .  
+ Le résultat est affiché dans le champ **Qté disponible à prélever** de la page **Feuille prélèvement**, où le champ est calculé dynamiquement. La valeur est également calculée lorsque les utilisateurs créent les prélèvements entrepôt directement pour les documents sortants. Ces documents sortants peuvent être des commandes vente, une consommation de production ou des désenlogements transfert, dans lesquels le résultat est visible dans les champs quantité liés, tels que **Qté à traiter**.  
 
 > [!NOTE]  
 >  En ce qui concerne la priorité des réservations, la quantité à réserver est soustraite de la quantité disponible à prélever. Par exemple, si la quantité disponible dans les emplacements prélèvement est 5 unités, mais que 100 unités sont dans les emplacements de rangement, alors, lorsque vous tentez de réserver plus de 5 unités pour une autre commande, un message d’erreur s’affiche, car la quantité supplémentaire doit être disponible dans les emplacements prélèvement.  
@@ -61,9 +61,9 @@ Si une ou plusieurs conditions ne sont pas remplies, différents messages d’er
 -   Quantité dans les emplacements avant assemblage  
 -   Quantité dans les emplacements ajustement  
 
- Le résultat est affiché dans le champ **Quantité totale disponible** de la page **Réservation** .  
+ Le résultat est affiché dans le champ **Quantité totale disponible** de la page **Réservation**.  
 
- Sur une ligne réservation, la quantité qui ne peut pas être réservée, parce qu’elle est affectée dans l’entrepôt, est affichée dans le champ **Qté affectée à l’entrepôt** de la page **Réservation** .  
+ Sur une ligne réservation, la quantité qui ne peut pas être réservée, parce qu’elle est affectée dans l’entrepôt, est affichée dans le champ **Qté affectée à l’entrepôt** de la page **Réservation**.  
 
 ### <a name="calculating-the-quantity-available-to-reserve"></a>Calcul de la quantité disponible à réserver  
  La quantité disponible à réserver est calculée de la façon suivante :  

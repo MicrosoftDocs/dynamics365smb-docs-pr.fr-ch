@@ -3,19 +3,19 @@ title: Paramétrer les ressources, les feuilles de temps et les projets| Microso
 description: Décrit comment configurer les ressources, les feuilles de temps et les projets pour la gestion des projets.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6189968a44a4001d76f44bf1331594f73ea58e05
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: ae031822f6d52e3fc066935cadab1d2e2ae924ac
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758582"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388340"
 ---
 # <a name="setting-up-project-management"></a>Configuration de la gestion de projet
 Avant de pouvoir utiliser le module [!INCLUDE[prod_short](includes/prod_short.md)] pour gérer les projets, vous devez définir des ressources, des feuilles de temps et des projets.

@@ -6,14 +6,14 @@ ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.date: 10/01/2020
-ms.openlocfilehash: 8d26a8a2f6ec5ffe17f38d5dc429e50efe08ea7e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f93e4a5757039c8598ba73112d1059dbb61406f5
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911645"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378688"
 ---
 # <a name="classifying-data-sensitivity"></a>Classification de la sensibilité des données
 Pour classer les champs contenant des données sensibles ou personnelles, un partenaire Microsoft peut définir la propriété ```DataClassification``` des champs. Cela nécessite un accès aux tables de base de données, par le biais de l’environnement de développement ou en exécutant un script Windows PowerShell. Pour plus d’informations, voir [Classification des données](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).  
@@ -36,7 +36,7 @@ Le tableau suivant décrit les niveaux de sensibilité des données que vous pou
 Classer la sensibilité d’un grand nombre de champs un par un peut prendre beaucoup de temps. Pour aider à accélérer le processus, nous fournissons des outils qui permettent de classer en bloc la sensibilité des champs et d’affiner les classifications pour des champs spécifiques. Vous trouverez les outils dans la feuille Classification des données, qui est disponible dans le tableau de bord Administration des utilisateurs, des groupes d’utilisateurs et des autorisations. Vous devez être un administrateur système pour utiliser la feuille.
 
 > [!Important]
-> La feuille Classification des données est vide lorsque vous l’ouvrez pour la première fois. Vous devez exécuter le guide de classification des données pour générer la liste des champs. Pour démarrer le guide, choisissez l’action **Configuration des classifications de données** .
+> La feuille Classification des données est vide lorsque vous l’ouvrez pour la première fois. Vous devez exécuter le guide de classification des données pour générer la liste des champs. Pour démarrer le guide, choisissez l’action **Configuration des classifications de données**.
 
 Par exemple, la feuille Classification des données vous permet d’effectuer les opérations suivantes :  
 

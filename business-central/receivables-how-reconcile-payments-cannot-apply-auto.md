@@ -3,29 +3,34 @@ title: Utilisation de la fonction Transférer la différence vers un compte pour
 description: Décrit comment traiter les paiements qui ne peuvent pas être lettrés dans un document, par exemple lorsqu’un taux de change entraîne un changement de montants.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: aa43e57adc60f7ec01bd7bf4c3bcdd20cdd476fd
-ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+ms.openlocfilehash: b37ee7ebf29503da0b205ac7eac11d9233375321
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5013832"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5376777"
 ---
 # <a name="reconcile-payments-that-cannot-be-applied-automatically"></a>Rapprocher les paiements qui ne peuvent pas être lettrés automatiquement
 Vous serez parfois amené à gérer des paiements sur votre compte bancaire, qui ne peuvent pas être lettrés à un client, un fournisseur ou une écriture comptable compte bancaire ouvertes associées. Les motifs peuvent être qu’il n’existe dans [!INCLUDE[prod_short](includes/prod_short.md)] aucun document auquel le paiement puisse être lettré, ou que le document associé dans [!INCLUDE[prod_short](includes/prod_short.md)] affiche un montant différent du montant de la transaction, par exemple, en raison du taux de change. Sur la page **Feuille rapprochement bancaire**, tous les montants de transaction pour les paiements qui n’ont pas encore été lettrés s’affichent dans le champ **Différence**, y compris les montants qui ne peuvent pas être lettrés pour des motifs tels que celui qui précède.
+
+Méthodes de résolution de ces types de paiements non lettrés :
+* Lettrer manuellement
+* Utiliser le mappage de texte à compte
+* Transférez un montant excédentaire vers une ligne feuille pour créer et valider l’écriture requise, comme le remboursement d’un trop-perçu.
 
 Les paiements qui ne peuvent pas être lettrés peuvent apparaître sur les lignes feuille rapprochement bancaire pour les raisons suivantes :
 
 * La valeur du champ **Différence** est égale à celle du champ **Montant transaction**, ce qui indique qu’aucune partie du paiement ne peut être lettrée à une écriture comptable client, fournisseur ou compte bancaire ouverte associée.
 * La valeur du champ **Différence** est inférieure à celle du champ **Montant transaction**, ce qui indique qu’une partie du paiement peut être lettrée à une écriture comptable client, fournisseur ou compte bancaire ouverte associée. La partie restante du paiement ne peut pas être lettrée et doit être rapprochée manuellement ou en la validant directement sur un compte.
 
-Pour rapprocher de tels paiements, vous pouvez cliquer sur le bouton **Transférer la différence vers un compte**, puis spécifier sur quel compte le montant du champ **Différence** sera validé lorsque vous validez la feuille rapprochement bancaire.
+Pour rapprocher de tels paiements, vous pouvez choisir l’action **Transférer la différence vers un compte**, puis spécifier sur quel compte le montant du champ **Différence** sera validé lorsque vous validez la feuille rapprochement bancaire. Vous pouvez le faire soit à partir de la page **Feuille rapprochement bancaire** ou à partir de la page **Révision lettrage paiement** que vous ouvrez en choisissant la valeur dans le champ **Fiabilité correspondance** ou en choisissant le champ **Différence**.
 
 > [!TIP]  
 >   Il existe une fonctionnalité similaire permettant de configurer le rapprochement automatique des paiements récurrents qui ne peuvent pas être lettrés aux écritures comptables client, fournisseur ou compte bancaire ouvertes associées. Pour plus d’informations, reportez-vous à [Mapper du texte sur les paiements récurrents aux comptes pour un rapprochement automatique](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).

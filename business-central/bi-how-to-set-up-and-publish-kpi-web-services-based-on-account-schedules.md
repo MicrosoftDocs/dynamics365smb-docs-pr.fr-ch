@@ -3,19 +3,19 @@ title: Configurer et publier les services Web KPI pour les tableaux d’analyse 
 description: Cette rubrique décrit comment afficher les données KPI basées sur des tableaux d’analyse spécifiques.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 9439cdbc2fbe6f2125ebc2be3e6965ad6ed7265f
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: a5125b1989c5e8d6acd82ba88457f7c846deb83b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752195"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382569"
 ---
 # <a name="set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>Configuration et publication des services Web KPI sur la base de tableaux d’analyse
 La page **Tableau d’analyse - Paramètres du service web KPI** vous permet de configurer la manière dont les informations KPI du tableau d’analyse sont affichées et sur quels tableaux d’analyse spécifiques baser les KPI. Lorsque vous sélectionnez le bouton **Publier le service Web**, les informations KPI du tableau d’analyse spécifiées sont ajoutées à la liste des services Web publiés sur la page **Services web**.  

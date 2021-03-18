@@ -4,19 +4,19 @@ description: Décrit comment gérer les biens physiques que vous commercialisez,
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3fa97eb12cc7343c1cfb659736ed6ad6b43d0633
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: ce17373d3355c795c8a3c8d4c70aea904432b80e
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4755482"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5389364"
 ---
 # <a name="inventory"></a>STOCKS ET EN-COURS
 Pour chaque produit physique que vous commercialisez, vous devez créer une fiche article de type **Stock**. Les articles que vous proposez aux clients, mais que vous n’avez pas en stock, peuvent être enregistrés comme articles de catalogue. Vous pouvez ensuite les convertir en articles stockés, le cas échéant. Vous pouvez augmenter ou diminuer la quantité d’un article en stock en validant directement les écritures comptables de l’article, par exemple, après un inventaire ou si vous n’enregistrez pas les achats.

@@ -5,24 +5,24 @@ services: project-madeira
 documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contract, agreement, configure
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 27bdbb3fffab0e946dabdbdfe5fd2172895ac4ad
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 16226b3c8cc7661ee44bcac0e6934d175ea460b5
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910370"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377438"
 ---
 # <a name="fulfilling-service-contracts"></a>Exécution des contrats de service 
 Pour configurer une activité de gestion des services, vous pouvez mettre en place des accords contractuels standard entre vous et vos clients afin de décrire le niveau de service et les attentes en matière de services. Vous pouvez créer des modèles de contrat dans lesquels figurent les informations nécessaires (client, date de début du contrat, période de facturation, etc.).  
   
-Après avoir configuré le modèle, vous pouvez personnaliser le contrat qui en résulte afin d’assurer le suivi des heures de service ou d’autres éléments en fonction du client. Vous pouvez également configurer un contrat manuellement à partir d’un devis contrat de service. Enfin, vous pouvez ajuster la tarification de vos services afin de suivre les remises auxquelles un client spécifique a droit, en spécifiant le montant correspondant sur la page **Contrat service** .  
+Après avoir configuré le modèle, vous pouvez personnaliser le contrat qui en résulte afin d’assurer le suivi des heures de service ou d’autres éléments en fonction du client. Vous pouvez également configurer un contrat manuellement à partir d’un devis contrat de service. Enfin, vous pouvez ajuster la tarification de vos services afin de suivre les remises auxquelles un client spécifique a droit, en spécifiant le montant correspondant sur la page **Contrat service**.  
 
 Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.   
   

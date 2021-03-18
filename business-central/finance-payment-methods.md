@@ -3,19 +3,19 @@ title: Paramétrer les modes de paiement
 description: Vous utilisez des modes de règlement, par exemple, les chèques, le transfert bancaire, les espèces, ou Paypal, pour définir la façon dont les factures vente et achat sont payées.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: check, bank transfer, cash, PayPal
 ms.date: 01/21/2021
 ms.author: bholtorf
-ms.openlocfilehash: 78e754998c7adc871b57347ff0bed714db8cc83f
-ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
+ms.openlocfilehash: 7132f96327e468c200ebd1f41c0a1e5b767dea6b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5035371"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5376852"
 ---
 # <a name="set-up-payment-methods"></a>Paramétrer les modes de paiement
 

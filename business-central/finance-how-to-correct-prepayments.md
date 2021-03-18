@@ -3,19 +3,19 @@ title: 'Procédure : corriger des acomptes | Microsoft Docs'
 description: Vous pouvez apporter une correction à une commande après avoir validé une facture acompte pour la commande. Vous pouvez ajouter des lignes à une commande après avoir émis un acompte, puis vous pouvez valider une autre facture acompte, mais vous ne pouvez pas supprimer une ligne d’une commande après avoir facturé un acompte pour la ligne.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1be1ba8d59567fdf9ba2adfeceeaa23c9cf63778
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 6888db488114c306276a95fcedb4a1722637f48d
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4750745"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5387439"
 ---
 # <a name="correct-prepayments"></a>Corriger des acomptes
 

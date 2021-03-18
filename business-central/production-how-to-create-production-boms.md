@@ -3,19 +3,19 @@ title: 'Procédure : Créer des nomenclatures de production'
 description: Une nomenclature de production contient les données de base qui décrivent les composants et les produits semi-finis utilisés lors de la fabrication d’un article parent. Après la création d’un ordre de fabrication pour cet article parent, sa nomenclature de production gouvernera le calcul de besoins matériels tels que représentés sur la page **Composants ordre prod.**.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 01/05/2020
 ms.author: edupont
-ms.openlocfilehash: 5c9f2fa03f5f20e533237e60762dc60fc679d0d0
-ms.sourcegitcommit: cdba82235c0c07497bd04b9bd5134ef245d92c09
+ms.openlocfilehash: 5861d4bc576a0afe52292661138de0898297a33f
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "4838497"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379917"
 ---
 # <a name="create-production-boms"></a>Créer des nomenclatures de production
 

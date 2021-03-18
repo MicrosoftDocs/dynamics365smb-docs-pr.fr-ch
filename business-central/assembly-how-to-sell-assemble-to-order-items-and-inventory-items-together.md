@@ -3,19 +3,19 @@ title: Vente simultanée d’articles à assembler pour commande et d’articles
 description: Si l’élément d’assemblage est configuré pour l’assemblage pour stock, le processus par défaut de commande vente se base sur l’hypothèse que l’article est déjà assemblé et peut être prélevé du stock, s’il est disponible. Mais si une partie (ou la totalité) de la quantité n’est pas disponible, vous avez la possibilité de créer un ordre d’assemblage pour la quantité restante à la volée.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9165a7392f5c95b2ebb8a056f69be49d93476b66
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: b26bcad3226b1d774b50aabc4a4353b0b0602f8e
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4747381"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386639"
 ---
 # <a name="sell-assemble-to-order-items-and-inventory-items-together"></a>Vente simultanée d’articles à assembler pour commande et d’articles en stock
 Si le champ **Stratégie d’assemblage** de la fiche article d’un élément d’assemblage indique **Assembler pour stock**, le processus par défaut de commande vente se base sur l’hypothèse que l’article est déjà assemblé et peut être prélevé du stock, s’il est disponible. Par conséquent, aucun ordre d’assemblage n’est automatiquement créé et n’est lié à la ligne commande vente. Toutefois, si une partie (ou la totalité) de la quantité n’est pas disponible, vous avez la possibilité de créer un ordre d’assemblage pour la quantité restante lorsque vous renseignez le champ **Quantité à assembler pour commande** de la ligne commande vente. De cette manière, vous pouvez assembler l’article à commander même s’il est configuré pour être assemblé pour stock par défaut.  

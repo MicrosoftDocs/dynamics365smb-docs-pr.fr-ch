@@ -4,19 +4,19 @@ description: Découvrez comment configurer des souches de numéros qui affectent
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b61f4fb5cdcee284b183a08c70224348c99530cd
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: db90c35bde2a08d6131e4a7102f9cdda1f36dfe8
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757632"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385964"
 ---
 # <a name="create-number-series"></a>Création des souches de numéros
 Pour chaque société que vous configurez, vous devez affecter des codes d’identification uniques aux éléments tels que les comptes généraux, les comptes client et fournisseur, les factures et d’autres documents. La numérotation est importante, pas uniquement pour l’identification. Un système de numérotation bien conçu facilite la gestion et l’analyse de la société et permet de réduire les erreurs de saisie des données.

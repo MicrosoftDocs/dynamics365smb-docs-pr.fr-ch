@@ -3,19 +3,19 @@ title: Comment prélever des articles avec les prélèvements stock | Microsoft 
 description: Si un magasin est défini pour exiger un traitement des prélèvements mais pas un traitement des expéditions, vous utilisez les documents prélèvement stock pour enregistrer et valider les informations de prélèvement et d’expédition pour vos documents origine.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7b3dafdf2341567d2bf294065cf7508295e60aa3
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: df60c429276c0da354b34c9355be37b97a93c67b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4759782"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386364"
 ---
 # <a name="pick-items-with-inventory-picks"></a>Prélever des articles avec les prélèvements stock
 

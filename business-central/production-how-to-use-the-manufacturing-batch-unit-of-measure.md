@@ -3,19 +3,19 @@ title: Procédure d’utilisation de l’unité de lot de fabrication | Microsof
 description: Si un article est stocké dans une unité mais produit dans une autre, l’ordre de fabrication doit utiliser une unité de lot de fabrication pour calculer la quantité correcte des composants. Une situation dans laquelle un article fabriqué est stocké en pièces mais produit en tonnes est un exemple d’un calcul d’unité de lot de fabrication.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 75b46ba1f7133bcad85b94c67ca4a27368caa32e
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: c78430de1c45646e54fb8551cd4a8dcfbbfcc4e4
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758956"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5383315"
 ---
 # <a name="work-with-manufacturing-batch-units-of-measure"></a>Utiliser les unités de lot de fabrication
 Si un article est stocké dans une unité mais produit dans une autre, un ordre de fabrication utilisant une unité de lot de fabrication est créé pour calculer la quantité correcte des composants durant le traitement par lots **Actualiser O.F.**. Une situation dans laquelle un article fabriqué est stocké en pièces mais produit en tonnes est un exemple d’un calcul d’unité de lot de fabrication.  

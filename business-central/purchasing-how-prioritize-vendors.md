@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier, payment priority
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 87d2f7c7fe2d395d16b41b288500f22e16bd0ba0
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: c8cafd66724c8244abe311c8d7395a98ebe966ab
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758557"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386039"
 ---
 # <a name="prioritize-vendors"></a>Octroyer une priorité aux fournisseurs
 [!INCLUDE[prod_short](includes/prod_short.md)] peut proposer différents paiements aux fournisseurs, par exemple les paiements arrivant à échéance ou les paiements donnant lieu à un escompte. Pour plus d’informations, reportez vous à [Proposer des paiements fournisseur](payables-how-suggest-vendor-payments.md).

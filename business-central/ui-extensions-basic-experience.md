@@ -1,24 +1,24 @@
 ---
 title: Extension d’expérience de base | Microsoft Docs
-description: Cette extension est une alternative modernisée à Microsoft Dynamics C5.
+description: Cette extension est une alternative modernisée à Microsoft Dynamics C5.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: C5, financials, extension
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 58c8a66e9fbe1609dc2e65c764dd3c4f60b4bc54
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 259fe5539482dfe893c230cb5574e4816788b56e
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757357"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386214"
 ---
 # <a name="the-basic-experience-extension"></a>Extension d’expérience de base
-Si vous utilisez Microsoft Dynamics C5, les partenaires Microsoft peuvent vous aider à effectuer la transition vers une solution plus moderne basée sur [!INCLUDE[prod_short](includes/prod_short.md)], afin que vous puissiez continuer à profiter des mêmes fonctionnalités rationalisées que Dynamics C5.
+Si vous utilisez Microsoft Dynamics C5, les partenaires Microsoft peuvent vous aider à effectuer la transition vers une solution plus moderne basée sur [!INCLUDE[prod_short](includes/prod_short.md)], afin que vous puissiez continuer à profiter des mêmes fonctionnalités rationalisées que Dynamics C5.
 
 Cette extension est destinée aux petites entreprises et peut prendre en charge jusqu’à trois utilisateurs. Si vous avez besoin de plus d’utilisateurs, vous devez passer à une licence [!INCLUDE[prod_short](includes/prod_short.md)] et désinstallez cette extension.
 
@@ -47,7 +47,7 @@ Cette extension est un peu différente de la plupart des autres, et vous aurez b
 6. Téléchargez et installez l’extension d’expérience de base à partir de AppSource.
 
 ## <a name="migrating-data"></a>Migration des données
-Importez vos données Dynamics C5. Une fois que votre partenaire Microsoft a installé l’extension d’expérience de base, vous aurez une société vide. Un moyen simple de déplacer vos données de Dynamics C5 vers l’expérience de base consiste à utiliser l’extension de migration de données C5, incluse dans [!INCLUDE[prod_short](includes/prod_short.md)]. L’extension migre les clients, les fournisseurs, les articles et vos comptes généraux et leurs écritures.
+Importez vos données Dynamics C5. Une fois que votre partenaire Microsoft a installé l’extension d’expérience de base, vous aurez une société vide. Un moyen simple de déplacer vos données de Dynamics C5 vers l’expérience de base consiste à utiliser l’extension de migration de données C5, incluse dans [!INCLUDE[prod_short](includes/prod_short.md)]. L’extension migre les clients, les fournisseurs, les articles et vos comptes généraux et leurs écritures.
 
 ## <a name="see-also"></a>Voir aussi
 [Extension C5 Data Migration](ui-extensions-c5-data-migration.md)

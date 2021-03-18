@@ -3,19 +3,19 @@ title: Détails de conception - Coût moyen | Microsoft Docs
 description: Le coût moyen d’un article est calculé avec une moyenne pondérée périodique, selon la période coût moyen qui est paramétrée dans Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6a716b25f3dfb25d2011fd12ed388fed5e1e98f9
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 70b0f4c5a858b73cb0f872bb1bfb92ebc56ded42
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751845"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380721"
 ---
 # <a name="design-details-average-cost"></a>Détails de conception : coût moyen
 Le coût moyen d’un article est calculé avec une moyenne pondérée périodique, selon la période coût moyen qui est paramétrée dans [!INCLUDE[prod_short](includes/prod_short.md)].  

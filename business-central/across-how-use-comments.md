@@ -3,19 +3,19 @@ title: Ajouter des commentaires aux fiches et aux documents | Microsoft Docs
 description: Ajoutez des informations supplémentaires dans les comptes, les fiches client, ou les commandes vente pour communiquer des accords, tels qu’un prix spécial ou un mode de livraison, pour d’autres utilisateurs.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: tasks, work
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3f84b6d7d03bd8766bfd485870cef8401a3e3382
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 8cc5d17dacc7124774012cf299fe250ba78fbb47
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754582"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379363"
 ---
 # <a name="add-comments-to-cards-and-documents"></a>Ajouter des commentaires aux fiches et aux documents
 Vous pouvez ajouter des informations supplémentaires dans les comptes généraux, les fiches client, ou les commandes vente pour communiquer des exception ou des accords spéciaux avec d’autres utilisateurs.

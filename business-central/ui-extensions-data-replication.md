@@ -3,7 +3,7 @@ title: Extensions Cloud intelligent Business Central pour la migration cloud | M
 description: Utilisez les extensions de migration cloud pour migrer vos données locales vers Business Central Online. Ces extensions déplacent vos données locales vers le cloud afin que vous puissiez utiliser Business Central Online avec vos données existantes.
 author: jenolson
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -11,12 +11,12 @@ ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.reviewer: edupont
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f2d8d556ca4628a66c10f323f47137cd35732a68
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 5d6110744f14cb959494e2fd5c9b970bd339a77f
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757307"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377363"
 ---
 # <a name="intelligent-cloud-extensions-for-cloud-migration"></a>Extensions Cloud intelligent pour la migration vers le cloud
 

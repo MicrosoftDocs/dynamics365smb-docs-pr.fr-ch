@@ -3,19 +3,19 @@ title: Comment restreindre et autoriser l’utilisation d’un enregistrement | 
 description: Si vous souhaitez restreindre l’utilisation d’un enregistrement à certaines activités, par exemple, jusqu’à ce qu’il ait été approuvé, vous pouvez incorporer deux réponses de flux de travail dans un flux de travail qui contrôle l’utilisation de l’enregistrement.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 519ef244f83937407c17311c7fb7e6bb103431de
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 1c748bd115b17acf925a99f89f538cc9eca41bc3
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754757"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384414"
 ---
 # <a name="restrict-and-allow-usage-of-a-record"></a>Restreindre et autoriser l’utilisation d’un enregistrement
 Si vous souhaitez restreindre l’utilisation d’un enregistrement à certaines activités, par exemple, jusqu’à ce qu’il ait été approuvé, vous pouvez incorporer deux réponses de flux de travail dans un flux de travail qui contrôle l’utilisation de l’enregistrement. Une réponse de flux de travail limitera l’utilisation de l’enregistrement telle que définie par l’événement et les conditions du flux de travail. Une autre réponse de flux de travail autorisera l’utilisation de l’enregistrement telle que définie par l’événement et les conditions du flux de travail. Deux réponses existent dans la version générique de [!INCLUDE[prod_short](includes/prod_short.md)] à cet effet : **Restreindre l’utilisation d’un enregistrement** et **Autoriser l’utilisation d’un enregistrement**.

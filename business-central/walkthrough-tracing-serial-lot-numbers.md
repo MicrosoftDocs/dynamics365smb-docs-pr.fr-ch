@@ -3,19 +3,19 @@ title: 'Procédure pas à pas : suivi des numéros de série et des numéros de
 description: Cette rubrique décrit les actions à entreprendre pour arrêter de vendre un article défectueux.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 8fc5da8ca5dc69f93dfa81d4f581a7323ad01811
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 51486dac343ed6047988acedc97122136ab61b3b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756382"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385739"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Procédure pas à pas : suivi des numéros de série et des numéros de lot
 
@@ -25,7 +25,7 @@ En cas de produit défectueux, vous devez identifier les erreurs et empêcher le
 
 Dans la gestion des défauts, la première chose à faire est de rechercher d’où venaient les articles défectueux et où ils ont été utilisés. Pour ce faire, vous pouvez vous baser sur des données historiques et, pour faciliter votre travail, vous pouvez rechercher l’article en utilisant la page **Traçabilité**.  
 
-Ensuite, déterminez si les articles suivis sont planifiés dans des documents en cours, comme des commandes vente non validées ou des feuilles consommation. Cela s’effectue sur la page ****. Vous pouvez utiliser la fonction Rechercher des écritures pour rechercher tous les types d’enregistrements de données de base.  
+Ensuite, déterminez si les articles suivis sont planifiés dans des documents en cours, comme des commandes vente non validées ou des feuilles consommation. Cela s’effectue sur la page **Rechercher des écritures**. Vous pouvez utiliser la fonction Rechercher des écritures pour rechercher tous les types d’enregistrements de données de base.  
 
 ## <a name="about-this-walkthrough"></a>À propos de cette procédure pas à pas
 

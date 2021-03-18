@@ -3,19 +3,19 @@ title: À propos de l’infrastructure d’échange de données | Microsoft Docs
 description: Le format des fichiers utilisés pour l’échange de données bancaires, les documents électroniques, les taux de change de devises, et d’autres fichiers utilisés avec les systèmes ERP varie selon le fournisseur du fichier de données ou du flux, et selon le pays ou la région.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ebb1ae7fb775bc215933b81374309dbf4a047621
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: fc01b4a0d04cf21ae2ede3a3a98aa928446fa4d1
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753557"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385014"
 ---
 # <a name="about-the-data-exchange-framework"></a>À propos de l’infrastructure d’échange de données
 

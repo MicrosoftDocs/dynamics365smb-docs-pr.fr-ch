@@ -3,19 +3,19 @@ title: Détails de conception - Paramètres entrepôt | Microsoft Docs
 description: La fonctionnalité d’entrepôt dans Business Central contient différents niveaux de complexité, tels que définis par les autorisations de licence dans les granules proposés. Le niveau de complexité dans une solution entrepôt est en grande partie défini par le paramétrage des emplacements sur les fiches magasin, qui est lui-même contrôlé par licence afin que l’accès aux champs de configuration de l’emplacement soit défini par la licence.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 32c3fedfbeea37a1be315d737ac9fe41b5c7c20a
-ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
+ms.openlocfilehash: b668c21313f09323ec3b367eef59bcc5353320c5
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5035446"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380621"
 ---
 # <a name="design-details-warehouse-setup"></a>Détails de conception : paramètres entrepôt
 

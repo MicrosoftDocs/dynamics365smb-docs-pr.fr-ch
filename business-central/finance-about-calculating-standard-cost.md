@@ -3,22 +3,22 @@ title: À propos du calcul des coûts standard | Microsoft Docs
 description: Un système de coûts standard détermine le coût unitaire du stock en fonction d’un coût historique ou prévu plausible. L’analyse des données précédentes et futures en termes de coût peut alors offrir une base pour l’estimation des coûts standard.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 167f99d7a7a0df7727e8c50df376b847e5dfefcb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e7298cd5408f8c8a1277ce2e1f455e3c923fbe52
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917231"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5376651"
 ---
 # <a name="about-calculating-standard-cost"></a>À propos du calcul des coûts standard
-De nombreuses sociétés manufacturières sélectionnent une base d’évaluation du coût standard. Ceci est également vrai pour les sociétés qui effectuent une fabrication légère, comme l’assemblage et le montage. Un système de coûts standard détermine le coût unitaire du stock en fonction d’un coût historique ou prévu plausible. L’analyse des données précédentes et futures en termes de coût peut alors offrir une base pour l’estimation des coûts standard. Ces coûts sont gelés tant que leur modification n’est pas décidée. Le coût réel lié à la production d’un produit peut varier par rapport aux coûts standard estimés. À des fins de contrôle de gestion, le coût réel est comparé au coût standard pour un article spécifique et les différences, ou *écarts* , sont identifiées et analysées.  
+De nombreuses sociétés manufacturières sélectionnent une base d’évaluation du coût standard. Ceci est également vrai pour les sociétés qui effectuent une fabrication légère, comme l’assemblage et le montage. Un système de coûts standard détermine le coût unitaire du stock en fonction d’un coût historique ou prévu plausible. L’analyse des données précédentes et futures en termes de coût peut alors offrir une base pour l’estimation des coûts standard. Ces coûts sont gelés tant que leur modification n’est pas décidée. Le coût réel lié à la production d’un produit peut varier par rapport aux coûts standard estimés. À des fins de contrôle de gestion, le coût réel est comparé au coût standard pour un article spécifique et les différences, ou *écarts*, sont identifiées et analysées.  
 
 Des coûts standard peuvent être conservés pour les articles réapprovisionnés via l’achat, l’assemblage et la production. Pour chaque méthode de réapprovisionnement, les coûts standard peuvent inclure les éléments suivants.  
 
@@ -48,7 +48,7 @@ Les éléments principaux d’un coût constituent le coût direct total d’un 
  Les coûts matière sont des coûts associés aux produits semi-finis et aux matières premières achetées. Le coût unitaire matière peut se décomposer en éléments de coût directs et indirects.  
 
 -   Le coût matière direct correspond à un montant facturé pour les matières premières achetées ou le coût de traitement d’un produit semi-fini.  
--   Le coût matière indirect, ou *frais généraux* , peut correspondre à des éléments tels que les coûts de transport du stock pour l’article fini, une fois que celui-ci est produit.  
+-   Le coût matière indirect, ou *frais généraux*, peut correspondre à des éléments tels que les coûts de transport du stock pour l’article fini, une fois que celui-ci est produit.  
 
 La configuration du coût matière pour les articles achetés affectant les coûts directs et indirects dépend du mode d’évaluation du stock que vous avez sélectionné pour l’article concerné. Vous configurez les informations de coût pour chacun des modes d’évaluation du stock sur la fiche article. Pour plus d’informations, reportez vous à [Enregistrer de nouveaux articles](inventory-how-register-new-items.md).
 
@@ -81,7 +81,7 @@ Vous configurez les taux établis pour chaque type de délai pour chaque poste d
 > [!NOTE]  
 >  Si les délais d’exécution s’appliquent à chaque unité d’article produit, les délais de configuration s’appliquent pour chaque lot. Aussi, vous devez distribuer au prorata le délai de configuration de la gamme pour chaque opération par rapport à la taille lot. Vous spécifiez la taille lot dans le champ correspondant sur le raccourci **Commandes** de la fiche article.  
 
-Pour spécifier le délai de configuration dans la gamme à des fins de planification, sans toutefois inclure cette dépense dans le calcul des coûts standard, désactivez le champ **Inclure coût préparation** de la page **Paramètres production** .  
+Pour spécifier le délai de configuration dans la gamme à des fins de planification, sans toutefois inclure cette dépense dans le calcul des coûts standard, désactivez le champ **Inclure coût préparation** de la page **Paramètres production**.  
 
 Sur une base mono-niveau, il s’agit du coût de main-d’œuvre requis pour produire l’article produit fini et spécifié dans la gamme de l’article produit. Sur une base multi-niveau, il s’agit du coût opératoire spécifié pour chaque article produit individuellement inclus dans la nomenclature de l’article parent.  
 
@@ -95,9 +95,9 @@ Pour mettre à jour ou calculer le coût standard d’éléments d’assemblage,
 
 Le processus de mise à jour ou de calcul des coûts standard comprend généralement les tâches suivantes :  
 
-1.  Mise à jour des coûts aux niveaux des composants et de la capacité. Pour plus d’informations, consultez les traitements par lots **Proposer coût standard article** et **Suggérer le coût standard de la capacité** .  
+1.  Mise à jour des coûts aux niveaux des composants et de la capacité. Pour plus d’informations, consultez les traitements par lots **Proposer coût standard article** et **Suggérer le coût standard de la capacité**.  
 2.  Consolidation et calcul multi-niveau des coûts des composants et de capacité pour déterminer le coût d’assemblage ou de fabrication des articles. Pour plus d’informations, consultez [Pour calculer le coût standard d’un élément d’assemblage](inventory-how-work-boms.md#to-calculate-the-standard-cost-of-an-assembly-item).  
-3.  Application des coûts standard entrés lorsque vous exécutez les traitements par lots précédents. Les coûts standard n’entrent en vigueur que lorsqu’ils sont mis en œuvre. Pour plus d’informations, voir le traitement par lots **Appliquer nouv. coût standard** .  
+3.  Application des coûts standard entrés lorsque vous exécutez les traitements par lots précédents. Les coûts standard n’entrent en vigueur que lorsqu’ils sont mis en œuvre. Pour plus d’informations, voir le traitement par lots **Appliquer nouv. coût standard**.  
 4.  Application des modifications pour mettre à jour le champ **Coût unitaire** sur la fiche article et effectuer une réévaluation du stock. Pour plus d’informations, voir [Réévaluer le stock](inventory-how-revalue-inventory.md).
 
 ## <a name="see-also"></a>Voir aussi  

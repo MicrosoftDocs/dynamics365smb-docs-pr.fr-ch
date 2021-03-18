@@ -3,19 +3,19 @@ title: Configurer un vendeur | Microsoft Docs
 description: Vous pouvez configurer un identifiant pour chacun de vos vendeurs, afin de pouvoir suivre les performances de la personne ou affecter un vendeur à un contact.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales rep
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 37b684c1f8bda394f777e43904b77b5f7747ce36
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: a1721988ca713128a407ec67691cf7ed42865bd9
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748383"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5387139"
 ---
 # <a name="set-up-salespeople"></a>Configurer des vendeurs
 Beaucoup de sociétés souhaitent suivre les performances individuelles d’un collaborateur afin d’avoir une base de calcul pour les commissions et les bonus. Reportez-vous, par exemple, à l’état **Commissions vendeur**. Une société peut également souhaiter affecter un vendeur à chacun de ses contacts.

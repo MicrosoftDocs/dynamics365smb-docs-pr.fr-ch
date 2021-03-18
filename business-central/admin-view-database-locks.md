@@ -3,18 +3,18 @@ title: Afficher les verrouillages base de données
 description: Découvrez comment afficher des informations sur les verrouillages de base de données directement depuis l’interface client de Business Central.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 6880ffa9a2ab42c1af7c22f9cace64697c9f905b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 640608b810f3ad9812decc493ad4e35bcc316f98
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922332"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388164"
 ---
 # <a name="viewing-database-locks"></a>Affichage des verrouillages base de données
 
@@ -24,7 +24,7 @@ Les utilisateurs peuvent être empêchés d’effectuer des transactions sur les
 
 ## <a name="to-view-database-locks"></a>Pour afficher les verrouillages base de données
 
-Sélectionnez l’icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), saisissez **Verrouillages base de données** , puis sélectionnez le lien associé.
+Sélectionnez l’icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), saisissez **Verrouillages base de données**, puis sélectionnez le lien associé.
 
 La page **Verrouillages base de données** affiche un aperçu de tous les verrouillages base de données actuels.
 

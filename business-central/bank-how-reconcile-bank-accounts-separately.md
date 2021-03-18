@@ -3,19 +3,19 @@ title: Rapprocher des comptes bancaires | Microsoft Docs
 description: Décrit la manière dont la valeur du stock fait l’objet d’un rapprochement avec la comptabilité.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 746fd31dfad378bd067e977f2a55a5cf329b7aaa
-ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+ms.openlocfilehash: 08b7f6c092267b965af491cd80144950db138c3d
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5013651"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388714"
 ---
 # <a name="reconcile-bank-accounts"></a>Rapprochement des comptes bancaires
 

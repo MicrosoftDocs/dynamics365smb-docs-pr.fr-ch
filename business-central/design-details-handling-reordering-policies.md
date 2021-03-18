@@ -3,19 +3,19 @@ title: Détails de conception - Gestion des méthodes de réapprovisionnement | 
 description: Aperçu des tâches pour définir une méthode de réapprovisionnement dans la planification des approvisionnements.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dbe63d653120eb9e6450af401558414cf2057b1d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fa9563c503fac844abb67d02934e0a0a666deeab
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922257"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390064"
 ---
 # <a name="design-details-handling-reordering-policies"></a>Détails de conception : gestion des méthodes de réapprovisionnement
 Pour qu’un article participe à la planification des approvisionnements, une méthode de regroupement doit être définie. Les quatre méthodes de réapprovisionnement disponibles sont les suivantes :  
@@ -81,9 +81,9 @@ Voici une illustration graphique de ce principe :
 
      Cela entraîne l’augmentation du niveau de stock projeté (A : +0 => +4 or B : +2 = +6).  
 
-7. Le système effectue un contrôle final : existe-t-il une relance de sortie ? Oui, il y en a un en date du **Da** .  
+7. Le système effectue un contrôle final : existe-t-il une relance de sortie ? Oui, il y en a un en date du **Da**.  
 8. Le système ajoute le rappel de diminution -3 au niveau de stock projeté, soit A : +4 -3 = 1 or B : +6 -3 = +3.  
-9. En cas de A, le système crée une commande planifiée en aval qui commence à la date **Da** .  
+9. En cas de A, le système crée une commande planifiée en aval qui commence à la date **Da**.  
 
      Dans le cas de B, le point de commande est atteint et aucune commande n’est créée.
 
@@ -195,14 +195,14 @@ Le point de commande exprime la demande anticipée lors du délai de l’article
 
  ![Suggestion de planification d’urgence pour éviter un stock négatif](media/nav_app_supply_planning_2_negative_inventory.png "Suggestion de planification d’urgence pour éviter un stock négatif")  
 
-1.  L’approvisionnement **A** , stock prévisionnel initial, est inférieur au point de commande.  
-2.  Un approvisionnement planifié en aval est créé ( **C** ).  
+1.  L’approvisionnement **A**, stock prévisionnel initial, est inférieur au point de commande.  
+2.  Un approvisionnement planifié en aval est créé (**C**).  
 
      (Quantité = Stock maximum – Niveau de stock projeté)  
 3.  L’approvisionnement **A** est clôturé par la demande **B** qui n’est pas totalement couverte.  
 
      (La demande **B** peut tenter de planifier l’approvisionnement C mais cela ne se produira pas en raison du concept d’intervalle de planification.)  
-4.  Un nouvel approvisionnement ( **D** ) est créé pour couvrir la quantité restante sur demande **B** .  
+4.  Un nouvel approvisionnement (**D**) est créé pour couvrir la quantité restante sur demande **B**.  
 5.  La demande **B** est clôturée (création d’une relance dans le stock prévisionnel).  
 6.  Le nouvel approvisionnement **D** est clôturé.  
 7.  Le stock prévisionnel est vérifié ; le point de commande n’a pas été dépassé.  
@@ -234,7 +234,7 @@ Les commandes approvisionnement qui sont créées spécifiquement pour répondre
 Les modificateurs de commande, qté minimum commande, qté maximum commande et multiple de commande, ne doivent pas jouer un grand rôle lorsque la stratégie de quantité fixe de commande est utilisée. Toutefois, le système de planification prend encore ces modificateurs en compte et diminue la quantité commande maximum spécifiée (et crée au moins deux approvisionnements pour atteindre la quantité commande totale), augmente la commande jusqu’à la quantité commande minimum spécifiée ou arrondit la quantité commandée pour répondre à un multiple spécifié de la commande.  
 
 #### <a name="combines-with-calendars"></a>Combinaison avec des calendriers  
-Avant de proposer une commande approvisionnement pour répondre à un point de commande, le système de planification vérifie si la commande est planifiée pour un jour chômé, en fonction des calendriers définis dans le champ **Code calendrier principal** des pages **Informations société** et **Fiche magasin** .  
+Avant de proposer une commande approvisionnement pour répondre à un point de commande, le système de planification vérifie si la commande est planifiée pour un jour chômé, en fonction des calendriers définis dans le champ **Code calendrier principal** des pages **Informations société** et **Fiche magasin**.  
 
 Si la date prévue est un jour chômé, le système de planification déplace la commande en aval à la date de travail la plus proche. Cela peut entraîner une commande qui satisfait un point de commande mais ne pas satisfait une certaine demande spécifique. Pour une telle demande non soldée, le système de planification crée un approvisionnement supplémentaire.  
 
@@ -258,7 +258,7 @@ Le système assure que le stock prévisionnel atteint au moins le niveau du poin
 En fonction de la configuration, il peut être préférable de combiner la stratégie de la quantité maximum avec des modificateurs de commande pour garantir une quantité de commande minimale ou de l’arrondir au nombre supérieur d’unités d’achat, ou de le diviser en davantage de lots comme défini par la quantité maximum commande.  
 
 ### <a name="combines-with-calendars"></a>Combinaison avec des calendriers  
-Avant de proposer une commande approvisionnement pour répondre à un point de commande, le système de planification vérifie si la commande est planifiée pour un jour chômé, en fonction des calendriers définis dans le champ **Code calendrier principal** des pages **Informations société** et **Fiche magasin** .  
+Avant de proposer une commande approvisionnement pour répondre à un point de commande, le système de planification vérifie si la commande est planifiée pour un jour chômé, en fonction des calendriers définis dans le champ **Code calendrier principal** des pages **Informations société** et **Fiche magasin**.  
 
 Si la date prévue est un jour chômé, le système de planification déplace la commande en aval à la date de travail la plus proche. Cela peut entraîner une commande qui satisfait un point de commande mais ne pas satisfait une certaine demande spécifique. Pour une telle demande non soldée, le système de planification crée un approvisionnement supplémentaire.
 
@@ -282,7 +282,7 @@ La méthode lot pour lot est la plus souple, parce que le système réagit uniqu
 
 Par certains côtés, la méthode lot pour lot ressemble à la méthode de commande, mais elle a une approche générique des articles ; elle peut accepter des quantités en stock, et elle groupe une demande et un approvisionnement correspondants dans des intervalles de planification définis par l’utilisateur.  
 
-L’intervalle de planification est défini dans le champ **Intervalle de planification** . Le système travaille avec un intervalle de planification minimum d’un jour, car il s’agit de la plus petite unité de temps des événements de demande et d’approvisionnement dans le système (même si, dans la pratique, l’unité de temps des ordres de fabrication et des besoins de composants peuvent être des secondes).  
+L’intervalle de planification est défini dans le champ **Intervalle de planification**. Le système travaille avec un intervalle de planification minimum d’un jour, car il s’agit de la plus petite unité de temps des événements de demande et d’approvisionnement dans le système (même si, dans la pratique, l’unité de temps des ordres de fabrication et des besoins de composants peuvent être des secondes).  
 
 L’intervalle de planification fixe également des limites lorsque un ordre de fabrication existant doit être replanifié pour répondre à une demande donnée. Si l’approvisionnement se trouve dans l’intervalle de planification, il est replanifié en entrée ou en sortie pour répondre à la demande. Sinon, s’il a lieu précédemment, il provoque une accumulation de stock inutile et doit être annulé. S’il se trouve plus tard, une commande approvisionnement est créée à la place.  
 

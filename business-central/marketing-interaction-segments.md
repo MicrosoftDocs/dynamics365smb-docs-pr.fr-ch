@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 6a363007ece179430949d0fc0c62cb9df3fc9dac
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cc50d1b619c2f9cef4d6cdb53aa8bf5d9892b56e
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923660"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381407"
 ---
 # <a name="manage-interactions-for-segments"></a>Gérer les interactions pour les segments
 La page **Segment** est un type de feuille activité dans laquelle vous pouvez effectuer les opérations suivantes :
@@ -35,14 +35,14 @@ Il existe plusieurs méthodes de création de segments :
 * Vous pouvez réutiliser des critères de segmentation enregistrés.
 
 ## <a name="interactions"></a>Interactions
-Sur la page **Segment** , vous pouvez créer simultanément des interactions pour plusieurs contacts. Par exemple, vous pouvez fusionner un segment avec un document Microsoft Word de manière à envoyer une lettre à tous les contacts inclus dans le segment.
+Sur la page **Segment**, vous pouvez créer simultanément des interactions pour plusieurs contacts. Par exemple, vous pouvez fusionner un segment avec un document Microsoft Word de manière à envoyer une lettre à tous les contacts inclus dans le segment.
 
-Vous pouvez définir des données sur l’interaction pour le segment qui apparaît dans l’en-tête **Segment** . Par exemple, vous pouvez choisir le modèle interaction à utiliser pour tous les contacts, saisir une désignation, définir un type correspondance, et ainsi de suite. Vous pouvez cependant modifier ces données dans la ligne segment de chaque contact, par exemple en saisissant une désignation différente pour un contact. Si vous fusionnez un segment avec un document Microsoft Word, vous pouvez personnaliser le document à envoyer à un ou à plusieurs contacts inclus dans le segment, par exemple en ajoutant au document des commentaires spécifiques.
+Vous pouvez définir des données sur l’interaction pour le segment qui apparaît dans l’en-tête **Segment**. Par exemple, vous pouvez choisir le modèle interaction à utiliser pour tous les contacts, saisir une désignation, définir un type correspondance, et ainsi de suite. Vous pouvez cependant modifier ces données dans la ligne segment de chaque contact, par exemple en saisissant une désignation différente pour un contact. Si vous fusionnez un segment avec un document Microsoft Word, vous pouvez personnaliser le document à envoyer à un ou à plusieurs contacts inclus dans le segment, par exemple en ajoutant au document des commentaires spécifiques.
 
 ## <a name="logging"></a>Journalisation
-Sur la page **Segment** , lorsque vous cliquez sur **Journaliser** , l’application enregistre les interactions sur la page **Ecriture journal interaction** et journalise le segment. Une fois le segment journalisé, il n’apparaît plus que sur la page **Segments journalisés** .
+Sur la page **Segment**, lorsque vous cliquez sur **Journaliser**, l’application enregistre les interactions sur la page **Ecriture journal interaction** et journalise le segment. Une fois le segment journalisé, il n’apparaît plus que sur la page **Segments journalisés**.
 
-Sur la page **Segments journalisés** , vous pouvez choisir de créer un suivi segment contenant les mêmes contacts que le segment que vous avez journalisé.
+Sur la page **Segments journalisés**, vous pouvez choisir de créer un suivi segment contenant les mêmes contacts que le segment que vous avez journalisé.
 
 ## <a name="see-also"></a>Voir aussi
 [Création de segments](marketing-how-create-segment.md)  

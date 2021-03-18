@@ -3,19 +3,19 @@ title: Déplacement d’articles | Microsoft Docs
 description: Lorsque les articles sont en stock, il peut être nécessaire de les déplacer entre plusieurs emplacements pour prendre en charge les activités entrepôt quotidiennes permettant de conserver le flux d’articles dans l’entrepôt. Certains mouvements se produisent en relation directe avec les opérations internes ; par exemple, lorsqu’un ordre de fabrication impose que des composants soient livrés ou que des produits finis soient rangés. D’autres mouvements se produisent dans le cadre d’une simple optimisation de l’espace des entrepôts ou en tant que mouvements ad-hoc depuis ou vers des opérations.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 57a7292dda8594bd74c62ea8a15b9b38df7b4cc0
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: af05b6f6b4c1ff493d3e9187f09ef98bcec17491
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4755848"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382244"
 ---
 # <a name="moving-items"></a>Déplacement d’articles
 L’activité entrepôt consistant à déplacer les articles dans l’entrepôt s’exécute différemment selon la configuration des fonctionnalités du module Gestion d’entrepôt. Le niveau de complexité du paramétrage varie : aucune fonctionnalité entrepôt, configurations de stockage de base pour le traitement par commande dans une ou plusieurs activités uniquement, configurations avancées dans lesquelles toutes les activités entrepôt doivent être exécutées dans un flux suggéré. Pour plus d’informations, voir [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md).

@@ -3,19 +3,19 @@ title: Utiliser les références externes article
 description: Définissez des références entre les descriptions que vous et votre fournisseur utilisez pour un article afin que vous puissiez insérer la description d’article du fournisseur dans les documents achat.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item reference, cross reference, inventory
 ms.date: 01/12/2021
 ms.author: edupont
-ms.openlocfilehash: 7d670f6553a1bd70dcc3d97f90436f36c6627c56
-ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+ms.openlocfilehash: 2f500d7df80235b8f092fc3f0a7ae8fd27cd8aea
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5013807"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377638"
 ---
 # <a name="use-item-cross-references"></a>Utiliser les références externes article
 Si vous configurez une référence externe entre la désignation article que vous utilisez pour un article et la désignation que le fournisseur de cet article utilise, la désignation de l’article du fournisseur est automatiquement insérée sur les documents achat du fournisseur lorsque vous renseignez le **N° référence externe**. . La même fonctionnalité s’applique pour les numéros d’article client sur les documents vente.

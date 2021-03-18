@@ -4,19 +4,19 @@ description: En savoir plus sur la série de tâches que vous devez effectuer po
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7a5230f26b3e0db8896125d1a8dbf2d8ff322777
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 3044d878260dbab4e9d2423398b7654386671638
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751170"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380092"
 ---
 # <a name="setting-up-fixed-assets"></a>Paramétrage d’immobilisations
 Avant de pouvoir utiliser les immobilisations, vous devez définir les éléments suivants :  

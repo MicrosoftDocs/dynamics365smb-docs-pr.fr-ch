@@ -3,19 +3,19 @@ title: Pourquoi je ne peux pas personnaliser une page | Microsoft Docs
 description: Explique pourquoi vous ne pouvez pas personnaliser une page et ce que vous pouvez faire pour la déverrouiller et pouvoir ainsi la personnaliser.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0bd24833f37fe70f8e642685be4d28dbb593a16d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 41b0989d388ee7ded2619136ded0a03d5830b78b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923410"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5387574"
 ---
 # <a name="why-a-page-is-locked-from-personalization"></a>Pourquoi la personnalisation d’une page est verrouillée
 
@@ -38,7 +38,7 @@ Deux raisons expliquent cela :
 
 ### <a name="unlocking-the-page"></a>Déverrouillage de la page
 
-Si vous souhaitez déverrouiller une page et poursuivre sa personnalisation, sélectionnez l’icône ![Verrouillage de personnalisation](media/personalization-lock-icon.png "Verrouillage de personnalisation"), puis l’action **Déverrouiller** .  
+Si vous souhaitez déverrouiller une page et poursuivre sa personnalisation, sélectionnez l’icône ![Verrouillage de personnalisation](media/personalization-lock-icon.png "Verrouillage de personnalisation"), puis l’action **Déverrouiller**.  
 
 Avant de déverrouiller la page, veillez à ce qui suit :
 
@@ -48,7 +48,7 @@ Avant de déverrouiller la page, veillez à ce qui suit :
 
 ## <a name="blocked-from-personalizing"></a>Personnalisation bloquée
 
-S’il y a une icône ![Personnalisation bloquée](media/personalization-blocked-icon.png "Personnalisation bloquée") dans la bannière **Personnalisation** , cela signifie que vous ne pouvez pas apporter de personnalisation à la page.
+S’il y a une icône ![Personnalisation bloquée](media/personalization-blocked-icon.png "Personnalisation bloquée") dans la bannière **Personnalisation**, cela signifie que vous ne pouvez pas apporter de personnalisation à la page.
 
 <!-- Only text is translated, so removing this image for non-English UX reasons.  ![Personalize blocked](media/personalization-blocked.png "Personalize lock") -->
 

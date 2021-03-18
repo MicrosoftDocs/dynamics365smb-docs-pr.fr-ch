@@ -3,19 +3,19 @@ title: Créer et gérer les contacts de la société| Microsoft Docs
 description: Paramétrez tous les entités externes avec lesquelles vous avez une relation d’affaires (par exemple les prospects, les clients, les fournisseurs, et les consultants) comme contacts.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ea0bf893088694115e5cb54f2b9500bb4eacf6ac
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e1e232dec1d6c0bdb5fa97b8351a4b81abb8395d
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922784"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388959"
 ---
 # <a name="managing-contacts"></a>Gestion de contacts
 

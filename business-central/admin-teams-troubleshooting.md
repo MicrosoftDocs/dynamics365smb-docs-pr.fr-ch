@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
 ms.date: 01/20/2021
 ms.author: jswymer
-ms.openlocfilehash: 10612a3e5e257969b2daf0839ea0826316a956ee
-ms.sourcegitcommit: 36a32c997b201ff32ed8c1cff8179b36e2468c47
+ms.openlocfilehash: 7a98b53a34ddf403cf6507da7740b97924d4c81c
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "5046547"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385214"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Dépannage de l’intégration de Microsoft Teams avec [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -103,7 +103,7 @@ L’application [!INCLUDE [prod_short](includes/prod_short.md)] ne prend pas en 
 
 Certains navigateurs, comme le nouveau Microsoft Edge, vous permet de choisir la caméra d’appareil à utiliser lorsque votre appareil prend en charge plusieurs caméras. 
 
-## <a name="teams-displays-mixed-languages-for-my-cards-and-card-details"></a>Teams affiche des langues mixtes pour mes fiches et les détails de ma fiche 
+## <a name="teams-displays-mixed-languages-for-my-cards-and-card-details"></a>Teams affiche des langues mixtes pour mes fiches et les détails de ma fiche
 
 Pour que les fiches et les détails des fiches s’affichent de manière cohérente dans la même langue dans Teams, la langue de votre client Teams et la langue que vous utilisez dans le client Web [!INCLUDE [prod_short](includes/prod_short.md)] doit correspondre.
 
@@ -116,6 +116,21 @@ Pour plus d’informations sur le fonctionnement des langues entre Teams et [!IN
 ## <a name="i-edited-a-field-in-the-details-window-but-my-change-wasnt-saved"></a>J’ai modifié un champ dans la fenêtre de détails, mais ma modification n’a pas été enregistrée
 
 Les modifications que vous apportez à un champ dans les fenêtres de détails sont automatiquement enregistrées lorsque vous quittez le champ. Avant de fermer la fenêtre après avoir modifié un champ, assurez-vous d’appuyer sur la touche Tab ou de cliquer/appuyer en dehors du champ.
+
+## <a name="a-new-tile-appeared-in-the-app-launcher-how-do-i-remove-it"></a>Une nouvelle vignette est apparue dans le lanceur d’applications. Comment la supprimer ?
+
+Lorsque vous affichez vos applications sur la page d’accueil Office 365 (https://home.office.com) ou dans le lanceur d’applications, une nouvelle vignette nommée "Connecteur du service d’intégration Teams Business Central" apparaîtra après l’installation de l’application [!INCLUDE [prod_short](includes/prod_short.md)] pour Teams. Cette vignette ne fournit aucune valeur en soi et peut être masquée en toute sécurité.
+
+En tant qu’administrateur, avec des autorisations d’administrateur Azure Active Directory, vous pouvez masquer la vignette en procédant comme suit :
+
+1. Connectez-vous au [centre d’administration Azure Active Directory](https://aad.portal.azure.com/).
+2. Sélectionnez **Applications d’entreprise**, puis sélectionnez **Connecteur du service d’intégration Teams Business Central**.
+3. Sélectionnez **Propriétés**, puis définissez le bouton bascule **Visible pour les utilisateurs** sur **Non**.
+4. Sélectionnez **Enregistrer**.
+
+> [!NOTE]
+> Il faudra un certain temps avant que ce changement ne prenne effet.
+
 
 ## <a name="see-also"></a>Voir aussi
 

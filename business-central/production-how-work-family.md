@@ -3,19 +3,19 @@ title: Procédure d’utilisation des familles d’articles dans la production |
 description: Lorsque vous personnalisez un calendrier principal pour votre société ou pour l’un de ses partenaires commerciaux, votre tâche consiste essentiellement à modifier le statut des jours ouvrés et chômés.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f33ac3e581325eb714af67ee7040157a61e59fc7
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 4c926b8f7663c805f07bcd7c85339b109f85a7ff
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758882"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5383215"
 ---
 # <a name="work-with-production-families"></a>Utiliser les familles de production
 Une famille de production est un groupe d’articles distincts dont la relation repose sur la similitude de leur processus de fabrication. Si vous formez des familles de production, certains articles peuvent être fabriqués plusieurs fois au cours d’une production, ce qui optimise la consommation de matière.

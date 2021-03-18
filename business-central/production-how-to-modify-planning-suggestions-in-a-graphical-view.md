@@ -3,19 +3,19 @@ title: Procédure de modification des propositions planning dans une vue graphiq
 description: Une activité de planification courante est d’ajouter ou de modifier les lignes feuille planning pour modifier les commandes approvisionnement proposées avant de les valider en exécutant la fonction Traiter message d’action. Une alternative à utiliser la feuille planning est d’utiliser une vue graphique.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d00650a3490cd4995e4c531aca5346c8c0256179
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: a17ce72c88ecb9df07169814a50701635239d725
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4759282"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381330"
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Modifier les propositions planning dans une vue graphique
 

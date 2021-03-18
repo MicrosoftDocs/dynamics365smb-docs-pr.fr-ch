@@ -3,19 +3,19 @@ title: Créer une commande vente et vendre des produits | Microsoft Docs
 description: Décrit comment créer une commande vente pour enregistrer votre contrat avec un client pour vendre ou commercialiser des produits dans des conditions spécifiques.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f6d913681967bbe609a03d7d6a2736e9c86b4ce0
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 7cee1cb2348e21c50e10a23a28a244e03b3e56f4
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758182"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5387639"
 ---
 # <a name="sell-products"></a>Vendre des produits
 

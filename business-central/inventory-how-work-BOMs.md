@@ -3,18 +3,18 @@ title: Utiliser les nomenclatures pour gérer les composants
 description: Vous créez une nomenclature d’assemblage ou une nomenclature de production pour spécifier les composants ou ressources nécessaires pour assembler l’article que la nomenclature représente.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 01/05/2021
 ms.author: edupont
-ms.openlocfilehash: c5d372c72d70c72f9c809fe6b3a05ed5b5528a8f
-ms.sourcegitcommit: cdba82235c0c07497bd04b9bd5134ef245d92c09
+ms.openlocfilehash: 2ada3cea6a7c7e5fddc122b9405a6e608f35a804
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "4838472"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377613"
 ---
 # <a name="work-with-bills-of-material"></a>Utiliser les nomenclatures
 Les nomenclatures d’assemblage permettent de structurer les articles parents qui doivent être assemblés ou produits par des ressources ou des postes de charge à partir des composants. Une nomenclature d’assemblage peut également être utilisée pour vendre un article parent sous la forme d’un kit constitué de ses composants.

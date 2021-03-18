@@ -3,19 +3,19 @@ title: Comment configurer des types d’emplacement | Microsoft Docs
 description: Vous pouvez diriger la circulation des articles vers les emplacements que vous avez définis pour des activités entrepôt particulières. Vous attribuez à chaque emplacement des activités circulation de base, et définissez de cette façon la manière dont un emplacement est utilisé, en lui affectant un type.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ee6694f15a8717c44504dea274fa50de7a1e6e6f
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: a5e05531e1cadc32b609cd2fb4f50a575ef87f5b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756032"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386339"
 ---
 # <a name="set-up-bin-types"></a>Configurer des types d’emplacement
 Vous pouvez diriger la circulation des articles vers les emplacements que vous avez définis pour des activités entrepôt particulières. Vous attribuez à chaque emplacement des activités circulation de base, et définissez de cette façon la manière dont un emplacement est utilisé, en lui affectant un type.  

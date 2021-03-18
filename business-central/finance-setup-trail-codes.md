@@ -3,19 +3,19 @@ title: Configurer des codes pistes d’audit | Microsoft Docs
 description: Découvrez les tâches de configuration des codes source et des codes motif que vous pouvez utiliser pour suivre les pistes d’audit.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fc491b060d6a4b1039376b0051ef58da104ff1d1
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 9dab74a6a8debd20de781890c3b391457c6034e3
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4750370"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386914"
 ---
 # <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Configuration des codes source et des codes de motif pour les pistes d’audit
 

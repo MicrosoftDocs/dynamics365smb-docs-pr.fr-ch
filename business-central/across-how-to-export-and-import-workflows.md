@@ -3,19 +3,19 @@ title: 'Procédure : exporter et importer des flux de travail | Microsoft Docs'
 description: Pour transférer des workflows vers d’autres bases de données Business Central, par exemple pour gagner du temps lors de la création de workflows, vous pouvez exporter et importer des workflows.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4d11bc57066c0124bcb004894ed6b2c9dc4b812e
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 6f47b137a2915f790b510c0fd66944a4fe7814ca
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754782"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384439"
 ---
 # <a name="export-and-import-workflows"></a>Exporter et importer des workflows
 Pour transférer des workflows vers d’autres bases de données [!INCLUDE[prod_short](includes/prod_short.md)], par exemple pour gagner du temps lors de la création de workflows, vous pouvez exporter et importer des workflows.  

@@ -3,19 +3,19 @@ title: Utilisation de Business Central avec Outlook | Microsoft Docs
 description: Ce service bénéficie d’une intégration complète à Microsoft 365, ce qui vous permet de gérer tous vos interactions et messages d’affaires avec les clients et les fournisseurs directement dans Outlook.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b04a124ea3e55320c1b3f9be37e54898ba3b16d1
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 6d2e396b21f2d5de2bb341e864df031070df1ca4
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752540"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377963"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Utilisation de Business Central en tant que boîte de réception professionnelle dans Outlook
 

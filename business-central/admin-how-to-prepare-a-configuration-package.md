@@ -3,19 +3,19 @@ title: Procédure de préparation d’un package de configuration | Microsoft Do
 description: Apprenez maintenant à configurer un package configuration RapidStart qui peut aider à configurer de nouvelles sociétés sur la base des données existantes.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 659478fb593f16c4c0a8dd746ccdd61211bc7ecb
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 6b8e0a46375bce9ffd22b160766925bf803025f0
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752740"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378213"
 ---
 # <a name="prepare-a-configuration-package"></a>Préparer un package configuration
 

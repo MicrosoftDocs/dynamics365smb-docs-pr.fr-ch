@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f73178cc55840ffa1756c45a83f01f1bdf8bc359
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: cdc39d9b7d6fa22783c5885363fccb0b8a29dd76
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4747709"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5387114"
 ---
 # <a name="general-business-functionality"></a>Fonctionnalités marché
 [!INCLUDE[prod_short](includes/prod_short.md)] fournit des fonctionnalités dédiées pour les domaines d’activité courants, tels que la finance et les ventes. Pour plus d’informations, voir [Fonctionnalités d’entreprise](across-business-functionality.md).

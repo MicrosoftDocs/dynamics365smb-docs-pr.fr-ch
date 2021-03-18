@@ -3,19 +3,19 @@ title: 'Détails de conception : validation d’ordre d’assemblage | Microsof
 description: La validation d’ordre d’assemblage est basée sur les mêmes principes que la validation des activités similaires des commandes vente et de la consommation de production/production. Cependant, les principes sont combinés du fait que les ordres d’assemblage ont leur propre interface utilisateur de validation, comme celle des commandes vente, alors que la validation des écritures réelle se produit en arrière-plan en tant que validations directes d’article et de feuille ressource, comme pour la consommation de production, la production et la capacité.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 51e16908aff4e4877d93a2828d2400185c3213ca
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: c5c4da8c3535202dec5e2cf8d3ec943b62eea420
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751820"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5389466"
 ---
 # <a name="design-details-assembly-order-posting"></a>Détails de conception : validation d’ordre d’assemblage
 La validation d’ordre d’assemblage est basée sur les mêmes principes que la validation des activités similaires des commandes vente et de la consommation de production/production. Cependant, les principes sont combinés du fait que les ordres d’assemblage ont leur propre interface utilisateur de validation, comme celle des commandes vente, alors que la validation des écritures réelle se produit en arrière-plan en tant que validations directes d’article et de feuille ressource, comme pour la consommation de production, la production et la capacité.  

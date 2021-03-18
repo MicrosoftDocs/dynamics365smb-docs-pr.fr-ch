@@ -3,19 +3,19 @@ title: Mappage de champ pour exporter des fichiers de paiement bancaire | Micros
 description: Lorsque vous exportez des fichiers de paiement à l’aide de l’extension AMC Banking 365 Fundamentals, les données que vous exportez sont exposées au fournisseur de service.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 84be9f847d466588e25dad81754bcf64f367b4c8
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 9785c55602a3df230b9692008e2c96d7649158e6
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753382"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384814"
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Mappage de champ lors de l’exportation de fichiers de paiement à l’aide de l’extension AMC Banking 365 Fundamentals
 Lorsque vous exportez des fichiers de paiement à l’aide de l’extension AMC Banking 365 Fundamentals, les données que vous exportez sont exposées au fournisseur de service. Le fournisseur de service est responsable de la confidentialité de ces données. Pour plus d’informations sur l’extension AMC Banking 365 Fundamentals, voir [Utilisation de l’extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  

@@ -3,19 +3,19 @@ title: Description des processus Assembler pour commande et Assembler pour stock
 description: Les éléments d’assemblage peuvent être fournis soit en les assemblant lors de leur commande ou en les assemblant pour les conserver en stock jusqu’à ce qu’ils soient nécessaires pour une commande vente.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 89a2e2390950bbba0f5d0e93db5ed72359fd637f
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: c9341e68ef47bbb2614db2b5c9db40bf6cac2403
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4747431"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380696"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Description des processus Assembler pour commande et Assembler pour stock
 Les éléments d’assemblage peuvent être fournis dans le cadre des deux processus suivants :  

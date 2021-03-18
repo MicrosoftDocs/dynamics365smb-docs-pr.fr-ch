@@ -3,19 +3,19 @@ title: Comment créer des emplacements | Microsoft Docs
 description: La méthode la plus efficace pour créer les emplacements de votre entrepôt consiste à générer des groupes d’emplacements identiques dans la feuille de création d’emplacements, mais vous pouvez également créer vos emplacements séparément.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 11113ceaa153ea7e3c9a4ea36b8eddba8235f28f
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: ea28885b7f7ff41b7ef1250e692895543ca46042
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4759883"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385689"
 ---
 # <a name="create-bins"></a>Créer emplacements
 La méthode la plus efficace pour créer les emplacements de votre entrepôt consiste à générer des groupes d’emplacements identiques dans la feuille de création d’emplacements, mais vous pouvez également créer vos emplacements séparément à partir de la fiche magasin. Vous pouvez également utiliser une fonction de la page **Feuille création emplacement** pour créer des emplacements automatiquement.  

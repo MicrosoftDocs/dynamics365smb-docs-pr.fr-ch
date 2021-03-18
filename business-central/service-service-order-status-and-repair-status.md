@@ -3,19 +3,19 @@ title: Statut commande service et statut réparation
 description: Le champ Statut de la page Commande service et le statut réparation de l’article de service, qui est représenté par le champ Code du statut de réparation sur la page Commande service ont une certaine relation dans le module Service management. Le statut commande service reflète l’état réparation de tous les articles de service de la commande service.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/15/2020
 ms.author: edupont
-ms.openlocfilehash: 9bbe3a4263250a7d06bfffa2019114eba72a31ca
-ms.sourcegitcommit: 2d2dfb6c3eca1322835f0167dc7dab614346972e
+ms.openlocfilehash: b9095cbfd1b8a55f525f0a3c4dcfad6cf56fc449
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4038634"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386839"
 ---
 # <a name="service-order-status-and-repair-status"></a>Statut commande service et statut réparation
 

@@ -3,19 +3,19 @@ title: Procédure de sous-traitance de la production | Microsoft Docs
 description: Une fois que la commande achat a été créée à partir de la feuille sous-traitant, elle peut être validée.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 404255e33d0fc689ee463b6fa0305bcd5cec0785
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: aa99c68ac4c936d953be8aaff4d9f18a1b213753
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758982"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5383340"
 ---
 # <a name="subcontract-manufacturing"></a>Sous-traiter la production
 La sous-traitance des opérations sélectionnées au fournisseur est courante dans de nombreuses sociétés de production. La sous-traitance peut être occasionnelle ou faire partie intégrante des processus de production.

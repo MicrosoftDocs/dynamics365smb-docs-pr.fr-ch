@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ed8b60c5b49502251f6ab6e61d22fd860af0915f
-ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
+ms.openlocfilehash: 493a801b381ef21a2f8265e3a59615fa21618fc1
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5024553"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385914"
 ---
 # <a name="define-document-layouts-for-customers-and-vendors"></a>Définir des présentations de document pour les clients et les fournisseurs
 Lorsque des présentations de rapport personnalisées sont définies, vous pouvez les sélectionner à partir des fiches client et fournisseur pour spécifier les présentations qui sont utilisées pour différents types de documents que vous créez pour le client ou le fournisseur en question. La valeur du champ **Utilisation** définit le processus pour lequel la présentation du document est utilisée, par exemple **Relance**, **Expédition** et **Confirmation**.

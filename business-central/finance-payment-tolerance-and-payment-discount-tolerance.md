@@ -3,19 +3,19 @@ title: Écart de règlement et écart d’escompte | Microsoft Docs
 description: Vous pouvez configurer l’écart de règlement de manière à fermer une facture lorsque le paiement ne couvre pas entièrement le montant de la facture.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 50e37e54d840c82cbcbfc92ab8f5fc009642a6b4
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: c2669d830ab95e5cd0c20240ae776175a2db9f6a
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4750545"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380042"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Utilisation des écarts de règlement et des écarts d’escompte
 Vous pouvez configurer un écart de règlement de manière à fermer une facture lorsque le paiement ne couvre pas entièrement le montant de la facture. Par exemple, les écarts de règlement concernent généralement de petits montants qui coûteraient plus cher à corriger qu’à accepter. Vous pouvez configurer un écart de règlement pour accorder un escompte après expiration de la date d’escompte.  

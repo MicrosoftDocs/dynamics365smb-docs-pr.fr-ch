@@ -3,19 +3,19 @@ title: Prévoir des retards de paiement pour les documents vente | Microsoft Doc
 description: Utilisez notre modèle prédictif pour prévoir si une facture sera payée à temps.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 6fc4f700f7469c280474e4a1f606ade24ef1266b
-ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
+ms.openlocfilehash: 32532dfb1d78f27dc2dac8b61cfc8d0c47e6b6b4
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "4817069"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386864"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Extension Prévisions de retard de paiement  
 Une gestion efficace des créances est importante pour la santé financière générale d’une société. L’extension de prévision de retard de paiement peut vous aider à minimiser les créances ouvertes et à ajuster votre stratégie de collectes en prévoyant si les factures vente seront payées à temps. Par exemple, si un retard de paiement est prévu, vous pouvez décider d’ajuster les conditions de paiement ou le mode de règlement du client.

@@ -3,19 +3,19 @@ title: Configurer la tarification et les coûts des services | Microsoft Docs
 description: Découvrez comment configurer les prix et les frais supplémentaires des services.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, cost, service order
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fac8f33b973135cc9aceff649a9046153bd45253
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 12e116740d16b0638c086790d15fe4dd86fd05ef
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748120"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380874"
 ---
 # <a name="set-up-pricing-and-additional-costs-for-services"></a>Configurer la tarification et les frais supplémentaires pour les services
 Les fonctions de tarification de [!INCLUDE[prod_short](includes/prod_short.md)] permettent de configurer et de personnaliser votre application afin d’appliquer et d’ajuster la tarification des articles de service, réparations et commandes. Les décisions en matière de tarification sont alors facilement transmises au processus de facturation.  

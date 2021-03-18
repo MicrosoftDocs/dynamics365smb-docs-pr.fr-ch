@@ -3,19 +3,19 @@ title: Procédure de gestion de la configuration de la société dans une feuill
 description: La feuille configuration est l’emplacement principal dans lequel vous pouvez planifier, suivre et effectuer votre travail de configuration. Vous pouvez créer une feuille pour chaque société avec laquelle vous travaillez ou créer une feuille configuration standard qui peut être utilisée pour configurer plusieurs sociétés identiques.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e90d17b2892744c768cd0383f91962fe51d2a0de
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: f3b4be28dda5e01656f8e91fe813c01969115100
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752665"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378263"
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Gérer la configuration de la société dans une feuille
 La feuille configuration est l’emplacement principal dans lequel vous pouvez planifier, suivre et effectuer votre travail de configuration. Vous pouvez créer une feuille pour chaque société avec laquelle vous travaillez ou créer une feuille configuration standard qui peut être utilisée pour configurer plusieurs sociétés identiques.  

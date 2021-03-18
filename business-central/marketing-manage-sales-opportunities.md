@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: f6ba8df61a2c375c9a938cbe5b0c1a30032c5d9d
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: aeb0c872a9f89874abbd6c5049b0b4d3594e4399
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4755357"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390450"
 ---
 # <a name="managing-sales-opportunities"></a>Gestion des opportunités de ventes
 Tout prospect entrant peut être considéré comme une opportunité de vente. Vous pouvez créer des opportunités et les associer à un vendeur afin de pouvoir suivre les ventes potentielles.

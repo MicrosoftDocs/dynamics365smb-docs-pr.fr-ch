@@ -2,18 +2,12 @@
 metadata:
   title: FAQ Copier et coller des données
   description: Obtenez des réponses aux questions fréquemment posées sur la copie et le collage de données à partir de champs et de lignes à partir des pages Business Central.
-  author: SorenGP
-  ms.topic: article
-  ms.service: dynamics365-business-central
-  ms.search.keywords: accessibility, shortcuts, keyboarding
-  ms.date: 01/08/2021
-  ms.author: edupont
-  ms.openlocfilehash: 93b9f28fec418fef9968fb729ee03b3b0df3918a
-  ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+  ms.openlocfilehash: 7d3d0e29bb6751913297974f611aa9695677ed66
+  ms.sourcegitcommit: 5f403a0567dcfa77493178d116ac64e531c269ad
   ms.translationtype: HT
   ms.contentlocale: fr-CH
-  ms.lasthandoff: 01/15/2021
-  ms.locfileid: "5013936"
+  ms.lasthandoff: 02/15/2021
+  ms.locfileid: "5181844"
 title: FAQ sur l’opération Copier et coller
 summary: "Vous pouvez copier une ou plusieurs lignes (enregistrements) dans une liste ou un champ unique sur une page, puis collez ce que vous avez copié dans la même page, une autre page, ou un document externe (comme Microsoft Excel et un e-mail Outlook).  \n\nEn raccourci, pour copier, appuyez sur CTRL+C (cmd+C dans macOS) sur votre clavier. Pour coller, appuyez sur CTRL+V (cmd+V dans macOS). Plusieurs autres raccourcis clavier permettent de copier et coller afin de faire gagner du temps pendant la saisie des données. Pour plus d’informations sur ceux-ci, reportez-vous à [Raccourcis clavier](keyboard-shortcuts.md#CopyRows). Cet article répond à des questions courantes que vous pouvez avoir à propos de copier et coller.  \n"
 sections:

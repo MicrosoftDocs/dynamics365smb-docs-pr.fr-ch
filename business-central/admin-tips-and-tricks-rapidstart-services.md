@@ -3,19 +3,19 @@ title: Conseils - RapidStart Services | Microsoft Docs
 description: Lorsque vous configurez des sociétés avec RapidStart Services, il est recommandé de suivre certains conseils pour faciliter votre implémentation.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9e9506697eacfb4bd411266078e4245e59a11353
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d37c15320724412b757225b506fbee8e588164da
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922432"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385639"
 ---
 # <a name="tips-and-tricks-rapidstart-services"></a>Conseils : RapidStart Services
 

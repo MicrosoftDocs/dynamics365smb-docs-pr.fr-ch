@@ -3,19 +3,19 @@ title: Prolonger la période d’essai de Business Central
 description: Si vous avez besoin de plus de temps pour décider si vous voulez vous abonner à Dynamics 365 Business Central, vous pouvez prolonger à une reprise votre version d’évaluation. Renseignez-vous sur les options qui s’offrent à vous.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: bc23b43fb92ab1c7442a41024b59e7ca8652f154
-ms.sourcegitcommit: 1c9eec7554305603d688bf85ce3986d0b1f72ede
+ms.openlocfilehash: 8714ecb87cd005693925767783de0adabddc0049
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "5068370"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378513"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Besoin de plus de temps pour décider si vous voulez vous abonner ?
 

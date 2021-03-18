@@ -3,19 +3,19 @@ title: Configurer des attributs d’articles et les affecter aux articles| Micro
 description: Décrit comment configurer les valeurs d’attributs d’articles, par exemple, qui peuvent être utilisées comme mots recherchés, et les affecter aux articles et aux catégories article.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: categories, search words, facets
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 80f1418e71396ababc4d85bb7f231fb9985654c8
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 6802cbc44c226f242ad953c706e4ebc407478ec6
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749945"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377563"
 ---
 # <a name="work-with-item-attributes"></a>Utiliser les attributs d’article
 Lorsque les clients recherchent des renseignements au sujet d’un article, par courrier ou via une boutique en ligne, ils peuvent effectuer leur recherche en fonction de caractéristiques, telles que la hauteur et l’année du modèle. Pour assurer le service de ce client, vous pouvez affecter des valeurs attribut article de différents types à vos articles, qui peuvent être utilisées pour rechercher les articles.

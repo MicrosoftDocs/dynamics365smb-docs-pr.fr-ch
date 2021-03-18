@@ -3,19 +3,19 @@ title: Détails de conception - Traçabilité et réservations | Microsoft Docs
 description: Cette rubrique présente la traçabilité et les réservations, et décrit les concepts qui leur sont associés.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cb79b0538f4f55b2841815c23c4446d7c6278fb1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 2883ed1176f20cca289cb68d4f3839f8099c874f
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922107"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380267"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Détails de conception : traçabilité et réservations
 
@@ -45,7 +45,7 @@ La principale différence entre la réservation spécifique et la réservation n
 Lorsque vous réservez des quantités en stock à partir d'une ligne document sortant pour un article ayant des numéros de suivi article affectés et étant configuré pour un suivi d'article spécifique, la page **Réservation** vous conduit à travers différents flux de travail en fonction de votre besoin de numéros de série ou de lot.  
   
 ## <a name="specific-reservation"></a>Réservation spécifique  
-Lorsque vous choisissez **Reserve** depuis la ligne document sortant, une boîte de dialogue s'affiche vous demandant si vous souhaitez réserver des numéros de série ou de lot spécifiques. Si vous choisissez **Oui** , la liste s'affiche avec tous les numéros de série ou de lot affectés à la ligne document. La page **Réservation** s'ouvre après que vous avez sélectionné l'un des numéros de série ou de lot, et vous pouvez alors réserver parmi les numéros de série ou de lot sélectionnés comme d'habitude.  
+Lorsque vous choisissez **Reserve** depuis la ligne document sortant, une boîte de dialogue s'affiche vous demandant si vous souhaitez réserver des numéros de série ou de lot spécifiques. Si vous choisissez **Oui**, la liste s'affiche avec tous les numéros de série ou de lot affectés à la ligne document. La page **Réservation** s'ouvre après que vous avez sélectionné l'un des numéros de série ou de lot, et vous pouvez alors réserver parmi les numéros de série ou de lot sélectionnés comme d'habitude.  
   
 Si certains des numéros traçabilité spécifiques que vous essayez de réserver sont contenus dans des réservations non spécifiques, un message au bas de la page **Réservation** vous indique quelle part de la quantité réservée totale se trouve dans des réservations non spécifiques et si elle est toujours disponible.  
   

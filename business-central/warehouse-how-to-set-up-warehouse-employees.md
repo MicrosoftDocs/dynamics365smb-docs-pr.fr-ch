@@ -3,19 +3,19 @@ title: Comment configurer des employés d’entrepôt | Microsoft Docs
 description: Chaque utilisateur exerçant une activité dans un entrepôt doit être configuré en tant qu’employé d’entrepôt affecté à un magasin par défaut, et éventuellement à d’autres magasins.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7ebb81abd7e16e0c4aaa3f7cd52ab1b6f1a664c3
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: a64aad29b9b4214a737cbda81b040b8df66b67d3
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4755954"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382294"
 ---
 # <a name="set-up-warehouse-employees"></a>Configurer des employés d’entrepôt
 Chaque utilisateur exerçant une activité dans un entrepôt doit être configuré en tant qu’employé d’entrepôt affecté à un magasin par défaut, et éventuellement à d’autres magasins. Cette configuration d’utilisateur filtre toutes les activités entrepôt dans la base de donnée pour le magasin de l’employé, de sorte que l’employé peut uniquement effectuer les activités entrepôt dans le magasin par défaut. Un utilisateur peut être affecté à d’autres magasins pour lesquels il peut consulter les lignes activité sans pour autant exécuter les activités.

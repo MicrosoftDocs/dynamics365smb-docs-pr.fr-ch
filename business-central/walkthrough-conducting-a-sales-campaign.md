@@ -3,19 +3,19 @@ title: 'Procédure pas à pas : mise en place d’une campagne de vente | Micro
 description: Une campagne désigne tout type d’activité impliquant plusieurs contacts. La sélection du public cible de votre campagne représente une étape importante de la configuration. Pour ce faire, dans Business Central, créez un segment ou un groupe de contacts à l’aide de filtres.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: babd447411d1ea6000fc67379eda132b3d3e94f3
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: c28da7c565471e1a0bc96e1ae4e0fd57155076df
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4760143"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5389589"
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Procédure pas à pas : mise en place d’une campagne de vente
 Une campagne désigne tout type d’activité impliquant plusieurs contacts. La sélection du public cible de votre campagne représente une étape importante de la configuration. Pour ce faire, dans [!INCLUDE[prod_short](includes/prod_short.md)], créez un segment ou un groupe de contacts à l’aide de filtres.  

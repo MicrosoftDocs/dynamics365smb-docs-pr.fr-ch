@@ -3,19 +3,19 @@ title: Détails de conception - Équilibrage la demande et de l'approvisionnemen
 description: Pour comprendre comment fonctionne le système de planification, il est nécessaire de comprendre les objectifs priorisés du système de planification, dont les plus importants sont de s'assurer que toute demande est satisfaite par suffisamment d'approvisionnement et n'importe quel approvisionnement atteint un but.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 30c78ba04d58a2e2c2227ec638724c85cb1236c7
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f8f09c843397c7b3fa0a24bc90f5799a157fa883
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917566"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388739"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Détails de conception : équilibrage de la demande et de l'approvisionnement
 Pour comprendre comment fonctionne le système de planification, il est nécessaire de comprendre les objectifs priorisés du système de planification, dont les plus importants sont de s'assurer que :  
@@ -99,7 +99,7 @@ Lors de l'équilibrage, le système de planification considère un approvisionne
 
 Il existe une autre raison pour laquelle un approvisionnement portant des numéros de série/lot est considéré comme non flexible. Dans la mesure où les numéros de série/lot sont généralement affectés très tard au cours du processus, cela représenterait une source de confusion si des modifications étaient proposées.  
 
-L'équilibrage des numéros de série/lot ne tient pas compte de la *zone gelée* . Si la demande et l'approvisionnement ne sont pas synchronisés, le système de planification proposera des modifications ou suggère de nouvelles commandes, quelle que soit la date de début de la planification.  
+L'équilibrage des numéros de série/lot ne tient pas compte de la *zone gelée*. Si la demande et l'approvisionnement ne sont pas synchronisés, le système de planification proposera des modifications ou suggère de nouvelles commandes, quelle que soit la date de début de la planification.  
 
 ### <a name="order-to-order-links-are-never-broken"></a>Les Liens ordre pour ordre ne sont jamais rompus  
 Lors de la planification d'un article commande-à-commande, l'approvisionnement lié ne doit pas être utilisé pour toute demande autre que ce à quoi il était prévu à l'origine. La demande liée ne doit pas être couverte par un autre approvisionnement aléatoire, même si, dans sa situation actuelle, il est disponible en termes de délai et de quantité. Par exemple, un ordre d'assemblage lié à une commande vente dans un scénario assembler pour commande ne peut pas être utilisé pour couvrir l'autre demande.  
@@ -209,7 +209,7 @@ Si l'utilisateur souhaite exclure une commande approvisionnement existante des p
 
 En général, tous les approvisionnements ont une flexibilité de planification qui est limitée par les conditions de chacune des mesures suggérées.  
 
--   **Replanifier en dehors**  : La date à partir d'une commande approvisionnement existante peut être planifiée en dehors pour satisfaire la date d'échéance de demande à moins que :  
+-   **Replanifier en dehors** : La date à partir d'une commande approvisionnement existante peut être planifiée en dehors pour satisfaire la date d'échéance de demande à moins que :  
 
     -   Il représente le stock (toujours au jour zéro).  
     -   Elle a un ordre pour ordre lié à une autre demande.  
@@ -219,7 +219,7 @@ En général, tous les approvisionnements ont une flexibilité de planification 
     -   La commande approvisionnement a déjà été liée à une autre demande à une date précédente.  
     -   La replanification nécessaire est si minime que l'utilisateur la trouve négligeable.  
 
--   **Replanifier dans**  : La date à partir d'une commande approvisionnement existante peut être replanifiée dans, sauf dans les conditions suivantes :  
+-   **Replanifier dans** : La date à partir d'une commande approvisionnement existante peut être replanifiée dans, sauf dans les conditions suivantes :  
 
     -   Elle est directement liée à une autre demande.  
     -   Il se trouve hors de la page de replanification définie avant l'intervalle de planification.  
@@ -227,18 +227,18 @@ En général, tous les approvisionnements ont une flexibilité de planification 
 > [!NOTE]  
 >  Lors de la planification d'un article utilisant un point de commande, la commande approvisionnement peut toujours être planifiée si nécessaire. Ceci est courant dans les commandes approvisionnement planifiées déclenchées par un point de commande.  
 
--   **Augmenter la quantité**  : il est possible d'augmenter la quantité d'une commande approvisionnement existante pour répondre à la demande sauf si la commande approvisionnement est directement liée à une demande par un lien ordre pour ordre.  
+-   **Augmenter la quantité** : il est possible d'augmenter la quantité d'une commande approvisionnement existante pour répondre à la demande sauf si la commande approvisionnement est directement liée à une demande par un lien ordre pour ordre.  
 
 > [!NOTE]  
 >  Bien qu'il soit possible d'augmenter la commande approvisionnement, elle peut être limité en raison d'une quantité maximum commande définie par l'utilisateur.  
 
--   **Diminuer la quantité**  : une commande approvisionnement existante avec un excédent par rapport à la demande existante peut être diminuée pour répondre à la demande.  
+-   **Diminuer la quantité** : une commande approvisionnement existante avec un excédent par rapport à la demande existante peut être diminuée pour répondre à la demande.  
 
 > [!NOTE]  
 >  Bien que la quantité puisse être diminuée, il peut y avoir encore des excédents par rapport à la demande en raison d'une quantité minimum commande définie ou d'une valeur Commandé par.  
 
--   **Annuler**  : comme un incident spécial de l'action de diminuer la quantité, la commande approvisionnement peut être annulée si elle a été diminuée à zéro.  
--   **Nouveau**  : si aucune commande approvisionnement n'existe déjà, ou si une existante ne peut pas être modifiée pour satisfaire la quantité nécessaire à la date d'échéance demandée, une nouvelle commande approvisionnement est suggérée.  
+-   **Annuler** : comme un incident spécial de l'action de diminuer la quantité, la commande approvisionnement peut être annulée si elle a été diminuée à zéro.  
+-   **Nouveau** : si aucune commande approvisionnement n'existe déjà, ou si une existante ne peut pas être modifiée pour satisfaire la quantité nécessaire à la date d'échéance demandée, une nouvelle commande approvisionnement est suggérée.  
 
 ### <a name="determining-the-supply-quantity"></a>Déterminer la quantité d'approvisionnement  
 Les paramètres de planification définis par l'utilisateur contrôlent la quantité suggérée de chaque commande approvisionnement.  

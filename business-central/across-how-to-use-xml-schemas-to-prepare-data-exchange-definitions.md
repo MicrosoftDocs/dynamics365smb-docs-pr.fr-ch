@@ -3,19 +3,19 @@ title: Utiliser des schémas XML pour préparer des définitions d’échange d
 description: Utilisez des schémas XML pour configurer l’infrastructure d’échange de documents.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 78aa941b8b886ed37dbed0d83a35d13b0e427421
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 25073b552644c9ca013a2eae90a0d013ab57e556
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754632"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379438"
 ---
 # <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Utiliser des schémas XML pour préparer des définitions d’échange de données
 
