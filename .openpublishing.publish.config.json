@@ -4,7 +4,7 @@
       "docset_name": "d365businesscentral",
       "build_source_folder": "business-central",
       "build_output_subfolder": "d365businesscentral",
-      "locale": "fr-CH",
+      "locale": "de-de",
       "monikers": [],
       "moniker_ranges": [],
       "open_to_public_contributors": true,
@@ -35,7 +35,7 @@
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
-      "url": "https://github.com/Microsoft/templates.docs.msft.fr-CH",
+      "url": "https://github.com/Microsoft/templates.docs.msft.de-de",
       "branch": "master",
       "branch_mapping": {}
     },
@@ -68,5 +68,8 @@
     }
   },
   "need_generate_intellisense": false,
-  "contribution_branch_mappings": {}
+  "contribution_branch_mappings": {},
+  "docs_build_engine": {
+    "name": "docfx_v3"
+  }
 }
