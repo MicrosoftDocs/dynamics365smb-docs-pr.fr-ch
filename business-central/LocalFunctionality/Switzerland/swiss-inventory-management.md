@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 31830644e2de5878b5e5b383aade8ef4864b0291
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 61501236fc923dca608fce50a2b6cef65a3d569d
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5382686"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784022"
 ---
 # <a name="swiss-inventory-management"></a>Gestion des stocks, Suisse
 [!INCLUDE[prod_short](../../includes/prod_short.md)] comprend les améliorations apportées à la gestion des stocks en Suisse. Notamment :  

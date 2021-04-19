@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: QR-bill, invoice, incoming documents, payment reference
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: soalex
-ms.openlocfilehash: 78ac68690cb72c6f33208dc185b4085bacf510ea
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 229738071822ae68328adaa542e671f03e623b51
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5382670"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5788207"
 ---
 # <a name="qr-bill-management-in-prod_short"></a>Gestion des QR-factures dans [!INCLUDE[prod_short](../../includes/prod_short.md)]
 À partir du 1er juillet 2020, les sociétés en Suisse doivent pouvoir recevoir des QR-factures. Les QR-factures sont des bordereaux de paiement qui suivent les factures, et constituent une initiative nationale visant à rationaliser les processus de paiement. Les QR-factures remplacent tous les borderaux de paiement existants et les fonctionnalités liées à l'ESR. Elles contiennent toutes les informations nécessaires pour effectuer les paiements, et un code QR sur le borderau de paiement facilite l'importation des informations dans [!INCLUDE[prod_short](../../includes/prod_short.md)]. Toutes les informations pertinentes sont importées et utilisées pour générer des paiements pour le vendeur qui a envoyé la QR-facture, y compris la référence du paiement, qui est automatiquement incluse dans les écritures comptables fournisseurs et exportée dans les fichiers de paiement à la banque.
@@ -86,7 +86,7 @@ Vous pouvez numériser ou importer des QR-factures directement dans une **feuill
 Lors de l'importation de transactions bancaires (camt) sur la page Feuille rapprochement bancaire, le fichier est supposé inclure la référence de paiement qui trouvera automatiquement les **écritures comptables client** correspondantes à régler.    
 
 ## <a name="upcoming-capabilities-for-qr-bills"></a>Fonctionnalités futures des QR-factures
-Nous prévoyons d'ajouter des fonctionnalités à l'extension Gestion des QR-factures dans les prochaines mises à jour de la vague 1 de la version 2020. Par exemple, vous pourrez recevoir des QR-factures par le biais de documents achat et de feuilles achat. Cela fournira des validations supplémentaires et vous permettra d'automatiser et de rationaliser les processus de réception. Pour savoir quand cela aura lieu, gardez un œil sur notre [Plan de versions](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-business-central/qr-bill-management-switzerland).
+Nous prévoyons d'ajouter des fonctionnalités à l'extension Gestion des QR-factures dans les prochaines mises à jour de la vague 1 de la version 2020. Par exemple, vous pourrez recevoir des QR-factures par le biais de documents achat et de feuilles achat. Cela fournira des validations supplémentaires et vous permettra d'automatiser et de rationaliser les processus de réception. Pour savoir quand cela aura lieu, gardez un œil sur notre [Plan de versions](/dynamics365-release-plan/2020wave1/dynamics365-business-central/qr-bill-management-switzerland).
 
 ## <a name="see-also"></a>Voir aussi
 [Fonctionnalité locale, Suisse](switzerland-local-functionality.md)  

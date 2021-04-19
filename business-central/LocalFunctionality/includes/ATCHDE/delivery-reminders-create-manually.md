@@ -2,14 +2,14 @@
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: include
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: df06e45136e3ab948fb6ca090c84d10609b76f45
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 5060724f27f842e06a2e8641605c1c3011d0cd9c
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4747545"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774418"
 ---
 Dans [!INCLUDE[prod_short](../../../includes/prod_short.md)], vous pouvez créer des relances livraison lorsqu'un achat n'a pas été livré comme prévu. Vous pouvez créer une relance livraison unique manuellement, ou vous pouvez générer des relances livraison pour toutes les livraisons échues.  
 

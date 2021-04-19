@@ -2,14 +2,14 @@
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: include
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fa5b2fd51f222988254a4ffe5da6600eafa5dd56
-ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
+ms.openlocfilehash: 7cab5533c038dda6082a0455bf480779f143854e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3959650"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777575"
 ---
 Après avoir créé des relances livraison, vous devez les émettre et les imprimer afin de pouvoir les envoyer aux fournisseurs. Avant d'émettre les relances livraison, vous pouvez imprimer un rapport de test.  
 

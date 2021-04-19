@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 635acca4c88bf3e043bdd99d42c59f64fb8d6de0
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 676149aee534050bd42d4132ee3ef4329d035a70
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5383998"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777974"
 ---
 # <a name="create-delivery-reminders-manually"></a>Créer manuellement des relances livraison
 

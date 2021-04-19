@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 840bcb450e6ef08a5a61211bd16ad60734d827c5
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 2f5bc88b6a2a0b39e519320993da289ccef01f77
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5382018"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774711"
 ---
 # <a name="set-up-delivery-reminder-terms-levels-and-text-in-the-swiss-version"></a>Configurer les conditions, niveaux et textes de relance livraison dans la version suisse
 

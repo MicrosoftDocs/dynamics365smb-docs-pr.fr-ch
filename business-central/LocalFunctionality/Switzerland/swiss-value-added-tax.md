@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 469296c8f83665d121d2dec7f29147f019e942e1
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: c8c80de7708105add47c6cbe73a3e63855b799ea
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5382678"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784018"
 ---
 # <a name="swiss-value-added-tax"></a>Taxe sur la valeur ajoutée, Suisse
 [!INCLUDE[prod_short](../../includes/prod_short.md)] inclut les améliorations suivantes à la déclaration de TVA en Suisse :  

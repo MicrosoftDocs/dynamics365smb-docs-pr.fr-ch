@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 10daa127d9de217aa36fd3222ee52735447ff8f3
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: a9c3c80fcbca4c948543c3cf6f78f31df25d1469
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5382026"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776547"
 ---
 # <a name="print-vendor-payments-list-reports"></a>Imprimer des rapports contenant les listes de paiements fournisseurs
 
