@@ -8,25 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 122931b0f56f67d57ddbcd1b2892ae0e12629220
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: b3196041da0ec8e593ca651b0b98fb19928c4fa2
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5383973"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777592"
 ---
-# <a name="issue-delivery-reminders-in-the-swiss-version"></a><span data-ttu-id="63571-104">Émettre des relances livraison dans la version suisse</span><span class="sxs-lookup"><span data-stu-id="63571-104">Issue Delivery Reminders in the Swiss Version</span></span>
+# <a name="issue-delivery-reminders-in-the-swiss-version"></a><span data-ttu-id="16850-104">Émettre des relances livraison dans la version suisse</span><span class="sxs-lookup"><span data-stu-id="16850-104">Issue Delivery Reminders in the Swiss Version</span></span>
 
 [!INCLUDE [delivery-reminders-issue](../includes/ATCHDE/delivery-reminders-issue.md)]
 
-## <a name="see-also"></a><span data-ttu-id="63571-105">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="63571-105">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="16850-105">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="16850-105">See Also</span></span>
 
-[<span data-ttu-id="63571-106">Imprimer des rapports de test pour les relances livraison</span><span class="sxs-lookup"><span data-stu-id="63571-106">Print Test Reports for Delivery Reminders</span></span>](how-to-print-test-reports-for-delivery-reminders.md)  
-[<span data-ttu-id="63571-107">relances livraison</span><span class="sxs-lookup"><span data-stu-id="63571-107">Delivery Reminders</span></span>](delivery-reminders.md)  
-[<span data-ttu-id="63571-108">Générer des relances livraison</span><span class="sxs-lookup"><span data-stu-id="63571-108">Generate Delivery Reminders</span></span>](how-to-generate-delivery-reminders.md)  
-[<span data-ttu-id="63571-109">Créer manuellement des relances livraison</span><span class="sxs-lookup"><span data-stu-id="63571-109">Create Delivery Reminders Manually</span></span>](how-to-create-delivery-reminders-manually.md)  
+[<span data-ttu-id="16850-106">Imprimer des rapports de test pour les relances livraison</span><span class="sxs-lookup"><span data-stu-id="16850-106">Print Test Reports for Delivery Reminders</span></span>](how-to-print-test-reports-for-delivery-reminders.md)  
+[<span data-ttu-id="16850-107">relances livraison</span><span class="sxs-lookup"><span data-stu-id="16850-107">Delivery Reminders</span></span>](delivery-reminders.md)  
+[<span data-ttu-id="16850-108">Générer des relances livraison</span><span class="sxs-lookup"><span data-stu-id="16850-108">Generate Delivery Reminders</span></span>](how-to-generate-delivery-reminders.md)  
+[<span data-ttu-id="16850-109">Créer manuellement des relances livraison</span><span class="sxs-lookup"><span data-stu-id="16850-109">Create Delivery Reminders Manually</span></span>](how-to-create-delivery-reminders-manually.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
