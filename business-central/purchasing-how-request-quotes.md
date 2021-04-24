@@ -9,35 +9,35 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 01f0f607faab45b07a85fe4cd13327b02ae14f1e
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 416c5a4e4376932c16a1496f2db2b0c79307d22b
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5387764"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772644"
 ---
-# <a name="request-quotes"></a><span data-ttu-id="efe6f-103">Demander des devis</span><span class="sxs-lookup"><span data-stu-id="efe6f-103">Request Quotes</span></span>
-<span data-ttu-id="efe6f-104">Vous pouvez utiliser une demande de prix en tant que phase préliminaire d’une commande achat, et convertir cette commande en facture achat ou en commande.</span><span class="sxs-lookup"><span data-stu-id="efe6f-104">A purchase quote can be used as a preliminary draft for a purchase order, and the order can then be converted to a purchase invoice or an order.</span></span>
+# <a name="request-quotes"></a><span data-ttu-id="23d50-103">Demander des devis</span><span class="sxs-lookup"><span data-stu-id="23d50-103">Request Quotes</span></span>
+<span data-ttu-id="23d50-104">Vous pouvez utiliser une demande de prix en tant que phase préliminaire d’une commande achat, et convertir cette commande en facture achat ou en commande.</span><span class="sxs-lookup"><span data-stu-id="23d50-104">A purchase quote can be used as a preliminary draft for a purchase order, and the order can then be converted to a purchase invoice or an order.</span></span>
 
 
-## <a name="to-create-a-purchase-quote"></a><span data-ttu-id="efe6f-105">Pour créer une demande de prix</span><span class="sxs-lookup"><span data-stu-id="efe6f-105">To create a purchase quote</span></span>
-1. <span data-ttu-id="efe6f-106">Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Demandes de prix**, puis sélectionnez le lien associé.</span><span class="sxs-lookup"><span data-stu-id="efe6f-106">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Quotes**, and then choose the related link.</span></span>
-2. <span data-ttu-id="efe6f-107">Créez un document, de la même manière que vous passez une commande achat.</span><span class="sxs-lookup"><span data-stu-id="efe6f-107">Create a new document, in the same way as you make a purchase order.</span></span> <span data-ttu-id="efe6f-108">Pour plus d’informations, voir [Enregistrer des achats](purchasing-how-record-purchases.md).</span><span class="sxs-lookup"><span data-stu-id="efe6f-108">For more information, see [Record Purchases](purchasing-how-record-purchases.md).</span></span>
+## <a name="to-create-a-purchase-quote"></a><span data-ttu-id="23d50-105">Pour créer une demande de prix</span><span class="sxs-lookup"><span data-stu-id="23d50-105">To create a purchase quote</span></span>
+1. <span data-ttu-id="23d50-106">Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Demandes de prix**, puis sélectionnez le lien associé.</span><span class="sxs-lookup"><span data-stu-id="23d50-106">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Quotes**, and then choose the related link.</span></span>
+2. <span data-ttu-id="23d50-107">Créez un document, de la même manière que vous passez une commande achat.</span><span class="sxs-lookup"><span data-stu-id="23d50-107">Create a new document, in the same way as you make a purchase order.</span></span> <span data-ttu-id="23d50-108">Pour plus d’informations, voir [Enregistrer des achats](purchasing-how-record-purchases.md).</span><span class="sxs-lookup"><span data-stu-id="23d50-108">For more information, see [Record Purchases](purchasing-how-record-purchases.md).</span></span>
 
-## <a name="to-convert-a-purchase-quote-to-a-purchase-order"></a><span data-ttu-id="efe6f-109">Pour convertir une demande de prix en commande achat</span><span class="sxs-lookup"><span data-stu-id="efe6f-109">To convert a purchase quote to a purchase order</span></span>
-<span data-ttu-id="efe6f-110">Lorsque vous avez accepté le devis du fournisseur, vous pouvez le convertir en facture achat ou en commande pour procéder à l’achat.</span><span class="sxs-lookup"><span data-stu-id="efe6f-110">When you have accepted the vendor's quote, you can convert it to a purchase invoice or order to process the purchase.</span></span>
+## <a name="to-convert-a-purchase-quote-to-a-purchase-order"></a><span data-ttu-id="23d50-109">Pour convertir une demande de prix en commande achat</span><span class="sxs-lookup"><span data-stu-id="23d50-109">To convert a purchase quote to a purchase order</span></span>
+<span data-ttu-id="23d50-110">Lorsque vous avez accepté le devis du fournisseur, vous pouvez le convertir en facture achat ou en commande pour procéder à l’achat.</span><span class="sxs-lookup"><span data-stu-id="23d50-110">When you have accepted the vendor's quote, you can convert it to a purchase invoice or order to process the purchase.</span></span>
 
-1. <span data-ttu-id="efe6f-111">Ouvrez une demande de prix est prête à être convertie, puis sélectionnez l’action **Créer commande**.</span><span class="sxs-lookup"><span data-stu-id="efe6f-111">Open a purchase quote that is ready to convert, and then choose the **Make Order** action.</span></span>
+1. <span data-ttu-id="23d50-111">Ouvrez une demande de prix est prête à être convertie, puis sélectionnez l’action **Créer commande**.</span><span class="sxs-lookup"><span data-stu-id="23d50-111">Open a purchase quote that is ready to convert, and then choose the **Make Order** action.</span></span>
 
-<span data-ttu-id="efe6f-112">La demande de prix est supprimée de la base de données.</span><span class="sxs-lookup"><span data-stu-id="efe6f-112">The purchase quote is removed from the database.</span></span> <span data-ttu-id="efe6f-113">Une facture achat ou une commande achat basée sur les informations de la demande de prix et dans laquelle vous pouvez traiter l’achat est créée.</span><span class="sxs-lookup"><span data-stu-id="efe6f-113">A purchase invoice or a purchase order is created based on the information in the purchase quote in which you can process the purchase.</span></span> <span data-ttu-id="efe6f-114">Dans le champ **N° devis** de la facture achat ou de la commande achat, vous pouvez visualiser le numéro de la demande de prix à partir de laquelle elle a été réalisée.</span><span class="sxs-lookup"><span data-stu-id="efe6f-114">In the **Quote No.** field on the purchase invoice or purchase order, you can see the number of the purchase quote that it was made from.</span></span>
+<span data-ttu-id="23d50-112">La demande de prix est supprimée de la base de données.</span><span class="sxs-lookup"><span data-stu-id="23d50-112">The purchase quote is removed from the database.</span></span> <span data-ttu-id="23d50-113">Une facture achat ou une commande achat basée sur les informations de la demande de prix et dans laquelle vous pouvez traiter l’achat est créée.</span><span class="sxs-lookup"><span data-stu-id="23d50-113">A purchase invoice or a purchase order is created based on the information in the purchase quote in which you can process the purchase.</span></span> <span data-ttu-id="23d50-114">Dans le champ **N° devis** de la facture achat ou de la commande achat, vous pouvez visualiser le numéro de la demande de prix à partir de laquelle elle a été réalisée.</span><span class="sxs-lookup"><span data-stu-id="23d50-114">In the **Quote No.** field on the purchase invoice or purchase order, you can see the number of the purchase quote that it was made from.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="efe6f-115">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="efe6f-115">See Also</span></span>
-[<span data-ttu-id="efe6f-116">Achats</span><span class="sxs-lookup"><span data-stu-id="efe6f-116">Purchasing</span></span>](purchasing-manage-purchasing.md)  
-[<span data-ttu-id="efe6f-117">Définition des achats</span><span class="sxs-lookup"><span data-stu-id="efe6f-117">Setting Up Purchasing</span></span>](purchasing-setup-purchasing.md)  
-[<span data-ttu-id="efe6f-118">Envoyer des documents par e-mail</span><span class="sxs-lookup"><span data-stu-id="efe6f-118">Send Documents by Email</span></span>](ui-how-send-documents-email.md)  
-<span data-ttu-id="efe6f-119">[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="efe6f-119">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="23d50-115">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="23d50-115">See Also</span></span>
+[<span data-ttu-id="23d50-116">Achats</span><span class="sxs-lookup"><span data-stu-id="23d50-116">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+[<span data-ttu-id="23d50-117">Définition des achats</span><span class="sxs-lookup"><span data-stu-id="23d50-117">Setting Up Purchasing</span></span>](purchasing-setup-purchasing.md)  
+[<span data-ttu-id="23d50-118">Envoyer des documents par e-mail</span><span class="sxs-lookup"><span data-stu-id="23d50-118">Send Documents by Email</span></span>](ui-how-send-documents-email.md)  
+<span data-ttu-id="23d50-119">[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="23d50-119">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

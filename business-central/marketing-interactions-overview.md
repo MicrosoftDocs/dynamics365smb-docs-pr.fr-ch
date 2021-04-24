@@ -10,27 +10,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e43337204ae3e3c5e5d51d0b8ba5bd7612e386b8
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: a7e8a009b4d1702689ac61b2874d8970c9c629d2
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5391414"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780647"
 ---
-# <a name="managing-interactions"></a><span data-ttu-id="68cca-104">Gestion des interactions</span><span class="sxs-lookup"><span data-stu-id="68cca-104">Managing Interactions</span></span>
-<span data-ttu-id="68cca-105">Dans [!INCLUDE[prod_short](includes/prod_short.md)], les interactions désignent tous les types de communication entre votre société et vos contacts.</span><span class="sxs-lookup"><span data-stu-id="68cca-105">In [!INCLUDE[prod_short](includes/prod_short.md)], interactions are all types of communications between your company and your contacts.</span></span> <span data-ttu-id="68cca-106">Par exemple, les communications peuvent s’effectuer par e-mail, par lettre, par téléphone, lors de réunions et ainsi de suite.</span><span class="sxs-lookup"><span data-stu-id="68cca-106">For example, communications can be email, letter, telephone, meetings, and so on.</span></span>
+# <a name="managing-interactions"></a><span data-ttu-id="f2c60-104">Gestion des interactions</span><span class="sxs-lookup"><span data-stu-id="f2c60-104">Managing Interactions</span></span>
+<span data-ttu-id="f2c60-105">Dans [!INCLUDE[prod_short](includes/prod_short.md)], les interactions désignent tous les types de communication entre votre société et vos contacts.</span><span class="sxs-lookup"><span data-stu-id="f2c60-105">In [!INCLUDE[prod_short](includes/prod_short.md)], interactions are all types of communications between your company and your contacts.</span></span> <span data-ttu-id="f2c60-106">Par exemple, les communications peuvent s’effectuer par e-mail, par lettre, par téléphone, lors de réunions et ainsi de suite.</span><span class="sxs-lookup"><span data-stu-id="f2c60-106">For example, communications can be email, letter, telephone, meetings, and so on.</span></span>
 
-<span data-ttu-id="68cca-107">Vous pouvez enregistrer toutes les interactions vente et marketing avec vos contacts afin d’effectuer le suivi des efforts mis en œuvre, et d’améliorer vos futures relations commerciales.</span><span class="sxs-lookup"><span data-stu-id="68cca-107">You can record all the interactions that you have with your contacts in order to keep track of the sales and marketing efforts you have directed at your contacts and to improve your future business interactions with them.</span></span>
+<span data-ttu-id="f2c60-107">Vous pouvez enregistrer toutes les interactions vente et marketing avec vos contacts afin d’effectuer le suivi des efforts mis en œuvre, et d’améliorer vos futures relations commerciales.</span><span class="sxs-lookup"><span data-stu-id="f2c60-107">You can record all the interactions that you have with your contacts in order to keep track of the sales and marketing efforts you have directed at your contacts and to improve your future business interactions with them.</span></span>
 
-<span data-ttu-id="68cca-108">Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.</span><span class="sxs-lookup"><span data-stu-id="68cca-108">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>
+<span data-ttu-id="f2c60-108">Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.</span><span class="sxs-lookup"><span data-stu-id="f2c60-108">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>
 
-| <span data-ttu-id="68cca-109">Pour</span><span class="sxs-lookup"><span data-stu-id="68cca-109">To</span></span> | <span data-ttu-id="68cca-110">Voir</span><span class="sxs-lookup"><span data-stu-id="68cca-110">See</span></span> |
+| <span data-ttu-id="f2c60-109">Pour</span><span class="sxs-lookup"><span data-stu-id="f2c60-109">To</span></span> | <span data-ttu-id="f2c60-110">Voir</span><span class="sxs-lookup"><span data-stu-id="f2c60-110">See</span></span> |
 | --- | --- |
-| <span data-ttu-id="68cca-111">Configurer votre système pour enregistrer les interactions.</span><span class="sxs-lookup"><span data-stu-id="68cca-111">Set up your system to record interactions.</span></span> |[<span data-ttu-id="68cca-112">Configurer les contacts</span><span class="sxs-lookup"><span data-stu-id="68cca-112">Set Up Contacts</span></span>](marketing-setup-contacts.md) |
-|<span data-ttu-id="68cca-113">Créer des interactions pour enregistrer toutes les interactions et toutes les communications que vous entretenez avec vos contacts et segments, par exemple l’envoi par courrier électronique.</span><span class="sxs-lookup"><span data-stu-id="68cca-113">Create interactions to record all the interactions and communications you have with your contacts and segments, such as emailing.</span></span>|[<span data-ttu-id="68cca-114">Créer des interactions sur les contacts et les segments</span><span class="sxs-lookup"><span data-stu-id="68cca-114">Create Interactions on Contacts and Segments</span></span>](marketing-how-create-interactions.md)|
-|<span data-ttu-id="68cca-115">Configurer votre système pour enregistrer automatiquement les interactions pour les documents de vente, d’achat et de service, par exemple lorsqu’un document est créé, validé ou imprimé.</span><span class="sxs-lookup"><span data-stu-id="68cca-115">Set up your system to automatically record interactions for sales, purchase, and service documents, such as when a documented is created, posted, or printed.</span></span>|[<span data-ttu-id="68cca-116">Enregistrer automatiquement les interactions avec les contacts</span><span class="sxs-lookup"><span data-stu-id="68cca-116">Automatically Record Interactions with Contacts</span></span>](marketing-auto-record-interactions.md)|
+| <span data-ttu-id="f2c60-111">Configurer votre système pour enregistrer les interactions.</span><span class="sxs-lookup"><span data-stu-id="f2c60-111">Set up your system to record interactions.</span></span> |[<span data-ttu-id="f2c60-112">Configurer les contacts</span><span class="sxs-lookup"><span data-stu-id="f2c60-112">Set Up Contacts</span></span>](marketing-setup-contacts.md) |
+|<span data-ttu-id="f2c60-113">Créer des interactions pour enregistrer toutes les interactions et toutes les communications que vous entretenez avec vos contacts et segments, par exemple l’envoi par courrier électronique.</span><span class="sxs-lookup"><span data-stu-id="f2c60-113">Create interactions to record all the interactions and communications you have with your contacts and segments, such as emailing.</span></span>|[<span data-ttu-id="f2c60-114">Créer des interactions sur les contacts et les segments</span><span class="sxs-lookup"><span data-stu-id="f2c60-114">Create Interactions on Contacts and Segments</span></span>](marketing-how-create-interactions.md)|
+|<span data-ttu-id="f2c60-115">Configurer votre système pour enregistrer automatiquement les interactions pour les documents de vente, d’achat et de service, par exemple lorsqu’un document est créé, validé ou imprimé.</span><span class="sxs-lookup"><span data-stu-id="f2c60-115">Set up your system to automatically record interactions for sales, purchase, and service documents, such as when a documented is created, posted, or printed.</span></span>|[<span data-ttu-id="f2c60-116">Enregistrer automatiquement les interactions avec les contacts</span><span class="sxs-lookup"><span data-stu-id="f2c60-116">Automatically Record Interactions with Contacts</span></span>](marketing-auto-record-interactions.md)|
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
