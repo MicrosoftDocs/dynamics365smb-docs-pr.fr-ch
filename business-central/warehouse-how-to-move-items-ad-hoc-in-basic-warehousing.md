@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2ada7dbf658517332af029571a63726eef038546
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 5204f75801c0af09715b0d8cc4523e57fa33a49a
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5391564"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771819"
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Déplacer des articles ad hoc dans les configurations de stockage de base
 Vous pouvez être amené à déplacer des articles d’un emplacement interne vers un autre (et non vers des emplacements de réception ou d’expédition) sans demande spécifique issue d’un document origine. Vous pouvez exécuter ces mouvements ad hoc, par exemple, pour réorganiser l’entrepôt, pour acheminer des articles vers une zone d’inspection, ou pour déplacer des articles supplémentaires vers et depuis une zone de production sans qu’il existe une relation système avec le document origine de l’ordre de fabrication.  

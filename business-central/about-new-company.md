@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: company, setup wizard
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fc318d3de70cb56e722bd02c868fc570fb62692b
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: cb1639a57dcfed21b71d9c9cd57cd6090e5e81d7
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385064"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776388"
 ---
 # <a name="creating-new-companies-in-prod_short"></a>Création de sociétés dans [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -76,7 +76,7 @@ Une fois qu’une entreprise a été créée, vous ne pouvez pas changer son nom
 [Configuration de [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Importation des données métier à partir d’autres systèmes financiers](across-import-data-configuration-packages.md)  
 [Modifier les paramètres de base](ui-change-basic-settings.md)  
-[Mise en route](product-get-started.md)  
+[Préparation aux activités commerciales](ui-get-ready-business.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

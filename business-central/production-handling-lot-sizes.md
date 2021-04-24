@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4d119b5ea35ba41d658226f108f9bd14014ef644
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: ef3863a372db074d4be3a7e9b72cfda5f47279d1
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5376752"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5779397"
 ---
 # <a name="handling-lot-sizes-in-production"></a>Gestion des tailles de lot en production
 En termes de quantité, le nombre d’articles que vous produisez lors d’une opération de production peut ne pas être corrélé à la manière dont ils les vendent. Par exemple, vous pouvez produire des centaines d’articles en un seul lot, mais vendre chaque article individuellement. Lorsque vous configurez vos itinéraires de production et vos nomenclatures, vous devez tenir compte de quelques nuances en ce qui concerne les tailles de lot. Cette rubrique décrit l’impact des tailles de lot sur les calculs des coûts et la planification des ressources.

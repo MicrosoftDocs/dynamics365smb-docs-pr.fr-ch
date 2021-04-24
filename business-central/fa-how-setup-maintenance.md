@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: repair, service
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b9077224f4a0b0344b565c55dcfb14db1e90722c
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: b437f7508537ec438bf90c3a1239e2620e9db196
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380167"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5775565"
 ---
 # <a name="set-up-fixed-asset-maintenance"></a>Configurer la maintenance d’une immobilisation
 Pour gérer la maintenance des immobilisations, vous devez configurer tout d’abord certaines informations générales de maintenance, un compte de validation pour les coûts de maintenance et les codes de maintenance pour les types de travaux, tels que le service de routine ou la réparation.
@@ -46,9 +46,9 @@ Pour valider les coûts de maintenance, vous devez tout d’abord saisir un num�
 
 ## <a name="see-also"></a>Voir aussi
 [Paramétrage d’immobilisations](fa-setup.md)  
-[Immobilisations](fa-manage.md)  
+[COMPTES D’IMMOBILISATIONS](fa-manage.md)  
 [Finances](finance.md)  
-[Mise en route](product-get-started.md)  
+[Préparation aux activités commerciales](ui-get-ready-business.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

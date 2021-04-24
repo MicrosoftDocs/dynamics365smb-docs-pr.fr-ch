@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account transfer, multiple currencies
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1a0ab7c2a96c278740c07ff243ad785be1d72dd4
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: dea39ba380eee574205d57ba198f15213c341ea0
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5388114"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5779747"
 ---
 # <a name="transfer-bank-funds"></a>Transfert de fonds à la banque
 Il peut vous arriver de devoir transférer un montant d’un compte bancaire dans [!INCLUDE[prod_short](includes/prod_short.md)] vers un autre. Pour ce faire, vous devez valider une transaction sur la page **Feuille comptabilité**. La tâche varie selon que les comptes bancaires utilisent la même devise ou des devises différentes.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c5a72fd3026f0dd78a547809e0ad6afe9de2d420
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 6e5f20d2f450f3f544cc2f7023160e4e9babdf33
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5390889"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772819"
 ---
 # <a name="design-details-item-tracking"></a>Détails de conception : traçabilité
 Étant donné que le flux de biens dans la chaîne d’approvisionnement moderne devient de plus en plus complexe, la capacité à effectuer le suivi des articles est de plus en plus importante pour les sociétés concernées. La surveillance du flux de transaction d’un article est une obligation légale dans le secteur de l’approvisionnement médical et chimique, mais d’autres sociétés peuvent souhaiter contrôler les produits avec des garanties ou des dates d’expiration pour des raisons de service client.  
@@ -32,5 +32,8 @@ Un système de traçabilité doit permettre à une société de traiter facileme
 [Détails de conception : traçabilité et réservations](design-details-item-tracking-and-reservations.md)  
 [Détails de conception : traçabilité dans l’entrepôt](design-details-item-tracking-in-the-warehouse.md)
 
+## <a name="see-also"></a>Voir aussi
+
+[Utiliser les numéros lot, de série et paquet](inventory-how-work-item-tracking.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

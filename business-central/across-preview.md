@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3f8d8b2744fb5179183e223c8741669f7af9754b
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: c3f807a7e02a9791fb8ea465bc399e3e3345a0f3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379113"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777506"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>Versions d’évaluation et abonnements [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -27,7 +27,7 @@ Vous pouvez vous inscrire à une version d’évaluation gratuite [ici](https://
 
 Selon votre pays ou votre région, la version d’évaluation inclut les langues et les fonctionnalités requises par votre pays ou votre région. Pour plus d’informations, voir [Modification de la langue et des paramètres régionaux](about-locale-language.md).  
 
-Dans [!INCLUDE[prod_short](includes/prod_short.md)], certains éléments vous seront très familiers, d’autres un peu moins. Lorsque vous vous connectez pour la première fois à la société de démonstration, vous accédez à la page Mise en route contenant des liens vers des vidéos qui peuvent vous aider à démarrer. Pour plus d’informations, voir [Mise en route de [!INCLUDE[prod_long](includes/prod_long.md)]](product-get-started.md).  
+Dans [!INCLUDE[prod_short](includes/prod_short.md)], certains éléments vous seront très familiers, d’autres un peu moins. Lorsque vous vous connectez pour la première fois à la société de démonstration, vous accédez à la page Démarrer contenant des guides de configuration assistée qui peuvent vous aider à démarrer. Pour plus d’informations, voir [Préparation aux activités commerciales](ui-get-ready-business.md).  
 
 Si vous rencontrez des problèmes, la page [Forum aux questions](across-faq.md) peut vous aider à répondre à certaines de vos questions. Si vous ne parvenez pas à vous inscrire à la version d’évaluation, la page [Dépannage de l’inscription en self-service](ui-troubleshoot-self-signup.md) peut être utile. Vous pouvez également contacter un [partenaire](across-faq.md#findpartner) et lui demander de créer un essai gratuit ou un autre type de version préliminaire de [!INCLUDE[prod_short](includes/prod_short.md)] pour vous.  
 
@@ -89,7 +89,7 @@ L’administrateur de votre [!INCLUDE[prod_short](includes/prod_short.md)] et vo
 
 ## <a name="see-also"></a>Voir aussi
 
-[Mise en route](product-get-started.md)  
+[Préparation aux activités commerciales](ui-get-ready-business.md)  
 [Extension de votre version d’évaluation](admin-extend-trial.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Forum Aux Questions](across-faq.md)  

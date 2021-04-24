@@ -7,14 +7,14 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 98838737ec9c20cfe5cedc7372af028fd5b1c636
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 3dff984847a3c74a6c4dad41385839c4cefdc75e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393589"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772144"
 ---
 # <a name="working-with-prod_short"></a>Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]
 Dans le cadre de l’exécution des tâches, vous interagissez avec des données de différentes manières : création d’enregistrements et saisie de données, tri et filtrage de données, rédaction de procédures et sortie de données vers d’autres applications.
@@ -61,18 +61,18 @@ Voici une courte vidéo sur la manière de parcourir [!INCLUDE[prod_short](inclu
 
 ## <a name="choosing-a-desktop-browser"></a>Choix d’un navigateur de bureau
 
-[!INCLUDE[prod_short](includes/prod_short.md)] prend en charge plusieurs navigateurs qui offrent chacun diverses fonctions et fonctionnalités. Le navigateur joue un rôle important dans la réactivité et la fluidité de l’interface utilisateur. Consultez la liste des navigateurs pris en charge et recommandés pour [Business Central Online](https://go.microsoft.com/fwlink/?linkid=2110804) et des navigateurs pour [Business Central sur site](https://go.microsoft.com/fwlink/?linkid=2110719).
+[!INCLUDE[prod_short](includes/prod_short.md)] prend en charge plusieurs navigateurs qui offrent chacun diverses fonctions et fonctionnalités. Le navigateur joue un rôle important dans la réactivité et la fluidité de l’interface utilisateur. Consultez la liste des navigateurs pris en charge et recommandés pour [Business Central Online](./product-requirements.md) et des navigateurs pour [Business Central sur site](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v15).
 
 - Dans la mesure du possible, évitez les navigateurs plus anciens tels qu’Internet Explorer et privilégiez l’un de nos navigateurs modernes recommandés tels que le [nouveau Microsoft Edge](https://www.microsoft.com/edge/).  
 
-    Internet Explorer est toujours pris en charge, mais comme le nouveau navigateur Edge est désormais disponible pour Windows Server, nous constatons une baisse du taux d’utilisation pour Internet Explorer. Vous pouvez également obtenir [un pilote d’Edge en mode IE](https://www.microsoft.com/edge/business). Pour en savoir plus, consultez [Documentation Microsoft Edge](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
+    Internet Explorer n’est plus pris en charge. Pour en savoir plus, consultez [Documentation Microsoft Edge](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
 - Maintenez votre navigateur toujours à jour avec la dernière version.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/work-pro-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Voir aussi
 
-[Mise en route](product-get-started.md)  
+[Préparation aux activités commerciales](ui-get-ready-business.md)  
 [Configuration de Business Central](setup.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)  
 [Conseils hautes performances pour les utilisateurs professionnels](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)

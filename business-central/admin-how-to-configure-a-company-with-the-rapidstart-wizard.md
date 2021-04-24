@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9fb74bcf0b124dddc14d9441cdbfb4fc9116d3e2
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 815a4a6d66fad42a5d1467b87eaef7d6a1688ee1
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378438"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780022"
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Configurer une société avec l’assistant RapidStart
 Vous pouvez rapidement configurer une nouvelle société que vous avez créée à l’aide de l’Assistant Configuration de RapidStart Services.

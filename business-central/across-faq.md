@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2e446b3e5415299954098abb92088277b7da2bbc
-ms.sourcegitcommit: 026484766988b8727649c02fc8990b0646999bf1
+ms.openlocfilehash: afd64672bac5af39bd5377db417a36ec0ea39fe0
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5498577"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776162"
 ---
 # <a name="frequently-asked-questions-about-using-business-central"></a>Foire aux questions sur l’utilisation de Business Central
 
@@ -44,8 +44,9 @@ Ceci s’applique à [!INCLUDE [prod_short](includes/prod_short.md)] en ligne et
 
 De plus, si la fonctionnalité est publiée en tant qu’extension dans AppSource, c’est qu’il y a un retard entre l’extension étant annoncée et sa disponibilité dans AppSource. Ceci s’applique à [!INCLUDE [prod_short](includes/prod_short.md)] en ligne seulement.  
 
-## <a name="are-there-any-differences-between-an-on-premises-deployment-and-the-cloud-version-of-business-central"></a>Existe-t-il des différences entre un déploiement sur site et la version cloud de Business Central ?
-Oui. Certaines fonctionnalités basées sur le cloud peuvent s’exécuter sur site dans certains cas et d’autres ne sont pas du tout prises en charge. Pour plus d’informations, voir [Fonctions non implémentées dans les déploiements sur site de Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises).
+## <a name="are-there-any-differences-between-an-on-premises-deployment-and-business-central-online"></a>Existe-t-il des différences entre un déploiement sur site et Business Central Online ?
+
+Oui. [!INCLUDE [prod_short](includes/prod_short.md)] est optimisé pour le déploiement en ligne, et certaines fonctionnalités peuvent s'exécuter sur site uniquement dans certaines circonstances, tandis que d'autres ne sont pas prises en charge du tout. Pour plus d’informations, voir [Fonctions non implémentées dans les déploiements sur site de Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises) (en anglais uniquement).
 
 ## <a name="can-i-get-training-in-prod_short"></a>Puis-je suivre une formation sur l’utilisation de [!INCLUDE[prod_short](includes/prod_short.md)] ?
 Oui, vous pouvez ! Vous pouvez trouver du contenu eLearning gratuit sur le site [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs). Vous pouvez également demander une formation supplémentaire à votre revendeur. Si vous ne savez pas qui c’est, consultez la section [Comment trouver un partenaire revendeur ?](#findpartner).  
@@ -60,12 +61,23 @@ Le contenu supplémentaire est fourni par la communauté [!INCLUDE[prod_short](i
 
 Pour plus d’informations, voir les sections [Aide et support](product-help-and-support.md) et [Comment trouver un partenaire revendeur ?](#findpartner).  
 
-## <a name="why-does-help-describe-functionality-that-i-cannot-access"></a>Pourquoi l’aide décrit une fonctionnalité à laquelle que je ne peux pas accéder ?
-Si votre paramètre Expérience sur la page **Informations société** est définie sur **Essentiel**, les éléments de l’interface utilisateur pour les fonctionnalités de fabrication et de gestion des services ne sont pas visibles pour vous, car ils requièrent l’expérience **Premium**. Une note textuelle est insérée dans des rubriques d’aide de haut niveau pour ces zones de fonction. Pour plus d’informations, voir [Modifier les fonctionnalités affichées](ui-experiences.md).
-
 ## <a name="where-is-the-save-button"></a>Où trouver le bouton Enregistrer ?
 
-Contrairement à d’autres programmes qui vous sont familiers, il n’y a pas de bouton *Enregistrer* sur ces pages. Dans [!INCLUDE[prod_short](includes/prod_short.md)], les modifications que vous apportez à un champ sont automatiquement enregistrées dès que vous passez au champ suivant ou dès que vous fermez la page, dans la mesure où il n’y a pas d’erreurs. Lorsque vous apportez des modifications à un champ et que vous passez à un autre champ, le texte **Enregistrement en cours** apparaît dans l’angle supérieur droit de la page, et devient **Enregistré** si aucune erreur ne survient. En cas d’erreur, le texte indique **Non enregistré**.
+Contrairement à d’autres programmes qui vous sont familiers, il n’y a pas de bouton *Enregistrer* sur ces pages. Dans [!INCLUDE[prod_short](includes/prod_short.md)], les modifications que vous apportez à un champ sont automatiquement enregistrées dès que vous passez au champ suivant ou dès que vous fermez la page, dans la mesure où il n’y a pas d’erreurs. Lorsque vous apportez des modifications à un champ et que vous passez à un autre champ, le texte **Enregistrement en cours** apparaît dans l’angle supérieur droit de la page, et devient **Enregistré** si aucune erreur ne survient. En cas d’erreur, le texte indique **Non enregistré**.  
+
+## <a name="where-do-i-find-that-line-number"></a>Où puis-je trouver ce numéro de ligne ?
+
+Les documents tels que les commande vente ou les factures achat se composent d’en-têtes et de lignes. Chaque ligne a un numéro que [!INCLUDE [prod_short](includes/prod_short.md)] utilise pour identifier cette ligne particulière. Par conséquent, vous pouvez voir un avertissement ou un message d’erreur indiquant un problème avec le numéro de ligne 1000, par exemple. Dans la version par défaut de [!INCLUDE [prod_short](includes/prod_short.md)], les numéros de ligne sont masqués. Si vous voulez afficher les numéros de ligne, vous devez personnaliser la page actuelle et ajouter le champ **N° ligne**. . Pour plus d’informations, voir [Personnaliser votre espace de travail](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).  
+
+
+## <a name="why-does-help-describe-functionality-that-i-cannot-access"></a>Pourquoi l’aide décrit une fonctionnalité à laquelle que je ne peux pas accéder ?
+Si votre paramètre Expérience sur la page **Informations société** est définie sur **Essentiel**, les éléments de l’interface utilisateur pour les fonctionnalités de fabrication et de gestion des services ne sont pas visibles pour vous, car ils requièrent l’expérience **Premium**. Une note textuelle est insérée dans des rubriques d’aide de haut niveau pour ces zones de fonction. Pour plus d’informations, voir [Modifier les fonctionnalités affichées](ui-experiences.md).  
+
+## <a name="why-is-new-information-not-available-in-my-language"></a>Pourquoi les nouvelles informations ne sont-elles pas disponibles dans ma langue ?
+
+Sur le site docs.microsoft.com, le contenu sur les fonctionnalités d’entreprise est publié dans plusieurs langues. Le contenu est rédigé en anglais et publié sur des URL avec *fr-fr* comme code langue. Lorsque de nouvelles informations sont publiées en anglais, elles sont ensuite envoyées pour traduction dans les langues prises en charge. Cela signifie que vous ne pourrez pas lire ce nouveau contenu dans votre propre langue pendant 4 semaines maximum.  
+
+Nous comprenons les problèmes que cela peut causer et nous encourageons les utilisateurs à rechercher ce qu’ils cherchent en anglais s’ils ne le trouvent pas dans leur propre langue.  
 
 ## <a name="what-email-address-can-i-use-with-prod_short-online"></a><a name="email"></a>Quelle adresse e-mail puis-je utiliser avec [!INCLUDE[prod_short](includes/prod_short.md)] en ligne ?
 
@@ -80,7 +92,7 @@ Non. Par contre, si vous souhaitez faire l’expérience de [!INCLUDE[prod_short
 
 Si le compte avec lequel vous vous connectez est un compte professionnel non Microsoft 365 (comme Jean@mysolution.com), et que vous avez un abonnement à Microsoft 365, vous pouvez associer votre domaine (*mysolution.com*) à l’abonnement Microsoft 365. Pour plus d’informations, consultez [Qu’est-ce qu’un domaine ?](/microsoft-365/admin/get-help-with-domains/what-is-a-domain?view=o365-worldwide&preserve-view=true) dans le contenu Microsoft 365.  
 
-Si vous ne disposez pas d’un abonnement Microsoft 365, et que vous ne souhaitez pas en acheter un, lorsque vous vous connectez, nous mettons en service un nouvel abonné Azure Active Directory pour vous de sorte que vous ayez accès au portail Azure sur lequel vous avez accès à des outils d’administration avancés.  
+Si vous ne disposez pas d’un abonnement Microsoft 365, et que vous ne souhaitez pas en acheter un, lorsque vous vous connectez, nous mettons en service un nouvel abonné Azure Active Directory pour vous de sorte que vous ayez accès aux outils d’administration avancés sur le portail Azure.  
 
 ## <a name="what-is-the-integration-with-microsoft-365-about"></a>Qu’est-ce que l’intégration à Microsoft 365 ?
 [!INCLUDE[prod_short](includes/prod_short.md)] en ligne est entièrement intégré à Microsoft 365, ce qui vous permet de naviguer librement entre les applications Microsoft 365 et [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide du lanceur d’application. Dans [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez ouvrir les données dans Excel, imprimer des rapports à l’aide de Word, et vous pouvez travailler sur vos données [!INCLUDE[prod_short](includes/prod_short.md)] dans Outlook, par exemple. Pour plus d’informations, reportez-vous à [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)] en tant que boîte de réception professionnelle dans Outlook](admin-outlook.md).  
@@ -104,7 +116,7 @@ C’est un peu compliqué, mais il semble que votre administrateur n’a pas mod
 Oui, mais en fonction de la manière dont vous avez effectué votre inscription à [!INCLUDE[prod_short](includes/prod_short.md)], vos données peuvent être conservées ou supprimées. Pour plus d’informations, voir [Annulation de [!INCLUDE[prod_short](includes/prod_short.md)]](admin-cancel.md).  
 
 ## <a name="can-i-use-multi-factor-authentication"></a>Puis-je utiliser l’authentification à plusieurs facteurs ?
-Bien sûr. Si vous le faites, vous pouvez demander un mot de passe d’application pour envoyer des messages. Les mots de passe d’application permettent à une application ou à un appareil d’accéder à votre compte de messagerie. Les étapes pour obtenir un mot de passe d’application varient, selon le fournisseur de messagerie. Pour plus d’informations, reportez-vous à l’aide du fournisseur. Par exemple, si vous utilisez Outlook, voir [Authentification à plusieurs facteurs pour Microsoft 365](https://go.microsoft.com/fwlink/?linkid=2082543).  
+Bien sûr. Si vous le faites, vous pouvez demander un mot de passe d’application pour envoyer des messages. Les mots de passe d’application permettent à une application ou à un appareil d’accéder à votre compte de messagerie. Les étapes pour obtenir un mot de passe d’application varient, selon le fournisseur de messagerie. Pour plus d’informations, reportez-vous à l’aide du fournisseur. Par exemple, si vous utilisez Outlook, voir [Authentification à plusieurs facteurs pour Microsoft 365](/microsoft-365/admin/security-and-compliance/multi-factor-authentication-microsoft-365).  
 
 ## <a name="how-do-i-find-a-reselling-partner"></a><a name="findpartner"></a>Comment trouver un partenaire revendeur ?
 
@@ -114,17 +126,7 @@ Lorsque vous êtes prêt à acheter [!INCLUDE[prod_short](includes/prod_short.md
 
 Si vous souhaitez des conseils de Microsoft, contactez l’[Équipe commerciale Microsoft](https://go.microsoft.com/fwlink/?linkid=828707).  
 
-Votre partenaire revendeur gèrera aussi le support technique pour votre compte. Pour plus d’informations, reportez-vous à la rubrique [Ressources pour l’aide et l’assistance technique](product-help-and-support.md).  
-
-## <a name="where-do-i-find-that-line-number"></a>Où puis-je trouver ce numéro de ligne ?
-
-Les documents tels que les commande vente ou les factures achat se composent d’en-têtes et de lignes. Chaque ligne a un numéro que [!INCLUDE [prod_short](includes/prod_short.md)] utilise pour identifier cette ligne particulière. Par conséquent, vous pouvez voir un avertissement ou un message d’erreur indiquant un problème avec le numéro de ligne 1000, par exemple. Dans la version par défaut de [!INCLUDE [prod_short](includes/prod_short.md)], les numéros de ligne sont masqués. Si vous voulez afficher les numéros de ligne, vous devez personnaliser la page actuelle et ajouter le champ **N° ligne**. . Pour plus d’informations, voir [Personnaliser votre espace de travail](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).  
-
-## <a name="why-is-new-information-not-available-in-my-language"></a>Pourquoi les nouvelles informations ne sont-elles pas disponibles dans ma langue ?
-
-Sur le site docs.microsoft.com, le contenu sur les fonctionnalités d’entreprise est publié dans plusieurs langues. Le contenu est rédigé en anglais et publié sur des URL avec *fr-fr* comme code langue. Lorsque de nouvelles informations sont publiées en anglais, elles sont ensuite envoyées pour traduction dans les langues prises en charge. Cela signifie que vous ne pourrez pas lire ce nouveau contenu dans votre propre langue pendant 4 semaines maximum.  
-
-Nous comprenons les problèmes que cela peut causer et nous encourageons les utilisateurs à rechercher ce qu’ils cherchent en anglais s’ils ne le trouvent pas dans leur propre langue.  
+Votre partenaire revendeur gèrera aussi le support technique pour votre compte. Pour plus d'informations, reportez-vous à la rubrique [Ressources pour l'aide et l'assistance technique](product-help-and-support.md).  
 
 ## <a name="is-the-windows-client-supported"></a>Le client Windows est-il pris en charge ?
 
@@ -132,7 +134,7 @@ Un client dérivé de Microsoft Dynamics NAV était installé dans les première
 
 ## <a name="see-also"></a>Voir aussi
 
-[Mise en route](product-get-started.md)  
+[Préparation aux activités commerciales](ui-get-ready-business.md)  
 [FAQ Tell Me](ui-search-faq.md)  
 [FAQ sur la recherche et le filtrage](ui-search-filter-faq.md)  
 [FAQ sur les vues de liste](ui-views-faq.md)  

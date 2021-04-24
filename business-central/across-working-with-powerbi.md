@@ -1,6 +1,6 @@
 ---
 title: Utiliser les états Power BI dans Business Central| Microsoft Docs
-description: Il est facile d’obtenir des informations exploitables, de la veille économique et des KPI de vos applications Business Central pour Power BI.
+description: Obtenir des informations, des informations décisionnelles et des indicateurs de performance clés à partir de vos données Business Central avec Power BI.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 8cf8946d8b9792c7fb557969257380d0b48d0d83
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.openlocfilehash: 99b2b25409993dabd4f4cd4ef758ea242165b2a3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5493021"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773401"
 ---
 # <a name="working-with-power-bi-reports-in-prod_short"></a>Utilisation d’états Power BI dans [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -29,45 +29,58 @@ Les états Power BI vous donnent un aperçu de votre [!INCLUDE[prod_short](inclu
 
 ![Partie Power BI dans Business Central](./media/power-bi-part.png)
 
-## <a name="prerequisites"></a>Conditions préalables
+## <a name="get-started"></a>Démarrer
+
+### <a name="prerequisites"></a>Conditions préalables
 
 Si vous utilisez [!INCLUDE[prod_short](includes/prod_short.md)] sur site, il doit être activé pour l’intégration de Power BI. Cette tâche est généralement effectuée par un administrateur. Pour plus d’informations, consultez [Configurer [!INCLUDE[prod_short](includes/prod_short.md)] sur site pour l’intégration Power BI](admin-powerbi-setup.md#setup).
 
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] en ligne est déjà configuré pour s’intégrer à Power BI.
 
-## <a name="get-ready"></a>Mise en route
+### <a name="sign-up-power-bi"></a>S'inscrire à Power BI
 
-Inscrivez-vous au service Power BI. Si vous ne vous êtes pas encore inscrit, accédez à [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Au moment de votre inscription, utilisez votre adresse e-mail professionnelle et votre mot de passe.
+Avant de pouvoir utiliser Power BI avec [!INCLUDE[prod_short](includes/prod_short.md)], vous devrez vous inscrire au service Power BI. Si vous ne vous êtes pas encore inscrit, accédez à [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Au moment de votre inscription, utilisez votre adresse e-mail professionnelle et votre mot de passe.
 
 ## <a name="connect-to-power-bi---one-time-only"></a><a name="connect"></a>Se connecter à Power BI - une fois seulement
 
-Lorsque vous vous connectez pour la première fois [!INCLUDE [prod_short](includes/prod_short.md)], vous pourriez voir une partie Power BI vide sur une page, comme indiqué dans la figure précédente. La première chose à faire est de vous connecter à votre compte Power BI. Une fois connecté, vous pouvez voir les états. Vous ne devez effectuer cette étape qu’une seule fois.
+Lorsque vous vous connectez pour la première fois [!INCLUDE [prod_short](includes/prod_short.md)], vous verrez peut-être une partie Power BI vide (comme indiqué dans la figure précédente) sur différentes pages. La première chose à faire est de vous connecter à votre compte Power BI. Une fois connecté, vous pouvez voir les états. Vous ne devez effectuer cette étape qu’une seule fois.
 
-Pour vous connecter à Power BI, sélectionnez le lien **Prise en main de Power BI** dans la partie **États Power BI**. 
+1. Sélectionnez le lien **Prise en main de Power BI** dans la partie **États Power BI**.
+2. La configuration assistée **Configuration des états Power BI dans Business Central** démarre. Sélectionnez **Suivant** continuer.
+3. Sur la page **Vérifier votre licence Power BI**. Exécutez l’une des étapes suivantes :
 
-Pendant le processus de connexion, [!INCLUDE [prod_short](includes/prod_short.md)] communique avec le service Power BI pour déterminer si vous avez un compte et une licence Power BI valides. Une fois votre licence vérifiée, l’état Power BI par défaut s’affiche sur la page. Si aucun état n’est affiché, vous pouvez sélectionner un état dans la partie.
+    - Si vous ne vous êtes pas encore inscrit à Power BI, sélectionnez [Accéder à la page d'accueil Power BI](https://powerbi.microsoft.com). Créez un compte, puis revenez sur [!INCLUDE[prod_short](includes/prod_short.md)] et terminez la configuration.
+
+    - Si vous possédez déjà une licence, sélectionnez **Suivant**.
+4. Dans la page suivante, [!INCLUDE[prod_short](includes/prod_short.md)] va maintenant charger un rapport de démonstration sur Power BI. Cela prendra quelques minutes, donc c'est fait en arrière-plan. Pour terminer la configuration, sélectionnez **Suivant**, puis **Terminer**.
+
+Le processus de connexion démarre. Pendant le processus, [!INCLUDE [prod_short](includes/prod_short.md)] communique avec le service Power BI pour déterminer si vous avez un compte et une licence Power BI valides. Une fois votre licence vérifiée, l’état Power BI par défaut s’affiche sur la page. Si aucun état n’est affiché, vous pouvez sélectionner un état dans la partie.
 
 > [!TIP]
 > Avec [!INCLUDE [prod_short](includes/prod_short.md)] en ligne, cette étape téléchargera automatiquement les états Power BI par défaut utilisés dans [!INCLUDE [prod_short](includes/prod_short.md)] vers votre espace de travail Power BI.
 
-##### <a name="from-prod_short-on-premises"></a>Depuis [!INCLUDE [prod_short](includes/prod_short.md)] sur site
+#### <a name="from-prod_short-on-premises"></a>Depuis [!INCLUDE [prod_short](includes/prod_short.md)] sur site
 
 Se connecter à Power BI depuis [!INCLUDE [prod_short](includes/prod_short.md)] est identique à la version en ligne. Cependant, vous pouvez être invité sur la page **AUTORISATIONS DE SERVICE AZURE ACTIVE DIRECTORY** pour accorder l’accès aux services Power BI. Pour accorder l’accès, sélectionnez **Autoriser les services Azure**, puis **Accepter**.
 
 Une fois connecté, vous pouvez sélectionner un état dans la partie Power BI sur les pages.
 
-## <a name="show-power-bi-reports-on-list-pages"></a>Afficher les états Power BI sur les pages de liste
+## <a name="working-with-power-bi-reports"></a>Utilisation des états Power BI
 
-[!INCLUDE[prod_long](includes/prod_long.md)] comprend un Récapitulatif Power BI sur plusieurs pages de liste clé. Ce Récapitulatif fournit des informations supplémentaires sur les données de la liste. Lorsque vous vous déplacez entre les lignes de la liste, l’état est mis à jour et filtré pour l’écriture sélectionnée. Si vous ne voyez pas cette partie, dans la barre d’action, sélectionnez **Actions** > **Afficher** > **Afficher/Masquer les états Power BI**. Pour plus d’informations, consultez [Création d’états Power BI pour afficher les données de la liste dans [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-powerbi-reports-factbox.md).
+### <a name="show-reports-on-list-pages"></a>Afficher les états sur les pages de liste
 
-## <a name="select-power-bi-reports"></a>Sélectionner les états Power BI
+[!INCLUDE[prod_long](includes/prod_long.md)] comprend un Récapitulatif Power BI sur plusieurs pages de liste clé. Ce Récapitulatif fournit des informations supplémentaires sur les données de la liste. Lorsque vous vous déplacez entre les lignes de la liste, l’état est mis à jour et filtré pour l’écriture sélectionnée. Si vous ne voyez pas cette partie, dans la barre d’action, sélectionnez **Actions** > **Afficher** > **Afficher/Masquer les états Power BI**.
+
+Pour savoir comment créer des états pour les pages de liste, voir [Création d'états Power BI pour l'affichage des données de liste dans [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-powerbi-reports-factbox.md).
+
+### <a name="switch-reports"></a>Changer de rapports
 
 Une partie Power BI sur une page peut afficher n’importe quel état Power BI à votre disposition. Pour basculer vers un autre état, choisissez l’action **Sélectionner un état** depuis la liste déroulante des commandes en haut de la partie.  
 
 La page **Sélection des états Power BI** affiche une liste de tous les états Power BI auxquels vous avez accès. Cette liste est extraite de votre espace de travail Power BI. Sélectionnez la zone **Activer** pour chaque état que vous souhaitez afficher sur la page d’accueil, puis choisissez **OK**. Vous serez redirigé(e) vers la page et le dernier état que vous avez activé apparaîtra. A l’aide de la liste déroulante des commandes, utilisez les commandes **Précédent** et **Suivant** pour naviguer entre les états.  
 
-## <a name="get-reports"></a>Obtenir des états
+### <a name="get-more-reports"></a>Obtenez plus de rapports
 
 Si vous ne voyez aucun état sur la page **Sélectionner des états Power BI**, ou si vous ne voyez pas l’état souhaité, choisissez **Obtenir des états**. Cette action vous permet de rechercher des états à partir de deux emplacements : *Mon organisation* ou *Prestations de service*.
 
@@ -77,7 +90,7 @@ Si vous ne voyez aucun état sur la page **Sélectionner des états Power BI**, 
 > [!TIP]
 > Si vous avez Power BI Desktop, vous pouvez également créer des états Power BI. Puis, une fois ces états publiés dans votre espace de travail Power BI, ils apparaîtront sur cette page **Sélectionner des états Power BI**.  
 
-## <a name="manage-and-modify-reports"></a>Gérer et modifier les états
+### <a name="manage-and-modify-reports"></a>Gérer et modifier les états
 
 Vous pouvez apporter des modifications à un état dans la partie Power BI. Les modifications que vous apportez seront ensuite publiées dans le service Power BI. Si l’état est partagé avec d’autres utilisateurs, ils verront également les modifications, sauf si vous enregistrez les modifications dans un nouvel état.
 
@@ -88,7 +101,7 @@ Lorsque vous revenez au tableau de bord, l’état mis à jour apparaîtra. Si v
 > [!NOTE]
 > Cette fonctionnalité n’est pas disponible avec [!INCLUDE [prod_short](includes/prod_short.md)] sur site.
 
-## <a name="upload-reports"></a><a name="upload"></a>Télécharger des états
+### <a name="upload-reports"></a><a name="upload"></a>Télécharger des états
 
 Les états Power BI peuvent être distribués entre les utilisateurs sous forme de fichiers .pbix. Si vous avez des fichiers .pbix, vous pouvez les télécharger et les partager avec tous les utilisateurs de [!INCLUDE [prod_short](includes/prod_short.md)]. Les états sont partagés au sein de chaque société dans [!INCLUDE [prod_short](includes/prod_short.md)].  
 
@@ -105,12 +118,15 @@ Toutefois, si une erreur se produit, cette section fournit une solution de recha
 
 ### <a name="you-dont-have-a-power-bi-account"></a>Vous n’avez pas de compte Power BI
 
-Aucun compte Power BI n’a été créé. Pour obtenir un compte Power BI valide, vous devez avoir une licence et vous devez avoir déjà ouvert une session dans Power BI, pour créer votre espace de travail Power BI.   
+Aucun compte Power BI n’a été créé. Pour obtenir un compte Power BI valide, vous devez avoir une licence et vous devez avoir déjà ouvert une session dans Power BI, pour créer votre espace de travail Power BI.
 
 ### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Message : Aucun état n’est activé. Choisissez Sélectionner un état pour afficher la liste des états disponibles.
 
 Ce message apparaît si l’état par défaut n’a pas pu être déployé sur votre espace de travail Power BI. Ou l’état a été déployé, mais n’a pas été actualisé avec succès. Accédez à l’état dans votre espace de travail Power BI, sélectionnez **Ensemble de données**, **Paramètres**, puis mettez à jour les informations d’identification manuellement. Une fois le jeu de données actualisé, revenez dans [!INCLUDE[prod_short](includes/prod_short.md)] et sélectionnez manuellement l’état dans la page **Sélectionner des états**.
 
+#### <a name="you-cant-see-a-report-on-the-select-report-page-on-a-list-page"></a>Vous ne pouvez pas voir un rapport sur la page Sélectionner un rapport sur une page de liste
+
+C’est probablement parce que le nom de l’état ne contient pas le nom de la page de liste. Effacez le filtre pour obtenir la liste complète des états disponibles dans Power BI.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
@@ -125,7 +141,7 @@ Ce message apparaît si l’état par défaut n’a pas pu être déployé sur v
 [Démarrage rapide : Se connecter aux données dans Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
 [Documentation Power BI](/power-bi/)  
 [Veille économique](bi.md)  
-[Mise en route](product-get-started.md)  
+[Préparation aux activités commerciales](ui-get-ready-business.md)  
 [Importation des données métier à partir d’autres systèmes financiers](across-import-data-configuration-packages.md)  
 [Configuration de [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)] comme source de données Power BI](across-how-use-financials-data-source-powerbi.md)  

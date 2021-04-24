@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6b1861e76702329b3a287161c4d24d2959fb9a72
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 33a6a66cb2ccdcee1cd5925548e7c224d244459e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5388564"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5770381"
 ---
 # <a name="about-inventory-costing"></a>À propos de l’évaluation des coûts de stock
 La gestion des coûts ajustés fait référence à l’enregistrement et la déclaration des coûts d’exploitation de l’entreprise. Cette activité inclut la déclaration des coûts de fabrication et de stock qui constituent la valeur des articles.  

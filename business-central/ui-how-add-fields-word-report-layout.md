@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 8dc64aeb028fdbc964bb7124f578014d3e6f0cde
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 52cfb4ba4ca0ba645ecca48e08d63722c2c5c5b4
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393906"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771125"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Ajouter des champs à une présentation de rapport Word
 Un ensemble de données de rapport peut être constitué de champs affichant des étiquettes, des données et des images. Cette rubrique décrit la procédure pour ajouter des champs d’un ensemble de données de rapport à une présentation de rapport Word pour un rapport. Vous ajoutez des champs à l’aide du composant XML personnalisé Word pour l’état et en ajoutant des contrôles de contenu qui correspondent aux champs de l’ensemble de données d’état. L’ajout de champs requiert que vous ayez des connaissances sur l’ensemble des données de rapport afin que vous puissiez identifier les champs que vous souhaitez ajouter à la présentation.  
@@ -31,7 +31,7 @@ Un ensemble de données de rapport peut être constitué de champs affichant des
   
 2.  Afficher l’onglet **Développeur** dans le ruban de Microsoft Word.  
   
-     Par défaut, l’onglet **Développeur** n’est pas affiché dans le ruban. Pour plus d’informations, voir [Afficher l’onglet Développeur sur le ruban](https://go.microsoft.com/fwlink/?LinkID=389631).  
+     Par défaut, l’onglet **Développeur** n’est pas affiché dans le ruban. Pour plus d’informations, voir [Afficher l’onglet Développeur sur le ruban](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon).  
   
 3.  Sous l’onglet **Développeur**, sélectionnez **Volet de mappage XML**.  
   
@@ -105,7 +105,7 @@ Le tableau suivant fournit un aperçu simplifié du XML d’une partie XML perso
 |`..</DataItem1>`<br /><br /> `</WordReportXmlPart>`|Élément de clôture.|  
   
 ### <a name="custom-xml-part-in-word"></a>Partie XML personnalisée dans Word  
- Dans Word, vous ouvrez la partie XML personnalisée dans le volet **Mappage XML** puis utilisez le volet pour mapper les éléments aux contrôles de contenu dans le document Word. Le volet **Mappage XML** est accessible depuis l’onglet **Développeur** (pour plus d’informations, voir [Afficher l’onglet Développeur sur le ruban](https://go.microsoft.com/fwlink/?LinkID=389631)).  
+ Dans Word, vous ouvrez la partie XML personnalisée dans le volet **Mappage XML** puis utilisez le volet pour mapper les éléments aux contrôles de contenu dans le document Word. Le volet **Mappage XML** est accessible depuis l’onglet **Développeur** (pour plus d’informations, voir [Afficher l’onglet Développeur sur le ruban](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon)).  
   
  Les éléments figurant dans le volet de **Mappage XML** s’affichent dans une structure qui est similaire à la source XML. Les champs d’étiquette sont rassemblés sous un élément **Étiquettes** commun et les données article et colonnes sont organisées dans une structure hiérarchique qui correspond à la source XML, avec les colonnes répertoriées dans l’ordre alphabétique. Les éléments sont identifiés par leur nom tel que défini par la propriété Name dans Report Dataset Designer dans ADD INCLUDE<!--[!INCLUDE[nav_dev_short](../../includes/nav_dev_short_md.md)]-->.  
   

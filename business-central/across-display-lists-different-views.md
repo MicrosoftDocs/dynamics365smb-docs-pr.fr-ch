@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalization
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9670b1c1d8d1fcb9305877998908014804bc4217
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: ca0f7213bbe6edcbebab4959bc16483af2260f86
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384914"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776233"
 ---
 # <a name="displaying-lists-in-different-ways"></a>Affichage de listes de différentes manières
 Dans le coin droit de toute liste de [!INCLUDE[prod_short](includes/prod_short.md)] vous trouverez les icônes qui vous permettent choisir l’affichage de la liste des enregistrements. La liste peut être affichée sous forme de lignes détaillées, ce qui est idéal lorsque vous devez utiliser plusieurs champs ou modifier des champs dans la liste. Mais vous pouvez également basculer sur l’affichage des enregistrements sous forme de mosaïques, ce qui est plus compact et affiche moins de champs sur l’enregistrement spécifique. Ceci est très utile pour obtenir une vue d’ensemble de plusieurs écritures. Elle est particulièrement utile sur les périphériques de petite taille, car elle est compacte et permet d’appuyer plus facilement sur chaque écriture.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6b8e0a46375bce9ffd22b160766925bf803025f0
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f90ba5929cad841e16a6a1a719024fdf085b05be
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378213"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781301"
 ---
 # <a name="prepare-a-configuration-package"></a>Préparer un package configuration
 
@@ -174,7 +174,7 @@ Une fois que vous avez contrôlé et testé toutes vos informations de paramétr
 [Configurer une société](admin-set-up-company-configuration.md)  
 [Configuration d’une société avec RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)  
-[Analyse de la télémétrie de suivi des packages de configuration](/dynamics365smb-devitpro/dev-itpro/administration/telemetry-configuration-package-trace)  
+[Analyse de la télémétrie de suivi des packages de configuration](/dynamics365/business-central/dev-itpro/administration/telemetry-configuration-package-trace)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

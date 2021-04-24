@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service items, repairs, maintenance, fix
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fdb540fa5fbbf91da2b59f71b3523fd5c702c3bd
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 8bd4d28dd5d77c998cf2404594da115e9c95077f
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5391389"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778113"
 ---
 # <a name="setting-up-service-management"></a>Paramétrage de la gestion des services
 Avant de pouvoir démarrer l’utilisation des fonctionnalités de gestion des services dans [!INCLUDE[prod_short](includes/prod_short.md)], il y a quelques éléments à configurer. Par exemple, vous pouvez établir le codage des services standard, les codes symptôme et panne, ainsi que configurer les articles de service et les types d’article de service requis par le service clientèle.  
@@ -41,9 +41,9 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | Configurer les articles de service et les composants article de service. |[Configurer des articles de service](service-how-setup-service-items.md) |
 | Définir les bases pour créer des contrats de service et des devis contrat. |[Configurer des contrats de service](service-how-setup-service-contracts.md) |
 
-## <a name="see-also"></a>Voir aussi .
+## <a name="see-also"></a>Voir aussi
 [Gestion des services](service-service.md)  
-[Mise en route](product-get-started.md)  
+[Préparation aux activités commerciales](ui-get-ready-business.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

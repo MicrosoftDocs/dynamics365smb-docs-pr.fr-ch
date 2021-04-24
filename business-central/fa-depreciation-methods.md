@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 02/22/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 59bf311e24f11e062a243026ec35ca4c7b779952
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.openlocfilehash: 9e531a4f304829b0549fbe21e8d671708373ab22
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5493343"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774170"
 ---
 # <a name="depreciation-methods-for-fixed-assets"></a>Méthodes amortissement pour les immobilisations
 
@@ -154,16 +154,16 @@ Méthode de calcul :
 
 La formule de calcul des montants d’amortissement est la suivante :  
 
-*MA* = *VC* x (1 - (1 - P)<sup>J<sup> 
+*MA* = *VC* x (1 - (1 - P)<sup>J</sup>)
 
 Les valeurs d’amortissement sont les suivantes :  
 
 | Date | Calcul |
 | --- | --- |
-| 30/06/20 |MA = 100 000,00 (1 - (1 - 0,25)<sup>0,5<sup>) = 13 397,46 |
-| 31/12/20 |MA = 86 602,54 x (1 - (1 - 0,25)<sup>0,5<sup>) = 11 602,54 |
-| 30/06/21 |MA = 75 000,00 x (1 - (1 - 0,25)<sup>0,5<sup>) = 10 048,09 |
-| 31/12/21 |MA = 64 951,91 x (1 - (1 - 0,25)<sup>0,5<sup>) = 8 701,91 |
+| 30/06/20 |MA = 100 000,00 (1 - (1 - 0,25)<sup>0,5</sup>) = 13 397,46 |
+| 31/12/20 |MA = 86 602,54 x (1 - (1 - 0,25)<sup>0,5</sup>) = 11 602,54 |
+| 30/06/21 |MA = 75 000,00 x (1 - (1 - 0,25)<sup>0,5</sup>) = 10 048,09 |
+| 31/12/21 |MA = 64 951.91 x (1 - (1 - 0,25)<sup>0,5</sup>) = 8 701,91 |
 
 ## <a name="db1sl-depreciation"></a>Amortissement Dégr1/Lin
 
@@ -205,7 +205,7 @@ La mention `SL` qui suit la valeur comptable indique que la méthode linéaire a
 
 Méthode de calcul :  
 
-* Année 1 :  
+* Année 1 (2020) :  
 
     *Montant dégressif : 25 % de 100 000 = 25 000 = 12 500 + 12 500*  
 
@@ -373,7 +373,7 @@ Lorsque vous saisissez une écriture pour B1 dans la feuille validation immobili
 [COMPTES D’IMMOBILISATIONS](fa-manage.md)  
 [Paramétrage d’immobilisations](fa-setup.md)  
 [Finances](finance.md)  
-[Mise en route](product-get-started.md)  
+[Préparation aux activités commerciales](ui-get-ready-business.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

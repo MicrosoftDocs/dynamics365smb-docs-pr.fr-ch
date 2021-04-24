@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3a48863231c06742e5cc1b2f13d554e65cb8ae91
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 404c39cba663cebc4d9ab30126de97bd20cf7e8e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381230"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773545"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Utilisation de dates civiles et les heures
 
@@ -76,7 +76,7 @@ Entrez le mot pour aujourd’hui, dans la langue définie par le paramètre **La
 
 ### <a name="period"></a>Période.
 
-Pour filtrer une période comptable spécifique, dans un champ de date saisissez la lettre p, ou le mot période, suivi par un numéro qui identifie la période comptable, comme p2 ou période4. La période comptable est relative à l’exercice comptable de la date de travail en cours défini dans votre tableau de bord. Par exemple, si la date de travail est **21/03/20**, alors p1 ou simplement p filtre la première période comptable de l’exercice comptable 2020 (par exemple 01/01/20..31/01/20). p15 filtre la quinzième période comptable depuis le début de l’exercice comptable 2020 (par exemple 01/03/21..31/03/21).
+Pour filtrer une période comptable spécifique, dans un champ de date saisissez la lettre p, ou le mot période, suivi par un numéro qui identifie la période comptable, comme p2 ou période4. La période comptable est relative à l’exercice comptable de la date de travail en cours défini dans votre tableau de bord. Par exemple, si la date de travail est **21/03/22**, alors p1 ou simplement p filtre la première période comptable de l’exercice comptable 2022 (par exemple 01/01/22..31/01/22). p15 filtre la quinzième période comptable depuis le début de l’exercice comptable 2022 (par exemple 01/03/23..31/03/23).
 
 Les périodes comptables sont définies sur la page **Périodes comptables**. Pour visualiser ou modifier les périodes comptables, ouvrez la page [ici](https://businesscentral.dynamics.com/?page=100).
 
@@ -102,12 +102,12 @@ Le tableau suivant affiche des exemples de dates à l’aide de tous les formats
 
 |**Écriture**      |**Interprétation**      |
 |---------------|------------------------|
-|2018.12.31.|31/12/2018.|
-|181231|31/12/2018.|
-|18.12.31.|31/12/2018.|
-|18.12.31.|31/12/2018.|
-|20181231|31/12/2018.|
-|18/12,31|31/12/2018.|
+|2022.12.31.|2022.12.31.|
+|221231|2022.12.31.|
+|22.12.31.|2022.12.31.|
+|22.12.31.|2022.12.31.|
+|20221231|2022.12.31.|
+|22/12,31|2022.12.31.|
 |11|11/mois date travail/année date travail.|
 |1112|11/12/année date travail.|
 |a ou date du jour|date du jour|
@@ -194,7 +194,7 @@ L’exemple ci-dessous illustre comment vous pouvez utiliser le signe moins pour
 |-1A|Il y a 1 an à dater d’aujourd’hui|
 
 > [!IMPORTANT]
->  Si le magasin utilise un calendrier principal, la formule de date que vous entrez par exemple le champ **Délai d’expédition**, est interprétée en fonction des jours ouvrés du calendrier. Par exemple, 1S un signifie sept jours ouvrés.
+> Si le magasin utilise un calendrier principal, la formule de date que vous entrez par exemple le champ **Délai d’expédition**, est interprétée en fonction des jours ouvrés du calendrier. Par exemple, 1S un signifie sept jours ouvrés.
 <!--
 # Entering Date Ranges
 You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges. Let's take the **Customer Top 10** as an example:
@@ -315,35 +315,8 @@ Vous ne pouvez pas utiliser 24:00 pour dire minuit, ou utiliser une valeur supé
 Le mot pour « time » (heure) dans la langue utilisée par [!INCLUDE[prod_short](includes/prod_long.md)] est évalué sur l’heure actuelle sur votre ordinateur ou appareil mobile. Vous pouvez saisir n’importe quel partie du mot, en commençant au début, par exemple h ou HEU.
 
 ## <a name="entering-combined-dates-and-times"></a>Saisie de dates et d’heures combinées
-Lorsque vous saisissez les dates/heures, qui sont une date et heure combinées en un champ, vous devez saisir un espace entre la date et l’heure. La partie de la date ne peut contenir des espaces sous forme de séparateur de date officiel de vos paramètres de région. L’heure peut contenir des espaces autour de l’indicateur AM/PM.
 
-Il est également possible de saisir qu’une date dans un champ Date/heure, mais il n’est pas possible d’entrer seulement une heure.
-
-Le tableau suivant répertorie quelques exemples de combinaisons Date/heure. Les paramètres de région dans les exemples affichent les dates au format jour\-mois\-année, en utilisant les indicateurs AM/PM, l’anglais, et le dimanche comme début de la semaine.
-
-|**Écriture**      |**Interprétation**      |
-|---------------|------------------------|
-|08-01-2016 05:48:12 PM|08/01/2016 17:48:12|
-|131202 132455|13/12/2002 13:24:55|
-|1-12-02 10|01/12/2002 10:00:00|
-|1.12.02 5|01/12/2002 05:00:00|
-|1.12.02|01/12/2002 00:00:00|
-|11 12|11/mois date de travail/année date de travail 12:00:00|
-|1112 12|11/12/année date de travail 12:00:00|
-|a ou date du jour|date du jour 00:00:00|
-|a 10:30|date du jour 10:30:00|
-|a 3:3:3|date du jour 03:03:03|
-|t ou date de travail|date de travail 00:00:00|
-|lu ou lundi|Lundi de la semaine de date de travail 00:00:00|
-|ma ou mardi|Mardi de la semaine de date de travail 00:00:00|
-|sa ou samedi|Samedi de la semaine de date de travail 00:00:00|
-|di ou dimanche|Dimanche de la semaine de date de travail 00:00:00|
-|ma 10:30|Mardi de la semaine de date de travail 10:30:00|
-|ma 3:3:3|Mardi de la semaine de date de travail 03:03:03|
-|m23 a|Mardi de la semaine 23 de l’année de date de travail, heure actuelle|
-|m23|Mardi de la semaine 23 de l’année de date de travail|
-|m 23|Aujourd’hui 23:00:00|
-|m-1|Mardi de la semaine 1 de l’année de date de travail|
+[!INCLUDE [datetimes](includes/datetimes.md)]
 
 ## <a name="entering-duration"></a>Saisie des durées
 Certains champs de l’application représentent une durée, ou la quantité de temps écoulé, au lieu d’une date ou d’une heure spécifique. Vous devez saisir les durées sous la forme d’un chiffre suivi d’une unité de mesure.

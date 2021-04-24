@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c89f605849d60f25a1ee46f9382d4275ff9ab088
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 58e98a2fa3e7a0d61ad6dc49ac2291a21105ddcb
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384339"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774701"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Configurer les définitions d’échange de données
 Vous pouvez configurer [!INCLUDE[prod_short](includes/prod_short.md)] pour échanger des données de tables spécifiques avec des données de fichiers externes, par exemple pour recevoir et envoyer des documents électroniques, importer et exporter des données bancaires ou d’autres données, telles que les salaires, les taux de change des devises et les catalogues article. Pour plus d’informations, voir [Échanger des données par voir électronique](across-data-exchange.md).  
@@ -95,8 +95,8 @@ Ceci est décrit dans les procédures suivantes.
     |**N° colonne**|Spécifiez le numéro qui indique la position de la colonne sur la ligne du fichier.<br /><br /> Pour les fichiers XML, spécifiez le numéro qui indique le type d’élément dans le fichier contenant les données.|  
     |**Nom**|Spécifiez le nom de la colonne.<br /><br /> Pour les fichiers XML, spécifiez le balisage qui indique les données à échanger.|  
     |**Type de données**|Spécifiez si les données à échanger sont de type **Texte**, **Date** ou **Décimale**.|  
-    |**Format données**|Spécifiez le format des données, le cas échéant. Par exemple, **MM/JJ/AAAA** si le type de données est **Date**. **Remarque :** pour l’exportation, spécifiez le format de données en fonction de [!INCLUDE[prod_short](includes/prod_short.md)]. Pour l’importation, spécifiez le format de données en fonction du .NET Framework. Pour plus d’informations, voir [Chaînes de format de date et heure standard](https://go.microsoft.com/fwlink/?LinkID=323466).|  
-    |**Culture mise en forme données**|Spécifiez la culture du format de données, le cas échéant. Par exemple, **en-US** si le type de données est **Décimale** pour être sûr que la virgule est utilisée comme séparateur de .000, conformément au format américain. Pour plus d’informations, voir [Chaînes de format de date et heure standard](https://go.microsoft.com/fwlink/?LinkID=323466). **Remarque** : ce champ ne s’applique qu’aux importations.|  
+    |**Format données**|Spécifiez le format des données, le cas échéant. Par exemple, **MM/JJ/AAAA** si le type de données est **Date**. **Remarque :** pour l’exportation, spécifiez le format de données en fonction de [!INCLUDE[prod_short](includes/prod_short.md)]. Pour l’importation, spécifiez le format de données en fonction du .NET Framework. Pour plus d’informations, voir [Chaînes de format de date et heure standard](/dotnet/standard/base-types/standard-date-and-time-format-strings).|  
+    |**Culture mise en forme données**|Spécifiez la culture du format de données, le cas échéant. Par exemple, **en-US** si le type de données est **Décimale** pour être sûr que la virgule est utilisée comme séparateur de .000, conformément au format américain. Pour plus d’informations, voir [Chaînes de format de date et heure standard](/dotnet/standard/base-types/standard-date-and-time-format-strings). **Remarque** : ce champ ne s’applique qu’aux importations.|  
     |**Longueur**|Spécifiez la longueur de la ligne de longueur fixe qui comporte la colonne si le fichier de données est de type **Texte fixe**.|  
     |**Description**|Entrez une description de la colonne, à titre d’information.|  
     |**Chemin**|Indiquez la position de l’élément dans le schéma XML lié.|  

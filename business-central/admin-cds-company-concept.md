@@ -8,24 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: CDS, , integration, sync
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f218b50e40f6bb0e8e9ab3be8fcd00d23b1adbe2
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: abeab28a87c395328accfd850a0753649515f8dc
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378738"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773351"
 ---
 # <a name="data-ownership-models"></a>Modèles de propriété de données
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
-[!INCLUDE[prod_short](includes/cds_long_md.md)] nécessite que vous indiquiez un propriétaire pour les données que vous stockez. Pour en savoir plus, consultez [Propriété d’entité](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-tables#table-ownership) dans la documentation Power Apps. Lorsque vous configurez l’intégration entre [!INCLUDE[prod_short](includes/cds_long_md.md)] et [!INCLUDE[prod_short](includes/prod_short.md)], vous devez choisir l’un des deux modèles de propriété pour les enregistrements synchronisés :
-
-* Équipe 
-* Personne (utilisateur)
-
-Les actions pouvant être effectuées sur ces enregistrements peuvent être contrôlées au niveau de l’utilisateur. Pour plus d’informations, reportez-vous à [Tables Utilisateur et équipe](https://docs.microsoft.com/powerapps/developer/common-data-service/user-team-tables). Nous vous recommandons le modèle de propriété Équipe, car il facilite la gestion de la propriété pour plusieurs personnes.
+[!INCLUDE[prod_short](includes/cds_long_md.md)] nécessite que vous indiquiez un propriétaire pour les données que vous stockez. Pour en savoir plus, consultez [Types de tables](/powerapps/maker/data-platform/types-of-entities) dans la documentation Power Apps. Lorsque vous configurez l’intégration entre [!INCLUDE[prod_short](includes/cds_long_md.md)] et [!INCLUDE[prod_short](includes/prod_short.md)], vous devez choisir la propriété **Utilisateur ou équipe** pour les enregistrements synchronisés. Les actions pouvant être effectuées sur ces enregistrements peuvent être contrôlées au niveau de l’utilisateur. <!--We recommend the Team ownership model because it makes it easier to manage ownership for multiple people.NO LONGER TRUE IN DATAVERSE-->
 
 ## <a name="team-ownership"></a>Propriété Équipe
 Dans [!INCLUDE[prod_short](includes/prod_short.md)], une société est une table juridique et commerciale qui permet de sécuriser et visualiser les données métier. Les utilisateurs travaillent toujours dans le cadre d’une société. L’élément de [!INCLUDE[prod_short](includes/cds_long_md.md)] le plus proche de ce concept est la table Centre de profit, qui n’a aucune implication juridique ou commerciale.

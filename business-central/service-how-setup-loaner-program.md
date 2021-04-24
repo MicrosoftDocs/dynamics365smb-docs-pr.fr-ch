@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: af92f9476189107fced0ff73e92c07d1a09be25a
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 04d5679ccb2d335fd308343724c09a9f827cd059
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5392114"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778262"
 ---
 # <a name="set-up-a-loaner-program"></a>Configuration d’un programme d’articles de prêt
 Vous devez parfois fournir un article de prêt à un client afin qu’il puisse s’en servir quand une équipe du service clientèle effectue une réparation. Dans [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez configurer un programme d’articles de prêt, prêter des articles à vos clients et suivre les réceptions lorsque les clients retournent les articles. En outre, vous pouvez ajouter des commentaires sur les articles de prêt de deux manières :  

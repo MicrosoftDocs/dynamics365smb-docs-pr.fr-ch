@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 02633c21025fe13b3cb781d8750d7c839640289c
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 136a96c880c7abf9b082d7f8859e484be54da4e1
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385389"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777365"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Intégration à Dynamics 365 Sales
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -75,7 +75,7 @@ Saisissez les informations suivantes pour la connexion de [!INCLUDE[prod_short](
 |**URL du service Web OData Dynamics 365 Business Central**|Si vous activez le service Web de disponibilité des articles, l'URL du service Web OData est renseignée pour vous. Définissez ce champ sur l'URL de l'instance [!INCLUDE[prod_short](includes/prod_short.md)] à utiliser.<br /><br /> Pour rétablir le champ sur l'URL par défaut pour le [!INCLUDE[prod_short](includes/prod_short.md)], sélectionnez **Réinitialiser l'URL du client Web**.<br /><br /> Ce champ n'est utile que si la solution d'intégration de [!INCLUDE[prod_short](includes/prod_short.md)] est installée dans [!INCLUDE[crm_md](includes/crm_md.md)].|
 |**Nom d'utilisateur du service Web OData Dynamics 365 Business Central**|Il s'agit du nom du compte d'utilisateur que le [!INCLUDE[crm_md](includes/crm_md.md)] utilise pour récupérer les informations concernant la disponibilité des articles dans [!INCLUDE[prod_short](includes/prod_short.md)] via le service Web OData.|
 |**Clé d'accès au service Web OData Dynamics 365 Business Central**|Il s'agit de la clé d'accès pour le compte d'utilisateur que le [!INCLUDE[crm_md](includes/crm_md.md)] utilise pour obtenir des informations concernant la disponibilité des articles depuis [!INCLUDE[prod_short](includes/prod_short.md)] via le service Web OData. La clé est assignée à l'utilisateur choisi dans le champ **Nom d'utilisateur du service Web OData Dynamics 365 Business Central**. Pour obtenir la clé, sélectionnez le bouton **Rechercher la valeur** en regard du nom d'utilisateur, sélectionnez l'utilisateur, puis **Gérer** et enfin **Modifier**. Sur la fiche d'utilisateur, sélectionnez **Actions**, **Authentification**, puis choisissez **Modifier la clé du service Web**.|
-|**Version du SDK Dynamics 365**|Si vous procédez à l'intégration avec une version locale de [!INCLUDE[crm_md](includes/crm_md.md)], utilisez le kit de développement logiciel Dynamics 365 (également appelé Xrm) pour connecter [!INCLUDE[prod_short](includes/prod_short.md)] à [!INCLUDE[crm_md](includes/crm_md.md)]. La version que vous sélectionnez doit être compatible avec la version du SDK utilisée par [!INCLUDE[crm_md](includes/crm_md.md)]. Cette version est égale ou plus récente que la version utilisée par [!INCLUDE[crm_md](includes/crm_md.md)].|-->
+|**Version du SDK Dynamics 365**|Si vous procédez à l'intégration avec une version locale de [!INCLUDE[crm_md](includes/crm_md.md)], utilisez le kit de développement logiciel Dynamics 365 (également appelé Xrm) pour connecter [!INCLUDE[prod_short](includes/prod_short.md)] à [!INCLUDE[crm_md](includes/crm_md.md)]. La version que vous sélectionnez doit être compatible avec la version du SDK utilisée par [!INCLUDE[crm_md](includes/crm_md.md)]. Cette version est égale ou plus récente que la version utilisée par [!INCLUDE[crm_md](includes/crm_md.md)].|
 
 Outre les paramètres ci-dessus, saisissez les paramètres suivants pour [!INCLUDE[crm_md](includes/crm_md.md)].
 
@@ -110,7 +110,7 @@ Le tableau suivant répertorie le mappage standard entre les tables dans [!INCLU
 
 ### <a name="synchronization-rules"></a>Règles de synchronisation
 
-Le tableau suivant répertorie les règles qui contrôlent la synchronisation entre [!INCLUDE[crm_md](includes/crm_md.md)] et [!INCLUDE[prod_short](includes/prod_short.md)]. Ces règles s'ajoutent à celles définies pour Dataverse, qui s'appliquent également. Pour en savoir plus, consultez [Mappage d'entité standard](/dynamics365/business-central/admin-synchronizing-business-central-and-sales?branch=master-cds-crm#standard-table-mapping-for-synchronization).
+Le tableau suivant répertorie les règles qui contrôlent la synchronisation entre [!INCLUDE[crm_md](includes/crm_md.md)] et [!INCLUDE[prod_short](includes/prod_short.md)]. Ces règles s'ajoutent à celles définies pour Dataverse, qui s'appliquent également. Pour en savoir plus, consultez [Mappage d'entité standard](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
 
 > [!NOTE]  
 > Les modifications apportées aux données par le compte d'utilisateur d'intégration ne sont pas synchronisées. Par conséquent, nous vous avons recommandé de ne pas modifier les données lors de l'utilisation de ce compte. Pour en savoir plus, reportez-vous à la rubrique [Configuration des comptes d'utilisateur pour l'intégration à Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md).
@@ -128,7 +128,7 @@ Le tableau suivant répertorie les règles qui contrôlent la synchronisation en
 
 ### <a name="synchronization-jobs-for-a-sales-integration"></a>Projets de synchronisation pour une intégration de Sales
 
-Les projets sont exécutés dans l’ordre suivant pour éviter les dépendances de couplage entre les tables. Il s'agit de projets supplémentaires disponibles à partir de Dataverse. Pour plus d’informations, voir [Utiliser des files d’attente des travaux pour planifier des tâches](/dynamics365/business-central/admin-job-queues-schedule-tasks).
+Les projets sont exécutés dans l’ordre suivant pour éviter les dépendances de couplage entre les tables. Il s'agit de projets supplémentaires disponibles à partir de Dataverse. Pour plus d’informations, voir [Utiliser des files d’attente des travaux pour planifier des tâches](./admin-job-queues-schedule-tasks.md).
 
 1. Projet de synchronisation Dynamics 365 Sales - UNITÉDEMESURE  
 2. Projet de synchronisation Dynamics 365 Sales - RESSOURCE-PRODUIT  
@@ -154,12 +154,22 @@ Le tableau suivant décrit les projets de synchronisation par défaut pour Sales
 ## <a name="connecting-business-central-on-premises-versions-earlier-than-version-16"></a>Connexion de versions sur site de Business Central antérieures à la version 16
 L’équipe Microsoft Power Platform a [annoncé](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse) qu’elle définit comme obsolète le type d’authentification Office365. Si vous utilisez la version [!INCLUDE[prod_short](includes/prod_short.md)] en locale antérieure à la version 16, vous devez utiliser le type d’authentification OAuth pour vous connecter à [!INCLUDE[crm_md](includes/crm_md.md)] en ligne. Les étapes de cette section décrivent comment établir la connexion.
 
-### <a name="requirements"></a>Conditions requises
-Vous devez avoir un abonnement Microsoft Azure. Un compte d’évaluation fonctionnera pour l’enregistrement de l’application.
+### <a name="prerequisites"></a>Conditions préalables
+
+- Vous devez avoir un abonnement Microsoft Azure. Un compte d’évaluation fonctionnera pour l’enregistrement de l’application.
+- [!INCLUDE[crm_md](includes/crm_md.md)] est configuré pour utiliser l'un des types d'authentification suivants :
+
+   - Office365 (hérité)
+
+     > [!IMPORTANT]
+     > À compter d'avril 2022, Office365 (hérité) ne sera plus pris en charge. Pour plus d'informations, consultez [Modifications importantes (déconseillées) à venir dans Power Apps, Power Automate et les applications d'engagement client](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse).
+
+   - OAuth
 
 ### <a name="to-connect-a-version-of-business-central-earlier-than-version-16"></a>Pour connecter une version de Business Central antérieure à la version 16
+
 1. Importez la solution d’intégration Microsoft Dynamics 365 Business Central dans votre environnement [!INCLUDE[crm_md](includes/crm_md.md)]. La solution d’intégration est disponible dans le dossier CrmCustomization de votre DVD d’installation de Business Central. Il existe plusieurs versions de la solution, telles que DynamicsNAVIntegrationSolution_v8 ou DynamicsNAVIntegrationSolution_v9 ou DynamicsNAVIntegrationSolution_v91. La solution à importer dépend de la version de [!INCLUDE[crm_md](includes/crm_md.md)] à laquelle vous êtes connecté. [!INCLUDE[crm_md](includes/crm_md.md)] en ligne nécessite la solution d’intégration DynamicsNAVIntegrationSolution_v91.
-2. Créez un utilisateur d’intégration non interactif dans votre environnement [!INCLUDE[crm_md](includes/crm_md.md)] et attribuez à l’utilisateur les rôles de sécurité suivants. Pour en savoir plus, reportez-vous à la rubrique [Créer un compte d'utilisateur non interactif](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account).
+2. Créez un utilisateur d’intégration non interactif dans votre environnement [!INCLUDE[crm_md](includes/crm_md.md)] et attribuez à l’utilisateur les rôles de sécurité suivants. Pour en savoir plus, reportez-vous à la rubrique [Créer un compte d'utilisateur non interactif](/power-platform/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account).
 
    * Administrateur d'intégration Dynamics 365 Business Central
    * Utilisateur d'intégration Dynamics 365 Business Central
@@ -167,7 +177,7 @@ Vous devez avoir un abonnement Microsoft Azure. Un compte d’évaluation foncti
    > [!Important]
    > Cet utilisateur ne doit pas avoir le rôle de sécurité Administrateur système. De plus, vous ne pouvez pas utiliser le compte d’administrateur système en tant qu’utilisateur d’intégration.
 
-3.  Dans le portail Azure, créez une inscription d’application pour [!INCLUDE[prod_short](includes/prod_short.md)]. Pour les étapes, voir [Enregistrer une application dans Azure Active Directory](/business-central/dev-itpro/administration/register-app-azure?branch=live#register-an-application-in-azure-active-directory). Les paramètres spécifiques à la connexion à [!INCLUDE[crm_md](includes/crm_md.md)] sont les autorisations déléguées. Le tableau suivant répertorie et décrit les autorisations.
+3.  Dans le portail Azure, créez une inscription d’application pour [!INCLUDE[prod_short](includes/prod_short.md)]. Pour les étapes, voir [Enregistrer une application dans Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory). Les paramètres spécifiques à la connexion à [!INCLUDE[crm_md](includes/crm_md.md)] sont les autorisations déléguées. Le tableau suivant répertorie et décrit les autorisations.
 
    |API / Nom d’autorisation |Type  |Description  |
    |---------|---------|---------|
@@ -193,7 +203,7 @@ Vous devez avoir un abonnement Microsoft Azure. Un compte d’évaluation foncti
 9. Activez la connexion.
 
 > [!Note]
-> Si vous souhaitez configurer une connexion à une instance [!INCLUDE[crm_md](includes/crm_md.md)] avec un type d’authentification spécifique, renseignez les champs du raccourci **Détails du type d’authentification**. Pour en savoir plus, reportez-vous à la rubrique [Utiliser les chaînes de connexion dans les outils XRM pour procéder à la connexion avec Dynamics 365](https://go.microsoft.com/fwlink/?linkid=843055). Cette étape n'est pas requise lors de la connexion d'une version en ligne de [!INCLUDE[prod_short](includes/prod_short.md)].
+> Si vous souhaitez configurer une connexion à une instance [!INCLUDE[crm_md](includes/crm_md.md)] avec un type d’authentification spécifique, renseignez les champs du raccourci **Détails du type d’authentification**. Pour plus d'informations, consultez [Authentification avec les services web Microsoft Dataverse](/powerapps/developer/data-platform/authentication). Cette étape n'est pas requise lors de la connexion d'une version en ligne de [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## <a name="see-also"></a>Voir aussi
 

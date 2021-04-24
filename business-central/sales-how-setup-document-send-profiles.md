@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: email, PDF, electronic document
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 18f9fdf997608cc75fbf2736cc7a834787a8b414
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: b54decd14cfa1003747ef2a56244ed3865d1ccd2
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5387588"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778562"
 ---
 # <a name="set-up-document-sending-profiles"></a>Configurer des profils d’envoi de documents
 Vous pouvez associer chaque client avec une méthode par défaut d’envoi de documents vente, afin d’éviter d’avoir à sélectionner une option d’envoi chaque fois que vous sélectionnez l’action **Valider et envoyer**.

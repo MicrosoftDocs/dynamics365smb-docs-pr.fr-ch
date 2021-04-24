@@ -1,6 +1,6 @@
 ---
-title: Détails de conception - Création de traçabilité | Microsoft Docs
-description: Cette rubrique décrit la conception associée à la traçabilité dans Business Central.
+title: Détails de conception – création de traçabilité
+description: Cette rubrique décrit la conception de la traçabilité dans Business Central au fur et à mesure de son évolution dans les versions de produit.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,25 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item, tracking, tracing
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a0c60381634543f367e85a465c4ee74c3396d5ad
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: c41b131c538337db81b30956a7871040d11f9ce3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5391013"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780972"
 ---
 # <a name="design-details-item-tracking-design"></a>Détails de conception : création de traçabilité
-Dans la première version de traçabilité dans [!INCLUDE[prod_short](includes/prod_short.md)] 2.60, les numéros de série ou les numéros de lot ont été enregistrés directement sur les écritures comptables article. Ce design a fourni des informations de disponibilité complète et un suivi unique des écritures historiques, mais il a manqué de flexibilité et de fonctionnalité.  
 
-Depuis [!INCLUDE[prod_short](includes/prod_short.md)] 3.00, la fonctionnalité de traçabilité était dans une structure d’objet distincte avec des liens complexes avec des documents et écritures comptables article validés. Ce design était flexible et riche en fonctionnalités, mais les écritures de suivi d’article n’étaient pas entièrement impliquées dans les calculs de disponibilité.  
+Traçabilité dans [!INCLUDE[prod_short](includes/prod_short.md)] commencé avec [!INCLUDE [navnow_md](includes/navnow_md.md)]. La fonctionnalité de traçabilité se trouve dans une structure d'objet distincte avec des liens complexes vers les documents validés et les écritures comptables article, et elle est intégrée au système de réservation, qui gère la réservation, le suivi des commandes et la messagerie d'action. Pour plus d’informations, voir [Détails de conception : réservations, suivi de commande et messages d’action](design-details-reservation-order-tracking-and-action-messaging.md) dans les détails de conception de la planification des approvisionnements.  
 
-Depuis [!INCLUDE[prod_short](includes/prod_short.md)] 3.60, la fonctionnalité de traçabilité est intégrée au système de réservation, qui traite la réservation, le chaînage et les messages d’action. Pour plus d’informations, voir « Détails de conception : réservations, chaînage et messages d’action » dans « Détails de conception : planification des approvisionnements ».  
+Ce design incorpore les écritures traçabilité dans les calculs de disponibilité totaux dans tout le système, y compris la planification, la fabrication, et l’entreposage. Les numéros de série et lot sont appliqués aux écritures comptables article pour assurer un accès simple aux données historiques pour la traçabilité. Avec la 1re vague de lancement 2021, la traçabilité dans [!INCLUDE [prod_short](includes/prod_short.md)] comprend les numéros de paquets.  
 
-Ce dernier design incorpore les écritures de suivi d’article dans les calculs de disponibilité totaux dans tout le système, y compris la planification, la fabrication, et l’entreposage. L’ancien concept d’indiquer les numéros de série et de lot des écritures comptables article est réintroduit pour assurer un accès simple aux données historiques pour la traçabilité. En relation avec les améliorations de traçabilité dans [!INCLUDE[prod_short](includes/prod_short.md)] 3.60, le système de réservation a été étendu aux entités réseau sans rapport avec les commandes, telles que les feuilles, les factures et les avoirs.  
-
-Avec l’ajout de numéros de série ou de lot, le système de réservation gère les attributs d’article permanents tout en gérant également les liens intermittents entre l’approvisionnement et la demande sous la forme d’écritures de suivi de commande et d’écritures de réservation. Il existe une autre caractéristique qui différencie les numéros de série ou de lot des données de réservation conventionnelles : leur validation peut être effectuée partiellement ou en totalité. Par conséquent, le tableau **Écriture réservation** (T337) s’exécute à présent avec un tableau lié, le tableau **Spécification traçabilité** (T336), qui gère et affiche l’ajout à travers les quantités de suivi article validées. Pour plus d’informations, voir [Détails de conception : comparaison entre écritures traçabilité actives et historiques](design-details-active-versus-historic-item-tracking-entries.md).  
+Avec l’ajout de numéros de série, lot et de paquets, le système de réservation gère les attributs d’article permanents tout en gérant également les liens intermittents entre l’approvisionnement et la demande sous la forme d’écritures de suivi de commande et d’écritures de réservation. Il existe une autre caractéristique qui différencie les numéros de série ou de lot des données de réservation conventionnelles : leur validation peut être effectuée partiellement ou en totalité. Par conséquent, le tableau **Écriture réservation** (T337) s’exécute à présent avec un tableau lié, le tableau **Spécification traçabilité** (T336), qui gère et affiche l’ajout à travers les quantités de suivi article validées. Pour plus d’informations, voir [Détails de conception : comparaison entre écritures traçabilité actives et historiques](design-details-active-versus-historic-item-tracking-entries.md).  
 
 Le schéma suivant explique la conception de la fonctionnalité de traçabilité dans [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -43,8 +40,8 @@ Codeunit 22, **Feuille article – Valider ligne**, fractionne alors la validati
 
 Pour plus d’informations, reportez-vous à [Détails de conception : structure de validation de traçabilité](design-details-item-tracking-posting-structure.md).  
 
-## <a name="see-also"></a>Voir aussi  
+## <a name="see-also"></a>Voir aussi
+
 [Détails de conception : traçabilité](design-details-item-tracking.md)
 
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[!INCLUDE[footer-include](includes/footer-banner.md)]  

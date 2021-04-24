@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0423314fa123c931e98db37bcc6939b6fbbddf25
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: e118b27d1bafc4de1ffc8d2db4597317942b6f65
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381533"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777713"
 ---
 # <a name="design-details-table-structure"></a>Détails de conception : structure de la table
 Pour comprendre comment les écritures analytiques sont stockées et validées, il est important de comprendre la structure de la table.  
@@ -181,11 +181,7 @@ Le champ 480 existe dans les tables suivantes.
 |5637|**Tampon écriture compta. immo.**|  
 |7136|**Tampon budget article**|  
 
-## <a name="see-also"></a>Voir aussi  
- [Détails de conception : écritures d’ensemble de dimensions](design-details-dimension-set-entries.md)   
- [Aperçu des écritures de l’ensemble de dimensions](design-details-dimension-set-entries-overview.md)   
- [Détails de conception : recherche des croisements analytiques](design-details-searching-for-dimension-combinations.md)   
- 
+## <a name="see-also"></a>Voir aussi
 
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Aperçu des écritures de l’ensemble de dimensions](design-details-dimension-set-entries-overview.md)  
+[Détails de conception : recherche des croisements analytiques](design-details-searching-for-dimension-combinations.md)   

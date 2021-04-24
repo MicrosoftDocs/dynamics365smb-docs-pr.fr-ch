@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7bc87f8fc096241e7f77efb0eb4e7bceb1d28aef
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: aed1ce045e4dceb2467a901278300e404cd3e32b
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5391189"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780922"
 ---
 # <a name="analyzing-cash-flow-in-your-company"></a>Analyse de la trésorerie dans votre société
 Les graphiques du tableau de bord Comptable offrent des analyses qui peuvent vous aider à prendre des décisions judicieuses sur les opérations à effectuer avec votre trésorerie.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 362f5ca0ac71d226c29bff3f03aaa4d9f30fb171
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: fcc05bd73f3912a04e01ced0982c334203bb58cf
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5376577"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776956"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Configurer le service Envestnet Yodlee Bank Feeds
 
@@ -45,7 +45,7 @@ Une fois que vous avez activé le service de flux bancaire, vous devez lier le c
 Lorsque le service de flux bancaire est activé, vous pouvez configurer un compte bancaire de sorte à importer automatiquement de nouveaux relevés bancaires sur la page **Feuille rapprochement bancaire** toutes les deux heures. Les transactions pour les paiements qui ont déjà été validés comme lettrés et/ou rapprochés sur la page **Feuille rapprochement bancaire** ne sont pas importées. Pour en savoir plus, voir la section « Pour activer l’importation automatique des relevés bancaires ».
 
 > [!NOTE]  
-> Si vous utilisez le guide de configuration assistée Configurer la société, certaines étapes des procédures suivantes s’effectuent automatiquement lorsque vous parvenez à la configuration de compte bancaire de la société. Pour plus d’informations, reportez-vous à [Mise en route](product-get-started.md).
+> Si vous utilisez le guide de configuration assistée Configurer la société, certaines étapes des procédures suivantes s’effectuent automatiquement lorsque vous parvenez à la configuration de compte bancaire de la société. Pour plus d’informations, voir [Préparation aux activités commerciales](ui-get-ready-business.md).
 
 ## <a name="to-enable-the-bank-feed-service"></a>Pour activer le service de flux bancaire
 1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Compte bancaire**, puis sélectionnez le lien associé.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: dffa11eeb39cd2246ac97284ec4bcfcbb2977539
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 9cfb99319510b76843e7c94adedb66835023c55d
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5390414"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5775315"
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Utiliser des contrats de service et des devis contrat de service
 Vous pouvez créer un contrat de service manuellement ou à partir d’un devis contrat de service. Vous pouvez utiliser un devis contrat de service en tant qu’étape préliminaire d’un contrat de service, dans laquelle votre société fait une offre au client et qui nécessite d’obtenir l’approbation du client pour pouvoir être convertie en contrat de service. Les procédures de création d’un contrat de service ou d’un devis contrat de service sont identiques.  
