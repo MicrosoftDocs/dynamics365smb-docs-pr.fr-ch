@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5f51e65930303cf3600edf54c2056b2bd938e718
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: e18566a05a9580c53329d95f52a6e197807e30b3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381053"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786263"
 ---
 # <a name="set-up-company-consolidation"></a>Configurer la consolidation de la société
 
@@ -30,6 +30,7 @@ En fonction de la complexité de vos entreprises, il existe deux façons de conf
 
 ## <a name="simple-consolidation-setup"></a>Configuration d’une consolidation simple
 
+[!INCLUDE [2021_releasewave1](includes/2021_releasewave1.md)]
 Si votre consolidation est simple, car vous détenez en totalité les centres de profit à consolider, le guide de configuration assistée **Consolidation de la société** vous aide à effectuer les étapes suivantes :
 
 * Choisissez si vous souhaitez créer une société consolidée, ou consolider les données dans une société que vous avez déjà créée pour la consolidation. La société ne doit pas contenir de transactions.

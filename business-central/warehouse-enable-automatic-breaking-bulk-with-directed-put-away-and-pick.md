@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c00a866a731a321c0cf2e7f29dce4fba296b6d06
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 0b42d344753a0284d6f9cddc5d488f1e82ef3074
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385714"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5782799"
 ---
 # <a name="enable-automatic-breaking-bulk-with-directed-put-away-and-pick"></a>Activer la rupture de charge automatique avec prélèvement et rangement dirigé
 En cas d’utilisation d’un prélèvement et d’un rangement suggérés dans les entrepôts, [!INCLUDE[prod_short](includes/prod_short.md)] peut procéder, dans de nombreux cas, à un déconditionnement automatique (division d’une unité en unités plus petites) lorsqu’il crée des instructions entrepôt répondant aux exigences de documents origine, d’ordres de fabrication ou de prélèvements et de rangements internes. Parfois, le déconditionnement peut également nécessiter le regroupement de petites unités afin de répondre à des demandes sortantes en divisant l’unité la plus grande du document origine ou de l’ordre de fabrication en unités plus petites disponibles dans l’entrepôt.   

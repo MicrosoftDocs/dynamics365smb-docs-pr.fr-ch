@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e1e232dec1d6c0bdb5fa97b8351a4b81abb8395d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 87c30031b9c7bf653c7e43fea63ffb623107c25e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5388959"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5785538"
 ---
 # <a name="managing-contacts"></a>Gestion de contacts
 

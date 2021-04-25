@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 7fe5d0870cfc18ab103dc57044fd0ba84b151662
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 81df1625531b3b4c5bf1a55a9e09d37af8b6f7fe
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5392463"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5782999"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Utilisation des états, des traitements par lots et des ports XML
 
@@ -42,14 +42,7 @@ Le champ **Utiliser les valeurs par défaut de** fournit un moyen rapide et fiab
 
 >[!NOTE]
 > Les paramètres prédéfinis sont généralement configurés et gérés par un administrateur. Pour en savoir plus, voir [Gérer les paramètres enregistrés pour les états et les traitements par lots](reports-saving-reusing-settings.md).
-<!--
-Depending on the report, the request page might include the **Use default values from** field. This field lets you select a predefined set of can include the **Saved Settings** section that contains one or more entries in the **Use default value from** box. A saved setting is basically a predefined group of options and filters that you can apply to the report before previewing or sending the report to a file. The saved settings entry called **Last used options and filters** is always available. This entry sets the report to use options and filters that were used the last time you used the report.
 
-Using saved settings is a fast and reliable way to consistently generate reports that contain the correct data. After you set the **Use default value from** box to a saved settings entry, you can change any of the options and filters before previewing or saving the report. The changes that you make will not be saved to the saved settings entry you selected, but they will be saved to the **Last used options and filters** entry.
-
->[!NOTE]
->If you are an administrator, you can create and manage the saved settings for reports for all users. For more information, see [Manage Saved Settings for Reports and Batch Jobs](reports-saving-reusing-settings.md).
--->
 ## <a name="specifying-the-data-to-include-in-reports"></a>Définition des données à inclure dans les états
 
 Utilisez les champs sous **Options** et **Filtres** pour modifier ou limiter les informations que vous souhaitez dans l’état. Vous devez définir des filtres dans un état de la même manière que vous le faites sur des listes. Pour plus d’informations, reportez-vous à la rubrique [Filtrage](ui-enter-criteria-filters.md#filtering).
@@ -63,7 +56,7 @@ Utilisez les champs sous **Options** et **Filtres** pour modifier ou limiter les
 
 ## <a name="previewing-a-report"></a>Affichage de l’aperçu d’un état
 
-L’aperçu d’un état vous permet de voir à quoi il ressemblera avant de l’imprimer. L’aperçu affiche l’état en fonction de [l’imprimante](#Printer) indiquée dans le champ **Imprimante** sur la page de la demande. Après l’aperçu, vous pouvez revenir à la page de la demande et apporter des modifications aux options et aux filtres si nécessaire.
+L’aperçu d’un état vous permet de voir à quoi il ressemblera avant de l’imprimer. L'aperçu n'est pas basé sur le champ **Imprimante** de l'imprimante sélectionnée sur la page de demande. Il est contrôlé par le navigateur. Après l’aperçu, vous pouvez revenir à la page de la demande et apporter des modifications aux options et aux filtres si nécessaire.
 
 Pour afficher l’aperçu d’un état, choisissez le bouton **Aperçu** ou **Aperçu et fermer** sur la page de demande d’état. Le bouton qui s’affiche selon l’état, certains états ont un bouton **Aperçu**, tandis que d’autres ont un bouton **Aperçu et fermer**. Les deux boutons ouvriront un aperçu de l’état. La différence est que l’**Aperçu** garde la page de demande ouverte afin que vous puissiez y revenir, apporter des modifications, afficher à nouveau un aperçu ou imprimer. Avec **Aperçu et fermer**, la page de demande se ferme, vous devrez donc rouvrir l’état pour apporter des modifications ou l’imprimer.
 
@@ -103,37 +96,16 @@ Vous pouvez choisir de sauvegarder l’état dans un fichier, par exemple, Excel
 
 Pour imprimer un état, cliquez sur le bouton **Imprimer** sur la page de demande d’état ou dans la barre de menu de la page **Aperçu**.
 
-<!--
-### Printer selection
-
-The report prints to the printer shown in the **Selected printer** field on the report request page. You can't change the printer from this page.
-
-The selected printer is either set on the **Printer Selections** page or it's the default printer set up on the **Printer Management** page. If you want to use another printer, see  [Set Up Printers](ui-specify-printer-selection-reports.md).
-
-If no printer is specified on the **Printer Selections** page or set as default on the **Printer Management** page, the browser printing feature is used. In this case, **Browser** appears in the **Selected printer** field on the report request page.
--->
 ### <a name="printer"></a><a name="Printer"></a>Imprimante
 
-Le champ **Imprimante** de la page de demande d’état affiche le nom de l’imprimante à laquelle l’état sera transmis. **(Géré par le navigateur)** indique qu’il n’y a pas d’imprimante désignée pour l’état. Dans ce cas, le navigateur gérera l’impression et affichera une expérience standard, où vous pourrez choisir une imprimante locale connectée à votre appareil.
-
-Vous ne pouvez pas changer d’imprimante à l’aide du champ **Imprimante**. Pour changer d’imprimante, vous devrez accéder aux pages **Sélections d’imprimantes** ou **Gestion des imprimantes**. La configuration de l’imprimante est généralement une tâche d’administrateur. Si vous souhaitez en savoir plus, consultez [Paramétrage imprimantes](ui-specify-printer-selection-reports.md).
-
-<!--
-### Browser printing
-
-Because [!INCLUDE[prod_short](includes/prod_short.md)] is a cloud service, it can't reach local printers connected to your computer. However, it can connect to cloud-enabled printers. In the generic version of [!INCLUDE[prod_short](includes/prod_short.md)], a cloud printer named **Email Printer** is installed as an extension and is ready to use after initial setup.
-
-If a cloud printer is not installed and set up, or if an installed printer fails, then printing will default to the printing options for the browser.
+Le champ **Imprimante** de la page de demande d’état affiche le nom de l’imprimante à laquelle l’état sera transmis. Pour changer d'imprimante, sélectionnez simplement l'imprimante dans la liste.
 
 > [!NOTE]
-> The browser printing options work independently of [!INCLUDE[prod_short](includes/prod_short.md)]. So any printer settings that might have been set up from printers in [!INCLUDE[prod_short](includes/prod_short.md)] aren't carried over to the browser print options.
+> **(Géré par le navigateur)** indique qu’il n’y a pas d’imprimante désignée pour l’état. Dans ce cas, le navigateur gérera l’impression et affichera une expérience standard, où vous pourrez choisir une imprimante locale connectée à votre appareil. **(Géré par le navigateur)** n'est pas disponible dans l'application mobile [!INCLUDE[prod_short](includes/prod_short.md)] ou application pour Microsoft Teams.
 
-<!-- 
-On the **Printer Management** page, you can see the printers that are set up. For more information, see [Set Up Printers](ui-specify-printer-selection-reports.md).
+> [!TIP]
+> L'imprimante sélectionnée pour vous par défaut est configurée sur la page **Sélections d'imprimantes**. Pour plus d'informations sur la modification de l'imprimante par défaut, reportez-vous à [Sélectionner quelles imprimantes impriment quels rapports](ui-specify-printer-selection-reports.md#default).
 
-> [!NOTE]
-> You can't change the **Printer** field on the report request page. To use another printer, you must select it from the **Printer Management** page.
--->
 ### <a name="printing-reports-in-thai"></a>Impression d’états en thaïlandais
 
 Spécifiquement pour la version thaïlandaise de [!INCLUDE[prod_short](includes/prod_short.md)], le bouton **Imprimer** ne peut pas imprimer correctement des états du fait des limitations du service qui génère un fichier PDF imprimable. À la place, vous pouvez ouvrir l’état dans Word puis enregistrer l’état en tant que fichier PDF imprimable.  

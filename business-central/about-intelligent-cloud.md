@@ -1,6 +1,6 @@
 ---
-title: Informations intelligentes et migration vers le cloud | Microsoft Docs
-description: Connectez-vous à des informations intelligentes avec Business Central, à partir de votre solution sur site. Découvrez comment migrer vers le cloud.
+title: Informations intelligentes et migration vers le cloud
+description: Dans Business Central Online, vous avez accès à d'autres services en ligne et vous pouvez obtenir des informations intelligentes basées sur Azure AI, par exemple. Poursuivez votre lecture si vous envisagez de migrer du local vers le cloud.
 author: bmeier94
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,27 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms. search.keywords: cloud, edge
-ms.date: 10/01/2020
+ms. search.keywords: cloud, migrate, insights
+ms.date: 04/12/2021
 ms.author: edupont
-ms.openlocfilehash: ca7fd910e70deaebbf8912eecfe6d9c25ddfcc4e
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: b64b1ad037743364b7bd0f4544dbcdb351e2daba
+ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385139"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889270"
 ---
-# <a name="intelligent-insights-with-prod_short-online"></a>Informations intelligentes avec [!INCLUDE[prod_short](includes/prod_short.md)] Online
+# <a name="intelligent-insights-in-prod_short-online"></a>Informations intelligentes dans [!INCLUDE[prod_short](includes/prod_short.md)] Online
 
-En tant qu’utilisateur de [!INCLUDE[prod_short](includes/prod_short.md)] en ligne, vous avez un accès complet aux scénarios basés sur le Cloud intelligent, comme les indicateurs de performance clés basés sur Machine Learning, ou lorsque vous consultez vos données dans Power BI. Toutefois, bien que [!INCLUDE[prod_short](includes/prod_short.md)] est un service basé d’abord sur le cloud, les clients qui doivent exécuter leurs charges de travail entièrement sur site ou sur la périphérie intelligente connectée au cloud peuvent également le faire.  
+En tant qu’utilisateur de [!INCLUDE[prod_short](includes/prod_short.md)] en ligne, vous avez un accès complet aux scénarios basés sur le Cloud intelligent, comme les indicateurs de performance clés basés sur Machine Learning, ou lorsque vous consultez vos données dans Power BI.  
 
-Si vous êtes intéressé par [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez vous inscrire à une version d’évaluation gratuite en ligne, ou vous pouvez choisir de faire appel à un partenaire pour déployer [!INCLUDE[prod_short](includes/prod_short.md)] localement sur le matériel de votre choix. Vous pouvez ensuite décider d’obtenir des informations intelligentes en vous connectant à un abonné dans le cloud. Par conséquent, les données de votre déploiement local de [!INCLUDE[prod_short](includes/prod_short.md)] sont répliquées sur le cloud pour les scénarios de cloud intelligent.  
+Cependant, si vous utilisez [!INCLUDE [prod_short](includes/prod_short.md)] sur site, vous n'avez pas accès aux mêmes informations. Si vous souhaitez bénéficier de scénarios en ligne, vous devez migrer vers [!INCLUDE [prod_short](includes/prod_short.md)] Online. Pour en savoir plus, voir la rubrique [Migration des données locales vers Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) dans le contenu d’administration pour [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-La connexion au cloud intelligent d’une solution locale nécessite que votre administrateur spécifie des informations sur votre base de données. Les outils utilisés pour connecter votre déploiement local à [!INCLUDE[prod_short](includes/prod_short.md)] en ligne sont les mêmes que ceux également utilisés pour la migration de la solution locale en solution en ligne. Pour en savoir plus, voir la rubrique [Migration des données locales vers Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) dans le contenu d’administration pour [!INCLUDE[prod_short](includes/prod_short.md)].  
+## <a name="viewing-insights-in-prod_short-online"></a>Affichage des statistiques dans [!INCLUDE[prod_short](includes/prod_short.md)] Online
 
-## <a name="viewing-intelligent-cloud-insights-in-prod_short-online"></a>Affichage des informations sur le cloud intelligent dans [!INCLUDE[prod_short](includes/prod_short.md)] Online.
-
-Dans votre société [!INCLUDE[prod_short](includes/prod_short.md)] online, la page **Informations sur le cloud intelligent** répertorie les quatre points clé d’intérêts pour la plupart des sociétés :
+Dans [!INCLUDE[prod_short](includes/prod_short.md)] Online, la page **Informations sur le cloud intelligent** répertorie les quatre points clé d’intérêts pour la plupart des sociétés :
 
 - Disponibilité de trésorerie
 - Rentabilité ventes
@@ -38,19 +36,14 @@ Dans votre société [!INCLUDE[prod_short](includes/prod_short.md)] online, la p
 En regard des graphiques KPI, vous obtenez des informations sur des domaines de préoccupation potentiels, y compris les paiements dus. Choisissez chaque information pour explorer les données.  
 
 > [!div class="mx-imgBorder"]
-> ![Informations sur le cloud intelligent](media/across-intelligent-cloud/intelligentcloudApril19.png "Affiche la page Informations sur le cloud intelligent dans Business Central")
+> ![Informations sur le cloud intelligent](media/across-intelligent-cloud/intelligentcloudApril19.png "Affiche la page Informations sur le cloud intelligent dans Business Central Online")
 
-La page se connecte également à Power BI pour encore plus d’informations.
-
-## <a name="viewing-intelligent-insights-on-premises"></a>Affichage des informations intelligentes localement
-
-Lorsque votre revendeur Dynamics 365 a acquis la bonne licence pour votre solution locale pour se connecter au cloud via [!INCLUDE[prod_short](includes/prod_short.md)], votre administrateur peut configurer la connexion. Une fois cela effectué, vous pouvez afficher les mêmes informations depuis le cloud dans votre application locale. Selon la solution locale, la page **Informations sur le cloud intelligent** peut être intégrée dans la page d’accueil ou être une page séparée comme dans [!INCLUDE[prod_short](includes/prod_short.md)] online et local.  
+La page se connecte également à Power BI pour encore plus d’informations. En option, connectez-vous à Azure AI pour des informations encore plus intelligentes. Pour plus d'informations, voir [Extension Prévision de ventes du stock](ui-extensions-sales-forecast.md).  
 
 ## <a name="see-also"></a>Voir aussi
 
 [Bienvenue dans Business Central](index.md)  
-[Extensions Cloud intelligent pour la migration vers le cloud](ui-extensions-data-replication.md)  
+[Extensions de migration vers le cloud](ui-extensions-data-replication.md)  
 [Migration des données locales vers Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

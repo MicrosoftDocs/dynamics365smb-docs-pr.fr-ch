@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: price, pricing, discount, discounting, rebate, sale, purchase, invoice
-ms.date: 02/18/2021
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: a69c0b35c87b6da4d8910fb71255767e6d363597
-ms.sourcegitcommit: a9b771cc2b4b75aed835efca63ef7a6a44219d59
+ms.openlocfilehash: d9dd61f073567dd38c4f80e77bb4ecd0584f558f
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "5476834"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5787247"
 ---
 # <a name="set-up-prices-and-discounts"></a>Configurer les prix et les remises
 > [!NOTE]

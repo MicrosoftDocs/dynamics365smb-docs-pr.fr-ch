@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 497c2fb891af31af20a6b7a150edd9a9907748e2
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 5bc09374f1e72c56f5f3fbb392b2253a60437738
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5389864"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781696"
 ---
 # <a name="design-details-inventory-valuation"></a>Détails de conception : évaluation du stock
 L’évaluation du stock est la détermination du coût qui est affecté à un article du stock, comme exprimé par l’équation suivante.  

@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a2d6e2a115c39045f0a0d6221df0f74d8b3c7ace
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: c17aec818a65aef9e298b40301142cbb40715306
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381103"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5782352"
 ---
 # <a name="revalue-fixed-assets"></a>Réévaluer les immobilisations
 La réévaluation des immobilisations peut consister en réévaluations, dépréciations ou corrections de valeurs générales.
@@ -120,7 +120,7 @@ Si vous n’avez pas coché la case **Amort. jusqu’à date compta.**, l’acti
 [COMPTES D’IMMOBILISATIONS](fa-manage.md)  
 [Paramétrage d’immobilisations](fa-setup.md)  
 [Finances](finance.md)  
-[Mise en route](product-get-started.md)  
+[Préparation aux activités commerciales](ui-get-ready-business.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

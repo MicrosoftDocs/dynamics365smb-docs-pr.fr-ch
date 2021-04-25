@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 32532dfb1d78f27dc2dac8b61cfc8d0c47e6b6b4
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 93889510c01a2feecface046440de19dcb1e83eb
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5386864"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5787367"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Extension Prévisions de retard de paiement  
 Une gestion efficace des créances est importante pour la santé financière générale d’une société. L’extension de prévision de retard de paiement peut vous aider à minimiser les créances ouvertes et à ajuster votre stratégie de collectes en prévoyant si les factures vente seront payées à temps. Par exemple, si un retard de paiement est prévu, vous pouvez décider d’ajuster les conditions de paiement ou le mode de règlement du client.
@@ -108,7 +108,7 @@ Vous pouvez également utiliser votre propre service web prévisionnel basé sur
 8. Sur l’organisateur **Mes informations d’identification du modèle**, saisissez l’URL d’API et la clé API de votre modèle.  .  
 
 ## <a name="see-also"></a>Voir aussi  
-[Documentation Azure Machine Learning Studio](https://go.microsoft.com/fwlink/?linkid=861765)  
+[Documentation Azure Machine Learning Studio](/azure/machine-learning/classic/)  
 [Personnalisation de Business Central à l’aide d’extensions](ui-extensions.md)  
 [Bienvenue dans [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)  
 

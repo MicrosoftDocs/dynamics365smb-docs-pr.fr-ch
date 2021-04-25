@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: db90c35bde2a08d6131e4a7102f9cdda1f36dfe8
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 75bcb6763c9253bba72ca7f1ff980222263b4e9c
+ms.sourcegitcommit: 8b44a7bcba45ae852cc6dd07b90b9a383c1be488
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385964"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "5870013"
 ---
 # <a name="create-number-series"></a>Création des souches de numéros
 Pour chaque société que vous configurez, vous devez affecter des codes d’identification uniques aux éléments tels que les comptes généraux, les comptes client et fournisseur, les factures et d’autres documents. La numérotation est importante, pas uniquement pour l’identification. Un système de numérotation bien conçu facilite la gestion et l’analyse de la société et permet de réduire les erreurs de saisie des données.
@@ -29,6 +29,9 @@ Si vous souhaitez autoriser des écarts dans certaines séries de nombres, comme
 >   Il est recommandé d’utiliser les mêmes codes souche de numéros que ceux répertoriés sur la page **Liste de souches de numéros** de la société de démonstration CRONUS. Des codes tels que *P-INV+* ne vont pas vous paraître significatifs au premier abord, mais [!INCLUDE[prod_short](includes/prod_short.md)] dispose d’un certain nombre de paramètres par défaut en fonction de ces codes souche de numéros.
 
 Vous créez un système de numérotation en définissant un ou plusieurs codes pour chaque type de données de base ou de document. Par exemple, vous pouvez définir un code pour la numérotation de clients, un code pour la numérotation des factures vente et un autre code pour la numérotation des documents dans les feuilles comptabilité. Une fois que vous avez défini un code, vous devez définir au moins une ligne souche de numéros. Celle-ci contient des informations telles que les premier et dernier numéros de la souche et la date de début. Vous pouvez définir plusieurs lignes souche de numéros par code souche de numéros, avec une date de début différente pour chaque ligne. Les souches sont utilisées de manière consécutive, chaque souche commençant à la date de début respective.
+
+> [!NOTE]
+> La longueur maximale d'un nombre dans une série de nombres est de 20 caractères. Il y a des situations où [!INCLUDE[prod_short](includes/prod_short.md)] ajoutera un numéro avec un ID généré par le système. Par exemple, lorsque des documents tels que des factures sont utilisés pour appliquer des transactions, telles que des paiements, [!INCLUDE[prod_short](includes/prod_short.md)] génère des identificateurs pour les transactions appliquées. L'identificateur est composé d'un numéro d'une série de numéros et d'un identificateur à six caractères attribué par le système, tel que -12345. Si vous prévoyez de traiter plus de 9 999 documents dans des journaux bancaires ou GIRO, ou dans des journaux de reçus de caisse, configurez des séries de numéros pour ces types de documents pour inclure moins de 14 caractères.
 
 Vous devez généralement définir votre souche de numéros pour insérer automatiquement le numéro suivant sur des fiches ou des documents que vous créez. Toutefois, vous pouvez également définir une souche de numéros pour permettre la saisie manuelle du nouveau numéro. Vous spécifiez cela grâce à la case à cocher **N° manuels**.
 

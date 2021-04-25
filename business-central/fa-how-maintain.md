@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: repair, service
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 03f1caebb7213275380ebc1be5068a8448d55cef
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: e887a7f2041469487f71f98eb9985e29b221b86e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381155"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5788323"
 ---
 # <a name="maintain-fixed-assets"></a>Mettre à jour des immobilisations
 Les frais de maintenance sont des coûts périodiques de routine engagés pour préserver la valeur des immobilisations. Contrairement aux améliorations de capital, ils n’augmentent pas les valeurs.
@@ -88,7 +88,7 @@ Dans l’état **Maintenance - Détails**, vous pouvez afficher ou imprimer les 
 [COMPTES D’IMMOBILISATIONS](fa-manage.md)  
 [Paramétrage d’immobilisations](fa-setup.md)  
 [Finances](finance.md)  
-[Mise en route](product-get-started.md)  
+[Préparation aux activités commerciales](ui-get-ready-business.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

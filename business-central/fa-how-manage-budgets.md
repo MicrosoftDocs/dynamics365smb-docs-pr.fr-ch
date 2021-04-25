@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: forecast
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: acdff4ac5879ee3b9c4237d4bcf6e2d30af72dff
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 3b435d1e9edae7a13514786f2de51e32237aaf94
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380521"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5783574"
 ---
 # <a name="manage-budgets-for-fixed-assets"></a>Gérer les budgets pour les immobilisations
 Vous pouvez paramétrer des immobilisations budgétées. Cela vous permet par exemple d’inclure dans des états des acquisitions et des ventes anticipées.  
@@ -61,7 +61,7 @@ Vous pouvez utiliser l’état **Immo. - Valeur projetée** pour calculer l’am
 [COMPTES D’IMMOBILISATIONS](fa-manage.md)  
 [Paramétrage d’immobilisations](fa-setup.md)  
 [Finances](finance.md)  
-[Mise en route](product-get-started.md)  
+[Préparation aux activités commerciales](ui-get-ready-business.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

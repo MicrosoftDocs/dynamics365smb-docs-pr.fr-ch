@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 6c53fa5aeb615db809887ae96d51101789c312e3
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: ed744d6aba6394f567c9b297943c0061cb0c0751
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384164"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786922"
 ---
 # <a name="working-with-prod_short-data-in-power-bi"></a>Utilisation avec les données [!INCLUDE [prod_short](includes/prod_short.md)] dans Power BI
 
-Dans cet article, vous découvrirez quelques notions de base sur l’utilisation des états et des tableaux de bord dans Power BI qui utilisent [!INCLUDE [prod_short](includes/prod_short.md)] comme source de données. L’article traite de certains aspects qui vous aideront à démarrer en tant qu’utilisateur [!INCLUDE[prod_short](includes/prod_short.md)]. Pour obtenir des instructions générales et des instructions sur l’utilisation Power BI, voir [Documentation Power BI pour les consommateurs](https://review.docs.microsoft.com/en-us/power-bi/consumer).
+Dans cet article, vous découvrirez quelques notions de base sur l’utilisation des états et des tableaux de bord dans Power BI qui utilisent [!INCLUDE [prod_short](includes/prod_short.md)] comme source de données. L’article traite de certains aspects qui vous aideront à démarrer en tant qu’utilisateur [!INCLUDE[prod_short](includes/prod_short.md)]. Pour obtenir des instructions générales et des instructions sur l’utilisation Power BI, voir [Documentation Power BI pour les consommateurs](/power-bi/consumer).
 
 ## <a name="get-ready"></a>Mise en route
 
@@ -89,7 +89,7 @@ Pour partager un état, dans une liste d’états ou dans un état ouvert, séle
 [Démarrage rapide : Se connecter aux données dans Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
 [Documentation Power BI](/power-bi/)  
 [Veille économique](bi.md)  
-[Mise en route](product-get-started.md)  
+[Préparation aux activités commerciales](ui-get-ready-business.md)  
 [Importation des données métier à partir d’autres systèmes financiers](across-import-data-configuration-packages.md)  
 [Configuration de [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)] comme source de données Power BI](across-how-use-financials-data-source-powerbi.md)  

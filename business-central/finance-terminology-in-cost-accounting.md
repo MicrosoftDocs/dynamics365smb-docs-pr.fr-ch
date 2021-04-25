@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0b6c9507878d7a508821426012cc9a54cab5919a
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: aa84beb26e76ab911aca1ddbd7fc8a9461d1a491
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5392839"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5783662"
 ---
 # <a name="terminology-in-cost-accounting"></a>Terminologie en comptabilité analytique
 Cette rubrique définit les conditions principales qui sont utilisés en comptabilité analytique.  

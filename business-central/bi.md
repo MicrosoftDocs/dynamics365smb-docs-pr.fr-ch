@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 245e77cb34f3b7b1a8f02c17f17ebd26269d3691
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 6a3d3e9aec61b3dab7673c7b99b482f80501a919
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5389164"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786577"
 ---
 # <a name="business-intelligence"></a>Veille économique
 Les entreprises capturent une énorme quantité de données de par leur activité quotidienne. Ces données, qui reflètent par exemple les chiffres de vente de l’organisation, les achats, les dépenses opérationnelles, les salaires des employés et les budgets, peuvent devenir des informations précieuse, ou veille économique, pour les décisionnaires. [!INCLUDE[prod_short](includes/prod_short.md)] contient un certain nombre de fonctionnalités qui vous permettent de collecter, d’analyser et de partager les données de votre société.

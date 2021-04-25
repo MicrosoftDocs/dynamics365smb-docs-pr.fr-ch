@@ -8,22 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 01/18/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4c46aa4f920924c4b1d11f3d6ef636ce96feb22f
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 01354575a7d96017684fe885411be364058b57e4
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385564"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781471"
 ---
-# <a name="setting-up-prod_short"></a>Configuration de [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="overview-of-tasks-to-set-up-prod_short"></a>Aperçu des tâches permettant de paramétrer [!INCLUDE[prod_short](includes/prod_short.md)]
 
-[!INCLUDE[prod_short](includes/prod_short.md)] comprend des configurations standard pour la plupart des processus métier, mais vous pouvez les modifier pour les adapter aux besoins de votre organisation.
+[!INCLUDE[prod_short](includes/prod_short.md)] comprend des configurations standard pour la plupart des processus métier, mais vous pouvez les modifier pour les adapter aux besoins de votre organisation.  
 
 Par exemple, votre plan comptable est prérempli avec un certain nombre de comptes de validation prêts à l’emploi. Vous pouvez, bien évidemment, modifier le plan comptable pour l’adapter à vos besoins. Pour plus d’informations, reportez-vous à [Finances](finance.md).
 
-Dans le menu ![Icône de pignon pour ouvrir le menu Paramètres](media/ui-experience/settings_icon_small.png), vous pouvez accéder aux guides de configuration assistée qui vous permettent de configurer certains scénarios et d’ajouter des fonctionnalités à [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations sur l’accès à toutes les pages de paramétrage aidées et manuelles, voir [Préparation aux activités commerciales](ui-get-ready-business.md).
+Dans le menu ![Icône de pignon pour ouvrir le menu Paramètres](media/ui-experience/settings_icon_small.png), vous pouvez accéder aux guides de configuration assistée qui vous permettent de configurer certains scénarios et d’ajouter des fonctionnalités à [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations sur l’accès à toutes les pages de paramétrage aidées et manuelles, voir [Préparation aux activités commerciales](ui-get-ready-business.md).  
+
+> [!NOTE]
+> [!INCLUDE [ua-checklist](includes/ua-checklist.md)]
 
 Certaines fonctionnalités (générales ou pour des processus d’entreprise spécifiques), peuvent être créées manuellement en plus du guide de configuration assistée. Voici une partie des fonctionnalités qui vous pouvez paramétrer manuellement.
 
@@ -73,7 +76,7 @@ Certaines zones nécessitent que vous soyez un administrateur dans votre abonnem
 [Gestion d’entrepôt](warehouse-manage-warehouse.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Création de sociétés dans [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md)  
-[Mise en route](product-get-started.md)  
+[Préparation aux activités commerciales](ui-get-ready-business.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

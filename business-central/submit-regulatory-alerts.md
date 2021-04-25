@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: soalex
-ms.openlocfilehash: f2659bcebc046153948ca2a90f97d8437e86a610
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f75e75cbc220e673fe0e841f8a1f1f04b247bb88
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380371"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784855"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Envoyer des alertes sur les fonctionnalités de réglementaires spécifiques au pays/à la région
 
@@ -52,7 +52,7 @@ Nous vous invitons à utiliser Microsoft Dynamics Lifecycle Services (LCS) pour 
         |Désignation  | Saisissez un bref aperçu de la loi. Votre description doit se concentrer sur les questions qui sont pertinentes aux activités ERP (Enterprise Resource Planning), afin que les utilisateurs puissent comprendre les obligations à un niveau élevé sans consulter la législation en premier.|
         |Pays  | Spécifiez le pays ou la région auxquels la législation s’applique.|
         |Secteur d’activité| Spécifiez un secteur d’activité, si le besoin s’applique uniquement à des secteurs spécifiques. Par exemple, choisissez **Secteur public**, **Vte détail**, ou **Production**.|
-        |Référence de la fonctionnalité  | Cela n’est pas appropriée à Dynamics 365 Business Central, mais vous pouvez saisir une référence à la fonctionnalité, si vous la connaissez. La liste des fonctionnalités du pays spécifique peut apparaître sur le [Portail de localisation](https://docs.microsoft.com/dynamics/s-e/) du site CustomerSource. |
+        |Référence de la fonctionnalité  | Cela n’est pas appropriée à Dynamics 365 Business Central, mais vous pouvez saisir une référence à la fonctionnalité, si vous la connaissez. La liste des fonctionnalités du pays spécifique peut apparaître sur le [Portail de localisation](/dynamics/s-e/) du site CustomerSource. |
         |Date de la mise en application légale  | Spécifiez la date à laquelle les clients concernés doivent commencer à respecter à la loi.|
         |Date d’annonce du gouvernement  | Spécifiez la date à laquelle l’administration fiscale a informé la modification.|
         |Dernière date d’archivage  | Sélectionnez la limite de la première soumission de l’état, nouveau ou modifié.|
@@ -76,7 +76,7 @@ Nous vous invitons à utiliser Microsoft Dynamics Lifecycle Services (LCS) pour 
 
 [Fonctionnalités locales dans [!INCLUDE[prod_long](includes/prod_long.md)]](about-localization.md)  
 [Modification de la langue et des paramètres régionaux](about-locale-language.md)  
-[Mise en route](product-get-started.md)  
+[Préparation aux activités commerciales](ui-get-ready-business.md)  
 [Bienvenue dans Business Central](index.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
-ms.date: 10/08/2020
+ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 34d8ae185ba705e42c700a0c2089dea77351cee6
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 868915ebe6a41153d59550f74a955a3ce00b4b15
+ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379188"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5882145"
 ---
 # <a name="install-the-prod_short-app-for-microsoft-teams"></a>Installer l’application [!INCLUDE [prod_short](includes/prod_short.md)] pour Microsoft Teams
 
@@ -24,6 +24,10 @@ ms.locfileid: "5379188"
 Dans cet article, vous apprendrez à installer l’appplication [!INCLUDE [prod_short](includes/prod_short.md)] pour [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams). L’application est disponible sur le marché Teams et vous pouvez l’utiliser avec l’application web, de bureau ou mobile Teams.
 
 ## <a name="prerequisites"></a>Conditions préalables
+
+- Un compte d'utilisateur [!INCLUDE [prod_short](includes/prod_short.md)] Online est requis pour l'application [!INCLUDE [prod_short](includes/prod_short.md)] pour Teams.
+
+    Si vous n’êtes pas certain de disposer d’un compte ou si vous ne connaissez pas vos informations d’identification pour vous connecter, contactez l’administrateur de votre société pour vous aider à commencer.
 
 - Accédez à l’application de bureau Teams ou à Teams dans le navigateur. Vous ne pouvez pas installer le [!INCLUDE [prod_short](includes/prod_short.md)] en utilisant l’application mobile Teams.
 
@@ -43,7 +47,7 @@ Cette option est le moyen le plus rapide d’installer l’application.
 
     ![Installer l’application Business Central dans Teams](media/teams-install-app.png)
 
-3. Sélectionnez **Ajouter pour moi**.
+3. Sélectionnez **Ajouter**.
 
 **Option 2**
 
@@ -51,7 +55,10 @@ Cette option est le moyen le plus rapide d’installer l’application.
 2. Dans la partie gauche, sélectionnez **Applications**.
 3. Recherchez **Business Central**.
 4. Sélectionnez l’application lorsque vous la trouvez.
-5. Sélectionnez **Ajouter pour moi**.
+5. Sélectionnez **Ajouter**.
+
+> [!NOTE]
+> Avec l'une ou l'autre option, vous pouvez être invité à vous connecter à [!INCLUDE [prod_short](includes/prod_short.md)]. Sélectionnez le lien **connexion** et suivez les instructions pour saisir le nom de connexion et le mot de passe pour [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## <a name="next-step"></a>Étape suivante
 

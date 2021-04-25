@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4319e9b8880cde53d658b52015cc8c993cb6a583
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: b0abd3da4abd0b91b7541fb545606c569f98b987
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5391789"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5787867"
 ---
 # <a name="post-scrap-manually"></a>Valider le rebut manuellement
 Si le traitement produit un rebut, vous pouvez entrer ce rebut dans la feuille production. 

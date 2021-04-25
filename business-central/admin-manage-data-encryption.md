@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4452d59814cdd558bd4fdff9e8589f92d0fc4d8e
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 2be2d73c21ec0c2701bf9e9d63b1213ae9370975
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378113"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786847"
 ---
 # <a name="managing-data-encryption"></a>Gestion du chiffrement des données
 Vous pouvez chiffrer des données sur le serveur [!INCLUDE[prod_short](includes/prod_short.md)] en générant de nouvelles clés de chiffrement ou en important des clés existantes que vous activez sur l’instance du serveur [!INCLUDE[prod_short](includes/prod_short.md)] qui est connectée à la base de données.

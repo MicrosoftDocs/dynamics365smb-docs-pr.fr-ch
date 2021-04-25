@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: remove, delete
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a34e79b1cc77844ce712a6a6df294b2f3218f363
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 6330aeb05bf2f0ba84585c0cd8391b7cf3338de4
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378763"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786872"
 ---
 # <a name="unsubscribe-or-remove-prod_short"></a>Annuler un abonnement ou supprimer [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -41,7 +41,7 @@ Les comptes utilisateur et les licences sont gérés dans le [centre d’adminis
 Si vous souhaitez masquer [!INCLUDE[prod_short](includes/prod_short.md)] de votre lanceur d’applications, vous pouvez simplement le désactiver. Cela ne supprime pas les données, et n’annule pas votre abonnement.  
 
 ## <a name="see-also"></a>Voir aussi
-[Mise en route](product-get-started.md)  
+[Préparation aux activités commerciales](ui-get-ready-business.md)  
 [Création de sociétés](about-new-company.md)  
 [Exportation de vos données métier vers Excel](about-export-data.md)  
 [Centre d’administration Microsoft 365](https://admin.microsoft.com/)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 08b7f6c092267b965af491cd80144950db138c3d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 1049043da0fd4cd5db2dc76f41a3c3df0402bbfc
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5388714"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786822"
 ---
 # <a name="reconcile-bank-accounts"></a>Rapprochement des comptes bancaires
 
@@ -40,11 +40,11 @@ Lorsque la valeur du champ **Solde final** du volet **Lignes relevé bancaire** 
 
 Toutes les lignes qui ne peuvent pas être mises en correspondance, indiquées par une valeur dans le champ **Différence**, resteront sur la page **Rapprochement bancaire** après validation. Elles représentent une certaine forme de différence que vous devez résoudre avant de pouvoir effectuer le rapprochement des comptes bancaires. Situations commerciales typiques pouvant entraîner des différences :
 
-|Différence|Motif|Résolution|
-|-|-|
-|Une transaction dans le compte bancaire interne ne figure pas sur le relevé bancaire.|La transaction bancaire n’a pas eu lieu alors qu’une validation a été effectuée dans [!INCLUDE[prod_short](includes/prod_short.md)].|Effectuez la transaction d’argent qui n’a pas eu lieu (ou demandez à un débiteur de la faire), puis réimportez le fichier de relevé bancaire ou saisissez la transaction manuellement.|
-|Une transaction sur le relevé bancaire n’existe pas en tant que ligne feuille ou document dans [!INCLUDE[prod_short](includes/prod_short.md)].|Une transaction bancaire a été effectuée sans validation correspondante dans [!INCLUDE[prod_short](includes/prod_short.md)], par exemple la validation d’une ligne feuille pour une dépense.|Créez et validez l’écriture manquante. Pour plus d’informations sur un moyen rapide de lancer cette opération, voir [Pour créer des écritures comptables manquantes avec lesquelles faire correspondre des transactions bancaires](bank-how-reconcile-bank-accounts-separately.md#to-create-missing-ledger-entries-to-match-bank-statement-lines-with).|
-|Une transaction dans le compte bancaire interne correspond à une transaction bancaire, mais certaines informations sont trop différentes pour établir une correspondance.|Des informations, telles que le montant ou le nom du client, ont été saisies différemment concernant la transaction bancaire ou la validation interne.|Vérifiez les informations, puis faites les correspondre manuellement. Corrigez éventuellement la non-concordance des informations.||
+| Différence | Motif | Résolution |
+|------------|--------|------------|
+| Une transaction dans le compte bancaire interne ne figure pas sur le relevé bancaire. | La transaction bancaire n’a pas eu lieu alors qu’une validation a été effectuée dans [!INCLUDE[prod_short](includes/prod_short.md)]. | Effectuez la transaction d’argent qui n’a pas eu lieu (ou demandez à un débiteur de la faire), puis réimportez le fichier de relevé bancaire ou saisissez la transaction manuellement. |
+| Une transaction sur le relevé bancaire n’existe pas en tant que ligne feuille ou document dans [!INCLUDE[prod_short](includes/prod_short.md)]. | Une transaction bancaire a été effectuée sans validation correspondante dans [!INCLUDE[prod_short](includes/prod_short.md)], par exemple la validation d’une ligne feuille pour une dépense. | Créez et validez l’écriture manquante. Pour plus d’informations sur un moyen rapide de lancer cette opération, voir [Pour créer des écritures comptables manquantes avec lesquelles faire correspondre des transactions bancaires](bank-how-reconcile-bank-accounts-separately.md#to-create-missing-ledger-entries-to-match-bank-statement-lines-with). |
+| Une transaction dans le compte bancaire interne correspond à une transaction bancaire, mais certaines informations sont trop différentes pour établir une correspondance. | Des informations, telles que le montant ou le nom du client, ont été saisies différemment concernant la transaction bancaire ou la validation interne. | Vérifiez les informations, puis faites les correspondre manuellement. Corrigez éventuellement la non-concordance des informations. |
 
 Vous devez résoudre les différences, par exemple en créant des écritures manquantes et en corrigeant les informations qui ne correspondent pas, ou en effectuant les transactions d’argent qui n’ont pas eu lieu, jusqu’à ce que le rapprochement du compte bancaire soit terminé et validé.
 
@@ -57,7 +57,10 @@ Vous pouvez renseigner le volet **Lignes relevé bancaire** de la page **Rapproc
 
 Le volet **Lignes relevé bancaire** sera renseigné avec des transactions bancaires en fonction d’un flux ou d’un fichier importé fourni par la banque.
 
-Pour activer l’importation des relevés bancaires en tant que flux bancaires, vous devez d’abord configurer et activer le service Envestnet Yodlee Bank Feeds, puis associer vos comptes bancaires aux comptes bancaires connexes en ligne. Pour plus d’informations, voir [Configurer le service Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
+Pour activer l’importation des relevés bancaires en tant que flux bancaires, vous devez d’abord configurer et activer le service Envestnet Yodlee Bank Feeds, puis associer vos comptes bancaires aux comptes bancaires connexes en ligne. Pour plus d’informations, voir [Configurer le service Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).  
+
+> [!TIP]
+> Vous pouvez également importer des fichiers de relevés bancaires au format délimité par des virgules ou des points-virgules (.CSV). Utilisez la configuration assistée **Configurer un format de fichier de relevé bancaire** pour définir les formats d'importation des relevés bancaires et attacher le format à un compte bancaire. Vous pouvez ensuite utiliser ces formats lorsque vous importez des relevés bancaires dans la page **Rapprochement des comptes bancaires**.
 
 1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Rapprochement bancaire**, puis sélectionnez le lien associé.
 2. Sélectionnez l’action **Nouveau**.

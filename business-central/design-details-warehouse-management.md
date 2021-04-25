@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 36e8d8dadc52ab10492fb5ab1cbfe158b069cd9b
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 87b3717a8f45444bc43da445d359ed6d79b40372
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381482"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786452"
 ---
 # <a name="design-details-warehouse-management"></a>Détails de conception : gestion d’entrepôt
 Cette documentation donne un aperçu des concepts et principes et qui sont utilisés dans les fonctionnalités de Warehouse Management dans [!INCLUDE[prod_short](includes/prod_short.md)]. Elle explique la conception derrière les fonctions entrepôt centrales et la manière dont l’entreposage s’intègre à d’autres fonctionnalités de chaîne d’approvisionnement.  

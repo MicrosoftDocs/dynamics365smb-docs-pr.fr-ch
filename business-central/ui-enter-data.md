@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6ad3faedc77b1293fa9e42d65e59db4c2d00b529
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: d27633b6ae86c62a6ba95de51fe359094825e64d
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393314"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784830"
 ---
 # <a name="entering-data"></a>Saisie de données
 
@@ -242,34 +242,9 @@ Le tableau suivant répertorie les différents formats de saisie possibles pour 
 
  Saisissez deux chiffres par unité temporelle si vous n’utilisez pas de séparateur.  
 
-## <a name="entering-datetimes"></a>Saisie des dates/heures
+## <a name="entering-combined-datetimes"></a>Saisie de dates et d’heures combinées
 
-Lors de la saisie des dates/heures, vous devez saisir un espace entre la date et l’heure.  
-
-Le tableau suivant répertorie les différents formats de saisie possibles pour les dates/heures, ainsi que leur interprétation.  
-
-|Écriture|Interprétation|  
-|---------------|------------------------|  
-|`131202` 132455|13/12/02 13:24:55|  
-|1-12-02 10|01/12/02 10:00:00|  
-|1.12.02 5|01/12/02 05:00:00|  
-|1.12.02|01/12/02 00:00:00|  
-|11 12|11/mois en cours/année en cours 12:00:00|  
-|1112 12|11/12/année en cours 12:00:00|  
-|a ou date du jour|date du jour 00:00:00|  
-|heure h|date du jour heure réelle|  
-|a 10:30|date du jour 10:30:00|  
-|a 3:3:3|date du jour 03:03:03|  
-|t ou date de travail|date de travail 00:00:00|  
-|lu ou lundi|Lundi de la semaine en cours 00:00:00|  
-|ma ou mardi|Mardi de la semaine en cours 00:00:00|  
-|me ou mercredi|Mercredi de la semaine en cours 00:00:00|  
-|je ou jeudi|Jeudi de la semaine en cours 00:00:00|  
-|ve ou vendredi|Vendredi de la semaine en cours 00:00:00|  
-|sa ou samedi|Samedi de la semaine en cours 00:00:00|  
-|di ou dimanche|Dimanche de la semaine en cours 00:00:00|  
-|ma 10:30|Mardi de la semaine en cours 10:30:00|  
-|ma 3:3:3|Mardi de la semaine en cours 03:03:03|  
+[!INCLUDE [datetimes](includes/datetimes.md)]
 
 ## <a name="entering-duration"></a>Saisie des durées
 

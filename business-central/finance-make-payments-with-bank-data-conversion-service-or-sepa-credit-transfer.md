@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/13/2021
 ms.author: bholtorf
-ms.openlocfilehash: 210dbfd3450d4cc703f73fc2cd078b0155c599da
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: d48172569ba8e93410dfb20a22eed785574f3989
+ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5391864"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889246"
 ---
 # <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer"></a>Effectuer des paiements avec l’extension AMC Banking 365 Fundamentals ou virement SEPA
 
@@ -46,6 +46,9 @@ Avant de pouvoir traiter le paiement par voie électronique lorsque vous exporte
 * Configurer la feuille comptabilité associée pour activer l’export de paiement à partir de la page **Feuille paiement**  
 * Lier la définition d’échange de données pour un ou plusieurs types de règlement au(x) mode(s) de règlement approprié(s)  
 
+> [!TIP]
+> Cet article s'applique à la version générique de [!INCLUDE [prod_short](includes/prod_short.md)]. Dans votre pays ou région, des champs obligatoires supplémentaires peuvent avoir été ajoutés aux différentes pages. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
+
 ### <a name="to-set-up-a-bank-account-for-sepa-credit-transfer"></a>Pour configurer un compte bancaire pour SEPA Credit Transfer
 
 1. Dans la zone **Rechercher**, saisissez **Comptes bancaires**, puis sélectionnez le lien associé.  
@@ -64,15 +67,14 @@ Avant de pouvoir traiter le paiement par voie électronique lorsque vous exporte
 3. Sur le raccourci **Paiement**, dans le champ **Code mode de règlement**, sélectionnez **BANQUE**.  
 4. Dans le champ **Compte bancaire préféré**, cliquez sur la banque sur laquelle l’argent est transféré lorsqu’il est traité par votre banque électronique.  
 
-     La valeur du champ **Compte bancaire préféré** est copiée dans le champ **Cpte bancaire destinataire** de la page **Feuille paiement**.  
+     Si vous n'avez pas encore créé de banque pour ce fournisseur, vous pouvez le faire maintenant. Pour plus d'informations, consultez [Configurer les comptes bancaires des fournisseurs pour l'exportation des fichiers bancaires](bank-how-setup-bank-accounts.md#to-set-up-vendor-bank-accounts-for-export-of-bank-files). La valeur du champ **Compte bancaire préféré** est copiée dans le champ **Cpte bancaire destinataire** de la page **Feuille paiement**.  
 
 ### <a name="to-set-the-payment-journal-up-to-export-payment-files"></a>Pour définir la feuille de paiement jusqu’aux fichiers de paiement d’exportation
 
 1. Dans la zone **Rechercher**, entrez **Feuilles paiement**, puis choisissez le lien associé.  
-2. Ouvrez la feuille paiement que vous utilisez pour traiter les paiements en exportant les fichiers au format de virement SEPA.  
-3. Dans le champ **Nom de la feuille**, choisissez le bouton déroulant.  
-4. Dans la page **Noms feuilles comptabilité**, sélectionnez l’action **Modifier la liste**.  
-5. Sur la ligne de la feuille paiement que vous allez utiliser pour exporter des paiements, activez la case à cocher **Autoriser exportation paiement**.  
+2. Dans le champ **Nom de la feuille**, choisissez le bouton déroulant.  
+3. Dans la page **Noms feuilles comptabilité**, sélectionnez l’action **Modifier la liste**.  
+4. Sur la ligne de la feuille paiement que vous allez utiliser pour exporter des paiements, activez la case à cocher **Autoriser exportation paiement**.  
 
 ### <a name="to-connect-the-data-exchange-definition-for-one-or-more-payment-types-with-the-relevant-payment-method-or-methods"></a>Pour lier la définition d’échange de données pour un ou plusieurs types de règlement au(x) mode(s) de règlement approprié(s)
 

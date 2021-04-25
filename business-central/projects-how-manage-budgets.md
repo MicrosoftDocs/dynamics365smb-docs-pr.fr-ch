@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project budget, forecast
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4c06949c36d402aec46e611960d4b98573ae9412
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 3b9b3e10dc3918999b31c9feec4af68471604700
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5376502"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784407"
 ---
 # <a name="manage-job-budgets"></a>Gérer les budgets de projets
 Vous pouvez configurer un budget pour chaque projet. Le budget permet de planifier les ressources que vous affectez à un projet. Il peut s’agir d’un budget général avec peu d’écritures ou plus détaillé avec des écritures réparties par niveau d’activité. Vous pouvez alors comparer les montants budgétés avec l’activité réelle telle qu’elle a été enregistrée dans la feuille projet. En surveillant les différences entre l’activité réelle et celle budgétée, vous pouvez contrôler un projet en cours et améliorer la qualité des projets futurs en réduisant le risque de sous-estimation des coûts.

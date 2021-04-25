@@ -1,6 +1,6 @@
 ---
-title: Procédure de traçabilité des articles suivis | Microsoft Docs
-description: Vous pouvez voir où un article suivi a été utilisé, y compris le mode et le moment de réception ou de production, de transfert, de vente, de consommation ou de retour. Vous pouvez également rechercher toutes les instances d’informations d’un numéro de série ou de lot particulier dans la base de données. Vous procédez à l’aide des fonctionnalités Traçabilité et Naviguer.
+title: Tracer des articles - Articles suivis
+description: Vous pouvez voir où un article suivi a été utilisé, y compris le mode et le moment de réception ou de production, de transfert, de vente, de consommation ou de retour. Vous pouvez également rechercher toutes les instances d’informations d’un numéro de série ou de lot particulier dans la base de données. Vous procédez à l’aide des fonctionnalités Traçabilité et Rechercher des écritures.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 50de593aa3ff2416461aa4468f8c063c22f7b085
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: a425b974bf37b440de27f2b469694f9e8eac07de
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377688"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5785723"
 ---
 # <a name="trace-item-tracked-items"></a>Tracer des articles - Articles suivis
 Vous pouvez voir où un article suivi a été utilisé, y compris le mode et le moment de réception ou de production, de transfert, de vente, de consommation ou de retour. Vous pouvez également rechercher toutes les instances d’informations d’un numéro de série ou de lot particulier dans la base de données. Vous procédez à l’aide des fonctionnalités Traçabilité et [Rechercher des écritures](ui-find-entries.md).  
@@ -64,12 +64,14 @@ Ces fonctions sont particulièrement utiles pour le contrôle qualité, lorsque 
 3. Dans les champs **N° de série** et **N° lot**, entrez les numéros traçabilité que vous voulez suivre.  
 4. Sélectionnez l’action **Rechercher** pour rechercher toutes les instances du numéro de série ou de lot dans la base de données.  
 
-## <a name="see-also"></a>Voir aussi  
-[STOCKS ET EN-COURS](inventory-manage-inventory.md)  
-[Détails de conception : traçabilité](design-details-item-tracking.md)
+## <a name="see-also"></a>Voir aussi
+
+[Stock](inventory-manage-inventory.md)  
+[Utiliser les numéros lot, de série et paquet](inventory-how-work-item-tracking.md)  
+[Détails de conception : traçabilité](design-details-item-tracking.md)  
 [Détails de conception : traçabilité et réservations](design-details-item-tracking-and-reservations.md)  
 [Réserver des articles](inventory-how-to-reserve-items.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Procédure pas à pas : suivi des numéros de série et des numéros de lot](walkthrough-tracing-serial-lot-numbers.md)  
 [Rechercher des écritures](ui-find-entries.md)  
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1c748bd115b17acf925a99f89f538cc9eca41bc3
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: bbb22a00e878e8c4d75cb5fcdbcc27a28d9d22a4
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384414"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784006"
 ---
 # <a name="restrict-and-allow-usage-of-a-record"></a>Restreindre et autoriser l’utilisation d’un enregistrement
 Si vous souhaitez restreindre l’utilisation d’un enregistrement à certaines activités, par exemple, jusqu’à ce qu’il ait été approuvé, vous pouvez incorporer deux réponses de flux de travail dans un flux de travail qui contrôle l’utilisation de l’enregistrement. Une réponse de flux de travail limitera l’utilisation de l’enregistrement telle que définie par l’événement et les conditions du flux de travail. Une autre réponse de flux de travail autorisera l’utilisation de l’enregistrement telle que définie par l’événement et les conditions du flux de travail. Deux réponses existent dans la version générique de [!INCLUDE[prod_short](includes/prod_short.md)] à cet effet : **Restreindre l’utilisation d’un enregistrement** et **Autoriser l’utilisation d’un enregistrement**.

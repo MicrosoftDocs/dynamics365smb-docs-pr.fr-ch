@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: phone, tablet
-ms.date: 10/15/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cd6b60a284b060fd44339d6f9e10ac7acbb5d159
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: a751254ae127e3bcde2a5313ca6d5bcfe3ec1117
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5387239"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786238"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Obtention de Business Central sur votre périphérique mobile
 
-Accédez à vos données [!INCLUDE[prod_short](includes/prod_short.md)] à partir de votre périphérique mobile. Vous pouvez naviguer dans vos données commerciales, utiliser des fonctionnalités telles que l'envoi vers Excel ou Office 365, l'affichage de graphiques et d'indicateurs de performance clé à jour, l'envoi par e-mail de devis et de factures. Vous pouvez également prendre des photos et les ajouter en pièces jointes grâce à votre appareil photo. Suivez la procédure ci-dessous pour télécharger l’application et démarrer.
+Accédez à vos données [!INCLUDE[prod_short](includes/prod_short.md)] à partir de votre périphérique mobile. Vous pouvez naviguer dans vos données commerciales, utiliser des fonctionnalités telles que l’envoie vers Excel ou Microsoft 365, l’affichage de graphiques et d’indicateurs de performance clé à jour, l’envoi par e-mail de devis et de factures. Vous pouvez également prendre des photos et les ajouter en pièces jointes grâce à votre appareil photo. Suivez la procédure ci-dessous pour télécharger l’application et démarrer.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4Arje?rel=0]
 
@@ -64,7 +64,7 @@ Si vous utilisez [!INCLUDE[prod_short](includes/prod_short.md)] sur site, vous p
 ## <a name="see-also"></a>Voir aussi
 
 [FAQ relative aux applications mobiles](ui-mobile-faq.md)  
-[Mise en route](product-get-started.md)  
+[Préparation aux activités commerciales](ui-get-ready-business.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

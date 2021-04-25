@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms.search.keywords: workflow, OData, Power App, SOAP
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1608330b5d2b2955a144498e5c44d40072b22a8b
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: d179275dd5bd225ace1555bb312b81a9553db0c3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384214"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781351"
 ---
 # <a name="using-prod_short-in-an-automated-workflow"></a>Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)] dans un flux automatisé
 
@@ -80,7 +80,7 @@ Pour plus d’informations, voir la [documentation Power Automate](/power-automa
 
 ## <a name="see-also"></a>Voir aussi
 
-[Mise en route](product-get-started.md)  
+[Préparation aux activités commerciales](ui-get-ready-business.md)  
 [Flux de travail](across-workflow.md)  
 [Importation des données métier à partir d’autres systèmes financiers](across-import-data-configuration-packages.md)  
 [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5e85c6200f9fafa800e2e44978a5efb10ececefb
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 7f93d54984106cb0fce2d886f6826ba22b1d8185
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5376702"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5787492"
 ---
 # <a name="bookmark-a-page-or-report-on-your-role-center"></a>Ajouter un signet vers une page ou un état sur votre tableau de bord
 À l’aide de la nouvelle icône de signet, vous pouvez ajouter une action qui ouvre une page ou un état à partir du menu de navigation de votre tableau de bord. Cela vous permet d’accéder rapidement à votre contenu préféré ou à vos tâches professionnelles. Vous devez ajouter le signet à partir de la page ou de l’état cible, c’est-à-dire la page sur laquelle vous souhaitez que le lien du tableau de bord s’ouvre.
@@ -60,7 +60,7 @@ La possibilité d’ajouter un signet à une page ou à un état est l’une des
 - **Pourquoi ne puis-je pas ajouter un signet à certaines pages ou à certains états ?**  
 Toutes les pages et tous les états ne peuvent pas être mis en signet. Lorsqu’une page ou un état est exécuté dans un contexte spécial régi par l’application métier, l’icône de signet ne s’affiche pas. Par exemple, les pages qui sont introuvables dans la fenêtre **Rechercher**, mais qui sont lancées depuis un autre emplacement, n’afficheront pas d’icône de signet. De même, les pages de demande d’état utilisées uniquement pour collecter des filtres sans exécuter l’état n’afficheront pas d’icône de signet.
 
-Voir les détails techniques sur [RunRequestPage](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/report/reportinstance-runrequestpage-method) et [FilterPageBuilder](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/filterpagebuilder/filterpagebuilder-data-type).
+Voir les détails techniques sur [RunRequestPage](/dynamics365/business-central/dev-itpro/developer/methods-auto/report/reportinstance-runrequestpage-method) et [FilterPageBuilder](/dynamics365/business-central/dev-itpro/developer/methods-auto/filterpagebuilder/filterpagebuilder-data-type).
 
 - **Lors de la suppression de ma personnalisation, mes signets seront-ils également supprimés ?**  
 Oui. Les signets résident dans le menu de navigation. Si vous effacez les modifications apportées au menu de navigation à partir de n’importe quelle page, ou si vous supprimez toute personnalisation dans le tableau de bord, toutes vos nouvelles actions seront définitivement supprimées.

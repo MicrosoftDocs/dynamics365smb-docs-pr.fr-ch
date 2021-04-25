@@ -1,6 +1,6 @@
 ---
-title: Cloud intelligent Base | Microsoft Docs
-description: Utilisez l'extension Base du Cloud intelligent pour connecter votre solution sur site à Business Central en ligne.
+title: Extensions de base de migration vers le cloud
+description: Utilisez l'extension Base de migration vers le Cloud pour connecter votre solution sur site à Business Central Online.
 author: edupont04
 manager: edupont
 ms.service: dynamics365-business-central
@@ -9,24 +9,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 12/04/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c3bf4f306911ff3ca0533a36cdc2555c3ab8b289
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 7b6c312192f2c20ce54c20241d2cc77e3ca1fda5
+ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393639"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889195"
 ---
-# <a name="intelligent-cloud-base-extension"></a>Extension Base du Cloud intelligent
+# <a name="cloud-migration-base-extension"></a>Extensions de base de migration vers le cloud
 
-Cette extension vous guidera tout au long du processus de configuration d’une connexion entre votre solution sur site et votre environnement [!INCLUDE [prod_short](includes/prod_short.md)] en ligne, soit parce que vous migrez vers le cloud, soit parce que vous vous connectez au Cloud intelligent à partir de votre solution sur site.  
+Cette extension vous guidera tout au long du processus de configuration d'une connexion entre votre solution sur site et votre environnement [!INCLUDE [prod_short](includes/prod_short.md)] Online lorsque vous démarrez la migration vers le cloud.  
 
-Une fois la connexion configurée, vous pouvez migrer les données ou gérer les réplications de données de votre solution sur site vers votre locataire de cloud [!INCLUDE[prod_short](includes/prod_short.md)]. Cette extension doit s'exécuter en combinaison avec une extension de réplication de données disponible pour votre solution sur site spécifique. Pour plus d’informations, consultez [Exécuter l’outil de migration vers le cloud](/dynamics365/business-central/dev-itpro/administration/migration-tool).  
+Une fois la connexion configurée, vous pouvez migrer les données de votre solution sur site vers [!INCLUDE[prod_short](includes/prod_short.md)] Online. Cette extension doit s'exécuter en combinaison avec une extension de réplication de données disponible pour votre solution sur site spécifique. Pour plus d’informations, consultez [Exécuter l’outil de migration vers le cloud](/dynamics365/business-central/dev-itpro/administration/migration-tool).  
 
 ## <a name="see-also"></a>Voir aussi
 
-[Informations intelligentes](about-intelligent-cloud.md)  
 [Exécution de l’outil de migration vers le cloud](/dynamics365/business-central/dev-itpro/administration/migration-tool)  
 [Extensions Cloud intelligent pour la migration vers le cloud](ui-extensions-data-replication.md)  
 

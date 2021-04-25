@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, relationship, prospect, contact, client, customer
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: ae6eb6eb9672c3c7a5fff4b0341dcf72526a18a7
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: dba492551546c18cbda1b3bbb7dfd4b70c4052a6
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5392914"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5785563"
 ---
 # <a name="recording-interactions-with-contacts-automatically"></a>Enregistrement automatique des interactions avec les contacts
 Vous pouvez configurer l’application de sorte à enregistrer automatiquement les interactions pour les documents vente, achat et service, les bordereaux d’envoi, les emails, les appels téléphoniques, et notamment :

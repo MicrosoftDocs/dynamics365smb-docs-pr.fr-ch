@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5d17cc4e9b27e5f2a20fd9543aec3e9f8bbe32a0
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 231985097fbca402d2bce14fed66f1a8736975c4
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5392514"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5783301"
 ---
 # <a name="posting-purchases"></a>Validation des achats
 Sur un document achat, vous pouvez faire votre choix parmi les actions de validation suivantes :

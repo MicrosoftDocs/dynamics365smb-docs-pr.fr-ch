@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoming document
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 0ebed6a95212fdcf00b54af823684ae139e29638
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 471a5151314645f21f163a8f9044b168ac5a8bb3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5388489"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786338"
 ---
 # <a name="allocate-costs-to-intercompany-partners"></a>Allouer les coûts aux partenaires intersociétés
 Lorsque vous utilisez des écritures intersociétés pour transférer des documents entre sociétés partenaires, les paramètres liés à la TVA (principalement le groupe de comptabilisation TVA) affectés aux comptes client ou fournisseur (associés au partenaire intersociétés) contrôlent si et comment la TVA est calculée et enregistrée. Vous pouvez également effectuer des répartitions de coûts directement à partir d’une commande d’achat vers des sociétés partenaires. Par exemple, si vous enregistrez une facture achat d’un fournisseur externe et si vous souhaitez répartir tout ou partie des coûts à un ou plusieurs partenaires intersociétés.

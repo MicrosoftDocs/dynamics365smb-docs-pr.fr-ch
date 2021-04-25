@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d718553661c7fcfa44c010b7b9dbc4d0d2716d14
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 00fab887fa5680560ddcf4d612889be91c842fcf
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385814"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784680"
 ---
 # <a name="import-and-export-custom-report-layouts"></a>Importer et exporter des présentations de rapport personnalisées
 Vous pouvez importer et exporter une présentation de rapport personnalisée existante sous forme de fichier depuis ou vers un emplacement sur votre ordinateur et le réseau. Par exemple, vous pouvez exporter une présentation de rapport, puis envoyer le fichier à une autre personne pour modification. Cette personne peut ensuite apporter des modifications à la présentation et vous renvoyer le fichier pour que vous puissiez le réimporter.  

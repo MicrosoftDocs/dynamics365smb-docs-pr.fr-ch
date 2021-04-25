@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, budget
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 374f2f1f60c1d35ef0daf386ac046a3e30d3e10e
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f55bad5c26e1f1fbb336090ff862e0e931ff9c39
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377002"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784755"
 ---
 # <a name="the-sales-and-inventory-forecast-extension"></a>Extension Stock prévu et ventes prévues
 La gestion des stocks est un compromis entre le service client et la gestion de vos coûts. D’une part, un stock faible exige un capital travail inférieur, mais d’autre part, les ruptures de stock mènent potentiellement à des ventes non concrétisées. L’extension Stock prévu et ventes prévues prévoit les ventes potentielles à l’aide des données historiques et donne une présentation claire des ruptures de stock prévues. Selon la prévision, l’extension aide à créer des demandes de réapprovisionnement auprès de vos fournisseurs et vous fait gagner du temps.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 60c264bec6719acac574f60980a7a3fdb903b775
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 3b73c2cde88292a38c43e9fcc3bd63b031cd6591
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377488"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5787842"
 ---
 # <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Enregistrer la consommation et la production pour une ligne ordre de fabrication lancé
 Cette tâche d’exécution est réalisée sur la page **Feuille production** . La feuille combine en une seule feuille les fonctions des feuilles distinctes consommation et production. Vous accédez directement à la feuille combinée depuis un ordre de fabrication lancé. Son objectif principal est de valider manuellement la consommation de composants, la quantité d’articles finis produits et le temps passé dans les opérations. Les valeurs sont validées en comptabilité sous l’ordre de fabrication lancé. Les quantités consommées sont validées comme écritures comptables article négatives, les quantités produites sont validées comme écritures comptables article positives et les heures sont validées comme écritures comptables capacité. Ces valeurs validées peuvent également être visualisées au bas de la feuille sous forme de quantités réelles.  
@@ -37,15 +37,15 @@ Cette tâche d’exécution est réalisée sur la page **Feuille production** . 
     > [!NOTE]  
     >  Si vous entrez la date comptabilisation sur une ligne, celle-ci est prioritaire par rapport à la date entrée dans le champ.  
 
-4.  Dans le champ **Filtre méthode consommation** situé en haut de la feuille, vous pouvez choisir d’afficher également la consommation et la production validées automatiquement à l’aide des méthodes de consommation définies respectivement pour l’article et pour la ressource.  
+4.  Dans le champ **Filtre méthode consommation** situé en haut de la feuille, vous pouvez choisir d’afficher également la consommation et la production validées automatiquement à l’aide des méthodes de consommation définies respectivement pour l’article et pour la ressource. Pour plus d’informations, voir [Activer la consommation en aval des composants en fonction de la production réalisée](production-how-to-flush-components-according-to-operation-output.md).   
 
+5.  Entrez maintenant les quantités de consommation et production appropriées dans les champs modifiables.  
+  
     Sur chaque type de ligne de la feuille, seuls les champs appropriés sont indiquées. Les autres sont vierges et protégés en écriture.  
 
     À l’ouverture de la feuille, celle-ci comporte les quantités à valider. Si aucune donnée n’a été validée jusque-là, tous les champs de quantité affichent par défaut les quantités prévues issues de l’O.F. Si des validations partielles ont eu lieu, les champs de quantité des lignes affichent les quantités restantes. Les quantités et délais déjà validés pour la commande apparaissent au bas de la feuille en tant qu’entrées réelles.  
 
     Vous pouvez définir les quantités devant figurer dans le champ **Quantité produite** lors de la première ouverture de la feuille. Pour ce faire, utilisez le champ **Quantité produite prédéfinie** du raccourci **Général** de la page **Paramètres production**.
-
-5.  Entrez maintenant les quantités de consommation et production appropriées dans les champs modifiables.  
 
     > [!NOTE]  
     >  Seule la quantité produite figurant dans la dernière ligne feuille du type d’écriture **Production** ajuste le niveau de stock durant la validation de la feuille. Par conséquent, ne validez pas la feuille, avec les quantités produites prévues sur la dernière ligne de sortie, que lorsque tous les articles finis auront été réellement produits.  
