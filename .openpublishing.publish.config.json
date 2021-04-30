@@ -4,7 +4,7 @@
       "docset_name": "d365businesscentral",
       "build_source_folder": "business-central",
       "build_output_subfolder": "d365businesscentral",
-      "locale": "de-de",
+      "locale": "fr-CH",
       "monikers": [],
       "moniker_ranges": [],
       "open_to_public_contributors": true,
@@ -35,7 +35,7 @@
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
-      "url": "https://github.com/Microsoft/templates.docs.msft.de-de",
+      "url": "https://github.com/Microsoft/templates.docs.msft.fr-CH",
       "branch": "master",
       "branch_mapping": {}
     },
