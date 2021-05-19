@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: project invoice
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f9290bda4437ea43edcaa19d7759f2fdee24e8c4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 873135d2fa6053b7101a999981fb3117ee8689ab
+ms.sourcegitcommit: 93c8681054b059cec38cb29b86de20be37980676
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775080"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5938161"
 ---
 # <a name="invoice-jobs"></a>Facturation des projets
 Au cours du projet, les coûts provenant de l’utilisation de ressources, de matières, et d’achats associés au projet peuvent s’accumuler. Au fur et à mesure de la progression du projet, ces transactions sont validées dans la feuille projet. Il est important que tous les coûts enregistrés dans la feuille projet avant de facturer le client.
@@ -61,21 +61,6 @@ Vous pouvez créer une facture à partir des lignes planning projet et indiquer 
 > [!NOTE]  
 >   La procédure ci-dessus permet également de créer, de consulter, puis de valider un avoir vente associé à un projet.
 
-## <a name="to-calculate-and-post-job-completion-entries"></a>Pour calculer et valider les écritures d’achèvement du projet
-À la fin des activités d’un projet (validation et facturation comprises), vous devez le mettre à jour pour définir le **Statut** du projet sur **Terminé**. Ensuite, vous devez contrepasser tous les travaux en cours validés antérieurement dans la comptabilité.
-
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Projets**, puis sélectionnez le lien associé.  
-2. Sélectionnez un projet ouvert, puis cliquez sur **Modifier**.
-3. Dans le champ **Statut**, sélectionnez **Terminé**.
-4. Suivez les étapes d’aide pour calculer et valider les travaux en cours. Sinon, suivez les étapes 5 et 6 pour le faire manuellement.  
-5. Cliquez sur **Calculer TEC**.
-6. Sur la page **Projet Calculer TEC**, renseignez les champs comme nécessaire.  
-
-     Les écritures TEC projet créées par le traitement par lots auront la case **Projet terminé** cochée pour indiquer qu’il s’agit d’écritures d’achèvement.  
-7. Cliquez sur **Projet Valider TEC en comptabilité**.
-8. Sur la page **Projet Valider TEC en comptabilité**, renseignez les champs selon vos besoins.  
-
-     Les écritures comptabilité TEC projet créées par le traitement par lots verront la case **Projet terminé** cochée pour indiquer qu’il s’agit d’écritures d’achèvement.
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion des projets](projects-manage-projects.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: a3d42fccebafdfa80346f04b43a0e3dd29f467d8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a27556350851de61bd31504d0c29ef60df6d890a
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770653"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017189"
 ---
 # <a name="sorting-searching-and-filtering"></a>Tri, recherche et filtrage
 
@@ -259,7 +259,7 @@ Il peut y avoir des cas où les valeurs de champ contiennent l’un des symboles
 - =
 - &#124;
 
-Si vous souhaitez filtrer sur l’un de ces symboles, placez l’expression de filtre entre guillemets (’’). Par exemple, si vous souhaitez filtrer les enregistrements commençant par le texte *J & V*, l’expression de filtre serait `'J & V*'`.
+Pour filtrer sur l’un de ces symboles, placez l’expression de filtre entre apostrophes (`'<expression with symbol>'`). Par exemple, si vous souhaitez filtrer les enregistrements commençant par le texte *J & V*, l’expression de filtre serait `'J & V*'`.
 
 Cette exigence n’est pas nécessaire pour les autres symboles.
 
@@ -304,7 +304,7 @@ Utilisez `%myvendors` dans le champ **N°** fournisseur pour afficher tous les e
 
 ## <a name="see-also"></a>Voir aussi
 
-[FAQ sur la recherche et le filtrage](ui-search-filter-faq.md)  
+[FAQ sur la recherche et le filtrage](ui-search-filter-faq.yml)  
 [Enregistrer et personnaliser les vues de liste](ui-views.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

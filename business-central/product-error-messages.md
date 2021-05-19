@@ -6,12 +6,12 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fa01f29859b8076ffd9b7786a619ef932903b8d9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 30ae76f4347a8297a84092573a59835be5569ec4
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779497"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017214"
 ---
 # <a name="warnings-and-error-messages-in-dynamics-365-business-central"></a>Avertissements et messages d’erreur dans Dynamics 365 Business Central
 
@@ -38,7 +38,7 @@ Si vous êtes un administrateur ou un superutilisateur, vous pouvez aider les au
 [Ressources pour l’aide et l’assistance technique](product-help-and-support.md)  
 [Forum Aux Questions](across-faq.md)  
 [FAQ Tell Me](ui-search-faq.md)  
-[FAQ sur la recherche et le filtrage](ui-search-filter-faq.md)  
+[FAQ sur la recherche et le filtrage](ui-search-filter-faq.yml)  
 [FAQ sur l’opération Copier et coller](faq-copy-paste.yml)  
 [Modifier les paramètres de base](ui-change-basic-settings.md)  
 [Préparation aux activités commerciales](ui-get-ready-business.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 9783d5d25c31bd830931cf3f363359880a6e19bf
-ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
+ms.openlocfilehash: a26414ae33b0139257c542966ba9ccd934241a66
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5882194"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017139"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Dépannage de l’intégration de Microsoft Teams avec [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -42,9 +42,9 @@ Après avoir changé d'entreprise sur la page **Paramètres**, vous remarquerez 
 
 Vous pouvez rencontrer cette erreur lorsque vous recherchez dans une entreprise qui n'a pas été initialisée ou qui ne répond pas. Par exemple, vous ne pouvez pas rechercher dans une nouvelle société d'essai qui n'a pas encore accepté les conditions d'utilisation. Pour résoudre ce problème, essayez de vous connecter au client Web [!INCLUDE [prod_short.md](includes/prod_short.md)], et agissez sur ou fermez toutes les boîtes de dialogue initiales qui apparaissent.
 
-## <a name="the-contacts-api-was-not-found-error-when-searching-for-contacts"></a>Erreur "L'API des contacts est introuvable" lors de la recherche de contacts
+## <a name="cannot-find-the-contactcontact-summary-api-error-when-searching-for-contacts"></a>Erreur « Impossible de trouver l′API de contact/résumé des contacts » lors de la recherche de contacts
 
-Ce problème peut être dû à des personnalisations ou à des solutions sectorielles qui affectent, modifient ou ne fournissent pas une API de contact dans [!INCLUDE [prod_short.md](includes/prod_short.md)]. Si le problème persiste, contactez l'administrateur ou partenaire d'assistance.
+Ce problème peut être causé par des personnalisations ou des solutions industrielles qui affectent ou modifient [!INCLUDE [prod_short.md](includes/prod_short.md)], ou qui ne fournissent pas d′API de contact ou de résumé des contacts. Si le problème persiste, contactez l'administrateur ou partenaire d'assistance.
 
 ## <a name="none-of-my-links-expand-into-a-card"></a>Aucun de mes liens ne se transforme en fiche 
 

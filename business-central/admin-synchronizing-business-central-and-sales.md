@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Dataverse, integration, sync, synchronize, mapping
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 9a912596a71e77a09a7491fe20032056d1a9b808
-ms.sourcegitcommit: 8b44a7bcba45ae852cc6dd07b90b9a383c1be488
+ms.openlocfilehash: d568b9b40f2ed8db264db9736cf8e87f4165ea2c
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "5870038"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935101"
 ---
 # <a name="synchronizing-data-in-business-central-with-microsoft-dataverse"></a>Synchronisation des données dans Business Central avec Microsoft Dataverse
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -55,6 +55,8 @@ Le tableau suivant répertorie le mappage standard entre les tables dans [!INCLU
 | Contact | Contact | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] et [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | Filtre contact [!INCLUDE[prod_short](includes/prod_short.md)] : le champ **Type** est défini sur **Personne** et le contact est affecté à une société. Filtre contact [!INCLUDE[prod_short](includes/cds_long_md.md)] : le contact est affecté à une société et le type de client parent est **Compte** |
 | Devise | Devise de transaction | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] |  |
 
+> [!NOTE]
+> Les actions **Dataverse** ne sont pas disponibles sur les pages, par exemple, la page Fiche client, pour les enregistrements qui ne respectent pas le filtre de table sur le mappage de table d′intégration.
 
 ### <a name="tip-for-admins-viewing-table-mappings"></a>Astuce dédiée aux administrateurs : affichage des mappages de table
 Vous pouvez afficher le mappage entre les tables dans [!INCLUDE[prod_short](includes/cds_long_md.md)] et les tables dans [!INCLUDE[prod_short](includes/prod_short.md)] sur la page **Mappages de table d’intégration**, où vous pouvez également appliquer des filtres. Vous définissez le mappage entre les champs des tables [!INCLUDE[prod_short](includes/prod_short.md)] et les colonnes [!INCLUDE[prod_short](includes/cds_long_md.md)] de la page **Mappage de champ d’intégration**, où vous pouvez ajouter une logique de mappage supplémentaire. Par exemple, cela peut être utile si vous devez résoudre un problème de synchronisation.

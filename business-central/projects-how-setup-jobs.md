@@ -1,5 +1,5 @@
 ---
-title: Configurer des tarifs de projets et des groupes de comptabilisation de projet| Microsoft Docs
+title: Configurer des projets, des prix et des groupes comptabilisation projet
 description: Décrit comment configurer des informations générales de projets, et des prix d’articles de projet, des ressources, ainsi que des comptes généraux et des groupes de comptabilisation projets.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.workload: na
 ms.search.keywords: project management
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 597d0ceb94e72305675b446af0031d97e0bc6478
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fc936a6839bbed7fee061b62a851441caddb5a4f
+ms.sourcegitcommit: 93c8681054b059cec38cb29b86de20be37980676
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780497"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5938086"
 ---
-# <a name="set-up-jobs"></a>Configuration de projets
+# <a name="set-up-jobs-prices-and-job-posting-groups"></a>Configurer des projets, des prix et des groupes comptabilisation projet
 
 En tant que chef de projet, vous pouvez définir des projets qui définissent chacun des projets que vous gérez dans [!INCLUDE[prod_short](includes/prod_short.md)]. Sur la page **Paramètres projets**, vous devez spécifier comment utiliser certaines fonctions de projet.
 
@@ -26,30 +26,31 @@ Pour chaque projet, vous précisez ensuite les fiches projet individuelles avec 
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
-> L’impact du champ **Appliquer le lien d’utilisation par défaut** est assez complexe et est donc expliqué dans la section suivante.
+> Le champ **Appliquer le lien d′utilisation par défaut** indique si les écritures comptables projet sont liées aux lignes planning projet par défaut. Sélectionnez le champ si vous souhaitez appliquer ce paramètre à tous les nouveaux projets que vous créez. Vous pouvez activer ou désactiver le suivi de l′utilisation des projets pour un projet donné en modifiant la valeur du champ **Appliquer le lien d′utilisation** sur la fiche projet individuelle. Les conséquences sont expliquées dans la section suivante.
 
-### <a name="to-set-up-job-usage-tracking"></a>Pour configurer un suivi d’activité de projet
+### <a name="to-set-up-job-usage-tracking"></a>Pour configurer un suivi d’utilisation de projet
 
-Lors de l’exécution d’un projet, vous aurez peut-être besoin de savoir si votre activité est conforme au plan. Pour entreprendre facilement cette action, vous pouvez créer un lien entre vos lignes planning du projet et l’utilisation réelle. Cela vous permet de suivre vos coûts et de voir aisément le travail qui reste à effectuer. Par défaut, le type de ligne planning projet est **Budget**, mais l’utilisation du type de ligne **Budget et Facturable** a des effets similaires.
+Lors de l’utilisation d’un projet, vous avez peut-être besoin de savoir si votre utilisation est conforme au plan. Pour entreprendre facilement cette action, vous pouvez créer un lien entre vos lignes planning du projet et l’utilisation réelle. Cela vous permet de suivre vos coûts et de voir aisément le travail qui reste à effectuer. Par défaut, le type ligne planning projet est *Budget*, mais l’utilisation du type ligne **Budget et Facturable** a des effets similaires.
 
-Si vous sélectionnez le champ **Appliquer le lien d’utilisation par défaut**, vous pouvez alors consulter les informations sur la ligne planning projet. Vous pouvez définir la quantité de ressources, d’articles ou le compte général, puis indiquer la quantité que vous souhaitez transférer vers la feuille projet. Le champ **Quantité restante** dans la ligne planning projet vous aide à déterminer ce qui reste à transférer et à valider dans la feuille projet.
+Après avoir configuré le suivi de l′utilisation en sélectionnant le champ **Appliquer le lien d’utilisation**, vous pouvez consulter les informations sur la ligne planning projet. Vous pouvez définir la quantité de ressources, d’articles ou le compte général, puis indiquer la quantité à transférer sur la feuille projet. Le champ **Quantité restante** dans la ligne planning projet vous aide à déterminer ce qui reste à transférer et à valider dans la feuille projet.
 
-> [!TIP]  
-> Vous pouvez activer ou désactiver le suivi de l’utilisation des projets pour un projet spécifique. La valeur du champ **Appliquer le lien d’utilisation** de la fiche projet individuelle remplace le paramètre de la page **Paramètres projets**.  
-
-Lorsque la case à cocher **Appliquer le lien d’utilisation par défaut** est activée et que le type de ligne planning projet est défini sur **Facturable**, une ligne planning projet de type **Budget** est créée une fois la ligne feuille projet validée.
+>[!NOTE]
+> Si le champ **Appliquer le lien d′utilisation** est sélectionné sur le projet individuel et que le champ **Type ligne** sur la ligne feuille projet ou la ligne achat est *Facturable*, de nouvelles lignes planning projet de type ligne *Budget* sont créées lorsque vous validez une ligne feuille ou un document achat.  
+> Pour plus d′informations, voir [Enregistrer l′utilisation pour les projets](projects-how-record-job-usage.md) et [Gérer les fournitures de projet](projects-how-manage-project-supplies.md)
 
 > [!IMPORTANT]
-> Si le suivi de l’utilisation des projets, la page **Paramètres projets** est activée ou sur le projet individuel et le champ **Type ligne** sur la ligne feuille projet est vide, alors des lignes planning projet de type ligne **Budget** sont créées lorsque vous validez des lignes feuille.  
->  
-> Si le suivi de l’utilisation des projets n’est *pas* activé, sur la page **Paramètres projets** ou sur le projet individuel, et si le champ **Type ligne** de la ligne feuille projet est vierge, aucune ligne planning projet n’est créée lorsque vous validez les lignes feuille projet. Pour plus d’informations, voir [Enregistrer l’utilisation pour les projets](projects-how-record-job-usage.md).
+> Si le champ **Type ligne** sur la ligne feuille projet ou la ligne achat est vide, aucune ligne planning projet n′est créée lorsque vous validez la feuille projet ou le document achat.
 
-1. Sélectionnez l’icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), saisissez **Paramètres projets**, puis sélectionnez le lien associé.
-2. Sélectionnez la case à cocher **Appliquer le lien d’utilisation par défaut**.
+<!--
+>[!Important]
+If job usage tracking is enabled on the individual job and the **Line Type** field on the job journal or purchase line line is blank, then new job planning lines of line type *Budget* are created when you post job journal or purchase document.
+If job usage tracking is not enabled and the **Line Type** field on the job journal line or purchase line is blank, then no job planning lines are created when you post job journal or purchase document.
+-->
+
 
 ## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a>Pour paramétrer les prix pour des ressources, des articles et des comptes généraux pour des projets
 > [!NOTE]
-> Dans la deuxième vague de lancement de 2020, nous avons lancé de nouveaux processus pour la configuration et la gestion des prix et des remises. Si vous êtes un nouveau client, vous utilisez la nouvelle expérience. Si vous êtes un client existant, l’utilisation ou non de la nouvelle expérience dépend du fait que votre administrateur a activé ou non la fonctionnalité **Nouvelle tarification des ventes** dans **Gestion des fonctionnalités**. Pour plus d’informations, consultez [Activer les fonctionnalités à venir à l’avance](/dynamics365/business-central/dev-itpro/administration/feature-management).
+> Dans la deuxième vague de lancement de 2020, nous avons lancé de nouveaux processus pour la configuration et la gestion des prix et des remises. Si vous êtes un nouveau client, vous utilisez la nouvelle expérience. Si vous êtes un client existant, l’utilisation ou non de la nouvelle expérience dépend du fait que votre administrateur a activé ou non la fonctionnalité **Nouvelle tarification des ventes** dans **Gestion des fonctionnalités**. Pour plus d’informations, consultez [Activer les fonctionnalités à venir à l’avance](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 Vous pouvez paramétrer les prix pour des articles, des ressources et des comptes généraux associés à un projet. 
 
@@ -79,14 +80,14 @@ L’un des aspects des projets de planification est de décider quels comptes de
 > [!NOTE]  
 >   Les comptes nécessaires dans la table Plan comptable doivent être configurés avant de créer les groupes comptabilisation. Pour plus d’informations, reportez-vous à [Configuration ou modification du plan comptable](finance-setup-chart-accounts.md).  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Groupes compta. projet**, puis sélectionnez le lien associé.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Groupes compta. projet**, puis sélectionnez le lien associé.  
 2. Cliquez sur **Nouveau**, puis renseignez les champs du compte comme indiqué dans le tableau suivant.  
 
 | Champ de compte | Désignation |
 | --- | --- |
 | **Code** |Un code pour le groupe comptabilisation. Vous pouvez entrer un maximum de 10 caractères, espaces compris. |
 | **Compte dépenses TEC** |Compte TEC pour les dépenses calculées des TEC du projet, qui est un compte d’actif capital de bilan. |
-| **Compte coûts à payer TEC** |Compte pour la méthode Valeur coût ou Coût des ventes du calcul TEC, qui est un compte de passif bilan de charge à payer. Validé lorsque l’ajustement TEC exige l’augmentation des coûts activité validés dans les comptes de gestion. |
+| **Compte coûts à payer TEC** |Compte pour la méthode Valeur coût ou Coût des ventes du calcul TEC, qui est un compte de passif bilan de charge à payer. Validé lorsque l’ajustement TEC exige l’augmentation des coûts d′utilisation validés dans les comptes de gestion. |
 | **Compte coûts lettrés projet** |Un compte de contrepartie du Compte dépenses TEC, qui est un compte de contrepartie de frais négatif. |
 | **Compte coûts lettrés article** |Un compte de contrepartie du Compte dépenses TEC, qui est un compte de contrepartie de frais négatif. |
 | **Compte coûts lettrés ressource** |Un compte de contrepartie du Compte dépenses TEC, qui est un compte de contrepartie de frais négatif. |

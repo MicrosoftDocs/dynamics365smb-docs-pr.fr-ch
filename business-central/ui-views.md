@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b66b9f0e158e7947ebaa3f8835d5ca0ca4531113
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a36d513e0285e197f9ca651bab55f745b448773d
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772187"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017089"
 ---
 # <a name="save-and-personalize-list-views"></a>Enregistrer et personnaliser les vues de liste
 Lorsque vous avez défini un filtre sur une liste et que vous souhaitez conserver le filtre pour plus tard, vous pouvez l’enregistrer en tant que vue. Pour plus d’informations sur le filtrage des listes, voir [Définition de filtres sur les listes](ui-enter-criteria-filters.md#setting-filters-on-lists).
@@ -35,7 +35,7 @@ Si des vues existent, le groupe **Vues** apparaît en haut du volet Filtre. Les 
 Si vous ne lui donnez pas de nom, il sera nommé **Tous (copier)**.
 
 > [!TIP]
-> Vous ne voyez pas l’icône ![Enregistrer la vue](media/save_view_icon.png "Enregistrer la vue") ? Pour plus d’informations, voir [Pourquoi n’ai-je pas d’icône Enregistrer](ui-views-faq.md#save).
+> Vous ne voyez pas l’icône ![Enregistrer la vue](media/save_view_icon.png "Enregistrer la vue") ? Pour plus d’informations, voir [Pourquoi n’ai-je pas d’icône Enregistrer](/dynamics365/business-central/ui-views-faq#save).
 
 ## <a name="to-rename-or-remove-a-view"></a>Pour renommer ou supprimer une vue
 1. Pour la vue qui affiche actuellement la liste, choisissez l’icône ![Afficher plus d’options](media/show-more-options-icon.png "Afficher plus d’options") pour voir les options disponibles.
@@ -45,7 +45,7 @@ Si vous ne lui donnez pas de nom, il sera nommé **Tous (copier)**.
 À mesure que le nombre de vues sur une page augmente, vous aurez peut-être besoin d’un contrôle supplémentaire sur la manière dont elles sont présentées dans le volet Filtre. Avec la bannière **Personnalisation**, vous pouvez masquer des vues indésirables ou réorganiser vos vues pour obtenir la séquence parfaite. Pour plus d’informations, voir [Personnaliser votre espace de travail](ui-personalization-user.md).
 
 ## <a name="see-also"></a>Voir aussi
-[FAQ sur les vues de liste](ui-views-faq.md)  
+[FAQ sur les vues de liste](ui-views-faq.yml)  
 [Personnaliser votre espace de travail](ui-personalization-user.md)    
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 [Modifier les paramètres de base](ui-change-basic-settings.md)  

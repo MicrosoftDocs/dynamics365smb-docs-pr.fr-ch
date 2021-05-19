@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: afd64672bac5af39bd5377db417a36ec0ea39fe0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: af13192ed4b5ca94d4a01ec913d3c94fd85e5fbc
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776162"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017164"
 ---
 # <a name="frequently-asked-questions-about-using-business-central"></a>Foire aux questions sur l’utilisation de Business Central
 
@@ -136,8 +136,8 @@ Un client dérivé de Microsoft Dynamics NAV était installé dans les première
 
 [Préparation aux activités commerciales](ui-get-ready-business.md)  
 [FAQ Tell Me](ui-search-faq.md)  
-[FAQ sur la recherche et le filtrage](ui-search-filter-faq.md)  
-[FAQ sur les vues de liste](ui-views-faq.md)  
+[FAQ sur la recherche et le filtrage](ui-search-filter-faq.yml)  
+[FAQ sur les vues de liste](ui-views-faq.yml)  
 [Modification de la langue et des paramètres régionaux](about-locale-language.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)] en tant que boîte de réception professionnelle dans Outlook](admin-outlook.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)] sans Outlook](admin-no-outlook.md)  

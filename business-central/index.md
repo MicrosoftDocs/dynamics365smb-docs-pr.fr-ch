@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 342d58b58945f9d09da406723ea7dd6c86785482
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 3811841784144d1c9dc786f8ae6435bedb5fb1d5
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786288"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017114"
 ---
 # <a name="welcome-to-prod_long"></a>Bienvenue dans [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -102,7 +102,7 @@ Vous pouvez également visionner des vidéos de fonctionnalités nouvelles et co
 [Ressources pour l’Aide et le support](product-help-and-support.md)  
 [Conformité [!INCLUDE[prod_short](includes/prod_short.md)]](compliance/compliance-overview.md)  
 [Termes des services [!INCLUDE[prod_short](includes/prod_short.md)] Online](compliance/compliance-service-compliance.md#service-terms)  
-[Mises à jour majeures de Business Central Online](/dynamics365/business-central/dev-itpro/administration/update-rollout-timelime)  
+[Mises à jour majeures et mises à jour mineures de Business Central Online](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline)  
 [Documentation Dynamics 365](/dynamics365/)  
 [Dynamics 365 Business Central sur microsoft.com](https://dynamics.microsoft.com/business-central/overview/)  
 [Explorer les fonctionnalités de Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/)  
@@ -110,5 +110,6 @@ Vous pouvez également visionner des vidéos de fonctionnalités nouvelles et co
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
+<!--comment out for 3 days[![RSS Subscription](/dynamics365-release-plan/media/feed-icon.png "RSS Subscription")](https://go.microsoft.com/fwlink/?linkid=2161350) Updates to Dynamics 365 Business Central documentation-->
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

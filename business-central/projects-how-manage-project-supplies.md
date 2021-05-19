@@ -1,8 +1,6 @@
 ---
-title: Acheter des articles ou des services pour un projet et gérer les fournitures| Microsoft Docs
+title: Gérer les fournitures pour un projet
 description: Décrit comment gérer l’approvisionnement et l’achat de matériel et de services pour les projets.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -12,17 +10,17 @@ ms.workload: na
 ms.search.keywords: project management, material, purchase
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 12068b06bfa725c44232c1dd91a157ef8559f6e0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7e1f6f52a8ef5f7d4620a70c4611ba259dc00c20
+ms.sourcegitcommit: 93c8681054b059cec38cb29b86de20be37980676
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785388"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5938186"
 ---
 # <a name="manage-job-supplies"></a>Gérer les fournitures pour un projet
 La gestion des fournitures des projets relatifs à des articles, services et dépenses est l’un des aspects essentiels de l’exécution d’un projet. Vous pouvez utiliser les quantités de stock ou effectuer des achats spécifiques au projet en utilisant des commandes achat ou des factures achat. Par exemple, un projet de service sur un ordinateur requiert un nouveau disque. Vous devez donc créer une facture achat pour l’acheter et pour enregistrer le projet pour lequel il sera utilisé.
 
-Si le processus d’achat ne requiert pas d’enregistrement séparé de la transaction physique, un achat peut être traité sur la page **Feuille compta. projet**. Pour plus d’informations, voir [Enregistrer l’utilisation pour les projets](projects-how-record-job-usage.md).
+Si le processus d’achat ne requiert pas d’enregistrement séparé de la transaction physique, un achat peut être traité sur la page **Feuille compta. projet**. Pour plus d′informations, voir [Pour valider des frais liés à un projet](projects-how-manage-project-supplies.md#to-post-a-job-related-expense).
 
 ## <a name="to-purchase-items-or-services-for-a-job"></a>Pour acheter des articles ou des services pour un projet
 La procédure suivante indique comment utiliser une facture achat pour acheter des produits pour un projet. Les mêmes étapes s’appliquent lors de l’utilisation d’une commande achat.  

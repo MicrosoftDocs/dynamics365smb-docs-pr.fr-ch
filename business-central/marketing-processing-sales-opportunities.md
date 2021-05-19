@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: bde08ec0b6f970dc65023cfcc7ab3e4021d4d29f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bcdbfe7077b2038879d38a962272c532f97500b1
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784457"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017264"
 ---
 # <a name="process-sales-opportunities"></a>Traiter des opportunités de vente
 Une fois que vous avez créé une opportunité, il existe plusieurs fonctionnalités permettant de gérer l’opportunité et de la faire avancer jusqu’à l’achèvement.
@@ -44,7 +44,8 @@ Vous pouvez clôturer des opportunités lorsque les négociations sont terminée
    Dans le champ **Code fin opportunité**, vous pouvez choisir l’un des codes fin opportunité existants ou en ajouter un nouveau. Pour ajouter un nouveau code, dans la liste déroulante, sélectionnez **Sélectionner dans la liste complète**, puis sélectionnez **Nouveau**. Dans la nouvelle ligne vierge, renseignez les champs **Code**, **Type** et **Désignation**, puis cliquez le bouton **OK**.
 
 ## <a name="to-create-quotes-for-opportunities"></a>Pour créer des devis pour des opportunités
-Vous pouvez créer des devis pour les contacts qui ne sont pas enregistrés en tant que clients.
+> [!NOTE]
+> Vous ne pouvez créer des devis de vente qu′à partir d′opportunités dont le type de contact est Société.
 
 1. Sur la page **Liste des opportunités**, sélectionnez l’opportunité, puis sélectionner l’action **Créer devis**. La page **Devis** s’affiche.
 2. Renseignez les champs de votre choix.

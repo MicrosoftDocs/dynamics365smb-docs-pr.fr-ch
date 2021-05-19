@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: project management, KPI, work in process, work in progress
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d88424e055d42b829da769c12382d76e0b40014d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fac1c041108cacfcabf18b04d128949d05e1d283
+ms.sourcegitcommit: 93c8681054b059cec38cb29b86de20be37980676
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780547"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5938136"
 ---
 # <a name="monitor-job-progress-and-performance"></a>Surveiller la progression et les performances
 Au fur et à mesure de la progression du projet, les matières, ressources et autres frais sont consommés et doivent être validés dans le projet. La fonctionnalité Travaux en cours (TEC) permet d’estimer la valeur financière des projets dans la comptabilité au cours des projets. Dans de nombreux cas, vous pouvez valider les frais pour un projet avant de le facturer. Lorsque seuls les frais sont validés, l’état financier est incorrect. Pour en savoir plus, reportez-vous à [Comprendre les méthodes TEC](projects-understanding-wip.md).
@@ -67,21 +67,23 @@ Quand vous avez calculé les TEC, vous pouvez les valider pour équilibrer les c
 
 1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Projet Valider TEC en comptabilité**, puis sélectionnez le lien associé.  
 2. Sur la page **Projet Valider TEC en comptabilité**, renseignez les champs selon vos besoins.  
-3. Choisissez le bouton **OK**.
+3. Cliquez sur le bouton **OK**.
 
-## <a name="to-view-job-usage-estimates-and-post-updates"></a>Pour visualiser les estimations projet et valider les mises à jour
-Vous pouvez visualiser les activités projet jusqu’à leur achèvement en une étape. Pour ce faire, utilisez le traitement par lots **Projet Calc. activité restante** pour toutes les tâches jusqu’à la fin du projet.  
+## <a name="to-calculate-and-post-job-completion-entries"></a>Pour calculer et valider les écritures d’achèvement du projet
+À la fin des activités d’un projet (validation et facturation comprises), vous devez le mettre à jour pour définir le **Statut** du projet sur **Terminé**. Ensuite, vous devez contrepasser tous les travaux en cours validés antérieurement dans la comptabilité.
 
-Cela vous permet de suivre vos estimations initiales, de les comparer aux résultats réels, ainsi que d’apporter des modifications et d’ajouter de nouvelles écritures, selon les besoins. Par exemple, alors que vous aviez estimé qu’un projet nécessitait 10 heures de travail, vous en avez effectué 15. Vous pouvez ajouter les cinq heures supplémentaires à la ligne feuille existante ou créer une ligne feuille pour les déclarer en tant qu’heures supplémentaires, ce qui constitue un autre type de tâche. Le coût et le prix appropriés sont calculés. Vous pouvez les valider dans la feuille.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Projets**, puis sélectionnez le lien associé.  
+2. Sélectionnez un projet ouvert, puis cliquez sur **Modifier**.
+3. Dans le champ **Statut**, sélectionnez **Terminé**.
+4. Suivez les étapes d’aide pour calculer et valider les travaux en cours. Sinon, suivez les étapes 5 et 6 pour le faire manuellement.  
+5. Cliquez sur **Calculer TEC**.
+6. Sur la page **Projet Calculer TEC**, renseignez les champs comme nécessaire.  
 
-> [!NOTE]  
->   Les écritures article créent des écritures comptables article et diminuent les articles en stock. Le traitement par lots **Valider coûts ajustés** permet de transférer le coût du stock à la comptabilité. Les écritures ressource créent des écritures comptables ressource.  
+     Les écritures TEC projet créées par le traitement par lots auront la case **Projet terminé** cochée pour indiquer qu’il s’agit d’écritures d’achèvement.  
+7. Cliquez sur **Projet Valider TEC en comptabilité**.
+8. Sur la page **Projet Valider TEC en comptabilité**, renseignez les champs selon vos besoins.  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles projet**, puis sélectionnez le lien associé.  
-2. Sélectionnez une feuille projet appropriée, puis cliquez sur l’action **Calc. activité restante**.  
-3. Sur la page **Projet Calc. activité restante**, entrez le numéro et la date de comptabilisation du document devant être insérés dans la feuille, puis sélectionnez le bouton **OK**.  
-4. Mettez à jour la feuille avec toutes les modifications qui peuvent être nécessaires.  
-5. Sélectionnez l’action **Valider**.
+     Les écritures comptabilité TEC projet créées par le traitement par lots verront la case **Projet terminé** cochée pour indiquer qu’il s’agit d’écritures d’achèvement.
 
 ## <a name="to-view-job-ledger-entries"></a>Pour visualiser des écritures comptables projet
 Toutes les écritures liées à des projets sont enregistrées dans des historiques des transactions projet et sont numérotées de manière séquentielle à partir de 1. L’historique des transactions projet permet d’obtenir un aperçu de toutes les écritures comptables projet.    

@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 36c4d1498048b1bc510455afe11069387cb5c507
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 10483de41b1106914a1fa477309e5b39a3f41e6b
+ms.sourcegitcommit: cbd00f24fb471381bbfd64670237eda176bd78e5
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774829"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947428"
 ---
 # <a name="track-items-with-serial-lot-and-package-numbers"></a>Effectuer le suivi des articles avec les numéros lot, de série et paquet
 
-Effectuez le suivi des articles en stock même dans des configurations d'entrepôt complexes avec des numéros spécifiques à chaque article, que ce soit en tant qu'objet individuel, en tant que lot ou en tant que colis. Avec le suivi des articles, vous pouvez suivre les articles à travers les mouvements d'entrepôt internes et les documents sortants et entrants.  
+Effectuez le suivi des articles en stock même dans des configurations d′entrepôt complexes avec des numéros spécifiques à chaque article, que ce soit en tant qu′objet individuel, en tant que lot ou en tant que colis. Avec le suivi des articles, vous pouvez suivre les articles à travers les mouvements d′entrepôt internes et les documents sortants et entrants.  
 
 Vous pouvez attribuer des numéros de série, lot et de paquet à n’importe quel document sortant ou entrant, puis afficher les écritures traçabilité validées dans les écritures comptables articles correspondantes. Vous effectuez le travail sur la page **Lignes traçabilité**, que vous pouvez ouvrir depuis un document entrant ou sortant.
 
@@ -34,11 +34,11 @@ Les articles portant des numéros de série et lot peuvent être suivis en amont
 
 ## <a name="numbers-and-item-tracking"></a>Numéros et traçabilité
 
-Dans le cadre de vos processus d'entrepôt, to peut regrouper votre stock dans des emballages, des boîtes, des conteneurs, etc. Mais afin de garder une trace des articles, vous attribuez des numéros uniques comme identification. Par exemple, vous fabriquez et vendez une chaise qui porte le numéro d'article *1900-S*. Chaque chaise individuelle a un numéro de série, *1001*, mais vous regroupez également quatre chaises en un lot, *LOT0001*, et vous expédiez les chaises dans un conteneur avec le numéro de colis *CONTENEUR010* qui comprend également d'autres éléments, tels que *LOT0100* avec des tables d'appoint, et *LOT200* avec des lampes.  
+Dans le cadre de vos processus d′entrepôt, to peut regrouper votre stock dans des emballages, des boîtes, des conteneurs, etc. Mais afin de garder une trace des articles, vous attribuez des numéros uniques comme identification. Par exemple, vous fabriquez et vendez une chaise qui porte le numéro d′article *1900-S*. Chaque chaise individuelle a un numéro de série, *1001*, mais vous regroupez également quatre chaises en un lot, *LOT0001*, et vous expédiez les chaises dans un conteneur avec le numéro de colis *CONTENEUR010* qui comprend également d′autres éléments, tels que *LOT0100* avec des tables d′appoint, et *LOT200* avec des lampes.  
 
-En fonction de votre configuration, vous utilisez ces différents numéros pour suivre le stock dans [!INCLUDE [prod_short](includes/prod_short.md)] aux différentes étapes des achats, des ventes, des opérations d'entrepôt, etc.
+En fonction de votre configuration, vous utilisez ces différents numéros pour suivre le stock dans [!INCLUDE [prod_short](includes/prod_short.md)] aux différentes étapes des achats, des ventes, des opérations d′entrepôt, etc.
 
-## <a name="picking-numbers-in-the-warehouse"></a>Numéros de prélèvement dans l'entrepôt
+## <a name="picking-numbers-in-the-warehouse"></a>Numéros de prélèvement dans l′entrepôt
 
 Le traitement en sortie des numéros de série ou de lot est une tâche fréquente qui est réalisée au cours de différents processus entrepôt.  
 
@@ -288,8 +288,8 @@ Le reclassement de la traçabilité pour un article consiste à remplacer un num
 
 ## <a name="see-also"></a>Voir aussi
 
-[Suivre les articles – Articles suivis](inventory-how-to-trace-item-tracked-items.md)  
-[Stock](inventory-manage-inventory.md)  
+[Tracer des articles - Articles suivis](inventory-how-to-trace-item-tracked-items.md)  
+[STOCKS ET EN-COURS](inventory-manage-inventory.md)  
 [Détails de conception : traçabilité](design-details-item-tracking.md)  
 [Détails de conception : traçabilité et réservations](design-details-item-tracking-and-reservations.md)  
 [Réserver des articles](inventory-how-to-reserve-items.md)  

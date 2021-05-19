@@ -1,68 +1,50 @@
 ---
 title: Fonctionnalités d’assistance
 description: Raccourcis clavier et autres fonctionnalités d’assistance.
-author: edupont04
+author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: c303c39850e22d3df375838d42703133428b4c7d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.search.keywords: accessibility, shortcuts, charts, tooltips, screen reader
+ms.date: 04/29/2021
+ms.author: jswymer
+ms.openlocfilehash: 5de8096338cef264b599701abf2e21a906417bac
+ms.sourcegitcommit: 103d1433454dbedf8a72a292853eac3501872f24
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772369"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "5961567"
 ---
 # <a name="accessibility-and-keyboard-shortcuts"></a>Accessibilité et raccourcis clavier
 
-Cette rubrique fournit des informations sur les fonctionnalités qui rendent [!INCLUDE[prod_short](includes/prod_short.md)] accessible aux personnes handicapées. [!INCLUDE[prod_short](includes/prod_short.md)] prend en charge les fonctionnalités d’accessibilité suivantes :  
+Cet article fournit des informations sur les fonctionnalités qui rendent [!INCLUDE[prod_short](includes/prod_short.md)] accessible aux personnes handicapées. [!INCLUDE[prod_short](includes/prod_short.md)] prend en charge les fonctionnalités d’accessibilité suivantes :  
 
-- raccourcis clavier ;
-
-    Pour plus d’informations, reportez-vous à [Raccourcis clavier](keyboard-shortcuts.md)
-
+- Raccourcis clavier. Voir [Raccourcis clavier](keyboard-shortcuts.md).
+- Gestes tactiles et au stylet sur tablettes et téléphones. Voir [Gestes tactiles et au stylet](touch-gestures.md).
 - Navigation  
-
 - En-têtes  
-
 - Texte secondaire pour les images et les liens  
+- Prise en charge des technologies d’assistance courantes 
+- Zoom avant ou zoom arrière sur n′importe quelle page
+- Info-bulles sur les éléments de l′interface utilisateur
 
-- Prise en charge des technologies d’assistance courantes  
+## <a name="navigation"></a><a name="Navigation"></a> Navigation
+  
+Vous pouvez utiliser différentes combinaisons des touches Tab, Maj et fléchées du clavier pour vous déplacer entre les éléments d′une page. Les éléments comprennent des actions, des champs et des colonnes, des parties et d′autres commandes. En général, appuyez sur Tab ou Maj+Tab pour passer à l′élément suivant ou précédent.
 
-- Utilisez les raccourcis clavier pour effectuer un zoom avant ou arrière sur n’importe quelle page
+Si vous vous concentrez sur une zone contenant des actions, comme la barre de navigation en haut du tableau de bord ou la barre d′actions sur les autres pages, utilisez les touches fléchées pour accéder aux différents groupes et actions. Appuyez sur Entrée sur un groupe pour ouvrir ses actions sous-jacentes, puis continuez à utiliser les touches fléchées. Appuyez sur Tab ou Maj+Tab pour sortir de la zone d′action.
 
-<!-- moved to separate article
-##  <a name="Keyboard"></a> Keyboard Shortcuts in the browser
- [!INCLUDE[prod_short](includes/prod_short.md)] supports the keyboard shortcuts that are supported by most web browsers. The keyboard shortcuts described here refer to the U.S. keyboard layout. The layout of the keys on other keyboards may not correspond exactly to the keys on a U.S. keyboard.  
-
-|To do this|Press|  
-|----------------|-----------|  
-|To move focus to the next or previous control or element on a page, such as buttons, fields, or items in a list.|Tab, Shift+Tab|  
-|To enable or access the element or control that is in focus.|Enter|  
-|To scroll items up and down in a list.|Up Arrow, Down Arrow|  
-|To scroll columns of an item left and right in a list.|Left Arrow, Right Arrow|  
-|To open a drop-down list or look up a value for a field.|Alt+Down Arrow|  
-|To move focus to the next element outside the list.|Ctrl + Enter|  
-|To see the transactions that resulted in a calculated value in a field.|Alt+Right Arrow|  
-
--->
-
-## <a name="navigation"></a><a name="Navigation"></a> Navigation  
- Vous pouvez naviguer entre les onglets et les actions du ruban, les éléments de la barre de navigation et d’autres contrôles sur les pages et états [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide du clavier. Pour déplacer le focus d’un onglet, d’une action ou d’un contrôle vers un autre, appuyez sur la touche Tab pour avancer. Appuyez sur Maj+Tab pur reculer.  
-
- À l’aide de l’ordre de tabulation, vous pouvez également permuter entre la page principale du navigateur et les boîtes de dialogue de demande de confirmation, par exemple, ou la page de connexion.  
+À l’aide de l’ordre de tabulation, vous pouvez également basculer entre la page de navigateur principale et les boîtes de dialogue de demande de confirmation, par exemple, ou la page de première connexion.  
 
 ## <a name="headings-in-content"></a><a name="Headings"></a> En-têtes dans le contenu
- 
- La source HTML du contenu [!INCLUDE[prod_short](includes/prod_short.md)] utilise des balises pour aider les utilisateurs de la technologie d’assistance à comprendre la structure et le contenu de la page. Par exemple, sur les pages de liste, les colonnes sont définies dans les balises TH et les en-têtes de colonne sont définies avec l’attribut TITLE au sein de la balise. Les légendes des éléments, tels que les raccourcis, récapitulatifs et champs sont incluses dans les balises d’en-tête (H1, H2, H3 et H4).  
+
+La source HTML du contenu [!INCLUDE[prod_short](includes/prod_short.md)] utilise des balises pour aider les utilisateurs de la technologie d’assistance à comprendre la structure et le contenu de la page. Par exemple, sur les pages de liste, les colonnes sont définies dans les balises TH et les en-têtes de colonne sont définies avec l’attribut TITLE au sein de la balise. Les légendes des éléments, tels que les raccourcis, récapitulatifs et champs sont incluses dans les balises d’en-tête (H1, H2, H3 et H4).  
 
 ## <a name="image-and-links"></a><a name="Images"></a> Image et liens
 
- Un texte descriptif pour les images est défini avec l’attribut ALT au sein de la balise IMG. Un texte descriptif pour les liens hypertexte est défini avec l’attribut title au sein de la balise A.  
+Un texte descriptif pour les images est défini avec l’attribut ALT au sein de la balise IMG. Un texte descriptif pour les liens hypertexte est défini avec l’attribut title au sein de la balise A.  
 
 ## <a name="assistive-technologies"></a><a name="AssistiveTech"></a> Technologies d’assistance
 
@@ -70,7 +52,30 @@ Cette rubrique fournit des informations sur les fonctionnalités qui rendent [!I
 
 ## <a name="zoom"></a><a name="zoom"></a> Zoom
 
-La plupart des navigateurs utilisent des raccourcis clavier standard pour effectuer un zoom avant et arrière sur la page en cours. Ces raccourcis clavier ne sont pas spécifiques à [!INCLUDE [prod_short](includes/prod_short.md)], mais ils fonctionnent lorsque vous utilisez [!INCLUDE [prod_short](includes/prod_short.md)] dans un navigateur. Pour obtenir la liste des raccourcis clavier pris en charge, voir [Raccourcis clavier pour le zoom avant et arrière](keyboard-shortcuts.md#zoomshortcuts).  
+La plupart des navigateurs utilisent des raccourcis clavier standard pour effectuer un zoom avant et arrière sur la page en cours. Ces raccourcis clavier ne sont pas spécifiques à [!INCLUDE [prod_short](includes/prod_short.md)] mais ils fonctionnent lorsque vous utilisez [!INCLUDE [prod_short](includes/prod_short.md)] dans un navigateur. Pour obtenir la liste des raccourcis clavier pris en charge, voir [Raccourcis clavier pour le zoom avant et arrière](keyboard-shortcuts.md#zoomshortcuts).
+
+## <a name="tooltips"></a>Info-bulles
+
+Les info-bulles sont disponibles sur la plupart des éléments de l′interface utilisateur, tels que les champs et les colonnes de page, les actions, les mosaïques de piles et les graphiques. Une info-bulle fournit un texte supplémentaire qui explique un élément pour vous aider à mieux comprendre son objectif. 
+
+Les info-bulles sont accessibles de différentes manières, en fonction du client (Web ou mobile) et de l′appareil que vous utilisez. Utilisez le tableau suivant comme référence. Certaines info-bulles peuvent être lues par les lecteurs d′écran. Dans ce cas, vous accédez aux info-bulles comme décrit dans le tableau, puis utilisez le lecteur d′écran pour accéder à l′info-bulle comme vous le feriez avec tout autre élément.
+
+#### <a name="accessing-tooltips"></a>Accès aux info-bulles
+
+|Élément|Action de la souris pour le client Web|Raccourci clavier pour le client Web|Geste tactile sur tablette/téléphone pour application mobile|Prise en charge du lecteur d′écran|
+|-------|-----------------|------------|--------------------------|---------------------|
+|Champs de page et en-têtes de colonne|Survoler ou cliquer sur la légende du champ ou l′en-tête de colonne|Déplacer le focus sur l′en-tête du champ ou de la colonne, puis appuyer sur les touches Alt+Flèche vers le haut|Appuyer sur la légende du champ |oui|
+|Éléments des graphiques, comme une barre, une ligne, un secteur|Survoler l′élément|Déplacer le focus sur l′élément, par exemple, à l′aide des touches fléchées|Appuyer longuement sur l′élément|oui|
+|Actions|Survoler l′action|aucun|aucun |non|
+|Mosaïques de piles|Survoler la vignette |aucun|aucun|non|
+
+
+<!--
+- With a mouse, hover over the element.
+- With keyboard, press the Alt+Up Arrow keys.
+- On a tablet or phone, tap and hold on the element. To learn about more gestures, see [Touch and Pen Gestures](touch-gestures.md)
+
+-->
 
 ## <a name="for-more-accessibility-information"></a>Informations supplémentaires sur l’accessibilité
 
@@ -81,6 +86,5 @@ Vous trouverez des informations supplémentaires sur l’accessibilité des prod
 [Préparation aux activités commerciales](ui-get-ready-business.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Forum Aux Questions](across-faq.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 99b2b25409993dabd4f4cd4ef758ea242165b2a3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7f2e2fe9719d25e13a33cf1943e7a054a70edffd
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773401"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935376"
 ---
 # <a name="working-with-power-bi-reports-in-prod_short"></a>Utilisation d’états Power BI dans [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -38,7 +38,7 @@ Si vous utilisez [!INCLUDE[prod_short](includes/prod_short.md)] sur site, il doi
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] en ligne est déjà configuré pour s’intégrer à Power BI.
 
-### <a name="sign-up-power-bi"></a>S'inscrire à Power BI
+### <a name="sign-up-power-bi"></a>S′inscrire à Power BI
 
 Avant de pouvoir utiliser Power BI avec [!INCLUDE[prod_short](includes/prod_short.md)], vous devrez vous inscrire au service Power BI. Si vous ne vous êtes pas encore inscrit, accédez à [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Au moment de votre inscription, utilisez votre adresse e-mail professionnelle et votre mot de passe.
 
@@ -50,10 +50,10 @@ Lorsque vous vous connectez pour la première fois [!INCLUDE [prod_short](includ
 2. La configuration assistée **Configuration des états Power BI dans Business Central** démarre. Sélectionnez **Suivant** continuer.
 3. Sur la page **Vérifier votre licence Power BI**. Exécutez l’une des étapes suivantes :
 
-    - Si vous ne vous êtes pas encore inscrit à Power BI, sélectionnez [Accéder à la page d'accueil Power BI](https://powerbi.microsoft.com). Créez un compte, puis revenez sur [!INCLUDE[prod_short](includes/prod_short.md)] et terminez la configuration.
+    - Si vous ne vous êtes pas encore inscrit à Power BI, sélectionnez [Accéder à la page d′accueil Power BI](https://powerbi.microsoft.com). Créez un compte, puis revenez sur [!INCLUDE[prod_short](includes/prod_short.md)] et terminez la configuration.
 
     - Si vous possédez déjà une licence, sélectionnez **Suivant**.
-4. Dans la page suivante, [!INCLUDE[prod_short](includes/prod_short.md)] va maintenant charger un rapport de démonstration sur Power BI. Cela prendra quelques minutes, donc c'est fait en arrière-plan. Pour terminer la configuration, sélectionnez **Suivant**, puis **Terminer**.
+4. Dans la page suivante, [!INCLUDE[prod_short](includes/prod_short.md)] va maintenant charger un rapport de démonstration sur Power BI. Cela prendra quelques minutes, donc c′est fait en arrière-plan. Pour terminer la configuration, sélectionnez **Suivant**, puis **Terminer**.
 
 Le processus de connexion démarre. Pendant le processus, [!INCLUDE [prod_short](includes/prod_short.md)] communique avec le service Power BI pour déterminer si vous avez un compte et une licence Power BI valides. Une fois votre licence vérifiée, l’état Power BI par défaut s’affiche sur la page. Si aucun état n’est affiché, vous pouvez sélectionner un état dans la partie.
 
@@ -72,7 +72,7 @@ Une fois connecté, vous pouvez sélectionner un état dans la partie Power BI s
 
 [!INCLUDE[prod_long](includes/prod_long.md)] comprend un Récapitulatif Power BI sur plusieurs pages de liste clé. Ce Récapitulatif fournit des informations supplémentaires sur les données de la liste. Lorsque vous vous déplacez entre les lignes de la liste, l’état est mis à jour et filtré pour l’écriture sélectionnée. Si vous ne voyez pas cette partie, dans la barre d’action, sélectionnez **Actions** > **Afficher** > **Afficher/Masquer les états Power BI**.
 
-Pour savoir comment créer des états pour les pages de liste, voir [Création d'états Power BI pour l'affichage des données de liste dans [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-powerbi-reports-factbox.md).
+Pour savoir comment créer des états pour les pages de liste, voir [Création d′états Power BI pour l′affichage des données de liste dans [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-powerbi-reports-factbox.md).
 
 ### <a name="switch-reports"></a>Changer de rapports
 
@@ -148,7 +148,7 @@ C’est probablement parce que le nom de l’état ne contient pas le nom de la 
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)] comme source de données Power Apps](across-how-use-financials-data-source-powerapps.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)] dans Power Automate](across-how-use-financials-data-source-flow.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

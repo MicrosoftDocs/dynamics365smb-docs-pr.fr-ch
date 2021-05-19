@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: ee7e6a132f463f35206dd9ac4fe75ce1a41fd40d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a80b6515b8397a275285ae15086a11bad9c35921
+ms.sourcegitcommit: 103d1433454dbedf8a72a292853eac3501872f24
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780097"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "5961517"
 ---
 # <a name="building-power-bi-reports-to-display-prod_long-data"></a>Créer des états Power BI pour afficher des données [!INCLUDE [prod_long](includes/prod_long.md)]
 
@@ -77,12 +77,16 @@ La première tâche dans le cadre de la création d’états consiste à ajouter
 
     L’assistant Power BI affiche la liste des sociétés, des environnements et des sources de données Microsoft [!INCLUDE[prod_short](includes/prod_short.md)]. Ces sources de données représentent tous les services web que vous avez publiés à partir de [!INCLUDE [prod_short](includes/prod_short.md)].
 6. Spécifiez les données à ajouter à votre modèle de données, puis sélectionnez le bouton **Charge**.
-7. Répétez les étapes précédentes pour ajouter des informations [!INCLUDE [prod_short](includes/prod_short.md)] supplémentaires, ou d’autres données, à votre modèle de données Power BI.
+7. Répétez les étapes précédentes pour ajouter plus de données [!INCLUDE [prod_short](includes/prod_short.md)], ou d’autres données, à votre modèle de données Power BI.
 
 Une fois les données chargées, elles s’affichent dans le volet de navigation à droite dans la page. À ce stade, vous êtes connecté(e) à vos données [!INCLUDE[prod_short](includes/prod_short.md)] et vous êtes prêt(e) à générer votre état Power BI.  
 
 > [!TIP]
 > Pour plus d’informations sur l’utilisation de Power BI Desktop, reportez-vous à [Mise en route avec Power BI Desktop](/power-bi/fundamentals/desktop-getting-started).
+
+## <a name="creating-accessible-reports"></a>Créer des états accessibles
+
+Il est important de rendre vos états utilisables par autant de personnes que possible. Essayez de concevoir des états qui ne nécessitent aucune adaptation particulière pour répondre aux besoins spécifiques des différents utilisateurs. Assurez-vous que la conception permet aux utilisateurs de tirer parti des technologies d′assistance standard, comme les lecteurs d′écran. Power BI comprend diverses fonctionnalités d′accessibilité, des outils et des consignes pour vous aider à atteindre cet objectif. Pour plus d′informations, [Conception d′états Power BI pour l′accessibilité](/power-bi/create-reports/desktop-accessibility-creating-reports) dans la documentation Power BI.
 
 ## <a name="creating-reports-to-display-data-associated-with-a-list"></a>Créer des états pour afficher les données associées à une liste
 
