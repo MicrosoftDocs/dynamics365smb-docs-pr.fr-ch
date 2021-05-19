@@ -1,0 +1,215 @@
+---
+title: FAQ Power BI
+description: Obtenez des réponses à certaines questions courantes sur l’utilisation de Power BI et de Business Central.
+author: jswymer
+ms.service: dynamics365-business-central
+ms.topic: get-started-article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: Power BI, reports, faq, errors
+ms.date: 04/22/2021
+ms.author: jswymer
+ms.openlocfilehash: 939b280e631113d3196f6fbbc90d9bf19b9fc408
+ms.sourcegitcommit: a76475f124e79440a5bba20577b335c4d50a2d83
+ms.translationtype: HT
+ms.contentlocale: fr-CH
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6025848"
+---
+# <a name="power-bi--faq"></a><span data-ttu-id="60c46-103">FAQ Power BI</span><span class="sxs-lookup"><span data-stu-id="60c46-103">Power BI  FAQ</span></span>
+
+<span data-ttu-id="60c46-104">Cet article répond à certaines des questions que vous pourriez vous poser sur l’utilisation de Power BI et [!INCLUDE [prod_short](includes/prod_short.md)].</span><span class="sxs-lookup"><span data-stu-id="60c46-104">This article answers some of the questions you may have about working with Power BI and [!INCLUDE [prod_short](includes/prod_short.md)].</span></span>
+
+## <a name="general"></a>[<span data-ttu-id="60c46-105">Général</span><span class="sxs-lookup"><span data-stu-id="60c46-105">General</span></span>](#tab/general)
+<!-- 26 -->
+### <a name="ive-selected-a-report-for-my-role-center-in-business-central-if-i-later-make-changes-to-the-reports-visuals-online-will-the-role-center-automatically-update-to-my-changes"></a><span data-ttu-id="60c46-106">J′ai sélectionné un état pour mon tableau de bord dans Business Central.</span><span class="sxs-lookup"><span data-stu-id="60c46-106">I've selected a report for my role center in Business Central.</span></span> <span data-ttu-id="60c46-107">Si j′apporte ultérieurement des modifications aux éléments visuels de l′état en ligne, le tableau de bord sera-t-il automatiquement mis à jour avec mes modifications ?</span><span class="sxs-lookup"><span data-stu-id="60c46-107">If I later make changes to the report's visuals online, will the role center automatically update to my changes?</span></span>
+
+<span data-ttu-id="60c46-108">Oui, parce que les états sont intégrés à partir de Power BI.</span><span class="sxs-lookup"><span data-stu-id="60c46-108">Yes, because the reports are embedded from Power BI.</span></span>
+
+<!-- 3 -->
+### <a name="are-the-business-central-apps-for-power-bi-available-in-languages-other-than-english"></a><span data-ttu-id="60c46-109">Les applications Business Central pour Power BI sont-elles disponibles dans d′autres langues que l′anglais ?</span><span class="sxs-lookup"><span data-stu-id="60c46-109">Are the Business Central apps for Power BI available in languages other than English?</span></span>
+
+<span data-ttu-id="60c46-110">Non.</span><span class="sxs-lookup"><span data-stu-id="60c46-110">No.</span></span> <span data-ttu-id="60c46-111">Ces applications ne sont actuellement disponibles qu′en anglais.</span><span class="sxs-lookup"><span data-stu-id="60c46-111">These apps are currently only available in English.</span></span>
+
+<!-- 24 -->
+### <a name="once-a-report-is-published-on-mypowerbicomworkspace-can-i-download-its-pbix"></a><span data-ttu-id="60c46-112">Une fois qu′un état est publié sur mon espace de travail powerbi.com, puis-je télécharger son pbix ?</span><span class="sxs-lookup"><span data-stu-id="60c46-112">Once a report is published on my powerbi.com workspace, can I download its pbix?</span></span> 
+
+<span data-ttu-id="60c46-113">Oui.</span><span class="sxs-lookup"><span data-stu-id="60c46-113">Yes.</span></span> <span data-ttu-id="60c46-114">Pour plus d′informations, voir [Télécharger un état du service Power BI vers Power BI Desktop](/power-bi/create-reports/service-export-to-pbix).</span><span class="sxs-lookup"><span data-stu-id="60c46-114">For more information, see [Download a report from the Power BI service to Power BI Desktop](/power-bi/create-reports/service-export-to-pbix).</span></span>  
+
+<!-- 27 -->
+### <a name="can-i-download-the-apps-as-pbix-files"></a><span data-ttu-id="60c46-115">Puis-je télécharger les applications sous forme de fichiers pbix ?</span><span class="sxs-lookup"><span data-stu-id="60c46-115">Can I download the apps as pbix files?</span></span> 
+
+<span data-ttu-id="60c46-116">Non.</span><span class="sxs-lookup"><span data-stu-id="60c46-116">No.</span></span> <span data-ttu-id="60c46-117">Actuellement, nous ne proposons pas le téléchargement des fichiers pbix pour les applications Power BI officielles car elles sont publiées sur AppSource.</span><span class="sxs-lookup"><span data-stu-id="60c46-117">Currently, we don’t offer downloading pbix files for the official Power BI apps, because they're published on AppSource.</span></span>
+
+## <a name="license"></a>[<span data-ttu-id="60c46-118">Licence</span><span class="sxs-lookup"><span data-stu-id="60c46-118">License</span></span>](#tab/license)
+
+<!-- 14 -->
+### <a name="do-i-need-a-power-bi-pro-license-to-publish-reports"></a><span data-ttu-id="60c46-119">Ai-je besoin d′une licence Power BI Pro pour publier des états ?</span><span class="sxs-lookup"><span data-stu-id="60c46-119">Do I need a Power BI Pro license to publish reports?</span></span> 
+
+<!-- todo What does " or for every user that consults the published report" mean? fixed -->
+<span data-ttu-id="60c46-120">Non.</span><span class="sxs-lookup"><span data-stu-id="60c46-120">No.</span></span> <span data-ttu-id="60c46-121">Une licence Pro n′est pas nécessaire pour publier des états.</span><span class="sxs-lookup"><span data-stu-id="60c46-121">A Pro license isn't needed to publish reports.</span></span> <span data-ttu-id="60c46-122">La licence Power BI standard (gratuite) suffit.</span><span class="sxs-lookup"><span data-stu-id="60c46-122">The standard (free) Power BI license is enough.</span></span> <span data-ttu-id="60c46-123">Pour plus d’informations, reportez-vous à la rubrique [Gestion des licences Power BI](admin-powerbi-setup.md#license).</span><span class="sxs-lookup"><span data-stu-id="60c46-123">For more information, see [Power BI Licensing](admin-powerbi-setup.md#license).</span></span>
+
+<!-- 15 -->
+### <a name="is-there-anything-i-cant-do-with-the-free-license"></a><span data-ttu-id="60c46-124">Y a-t-il quelque chose que je ne peux pas faire avec la licence gratuite ?</span><span class="sxs-lookup"><span data-stu-id="60c46-124">Is there anything I can't do with the free license?</span></span>
+
+<span data-ttu-id="60c46-125">Vous ne pouvez pas partager d′états ni installer les applications Business Central pour Power BI.</span><span class="sxs-lookup"><span data-stu-id="60c46-125">You can't share reports or install the Business Central apps for Power BI.</span></span> <span data-ttu-id="60c46-126">En dehors de cela, la licence gratuite permet de créer presque toutes les variations de graphiques et d′états.</span><span class="sxs-lookup"><span data-stu-id="60c46-126">Other than that, the free license allows you to create almost all variations of charts and reports.</span></span>
+
+<!-- 16 -->
+### <a name="if-someone-shares-a-report-with-another-person-then-that-person-needs-a-pro-license-to-see-the-report-are-there-plans-to-make-this-capability-possible-with-the-free-license"></a><span data-ttu-id="60c46-127">Si une personne partage un état avec une autre personne, cette dernière a besoin d′une licence Pro pour afficher l′état.</span><span class="sxs-lookup"><span data-stu-id="60c46-127">If someone shares a report with another person, then that person needs a Pro license to see the report.</span></span> <span data-ttu-id="60c46-128">Est-il prévu de rendre cette fonction possible avec la licence gratuite ?</span><span class="sxs-lookup"><span data-stu-id="60c46-128">Are there plans to make this capability possible with the free license?</span></span>
+
+<span data-ttu-id="60c46-129">Nous n′avons aucun contrôle sur cette exigence.</span><span class="sxs-lookup"><span data-stu-id="60c46-129">We don't have control over this requirement.</span></span> <span data-ttu-id="60c46-130">Cette exigence est définie par Power BI.</span><span class="sxs-lookup"><span data-stu-id="60c46-130">This requirement is set by Power BI.</span></span> <span data-ttu-id="60c46-131">Pour plus d′informations, voir [Partager les tableaux de bord et les états Power BI avec des collègues et autres](/power-bi/collaborate-share/service-share-dashboards).</span><span class="sxs-lookup"><span data-stu-id="60c46-131">For more information, see [Share Power BI dashboards and reports with coworkers and others](/power-bi/collaborate-share/service-share-dashboards).</span></span>  
+
+## <a name="designer"></a>[<span data-ttu-id="60c46-132">Concepteur</span><span class="sxs-lookup"><span data-stu-id="60c46-132">Designer</span></span>](#tab/designer)
+
+<!-- 7 -->
+### <a name="does-the-connector-work-with-api-pages"></a><span data-ttu-id="60c46-133">Le connecteur fonctionne-t-il avec les pages API ?</span><span class="sxs-lookup"><span data-stu-id="60c46-133">Does the connector work with API pages?</span></span>
+
+<span data-ttu-id="60c46-134">Pas encore.</span><span class="sxs-lookup"><span data-stu-id="60c46-134">Not yet.</span></span> <span data-ttu-id="60c46-135">Mais à compter de juin 2021, le nouveau connecteur Power BI prendra en charge à la fois les services Web Business Central et les pages API.</span><span class="sxs-lookup"><span data-stu-id="60c46-135">But starting in June 2021, the new Power BI connector will support both Business Central web services and API pages.</span></span> <span data-ttu-id="60c46-136">Pour plus d′informations, voir [Activer le connecteur Power BI pour utiliser les API Business Central plutôt que les services Web uniquement](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/enable-power-bi-connector-work-business-central-apis-instead-web-services-only).</span><span class="sxs-lookup"><span data-stu-id="60c46-136">For more information, see [Enable Power BI connector to work with Business Central APIs, instead of with web services only](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/enable-power-bi-connector-work-business-central-apis-instead-web-services-only).</span></span>
+
+<!-- 11 --> 
+### <a name="is-it-possible-to-choose-which-business-central-environment-to-get-data-from-for-power-bi-for-example-like-a-sandbox-or-production-environment"></a><span data-ttu-id="60c46-137">Est-il possible de choisir depuis quel environnement Business Central obtenir les données pour Power BI, comme un bac à sable ou un environnement de production ?</span><span class="sxs-lookup"><span data-stu-id="60c46-137">Is it possible to choose which Business Central environment to get data from for Power BI, for example, like a sandbox or production environment?</span></span> 
+
+<span data-ttu-id="60c46-138">Oui.</span><span class="sxs-lookup"><span data-stu-id="60c46-138">Yes.</span></span> <span data-ttu-id="60c46-139">Le choix est facile.</span><span class="sxs-lookup"><span data-stu-id="60c46-139">It can be easily chosen.</span></span> <span data-ttu-id="60c46-140">Lorsque vous vous connectez à Business Central à l′aide du connecteur, vous devez choisir l′environnement et le nom de l′entreprise.</span><span class="sxs-lookup"><span data-stu-id="60c46-140">When you connect to Business Central using the connector, you have to choose the environment and company name.</span></span>
+
+<!-- 6 --> 
+### <a name="can-i-merge-data-from-several-production-environments-of-the-same-tenant"></a><span data-ttu-id="60c46-141">Puis-je fusionner les données de plusieurs environnements de production du même abonné ?</span><span class="sxs-lookup"><span data-stu-id="60c46-141">Can I merge data from several production environments of the same tenant?</span></span>
+
+<span data-ttu-id="60c46-142">Oui.</span><span class="sxs-lookup"><span data-stu-id="60c46-142">Yes.</span></span> <span data-ttu-id="60c46-143">Dans Power BI, exécutez à nouveau l′opération d′obtention des données et choisissez l′environnement souhaité.</span><span class="sxs-lookup"><span data-stu-id="60c46-143">In Power BI, just run the get data operation again and choose the environment you want.</span></span>
+
+<!-- 25 -->
+### <a name="which-pages-in-business-central-have-the-power-bi-report-part"></a><span data-ttu-id="60c46-144">Quelles pages de Business Central contiennent la partie État Power BI ?</span><span class="sxs-lookup"><span data-stu-id="60c46-144">Which pages in Business Central have the Power BI Report part?</span></span>  
+
+<span data-ttu-id="60c46-145">Actuellement, plusieurs pages contiennent un Récapitulatif avec une partie **États Power BI** pour afficher un état.</span><span class="sxs-lookup"><span data-stu-id="60c46-145">Currently, there are a few selected pages that have a FactBox with a **Power BI Reports** part for displaying a report.</span></span> 
+
+<span data-ttu-id="60c46-146">Sur les pages de liste, la partie **États Power BI** est filtrée pour afficher les états relatifs aux données de la liste.</span><span class="sxs-lookup"><span data-stu-id="60c46-146">On list pages, the **Power BI Reports** part is filtered to show reports that pertain to data in the list.</span></span> <span data-ttu-id="60c46-147">Voici les pages de type liste qui incluent la partie **États Power BI** :</span><span class="sxs-lookup"><span data-stu-id="60c46-147">Here's the list type pages that include the **Power BI Reports** part:</span></span>
+
+|<span data-ttu-id="60c46-148">ID page</span><span class="sxs-lookup"><span data-stu-id="60c46-148">Page ID</span></span>|<span data-ttu-id="60c46-149">Name</span><span class="sxs-lookup"><span data-stu-id="60c46-149">Name</span></span>|
+|-------|----|
+|<span data-ttu-id="60c46-150">22</span><span class="sxs-lookup"><span data-stu-id="60c46-150">22</span></span>|<span data-ttu-id="60c46-151">Liste des clients</span><span class="sxs-lookup"><span data-stu-id="60c46-151">Customer List</span></span>|
+|<span data-ttu-id="60c46-152">27</span><span class="sxs-lookup"><span data-stu-id="60c46-152">27</span></span>|<span data-ttu-id="60c46-153">Liste des fournisseurs</span><span class="sxs-lookup"><span data-stu-id="60c46-153">Vendor List</span></span>|
+|<span data-ttu-id="60c46-154">31</span><span class="sxs-lookup"><span data-stu-id="60c46-154">31</span></span>|<span data-ttu-id="60c46-155">Liste des articles</span><span class="sxs-lookup"><span data-stu-id="60c46-155">Item List</span></span>|
+|<span data-ttu-id="60c46-156">9305</span><span class="sxs-lookup"><span data-stu-id="60c46-156">9305</span></span>|<span data-ttu-id="60c46-157">Liste des commandes vente</span><span class="sxs-lookup"><span data-stu-id="60c46-157">Sales Order List</span></span>|
+|<span data-ttu-id="60c46-158">9308</span><span class="sxs-lookup"><span data-stu-id="60c46-158">9308</span></span>|<span data-ttu-id="60c46-159">Factures achat</span><span class="sxs-lookup"><span data-stu-id="60c46-159">Purchase Invoices</span></span>|
+
+<span data-ttu-id="60c46-160">Voici les autres pages qui contiennent la partie **États Power BI** étendue et non filtrée :</span><span class="sxs-lookup"><span data-stu-id="60c46-160">Here are other pages that contain the larger, non-filtered **Power BI Reports** part:</span></span>
+
+|<span data-ttu-id="60c46-161">ID page</span><span class="sxs-lookup"><span data-stu-id="60c46-161">Page ID</span></span>|<span data-ttu-id="60c46-162">Name</span><span class="sxs-lookup"><span data-stu-id="60c46-162">Name</span></span>|
+|-------|----|
+|<span data-ttu-id="60c46-163">1156</span><span class="sxs-lookup"><span data-stu-id="60c46-163">1156</span></span>|<span data-ttu-id="60c46-164">Détail société</span><span class="sxs-lookup"><span data-stu-id="60c46-164">Company Detail</span></span>|
+|<span data-ttu-id="60c46-165">4013</span><span class="sxs-lookup"><span data-stu-id="60c46-165">4013</span></span>|<span data-ttu-id="60c46-166">Informations sur Intelligent Cloud</span><span class="sxs-lookup"><span data-stu-id="60c46-166">Intelligent Cloud Insights</span></span> |
+|<span data-ttu-id="60c46-167">9006</span><span class="sxs-lookup"><span data-stu-id="60c46-167">9006</span></span>|<span data-ttu-id="60c46-168">Tableau de bord Préparateur de commandes</span><span class="sxs-lookup"><span data-stu-id="60c46-168">Order Processor Role Center</span></span>|
+|<span data-ttu-id="60c46-169">9008</span><span class="sxs-lookup"><span data-stu-id="60c46-169">9008</span></span>|<span data-ttu-id="60c46-170">Feuilles d’inventaire</span><span class="sxs-lookup"><span data-stu-id="60c46-170">Whse.</span></span> <span data-ttu-id="60c46-171">Tableau de bord de base</span><span class="sxs-lookup"><span data-stu-id="60c46-171">Basic Role Center</span></span>|
+|<span data-ttu-id="60c46-172">9010</span><span class="sxs-lookup"><span data-stu-id="60c46-172">9010</span></span>|<span data-ttu-id="60c46-173">Tableau de bord Gestionnaire de production</span><span class="sxs-lookup"><span data-stu-id="60c46-173">Production Planner Role Center</span></span>|
+|<span data-ttu-id="60c46-174">9015</span><span class="sxs-lookup"><span data-stu-id="60c46-174">9015</span></span>|<span data-ttu-id="60c46-175">Tableau de bord Chef de projet</span><span class="sxs-lookup"><span data-stu-id="60c46-175">Job Project Manager RC</span></span>|
+|<span data-ttu-id="60c46-176">9016</span><span class="sxs-lookup"><span data-stu-id="60c46-176">9016</span></span>|<span data-ttu-id="60c46-177">Tableau de bord Répartiteur de service</span><span class="sxs-lookup"><span data-stu-id="60c46-177">Service Dispatcher Role Center</span></span>|
+|<span data-ttu-id="60c46-178">9022</span><span class="sxs-lookup"><span data-stu-id="60c46-178">9022</span></span>|<span data-ttu-id="60c46-179">Tableau de bord Gestionnaire d′activité</span><span class="sxs-lookup"><span data-stu-id="60c46-179">Business Manager Role Center</span></span>|
+|<span data-ttu-id="60c46-180">9024</span><span class="sxs-lookup"><span data-stu-id="60c46-180">9024</span></span>|<span data-ttu-id="60c46-181">Tableau de bord Admin. de sécurité</span><span class="sxs-lookup"><span data-stu-id="60c46-181">Security Admin Role Center</span></span>|
+|<span data-ttu-id="60c46-182">9026</span><span class="sxs-lookup"><span data-stu-id="60c46-182">9026</span></span>|<span data-ttu-id="60c46-183">Tableau de bord</span><span class="sxs-lookup"><span data-stu-id="60c46-183">Sales & Relationship Mgr.</span></span> <span data-ttu-id="60c46-184">Responsable Vente et Relations</span><span class="sxs-lookup"><span data-stu-id="60c46-184">RC</span></span>|
+|<span data-ttu-id="60c46-185">9027</span><span class="sxs-lookup"><span data-stu-id="60c46-185">9027</span></span>|<span data-ttu-id="60c46-186">Tableau de bord Comptable</span><span class="sxs-lookup"><span data-stu-id="60c46-186">Accountant Role Center</span></span>|
+
+> [!TIP]
+> <span data-ttu-id="60c46-187">Nous n′avons pas l′intention de l′ajouter à toutes les pages de liste pour le moment.</span><span class="sxs-lookup"><span data-stu-id="60c46-187">We don't have plans to add it to all list pages at the moment.</span></span> <span data-ttu-id="60c46-188">Cependant, vous pouvez créer une extension de page simple qui ajoute la partie **États Power BI** dans un Récapitulatif.</span><span class="sxs-lookup"><span data-stu-id="60c46-188">However, you can create a simple page extension that adds the **Power BI Reports** part in a FactBox.</span></span> <span data-ttu-id="60c46-189">Pour plus d’informations, voir [Ajout des parties États Power BI aux pages](/dynamics365/business-central/dev-itpro/developer/devenv-power-bi-report-parts) dans l′aide dédiée aux développeurs et professionnels de l′informatique.</span><span class="sxs-lookup"><span data-stu-id="60c46-189">For more information, see [Adding Power BI Report Parts to Pages](/dynamics365/business-central/dev-itpro/developer/devenv-power-bi-report-parts) in the Developer and IT Pro help.</span></span>
+
+<!-- 5 -->
+### <a name="is-there-any-way-to-filter-a-dataset-from-business-central-before-i-pull-it-into-power-bi-instead-of-applying-filters-afterwards"></a><span data-ttu-id="60c46-190">Existe-t-il un moyen de filtrer un ensemble de données à partir de Business Central *avant* de le basculer dans Power BI au lieu d′appliquer ultérieurement des filtres ?</span><span class="sxs-lookup"><span data-stu-id="60c46-190">Is there any way to filter a dataset from Business Central *before* I pull it into Power BI, instead of applying filters afterwards?</span></span>
+
+<span data-ttu-id="60c46-191">Pour filtrer des ensembles de données plus volumineux, le moyen le plus simple consiste à définir un filtre sur l′état Power BI en modifiant directement la formule Power Query.</span><span class="sxs-lookup"><span data-stu-id="60c46-191">To filter larger datasets, the easiest way is to set a filter on your Power BI report by editing directly the Power Query formula.</span></span> <span data-ttu-id="60c46-192">La plupart des filtres que vous définissez de cette manière sont transmis à Business Central par Query Folding.</span><span class="sxs-lookup"><span data-stu-id="60c46-192">Most of the filters you set this way will be passed on to Business Central through query folding.</span></span> <span data-ttu-id="60c46-193">Voir [Actualisation incrémentielle des ensembles de données](/power-bi/admin/service-premium-incremental-refresh).</span><span class="sxs-lookup"><span data-stu-id="60c46-193">See [Incremental refresh for datasets](/power-bi/admin/service-premium-incremental-refresh).</span></span>
+
+<span data-ttu-id="60c46-194">Il n′existe actuellement aucun moyen de définir un filtre pour les données d′un service Web à partir de Business Central.</span><span class="sxs-lookup"><span data-stu-id="60c46-194">There's currently no way of setting a filter for the web service data from within Business Central.</span></span> <span data-ttu-id="60c46-195">Si votre application doit définir un filtre à partir de Business Central, vous devez créer une application Business Central personnalisée à cet effet.</span><span class="sxs-lookup"><span data-stu-id="60c46-195">If your application needs to set a filter from within Business Central, you'll have to create a custom Business Central App for this purpose.</span></span>
+
+<!-- 8 and 9 -->
+
+### <a name="for-embedding-reports-in-business-central-pages-right-now-its-only-possible-to-get-reports-from-my-workspace-in-power-bi-are-there-plans-to-make-it-possible-to-get-them-from-custom-workspaces"></a><span data-ttu-id="60c46-196">Pour intégrer des états dans les pages Business Central, il n′est actuellement possible d′obtenir des rapports que depuis *Mon espace de travail* dans Power BI.</span><span class="sxs-lookup"><span data-stu-id="60c46-196">For embedding reports in Business Central pages, right now it's only possible to get reports from *My Workspace* in Power BI.</span></span> <span data-ttu-id="60c46-197">Est-il prévu de les obtenir à partir d′espaces de travail personnalisés ?</span><span class="sxs-lookup"><span data-stu-id="60c46-197">Are there plans to make it possible to get them from custom workspaces?</span></span>
+
+<span data-ttu-id="60c46-198">Oui.</span><span class="sxs-lookup"><span data-stu-id="60c46-198">Yes.</span></span> <span data-ttu-id="60c46-199">Nous prévoyons d′ajouter la prise en charge des espaces de travail partagés, mais nous n′avons pas encore de calendrier à vous donner.</span><span class="sxs-lookup"><span data-stu-id="60c46-199">We have it in our plans to add support for shared workspaces, but we don't yet have a timeline to give you.</span></span>  
+
+<!-- 10 -->
+### <a name="from-power-bi-besides-using-a-query-is-there-another-way-to-get-data-from-business-central-tables-that-dont-have-an-associated-page-for-example-like-the-item-attributes-value-mapping-table"></a><span data-ttu-id="60c46-200">Dans Power BI, outre l′utilisation d′une requête, existe-t-il un autre moyen d′obtenir des données à partir des tables Business Central sans page associée ?</span><span class="sxs-lookup"><span data-stu-id="60c46-200">From Power BI, besides using a query, is there another way to get data from Business Central tables that don't have an associated page?</span></span> <span data-ttu-id="60c46-201">Comme la table *Correspondance de valeur d′attribut article*.</span><span class="sxs-lookup"><span data-stu-id="60c46-201">For example, like the *Item Attributes Value Mapping* table.</span></span>
+
+<span data-ttu-id="60c46-202">Non.</span><span class="sxs-lookup"><span data-stu-id="60c46-202">No.</span></span> <span data-ttu-id="60c46-203">Pas à ce stade.</span><span class="sxs-lookup"><span data-stu-id="60c46-203">Not at this point.</span></span>
+
+<!-- 12 --> 
+### <a name="are-published-queries-faster-to-use-than-published-pages"></a><span data-ttu-id="60c46-204">Les requêtes publiées sont-elles plus rapides à utiliser que les pages publiées ?</span><span class="sxs-lookup"><span data-stu-id="60c46-204">Are published queries faster to use than published pages?</span></span>
+
+<span data-ttu-id="60c46-205">En ce qui concerne les services Web, les requêtes publiées sont généralement plus rapides que les pages publiées équivalentes.</span><span class="sxs-lookup"><span data-stu-id="60c46-205">When it comes to web services, published queries are usually faster than equivalent published pages.</span></span> <span data-ttu-id="60c46-206">La raison en est que les requêtes sont optimisées pour la lecture des données et ne contiennent pas de déclencheurs coûteux comme OnAfterGetRecord.</span><span class="sxs-lookup"><span data-stu-id="60c46-206">The reason is that queries are optimized for reading data and don’t contain expensive triggers like OnAfterGetRecord.</span></span>
+
+<span data-ttu-id="60c46-207">Dès que le nouveau connecteur sera disponible en juin 2021, nous vous encourageons à utiliser les pages API plutôt que les requêtes publiées en tant que services Web.</span><span class="sxs-lookup"><span data-stu-id="60c46-207">When the new connector is available in June 2021, you're encouraged to use API pages over queries published as web services.</span></span>
+
+<!-- 13 --> 
+### <a name="is-there-a-way-for-an-end-user-to-create-a-web-service-with-a-column-thats-in-a-business-central-table-but-not-a-page-or-will-developer-have-to-create-a-custom-query"></a><span data-ttu-id="60c46-208">Existe-t-il un moyen pour un utilisateur final de créer un service Web avec une colonne qui se trouve dans une table Business Central, mais pas dans une page ?</span><span class="sxs-lookup"><span data-stu-id="60c46-208">Is there a way for an end user to create a web service with a column that's in a Business Central table, but not a page?</span></span> <span data-ttu-id="60c46-209">Ou le développeur doit-il créer une requête personnalisée ?</span><span class="sxs-lookup"><span data-stu-id="60c46-209">Or will developer have to create a custom query?</span></span> 
+
+<span data-ttu-id="60c46-210">Pas encore.</span><span class="sxs-lookup"><span data-stu-id="60c46-210">Not yet.</span></span> <span data-ttu-id="60c46-211">Mais dès que le nouveau connecteur sera disponible en juin 2021, un développeur pourra créer une nouvelle page API pour répondre à cette exigence.</span><span class="sxs-lookup"><span data-stu-id="60c46-211">But when the new connector is available in June 2021, a developer can create a new API page to meet this requirement.</span></span> 
+
+<!-- 28 --> 
+### <a name="can-i-connect-power-bi-to-a-read-only-database-server-of-business-central-online"></a><span data-ttu-id="60c46-212">Puis-je connecter Power BI à un serveur de base de données en lecture seule de Business Central Online ?</span><span class="sxs-lookup"><span data-stu-id="60c46-212">Can I connect Power BI to a read-only database server of Business Central online?</span></span> 
+
+<span data-ttu-id="60c46-213">Non.</span><span class="sxs-lookup"><span data-stu-id="60c46-213">No.</span></span> <span data-ttu-id="60c46-214">Mais nous avons cette fonctionnalité sur notre feuille de route à long terme.</span><span class="sxs-lookup"><span data-stu-id="60c46-214">But we have this feature on our long-term roadmap.</span></span> 
+
+## <a name="performance"></a>[<span data-ttu-id="60c46-215">Performances</span><span class="sxs-lookup"><span data-stu-id="60c46-215">Performance</span></span>](#tab/performance)
+
+<!-- 17 -->
+
+### <a name="is-it-faster-to-get-data-using-api-pages-than-using-web-services"></a><span data-ttu-id="60c46-216">Est-il plus rapide d′obtenir des données à l′aide des pages API que par les services Web ?</span><span class="sxs-lookup"><span data-stu-id="60c46-216">Is it faster to get data using API pages than using web services?</span></span>
+
+<span data-ttu-id="60c46-217">Oui.</span><span class="sxs-lookup"><span data-stu-id="60c46-217">Yes.</span></span> <span data-ttu-id="60c46-218">Nos tests indiquent que les pages API sont jusqu′à 25 % plus performantes que les services Web.</span><span class="sxs-lookup"><span data-stu-id="60c46-218">Our tests indicate that API pages are up to 25% more performant than web services.</span></span>
+
+<!-- 18 -->
+### <a name="are-there-plans-to-have-a-mirror-on-the-azure-sql-database-instance-which-i-can-connect-to-directly"></a><span data-ttu-id="60c46-219">Est-il prévu d′avoir un miroir sur l′instance Azure SQL Database pour me connecter directement ?</span><span class="sxs-lookup"><span data-stu-id="60c46-219">Are there plans to have a mirror on the Azure SQL Database instance, which I can connect to directly?</span></span>
+
+<span data-ttu-id="60c46-220">Non.</span><span class="sxs-lookup"><span data-stu-id="60c46-220">No.</span></span> <span data-ttu-id="60c46-221">Pas à ce stade.</span><span class="sxs-lookup"><span data-stu-id="60c46-221">Not at this point.</span></span> <span data-ttu-id="60c46-222">Vous ne pouvez communiquer qu′avec Business Central par les API.</span><span class="sxs-lookup"><span data-stu-id="60c46-222">You can only communicate with Business Central through APIs.</span></span>
+
+<!-- 19 -->
+### <a name="loading-data-from-business-central-web-services-seems-slow-is-there-any-way-to-get-data-directly-from-the-sql-database-table"></a><span data-ttu-id="60c46-223">Le chargement des données à partir des services Web de Business Central semble lent.</span><span class="sxs-lookup"><span data-stu-id="60c46-223">Loading data from Business Central web services seems slow.</span></span> <span data-ttu-id="60c46-224">Existe-t-il un moyen d′obtenir les données directement à partir de la table de base de données SQL ?</span><span class="sxs-lookup"><span data-stu-id="60c46-224">Is there any way to get data directly from the SQL database table?</span></span>
+
+<span data-ttu-id="60c46-225">Non.</span><span class="sxs-lookup"><span data-stu-id="60c46-225">No.</span></span> <span data-ttu-id="60c46-226">L′accès direct à la base de données n′est pas possible, mais le basculement vers les pages API (dès la mise à disposition du nouveau connecteur) aidera grandement.</span><span class="sxs-lookup"><span data-stu-id="60c46-226">Direct access to the database isn't possible, but switching to API pages (when the new connector available) will help greatly.</span></span>
+
+## <a name="advanced"></a>[<span data-ttu-id="60c46-227">Avancé</span><span class="sxs-lookup"><span data-stu-id="60c46-227">Advanced</span></span>](#tab/advanced)
+<!-- 1 -->
+
+### <a name="are-there-plans-for-the-power-bi-connector-to-support-the-incremental-refresh-features-in-the-power-bi-service"></a><span data-ttu-id="60c46-228">Est-il prévu que le connecteur Power BI prenne en charge les fonctionnalités d′actualisation incrémentielle dans le service Power BI ?</span><span class="sxs-lookup"><span data-stu-id="60c46-228">Are there plans for the Power BI connector to support the incremental refresh features in the Power BI Service?</span></span>
+
+<span data-ttu-id="60c46-229">Oui.</span><span class="sxs-lookup"><span data-stu-id="60c46-229">Yes.</span></span> <span data-ttu-id="60c46-230">C′est sur notre feuille de route.</span><span class="sxs-lookup"><span data-stu-id="60c46-230">It's on our roadmap.</span></span>
+
+<!-- 2 -->
+### <a name="if-a-business-central-on-premises-solution-doesnt-have-internet-access-can-i-still-use-power-bi"></a><span data-ttu-id="60c46-231">Si une solution Business Central sur site n′a pas accès à Internet, puis-je continuer à utiliser Power BI ?</span><span class="sxs-lookup"><span data-stu-id="60c46-231">If a Business Central on-premises solution doesn't have internet access, can I still use Power BI?</span></span>
+<!-- todo: please explain this one-->
+
+<span data-ttu-id="60c46-232">Oui.</span><span class="sxs-lookup"><span data-stu-id="60c46-232">Yes.</span></span> <span data-ttu-id="60c46-233">Dans ce cas, utilisez Power BI Desktop localement et connectez-vous à Business Central sur site.</span><span class="sxs-lookup"><span data-stu-id="60c46-233">In this case, you use Power BI Desktop locally and connect to the Business Central on-premises.</span></span> <span data-ttu-id="60c46-234">Une fois connecté, vous pouvez créer et afficher des états mais vous ne pouvez tout simplement pas les publier sur le service Power BI.</span><span class="sxs-lookup"><span data-stu-id="60c46-234">Once connected, can create and view reports, but you just can't publish them to the Power BI Service.</span></span> 
+<!-- 20 -->
+### <a name="are-there-any-plans-to-make-it-possible-to-replicate-business-central-online-databases-so-theyre-accessible-for-read-only-sql-queries-this-capability-would-support-incremental-refresh-and-be-a-lot-faster-than-apis-or-web-services"></a><span data-ttu-id="60c46-235">Est-il prévu de rendre possible la réplication des bases de données Business Central Online afin qu′elles soient accessibles pour les requêtes SQL en lecture seule ?</span><span class="sxs-lookup"><span data-stu-id="60c46-235">Are there any plans to make it possible to replicate Business Central online databases so they're accessible for read-only SQL queries?</span></span> <span data-ttu-id="60c46-236">Cette fonction prendrait en charge l′actualisation incrémentielle et serait beaucoup plus rapide que les API ou les services Web.</span><span class="sxs-lookup"><span data-stu-id="60c46-236">This capability would support incremental refresh and be a lot faster than API's or web services.</span></span>
+
+<!-- todo: what does "BC-Saas-DB-replicated DB accessible" mean? fixe-->
+<span data-ttu-id="60c46-237">Oui.</span><span class="sxs-lookup"><span data-stu-id="60c46-237">Yes.</span></span> <span data-ttu-id="60c46-238">Nous avons cette fonctionnalité sur notre feuille de route à long terme.</span><span class="sxs-lookup"><span data-stu-id="60c46-238">We have this feature on our long-term roadmap.</span></span> 
+
+<!-- 21 -->
+### <a name="if-i-use-azure-data-factory-to-get-data-from-business-central-and-consume-it-on-power-bi-will-that-help-in-increase-in-performance"></a><span data-ttu-id="60c46-239">Si j′utilise Azure Data Factory pour obtenir les données depuis Business Central et les consommer sur Power BI, cela aidera-t-il à augmenter les performances ?</span><span class="sxs-lookup"><span data-stu-id="60c46-239">If I use Azure Data Factory to get data from Business Central and consume it on Power BI, will that help in increase in performance?</span></span> 
+
+<span data-ttu-id="60c46-240">Oui.</span><span class="sxs-lookup"><span data-stu-id="60c46-240">Yes.</span></span> <span data-ttu-id="60c46-241">Ce scénario avancé aiderait Business Central à rester performant car l′accès aux données se ferait via Azure Data Factory.</span><span class="sxs-lookup"><span data-stu-id="60c46-241">This advanced scenario will help Business Central stay performant, because the data access would be done via the Azure Data Factory.</span></span>
+
+<!-- 22 -->
+### <a name="are-there-any-plans-to-support-power-bi-deployment-pipelines-or-a-way-to-build-deployment-pipelines-for-pbi-reports-similar-to-extensions-or-maybe-even-a-simple-api-in-the-business-admin-center"></a><span data-ttu-id="60c46-242">Est-il prévu de prendre en charge les pipelines de déploiement de Power BI, ou un moyen de créer des pipelines de déploiement pour les états PBI, similaires aux extensions ?</span><span class="sxs-lookup"><span data-stu-id="60c46-242">Are there any plans to support Power BI deployment pipelines or a way to build deployment pipelines for PBI reports, similar to extensions?</span></span> <span data-ttu-id="60c46-243">Ou peut-être même une API simple dans le Centre d′administration ?</span><span class="sxs-lookup"><span data-stu-id="60c46-243">Or maybe even a simple API in the Business Admin Center?</span></span> 
+
+<span data-ttu-id="60c46-244">Nous étudions cette fonctionnalité.</span><span class="sxs-lookup"><span data-stu-id="60c46-244">We're looking into this feature.</span></span> <span data-ttu-id="60c46-245">Power BI propose des API riches pour contrôler les déploiements d′états.</span><span class="sxs-lookup"><span data-stu-id="60c46-245">Power BI offers rich APIs to control report deployments.</span></span> <span data-ttu-id="60c46-246">Pour plus d′informations, voir [Introduction aux pipelines de déploiement](/power-bi/create-reports/deployment-pipelines-overview).</span><span class="sxs-lookup"><span data-stu-id="60c46-246">For more information, see [Introduction to deployment pipelines](/power-bi/create-reports/deployment-pipelines-overview).</span></span>
+
+### <a name="ive-tried-the-preview-of-the-new-connector-which-will-be-live-in-june-2021-i-see-some-values-like-_x0020_-when-connecting-to-api-v20-what-are-these-values"></a><span data-ttu-id="60c46-247">J′ai essayé la version préliminaire du nouveau connecteur qui sera disponible en juin 2021.</span><span class="sxs-lookup"><span data-stu-id="60c46-247">I've tried the preview of the new connector, which will be live in June 2021.</span></span> <span data-ttu-id="60c46-248">Je vois des valeurs comme « _x0020_ » lors de la connexion à API v2.0.</span><span class="sxs-lookup"><span data-stu-id="60c46-248">I see some values like "_x0020_" when connecting to API v2.0.</span></span> <span data-ttu-id="60c46-249">Quelles sont ces valeurs ?</span><span class="sxs-lookup"><span data-stu-id="60c46-249">What are these values?</span></span>
+
+<span data-ttu-id="60c46-250">La prochaine version du connecteur Power BI permet de se connecter aux pages de l′API de Business Central, ce qui inclut API v2.0.</span><span class="sxs-lookup"><span data-stu-id="60c46-250">The upcoming version of the Power BI connector enables you to connect to the Business Central API pages, including API v2.0.</span></span> <span data-ttu-id="60c46-251">Ces pages incluent des champs basés sur les [objets AL Enum](/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums).</span><span class="sxs-lookup"><span data-stu-id="60c46-251">These pages include a few fields based on [AL Enum objects](/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums).</span></span> <span data-ttu-id="60c46-252">Les champs basés sur les objets AL Enum doivent avoir des noms cohérents et toujours identiques afin que les filtres de l′état fonctionnent toujours&mdash;quels que soient la langue ou le système d′exploitation utilisés.</span><span class="sxs-lookup"><span data-stu-id="60c46-252">Fields based on AL Enum objects must have names that are consistent and always the same, so that filters on the report always work&mdash;no matter the language or operating system you're using.</span></span> <span data-ttu-id="60c46-253">Pour cette raison, les champs basés sur AL Enum ne sont pas traduits et sont codés pour éviter tout caractère spécial dont l′espace.</span><span class="sxs-lookup"><span data-stu-id="60c46-253">For this reason, the fields based on AL Enums aren't translated and are encoded to avoid any special character, including the space.</span></span> <span data-ttu-id="60c46-254">En particulier, chaque fois qu′il y a une option vide dans l′objet AL Enum, elle est codée en « _x0020_ ».</span><span class="sxs-lookup"><span data-stu-id="60c46-254">In particular, whenever there's an empty option in the AL Enum object, it's encoded to "_x0020_".</span></span> <span data-ttu-id="60c46-255">Vous pouvez toujours appliquer une transformation à vos données sur Power BI pour afficher une valeur différente pour ces champs, par exemple « Vide ».</span><span class="sxs-lookup"><span data-stu-id="60c46-255">You can always apply a transformation to your data on Power BI if you want to display some different value for these fields, for example "Empty".</span></span>
+
+
+---
+
+## <a name="see-also"></a><span data-ttu-id="60c46-256">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="60c46-256">See Also</span></span>
+
+<span data-ttu-id="60c46-257">[Licence Power BI](admin-powerbi-setup.md#license)
+[Introduction à Business Central et à Power BI](admin-powerbi.md)</span><span class="sxs-lookup"><span data-stu-id="60c46-257">[Power BI Licensing](admin-powerbi-setup.md#license)
+[Business Central and Power BI Introduction](admin-powerbi.md)</span></span>  
+[<span data-ttu-id="60c46-258">Vue d’ensemble de l’intégration Power BI</span><span class="sxs-lookup"><span data-stu-id="60c46-258">Power BI Integration Overview</span></span>](admin-powerbi-overview.md)  
+[<span data-ttu-id="60c46-259">Activation de Power BI dans Business Central</span><span class="sxs-lookup"><span data-stu-id="60c46-259">Enabling Power BI in Business Central</span></span>](admin-powerbi-setup.md)  
+[<span data-ttu-id="60c46-260">Utiliser les états Power BI dans Business Central</span><span class="sxs-lookup"><span data-stu-id="60c46-260">Working with Power BI Reports in Business Central</span></span>](across-working-with-powerbi.md)  
+[<span data-ttu-id="60c46-261">Utilisation des données Business Central dans Power BI</span><span class="sxs-lookup"><span data-stu-id="60c46-261">Working with Business Central Data in Power BI</span></span>](across-working-with-business-central-in-powerbi.md)  
+<span data-ttu-id="60c46-262">[Création d′états Power BI pour afficher les données Business Central](across-how-use-financials-data-source-powerbi.md)  </span><span class="sxs-lookup"><span data-stu-id="60c46-262">[Building Power BI Reports to Display Business Central Data](across-how-use-financials-data-source-powerbi.md)  </span></span>  
+[<span data-ttu-id="60c46-263">Documentation Power BI</span><span class="sxs-lookup"><span data-stu-id="60c46-263">Power BI documentation</span></span>](/power-bi/)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
