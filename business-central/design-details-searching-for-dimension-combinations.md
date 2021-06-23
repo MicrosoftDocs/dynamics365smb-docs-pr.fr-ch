@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: db971af61719bfa84566c78cc91b4c805c14ab9b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 544cb3a1844aaf85ab937031a23d6d00506ffa74
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783862"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215769"
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Détails de conception : recherche des croisements analytiques
 Lorsque vous fermez une page après avoir modifié un ensemble de dimensions, [!INCLUDE[prod_short](includes/prod_short.md)] évalue si l’ensemble de dimensions modifié existe. Si l’ensemble n’existe pas, un nouvel ensemble est créé et le code de croisement analytique est retourné.  
@@ -73,8 +73,7 @@ EXIT(DimSet.ID);
 ```  
 
 ## <a name="see-also"></a>Voir aussi
-
- [Fonction GET (Enregistrement)](/dynamics-nav/GET-Function--Record-)    
+    
  [Détails de conception : écritures d’ensemble de dimensions](design-details-dimension-set-entries.md)   
  [Aperçu des écritures de l’ensemble de dimensions](design-details-dimension-set-entries-overview.md)   
  [Détails de conception : structure de la table](design-details-table-structure.md)   

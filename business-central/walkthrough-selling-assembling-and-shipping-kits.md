@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ab6625213bdca813bb2ace08b0b07c828ef99678
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 98fe9a8e3600156f158cdfc1ce37ad3349cafa1b
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782874"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216320"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Procédure pas-à-pas : vente, assemblage et expédition de kits
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 Pour prendre en charge un stock juste-à-temps (JIT) et permettre la personnalisation des produits conformément aux demandes client, il est possible de créer des ordres d’assemblage et de les lier automatiquement dès que la ligne commande vente est créée. Le lien entre la demande vente et l’approvisionnement d’assemblage permet aux préparateurs de commandes vente de personnaliser l’article d’assemblage et de proposer des dates de livraison en fonction de la disponibilité des composants. En outre, la consommation et le résultat d’assemblage sont validés automatiquement avec l’expédition de la commande vente liée.  
 
@@ -107,7 +107,7 @@ Supprimez le délai par défaut pour les processus internes en procédant comme 
 1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres production**, puis sélectionnez le lien associé.  
 2.  Sur la page **Paramètres production**, sous le raccourci **Planning**, supprimez la valeur dans le champ **Délai de sécurité par défaut**.  
 
-Créez le stock des composants d’assemblage en suivant [Préparation d’exemples de données](walkthrough-selling-assembling-and-shipping-kits.md#prepare-sample-data).  
+<!-- Create inventory for assembly components by following [Prepare Sample Data](walkthrough-selling-assembling-and-shipping-kits.md#prepare-sample-data).   -->
 
 ## <a name="story"></a>Scénario  
 Le 23 janvier, Susan, préparatrice de commandes vente, accepte une commande de The Device Shop pour trois unités de kit B, c’est-à-dire un article « assembler pour commande ». Les trois unités sont personnalisées et doivent contenir la carte graphique élevée et un bloc de RAM supplémentaire. Les lecteurs de disque sont mis à niveau vers DWD car les lecteurs de CD ne sont pas disponibles. Susan sait que les unités peuvent être assemblées immédiatement, c’est pourquoi elle laisse la date d’expédition suggérée du 23 janvier.  
@@ -443,7 +443,7 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
  [Détails de conception : validation d’ordre d’assemblage](design-details-assembly-order-posting.md)   
  [Détails de conception : flux d’entrepôt internes](design-details-internal-warehouse-flows.md)   
  [Détails de conception : flux de désenlogement](design-details-outbound-warehouse-flow.md)   
- [Procédure pas à pas : planification automatique des approvisionnements](walkthrough-planning-supplies-automatically.md)
+<!--  [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

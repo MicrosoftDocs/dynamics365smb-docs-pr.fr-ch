@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4fc4bf753788156143e482a89699e53a10fb52b4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0e26df80ecfc0c7921e4f06b3094ae81ae7c29e4
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772219"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216093"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Procédure pas à pas : calcul des travaux en cours pour un projet
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 Avec les projets, vous pouvez planifier l’utilisation des ressources de votre société et suivre les différents coûts pour un projet spécifique. Les projets impliquent la consommation d’heures salarié, d’heures machines, d’articles en stock et d’autres types d’activité devant être suivis au fur et à mesure de l’avancée du projet. Si celui-ci couvre une longue période, il se peut que vous souhaitiez transférer les coûts correspondants vers un compte Travaux en cours (TEC) dans le bilan au cours de projet. Vous pouvez ensuite reconnaître les coûts et ventes dans vos comptes de gestion, le cas échéant.  
 

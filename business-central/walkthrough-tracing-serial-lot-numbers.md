@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5bf9da1a8e561f49ae02e8178c0eb2b8232e93ba
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6d06d39ac3e3b1bb9ad0a3b9089b295c899e9f74
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771969"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216295"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Procédure pas à pas : suivi des numéros de série et des numéros de lot
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 En cas de produit défectueux, vous devez identifier les erreurs et empêcher les articles concernés d’être vendus. Si des articles défectueux ont déjà été expédiés, vous devez procéder au suivi des destinataires et, au besoin, de rappeler les articles.  
 
@@ -51,7 +51,7 @@ Cette procédure pas à pas présente les tâches effectuées par les rôles uti
 Pour exécuter ce processus pas à pas, vous devez :  
 
 - La société [!INCLUDE[prod_short](includes/prod_short.md)].  
-- Pour créer des articles et plusieurs transactions commerciales en suivant [Préparation d’exemples de données](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data).  
+<!-- - To create new items and several business transactions by following the [Prepare Sample Data](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data).   -->
 
 ## <a name="story"></a>Scénario
 

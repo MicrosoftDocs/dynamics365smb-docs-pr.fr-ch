@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 6e7e02cba2648f0791925acc6f0e2c0b9662e345
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a572b9cee77a6fb89c0d44a48150dbba4742cc6e
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779597"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215868"
 ---
 # <a name="design-details-planning-parameters"></a>Détails de conception : paramètres de planification
 Cette rubrique décrit les différents paramètres de planification que vous pouvez utiliser dans [!INCLUDE[prod_short](includes/prod_short.md)].  

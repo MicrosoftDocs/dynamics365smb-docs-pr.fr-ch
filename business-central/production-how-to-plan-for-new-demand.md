@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ab3929a410a280494d806e7aeea5c54ce966769e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bed73380344c0900a00d6d704ee2d853a1bf165d
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787992"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216245"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Planifier de nouvelles demandes commande par commande
 Cette tâche de planification peut être effectuée sur la page **Planning commande**, affichant toute nouvelle demande ainsi que les informations de disponibilité et les suggestions d’approvisionnement. Elle fournit la visibilité et les outils nécessaires à la planification efficace des demandes des lignes vente et des lignes composant, puis à la création directe de différents types de commandes approvisionnement.  
@@ -109,11 +109,11 @@ Une fois que la planification est terminée sur la page **Planning commande** et
 >  Les commandes approvisionnement que vous créez peuvent introduire une demande dépendante, par exemple, pour les ordres de fabrication sous-jacents ; vous devez donc choisir à nouveau **Calculer planning** pour rechercher et résoudre ceci avant de poursuivre la liste.  
 
 ## <a name="see-also"></a>Voir aussi  
-[Procédure pas à pas : Planification manuelle des approvisionnements](walkthrough-planning-supplies-manually.md)  
+<!-- [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)   -->
 [Planifié](production-planning.md)  
 [Paramétrage de la production](production-configure-production-processes.md)  
 [Production](production-manage-manufacturing.md)    
-[Stock](inventory-manage-inventory.md)  
+[STOCKS ET EN-COURS](inventory-manage-inventory.md)  
 [Achats](purchasing-manage-purchasing.md)  
 [Détails de conception : planification de l’approvisionnement](design-details-supply-planning.md)   
 [Pratiques de configuration recommandées : planification de l’approvisionnement](setup-best-practices-supply-planning.md)  

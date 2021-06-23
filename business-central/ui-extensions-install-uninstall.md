@@ -9,23 +9,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
-ms.date: 04/01/2021
+ms.date: 06/03/2021
 ms.author: solsen
-ms.openlocfilehash: 98bb45f10b228077114d7387e9bc30a30cf7e3c6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 564b9574188acd63acaa660f4a440be791846ef7
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774268"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216220"
 ---
 # <a name="installing-and-uninstalling-extensions-in-business-central"></a>Installation et désinstallation d’extensions dans Business Central
 
 Vous pouvez modifier [!INCLUDE[prod_short](includes/prod_short.md)] en installant des extensions qui, par exemple, ajoutent des fonctionnalités, modifient le comportement de l’application, ou vous permettent d’accéder à de nouveaux services en ligne. Pour plus d’informations, voir [Personnalisation de Business Central à l’aide d’extensions](ui-extensions.md).
 
 > [!NOTE]
-> Pour installer des extensions à partir de AppSource ou ajouter des extensions par locataire, vous devez disposer des autorisations adéquates. Vous devez être membre du groupe d’utilisateurs D365 EXTENSION MGT ou disposer du jeu d’autorisations D365 EXTENSION MGT. Si vous êtes un administrateur, vous pouvez attribuer des groupes d’utilisateurs et des autorisations à d’autres utilisateurs de votre entreprise.
+> Pour installer des extensions à partir de AppSource ou ajouter des extensions par locataire, vous devez disposer des autorisations adéquates. Vous devez soit être membre du groupe d’utilisateurs EXTEND. MGT. - ADMIN ou l’ensemble d’autorisation EXTEND. MGT. - ADMIN doit vous être accordé. Si vous êtes un administrateur, vous pouvez attribuer des groupes d’utilisateurs et des autorisations à d’autres utilisateurs de votre entreprise.
 >
 > Pour utiliser les fonctionnalités fournies par une extension, telles que l’ouverture de pages, la production de rapports, la sélection d’actions, etc., vous devez disposer des jeux d’autorisations installés avec cette extension.
+
+> [!NOTE]  
+> L’ensemble d’autorisations **EXTEND. MGT. - ADMIN** a été introduit dans la première vague de lancement de Business Central 2021 pour remplacer l’ensemble d’autorisations **D365 EXTENSION MGT** des versions antérieures.
 
 ## <a name="installing-an-extension"></a>Installation d’une extension
 

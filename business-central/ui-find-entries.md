@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 5f8ddd7176e69c9d1eb3b8d8ff98c93695d50993
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a29cea15cba15da1bc68816e07f76de59f43958b
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771176"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216143"
 ---
 # <a name="finding-related-entries-for-posted-documents"></a>Recherche d’écritures associées pour les documents validés 
 
@@ -67,7 +67,7 @@ Vous pouvez rechercher des écritures en fonction des informations relatives au 
 Après avoir effectué une sélection, entrez les informations de recherche pertinentes dans les champs d’en haut. Utilisez les info-bulles sur les champs pour vous aider. Lorsque vous avez terminé, choisissez **Rechercher** pour lancer la recherche. Si vous modifiez l’un des filtres, vous devez cliquer sur **Rechercher** à nouveau.
 
 > [!TIP]
-> Pour quelques exemples d’utilisation de **Rechercher des écritures**, voir [Tracer des articles – suivis des articles](inventory-how-to-trace-item-tracked-items.md) et [Procédure pas à pas : Traçage des n° de série-lot](walkthrough-tracing-serial-lot-numbers.md).
+> Pour consulter quelques exemples d’utilisation de **Recherche des écritures**, voir [Tracer des articles - Articles suivis](inventory-how-to-trace-item-tracked-items.md) <!--and [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md). -->
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
 
